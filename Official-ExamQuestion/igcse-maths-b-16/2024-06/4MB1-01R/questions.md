@@ -21,8 +21,6 @@ Write 75 millimetres as a fraction of 3 metres. Give your answer in its simplest
 > 1 1mm
 > A1cao Do not ISW ignore any units eg
 > 40 40mm
-> cas Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 75 0.075 7.5 0.75 2 M1 a ‘correct’ but un-simplified fraction (condone decimals in the
 
@@ -48,8 +46,6 @@ Write 6281 to 3 significant figures.
 
 > 6280 1 B1 allow 628 × 10 or 628 ×101 or 6.28 ×103 or 6.280 ×103 or
 > 62.8 ×102 62.80 ×102 Do not accept 6.2800 ×103
-> Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(1)** 6280 1 B1 allow 628 × 10 or 628 ×101 or 6.28 ×103 or 6.280 ×103 or
 
@@ -68,8 +64,6 @@ Simplify 2t 2v
 > 4t 5v 2 2 B2
 > (B1 for an expression in which 2 of the terms have been simplified
 > correctly. eg 4t5 or 4t5v)
-> cas Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 4t 5v 2 2 B2
 
@@ -106,8 +100,6 @@ Explain why Barney is wrong.
 > • numbers are 107 or > 107
 > • the smallest value is 107
 > • the first term is 107 and terms increase /don’t decrease
-> Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(1)** eg ‘it would mean n² = ‒9 1 B1 a correct reason (which needs to refer to a value other than 37)
 
@@ -131,8 +123,6 @@ Evaluate 3 10 2 Give your answer in standard form.
 > oe
 > 2.06 ×107 A1 Do not ISW mark their answer on the answer line or if no
 > answer on the answer line their final answer.
-> cas Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 6 180 000 000 oe eg 6.18 ×109 or 2 M1 allow for a correct numerator in any form or
 
@@ -152,8 +142,6 @@ Simplify (36a c ) 8 2 2
 > 66 a 24 c 6 3 terms or for an expression of 3 terms in the form ma p c q with 2 of
 > m, p and q correct or a12 c3
 > 216a12c3 A1 ISW Do not allow 63 a12c3
-> cas Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 6a 4 c or 46656a 24c6 or 363 a 24c 6 or 2 M1 for correctly applying the power of 3 or the power of a 0.5 to all
 
@@ -183,7 +171,6 @@ Without using a calculator and showing all your working, calculate 1 1 2 ÷2 4 7
 > =1
 > 20
 > wr Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 9 15 3 M1 for writing both mixed numbers as improper fractions. Do not
 
@@ -194,7 +181,9 @@ Given that y 12 x 3 x2 dy find dx dy = . . . . . . . . . . . . . . . . . . . . .
 
 ### 8 [3]
 
-Given that y 12 x 3 x2 dy find dx dy = dx
+Given that y 12 x 3 x² dy find dx dy = ……………dx
+
+Given that y 12 x 3 x² dy find dx dy = dx
 
 
 **Mark scheme answer**
@@ -203,12 +192,10 @@ Given that y 12 x 3 x2 dy find dx dy = dx
 > ⎡ 16 ⎤ −2 M1 for rewriting the second term as 16x −2 This can be seen
 > ⎢⎣ x 2 = ⎥⎦ 16x anywhere including in an expression for dy/dx
 > May be implied by −2 ×16x −3 oe
-> 36 x2 − 32 x−3 2
+> 36 x² − 32 x−3 2
 > A1 oe eg 36x −
-> x3
+> x³
 > Need not be simplified eg allow 3 ×12 x² − 2 ×16 × x −3
-> cas Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 3 ×12 x ² or 36 x ² 3 M1 for differentiating the first term correctly
 
@@ -237,7 +224,6 @@ X c f a = 40 to the nearest whole number c = 2.2 to 1 decimal place f = 0.6 to 1
 > = 27 • •
 > 2.15 − 0.65 Allow 40.49 for 40.5 and 0.649 for 0.65
 > wr Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 39.5, 40.5, 2.15, 2.25, 0.55, 0.65 3 • •
 
@@ -250,7 +236,9 @@ y x + 2y = 8 R −3 −2 −1 O 1 2 3 4 5 6 7 8 9 10 x −1 −2 −3 The region
 
 y x + 2y = 8 R −3 −2 −1 O 1 2 3 4 5 6 7 8 9 10 x −1 −2 −3 The region R, shown shaded in the diagram, is bounded by three straight lines. Find three inequalities that define R
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_10_diagram.png)
 
 
 **Mark scheme answer**
@@ -263,8 +251,6 @@ y x + 2y = 8 R −3 −2 −1 O 1 2 3 4 5 6 7 8 9 10 x −1 −2 −3 The region
 > y 2x + 3 A1 oe allow equivalent inequality eg y − 2 x 3 or
 > y − (1) 2 ( x − (−1) ) accept < for
 > SC if y − 1 and x + 2 y 8 and y 2 x + 3 score B2. Allow correct sign without the =
-> cas Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** y −1 4 B1 oe accept > for
 
@@ -319,7 +305,6 @@ Show, by shading, the region R Label the region R
 > NB if they do not shade and just label R they need
 > to put R both sides of the line AB (if they have
 > drawn the line AB)
-> Total 4 marks
 > Q Working Answer Mark Notes
 
 - **(1)** correct region indicated 1 B1 dep on at least B1 being awarded in (b) for
@@ -331,16 +316,19 @@ A Diagram NOT accurately drawn B C 12.6 cm The diagram shows isosceles triangle 
 
 ### 12 [4]
 
-A Diagram NOT accurately drawn B C 12.6 cm The diagram shows isosceles triangle ABC where AB = AC BAC 90° BC = 12.6 cm Calculate the perimeter, in cm to one decimal place, of the triangle cm
+The diagram shows isosceles triangle ABC where AB = AC BAC 90° BC = 12.6 cm Calculate the perimeter, in cm to one decimal place, of the triangle cm
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, B, C · Figure values: 12.6.
+
+![diagram — official paper figure (qp.pdf p.7)](assets/asset_12_diagram.png)
 
 
 **Mark scheme answer**
 
 > eg x 2 + x 2 = 12.62 or 4 M1 for a correct statement using Pythagoras
 > or trigonometry to find side AB/AC
-> ⎡⎣ AC 2 = ⎤⎦ (0.5 ×12.6)2 + (0.5 ×12.6)2 ⎡⎣ = 39.69 + 39.692 = 79.38⎤⎦ or
+> ⎡⎣ AC 2 = ⎤⎦ (0.5 ×12.6)² + (0.5 ×12.6)² ⎡⎣ = 39.69 + 39.692 = 79.38⎤⎦ or
 > NB do not award for AB 2 + AC 2 = 12.62
 > eg sin 45 =
 > AC
@@ -365,8 +353,6 @@ A Diagram NOT accurately drawn B C 12.6 cm The diagram shows isosceles triangle 
 > For using 2 × n + 12.6 where 6.3 < n < 12.6
 > If n is incorrect, working must be shown
 > 30.4 A1 awrt 30.4 (actual 30.41909…)
-> cas Total 4 marks
-> Qu Working Ans Mar Notes
 
 - **(4)** eg x 2 + x 2 = 12.62 or 4 M1 for a correct statement using Pythagoras
 
@@ -377,9 +363,12 @@ T P Diagram NOT accurately drawn 40° Q R The diagram shows shape PTRQ where PRQ
 
 ### 13 [4]
 
-T P Diagram NOT accurately drawn 40° Q R The diagram shows shape PTRQ where PRQ is a triangle and PTR is a semicircle with diameter PR PQR 90° PRQ 40° PQ = 8 cm Calculate the total area, in cm² to the nearest whole number, of shape PTRQ cm2
+The diagram shows shape PTRQ where PRQ is a triangle and PTR is a semicircle with diameter PR PQR 90° PRQ 40° PQ = 8 cm Calculate the total area, in cm² to the nearest whole number, of shape PTRQ cm²
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: T, P, Q, R · Figure values: 40°.
+
+![diagram — official paper figure (qp.pdf p.8)](assets/asset_13_diagram.png)
 
 
 **Mark scheme answer**
@@ -410,7 +399,7 @@ T P Diagram NOT accurately drawn 40° Q R The diagram shows shape PTRQ where PRQ
 > sin 40
 > ⎛ "12.445..." ⎞
 > 2 or for a correct method to find the area of the
-> area of PTR = 0.5 × π × ⎜ ⎟ [ = 60.8...] or semicircle PTR or a correct method to find area of
+> area of PTR = 0.5 × π × [ = 60.8...] or semicircle PTR or a correct method to find area of
 > ⎝ 2 ⎠ PQR using their PR (from correct working) and
 > 1 1 PQ = 8
 > area of PQR = × 8 × "9.534..." or × 8 × "12.445..."× sin(90 − 40) or
@@ -420,19 +409,16 @@ T P Diagram NOT accurately drawn 40° Q R The diagram shows shape PTRQ where PRQ
 > 2 come from correct working.
 > ⎛ "12.445" ⎞
 > 2 M1 correct method to find the whole area. If
-> 0.5 × "9.534 …"× 8 + 0.5 × π × ⎜ ⎟ or working is shown ft their PR(diameter) and/or PQ
+> 0.5 × "9.534 …"× 8 + 0.5 × π × or working is shown ft their PR(diameter) and/or PQ
 > ⎝ 2 ⎠
 > if clearly labelled or marked on the diagram or
 > ⎛ "12.445" ⎞ "12.445..."
-> 0.5 × 8 × "12.445..."sin(50) + 0.5 × π × ⎜ ⎟ or comes from correct working. Allow or
+> 0.5 × 8 × "12.445..."sin(50) + 0.5 × π × or comes from correct working. Allow or
 > ⎝ 2 ⎠
 > ⎛ "12.445" ⎞
 > 2 "6.22…" for the radius.
-> 0.5 × "12.445..."× "9.534..."sin(40) + 0.5 × π × ⎜ ⎟
-> ⎝ 2 ⎠
+> 0.5 × "12.445..."× "9.534..."sin(40) + 0.5 × π × 2 
 > 99 A1 awrt 99 or awrt 98
-> cas Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 8 8 QR 8 4 M1 for a correct method or expression to find QR
 
@@ -456,7 +442,7 @@ Solve the simultaneous equations 2 x 6 y 3 x 5 y Show clear algebraic working. x
 > or
 > or writing x or y in terms of the other variable
 > ⎛ 14 − 6 y ⎞ ⎛ 14 − 2 x ⎞ and correctly substituting to gain an equation
-> eg 3 ⎜ ⎟ + 5 y = 10 or 3 x + 5 ⎜ ⎟ = 10 in one variable
+> eg 3 + 5 y = 10 or 3 x + 5 = 10 in one variable
 > ⎝ 2 ⎠ ⎝ 6 ⎠
 > x = ‒1.25 or A1 oe one correct value dep on M1
 > y = 2.75 7
@@ -474,7 +460,6 @@ Solve the simultaneous equations 2 x 6 y 3 x 5 y Show clear algebraic working. x
 > switched on the answer line allow if seen
 > correct in working
 > wr Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** eg 6x + 18y = 42_ or 10x + 30y = 70_ 4 M1 For balancing the equations (only condone
 
@@ -519,8 +504,6 @@ Make y the subject of c y
 > (NB: if the final answer is missing y =…but is otherwise
 > correct , award full marks if y = a correct expression has
 > been seen in the working otherwise do not ISW)
-> cas Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 3y + 5
 
@@ -531,9 +514,12 @@ A 8 cm C Diagram NOT O accurately drawn P 3 cm D 4.5 cm B A, D, B and C are poin
 
 ### 16 [4]
 
-A 8 cm C Diagram NOT O accurately drawn P 3 cm D 4.5 cm B A, D, B and C are points on a circle centre O COD is a diameter of the circle. AB is a chord of the circle. COD and AB intersect at the point P AP = 8 cm PB = 4.5 cm PD = 3 cm Calculate the circumference, in cm to 3 significant figures, of the circle cm
+A, D, B and C are points on a circle centre O COD is a diameter of the circle. AB is a chord of the circle. COD and AB intersect at the point P AP = 8 cm PB = 4.5 cm PD = 3 cm Calculate the circumference, in cm to 3 significant figures, of the circle cm
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, C, O, P, D, B · Figure values: 8, 3, 4.5.
+
+![diagram — official paper figure (qp.pdf p.10)](assets/asset_16_diagram.png)
 
 
 **Mark scheme answer**
@@ -554,8 +540,6 @@ A 8 cm C Diagram NOT O accurately drawn P 3 cm D 4.5 cm B A, D, B and C are poin
 > 2 × π × "7.5" or 2π × ("4.5"+ 3) clearly labelled or on the diagram. Allow 3.14… or
 > for π
 > 47.1 A1 awrt 47.1 or 15π
-> cas Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 8 CP 8 x + ( x + 3) 4 M1 for forming a correct equation. Using the chord
 
@@ -569,14 +553,12 @@ Find the position vector of the point B
 **Mark scheme answer**
 
 > ⎡ → ⎤ ⎛ 3⎞ ⎛ 5⎞ ⎛ 3 ⎞ ⎛ −5 ⎞ 2 →
-> ⎢ OB = ⎥ ⎜ ⎟ − ⎜ ⎟ or ⎜ ⎟ + ⎜ ⎟ or M1 for a correct method to find OB or may be implied by
+>  OB = − or + or M1 for a correct method to find OB or may be implied by
 > ⎣ ⎦ ⎝ −2 ⎠ ⎝ −9 ⎠ ⎝ −2 ⎠ ⎝ 9 ⎠ ⎛ −2 ⎞ ⎛ ... ⎞ ⎛ 7⎞
-> one correct value ie ⎜ ⎟ or ⎜ ⎟ or for ⎜ ⎟
-> ⎝ ... ⎠ ⎝ 7⎠ ⎝ −2 ⎠
+> one correct value ie or or for ... ⎠ ⎝ 7⎠ ⎝ −2 ⎠
 > Must be seen on (a)
 > ⎛ −2 ⎞ A1
-> ⎜ ⎟
-> ⎝ 7⎠
+>  7
 
 - **(2)** ⎡ → ⎤ ⎛ 3⎞ ⎛ 5⎞ ⎛ 3 ⎞ ⎛ −5 ⎞ 2 →
 
@@ -597,8 +579,6 @@ Calculate ½ ½, giving your answer as a surd. ½ ½=
 > A1 ft their answer (as a simplified surd) to (a) or OB
 > found in (b) Do not ISW. This mark implies the M1
 > If no working is shown you may need to check.
-> cas Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(2)** ("− 2") 2 + "7"2 [ = 7.28...] oe 2 M1 allow use of 2 rather than ‒2 and –7 rather than 7. May
 
@@ -635,8 +615,6 @@ Calculate an estimate for the mean height, in cm, of these plants cm
 > 80 ⎢⎣ = 80 ⎦⎥
 > 28.75 115
 > A1oe allow or 28.7 or 28.8 or (29 from correct working)
-> cas Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 5 × 2 + 15 × 26 + 25 × 10 + 35 × 24 + 45 × 18 4 M2 for at least 3 correct products using midpoints with
 
@@ -670,8 +648,6 @@ The students in class 7T and the students in class 8Y were asked to name their f
 > NB the number 3 can be gained from incorrect working, so
 > need to check it.
 > If no working is shown then award 5/5
-> Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(5)** 2 x + 3 + 5 x − 12 + 3x + 1 = 32 oe eg 10 x − 8 = 32 5 M1 for setting up an equation. Implied by x = 4
 
@@ -712,7 +688,6 @@ Work out the value of x when A 35 and w 4.5 x =
 > ‒5.5 −44 −11
 > A1 oe eg or
 > cas 8
-> Total 5 marks
 > Que Working Ans M Notes
 > 5 M1 surface areas of both hemispheres seen (need not be
 > { } ⎧
@@ -726,7 +701,9 @@ O Diagram NOT accurately drawn The diagram shows a solid shape made by joining a
 
 ### 21 [5]
 
-O Diagram NOT accurately drawn The diagram shows a solid shape made by joining a large hemisphere and a small hemisphere. The centre of the base of the large hemisphere and the centre of the base of the small hemisphere meet at the point O radius of large hemisphere : radius of small hemisphere = 3 : 1 The total surface area of the solid shape is 567π cm 2 Calculate the total volume, in cm³ to 3 significant figures, of the solid shape cm³
+O Diagram NOT accurately drawn The diagram shows a solid shape made by joining a large hemisphere and a small hemisphere. The centre of the base of the large hemisphere and the centre of the base of the small hemisphere meet at the point O radius of large hemisphere : radius of small hemisphere = 3 : 1 The total surface area of the solid shape is 567π cm² Calculate the total volume, in cm³ to 3 significant figures, of the solid shape cm³
+
+![diagram — official paper figure (qp.pdf p.16) (same figure as asset_21_q_diagram_stem)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2024-06/4MB1-01R/assets/asset_21_q_diagram_stem.png)
 
 ![diagram — official paper figure (qp.pdf p.16) — shared with asset_21_q_diagram_stem](assets/asset_21_q_diagram_stem.png)
 
@@ -734,11 +711,11 @@ O Diagram NOT accurately drawn The diagram shows a solid shape made by joining a
 **Mark scheme answer**
 
 > ✓
-> or ⎪⎩2π ⎛⎜ 2⎪
-> R⎞
+> or ⎪⎩2π 2⎪
+> R
 > eg 2π r and 2π (3r )
 > 2
-> ⎟ and 2π R ⎫ or added and may be part of an equation)
+>  and 2π R ⎫ or added and may be part of an equation)
 > ⎪
 > ⎩ ⎝3⎠ ⎪
 > ⎭ Or for a correct formula for the total surface area. Allow
@@ -747,20 +724,20 @@ O Diagram NOT accurately drawn The diagram shows a solid shape made by joining a
 > 2 2 2 2 2
 > 2 ( 3) + ( 3) + 2 (1) − (1) or
 > 2 2 2
-> or 2π ( m ) + π m2 + 2π ( n ) − π ( n ) where m = 3n
+> or 2π ( m ) + π m² + 2π ( n ) − π ( n ) where m = 3n
 > 2 2
 > 2π ( 3) + π ( 3) + 2π (1) − π (1) oe
 > 2 2 2
 > Allow use of other letters
 > May be implied by the 2nd M1
-> 2π r 2 + 2π (3r )2 + π (3r )2 − π r 2 = 567π oe or M1 a correct equation for the surface area of the solid
+> 2π r 2 + 2π (3r )² + π (3r )² − π r 2 = 567π oe or M1 a correct equation for the surface area of the solid
 > 2 2 2
 > 2 2 eg 2(nr ) + 2(3nr ) + (3nr ) − (nr ) = 567
 > ⎛R⎞ ⎛R⎞
-> 2π R 2 + 2π ⎜ ⎟ + π R 2 − π ⎜ ⎟ = 567π oe or or 28π r 2 = 567π or 28r 2 = 567
+> 2π R 2 + 2π + π R 2 − π = 567π oe or or 28π r 2 = 567π or 28r 2 = 567
 > ⎝3⎠ ⎝3⎠ 2
 > ⎛R⎞
-> 2 ( 3) + ( 3) + 2 (1) − (1) : 567 or 2 R 2 + 2 ⎜ ⎟ + R 2 − ⎛⎜ ⎞⎟ = 567
+> 2 ( 3) + ( 3) + 2 (1) − (1) : 567 or 2 R 2 + 2 + R 2 − = 567
 > 2 2 2 2 R
 > ⎝3⎠ ⎝3⎠
 > 2π ( 3) + π ( 3) + 2π (1) − π (1) : 567π
@@ -783,8 +760,6 @@ O Diagram NOT accurately drawn The diagram shows a solid shape made by joining a
 > wr 5340 A1 awrt to 5340 dependent on at least the 3rd M1 mark
 > being awarded from correct working
 > (5343.8….)
-> Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(5)** ✓
 
@@ -826,8 +801,6 @@ Express in the form y x + y where x and y are integers. 5 −1 Show each stage o
 > A1 dep on both the previous marks being
 > wr 3 5 +3 awarded. Allow y = 3 and x = 5 or 3 + 3 5
 > do not allow 3 ( 5 + 1) and do not ISW
-> Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 12 5 +1 12 − 5 −1 3 M1 multiply numerator and denominator by
 
@@ -843,9 +816,9 @@ Use the factor theorem to show that k = 19
 
 **Mark scheme answer**
 
-> 6 × (−4)3 + k × (−4)2 − 26 × −4 − 24 = 0 or 2 M1 correct substitution of x = − 4 into equation. Must
+> 6 × (−4)³ + k × (−4)² − 26 × −4 − 24 = 0 or 2 M1 correct substitution of x = − 4 into equation. Must
 > be equal to zero (or implied by later working) or if
-> 6 × (−4)3 + 19 × (−4)2 − 26 × −4 − 24 substituting x = − 4 and k = 19 into the expression we
+> 6 × (−4)³ + 19 × (−4)² − 26 × −4 − 24 substituting x = − 4 and k = 19 into the expression we
 > do not need it = 0 for this mark. Condone missing
 > brackets around the –4
 > 304 A1 completion to show clearly that k = 19 either by
@@ -883,7 +856,6 @@ Hence solve 6 x 3 19 x 2 26 x Show clear algebraic working.
 > the answer line. If no answer on the answer line mark
 > the final line of their working.
 > wr Total 6 marks
-> Question Working Answer Mark Notes
 
 - **(4)** (6 x 2 ..............) 4 M1 for a start to find the quadratic factor.
 
@@ -954,7 +926,7 @@ There are only pink and yellow sweets in a bag containing N sweets. There are 25
 > 9 N 2 + 960 N − 12825 = 0 condone missing =0
 > 9 y 2 + 255 y − 7800 = 0
 > 9 p 2 + 705 p + 4200 = 0
-> 240 ± (240)2 + 4 × 2.25 × 3206.25 M1 dep on 2nd M1 for a correct method to solve their
+> 240 ± (240)² + 4 × 2.25 × 3206.25 M1 dep on 2nd M1 for a correct method to solve their
 > [ ]
 > N = or 3 term quadratic – if factorising allow brackets that
 > 2 × 2.25 multiply giving 2 correct terms, if formula used then
@@ -983,7 +955,9 @@ for Question 25 C B Diagram NOT 115° accurately drawn 53° A D The diagram repr
 
 for Question 25 C B Diagram NOT 115° accurately drawn 53° A D The diagram represents a small horizontal field ABCD AB = 8 m BC = 11 m CD = 15 m ABC 115° ADC 53° Calculate, in m² to the nearest whole number, the area of the field m²
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![diagram — official paper figure (qp.pdf p.21)](assets/asset_25_diagram.png)
 
 
 **Mark scheme answer**
@@ -994,15 +968,15 @@ for Question 25 C B Diagram NOT 115° accurately drawn 53° A D The diagram repr
 > AC2 or AC
 > AC = 112 + 82 − 2 × 11× 8cos115(= 16.105...)
 > ⎛ sin ( 53) ×15 ⎞ M1 for a correct method to find the angle
-> ∠CAD = sin −1 ⎜ ⎟ [ = 48.059...] AND ACD
+> ∠CAD = sin −1 [ = 48.059...] AND ACD
 > ⎝ "16.105..." ⎠ or
 > ∠ACD = 180 − "48.059"− 53 ( = 78.94...) or
 > 16.105...2 = AD2 + 152 − 2 × AD ×15cos53 or Finding AD2 NB 2 ×15cos 53 = 18.054 …
 > AD2 = 16.105...2 + 152 − 2 ×16.105... ×15cos"78.9..." the length AD (19.79…)
 > ⎧⎪ ⎡ −1 ⎛ sin ( 53) ×15 ⎞ ⎤ ✓⎪ For splitting triangle ACD into 2 triangles
-> ⎟ ⎥ [ = 10.76...]⎫
+>  [ = 10.76...]⎫
 > 2
-> ⎩ "16.105..." − 11.979… or "16.105..." cos ⎢sin ⎜ with perpendicular CE where E is on AD and
+> ⎩ "16.105..." − 11.979… or "16.105..." cos sin with perpendicular CE where E is on AD and
 > ⎪⎩ ⎢⎣ ⎝ "16.105..." ⎠ ⎥⎦ ⎭⎪
 > finding the lengths AE (10.76…) and ED
 > AND { 15 −11.979… or 15cos53[= 9.027...]}
@@ -1013,14 +987,12 @@ for Question 25 C B Diagram NOT 115° accurately drawn 53° A D The diagram repr
 > 1 For a fully correct method to find the area
 > × "19.79..."×15sin(53) + "39.877.." or
 > 1 ⎛ sin ( 53) ×15 ⎞
-> × "16.105..."× "19.79..." ⎜ ⎟ + "39.877.." or
+> × "16.105..."× "19.79..." + "39.877.." or
 > 2 ⎝ "16.105..." ⎠
 > 1
 > ×15sin 53 × "10.76..."+ ×15sin 53 × "9.027..."+ "39.877..." NB 15 sin 53 = 11.979…
 > 2
 > 158.42 A1 for awrt 158 (allow 159)
-> cas Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(5)** 0.5 × 8 ×11× sin115(= 39.877...) 5 M1 for a correct method to find the area of
 
@@ -1031,7 +1003,7 @@ Show that can be written x 2 x 3 x2 1 p in the form where p and q are integers t
 
 ### 26 [5]
 
-Show that can be written x 2 x 3 x2 1 p in the form where p and q are integers to be found. x+q
+Show that can be written x 2 x 3 x² 1 p in the form where p and q are integers to be found. x+q
 
 
 **Mark scheme answer**

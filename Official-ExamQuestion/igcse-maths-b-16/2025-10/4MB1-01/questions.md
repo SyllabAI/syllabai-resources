@@ -19,8 +19,6 @@ The nth term of a sequence is given by 5n2 – 2n Find the difference between th
 > other way round eg 39 – 72
 > May be implied by 72 or 39
 > 33 or – 33 A1
-> cas Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 5 × 42 − 2 × 4 [ = 72] or 5 × 32 − 2 × 3 [ = 39] 2 M1 A correct method to find the 3rd term or the 4th term
 
@@ -50,8 +48,6 @@ Make h the subject of k
 > Do not ISW except allow correct expression without
 > h = ... on the answer line if given correctly with h = ...
 > in the working
-> cas Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 8h 5 j 2k − 5 j 2 M1 for start by multiplying by 2 or separating the
 
@@ -71,7 +67,7 @@ Without using a calculator and showing all your working, evaluate 5 2 1 ×2 6 5 
 > × oe or Or at least three correct terms from a method to expand
 > 6 5
 > ⎛ 5 ⎞⎛ 2⎞ 5 2 5 2
-> 5 2 5 2 ⎜ 1 + ⎟ ⎜ 2 + ⎟ = 1× 2 + × 2 + 1× + ×
+> 5 2 5 2 ⎜ 1 + 2 + ⎟ = 1× 2 + × 2 + 1× + ×
 > 1× 2 + × 2 + 1× + × oe ⎝ 6 ⎠⎝ 5⎠ 6 5 6 5
 > 6 5 6 5
 > 132 ⎡ 12 ⎤ 2 A1 dep on M1
@@ -85,7 +81,6 @@ Without using a calculator and showing all your working, evaluate 5 2 1 ×2 6 5 
 > =4
 > 5
 > wr Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 11 12 2 M1 at least one correct improper fraction
 
@@ -114,8 +109,6 @@ For this shape, write down the number of lines of symmetry.
 > 2 1 B1
 > Allow written in words eg two
 > cao
-> cas Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(1)** 2 1 B1
 
@@ -139,8 +132,6 @@ Using ruler and compasses only and showing all your construction lines, construc
 > NB The line can be any length - does not need to cross AB but must
 > touch it and should remain within the guidelines if it were to be
 > extended
-> Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** Use the overlay when marking this question
 
@@ -151,7 +142,9 @@ The bearing of point P from point Q is 304° Calculate the bearing of point Q fr
 
 ### 6 [2]
 
-The bearing of point P from point Q is 304° Calculate the bearing of point Q from point P °
+The bearing of point P from point Q is 304° Calculate the bearing of point Q from point P
+
+…………… °
 
 
 **Mark scheme answer**
@@ -161,8 +154,6 @@ The bearing of point P from point Q is 304° Calculate the bearing of point Q fr
 > 90 + ( 304 − 270 ) Do not ISW e.g. 304 − 180 = 124 and 180 − 124 = 56 scores M0
 > 124 A1 cao
 > May be seen in the diagram
-> Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 304 – 180 or 2 M1 for a complete correct method to find the bearing e.g. 360 − (180 + ( 360 − 304 ) )
 
@@ -182,8 +173,6 @@ Find the value of when p = 2 and q = –5 2 p
 > 2× 2 +1 Allow −85 or −10 − 75 or 2(−5) − 3( −5) 2 or 2( −5) − 3(5) 2 or
 > 2 × −5 − 3 × −52 or 2 × −5 − 3 × 25
 > –17 A1 cao
-> cas Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 2 × −5 − 3 × (−5) 2 2 M1 for correct substitution to evaluate the numerator
 
@@ -194,7 +183,9 @@ Given that y = x3 + 2x2 – 15x + 7 dy find dx dy = ............................
 
 ### 8 [2]
 
-Given that y = x3 + 2x2 – 15x + 7 dy find dx dy = dx
+Given that y = x³ + 2x2 – 15x + 7 dy find dx dy = ……………dx
+
+Given that y = x³ + 2x2 – 15x + 7 dy find dx dy = dx
 
 
 **Mark scheme answer**
@@ -205,8 +196,6 @@ Given that y = x3 + 2x2 – 15x + 7 dy find dx dy = dx
 > 2 × 2x 2−1 or 15x1−1
 > 3x 2 + 4 x − 15 A1 oe eg 3x 2 + 4 x1 − 15 x0
 > Do not ISW
-> cas Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 2 M1 Attempt at differentiation such that x n → x n−1 for at least one
 
@@ -243,8 +232,6 @@ Find the median.
 > 2
 > Do not ISW
 > cao
-> cas Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 12, 15, 16, 18, 19, 23, 23, 30 2 M1 for ordered list. Allow the first 5 terms or last 5 terms correct or
 
@@ -277,8 +264,6 @@ Calculate the expected number of times that Charlie arrives late to school durin
 > Allow for
 > 7 A1 cao
 > Do not allow for A1
-> cas Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 0.35 × 20 2 M1 for p × 20 where 0 < p < 1
 
@@ -295,22 +280,19 @@ A B 7m 4 Find 3A – B Give each element of the matrix in terms of m where appro
 **Mark scheme answer**
 
 > ⎛ 0 6 − 2m ⎞ 3 B3 a fully correct matrix
-> ⎜ ⎟
-> ⎝ 21m − 5 18 ⎠
+>  21m − 5 18 
 > (B2 for 3 correct entries in a matrix of correct order or a fully
 > correct unsimplified matrix)
 > (B1 for 1 or 2 correct entries in a matrix of correct order
 > ⎛ −3 6 ⎞
-> or for correct multiplication by a scalar eg 3A = ⎜ ⎟ )
+> or for correct multiplication by a scalar eg 3A = )
 > ⎝ 21m 12 ⎠
 > NB: If correct matrix is seen but followed by incorrect subsequent
 > algebra then award a maximum of B2
 > ⎛ 0 6 − 2m ⎞ ⎛ 0 4m ⎞
-> eg ⎜ ⎟ followed by ⎜ ⎟ scores B2
+> eg followed by scores B2
 > ⎝ 21m − 5 18 ⎠ ⎝16m 18 ⎠
 > maximum
-> cas Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** ⎛ 0 6 − 2m ⎞ 3 B3 a fully correct matrix
 
@@ -348,8 +330,6 @@ A straight line L passes through the points with coordinates (4, 3) and (6, –8
 > without y = ... on the answer line if given correctly with y = ... in
 > the working
 > Equivalent form implies M2 eg y − 25 = −5.5 x or 2 y = −11x + 50
-> cas Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** −8 − 3 3 difference in y
 
@@ -360,9 +340,12 @@ Diagram NOT accurately drawn O 124 P R Q P, Q and R are three points on a circle
 
 ### 13 [3]
 
-Diagram NOT accurately drawn O 124 P R Q P, Q and R are three points on a circle, centre O ∠POR = 124° Calculate the size, in degrees, of ∠PQR Give reasons for each stage of your working. ∠PQR = °
+P, Q and R are three points on a circle, centre O ∠POR = 124° Calculate the size, in degrees, of ∠PQR Give reasons for each stage of your working. ∠PQR = °
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: O, P, R, Q · Figure values: 124.
+
+![diagram — official paper figure (qp.pdf p.8)](assets/asset_13_diagram.png)
 
 
 **Mark scheme answer**
@@ -383,8 +366,6 @@ Diagram NOT accurately drawn O 124 P R Q P, Q and R are three points on a circle
 > words or an unambiguous abbreviation
 > angle at circumference is ½ angle at centre
 > Eg Accept ∠ for angle, twice for double.
-> Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** Major angle at POR = 360 − 124 [ = 236] 3 M1 for method to find major angle at POR or
 
@@ -395,9 +376,12 @@ A N B Diagram NOT accurately drawn M D C The diagram shows a square ABCD M is th
 
 ### 14 [3]
 
-A N B Diagram NOT accurately drawn M D C The diagram shows a square ABCD M is the midpoint of AD N is the midpoint of AB Prove that △DAN is congruent to △CDM
+The diagram shows a square ABCD M is the midpoint of AD N is the midpoint of AB Prove that △DAN is congruent to △CDM
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, N, B, M, D, C.
+
+![diagram — official paper figure (qp.pdf p.9)](assets/asset_14_diagram.png)
 
 
 **Mark scheme answer**
@@ -419,7 +403,6 @@ A N B Diagram NOT accurately drawn M D C The diagram shows a square ABCD M is th
 > For RHS must have reasons 1 3 4 or reasons 2 3 4
 > For SSS must have 1 2 4
 > wr Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 1. AD=DC square 3 M2 two correct statements with reasons
 
@@ -436,9 +419,8 @@ Without using a calculator and showing all your working, express 11 2 3 2 in the
 **Mark scheme answer**
 
 > 11 + 2 ⎛ 11 + 2 ⎞⎛ 3 2 + 1 ⎞ 3 M1 for multiplying numerator and denominator by 3 2 + 1 or
-> =⎜ ⎟⎜ ⎟⎟
-> 3 2 − 1 ⎜⎝ 3 2 − 1 ⎟⎜
-> ⎠⎝ 3 2 + 1 ⎠
+> = 
+> 3 2 − 1 3 2 − 1 3 2 + 1 
 > −3 2 − 1 oe eg 18 + 1
 > 33 2 + 11 + 6 + 2 33 2 + 11 + 6 + 2 M1 (dep) for expanding numerator (2, 3 or 4 terms) and
 > or denominator (1, 2 or 4 terms) – condone one error only when
@@ -457,10 +439,8 @@ Without using a calculator and showing all your working, express 11 2 3 2 in the
 > No marks for = 1+ 2 2
 > 3 2 −1
 > M1 only for
-> ⎛ 11 + 2 ⎞ ⎛ 3 2 + 1 ⎞
-> ⎜⎜ ⎟⎟ ⎜⎜ ⎟⎟ = 1 + 2 2
+> ⎛ 11 + 2 ⎞ ⎛ 3 2 + 1 = 1 + 2 2
 > ⎝ 3 2 −1 ⎠ ⎝ 3 2 +1 ⎠
-> Question Working Answer Mark Notes
 
 - **(3)** 11 + 2 ⎛ 11 + 2 ⎞⎛ 3 2 + 1 ⎞ 3 M1 for multiplying numerator and denominator by 3 2 + 1 or
 
@@ -471,7 +451,7 @@ Write 3x2 + 24x + 1 in the form a(x + b)2 + c where a, b and c are integers.
 
 ### 16 [3]
 
-Write 3x2 + 24x + 1 in the form a(x + b)2 + c where a, b and c are integers.
+Write 3x2 + 24x + 1 in the form a(x + b)² + c where a, b and c are integers.
 
 
 **Mark scheme answer**
@@ -490,15 +470,13 @@ Write 3x2 + 24x + 1 in the form a(x + b)2 + c where a, b and c are integers.
 > 3 ( x + 4 ) − 47
 > A1 accept a = 3 , b = 4 , c = −47
 > Alternative mark scheme
-> ax2 + 2abx + ab2 + c M1 for multiplying out a(x + b)2 + c to obtain
+> ax2 + 2abx + ab2 + c M1 for multiplying out a(x + b)² + c to obtain
 > ax2 + 2abx + ab2 + c oe
 > 2 of: M1 for equating coefficients and making 2 correct
 > statements
 > a=3 2ab = 24 oe ab2 + c = 1 oe
 > 3 ( x + 4 ) − 47
 > A1 accept a = 3 , b = 4 , c = −47
-> cas Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** ⎛ 2 1⎞ 3 M1 Allow for a = 3 or b = 4 or c = −47 Allow
 
@@ -531,8 +509,6 @@ Factorise fully 2de5 – 9de2
 > or de(2e4 − 9e)
 > Allow m × de2 (... ± ...) where m is a constant
 > ISW for B1)
-> cas Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(2)** de 2 (2e3 − 9) 2 B2 for de 2 (2e3 − 9)
 
@@ -543,9 +519,12 @@ C x cm D Diagram NOT accurately drawn A 6 cm B E 6 cm F 14 cm 10 cm 10 cm H 5x c
 
 ### 18 [4]
 
-C x cm D Diagram NOT accurately drawn A 6 cm B E 6 cm F 14 cm 10 cm 10 cm H 5x cm G The diagram shows a shape ABCDEFGH HG = 5x cm CD = x cm AH = FG = 10 cm AB = EF = 6 cm ∠BAH = ∠AHG = ∠HGF = ∠GFE = 90° CD is parallel to HG The perpendicular height of the shape is 14 cm The area of the shape ABCDEFGH is 534 cm2 Find the value of x x =
+C x cm D Diagram NOT accurately drawn A 6 cm B E 6 cm F 14 cm 10 cm 10 cm H 5x cm G The diagram shows a shape ABCDEFGH HG = 5x cm CD = x cm AH = FG = 10 cm AB = EF = 6 cm ∠BAH = ∠AHG = ∠HGF = ∠GFE = 90° CD is parallel to HG The perpendicular height of the shape is 14 cm The area of the shape ABCDEFGH is 534 cm² Find the value of x x =
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: C, D, A, B, E, F, H, G · Figure values: 6, 6, 14, 10, 10 · Other figure text: 5x.
+
+![diagram — official paper figure (qp.pdf p.12)](assets/asset_18_diagram.png)
 
 
 **Mark scheme answer**
@@ -570,12 +549,10 @@ C x cm D Diagram NOT accurately drawn A 6 cm B E 6 cm F 14 cm 10 cm 10 cm H 5x c
 > 60 + 10 ( 5 x − 12 ) + 60 + ( x + 5 x − 12 ) × 4 = 534
 > or
 > 60 + 2(24 x − 72) + 14 x + 60 = 534 6 + 2x
-> or 70 x − 2 ⎛⎜ ⎞
-> × 4 ⎟ = 534
+> or 70 x − 2 
+> × 4 = 534
 > ⎝ 2 ⎠
 > 9 A1
-> cas Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 10 × 5 x [ = 50 x ] oe 4 M1 for correct method to find the area of the rectangle AFHG (may
 
@@ -593,9 +570,9 @@ Find the two values of x such that 2 81x 2 x 4x 6 8x Show clear algebraic workin
 
 > For 2 of: For 2 of: 4 M1 for writing at least 2 of the terms
 > with the bases of 2 and/or 3. This can be
-> 81x = (3)4x oe (81x)2 = (3)8x oe done in two ways. The first working
+> 81x = (3)4x oe (81x)² = (3)8x oe done in two ways. The first working
 > column shows the terms as they are
-> 64x = (2 × 3)4x oe (64x)2 = (2 × 3)8x oe given. The second column squares the
+> 64x = (2 × 3)4x oe (64x)² = (2 × 3)8x oe given. The second column squares the
 > equation to remove the square root
 > 1 1 before manipulating the terms.
 > = 2–1.5x oe x
@@ -622,7 +599,6 @@ Find the two values of x such that 2 81x 2 x 4x 6 8x Show clear algebraic workin
 > 1 A1 oe
 > and 2 both values must be seen
 > wr Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** For 2 of: For 2 of: 4 M1 for writing at least 2 of the terms
 
@@ -659,8 +635,6 @@ Emma asks 420 students to choose one type of movie from Horror, Adventure and Co
 > 126 A1 cao
 > Accept if seen in a ratio as 21:126
 > Do not accept 126 : 21 unless 126 is clearly labelled as B
-> cas Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(5)** 5 3 5
 
@@ -705,8 +679,6 @@ Calculate the probability that this person scored more than 16 points.
 > 141 + "74" 215
 > ft their x
 > Allow 2 decimal places or better
-> cas Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(1)** 40 + 15 55 1
 
@@ -767,8 +739,6 @@ Find the probability that this number is in the set A ∪ C
 > n
 > or follow through 7 or 10 from their Venn diagram
 > 7 A1 oe eg 0.7 or 70%
-> cas Total 7 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 2 7 m
 
@@ -788,63 +758,62 @@ Show that r = 4
 > sin 30 = or 12 − r = 2r or 12 = 3r or 24 = 6r
 > 12 − r [⇒ r = 4] Allow correct trig statement or
 > 12 − r = 2r or 12 = 3r or 24 = 6r
-> Question Working Answer Mark Notes
 
 - **(1)** r 12 = 3r 1 B1 for a correct relationship for r
 
 ### 23(b) [4]
 
-Calculate the total area, in cm2 to 3 significant figures, of the shaded region cm2
+Calculate the total area, in cm² to 3 significant figures, of the shaded region
+
+…………… cm²
 
 
 **Mark scheme answer**
 
-> Triangle and rectangle 82 − 4 2 × 4 + 2 8 2 − 4 2 × 4 4 M2 for area of the irregular pentagon or a
+> Triangle and rectangle $8^2$ − $4^2$ × 4 + 2 $8^2$ − $4^2$ × 4 4 M2 for area of the irregular pentagon or a
 > or combination of rectangles
 > ⎡ = 12 48 = 48 3 = 83.13...⎤
 > ⎣ ⎦
 > 1 This may be implied by
-> 4 × 82 + 82 − 2 × 8 × 8cos (120 ) + × 4 × 82 + 82 − 2 × 8 × 8cos (120 )
+> 4 × $8^2$ + $8^2$ − 2 × 8 × 8cos (120 ) + × 4 × $8^2$ + $8^2$ − 2 × 8 × 8cos (120 )
 > 2 12 48 = 48 3 = 83.138...
 > ⎡ = 12 48 = 48 3 = 83.13...⎤
 > ⎣ ⎦
 > 6 right-angled ⎛1 ⎞ Allow use of r instead of 4
-> 6 × ⎜ × 4 × 8sin ( 60 ) ⎟ ⎡⎣ = 12 48 = 48 3 = 83.13...⎤⎦
+> 6 × ⎜ × 4 × 8sin ( 60 ) = 12 48 = 48 3 = 83.13...⎤⎦
 > triangles ⎝2 ⎠
 > or (Award M1 for
 > ⎛1 ⎞ the area of a right-angled triangle
-> 6 × ⎜ × 4 × 82 − 42 ⎟ ⎡⎣ = 12 48 = 48 3 = 83.13...⎤⎦
+> 6 × ⎜ × 4 × 82 − 42 = 12 48 = 48 3 = 83.13...⎤⎦
 > ⎝ 2 ⎠ × 4 × 8sin ( 60 ) ⎡⎣ = 8 3 = 13.85...⎤⎦
 > oe
 > 3 equilateral triangles ⎛1 ⎞ or
-> 3 × ⎜ × 8 × 8sin ( 60 ) ⎟ ⎡⎣ = 12 48 = 48 3 = 83.13...⎤⎦
+> 3 × ⎜ × 8 × 8sin ( 60 ) = 12 48 = 48 3 = 83.13...⎤⎦
 > ⎝2 ⎠ area of equilateral triangle
 > 1 2
 > or × 8 × sin ( 60 ) ⎡⎣ = 16 3 = 27.71...⎤⎦
 > ⎛1 ⎞
-> 3 × ⎜ × 8 × 82 − 42 ⎟ ⎡⎣ = 12 48 = 48 3 = 83.13...⎤⎦
+> 3 × ⎜ × 8 × 82 − 42 = 12 48 = 48 3 = 83.13...⎤⎦
 > ⎝2 ⎠ or
 > oe correct use of Pythagoras to find the length
 > 2 equilateral triangles ⎛1 ⎞ ⎛1 ⎞ of half the base of the pentagon
 > 2 × ⎜ × 8 × 8sin ( 60 ) ⎟ + 2 × ⎜ × 4 × 8sin ( 60 ) ⎟
 > and 2 right-angled
-> ⎝2 ⎠ ⎝2 ⎠ (2 × 4) 2 − 42 ⎡⎣ = 48 = 4 3 = 6.92...⎤⎦ .
+> ⎝2 ⎠ ⎝2 ⎠ (2 × 4)$^2$ − $4^2$ ⎡⎣ = 48 = 4 3 = 6.92...⎤⎦ .
 > triangles
 > ⎡ = 12 48 = 48 3 = 83.13...⎤ or
 > ⎣ ⎦ cosine rule to find the length of the base
 > or
-> 82 + 82 − 2 × 8 × 8cos (120 ) ⎡⎣= 8 3 = 13.85...⎤⎦ )
+> $8^2$ + $8^2$ − 2 × 8 × 8cos (120 ) ⎡⎣= 8 3 = 13.85...⎤⎦ )
 > ⎛1 ⎞ ⎛1 ⎞
-> 2 × ⎜ × 8 × 82 − 4 2 ⎟ + 2 × ⎜ × 4 × 8 2 − 4 2 ⎟
-> ⎝2 ⎠ ⎝2 ⎠
+> 2 × ⎜ × 8 × $8^2$ − $4^2$ ⎟ + 2 × ⎜ × 4 × $8^2$ − $4^2$ 2 ⎠ ⎝2 ⎠
 > ⎡ = 12 48 = 48 3 = 83.13...⎤
 > ⎣ ⎦
 > 2 trapeziums ⎛1 ⎞
-> 2 × ⎜ ( 4 + 8 ) 82 − 4 2 ⎟
-> ⎝2 ⎠
+> 2 × ⎜ ( 4 + 8 ) $8^2$ − $4^2$ 2 ⎠
 > ⎡ = 12 48 = 48 3 = 83.13...⎤
 > ⎣ ⎦
-> Combination of 4 × 2 × 82 − 4 2 + 4 × 8 2 − 4 2
+> Combination of 4 × 2 × $8^2$ − $4^2$ + 4 × $8^2$ − $4^2$
 > rectangles
 > ⎡ = 12 48 = 48 3 = 83.13...⎤
 > ⎣ ⎦
@@ -853,19 +822,19 @@ Calculate the total area, in cm2 to 3 significant figures, of the shaded region 
 > 360 ⎣ 3 ⎦
 > combination of rectangles
 > 60 ⎡ 8 ⎤
-> 6× × 42 × π ⎢ = 6 × π = 6 × 8.37...⎥ or
+> 6× × $4^2$ × π ⎢ = 6 × π = 6 × 8.37...⎥ or
 > 360 ⎣ 3 ⎦ Allow a sector of angle θ where θ is 30, 45,
 > 60 120 2 ⎡ 8 16 ⎤ 60, 90, 120, 180 or 360.
-> 2× × 42 × π + 2 × × 4 × π ⎢ = 2 × π + 2 × π = 16.75... + 33.51...⎥
+> 2× × $4^2$ × π + 2 × × 4 × π ⎢ = 2 × π + 2 × π = 16.75... + 33.51...⎥
 > 360 360 ⎣ 3 3 ⎦ ⎡ θ ⎤ 2 ⎡ θ ⎤ ⎡ θ ⎤
 > eg ⎢ ×⎥ 4 π = ⎢ ×⎥ 16π = ⎢ × × 50.26...
 > 90 30 120 2 ⎣ 360 ⎦ ⎣ 360 ⎦ ⎣ 360 ⎥⎦
-> 2× × 42 × π + 2 × × 42 × π + × 4 ×π
+> 2× × $4^2$ × π + 2 × × $4^2$ × π + × 4 ×π
 > 360 360 360
 > ⎡ 4 16 ⎤
 > ⎢⎣ = 2 × 4π + 2 × 3 π + 3 π = 2 × 12.56... + 2 × 4.18... + 16.75...⎥⎦
 > 90
-> 2× × 42 × π + 2 × × 42 × π
+> 2× × $4^2$ × π + 2 × × $4^2$ × π
 > 360 360
 > [ = 2 × 4π + 2 × 4π = 2 ×12.56... + 2 ×12.56...]
 > 32.9 A1 awrt 32.9
@@ -873,7 +842,7 @@ Calculate the total area, in cm2 to 3 significant figures, of the shaded region 
 > awarded M0M0M0A0
 > If 16π is seen it must be referring to the area that is being subtracted from the pentagon (or combination of rectangles)
 
-- **(4)** Triangle and rectangle 82 − 4 2 × 4 + 2 8 2 − 4 2 × 4 4 M2 for area of the irregular pentagon or a
+- **(4)** Triangle and rectangle $8^2$ − $4^2$ × 4 + 2 $8^2$ − $4^2$ × 4 4 M2 for area of the irregular pentagon or a
 
 
 ## Question 24 (5 marks)
@@ -891,16 +860,15 @@ Express 2 2 as a single fraction in its simplest form. x 3x 2 x 1 2 x x 1 Show c
 > multiply to give 2 correct terms
 > ⎡⎣ 4 − x 2 = ⎤⎦ ( 2 + x )( 2 − x )
 > (2 + x)(2 − x) ⎛ 1 x+2 ⎞
-> eg ÷⎜ − ⎟
-> ⎡⎣ x 2 − 3x + 2 = ⎤⎦ ( x − 2 )( x − 1) ( x − 2)( x − 1) ⎝ x − 1 (2 x + 1)( x − 1) ⎠
+> eg ÷⎜ − x 2 − 3x + 2 = ⎤⎦ ( x − 2 )( x − 1) ( x − 2)( x − 1) ⎝ x − 1 (2 x + 1)( x − 1) ⎠
 > For the attempted expansion of ( 4 − x 2 ) allow
 > ( x + 2 )( x − 2 )
 > (If not M2 then M1 for attempt to factorise 1 or 2
 > quadratics. Must multiply to give 2 correct terms
-> 4 − x2 ⎛ 1 x+2 ⎞
+> 4 − x² ⎛ 1 x+2 ⎞
 > eg ÷⎜ − 2 ⎟ or
 > ( x − 2)( x − 1) ⎝ x − 1 2 x − x − 1 ⎠
-> 4 − x2 ⎛ 1 x+2 ⎞
+> 4 − x² ⎛ 1 x+2 ⎞
 > ÷⎜ − ⎟ or
 > x − 3x + 2 ⎝ x − 1 (2 x + 1)( x − 1) ⎠
 > (2 + x)(2 − x) ⎛ 1 x+2 ⎞
@@ -915,15 +883,15 @@ Express 2 2 as a single fraction in its simplest form. x 3x 2 x 1 2 x x 1 Show c
 > 1 candidate may have expanded the brackets).
 > or
 > 2x +1 Eg
-> 2 x2 − x −1
+> 2 x² − x −1
 > −
 > ( x + 2 )( x − 1) or
 > ( 2 x + 1)( x – 1) – ( x + 2 )( x – 1) ( x − 1) ( 2 x 2 − x − 1) ( 2 x 2 − x − 1) ( x − 1)
 > or
-> ( x – 1)( 2 x + 1)( x – 1) 2 x2 − x −1 x2 + x − 2
+> ( x – 1)( 2 x + 1)( x – 1) 2 x² − x −1 x² + x − 2
 > − or
-> 2 x3 − 3x 2 + 1 2 x3 − 3x 2 + 1
-> 2 x2 − x −1 x2 + x − 2
+> 2 x³ − 3x 2 + 1 2 x³ − 3x 2 + 1
+> 2 x² − x −1 x² + x − 2
 > −
 > ( x − 1) ( 2 x 2 − x − 1) ( x − 1) ( 2 x 2 − x − 1)
 > ( 2 + x )( 2 − x ) × ( x − 1)( 2 x + 1) M1 for division by multiplying the first fraction by the
@@ -931,15 +899,14 @@ Express 2 2 as a single fraction in its simplest form. x 3x 2 x 1 2 x x 1 Show c
 > May be done before factorising the quadratics (and
 > candidate may have expanded the brackets).
 > Must be done after the subtraction.
-> 4 − x2 x2 − 2x − 3
+> 4 − x² x² − 2x − 3
 > Accept 2 × 3
 > x − 3x + 2 2 x − 3x 2 + 1
 > ( x + 2 )( 2 x + 1) A1oe eg −
-> 2 x2 + 5x + 2
+> 2 x² + 5x + 2
 > dep on all 4 method marks
 > 1− x x −1
 > wr Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(5)** ⎡⎣ 2 x 2 − x − 1 = ⎤⎦ ( 2 x + 1)( x − 1) 5 M2 Attempt to factorise all three quadratics. Must
 
@@ -950,9 +917,12 @@ Diagram NOT accurately drawn 5 cm The diagram shows a solid shape made by fixing
 
 ### 25 [6]
 
-Diagram NOT accurately drawn 5 cm The diagram shows a solid shape made by fixing the flat circular face of a solid hemisphere, with radius 5 cm, to a solid right circular cone with base radius 5 cm The centre of the circular face of the hemisphere coincides with the centre of the base of the cone. 550 The total volume of the solid is π cm3 Find the total surface area, in cm2 to 3 significant figures, of the solid. Show all your working cm2
+The diagram shows a solid shape made by fixing the flat circular face of a solid hemisphere, with radius 5 cm, to a solid right circular cone with base radius 5 cm The centre of the circular face of the hemisphere coincides with the centre of the base of the cone. 550 The total volume of the solid is π cm³ Find the total surface area, in cm² to 3 significant figures, of the solid. Show all your working cm²
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Figure values: 5.
+
+![diagram — official paper figure (qp.pdf p.21)](assets/asset_25_diagram.png)
 
 
 **Mark scheme answer**
@@ -978,8 +948,6 @@ Diagram NOT accurately drawn 5 cm The diagram shows a solid shape made by fixing
 > [surface area of the hemisphere & cone is] M1 for the surface area of the hemisphere and cone
 > 2π 52 + π × 5 × "13" ft their value of l if from correct working or clearly labelled
 > 361 A1 awrt 361 allow 115π
-> cas Total 6 marks
-> Question Working Answer Mark Notes
 
 - **(6)** [Volume of hemisphere is] 6 B1 may be seen in an equation
 
@@ -1088,8 +1056,6 @@ Using a vector method find the ratio OP : PD Show all your working.
 > γ= or δ =
 > 20
 > 13 : 7 A1 oe
-> cas Total 8 marks
-> Question Working Answer Mark Notes
 
 - **(5)** ⎡ → ⎤ ⎛ 12 11 ⎞ 5 M1 finds OD or PD in terms of their OP must include
 
@@ -1139,20 +1105,20 @@ Hence, factorise fully 6x3 + 17x2 + 6x – 8 Show all your working.
 
 > 3x 2 + 10 x + 8 3 M1 for two out of three terms correct in the quadratic factor.
 > This may be seen in part (a)
-> ⎣ (
+>  (
 > ⎡( 2 x − 1) ⎤ 3 x 2 + 10 x + 8
-> ⎦ ) M1 fully correct quadratic factor
+>  ) M1 fully correct quadratic factor
 > This may be seen in part (a)
 > ( x + 2 )( 2 x − 1)( 3x + 4 ) A1 fully correct factorisation dep on previous M1
 > Condone =0 but do not ISW if gone on to solve
-> NB: ( x + 2 ) ⎛⎜ x − 1 ⎞⎟ ⎛⎜ x + 4 ⎞⎟ scores A0
+> NB: ( x + 2 ) x − 1 x + 4 scores A0
 > ⎝ 2 ⎠⎝ 3⎠
 
 - **(3)** 3x 2 + 10 x + 8 3 M1 for two out of three terms correct in the quadratic factor.
 
 ### 27(c) [2]
 
-Hence, solve 6(3y + 1)3 + 17(3y + 1)2 + 6(3y + 1) – 8 = 0 Show all your working. y =
+Hence, solve 6(3y + 1)³ + 17(3y + 1)² + 6(3y + 1) – 8 = 0 Show all your working. y =
 
 
 **Mark scheme answer**

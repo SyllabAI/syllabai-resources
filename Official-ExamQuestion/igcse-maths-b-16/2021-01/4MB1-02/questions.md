@@ -8,7 +8,9 @@ The following formula can be used to change a temperature f degrees Fahrenheit t
 
 ### 1(a) [3]
 
-Make f the subject of c = Sean and Kate measure the temperature of a heated iron bar. Sean measures the temperature of the iron bar as x degrees Fahrenheit. Kate measures the temperature of the iron bar as y degrees Celsius. Given that x = 2y ,
+The following formula can be used to change a temperature f degrees Fahrenheit to a temperature c degrees Celsius. 5 ( f − 32) c= 5 ( f − 32)
+
+Make f the subject of c = Sean and Kate measure the temperature of a heated iron bar. Sean measures the temperature of the iron bar as x degrees Fahrenheit. Kate measures the temperature of the iron bar as y degrees Celsius. Given that x = 2y …………… , ……………
 
 
 **Mark scheme answer**
@@ -50,11 +52,9 @@ find the temperature, in degrees Fahrenheit, of the iron bar.
 > 9
 > Follow through their answer to part (a) if needed
 > 9⎛ x⎞ ⎛9 ⎞ must be a linear equation in terms of c
-> x = ⎜ ⎟ + 32 or 2 y = ⎜ y + 32 ⎟ oe
+> x = + 32 or 2 y = ⎜ y + 32 ⎟ oe
 > 5⎝ 2⎠ ⎝5 ⎠
 > 320 A1 cao
-> Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 5 ( x − 32 ) 5 ( 2 y − 32 ) 2 M1 Form a correct equation in terms of x(allow f) or
 
@@ -78,8 +78,6 @@ The Earth is assumed to move around the Sun in a circular orbit of radius 1.5 ×
 > and see on the denominator 365 or a number clearly
 > derived from 365
 > 29 900 A1 awrt 29 900 from correct working
-> Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 365 × 24 × 60 × 60 [=31536000] or 4 M1 Convert days to seconds or km to m, may be
 
@@ -90,25 +88,26 @@ T Diagram NOT S 50 mm accurately drawn 40 mm O R 60 mm Q Figure 1 Figure 1 shows
 
 ### 3 [5]
 
-T Diagram NOT S 50 mm accurately drawn 40 mm O R 60 mm Q Figure 1 Figure 1 shows circle QRST with centre O. SQ is a diameter of the circle. QR = 60 mm RS = 40 mm ST = 50 mm Without using a calculator, find the exact length, in mm, of QT. Give your answer in the form a b where a is an integer and b is a prime number. Show your working clearly.
+Figure 1 Figure 1 shows circle QRST with centre O. SQ is a diameter of the circle. QR = 60 mm RS = 40 mm ST = 50 mm Without using a calculator, find the exact length, in mm, of QT. Give your answer in the form a b where a is an integer and b is a prime number. Show your working clearly.
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: T, S, O, R, Q · Figure values: 50, 40, 60.
+
+![diagram — official paper figure (qp.pdf p.5)](assets/asset_3_diagram.png)
 
 
 **Mark scheme answer**
 
 > States or uses ∠SRQ or ∠STQ = 90º 5 B1 may be implied by a correct use of Pythagoras.
 > May be marked on diagram
-> ⎡⎣ SQ 2 = ⎤⎦ 402 + 602 (= 5200) M1 correct method to find SQ2 or SQ
-> ⎡⎣QT 2 = ⎤⎦ "5200"− 502 (= 2700) M1 correct method using their SQ2 to find QT2 or QT
+> ⎡⎣ $SQ^2$ = ⎤⎦ $40^2$ + $60^2$ (= 5200) M1 correct method to find $SQ^2$ or SQ
+> ⎡⎣$QT^2$ = ⎤⎦ "5200"− $50^2$ (= 2700) M1 correct method using their $SQ^2$ to find $QT^2$ or QT
 > QT = 900 × 3 M1 indep factorise out a square number from their
-> QT2 Allow for factorising out a square number from
+> $QT^2$ Allow for factorising out a square number from
 > one of their SQ or their QT correctly. Implied by
 > 30 3
 > 30 3 A1 cao All previous marks must be awarded
 > Condone a = 30 and b = 3
-> Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(5)** States or uses ∠SRQ or ∠STQ = 90º 5 B1 may be implied by a correct use of Pythagoras.
 
@@ -152,13 +151,10 @@ Find the expected number of games Alan will win in a week of seven days.
 > ×1 + × 6 or ft from their tree diagram if they are probabilities
 > 2
 > such that 0 < p <1
-> ⎛ 1 1 6 1 ⎞
-> ⎜ " "× " "+ " "× " " ⎟ × 7
+> ⎛ 1 1 6 1 " "× " "+ " "× " " ⎟ × 7
 > ⎝ 7 2 7 3 ⎠
 > 2.5 A1 must be from correct working. Ignore subsequent
 > rounding
-> Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 1 1 2 M1 correct method to find the expected score. Allow
 
@@ -237,8 +233,6 @@ Find the probability that this element is in the set ( B ∩ C ʹ ) ∪ ( B ʹ �
 > with an x value from (c) if clear working shown
 > 49 A1 oe
 > 100
-> Total 10 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 48 − 27 55 − 27 2 "24 − x "+ " x − 3"+ "25 − x "+ " x + 3"
 
@@ -278,7 +272,7 @@ Represent your solution on the number line on the next page.
 
 ### 6(b)(i) [3]
 
-Solve the inequality x2 + 5x − 6 ≥ 0
+Solve the inequality x² + 5x − 6 ≥ 0
 
 
 **Mark scheme answer**
@@ -290,7 +284,7 @@ Solve the inequality x2 + 5x − 6 ≥ 0
 > correct formula. Implied by correct critical values
 > ( x = ) − 6 , ( x = )1 A1 correct critical values seen in this part of the
 > question.
-> x − 6, x 1 A1 oe eg ( −∞, −6] ∪ ⎡⎣1, ∞ ) NB A0 for 1 x − 6
+> x − 6, x 1 A1 oe eg ( −∞, −6] ∪ 1, ∞ ) NB A0 for 1 x − 6
 
 - **(3)** ( x + 6)( x −1) [≥ 0] 3 M1 for a method to solve the correct quadratic
 
@@ -310,7 +304,7 @@ Represent your solution on the number line on the next page.
 
 ### 6(c) [2]
 
-Write down the set of values for which both 3x + 5 > 7x − 9 and x2 + 5x − 6 ≥ 0
+Write down the set of values for which both 3x + 5 > 7x − 9 and x² + 5x − 6 ≥ 0
 
 
 **Mark scheme answer**
@@ -325,8 +319,6 @@ Write down the set of values for which both 3x + 5 > 7x − 9 and x2 + 5x − 6 
 > SC for B1Follow through their CV's but the inequality
 > in (a)(i) must be of the form x < c and the inequality
 > in (b)(i) must be of the form x a, x b
-> Total 9 marks
-> Question Working Answer Mark Notes
 
 - **(2)** x − 6 and 2 B2ft For both parts with correct inequality signs.
 
@@ -364,11 +356,11 @@ Given that a is inversely proportional to b and b is inversely proportional to c
 > k162 = 2403 [⇒ k = 54000] or M1dep on previous M mark. Substituting of 240 and
 > 16 into their combined proportionality statement.
 > ⎡ 1 ⎤
-> 162 = l 2403 ⎢⇒ l = or
+> 162 = l 2403 ⇒ l = or
 > ⎣ 54 000 ⎥⎦ ⎡ ⎤
 > k k
 > ⎡ Condone 16 = ⎢⇒ = ⎥ oe
-> p p 16 ⎤ k k 2403 ⎦
+> p p 16 k k 2403 
 > 16 = ⎢⇒ = ⎥ oe 3 ⎣
 > q q 240
 > ⎢⎣ 2403 ⎥⎦
@@ -380,8 +372,6 @@ Given that a is inversely proportional to b and b is inversely proportional to c
 > c = 1500 A1 does not need to be in the table.
 > a = 6.75 A1 does not need to be in the table. Allow ±
 > NB Correct answers gains full marks.
-> Total 6 marks
-> Question Working Answer Mark Notes
 
 - **(6)** ⎛ p 1 ⎞ 6 p22
 
@@ -397,21 +387,21 @@ Calculate the length, in cm, of AC.
 
 **Mark scheme answer**
 
-> (x2 =) 82 + 62 2 M1 Correct use of Pythagoras’ theorem within ABC
+> (x² =) 82 + 62 2 M1 Correct use of Pythagoras’ theorem within ABC
 > 10 A1
 
 - **(2)** (x2 =) 82 + 62 2 M1 Correct use of Pythagoras’ theorem within ABC
 
 ### 8(b) [2]
 
-Calculate the area, in cm2, of ABCD.
+Calculate the area, in cm², of ABCD.
 
 
 **Mark scheme answer**
 
 > 1 2 M1for a fully correct formula for the area.
 > 2× × 6×8
-> 48 ( cm 2 ) A1
+> 48 ( cm² ) A1
 
 - **(2)** 1 2 M1for a fully correct formula for the area.
 
@@ -474,8 +464,6 @@ Prove that triangle ABE is similar to triangle BCE.
 > similar as 2 angles are with their reason.
 > equal or sides pair in
 > same ratio or SAS
-> Total 9 marks
-> Question Working Answer Mark Notes
 
 - **(3)** Method 1 - Show 2 of
 
@@ -501,7 +489,9 @@ On the grid, draw and label triangle A. Triangle B is the image of triangle A un
 
 ### 9(b) [2]
 
-On the grid, draw and label triangle B. Triangle C is the image of triangle A under the transformation with the matrix M where ⎛ 0 −1⎞ M= ⎜ ⎝ 1 0⎟⎠ ⎛ 1 1 3⎞
+On the grid, draw and label triangle B. Triangle C is the image of triangle A under the transformation with the matrix M where ⎛ 0 −1⎞ M= 1 0 1 1 3⎞
+
+![grid — official paper figure (qp.pdf p.19) (same figure as asset_9_a_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2021-01/4MB1-02/assets/asset_9_a_grid.png)
 
 ![grid — official paper figure (qp.pdf p.19) — shared with asset_9_a_grid](assets/asset_9_a_grid.png)
 
@@ -516,13 +506,13 @@ On the grid, draw and label triangle B. Triangle C is the image of triangle A un
 
 ### 9(c) [2]
 
-Find the matrix product M ⎜ ⎝ 2 5 2⎟⎠
+Find the matrix product M 2 5 2 
 
 
 **Mark scheme answer**
 
 > ⎛ −2 −5 −2 ⎞ 2 M1 Correct dimensions and at least 2 correct elements
-> ⎜ ⎟ A1 Correct matrix
+>  A1 Correct matrix
 > ⎝1 1 3⎠
 
 - **(2)** ⎛ −2 −5 −2 ⎞ 2 M1 Correct dimensions and at least 2 correct elements
@@ -559,7 +549,9 @@ Describe fully the single transformation that maps triangle B onto triangle C. T
 
 ### 9(f) [2]
 
-State, giving a reason, the matrix N2 y −7 −6 −5 −4 −3 −2 −1 O 1 2 3 4 5 6 x −1 −2 −3 −4 −5 −6 for a spare grid if you need to redraw your triangles. Only use this grid if you need to redraw your triangles. y −7 −6 −5 −4 −3 −2 −1 O 1 2 3 4 5 6 x −1 −2 −3 −4 −5 −6
+State, giving a reason, the matrix N².
+
+![grid — official paper figure (qp.pdf p.19) (same figure as asset_9_a_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2021-01/4MB1-02/assets/asset_9_a_grid.png)
 
 ![grid — official paper figure (qp.pdf p.19) — shared with asset_9_a_grid](assets/asset_9_a_grid.png)
 
@@ -567,15 +559,12 @@ State, giving a reason, the matrix N2 y −7 −6 −5 −4 −3 −2 −1 O 1 2
 **Mark scheme answer**
 
 > ⎛1 0⎞ 2 B1 Matrix
-> ⎜ ⎟ ⎛1 0 ⎞ ⎛ 1 0 ⎞⎛ 1 0 ⎞
-> ⎝0 1⎠ B1 Reason allow for N = ⎜
-> ⎟ only so N = ⎜ ⎟⎜ ⎟
+>  1 0 ⎞ ⎛ 1 0 ⎞⎛ 1 0 ⎞
+> ⎝0 1⎠ B1 Reason allow for N = only so N = 
 > As reflection ⎝ 0 −1⎠ ⎝ 0 −1⎠⎝ 0 −1⎠
 > repeated returns any
 > point to its original
 > position.
-> Total 10 marks
-> Question Working Answer Mark Notes
 
 - **(2)** ⎛1 0⎞ 2 B1 Matrix
 
@@ -626,7 +615,7 @@ Hence show that O, P and N are collinear. Given that | a | = | b | = 1 cm and th
 
 ### 10(c) [3]
 
-find the length, in cm to 3 significant figures, of OP. [ Cosine rule: a2 = b2 + c2 − 2bc cos A ]
+find the length, in cm to 3 significant figures, of OP. [ Cosine rule: $a^2$ = $b^2$ + $c^2$ − 2bc cos A ]
 
 
 **Mark scheme answer**
@@ -634,18 +623,15 @@ find the length, in cm to 3 significant figures, of OP. [ Cosine rule: a2 = b2 +
 > 2 2
 > OP = 2 + 4 − 2 × 2 × 4 × cos110 or 3 M1 follow through their vector OP or a correct
 > method to find PM or BP eg
-> ⎛ BM 2 = 62 + 62 − 2 × 6 × 6 × cos 70 [ = 47.37...] and ⎞ Allow BM 2 = 62 + 62 − 2 × 6 × 6 × cos 70 and
-> ⎜ ⎟
-> ⎜ 2 ⎛ 2 ⎞
-> 2 ⎟ ⎛1 ⎞
+> ⎛ $BM^2$ = $6^2$ + $6^2$ − 2 × 6 × 6 × cos 70 [ = 47.37...] and ⎞ Allow $BM^2$ = $6^2$ + $6^2$ − 2 × 6 × 6 × cos 70 and
+>  2 ⎛ 2 ⎞
+> 2 1 
 > 2 OP 2 = 62 + ⎜ BM ⎟ − 2 × 6 × BM × cos 55
-> ⎜ OP = 6 + ⎜ BM ⎟ − 2 × 6 × BM × cos 55 ⎟ ⎝3 ⎠
+> ⎜ OP = 6 + ⎜ BM ⎟ − 2 × 6 × BM × cos 55 3 ⎠
 > ⎝ ⎝3 ⎠ 3 ⎠
-> OP = 22 + 42 + 5.47 or OP = 62 + 4.58...2 − 31.58... M1 (NB must demonstrate correct order of
-> operation) Allow OP = 62 + 2.29...2 − 15.79...
+> OP = $2^2$ + $4^2$ + 5.47 or OP = $6^2$ + $4.58...^2$ − 31.58... M1 (NB must demonstrate correct order of
+> operation) Allow OP = $6^2$ + $2.29...^2$ − 15.79...
 > 5.05 A1 awrt 5.05
-> Total 10 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 2 2
 
@@ -708,7 +694,9 @@ Using your graph, find the x coordinates of these two turning points on the curv
 
 ### 11(d) [4]
 
-Referring to your graph, determine which of these two turning points is a maximum and which is a minimum. You should explain your reasoning clearly. y −2 −1 O 1 2 3 x −10 −20 −30 −40 −50 for a spare grid if you need to redraw your curve. Only use this grid if you need to redraw your curve. y −2 −1 O 1 2 3 x −10 −20 −30 −40 −50
+Referring to your graph, determine which of these two turning points is a maximum and which is a minimum. You should explain your reasoning clearly.
+
+![graph — official paper figure (qp.pdf p.27) (same figure as asset_11_b_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2021-01/4MB1-02/assets/asset_11_b_grid.png)
 
 ![graph — official paper figure (qp.pdf p.27) — shared with asset_11_b_grid](assets/asset_11_b_grid.png)
 
@@ -728,8 +716,6 @@ Referring to your graph, determine which of these two turning points is a maximu
 > SC If no marks awarded allow B1 for stating both
 > "their –1.3" is a minimum and "their 1.5" is a maximum
 > provided the method mark is awarded in part (c)
-> Total 13 marks
-> Question Working Answer Mark Notes
 
 - **(4)** At x = –1.3 f(x) is 4 M1 Reference to gradient of f(x) change of sign of f(x) or 2nd
 
@@ -818,7 +804,6 @@ State how the percentage profit in part (c) (i) would be affected if the total p
 
 > The percentage profit would 1 B1 indep
 > have been the same.
-> Total 14 marks
 > y
 > -2 -1 0 1 2 3 x
 > -10

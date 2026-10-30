@@ -48,7 +48,7 @@ The number of people living in Delhi is 1.7 q 107 The land area of Delhi is 1.5 
 
 ### 3 [2]
 
-The number of people living in Delhi is 1.7 q 107 The land area of Delhi is 1.5 q 103 square kilometres. Calculate the average number of people per square kilometre living in Delhi. Give your answer in standard form to 2 significant figures.
+The number of people living in Delhi is 1.7 × 10⁷ The land area of Delhi is 1.5 × 10³ square kilometres. Calculate the average number of people per square kilometre living in Delhi. Give your answer in standard form to 2 significant figures.
 
 
 **Mark scheme answer**
@@ -70,7 +70,9 @@ Given that y = 3 − x5 x dy find dx dy = ......................................
 
 ### 4 [2]
 
-Given that y = 3 − x5 x dy find dx dy = dx
+Given that y = 3 − x⁵ x dy find dx dy = ……………dx
+
+Given that y = 3 − x⁵ x dy find dx dy = dx
 
 
 **Mark scheme answer**
@@ -79,7 +81,7 @@ Given that y = 3 − x5 x dy find dx dy = dx
 > −3 × 7 x − 5 x
 > M1 for one correct term (allow −3 ×7x−4)
 > −21x −4 − 5 x 4 A1 oe e.g. − − 5x 4
-> x4
+> x⁴
 
 - **(2)** −4
 
@@ -117,9 +119,12 @@ B A C Diagram NOT accurately drawn D F E 63° G In the diagram, ABC is parallel 
 
 ### 6 [3]
 
-B A C Diagram NOT accurately drawn D F E 63° G In the diagram, ABC is parallel to DEF. BEG is a straight line and ΔEFG is isosceles with EF = EG and ∠EGF = 63° Find the size, in degrees, of ∠ABE. ° ∠ABE =
+In the diagram, ABC is parallel to DEF. BEG is a straight line and ΔEFG is isosceles with EF = EG and ∠EGF = 63° Find the size, in degrees, of ∠ABE. ° ∠ABE =
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: B, A, C, D, F, E, G · Figure values: 63°.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_6_diagram.png)
 
 
 **Mark scheme answer**
@@ -191,7 +196,7 @@ Solve = 2x − 3 Show clear algebraic working. x = .............................
 
 ### 9 [3]
 
-Solve = 2x − 3 Show clear algebraic working. x =
+Solve = 2x − 3 Show clear algebraic working. x = ……………Solve = 2x − 3 Show clear algebraic working. x =
 
 
 **Mark scheme answer**
@@ -236,7 +241,7 @@ Make x the subject of = c − x3 3 x = .........................................
 
 ### 11 [3]
 
-Make x the subject of = c − x3 3 x =
+Make x the subject of = c − x³ 3 x = ……………Make x the subject of = c − x³ 3 x =
 
 
 **Mark scheme answer**
@@ -260,7 +265,7 @@ Given that 6 q 53k + 4 = 750 find the exact value of k. k = ....................
 
 ### 12 [3]
 
-Given that 6 q 53k + 4 = 750 find the exact value of k. k =
+Given that 6 × $5^{3k+4}$ = 750 find the exact value of k. k = ……………Given that 6 × $5^{3k+4}$ = 750 find the exact value of k. k =
 
 
 **Mark scheme answer**
@@ -281,16 +286,19 @@ A Diagram NOT accurately drawn B E C D 9.6 cm The diagram shows triangle ACD and
 
 ### 13 [3]
 
-A Diagram NOT accurately drawn B E C D 9.6 cm The diagram shows triangle ACD and triangle ABE. The point B is on AC and the point E is on AD such that BE is parallel to CD. CD = 9.6 cm Area of triangle ABE = 27 cm2 Area of trapezium BCDE = 21 cm2 Calculate the length, in cm, of BE cm
+The diagram shows triangle ACD and triangle ABE. The point B is on AC and the point E is on AD such that BE is parallel to CD. CD = 9.6 cm Area of triangle ABE = 27 cm² Area of trapezium BCDE = 21 cm² Calculate the length, in cm, of BE cm
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, B, E, C, D · Figure values: 9.6.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_13_diagram.png)
 
 
 **Mark scheme answer**
 
 > 9
 > ⎡ BE 2 ⎤ ⎛ 9 ⎞ ⎛ 27 ⎞ For or
-> ⎢ 9.62 = ⎥ ⎜ 16 ⎟ or ⎜ 21 + 27 ⎟ oe M1 16 21 + 27
+> ⎢ 9.62 = 16 ⎟ or ⎜ 21 + 27 ⎟ oe M1 16 21 + 27
 > ⎣ ⎦⎝ ⎠ ⎝ ⎠ Alternate h = 10 , 0.5 BE × x =27
 > " "
 > [ BE ]
@@ -298,7 +306,6 @@ A Diagram NOT accurately drawn B E C D 9.6 cm The diagram shows triangle ACD and
 > × 9.6 M1 Alternate ( 9.6 + BE )(10 − x ) =
 > 7.2 A1
 > Question Working Answer Mark Notes Sub- Total
-> Total
 
 - **(3)** 9
 
@@ -362,7 +369,7 @@ Barry and Carlos share $120 in the ratio 3 : 2 Barry gives of his share to Mary.
 
 ### 15 [4]
 
-Barry and Carlos share $120 in the ratio 3 : 2 Barry gives of his share to Mary. Carlos gives 35% of his share to Mary. Express the total amount that Barry and Carlos give to Mary as a fraction of the $120 Give your answer in its simplest form.
+Barry and Carlos share \$120 in the ratio 3 : 2 Barry gives of his share to Mary. Carlos gives 35% of his share to Mary. Express the total amount that Barry and Carlos give to Mary as a fraction of the \$120 Give your answer in its simplest form.
 
 
 **Mark scheme answer**
@@ -420,9 +427,12 @@ Diagram NOT accurately drawn O D A B 38° C A and B are points on the circumfere
 
 ### 17 [4]
 
-Diagram NOT accurately drawn O D A B 38° C A and B are points on the circumference of a circle, centre O. CBD is the tangent to the circle at B. CAO is a straight line. ∠ABC = 38° Giving your reasons, find the size, in degrees, of ∠ACB. ° ∠ACB =
+and B are points on the circumference of a circle, centre O. CBD is the tangent to the circle at B. CAO is a straight line. ∠ABC = 38° Giving your reasons, find the size, in degrees, of ∠ACB. ° ∠ACB =
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: O, D, A, B, C, A · Figure values: 38°.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_17_diagram.png)
 
 
 **Mark scheme answer**
@@ -451,16 +461,16 @@ OA = ⎜ ⎟ and OB = ⎜ ⎟ ⎝ −2⎠ ⎝ 6⎠ →
 
 ### 18(a) [2]
 
-Find AB as a column vector. ⎛ ⎞ → AB = ⎜ ⎟ ⎜ ⎟ ⎝ ⎠ →
+OA = and OB = −2⎠ ⎝ 6⎠ →
+
+Find AB as a column vector. ⎛ ⎞ → AB = →
 
 
 **Mark scheme answer**
 
-> ⎛ −4 ⎞ ⎛ −2 ⎞ ⎛ −2 ⎞ ⎛ 4 ⎞
-> ⎜ ⎟ + ⎜ ⎟ or ⎜ ⎟ − ⎜ ⎟ M1 oe
+> ⎛ −4 ⎞ ⎛ −2 ⎞ ⎛ −2 ⎞ ⎛ 4 + or − M1 oe
 > ⎝ 2⎠ ⎝ 6⎠ ⎝ 6 ⎠ ⎝ −2 ⎠
-> ⎛ −6 ⎞
-> ⎜ ⎟ A1
+>  −6 A1
 > ⎝8⎠
 
 - **(2)** ⎛ −4 ⎞ ⎛ −2 ⎞ ⎛ −2 ⎞ ⎛ 4 ⎞
@@ -486,7 +496,7 @@ Write (3 x + 2) ÷ ⎜ ⎟ − as a single fraction in its simplest form. ⎝ 5 
 
 ### 19 [4]
 
-Write (3 x + 2) ÷ ⎜ ⎟ − as a single fraction in its simplest form. ⎝ 5 ⎠ x+3 Show clear algebraic working.
+Write (3 x + 2) ÷ − as a single fraction in its simplest form. ⎝ 5 ⎠ x+3 Show clear algebraic working.
 
 
 **Mark scheme answer**
@@ -518,9 +528,12 @@ A C Diagram NOT accurately drawn O B The diagram shows a trapezium OACB in which
 
 ### 20 [4]
 
-A C Diagram NOT accurately drawn O B The diagram shows a trapezium OACB in which → → → OA = a, AC = 3b, OB = 5b The point P lies on OC such that OP : PC = 5 : 1 D is the point such that OBD is a straight line and APD is a straight line. Prove that OB : OD = 1 : 3
+The diagram shows a trapezium OACB in which → → → OA = a, AC = 3b, OB = 5b The point P lies on OC such that OP : PC = 5 : 1 D is the point such that OBD is a straight line and APD is a straight line. Prove that OB : OD = 1 : 3
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, C, O, B.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_20_diagram.png)
 
 
 **Mark scheme answer**
@@ -548,14 +561,17 @@ Diagram NOT accurately drawn 18 cm 10 cm 9 cm 15 cm The diagram shows a right pr
 
 ### 21 [5]
 
-Diagram NOT accurately drawn 18 cm 10 cm 9 cm 15 cm The diagram shows a right prism of length 9 cm. A cross section of the prism is a trapezium in which the parallel sides are of length 18 cm and 10 cm and the distance between these parallel sides is 15 cm. Calculate the total surface area, in cm2, of the prism cm2
+The diagram shows a right prism of length 9 cm. A cross section of the prism is a trapezium in which the parallel sides are of length 18 cm and 10 cm and the distance between these parallel sides is 15 cm. Calculate the total surface area, in cm², of the prism cm²
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Figure values: 18, 10, 9, 15.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_21_diagram.png)
 
 
 **Mark scheme answer**
 
-> 82 + 152 (=17) M1 Using Pythagoras correctly
+> $8^2$ + $15^2$ (=17) M1 Using Pythagoras correctly
 > 10×9+18×9+15×9 M1 correct areas of the 3 rectangles
 > 18 + 10 8 ×15
 > ×15 or 10 ×15 + [=210] M1 Attempt at area of trapezium
@@ -565,7 +581,7 @@ Diagram NOT accurately drawn 18 cm 10 cm 9 cm 15 cm The diagram shows a right pr
 > the six areas together
 > 960 A1
 
-- **(5)** 82 + 152 (=17) M1 Using Pythagoras correctly
+- **(5)** $8^2$ + $15^2$ (=17) M1 Using Pythagoras correctly
 
 
 ## Question 22 (5 marks)
@@ -581,12 +597,12 @@ Find a formula for T in terms of y.
 
 > k k
 > [T =] 2 M1 For
-> y y2
+> y y²
 > k Subst 0.32 for T and 5 for y
 > 0.32 = M1
 > 8 k
 > T= A1 NB SCB1 for 0.32 =
-> y2
+> y²
 
 - **(3)** k k
 
@@ -599,10 +615,9 @@ Find the positive value of y when T = 200
 
 > "8"
 > 200 = M1
-> y2
+> y²
 > 0.2 A1 oe 2
 > Question Working Answer Mark Notes Sub- Total
-> Total
 
 - **(2)** "8"
 
@@ -610,7 +625,7 @@ Find the positive value of y when T = 200
 ## Question 23 (5 marks)
 ### 23(a) [2]
 
-Write x2 + 10x – 7 in the form (x + p)2 + q
+Write x² + 10x – 7 in the form (x + p)² + q
 
 
 **Mark scheme answer**
@@ -623,7 +638,7 @@ Write x2 + 10x – 7 in the form (x + p)2 + q
 
 ### 23(b) [3]
 
-Hence solve the equation x2 + 10x – 7 = 0 Give your answer in the form a ± b where a and b are integers. Show your working clearly.
+Hence solve the equation x² + 10x – 7 = 0 Give your answer in the form a ± b where a and b are integers. Show your working clearly.
 
 
 **Mark scheme answer**
@@ -643,6 +658,8 @@ Hence solve the equation x2 + 10x – 7 = 0 Give your answer in the form a ± b 
 
 ### 24(a) [2]
 
+(x + 2) is a factor of x³ – 3x2 + ax + 12 where a is a constant.
+
 Show that a = – 4
 
 
@@ -659,7 +676,7 @@ Show that a = – 4
 
 ### 24(b) [3]
 
-Factorise completely x3 – 3x2 – 4x + 12
+Factorise completely x³ – 3x2 – 4x + 12
 
 
 **Mark scheme answer**
@@ -716,7 +733,9 @@ Find the number of yellow bricks in the box. Alvaro draws a pie chart to show in
 
 ### 25(c) [2]
 
-Calculate the size of the angle, in degrees, of the sector for red bricks. °
+Calculate the size of the angle, in degrees, of the sector for red bricks.
+
+…………… °
 
 
 **Mark scheme answer**
@@ -733,26 +752,26 @@ A = ⎜ B= ⎜ C = (5 2) ⎝ −2 1⎟⎠ ⎝ 1 4 ⎟⎠ Find
 
 ### 26(a) [2]
 
-3A + 2B ⎛ ⎞ ⎜ ⎟ ⎜ ⎟ ⎝ ⎠
+A = $\begin{pmatrix} 4 & 3 \\ -2 & 1 \end{pmatrix}$ B = $\begin{pmatrix} 2 & -3 \\ 1 & 4 \end{pmatrix}$ C = $\begin{pmatrix} 5 & 2 \end{pmatrix}$ Find
+
+3A + 2B 
 
 
 **Mark scheme answer**
 
-> ⎛ 16 3 ⎞
-> ⎜ ⎟ B2 -1eeoo
+>  16 3 B2 -1eeoo
 > ⎝ −4 11⎠
 
 - **(2)** ⎛ 16 3 ⎞
 
 ### 26(b) [2]
 
-AB ⎛ ⎞ ⎜ ⎟ ⎜ ⎟ ⎝ ⎠
+AB 
 
 
 **Mark scheme answer**
 
-> ⎛ 11 0 ⎞
-> ⎜ ⎟ B2 -1eeoo
+>  11 0 B2 -1eeoo
 > ⎝ −3 10 ⎠
 
 - **(2)** ⎛ 11 0 ⎞
@@ -780,9 +799,12 @@ Diagram NOT A 7 cm accurately drawn B 9 cm O C 6 cm D E F In the diagram, ABDFE 
 
 ### 27 [6]
 
-Diagram NOT A 7 cm accurately drawn B 9 cm O C 6 cm D E F In the diagram, ABDFE is a circle, centre O and radius 6 cm. ABC and EDC are straight lines. The arc EFD is of length π cm. Calculate the length, in cm to 3 significant figures, of DC cm
+In the diagram, ABDFE is a circle, centre O and radius 6 cm. ABC and EDC are straight lines. The arc EFD is of length π cm. Calculate the length, in cm to 3 significant figures, of DC cm
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, B, O, C, D, E, F · Figure values: 7, 9, 6.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_27_diagram.png)
 
 
 **Mark scheme answer**
@@ -791,7 +813,7 @@ Diagram NOT A 7 cm accurately drawn B 9 cm O C 6 cm D E F In the diagram, ABDFE 
 > =
 > ∠EOD = oe( 105)
 > 12π M1 method to find angle EOD
-> ED = 62 + 62 − 2 × 6 × 6 × cos105 or M1 method to find length ED
+> ED = $6^2$ + $6^2$ − 2 × 6 × 6 × cos105 or M1 method to find length ED
 > ED = 2 × 6sin52.5 oe (=9.52) oe
 > correct equation for DC Allow 9.5 or
 > DC × (DC + "9.52") = 9 ×16 M1
@@ -799,7 +821,7 @@ Diagram NOT A 7 cm accurately drawn B 9 cm O C 6 cm D E F In the diagram, ABDFE 
 > Dep on previous M mark. correct
 > DC² + 9.52DC – 144 (= 0) oe M1
 > equation in form to solve
-> −9.52 + 9.522 − 4 ×1× −144
+> −9.52 + $9.52^2$ − 4 ×1× −144
 > DC = Dep on previous two M marks fully
 > 2 ×1 M1
 > correct method to find DC

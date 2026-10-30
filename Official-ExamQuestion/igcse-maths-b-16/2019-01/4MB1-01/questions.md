@@ -8,7 +8,7 @@ A shop sells a tablet computer for $230 The shop increases the price of the tabl
 
 ### 1 [2]
 
-A shop sells a tablet computer for $230 The shop increases the price of the tablet computer by 5% Calculate the price of the tablet computer after this price increase. $
+A shop sells a tablet computer for \$230 The shop increases the price of the tablet computer by 5% Calculate the price of the tablet computer after this price increase. \$
 
 
 **Mark scheme answer**
@@ -25,7 +25,7 @@ The nth term of a sequence is given by 5n2 – 2 Find the first 3 terms of this 
 
 ### 2 [2]
 
-The nth term of a sequence is given by 5n2 – 2 Find the first 3 terms of this sequence. , ,
+The nth term of a sequence is given by 5n2 – 2 Find the first 3 terms of this sequence. …………… , …………… , ……………
 
 
 **Mark scheme answer**
@@ -119,9 +119,11 @@ y –2 –1 O 1 2 3 x –1 –2 The diagram shows a curve drawn on a grid. By dr
 
 y –2 –1 O 1 2 3 x –1 –2 The diagram shows a curve drawn on a grid. By drawing a suitable straight line on the grid, find an estimate, to one decimal place, of the gradient of the curve at the point when x = 1
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+![figure — official paper figure (qp.pdf p.3)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2019-01/4MB1-01/assets/asset_7_7.png)
 
-> 🖼 crop required: grid (qp.pdf p.None)
+![diagram — official paper figure (qp.pdf p.3)](assets/asset_7_diagram.png)
+
+![figure — official paper figure (qp.pdf p.3)](assets/asset_7_7.png)
 
 
 **Mark scheme answer**
@@ -129,7 +131,6 @@ y –2 –1 O 1 2 3 x –1 –2 The diagram shows a curve drawn on a grid. By dr
 > M1
 > (Must touch the curve. Professional judgement needed.)
 > 5 ±0.5 2 A1
-> Question Working Answer Mark Notes
 
 - **(2)** M1
 
@@ -158,7 +159,7 @@ Represent, on the number line below, your solution of the inequality in part (a)
 > Condone missing arrow if line extends beyond
 > –5
 > ⎛ −8 ⎞
-> −OB + OA + AC = ⎜ ⎟ or a right angled triangle with
+> −OB + OA + AC = or a right angled triangle with
 
 - **(1)** 1 B1 ft
 
@@ -190,9 +191,9 @@ Write 340 000 000 in standard form.
 
 **Mark scheme answer**
 
-> 3.4 × 10 8 1 B1
+> 3.4 ×10⁸ 1 B1
 
-- **(1)** 3.4 × 10 8 1 B1
+- **(1)** 3.4 ×10⁸ 1 B1
 
 ### 10(b) [2]
 
@@ -203,7 +204,6 @@ Calculate, giving your answer in standard form, (2 × 1099) ÷ (5 × 10110 )
 
 > 0.4 × 10 −11 oe M1
 > 4 × 10 −12 2 A1
-> Question Working Answer Mark Notes
 
 - **(2)** 0.4 × 10 −11 oe M1
 
@@ -214,7 +214,7 @@ Given that, for all values of x, 2x 2 – 3x + 21 = a(x – b)2 + c find the val
 
 ### 11 [3]
 
-Given that, for all values of x, 2x 2 – 3x + 21 = a(x – b)2 + c find the value of a, the value of b and the value of c. a= b= c=
+Given that, for all values of x, 2x 2 – 3x + 21 = a(x – b)² + c find the value of a, the value of b and the value of c. a= b= c=
 
 
 **Mark scheme answer**
@@ -241,9 +241,12 @@ A Diagram NOT accurately drawn O B D C AOC and BOD are diameters of a circle, ce
 
 ### 12 [3]
 
-A Diagram NOT accurately drawn O B D C AOC and BOD are diameters of a circle, centre O. Prove that triangle ABC and triangle DCB are congruent.
+AOC and BOD are diameters of a circle, centre O. Prove that triangle ABC and triangle DCB are congruent.
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, O, B, D, C.
+
+![diagram — official paper figure (qp.pdf p.6)](assets/asset_12_diagram.png)
 
 
 **Mark scheme answer**
@@ -298,7 +301,9 @@ A x° D Diagram NOT accurately drawn B 40° 110° E C In the diagram, ABC is a t
 
 A x° D Diagram NOT accurately drawn B 40° 110° E C In the diagram, ABC is a triangle with point D on AB and point E on AC such that DE is parallel to BC. ∠ABC = 40° ∠AED = 110° ∠BAC = x° Find the value of x. Give reasons for each stage of your working. x=
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![diagram — official paper figure (qp.pdf p.8)](assets/asset_14_diagram.png)
 
 
 **Mark scheme answer**
@@ -309,7 +314,6 @@ A x° D Diagram NOT accurately drawn B 40° 110° E C In the diagram, ABC is a t
 > M1
 > add up to 180° (full method)
 > 30 3 A1
-> Question Working Answer Mark Notes
 
 - **(3)** co-interior/allied and angles on a straight line add to B1
 
@@ -339,7 +343,9 @@ N N Diagram NOT accurately drawn B R N L The diagram shows the position of a roc
 
 ### 16(a) [1]
 
-Calculate the bearing of R from L. ° Given that the bearing of B from R is 072° and that RB = RL,
+N N Diagram NOT accurately drawn B R N L The diagram shows the position of a rock R, a boat B and a lighthouse L. The bearing of L from R is 156°
+
+Calculate the bearing of R from L. ° Given that the bearing of B from R is 072° and that RB = RL …………… , ……………
 
 
 **Mark scheme answer**
@@ -351,7 +357,9 @@ Calculate the bearing of R from L. ° Given that the bearing of B from R is 072�
 
 ### 16(b) [3]
 
-calculate the bearing of L from B. °
+calculate the bearing of L from B.
+
+…………… °
 
 
 **Mark scheme answer**
@@ -370,9 +378,12 @@ E D Diagram NOT accurately drawn R S C A 9 cm B The diagram shows a shape ABCDE 
 
 ### 17 [4]
 
-E D Diagram NOT accurately drawn R S C A 9 cm B The diagram shows a shape ABCDE made from a rectangle R and a semicircle S. The side DB of the rectangle is the diameter of the semicircle. Given that AB = 9 cm and that the area of S = 2π cm2 find the area of R. cm2
+The diagram shows a shape ABCDE made from a rectangle R and a semicircle S. The side DB of the rectangle is the diameter of the semicircle. Given that AB = 9 cm and that the area of S = 2π cm² find the area of R. cm²
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: E, D, R, S, C, A, B · Figure values: 9.
+
+![diagram — official paper figure (qp.pdf p.11)](assets/asset_17_diagram.png)
 
 
 **Mark scheme answer**
@@ -382,7 +393,6 @@ E D Diagram NOT accurately drawn R S C A 9 cm B The diagram shows a shape ABCDE 
 > Area = 2 × " 2 "× 9 M1
 > SCM1 for d = 2 2
 > , area = 2 2 × 9 4 A1
-> Question Working Answer Mark Notes
 
 - **(4)** π r = 2π oe M1
 
@@ -393,31 +403,26 @@ A=⎜ BA = ⎜ ⎝ 1 3⎟⎠ ⎝1 2⎟⎠ Find the matrix B. ⎛ ⎞ ⎜ ⎟ ⎜
 
 ### 18 [4]
 
-A=⎜ BA = ⎜ ⎝ 1 3⎟⎠ ⎝1 2⎟⎠ Find the matrix B. ⎛ ⎞ ⎜ ⎟ ⎜ ⎟ ⎜ ⎟ ⎜⎝ ⎟⎠
+A= BA = 1 3 1 2 Find the matrix B. 
 
 
 **Mark scheme answer**
 
 > −2 × 3 + 4 × 1 [ = 2 ] or
-> ⎛a b ⎞ ⎛ −2 −4 ⎞ ⎛ 2 −8 ⎞
-> ⎜ ⎟⎜ ⎟= ⎜ ⎟ M1
+> ⎛a b ⎞ ⎛ −2 −4 ⎞ ⎛ 2 −8 = M1
 > ⎝c d ⎠⎝ 1 3 ⎠ ⎝1 2⎠
 > 1 ⎛ 3 4 ⎞
-> "− " ⎜ ⎟ oe set up 4 equations and find a correct M1
+> "− " oe set up 4 equations and find a correct M1
 > 2 ⎝ −1 −2 ⎠
 > value for at least one of a,b,c or d
 > ⎛ 3 ⎞
-> − −2 ⎟
-> ⎛ 2 −8 ⎞ ⎜ 2
-> ⎜ ⎟ "⎜ ⎟ " oe
-> ⎝1 2 ⎠ ⎜ 1 ⎟ M1
-> ⎜ 1 ⎟
-> ⎝ 2 ⎠
+> − −2 2 −8 2
+>  " " oe
+> ⎝1 2 1 ⎟ M1
+> ⎜ 1 2 ⎠
 > or 3 of a,b,c and d correct
-> ⎛ −7 −12 ⎞
-> ⎜ ⎟ 4 A1
-> ⎜− 1 0 ⎟
-> ⎝ 2 ⎠
+>  −7 −12 4 A1
+> ⎜− 1 0 2 ⎠
 
 - **(4)** −2 × 3 + 4 × 1 [ = 2 ] or
 
@@ -428,7 +433,7 @@ A solid cone has a mass of 1200 g, to 2 significant figures. The area of the bas
 
 ### 19 [4]
 
-A solid cone has a mass of 1200 g, to 2 significant figures. The area of the base of the cone is 38.5 cm2, to 1 decimal place. The height of the cone is 5.0 cm, to 2 significant figures. Given that mass density = volume calculate the upper bound of the density of the cone. Give your answer to 3 significant figures. g/cm3
+A solid cone has a mass of 1200 g, to 2 significant figures. The area of the base of the cone is 38.5 cm², to 1 decimal place. The height of the cone is 5.0 cm, to 2 significant figures. Given that mass density = volume calculate the upper bound of the density of the cone. Give your answer to 3 significant figures. g/cm³
 
 
 **Mark scheme answer**
@@ -443,7 +448,6 @@ A solid cone has a mass of 1200 g, to 2 significant figures. The area of the bas
 > Volume M1
 > and h = 4.95
 > awrt 19.7 4 A1
-> Question Working Answer Mark Notes
 
 - **(4)** 1200 ± 50 M1
 
@@ -454,25 +458,25 @@ Q Diagram NOT accurately drawn B P A R C (2x + 4) cm 4(x 2 – 4) cm D S ABCD an
 
 ### 20 [4]
 
-Q Diagram NOT accurately drawn B P A R C (2x + 4) cm 4(x 2 – 4) cm D S ABCD and PQRS are two similar quadrilaterals. The side AD of length (2x + 4) cm is the longest side of quadrilateral ABCD. The side PS of length 4(x 2 – 4) cm is the longest side of quadrilateral PQRS. The area of the quadrilateral ABCD is 10 cm2 Show that the area, in cm2, of the quadrilateral PQRS is a(x – b)2 where a and b are integers to be found.
++ 4) cm 4(x² – 4) cm D S ABCD and PQRS are two similar quadrilaterals. The side AD of length (2x + 4) cm is the longest side of quadrilateral ABCD. The side PS of length 4(x² – 4) cm is the longest side of quadrilateral PQRS. The area of the quadrilateral ABCD is 10 cm² Show that the area, in cm², of the quadrilateral PQRS is a(x – b)² where a and b are integers to be found.
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: Q, B, P, A, R, C, D, S · Figure values: 2 · Other figure text: (2x + 4) cm, 4(x² – 4) cm.
+
+![diagram — official paper figure (qp.pdf p.14)](assets/asset_20_diagram.png)
 
 
 **Mark scheme answer**
 
-> 4 x2
+> 4 x²
 > M1
 > 2x
-> ⎛ 4 ( x2 − 4) ⎞
+> ⎛ 4 ( x² − 4) ⎞
 > Use of ratio squared eg 10 × ⎜ " "⎟ M1
-> ⎜ 2x + 4 ⎟
-> ⎝ ⎠
-> ⎛ 4 ( x − 2 )( x + 2 ) ⎞
-> 10 × ⎜ "
-> ⎜
-> "⎟
-> ⎟
+> ⎜ 2x + 4 4 ( x − 2 )( x + 2 ) ⎞
+> 10 × "
+> 
+> " 
 > M1 dep 2nd M1
 > ⎝ 2 ( x + 2) ⎠
 > 40 ( x − 2 )
@@ -487,9 +491,13 @@ The lengths of cod caught by fishermen in a small fishing boat last month were m
 
 ### 21(a) [2]
 
+The lengths of cod caught by fishermen in a small fishing boat last month were measured. The incomplete table and histogram below give information about the length of each cod caught last month. Length (l cm) Number of cod 5 < l ≤ 25 30 25 < l ≤ 40 75 40 < l ≤ 50 100 50 < l ≤ 60 155 60 < l ≤ 80 80 < l ≤ 100 20 Frequency density 0 5 10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95 100 Length (l cm)
+
 Complete the table and the histogram. Cod that have a length less than 35 cm are returned to the sea.
 
-> 🖼 crop required: table (qp.pdf p.16)
+![figure — official paper figure (qp.pdf p.19)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2019-01/4MB1-01/assets/asset_21_21-a.png)
+
+![figure — official paper figure (qp.pdf p.19)](assets/asset_21_21-a.png)
 
 
 **Mark scheme answer**
@@ -503,7 +511,9 @@ Complete the table and the histogram. Cod that have a length less than 35 cm are
 
 ### 21(b) [3]
 
-Calculate an estimate, to one decimal place, of the percentage of cod caught that were returned to the sea from the boat last month. %
+Calculate an estimate, to one decimal place, of the percentage of cod caught that were returned to the sea from the boat last month.
+
+…………… %
 
 
 **Mark scheme answer**
@@ -513,7 +523,6 @@ Calculate an estimate, to one decimal place, of the percentage of cod caught tha
 > × 100 M1 ft
 > 30 + 75 + 100 + 155 + "50"+ 20
 > awrt 18.6 5 A1
-> Question Working Answer Mark Notes
 
 - **(3)** 30 + × 75 [ = 80 ] M1
 
@@ -524,13 +533,13 @@ The width of a rectangle is x metres. The length of the rectangle is 7 m longer 
 
 ### 22 [5]
 
-The width of a rectangle is x metres. The length of the rectangle is 7 m longer than the width of the rectangle. Find the set of values of x for which the area of the rectangle is less than 44 m2 Show clear algebraic working.
+The width of a rectangle is x metres. The length of the rectangle is 7 m longer than the width of the rectangle. Find the set of values of x for which the area of the rectangle is less than 44 m² Show clear algebraic working.
 
 
 **Mark scheme answer**
 
 > x ( x + 7 ) oe M1
-> x(x + 7) < 44 or x2 + 7x – 44 < 0 A1
+> x(x + 7) < 44 or x² + 7x – 44 < 0 A1
 > (x + 11)(x – 4) [= 0] M1
 > x = 4 or – 11 A1
 > 0<x<4 5 A1ft
@@ -622,7 +631,6 @@ Express the composite function fg in the form fg(x) = ...
 
 > 4x − 5 6 B1
 > oe
-> Question Working Answer Mark Notes
 > 1 1
 
 - **(1)** 4x − 5 6 B1
@@ -634,7 +642,11 @@ B Diagram NOT accurately drawn 12 cm 5 cm O C 7 cm A The diagram shows a pyramid
 
 ### 25(a) [2]
 
-Calculate the volume, in cm3, of the pyramid. cm3
+B Diagram NOT accurately drawn 12 cm 5 cm O C 7 cm A The diagram shows a pyramid with triangular base OAC. The edges OA, OB and OC of the pyramid are perpendicular to each other. OA = 7 cm OB = 12 cm OC = 5 cm
+
+Calculate the volume, in cm³, of the pyramid.
+
+…………… cm³
 
 
 **Mark scheme answer**
@@ -647,7 +659,9 @@ Calculate the volume, in cm3, of the pyramid. cm3
 
 ### 25(b) [6]
 
-Calculate the area, in cm2 to 3 significant figures, of triangle ABC. cm2
+Calculate the area, in cm² to 3 significant figures, of triangle ABC.
+
+…………… cm²
 
 
 **Mark scheme answer**
@@ -664,7 +678,6 @@ Calculate the area, in cm2 to 3 significant figures, of triangle ABC. cm2
 > M1
 > × 74 × 13sin C
 > 54.5 6 A1
-> Question Working Answer Mark Notes
 > ⎛5− x ⎞
 > ( 5 − 2 y ) = 10 − y 2
 
@@ -683,7 +696,7 @@ Solve the simultaneous equations x 2 = 10 – y 2 x + 2y = 5 Show clear algebrai
 **Mark scheme answer**
 
 > 2
-> x = 10 − ⎜ ⎟ M1
+> x = 10 − M1
 > ⎝ 2 ⎠
 > x 2 − 2 x − 3(= 0) oe y 2 − 4 y + 3( = 0) oe Correct 3 term quadratic A1
 > Solving their 3 term

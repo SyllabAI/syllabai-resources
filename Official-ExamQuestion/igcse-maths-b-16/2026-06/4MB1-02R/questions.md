@@ -49,8 +49,7 @@ Calculate the percentage profit, to 3 significant figures, that Anne makes. Geof
 > 63700 − 56 000 2 M1 For a correct method for finding percentage profit (allow more
 > [×100] or accurate value for 63 700)
 > 56 000
-> ⎛ 63700 ⎞
-> ⎜ − 1⎟ [×100] oe
+> ⎛ 63700 − 1⎟ [×100] oe
 > ⎝ 56 000 ⎠
 > Cas 13.8% A1 awrt 13.8% or allow 13.7%
 
@@ -58,9 +57,11 @@ Calculate the percentage profit, to 3 significant figures, that Anne makes. Geof
 
 ### 1(d) [4]
 
-Find the value of n Diagram NOT accurately drawn h mm a mm a mm Figure 1 Figure 1 shows a solid made from an alloy by fixing a small cuboid on the flat top face of a large cuboid. The total volume of the solid is V mm3 The base of the large cuboid is a square with sides of length a mm The height of the large cuboid is h mm The volume of the small cuboid is U mm3 Given that a = 73.2 to 1 decimal place U = 900 to the nearest 10 V = 51860 to 4 significant figures
+Find the value of n Diagram NOT accurately drawn h mm a mm a mm Figure 1 Figure 1 shows a solid made from an alloy by fixing a small cuboid on the flat top face of a large cuboid. The total volume of the solid is V mm³ The base of the large cuboid is a square with sides of length a mm The height of the large cuboid is h mm The volume of the small cuboid is U mm³ Given that a = 73.2 to 1 decimal place U = 900 to the nearest 10 V = 51860 to 4 significant figures
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![diagram — official paper figure (qp.pdf p.2)](assets/asset_1_diagram.png)
 
 
 **Mark scheme answer**
@@ -103,7 +104,6 @@ calculate the upper bound, to 3 significant figures, of h Show all your working.
 > =9.53
 > 73.152 this. Condone 9.52 if correct calculation shown
 > Wr Total 15 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 51 855 or 51 865 or 4 M1 For any correct bound seen.
 
@@ -141,9 +141,8 @@ Calculate the time taken to fill Akine’s bath with water using both the hot ta
 > 12 15 If working in hours you may see × 60 oe
 > 2160
 > ⎛ 240 ⎞
-> If working in seconds you may see ⎜ ⎟ ÷ 60 oe
-> ⎜ 3 ⎟
-> ⎝ 5⎠
+> If working in seconds you may see ÷ 60 oe
+> ⎜ 3 5⎠
 > Cas 6 minutes 40 A1 cao
 > seconds
 
@@ -162,8 +161,6 @@ Calculate the time taken for the 240 litres of water to leave the bath. Give you
 > e.g. 200 litres = 2mins and 40 litres = 0.4 × 60 [=24]
 > Cas 2 mins 24 A1 cao
 > seconds
-> Total 6 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 240 2 M1 a correct expression to find time in mins or seconds
 
@@ -173,6 +170,8 @@ Calculate the time taken for the 240 litres of water to leave the bath. Give you
 Diagram NOT E F accurately drawn D C G H 5 cm A 6 cm B Figure 2 Figure 2 shows a cuboid ABCDEFGH with horizontal base ABGH AB = 6cm BG = 5cm Given that the surface area of the cuboid is 236 cm2
 
 ### 3(a) [2]
+
+Diagram NOT E F accurately drawn D C G H 5 cm A 6 cm B Figure 2 Figure 2 shows a cuboid ABCDEFGH with horizontal base ABGH AB = 6cm BG = 5cm Given that the surface area of the cuboid is 236 cm²
 
 show that the length of BC is 8 cm
 
@@ -203,8 +202,6 @@ Calculate, in cm to one decimal place, the length of AF
 > AF = "10"2 + 52 ⎡⎣ = 5 5 ⎤⎦ or NB [ AF = ] 52 + 62 + 82 ⎡⎣ = 5 5 ⎤⎦ scores M2
 > AF = "9.43"2 + 62 ⎡⎣ = 5 5 ⎤⎦
 > Cas 11.2 A1 awrt 11.2 Do not allow 5 5
-> Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(3)** [ AG =] 52 + 62 ⎡⎣= 61 = 7.81⎤⎦ or 3 M1 For a correct method to find the length of AG or AC or AE
 
@@ -230,7 +227,6 @@ A particle P is moving along a straight line. At time t seconds the displacement
 > their expression for a
 > –225 A1 allow 225
 > Wr Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(5)** [v =]15t 2 − t 3 5 M1 for an attempt to differentiate i.e. x n → x n −1 for at least one
 
@@ -251,10 +247,10 @@ Figure 3 shows two shapes, A and B 2x cm Diagram NOT accurately drawn 10 cm A 13
 > 6 M1 A correct method to find GI or ∠GHI or ∠GIH
 > [GI =] 132 − 122 [ = 5]
 > ⎛ 12 ⎞
-> cos ∠GHI = ⎜ ⎟ [⇒ ∠GHI = 22.6] or
+> cos ∠GHI = [⇒ ∠GHI = 22.6] or
 > ⎝ 13 ⎠
 > ⎛ 12 ⎞
-> sin ∠GIH = ⎜ ⎟ [⇒ ∠GIH = 67.4]
+> sin ∠GIH = [⇒ ∠GIH = 67.4]
 > ⎝ 13 ⎠
 > May be implied by GI = 5
 > 1 M1 A correct expression for the area of HGI ft their GI
@@ -279,8 +275,6 @@ Figure 3 shows two shapes, A and B 2x cm Diagram NOT accurately drawn 10 cm A 13
 > factorisation
 > May be implied by 1.08 or 13.9
 > 1.08 A1 awrt 1.07 or awrt 1.08 do not condone inclusion of 13.9
-> Cas Total 6 marks
-> Question Working Answer Mark Notes
 
 - **(6)** 6 M1 A correct method to find GI or ∠GHI or ∠GIH
 
@@ -330,8 +324,6 @@ Find the size, to the nearest degree, of ∠BAF Give a reason for each stage of 
 > Alternate B1 dependent on using either ∠DAE = ∠ABD or ∠BAF = ∠ADB
 > segment with correct reason(s)
 > theorem
-> Total 7 marks
-> Question Working Answer Mark Notes
 
 - **(3)** ∠BDA = 50 or ∠ABD = 64 3 M1 may be seen on diagram. May be implied by ∠BAF = 50
 
@@ -366,7 +358,7 @@ show that 3a 4b Given that 4 a 2 b
 > 3 9 2 b− 27 b−13
 > 34b
 > = 34b−3 or 3 = 9
-> or = 27 3 indices. Allow e.g. = 32(2b )3−3
+> or = 27 3 indices. Allow e.g. = 32(2b )³−3
 > 3 27 3 3
 > Answer is given so no incorrect working can be seen
 
@@ -402,8 +394,7 @@ show that 2a 3b
 > 2 or
 > 3( 2 −b ) 2 −b 3 ( −2 + b )
 > 2 negative power. Allow e.g. Answer is given so no
-> ⎛ 32 ⎞
-> ⎜4 ⎟ incorrect working can be seen
+> ⎛ 32 4 ⎟ incorrect working can be seen
 > ⎝ ⎠
 > 2 −b
 > = 8b − 2
@@ -422,11 +413,11 @@ Solve the simultaneous equations 3x 4 y 2x 3y Show clear algebraic working.
 > 0 = y – 12 x= 15 (condone any one arithmetic error) or writing x or y in terms of the
 > or other variable and correctly substituting must gain an equation in
 > ⎛ 3y − 6 ⎞ ⎛ 2x + 6 ⎞ one variable
-> 3⎜ ⎟ = 4 y − 3 or 3x = 4 ⎜ 3 ⎟ − 3
+> 3 = 4 y − 3 or 3x = 4 ⎜ 3 ⎟ − 3
 > ⎝ 2 ⎠ ⎝ ⎠
 > or
 > ⎛ 4y −3 ⎞ ⎛ 3x + 3 ⎞
-> 2⎜ ⎟ = 3 y − 6 or 2 x = 3 ⎜ 4 ⎟ − 6
+> 2 = 3 y − 6 or 2 x = 3 ⎜ 4 ⎟ − 6
 > ⎝ 3 ⎠ ⎝ ⎠
 > x = 15 or y = 12 A1oe one correct value dep on M1
 > 3 x = 4 × "12"− 3 or 3 × "15" = 4 y − 3 or M1 dep on M1. For a correct method to find second variable –
@@ -444,8 +435,6 @@ Hence write down the value of a and the value of b that satisfy 3a 9 2b 1 3 = an
 **Mark scheme answer**
 
 > a = 15 and b = 12 1 B1 ft their part c
-> Total 9 marks
-> Question Working Answer Mark Notes
 
 - **(1)** a = 15 and b = 12 1 B1 ft their part c
 
@@ -478,7 +467,9 @@ Show that the probability of this counter being green is 15 A second counter is 
 
 Complete the tree diagram on the opposite page.
 
-> 🖼 crop required: diagram (qp.pdf p.18)
+![figure — official paper figure (qp.pdf p.2)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2026-06/4MB1-02R/assets/asset_8_8-b.png)
+
+![figure — official paper figure (qp.pdf p.2)](assets/asset_8_8-b.png)
 
 
 **Mark scheme answer**
@@ -531,8 +522,6 @@ Calculate the probability that at least one of the two counters taken is green. 
 > cas 11 154
 > A1 oe e.g. Allow 0.733 or better
 > 15 210
-> Total 8 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 5 4 5 3 5 7 3 5 3 M1 ft their tree diagram, any product of
 
@@ -597,17 +586,17 @@ Using a vector method, find BE as a simplified expression in terms of a and b
 **Mark scheme answer**
 
 > →
-> ⎡ BE = ⎤ 2a + b + λ " ⎛⎜ a − b ⎞⎟ " or
+> ⎡ BE = ⎤ 2a + b + λ " a − b " or
 > 7 5 M1 For a correct expression for BE or ME or
 > →
 > ⎣ ⎦ ⎝2 2 ⎠ NE in terms of a, b and a scalar multiple of
 > → →
 > →
-> ⎡ BE = ⎤ 5.5a − 1.5b + α " ⎛⎜ a − b ⎞⎟ " or
+> ⎡ BE = ⎤ 5.5a − 1.5b + α " a − b " or
 > 7 5 MN ft their MN
 > ⎣ ⎦ ⎝2 2 ⎠
 > → →
-> ⎡ ME = ⎤ λ " ⎛⎜ a − b ⎞⎟ " or ⎡ NE = ⎤ α " ⎛⎜ a − b ⎞⎟ "
+> ⎡ ME = ⎤ λ " a − b " or ⎡ NE = ⎤ α " a − b "
 > 7 5 7
 > ⎣ ⎦ ⎝2 2 ⎠ ⎣ ⎦ ⎝2 2 ⎠
 > →→ → →
@@ -632,8 +621,6 @@ Using a vector method, find BE as a simplified expression in terms of a and b
 > m= or correct answer
 > Cas 52 A1 oe
 > a − 5b
-> Total 9 marks
-> Question Working Answer Mark Notes
 
 - **(4)** →
 
@@ -666,7 +653,7 @@ On the grid, draw and label triangle D Triangle B is transformed to triangle E b
 
 > Correctly plotted triangle 2 B2 fully correct triangle plotted
 > (–3, 1), (1, 1) and (1, 3) ⎛ 2⎞ ⎛ n ⎞
-> (B1 for triangle translated by ⎜ ⎟ or ⎜ ⎟ )
+> (B1 for triangle translated by or )
 > ⎝ n ⎠ ⎝ −2 ⎠
 
 - **(2)** Correctly plotted triangle 2 B2 fully correct triangle plotted
@@ -704,7 +691,9 @@ Describe fully the single transformation that maps triangle A onto triangle B Tr
 
 ### 10(e) [2]
 
-On the grid, draw and label triangle F y A −7 −6 −5 −4 −3 −2 −1 O 1 2 3 4 5 6 x −1 −2 B −3 −4 −5 −6 for a spare grid if you need to redraw your triangles. Only use this grid if you need to redraw your triangles. y A −7 −6 −5 −4 −3 −2 −1 O 1 2 3 4 5 6 x −1 −2 B −3 −4 −5 −6
+On the grid, draw and label triangle F
+
+![grid — official paper figure (qp.pdf p.23) (same figure as asset_10_a_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2026-06/4MB1-02R/assets/asset_10_a_grid.png)
 
 ![grid — official paper figure (qp.pdf p.23) — shared with asset_10_a_grid](assets/asset_10_a_grid.png)
 
@@ -715,7 +704,6 @@ On the grid, draw and label triangle F y A −7 −6 −5 −4 −3 −2 −1 O 
 > (–4, 0), (B1 2 points plotted correctly or triangle enlarged by scale
 > (–4, –4) and factor –2 about any centre)
 > (–2, –4)
-> Total 9 marks
 > y
 > A
 > E
@@ -731,7 +719,6 @@ On the grid, draw and label triangle F y A −7 −6 −5 −4 −3 −2 −1 O 
 > –4
 > –5
 > –6
-> Question Working Answer Mark Notes
 
 - **(2)** Correctly plotted triangle 2 B2 fully correct triangle plotted
 
@@ -760,8 +747,8 @@ Solve the equation f x ax + b
 
 > (2 x + 5)(2 x − 3) 2 M1 for a correct method to solve the quadratic equation. If factorising,
 > ⎡ 5 3⎤ allow brackets which when expanded give 2 out of 3 terms correct
-> ⎢⎣ = 0 ⇒ x = − , x =
-> 2 2 ⎥⎦ If using formula must use a fully correct formula allow one sign error when
+>  = 0 ⇒ x = − , x =
+> 2 2 If using formula must use a fully correct formula allow one sign error when
 > −4 ± 42 − 4 × 4 × ( −15 )
 > substituting in oe
 > 2× 4
@@ -810,9 +797,9 @@ Find the inverse of the function f Give your answer in the form f −1 : x ↦ �
 
 **Mark scheme answer**
 
-> 4( x + ...)2 or (2 x + ...)2 or 4 M1 start to complete the square, correctly dealing with 4x 2
+> 4( x + ...)² or (2 x + ...)² or 4 M1 start to complete the square, correctly dealing with 4x 2
 > 15 y NB may be in terms of y rather than x
-> x2 + x − =
+> x² + x − =
 > 4 4
 > ⎛ 1⎞
 > 2 M1 dep on previous M mark. Completing square, correctly dealing
@@ -858,8 +845,6 @@ Find the domain of f −1
 
 > x > 1 ⇒ f( x) > 4 ×12 + 4 ×1 − 15 2 M1 calculating range of f(x) may be as an equation for this mark.
 > Cas x > −7 A1 cao
-> Total 12 marks
-> Question Working Answer Mark Notes
 
 - **(2)** x > 1 ⇒ f( x) > 4 ×12 + 4 ×1 − 15 2 M1 calculating range of f(x) may be as an equation for this mark.
 
@@ -898,7 +883,9 @@ On the grid opposite, plot the points from your completed table and join them to
 
 ### 12(c) [4]
 
-By drawing a straight line on the grid, find estimates, to one decimal place, of the solutions to the equation 5 x 2 9 x 13 2 0 in the interval 0.2 ≤ x ≤ 1.6 2x y 0.2 0.4 0.6 0.8 1.0 1.2 1.4 1.6 x −2 −4 −6 −8 −10 for a spare grid if you need to redraw your curve. Only use this grid if you need to redraw your curve. y 0.2 0.4 0.6 0.8 1.0 1.2 1.4 1.6 x −2 −4 −6 −8 −10
+By drawing a straight line on the grid, find estimates, to one decimal place, of the solutions to the equation 5 x 2 9 x 13 2 0 in the interval 0.2 ≤ x ≤ 1.6
+
+![grid — official paper figure (qp.pdf p.31) (same figure as asset_12_b_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2026-06/4MB1-02R/assets/asset_12_b_grid.png)
 
 ![grid — official paper figure (qp.pdf p.31) — shared with asset_12_b_grid](assets/asset_12_b_grid.png)
 
@@ -907,14 +894,13 @@ By drawing a straight line on the grid, find estimates, to one decimal place, of
 
 > 1 4
 > 5 x 2 − 10 + = 3 − 9x M1 Rearrange to isolate 5 x 2 − 10 + 2 allow if y = 3 − 9 x seen or
-> 2 x2 2x
+> 2 x² 2x
 > implied
 > M1 Line drawn with a gradient of –9 or which would intersect y
 > axis at 3
 > A1 Correct line drawn which crosses the curve in 2 places
 > Wr 0.21, 0.91 A1 Dep on both M marks. Allow ft their curve and line (Allow
 > answers correct to 1dp)
-> Total 9 marks
 
 - **(4)** 1 4
 

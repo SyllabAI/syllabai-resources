@@ -48,6 +48,8 @@ jobs:
         run: python3 scripts/official_examq_f117_tests.py
       - name: F118 F95 ALLOW-lead guard tests (the answer-cell M-row law + the 18-hit census + the F97 zero-flip; zero network)
         run: python3 scripts/official_examq_f118_tests.py
+      - name: maths-B corpus back-sync battery (F122/run-030 — the 2,669 synced-field pins + ledger laws + C-generation cross-check; zero network)
+        run: python3 scripts/official_examq_mathsb_backsync_tests.py
       - name: F104 asset-byte guard scan (every assets/ file format-truth validated + dangling references)
         run: python3 scripts/official_examq_asset_bytes.py --scan-corpus Official-ExamQuestion
 
@@ -88,6 +90,8 @@ jobs:
               try:
                   d = json.load(open(p))
               except Exception:
+                  continue
+              if not all(isinstance(d.get(k), dict) for k in ('new', 'gone', 'changed')):
                   continue
               keys = list(d.get('new', {})) + list(d.get('gone', {})) + list(d.get('changed', {}))
               if all(k.startswith('official-4ch1-') for k in keys):

@@ -5,7 +5,7 @@
 ## Question 1 (6 marks)
 ### 1(a) [1]
 
-Write 2.51×10 4 as an ordinary number.
+Write 2.51×10⁴ as an ordinary number.
 
 
 **Mark scheme answer**
@@ -50,8 +50,6 @@ Calculate 5 10100 7 1099 Give your answer in standard form.
 > or for a correct answer in any form
 > 43 ×1099 or 4.3 ×10n or k ×10100
 > 4.3 ×10100 A1 cao
-> cas Total 6 marks
-> Question Working Answer Mark Notes
 
 - **(2)** (5 ×10 ) − ( 0.7 ×10 ) or (50 ×10 ) − ( 7 ×10 ) or
 
@@ -62,7 +60,11 @@ Calculate 5 10100 7 1099 Give your answer in standard form.
 
 ### 2(a) [3]
 
-Calculate, in cm2 to 3 significant figures, the total surface area of the cylinder. A and B are two mathematically similar solids. The surface area of A is 3051 cm2 The surface area of B is 5424 cm2 Given that volume of A + volume of B = 2548 cm3
+5 cm Diagram NOT accurately drawn 8 cm Figure 1 Figure 1 shows a right circular solid cylinder with radius 5 cm and height 8 cm
+
+Calculate, in cm² to 3 significant figures, the total surface area of the cylinder. A and B are two mathematically similar solids. The surface area of A is 3051 cm² The surface area of B is 5424 cm² Given that volume of A + volume of B = 2548
+
+…………… cm³
 
 
 **Mark scheme answer**
@@ -79,45 +81,40 @@ Calculate, in cm2 to 3 significant figures, the total surface area of the cylind
 
 ### 2(b) [4]
 
-calculate the volume, in cm3, of B
+calculate the volume, in cm³, of B
 
 
 **Mark scheme answer**
 
 > 3 4 M2 For a correct SF or ratio
 > ⎛ 5424 ⎞ ⎡ 64 ̇̇ ⎤ or 64 : 27 or
-> ⎜ ⎟ ⎢= = 2.370 (If not M2 then
+>  = = 2.370 (If not M2 then
 > ⎝ 3051 ⎠ ⎣ 27 ⎦⎥
 > 5424 ⎡ 16 4 ⎤
 > M1 for ⎢= = = 1.333...⎥ or
-> ⎛ 3051 ⎞ ⎡ 27 ⎤ 3051 ⎣ 9 3 ⎦
-> ⎜ ⎟ ⎢= = 0.421875⎥ or 27 : 64
+> ⎛ 3051 ⎞ ⎡ 27 ⎤ 3051 ⎣ 9 3 = = 0.421875⎥ or 27 : 64
 > ⎝ 5424 ⎠ ⎣ 64 ⎦
-> ⎛ 5424 ⎞ ⎡ 4096 ⎤ 3051 ⎡ 9 3 ⎤
-> ⎜ ⎟ ⎢= = 5.6186...⎥ or ⎢= = = 0.75⎥ or
+> ⎛ 5424 ⎞ ⎡ 4096 ⎤ 3051 ⎡ 9 3 = = 5.6186...⎥ or ⎢= = = 0.75⎥ or
 > ⎝ 3051 ⎠ ⎣ 729 ⎦ 5424 ⎣ 16 4 ⎦
-> ⎛ 3051 ⎞ ⎡ 729 ⎤
-> ⎜ ⎟ ⎢= = 1.7797...⎥ or 5424 : 3051 or
+> ⎛ 3051 ⎞ ⎡ 729 = = 1.7797...⎥ or 5424 : 3051 or
 > ⎝ 5424 ⎠ ⎣ 4096 ⎦
 > 16 : 9 or 9 : 16 or 5424 : 30513)
 > 3 M1 dep on M2 for a correct equation or ratio
 > ⎛ 5424 ⎞
-> Vol of A + ⎜ ⎟ × Vol of A = 2548 or Equivalent equations are acceptable e.g.
+> Vol of A + × Vol of A = 2548 or Equivalent equations are acceptable e.g.
 > ⎝ 3051 ⎠
 > 64 ⎛ 5424 ⎞ 2548 − Vol of A
-> a + a = 2548 oe or ⎜ ⎟ =
+> a + a = 2548 oe or =
 > 27 ⎝ 3051 ⎠ Vol of A
 > 3 Allow
 > ⎛ 3051 ⎞
-> Vol of B + ⎜ ⎟ × Vol of B = 2548 or
+> Vol of B + × Vol of B = 2548 or
 > × 2548 or
 > × 2548 or Vol of A =756
 > ⎝ 5424 ⎠
 > 27 + 64 27 + 64
 > b+ b = 2548 oe
 > cas 1792 A1
-> Total 7 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 3 4 M2 For a correct SF or ratio
 
@@ -125,7 +122,7 @@ calculate the volume, in cm3, of B
 ## Question 3 (8 marks)
 ### 3(a) [2]
 
-Solve the inequality 3 p 2
+Solve the inequality 3p − 2 > 4
 
 
 **Mark scheme answer**
@@ -152,7 +149,13 @@ Solve the inequality 5(2 q )
 
 ### 3(c) [4]
 
-On the grid opposite, by drawing suitable straight lines and using shading, show the region R that satisfies the inequalities y > 1 x y 5 y 2 x Label the region R y −4 −2 O 2 4 6 8 x −2
+On the grid opposite, by drawing suitable straight lines and using shading, show the region R that satisfies the inequalities
+
+y > 1   x + y < 5   y < 2x + 3
+
+Label the region R
+
+![grid — official paper figure (qp.pdf p.7)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2025-11/4MB1-02/assets/asset_3_c_grid.png)
 
 ![grid — official paper figure (qp.pdf p.7)](assets/asset_3_c_grid.png)
 
@@ -169,8 +172,6 @@ On the grid opposite, by drawing suitable straight lines and using shading, show
 > labelled as R or the outside of the region shaded.
 > We can ignore shading inside and outside of the required region if
 > the required region is clearly labelled R
-> cas Total 8 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 4 B1 for horizontal line drawn through 1 on y axis Allow solid or
 
@@ -181,7 +182,11 @@ B C Diagram NOT accurately drawn 21.7 cm 56° A D 34.9 cm Figure 2 Figure 2 show
 
 ### 4(a) [4]
 
-Calculate the perimeter, in cm to 3 significant figures, of trapezium ABCD P Diagram NOT accurately drawn r cm Q 72° r cm O Figure 3 Figure 3 shows sector POQ of a circle with centre O and radius r cm POQ 72° Given that the perimeter of trapezium ABCD is equal to the perimeter of sector POQ
+B C Diagram NOT accurately drawn 21.7 cm 56° A D 34.9 cm Figure 2 Figure 2 shows trapezium ABCD AB = 21.7 cm AD = 34.9 cm ∠ADC = 56° ∠ABC = ∠BAD = 90°
+
+Calculate the perimeter, in cm to 3 significant figures, of trapezium ABCD P Diagram NOT accurately drawn r cm Q 72° r cm O Figure 3 Figure 3 shows sector POQ of a circle with centre O and radius r cm ∠POQ = 72° Given that the perimeter of trapezium ABCD is equal to the perimeter of sector POQ
+
+![diagram — official paper figure (qp.pdf p.8)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2025-11/4MB1-02/assets/asset_4_a_diagram.png)
 
 ![diagram — official paper figure (qp.pdf p.8)](assets/asset_4_a_diagram.png)
 
@@ -221,7 +226,7 @@ Calculate the perimeter, in cm to 3 significant figures, of trapezium ABCD P Dia
 
 ### 4(b) [5]
 
-calculate the area, in cm2 to 3 significant figures, of sector POQ
+calculate the area, in cm² to 3 significant figures, of sector POQ
 
 
 **Mark scheme answer**
@@ -235,14 +240,11 @@ calculate the area, in cm2 to 3 significant figures, of sector POQ
 > "103.038..." M1 for a correct method to find r using their (a)
 > [ r =] A value of r = 31.6 implies this mark
 > ⎛ 72 × 2 × π ⎞ + 2
-> ⎜ ⎟
-> ⎝ 360 ⎠
+>  360 
 > 72 M1 for correct method to find the area of the sector using their r value
 > × π × "31.6"2
 > 360
 > 629 A1 627 – 629
-> cas Total 9 marks
-> Question Working Answer Mark Notes
 
 - **(5)** 72 5 M1 for a correct expression for the arc length. May be seen embedded
 
@@ -253,56 +255,47 @@ Solve the simultaneous equations 4 x 2 y 2 x 2y Show clear algebraic working. (6
 
 ### 5 [6]
 
-Solve the simultaneous equations 4 x 2 y 2 x 2y Show clear algebraic working.
+Solve the simultaneous equations
+
+$4x^2 - y^2 = 27$
+
+x + 2y = 3
+
+Show clear algebraic working.
 
 
 **Mark scheme answer**
 
-> x = 3 − 2 y ⇒ 4 ( 3 − 2 y ) − y = 27
-> 2 2 6 M1 for correct substitution of the linear equation x + 2 y = 3 into the quadratic equation
-> 2 4 x 2 − y 2 = 9 to form an (unsimplified) quadratic equation in either x or y. This mark can be
-> 3− x ⎛ 3− x ⎞
-> => 4 x − ⎜ ⎟ = 27
-> or y = implied by the second method mark.
-> 2 ⎝ 2 ⎠
-> ( )
-> 4 9 − 12 y + 4 y 2 − y 2 = 27 ⎛ 3− x ⎞
-> M1 for correct expansion of either their ( 3 − 2 y ) or ⎜
-> ⎟
-> ⎛ 9 3x x 2 ⎞ ⎝ 2 ⎠
-> or 4 x − ⎜ − + ⎟ = 27
+> $x = 3 - 2 y \Rightarrow 4 ( 3 - 2 y )^2 - y^2 = 27$ 6 M1 for correct substitution of the linear equation x + 2 y = 3 into the quadratic equation
+> $4x^2 - y^2 = 9$ to form an (unsimplified) quadratic equation in either x or y. This mark can be
+> or $y = \frac{3-x}{2} \Rightarrow 4x^2 - \left(\frac{3-x}{2}\right)^2$ = 27 implied by the second method mark.
+> $4 ( 9 - 12 y + 4 y^2 ) - y^2 = 27$ M1 for correct expansion of either their ( 3 − 2 y ) or
+> $\left(\frac{3-x}{2}\right)^2$
 > This mark can be implied by the third method mark
-> ⎝4 2 4 ⎠
-> 15 y 2 − 48 y + 9 [ = 0] M1 dep on first M1 for multiplying out and collecting terms, forming a 3 term quadratic in
-> any form of ax2 + bx + c (= 0) with at least 2 coefficients (a or b or c) correct
-> 15 x 2 3 x 117 (oe e.g. 5 y − 16 y + 3[ = 0] , 15 x + 6 x − 117 [ = 0] , 5 x + 2 x − 39 [ = 0] etc look out for all signs
-> [ = 0]
-> 2 2
-> + −
-> 4 2 4 reversed)
+> or $4x^2 - \left(\frac{9}{4} - \frac{3x}{2} + \frac{x^2}{4}\right)$ = 27
+> $15 y^2 - 48 y + 9$ [ = 0] M1 dep on first M1 for multiplying out and collecting terms, forming a 3 term quadratic in
+> any form of $ax^2 + bx + c$ (= 0) with at least 2 coefficients (a or b or c) correct
+> $\frac{15x^2}{4} + \frac{3x}{2} - \frac{117}{4}$ [ = 0] (oe e.g. $5 y^2 - 16 y + 3$[ = 0] , $15 x^2 + 6 x - 117$ [ = 0] , $5 x^2 + 2 x - 39$ [ = 0] etc look out for all signs
+> reversed)
 > (5 y − 1)( y − 3) [ = 0] oe or M1 correct method for solving their 3-term quadratic – either by formula, completing the
 > square or factorising. If the quadratic is incorrect then working must be shown. Allow
 > (5 x − 13)( x + 3) [ = 0] oe
 > equivalent factorisations e.g. (15 y − 3)( y − 3) [ = 0]
 > By factorising: brackets must expand to give 2 out of 3 correct terms
 > By formula: correct substitution into fully correct formula (allow 1 sign error).
-> By completing the square: must see e.g., 5 ⎛⎜ y − ⎞⎟ ± ...[ = 0]
-> ⎝ 5⎠
+> By completing the square: must see e.g., 5 $\left(y - \frac{8}{5}\right)^2$ ± ...[ = 0]
 > May be implied by x = 2.6 and x = –3 or y = 0.2 and y = 3
 > [ x =] 3 − 2 × "0.2" and [ x =] 3 − 2 × "3" M1substituting their two x values into either equation leading to values for y or vice versa (not
-> or dependent on any previous M marks) e.g. 4 x 2 − "0.2"2 = 27 leading to x =… and
-> 3 − "2.6" 3 − "− 3" 4 x 2 − "3"2 = 27 leading to x = … or 4 ("2.6") − y = −27 leading to y = … and
-> 2 2
-> [ y =] and [ y =]
-> 2 2 4 ("− 3") − y 2 = −27 leading to y = …
+> or dependent on any previous M marks) e.g. $4x^2 - "0.2"^2 = 27$ leading to x =… and
+> [ y =] $\frac{3-"2.6"}{2}$ and [ y =] $\frac{3-"-3"}{2}$ $4x^2 - "3"^2 = 27$ leading to x = … or $4 ("2.6")^2 - y^2 = -27$ leading to y = … and
+> $4 ("- 3")^2 - y^2 = -27$ leading to y = …
 > This mark can be implied by correct values (if no working seen). This mark can be implied by
 > both correct pairs of values. If values are incorrect then working must be seen
 > (2.6, 0.2) A1 dep on 3 M marks for both correct pairs of x and y values (oe e.g.,
-> (–3, 3) x = 135 , y = 15 and x = −3, y = 3 ) NB These do not need to be written as coordinates
+> (–3, 3) x = $\frac{13}{5}$ , y = $\frac{1}{5}$ and x = −3, y = 3 ) NB These do not need to be written as coordinates
 > wr Total 6 marks
-> Question Working Answer Mark Notes
 
-- **(6)** x = 3 − 2 y ⇒ 4 ( 3 − 2 y ) − y = 27
+- **(6)** $x = 3 - 2 y \Rightarrow 4 ( 3 - 2 y )^2 - y^2 = 27$ 6 M1 for correct substitution of the linear equation x + 2 y = 3 into the quadratic equation
 
 
 ## Question 6 (10 marks)
@@ -325,7 +318,6 @@ Calculate how many of these 120 runners are aged 25 to 34 Xavier is one of the r
 > angle between 0 and 360 if angle is not explicitly stated
 > 42 A1 cao Note: an answer in the range
 > 41.3(3…) – 42.6(6…) implies B1M1
-> Question Working Answer Mark Notes
 
 - **(3)** 126 (±2) seen 3 B1 may be seen in a calculation or on the diagram
 
@@ -333,7 +325,9 @@ Calculate how many of these 120 runners are aged 25 to 34 Xavier is one of the r
 
 Calculate the lower bound, in metres/minute to 3 significant figures, for Xavier’s average speed. Show all your working. The times, in minutes, for the 120 runners to complete 5 km is recorded. No runner takes less than 15 minutes or more than 70 minutes. The incomplete table and the incomplete histogram give information about the times. Minutes (t minutes) Frequency 15 < t ≤ 25 10 25 < t ≤ 30 16 30 < t ≤ 35 28 35 < t ≤ 40 40 < t ≤ 50 24 50 < t ≤ 70 Frequency density 10 20 30 40 50 60 70 Time (t minutes)
 
-> 🖼 crop required: table (qp.pdf p.14)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![table — official paper figure (qp.pdf p.13)](assets/asset_6_table.png)
 
 
 **Mark scheme answer**
@@ -343,7 +337,7 @@ Calculate the lower bound, in metres/minute to 3 significant figures, for Xavier
 > t d and t must be within the limits given
 > [ d LB =] 2950, [ dUB =] 3050, [tLB =]17.5 , [tUB =]18.5 B1 for one correct LB or UB stated or used
 > 2950 ̇ d < 3000 ⎡ 2950 ⎤ M1 for recognising to be LB/UB ie
-> speed = ⎢ speed =
+> speed = speed =
 > 18 < t ̇ 18.5 ⎣ 18.5 ⎥⎦ speed =
 > 2950 ̇ d < 3000
 > 18 < t ̇ 18.5
@@ -382,7 +376,9 @@ Alex produces and sells cans of drink. The table shows the production costs for 
 
 ### 7(a) [2]
 
-Calculate the manufacturing cost as a percentage of the total production cost. Give your answer to one decimal place. Alex sells each of the 80 000 cans of drink for £0.60 Using the exchange rate of £1 = 1.15 euros,
+Alex produces and sells cans of drink. The table shows the production costs for 80 000 cans of drink. Production cost (euros) Manufacturing 31 000 Other 4 350 Total production cost 35 350
+
+Calculate the manufacturing cost as a percentage of the total production cost. Give your answer to one decimal place. Alex sells each of the 80 000 cans of drink for £0.60 Using the exchange rate of £1 = 1.15 euros …………… , ……………
 
 
 **Mark scheme answer**
@@ -398,7 +394,7 @@ Calculate the manufacturing cost as a percentage of the total production cost. G
 
 ### 7(b) [4]
 
-calculate the percentage profit that Alex makes. Give your answer to 3 significant figures. Alex borrows £20 000 on 1st January 2026 from a bank. On 31st December each year, starting on 31st December 2026, the bank charges interest of 8.4% on the amount of money that Alex owes the bank. This interest is added to the amount of money that he owes the bank. Given that Alex does not repay any of the money that he owes the bank,
+calculate the percentage profit that Alex makes. Give your answer to 3 significant figures. Alex borrows £20 000 on 1st January 2026 from a bank. On 31st December each year, starting on 31st December 2026, the bank charges interest of 8.4% on the amount of money that Alex owes the bank. This interest is added to the amount of money that he owes the bank. Given that Alex does not repay any of the money that he owes the bank …………… , ……………
 
 
 **Mark scheme answer**
@@ -460,8 +456,6 @@ calculate the selling price for each snack, in £, before tax is added.
 > 0.90 ÷ 1.2 oe or ×100 oe
 > 120
 > 0.75 A1
-> cas Total 10 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 0.9 2 M1 for a correct method to find the selling price. Allow 120% or 1 + 20% for 1.2
 
@@ -530,7 +524,9 @@ On the grid, draw and label triangle C Triangle A is transformed to triangle D u
 
 ### 8(d) [3]
 
-On the grid, draw and label triangle D y 4 A −10 −9 −8 −7 −6 −5 −4 −3 −2 −1 O 1 2 3 4 5 6 7 8 9 10 11 12 x −1 −2 −3 −4 E −5 −6 −7 −8 −9 −10 for a spare grid if you need to redraw your triangles. Only use this grid if you need to redraw your triangles. y 4 A −10 −9 −8 −7 −6 −5 −4 −3 −2 −1 O 1 2 3 4 5 6 7 8 9 10 11 12 x −1 −2 −3 −4 E −5 −6 −7 −8 −9 −10
+On the grid, draw and label triangle D
+
+![grid — official paper figure (qp.pdf p.23) (same figure as asset_8_b_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2025-11/4MB1-02/assets/asset_8_b_grid.png)
 
 ![grid — official paper figure (qp.pdf p.23) — shared with asset_8_b_grid](assets/asset_8_b_grid.png)
 
@@ -538,20 +534,17 @@ On the grid, draw and label triangle D y 4 A −10 −9 −8 −7 −6 −5 −4
 **Mark scheme answer**
 
 > ⎛ 1 0 ⎞⎛ 1 1 3 ⎞ 3 M1 for intention to multiply the correct way, can be implied by writing in the correct
-> ⎜ ⎟⎜ ⎟ oe order or one correct point stated or plotted
+>  oe order or one correct point stated or plotted
 > ⎝ 0 −1⎠⎝ 2 5 5 ⎠ Points can be in any order
 > Points can be in any order M1 for at least two correct columns or correctly stating or plotting two points.
-> ⎛1 1 3⎞
-> ⎜ ⎟ oe
+> 1 1 3 oe
 > ⎝ −2 −5 −5 ⎠
 > Correct triangle A1 Fully correct triangle
 > D at (1, –2), Award 3 marks for a correct triangle drawn, irrespective of working in the working space.
 > (1, –5) (3, –5)
-> cas Total 10 marks
 > B
 > C
 > D
-> Question Working Answer Mark Notes
 
 - **(3)** ⎛ 1 0 ⎞⎛ 1 1 3 ⎞ 3 M1 for intention to multiply the correct way, can be implied by writing in the correct
 
@@ -559,9 +552,15 @@ On the grid, draw and label triangle D y 4 A −10 −9 −8 −7 −6 −5 −4
 ## Question 9 (12 marks)
 ### 9(a) [2]
 
-Complete the table of values for y 2 x 3 9 x 2 3 x x –1 0 0.25 1 2 3 4 y 7 7.22 –11
+Complete the table of values for $y = 2x^3 - 9x^2 + 3x + 7$
 
-> 🖼 crop required: table (qp.pdf p.None)
+| x | −1 | 0 | 0.25 | 1 | 2 | 3 | 4 |
+|---|----|---|------|---|---|---|---|
+| y |    | 7 | 7.22 |   |   | −11 |   |
+
+![figure — official paper figure (qp.pdf p.3)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2025-11/4MB1-02/assets/asset_9_9-a.png)
+
+![figure — official paper figure (qp.pdf p.3)](assets/asset_9_9-a.png)
 
 
 **Mark scheme answer**
@@ -575,9 +574,11 @@ Complete the table of values for y 2 x 3 9 x 2 3 x x –1 0 0.25 1 2 3 4 y 7 7.2
 
 On the grid opposite, plot the points from your completed table and join them to form a smooth curve.
 
-> 🖼 crop required: grid (qp.pdf p.26)
+![figure — official paper figure (qp.pdf p.26)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2025-11/4MB1-02/assets/asset_9_9-b.png)
 
-> 🖼 crop required: table (qp.pdf p.26)
+![figure — official paper figure (qp.pdf p.26)](assets/asset_9_9-b.png)
+
+![figure — official paper figure (qp.pdf p.26)](assets/asset_9_9-b_1.png)
 
 
 **Mark scheme answer**
@@ -596,7 +597,9 @@ On the grid opposite, plot the points from your completed table and join them to
 
 By drawing a suitable straight line (at least 3 cm long) on the grid, find an estimate for the gradient of the curve at the point where x = 0.5
 
-> 🖼 crop required: grid (qp.pdf p.26)
+![figure — official paper figure (qp.pdf p.26)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2025-11/4MB1-02/assets/asset_9_9-c.png)
+
+![figure — official paper figure (qp.pdf p.26)](assets/asset_9_9-c.png)
 
 
 **Mark scheme answer**
@@ -606,15 +609,18 @@ By drawing a suitable straight line (at least 3 cm long) on the grid, find an es
 > -4.5 A1 (dep M1) answer in the range, –5 to –4
 > Must come from a gradient of a tangent and not gradient of
 > a chord
-> Question Working Answer Mark Notes
 
 - **(2)** 2 M1 for drawing a tangent to the curve at x = 0.5 Must be a
 
 ### 9(d) [1]
 
-Use your graph, to estimate, to one decimal place, the solutions of the equation 2 x 3 9 x 2 3x
+Use your graph, to estimate, to one decimal place, the solutions of the equation
 
-> 🖼 crop required: graph (qp.pdf p.26)
+$2x^3 - 9x^2 + 3x + 7 = 0$
+
+![figure — official paper figure (qp.pdf p.26)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2025-11/4MB1-02/assets/asset_9_9-d.png)
+
+![figure — official paper figure (qp.pdf p.26)](assets/asset_9_9-d.png)
 
 
 **Mark scheme answer**
@@ -625,17 +631,23 @@ Use your graph, to estimate, to one decimal place, the solutions of the equation
 
 ### 9(e) [4]
 
-By drawing a suitable straight line on the grid, find an estimate for the range of values of x, to one decimal place, in the interval 0 < x ≤ 4 for which 4 x 18 x2 Show clear algebraic working. y −1 O 1 2 3 4 x −2 −4 −6 −8 −10 −12 for a spare grid if you need to redraw your curve. Only use this grid if you need to redraw your curve. y −1 O 1 2 3 4 x −2 −4 −6 −8 −10 −12
+By drawing a suitable straight line on the grid, find an estimate for the range of values of x, to one decimal place, in the interval 0 < x ≤ 4 for which
 
-> 🖼 crop required: grid (qp.pdf p.26)
+$4x - 18 + \frac{38}{x^2} < 0$
+
+Show clear algebraic working.
+
+![figure — official paper figure (qp.pdf p.26)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2025-11/4MB1-02/assets/asset_9_9-e.png)
+
+![figure — official paper figure (qp.pdf p.26)](assets/asset_9_9-e.png)
 
 
 **Mark scheme answer**
 
-> 4 x − 18 x + 38 < 0 or
-> 3 2 4 M1 for recognising to multiply by x2
-> 2 x3 − 9 x 2 + 19 < 0 (may also recognise to divide by 2)
-> 2 x3 − 9 x 2 + 3x + 7 < 3x − 12 M1 For a correct equation identified (allow 3x − 12 )
+> $4x^3 - 18x^2 + 38 < 0$ or
+> $2x^3 - 9x^2 + 19 < 0$ 4 M1 for recognising to multiply by x²
+> (may also recognise to divide by 2)
+> $2x^3 - 9x^2 + 3x + 7 < 3x - 12$ M1 For a correct equation identified (allow 3x − 12 )
 > or y = 3x − 12 seen
 > M1 A correct line drawn that intersects the curve
 > (the correct line drawn implies all 3 M marks)
@@ -643,7 +655,7 @@ By drawing a suitable straight line on the grid, find an estimate for the range 
 > being drawn Do not allow use of ≤ instead of <
 > NB: if y values given as well then A0
 
-- **(4)** 4 x − 18 x + 38 < 0 or
+- **(4)** $4x^3 - 18x^2 + 38 < 0$ or
 
 
 ## Question 10 (7 marks)
@@ -652,87 +664,92 @@ cm 20 cm 12 cm 45° D C Figure 4 Figure 4 shows solid ABCDE The horizontal base 
 
 ### 10 [7]
 
-cm 20 cm 12 cm 45° D C Figure 4 Figure 4 shows solid ABCDE The horizontal base CDE is a triangle. The vertical face ABED is a trapezium. The point F lies on BC such that BF : FC = 2 : 1 AC = 20 cm AD = 10 cm BE = 15 cm DE = 12 cm ∠BCE = 45° ADC ADE BED BEC 90° Calculate the length, in cm to one decimal place, of AF Show all your working. [ Cosine rule: a 2 b 2 c 2 2bc cos A ]
+Figure 4 shows solid ABCDE
+
+The horizontal base CDE is a triangle.
+
+The vertical face ABED is a trapezium.
+
+The point F lies on BC such that BF : FC = 2 : 1
+
+AC = 20 cm  AD = 10 cm  BE = 15 cm  DE = 12 cm
+
+∠BCE = 45°  ∠ADC = ∠ADE = ∠BED = ∠BEC = 90°
+
+Calculate the length, in cm to one decimal place, of AF
+
+Show all your working.
+
+[ Cosine rule: $a^2 = b^2 + c^2 - 2bc\cos A$ ]
+
+> *Figure not shown in this reconstruction — the printed paper includes a 3-D diagram (not drawn accurately).*
+> Labels in the original figure: B, A, E, D, C, F · Figure values: 15 cm, 10 cm, 12 cm, 20 cm, 45°.
 
 
 **Mark scheme answer**
 
-> 15 ⎡ 7 M1 for correct method to find BC May be
-> [ BC =] = 15 2 = 21.2(1320344) ⎤⎦ or
-> sin 45 ⎣ implied by 10 2 = 14.1(4213563) or
-> 15 ⎡
-> [ BC =] = 15 2 = 21.2(1320344) ⎤⎦ or 5 2 = 7.07(1067812) (May be seen on the
-> cos 45 ⎣ diagram)
-> [ BC =] 152 + 152 ⎡⎣ = 15 2 = 21.2(1320344) ⎤⎦
+> [ BC =] $\frac{15}{\sin 45}$ = 15√2 = 21.2(1320344) or 7 M1 for correct method to find BC May be
+> implied by 10√2 = 14.1(4213563) or
+> [ BC =] $\frac{15}{\cos 45}$ = 15√2 = 21.2(1320344) or 5√2 = 7.07(1067812) (May be seen on the
+> diagram)
+> [ BC =] √(15² + 15²) [ = 15√2 = 21.2(1320344) ]
 > M1 for correct method to find AB (May be
-> [ AB =] 122 + (15 − 10 ) [ = 13]
+> [ AB =] √(12² + (15 − 10)²) [ = 13]
 > seen on the diagram)
-> 2 M1 for a correct method to find BF or FC
-> [ BF =] × " BC " ⎡⎣= 10 2 = 14.1(4213563) ⎤⎦ (May be seen on the diagram)
+> M1 for a correct method to find BF or FC
+> [ BF =] $\frac{2}{3}$ × " BC " [ = 10√2 = 14.1(4213563) ] (May be seen on the diagram)
 > or
-> [ FC =] × " BC " ⎡⎣= 5 2 = 7.07(1067812) ⎤⎦
+> [ FC =] $\frac{1}{3}$ × " BC " [ = 5√2 = 7.07(1067812) ]
 > ( ) M1 for substitution into Cosine Rule to find
-> "13"2 = 202 + "15 2 " − 2 × 20 × "15 2 "cos ACB
+> "13"² = 20² + "15√2"² − 2 × 20 × "15√2" cos ACB
 > angle ACB=ACF or angle ABC=ABF Allow
 > ( ) any letter to represent angle ACB or angle
-> or 202 = "13"2 + "15 2 " − 2 × "13"× "15 2 "cos ABC
+> or 20² = "13"² + "15√2"² − 2 × "13"× "15√2" cos ABC
 > ABC
 > ( ) M1 for correct method to find angle
-> 202 + "15 2 " − "13"2 ACB=ACF or angle ABC=ABF Allow any
-> cos ACB = [⇒ ACB = 36.6(2414042)] letter to represent angle ACB or angle ABC
-> 2 × 20 × "15 2 "
+> cos ACB = $\frac{20^2 + \left("15\sqrt{2}"\right)^2 - "13"^2}{2 \times 20 \times "15\sqrt{2}"}$ [⇒ ACB = 36.6(2414042)] ACB=ACF or angle ABC=ABF Allow any
+> letter to represent angle ACB or angle ABC
 > or (This implies 4th M mark) (May be seen in
 > the diagram) May be implied by a correct
 > ( )
-> "13"2 + "15 2 " − 202 angle for ACB/ABC If any value is incorrect
-> cos ABC = ⎡⎣⇒ ABC = 66.6 ( 0500911) ⎤⎦ then working must be shown
-> 2 × "13"× "15 2 "
+> cos ABC = $\frac{"13"^2 + \left("15\sqrt{2}"\right)^2 - 20^2}{2 \times "13" \times "15\sqrt{2}"}$ [ ⇒ ABC = 66.6 ( 0500911) ] angle for ACB/ABC If any value is incorrect
+> then working must be shown
 > ( ) M1 for correct method to find AF
-> ⎡( AF )2 ⎤ = 202 + "5 2 " − 2 × 20 × "5 2 "cos"36.6..."
-> ⎣ ⎦
+> [ ( AF )² ] = 20² + "5√2"² − 2 × 20 × "5√2" cos"36.6..."
 > or
-> ( )
-> ⎡( AF )2 ⎤ = "13"2 + "10 2 " − 2 × "13"× "10 2 "cos"66.6..."
-> ⎣ ⎦
+> [ ( AF )² ] = "13"² + "10√2"² − 2 × "13"× "10√2" cos"66.6..."
 > 14.9 A1 awrt 14.9
-> cas Total 7 marks
 > Alternative using the diagram below
-> [ DC =] 20 − 10 [= 10 3 = 17.32050808]
-> 2 2 M1 for correct method to find DC May be
-> implied by 10 3 = 17.3(2050808)
+> [ DC =] √(20² − 10²) [= 10√3 = 17.32050808]
+> M1 for correct method to find DC May be
+> implied by 10√3 = 17.3(2050808)
 > (May be seen on the diagram)
-> 1 M1 for correct method to find AN
-> [ AN =]10 − ×15[ = 5] (May be seen on the diagram)
-> "(10 3)" = 122 + 152 − 2 ×12 ×15cos DEC
-> 2 M1 for substitution into Cosine Rule to find
+> [ AN =] 10 − $\frac{1}{3}$ × 15 [ = 5] M1 for correct method to find AN
+> (May be seen on the diagram)
+> "(10√3)"² = 12² + 15² − 2 ×12 ×15 cos DEC M1 for substitution into Cosine Rule to find
 > angle DEC or angle ECD Allow any letter
 > ( )
-> or 122 = 152 + "10 3 " − 2 × "15"× "10 3 "cos ECD to represent angle DEC or angle ECD Allow
+> or 12² = 15² + "10√3"² − 2 × "15"× "10√3" cos ECD to represent angle DEC or angle ECD Allow
 > other correct expressions e.g. If DEM then
 > use of 10 rather than 15 is correct or if MCD
 > then use of 5 rather than 15 is correct
-> 122 + 152 − "(10 3)"2 M1 for correct method to find angle DEC or
-> cos DEC = [⇒ DEC = 78.9(4993504)] angle ECD Allow any letter to represent
-> 2 ×12 ×15 angle DEC or angle ECD Allow other
+> cos DEC = $\frac{12^2 + 15^2 - \left("(10\sqrt{3})"\right)^2}{2 \times 12 \times 15}$ [⇒ DEC = 78.9(4993504)] M1 for correct method to find angle DEC or
+> angle ECD Allow any letter to represent
+> angle DEC or angle ECD Allow other
 > or correct expressions e.g. If DEM then use of
 > ( )
-> 152 + "10 3 " − 122 10 rather than 15 is correct or if MCD then
-> cos ECD = ⎡⎣⇒ ECD = 42.8 ( 4172776 ) ⎤⎦ use of 5 rather than 15 is correct
-> 2 ×15 × "10 3 " (This implies 4th M mark) (May be seen in
+> cos ECD = $\frac{15^2 + \left("10\sqrt{3}"\right)^2 - 12^2}{2 \times 15 \times "10\sqrt{3}"}$ [ ⇒ ECD = 42.8 ( 4172776 ) ] 10 rather than 15 is correct or if MCD then
+> use of 5 rather than 15 is correct (This implies 4th M mark) (May be seen in
 > the diagram) May be implied by a correct
 > angle for DEC/ECD If any value is incorrect
 > then working must be shown
-> ⎡( DM )2 ⎤ = 122 + 102 − 2 ×12 ×10cos"78.9..." M1 for correct method to find DM
-> ⎣ ⎦
+> [ ( DM )² ] = 12² + 10² − 2 ×12 ×10 cos"78.9..." M1 for correct method to find DM
 > or
-> ( )
-> ⎡( DM )2 ⎤ = 52 + "10 3" − 2 × 5 × "10 3"cos"42.8..."
-> ⎣ ⎦
-> AF = 52 + "14.07..."2 M1 for a correct method to find AF
+> [ ( DM )² ] = 5² + "10√3"² − 2 × 5 × "10√3" cos"42.8..."
+> AF = √(5² + "14.07..."²) M1 for a correct method to find AF
 > 14.9 A1 awrt 14.9
-> Question Working Answer Mark Notes
 
-- **(7)** 15 ⎡ 7 M1 for correct method to find BC May be
+- **(7)** [ BC =] $\frac{15}{\sin 45}$ = 15√2 = 21.2(1320344) or 7 M1 for correct method to find BC May be
 
 
 ## Question 11 (9 marks)
@@ -741,17 +758,27 @@ y −8 −4 O 4 8 x Figure 5 The function f has domain −8 ≤ x ≤ 8 Figure 5
 
 ### 11(a) [2]
 
-Write down the range of the function f The function g is defined as 3x 1 g:x ↦ x
+The function f has domain −8 ≤ x ≤ 8
+
+Figure 5 shows the graph of y = f(x), which consists of a line segment from (–8, 3) to (–4, 0) and a line segment from (–4, 0) to (8, 9)
+
+(a) Write down the range of the function f
+
+The function g is defined as
+
+$g:x \mapsto \frac{3x-1}{x+1}$
+
+> *Figure not shown in this reconstruction — the printed paper includes a graph (Figure 5); the segment description above is complete for this part.*
 
 
 **Mark scheme answer**
 
-> { y : 0 ̇̇ y 9} 2 B2 for { y : 0 ̇̇ y 9} or [ 0, 9]
-> condone 0 ̇̇ y 9 but not 0 ̇̇ x 9
-> (If not B2 then B1 for 0 < y < 9 or 0 ̇ y ... or ... y ̇ 9 )
+> { y : 0 ≤ y ≤ 9} 2 B2 for { y : 0 ≤ y ≤ 9} or [ 0, 9]
+> condone 0 ≤ y ≤ 9 but not 0 ≤ x ≤ 9
+> (If not B2 then B1 for 0 < y < 9 or 0 ≤ y ... or ... y ≤ 9 )
 > Allow f or f(x) for y
 
-- **(2)** { y : 0 ̇̇ y 9} 2 B2 for { y : 0 ̇̇ y 9} or [ 0, 9]
+- **(2)** { y : 0 ≤ y ≤ 9} 2 B2 for { y : 0 ≤ y ≤ 9} or [ 0, 9]
 
 ### 11(b) [1]
 
@@ -796,8 +823,6 @@ Find the inverse function g–1 in the form g-1(x) = … Give your answer in its
 > x +1 −x −1
 > [ g −1 ( x) =] A1 oe e.g. Must be in terms of x. No label required
 > 3− x x−3
-> cas Total 9 marks
-> Question Working Answer Mark Notes
 
 - **(4)** xy + y = 3x − 1 or xy + x = 3 y − 1 4 M1 For a correct expression.
 
@@ -808,85 +833,69 @@ A bag contains n sweets. There are 9 orange sweets in the bag. The rest of the s
 
 ### 12 [6]
 
-A bag contains n sweets. There are 9 orange sweets in the bag. The rest of the sweets are purple. Mina takes at random a sweet from the bag and eats it. Stuart then takes at random a sweet from the bag and eats it. The probability that Mina and Stuart both eat a sweet of the same colour is Find the probability that all 9 orange sweets remain in the bag. Show clear algebraic working.
+A bag contains n sweets. There are 9 orange sweets in the bag. The rest of the sweets are purple. Mina takes at random a sweet from the bag and eats it. Stuart then takes at random a sweet from the bag and eats it. The probability that Mina and Stuart both eat a sweet of the same colour is $\frac{46}{91}$
+
+Find the probability that all 9 orange sweets remain in the bag.
+
+Show clear algebraic working.
 
 
 **Mark scheme answer**
 
-> 9 8 or n − 9 n − 10 oe 6 M1 for orange and orange or purple and purple
-> × ×
-> n n −1 n n −1 This may be seen as part of an equation
+> $\frac{9}{n}$ × $\frac{8}{n-1}$ or $\frac{n-9}{n}$ × $\frac{n-10}{n-1}$ oe 6 M1 for orange and orange or purple and purple
+> This may be seen as part of an equation
 > allow eg n − 9 − 1 in place of n − 10
-> or 9 × n − 9 or for orange and purple
-> n n −1
+> or $\frac{9}{n}$ × $\frac{n-9}{n-1}$ or for orange and purple
 > Allow any letter for n
-> 9 8 n − 9 n − 10 46 oe M1 Correct equation
-> × + × =
-> n n −1 n n −1 91 or correct equation using the complementary event.
+> $\frac{9}{n}$ × $\frac{8}{n-1}$ + $\frac{n-9}{n}$ × $\frac{n-10}{n-1}$ = $\frac{46}{91}$ oe M1 Correct equation
+> or correct equation using the complementary event.
 > This implies the 1st M1
-> or 2 × 9 × n − 9 = 1 − 46 oe
-> n n −1
-> 5n2 – 187n + 1638 (= 0) oe A1 For a correct 3 term quadratic.
-> eg 45n2 – 1683n + 14742 (= 0)
-> Allow 45n4 − 1728n3 + 16425n2 − 14742n(= 0) oe
+> or $2 \times \frac{9}{n} \times \frac{n-9}{n-1}$ = $1 - \frac{46}{91}$ oe
+> $5n^2 - 187n + 1638$ (= 0) oe A1 For a correct 3 term quadratic.
+> eg $45n^2 - 1683n + 14742$ (= 0)
+> Allow $45n^4 - 1728n^3 + 16425n^2 - 14742n$ (= 0) oe
 > A correct equation will imply both M marks
 > (5n – 117)(n – 14) (= 0) M1 For solving their 3 term quadratic equation using
 > any correct method.
-> ( −187 ) − 4 × 5 ×1638 oe
-> − − 187 ± If factorising, allow brackets which expanded give 2
+> $\frac{--187 \pm \sqrt{(-187)^2 - 4 \times 5 \times 1638}}{2 \times 5}$ oe If factorising, allow brackets which expanded give 2
 > or
-> 2×5 out of 3 terms correct
+> out of 3 terms correct
 > If using formula must be correct substitution
 > If completing the square allow one error
 > This mark may be implied by n = 14 or n = 23.4
 > If an incorrect 3 term quadratic is given then working
 > must be shown
-> "14"− 9 "14"− 1 − 9 or M1 For using their value of n to find purple and
-> ×
-> "14" "14"− 1 purple. Only ft their value of n if n is an integer
-> ⎛ 9 8 9 "14"− 9 "14"− 9 9 ⎞
-> 1− ⎜ × + × + × ⎟ Allow 1 − ⎛⎜ "14"− 9 × "14"− 1 − 9 ⎞⎟ to imply this mark
-> ⎝ "14" "14"− 1 "14" "14"− 1 "14" "14"− 1 ⎠ ⎝ "14" "14"− 1 ⎠
-> 10 A1 oe Do not ISW
+> $\frac{"14"-9}{"14"}$ × $\frac{"14"-1-9}{"14"-1}$ or M1 For using their value of n to find purple and
+> purple. Only ft their value of n if n is an integer
+> $1-\left(\frac{9}{"14"} \times \frac{8}{"14"-1} + \frac{9}{"14"} \times \frac{"14"-9}{"14"-1} + \frac{"14"-9}{"14"} \times \frac{9}{"14"-1}\right)$ Allow $1 - \frac{"14"-9}{"14"} \times \frac{"14"-1-9}{"14"-1}$ to imply this mark
+> $\frac{10}{91}$ A1 oe Do not ISW
 > ALT Let x be the number of purple
-> ×
-> 8 or x × x − 1 oe M1 for orange and orange or purple and purple
-> 9 + x 9 + x −1 9 + x 9 + x −1
-> or 9 x or for orange and purple
-> ×
-> 9 + x 9 + x −1
+> $\frac{9}{9+x}$ × $\frac{8}{9+x-1}$ or $\frac{x}{9+x}$ × $\frac{x-1}{9+x-1}$ oe M1 for orange and orange or purple and purple
+> or $\frac{9}{9+x}$ × $\frac{x}{9+x-1}$ or for orange and purple
 > Allow any letter for x (except n)
-> 9 8 x x −1 46 oe M1 Correct equation
-> × + × =
-> 9 + x 9 + x − 1 9 + x 9 + x − 1 91 or correct equation using the complementary event.
+> $\frac{9}{9+x}$ × $\frac{8}{9+x-1}$ + $\frac{x}{9+x}$ × $\frac{x-1}{9+x-1}$ = $\frac{46}{91}$ oe M1 Correct equation
+> or correct equation using the complementary event.
 > This implies the 1st M1
-> or 2 × 9 × x
-> = 1−
-> 46 oe
-> 9+ x 9 + x −1
-> 5x – 97x + 360 (= 0) oe A1 For a correct 3 term quadratic.
-> e.g. 45x2 – 873x + 3240 (= 0) oe
-> Allow 45 x 4 − 108 x3 − 8361x 2 − 7776 x + 233280( = 0) oe
+> or $2 \times \frac{9}{9+x} \times \frac{x}{9+x-1}$ = $1-\frac{46}{91}$ oe
+> $5x^2 - 97x + 360$ (= 0) oe A1 For a correct 3 term quadratic.
+> e.g. $45x^2 - 873x + 3240$ (= 0) oe
+> Allow $45x^4 - 108x^3 - 8361x^2 - 7776x + 233280$ ( = 0) oe
 > A correct equation will imply both M marks
 > (5x – 72)(x – 5) (= 0) M1 For solving their 3 term quadratic equation using
 > any correct method.
-> ( −97 ) − 4 × 5 × 360 oe
-> − − 97 ± If factorising, allow brackets which expanded give 2
+> $\frac{--97 \pm \sqrt{(-97)^2 - 4 \times 5 \times 360}}{2 \times 5}$ oe If factorising, allow brackets which expanded give 2
 > or
-> 2×5 out of 3 terms correct
+> out of 3 terms correct
 > If using formula must be correct substitution
 > If completing the square allow one error
 > This mark may be implied by x = 5 or x = 14.4
 > If an incorrect 3 term quadratic is given then working
 > must be shown
-> "5" "5"− 1 M1 For using their value of x to find purple and
-> × or
-> 9 + "5" 9 + "5"− 1 purple. Only ft their value of x if x is an integer
-> ⎛ 9 8 9 "5" "5" 9 ⎞ Allow 1 − ⎛⎜ "5" × "5"− 1 ⎞⎟ to imply this mark
-> 1− ⎜ × + × + × ⎟
-> ⎝ 9 + "5" 9 + "5"− 1 9 + "5" 9 + "5"− 1 9 + "5" 9 + "5"− 1 ⎠ ⎝ 9 + "5" 9 + "5"− 1 ⎠
-> 10 A1 oe Do not ISW
+> $\frac{"5"}{9+"5"}$ × $\frac{"5"-1}{9+"5"-1}$ or M1 For using their value of x to find purple and
+> purple. Only ft their value of x if x is an integer
+> $1-\left(\frac{9}{9+"5"} \times \frac{8}{9+"5"-1} + \frac{9}{9+"5"} \times \frac{"5"}{9+"5"-1} + \frac{"5"}{9+"5"} \times \frac{9}{9+"5"-1}\right)$ Allow $1 - \frac{"5"}{9+"5"} \times \frac{"5"-1}{9+"5"-1}$ to imply this mark
+> $\frac{10}{91}$ A1 oe Do not ISW
 > wr Total 6 marks
 
-- **(6)** 9 8 or n − 9 n − 10 oe 6 M1 for orange and orange or purple and purple
+- **(6)** $\frac{9}{n}$ × $\frac{8}{n-1}$ or $\frac{n-9}{n}$ × $\frac{n-10}{n-1}$ oe 6 M1 for orange and orange or purple and purple
 

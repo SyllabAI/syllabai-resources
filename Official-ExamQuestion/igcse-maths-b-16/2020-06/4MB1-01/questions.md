@@ -70,11 +70,31 @@ A = 23 × 3 × 52 B = 22 × 32 × 5 × 7
 
 ### 4(i) [1]
 
+A = 2³ × 3 × 5² B = 2² × 3² × 5 × 7
+
 Find the Lowest Common Multiple (LCM) of A and B.
+
+
+**Mark scheme answer**
+
+> LCM = 2³ × 3² × 5² × 7 = **12 600**
+> 
+> Take the highest power of each prime that appears in either A or B.
+
+- **(1)** 12 600
 
 ### 4(ii) [1]
 
 Find the Highest Common Factor (HCF) of A and B.
+
+
+**Mark scheme answer**
+
+> HCF = 2² × 3 × 5 = **60**
+> 
+> Take the lowest power of each prime that appears in both A and B.
+
+- **(1)** 60
 
 
 ## Question 5 (2 marks)
@@ -83,7 +103,7 @@ The price of each sandwich in a cafe was increased by 4% Chris bought a sandwich
 
 ### 5 [2]
 
-The price of each sandwich in a cafe was increased by 4% Chris bought a sandwich after the price increase for $3.64 Calculate the increase in the price of the sandwich Chris bought. $
+The price of each sandwich in a cafe was increased by 4% Chris bought a sandwich after the price increase for \$3.64 Calculate the increase in the price of the sandwich Chris bought. \$
 
 
 **Mark scheme answer**
@@ -173,7 +193,9 @@ Given that y = x 4 – x2 dy find dx dy = . . . . . . . . . . . . . . . . . . . 
 
 ### 8 [2]
 
-Given that y = x 4 – x2 dy find dx dy = dx
+Given that y = x 4 – x² dy find dx dy = ……………dx
+
+Given that y = x 4 – x² dy find dx dy = dx
 
 
 **Mark scheme answer**
@@ -199,7 +221,7 @@ The table gives information about the number of brothers that each student in a 
 **Mark scheme answer**
 
 > (0×5+)1×2+2×8+3×4+4×1 (=34) 3 M1 for correct products allowing one error with
-> Or (0+)2+16+12+4 intention to add
+> Or (0+)²+16+12+4 intention to add
 > (0 × 5) + 1 × 2 + 2 × 8 + 3 × 4 + 4 × 1 M1 fully correct method (condone one error in
 > 5+2+8+4+1 products)
 > (34÷20)
@@ -219,8 +241,8 @@ Without using a calculator and showing your working clearly, find the value of t
 
 **Mark scheme answer**
 
-> (√180 =)√36 × 5 or (√180 =)2√45 3 M1 for clearly showing understanding of surd
-> or (√180 =)3√20 or (180 =) 2²×3²×5 form must include a decomposition of either 180
+> (√180 =)√36 × 5 or (√180 =)²√45 3 M1 for clearly showing understanding of surd
+> or (√180 =)³√20 or (180 =) 2²×3²×5 form must include a decomposition of either 180
 > or 147
 > or (√147 =)√49 × 3 or (147 =) 3 × 7²
 > 6 5 −3 3 −2 5 +7 3 M1 dep at least 3 terms correct
@@ -235,7 +257,7 @@ Solve + =2 4 5 Show clear algebraic working. x = ...............................
 
 ### 11 [3]
 
-Solve + =2 4 5 Show clear algebraic working. x =
+Solve + =2 4 5 Show clear algebraic working. x = ……………Solve + =2 4 5 Show clear algebraic working. x =
 
 
 **Mark scheme answer**
@@ -261,7 +283,9 @@ The diagram shows a half cylinder. 5 cm Diagram NOT accurately drawn x cm The ha
 
 ### 12 [3]
 
-The diagram shows a half cylinder. 5 cm Diagram NOT accurately drawn x cm The half cylinder has a length of x cm and a semicircular cross section of diameter 5 cm. The volume of the half cylinder is 35π cm3 Calculate the value of x. x =
+The diagram shows a half cylinder. 5 cm Diagram NOT accurately drawn x cm The half cylinder has a length of x cm and a semicircular cross section of diameter 5 cm. The volume of the half cylinder is 35π cm³ Calculate the value of x. x =
+
+![diagram — official paper figure (qp.pdf p.8) (same figure as asset_12_q_diagram_stem)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-06/4MB1-01/assets/asset_12_q_diagram_stem.png)
 
 ![diagram — official paper figure (qp.pdf p.8) — shared with asset_12_q_diagram_stem](assets/asset_12_q_diagram_stem.png)
 
@@ -270,11 +294,11 @@ The diagram shows a half cylinder. 5 cm Diagram NOT accurately drawn x cm The ha
 
 > 1 ⎛5⎞
 > 2 3 M1 oe
-> × π × ⎜ ⎟ × x (= 35π ) oe
+> × π × × x (= 35π ) oe
 > 2 ⎝2⎠
 > ⎛2⎞
 > 2 M1 dep oe
-> x = 35 × ⎜ ⎟ × 2
+> x = 35 × × 2
 > ⎝5⎠
 > 11.2 A1 oe
 > SC If no marks awarded otherwise 5.6 or 2.8
@@ -286,7 +310,7 @@ The diagram shows a half cylinder. 5 cm Diagram NOT accurately drawn x cm The ha
 ## Question 13 (3 marks)
 ### 13(a) [1]
 
-Simplify m12 ÷ m3 3 3
+Simplify m12 ÷ m³ 3 3
 
 
 **Mark scheme answer**
@@ -297,7 +321,7 @@ Simplify m12 ÷ m3 3 3
 
 ### 13(b) [2]
 
-Simplify fully (125p 9w )
+Simplify fully $(125p^9w^3)^{\frac{2}{3}}$
 
 
 **Mark scheme answer**
@@ -373,9 +397,12 @@ C Diagram NOT accurately drawn A 1.4 m B D 5m In the diagram, AB represents a ve
 
 ### 16 [4]
 
-C Diagram NOT accurately drawn A 1.4 m B D 5m In the diagram, AB represents a vertical wall and CD represents a vertical building. The height of the wall is 1.4 m. The bottom of the wall, B, and the bottom of the building, D, are on horizontal ground, such that BD = 5 m. The angle of elevation of C from A is 75° Calculate the height, in m to one decimal place, of the building m
+5m In the diagram, AB represents a vertical wall and CD represents a vertical building. The height of the wall is 1.4 m. The bottom of the wall, B, and the bottom of the building, D, are on horizontal ground, such that BD = 5 m. The angle of elevation of C from A is 75° Calculate the height, in m to one decimal place, of the building m
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: C, A, B, D · Figure values: 1.4.
+
+![diagram — official paper figure (qp.pdf p.10)](assets/asset_16_diagram.png)
 
 
 **Mark scheme answer**
@@ -483,14 +510,15 @@ Solve the simultaneous equations 5x – 3y = 21 3x – 4y = 22.5 Show clear alge
 
 ### 20(a) [2]
 
+⎛ 4 3⎞ ⎛ −7 −2⎞ A= −2 1 B= 1 3 Find
+
 A – B
 
 
 **Mark scheme answer**
 
 > ⎛ 11 5 ⎞ 2 B2 −1 eeoo
-> ⎜ ⎟
-> ⎝ −3 −2 ⎠
+>  −3 −2 
 
 - **(2)** ⎛ 11 5 ⎞ 2 B2 −1 eeoo
 
@@ -502,8 +530,7 @@ AB
 **Mark scheme answer**
 
 > ⎛ −25 1 ⎞ 2 B2 −1 eeoo
-> ⎜ ⎟
-> ⎝ 15 7 ⎠
+>  15 7 
 
 - **(2)** ⎛ −25 1 ⎞ 2 B2 −1 eeoo
 
@@ -514,9 +541,12 @@ C Diagram NOT D accurately drawn 96° O B 78° E A F ABCD is a quadrilateral suc
 
 ### 21 [4]
 
-C Diagram NOT D accurately drawn 96° O B 78° E A F ABCD is a quadrilateral such that the points A, B, C and D lie on a circle, centre O. EAF is the tangent to the circle at A. ∠DAF = 78° ∠BCD = 96° Calculate the size, in degrees, of ∠BDA. Give reasons for each stage of your working. ° ∠BDA =
+ABCD is a quadrilateral such that the points A, B, C and D lie on a circle, centre O. EAF is the tangent to the circle at A. ∠DAF = 78° ∠BCD = 96° Calculate the size, in degrees, of ∠BDA. Give reasons for each stage of your working. ° ∠BDA =
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: C, D, O, B, E, A, F · Figure values: 96°, 78°.
+
+![diagram — official paper figure (qp.pdf p.14)](assets/asset_21_diagram.png)
 
 
 **Mark scheme answer**
@@ -600,7 +630,9 @@ A B D C ABCD is a quadrilateral. Leaving in all of your construction lines, cons
 
 ### 24(a) [1]
 
-4 cm from B,
+A B D C ABCD is a quadrilateral. Leaving in all of your construction lines, construct the locus of all points inside the quadrilateral that are
+
+4 cm from B …………… , ……………
 
 
 **Mark scheme answer**
@@ -612,7 +644,7 @@ A B D C ABCD is a quadrilateral. Leaving in all of your construction lines, cons
 
 ### 24(b) [2]
 
-equidistant from B and C,
+equidistant from B and C …………… , ……………
 
 
 **Mark scheme answer**
@@ -627,7 +659,7 @@ equidistant from B and C,
 
 ### 24(c) [2]
 
-equidistant from the lines DA and DC. The region R consists of all the points inside the quadrilateral that are more than 4 cm from B, closer to B than to C and closer to DC than to AD,
+equidistant from the lines DA and DC. The region R consists of all the points inside the quadrilateral that are more than 4 cm from B, closer to B than to C and closer to DC than to AD …………… , ……………
 
 
 **Mark scheme answer**
@@ -692,37 +724,40 @@ A D Diagram NOT accurately drawn B C The diagram shows a circle of radius 2x cm.
 
 ### 26 [5]
 
-A D Diagram NOT accurately drawn B C The diagram shows a circle of radius 2x cm. The lines AB and DC are parallel and AB = DC = 2x cm. The area of the region shown shaded in the diagram is kx 2 cm2 Find the exact value of k. k =
+The diagram shows a circle of radius 2x cm. The lines AB and DC are parallel and AB = DC = 2x cm. The area of the region shown shaded in the diagram is kx 2 cm² Find the exact value of k. k =
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, D, B, C.
+
+![diagram — official paper figure (qp.pdf p.19)](assets/asset_26_diagram.png)
 
 
 **Mark scheme answer**
 
 > Any one of 30,60,120,240 identified correctly M1 oe
 > or used or the length √3x identified or used.
-> 0.5 × 2x ×2x × sin60 (= √3x2) M1 dep first M mark
-> or 0.5 × 2x ×2x × sin120 (= √3x2)
-> or 0.5 × 2x × √3x (= √3x2)
+> 0.5 × 2x ×2x × sin60 (= √3$x^2$) M1 dep first M mark
+> or 0.5 × 2x ×2x × sin120 (= √3$x^2$)
+> or 0.5 × 2x × √3x (= √3$x^2$)
 > √3
-> or 0.5 × x × √3x = (= x2 )
+> or 0.5 × x × √3x = (= x² )
 > 240 8 M1 dep first M mark
-> × π × (2x)2 (= 3 πx2 ) or
+> × π × (2x)² (= 3 πx² ) or
 > 360
 > 120
-> × π × (2x)2 (= 3 πx2 ) or
+> × π × (2x)² (= 3 πx² ) or
 > 360
 > 60
-> × π × (2x)2 (= 3 πx2 ) or
+> × π × (2x)² (= 3 πx² ) or
 > 360
 > 30
-> × π × (2x)2 (= 3 πx2 )
+> × π × (2x)² (= 3 πx² )
 > 360
 > 240 M1 dep on previous M marks
-> × π × (2 x)2 + 2 × 0.5 × 2x ×2x × sin60 or Fully correct method to find the required area
+> × π × (2 x)² + 2 × 0.5 × 2x ×2x × sin60 or Fully correct method to find the required area
 > 360
-> π × (2x)2 – 2 ×
-> (360 × π × (2x)2 – 0.5 × 2x × 2x × sin 60)
+> π × (2x)² – 2 ×
+> (360 × π × (2x)² – 0.5 × 2x × 2x × sin 60)
 > 8 A1 oe
 > 2 3+ π
 
@@ -769,9 +804,12 @@ B C Diagram NOT A D accurately drawn H E G F In the diagram, ABCDEFGH is a regul
 
 ### 28 [7]
 
-B C Diagram NOT A D accurately drawn H E G F In the diagram, ABCDEFGH is a regular octagon. ( ) The area of triangle GEF is 4 2 cm2 Calculate the perimeter, in cm to one decimal place, of triangle BEG cm
+In the diagram, ABCDEFGH is a regular octagon. ( ) The area of triangle GEF is 4 2 cm² Calculate the perimeter, in cm to one decimal place, of triangle BEG cm
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: B, C, A, D, H, E, G, F.
+
+![diagram — official paper figure (qp.pdf p.21)](assets/asset_28_diagram.png)
 
 
 **Mark scheme answer**
@@ -783,7 +821,7 @@ B C Diagram NOT A D accurately drawn H E G F In the diagram, ABCDEFGH is a regul
 > (GF =)√ (=4) of a side of the octagon
 > sin 135°
 > M1 for a correct method to find length GE
-> (GE =) √42 + 42 – 2 × 4 × 4 × cos 135°
+> (GE =) √$4^2$ + $4^2$ – 2 × 4 × 4 × cos 135°
 > GE = 7.4 or better A1 NB GE = 7.4 gains first 5 marks
 > BG = 4 + 2 × 4cos45° (=4+4√2=9.66) or M1 correct method for finding the length of BG
 > BG "7.39" "their GE "
@@ -797,7 +835,7 @@ B C Diagram NOT A D accurately drawn H E G F In the diagram, ABCDEFGH is a regul
 > 2× 4 2 M1 for a correct rearrangement to find the length
 > BG = (= 4) of a side of the octagon
 > sin 45
-> GE = 42 + 42 − 2 × 4 × 4 × cos 45 M1 for a correct method to find length BG
+> GE = $4^2$ + $4^2$ − 2 × 4 × 4 × cos 45 M1 for a correct method to find length BG
 > NB GE = 3.06 gains first 4 marks
 
 - **(7)** (GFE =) 135º 7 B1 finding interior angle of octagon
@@ -820,12 +858,12 @@ Use the factor theorem to show that (x – 5) is a factor of x 3 – 6x 2 – 7x
 
 ### 29(b) [3]
 
-Hence factorise completely x3 – 6x 2 – 7x + 60
+Hence factorise completely x³ – 6x 2 – 7x + 60
 
 
 **Mark scheme answer**
 
-> x3 − 6 x 2 − 7 x + 60 = ( x − 5)(ax 2 + bx + c) 3 M1 for any correct method leading to at least two
+> x³ − 6 x 2 − 7 x + 60 = ( x − 5)(ax 2 + bx + c) 3 M1 for any correct method leading to at least two
 > of a = 1 and b = −1 and c = –12 correct.
 > This may be seen in part (a)
 > For synthetic long division we expect 2 out of the

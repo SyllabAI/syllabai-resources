@@ -8,34 +8,72 @@ Gary buys furniture and sells it in a shop. In the shop on Monday, Gary has tabl
 
 ### 1(a) [2]
 
-Calculate the number of tables Gary has in the shop on Monday. Gary buys a table for $240 and sells it for $276
+Gary buys furniture and sells it in a shop. In the shop on Monday, Gary has tables and chairs such that number of tables : number of chairs = 2 : 7 Gary has 42 chairs in the shop on Monday.
 
-> 🖼 crop required: table (qp.pdf p.2)
+Calculate the number of tables Gary has in the shop on Monday. Gary buys a table for \$240 and sells it for \$276
+
+![figure — official paper figure (qp.pdf p.3)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2024-06/4MB1-02R/assets/asset_1_1-a.png)
+
+![figure — official paper figure (qp.pdf p.3)](assets/asset_1_1-a.png)
 
 
 **Mark scheme answer**
 
-> 42 42 2 M1 for a correct method to find number of tables or
-> × 2 oe or × 9 [ −12]
-> 7 7 total number of tables and chairs
+> 42/7 × 2 oe or 42/7 × 9 [−12] M1 for a correct method to find number of tables or
+> or eg 2/7 = t/42 total number of tables and chairs
+> or setting up a correct equation to find the number of chairs
+> May be seen within a ratio ie 12 : 42
+> 12 A1 cao
 
-- **(2)** 42 42 2 M1 for a correct method to find number of tables or
+- **(2)** 42/7 × 2 oe or 42/7 × 9 [−12] M1 for a correct method to find number of tables or
 
 ### 1(b) [2]
 
-Calculate the percentage profit from the sale of the table. Gary buys some chairs and sells them for $513 Gary’s percentage profit from the sale of the chairs is 35%
+Calculate the percentage profit from the sale of the table. Gary buys some chairs and sells them for \$513 Gary’s percentage profit from the sale of the chairs is 35%
 
-> 🖼 crop required: table (qp.pdf p.2)
+![figure — official paper figure (qp.pdf p.3)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2024-06/4MB1-02R/assets/asset_1_1-b.png)
+
+![figure — official paper figure (qp.pdf p.3)](assets/asset_1_1-b.png)
+
+
+**Mark scheme answer**
+
+> (276 − 240)/240 [= 0.15] or (276 − 240)/240 × 100 or M1 for a correct method to find the % profit
+> 276/240 [= 1.15] or 276/240 × 100 [= 115] May use multiple number of tables
+> eg (12 × 276 − 12 × 240)/(12 × 240)
+> 15(%) A1 cao
+
 
 ### 1(c) [2]
 
-Calculate the price at which Gary bought the chairs. The cost of a table that Gary buys is $732 An identical table costs 684 euros in France. Using the exchange rate $1 = 0.95 euros
+Calculate the price at which Gary bought the chairs. The cost of a table that Gary buys is \$732 An identical table costs 684 euros in France. Using the exchange rate \$1 = 0.95 euros
 
-> 🖼 crop required: table (qp.pdf p.2)
+![figure — official paper figure (qp.pdf p.3)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2024-06/4MB1-02R/assets/asset_1_1-c.png)
+
+![figure — official paper figure (qp.pdf p.3)](assets/asset_1_1-c.png)
+
+
+**Mark scheme answer**
+
+> 513/1.35 oe M1 for a correct method to find the price they were bought at
+> Allow x + 0.35x = 513 oe eg (513 − x)/x × 100 = 35
+> or 135% = 513 or 135%x = 513 or x + 35%x = 513
+> (\$)380 A1 cao
+
 
 ### 1(d) [3]
 
-find the difference in the costs of the tables. State whether your answer is in euros or $.
+find the difference in the costs of the tables. State whether your answer is in euros or \$.
+
+
+**Mark scheme answer**
+
+> 732 × 0.95 [= 695.4(0)] or 684/0.95 [= 720] oe M1 for a correct conversion
+> "695.40" − 684 [= 11.4(0)] or 732 − "720" [= 12] oe M1 for a correct subtraction
+> "695.4(0)" and "720" must come from a correct calculation
+> 11.4(0) euros or \$12 A1 oe eg €11.4(0) or 12 dollars
+> For a correct value with the correct units ISW
+
 
 
 ## Question 2 (9 marks)
@@ -49,83 +87,51 @@ Calculate the value of y A different regular polygon has T sides and is such tha
 
 **Mark scheme answer**
 
-> t or setting up a correct equation to find the number of
-> or eg = chairs
-> 7 42
-> May be seen within a ratio ie 12 : 42
-> 12 A1 cao
-> 4 ×180 − 4 ×125 hexagon
-> [= 110] oe eg
-> (2 × 6 − 4) × 90 − 4 ×125 or symmetry in the hexagon (eg line drawn from C to L)
-> [= 110] or for correct method to find the exterior angle (at C or L) of the
-> hexagon
-> or 360 − 2 ×125 [ = 110] oe eg 2 × (180 − 125) [ = 110] can be implied by a correct calculation for y
-> 360 − 4 × (180 − 125 )
-> or [= 70] oe (If not M2 then M1 for:
+> (4 × 180 − 4 × 125)/2 [= 110] oe eg ((2 × 6 − 4) × 90 − 4 × 125)/2 [= 110] M2 for correct method to find one of the unknown interior angles of the hexagon
+> or 360 − 2 × 125 [= 110] oe eg 2 × (180 − 125) [= 110] could use sum of interior angles
+> or (360 − 4 × (180 − 125))/2 [= 70] oe or symmetry in the hexagon (eg line drawn from C to L)
+> or for correct method to find the exterior angle (at C or L) of the hexagon
+> can be implied by a correct calculation for y
+> (If not M2 then M1 for:
 > finding the angle sum of the hexagon
-> eg 4 ×180 [= 720] or (2 × 6 – 4) × 90 [= 720] oe
+> eg 4 × 180 [= 720] or (2 × 6 − 4) × 90 [= 720] oe
 > or finding one exterior angle of the hexagon
-> eg 180 ‒ 125 [= 55]
+> eg 180 − 125 [= 55]
 > or use of symmetry in the hexagon (eg line drawn from C to L)
 > and finding BCL or DCL or CLA or CLE
-> 360 − 2 ×125
-> eg [= 55] or 180 – 125 [= 55]
-> (8 − 2) ×180 ( 2 × 8 − 4 ) × 90 = 135 M1 for finding one interior angle of the octagon
-> eg [ = 135] oe eg [ ] or for finding one exterior angle of the octagon
-> 8
-> 360 can be implied by a correct calculation for y
-> or [ = 45]
-> eg 360 ‒ “110” ‒ “135” or “70” + (180 ‒ “135”) M1 (dep on all previous method marks awarded)
-> or “70” + “45” or “45” + (180 ‒ “110”) oe
+> eg (360 − 2 × 125)/2 [= 55] or 180 − 125 [= 55]
+> eg ((8 − 2) × 180)/8 [= 135] oe eg ((2 × 8 − 4) × 90)/8 [= 135] or 360/8 [= 45] M1 for finding one interior angle of the octagon
+> or for finding one exterior angle of the octagon
+> can be implied by a correct calculation for y
+> eg 360 − "110" − "135" or "70" + (180 − "135") or "70" + "45" or "45" + (180 − "110") oe M1 (dep on all previous method marks awarded)
 > 115 A1 cao
 
-- **(5)** t or setting up a correct equation to find the number of
+- **(5)** (4 × 180 − 4 × 125)/2 [= 110] oe eg ((2 × 6 − 4) × 90 − 4 × 125)/2 [= 110] M2 for correct method to find one of the unknown interior angles of the hexagon
 
 ### 2(b) [4]
 
-Calculate the value of T [Sum of interior angles of polygon (2n 4) right angles]
+Calculate the value of T [Sum of interior angles of polygon = (2n − 4) right angles]
 
 
 **Mark scheme answer**
 
-> 276 − 240 276 − 240 2 M1 for a correct method to find the % profit
-> [ = 0.15] or ×100 or
-> May use multiple number of tables
-> 240 240
-> 276 276 12 × 276 − 12 × 240
-> [= 1.15] or ×100[= 115] eg
-> 240 240 12 × 240
-> 15(%) A1 cao
-> 180 + 58
-> [ x =] [= 14] M1 (dep on first method mark) for a correct expression for x
-> 360 360 M1 ft dep on M1
-> or 180 + 58
-> 7 × "14"− 83 180 − (10 × “14” + 25) ft their value of x provided x is from or clearly labelled as x
+> 10x + 25 + 7x − 83 = 180 oe eg 17x − 58 = 180 M1 for a correct equation in x
+> [x =] (180 + 58)/17 [= 14] M1 (dep on first method mark) for a correct expression for x
+> 360/(7 × "14" − 83) or 360/(180 − (10 × "14" + 25)) M1 ft dep on M1
+> ft their value of x provided x is from (180 + 58)/17 or clearly labelled as x
 > 24 A1 cao
-> ALT (b) eg T ( 7 x − 83) = 360 and T (10 x + 25 ) = 90 ( 2T − 4 ) oe
-> M1 for setting up two equations in x and T
-> eg T ( 7 x − 83) = 360 and T (10 x + 25 ) = 180 (T − 2 )
-> Allow the use of any letters for T and x provided they are not the same
-> 360 180 (T − 2 )
-> or 7 x − 83 = and 10 x + 25 =
-> T T
-> eg 7Tx = 360 + 83T oe and 10Tx = 90 ( 2T − 4 ) − 25T oe M1 for making 7xT or x the subject of each equation
-> or for coefficient of xT the same in both equations
-> 360 + 83T 90 ( 2T − 4 ) − 25T or for correct rearrangement of one equation followed by
-> eg x = oe and x = oe
-> 7T 10T correct substitution into the other
-> eg Allow the use of any letters for T and x provided they are not the same
-> 70Tx = 3600 + 830T oe and 70Tx = 630 ( 2T − 4 ) − 175T
-> oe
-> M1 for collecting T terms on 1 side and numbers on the
-> eg 1260T – 175T – 830T = 3600+2520 oe other in a correct equation
+> ALT (b) eg T(7x − 83) = 360 and T(10x + 25) = 90(2T − 4) oe M1 for setting up two equations in x and T
+> eg T(7x − 83) = 360 and T(10x + 25) = 180(T − 2) Allow the use of any letters for T and x provided they are not the same
+> or 7x − 83 = 360/T and 10x + 25 = 180(T − 2)/T
+> eg 7Tx = 360 + 83T oe and 10Tx = 90(2T − 4) − 25T oe M1 for making 7xT or x the subject of each equation
+> eg x = (360 + 83T)/(7T) oe and x = (90(2T − 4) − 25T)/(10T) oe or for coefficient of xT the same in both equations
+> or for correct rearrangement of one equation followed by correct substitution into the other
+> eg 70Tx = 3600 + 830T oe and 70Tx = 630(2T − 4) − 175T oe Allow the use of any letters for T and x provided they are not the same
+> eg 1260T − 175T − 830T = 3600 + 2520 oe M1 for collecting T terms on 1 side and numbers on the other in a correct equation
 > Allow the use of any letters for T and x provided they are not the same
 > 24 A1 cao
-> cas for each part Total 9 marks
-> Question Working Answer Mark Notes
-> In this question ignore any (incorrect) labelling of triangles
 
-- **(4)** 276 − 240 276 − 240 2 M1 for a correct method to find the % profit
+- **(4)** 10x + 25 + 7x − 83 = 180 oe eg 17x − 58 = 180 M1 for a correct equation in x
 
 
 ## Question 3 (10 marks)
@@ -139,6 +145,7 @@ Describe fully the single transformation that maps triangle A onto triangle B Tr
 
 **Mark scheme answer**
 
+> In this question ignore any (incorrect) labelling of triangles
 > 3 B1 allow rotate, rotated, rotation do not accept turn
 > B0 if multiple transformations stated.
 > Rotation
@@ -153,7 +160,7 @@ Describe fully the single transformation that maps triangle A onto triangle B Tr
 > (‒1, ‒1) B1 must be a coordinate and not a vector transformations are
 > Do not allow if another coordinate is given as well stated
 
-- **(3)** 3 B1 allow rotate, rotated, rotation do not accept turn
+- **(3)** In this question ignore any (incorrect) labelling of triangles
 
 ### 3(b) [2]
 
@@ -197,7 +204,9 @@ On the grid, draw and label triangle D Triangle A is transformed to triangle E u
 
 ### 3(d) [3]
 
-On the grid, draw and label triangle E y B A −7 −6 −5 −4 −3 −2 −1 O 1 2 3 4 5 6 7 x −1 −2 −3 −4 −5 −6 −7 for a spare grid if you need to redraw your triangles. Only use this grid if you need to redraw your triangles. y B A −7 −6 −5 −4 −3 −2 −1 O 1 2 3 4 5 6 7 x −1 −2 −3 −4 −5 −6 −7
+On the grid, draw and label triangle E
+
+![grid — official paper figure (qp.pdf p.7) (same figure as asset_3_b_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2024-06/4MB1-02R/assets/asset_3_b_grid.png)
 
 ![grid — official paper figure (qp.pdf p.7) — shared with asset_3_b_grid](assets/asset_3_b_grid.png)
 
@@ -206,17 +215,13 @@ On the grid, draw and label triangle E y B A −7 −6 −5 −4 −3 −2 −1 
 
 > Points can be in any order 3 M1 for intention to multiply the correct way, can be implied by writing the
 > ⎛ −2 1 ⎞⎛1 2 3 ⎞ matrices in the correct order or correctly stating or plotting one point.
-> ⎜ ⎟⎜ ⎟
-> ⎝ 0 −2 ⎠⎝1 1 3 ⎠
+>  0 −2 ⎠⎝1 1 3 ⎠
 > Points can be in any order M1 for at least two correct columns or correctly stating or plotting two points.
-> ⎛ −1 −3 −3 ⎞
-> ⎜ ⎟
-> ⎝ −2 −2 −6 ⎠
+> ⎛ −1 −3 −3 −2 −2 −6 ⎠
 > Correct triangle E A1 Fully correct triangle
 > at (–1, –2), (–3, –2), Award 3 marks for a correct triangle drawn, irrespective of working in the
 > (–3, –6) working space.
 > cas for each part Total 10 marks
-> Question Working Answer Mark Notes
 
 - **(3)** Points can be in any order 3 M1 for intention to multiply the correct way, can be implied by writing the
 
@@ -265,7 +270,6 @@ Hence represent on the number line opposite, the set of values of x for which 4 
 > A1 Both end points identified using the correct symbols and
 > one correct line drawn between the two correct points
 > cas for each part Total 6 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 2 M1 Do not allow lines with arrows at end points or
 
@@ -273,16 +277,17 @@ Hence represent on the number line opposite, the set of values of x for which 4 
 ## Question 5 (6 marks)
 ### 5(a) [2]
 
-Complete the table of values for y 2 x3 5x x −2 −1.5 −1 −0.5 0 0.5 1 1.5 2 y 3.75 6 5.25 3 0.75 2.25
+Complete the table of values for y 2 x³ 5x x −2 −1.5 −1 −0.5 0 0.5 1 1.5 2 y 3.75 6 5.25 3 0.75 2.25
 
-> 🖼 crop required: table (qp.pdf p.None)
+![figure — official paper figure (qp.pdf p.3)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2024-06/4MB1-02R/assets/asset_5_5-a.png)
+
+![figure — official paper figure (qp.pdf p.3)](assets/asset_5_5-a.png)
 
 
 **Mark scheme answer**
 
 > 2 B2 all values correct (B1 for 2 values correct)
 > ‒3, 0, 9
-> Question Working Answer Mark Notes
 
 - **(2)** 2 B2 all values correct (B1 for 2 values correct)
 
@@ -290,9 +295,13 @@ Complete the table of values for y 2 x3 5x x −2 −1.5 −1 −0.5 0 0.5 1 1.5
 
 On the grid opposite, plot the points from your completed table and join them to form a smooth curve.
 
+![grid — official paper figure (qp.pdf p.13)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2024-06/4MB1-02R/assets/asset_5_b_grid.png)
+
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
 ![grid — official paper figure (qp.pdf p.13)](assets/asset_5_b_grid.png)
 
-> 🖼 crop required: table (qp.pdf p.12)
+![table — official paper figure (qp.pdf p.11)](assets/asset_5_table.png)
 
 
 **Mark scheme answer**
@@ -357,7 +366,7 @@ Using this information, complete the Venn diagram below to show the number of ga
 
 ### 6(b) [1]
 
-Find n(C ∩ Lʹ ) One of the gardeners is chosen at random. Given that this gardener grows carrots,
+Find n(C ∩ Lʹ ) One of the gardeners is chosen at random. Given that this gardener grows carrots …………… , ……………
 
 
 **Mark scheme answer**
@@ -389,7 +398,6 @@ find the probability that this gardener also grows lettuce.
 > 9 + 14
 > B1 only for
 > cas for each part Total 6 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 2 B2 oe eg 0.47(91…) rounded or truncated to 2sf
 
@@ -407,8 +415,7 @@ Find 4 A + 2B
 
 > 2 M1 for at least 2 correct values in the correct places
 > A1 cao
-> ⎛ 10 −4 ⎞
-> ⎜ ⎟ Do not isw
+>  10 −4 Do not isw
 > ⎝ −4 10 ⎠
 
 - **(2)** 2 M1 for at least 2 correct values in the correct places
@@ -425,7 +432,7 @@ Find AC 1 0
 > (M1 for a matrix of the correct order and at least 2 correct
 > values in the correct places)
 > ⎛ −2 −6 22 ⎞ A1 cao
-> ⎜ ⎟ Do not isw
+>  Do not isw
 > ⎝ 2 4 −18 ⎠
 
 - **(3)** 3 M2 for a matrix of the correct order and at least 4 correct
@@ -440,14 +447,12 @@ Find the matrix D such that A 1 D 2I where I = 0 1 a b 1 d b The inverse of matr
 > 10 × 5 − (−6 × −8)[= 2] 4 M1 a correct method to find the determinant of A
 > can be implied by multiplying matrix A by ½
 > 1 ⎛5 6⎞ M2 for 4 values in the correct places in their A-1
-> ⎜ ⎟ (M1 for at least 2 correct values in the correct places in
+>  (M1 for at least 2 correct values in the correct places in
 > 2 ⎝ 8 10 ⎠
 > their A-1)
 > ⎛ 2 0 ⎞ ⎛ 2.5 3 ⎞ ⎛ −0.5 −3 ⎞ A1 cao
-> ⎜ ⎟−⎜ ⎟ ⎜ ⎟
-> ⎝ 0 2⎠ ⎝ 4 5⎠ ⎝ −4 − 3 ⎠
+>  − 0 2⎠ ⎝ 4 5⎠ ⎝ −4 − 3 ⎠
 > cas for each part Total 9 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 10 × 5 − (−6 × −8)[= 2] 4 M1 a correct method to find the determinant of A
 
@@ -523,16 +528,15 @@ Find an estimate for the probability that both parcels weigh more than 4 kg.
 > 145
 > M1 A correct product
 > ⎛ 90 ⎞ 324
-> 90 90 − 1 Allow ⎜ ⎟ = ≈ 0.385
+> 90 90 − 1 Allow = ≈ 0.385
 > × oe ⎝ 145 ⎠ 841
 > 145 145 − 1
 > 90 90 − 1 ⎛ 90 ⎞
-> Condone 2 × × and 2 × ⎜ ⎟
+> Condone 2 × × and 2 × 
 > 145 145 − 1 ⎝ 145 ⎠
 > 89 A1 oe eg 0.38(36…) [decimal or % 2sf or better]
 > 232 Allow 0.38 – 0.3853
 > cas for each part Total 11 marks
-> Question Working Answer Mark Notes
 
 - **(5)** cm square (5ss by 5ss) 5 M1 for showing frequency is related to area by a correct
 
@@ -595,8 +599,8 @@ Calculate the volume, in cm³ to 3 significant figures, of the cone. 1 2 Volume 
 > × π × (...r ) =
 > 360 25 360 25 π or × π × ...r 2 = π
 > 360 25 360
-> 196π 160π 196 9 ⎡ 21 M1 implies previous M
-> ⎤
+> 196π 160π 196 9 21 M1 implies previous M
+> 
 > [ r =] ÷ oe eg [ r =] × ⎢= = 4.2 ⎥ a correct calculation for the radius of the sector (slant
 > 25 360 25 4 ⎣ 5 ⎦ height of cone)
 > 196 ⎡ 28 ⎤ 196
@@ -620,8 +624,6 @@ Calculate the volume, in cm³ to 3 significant figures, of the cone. 1 2 Volume 
 > NB: × π × "4.2"2 × "3.762..." does not get this mark
 > 13.7 A1 13.4 to 13.9
 > (cm³) SCB4 for 68.5 to 69.7
-> cas Total 10 marks
-> Question Working Answer Mark Notes
 
 - **(6)** 22
 
@@ -631,6 +633,8 @@ Calculate the volume, in cm³ to 3 significant figures, of the cone. 1 2 Volume 
 f and g are two functions such that f : x ↦ x2 + 2x where x > −1 g:x ↦ x+2
 
 ### 10(a) [1]
+
+f and g are two functions such that f : x ↦ x² + 2x where x > −1 g:x ↦ x+2
 
 State the value of x that must be excluded from any domain of g
 
@@ -676,7 +680,7 @@ Find fg(24)
 
 > 2 2 M1
 > 13 ⎞ ⎛ 13 ⎞
-> [ fg( x) =] ⎛⎜ ⎟ + 2⎜ ⎟ oe For evidence of a correct first step eg finding fg(x) or
+> [ fg( x) =] + 2 oe For evidence of a correct first step eg finding fg(x) or
 > ⎝ x+2⎠ ⎝ x+2⎠ sight of 0.5 (which may be embedded in their attempt at fg(24))
 > or [g(24) =] [= 0.5] oe
 > 24 + 2
@@ -696,7 +700,7 @@ Find the value of x for which gf(x) = 4 Show your working clearly. The function 
 > 2 [ = 4] or for finding the inverse of g
 > x + 2x + 2
 > 13 − 2 x ⎡ 13 − 2(4) 5 ⎤ or for correctly solving g(x) = 4 may use a different letter to x eg
-> or ⇒ = ⎥ 13
+> or ⇒ = 13
 > x ⎢⎣ 4 4⎦ =4⇒t =
 > t+2
 > 13
@@ -727,15 +731,13 @@ Find the inverse of h(x) in the form h −1 : x ↦ ... b b 2 4ac The solutions 
 > [ y =] 5( x 2 − 2 x) − 4 4 M1 for a correct start to write the quadratic in completed square form
 > Allow x and y to be interchanged
 > ⎛ 4⎞
-> or [ y = ] 5 ⎜ x 2 − 2 x − ⎟
-> ⎝ 5⎠ Condone division of all terms by 5 ie x 2 − 2 x − oe
+> or [ y = ] 5 ⎜ x 2 − 2 x − 5⎠ Condone division of all terms by 5 ie x 2 − 2 x − oe
 > [ y =] 5 ( ( x − 1) − 1) − 4 or M1 implies previous method mark
-> Allow y = ( 5 x − 5)2 − 5 − 4 oe Allow x and y to be interchanged
-> 4⎞
-> [ y =] 5 ⎛⎜ ( x − 1) − 1 −
+> Allow y = ( 5 x − 5)² − 5 − 4 oe Allow x and y to be interchanged
+> 4
+> [ y =] 5 ( x − 1) − 1 −
 > Condone ( x − 1) − 1 − oe
-> ⎟
-> ⎝ 5⎠
+>  5
 > y +9 M1
 > = ( x − 1)
 > ( 5x − 5 ) oe Allow x and y to be interchanged
@@ -764,7 +766,6 @@ Find the inverse of h(x) in the form h −1 : x ↦ ... b b 2 4ac The solutions 
 > 5 Must only have + and must be in x
 > Do not ISW
 > cas for parts (a), (b), (c), (d), (f) wr for part (e) Total 14 marks
-> Question Working Answer Mark Notes
 
 - **(4)** [ y =] 5( x 2 − 2 x) − 4 4 M1 for a correct start to write the quadratic in completed square form
 
@@ -783,7 +784,7 @@ Solve the simultaneous equations x y 2 x y 2 xy 2 2 Show clear algebraic working
 > 2 ( 5 + y ) + y 2 + 2 y ( 5 + y ) = 85 or
 > 6 M1 for substituting a linear equation into the quadratic
 > equation
-> 2 x2 + ( x − 5)2 + 2 x( x − 5) = 85 Allow one sign error in their (5 + y) or (x – 5)
+> 2 x² + ( x − 5)² + 2 x( x − 5) = 85 Allow one sign error in their (5 + y) or (x – 5)
 > This mark can be implied by an un simplified correct
 > expansion in a correct equation
 > eg 50 + 20 y + 2 y 2 + y 2 + 10 y + 2 y 2 = 85
@@ -819,7 +820,6 @@ Solve the simultaneous equations x y 2 x y 2 xy 2 2 Show clear algebraic working
 > x = ‒2,y= ‒7
 > Correct answer(s) with no working scores no marks
 > wr Total 6 marks
-> Question Working Answer Mark Notes
 
 - **(6)** 2 ( 5 + y ) + y 2 + 2 y ( 5 + y ) = 85 or
 
@@ -844,7 +844,7 @@ for Question 12 6 ( 2 a 3) 12 35 25 5w 7 252 a 1 Find an expression for w in ter
 > may be written as a correct statement embedded within
 > 6(2 a −3) 6(2 a −3)
 > ⎛ 1⎞ ⎛
-> ⎞
+> 
 > oe or ⎜ ( 52 ) 3 ⎟ ( )
 > (2 a −3)
 > eg ⎜ 253 ⎟ oe or 252 oe
@@ -863,8 +863,8 @@ for Question 12 6 ( 2 a 3) 12 35 25 5w 7 252 a 1 Find an expression for w in ter
 > 6(2 a −3)
 > or for writing 35 × 3 25 correctly as a power of (7 and) 25
 > (
-> ⎡35 × 3 25
-> ) = ⎤ [ 7 ×] 25 × 254 a −6
+> 35 × 3 25
+> ) = [ 7 ×] 25 × 254 a −6
 > 6(2 a −3) 1
 > 2 ×6(2 a −3)
 > ⎢⎣ ⎥⎦ eg [ 7 ×] 25 2 × 253
@@ -883,7 +883,6 @@ for Question 12 6 ( 2 a 3) 12 35 25 5w 7 252 a 1 Find an expression for w in ter
 > or [ 7 ×] 5 × 58 a −12 = [ 7 ×] 54 a + 2 × 5w oe Needs to be as a correct single statement so not as two parts etc
 > or 8a ‒ 12 + 1 ‒ 4a ‒ 2 oe
 > 4a ‒13 A1 condone 54 a −13 Do not allow 2w = 4a – 13
-> cas Total 4 marks
 
 - **(4)** 4 M1 for knowing that the cube root of a number is the same as raising
 

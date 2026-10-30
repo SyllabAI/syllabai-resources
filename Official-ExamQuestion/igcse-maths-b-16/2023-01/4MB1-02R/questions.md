@@ -8,7 +8,9 @@ Rory buys and sells jewellery. Rory buys a necklace for $180 He sells the neckla
 
 ### 1(a) [2]
 
-Calculate, to 3 significant figures, Rory’s percentage profit. Rory sells a bracelet for $203 This price represents a 16% profit on his cost price.
+Rory buys and sells jewellery. Rory buys a necklace for \$180 He sells the necklace for \$230
+
+Calculate, to 3 significant figures, Rory’s percentage profit. Rory sells a bracelet for \$203 This price represents a 16% profit on his cost price.
 
 
 **Mark scheme answer**
@@ -34,7 +36,7 @@ Calculate the cost price of the bracelet. Rory travelled by plane from New York 
 > allow for = 0.16 oe do not allow 203 ÷ (1+16%) or
 > x
 > 203 ÷ 116% without further correct working or a correct answer.
-> ($)175 A1 cao
+> (\$)175 A1 cao
 
 - **(2)** 203 ÷ 1.16 or 203 ÷ 116 ×100 oe 2 M1 Fully correct method to find the cost price
 
@@ -62,7 +64,7 @@ calculate the total cost of the earrings in dollars.
 **Mark scheme answer**
 
 > 91 750 ÷ 3.67 2 M1 Correct method to find cost in dollars
-> ($)25 000 A1 cao
+> (\$)25 000 A1 cao
 > Correct answers scores full marks Total 9 marks
 > (unless from obviously incorrect
 > working)
@@ -143,9 +145,12 @@ Diagram NOT accurately drawn 8 cm Figure 1 Figure 1 shows a solid right circular
 
 ### 3 [5]
 
-Diagram NOT accurately drawn 8 cm Figure 1 Figure 1 shows a solid right circular cone. The radius of the base of the cone is 8 cm. The volume of the cone is 320π cm3 The total surface area of the cone is kπ cm2 Calculate the value of k ⎡ ⎤ 1 2 ⎡ ⎤ ⎢ ⎥ Volume of a cone = πr h ⎢ ⎥ ⎢ ⎥ ⎢ ⎥ ⎢⎣ Curved ⎥⎦ ⎣⎢ ⎦⎥ surface area of cone = πrl
+Figure 1 Figure 1 shows a solid right circular cone. The radius of the base of the cone is 8 cm. The volume of the cone is 320π cm³ The total surface area of the cone is kπ cm² Calculate the value of k ⎡ ⎤ 1 2 ⎡ ⎤ ⎢ ⎥ Volume of a cone = πr h ⎢ ⎥ ⎢ ⎥ ⎢ ⎥ ⎢⎣ Curved ⎥⎦ ⎣⎢ ⎦⎥ surface area of cone = πrl
 
-> 🖼 crop required: diagram (qp.pdf p.6)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Figure values: 8.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_3_diagram.png)
 
 
 **Mark scheme answer**
@@ -176,7 +181,9 @@ Trapeziums P and Q are drawn on the grid opposite.
 
 ### 4(a) [3]
 
-Describe fully the single transformation that maps trapezium P onto trapezium Q ⎛ 2⎞ Trapezium P is transformed to trapezium A under the translation ⎜ ⎟ ⎝ −3⎠
+Trapeziums P and Q are drawn on the grid opposite.
+
+Describe fully the single transformation that maps trapezium P onto trapezium Q ⎛ 2⎞ Trapezium P is transformed to trapezium A under the translation −3⎠
 
 
 **Mark scheme answer**
@@ -207,7 +214,9 @@ On the grid, draw and label trapezium A Trapezium P is transformed to trapezium 
 
 ### 4(c) [2]
 
-On the grid, draw and label trapezium B Trapezium C is the image of trapezium Q under the transformation with matrix M where ⎛ 1⎞ 0 − ⎜ 2⎟ M= ⎜ ⎟ ⎜1 0⎟ ⎝2 ⎠
+On the grid, draw and label trapezium B Trapezium C is the image of trapezium Q under the transformation with matrix M where ⎛ 1⎞ 0 − ⎜ 2⎟ M= 1 0 2 ⎠
+
+![grid — official paper figure (qp.pdf p.8) (same figure as asset_4_b_grid_stem)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2023-01/4MB1-02R/assets/asset_4_b_grid_stem.png)
 
 ![grid — official paper figure (qp.pdf p.8) — shared with asset_4_b_grid_stem](assets/asset_4_b_grid_stem.png)
 
@@ -224,7 +233,9 @@ On the grid, draw and label trapezium B Trapezium C is the image of trapezium Q 
 
 ### 4(d) [3]
 
-On the grid, draw and label trapezium C y Q P –5 –4 –3 –2 –1 O 1 2 3 4 5 6 7 8 x –1 –2 –3 for a spare grid if you need to redraw your trapeziums. Only use this grid if you need to redraw your trapeziums. y Q P –5 –4 –3 –2 –1 O 1 2 3 4 5 6 7 8 x –1 –2 –3
+On the grid, draw and label trapezium C
+
+![grid — official paper figure (qp.pdf p.8) (same figure as asset_4_b_grid_stem)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2023-01/4MB1-02R/assets/asset_4_b_grid_stem.png)
 
 ![grid — official paper figure (qp.pdf p.8) — shared with asset_4_b_grid_stem](assets/asset_4_b_grid_stem.png)
 
@@ -234,22 +245,18 @@ On the grid, draw and label trapezium C y Q P –5 –4 –3 –2 –1 O 1 2 3 4
 > ⎛ 1⎞ 3 M1 for the transformation matrix followed by a either
 > ⎜0 − ⎟
 > 2 ⎛ −4 −2 0 4 ⎞ correct coordinate matrix or 4 correct position vectors of
-> ⎜ ⎟⎜ ⎟ object (NB: any order of coordinates) or 3 correct points of
-> ⎜1 ⎟⎝
-> 0⎟
-> 4 6 6 4⎠
+>  object (NB: any order of coordinates) or 3 correct points of
+> 1 
+> 0
+> 4 6 6 4
 > image listed or 2 correct points of image plotted
-> ⎜
-> ⎝2 ⎠ For this mark allow transformation of P by matrix eg.
-> ⎛ 0 − 0.5 ⎞⎛1 2 3 5 ⎞
-> ⎜ ⎟⎜ ⎟
-> ⎝ 0.5 0 ⎠⎝1 2 2 1 ⎠
+>  2 For this mark allow transformation of P by matrix eg.
+> ⎛ 0 − 0.5 ⎞⎛1 2 3 5 0.5 0 ⎠⎝1 2 2 1 ⎠
 > ⎛ −2 −3 −3 −2 ⎞ M1 dep on M1 awarded, at least 3 correct points of image
-> ⎜ ⎟ listed (may be seen in a single matrix) or 3 correct points
+>  listed (may be seen in a single matrix) or 3 correct points
 > ⎝ −2 −1 0 2 ⎠ of image plotted
 > ⎛ −0.5 −1 −1 −0.5 ⎞
-> For this mark allow ⎜ ⎟
-> ⎝ 0.5 1 1.5 2.5 ⎠
+> For this mark allow 0.5 1 1.5 2.5 
 > (–2, –2), (–3, –1), (–3, 0), (–2, 2) C correctly shown A1 for a fully correct shape drawn on the grid
 > Correct answers scores full marks (unless from obviously incorrect Total 10 marks
 > working)
@@ -263,28 +270,32 @@ D Diagram NOT accurately drawn 8 cm C E F 7 cm B 5 cm A Figure 2 Figure 2 shows 
 
 ### 5(a) [4]
 
-Calculate the volume, in cm3 to the nearest whole number, of the triangular prism. P Q Diagram NOT accurately drawn 20° 12 cm T S 25 cm R Figure 3 Figure 3 shows a shaded shape made by removing triangle PTQ from rectangle PQRS QR = 12 cm SR = 25 cm ∠PTQ = 90° ∠TQR = 20°
+D Diagram NOT accurately drawn 8 cm C E F 7 cm B 5 cm A Figure 2 Figure 2 shows right triangular prism ABCDEF AB = 5 cm DF = 8 cm AF = 7 cm ∠CBA = 90°
+
+Calculate the volume, in cm³ to the nearest whole number, of the triangular prism. P Q Diagram NOT accurately drawn 20° 12 cm T S 25 cm R Figure 3 Figure 3 shows a shaded shape made by removing triangle PTQ from rectangle PQRS QR = 12 cm SR = 25 cm ∠PTQ = 90° ∠TQR = 20°
+
+![diagram — official paper figure (qp.pdf p.12)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2023-01/4MB1-02R/assets/asset_5_a_diagram.png)
 
 ![diagram — official paper figure (qp.pdf p.12)](assets/asset_5_a_diagram.png)
 
 
 **Mark scheme answer**
 
-> 82 − 52 [ = 39] or 4 M1 Correct use of Pythagoras’ theorem or other
+> $8^2$ − $5^2$ [ = 39] or 4 M1 Correct use of Pythagoras’ theorem or other
 > method to find BC oe
-> [ ∠BAC =] cos −1 ⎛⎜ ⎞⎟ [ = 51.3...] and 8 × sin("51.3") Allow 82 = x 2 + 52 oe
+> [ ∠BAC =] cos^-1 [ = 51.3...] and 8 × sin("51.3") Allow $8^2$ = $x^2$ + $5^2$ oe
 > ⎝8⎠
-> 82 − 52 ⎡⎣ = 39 = 6.24...⎤⎦ M1 Correct method to find BC oe
+> $8^2$ − $5^2$ ⎡⎣ = 39 = 6.24...⎤⎦ M1 Correct method to find BC oe
 > 1 M1 Must use a length which is their BC or DE, may
 > × 5 × "6.24..."× 7 be on diagram if not labelled must be correct.
 > Correct formula for volume of prism.
 > 109 A1 109 – 109.3
-> [cm3] (if no marks awarded, SCB1 for
+> [cm³] (if no marks awarded, SCB1 for
 > 1
-> × 5 × 8 × 7 [ = 140] or × 5 × 52 + 82 × 7 [ = 165...] )
+> × 5 × 8 × 7 [ = 140] or × 5 × $5^2$ + $8^2$ × 7 [ = 165...] )
 > 2
 
-- **(4)** 82 − 52 [ = 39] or 4 M1 Correct use of Pythagoras’ theorem or other
+- **(4)** $8^2$ − $5^2$ [ = 39] or 4 M1 Correct use of Pythagoras’ theorem or other
 
 ### 5(b) [4]
 
@@ -298,7 +309,7 @@ Calculate the perimeter, in cm to the nearest whole number, of the shaded shape.
 > 25sin 70
 > PT = oe
 > sin 90
-> QT = 25cos 70 [ = 8.55...] and PT = 252 − "8.55"2 M1 for a correct method to find QT and PT
+> QT = 25cos 70 [ = 8.55...] and PT = $25^2$ − "8.55"$^2$ M1 for a correct method to find QT and PT
 > [=23.49…] oe
 > “8.55…” + ”23.49…” + 12 + 12 + 25 M1 for a fully correct method to find the perimeter
 > 81[cm] A1 awrt 81
@@ -341,11 +352,11 @@ Calculate the probability that Ted takes at least one white button. Ted also has
 **Mark scheme answer**
 
 > ⎛ 13 ⎞ ⎛ 9 ⎞ ⎡ 117 ⎤ ⎛ 13 ⎞ ⎛ 11 ⎞ ⎡ 143 ⎤ 3 M1Correct product of probabilities ft
-> " ⎜ ⎟ "× " ⎜ ⎟ " ⎢ = or " ⎜ ⎟ "× " ⎜ ⎟ " ⎢ = or their tree diagram
+> " "× " " = or " "× " " = or their tree diagram
 > ⎝ 20 ⎠ ⎝ 20 ⎠ ⎣ 400 ⎦⎥ ⎝ 20 ⎠ ⎝ 20 ⎠ ⎣ 400 ⎦⎥
 > Do not ft any probability greater than 1
 > ⎛ 7 ⎞ ⎛ 9 ⎞ ⎡ 63 ⎤ ⎛ 7 ⎞ ⎛ 11 ⎞ ⎡ 77 ⎤
-> " ⎜ ⎟ "× " ⎜ ⎟ " ⎢ = ⎥ or " ⎜ ⎟ "× " ⎜ ⎟ " ⎢ =
+> " "× " " ⎢ = ⎥ or " "× " " ⎢ =
 > ⎝ 20 ⎠ ⎝ 20 ⎠ ⎣ 400 ⎦ ⎝ 20 ⎠ ⎝ 20 ⎠ ⎣ 400 ⎦⎥
 > 117 143 63 13 63 M1 fully correct method to find P(at
 > " "+ " "+ " " or " "+ " " least one W) ft their tree diagram
@@ -366,14 +377,14 @@ Work out the value of x Show clear algebraic working.
 **Mark scheme answer**
 
 > ⎛ 13 ⎞ ⎛ 9 ⎞ 30 − x ⎡ 39(30 − x) 1170 − 39 x ⎤ 4 M1for a correct product of 3
-> " ⎜ ⎟ "× " ⎜ ⎟ "× = = or probabilities
+> " "× " "× = = or probabilities
 > ⎝ 20 ⎠ ⎝ 20 ⎠ 30 ⎣⎢ 4000 4000 ⎦⎥
 > ft their tree diagram
 > ⎛ 13 ⎞ ⎛ 11 ⎞ x ⎡ 143x ⎤ ⎛ 7 ⎞ ⎛ 9 ⎞ x ⎡ 21x ⎤ If total in bag is incorrect but consistent
-> " ⎜ ⎟ "× " ⎜ ⎟ "× ⎢ = ⎥ or " ⎜ ⎟ "× " ⎜ ⎟ "× ⎢ = oe
+> " "× " "× ⎢ = ⎥ or " "× " "× ⎢ = oe
 > ⎝ 20 ⎠ ⎝ 20 ⎠ 30 ⎣ 12000 ⎦ ⎝ 20 ⎠ ⎝ 20 ⎠ 30 ⎣ 4000 ⎦⎥ allow this mark.
 > ⎛ 13 ⎞ ⎛ 9 ⎞ 20 − x
-> Eg " ⎜ ⎟ "× " ⎜ ⎟ "×
+> Eg " "× " "×
 > ⎝ 20 ⎠ ⎝ 20 ⎠
 > Do not ft any probability greater than 1
 > x
@@ -381,7 +392,7 @@ Work out the value of x Show clear algebraic working.
 > until attempting to find number of
 > counters rather than probability
 > ⎛ 1170 − 39 x ⎞ ⎛ 143x ⎞ ⎛ 21x ⎞ M1for a fully correct probability
-> "⎜ ⎟ " + "⎜ ⎟ "+ " ⎜ ⎟ " oe ft their tree diagram
+> " " + " "+ " " oe ft their tree diagram
 > ⎝ 4000 ⎠ ⎝ 12000 ⎠ ⎝ 4000 ⎠ If total in bag is incorrect but consistent
 > allow this mark.
 > Do not ft any probability greater than 1
@@ -435,7 +446,7 @@ Solve g(x) = 5 The function f is defined as f : x ↦ 3x 2 + 9x – 7 for x > �
 
 ### 7(c) [2]
 
-Find f ⎜ − ⎟ ⎝ 2⎠
+Find f ⎜ − 2⎠
 
 
 **Mark scheme answer**
@@ -456,25 +467,25 @@ Express the inverse function f –1 in the form f –1 : x ↦ ... ⎡ −b ± b
 
 **Mark scheme answer**
 
-> ⎛⎛
-> 3⎞ 9⎞ 4 M1 for a start to completing the square As a minimum
-> y = 3 ⎜ ⎜ x + ⎟ − ⎟ − 7 or
-> ⎜⎝ 2 ⎠ 4 ⎟⎠ ⎛ 3⎞
+> 
+> 3 9 4 M1 for a start to completing the square As a minimum
+> y = 3 x + − − 7 or
+>  2 4 3
 > ⎝ must see y = 3 ⎜ x + ⎟ + c where c is a number or
 > 2 ⎝ 2⎠
 > ⎛ 3 ⎞ 27 numerical expression not equal to –7
 > y = 3⎜ x + ⎟ − − 7
 > ⎝ 2⎠
 > 3 y 55 ⎛ 3⎞
-> ( x + )2 = + M1dep on previous M mark isolating ⎜ x + ⎟
+> ( x + )² = + M1dep on previous M mark isolating ⎜ x + ⎟
 > 2 3 12 ⎝ 2⎠
 > 3 y 55 M1 dep on previous M mark removing square and
 > x=− + + isolating x could be +/– at this stage
 > 2 3 12
 > 3 x 55 ⎛ 55 ⎞
 > − + + ⎜ x+ ⎟
-> 2 3 12 3 4 ⎠
-> A1oe eg − + ⎝ but must have only + before
+> 2 3 12 3 4 
+> A1oe eg − + but must have only + before
 > 2
 > square root and must be in terms of x
 > eg 3x 2 + 9 x + ( −7 − y ) = 0 4 M1 Writing as a 3 term quadratic equation in terms of x
@@ -501,9 +512,13 @@ The equation of a curve is y = x – 5x – 3 1 3
 
 ### 8(a) [3]
 
+The equation of a curve is y = x – 5x – 3 1 3
+
 Complete the table of values for y = x – 5x – 3 x –4 –3 –2 –1 0 1 2 3 4 y –15 –1.5 –7.5 9
 
-> 🖼 crop required: table (qp.pdf p.None)
+![figure — official paper figure (qp.pdf p.22)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2023-01/4MB1-02R/assets/asset_8_8-a.png)
+
+![figure — official paper figure (qp.pdf p.22)](assets/asset_8_8-a.png)
 
 
 **Mark scheme answer**
@@ -540,7 +555,9 @@ On the grid opposite, plot the points from your completed table and join them to
 
 ### 8(c) [3]
 
-By drawing a suitable straight line on your grid, find estimates, to one decimal place, of the solutions to the equation 1 3 1 x – 5x – 3 = 1 – x in the interval –4 ≤ x ≤ 4 2 2 y –4 –3 –2 –1 O 1 2 3 4 x –1 –2 –3 –4 –5 –6 –7 –8 –9 –10 –11 –12 –13 –14 –15 for a spare grid if you need to redraw your graph. Only use this grid if you need to redraw your graph. y –4 –3 –2 –1 O 1 2 3 4 x –1 –2 –3 –4 –5 –6 –7 –8 –9 –10 –11 –12 –13 –14 –15
+By drawing a suitable straight line on your grid, find estimates, to one decimal place, of the solutions to the equation 1 3 1 x – 5x – 3 = 1 – x in the interval –4 ≤ x ≤ 4 2 2
+
+![graph — official paper figure (qp.pdf p.23) (same figure as asset_8_b_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2023-01/4MB1-02R/assets/asset_8_b_grid.png)
 
 ![graph — official paper figure (qp.pdf p.23) — shared with asset_8_b_grid](assets/asset_8_b_grid.png)
 
@@ -559,7 +576,7 @@ By drawing a suitable straight line on your grid, find estimates, to one decimal
 > Values given must follow through their graph, do not
 > allow values listed if they do not match up with their
 > 1
-> graph Be particularly careful if x3 − x − 4 = 0
+> graph Be particularly careful if x³ − x − 4 = 0
 > 2
 > followed by results is seen.
 > Penalise any value given to more than 2 dp.
@@ -672,23 +689,15 @@ Given that 4 × 3 = 3x 813 find the value of x, giving your answer as a fraction
 
 **Mark scheme answer**
 
-> 3
-> 3 M1 dealing with the
-> 27 = 3 or 27 × 3 = 9 = 32 or
-> 27 = 3 3 and 3 3 × 3 = 32 or
-> 81 −
-> 27 × 3 = 81 and
-> = 81
-> oe
-> 813
-> 16
-> ( 3 81) 4 = 3 3 M1 dealing with 813 allow for 81a = 34 a where a ≠ 1
-> 10 −
-> − A1 condone 3 3 dep on M2
+> ∛27 = 3² or ∛27 × ∛3 = 9 = 3² or
+> ∛27 = 3√3 and 3√3 × ∛3 = 3² or
+> ∛27 × ∛3 = ∛81 and $\sqrt{81}/81^{\frac{4}{3}} = 81^{-\frac{5}{6}}$ oe M1 dealing with the ∛27
+> (∛81)⁴ = $3^{\frac{16}{3}}$ M1 dealing with $81^{\frac{4}{3}}$ allow for $81^a = 3^{4a}$ where a ≠ 1
+> −10/3 A1 condone $3^{-\frac{10}{3}}$ dep on M2
 > isw if the correct answer is then given as a decimal
-> Working required Total 6 marks
+> Working required
 
-- **(3)** 3
+- **(3)** ∛27 = 3² or ∛27 × ∛3 = 9 = 3² or
 
 
 ## Question 11 (10 marks)
@@ -705,7 +714,7 @@ Find the coordinates of the points of intersection of C and L Show clear algebra
 > 7 − 5 x = 5 x 2 − 16 x − 5 or 5 M1 for a correct substitution to gain an equation in one
 > 2 variable
 > ⎛7− y⎞ ⎛7− y⎞
-> y = 5⎜ ⎟ − 16 ⎜ ⎟−5
+> y = 5 − 16 −5
 > ⎝ 5 ⎠ ⎝ 5 ⎠
 > 5 x 2 − 11x − 12 [ = 0] or y 2 − 3 y − 88 [ = 0] oe M1 dep on previous M mark for writing as 3 term
 > quadratic in one variable, allow one sign error
@@ -761,8 +770,7 @@ Calculate the coordinates of the point M Give your coordinates as exact values. 
 > If 2nd M1 awarded do not allow use of perpendicular
 > gradient.
 > ⎛ 25 25 ⎞ A1 oe eg(3.125, –12.5)
-> ⎜ 8 ,− 2 ⎟
-> ⎝ ⎠
+>  8 ,− 2 
 > from obviously incorrect working)
 
 - **(5)** dy 5 M1 for differentiating with at least one nonzero term
@@ -774,9 +782,14 @@ C Diagram NOT accurately drawn B D A E F Figure 4 Figure 4 shows a regular hexag
 
 ### 12(a) [4]
 
+Figure 4 Figure 4 shows a regular hexagon ABCDEF Given that the area of hexagon ABCDEF = 150 3 cm²
+
 find the perimeter, in cm, of the hexagon. Diagram NOT K L accurately drawn C B J D I E A F H G Figure 5 Figure 5 shows a shape AGHIJKLBCDEF made from a regular octagon GHIJKLBA and the regular hexagon ABCDEF from part (a).
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: C, B, D, A, E, F.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_12_diagram.png)
 
 
 **Mark scheme answer**
@@ -800,7 +813,7 @@ find the perimeter, in cm, of the hexagon. Diagram NOT K L accurately drawn C B 
 > 2 2 2
 > 3 2
 > 150 3 = 12 × y or oe
-> d 2 = 100 or x 2 = 300 or y 2 = 25 oe M1 for a correct method to find a length or its
+> $d^2$ = 100 or $x^2$ = 300 or $y^2$ = 25 oe M1 for a correct method to find a length or its
 > square
 > 60(cm) A1 accept awrt 60.0
 
@@ -824,16 +837,15 @@ Work out the length, in cm to one decimal place, of the straight line KF ⎡ ⎤
 > 2 from a correct method for method marks)
 > [ KG =] [ = 26.13]
 > ⎛ "135" ⎞
-> cos ⎜ ⎟
-> ⎝ 2 ⎠
+> cos 2 
 > Height of A above F = “10”sin30 or “10”cos60 or M1 One of the vertical or horizontal
 > Horizontal distance of A from F = “10”cos30 or “10”sin60 or displacements of A from F or angle KAF or
 > [Angle KAF =] “120” + “45” [ = 165] or length FB or FG
-> "60" ⎡
-> [ FB =] 2 × "10"× cos = 10 3 = 17.32...⎤⎦ or
-> 2 ⎣
-> 180 − "60"− "45 ⎞
-> [ FG =] 2 × "10"× cos ⎛⎜ ⎟ [ = 15.86...]
+> "60" 
+> [ FB =] 2 × "10"× cos = 10 3 = 17.32... or
+> 2 
+> 180 − "60"− "45 
+> [ FG =] 2 × "10"× cos [ = 15.86...]
 > ⎝ 2 ⎠
 > Height of K above F = “10”sin45 + “10” + “10”sin30 M1 dep on previous two M marks Both of the
 > [= 15 + 5 2 =22.07…] and vertical or horizontal displacements of A from
@@ -841,14 +853,14 @@ Work out the length, in cm to one decimal place, of the straight line KF ⎡ ⎤
 > K from F = “10” + “10”sin45+”10”sin60
 > ⎡ = 10 + 5 2 + 5 3 = 25.73...⎤ or
 > ⎣ ⎦
-> KF 2 = "24.14"2 + "10"2 − 2 × "24.14"× "10"× cos"165" or
-> KF 2 = "18.47"2 + "17.32"2 − 2 × "18.47"× "17.32"× cos (142.5 ) or
-> KF 2 = "26.13"2 + "15.86"2 − 2 × "26.13"× "15.86"× cos (105)
+> $KF^2$ = "24.14"$^2$ + "10"$^2$ − 2 × "24.14"× "10"× cos"165" or
+> $KF^2$ = "18.47"$^2$ + "17.32"$^2$ − 2 × "18.47"× "17.32"× cos (142.5 ) or
+> $KF^2$ = "26.13"$^2$ + "15.86"$^2$ − 2 × "26.13"× "15.86"× cos (105)
 > M1 Expression to find KF dep on previous
-> [ KF =] "22.07..."2 + "25.73..."2 or 3 M marks.
-> [ KF =] "24.14"2 + "10"2 − 2 × "24.14"× "10"× cos"165" or
-> [ KF =] "18.47"2 + "17.32"2 − 2 × "18.47"× "17.32"× cos (142.5 ) or
-> [ KF =] "26.13"2 + "15.86"2 − 2 × "26.13"× "15.86"× cos (105 )
+> [ KF =] "22.07..."$^2$ + "25.73..."$^2$ or 3 M marks.
+> [ KF =] "24.14"$^2$ + "10"$^2$ − 2 × "24.14"× "10"× cos"165" or
+> [ KF =] "18.47"$^2$ + "17.32"$^2$ − 2 × "18.47"× "17.32"× cos (142.5 ) or
+> [ KF =] "26.13"$^2$ + "15.86"$^2$ − 2 × "26.13"× "15.86"× cos (105 )
 > 33.9(cm) A1 awrt 33.9
 > Correct answers scores full marks (unless from obviously Total 10 marks
 > incorrect working)

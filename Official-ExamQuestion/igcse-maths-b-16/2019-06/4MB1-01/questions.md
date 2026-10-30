@@ -106,8 +106,6 @@ Work out 2 ÷3 4 6 Show your working clearly and give your answer as a fraction 
 > 54 27 9 3 27 9 23 27 27 46 27
 > = or × = or ÷ = or ÷ = oe 2 A1 Dependent on all working seen
 > 92 46 2 23 46 2 3 46 12 12 47
-> Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 9 6 9 23
 
@@ -118,6 +116,8 @@ Given that y = 2 x 4 − 2 x dy find dx dy . . . . . . . . . . . . . . . . . . .
 
 ### 5 [2]
 
+Given that y = 2 x 4 − 2 x dy find dx dy ……………= dx
+
 Given that y = 2 x 4 − 2 x dy find dx dy = dx
 
 
@@ -125,8 +125,7 @@ Given that y = 2 x 4 − 2 x dy find dx dy = dx
 
 > M1 One term differentiated correctly
 > 8x 3 + 2 A1 oe (e.g. 8x3 + 6x−3 )
-> x3
-> Total 2 marks
+> x³
 
 - **(2)** M1 One term differentiated correctly
 
@@ -225,8 +224,6 @@ In a sale, the price of a book is reduced by 15% The price of the book before th
 > 7.60 × 0.85
 > taking away from £7.60 or 760. Units not needed
 > £6.46 2 A1 accept 646p
-> Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** M1 Or for working out 15% of £7.60 (=£1.14 or 114p) and
 
@@ -245,7 +242,7 @@ Simplify 2x2 q 3x5
 
 ### 11(b) [2]
 
-Simplify (4a2b3)3
+Simplify (4a2b3)³
 
 
 **Mark scheme answer**
@@ -262,6 +259,8 @@ Simplify (4a2b3)3
 The function f is defined for all values of x by f : x 6 x2 – 2
 
 ### 12(a) [1]
+
+The function f is defined for all values of x by f : x 6 x² – 2
 
 Write down the range of f. The function g is given by g : x 6 3 where x ≠ 3 − 4 x +4
 
@@ -316,8 +315,6 @@ Factorise completely 3c2 + 6c
 > 3 ( c + 2c ) or c ( 3c + 6 )
 > M1
 > 3c ( c + 2) 2 A1 allow (3c + 0)(c + 2) Do not IS
-> Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 3 ( c + 2c ) or c ( 3c + 6 )
 
@@ -346,8 +343,6 @@ Simplify fully 4 x 2 − 36
 > (not 4(x² − 9)) but allow other factorisation.
 > 3x + 1 A1 Final answer – allow 4x + 12 in the denominator. Do
 > 4 ( x + 3) Not allow 2(2x + 6)
-> Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** ( x − 3)( 3x + 1) M1 allow any one correct factorisation of numerator or
 
@@ -358,9 +353,12 @@ A Diagram NOT R accurately drawn C P Q B The diagram shows △ABC. APQR is a par
 
 ### 15 [3]
 
-A Diagram NOT R accurately drawn C P Q B The diagram shows △ABC. APQR is a parallelogram where P is the midpoint of AB, Q is the midpoint of BC and R is the midpoint of AC. Prove that △PBQ and △RQC are congruent.
+The diagram shows △ABC. APQR is a parallelogram where P is the midpoint of AB, Q is the midpoint of BC and R is the midpoint of AC. Prove that △PBQ and △RQC are congruent.
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, R, C, P, Q, B.
+
+![diagram — official paper figure (qp.pdf p.7)](assets/asset_15_diagram.png)
 
 
 **Mark scheme answer**
@@ -420,8 +418,6 @@ Calculate the probability that when the spinner is spun once it lands on number 
 > to find the probability of 6. (x must be between 0 and
 > 0.27)
 > 0.35 3 A1 Allow 35%, oe
-> Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 0.05 + 0.1 + ( 2 x − 0.1) + 0.2 + 0.3 + ( 3x + 0.2 ) = 1 oe M1 Using Σ p = 1. You may award the mark if this is
 
@@ -432,9 +428,13 @@ Here is △ABC. C Diagram NOT accurately drawn 6 cm 30q A 2 cm B
 
 ### 17(a) [2]
 
-Calculate the area, in cm2, of △ABC cm2 Here is △PQR. Q Diagram NOT accurately drawn 12 cm x° R 4 cm P
+Here is △ABC. C Diagram NOT accurately drawn 6 cm 30° A 2 cm B
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+Calculate the area, in cm², of △ABC cm² Here is △PQR. Q Diagram NOT accurately drawn 12 cm x° R 4 cm P
+
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![diagram — official paper figure (qp.pdf p.9)](assets/asset_17_diagram.png)
 
 
 **Mark scheme answer**
@@ -452,18 +452,16 @@ Calculate the value, to 3 significant figures, of x. x =
 
 **Mark scheme answer**
 
-> 4 [(sin 90)] 122 − 42
+> 4 [(sin 90)] $12^2$ − $4^2$
 > cos x = or sin x° = or
 > 12 12 M1 Complete method (e.g. Pythagoras followed by sine,
 > cosine rule, etc.)
-> 122 − 42 122 + 42 − ( 122 − 42 )2
-> tan x° = or cos x° = Allow 8 2 or awrt 11.3 for 122 − 42
+> $12^2$ − $4^2$ $12^2$ + $4^2$ − ( $12^2$ − $4^2$ )²
+> tan x° = or cos x° = Allow 8 2 or awrt 11.3 for $12^2$ − $4^2$
 > 4 2 ×12 × 4
 > 70.5 2 A1 awrt 70.5
-> Total 4 marks
-> Question Working Answer Mark Notes
 
-- **(2)** 4 [(sin 90)] 122 − 42
+- **(2)** 4 [(sin 90)] $12^2$ − $4^2$
 
 
 ## Question 18 (4 marks)
@@ -492,17 +490,13 @@ There are 9 marbles in bag A and 11 marbles in bag B. In bag A, there are 3 red 
 > 3 9 ⎛3 4 3 5 ⎞
 > M1 Or two of × accept ⎜ × + × ⎟
 > 9 11 ⎝ 9 11 9 11 ⎠
-> ⎛3 2 ⎞ ⎛2 4 ⎞ 2 7 ⎛2 2 2 5 ⎞
-> ⎜ × ⎟+⎜ × ⎟ or × accept ⎜ × + × ⎟
-> ⎝ 9 11 ⎠ ⎝ 9 11 ⎠ 9 11 ⎝ 9 11 9 11 ⎠
+> ⎛3 2 ⎞ ⎛2 4 ⎞ 2 7 ⎛2 2 2 5 × ⎟+⎜ × ⎟ or × accept ⎜ × + × 9 11 ⎠ ⎝ 9 11 ⎠ 9 11 ⎝ 9 11 9 11 ⎠
 > 4 ⎛4 2 4 4 4 5 ⎞
 > or × 1 accept ⎜ × + × + × ⎟
 > 9 ⎝ 9 11 9 11 9 11 ⎠
 > ⎛⎛ 3 2 ⎞ ⎛ 2 4 ⎞⎞ M1dep on both previous method marks being awarded.
-> 1− ⎜⎜ × ⎟ + ⎜ × ⎟⎟
-> ⎝ ⎝ 9 11 ⎠ ⎝ 9 11 ⎠ ⎠ Attempt at correct calculation (oe)
+> 1− × ⎟ + ⎜ × 9 11 ⎠ ⎝ 9 11 ⎠ ⎠ Attempt at correct calculation (oe)
 > 4 A1 oe awrt 0.86 awrt 85%
-> Total 4 marks
 
 - **(4)** 3 2 2 4
 
@@ -543,7 +537,6 @@ The incomplete histogram and the incomplete table give information about the tim
 **Mark scheme answer**
 
 > fd = 1.6 , 0.5, 1.4, 0.6, 0.2 M1 for use of area to work out freq density. Implied by the
-> Question Working Answer Mark Notes
 > frequency of 30 – 45 being 9 or a bar drawn at the
 > correct height
 > A3 for all four correct, A2 for three and A1 for two
@@ -553,7 +546,6 @@ The incomplete histogram and the incomplete table give information about the tim
 > – 20 10 small squares high, for 45 – 60 4 small square
 > and 0.2
 > 4 high
-> Total 4 marks
 
 - **(4)** fd = 1.6 , 0.5, 1.4, 0.6, 0.2 M1 for use of area to work out freq density. Implied by the
 
@@ -591,9 +583,12 @@ E Diagram NOT accurately drawn C D F 2.3 m 0.5 m A 1.2 m B ABCDEF is a right tri
 
 ### 22 [5]
 
-E Diagram NOT accurately drawn C D F 2.3 m 0.5 m A 1.2 m B ABCDEF is a right triangular prism in which AB = 1.2 m BC = 2.3 m AF = 0.5 m ∠FAB = 90° Calculate the total surface area, in m2, of the prism m2
+ABCDEF is a right triangular prism in which AB = 1.2 m BC = 2.3 m AF = 0.5 m ∠FAB = 90° Calculate the total surface area, in m², of the prism m²
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: E, C, D, F, A, B · Figure values: 2.3, 0.5, 1.2.
+
+![diagram — official paper figure (qp.pdf p.14)](assets/asset_22_diagram.png)
 
 
 **Mark scheme answer**
@@ -610,8 +605,6 @@ E Diagram NOT accurately drawn C D F 2.3 m 0.5 m A 1.2 m B ABCDEF is a right tri
 > and [Area of rectangle ABCD] = 1.2 × 2.3 [=2.76]
 > [Area of rectangle BCEF]= 2.3 × "1.3" [=2.99] M1 dep on 1st M1 being awarded – allow their 1.3
 > 7.5 5 A1 cao
-> Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(5)** 2
 
@@ -659,8 +652,6 @@ Find n(H′ ∩ [L ∪ G])
 
 > 1 B1ft Allow ft for "their 17"+ "their 2"+ "their 3" but do
 > not award ft if one of the required areas is a blank
-> Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(1)** 1 B1ft Allow ft for "their 17"+ "their 2"+ "their 3" but do
 
@@ -689,20 +680,19 @@ Calculate, in its simplest form, the ratio of YZ : ZX
 **Mark scheme answer**
 
 > 2
-> ⎡YZ = OZ − OY = ⎤ ⎜⎛ − a + b ⎞⎟ − ( −3a + 5b ) M1 any 1 correct method. ft their YX from part a. and their
+> YZ = OZ − OY = − a + b − ( −3a + 5b ) M1 any 1 correct method. ft their YX from part a. and their
 > ⎣ ⎦⎝ 9 9 ⎠ KZ in the 4/5th line. May be implied by one of
 > 2 35 25 10
-> ⎡ ZX = ZO + OX = ⎤ − ⎛⎜ − a + b ⎞⎟ + 2a + 3b YZ = a− b
+> ⎡ ZX = ZO + OX = ⎤ − − a + b + 2a + 3b YZ = a− b
 > ⎣ ⎦ ⎝ 9 9 ⎠ 9
 > 25 10 20
-> ⎡ ZX = YX − YZ = ⎤ ("5a − 2b ") − ⎛⎜ a − b ⎞⎟ ZX = a − b
+> ⎡ ZX = YX − YZ = ⎤ ("5a − 2b ") − a − b ZX = a − b
 > ⎣ ⎦ ⎝ 9 9 ⎠ 9
-> 20 8 ⎞
-> ("5a − 2b ") = k ⎛⎜ " a − b "⎟ k=
+> 20 8 
+> ("5a − 2b ") = k " a − b " k=
 > ⎝ 9 9 ⎠
 > ⎛ 20 8 ⎞ j=
-> j ("5a − 2b ") = ⎜ " a − b " ⎟
-> ⎝ 9 9 ⎠
+> j ("5a − 2b ") = ⎜ " a − b " 9 9 ⎠
 
 - **(3)** 2
 
@@ -746,8 +736,6 @@ Find the size, in degrees, of ∠ODC. Give reasons for your working. ° ∠ODC =
 > 4
 > 5: 4
 > allow YX = ZX oe
-> Total 5 marks
-> Question Working Answer Mark Notes
 > 360 – (108 + 126 + 62) M1ft their 108 but must be clear it is BOD
 > 64 A1
 > Angle at centre of a circle is twice angle at the circumference
@@ -768,8 +756,6 @@ Find the size, in degrees, of ∠ODC. Give reasons for your working. ° ∠ODC =
 > Isosceles triangle, angles in a triangle add up to 180° and angles B1 need one reason only and bold words – must be
 > Reason
 > in a quadrilateral add up to 360° associated with method used
-> Total 6 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 10 20 8
 
@@ -780,26 +766,25 @@ A=⎜ B=⎜ ⎝ −5 1⎟⎠ ⎝ 1 −1⎟⎠ The determinant of the matrix A2 �
 
 ### 26 [6]
 
-A=⎜ B=⎜ ⎝ −5 1⎟⎠ ⎝ 1 −1⎟⎠ The determinant of the matrix A2 – AB is equal to 3k + 28 Find the value of k. k =
+A= B= −5 1 1 −1 The determinant of the matrix A2 – AB is equal to 3k + 28 Find the value of k. k =
 
 
 **Mark scheme answer**
 
 > ⎛ −11 9 ⎞
-> A2 = ⎜ ⎟ M1Condone one error
+> A2 = M1Condone one error
 > ⎝ −15 −14 ⎠
 > ⎛ 11 2k − 3 ⎞
-> AB = ⎜ ⎟ M1 Condone one error
+> AB = M1 Condone one error
 > ⎝ −19 −5k − 1⎠
 > ⎛ −22 12 − 2k ⎞
-> A2 − AB = ⎜ ⎟ A1 cao
+> A2 − AB = A1 cao
 > ⎝ 4 5k − 13 ⎠
 > det ( A2 − AB ) = −22 ( 5k − 13) − 4 (12 − 2k ) M1 ft their A2 − AB
 > M1dep on previous M1- Sets their determinant equal to
 > −22(5k −13) − 4(12 − 2k ) = 3k + 28 ⇒ k = ...
 > 3k + 28 and attempts to solve for k
 > k =2 6 A1
-> Total 6 marks
 
 - **(6)** ⎛ −11 9 ⎞
 
@@ -822,23 +807,21 @@ A 2x cm B Diagram NOT accurately drawn The diagram shows a semicircle, with diam
 > 2
 > 2
 > ⎛ x⎞ 1 ⎛ x⎞
-> Area of small circle = π ⎜ ⎟ or half small circle = π ⎜ ⎟ M1
+> Area of small circle = π or half small circle = π M1
 > 2 ⎝ ⎠ 2 ⎝2⎠
 > 1⎛1 2 ⎛ x ⎞ ⎞⎡ 1 2⎤
-> Shaded region = ⎜ πx − π ⎜ ⎟ ⎟⎟ ⎢ = πx ⎥ A1
-> 2 ⎜⎝ 2 ⎝ 2 ⎠ ⎠⎣ 8 ⎦
+> Shaded region = ⎜ πx − π = πx ⎥ A1
+> 2 2 ⎝ 2 ⎠ ⎠⎣ 8 ⎦
 > 1 1⎛ x ⎞
-> Perimeter = x + ( 2π x ) + ⎜ 2π ⎜⎛ ⎞⎟ ⎟ [ = πx + x] M1 dep on first two methods.
+> Perimeter = x + ( 2π x ) + 2π [ = πx + x] M1 dep on first two methods.
 > 4 2 ⎝ ⎝ 2 ⎠⎠
-> π x2 M1 Equates their expressions for the perimeter and area of
+> π x² M1 Equates their expressions for the perimeter and area of
 > " " = "π x + x "
 > 8 shaded region
 > 8 (π + 1)
 > x= 6 A1 Or equivalent
 > π
-> Total 6 marks
 > \
-> Question Working Answer Mark Notes
 
 - **(6)** 1 2
 

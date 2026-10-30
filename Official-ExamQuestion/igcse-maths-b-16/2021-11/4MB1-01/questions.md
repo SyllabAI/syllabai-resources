@@ -8,7 +8,9 @@ Please check the examination details below before entering your candidate inform
 
 ### 1(a) [1]
 
-exactly one line of symmetry,
+Write down all the letters of the above word that have
+
+exactly one line of symmetry …………… , ……………
 
 
 **Mark scheme answer**
@@ -131,12 +133,14 @@ Given that y = 3x6 − x3 dy find dx dy = . . . . . . . . . . . . . . . . . . . 
 
 ### 6 [2]
 
-Given that y = 3x6 − x3 dy find dx dy = dx
+Given that y = 3x6 − x³ dy find dx dy = ……………dx
+
+Given that y = 3x6 − x³ dy find dx dy = dx
 
 
 **Mark scheme answer**
 
-> 18 x5 + 12 x −4 2 B2 oe fully correct (B1 for one correct term)
+> 18 x⁵ + 12 x −4 2 B2 oe fully correct (B1 for one correct term)
 
 - **(2)** 18 x5 + 12 x −4 2 B2 oe fully correct (B1 for one correct term)
 
@@ -147,9 +151,12 @@ A Diagram NOT accurately drawn 107° D E B C 58° F The diagram shows △ABC. DB
 
 ### 7 [2]
 
-A Diagram NOT accurately drawn 107° D E B C 58° F The diagram shows △ABC. DBCE and ACF are straight lines such that ∠ABD = 107° and ∠ECF = 58° Calculate the size, in degrees, of ∠BAC. ∠BAC = °
+The diagram shows △ABC. DBCE and ACF are straight lines such that ∠ABD = 107° and ∠ECF = 58° Calculate the size, in degrees, of ∠BAC. ∠BAC = °
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, D, E, B, C, F · Figure values: 107°, 58°.
+
+![diagram — official paper figure (qp.pdf p.4)](assets/asset_7_diagram.png)
 
 
 **Mark scheme answer**
@@ -247,7 +254,9 @@ A triangle has sides of length 8 cm, 10 cm and 15 cm. Calculate the size, in deg
 
 ### 11 [3]
 
-A triangle has sides of length 8 cm, 10 cm and 15 cm. Calculate the size, in degrees to one decimal place, of the smallest angle of the triangle. °
+A triangle has sides of length 8 cm, 10 cm and 15 cm. Calculate the size, in degrees to one decimal place, of the smallest angle of the triangle.
+
+…………… °
 
 
 **Mark scheme answer**
@@ -256,15 +265,13 @@ A triangle has sides of length 8 cm, 10 cm and 15 cm. Calculate the size, in deg
 > 10² = 8² + 15² − 2 × 8 × 15 × cos A or angle in the triangle or 112.4° or 38.047...° (ie
 > 15² = 8² + 10² − 2 × 8 × 10 × cos A oe another angle found correctly)
 > ⎛ 102 + 152 − 82 ⎞ ⎡ 261 ⎤ M1 dep for a fully correct method to find
-> cos A = ⎜ ⎟ ⎢= ⎥ smallest angle e.g.
+> cos A = = smallest angle e.g.
 > ⎝ 2 ×10 ×15 ⎠ ⎣ 300 ⎦
 > ⎛ 102 + 82 − 152 ⎞ −1 ⎛ 8 + 15 − 10 ⎞
 > 2 2
-> 180 − cos −1 ⎜ ⎟ − cos ⎜ ⎟
-> ⎝ 2 ×10 × 8 ⎠ ⎝ 2 × 8 ×15 ⎠
-> 10sin“112.4” ⎞
-> or 180 − “112.4” − sin −1 ⎛⎜ ⎟
-> ⎝ 15 ⎠
+> 180 − cos −1 − cos 2 ×10 × 8 ⎠ ⎝ 2 × 8 ×15 ⎠
+> 10sin“112.4” 
+> or 180 − “112.4” − sin −1 15 
 > An indirect method must lead to the angle
 > opposite 8 being the smallest.
 > 29.5° A1 awrt 29.5
@@ -278,9 +285,12 @@ B Diagram NOT accurately drawn x cm A 7.5 cm C E 8 cm 6 cm D A, B, C and D are p
 
 ### 12 [3]
 
-B Diagram NOT accurately drawn x cm A 7.5 cm C E 8 cm 6 cm D A, B, C and D are points on a circle. EAB and EDC are straight lines. ED = 6 cm DC = 8 cm EA = 7.5 cm AB = x cm Calculate the value of x. x =
+x cm A 7.5 cm C E 8 cm 6 cm D A, B, C and D are points on a circle. EAB and EDC are straight lines. ED = 6 cm DC = 8 cm EA = 7.5 cm AB = x cm Calculate the value of x. x =
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: B, A, C, E, D · Figure values: 7.5, 8, 6.
+
+![diagram — official paper figure (qp.pdf p.9)](assets/asset_12_diagram.png)
 
 
 **Mark scheme answer**
@@ -316,7 +326,7 @@ For all values of x, 15 − 28x − 7x 2 = a + b(x + c)2 where a, b and c are in
 
 ### 14 [3]
 
-For all values of x, 15 − 28x − 7x 2 = a + b(x + c)2 where a, b and c are integers. Find the value of a, the value of b and the value of c. a = b = c =
+For all values of x, 15 − 28x − 7x 2 = a + b(x + c)² where a, b and c are integers. Find the value of a, the value of b and the value of c. a = b = c =
 
 
 **Mark scheme answer**
@@ -338,7 +348,7 @@ For all values of x, 15 − 28x − 7x 2 = a + b(x + c)2 where a, b and c are in
 > – 7((x + 2)² − 4) + 15 or M1 indep or for 2 of a = 43, b = −7, c = 2 correct
 > ⎛ 15 ⎞ allow these seen in an expression of the form
 > −7 ⎜ ( x + 2 ) − − 4 ⎟ oe
-> ⎝ 7 ⎠ a + b (x + c)2
+> ⎝ 7 ⎠ a + b (x + c)²
 > a = 43, b = −7, A1 or for 43 − 7(x + 2)² clearly stated and not
 > c=2 contradicted on answer line.
 
@@ -369,7 +379,7 @@ Solve the inequality 6x2 + 5x – 25 > 0 Show clear algebraic working.
 > 2 3 critical values for selecting the outer region)
 > dep on M mark being awarded.
 > ⎛ 5⎞ ⎛5 ⎞ ⎤ 5⎡ ⎤5 ⎡
-> Allow ⎜ ∞, − ⎟ ⎜ , ∞ ⎟ or ⎥ ∞, − ⎢ ⎥ , ∞ ⎢
+> Allow ⎜ ∞, − , ∞ ⎟ or ⎥ ∞, − ⎢ ⎥ , ∞ ⎢
 > ⎝ 2⎠ ⎝3 ⎠ ⎦ 2⎣ ⎦3 ⎣
 > Do not allow − 5 > x > 5 or 5 < x < − 5
 > 2 3 3
@@ -394,7 +404,7 @@ Simplify fully 6x4 y
 
 ### 16(b) [2]
 
-Simplify fully (2a5 b3)4
+Simplify fully (2a⁵b³)⁴
 
 
 **Mark scheme answer**
@@ -486,16 +496,16 @@ Solve the simultaneous equations 3x + 2y = −1 4x − 3y = −5.3 Show clear al
 > 17x = −13.6 17y = 11.9 selected variable (condone one arithmetic or sign
 > or error) or for correct rearrangement of one
 > ⎛ −1 − 2 y ⎞ equation followed by correct substitution into the
-> 4⎜ ⎟ − 3 y = −5.3 or other (condone one arithmetic error).
+> 4 − 3 y = −5.3 or other (condone one arithmetic error).
 > ⎝ 3 ⎠
 > ⎛ 3 y − 5.3 ⎞
-> 3⎜ ⎟ + 2 y = −1 or
+> 3 + 2 y = −1 or
 > ⎝ 4 ⎠
 > ⎛ −1 − 3 x ⎞
-> 4x − 3⎜ ⎟ = −5.3 or
+> 4x − 3 = −5.3 or
 > ⎝ 2 ⎠
 > ⎛ 4 x + 5.3 ⎞
-> 3x + 2 ⎜ ⎟ = −1 oe
+> 3x + 2 = −1 oe
 > ⎝ 3 ⎠
 > x = −0.8 or 4
 > A1 dep on M1 being awarded x = − or y =
@@ -521,9 +531,12 @@ A Diagram NOT accurately drawn 9 cm D 3 cm 23° B C The diagram shows the right 
 
 ### 20 [4]
 
-A Diagram NOT accurately drawn 9 cm D 3 cm 23° B C The diagram shows the right angled triangle ABC where ∠ABC is 90° and AC = 9 cm. The point D lies on AB such that BD = 3 cm and ∠BCD = 23° Calculate the size, in degrees to one decimal place, of ∠ACD. °
+The diagram shows the right angled triangle ABC where ∠ABC is 90° and AC = 9 cm. The point D lies on AB such that BD = 3 cm and ∠BCD = 23° Calculate the size, in degrees to one decimal place, of ∠ACD. °
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, D, B, C · Figure values: 9, 3, 23°.
+
+![diagram — official paper figure (qp.pdf p.16)](assets/asset_20_diagram.png)
 
 
 **Mark scheme answer**
@@ -565,7 +578,7 @@ find the value of 2a 2 c
 **Mark scheme answer**
 
 > 2 − 2 × −5 2 M1 Give benefit of the doubt if –52 used.
-> + 2 × (−5)2 oe
+> + 2 × (−5)² oe
 > 3 Do not allow use of –25 or –50 unless mark
 > eg 4 + 50 already awarded.
 > 54 A1
@@ -603,7 +616,9 @@ Solid A and solid B are similar. The table gives information about the surface a
 
 ### 22 [4]
 
-Solid A and solid B are similar. The table gives information about the surface areas and the volumes of A and B. Surface area (in cm2) Volume (in cm3) Solid A 425 312.5 Solid B x 67.5 Calculate the value of x. x =
+Solid A and solid B are similar. The table gives information about the surface areas and the volumes of A and B. Surface area (in cm²) Volume (in cm³) Solid A 425 312.5 Solid B x 67.5 Calculate the value of x. x =
+
+![table — official paper figure (qp.pdf p.19)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2021-11/4MB1-01/assets/asset_22_table.png)
 
 ![table — official paper figure (qp.pdf p.19)](assets/asset_22_table.png)
 
@@ -616,21 +631,20 @@ Solid A and solid B are similar. The table gives information about the surface a
 > ⎢ = ⎥ or = oe seen as a ratios eg 5:3
 > 67.5 ⎣ 3 ⎦
 > 312.5 ⎢⎣ 5 ⎥⎦
-> x3 67.52 x3 312.52
+> x³ 67.52 x³ 312.52
 > = or = oe gains this
 > 4253 312.52 4253 67.52
 > mark
 > ⎛ 3 312.5 ⎞ ⎡ 25 ⎤ M1 dep Consider area scale factor. Allow this
-> ⎜⎜ 3 ⎟⎟ ⎢ = ⎥ or seen as a ratio eg 25:9
-> ⎝ 67.5 ⎠ ⎣ 9⎦ x3 67.52
+>  3 = or seen as a ratio eg 25:9
+> ⎝ 67.5 ⎠ ⎣ 9⎦ x³ 67.52
 > 2 = oe gains this mark
 > ⎛ 3 67.5 ⎞ ⎡ 9 ⎤ 4253 312.52
-> ⎜⎜ 3 ⎟⎟ ⎢ = ⎥
+>  3 = 
 > ⎝ 312.5 ⎠ ⎣ 25 ⎦
 > 9 M1 dep fully correct method to find x
 > [x = ] 425 × “ ” oe
 > 153 A1 153 with no incorrect working seen gains full
-> marks
 
 - **(4)** 3
 
@@ -687,7 +701,7 @@ Express 2 as a single fraction in its simplest form. 2 x 4 x 2 6 x 4 x 16 Show c
 > This may be awarded if both terms
 > are multiplied and then the
 > subtraction takes place.
-> 6 x2 − 4 x − 16 ⇒ 2(3x + 4)( x − 2) M1 indep Factorise denominator of
+> 6 x² − 4 x − 16 ⇒ 2(3x + 4)( x − 2) M1 indep Factorise denominator of
 > divisor, must factorise to at least 2
 > brackets and must expand to give 2
 > out of 3 term correct.
@@ -712,7 +726,9 @@ Garcia makes bags from fabric. Garcia buys a length of fabric that is 40 metres 
 
 ### 25 [5]
 
-Garcia makes bags from fabric. Garcia buys a length of fabric that is 40 metres long. The cost of the fabric is $5 per metre and he uses all the fabric to make bags. Each bag that he makes uses a length of 80 cm of the fabric. Garcia sells of the bags he made for $14 each bag. He then reduces the selling price of each bag by 15% and sells the rest of the bags he made. Calculate the percentage profit that Garcia makes by selling all the bags he made %
+Garcia makes bags from fabric. Garcia buys a length of fabric that is 40 metres long. The cost of the fabric is \$5 per metre and he uses all the fabric to make bags. Each bag that he makes uses a length of 80 cm of the fabric. Garcia sells of the bags he made for \$14 each bag. He then reduces the selling price of each bag by 15% and sells the rest of the bags he made. Calculate the percentage profit that Garcia makes by selling all the bags he made
+
+…………… %
 
 
 **Mark scheme answer**
@@ -762,9 +778,7 @@ Complete the probability tree diagram. chess snooker win win 0.35 not win win no
 > 2 B2 (B1 for at least 3 probabilities correct,
 > correctly placed)
 > 0.48 Accept equivalent fractions on diagram
-> ⎛ 13 12 13 ⎞
-> ⎜ , and ⎟
-> ⎝ 20 25 25 ⎠
+> ⎛ 13 12 13 , and 20 25 25 ⎠
 > 0.52
 > 0.48
 > 0.65
@@ -799,9 +813,12 @@ S Diagram NOT accurately drawn 8 cm O The diagram shows a shaded region, S, form
 
 ### 27 [5]
 
-S Diagram NOT accurately drawn 8 cm O The diagram shows a shaded region, S, formed by removing a regular hexagon from a circle. The centre of the circle is the point O. The hexagon has centre O and sides of length 8 cm. Given that area of the hexagon = area of S calculate the radius, in cm to one decimal place, of the circle cm
+The diagram shows a shaded region, S, formed by removing a regular hexagon from a circle. The centre of the circle is the point O. The hexagon has centre O and sides of length 8 cm. Given that area of the hexagon = area of S calculate the radius, in cm to one decimal place, of the circle cm
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: S, O · Figure values: 8.
+
+![diagram — official paper figure (qp.pdf p.23)](assets/asset_27_diagram.png)
 
 
 **Mark scheme answer**
@@ -877,7 +894,7 @@ A bag contains n beads. There are 4 orange beads in the bag. The rest of the bea
 > the 1st 3 method and the 1st accuracy mark.
 > SC 2
 > ⎛ 4 ⎞ ⎛ n − 4 ⎞ 51 B1 Equation seen (or equivalent) for selection with
-> ⎜ ⎟ +⎜ ⎟ = replacement scores B1 and may also gain the 4th method
+>  + = replacement scores B1 and may also gain the 4th method
 > ⎝ n ⎠ ⎝ n ⎠ 91 mark
 
 - **(6)** 4 3 n−4 n−5 6 M1 one correct product for 2 beads the same colour or
@@ -889,7 +906,7 @@ A curve has equation y = x3 − 4x2 + 5x + 3 P and Q are two points on the curve
 
 ### 29 [5]
 
-A curve has equation y = x3 − 4x2 + 5x + 3 P and Q are two points on the curve. P is the point with coordinates (2, 5) The gradient of the tangent to the curve at P is equal to the gradient of the tangent to the curve at Q. Find the exact coordinates of Q. ( , )
+A curve has equation y = x³ − 4x2 + 5x + 3 P and Q are two points on the curve. P is the point with coordinates (2, 5) The gradient of the tangent to the curve at P is equal to the gradient of the tangent to the curve at Q. Find the exact coordinates of Q. ( …………… , …………… )
 
 
 **Mark scheme answer**
@@ -906,10 +923,9 @@ A curve has equation y = x3 − 4x2 + 5x + 3 P and Q are two points on the curve
 > form allow 1 sign error or correct solution of
 > correct equation.
 > ⎛ 2 131 ⎞ A1 oe accept other alternative exact forms eg
-> ⎜ , ⎟ ⎛ 2 23 ⎞
+> ⎜ , 2 23 ⎞
 > ⎝ 3 27 ⎠ ( )
-> 0.6, 4.851 , ⎜ , 4 ⎟
-> ⎝ 3 27 ⎠
+> 0.6, 4.851 , ⎜ , 4 3 27 ⎠
 
 - **(5)** ⎡ dy ⎤ 2 5 M1 1 non-zero term correct
 

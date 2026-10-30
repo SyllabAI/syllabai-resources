@@ -66,8 +66,6 @@ calculate the percentage profit, to one decimal place, that Tisam makes from the
 > "523.80"+ 700 “72164” + 600 × 90
 > 5.9 (%) A1 AWRT 5.9 (cas)
 > SC B2 for a profit of 147.4(%)
-> Total 8 marks
-> Qu Working Answer Mark Notes
 
 - **(4)** eg 90 × 0.0097 eg “960” ÷ 0.0097[=98969(.0..)] 4 M1 Conversion of any value in Rupees to £ or any value
 
@@ -111,8 +109,6 @@ list all the possible sets C
 > distinguishable.
 > Treat a number in the set as an element of the set.
 > Ignore any repeats of elements or sets.
-> Total 4 marks
-> Qu Working Answer Mark Notes
 
 - **(3)** {p, q, t} 3 B3 (cas)for all 4 correct sets listed with no incorrect
 
@@ -153,9 +149,11 @@ Solve ≥3
 
 ### 3(c) [4]
 
-On the grid opposite, by drawing suitable straight lines and using shading, show the region R that satisfies the inequalities 4x – 3 ≤ 11 y+8 ≥3 y ≤ 2x + 1 Label the region R y –5 –4 –3 –2 –1 O 1 2 3 4 5 x –1 –2 –3 –4 –5 for a spare grid if you need to redraw your inequalities. Only use this grid if you need to redraw your inequalities. y –5 –4 –3 –2 –1 O 1 2 3 4 5 x –1 –2 –3 –4 –5
+On the grid opposite, by drawing suitable straight lines and using shading, show the region R that satisfies the inequalities 4x – 3 ≤ 11 y+8 ≥3 y ≤ 2x + 1 Label the region R
 
-> 🖼 crop required: grid (qp.pdf p.8)
+![figure — official paper figure (qp.pdf p.8)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2023-06/4MB1-02R/assets/asset_3_3-c.png)
+
+![figure — official paper figure (qp.pdf p.8)](assets/asset_3_3-c.png)
 
 
 **Mark scheme answer**
@@ -215,7 +213,6 @@ Calculate y Give your answer in standard form.
 > –
 > –
 > 4 Total 8 marks
-> Qu Working Answer Mark Notes
 > Allow for 0.7
 > or for a correct answer in any form
 > 7 ×10104 A1 cao (cas)
@@ -241,8 +238,6 @@ Using the values of x and y above, write the following in order of size x y x y 
 > x as 4.2 ×105 or 648(.074)
 > Accept y as 0 and y as 0 but do not accept 0 for y
 > in their ordered list
-> Total 7 marks
-> Qu Working Answer Mark Notes
 
 - **(2)** 2 B2 Fully correct (cas)
 
@@ -254,6 +249,12 @@ B Diagram NOT accurately drawn 8m 3.5 m 2.5 m A D C Figure 1 Figure 1 shows a fr
 ### 5(a)(i) [3]
 
 Calculate, giving your answer to the nearest metre, the length of AC
+
+
+**Mark scheme answer**
+
+> *The official mark scheme line for this part was not captured by the digitised extraction — treat the worked values above the line with care and check against the paper's own mark scheme.*
+
 
 ### 5(a)(ii) [2]
 
@@ -304,13 +305,11 @@ Calculate the length, in metres to 3 significant figures, of DE
 > ⎣ 2 ⎦
 > 2.5 8 ⎡ 2.5 × "7.60" ⎤ or Similar Triangles
 > or = oe ⎢( DE = ) ⎥⎦
-> DE "7.60" ⎣ 8 ft their ∠BAD and AD (either from a correct method or be
+> DE "7.60" 8 ft their ∠BAD and AD (either from a correct method or be
 > clearly labelled)
 > Note: if find AE or EB first then proceed to find DE for M1
 > 2.37 5 231
 > A1 (cas) awrt 2.37 or 2.38 or for an exact value of
-> Total 7 marks
-> Qu Working Answer Mark Notes
 
 - **(2)** DE 2 M1 Forming an equation in DE.
 
@@ -361,11 +360,11 @@ On the grid, draw and label triangle D Triangle B is transformed to triangle E b
 **Mark scheme answer**
 
 > ⎛ 0 1 ⎞⎛ −2 −2 −6 ⎞ 3 M1 For intention to multiply the correct way, can be implied by writing in the correct order or
-> ⎜ ⎟⎜ ⎟ oe one correct point stated or (1 point correctly plotted)
+>  oe one correct point stated or (1 point correctly plotted)
 > ⎝ 1 0 ⎠⎝ 2 5 2⎠
 > Points can be in any order
 > ⎛ 2 5 2⎞ M1 Correct result for their matrix multiplication (or 2 points correctly plotted)
-> ⎜ ⎟ oe Points can be in any order
+>  oe Points can be in any order
 > ⎝ −2 −2 −6 ⎠
 > Correct A1 (cas) cao
 > triangle D Correct coordinates (2 , –2), (5 , –2) and (2 , –6)
@@ -393,7 +392,9 @@ On the grid, draw and label triangle E
 
 ### 6(e) [2]
 
-Find the matrix which represents the transformation that maps triangle A onto triangle E y A –8 –7 –6 –5 –4 –3 –2 –1 O 1 2 3 4 5 6 7 x –1 B –2 –3 –4 –5 –6 –7 for a spare grid if you need to redraw your triangles. Only use this grid if you need to redraw your triangles. y A –8 –7 –6 –5 –4 –3 –2 –1 O 1 2 3 4 5 6 7 x –1 B –2 –3 –4 –5 –6 –7
+Find the matrix which represents the transformation that maps triangle A onto triangle E
+
+![grid — official paper figure (qp.pdf p.17) (same figure as asset_6_b_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2023-06/4MB1-02R/assets/asset_6_b_grid.png)
 
 ![grid — official paper figure (qp.pdf p.17) — shared with asset_6_b_grid](assets/asset_6_b_grid.png)
 
@@ -401,11 +402,8 @@ Find the matrix which represents the transformation that maps triangle A onto tr
 **Mark scheme answer**
 
 > ⎛ −1 0 ⎞ 2 B2 (cas) Correct matrix given
-> ⎜ ⎟ B1 for stating transformation as reflection in y axis/x = 0
+>  B1 for stating transformation as reflection in y axis/x = 0
 > ⎝ 0 1⎠ or matrix with 3 correct elements (in the correct positions)
-> Qu Working Answer Mark Notes
-> Total 11 marks
-> Qu Working Answer Mark Notes
 
 - **(2)** ⎛ −1 0 ⎞ 2 B2 (cas) Correct matrix given
 
@@ -422,38 +420,36 @@ Find as a column vector BC The point E has coordinates (6, 4) Given that AE : AC
 **Mark scheme answer**
 
 > ⎛ 6.5 ⎞ 1 B1 cao
-> ⎜ ⎟ isw if find the magnitude
+>  isw if find the magnitude
 > ⎝ 0.5 ⎠
 
 - **(1)** ⎛ 6.5 ⎞ 1 B1 cao
 
 ### 7(b) [3]
 
-find the coordinates of the point A Given that ABCD is a kite,
+find the coordinates of the point A Given that ABCD is a kite …………… , ……………
 
 
 **Mark scheme answer**
 
 > 15 ⎡ 9 ⎤ 3 M1 correct use of ratio on AC to find either AE or EC
-> ( AE = ) 53 × ⎛⎜⎝ 5 ⎞⎟⎠ ⎢= ⎛⎜⎝ 3 ⎞⎟⎠⎥ oe
+> ( AE = ) 53 × 5 = 3 oe
 > ⎣ ⎦
 > 2 ⎛15 ⎞ ⎡ ⎛ 6 ⎞ ⎤
 > ( )
-> EC = × ⎜ ⎟ ⎢ = ⎜ ⎟ ⎥ oe
+> EC = × = oe
 > 5 ⎝ 5 ⎠ ⎣ ⎝ 2 ⎠⎦
 > 6 9 M1 correct method to find position vector of A
-> (OA = OE + EA = ) ⎛⎜⎝ 4 ⎞⎟⎠ − "⎛⎜⎝ 3 ⎞⎟⎠ " oe
+> (OA = OE + EA = ) 4 − " 3 " oe
 > or follow through their AE or EC
 > 6 6 15 If following through their AE or EC then this must be from a
-> (OA = OE + EC + CA = ) ⎛⎜⎝ 4 ⎠⎞⎟ + "⎝⎛⎜ 2 ⎠⎞⎟ "− ⎝⎜⎛ 5 ⎠⎞⎟ oe correct method or be clearly labelled as AE or EC
+> (OA = OE + EC + CA = ) 4 + " 2 "− 5 oe correct method or be clearly labelled as AE or EC
 > (–3, 1) ⎛ −3 ⎞
-> A1 cao (cas) Allow ⎜ ⎟
-> ⎝1⎠
+> A1 cao (cas) Allow 1
 > SCB2 for one correct value
 > ⎛ 0.375 ⎞
-> SCB1 ⎜ ⎟ oe
+> SCB1 oe
 > ⎝ 2.125 ⎠
-> Qu Working Answer Mark Notes
 > ⎢⎣ AC = 5 ⎥⎦ [ − x + 6 :15] [ 4 − y : 5]
 > 6− x 3 4− y 3
 > = or = − x + 6 = 9 or 4− y =3
@@ -474,81 +470,71 @@ find the coordinates of the point D
 
 > ⎛ −3 ⎞ ⎛ 8.5 ⎞ ⎡ ⎛ 5.5 ⎞ ⎤ ⎛ −8.5 ⎞ ⎛ 3 ⎞ ⎛ 6 ⎞ ⎡ ⎛ 0.5 ⎞ ⎤ 3 M1 for a correct start to find OB or BE
 > ( )
-> OB = “⎜ ⎟ ” + ⎜
-> ⎝1⎠
-> ⎟ ⎢= ⎜ ⎟⎥
-> ⎝ 4.5 ⎠ ⎣ ⎝ 5.5 ⎠ ⎦
+> OB = “ ” + 1 = 4.5 ⎠ ⎣ ⎝ 5.5 ⎠ ⎦
 > ( )
-> BE = ⎜ ⎟ + " ⎜ ⎟ "+ ⎜ ⎟ ⎢ = ⎜ ⎟⎥
-> ⎝ −4.5 ⎠ ⎝ −1⎠ ⎝ 4 ⎠ ⎣ ⎝ −1.5 ⎠ ⎦ (may be embedded within working or on
+> BE = + " "+ = −4.5 ⎠ ⎝ −1⎠ ⎝ 4 ⎠ ⎣ ⎝ −1.5 ⎠ ⎦ (may be embedded within working or on
 > diagram) follow through their OA
-> ⎣ (
+>  (
 > ⎡OD = OE + BO + OE = ⎤
 > ⎦ ) ⎡OD = OE + BE = ⎤
 > ⎣ ⎦
 > M1 dep on the previous mark
 > fully correct method to find position vector
 > ⎛ 6 ⎞ ⎛ ⎛ −5.5 ⎞ ⎛ 6 ⎞ ⎞ ⎡ ⎛ 6.5 ⎞ ⎤ ⎛ 6 ⎞ ⎛ 0.5 ⎞ ⎡ ⎛ 6.5 ⎞ ⎤ of D
-> ⎜ ⎟ + ⎜ “⎜ ⎟” + ⎜ ⎟ ⎟ ⎢ = ⎜ ⎟ ⎥ ⎜ ⎟ + "⎜ ⎟ " ⎢= ⎜ ⎟⎥ follow through their OA
+>  + “ ” + = + " " = follow through their OA
 > ⎝ 4 ⎠ ⎝ ⎝ −5.5 ⎠ ⎝ 4 ⎠ ⎠ ⎣ ⎝ 2.5 ⎠ ⎦ ⎝ 4 ⎠ ⎝ −1.5 ⎠ ⎣ ⎝ 2.5 ⎠ ⎦
 > follow through their OB or BE
 > or or
-> ⎣ (
+>  (
 > ⎡OD = OB + 2 × BO + OE = ⎤
-> ⎦ ) ( )
+>  ) ( )
 > ⎡OD = OE + EB + 2 × BE = ⎤
 > ⎣ ⎦
 > ⎛ ⎛ 6 ⎞ ⎛ −0.5 ⎞ ⎞ ⎛ 0.5 ⎞ ⎡ ⎛ 6.5 ⎞ ⎤ If following through their OB or BE then
-> ⎛ 5.5 ⎞ ⎛ ⎛ −5.5 ⎞ ⎛ 6 ⎞ ⎞ ⎡ ⎛ 6.5 ⎞ ⎤ ⎜ ⎜ ⎟ + "⎜ "⎟ + 2 × "⎜ ⎟ " ⎢= ⎜ ⎟⎥
-> "⎜ ⎟ "+ 2 × ⎜ " ⎜ ⎟ "+ ⎜ ⎟ ⎟ ⎢ = ⎜ ⎟ ⎥ ⎟ this must be from a correct method
+> ⎛ 5.5 ⎞ ⎛ ⎛ −5.5 ⎞ ⎛ 6 ⎞ ⎞ ⎡ ⎛ 6.5 + "⎜ "⎟ + 2 × " " ⎢= 
+> " "+ 2 × " "+ = this must be from a correct method
 > ⎝ ⎝ 4 ⎠ ⎝ 1.5 ⎠ ⎠ ⎝ −1.5 ⎠ ⎣ ⎝ 2.5 ⎠ ⎦
 > ⎝ 5.5 ⎠ ⎝ ⎝ −5.5 ⎠ ⎝ 4 ⎠ ⎠ ⎣ ⎝ 2.5 ⎠ ⎦
 > or may go via A or may go via A
 > eg ⎡OD = OA + ( AO + OE ) + ( BO + OE ) = ⎤ eg ⎡OD = OA + ( AO + OE ) + BE = ⎤
 > ⎣ ⎦ ⎣ ⎦
 > ⎛ −3 ⎞ ⎛ ⎛ 3 ⎞ ⎛ 6 ⎞ ⎞ ⎛ ⎛ −5.5 ⎞ ⎛ 6 ⎞ ⎞ ⎡ ⎛ 6.5 ⎞ ⎤ ⎛ −3 ⎞ ⎛ ⎛ 3 ⎞ ⎛ 6 ⎞ ⎞ ⎛ 0.5 ⎞ ⎡ ⎛ 6.5 ⎞ ⎤
-> " ⎜ ⎟ "+ ⎜ " ⎜ ⎟ "+ ⎜ ⎟ ⎟ + ⎜ " ⎜ ⎟ "+ ⎜ ⎟ ⎟ ⎢ = ⎜ ⎟ ⎥ " ⎜ ⎟ "+ ⎜ " ⎜ ⎟ "+ ⎜ ⎟ ⎟ + " ⎜ ⎟ " ⎢= ⎜ ⎟⎥
-> ⎝ 1 ⎠ ⎝ ⎝ −1⎠ ⎝ 4 ⎠ ⎠ ⎝ ⎝ −5.5 ⎠ ⎝ 4 ⎠ ⎠ ⎣ ⎝ 2.5 ⎠ ⎦ 1 −1
+> " "+ ⎜ " "+ + ⎜ " "+ = " "+ ⎜ " "+ + " " ⎢= 1 ⎠ ⎝ ⎝ −1⎠ ⎝ 4 ⎠ ⎠ ⎝ ⎝ −5.5 ⎠ ⎝ 4 ⎠ ⎠ ⎣ ⎝ 2.5 ⎠ ⎦ 1 −1
 > ⎝ ⎠ ⎝ ⎝ ⎠ ⎝ ⎠⎠ 4 ⎝ −1.5 ⎠ ⎣ ⎝ 2.5 ⎠ ⎦
-> ⎣ (
+>  (
 > or ⎡OD = OA + AB + 2 × BO + OE = ⎤
 > ⎦ ) or ⎡OD = OA + AB + 2 × BE = ⎤
 > ⎣ ⎦
 > ⎛ −3 ⎞ ⎛ 8.5 ⎞ ⎛ ⎛ −5.5 ⎞ ⎛ 6 ⎞ ⎞ ⎡ ⎛ 6.5 ⎞ ⎤ ⎛ −3 ⎞ ⎛ 8.5 ⎞ ⎛ 0.5 ⎞ ⎡ ⎛ 6.5 ⎞ ⎤
-> " ⎜ ⎟ "+ ⎜ ⎟ + 2 × ⎜ " ⎜ ⎟ "+ ⎜ ⎟ ⎟ ⎢ = ⎜ ⎟ ⎥ " ⎜ ⎟ "+ ⎜ ⎟ + 2 × "⎜ ⎟ " ⎢= ⎜ ⎟⎥
-> ⎝ 1 ⎠ ⎝ 4.5 ⎠ ⎝ ⎝ −5.5 ⎠ ⎝ 4 ⎠ ⎠ ⎣ ⎝ 2.5 ⎠ ⎦ ⎝ 1 ⎠ ⎝ 4.5 ⎠ ⎝ −1.5 ⎠ ⎣ ⎝ 2.5 ⎠ ⎦
+> " "+ + 2 × ⎜ " "+ = " "+ + 2 × " " ⎢= 1 ⎠ ⎝ 4.5 ⎠ ⎝ ⎝ −5.5 ⎠ ⎝ 4 ⎠ ⎠ ⎣ ⎝ 2.5 ⎠ ⎦ ⎝ 1 ⎠ ⎝ 4.5 ⎠ ⎝ −1.5 ⎠ ⎣ ⎝ 2.5 ⎠ ⎦
 > or use midpoint formula
 > x + 5.5 y + 5.5
 > or D = 6 and D =4
 > 2
 > ( 6.5, 2.5) ⎛ 6.5 ⎞
-> A1 cao (cas) AO for ⎜ ⎟
-> ⎝ 2.5 ⎠
+> A1 cao (cas) AO for 2.5 
 > SCB2 for one correct value
-> Total 7 marks
 > These are some alternative methods that can be used for Question 7b and 7c
-> Qu Working Answer Mark Notes
 > ALT 1 Ratio
 > 2
 > ( x − 6) + ( y − 4) = 2.5 oe y = −3x + 22 distance of AD or DE
 > Distance AD
-> ( x + 3)2 + ( y − 1)2 = 92.5 oe
+> ( x + 3)² + ( y − 1)² = 92.5 oe
 > 2
 > eg ( x − 6) + (−3x + 22 − 4) = 2.5 M1dep for a correct equation for the x or y
 > coordinate of D
-> ( x + 3)2 + (−3x + 22 − 1)2 = 92.5
+> ( x + 3)² + (−3x + 22 − 1)² = 92.5
 > (6.5, 2.5) A1 cao
 > ALT 2 Pythagoras and Trig
-> tan −1 BAG = [⇒ BAG = 27.8(9...)] (where AGB is a right angle)
+> tan^-1 BAG = [⇒ BAG = 27.8(9...)] (where AGB is a right angle)
 > 8.5
 > ⎡ 370 ⎤ M1dep for distance AB and for angle DAH
 > [ AB =] 8.52 + 4.52 ⎢= ⎥ and (where angle AHD is a right angle)
 > ⎣ 2 ⎦
 > ⎛ 4.5 ⎞ ⎛ −1 ⎛ 4.5 ⎞ −1 ⎛ 3 ⎞ ⎞
-> tan −1 ⎜ ⎟ − 2 × ⎜ tan ⎜ ⎟ − tan ⎜ ⎟ ⎟ [⇒ DAH = 8.97(2...)]
+> tan^-1 − 2 × tan − tan [⇒ DAH = 8.97(2...)]
 > ⎝ 8.5 ⎠ ⎝ ⎝ 8.5 ⎠ ⎝ 9 ⎠⎠
 > (6.5, 2.5) A1 cao
-> Qu Working Answer Mark Notes
 
 - **(3)** ⎛ −3 ⎞ ⎛ 8.5 ⎞ ⎡ ⎛ 5.5 ⎞ ⎤ ⎛ −8.5 ⎞ ⎛ 3 ⎞ ⎛ 6 ⎞ ⎡ ⎛ 0.5 ⎞ ⎤ 3 M1 for a correct start to find OB or BE
 
@@ -589,7 +575,6 @@ Solve 16 f(x) = x + 8
 > around the b in b2)
 > If using completing the square, allow one error
 > 4 A1 cao (cas) (ignore any given y value)
-> Qu Working Answer Mark Notes
 
 - **(4)** ⎛ 1⎞ 4 M1 Set 16 f(x) = x + 8 to give a correct equation in one unknown.
 
@@ -662,8 +647,6 @@ Evaluate fff(2)
 **Mark scheme answer**
 
 > 2 1 B1 cao
-> Total 13 marks
-> Qu Working Answer Mark Notes
 
 - **(1)** 2 1 B1 cao
 
@@ -673,6 +656,8 @@ Evaluate fff(2)
 The curve C has equation for 0 < x ≤ 5 y = x2 + – 25 x
 
 ### 9(a) [5]
+
+The curve C has equation for 0 < x ≤ 5 y = x² + – 25 x
 
 Find, to one decimal place, the coordinates of the stationary point of C
 
@@ -729,7 +714,9 @@ On the grid opposite, plot the stationary point and plot the points from your co
 
 ### 9(d) [4]
 
-By drawing a suitable straight line on the grid, find estimates, to one decimal place, of the solutions to the equation x3 + 8x2 – 49x + 24 = 0 within the range 0 < x ≤ 5 y O 1 2 3 4 5 x –5 –10 for a spare grid if you need to redraw your curve. Only use this grid if you need to redraw your curve. y O 1 2 3 4 5 x –5 –10
+By drawing a suitable straight line on the grid, find estimates, to one decimal place, of the solutions to the equation x³ + 8x2 – 49x + 24 = 0 within the range 0 < x ≤ 5
+
+![grid — official paper figure (qp.pdf p.27) (same figure as asset_9_c_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2023-06/4MB1-02R/assets/asset_9_c_grid.png)
 
 ![grid — official paper figure (qp.pdf p.27) — shared with asset_9_c_grid](assets/asset_9_c_grid.png)
 
@@ -737,13 +724,13 @@ By drawing a suitable straight line on the grid, find estimates, to one decimal 
 **Mark scheme answer**
 
 > 24 4 M1 divide through by x
-> x2 + 8x – 49 + = 0 or
+> x² + 8x – 49 + = 0 or
 > x or for writing curve equation equal to mx+c (where m and c can be any letters) and
 > 24 multiplying throughout by x
-> x2 + − 25 = mx + c and x3 + 24 − 25 x = mx 2 + cx
+> x² + − 25 = mx + c and x³ + 24 − 25 x = mx 2 + cx
 > x
 > 24 M1 dep
-> [x2 + – 25=] 24 – 8x
+> [x² + – 25=] 24 – 8x
 > x
 > Line drawn through (0, 24) with a negative M1 for a line drawn through (0, 24) with a negative gradient
 > gradient or correct line drawn (y = 24 – 8x) and intersects the curve twice, this implies M3
@@ -752,14 +739,12 @@ By drawing a suitable straight line on the grid, find estimates, to one decimal 
 > Must follow from a correct line drawn (and intersects curve twice) (half square tolerance
 > allowed for the line)
 > Note: A0 if give answers as coordinates or give y values as well as x values
-> Total 15 marks
 > y
 > 40
 > 30
 > O x
 > 1 2 3 4
 > –10
-> Qu Working Answer Mark Notes
 
 - **(4)** 24 4 M1 divide through by x
 
@@ -790,7 +775,6 @@ Show that the probability that Hugo loses the first game is The second time Hugo
 > Dependent on previous method mark
 > 8 A1 cao (cas) equivalent fractions eg. 240 or awrt 0.727
 > 11 330
-> Qu Working Answer Mark Notes
 > ( ) ( )
 
 - **(1)** 1 1 1 1 2 1 B1 Correct answer with correct method to find P(lose). Do not allow 1 + 1 + 2 = 1
@@ -799,7 +783,9 @@ Show that the probability that Hugo loses the first game is The second time Hugo
 
 Use the information to complete the tree diagram opposite. Hugo plays the game twice.
 
-> 🖼 crop required: diagram (qp.pdf p.30)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_10_diagram.png)
 
 
 **Mark scheme answer**
@@ -824,8 +810,7 @@ Find the probability that he draws both of his games. Hugo scores points each ti
 > "× " " 2 M1 ft their tree diagram. Fully correct method to find required probability (do not
 > 12 10 isw)
 > Note: 2 × ⎛ " 1 "× " 1 " ⎞ gains M0
-> ⎜ ⎟
-> ⎝ 12 10 ⎠
+>  12 10 
 > 1 A1 (cas) Correct probability
 > 120
 
@@ -835,7 +820,9 @@ Find the probability that he draws both of his games. Hugo scores points each ti
 
 Find the probability that Hugo lost the first game. First game Second game win win draw lose win draw draw lose win lose draw lose for a spare copy of the tree diagram. Only use this diagram if you need to redraw your tree diagram. First game Second game win win draw lose win draw draw lose win lose draw lose
 
-> 🖼 crop required: diagram (qp.pdf p.30)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_10_diagram.png)
 
 
 **Mark scheme answer**
@@ -845,27 +832,26 @@ Find the probability that Hugo lost the first game. First game Second game win w
 > 12 10 ⎣ 40 ⎦ 3 10 ⎣ 15 ⎦
 > another calculation where probabilities are added)
 > 1 3 2 1 ⎡ 11 ⎤ M1 ft their tree diagram. Implies previous method mark.
-> eg " "× " "+ " "× " " ⎢ =
+> eg " "× " "+ " "× " " =
 > 12 10 3 10 ⎣ 120 ⎥⎦ Calculate the probability of draw and lose in either order
 > ⎛ 1⎞ M1 Divide any probability by their probability for draw and lose in either order or
-> “ ⎜ ⎟” their probability of lose then draw divided by any probability
+> “ ” their probability of lose then draw divided by any probability
 > p ⎝ 15 ⎠
 > or 11 1
 > ⎛ 11 ⎞ p " " or " " must come from a correct method or their " " must be from the sum
-> "⎜ ⎟" 120 15 120
+> " " 120 15 120
 > ⎝ 120 ⎠
 > of two products that are clearly labelled as being draw and lose or their " " must
 > come from the product of two probabilities that is clearly labelled as lose then draw
 > Note: The value of p can be any probability.
 > ⎛ 1 ⎞ M1 dep on previous method mark. For dividing their probability of lose then draw by
-> “⎜ ⎟”
+> “ ”
 > ⎝ 15 ⎠ their probability of draw and lose in either order. " 11 " or " 1 " must come from a
 > ⎛ 11 ⎞ 120
-> “⎜ ⎟”
+> “ ”
 > ⎝ 120 ⎠ correct method or be correctly labelled
 > 8 A1 cao (cas) equivalent fractions eg. 240 or awrt 0.727
 > 11 330
-> Total 10 marks
 > Win
 > Win Draw
 > ……...
@@ -879,7 +865,6 @@ Find the probability that Hugo lost the first game. First game Second game win w
 > Lose Draw
 > Lose
 > An alternative method for Q10d
-> Qu Working Answer Mark Notes
 > ALT 1 Ratio
 > 1 3 ⎡ 1⎤ 2 1 ⎡ 1⎤ M1 ft their tree diagram
 > × ⎢ = ⎥ or × ⎢ = ⎥ Calculate probability of draw then lose or lose then draw
@@ -899,13 +884,15 @@ C Diagram NOT accurately drawn x cm 3 5 cm 15° A B 4 3 cm Figure 3 Figure 3 sho
 
 ### 11(a) [3]
 
-show that x is a solution of the equation x2 – 6 2 2 6 x + 3 = 0
+C Diagram NOT accurately drawn x cm³ 5 cm 15° A B 4 3 cm Figure 3 Figure 3 shows triangle ABC AB = 4 3 cm BC = 3 5 cm AC = x cm ∠BAC = 15° 6+ 2 Given that the exact value of cos 15° =
+
+show that x is a solution of the equation x² – 6 2 2 6 x + 3 = 0
 
 
 **Mark scheme answer**
 
-> 3 5 2 = x 2 + 4 3 2 – 2 x × 4 3 × cos15 oe or 3 M1 correct substitution into cosine rule accept values correct to 3 sf.
-> ( 6.712 = x 2 + 6.932 − 2 × 6.93 × 0.966 )
+> 3 5 2 = $x^2$ + 4 3 2 – 2 x × 4 3 × cos15 oe or 3 M1 correct substitution into cosine rule accept values correct to 3 sf.
+> ( $6.71^2$ = $x^2$ + $6.93^2$ − 2 × 6.93 × 0.966 )
 > x + (4 3) 2 − (3 5) 2 oe
 > cos15 = (only condone missing brackets if recovered including on the 3 5 and 4 3 )
 > 2 × 4 3x
@@ -915,31 +902,31 @@ show that x is a solution of the equation x2 – 6 2 2 6 x + 3 = 0
 > 4 3 3 5
 > 149.495… or b = sin149(.4...) × 3 5 = 13.1(56..)
 > ( )
-> substituting this x value into the equation to show that x 2 – 6 2 + 2 6 x + 3 = 0
+> substituting this x value into the equation to show that $x^2$ – 6 2 + 2 6 x + 3 = 0
 > sin15 will only gain a maximum score of M1
-> with (13.156)2 – ( 6 2 + 2 6 ) ×13.156 + 3 = 0
+> with (13.156)² – ( 6 2 + 2 6 ) ×13.156 + 3 = 0
 > 6+ 2 M1 correct expansion of surds which may be seen in earlier working
-> 45 = x 2 + 48 − 8 3 x × oe
+> 45 = $x^2$ + 48 − 8 3 x × oe
 > 4 Must see cos15 replaced with 6 + 2 and either 45 or 48 and in a correct equation.
-> 6 + 2 x 2 + 48 − 45 oe
+> 6 + 2 $x^2$ + 48 − 45 oe
 > or =
 > 4 8 3x This implies the previous method mark
-> Allow 6 + 2 x 2 + 3 provided the 45 or 48 are seen in earlier working
+> Allow 6 + 2 $x^2$ + 3 provided the 45 or 48 are seen in earlier working
 > =
 > 4 8 3x
 > (
-> x2 – 6 2 + 2 6 x + 3 = 0 ) A1 (wr) No incorrect working seen, must gain both method marks.
+> x² – 6 2 + 2 6 x + 3 = 0 ) A1 (wr) No incorrect working seen, must gain both method marks.
 
-- **(3)** 3 5 2 = x 2 + 4 3 2 – 2 x × 4 3 × cos15 oe or 3 M1 correct substitution into cosine rule accept values correct to 3 sf.
+- **(3)** 3 5 2 = $x^2$ + 4 3 2 – 2 x × 4 3 × cos15 oe or 3 M1 correct substitution into cosine rule accept values correct to 3 sf.
 
 ### 11(b) [2]
 
-Write the equation given in part (a) in the form (x – k)2 = 21 + 12 3 where k is a constant that should be stated as a simplified surd.
+Write the equation given in part (a) in the form (x – k)² = 21 + 12 3 where k is a constant that should be stated as a simplified surd.
 
 
 **Mark scheme answer**
 
-> [( x − k )2 =] x 2 − 2kx... 2 M1 for expansion of ( x – k ) 2 to find the first two terms or comparing of coefficients of x
+> [( x − k )² =] x 2 − 2kx... 2 M1 for expansion of ( x – k ) 2 to find the first two terms or comparing of coefficients of x
 > or
 > ( )
 > −2k = – 6 2 + 2 6 or −2k = – 6 2 − 2 6 or
@@ -947,12 +934,10 @@ Write the equation given in part (a) in the form (x – k)2 = 21 + 12 3 where k 
 > or correct start of completing the square on x 2 – 6 2 + 2 6 x + 3 = 0 to find k
 > 2k = 6 2 + 2 6 oe
 > or ⎡ x 2 − (6 2 + 2 6 ) x + 3 = ⎤ ⎛ x − 6 2 + 2 6 ⎞ .... or equivalent surd
-> ⎣ ⎦ ⎜⎜
-> ⎟⎟
-> ⎝ ⎠
-> eg ⎡ x 2 − (6 2 + 2 6 ) x + 3 = ⎤ ( x − (3 2 + 6) )2 ....
+>  
+> eg ⎡ x 2 − (6 2 + 2 6 ) x + 3 = ⎤ ( x − (3 2 + 6) )² ....
 > ⎣ ⎦
-> or ⎡ x 2 − (6 2 + 2 6 ) x + 3 = ⎤ ( x − 3 2 − 6 )2 ....
+> or ⎡ x 2 − (6 2 + 2 6 ) x + 3 = ⎤ ( x − 3 2 − 6 )² ....
 > ⎣ ⎦
 > ( )
 > 3 2+ 6 A1 (cas) implies M1 condone x − (3 2 + 6) ... and isw but A0 for 6 2 +2 6
@@ -974,7 +959,7 @@ Show that 3 2 3 = 21 + 12 3 Given that ∠ABC is obtuse
 
 ### 11(d) [3]
 
-use parts (b) and (c) to find the exact value of x Give your answer in the form a + b 2 + c 3 + d where a, b, c and d are integers. Cosine rule: a 2 b 2 c 2 2bc cos A
+use parts (b) and (c) to find the exact value of x Give your answer in the form a + b 2 + c 3 + d where a, b, c and d are integers. Cosine rule: $a^2$ = $b^2$ + $c^2$ − 2bc cos A
 
 
 **Mark scheme answer**

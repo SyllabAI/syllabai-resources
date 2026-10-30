@@ -8,7 +8,7 @@ Ali, Beth and Chari pay rent on a piece of woodland. The annual rent that they p
 
 ### 1 [2]
 
-Ali, Beth and Chari pay rent on a piece of woodland. The annual rent that they pay is such that the amount Ali pays : the amount Beth pays : the amount Chari pays = 13 : 8 : 11 The amount that Chari pays = $2563 Calculate how much more rent Ali pays than Beth pays. $
+Ali, Beth and Chari pay rent on a piece of woodland. The annual rent that they pay is such that the amount Ali pays : the amount Beth pays : the amount Chari pays = 13 : 8 : 11 The amount that Chari pays = \$2563 Calculate how much more rent Ali pays than Beth pays. \$
 
 
 **Mark scheme answer**
@@ -102,7 +102,7 @@ Liam started a new job on a salary of $45 500 At the end of 1 year he is given a
 
 ### 5 [3]
 
-Liam started a new job on a salary of $45 500 At the end of 1 year he is given a pay increase of 5.5% At the end of each subsequent year he is given a pay increase of 1.25% Calculate, to the nearest $, Liam’s salary at the end of 3 years after he started the job. $
+Liam started a new job on a salary of \$45 500 At the end of 1 year he is given a pay increase of 5.5% At the end of each subsequent year he is given a pay increase of 1.25% Calculate, to the nearest \$, Liam’s salary at the end of 3 years after he started the job. \$
 
 
 **Mark scheme answer**
@@ -134,22 +134,19 @@ Find the gradient of L
 > 2
 > Condone for full marks those that have the correct gradient but
 > ⎛ 3x − 5 3⎞
-> incorrect constant term ⎜ e.g. y = ⇒m= ⎟
-> ⎝ 2 2⎠
+> incorrect constant term ⎜ e.g. y = ⇒m= 2 2⎠
 
 - **(2)** 3x + 5 M1 Attempt to re-arrange to make y the subject – allow sign errors
 
 ### 6(b) [1]
 
-Find the coordinates of the point where L meets the y-axis. ( , )
+Find the coordinates of the point where L meets the y-axis. ( …………… , …………… )
 
 
 **Mark scheme answer**
 
 > ⎛ 5⎞ B1
-> ⎜ 0, ⎟
-> ⎝ 2⎠
-> Total 3 marks
+> ⎜ 0, 2⎠
 
 - **(1)** ⎛ 5⎞ B1
 
@@ -170,11 +167,9 @@ Arthur has 10 cards. Each card has a letter on it and the letters spell the word
 > 10 a b possible orders of the letters P, A and L) but not if divided by 6
 > where a = 9 or 10 and b = 8 or 10
 > 1 1 2 A1 Only (so no other terms seen)
-> × ×
-> 10 9 8
+> × ×10⁹ 8
 > 1 A1 Accept awrt 0.00278
 > 360
-> Total 3 marks
 
 - **(3)** 1 1 2 M1 Condone if other terms seen (e.g. from considering other
 
@@ -262,7 +257,7 @@ Given that –3x2 + 6x + 2 can be written in the form a(x + b)2 + c where a, b a
 
 ### 11 [3]
 
-Given that –3x2 + 6x + 2 can be written in the form a(x + b)2 + c where a, b and c are integers, find the value of a, the value of b and the value of c. a = b = c =
+Given that –3x2 + 6x + 2 can be written in the form a(x + b)² + c where a, b and c are integers, find the value of a, the value of b and the value of c. a = b = c =
 
 
 **Mark scheme answer**
@@ -343,9 +338,12 @@ B Diagram NOT accurately drawn 64° 28° A D C 2 cm The diagram shows a triangle
 
 ### 14 [4]
 
-B Diagram NOT accurately drawn 64° 28° A D C 2 cm The diagram shows a triangle ABC. The point D lies on AC so that BD is perpendicular to AC. ÐBAD = 64° ÐACB = 28° AD = 2 cm Calculate the length, in cm to one decimal place, of BC cm
+The diagram shows a triangle ABC. The point D lies on AC so that BD is perpendicular to AC. ∠BAD = 64° ∠ACB = 28° AD = 2 cm Calculate the length, in cm to one decimal place, of BC cm
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: B, A, D, C · Figure values: 64°, 28°, 2.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_14_diagram.png)
 
 
 **Mark scheme answer**
@@ -371,37 +369,33 @@ B Diagram NOT accurately drawn 64° 28° A D C 2 cm The diagram shows a triangle
 ## Question 15 (4 marks)
 ### 15(a) [2]
 
-A=⎜ B=⎜ 2⎟ ⎝ − 4 2⎟⎠ ⎜ 2 −2 ⎟ ⎝ ⎠ Calculate 3A – 2B ⎛ ⎞ ⎜ ⎟ ⎜ ⎟ ⎜ ⎟ ⎜⎝ ⎟⎠ ⎛ 5 −3⎞ ⎛ 0 1⎞
+A=⎜ B=⎜ 2 − 4 2 2 −2 Calculate 3A – 2B 5 −3⎞ ⎛ 0 1⎞
 
 
 **Mark scheme answer**
 
 > ⎛ 9 −3 ⎞ ⎛ 4 −1 ⎞ M1 Correct implied subtraction or three correct numbers in the
-> ⎜ ⎟−⎜ ⎟- final answer in correct places.
+>  − - final answer in correct places.
 > ⎝ −12 6 ⎠ ⎝ 4 −4 ⎠
 > ⎛ 5 −2 ⎞ A1
-> ⎜ ⎟
-> ⎝ −16 10 ⎠
+>  −16 10 
 
 - **(2)** ⎛ 9 −3 ⎞ ⎛ 4 −1 ⎞ M1 Correct implied subtraction or three correct numbers in the
 
 ### 15(b) [2]
 
-P=⎜ QP −1 = ⎜ ⎝ −3 2⎟⎠ ⎝ −10 −17⎟⎠ Find the matrix Q ⎛ ⎞ ⎜ ⎟ ⎜ ⎟ ⎜ ⎟ ⎜⎝ ⎟⎠
+P= QP −1 = −3 2 −10 −17 Find the matrix Q 
 
 
 **Mark scheme answer**
 
 > ⎛ 0 1 ⎞⎛ 5 −3 ⎞ M1 Or general Q and P inverse to form simultaneous equations,
-> Q= ⎜ ⎟⎜ ⎟ ⎛ a b ⎞ ⎛ a b ⎞⎛ 2 3 ⎞ ⎛ 0 1 ⎞
-> ⎝ −10 −17 ⎠⎝ −3 2 ⎠ e.g. Q = ⎜ ⎟⇒⎜ ⎟⎜ ⎟=⎜ ⎟
-> ⎝ c d ⎠ ⎝ c d ⎠⎝ 3 5 ⎠ ⎝ −10 −17 ⎠
+> Q= a b ⎞ ⎛ a b ⎞⎛ 2 3 ⎞ ⎛ 0 1 ⎞
+> ⎝ −10 −17 ⎠⎝ −3 2 ⎠ e.g. Q = ⇒ = c d ⎠ ⎝ c d ⎠⎝ 3 5 ⎠ ⎝ −10 −17 ⎠
 > ⇒ 2a + 3b = 0, 3a + 5b = 1, 2c + 3d = −10, 3c + 5d = −17
 > (must have correct inverse for this alternative method)
 > ⎛ −3 2 ⎞ A1
-> ⎜ ⎟
-> ⎝ 1 −4 ⎠
-> Total 4 marks
+>  1 −4 
 
 - **(2)** ⎛ 0 1 ⎞⎛ 5 −3 ⎞ M1 Or general Q and P inverse to form simultaneous equations,
 
@@ -412,9 +406,12 @@ P 2.5 cm K Diagram NOT 74° 2 cm accurately drawn J 3 cm M L The diagram shows a
 
 ### 16 [4]
 
-P 2.5 cm K Diagram NOT 74° 2 cm accurately drawn J 3 cm M L The diagram shows a circle JKML. JKP and LMP are straight lines. JK = 3 cm, KP = 2.5 cm and PM = 2 cm. ÐJPL = 74° Calculate the area, in cm2 to 2 decimal places, of triangle LKP cm2
+The diagram shows a circle JKML. JKP and LMP are straight lines. JK = 3 cm, KP = 2.5 cm and PM = 2 cm. ∠JPL = 74° Calculate the area, in cm² to 2 decimal places, of triangle LKP cm²
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: P, K, J, M, L · Figure values: 2.5, 74°, 2, 3.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_16_diagram.png)
 
 
 **Mark scheme answer**
@@ -439,29 +436,38 @@ Write 0.0234 in standard form.
 
 **Mark scheme answer**
 
-> 2.34 ×10−2 B1
+> 2.34×10⁻² B1
 
-- **(1)** 2.34 ×10−2 B1
+- **(1)** 2.34×10⁻² B1
 
 ### 17(b) [1]
 
-Write 2.40 × 105 as an ordinary number.
+Write 2.40 × 10⁵ as an ordinary number.
 
 
 **Mark scheme answer**
 
 > 240 000 B1
-> © 0.5 ×10 199
-> or 5 ×10 n = 198 or 200
-> n M1
-> 5 ×10198 A1
-> Total 4 marks
 
 - **(1)** 240 000 B1
 
 ### 17(c) [2]
 
-Calculate, giving your answer in standard form 2.5 × 10101 5 × 10 −98 Show your working clearly.
+Calculate, giving your answer in standard form
+
+(2.5 × 10¹⁰¹) ÷ (5 × 10⁻⁹⁸)
+
+Show your working clearly.
+
+
+**Mark scheme answer**
+
+> (2.5 × 10¹⁰¹) ÷ (5 × 10⁻⁹⁸) = 0.5 × 10¹⁰¹⁻⁽⁻⁹⁸⁾ = 0.5 × 10¹⁹⁹ = **5 × 10¹⁹⁸**
+> 0.5×10¹⁹⁹ or 5×10ⁿ n = 198 or 200 M1
+> 5×10¹⁹⁸ A1
+
+- **(1)** (2.5 × 10¹⁰¹) ÷ (5 × 10⁻⁹⁸) = 0.5 × 10¹⁰¹⁻⁽⁻⁹⁸⁾ = 0.5 × 10¹⁹⁹ = **5 × 10¹⁹⁸**
+- **(1)** 5 × 10¹⁹⁸
 
 
 ## Question 18 (4 marks)
@@ -498,9 +504,12 @@ D Diagram NOT accurately drawn B E A F C The diagram shows triangle ABC and tria
 
 ### 19 [5]
 
-D Diagram NOT accurately drawn B E A F C The diagram shows triangle ABC and triangle ADC. E is the point on BC and AD. F is the point on AC such that AB, FE and CD are parallel. Given that AB = 3 cm and that CD = 7 cm, calculate the length of FE cm
+The diagram shows triangle ABC and triangle ADC. E is the point on BC and AD. F is the point on AC such that AB, FE and CD are parallel. Given that AB = 3 cm and that CD = 7 cm, calculate the length of FE cm
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: D, B, E, A, F, C.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_19_diagram.png)
 
 
 **Mark scheme answer**
@@ -518,7 +527,6 @@ D Diagram NOT accurately drawn B E A F C The diagram shows triangle ABC and tria
 > FE = 3 × 3
 > 10 AF
 > 2.1 A1 Or equivalent
-> Total 5 marks
 > ALT FE FC
 > , FE = AF M1
 > =
@@ -546,9 +554,14 @@ C B A D The diagram shows quadrilateral ABCD. The region R consists of all the p
 
 ### 20 [5]
 
+The diagram shows quadrilateral ABCD. The region R consists of all the points inside the quadrilateral that are
+
 B A D The diagram shows quadrilateral ABCD. The region R consists of all the points inside the quadrilateral that are (i) closer to DA than to DC, (ii) less than 3 cm from the side DC, (iii) more than 4 cm from B. Using ruler and compasses only and showing all your construction lines, construct and show, by shading, the region R. Label the region R.
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram.*
+> Labels in the original figure: C, B, A, D.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_20_diagram.png)
 
 
 **Mark scheme answer**
@@ -573,9 +586,12 @@ G Diagram NOT F accurately drawn x° E D x° C A B The diagram shows a shaded 7-
 
 ### 21 [5]
 
-G Diagram NOT F accurately drawn x° E D x° C A B The diagram shows a shaded 7-sided shape ABCDEFG. The points A, B, C, D, E, F and G are 7 vertices of a regular polygon with 11 sides. ÐGAB = ÐAGF = x° Calculate the value, to 3 significant figures, of x. Show your working clearly. x =
+x° E D x° C A B The diagram shows a shaded 7-sided shape ABCDEFG. The points A, B, C, D, E, F and G are 7 vertices of a regular polygon with 11 sides. ∠GAB = ∠AGF = x° Calculate the value, to 3 significant figures, of x. Show your working clearly. x =
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: G, F.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_21_diagram.png)
 
 
 **Mark scheme answer**
@@ -584,19 +600,18 @@ G Diagram NOT F accurately drawn x° E D x° C A B The diagram shows a shaded 7-
 > 180 − [ = 147.27...] or
 > 11
 > 5 ×180 [ = 900] M1 Could be seen in working
-> "900"− 5 × "147.2..."⎡⎣= 163.6... or 1800 M1dep Oe e.g. 2 x + 5 ×147.2 = 900 - this mark is dependent on both
-> 11 ⎤⎦
+> "900"− 5 × "147.2..."= 163.6... or 1800 M1dep Oe e.g. 2 x + 5 ×147.2 = 900 - this mark is dependent on both
+> 11 
 > previous M marks
 > 163.6 M1dep Dependent on all previous M marks
 > x=
 > 81.8 A1 ⎛ 900 ⎞
-> Accept exact ⎜ ⎟ or awrt to 81.8 (81.81818…)
+> Accept exact or awrt to 81.8 (81.81818…)
 > ⎝ 11 ⎠
 > ⎛ 360 ⎞ 1
-> 180 − ⎜ ⎟×
+> 180 − ×
 > ⎝ 11 ⎠ 2
 > Oe e.g.
-> Total 5 marks
 
 - **(5)** 360 9 ×180 M1
 
@@ -607,7 +622,11 @@ A B 4 cm 4 cm 76° Diagram NOT accurately drawn O C The diagram shows a sector O
 
 ### 22(a) [2]
 
-Calculate the area, in cm2 to 3 significant figures, of the shaded sector OACB cm2
+A B 4 cm 4 cm 76° Diagram NOT accurately drawn O C The diagram shows a sector OACB of a circle, centre O. OA = OB = 4 cm Angle AOB = 76°
+
+Calculate the area, in cm² to 3 significant figures, of the shaded sector OACB
+
+…………… cm²
 
 
 **Mark scheme answer**
@@ -647,12 +666,12 @@ y is directly proportional to x3 x is inversely proportional to the square root 
 
 ### 23 [5]
 
-y is directly proportional to x3 x is inversely proportional to the square root of w. y = 729 when x = 4.5 x = 25 when w = 0.16 Find a formula for y in terms of w.
+y is directly proportional to x³ x is inversely proportional to the square root of w. y = 729 when x = 4.5 x = 25 when w = 0.16 Find a formula for y in terms of w.
 
 
 **Mark scheme answer**
 
-> y = k1 x3 M1
+> y = k1 x³ M1
 > k2 M1 Condone if the same letter is used for the two constants of
 > x= proportionality
 > w
@@ -666,10 +685,7 @@ y is directly proportional to x3 x is inversely proportional to the square root 
 > y = 8000w
 > −
 > 2 ⎛ 10 ⎞
-> Or equivalent e.g. y = 8 ⎜ 1 ⎟
-> ⎜ 2⎟
-> ⎝w ⎠
-> Total 5 marks
+> Or equivalent e.g. y = 8 ⎜ 1 2 w ⎠
 
 - **(5)** y = k1 x3 M1
 
@@ -694,14 +710,13 @@ y is directly proportional to x3 x is inversely proportional to the square root 
 > =
 > 2x +1 2x − 2
 > 100 x 2 − 200 x + 100 = 70 x 2 + 25 x − 5 M1dep Removing the fractions and one side multiplied out correctly
-> or 20 x2 − 40 x + 20 = 14 x 2 + 5x − 1
+> or 20 x² − 40 x + 20 = 14 x 2 + 5x − 1
 > 30 x 2 − 225 x + 105 = 0 or A1 A correct three term quadratic in x (any equivalent form) = 0
 > 6 x 2 − 45x + 21 = 0 or 2 x 2 − 15x + 7 = 0
 > = ( 2 x − 1)( x − 7 ) M1 Correct method for solving their three-term quadratic in x,
 > implied by x = 1 or 7
 > Dependent on both previous M marks
 > 4 A1 Only (A0 if given as the answer −2.5 too)
-> Total 5 marks
 
 - **(5)** 10 x − 10 35 x − 5
 
@@ -712,33 +727,31 @@ C Diagram NOT accurately drawn A B ABC is a triangle. → ⎛ 3⎞ → ⎛ x⎞ 
 
 ### 25 [5]
 
-C Diagram NOT accurately drawn A B ABC is a triangle. → ⎛ 3⎞ → ⎛ x⎞ → AB = ⎜ ⎟ BC = ⎜ ⎟ where x > 0 and |AC| = 5 ⎝ −2⎠ ⎝ 5 x⎠ → Find AC as a column vector. Show clear algebraic working. ⎛ ⎞ ⎜ ⎟ ⎜ ⎟ ⎜ ⎟ ⎜⎝ ⎟⎠
+ABC is a triangle. → ⎛ 3⎞ → ⎛ x⎞ → AB = BC = where x > 0 and |AC| = 5 ⎝ −2⎠ ⎝ 5 x⎠ → Find AC as a column vector. Show clear algebraic working.
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: C, A, B.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_25_diagram.png)
 
 
 **Mark scheme answer**
 
 > ⎛ 3+ x ⎞ B1
-> AC = ⎜ ⎟
-> ⎝ −2 + 5 x ⎠
+> AC = −2 + 5 x 
 > M1 Correct method for finding the modulus of AC (must contain
 > ( 3 + x ) + ( −2 + 5 x ) = 25
 > 2
 > ⎛ 3x ⎞
-> x) and = 5 to form an equation – not from AC = ⎜ ⎟
-> ⎝ −7 x ⎠
+> x) and = 5 to form an equation – not from AC = −7 x 
 > 13x 2 − 7 x − 6 = 0 M1dep For correct method for multiplying out the brackets and
 > simplifying to make a quadratic equation = 0
 > ( x −1)(13x + 6) = 0 M1 Correct method for solving 3-term quadratic and substituting
 > their positive value of x into AC
 > ⎛ 3 + '1' ⎞
-> ⇒ AC = ⎜ ⎟
-> ⎝ −2 + 5('1') ⎠
+> ⇒ AC = −2 + 5('1') 
 > ⎛ 4⎞ A1 Answer with no working gains no marks
-> AC = ⎜ ⎟
-> ⎝ 3⎠
-> Total 5 marks
+> AC = 3
 
 - **(5)** ⎛ 3+ x ⎞ B1
 
@@ -749,7 +762,9 @@ A small ball is thrown into the air from a point that is 1 m above horizontal gr
 
 ### 26(a) [1]
 
-Find an expression for v in terms of k and t. Given that the total distance travelled by the ball between the instant when the ball is thrown and when it hits the ground for the first time is 161 m,
+A small ball is thrown into the air from a point that is 1 m above horizontal ground. The ball moves vertically upwards so that at time t seconds after the ball was thrown, the height, h metres, of the ball above the ground is given by h = 1 + kt – 5t2 where k is a constant. At time t seconds after the ball was thrown, the velocity of the ball is v m/s.
+
+Find an expression for v in terms of k and t. Given that the total distance travelled by the ball between the instant when the ball is thrown and when it hits the ground for the first time is 161 m …………… , ……………
 
 
 **Mark scheme answer**
@@ -780,12 +795,11 @@ calculate the value of k. k =
 > 10 100
 > 40 A1 A0 if final answer is ±40
 > ⎛k ⎞ ⎛ k ⎞
-> Note that 1 + k ⎜ ⎟ − 5 ⎜ ⎟ equal to either 161, 160, 80.5 or
+> Note that 1 + k − 5 equal to either 161, 160, 80.5 or
 > ⎝ 10 ⎠ ⎝ 10 ⎠
 > 80 (or equivalent) will score M1B0M1M0A0 or possibly
 > M1B1M1M0A0 (if max. height found but subsequently not
 > used)
-> Total 6 marks
 
 - **(5)** " k − 10t " = 0 leading to M1 Calculating the time from projection to maximum height (or
 

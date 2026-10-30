@@ -161,14 +161,12 @@ Find D such that 2A – B = 3D
 **Mark scheme answer**
 
 > ⎛ 8 6 ⎞ ⎛ 11 −3 ⎞ 3 M1
-> ⎜ ⎟−⎜ ⎟ oe
+>  − oe
 > ⎝ −14 10 ⎠ ⎝10 −5 ⎠
 > ⎛ −3 9⎞ A1
-> ⎜ ⎟
-> ⎝ −24 15 ⎠
+>  −24 15 
 > ⎛ −1 3 ⎞ A1 (award 2 marks for 3 out of 4 terms of this matrix correct)
-> ⎜ ⎟
-> ⎝ −8 5 ⎠
+>  −8 5 
 
 - **(3)** ⎛ 8 6 ⎞ ⎛ 11 −3 ⎞ 3 M1
 
@@ -180,8 +178,7 @@ Find A2
 **Mark scheme answer**
 
 > ⎛ − 5 27 ⎞ 2 B2 correct (B1 for 3 correct values in a matrix of correct order)
-> ⎜ ⎟
-> ⎝ −63 4 ⎠
+>  −63 4 
 
 - **(2)** ⎛ − 5 27 ⎞ 2 B2 correct (B1 for 3 correct values in a matrix of correct order)
 
@@ -193,7 +190,7 @@ Find B–1
 **Mark scheme answer**
 
 > 1 ⎛ −5 3⎞ 2 B2 correct (B1 for a correct method to find the determinant and 2
-> − ⎜ ⎟ oe other values correct or 4 correct values in matrix and one mistake
+> − oe other values correct or 4 correct values in matrix and one mistake
 > 25 ⎝ −10 11⎠
 > in determinant)
 
@@ -207,11 +204,8 @@ Find CA a b 1 d b Inverse of matrix c d ad bc c a
 **Mark scheme answer**
 
 > ⎛ −22 45 ⎞ 2 B2 correct (B1 for 3, 4 or 5 correct values in a matrix of correct
-> ⎜ ⎟ order)
-> ⎜ −42 −11 ⎟
-> ⎜ 23 7 ⎟⎠
-> ⎝
-> Total 9 marks
+>  order)
+>  −42 −11 23 7 
 
 - **(2)** ⎛ −22 45 ⎞ 2 B2 correct (B1 for 3, 4 or 5 correct values in a matrix of correct
 
@@ -228,20 +222,32 @@ On the grid, draw the graph of the straight line with equation 4x = 3 + 2y for 0
 
 ![grid — official paper figure (qp.pdf p.13) — shared with asset_5_a_i_graph](assets/asset_5_a_i_graph.png)
 
+
+**Mark scheme answer**
+
+> *The official mark scheme line for this part was not captured by the digitised extraction — treat the worked values above the line with care and check against the paper's own mark scheme.*
+
+
 ### 5(a)(ii) [1]
 
 Use your graphs to find estimates, to one decimal place, of the value of x and the value of y that satisfy the simultaneous equations 3x + y = 11 4x = 3 + 2y
 
+
+**Mark scheme answer**
+
+> *The official mark scheme line for this part was not captured by the digitised extraction — treat the worked values above the line with care and check against the paper's own mark scheme.*
+
+
 ### 5(b) [6]
 
-Solve the simultaneous equations 4x + xy – x2 = –10 3y + x = 7 Show clear algebraic working. y 1 3x + y = 11 x 1 2 3 4 –1 –2
+Solve the simultaneous equations 4x + xy – x² = –10 3y + x = 7 Show clear algebraic working. y 1 3x + y = 11 x 1 2 3 4 –1 –2
 
 
 **Mark scheme answer**
 
 > eg 4(7 – 3y) + y(7 – 3y) – (7 – 3y)² or 6 M1 for any correct substitution
 > ⎛7−x⎞ 2
-> 4x + x ⎜ ⎟− x
+> 4x + x − x
 > ⎝ 3 ⎠
 > 28 – 12y + 7y – 3y² − 49 + 42y – 9y² = − 10 M1 for expansion of brackets after substitution (at least 4
 > 12x + 7x − x² − 3x² = −30 oe terms correct)
@@ -259,7 +265,6 @@ Solve the simultaneous equations 4x + xy – x2 = –10 3y + x = 7 Show clear al
 > 5
 > x=− ,y=
 > 4
-> Total 10 marks
 
 - **(6)** eg 4(7 – 3y) + y(7 – 3y) – (7 – 3y)² or 6 M1 for any correct substitution
 
@@ -321,7 +326,7 @@ On the grid, draw and label triangle E. Triangle E is the image of triangle C un
 **Mark scheme answer**
 
 > ⎛ 1 0 ⎞⎛1 2 3 ⎞ ⎛ 1 2 3⎞ 2 M1 for at least 4 out of 6 correct entries in matrix for
-> ⎜ ⎟⎜ ⎟=⎜ ⎟ transformed shape
+>  = transformed shape
 > ⎝ 0 −1⎠⎝ 3 1 4 ⎠ ⎝ −3 −1 −4 ⎠
 > A1 correctly plotted and joined shape
 
@@ -329,7 +334,9 @@ On the grid, draw and label triangle E. Triangle E is the image of triangle C un
 
 ### 6(e) [3]
 
-Describe fully this transformation. y A –6 –5 –4 –3 –2 –1 0 1 2 3 4 5 6 x –1 –2 –3 –4 –5 for a spare grid if you need to redraw your triangles. Only use this grid if you need to redraw your triangles. y A –6 –5 –4 –3 –2 –1 0 1 2 3 4 5 6 x –1 –2 –3 –4 –5
+Describe fully this transformation.
+
+![grid — official paper figure (qp.pdf p.17) (same figure as asset_6_a_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-01/4MB1-02R/assets/asset_6_a_grid.png)
 
 ![grid — official paper figure (qp.pdf p.17) — shared with asset_6_a_grid](assets/asset_6_a_grid.png)
 
@@ -366,7 +373,7 @@ Show that 336 of these people are not catching a plane to Dubai. The people in t
 
 ### 7(b) [3]
 
-Calculate the value of s Pablo went by plane from Canada to Brazil in February 2020 and in February 2021 In February 2020, the cost of his ticket was $680 In February 2021, the cost of his ticket was $730
+Calculate the value of s Pablo went by plane from Canada to Brazil in February 2020 and in February 2021 In February 2020, the cost of his ticket was \$680 In February 2021, the cost of his ticket was \$730
 
 
 **Mark scheme answer**
@@ -380,7 +387,7 @@ Calculate the value of s Pablo went by plane from Canada to Brazil in February 2
 
 ### 7(c) [2]
 
-Calculate the percentage increase, to one decimal place, in the cost of the ticket from February 2020 to February 2021 Pablo bought a ticket to go by plane to Sweden in June 2021 The cost of his ticket was $468 The cost of this ticket was 4% greater than the cost of his ticket the last time he went by plane to Sweden, which was in December 2020
+Calculate the percentage increase, to one decimal place, in the cost of the ticket from February 2020 to February 2021 Pablo bought a ticket to go by plane to Sweden in June 2021 The cost of his ticket was \$468 The cost of this ticket was 4% greater than the cost of his ticket the last time he went by plane to Sweden, which was in December 2020
 
 
 **Mark scheme answer**
@@ -400,7 +407,7 @@ Calculate the cost of Pablo’s ticket to Sweden in December 2020 At the end of 
 **Mark scheme answer**
 
 > 468 ÷ 1.04 2 M1
-> ($)450 A1
+> (\$)450 A1
 
 - **(2)** 468 ÷ 1.04 2 M1
 
@@ -442,9 +449,9 @@ Show that the coordinates of A are (0.75, –1.5625)
 > y = −1.5625 y = −1.5625 A1 dep on M1
 > Alternative method for 8 (a)
 > 3 M1
-> ( x − )2
+> ( x − )²
 > 3 9 M1
-> ( x − )2 − − 1
+> ( x − )² − − 1
 > 4
 > x = 0.75 A1 dep on first M1
 > − − 1 = −1.5625 y = −1.5625 A1 dep on second M1
@@ -497,7 +504,11 @@ Using your curve, find an estimate, to one decimal place, for the range of value
 
 ### 8(e) [3]
 
-By drawing a suitable straight line on the grid, find estimates, to one decimal place, 7 1 of the solutions of the equation x 2 x 2 2 Show your working clearly. y –3 –2 –1 O 1 2 3 4 x –1 –2 A for a spare grid if you need to redraw your graph. Only use this grid if you need to redraw your graph. y –3 –2 –1 O 1 2 3 4 x –1 A –2
+By drawing a suitable straight line on the grid, find estimates, to one decimal place, 7 1 of the solutions of the equation x 2 x 2 2 Show your working clearly.
+
+![graph — official paper figure (qp.pdf p.24) (same figure as 8(b))](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-01/4MB1-02R/assets/asset_8_b_table.png)
+
+![grid — official paper figure (qp.pdf p.25) (same figure as asset_8_b_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-01/4MB1-02R/assets/asset_8_b_grid.png)
 
 ![graph — official paper figure (qp.pdf p.24) — shared with 8(b)](assets/asset_8_b_table.png)
 
@@ -511,7 +522,6 @@ By drawing a suitable straight line on the grid, find estimates, to one decimal 
 > draw the line y = 2x – 0.5 M1
 > −0.1, 3.6 A1 ft from correct graph (2 marks only if written
 > as coordinates)
-> Total 15 marks
 > Ques Working Answer Mark Notes
 
 - **(3)** 3 3 M1 rearranging equation
@@ -523,9 +533,12 @@ A C O B Diagram NOT accurately drawn Figure 1 Figure 1 shows a trapezium OACB in
 
 ### 9 [6]
 
-A C O B Diagram NOT accurately drawn Figure 1 Figure 1 shows a trapezium OACB in which OA is parallel to BC and OA : BC = 2 : 1 The point P lies on AC such that AP : PC = 3 : 1 → ® The point D is such that OD = λ OP where λ > 1 and such that BCD is a straight line. → → Given that OA = 6a and that OB = 8b ® use a vector method to find and simplify an expression, in terms of a and b only, for AD Show your working clearly.
+Figure 1 Figure 1 shows a trapezium OACB in which OA is parallel to BC and OA : BC = 2 : 1 The point P lies on AC such that AP : PC = 3 : 1 → ® The point D is such that OD = λ OP where λ > 1 and such that BCD is a straight line. → → Given that OA = 6a and that OB = 8b ® use a vector method to find and simplify an expression, in terms of a and b only, for AD Show your working clearly.
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, C, O, B.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_9_diagram.png)
 
 
 **Mark scheme answer**
@@ -557,6 +570,8 @@ Q Diagram NOT accurately drawn 51° M x R P T Figure 2 In Figure 2, P, Q, R and 
 
 ### 10(a) [1]
 
+Q Diagram NOT accurately drawn 51° M x R P T Figure 2 In Figure 2, P, Q, R and T are points on a circle with centre M such that ∠ PQR = 51°
+
 Find the size, in degrees, of the angle marked x in Figure 2
 
 
@@ -568,7 +583,9 @@ Find the size, in degrees, of the angle marked x in Figure 2
 
 ### 10(b) [1]
 
-Find the size, in degrees, of the obtuse angle PTR. B Diagram NOT accurately drawn S O 118° A C Figure 3 In Figure 3, A, B and C are points on a circle with centre O such that Ð AOC = 118° and BA = BC. The area of the region S, shown shaded in Figure 3, is 70 cm2
+Find the size, in degrees, of the obtuse angle PTR. B Diagram NOT accurately drawn S O 118° A C Figure 3 In Figure 3, A, B and C are points on a circle with centre O such that ∠ AOC = 118° and BA = BC. The area of the region S, shown shaded in Figure 3, is 70 cm²
+
+![diagram — official paper figure (qp.pdf p.30)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-01/4MB1-02R/assets/asset_10_b_diagram.png)
 
 ![diagram — official paper figure (qp.pdf p.30)](assets/asset_10_b_diagram.png)
 
@@ -581,7 +598,7 @@ Find the size, in degrees, of the obtuse angle PTR. B Diagram NOT accurately dra
 
 ### 10(c) [5]
 
-Calculate the total area, in cm2 to 3 significant figures, of the unshaded region inside the circle. Area of triangle ab sin C
+Calculate the total area, in cm² to 3 significant figures, of the unshaded region inside the circle. Area of triangle ab sin C
 
 
 **Mark scheme answer**
@@ -613,14 +630,18 @@ Diagram NOT accurately drawn 3r cm 10 cm r cm Figure 4 Figure 4 shows a solid ri
 
 ### 11(a) [4]
 
-Calculate the value, to one decimal place, of r Curved surface area of cone rl Surface area of sphere = 4 r 2 Question 11 continues on page 34 V Diagram NOT accurately drawn 15 cm B C A D F E Figure 5 Figure 5 shows a right pyramid. The base ABCDEF of the pyramid is a regular hexagon and the vertex V of the pyramid is such that AV = BV = CV = DV = EV = FV = 15 cm and ÐAVD = 40°
+Diagram NOT accurately drawn 3r cm 10 cm r cm Figure 4 Figure 4 shows a solid right circular cone of radius r cm and height 3r cm and a sphere of radius 10 cm. The total surface area of the cone is equal to the surface area of the sphere.
+
+Calculate the value, to one decimal place, of r Curved surface area of cone rl Surface area of sphere = 4 r 2 V Diagram NOT accurately drawn 15 cm B C A D F E Figure 5 Figure 5 shows a right pyramid. The base ABCDEF of the pyramid is a regular hexagon and the vertex V of the pyramid is such that AV = BV = CV = DV = EV = FV = 15 cm and ∠AVD = 40°
+
+![diagram — official paper figure (qp.pdf p.32) (same figure as asset_11_a_diagram_stem)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-01/4MB1-02R/assets/asset_11_a_diagram_stem.png)
 
 ![diagram — official paper figure (qp.pdf p.32) — shared with asset_11_a_diagram_stem](assets/asset_11_a_diagram_stem.png)
 
 
 **Mark scheme answer**
 
-> (l =) (3r )2 + r 2 (= r 10) 4 M1 a correct expression for l
+> (l =) (3r )² + r 2 (= r 10) 4 M1 a correct expression for l
 > π × r × r 10 + π r 2 = 4π ×102 oe eg M1 a correct equation involving r
 > r 2 10 + r 2 = 400
 > 400π 400 M1 a correct rearrangement for r² or r
@@ -632,7 +653,7 @@ Calculate the value, to one decimal place, of r Curved surface area of cone rl S
 
 ### 11(b) [5]
 
-Calculate the volume, in cm3 to 3 significant figures, of the pyramid. Area of triangle ab sin C Volume of pyramid 1 base area height
+Calculate the volume, in cm³ to 3 significant figures, of the pyramid. Area of triangle ab sin C Volume of pyramid 1 base area height
 
 
 **Mark scheme answer**

@@ -43,8 +43,6 @@ Factorise fully 8ab − 28a
 > 4a ( 2b − 7 ) A1
 > Condone a missing final bracket
 > Do not isw – see general marking guidance.
-> cas Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 4 ( 2ab − 7a ) or a ( 8b − 28) or 2 M1 a correct partial factorisation or a common factor of 4a and one
 
@@ -99,8 +97,6 @@ Write down an irrational number between 1 and 2
 > 11 3π
 > eg or or e0.5
 > 3
-> Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(1)** eg 2 or 1 B1 for any irrational number within the given range including
 
@@ -120,8 +116,6 @@ Show on the number line the inequality 2 x ≤ 3 −4 −3 −2 −1 0 1 2 3 4 x
 > (B1 for an open circle at −2 and a closed circle at 3
 > or a single line from −2 to 3)
 > Allow ( for an open circle and ] as a closed circle
-> cas Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** Shown 2 B2 for a fully correct diagram. Must be a single line
 
@@ -142,8 +136,6 @@ Each time Ishan plays a game, the probability that he wins is 0.64 Ishan plays t
 > 50 × (1 − 0.64 ) [ = 18] oe
 > 50 × 0.64 [ = 32] or 32
 > 18 A1 cao
-> cas Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 50 × 0.36 [ = 18] or 2 M1 correct method to find the expected number of games not won
 
@@ -154,9 +146,12 @@ B Diagram NOT C accurately drawn 105° D A In the diagram A, B, C and D are poin
 
 ### 7 [2]
 
-B Diagram NOT C accurately drawn 105° D A In the diagram A, B, C and D are points on a circle. BCD 105 Find the size, in degrees, of ∠BAD Give a reason for your answer °
+In the diagram A, B, C and D are points on a circle. BCD 105 Find the size, in degrees, of ∠BAD Give a reason for your answer °
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: B, C, D, A · Figure values: 105°.
+
+![diagram — official paper figure (qp.pdf p.3)](assets/asset_7_diagram.png)
 
 
 **Mark scheme answer**
@@ -167,8 +162,6 @@ B Diagram NOT C accurately drawn 105° D A In the diagram A, B, C and D are poin
 > angles of a cyclic
 > quadrilateral sum Allow ∠ for angle
 > to 180o
-> Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 180 − 105 [ = 75] or 75 2 M1 a correct method to find the angle. Could be seen on the
 
@@ -179,7 +172,7 @@ The price of a yacht is reduced by 16% in a sale. Leda pays $15 700 of the sale 
 
 ### 8 [3]
 
-The price of a yacht is reduced by 16% in a sale. Leda pays $15 700 of the sale price when she orders the yacht. She pays the remainder of the sale price in 10 equal payments of $2000 Calculate the price of the yacht before the sale. $
+The price of a yacht is reduced by 16% in a sale. Leda pays \$15 700 of the sale price when she orders the yacht. She pays the remainder of the sale price in 10 equal payments of \$2000 Calculate the price of the yacht before the sale. \$
 
 
 **Mark scheme answer**
@@ -198,8 +191,6 @@ The price of a yacht is reduced by 16% in a sale. Leda pays $15 700 of the sale 
 > 42 500 A1
 > NB multiply by 1.16 gives an answer of 41412 and is M1M0A0
 > unless the method marks can be awarded in the working.
-> cas Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 15700 + 10 × 2000 [ = 35700] 3 M1 Correct method to find total sale price. May be implied by
 
@@ -234,7 +225,6 @@ Write as a single fraction in its simplest form 4x 3 2x 3 2 Show clear algebraic
 > A1 allow Dep on both M marks being awarded. Do NOT isw
 > 6 −6
 > wr Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 2 ( 4 x − 3) − 3 ( 2 x + 5 ) 3 M1 for a correct method to reduce to a single fraction. Allow any common
 
@@ -261,8 +251,6 @@ Zahra records the time, t hours, some people spend watching television each day.
 > or [Fd =] and oe
 > 3
 > [ h =] 5 A1
-> cas Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** [ w =] 3 3 B1
 
@@ -298,8 +286,6 @@ Rima sells green pens, red pens and blue pens only. On Saturday, a total of 200 
 > "6"+ "10"+ "9"
 > 48:80:72
 > 80 A1
-> cas Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 6 :10 and 6 : 9 oe 3 M1 for writing the ratios with a common figure for green or for
 
@@ -336,8 +322,6 @@ Calculate x Give your answer in standard form.
 > or q ×10168 or 8 ×10 p
 > or q ×10168 where 1 „ q < 10
 > 8 ×10168 A1 cao
-> cas Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 0.8 ×10169 2 M1 allow a correct answer in any form
 
@@ -380,55 +364,46 @@ Quadrilateral A is transformed to quadrilateral B under a reflection in the y-ax
 **Mark scheme answer**
 
 > ⎛ −1 0 ⎞ 4 M1 for a correct matrix for reflection in y-axis (may be seen written as an
-> ⎜ ⎟ inverse matrix)
+>  inverse matrix)
 > ⎝ 0 1⎠ or reflection in the y-axis of the point (1, 0) and (0, 1) May be seen on a
 > ⎛ x ⎞ ⎛ −x ⎞
-> diagram. Allow ⎜ ⎟ → ⎜ ⎟ for all their points
+> diagram. Allow → for all their points
 > ⎝ y⎠ ⎝ y ⎠
 > ⎛1 ⎞ M1 for a correct matrix for enlargement/inverse matrix SF4 or correct
 > ⎜4 0⎟ enlargement of points in a diagram
-> ⎛ 4 0⎞
-> ⎜ ⎟ or ⎜ ⎟ ⎛a b ⎞ 1 ⎛a b⎞
-> ⎝ 0 4⎠ ⎜0 1⎟ May be implied by 4 × ⎜ ⎟ or × ⎜ ⎟ where a, b, c and d are
-> ⎜ ⎟ ⎝c d ⎠ 4 ⎝c d⎠
+> ⎛ 4 0 or a b ⎞ 1 ⎛a b⎞
+> ⎝ 0 4 0 1⎟ May be implied by 4 × or × where a, b, c and d are
+>  c d ⎠ 4 ⎝c d⎠
 > ⎝ 4⎠
 > ⎛ x ⎞ ⎛ 4x ⎞
-> either numbers of letters. Allow ⎜ ⎟ → ⎜ ⎟ for all their points
+> either numbers of letters. Allow → for all their points
 > ⎝ y⎠ ⎝4y⎠
 > ⎛4 0 ⎞⎛ −1 0 ⎞ ⎛ −1 0 ⎞ M1 Dependent on the first method mark being awarded Allow the
-> ⎜ ⎟⎜ ⎟ or 4 × ⎜ ⎟ multiplication of the two matrices in either order.
+>  or 4 × multiplication of the two matrices in either order.
 > ⎝0 4 ⎠⎝ 0 1 ⎠ ⎝ 0 1⎠
 > ⎛a b ⎞⎛ −1 0 ⎞ ⎛ 4 0 ⎞ If using the points of a quadrilateral (May be seen on a diagram) then this
-> ⎜ ⎟⎜ ⎟=⎜ ⎟ or mark is awarded for 2 pairs of correct simultaneous equations found that
+>  = or mark is awarded for 2 pairs of correct simultaneous equations found that
 > ⎝c d ⎠⎝ 0 1 ⎠ ⎝ 0 4 ⎠
 > could be used to find N (see note below)
 > ⎛1 ⎞
-> 0⎟
-> ⎛ a b ⎞⎜ 4 ⎛ −1 0 ⎞
-> ⎜ ⎟⎜ ⎟=⎜ ⎟
-> ⎝ c d ⎠⎜ 0 1 ⎟ ⎝ 0 1⎠
-> ⎜ ⎟
-> ⎝ 4⎠
+> 0 a b 4 ⎛ −1 0 = c d 0 1 0 1 4⎠
 > ⎛ −4 0 ⎞ A1 dependent on correct working- could be from a diagram
-> ⎜ ⎟
-> ⎝ 0 4⎠
+>  0 4
 > wr Total 4 marks
 > Note for 3rd M1 using coordinates
 > ⎛a b⎞
-> Matrix N ⎜ ⎟ can be found by substitution of the coordinates of A, B, C, D into (ax + by, cx + dy) and set equal to the
+> Matrix N can be found by substitution of the coordinates of A, B, C, D into (ax + by, cx + dy) and set equal to the
 > ⎝c d ⎠
 > coordinates of A, B, C , D to form simultaneous equations which can then be solved to find a, b, c and d
-> e.g. Quadrilateral A, B, C, D with coordinates ( x1 , y1 ) , ( x2 , y2 ) , ( x3 , y3 ) . ( x4 , y4 ) will go to Quadrilateral A, B, C , D ( x1 , y1 ) ,
-> ( x2 , y2 ) , ( x3 , y3 ) . ( x4 , y4 )
-> ⎛a b⎞ ⎛ a b ⎞ ⎛ x1 x2 x3 x4 ⎞ ⎛ x1 x2 x3 x4 ⎞
-> Matrix N ⎜ ⎟ can be found using ⎜ ⎟⎜ ⎟=⎜ ⎟ (order of multiplication must be correct)
-> ⎝c d ⎠ ⎝ c d ⎠⎝ y1 y2 y3 y4 ⎠ ⎜ y y2 y3 y4 ⎟⎠
-> ⎝ 1
+> e.g. Quadrilateral A, B, C, D with coordinates ( x1 , y1 ) , ( x² , y² ) , ( x³ , y³ ) . ( x⁴ , y⁴ ) will go to Quadrilateral A, B, C , D ( x1 , y1 ) ,
+> ( x² , y² ) , ( x³ , y³ ) . ( x⁴ , y⁴ )
+> ⎛a b⎞ ⎛ a b ⎞ ⎛ x1 x² x³ x⁴ ⎞ ⎛ x1 x² x³ x⁴ ⎞
+> Matrix N can be found using = (order of multiplication must be correct)
+> ⎝c d ⎠ ⎝ c d ⎠⎝ y1 y² y³ y⁴ y y² y³ y⁴ 1
 > Leading to
-> 2 from ax1 + by1 = x1 ax2 + by2 = x2 ax3 + by3 = x3 ax4 + by4 = x4
+> 2 from ax1 + by1 = x1 ax2 + by2 = x² ax3 + by3 = x³ ax4 + by4 = x⁴
 > and
-> 2 from cx1 + dy1 = y1 cx2 + dy2 = y2 cx3 + dy3 = y3 cx4 + dy4 = y4
-> Question Working Answer Mark Notes
+> 2 from cx1 + dy1 = y1 cx2 + dy2 = y² cx3 + dy3 = y³ cx4 + dy4 = y⁴
 
 - **(4)** ⎛ −1 0 ⎞ 4 M1 for a correct matrix for reflection in y-axis (may be seen written as an
 
@@ -452,15 +427,14 @@ Make x the subject of 2 2 8 where x and y are positive integers. x x 4 y Give yo
 > x ( x + 4) y
 > 8 y = 8 x ( x + 4 ) or y = x ( x + 4 ) or M1 dep on 1st M1 being awarded. For eliminating the fraction and
 > obtaining a correct 3-term equation (may be unsimplified). Allow
-> x2 + 4 x − y = 0 oe one sign error
+> x² + 4 x − y = 0 oe one sign error
 > y = ( x + 2 ) − 4 or M1 dep on 2nd M1 being awarded. For attempting to complete the
-> square eg y = ( x + 2 )2 ± n where n is any value
+> square eg y = ( x + 2 )² ± n where n is any value
 > −4 ± 16 + 4 y
 > x= or use the quadratic formula with 1 numerical error
 > x = −2 + y + 4 A1 (dep on all 3 M marks awarded) Allow x = y + 4 − 2
 > Do not condone x = −2 − y + 4 or x = −2 ± y + 4
 > wr Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 8x ( x + 4) 4 M1 for starting to eliminate the fraction
 
@@ -471,7 +445,9 @@ Diagram NOT accurately drawn x cm A cm2 C° The diagram shows a rhombus of area 
 
 ### 16 [4]
 
-Diagram NOT accurately drawn x cm A cm2 C° The diagram shows a rhombus of area A cm2 in which x = 8.4 to 1 decimal place A = 50 to 1 significant figure Given that the angle marked C° is an acute angle, find the upper bound, to 3 significant figures, of C Show all your working.
+Diagram NOT accurately drawn x cm A cm² C° The diagram shows a rhombus of area A cm² in which x = 8.4 to 1 decimal place A = 50 to 1 significant figure Given that the angle marked C° is an acute angle, find the upper bound, to 3 significant figures, of C Show all your working.
+
+![diagram — official paper figure (qp.pdf p.12)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2026-06/4MB1-01/assets/asset_16_diagram.png)
 
 ![diagram — official paper figure (qp.pdf p.12)](assets/asset_16_diagram.png)
 
@@ -496,7 +472,6 @@ Diagram NOT accurately drawn x cm A cm2 C° The diagram shows a rhombus of area 
 > 8.352 expression for sin C with the correct values substituted must be seen
 > followed by awrt 52.1
 > wr Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** Bounds for 4 B1 one correct bound
 
@@ -507,9 +482,12 @@ E Diagram NOT accurately drawn F D 10 cm C 13 cm A 4 cm B The diagram shows a ri
 
 ### 17 [4]
 
-E Diagram NOT accurately drawn F D 10 cm C 13 cm A 4 cm B The diagram shows a right triangular prism ABCDEF AB = 4 cm BC = 13 cm FB = 10 cm FAB 90° Calculate the volume, in cm3 to the nearest integer, of the triangular prism cm3
+The diagram shows a right triangular prism ABCDEF AB = 4 cm BC = 13 cm FB = 10 cm FAB 90° Calculate the volume, in cm³ to the nearest integer, of the triangular prism cm³
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: E, F, D, C, A, B · Figure values: 10, 13, 4.
+
+![diagram — official paper figure (qp.pdf p.12)](assets/asset_17_diagram.png)
 
 
 **Mark scheme answer**
@@ -536,8 +514,6 @@ E Diagram NOT accurately drawn F D 10 cm C 13 cm A 4 cm B The diagram shows a ri
 > or × 4 ×10 × sin ("66.421...") ×13
 > or × " 84 "×10 × sin ("23.578...") ×13
 > 238 A1 allow any value between 238 and 239 inclusive
-> cas Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 102 − 42 [ = 84] oe 4 M1 correct use of Pythagoras theorem to find AF2
 
@@ -582,8 +558,6 @@ Explain why Ian is correct.
 > Sequence (a) is even 1 B1 for realising that (a) is always an even number and (b) always an
 > and odd number
 > Sequence (b) is odd
-> cas Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(1)** Sequence (a) is even 1 B1 for realising that (a) is always an even number and (b) always an
 
@@ -656,8 +630,6 @@ Show, by shading, the region R
 > the arc must cross/touch BC,
 > the line must cross/touch the arc and the bisector,
 > the bisector must cross/touch BC
-> Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(1)** Correct 1 B1 Allow any clear indication of the correct region eg labelled R
 
@@ -695,7 +667,6 @@ Without using a calculator and showing your working clearly, express 3 5 in the 
 > gives 2 correct terms when simplified
 > −4 + 15 A1 cao dependent on both the previous M marks being awarded
 > wr Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 3− 5 3− 5 3 M1 for multiplying the numerator and denominator by 3− 5
 
@@ -748,24 +719,27 @@ Diagram NOT accurately drawn O B 8 cm 30° D C In the diagram B and C are points
 
 ### 22 [5]
 
-Diagram NOT accurately drawn O B 8 cm 30° D C In the diagram B and C are points on a circle centre O The point D is such that DBO is a straight line. DC is the tangent to the circle at C CO = 8 cm and ODC 30° The region inside OCD but outside of the sector OBC is shaded. Calculate the area, in cm 2 to 3 significant figures, of this shaded region. Show all your working cm 2
+In the diagram B and C are points on a circle centre O The point D is such that DBO is a straight line. DC is the tangent to the circle at C CO = 8 cm and ODC 30° The region inside OCD but outside of the sector OBC is shaded. Calculate the area, in cm² to 3 significant figures, of this shaded region. Show all your working cm²
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: O, B, D, C · Figure values: 8, 30°.
+
+![diagram — official paper figure (qp.pdf p.17)](assets/asset_22_diagram.png)
 
 
 **Mark scheme answer**
 
 > ∠DOC = 60° 5 M1 for correct angle. May be seen on diagram or used
 > when finding area of the sector.
-> 8 ⎡ M1 a correct method to find either OD or CD
-> [ DC =] = 8 3 = 13.856...⎤⎦ or
-> tan 30 ⎣
+> 8 M1 a correct method to find either OD or CD
+> [ DC =] = 8 3 = 13.856... or
+> tan 30 
 > [ DC =]8tan 60 ⎡⎣= 8 3 = 13.856...⎤⎦ or
 > [OD =] [ = 16] or
 > sin 30
-> 8 × sin 60 ⎡
-> [ DC =] = 8 3 = 13.856...⎤⎦
-> sin 30 ⎣
+> 8 × sin 60 
+> [ DC =] = 8 3 = 13.856...
+> sin 30 
 > "60" ⎡ 32 ⎤ M1 for a correct method for finding the area of the
 > [Area OBC =] × π × 82 ⎢= π = 33.510...⎥ sector
 > 360 ⎣ 3 ⎦
@@ -775,8 +749,6 @@ Diagram NOT accurately drawn O B 8 cm 30° D C In the diagram B and C are points
 > or 0.5 × "8 3"× "16"× sin ( 30 ) or allow 0.5 × "16"2 − 82 × 8 ⎡⎣ = 32 3 = 55.425...⎤⎦ ft their
 > 0.5 × "16"× 8 × sin ( 60 ) 16 if from correct working or clearly labelled
 > 21.9 A1 awrt 22
-> cas Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(5)** ∠DOC = 60° 5 M1 for correct angle. May be seen on diagram or used
 
@@ -843,9 +815,13 @@ Zaid has two bags of marbles, A and B There are 10 marbles in bag A and 15 marbl
 
 ### 24(a) [3]
 
+Zaid has two bags of marbles, A and B There are 10 marbles in bag A and 15 marbles in bag B In bag A, there are 5 red marbles, 3 blue marbles and 2 yellow marbles. In bag B, there are 6 red marbles, 2 blue marbles and 7 purple marbles. Zaid takes at random one marble from bag A and one marble from bag B
+
 Complete the probability tree diagram on the opposite page.
 
-> 🖼 crop required: diagram (qp.pdf p.20)
+![figure — official paper figure (qp.pdf p.20)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2026-06/4MB1-01/assets/asset_24_24-a.png)
+
+![figure — official paper figure (qp.pdf p.20)](assets/asset_24_24-a.png)
 
 
 **Mark scheme answer**
@@ -877,13 +853,11 @@ Calculate the probability that the two marbles are not the same colour. bag A ba
 > ⎜ " "× " " ⎟ or Not both yellow single values of , , or
 > ⎝ 10 15 ⎠ 10 50 10
 > ⎛ 2 6 ⎞ ⎛ 2 2 ⎞ ⎛ 2 7 ⎞ ⎛ 2 ⎞ May be implied by the 2nd M1
-> ⎜ " "× " " ⎟ + ⎜ " "× " " ⎟ + ⎜ " "× " " ⎟ or ⎜ " 10 "×1⎟
-> ⎝ 10 15 ⎠ ⎝ 10 15 ⎠ ⎝ 10 15 ⎠ ⎝ ⎠
+> ⎜ " "× " " ⎟ + ⎜ " "× " " ⎟ + ⎜ " "× " " ⎟ or ⎜ " 10 "×1 10 15 ⎠ ⎝ 10 15 ⎠ ⎝ 10 15 ⎠ ⎝ ⎠
 > ⎛ 5 6 ⎞ ⎛ 3 2 ⎞
-> Or Both the same colour ⎜ " "× " " ⎟ + ⎜ " "× " " ⎟
-> ⎝ 10 15 ⎠ ⎝ 10 15 ⎠
+> Or Both the same colour ⎜ " "× " " ⎟ + ⎜ " "× " " 10 15 ⎠ ⎝ 10 15 ⎠
 > ⎛ 5 9 ⎞ ⎛ 3 13 ⎞ ⎛ 2 ⎞ ⎛ 45 ⎞ ⎛ 39 ⎞ ⎛ 2 ⎞ M1 for a correct method for probability
-> ⎜ × ⎟ + ⎜ × ⎟ + ⎜ ⎟ or ⎜ ⎟+⎜ ⎟ + ⎜ ⎟ oe they are not the same colour. Ft tree
+> ⎜ × ⎟ + ⎜ × ⎟ + or + + oe they are not the same colour. Ft tree
 > ⎝ 10 15 ⎠ ⎝ 10 15 ⎠ ⎝ 10 ⎠ ⎝ 150 ⎠ ⎝ 150 ⎠ ⎝ 10 ⎠
 > diagram if working shown.
 > ⎛ 5 6 ⎞ ⎛ 3 2 ⎞
@@ -891,8 +865,6 @@ Calculate the probability that the two marbles are not the same colour. bag A ba
 > ⎝ 10 15 ⎠ ⎝ 10 15 ⎠ + + or 1 − −
 > 10 150 10 5 25
 > 19 A1 0.76
-> cas Total 6 marks
-> Question Working Answer Mark Notes
 
 - **(3)** ⎛ 5 2 ⎞ ⎛ 5 7 ⎞ ⎛ 5 9 ⎞ 3 M1 ft their tree diagram if working
 
@@ -903,54 +875,39 @@ A, X and Y are three points on horizontal ground. AB is a vertical mast with hei
 
 ### 25 [6]
 
-A, X and Y are three points on horizontal ground. AB is a vertical mast with height 45 m X is 2000 m due west of A The bearing of Y from A is 320° The angle of elevation of B from Y is 10° Calculate, to the nearest degree, the bearing of X from Y Show all your working °
+A, X and Y are three points on horizontal ground. AB is a vertical mast with height 45 m X is 2000 m due west of A The bearing of Y from A is 320° The angle of elevation of B from Y is 10° Calculate, to the nearest degree, the bearing of X from Y Show all your working
+
+…………… °
 
 
 **Mark scheme answer**
 
 > ∠YAX = 320 − 270 [ = 50] 6 M1 Correct method to find ∠YAX .
 > May be seen on diagram or used
-> 45 M1 Correct method to find AY
-> AY = [ = 255.207...] Allow awrt 255
-> tan10
+> $AY = \frac{45}{\tan 10}$ [ = 255.207...] M1 Correct method to find AY
+> Allow awrt 255
 > May be seen on diagram or used
-> XY 2 = "255.207..."2 + 20002 − 2 × "255.207..."× 2000cos"50" oe M1 For a fully correct method to find XY2 or XY
-> or XY 2 = 3408953.61... [ = 1846.33...]
-> or XY = 1846.33... ft their AY and ∠YAX if clearly labelled or from
-> or XY 2 = ("255.207..."sin(50) ) + ( 2000 − "255.207..."cos(50) )
-> 2
+> $XY^2 = "255.207..."^2 + 2000^2 - 2 \times "255.207..." \times 2000\cos"50"$ oe M1 For a fully correct method to find $XY^2$ or $XY$
+> or $XY^2 = 3408953.61...$ [ = 1846.33...]
+> or $XY = 1846.33...$ ft their AY and ∠YAX if clearly labelled or from
+> or $XY^2 = \left("255.207..."\sin(50)\right)^2 + \left(2000 - "255.207..."\cos(50)\right)^2$
 > correct working.
 > Allow awrt 3410000 or awrt 1850
-> sin ∠YXA
-> =
-> sin"50"
-> oe or sin ∠YXA = 0.106 or M1 for a correct method to find either ∠YXA or
-> "255.207..." "3409381.6..." ∠XYA
-> ("255.207...") = ("1846.33...") + 2000 − 2 × 2000 × "1846.33..."cos ( ∠YXA)
-> 2 2
-> ft their AY, XY and ∠YAX if clearly labelled or
+> $\frac{\sin \angle YXA}{"255.207..."} = \frac{\sin"50"}{\sqrt{"3409381.6..."}}$ oe or $\sin \angle YXA = 0.106$ or M1 for a correct method to find either ∠YXA or
+> ∠XYA
+> $\left("255.207..."\right)^2 = \left("1846.33..."\right)^2 + 2000^2 - 2 \times 2000 \times "1846.33..."\cos\left(\angle YXA\right)$ ft their AY, XY and ∠YAX if clearly labelled or
 > from correct working.
-> −1 ( "1846.33...") + ( "255.207...) − 2000
-> ⎛ 2 2 2 ⎞
-> or ∠XYA = cos ⎜ ⎟
-> ⎜ 2 × "1846.33..."× "255.207..." ⎟ Correct method implied by
-> ⎝ ⎠
-> sin ∠XYA sin"50" ∠XYA = 123.927... or ∠YXA = 6.0777...
-> = oe or sin ∠XYA = 0.82974...
-> 2000 "3409381.6..."
-> 20002 = ("1846.33...") + ("255.207...") − 2 × "255.207..."× "1846.33..."cos ( ∠XYA)
-> 2
-> ⎛ ("1846.33...")2 + 20002 − ("255.207...)2 ⎞
-> or ∠YXA = cos −1 ⎜ ⎟
-> ⎜ 2 × "1846.33..."× 2000 ⎟
-> ⎝ ⎠
-> 140 + "123.927" or 180 + (90 − "6.0777") or M1 fully correct method to find the bearing.
-> (90 + "50") + (180 − "56.0728...") ft their angle(s) if clearly labelled or comes from
+> or $\angle XYA = \cos^{-1}\left(\frac{\left("1846.33..."\right)^2 + \left("255.207..."\right)^2 - 2000^2}{2 \times "1846.33..." \times "255.207..."}\right)$ Correct method implied by
+> ∠XYA = 123.927... or ∠YXA = 6.0777...
+> $\frac{\sin \angle XYA}{2000} = \frac{\sin"50"}{\sqrt{"3409381.6..."}}$ oe or $\sin \angle XYA = 0.82974...$
+> $2000^2 = \left("1846.33..."\right)^2 + \left("255.207..."\right)^2 - 2 \times "255.207..." \times "1846.33..."\cos\left(\angle XYA\right)$
+> or $\angle YXA = \cos^{-1}\left(\frac{\left("1846.33..."\right)^2 + 2000^2 - \left("255.207..."\right)^2}{2 \times "1846.33..." \times 2000}\right)$
+> $140 + "123.927"$ or $180 + (90 - "6.0777")$ or M1 fully correct method to find the bearing.
+> $(90 + "50") + (180 - "56.0728...")$ ft their angle(s) if clearly labelled or comes from
 > correct working
 > 264 A1 dep on at least 2 method marks awarded.
 > awrt 264
 > wr Total 6 marks
-> Question Working Answer Mark Notes
 
 - **(6)** ∠YAX = 320 − 270 [ = 50] 6 M1 Correct method to find ∠YAX .
 

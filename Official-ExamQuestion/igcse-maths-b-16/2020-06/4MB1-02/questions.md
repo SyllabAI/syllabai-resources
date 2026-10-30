@@ -8,7 +8,8 @@ Please check the examination details below before entering your candidate inform
 
 ### 1(a) [2]
 
-the value of x,
+A Diagram NOT x° accurately drawn 9.3 cm 5 cm 10.8 cm 124° B C y° D Figure 1 Figure 1 shows a quadrilateral ABCD. AB = 9.3 cm AC = 5 cm AD = 10.8 cm ∠ACD = 124° ∠ACB = 90° ∠CAB = x° ∠ADC = y° Calculate to one decimal place …………… , ……………
+the value of x …………… , ……………
 
 
 **Mark scheme answer**
@@ -16,7 +17,7 @@ the value of x,
 > 5 2 M1 A fully correct method to find the value of x
 > cos x = [0.537…]
 > 9.3 9.32 − 52 9.32 − 52 ⎛ 5 ⎞
-> eg sin x = or tan x = or 90 − sin −1 ⎜ ⎟ or
+> eg sin x = or tan x = or 90 − sin −1 or
 > 9.3 5 ⎝ 9.3 ⎠
 > 9.32 + 52 − 9.32 − 52
 > cos x =
@@ -36,13 +37,11 @@ the value of y. ⎡ a b c ⎤ ⎢⎣Sine rule: sin A = sin B = sin C ⎥⎦
 > = oe
 > 10.8
 > ⎛ 5sin124 ⎞ M1dep on previous method mark being awarded. For rearranging to find a
-> y = sin −1 ⎜ ⎟ oe 5 × sin124
+> y = sin$^{-1}$ oe 5 × sin124
 > ⎝ 10.8 ⎠ value of y or sin y = Allow sin y = awrt 0.38 or
 > 10.8
-> y = sin −1 ( awrt 0.38) oe
+> y = sin$^{-1}$ ( awrt 0.38) oe
 > 22.6 A1 awrt 22.6
-> Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(3)** sin124 sin y 3 M1 A fully correct method to find the value of y
 
@@ -50,7 +49,7 @@ the value of y. ⎡ a b c ⎤ ⎢⎣Sine rule: sin A = sin B = sin C ⎥⎦
 ## Question 2 (5 marks)
 ### 2(a) [3]
 
-On the grid below, by drawing suitable straight lines and using shading, show the region R that satisfies the inequalities 2x + 3y ≥ 6 1≤x≤3 y≤4 Label the region R. y –2 –1 O 1 2 3 4 5 x –1 The point P with coordinates (x, y) lies in the region that satisfies the inequalities 2x + 3y > 6 1<x<3 y<4 Given that x and y are integers,
+On the grid below, by drawing suitable straight lines and using shading, show the region R that satisfies the inequalities 2x + 3y ≥ 6 1≤x≤3 y≤4 Label the region R. y –2 –1 O 1 2 3 4 5 x –1 The point P with coordinates (x, y) lies in the region that satisfies the inequalities 2x + 3y > 6 1<x<3 y<4 Given that x and y are integers …………… , ……………![grid — official paper figure (qp.pdf p.4)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-06/4MB1-02/assets/asset_2_a_grid.png)
 
 ![grid — official paper figure (qp.pdf p.4)](assets/asset_2_a_grid.png)
 
@@ -80,8 +79,6 @@ write down the coordinates of all possible points P.
 > least one M1 awarded in part (a) and the area identified is bounded
 > by "their 4 lines drawn", award B1ft if all correct integer
 > coordinates from their graph are stated with no extras.
-> Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(2)** (2, 1),(2, 2),(2, 3) 2 B2 all 3 correct coordinates and no extras,
 
@@ -92,7 +89,7 @@ Express (5x – 6) ÷ ⎜ ⎟ − as a single fraction in its simplest form. ⎝
 
 ### 3 [4]
 
-Express (5x – 6) ÷ ⎜ ⎟ − as a single fraction in its simplest form. ⎝ x+3 ⎠ x+2 Show clear algebraic working.
+Express (5x – 6) ÷ − as a single fraction in its simplest form. ⎝ x+3 ⎠ x+2 Show clear algebraic working.
 
 
 **Mark scheme answer**
@@ -116,15 +113,13 @@ Express (5x – 6) ÷ ⎜ ⎟ − as a single fraction in its simplest form. ⎝
 > eg terms including dealing correctly with negative sign on the
 > (5 x + 6)( x + 2)
 > numerator. This needs to be in a single fraction. Allow
-> 5 x3 − 6 x 2
-> or oe 5 x3 + 10 x 2 + 9 x 2 + 18 x − 18 x − 36 − 25 x 2 + 36
+> 5 x³ − 6 x 2
+> or oe 5 x³ + 10 x 2 + 9 x 2 + 18 x − 18 x − 36 − 25 x 2 + 36
 > ( x + 2) ( 25 x 2 − 36 ) oe
 > ( x + 2) ( 25 x 2 − 36 )
-> x2 x2
+> x² x²
 > A1 oe eg 2 dep on two M marks awarded.
 > (5 x + 6)( x + 2) 5 x + 16 x + 12
-> Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** x+3 4 M1 use of reciprocal and factorising using the difference of
 
@@ -135,7 +130,11 @@ A Diagram NOT accurately drawn 9 cm 9 cm B 10 cm C Figure 2 Figure 2 shows trian
 
 ### 4(a) [3]
 
-Calculate the area, in cm2 to one decimal place, of triangle ABC. Figure 3 shows two solid right prisms, each of length 7 cm. One of the prisms has triangle ABC as a cross section of the prism. The other prism has trapezium DEFG as a cross section of the prism. Diagram NOT A accurately drawn F E 9 cm 9 cm 5.5 cm 4.5 cm 7 cm D G 7 cm B 10 cm C Figure 3 In trapezium DEFG, DE = 4.5 cm FG = 5.5 cm The perimeter of trapezium DEFG is equal to the perimeter of triangle ABC.
+A Diagram NOT accurately drawn 9 cm 9 cm B 10 cm C Figure 2 Figure 2 shows triangle ABC. AB = 9 cm AC = 9 cm BC = 10 cm
+
+Calculate the area, in cm² to one decimal place, of triangle ABC. Figure 3 shows two solid right prisms, each of length 7 cm. One of the prisms has triangle ABC as a cross section of the prism. The other prism has trapezium DEFG as a cross section of the prism. Diagram NOT A accurately drawn F E 9 cm 9 cm 5.5 cm 4.5 cm 7 cm D G 7 cm B 10 cm C Figure 3 In trapezium DEFG, DE = 4.5 cm FG = 5.5 cm The perimeter of trapezium DEFG is equal to the perimeter of triangle ABC.
+
+![diagram — official paper figure (qp.pdf p.8)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-06/4MB1-02/assets/asset_4_a_diagram.png)
 
 ![diagram — official paper figure (qp.pdf p.8)](assets/asset_4_a_diagram.png)
 
@@ -153,7 +152,7 @@ Calculate the area, in cm2 to one decimal place, of triangle ABC. Figure 3 shows
 
 ### 4(b) [5]
 
-Calculate the difference, in cm3 to one decimal place, between the volumes of the two prisms. ⎡ 1 ⎤ ⎢⎣ Area of trapezium = 2 (a + b)h ⎥⎦
+Calculate the difference, in cm³ to one decimal place, between the volumes of the two prisms. ⎡ 1 ⎤ ⎢⎣ Area of trapezium = 2 (a + b)h ⎥⎦
 
 
 **Mark scheme answer**
@@ -180,9 +179,7 @@ Calculate the difference, in cm3 to one decimal place, between the volumes of th
 > Allow the use of their value of EF + DG ("18")
 > or ± ("40.5" – "37.417...") × 7
 > or ± ("283.5" − "261.9...")
-> 21.6 (cm3) A1 ± (21– 21.7) inclusive Allow ± 21.6
-> Total 8 marks
-> Question Working Answer Mark Notes
+> 21.6 (cm³) A1 ± (21– 21.7) inclusive Allow ± 21.6
 
 - **(5)** "37.4" × 7 [=261.9...] 5 M1 ft allow use of their part(a) or correct method if they start again.
 
@@ -220,7 +217,7 @@ Calculate the difference between the number of cups of coffee and the number of 
 
 ### 5(c) [2]
 
-Calculate the number of cups of coffee that Tahina sold without milk. The cost of each cup of coffee that Tahina sells from the kiosk is £2.80 Tahina went on holiday to the USA and to Canada. She bought a cup of coffee in the USA for $3.20 Using an exchange rate of £1 = $1.24
+Calculate the number of cups of coffee that Tahina sold without milk. The cost of each cup of coffee that Tahina sells from the kiosk is £2.80 Tahina went on holiday to the USA and to Canada. She bought a cup of coffee in the USA for \$3.20 Using an exchange rate of £1 = \$1.24
 
 
 **Mark scheme answer**
@@ -234,25 +231,25 @@ Calculate the number of cups of coffee that Tahina sold without milk. The cost o
 
 ### 5(d) [2]
 
-compare the cost of each cup of coffee sold from Tahina’s kiosk with the cost of the cup of coffee that Tahina bought in the USA. In Canada, Tahina bought a sandwich for 5.28 Canadian dollars. Using exchange rates of £1 = $1.24 and 1 Canadian dollar = $0.75
+compare the cost of each cup of coffee sold from Tahina’s kiosk with the cost of the cup of coffee that Tahina bought in the USA. In Canada, Tahina bought a sandwich for 5.28 Canadian dollars. Using exchange rates of £1 = \$1.24 and 1 Canadian dollar = \$0.75
 
 
 **Mark scheme answer**
 
-> 2.80 × 1.24 [=($)3.47(2)] or 2 M1 Allow for 3.47… or 2.58… if working not shown.
+> 2.80 × 1.24 [=(\$)3.47(2)] or 2 M1 Allow for 3.47… or 2.58… if working not shown.
 > 3.20 ÷ 1.24 [(£)2.58...] Allow n × 2.80 × 1.24 and n × 3.2
-> NB for n = 210 the figures are ($)729.12 and ($)672
+> NB for n = 210 the figures are (\$)729.12 and (\$)672
 > Allow m × 3.20 ÷ 1.24 and m × 2.80
 > NB for m = 210 the figures are (£)541.94 and (£)588
 > The coffee is A1 dep oe must have a correct conversion and comparison
 > more expensive in words.
-> from the kiosk eg the difference is ($)0.27 or ($)57.12
+> from the kiosk eg the difference is (\$)0.27 or (\$)57.12
 > the difference is (£)0.22 or (£)46.06
 > NB the difference must be correct for these 2 statements.
 > coffee is more expensive in UK,
 > coffee is cheaper in the USA etc.
 
-- **(2)** 2.80 × 1.24 [=($)3.47(2)] or 2 M1 Allow for 3.47… or 2.58… if working not shown.
+- **(2)** 2.80 × 1.24 [=(\$)3.47(2)] or 2 M1 Allow for 3.47… or 2.58… if working not shown.
 
 ### 5(e) [3]
 
@@ -264,8 +261,6 @@ convert 5.28 Canadian dollars to pounds (£) Give your answer to 2 decimal place
 > 5.28 × 0.75 (= 3.96) 3 M1
 > 5.28 × 0.75 ÷ 1.24 or "3.96" ÷ 1.24 M1
 > (£)3.19 A1 Ignore incorrect currency signs.
-> Total 12 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 5.28 × 0.75 (= 3.96) 3 M1
 
@@ -284,14 +279,12 @@ Solve the simultaneous equations x 2 + y 2 = 26 2x + y = 9 Show clear algebraic 
 > x + (9 − 2 x) 2 = 26
 > 2 6 M1 for substituting a correct linear equation into the quadratic
 > equation.
-> ⎛9− y ⎞
-> ⎟ + y = 26
-> or ⎜
-> ⎝ 2 ⎠
+> 9− y + y = 26
+> or 2 
 > x + (81 − 18 x − 18 x + 4 x 2 ) = 26
 > 2 M1 correct expansion of brackets, condone one sign error .
 > ⎛ 81 − 9 y − 9 y + y 2 ⎞ 2
-> or ⎜ ⎟ + y = 26
+> or + y = 26
 > ⎝ 4 ⎠
 > 5 x − 36 x + 55 (= 0)
 > 2 A1 dependent on M1( one of the 2 above) for a correct
@@ -318,8 +311,6 @@ Solve the simultaneous equations x 2 + y 2 = 26 2x + y = 9 Show clear algebraic 
 > or y = 4.6 oe and y = −1 correct values.
 > x = 2.2, y = 4.6 A1 dependent on 2 method marks being awarded. It must be
 > x = 5 , y = −1 clear which value of x goes with which value of y
-> Total 6 marks
-> Question Working Answer Mark Notes
 
 - **(6)** x + (9 − 2 x) 2 = 26
 
@@ -332,7 +323,9 @@ A 10b C 4a Diagram NOT accurately drawn O 6b B Figure 4 Figure 4 shows a trapezi
 
 A 10b C 4a Diagram NOT accurately drawn O 6b B Figure 4 Figure 4 shows a trapezium OACB. → → → OA = 4a OB = 6b AC = 10b P is the point on AB such that OPC is a straight line. → Find an expression for PC in terms of a and b. Give your answer in its simplest form.
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![diagram — official paper figure (qp.pdf p.17)](assets/asset_7_diagram.png)
 
 
 **Mark scheme answer**
@@ -357,7 +350,6 @@ A 10b C 4a Diagram NOT accurately drawn O 6b B Figure 4 Figure 4 shows a trapezi
 > a+ b A1 oe ⎜ a + b ⎟ Accept equivalent fractions eg ( 2a + 5b )
 > 2 4 2⎝ 2 ⎠
 > NB award 6 marks if the final answer is correct.
-> Total 6 marks
 > NB: There are many ways to solve this question. You will need to check their working carefully.
 > Alternative – using similar triangles.
 > M1 for stating that OBP and ACP are similar (triangles). Implied by a correct ratio.
@@ -366,7 +358,6 @@ A 10b C 4a Diagram NOT accurately drawn O 6b B Figure 4 Figure 4 shows a trapezi
 > A1 for reaching 3/5 PC + PC = 4a +10b or another correct equation involving point P.
 > M1 for PC = (4a + 10b) ÷ 8/5 oe
 > A1 for 2.5a + 6.25b oe
-> Question Working Answer Mark Notes
 
 - **(6)** eg AP = μ (6b − 4a) 6 M1 A correct expression, in terms of a and b. for AP or OP or
 
@@ -377,9 +368,13 @@ The diagram shows kite A. Kite B is the image of kite A under a reflection in th
 
 ### 8(a) [2]
 
-On the grid opposite, draw and label kite B. Kite A is transformed to kite C by a reflection in the line with equation x = 4 followed by ⎛ −8⎞ the translation ⎜ ⎟ ⎝ −6⎠ Kite C is the image of kite B under a rotation through 180° about the point P.
+The diagram shows kite A. Kite B is the image of kite A under a reflection in the line with equation y = –1
 
-> 🖼 crop required: grid (qp.pdf p.20)
+On the grid opposite, draw and label kite B. Kite A is transformed to kite C by a reflection in the line with equation x = 4 followed by ⎛ −8⎞ the translation −6⎠ Kite C is the image of kite B under a rotation through 180° about the point P.
+
+![figure — official paper figure (qp.pdf p.20)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-06/4MB1-02/assets/asset_8_8-a.png)
+
+![figure — official paper figure (qp.pdf p.20)](assets/asset_8_8-a.png)
 
 
 **Mark scheme answer**
@@ -393,20 +388,21 @@ On the grid opposite, draw and label kite B. Kite A is transformed to kite C by 
 
 On the grid opposite, draw and label kite C.
 
-> 🖼 crop required: grid (qp.pdf p.20)
+![figure — official paper figure (qp.pdf p.1)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-06/4MB1-02/assets/asset_8_8-b-i.png)
+
+![figure — official paper figure (qp.pdf p.1)](assets/asset_8_8-b-i.png)
 
 
 **Mark scheme answer**
 
 > Kite C correctly 2 ⎛ −8 ⎞ ⎛ m ⎞
-> drawn B2 (B1 for “C” drawn using ⎜ ⎟ or ⎜ ⎟
-> ⎝ n ⎠ ⎝ −6 ⎠
+> drawn B2 (B1 for “C” drawn using or n ⎠ ⎝ −6 ⎠
 > from kite A)
 
 
 ### 8(b)(ii) [3]
 
-Find the coordinates of P. ⎛ 0 −1⎞ ⎛ 0 −1⎞ M= ⎜ ⎝ −2 0⎟⎠ N= ⎜ ⎝ 1 0⎟⎠ Kite A is transformed to kite D under the combined transformation with matrix MN.
+Find the coordinates of P. ⎛ 0 −1⎞ ⎛ 0 −1⎞ M= −2 0 N= 1 0 Kite A is transformed to kite D under the combined transformation with matrix MN.
 
 
 **Mark scheme answer**
@@ -421,47 +417,45 @@ Find the coordinates of P. ⎛ 0 −1⎞ ⎛ 0 −1⎞ M= ⎜ ⎝ −2 0⎟⎠ N
 
 On the grid opposite, draw and label kite D. area of kite D Given that =k area of kite A
 
-> 🖼 crop required: grid (qp.pdf p.20)
+![figure — official paper figure (qp.pdf p.20)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-06/4MB1-02/assets/asset_8_8-c.png)
+
+![figure — official paper figure (qp.pdf p.20)](assets/asset_8_8-c.png)
 
 
 **Mark scheme answer**
 
 > ⎛ 0 −1⎞⎛ 4 6 4 2 ⎞ ⎡ ⎛ −1 −3 −4 −3 ⎞ ⎤ 4 M1 The result of the matrix product is not
-> ⎜ ⎟⎜ ⎟ ⎢= ⎜ ⎟ ⎥ or needed. The coordinates of the kite can be in
+>  = or needed. The coordinates of the kite can be in
 > ⎝ 1 0 ⎠⎝ 1 3 4 3 ⎠ ⎣ ⎝ 4 6 4 2 ⎠ ⎦ any order.
-> ⎛ 0 −1 ⎞⎛ 0 −1 ⎞ ⎡ ⎛ −1 0 ⎞ ⎤
-> ⎜ ⎟⎜ ⎟ ⎢= ⎜ ⎟⎥
-> ⎝ −2 0 ⎠⎝ 1 0 ⎠ ⎣ ⎝ 0 2 ⎠ ⎦
+> ⎛ 0 −1 ⎞⎛ 0 −1 ⎞ ⎡ ⎛ −1 0 = −2 0 ⎠⎝ 1 0 ⎠ ⎣ ⎝ 0 2 ⎠ ⎦
 > ⎛ 0 −1⎞ ⎛ −1 −3 −4 −3 ⎞ ⎡ ⎛ −4 −6 −4 −2 ⎞ ⎤ M1ft dep The coordinates of the kite can be in
-> ⎜ ⎟ "⎜ ⎟ " ⎢= ⎜ ⎟⎥ any order.
+>  " " = any order.
 > ⎝ −2 0 ⎠ ⎝ 4 6 4 2 ⎠ ⎣ ⎝ 2 6 4 2 ⎠ ⎦
 > The result of the matrix product is not needed.
 > or
 > ⎛ −1 0 ⎞ ⎛ 4 6 4 2 ⎞ ⎡ ⎛ −4 −6 −4 −2 ⎞ ⎤
-> "⎜ ⎟ "⎜ ⎟ ⎢= ⎜ ⎟⎥
-> ⎝ 0 2 ⎠ ⎝ 1 3 4 3 ⎠ ⎣ ⎝ 2 6 8 6 ⎠⎦
+> " " = 0 2 ⎠ ⎝ 1 3 4 3 ⎠ ⎣ ⎝ 2 6 8 6 ⎠⎦
 > ⎛ −4 −6 −4 −2 ⎞ A1 at least 2 points correct. This is not
-> ⎜ ⎟ implied by 2 points on the diagram .The
+>  implied by 2 points on the diagram .The
 > ⎝ 2 6 8 6⎠
 > coordinates of the kite can be in any order.
 > Kite D correctly A1
 > drawn NB If the kite is drawn correctly award 4
-> marks.
 
 - **(4)** ⎛ 0 −1⎞⎛ 4 6 4 2 ⎞ ⎡ ⎛ −1 −3 −4 −3 ⎞ ⎤ 4 M1 The result of the matrix product is not
 
 ### 8(d) [1]
 
-find the value of k. y A –7 –6 –5 –4 –3 –2 –1 O 1 2 3 4 5 6 7 x –1 –2 –3 –4 –5 –6 –7 for a spare grid if you need to redraw your kites. Only use this grid if you need to redraw your kites. y A –7 –6 –5 –4 –3 –2 –1 O 1 2 3 4 5 6 7 x –1 –2 –3 –4 –5 –6 –7
+find the value of k.
 
-> 🖼 crop required: grid (qp.pdf p.None)
+![grid — official paper figure (qp.pdf p.21)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-06/4MB1-02/assets/asset_8_d_grid.png)
+
+![grid — official paper figure (qp.pdf p.22)](assets/asset_8_grid.png)
 
 
 **Mark scheme answer**
 
 > 2 1 B1
-> Total 10 marks
-> Question Working Answer Mark Notes
 
 - **(1)** 2 1 B1
 
@@ -530,7 +524,7 @@ n(B ∪ C ∪ P)
 
 ### 9(c)(iii) [3]
 
-n(B ∩ C ∩ P¢) One of the students is to be chosen at random. Given that this student studies Chemistry,
+n(B ∩ C ∩ P¢) One of the students is to be chosen at random. Given that this student studies Chemistry …………… , ……………
 
 
 **Mark scheme answer**
@@ -561,8 +555,6 @@ find the probability that this student also studies Physics.
 > SC: B1ft for with "their 20" ie "their 7" + "their 13" as long
 > m
 > as neither blank where m ≥ 20 Ignore cancelling.
-> Total 10 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 20 2 B2 Allow awrt 0.54
 
@@ -573,7 +565,9 @@ The function g is such that g:x ↦ x−3
 
 ### 10(a) [1]
 
-State the value of x that must be excluded from any domain of g. The function h is defined for all values of x by h : x ↦ x2 + 4
+The function g is such that g:x ↦ x−3
+
+State the value of x that must be excluded from any domain of g. The function h is defined for all values of x by h : x ↦ x² + 4
 
 
 **Mark scheme answer**
@@ -615,7 +609,7 @@ Find hg(5)
 
 > g(5) = 6 2 4(45 − 6 × 5 + 52 )
 > ⎛ 12 ⎞
-> M1 Allow or ⎜ ⎟ + 4 oe
+> M1 Allow or + 4 oe
 > (5 − 3) 2
 > ⎝ 5−3⎠
 > 40 A1
@@ -652,7 +646,7 @@ Show that hg(x) can be written as ( x − 3) 2
 
 > ⎛ 12 ⎞
 > 2
-> ⎜ ⎟ + 4 oe M1 A correct expression. May be implied by the 2nd M1
+>  + 4 oe M1 A correct expression. May be implied by the 2nd M1
 > ⎝ x −3⎠
 > 144 122
 > +4 M1 accept +4
@@ -676,13 +670,11 @@ Solve hg(x) = 5 Show clear algebraic working.
 
 > 4(45 − 6 x + x 2 ) ⎛ 12 ⎞
 > 2
-> =5 or ⎜ ⎟ + 4 = 5 oe M1 equating correct equation to 5
+> =5 or + 4 = 5 oe M1 equating correct equation to 5
 > ( x − 3) 2
 > ⎝ x −3⎠
 > x 2 − 6 x − 135( = 0) or 12² = (x – 3)² oe M1 rearranging to get a correct 3 term quadratic.
 > x = 15 or −9 A1
-> Total 14 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 4(45 − 6 x + x 2 ) ⎛ 12 ⎞
 
@@ -740,7 +732,9 @@ By drawing on the grid a suitable tangent to the curve, find an estimate, to the
 
 ### 11(d) [2]
 
-Use your graph to find the range of values of x, in –2.5 ≤ x ≤ 2.5, for which 2x 3 – 3x + 4 > 5x y –3 –2 –1 O 1 2 3 x –5 –10 –15 –20 –25 for a spare grid if you need to redraw your graph. Only use this grid if you need to redraw your graph. y –3 –2 –1 O 1 2 3 x –5 –10 –15 –20 –25
+Use your graph to find the range of values of x, in –2.5 ≤ x ≤ 2.5, for which 2x 3 – 3x + 4 > 5x
+
+![graph — official paper figure (qp.pdf p.31) (same figure as asset_11_b_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-06/4MB1-02/assets/asset_11_b_grid.png)
 
 ![graph — official paper figure (qp.pdf p.31) — shared with asset_11_b_grid](assets/asset_11_b_grid.png)
 
@@ -756,8 +750,6 @@ Use your graph to find the range of values of x, in –2.5 ≤ x ≤ 2.5, for wh
 > and
 > be square or round.[allow use of < or ≤]
 > 1.7 < x ≤ 2.5
-> Total 10 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 2 M1ft drawing the line y = 5x from x = − 2 to x = +2
 
@@ -768,9 +760,13 @@ Harvey has two bags of counters, bag A and bag B. Bag A contains 8 red counters,
 
 ### 12(a) [3]
 
+Harvey has two bags of counters, bag A and bag B. Bag A contains 8 red counters, 3 orange counters and 4 yellow counters only. Bag B contains 3 red counters, 2 orange counters and 5 green counters only. Harvey takes at random one counter from bag A and one counter from bag B.
+
 Complete the probability tree diagram on the opposite page.
 
-> 🖼 crop required: diagram (qp.pdf p.34)
+![figure — official paper figure (qp.pdf p.34)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-06/4MB1-02/assets/asset_12_12-a.png)
+
+![figure — official paper figure (qp.pdf p.34)](assets/asset_12_12-a.png)
 
 
 **Mark scheme answer**
@@ -787,7 +783,7 @@ Complete the probability tree diagram on the opposite page.
 > 3 2 5
 > , ,
 > 10 10 10
-> [RO+RG =] ⎛⎜ " "× " "+ " "× " " ⎞⎟ or ⎛⎜ " "× " " ⎞⎟
+> [RO+RG =] " "× " "+ " "× " " or " "× " " 
 
 - **(3)** 3 4 3 B3 for all correct branches (B2 for 3 of 4 sets
 
@@ -802,21 +798,19 @@ Calculate the probability that the two counters taken have different colours. Ha
 > ⎝ 15 10 15 10 ⎠ ⎝ 15 10 ⎠ For one of these 4 correct.
 > The probabilities are
 > ⎛ 3 8 ⎞
-> [OR+OG =] ⎛⎜ " "× " "+ " "× " " ⎞⎟ or ⎜ " "× " " ⎟
+> [OR+OG =] " "× " "+ " "× " " or ⎜ " "× " " ⎟
 > 3 3 3
 > ⎡ 28 ⎤ ⎡ 24 ⎤ ⎡ 4 ⎤ ⎡ 1 ⎤
 > ⎝ 15 10 15 10 ⎠ ⎝ 15 10 ⎠ ⎢⎣ = 75 ⎥⎦ ⎢⎣ = 150 ⎥⎦ ⎢⎣ = 15 ⎥⎦ ⎢⎣ = 5 ⎥⎦
 > ⎛ 4 ⎞
-> [YR+YO+YG = ] ⎛⎜ " "× " "+ " "× " "+ " "× " " ⎞⎟ or ⎜ " "× 1⎟
+> [YR+YO+YG = ] " "× " "+ " "× " "+ " "× " " or ⎜ " "× 1⎟
 > 4 3 4 2 4
 > May be implied by
 > ⎝ 15 10 15 10 15 10 ⎠ ⎝ 15 ⎠
 > ⎛ 8 3 3 2 ⎞
-> for 1 − ⎜ " "× " "+ " "× " " ⎟
-> ⎝ 15 10 15 10 ⎠
+> for 1 − ⎜ " "× " "+ " "× " " 15 10 15 10 ⎠
 > (RO+RG)+(OR+OG)+(YR+YO+YG) or 1 – (RR+OO) M1ft their tree diagram. For all correct
-> ⎛ 8 7 ⎞ ⎛ 3 8 ⎞ ⎛ 4 ⎞
-> ⎜ " "× " " ⎟ + ⎜ " "× " " ⎟ + ⎜ " "×1⎟ or products added or = 1 − "their "
+> ⎛ 8 7 ⎞ ⎛ 3 8 ⎞ ⎛ 4 " "× " " ⎟ + ⎜ " "× " " ⎟ + ⎜ " "×1⎟ or products added or = 1 − "their "
 > ⎝ 15 10 ⎠ ⎝ 15 10 ⎠ ⎝ 15 ⎠
 > ⎛ 8 3 3 2 ⎞
 > 1 − ⎜ " "× " "+ " "× " " ⎟ oe

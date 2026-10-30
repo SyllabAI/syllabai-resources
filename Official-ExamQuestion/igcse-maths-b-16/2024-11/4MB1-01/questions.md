@@ -81,7 +81,9 @@ The bearing of Port A from Port B is 276° Find the bearing of Port B from Port 
 
 ### 4 [2]
 
-The bearing of Port A from Port B is 276° Find the bearing of Port B from Port A °
+The bearing of Port A from Port B is 276° Find the bearing of Port B from Port A
+
+…………… °
 
 
 **Mark scheme answer**
@@ -89,7 +91,6 @@ The bearing of Port A from Port B is 276° Find the bearing of Port B from Port 
 > 276 − 180 or 90 + (276 − 270) or 2 M1 for a complete correct method to find the bearing e.g. 90 + 6
 > 180 − (360 − 276) Do not ISW e.g. 276 – 180 = 96 180 – 96 = 84 scores M0
 > 096 A1 for 096 accept 96 Do not ISW
-> cas Total 2 marks
 
 - **(2)** 276 − 180 or 90 + (276 − 270) or 2 M1 for a complete correct method to find the bearing e.g. 90 + 6
 
@@ -100,7 +101,7 @@ Solve x x 7 7 x = ......................... . . . . . . . . . . . . . . . . . . 
 
 ### 5 [2]
 
-Solve x x 7 7 x =
+Solve x x 7 7 x = ……………Solve x x 7 7 x =
 
 
 **Mark scheme answer**
@@ -113,7 +114,6 @@ Solve x x 7 7 x =
 > May be implied by [x =] 42 or [ x =]
 > 42 126
 > A1 cao Accept [ x =] oe
-> cas Total 2 marks
 
 - **(2)** 3 2 M1 for a correct equation in the form ax = b e.g. 3x = 126
 
@@ -133,7 +133,6 @@ A 2 x 7 4 B 2 2 7 y Given that x > 2 and y > 4 find the highest common factor (H
 > other terms. Do not accept 2 x × 32 × 7 4 as this is A which is given in
 > the question
 > 86 436 A1 for 86 436 or 22 × 32 × 7 4 or 2 × 2 × 3 × 3 × 7 × 7 × 7 × 7
-> cas Total 2 marks
 
 - **(2)** 22 × 32 × 7 4 or 22 × 32 × 50 × 74 2 M1 for 2 correct terms written in a product e.g. 22 × 32 ignore any
 
@@ -158,7 +157,6 @@ A biased dice has six faces numbered 1, 2, 3, 4, 5 and 6 The table below shows i
 > 126 126
 > A1 cao Do not allow as a final answer
 > 300
-> cas Total 2 marks
 
 - **(2)** 0.03 + 0.32 + 0.07[= 0.42] oe or p × 300 2 M1for a correct method to find P(>3) e.g. (1 − (0.1 + 0.3 + 0.18) )
 
@@ -182,7 +180,6 @@ A biased dice has six faces numbered 1, 2, 3, 4, 5 and 6 The table below shows i
 > potatoes
 > or ( 5.34 − "1.14") × [= 3.36]
 > 5.07 A1 cao
-> cas Total 3 marks
 
 - **(3)** 2 3 M1 for a correct first step to find the cost of 1 kg of onions, or to
 
@@ -193,9 +190,12 @@ A B Diagram NOT D C 6 cm accurately drawn G F 5.5 cm E 12 cm H The diagram shows
 
 ### 9 [3]
 
-A B Diagram NOT D C 6 cm accurately drawn G F 5.5 cm E 12 cm H The diagram shows a solid cuboid ABCDEFGH EH = 12 cm GH = 5.5 cm BG = 6 cm Calculate the total surface area, in cm2, of the cuboid cm2
+The diagram shows a solid cuboid ABCDEFGH EH = 12 cm GH = 5.5 cm BG = 6 cm Calculate the total surface area, in cm², of the cuboid cm²
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, B, D, C, G, F, E, H · Figure values: 6, 5.5, 12.
+
+![diagram — official paper figure (qp.pdf p.5)](assets/asset_9_diagram.png)
 
 
 **Mark scheme answer**
@@ -206,7 +206,6 @@ A B Diagram NOT D C 6 cm accurately drawn G F 5.5 cm E 12 cm H The diagram shows
 > ("66"+ "72"+ "33") × 2 M1 dep on 1st M1 for a complete correct method to find the surface
 > area
 > 342 A1 cao
-> cas Total 3 marks
 
 - **(3)** 12 × 5.5[= 66] 3 M1 for a correct method to find at least 2 different areas
 
@@ -219,7 +218,9 @@ y −5 −4 −3 −2 −1 O 1 2 3 4 5 x −1 −2 −3 L1 −4 −5 The straigh
 
 y −5 −4 −3 −2 −1 O 1 2 3 4 5 x −1 −2 −3 L1 −4 −5 The straight line L1 is drawn on the grid. The straight line L2 is parallel to L1 and passes through the point with coordinates 9, 12 Find an equation for L2 Give your answer in the form y mx c
 
-> 🖼 crop required: grid (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![grid — official paper figure (qp.pdf p.6)](assets/asset_10_grid.png)
 
 
 **Mark scheme answer**
@@ -236,7 +237,6 @@ y −5 −4 −3 −2 −1 O 1 2 3 4 5 x −1 −2 −3 L1 −4 −5 The straigh
 > y = −2x – 6 A1 for y = −2x – 6 do not ISW, allow y = –6 − 2x
 > Must see y = on answer line or if not on the answer line, then award
 > this mark if seen in the working
-> cas Total 3 marks
 
 - **(3)** change in y −6 3 M1 for a correct method to find the gradient of L1, eg −6 oe
 
@@ -255,7 +255,6 @@ Calculate 2.3 10114 4.6 10117 Give your answer in standard form.
 > for 0.0005 or 5 ×10n n < 0 or 2 M1 Allow any correct answer not in standard form e.g. 0.5 ×10−3 oe
 > m ×10−4 1 ⩽ m < 10
 > 5 ×10−4 A1 cao Do not ISW
-> cas Total 2 marks
 
 - **(2)** for 0.0005 or 5 ×10n n < 0 or 2 M1 Allow any correct answer not in standard form e.g. 0.5 ×10−3 oe
 
@@ -291,7 +290,6 @@ A, B, C and D are numbers such that A: B = 2:5 A: D = 3:8 B : C = 9 : 11 Find C 
 > Allow decimal equivalents if 2 decimal places or better
 > 55:48 A1 allow 1 : 48 or 55 : 1
 > 55
-> cas Total 3 marks
 
 - **(3)** B : D = 15 : 16 oe or A : C = 18 : 55 oe 3 M1 for a correct ratio
 
@@ -302,9 +300,12 @@ D Diagram NOT accurately drawn A 1.7 m B 12.2 m C The diagram shows quadrilatera
 
 ### 13 [3]
 
-D Diagram NOT accurately drawn A 1.7 m B 12.2 m C The diagram shows quadrilateral ABCD where B and C are on horizontal ground and BA and CD are vertical. BC = 12.2 metres AB = 1.7 metres ABC BCD The angle of elevation of D from A is 32° Calculate the length, in metres to 3 significant figures, of CD metres
+The diagram shows quadrilateral ABCD where B and C are on horizontal ground and BA and CD are vertical. BC = 12.2 metres AB = 1.7 metres ABC BCD The angle of elevation of D from A is 32° Calculate the length, in metres to 3 significant figures, of CD metres
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: D, A, B, C · Figure values: 1.7, 12.2.
+
+![diagram — official paper figure (qp.pdf p.8)](assets/asset_13_diagram.png)
 
 
 **Mark scheme answer**
@@ -319,13 +320,12 @@ D Diagram NOT accurately drawn A 1.7 m B 12.2 m C The diagram shows quadrilatera
 > = [⇒ height = 7.62...] or
 > sin 32 sin 58
 > ⎛ 12.2 ⎞
-> height = ⎜ ⎟ − 12.2 [ = 7.62...]
+> height = − 12.2 [ = 7.62...]
 > ⎝ sin 58 ⎠
 > 7.62... + 1.7 M1 for a complete correct method to find CD
 > e.g. awrt 7.6 + 1.7 (Allow ft provided that “7.62…” has come from
 > using a trig statement)
 > 9.32 A1 for awrt 9.3
-> cas Total 3 marks
 
 - **(3)** height 3 M1 for a correct trig statement or a fully correct method to find the
 
@@ -354,7 +354,6 @@ Write as a single fraction in its simplest form x 1 2 x 5 7 4
 > 25 − 4 x −4 x + 25 2 x 25
 > A1 accept or − + Do not ISW
 > 14 14 7 14
-> cas Total 3 marks
 
 - **(3)** 20 x − 20 − 28 x + 70 3 M2 for a fully correct expression
 
@@ -378,7 +377,6 @@ A team takes part in a sports league. After 12 games its mean score per game is 
 > 3 M1 dep on 2nd M1 for correct use of the ratio to find the score in
 > "220"× oe game 14
 > 132 A1 cao
-> cas Total 4 marks
 
 - **(4)** 96 ×12[= 1152] or 98 ×14[= 1372] or 4 M1 for a correct method to find the total points after 12 games or
 
@@ -389,9 +387,12 @@ B A C Diagram NOT accurately drawn 94° H 113° G F D E In the diagram, BGE is a
 
 ### 16 [4]
 
-B A C Diagram NOT accurately drawn 94° H 113° G F D E In the diagram, BGE is an isosceles triangle with EG = BG ABC, DEF and EGH are straight lines. ABC is parallel to DEF DEB 113 BGH Find the size, in degrees, of ∠CBG Give a reason for each stage of your working. CBG °
+In the diagram, BGE is an isosceles triangle with EG = BG ABC, DEF and EGH are straight lines. ABC is parallel to DEF DEB 113 BGH Find the size, in degrees, of ∠CBG Give a reason for each stage of your working. CBG °
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: B, A, C, H, G, F, D, E · Figure values: 94°, 113°.
+
+![diagram — official paper figure (qp.pdf p.10)](assets/asset_16_diagram.png)
 
 
 **Mark scheme answer**
@@ -429,25 +430,25 @@ At the start of 2012, Fatima bought a car for $15 500 From the start of 2012 to 
 
 ### 17 [4]
 
-At the start of 2012, Fatima bought a car for $15 500 From the start of 2012 to the start of 2014, the value of the car decreased by 8% From the start of 2014 to the start of 2016, the value of the car decreased by 2.2% From the start of 2016 to the start of 2018, the value of the car decreased by x% At the start of 2018, the value of the car was $13 137.40 Calculate, to 2 significant figures, the value of x x =
+At the start of 2012, Fatima bought a car for \$15 500 From the start of 2012 to the start of 2014, the value of the car decreased by 8% From the start of 2014 to the start of 2016, the value of the car decreased by 2.2% From the start of 2016 to the start of 2018, the value of the car decreased by x% At the start of 2018, the value of the car was \$13 137.40 Calculate, to 2 significant figures, the value of x x =
 
 
 **Mark scheme answer**
 
 > ⎛ 100 − 8 ⎞ 4 M1 for a correct method to find the value in 2014
-> 15500 × ⎜ ⎟ [ = 14260] or May be implied by 14260 or 13946.28 (allow 13946.3 or 13946)
+> 15500 × [ = 14260] or May be implied by 14260 or 13946.28 (allow 13946.3 or 13946)
 > ⎝ 100 ⎠
 > ⎛ 8 ⎞
 > 15500 − ⎜ ×15500 ⎟ [ = 14260]
 > ⎝ 100 ⎠
 > ⎛ 100 − 2.2 ⎞ M1 dep on 1st M1 for a correct method to find the value in 2016
-> "14260"× ⎜ ⎟ [ = 13946.28] or May be implied by 13946.28 (Allow 13946.3 or 13946)
+> "14260"× [ = 13946.28] or May be implied by 13946.28 (Allow 13946.3 or 13946)
 > ⎝ 100 ⎠
 > ⎛ 2.2 ⎞
 > "14260"− ⎜ × "14260" ⎟ [ = 13946.28]
 > ⎝ 100 ⎠
 > ⎛ ("13946.28"− 13137.40 ) ⎞ M1 dep on 2nd M1 for a correct method to find the multiplier for the
-> ⎜ ⎟ [×100] oe or final change e.g. "13946.28"− ("13946.28"× x ) = 13137.40
+>  [×100] oe or final change e.g. "13946.28"− ("13946.28"× x ) = 13137.40
 > ⎝ "13946.28" ⎠
 > ⎛ 13137.40 ⎞ May be implied by awrt 5.8 or 0.058
 > ⎜1 − ⎟ [×100]
@@ -455,7 +456,6 @@ At the start of 2012, Fatima bought a car for $15 500 From the start of 2012 to 
 > 5.8 A1 awrt 5.8 Condone awrt 5.8%
 > SC If they do an 8% increase followed by a 2.2% increase then
 > award B1 for awrt 0.23 or awrt 23%
-> cas Total 4 marks
 
 - **(4)** ⎛ 100 − 8 ⎞ 4 M1 for a correct method to find the value in 2014
 
@@ -473,7 +473,7 @@ Make t the subject of r 3t
 
 > 5t − 7 4
 > ⎛ 5t − 7 ⎞
-> r2 = M1 for removing square root. Allow r = ⎜⎜ ⎟⎟
+> r2 = M1 for removing square root. Allow r = 
 > 8 − 3t
 > ⎝ 8 − 3t ⎠
 > May be implied by 8r 2 − 3r 2t = 5t − 7
@@ -490,7 +490,6 @@ Make t the subject of r 3t
 > Must see t = on answer line or if not on the answer line, then award
 > this mark if seen in the working
 > Do not ISW
-> cas Total 4 marks
 
 - **(4)** 5t − 7 4
 
@@ -507,8 +506,8 @@ Find AB 3 2 C 5 6
 **Mark scheme answer**
 
 > ⎛ ( 2 × 3 + 1× 0 ) ( 2 × ( −3) + 1× 2 ) ⎞ ⎛ 6 −4 ⎞ 2 B2 cao
-> ⎜ ⎟ ⎜ ⎟ (B1 for 2 terms correct)
-> ⎜ ( 4 × 3 + 3 × 0 ) ( 4 × ( −3) + 3 × 2 ) ⎟ ⎝ 12 −6 ⎠
+>  (B1 for 2 terms correct)
+> ⎜ ( 4 × 3 + 3 × 0 ) ( 4 × ( −3) + 3 × 2 ) 12 −6 ⎠
 > ⎝ ⎠
 
 - **(2)** ⎛ ( 2 × 3 + 1× 0 ) ( 2 × ( −3) + 1× 2 ) ⎞ ⎛ 6 −4 ⎞ 2 B2 cao
@@ -521,24 +520,14 @@ Find C −1
 **Mark scheme answer**
 
 > 1 ⎛ 6 −2 ⎞ 2 M1 for a correct determinant or matrix element of the inverse
-> ⎜ ⎟ ⎛ 6 −2 ⎞
-> 3 × 6 − 2 × 5 ⎝ −5 3 ⎠ e.g. 3 × 6 − 2 × 5 or ⎜ ⎟ with all 4 terms correct
+>  6 −2 
+> 3 × 6 − 2 × 5 ⎝ −5 3 ⎠ e.g. 3 × 6 − 2 × 5 or with all 4 terms correct
 > ⎝ −5 3 ⎠
-> ⎛ 3 1⎞
-> ⎜ − ⎟
-> or ⎜ 4 4 with 2 terms correct
-> ⎟
-> ⎜−5 3⎟
-> ⎜ ⎟
-> ⎝ 8 8⎠
-> ⎛ 3 1⎞ 1 ⎛ 6 −2 ⎞
-> ⎜ 4 − ⎟ A1 oe Allow ⎜ ⎟ ISW
-> ⎜
-> ⎟ 8 ⎝ −5 3⎠
-> ⎜−5 3⎟
-> ⎜ ⎟
-> ⎝ 8 8⎠
-> cas Total 4 marks
+> ⎛ 3 1 − ⎟
+> or 4 4 with 2 terms correct
+>  −5 3 8 8
+> ⎛ 3 1⎞ 1 ⎛ 6 −2 4 − ⎟ A1 oe Allow ISW
+>  8 ⎝ −5 3 −5 3 8 8⎠
 
 - **(2)** 1 ⎛ 6 −2 ⎞ 2 M1 for a correct determinant or matrix element of the inverse
 
@@ -549,9 +538,12 @@ C Diagram NOT accurately drawn D B O 61° E 27° A F In the diagram A, B, C and 
 
 ### 20 [4]
 
-C Diagram NOT accurately drawn D B O 61° E 27° A F In the diagram A, B, C and E are points on a circle with centre O DEF is the tangent to the circle at the point E BA = BC OAE CED Find the size, in degrees, of ∠BCE BCE °
+In the diagram A, B, C and E are points on a circle with centre O DEF is the tangent to the circle at the point E BA = BC OAE CED Find the size, in degrees, of ∠BCE BCE °
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: C, D, B, O, E, A, F · Figure values: 61°, 27°.
+
+![diagram — official paper figure (qp.pdf p.13)](assets/asset_20_diagram.png)
 
 
 **Mark scheme answer**
@@ -759,9 +751,11 @@ y Diagram NOT C P accurately drawn Q O R x L The diagram shows part of the curve
 
 ### 25 [7]
 
-y Diagram NOT C P accurately drawn Q O R x L The diagram shows part of the curve C with equation y 3 x 2 16 x and part of the line L with equation 2 y 11x 110 P and Q are the points of intersection of C and L R is the point on the x-axis such that PR is parallel to the y-axis. Show that the area of triangle PQR is 442.75 cm2 You must show clear algebraic working.
+y Diagram NOT C P accurately drawn Q O R x L The diagram shows part of the curve C with equation y 3 x 2 16 x and part of the line L with equation 2 y 11x 110 P and Q are the points of intersection of C and L R is the point on the x-axis such that PR is parallel to the y-axis. Show that the area of triangle PQR is 442.75 cm² You must show clear algebraic working.
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![diagram — official paper figure (qp.pdf p.19)](assets/asset_25_diagram.png)
 
 
 **Mark scheme answer**
@@ -814,7 +808,9 @@ B Diagram NOT C accurately drawn E D A The diagram shows a solid pyramid P with 
 
 ### 26(a) [2]
 
-Calculate, in cm to 3 significant figures, the length of ED cm The solid pyramid T is mathematically similar to P The area of the triangular base of T is 64.9 cm2 Given that vertex B is vertically above point E and EBD
+B Diagram NOT C accurately drawn E D A The diagram shows a solid pyramid P with vertices A, B, C and D ACD is the horizontal triangular base of P E is the point on AC such that AE = AC AC = 15.5 cm CD = 8.2 cm AED
+
+Calculate, in cm to 3 significant figures, the length of ED cm The solid pyramid T is mathematically similar to P The area of the triangular base of T is 64.9 cm² Given that vertex B is vertically above point E and EBD
 
 
 **Mark scheme answer**
@@ -836,7 +832,9 @@ Calculate, in cm to 3 significant figures, the length of ED cm The solid pyramid
 
 ### 26(b) [7]
 
-calculate, in cm3 to 3 significant figures, the volume of T cm3
+calculate, in cm³ to 3 significant figures, the volume of T
+
+…………… cm³
 
 
 **Mark scheme answer**
@@ -850,19 +848,19 @@ calculate, in cm3 to 3 significant figures, the volume of T cm3
 > ⎛ "5.37" ⎞
 > [ BE =]
 > "5.37"
-> × sin19[= 1.849...] or ⎟ − "5.37" [ = 1.849...]
-> ⎜
+> × sin19[= 1.849...] or − "5.37" [ = 1.849...]
+> 
 > sin 71 ⎝ sin 71 ⎠
 > 3/ 2 M2 for a complete correct method to find the volume SF or the
 > ⎛ 64.9 ⎞ "41.6175"
 > [= 0.80....] or
-> ⎜ ⎟ [ = 1.94....] or length SF. May be done in stages. Exact answers are
+>  [ = 1.94....] or length SF. May be done in stages. Exact answers are
 > ⎝ "41.6175" ⎠ 64.9 1.94926…, 0.51301… 0.80052…, 1.24917…
 > 3/ 2
 > ⎛ "41.6175" ⎞ 64.9
 > [ = 1.24....]
 > (M1 for a complete correct method to find the area SF e.g.
-> ⎜ ⎟ [= 0.51....] or 64.9 "41.6175"
+>  [= 0.51....] or 64.9 "41.6175"
 > ⎝ 64.9 ⎠ "41.6175" [= 1.55...] or [= 0.64...]
 > "41.6175" 64.9
 > Exact answers are 1.56043…, 0.64084…)
@@ -877,7 +875,6 @@ calculate, in cm3 to 3 significant figures, the volume of T cm3
 > 1 M1 dep on 5 previous M marks being awarded for a complete
 > "25.6..."× "1.94..." or "25.6..."÷ "0.51..." or × 64.9 × "2.30..." correct method to find volume of T
 > 50.0 A1 awrt 49.9 or 50 from no incorrect working
-> Total 9 marks
 
 - **(7)** 1 1 1 7 M1 for a complete correct method to find the base area of P If
 
@@ -890,7 +887,9 @@ A curve with equation y 9 x 2 16 x 5 is drawn on a grid where 1 unit = 1 cm on e
 
 A curve with equation y 9 x 2 16 x 5 is drawn on a grid where 1 unit = 1 cm on each axis. P and Q are two points on the curve. P is the point with coordinates 1, 2 The gradient of the tangent to the curve at Q is 6.5 Find the length, in cm to 3 significant figures, of PQ You must show clear algebraic working cm
 
-> 🖼 crop required: grid (qp.pdf p.None)
+![figure — official paper figure (qp.pdf p.21)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2024-11/4MB1-01/assets/asset_27_27.png)
+
+![figure — official paper figure (qp.pdf p.21)](assets/asset_27_27.png)
 
 
 **Mark scheme answer**

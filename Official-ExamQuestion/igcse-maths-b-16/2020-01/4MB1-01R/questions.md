@@ -47,7 +47,7 @@ Solve − = x 3 2 x = . . . . . . . . . . . . . . . . . . . . . .. . . . . . . .
 
 ### 3 [2]
 
-Solve − = x 3 2 x =
+Solve − = x 3 2 x = ……………Solve − = x 3 2 x =
 
 
 **Mark scheme answer**
@@ -93,6 +93,8 @@ The function g where g: x ↦ 16 − x2 is defined for all values of x. Write do
 
 ### 5 [2]
 
+The function g where g: x ↦ 16 − x² is defined for all values of x. Write down
+
 Write down (i) the maximum value of g(x), (ii) the range of g.
 
 
@@ -132,15 +134,16 @@ Given that y = − 4 4 x dy find dx dy = . . . . . . . . . . . . . . . . . . . .
 
 ### 7 [2]
 
+Given that y = − 4 4 x dy find dx dy = ……………dx
+
 Given that y = − 4 4 x dy find dx dy = dx
 
 
 **Mark scheme answer**
 
 > 2 M1 One term correct (allow unsimplified)
-> x3 + 5 A1 Fully correct oe eg x³ + 16x−5
+> x³ + 5 A1 Fully correct oe eg x³ + 16x−5
 > x
-> Total 2 marks
 
 - **(2)** 2 M1 One term correct (allow unsimplified)
 
@@ -151,7 +154,9 @@ Write down
 
 ### 8(a) [1]
 
-the number of lines of symmetry of the figure,
+Write down
+
+the number of lines of symmetry of the figure …………… , ……………
 
 
 **Mark scheme answer**
@@ -226,6 +231,7 @@ Find, showing your working clearly,
 
 ### 11 [3]
 
+Find, showing your working clearly …………… , ……………
 (i) the lowest common multiple (LCM) of 42, 54 and 66 (ii) the highest common factor (HCF) of 42, 54 and 66 (i) LCM = (ii) HCF =
 
 
@@ -283,7 +289,9 @@ y 3y − 2x = 3 O 1 2 3 4 5 6 x y = 6 − 3x x + y =6 Write down the three inequ
 
 y 3y − 2x = 3 O 1 2 3 4 5 6 x y = 6 − 3x x + y =6 Write down the three inequalities that define the shaded region in the diagram.
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_13_diagram.png)
 
 
 **Mark scheme answer**
@@ -332,7 +340,7 @@ Simplify fully (7x − 3) − (5x − 9) 6 3
 > x ( 7 x − 3) − 2 x ( 5 x − 9 ) 3 M1 oe
 > x
 > OR ⎡( 7 x − 3) − 2 ( 5 x − 9 ) ⎤⎦
-> 6⎣
+> 6
 > 7 x 2 3x 5 x 2 9 x
 > OR − − +
 > 6 6 3
@@ -344,8 +352,7 @@ Simplify fully (7x − 3) − (5x − 9) 6 3
 > ⎛ 7 10 ⎞ 2 ⎛ 1 ⎞
 > OR ⎜ − ⎟ x − ⎜ − 3⎟ x
 > ⎝6 6 ⎠ ⎝2 ⎠
-> − x2 + 5x A1 (oe but must be fully simplified)
-> Total 3 marks
+> − x² + 5x A1 (oe but must be fully simplified)
 
 - **(3)** x ( 7 x − 3) − 2 x ( 5 x − 9 ) 3 M1 oe
 
@@ -376,9 +383,12 @@ B Diagram NOT accurately drawn A 30 cm 20 cm 50° D C The diagram shows the trap
 
 ### 17 [3]
 
-B Diagram NOT accurately drawn A 30 cm 20 cm 50° D C The diagram shows the trapezium ABCD in which AD and BC are parallel. AC = 20 cm BC = 30 cm ∠ACD = 50° ∠ADC = 90° Calculate the area, in cm2 to 3 significant figures, of the trapezium ABCD cm2
+The diagram shows the trapezium ABCD in which AD and BC are parallel. AC = 20 cm BC = 30 cm ∠ACD = 50° ∠ADC = 90° Calculate the area, in cm² to 3 significant figures, of the trapezium ABCD cm²
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: B, A, D, C · Figure values: 30, 20, 50°.
+
+![diagram — official paper figure (qp.pdf p.8)](assets/asset_17_diagram.png)
 
 
 **Mark scheme answer**
@@ -474,30 +484,27 @@ A = ⎜ ⎝ 5 −7⎟⎠
 
 ### 20(a) [2]
 
-Find A2 ⎛ ⎞ ⎜ ⎟ ⎜ ⎟ ⎜ ⎟ ⎜⎝ ⎟⎠ ⎛ −1 2⎞ B = ⎜ −3 5⎟ ⎜ ⎟ ⎝ 4 −3⎠
+A = 5 −7 
+
+Find A2 −1 2⎞ B = ⎜ −3 5 4 −3⎠
 
 
 **Mark scheme answer**
 
 > ⎛ 19 −27 ⎞ 2 B2( − 1eeoo in a matrix of the correct order)
-> ⎜ ⎟
-> ⎝ −45 64 ⎠
+>  −45 64 
 
 - **(2)** ⎛ 19 −27 ⎞ 2 B2( − 1eeoo in a matrix of the correct order)
 
 ### 20(b) [2]
 
-Find BA ⎛ ⎞ ⎜ ⎟ ⎜ ⎟ ⎜ ⎟ ⎜⎝ ⎟⎠
+Find BA 
 
 
 **Mark scheme answer**
 
 > ⎛ 12 − 17 ⎞ 2 B2( − 1eeoo in a matrix of the correct order )
-> ⎜ ⎟
-> ⎜ 31 − 44 ⎟
-> ⎜ − 23 33 ⎟⎠
-> ⎝
-> Total 4 marks
+>  31 − 44 − 23 33 
 
 - **(2)** ⎛ 12 − 17 ⎞ 2 B2( − 1eeoo in a matrix of the correct order )
 
@@ -616,7 +623,9 @@ The scale of a map is 1 : 40 000 The actual area of a field is 2.4 km2
 
 ### 24(a) [3]
 
-Calculate the area, in cm2, of the field on the map cm2 Given that n is an integer, the scale of another map is 1 : n The length of a road shown on this map is 8 cm. The actual length of this road is 2 km.
+The scale of a map is 1 : 40 000 The actual area of a field is 2.4 km²
+
+Calculate the area, in cm², of the field on the map cm² Given that n is an integer, the scale of another map is 1 : n The length of a road shown on this map is 8 cm. The actual length of this road is 2 km.
 
 
 **Mark scheme answer**
@@ -629,7 +638,7 @@ Calculate the area, in cm2, of the field on the map cm2 Given that n is an integ
 > OR
 > 1 cm² represents 0.16 km² oe
 > ⎛ 100 000 ⎞ 2.4 M1 a fully correct method to find the area of the field
-> ⎜ ⎟ × 2.4 oe eg OR in cm² or a fully correct equation for the area of the
+>  × 2.4 oe eg OR in cm² or a fully correct equation for the area of the
 > ⎝ 40 000 ⎠ 0.16
 > field
 > 2.4 ×100 000² ÷ 1 600 000 000 oe
@@ -688,9 +697,12 @@ Diagram NOT A D accurately drawn 30° B C The diagram shows part of a circle thr
 
 ### 26 [5]
 
-Diagram NOT A D accurately drawn 30° B C The diagram shows part of a circle through the points A, B, C and D. AD is parallel to BC, AD = DC and ∠CAD = 30° Giving your reasons, prove that BC is a diameter of the circle.
+The diagram shows part of a circle through the points A, B, C and D. AD is parallel to BC, AD = DC and ∠CAD = 30° Giving your reasons, prove that BC is a diameter of the circle.
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, D, B, C · Figure values: 30°.
+
+![diagram — official paper figure (qp.pdf p.17)](assets/asset_26_diagram.png)
 
 
 **Mark scheme answer**
@@ -762,19 +774,24 @@ B Diagram NOT accurately drawn F H A C M O N G J D The diagram shows circle ABCD
 
 ### 28(a) [3]
 
+The diagram shows circle ABCD with centre O, diameter AMONC and radius r. The diagram also shows circle AFOG, with centre M, and circle OHCJ, with centre N.
+
 Find and simplify an expression, in terms of r and π, for the perimeter of the shaded region in the diagram. The line FH is the tangent to the circle AFOG at the point F. The line FH is also the tangent to the circle OHCJ at the point H. The point P on circle ABCD is such that OFP is a straight line. The point Q on circle ABCD is such that OHQ is a straight line. The region FPBQH inside circle ABCD is bounded by the straight line FP, the arc PBQ of circle ABCD and the two straight lines QH and HF.
 
-> 🖼 crop required: diagram (qp.pdf p.20)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: B, F, H, A, C, M, O, N, G, J, D.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_28_diagram.png)
 
 
 **Mark scheme answer**
 
 > 3 M1
-> π r OR 2π ⎛⎜ ⎞⎟
+> π r OR 2π 
 > r
 > ⎝2⎠
 > ⎛r⎞ M1 (DEP) for complete method to find perimeter of
-> π r + 2π ⎜ ⎟ oe shaded region
+> π r + 2π oe shaded region
 > ⎝ ⎠
 > 2π r A1
 
@@ -815,15 +832,16 @@ Calculate the size, in degrees to 3 significant figures, of ∠ACB. ∠ACB = ° 
 
 > 82 = 62 + 7 2 − 2 × 6 × 7 × cos ∠ACB 3 M1
 > ⎛ 6 2 + 7 2 − 82 ⎞ M1 (DEP)
-> ∠ACB = cos −1 ⎜ ⎟
-> ⎝ 2×6×7 ⎠
+> ∠ACB = cos −1 2×6×7 
 > 75.5 A1
 
 - **(3)** 82 = 62 + 7 2 − 2 × 6 × 7 × cos ∠ACB 3 M1
 
 ### 29(b) [4]
 
-Calculate the volume, in cm3 to 3 significant figures, of the pyramid ABCD cm3
+Calculate the volume, in cm³ to 3 significant figures, of the pyramid ABCD
+
+…………… cm³
 
 
 **Mark scheme answer**
@@ -832,7 +850,7 @@ Calculate the volume, in cm3 to 3 significant figures, of the pyramid ABCD cm3
 > tan 25 = oe eg
 > h and so of the pyramid)
 > ⎛ 8sin 65 ⎞
-> h= ⎜ ⎟ − 4 (=8.578…)
+> h= − 4 (=8.578…)
 > ⎝ sin 50 ⎠
 > 1 M1 (award even if part of a calculation)
 > Area of VABC = × 6 × 7 × sin" ∠ACB "
@@ -840,7 +858,6 @@ Calculate the volume, in cm3 to 3 significant figures, of the pyramid ABCD cm3
 > Volume of ABCD = M1(DEP)
 > × "Area of VABC "× " h "
 > 58.1 A1
-> Total 7 marks
 
 - **(4)** 4 4 M1 (oe, where h is the perpendicular height of ΔADB
 

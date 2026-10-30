@@ -85,9 +85,11 @@ Diagram NOT 16‑sided accurately drawn polygon B 5 cm 5 cm P A C Figure 1 Figur
 
 ### 2 [4]
 
-Diagram NOT 16‑sided accurately drawn polygon B 5 cm 5 cm P A C Figure 1 Figure 1 shows part of a regular 16‑sided polygon in which PA and AB are two sides. Figure 1 also shows the isosceles triangle ABC in which AB = CB = 5 cm. PAC is a straight line. Calculate the length, in cm to 3 significant figures, of AC. ⎡Sum of interior angles of polygon ⎤ ⎢(2n − 4) right angles ⎥ ⎣ ⎦
+16‑sided accurately drawn polygon B 5 cm 5 cm P A C Figure 1 Figure 1 shows part of a regular 16‑sided polygon in which PA and AB are two sides. Figure 1 also shows the isosceles triangle ABC in which AB = CB = 5 cm. PAC is a straight line. Calculate the length, in cm to 3 significant figures, of AC. ⎡Sum of interior angles of polygon ⎤ ⎢(2n − 4) right angles ⎥ ⎣ ⎦
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![diagram — official paper figure (qp.pdf p.3)](assets/asset_2_diagram.png)
 
 
 **Mark scheme answer**
@@ -198,7 +200,7 @@ triangle A onto triangle C
 > NB do not award any marks in this part if 2
 > transformations listed
 > ⎛ −5 ⎞ 2 B1 do not accept anything other than a vector for
-> ⎜ ⎟ this mark.
+>  this mark.
 > ⎝2⎠
 
 - **(2)** translation B1 Accept translate do not accept move or
@@ -241,7 +243,6 @@ On the grid, draw and label triangle E
 > about any point or if three correct coordinate
 > stated either as coordinates, position vectors
 > or a 3 × 2 matrix.
-> Total 9 marks
 > E
 
 - **(2)** Triangle with vertices at ( −4, −2 ) , ( −4, −8 ) Triangle E 2 B2 for correct triangle E
@@ -268,7 +269,7 @@ Complete the probability tree diagram. Squash Chess Dan wins Dan wins Dan does n
 
 ### 5(b) [2]
 
-Find the probability that Dan will win exactly one game. Given that Dan won exactly one game,
+Find the probability that Dan will win exactly one game. Given that Dan won exactly one game …………… , ……………
 
 
 **Mark scheme answer**
@@ -315,7 +316,9 @@ In 2018, a badminton club had 460 members. Of these members, A were younger than
 
 ### 6(a) [2]
 
-find the total number of members who were aged 30 or older in 2018 In 2018, the annual membership fee for each member who was older than 60 was $65 The annual membership fee for each other member was $135
+In 2018, a badminton club had 460 members. Of these members, A were younger than 30 B were aged between 30 and 60 inclusive C were older than 60 Given that A : B : C = 2 : 5 : 3
+
+find the total number of members who were aged 30 or older in 2018 In 2018, the annual membership fee for each member who was older than 60 was \$65 The annual membership fee for each other member was \$135
 
 
 **Mark scheme answer**
@@ -329,7 +332,7 @@ find the total number of members who were aged 30 or older in 2018 In 2018, the 
 
 ### 6(b) [2]
 
-Calculate the total amount, in $, that the 460 members paid in annual membership fees in 2018 The annual membership fee for each member who was older than 60 in 2019 was 4% greater than the annual membership fee for each member who was older than 60 in 2018
+Calculate the total amount, in \$, that the 460 members paid in annual membership fees in 2018 The annual membership fee for each member who was older than 60 in 2019 was 4% greater than the annual membership fee for each member who was older than 60 in 2018
 
 
 **Mark scheme answer**
@@ -347,13 +350,13 @@ Calculate the total amount, in $, that the 460 members paid in annual membership
 > >60 138 8 970
 > >30 368 40 020
 > <60 322 43 470
-> ($)52 440 2 A1 allow ($) 52 400
+> (\$)52 440 2 A1 allow (\$) 52 400
 
 - **(2)** ⎛ 3 ⎞ ⎛ 7 ⎞ M1 complete method to find the fees. Give bod
 
 ### 6(c) [2]
 
-Calculate the annual membership fee for each member who was older than 60 in 2019 The badminton club buys 12 shuttlecocks for a total cost of $5.10 The club then sells the shuttlecocks to members for $0.50 each.
+Calculate the annual membership fee for each member who was older than 60 in 2019 The badminton club buys 12 shuttlecocks for a total cost of \$5.10 The club then sells the shuttlecocks to members for \$0.50 each.
 
 
 **Mark scheme answer**
@@ -362,7 +365,7 @@ Calculate the annual membership fee for each member who was older than 60 in 201
 > seen embedded with work award this mark or a
 > final answer of 9328.8[0], 9329 (total fees after
 > increase)
-> ($)67.60 2 A1 allow ($)67.6
+> (\$)67.60 2 A1 allow (\$)67.6
 
 - **(2)** 65 ×1.04 or 65 + 2.6 oe M1 complete method to increase by 4% if 67.6 is
 
@@ -370,18 +373,20 @@ Calculate the annual membership fee for each member who was older than 60 in 201
 
 Calculate the percentage profit, to 3 significant figures, made by the club on each shuttlecock that was sold. 610 cm A B 155 cm D C 76 cm Figure 2 Figure 2 shows a badminton net ABCD and two supports for the net. The badminton net is shaded in the diagram. Figure 2 gives information about the dimensions of the badminton net. Each measurement is given to the nearest cm.
 
-> 🖼 crop required: diagram (qp.pdf p.10)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![diagram — official paper figure (qp.pdf p.9)](assets/asset_6_diagram.png)
 
 
 **Mark scheme answer**
 
 > ⎛ 12 ( 0.5 ) − 5.10 ⎞ 12 × 0.5 M1 Correct method to find percentage profit
-> ⎜ ⎟ ×100 or ×100 − 100 or Correct values which you may see:
+>  ×100 or ×100 − 100 or Correct values which you may see:
 > ⎝ 5.10 ⎠ 5.1
 > ⎛ 5.10 ⎞ Shuttles Sold Cost Profit
 > ⎜ 0.5 − 12 ⎟ 0.075 1 50c 0.425c 0.075c
 > ⎜ 5.10 ⎟ × 100 or 100 oe
-> ⎜ ⎟ 0.425 12 $6 $5.10 $0.90
+>  0.425 12 \$6 \$5.10 \$0.90
 > ⎝ 12 ⎠
 > 17.6(%) 2 A1 awrt 17.6
 > (for reference: 17.647058… so also allow 17.65)
@@ -390,7 +395,7 @@ Calculate the percentage profit, to 3 significant figures, made by the club on e
 
 ### 6(e) [3]
 
-Calculate the upper bound, in cm2, of the area of the net ABCD
+Calculate the upper bound, in cm², of the area of the net ABCD
 
 
 **Mark scheme answer**
@@ -415,9 +420,13 @@ A particle P is moving along a straight line through the fixed point O The speed
 
 ### 7(a) [2]
 
+A particle P is moving along a straight line through the fixed point O The speed, v m/s, of P at time t seconds is given by t2 3 v= +2+ 2 for 1 ≤ t ≤ 5 27 t t2 3
+
 Complete the table of values for v = +2+ 2 27 t Give your values of v to 2 decimal places. t 1 1.5 2 2.5 3 3.5 4 4.5 5 v 5.04 2.90 2.71 2.70 2.78 2.90
 
-> 🖼 crop required: table (qp.pdf p.None)
+![figure — official paper figure (qp.pdf p.14)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-06/4MB1-02R/assets/asset_7_7-a.png)
+
+![figure — official paper figure (qp.pdf p.14)](assets/asset_7_7-a.png)
 
 
 **Mark scheme answer**
@@ -432,9 +441,13 @@ Complete the table of values for v = +2+ 2 27 t Give your values of v to 2 decim
 
 On the grid opposite, plot the points from your completed table and join them to form a smooth curve.
 
+![grid — official paper figure (qp.pdf p.15)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-06/4MB1-02R/assets/asset_7_b_grid.png)
+
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
 ![grid — official paper figure (qp.pdf p.15)](assets/asset_7_b_grid.png)
 
-> 🖼 crop required: table (qp.pdf p.14)
+![figure — official paper figure (qp.pdf p.14)](assets/asset_7_7-b.png)
 
 
 **Mark scheme answer**
@@ -482,7 +495,9 @@ Find an expression for a in terms of t
 
 ### 7(e) [3]
 
-Using your answer to part (d), find the value of t when P has its minimum speed in the time interval 1 ≤ t ≤ 5 Show clear algebraic working. v 0 0.5 1 1.5 2 2.5 3 3.5 4 4.5 5 t for a spare grid if you need to redraw your curve. Only use this grid if you need to redraw your curve. v 0 0.5 1 1.5 2 2.5 3 3.5 4 4.5 5 t
+Using your answer to part (d), find the value of t when P has its minimum speed in the time interval 1 ≤ t ≤ 5 Show clear algebraic working.
+
+![grid — official paper figure (qp.pdf p.15) (same figure as asset_7_b_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-06/4MB1-02R/assets/asset_7_b_grid.png)
 
 ![grid — official paper figure (qp.pdf p.15) — shared with asset_7_b_grid](assets/asset_7_b_grid.png)
 
@@ -571,7 +586,7 @@ Express the inverse of the composite function fg in the form (fg)–1 : x ↦ ..
 **Mark scheme answer**
 
 > ⎡ ⎛ 3+ x ⎞ ⎤ ⎛ 3 + x ⎞ ⎡ 7x + 7 ⎤ M1 for correct order of operations for the
-> ⎢fg ( x ) = f ⎜ 1 − 2 x ⎟ = ⎥ 2 − 3 ⎜ 1 − 2 x ⎟ ⎢ = 2 x − 1 ⎥ composite function fg(x)
+> ⎢fg ( x ) = f ⎜ 1 − 2 x ⎟ = ⎥ 2 − 3 ⎜ 1 − 2 x = 2 x − 1 ⎥ composite function fg(x)
 > ⎣ ⎝ ⎠ ⎦ ⎝ ⎠⎣ ⎦
 > y ( 2 x − 1) = 7 x + 7 or M1 for removing fraction from their y = fg (x) or
 > their x = fg (y)
@@ -589,18 +604,16 @@ Express the inverse of the composite function fg in the form (fg)–1 : x ↦ ..
 > g–1f–1 ⎡⎣g −1 ( x ) = ⎤⎦
 > 1 + 2x
 > ⎛ 2− x⎞ M1oe for correct order of operations for the
-> ⎜ ⎟−3 composite function g–1f–1(x) using their
+>  −3 composite function g–1f–1(x) using their
 > ⎝ 3 ⎠
 > ⎡⎣g f ( x) = ⎤⎦
 > −1 −1
 > g–1(x) f–1(x)
 > ⎛ 2− x⎞
-> 1+ 2⎜ ⎟
-> ⎝ 3 ⎠
+> 1+ 2 3 
 > 1 7 x (5) x
 > fg :x A1 (must be in terms of x) oe e.g.
 > 2x 7 7 2x
-> Total 13 marks
 
 - **(5)** ⎡ ⎛ 3+ x ⎞ ⎤ ⎛ 3 + x ⎞ ⎡ 7x + 7 ⎤ M1 for correct order of operations for the
 
@@ -626,7 +639,7 @@ AC (ii) CO (iii) DB E is the point such that CEO and DEB are straight lines. →
 
 ### 9(b) [5]
 
-find a simplified expression for AE in terms of a and b Given that ½ a½ = 7 cm and ½ b½ = 6 cm,
+find a simplified expression for AE in terms of a and b Given that ½ a½ = 7 cm and ½ b½ = 6 cm …………… , ……………
 
 
 **Mark scheme answer**
@@ -654,7 +667,7 @@ find a simplified expression for AE in terms of a and b Given that ½ a½ = 7 cm
 
 ### 9(c) [4]
 
-calculate the exact area, in cm2, of ΔABC
+calculate the exact area, in cm², of ΔABC
 
 
 **Mark scheme answer**
@@ -689,6 +702,8 @@ calculate the exact area, in cm2, of ΔABC
 A=⎜ B=⎜ ⎝ −3k k + 1⎟⎠ ⎝ 3 k ⎟⎠ The determinant of matrix A is equal to the determinant of matrix B
 
 ### 10(a) [3]
+
+A= B= −3k k + 1 3 k The determinant of matrix A is equal to the determinant of matrix B
 
 Show that k is a root of the equation 2k 3 + 5k 2 – 28k – 15 = 0 Given that f(k) = 2k 3 + 5k 2 – 28k – 15
 
@@ -725,7 +740,7 @@ use the factor theorem to show that (k + 5) is a factor of f(k)
 
 ### 10(c) [4]
 
-Hence, factorise completely f(k) The transformation with matrix C, where C is a 2 × 2 matrix, is equivalent to the transformation with matrix A followed by the transformation with matrix B Given that k is positive,
+Hence, factorise completely f(k) The transformation with matrix C, where C is a 2 × 2 matrix, is equivalent to the transformation with matrix A followed by the transformation with matrix B Given that k is positive …………… , ……………
 
 
 **Mark scheme answer**
@@ -755,26 +770,23 @@ Hence, factorise completely f(k) The transformation with matrix C, where C is a 
 
 ### 10(d) [3]
 
-find matrix C ⎡ ⎛ a b⎞ ⎤ ⎢ Determinant of matrix ⎜ ⎟ = ad − bc ⎥ ⎣ ⎝ c d⎠ ⎦
+find matrix C ⎡ ⎛ a b⎞ ⎤ ⎢ Determinant of matrix = ad − bc ⎥ ⎣ ⎝ c d⎠ ⎦
 
 
 **Mark scheme answer**
 
 > ⎛ 2 × '3'2 '3'− 9 ⎞ ⎡ ⎛ 18 −6 ⎞ ⎤ M1 for substituting their positive k to obtain A
-> A=⎜ ⎟ ⎢= ⎜ ⎟⎥ and B
+> A= = and B
 > ⎝ −3 × '3' '3'+ 1 ⎠ ⎣ ⎝ −9 4 ⎠ ⎦
 > ⎛ 1 −5 ⎞
-> B=⎜ ⎟
-> ⎝ 3 '3' ⎠
+> B= 3 '3' 
 > ⎛ 1 −5 ⎞ ⎛ 18 −6 ⎞ M1 for correct order of operations for C (allow if
-> C = BA = ' ⎜ ⎟ '' ⎜ ⎟'
+> C = BA = ' '' '
 > ⎝ 3 3 ⎠ ⎝ −9 4 ⎠ ⎛ 2k 2 + 15k −4k − 14 ⎞
 > in terms of k, ⎜ 2 ⎟)
 > ⎝ 3k k 2 + 4k − 27 ⎠
 > ⎛ 63 −26 ⎞ 3 A1
-> ⎜ ⎟
-> ⎝ 27 −6 ⎠
-> Total 12 marks
+>  27 −6 
 
 - **(3)** ⎛ 2 × '3'2 '3'− 9 ⎞ ⎡ ⎛ 18 −6 ⎞ ⎤ M1 for substituting their positive k to obtain A
 
@@ -785,9 +797,12 @@ G Diagram NOT D C accurately drawn (4x – 8) cm A B θ° (2x + 3) cm E F (4x + 
 
 ### 11 [8]
 
-G Diagram NOT D C accurately drawn (4x – 8) cm A B θ° (2x + 3) cm E F (4x + 2) cm Figure 4 Figure 4 shows a rectangle ABCD and an isosceles triangle EFG with EG = FG AB = (2x + 3) cm BC = (4x – 8) cm EF = (4x + 2) cm ∠FEG = θ° where tan θ° = The perimeter of the rectangle is P cm and the area of the triangle is T cm2 Given that P ≥ T find the range of possible values of x Show your working clearly.
+– 8) cm A B θ° (2x + 3) cm E F (4x + 2) cm Figure 4 Figure 4 shows a rectangle ABCD and an isosceles triangle EFG with EG = FG AB = (2x + 3) cm BC = (4x – 8) cm EF = (4x + 2) cm ∠FEG = θ° where tan θ° = The perimeter of the rectangle is P cm and the area of the triangle is T cm² Given that P ≥ T find the range of possible values of x Show your working clearly.
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: G, D, C, A, B · Other figure text: (4x − 8) cm, (2x + 3) cm, (4x + 2) cm, θ°.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_11_diagram.png)
 
 
 **Mark scheme answer**

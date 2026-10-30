@@ -89,7 +89,9 @@ The bearing of P from Q is 063° Calculate the bearing of Q from P °
 
 ### 5 [2]
 
-The bearing of P from Q is 063° Calculate the bearing of Q from P °
+The bearing of P from Q is 063° Calculate the bearing of Q from P
+
+…………… °
 
 
 **Mark scheme answer**
@@ -108,9 +110,12 @@ B 5 cm D Diagram NOT 16 cm accurately drawn A 12 cm E C The diagram shows triang
 
 ### 6 [2]
 
-B 5 cm D Diagram NOT 16 cm accurately drawn A 12 cm E C The diagram shows triangle ABC and triangle ADE. The point D lies on AB and the point E lies on AC such that DE is parallel to BC. AD = 16 cm DB = 5 cm DE = 12 cm Calculate the length, in cm, of BC cm
+The diagram shows triangle ABC and triangle ADE. The point D lies on AB and the point E lies on AC such that DE is parallel to BC. AD = 16 cm DB = 5 cm DE = 12 cm Calculate the length, in cm, of BC cm
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: B, D, A, E, C · Figure values: 5, 16, 12.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_6_diagram.png)
 
 
 **Mark scheme answer**
@@ -147,14 +152,16 @@ y = 4x 5 − x2 dy Find dx dy = . . . . . . . . . . . . . . . . . . . . . .. . .
 
 ### 8 [2]
 
-y = 4x 5 − x2 dy Find dx dy = dx
+y = 4x 5 − x² dy Find dx dy = ……………dx
+
+y = 4x 5 − x² dy Find dx dy = dx
 
 
 **Mark scheme answer**
 
 > 16 2 B2 fully correct, B1 for one term correct
 > 20x 4 + oe, eg 20x4 + 16x−3
-> x3
+> x³
 
 - **(2)** 16 2 B2 fully correct, B1 for one term correct
 
@@ -165,9 +172,12 @@ A Diagram NOT accurately drawn 10 cm B 9 cm 7 cm P D C A, B, C and D are four po
 
 ### 9 [2]
 
-A Diagram NOT accurately drawn 10 cm B 9 cm 7 cm P D C A, B, C and D are four points on a circle. The chord AC intersects the chord BD at P AP = 10 cm BP = 9 cm PD = 7 cm Calculate the length, in cm, of PC cm
+A, B, C and D are four points on a circle. The chord AC intersects the chord BD at P AP = 10 cm BP = 9 cm PD = 7 cm Calculate the length, in cm, of PC cm
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, B, P, D, C · Figure values: 10, 9, 7.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_9_diagram.png)
 
 
 **Mark scheme answer**
@@ -183,7 +193,7 @@ M = ⎜ ⎝ − 0.5 −1.5⎟⎠ Given that the determinant of matrix M is 0.5 f
 
 ### 10 [2]
 
-M = ⎜ ⎝ − 0.5 −1.5⎟⎠ Given that the determinant of matrix M is 0.5 find the value of x. x =
+M = − 0.5 −1.5 Given that the determinant of matrix M is 0.5 find the value of x. x =
 
 
 **Mark scheme answer**
@@ -202,9 +212,12 @@ C Diagram NOT 150° accurately drawn B D A E In the diagram, AB, BD and DE are t
 
 ### 11 [3]
 
-C Diagram NOT 150° accurately drawn B D A E In the diagram, AB, BD and DE are three sides of a regular polygon with n sides. The point C is such that ABC and EDC are straight lines and ∠ BCD = 150° Calculate the value of n. n =
+In the diagram, AB, BD and DE are three sides of a regular polygon with n sides. The point C is such that ABC and EDC are straight lines and ∠ BCD = 150° Calculate the value of n. n =
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: C, B, D, A, E · Figure values: 150°.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_11_diagram.png)
 
 
 **Mark scheme answer**
@@ -246,7 +259,7 @@ Solve − = 7 5 5 Show clear algebraic working. x = . . . . . . . . . . . . . . 
 
 ### 13 [3]
 
-Solve − = 7 5 5 Show clear algebraic working. x =
+Solve − = 7 5 5 Show clear algebraic working. x = ……………Solve − = 7 5 5 Show clear algebraic working. x =
 
 
 **Mark scheme answer**
@@ -269,9 +282,12 @@ Diagram NOT accurately drawn C B 52° 63° D A E In the diagram, A, B and C are 
 
 ### 14 [3]
 
-Diagram NOT accurately drawn C B 52° 63° D A E In the diagram, A, B and C are points on a circle. DAE is the tangent to the circle at A. ∠ BAC = 52° and ∠ CAE = 63° Calculate the size, in degrees, of ∠ ACB. Give reasons for each stage of your working. °
+In the diagram, A, B and C are points on a circle. DAE is the tangent to the circle at A. ∠ BAC = 52° and ∠ CAE = 63° Calculate the size, in degrees, of ∠ ACB. Give reasons for each stage of your working. °
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: C, B, D, A, E · Figure values: 52°, 63°.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_14_diagram.png)
 
 
 **Mark scheme answer**
@@ -298,15 +314,11 @@ Given that m and n are integers, write in the form m + n 5 5−2 Show each stage
 
 **Mark scheme answer**
 
-> 4 + 20 5+2 3 M1 multiply numerator and denominator by
-> × oe 5+2
-> 5 −2 5+2
-> 4 5 + 8 + 100 + 2 20 M1dep on first M1 expand numerator with three
-> oe terms correct – allow ( 5 2)( 5 2) 1
-> 5−4
-> 18 + 8 5 A1 dep on first M1
+> (4 + √20)/(√5 − 2) × (√5 + 2)/(√5 + 2) oe M1 multiply numerator and denominator by √5 + 2
+> (4√5 + 8 + √100 + 2√20)/(5 − 4) oe M1dep on first M1 expand numerator with three terms correct – allow (√5 − 2)(√5 + 2) = 1
+> 18 + 8√5 A1 dep on first M1
 
-- **(3)** 4 + 20 5+2 3 M1 multiply numerator and denominator by
+- **(3)** (4 + √20)/(√5 − 2) × (√5 + 2)/(√5 + 2) oe M1 multiply numerator and denominator by √5 + 2
 
 
 ## Question 16 (3 marks)
@@ -345,7 +357,7 @@ Given that, for all values of x, 8x 2 − 48x +10 = a(x + b) 2 + c where a, b an
 > (RHS=) ax² + 2abx +(ab² + c)
 > 8(x – 3)² − 72 + 10 M1 or for two of a, b, c correct
 > a = 8 and 2ab = −48
-> a = 8, b = −3, c = −62 A1 or for 8( x 3)2
+> a = 8, b = −3, c = −62 A1 or for 8( x 3)²
 
 - **(3)** 8[(x – 3)² − 9] + 10 oe or 3 M1 or for one of a, b, c correct
 
@@ -356,7 +368,9 @@ The volume of a solid right circular cylinder is 225 cm3 The height of the cylin
 
 ### 18 [4]
 
-The volume of a solid right circular cylinder is 225 cm3 The height of the cylinder is 7 cm. Work out the total surface area, in cm2 to 3 significant figures, of the cylinder cm2
+The volume of a solid right circular cylinder is 225 cm³ The height of the cylinder is 7 cm. Work out the total surface area, in cm² to 3 significant figures, of the cylinder
+
+…………… cm²
 
 
 **Mark scheme answer**
@@ -379,9 +393,12 @@ C Diagram NOT accurately drawn 8 cm D 18 cm 5 cm A B The diagram shows a right-a
 
 ### 19 [4]
 
-C Diagram NOT accurately drawn 8 cm D 18 cm 5 cm A B The diagram shows a right-angled triangle ABC in which ∠ ABC = 90° D is the point on BC such that BD = 5 cm DC = 8 cm AD = 18 cm Calculate the size, in degrees to one decimal place, of ∠ CAD °
+The diagram shows a right-angled triangle ABC in which ∠ ABC = 90° D is the point on BC such that BD = 5 cm DC = 8 cm AD = 18 cm Calculate the size, in degrees to one decimal place, of ∠ CAD °
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: C, D, A, B · Figure values: 8, 18, 5.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_19_diagram.png)
 
 
 **Mark scheme answer**
@@ -434,9 +451,12 @@ B Diagram NOT accurately drawn E 12 cm C 16 cm A D The diagram shows triangle AB
 
 ### 21 [4]
 
-B Diagram NOT accurately drawn E 12 cm C 16 cm A D The diagram shows triangle ABC and triangle EDC. AB is parallel to DE. AC = 16 cm and CE = 12 cm. Given that the area of triangle ABC is 31.5 cm2 greater than the area of triangle EDC, work out the area of triangle EDC cm2
+The diagram shows triangle ABC and triangle EDC. AB is parallel to DE. AC = 16 cm and CE = 12 cm. Given that the area of triangle ABC is 31.5 cm² greater than the area of triangle EDC, work out the area of triangle EDC cm²
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: B, E, C, A, D · Figure values: 12, 16.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_21_diagram.png)
 
 
 **Mark scheme answer**
@@ -540,8 +560,8 @@ Find the two values of x such that 123 x × 34 x −3 x × 3 = 27 242 x Show you
 **Mark scheme answer**
 
 > For 2 of: 4 M1
-> 123x = (4 × 3)3x
-> 242x = (8 × 3)2x
+> 123x = (4 × 3)³x
+> 242x = (8 × 3)²x
 > 27 = 3³
 > 26 x × 33 x × 34 x −3 x × 3 M1 dep on previous M mark
 > eg 6x 2x
@@ -620,7 +640,7 @@ Solve the inequality 7d + 3 ≤ 5d
 
 ### 26(b) [2]
 
-Expand and simplify 5a(2a − 3) − 4a(3a + 1) 30 x3 y 4
+Expand and simplify 5a(2a − 3) − 4a(3a + 1) 30 x³ y 4
 
 
 **Mark scheme answer**
@@ -664,9 +684,12 @@ B 5.2 m Diagram NOT accurately drawn 8.2 m C 59° A 48° 6.7 m D The diagram sho
 
 ### 27 [5]
 
-B 5.2 m Diagram NOT accurately drawn 8.2 m C 59° A 48° 6.7 m D The diagram shows quadrilateral ABCD such that AB = 8.2 m BC = 5.2 m AD = 6.7 m ∠ CAD = 48° ∠ ACD = 59° Find the area, in m2 to 3 significant figures, of quadrilateral ABCD m2
+The diagram shows quadrilateral ABCD such that AB = 8.2 m BC = 5.2 m AD = 6.7 m ∠ CAD = 48° ∠ ACD = 59° Find the area, in m² to 3 significant figures, of quadrilateral ABCD m²
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: B, C, A, D · Figure values: 5.2, 8.2, 59°, 48°, 6.7.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_27_diagram.png)
 
 
 **Mark scheme answer**
@@ -709,7 +732,7 @@ The curve C has equation y = 2x 3 − x + 12x + 5 The points P and Q lie on C. P
 > = 6 x 2 − 21x + 12
 > dx
 > (gradient at P =) 6 – 21 +12 (= −3) dep on M1 – sub. x = 1 into derivative
-> 6 x2 − 21x + 12 = −3 oe M1dep on 1st 2 M marks
+> 6 x² − 21x + 12 = −3 oe M1dep on 1st 2 M marks
 > Q = (2.5, 0.625) A1
 > 8.5 − "0.625" 7.875 M1dep on all M marks
 > gradient = (= ) oe
@@ -725,6 +748,7 @@ Given that (x − 5) is a factor of 3x 3 − 20x 2 + kx + 10 where k is a consta
 
 ### 29(a) [2]
 
+Given that (x − 5) is a factor of 3x 3 − 20x 2 + kx + 10 where k is a constant …………… , ……………
 use the factor theorem to show that k = 23
 
 

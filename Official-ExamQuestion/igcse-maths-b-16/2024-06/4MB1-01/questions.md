@@ -23,8 +23,6 @@ Write 0.0374 to 2 decimal places.
 **Mark scheme answer**
 
 > 0.04 B1 accept 4 ×10−2
-> Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(1)** 0.04 B1 accept 4 ×10−2
 
@@ -52,38 +50,39 @@ D Diagram NOT accurately drawn C 6 cm A B The diagram shows trapezium ABCD ABC B
 
 ### 3 [3]
 
-D Diagram NOT accurately drawn C 6 cm A B The diagram shows trapezium ABCD ABC BAD AD = 12cm CD = 8.7 cm BC = 6cm Calculate the area, in cm2, of trapezium ABCD cm2
+The diagram shows trapezium ABCD ABC BAD AD = 12cm CD = 8.7 cm BC = 6cm Calculate the area, in cm², of trapezium ABCD cm²
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: D, C, A, B · Figure values: 6.
+
+![diagram — official paper figure (qp.pdf p.2)](assets/asset_3_diagram.png)
 
 
 **Mark scheme answer**
 
 > − 2 × 72
-> + 5× 7 Allow (7)2 or 49 and
+> + 5× 7 Allow (7)² or 49 and
 > 2 5 × 7 or 35
 > implied by (–95/2 or – 47.5) and 35
 > –12.5 A1 oe we can ISW incorrect attempt to simplify
 > cas
 > −
-> Total 2 marks
-> Question Working Answer Mark Notes
 > 3 M1 for a correct expression involving AB and no
 > other unknowns or [AB=] 6.3
 > Or 8.72 = AB 2 + (12 − 6 )
 > Allow using their h = (12 − 6 ) if marked on their
 > ⎛ 6 ⎞ diagram providing h is less than 8.7
-> Or cos ADC = ⎜ ⎟ [ = 46.39...] and
+> Or cos ADC = [ = 46.39...] and
 > ⎝ 8.7 ⎠ A correct Pythagoras calculation, eg or a complete
 > AB 2 = 62 + 8.72 − 2 × 6 × 8.7 × cos"46.39..." method to find AB using trigonometry
 > ⎛ 6 ⎞
-> Or cos ADC = ⎜ ⎟ [ = 46.39...] and
+> Or cos ADC = [ = 46.39...] and
 > ⎝ 8.7 ⎠
 > AD
 > =
 > sin"46.39..." sin ( 90 − "46.39...")
 > ⎛ 6 ⎞
-> Or cos ADC = ⎜ ⎟ [ = 46.39...] and
+> Or cos ADC = [ = 46.39...] and
 > ⎝ 8.7 ⎠
 > AD 8.7
 > =
@@ -98,8 +97,6 @@ D Diagram NOT accurately drawn C 6 cm A B The diagram shows trapezium ABCD ABC B
 > Or 12 × "6.3"− × "6.3"× (12 − 6 )
 > Or 12 × "6.3"− × 6 × 8.7 × sin"46.39..."
 > cas 56.7 A1 awrt 56.7
-> Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** − 2 × 72
 
@@ -116,8 +113,7 @@ Calculate A + B 13 2 Given that nA 2B = 7 1
 **Mark scheme answer**
 
 > ⎛ 1 −6 ⎞ 1 B1
-> ⎜ ⎟
-> ⎝ −9 3 ⎠
+>  −9 3 
 
 - **(1)** ⎛ 1 −6 ⎞ 1 B1
 
@@ -129,7 +125,7 @@ find the value of n n =
 **Mark scheme answer**
 
 > ⎛ 3 −2 ⎞ ⎛ −2 −4 ⎞ ⎛ 13 2 ⎞ 2 M1 for setting up the matrices so a relevant
-> n⎜ ⎟ − 2×⎜ ⎟=⎜ ⎟ oe equation can be formed or a correct relevant
+> n − 2× = oe equation can be formed or a correct relevant
 > ⎝ −5 1 ⎠ ⎝ −4 2 ⎠ ⎝ −7 −1⎠
 > equation eg 3n + 4 = 13 , −2n + 8 = 2 , −5n + 8 = −7 ,
 > 3n − 2 × ( −2 ) = 13 n − 4 = −1 oe
@@ -137,8 +133,6 @@ find the value of n n =
 > −5n − 2 × ( −4 ) = −7
 > n − 2 × ( 2 ) = −1
 > cas 3 A1
-> Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(2)** ⎛ 3 −2 ⎞ ⎛ −2 −4 ⎞ ⎛ 13 2 ⎞ 2 M1 for setting up the matrices so a relevant
 
@@ -195,13 +189,9 @@ On the number line, show the inequality 4 x ≤ 2 x −5 −4 −3 −2 −1 0 1
 > May be implied by an equation with the correct
 > intercept.
 > cas y = −4 x − 6 A1 accept y = −4 x + (−6)
-> Total 3 marks
-> Question Working Answer Mark Notes
 > A1 Both end points identified using the correct symbols
 > and one correct line drawn between the two correct
 > points.
-> Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(2)** = "− 4"× −3 + c or −14 = "− 4"× 2 + c or gradient. Must be clearly identified if incorrect or
 
@@ -233,8 +223,6 @@ Simplify fully 4c
 
 > 2 2 c
 > 2c 2 4c
-> Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(1)** 2 2 c
 
@@ -247,7 +235,9 @@ y −3 −2 −1 O 1 2 x −1 The diagram shows the line y 2 x Write down the th
 
 y −3 −2 −1 O 1 2 x −1 The diagram shows the line y 2 x Write down the three inequalities that define the region shaded in the diagram.
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![diagram — official paper figure (qp.pdf p.5)](assets/asset_8_diagram.png)
 
 
 **Mark scheme answer**
@@ -256,8 +246,6 @@ y −3 −2 −1 O 1 2 x −1 The diagram shows the line y 2 x Write down the th
 > x 0 (B1 for 2 correct)
 > y 0 Allow equivalent inequalities and condone < for
 > and > for for both marks but not =
-> Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** y 2x + 3 2 B2 All 3 correct
 
@@ -268,9 +256,12 @@ T Diagram NOT accurately drawn A B 20 m A and B are two points on horizontal gro
 
 ### 9 [3]
 
-T Diagram NOT accurately drawn A B 20 m A and B are two points on horizontal ground. The distance from A to B is 20 m BT is a vertical pole. The angle of depression of A from T is 10° Find the height, in metres to 3 significant figures, of the pole m
+and B are two points on horizontal ground. The distance from A to B is 20 m BT is a vertical pole. The angle of depression of A from T is 10° Find the height, in metres to 3 significant figures, of the pole m
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: T, A, B, A · Figure values: 20.
+
+![diagram — official paper figure (qp.pdf p.6)](assets/asset_9_diagram.png)
 
 
 **Mark scheme answer**
@@ -279,25 +270,19 @@ T Diagram NOT accurately drawn A B 20 m A and B are two points on horizontal gro
 > BT can be used for BT
 > tan10 = or 20 × tan10 = BT oe
 > 20 20 ⎛ M1 for TAB = 10 (may be seen on diagram) ⎞
-> or tan 80 = or BT = oe ⎜ ⎟
+> or tan 80 = or BT = oe 
 > BT tan 80 ⎜ or cos10 = 20 ⎟
 > BT 20 ⎜ AT ⎟
 > or = oe ⎜ or a correct trig statement from an incorrect diagram eg ⎟
 > sin10 sin 80
-> ⎜ ⎟
-> ⎜ BTA=10° and ⎟
-> 20 ⎜ ⎟
+>  BTA=10° and 
+> 20 
 > ("20.30...") − 202 oe
 > or cos10 = and BT = 20 BT
-> AT ⎜ tan10 = or = oe or BT = awrt 113... oe ⎟
-> ⎜ BT sin 80 sin10 ⎟
-> ⎜ ⎟
-> ⎝ ⎠
+> AT tan10 = or = oe or BT = awrt 113... oe BT sin 80 sin10 
 > 3.53 A1 awrt 3.5 allow answer of 3.4 or 3.6 from correct
 > cas
 > working
-> Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 3 M2 for a fully correct equation or method. Other letters
 
@@ -308,9 +293,12 @@ A Diagram NOT accurately drawn M N C B The diagram shows the isosceles triangle 
 
 ### 10 [3]
 
-A Diagram NOT accurately drawn M N C B The diagram shows the isosceles triangle ABC where AC = AB M is the midpoint of AC N is the midpoint of AB Prove that triangle MCB is congruent to triangle NBC
+The diagram shows the isosceles triangle ABC where AC = AB M is the midpoint of AC N is the midpoint of AB Prove that triangle MCB is congruent to triangle NBC
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, M, N, C, B.
+
+![diagram — official paper figure (qp.pdf p.7)](assets/asset_10_diagram.png)
 
 
 **Mark scheme answer**
@@ -324,8 +312,6 @@ A Diagram NOT accurately drawn M N C B The diagram shows the isosceles triangle 
 > ∠MCB = ∠NBC isosceles triangle
 > Allow shortened versions of key words
 > wr SAS A1 SAS stated with all 3 correct, including reasons
-> Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 3 M2 two correct with reasons, equivalent of bolded
 
@@ -342,19 +328,17 @@ A 5 1 Find A −1
 **Mark scheme answer**
 
 > ⎛1 2⎞ 2 M1 for correct method to find the determinant or
-> det = 3 ×1 − ( −2 × −5 ) [ = −7 ] or ⎜ ⎟ the correct matrix without the determinant. May be
+> det = 3 ×1 − ( −2 × −5 ) [ = −7 ] or the correct matrix without the determinant. May be
 > ⎝5 3⎠ seen as part of the final answer.
 > A1 oe
 > ISW incorrectly multiplying through the matrix by
 > 1
 > 1 ⎛1 2⎞ − or if − is missing on the answer line but is
-> cas − ⎜ ⎟ 7
+> cas − 7
 > 7 ⎝5 3⎠
 > seen in the working.
 > Condone decimal equivalents correct to 2dp
 > (awrt 0.14, 0.29, 0.71, 0.43)
-> Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** ⎛1 2⎞ 2 M1 for correct method to find the determinant or
 
@@ -393,8 +377,6 @@ Make x the subject of x 3 y
 > except allow correct fraction without x = on the
 > answer line if given correctly with x = in the
 > working
-> Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 3 M1 for multiplying all terms by y and remove
 
@@ -405,9 +387,12 @@ A Diagram NOT F D accurately drawn O C B E The diagram shows the circle ABC with
 
 ### 13 [3]
 
-A Diagram NOT F D accurately drawn O C B E The diagram shows the circle ABC with centre O and the circle DEF with centre O The line ADB is a tangent to the circle DEF at the point D AB = 16cm Showing your working, calculate in cm2, the shaded area of the diagram. Give your answer in terms of π cm2
+The diagram shows the circle ABC with centre O and the circle DEF with centre O The line ADB is a tangent to the circle DEF at the point D AB = 16cm Showing your working, calculate in cm², the shaded area of the diagram. Give your answer in terms of π cm²
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, F, D, O, C, B, E.
+
+![diagram — official paper figure (qp.pdf p.9)](assets/asset_13_diagram.png)
 
 
 **Mark scheme answer**
@@ -422,8 +407,6 @@ A Diagram NOT F D accurately drawn O C B E The diagram shows the circle ABC with
 > 64π A1 cao Allow 82 π dep on both previous M marks
 > NB an answer of 64π will score full marks (an awrt 201 scores
 > 2 marks only)
-> Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 3 M1 for realising tangent is 90° to radius and use Pythagoras
 
@@ -448,7 +431,7 @@ Find the Highest Common Factor (HCF) of 90, 132 and 432 Show your working clearl
 
 ### 14(b) [2]
 
-Find the two smallest numbers that Lali could be thinking of ,
+Find the two smallest numbers that Lali could be thinking of …………… , ……………
 
 
 **Mark scheme answer**
@@ -461,8 +444,6 @@ Find the two smallest numbers that Lali could be thinking of ,
 > 28 , 140 A1
 > cas SCB1 for an answer of 140 given if no marks
 > awarded
-> Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(2)** M1 for expressing both numbers as prime factors or
 
@@ -494,8 +475,6 @@ Factorise fully x 2 7 x
 > correct terms )
 > Do not ISW. Mark the answer line, if nothing on the
 > answer line, mark final line of working.
-> Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(2)** ( x − 4 )( x − 3) 2 B2 correct factorisation allow ( − x + 4 )( − x + 3)
 
@@ -516,7 +495,7 @@ Without using a calculator and showing all your working, evaluate 7 4 8 5 Give y
 > 8
 > the multiplication sign.
 > ⎛ 7 ⎞⎛ 4⎞
-> or ⎜ 1 + ⎟ ⎜ 2 + ⎟ Or for correctly writing product in brackets
+> or ⎜ 1 + 2 + ⎟ Or for correctly writing product in brackets
 > ⎝ 8 ⎠⎝ 5⎠
 > ⎡15 14 ⎤ 15 ×14 210 3 7 M1 dependent on 1st M1 for correct method to
 > ⎢⎣ 8 × 5 = ⎥⎦ 8 × 5 oe or 40 or 4 × 1 multiply
@@ -543,8 +522,6 @@ Without using a calculator and showing all your working, evaluate 7 4 8 5 Give y
 > 260 650
 > ,
 > 48 120
-> Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 15 14
 
@@ -571,8 +548,6 @@ Jay has 8 red apples and 10 green apples. The total weight of all 18 apples is 2
 > "860"
 > Mean = M1dep on both M’s awarded
 > cas 107.5 A1 Allow 108
-> Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** [Total weight of the 9 green apples] = 9 ×154 [ = 1386]
 
@@ -596,9 +571,7 @@ A regular polygon has n sides. Each interior angle of the regular polygon is 2x�
 > Award of this mark implies the previous mark.
 > 360 360
 > or
-> (180 − 2 × "82.8") ⎛ "82.8"− 54 ⎞
-> ⎜ ⎟
-> ⎝ 2 ⎠ M1 for correct substitution to find n. x must be clearly
+> (180 − 2 × "82.8") ⎛ "82.8"− 54 2 ⎠ M1 for correct substitution to find n. x must be clearly
 > 90 ( 2n − 4 ) "82.8"− 54 360 identified if incorrect or come from correct working.
 > Or 2 × "82.8" = or =
 > n 2 n
@@ -606,14 +579,13 @@ A regular polygon has n sides. Each interior angle of the regular polygon is 2x�
 > Or 2 × "82.8" =
 > n
 > cas 25 A1
-> Question Working Answer Mark Notes
 > Alt 2x = and = and n
 > n 2 n
 > 180 ( n − 2 ) x − 54 360
 > Or 2 x = and =
 > n 2 n
 > ⎛ 720 + 54n ⎞ M1 for a correct method to substitute to eliminate one
-> 2n ⎜ ⎟ = 180n − 360 [⇒ 72n = 1800 ] variable.
+> 2n = 180n − 360 [⇒ 72n = 1800 ] variable.
 > ⎝ n ⎠
 > Award of this mark implies the previous mark.
 > 360 720
@@ -622,8 +594,6 @@ A regular polygon has n sides. Each interior angle of the regular polygon is 2x�
 > 1800
 > [ n =] M1 for a correct method to solve equation in n
 > cas 25 A1
-> Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** x − 54 4 M1 setting up a correct equation in x
 
@@ -654,9 +624,6 @@ y varies inversely as the cube root of x y = 6 when x = 3.375 Find the value of 
 > SC B1 for awrt 3.6 or 16 [from 6 = or
 > 3.3753
 > 6 = k 3 3.375 ]
-> Total 3 marks
-> Question Working Answer Mark Notes
-> ( 4 3 ) or 27 + 3 + 2 × 81 4 M1 for squaring out the brackets on the numerator
 
 - **(3)** 3 k
 
@@ -685,8 +652,6 @@ Without using a calculator, show that 27 3 can be written in the form a b − a 
 > "48" ( 45 − 3) or "48"(3 5 − 3) or "16"( 5 −1) M1 for changing 45 to 3 5 this may be seen earlier
 > 36 36 4 or for simplifying the denominator to an integer
 > wr 4 5 −4 A1 dep on 3 M marks awarded
-> Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 2
 
@@ -717,8 +682,6 @@ Car A travelled x km at an average speed of a km/h Car B travelled y km at an av
 > 0.822 A1 dep on 3 M marks awarded and calculation with
 > wr correct figures seen.
 > awrt 0.82
-> Total 4 marks
-> Question Working Answer Mark Notes
 > one car
 > y
 > where 34.5 y 35.5 and 55 b 65
@@ -756,10 +719,8 @@ Express as a single fraction in its simplest form. 3 x 2 x 4 12 x 7 x 10 Show cl
 > ( 4 x + 5)( 3x − 2 ) M1 indep Attempt to invert divisor and multiply.
 > ( 3x − 2 )( x + 4 ) 7 x − 14
 > −5 − 4 x 4x + 5 ⎛ 4x + 5 ⎞
-> wr A1allow or − ⎜ ⎟
+> wr A1allow or − 
 > x+4 −x − 4 ⎝ x+4 ⎠
-> Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 4 M1 Factorise denominator of the divisor, must
 
@@ -822,8 +783,6 @@ Find the probability that the distance this person travelled to work is more tha
 
 > 15
 > better ISW incorrect cancelling
-> Total 7 marks
-> Question Working Answer Mark Notes
 
 - **(1)** 15
 
@@ -834,21 +793,18 @@ A and B are two mathematically similar containers. Container A has a volume of 3
 
 ### 24 [5]
 
-A and B are two mathematically similar containers. Container A has a volume of 30 000 mm3 and container B has a volume of 6480 mm3 Given that surface area of container A surface area of container B 8432 mm 2 calculate the surface area, in mm2, of container B mm2
+A and B are two mathematically similar containers. Container A has a volume of 30 000 mm³ and container B has a volume of 6480 mm³ Given that surface area of container A surface area of container B 8432 mm² calculate the surface area, in mm², of container B
+
+…………… mm²
 
 
 **Mark scheme answer**
 
 > 2 5 M2 for method to find the correct area scale factor
-> ⎛ 30000 ⎞ ⎡ 25 ⎤
-> ⎜⎜ 3 ⎟⎟ ⎢ = ⎥ or ⎛ 6480 ⎡ 3 18.64... ⎤ 30000 ⎡ 5 31.07... ⎤ ⎞
-> ⎝ 6480 ⎠ ⎣ 9 ⎦ ⎜ M1 for 3 = or or 3 = or ⎟
-> 2 ⎜ 30000 ⎣⎢ 5 31.07... ⎥⎦ 6480 ⎢⎣ 3 18.64... ⎦⎥ ⎟
-> ⎛ 6480 ⎞ ⎡ 9 ⎤ ⎜ 2 2 ⎟
-> ⎜⎜ 3 ⎟⎟ ⎢ = ⎥ ⎛ 6480 ⎞ ⎛ 30000 ⎞
-> ⎝ 30000 ⎠ ⎣ 25 ⎦
-> ⎜⎜ or ⎜ ⎟ [ = 0.0466...] or ⎜ ⎟ [ = 21.4...] ⎟⎟
-> ⎝ ⎝ 30000 ⎠ ⎝ 6480 ⎠ ⎠
+> ⎛ 30000 ⎞ ⎡ 25 3 = ⎥ or ⎛ 6480 ⎡ 3 18.64... ⎤ 30000 ⎡ 5 31.07... ⎤ ⎞
+> ⎝ 6480 ⎠ ⎣ 9 M1 for 3 = or or 3 = or ⎟
+> 2 ⎜ 30000 ⎣⎢ 5 31.07... ⎥⎦ 6480 ⎢⎣ 3 18.64... 6480 ⎞ ⎡ 9 2 2 3 = ⎥ ⎛ 6480 ⎞ ⎛ 30000 ⎞
+> ⎝ 30000 ⎠ ⎣ 25 or [ = 0.0466...] or [ = 21.4...] 30000 ⎠ ⎝ 6480 ⎠ ⎠
 > 965.48... 347.57...
 > Or or
 > 347.57... 965.48...
@@ -866,9 +822,12 @@ Diagram NOT A accurately drawn B O F E C D The diagram shows circle ABCDE with c
 
 ### 25 [6]
 
-Diagram NOT A accurately drawn B O F E C D The diagram shows circle ABCDE with centre O ABF and ECF are straight lines. OE = 10cm BF = 15cm AB ( x 1) cm CF = x cm The area of the sector OCDE 40 cm 2 Find the value, to one decimal place, of x x =
+The diagram shows circle ABCDE with centre O ABF and ECF are straight lines. OE = 10cm BF = 15cm AB ( x 1) cm CF = x cm The area of the sector OCDE 40 cm² Find the value, to one decimal place, of x x =
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, B, O, F, E, C, D.
+
+![diagram — official paper figure (qp.pdf p.19)](assets/asset_25_diagram.png)
 
 
 **Mark scheme answer**
@@ -886,21 +845,16 @@ Diagram NOT A accurately drawn B O F E C D The diagram shows circle ABCDE with c
 > +1 method to calculate SAB
 > or [ SAB ] × 8432 [ = 2232]
 > cas 2232 A1 awrt 2230
-> Total 5 marks
-> Question Working Answer Mark Notes
 > ∠EOC = [ = 144]
 > 102 π
 > ⎛ "144" ⎞ M1 for a expression to find the length of EC
-> EC = 2 × 10sin ⎜ ⎟ [ = 19.02...] angle EOC must be clearly identified if not correct or
+> EC = 2 × 10sin [ = 19.02...] angle EOC must be clearly identified if not correct or
 > ⎝ 2 ⎠
 > come from correct working
-> ⎛ 180 − "144"
-> Or EC = 2 ×10 cos ⎜ [ = 18] ⎞⎟
-> ⎝ 2 ⎠
+>  180 − "144"
+> Or EC = 2 ×10 cos ⎜ [ = 18] 2 ⎠
 > Or EC = × sin"144"
-> ⎛ ⎛ 180 − "144" ⎞⎞
-> ⎜ sin ⎜ [ = 18] ⎟ ⎟
-> ⎝ ⎝ 2 ⎠⎠
+> ⎛ ⎛ 180 − "144" sin ⎜ [ = 18] 2 ⎠⎠
 > Or EC 2 = 102 + 102 − 2 ×10 ×10cos"144"
 > M1 for correct use of the intersecting chord theorem,
 > BF × AF = CF × EF Just stating is not enough, must be
@@ -917,8 +871,6 @@ Diagram NOT A accurately drawn B O F E C D The diagram shows circle ABCDE with c
 > x= quadratic then working must be seen.
 > May be implied by an answer of 13.6 or −17.6
 > cas 13.6 A1 awrt 13.6 do not award if negative answer also given
-> Total 6 marks
-> Question Working Answer Mark Notes
 
 - **(6)** 8432 − SAB 9 SAB
 
@@ -989,8 +941,6 @@ Using a vector method and your answers from part (a) find MP Simplify your answe
 > → 5
 > cas MP = a− b A1 oe
 > 2
-> Total 6 marks
-> Question Working Answer Mark Notes
 
 - **(4)** →
 

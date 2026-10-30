@@ -8,7 +8,7 @@ Write down two of the following six numbers that are irrational numbers. 36 0.2 
 
 ### 1 [2]
 
-Write down two of the following six numbers that are irrational numbers. 36 0.2 3 −1 18 ,
+Write down two of the following six numbers that are irrational numbers. 36 0.2 3 −1 18 …………… , ……………
 
 
 **Mark scheme answer**
@@ -19,8 +19,6 @@ Write down two of the following six numbers that are irrational numbers. 36 0.2 
 > SC B1 for awrt 4.71 and 4.24 and no other values
 > Mark what is on the answer line, only check working or the
 > list if the answer line is blank.
-> Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 3π 2 B2 both correct with no incorrect given do not allow misreads.
 
@@ -43,7 +41,6 @@ The nth term of a sequence is given by 12 − 5n Find the sum of the 2nd term an
 > line
 > Correct answer scores full marks (unless Total 2 marks
 > from obvious incorrect working)
-> Question Working Answer Mark Notes
 
 - **(2)** (12 − 5 × 2 ) + (12 − 5 × 6 ) 2 M1 allow for both terms correct eg. 2 and – 18 but not added
 
@@ -67,7 +64,6 @@ Find the value of k 2 − 5k when k = − 4
 > 36 A1 cao
 > Correct answer scores full marks (unless Total 2 marks
 > from obvious incorrect working)
-> Question Working Answer Mark Notes
 
 - **(2)** ( −4 ) − 5 × −4
 
@@ -93,7 +89,6 @@ Using ruler and compasses only and showing all your construction lines, construc
 > the required construction arcs without the line. Condone a
 > bisector only drawn on one side of line
 > Working required Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** Correct 2 B2 correct line with construction arcs shown ie 2 sets of 2
 
@@ -104,9 +99,12 @@ Diagram NOT A accurately drawn D B E C The diagram shows the triangle ABC D is a
 
 ### 5 [2]
 
-Diagram NOT A accurately drawn D B E C The diagram shows the triangle ABC D is a point on the line AC E is a point on the line BC BA is parallel to ED BC = 10.8 cm EC = 8.1 cm DE = 3.6 cm Work out the length, in cm to one decimal place, of BA cm
+The diagram shows the triangle ABC D is a point on the line AC E is a point on the line BC BA is parallel to ED BC = 10.8 cm EC = 8.1 cm DE = 3.6 cm Work out the length, in cm to one decimal place, of BA cm
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, D, B, E, C.
+
+![diagram — official paper figure (qp.pdf p.3)](assets/asset_5_diagram.png)
 
 
 **Mark scheme answer**
@@ -118,8 +116,6 @@ Diagram NOT A accurately drawn D B E C The diagram shows the triangle ABC D is a
 > 4.8 A1 allow awrt 4.8
 > NB correct answer from incorrect assumptions (eg use of right
 > angled trigonometry) scores no marks
-> Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 10.8 2 AB 4
 
@@ -141,7 +137,6 @@ Solve the inequality 4 x 3 6 x
 > x > −4 A1 accept −4 < x must be –4 do not ISW
 > Correct answer scores full marks (unless Total 2 marks
 > from obvious incorrect working)
-> Question Working Answer Mark Notes
 
 - **(2)** 4 x – 6 x < 5 + 3 or −3 − 5 < 6 x − 4 x oe 2 M1 for isolating terms in x allow any of <, > or = for this
 
@@ -152,7 +147,7 @@ The price of a cup of coffee is decreased by 8% The price of a cup of coffee aft
 
 ### 7 [2]
 
-The price of a cup of coffee is decreased by 8% The price of a cup of coffee after the price decrease is $2.53 Calculate, in $, the price of this cup of coffee before the decrease. $
+The price of a cup of coffee is decreased by 8% The price of a cup of coffee after the price decrease is \$2.53 Calculate, in \$, the price of this cup of coffee before the decrease. \$
 
 
 **Mark scheme answer**
@@ -163,7 +158,6 @@ The price of a cup of coffee is decreased by 8% The price of a cup of coffee aft
 > 2.75 A1 cao
 > Correct answer scores full marks (unless from obvious Total 2 marks
 > incorrect working)
-> Question Working Answer Mark Notes
 
 - **(2)** 2.53 8 2 2.53
 
@@ -176,7 +170,9 @@ y 3x + 2y = −2 O R x The diagram shows the shaded finite region R which has th
 
 y 3x + 2y = −2 O R x The diagram shows the shaded finite region R which has three straight boundary lines. Write down the three inequalities that define the shaded region R
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![diagram — official paper figure (qp.pdf p.4)](assets/asset_8_diagram.png)
 
 
 **Mark scheme answer**
@@ -189,8 +185,6 @@ y 3x + 2y = −2 O R x The diagram shows the shaded finite region R which has th
 > B1 for x 0 and y 0 accept b x 0 or c y
 > where b − and c −1
 > Allow < for
-> Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 3x + 2 y − 2 oe 2 B1 3x + 2 y − 2 allow a 3x + 2 y − 2 where a 0 oe
 
@@ -201,7 +195,7 @@ Given that, for all values of x, x2 − 6x + 5 = (x − a)2 + b find the value o
 
 ### 9 [2]
 
-Given that, for all values of x, x2 − 6x + 5 = (x − a)2 + b find the value of a and the value of b a = b =
+Given that, for all values of x, x² − 6x + 5 = (x − a)² + b find the value of a and the value of b a = b =
 
 
 **Mark scheme answer**
@@ -212,8 +206,6 @@ Given that, for all values of x, x2 − 6x + 5 = (x − a)2 + b find the value o
 > B1 for b = −4 on answer line, if answer line is blank or contains
 > b = 4 award for ( x ± m ) − 4 where m is numerical in their
 > working
-> Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** a=3 2 B1 for a = 3 on answer line, if answer line is blank or contains
 
@@ -257,7 +249,6 @@ Without using a calculator and showing all your working, work out 3 5 2 +3 5 7 G
 > 5 +1 = 6
 > 35
 > Working required Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 13 26 3 M1 for writing the fractions as improper fractions (addition
 
@@ -290,7 +281,6 @@ Make x the subject of y
 > Do not isw.
 > Correct answer scores full marks (unless Total 3 marks
 > from obvious incorrect working)
-> Question Working Answer Mark Notes
 
 - **(3)** 3x 15 4y 3 M1 Fully expanded, equation with no brackets.
 
@@ -312,7 +302,6 @@ Calculate 2 10 180 4 10 182 Give your answer in standard form.
 > 1.25 ×10189 A1 cao
 > Correct answer scores full marks (unless Total 3 marks
 > from obvious incorrect working)
-> Question Working Answer Mark Notes
 
 - **(3)** 204 ×10−182 or 2.04 ×10−180 oe 3 M1 for a correct denominator Allow in any form
 
@@ -347,7 +336,6 @@ Factorise 5 y 2 9 y
 > integer values.
 > NB If a candidate goes on to give solutions as
 > their final answer award a maximum of B1
-> Total 4 marks
 > Q Working Answer Mark Notes
 
 - **(2)** ( 5 y − 6 )( y + 3) 2 B2 fully correct
@@ -359,9 +347,12 @@ A E B Diagram NOT accurately drawn D C The diagram shows the trapezium ABCD E is
 
 ### 14 [3]
 
-A E B Diagram NOT accurately drawn D C The diagram shows the trapezium ABCD E is the midpoint of AB and DEC is an equilateral triangle. Prove that Δ AED is congruent to ΔBEC
+The diagram shows the trapezium ABCD E is the midpoint of AB and DEC is an equilateral triangle. Prove that Δ AED is congruent to ΔBEC
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, E, B, D, C.
+
+![diagram — official paper figure (qp.pdf p.8)](assets/asset_14_diagram.png)
 
 
 **Mark scheme answer**
@@ -410,7 +401,6 @@ Without using a calculator and showing all your working express 3 180 − 2 245 
 > 80 A1 dep on M2 cao
 > SC B1 80 given as answer and no marks gained
 > Working required Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 3 36 × 5 − 2 49 × 5 3 M1 Both surds written correctly. Allow
 
@@ -426,14 +416,12 @@ The position vector of A is The point B has coordinates ( 2, − 4) → Find ½ 
 
 **Mark scheme answer**
 
-> ⎛ 2 ⎞ ⎛ −3 ⎞ ⎛ −3 ⎞ ⎛ 2 ⎞ 3 ⎛ 5⎞
-> ⎜ ⎟ − ⎜ ⎟ or ⎜ ⎟ − ⎜ ⎟ M1 oe ⎜ ⎟ accept (5, –12) or 5 horizontally and 12
+> ⎛ 2 ⎞ ⎛ −3 ⎞ ⎛ −3 ⎞ ⎛ 2 ⎞ 3 ⎛ 5 − or − M1 oe accept (5, –12) or 5 horizontally and 12
 > ⎝ −4 ⎠ ⎝ 8 ⎠ ⎝ 8 ⎠ ⎝ −4 ⎠ ⎝ −12 ⎠
 > vertically shown on a diagram or indicated in writing or any
 > other equivalent form.
 > ⎛ −5 ⎞
-> Also accept any of the above for BA Eg ⎜ ⎟
-> ⎝ 12 ⎠
+> Also accept any of the above for BA Eg 12 
 > M1 ft their AB or BA, a correct expression implies the
 > 52 + ([ −]12 )
 > previous M mark if not already awarded. Give benefit of
@@ -443,9 +431,8 @@ The position vector of A is The point B has coordinates ( 2, − 4) → Find ½ 
 > 13 A1 cao
 > Correct answer scores full marks (unless Total 3 marks
 > from obvious incorrect working)
-> Question Working Answer Mark Notes
 
-- **(3)** ⎛ 2 ⎞ ⎛ −3 ⎞ ⎛ −3 ⎞ ⎛ 2 ⎞ 3 ⎛ 5⎞
+- **(3)** ⎛ 2 ⎞ ⎛ −3 ⎞ ⎛ −3 ⎞ ⎛ 2 ⎞ 3 ⎛ 5 − or − M1 oe accept (5, –12) or 5 horizontally and 12
 
 
 ## Question 17 (3 marks)
@@ -478,7 +465,6 @@ The table gives information about the weights, in grams, of 100 birds. Weight (w
 > from obvious incorrect working)
 > Commonly seen correct Histograms
 > 1
-> Question Working Answer Mark Notes
 
 - **(3)** 15 25 22 3 M2 for correct methods to find all of the FD which may be
 
@@ -498,9 +484,9 @@ Here are eight numbers written in ascending order. −20 −15 3 5 x 77 85 90 Th
 > or
 > 2 in terms of x
 > −20 + −15 + 3 + 5 + x + 77 + 85 + 90 ⎡ 225 + x ⎤
-> ⎢⎣ =
+>  =
 > oe
-> 8 8 ⎥⎦
+> 8 8 
 > 225 + x x+5 M1 dep on previous M mark forming an equation in x, (need
 > " " = 2 +" " oe
 > 8 2 not be simplified) must contain at least one of the correct
@@ -510,8 +496,7 @@ Here are eight numbers written in ascending order. −20 −15 3 5 x 77 85 90 Th
 > Must see + 2 or –2 for this mark.
 > Accept methods relating to the total eg
 > ⎛ x+5 ⎞
-> −15 + 3 + 5 + x + 77 + 85 + 90 = 8 ⎜ + 2⎟
-> ⎝ 2 ⎠
+> −15 + 3 + 5 + x + 77 + 85 + 90 = 8 ⎜ + 2 2 ⎠
 > 225 5 x x M1 isolating terms in x ft their linear equation in x. Condone
 > 225 − 16 − 20 = 4x − x or −2− = −
 > 8 2 2 8 one sign or numerical error Dep on gaining an equation in
@@ -522,7 +507,6 @@ Here are eight numbers written in ascending order. −20 −15 3 5 x 77 85 90 Th
 > 63 A1 cao
 > Correct answer scores full marks (unless from Total 4 marks
 > obvious incorrect working)
-> Question Working Answer Mark Notes
 
 - **(4)** x+5 4 M1 for a correct expression for the median or for the mean
 
@@ -557,7 +541,6 @@ Calculate the expected number of times the dice will land on 12
 > 20 A1 cao
 > Correct answer scores full marks (unless from obvious Total 4 marks
 > incorrect working)
-> Question Working Answer Mark Notes
 
 - **(3)** a + 0.22 − a + 0.2 + 1.5a + a + 0.03 + 2a + 0.01 = 1 3 M1 Form a correct equation in a Using Σ p = 1
 
@@ -584,7 +567,7 @@ find a formula for y in terms of w x is inversely proportional to t3
 > already awarded.
 > y=2 w A1 accept y = 4w must be an equation (do not
 > accept ∝ symbol in place of =)
-> 1 y2
+> 1 y²
 > do not accept y = w or w = do not isw
 > 2
 
@@ -610,7 +593,6 @@ Write down an expression for x in terms of t and c where c is a constant.
 > do not isw
 > Correct answer scores full marks (unless from Total 4 marks
 > obvious incorrect working)
-> Question Working Answer Mark Notes
 
 - **(1)** c 1
 
@@ -629,7 +611,7 @@ The curve C has equation y x 2 5 where b is a constant. x C has a stationary poi
 > −1
 > y = ... − bx ... 4 b
 > M1 writing the second term so can differentiate. Implied by + oe
-> x2
+> x²
 > dy b M1 one non constant term differentiated correctly – need not be
 > = 2x + 2
 > dx x simplified (eg −b × − x −2 )
@@ -643,7 +625,6 @@ The curve C has equation y x 2 5 where b is a constant. x C has a stationary poi
 > Correct answer scores full marks Total 4 marks
 > (unless from obvious incorrect
 > working)
-> Question Working Answer Mark Notes
 
 - **(4)** −1
 
@@ -654,9 +635,12 @@ E F Diagram NOT accurately drawn H G D C A B A solid cylinder with diameter x cm
 
 ### 22 [5]
 
-E F Diagram NOT accurately drawn H G D C A B A solid cylinder with diameter x cm and height x cm is placed inside a hollow cube ABCDEFGH of side x cm. Given that AF = 27 cm, find the volume, in cm3 to 3 significant figures, of the space inside the cube that is not taken up by the cylinder cm3
+solid cylinder with diameter x cm and height x cm is placed inside a hollow cube ABCDEFGH of side x cm. Given that AF = 27 cm, find the volume, in cm³ to 3 significant figures, of the space inside the cube that is not taken up by the cylinder cm³
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: E, F, H, G, D, C, A, B, A.
+
+![diagram — official paper figure (qp.pdf p.15)](assets/asset_22_diagram.png)
 
 
 **Mark scheme answer**
@@ -666,12 +650,12 @@ E F Diagram NOT accurately drawn H G D C A B A solid cylinder with diameter x cm
 > or x = 27sin(35.3) oe
 > x = awrt 15.6
 > M1 An attempt to find the volume of the cylinder.
-> π x3
+> π x³
 > ft their x or allow a correct formula eg oe
 > Accept 3.14 or for π
 > Commonly seen values of x and the required expression are:
 > ⎛ "9 3 " ⎞ 19.1 ⇒ π × 9.52 ×19.1[ = 5465.6]
-> π ⎜⎜ ⎟⎟ × "9 3 "[ = 2975.084...]
+> π × "9 3 "[ = 2975.084...]
 > ⎝ 2 ⎠ 3 ⇒ π ×1.52 × 3[ = 21.2]
 > 18.8 ⇒ π × 9.42 ×18.8 [ = 5255.0]
 > 3.4 ⇒ π ×1.72 × 3.4 [ = 31.8]
@@ -682,12 +666,11 @@ E F Diagram NOT accurately drawn H G D C A B A solid cylinder with diameter x cm
 > be numerical
 > ⎛ "9 3 " ⎞
 > ( ) M1 dep on previous 2 M marks correct expression for the volume
-> "9 3 " − π ⎜⎜ ⎟⎟ × "9 3 "
+> "9 3 " − π × "9 3 "
 > ⎝ 2 ⎠ required, must be numerical ft their x
 > 813 A1 allow awrt 813, 814, or 815
 > Correct answer scores full marks Total 5 marks
 > (unless from obvious incorrect working)
-> Question Working Answer Mark Notes
 
 - **(5)** x 2 + x 2 + x 2 = 729 ⎡⎣⇒ x = 9 3 = 15.6 ⎤⎦ 5 729
 
@@ -716,8 +699,8 @@ Express 2 as a single fraction in its simplest form. y 3 3 y 6 y 7 y 20 Show cle
 > brackets initially omitted.
 > May be seen after attempt to multiply.
 > 3 y + 17 ⎛ 6 y 2 − 7 y − 20 ⎞ M1 invert divisor which must be an algebraic fraction and use
-> " "× ⎜ oe
-> ( y − 3)( 3 y + 4 ) ⎝ 6 y + 34 ⎟⎠ this to multiply their other fraction. Must be only the divisor
+> " "× oe
+> ( y − 3)( 3 y + 4 ) 6 y + 34 this to multiply their other fraction. Must be only the divisor
 > which is inverted. If attempted before fractions added, must
 > attempt to multiply both the fractions in the first bracket by
 > the inverted fraction
@@ -732,7 +715,6 @@ Express 2 as a single fraction in its simplest form. y 3 3 y 6 y 7 y 20 Show cle
 > 2 ( y − 3)
 > only
 > Working required Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(5)** ( 3 y + 4 )( 2 y − 5) 5
 
@@ -743,9 +725,12 @@ Express 2 as a single fraction in its simplest form. y 3 3 y 6 y 7 y 20 Show cle
 
 ### 24 [6]
 
-9.8 m A B Diagram NOT accurately drawn D C 20.4 m The diagram shows a horizontal garden ABCD in the shape of a trapezium with AB parallel to DC AB = 9.8 m DC = 20.4 m AD = BC Point B is due east of point A The area of the garden is 392.6 m2 Calculate the bearing, in degrees to the nearest degree, of D from A °
+The diagram shows a horizontal garden ABCD in the shape of a trapezium with AB parallel to DC AB = 9.8 m DC = 20.4 m AD = BC Point B is due east of point A The area of the garden is 392.6 m² Calculate the bearing, in degrees to the nearest degree, of D from A °
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, B, D, C · Figure values: 9.8, 20.4.
+
+![diagram — official paper figure (qp.pdf p.17)](assets/asset_24_diagram.png)
 
 
 **Mark scheme answer**
@@ -782,7 +767,6 @@ Express 2 as a single fraction in its simplest form. y 3 3 y 6 y 7 y 20 Show cle
 > 192 A1 awrt 192 do not isw anything other than rounding
 > Correct answer scores full marks (unless Total 6 marks
 > from obvious incorrect working)
-> Question Working Answer Mark Notes
 
 - **(6)** 1 6 M1 Correct method to find area of trapezium
 
@@ -799,7 +783,7 @@ A − B
 **Mark scheme answer**
 
 > ⎛ −4 −1⎞ 2 B2 Fully correct
-> ⎜ ⎟ (B1 for 2 or 3 terms correct)
+>  (B1 for 2 or 3 terms correct)
 > ⎝1 8⎠
 
 - **(2)** ⎛ −4 −1⎞ 2 B2 Fully correct
@@ -812,11 +796,10 @@ A − B
 **Mark scheme answer**
 
 > ⎛ −15 10 ⎞ ⎛ 2 6 ⎞ 2 M1 for correct two matrices added or allow for 2 or 3 terms correct
-> ⎜ ⎟+⎜ ⎟ in final answer
+>  + in final answer
 > ⎝ −5 20 ⎠ ⎝ −4 −8 ⎠
 > ⎛ −13 16 ⎞ A1 cao
-> ⎜ ⎟
-> ⎝ −9 12 ⎠
+>  −9 12 
 
 - **(2)** ⎛ −15 10 ⎞ ⎛ 2 6 ⎞ 2 M1 for correct two matrices added or allow for 2 or 3 terms correct
 
@@ -829,11 +812,8 @@ B−1
 
 > Det = 1× ( −4 ) − 3 × ( −2 ) [ = 2] oe or 2 M1 correct method to find the determinant or correct matrix without
 > the determinant
-> ⎛ −4 −3 ⎞
-> ⎜ ⎟
-> ⎝2 1⎠
-> 1 ⎛ −4 −3 ⎞ ⎛ −2 −1.5 ⎞
-> ⎜ ⎟ A1 Allow ⎜ ⎟ oe
+> ⎛ −4 −3 2 1⎠
+> 1 ⎛ −4 −3 ⎞ ⎛ −2 −1.5 A1 Allow oe
 > 2⎝ 2 1 ⎠ ⎝ 1 0.5 ⎠
 > 1
 > isw incorrectly multiplying through of matrix by or if omitted
@@ -862,15 +842,14 @@ Solve the simultaneous equations 3 x 4 y x 2 y 2 Show clear algebraic working.
 > 2
 > ⎛ 25 + 4 y ⎞
 > 6 M1 For substituting a correct expression for x or y into the quadratic
-> x +⎜ ⎟ = 26 or ⎜ ⎟ + y = 26 oe equation to form a quadratic (may be un-simplified) equation in
+> x + = 26 or + y = 26 oe equation to form a quadratic (may be un-simplified) equation in
 > ⎝ 4 ⎠ ⎝ 3 ⎠
 > either x or y.
-> ⎛ 3x − 25 ⎞ 25 + 4 y ⎞
-> ⎜ ⎟ = 26 − x
-> or ⎛⎜ ⎟ = 26 − y
+> ⎛ 3x − 25 ⎞ 25 + 4 y = 26 − x
+> or = 26 − y
 > ⎝ 4 ⎠ ⎝ 3 ⎠
 > ⎛ 9 150 625 ⎞ M1 For a correct method to expand their brackets which must be of
-> x2 + ⎜ x2 − x+ ⎟ = 26 or
+> x² + ⎜ x² − x+ ⎟ = 26 or
 > form ( ax + c ) or ( ay + c ) resulting with 3 or 4 terms. Condone 1
 > 2
 > ⎝ 16 16 16 ⎠
@@ -902,7 +881,6 @@ Solve the simultaneous equations 3 x 4 y x 2 y 2 Show clear algebraic working.
 > x =3.8, y = –3.4 pairings of x and y isw transcription errors eg exchanging x and y
 > values. Accept x = 11 5 , y = − 23 5 and x = 19 5 , y = − 17 5
 > Working required Total 6 marks
-> Question Working Ans Mark Notes
 
 - **(6)** 2 ⎛ 3x − 25 ⎞
 
@@ -913,9 +891,12 @@ Diagram NOT A B accurately drawn 3.8 cm C H O 4.5 cm D E 5 cm G F In the diagram
 
 ### 27 [7]
 
-Diagram NOT A B accurately drawn 3.8 cm C H O 4.5 cm D E 5 cm G F In the diagram B, C, E and F are points on a circle centre O ABOFGH is a regular hexagon such that OB and OF are radii of the circle. BCD and FED are straight lines. BC = 3.8 cm CD = 4.5 cm ED = 5 cm Calculate the area, in cm2 to 3 significant figures, of triangle CDF cm2
+In the diagram B, C, E and F are points on a circle centre O ABOFGH is a regular hexagon such that OB and OF are radii of the circle. BCD and FED are straight lines. BC = 3.8 cm CD = 4.5 cm ED = 5 cm Calculate the area, in cm² to 3 significant figures, of triangle CDF cm²
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, B, C, H, O, D, E, G, F · Figure values: 3.8, 4.5, 5.
+
+![diagram — official paper figure (qp.pdf p.21)](assets/asset_27_diagram.png)
 
 
 **Mark scheme answer**
@@ -933,9 +914,9 @@ Diagram NOT A B accurately drawn 3.8 cm C H O 4.5 cm D E 5 cm G F In the diagram
 > = [⇒ ∠CFD = 31.446...] or diagram or use of cosine rule to find quadratic in CF
 > 4.5 "7.47"
 > allow for awrt 4.1 on diagram ft their DF (do not allow
-> ("7.47") = CF 2 + 4.52 − 2 × 4.5 × CF cos (180 − "60")
+> ("7.47") = $CF^2$ + $4.5^2$ − 2 × 4.5 × CF cos (180 − "60")
 > 5) and their ∠BCF
-> ⎡⎣⇒ CF 2 + 4.5CF − 35.5509 = 0⎤⎦
+> ⎡⎣⇒ $CF^2$ + 4.5CF − 35.5509 = 0⎤⎦
 > ∠CDF = 180 − 120 − "31.446"[ = 28.55...] or M1 dep on previous M mark. Method to find ∠CDF
 > allow awrt 29 on diagram or method to find CF from
 > −4.5 + 4.52 − 4 [×1] × ( −35.5509 ) their quadratic allow for awrt 4.1 on diagram
@@ -964,21 +945,23 @@ for Question 28 C Diagram NOT accurately drawn E F B A D The diagram shows a tri
 
 for Question 28 C Diagram NOT accurately drawn E F B A D The diagram shows a triangle ABC and a circle DEF BEC is the tangent to the circle at the point E with BC = 16 cm. CFA is the tangent to the circle at the point F with CA = 10 cm. ADB is the tangent to the circle at the point D with BA = 20 cm. Calculate the radius, in cm to one decimal place, of the circle cm
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![diagram — official paper figure (qp.pdf p.23)](assets/asset_28_diagram.png)
 
 
 **Mark scheme answer**
 
-> 102 = 162 + 202 − 2 ×16 × 20cos CBA 6 M1 using cosine rule to find an angle
-> 162 = 102 + 202 − 2 ×10 × 20cos CAB
-> 202 = 162 + 102 − 2 ×16 ×10cos BCA
-> 162 + 202 − 102 M1 this mark implies the previous mark Allow ∠CBA = awrt 29.7 ,
+> $10^2$ = $16^2$ + $20^2$ − 2 ×16 × 20cos CBA 6 M1 using cosine rule to find an angle
+> $16^2$ = $10^2$ + $20^2$ − 2 ×10 × 20cos CAB
+> $20^2$ = $16^2$ + $10^2$ − 2 ×16 ×10cos BCA
+> $16^2$ + $20^2$ − $10^2$ M1 this mark implies the previous mark Allow ∠CBA = awrt 29.7 ,
 > cos CBA = or
 > 2 ×16 × 20 ∠CAB = awrt 52.4 , ∠BCA = awrt 97.9 , Allow for angles on diagram
-> 102 + 202 − 162 1 1
+> $10^2$ + $20^2$ − $16^2$ 1 1
 > cos CAB = or Allow ∠CBA = awrt 14.8 or ∠CAB = awrt 26.2 or ∠BCA = awrt 49.0
 > 2 ×10 × 20 2 2
-> 162 + 102 − 202
+> $16^2$ + $10^2$ − $20^2$
 > cos BCA =
 > 2 ×16 ×10
 > a + b = 20, a + c = 10, b + c = 16 oe M1 Any 3 of the equations linking a, b, c and r
@@ -1004,16 +987,16 @@ for Question 28 C Diagram NOT accurately drawn E F B A D The diagram shows a tri
 > sin"26.2" sin(90 − "26.2")
 > 3.4 A1 accept answer between 3.4 and 3.5 inclusive
 > Correct answer scores full marks Total 6 marks
-> ALT 102 = 162 + 202 − 2 ×16 × 20cos CBA 6 M1 using cosine rule to find an angle
-> 1 162 = 102 + 202 − 2 ×10 × 20cos CAB
-> 202 = 162 + 102 − 2 ×16 ×10cos BCA
-> 162 + 202 − 102 M1 this mark implies the previous mark Allow ∠CBA = awrt 29.7 ,
+> ALT $10^2$ = $16^2$ + $20^2$ − 2 ×16 × 20cos CBA 6 M1 using cosine rule to find an angle
+> 1 $16^2$ = $10^2$ + $20^2$ − 2 ×10 × 20cos CAB
+> $20^2$ = $16^2$ + $10^2$ − 2 ×16 ×10cos BCA
+> $16^2$ + $20^2$ − $10^2$ M1 this mark implies the previous mark Allow ∠CBA = awrt 29.7 ,
 > cos CBA = or
 > 2 ×16 × 20 ∠CAB = awrt 52.4 , ∠BCA = awrt 97.9 , Allow for angles on diagram
-> 102 + 202 − 162 1 1
+> $10^2$ + $20^2$ − $16^2$ 1 1
 > cos CAB = or Allow ∠CBA = awrt 14.8 or ∠CAB = awrt 26.2 or ∠BCA = awrt 49.0
 > 2 ×10 × 20 2 2
-> 162 + 102 − 202
+> $16^2$ + $10^2$ − $20^2$
 > cos BCA =
 > 2 ×16 ×10
 > 1 M1 Method to find area of ABC
@@ -1027,16 +1010,16 @@ for Question 28 C Diagram NOT accurately drawn E F B A D The diagram shows a tri
 > 3.4 A1 awrt 3.4
 > Correct answer scores full marks Total 6 marks
 > Que Working Ans M Notes
-> ALT 102 = 162 + 202 − 2 ×16 × 20cos CBA 6 M1 using cosine rule to find an angle
-> 2 162 = 102 + 202 − 2 ×10 × 20cos CAB
-> 202 = 162 + 102 − 2 ×16 ×10cos BCA
-> 162 + 202 − 102 M1 this mark implies the previous mark Allow ∠CBA = awrt 29.7 ,
+> ALT $10^2$ = $16^2$ + $20^2$ − 2 ×16 × 20cos CBA 6 M1 using cosine rule to find an angle
+> 2 $16^2$ = $10^2$ + $20^2$ − 2 ×10 × 20cos CAB
+> $20^2$ = $16^2$ + $10^2$ − 2 ×16 ×10cos BCA
+> $16^2$ + $20^2$ − $10^2$ M1 this mark implies the previous mark Allow ∠CBA = awrt 29.7 ,
 > cos CBA = or
 > 2 ×16 × 20 ∠CAB = awrt 52.4 , ∠BCA = awrt 97.9 , Allow for angles on diagram
-> 102 + 202 − 162 1
+> $10^2$ + $20^2$ − $16^2$ 1
 > cos CAB = or Allow ∠CBA = awrt 14.8 or ∠CAB = awrt 26.2 or
 > 2 ×10 × 20 2
-> 162 + 102 − 202
+> $16^2$ + $10^2$ − $20^2$
 > cos BCA = ∠BCA = awrt 49.0
 > 2 ×16 ×10
 > OA 10 M1 Fully correct method to find OA, OB or OC from their angles
@@ -1064,5 +1047,5 @@ for Question 28 C Diagram NOT accurately drawn E F B A D The diagram shows a tri
 > 3.4 A1 awrt 3.4
 > Correct answer scores full marks Total 6 marks
 
-- **(6)** 102 = 162 + 202 − 2 ×16 × 20cos CBA 6 M1 using cosine rule to find an angle
+- **(6)** $10^2$ = $16^2$ + $20^2$ − 2 ×16 × 20cos CBA 6 M1 using cosine rule to find an angle
 

@@ -8,7 +8,9 @@ Answer ALL ELEVEN questions. Write your answers in the spaces provided. You must
 
 ### 1(a) [1]
 
-Write down the lower bound for the length of XY. The area of △XYZ is 29 cm2, to 2 significant figures.
+Z Diagram NOT accurately drawn h cm X Y Figure 1 In Figure 1, △XYZ has base XY and height h cm. The length of XY is 7.2 cm, to 2 significant figures.
+
+Write down the lower bound for the length of XY. The area of △XYZ is 29 cm², to 2 significant figures.
 
 
 **Mark scheme answer**
@@ -38,7 +40,6 @@ Calculate, to 3 decimal places, the upper bound of h.
 > “29.5” ÷ (0.5 × “7.15”) 2 M1 “their (b)” ÷ (0.5 × “their(a)”)
 > Or their (b) = (0.5 × “their(a)”) × h
 > 8.252 A1 cao
-> Question Working Answer Mark Notes
 
 - **(2)** “29.5” ÷ (0.5 × “7.15”) 2 M1 “their (b)” ÷ (0.5 × “their(a)”)
 
@@ -46,7 +47,9 @@ Calculate, to 3 decimal places, the upper bound of h.
 ## Question 2 (9 marks)
 ### 2(a) [2]
 
-Complete the table of values for y = x2 − 3x + 1 x −1 0 1 2 3 4 5 y −1 1 5
+Complete the table of values for y = x² − 3x + 1 x −1 0 1 2 3 4 5 y −1 1 5
+
+![table — official paper figure (qp.pdf p.4)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2019-01/4MB1-02R/assets/asset_2_a_table.png)
 
 ![table — official paper figure (qp.pdf p.4)](assets/asset_2_a_table.png)
 
@@ -91,7 +94,9 @@ Use your graph to find an estimate for the minimum value of y.
 
 ### 2(d) [1]
 
-Use your graph to find estimates, to one decimal place, for the solutions of the equation x2 − 3x + 1 = 0
+Use your graph to find estimates, to one decimal place, for the solutions of the equation x² − 3x + 1 = 0
+
+![graph — official paper figure (qp.pdf p.5) (same figure as asset_2_b_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2019-01/4MB1-02R/assets/asset_2_b_grid.png)
 
 ![graph — official paper figure (qp.pdf p.5) — shared with asset_2_b_grid](assets/asset_2_b_grid.png)
 
@@ -104,7 +109,9 @@ Use your graph to find estimates, to one decimal place, for the solutions of the
 
 ### 2(e) [3]
 
-By drawing a suitable straight line on your grid, find estimates, to one decimal place, for the solutions of the equation x2 − 4x + 2 = 0 y −2 −1 O 1 2 3 4 5 x −1 −2 −3 for a spare grid if you need to redraw your graph. Only use this grid if you need to redraw your graph. y −2 −1 O 1 2 3 4 5 x −1 −2 −3
+By drawing a suitable straight line on your grid, find estimates, to one decimal place, for the solutions of the equation x² − 4x + 2 = 0
+
+![graph — official paper figure (qp.pdf p.5) (same figure as asset_2_b_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2019-01/4MB1-02R/assets/asset_2_b_grid.png)
 
 ![graph — official paper figure (qp.pdf p.5) — shared with asset_2_b_grid](assets/asset_2_b_grid.png)
 
@@ -118,7 +125,6 @@ By drawing a suitable straight line on your grid, find estimates, to one decimal
 > but must have a straight line drawn.
 > 0.6, 3.4 A2 answers ±0.1 Incorrect line or no line
 > A0A0
-> Question Working Answer Mark Notes
 
 - **(3)** Line y = x – 1 3 M1 for indication that y = x – 1 is the
 
@@ -167,7 +173,6 @@ Calculate the total profit, in pounds, that they make by selling all 270 ice cre
 > 240 × 1.2(0) + 30 × (0.5 × (1.20 + )) – 30 ×
 > 270 270
 > 302.40 A1 allow 302.4
-> Question Working Answer Mark Notes
 
 - **(3)** 8 1 3 M1
 
@@ -191,7 +196,9 @@ AB (ii) AC (iii) AM → → The point N is such that ON = μOM where μ > 1 and 
 
 ### 4(b) [4]
 
-Find and simplify an expression, in terms of a and b, for ON . Given that the area of △OAM is 12 cm2
+Find and simplify an expression, in terms of a and b, for ON . Given that the area of △OAM is 12
+
+…………… cm²
 
 
 **Mark scheme answer**
@@ -205,7 +212,7 @@ Find and simplify an expression, in terms of a and b, for ON . Given that the ar
 
 ### 4(c) [3]
 
-find the area, in cm2, of △NMC.
+find the area, in cm², of △NMC.
 
 
 **Mark scheme answer**
@@ -213,7 +220,6 @@ find the area, in cm2, of △NMC.
 > for sides in ratio 1 : 2 oe M1
 > 2² × 12 M1
 > 48 3 A1
-> Question Working Answer Mark Notes
 
 - **(3)** for sides in ratio 1 : 2 oe M1
 
@@ -224,7 +230,9 @@ On the grid opposite, triangle B is the image of triangle A under a single trans
 
 ### 5(a) [3]
 
-Describe fully the single transformation. Triangle B is transformed to triangle C under the transformation with matrix M where ⎛ −1 0⎞ M= ⎜ ⎝ −3 −1⎟⎠
+On the grid opposite, triangle B is the image of triangle A under a single transformation.
+
+Describe fully the single transformation. Triangle B is transformed to triangle C under the transformation with matrix M where ⎛ −1 0⎞ M= −3 −1 
 
 
 **Mark scheme answer**
@@ -238,15 +246,17 @@ Describe fully the single transformation. Triangle B is transformed to triangle 
 
 ### 5(b) [3]
 
-On the grid, draw and label triangle C. Triangle C is transformed to triangle D under the transformation with matrix N where ⎛ 3 −1⎞ N= ⎜ ⎝ −1 0⎟⎠
+On the grid, draw and label triangle C. Triangle C is transformed to triangle D under the transformation with matrix N where ⎛ 3 −1⎞ N= −1 0 
 
-> 🖼 crop required: grid (qp.pdf p.16)
+![figure — official paper figure (qp.pdf p.15)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2019-01/4MB1-02R/assets/asset_5_5-b.png)
+
+![figure — official paper figure (qp.pdf p.15)](assets/asset_5_5-b.png)
 
 
 **Mark scheme answer**
 
 > ⎛ −1 0 ⎞ ⎛ −1 −1 −2 ⎞ ⎛ 1 1 2 ⎞ C correctly plotted 3 B2 for all points correctly calculated (may
-> ⎜ ⎟⎜ ⎟=⎜ ⎟ be in any order)
+>  = be in any order)
 > ⎝ −3 −1 ⎠ ⎝ 1 3 1 ⎠ ⎝2 0 5⎠
 > B1 for 2 correctly calculated coordinates
 > B1 for correctly plotting C
@@ -257,13 +267,15 @@ On the grid, draw and label triangle C. Triangle C is transformed to triangle D 
 
 On the grid, draw and label triangle D. Triangle D is the image of triangle B under a single transformation.
 
-> 🖼 crop required: grid (qp.pdf p.16)
+![figure — official paper figure (qp.pdf p.15)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2019-01/4MB1-02R/assets/asset_5_5-c.png)
+
+![figure — official paper figure (qp.pdf p.15)](assets/asset_5_5-c.png)
 
 
 **Mark scheme answer**
 
 > ⎛ 3 −1 ⎞ ⎛ 1 1 2 ⎞ ⎛ 1 3 1⎞ D correctly 3 B2 for all points correctly calculated (ft (b))
-> ⎜ ⎟⎜ ⎟=⎜ ⎟ plotted B1 for 2 correctly calculated coordinates
+>  = plotted B1 for 2 correctly calculated coordinates
 > ⎝ − 1 0 ⎠ ⎝ 2 0 5 ⎠ ⎝ −1 −1 −2 ⎠
 > B1for correctly plotting D
 
@@ -281,7 +293,6 @@ Describe fully this transformation.
 > B1 reflection
 > B1 in y = x (must be true for their triangle B
 > and triangle D)
-> Question Working Answer Mark Notes
 
 - **(2)** Reflection in 2 NB: If not a single transformation then
 
@@ -334,7 +345,9 @@ n(R ∪ F )
 
 ### 6(c)(ii) [2]
 
-n(R ∩ [C ∪ F ]) Question 6 continues on the next page. Some of the 14 students in class 11T, who like rugby, play for a rugby club team. The incomplete probability tree diagram gives information about these 14 students. plays for a club team boy does not play for a club team plays for a club team girl does not play for a club team
+n(R ∩ [C ∪ F ]) Some of the 14 students in class 11T, who like rugby, play for a rugby club team. The incomplete probability tree diagram gives information about these 14 students. plays for a club team boy does not play for a club team plays for a club team girl does not play for a club team
+
+![diagram — official paper figure (qp.pdf p.20) (same figure as 6(a))](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2019-01/4MB1-02R/assets/asset_6_a_diagram.png)
 
 ![diagram — official paper figure (qp.pdf p.20) — shared with 6(a)](assets/asset_6_a_diagram.png)
 
@@ -372,7 +385,6 @@ Find the probability that this student plays rugby for a club team.
 > × + × oe
 > 14 9 14 5 tree diagram DO Not ISW
 > 5 2 A1 oe allow 0.71 or better
-> Question Working Answer Mark Notes
 
 - **(2)** 9 6 5 4 M1 Correct method using their prob from
 
@@ -383,7 +395,9 @@ B Diagram NOT accurately drawn A O F 59° D C 27° 12 cm E Figure 3 In Figure 3,
 
 ### 7(a) [1]
 
-Explain why ÐOCE = 90°
+B Diagram NOT accurately drawn A O F 59° D C 27° 12 cm E Figure 3 In Figure 3, ABCD is a circle, centre O. EA is the tangent to the circle at A. ECF is the tangent to the circle at C. EDO is a straight line. ∠OEC = 27° ∠BCF = 59° EC = 12 cm
+
+Explain why ∠OCE = 90°
 
 
 **Mark scheme answer**
@@ -395,7 +409,7 @@ Explain why ÐOCE = 90°
 
 ### 7(b) [4]
 
-Calculate the area, in cm2 to 3 significant figures, of △OEC.
+Calculate the area, in cm² to 3 significant figures, of △OEC.
 
 
 **Mark scheme answer**
@@ -413,7 +427,7 @@ Calculate the area, in cm2 to 3 significant figures, of △OEC.
 
 ### 7(c) [4]
 
-Giving reasons, calculate the size, in degrees, of ÐABC.
+Giving reasons, calculate the size, in degrees, of ∠ABC.
 
 
 **Mark scheme answer**
@@ -430,7 +444,7 @@ Giving reasons, calculate the size, in degrees, of ÐABC.
 
 ### 7(d) [2]
 
-Calculate the size, in degrees, of ÐADC.
+Calculate the size, in degrees, of ∠ADC.
 
 
 **Mark scheme answer**
@@ -442,7 +456,7 @@ Calculate the size, in degrees, of ÐADC.
 
 ### 7(e) [3]
 
-Calculate the size, in degrees, of ÐBAO.
+Calculate the size, in degrees, of ∠BAO.
 
 
 **Mark scheme answer**
@@ -455,7 +469,6 @@ Calculate the size, in degrees, of ÐBAO.
 > BAO = BAO = 59 – “27” 360 – “63” – M1
 > “63” – 31 “234” – “31”
 > 32° 3 A1
-> Question Working Answer Mark Notes
 
 - **(3)** OCB BAC = 59 reflex AOC = M1 1 of the angles. May be on diagram
 
@@ -466,18 +479,18 @@ Solve the simultaneous equations 2x2 + y2 = 6 x − 2y = 3 Show clear algebraic 
 
 ### 8 [6]
 
-Solve the simultaneous equations 2x2 + y2 = 6 x − 2y = 3 Show clear algebraic working.
+Solve the simultaneous equations 2x2 + y² = 6 x − 2y = 3 Show clear algebraic working.
 
 
 **Mark scheme answer**
 
 > 2
 > ⎛ x−3⎞
-> 2(3 + 2y)² + y² = 6 or 2 x 2 + ⎜ ⎟ =6 M1 for correct substitution for x or y
+> 2(3 + 2y)² + y² = 6 or 2 x 2 + =6 M1 for correct substitution for x or y
 > ⎝ 2 ⎠
 > e.g. 2(9 + 12y + 4y²) + y² = 6 or
 > M1 for correct expansion in correct
-> x2 − 6x + 9
+> x² − 6x + 9
 > 2x2 + =6 equation
 > M1 for correct 3 term quadratic dep on
 > e.g. 9y² + 24y + 12 (= 0) or 9x² − 6x – 15 (=0)
@@ -491,7 +504,6 @@ Solve the simultaneous equations 2x2 + y2 = 6 x − 2y = 3 Show clear algebraic 
 > x= ,y=− A1 for correct x or y values
 > 3
 > x = −1, y = −2 6 A1 for all 4 values correctly paired
-> Question Working Answer Mark Notes
 
 - **(6)** 2
 
@@ -530,7 +542,6 @@ Frequency density 0 10 20 30 40 50 60 Time (minutes) Figure 4 Figure 4 shows a h
 > 158
 > A1 0.032718989..., awrt 0.0327
 > 0.0327 5 4829
-> Question Working Answer Mark Notes
 
 - **(5)** eg (3×5+2×15+3.6×10+0.6×20+1.7×10) M1 for use of area of bar, showing at least
 
@@ -541,7 +552,9 @@ Diagram NOT accurately drawn 2x cm y cm 2x cm Figure 5 Figure 5 shows a cuboid w
 
 ### 10(a) [2]
 
-show that x2 + xy − 30 = 0
+Diagram NOT accurately drawn 2x cm y cm 2x cm Figure 5 Figure 5 shows a cuboid with width 2x cm, height 2x cm and length y cm. Given that the total surface area of the cuboid is 240 cm²
+
+show that x² + xy − 30 = 0
 
 
 **Mark scheme answer**
@@ -571,7 +584,6 @@ Using calculus, calculate the exact value of x for which the volume of the cuboi
 > = 120 − 12 x 2 = 0
 > dx one term correct
 > 10 5 A1 Must be exact
-> Question Working Answer Mark Notes
 
 - **(5)** (volume = ) 4x²y M1 Correct volume
 
@@ -581,6 +593,8 @@ Using calculus, calculate the exact value of x for which the volume of the cuboi
 The three functions, f, g and h, are defined as f : x ↦ x2 + 3x − 4 g : x ↦ 2x + 3 x h:x ↦ 3 x − 25
 
 ### 11(a) [1]
+
+The three functions, f, g and h, are defined as f : x ↦ x² + 3x − 4 g : x ↦ 2x + 3 x h:x ↦ 3 x − 25
 
 Write down the value of x that must be excluded from any domain of h.
 

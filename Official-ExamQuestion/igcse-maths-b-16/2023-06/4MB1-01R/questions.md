@@ -58,8 +58,6 @@ Simplify 2y2 × 3y3
 **Mark scheme answer**
 
 > 6y5 1 B1 cao Do not ISW
-> Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(1)** 6y5 1 B1 cao Do not ISW
 
@@ -89,8 +87,6 @@ Write down the order of rotational symmetry of the shape.
 **Mark scheme answer**
 
 > 3 1 B1 cao must be a single number
-> Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(1)** 3 1 B1 cao must be a single number
 
@@ -118,8 +114,6 @@ Find the 12th term of the sequence.
 **Mark scheme answer**
 
 > 80 1 B1
-> Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(1)** 80 1 B1
 
@@ -130,7 +124,7 @@ Factorise x2 – 5x – 14
 
 ### 6 [2]
 
-Factorise x2 – 5x – 14
+Factorise x² – 5x – 14
 
 
 **Mark scheme answer**
@@ -140,8 +134,6 @@ Factorise x2 – 5x – 14
 > ( x – 7 )( x + 2) A1 Do not ISW This must be the answer on the answer line or if no
 > answer on the answer line their final answer which may be shown
 > or ( x + 2)( x – 7 ) for example by circling or underlining.
-> Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** ( x – 7 )( x + 2) 2 M1 Factorised form must expand to give 2 terms of the quadratic.
 
@@ -173,8 +165,6 @@ Find the median.
 > May be seen in part (a) or in question. Allow with signs eg + between
 > Correct answer scores full marks (unless 6 A1 cao
 > from obvious incorrect working)
-> Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 2,3,5,5,5,7,8,9,10,11 2 M1 place numbers in order (at least 6 with none missing) or sight of
 
@@ -185,7 +175,9 @@ A regular polygon has 24 sides. Calculate the size, in degrees, of each interior
 
 ### 8 [3]
 
-A regular polygon has 24 sides. Calculate the size, in degrees, of each interior angle of the regular polygon. °
+A regular polygon has 24 sides. Calculate the size, in degrees, of each interior angle of the regular polygon.
+
+…………… °
 
 
 **Mark scheme answer**
@@ -199,8 +191,6 @@ A regular polygon has 24 sides. Calculate the size, in degrees, of each interior
 > Correct answer scores full marks 165 A1 cao do not ISW This must be the answer on the answer line or if
 > (unless from obvious incorrect no answer on the answer line their final answer which may be
 > working) shown for example by circling or underlining.
-> Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 360 ÷ 24 [= 15] oe or 3 M1 for a correct method to find an exterior angle or total of the
 
@@ -223,11 +213,8 @@ Make g the subject of T = g
 > Correct answer scores full marks g=
 > 2r A1 cao Condone missing "g =" on answer line if fully correct
 > (unless from obvious incorrect working) T2
-> expression seen in working. Allow g = ⎛⎜ 2r ⎞⎟ or g = 2rT −2
-> ⎜ ⎟
-> ⎝ T ⎠
-> Total 2 marks
-> Question Working Answer Mark Notes
+> expression seen in working. Allow g = 2r or g = 2rT −2
+>  T 
 
 - **(2)** 2r 2 M1 correctly remove square root sign or make root g the
 
@@ -238,7 +225,9 @@ Given that y = 5x4 + x2 (3x + 1) dy find dx dy = . . . . . . . . . . . . . . . .
 
 ### 10 [3]
 
-Given that y = 5x4 + x2 (3x + 1) dy find dx dy = dx
+Given that y = 5x4 + x² (3x + 1) dy find dx dy = ……………dx
+
+Given that y = 5x4 + x² (3x + 1) dy find dx dy = dx
 
 
 **Mark scheme answer**
@@ -249,10 +238,8 @@ Given that y = 5x4 + x2 (3x + 1) dy find dx dy = dx
 > ⎡ dy ⎤ 3 2 M1 at least one correct term
 > ⎢ dx = ⎥ 20 x + 9 x + 2 x
 > ⎣ ⎦
-> Correct answer scores full marks (unless from 20 x3 + 9 x2 + 2 x A1 oe eg 20 x3 + 9 x2 + 2 x1
+> Correct answer scores full marks (unless from 20 x³ + 9 x² + 2 x A1 oe eg 20 x³ + 9 x² + 2 x1
 > obvious incorrect working)
-> Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** ⎡⎣ x (3 x + 1) = ⎤⎦ 3 x + x
 
@@ -263,9 +250,12 @@ B Diagram NOT accurately drawn A 120° C O ABC is an arc of a circle centre O An
 
 ### 11 [3]
 
-B Diagram NOT accurately drawn A 120° C O ABC is an arc of a circle centre O Angle AOC is 120° Sector OABC has an area of 48π cm2 Find, in terms of π, the length of the perimeter of OABC cm
+ABC is an arc of a circle centre O Angle AOC is 120° Sector OABC has an area of 48π cm² Find, in terms of π, the length of the perimeter of OABC cm
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: B, A, C, O · Figure values: 120°.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_11_diagram.png)
 
 
 **Mark scheme answer**
@@ -284,8 +274,6 @@ B Diagram NOT accurately drawn A 120° C O ABC is an arc of a circle centre O An
 > (unless from obvious incorrect 120
 > working) × 2π × 12 + 12 + 12 ISW
 > 360
-> Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 120
 
@@ -296,7 +284,7 @@ Solve 6 4 Show clear algebraic working. x = ....................................
 
 ### 12 [3]
 
-Solve 6 4 Show clear algebraic working. x =
+Solve 6 4 Show clear algebraic working. x = ……………Solve 6 4 Show clear algebraic working. x =
 
 
 **Mark scheme answer**
@@ -318,8 +306,6 @@ Solve 6 4 Show clear algebraic working. x =
 > 5x 1 3
 > = 5 − + oe eg 5 x − 5 = 5 or 5 x = 65 or 5 x = 65
 > Working required x = 13 A1 dependent on at least one M mark being awarded
-> Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** eg 2 ( x + 2 ) + 3 ( x – 3) = 60 or 3 M1 Clear intention to multiply all terms by a multiple of 12
 
@@ -346,8 +332,6 @@ For the two non-zero, non-parallel vectors a and b 5 (3a – b) – p (a + 2b) =
 > SC if p and q are correct but not written on the answer line, at least one must
 > be labelled in their working to award full marks. If both values are correct
 > but neither labelled or they are on the wrong answer lines they get 2/3 marks
-> Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** p = 15 3 B1 cao
 
@@ -364,8 +348,7 @@ Write down an expression, in terms of y, for the number of bottles that machine 
 **Mark scheme answer**
 
 > 0.07y 1 ⎛ 7 ⎞
-> B1 cao oe ⎜ y⎟
-> ⎝ 100 ⎠
+> B1 cao oe ⎜ y 100 ⎠
 
 - **(1)** 0.07y 1 ⎛ 7 ⎞
 
@@ -386,8 +369,6 @@ Find the value of y y =
 > 12% − 7% = 60 or 12% y − 7% y = 60
 > 1200 1 A1 cao Must come from a correct equation
 > Correct answer with no working gains full marks
-> Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(3)** number bottle B = 0.12y 1 M1 for sight of 0.12y or 12 y or 0.05y or 5 y or 5% 12% − 7%
 
@@ -408,16 +389,16 @@ Solve the simultaneous equations 20x + 7y = 4 2x – 2y = –5 Show clear algebr
 > 27y = 54 54x = –27 coefficients eg –4 instead of 8 or one error when eliminating either
 > or x or y
 > ⎛ 2y −5 ⎞ or
-> 20 ⎜ ⎟ + 7 y = 4 or substitute for x or y to form an equation in only one variable. Allow
+> 20 + 7 y = 4 or substitute for x or y to form an equation in only one variable. Allow
 > ⎝ 2 ⎠ 1 sign slip only
 > ⎛ 2x + 5 ⎞
-> 20 x + 7 ⎜ ⎟ = 4 or
+> 20 x + 7 = 4 or
 > ⎝ 2 ⎠
 > ⎛ 4−7y ⎞
-> 2⎜ ⎟ − 2 y = −5 or
+> 2 − 2 y = −5 or
 > ⎝ 20 ⎠
 > ⎛ 4 − 20 x ⎞
-> 2x − 2 ⎜ ⎟ = −5 oe
+> 2x − 2 = −5 oe
 > ⎝ 7 ⎠
 > x = − 1 or A1 dep on M1
 > y=2
@@ -428,8 +409,6 @@ Solve the simultaneous equations 20x + 7y = 4 2x – 2y = –5 Show clear algebr
 > 2x – 2× "2" = –5 oe
 > Working required x= −1 A1 dep on M1 M1
 > and y = 2
-> Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 20x + 7y = 4 40x + 14y = 8 4 M1 eliminating either x or y (equate coefficient and use correct
 
@@ -440,7 +419,9 @@ Solve the simultaneous equations 20x + 7y = 4 2x – 2y = –5 Show clear algebr
 
 ### 16 [4]
 
-16 208 students travelled to school by bus, which is 10.4% of the students in the school. 510 students walk to school. The remaining students travel to school by car. Calculate the percentage of students who travel to school by car %
+16 208 students travelled to school by bus, which is 10.4% of the students in the school. 510 students walk to school. The remaining students travel to school by car. Calculate the percentage of students who travel to school by car
+
+…………… %
 
 
 **Mark scheme answer**
@@ -486,8 +467,6 @@ Solve the simultaneous equations 20x + 7y = 4 2x – 2y = –5 Show clear algebr
 > Correct answer scores full marks (unless from 64.1 A1 cao Allow 64 Do not ISW This must be the answer on the
 > obvious incorrect working) answer line or if no answer on the answer line their final answer
 > which may be shown for example by circling or underlining.
-> Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** Let t = total number of students and c = number of students who travel by car Allow any letters for t and c
 
@@ -498,7 +477,11 @@ A model of a train is made to a scale of 1 : 48 The engine of the train has a le
 
 ### 17(a) [2]
 
-Calculate, in cm to 3 significant figures, the length of the engine of the model cm The volume of a carriage on the model is 995 cm3
+A model of a train is made to a scale of 1 : 48 The engine of the train has a length of 16.1 m
+
+Calculate, in cm to 3 significant figures, the length of the engine of the model cm The volume of a carriage on the model is 995
+
+…………… cm³
 
 
 **Mark scheme answer**
@@ -519,7 +502,9 @@ Calculate, in cm to 3 significant figures, the length of the engine of the model
 
 ### 17(b) [3]
 
-Calculate, in m3 to 3 significant figures, the volume of this carriage on the train m3
+Calculate, in m³ to 3 significant figures, the volume of this carriage on the train
+
+…………… m³
 
 
 **Mark scheme answer**
@@ -528,10 +513,10 @@ Calculate, in m3 to 3 significant figures, the volume of this carriage on the tr
 > M2 for × 483
 > 0.483 [= 0.110 592]
 > 1003
-> scale factor seen. eg ⎛⎜ 16.1 ⎞⎟ or
+> scale factor seen. eg 16.1 or
 > ⎝ (a) ⎠
-> ⎛ 1610 ⎞ 995 ( a)3
-> ⎜ ⎟ or =
+> ⎛ 1610 ⎞ 995 ( a)³
+>  or =
 > ⎝ (a) ⎠ V 16103
 > 995 M1 for unit conversion by
 > [ = 0.000995] or dividing by 1003
@@ -541,8 +526,6 @@ Calculate, in m3 to 3 significant figures, the volume of this carriage on the tr
 > Correct answer scores full marks 110 A1 awrt 110
 > (unless from obvious incorrect
 > working)
-> Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 483 [= 110 592] or 3 M1 Consideration of cube of 995
 
@@ -572,8 +555,6 @@ The diagram shows triangle ABC A B C The point P is inside the triangle ABC such
 > from C cross AC or BC
 > P correctly labelled B1ft dependent on at least B1 for the angle bisector and B1
 > for the arc. Must clearly identify it is the point.
-> Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** angle bisector 4 B2 for a line within the limits and a pair of suitable arcs.
 
@@ -626,8 +607,6 @@ One of these 30 students is chosen at random. Write down the probability that th
 
 > 11 1 B1 ft follow through their answer to part (b), if 0 < part(b) < 15 only
 > 30 ie 15 − " their (b)" with numerator a single number. Allow awrt 0.367
-> Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(1)** 11 1 B1 ft follow through their answer to part (b), if 0 < part(b) < 15 only
 
@@ -640,7 +619,9 @@ cm The diagram shows a solid shape made by fixing a solid right circular cone of
 
 cm The diagram shows a solid shape made by fixing a solid right circular cone of diameter 20 cm to the circular face of a solid hemisphere of diameter 20 cm. The centre of the base of the cone coincides with the centre of the circular face of the hemisphere. The overall height of the shape is h cm. Given that for this shape volume of cone : volume of hemisphere = 3 : 4 find the value of h h =
 
-> 🖼 crop required: diagram (qp.pdf p.15)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_20_diagram.png)
 
 
 **Mark scheme answer**
@@ -684,8 +665,6 @@ cm The diagram shows a solid shape made by fixing a solid right circular cone of
 > st
 > 2nd M1 = or = 4th M1 for using h – 10 or adding 10 A0
 > 2 πr x 4 2× r 4 4× r 4
-> Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(5)** Throughout this question condone mis-labelling. eg if they label the volume of the cone as being the hemisphere
 
@@ -706,7 +685,7 @@ Show that AF = 13 cm
 > ⎡⎣ AC 2 = ⎤⎦ 122 +32 ( = 153) or correct method eg M2 for
 > 4⎞ ⎡⎣ AF 2 = ⎤⎦ 32 + 122 + 42
 > ⎡⎣ AE 2 = ⎤⎦ 42 + 32 ( = 25)
-> [∠GAB =] tan −1 ⎛⎜ ⎟ [ = 18.434....] and
+> [∠GAB =] tan −1 [ = 18.434....] and
 > ⎝ 12 ⎠
 > 12 Ignore incorrect labels
 > [ AG =]
@@ -744,11 +723,9 @@ Find, in degrees to one decimal place, the size of angle GAF ° ∠GAF =
 > "13" 3 13
 > 90 − ∠AFG
 > 2
-> Allow use of cosine or sine rule eg 3 = 160 + 13 − 2 × 160 ×13cosGAF
+> Allow use of cosine or sine rule eg 3$^2$ = 160 + $13^2$ − 2 × 160 ×13cosGAF
 > Correct answer scores full marks (unless 13.3 A1 awrt 13.3 Allow awrt 13.4
 > from obvious incorrect working)
-> Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 3 2 M1 A correct method to find ∠GAF or trig ratio of ∠GAF
 
@@ -759,7 +736,7 @@ Given that (x + k) is a factor of x3 + 4x2 –20x + k where k is a non-zero cons
 
 ### 22 [5]
 
-Given that (x + k) is a factor of x3 + 4x2 –20x + k where k is a non-zero constant, find the possible values of k k =
+Given that (x + k) is a factor of x³ + 4x2 –20x + k where k is a non-zero constant, find the possible values of k k =
 
 
 **Mark scheme answer**
@@ -768,13 +745,13 @@ Given that (x + k) is a factor of x3 + 4x2 –20x + k where k is a non-zero cons
 > 3
 > 5 M1 substitutes x = –k Allow 1 sign error if brackets removed
 > or
-> – k 3 + 4k 2 + 20k + k [ = 0] oe long division to obtain 2 correct terms x2 + (4 – k)x + (–20 – 4k + k2)
+> – k 3 + 4k 2 + 20k + k [ = 0] oe long division to obtain 2 correct terms x² + (4 – k)x + (–20 – 4k + k2)
 > or two of 1 or 4 − k or −20k − 4k + k 2
 > attempt to expand ( x + k ) ( x 2 + gx + 1) with at least 4 out of 6 terms
 > 3 2
 > correct cubic is x + kx + gx + gkx + x + k oe
 > – k 3 + 4k 2 + 21k = 0 or A1 correct simplified 3 term cubic equation or a correct quadratic
-> –20 – 4k + k 2 = 1 or equation or both correct equations from comparing x2 and x
+> –20 – 4k + k 2 = 1 or equation or both correct equations from comparing x² and x
 > k + g = 4 and 1 + kg = –20 oe coefficients.
 > (k) (–k2 + 4k + 21) = 0 or M1 dep on first M mark. Divide by or take k out as a common factor
 > k 2 – 4k − 21 = 0 oe from a cubic in k to form a 3-term quadratic equation. An answer of 7
@@ -790,8 +767,6 @@ Given that (x + k) is a factor of x3 + 4x2 –20x + k where k is a non-zero cons
 > Correct answer scores full marks 7, −3 A1 cao (both) condone 0, 7, −3 but do not allow any other incorrect
 > (unless from obvious incorrect extras
 > working)
-> Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(5)** ( – k ) + 4 ( −k ) − 20 ( −k ) − ( −k ) [ = 0] or
 
@@ -807,22 +782,22 @@ Show that ON = 7.5 cm
 
 **Mark scheme answer**
 
-> ⎡ON 2 = ⎤ 19.52 − 182 or 19.52 = ON 2 + 182 2 M1 use of Pythagoras or trig seen – allow angles given to at
+> ⎡$ON^2$ = ⎤ $19.5^2$ − $18^2$ or $19.5^2$ = $ON^2$ + $18^2$ 2 M1 use of Pythagoras or trig seen – allow angles given to at
 > ⎣ ⎦
 > least 3sf
-> or 392 − 362 or [ON =]19.5 cos ( 67.3801…)
-> Allow XD = 392 − 362 where BX is the diameter
+> or $39^2$ − $36^2$ or [ON =]19.5 cos ( 67.3801…)
+> Allow XD = $39^2$ − $36^2$ where BX is the diameter
 > or [ON =]19.5 sin ( 22.6198…) oe
 > Working required
-> 19.52 − 182 = 7.5 A1 allow ( )
+> $19.5^2$ − $18^2$ = 7.5 A1 allow ( )
 > 56.25 = 7.5 or 19.5cos 67.3801… = 7.5 or
-> 392 − 362
+> $39^2$ − $36^2$
 > ( )
 > oe or 19.5sin 22.6198… = 7.5 or
-> ON 2 = 56.25 ⇒ ON= 7.5 Allow angles given to 3sf
+> $ON^2$ = 56.25 ⇒ ON= 7.5 Allow angles given to 3sf
 > NB verification using 7.5 is M0 A0
 
-- **(2)** ⎡ON 2 = ⎤ 19.52 − 182 or 19.52 = ON 2 + 182 2 M1 use of Pythagoras or trig seen – allow angles given to at
+- **(2)** ⎡$ON^2$ = ⎤ $19.5^2$ − $18^2$ or $19.5^2$ = $ON^2$ + $18^2$ 2 M1 use of Pythagoras or trig seen – allow angles given to at
 
 ### 23(b) [4]
 
@@ -837,26 +812,24 @@ Calculate the length, in cm to 3 significant figures, of AC AC = cm
 > AC – 7.5 identified as AB and BC or used in a formula.
 > AC + 7.5 and AC – 7.5
 > 2 2 Allow x + 7.5 and x – 7.5 may be implied by the 2nd M1
-> [AM 2 =] 19.5 – "10" [ = 280.25] or M1 correct use of Pythagoras involving AM where M is the
+> [$AM^2$ =] $19.5^2$ – "10"$^2$ [ = 280.25] or M1 correct use of Pythagoras involving AM where M is the
 > 2
 > mid-point of AC NB AM = 280.25 [ = 16.7406…]
 > ft their 10 if clearly labelled or comes from 36 − 18 − 8
 > ⎛ AC ⎞⎛ AC ⎞ Correct use of intersecting chord theorem Allow
-> ⎜ + 7.5 ⎟⎜ − 7.5 ⎟ = 8 × 28 ( x + 7.5)( x − 7.5) = 8 × 28
+> ⎜ + 7.5 − 7.5 ⎟ = 8 × 28 ( x + 7.5)( x − 7.5) = 8 × 28
 > ⎝ 2 ⎠⎝ 2 ⎠
-> [ AC ] = 2 × 19.52 − "10"2 or M1 dep on previous method marks awarded. For using
+> [ AC ] = 2 × $19.5^2$ − "10"$^2$ or M1 dep on previous method marks awarded. For using
 > AC = 2 × "their AM " ft their 10 if clearly labelled or comes
 > 8 × 28
 > [ AC =] + ("16.7406..."+ 7.5 ) from 36 − 18 − 8 or their awrt 16.7 if clearly labelled or comes
-> ("16.7406..."+ 7.5) from 19.52 – "10"2
+> ("16.7406..."+ 7.5) from $19.5^2$ – "10"$^2$
 > ⎛ AC ⎞
 > ( )
-> ⎜
-> ⎟ = 224 + 7.5 or find value for AC 2
+>  = 224 + 7.5 or find value for AC 2
 > ⎝ 2 ⎠
 > Correct answer scores full marks (unless 33.5 A1 awrt 33.5
 > from obvious incorrect working) Total 6 marks
-> Question Working Answer Mark Notes
 
 - **(4)** EN = 36 –18 – 8[ = 10] or EN = 36 − 8 4 M1 Find EN either labelled or comes from correct working
 
@@ -905,8 +878,6 @@ The table shows the number of children in each of the families from a town. Numb
 > [ k =] − 867 ⎢ = or 75.926...⎥
 > 2.05 ⎣ 41 ⎦
 > 76 k 124 A1 The 3rd M1 must be awarded. Allow [76, 124]
-> Total 6 marks
-> Question Working Answer Mark Notes
 
 - **(6)** 1.95 or 2.05 seen 6 B1
 
@@ -923,22 +894,19 @@ Show that C is the inverse of A AB = D
 **Mark scheme answer**
 
 > ⎛ 3 1 ⎞⎛ 2 −1 ⎞ 2 M1 for writing down either of the
-> [ AC =] ⎜ ⎟⎜ ⎟ or multiplications or the correct method
+> [ AC =] or multiplications or the correct method
 > ⎝ 5 2 ⎠⎝ −5 3 ⎠ shown to find the determinant of A or
 > ⎛ 2 −1 ⎞⎛ 3 1 ⎞ C.
-> [CA=] ⎜ ⎟⎜ ⎟ or
+> [CA=] or
 > ⎝ −5 3 ⎠⎝ 5 2 ⎠
 > 3 × 2 –1× 5 or
 > 3 × 2 – ( −1) × ( −5) or 6 – 5
 > working must be shown ⎛ 2 −1 ⎞ ⎛ 3 1⎞ A1 for writing down an inverse
-> ⎜ ⎟ or ⎜ ⎟ or or matrices multiplied = identity
+>  or or or matrices multiplied = identity
 > ⎝ −5 3 ⎠ ⎝ 5 2⎠ matrix
-> ⎛ 3 1 ⎞⎛ 2 −1 ⎞ ⎛ 1 0 ⎞
-> ⎜ ⎟⎜ ⎟=⎜ ⎟ or
+> ⎛ 3 1 ⎞⎛ 2 −1 ⎞ ⎛ 1 0 = or
 > ⎝ 5 2 ⎠⎝ −5 3 ⎠ ⎝ 0 1 ⎠
-> ⎛ 2 −1 ⎞⎛ 3 1 ⎞ ⎛ 1 0 ⎞
-> ⎜ ⎟⎜ ⎟=⎜ ⎟
-> ⎝ −5 3 ⎠⎝ 5 2 ⎠ ⎝0 1⎠
+> ⎛ 2 −1 ⎞⎛ 3 1 ⎞ ⎛ 1 0 = −5 3 ⎠⎝ 5 2 ⎠ ⎝0 1⎠
 
 - **(2)** ⎛ 3 1 ⎞⎛ 2 −1 ⎞ 2 M1 for writing down either of the
 
@@ -949,7 +917,7 @@ Find D D
 
 **Mark scheme answer**
 
-> ⎜ ⎟ (B1 2 numbers correct)
+>  (B1 2 numbers correct)
 > ⎝ 35 13 ⎠ ignore order of matrices
 
 - **(2)** ⎜ ⎟ (B1 2 numbers correct)
@@ -962,7 +930,7 @@ Show that BA = D
 **Mark scheme answer**
 
 > ⎛ 5 1 ⎞⎛ 3 1 ⎞ 1 B1 for seeing the matrices given in the
-> ⎜ ⎟⎜ ⎟ correct order
+>  correct order
 > ⎝ 5 4 ⎠⎝ 5 2 ⎠
 
 - **(1)** ⎛ 5 1 ⎞⎛ 3 1 ⎞ 1 B1 for seeing the matrices given in the
@@ -981,8 +949,6 @@ Using part (a) and part (b), show that BC = CB
 > or CC–1BC = CBC–1C or AC–1BA = ABC–1A both before and after (allow mixture)
 > oe AC = CA = I and/or C = A –1 and/or
 > followed by BC = CB C–1 = A leading to correct equation
-> Total 7 marks
-> Qu Working Answer Mark Notes
 
 - **(2)** AB = BA or C−1B = BC−1 2 M1 for either expression implied by a
 
@@ -993,7 +959,11 @@ P Q Diagram NOT accurately drawn T R S P, Q, S and R are points on a circle. T i
 
 ### 26(a) [4]
 
-Prove that PT = QT Give a reason for each stage of your working. The area of triangle PQT = 1 cm2 and the area of triangle RST = 4 cm2
+P Q Diagram NOT accurately drawn T R S P, Q, S and R are points on a circle. T is the point where PS intersects QR PQ is parallel to RS
+
+Prove that PT = QT Give a reason for each stage of your working. The area of triangle PQT = 1 cm² and the area of triangle RST = 4
+
+…………… cm²
 
 
 **Mark scheme answer**
@@ -1019,7 +989,9 @@ Prove that PT = QT Give a reason for each stage of your working. The area of tri
 
 ### 26(b) [4]
 
-Find the area of quadrilateral PQSR cm2
+Find the area of quadrilateral PQSR
+
+…………… cm²
 
 
 **Mark scheme answer**
@@ -1037,11 +1009,9 @@ Find the area of quadrilateral PQSR cm2
 > eg 2 + 2 + 1 + 4 or 0.5 × 9 × 2 or 3 × 3 × × × a or (
 > 1 2 2 + 4) M1 Full method to find area of ABCD. eg
 > × (2 + 1)
-> 2 a 2 1⎛2 4⎞
-> ⎜ + ⎟ ( b + 2b ) where b > 0
+> 2 a 2 1⎛2 4 + ⎟ ( b + 2b ) where b > 0
 > 2⎝b b⎠
 > Correct answer scores full marks 9 A1 cao ISW
-> Total 8 marks
 
 - **(4)** PT : TS = 1:2 or TQ : RT =1:2 or realising ratio of sides 1:2 4 M1 eg RT/TQ = 2 Allow any 2 sides. Implied by 2nd M
 

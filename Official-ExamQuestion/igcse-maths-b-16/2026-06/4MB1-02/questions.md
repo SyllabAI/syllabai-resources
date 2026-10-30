@@ -8,6 +8,8 @@ A shop sells 1 kg of apples for $a and 1 kg of potatoes for $p Meg buys 8 kg of 
 
 ### 1(a) [2]
 
+A shop sells 1 kg of apples for \$a and 1 kg of potatoes for \$p Meg buys 8 kg of apples and 5 kg of potatoes from the shop. The total cost is \$T
+
 Write down a formula for T in terms of a and p Given that 4a 5 p 2a 15 p
 
 
@@ -30,12 +32,12 @@ find the total cost of 8 kg of apples and 5 kg of potatoes by first solving thes
 > variable (condone one arithmetic error) or for one
 > 25 p = 105 10a = 35 correct rearrangement of one equation followed by
 > ⎛ 35 − 5 p ⎞ ⎛ 35 − 4a ⎞ correct substitution into the other must gain an
-> 2⎜ ⎟ + 15 p = 70 2a + 15 ⎜ ⎟ = 70 or
+> 2 + 15 p = 70 2a + 15 = 70 or
 > ⎝ 4 ⎠ ⎝ 5 ⎠ equation in one variable
 > or ⎛ 70 − 2a ⎞
-> 4a + 5 ⎜ ⎟ = 35
+> 4a + 5 = 35
 > ⎛ 70 − 15 p ⎞ ⎝ 15 ⎠
-> 4⎜ ⎟ + 5 p = 35
+> 4 + 5 p = 35
 > ⎝ 2 ⎠
 > p = 4.2 a = 3.5 A1 either value correct
 > 4a + 5 × "4.2" = 35 ⇒ a = ... or M1 for substituting their value of p or a into a correct
@@ -72,9 +74,8 @@ Find n A B The set D is such that D ⊂ B and D ⊂ C
 
 > × 3.5 + 15 × p = 70 ⇒ p = ... 2
 > Working must be shown if a or p is incorrect
-> ($) 49 A1 dep on M2
+> (\$) 49 A1 dep on M2
 > wr Total 6 marks
-> Question Working Answer Mark Notes
 > 2, 4, 14
 > cas 3 A1 cao
 
@@ -90,8 +91,6 @@ Find the maximum value of n D
 > B ∩ C or 1, 2, 3, 5, 6, 10, 15 or 2 M1 for realising they need to find B ∩ C if writing the list allow one
 > 1, 3, 5, 15 omission
 > cas 4 A1
-> Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(2)** B ∩ C or 1, 2, 3, 5, 6, 10, 15 or 2 M1 for realising they need to find B ∩ C if writing the list allow one
 
@@ -108,7 +107,7 @@ Find 5A − 3B The determinant of BC is 588 Given that x > 0
 **Mark scheme answer**
 
 > ⎛ 5 24 ⎞ 2 B2 fully correct matrix
-> ⎜ ⎟ (B1 for a 2 × 2 matrix with 2 or 3 terms correct.
+>  (B1 for a 2 × 2 matrix with 2 or 3 terms correct.
 > ⎝ −1 2 ⎠
 
 - **(2)** ⎛ 5 24 ⎞ 2 B2 fully correct matrix
@@ -120,10 +119,8 @@ find the value of x a b Determinant of matrix ad bc c d
 
 **Mark scheme answer**
 
-> BC = ⎜
-> ⎛ −20 − 6 x −5 x + 9 ⎞ 4 M1 For a 2 × 2 matrix with 2 or 3 terms correct.
-> ⎟
-> ⎝ 8 + 12 x 2 x − 18 ⎠
+> BC = −20 − 6 x −5 x + 9 4 M1 For a 2 × 2 matrix with 2 or 3 terms correct.
+>  8 + 12 x 2 x − 18 
 > ( −20 − 6 x )( 2 x − 18) − (8 + 12 x )( −5x + 9 ) = 588 M1 dep on previous method mark being awarded.
 > For finding the determinant and equating to 588
 > ft their matrix if un-simplified working shown
@@ -141,10 +138,8 @@ find the value of x a b Determinant of matrix ad bc c d
 > For multiplying out the bracket to gain the correct
 > equation
 > wr 2.5 A1 oe if other root shown it must be rejected
-> Total 6 marks
-> Question Working Answer Mark Notes
 
-- **(4)** BC = ⎜
+- **(4)** BC = −20 − 6 x −5 x + 9 4 M1 For a 2 × 2 matrix with 2 or 3 terms correct.
 
 
 ## Question 4 (5 marks)
@@ -153,9 +148,11 @@ Diagram NOT accurately drawn Cone L 30 cm 50 cm Cone J K x cm Figure 1 A right c
 
 ### 4 [5]
 
-Diagram NOT accurately drawn Cone L 30 cm 50 cm Cone J K x cm Figure 1 A right circular cone J has height 50 cm and base radius x cm The shaded solid K is formed by removing cone L with height 30 cm from cone J as shown in Figure 1 Diagram NOT accurately drawn E F 20 cm H G D C K 2x cm A 2x cm B Figure 2 Figure 2 shows solid K inside a hollow cuboid ABCDEFGH AB = BC = 2 x cm and FC = 20 cm The base of the cuboid rests on horizontal ground. The base of K rests on the base of the cuboid. Given that exactly 2000 cm 3 of water is needed to fill the space in the cuboid not occupied by K calculate, to one decimal place, the value of x Show all your working. 1 22 Volume of a cone = 3 Àr πr h
+Cone L 30 cm 50 cm Cone J K x cm Figure 1 A right circular cone J has height 50 cm and base radius x cm The shaded solid K is formed by removing cone L with height 30 cm from cone J as shown in Figure 1 Diagram NOT accurately drawn E F 20 cm H G D C K 2x cm A 2x cm B Figure 2 Figure 2 shows solid K inside a hollow cuboid ABCDEFGH AB = BC = 2 x cm and FC = 20 cm The base of the cuboid rests on horizontal ground. The base of K rests on the base of the cuboid. Given that exactly 2000 cm³ of water is needed to fill the space in the cuboid not occupied by K calculate, to one decimal place, the value of x Show all your working. 1 22 Volume of a cone = 3 Àr πr h
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![diagram — official paper figure (qp.pdf p.7)](assets/asset_4_diagram.png)
 
 
 **Mark scheme answer**
@@ -170,16 +167,15 @@ Diagram NOT accurately drawn Cone L 30 cm 50 cm Cone J K x cm Figure 1 A right c
 > 3 ⎝ 5 ⎠ ⎢⎣ 5 ⎥⎦
 > 1 2⎛ ⎞
 > ⎛3⎞
-> πx ⎜ 50 − " ⎜ ⎟ × 30 ⎟
-> 3 ⎜ ⎝5⎠ ⎟
-> ⎝ ⎠
+> πx ⎜ 50 − " × 30 ⎟
+> 3 5 
 > 1 ⎛3⎞
-> Allow π x 2 × 50 × ⎜ ⎟ or awrt 11.3x2
+> Allow π x 2 × 50 × or awrt 11.3x2
 > 3 ⎝5⎠
-> 1 2 18 ⎡ 196
-> πx × 50 − " π x 2 " ⎢ =
-> ⎤
-> π x 2 or 41.050...x 2 ⎥
+> 1 2 18 196
+> πx × 50 − " π x 2 " =
+> 
+> π x 2 or 41.050...x 2 
 > M1 for finding the volume of the frustrum. ft their volume of
 > 3 5 ⎣ 15 ⎦ small cone if comes from correct working or is clearly labelled.
 > (This may imply the 1st and 2nd M1)
@@ -187,10 +183,8 @@ Diagram NOT accurately drawn Cone L 30 cm 50 cm Cone J K x cm Figure 1 A right c
 > π " x 2 or 2000 = 38.94...x
 > 2000 = 80 x 2 − "
 > 15 the frustrum. Condone 2 rather than 2000 and ft, if working
-> shown, their volume of cone providing of the form …x2
+> shown, their volume of cone providing of the form …x²
 > wr 7.2 A1 answers in the range awrt 7.0 to 7.2
-> Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(5)** r 30
 
@@ -208,12 +202,11 @@ Show that EFG 156° Given that DG = 5cm
 
 > 360 2 M1 Finding the sum of the interior angles or the exterior angle of
 > [ = 24] or (15 − 2) ×180[= 2340]
-> the polygon. May be seen as part of calculation eg ⎛⎜180 −
-> 15 360 ⎞
-> ⎟ or
+> the polygon. May be seen as part of calculation eg 180 −
+> 15 360 or
 > or ( 2×15 − 4) ×90[ = 2340] ⎝ 15 ⎠
 > ⎛ (15 − 2 ) ×180 ⎞ ( 2×15 − 4 ) × 90
-> ⎜ ⎟ or
+>  or
 > ⎝ 15 ⎠
 > wr 180 − 24 = 156 A1 dependent on M1
 > or
@@ -260,8 +253,7 @@ find the perimeter, in cm to one decimal place, of the 15-sided polygon. Show al
 > 2sin"66"+ 1
 > cas 26.5 A1 awrt 26.5
 > [cm]
-> Total 7 marks
-> Alt 2 Let EF = [= FG = DE] 5 M1 for a correct method to find EG or EG2 in terms of
+> Alt 2 Let EF = [= FG = DE] 5 M1 for a correct method to find EG or $EG^2$ in terms of
 > ∠DEG = 156 − "12"[ = 144] M1 for a correct method to find ∠DEG
 > May be seen on diagram
 > M1 for finding the length DG. ft their angle if it is clearly labelled
@@ -269,8 +261,6 @@ find the perimeter, in cm to one decimal place, of the 15-sided polygon. Show al
 > 15 × "1.7686..." M1 for a correct method to find the perimeter
 > cas 26.5 A1 awrt 26.5
 > [cm]
-> Total 7 marks
-> Question Working Answer Mark Notes
 
 - **(5)** ∠EGD or ∠FEG =
 
@@ -311,8 +301,6 @@ A particle P is moving along a straight line. At time t seconds, the displacemen
 > 37 expression for a
 > −6 × " "+ 20 [ = −17 ]
 > cas −17 < a < 17 A1 cao
-> Total 7 marks
-> Question Working Answer Mark Notes
 
 - **(7)** 7 M1 Attempt to differentiate t → t
 
@@ -352,7 +340,9 @@ On the grid, draw and label triangle D
 
 ### 7(c) [4]
 
-Describe fully the single transformation that maps triangle A onto triangle B Show all your working. y B −6 −5 −4 −3 −2 −1 O 1 2 3 4 5 6 7 8x −1 −2 −3 A −4 −5 −6 −7 for a spare grid if you need to redraw your triangles. Only use this grid if you need to redraw your triangles. y B −6 −5 −4 −3 −2 −1 O 1 2 3 4 5 6 7 8x −1 −2 −3 A −4 −5 −6 −7
+Describe fully the single transformation that maps triangle A onto triangle B Show all your working.
+
+![grid — official paper figure (qp.pdf p.17) (same figure as asset_7_a_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2026-06/4MB1-02/assets/asset_7_a_grid.png)
 
 ![grid — official paper figure (qp.pdf p.17) — shared with asset_7_a_grid](assets/asset_7_a_grid.png)
 
@@ -380,8 +370,6 @@ Describe fully the single transformation that maps triangle A onto triangle B Sh
 > or awrt 217 with clockwise or – 217
 > 217° clockwise about
 > (2, 0)
-> Total 9 marks
-> Question Working Answer Mark Notes
 
 - **(4)** Rotation 4 B1 for rotation and no other transformations given
 
@@ -434,8 +422,6 @@ Find the probability that exactly one of these 2 teachers also travels by bus.
 > 2× ×
 > 21
 > 11 A1oe (0.52(3809…))
-> Total 9 marks
-> Question Working Answer Mark Notes
 
 - **(5)** 5 M1 Venn diagram (no need for labels) or for setting up
 
@@ -445,6 +431,8 @@ Find the probability that exactly one of these 2 teachers also travels by bus.
 Each year Umera goes on a skiing holiday in France. In 2023, the cost of her flights was $250 In 2024, the cost of her flights is $315
 
 ### 9(a) [2]
+
+Each year Umera goes on a skiing holiday in France. In 2023, the cost of her flights was \$250 In 2024, the cost of her flights is \$315
 
 Calculate the percentage increase in the cost of her flights from 2023 to 2024 The plane takes 2 hours 54 minutes to fly to France at an average speed of 640 km/h
 
@@ -460,7 +448,7 @@ Calculate the percentage increase in the cost of her flights from 2023 to 2024 T
 
 ### 9(b) [3]
 
-Calculate the total distance, in kilometres, the plane travels to France. The cost to hire skis is 680 euros. The cost to buy a lift pass is 200 euros. The exchange rate is $1 = x euros Umera pays $612 to hire the skis.
+Calculate the total distance, in kilometres, the plane travels to France. The cost to hire skis is 680 euros. The cost to buy a lift pass is 200 euros. The exchange rate is \$1 = x euros Umera pays \$612 to hire the skis.
 
 
 **Mark scheme answer**
@@ -475,7 +463,7 @@ Calculate the total distance, in kilometres, the plane travels to France. The co
 
 ### 9(c) [3]
 
-Using the same exchange rate, calculate in $, the cost to buy a lift pass. Umera stays in a hotel while on holiday. She makes 3 separate payments to cover the total cost of staying in the hotel. The 1st payment is 560 euros. The 2nd payment is of the total cost. The 3rd payment is 28% of the total cost.
+Using the same exchange rate, calculate in \$, the cost to buy a lift pass. Umera stays in a hotel while on holiday. She makes 3 separate payments to cover the total cost of staying in the hotel. The 1st payment is 560 euros. The 2nd payment is of the total cost. The 3rd payment is 28% of the total cost.
 
 
 **Mark scheme answer**
@@ -516,8 +504,6 @@ Calculate, in euros, 28% of the total cost.
 > × ×
 > 1− 17 y 32 y cost
 > 490 A1 cao
-> cas Total 12 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 2 28 4 M1 to work out what fraction of the total the 2nd and 3rd payment are or
 
@@ -548,7 +534,9 @@ By drawing a suitable straight line on the grid, find estimates, to one decimal 
 
 Complete the table of values for x x 6 y 2 2 Give your values of y to one decimal place where appropriate. x −3.5 −3 −1.7 −1 0 1 1.7 3 3.5 y 0.3 10 6 6 11.7
 
-> 🖼 crop required: table (qp.pdf p.None)
+![figure — official paper figure (qp.pdf p.28)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2026-06/4MB1-02/assets/asset_10_10-b.png)
+
+![figure — official paper figure (qp.pdf p.28)](assets/asset_10_10-b.png)
 
 
 **Mark scheme answer**
@@ -564,9 +552,13 @@ Complete the table of values for x x 6 y 2 2 Give your values of y to one decima
 
 On the grid, plot the points from your completed table and join them to form a smooth curve. Curve C and curve D intersect twice in the range −3.5 ≤ x ≤ 3.5
 
+![grid — official paper figure (qp.pdf p.28) (same figure as asset_10_a_grid_stem)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2026-06/4MB1-02/assets/asset_10_a_grid_stem.png)
+
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
 ![grid — official paper figure (qp.pdf p.28) — shared with asset_10_a_grid_stem](assets/asset_10_a_grid_stem.png)
 
-> 🖼 crop required: table (qp.pdf p.28)
+![figure — official paper figure (qp.pdf p.28)](assets/asset_10_10-c.png)
 
 
 **Mark scheme answer**
@@ -595,7 +587,9 @@ Write down the coordinates of these 2 points of intersection.
 
 ### 10(d)(ii) [3]
 
-Work out the equation of the line that passes through these 2 points of intersection. Give your answer in the form y mx c Show all your working. y −4 −3 −2 −1 O 1 2 3 4 5 x −1 −2 −3 for a spare grid if you need to redraw your graph. Only use this grid if you need to redraw your graph. y −4 −3 −2 −1 O 1 2 3 4 5 x −1 −2 −3
+Work out the equation of the line that passes through these 2 points of intersection. Give your answer in the form y mx c Show all your working.
+
+![graph — official paper figure (qp.pdf p.28) (same figure as asset_10_a_grid_stem)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2026-06/4MB1-02/assets/asset_10_a_grid_stem.png)
 
 ![graph — official paper figure (qp.pdf p.28) — shared with asset_10_a_grid_stem](assets/asset_10_a_grid_stem.png)
 
@@ -610,8 +604,6 @@ Work out the equation of the line that passes through these 2 points of intersec
 > L = "− 1" x + 9 or "− 1" x + 9 or
 > or oe
 > cas y = −x + 9 A1 oe must be y = ..
-> Total 13 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 3 M1 ft their coordinates in (i) For a correct method to find the
 
@@ -664,7 +656,7 @@ Find hf(4)
 > f(4) = 2 or 2 M1 for finding f(4)=2 or substituting f(x) into h(x)
 > 3
 > ⎛ 5x + 2 ⎞ ⎛ 5x + 2 ⎞ ⎛ 5x + 2 ⎞
-> hf(x) = 10 ⎜ ⎟ + 29 ⎜ ⎟ − 5⎜ ⎟−6
+> hf(x) = 10 + 29 − 5 −6
 > ⎝ 2x + 3 ⎠ ⎝ 2x + 3 ⎠ ⎝ 2x + 3 ⎠
 > cas 180 A1
 
@@ -679,7 +671,7 @@ Use the factor theorem to show that 5 x 2 is a factor of h(x)
 
 > ⎛ 2⎞
 > ⎛ 2⎞ ⎛ 2⎞
-> 2 M1 substituting ⎛⎜ − 2 ⎞⎟ or ⎛⎜ 2 ⎞⎟ into h(x) consistently.
+> 2 M1 substituting − 2 or 2 into h(x) consistently.
 > 10 ⎜ − ⎟ + 29 ⎜ − ⎟ − 5 ⎜ − ⎟ − 6 oe ⎝ 5⎠ ⎝5⎠
 > ⎝ 5⎠ ⎝ 5⎠ ⎝ 5⎠
 > M0 if long division used
@@ -713,8 +705,6 @@ Hence solve the equation h(x) = 0 Show clear algebraic working. The solutions of
 > c is a numerical expression that does not equal –-3 or
 > oe where k does not equal
 > wr 0.5, –3, –0.4 A1 (dep on all 3 previous marks) all 3 values correct oe
-> Total 11 marks
-> Question Working Answer Mark Notes
 
 - **(4)** ( 2 x ........)
 
@@ -745,7 +735,7 @@ Show that A, P and Q are collinear. The point R is such that NMR and BAR are str
 > MN = −2a + b or OP = 9 b oe M1 for finding MN or NM or OP or PO May be seen as part of
 > 5 5 working. MUST be seen in (b)
 > → 3⎛ 6 ⎞⎡ 9 ⎤ M2 for a correct method to find 2 of these vectors
-> AP = ⎜ "− 2a + b" ⎟ ⎢ = −3a + b ⎥
+> AP = ⎜ "− 2a + b" = −3a + b ⎥
 > 2⎝ 5 ⎠⎣ 5 ⎦ (M1 for a correct method to find 1 of these vectors)
 > → →
 > → ft their MN or/and OP oe if from correct working or clearly labelled
