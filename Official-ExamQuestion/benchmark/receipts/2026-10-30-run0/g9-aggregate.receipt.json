@@ -1,0 +1,32 @@
+{
+ "receipt_schema": "syllabai.g9-aggregate-receipt/0.1",
+ "validator_version": "g9-aggregate/0.1",
+ "law": "F105 \u2014 overall PASS only when every mandatory leg and every required check completed successfully; NOT_RUN never promotes; delegated checks must be covered by green responsible legs",
+ "generated_utc": "2026-10-30T08:27:05Z",
+ "legs": {
+  "static-corpus": {
+   "receipt": "Official-ExamQuestion/benchmark/receipts/2026-10-30-run0/g9-static-corpus.receipt.json",
+   "present": true,
+   "leg_overall": "PASS",
+   "validator_version": "g9-static-check/0.3",
+   "benchmark_version": 3
+  },
+  "static-bundles": {
+   "receipt": "Official-ExamQuestion/benchmark/receipts/2026-10-30-run0/g9-static-bundles.receipt.json",
+   "present": true,
+   "leg_overall": "PASS",
+   "validator_version": "g9-static-check/0.3",
+   "benchmark_version": 3
+  },
+  "rendered": {
+   "receipt": "Official-ExamQuestion/benchmark/receipts/2026-10-30-run0/g9-render.receipt.json",
+   "present": true,
+   "leg_overall": "PASS",
+   "validator_version": "g9-render-check/0.5",
+   "benchmark_version": 3
+  }
+ },
+ "load_notes": [],
+ "blocking_reasons": [],
+ "overall": "PASS"
+}

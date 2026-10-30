@@ -1,6 +1,6 @@
 {
  "benchmark_schema": "syllabai.g9-benchmark-cases/0.1",
- "benchmark_version": 2,
+ "benchmark_version": 3,
  "validator_version": "g9-render-check/0.1",
  "note": "Frozen rendered-question benchmark contract. Expected facts derived from the syllabai-v2 hub official bundles of record (H3-cutover exports of the resources corpus of record). Re-derive only via official_examq_g9_casegen.py with a benchmark_version BUMP + LEDGER entry (anti-gaming rule).",
  "cases": [
@@ -36,7 +36,8 @@
     "crop_required_stubs": 2,
     "mark_points": 36,
     "crop_imgs_inlined": 2,
-    "solutions": 36
+    "solutions": 36,
+    "labelled_parts": 36
    },
    "fact_parts": [
     {
@@ -67,7 +68,27 @@
     "correct_label": "B",
     "correct_text_snippet": "16 g",
     "distractor_label": "A"
-   }
+   },
+   "part_labels": [
+    {
+     "part_id": "offp_2023-06_2p_1-b-i",
+     "label": "(b)(i)",
+     "text_start": "The weight of the pencil is 0.16 N.",
+     "kind": "labelled"
+    },
+    {
+     "part_id": "offp_2023-06_2p_1-a",
+     "label": "(a)",
+     "text_start": "A pencil has a weight of 0.16 N.",
+     "kind": "labelled"
+    },
+    {
+     "part_id": "offp_2023-06_2p_1-b-ii",
+     "label": "(b)(ii)",
+     "text_start": "State the moment of the force F.",
+     "kind": "labelled"
+    }
+   ]
   },
   {
    "id": "physics-1p-2019-06",
@@ -101,7 +122,8 @@
     "crop_required_stubs": 0,
     "mark_points": 47,
     "crop_imgs_inlined": 10,
-    "solutions": 47
+    "solutions": 47,
+    "labelled_parts": 47
    },
    "fact_parts": [
     {
@@ -132,7 +154,27 @@
     "correct_label": "C",
     "correct_text_snippet": "sound",
     "distractor_label": "A"
-   }
+   },
+   "part_labels": [
+    {
+     "part_id": "offp_2019-06_1p_1-a-i",
+     "label": "(a)(i)",
+     "text_start": "This question is about waves.",
+     "kind": "labelled"
+    },
+    {
+     "part_id": "offp_2019-06_1p_1-b-i",
+     "label": "(b)(i)",
+     "text_start": "Which of these is a use for x-rays?",
+     "kind": "labelled"
+    },
+    {
+     "part_id": "offp_2019-06_1p_1-a-ii",
+     "label": "(a)(ii)",
+     "text_start": "Draw a straight line linking each electromagnetic wave to its correct hazard.",
+     "kind": "labelled"
+    }
+   ]
   },
   {
    "id": "physics-2p-2024-06",
@@ -164,7 +206,8 @@
     "crop_required_stubs": 0,
     "mark_points": 33,
     "crop_imgs_inlined": 8,
-    "solutions": 33
+    "solutions": 33,
+    "labelled_parts": 33
    },
    "fact_parts": [
     {
@@ -195,7 +238,27 @@
     "correct_label": "A",
     "correct_text_snippet": "friction",
     "distractor_label": "B"
-   }
+   },
+   "part_labels": [
+    {
+     "part_id": "offp_2024-06_2p_2-c-i",
+     "label": "(c)(i)",
+     "text_start": "The force is applied over a distance that is equal to a quarter of the circumference of a circle.",
+     "kind": "labelled"
+    },
+    {
+     "part_id": "offp_2024-06_2p_4-a-i",
+     "label": "(a)(i)",
+     "text_start": "This question is about electrostatics.",
+     "kind": "labelled"
+    },
+    {
+     "part_id": "offp_2024-06_2p_1-a",
+     "label": "(a)",
+     "text_start": "The Hertzsprung-Russell (HR) diagram shown can be used to classify stars.",
+     "kind": "labelled"
+    }
+   ]
   },
   {
    "id": "physics-1p-2023-06",
@@ -228,7 +291,8 @@
     "crop_required_stubs": 0,
     "mark_points": 45,
     "crop_imgs_inlined": 16,
-    "solutions": 45
+    "solutions": 45,
+    "labelled_parts": 45
    },
    "fact_parts": [
     {
@@ -259,7 +323,27 @@
     "correct_label": "A",
     "correct_text_snippet": "becquerel",
     "distractor_label": "B"
-   }
+   },
+   "part_labels": [
+    {
+     "part_id": "offp_2023-06_1p_1-c-i",
+     "label": "(c)(i)",
+     "text_start": "The box gives the names of different pieces of equipment.",
+     "kind": "labelled"
+    },
+    {
+     "part_id": "offp_2023-06_1p_1-a",
+     "label": "(a)",
+     "text_start": "This is a question about radioactivity.",
+     "kind": "labelled"
+    },
+    {
+     "part_id": "offp_2023-06_1p_1-b",
+     "label": "(b)",
+     "text_start": "Which of these is the correct description of the term half-life?",
+     "kind": "labelled"
+    }
+   ]
   },
   {
    "id": "chemistry-1c-2023-06",
@@ -292,7 +376,8 @@
     "crop_required_stubs": 0,
     "mark_points": 86,
     "crop_imgs_inlined": 8,
-    "solutions": 55
+    "solutions": 55,
+    "labelled_parts": 55
    },
    "fact_parts": [
     {
@@ -314,7 +399,27 @@
     "correct_label": "D",
     "correct_text_snippet": "oxidation",
     "distractor_label": "A"
-   }
+   },
+   "part_labels": [
+    {
+     "part_id": "offp_2023-06_1c_1-a-i",
+     "label": "(a)(i)",
+     "text_start": "The box gives some methods that are involved in the separation of mixtures.",
+     "kind": "labelled"
+    },
+    {
+     "part_id": "offp_2023-06_1c_2-a-ii",
+     "label": "(a)(ii)",
+     "text_start": "What type of reaction occurs when iron rusts?",
+     "kind": "labelled"
+    },
+    {
+     "part_id": "offp_2023-06_1c_1-a-ii",
+     "label": "(a)(ii)",
+     "text_start": "Give the best method for separating the dyes in black ink.",
+     "kind": "labelled"
+    }
+   ]
   },
   {
    "id": "chemistry-1c-2020-01",
@@ -346,7 +451,8 @@
     "crop_required_stubs": 0,
     "mark_points": 93,
     "crop_imgs_inlined": 13,
-    "solutions": 60
+    "solutions": 60,
+    "labelled_parts": 60
    },
    "fact_parts": [
     {
@@ -377,7 +483,27 @@
     "correct_label": "B",
     "correct_text_snippet": "bromine",
     "distractor_label": "A"
-   }
+   },
+   "part_labels": [
+    {
+     "part_id": "offp_2020-01_1c_1-a-i",
+     "label": "(a)(i)",
+     "text_start": "This question is about gases in the atmosphere.",
+     "kind": "labelled"
+    },
+    {
+     "part_id": "offp_2020-01_1c_7-a-i",
+     "label": "(a)(i)",
+     "text_start": "This question is about some of the halogens and their compounds.",
+     "kind": "labelled"
+    },
+    {
+     "part_id": "offp_2020-01_1c_1-a-ii",
+     "label": "(a)(ii)",
+     "text_start": "Identify a gas that makes up about 78% of the atmosphere.",
+     "kind": "labelled"
+    }
+   ]
   },
   {
    "id": "chemistry-2c-2019-06",
@@ -405,11 +531,22 @@
     "marks_total": 70,
     "mcq_parts": 1,
     "mcq_keyed": 1,
-    "crop_assets": 7,
+    "crop_assets": 9,
     "crop_required_stubs": 0,
     "mark_points": 63,
     "crop_imgs_inlined": 7,
-    "solutions": 39
+    "solutions": 39,
+    "labelled_parts": 39,
+    "crop_inline_gaps": [
+     {
+      "part_id": "offp_2019-06_2c_2-a",
+      "path": "assets/asset_2_a_ms_answer.png"
+     },
+     {
+      "part_id": "offp_2019-06_2c_6-d-ii",
+      "path": "assets/asset_6_d_ii_ms_answer.png"
+     }
+    ]
    },
    "fact_parts": [
     {
@@ -440,7 +577,27 @@
     "correct_label": "C",
     "correct_text_snippet": "30°C",
     "distractor_label": "A"
-   }
+   },
+   "part_labels": [
+    {
+     "part_id": "offp_2019-06_2c_3-c-i",
+     "label": "(c)(i)",
+     "text_start": "Calculate the mean (average) time for butanol to evaporate.",
+     "kind": "labelled"
+    },
+    {
+     "part_id": "offp_2019-06_2c_6-a-ii",
+     "label": "(a)(ii)",
+     "text_start": "Which temperature is the most suitable for fermentation?",
+     "kind": "labelled"
+    },
+    {
+     "part_id": "offp_2019-06_2c_1-a",
+     "label": "(a)",
+     "text_start": "The diagram shows the particles in an atom of an element.",
+     "kind": "labelled"
+    }
+   ]
   },
   {
    "id": "maths-02r-2019-06",
@@ -474,6 +631,7 @@
     "mark_points": 37,
     "crop_imgs_inlined": 6,
     "solutions": 39,
+    "labelled_parts": 36,
     "crop_inline_gaps": [
      {
       "part_id": "offp_2019-06_02r_5-d",
@@ -521,7 +679,27 @@
      "snippet": "{2, 4, 8} 1 B1 or ft their Venn diagram"
     }
    ],
-   "mcq_interaction": null
+   "mcq_interaction": null,
+   "part_labels": [
+    {
+     "part_id": "offp_2019-06_02r_2-a-ii",
+     "label": "(a)(ii)",
+     "text_start": "Represent your solution onthe number line on the next page.",
+     "kind": "labelled"
+    },
+    {
+     "part_id": "offp_2019-06_02r_1-f",
+     "label": "(f)",
+     "text_start": "Find n(B′ ∩ C′)",
+     "kind": "labelled"
+    },
+    {
+     "part_id": "offp_2019-06_02r_10",
+     "label": null,
+     "text_start": "A particle, P, is moving along a straight line through the fixed point O.",
+     "kind": "null"
+    }
+   ]
   }
  ]
 }

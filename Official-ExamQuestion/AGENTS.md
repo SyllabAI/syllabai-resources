@@ -513,6 +513,21 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
 
 ## Known open work (pick up from here)
 
+- Task 27 (2026-10-30, F120) CLOSED the G9 label-visibility gate gap — the F119 QUEUED
+  item (a) — with a benchmark v3 contract: frozen `part_labels` samples + `labelled_parts`
+  census per case, enforced at ALL THREE legs (served field + id-slug pin at static-bundles;
+  part_number derivation source at static-corpus; ACTUAL VISIBILITY — exact chip text,
+  rendered presence, geometric same-line in the flex items-baseline row, whole-page chip
+  census == labelled_parts, and the fail-closed null class rendering NO chip — at the
+  rendered leg, through the stable `data-part-row`/`data-part-label` hooks, v2 PR of record
+  cited in LEDGER F120). A label that exists in data but never renders now FAILS G9 instead
+  of shipping. New permanent negative control `--negative-control-label` (mutated label
+  refused / original derives). Receipts of record: `benchmark/receipts/2026-10-30-run0/`
+  (aggregate PASS; mutated-fact + mutated-label DETECTED; dead renderer NOT_RUN). STANDING
+  from the F119 queue: (b) the maths-B corpus back-sync (unchanged; the label contract only
+  READS the serve-plane field-write) and the post-deploy vercel spot receipt for the v3
+  contract (follows the bake; the local-runtime receipt is the renderer of record). The
+  F119 item (c) closed earlier with T-OEQ-PARTLABEL-3 (v2 #477).
 - Task 26 (2026-10-30, F119) CLOSED the operator-reported part-label learner-surface gap
   end-to-end and shipped the pipeline's first SERVING-FIELD playbook: the exporter emits
   `sourcePaper.questionPart` (printed_part_label, fail-closed grammar), the new G-E6 gate

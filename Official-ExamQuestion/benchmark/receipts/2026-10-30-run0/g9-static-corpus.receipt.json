@@ -1,0 +1,1142 @@
+{
+ "receipt_schema": "syllabai.g9-static-receipt/0.1",
+ "validator_version": "g9-static-check/0.3",
+ "benchmark_version": 3,
+ "source": {
+  "corpus": "Official-ExamQuestion",
+  "bundles": null
+ },
+ "cases": [
+  {
+   "case_id": "physics-2p-2023-06",
+   "mode": "corpus",
+   "disposition": "PASS",
+   "checks": [
+    {
+     "id": "counts-questions",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "8 vs 8"
+    },
+    {
+     "id": "counts-parts",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "36 vs 36"
+    },
+    {
+     "id": "marks-total-law",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "70 vs 70"
+    },
+    {
+     "id": "counts-mcq",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "mcq 3 vs 3; keyed 3 vs 3"
+    },
+    {
+     "id": "asset-kinds-present",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "corpus assets: 2 crop + 2 crop-required (bundle: 2+2; exporter may demote)"
+    },
+    {
+     "id": "figures-inlined-count",
+     "area": "static",
+     "outcome": "NOT_APPLICABLE",
+     "requirement": "delegated",
+     "detail": "exporter-side transform (crops are inlined into problemMd at export time) \u2014 counted at the static-bundles leg; actually loading is proven at the rendered leg",
+     "responsibility": "static-bundles + rendered legs"
+    },
+    {
+     "id": "marks-sum-per-question",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "violations: []"
+    },
+    {
+     "id": "fact:offp_2023-06_2p_1-b-i",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "fact:offp_2023-06_2p_2-a",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "fact:offp_2023-06_2p_2-b-i",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "solfact:offp_2023-06_2p_1-a",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "solution fact present in this text layer"
+    },
+    {
+     "id": "solfact:offp_2023-06_2p_1-b-i",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "solution fact present in this text layer"
+    },
+    {
+     "id": "labels-field-count",
+     "area": "static",
+     "outcome": "NOT_APPLICABLE",
+     "requirement": "delegated",
+     "detail": "sourcePaper.questionPart is the exporter-emitted serving field (F119); the corpus layer carries only the derivation source (part_number), checked per sample below \u2014 the served field is required and verified at the static-bundles leg and the rendered leg",
+     "responsibility": "static-bundles + rendered legs"
+    },
+    {
+     "id": "label:offp_2023-06_2p_1-b-i",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": ""
+    },
+    {
+     "id": "label:offp_2023-06_2p_1-a",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": ""
+    },
+    {
+     "id": "label:offp_2023-06_2p_1-b-ii",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": ""
+    },
+    {
+     "id": "mcq-key:offp_2023-06_2p_1-a",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": ""
+    },
+    {
+     "id": "asset-files-exist",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "missing: []"
+    },
+    {
+     "id": "asset-bytes-valid",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "2 crop files byte-checked; all format-valid"
+    }
+   ]
+  },
+  {
+   "case_id": "physics-1p-2019-06",
+   "mode": "corpus",
+   "disposition": "PASS",
+   "checks": [
+    {
+     "id": "counts-questions",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "12 vs 12"
+    },
+    {
+     "id": "counts-parts",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "47 vs 47"
+    },
+    {
+     "id": "marks-total-law",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "110 vs 110"
+    },
+    {
+     "id": "counts-mcq",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "mcq 4 vs 4; keyed 4 vs 4"
+    },
+    {
+     "id": "asset-kinds-present",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "corpus assets: 10 crop + 0 crop-required (bundle: 10+0; exporter may demote)"
+    },
+    {
+     "id": "figures-inlined-count",
+     "area": "static",
+     "outcome": "NOT_APPLICABLE",
+     "requirement": "delegated",
+     "detail": "exporter-side transform (crops are inlined into problemMd at export time) \u2014 counted at the static-bundles leg; actually loading is proven at the rendered leg",
+     "responsibility": "static-bundles + rendered legs"
+    },
+    {
+     "id": "marks-sum-per-question",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "violations: []"
+    },
+    {
+     "id": "fact:offp_2019-06_1p_1-a-ii",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "fact:offp_2019-06_1p_1-b-ii",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "fact:offp_2019-06_1p_2-a",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "solfact:offp_2019-06_1p_1-a-i",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "solution fact present in this text layer"
+    },
+    {
+     "id": "solfact:offp_2019-06_1p_1-a-ii",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "solution fact present in this text layer"
+    },
+    {
+     "id": "labels-field-count",
+     "area": "static",
+     "outcome": "NOT_APPLICABLE",
+     "requirement": "delegated",
+     "detail": "sourcePaper.questionPart is the exporter-emitted serving field (F119); the corpus layer carries only the derivation source (part_number), checked per sample below \u2014 the served field is required and verified at the static-bundles leg and the rendered leg",
+     "responsibility": "static-bundles + rendered legs"
+    },
+    {
+     "id": "label:offp_2019-06_1p_1-a-i",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": ""
+    },
+    {
+     "id": "label:offp_2019-06_1p_1-b-i",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": ""
+    },
+    {
+     "id": "label:offp_2019-06_1p_1-a-ii",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": ""
+    },
+    {
+     "id": "mcq-key:offp_2019-06_1p_1-a-i",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": ""
+    },
+    {
+     "id": "asset-files-exist",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "missing: []"
+    },
+    {
+     "id": "asset-bytes-valid",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "10 crop files byte-checked; all format-valid"
+    }
+   ]
+  },
+  {
+   "case_id": "physics-2p-2024-06",
+   "mode": "corpus",
+   "disposition": "PASS",
+   "checks": [
+    {
+     "id": "counts-questions",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "8 vs 8"
+    },
+    {
+     "id": "counts-parts",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "33 vs 33"
+    },
+    {
+     "id": "marks-total-law",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "70 vs 70"
+    },
+    {
+     "id": "counts-mcq",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "mcq 2 vs 2; keyed 2 vs 2"
+    },
+    {
+     "id": "asset-kinds-present",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "corpus assets: 8 crop + 0 crop-required (bundle: 8+0; exporter may demote)"
+    },
+    {
+     "id": "figures-inlined-count",
+     "area": "static",
+     "outcome": "NOT_APPLICABLE",
+     "requirement": "delegated",
+     "detail": "exporter-side transform (crops are inlined into problemMd at export time) \u2014 counted at the static-bundles leg; actually loading is proven at the rendered leg",
+     "responsibility": "static-bundles + rendered legs"
+    },
+    {
+     "id": "marks-sum-per-question",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "violations: []"
+    },
+    {
+     "id": "fact:offp_2024-06_2p_1-a",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "fact:offp_2024-06_2p_2-a",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "fact:offp_2024-06_2p_2-b",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "solfact:offp_2024-06_2p_1-a",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "solution fact present in this text layer"
+    },
+    {
+     "id": "solfact:offp_2024-06_2p_1-b",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "solution fact present in this text layer"
+    },
+    {
+     "id": "labels-field-count",
+     "area": "static",
+     "outcome": "NOT_APPLICABLE",
+     "requirement": "delegated",
+     "detail": "sourcePaper.questionPart is the exporter-emitted serving field (F119); the corpus layer carries only the derivation source (part_number), checked per sample below \u2014 the served field is required and verified at the static-bundles leg and the rendered leg",
+     "responsibility": "static-bundles + rendered legs"
+    },
+    {
+     "id": "label:offp_2024-06_2p_2-c-i",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": ""
+    },
+    {
+     "id": "label:offp_2024-06_2p_4-a-i",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": ""
+    },
+    {
+     "id": "label:offp_2024-06_2p_1-a",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": ""
+    },
+    {
+     "id": "mcq-key:offp_2024-06_2p_4-a-i",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": ""
+    },
+    {
+     "id": "asset-files-exist",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "missing: []"
+    },
+    {
+     "id": "asset-bytes-valid",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "8 crop files byte-checked; all format-valid"
+    }
+   ]
+  },
+  {
+   "case_id": "physics-1p-2023-06",
+   "mode": "corpus",
+   "disposition": "PASS",
+   "checks": [
+    {
+     "id": "counts-questions",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "12 vs 12"
+    },
+    {
+     "id": "counts-parts",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "45 vs 45"
+    },
+    {
+     "id": "marks-total-law",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "110 vs 110"
+    },
+    {
+     "id": "counts-mcq",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "mcq 2 vs 2; keyed 2 vs 2"
+    },
+    {
+     "id": "asset-kinds-present",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "corpus assets: 16 crop + 0 crop-required (bundle: 16+0; exporter may demote)"
+    },
+    {
+     "id": "figures-inlined-count",
+     "area": "static",
+     "outcome": "NOT_APPLICABLE",
+     "requirement": "delegated",
+     "detail": "exporter-side transform (crops are inlined into problemMd at export time) \u2014 counted at the static-bundles leg; actually loading is proven at the rendered leg",
+     "responsibility": "static-bundles + rendered legs"
+    },
+    {
+     "id": "marks-sum-per-question",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "violations: []"
+    },
+    {
+     "id": "fact:offp_2023-06_1p_1-b",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "fact:offp_2023-06_1p_1-c-i",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "fact:offp_2023-06_1p_1-c-ii",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "solfact:offp_2023-06_1p_1-a",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "solution fact present in this text layer"
+    },
+    {
+     "id": "solfact:offp_2023-06_1p_1-b",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "solution fact present in this text layer"
+    },
+    {
+     "id": "labels-field-count",
+     "area": "static",
+     "outcome": "NOT_APPLICABLE",
+     "requirement": "delegated",
+     "detail": "sourcePaper.questionPart is the exporter-emitted serving field (F119); the corpus layer carries only the derivation source (part_number), checked per sample below \u2014 the served field is required and verified at the static-bundles leg and the rendered leg",
+     "responsibility": "static-bundles + rendered legs"
+    },
+    {
+     "id": "label:offp_2023-06_1p_1-c-i",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": ""
+    },
+    {
+     "id": "label:offp_2023-06_1p_1-a",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": ""
+    },
+    {
+     "id": "label:offp_2023-06_1p_1-b",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": ""
+    },
+    {
+     "id": "mcq-key:offp_2023-06_1p_1-a",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": ""
+    },
+    {
+     "id": "asset-files-exist",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "missing: []"
+    },
+    {
+     "id": "asset-bytes-valid",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "16 crop files byte-checked; all format-valid"
+    }
+   ]
+  },
+  {
+   "case_id": "chemistry-1c-2023-06",
+   "mode": "corpus",
+   "disposition": "PASS",
+   "checks": [
+    {
+     "id": "counts-questions",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "10 vs 10"
+    },
+    {
+     "id": "counts-parts",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "55 vs 55"
+    },
+    {
+     "id": "marks-total-law",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "110 vs 110"
+    },
+    {
+     "id": "counts-mcq",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "mcq 3 vs 3; keyed 3 vs 3"
+    },
+    {
+     "id": "asset-kinds-present",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "corpus assets: 8 crop + 0 crop-required (bundle: 8+0; exporter may demote)"
+    },
+    {
+     "id": "figures-inlined-count",
+     "area": "static",
+     "outcome": "NOT_APPLICABLE",
+     "requirement": "delegated",
+     "detail": "exporter-side transform (crops are inlined into problemMd at export time) \u2014 counted at the static-bundles leg; actually loading is proven at the rendered leg",
+     "responsibility": "static-bundles + rendered legs"
+    },
+    {
+     "id": "marks-sum-per-question",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "violations: []"
+    },
+    {
+     "id": "fact:offp_2023-06_1c_1-a-i",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "fact:offp_2023-06_1c_1-a-ii",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "fact:offp_2023-06_1c_1-a-iii",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "labels-field-count",
+     "area": "static",
+     "outcome": "NOT_APPLICABLE",
+     "requirement": "delegated",
+     "detail": "sourcePaper.questionPart is the exporter-emitted serving field (F119); the corpus layer carries only the derivation source (part_number), checked per sample below \u2014 the served field is required and verified at the static-bundles leg and the rendered leg",
+     "responsibility": "static-bundles + rendered legs"
+    },
+    {
+     "id": "label:offp_2023-06_1c_1-a-i",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": ""
+    },
+    {
+     "id": "label:offp_2023-06_1c_2-a-ii",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": ""
+    },
+    {
+     "id": "label:offp_2023-06_1c_1-a-ii",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": ""
+    },
+    {
+     "id": "mcq-key:offp_2023-06_1c_2-a-ii",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": ""
+    },
+    {
+     "id": "asset-files-exist",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "missing: []"
+    },
+    {
+     "id": "asset-bytes-valid",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "8 crop files byte-checked; all format-valid"
+    }
+   ]
+  },
+  {
+   "case_id": "chemistry-1c-2020-01",
+   "mode": "corpus",
+   "disposition": "PASS",
+   "checks": [
+    {
+     "id": "counts-questions",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "10 vs 10"
+    },
+    {
+     "id": "counts-parts",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "60 vs 60"
+    },
+    {
+     "id": "marks-total-law",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "110 vs 110"
+    },
+    {
+     "id": "counts-mcq",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "mcq 3 vs 3; keyed 3 vs 3"
+    },
+    {
+     "id": "asset-kinds-present",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "corpus assets: 13 crop + 0 crop-required (bundle: 13+0; exporter may demote)"
+    },
+    {
+     "id": "figures-inlined-count",
+     "area": "static",
+     "outcome": "NOT_APPLICABLE",
+     "requirement": "delegated",
+     "detail": "exporter-side transform (crops are inlined into problemMd at export time) \u2014 counted at the static-bundles leg; actually loading is proven at the rendered leg",
+     "responsibility": "static-bundles + rendered legs"
+    },
+    {
+     "id": "marks-sum-per-question",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "violations: []"
+    },
+    {
+     "id": "fact:offp_2020-01_1c_1-a-i",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "fact:offp_2020-01_1c_1-a-ii",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "fact:offp_2020-01_1c_1-a-iv",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "solfact:offp_2020-01_1c_1-a-i",
+     "area": "static",
+     "outcome": "NOT_APPLICABLE",
+     "requirement": "delegated",
+     "detail": "absent from the verbatim corpus layer (served text is the exporter/authored layer \u2014 required and verified at the static-bundles leg and the rendered leg)",
+     "responsibility": "static-bundles + rendered legs"
+    },
+    {
+     "id": "solfact:offp_2020-01_1c_1-a-ii",
+     "area": "static",
+     "outcome": "NOT_APPLICABLE",
+     "requirement": "delegated",
+     "detail": "absent from the verbatim corpus layer (served text is the exporter/authored layer \u2014 required and verified at the static-bundles leg and the rendered leg)",
+     "responsibility": "static-bundles + rendered legs"
+    },
+    {
+     "id": "labels-field-count",
+     "area": "static",
+     "outcome": "NOT_APPLICABLE",
+     "requirement": "delegated",
+     "detail": "sourcePaper.questionPart is the exporter-emitted serving field (F119); the corpus layer carries only the derivation source (part_number), checked per sample below \u2014 the served field is required and verified at the static-bundles leg and the rendered leg",
+     "responsibility": "static-bundles + rendered legs"
+    },
+    {
+     "id": "label:offp_2020-01_1c_1-a-i",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": ""
+    },
+    {
+     "id": "label:offp_2020-01_1c_7-a-i",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": ""
+    },
+    {
+     "id": "label:offp_2020-01_1c_1-a-ii",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": ""
+    },
+    {
+     "id": "mcq-key:offp_2020-01_1c_7-a-i",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": ""
+    },
+    {
+     "id": "asset-files-exist",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "missing: []"
+    },
+    {
+     "id": "asset-bytes-valid",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "13 crop files byte-checked; all format-valid"
+    }
+   ]
+  },
+  {
+   "case_id": "chemistry-2c-2019-06",
+   "mode": "corpus",
+   "disposition": "PASS",
+   "checks": [
+    {
+     "id": "counts-questions",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "8 vs 8"
+    },
+    {
+     "id": "counts-parts",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "39 vs 39"
+    },
+    {
+     "id": "marks-total-law",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "70 vs 70"
+    },
+    {
+     "id": "counts-mcq",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "mcq 1 vs 1; keyed 1 vs 1"
+    },
+    {
+     "id": "asset-kinds-present",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "corpus assets: 9 crop + 0 crop-required (bundle: 9+0; exporter may demote)"
+    },
+    {
+     "id": "figures-inlined-count",
+     "area": "static",
+     "outcome": "NOT_APPLICABLE",
+     "requirement": "delegated",
+     "detail": "exporter-side transform (crops are inlined into problemMd at export time) \u2014 counted at the static-bundles leg; actually loading is proven at the rendered leg",
+     "responsibility": "static-bundles + rendered legs"
+    },
+    {
+     "id": "marks-sum-per-question",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "violations: []"
+    },
+    {
+     "id": "fact:offp_2019-06_2c_1-a",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "fact:offp_2019-06_2c_1-c",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "fact:offp_2019-06_2c_2-a",
+     "area": "static",
+     "outcome": "NOT_APPLICABLE",
+     "requirement": "delegated",
+     "detail": "absent from the verbatim corpus layer (served text is the exporter/authored layer \u2014 required and verified at the static-bundles leg and the rendered leg)",
+     "responsibility": "static-bundles + rendered legs"
+    },
+    {
+     "id": "solfact:offp_2019-06_2c_2-a",
+     "area": "static",
+     "outcome": "NOT_APPLICABLE",
+     "requirement": "delegated",
+     "detail": "absent from the verbatim corpus layer (served text is the exporter/authored layer \u2014 required and verified at the static-bundles leg and the rendered leg)",
+     "responsibility": "static-bundles + rendered legs"
+    },
+    {
+     "id": "solfact:offp_2019-06_2c_2-b",
+     "area": "static",
+     "outcome": "NOT_APPLICABLE",
+     "requirement": "delegated",
+     "detail": "absent from the verbatim corpus layer (served text is the exporter/authored layer \u2014 required and verified at the static-bundles leg and the rendered leg)",
+     "responsibility": "static-bundles + rendered legs"
+    },
+    {
+     "id": "labels-field-count",
+     "area": "static",
+     "outcome": "NOT_APPLICABLE",
+     "requirement": "delegated",
+     "detail": "sourcePaper.questionPart is the exporter-emitted serving field (F119); the corpus layer carries only the derivation source (part_number), checked per sample below \u2014 the served field is required and verified at the static-bundles leg and the rendered leg",
+     "responsibility": "static-bundles + rendered legs"
+    },
+    {
+     "id": "label:offp_2019-06_2c_3-c-i",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": ""
+    },
+    {
+     "id": "label:offp_2019-06_2c_6-a-ii",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": ""
+    },
+    {
+     "id": "label:offp_2019-06_2c_1-a",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": ""
+    },
+    {
+     "id": "mcq-key:offp_2019-06_2c_6-a-ii",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": ""
+    },
+    {
+     "id": "asset-files-exist",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "missing: []"
+    },
+    {
+     "id": "asset-bytes-valid",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "9 crop files byte-checked; all format-valid"
+    }
+   ]
+  },
+  {
+   "case_id": "maths-02r-2019-06",
+   "mode": "corpus",
+   "disposition": "PASS",
+   "checks": [
+    {
+     "id": "counts-questions",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "11 vs 11"
+    },
+    {
+     "id": "counts-parts",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "39 vs 39"
+    },
+    {
+     "id": "marks-total-law",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "100 vs 100"
+    },
+    {
+     "id": "counts-mcq",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "mcq 0 vs 0; keyed 0 vs 0"
+    },
+    {
+     "id": "asset-kinds-present",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "corpus assets: 9 crop + 2 crop-required (bundle: 11+0; exporter may demote)"
+    },
+    {
+     "id": "figures-inlined-count",
+     "area": "static",
+     "outcome": "NOT_APPLICABLE",
+     "requirement": "delegated",
+     "detail": "exporter-side transform (crops are inlined into problemMd at export time) \u2014 counted at the static-bundles leg; actually loading is proven at the rendered leg",
+     "responsibility": "static-bundles + rendered legs"
+    },
+    {
+     "id": "marks-sum-per-question",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "violations: []"
+    },
+    {
+     "id": "fact:offp_2019-06_02r_1-a",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "fact:offp_2019-06_02r_2-a-ii",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "fact:offp_2019-06_02r_2-b-ii",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "solfact:offp_2019-06_02r_1-a",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "solution fact present in this text layer"
+    },
+    {
+     "id": "solfact:offp_2019-06_02r_1-b",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "solution fact present in this text layer"
+    },
+    {
+     "id": "labels-field-count",
+     "area": "static",
+     "outcome": "NOT_APPLICABLE",
+     "requirement": "delegated",
+     "detail": "sourcePaper.questionPart is the exporter-emitted serving field (F119); the corpus layer carries only the derivation source (part_number), checked per sample below \u2014 the served field is required and verified at the static-bundles leg and the rendered leg",
+     "responsibility": "static-bundles + rendered legs"
+    },
+    {
+     "id": "label:offp_2019-06_02r_2-a-ii",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": ""
+    },
+    {
+     "id": "label:offp_2019-06_02r_1-f",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": ""
+    },
+    {
+     "id": "label-null:offp_2019-06_02r_10",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": ""
+    },
+    {
+     "id": "asset-files-exist",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "missing: []"
+    },
+    {
+     "id": "asset-bytes-valid",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "9 crop files byte-checked; all format-valid"
+    }
+   ]
+  }
+ ],
+ "overall": "PASS",
+ "summary": {
+  "physics-2p-2023-06": "PASS",
+  "physics-1p-2019-06": "PASS",
+  "physics-2p-2024-06": "PASS",
+  "physics-1p-2023-06": "PASS",
+  "chemistry-1c-2023-06": "PASS",
+  "chemistry-1c-2020-01": "PASS",
+  "chemistry-2c-2019-06": "PASS",
+  "maths-02r-2019-06": "PASS"
+ }
+}

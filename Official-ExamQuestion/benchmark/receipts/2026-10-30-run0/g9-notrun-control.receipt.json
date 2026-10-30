@@ -1,0 +1,28 @@
+{
+ "receipt_schema": "syllabai.g9-render-receipt/0.1",
+ "validator_version": "g9-render-check/0.5",
+ "benchmark_version": 3,
+ "label": "notrun-control",
+ "base_url": "http://127.0.0.1:9",
+ "started_utc": "2026-10-30T08:26:42Z",
+ "cases": [
+  {
+   "case_id": "physics-2p-2023-06",
+   "disposition": "NOT_RUN",
+   "checks": [
+    {
+     "id": "renderer-available",
+     "area": "completeness",
+     "outcome": "NOT_RUN",
+     "requirement": "required",
+     "detail": "hub/browser unavailable: <urlopen error [Errno 111] Connection refused>"
+    }
+   ]
+  }
+ ],
+ "overall": "NOT_RUN",
+ "renderer": {
+  "class": null,
+  "note": "BLOCKED \u2014 renderer not reachable; NOT_RUN is not PASS"
+ }
+}

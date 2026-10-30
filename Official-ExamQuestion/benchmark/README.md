@@ -131,7 +131,7 @@ python3 scripts/official_examq_asset_bytes.py --scan-corpus Official-ExamQuestio
 python3 scripts/official_examq_g9_tests.py
 ```
 
-## The cases (benchmark_version 2)
+## The cases (benchmark_version 3)
 
 8 real corpus slices across the three lanes — physics (4), chemistry (3),
 maths-B (1) — selected for risk classes, not convenience:
@@ -152,8 +152,10 @@ Anti-gaming law: expected facts are FROZEN in the committed `cases.json`
 generation agent cannot rewrite expectations to pass its own output. Changing
 expectations requires a `benchmark_version` BUMP + a LEDGER entry. Negative
 controls are permanent: a mutated fact MUST `FAIL` (the corpus CLI
-`--negative-control` control, honest receipt via `--receipt-out`), an
-unreachable renderer MUST `NOT_RUN` (`g9-notrun-control.receipt.json`).
+`--negative-control` control, honest receipt via `--receipt-out`), a mutated
+printed label MUST be refused (the corpus CLI `--negative-control-label`
+control, F120), an unreachable renderer MUST `NOT_RUN`
+(`g9-notrun-control.receipt.json`).
 
 **Version history.** v1 → v2 (F106, this wave): the post-#191 maths-B run-012
 figure wave (073639f) + its v2 serving sync moved `maths-02r-2019-06` from
@@ -161,6 +163,27 @@ figure wave (073639f) + its v2 serving sync moved `maths-02r-2019-06` from
 so the frozen v1 counts no longer described the serving bundles of record.
 Re-derived via the committed casegen; every other case byte-identical. Source
 evidence in LEDGER F106.
+
+**Version history.** v2 → v3 (F120, this wave): the LABEL-VISIBILITY contract.
+The F119 wave served the printed part label (`sourcePaper.questionPart`) and
+rendered it inline, but G9 had NO case asserting the label is actually VISIBLE
+on the learner surface — the blind spot that let the original defect (labels
+nowhere, aria-only by design) ship through a fully green gate suite. v3 freezes
+per case: `part_labels` samples (one roman-nested label — the (a)(i) class the
+original defect mislabelled, one labelled MCQ part, one further labelled part,
+plus up to one NULL path-less part — the fail-closed class that must render NO
+chip) and the `labelled_parts` census. Enforced at all three legs: the served
+field + id-slug pin at static-bundles, the derivation source (part_number tail)
+at static-corpus, and ACTUAL VISIBILITY (chip exists, is rendered, sits in a
+flex items-baseline row geometrically on the first text line) + the whole-page
+chip census at the rendered leg, via the stable `data-part-row` / `data-part-label`
+hooks (the same pattern as `data-question-block`; v2 side landed with the F120
+renderer PR). One honest census movement rode the re-derivation:
+`chemistry-2c-2019-06` crop_assets 7 → 9 (+ two `crop_inline_gaps` — the F113
+ms_answer printed-drawing-answer crops for 2(a)/6(d)(ii) served after cases v2
+was frozen; derived from the bundles of record). Every other v2 expectation is
+carried over byte-identical (the F119 label emission moved zero content bytes,
+G-E1). Source evidence in LEDGER F120.
 
 ## Evidence of record (2026-10-27-run0 — the G9 landing, validator 0.1/0.3)
 
@@ -193,6 +216,29 @@ Filled from the actual runs of this wave; see the receipts in
 | `g9-notrun-control.receipt.json` | unreachable renderer → all `NOT_RUN`, overall `NOT_RUN`, exit 2 — never PASS |
 | `g9-aggregate.receipt.json` | the OVERALL gate over the three mandatory legs (F105 law) |
 | `asset-byte-scan.json` | corpus-wide asset-byte guard scan (files/records/errors) |
+
+## Evidence of record (2026-10-30-run0 — the F120 label-visibility case)
+
+The run that closed the F119 "QUEUED" gate gap: every leg re-run under the
+benchmark v3 label contract; ALL receipts committed here. Rendered leg of
+record = the real syllabai-v2 hub (local runtime of the F120 renderer branch,
+v2 PR of record cited in LEDGER F120 — the `data-part-row`/`data-part-label`
+hooks are part of the code under test).
+
+| receipt | result |
+|---|---|
+| `g9-static-corpus.receipt.json` | 8/8 case PASS (g9-static-check/0.3; per-sample label derivation checks green, `labels-field-count` delegated to the serving legs) |
+| `g9-static-bundles.receipt.json` | 8/8 case PASS (served field == frozen label == id slug per sample; `labels-field-count` REQUIRED and green) |
+| `g9-render.receipt.json` | 8/8 case PASS (g9-render-check/0.5, renderer class `syllabai-v2-local-runtime`): 40 label checks green — whole-page chip census == `labelled_parts` per case (36/47/33/45/55/60/39/36), every chip on the attested grammar, per-sample visibility + same-line geometry, and the maths-B null part rendering NO chip |
+| `g9-mutated-fact-negative-control.receipt.json` | mutated fact → `DETECTED` (permanent control, re-run under v3) |
+| `g9-mutated-label-negative-control.receipt.json` | mutated label `(z)(i)` refused, original `(b)(i)` still derives from `1(b)(i)` → `DETECTED` (the F120 control) |
+| `g9-notrun-control.receipt.json` | unreachable renderer → overall `NOT_RUN`, exit 2 — never PASS |
+| `g9-aggregate.receipt.json` | the OVERALL gate: **PASS** over the three mandatory legs (benchmark_version 3) |
+
+No `asset-byte-scan.json` in this run directory: the scan of record is
+corpus-wide (1192 assets, run1) and this wave's checkout carries only the 8
+case slices — a partial scan would be a dishonest census. The F104 scan stays
+enforced by the CI corpus-gates job on every PR.
 
 ## The asset-byte guard (the F104 fix at the earliest reliable boundary)
 
