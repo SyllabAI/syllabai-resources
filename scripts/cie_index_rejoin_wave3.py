@@ -280,7 +280,7 @@ def main() -> int:
         if hit is not None:
             rule, op = hit
             resolves[(l, sid)] = {
-                "lane": l, "verdict": "resolve", "tier": rule,
+                "lane": l, "id": sid, "verdict": "resolve", "tier": rule,
                 "official_id": op["id"],
                 "official_code": str(op.get("official_code")),
                 "evidence": {
