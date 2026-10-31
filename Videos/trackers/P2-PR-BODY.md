@@ -1,5 +1,14 @@
 # PR body — Videos: F189 P2 (igcse-biology-19 alignment draft)
 
+> **FILED 2026-10-31 as PR #256 and MERGED same day** — https://github.com/SyllabAI/syllabai-resources/pull/256
+> Branch `videos/p2-align-igcse-biology-19` (`d709b04`) → `main`. Merge commit
+> `019947e` (mergeable_state `clean`; sole check `sync` completed success at
+> 12:33Z after a 25-minute run, consistent with history). Branch deleted after
+> merge. Base of record `56e3e3b`; no drift between filing and merge. Task
+> T-VIDEOMAP-P2. Owner review of the 105 rows (`drafts/igcse-biology-19/review-file.md`)
+> remains OPEN — nothing is `reviewed: true` yet, Step 5 (commit to
+> `content/`) is blocked on it.
+
 > Ready-to-file body for branch `videos/p2-align-igcse-biology-19` → `main`
 > (SyllabAI/syllabai-resources). Task T-VIDEOMAP-P2. All outputs live under
 > `Videos/` per the owner instruction (plan amendment A1); nothing outside
