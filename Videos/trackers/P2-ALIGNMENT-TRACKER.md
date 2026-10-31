@@ -125,3 +125,75 @@ residential IP (one yt-dlp command in `caption-validation.json`
 §unblockPath) → drop `.vtt` files into `Videos/.cache/p2/transcripts/` →
 re-run; the worksheet is ready. **No `reviewed` flags touched by any of
 this** — draft law intact.
+
+---
+
+## Ledger 2026-11-01 · transcript thread CLOSED — rounds 2–3 (refiled)
+
+Rounds 2–3 were run 2026-10-31 (owner-suggested aggregator sites, then public
+transcript libraries). Their local commits were lost to an environment reset
+before push; this section and the regenerated
+`drafts/igcse-biology-19/caption-validation.{json,md}` refile the record from
+the session log. **The thread is CLOSED: 30 logged paths, 3 rounds, zero
+usable transcripts.**
+
+- **Round 2 — transcript-aggregator sites (16 paths, owner-suggested).**
+  youtubetotranscript.com (plain HTTP, two platform WebFetch egresses, real
+  headless Chromium ×2 — Cloudflare challenge loop every way), filmot (same
+  loop), youtubetranscript.com (self-reports "YouTube is currently blocking
+  us"), savesubs (`{"message":"BLOCKED"}`), downsub/tactiq (login walls),
+  kome (429 + Vercel checkpoint), newer yt-dlp clients (bot wall), r.jina.ai
+  (401), public CORS relays (522/401), unsigned innertube `get_transcript`
+  (400), nocookie embed player (configuration error). **Structural finding:
+  aggregator sites are thin clients of the same YouTube caption endpoints —
+  each is walled twice (site bot-wall + the same upstream datacenter-IP
+  wall), so a proxy chain cannot fix an upstream wall it cannot see past.**
+- **Round 3 — public transcript libraries (2 paths).** you-tldr.com's public
+  library (correct `/transcript/<VIDEOID>` pattern via `/llms.txt` + sitemap):
+  **0/35 worksheet videos present** — libraries only carry previously
+  processed videos. lemnoslife operational API: dead.
+- **Turnkey unblock pair shipped (optional, owner-side):**
+  `Videos/scripts/caption-harvest.py` (residential IP; manual-en > auto-en >
+  yt-dlp fallback → `.vtt` + `status.json`) and `Videos/scripts/caption-revalidate.py`
+  (lexical per-row verdicts, key `lessonRef|video|rowIdx` — covered ≥34% /
+  thin / absent / no-track + ≤3 timestamped quotes → `caption-verdicts.json`).
+  Evidence only; semantic judgement stays owner-gated.
+- **Evidence basis for the review (documented in the review file §header):**
+  page keyPoints + oEmbed identity sweep (73/73 official titles). Medium rows
+  are *topic-consistent, clause-level unverified*. This does not block Step 4.
+
+## Owner review COMPLETE — Step 4 closed, Step 5 executed (2026-10-31 17:45Z / 2026-11-01 CST)
+
+**Owner ruling (chat, verbatim): "approve all except 4.16"** — recorded in
+`drafts/igcse-biology-19/owner-review-verdicts.json` and applied by the new
+`Videos/scripts/align-apply-review.mjs` (idempotent, in place, append-with-
+reason; nothing silently deleted):
+
+| Outcome | Rows |
+| --- | --- |
+| Approved (`reviewed: true` + reviewer + reviewedUtc) | 104 (73 high / 30 medium / 1 low) |
+| Rejected (stays `reviewed: false` + `reviewNote`) | 1 — lesson 8.8 · video `cickRHnPKvc` · spec `4.16` |
+
+The rejected row: the video's own official title ("How Humans Reduce
+Biodiversity") does not support the sewage/eutrophication clause of 4.16 —
+the owner adopted the caption-validation recommendation. The 8.8→4.12 row
+(carrying the "reject-unless-scanned" caveat) **was approved by the ruling**
+and is annotated as such in the review file.
+
+**Reviewed census (recomputed by script, both sides): 136/176 spec points ·
+72/73 videos · 104 mapping rows (73H/30M/1L).** Spec 4.16 falls back to the
+honest no-video list (it had no other binding).
+
+Gate §8.5 live spot-check after the ruling: **6/6 PASS** (lesson URLs resolve
+and still embed the recorded ids).
+
+**Step 5 (commit) executed:** `Videos/scripts/build-content-map.mjs` builds
+`hub.video-map/1` from the reviewed rows only (gates §8.1–§8.4 enforced in
+script: review law, referential integrity against the spine — sha
+`9902a87a443e…` matches `apps/hub/spines/igcse-biology-19.json` — id shape,
+dup check, census recompute+assert) and emits the content file + registry
+into SyllabAI/syllabai-v2 at `apps/hub/content/video-map/`
+(`igcse-biology-19.json`, `registry.json`), with the `videoMap` flag key
+added to `apps/hub/content/flags.json` (kill-switch law: key/slug ABSENT =
+OFF; lane surface itself is P3). Hub branch:
+`hub/video-map-igcse-biology-19` — PR cross-referenced here when filed.
