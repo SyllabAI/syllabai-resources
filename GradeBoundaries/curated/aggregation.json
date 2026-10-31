@@ -1,0 +1,75 @@
+{
+  "schema": "syllabai.grade-boundaries.aggregation/1",
+  "purpose": "Cash-in STRUCTURE metadata (which units make a cash-in, and the board's A* aggregate rule). Structure is official Pearson documentation; every boundary VALUE still comes exclusively from the sha256-recorded grade-boundary documents in raw/.",
+  "sources": [
+    {
+      "id": "pearson-ial-info-manual",
+      "title": "Pearson Qualifications Information Manual 2025/26 — International Advanced A Level section (unit requirements per cash-in code)",
+      "url": "https://qualifications.pearson.com/content/dam/pdf/Support/Information-manual/4-ial-2025-2026.pdf",
+      "usedFor": "XMA01/YMA01/YFM01 unit compositions incl. the five allowed YMA01 applied pairs"
+    },
+    {
+      "id": "pearson-ial-results-explained",
+      "title": "Pearson — International Advanced Level results explained for students",
+      "url": "https://qualifications.pearson.com/en/support/support-topics/results-certification/understanding-marks-and-grades/understanding-your-results-information-for-students/edexcel-international-advanced-level-results-explained.html",
+      "usedFor": "A* rule: grade A overall AND at least 90% of the A2 UMS; Mathematics: 480 overall + at least 180/200 from P3+P4; six-unit IALs: 480 overall + at least 270/300 at A2; four-unit IALs: 320 + 180/200"
+    },
+    {
+      "id": "pearson-igcse-science-da-modular-spec",
+      "title": "Pearson Edexcel International GCSE in Science (Double Award) (Modular) specification (2024), 'Qualification at a glance'",
+      "url": "https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/Science%20(Double%20Award)/2024/specification-and-sample-assessments/international-gcse-science-da-modular-specification.pdf",
+      "usedFor": "4XSD1 = Biology Units 1-2 (4WSD1, 4WSD2) + Chemistry Units 3-4 (4WSD3, 4WSD4) + Physics Units 5-6 (4WSD5, 4WSD6); modular cash-ins are graded on aggregated UMS"
+    },
+    {
+      "id": "pearson-igcse-modular-boundary-doc",
+      "title": "Pearson International GCSE Modular grade-boundary documents (raw/pearson-int-gcse-modular) — 'Maximum marks and grade boundaries for the overall qualification (the cash-in) are only shown in UMS marks'",
+      "url": "https://qualifications.pearson.com/",
+      "usedFor": "Modular cash-in grades are UMS-aggregated; unit raw marks convert to UMS through the unit's own published raw+UMS boundary pairs"
+    }
+  ],
+  "ialCashIns": {
+    "YBI11": {
+      "title": "Biology International Advanced Level",
+      "required": ["WBI11", "WBI12", "WBI13", "WBI14", "WBI15", "WBI16"],
+      "a2": ["WBI14", "WBI15", "WBI16"],
+      "aStar": { "overallMin": 480, "a2Min": 270 }
+    },
+    "YCH11": {
+      "title": "Chemistry International Advanced Level",
+      "required": ["WCH11", "WCH12", "WCH13", "WCH14", "WCH15", "WCH16"],
+      "a2": ["WCH14", "WCH15", "WCH16"],
+      "aStar": { "overallMin": 480, "a2Min": 270 }
+    },
+    "YPH11": {
+      "title": "Physics International Advanced Level",
+      "required": ["WPH11", "WPH12", "WPH13", "WPH14", "WPH15", "WPH16"],
+      "a2": ["WPH14", "WPH15", "WPH16"],
+      "aStar": { "overallMin": 480, "a2Min": 270 }
+    },
+    "YMA01": {
+      "title": "Mathematics International Advanced Level",
+      "required": ["WMA11", "WMA12", "WMA13", "WMA14"],
+      "optionalPairs": [
+        ["WME01", "WST01"],
+        ["WME01", "WDM11"],
+        ["WME01", "WME02"],
+        ["WST01", "WDM11"],
+        ["WST01", "WST02"]
+      ],
+      "a2": ["WMA13", "WMA14"],
+      "aStar": { "overallMin": 480, "a2Min": 180 }
+    }
+  },
+  "modularCashIns": {
+    "4XBI1": { "units": ["4WBI1", "4WBI2"] },
+    "4XCH1": { "units": ["4WCH1", "4WCH2"] },
+    "4XPH1": { "units": ["4WPH1", "4WPH2"] },
+    "4XMAF": { "units": ["4WM1F", "4WM2F"] },
+    "4XMAH": { "units": ["4WM1H", "4WM2H"] },
+    "4XSD1": { "units": ["4WSD1", "4WSD2", "4WSD3", "4WSD4", "4WSD5", "4WSD6"] }
+  },
+  "roadmap": {
+    "YFM01": "Further Maths cash-ins are multi-route (F1 + one of F2/F3 + four of seven applied, OR F1+F2+F3 + three of seven) with cross-cash-in unit locking — encode with the Maths cash-in only after a verified official worked example; display-only until then.",
+    "bestCombination": "Pearson cash-ins use the candidate's best valid unit combination across attempts; this wave's calculator grades the marks the user enters (one mark per unit slot), not a best-of search."
+  }
+}

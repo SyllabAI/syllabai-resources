@@ -1,0 +1,125 @@
+{
+ "schema": "syllabai.grade-boundaries.source/1",
+ "family": "cie-0452",
+ "session": "November 2025",
+ "syllabus": {
+  "code": "0452",
+  "title": "Accounting"
+ },
+ "source": {
+  "url": "https://www.cambridgeinternational.org/Images/750654-accounting-0452-november-2025-grade-threshold-table.pdf",
+  "file": "raw/cie-0452/November 2025.pdf",
+  "sha256": "c2b7ce2e43f795cc3a90af827309d22c02a5db421f3e953f4bb723efed73585b",
+  "fetched_at": "2026-10-31T13:56:43Z"
+ },
+ "components": [
+  {
+   "code": "12",
+   "title": "Component 12",
+   "maxMark": 35,
+   "boundaries": {
+    "A": 23,
+    "B": 18,
+    "C": 14,
+    "D": 13,
+    "E": 12,
+    "F": 11,
+    "G": 10
+   },
+   "ok": true
+  },
+  {
+   "code": "13",
+   "title": "Component 13",
+   "maxMark": 35,
+   "boundaries": {
+    "A": 23,
+    "B": 18,
+    "C": 13,
+    "D": 12,
+    "E": 11,
+    "F": 10,
+    "G": 9
+   },
+   "ok": true
+  },
+  {
+   "code": "22",
+   "title": "Component 22",
+   "maxMark": 100,
+   "boundaries": {
+    "A": 59,
+    "B": 45,
+    "C": 31,
+    "D": 24,
+    "E": 17,
+    "F": 11,
+    "G": 6
+   },
+   "ok": true
+  },
+  {
+   "code": "23",
+   "title": "Component 23",
+   "maxMark": 100,
+   "boundaries": {
+    "A": 60,
+    "B": 45,
+    "C": 31,
+    "D": 24,
+    "E": 18,
+    "F": 12,
+    "G": 6
+   },
+   "ok": true
+  }
+ ],
+ "routes": [
+  {
+   "combination": "14312",
+   "option": "AY",
+   "maxWeightedMark": 22,
+   "boundaries": {
+    "A*": 107,
+    "A": 87,
+    "B": 67,
+    "C": 48,
+    "D": 40,
+    "E": 32,
+    "F": 25,
+    "G": 18
+   },
+   "award": null,
+   "ok": true
+  },
+  {
+   "combination": "14313",
+   "option": "AZ",
+   "maxWeightedMark": 23,
+   "boundaries": {
+    "A*": 109,
+    "A": 88,
+    "B": 67,
+    "C": 47,
+    "D": 39,
+    "E": 32,
+    "F": 24,
+    "G": 16
+   },
+   "award": null,
+   "ok": true
+  }
+ ],
+ "gradeLadder": [
+  "A*",
+  "A",
+  "B",
+  "C",
+  "D",
+  "E",
+  "F",
+  "G"
+ ],
+ "parse_warnings": [],
+ "parsed_at": "2026-10-31T14:22:52Z"
+}
