@@ -61,6 +61,28 @@ written to any `content/` directory, and every mapping row is
    spec points with a confidence label and a one-line evidence string;
    anything below the evidence bar stays unmapped rather than guessed.
 
+## Relation to the SME spec-links map (notes / exam questions / flashcards)
+
+Same spine, same law, different join. The SME-* corpus was mapped in
+`spec-links/` (`syllabai.learner-spec-links/1.0`): every note, exam-question
+part and flashcard joined to official codes via SME's own native `spcpt_*`
+anchors, provenance-tiered (T1–T4 / S1–S2 / C1–C3, never guessed), with
+`pending` anchors rendered, never dropped. This video map targets the **same
+official codes of the same spine of record** (`igcse-biology-19`, 4BI1,
+176 statements) under the same philosophy — per-row provenance, honest
+unmapped lists, review-gated before serving. The difference is the join
+surface: Cognito videos carry **no native spec anchors at all**, and
+Cognito's chapter numbering actively misleads (amendment A6: only 25/109
+refs coincide with spec codes, several misleadingly — Cognito `3.1
+Photosynthesis` vs spec `3.1` meiosis). So instead of an anchor→code join,
+we run lexical evidence + LLM draft with per-row confidence/evidence — the
+high/medium/low tiers are the analogue of the spec-links provenance tiers,
+and `review-file.md` is the analogue of the operator-verdict pass.
+Destination shape matches too: a per-course JSON the hub can render
+(`content/video-map/<slug>.json` at Step 5), kept `reviewed: false` until
+owner review flips rows — the draft law is the analogue of "pending renders
+as pending, never silently dropped".
+
 ## Review notes
 
 - **Zero `reviewed: true` rows anywhere in this PR** (draft law, plan §4.2).
