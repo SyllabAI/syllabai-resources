@@ -1,0 +1,13 @@
+## Question 5
+
+**5(a)** A fall in the price of gold would be increase the quantity of gold demanded. This will be represented as a movement down the demand curve as an extension is demand.
+
+**5(b)** A recession is two quarters (6 months) of **fall in real GDP**. This means that there is less money to be circulated and less income earned. So, there may be higher levels of **poverty** during a recession. With less income and less confidence in the future, consumers will likely buy less products. Firms producing these products may shutdown because of lower profits.
+
+**5(c)** A country may demand more imports because the price of imports may fall due to a fall in the cost of production, making them more affordable. The country may need more raw materials or technology to enable the growth of domestic industries (industries in the county), so may import them. Incomes of the population of the country may increase, and demand for consumer goods that the country is not specialised in producing may increase. For example, the demand for cars may increase, and they may be imported from Germany, a country specialised in producing cars.
+
+**5(d)** Fiscal policy is a government policy which changes government spending and taxation to influence the economy.
+
+* Total demand is equal to the sum of government spending, investment, net exports, and consumer spending. Increased government spending will increase total demand. This will reduce cyclical unemployment, which is the type of unemployment caused by a lack of demand. If the government spends more on education and training, workers can become more skilled. This makes it easier for them to switch to different occupations in demand so unemployment is reduced. Increased government spending may be to provide information about the labour market, so the unemployed can be aware about job vacancies and can take up jobs more easily. This will reduce frictional unemployment (temporary unemployment that occurs when workers are in between jobs).
+
+* However, the amount spent by the government may not be sufficient enough to reduce unemployment. If the economy is in a recession (a period of at least 6 months where the economic growth declines), then exports will decrease as less output is being produced by firms. Despite fiscal policy measures to increase employment, people may lack confidence in the economy and spend less. Less consumer spending and less net exports will lead to less total demand, as they are both components of total demand. Increased government spending on unemployment benefits (payments to people who have lost their jobs) may encourage people to remain unemployment and receive benefits.

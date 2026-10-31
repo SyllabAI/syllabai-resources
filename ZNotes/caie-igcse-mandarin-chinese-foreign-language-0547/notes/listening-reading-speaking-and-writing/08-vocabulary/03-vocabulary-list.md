@@ -1,0 +1,3 @@
+## Vocabulary List  
+
+ ![](../../../assets/1946038ca1bf-625e68f49f4091708ed06d764ff7990f7b215369fd53.png) ![](../../../assets/af63040d8b35-625e68f49f4091708ed06d76b171eddf69682127ddf2.png) ![](../../../assets/0ac85a992de6-625e68f49f4091708ed06d7672af72287d203a2f722e.png) ![](../../../assets/2d1a4471e9c7-625e68f49f4091708ed06d7626d1aadb1fb633f310a8.png) ![](../../../assets/1ddf3a6d8aa7-625e68f49f4091708ed06d766f800079f4e15e406b2d.png) ![](../../../assets/ea03e5036a05-625e68f49f4091708ed06d76e62d81c2e3accc9bdd39.png)

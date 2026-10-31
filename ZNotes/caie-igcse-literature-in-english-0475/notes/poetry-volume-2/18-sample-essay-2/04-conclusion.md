@@ -1,0 +1,3 @@
+## Conclusion
+
+In conclusion, Elizabeth presents strangeness as something that exists more in the minds of the townspeople than in the strangers themselves. Through symbolism, enjambment, imagery, contrast, alliteration and silence, she creates an atmosphere of uncertainty and suspicion that gradually transforms hospitality into fear. Ultimately, the poem suggests that the greatest danger is not the unknown stranger but the prejudice and paranoia that arise when people fear those who are different.

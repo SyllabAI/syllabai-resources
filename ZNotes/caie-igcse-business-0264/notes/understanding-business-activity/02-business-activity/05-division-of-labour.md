@@ -1,0 +1,1 @@
+**Division of Labour:** is when the production process is split up into different tasks nd each worker performs one of these tasks. It is a form of specialization.

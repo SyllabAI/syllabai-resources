@@ -1,0 +1,1 @@
+![Good Design Concept Mind Map](../../../assets/c18094e14779-e41518d82d195f50edb75fb5.webp)

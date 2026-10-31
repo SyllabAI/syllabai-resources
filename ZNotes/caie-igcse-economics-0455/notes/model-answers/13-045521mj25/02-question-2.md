@@ -1,0 +1,13 @@
+## Question 2
+
+**2(a)** Population pyramids display the **age** and **gender** distribution in a population.
+
+**2(b)** Income may be distributed unevenly due to a **rise in unemployment**, the income of those who are unemployed will fall as they do not have a job. A **rise in discrimination** against certain groups, like women, will make it harder for them to be employed and even if they are employed they are likely to receive low incomes.
+
+**2(c)** *Price elasticity of demand is a measure of how much the quantity demanded changes in response to a change in price.* Shoes may have many **substitutes** like sandals and boots. If the price of shoes changes, consumers may switch between shoes and the substitutes of shoes, buying whichever is cheaper. This makes demand for shoes price-elastic. The price elasticity of demand for specific brands of shoes will be more elastic than the demand for shoes in general. If the price of one brand of shoes increases, consumers can just switch to buying shoes from another brand. The more **durable** (how strong) shoes are, the longer they can be used for. Even if the price increases, customers may feel that the quality of shoes is good and continue to buy shoes, so quantity demanded does not fall by a lot and price elasticity of demand of shoes is more inelastic.
+
+**2(d)**
+
+* In a mixed economic system, there is a significant amount of government intervention. Public goods like defence will be provided to the public through government funding. Additionally, governments take action to ensure that production of demerit goods (goods that cause more harm than consumers realise) like cigarettes is discouraged by, for example, taxing them. They will also encourage the production of merit goods (goods that cause more benefits than consumers realise) like education is encouraged by, for example, providing subsidies. Governments can implement policies like expansionary fiscal policy to reduce unemployment of the people in the economy. State benefits can be provided to those with low income, reducing poverty.
+
+* However, market failure, which occurs when the market does not allocate resource efficiently, can happen in the private sector. The government may implement progressive taxation (the tax rate increases as income increases), so the rich have to pay more in taxes, causing reduceing the disposable income of high earners, which may act as a disincentive to work or invest. High corporate tax may discourage enterprise, as a large proportion of the profits made by a firm will have to paid a tax, so entrepreneurs may feel that the reward for enterprise is less. There may be less choice in the public sector as typically there is only one state-owned firm.

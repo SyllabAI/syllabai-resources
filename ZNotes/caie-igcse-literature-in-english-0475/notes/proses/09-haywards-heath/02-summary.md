@@ -1,0 +1,5 @@
+## Summary 
+
+ Years after their university romance, Attila—now a highly regarded consultant and trauma doctor—drives a luxury Jaguar from London to Haywards Heath to reunite with his former partner, Rosie. Reflecting on their youth, Attila remembers how international medical students collectively struggled to pronounce the town's name, which became a private, shared joke between them.
+
+When Attila arrives at the residential care facility where Rosie resides, he is confronted with the reality of her advanced dementia. Rosie fails to recognize Attila as her former lover, living instead in a fragmented, distorted past where she still awaits his arrival. Rather than forcing her to remember or causing her distress, Attila shows quiet compassion, accompanying her into the garden and listening to her talk. On a subsequent visit, Attila witnesses Rosie dancing happily with a young African care worker whom she mistakes for a younger Attila. Recognizing that she is safe, content, and cared for, Attila chooses not to disrupt her joy. He sits down, silently watching her dance, having accepted that true love requires letting go of his own desire for recognition.

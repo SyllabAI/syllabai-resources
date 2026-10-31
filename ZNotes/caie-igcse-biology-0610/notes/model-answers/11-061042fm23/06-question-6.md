@@ -1,0 +1,9 @@
+## Question 6
+
+a.) The part labelled A in the bacterial cell is a **plasmid**. Part A is extracted and cut using a **restriction** enzyme forming **sticky** ends. The part labelled B is the **gene** that codes for the production of beta-carotene. The enzyme used to cut part A is also used to cut part B from the plant DNA. Part B is inserted into the part labelled A using the enzyme **DNA ligase**. This forms the part labelled C, which is called a **recombinant plasmid**. Part C is put into a bacterium. The bacterium is taken up by rice plant cells, giving them the ability to produce beta-carotene. Tissue culture is a form of **asexual r**eproduction that is used to produce many identical rice plants producing beta-carotene for commercial use.
+
+b.) **any two from: (1)** Bacteria reproduce rapidly. **(2)** There is no ethical conflict when using bacteria. **(3)** Bacteria are able to make complex molecules. **(4)** Bacteria are easy to maintain and store. **(5)** Bacteria share the universal genetic code with other organisms (humans), so inserted genes can be expressed correctly.
+
+c.)**any three from: (1)** The additional nutrient content may be too small to have a significant impact on reducing vitamin A deficiency. **(2)** The seeds themselves are often expensive, which can make it difficult for poorer farmers to afford them, and **(3)** many farmers are unable to save the seeds for replanting due to licensing restrictions. **(4)** There are also potential side effects or unknown health risks for consumers, raising safety concerns. **(5)** In addition, there is a risk of cross-contamination with wild rice, which could reduce biodiversity and genetic diversity in the long term. **(6)** Ethical issues may also arise, as some consumers are reluctant to buy genetically modified products.
+
+d.) scurvy – **vitamin C** ; rickets – **vitamin D / calcium**

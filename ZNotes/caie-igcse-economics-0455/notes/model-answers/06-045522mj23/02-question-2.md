@@ -1,0 +1,13 @@
+## Question 2
+
+**2(a)** Customers may chose a bank based on the **services provided and location**
+
+**2(b)** A merger occurs when two or more firms combine to create one large firm. It may result in **lack of competition** and even the formation of a monopoly (a single seller in the market), which can raise prices as there are no other firms for consumers to switch to. **Diseconomies of scale** (disadvantages of a firm being too large) may be experienced by firms, and so they may have to charge higher prices to cover the high average costs.
+
+**2(c)** An increase in bank lending could increase consumer expenditure as it becomes easier to borrow money to spend. Total demand will increase as consumer expenditure increases and firms will increase their output to match demand. More workers will be employed by firms, so unemployment decreases. Investment may increase and the quality of capital goods may improve. Productivity may increase and more exports can be sold, causing economic growth.
+
+**2(d)**
+
+* A market economy may allocate resources in the best way possible as in this type of economy, prices change to reflect changes in demand and supply. For example, if demand for books decreases, the price of books decreases. Resources are diverted from products with falling demand to products with rising demand. There are many firms in a market economy so there is a high level of competition. This leads to firms charging low prices and producing high quality products so that consumers buy from them. Additionally, labour moves to jobs in high demand as wages change in response to the market conditions. If demand for the services provided by teachers increase, the wages earned by teachers increases.
+
+* However, not enough resources may be devoted to the production of merit goods as consumers do not realise the full benefits of these goods, so they are under-consumed. Too many resources may devoted to the production of demerit goods as consumers do not realise the full harm of these goods, so they are over-consumed. There is no incentive to produce public goods, like defence, in a market economy (even people who do not pay for these goods can benefit from them so profit is lost), so there will be no resources devoted to their production. When deciding the allocation of resources, the external costs and benefits (costs to third parties not involved in production/consumption of products) will be disregarded in a market economy.
