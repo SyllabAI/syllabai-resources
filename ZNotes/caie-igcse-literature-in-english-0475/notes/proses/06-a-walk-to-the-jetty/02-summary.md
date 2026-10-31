@@ -1,0 +1,5 @@
+## Summary
+
+Set on the Caribbean island of Antigua, "A Walk to the Jetty" follows seventeen-year-old Annie John on her final morning at home as she walks with her parents to the jetty where a ship waits to carry her away to England to study nursing. As she walks down the familiar streets of St. John's, every landmark triggers vivid memories of her childhood—from the apothecary where her mother bought medicine to the church where she was christened.
+
+Throughout the walk, Annie experiences an overwhelming mix of intense nostalgia, grief, and a fierce desire for independence. Though she deeply loves her parents, particularly her mother, she feels stifled by the island and the maternal bond that once nurtured her but now feels suffocating. Upon reaching the jetty, Annie boards a launch to take her to the main ship.  After sharing a poignant, tearful farewell with her parents, she goes down into her cabin and lies down in her bunk, listening to the rhythmic sound of the sea waves striking the ship, fully aware that she has finally stepped into an uncertain future from which she can never truly return.
