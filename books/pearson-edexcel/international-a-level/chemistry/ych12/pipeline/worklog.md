@@ -663,3 +663,60 @@ Stage Summary:
   2026-10-31). Corpus of record 1406 chunks, validator ALL CHECKS
   PASSED, anchor 0 drift throughout. Open follow-ups: pack-floor fold
   fix (own gate), serving lane consumption of the polished corpus.
+
+---
+Task ID: T-PARSE-YCH12-2-FOLD-1
+Agent: Z.ai (main, zai-web)
+Task: "Proceed" (2026-10-31, zai-web, trace 1a19343903e000e1) — next open
+follow-up after the grind's completion: the pack-floor fold fix with its
+own gate (METHOD_AND_FINDINGS D-12 §5).
+
+Work Log:
+- SANDBOX RESET #13 recovery: base-image clone route again (mirror at the
+  T-C42 audit commit, sparse cone-mode), non-cone lane patterns
+  re-applied, fetch + ff to tip b952bd81 (3 commits, all other lanes —
+  receipt bookkeeping; ych12 untouched since cd45d9f7 = CONT-V2-8).
+  Workspace reseeded from the repo-resident template + reseed.sh, fifth
+  consecutive reset recovered with zero tooling recreated from memory.
+- TARGET ADJUDICATION: sidecar page_049 i8 ("WORKEDEXAMPLE2",
+  section_header) + i9 ("N₂(g) + 3H₂(g) → 2NH₃(g)", formula,
+  `rescued: true` — the last unconsumed rescue fill) = 38 raw block
+  chars < 40-char pack floor, dropped, corpus index _0222 consumed (the
+  corpus's 149-gap signature; drop confirmed — no u12_c2 page-49 chunk
+  carries the header). Reading-order home: between `_0219`
+  (WORKEDEXAMPLE1 block) and `_0220` (ENTROPYCHANGEOFTHESURROUNDINGS
+  body). `_0219` is POLISHED — folding there is R1-illegal (corpus text
+  frozen to the evidence repair text, append-only evidence law) — so the
+  fold PREPENDS to `_0220` (body, UNPOLISHED, pristine==corpus byte-equal,
+  cc==len 474).
+- FOLD GATE (own gate, all green): pre-checks (target unpolished, no
+  partial state, corpus-wide drop confirmation, sidecar byte-match,
+  folded size under hard max) -> fold applied to the PRISTINE OF RECORD
+  in place (474 -> 516 chars; corpus/markdown/report left to the chain)
+  -> reseed -> merge (748/743, anchor PASS 0 drift) -> THE CENTERPIECE:
+  regenerated corpus vs the landed corpus differs in EXACTLY one chunk
+  (`_0220`, +42 chars, fold-prefixed, anchors/text_original/llm_repaired
+  byte-identical) -> reconcile ALL PASS x2 (workspace + repo; net-new 0,
+  no evidence change) -> audit 0 Unicode-unit regressions -> validate
+  ALL CHECKS PASSED x2. **306/306 sidecar fills now consumed.**
+- TOOL: `pipeline/scripts/ych12_v2_fold_p49i9.py` (repo-resident,
+  idempotence-guarded; docling_pages_v2 is sparse-excluded so the
+  sidecar reads via git show with a YCH12_SIDECAR_P49 fallback — the
+  blob:none lazy fetch flaked and the fallback carried the gate).
+- DECISIONS: v1 keeps the drop as landed history (byte-untouched law);
+  the chunker's drop-semantics pack floor is left as-is — a
+  future-parse behavior change would need its own deterministic proof
+  per L-025, and no re-parse is planned.
+- LANDED: parsed/ pristine + chunks_v2 + full_book_docling_v2 +
+  parse_report_v2; pipeline/scripts/ych12_v2_fold_p49i9.py;
+  METHOD_AND_FINDINGS D-12 §5 follow-up closed; ledgers same commit:
+  lane README, CATALOG row 12 + §3.6, playbook R-018 + changelog v1.15.
+  No new L-entries. No new errata.
+
+Stage Summary:
+- **Pack-floor fold fix DONE with its own gate: the last unconsumed
+  rescue fill (p49 i9) now lives in the corpus of record
+  (`ych2_v2_u12_c2_pdf049_0220`), 306/306 sidecar fills consumed,
+  every polish invariant intact.** Open follow-up: serving lane
+  consumption of the polished corpus (+ the pending DB apply / T-C20
+  flip on the serving package, Neon MAIN paused at operator level).

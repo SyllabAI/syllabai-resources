@@ -1105,6 +1105,37 @@ E-ID they correct)*
   ×2. Deviations from playbook: none. Lessons appended: none new. Errata
   filed: none new.
 
+- **R-018** (2026-10-31, T-PARSE-YCH12-2-FOLD-1, YCH12 SB2 pack-floor fold
+  fix, own gate): pages parsed n/a (parse-layer repair); chunks unchanged
+  **1406** (v2 = corpus of record); validation ALL CHECKS PASSED post-fold
+  AND re-run green against the repo copy (v2 grammar, EP 10/10); the
+  D-12 §5 follow-up EXECUTED: sidecar page_049 i8 ("WORKEDEXAMPLE2") +
+  i9 ("N₂(g) + 3H₂(g) → 2NH₃(g)", `rescued: true`, the last unconsumed
+  rescue fill) = 38 raw block chars, below the chunker's 40-char pack
+  floor, dropped (corpus index _0222 consumed; drop confirmed — no
+  u12_c2 page-49 chunk carries the header). Fold target adjudication:
+  `_0219` (the WORKEDEXAMPLE1 block) is POLISHED — folding there is
+  R1-illegal (a polished chunk's corpus text is frozen to its evidence
+  repair text; evidence is append-only) — so the residual PREPENDS to
+  `_0220` (ENTROPYCHANGEOFTHESURROUNDINGS body, UNPOLISHED, the next
+  chunk in reading order per sidecar bboxes). Gate: fold applied to the
+  PRISTINE OF RECORD in place (474 -> 516 chars, char_count law kept) →
+  reseed → merge (748/743, anchor PASS 0 drift) → the centerpiece —
+  regenerated corpus vs the landed corpus differs in EXACTLY one chunk
+  (`_0220`, +42 chars, fold-prefixed, anchors/text_original/llm_repaired
+  byte-identical) → reconcile ALL PASS ×2 (net-new 0, evidence
+  untouched, R6 no orphans) → audit 0 Unicode-unit regressions →
+  validate ALL CHECKS PASSED ×2. **306/306 sidecar fills now consumed.**
+  Tool repo-resident: `ych12_v2_fold_p49i9.py` (sidecar byte-match +
+  idempotence-guarded; the sparse-excluded sidecar reads via git show
+  with a YCH12_SIDECAR_P49 fallback after a blob:none lazy-fetch flake).
+  Decisions: v1 keeps the drop as landed history (byte-untouched law);
+  the chunker's drop-semantics floor unchanged — any future-parse
+  behavior change needs its own deterministic proof (L-025). Recovery:
+  reset #13, fifth consecutive zero-memory recovery on the repo-resident
+  tooling. Deviations from playbook: none. Lessons appended: none new.
+  Errata filed: none new.
+
 ```
 - **R-<seq>** (<date>, <TASK-ID>, <book>): pages parsed N/N; chunks N;
   content types N; offset N (3-way confirmed); validation ALL CHECKS PASSED
@@ -1136,6 +1167,19 @@ E-ID they correct)*
   by a parallel session of the same lane — round re-scoped to completion
   (the final 78). Ledgers: CATALOG row 12 + §3.6 updated; lane README
   (grind status -> COMPLETE) + worklog same commit.
+
+- **2026-10-31 — v1.15 (T-PARSE-YCH12-2-FOLD-1):** YCH12 SB2 v2
+  pack-floor fold fix with its own gate (R-018: the last unconsumed
+  rescue fill p49 i9 — dropped by the <40-char pack floor — folded into
+  the next reading-order chunk `ych2_v2_u12_c2_pdf049_0220`, pristine of
+  record edited in place, corpus/markdown/report regenerated through the
+  resident chain; the fold gate's one-chunk diff proof + reconcile +
+  audit + validator all green ×2; **306/306 sidecar fills now
+  consumed**; v1 keeps the drop as landed history, chunker floor
+  unchanged per L-025). Reset #13 recovered on the repo-resident tooling,
+  fifth consecutive zero-memory recovery. Ledgers: CATALOG row 12 +
+  §3.6 updated; lane README + worklog + METHOD_AND_FINDINGS §5 closure
+  same commit.
 
 - **2026-10-30 — v1.12 (T-PARSE-YCH12-2 POLISH-CONT-V2-6):** YCH12 v2 polish
   grind continued and landed (R-015: cumulative **624/801 applied**, net-new

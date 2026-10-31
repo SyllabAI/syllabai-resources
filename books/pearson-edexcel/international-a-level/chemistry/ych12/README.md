@@ -23,7 +23,12 @@ via env (defaults = v1 byte-proven unchanged, L-026), **801/801 staged ids termi
 ~50 quota windows (merge anchor 0 drift from the v2 pristine, three-way reconciliation ALL PASS,
 audit 0 Unicode-unit regressions, validator ALL CHECKS PASSED; CONT-V2-8 closed the grind: the last
 78 harvested behind a ~56-minute full closure then a 3-window crack, final id `ych2_v2_u17_c0_pdf231_1131`
-OK 2026-10-31). SB1 = parsed in the sibling `ych11` lane. Scaffold per
+OK 2026-10-31). Pack-floor fold fix (T-PARSE-YCH12-2-FOLD-1, 2026-10-31): the
+last unconsumed rescue fill (p49 i9, dropped by the <40-char pack floor) folded
+into the next reading-order chunk `ych2_v2_u12_c2_pdf049_0220` with its own
+gate (pristine of record edited, corpus regenerated, one-chunk diff proof,
+reconcile/audit/validator all green ×2) — **306/306 sidecar fills consumed**.
+SB1 = parsed in the sibling `ych11` lane. Scaffold per
 `books/README.md` §5 (copy of the `chemistry/ych11` IAL lane).
 
 ## Books of this lane

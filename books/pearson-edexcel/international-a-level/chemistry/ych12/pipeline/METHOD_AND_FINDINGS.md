@@ -108,7 +108,26 @@ parked YCH11 polish at 48/800 (2026-10-24) was probe-verified still up
    2NH₃(g)`) is dropped by the <40-char pack floor via the WORKED EXAMPLE 2
    micro-segment (heading 14 + formula 25 = 39 chars) — the SAME drop exists
    in v1 (pre-existing edge, not a v2 regression); pages + sidecar retain it.
-   Follow-up task: a pack-floor fold fix with its own gate.
+   Follow-up EXECUTED (T-PARSE-YCH12-2-FOLD-1, 2026-10-31, own gate): the
+   residual folded into the next reading-order chunk
+   `ych2_v2_u12_c2_pdf049_0220` (body, UNPOLISHED — folding into the
+   polished `_0219` is R1-illegal: a polished chunk's corpus text is frozen
+   to its evidence repair text) — prepend `WORKEDEXAMPLE2\n\nN₂(g) + 3H₂(g)
+   → 2NH₃(g)` (40 chars, sidecar i8+i9 byte-match), pristine of record
+   edited in place (474 -> 516 chars, char_count law preserved), corpus +
+   markdown + report regenerated through the resident chain
+   (reseed -> merge, 748/743, anchor 0 drift); the fold gate: corpus diff
+   vs the landed corpus is EXACTLY that one chunk (+42 chars,
+   fold-prefixed, anchors/text_original/llm_repaired byte-identical),
+   reconcile ALL PASS x2 (workspace + repo), audit 0 Unicode-unit
+   regressions, validator ALL CHECKS PASSED x2 — **306/306 sidecar fills
+   now consumed**. Tool: `pipeline/scripts/ych12_v2_fold_p49i9.py`
+   (sidecar byte-match + idempotence-guarded; docling_pages_v2 is
+   sparse-excluded, so the sidecar reads via git show with a
+   YCH12_SIDECAR_P49 fallback). v1 keeps the drop as landed history
+   (byte-untouched law); the chunker's drop-semantics floor is left
+   as-is — any future-parse behavior change would need its own
+   deterministic proof per L-025.
 6. DRIFT DISCLOSURE: 947/1406 id slots shared with v1 (67.4%); text
    identical on 326 shared slots (34.4%) — a different OCR run of the same
    scan (position-true per R2), disclosed not defective. The 103 v1 polish

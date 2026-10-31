@@ -2953,6 +2953,12 @@ Ssystem = Se[CaO(s)] + Se[CO2(g)] - Se[CaCO3(s)]
 =39.7+213.6-92.9
 
 = +160.4J K⁻¹ mol⁻¹
+
+#### ENTROPYCHANGEOFTHESURROUNDINGS
+WORKEDEXAMPLE2
+
+N₂(g) + 3H₂(g) → 2NH₃(g)
+
 ENTROPYCHANGEOFTHESURROUNDINGS
 
 The entropy change of the surroundings, Ssuroundings is related to the enthalpy change of the reaction, △H, by the expression:
