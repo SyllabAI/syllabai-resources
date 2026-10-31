@@ -1,0 +1,9 @@
+## Using Language Terminology Effectively
+
+Examples include:
+
+* I used inclusive pronouns to…
+
+* Short declarative sentences were chosen to…
+
+* Modal verbs were employed to create a polite but authoritative tone…

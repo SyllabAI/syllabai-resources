@@ -611,3 +611,55 @@ Stage Summary:
   records self-heal)**, todo 78 — ~90% of the grind complete, 78 ids
   resumable behind the current wall. Open follow-ups: finish the last
   78, pack-floor fold fix (own gate), serving lane.
+
+---
+Task ID: T-PARSE-YCH12-2-POLISH-CONT-V2-8
+Agent: Z.ai (main, zai-web)
+Task: "Proceed with the remaining work" (2026-10-31, zai-web, trace
+1a19276aa93e5b01) — harvest the final 78 ids; if the grind completes, close
+it out in the ledgers.
+
+Work Log:
+- SANDBOX RESET #12 recovery: mirror survived, workspace did not. Local
+  HEAD sat at the T-C42 R26 audit commit with sparse-checkout reconfigured
+  cone-mode by a parallel maths session — re-applied the non-cone lane
+  pattern set (other lanes' dirs kept materialized), fetched, ff to tip
+  139d9595 (31 commits, all OTHER lanes: ZNotes CAIE/Edexcel import PR
+  #259, spec re-parse, videos; ych12 untouched after bfcb09ad). Discovery
+  at baseline check: **CONT-V2-7 was already landed by a parallel session
+  of this same lane (bfcb09ad: 675/801 applied, todo 78)** — the round
+  became a completion round (final 78, CONT-V2-8) instead of a repeat.
+  Workspace reseeded from the repo-resident template + reseed.sh, fourth
+  consecutive reset recovered with zero tooling recreated from memory.
+- GRIND: 13 windows to the finish. Windows 1-9 clean-exit probe windows
+  (8-9 probes each, PROBE_WAIT 45s) against a ~56-minute full closure —
+  the wall was already shut when the session opened. Then the crack:
+  window 10 +27 (21 ok / 3 rej / 3 err), window 11 +29 (25 ok / 1 rej /
+  3 err), window 12 +28 (26 ok / 1 rej / 1 err, natural DONE — no
+  quota-stop), window 13 +1 (the last id `ych2_v2_u17_c0_pdf231_1131`,
+  429'd at window 12's end, OK on the first clear probe). **GRIND
+  COMPLETE: 801/801 staged ids reached a terminal verdict** — no id left
+  resumable for the first time since staging.
+- FINAL STATE: evidence 865 raw records (748 ok / 53 rejected / 64
+  error-cum-429 all retried to terminal); session +73 ok net-new
+  (675->748), +4 rejected (48->53).
+- MERGE (after reseed.sh): llm_polished 748, changed 743, anchor PASS
+  0 drift; reconcile ALL PASS (net-new 73, overlap 675 re-applied from
+  pristine, R1-R6 clean); audit 0 Unicode-unit regressions (benign
+  chemistry-word residual class: dinitrophenylhydrazine,
+  disproportionation, tetrahydridoaluminate, …); validate ALL CHECKS
+  PASSED x2 (workspace + repo copy, EP 10/10, by_design_gaps preserved
+  (5)).
+- LANDED: parsed/ chunks_v2 + full_book_docling_v2 + parse_report_v2
+  (llm_polished 675->748) + evidence/llm_repairs_ych12_v2.jsonl (865
+  records); ledgers same commit: lane README (v2 polish grind status ->
+  COMPLETE), CATALOG row 12 + §3.6, playbook R-017 + changelog v1.14.
+  No new L-entries. No new errata.
+
+Stage Summary:
+- **v2 polish R1 GRIND COMPLETE: 748/801 applied, 53 rejected (guard,
+  raws in evidence), todo 0** — every staged id terminal after 8 rounds
+  (POLISH-CONT-V2 + CONT-V2-2..8, ~50 quota windows, 2026-10-27 ->
+  2026-10-31). Corpus of record 1406 chunks, validator ALL CHECKS
+  PASSED, anchor 0 drift throughout. Open follow-ups: pack-floor fold
+  fix (own gate), serving lane consumption of the polished corpus.

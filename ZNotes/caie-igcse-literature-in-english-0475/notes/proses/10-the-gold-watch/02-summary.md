@@ -1,0 +1,5 @@
+## Summary 
+
+Set in colonial India, the story follows Srijut Sudarshan Sharma, a devoted and long-serving clerk working for a British distribution company run by Henry King & Co.. Srijut Sharma has faithfully given decades of service to his employer, taking immense pride in his loyalty, precision, and quiet dutifulness. As he approaches what he believes to be his natural retirement, his boss, Mr. Acton, gifts him a gold watch. 
+
+Though initially presented as an honor and a generous token of appreciation, Srijut Sharma quickly realizes the sinister reality behind the gesture: the watch is a disguised firing, marking his abrupt and premature forced retirement to make way for younger, cheaper labor. Overwhelmed by anxiety, betrayal, and helplessness, Srijut Sharma struggles to reconcile his decades of loyalty with the harsh, cold reality of economic exploitation and colonial indifference

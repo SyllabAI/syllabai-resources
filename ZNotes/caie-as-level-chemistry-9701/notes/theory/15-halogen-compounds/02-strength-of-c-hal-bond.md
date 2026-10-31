@@ -1,0 +1,3 @@
+## Strength of C – Hal Bond
+
+<table> <thead> <tr class="header"> <th></th> <th>Polar Nature</th> <th>Bond Energy</th> <th>Reactivity</th> </tr> </thead> <tbody> <tr class="odd"> <td>Fluoro</td> <td rowspan=4> <p>Decrease</p> </td> <td rowspan=4> <p>Decrease</p> </td> <td rowspan=4> <p>Increase</p> </td> </tr> <tr class="even"> <td>Chloro</td> </tr> <tr class="odd"> <td>Bromo</td> </tr> <tr class="even"> <td>Iodo</td> </tr> <tr class="odd"> <td></td> <td>Electronegativity <br>decreases <br>down group</td> <td colspan=2>Bond length increases, bond <br>energy decreases, lower E<sub>A</sub> so <br>more reactive</td> </tr> </tbody> </table>

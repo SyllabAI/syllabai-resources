@@ -1,0 +1,13 @@
+## Question 4
+
+**4(a)** An increase in labour productivity can be caused by improved education and improved healthcare.
+
+**4(b)** Someone may choose to become a doctor because doctors typically get paid **high incomes**. This means that doctors can enjoy a higher living standards as they can buy more goods and services. Additionally, doctors have **high job satisfaction** and enjoy the challenges involved in their line of work.
+
+**4(c)** *The current account balance on the balance of payment of a country shows whether the money coming into the country is greater or lesser than the money coming into it.* Advances in technology may increase **productivity** as machinery can make more products. This will reduce the **cost of production** so firms can charge lower prices and still make profit. Production based on technologically advanced equipment can produce products of **high quality**, without erros. Products with high quality and lower price are likely to be in **high demand** and can be exported. Export revenue will increase and this can improve the trade in goods balance which is a part of the balance of payments. 
+
+**4(d)**
+
+* A population growth rate measures the change in the size of a population over a time period. A high population growth rate indicates that the size of the population is increasing greatly, which could mean the size of the labour force (all the people who are employed or unemployed and actively seeking work) in the country is also increasing. With more labour working, a larger output can be produced and GDP will increase. A large population means that demand for products increases, encouraging firm to increase their output. More tax revenue can be collected from working individuals which can be spent on improving education, which can lead to economic growth.
+
+* A high population may increase the number of dependents (elderly and children who cannot work), so there are less resources (labour) which can be devoted to increasing the productive capacity (the maximum output that can be produced) of the economy. The birth rate may be high so more children may be born and working parents may leave the labour force to care for their children. With less workers, economic growth may slow down. Resources like food may be depleted as they are only available in small quantity and are being consumed by a large population. External costs like pollution and congestion may increase, so productivity may decrease.

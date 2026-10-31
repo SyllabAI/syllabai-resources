@@ -813,6 +813,26 @@ versioned contract, not a one-off probe:
   in the run0 directory, 2 cases through the DEPLOYED hub of record
   (renderer class `syllabai-v2-vercel`, post-#483 bake), 10/10 label checks green;
   the full-coverage leg of record stays the local-runtime receipt.
+- **Landed post-merge 2026-10-31 (full-coverage closure of this standing item):** the
+  DEPLOYED-bundle rendered leg at full contract breadth — `g9-render-vercel-spot.receipt.json`
+  in `receipts/2026-10-31-run0/`, all 8 frozen v3 cases through
+  https://syllabai-hub-v2.vercel.app (renderer class `syllabai-v2-vercel`, the v2 main
+  7270b36 bake — Vercel deploy completed 2026-10-31T12:37:43Z, tier-b client-chunk
+  marker verified on the case route), **8/8 case PASS, 149/149 checks PASS, zero
+  FAIL/REVIEW/NOT_RUN** (13:21:42Z–13:27:01Z): completeness (block/marks/img/MCQ),
+  frozen semantic facts, zero `.katex-error`/raw-TeX/markdown artifacts, MCQ
+  select→submit correct+distractor, solution reveals, and the F120 label-visibility
+  probes (per-sample chip/rect/sameLine geometry + whole-page chip census + the
+  maths-B null probe) all green THROUGH the deployed hub. First deployed receipt over
+  the F127-served notation plane (v2 consume 2f94a744; bundle sha 135ca487…):
+  `f127-notation-on-prod.evidence.json` in the same directory records 206 unicode
+  sub/superscript characters (N₂H₄/H₂O₂/H₂O/cm³…) in the served case-page HTML of the
+  probed deployment — the Mode-A notation pass is visible on the learner surface.
+  Evidence honesty note: the deployment had been live for ~45 min before the probe —
+  the SSR-HTML "Show menu" string used by the first deploy-watch attempt is carried by
+  course-shell.tsx at BOTH builds (narrow-viewport fallback) and was a ghost
+  discriminator; the client-chunk footer-dock class + the GitHub commit-status API
+  settled the build identity before any probe ran.
 - **Standing**: the maths-B corpus back-sync — EXECUTED by F122 (run-030): the corpus
   carries the plane of record per field, the exporter port (printed_part_label + G-E6 +
   the r3 law set) is landed in scripts/, and the re-export is a byte-level no-op. The

@@ -1,0 +1,3 @@
+Lister introduced carbolic acid to sterilize wounds, equipment, and bandages, reducing infection-related deaths significantly. This practice became known as antiseptic. He also developed a carbolic spray to prevent microorganisms during surgery.
+
+The opposition to Lister's antiseptic methods included disbelief in germ theory, concerns about equipment slipperiness and skin issues for doctors, and extra work for nurses.

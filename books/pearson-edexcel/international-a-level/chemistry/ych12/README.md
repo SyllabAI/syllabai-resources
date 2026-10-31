@@ -16,13 +16,14 @@ resumable). **v2 fresh-parse lane COMPLETE (T-PARSE-YCH12-2, 2026-10-27): the R2
 recycle with the FULL 315-record sidecar applied (re-verified 306+9=315/315) — consumed as the v2
 corpus of record (1406 chunks, `ych2_v2_`, validator ALL CHECKS PASSED; adjudication: error-class
 rates identical to r0, structure identical, 305/306 fills in chunk text — METHOD D-12).** v2 polish R1
-grind resumed (POLISH-CONT-V2, 2026-10-27; CONT-V2-2/3, 2026-10-28; CONT-V2-4/5/6, 2026-10-30; CONT-V2-7, 2026-10-31): runner/merge/audit parameterized
-via env (defaults = v1 byte-proven unchanged, L-026), **675/801 applied** across 40 quota windows
-(merge anchor 0 drift from the v2 pristine, three-way reconciliation ALL PASS, audit 0 Unicode-unit
-regressions, validator ALL CHECKS PASSED — resumable; 723 done incl. 48 rejected, 57 error records
-self-heal; todo 78; CONT-V2-7 = +51 ok behind a burst-then-walls session: one full window (+56
-records) then a 73-minute full closure, the grind's longest, with 8 clean-exit probe windows; the
-last 80 ids resumable). SB1 = parsed in the sibling `ych11` lane. Scaffold per
+grind **COMPLETE** (POLISH-CONT-V2, 2026-10-27; CONT-V2-2/3, 2026-10-28; CONT-V2-4/5/6, 2026-10-30;
+CONT-V2-7/8, 2026-10-31): runner/merge/audit parameterized
+via env (defaults = v1 byte-proven unchanged, L-026), **801/801 staged ids terminal — 748/801 applied
+(53 rejected by guard, raws in evidence; 64 error-cum-429 records all retried to terminal)** across
+~50 quota windows (merge anchor 0 drift from the v2 pristine, three-way reconciliation ALL PASS,
+audit 0 Unicode-unit regressions, validator ALL CHECKS PASSED; CONT-V2-8 closed the grind: the last
+78 harvested behind a ~56-minute full closure then a 3-window crack, final id `ych2_v2_u17_c0_pdf231_1131`
+OK 2026-10-31). SB1 = parsed in the sibling `ych11` lane. Scaffold per
 `books/README.md` §5 (copy of the `chemistry/ych11` IAL lane).
 
 ## Books of this lane

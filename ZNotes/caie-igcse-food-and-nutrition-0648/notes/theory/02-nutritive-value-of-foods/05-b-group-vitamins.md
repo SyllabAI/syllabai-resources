@@ -1,0 +1,25 @@
+## __B-Group Vitamins__
+
+- Thiamine (B1)
+  - Functions:
+    - Circulation.
+    - Blood formation.
+    - Brain function.
+  - Sources: Organ meats, Yeast, Peas, Beans.
+- Riboflavin (B2)
+  - Functions:
+    - Blood formation.
+    - Production of anti-bodies.
+  - Sources: Meat, Poultry, Fish, Nuts, Liver.
+- Nicotinic acid (B3)
+  - Functions:
+    - Circulation.
+    - Healthy skin.
+    - Aids the nervous system.
+  - Sources: Meat, Nuts, Potatoes.
+- Cobalamin (B12)
+  - Functions:
+    - Prevents anaemia.
+    - Cellular longevity.
+    - Digestion
+  - Sources: Lamb, Beef, Eggs, Poultry, Liver.
