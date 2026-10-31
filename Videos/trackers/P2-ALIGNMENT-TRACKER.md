@@ -196,4 +196,10 @@ into SyllabAI/syllabai-v2 at `apps/hub/content/video-map/`
 (`igcse-biology-19.json`, `registry.json`), with the `videoMap` flag key
 added to `apps/hub/content/flags.json` (kill-switch law: key/slug ABSENT =
 OFF; lane surface itself is P3). Hub branch:
-`hub/video-map-igcse-biology-19` — PR cross-referenced here when filed.
+`hub/video-map-igcse-biology-19` — **filed & MERGED.** Cross-references of record:
+resources PR **#265** (this lane's owner-review + closure, merge `167cd23a1`,
+CI `sync` 1/1 green at head `67cd950a8`) and hub PR **SyllabAI/syllabai-v2#574**
+(Step 5 data, merge `51ec8fffe`, CI `verify`+`hub` 2/2 green at head `acf8b48c`).
+Both branches deleted post-merge; post-merge verify on origin/main: 104 mappings,
+0 unreviewed rows, 0 4.16-mapped rows, `review.rejects[]` = 8.8|cickRHnPKvc|4.16,
+registry 73/72, `videoMap` flag keyed to `igcse-biology-19`.
