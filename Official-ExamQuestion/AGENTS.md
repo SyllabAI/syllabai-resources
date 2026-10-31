@@ -513,6 +513,17 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
 
 ## Known open work (pick up from here)
 
+- Task 36 (2026-10-31, F128) EXECUTED the F121-groupstem physics serving decision
+  (operator order "F121-groupstem", trace 1a19135ba51a454d): the v2 plane of record
+  learned all 421 question-group intros (PR #548, sha256 06d1848f -> f0945d29,
+  problemMd-only single-insertion writes — 318 end-prepends + 103 mid-insertions
+  after served stems; the class purely mechanical, zero 4PH1 ledger keys, intros
+  $-free/PUA-free; both closure laws no-op: r2-era vs PRE-serve, current-law vs
+  POST-serve, G-E7 421/421 in-run). The corpus of record is unchanged (a
+  plane-side serve; the manifest ref stays main@8f6a6a80). The f127 standing
+  disclosure retires by consumption (the r2-consumed twin) and the 421-pin
+  group-stem battery (B0-B5) is CI-enforced. Hygiene: the stray F127
+  conflict-marker line removed and the f126-named disclosure path refs corrected.
 - Task 35 (2026-10-31, F127) CLOSED the 4PH1 questions.md presentation-stale standing debt
   (operator order "Proceed with questions.md regen rides the next converter run", trace
   1a190e0aa0abae3d) with the maths-B F122 back-sync shape at physics scale: corpus := the
