@@ -194,5 +194,23 @@ untouched slices byte-identical; double-render determinism proven; synced stems
 render exactly once). The 766-pin zero-network battery (B1-B7) is CI-enforced.
 The standing F121 group-stem evolution census (421 pids — the physics serving
 twin of the chemistry wave) is disclosed
-(`scripts/exporter-disclosures/2026-10-31-f126-groupstem-evolution-4ph1-standing.json`)
+(`scripts/exporter-disclosures/2026-10-31-f127-groupstem-evolution-4ph1-standing.json`)
 for the operator's ruling, NOT executed by this wave.
+
+## 2026-10-31 — F128: the F121-groupstem serving wave (T-OEQ-PHYS-FORMAT-1 run-007)
+
+The operator ruled ("F121-groupstem", trace 1a19135ba51a454d) and the physics
+twin of the chemistry F121 wave is executed: the v2 plane of record (PR #548)
+learned all 421 question-group intros — single-insertion problemMd writes (318
+end-prepends + 103 mid-insertions after served question stems, the exporter's
+print order preserved), problemMd-only, the class purely mechanical (zero 4PH1
+ledger keys; G-E7 groups=421/served=421/splice=0), group intros
+$-free/PUA-free; sha256 06d1848f... -> f0945d29.... Closure at both laws: the
+r2-proof-era exporter (438aacb6) re-export is a no-op vs the PRE-serve plane
+and the current-law re-export is a byte-level no-op vs the POST-serve plane
+(G-E1 no-op, G-E7 421/421 in-run). The corpus of record is unchanged (a
+plane-side serve; the manifest ref stays main@8f6a6a80). The f127 standing
+disclosure retires by consumption (the r2-consumed twin) and the 421-pin
+zero-network group-stem battery (B0-B5) is CI-enforced. Hygiene: the stray
+F127 conflict-marker line removed; the f126-named disclosure path ref
+corrected to the f127 file.

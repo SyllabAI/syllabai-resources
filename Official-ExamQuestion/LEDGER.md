@@ -963,7 +963,7 @@ double-render determinism proven; synced stems render exactly once).
 The current exporter law (F121/F123/F125 post-date the no-op proof) emits the
 group-stem serving class the physics plane does not serve yet: the standing
 evolution census (421 pids) is disclosed as
-exporter-disclosures/2026-10-31-f126-groupstem-evolution-4ph1-standing.json —
+exporter-disclosures/2026-10-31-f127-groupstem-evolution-4ph1-standing.json —
 a record of the physics twin of the F121 serving decision, PENDING the
 operator's ruling, not executed by this wave. Zero-network battery B1-B7
 (766 C-law pins + ledger grammar + G-E2 corpus sums + render determinism +
@@ -971,4 +971,37 @@ the nuclear-line pin + negative control) is CI-enforced.
 
 Future 4PH1 hand-repairs: land on the corpus first (or re-run this wave's
 shape); the questions.md regen now rides every corpus wave by construction.
->>>>>>> 6862048a (content(t-oeq-phys-format-1 run-006): F127 — the 4PH1 corpus back-sync + questions.md regen (corpus := the v2 plane of record 22eda30; exporter re-export a G-E1 byte-level no-op))
+
+## The F121-groupstem physics serving wave (T-OEQ-PHYS-FORMAT-1 run-007, F128)
+
+The operator's ruling on the standing F127 disclosure ("F121-groupstem", trace
+1a19135ba51a454d): the physics twin of the chemistry F121 serving decision is
+EXECUTED. The v2 plane of record (official-papers.json, PR #548 squash-merged
+7e5733ba) learned all 421 question-group intros under the exporter of record's
+current law — every write a verified single insertion of the cleaned group
+stem + blank-line join into the group's FIRST part's problemMd (318
+end-prepends + 103 mid-insertions after served question stems, print order
+preserved: stem -> group intro -> part text), problemMd-only (problemMd-masked
+leaf identity 55/55), every group intro $-free/PUA-free plain prose, sha256
+06d1848f... -> f0945d29.... The class is purely mechanical: STEM-RESTORE
+carries ZERO 4PH1 keys (no ledgered dropSpan/replace cuts, no declared group
+figures, no part-level cuts; G-E7 groups=421 / served=421 / splice=0 — no
+physics group stem had ever been served). Closure at both laws: the
+r2-proof-era exporter (438aacb6) re-export stays a byte-level no-op vs the
+PRE-serve plane, and the current-law re-export is a byte-level no-op vs the
+POST-serve plane (G-E1 no-op + G-E1b 55/55 + G-E2 + G-E3 + G-E4 passthrough
+2,057,977 B + G-E6 + G-E7 421/421 in-run). The corpus of record is UNCHANGED
+by this wave — a plane-side serve: the manifest importSource.ref stays
+main@8f6a6a80 (G-E5 55/55 at the same cut) with the F128 stamp paragraph
+prepended v2-side; questions.json untouched (zero offp_ ids).
+
+Bookkeeping here: the f127 standing disclosure retires by consumption — its
+r2-consumed twin (the empty-census form, the F115 convention) files beside it;
+the zero-network group-stem battery (B0-B5: the 421 C-law pins + the fresh
+G-E7 physics accounting + pin grammar + character laws + the mutation negative
+control) is CI-enforced as scripts/official_examq_phys_groupstem_tests.py +
+scripts/oeq_phys_groupstem_pins.json. Hygiene riding this section (disclosed):
+the stray git conflict-marker line at the F127 section tail (a leaked
+union-resolution fragment from the F126/F127 rebase race run-006 disclosed)
+is removed, and the f126-named disclosure path refs are corrected to the
+f127-named file of record.
