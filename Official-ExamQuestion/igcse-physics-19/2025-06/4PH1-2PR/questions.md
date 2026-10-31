@@ -246,10 +246,9 @@ The tidal power station has a maximum power output of 240 000 kW when water fall
 > 240 000 kW = 240 000 000 W
 > 240 000 (000) = mass × 10 × 8(.0) (÷ 1) allow use of ratio e.g. mass
 > = 240 000 (000) / 80
-> (mass of water =) 3 000 000 (kg) allow 3(.0) × 106 (kg)
+> (mass of water =) 3 000 000 (kg) allow 3(.0) × 10⁶ (kg)
 > allow answers between
 > 3 000 000 and 3 100 000 (kg)
-> Answer Notes Marks
 
 - **(3)** conversion of kW to W;
 
@@ -312,12 +311,11 @@ Calculate the output voltage of the transformer. output voltage = V
 > rearrangement;
 > evaluation;
 > e.g.
-> 230 × 4.5 = V × 0.21
-> V = 230 × 4.5 / 0.21
+> $230 \times 4.5 = V \times 0.21$
+> $V = 230 \times 4.5 / 0.21$
 > (V =) 4900 (V) allow 5000, 4930, 4929,
 > 4928.6, 4928.57… (V)
 > condone 4928, 4928.5 (V)
-> Answer Notes Marks
 
 - **(3)** substitution;
 
@@ -443,7 +441,7 @@ State the formula linking wave speed, frequency and wavelength.
 
 > (wave) speed = frequency × wavelength; allow standard symbols
 > and rearrangements i.e.
-> λ=v/f
+> $\lambda = v/f$
 > allow v, c and s for
 > speed
 
@@ -451,7 +449,7 @@ State the formula linking wave speed, frequency and wavelength.
 
 ### 6(a)(ii) [3]
 
-Show that the mean wavelength of CMBR is about 2 mm. [speed of light = 3.0 × 108 m/s]
+Show that the mean wavelength of CMBR is about 2 mm. [speed of light = 3.0 × 10⁸ m/s]
 
 
 **Mark scheme answer**
@@ -460,8 +458,8 @@ Show that the mean wavelength of CMBR is about 2 mm. [speed of light = 3.0 × 10
 > rearrangement;
 > evaluation in mm to at least 2s.f.;
 > e.g.
-> 3.0 × 108 = 1.6 × 1011 × λ
-> λ = 3.0 × 108 / 1.6 × 1011
+> 3.0 × 10⁸ = 1.6 × 10¹¹ × λ
+> λ = 3.0 × 10⁸ / 1.6 × 10¹¹
 > λ = (0.0019 (m) =) 1.9 (mm) allow 1.88, 1.875 (mm)
 > condone 1.87 (mm)
 
@@ -469,7 +467,7 @@ Show that the mean wavelength of CMBR is about 2 mm. [speed of light = 3.0 × 10
 
 ### 6(b) [2]
 
-CMBR was first released after the Big Bang. When CMBR was first released it had a wavelength of about 9 × 10–5 mm, but now it has a wavelength of about 2 mm. Using this information, explain how CMBR supports the Big Bang theory.
+CMBR was first released after the Big Bang. When CMBR was first released it had a wavelength of about 9 × 10⁻⁵ mm, but now it has a wavelength of about 2 mm. Using this information, explain how CMBR supports the Big Bang theory.
 
 
 **Mark scheme answer**
@@ -595,7 +593,7 @@ The student is working in a laboratory with a room temperature of 20 °C. Draw a
 
 ## Question 8 (6 marks)
 
-A high‑frequency sound wave is detected by a microphone and displayed on an oscilloscope. The diagram shows the oscilloscope screen when the sound wave is detected. It also shows the oscilloscope settings. oscilloscope settings: x direction: 1 square = 20 × 10−6 s y direction: 1 square = 10 mV
+A high‑frequency sound wave is detected by a microphone and displayed on an oscilloscope. The diagram shows the oscilloscope screen when the sound wave is detected. It also shows the oscilloscope settings. oscilloscope settings: x direction: 1 square = 20 × 10⁻⁶ s y direction: 1 square = 10 mV
 
 ### 8(a) [1]
 
@@ -628,8 +626,8 @@ Determine if the sound wave displayed on the oscilloscope could be heard by huma
 > attempted
 > allow ecf from (a)
 > e.g.
-> T = 4 × 20 × 10−6 = 8 × 10−5 (s)
-> f = 1 / 8 × 10−5
+> T = 4 × 20 × 10⁻⁶ = 8 × 10⁻⁵ (s)
+> f = 1 / 8 × 10⁻⁵
 > f = 12 500 (Hz)
 > this is within human hearing range so can be heard
 
@@ -637,14 +635,14 @@ Determine if the sound wave displayed on the oscilloscope could be heard by huma
 
 ### 8(c) [1]
 
-A student changes the settings of the oscilloscope to alter the displayed wave in these two ways. • increase the amplitude of the wave • only display one time period of the wave on the screen The table shows some possible settings for the oscilloscope. Which row of the table gives the student’s new oscilloscope settings? x direction setting / y direction setting / seconds per square mV per square A 10 × 10–6 5 B 10 × 10–6 20 C 40 × 10–6 5 D 40 × 10–6 20
+A student changes the settings of the oscilloscope to alter the displayed wave in these two ways. • increase the amplitude of the wave • only display one time period of the wave on the screen The table shows some possible settings for the oscilloscope. Which row of the table gives the student’s new oscilloscope settings? x direction setting / y direction setting / seconds per square mV per square A 10 × 10⁻⁶ 5 B 10 × 10⁻⁶ 20 C 40 × 10⁻⁶ 5 D 40 × 10⁻⁶ 20
 
 ![table — official paper figure (qp.pdf p.23)](assets/asset_8_c_table.png)
 
 
 **Mark scheme answer**
 
-> A (10 × 10−6 seconds per square, 5 mV per square);
+> A (10 × 10⁻⁶ seconds per square, 5 mV per square);
 > B is incorrect because this will cause the amplitude to decrease
 > C is incorrect because this will cause there to be four waves on the screen
 > D is incorrect because this will cause there to be four waves on the screen and the
@@ -652,5 +650,5 @@ A student changes the settings of the oscilloscope to alter the displayed wave i
 > Pearson Education Limited. Registered company number 872828
 > with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
-- **(1)** A (10 × 10−6 seconds per square, 5 mV per square);
+- **(1)** A (10 × 10⁻⁶ seconds per square, 5 mV per square);
 

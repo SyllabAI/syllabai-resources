@@ -227,7 +227,7 @@ A racing car uses an engine and an electric motor to power its wheels. (Source: 
 
 ### 4(a) [3]
 
-The electric motor can only operate at maximum power for part of each lap of the race. The electric motor has a maximum power output of 1.2 × 105 W. The electric motor transfers 4.0 × 106 J of energy when it operates at maximum power. Calculate the amount of time the electric motor can operate at maximum power. time = s
+The electric motor can only operate at maximum power for part of each lap of the race. The electric motor has a maximum power output of 1.2 × 10⁵ W. The electric motor transfers 4.0 × 10⁶ J of energy when it operates at maximum power. Calculate the amount of time the electric motor can operate at maximum power. time = s
 
 
 **Mark scheme answer**
@@ -236,8 +236,8 @@ The electric motor can only operate at maximum power for part of each lap of the
 > rearrangement;
 > evaluation; -1 for POT error
 > e.g.
-> 1.2 × 105 = 4.0 × 106 / time
-> (time =) 4.0 × 106 / 1.2 × 105
+> 1.2 × 10⁵ = 4.0 × 10⁶ / time
+> (time =) 4.0 × 10⁶ / 1.2 × 10⁵
 > (time =) 33 (s) allow 33.3…
 
 - **(3)** substitution into P = E / t;
@@ -324,7 +324,7 @@ Identify particle X in the nuclear equation.
 
 ### 5(a)(ii) [2]
 
-Each fusion reaction releases approximately 3 × 10–12 J of energy. Estimate how many reactions are needed to produce 1 J of energy. Give your answer to 1 significant figure. number of reactions =
+Each fusion reaction releases approximately 3 × 10⁻¹² J of energy. Estimate how many reactions are needed to produce 1 J of energy. Give your answer to 1 significant figure. number of reactions =
 
 
 **Mark scheme answer**
@@ -441,7 +441,7 @@ Galaxy A and galaxy B are both moving relative to Earth. Compare the motions of 
 
 ### 6(c)(ii) [4]
 
-Use data from the table to calculate the speed of galaxy B relative to Earth. [speed of light, c = 3.0 × 108 m/s] speed = m/s
+Use data from the table to calculate the speed of galaxy B relative to Earth. [speed of light, c = 3.0 × 10⁸ m/s] speed = m/s
 
 ![table — official paper figure (qp.pdf p.14) — shared with asset_6_c_table_stem](assets/asset_6_c_table_stem.png)
 
@@ -463,10 +463,9 @@ Use data from the table to calculate the speed of galaxy B relative to Earth. [s
 > 620 239 etc.
 > scores 3 marks
 > Δλ = (657.81 – 656.45 =) 1.36 (nm)
-> 1.36/656.45 = v/3×108
-> (v =) 1.36 × 3×108 / 656.45
+> 1.36/656.45 = v/3×10⁸
+> (v =) 1.36 × 3×10⁸ / 656.45
 > (v =) 620 000 (m/s) allow 621 524 etc.
-> Answer Notes Marks
 
 - **(4)** correct evaluation of Δλ;
 
@@ -546,10 +545,10 @@ When the handle is turned for 15 s the dome gains 0.50 J of energy in its electr
 > rearrangement;
 > evaluation; -1 for POT error
 > e.g.
-> 0.50 = 120 000 × I × 15
+> $0.50 = 120 000 \times I \times 15$
 > I = 0.50 / [120 000 × 15]
-> (I =) 2.8 × 10-7 (A) allow 0.000 000 277…(A)
-> condone 2.7 × 10-7 (A)
+> (I =) 2.8 × 10⁻⁷ (A) allow 0.000 000 277…(A)
+> condone 2.7 × 10⁻⁷ (A)
 
 - **(3)** substitution into E = V × I × t; ignore units
 

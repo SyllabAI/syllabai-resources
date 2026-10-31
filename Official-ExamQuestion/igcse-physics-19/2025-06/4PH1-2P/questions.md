@@ -34,7 +34,7 @@ Describe how the student could accurately measure the mass of the dice.
 
 ### 1(b)(i) [2]
 
-The measuring cylinder gives volume in units of cm3. Using the diagram, determine the volume of the dice. volume = cm3
+The measuring cylinder gives volume in units of cm³. Using the diagram, determine the volume of the dice. volume = cm³
 
 ![diagram — official paper figure (qp.pdf p.5) — shared with asset_1_b_diagram_stem](assets/asset_1_b_diagram_stem.png)
 
@@ -43,7 +43,7 @@ The measuring cylinder gives volume in units of cm3. Using the diagram, determin
 
 > either reading correctly measured; allow 30 or 37 seen in
 > working
-> both readings correctly measured and subtracted; final answer of 7 (cm3)
+> both readings correctly measured and subtracted; final answer of 7 (cm³)
 > scores both marks
 
 - **(2)** either reading correctly measured; allow 30 or 37 seen in
@@ -62,15 +62,14 @@ The dice has a mass of 9.2 g. Calculate the density of the dice using the formul
 > candidate’s evaluation;
 > e.g. the following would
 > score full marks:
-> 1300 kg/m3
+> 1300 kg/m³
 > 1.3 g/cm 3
 > 1300 g / litre
-> 1.3 ×10-3 kg/cm3
+> 1.3 ×10⁻³ kg/cm³
 > e.g.
 > density = 9.2 ÷ 7
 > (density =) 1.3 allow 1.31…
-> g/cm3
-> Answer Notes Marks
+> g/cm³
 
 - **(3)** substitution; allow ecf from (i)
 
@@ -498,7 +497,7 @@ Give a reason why the student takes repeat readings.
 
 ### 6(b)(ii) [3]
 
-The graph shows the student’s results. 14 000 12 000 10 000 8000 Mean count 6000 4000 2000 0 5 10 15 20 25 30 Distance in cm The student claims that the data obeys the formula count × distance2 = constant Evaluate the student’s claim.
+The graph shows the student’s results. 14 000 12 000 10 000 8000 Mean count 6000 4000 2000 0 5 10 15 20 25 30 Distance in cm The student claims that the data obeys the formula count × distance² = constant Evaluate the student’s claim.
 
 ![graph — official paper figure (qp.pdf p.22)](assets/asset_6_b_ii_graph.png)
 
@@ -544,7 +543,7 @@ State the formula linking input (primary) voltage, output (secondary) voltage an
 
 > input (primary) voltage / output (secondary) allow recognisable symbols
 > voltage = primary turns / secondary turns; and rearrangements
-> e.g. V2 = (N2/N1) × V1
+> e.g. V₂ = (N₂/N₁) × V₁
 > condone coils for turns
 > condone T for turns
 > allow 1 and 2 for input and
@@ -568,9 +567,9 @@ Use data from the table to calculate the output (secondary) voltage of the trans
 > scores zero
 > evaluation;
 > e.g.
-> 230 ÷ V2 = 1000 ÷ 300
-> V2 = 300 × 230 ÷ 1000
-> (V2 =) 69 (V)
+> 230 ÷ V₂ = 1000 ÷ 300
+> V₂ = 300 × 230 ÷ 1000
+> (V₂ =) 69 (V)
 
 - **(3)** substitution;
 
@@ -646,7 +645,7 @@ Give two pieces of evidence that support the Big Bang theory. 1 2
 
 ### 8(b) [4]
 
-The galaxy NGC 300 is moving away from the Earth at a speed of 1.44 × 105 m/s. Hydrogen atoms in NGC 300 emit light with a reference wavelength of 4.3405 × 10−7 m. Calculate the wavelength of this light when it is detected at Earth. Give your answer to five significant figures. [speed of light in a vacuum, c = 3.00 × 108 m/s] wavelength = m
+The galaxy NGC 300 is moving away from the Earth at a speed of 1.44 × 10⁵ m/s. Hydrogen atoms in NGC 300 emit light with a reference wavelength of 4.3405 × 10⁻⁷ m. Calculate the wavelength of this light when it is detected at Earth. Give your answer to five significant figures. [speed of light in a vacuum, c = 3.00 × 10⁸ m/s] wavelength = m
 
 
 **Mark scheme answer**
@@ -661,18 +660,18 @@ The galaxy NGC 300 is moving away from the Earth at a speed of 1.44 × 105 m/s. 
 > MP2 regardless of PoT
 > NB correct change in
 > wavelength is
-> 2.0834... x 10-10 (m)
+> 2.0834... x 10⁻¹⁰ (m)
 > evaluation of λ; accept any value that
 > would round to
-> 4.3426 × 10−7 (m)
+> 4.3426 × 10⁻⁷ (m)
 > evaluation of λ to 5s.f.; mark independently
 > e.g.
-> 𝜆𝜆 − 4.3405 × 10−7 1.44 × 105
+> 𝜆𝜆 − 4.3405 × 10⁻⁷ 1.44 × 10⁵
 > =
-> 4.3405 × 10−7 3.00 × 108
-> 𝜆𝜆 = (0.0048 × 4.3405 × 10−7 ) + 4.3405 × 10−7
-> λ = 4.34258344 × 10−7 (m)
-> λ = 4.3426 × 10−7 (m)
+> 4.3405 × 10⁻⁷ 3.00 × 10⁸
+> 𝜆𝜆 = (0.0048 × 4.3405 × 10⁻⁷ ) + 4.3405 × 10⁻⁷
+> λ = 4.34258344 × 10⁻⁷ (m)
+> λ = 4.3426 × 10⁻⁷ (m)
 
 - **(4)** substitution into
 

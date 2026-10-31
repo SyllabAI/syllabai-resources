@@ -414,7 +414,7 @@ State the formula linking average speed, distance moved and time taken.
 
 > (average) speed = distance (moved) / time (taken); allow standard symbols
 > and rearrangements e.g.
-> t=s/v
+> $t = s/v$
 > allow s or d for distance
 > allow v or s for speed
 
@@ -441,30 +441,29 @@ Determine the reaction time of the driver of the car. reaction time = s
 
 ### 5(e) [4]
 
-Calculate the mean braking acceleration of the car as it brakes to a stop from an initial speed of 30 m / s. acceleration = m / s2
+Calculate the mean braking acceleration of the car as it brakes to a stop from an initial speed of 30 m / s. acceleration = m / s²
 
 
 **Mark scheme answer**
 
 > correct braking distance reading from graph; allow 53 seen anywhere
 > in working
-> substitution into v2 = u2 + 2×a×s;
+> substitution into v² = u² + 2×a×s;
 > rearrangement;
 > evaluation;
-> final answer of 6.6 (m/s2)
+> final answer of 6.6 (m/s²)
 > (using stopping distance
 > instead of braking
 > distance) scores 3 marks
-> final answer of 30 (m/s2)
+> final answer of 30 (m/s²)
 > (using thinking distance
 > instead of braking
 > distance) scores 3 marks
 > e.g.
 > braking distance = 53 m allow 52-53 m
-> 02 = 302 + [2 × a × 53]
+> 0² = 30² + [2 × a × 53]
 > a = (-)900 / 106
-> (a =) (-)8.5 (m/s2) allow 8.49-8.65
-> Answer Notes Marks
+> (a =) (-)8.5 (m/s²) allow 8.49-8.65
 
 - **(4)** correct braking distance reading from graph; allow 53 seen anywhere
 
@@ -583,7 +582,7 @@ State the formula linking charge, current and time.
 
 > charge = current × time; allow standard symbols
 > and rearrangements e.g.
-> Q=I×t
+> $Q = I\times t$
 > reject C, c for current
 > and charge
 
@@ -769,7 +768,7 @@ Name the part of the electromagnetic spectrum that has a lower frequency than mi
 
 ### 9(b)(ii) [3]
 
-Microwaves travel at a speed of 3.0 × 108 m / s in air. A microwave has a wavelength of 2.7 cm. Calculate the frequency of this microwave. [wave speed = frequency × wavelength] frequency = Hz
+Microwaves travel at a speed of 3.0 × 10⁸ m / s in air. A microwave has a wavelength of 2.7 cm. Calculate the frequency of this microwave. [wave speed = frequency × wavelength] frequency = Hz
 
 
 **Mark scheme answer**
@@ -779,9 +778,9 @@ Microwaves travel at a speed of 3.0 × 108 m / s in air. A microwave has a wavel
 > rearrangement;
 > evaluation; -1 if POT error
 > e.g.
-> 3.0 × 108 = frequency × 0.027
-> (frequency =) 3.0 × 108 / 0.027
-> (frequency =) 1.1 × 1010 (Hz) allow 1.11…× 1010 (Hz)
+> 3.0 × 10⁸ = frequency × 0.027
+> (frequency =) 3.0 × 10⁸ / 0.027
+> (frequency =) 1.1 × 10¹⁰ (Hz) allow 1.11…× 10¹⁰ (Hz)
 
 - **(3)** substitution; allow wavelength
 
@@ -917,26 +916,26 @@ Explain why the pressure of the gas in the container decreases as its temperatur
 
 ### 11(b) [4]
 
-Diagram 2 shows a device called a magneto-optical trap (MOT). Physicists use the device to cool gases to extremely low temperatures. The MOT uses laser beams and magnetic fields to trap a small collection of atoms with extremely small kinetic energies. trapped atoms laser beams coils producing magnetic field Diagram 2 Each trapped atom has a mass of 5.0 × 10–27 kg and a mean speed of 73 m / s. Calculate the temperature of the trapped atoms. [mean kinetic energy of an atom = 2.1 × 10–23 × temperature in kelvin] temperature = K
+Diagram 2 shows a device called a magneto-optical trap (MOT). Physicists use the device to cool gases to extremely low temperatures. The MOT uses laser beams and magnetic fields to trap a small collection of atoms with extremely small kinetic energies. trapped atoms laser beams coils producing magnetic field Diagram 2 Each trapped atom has a mass of 5.0 × 10⁻²⁷ kg and a mean speed of 73 m / s. Calculate the temperature of the trapped atoms. [mean kinetic energy of an atom = 2.1 × 10⁻²³ × temperature in kelvin] temperature = K
 
 ![diagram — official paper figure (qp.pdf p.31)](assets/asset_11_b_diagram.png)
 
 
 **Mark scheme answer**
 
-> substitution into KE = ½ × m × v2;
+> substitution into KE = ½ × m × v²;
 > evaluation of KE;
 > rearrangement of given formula;
 > evaluation of kelvin temperature; allow ecf from incorrect
 > KE
 > e.g.
-> KE = 0.5 × 5.0 × 10-27 × 732
-> KE = 1.3 × 10-23 (J) allow 1.33225 × 10-23 (J)
-> T = KE / 2.1 × 10-23
+> KE = 0.5 × 5.0 × 10⁻²⁷ × 732
+> KE = 1.3 × 10⁻²³ (J) allow 1.33225 × 10⁻²³ (J)
+> T = KE / 2.1 × 10⁻²³
 > (T =) 0.63 (K) allow answers in the range
 > of 0.61-0.64 (K)
 > Pearson Education Limited. Registered company number 872828
 > with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
-- **(4)** substitution into KE = ½ × m × v2;
+- **(4)** substitution into KE = ½ × m × v²;
 

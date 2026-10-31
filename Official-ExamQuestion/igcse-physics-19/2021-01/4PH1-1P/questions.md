@@ -99,13 +99,13 @@ State the formula linking acceleration, change in velocity and time taken.
 
 > acceleration = change in velocity / time; allow standard symbols and
 > rearrangements e.g.
-> a = (v-u) / t, a = ∆v / t
+> $a = (v-u) / t, a = \Delta v / t$
 
 - **(1)** acceleration = change in velocity / time; allow standard symbols and
 
 ### 2(b)(iii) [3]
 
-Calculate the acceleration of the lorry. acceleration = m/s2
+Calculate the acceleration of the lorry. acceleration = m/s²
 
 
 **Mark scheme answer**
@@ -117,8 +117,7 @@ Calculate the acceleration of the lorry. acceleration = m/s2
 > e.g.
 > u = 5 (m/s), v = 24 (m/s) OR t = 60 (s) allow (v – u =) 19 seen
 > (a =) 24-5 / 60
-> (a =) 0.32 (m/s2) allow range of 0.30-0.32
-> Answer Notes Marks
+> (a =) 0.32 (m/s²) allow range of 0.30-0.32
 
 - **(3)** correct reading of either two velocity values or time allow attempt at gradient
 
@@ -179,7 +178,7 @@ Calculate the current in each bulb. current = A
 > rearrangement;
 > evaluation;
 > e.g.
-> 33 = I × 390
+> $33 = I \times 390$
 > (I =) 33 / 390
 > (I =) 0.085 (A) allow 0.08, 0.0846…
 > condone 0.084
@@ -194,7 +193,7 @@ Calculate the energy transferred to lamp X when it is used for 2.5 hours. energy
 **Mark scheme answer**
 
 > dimensionally correct substitution into allow ECF from (ii)
-> E = V × I × t;
+> $E = V \times I \times t$;
 > conversion of hours to seconds; allow 60 × 60 or 9000 seen anywhere
 > in working
 > use of 7 bulbs;
@@ -417,7 +416,7 @@ State what is meant by the term half-life.
 
 ### 5(d)(ii) [1]
 
-The radioactive source contains 2.66 × 1021 atoms of radium-226. Approximately how many atoms of radium-226 will remain in the source after 800 years?
+The radioactive source contains 2.66 × 10²¹ atoms of radium-226. Approximately how many atoms of radium-226 will remain in the source after 800 years?
 
 - **(A)** 0.67 × 10²¹
 - **(B)** 1.33 × 10²¹
@@ -427,13 +426,12 @@ The radioactive source contains 2.66 × 1021 atoms of radium-226. Approximately 
 
 **Mark scheme answer**
 
-> C (1.88 × 1021);
+> C (1.88 × 10²¹);
 > A is incorrect because this is the number of atoms after 3200 years
 > B is incorrect because this is the number of atoms after 1600 years
 > D is incorrect because this is the initial number of atoms
-> Answer Notes Marks
 
-- **(1)** Answer C: 1.88 × 1021
+- **(1)** Answer C: 1.88 × 10²¹
 
 
 ## Question 6 (6 marks)
@@ -657,7 +655,7 @@ Using the curve of best fit on graph 2, determine the mean speed of a gas partic
 
 ### 8(d)(ii) [3]
 
-The mass of a single gas particle is 5.3 × 10–26 kg. Calculate the average kinetic energy of a gas particle when the temperature of the gas is 100 °C. kinetic energy = J
+The mass of a single gas particle is 5.3 × 10⁻²⁶ kg. Calculate the average kinetic energy of a gas particle when the temperature of the gas is 100 °C. kinetic energy = J
 
 
 **Mark scheme answer**
@@ -666,9 +664,9 @@ The mass of a single gas particle is 5.3 × 10–26 kg. Calculate the average ki
 > substitution; ECF from (i)
 > evaluation; -1 for POT error
 > e.g.
-> KE = ½ × mass × speed2
-> (KE =) 0.5 × 5.3 × 10-26 × 5202
-> (KE =) 7.2 × 10-21 (J) allow 7.16 × 10-21 - 7.31 × 10-21
+> KE = ½ × mass × speed²
+> (KE =) 0.5 × 5.3 × 10⁻²⁶ × 5202
+> (KE =) 7.2 × 10⁻²¹ (J) allow 7.16 × 10⁻²¹ - 7.31 × 10⁻²¹
 
 - **(3)** recall of KE formula; can be implied from working
 
@@ -846,7 +844,7 @@ A student uses a bottle and a stopper to find the density of an unknown liquid. 
 
 ### 11(a) [4]
 
-This is the student’s method. • use a balance to find the mass of the bottle and stopper • completely fill the bottle with water • insert the stopper and dry the outside of the bottle • use the balance to find the mass of the full bottle and stopper These are the student’s results. mass of empty bottle and stopper = 63.4 g mass of full bottle and stopper = 112.9 g Use the student’s results to determine the volume of the water in the bottle. Give your answer to three significant figures. [density of water = 0.998 g/cm3] volume = cm3
+This is the student’s method. • use a balance to find the mass of the bottle and stopper • completely fill the bottle with water • insert the stopper and dry the outside of the bottle • use the balance to find the mass of the full bottle and stopper These are the student’s results. mass of empty bottle and stopper = 63.4 g mass of full bottle and stopper = 112.9 g Use the student’s results to determine the volume of the water in the bottle. Give your answer to three significant figures. [density of water = 0.998 g/cm³] volume = cm³
 
 
 **Mark scheme answer**
@@ -860,13 +858,13 @@ This is the student’s method. • use a balance to find the mass of the bottle
 > mass = 49.5 (g)
 > 0.998 = 49.5/volume OR volume = mass/density
 > volume = 49.599
-> 49.6 (cm3)
+> 49.6 (cm³)
 
 - **(4)** determination of mass of water;
 
 ### 11(b) [3]
 
-The student empties the bottle and then dries it. He refills the bottle with the unknown liquid. He measures the mass of the full bottle and stopper as 143.8 g. Calculate the density of the unknown liquid. density of unknown liquid = g/cm3
+The student empties the bottle and then dries it. He refills the bottle with the unknown liquid. He measures the mass of the full bottle and stopper as 143.8 g. Calculate the density of the unknown liquid. density of unknown liquid = g/cm³
 
 
 **Mark scheme answer**
@@ -878,7 +876,7 @@ The student empties the bottle and then dries it. He refills the bottle with the
 > e.g.
 > 143.8 - 63.4 = 80.4 (g)
 > density = 80.4 / 49.6
-> density = 1.62 (g/cm3)
+> density = 1.62 (g/cm³)
 
 - **(3)** determination of mass of liquid;
 

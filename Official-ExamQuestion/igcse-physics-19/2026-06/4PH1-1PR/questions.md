@@ -252,11 +252,11 @@ The transmitter emits microwaves that travel towards the receiver. State the num
 
 **Mark scheme answer**
 
-> 1(.0) × 1010; allow 10 000 000 000
+> 1(.0) × 10¹⁰; allow 10 000 000 000
 > allow 1010 by itself
 > ignore Hz or hertz
 
-- **(1)** 1(.0) × 1010; allow 10 000 000 000
+- **(1)** 1(.0) × 10¹⁰; allow 10 000 000 000
 
 ### 4(b)(ii) [4]
 
@@ -276,8 +276,8 @@ The teacher positions the receiver so that the distance between the receiver and
 > evaluation of wavelength;
 > evaluation of distance;
 > e.g.
-> 3(.0) × 108 = 1(.0) × 1010 × λ
-> λ = 3(.0) × 108 / 1(.0) × 1010
+> 3(.0) × 10⁸ = 1(.0) × 10¹⁰ × λ
+> λ = 3(.0) × 10⁸ / 1(.0) × 10¹⁰
 > λ = 0.03(0) (m)
 > (distance = 15 × 0.03 =) 0.45 (m) 0.45 (m) to any other
 > power of 10 scores 3
@@ -607,7 +607,7 @@ The student removes the inflated balloon from the bucket and dries the balloon. 
 
 ### 7(c) [4]
 
-The table shows the student’s results. Volume of water displaced by 4350 cm3 inflated balloon Mass of air inside balloon 5.42 g Calculate the density of air using the student’s results. Give your answer to 3 significant figures and give a suitable unit. density = unit
+The table shows the student’s results. Volume of water displaced by 4350 cm³ inflated balloon Mass of air inside balloon 5.42 g Calculate the density of air using the student’s results. Give your answer to 3 significant figures and give a suitable unit. density = unit
 
 ![table — official paper figure (qp.pdf p.19)](assets/asset_7_c_table.png)
 
@@ -621,15 +621,15 @@ The table shows the student’s results. Volume of water displaced by 4350 cm3 i
 > evaluation given to 3 s.f.; award mark for any value
 > expressed to 3 s.f.
 > unit; expect either g/cm3 or
-> kg/m3
-> allow 1.25 kg/m3 for full
-> allow 1.25 × 10-6 kg/cm3
+> kg/m³
+> allow 1.25 kg/m³ for full
+> allow 1.25 × 10⁻⁶ kg/cm³
 > for full marks
 > e.g.
 > density = 5.42 / 4350
 > (density =) 0.0012459…
 > (density =) 0.00125
-> g/cm3
+> g/cm³
 
 - **(4)** substitution into ρ = m/V;
 
@@ -689,7 +689,7 @@ Diagram 1 shows a sample of gas in a syringe. gas molecules Diagram 1 The volume
 **Mark scheme answer**
 
 > any FOUR from:
-> correct reference to p1V1=p2V2;
+> correct reference to p₁V₁=p₂V₂;
 > pressure decreases;
 > pressure is halved; also scores MP2
 > allow equivalent
@@ -712,7 +712,7 @@ Another sample of gas has a temperature of 100 °C and a pressure of 140 kPa. Th
 > evaluation of new temperature in °C; allow 35 seen anywhere
 > in working
 > evaluation of both temperatures in K;
-> substitution into p1/T1 = p2/T2;
+> substitution into p₁/T₁ = p₂/T₂;
 > rearrangement; rearrangement and
 > substitution in either
 > order
@@ -722,12 +722,10 @@ Another sample of gas has a temperature of 100 °C and a pressure of 140 kPa. Th
 > 126.86.. score 4 marks
 > e.g.
 > new temperature = 35 °C
-> T1 = 373 K, T2 = 308 K
-> 140 / 373 = p2 / 308
-> p2 = 140 × 308 / 373
-> (p2 =) 120 (K) allow 116, 115.6…(kPa)
-> for 5 marks
-> Answer Notes Marks
+> T₁ = 373 K, T₂ = 308 K
+> 140 / 373 = p₂ / 308
+> p₂ = 140 × 308 / 373
+> (p₂ =) 120 (K) allow 116, 115.6…(kPa)
 
 - **(5)** evaluation of new temperature in °C; allow 35 seen anywhere
 
@@ -818,10 +816,10 @@ The student thinks one of the data points is anomalous. Draw a circle around the
 
 **Mark scheme answer**
 
-> data point at 5.3 × 10−7 m circled; allow any other clear
+> data point at 5.3 × 10⁻⁷ m circled; allow any other clear
 > indication
 
-- **(1)** data point at 5.3 × 10−7 m circled; allow any other clear
+- **(1)** data point at 5.3 × 10⁻⁷ m circled; allow any other clear
 
 ### 9(b)(iii) [1]
 
@@ -903,13 +901,13 @@ The table gives some statements about the sheet of aluminium after the beta part
 
 ### 10(c)(ii) [4]
 
-Just before travelling through the sheet of aluminium, the beta particle has a speed of 3.2 × 107 m/s. Just after travelling through the sheet of aluminium, the beta particle has a speed of 2.5 × 107 m/s. The sheet of aluminium has a thickness of 0.60 mm. Show that the magnitude of the acceleration of the beta particle as it travels through the sheet of aluminium is about 3 × 1017 m/s2.
+Just before travelling through the sheet of aluminium, the beta particle has a speed of 3.2 × 10⁷ m/s. Just after travelling through the sheet of aluminium, the beta particle has a speed of 2.5 × 10⁷ m/s. The sheet of aluminium has a thickness of 0.60 mm. Show that the magnitude of the acceleration of the beta particle as it travels through the sheet of aluminium is about 3 × 10¹⁷ m/s².
 
 
 **Mark scheme answer**
 
 > conversion of mm to m;
-> substitution into v2 = u2 + 2as; ignore POT on speeds until
+> substitution into v² = u² + 2as; ignore POT on speeds until
 > the evaluation
 > allow alternate
 > substitutions of v and u
@@ -923,10 +921,10 @@ Just before travelling through the sheet of aluminium, the beta particle has a s
 > more sf or using v, a and s
 > to find u to 3 or more sf
 > e.g.
-> s = 0.60 × 10−3 (m)
-> (2.5 × 107)2 = (3.2 × 107)2 + (2 × a × 0.60 × 10−3)
-> a = [(2.5 × 107)2 − (3.2 × 107)2] / (2 × 0.60 × 10−3)
-> (acceleration =) (−)3.3 × 1017 (m/s2) allow (−)3.325 × 1017 (m/s2)
+> s = 0.60 × 10⁻³ (m)
+> (2.5 × 10⁷)² = (3.2 × 10⁷)² + (2 × a × 0.60 × 10⁻³)
+> a = [(2.5 × 10⁷)² − (3.2 × 10⁷)²] / (2 × 0.60 × 10⁻³)
+> (acceleration =) (−)3.3 × 10¹⁷ (m/s²) allow (−)3.325 × 10¹⁷ (m/s²)
 
 - **(4)** conversion of mm to m;
 
@@ -950,18 +948,17 @@ The beta particle has a mass of 9.1 × 10–31 kg. Calculate the decrease in the
 > calculating difference in
 > KE
 > e.g.
-> KEinitial = (½ × 9.1 × 10−31 × (3.2 × 107)2 =) 4.7 × 10−16 allow 4.6 × 10−16,
-> (J) 4.6592 × 10−16 (J)
-> KEfinal = (½ × 9.1 × 10−31 × (2.5 × 107)2 =) 2.8 × 10−16 allow 2.84375 × 10−16 (J)
+> KEinitial = (½ × 9.1 × 10−31 × (3.2 × 10⁷)² =) 4.7 × 10⁻¹⁶ allow 4.6 × 10⁻¹⁶,
+> (J) 4.6592 × 10⁻¹⁶ (J)
+> KEfinal = (½ × 9.1 × 10⁻³¹ × (2.5 × 10⁷)² =) 2.8 × 10⁻¹⁶ allow 2.84375 × 10⁻¹⁶ (J)
 > (J)
-> (decrease in KE =) 1.8 × 10−16 (J) allow answers that round
-> to 1.8 × 10−16 (J) and
-> 1.9 × 10−16 (J)
+> (decrease in KE =) 1.8 × 10⁻¹⁶ (J) allow answers that round
+> to 1.8 × 10⁻¹⁶ (J) and
+> 1.9 × 10⁻¹⁶ (J)
 > ignore minus sign on final
 > Use of (difference in
 > velocity)2 scores 1 mark
 > max
-> Answer Notes Marks
 
 - **(3)** allow alternative method
 
@@ -993,7 +990,7 @@ The weight of the sky diver is 850 N. Calculate the mass of the sky diver. Use t
 
 ### 11(a)(ii) [3]
 
-After falling for a short period of time, an upward force of 250 N acts on the sky diver due to air resistance. Calculate the acceleration of the sky diver when the upward force is 250 N. acceleration = m/s2
+After falling for a short period of time, an upward force of 250 N acts on the sky diver due to air resistance. Calculate the acceleration of the sky diver when the upward force is 250 N. acceleration = m/s²
 
 
 **Mark scheme answer**
@@ -1008,13 +1005,12 @@ After falling for a short period of time, an upward force of 250 N acts on the s
 > e.g.
 > resultant force = 850 − 250 = 600 (N)
 > 600 = 85 × acceleration OR a = F / m
-> (acceleration = 600/85 =) 7.1 (m/s2) allow 6.9-7.1 (m/s2) for
+> (acceleration = 600/85 =) 7.1 (m/s²) allow 6.9-7.1 (m/s²) for
 > 3 marks
 > allow 2.9,2.87.., 2.94..,
-> etc (m/s2) for 2 marks
+> etc (m/s²) for 2 marks
 > allow correct answer
 > without any working for
-> 3 marks
 
 - **(3)** evaluation of resultant force; allow 600 (N) seen
 

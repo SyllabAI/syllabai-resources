@@ -513,6 +513,20 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
 
 ## Known open work (pick up from here)
 
+- Task 35 (2026-10-31, F127) CLOSED the 4PH1 questions.md presentation-stale standing debt
+  (operator order "Proceed with questions.md regen rides the next converter run", trace
+  1a190e0aa0abae3d) with the maths-B F122 back-sync shape at physics scale: corpus := the
+  serving plane of record (22eda30, sha256 06d1848f...) per field — 339 pids / 766 field
+  writes / 54 slices (every problem_md a wrap decomposition via the exporter's own sentinel
+  machinery: the emitted stem prefix + appended figure suffix subtracted so the corpus keeps
+  the converter's field semantics; 7 stem_md regions synced where a restoration reached the
+  stem prose) — so the exporter re-export is a byte-level no-op (G-E1 0 deltas at the
+  consumed r2-proof-era law, 55/55 slices) and the questions.md human renders regenerate
+  with the restored presentation (0 -> 117 $-segments, 1 -> 129 superscript hits, the run-005
+  nuclear line verbatim; untouched slices byte-identical). The 766-pin zero-network battery
+  (B1-B7) is CI-enforced; the standing F121 group-stem evolution census (421 pids, the
+  physics serving twin) is disclosed for the operator's ruling, not executed.
+>>>>>>> 6862048a (content(t-oeq-phys-format-1 run-006): F126 — the 4PH1 corpus back-sync + questions.md regen (corpus := the v2 plane of record 22eda30; exporter re-export a G-E1 byte-level no-op))
 - Task 34 (2026-10-31, F126) DISCHARGED the post-F122 corpus rider population (operator
   order "21 corpus rider pids on the next converter run", trace 1a190c72875ff9d9 — the gate
   the run-033 receipt named lifting): the 21 run-033 wave-6 rider pids (42 field writes;

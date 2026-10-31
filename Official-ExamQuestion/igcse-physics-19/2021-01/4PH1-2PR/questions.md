@@ -194,14 +194,12 @@ Force F is applied to the metal block to stop it from moving. Calculate the magn
 > rearrangement;
 > evaluation; allow ECF from (ii)
 > e.g.
-> 2.9 = F × 11
-> F = 2.9 / 11
+> $2.9 = F \times 11$
+> $F = 2.9 / 11$
 > (F =) 0.26 (N) allow 0.2636…-
 > 0.2658…
 > allow 0.27
 > condone 0.263
-> (Total for Question 2 = 6 marks)
-> Answer Notes Marks
 
 - **(3)** idea that anti-clockwise moment = clockwise stated or implied by
 
@@ -320,7 +318,7 @@ Use the oscilloscope trace to calculate the speed of the wave. speed = m/s
 > e.g.
 > period = 4 squares
 > period = (4 × 1 =) 4 ms allow 0.004 (s)
-> frequency (= 1/4 × 10-3) = 250 (Hz)
+> frequency (= 1/4 × 10⁻³) = 250 (Hz)
 > speed = 1.4 × 250
 > speed = 350 (m/s)
 
@@ -368,7 +366,7 @@ An aircraft travels along a runway.
 
 ### 5(a) [3]
 
-The aircraft starts from rest and has a constant acceleration of 4.1 m/s2. Calculate the distance required to reach take‑off speed of 75 m/s. distance = m
+The aircraft starts from rest and has a constant acceleration of 4.1 m/s². Calculate the distance required to reach take‑off speed of 75 m/s. distance = m
 
 
 **Mark scheme answer**
@@ -378,13 +376,13 @@ The aircraft starts from rest and has a constant acceleration of 4.1 m/s2. Calcu
 > time taken and then
 > using average speed =
 > distance/time
-> substitution into v2 = u2 + 2as;
+> substitution into v² = u² + 2as;
 > rearrangement;
 > evaluation;
 > 1371-1372 = 2 marks
 > e.g.
-> 752 = (02 +) 2 × 4.1 × s
-> s = 5 625 / 8.2
+> $75^{2} = (0^{2} +) 2 \times 4.1 \times s$
+> $s = 5 625 / 8.2$
 > (s =) 690 (m) allow 686, 685.9756…
 
 - **(3)** allow alternative
@@ -456,7 +454,7 @@ Explain how cosmic microwave background radiation (CMBR) supports the Big Bang t
 
 ### 6(b) [4]
 
-Hydrogen gas in a laboratory on Earth emits light with a wavelength of 605 nm. A distant galaxy contains hydrogen which emits light of the same wavelength. The wavelength of the light from the distant galaxy is measured as 683 nm on Earth. Calculate the speed of the distant galaxy. [speed of light = 3.0 × 108 m/s] speed = m/s
+Hydrogen gas in a laboratory on Earth emits light with a wavelength of 605 nm. A distant galaxy contains hydrogen which emits light of the same wavelength. The wavelength of the light from the distant galaxy is measured as 683 nm on Earth. Calculate the speed of the distant galaxy. [speed of light = 3.0 × 10⁸ m/s] speed = m/s
 
 
 **Mark scheme answer**
@@ -467,14 +465,12 @@ Hydrogen gas in a laboratory on Earth emits light with a wavelength of 605 nm. A
 > evaluation; -1 for POT error
 > use of incorrect source
 > wavelength gives
-> 3.4 × 107 (m/s) = 3
+> 3.4 × 10⁷ (m/s) = 3
 > e.g.
 > (683 – 605 =) 78 (nm)
-> 78 / 605 = v / c
-> v = 3.0 × 108 × (78/605)
-> (v =) 3.9 × 107 (m/s) allow 3.86… × 107 (m/s)
-> (Total for Question 6 = 6 marks)
-> Answer Notes Marks
+> $78 / 605 = v / c$
+> v = 3.0 × 10⁸ × (78/605)
+> (v =) 3.9 × 10⁷ (m/s) allow 3.86… × 10⁷ (m/s)
 
 - **(4)** change in wavelength = 78 (nm); ignore units
 
@@ -510,27 +506,27 @@ Explain why the negatively charged droplets spread out as they fall.
 
 ### 7(c)(i) [3]
 
-A droplet hits bucket A with a speed of 3.8 m/s. Calculate the kinetic energy of the droplet when it hits bucket A. [mass of droplet = 6.2 × 10–9 kg] kinetic energy = J
+A droplet hits bucket A with a speed of 3.8 m/s. Calculate the kinetic energy of the droplet when it hits bucket A. [mass of droplet = 6.2 × 10⁻⁹ kg] kinetic energy = J
 
 
 **Mark scheme answer**
 
-> use of KE = ½mv2; stated or implied by
+> use of KE = ½mv²; stated or implied by
 > working
 > substitution;
 > evaluation; -1 for POT error
-> allow 4.4 × 10-8,
-> 4.47 × 10-8 = 2 marks
+> allow 4.4 × 10⁻⁸,
+> 4.47 × 10⁻⁸ = 2 marks
 > e.g.
-> KE = ½mv2
-> KE = ½ × 6.2 × 10-9 × 3.82
-> (KE =) 4.5 × 10-8 (J) allow 4.4764 × 10-8 (J)
+> KE = ½mv²
+> KE = ½ × 6.2 × 10⁻⁹ × 3.82
+> (KE =) 4.5 × 10⁻⁸ (J) allow 4.4764 × 10⁻⁸ (J)
 
-- **(3)** use of KE = ½mv2; stated or implied by
+- **(3)** use of KE = ½mv²; stated or implied by
 
 ### 7(c)(ii) [3]
 
-The total charge stored in bucket A is –1.1 × 10–10 C. This charge passes through the air between the buckets in 9.2 × 10–3 s, causing a spark between bucket A and bucket B. Calculate the mean current between the buckets. mean current = A
+The total charge stored in bucket A is –1.1 × 10⁻¹⁰ C. This charge passes through the air between the buckets in 9.2 × 10⁻³ s, causing a spark between bucket A and bucket B. Calculate the mean current between the buckets. mean current = A
 
 
 **Mark scheme answer**
@@ -540,15 +536,15 @@ The total charge stored in bucket A is –1.1 × 10–10 C. This charge passes t
 > rearrangement;
 > evaluation; -1 for POT error
 > e.g.
-> 1.1 × 10-10 = current × 9.2 × 10-3
-> current = 1.1 × 10-10 / 9.2 × 10-3
-> current = 1.2 × 10-8 (A) allow 1.195… × 10-8 (A)
+> 1.1 × 10⁻¹⁰ = current × 9.2 × 10⁻³
+> current = 1.1 × 10⁻¹⁰ / 9.2 × 10⁻³
+> current = 1.2 × 10⁻⁸ (A) allow 1.195… × 10⁻⁸ (A)
 
 - **(3)** substitution into Q = It; stated or implied by
 
 ### 7(c)(iii) [3]
 
-The spark transfers a charge of –1.1 × 10–10 C. The mean voltage between the buckets is 1.7 kV. Calculate the energy transferred by the spark. energy transferred = J
+The spark transfers a charge of –1.1 × 10⁻¹⁰ C. The mean voltage between the buckets is 1.7 kV. Calculate the energy transferred by the spark. energy transferred = J
 
 
 **Mark scheme answer**
@@ -561,13 +557,11 @@ The spark transfers a charge of –1.1 × 10–10 C. The mean voltage between th
 > working
 > evaluation; -1 for POT error
 > e.g.
-> E = 1.1 × 10-10 × 1.7
+> E = 1.1 × 10⁻¹⁰ × 1.7
 > 1.7 kV = 1700 V
-> (E =) 1.9 × 10-7 (J) allow 1.87 × 10-7 (J),
-> 1.88 × 10-7 (J),
-> 1.8768 × 10-7 (J)
-> (Total for Question 7 = 13 marks)
-> Answer Notes Marks
+> (E =) 1.9 × 10⁻⁷ (J) allow 1.87 × 10⁻⁷ (J),
+> 1.88 × 10⁻⁷ (J),
+> 1.8768 × 10⁻⁷ (J)
 
 - **(3)** substitution into E = QV; allow valid substitution
 

@@ -119,7 +119,7 @@ State the formula linking pressure difference, height, density and gravitational
 
 ### 2(c) [3]
 
-Calculate the height of the oil in the can. [density of oil = 960 kg/m3] height = m
+Calculate the height of the oil in the can. [density of oil = 960 kg/m³] height = m
 
 
 **Mark scheme answer**
@@ -127,17 +127,16 @@ Calculate the height of the oil in the can. [density of oil = 960 kg/m3] height 
 > substitution; allow ecf from (a)
 > rearrangement;
 > evaluation;
-> allow use of g = 9.8(1) m/s2
+> allow use of g = 9.8(1) m/s²
 > giving 0.96 m
 > e.g.
 > pressure difference = 9 kPa
-> 9 000 = d × 960 × 10
+> $9 000 = d \times 960 \times 10$
 > d = 9000 / (9600)
 > d = 0.94 (m) allow 0.937(5)
 > POT error penalty of 1
 > mark, except if formula is
 > incorrect i.e. no ‘g’
-> Answer Notes Marks
 
 - **(3)** substitution; allow ecf from (a)
 
@@ -225,7 +224,7 @@ The truck has 590 000 J of energy in its kinetic energy (KE) store before the dr
 > evaluation;
 > e.g.
 > 590000 = 46000 × distance
-> d = 590000/46000
+> $d = 590000/46000$
 > d = 13 (m) allow 12.8 (m), 12.83
 > (m) etc
 
@@ -291,18 +290,18 @@ A student drops a table tennis ball from rest. The ball falls 13 m to the ground
 
 **Mark scheme answer**
 
-> substitution into given equation v2 = u2 + (2 x a x s); accept mgh = 1/2mv2
+> substitution into given equation v² = u² + (2 x a x s); accept mgh = 1/2mv²
 > evaluation of v2;
 > evaluation of v to 3sf or more i.e. 16.1 (m/s); accept use of
-> g = 9.8(1) m/s2 giving
+> g = 9.8(1) m/s² giving
 > v = 16.0, 15.97 etc.
 > e.g.
-> v2 = u2 + (2 x a x s)
-> v2 = 02 + (2 x 10 x 13)
-> v2 = 260
+> v² = u² + (2 x a x s)
+> v² = 0² + (2 x 10 x 13)
+> $v^{2} = 260$
 > v =√260 = 16.1 (m/s)
 
-- **(3)** substitution into given equation v2 = u2 + (2 x a x s); accept mgh = 1/2mv2
+- **(3)** substitution into given equation v² = u² + (2 x a x s); accept mgh = 1/2mv²
 
 ### 5(b) [5]
 
@@ -376,7 +375,7 @@ The current in the circuit is 7.8 mA. Calculate the voltage across the 73 ohm re
 > evaluation; POT error gives 1 mark
 > penalty
 > e.g.
-> V = 7.8 x 10-3 × 73
+> V = 7.8 x 10⁻³ × 73
 > V = 0.57 (V) allow 0.5694 (V) for
 > both marks
 > ‘0.6 (V)’ scores 1 mark
@@ -479,7 +478,7 @@ State the formula linking energy transferred, voltage and charge.
 
 ### 7(a)(iii) [3]
 
-Calculate the energy transferred to an electron when it passes through a voltage of 150 kV. [charge of electron = 1.6 × 10–19 C] energy transferred = J
+Calculate the energy transferred to an electron when it passes through a voltage of 150 kV. [charge of electron = 1.6 × 10⁻¹⁹ C] energy transferred = J
 
 
 **Mark scheme answer**
@@ -488,8 +487,8 @@ Calculate the energy transferred to an electron when it passes through a voltage
 > conversion of kV to V;
 > evaluation;
 > e.g.
-> energy = 1.6 × 10-19 × 150 × 103
-> energy = 2.4 × 10-14 (J)
+> energy = 1.6 × 10⁻¹⁹ × 150 × 10³
+> energy = 2.4 × 10⁻¹⁴ (J)
 
 - **(3)** substitution;
 
@@ -521,9 +520,8 @@ The charge on the generator discharges through the air as a spark. The charge ta
 > answer line
 > e.g.
 > charge = current × time
-> current = 2.9 × 10-8 / 0.68 × 10-3
-> current = 4.3 × 10-5 (A) allow 4.265 × 10-5 (A)
-> Answer Notes Marks
+> current = 2.9 × 10⁻⁸ / 0.68 × 10⁻³
+> current = 4.3 × 10⁻⁵ (A) allow 4.265 × 10⁻⁵ (A)
 
 - **(3)** substitution and re-arrangement;
 
@@ -578,7 +576,7 @@ State the formula linking density, mass and volume.
 
 ### 8(b)(ii) [3]
 
-Rock X has a mass of 32 g and a volume of 12 cm3. Calculate the density of rock X. Give your answer to 2 significant figures. density = g/cm3
+Rock X has a mass of 32 g and a volume of 12 cm³. Calculate the density of rock X. Give your answer to 2 significant figures. density = g/cm³
 
 
 **Mark scheme answer**
@@ -589,8 +587,8 @@ Rock X has a mass of 32 g and a volume of 12 cm3. Calculate the density of rock 
 > independently
 > e.g.
 > density = 32/12
-> density = 2.66… g/cm3
-> density = 2.7 g/cm3 to 2 sf
+> density = 2.66… g/cm³
+> density = 2.7 g/cm³ to 2 sf
 
 - **(3)** substitution;
 
@@ -836,22 +834,22 @@ Explain, in terms of particles, why the pressure of the air inside the glass jar
 
 ### 11(b) [3]
 
-Before the rubber sheet is pulled down, the air inside the jar is at atmospheric pressure. The volume of gas inside the jar increases from 110 cm3 to 140 cm3. Calculate the pressure inside the jar after the rubber sheet is pulled down. [atmospheric pressure = 101 kPa] pressure = Pa
+Before the rubber sheet is pulled down, the air inside the jar is at atmospheric pressure. The volume of gas inside the jar increases from 110 cm³ to 140 cm³. Calculate the pressure inside the jar after the rubber sheet is pulled down. [atmospheric pressure = 101 kPa] pressure = Pa
 
 
 **Mark scheme answer**
 
-> substitution into given equation “p1 × V1 = p2 × V2”;
-> rearrangement to give p2;
-> evaluation of p2;
+> substitution into given equation “p₁ × V₁ = p₂ × V₂”;
+> rearrangement to give p₂;
+> evaluation of p₂;
 > e.g.
-> 101 × 110 = p2 × 140
-> p2 = 101 × 110 / 140
-> p2 = 79 000 (Pa) allow 79357.1… (Pa),
+> 101 × 110 = p₂ × 140
+> p₂ = 101 × 110 / 140
+> p₂ = 79 000 (Pa) allow 79357.1… (Pa),
 > 79(.4) kPa , standard
 > form
 
-- **(3)** substitution into given equation “p1 × V1 = p2 × V2”;
+- **(3)** substitution into given equation “p₁ × V₁ = p₂ × V₂”;
 
 ### 11(c) [3]
 
@@ -913,7 +911,7 @@ Calculate the weight of the wire. Give your answer in mN. weight = mN
 > evaluation;
 > e.g.
 > W = 0.0065 × 10 accept use of g = 9.8(1)
-> m/s2 giving 63.7 or 63.8
+> m/s² giving 63.7 or 63.8
 > (mN)
 > W = 65 (mN)
 
@@ -921,7 +919,7 @@ Calculate the weight of the wire. Give your answer in mN. weight = mN
 
 ### 12(b)(ii) [5]
 
-There is an upwards magnetic force of 34 mN acting on the wire. Calculate the acceleration of the wire. acceleration = m/s2
+There is an upwards magnetic force of 34 mN acting on the wire. Calculate the acceleration of the wire. acceleration = m/s²
 
 
 **Mark scheme answer**
@@ -938,11 +936,11 @@ There is an upwards magnetic force of 34 mN acting on the wire. Calculate the ac
 > idea)
 > e.g.
 > resultant force = 65 – 34 = 31 mN
-> resultant force = 31 × 10-3 = 6.5 × 10-3 × a
-> a = 31 × 10-3 / 6.5 × 10-3
-> a = 4.8 (m/s2) allow 4.76(9) (m/s2)
-> use of g = 9.81 m/s2 gives
-> 4.57 (m/s2)
+> resultant force = 31 × 10⁻³ = 6.5 × 10⁻³ × a
+> a = 31 × 10⁻³ / 6.5 × 10⁻³
+> a = 4.8 (m/s²) allow 4.76(9) (m/s²)
+> use of g = 9.81 m/s² gives
+> 4.57 (m/s²)
 
 - **(5)** resultant force is difference between weight and
 

@@ -97,7 +97,7 @@ State the formula linking pressure difference, height, density and gravitational
 
 ### 2(b)(ii) [3]
 
-The bottom of the ship is 15.8 m below the surface of the sea. Show that the pressure acting on the bottom of the ship is approximately 260 kPa. [density of seawater = 1030 kg/m3]
+The bottom of the ship is 15.8 m below the surface of the sea. Show that the pressure acting on the bottom of the ship is approximately 260 kPa. [density of seawater = 1030 kg/m³]
 
 
 **Mark scheme answer**
@@ -196,7 +196,7 @@ On Diagram 1, draw a voltmeter to measure the voltage of resistor S.
 
 ### 3(c)(ii) [2]
 
-Deduce the readings on the ammeters. current measured by A1 = A current measured by A2 = A
+Deduce the readings on the ammeters. current measured by A₁ = A current measured by A₂ = A
 
 
 **Mark scheme answer**
@@ -223,7 +223,7 @@ Resistor R has a resistance of 11 Ω. Calculate the voltage across resistor R. v
 > substitution;
 > evaluation;
 > e.g.
-> V=I×R
+> $V = I\times R$
 > (V =) 0.40 × 11
 > (V =) 4.4 (V)
 
@@ -304,7 +304,7 @@ Calculate the mass of the student. mass = kg
 
 ### 4(b)(i) [4]
 
-The squares on the paper have a side length of 2 cm. Estimate the area of the student’s foot in contact with the ground. area = cm2
+The squares on the paper have a side length of 2 cm. Estimate the area of the student’s foot in contact with the ground. area = cm²
 
 
 **Mark scheme answer**
@@ -320,8 +320,8 @@ The squares on the paper have a side length of 2 cm. Estimate the area of the st
 > e.g.
 > dots seen in each square in diagram
 > number of squares = 39
-> area of one square = (2 × 2) = 4 cm2
-> total area = (4 × 39) = 156 cm2 allow 148-168
+> area of one square = (2 × 2) = 4 cm²
+> total area = (4 × 39) = 156 cm² allow 148-168
 
 - **(4)** evidence of counting squares to find area; allow attempt to find
 
@@ -334,7 +334,7 @@ State the formula linking pressure, force and area.
 
 > pressure = force / area; allow standard symbols
 > and rearrangements e.g.
-> p=F/A
+> $p = F/A$
 
 - **(1)** pressure = force / area; allow standard symbols
 
@@ -348,7 +348,7 @@ The weight of the student is 520 N. Calculate the pressure the student exerts on
 > dimensionally correct substitution; allow ecf from (b)(i)
 > evidence of doubling area or halving pressure to
 > account for both feet;
-> evaluation with matching unit; allow N/cm2, N/m2 or Pa
+> evaluation with matching unit; allow N/cm2, N/m² or Pa
 > if no marks awarded for
 > calculation allow 1 mark
 > if valid unit for pressure
@@ -356,9 +356,8 @@ The weight of the student is 520 N. Calculate the pressure the student exerts on
 > e.g.
 > (pressure =) 520 / 156
 > area = 156 × 2 OR pressure = 3.2 ÷ 2
-> (pressure =) 1.7 N/cm2 allow 1.5-1.8 N/cm2
-> allow 15 000-18 000 N/m2
-> Answer Notes Marks
+> (pressure =) 1.7 N/cm² allow 1.5-1.8 N/cm²
+> allow 15 000-18 000 N/m²
 
 - **(3)** dimensionally correct substitution; allow ecf from (b)(i)
 
@@ -564,7 +563,7 @@ State the formula linking acceleration, change in velocity and time taken.
 > acceleration = change in velocity / time; allow rearrangements
 > and standard symbols
 > e.g. a = v-u / t,
-> a = ∆v/t, a = ∆v/∆t
+> $a = \Delta v/t, a = \Delta v/\Delta t$
 
 - **(1)** acceleration = change in velocity / time; allow rearrangements
 
@@ -580,7 +579,7 @@ Calculate the time taken for the car to accelerate to 35 m/s. time = s
 > evaluation;
 > e.g.
 > 1.2 = (35 – 26) / t
-> t = 9 / 1.2
+> $t = 9 / 1.2$
 > (t =) 7.5 (s)
 
 - **(3)** substitution;
@@ -601,8 +600,7 @@ A radar speed gun is used to measure the speed of the moving car. © Petar An/Sh
 > bunched up”
 > MP5. (reflected) wavelength decreased;
 > MP6. speed (of waves) stays constant; allow quotation of
-> v=f×λ
-> Answer Notes Marks
+> $v = f\times \lambda$
 
 - **(4)** any four from:
 
@@ -772,7 +770,7 @@ The refractive index for the glass in this prism is 1.6 Calculate the critical a
 > evaluation;
 > e.g.
 > sin(c) = 1/1.6
-> (c =) sin-1(0.625)
+> (c =) sin⁻¹(0.625)
 > (c =) 39 (°) allow 38.68…
 
 - **(3)** substitution;
@@ -922,7 +920,7 @@ The diagram shows the orbital paths of Mars and Saturn. Not to scale Saturn Sun 
 
 ### 12(b) [5]
 
-The table gives some information about the orbits of Mars and Saturn. Mars Saturn Orbital radius in km 2.28 × 108 1.43 × 109 Orbital speed in km/s 24.1 9.70 Mars completes a number of orbits in the time it takes for Saturn to complete one orbit. Calculate the number of orbits that Mars completes in the time it takes for Saturn to complete one orbit. number of orbits =
+The table gives some information about the orbits of Mars and Saturn. Mars Saturn Orbital radius in km 2.28 × 10⁸ 1.43 × 10⁹ Orbital speed in km/s 24.1 9.70 Mars completes a number of orbits in the time it takes for Saturn to complete one orbit. Calculate the number of orbits that Mars completes in the time it takes for Saturn to complete one orbit. number of orbits =
 
 ![table — official paper figure (qp.pdf p.31)](assets/asset_12_b_table.png)
 
@@ -937,8 +935,8 @@ The table gives some information about the orbits of Mars and Saturn. Mars Satur
 > correct final evaluation of ratio;
 > e.g.
 > v=2×π×r/T seen anywhere in working
-> 24.1 = 2 × π × 2.28 × 108 / T 9.70 = 2 × π × 1.43 × 109 / T
-> TMars = 5.94 × 107 (s) OR TSaturn = 9.26 × 108 (s) 5.944… 9.2628…
+> 24.1 = 2 × π × 2.28 × 10⁸ / T 9.70 = 2 × π × 1.43 × 10⁹ / T
+> TMars = 5.94 × 10⁷ (s) OR TSaturn = 9.26 × 10⁸ (s) 5.944… 9.2628…
 > n = TSaturn / TMars
 > 15.6 allow range of 15-16
 > Pearson Education Limited. Registered company number 872828

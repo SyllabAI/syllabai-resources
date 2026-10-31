@@ -204,12 +204,12 @@ State the formula linking kinetic energy, mass and speed.
 
 **Mark scheme answer**
 
-> KE = ½ m v2 accept word equation
+> KE = ½ m v² accept word equation
 > accept velocity for
 > speed
 > allow either case letters
 
-- **(1)** KE = ½ m v2 accept word equation
+- **(1)** KE = ½ m v² accept word equation
 
 ### 3(a)(iii) [3]
 
@@ -222,17 +222,17 @@ Calculate the speed of an electron when it has 1.3 × 10 –15 J of kinetic ener
 > re-arrangement;
 > correct evaluation; unrounded answer is
 > 53452248 (m/s)
-> correct answer: 5.3 × 107 (m/s)
+> correct answer: 5.3 × 10⁷ (m/s)
 > allow full credit for
 > e.g. correct answer with no
-> 1.3 × 10−15 = ½ × 9.1 x 10−31 × v2 working
-> v2 = 2.857… × 1015 POT in final answer e.g.
-> v = 5.345… × 107 (m/s) 5.345… x 103 for 2
+> 1.3 × 10⁻¹⁵ = ½ × 9.1 x 10⁻³¹ × v² working
+> v² = 2.857… × 10¹⁵ POT in final answer e.g.
+> v = 5.345… × 10⁷ (m/s) 5.345… x 10³ for 2
 > POT in v2 giving 1.69… x
 > 10n (m/s) for v for 2
 > accept unrooted answer
 > without POT error i.e.
-> 2.857… x 1015 (m/s) for
+> 2.857… x 10¹⁵ (m/s) for
 > 2 marks
 > accept POT and
 > unrooted answer e.g.
@@ -290,14 +290,12 @@ The time taken for the electrons to complete one orbit of the circle is 24 ms. C
 > correct answer with no
 > e.g. working
 > orbital speed = 2 π r ÷ T allow answers that
-> orbital speed = 2 π 2.5 x 10−2 ÷ (24 × 10−3) round to the range 6.3
+> orbital speed = 2 π 2.5 x 10⁻² ÷ (24 × 10⁻³) round to the range 6.3
 > orbital speed = 6.544… m/s to 6.8 (m/s)
 > -1 for POT
 > conversion of
 > milliseconds to minutes
 > scores 2 (393 m/s)
-> Total for question 3: 12 marks
-> Answer Notes Marks
 
 - **(3)** substitution into given formula; ECF candidate’s answer
 
@@ -633,7 +631,7 @@ Calculate the difference between the astronomer’s value for the wavelength and
 
 ### 7(b)(ii) [3]
 
-The change in wavelength happens because galaxy A is moving away from the Earth. Calculate the speed of galaxy A. [speed of light = 3.0 × 108 m / s] speed = m / s
+The change in wavelength happens because galaxy A is moving away from the Earth. Calculate the speed of galaxy A. [speed of light = 3.0 × 10⁸ m / s] speed = m / s
 
 
 **Mark scheme answer**
@@ -645,8 +643,8 @@ The change in wavelength happens because galaxy A is moving away from the Earth.
 > correct answer with
 > e.g. no working
 > Δλ ÷ λ = v/c -1 POT error
-> 15 ÷ 630 = v ÷ (3.0 × 108) use of observed
-> v = (3.0 × 108) × (15 ÷ 630) wavelength instead
+> 15 ÷ 630 = v ÷ (3.0 × 10⁸) use of observed
+> v = (3.0 × 10⁸) × (15 ÷ 630) wavelength instead
 > v = 7.14 × 10 6 (m/s) of 630 nm i.e. 645
 > nm giving 6.976…
 > x106 (m/s) gives 1

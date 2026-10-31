@@ -396,7 +396,7 @@ Show that the time period of the sound wave is 2.0 ms.
 > 1/0.002;
 > evaluated to get 500
 > Hz;
-> T = 1/500
+> $T = 1/500$
 > T = 0.002 s = 2(.0) (ms)
 > ignore amplitude
 
@@ -670,7 +670,7 @@ The table shows some information about the heating element in the water bath and
 > e.g.
 > time = 45 × 60 = 2700 (s)
 > energy = 230 × 1.5 × 2700
-> energy = 9.3 × 105 (J) allow 931 500 (J)
+> energy = 9.3 × 10⁵ (J) allow 931 500 (J)
 > however rounded
 > 15 525 (J) scores 2
 > marks however rounded
@@ -690,8 +690,8 @@ Calculate the mass of water being heated. Assume that all the energy is transfer
 > rearrangement; allow in either order
 > evaluation;
 > e.g.
-> 9.3 × 105 = mass × 4200 × (60-15)
-> mass = 9.3 × 105 / 4200 × 45
+> 9.3 × 10⁵ = mass × 4200 × (60-15)
+> mass = 9.3 × 10⁵ / 4200 × 45
 > (mass =) 4.9 (kg)
 > answer that rounds to
 > 0.082 (kg) scores 3 ecf

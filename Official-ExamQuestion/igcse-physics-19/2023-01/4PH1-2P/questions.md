@@ -143,7 +143,7 @@ State what is meant by the term power.
 
 ### 3(c)(ii) [3]
 
-Calculate the minimum time taken for Kori to transfer 6.47 × 1014 J of energy. minimum time = s
+Calculate the minimum time taken for Kori to transfer 6.47 × 10¹⁴ J of energy. minimum time = s
 
 
 **Mark scheme answer**
@@ -152,11 +152,10 @@ Calculate the minimum time taken for Kori to transfer 6.47 × 1014 J of energy. 
 > rearrangement;
 > evaluation; -1 for POT error
 > e.g.
-> 7.49 × 109 = 6.47 × 1014 / t
-> t = 6.47 × 1014 / 7.49 × 109
+> 7.49 × 10⁹ = 6.47 × 10¹⁴ / t
+> t = 6.47 × 10¹⁴ / 7.49 × 10⁹
 > (t =) 86 400 (s) allow 86000, 86382,
 > 86381.8…
-> Answer Notes Marks
 
 - **(3)** substitution into P = W / t;
 
@@ -473,9 +472,9 @@ Determine the frequency of the sound wave. frequency = Hz
 > max.
 > e.g.
 > 1 period = 8 squares ÷ 5 = 1.6 squares
-> time period = 1.6 × 0.5(×10-3)
-> time period = 8.0×10-4 s
-> frequency = (1/8.0×10-4) = 1250 (Hz)
+> time period = 1.6 × 0.5(×10⁻³)
+> time period = 8.0×10⁻⁴ s
+> frequency = (1/8.0×10⁻⁴) = 1250 (Hz)
 
 - **(4)** determination of number of squares for 1 period by
 
@@ -557,10 +556,10 @@ One of the stars in this binary system has an orbital speed of 19 km/s. Calculat
 > rearrangement;
 > evaluation;
 > e.g.
-> 31 years = 9.78 × 108 seconds
-> 19 = 2π × radius / 9.78 × 108
-> (radius =) 19 × 9.78 x 108 / 2π
-> (radius =) 3.0 × 109 (km) allow 2 956 255 958
+> 31 years = 9.78 × 10⁸ seconds
+> 19 = 2π × radius / 9.78 × 10⁸
+> (radius =) 19 × 9.78 x 10⁸ / 2π
+> (radius =) 3.0 × 10⁹ (km) allow 2 956 255 958
 > (km)
 > answer of 94 (km) gets
 > 3 marks max. (no unit

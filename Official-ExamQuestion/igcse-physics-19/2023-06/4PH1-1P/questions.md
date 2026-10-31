@@ -198,10 +198,9 @@ Use the graph to determine the resistance of the filament lamp when the voltage 
 > anywhere in working
 > evaluation;
 > e.g.
-> 7.2 = 2.40 × R
-> R = 7.2/2.40
+> $7.2 = 2.40 \times R$
+> $R = 7.2/2.40$
 > R = 3.0 (Ω) allow 2.9-3.0 (Ω)
-> Answer Notes Marks
 
 - **(3)** substitution; allow current = 2.40-2.45
 
@@ -298,7 +297,7 @@ State the formula linking the speed, frequency and wavelength of a wave.
 
 ### 4(a)(ii) [3]
 
-GPR radio waves have a frequency of 170 MHz. The speed of radio waves is 3.0 × 108 m / s. Calculate the wavelength of the waves. wavelength = m
+GPR radio waves have a frequency of 170 MHz. The speed of radio waves is 3.0 × 10⁸ m / s. Calculate the wavelength of the waves. wavelength = m
 
 
 **Mark scheme answer**
@@ -310,8 +309,8 @@ GPR radio waves have a frequency of 170 MHz. The speed of radio waves is 3.0 × 
 > an incorrect attempt at
 > converting units
 > e.g.
-> 3.0 × 108 = 170 (× 106) × λ
-> λ = v/f OR λ = 3.0 × 108/170 (× 106)
+> 3.0 × 10⁸ = 170 (× 10⁶) × λ
+> λ = v/f OR λ = 3.0 × 10⁸/170 (× 10⁶)
 > (wavelength =) 1.8 (m) allow 1.76(4…) (m)
 
 - **(3)** substitution; ignore units
@@ -391,7 +390,7 @@ Describe a method you could use to find the pressure a person exerts on the grou
 
 ### 5(b) [3]
 
-The total area of contact of the camel’s feet with the ground is 1300 cm2. The mass of the camel is 660 kg. Calculate the pressure this camel exerts on the ground. pressure = N / cm2
+The total area of contact of the camel’s feet with the ground is 1300 cm². The mass of the camel is 660 kg. Calculate the pressure this camel exerts on the ground. pressure = N / cm²
 
 
 **Mark scheme answer**
@@ -401,21 +400,20 @@ The total area of contact of the camel’s feet with the ground is 1300 cm2. The
 > weight = 6468, 6474.6 (N)
 > substitution into p = F / A;
 > correct evaluation; -1 for POT error
-> allow 5 (N/cm2) if
+> allow 5 (N/cm²) if
 > supported by working
 > using mass instead of
 > weight to get 0.51
-> (N/cm2) scores 2 marks
+> (N/cm²) scores 2 marks
 > max.
 > e.g.
 > weight = 660 × 10 = 6600 (N)
 > pressure = 6600 / 1300
-> (pressure =) 5.1 (N/cm2) allow 5.076… (N/cm2)
-> condone 5.0 (N/cm2)
+> (pressure =) 5.1 (N/cm²) allow 5.076… (N/cm²)
+> condone 5.0 (N/cm²)
 > allow 4.975…, 4.980…
-> (N/cm2) from use of
+> (N/cm²) from use of
 > different values of g
-> Answer Notes Marks
 
 - **(3)** weight = 6600 (N); allow use of g = 9.8, 9.81
 
@@ -516,7 +514,7 @@ The diagram shows a part of the knee called the patella. The patella has been re
 
 ### 6(c) [4]
 
-A scientist finds the volume and mass of a patella. The mass of the patella is 17 g. The volume of the patella is 13 cm3. Calculate the density of the patella. Give your answer to 2 significant figures. density = g / cm3
+A scientist finds the volume and mass of a patella. The mass of the patella is 17 g. The volume of the patella is 13 cm³. Calculate the density of the patella. Give your answer to 2 significant figures. density = g / cm³
 
 
 **Mark scheme answer**
@@ -528,9 +526,8 @@ A scientist finds the volume and mass of a patella. The mass of the patella is 1
 > e.g.
 > density = mass / volume
 > density = 17 / 13
-> density = 1.3… (g/cm3)
-> density = 1.3 (g/cm3)
-> Answer Notes Marks
+> density = 1.3… (g/cm³)
+> density = 1.3 (g/cm³)
 
 - **(4)** correct formula selected; seen or implied by working
 
@@ -673,7 +670,7 @@ A manometer is a device that can be used to measure the pressure difference betw
 
 ### 9(a) [2]
 
-The pressure difference is linked to the difference in height of the two surfaces of the liquid by the formula pressure difference = density × g × height difference The height difference between the two surfaces is 0.094 m. Calculate the pressure difference between the gas from the gas tap and the atmosphere. [for liquid, density = 14 000 kg / m3 ] pressure difference = Pa
+The pressure difference is linked to the difference in height of the two surfaces of the liquid by the formula pressure difference = density × g × height difference The height difference between the two surfaces is 0.094 m. Calculate the pressure difference between the gas from the gas tap and the atmosphere. [for liquid, density = 14 000 kg / m³ ] pressure difference = Pa
 
 
 **Mark scheme answer**
@@ -714,18 +711,18 @@ Use the graph to show that the distance travelled by the surface of the liquid i
 
 ### 9(b)(ii) [3]
 
-Calculate the acceleration of the surface of the liquid. acceleration = cm / s2
+Calculate the acceleration of the surface of the liquid. acceleration = cm / s²
 
 
 **Mark scheme answer**
 
-> any viable attempt at a gradient; allow use of v2=u2 + 2as
+> any viable attempt at a gradient; allow use of v²=u² + 2as
 > correct use of 47 and 0.20 in gradient calculation; allow other suitable
 > values for gradient e.g.
 > 35 (cm/s) in 0.15 (s)
-> acceleration in range (−)230 to (−)240 (cm/s2);
+> acceleration in range (−)230 to (−)240 (cm/s²);
 
-- **(3)** any viable attempt at a gradient; allow use of v2=u2 + 2as
+- **(3)** any viable attempt at a gradient; allow use of v²=u² + 2as
 
 ### 9(c) [3]
 
@@ -793,7 +790,7 @@ Draw a best fit curve. Distance in cm 0 0.2 0.4 0.6 0.8 1.0 Time in s
 
 ### 10(b)(iii) [4]
 
-The student concludes that the results obey this relationship distance ÷ (time2) = constant Use the student’s data to deduce whether the student’s results support this conclusion.
+The student concludes that the results obey this relationship distance ÷ (time²) = constant Use the student’s data to deduce whether the student’s results support this conclusion.
 
 
 **Mark scheme answer**
@@ -834,7 +831,7 @@ The voltage across the LED is 0.63 V. Calculate the current in the circuit. Give
 > 0.0158 (A) = 1 mark
 > e.g. 6.6, 22.4, 15.8 (mA) = 2
 > voltage across resistor = 1.5 − 0.63 = 0.87 (V)
-> I = V/R = 0.87/95
+> $I = V/R = 0.87/95$
 > current = 0.00915… (A)
 > current = 9.2 (mA) allow current =
 > 9.15…(mA)

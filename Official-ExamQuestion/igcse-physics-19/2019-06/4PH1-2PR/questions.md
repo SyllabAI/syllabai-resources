@@ -147,7 +147,7 @@ State the formula linking speed, frequency and wavelength of a wave.
 
 > (wave) speed = frequency × wavelength; allow correct use of symbols
 > and rearrangements e.g.
-> v=f×λ
+> $v = f\times \lambda$
 > condone s as symbol for
 > speed
 
@@ -367,7 +367,7 @@ The mass of stearic acid used in the investigation is 0.45 kg. The stearic acid 
 > evaluation; -1 for POT error
 > e.g.
 > temperature change = 49 (°C)
-> 39 000 = 0.45 × c × 49
+> $39 000 = 0.45 \times c \times 49$
 > (c =) 39 000 / (0.45 × 49)
 > (c =) 1800 (J/kg°C) allow 1770, 1769,
 > 1768.7…
@@ -379,7 +379,6 @@ The mass of stearic acid used in the investigation is 0.45 kg. The stearic acid 
 > answer of 1.256…,
 > 1.733…, 1.238…
 > gains 2 marks
-> Answer Notes Marks
 
 - **(4)** correct evaluation of temperature change; allow 49 seen
 
@@ -521,11 +520,10 @@ The primary coil has 1200 turns. Using the student’s data, calculate the prima
 > 300 3.8
 > e.g. 400 5.0
 > number of turns = 600, output voltage = 7.5 V 500 6.3
-> V1 / 7.5 = 1200 / 600 600 7.5
-> (V1 =) (1200 × 7.5) / 600
-> (V1 =) 15 (V) allow range of 15–16
+> V₁ / 7.5 = 1200 / 600 600 7.5
+> (V₁ =) (1200 × 7.5) / 600
+> (V₁ =) 15 (V) allow range of 15–16
 > (V)
-> Answer Notes Marks
 
 - **(4)** pair of readings correctly read from the graph /
 

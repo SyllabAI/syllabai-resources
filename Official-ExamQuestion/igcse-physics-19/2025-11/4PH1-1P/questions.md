@@ -77,7 +77,7 @@ Sirius B and the Sun have approximately the same mass but are different colours 
 
 ### 1(b) [3]
 
-Sirius B orbits with Sirius A as part of a binary star system. The mean orbital radius of Sirius B is 29.7 × 109 km. The time for Sirius B to complete one orbit is 50 years. Calculate the mean orbital speed of Sirius B. Give your answer in km / s. mean orbital speed = km / s
+Sirius B orbits with Sirius A as part of a binary star system. The mean orbital radius of Sirius B is 29.7 × 10⁹ km. The time for Sirius B to complete one orbit is 50 years. Calculate the mean orbital speed of Sirius B. Give your answer in km / s. mean orbital speed = km / s
 
 
 **Mark scheme answer**
@@ -86,14 +86,13 @@ Sirius B orbits with Sirius A as part of a binary star system. The mean orbital 
 > substitution; allow ecf from incorrect or
 > no conversion
 > evaluation;
-> answer of 3.7… × 109 scores
+> answer of 3.7… × 10⁹ scores
 > 2 marks
 > e.g.
-> 50 years = 50 × 365 × 24 × 60 × 60 OR 1.5768 × 109 (s)
-> orbital speed = 2π × 29.7 (× 109) / 1.5768 (× 109)
+> 50 years = 50 × 365 × 24 × 60 × 60 OR 1.5768 × 10⁹ (s)
+> orbital speed = 2π × 29.7 (× 10⁹) / 1.5768 (× 10⁹)
 > (orbital speed =) 118 (km/s) allow 120, 118.2…, 118.3…
 > (km/s)
-> Answer Notes Marks
 
 - **(3)** conversion of time into seconds;
 
@@ -542,7 +541,7 @@ State the formula linking voltage, current and resistance.
 
 > voltage = current × resistance; allow standard symbols and
 > rearrangements e.g.
-> I=V÷R
+> $I = V\div R$
 > condone lower case symbols
 > ignore c, C for current
 
@@ -664,7 +663,7 @@ Give the name of a piece of apparatus that could be used to measure the mass of 
 
 ### 8(c) [4]
 
-The clay pot can be used to hold liquids. A student needs to determine the volume of liquid that can be contained in the pot. The student measures the mass of the empty pot and then measures the mass of the pot again when it is filled with a liquid. The table shows the student’s measurements. Mass of empty pot in kg 1.2 Mass of pot filled with liquid in kg 6.8 The density of the liquid used is 920 kg / m3. Calculate the volume of liquid that can be contained in the pot. Use the formula mass density = volume volume = m3
+The clay pot can be used to hold liquids. A student needs to determine the volume of liquid that can be contained in the pot. The student measures the mass of the empty pot and then measures the mass of the pot again when it is filled with a liquid. The table shows the student’s measurements. Mass of empty pot in kg 1.2 Mass of pot filled with liquid in kg 6.8 The density of the liquid used is 920 kg / m³. Calculate the volume of liquid that can be contained in the pot. Use the formula mass density = volume volume = m³
 
 ![table — official paper figure (qp.pdf p.23)](assets/asset_8_c_table.png)
 
@@ -680,9 +679,8 @@ The clay pot can be used to hold liquids. A student needs to determine the volum
 > mass of liquid = 6.8 − 1.2 = 5.6 (kg)
 > 920 = 5.6 ÷ volume
 > volume = 5.6 ÷ 920
-> (volume =) 0.0061 (m3) allow 0.006,
-> 0.00608… (m3)
-> Answer Notes Marks
+> (volume =) 0.0061 (m³) allow 0.006,
+> 0.00608… (m³)
 
 - **(4)** evaluation of mass of liquid;
 
@@ -777,12 +775,11 @@ Calculate the distance travelled by the car from 11.0 seconds to 15.0 seconds. d
 > speed = 85, 88
 > allow alternative valid
 > methods e.g.
-> using v2 = u2 + 2as with
+> using v² = u² + 2as with
 > e.g. calculated acceleration
 > distance = area
 > distance = 0.5 × 90 × 4.0
 > (distance =) 180 (m)
-> Question number Answer Notes Marks
 
 - **(3)** idea that distance = area (under line); allow statement that
 
@@ -966,7 +963,7 @@ The volume of the box is increased but the temperature of the gas remains consta
 > MP3. particles travel greater distance / time
 > between collisions increases;
 > MP4. particles collide less frequently (with walls allow statement of Boyle’s
-> of container); law e.g. p1V1 = p2V2
+> of container); law e.g. p₁V₁ = p₂V₂
 > MP5. decrease in (average) force (of particles on allow pressure is inversely
 > walls) / increase in area (for collisions); proportional to volume
 
@@ -974,7 +971,7 @@ The volume of the box is increased but the temperature of the gas remains consta
 
 ### 12(b)(i) [3]
 
-The liquid in the manometer is oil, which has a density of 820 kg/m3. The pressure difference between the atmosphere and the gas supply is 1850 Pa. Calculate the height difference between the liquid levels in the manometer. Use the formula pressure difference = height × density × gravitational field strength height difference = m
+The liquid in the manometer is oil, which has a density of 820 kg/m³. The pressure difference between the atmosphere and the gas supply is 1850 Pa. Calculate the height difference between the liquid levels in the manometer. Use the formula pressure difference = height × density × gravitational field strength height difference = m
 
 
 **Mark scheme answer**
@@ -997,7 +994,7 @@ The liquid in the manometer is oil, which has a density of 820 kg/m3. The pressu
 
 ### 12(b)(ii) [2]
 
-Different liquids can be used in the manometer. Liquid mercury has a density of 14 000 kg / m3. Suggest why liquid mercury would be more appropriate to use in the manometer when measuring very large pressure differences.
+Different liquids can be used in the manometer. Liquid mercury has a density of 14 000 kg / m³. Suggest why liquid mercury would be more appropriate to use in the manometer when measuring very large pressure differences.
 
 
 **Mark scheme answer**
@@ -1031,9 +1028,9 @@ The pressure of a sample of gas is 232 kPa at a temperature of 16 °C. Calculate
 > = 17(.17…) (°C)
 > e.g.
 > 16 °C = 289 K
-> 232 / 289 = 249 / T2
-> T2 = 249 × 289 / 232
-> (T2 = 310 K =) 37 (°C) allow 37.2, 37.1767… (°C)
+> 232 / 289 = 249 / T₂
+> T₂ = 249 × 289 / 232
+> (T₂ = 310 K =) 37 (°C) allow 37.2, 37.1767… (°C)
 
 - **(4)** conversion of initial temperature into kelvin;
 

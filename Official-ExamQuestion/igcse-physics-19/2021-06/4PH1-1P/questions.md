@@ -224,7 +224,7 @@ The diagram shows a velocity-time graph for a car from the time the driver sees 
 
 ### 4(a)(i) [3]
 
-Calculate the acceleration of the car between 1.8 and 8.0 seconds. acceleration = m/s2
+Calculate the acceleration of the car between 1.8 and 8.0 seconds. acceleration = m/s²
 
 
 **Mark scheme answer**
@@ -239,8 +239,8 @@ Calculate the acceleration of the car between 1.8 and 8.0 seconds. acceleration 
 > e.g.
 > acceleration = change in velocity / time
 > acceleration = (-)30 / 6.2
-> (acceleration =) (-)4.8 (m/s2) allow
-> (-)4.8 to (-)5.0 (m/s2)
+> (acceleration =) (-)4.8 (m/s²) allow
+> (-)4.8 to (-)5.0 (m/s²)
 
 - **(3)** use of acceleration = change in velocity / time; seen anywhere in
 
@@ -264,7 +264,7 @@ Calculate the braking distance of the car. braking distance = m
 > accept alternative
 > method using ecf
 > answer from (a)(i) and
-> v2 = u2 + 2as giving
+> v² = u² + 2as giving
 > 93.75 (m)
 
 - **(3)** clear indication that distance is area under line;
@@ -558,8 +558,7 @@ Uranium-235 decays to thorium-231 with a half-life of 700 million years. When a 
 > nuclei; of nuclei is
 > constant
 > 5600 (million) / 800 (million) = 7; allow
-> 7 × 800 = 5600
-> Answer Notes Marks
+> $7 \times 800 = 5600$
 
 - **(5)** any indication that 2100 million years is 3 half-lives;
 
@@ -639,24 +638,24 @@ At the top of the jump, the whale’s velocity is 0 m/s. The whale falls 2.2 m f
 
 **Mark scheme answer**
 
-> use of v2 = u2 + 2as; seen anywhere in
+> use of v² = u² + 2as; seen anywhere in
 > working
 > substitution; allow use of g=9.8, 9.81
 > rearrangement;
 > evaluation;
 > allow alternative
 > method using
-> mgh = 1/2mv2
+> mgh = 1/2mv²
 > e.g. final answer of 44 (m/s)
 > is 2 marks only
-> v2 = u2 + 2as
-> v2 = (0) + 2 × 10 × 2.2
+> v² = u² + 2as
+> $v^{2} = (0) + 2 \times 10 \times 2.2$
 > v = √44
 > (v =) 6.6 (m/s) allow 6.63…(m/s),
 > 6.56…(m/s)
 > 6.5 scores 3 marks only
 
-- **(4)** use of v2 = u2 + 2as; seen anywhere in
+- **(4)** use of v² = u² + 2as; seen anywhere in
 
 ### 9(b)(i) [1]
 
@@ -675,7 +674,7 @@ Draw an arrow to show this resultant force. (Source: © Eugenia Petrovskaya/Shut
 
 ### 9(b)(ii) [3]
 
-The resultant force acting on the whale is 18 000 N. The mass of the whale is 4100 kg. Calculate the acceleration of the whale. acceleration = m/s2
+The resultant force acting on the whale is 18 000 N. The mass of the whale is 4100 kg. Calculate the acceleration of the whale. acceleration = m/s²
 
 
 **Mark scheme answer**
@@ -684,23 +683,22 @@ The resultant force acting on the whale is 18 000 N. The mass of the whale is 41
 > rearrangement;
 > evaluation; -1 for POT error
 > e.g.
-> 18 000 = 4100 × a
-> a = 18 000 / 4100
-> (a =) 4.4 (m/s2) allow 4.39…(m/s2)
-> Answer Notes Marks
+> $18 000 = 4100 \times a$
+> $a = 18 000 / 4100$
+> (a =) 4.4 (m/s²) allow 4.39…(m/s²)
 
 - **(3)** substitution into F = ma;
 
 
 ## Question 10 (15 marks)
 
-The diagram shows a device called a hydraulic lift. The hydraulic lift consists of a tube of oil with a piston at each end. piston X piston Y cross-sectional area 1.2 m2 cross-sectional area 4.8 m2 57 cm oil
+The diagram shows a device called a hydraulic lift. The hydraulic lift consists of a tube of oil with a piston at each end. piston X piston Y cross-sectional area 1.2 m² cross-sectional area 4.8 m² 57 cm oil
 
 **(b)** A 24 kg mass is placed on piston X.
 
 ### 10(a) [3]
 
-Calculate the pressure difference between the bottom of piston X and the bottom of the oil. [density of oil = 820 kg/m3] pressure difference = Pa
+Calculate the pressure difference between the bottom of piston X and the bottom of the oil. [density of oil = 820 kg/m³] pressure difference = Pa
 
 
 **Mark scheme answer**
@@ -733,7 +731,7 @@ Calculate the weight of the 24 kg mass. Give the unit. weight = unit
 > incorrectly changing kg to g
 > correct unit; mark independently
 > e.g.
-> W = 24 × 10
+> $W = 24 \times 10$
 > (W =) 240 allow 235.2, 235.44
 > newtons / N
 
@@ -750,7 +748,7 @@ Calculate the extra pressure on the oil due to the mass. extra pressure = Pa
 > allow ecf from (i)
 > evaluation;
 > e.g.
-> p = 240 / 1.2
+> $p = 240 / 1.2$
 > (p =) 200 (Pa)
 
 - **(2)** substitution into p = F/A; no mark for formula on its own
@@ -767,8 +765,8 @@ The oil transfers the same extra pressure to piston Y. Calculate the force actin
 > rearrangement;
 > evaluation;
 > e.g.
-> 200 = F / 4.8
-> F = 200 × 4.8
+> $200 = F / 4.8$
+> $F = 200 \times 4.8$
 > (F =) 960 (N)
 
 - **(3)** substitution into p = F/A; no mark for formula on its own
@@ -883,7 +881,7 @@ Calculate the critical angle for the transparent material. critical angle = degr
 > substitution OR rearrangement; allow ecf from (iv)
 > evaluation;
 > e.g.
-> sin(c) = 1/1.7 OR c = sin-1(1/n)
+> sin(c) = 1/1.7 OR c = sin⁻¹(1/n)
 > (c =) 36 (degrees) allow 36.03…(degrees)
 
 - **(2)** substitution OR rearrangement; allow ecf from (iv)

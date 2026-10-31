@@ -7,7 +7,7 @@
 
 ### 1(a) [3]
 
-The boxes show some physical quantities and their units. Draw a straight line from each physical quantity to its correct unit. One has been done for you. Physical quantity Unit velocity metre per second squared (m / s2) force watt (W) power newton (N) moment metre per second (m / s) acceleration newton metre (N m)
+The boxes show some physical quantities and their units. Draw a straight line from each physical quantity to its correct unit. One has been done for you. Physical quantity Unit velocity metre per second squared (m / s²) force watt (W) power newton (N) moment metre per second (m / s) acceleration newton metre (N m)
 
 ![boxes — official paper figure (qp.pdf p.3)](assets/asset_1_a_boxes.png)
 
@@ -145,8 +145,8 @@ The sponge pad stores 5.0 mJ of energy in its electrostatic store. The voltage b
 > e.g.
 > (0.00)5 = charge × 6000
 > charge = (0.00)5 / 6000
-> (charge =) 8.3 × 10−7 (C) allow 8 × 10−7,
-> 8.33… × 10−7 (C)
+> (charge =) 8.3 × 10⁻⁷ (C) allow 8 × 10⁻⁷,
+> 8.33… × 10⁻⁷ (C)
 
 - **(3)** ignore unit conversions
 
@@ -225,7 +225,7 @@ The dummy is brought to rest during the collision by a mean force of 15 kN. Calc
 > rearrangement;
 > evaluation; −1 for POT error
 > e.g. 15 000 = 1100 / t
-> t = 1100 / 15 000
+> $t = 1100 / 15 000$
 > (t =) 0.073 (s) allow 0.07, 0.0733…,
 > 0.075, 0.0746…
 
@@ -292,7 +292,7 @@ Using this data, show that the specific heat capacity of the solid stearic acid 
 > rearrangement
 > e.g.
 > 3500 = 58 × c × [37−21]
-> c = 3500 / 58 × 16
+> $c = 3500 / 58 \times 16$
 > c = 3.8 allow 3.77…
 
 - **(3)** substitution into ∆Q = mc∆T;
@@ -587,23 +587,23 @@ Explain how a main sequence star evolves into a supernova.
 
 ### 8(c)(i) [4]
 
-Light emitted from a supernova at a wavelength of 7.774 × 10–7 m was detected at Earth with a wavelength of 7.780 × 10–7 m. Calculate the speed at which the galaxy containing this supernova was moving away from the Earth. [speed of light = 3.0 × 108 m / s] speed = m / s
+Light emitted from a supernova at a wavelength of 7.774 × 10⁻⁷ m was detected at Earth with a wavelength of 7.780 × 10⁻⁷ m. Calculate the speed at which the galaxy containing this supernova was moving away from the Earth. [speed of light = 3.0 × 10⁸ m / s] speed = m / s
 
 
 **Mark scheme answer**
 
 > evaluation of change of wavelength;
-> substitution into ∆λ/λ = v/c; −1 if 7.780 × 10−7 used as
+> substitution into ∆λ/λ = v/c; −1 if 7.780 × 10⁻⁷ used as
 > λ
 > rearrangement;
 > evaluation of speed;
-> 2.314 × 105 (m/s) gets 3
+> 2.314 × 10⁵ (m/s) gets 3
 > marks only
 > e.g.
-> ∆λ = (7.780-7.774) = 6 × 10−10 (m)
-> 6 × 10−10 / 7.774 × 10−7 = v / 3.0 × 108
-> v = 6 × 10−10 / 7.774 × 10−7 × 3.0 × 108
-> (v =) 2.315 × 105 (m/s) allow 2.3 × 105
+> ∆λ = (7.780-7.774) = 6 × 10⁻¹⁰ (m)
+> 6 × 10⁻¹⁰ / 7.774 × 10⁻⁷ = v / 3.0 × 10⁸
+> v = 6 × 10⁻¹⁰ / 7.774 × 10⁻⁷ × 3.0 × 10⁸
+> (v =) 2.315 × 10⁵ (m/s) allow 2.3 × 10⁵
 
 - **(4)** evaluation of change of wavelength;
 

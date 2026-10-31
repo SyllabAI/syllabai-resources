@@ -92,7 +92,7 @@ The material has a mass of 0.29 kg. Calculate the specific heat capacity of the 
 > i.e. correct unrounded
 > energy transferred = mass × SHC × temp change answer using 3700
 > 3744 = 0.29 × c × 28 (J) is 455 ( J/kg oC)
-> c = 3744 ÷ (0.29 × 28)
+> $c = 3744 \div (0.29 \times 28)$
 > c = 460 (J/kg oC) correct answer
 > with no working
 > scores full marks
@@ -103,8 +103,6 @@ The material has a mass of 0.29 kg. Calculate the specific heat capacity of the 
 > to (i) with ECF are:
 > 430, 425, 310, 300,
 > 180
-> Total for question 1: 8 marks
-> Answer Notes Marks
 
 - **(3)** MP1 substitution of the material’s mass, the rearrangement and
 
@@ -359,7 +357,7 @@ State the formula linking efficiency, useful output energy and total output ener
 
 ### 4(c)(ii) [3]
 
-In the power station, the fission of 1.0 kg of uranium-235 fuel gives a power output of 2.4 ×1010 W for 3600 seconds. 3.2 × 1013 J of the energy is transferred usefully to the National Grid. Calculate the efficiency of the power station. Give your answer as a percentage. efficiency = %
+In the power station, the fission of 1.0 kg of uranium-235 fuel gives a power output of 2.4 ×10¹⁰ W for 3600 seconds. 3.2 × 10¹³ J of the energy is transferred usefully to the National Grid. Calculate the efficiency of the power station. Give your answer as a percentage. efficiency = %
 
 > 🖼 crop required: grid (qp.pdf p.10)
 
@@ -379,12 +377,10 @@ In the power station, the fission of 1.0 kg of uranium-235 fuel gives a power ou
 > i.e.
 > answers of 37 to any
 > total energy output = power × time other power of ten
-> total energy output = 2.4 ×1010 × 3600 scores 2 marks
-> efficiency = (3.2 × 1013)
-> ÷ (2.4 ×1010 × 3600)
+> total energy output = 2.4 ×10¹⁰ × 3600 scores 2 marks
+> efficiency = (3.2 × 10¹³)
+> ÷ (2.4 ×10¹⁰ × 3600)
 > efficiency = 37(%)
-> Total for question 4: 10 marks
-> Answer Notes Marks
 
 - **(3)** MP1 substitution into or rearrangement of given allow value of energy
 
@@ -424,7 +420,7 @@ Diagram 2 shows the two balloons after the student has rubbed them together and 
 
 ### 5(b) [4]
 
-The student changes the distance between the two balloons and measures the force of attraction between them. The graph shows the student’s results. Force in mN 0.0 1.0 2.0 3.0 4.0 5.0 6.0 Distance in cm The student suggests that the distance between the two balloons and the force of attraction between the two balloons obey this relationship (distance)2 × force = constant Use data from the graph to determine if the results from the investigation support this relationship.
+The student changes the distance between the two balloons and measures the force of attraction between them. The graph shows the student’s results. Force in mN 0.0 1.0 2.0 3.0 4.0 5.0 6.0 Distance in cm The student suggests that the distance between the two balloons and the force of attraction between the two balloons obey this relationship (distance)² × force = constant Use data from the graph to determine if the results from the investigation support this relationship.
 
 ![graph — official paper figure (qp.pdf p.14)](assets/asset_5_b_graph.png)
 
@@ -507,7 +503,7 @@ Describe how the student could use an oscilloscope and a microphone to measure t
 
 ### 6(b)(ii) [3]
 
-The diagram shows the oscilloscope trace. Oscilloscope settings: y-direction: 1 square = 50 mV x-direction: 1 square = 1.0 × 10–5 s Determine the frequency of the sound wave. frequency = Hz
+The diagram shows the oscilloscope trace. Oscilloscope settings: y-direction: 1 square = 50 mV x-direction: 1 square = 1.0 × 10⁻⁵ s Determine the frequency of the sound wave. frequency = Hz
 
 ![diagram — official paper figure (qp.pdf p.18)](assets/asset_6_b_ii_diagram.png)
 
@@ -524,8 +520,8 @@ The diagram shows the oscilloscope trace. Oscilloscope settings: y-direction: 1 
 > to 2 or more sf
 > i.e.
 > period = 5.6 squares accept standard form
-> period = 5.6 × 10-5 seconds throughout
-> frequency = 1 ÷ (5.6 × 10-5 )
+> period = 5.6 × 10⁻⁵ seconds throughout
+> frequency = 1 ÷ (5.6 × 10⁻⁵ )
 > frequency = 18 000 (Hz) to 2 sf
 > Note periods that round
 > to between 5.25 and 5.85
@@ -622,7 +618,7 @@ Explain how the redshift of light from galaxies provides evidence for the Big Ba
 
 ### 7(b) [4]
 
-The diagram shows the spectrum of light from a star and from a hydrogen lamp on Earth. hydrogen lamp on Earth wavelength 410 434 486 656 star wavelength 406 430 481 649 All wavelengths are in nanometres. A student suggests that the star appears red because it is moving away from the Earth at 1% of the speed of light. Use data from the diagram to evaluate the student’s suggestion. [speed of light = 3.0 × 108 m/s]
+The diagram shows the spectrum of light from a star and from a hydrogen lamp on Earth. hydrogen lamp on Earth wavelength 410 434 486 656 star wavelength 406 430 481 649 All wavelengths are in nanometres. A student suggests that the star appears red because it is moving away from the Earth at 1% of the speed of light. Use data from the diagram to evaluate the student’s suggestion. [speed of light = 3.0 × 10⁸ m/s]
 
 ![diagram — official paper figure (qp.pdf p.20)](assets/asset_7_b_diagram.png)
 

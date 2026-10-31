@@ -228,7 +228,7 @@ Calculate the period of this sound wave. period = s
 > e.g. Condone period = 0.0005 (s) or
 > Period = 4 squares 0.002 (s) or in standard form for 2
 > Period = 4 x 0.25 (ms) marks MAX.
-> Period = 1.0 x 10-3 (s)
+> Period = 1.0 x 10⁻³ (s)
 
 - **(3)** Measurement of one period on oscilloscope;
 
@@ -241,9 +241,8 @@ Calculate the frequency of this sound wave. frequency = Hz
 
 > Substitution into given equation f = 1/ T; Allow ECF from b) (i)
 > Evaluation;
-> i.e f = 1/(1.0 x 10-3)
+> i.e f = 1/(1.0 x 10⁻³)
 > f = 1000 (Hz)
-> Answer Notes Marks
 
 - **(2)** Substitution into given equation f = 1/ T; Allow ECF from b) (i)
 
@@ -318,7 +317,7 @@ Explain how the path of the alpha particle shows whether the nucleus is positive
 
 ### 4(c) [3]
 
-The alpha particle experiences a resultant force of 3.6 N and has a mass of 6.6 × 10–27 kg. Calculate the acceleration of the alpha particle. acceleration = m/ s 2
+The alpha particle experiences a resultant force of 3.6 N and has a mass of 6.6 × 10⁻²⁷ kg. Calculate the acceleration of the alpha particle. acceleration = m/ s 2
 
 
 **Mark scheme answer**
@@ -328,12 +327,11 @@ The alpha particle experiences a resultant force of 3.6 N and has a mass of 6.6 
 > Substitution or re-arrangement;
 > Evaluation;
 > -1 for PoT error
-> e.g. a = 3.6 / 6.6 x 10-27 = 5.5 x 1026 m/s2
+> e.g. a = 3.6 / 6.6 x 10⁻²⁷ = 5.5 x 10²⁶ m/s²
 > Allow 5.45 x 1026,
 > 5.454 x 1026, 5.4545…
 > x 1026 etc
 > Condone 5.4 x 1026
-> Answer Notes Marks
 
 - **(3)** Selection of F = ma; Can be implied from
 
@@ -584,7 +582,7 @@ This is a question about a melting ice cube.
 
 ### 9(a)(i) [4]
 
-The mass of the ice cube is 3.7 g and its area of contact with the ground is 2.6 × 10–4 m2. Calculate the pressure the ice cube exerts on the ground. pressure = Pa
+The mass of the ice cube is 3.7 g and its area of contact with the ground is 2.6 × 10⁻⁴ m². Calculate the pressure the ice cube exerts on the ground. pressure = Pa
 
 
 **Mark scheme answer**
@@ -595,8 +593,8 @@ The mass of the ice cube is 3.7 g and its area of contact with the ground is 2.6
 > Evaluation of pressure;
 > Correct answer: 140 (Pa) Accept any value that
 > i.e. rounds to 140. i.e 142,
-> W = 3.7 x 10-3 x 10 = 3.7 x 10-2 N; 142.3,
-> P = 3.7 x 10-2 / (2.6 x 10-4);
+> W = 3.7 x 10⁻³ x 10 = 3.7 x 10⁻² N; 142.3,
+> P = 3.7 x 10⁻² / (2.6 x 10⁻⁴);
 > P = 140 (Pa); Accept use of 9.8(1) for
 > ‘g’, giving 139(.46)
 

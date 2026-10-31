@@ -86,7 +86,7 @@ State the formula linking density, mass and volume.
 
 ### 2(b) [3]
 
-The brass mass has a mass of 454 g. The density of brass is 8.46 g/cm3. Calculate the volume of the brass mass. Give the unit. volume = unit
+The brass mass has a mass of 454 g. The density of brass is 8.46 g/cm³. Calculate the volume of the brass mass. Give the unit. volume = unit
 
 
 **Mark scheme answer**
@@ -94,15 +94,14 @@ The brass mass has a mass of 454 g. The density of brass is 8.46 g/cm3. Calculat
 > substitution OR rearrangement; equation must be
 > correct
 > evaluation; -1 for POT error
-> unit; allow m3 only if
+> unit; allow m³ only if
 > consistent with data
 > used
 > e.g.
 > 8.46 = 454 / V OR V = m / ρ
 > (V =) 53.7 53.664…
 > cm3
-> 5.37 × 10-5 m3 gains 3
-> Answer Notes Marks
+> 5.37 × 10⁻⁵ m3 gains 3
 
 - **(3)** substitution OR rearrangement; equation must be
 
@@ -274,9 +273,9 @@ It takes a time of 12 s from when the powder starts landing in the metal can unt
 > rearrangement;
 > evaluation; -1 for POT error
 > e.g.
-> (-) 9.4 × 10-9 = current × 12
-> (current =) (-) 9.4 × 10-9 / 12
-> (current =) (-) 7.8 × 10-10 (A) 7.83… × 10-10 (A)
+> (-) 9.4 × 10⁻⁹ = current × 12
+> (current =) (-) 9.4 × 10⁻⁹ / 12
+> (current =) (-) 7.8 × 10⁻¹⁰ (A) 7.83… × 10⁻¹⁰ (A)
 
 - **(3)** substitution;
 
@@ -525,7 +524,7 @@ Calculate the number of uranium‑238 atoms in the plate. number of atoms =
 > evaluation of number of atoms;
 > e.g.
 > mass = (1.1 × 0.045) = 0.0495 kg
-> (n = 0.0495 / 4.0 × 10-27 =) 1.2 × 1025 1.2375 × 1025
+> (n = 0.0495 / 4.0 × 10⁻²⁷ =) 1.2 × 10²⁵ 1.2375 × 10²⁵
 
 - **(2)** evaluation of mass of U-238 in plate; accept 49.5 g or 0.0495
 

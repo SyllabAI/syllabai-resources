@@ -56,7 +56,7 @@ Determine the time taken for the light to travel from the Earth to the Moon and 
 
 ### 1(c)(ii) [2]
 
-The speed of light is 3.0 × 105 km/s. Calculate the total distance travelled by the light from the laser. [average speed = distance moved ÷ time taken] total distance = km
+The speed of light is 3.0 × 10⁵ km/s. Calculate the total distance travelled by the light from the laser. [average speed = distance moved ÷ time taken] total distance = km
 
 
 **Mark scheme answer**
@@ -133,9 +133,9 @@ Earth orbits the Sun in 365 days with an orbital radius of 150 000 000 km. Calcu
 > correct evaluation;
 > Correct answer: 30 km/s
 > e.g.
-> 365 × 24 × 60 × 60 = 31.5 × 106 s
+> 365 × 24 × 60 × 60 = 31.5 × 10⁶ s
 > Orbital speed = (2 π r ) ÷ T
-> Orbital speed = ( 2 x π ×150 000 000) / 31.5…. × 106 s
+> Orbital speed = ( 2 x π ×150 000 000) / 31.5…. × 10⁶ s
 > Orbital speed = 29.9 km/s
 
 - **(3)** evidence of correct conversion from days to seconds;
@@ -239,7 +239,7 @@ State the formula linking pressure difference, height, density and gravitational
 
 ### 3(b)(ii) [2]
 
-Calculate the increase in pressure on the balloon when it has reached a depth of 25 m in the water. [for water, density = 1000 kg/m3] pressure increase = Pa
+Calculate the increase in pressure on the balloon when it has reached a depth of 25 m in the water. [for water, density = 1000 kg/m³] pressure increase = Pa
 
 
 **Mark scheme answer**
@@ -257,20 +257,20 @@ Calculate the increase in pressure on the balloon when it has reached a depth of
 
 ### 3(b)(iii) [1]
 
-At the surface, the atmospheric pressure on the balloon is 1.0 × 105 Pa. Show that the total pressure on the balloon at a depth of 25 m is 3.5 × 105 Pa.
+At the surface, the atmospheric pressure on the balloon is 1.0 × 10⁵ Pa. Show that the total pressure on the balloon at a depth of 25 m is 3.5 × 10⁵ Pa.
 
 
 **Mark scheme answer**
 
-> addition of 1.0 × 105 to candidate’s answer to accept answer not given in
+> addition of 1.0 × 10⁵ to candidate’s answer to accept answer not given in
 > (ii); standard form
 > correct answer: 3.5 × 10 5 (Pa)
 
-- **(1)** addition of 1.0 × 105 to candidate’s answer to accept answer not given in
+- **(1)** addition of 1.0 × 10⁵ to candidate’s answer to accept answer not given in
 
 ### 3(b)(iv) [3]
 
-At the surface, where the pressure is 1.0 × 105 Pa, the balloon has a volume of 0.46 m3. Calculate the volume of the balloon at a depth of 25 m. volume = m3
+At the surface, where the pressure is 1.0 × 10⁵ Pa, the balloon has a volume of 0.46 m³. Calculate the volume of the balloon at a depth of 25 m. volume = m³
 
 
 **Mark scheme answer**
@@ -279,13 +279,12 @@ At the surface, where the pressure is 1.0 × 105 Pa, the balloon has a volume of
 > either order;
 > rearrangement;
 > correct evaluation;
-> correct answer: 0.13(14) (m3) condone use of 2.5 × 105 Pa
-> giving V = 0.18… (m3) for 2
-> e.g. p1 × V1 = p2 × V2 condone use of 2.45 × 105 Pa
-> 1.0 × 105 × 0.46 = 3.5 × 105 × V2 giving V = 0.188… (m3) for 2
-> V2 = (1.0 × 105 × 0.46) ÷ (3.5 × 105 ) marks
-> V2 = 0.1314 (m3)
-> Answer Notes Marks
+> correct answer: 0.13(14) (m³) condone use of 2.5 × 10⁵ Pa
+> giving V = 0.18… (m³) for 2
+> e.g. p₁ × V₁ = p₂ × V₂ condone use of 2.45 × 10⁵ Pa
+> 1.0 × 10⁵ × 0.46 = 3.5 × 10⁵ × V₂ giving V = 0.188… (m³) for 2
+> V₂ = (1.0 × 10⁵ × 0.46) ÷ (3.5 × 10⁵ ) marks
+> V₂ = 0.1314 (m³)
 
 - **(3)** substitution into given equation; subs and rearrange can be in
 
@@ -451,10 +450,9 @@ The half-life of a radioactive isotope is 12 years. The activity of a sample of 
 > correct evaluation;
 > correct answer: 7.5 (kBq)
 > e.g. 120 ÷ 2 = 60
-> 60 ÷ 2 = 30
-> 30 ÷ 2 = 15
-> 15 ÷ 2 = 7.5
-> Question number Answer Notes Marks
+> $60 \div 2 = 30$
+> $30 \div 2 = 15$
+> $15 \div 2 = 7.5$
 
 - **(3)** evidence of activity halved;
 
@@ -594,7 +592,7 @@ The block has a refractive index of 1.52 Use the formula to show that the angle 
 > 1.52 = sin(51)/sin(r)
 > sin(r) = sin(51)/1.52
 > sin(r) = 0.511…
-> r = sin-1(0.511…) = 30.7… degrees
+> r = sin⁻¹(0.511…) = 30.7… degrees
 
 - **(3)** substitution; allow ECF from (i)
 
@@ -633,7 +631,11 @@ State what happens to the ray at point L.
 
 ## Question 8 (9 marks)
 
-A student wants to determine the density of air using an irregularly‑shaped balloon made of metal foil. The balloon has a label stating that the volume of the balloon when full is 490 cm3. This is part of the student’s method. Step 1 measure the mass of the empty balloon Step 2 fill the balloon with air Step 3 measure the mass of the full balloon Step 4 subtract the mass of the empty balloon from the mass of the full balloon.
+A student wants to determine the density of air using an irregularly‑shaped balloon made of metal foil. The balloon has a label stating that the volume of the balloon when full is 490 cm³. This is part of the student’s method.
+Step 1 measure the mass of the empty balloon
+Step 2 fill the balloon with air
+Step 3 measure the mass of the full balloon
+Step 4 subtract the mass of the empty balloon from the mass of the full balloon.
 
 ### 8(a)(i) [1]
 
@@ -661,7 +663,7 @@ Suggest how the student could improve the reliability of their data.
 
 ### 8(b) [4]
 
-The table shows the student’s results. Mass of empty balloon in g 15.00 Mass of balloon when full of air in g 15.61 Volume of air in cm3 490 Calculate the density of air to 2 significant figures. Give the unit. density = unit
+The table shows the student’s results. Mass of empty balloon in g 15.00 Mass of balloon when full of air in g 15.61 Volume of air in cm³ 490 Calculate the density of air to 2 significant figures. Give the unit. density = unit
 
 ![table — official paper figure (qp.pdf p.20)](assets/asset_8_b_table.png)
 
@@ -671,16 +673,16 @@ The table shows the student’s results. Mass of empty balloon in g 15.00 Mass o
 > mass of air is 0.61 g;
 > correct use of formula: density = mass/volume;
 > correct evaluation to 2 sf; −1 POT error
-> appropriate unit i.e. g/cm3;
-> correct answer = 0.0012 g/cm3 accept use of standard
-> form i.e. 1.2(4) × 10-3
-> g/cm3
+> appropriate unit i.e. g/cm³;
+> correct answer = 0.0012 g/cm³ accept use of standard
+> form i.e. 1.2(4) × 10⁻³
+> g/cm³
 > e.g.
 > mass of air = 15.61 − 15.00 = 0.61
 > density = mass ÷ volume
 > density = 0.61 ÷ 490
-> density = 0.00124 g/cm3
-> density = 0.0012 g/cm3 to 2 sf
+> density = 0.00124 g/cm³
+> density = 0.0012 g/cm³ to 2 sf
 
 - **(4)** mass of air is 0.61 g;
 
@@ -770,16 +772,16 @@ Calculate the kinetic energy (KE) of the alpha particle. KE = J
 
 **Mark scheme answer**
 
-> recall of KE = ½ m v2;
+> recall of KE = ½ m v²;
 > substitution;
 > correct evaluation; −1 POT error
-> correct answer: 1.5 × 10−12 (J)
+> correct answer: 1.5 × 10⁻¹² (J)
 > e.g.
-> KE = ½ m v2
-> KE = ½ × (6.6 × 10−27) × (2.1 × 107)2
-> KE = 1.4553 x 10−12 (J)
+> KE = ½ m v²
+> KE = ½ × (6.6 × 10⁻²⁷) × (2.1 × 10⁷)²
+> KE = 1.4553 x 10⁻¹² (J)
 
-- **(3)** recall of KE = ½ m v2;
+- **(3)** recall of KE = ½ m v²;
 
 ### 9(c)(ii) [1]
 
@@ -789,7 +791,7 @@ State the work done on the alpha particle when its speed is reduced to 0 m/s by 
 **Mark scheme answer**
 
 > candidate’s answer for (i)
-> e.g. 1.5 × 10−12 (J)
+> e.g. 1.5 × 10⁻¹² (J)
 
 - **(1)** candidate’s answer for (i)
 
@@ -838,7 +840,7 @@ State the formula linking resultant force, mass and acceleration.
 
 ### 10(a)(iii) [3]
 
-The mass of the firework is 160 g. Calculate the acceleration of the firework. acceleration = m/s2
+The mass of the firework is 160 g. Calculate the acceleration of the firework. acceleration = m/s²
 
 
 **Mark scheme answer**
@@ -848,11 +850,11 @@ The mass of the firework is 160 g. Calculate the acceleration of the firework. a
 > incorrect resultant
 > force
 > correct evaluation;
-> correct answer: 165 (m/s2) Condone rounding
+> correct answer: 165 (m/s²) Condone rounding
 > to 160 or 170.
 > e.g. acceleration = resultant force ÷ mass
 > acceleration = 26.4 ÷ 0.16
-> acceleration = 165 (m/s2)
+> acceleration = 165 (m/s²)
 
 - **(3)** conversion of 160 g to 0.16 kg;
 

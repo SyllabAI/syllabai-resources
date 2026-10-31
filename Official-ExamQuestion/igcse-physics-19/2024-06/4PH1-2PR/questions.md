@@ -285,7 +285,7 @@ A collision is considered elastic if the total kinetic energy before the collisi
 
 **Mark scheme answer**
 
-> use of KE = ½ × m × v2; seen explicitly or
+> use of KE = ½ × m × v²; seen explicitly or
 > implied from working
 > evaluation of KE before collision; allow 0.2, 0.22, 0.216,
 > 0.216… (J)
@@ -295,9 +295,8 @@ A collision is considered elastic if the total kinetic energy before the collisi
 > comparison with correct conclusion that collision is DOP
 > not elastic/inelastic; allow ecf from KE
 > calculations
-> Answer Notes Marks
 
-- **(4)** use of KE = ½ × m × v2; seen explicitly or
+- **(4)** use of KE = ½ × m × v²; seen explicitly or
 
 
 ## Question 6 (10 marks)
@@ -507,7 +506,7 @@ Give a reason why the proton is attracted to the negatively charged plate.
 
 ### 8(a)(ii) [3]
 
-The proton accelerates at 1.90 × 1011 m / s2 from rest to a speed of 1.38 × 105 m / s. Show that the time taken for this acceleration is about 7 × 10–7 s.
+The proton accelerates at 1.90 × 10¹¹ m / s² from rest to a speed of 1.38 × 10⁵ m / s. Show that the time taken for this acceleration is about 7 × 10⁻⁷ s.
 
 
 **Mark scheme answer**
@@ -521,12 +520,12 @@ The proton accelerates at 1.90 × 1011 m / s2 from rest to a speed of 1.38 × 10
 > acceleration or speed to
 > 4 s.f. or more
 > e.g.
-> 1.90 × 1011 = 1.38 × 105 / t
-> t = 1.38 × 105 / 1.90 × 1011
-> t = 7.26… × 10-7 (s) allow 0.000 000 73,
-> 7.3 × 10-7 (s)
+> 1.90 × 10¹¹ = 1.38 × 10⁵ / t
+> t = 1.38 × 10⁵ / 1.90 × 10¹¹
+> t = 7.26… × 10⁻⁷ (s) allow 0.000 000 73,
+> 7.3 × 10⁻⁷ (s)
 > condone 0.000 000 72,
-> 7.2 × 10-7 (s)
+> 7.2 × 10⁻⁷ (s)
 
 - **(3)** substitution into a = (v-u)/t;
 

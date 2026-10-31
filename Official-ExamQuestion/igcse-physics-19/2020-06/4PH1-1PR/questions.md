@@ -143,7 +143,7 @@ State the formula linking average speed, distance moved and time taken.
 
 > (average) speed = distance / time; allow standard symbols and
 > rearrangements e.g.
-> v = s/t
+> $v = s/t$
 > allow s for speed and d for
 > distance
 
@@ -201,11 +201,11 @@ State the formula linking kinetic energy, mass and speed.
 
 **Mark scheme answer**
 
-> kinetic energy = ½ × mass × speed2; allow standard symbols and
+> kinetic energy = ½ × mass × speed²; allow standard symbols and
 > rearrangements e.g.
-> KE = ½ × m × v2
+> KE = ½ × m × v²
 
-- **(1)** kinetic energy = ½ × mass × speed2; allow standard symbols and
+- **(1)** kinetic energy = ½ × mass × speed²; allow standard symbols and
 
 ### 3(c)(ii) [2]
 
@@ -217,9 +217,8 @@ Calculate the energy in the kinetic store of the meteor just before the meteor e
 > substitution;
 > evaluation; -1 for POT error
 > e.g.
-> (KE =) 0.5 × 1.25 × 107 × 192002
-> (KE =) 2.30 × 1015 (J) allow 2.304 × 1015 (J)
-> Answer Notes Marks
+> (KE =) 0.5 × 1.25 × 10⁷ × 192002
+> (KE =) 2.30 × 10¹⁵ (J) allow 2.304 × 10¹⁵ (J)
 
 - **(2)** substitution;
 
@@ -340,7 +339,7 @@ State the formula linking power, current and voltage.
 
 > power = current × voltage; allow standard symbols and
 > rearrangements e.g.
-> P=I×V
+> $P = I\times V$
 > reject C for current, W for
 > power
 
@@ -425,7 +424,7 @@ Describe how the student should use a measuring cylinder to obtain an accurate m
 
 ### 6(c) [3]
 
-The table gives the values of the densities for some liquids. Liquid Density in g/cm3 brine 1.23 glucose 1.44 olive oil 0.82 pure water 1.00 sodium hydroxide 1.25 sunflower oil 0.92 The student measures the mass of the sample of unknown liquid as 150 g and the volume as 163 cm3. Deduce the name of the unknown liquid.
+The table gives the values of the densities for some liquids. Liquid Density in g/cm3 brine 1.23 glucose 1.44 olive oil 0.82 pure water 1.00 sodium hydroxide 1.25 sunflower oil 0.92 The student measures the mass of the sample of unknown liquid as 150 g and the volume as 163 cm³. Deduce the name of the unknown liquid.
 
 ![table — official paper figure (qp.pdf p.15)](assets/asset_6_c_table.png)
 
@@ -437,10 +436,9 @@ The table gives the values of the densities for some liquids. Liquid Density in 
 > liquid is sunflower oil;
 > e.g.
 > density = 150 / 163
-> density = 0.92 (g/cm3)
+> density = 0.92 (g/cm³)
 > closest to sunflower oil => liquid is sunflower oil unsupported correct
 > conclusion scores 1 mark only
-> Answer Notes Marks
 
 - **(3)** use of density formula;
 
@@ -518,7 +516,7 @@ Show that the gravitational store of the 1.0 kg mass increases by 5.0 J when it 
 > substitution into GPE = mass × g × height;
 > e.g.
 > 50 cm = 0.5 m allow 0.5 seen anywhere
-> GPE = 1 × 10 × 0.5 (= 5 J) allow use of g = 9.8(1) (m/s2)
+> GPE = 1 × 10 × 0.5 (= 5 J) allow use of g = 9.8(1) (m/s²)
 
 - **(2)** conversion of cm to m;
 
@@ -752,7 +750,7 @@ The graph shows how the thinking distance and braking distance of a car vary wit
 
 ### 11(a) [4]
 
-A car has an initial speed of 35 m/s. The brakes are applied and the car comes to a complete stop in the braking distance shown by the graph. Calculate the mean braking acceleration of the car. braking acceleration = m/s2
+A car has an initial speed of 35 m/s. The brakes are applied and the car comes to a complete stop in the braking distance shown by the graph. Calculate the mean braking acceleration of the car. braking acceleration = m/s²
 
 ![graph — official paper figure (qp.pdf p.28) — shared with asset_11_a_graph_stem](assets/asset_11_a_graph_stem.png)
 
@@ -760,14 +758,14 @@ A car has an initial speed of 35 m/s. The brakes are applied and the car comes t
 **Mark scheme answer**
 
 > value of braking distance correctly read from graph; allow 77-79 m
-> substitution into v2 = u2 + 2as; allow ecf incorrect distance
+> substitution into v² = u² + 2as; allow ecf incorrect distance
 > rearrangement;
 > evaluation;
 > e.g.
 > braking distance = 78 m
-> 0 = 352 + (2 × a × 78)
+> 0 = 35² + (2 × a × 78)
 > (a =) (-) 352 / (2 × 78)
-> (a =) (-) 7.9 (m/s2) allow 7.75… - 7.95…(m/s2)
+> (a =) (-) 7.9 (m/s²) allow 7.75… - 7.95…(m/s²)
 
 - **(4)** value of braking distance correctly read from graph; allow 77-79 m
 

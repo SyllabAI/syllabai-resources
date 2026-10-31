@@ -226,7 +226,7 @@ Give two differences between the properties of visible light waves and infrared 
 
 ### 3(c) [3]
 
-The infrared heating lamps are placed 1.5 m from the car. Calculate the time taken for infrared waves emitted from a lamp to reach the car. [for infrared waves, speed = 3.0 × 108 m/s] time taken = s
+The infrared heating lamps are placed 1.5 m from the car. Calculate the time taken for infrared waves emitted from a lamp to reach the car. [for infrared waves, speed = 3.0 × 10⁸ m/s] time taken = s
 
 
 **Mark scheme answer**
@@ -235,9 +235,9 @@ The infrared heating lamps are placed 1.5 m from the car. Calculate the time tak
 > rearrangement;
 > evaluation; -1 for POT error
 > e.g.
-> 3.0 × 108 = 1.5 / time
-> time = 1.5 / 3.0 × 108
-> (time =) 5.0 × 10−9 (s) allow 5 × 10−9 (s),
+> 3.0 × 10⁸ = 1.5 / time
+> time = 1.5 / 3.0 × 10⁸
+> (time =) 5.0 × 10⁻⁹ (s) allow 5 × 10⁻⁹ (s),
 > 0.000 000 005 (s)
 
 - **(3)** substitution into speed = distance / time;
@@ -378,7 +378,7 @@ The object is pulled down and then released. Diagram 2 shows the forces acting o
 
 ### 5(b)(ii) [3]
 
-The object has a mass of 0.20 kg. Calculate the acceleration of the object at the instant it is released. acceleration = m/s2
+The object has a mass of 0.20 kg. Calculate the acceleration of the object at the instant it is released. acceleration = m/s²
 
 
 **Mark scheme answer**
@@ -387,9 +387,9 @@ The object has a mass of 0.20 kg. Calculate the acceleration of the object at th
 > rearrangement;
 > evaluation; -1 for POT error
 > e.g.
-> 1.2 = 0.20 × a
-> a = 1.2 / 0.20
-> (a =) 6.0 (m/s2) allow 6 (m/s2)
+> $1.2 = 0.20 \times a$
+> $a = 1.2 / 0.20$
+> (a =) 6.0 (m/s²) allow 6 (m/s²)
 
 - **(3)** substitution into F = m × a; allow ecf from (i)
 
@@ -572,7 +572,7 @@ Show that lamp 1 has a power of about 5 W.
 > least 3 s.f. using a power of 5 W
 > for full marks
 > e.g.
-> power = 230 × 22(×10-3)
+> power = 230 × 22(×10⁻³)
 > power = 230 × 0.022
 > power = 5.1 (W) allow 5.06 (W)
 
@@ -592,8 +592,8 @@ Calculate the energy transferred by lamp 1 when it is on for 30 seconds. energy 
 > evaluation; -1 for POT error
 > e.g.
 > 5 = E / 30 allow
-> E = 230 × 22(×10-3) × 30
-> E = 5 × 30
+> E = 230 × 22(×10⁻³) × 30
+> $E = 5 \times 30$
 > E = 150 (J) allow 151.8, 152, 153
 
 - **(3)** substitution into P = E/t; allow ecf from (ii)
@@ -910,7 +910,7 @@ Calculate the time taken to recharge the electronic device. Give your answer in 
 > conversion to minutes; mark independently and
 > apply ecf
 > e.g.
-> 3.8 × 103 = 2.4 × t OR t = Q/I
+> 3.8 × 10³ = 2.4 × t OR t = Q/I
 > (t =) 1600 (s) allow 1580, 1583…
 > (t =) 26 (minutes) allow 26-27 (minutes)
 
@@ -968,7 +968,7 @@ A car accelerates with a constant driving force along a horizontal road and reac
 
 ### 12(a) [4]
 
-By drawing a tangent to the curve, determine the acceleration of the car at a time of 20 s. acceleration = m/s2
+By drawing a tangent to the curve, determine the acceleration of the car at a time of 20 s. acceleration = m/s²
 
 
 **Mark scheme answer**
@@ -978,8 +978,8 @@ By drawing a tangent to the curve, determine the acceleration of the car at a ti
 > acceleration = gradient; allow if seen explicitly
 > or from a clear attempt
 > to calculate a gradient
-> acceleration in the range 1.00-1.20 (m/s2); scores 3 marks total
-> acceleration in the range 1.05-1.15 (m/s2); scores 4 marks total
+> acceleration in the range 1.00-1.20 (m/s²); scores 3 marks total
+> acceleration in the range 1.05-1.15 (m/s²); scores 4 marks total
 
 - **(4)** appropriate attempt to draw tangent at 20s on the
 

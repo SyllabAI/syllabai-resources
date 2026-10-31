@@ -111,7 +111,7 @@ The table shows gravitational field strengths at the surfaces of four different 
 
 ### 2(a)(ii) [4]
 
-A student claims that the relationship between the gravitational field strength and the diameter of a planet is given by this formula. gravitational field strength × (diameter)2 = constant Using data from the table, evaluate the student’s claim.
+A student claims that the relationship between the gravitational field strength and the diameter of a planet is given by this formula. gravitational field strength × (diameter)² = constant Using data from the table, evaluate the student’s claim.
 
 ![table — official paper figure (qp.pdf p.6) — shared with 2(a)(i)](assets/asset_2_a_i_table.png)
 
@@ -185,8 +185,8 @@ A mass of 14 000 kg of water enters the turbine. Calculate the velocity of the w
 > correct evaluation; accept any answer
 > that rounds to 8.6
 > e.g. (m/s)
-> 120 000 = 14 000 × v
-> v = 120 000 ÷ 14 000 = 8.57
+> $120 000 = 14 000 \times v$
+> $v = 120 000 \div 14 000 = 8.57$
 > momentum = 8.6 (m/s) to 2 s.f.
 
 - **(2)** substitution;
@@ -477,11 +477,11 @@ When the transformer is in use, there is a current in the primary coil and in th
 
 ## Question 6 (7 marks)
 
-Galaxies A, B and C are different distances from the Earth. Galaxy A is moving away from the Earth with a velocity of 1.7 × 104 km/s.
+Galaxies A, B and C are different distances from the Earth. Galaxy A is moving away from the Earth with a velocity of 1.7 × 10⁴ km/s.
 
 ### 6(a) [3]
 
-The reference wavelength for light arriving at the Earth from galaxy A is 506 nm. Calculate the observed wavelength for the light arriving from galaxy A. [speed of light = 3.0 × 105 km/s] wavelength = nm
+The reference wavelength for light arriving at the Earth from galaxy A is 506 nm. Calculate the observed wavelength for the light arriving from galaxy A. [speed of light = 3.0 × 10⁵ km/s] wavelength = nm
 
 
 **Mark scheme answer**
@@ -494,8 +494,8 @@ The reference wavelength for light arriving at the Earth from galaxy A is 506 nm
 > scores first 2 marks
 > correct evaluation;
 > e.g.
-> (λ - 506)/506 = 1.7 × 104/ 3.0 × 105
-> λ = 506 × (1.7 × 104/ 3.0 × 105) + 506
+> (λ - 506)/506 = 1.7 × 10⁴/ 3.0 × 10⁵
+> λ = 506 × (1.7 × 10⁴/ 3.0 × 10⁵) + 506
 > λ = 534.7 (nm)
 > accept any value that
 > rounds to 530 (nm)

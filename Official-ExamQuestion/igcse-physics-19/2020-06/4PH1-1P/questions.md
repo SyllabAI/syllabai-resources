@@ -53,7 +53,7 @@ This question is about the movement of a train. The diagram shows the train on a
 
 ### 2(a) [3]
 
-Calculate the acceleration of the train. acceleration = ………………………………………… m/s2
+Calculate the acceleration of the train. acceleration = ………………………………………… m/s²
 
 
 **Mark scheme answer**
@@ -65,7 +65,7 @@ Calculate the acceleration of the train. acceleration = ……………………
 > e.g.
 > acceleration = change in velocity/time taken
 > acceleration = (-)45 / 39
-> acceleration = (-)1.2 (m/s2) allow 1.1-1.2 (m/s2)
+> acceleration = (-)1.2 (m/s²) allow 1.1-1.2 (m/s²)
 
 - **(3)** any attempt at gradient/reference to correct check graph for evidence of
 
@@ -77,7 +77,7 @@ Calculate the distance travelled by the train from P to Q. distance = ………�
 **Mark scheme answer**
 
 > any attempt at or reference to an area; allow alternative method
-> using v2 = u2 + 2as with answer
+> using v² = u² + 2as with answer
 > from (a)
 > correct attempt = ½ × 45 × 39; allow ECF of incorrect velocity
 > or time reading if also used in
@@ -321,7 +321,7 @@ When the thermistor is in hot water, its resistance is 490 Ω. Show that the re
 > Rtotal = 6.0 / 6.8 (mA) Vthermistor = 6.8 (mA) × 490 (=
 > 3.332) V
 > Rtotal = 882 (Ω) Vfixed = (6.0 – 3.332 =) 2.668 V
-> Rfixed = 882 – 490 Rfixed = 2.668 / 6.8 × 10-3
+> Rfixed = 882 – 490 Rfixed = 2.668 / 6.8 × 10⁻³
 > Rfixed = 392(.35…) (Ω) Rfixed = 392(.35…) (Ω)
 
 - **(5)** use of voltage = current × resistance; seen or implied
@@ -355,17 +355,17 @@ This is a question about Io, a moon of Jupiter. The diagram shows two jets of ga
 
 ### 7(a) [3]
 
-Gas particles in the Prometheus jet leave the surface of Io and move vertically upwards. The particles reach their maximum height when their speed is zero. Some particles in the Prometheus jet reach a maximum height of 92 km. Calculate the initial speed of these particles as they leave the surface of Io. [acceleration due to gravity on Io = 1.8 m/s2] initial speed = ………………………………………… m/s
+Gas particles in the Prometheus jet leave the surface of Io and move vertically upwards. The particles reach their maximum height when their speed is zero. Some particles in the Prometheus jet reach a maximum height of 92 km. Calculate the initial speed of these particles as they leave the surface of Io. [acceleration due to gravity on Io = 1.8 m/s²] initial speed = ………………………………………… m/s
 
 
 **Mark scheme answer**
 
-> substitution into v2 = u2 + 2as; allow answers in terms of
+> substitution into v² = u² + 2as; allow answers in terms of
 > conservation of energy for full marks
 > rearrangement;
 > evaluation;
 > e.g.
-> 02 = u2 + (2 × -1.8 × 92 000) ignore units
+> 0² = u² + (2 × -1.8 × 92 000) ignore units
 > condone poor handling of minus
 > signs
 > u = √3.6 × 92000
@@ -374,7 +374,7 @@ Gas particles in the Prometheus jet leave the surface of Io and move vertically 
 > POT error on distance will give 18.2
 > (m/s) for 2 marks
 
-- **(3)** substitution into v2 = u2 + 2as; allow answers in terms of
+- **(3)** substitution into v² = u² + 2as; allow answers in terms of
 
 ### 7(b)(i) [3]
 
@@ -396,15 +396,15 @@ The Tvashtar chamber has the same volume as the Prometheus chamber and contains 
 
 **Mark scheme answer**
 
-> substitution into p1/T1 = p2/T2; allow pressure in kPa or Pa
+> substitution into p₁/T₁ = p₂/T₂; allow pressure in kPa or Pa
 > rearrangement;
 > evaluation;
 > e.g.
-> 8.2/1200 = p2/1600
-> p2= (1600 × 8.2/1200)
-> (p2 =) 11 (kPa) allow 10.9… (kPa)
+> 8.2/1200 = p₂/1600
+> p₂= (1600 × 8.2/1200)
+> (p₂ =) 11 (kPa) allow 10.9… (kPa)
 
-- **(3)** substitution into p1/T1 = p2/T2; allow pressure in kPa or Pa
+- **(3)** substitution into p₁/T₁ = p₂/T₂; allow pressure in kPa or Pa
 
 ### 7(b)(iii) [3]
 
@@ -589,7 +589,7 @@ State the formula linking speed, frequency and wavelength of a wave.
 
 ### 9(b)(ii) [3]
 
-Calculate the wavelength of the radio wave. [speed of radio waves = 3.0 × 108 m/s] wavelength = ………………………………………… m
+Calculate the wavelength of the radio wave. [speed of radio waves = 3.0 × 10⁸ m/s] wavelength = ………………………………………… m
 
 
 **Mark scheme answer**
@@ -604,8 +604,8 @@ Calculate the wavelength of the radio wave. [speed of radio waves = 3.0 × 108 m
 > POT error scores 2 marks
 > max.
 > e.g.
-> 3.0 × 108 = 93 (× 106) × wavelength
-> wavelength = 3.0 × 108 / 93 (× 106)
+> 3.0 × 10⁸ = 93 (× 10⁶) × wavelength
+> wavelength = 3.0 × 10⁸ / 93 (× 10⁶)
 > (wavelength =) 3.2 (m) allow 3.2258…(m)
 
 - **(3)** substitution; ignore units until evaluation
@@ -712,7 +712,7 @@ Describe an experiment that a scientist could use to demonstrate that the emissi
 
 ### 10(c) [4]
 
-A scientist measures the count rate at different distances from the technetium source. The graph shows how the count rate changes with distance from the technetium source. 100 Count rate in kBq 0 1 2 3 4 5 Distance in m The scientist suggests that the relationship between the count rate and distance is (distance)2 × count rate = constant Use data from the graph to determine whether these results support this relationship.
+A scientist measures the count rate at different distances from the technetium source. The graph shows how the count rate changes with distance from the technetium source. 100 Count rate in kBq 0 1 2 3 4 5 Distance in m The scientist suggests that the relationship between the count rate and distance is (distance)² × count rate = constant Use data from the graph to determine whether these results support this relationship.
 
 ![graph — official paper figure (qp.pdf p.27)](assets/asset_10_c_graph.png)
 
@@ -720,9 +720,9 @@ A scientist measures the count rate at different distances from the technetium s
 **Mark scheme answer**
 
 > use of one data point;
-> evaluation of distance2 × count rate;
+> evaluation of distance² × count rate;
 > second data point and second evaluation of
-> distance2 × count rate;
+> distance² × count rate;
 > conclusion reached consistent with the two reject idea that evaluations are
 > evaluations; inconsistent unless there is a
 > significant difference between them
@@ -733,7 +733,6 @@ A scientist measures the count rate at different distances from the technetium s
 > (4,6) gives 16 × 6 = 96 (4,6) gives constant = 96
 > 96 is approximately equal to 100 so (5,4) gives constant = 100
 > relationship is verified
-> Answer Notes Marks
 
 - **(4)** use of one data point;
 

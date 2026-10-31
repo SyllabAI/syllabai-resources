@@ -64,7 +64,7 @@ What type of force does the planet exert on the moon?
 
 ### 1(c) [3]
 
-The planet completes one orbit of the star in a time of 2.5 × 108 s. The radius of the planet’s orbit is 8.7 × 1010 m. Calculate the orbital speed of the planet. Give your answer to two significant figures. orbital speed = m/s
+The planet completes one orbit of the star in a time of 2.5 × 10⁸ s. The radius of the planet’s orbit is 8.7 × 10¹⁰ m. Calculate the orbital speed of the planet. Give your answer to two significant figures. orbital speed = m/s
 
 
 **Mark scheme answer**
@@ -76,10 +76,10 @@ The planet completes one orbit of the star in a time of 2.5 × 108 s. The radius
 > expressed to 2 s.f. gets
 > this mark
 > e.g.
-> orbital speed = 2π × 8.7 × 1010 / 2.5 × 108
+> orbital speed = 2π × 8.7 × 10¹⁰ / 2.5 × 10⁸
 > orbital speed = 2186.54848… (m/s) allow 2185.44,
 > 2187.4… (m/s)
-> orbital speed = 2200 (m/s) allow 2.2 × 103 (m/s)
+> orbital speed = 2200 (m/s) allow 2.2 × 10³ (m/s)
 
 - **(3)** substitution into given formula; allow use of 3.14, 22/7
 
@@ -115,11 +115,11 @@ State the formula linking kinetic energy, mass and speed.
 
 **Mark scheme answer**
 
-> kinetic energy = ½ × mass × speed2; allow velocity for speed
+> kinetic energy = ½ × mass × speed²; allow velocity for speed
 > allow standard symbols
-> e.g. KE = ½ × m × v2
+> e.g. KE = ½ × m × v²
 
-- **(1)** kinetic energy = ½ × mass × speed2; allow velocity for speed
+- **(1)** kinetic energy = ½ × mass × speed²; allow velocity for speed
 
 ### 2(a)(ii) [2]
 
@@ -173,10 +173,10 @@ Calculate the maximum height of the athlete’s jump. height = m
 > allow ecf from (ii) or (iii)
 > rearrangement;
 > evaluation;
-> allow use of v2 = u2 + 2as
+> allow use of v² = u² + 2as
 > for full marks
 > e.g.
-> 860 = 85 × 10 × h
+> $860 = 85 \times 10 \times h$
 > h = 860 ÷ 850 = 1.0(125) (m)
 > (h =) 1.0 (m) allow 1 (m) if supported by
 > valid working
@@ -659,7 +659,7 @@ State the formula linking pressure, density, gravitational field strength and he
 
 ### 7(b)(ii) [2]
 
-Calculate the pressure from the water at a point 38 m below the surface of the water. [density of sea water = 1030 kg/m3 ] pressure = kPa
+Calculate the pressure from the water at a point 38 m below the surface of the water. [density of sea water = 1030 kg/m³ ] pressure = kPa
 
 
 **Mark scheme answer**
@@ -718,11 +718,10 @@ The air in the storage tank starts at a pressure of 410 kPa. As the submarine ri
 > 3 marks (not converting
 > e.g. to kelvin)
 > T = 275.5 (K) or T = 291 (K)
-> 410 / 275.5 = p2 / 291
-> p2 = 410 × 291 / 275.5
-> (p2 =) 430 (kPa) allow 433.1, 433.0…
+> 410 / 275.5 = p₂ / 291
+> p₂ = 410 × 291 / 275.5
+> (p₂ =) 430 (kPa) allow 433.1, 433.0…
 > (kPa)
-> Answer Notes Marks
 
 - **(4)** conversion of either temperature in kelvin; allow if seen anywhere
 
@@ -771,7 +770,7 @@ Whale A makes a sound with a constant frequency. This sound is detected by whale
 
 ### 8(c) [3]
 
-Visible light from the Sun reaches whale B. The wavelength of this light is 5.4 × 10–7 m. Calculate the frequency of this light. [speed of light = 3.0 × 108 m/s] frequency = Hz
+Visible light from the Sun reaches whale B. The wavelength of this light is 5.4 × 10⁻⁷ m. Calculate the frequency of this light. [speed of light = 3.0 × 10⁸ m/s] frequency = Hz
 
 
 **Mark scheme answer**
@@ -784,12 +783,11 @@ Visible light from the Sun reaches whale B. The wavelength of this light is 5.4 
 > of correct formula for 1
 > mark
 > e.g.
-> 3.0 × 108 = frequency × 5.4 × 10-7
-> frequency = 3.0 × 108 / 5.4 × 10-7
-> (frequency =) 5.6 × 1014 (Hz) allow 6 × 1014,
-> 5.55… × 1014 (Hz)
-> reject 5.5 × 1014 (Hz)
-> Answer Notes Marks
+> 3.0 × 10⁸ = frequency × 5.4 × 10⁻⁷
+> frequency = 3.0 × 10⁸ / 5.4 × 10⁻⁷
+> (frequency =) 5.6 × 10¹⁴ (Hz) allow 6 × 10¹⁴,
+> 5.55… × 10¹⁴ (Hz)
+> reject 5.5 × 10¹⁴ (Hz)
 
 - **(3)** substitution into speed = frequency × wavelength;
 

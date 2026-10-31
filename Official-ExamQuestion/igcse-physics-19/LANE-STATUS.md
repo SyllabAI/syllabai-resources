@@ -176,3 +176,23 @@ converter (v0.25.0, the F101 fail-closed branch + the two EXPECT_QUESTIONS seeds
 the 2 new slices (2019-06/4PH1-1P + 2023-06/4PH1-2P), the 2 new spec-labels wave
 files, the 2 new CROP-REVIEW homes, CANARIES.json (+6), the prep script
 `scripts/prep_ocr_layer_1p_2019.py` (committed), and the lane docs.
+
+## 2026-10-31 — F127: the corpus back-sync + questions.md regen (T-OEQ-PHYS-FORMAT-1 run-006)
+
+The 4PH1 corpus of record now carries the five serving-plane format-restoration
+runs (run-001..005, previously v2-side only): 339 pids / 766 field writes across
+54 slices (every problem_md a wrap decomposition — the exporter-emitted stem
+prefix + figure suffix subtracted via the exporter's own sentinel machinery, so
+the corpus keeps the converter's field semantics; 7 stem_md regions synced where
+a restoration reached the stem prose), every write accepted only when the
+of-record r2-proof-era exporter rebuild round-trips the v2 plane of record
+(22eda30) byte-exactly — the exporter re-export is a G-E1 no-op (55/55 slices,
+0 deltas). The questions.md human renders regenerated with the of-record
+renderer: restored presentation now served corpus-side (0 → 117 $-segments,
+1 → 129 superscript restorations, the 2022-06 nuclear-decay line verbatim;
+untouched slices byte-identical; double-render determinism proven; synced stems
+render exactly once). The 766-pin zero-network battery (B1-B7) is CI-enforced.
+The standing F121 group-stem evolution census (421 pids — the physics serving
+twin of the chemistry wave) is disclosed
+(`scripts/exporter-disclosures/2026-10-31-f126-groupstem-evolution-4ph1-standing.json`)
+for the operator's ruling, NOT executed by this wave.

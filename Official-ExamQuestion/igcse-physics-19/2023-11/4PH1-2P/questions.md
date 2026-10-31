@@ -199,8 +199,8 @@ The table shows the student’s results. energy transferred to the thermal 54 00
 > rearrangement;
 > evaluation; -1 POT error
 > e.g.
-> 54 000 = 0.56 × c × 22
-> c = 54 000 / 0.56 × 22
+> $54 000 = 0.56 \times c \times 22$
+> $c = 54 000 / 0.56 \times 22$
 > (c =) 4400 (J/kg °C) allow 4383…
 > allow any reasonable
 > rounding
@@ -413,7 +413,7 @@ State the momentum of the spacecraft engine when it is at rest. momentum = kg m 
 
 ### 6(b)(ii) [3]
 
-The spacecraft engine ejects large numbers of xenon ions to the left. A mass of 2.6 × 10−8 kg of xenon ions leaves the engine with a mean speed of 26 km / s. Calculate the momentum of all the ejected xenon ions. momentum = kg m / s
+The spacecraft engine ejects large numbers of xenon ions to the left. A mass of 2.6 × 10⁻⁸ kg of xenon ions leaves the engine with a mean speed of 26 km / s. Calculate the momentum of all the ejected xenon ions. momentum = kg m / s
 
 
 **Mark scheme answer**
@@ -424,8 +424,8 @@ The spacecraft engine ejects large numbers of xenon ions to the left. A mass of 
 > evaluation; -1 POT error
 > e.g.
 > p = mv
-> p = 2.6 × 10−8 × 26 000
-> p = 6.8 × 10−4 (kg m/s) allow 6.76 × 10−4
+> p = 2.6 × 10⁻⁸ × 26 000
+> p = 6.8 × 10⁻⁴ (kg m/s) allow 6.76 × 10⁻⁴
 
 - **(3)** recall of momentum = mass × velocity; allow standard symbols
 
@@ -436,14 +436,14 @@ State the magnitude and direction of the spacecraft engine’s momentum after th
 
 **Mark scheme answer**
 
-> 6.8 × 10−4 (kg m/s); allow ecf from (ii)
+> 6.8 × 10⁻⁴ (kg m/s); allow ecf from (ii)
 > right;
 
-- **(2)** 6.8 × 10−4 (kg m/s); allow ecf from (ii)
+- **(2)** 6.8 × 10⁻⁴ (kg m/s); allow ecf from (ii)
 
 ### 6(b)(iv) [4]
 
-The ions exert a force of 2.6 mN on the spacecraft engine. The spacecraft engine has a mass of 1.2 kg. Calculate the acceleration of the engine. Give your answer to 2 significant figures. acceleration = m / s2
+The ions exert a force of 2.6 mN on the spacecraft engine. The spacecraft engine has a mass of 1.2 kg. Calculate the acceleration of the engine. Give your answer to 2 significant figures. acceleration = m / s²
 
 
 **Mark scheme answer**
@@ -453,16 +453,16 @@ The ions exert a force of 2.6 mN on the spacecraft engine. The spacecraft engine
 > evaluation; −1 for POT error
 > answer given to 2s.f.; independent mark
 > e.g.
-> 2.6 (×10−3)= 1.2 × acceleration
-> acceleration 2.6 (×10−3) / 1.2
-> (acceleration =) 2.16… × 10−3 (m/s2)
-> (acceleration =) 2.2 × 10−3 (m/s2)
+> 2.6 (×10⁻³)= 1.2 × acceleration
+> acceleration 2.6 (×10⁻³) / 1.2
+> (acceleration =) 2.16… × 10⁻³ (m/s²)
+> (acceleration =) 2.2 × 10⁻³ (m/s²)
 
 - **(4)** substitution into ‘F=ma’; ignore units
 
 ### 6(c) [2]
 
-The engine is designed to accelerate a spacecraft while the spacecraft is travelling through space. The spacecraft carries a mass of 0.75 kg of xenon ions for the engine. When the engine is used, 9.9 × 10−8 kg of xenon ions leave the engine each second. A student suggests that this small spacecraft engine would not be useful because the acceleration it produces is very small. Evaluate the student’s suggestion.
+The engine is designed to accelerate a spacecraft while the spacecraft is travelling through space. The spacecraft carries a mass of 0.75 kg of xenon ions for the engine. When the engine is used, 9.9 × 10⁻⁸ kg of xenon ions leave the engine each second. A student suggests that this small spacecraft engine would not be useful because the acceleration it produces is very small. Evaluate the student’s suggestion.
 
 
 **Mark scheme answer**
@@ -473,7 +473,7 @@ The engine is designed to accelerate a spacecraft while the spacecraft is travel
 > second;
 > MP2. any attempt of calculation of time to run out
 > of xenon seen;
-> MP3. correct calculation of 7.575... × 106 s; accept 88 or 87.68..
+> MP3. correct calculation of 7.575... × 10⁶ s; accept 88 or 87.68..
 > days, 2104 hours, 1.26..
 > × 105 minutes , 12.5..
 > weeks, 0.24... years
@@ -482,7 +482,6 @@ The engine is designed to accelerate a spacecraft while the spacecraft is travel
 > gives high speed change;
 > MP6. mass of spacecraft will be larger so
 > acceleration is even smaller;
-> Answer Notes Marks
 
 - **(2)** any two from: ignore idea of simple
 
@@ -544,7 +543,7 @@ State the formula linking energy transferred, charge and voltage.
 
 > energy (transferred) = charge × voltage; allow rearrangements and
 > standard symbols e.g
-> E=Q×V
+> $E = Q\times V$
 > allow W for energy
 > ignore C for charge
 
@@ -552,22 +551,21 @@ State the formula linking energy transferred, charge and voltage.
 
 ### 7(c)(ii) [3]
 
-The effective voltage of the oscilloscope trace can be calculated using the formula amplitude of trace in V effective voltage = Use the effective voltage to calculate the energy transferred when 6.3 × 10−5 C of charge passes through the oscilloscope. energy transferred = J
+The effective voltage of the oscilloscope trace can be calculated using the formula amplitude of trace in V effective voltage = Use the effective voltage to calculate the energy transferred when 6.3 × 10⁻⁵ C of charge passes through the oscilloscope. energy transferred = J
 
 
 **Mark scheme answer**
 
 > amplitude of signal in volts determined;
 > evaluation of effective voltage; ecf amplitude in volts
-> evaluation of energy transferred; reject 6.3 × 10−5 / √2
+> evaluation of energy transferred; reject 6.3 × 10⁻⁵ / √2
 > -1 POT error
 > e.g.
 > amplitude = 2 squares × 5 = 10 V
 > effective voltage = 10 / √2 = 7.1 V
-> energy transferred = (7.1 × 6.3 × 10−5 =) 4.5 × 10−4 (J) allow
-> 4.4 × 10−4 − 4.5 × 10−4 (J)
-> 8.9... × 10−4 scores 2
-> Answer Notes Marks
+> energy transferred = (7.1 × 6.3 × 10⁻⁵ =) 4.5 × 10⁻⁴ (J) allow
+> 4.4 × 10⁻⁴ − 4.5 × 10⁻⁴ (J)
+> 8.9... × 10⁻⁴ scores 2
 
 - **(3)** amplitude of signal in volts determined;
 
@@ -593,7 +591,7 @@ The diagram shows two identical stars, A and B, orbiting each other. direction o
 
 ### 8(b) [4]
 
-Light is received on Earth from a distant galaxy. The longest wavelength of light arriving at Earth from the galaxy is 561 nm. A lamp on Earth produces the same light with a wavelength of 550 nm. Calculate the velocity of the galaxy. [speed of light = 3.0 × 108 m / s] velocity = m / s
+Light is received on Earth from a distant galaxy. The longest wavelength of light arriving at Earth from the galaxy is 561 nm. A lamp on Earth produces the same light with a wavelength of 550 nm. Calculate the velocity of the galaxy. [speed of light = 3.0 × 10⁸ m / s] velocity = m / s
 
 
 **Mark scheme answer**
@@ -604,14 +602,14 @@ Light is received on Earth from a distant galaxy. The longest wavelength of ligh
 > wavelength
 > rearrangement;
 > evaluation; -1 POT error
-> 5.88 × 106 scores 3
+> 5.88 × 10⁶ scores 3
 > marks (wrong lab
 > wavelength)
 > e.g.
 > ∆λ = 561 − 550 = 11 (nm)
-> 11/550 = v / 3.0 × 108 ignore references to
-> v = 11/550 × 3.0 × 108 direction
-> (v =) 6.0 × 106 (m/s)
+> 11/550 = v / 3.0 × 10⁸ ignore references to
+> v = 11/550 × 3.0 × 10⁸ direction
+> (v =) 6.0 × 10⁶ (m/s)
 > Pearson Education Limited. Registered company number 872828
 > with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
