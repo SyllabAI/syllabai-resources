@@ -33,14 +33,14 @@ Videos/
   .cache/                      raw HTML + render logs (gitignored, resumable)
 ```
 
-## Status (2026-10-31)
+## Status (2026-11-01)
 
 | Phase | State | Evidence |
 | --- | --- | --- |
 | P0 — Probe | ✅ done | F189 §2 |
 | **P1 — Crawler + inventory** | ✅ **done — all gates green** | `inventory/cognito-lessons.json`, `docs/P1-CRAWL-REPORT.md`, `validate-inventory.mjs --live 5` |
-| **P2 — First course draft (igcse-biology-19)** | ✅ **draft built — owner review pending** | `drafts/igcse-biology-19/video-map.draft.json`, `trackers/P2-ALIGNMENT-TRACKER.md` |
-| P2 Step 5 — commit reviewed map | blocked on owner review | `drafts/igcse-biology-19/review-file.md` (105 rows: 73 high / 30 medium / 2 low, all `reviewed: false`) |
+| **P2 — First course map (igcse-biology-19)** | ✅ **MERGED** — owner ruling "approve all except 4.16" (104/105 rows) | hub `apps/hub/content/video-map/igcse-biology-19.json` @ `51ec8fffe` (PR #574); closure PR #265 |
+| **P2B — External-channels sweep (owner ask)** | 🟡 **draft built — owner review pending** | `drafts/igcse-biology-19/video-map.draft.external.json` + `review-file-external.md` (28 rows: 19 medium / 9 low, all `reviewed: false`, oEmbed 27/27); census 165/176 if fully approved |
 | P3 — Hub surface | pending | plan §6 |
 | P4 — Scale | pending | plan §9 |
 

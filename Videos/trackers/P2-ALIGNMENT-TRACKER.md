@@ -203,3 +203,38 @@ CI `sync` 1/1 green at head `67cd950a8`) and hub PR **SyllabAI/syllabai-v2#574**
 Both branches deleted post-merge; post-merge verify on origin/main: 104 mappings,
 0 unreviewed rows, 0 4.16-mapped rows, `review.rejects[]` = 8.8|cickRHnPKvc|4.16,
 registry 73/72, `videoMap` flag keyed to `igcse-biology-19`.
+
+---
+
+## P2B — External-channels sweep (2026-11-01, T-VIDEOMAP-P2B)
+
+Owner follow-up: "Go through cognito's youtube channel, and see if you can map any more videos to the courses we have?" then "How about other channels?".
+
+**Channel enumeration (yt-dlp flat playlists, no API key):**
+
+| Channel | Uploads | Biology-relevant | Verdict |
+| --- | --- | --- | --- |
+| Cognito (@Cognitoedu) | 529 | 122 channel-only vs site inventory (28 psych / 19 GCSE-bio / 13 AL-bio / 13 KS3-bio / rest other subjects) | 6 rows drafted (3 KS3 low + The Brain et al. already-covered, see review file) |
+| Freesciencelessons | 776 | 349 biology-titled (122 "GCSE Biology") | main second source — 13 rows |
+| Malmesbury Education | 72 | biology RPs subset | 1 extension row (quadrats 4.4B) |
+| Amoeba Sisters | 179 | ~all biology (US curriculum) | 9 rows |
+| DoodleScience | 58 | zero (all physics) | excluded — future igcse-physics-19 candidate |
+| Primrose Kitten | n/a | n/a | no videos tab — not enumerable; excluded |
+
+**Tooling posture (matches the closed P2 thread):** channel flat-playlists and oEmbed both work
+(oEmbed identity sweep **27/27 verified**); watch-page descriptions consent-walled, per-video
+extraction bot-walled → evidence is TITLE-ONLY, so the draft grades **0 high / 19 medium / 9 low**
+and the review file asks for individual (not batch) approval.
+
+**Draft of record:** `Videos/drafts/igcse-biology-19/video-map.draft.external.json` (28 rows over
+26 videos, every row `reviewed: false`, all `boardMismatch: true` with per-video boardNote) +
+`review-file-external.md` (review checkboxes, rejected-candidates section, honest no-video list).
+
+**Headline:** +29 spec points if fully approved → 165/176 (93.8%) from 136/176 (77.3%). Remaining
+11 honest-unmapped are Edexcel-specific practicals (6) + food-production/stomatal/mineral clauses
+(5) — no title-supported candidate on any of the 5 channels; Pearson/Edexcel-focused channels are
+the natural P4 target for those.
+
+**Schema note:** external rows add per-video `provider`, `watchUrl`, `levelTag`, `boardNote`
+(plan §10 anticipated additive providers). The P3 loader (`lib/video-map.ts`) must accept these
+fields and resolve `lessonUrl: null` to the watch URL — flagged before P3, not silently.
