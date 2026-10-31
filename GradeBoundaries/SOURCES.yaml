@@ -1,0 +1,58 @@
+# SOURCES — GradeBoundaries source registry (T-GRADE-1)
+
+schema: syllabai.grade-boundaries.sources/1
+maintained_by: GradeBoundaries/scripts (fetch_pearson.py / fetch_cie.py)
+
+pearson:
+  landing: https://qualifications.pearson.com/en/support/support-topics/results-certification/grade-boundaries.html
+  base: https://qualifications.pearson.com/content/dam/pdf/Support/Grade-boundaries
+  families:
+    pearson-int-gcse-linear:
+      path: International-GCSE
+      slug_matrix:
+        - "grade-boundaries-{s}-int-gcse.pdf"                       # 2024-2026 era
+        - "grade-boundaries-{s}-international-gcse.pdf"             # 2026 canonical
+        - "{ym}-ig-9-1-subject-grade-boundaries.pdf"                # 2019-2023 era
+        - "{ym}-int-gcse-grade-boundaries.pdf"
+        - "{ym}_intGCSE_(9-1)_Subject_Grade_Boundaries_V1.pdf"      # e.g. 2201 Jan 2022
+        - "{ym}-intgcse-9-1-subject-grade-boundaries.pdf"           # e.g. 2306 Jun 2023
+        - "{ym}-international-gcse-subject-grade-boundaries.pdf"    # e.g. 2511 Nov 2025
+        - "{ym}-int-gcse-subject-grade-boundaries.pdf"
+      covers: all linear International GCSE (9-1) subjects incl. tier rows
+    pearson-int-gcse-modular:
+      path: International-GCSE
+      slug_matrix:
+        - "grade-boundaries-{s}-international-gcse-modular.pdf"
+        - "grade-boundaries-{s}-int-gcse-modular.pdf"
+      covers: 4X modular suites (units raw+UMS, 9-1 cash-in UMS); first docs 2024
+    pearson-ial:
+      path: International-A-level
+      slug_matrix:
+        - "grade-boundaries-{s}-international-advanced-level.pdf"
+        - "grade-boundaries-{s}-ial.pdf"
+        - "{ym}-ial-grade-boundaries.pdf"                           # e.g. 2001 Jan 2020
+        - "{ym}-int-a-level-grade-boundaries.pdf"
+      covers: IAL units (raw+UMS) + X/Y cash-ins (UMS A*..E)
+  verification: "%PDF magic + final URL must not be /en/campaigns/404.html"
+
+cambridge:
+  listing: https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-upper-secondary/cambridge-igcse/grade-threshold-tables (+ cambridge-advanced/... ; JS-rendered, not crawlable)
+  base: https://www.cambridgeinternational.org/Images
+  law: known-ID registry in fetch_cie.py CIE_IDS (id + exact published filename)
+  covers_seed:
+    "0620": ["June 2025", "June 2026"]
+    "0625": ["June 2024", "June 2026"]
+    "0580": ["June 2025", "June 2026"]
+    "9609": ["June 2026"]
+    "9700": ["June 2026"]
+    "9701": ["June 2026"]
+
+sessions_probed: January/June/October/November 2019-2026 (covid gaps + unpublished
+  docs recorded in raw/fetch-missing.json)
+
+golden_master:
+  file: curated/maths-genie-4ch1-golden.json
+  origin: mathsgenie.co.uk IGCSE Chemistry Edexcel predicted-grade-calculator
+    (retrieved 2026-10-31, zai-web trace 1a191d55e2154601)
+  use: validate.py G2 parity — parsed 4CH1 rows must equal it exactly on
+    every overlapping session
