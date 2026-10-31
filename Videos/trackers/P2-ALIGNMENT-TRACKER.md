@@ -91,3 +91,37 @@ the house-style patch flow (§5 Step 5, gates §8).
 | --- | --- | --- | --- |
 | D1 | Guest-gated videos (unchanged from P1 tracker) — now concretely costs T5/T3 coverage on this course | Step 5 scope; P4 | owner |
 | D4 | Review mode for the 73 high-confidence rows: batch-approve on evidence spot-check, or full per-row pass? | Step 5 | owner |
+
+---
+
+## Ledger 2026-10-31 · caption/transcript re-validation attempt (owner-requested)
+
+**Question:** re-validate the 30 medium + 2 low rows (+ 5 high calibration
+samples) against *spoken content* instead of page summaries.
+
+**Result: spoken-content re-validation NOT possible from this environment.**
+12 distinct fetch paths attempted, all bot-walled or auth-walled (full log in
+`drafts/igcse-biology-19/caption-validation.md` §attempt log): YouTube
+datacenter-IP bot wall (python API, 4× yt-dlp clients, real headless Chromium
+— watch page renders but `get_transcript` → HTTP 400), Invidious/Piped mirror
+network (track lists only; caption bodies empty — no POT upstream), 5
+third-party transcript services (429/401/login-wall/Cloudflare loop),
+platform-side WebFetch (unsigned timedtext dead). **oEmbed (unsigned)
+worked: 73/73 draft videos resolve live with official titles** (new script
+`align-oembed-check.mjs` → `drafts/igcse-biology-19/oembed-identities.json`).
+
+Identity cross-check per reviewed row (37 rows,
+`caption-validation.json/.md`, worksheet `caption-worksheet.json`):
+video-title ↔ lesson-title ↔ spec-statement tokens. Computed 20 consistent /
+13 partial / 4 conflict; after manual inspection: **2 conflicts confirmed**
+(both 8.8 rows — video `cickRHnPKvc` is officially "How Humans Reduce
+Biodiversity", which supports 4.3B-high but weakens 4.12-medium and
+4.16-low), 1 re-embed partial (9.7), rest adjudicated consistent (5 high
+calibration samples: none flagged). **Recommendation recorded in the
+validation report: reject 4.16, treat 4.12 as reject-unless-scanned.**
+
+**Unblock path for transcript-grounded verdicts:** owner-side fetch from a
+residential IP (one yt-dlp command in `caption-validation.json`
+§unblockPath) → drop `.vtt` files into `Videos/.cache/p2/transcripts/` →
+re-run; the worksheet is ready. **No `reviewed` flags touched by any of
+this** — draft law intact.
