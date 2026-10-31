@@ -78,7 +78,7 @@ Venera 13 was a probe that fell through the atmosphere of the planet Venus and l
 
 ### 2(a)(i) [2]
 
-The density of the atmosphere on the surface of Venus is 65 kg/m3. Estimate the depth of the atmosphere on Venus. Use the formula pressure difference = depth × density × gravitational field strength [for Venus, gravitational field strength = 8.9 N/kg] depth = m
+The density of the atmosphere on the surface of Venus is 65 kg/m³. Estimate the depth of the atmosphere on Venus. Use the formula pressure difference = depth × density × gravitational field strength [for Venus, gravitational field strength = 8.9 N/kg] depth = m
 
 
 **Mark scheme answer**
@@ -88,9 +88,9 @@ The density of the atmosphere on the surface of Venus is 65 kg/m3. Estimate the 
 > condone 14 307.69… (m) for
 > 1 mark for using g=10 N/kg
 > e.g.
-> 9 300 000 = h × 65 × 8.9
+> $9 300 000 = h \times 65 \times 8.9$
 > OR
-> h=P/ρ×g
+> $h = P/\rho \times g$
 > (h = 9 300 000 / 65 × 8.9 =) 16 000 (m) allow 16 100, 16 076… (m)
 
 - **(2)** substitution OR rearrangement into given formula;
@@ -126,9 +126,9 @@ The temperature on the surface of Venus can change. Calculate the atmospheric pr
 > scores 3 marks
 > e.g.
 > 453 oC is 726 K and 482 oC is 755 K
-> 9.3 ÷ 726 = P2 ÷ 755
-> P2 = 755 × 9.3 ÷ 726
-> P2 = 9.7 (million Pa) allow 9.67… (million Pa)
+> 9.3 ÷ 726 = P₂ ÷ 755
+> P₂ = 755 × 9.3 ÷ 726
+> P₂ = 9.7 (million Pa) allow 9.67… (million Pa)
 
 - **(4)** conversion of either temperature into kelvin; mark independently
 
@@ -148,7 +148,7 @@ State the assumptions you have made to complete this calculation.
 
 ### 2(c) [3]
 
-On the surface of Venus, a gas molecule has a mean kinetic energy of 6.1 × 10–21 J. Calculate the mean speed of the gas molecule. [mass of molecule = 7.3 × 10–26 kg] speed = m/s
+On the surface of Venus, a gas molecule has a mean kinetic energy of 6.1 × 10⁻²¹ J. Calculate the mean speed of the gas molecule. [mass of molecule = 7.3 × 10⁻²⁶ kg] speed = m/s
 
 
 **Mark scheme answer**
@@ -162,10 +162,9 @@ On the surface of Venus, a gas molecule has a mean kinetic energy of 6.1 × 10�
 > marks (not taking square
 > root)
 > e.g.
-> KE = ½ × m × v2
-> v2 = (2 × 6.1 × 10-21) ÷ 7.3 × 10-26
+> KE = ½ × m × v²
+> v² = (2 × 6.1 × 10⁻²¹) ÷ 7.3 × 10⁻²⁶
 > v (= √167 123) = 410 (m/s) allow 409, 408.8… (m/s)
-> Answer Notes Marks
 
 - **(3)** statement of correct formula; correct formula can be
 
@@ -519,7 +518,7 @@ Give a property that all electromagnetic waves have in common.
 
 ### 6(b)(ii) [3]
 
-The microwave oven uses microwave radiation with a wavelength of 12 cm. Calculate the frequency of this microwave radiation. [speed of microwaves = 3.0 × 108 m/s] frequency = Hz
+The microwave oven uses microwave radiation with a wavelength of 12 cm. Calculate the frequency of this microwave radiation. [speed of microwaves = 3.0 × 10⁸ m/s] frequency = Hz
 
 
 **Mark scheme answer**
@@ -529,12 +528,12 @@ The microwave oven uses microwave radiation with a wavelength of 12 cm. Calculat
 > incorrect / no unit
 > conversion
 > evaluation;
-> 2.5 × 107 (Hz)
+> 2.5 × 10⁷ (Hz)
 > scores 2 marks
 > e.g.
 > 12 cm = 0.12 m
-> 3.0 × 108 = frequency × 0.12 OR f = v ÷ λ
-> frequency (= 3.0 × 108 ÷ 0.12) = 2.5 × 109 (Hz)
+> 3.0 × 10⁸ = frequency × 0.12 OR f = v ÷ λ
+> frequency (= 3.0 × 10⁸ ÷ 0.12) = 2.5 × 10⁹ (Hz)
 
 - **(3)** conversion of wavelength to 0.12 m;
 
@@ -570,11 +569,11 @@ This nuclear equation shows how the isotope thorium‑232 is transformed into th
 
 **Mark scheme answer**
 
-> X = 1;
-> Y = 0;
+> $X = 1$;
+> $Y = 0$;
 > Z = −1;
 
-- **(3)** X = 1;
+- **(3)** $X = 1$;
 
 ### 7(b) [3]
 
@@ -727,7 +726,7 @@ Using the data from table 1, show that the final speed of the ball is about 2 m/
 
 ### 9(a)(ii) [3]
 
-The ball rolls along the ramp for a distance of 0.63 m. Calculate the acceleration of the ball. acceleration = m/s2
+The ball rolls along the ramp for a distance of 0.63 m. Calculate the acceleration of the ball. acceleration = m/s²
 
 
 **Mark scheme answer**
@@ -736,11 +735,11 @@ The ball rolls along the ramp for a distance of 0.63 m. Calculate the accelerati
 > rearrangement;
 > evaluation; ignore any minus sign included in
 > use of 2 (m/s) for v
-> gives a = 3.2 (m/s2) for full marks
+> gives a = 3.2 (m/s²) for full marks
 > e.g.
-> 1.7142 = 02 + 2 × a × 0.63
-> a = 2.94 ÷ 1.26
-> (a =) 2.3 (m/s2) allow 2.33… (m/s2)
+> $1.714^{2} = 0^{2} + 2 \times a \times 0.63$
+> $a = 2.94 \div 1.26$
+> (a =) 2.3 (m/s²) allow 2.33… (m/s²)
 
 - **(3)** substitution into given formula; ECF for use of v from (i)
 
@@ -786,13 +785,13 @@ Determine the gradient of the line of best fit. gradient =
 > decimal; allow 4.3 – 4.5 for graph with
 > distance on x-axis
 > allow 0.22 – 0.23 for graph with
-> final speed2 on x-axis
+> final speed² on x-axis
 
 - **(1)** gradient of best fit line from (ii) evaluated as a allow ECF from line drawn in (ii)
 
 ### 9(b)(iv) [2]
 
-The student uses the gradient of this graph to find the acceleration due to gravity and obtains a value of 7.6 m/s2. The accepted value of the acceleration due to gravity is 9.8 m/s2. Explain one change the student could make to improve the accuracy of their investigation.
+The student uses the gradient of this graph to find the acceleration due to gravity and obtains a value of 7.6 m/s². The accepted value of the acceleration due to gravity is 9.8 m/s². Explain one change the student could make to improve the accuracy of their investigation.
 
 ![graph — official paper figure (qp.pdf p.25) — shared with asset_9_b_i_grid](assets/asset_9_b_i_grid.png)
 
@@ -866,7 +865,7 @@ The resistance of component X is 220 ohms. The battery has a voltage of 6.2 V. T
 > e.g.
 > 15 mA = 0.015 A
 > circuit resistance (= 6.2 ÷ 0.015) = 413 (Ω)
-> 413 = R + 220
+> $413 = R + 220$
 > R (413 – 220) = 190 (Ω) allow 193, 193.3…(Ω)
 > OR
 > conversion of current from mA to A;

@@ -243,8 +243,8 @@ Calculate the wavelength of the sound wave. wavelength = m
 > e.g. 8.6, 8.62, 8.63, 8.625 = 2 marks
 > 345 = 40 (000) × λ
 > λ = 345/40 (000)
-> (λ =) 8.6 × 10-3 (m) allow 9 × 10-3, 8.62 × 10-3, 8.63 ×
-> 10-3, 8.625 × 10-3 (m)
+> (λ =) 8.6 × 10⁻³ (m) allow 9 × 10⁻³, 8.62 × 10⁻³, 8.63 ×
+> 10-3, 8.625 × 10⁻³ (m)
 
 - **(3)** substitution;
 
@@ -321,7 +321,7 @@ Sound waves and light waves can have different frequencies and wavelengths. Desc
 
 ## Question 4 (8 marks)
 
-The table gives data for some of the planets in the solar system. Gravitational field Orbital radius Orbital speed Planet strength at surface in km in km / s in N / kg Mercury 3.7 57.9 × 106 47.4 Venus 8.9 108.2 × 106 35.0 Jupiter 23.1 778.6 × 106 13.1 Saturn 9.0 1433.5 × 106 9.7 Uranus 8.7 2872.5 × 106 6.8 Neptune 12.7 4495.1 × 106 5.4
+The table gives data for some of the planets in the solar system. Gravitational field Orbital radius Orbital speed Planet strength at surface in km in km / s in N / kg Mercury 3.7 57.9 × 10⁶ 47.4 Venus 8.9 108.2 × 10⁶ 35.0 Jupiter 23.1 778.6 × 10⁶ 13.1 Saturn 9.0 1433.5 × 10⁶ 9.7 Uranus 8.7 2872.5 × 10⁶ 6.8 Neptune 12.7 4495.1 × 10⁶ 5.4
 
 ### 4(a) [3]
 
@@ -391,11 +391,10 @@ Calculate the time period of Mercury’s orbit around the Sun. time period = s
 > allow 1s.f. answer if
 > supported by working
 > e.g.
-> 47.4 = 2 × π × 57.9 × 106 / T
-> T = 2 × π × 57.9 × 106 / 47.4
-> (T =) 7.68 × 106 (s) allow 7.7 × 106, 7.67 × 106,
+> 47.4 = 2 × π × 57.9 × 10⁶ / T
+> T = 2 × π × 57.9 × 10⁶ / 47.4
+> (T =) 7.68 × 10⁶ (s) allow 7.7 × 10⁶, 7.67 × 10⁶,
 > 7 675 030.154 (s)
-> Answer Notes Marks
 
 - **(3)** 3
 
@@ -449,7 +448,7 @@ State two differences between alpha radiation and beta radiation. 1 2
 
 ### 5(b)(ii) [3]
 
-The incomplete nuclear decay equation summarises the decay sequence of thorium-232 into radon‑220. 232 Th 220 Rn + 4 α + 0 −1 β Calculate the number of alpha particles and the number of beta particles emitted in this decay sequence. number of alpha particles = number of beta particles =
+The incomplete nuclear decay equation summarises the decay sequence of thorium-232 into radon‑220. ²³²₉₀Th → ²²⁰₈₆Rn + ⁴₂α + ⁰₋₁β Calculate the number of alpha particles and the number of beta particles emitted in this decay sequence. number of alpha particles = number of beta particles =
 
 
 **Mark scheme answer**
@@ -585,7 +584,7 @@ Add another component to the circuit in diagram 1 to measure the current in the 
 
 ### 7(c)(i) [1]
 
-Calculate the current I1 . I1 = A
+Calculate the current I₁ . I₁ = A
 
 
 **Mark scheme answer**
@@ -596,7 +595,7 @@ Calculate the current I1 . I1 = A
 
 ### 7(c)(ii) [1]
 
-State the current I2 . I2 = A
+State the current I₂ . I₂ = A
 
 
 **Mark scheme answer**
@@ -613,14 +612,13 @@ Explain which lamp is the brightest.
 **Mark scheme answer**
 
 > lamp 3; allow ECF from (c)(i) if
-> any two from: I1 given as greater than
+> any two from: I₁ given as greater than
 > 0.3(A) leading to lamp
 > 2 being brightest
-> • (because) power = current × voltage; allow P = V2 / R
+> • (because) power = current × voltage; allow P = V² / R
 > • voltage is the same for all lamps;
 > • current is greatest; allow resistance is
 > lowest
-> Answer Notes Marks
 
 - **(3)** lamp 3; allow ECF from (c)(i) if
 
@@ -757,14 +755,14 @@ State the formula linking pressure difference, height, density and gravitational
 
 > pressure (difference) = height × density × g; allow standard symbols and
 > rearrangements e.g.
-> h = p / (ρ × g)
+> $h = p / (\rho \times g)$
 > condone d for density
 
 - **(1)** pressure (difference) = height × density × g; allow standard symbols and
 
 ### 9(a)(ii) [3]
 
-The pressure difference between the surface of the water and the water at the bottom of the bottle is 2300 Pa. Calculate the depth of water in the bottle. Give your answer in cm. [density of water = 1000 kg / m3] depth = cm
+The pressure difference between the surface of the water and the water at the bottom of the bottle is 2300 Pa. Calculate the depth of water in the bottle. Give your answer in cm. [density of water = 1000 kg / m³] depth = cm
 
 
 **Mark scheme answer**
@@ -776,7 +774,7 @@ The pressure difference between the surface of the water and the water at the bo
 > 0.23 (cm) gains 2 marks
 > e.g.
 > 2300 = h × 1000 × 10
-> h = 2300 / (1000 × 10)
+> $h = 2300 / (1000 \times 10)$
 > (h =) 23 (cm) allow 23.46…, 23.44… (cm)
 
 - **(3)** substitution; allow g = 9.81, 9.8
@@ -870,13 +868,13 @@ Calculate the speed of the car when it has fallen 18 m. speed = m / s
 > allow alternative method
 > involving changing GPE
 > lost = KE gained e.g.
-> substitution into v2 = u2 + 2as; sub into mgh = ½mv2
+> substitution into v² = u² + 2as; sub into mgh = ½mv²
 > rearrangement;
 > evaluation;
 > allow use of 9.8, 9.81 for
 > g
 > e.g.
-> v2 = 0 + (2 × 10 × 18)
+> $v^{2} = 0 + (2 \times 10 \times 18)$
 > v = √360
 > (v =) 19 (m/s) allow 18.8, 18.78…,
 > 18.79…,18.97… (m/s)
@@ -890,11 +888,11 @@ State the formula linking kinetic energy, mass and speed.
 
 **Mark scheme answer**
 
-> kinetic energy = ½ × mass × speed2; allow rearrangements
+> kinetic energy = ½ × mass × speed²; allow rearrangements
 > and standard symbols
-> e.g. KE = ½ × m × v2
+> e.g. KE = ½ × m × v²
 
-- **(1)** kinetic energy = ½ × mass × speed2; allow rearrangements
+- **(1)** kinetic energy = ½ × mass × speed²; allow rearrangements
 
 ### 10(b)(ii) [2]
 
@@ -1039,11 +1037,10 @@ The range of the projectile is related to the table height by this formula table
 > e.g.
 > range = 1.92m when height = 2.0m
 > 2.0
-> 1.92 = launch speed × �
+> 1.92 = launch speed × √0.4
 > launch speed = 1.92 / √0.4
 > (launch speed =) 3.0 (m/s) allow range 2.9-3.1 (m/s) unless
 > ECF from (b)(i)
-> Answer Notes Marks
 
 - **(4)** pair of readings taken from graph; allow data points or readings
 

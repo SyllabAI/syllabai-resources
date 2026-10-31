@@ -50,6 +50,8 @@ jobs:
         run: python3 scripts/official_examq_f118_tests.py
       - name: maths-B corpus back-sync battery (F122/run-030 — the 2,669 synced-field pins + ledger laws + C-generation cross-check; zero network)
         run: python3 scripts/official_examq_mathsb_backsync_tests.py
+      - name: 4PH1 physics corpus back-sync battery (F126/run-006 — the 766 synced-field pins + ledger laws + render-determinism + nuclear-line pin; zero network)
+        run: python3 scripts/official_examq_phys_backsync_tests.py
       - name: F104 asset-byte guard scan (every assets/ file format-truth validated + dangling references)
         run: python3 scripts/official_examq_asset_bytes.py --scan-corpus Official-ExamQuestion
 

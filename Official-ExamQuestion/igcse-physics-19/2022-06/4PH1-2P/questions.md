@@ -139,7 +139,7 @@ Calculate the magnitude of the velocity of part P after the explosion. velocity 
 > e.g.
 > 0 = [1.9 × 3.7] + [2.9 × v] allow
 > [1.9 × 3.7] = [2.9 × v]
-> v = -7.03 / 2.9
+> $v = -7.03 / 2.9$
 > (v =) -2.4 (m/s) allow 2.42… (m/s)
 > ignore sign of final answer
 > correct evaluation of object
@@ -206,7 +206,7 @@ Calculate the input current to charger X. Assume that charger X is 100% efficien
 > rearrangement;
 > evaluation;
 > e.g.
-> 6.0 = I × 230
+> $6.0 = I \times 230$
 > (I =) 6.0 / 230
 > (I =) 0.026 (A) allow 0.03 (A)
 
@@ -378,7 +378,7 @@ Determine the time period of the ultrasound waves. time period = s
 > amplitude scale for 0
 > e.g.
 > one full cycle = 6 squares
-> time period = (6 × 5 × 10-6) = 3 × 10-5 (s) allow 30 × 10-6 (s)
+> time period = (6 × 5 × 10⁻⁶) = 3 × 10⁻⁵ (s) allow 30 × 10⁻⁶ (s)
 
 - **(2)** number of squares for full cycle;
 
@@ -392,11 +392,10 @@ Calculate the frequency of the ultrasound waves. frequency = Hz
 > substitution into f = 1/T; allow ECF from (c)(i)
 > evaluation;
 > e.g.
-> f = 1 / 3 × 10-5
-> (f =) 3.3 × 104 (Hz) allow 33 333.3…,
+> f = 1 / 3 × 10⁻⁵
+> (f =) 3.3 × 10⁴ (Hz) allow 33 333.3…,
 > 33 300, 33 000 etc (Hz)
 > allow 30 000
-> Answer Notes Marks
 
 - **(2)** substitution into f = 1/T; allow ECF from (c)(i)
 
@@ -450,10 +449,10 @@ Calculate the number of uranium‑235 atoms in the fuel pellet. number of uraniu
 > evaluation of total mass of U-235;
 > evaluation of number of U-235 atoms; -1 for POT error
 > allow ECF from non-use of 3%
-> i.e. {2.3/2.25/ 2.26} × 1022
+> i.e. {2.3/2.25/ 2.26} × 10²²
 > e.g.
-> mass = 3.0% × 0.0088 = 2.64 × 10-4 kg
-> number = (2.64 × 10-4 / 3.90 × 10-25) = 6.8 × 1020 allow 6.77 × 1020
+> mass = 3.0% × 0.0088 = 2.64 × 10⁻⁴ kg
+> number = (2.64 × 10⁻⁴ / 3.90 × 10⁻²⁵) = 6.8 × 10²⁰ allow 6.77 × 10²⁰
 
 - **(2)** evaluation of total mass of U-235;
 
@@ -465,14 +464,13 @@ Calculate the energy released when the nucleus of a single atom of uranium‑235
 **Mark scheme answer**
 
 > use of energy ratio; allow ECF from (c)(i) giving
-> 9.6 × 10-13
+> 9.6 × 10⁻¹³
 > correct evaluation;
 > e.g.
-> energy = 2.17 × 1010 / 6.77 × 1020
-> energy = 3.2 × 10-11 (J) allow 3.21 × 10-11
-> allow 9.6(4…) × 10-13 (ECF
-> 2.25 or 2.3 x 1022 from (i))
-> Answer Notes Marks
+> energy = 2.17 × 10¹⁰ / 6.77 × 10²⁰
+> energy = 3.2 × 10⁻¹¹ (J) allow 3.21 × 10⁻¹¹
+> allow 9.6(4…) × 10⁻¹³ (ECF
+> 2.25 or 2.3 x 10²² from (i))
 
 - **(2)** use of energy ratio; allow ECF from (c)(i) giving
 
@@ -607,8 +605,8 @@ The water gains 190 000 J of energy in its thermal store as it is heated to its 
 > rearrangement of ΔQ = m × c × ΔT; -1 for POT
 > evaluation;
 > e.g.
-> 190 000 = 2.3 × c × 18
-> c = 190 000 / (2.3 × 18)
+> $190 000 = 2.3 \times c \times 18$
+> $c = 190 000 / (2.3 \times 18)$
 > (c = ) = 4600 (J/kg °C) allow 4589.37…, 4590
 > etc
 

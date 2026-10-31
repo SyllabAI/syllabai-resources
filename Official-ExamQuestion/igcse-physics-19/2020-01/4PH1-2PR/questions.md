@@ -156,7 +156,7 @@ State the formula linking momentum, mass and velocity.
 > momentum = mass × velocity; allow standard
 > symbols and
 > rearrangements e.g.
-> p=m×v
+> $p = m\times v$
 > reject M, m for
 > momentum
 
@@ -164,7 +164,7 @@ State the formula linking momentum, mass and velocity.
 
 ### 3(b) [3]
 
-Calculate the momentum of the neutron. Give a unit with your answer. [mass of neutron = 1.67 × 10–27 kg] momentum = unit
+Calculate the momentum of the neutron. Give a unit with your answer. [mass of neutron = 1.67 × 10⁻²⁷ kg] momentum = unit
 
 
 **Mark scheme answer**
@@ -173,9 +173,9 @@ Calculate the momentum of the neutron. Give a unit with your answer. [mass of ne
 > evaluation;
 > unit;
 > e.g.
-> p = 1.67 × 10-27 × 2200
-> (p =) 3.7 × 10-24 allow 3.6(74) × 10-24
-> kg m/s allow 3.7 × 10-21 g
+> p = 1.67 × 10⁻²⁷ × 2200
+> (p =) 3.7 × 10⁻²⁴ allow 3.6(74) × 10⁻²⁴
+> kg m/s allow 3.7 × 10⁻²¹ g
 > m/s for 3 marks
 
 - **(3)** substitution;
@@ -194,7 +194,7 @@ State what is meant by the term conservation of momentum.
 
 ### 3(d) [4]
 
-Diagram 2 shows that when the neutron collides with the uranium-235 nucleus, they combine to give a uranium-236 nucleus. After collision v uranium-236 Diagram 2 Use conservation of momentum to calculate the velocity, v, of the uranium-236 nucleus. [mass of uranium-235 nucleus = 3.99 × 10–25 kg] [mass of uranium-236 nucleus = 4.01 × 10–25 kg] v = m/s
+Diagram 2 shows that when the neutron collides with the uranium-235 nucleus, they combine to give a uranium-236 nucleus. After collision v uranium-236 Diagram 2 Use conservation of momentum to calculate the velocity, v, of the uranium-236 nucleus. [mass of uranium-235 nucleus = 3.99 × 10⁻²⁵ kg] [mass of uranium-236 nucleus = 4.01 × 10⁻²⁵ kg] v = m/s
 
 ![diagram — official paper figure (qp.pdf p.7)](assets/asset_3_d_diagram.png)
 
@@ -210,11 +210,10 @@ Diagram 2 shows that when the neutron collides with the uranium-235 nucleus, the
 > momentum gives
 > 9.95 m/s = 2 marks
 > e.g.
-> pU-235 = (3.99 × 10-25 × 10 =) 3.99 × 10-24
-> pU-236 = 3.99 × 10-24 + 3.7 × 10-24
-> vU-236 = momentum / mass = 7.664 × 10-24 / 4.01 × 10-25
+> pU-235 = (3.99 × 10⁻²⁵ × 10 =) 3.99 × 10⁻²⁴
+> pU-236 = 3.99 × 10⁻²⁴ + 3.7 × 10⁻²⁴
+> vU-236 = momentum / mass = 7.664 × 10⁻²⁴ / 4.01 × 10⁻²⁵
 > (vU-236 =) 19 (m/s) allow 19.1… (m/s)
-> Answer Notes Marks
 
 - **(4)** evaluation of momentum of U-235 before collision;
 
@@ -259,19 +258,19 @@ Calculate the velocity of the hammer just before it strikes the metal. [KE of ha
 
 **Mark scheme answer**
 
-> use of KE = ½ × mass × speed2; allow standard symbols
+> use of KE = ½ × mass × speed²; allow standard symbols
 > can be implied from
 > working
 > substitution;
 > rearrangement;
 > evaluation;
 > e.g.
-> KE = ½ × m × v2
-> 21 = 0.5 × 1.8 × v2
-> v = √(21/0.9)
+> KE = ½ × m × v²
+> $21 = 0.5 \times 1.8 \times v^{2}$
+> $v = \sqrt{21/0.9}$
 > (v =) 4.8 (m/s) allow 4.83, 4.83… (m/s)
 
-- **(4)** use of KE = ½ × mass × speed2; allow standard symbols
+- **(4)** use of KE = ½ × mass × speed²; allow standard symbols
 
 ### 4(b)(ii) [2]
 
@@ -286,9 +285,8 @@ When the hammer hits the metal, the hammer comes to rest without rebounding. Cal
 > method using
 > a = (v-u)/t and F = ma
 > e.g.
-> F = (1.8 × 4.8) / 0.12
+> $F = (1.8 \times 4.8) / 0.12$
 > (F =) 72 (N) allow 72.5, 72.45… (N)
-> Answer Notes Marks
 
 - **(2)** substitution into F = mv-mu / t; allow ecf from (b)(i)
 
@@ -475,7 +473,7 @@ Accurately measure the diameter of the proton’s path. diameter = cm
 
 ### 7(b)(iii) [3]
 
-The proton completes one orbit of its circular path in a time period of 8.7 × 10–6 seconds. Calculate the orbital speed of the proton. orbital speed = m/s
+The proton completes one orbit of its circular path in a time period of 8.7 × 10⁻⁶ seconds. Calculate the orbital speed of the proton. orbital speed = m/s
 
 
 **Mark scheme answer**
@@ -485,13 +483,12 @@ The proton completes one orbit of its circular path in a time period of 8.7 × 1
 > evaluation; -1 for POT error
 > accept alternative
 > method using
-> v=π×d/T
+> $v = \pi \times d/T$
 > e.g.
 > r = (6.0 / 2 =) 3.0 cm
-> v = 2 × π × 0.030 / 8.7 × 10-6
+> v = 2 × π × 0.030 / 8.7 × 10⁻⁶
 > (v =) 22 000 (m/s) allow
 > 21 000-22 000 (m/s)
-> Answer Notes Marks
 
 - **(3)** use of radius; allow ecf from (b)(ii)
 
@@ -554,11 +551,11 @@ Diagram 2 shows an oscilloscope trace. The trace represents the sound wave recei
 > correct use of oscilloscope settings; seen anywhere in working
 > evaluation in standard form;
 > award 2 marks for answers
-> of 4 × 10-3, 16 × 10-3 (s)
+> of 4 × 10⁻³, 16 × 10⁻³ (s)
 > e.g.
 > period = 4 squares
 > (period = 4) × 0.002
-> (period =) 8 × 10-3 (s)
+> (period =) 8 × 10⁻³ (s)
 
 - **(3)** determination of number of squares for one period;
 

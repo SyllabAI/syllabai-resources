@@ -512,7 +512,7 @@ Explain what happens during nuclear fusion.
 > nuclei”
 > resulting in a loss of mass;
 > and the release of energy; accept reference to
-> E=mc2
+> E=mc²
 > condone “converted to
 > energy”
 
@@ -562,18 +562,18 @@ The student releases the blocks. The kinetic energy (KE) store of the small bloc
 
 **Mark scheme answer**
 
-> correct substitution KE = ½ (mass) × (speed)2; allow use of standard
-> symbols e.g. KE = ½ m v2
+> correct substitution KE = ½ (mass) × (speed)²; allow use of standard
+> symbols e.g. KE = ½ m v²
 > allow mass = 17 at this
 > point
 > re-arrangement to give v;
 > evaluation to show 5.8(4…) (m/s);
-> e.g. KE = ½ m v2
-> 0.29 = 0.5 × 0.017 × v2
-> v2 = 0.29 ÷ (0.5 × 0.017) = 34.1176471..
+> e.g. KE = ½ m v²
+> 0.29 = 0.5 × 0.017 × v²
+> v² = 0.29 ÷ (0.5 × 0.017) = 34.1176471..
 > v = √34.1176471 = 5.8(4…) (m/s)
 
-- **(3)** correct substitution KE = ½ (mass) × (speed)2; allow use of standard
+- **(3)** correct substitution KE = ½ (mass) × (speed)²; allow use of standard
 
 ### 7(b) [4]
 

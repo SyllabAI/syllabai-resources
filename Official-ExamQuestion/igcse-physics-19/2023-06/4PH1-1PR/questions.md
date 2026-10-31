@@ -120,7 +120,7 @@ Which of these forces causes the ISS to orbit the Earth?
 
 ### 2(c)(i) [3]
 
-The orbital radius of the ISS is 6.8 × 103 km. Calculate the orbital speed of the ISS in km / s. orbital speed = km / s
+The orbital radius of the ISS is 6.8 × 10³ km. Calculate the orbital speed of the ISS in km / s. orbital speed = km / s
 
 
 **Mark scheme answer**
@@ -131,7 +131,7 @@ The orbital radius of the ISS is 6.8 × 103 km. Calculate the orbital speed of t
 > changed to m/s
 > unnecessarily
 > e.g.
-> orbital speed = 2 × π × 6.8×103 / 93(×60)
+> orbital speed = 2 × π × 6.8×10³ / 93(×60)
 > 93 minutes = 93 × 60 (= 5580 seconds)
 > (orbital speed =) 7.7 (km/s) allow 7.656…
 > 459.4, 15.31, 27565, 7.6
@@ -158,8 +158,7 @@ Show that the ISS completes approximately 15 orbits of the Earth each day.
 > circumference of orbit
 > e.g.
 > 1 day = 24 × 60 = 1440 minutes
-> 1440/93 =15.5
-> Answer Notes Marks
+> $1440/93 = 15.5$
 
 - **(2)** successful conversion of orbital period and a day e.g.
 
@@ -202,8 +201,8 @@ Calculate the height the load is lifted. height = m
 > accept use of g = 9.8(1)
 > e.g. accept 1sf answer i.e. 0.8
 > (m)
-> 3.2 = 0.40 × 10 × h
-> h = 3.2 / 0.40 × 10
+> $3.2 = 0.40 \times 10 \times h$
+> $h = 3.2 / 0.40 \times 10$
 > (h =) 0.80 (m) 0.815 or 0.816 or 0.82 if g
 > used is 9.8(1) and then
 > rounded
@@ -748,7 +747,7 @@ The driver of a racing car makes a pit stop during a race to change the tyres on
 
 ### 9(a)(i) [3]
 
-The mass of the racing car is 830 kg. The maximum braking force is 41 000 N. Show that the maximum deceleration of the racing car is approximately 50 m / s2.
+The mass of the racing car is 830 kg. The maximum braking force is 41 000 N. Show that the maximum deceleration of the racing car is approximately 50 m / s².
 
 
 **Mark scheme answer**
@@ -760,9 +759,9 @@ The mass of the racing car is 830 kg. The maximum braking force is 41 000 N. Sho
 > substitution and rearrangement;
 > evaluation to 2 s.f. or more;
 > e.g.
-> F=m×a
-> a = 41000 / 830
-> a = 49 (m/s2) allow 49.39…
+> $F = m\times a$
+> $a = 41000 / 830$
+> a = 49 (m/s²) allow 49.39…
 
 - **(3)** recall of (unbalanced) force = mass × acceleration; allow symbols
 
@@ -773,11 +772,11 @@ The racing car is travelling at an initial speed of 72 m / s. Calculate the mini
 
 **Mark scheme answer**
 
-> substitution into v2 = u2 + 2as; allow ecf from (i)
+> substitution into v² = u² + 2as; allow ecf from (i)
 > rearrangement;
 > evaluation;
 > e.g.
-> 262 = 722 + 2×(-50)×s
+> 26² = 72² + 2×(-50)×s
 > (distance =) 5184-676 / 100
 > (distance =) 45 (m) expect answers in range
 > 45-46 (m)
@@ -785,7 +784,7 @@ The racing car is travelling at an initial speed of 72 m / s. Calculate the mini
 > (wrong physics)
 > accept 46 if unqualified
 
-- **(3)** substitution into v2 = u2 + 2as; allow ecf from (i)
+- **(3)** substitution into v² = u² + 2as; allow ecf from (i)
 
 ### 9(b) [3]
 
@@ -855,7 +854,7 @@ State the formula linking pressure difference, height, density and g.
 
 ### 10(a)(ii) [3]
 
-Atmospheric pressure at the surface of the reservoir is 100 kPa. Calculate the total pressure at the bottom of the reservoir. [for water, density = 1000 kg / m3] pressure = kPa
+Atmospheric pressure at the surface of the reservoir is 100 kPa. Calculate the total pressure at the bottom of the reservoir. [for water, density = 1000 kg / m³] pressure = kPa
 
 
 **Mark scheme answer**
@@ -910,13 +909,13 @@ Calculate the area of the camera lens. Give a suitable unit. area = unit
 > kPa
 > rearrangement;
 > evaluation; accept standard form i.e.
-> 1.7 × 10-3 (m2)
+> 1.7 × 10⁻³ (m²)
 > corresponding unit of area;
 > e.g.
 > 260 000 = 430 / area
 > (area =) 430 / 260 000
-> (area =) 0.0017 allow 0.0016538… m2 etc
-> m2 allow 17, 16.5… (cm2) etc
+> (area =) 0.0017 allow 0.0016538… m² etc
+> m2 allow 17, 16.5… (cm²) etc
 > allow 1.65... m2 scores 3
 > allow 1.65...cm2 scores 2
 
@@ -924,7 +923,7 @@ Calculate the area of the camera lens. Give a suitable unit. area = unit
 
 ### 10(c) [2]
 
-Sea water has a density of 1030 kg / m3. Explain how the design of the dam would need to be changed to hold the same depth of sea water safely.
+Sea water has a density of 1030 kg / m³. Explain how the design of the dam would need to be changed to hold the same depth of sea water safely.
 
 
 **Mark scheme answer**
@@ -943,7 +942,7 @@ The gravitational field strength of a planet decreases with increasing distance 
 
 ### 11(a) [4]
 
-A student finds this formula in a textbook, which links distance from the centre of a planet to its gravitational field strength gravitational field strength × distance2 = constant Use data from the table to justify this formula.
+A student finds this formula in a textbook, which links distance from the centre of a planet to its gravitational field strength gravitational field strength × distance² = constant Use data from the table to justify this formula.
 
 ![table — official paper figure (qp.pdf p.30) — shared with asset_11_a_table_stem](assets/asset_11_a_table_stem.png)
 
@@ -973,7 +972,7 @@ Olympus Mons is the tallest mountain on Mars. The distance between the centre of
 > allow mean constant
 > evaluation; condone 3.7
 > e.g.
-> gravitational field strength = constant / distance2
+> gravitational field strength = constant / distance²
 > gravitational field strength = 42 700 000 / 34102 allow range of
 > 42 500 000 to 42 900 000
 > for constant

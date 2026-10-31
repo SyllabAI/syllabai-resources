@@ -176,7 +176,7 @@ Describe the process of nuclear fusion.
 > nuclei; nuclei”
 > MP2. resulting in a loss of mass;
 > MP3. and the release of energy; accept reference to
-> E=mc2
+> E=mc²
 > condone “converted to
 > energy”
 
@@ -388,13 +388,13 @@ Use the diagram to determine the mean diameter of the cylinder of putty. mean di
 
 ### 5(a)(ii) [2]
 
-Calculate the cross-sectional area of the cylinder of putty in cm2. [area of a circle = π × radius2] cross-sectional area = cm2
+Calculate the cross-sectional area of the cylinder of putty in cm². [area of a circle = π × radius²] cross-sectional area = cm²
 
 
 **Mark scheme answer**
 
 > substitution of radius into given formula;
-> evaluation of area within range 9.6-12.6 cm2; 1 mark max if diameter
+> evaluation of area within range 9.6-12.6 cm²; 1 mark max if diameter
 > used instead of radius
 
 - **(2)** substitution of radius into given formula;
@@ -423,7 +423,7 @@ The student connects a cylinder of putty to a battery. He measures the voltage o
 
 ### 5(c)(i) [2]
 
-Calculate the resistance of the cylinder when the cross-sectional area of the cylinder is 24.6 cm2. Give your answer to 3 significant figures. resistance = Ω
+Calculate the resistance of the cylinder when the cross-sectional area of the cylinder is 24.6 cm². Give your answer to 3 significant figures. resistance = Ω
 
 
 **Mark scheme answer**
@@ -513,7 +513,7 @@ State the formula linking density, mass and volume.
 
 ### 6(a)(ii) [2]
 
-Calculate the volume of the ball. volume = cm3
+Calculate the volume of the ball. volume = cm³
 
 
 **Mark scheme answer**
@@ -522,7 +522,7 @@ Calculate the volume of the ball. volume = cm3
 > evaluation;
 > e.g.
 > V = m / ρ OR 2.3 = 19 / V
-> (V =) 8.3 (cm3) allow 8.26…
+> (V =) 8.3 (cm³) allow 8.26…
 
 - **(2)** substitution OR rearrangement;
 
@@ -542,13 +542,13 @@ State the formula linking pressure difference, height, density and gravitational
 
 ### 6(b)(ii) [2]
 
-Calculate the increase in pressure at this depth. [density of water = 1000 kg/m3] increase in pressure = Pa
+Calculate the increase in pressure at this depth. [density of water = 1000 kg/m³] increase in pressure = Pa
 
 
 **Mark scheme answer**
 
 > substitution; accept use of g = 9.8(1)
-> m/s2
+> m/s²
 > evaluation;
 > e.g.
 > (p =) 5.6 x 1000 x 10
@@ -557,7 +557,6 @@ Calculate the increase in pressure at this depth. [density of water = 1000 kg/m3
 > Use of 9.8 gives 54 880
 > Use of 9.81 gives 54 936
 > Both round to 55 000
-> Answer Notes Marks
 
 - **(2)** substitution; accept use of g = 9.8(1)
 
@@ -807,7 +806,7 @@ The glass has a refractive index of 1.6 Calculate the critical angle of the glas
 > rounding
 > e.g.
 > sin c = 1/1.6
-> (c =) sin-1 (1/1.6)
+> (c =) sin⁻¹ (1/1.6)
 > (c =) 39° allow 38.682…
 
 - **(3)** substitution into sin c = 1/n;
@@ -887,7 +886,7 @@ The mass of the van is 1900 kg. Calculate the acceleration of the van when it br
 > (a =) (-)14000 / 1900
 > (a =) (-)7.4 Condone 7.4, 7.36842…,
 > etc.
-> m/s2 accept m s-2
+> m/s² accept m s-2
 > ignore N/kg
 
 - **(3)** substitution AND rearrangement;
@@ -899,14 +898,14 @@ The van was travelling at an initial speed of 18 m/s before braking and coming t
 
 **Mark scheme answer**
 
-> substitution into v2 = u2 + 2as; allow ecf from (b)(ii)
+> substitution into v² = u² + 2as; allow ecf from (b)(ii)
 > no mark for equation
 > alone as given
 > rearrangement;
 > evaluation; -1 if negative sign given
 > with answer
 > e.g.
-> 0 = 182 + (2 x -7.4 x s)
+> 0 = 18² + (2 x -7.4 x s)
 > (s =) 324 / (2 x 7.4)
 > (s =) 22 (m) allow answer in range
 > 21.8-22.0 from rounding
@@ -914,7 +913,7 @@ The van was travelling at an initial speed of 18 m/s before braking and coming t
 > allow time to stop of
 > 2.4... (s) for 1 mark
 
-- **(3)** substitution into v2 = u2 + 2as; allow ecf from (b)(ii)
+- **(3)** substitution into v² = u² + 2as; allow ecf from (b)(ii)
 
 ### 10(b)(iv) [2]
 
@@ -956,8 +955,8 @@ When the van is fully loaded its mass increases to 2500 kg. Calculate the time t
 > substitution;
 > rearrangement;
 > evaluation;
-> new acceleration = 5.6 (m/s2)
-> 5.6 = 18 / t
+> new acceleration = 5.6 (m/s²)
+> $5.6 = 18 / t$
 > (t =) 18/5.6
 > (t =) 3.2 (s) allow 3.214…
 > ignore negative
@@ -965,7 +964,6 @@ When the van is fully loaded its mass increases to 2500 kg. Calculate the time t
 > (i.e. mass x 10 x
 > speed/force) which
 > gives 32.
-> Answer Notes Marks
 
 - **(4)** -1 if POT error
 
@@ -1032,7 +1030,7 @@ Explain how the diagram shows that the strength of the magnetic field changes.
 
 ### 11(c) [4]
 
-Magnetic field strength can be measured in units of milli-tesla (mT). A student uses a different magnet. The student measures the magnetic field strength at different distances from the north pole of this magnet. The graph shows his results. 6.0 – 5.0 – 4.0 – Magnetic field strength in mT 3.0 – 2.0 – 1.0 – 0.0 – 10 20 30 40 50 60 70 80 Distance from magnet in mm The student concludes that his results obey this relationship. magnetic field strength × distance2 = constant Use data from the graph to deduce whether the student’s results support this conclusion.
+Magnetic field strength can be measured in units of milli-tesla (mT). A student uses a different magnet. The student measures the magnetic field strength at different distances from the north pole of this magnet. The graph shows his results. 6.0 – 5.0 – 4.0 – Magnetic field strength in mT 3.0 – 2.0 – 1.0 – 0.0 – 10 20 30 40 50 60 70 80 Distance from magnet in mm The student concludes that his results obey this relationship. magnetic field strength × distance² = constant Use data from the graph to deduce whether the student’s results support this conclusion.
 
 ![graph — official paper figure (qp.pdf p.32)](assets/asset_11_c_graph.png)
 

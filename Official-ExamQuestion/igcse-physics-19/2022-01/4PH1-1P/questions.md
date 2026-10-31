@@ -199,7 +199,7 @@ State the formula linking speed, frequency and wavelength.
 
 ### 3(b)(ii) [2]
 
-Calculate the wavelength of Wi-Fi signals transmitted at 5.2 × 109 Hz. [speed of light = 3.0 × 108 m / s] wavelength = m
+Calculate the wavelength of Wi-Fi signals transmitted at 5.2 × 10⁹ Hz. [speed of light = 3.0 × 10⁸ m / s] wavelength = m
 
 
 **Mark scheme answer**
@@ -365,7 +365,7 @@ State the formula linking force, mass and acceleration.
 
 ### 5(b)(ii) [2]
 
-Calculate the acceleration of the car. acceleration = m / s2
+Calculate the acceleration of the car. acceleration = m / s²
 
 
 **Mark scheme answer**
@@ -374,7 +374,7 @@ Calculate the acceleration of the car. acceleration = m / s2
 > evaluation;
 > e.g.
 > 7600 = 1200 × a OR a = F / m
-> (a =) (−)6.3 (m/s2) allow 6.33… (m/s2)
+> (a =) (−)6.3 (m/s²) allow 6.33… (m/s²)
 
 - **(2)** substitution OR rearrangement;
 
@@ -385,16 +385,15 @@ Calculate the braking distance travelled as the speed of the car is reduced from
 
 **Mark scheme answer**
 
-> substitution into v2 = u2 + 2as; ecf answer from (ii)
+> substitution into v² = u² + 2as; ecf answer from (ii)
 > rearrangement;
 > evaluation;
 > e.g.
-> 02 = 212 + [2 × (−)6.3 × distance]
+> 0² = 21² + [2 × (−)6.3 × distance]
 > distance = 441 / 12.6
 > distance = 35 (m) allow 34.8…(m)
-> Answer Notes Marks
 
-- **(3)** substitution into v2 = u2 + 2as; ecf answer from (ii)
+- **(3)** substitution into v² = u² + 2as; ecf answer from (ii)
 
 
 ## Question 6 (15 marks)
@@ -404,7 +403,7 @@ Calculate the braking distance travelled as the speed of the car is reduced from
 
 ### 6(a)(i) [3]
 
-Calculate the acceleration of the object. acceleration = m / s2
+Calculate the acceleration of the object. acceleration = m / s²
 
 
 **Mark scheme answer**
@@ -418,7 +417,7 @@ Calculate the acceleration of the object. acceleration = m / s2
 > e.g.
 > acceleration = gradient
 > acceleration = (−)4.2 / 0.45
-> (acceleration =) −9.3 (m/s2) allow −9.3 to −9.4
+> (acceleration =) −9.3 (m/s²) allow −9.3 to −9.4
 
 - **(3)** any attempt to find gradient of graph; allow use of acceleration
 
@@ -430,7 +429,7 @@ Calculate the distance the object travels to reach its maximum height. distance 
 **Mark scheme answer**
 
 > accept alternative method
-> using v2 = u2 + 2as with
+> using v² = u² + 2as with
 > acceleration calculated in (i)
 > any clear indication that distance travelled = area; allow attempt to calculate
 > area of triangle
@@ -864,7 +863,7 @@ Scientific balloons are tested in a laboratory before they are used.
 
 ### 11(a)(i) [2]
 
-The pressure of the air inside the balloon is reduced to 64 kPa by reducing the external air pressure. Calculate the new volume of the balloon. volume = m3
+The pressure of the air inside the balloon is reduced to 64 kPa by reducing the external air pressure. Calculate the new volume of the balloon. volume = m³
 
 
 **Mark scheme answer**
@@ -873,8 +872,8 @@ The pressure of the air inside the balloon is reduced to 64 kPa by reducing the 
 > formula;
 > evaluation;
 > e.g.
-> V2 = p1 × V1 / p2 OR 120 × 92 = 64 × V2
-> (volume =) 170 (m3) allow 172, 173, 172.5
+> V₂ = p₁ × V₁ / p₂ OR 120 × 92 = 64 × V₂
+> (volume =) 170 (m³) allow 172, 173, 172.5
 
 - **(2)** rearrangement OR substitution into given
 
@@ -921,10 +920,9 @@ Calculate the temperature of the air when the pressure of the air in the balloon
 > rearrangement;
 > evaluation;
 > e.g.
-> 120 / 290 = 64 / T2
-> T2 = (64 × 290) / 120
+> 120 / 290 = 64 / T₂
+> T₂ = (64 × 290) / 120
 > (temperature =) 150 (K) allow 155, 154.6… (K)
-> Answer Notes Marks
 
 - **(3)** substitution into given formula;
 

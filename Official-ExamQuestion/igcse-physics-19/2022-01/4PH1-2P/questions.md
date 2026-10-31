@@ -46,9 +46,9 @@ A person inside a car has a mass of 72 kg and a velocity of 13 m/s. Show that th
 
 **Mark scheme answer**
 
-> 72 × 13 = 936;
+> $72 \times 13 = 936$;
 
-- **(1)** 72 × 13 = 936;
+- **(1)** $72 \times 13 = 936$;
 
 ### 1(b)(iii) [2]
 
@@ -228,7 +228,7 @@ The student uses a device called a Hall probe, which can be placed anywhere in t
 
 ### 4(b) [4]
 
-The graph shows the results of the student’s investigation. Strength of magnetic field in arbitrary units 0 10 20 30 40 50 Distance in cm The student suggests that the relationship linking the strength of the magnetic field and the distance from the end of the solenoid is strength of magnetic field × (distance)3 = constant Use readings from the graph to deduce whether the results of the student’s investigation support this relationship.
+The graph shows the results of the student’s investigation. Strength of magnetic field in arbitrary units 0 10 20 30 40 50 Distance in cm The student suggests that the relationship linking the strength of the magnetic field and the distance from the end of the solenoid is strength of magnetic field × (distance)³ = constant Use readings from the graph to deduce whether the results of the student’s investigation support this relationship.
 
 ![graph — official paper figure (qp.pdf p.10)](assets/asset_4_b_graph.png)
 
@@ -249,13 +249,11 @@ The graph shows the results of the student’s investigation. Strength of magnet
 > e.g.
 > when distance = 10 cm ,
 > magnetic field strength = 17
-> 17 × 103 = 17000
+> $17 \times 10^{3} = 17000$
 > when distance = 50 cm ,magnetic field strength = 4
-> 4 × 503 = 500000
+> $4 \times 50^{3} = 500000$
 > constants are different so results disagree with
 > conclusion
-> Total for question 4: 9 marks
-> Answer Notes Marks
 
 - **(4)** any pair of readings from the graph;
 
@@ -283,7 +281,7 @@ State the formula linking gravitational potential energy (GPE), mass, gravitatio
 
 ### 5(b) [3]
 
-The ball has a mass of 14 g. Show that when the ball reaches a height of 29 cm above the bottom of the ramp, the GPE gained by the ball is about 4 × 10−2 J.
+The ball has a mass of 14 g. Show that when the ball reaches a height of 29 cm above the bottom of the ramp, the GPE gained by the ball is about 4 × 10⁻² J.
 
 
 **Mark scheme answer**
@@ -307,23 +305,23 @@ The ball has a mass of 14 g. Show that when the ball reaches a height of 29 cm a
 
 ### 5(c) [3]
 
-At the bottom of the ramp, the 14 g ball has a kinetic energy (KE) of 5.1 × 10−2 J. Calculate the speed of the ball at the bottom of the ramp. speed = m/s
+At the bottom of the ramp, the 14 g ball has a kinetic energy (KE) of 5.1 × 10⁻² J. Calculate the speed of the ball at the bottom of the ramp. speed = m/s
 
 
 **Mark scheme answer**
 
-> recall of KE= 1/2 mv2;
+> recall of KE= 1/2 mv²;
 > substitution and rearrangement to v2 as subject;
 > evaluation;
 > correct answer: 2.7 (m/s)
 > e.g. treat answer of 8.53.. ×
-> KE= 1/2 mv2 10n as a POT error, 1
-> 5.1 × 10-2 = ½ × 0.014 × v2 mark penalty
-> v2 = 2 × 5.1 × 10-2 ÷ 0.014 = 7.2857….
+> KE= 1/2 mv² 10n as a POT error, 1
+> 5.1 × 10⁻² = ½ × 0.014 × v² mark penalty
+> v² = 2 × 5.1 × 10⁻² ÷ 0.014 = 7.2857….
 > v = 2.6992….
 > v = 2.7 (m/s)
 
-- **(3)** recall of KE= 1/2 mv2;
+- **(3)** recall of KE= 1/2 mv²;
 
 ### 5(d) [2]
 
@@ -386,7 +384,7 @@ Determine the period of the sound wave. period = s
 > Accept 2(.0) ms
 > e.g. period is 4 squares
 > period = 4 x (0.50 ÷ 1000)
-> = 2(.0) × 10-3 (s)
+> = 2(.0) × 10⁻³ (s)
 
 - **(3)** period given as 4 squares;
 
@@ -508,7 +506,7 @@ Describe the energy transfers that are involved in generating electricity in a h
 ## Question 8 (7 marks)
 ### 8(a)(i) [3]
 
-A galaxy moves away from the Earth at a speed of 3.9 × 104 km/s. The speed of light is 3.0 × 105 km/s. Light from the galaxy is emitted with a wavelength of 6.2 × 10−7 m. Calculate the change in the wavelength of the light that is received by an observer on the Earth. change in wavelength = m
+A galaxy moves away from the Earth at a speed of 3.9 × 10⁴ km/s. The speed of light is 3.0 × 10⁵ km/s. Light from the galaxy is emitted with a wavelength of 6.2 × 10⁻⁷ m. Calculate the change in the wavelength of the light that is received by an observer on the Earth. change in wavelength = m
 
 
 **Mark scheme answer**
@@ -517,12 +515,12 @@ A galaxy moves away from the Earth at a speed of 3.9 × 104 km/s. The speed of l
 > rearrangement;
 > correct evaluation of wavelength change; -1 POT error
 > condone 1 sf
-> correct answer: 8.1 × 10-8 (m) 8.06 × 10-8 to 3sf
-> e.g. (change in wavelength/6.2 × 10 -7)=
+> correct answer: 8.1 × 10⁻⁸ (m) 8.06 × 10⁻⁸ to 3sf
+> e.g. (change in wavelength/6.2 × 10 ⁻⁷)=
 > (3.9 × 10⁴/3.0 × 105)
-> change in wavelength = 6.2 × 10-7 ×
+> change in wavelength = 6.2 × 10⁻⁷ ×
 > (3.9 × 10⁴/3.0 × 105)
-> change in wavelength = 8.1 × 10-8 (m)
+> change in wavelength = 8.1 × 10⁻⁸ (m)
 
 - **(3)** substitution into given equation;
 
@@ -535,7 +533,7 @@ Calculate the wavelength of light that is received by an observer on the Earth. 
 
 > candidate’s answer to (i) + 6.2 × 10 -7 (m); ECF wavelength
 > change
-> e.g. 8.1 x 10-8 + 6.2 × 10-7 = 7.0 × 10-7(m) condone 1sf
+> e.g. 8.1 x 10⁻⁸ + 6.2 × 10⁻⁷ = 7.0 × 10⁻⁷(m) condone 1sf
 
 - **(1)** candidate’s answer to (i) + 6.2 × 10 -7 (m); ECF wavelength
 

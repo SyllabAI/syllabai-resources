@@ -133,7 +133,7 @@ Object Y has an elliptical orbit around the star. State the type of object that 
 
 ### 3(c) [3]
 
-Object X completes an orbit of the star in 35 days. The radius of its orbit is 1.5 × 1011 m. Calculate the orbital speed of object X. orbital speed = m/s
+Object X completes an orbit of the star in 35 days. The radius of its orbit is 1.5 × 10¹¹ m. Calculate the orbital speed of object X. orbital speed = m/s
 
 
 **Mark scheme answer**
@@ -141,19 +141,17 @@ Object X completes an orbit of the star in 35 days. The radius of its orbit is 1
 > substitution into given formula;
 > conversion of 35 days into seconds;
 > evaluation; allow full credit for
-> 2.6927937 × 1010 if unit
+> 2.6927937 × 10¹⁰ if unit
 > changed to m/day.
 > e.g.
-> v = 2 × π × 1.5 × 1011/(35 × 24 × 60 × 60)
+> v = 2 × π × 1.5 × 10¹¹/(35 × 24 × 60 × 60)
 > v = 310 000 m/s
 > 311665.93(7)8
 > Answer for incorrect/no
 > conversion of days→
-> seconds 2.69etc x 1010
+> seconds 2.69etc x 10¹⁰
 > scores 2
 > -1 for POT error
-> (Total for Question 3 = 5 marks)
-> Answer Notes Marks
 
 - **(3)** substitution into given formula;
 
@@ -242,7 +240,7 @@ Calculate the pressure of the gas when its temperature is 340 °C. Assume the ga
 > e.g.
 > 35°C and 340°C→ 308 and 613 K
 > 112 (kPa)/308 = P / 613
-> P = 613 × 112 / 308
+> $P = 613 \times 112 / 308$
 > P = 220 (kPa) accept 222.909…
 > accept 1088 (kPa) for 2
 > marks (no conversion of
@@ -290,14 +288,14 @@ Calculate the distance travelled by the car during the first 0.4 seconds. distan
 
 ### 5(b)(i) [3]
 
-Calculate the acceleration of the car between 0.40 s and 0.45 s. acceleration = m/s2
+Calculate the acceleration of the car between 0.40 s and 0.45 s. acceleration = m/s²
 
 
 **Mark scheme answer**
 
 > idea that acceleration = gradient;
 > gradient = (-)4.3 / 0.05;
-> acceleration = (-) 86 (m/s2); -1 for POT error
+> acceleration = (-) 86 (m/s²); -1 for POT error
 
 - **(3)** idea that acceleration = gradient;
 
@@ -439,7 +437,7 @@ State the formula linking pressure difference, height, gravitational field stren
 
 ### 7(a)(iii) [2]
 
-The depth of the fizzy water in the glass is 22 cm. The density of the fizzy water is 1080 kg/m3. Calculate the pressure difference at the bottom of the glass due to the fizzy water. pressure difference = Pa
+The depth of the fizzy water in the glass is 22 cm. The density of the fizzy water is 1080 kg/m³. Calculate the pressure difference at the bottom of the glass due to the fizzy water. pressure difference = Pa
 
 
 **Mark scheme answer**
@@ -469,19 +467,19 @@ Calculate the pressure of the gas in the bubble when the bubble is at the bottom
 
 ### 7(a)(v) [3]
 
-When a bubble is at the top of the glass, the pressure of the gas in the bubble is equal to 101 000 Pa and the bubble has a volume of 0.084 cm3. Calculate the volume of the gas in the bubble when the bubble is at the bottom of the glass. Assume the temperature of the gas remains constant. volume = cm3
+When a bubble is at the top of the glass, the pressure of the gas in the bubble is equal to 101 000 Pa and the bubble has a volume of 0.084 cm³. Calculate the volume of the gas in the bubble when the bubble is at the bottom of the glass. Assume the temperature of the gas remains constant. volume = cm³
 
 
 **Mark scheme answer**
 
 > substitution into given formula; allow ECF from (iv)
 > rearrangement; e.g. 98624 gives
-> 0.086 (cm3)
+> 0.086 (cm³)
 > evaluation;
 > e.g
-> p1 × V1 = p2 × V2 0.082368932
-> 101 000 × 0.084 = 103 000 x V2
-> V2 = 0.082 (cm3) -1 for POT error
+> p₁ × V₁ = p₂ × V₂ 0.082368932
+> 101 000 × 0.084 = 103 000 x V₂
+> V₂ = 0.082 (cm³) -1 for POT error
 
 - **(3)** substitution into given formula; allow ECF from (iv)
 
@@ -585,7 +583,7 @@ Uranium-235 captures a neutron and undergoes nuclear fission in a chain reaction
 **Mark scheme answer**
 
 > 236 – (97 + 135); answer of 4 scores 2
-> x = 4;
+> $x = 4$;
 
 - **(2)** 236 – (97 + 135); answer of 4 scores 2
 

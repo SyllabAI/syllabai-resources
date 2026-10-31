@@ -99,8 +99,8 @@ Determine the period of the sound wave. period = s
 > answer of 0.01, 0.04 (s) scores 2
 > e.g.
 > period = 4 squares
-> period = 4 × 5.0 (×10-3)
-> period = 20 ms = 2.0 × 10-2 (s) allow 0.02 (s)
+> period = 4 × 5.0 (×10⁻³)
+> period = 20 ms = 2.0 × 10⁻² (s) allow 0.02 (s)
 
 - **(3)** period represented by 4 squares;
 
@@ -179,7 +179,7 @@ A magnetic force acts on the positively charged sulfur particle. This force make
 
 ### 3(c)(ii) [3]
 
-The tube has a radius of 1.1 km and the sulfur particle has an orbital speed of 2.9 × 108 m/s. Calculate the orbital period of the sulfur particle. orbital period = s
+The tube has a radius of 1.1 km and the sulfur particle has an orbital speed of 2.9 × 10⁸ m/s. Calculate the orbital period of the sulfur particle. orbital period = s
 
 
 **Mark scheme answer**
@@ -188,10 +188,9 @@ The tube has a radius of 1.1 km and the sulfur particle has an orbital speed of 
 > rearrangement;
 > evaluation; -1 for POT error
 > e.g.
-> 2.9 × 108 = (2 × π × 1.1(× 103)) ÷ orbital period
-> orbital period = (2 × π × 1.1(× 103)) ÷ 2.9 × 108
-> (orbital period =) 2.4 × 10-5 (s) allow 2.383… × 10-5 (s)
-> Answer Notes Marks
+> 2.9 × 10⁸ = (2 × π × 1.1(× 10³)) ÷ orbital period
+> orbital period = (2 × π × 1.1(× 10³)) ÷ 2.9 × 10⁸
+> (orbital period =) 2.4 × 10⁻⁵ (s) allow 2.383… × 10⁻⁵ (s)
 
 - **(3)** substitution into given formula;
 
@@ -472,7 +471,7 @@ The refractive index of a different material is 1.7 Calculate the critical angle
 > substitution and rearrangement;
 > evaluation;
 > e.g.
-> c = sin-1(1/1.7) = sin-1(0.588…)
+> c = sin⁻¹(1/1.7) = sin⁻¹(0.588…)
 > (critical angle =) 36 (degrees) allow 36.03… (degrees)
 
 - **(2)** substitution and rearrangement;
@@ -557,7 +556,7 @@ The force, F, is the minimum force needed to start opening the gate. Calculate t
 > e.g.
 > 403.2 = F × 3.2 clockwise moment = anti-
 > clockwise moment
-> F = 403.2 / 3.2
+> $F = 403.2 / 3.2$
 > (F =) 130 (N) allow 126 (N)
 
 - **(4)** idea of principle of moments; implied by substitution or

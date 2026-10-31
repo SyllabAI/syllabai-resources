@@ -319,13 +319,13 @@ Calculate the mean electrical power output from solar energy resources. mean ele
 > evaluation;
 > e.g.
 > solar = 1.5%
-> (solar output = 0.015 × 4.76 × 1011 =) 7.1(4) × 109 (W)
+> (solar output = 0.015 × 4.76 × 10¹¹ =) 7.1(4) × 10⁹ (W)
 
 - **(2)** correct reading of solar from graph; seen anywhere in
 
 ### 4(c)(ii) [2]
 
-The mean total electrical power output of the USA in 2018 was 4.76 × 1011 W. A typical solar farm generates 250 W of electrical power for every 1.0 m2 of land area used. Calculate the amount of land area needed if the USA were to generate all of its electrical power using solar energy resources. land area = m2
+The mean total electrical power output of the USA in 2018 was 4.76 × 10¹¹ W. A typical solar farm generates 250 W of electrical power for every 1.0 m² of land area used. Calculate the amount of land area needed if the USA were to generate all of its electrical power using solar energy resources. land area = m²
 
 
 **Mark scheme answer**
@@ -333,14 +333,14 @@ The mean total electrical power output of the USA in 2018 was 4.76 × 1011 W. A 
 > correct use of ratio;
 > evaluation;
 > e.g.
-> land area = 4.76 × 1011 / 250
-> (land area =) 1.90 × 109 (m2) allow 1.904… × 109 (m2)
+> land area = 4.76 × 10¹¹ / 250
+> (land area =) 1.90 × 10⁹ (m²) allow 1.904… × 10⁹ (m²)
 
 - **(2)** correct use of ratio;
 
 ### 4(c)(iii) [3]
 
-The total land area of the USA is 9.83 × 1012 m2. Discuss whether the USA could generate all of its electrical power using solar energy resources.
+The total land area of the USA is 9.83 × 10¹² m2. Discuss whether the USA could generate all of its electrical power using solar energy resources.
 
 
 **Mark scheme answer**
@@ -529,7 +529,7 @@ Ball A moves towards the magnet with an initial velocity of 0.15 m/s. Calculate 
 > symbols e.g. p = m × v
 > evaluation; -1 for POT error
 > e.g.
-> p = 0.0041 × 0.15
+> $p = 0.0041 \times 0.15$
 > (p =) 0.00062 (kgm/s) allow decimal or
 > standard form
 > allow 0.000615
@@ -605,7 +605,7 @@ On the diagram, draw the path of the ink drop as it falls between the charged pl
 
 ### 8(c)(i) [3]
 
-The ink drop experiences a horizontal force of 8.5 × 10–7 N when it is between the charged plates. The mass of the ink drop is 1.1 × 10–10 kg. Calculate the horizontal acceleration of the ink drop when it is between the charged plates. acceleration = m/s2
+The ink drop experiences a horizontal force of 8.5 × 10⁻⁷ N when it is between the charged plates. The mass of the ink drop is 1.1 × 10⁻¹⁰ kg. Calculate the horizontal acceleration of the ink drop when it is between the charged plates. acceleration = m/s²
 
 
 **Mark scheme answer**
@@ -614,9 +614,9 @@ The ink drop experiences a horizontal force of 8.5 × 10–7 N when it is betwee
 > rearrangement;
 > evaluation; -1 for POT error
 > e.g.
-> 8.5 × 10-7 = 1.1 × 10-10 × a
-> (a =) 8.5 × 10-7 / 1.1 × 10-10
-> (a =) 7700 (m/s2) allow 7727.27…
+> 8.5 × 10⁻⁷ = 1.1 × 10⁻¹⁰ × a
+> (a =) 8.5 × 10⁻⁷ / 1.1 × 10⁻¹⁰
+> (a =) 7700 (m/s²) allow 7727.27…
 
 - **(3)** substitution into force = mass × acceleration;
 
@@ -627,7 +627,7 @@ The ink drop has no initial horizontal velocity before it passes between the cha
 
 **Mark scheme answer**
 
-> use of v2 = u2 + (2 × a × s); can be implied from
+> use of v² = u² + (2 × a × s); can be implied from
 > substitution
 > substitution OR rearrangement; allow ECF from (i)
 > evaluation in metres;
@@ -636,12 +636,12 @@ The ink drop has no initial horizontal velocity before it passes between the cha
 > conversion attempted on
 > incorrect answer
 > e.g.
-> v2 = u2 + (2 × a × s)
-> 3.92 = 0 + (2 × 7700 × s) OR s = (v2 – u2) / 2a
-> (s =) 9.9 × 10-4 (m) allow 9.8 × 10-4 – 9.9 × 10-4
+> $v^{2} = u^{2} + (2 \times a \times s)$
+> 3.92 = 0 + (2 × 7700 × s) OR s = (v² – u²) / 2a
+> (s =) 9.9 × 10⁻⁴ (m) allow 9.8 × 10⁻⁴ – 9.9 × 10⁻⁴
 > (s =) 0.99 (mm) allow 0.98 - 0.99
 
-- **(4)** use of v2 = u2 + (2 × a × s); can be implied from
+- **(4)** use of v² = u² + (2 × a × s); can be implied from
 
 ### 8(d) [2]
 

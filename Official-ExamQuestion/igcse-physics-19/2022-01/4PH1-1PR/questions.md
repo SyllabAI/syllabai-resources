@@ -108,14 +108,14 @@ State the formula linking speed, frequency and wavelength of a wave.
 
 > speed = frequency × wavelength; allow standard symbols and
 > rearrangements e.g.
-> λ=v/f
+> $\lambda = v/f$
 > condone s for speed
 
 - **(1)** speed = frequency × wavelength; allow standard symbols and
 
 ### 2(c)(ii) [3]
 
-Calculate the wavelength of a gamma ray with a frequency of 2.8 × 1019 Hz. [speed of gamma ray = 3.0 × 108 m/s] wavelength = m
+Calculate the wavelength of a gamma ray with a frequency of 2.8 × 10¹⁹ Hz. [speed of gamma ray = 3.0 × 10⁸ m/s] wavelength = m
 
 
 **Mark scheme answer**
@@ -124,9 +124,9 @@ Calculate the wavelength of a gamma ray with a frequency of 2.8 × 1019 Hz. [spe
 > rearrangement;
 > evaluation; -1 for POT error
 > e.g.
-> 3.0 × 108 = 2.8 × 1019 × wavelength
+> 3.0 × 10⁸ = 2.8 × 10¹⁹ × wavelength
 > wavelength = speed / frequency
-> (wavelength =) 1.1 × 10-11 (m) allow 1.07… × 10-11 (m)
+> (wavelength =) 1.1 × 10⁻¹¹ (m) allow 1.07… × 10⁻¹¹ (m)
 
 - **(3)** substitution;
 
@@ -667,7 +667,7 @@ A student does an experiment to determine the acceleration due to gravity, g. Th
 
 ### 10(a)(i) [2]
 
-Show that the acceleration of the steel ball is approximately 9.6 m/s2 . acceleration = m/s2
+Show that the acceleration of the steel ball is approximately 9.6 m/s² . acceleration = m/s²
 
 
 **Mark scheme answer**
@@ -676,7 +676,7 @@ Show that the acceleration of the steel ball is approximately 9.6 m/s2 . acceler
 > evaluation to 3 or more s.f.;
 > e.g.
 > acceleration = (4.20 – 1.45) / 0.286
-> (acceleration =) 9.62 (m/s2)
+> (acceleration =) 9.62 (m/s²)
 
 - **(2)** substitution into a = ∆v / t;
 
@@ -705,7 +705,7 @@ Calculate the distance between the light gates. distance = m
 
 **Mark scheme answer**
 
-> substitution into v2 = u2 + 2×a×s; allow use of a=9.6, 9.8, 9.81 or
+> substitution into v² = u² + 2×a×s; allow use of a=9.6, 9.8, 9.81 or
 > rearrangement;
 > evaluation;
 > reject ‘change in speed ×
@@ -714,11 +714,11 @@ Calculate the distance between the light gates. distance = m
 > allow answers using correct
 > average velocity.
 > e.g.
-> 4.202 = 1.452 + (2 × 9.6 × s)
-> s = (v2 - u2) / 2a
+> $4.20^{2} = 1.45^{2} + (2 \times 9.6 \times s)$
+> $s = (v^{2} - u^{2}) / 2a$
 > (s =) 0.809 (m) allow range 0.78-0.81 (m)
 
-- **(3)** substitution into v2 = u2 + 2×a×s; allow use of a=9.6, 9.8, 9.81 or
+- **(3)** substitution into v² = u² + 2×a×s; allow use of a=9.6, 9.8, 9.81 or
 
 ### 10(b)(i) [2]
 
@@ -779,22 +779,22 @@ The photograph shows a mechanic pumping air into a car tyre. (Source: Rido/Shutt
 
 ### 11(a) [3]
 
-Before being pumped into the tyre, some air has a volume of 0.0043 m3 at a pressure of 100 kPa. The pressure of this air inside the tyre is 270 kPa. Calculate the volume of this air inside the tyre, assuming the temperature of the air does not change. Give your answer in standard form. volume = m3
+Before being pumped into the tyre, some air has a volume of 0.0043 m³ at a pressure of 100 kPa. The pressure of this air inside the tyre is 270 kPa. Calculate the volume of this air inside the tyre, assuming the temperature of the air does not change. Give your answer in standard form. volume = m³
 
 
 **Mark scheme answer**
 
-> substitution into p1 × V1 = p2 × V2 OR
+> substitution into p₁ × V₁ = p₂ × V₂ OR
 > rearrangement;
 > evaluation of volume;
 > correctly expressed in standard form;
 > e.g.
-> 100 × 0.0043 = 270 × V2
-> OR V2 = p1 × V1 / p2
-> (V2 =) 0.0016 (m3) allow 0.00159… (m3)
-> (V2 =) 1.6 × 10-3 (m3) allow 1.59… × 10-3 (m3)
+> 100 × 0.0043 = 270 × V₂
+> OR V₂ = p₁ × V₁ / p₂
+> (V₂ =) 0.0016 (m³) allow 0.00159… (m³)
+> (V₂ =) 1.6 × 10⁻³ (m³) allow 1.59… × 10⁻³ (m³)
 
-- **(3)** substitution into p1 × V1 = p2 × V2 OR
+- **(3)** substitution into p₁ × V₁ = p₂ × V₂ OR
 
 ### 11(b)(i) [3]
 
@@ -823,21 +823,20 @@ The air pressure in the tyre is 270 kPa when the air temperature is 20 °C. On a
 **Mark scheme answer**
 
 > dimensionally correct substitution into ignore units
-> p1 / T1 = p2 / T2;
+> p₁ / T₁ = p₂ / T₂;
 > conversion of either temperature into kelvin;
 > rearrangement; can be implied
-> correct subsequent evaluation of p2 with consistent
+> correct subsequent evaluation of p₂ with consistent
 > conclusion;
 > e.g.
-> 270 / 293 = p2 / 275
+> 270 / 293 = p₂ / 275
 > 293 or 275 used anywhere in calculation
-> p2 = 270 × 275 / 293
-> (p2 =) 253 (kPa) so light will not show
+> p₂ = 270 × 275 / 293
+> (p₂ =) 253 (kPa) so light will not show
 > 27 (kPa) so light will show
 > scores 3 marks
 > 243 (kPa) so light will show
 > scores 2 marks
-> Answer Notes Marks
 
 - **(4)** dimensionally correct substitution into ignore units
 

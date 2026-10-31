@@ -225,7 +225,7 @@ Calculate the stopping distance of the car. stopping distance = m
 
 ### 4(a)(iii) [3]
 
-Calculate the acceleration of the car when the car is braking. acceleration = m/s2
+Calculate the acceleration of the car when the car is braking. acceleration = m/s²
 
 
 **Mark scheme answer**
@@ -240,9 +240,9 @@ Calculate the acceleration of the car when the car is braking. acceleration = m/
 > allow acceleration is gradient
 > condone change in speed ÷ time
 > (acceleration =) (−)15 / 3.1
-> (acceleration =) −4.8 (m/s2) allow any answer that rounds to
+> (acceleration =) −4.8 (m/s²) allow any answer that rounds to
 > −4.8
-> allow deceleration = 4.8 (m/s2)
+> allow deceleration = 4.8 (m/s²)
 
 - **(3)** acceleration formula seen in working; can be implied from substitution
 
@@ -536,7 +536,7 @@ Calculate the critical angle of water. Assume the refractive index of water is 1
 > evaluation;
 > e.g.
 > sin c = 1/1.3
-> c = sin-1(1/1.3)
+> c = sin⁻¹(1/1.3)
 > (c =) 50 (°) allow 50.3, 50.28…
 
 - **(3)** substitution;
@@ -617,7 +617,7 @@ Schiaparelli then opened a parachute to slow down. Explain how the spacecraft re
 
 ### 8(b) [4]
 
-The parachute was disconnected when Schiaparelli was at a height of 2.0 m from the surface of Mars and travelling at a speed of 0.45 m/s. Calculate the speed of the spacecraft just before it hits the surface of Mars. [acceleration of free-fall on Mars = 3.4 m/s2] speed = m/s
+The parachute was disconnected when Schiaparelli was at a height of 2.0 m from the surface of Mars and travelling at a speed of 0.45 m/s. Calculate the speed of the spacecraft just before it hits the surface of Mars. [acceleration of free-fall on Mars = 3.4 m/s²] speed = m/s
 
 
 **Mark scheme answer**
@@ -626,7 +626,7 @@ The parachute was disconnected when Schiaparelli was at a height of 2.0 m from t
 > GPE lost = KE gained,
 > whatever candidate
 > chooses for mass
-> attempted use of v2 = u2 + (2 × a × s); can be implied from
+> attempted use of v² = u² + (2 × a × s); can be implied from
 > calculation
 > reject if contradicted by
 > another irrelevant formula
@@ -636,9 +636,9 @@ The parachute was disconnected when Schiaparelli was at a height of 2.0 m from t
 > rearrangement of formula / evaluation of v2; allow if 13.8 seen
 > evaluation of v;
 > e.g.
-> v2 = u2 + (2 × a × s);
-> v2 = 0.452 + (2 × 3.4 × 2.0);
-> v = √(0.452 + (2 × 3.4 × 2.0)) OR v2 = 13.8
+> $v^{2} = u^{2} + (2 \times a \times s)$;
+> $v^{2} = 0.45^{2} + (2 \times 3.4 \times 2.0)$;
+> v = √(0.45² + (2 × 3.4 × 2.0)) OR v² = 13.8
 > (v =) 3.7 (m/s) allow 3.72, 3.715…
 
 - **(4)** accept answers in terms of
@@ -782,10 +782,10 @@ The diagram shows two resistors connected to a battery. 9.2V 12 mA 240Ω R Calcu
 > evaluation of voltage across R; evaluation of voltage
 > across R (using V = IR)
 > e.g.
-> V=I×R
-> V240 = (0.012 × 240 =) 2.88 (V) allow 2.9 (V)
-> VR + V240 = 9.2 allow 9.2 – 2.88 or
-> V + 2.88 = 9.2
+> $V = I\times R$
+> V₂₄₀ = (0.012 × 240 =) 2.88 (V) allow 2.9 (V)
+> VR + V₂₄₀ = 9.2 allow 9.2 – 2.88 or
+> $V + 2.88 = 9.2$
 > (VR =) 6.3 (V) allow 6.32 (V)
 > if mA not converted to
 > A and 2880 seen then
@@ -861,7 +861,7 @@ The diagram shows a manometer, a device used for measuring differences in pressu
 
 ### 11(a) [3]
 
-One side of the manometer has some trapped gas. The other side is left open to the atmosphere. The difference in pressure can be calculated using this formula. [difference in pressure = height × density × 10] The density of the liquid is 1.3 × 104 kg/m3. The difference in the levels of the liquid is 3.8 cm. Calculate the difference in pressure between the atmosphere and the trapped gas. difference in pressure = Pa
+One side of the manometer has some trapped gas. The other side is left open to the atmosphere. The difference in pressure can be calculated using this formula. [difference in pressure = height × density × 10] The density of the liquid is 1.3 × 10⁴ kg/m³. The difference in the levels of the liquid is 3.8 cm. Calculate the difference in pressure between the atmosphere and the trapped gas. difference in pressure = Pa
 
 
 **Mark scheme answer**
@@ -873,12 +873,12 @@ One side of the manometer has some trapped gas. The other side is left open to t
 > 494 000 gains 2 marks
 > e.g.
 > 3.8cm = 0.038
-> pressure difference = 0.038 × 1.3 × 104 × 10
+> pressure difference = 0.038 × 1.3 × 10⁴ × 10
 > (pressure difference =) 4900 (Pa) allow 4940 (Pa)
 > allow
 > 4800, 4840, 4846,
 > 4841 (Pa) for use of
-> g=9.8/9.81
+> $g = 9.8/9.81$
 
 - **(3)** conversion of cm to m; seen anywhere in
 
@@ -905,7 +905,7 @@ Explain, in terms of particles, why the pressure of the trapped gas increases.
 
 ### 11(b)(ii) [4]
 
-The pressure of the trapped gas in the manometer is 9.95 × 104 Pa and the temperature is 16 °C. Calculate the new pressure of the trapped gas if the temperature increases to 32 °C. [assume volume of the trapped gas remains constant] new pressure = Pa
+The pressure of the trapped gas in the manometer is 9.95 × 10⁴ Pa and the temperature is 16 °C. Calculate the new pressure of the trapped gas if the temperature increases to 32 °C. [assume volume of the trapped gas remains constant] new pressure = Pa
 
 
 **Mark scheme answer**
@@ -917,12 +917,11 @@ The pressure of the trapped gas in the manometer is 9.95 × 104 Pa and the tempe
 > rearrangement;
 > evaluation;
 > e.g.
-> T1 = 289K, T2 = 305K
-> 9.95 × 104 / 289 = p2 = 305
-> p2 = 9.95 × 104 × 305 / 289
-> (p2 =) 1.1 × 105 (Pa) allow 1.05 × 105 (Pa),
+> T₁ = 289K, T₂ = 305K
+> 9.95 × 10⁴ / 289 = p₂ = 305
+> p₂ = 9.95 × 10⁴ × 305 / 289
+> (p₂ =) 1.1 × 10⁵ (Pa) allow 1.05 × 10⁵ (Pa),
 > 105008.65… (Pa)
-> Answer Notes Marks
 
 - **(4)** conversion of temperatures to kelvin; not converting to kelvin
 

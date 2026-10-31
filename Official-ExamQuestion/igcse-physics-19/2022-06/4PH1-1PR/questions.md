@@ -256,7 +256,7 @@ State the formula linking pressure difference, height, density and gravitational
 
 ### 4(b)(ii) [2]
 
-The bottom of the ice cube is 0.041 m below the surface of the water. The density of water is 1000 kg/m3. Show that the pressure difference between the bottom of the ice cube and the surface of the water is about 400 Pa.
+The bottom of the ice cube is 0.041 m below the surface of the water. The density of water is 1000 kg/m³. Show that the pressure difference between the bottom of the ice cube and the surface of the water is about 400 Pa.
 
 
 **Mark scheme answer**
@@ -284,7 +284,7 @@ State the formula linking pressure, force and area.
 
 ### 4(b)(iv) [2]
 
-The area of the base of the ice cube is 0.0017 m2. Calculate the upward force on the bottom of the cube from the water due to the pressure difference. upward force = N
+The area of the base of the ice cube is 0.0017 m². Calculate the upward force on the bottom of the cube from the water due to the pressure difference. upward force = N
 
 
 **Mark scheme answer**
@@ -392,11 +392,9 @@ The graph shows the relationship between the peak wavelength of light emitted by
 > e.g. same so that the results
 > when temp = 10 kK wavelength = 280 nm do not agree with the
 > 280 × 10 = 2800 conclusion
-> 140 × 20 = 2800
+> $140 \times 20 = 2800$
 > constants are the same so results agree with
 > proposal
-> (Total for Question 5 = 10 marks)
-> Answer Notes Marks
 
 - **(4)** any pair of readings from the graph;
 
@@ -623,7 +621,7 @@ Describe how to determine the density of a hailstone. Assume that hailstones are
 > orientations/fully submerged/avoid splashing;
 > MP6. repeat readings and take average;
 > MP7. use formula to find volume of a sphere e.g.
-> V = 4/3 πr3 ;
+> $V = 4/3 \pi r^{3}$;
 > MP8. use density = mass ÷ volume; allow use of
 > displacement method
 > and measuring cylinder
@@ -633,7 +631,7 @@ Describe how to determine the density of a hailstone. Assume that hailstones are
 
 ### 8(a)(ii) [3]
 
-The mean volume of a hailstone is 1.1 cm3. The mean mass of a hailstone is 0.94 g. Calculate the mean density of a hailstone. Give the unit. density = unit
+The mean volume of a hailstone is 1.1 cm³. The mean mass of a hailstone is 0.94 g. Calculate the mean density of a hailstone. Give the unit. density = unit
 
 
 **Mark scheme answer**
@@ -646,11 +644,11 @@ The mean volume of a hailstone is 1.1 cm3. The mean mass of a hailstone is 0.94 
 > accept unit matching
 > calculation i.e. if mass
 > converted into kg
-> correct answer = 0.85 g/cm3 accept 0.854 or 0.855
+> correct answer = 0.85 g/cm³ accept 0.854 or 0.855
 > e.g. density = mass ÷ volume
 > density = 0.94 ÷ 1.1
 > density = 0.8545…
-> density = 0.85 g/cm3
+> density = 0.85 g/cm³
 
 - **(3)** substitution into equation density = mass ÷ volume; allow use of standard
 
@@ -790,17 +788,17 @@ Calculate the mean current in the resistor. mean current = A
 > re-arrangement; rearrangement in either
 > order
 > evaluation; -1 POT error
-> correct answer: 1.8 × 10-4 (A)
+> correct answer: 1.8 × 10⁻⁴ (A)
 > e.g.
 > charge = current × time
-> 1.4 × 10-4 = current × 0.78
-> current = (1.4 × 10-4) ÷ 0.78 = 1.79 × 10-4 (A)
+> 1.4 × 10⁻⁴ = current × 0.78
+> current = (1.4 × 10⁻⁴) ÷ 0.78 = 1.79 × 10⁻⁴ (A)
 
 - **(3)** substitution; substitution and
 
 ### 10(b)(ii) [3]
 
-The thermal energy store of the resistor increases by 2.3 × 10–6 J as energy is transferred to it electrically. Calculate the mean voltage across the resistor when a charge of 1.4 × 10–4 C transfers this energy. mean voltage = V
+The thermal energy store of the resistor increases by 2.3 × 10⁻⁶ J as energy is transferred to it electrically. Calculate the mean voltage across the resistor when a charge of 1.4 × 10⁻⁴ C transfers this energy. mean voltage = V
 
 
 **Mark scheme answer**
@@ -813,13 +811,11 @@ The thermal energy store of the resistor increases by 2.3 × 10–6 J as energy 
 > re-arrangement; rearrangement in either
 > order
 > evaluation;
-> correct answer: 1.6 × 10-2 (V) -1 POT error
+> correct answer: 1.6 × 10⁻² (V) -1 POT error
 > e.g.
 > energy = charge × voltage
-> 2.3 × 10-6 = 1.4 × 10-4 × voltage
-> voltage = (2.3 × 10-6) ÷ (1.4 × 10-4) = 1.64 × 10-2 (V)
-> (Total for Question 10 = 10 marks)
-> Answer Notes Marks
+> 2.3 × 10⁻⁶ = 1.4 × 10⁻⁴ × voltage
+> voltage = (2.3 × 10⁻⁶) ÷ (1.4 × 10⁻⁴) = 1.64 × 10⁻² (V)
 
 - **(3)** allow use of standard
 
@@ -930,19 +926,19 @@ A parachutist leaves a helicopter that is hovering above the ground. The parachu
 
 > use of u=0 (m/s); accept loss of GPE =
 > gain in KE
-> correct substitution into ‘v2 = u2 + 2aS’; reject use of v=0 for
+> correct substitution into ‘v² = u² + 2aS’; reject use of v=0 for
 > this MP
-> correct evaluation of v2; v2 = 26000
+> correct evaluation of v²; v² = 26000
 > accept 25506, 25480
-> reject v2 = 2600 if no
+> reject v² = 2600 if no
 > a=10 seen.
 > correct evaluation of v; ignore sign
 > correct answer = 160 (m/s) accept
 > 159.7059..,159.62....
 > e.g.
-> v2 = u2 + 2aS
-> v2 = 02 + (2 × 10 × 1300)
-> v2 = 26000
+> v² = u² + 2aS
+> $v^{2} = 0^{2} + (2 \times 10 \times 1300)$
+> $v^{2} = 26000$
 > v = 161.245... (m/s)
 
 - **(4)** use of u=0 (m/s); accept loss of GPE =

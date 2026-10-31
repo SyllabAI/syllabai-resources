@@ -932,3 +932,43 @@ verify passes at the discharged cut. The corpus-gates graph failure
 Revision Notes directory) is likewise PRE-EXISTING at main tip — proven
 byte-identical on pristine main — and belongs to the notes-lane's repair
 scope, NOT this wave's.
+## The 4PH1 corpus back-sync + questions.md regen (T-OEQ-PHYS-FORMAT-1 run-006, F127)
+
+The RESOURCES BACK-SYNC LAW discharge for the physics lane (the maths-B F122
+twin): the v2 serving plane (official-papers.json, 55 official sets) carried five
+runs of format restorations (run-001 KaTeX tranche-1, run-002 S1 superscript
+restore, run-003 KaTeX re-pass, run-004 eyes-on page-evidence wave, run-005
+human page-read) while the corpus of record stayed pre-restoration — the
+presentation-stale debt every run receipt disclosed ("regen rides the next
+converter run"). The operator ordered the regen (trace 1a190e0aa0abae3d).
+
+Shape (the F114 reconcile-to-plane law at physics scale): corpus field := the
+served plane value per field — 339 pids / 766 field writes / 54 slices
+(164 problem_md, 301 solution_md, 301 mark_points[0], the solution/mp0 mirror
+law byte-preserved). Every problem_md write is a WRAP DECOMPOSITION: the
+exporter-emitted question-stem prefix and appended asset-figure suffix are
+derived per-part from the exporter's own machinery (a sentinel probe), never
+guessed, and subtracted — so the corpus keeps the converter's own field
+semantics (stem in stem_md, part text in problem_md) rather than the fold
+state. 7 parts carried restorations INSIDE the emitted stem prose: their
+stem_md is synced to the restored stem region (prefix minus separator), each
+accepted only when the of-record rebuild round-trips the plane value
+byte-exactly. Closure proof: the exporter re-run over the back-synced corpus
+is a G-E1 byte-level NO-OP against the plane of record (55/55 slices, 0
+deltas); questions.md re-rendered with the of-record renderer (the regen:
+renders went 0 -> 117 $-segments, 1 -> 129 superscript-restoration hits, the
+run-005 nuclear-decay line served verbatim; untouched slices byte-identical;
+double-render determinism proven; synced stems render exactly once).
+
+The current exporter law (F121/F123/F125 post-date the no-op proof) emits the
+group-stem serving class the physics plane does not serve yet: the standing
+evolution census (421 pids) is disclosed as
+exporter-disclosures/2026-10-31-f126-groupstem-evolution-4ph1-standing.json —
+a record of the physics twin of the F121 serving decision, PENDING the
+operator's ruling, not executed by this wave. Zero-network battery B1-B7
+(766 C-law pins + ledger grammar + G-E2 corpus sums + render determinism +
+the nuclear-line pin + negative control) is CI-enforced.
+
+Future 4PH1 hand-repairs: land on the corpus first (or re-run this wave's
+shape); the questions.md regen now rides every corpus wave by construction.
+>>>>>>> 6862048a (content(t-oeq-phys-format-1 run-006): F127 — the 4PH1 corpus back-sync + questions.md regen (corpus := the v2 plane of record 22eda30; exporter re-export a G-E1 byte-level no-op))

@@ -600,10 +600,9 @@ An object has a weight of 59 N on the surface of the Earth’s moon. Calculate t
 > evaluation of weight on Callisto;
 > answer of 78-79 gets 2 marks
 > e.g.
-> W=m×g
+> $W = m\times g$
 > Wc / gc = Wm / gm OR m = 37 (kg)
 > (Wc =) 44 (N) allow 44.3, 44.25
-> Answer Notes Marks
 
 - **(3)** use of weight = mass × g; seen anywhere in working
 
@@ -630,7 +629,7 @@ State the formula linking pressure, force and area.
 
 ### 9(a)(ii) [3]
 
-The cylinder has an internal surface area of 1.13 m2. Calculate the force exerted on the walls of the cylinder by the propane gas. force = N
+The cylinder has an internal surface area of 1.13 m². Calculate the force exerted on the walls of the cylinder by the propane gas. force = N
 
 
 **Mark scheme answer**
@@ -639,9 +638,9 @@ The cylinder has an internal surface area of 1.13 m2. Calculate the force exerte
 > rearrangement;
 > evaluation; -1 for POT error
 > e.g.
-> 1.03 × 106 = force / 1.13
-> (force =) 1.03 × 106 × 1.13
-> (force =) 1.16 × 106 (N) allow 1.2 × 106, 1163900 etc.
+> 1.03 × 10⁶ = force / 1.13
+> (force =) 1.03 × 10⁶ × 1.13
+> (force =) 1.16 × 10⁶ (N) allow 1.2 × 10⁶, 1163900 etc.
 
 - **(3)** substitution;
 

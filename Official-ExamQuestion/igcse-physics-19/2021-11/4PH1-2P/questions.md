@@ -135,7 +135,7 @@ State what is meant by the term power.
 
 ### 2(c)(ii) [3]
 
-The mean energy transferred by the dam each day is 9.7 × 1014 J. Calculate the mean output power of the dam. mean output power = W
+The mean energy transferred by the dam each day is 9.7 × 10¹⁴ J. Calculate the mean output power of the dam. mean output power = W
 
 
 **Mark scheme answer**
@@ -145,15 +145,15 @@ The mean energy transferred by the dam each day is 9.7 × 1014 J. Calculate the 
 > evaluation; -1 for POT error
 > e.g.
 > 1 day = (24 × 60 × 60 =) 86 400 seconds
-> (P =) 9.7 × 1014 ÷ 86 400
-> (P =) 1.1 × 1010 (W) allow 1.1226…× 1010 (W)
-> allow 6.7 x 1011 J/min or
-> 4.04 x 1013 J/hr if given unit
+> (P =) 9.7 × 10¹⁴ ÷ 86 400
+> (P =) 1.1 × 10¹⁰ (W) allow 1.1226…× 10¹⁰ (W)
+> allow 6.7 x 10¹¹ J/min or
+> 4.04 x 10¹³ J/hr if given unit
 > changed.
 > 2 marks max. if time unit
 > conversion attempted but
 > incorrect unit e.g. 6.7 x
-> 1011 (J/min) or 4.04 x 1013
+> 1011 (J/min) or 4.04 x 10¹³
 > (J/hr)
 
 - **(3)** evaluation of number of seconds in a day; seen anywhere in working
@@ -278,9 +278,9 @@ The air in the flask is now cooled to a temperature of 230 K. Calculate the new 
 > substitution and
 > evaluation; rearrangement in either order
 > e.g.
-> 136 / 400 = p2 / 230
-> (p2 =) (136 x 230) / 400
-> (p2 =) 78 (kPa) allow 78.2…
+> 136 / 400 = p₂ / 230
+> (p₂ =) (136 x 230) / 400
+> (p₂ =) 78 (kPa) allow 78.2…
 > accept extrapolation back to
 > T = 230 for 2 marks
 > accept value between 79 and
@@ -291,7 +291,6 @@ The air in the flask is now cooled to a temperature of 230 K. Calculate the new 
 > back to 230 for 2 marks
 > accept value between 79 and
 > 77 by this method
-> Answer Notes Marks
 
 - **(3)** substitution; allow ecf from (b)(iii)
 
@@ -692,8 +691,8 @@ Determine whether the sound can be heard by humans. Include a calculation of fre
 > conclusion consistent with frequency value; allow ecf if frequency
 > is incorrect
 > e.g.
-> time period = 4 × 10-5 s
-> f = 1 ÷ 4 × 10-5
+> time period = 4 × 10⁻⁵ s
+> f = 1 ÷ 4 × 10⁻⁵
 > f = 25 000 (Hz)
 > (therefore) sound cannot be heard (since frequency is conclusion must be
 > greater than 20 000 Hz) consistent with
@@ -705,7 +704,7 @@ Determine whether the sound can be heard by humans. Include a calculation of fre
 
 ### 8(b)(ii) [2]
 
-The oscilloscope settings are changed, as shown in Diagram 2. Oscilloscope settings y direction: 1 square = 1 V x direction: 1 square = 1 × 10-5 s Diagram 2 On Diagram 2, draw the wave that would be displayed on the oscilloscope screen if the same sound wave is detected using these new settings.
+The oscilloscope settings are changed, as shown in Diagram 2. Oscilloscope settings y direction: 1 square = 1 V x direction: 1 square = 1 × 10⁻⁵ s Diagram 2 On Diagram 2, draw the wave that would be displayed on the oscilloscope screen if the same sound wave is detected using these new settings.
 
 ![diagram — official paper figure (qp.pdf p.21)](assets/asset_8_b_ii_diagram.png)
 

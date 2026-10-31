@@ -120,7 +120,7 @@ Explain why electrostatic charges can be dangerous when fuelling an aeroplane.
 
 ## Question 2 (5 marks)
 
-X-rays are electromagnetic waves used to obtain images of bones. An x-ray machine produces x-ray waves with a frequency of 1.25 × 1018 Hz.
+X-rays are electromagnetic waves used to obtain images of bones. An x-ray machine produces x-ray waves with a frequency of 1.25 × 10¹⁸ Hz.
 
 ### 2(a) [2]
 
@@ -132,14 +132,14 @@ Calculate the time period of these x-rays. time period = s
 > substitution OR rearrangement;
 > evaluation; -1 for POT error
 > e.g.
-> 1.25 × 1018 = 1 / T OR T = 1/f
-> (T =) 8.00 × 10-19 (s) allow 8 × 10-19 (s)
+> 1.25 × 10¹⁸ = 1 / T OR T = 1/f
+> (T =) 8.00 × 10⁻¹⁹ (s) allow 8 × 10⁻¹⁹ (s)
 
 - **(2)** substitution OR rearrangement;
 
 ### 2(b) [3]
 
-X-rays have a speed of 3.00 × 108 m/s in air. Calculate the wavelength of these x-rays. wavelength = m
+X-rays have a speed of 3.00 × 10⁸ m/s in air. Calculate the wavelength of these x-rays. wavelength = m
 
 
 **Mark scheme answer**
@@ -151,10 +151,9 @@ X-rays have a speed of 3.00 × 108 m/s in air. Calculate the wavelength of these
 > substitution OR rearrangement;
 > evaluation; -1 for POT error
 > e.g.
-> v=f×λ
-> 3.00 × 108 = 1.25 × 1018 × λ OR λ = v / f
-> (λ =) 2.40 × 10-10 (m) allow 2.4 × 10-10 (m)
-> Answer Notes Marks
+> $v = f\times \lambda$
+> 3.00 × 10⁸ = 1.25 × 10¹⁸ × λ OR λ = v / f
+> (λ =) 2.40 × 10⁻¹⁰ (m) allow 2.4 × 10⁻¹⁰ (m)
 
 - **(3)** use of v = f × λ; seen as a formula or implied
 
@@ -236,7 +235,7 @@ The builder is pushing down with a force of 520 N to keep the plank horizontal. 
 > evaluation of distance X;
 > e.g.
 > 1300 × 0.30 OR 520 × X
-> 1300 × 0.30 = 520 × X
+> $1300 \times 0.30 = 520 \times X$
 > X = 0.75 (m)
 
 - **(3)** correct expression for either moment; allow ecf from (a)(iii)
@@ -423,7 +422,7 @@ How is energy transferred through space from the Sun to the Earth?
 
 ### 5(b)(i) [3]
 
-The total area of the solar panels is 15 m2. Each 1.0 m2 of the solar panels receives 1000 J of energy per second from the Sun. Show that the total energy transferred to the solar panels in 2 hours is about 100 MJ.
+The total area of the solar panels is 15 m². Each 1.0 m² of the solar panels receives 1000 J of energy per second from the Sun. Show that the total energy transferred to the solar panels in 2 hours is about 100 MJ.
 
 
 **Mark scheme answer**
@@ -433,7 +432,7 @@ The total area of the solar panels is 15 m2. Each 1.0 m2 of the solar panels rec
 > evaluation of energy in J;
 > evaluation of energy in MJ;
 > e.g.
-> power = (1000 × 15 =) 15 000 (m2)
+> power = (1000 × 15 =) 15 000 (m²)
 > OR time = (2 × 60 × 60 =) 7200 (s)
 > energy = (15 000 × 7200 =) 108 000 000 (J)
 > energy = (108 000 000 ÷ 1 000 000 =) 108 (MJ)
@@ -452,8 +451,8 @@ A mass of 1100 kg of cold water is in the solar panels at an initial temperature
 > evaluation of ΔT; -1 for POT error
 > evaluation of final temperature; allow ECF from incorrect ΔT
 > e.g.
-> 100 000 000 = 1100 × 4200 × ΔT
-> ΔT = 100 000 000 / (1100 × 4200)
+> $100 000 000 = 1100 \times 4200 \times \Delta T$
+> $\Delta T = 100 000 000 / (1100 \times 4200)$
 > (ΔT =) 22 (°C) allow 23.3…, 21.6…
 > T = (20 + 22 =) 42 (°C) allow 41.6-43.8 (°C)
 

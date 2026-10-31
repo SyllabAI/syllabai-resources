@@ -117,8 +117,7 @@ Calculate the frequency of radio waves with a wavelength of 15 m. [speed of ligh
 > e.g.
 > 300 000 000 = f × 15 OR f = v/λ
 > (f =) 20 000 000 (Hz) accept 20 MHz, 20 million (Hz),
-> 20 × 106 (Hz), 2(.0) × 107 (Hz)
-> Answer Notes Marks
+> 20 × 10⁶ (Hz), 2(.0) × 10⁷ (Hz)
 
 - **(2)** substitution OR rearrangement;
 
@@ -218,7 +217,7 @@ State the formula linking charge, current and time.
 
 > charge = current × time (taken); allow standard symbols
 > and rearrangements e.g.
-> Q=I×t
+> $Q = I\times t$
 > ignore c, C for charge and
 > current
 
@@ -226,7 +225,7 @@ State the formula linking charge, current and time.
 
 ### 3(d)(ii) [2]
 
-When the squares of material are pulled apart there is a small spark. There is a current of 4.3 × 10–6 A in the air for a time of 2.3 × 10–3 s. Calculate the charge that is transferred. charge = C
+When the squares of material are pulled apart there is a small spark. There is a current of 4.3 × 10⁻⁶ A in the air for a time of 2.3 × 10⁻³ s. Calculate the charge that is transferred. charge = C
 
 
 **Mark scheme answer**
@@ -236,9 +235,8 @@ When the squares of material are pulled apart there is a small spark. There is a
 > allow use of prefixes e.g.
 > 9.9 nC
 > e.g.
-> Q = 4.3 × 10−6 × 2.3 × 10−3
-> (Q =) 9.9 × 10−9 (C) allow 9.89 × 10−9 (C)
-> Answer Notes Marks
+> Q = 4.3 × 10⁻⁶ × 2.3 × 10⁻³
+> (Q =) 9.9 × 10⁻⁹ (C) allow 9.89 × 10⁻⁹ (C)
 
 - **(2)** substitution;
 
@@ -454,7 +452,7 @@ Calculate the energy transferred from the boiler to 75 kg of water to raise the 
 > evaluation; allow 15 MJ
 > e.g.
 > (∆T = 65 – 16 =) 49 (°C)
-> ∆Q = 75 × 4200 × 49
+> $\Delta Q = 75 \times 4200 \times 49$
 > (∆Q =) 15 000 000 (J) allow correct
 > answers to other
 > significant figure
@@ -504,7 +502,7 @@ The mass of each car is 0.074 kg. Calculate the time taken for the velocity of c
 > working
 > allow alternative
 > method using F=ma and
-> a=(v-u)/t
+> $a = (v-u)/t$
 > e.g.
 > 2.5 = [0.074 × 3.0 (−0.074 × 0.0)] / time
 > time = (0.074 × 3.0) / 2.5

@@ -416,7 +416,7 @@ When radiation is emitted from the source a white line is produced in the cloud 
 
 ## Question 6 (10 marks)
 
-The photograph shows a rocket being launched at Cape Canaveral in the United States of America. (Source: © Geopix / Alamy Stock Photo) The table gives some information about the motion of the rocket during the first 5.0 seconds of its launch. Initial velocity 0.0 m / s Acceleration 13 m / s2 Time taken 5.0 s
+The photograph shows a rocket being launched at Cape Canaveral in the United States of America. (Source: © Geopix / Alamy Stock Photo) The table gives some information about the motion of the rocket during the first 5.0 seconds of its launch. Initial velocity 0.0 m / s Acceleration 13 m / s² Time taken 5.0 s
 
 ### 6(a) [3]
 
@@ -431,7 +431,7 @@ Calculate the final velocity of the rocket after 5.0 seconds. Assume that the ac
 > -1 for POT error
 > e.g.
 > 13 = v (-0) / 5.0
-> v = 13 × 5.0
+> $v = 13 \times 5.0$
 > (v =) 65 (m/s)
 > correct answer without
 > working scores all marks
@@ -445,19 +445,19 @@ Calculate the distance the rocket travels during the 5.0 seconds. Assume that th
 
 **Mark scheme answer**
 
-> substitution into v2 = u2 + 2as; allow ecf from (a)
+> substitution into v² = u² + 2as; allow ecf from (a)
 > allow use of ‘s = ½ v t’
 > rearrangement; allow in either order
 > evaluation; ignore sign
 > e.g. -1 for POT error
 > allow 162, 163, 162.5 (m)
-> 652 = (02) + 2 × 13 × s
-> s = 652 / 26
+> $65^{2} = (0^{2}) + 2 \times 13 \times s$
+> $s = 65^{2} / 26$
 > (s =) 160 (m)
 > correct answer without
 > working scores all marks
 
-- **(3)** substitution into v2 = u2 + 2as; allow ecf from (a)
+- **(3)** substitution into v² = u² + 2as; allow ecf from (a)
 
 ### 6(c) [4]
 
@@ -615,7 +615,7 @@ Triton is a moon that orbits the planet, Neptune. Draw a diagram to show the orb
 
 ### 8(b)(ii) [4]
 
-Neptune orbits in the Solar System at an orbital speed of 5.4 × 103 m / s with an orbital radius of 4.5 × 1012 m. Pluto is another object in the Solar System. Pluto orbits with a time period of 7.8 × 109 s. Show that the ratio of the orbital time period of Neptune to the orbital time period of Pluto is 2 : 3
+Neptune orbits in the Solar System at an orbital speed of 5.4 × 10³ m / s with an orbital radius of 4.5 × 10¹² m. Pluto is another object in the Solar System. Pluto orbits with a time period of 7.8 × 10⁹ s. Show that the ratio of the orbital time period of Neptune to the orbital time period of Pluto is 2 : 3
 
 
 **Mark scheme answer**
@@ -624,19 +624,19 @@ Neptune orbits in the Solar System at an orbital speed of 5.4 × 103 m / s with 
 > rearrangement; allow substitution and
 > rearrangement in either
 > order
-> evaluation of T for Neptune; accept 5.2 ×109 following
+> evaluation of T for Neptune; accept 5.2 ×10⁹ following
 > correct working for first
 > 3 marks
-> accept 5.23(...)×109
+> accept 5.23(...)×10⁹
 > without correct working
 > for first three marks
 > setting up ratio of T for Pluto and
 > Neptune that leads to 2:3;
 > e.g.
-> 5.4×103 = 2π × 4.5×1012 / T
-> T = 2π × 4.5×1012 / 5.4×103
-> (T =) 5.2 ×109 (s)
-> ratio = 5.2×109 / 7.8×109 (= 2:3)
+> 5.4×10³ = 2π × 4.5×10¹² / T
+> T = 2π × 4.5×10¹² / 5.4×10³
+> (T =) 5.2 ×10⁹ (s)
+> ratio = 5.2×10⁹ / 7.8×10⁹ (= 2:3)
 > Question Mark
 > Answer Notes
 > number s
@@ -917,7 +917,7 @@ Calculate the energy in the kinetic store of the ball. Give your answer to 3 sig
 > evaluation given to 3 s.f.; independent mark
 > e.g.
 > 159 g = 0.159 kg
-> (KE =) ½ × 159 (×10-3) × 54.82
+> (KE =) ½ × 159 (×10⁻³) × 54.82
 > (KE =) 238.74… (J)
 > (KE =) 239 (J)
 
@@ -925,7 +925,7 @@ Calculate the energy in the kinetic store of the ball. Give your answer to 3 sig
 
 ### 11(b)(i) [3]
 
-The change in frequency can be calculated using this formula. change of frequency speed of radio waves speed of ball = × source frequency 2 Show that the change in frequency of the radio waves is approximately 1.1 × 104 Hz. [speed of radio waves = 3.00 × 108 m / s]
+The change in frequency can be calculated using this formula. change of frequency speed of radio waves speed of ball = × source frequency 2 Show that the change in frequency of the radio waves is approximately 1.1 × 10⁴ Hz. [speed of radio waves = 3.00 × 10⁸ m / s]
 
 
 **Mark scheme answer**
@@ -934,19 +934,19 @@ The change in frequency can be calculated using this formula. change of frequenc
 > rearrangement; allow in either order
 > evaluation to 3 or more s.f.;
 > e.g.
-> 54.8 = ∆f / 2.90 × 1010 × 3.00 × 108 / 2
-> ∆f = 54.8 × 2.90 × 1010 × 2 / 3.00 × 108
-> (∆f =) 10.59…× 103 (Hz) allow any value that rounds to
-> 1.06 × 104
+> 54.8 = ∆f / 2.90 × 10¹⁰ × 3.00 × 10⁸ / 2
+> ∆f = 54.8 × 2.90 × 10¹⁰ × 2 / 3.00 × 10⁸
+> (∆f =) 10.59…× 10³ (Hz) allow any value that rounds to
+> 1.06 × 10⁴
 > accept non-standard form e.g.
-> 10.6 × 103
+> 10.6 × 10³
 > accept answer not in standard
 > form
 > 10594.6… (Hz)
 > award 1 mark max for a
 > successful attempt at
 > calculating the speed that
-> gives a shift of 1.1 × 104 (Hz)
+> gives a shift of 1.1 × 10⁴ (Hz)
 > i.e. 56.8... (m/s)
 
 - **(3)** substitution;

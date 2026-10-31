@@ -648,7 +648,7 @@ The diagram shows the air bubbles rising to the surface of the water in a contai
 > with one from:
 > volume is inversely proportional to pressure; allow pressure × volume
 > = constant OR
-> p1V1 = p2V2
+> p₁V₁ = p₂V₂
 > OR condone as pressure
 > decreases volume
 > increases
@@ -728,7 +728,7 @@ The dipper moves up and down with a frequency of 15 Hz. Calculate the speed of t
 > scores 2 marks max.
 > e.g.
 > 2.0 cm = 0.020 m
-> v = 15 × 0.020
+> $v = 15 \times 0.020$
 > (wave speed =) 0.30 (m/s) allow 0.27 to 0.33 (m/s)
 > allow 0.3 (m/s)
 
@@ -960,7 +960,7 @@ State what is meant by the term voltage.
 
 ### 11(a)(ii) [3]
 
-The large voltage causes electrons to accelerate from the negative electrode towards the positive electrode. An electron gains 1.0 × 10–16 J of energy when it accelerates between the electrodes. Show that the voltage between the electrodes is about 600 V. [magnitude of electron charge = 1.6 × 10–19 C]
+The large voltage causes electrons to accelerate from the negative electrode towards the positive electrode. An electron gains 1.0 × 10⁻¹⁶ J of energy when it accelerates between the electrodes. Show that the voltage between the electrodes is about 600 V. [magnitude of electron charge = 1.6 × 10⁻¹⁹ C]
 
 
 **Mark scheme answer**
@@ -969,34 +969,34 @@ The large voltage causes electrons to accelerate from the negative electrode tow
 > rearrangement;
 > evaluation to at least 2s.f.;
 > e.g.
-> 1.0 × 10−16 = 1.6 × 10−19 × V
-> V = 1.0 × 10−16 / 1.6 × 10−19
+> 1.0 × 10⁻¹⁶ = 1.6 × 10⁻¹⁹ × V
+> V = 1.0 × 10⁻¹⁶ / 1.6 × 10⁻¹⁹
 > V = 625 (V)
 
 - **(3)** substitution into E = Q × V;
 
 ### 11(a)(iii) [4]
 
-The electron gains 1.0 × 10–16 J of energy in its kinetic store when it accelerates from the negative electrode to the positive electrode. Calculate the speed of an electron when it reaches the positive electrode. Assume the electron is initially at rest. [electron mass = 9.1 × 10–31 kg] speed = m / s
+The electron gains 1.0 × 10⁻¹⁶ J of energy in its kinetic store when it accelerates from the negative electrode to the positive electrode. Calculate the speed of an electron when it reaches the positive electrode. Assume the electron is initially at rest. [electron mass = 9.1 × 10–31 kg] speed = m / s
 
 
 **Mark scheme answer**
 
-> substitution into KE = ½ × m × v2;
+> substitution into KE = ½ × m × v²;
 > rearrangement for v2;
 > rearrangement for v;
 > evaluation; allow standard form or
 > decimal
-> 2.1978… × 1014 (m/s)
+> 2.1978… × 10¹⁴ (m/s)
 > scores 3 marks ...
 > e.g.
-> 1.0 × 10−16 = 0.5 × 9.1 × 10−31 × v2
-> v2 = 2 × 1.0 × 10−16 / 9.1 × 10−31
-> v = √[2 × 1.0 × 10−16 / 9.1 × 10−31]
-> v = 1.5 × 107 (m/s) allow 1.48… × 107,
+> 1.0 × 10⁻¹⁶ = 0.5 × 9.1 × 10−31 × v²
+> v² = 2 × 1.0 × 10⁻¹⁶ / 9.1 × 10−31
+> v = √[2 × 1.0 × 10⁻¹⁶ / 9.1 × 10−31]
+> v = 1.5 × 10⁷ (m/s) allow 1.48… × 10⁷,
 > 14 824 986.33 (m/s)
 
-- **(4)** substitution into KE = ½ × m × v2;
+- **(4)** substitution into KE = ½ × m × v²;
 
 ### 11(b)(i) [2]
 

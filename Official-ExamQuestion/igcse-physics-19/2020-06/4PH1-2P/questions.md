@@ -63,7 +63,7 @@ State the name of the apparatus that the teacher should use to measure the mass 
 
 ### 1(b)(iii) [1]
 
-The table shows the teacher’s results. mass of container in g 75 mass of container + liquid nitrogen in g 149 volume of liquid nitrogen in cm3 88 Calculate the mass of liquid nitrogen in the container. mass = g
+The table shows the teacher’s results. mass of container in g 75 mass of container + liquid nitrogen in g 149 volume of liquid nitrogen in cm³ 88 Calculate the mass of liquid nitrogen in the container. mass = g
 
 ![table — official paper figure (qp.pdf p.5)](assets/asset_1_b_iii_table.png)
 
@@ -99,10 +99,10 @@ Calculate the density of the liquid nitrogen. Give a suitable unit. density = un
 > mass
 > evaluation;
 > matching unit;
-> correct answer: 0.84 g/cm3
+> correct answer: 0.84 g/cm³
 > e.g. density = mass / volume
 > density = 74/88
-> density = 0.84 g/cm3 to 2 sf allow 0.8409090…
+> density = 0.84 g/cm³ to 2 sf allow 0.8409090…
 
 - **(3)** substitution; ECF for incorrect
 
@@ -194,14 +194,14 @@ Calculate the current if the metal ball takes 0.45 seconds to travel from plate 
 
 > substitution and rearrangement;
 > evaluation;
-> correct answer: 1.1 x 10-5 (A) allow factor of 2 either
+> correct answer: 1.1 x 10⁻⁵ (A) allow factor of 2 either
 > way
-> i.e. {2.2 / 0.55} x 10-5
+> i.e. {2.2 / 0.55} x 10⁻⁵
 > POT error scores -1
 > e.g.
 > charge = current x time
-> current = charge / time = 5.1 x 10-6 / 0.45
-> current = 1.1(3) x 10-5 A
+> current = charge / time = 5.1 x 10⁻⁶ / 0.45
+> current = 1.1(3) x 10⁻⁵ A
 
 - **(2)** substitution and rearrangement;
 
@@ -370,13 +370,13 @@ This question is about using radio waves to track an aeroplane. aeroplane aerial
 
 ### 5(a) [3]
 
-Radio waves are emitted from an aerial at an airport, and are then reflected back to the aerial from an aeroplane. The time taken between emitting the radio waves and receiving the waves back at the aerial is 1.9 milliseconds. Show that the aeroplane is approximately 300 km away from the aerial. [speed of radio waves = 3.0 × 105 km/s]
+Radio waves are emitted from an aerial at an airport, and are then reflected back to the aerial from an aeroplane. The time taken between emitting the radio waves and receiving the waves back at the aerial is 1.9 milliseconds. Show that the aeroplane is approximately 300 km away from the aerial. [speed of radio waves = 3.0 × 10⁵ km/s]
 
 
 **Mark scheme answer**
 
 > use/substitution of distance = average speed x time; reject use of
-> v=fλ
+> $v = f\lambda$
 > total distance travelled = 2 x distance to plane; allow idea
 > that time
 > required is
@@ -384,7 +384,7 @@ Radio waves are emitted from an aerial at an airport, and are then reflected bac
 > time.
 > evaluation of distance to at least 2s.f.;
 > e.g.
-> total distance = 1.9 x 10-3 x 3.0 x 105
+> total distance = 1.9 x 10⁻³ x 3.0 x 10⁵
 > total distance = 570 km = 2 x distance to plane
 > distance to plane = 570/2 = 285 (km)
 
@@ -392,7 +392,7 @@ Radio waves are emitted from an aerial at an airport, and are then reflected bac
 
 ### 5(b) [3]
 
-As the aeroplane travels away from the airport, it sends a signal to the airport using radio waves with a wavelength of 1.2 m. When the signal is received at the airport, the wavelength is 1.1 × 10-6 m longer than when it is emitted by the aeroplane. Calculate the speed of the aeroplane using the formula change of wavelength speed of aeroplane wavelength speed of radio wave [speed of radio waves = 3.0 × 108 m/s] speed of aeroplane = m/s
+As the aeroplane travels away from the airport, it sends a signal to the airport using radio waves with a wavelength of 1.2 m. When the signal is received at the airport, the wavelength is 1.1 × 10⁻⁶ m longer than when it is emitted by the aeroplane. Calculate the speed of the aeroplane using the formula change of wavelength speed of aeroplane wavelength speed of radio wave [speed of radio waves = 3.0 × 10⁸ m/s] speed of aeroplane = m/s
 
 
 **Mark scheme answer**
@@ -407,11 +407,10 @@ As the aeroplane travels away from the airport, it sends a signal to the airport
 > condone
 > premature
 > rounding
-> e.g. 1.1 x 10-6 / 1.2 = v/3 x 108
-> v = 3 x 108 x 1.1 x 10-6 / 1.2
+> e.g. 1.1 x 10⁻⁶ / 1.2 = v/3 x 10⁸
+> v = 3 x 10⁸ x 1.1 x 10⁻⁶ / 1.2
 > v = 280 (m/s) allow 275
 > (m/s)
-> Answer Notes Marks
 
 - **(3)** substitution into given equation Δλ/λ = v/c ;
 
@@ -470,8 +469,7 @@ The electric circuits inside the spacecraft are cooled by 4.5 kg of water. The i
 > working that shows
 > evidence of a
 > temperature change of
-> 11 x 10-3 (°C)
-> Answer Notes Marks
+> 11 x 10⁻³ (°C)
 
 - **(4)** substitution into given equation (energy = mcΔθ);
 

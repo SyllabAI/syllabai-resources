@@ -325,14 +325,13 @@ After looking at the data, the student concludes that one of the rocks may be ma
 
 > idea that different materials have different
 > densities;
-> correct evaluation of density for at least one A = 2.38 or 2.4 (g/cm3)
-> rock; B = 2.1(3) (g/cm3)
-> C = 2.1(3) (g/cm3)
+> correct evaluation of density for at least one A = 2.38 or 2.4 (g/cm³)
+> rock; B = 2.1(3) (g/cm³)
+> C = 2.1(3) (g/cm³)
 > correct evaluation of density for all rocks;
 > conclusion from density values that rock A is ecf incorrect densities
 > made from a different material (so student is if candidate’s
 > correct); conclusion is consistent
-> Answer Notes Marks
 
 - **(4)** idea that different materials have different
 
@@ -487,9 +486,9 @@ Calculate the resistance of component X when the voltage is 4.2 V. Give the unit
 > value
 > -1 POT error
 > e.g.
-> V=I×R
-> current = 2.35 (×10-3) (A) allow 2.3-2.4 (mA)
-> 4.2 = 2.35 (×10-3) × R OR R = V / I
+> $V = I\times R$
+> current = 2.35 (×10⁻³) (A) allow 2.3-2.4 (mA)
+> 4.2 = 2.35 (×10⁻³) × R OR R = V / I
 > (resistance =) 1800 allow 1750 – 1826
 > ohms / Ω
 
@@ -752,23 +751,23 @@ Explain how the graph shows that the rubber band is elastic.
 
 ### 9(c)(i) [4]
 
-The band travels with an initial speed of 13 m / s. When the band reaches its maximum height above the student’s hand, the band has a speed of 0 m / s. Calculate the maximum height that the band reaches. Give your answer to 2 significant figures. [ acceleration due to gravity = −10 m / s2 ] maximum height = m
+The band travels with an initial speed of 13 m / s. When the band reaches its maximum height above the student’s hand, the band has a speed of 0 m / s. Calculate the maximum height that the band reaches. Give your answer to 2 significant figures. [ acceleration due to gravity = −10 m / s² ] maximum height = m
 
 
 **Mark scheme answer**
 
-> substitution into given equation “v2 = u2 + 2as”; ignore sign
-> accept mgh = ½ m v2
+> substitution into given equation “v² = u² + 2as”; ignore sign
+> accept mgh = ½ m v²
 > re-arrangement;
 > evaluation;
 > answer to 2 sig figs; independent mark
 > e.g.
-> 02 = (13)2 + (2 × -10 × s)
+> $0^{2} = (13)^{2} + (2 \times -10 \times s)$
 > height = 169 / 20
 > (height =) 8.45 (m)
 > (height =) 8.5 (m)
 
-- **(4)** substitution into given equation “v2 = u2 + 2as”; ignore sign
+- **(4)** substitution into given equation “v² = u² + 2as”; ignore sign
 
 ### 9(c)(ii) [5]
 
@@ -865,11 +864,10 @@ The mean voltage across the battery is 7.2 V. The battery gains 14 kJ of energy 
 > treat misconversion of
 > time as a POT error
 > e.g.
-> 14 000 = I × 7.2 × 8400
+> $14 000 = I \times 7.2 \times 8400$
 > (current =) 14000 / (7.2 × 8400)
 > (current =) 0.23 (A) allow 0.23…(A)
 > allow 0.2 (A)
-> Answer Notes Marks
 
 - **(3)** substitution into given equation ‘E = IVt’;
 
@@ -904,7 +902,7 @@ Diagram 1 shows some of the molecules of a gas in a sealed container. Diagram 1 
 
 ### 11(b) [4]
 
-The width of the container is slowly decreased so that the volume of the container is smaller than before. Diagram 2 shows the width of the container before and after this change. All other dimensions of the container remain the same. before after 8.4 cm 5.0 cm Diagram 2 The initial volume of the gas is 130 cm3. The initial pressure of the gas is 100 kPa. Calculate the pressure of the gas after the width of the container is decreased. Assume the temperature of the gas remains constant. pressure = kPa
+The width of the container is slowly decreased so that the volume of the container is smaller than before. Diagram 2 shows the width of the container before and after this change. All other dimensions of the container remain the same. before after 8.4 cm 5.0 cm Diagram 2 The initial volume of the gas is 130 cm³. The initial pressure of the gas is 100 kPa. Calculate the pressure of the gas after the width of the container is decreased. Assume the temperature of the gas remains constant. pressure = kPa
 
 ![diagram — official paper figure (qp.pdf p.33)](assets/asset_11_b_diagram.png)
 
@@ -912,17 +910,16 @@ The width of the container is slowly decreased so that the volume of the contain
 **Mark scheme answer**
 
 > evaluation of new volume;
-> substitution into p1V1 = p2V2; ecf different yet
+> substitution into p₁V₁ = p₂V₂; ecf different yet
 > incorrect volume
 > rearrangement;
 > evaluation of new pressure; -1 POT error
 > e.g.
-> V2 = (130 × 5.0/8.4 =) 77 (cm3) allow 77.38…
-> 100 × 130 = p2 × 77
-> (p2 =) 100 × 130/77
-> (p2 =) 170 (kPa) allow any value that
+> V₂ = (130 × 5.0/8.4 =) 77 (cm³) allow 77.38…
+> 100 × 130 = p₂ × 77
+> (p₂ =) 100 × 130/77
+> (p₂ =) 170 (kPa) allow any value that
 > rounds to 170 (kPa)
-> Answer Notes Marks
 
 - **(4)** evaluation of new volume;
 

@@ -133,7 +133,7 @@ Determine the wavelength of the microwave. wavelength = cm
 
 ### 3(a)(ii) [3]
 
-The microwave has a frequency of 2.35 GHz. Show that the speed of the microwave is about 3 × 108 m/s.
+The microwave has a frequency of 2.35 GHz. Show that the speed of the microwave is about 3 × 10⁸ m/s.
 
 
 **Mark scheme answer**
@@ -141,12 +141,12 @@ The microwave has a frequency of 2.35 GHz. Show that the speed of the microwave 
 > substitution; ecf value from (i)
 > ignore units for this mark
 > conversion of ‘G’ to 109 or 1 billion;
-> evaluation that would round to 3 × 108 given to 2 allow answer in range
-> or more s.f.; 2.8-3.1 × 108 (m/s)
+> evaluation that would round to 3 × 10⁸ given to 2 allow answer in range
+> or more s.f.; 2.8-3.1 × 10⁸ (m/s)
 > e.g.
 > speed = 2.35 × 12.5
-> speed = 2.35 × 109 × 12.5(× 10−2)
-> speed = 2.9…× 108 (m/s) POT error scores 2 max.
+> speed = 2.35 × 10⁹ × 12.5(× 10⁻²)
+> speed = 2.9…× 10⁸ (m/s) POT error scores 2 max.
 
 - **(3)** substitution; ecf value from (i)
 
@@ -373,7 +373,7 @@ The student concludes that iron is the best metal for transferring energy by con
 
 ### 6(a)(i) [3]
 
-Using the graph, calculate the acceleration of the ball. acceleration = m/s2
+Using the graph, calculate the acceleration of the ball. acceleration = m/s²
 
 ![graph — official paper figure (qp.pdf p.16) — shared with asset_6_a_graph_stem](assets/asset_6_a_graph_stem.png)
 
@@ -386,11 +386,11 @@ Using the graph, calculate the acceleration of the ball. acceleration = m/s2
 > correct substitution; allow any pairs of
 > values that lie on line
 > evaluation; allow answers that
-> round to 1.2 (m/s2)
+> round to 1.2 (m/s²)
 > e.g.
 > acceleration = gradient
 > acceleration = 3.0 (-0) / 2.5 (-0)
-> acceleration = 1.2 (m/s2)
+> acceleration = 1.2 (m/s²)
 
 - **(3)** idea of acceleration = gradient; allow use of
 
@@ -415,7 +415,7 @@ Calculate the distance travelled by the ball in 2.5 seconds. distance = m
 **Mark scheme answer**
 
 > allow alternative
-> method using v2=u2+2as
+> method using v²=u²+2as
 > with ecf from (i) e.g.
 > any attempt at area of triangle; 3.02 = (0.02 +) 2×1.2×s
 > correct area attempted; s = 9.0 / 2.4
@@ -429,7 +429,7 @@ Calculate the distance travelled by the ball in 2.5 seconds. distance = m
 
 ### 6(b) [3]
 
-The table shows data for the ball after it has travelled for two different times. Time in s Distance in m 5.0 15 10.0 60 A student suggests that these results obey the relationship: distance = constant time2 Use data from the table to deduce whether the results support this suggestion.
+The table shows data for the ball after it has travelled for two different times. Time in s Distance in m 5.0 15 10.0 60 A student suggests that these results obey the relationship: distance = constant time² Use data from the table to deduce whether the results support this suggestion.
 
 ![table — official paper figure (qp.pdf p.17)](assets/asset_6_b_table.png)
 
@@ -584,7 +584,7 @@ The diagram shows an outline of the galaxy and the star’s position in the gala
 
 ### 8(b)(i) [2]
 
-The speed of light is 3.0 × 108 m/s. One light year is the distance light travels in one year. Show that one light year is approximately 1016 m. [one year = 3.2 × 107 s]
+The speed of light is 3.0 × 10⁸ m/s. One light year is the distance light travels in one year. Show that one light year is approximately 1016 m. [one year = 3.2 × 10⁷ s]
 
 
 **Mark scheme answer**
@@ -592,8 +592,8 @@ The speed of light is 3.0 × 108 m/s. One light year is the distance light trave
 > any evidence of distance = (average) speed × time;
 > correct evaluation given to at least 2s.f.;
 > e.g.
-> (distance =) 3.0 (× 108) × 3.2 (× 107)
-> (distance =) 9.6 × 1015 allow 9.5 × 1015
+> (distance =) 3.0 (× 10⁸) × 3.2 (× 10⁷)
+> (distance =) 9.6 × 10¹⁵ allow 9.5 × 10¹⁵
 
 - **(2)** any evidence of distance = (average) speed × time;
 
@@ -619,13 +619,12 @@ The star is 29 000 light years away from the centre of the galaxy and has an orb
 > e.g. 830, 828, 0.83,
 > 0.828 (s) etc.
 > e.g.
-> 220 000 = 2 × π × (29 000 × 1016)/T
-> T = 2 × π × (29 000 × 1016)/220 000
-> (T =) 8.3 × 1015 (s) allow 8.28… × 1015 (s)
-> allow 7.9(5) × 1015 (s)
-> (from use of 9.6 × 1015
+> 220 000 = 2 × π × (29 000 × 10¹⁶)/T
+> T = 2 × π × (29 000 × 10¹⁶)/220 000
+> (T =) 8.3 × 10¹⁵ (s) allow 8.28… × 10¹⁵ (s)
+> allow 7.9(5) × 10¹⁵ (s)
+> (from use of 9.6 × 10¹⁵
 > for the light year)
-> Answer Notes Marks
 
 - **(3)** substitution into given formula; ignore units
 
@@ -756,9 +755,9 @@ Calculate the current in the resistor. current = A
 > rearrangement;
 > evaluation; −1 for POT error
 > e.g.
-> 5.8 = current × 13(× 103)
-> (current =) 5.8 / 13(× 103)
-> (current =) 4.5 × 10−4 (A) allow 4.46…×10−4 (A)
+> 5.8 = current × 13(× 10³)
+> (current =) 5.8 / 13(× 10³)
+> (current =) 4.5 × 10⁻⁴ (A) allow 4.46…×10⁻⁴ (A)
 > allow 0.0004, 0.00045,
 > 0.000446… (A)
 > condone 0.00044 (A)
@@ -832,7 +831,7 @@ State the formula linking pressure difference, height, density and gravitational
 
 ### 11(a)(ii) [4]
 
-The total pressure at point X is 117 kPa. The pressure of the trapped gas is 12 kPa. Calculate the height of the liquid above point X. [ density of liquid = 1.36 × 104 kg/m3 ] height = m
+The total pressure at point X is 117 kPa. The pressure of the trapped gas is 12 kPa. Calculate the height of the liquid above point X. [ density of liquid = 1.36 × 10⁴ kg/m³ ] height = m
 
 
 **Mark scheme answer**
@@ -853,8 +852,8 @@ The total pressure at point X is 117 kPa. The pressure of the trapped gas is 12 
 > = 2 marks
 > e.g.
 > liquid pressure = 105 kPa
-> 105 (000) = h × 1.36 × 104 × 10
-> h = 105 (000) / (1.36 × 105)
+> 105 (000) = h × 1.36 × 10⁴ × 10
+> h = 105 (000) / (1.36 × 10⁵)
 > (height =) 0.772 (m) allow 0.8, 0.77, 0.772…, 0.79,
 > 0.787… (m)
 
@@ -890,11 +889,10 @@ The temperature of the trapped gas increases from 23 °C to 38 °C. The pressure
 > 20 kPa, 19.8 kPa scores 3 (no
 > kelvin conversion)
 > e.g.
-> T1 = 296 K and T2 = 311 K
-> 12/296 = p2 / 311
-> p2 = 311 × 12/296
-> p2 = 13 (kPa) allow 12.6…(kPa)
-> Answer Notes Marks
+> T₁ = 296 K and T₂ = 311 K
+> 12/296 = p₂ / 311
+> p₂ = 311 × 12/296
+> p₂ = 13 (kPa) allow 12.6…(kPa)
 
 - **(4)** conversion of both temperatures into kelvin;
 
@@ -973,7 +971,7 @@ The difference in height between point A and point B is 0.21 m. The mass of the 
 > e.g.
 > GPE = 0.0055 × 10 × 0.21
 > GPE = 0.01155 (J) allow 0.0113…
-> KE = 0.5 × 0.0055 × 0.762
+> KE = 0.5 × 0.0055 × 0.76²
 > KE = 0.0015884 (J)
 > energy lost = (0.01155 ― 0.0015884 =) allow 0.00996…, 0.0097… (J)
 > 0.010 (J)

@@ -121,7 +121,7 @@ State the formula linking charge transferred, current and time.
 
 ### 2(b)(iii) [3]
 
-The mean current displayed on the ammeter is 6.8 × 10–6 A. The current lasts for 3.7 ms. Calculate the charge transferred. charge = C
+The mean current displayed on the ammeter is 6.8 × 10⁻⁶ A. The current lasts for 3.7 ms. Calculate the charge transferred. charge = C
 
 
 **Mark scheme answer**
@@ -136,13 +136,12 @@ The mean current displayed on the ammeter is 6.8 × 10–6 A. The current lasts 
 > answer expressed as a
 > eg. fraction
 > charge = current × time
-> charge = 6.8 × 10-6 × 3.7 × 10-3
-> charge = 2.516 × 10-8 (C)
-> correct answer = 2.5 × 10-8 (C)
+> charge = 6.8 × 10⁻⁶ × 3.7 × 10⁻³
+> charge = 2.516 × 10⁻⁸ (C)
+> correct answer = 2.5 × 10⁻⁸ (C)
 > allow any incorrect
 > answer that rounds to
 > 2.5 × 10n for 2 marks
-> Answer Notes Marks
 
 - **(3)** conversion of ms to s; mark independently
 
@@ -160,7 +159,7 @@ State the principle of conservation of momentum.
 > (total) momentum before (collision) = (total)
 > momentum after (collision) / eq;
 > ignore equation i.e.
-> m1u1 + m2u2 = m1v1 +
+> m₁u₁ + m₂u₂ = m₁v₁ +
 > m 2v 2
 
 - **(1)** (total) momentum before (collision) = (total)
@@ -320,11 +319,11 @@ Calculate the frequency of the variation in brightness for these stars. frequenc
 > formula;
 > correct evaluation; -1 POT penalty
 > eg. frequency = 1 ÷ 155 000 i.e. answer in range
-> frequency = 6.45… × 10-6 (Hz) 6.25 – 6.67 × 10-6 (Hz)
+> frequency = 6.45… × 10⁻⁶ (Hz) 6.25 – 6.67 × 10⁻⁶ (Hz)
 > for correct answer to
-> frequency = 6.5 × 10-6 (Hz) (i)
+> frequency = 6.5 × 10⁻⁶ (Hz) (i)
 > accept any answer that
-> rounds to 6 or 7 × 10-6
+> rounds to 6 or 7 × 10⁻⁶
 > (Hz) for 2 marks
 
 - **(2)** candidate’s answer to (i) substituted into given ignore POT for this MP
@@ -597,12 +596,12 @@ State the formula linking efficiency to useful energy output and total energy ou
 
 ### 7(b)(ii) [4]
 
-The wind transfers 1.2 × 106 J of energy to the turbine. The total mass of the turbine blades is 16 000 kg. The wind causes the turbine blades to accelerate from rest to an average speed of 7.6 m/s. Calculate the efficiency of the turbine. efficiency =
+The wind transfers 1.2 × 10⁶ J of energy to the turbine. The total mass of the turbine blades is 16 000 kg. The wind causes the turbine blades to accelerate from rest to an average speed of 7.6 m/s. Calculate the efficiency of the turbine. efficiency =
 
 
 **Mark scheme answer**
 
-> KE = ½ m v2 seen; accept substitution
+> KE = ½ m v² seen; accept substitution
 > evaluation of KE of blades; correct KE is 462 080 (J)
 > substitution of candidate’s value for blades’ KE
 > and wind KE into efficiency equation;
@@ -618,9 +617,8 @@ The wind transfers 1.2 × 106 J of energy to the turbine. The total mass of the 
 > efficiency = (462 080 ÷ 1 200 000) × 100%
 > efficiency = 38.506… %
 > correct answer = 39%
-> Answer Notes Marks
 
-- **(4)** KE = ½ m v2 seen; accept substitution
+- **(4)** KE = ½ m v² seen; accept substitution
 
 
 ## Question 8 (11 marks)
