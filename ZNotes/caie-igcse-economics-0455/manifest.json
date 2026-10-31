@@ -18,11 +18,11 @@
   "modules": 4,
   "chapters": 33,
   "cards": 153,
-  "images": 17,
-  "image_failures": 2,
+  "images": 19,
+  "image_failures": 0,
   "fetch_failures": 0,
   "markdown_chars": 295405,
-  "assets_bytes": 111297
+  "assets_bytes": 127125
  },
  "modules": [
   {
@@ -80,14 +80,23 @@
  ],
  "failures": {
   "cards": [],
-  "images": [
+  "images": [],
+  "images_resolved": [
    {
-    "url": "https://ibb.co/60DFvkyn",
-    "error": "html body served for image url"
+    "orig_url": "https://ibb.co/60DFvkyn",
+    "orig_error": "html body served for image url",
+    "recovered_url": "https://wsrv.nl/?url=%2F%2Fsimgbb.com%2Fimages%2Flogo.png",
+    "strategy": "wsrv:ibb-ogimage",
+    "asset": "5ce5e6e213d7-60dfvkyn.png",
+    "bytes": 1485
    },
    {
-    "url": "https://www.analyticssteps.com/blogs/production-possibility-curve-explained-assumptions-features-importance-and-types",
-    "error": "html body served for image url"
+    "orig_url": "https://www.analyticssteps.com/blogs/production-possibility-curve-explained-assumptions-features-importance-and-types",
+    "orig_error": "html body served for image url",
+    "recovered_url": "https://wsrv.nl/?url=https%3A%2F%2Fanalyticsstepsfiles.s3.ap-south-1.amazonaws.com%2Fbackend%2Fmedia%2Fthumbnail%2F9715568%2F8292279_1637150456_Blog%20Banner%20%283%29PRODUCTION%20POSSIBILITY%20CURVE.jpg",
+    "strategy": "wsrv:page-ogimage",
+    "asset": "3dc7adb2002b-production-possibility-curve-explained-assumptio.jpg",
+    "bytes": 14343
    }
   ]
  },
@@ -316,5 +325,7 @@
     "Current Account of Balance of Payments"
    ]
   }
- }
+ },
+ "resynced_utc": "2026-10-31T15:28:01Z",
+ "resync_task": "T-ZNOTES-2"
 }

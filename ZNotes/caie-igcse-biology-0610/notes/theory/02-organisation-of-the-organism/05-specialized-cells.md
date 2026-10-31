@@ -18,7 +18,7 @@
 
 * Red blood cells- Biconcave shaped discs without nucleus or mitochondria to maximise oxygen consumption
 
-  ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Red_blood_cells.svg/250px-Red_blood_cells.svg.png)
+  ![](../../../assets/f782aeef53e9-250px-red-blood-cells-svg.png)
 
 * Sperm cell- Specialized for fertilization having a streamlined body and a flagellum for swimming, numerous mitochondria for energy production and acrosomes on the head which produce enzymes to penetrate the egg
 

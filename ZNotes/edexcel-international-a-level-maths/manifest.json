@@ -18,11 +18,11 @@
   "modules": 5,
   "chapters": 32,
   "cards": 157,
-  "images": 62,
-  "image_failures": 1,
+  "images": 63,
+  "image_failures": 0,
   "fetch_failures": 0,
   "markdown_chars": 125054,
-  "assets_bytes": 3054484
+  "assets_bytes": 3070012
  },
  "modules": [
   {
@@ -88,10 +88,15 @@
  ],
  "failures": {
   "cards": [],
-  "images": [
+  "images": [],
+  "images_resolved": [
    {
-    "url": "https://images.znotes.org/allimages/4bfa5d9a4acf7bcd74d27024.webphttps://images.znotes.org/allimages/4bfa5d9a4acf7bcd74d27024.webphttps://images.znotes.org/allimages/4bfa5d9a4acf7bcd74d27024.webp",
-    "error": "HTTP Error 404: Not Found"
+    "orig_url": "https://images.znotes.org/allimages/4bfa5d9a4acf7bcd74d27024.webphttps://images.znotes.org/allimages/4bfa5d9a4acf7bcd74d27024.webphttps://images.znotes.org/allimages/4bfa5d9a4acf7bcd74d27024.webp",
+    "orig_error": "HTTP Error 404: Not Found",
+    "recovered_url": "https://images.znotes.org/allimages/4bfa5d9a4acf7bcd74d27024.webp",
+    "strategy": "repair:split-concatenated",
+    "asset": "1a46d66ffd55-4bfa5d9a4acf7bcd74d27024.webp",
+    "bytes": 15528
    }
   ]
  },
@@ -327,5 +332,7 @@
     "C14-Jan q9"
    ]
   }
- }
+ },
+ "resynced_utc": "2026-10-31T15:28:01Z",
+ "resync_task": "T-ZNOTES-2"
 }

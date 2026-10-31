@@ -14,7 +14,7 @@ percentage of foreign nationals living in UAE $= (\frac{8.9}{10}) \times 100 = 8
 
 **1(e)**
 
-![](https://ibb.co/60DFvkyn)![](../../../assets/884b5c37cd69-fce61d263ab863437ab626fa.webp)![](https://ibb.co/60DFvkyn)
+![](../../../assets/5ce5e6e213d7-60dfvkyn.png)![](../../../assets/884b5c37cd69-fce61d263ab863437ab626fa.webp)![](../../../assets/5ce5e6e213d7-60dfvkyn.png)
 
 **1(f)**
 

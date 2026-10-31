@@ -6,11 +6,11 @@
 
   * Whereas Consumer Goods are goods that are **directly consumed by individuals** to satisfy their wants and needs. Examples - Clothes, cars, food etc.
 
-![](https://www.analyticssteps.com/blogs/production-possibility-curve-explained-assumptions-features-importance-and-types)
+![](../../../assets/3dc7adb2002b-production-possibility-curve-explained-assumptio.jpg)
 
 ![](https://images.znotes.org/allimages/dcb23e1c73bcd4ad14c05df3.webp =965x)
 
-![](https://www.analyticssteps.com/blogs/production-possibility-curve-explained-assumptions-features-importance-and-types "PPC Curve")
+![](../../../assets/3dc7adb2002b-production-possibility-curve-explained-assumptio.jpg "PPC Curve")
 
 * The point labelled ‘X’ inside the curve above shows inefficiency. Inefficiency occurs when an **economy is not using its resources to their full potential**.
 

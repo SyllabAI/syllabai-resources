@@ -18,11 +18,11 @@
   "modules": 3,
   "chapters": 49,
   "cards": 209,
-  "images": 135,
-  "image_failures": 5,
+  "images": 140,
+  "image_failures": 0,
   "fetch_failures": 0,
   "markdown_chars": 197362,
-  "assets_bytes": 6486711
+  "assets_bytes": 7610636
  },
  "modules": [
   {
@@ -64,26 +64,47 @@
  ],
  "failures": {
   "cards": [],
-  "images": [
+  "images": [],
+  "images_resolved": [
    {
-    "url": "https://biology-igcse.weebly.com/uploads/1/5/0/7/15070316/408075.jpg?380",
-    "error": "HTTP Error 404: Not Found"
+    "orig_url": "https://microbenotes.com/wp-content/uploads/2025/05/Structure-of-Plant-Leaf-Cross-Section.jpeg",
+    "orig_error": "HTTP Error 403: Forbidden",
+    "recovered_url": "https://wsrv.nl/?url=https%3A%2F%2Fmicrobenotes.com%2Fwp-content%2Fuploads%2F2025%2F05%2FStructure-of-Plant-Leaf-Cross-Section.jpeg",
+    "strategy": "wsrv",
+    "asset": "af36b4ea5807-structure-of-plant-leaf-cross-section.jpeg",
+    "bytes": 118522
    },
    {
-    "url": "https://dnalabsindia.com/storage/2025/08/hEFB4jjj1lHmi46pmCMGV.png",
-    "error": "HTTP Error 404: Not Found"
+    "orig_url": "https://pmgbiology.com/wp-content/uploads/2014/05/vaso.jpg",
+    "orig_error": "HTTP Error 403: Forbidden",
+    "recovered_url": "https://wsrv.nl/?url=https%3A%2F%2Fpmgbiology.com%2Fwp-content%2Fuploads%2F2014%2F05%2Fvaso.jpg",
+    "strategy": "wsrv",
+    "asset": "d8a7b5779537-vaso.jpg",
+    "bytes": 53483
    },
    {
-    "url": "https://microbenotes.com/wp-content/uploads/2025/05/Structure-of-Plant-Leaf-Cross-Section.jpeg",
-    "error": "HTTP Error 403: Forbidden"
+    "orig_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Red_blood_cells.svg/250px-Red_blood_cells.svg.png",
+    "orig_error": "HTTP Error 429: Too many requests. Please contact bot-traffic@wikimedia.org to discuss unblocking, or reduce your request rate. (7e6bc0e)",
+    "recovered_url": "https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F1%2F14%2FRed_blood_cells.svg%2F250px-Red_blood_cells.svg.png",
+    "strategy": "wsrv",
+    "asset": "f782aeef53e9-250px-red-blood-cells-svg.png",
+    "bytes": 42478
    },
    {
-    "url": "https://pmgbiology.com/wp-content/uploads/2014/05/vaso.jpg",
-    "error": "HTTP Error 403: Forbidden"
+    "orig_url": "https://biology-igcse.weebly.com/uploads/1/5/0/7/15070316/408075.jpg?380",
+    "orig_error": "HTTP Error 404: Not Found",
+    "recovered_url": "https://wsrv.nl/?url=web.archive.org%2Fweb%2F20220521031402id_%2Fhttps%3A%2F%2Fbiology-igcse.weebly.com%2Fuploads%2F1%2F5%2F0%2F7%2F15070316%2F408075.jpg",
+    "strategy": "wayback:20220521031402",
+    "asset": "6ffc95580913-408075.jpg",
+    "bytes": 13756
    },
    {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Red_blood_cells.svg/250px-Red_blood_cells.svg.png",
-    "error": "HTTP Error 429: Too many requests. Please contact bot-traffic@wikimedia.org to discuss unblocking, or reduce your request rate. (7e6bc0e)"
+    "orig_url": "https://dnalabsindia.com/storage/2025/08/hEFB4jjj1lHmi46pmCMGV.png",
+    "orig_error": "HTTP Error 404: Not Found",
+    "recovered_url": "https://wsrv.nl/?url=web.archive.org%2Fweb%2F20251027185317id_%2Fhttps%3A%2F%2Fdnalabsindia.com%2Fstorage%2F2025%2F08%2FhEFB4jjj1lHmi46pmCMGV.png",
+    "strategy": "wayback:20251027185317",
+    "asset": "829b870d1b27-hefb4jjj1lhmi46pmcmgv.png",
+    "bytes": 895686
    }
   ]
  },
@@ -401,5 +422,7 @@
     "Question 2"
    ]
   }
- }
+ },
+ "resynced_utc": "2026-10-31T15:28:01Z",
+ "resync_task": "T-ZNOTES-2"
 }

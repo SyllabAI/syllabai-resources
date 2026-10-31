@@ -18,11 +18,11 @@
   "modules": 7,
   "chapters": 13,
   "cards": 119,
-  "images": 113,
-  "image_failures": 1,
+  "images": 114,
+  "image_failures": 0,
   "fetch_failures": 0,
   "markdown_chars": 242273,
-  "assets_bytes": 8867220
+  "assets_bytes": 8879562
  },
  "modules": [
   {
@@ -112,10 +112,15 @@
  ],
  "failures": {
   "cards": [],
-  "images": [
+  "images": [],
+  "images_resolved": [
    {
-    "url": "https://znotes-static.s3.amazonaws.com/edexcel/international-a-level/biology/64ce26c466cc1707a3b7f94f528e9885667d35f3289804c9.crop\\_720x540\\_120%2C0",
-    "error": "HTTP Error 403: Forbidden"
+    "orig_url": "https://znotes-static.s3.amazonaws.com/edexcel/international-a-level/biology/64ce26c466cc1707a3b7f94f528e9885667d35f3289804c9.crop\\_720x540\\_120%2C0",
+    "orig_error": "HTTP Error 403: Forbidden",
+    "recovered_url": "https://znotes-static.s3.amazonaws.com/edexcel/international-a-level/biology/64ce26c466cc1707a3b7f94f528e9885667d35f3289804c9.crop_720x540_120%2C0",
+    "strategy": "direct",
+    "asset": "b4970583319f-64ce26c466cc1707a3b7f94f528e9885667d35f3289804c9.png",
+    "bytes": 12342
    }
   ]
  },
@@ -279,5 +284,7 @@
     "Chi-squared (χ²) Tests"
    ]
   }
- }
+ },
+ "resynced_utc": "2026-10-31T15:28:01Z",
+ "resync_task": "T-ZNOTES-2"
 }

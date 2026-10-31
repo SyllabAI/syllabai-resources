@@ -18,11 +18,11 @@
   "modules": 5,
   "chapters": 18,
   "cards": 66,
-  "images": 47,
-  "image_failures": 5,
+  "images": 50,
+  "image_failures": 2,
   "fetch_failures": 0,
   "markdown_chars": 57621,
-  "assets_bytes": 713452
+  "assets_bytes": 782890
  },
  "modules": [
   {
@@ -99,20 +99,34 @@
     "error": "<urlopen error [Errno -5] No address associated with hostname>"
    },
    {
-    "url": "https://funwithquadratic.files.wordpress.com/2014/04/capture5.png",
-    "error": "HTTP Error 403: Forbidden"
-   },
-   {
-    "url": "https://images.saymedia-content.com/.image/t_share/MTc0NDY4MjY1ODA2OTMxNTkw/how-to-calculate-the-arc-length-of-a-circle-segment-and-sector-area.jpg",
-    "error": "HTTP Error 404: Not Found"
-   },
-   {
     "url": "https://quizizz.com/_media/questions/297d24c8-9783-45ab-95b0-037c1d7ee802_900_900",
     "error": "empty"
+   }
+  ],
+  "images_resolved": [
+   {
+    "orig_url": "https://funwithquadratic.files.wordpress.com/2014/04/capture5.png",
+    "orig_error": "HTTP Error 403: Forbidden",
+    "recovered_url": "https://wsrv.nl/?url=https%3A%2F%2Ffunwithquadratic.files.wordpress.com%2F2014%2F04%2Fcapture5.png",
+    "strategy": "wsrv",
+    "asset": "597cdd992c0a-capture5.png",
+    "bytes": 4559
    },
    {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Trapezoid.svg/1200px-Trapezoid.svg.png",
-    "error": "HTTP Error 400: Use thumbnail sizes listed on https://w.wiki/GHai"
+    "orig_url": "https://images.saymedia-content.com/.image/t_share/MTc0NDY4MjY1ODA2OTMxNTkw/how-to-calculate-the-arc-length-of-a-circle-segment-and-sector-area.jpg",
+    "orig_error": "HTTP Error 404: Not Found",
+    "recovered_url": "https://wsrv.nl/?url=web.archive.org%2Fweb%2F20251113050642id_%2Fhttps%3A%2F%2Fimages.saymedia-content.com%2F.image%2Ft_share%2FMTc0NDY4MjY1ODA2OTMxNTkw%2Fhow-to-calculate-the-arc-length-of-a-circle-segment-and-sector-area.jpg",
+    "strategy": "wayback:20251113050642",
+    "asset": "3bbdca9bccc3-how-to-calculate-the-arc-length-of-a-circle-segm.jpg",
+    "bytes": 62248
+   },
+   {
+    "orig_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Trapezoid.svg/1200px-Trapezoid.svg.png",
+    "orig_error": "HTTP Error 400: Use thumbnail sizes listed on https://w.wiki/GHai",
+    "recovered_url": "https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F1%2F11%2FTrapezoid.svg",
+    "strategy": "wsrv:wikimedia-original",
+    "asset": "759867e31be6-1200px-trapezoid-svg.png",
+    "bytes": 2631
    }
   ]
  },
@@ -229,5 +243,7 @@
     "Checkpoint Past Papers"
    ]
   }
- }
+ },
+ "resynced_utc": "2026-10-31T15:28:01Z",
+ "resync_task": "T-ZNOTES-2"
 }

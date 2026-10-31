@@ -30,7 +30,7 @@
 
 ### Symmetry
 
-* Hyperbolas are symmetrical about their asymptotes![Symmetry and Asymptotes - Applications of Differential Calculus ](https://img.brainkart.com/imagebk42/9tSeyvr.jpg)
+* Hyperbolas are symmetrical about their asymptotes![Symmetry and Asymptotes - Applications of Differential Calculus ](../../../assets/fb8526c7d4da-9tseyvr.jpg)
 
 Line of Symmetry for:
 

@@ -29,4 +29,4 @@ and a is not equal to 0, and the highest power/degree is of 2.
 
 * Likewise, we can also expand quadratic equations.
 
-![](https://funwithquadratic.files.wordpress.com/2014/04/capture5.png)
+![](../../../assets/597cdd992c0a-capture5.png)

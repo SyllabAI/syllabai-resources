@@ -28,7 +28,7 @@ Respiration can happen in the presence of oxygen [aerobic] or in its absence [an
 
 * It takes place in the mitochondria.
 
-![](https://znotes-static.s3.amazonaws.com/edexcel/international-a-level/biology/64ce26c466cc1707a3b7f94f528e9885667d35f3289804c9.crop\_720x540\_120%2C0)
+![](../../../assets/b4970583319f-64ce26c466cc1707a3b7f94f528e9885667d35f3289804c9.png)
 
 ### **Oxidative phosphorylation**
 

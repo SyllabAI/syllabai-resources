@@ -124,7 +124,7 @@ $\text{Q. Rotate triangle ABC } 90^{\circ} \text{ anticlockwise about the origin
 
 - The intersection is the centre of rotation
 
-  ![Rotations - GCSE Maths - Steps, Examples & Worksheet](https://thirdspacelearning.com/wp-content/uploads/2021/10/Rotations-Example-5.svg)
+  ![Rotations - GCSE Maths - Steps, Examples & Worksheet](../../../assets/f8b438c9fcff-rotations-example-5.svg)
 
 - Rotation of 180 degrees about the point (0,1)
 
@@ -200,7 +200,7 @@ $\text{Q. Translate triangle ABC by vector } \begin{pmatrix} 5 \\ -2 \end{pmatri
 
   * So the translation is 5 right and 2 down
 
-![Translation - GCSE Maths - Steps, Examples & Worksheet](https://thirdspacelearning.com/wp-content/uploads/2021/10/Translation-Example-1-Step-4.svg)
+![Translation - GCSE Maths - Steps, Examples & Worksheet](../../../assets/5099e7bdf768-translation-example-1-step-4.svg)
 
 - Translation by vector $\begin{pmatrix} 4 \\ 1 \end{pmatrix}$
 

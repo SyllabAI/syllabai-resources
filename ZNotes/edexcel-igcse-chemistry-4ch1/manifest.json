@@ -18,11 +18,11 @@
   "modules": 4,
   "chapters": 28,
   "cards": 111,
-  "images": 22,
-  "image_failures": 1,
+  "images": 23,
+  "image_failures": 0,
   "fetch_failures": 0,
   "markdown_chars": 216126,
-  "assets_bytes": 381456
+  "assets_bytes": 414910
  },
  "modules": [
   {
@@ -73,10 +73,15 @@
  ],
  "failures": {
   "cards": [],
-  "images": [
+  "images": [],
+  "images_resolved": [
    {
-    "url": "https://www.snexplores.org/wp-content/uploads/sites/3/2019/11/860\\_SS\\_pH.png?w=860",
-    "error": "HTTP Error 404: Not Found"
+    "orig_url": "https://www.snexplores.org/wp-content/uploads/sites/3/2019/11/860\\_SS\\_pH.png?w=860",
+    "orig_error": "HTTP Error 404: Not Found",
+    "recovered_url": "https://www.snexplores.org/wp-content/uploads/sites/3/2019/11/860_SS_pH.png?w=860",
+    "strategy": "direct",
+    "asset": "fa02d3317e39-860-ss-ph.png",
+    "bytes": 33454
    }
   ]
  },
@@ -256,5 +261,7 @@
     "Condensation Polymerisation and Polyesters"
    ]
   }
- }
+ },
+ "resynced_utc": "2026-10-31T15:28:01Z",
+ "resync_task": "T-ZNOTES-2"
 }

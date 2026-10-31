@@ -1,6 +1,6 @@
 ## Sigmoid Curve of Population Growth
 
-![](https://biology-igcse.weebly.com/uploads/1/5/0/7/15070316/408075.jpg?380)
+![](../../../assets/6ffc95580913-408075.jpg)
 
 * **Lag phase:** The number of mature, reproducing individuals is low and they may be widely dispersed
 * **Exponential (Log) phase:** exponential growth occurs, the conditions are ideal, and the maximum growth rate is reached. Limiting factors do not limit growth much.
