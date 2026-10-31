@@ -1,0 +1,3 @@
+## Question 7
+
+Enzymes are involved in chemical digestion which produces small **soluble** molecules that can be absorbed into the blood. Two examples of protease enzymes are pepsin and trypsin. Pepsin is produced by the **stomach** and requires acidic conditions. These conditions are created by the release of **hydrochloric acid**, which provides the optimum pH for pepsin activity and also kills harmful **microorganisms/pathogens**. The **pancreas/small intestine** produces trypsin which breaks down protein in **alkaline** pH conditions. These conditions are created by a substance called **bile**, which neutralises the gastric juices and also has an important role in the **emulsification** of fats and oils.

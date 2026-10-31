@@ -1,0 +1,13 @@
+## Question 3
+
+**3(a)** Privatisation is the sale of assets, from the public sector, to the private sector.
+
+**3(b)** Technological investments can improve capital equipment, so it can produce products with better quality and less errors. Technological innovation can encourage firms to switch to more capital-intensive production rather than labour-intensive production, lowering wages for workers.
+
+**3(c)** If there is increased competition in a market, each firm in the market will try to attract customers. They can do this by **reducing the price** of their products so that more customers can afford buying their products. Customers will benefit from reduced prices as they can buy more products. However, if firms charge low prices, they may have to **shut down** if their revenue (price $\times$ quantity sold) is less than their cost of production. Additionally, with more firms in the market, **customers can choose** between different firms and decide which ones suit their personal preferences.
+
+**3(d)** *The macroeconomic aims of the government include economic growth, full employment, price stability, balance of payments stability, and redistribution of income.*
+
+* Improving education can make unemployed people more skilled and make it easier for them to be accepted into job vacancies, achieving the aim of full employment. Improved education can make workers be more productive and efficient. This means that each firm can hire less workers and cut down on the cost of wages for labour. Cost of production will decrease so cost-pull inflation (rise in the price level because of greater costs of production) can be avoided, achieving the aim of price stability. Additionally, education gives everyone the opportunity to study and become trained to get well paying jobs. Even a person who grew in poverty can get a high paying job, like a doctor, by being educated.
+
+* To improve education, the government will have to increase its spending. Total demand is the sum of government spending, investment, consumer spending and next exports. So, increasing government spending will increase total demand. Supply may not increase enough to match with demand, so the price of products will increase as they are in limited supply. This is demand-pull inflation (rise in price level due to excessive demand), which goes against the aim of price stability. Educated skilled workers, like engineers, may decide that opportunities in other countries in other countries are better and emigrate. This reduces the resources (labour) and quantity of goods and services produced in the country, which therefore reduces economic growth.
