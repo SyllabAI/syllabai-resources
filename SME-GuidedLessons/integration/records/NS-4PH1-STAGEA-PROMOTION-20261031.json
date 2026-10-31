@@ -1,0 +1,50 @@
+{
+  "format": "new-subject-promotion-receipt/1.0",
+  "wave": "NS-4PH1 stage-A pilot — the FIRST new-subject guided-lessons generation (1 note / 1 lesson / 5 MCQ + 4 written; the hub-import plane becomes cross-course: 113 notes / 240 lessons / 2,160 checks)",
+  "operator_traces": [
+    "1a192830222371a5",
+    "1a19291d96cc7aed"
+  ],
+  "generated_at_utc": "2026-10-31T16:02:45Z",
+  "repo": "SyllabAI/syllabai-resources",
+  "branch": "integration/ns4ph1-stagea-20261031",
+  "contract_of_record": "NS-4PH1-WAVE-1-CONTRACT-20261031 (hub PR #557, merge-of-record 168ae7682) — B3 pilot-first law executed; standing guidance .syllabai/docs/new-subject-runbook.md (hub PR #554, merge f99969a2a)",
+  "stack_of_record": {
+    "note": "the pilot is based on the current resources main (wave-open main resolved at run time, == the contract environment pin); the hub chain follows this merge per the merge-order law",
+    "branch_base": "1912a2c5877357faf0bc42e1563bc4bddadb0c0f"
+  },
+  "commits": {
+    "A": {
+      "sha": "ce08e1386012be1af4293a3ef9b3e95d7dbb9416",
+      "note": "NS-4PH1 source-0.6 generation — the authored pilot source-0.6 note + schema 0.6 (amendment of record) + the D-1 spec_point_resolution.json (188/188) — commit A parent == the wave-open main"
+    },
+    "B": {
+      "sha": "(see git log — the target-schema amendment commit)",
+      "note": "hub-lesson-import.1.5 + sme-question-package.1.2 amendment schemas (backward-compatible unions; frozen 0.5/1.4/1.1 byte-untouched, gate-enforced)"
+    },
+    "C": {
+      "sha": "(namespace-complete — outputs + manifest v18 + records + pipeline)",
+      "note": "hub-import-1.5/ x1 + question-packages-1.2/ x1 + hub-import-manifest-v18.json + records/INT-3-transform-record-ns4ph1-stagea.json + records/NS-4PH1-STAGEA-PROMOTION-20261031.json + tooling/ns4ph1-stagea-pipeline.js + tooling/ns4ph1-stagea-authoring/"
+    }
+  },
+  "pipeline_gates": "GREEN — 49 gates, 0 failures (P0 pins; A0 inventory; C-1 upstream fidelity; D-1 spec resolution 188/188; D-2 id + flattening laws; C-6 ajv source/outputs + 112 frozen re-proofs; C-2 v17 preflight 224 bytes + 112 survivor pairs; written-kind invariants; C-5 checkRefs closure x113; G-E stream anchors 112 re-proved + 1 re-anchored, grand + 11 wave subtotals; identity-from-disk 113/240/2160; amendment backward-compat)",
+  "manifest_v18": {
+    "artifacts": 226,
+    "new": 2,
+    "survivor_bytes": "224 chemistry artifacts byte-identical re-pins",
+    "counts": {
+      "notes": 113,
+      "lessons": 240,
+      "checks": 2160,
+      "mcq": 1200,
+      "written": 960
+    }
+  },
+  "schema_amendment": "the B5 fail-closed law of the contract executed: the frozen schemas are chemistry-hardcoded (code pattern ^4CH1-, lesson.id ^igcse-chemistry::, subject const igcse-chemistry), so DISCLOSED amendment versions were filed — guided-lesson.0.6, hub-lesson-import.1.5 (format union 1.3+1.4+1.5), sme-question-package.1.2 (format union 1.0+1.1+1.2) — backward-compatible pattern alternations ONLY (igcse-physics ids, 4PH1 spec codes incl. P-suffixed practicals, physics asset urls); the frozen 0.5/1.4/1.1 files byte-untouched (gate-enforced) and chemistry artifacts re-proved against them",
+  "hub_chain_owed": {
+    "status": "NOT executed in this act — the hub runner of record (apps/hub/scripts/import_guided/run_import.mjs) is chemistry-scoped at 4 constants (content/igcse-chemistry-19 pack, REL_LESSONS/REL_QUESTIONS/REL_INDEX, the igcse-chemistry:: id grammar) and binds ONE lesson schema per feed; the cross-course v18 import requires the runbook-disclosed runner generalization (pack/subject/schema-binding from the FEED config, chemistry values defaulted for all existing feeds, zero behavior change) — a code change on the hub that deserves its own gates and commit",
+    "feed_of_record": "ns4ph1-stagea-v18 — promo pin = the merge commit of THIS resources PR; manifest hub-import-manifest-v18.json; lessonKinds {\"hub-lesson-import-1.4\": 112, \"hub-lesson-import-1.5\": 1}; targetSchemas [hub/lesson-import/1.5, sme-question-package/1.2] (+ frozen 1.4/1.1 for the survivor re-proof); landing 'additive' into content/igcse-physics-19/ (guided-lessons/ + guided-questions/ + guided-import.json, all NEW)",
+    "merge_order": "resources PR merges FIRST (this receipt); the hub chain follows on operator ignition ('stage-A pilot hub chain' or equivalent)"
+  },
+  "live_spot_check_owed": "after the hub chain: bake probe (lessons-x-4 'Your answer' on the pilot page) + agent-browser DOM flow walk per the runbook §1.8"
+}

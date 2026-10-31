@@ -1,0 +1,110 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_k9wr3prcgSBg5vfw",
+    "corpusVersion": "sme-revision-notes-igcse-physics-19-2026-09-17",
+    "sourceLayerSha256": "67e22e28e354a318bb88186774f6a9fe2762cab9759e1bffedacdb7fa3da7ab2",
+    "pinnedRef": "ce08e1386012be1af4293a3ef9b3e95d7dbb9416"
+  },
+  "lesson": {
+    "id": "igcse-physics::rn_k9wr3prcgSBg5vfw",
+    "topicTitle": "1. Forces and motion",
+    "subtopicTitle": "Movement and position",
+    "sourceUrl": "https://www.savemyexams.com/igcse/physics/edexcel/19/revision-notes/1-forces-and-motion/1-1-movement-and-position/1-1-2-speed",
+    "specAnchors": [
+      {
+        "code": "4PH1-1.4",
+        "text": "know and use the relationship between average speed, distance moved and time taken: distance moved average speed = time taken"
+      }
+    ],
+    "primer": {
+      "text": "From Distance-Time Graphs you already know how a journey's whole story is drawn slope by slope. This note puts one number to that story: how fast the object moves on average, the relationship that delivers it, and the triangle trick that rearranges it without algebra.",
+      "prerequisiteSubtopic": "Movement and position"
+    },
+    "modules": [
+      {
+        "id": "rn_k9wr3prcgSBg5vfw::L1",
+        "title": "Calculating average speed",
+        "sourceHeadings": [
+          "Calculating average speed",
+          "Average speed formula"
+        ],
+        "specRefs": [
+          "4PH1-1.4"
+        ],
+        "opening": "A journey rarely holds one pace from start to finish, so physics summaries it with a single number. This lesson fixes what speed counts, why it is a scalar, the relationship for the journey-wide average, and the formula triangle that rearranges the relationship in your head.",
+        "keyPoints": [
+          "Speed is the distance an object travels every second, and it is a scalar quantity: it has magnitude but no direction.",
+          "The speed of an object can vary through its journey, which is why the average speed is often the more useful quantity.",
+          "average speed = total distance moved ÷ total time taken.",
+          "A formula triangle rearranges a three-term relationship: cover the quantity you want and read off what to do with the other two.",
+          "Quantities on the same line of the formula triangle are multiplied; a quantity above another is divided by it."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Speed tells you how far something goes each second and carries no direction. Because pace changes on real journeys, we use the average: the whole distance divided by the whole time.",
+            "analogy": "Think of a road trip averaged like a till receipt: the cashier does not list every metre of the trip, just the grand total of distance split by the whole day it took.",
+            "examPointer": "Quote the relationship as average speed = distance moved ÷ time taken, and keep units consistent — metres with seconds, kilometres with hours."
+          },
+          "medium": {
+            "restatement": "Speed is a scalar: a magnitude with no direction attached. Journeys change pace, so we summarise with average speed — total distance moved divided by total time taken — and rearrange it with a formula triangle by covering the quantity you want.",
+            "analogy": "The formula triangle behaves like a set of three cards held over a pram: hide the one you need and the remaining two tell you exactly how to build it — neighbours multiply, stacked pair divides.",
+            "examPointer": "A hiker at 2.0 m/s against a bee at 4.5 m/s are both averages across time — the examiner expects total distance over total time, never a single instant's reading."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_k9wr3prcgSBg5vfw::L1::Q1",
+          "rn_k9wr3prcgSBg5vfw::L1::Q2",
+          "rn_k9wr3prcgSBg5vfw::L1::Q3",
+          "rn_k9wr3prcgSBg5vfw::L1::Q4",
+          "rn_k9wr3prcgSBg5vfw::L1::Q5",
+          "rn_k9wr3prcgSBg5vfw::L1::Q6",
+          "rn_k9wr3prcgSBg5vfw::L1::Q7",
+          "rn_k9wr3prcgSBg5vfw::L1::Q8",
+          "rn_k9wr3prcgSBg5vfw::L1::Q9"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "speed",
+          "definition": "How far an object travels every second; a scalar quantity with magnitude but no direction.",
+          "firstLesson": 1
+        },
+        {
+          "term": "scalar",
+          "definition": "A quantity that has magnitude but no direction.",
+          "firstLesson": 1
+        },
+        {
+          "term": "average speed",
+          "definition": "The total distance moved divided by the total time taken for a journey.",
+          "firstLesson": 1
+        }
+      ],
+      "workedExample": {
+        "prompt": "A hiker walks 2,400 metres in 30 minutes. Use the average speed relationship to find the hiker's average speed in metres per second.",
+        "steps": [
+          "Total distance moved = 2,400 m.",
+          "Total time taken = 30 minutes = 30 × 60 = 1,800 s.",
+          "average speed = distance moved ÷ time taken = 2,400 ÷ 1,800.",
+          "2,400 ÷ 1,800 = 1.333…, so round to two decimal places."
+        ],
+        "finalAnswer": "The hiker's average speed is about 1.33 m/s."
+      }
+    }
+  }
+}

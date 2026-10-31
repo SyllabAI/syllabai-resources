@@ -1,0 +1,264 @@
+{
+  "format": "guided-lesson/0.5",
+  "figures": [],
+  "noteRef": {
+    "noteId": "rn_k9wr3prcgSBg5vfw",
+    "corpusVersion": "sme-revision-notes-igcse-physics-19-2026-09-17",
+    "topicTitle": "1. Forces and motion",
+    "subtopicTitle": "Movement and position",
+    "sourceUrl": "https://www.savemyexams.com/igcse/physics/edexcel/19/revision-notes/1-forces-and-motion/1-1-movement-and-position/1-1-2-speed"
+  },
+  "specPoints": [
+    {
+      "code": "4PH1-1.4",
+      "text": "know and use the relationship between average speed, distance moved and time taken: distance moved average speed = time taken"
+    }
+  ],
+  "primer": {
+    "text": "From Distance-Time Graphs you already know how a journey's whole story is drawn slope by slope. This note puts one number to that story: how fast the object moves on average, the relationship that delivers it, and the triangle trick that rearranges it without algebra.",
+    "prerequisiteSubtopic": "Movement and position"
+  },
+  "lessons": [
+    {
+      "title": "Calculating average speed",
+      "sourceHeadings": [
+        "Calculating average speed",
+        "Average speed formula"
+      ],
+      "specRefs": [
+        "4PH1-1.4"
+      ],
+      "opening": "A journey rarely holds one pace from start to finish, so physics summaries it with a single number. This lesson fixes what speed counts, why it is a scalar, the relationship for the journey-wide average, and the formula triangle that rearranges the relationship in your head.",
+      "keyPoints": [
+        "Speed is the distance an object travels every second, and it is a scalar quantity: it has magnitude but no direction.",
+        "The speed of an object can vary through its journey, which is why the average speed is often the more useful quantity.",
+        "average speed = total distance moved ÷ total time taken.",
+        "A formula triangle rearranges a three-term relationship: cover the quantity you want and read off what to do with the other two.",
+        "Quantities on the same line of the formula triangle are multiplied; a quantity above another is divided by it."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Speed tells you how far something goes each second and carries no direction. Because pace changes on real journeys, we use the average: the whole distance divided by the whole time.",
+          "analogy": "Think of a road trip averaged like a till receipt: the cashier does not list every metre of the trip, just the grand total of distance split by the whole day it took.",
+          "examPointer": "Quote the relationship as average speed = distance moved ÷ time taken, and keep units consistent — metres with seconds, kilometres with hours."
+        },
+        "medium": {
+          "restatement": "Speed is a scalar: a magnitude with no direction attached. Journeys change pace, so we summarise with average speed — total distance moved divided by total time taken — and rearrange it with a formula triangle by covering the quantity you want.",
+          "analogy": "The formula triangle behaves like a set of three cards held over a pram: hide the one you need and the remaining two tell you exactly how to build it — neighbours multiply, stacked pair divides.",
+          "examPointer": "A hiker at 2.0 m/s against a bee at 4.5 m/s are both averages across time — the examiner expects total distance over total time, never a single instant's reading."
+        }
+      },
+      "check": [
+        {
+          "stem": "Which statement defines the speed of an object?",
+          "misconceptionClass": "speed definition",
+          "options": [
+            {
+              "key": "A",
+              "text": "The distance an object travels every second",
+              "correct": true,
+              "explanation": "Speed counts distance covered per second, with no direction attached.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "The direction an object moves in every second",
+              "correct": false,
+              "explanation": "Direction is the property of a vector; speed deliberately ignores it.",
+              "misconception": "vector smuggled in"
+            },
+            {
+              "key": "C",
+              "text": "The force an object exerts every second",
+              "correct": false,
+              "explanation": "Force is a different quantity altogether and plays no part in the definition.",
+              "misconception": "force confused"
+            },
+            {
+              "key": "D",
+              "text": "The total journey length regardless of time taken",
+              "correct": false,
+              "explanation": "Distance alone ignores the time; speed always brings the second dimension in.",
+              "misconception": "distance alone"
+            }
+          ]
+        },
+        {
+          "stem": "Why is speed described as a scalar quantity?",
+          "misconceptionClass": "scalar vs vector",
+          "options": [
+            {
+              "key": "A",
+              "text": "It has magnitude but no direction",
+              "correct": true,
+              "explanation": "Scalar means size only; speed says how fast, never which way.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "It has direction but no magnitude",
+              "correct": false,
+              "explanation": "That pairing is backwards; a direction without a size describes nothing physical here.",
+              "misconception": "definition flipped"
+            },
+            {
+              "key": "C",
+              "text": "It always points along the path of motion",
+              "correct": false,
+              "explanation": "Pointing is vector behaviour; speed carries no arrow at all.",
+              "misconception": "direction invented"
+            },
+            {
+              "key": "D",
+              "text": "It can only take negative values",
+              "correct": false,
+              "explanation": "Speeds are quoted as positive magnitudes on this course.",
+              "misconception": "sign confused"
+            }
+          ]
+        },
+        {
+          "stem": "How is the average speed across a whole journey calculated?",
+          "misconceptionClass": "average speed formula",
+          "options": [
+            {
+              "key": "A",
+              "text": "Total distance moved divided by total time taken",
+              "correct": true,
+              "explanation": "The average shares the whole distance out across the whole time.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Total distance moved multiplied by total time taken",
+              "correct": false,
+              "explanation": "Multiplying inflates the number; the relationship divides.",
+              "misconception": "operation flipped"
+            },
+            {
+              "key": "C",
+              "text": "Final speed added to the starting speed",
+              "correct": false,
+              "explanation": "Adding endpoint readings is not the journey-wide average.",
+              "misconception": "instantaneous confused"
+            },
+            {
+              "key": "D",
+              "text": "Total time taken divided by total distance moved",
+              "correct": false,
+              "explanation": "That is the reciprocal — it would answer hours per kilometre, not the speed.",
+              "misconception": "reciprocal formed"
+            }
+          ]
+        },
+        {
+          "stem": "In the formula triangle for average speed, two quantities sit on the same horizontal line. What does that mean?",
+          "misconceptionClass": "formula triangle rule",
+          "options": [
+            {
+              "key": "A",
+              "text": "They are multiplied together",
+              "correct": true,
+              "explanation": "Same-line neighbours multiply; the covered corner then leaves a division instead.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "They are divided",
+              "correct": false,
+              "explanation": "Division belongs to the stacked pair, not the shared line.",
+              "misconception": "rule swapped"
+            },
+            {
+              "key": "C",
+              "text": "They are added together",
+              "correct": false,
+              "explanation": "Nothing in the triangle is ever added; it only stores the relationship's shape.",
+              "misconception": "operation invented"
+            },
+            {
+              "key": "D",
+              "text": "They cancel each other out",
+              "correct": false,
+              "explanation": "Cancellation is an algebra step, not a triangle rule.",
+              "misconception": "cancellation invented"
+            }
+          ]
+        },
+        {
+          "stem": "A hiker averages 2.0 m/s and a bee 4.5 m/s. What kind of value is each figure?",
+          "misconceptionClass": "average over a journey",
+          "options": [
+            {
+              "key": "A",
+              "text": "The total distance covered divided by the total time taken",
+              "correct": true,
+              "explanation": "Both figures are journey-wide averages, exactly what the relationship delivers.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "The speed measured at the end of the journey only",
+              "correct": false,
+              "explanation": "An ending reading is instantaneous and says nothing about the whole trip.",
+              "misconception": "final reading only"
+            },
+            {
+              "key": "C",
+              "text": "The largest speed reached at any single moment",
+              "correct": false,
+              "explanation": "Peaks and averages differ; the bee's top sprint exceeds 4.5 m/s.",
+              "misconception": "peak confused"
+            },
+            {
+              "key": "D",
+              "text": "The direction of travel held throughout the journey",
+              "correct": false,
+              "explanation": "Direction plays no part — these are scalar averages.",
+              "misconception": "vector smuggled in"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "noteAssets": {
+    "glossary": [
+      {
+        "term": "speed",
+        "definition": "How far an object travels every second; a scalar quantity with magnitude but no direction.",
+        "firstLesson": 1
+      },
+      {
+        "term": "scalar",
+        "definition": "A quantity that has magnitude but no direction.",
+        "firstLesson": 1
+      },
+      {
+        "term": "average speed",
+        "definition": "The total distance moved divided by the total time taken for a journey.",
+        "firstLesson": 1
+      }
+    ],
+    "workedExample": {
+      "prompt": "A hiker walks 2,400 metres in 30 minutes. Use the average speed relationship to find the hiker's average speed in metres per second.",
+      "steps": [
+        "Total distance moved = 2,400 m.",
+        "Total time taken = 30 minutes = 30 × 60 = 1,800 s.",
+        "average speed = distance moved ÷ time taken = 2,400 ÷ 1,800.",
+        "2,400 ÷ 1,800 = 1.333…, so round to two decimal places."
+      ],
+      "finalAnswer": "The hiker's average speed is about 1.33 m/s."
+    }
+  }
+}

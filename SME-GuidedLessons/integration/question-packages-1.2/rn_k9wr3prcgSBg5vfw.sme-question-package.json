@@ -1,0 +1,247 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_k9wr3prcgSBg5vfw",
+    "corpusVersion": "sme-revision-notes-igcse-physics-19-2026-09-17",
+    "sourceLayerSha256": "67e22e28e354a318bb88186774f6a9fe2762cab9759e1bffedacdb7fa3da7ab2",
+    "pinnedRef": "ce08e1386012be1af4293a3ef9b3e95d7dbb9416"
+  },
+  "packageId": "igcse-physics::rn_k9wr3prcgSBg5vfw",
+  "subject": "igcse-physics",
+  "questions": [
+    {
+      "id": "rn_k9wr3prcgSBg5vfw::L1::Q1",
+      "moduleId": "rn_k9wr3prcgSBg5vfw::L1",
+      "stem": "Which statement defines the speed of an object?",
+      "misconceptionClass": "speed definition",
+      "options": [
+        {
+          "key": "A",
+          "text": "The distance an object travels every second",
+          "correct": true,
+          "explanation": "Speed counts distance covered per second, with no direction attached.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "The direction an object moves in every second",
+          "correct": false,
+          "explanation": "Direction is the property of a vector; speed deliberately ignores it.",
+          "misconception": "vector smuggled in"
+        },
+        {
+          "key": "C",
+          "text": "The force an object exerts every second",
+          "correct": false,
+          "explanation": "Force is a different quantity altogether and plays no part in the definition.",
+          "misconception": "force confused"
+        },
+        {
+          "key": "D",
+          "text": "The total journey length regardless of time taken",
+          "correct": false,
+          "explanation": "Distance alone ignores the time; speed always brings the second dimension in.",
+          "misconception": "distance alone"
+        }
+      ]
+    },
+    {
+      "id": "rn_k9wr3prcgSBg5vfw::L1::Q2",
+      "moduleId": "rn_k9wr3prcgSBg5vfw::L1",
+      "stem": "Why is speed described as a scalar quantity?",
+      "misconceptionClass": "scalar vs vector",
+      "options": [
+        {
+          "key": "A",
+          "text": "It has magnitude but no direction",
+          "correct": true,
+          "explanation": "Scalar means size only; speed says how fast, never which way.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "It has direction but no magnitude",
+          "correct": false,
+          "explanation": "That pairing is backwards; a direction without a size describes nothing physical here.",
+          "misconception": "definition flipped"
+        },
+        {
+          "key": "C",
+          "text": "It always points along the path of motion",
+          "correct": false,
+          "explanation": "Pointing is vector behaviour; speed carries no arrow at all.",
+          "misconception": "direction invented"
+        },
+        {
+          "key": "D",
+          "text": "It can only take negative values",
+          "correct": false,
+          "explanation": "Speeds are quoted as positive magnitudes on this course.",
+          "misconception": "sign confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_k9wr3prcgSBg5vfw::L1::Q3",
+      "moduleId": "rn_k9wr3prcgSBg5vfw::L1",
+      "stem": "How is the average speed across a whole journey calculated?",
+      "misconceptionClass": "average speed formula",
+      "options": [
+        {
+          "key": "A",
+          "text": "Total distance moved divided by total time taken",
+          "correct": true,
+          "explanation": "The average shares the whole distance out across the whole time.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Total distance moved multiplied by total time taken",
+          "correct": false,
+          "explanation": "Multiplying inflates the number; the relationship divides.",
+          "misconception": "operation flipped"
+        },
+        {
+          "key": "C",
+          "text": "Final speed added to the starting speed",
+          "correct": false,
+          "explanation": "Adding endpoint readings is not the journey-wide average.",
+          "misconception": "instantaneous confused"
+        },
+        {
+          "key": "D",
+          "text": "Total time taken divided by total distance moved",
+          "correct": false,
+          "explanation": "That is the reciprocal — it would answer hours per kilometre, not the speed.",
+          "misconception": "reciprocal formed"
+        }
+      ]
+    },
+    {
+      "id": "rn_k9wr3prcgSBg5vfw::L1::Q4",
+      "moduleId": "rn_k9wr3prcgSBg5vfw::L1",
+      "stem": "In the formula triangle for average speed, two quantities sit on the same horizontal line. What does that mean?",
+      "misconceptionClass": "formula triangle rule",
+      "options": [
+        {
+          "key": "A",
+          "text": "They are multiplied together",
+          "correct": true,
+          "explanation": "Same-line neighbours multiply; the covered corner then leaves a division instead.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "They are divided",
+          "correct": false,
+          "explanation": "Division belongs to the stacked pair, not the shared line.",
+          "misconception": "rule swapped"
+        },
+        {
+          "key": "C",
+          "text": "They are added together",
+          "correct": false,
+          "explanation": "Nothing in the triangle is ever added; it only stores the relationship's shape.",
+          "misconception": "operation invented"
+        },
+        {
+          "key": "D",
+          "text": "They cancel each other out",
+          "correct": false,
+          "explanation": "Cancellation is an algebra step, not a triangle rule.",
+          "misconception": "cancellation invented"
+        }
+      ]
+    },
+    {
+      "id": "rn_k9wr3prcgSBg5vfw::L1::Q5",
+      "moduleId": "rn_k9wr3prcgSBg5vfw::L1",
+      "stem": "A hiker averages 2.0 m/s and a bee 4.5 m/s. What kind of value is each figure?",
+      "misconceptionClass": "average over a journey",
+      "options": [
+        {
+          "key": "A",
+          "text": "The total distance covered divided by the total time taken",
+          "correct": true,
+          "explanation": "Both figures are journey-wide averages, exactly what the relationship delivers.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "The speed measured at the end of the journey only",
+          "correct": false,
+          "explanation": "An ending reading is instantaneous and says nothing about the whole trip.",
+          "misconception": "final reading only"
+        },
+        {
+          "key": "C",
+          "text": "The largest speed reached at any single moment",
+          "correct": false,
+          "explanation": "Peaks and averages differ; the bee's top sprint exceeds 4.5 m/s.",
+          "misconception": "peak confused"
+        },
+        {
+          "key": "D",
+          "text": "The direction of travel held throughout the journey",
+          "correct": false,
+          "explanation": "Direction plays no part — these are scalar averages.",
+          "misconception": "vector smuggled in"
+        }
+      ]
+    },
+    {
+      "id": "rn_k9wr3prcgSBg5vfw::L1::Q6",
+      "moduleId": "rn_k9wr3prcgSBg5vfw::L1",
+      "stem": "State, in words, the relationship used to work out how fast an object moves across a whole journey.",
+      "misconceptionClass": "average speed equation recall",
+      "kind": "recall",
+      "modelAnswer": "average speed = total distance moved ÷ total time taken.",
+      "keywords": [
+        "average",
+        "speed",
+        "distance",
+        "time"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_k9wr3prcgSBg5vfw::L1::Q7",
+      "moduleId": "rn_k9wr3prcgSBg5vfw::L1",
+      "stem": "A hiker covers a six-kilometre trail in ninety minutes. Name the single quantity that summarises how fast the hiker moved overall.",
+      "misconceptionClass": "average vs instantaneous recall",
+      "kind": "recall",
+      "modelAnswer": "The hiker's average speed — the total distance moved divided by the total time taken.",
+      "keywords": [
+        "average",
+        "speed"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_k9wr3prcgSBg5vfw::L1::Q8",
+      "moduleId": "rn_k9wr3prcgSBg5vfw::L1",
+      "stem": "Explain why a quantity that has a magnitude but no direction cannot be classed as a vector.",
+      "misconceptionClass": "scalar classification",
+      "kind": "explain-why",
+      "modelAnswer": "Because a vector must carry both magnitude and direction; a quantity with magnitude alone is a scalar, and speed is exactly such a quantity.",
+      "keywords": [
+        "scalar"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_k9wr3prcgSBg5vfw::L1::Q9",
+      "moduleId": "rn_k9wr3prcgSBg5vfw::L1",
+      "stem": "A car covers 120 kilometres in one and a half hours. Calculate how fast it moves.",
+      "misconceptionClass": "applying the average speed relationship",
+      "kind": "application",
+      "modelAnswer": "average speed = 120 km ÷ 1.5 h = 80 km/h.",
+      "keywords": [
+        "80"
+      ],
+      "options": []
+    }
+  ]
+}
