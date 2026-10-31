@@ -1077,6 +1077,34 @@ E-ID they correct)*
   same mechanism, longer tail — recorded here, not as a new lesson).
   Errata filed: none new.
 
+- **R-017** (2026-10-31, T-PARSE-YCH12-2 POLISH-CONT-V2-8, YCH12 SB2 v2 polish
+  completion): pages parsed n/a (polish grind + landing); chunks unchanged
+  **1406** (v2 = corpus of record); validation ALL CHECKS PASSED post-merge
+  AND re-run green against the repo copy (v2 grammar, EP 10/10,
+  by_design_gaps preserved (5)); LLM polish R1-v2 CLOSED: 801 staged,
+  cumulative **748 applied** (748 flagged, 743 text changed), 53 rejected
+  (guard; raws in evidence), 64 error-cum-429 (all retried to terminal;
+  **801/801 done, todo 0 — the grind is COMPLETE**, no resumable ids for
+  the first time since staging); this session 13 windows: 9 clean-exit
+  probe windows against a **~56-minute full closure** (the wall was
+  already shut at session open), then the crack — +27/+29/+28/+1 records
+  (session +73 ok net-new, 675->748), the final id
+  `ych2_v2_u17_c0_pdf231_1131` OK on the first clear probe of window 13.
+  Recovery: reset #12, mirror survived / workspace rebuilt from the
+  repo-resident env template + reseed.sh — fourth consecutive reset
+  recovered with zero tooling recreated from memory. Baseline check found
+  **CONT-V2-7 already landed by a parallel session of the same lane**
+  (bfcb09ad: 675/801, todo 78) — round re-scoped to completion (the final
+  78) instead of a repeat; sparse-checkout re-applied non-cone after a
+  parallel maths session had reconfigured cone-mode on the shared mirror;
+  31 commits landed on main between fetches (ZNotes import PR #259 et
+  al.), all byte-disjoint from the lane's paths. Landing end-to-end
+  resident chain: reseed → merge (748/743, anchor 0 drift) → reconcile
+  ALL PASS (net-new 73, overlap 675 re-applied from pristine, R1-R6
+  clean) → audit 0 Unicode-unit regressions → validate ALL CHECKS PASSED
+  ×2. Deviations from playbook: none. Lessons appended: none new. Errata
+  filed: none new.
+
 ```
 - **R-<seq>** (<date>, <TASK-ID>, <book>): pages parsed N/N; chunks N;
   content types N; offset N (3-way confirmed); validation ALL CHECKS PASSED
@@ -1097,6 +1125,17 @@ E-ID they correct)*
   a parallel lane landed the ych12 r0 serving package between fetches
   (byte-disjoint, no conflict). Ledgers: CATALOG row 12 + §3.6 updated;
   lane README + worklog same commit.
+
+- **2026-10-31 — v1.14 (T-PARSE-YCH12-2 POLISH-CONT-V2-8):** YCH12 v2 polish
+  grind **COMPLETE** (R-017: cumulative **748/801 applied**, 53 rejected,
+  todo 0 — every staged id terminal; net-new +73 this landing behind a
+  ~56-min full closure then a 3-window crack, the final id OK on the
+  first clear probe; anchor 0 drift, reconciliation + audit + validator
+  all green ×2). Reset #12 recovered from the repo-resident tooling,
+  fourth consecutive zero-memory recovery; CONT-V2-7 found already landed
+  by a parallel session of the same lane — round re-scoped to completion
+  (the final 78). Ledgers: CATALOG row 12 + §3.6 updated; lane README
+  (grind status -> COMPLETE) + worklog same commit.
 
 - **2026-10-30 — v1.12 (T-PARSE-YCH12-2 POLISH-CONT-V2-6):** YCH12 v2 polish
   grind continued and landed (R-015: cumulative **624/801 applied**, net-new
