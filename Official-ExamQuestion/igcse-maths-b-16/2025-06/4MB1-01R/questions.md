@@ -1024,16 +1024,16 @@ h cm H F G D X A C Y B A cube ABCDEFGH of side 6 cm is placed inside a hollow co
 
 **Mark scheme answer**
 
-> [ AC =] 62 + 62 ⎡⎣= 72 = 6 2 = 8.4852...⎤⎦ oe
+> [ AC =] $6^2$ + $6^2$ ⎡⎣= 72 = 6 2 = 8.4852...⎤⎦ oe
 > M1 A correct method to find AC or
 > AC
 > ⎡1 ⎤1 2
-> or ⎢ AC = ⎥ 6 + 62 ⎡⎣ = 3 2 = 4.2426...⎤⎦ May be seen embedded when finding another length
+> or ⎢ AC = ⎥ 6 + $6^2$ ⎡⎣ = 3 2 = 4.2426...⎤⎦ May be seen embedded when finding another length
 > ⎣2 ⎦2
 > eg [ XA = ] "7 2 "− 6 2 where "7 2 " is the candidate’s value for XC
 > This mark and the following mark can be awarded in either
 > order
-> [ XC =] 134 − 62 M1 A correct method to find XC or
+> [ XC =] 134 − $6^2$ M1 A correct method to find XC or
 > XC
 > ⎡ = 98 = 7 2 = 9.8994....⎤ oe
 > ⎣ ⎦ May do in two steps using trigonometry
@@ -1096,17 +1096,17 @@ h cm H F G D X A C Y B A cube ABCDEFGH of side 6 cm is placed inside a hollow co
 > ⎢⎣ 2 XY = ⎥⎦ h − 6 " 3 + 3 " or
 > 2
 > h M1 a correct method to find XC
-> [ XC =] "32 + 32 " + " 32 + 32 "
+> [ XC =] "3$^2$ + 3$^2$ " + " 3$^2$ + 3$^2$ "
 > h−6
 > ⎛ h ⎞
 > 2 M1 A fully correct equation set up to enable h to be found
-> 134 = 62 + ⎜ " 32 + 32 + 32 + 32 " ⎟ (which may be a correct 3 term quadratic)
+> 134 = $6^2$ + ⎜ " 3$^2$ + 3$^2$ + 3$^2$ + 3$^2$ " ⎟ (which may be a correct 3 term quadratic)
 > ⎝ h−6 ⎠
-> 13h2 − 372h + 1440 = 0
+> 13$h^2$ − 372h + 1440 = 0
 > 24 A1 dep on the first 3 method marks
 > awrt 24 need to discard the 4.61(5…)
 
-- **(5)** [ AC =] 62 + 62 ⎡⎣= 72 = 6 2 = 8.4852...⎤⎦ oe
+- **(5)** [ AC =] $6^2$ + $6^2$ ⎡⎣= 72 = 6 2 = 8.4852...⎤⎦ oe
 
 
 ## Question 26 (8 marks)

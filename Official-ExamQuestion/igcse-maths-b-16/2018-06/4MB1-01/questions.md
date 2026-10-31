@@ -737,9 +737,9 @@ B Diagram NOT accurately drawn 120q (x + 3) cm 2x cm A (3x + 1) cm C The diagram
 **Mark scheme answer**
 
 > 2 2 2 M1
-> 9x2 + 6x + 1 = x² + 6 x + 9 + 4 x² + 2 x² + 6 x Expand brackets (condone M1
+> $9x^2$ + 6x + 1 = x² + 6 x + 9 + 4 x² + 2 x² + 6 x Expand brackets (condone M1
 > at most one error)
-> x 2 − 3x − 4 =0 Simplifying to TQ M1
+> $x^2$ − 3x − 4 =0 Simplifying to TQ M1
 > ( x + 1)( x − 4 ) =
 > Solving trinomial quadratic M1
 > marking rules

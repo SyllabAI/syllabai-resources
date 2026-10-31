@@ -439,9 +439,9 @@ Calculate the value, to 4 significant figures, of θ Show your working.
 
 > 1 2 3 M1 uses a trigonometric method to calculate an angle.
 > tan ( x ) = oe or sin ( x ) = oe or
-> 2 2 5 ft their42 + 22 in place of 5 when using sin or cos
+> 2 2 5 ft their $4^2$ + $2^2$ in place of 5 when using sin or cos
 > ( ) − 2 oe
-> 42 + 2 5 Allow sin ( x ) = oe or cos ( x ) =
+> $4^2$ + 2 5 Allow sin ( x ) = oe or cos ( x ) =
 > 4 oe
 > cos ( x ) = oe or cos ( x ) = 2 5 2 5
 > 2 5 2× 4× 2 5 Note that measuring the angle is not an acceptable method
@@ -642,20 +642,20 @@ find the length, in cm to 3 significant figures, of OC a b c Sine Rule sin A sin
 
 > 1 4 M1 allow awrt 64.2
 > ×10 ×10sin ∠BOM = 45 or ∠BOM = 64.158...
-> ⎛ "64.158..." ⎞ M1 Allow for BM = 10.62… or BM = 112.8…
+> ⎛ "64.158..." ⎞ M1 Allow for BM = 10.62… or $BM^2$ = 112.8…
 > BM = 2 × 10 sin or
 > ⎝ 2 ⎠ ft their ∠BOM
-> BM = 10 + 10 − 2 ×10 ×10 × cos"64.158..." or
+> $BM^2$ = $10^2$ + $10^2$ − 2 ×10 ×10 × cos"64.158..." or
 > 2 2
 > =
 > ⎛ 180 − "64.158..." ⎞ sin("64.158...")
 > sin 2 
 > ⎛3 ⎞
 > ⎛3 ⎞ M1 for finding length OC awrt 78.8
-> OC 2 = 102 + ⎜ × " BM " ⎟ − 2 ×10 × ⎜ × " BM " ⎟ × cos (" ∠OBM ") ft their values for BM and angles provided correctly
+> $OC^2$ = $10^2$ + ⎜ × " BM " ⎟ − 2 ×10 × ⎜ × " BM " ⎟ × cos (" ∠OBM ") ft their values for BM and angles provided correctly
 > ⎝4 ⎠ ⎝4 ⎠
 > labelled or from correct working
-> or OC 2 = 102 + ("7.96...") − 2 ×10 × ("7.96...") × cos ("57.92...") or
+> or $OC^2$ = $10^2$ + ("7.96...")$^2$ − 2 ×10 × ("7.96...") × cos ("57.92...") or
 > 2 180 − "64.15..."
 > ⎛1 ⎞ ⎛1 ⎞ Note ∠OMB = ∠OBM = = 57.92... or
 > OC = 10 + ⎜ × " BM " ⎟ − 2 ×10 × ⎜ × " BM " ⎟ × cos (" ∠OMB ")
@@ -664,11 +664,11 @@ find the length, in cm to 3 significant figures, of OC a b c Sine Rule sin A sin
 > ⎛ 10 × sin ("64.15...") ⎞ = 57.92... but
 > ∠OMB = ∠OBM = sin 
 > −1
-> or OC 2 = 102 + ("2.65...") − 2 ×10 × ("2.65...") × cos ("57.92...") or BM 
+> or $OC^2$ = $10^2$ + ("2.65...")$^2$ − 2 ×10 × ("2.65...") × cos ("57.92...") or BM 
 > ⎛1 ⎞ ⎛1
 > 
 > the angle ∠OMB alone does not imply the mark
-> OC 2 = 102 − ⎜ × "10.62..." ⎟ + ⎜ × "10.62..." 2 ⎠ ⎝ 4 ⎠
+> $OC^2$ = $10^2$ − ⎜ × "10.62..." ⎟ + ⎜ × "10.62..." 2 ⎠ ⎝ 4 ⎠
 > 8.88 A1 wr accept answer in the range 8.87 - 8.90
 
 - **(4)** 1 4 M1 allow awrt 64.2

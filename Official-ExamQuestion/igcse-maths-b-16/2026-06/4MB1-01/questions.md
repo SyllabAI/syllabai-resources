@@ -482,7 +482,7 @@ E Diagram NOT accurately drawn F D 10 cm C 13 cm A 4 cm B The diagram shows a ri
 
 ### 17 [4]
 
-The diagram shows a right triangular prism ABCDEF AB = 4 cm BC = 13 cm FB = 10 cm FAB 90° Calculate the volume, in cm³ to the nearest integer, of the triangular prism cm³
+The diagram shows a right triangular prism ABCDEF AB = 4 cm BC = 13 cm FB = 10 cm ∠FAB = 90° Calculate the volume, in cm³ to the nearest integer, of the triangular prism cm³
 
 > *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
 > Labels in the original figure: E, F, D, C, A, B · Figure values: 10, 13, 4.
@@ -492,12 +492,12 @@ The diagram shows a right triangular prism ABCDEF AB = 4 cm BC = 13 cm FB = 10 c
 
 **Mark scheme answer**
 
-> 102 − 42 [ = 84] oe 4 M1 correct use of Pythagoras theorem to find AF2
-> eg 102 = AF 2 + 42
+> $10^2$ − $4^2$ [ = 84] oe 4 M1 correct use of Pythagoras theorem to find $AF^2$
+> eg $10^2$ = $AF^2$ + $4^2$
 > cos ∠ABF = [∠ABF = 66.421...] or correct use of trig to find an angle
 > sin ∠AFB = [∠AFB = 23.578...]
 > M1 Fully correct method to find AF
-> [ AF =] 102 − 42 ⎡⎣= 84 = 9.165....⎤⎦ ft their ∠ABF or ∠AFB if it comes from correct
+> [ AF =] $10^2$ − $4^2$ ⎡⎣= 84 = 9.165....⎤⎦ ft their ∠ABF or ∠AFB if it comes from correct
 > [ AF =] 4 × tan ("66.421...") or [ AF =]10 × sin ("66.421...") working or is clearly labelled
 > May be seen as part of an expression for the area eg
 > [ AF =] or [ AF =]10 × cos ("23.578...")
@@ -506,7 +506,7 @@ The diagram shows a right triangular prism ABCDEF AB = 4 cm BC = 13 cm FB = 10 c
 > 4 × sin ("66.421...")
 > [ AF =] or
 > sin ("23.578...")
-> [ AF =] 102 + 42 − 2 × 4 ×10cos ("66.421...")
+> [ AF =] $10^2$ + $4^2$ − 2 × 4 ×10cos ("66.421...")
 > 1 1 M1 a correct method to find the volume.
 > × 4 × " 84 "×13 or × 4 × "9.165..."×13 ft their AF, ∠ABF or ∠AFB if they come from
 > 2
@@ -515,7 +515,7 @@ The diagram shows a right triangular prism ABCDEF AB = 4 cm BC = 13 cm FB = 10 c
 > or × " 84 "×10 × sin ("23.578...") ×13
 > 238 A1 allow any value between 238 and 239 inclusive
 
-- **(4)** 102 − 42 [ = 84] oe 4 M1 correct use of Pythagoras theorem to find AF2
+- **(4)** $10^2$ − $4^2$ [ = 84] oe 4 M1 correct use of Pythagoras theorem to find $AF^2$
 
 
 ## Question 18 (5 marks)
@@ -719,7 +719,7 @@ Diagram NOT accurately drawn O B 8 cm 30° D C In the diagram B and C are points
 
 ### 22 [5]
 
-In the diagram B and C are points on a circle centre O The point D is such that DBO is a straight line. DC is the tangent to the circle at C CO = 8 cm and ODC 30° The region inside OCD but outside of the sector OBC is shaded. Calculate the area, in cm² to 3 significant figures, of this shaded region. Show all your working cm²
+In the diagram B and C are points on a circle centre O The point D is such that DBO is a straight line. DC is the tangent to the circle at C CO = 8 cm and ∠ODC = 30° The region inside OCD but outside of the sector OBC is shaded. Calculate the area, in cm² to 3 significant figures, of this shaded region. Show all your working cm²
 
 > *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
 > Labels in the original figure: O, B, D, C · Figure values: 8, 30°.

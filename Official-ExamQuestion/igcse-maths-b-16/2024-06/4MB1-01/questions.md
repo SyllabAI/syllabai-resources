@@ -69,12 +69,12 @@ The diagram shows trapezium ABCD ABC BAD AD = 12cm CD = 8.7 cm BC = 6cm Calculat
 > −
 > 3 M1 for a correct expression involving AB and no
 > other unknowns or [AB=] 6.3
-> Or 8.72 = AB 2 + (12 − 6 )
+> Or $8.7^2$ = $AB^2$ + (12 − 6 )$^2$
 > Allow using their h = (12 − 6 ) if marked on their
 > ⎛ 6 ⎞ diagram providing h is less than 8.7
 > Or cos ADC = [ = 46.39...] and
 > ⎝ 8.7 ⎠ A correct Pythagoras calculation, eg or a complete
-> AB 2 = 62 + 8.72 − 2 × 6 × 8.7 × cos"46.39..." method to find AB using trigonometry
+> $AB^2$ = $6^2$ + $8.7^2$ − 2 × 6 × 8.7 × cos"46.39..." method to find AB using trigonometry
 > ⎛ 6 ⎞
 > Or cos ADC = [ = 46.39...] and
 > ⎝ 8.7 ⎠
@@ -398,13 +398,13 @@ The diagram shows the circle ABC with centre O and the circle DEF with centre O 
 **Mark scheme answer**
 
 > 3 M1 for realising tangent is 90° to radius and use Pythagoras
-> 82 + r 2 = R 2 OR OD 2 = OA2 − 82 correctly to form an equation
+> $8^2$ + $r^2$ = $R^2$ OR $OD^2$ = $OA^2$ − $8^2$ correctly to form an equation
 > Allow any value for either (r or R) or (OD or OA)
-> Area = π ( 82 + r 2 ) − π r 2 or M1 dep on M1 for substituting in for R2 or r2 to eliminate one
+> Area = π ( $8^2$ + $r^2$ ) − π$r^2$ or M1 dep on M1 for substituting in for $R^2$ or $r^2$ to eliminate one
 > variable
-> π ( R 2 ) − π ( R 2 − 82 ) oe Or full working with their (r or R) or (OD or OA) to find the
+> π ( $R^2$ ) − π ( $R^2$ − $8^2$ ) oe Or full working with their (r or R) or (OD or OA) to find the
 > shaded area
-> 64π A1 cao Allow 82 π dep on both previous M marks
+> 64π A1 cao Allow $8^2$π dep on both previous M marks
 > NB an answer of 64π will score full marks (an awrt 201 scores
 > 2 marks only)
 

@@ -103,20 +103,19 @@ Diagram NOT 16‑sided accurately drawn polygon B 5 cm 5 cm P A C Figure 1 Figur
 > AC M1 for obtaining an eq containing AC or AC
 > cos'22.5' = 2 or
 > 5 give bod if labelled as other variable eg. x
-> AC 2 = 52 + 52 − 2 ( 5 )( 5 ) cos (180 − 2 × '22.5' ) or ft their exterior angle, must be < 90 (correct
+> AC$^2$ = $5^2$ + $5^2$ − 2 ( 5 )( 5 ) cos (180 − 2 × '22.5' ) or ft their exterior angle, must be < 90 (correct
 > angle ∠ABC = 135°
 > sin'22.5' sin(180 − 2 × '22.5')
 > = NB allow if the final answer rounds to 9.2 (2sf),
 > 5 AC with no incorrect working seen.
 > AC = 2(5cos'22.5') or M1 dep for an expression for AC
 > NB allow if the final answer rounds to 9.2 (2sf),
-> AC = 52 + 52 − 2 ( 5 )( 5 ) cos (180 − 2 × '22.5' ) or with no incorrect working seen.
+> AC = $5^2$ + $5^2$ − 2 ( 5 )( 5 ) cos (180 − 2 × '22.5' ) or with no incorrect working seen.
 > 5sin'135'
 > AC =
 > sin 22.5
 > 9.24 4 A1 accept awrt 9.23 or 9.24 accept answer
 > shown on diagram
-> Total 4 marks
 
 - **(4)** 360 M1 for calculating the exterior angle of 16-sided
 
