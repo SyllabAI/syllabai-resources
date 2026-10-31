@@ -1,0 +1,48 @@
+{
+  "task": "T-VIDEOMAP-P1",
+  "generator": "1.1.0",
+  "startedUtc": "2026-10-31T05:46:51.319Z",
+  "generatedUtc": "2026-10-31T05:47:45.810Z",
+  "wallSeconds": 54.5,
+  "sitemap": {
+    "url": "https://cognitoedu.org/sitemap-subtopics.xml",
+    "sha256": "a9be85d9c0eaf5fc0de13459d69148327a86b4b47231538b4f2cced6e8db1c15",
+    "urls": 12049,
+    "status": 200
+  },
+  "subtopics": {
+    "attempted": 1166,
+    "ok": 1162,
+    "fail": 4,
+    "cacheHits": 1162,
+    "failures": [
+      {
+        "url": "https://cognitoedu.org/coursesubtopic/b3-alevel-cie_HsWgmekM",
+        "status": null,
+        "error": "no-fetch mode and page not cached"
+      },
+      {
+        "url": "https://cognitoedu.org/coursesubtopic/m2-gcse-cie-h_2.55",
+        "status": null,
+        "error": "no-fetch mode and page not cached"
+      },
+      {
+        "url": "https://cognitoedu.org/coursesubtopic/m2-gcse-iedexcel-h_2.55",
+        "status": null,
+        "error": "no-fetch mode and page not cached"
+      },
+      {
+        "url": "https://cognitoedu.org/coursesubtopic/m2-gcse-iedexcel-h_2.61",
+        "status": null,
+        "error": "no-fetch mode and page not cached"
+      }
+    ],
+    "concurrency": 6,
+    "delayMs": 150
+  },
+  "lessons": {
+    "attempted": 988,
+    "mode": "both"
+  },
+  "baseCommit": "652ca2d4e7709647cfd68040a56d817ae985fc5e"
+}
