@@ -39,8 +39,22 @@ diff 0 drift; 0 Unicode regressions)
 v2 hub course ial-chemistry-17 (matches the SME-ExamQuestion lane name) · specKey
 `pearson-edexcel/international-a-level/chemistry/ych11` — hub wiring lands at the serving lane.
 
+
+## SERVING (T-BOOK-SERVE, 2026-10-31 — operator order trace 1a18fe1f9cace659)
+
+- **r0 serving package LANDED**: `manifest.json` (book-slices-manifest-v2; unit =
+  TOPIC 1–10) + `chapters/u{t}_c{n}.pdf` (35 lesson slices, 1A–10D) +
+  `units/u{t}_practice.pdf` (10 per-topic EXAM PRACTICE banks as `unit_exam`,
+  incl. T9's 4pp) + root `student-book-1.pdf` (blob-reuse of source/).
+  THINKING BIGGER pages honestly unsliced (no mount — the EP bank is the
+  question surface). Receipt: `pipeline/slices-gen-receipt.json`.
+- documentId `5fe299af-08a7-53e1-85fc-c914e997062d` (derived ibm-docling@v3 of the archived bytes,
+  sha256 `b17ea91f…7927`).
+- Remaining: hub multi-book law (v2 PR) → DB apply + T-C20 flip (operator-gated,
+  Neon MAIN paused).
+
 ## Next steps
 
 1. Parse lane per `books/README.md` §5 phases 0–10 (quality gate: `../../PARSE_STANDARD.md` 8 points).
-2. Serving lane (TEXTBOOK doc + book_chapters + slices manifest + T-C20 flip).
+3. Serving lane — ARCHIVE-SIDE r0 LANDED 2026-10-31 (T-BOOK-SERVE, trace 1a18fe1f9cace659; see the SERVING section below); remaining: hub multi-book wiring (v2 PR) + DB apply + T-C20 flip.
 3. Update `books/CATALOG.md` tracker in the same commit as each state change.

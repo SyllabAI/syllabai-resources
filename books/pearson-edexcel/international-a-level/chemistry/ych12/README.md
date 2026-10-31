@@ -55,6 +55,20 @@ cadence, landing on the repo-resident tooling end-to-end). SB1 = parsed in the s
 v2 hub course ial-chemistry-17 · specKey
 `pearson-edexcel/international-a-level/chemistry/ych12` — hub wiring lands at the serving lane.
 
+
+## SERVING (T-BOOK-SERVE, 2026-10-31 — operator order trace 1a18fe1f9cace659)
+
+- **r0 serving package LANDED**: `manifest.json` (book-slices-manifest-v2; unit =
+  TOPIC 11–20) + `chapters/u{t}_c{n}.pdf` (19 lesson slices, 11A–20A) +
+  `units/u{t}_practice.pdf` (10 per-topic EXAM PRACTICE banks as `unit_exam`) +
+  root `student-book-2.pdf` (blob-reuse of source/). THINKING BIGGER pages
+  honestly unsliced. Receipt: `pipeline/slices-gen-receipt.json`.
+- documentId `c40f6853-a50c-5743-9a53-611ade397fba` (derived ibm-docling@v3 of the archived bytes,
+  sha256 `7b1bc6cf…be18` — suffix abbreviation corrected per E-008 companion
+  note).
+- Remaining: hub multi-book law (v2 PR) → DB apply + T-C20 flip (operator-gated,
+  Neon MAIN paused).
+
 ## Next steps
 
 1. ~~Resume the formula rescue (182 orphans on 75 pages)~~ — DONE as labor
@@ -73,5 +87,5 @@ v2 hub course ial-chemistry-17 · specKey
    quota-walled burst-harvest, foreground windows only (L-027 —
    background/nohup grind loops are reaped at tool-call end); wall closures
    vary (~20 min cadence 2026-10-27, 51+ min then ~10–12 min 2026-10-28).
-3. Serving lane (TEXTBOOK doc + book_chapters + slices manifest + T-C20 flip).
+3. Serving lane — ARCHIVE-SIDE r0 LANDED 2026-10-31 (T-BOOK-SERVE, trace 1a18fe1f9cace659; see the SERVING section below); remaining: hub multi-book wiring (v2 PR) + DB apply + T-C20 flip.
 4. Update `books/CATALOG.md` tracker in the same commit as each state change.

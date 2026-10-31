@@ -106,6 +106,27 @@ parallel-lane protocol; blob-compare before push, genuine delta only).
   validator ALL CHECKS PASSED post-polish — full record in
   `parsed/README.md` polish section. Chain scripts of record replaced in
   the completion commit (`books/README.md` E-006).
+## SERVING (T-BOOK-SERVE, 2026-10-31 — operator order trace 1a18fe1f9cace659)
+
+- **r0 serving packages LANDED** (no-parse shelf law — "we dont need parsing for
+  book pdf in book shelf"): per-book manifests `manifest-sb1.json` +
+  `manifest-sb2.json` (book-slices-manifest-v2; the MULTI-BOOK MANIFEST LAW — one
+  manifest file per book inside the 2-book lane; unit = TOPIC per the book's own
+  structure) + chapter slices under per-book scope dirs `sb1/chapters/u{t}_c{n}.pdf`
+  (11) and `sb2/chapters/u{t}_c{n}.pdf` (13) + root `student-book-1.pdf` /
+  `student-book-2.pdf` (blob-reuse of source/). Receipt:
+  `pipeline/slices-gen-receipt.json`.
+- documentIds (derivedDocumentId law, checksum|ibm-docling|v3, over the ARCHIVED
+  bytes): SB1 `7e6891e1-e41c-5eaf-8aa4-003baffc3907` (sha256 `aa1aed60…015d0`), SB2
+  `a767d89e-d678-5b75-9513-1b325915c189` (sha256 **`faf4c467…f988`** — see `books/README.md` E-008;
+  differs from the `f8f3fc62…ce82d` pin at equal byte size).
+- Anchors: SB1 11/11 + SB2 13/13 EXAM PRACTICE `questionsStartPage` (per-chapter
+  EP banks ride the 133g in-chapter jump). `unit_exam`: none (both books anchor
+  EP per chapter).
+- Remaining: hub multi-book law (v2 PR: registry map + per-book manifest
+  resolution + Topic labels) → DB apply + T-C20 flip (operator-gated, Neon MAIN
+  paused).
+
 - Pipeline evidence: `pipeline/METHOD_AND_FINDINGS_SB2.md`,
   `pipeline/worklog_sb2.md`, `pipeline/evidence/parse_sb2.log`,
   `pipeline/evidence/llm_repair_ids_sb2.json`, `pipeline/docling_pages_sb2/`

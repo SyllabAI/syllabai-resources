@@ -710,6 +710,19 @@ rm -f "$GIT_INDEX_FILE"; unset GIT_INDEX_FILE
   report from the landed copy and the merge preserves existing keys —
   toolled as `ych12_v2_reseed.sh`).
 
+- **E-008** (2026-10-31, T-BOOK-SERVE IAL r0): the YPH11 SB2 archive copy —
+  byte-size 48,278,974 B matches the E-004 re-derivation pin exactly, but the
+  sha256 of the ARCHIVED bytes is `faf4c467…f988`, not the `f8f3fc62…ce82d`
+  recorded in the lane README + `book_structure_ial_physics_sb2.py` (same-size
+  different-bytes: a same-size re-derivation landed without a digest refresh,
+  or a transcription slip in the pin). Evidence: git blob sha1 `0447d42fc2f4`
+  (tip tree entry, byte-identity), sha256 over the fetched bytes. Disposition:
+  FIXED HERE (additive) — the serving manifest of record pins the ARCHIVED
+  bytes (documents.checksum law: the digest of what the archive host actually
+  serves); CATALOG §3.4 source row corrected in the same commit. Companion
+  note: the CATALOG §3.6 YCH12 digest suffix abbreviation read `…618` where
+  the archived digest ends `…be18` (prefix + byte size + git blob sha1
+  `67fc1df868f1` agree) — corrected in the same commit.
 *(template for future entries; superseding entries must reference the
 E-ID they correct)*
 
@@ -1191,3 +1204,15 @@ E-ID they correct)*
   decision logs, post-mortems, audit verdict); seeded lesson ledger L-001…
   L-010; established self-improvement protocol (§9) and the temp-index
   commit convention (§5 phase 10).
+- **2026-10-31 — (T-BOOK-SERVE IAL r0, operator order trace 1a18fe1f9cace659):** the four
+  PARSED IAL volumes received their no-parse serving packages (YPH11 SB1+SB2,
+  YCH11, YCH12): 98 chapter/unit slice PDFs + 4 manifests under the multi-book
+  manifest law (one manifest file per book; unit = TOPIC for IAL; per-book
+  scope dirs `sb1/`/`sb2/` inside the 2-book lane) + root student-book PDFs by
+  blob-reuse + per-lane slices-gen receipts; documentIds via the
+  derivedDocumentId law over the ARCHIVED bytes (verified byte-identical to
+  the tip tree by git blob sha1 before derivation); E-008 filed (SB2 digest
+  discrepancy) and two CATALOG digest abbreviations corrected. Slice grammar
+  and receipt invariants mirror the 4PH1/4BI1 r0 class (anchors in-range,
+  ranges non-overlapping, unique chapterKeys). Deviations: none (serving
+  precedes the DB leg by design — honest no-serve until rows land).
