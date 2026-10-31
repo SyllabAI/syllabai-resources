@@ -1,0 +1,227 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "sme-question-package/1.2",
+  "title": "SME question-package v1.1 (R3 mixed check types; generation-union over 1.0)",
+  "description": "One file per source layer, R3 generation: identical to 1.0 except question ids may run to Q9 and each question gains an optional written-kind branch — kind in {recall, explain-why, application} with required modelAnswer, optional keywords, and an EMPTY options array; kind absent or 'mcq' keeps the 1.0 single-select MCQ shape byte-for-byte. The 110 untouched 1.0 packages validate unchanged under the union consts. draft-07, additionalProperties false throughout.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "format",
+    "adapter",
+    "source",
+    "packageId",
+    "subject",
+    "questions"
+  ],
+  "properties": {
+    "format": {
+      "enum": [
+        "sme-question-package/1.0",
+        "sme-question-package/1.1",
+        "sme-question-package/1.2"
+      ]
+    },
+    "adapter": {
+      "enum": [
+        "guided-lesson-0.1--hub-lesson-import-1.0",
+        "guided-lesson-0.5--hub-lesson-import-1.4",
+        "guided-lesson-0.6--hub-lesson-import-1.5"
+      ]
+    },
+    "source": {
+      "$ref": "#/definitions/sourceBlock"
+    },
+    "packageId": {
+      "type": "string",
+      "pattern": "^(igcse-chemistry|igcse-physics)::rn_[A-Za-z0-9]+$"
+    },
+    "subject": {
+      "enum": [
+        "igcse-chemistry",
+        "igcse-physics"
+      ]
+    },
+    "questions": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 45,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "moduleId",
+          "stem",
+          "misconceptionClass",
+          "options"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^rn_[A-Za-z0-9]+::L[1-5]::Q[1-9]$"
+          },
+          "moduleId": {
+            "type": "string",
+            "pattern": "^rn_[A-Za-z0-9]+::L[1-5]$"
+          },
+          "stem": {
+            "type": "string",
+            "minLength": 1
+          },
+          "misconceptionClass": {
+            "type": "string",
+            "minLength": 1
+          },
+          "options": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "key",
+                "text",
+                "correct",
+                "explanation",
+                "misconception"
+              ],
+              "properties": {
+                "key": {
+                  "enum": [
+                    "A",
+                    "B",
+                    "C",
+                    "D",
+                    "E"
+                  ]
+                },
+                "text": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "correct": {
+                  "type": "boolean"
+                },
+                "explanation": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "misconception": {
+                  "type": [
+                    "string",
+                    "null"
+                  ],
+                  "description": "Named misconception for distractors; null on the keyed correct option, preserved verbatim."
+                }
+              }
+            }
+          },
+          "kind": {
+            "enum": [
+              "mcq",
+              "recall",
+              "explain-why",
+              "application"
+            ]
+          },
+          "modelAnswer": {
+            "type": "string",
+            "minLength": 1
+          },
+          "keywords": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 20,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "description": "Case-insensitive whole-token auto-grade keys (tokenized with the same law as the learner text); generous synonym/inflection-bearing sets."
+          }
+        },
+        "if": {
+          "properties": {
+            "kind": {
+              "enum": [
+                "recall",
+                "explain-why",
+                "application"
+              ]
+            }
+          },
+          "required": [
+            "kind"
+          ]
+        },
+        "then": {
+          "required": [
+            "modelAnswer"
+          ],
+          "properties": {
+            "options": {
+              "maxItems": 0
+            },
+            "modelAnswer": {
+              "type": "string",
+              "minLength": 1
+            },
+            "keywords": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 20,
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        },
+        "else": {
+          "properties": {
+            "options": {
+              "minItems": 3,
+              "maxItems": 5
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "sourceBlock": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sourceFormat",
+        "noteId",
+        "corpusVersion",
+        "sourceLayerSha256",
+        "pinnedRef"
+      ],
+      "properties": {
+        "sourceFormat": {
+          "enum": [
+            "guided-lesson/0.1",
+            "guided-lesson/0.5",
+            "guided-lesson/0.6"
+          ]
+        },
+        "noteId": {
+          "type": "string",
+          "pattern": "^rn_[A-Za-z0-9]+$"
+        },
+        "corpusVersion": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourceLayerSha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "pinnedRef": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        }
+      }
+    }
+  }
+}
