@@ -1,0 +1,649 @@
+# R3-CHECK-TYPES S-B8 authoring data — part 1 (7 notes: 3wZ / 647 / DRQ / H6Z / HNX / KTZ / XJ8)
+# 4 written items per lesson, appended order [recall, recall, explain-why, application],
+# each KP-anchored (anchor.kp is 1-indexed into the lesson keyPoints of source-0.4).
+# Conventions of record: ASCII chemistry (manganese(IV) oxide; CuSO4; cm3; degrees Celsius),
+# modelAnswer full sentences, generous synonym/inflection-bearing keywords (case-insensitive
+# whole-token [a-z0-9]+ law, >=1 hit -> correct), keywords never tokens of their own stem.
+
+PART1 = {
+    "rn_3wZh9qRT7qFJn9QW": {
+        "lessons": [
+            {
+                "items": [
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 2},
+                        "stem": "State the piece of apparatus that connects the conical flask to the inverted measuring cylinder in the peroxide practical.",
+                        "misconceptionClass": "peroxide apparatus recall",
+                        "modelAnswer": "A delivery tube carries the oxygen gas from the flask to the inverted measuring cylinder.",
+                        "keywords": ["delivery", "tube", "carries"],
+                    },
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 5},
+                        "stem": "Name the four solid candidates that can be tested on hydrogen peroxide in this investigation.",
+                        "misconceptionClass": "candidate solids recall",
+                        "modelAnswer": "The candidates are manganese(IV) oxide, lead(II) oxide, iron(III) oxide and copper(II) oxide.",
+                        "keywords": ["manganese", "lead", "iron", "copper", "oxides"],
+                    },
+                    {
+                        "kind": "explain-why",
+                        "anchor": {"kp": 3},
+                        "stem": "Explain why the bung must be closed before the catalyst is added in the gas-volume experiment.",
+                        "misconceptionClass": "bung sealing explain",
+                        "modelAnswer": "Closing the bung first stops oxygen escaping, so all the gas made flows along the delivery tube into the measuring cylinder and the volume recorded in the fixed time is the true amount.",
+                        "keywords": ["oxygen", "escaping", "escape", "lost", "collected"],
+                    },
+                    {
+                        "kind": "application",
+                        "anchor": {"kp": 4},
+                        "stem": "A student tests copper(II) oxide and then repeats the run with iron(III) oxide. State the purpose of repeating the run with each solid.",
+                        "misconceptionClass": "repeat purpose application",
+                        "modelAnswer": "Repeating the experiment with different catalysts lets their gas volumes in the fixed time be compared, so the fastest candidate can be ranked fairly.",
+                        "keywords": ["compare", "compared", "comparison", "ranked", "fair"],
+                    },
+                ]
+            },
+            {
+                "items": [
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 1},
+                        "stem": "State why all the catalyst results are plotted on one graph.",
+                        "misconceptionClass": "shared graph recall",
+                        "modelAnswer": "All the results share one graph so the speeds of the different catalysts can be ranked against each other.",
+                        "keywords": ["rank", "ranked", "ranking", "speeds", "compared"],
+                    },
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 3},
+                        "stem": "On the shared graph, which reading identifies the fastest catalytic decomposition tested?",
+                        "misconceptionClass": "tallest reading recall",
+                        "modelAnswer": "The tallest reading on the graph marks the fastest catalytic decomposition tested.",
+                        "keywords": ["tallest", "highest", "peak"],
+                    },
+                    {
+                        "kind": "explain-why",
+                        "anchor": {"kp": 4},
+                        "stem": "Explain why every reading must share the same time window for the comparison to be fair.",
+                        "misconceptionClass": "fair window explain",
+                        "modelAnswer": "Each gas volume is measured over the same fixed time, so the readings differ only because of the catalysts; different windows would give longer runs an unfair advantage.",
+                        "keywords": ["fixed", "unfair", "advantage", "windows"],
+                    },
+                    {
+                        "kind": "application",
+                        "anchor": {"kp": 5},
+                        "stem": "One candidate solid gives a negligible gas reading on the shared graph. State what this shows about the solid.",
+                        "misconceptionClass": "negligible reading application",
+                        "modelAnswer": "A negligible reading shows the solid is acting as a poor catalyst for the decomposition, barely speeding the reaction up at all.",
+                        "keywords": ["poor", "weak", "ineffective"],
+                    },
+                ]
+            },
+        ],
+    },
+    "rn_6478QfpYNQDjZSvt": {
+        "lessons": [
+            {
+                "items": [
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 4},
+                        "stem": "State how the acid is added to the alkali during the temperature-change practical.",
+                        "misconceptionClass": "acid addition recall",
+                        "modelAnswer": "The acid is added in 5 cm3 portions, recording the highest temperature reached after each addition.",
+                        "keywords": ["portions", "5", "cm3", "increments"],
+                    },
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 2},
+                        "stem": "Name the container used to hold the reacting solutions in this calorimetry practical.",
+                        "misconceptionClass": "calorimeter recall",
+                        "modelAnswer": "A polystyrene calorimeter with a lid holds the solutions while they react.",
+                        "keywords": ["polystyrene", "calorimeter", "cup"],
+                    },
+                    {
+                        "kind": "explain-why",
+                        "anchor": {"kp": 3},
+                        "stem": "Explain why a lid is required on the calorimeter in this practical.",
+                        "misconceptionClass": "lid purpose explain",
+                        "modelAnswer": "The lid prevents heat loss from the calorimeter to the surroundings, so the temperature rise recorded reflects the reaction rather than lost energy.",
+                        "keywords": ["heat", "loss", "prevents", "surroundings"],
+                    },
+                    {
+                        "kind": "application",
+                        "anchor": {"kp": 5},
+                        "stem": "After a 5 cm3 portion of acid is stirred in, the thermometer reading keeps rising for a moment. State which temperature the student should record for this addition.",
+                        "misconceptionClass": "peak reading application",
+                        "modelAnswer": "The student records the highest temperature reached by the mixture after the addition, because that peak shows the full energy released by the portion added.",
+                        "keywords": ["highest", "peak", "maximum"],
+                    },
+                ]
+            },
+            {
+                "items": [
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 1},
+                        "stem": "State the two quantities recorded in the results table for the neutralisation practical.",
+                        "misconceptionClass": "table columns recall",
+                        "modelAnswer": "The table records the volume of acid added against the highest temperature the mixture reached.",
+                        "keywords": ["volume", "temperature", "acid"],
+                    },
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 2},
+                        "stem": "Which line is drawn through the plotted points on the results graph?",
+                        "misconceptionClass": "line of best fit recall",
+                        "modelAnswer": "A line of best fit is drawn through the plotted points on the graph.",
+                        "keywords": ["best", "fit"],
+                    },
+                    {
+                        "kind": "explain-why",
+                        "anchor": {"kp": 4},
+                        "stem": "Explain why a bigger temperature difference between the start and the peak means more energy was transferred by the reaction.",
+                        "misconceptionClass": "temperature difference explain",
+                        "modelAnswer": "The temperature difference shows the energy absorbed or released; a larger rise means the reaction transferred more energy to warm the mixture, assuming the same mass and specific heat capacity.",
+                        "keywords": ["absorbed", "released", "warm", "capacity"],
+                    },
+                    {
+                        "kind": "application",
+                        "anchor": {"kp": 3},
+                        "stem": "A student's graph peaks at 25 cm3 of acid and flattens either side. State what the graph shows at that volume.",
+                        "misconceptionClass": "peak volume application",
+                        "modelAnswer": "The graph identifies 25 cm3 as the volume of acid causing the biggest temperature change, marking the point where the reactants exactly neutralise each other.",
+                        "keywords": ["biggest", "neutralise"],
+                    },
+                ]
+            },
+        ],
+    },
+    "rn_DRQXrcSrmgQ7jcbZ": {
+        "lessons": [
+            {
+                "items": [
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 2},
+                        "stem": "State what a shift to the right means for an equilibrium mixture.",
+                        "misconceptionClass": "shift right recall",
+                        "modelAnswer": "A shift to the right means the forward reaction is favoured, so more products form.",
+                        "keywords": ["forward", "products", "favoured"],
+                    },
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 4},
+                        "stem": "Which direction of shift does raising the temperature cause at equilibrium?",
+                        "misconceptionClass": "temperature shift recall",
+                        "modelAnswer": "Raising the temperature shifts the equilibrium in the direction of the endothermic reaction.",
+                        "keywords": ["endothermic"],
+                    },
+                    {
+                        "kind": "explain-why",
+                        "anchor": {"kp": 5},
+                        "stem": "Explain why lowering the temperature favours the exothermic direction at equilibrium.",
+                        "misconceptionClass": "exothermic shift explain",
+                        "modelAnswer": "Lowering the temperature removes thermal energy from the mixture, so the equilibrium shifts in the exothermic direction, which releases heat and restores the balance.",
+                        "keywords": ["releases", "heat", "restores"],
+                    },
+                    {
+                        "kind": "application",
+                        "anchor": {"kp": 3},
+                        "stem": "A closed system's equilibrium shifts left after the conditions change. State what forms more as a result.",
+                        "misconceptionClass": "shift left application",
+                        "modelAnswer": "A shift to the left favours the reverse reaction, so more reactants form.",
+                        "keywords": ["reverse", "reactants"],
+                    },
+                ]
+            },
+            {
+                "items": [
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 2},
+                        "stem": "Which side of an equilibrium does increasing the pressure favour?",
+                        "misconceptionClass": "pressure side recall",
+                        "modelAnswer": "Increasing the pressure favours the reaction producing the fewest gas molecules.",
+                        "keywords": ["fewest", "fewer", "molecules"],
+                    },
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 1},
+                        "stem": "State which substances in an equilibrium mixture are affected by a pressure change.",
+                        "misconceptionClass": "pressure scope recall",
+                        "modelAnswer": "Only gases in the equilibrium mixture are affected by changes in pressure; solids and liquids are not.",
+                        "keywords": ["gases", "gas"],
+                    },
+                    {
+                        "kind": "explain-why",
+                        "anchor": {"kp": 4},
+                        "stem": "Explain why changing the pressure has no effect on an equilibrium with equal numbers of gas molecules on both sides.",
+                        "misconceptionClass": "equal molecules explain",
+                        "modelAnswer": "With equal numbers of gas molecules on each side, raising or lowering the pressure squeezes both sides equally, so neither direction is favoured and the balance stays unchanged.",
+                        "keywords": ["balance", "unchanged", "equally"],
+                    },
+                    {
+                        "kind": "application",
+                        "anchor": {"kp": 3},
+                        "stem": "The pressure over an equilibrium mixture is decreased. State which reaction direction is favoured.",
+                        "misconceptionClass": "pressure drop application",
+                        "modelAnswer": "Decreasing the pressure favours the reaction producing the most gas molecules, because that side counteracts the pressure drop.",
+                        "keywords": ["most", "counteracts"],
+                    },
+                ]
+            },
+            {
+                "items": [
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 2},
+                        "stem": "State the effect of a catalyst on the time needed to reach equilibrium.",
+                        "misconceptionClass": "catalyst time recall",
+                        "modelAnswer": "A catalyst increases the rate at which equilibrium is reached, so the mixture gets there sooner.",
+                        "keywords": ["rate", "sooner", "faster"],
+                    },
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 1},
+                        "stem": "State what a catalyst does to the position of an equilibrium.",
+                        "misconceptionClass": "catalyst position recall",
+                        "modelAnswer": "A catalyst leaves the equilibrium position exactly where it was, changing only how quickly it is attained.",
+                        "keywords": ["leaves", "unchanged"],
+                    },
+                    {
+                        "kind": "explain-why",
+                        "anchor": {"kp": 4},
+                        "stem": "Explain why the concentrations at equilibrium are the same whether or not a catalyst is present.",
+                        "misconceptionClass": "catalyst concentrations explain",
+                        "modelAnswer": "A catalyst speeds the forward and backward reactions equally, so the rates still balance at the same composition; the mixture simply gets there sooner.",
+                        "keywords": ["equally", "balance", "composition", "sooner"],
+                    },
+                    {
+                        "kind": "application",
+                        "anchor": {"kp": 5},
+                        "stem": "Two identical rate graphs are drawn, one with a catalyst and one without. State how the catalysed curve differs.",
+                        "misconceptionClass": "catalysed curve application",
+                        "modelAnswer": "The catalysed run flattens sooner because equilibrium is reached faster, but it levels off at the identical final level, since the position is unchanged.",
+                        "keywords": ["flattens", "sooner", "level", "unchanged"],
+                    },
+                ]
+            },
+        ],
+    },
+    "rn_H6ZVkxvdNgYDvfFb": {
+        "lessons": [
+            {
+                "items": [
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 3},
+                        "stem": "State the quantity measured in the marble chip experiment after the bung is closed.",
+                        "misconceptionClass": "gas volume recall",
+                        "modelAnswer": "The volume of gas produced in a fixed time is recorded after the marble chips are added and the bung closed.",
+                        "keywords": ["volume", "gas", "produced"],
+                    },
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 4},
+                        "stem": "How is the surface area investigation repeated to allow comparison?",
+                        "misconceptionClass": "repeat sizes recall",
+                        "modelAnswer": "The method is repeated with different sizes of marble chips so the rates can be compared.",
+                        "keywords": ["sizes", "different"],
+                    },
+                    {
+                        "kind": "explain-why",
+                        "anchor": {"kp": 2},
+                        "stem": "Explain why a fixed volume of hydrochloric acid is used for each run in the marble chip experiment.",
+                        "misconceptionClass": "fixed acid explain",
+                        "modelAnswer": "A fixed volume of acid keeps the amount of reactant the same between runs, so any change in rate is due to the surface area alone, making the comparison fair.",
+                        "keywords": ["alone", "fair", "concentration"],
+                    },
+                    {
+                        "kind": "application",
+                        "anchor": {"kp": 5},
+                        "stem": "A second investigation varies the acid concentration with the same chip size. State the other variable the first investigation covers.",
+                        "misconceptionClass": "other variable application",
+                        "modelAnswer": "The investigation covers both chip size and acid concentration, so the other variable is the surface area of the marble chips.",
+                        "keywords": ["area", "surface"],
+                    },
+                ]
+            },
+            {
+                "items": [
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 1},
+                        "stem": "State the two columns of the results table in the marble chip investigation.",
+                        "misconceptionClass": "results columns recall",
+                        "modelAnswer": "The table records chip size against the volume of gas produced in thirty seconds.",
+                        "keywords": ["size", "thirty", "seconds", "volume"],
+                    },
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 3},
+                        "stem": "State what becomes available to the dilute hydrochloric acid when a chip is broken into smaller pieces.",
+                        "misconceptionClass": "exposed surface recall",
+                        "modelAnswer": "More surface particles of the marble are exposed to the dilute hydrochloric acid.",
+                        "keywords": ["particles", "surface"],
+                    },
+                    {
+                        "kind": "explain-why",
+                        "anchor": {"kp": 4},
+                        "stem": "Explain why extra exposed surface makes collisions more frequent and successful.",
+                        "misconceptionClass": "collision frequency explain",
+                        "modelAnswer": "Extra exposed surface puts more particles where the acid can reach them, so collisions happen more often and the number of successful collisions rises.",
+                        "keywords": ["often", "rises", "frequently"],
+                    },
+                    {
+                        "kind": "application",
+                        "anchor": {"kp": 5},
+                        "stem": "Powdered marble reacts faster than single large chips of the same mass. State the collision-based reason for the faster rate.",
+                        "misconceptionClass": "powder rate application",
+                        "modelAnswer": "The powder has a greater surface area for collisions, so the increased collision count per second raises the rate of reaction.",
+                        "keywords": ["increased", "count", "raises", "collisions"],
+                    },
+                ]
+            },
+        ],
+    },
+    "rn_HNXFQt7vM32g6PMv": {
+        "lessons": [
+            {
+                "items": [
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 2},
+                        "stem": "Which axis carries the energy scale in an energy level diagram, and what does the other axis track?",
+                        "misconceptionClass": "diagram axes recall",
+                        "modelAnswer": "Energy is plotted up the vertical axis, while the horizontal axis tracks how far the reaction has progressed.",
+                        "keywords": ["vertical", "horizontal", "progressed"],
+                    },
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 3},
+                        "stem": "State the direction of the arrow on an energy level diagram for an exothermic change.",
+                        "misconceptionClass": "arrow direction recall",
+                        "modelAnswer": "The arrow points downwards for exothermic reactions and upwards for endothermic ones.",
+                        "keywords": ["downwards", "down"],
+                    },
+                    {
+                        "kind": "explain-why",
+                        "anchor": {"kp": 4},
+                        "stem": "Explain what the height difference between the reactant and product levels shows on an energy level diagram.",
+                        "misconceptionClass": "height difference explain",
+                        "modelAnswer": "The height difference represents the overall enthalpy change of the reaction, showing how much energy the products hold relative to the reactants.",
+                        "keywords": ["enthalpy", "overall", "relative"],
+                    },
+                    {
+                        "kind": "application",
+                        "anchor": {"kp": 5},
+                        "stem": "A diagram shows the reactant level below the product level. State the type of reaction drawn and justify it.",
+                        "misconceptionClass": "level order application",
+                        "modelAnswer": "Reactants sitting below the products shows an endothermic reaction, because energy has been taken in to raise the product level.",
+                        "keywords": ["endothermic", "taken"],
+                    },
+                ]
+            },
+            {
+                "items": [
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 1},
+                        "stem": "State how the reactant and product levels are arranged in the exothermic sketch.",
+                        "misconceptionClass": "sketch arrangement recall",
+                        "modelAnswer": "The exothermic sketch shows reactants high, products low and a downward arrow between the two levels.",
+                        "keywords": ["high", "low", "downward", "arrow"],
+                    },
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 4},
+                        "stem": "State the sign of the enthalpy change in the endothermic sketch.",
+                        "misconceptionClass": "enthalpy sign recall",
+                        "modelAnswer": "The enthalpy change is positive for the endothermic sketch and negative for the exothermic one.",
+                        "keywords": ["positive"],
+                    },
+                    {
+                        "kind": "explain-why",
+                        "anchor": {"kp": 3},
+                        "stem": "Explain why both energy level sketches need labelled axes and named levels.",
+                        "misconceptionClass": "sketch labels explain",
+                        "modelAnswer": "Labelled axes and named energy levels make the direction of energy change unambiguous, so a reader can tell exothermic from endothermic at a glance and the sketch carries the chemistry.",
+                        "keywords": ["direction", "unambiguous", "reader"],
+                    },
+                    {
+                        "kind": "application",
+                        "anchor": {"kp": 5},
+                        "stem": "A reaction mixture cools from 21 degrees Celsius to 17 degrees Celsius as it reacts. State whether energy is given out or taken in, and classify the change.",
+                        "misconceptionClass": "cooling classify application",
+                        "modelAnswer": "The temperature fall shows energy is taken in from the surroundings by the reaction, so the change is endothermic.",
+                        "keywords": ["endothermic", "fall"],
+                    },
+                ]
+            },
+        ],
+    },
+    "rn_KTZjJ7sPdDt4tkTH": {
+        "lessons": [
+            {
+                "items": [
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 1},
+                        "stem": "State why breaking bonds takes in energy.",
+                        "misconceptionClass": "bond breaking recall",
+                        "modelAnswer": "Bond-breaking is endothermic because energy must be taken in to pull the atoms apart and break their bonds.",
+                        "keywords": ["endothermic", "taken", "apart"],
+                    },
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 5},
+                        "stem": "State the unit in which bond energies are usually quoted.",
+                        "misconceptionClass": "bond energy unit recall",
+                        "modelAnswer": "Bond energies are usually quoted in kilojoules per mole of bonds.",
+                        "keywords": ["kilojoules", "mole", "kj"],
+                    },
+                    {
+                        "kind": "explain-why",
+                        "anchor": {"kp": 2},
+                        "stem": "Explain why making new bonds is an exothermic process.",
+                        "misconceptionClass": "bond making explain",
+                        "modelAnswer": "Bond-making is exothermic because energy is released as the new bonds form and the atoms settle into a lower-energy arrangement.",
+                        "keywords": ["released", "lower", "arrangement"],
+                    },
+                    {
+                        "kind": "application",
+                        "anchor": {"kp": 3},
+                        "stem": "In a reaction the energy taken in to break bonds is 850 kilojoules per mole while the energy released when bonds form is 900 kilojoules per mole. State whether the reaction is exothermic or endothermic overall, with a reason.",
+                        "misconceptionClass": "bond balance application",
+                        "modelAnswer": "More energy is given out forming bonds than is taken in breaking them, so the reaction is exothermic overall.",
+                        "keywords": ["given", "out", "forming", "net"],
+                    },
+                ]
+            },
+            {
+                "items": [
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 5},
+                        "stem": "State the subtraction that defines the overall enthalpy change in terms of energy in and energy out.",
+                        "misconceptionClass": "enthalpy equation recall",
+                        "modelAnswer": "The overall enthalpy change equals the energy in minus the energy out.",
+                        "keywords": ["equals", "minus"],
+                    },
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 2},
+                        "stem": "State the sign of the enthalpy change for an exothermic reaction and why.",
+                        "misconceptionClass": "exothermic sign recall",
+                        "modelAnswer": "Exothermic reactions have a negative enthalpy change because the reactants hold more energy than the products.",
+                        "keywords": ["negative", "reactants"],
+                    },
+                    {
+                        "kind": "explain-why",
+                        "anchor": {"kp": 3},
+                        "stem": "Explain why an endothermic reaction has a positive enthalpy change.",
+                        "misconceptionClass": "endothermic sign explain",
+                        "modelAnswer": "In an endothermic reaction the energy needed to break bonds exceeds the energy released forming them, so the products hold more energy than the reactants and the enthalpy change is positive.",
+                        "keywords": ["exceeds", "hold"],
+                    },
+                    {
+                        "kind": "application",
+                        "anchor": {"kp": 1},
+                        "stem": "A reaction releases 1200 kilojoules per mole when new bonds form but needs 1350 kilojoules per mole to break the original bonds. State the sign of its enthalpy change and the type of reaction.",
+                        "misconceptionClass": "sign determination application",
+                        "modelAnswer": "The energy taken in exceeds the energy given out, so the enthalpy change is positive and the reaction is endothermic.",
+                        "keywords": ["positive", "endothermic", "exceeds"],
+                    },
+                ]
+            },
+            {
+                "items": [
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 1},
+                        "stem": "State how the energy in is found for a reaction priced with bond energies.",
+                        "misconceptionClass": "energy in recall",
+                        "modelAnswer": "Add together the bond energies of all the bonds in the reactants to find the energy in.",
+                        "keywords": ["add", "together", "reactants"],
+                    },
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 3},
+                        "stem": "State the subtraction that gives the enthalpy change once energy in and energy out are known.",
+                        "misconceptionClass": "enthalpy subtraction recall",
+                        "modelAnswer": "The enthalpy change equals the energy in minus the energy out.",
+                        "keywords": ["minus", "subtracting"],
+                    },
+                    {
+                        "kind": "explain-why",
+                        "anchor": {"kp": 4},
+                        "stem": "Explain why the balancing numbers of an equation must be respected when pricing a reaction with bond energies.",
+                        "misconceptionClass": "balancing numbers explain",
+                        "modelAnswer": "Balancing numbers tell you how many of each bond are broken or made, so ignoring them miscounts the total energy in and out and gives a wrong enthalpy change.",
+                        "keywords": ["miscounts", "total", "wrong"],
+                    },
+                    {
+                        "kind": "application",
+                        "anchor": {"kp": 5},
+                        "stem": "A student prices a reaction but misses one C-H bond on the reactant side. State which type of formula would have prevented the error and why.",
+                        "misconceptionClass": "displayed formula application",
+                        "modelAnswer": "A displayed formula equation shows every bond explicitly, so the missed bond would have been spotted before counting.",
+                        "keywords": ["displayed", "shows", "explicitly", "spotted"],
+                    },
+                ]
+            },
+        ],
+    },
+    "rn_XJ8qXfzZJJFKXHnF": {
+        "lessons": [
+            {
+                "items": [
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 2},
+                        "stem": "State where the gas is collected in the surface area experiment.",
+                        "misconceptionClass": "gas collection recall",
+                        "modelAnswer": "A delivery tube feeds the gas into an inverted measuring cylinder standing in a water trough.",
+                        "keywords": ["delivery", "tube", "trough", "inverted"],
+                    },
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 4},
+                        "stem": "State what is watched in the concentration experiment as the mixture clouds.",
+                        "misconceptionClass": "cross marker recall",
+                        "modelAnswer": "A cross drawn under the flask is watched until it disappears as the mixture clouds.",
+                        "keywords": ["cross", "disappears", "flask"],
+                    },
+                    {
+                        "kind": "explain-why",
+                        "anchor": {"kp": 5},
+                        "stem": "Explain why sodium thiosulfate is diluted with water in the concentration experiment.",
+                        "misconceptionClass": "thiosulfate dilution explain",
+                        "modelAnswer": "Diluting the sodium thiosulfate with water gives reaction mixtures of different concentrations, so the effect of concentration on the rate can be tested.",
+                        "keywords": ["diluting", "different", "concentrations", "effect"],
+                    },
+                    {
+                        "kind": "application",
+                        "anchor": {"kp": 3},
+                        "stem": "Two chip sizes are tested and the gas volume read after the same fixed time. State the comparison this timing choice allows.",
+                        "misconceptionClass": "fixed timing application",
+                        "modelAnswer": "Reading every gas volume over the same fixed time means the two chip sizes can be compared fairly, since only the surface area differs between the runs.",
+                        "keywords": ["fairly", "compared", "differs", "runs"],
+                    },
+                ]
+            },
+            {
+                "items": [
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 2},
+                        "stem": "State what is measured in the temperature experiment once the magnesium strip is added.",
+                        "misconceptionClass": "stopwatch timing recall",
+                        "modelAnswer": "A stopwatch is started and the time taken for the magnesium metal to dissolve is recorded.",
+                        "keywords": ["stopwatch", "dissolve", "recorded"],
+                    },
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 4},
+                        "stem": "State the catalyst added to hydrogen peroxide in the catalyst experiment.",
+                        "misconceptionClass": "peroxide catalyst recall",
+                        "modelAnswer": "Manganese(IV) oxide is added to hydrogen peroxide, and the oxygen produced is collected.",
+                        "keywords": ["manganese", "iv"],
+                    },
+                    {
+                        "kind": "explain-why",
+                        "anchor": {"kp": 5},
+                        "stem": "Explain why the catalyst experiment is repeated without the catalyst.",
+                        "misconceptionClass": "control run explain",
+                        "modelAnswer": "Repeating the run without the catalyst gives a control gas volume, so the two runs can be compared to show how much faster the catalysed decomposition is.",
+                        "keywords": ["control", "compared", "faster", "runs"],
+                    },
+                    {
+                        "kind": "application",
+                        "anchor": {"kp": 1},
+                        "stem": "A student heats the acid to 40 degrees Celsius for one run and 60 degrees Celsius for another. State which piece of apparatus keeps each run at its set temperature.",
+                        "misconceptionClass": "water bath application",
+                        "modelAnswer": "A water bath holds each run at its set temperature while the dilute hydrochloric acid is heated.",
+                        "keywords": ["bath", "holds"],
+                    },
+                ]
+            },
+            {
+                "items": [
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 1},
+                        "stem": "State the four factors affecting the rate of a reaction.",
+                        "misconceptionClass": "rate factors recall",
+                        "modelAnswer": "The factors are concentration or pressure, temperature, the surface area of solids, and catalysts.",
+                        "keywords": ["concentration", "pressure", "temperature", "surface", "catalysts"],
+                    },
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 2},
+                        "stem": "State how a faster reaction looks different on a rate graph.",
+                        "misconceptionClass": "rate graph shape recall",
+                        "modelAnswer": "A faster reaction shows a steeper starting gradient that becomes horizontal sooner.",
+                        "keywords": ["steeper", "gradient", "horizontal", "sooner"],
+                    },
+                    {
+                        "kind": "explain-why",
+                        "anchor": {"kp": 3},
+                        "stem": "Explain why graphs for reactions run under changed conditions all finish at the same amount of product.",
+                        "misconceptionClass": "same product explain",
+                        "modelAnswer": "Changing the conditions only alters how quickly the reaction reaches completion, not how much product the limiting amounts of reactants can make, so every curve levels at the same final amount.",
+                        "keywords": ["completion", "limiting", "amounts", "final"],
+                    },
+                    {
+                        "kind": "application",
+                        "anchor": {"kp": 5},
+                        "stem": "A chemical plant wants to make its product faster without hiring more staff. State the commercial benefit of raising the rate of reaction.",
+                        "misconceptionClass": "industry benefit application",
+                        "modelAnswer": "Faster production is more efficient and sustainable, cutting the time and energy cost per batch for the plant.",
+                        "keywords": ["efficient", "sustainable", "cutting", "batch"],
+                    },
+                ]
+            },
+        ],
+    },
+}
