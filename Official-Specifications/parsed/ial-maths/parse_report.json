@@ -11,7 +11,9 @@
    "topics": 93,
    "subsections": 0,
    "flagged": 149
-  }
+  },
+  "spec_points": 242,
+  "flagged": 149
  },
  "totals": {
   "spec_points": 242,
@@ -54,5 +56,23 @@
    "command_words": 0
   },
   "flags": []
+ },
+ "reparse": {
+  "run": "run-002",
+  "version": "spec-reparse-1.0",
+  "classes": [
+   "two-column-line-interleave de-interleave (statement band + notes sub_items)",
+   "superscript reattach in notes (alpha/beta/gamma/digit clusters)",
+   "hygiene gate (scatter signature) + zero-degradation gate"
+  ],
+  "targets": "the 146 two-column-line-interleave flagged rows (T-SPEC-REPARSE-1 run-001 filed follow-up)",
+  "proposals": 113,
+  "aborted_rows_count": 31,
+  "nomatch_rows_count": 0,
+  "canonical_rows_mirrored": 113,
+  "idempotence": "re-probe after apply: 0 proposals, 0 deletes",
+  "gates_after": "finalize_reports.py: gates=PASS (all 58 quals)",
+  "note": "the 45 t_spec_apply_repairs rebuilt rows are outside the flagged set and untouched; the run-001 chemistry/9709 residuals (8 rows) were re-probed: 2.1.1/37.3.1/37.3.2 verified NEVER DAMAGED (rebuild == served text byte-equal, parse flag false-positive); 14.2.2/16.1.2/1.2.2/11.2.3/3.9.5 attempted and honestly failed (oy-satellite drift / no Unicode superscript theta / cluster wrap) — stay flagged, disclosed",
+  "interleave_flag_cleared_on_repaired_rows": true
  }
 }

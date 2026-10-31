@@ -279,6 +279,17 @@ def assemble_linear(chars, base_y=None, ytol=3.0):
             if small and is_sup:
                 u = SUP.get(ch)
                 if u is None:
+                    if ch in 'abcdefghijklmnopqrstuvwxyz':
+                        # run-002 ASCII-letter-only inline fallback: the glyph
+                        # stays verbatim (no Unicode superscript form exists);
+                        # Greek variables and digits still abort (their
+                        # position is semantically load-bearing in formulae)
+                        notes.append(f"inline-fallback: {ch!r} has no superscript Unicode")
+                        pieces.append(ch)
+                        if c['x1'] - c['x0'] > 0.5:
+                            last_wide_x1 = c['x1']
+                        prev = ('body', c)
+                        continue
                     return None, notes + [f"ABORT: no superscript Unicode for {ch!r} (font {c['font']} gid{c['gid']})"]
                 pieces.append(u)
                 prev = ('sup', c)
@@ -286,6 +297,13 @@ def assemble_linear(chars, base_y=None, ytol=3.0):
             if small and is_sub and not is_sup:
                 u = SUB.get(ch)
                 if u is None:
+                    if ch in 'abcdefghijklmnopqrstuvwxyz':
+                        notes.append(f"inline-fallback: {ch!r} has no subscript Unicode")
+                        pieces.append(ch)
+                        if c['x1'] - c['x0'] > 0.5:
+                            last_wide_x1 = c['x1']
+                        prev = ('body', c)
+                        continue
                     return None, notes + [f"ABORT: no subscript Unicode for {ch!r} (font {c['font']} gid{c['gid']})"]
                 pieces.append(u)
                 prev = ('sub', c)
@@ -374,7 +392,7 @@ def merge_fraction_stacks(chars, ytol=2.5):
             small_d = max(c['size'] for c in D)
             body = lines[i + 2]['base_size'] if i + 2 < len(lines) else base_size_of(lines)
             if (len(N) <= 2 and len(D) <= 2 and small_n < 0.8 * body
-                    and small_d < 0.8 * body and lines[i + 1] not in used):
+                    and small_d < 0.8 * body and id(lines[i + 1]) not in used):
                 nx = (min(c['x'] for c in N), max(c['x1'] for c in N))
                 dx = (min(c['x'] for c in D), max(c['x1'] for c in D))
                 overlap = min(nx[1], dx[1]) - max(nx[0], dx[0])
@@ -748,8 +766,29 @@ def target_rows(parsed, qual):
         elif qual in ('cie-a-level-chemistry-2025-2027', 'cie-igcse-chemistry-2023-2025'):
             if SUPLOSS_HINT.search(t) or 'possible-superscript-loss' in flags:
                 ids.append(sp['id'])
+            # run-002: the run-001 disclosed residuals, explicitly re-targeted
+            if sp['id'] in RUN002_CHEM_RESIDUALS:
+                ids.append(sp['id'])
     return ids
 
+
+RUN002_EXCLUDE = {
+    'CIE_A_LEVEL_CHEMISTRY_2025_2027:1.2.2',
+    'CIE_IGCSE_CHEMISTRY_2023_2025:11.2.3',
+}
+
+RUN002_CHEM_RESIDUALS = {
+    # 1.2.2 stays EXCLUDED (run-001 + run-002 attempts both degrade the
+    # ʸ-sup x-sub A cluster; the printed row needs a raised/lowered cluster
+    # representation no Unicode attachment can prove)
+    'CIE_A_LEVEL_CHEMISTRY_2025_2027:1.2.2',
+    'CIE_A_LEVEL_CHEMISTRY_2025_2027:16.1.2',
+    'CIE_A_LEVEL_CHEMISTRY_2025_2027:2.1.1',
+    'CIE_A_LEVEL_CHEMISTRY_2025_2027:14.2.2',
+    'CIE_A_LEVEL_CHEMISTRY_2025_2027:37.3.1',
+    'CIE_A_LEVEL_CHEMISTRY_2025_2027:37.3.2',
+    'CIE_IGCSE_CHEMISTRY_2023_2025:11.2.3',
+}
 
 FAMILY_CFG = {
     # qual -> (rebuild fn, extra kwargs, anchor kind)
@@ -772,6 +811,14 @@ def row_region_chars(chars, y_lo, y_hi, x_lo, x_hi):
 
 
 MARKER_RE = re.compile(r'^\((?:[a-z]|\d{1,2})\)\s')
+SCATTER_RE = re.compile(r'\b(?:[a-z\u03b1-\u03c9\u0391-\u03a9\d])(?:\s+(?:[a-z\u03b1-\u03c9\u0391-\u03a9\d])){2,}\b')
+
+
+def hygiene_ok(text):
+    """Reject assemblies carrying un-attached superscript scatter (3+
+    consecutive single-char tokens) — the signature of a 2-D notes cell that
+    did not survive linearisation. Fail-closed: the row keeps its old text."""
+    return not SCATTER_RE.search(text or '')
 
 HEAD_CODE_RE = re.compile(r'^(?:[A-Z]?\d{1,2}(?:\.\d{1,2}){0,1})$')
 NOISE_RE = re.compile(r'Back to contents page|www\.cambridgeinternational\.org|^\d{1,3}$')
@@ -835,10 +882,27 @@ def _head_cut_y(chars, y_lo, y_hi):
     return None
 
 
-def repair_row_region(doc, page, oy, y_end, x_lo, x_hi=None, notes_x=None, y_lo_ext=None):
+def code_line_y(chars, code):
+    """Baseline y of the visual line whose leading tokens == the printed
+    official code (x<105) — the deterministic region start when the parse's
+    own oy points at formula-satellite lines."""
+    lines = group_lines([c for c in chars if c['x'] <= 130])
+    want = str(code)
+    for L in lines:
+        t = re.sub(r'\s+', ' ', ''.join((mapped_char(c)[0] or '') for c in L['chars'])).strip()
+        if re.match(r'^' + re.escape(want) + r'(?:\s|$)', t) and L['chars'][0]['x'] < 105:
+            return L['baseline']
+    return None
+
+
+def repair_row_region(doc, page, oy, y_end, x_lo, x_hi=None, notes_x=None, y_lo_ext=None, start_code=None):
     """Row-region rebuild via parsed oy bounds. Returns dict(text, sub_items,
     aborted, notes). In-band dash/(a)/(b) markers become sub_item groups."""
     chars = page_chars(doc[page])
+    if start_code is not None:
+        cy = code_line_y(chars, start_code)
+        if cy is not None and cy > oy:
+            oy = cy
     cut = _head_cut_y(chars, oy - 2.0, y_end)
     if cut is not None and (y_end is None or cut < y_end):
         y_end = cut
@@ -928,9 +992,12 @@ def build_proposals(qual, parsed):
     proposals, aborts, nomatch = {}, [], []
 
     if qual == 'ial-maths':
-        # full rebuild of every row (statement band x 103-271, notes x>=271);
-        # y-bounds from parsed oy; both layers updated identically
+        # run-002 scope: the 146 flagged two-column-line-interleave rows
+        # (statement band x 103-271, notes x>=271); y-bounds from parsed oy;
+        # both layers updated identically by the apply step
         for sp in parsed['spec_points']:
+            if sp['id'] not in tset:
+                continue
             page = sp['page'] - 1
             end_page, end_y = nxt[sp['id']]
             r = repair_row_region(doc, page, sp['oy'], end_y, x_lo=103, x_hi=271, notes_x=271)
@@ -938,8 +1005,23 @@ def build_proposals(qual, parsed):
                 aborts.append(sp['id'])
                 continue
             cur_t = re.sub(r'\s+', ' ', sp['text']).strip()
-            if r['text'] != cur_t or (r['sub_items'] or []) != (sp.get('sub_items') or []):
-                proposals[sp['id']] = r
+            new_items = [t for t in (r.get('sub_items') or []) if t]
+            cur_items = [re.sub(r'\s+', ' ', s).strip() for s in (sp.get('sub_items') or [])]
+            # zero-degradation: notes legitimately move text -> sub_items
+            new_vol = len(_words(r['text'])) + sum(len(_words(t)) for t in new_items)
+            old_vol = len(_words(sp['text'])) + sum(len(_words(t)) for t in cur_items)
+            new_chars = len(r['text']) + sum(len(t) for t in new_items)
+            old_chars = len(sp['text']) + sum(len(t) for t in cur_items)
+            if new_vol < old_vol - 1 or new_chars < 0.75 * old_chars:
+                aborts.append(sp['id'])
+                continue
+            if not hygiene_ok(r['text']) or any(not hygiene_ok(t) for t in new_items):
+                aborts.append(sp['id'])
+                continue
+            if r['text'] != cur_t or new_items != cur_items:
+                proposals[sp['id']] = {'text': r['text'], 'sub_items': new_items,
+                                       'aborted': False, 'notes': r.get('notes', []),
+                                       'old_text': sp['text'], 'old_items': cur_items}
         return proposals, deletes, {'aborts': aborts, 'nomatch': nomatch, 'targets': len(targets)}
 
     if qual == 'ial-physics':
@@ -957,11 +1039,12 @@ def build_proposals(qual, parsed):
 
     if qual in ('cie-a-level-chemistry-2025-2027', 'cie-igcse-chemistry-2023-2025'):
         for sp in parsed['spec_points']:
-            if sp['id'] not in tset:
+            if sp['id'] not in tset or sp['id'] in RUN002_EXCLUDE:
                 continue
             page = sp['page'] - 1
             end_page, end_y = nxt[sp['id']]
-            r = repair_row_region(doc, page, sp['oy'], end_y, x_lo=71, x_hi=None, notes_x=None)
+            r = repair_row_region(doc, page, sp['oy'], end_y, x_lo=71, x_hi=None, notes_x=None,
+                                  start_code=sp.get('official_code'))
             if r['aborted'] or not r['text']:
                 aborts.append(sp['id'])
                 continue
@@ -1143,6 +1226,38 @@ def apply_qual(qual, dry=False):
     open(path, 'w', encoding='utf-8').write(new_raw)
     open(rp_path, 'w', encoding='utf-8').write(serialize(rp))
     print(f'    WROTE {path}')
+
+    if qual == 'ial-maths':
+        # two-layer law (t_spec_apply_repairs convention): mirror onto the
+        # canonical spec_points.json the spine builder consumes
+        can_path = os.path.join(PJDIR, qual, 'spec_points.json')
+        craw = open(can_path, encoding='utf-8').read()
+        cdoc = json.loads(craw)
+        crows = cdoc['spec_points'] if isinstance(cdoc, dict) else cdoc
+        cn = 0
+        for r in crows:
+            if r['id'] in proposals:
+                p = proposals[r['id']]
+                if p['text']:
+                    r['text'] = p['text']
+                if p['sub_items'] is not None and not p['aborted']:
+                    r['sub_items'] = p['sub_items']
+                fl = r.setdefault('flags', [])
+                if 'reparse-1.0' not in fl:
+                    fl.append('reparse-1.0')
+                r['flags'] = sorted(set(fl))
+                cn += 1
+        if deletes:
+            cdoc['spec_points'] = [r for r in crows if r['id'] not in set(deletes)]
+            crows = cdoc['spec_points']
+        if isinstance(cdoc, dict) and 'counts' in cdoc:
+            cdoc['counts']['spec_points'] = len(crows)
+            cdoc['counts']['flagged'] = sum(1 for r in crows if r.get('flags'))
+        open(can_path, 'w', encoding='utf-8').write(serialize(cdoc))
+        rp2 = json.loads(open(rp_path, encoding='utf-8').read())
+        rp2['reparse']['canonical_rows_mirrored'] = cn
+        open(rp_path, 'w', encoding='utf-8').write(serialize(rp2))
+        print(f'    WROTE {can_path} (canonical mirrored x{cn})')
 
 
 def main():
