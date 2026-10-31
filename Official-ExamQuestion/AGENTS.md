@@ -530,7 +530,11 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
   G-E1 BYTE-LEVEL NO-OP, G-E1b 66/66, G-E7 2,684/2,684 IN-RUN, G-E6, G-E4 passthrough
   byte-identical); determinism x2 byte-identical; staged official-papers.json sha256
   2021ec4730bf1c83 == the served plane BYTE-EXACT (3,722,872 B). The rider debt class no
-  longer accumulates: it rides the next converter run by construction.
+  longer accumulates: it rides the next converter run by construction. Cross-lane closure
+  disclosed: the F125 r2-consumed twin filed (the F124 race re-occurred on F125 — v2
+  consumed the part-soup sync, the disclosure went stale; A/B-proven pre-existing on
+  pristine main bfcb09ad for BOTH CI reds, the second being the 1,694 graph anchor
+  failures from the 7343e125 notes-directory deletion — repair scope of the notes lane).
 - Task 33 (2026-10-31, F125) CLOSED the 1CR 8(b)(i) part-level soup residual (operator
   order "Proceed with 1CR 8(b)(i) part-level soup pass") — the F123 receipt's one queued
   item (AUDIT-2026-10-30-f123-stemfig-2019-06.md), now adjudicated to zero at the layer

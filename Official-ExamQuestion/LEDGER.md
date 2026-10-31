@@ -918,3 +918,17 @@ side can carry transform-reconciled classes (furniture trailers the exporter
 strips, raw stems the exporter splices) that F122 never pinned — the discharge
 writes the plane value and the class retires into the ledger, so the next
 converter run needs no transform reconciliation for them at all.
+
+**Cross-lane closure riding this wave (the F124 convention re-applied).** The
+PR's official-export-gates red exposed the F124 race RE-OCCURRING on F125: the
+v2 companion consumed the part-soup sync (fresh chemistry census 0) while the
+F125 disclosure still filed 1 part — first-hand A/B-proven on pristine main
+bfcb09ad (same failure) before any fix. The r2-consumed twin
+2026-10-31-f125-part-soup-4ch1.r2-consumed.json is filed byte-identical to the
+F124 twin form; the original F125 disclosure stays the wave's history of
+record; the exporter returns to reproducibility no-op mode and the F-187
+verify passes at the discharged cut. The corpus-gates graph failure
+(1,694 c11.4/c11.6 anchor failures after 7343e125 deleted the Chemistry IGCSE
+Revision Notes directory) is likewise PRE-EXISTING at main tip — proven
+byte-identical on pristine main — and belongs to the notes-lane's repair
+scope, NOT this wave's.
