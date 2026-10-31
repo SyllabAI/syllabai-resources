@@ -885,22 +885,22 @@ Calculate the length, in cm to one decimal place, of AB cm
 
 **Mark scheme answer**
 
-> 3 M1 A correct method to find AD2 or AD = 15 2
+> 3 M1 A correct method to find $AD^2$ or AD = 15 2
 > ( ) + (5 3 ) [= 450]
 > 2
 > ⎡⎣ AD = ⎤⎦ 5 15
 > [ = 21.2132…] (need not be labelled). May be
 > seen on diagram.
-> ft their AD. A correct method to find AB2 or AB
+> ft their AD. A correct method to find $AB^2$ or AB
 > ( ) + ("15 2 ") − 2 ×10³ × "15 2 "× cos 60
 > 2
-> ⎡⎣ AB 2 = ⎤⎦ 10 3 M1
+> ⎡⎣ $AB^2$ = ⎤⎦ 10 3 M1
 > eg 300 + 450 − 2 ×10³ × 15 2 × cos 60
 > Correct answer scores full marks (unless from obvious awrt 19.6 (19.559… so condone 19.5
 > 19.6 A1
 > incorrect working) (truncation))
 
-- **(3)** 3 M1 A correct method to find AD2 or AD = 15 2
+- **(3)** 3 M1 A correct method to find $AD^2$ or AD = 15 2
 
 ### 26(b) [5]
 
@@ -911,15 +911,15 @@ Calculate the area, in cm² to 3 significant figures, of triangle ABC
 
 **Mark scheme answer**
 
-> 5 M1 A correct method to find BC2 or BC = 15 May
+> 5 M1 A correct method to find $BC^2$ or BC = 15 May
 > ( ) ( )
 > 2
-> ⎡⎣ BC 2 = ⎤⎦ 10 3 − 5 3 [= 225]
+> ⎡⎣ $BC^2$ = ⎤⎦ 10 3 − 5 3 [= 225]
 > award if BC found in (a) or on diagram.
 > M1 using the cosine rule to enable an angle to be
 > eg found. Implied by the 3rd M1. Allow
 > ( ) + "15" − 2 × 5 15 × "15"cos ∠ACB
-> "19.5595..."2 = 5 15
+> "19.5595..."$^2$ = 5 15
 > 5 15 + "19.559"+ "15"
 > s= [ = 26.962...]
 > (5 15 ) + "15" − "19.5595..." [= 0.37425...] M1 A correct method to find one of the angles in
@@ -927,7 +927,7 @@ Calculate the area, in cm² to 3 significant figures, of triangle ABC
 > cos ∠ACB = triangle ABC allow cos (any angle) =… (it
 > 2 × 5 15 × "15" does not need to be right one)
 > 2 ∠ACB = 68.0... ∠CBA = 66.6... ∠CAB = 45.3...
-> "19.559..."2 + "15"2 − 5 15
+> "19.559..."$^2$ + "15"$^2$ − 5 15
 > cos ∠CBA =
 > 2 × "19.559..."× "15"
 > [ = 0.39635...]
@@ -949,7 +949,6 @@ Calculate the area, in cm² to 3 significant figures, of triangle ABC
 > Correct answer scores full marks (unless from obvious A1 134.68… so awrt 135
 > 135
 > incorrect working)
-> Total 8 marks
 
-- **(5)** 5 M1 A correct method to find BC2 or BC = 15 May
+- **(5)** 5 M1 A correct method to find $BC^2$ or BC = 15 May
 

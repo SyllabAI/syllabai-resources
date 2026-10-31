@@ -316,7 +316,7 @@ A Diagram NOT accurately drawn B C 12.6 cm The diagram shows isosceles triangle 
 
 ### 12 [4]
 
-The diagram shows isosceles triangle ABC where AB = AC BAC 90° BC = 12.6 cm Calculate the perimeter, in cm to one decimal place, of the triangle cm
+The diagram shows isosceles triangle ABC where AB = AC ∠BAC = 90° BC = 12.6 cm Calculate the perimeter, in cm to one decimal place, of the triangle cm
 
 > *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
 > Labels in the original figure: A, B, C · Figure values: 12.6.
@@ -326,10 +326,10 @@ The diagram shows isosceles triangle ABC where AB = AC BAC 90° BC = 12.6 cm Cal
 
 **Mark scheme answer**
 
-> eg x 2 + x 2 = 12.62 or 4 M1 for a correct statement using Pythagoras
+> eg $x^2$ + $x^2$ = $12.6^2$ or 4 M1 for a correct statement using Pythagoras
 > or trigonometry to find side AB/AC
-> ⎡⎣ AC 2 = ⎤⎦ (0.5 ×12.6)² + (0.5 ×12.6)² ⎡⎣ = 39.69 + 39.692 = 79.38⎤⎦ or
-> NB do not award for AB 2 + AC 2 = 12.62
+> ⎡⎣ $AC^2$ = ⎤⎦ (0.5 ×12.6)² + (0.5 ×12.6)² ⎡⎣ = 39.69 + $39.69^2$ = 79.38⎤⎦ or
+> NB do not award for $AB^2$ + $AC^2$ = $12.6^2$
 > eg sin 45 =
 > AC
 > or cos 45 =
@@ -339,12 +339,12 @@ The diagram shows isosceles triangle ABC where AB = AC BAC 90° BC = 12.6 cm Cal
 > 6.3 6.3 May be Implied by the 2nd M1
 > cos 45 = or sin 45 = oe
 > AC AC
-> 12.62 ⎡ 3969 ⎤ M1 dependent on 1st M1 for a correct method
+> $12.6^2$ ⎡ 3969 ⎤ M1 dependent on 1st M1 for a correct method
 > [ x =] = ⎢ = 8.909 …⎥ or to find AB or AC
 > 2 ⎣ 25 ⎦ Allow for 8.9 or better (actual 8.909545…) or
-> [ AC =] (0.5 ×12.6) 2 + (0.5 ×12.6) 2 [= 8.9090…] or 63 2
+> [ AC =] (0.5 ×12.6)$^2$ + (0.5 ×12.6)$^2$ [= 8.9090…] or 63 2
 > [ AB / AC =]12.6 × sin 45 or 12.6 × cos 45
-> 6.3 6.3 Allow 9 if x 2 = 79.3... is seen
+> 6.3 6.3 Allow 9 if $x^2$ = 79.3... is seen
 > [ AC / AB =] or
 > cos 45 sin 45
 > 2 × "8.909…"+ 12.6 M1 independent of the previous method
@@ -354,7 +354,7 @@ The diagram shows isosceles triangle ABC where AB = AC BAC 90° BC = 12.6 cm Cal
 > If n is incorrect, working must be shown
 > 30.4 A1 awrt 30.4 (actual 30.41909…)
 
-- **(4)** eg x 2 + x 2 = 12.62 or 4 M1 for a correct statement using Pythagoras
+- **(4)** eg $x^2$ + $x^2$ = $12.6^2$ or 4 M1 for a correct statement using Pythagoras
 
 
 ## Question 13 (4 marks)
@@ -363,7 +363,7 @@ T P Diagram NOT accurately drawn 40° Q R The diagram shows shape PTRQ where PRQ
 
 ### 13 [4]
 
-The diagram shows shape PTRQ where PRQ is a triangle and PTR is a semicircle with diameter PR PQR 90° PRQ 40° PQ = 8 cm Calculate the total area, in cm² to the nearest whole number, of shape PTRQ cm²
+The diagram shows shape PTRQ where PRQ is a triangle and PTR is a semicircle with diameter PR ∠PQR = 90° ∠PRQ = 40° PQ = 8 cm Calculate the total area, in cm² to the nearest whole number, of shape PTRQ cm²
 
 > *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
 > Labels in the original figure: T, P, Q, R · Figure values: 40°.
@@ -953,7 +953,7 @@ for Question 25 C B Diagram NOT 115° accurately drawn 53° A D The diagram repr
 
 ### 25 [5]
 
-for Question 25 C B Diagram NOT 115° accurately drawn 53° A D The diagram represents a small horizontal field ABCD AB = 8 m BC = 11 m CD = 15 m ABC 115° ADC 53° Calculate, in m² to the nearest whole number, the area of the field m²
+for Question 25 C B Diagram NOT 115° accurately drawn 53° A D The diagram represents a small horizontal field ABCD AB = 8 m BC = 11 m CD = 15 m ∠ABC = 115° ∠ADC = 53° Calculate, in m² to the nearest whole number, the area of the field m²
 
 > *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
 
@@ -964,15 +964,15 @@ for Question 25 C B Diagram NOT 115° accurately drawn 53° A D The diagram repr
 
 > 0.5 × 8 ×11× sin115(= 39.877...) 5 M1 for a correct method to find the area of
 > triangle ABC
-> AC 2 = 112 + 82 − 2 ×11× 8cos115 (= 259.38...) or M1 for a correct method to find the length of
-> AC2 or AC
-> AC = 112 + 82 − 2 × 11× 8cos115(= 16.105...)
+> $AC^2$ = $11^2$ + $8^2$ − 2 ×11× 8cos115 (= 259.38...) or M1 for a correct method to find the length of
+> $AC^2$ or AC
+> AC = $11^2$ + $8^2$ − 2 × 11× 8cos115(= 16.105...)
 > ⎛ sin ( 53) ×15 ⎞ M1 for a correct method to find the angle
 > ∠CAD = sin −1 [ = 48.059...] AND ACD
 > ⎝ "16.105..." ⎠ or
 > ∠ACD = 180 − "48.059"− 53 ( = 78.94...) or
-> 16.105...2 = AD2 + 152 − 2 × AD ×15cos53 or Finding AD2 NB 2 ×15cos 53 = 18.054 …
-> AD2 = 16.105...2 + 152 − 2 ×16.105... ×15cos"78.9..." the length AD (19.79…)
+> 16.105...$^2$ = $AD^2$ + $15^2$ − 2 × AD ×15cos53 or Finding $AD^2$ NB 2 ×15cos 53 = 18.054 …
+> $AD^2$ = 16.105...$^2$ + $15^2$ − 2 ×16.105... ×15cos"78.9..." the length AD (19.79…)
 > ⎧⎪ ⎡ −1 ⎛ sin ( 53) ×15 ⎞ ⎤ ✓⎪ For splitting triangle ACD into 2 triangles
 >  [ = 10.76...]⎫
 > 2

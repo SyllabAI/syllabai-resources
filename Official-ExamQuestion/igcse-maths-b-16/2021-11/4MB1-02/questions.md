@@ -351,23 +351,23 @@ Find the area, in cm², of the parallelogram ABCD. Cosine rule : a 2 b 2 c 2 2bc
 > 2 2 2
 > (5 − −7) + (4 − −1) / ("8"− "− 4") + ("8"− "3") (= 13) coordinates of C and D ("−4" + 12, "3"+ 5 ))or correct answer.
 > Ignore working if they have [AB/CD =]13
-> [AC =] ("− 4"− 5)² + ("3"− 4) 2 = ( 82 = 9.05...)
+> [AC =] ("− 4"− 5)² + ("3"− 4)$^2$ = ( 82 = 9.05...)
 > [BD=] (M1 for correct method to find one side) Condone if not
 > labelled
-> ("8"− −7)² + ("8"− −1) 2 (= 306 = 3 34 = 17.49...)
+> ("8"− −7)² + ("8"− −1)$^2$ (= 306 = 3 34 = 17.49...)
 > Alternative:
 > N.B. Alt using coordinate geometry
 > M2 for 2 of: rectangle = 12 × 5 ( = 60), 0.5 × 9 × 1 (=4.5),
 > 0.5 × (5 + 1) × 3(=9), 0.5 × 12 × 5(=30)
 > ( Allow M1 for finding one of the areas)
-> ⎛ "82"+ 52 − "132 " ⎞ ⎡ −62 ⎤ M1 For a correct statement, ft their lengths if clearly labelled
+> ⎛ "82"+ $5^2$ − "13"$^2$ ⎞ ⎡ −62 ⎤ M1 For a correct statement, ft their lengths if clearly labelled
 > Eg cos ∠BCA = = oe or (allow on a diagram), to enable either angle BCA or angle
 > ⎝ 2 × " 82 "× 5 ⎠ ⎣ 10 82 ⎦ ABC or angle BAC to be found or area of all 4 shapes needed
-> ⎛ "13"2 + 52 − "82" ⎞ ⎡ 112 ⎤ to find area of shaded shape.
+> ⎛ "13"$^2$ + $5^2$ − "82" ⎞ ⎡ 112 ⎤ to find area of shaded shape.
 > cos ∠ABC = = oe or ∠BCA = 133.2 ∠ABC = 30.5 ∠BAC = 16.27
 > ⎝ 2 × "13"× 5 ⎠ ⎣ 130 ⎦
 > Allow use of right angled triangles eg
-> ⎛ "82"+ "13"2 − 52 ⎞ ⎡ 226 ⎤ 12
+> ⎛ "82"+ "13"$^2$ − $5^2$ ⎞ ⎡ 226 ⎤ 12
 > cos ∠BAC = = oe A = 90 − tan −1 − tan −1 [=16.27…]
 > ⎝ 2 × "13"× 82 ⎠ ⎣ 26 82 ⎦ 5
 > Area of half parallelogram = M1 correct area formula for half parallelogram, ft their angle
@@ -377,7 +377,7 @@ Find the area, in cm², of the parallelogram ABCD. Cosine rule : a 2 b 2 c 2 2bc
 > NB: A correct answer within the given range with no obvious
 > incorrect working gains full marks.
 > part (b) There are other ways see next page for most common
-> Alt 1 [AB/CD =] (5 − −7)² + (4 − −1) 2 (= 13) M1 Condone not labelled
+> Alt 1 [AB/CD =] (5 − −7)² + (4 − −1)$^2$ (= 13) M1 Condone not labelled
 > 4 − −1 5 23 M1 Correct method to find the equation of the line. Allow
 > [Line AB] y − 4 = ( x − 5) oe ⎡⎢⇒ y = x + ⎤⎥ use of point B
 > 5 − −7 ⎣ 12 12 ⎦

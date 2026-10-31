@@ -552,13 +552,13 @@ The diagram shows the right angled triangle ABC where ∠ABC is 90° and AC = 9 
 > “7.07” M1 dep Fully correct method to find either ACB
 > [cos ACB =] or ACD or a trig ratio of either.
 > ( ACB = 38.2 or 38.3) Other methods may be seen eg.
-> AB 2 = 92 − “7.07” 2 ⇒ AB = 5.57 and
-> 92 + “7.07” 2 − “5.57” 2
+> $AB^2$ = $9^2$ − “7.07”$^2$ ⇒ AB = 5.57 and
+> $9^2$ + “7.07”$^2$ − “5.57”$^2$
 > cos ACB = or
 > 2 × 9 × “7.07”
 > CD = = 7.68 and AD = “5.57” – 3 and
 > sin 23
-> 92 + “7.68” 2 − “2.57” 2
+> $9^2$ + “7.68”$^2$ − “2.57”$^2$
 > cos ACD =
 > 2 × 9 × “7.68”
 > 15.3 A1 Allow awrt 15.2 or awrt 15.3
@@ -841,9 +841,9 @@ The diagram shows a shaded region, S, formed by removing a regular hexagon from 
 > 2 × 0.5 × 8 × 8 × sin120° + 8 × 8 3 Award for sight of 96 3 or awrt 166
 > or 2 × 0.5 × (8+16) × 4 3 or
 > 2 × 0.5 × 8 3 ×8 3 × sin 60° oe
-> π r 2 − “96 3” = “96 3” or M1 indep equation involving the area of the
+> π$r^2$ − “96 3” = “96 3” or M1 indep equation involving the area of the
 > circle with their result for the area of the
-> π r 2 = 2 × “96 3” oe
+> π$r^2$ = 2 × “96 3” oe
 > hexagon.
 > 192 3 M1 dep on 3rd M mark solve their equation to
 > r= find r

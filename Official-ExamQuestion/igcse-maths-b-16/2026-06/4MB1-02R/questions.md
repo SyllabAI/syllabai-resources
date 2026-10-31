@@ -285,6 +285,8 @@ Diagram NOT accurately drawn D E 45° C 85° A B F Figure 4 In Figure 4 ABCD is 
 
 ### 6(a) [3]
 
+Diagram NOT accurately drawn D E 45° C 85° A B F Figure 4 In Figure 4 ABCD is a quadrilateral such that the points A, B, C and D lie on a circle. EAF is the tangent to the circle at the point A ∠BDC = 45° ∠ABC = 85° BD = 22 cm BC = 17 cm
+
 Find the size, to the nearest degree, of the obtuse angle BCD
 
 

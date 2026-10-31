@@ -660,17 +660,16 @@ Calculate the volume, in cm³ to 3 significant figures, of the pyramid. Area of 
 
 > (height =)15cos20 (= 14.095...) oe 5 M1
 > (side of base =)15sin20 (= 5.13...)oe eg M1
-> 152 − "14.095"2 (= 5.13)
-> 0.5 × 152 + 152 − 2 ×15 ×15 × cos 40 (=5.13)
-> Or AD = 152 + 152 − 2 ×15 ×15 × cos 40(= 10.26...)
+> $15^2$ − "14.095"$^2$ (= 5.13)
+> 0.5 × $15^2$ + $15^2$ − 2 ×15 ×15 × cos 40 (=5.13)
+> Or AD = $15^2$ + $15^2$ − 2 ×15 ×15 × cos 40(= 10.26...)
 > 1 M1
-> (area of base =) 6 × × ("5.13...") 2 ×sin(60) oe
+> (area of base =) 6 × × ("5.13...")$^2$ ×sin(60) oe
 > (=68.38...)
 > 1 1 M1
 > (volume =) × 6 × ("5.13...") 2 × sin(60) × "14.095..." oe
 > 3
 > 321(cm³) A1 awrt 321
-> Total 9 marks
 
 - **(5)** (height =)15cos20 (= 14.095...) oe 5 M1
 

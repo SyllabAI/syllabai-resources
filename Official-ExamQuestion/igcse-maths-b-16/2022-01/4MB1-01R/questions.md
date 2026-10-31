@@ -403,10 +403,10 @@ The diagram shows a right-angled triangle ABC in which ∠ ABC = 90° D is the p
 
 **Mark scheme answer**
 
-> ( AB = ) 182 − 52 (= 299 = 17.29...) or 4 M1
+> ( AB = ) $18^2$ − $5^2$ (= 299 = 17.29...) or 4 M1
 > Assuming ADC is a right-angle scores no
 > sin DAB = (DAB = 16.127...) marks
-> ( AB = ) 182 − 52 (= 299 = 17.29...) M1 for a correct statement for AB and one of
+> ( AB = ) $18^2$ − $5^2$ (= 299 = 17.29...) M1 for a correct statement for AB and one of
 > sin DAB, tan DAB or tan CAB
 > and one of
 > sin DAB = or
@@ -420,7 +420,7 @@ The diagram shows a right-angled triangle ABC in which ∠ ABC = 90° D is the p
 > 36.936... – 16.127...
 > 20.8 A1
 
-- **(4)** ( AB = ) 182 − 52 (= 299 = 17.29...) or 4 M1
+- **(4)** ( AB = ) $18^2$ − $5^2$ (= 299 = 17.29...) or 4 M1
 
 
 ## Question 20 (4 marks)
@@ -701,13 +701,13 @@ The diagram shows quadrilateral ABCD such that AB = 8.2 m BC = 5.2 m AD = 6.7 m 
 > complete method to find area of ACD e.g.,
 > (6.7)(CD)sin(180 48 59 with CD found
 > from the sine rule
-> 5.22 + 8.22 − 7.47 2 M1dep on first M mark
+> $5.2^2$ + $8.2^2$ − $7.47^2$ M1dep on first M mark
 > ABC = cos −1 ( )(= 63.2...) or
 > 2 × 5.2 × 8.2
-> 8.22 + 7.47 2 − 5.22
+> $8.2^2$ + $7.47^2$ − $5.2^2$
 > BAC = cos −1 ( )(= 38.4...) or
 > 2 × 8.2 × 7.47
-> 5.22 + 7.47 2 − 8.22
+> $5.2^2$ + $7.47^2$ − $8.2^2$
 > BCA = cos −1 ( )(= 78.4...)
 > 2 × 5.2 × 7.47
 > “18.6...” + 0.5 × 8.2 × 5.2 × sin”63.2” oe M1dep on all previous M marks
