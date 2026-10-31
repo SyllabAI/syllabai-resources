@@ -16,7 +16,7 @@ When drawing the tree diagram,
 
 ### Exam-styled questions
 
-![](https://images.znotes.org/allimages/4bfa5d9a4acf7bcd74d27024.webphttps://images.znotes.org/allimages/4bfa5d9a4acf7bcd74d27024.webphttps://images.znotes.org/allimages/4bfa5d9a4acf7bcd74d27024.webp)![](../../../assets/2c9932ef1e4f-4bfa5d9a4acf7bcd74d27024.webp)
+![](../../../assets/1a46d66ffd55-4bfa5d9a4acf7bcd74d27024.webp)![](../../../assets/2c9932ef1e4f-4bfa5d9a4acf7bcd74d27024.webp)
 
 **Answer:**
 

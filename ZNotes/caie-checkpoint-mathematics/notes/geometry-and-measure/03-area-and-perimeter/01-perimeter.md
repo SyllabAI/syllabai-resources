@@ -9,7 +9,7 @@ Perimeter refers to the total measure of sides in a 2- dimensional shape.
 * Squares, rectangles, trapezoids, parallelograms and triangles: Add the measures of all the sides.
 * Circles = 2𝜋r or 𝜋d, where **r is the radius** and **d is the diameter** of the circle. Perimeter of a circle is called “**circumference**”.
 
-![](https://images.saymedia-content.com/.image/t_share/MTc0NDY4MjY1ODA2OTMxNTkw/how-to-calculate-the-arc-length-of-a-circle-segment-and-sector-area.jpg)
+![](../../../assets/3bbdca9bccc3-how-to-calculate-the-arc-length-of-a-circle-segm.jpg)
 
 Example Questions:
 

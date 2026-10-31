@@ -77,7 +77,7 @@
 * These molecules are polar molecules, usually called dipoles
 
   * dipole is a molecule with a separation of partial positive and negative charges
-  * ![Hydrogen bonding chemical, H-bond on water molecule, labeled Dipol ...](https://tse2.mm.bing.net/th/id/OIP.DBM0\_cE6z9OzEUOAeJMBfAHaFS?r=0&pid=Api)
+  * ![Hydrogen bonding chemical, H-bond on water molecule, labeled Dipol ...](../../../assets/09fc05573499-oip.jpg)
 
 * While hydrogen bonds are easily broken, it is continually formed between water molecules as there are many water molecules in a single droplet
 

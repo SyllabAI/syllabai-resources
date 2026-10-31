@@ -18,6 +18,6 @@ Important Formulae:
 
 * Trapezoid = $\frac{a+b}{2}$ x h
 
-![Diagram of a trapezoid](https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Trapezoid.svg/1200px-Trapezoid.svg.png)
+![Diagram of a trapezoid](../../../assets/759867e31be6-1200px-trapezoid-svg.png)
 
 * Circle = $𝜋r^2$

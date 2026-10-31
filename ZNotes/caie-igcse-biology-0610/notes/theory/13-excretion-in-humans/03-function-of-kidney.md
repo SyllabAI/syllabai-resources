@@ -5,7 +5,7 @@
 
 ![](../../../assets/b2c72490ff3c-image042.png)
 
-![](https://dnalabsindia.com/storage/2025/08/hEFB4jjj1lHmi46pmCMGV.png)
+![](../../../assets/829b870d1b27-hefb4jjj1lhmi46pmcmgv.png)
 
 * **Cortex:** contains Bowman’s capsules and coiled tubules.
 * **Ureter:** carries urine from the kidney to the bladder

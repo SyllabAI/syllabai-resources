@@ -6,4 +6,4 @@ A receipt is a written or printed acknowledgment that a business has received mo
 
 * In such cases, the petty cashier issues receipts to the staff member for the amount received.
 
-![](https://templateprintables.com/wp-content/uploads/2015/08/Receipt-Form-001.jpg)
+![](../../../assets/7e72cb65d79c-receipt-form-001.jpg)

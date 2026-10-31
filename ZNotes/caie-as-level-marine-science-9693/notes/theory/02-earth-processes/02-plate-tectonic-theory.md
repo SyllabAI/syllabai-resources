@@ -22,7 +22,7 @@
 
   * This then leads to the creation of world ocean floor map which shows the prominent presence of the mid-ocean ridge
 
-    ![Ocean Floor Depth Map - 0\*QSeEueANkCXbgCMy ocean seafloor map](https://www.earthlymission.com/wp-content/uploads/2020/01/ocean\_floor.jpg)
+    ![Ocean Floor Depth Map - 0\*QSeEueANkCXbgCMy ocean seafloor map](../../../assets/f686cd6333dc-ocean-floor.jpg)
 
 * Afterwards, they studied magnetism of the ocean floor using a magnetometer to find that the magnetic field of the ocean floor was laid out in alternating stripes of normal polarity and reversed polarity.
 

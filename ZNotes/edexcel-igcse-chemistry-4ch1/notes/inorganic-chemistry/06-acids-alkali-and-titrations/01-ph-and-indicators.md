@@ -2,7 +2,7 @@
 
 ## pH and Indicators
 
-![](https://www.snexplores.org/wp-content/uploads/sites/3/2019/11/860\_SS\_pH.png?w=860)
+![](../../../assets/fa02d3317e39-860-ss-ph.png)
 
 *The pH scale runs from 0 (strongly acidic) to 14 (strongly alkaline), with 7 being neutral.*
 

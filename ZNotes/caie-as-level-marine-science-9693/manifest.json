@@ -18,11 +18,11 @@
   "modules": 1,
   "chapters": 5,
   "cards": 35,
-  "images": 9,
-  "image_failures": 5,
+  "images": 12,
+  "image_failures": 2,
   "fetch_failures": 0,
   "markdown_chars": 53407,
-  "assets_bytes": 330261
+  "assets_bytes": 1821258
  },
  "modules": [
   {
@@ -46,18 +46,32 @@
    {
     "url": "blob:https://web.whatsapp.com/e3ef70a5-132f-474d-9fb3-a5333eebd7f5",
     "error": "<urlopen error unknown url type: blob>"
+   }
+  ],
+  "images_resolved": [
+   {
+    "orig_url": "https://tse2.mm.bing.net/th/id/OIP.DBM0\\_cE6z9OzEUOAeJMBfAHaFS?r=0&pid=Api",
+    "orig_error": "HTTP Error 404: Not Found",
+    "recovered_url": "https://tse2.mm.bing.net/th/id/OIP.DBM0_cE6z9OzEUOAeJMBfAHaFS?r=0&pid=Api",
+    "strategy": "direct",
+    "asset": "09fc05573499-oip.jpg",
+    "bytes": 19126
    },
    {
-    "url": "https://tse2.mm.bing.net/th/id/OIP.DBM0\\_cE6z9OzEUOAeJMBfAHaFS?r=0&pid=Api",
-    "error": "HTTP Error 404: Not Found"
+    "orig_url": "https://www.chemicals.co.uk/wp-content/uploads/2022/02/the-pH-scale-1.png",
+    "orig_error": "html body served for image url",
+    "recovered_url": "https://wsrv.nl/?url=https%3A%2F%2Fwww.chemicals.co.uk%2Fwp-content%2Fuploads%2F2022%2F02%2Fthe-pH-scale-1.png",
+    "strategy": "wsrv",
+    "asset": "d03875aa769d-the-ph-scale-1.png",
+    "bytes": 237205
    },
    {
-    "url": "https://www.chemicals.co.uk/wp-content/uploads/2022/02/the-pH-scale-1.png",
-    "error": "html body served for image url"
-   },
-   {
-    "url": "https://www.earthlymission.com/wp-content/uploads/2020/01/ocean\\_floor.jpg",
-    "error": "HTTP Error 403: Forbidden"
+    "orig_url": "https://www.earthlymission.com/wp-content/uploads/2020/01/ocean\\_floor.jpg",
+    "orig_error": "HTTP Error 403: Forbidden",
+    "recovered_url": "https://wsrv.nl/?url=https%3A%2F%2Fwww.earthlymission.com%2Fwp-content%2Fuploads%2F2020%2F01%2Focean_floor.jpg",
+    "strategy": "wsrv",
+    "asset": "f686cd6333dc-ocean-floor.jpg",
+    "bytes": 1234666
    }
   ]
  },
@@ -108,5 +122,7 @@
    ],
    "Marine Ecosystem One Line": []
   }
- }
+ },
+ "resynced_utc": "2026-10-31T15:28:01Z",
+ "resync_task": "T-ZNOTES-2"
 }

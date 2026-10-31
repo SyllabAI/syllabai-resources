@@ -246,4 +246,4 @@ xxxx
 
 * Contra or set off accounts should always be on the **credit** side.
 
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimOiDKA5Dqfyd5DJc3ghOi-WC7hdIEPLY9fB115uTLXxLCqzZyvOak5AcbMYxIAeBEqEOgYA8mH-HpBDY-b5qEwWzZfkG\_JlFvMgvNK5O2tfIznF7wwt8sF-dln35pfA4GvTYYRDXLb4w/s1600/capture-20170317-181802.png)
+![](../../../assets/0a24d2acafd4-capture-20170317-181802.png)

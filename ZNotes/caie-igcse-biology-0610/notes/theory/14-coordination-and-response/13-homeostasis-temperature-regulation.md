@@ -31,4 +31,4 @@ Control of body temperature is a **homeostatic mechanism**
 
 - This cools the body as blood (which carries heat around the body) flows at a faster rate through the skin’s surface and so more heat is lost by radiation
 
-![](https://pmgbiology.com/wp-content/uploads/2014/05/vaso.jpg)
+![](../../../assets/d8a7b5779537-vaso.jpg)

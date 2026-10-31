@@ -22,7 +22,7 @@ In a triple column cash book, two columns are similar to the double column cash 
 
 * Most firms deal in cheques and therefore, the presence of a bank column in a cash book is helpful in understanding the transactions properly.
 
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQIgXScAgcAqY38BoDk\_lMNXwfNzsar-3H0QY2TI3meH4qPHhFJuej-1MN7SpG2xpdqHg8pWBw\_4gL1G1FM4y-Fgkd\_vGFuCbaaXqcanXNXtPxl\_0-tVRxNjWhaKrqC9D2U-vnDaOs7CshnUlHc6PG52p6ImGPyxQupvdkemCLTukwJAlSNN3njR1rqA/s16000/problem1.webp)
+![](../../../assets/67aabf599991-problem1.webp)
 
 ### Petty cash book
 

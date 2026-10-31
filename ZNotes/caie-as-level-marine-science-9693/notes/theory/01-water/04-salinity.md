@@ -42,7 +42,7 @@
 
 * Hydrogen ions are spontaneously created in pure water as they split to form H\+ (hydroxide ion) and OH- (hydroxide ion).
 
-![Chemwiki Ucdavis Edu Physical Chemistry Acids And Bases Ph Scale \| TAFT ...](https://www.chemicals.co.uk/wp-content/uploads/2022/02/the-pH-scale-1.png)
+![Chemwiki Ucdavis Edu Physical Chemistry Acids And Bases Ph Scale \| TAFT ...](../../../assets/d03875aa769d-the-ph-scale-1.png)
 
 * acidic : High conc of H\+ ions, in the scale it is below 7.0!
 

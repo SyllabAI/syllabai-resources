@@ -18,11 +18,11 @@
   "modules": 5,
   "chapters": 42,
   "cards": 269,
-  "images": 228,
-  "image_failures": 5,
+  "images": 231,
+  "image_failures": 2,
   "fetch_failures": 0,
   "markdown_chars": 333058,
-  "assets_bytes": 6736940
+  "assets_bytes": 6762170
  },
  "modules": [
   {
@@ -92,24 +92,38 @@
   "cards": [],
   "images": [
    {
-    "url": "https://img.brainkart.com/imagebk42/9tSeyvr.jpg",
-    "error": "html body served for image url"
-   },
-   {
     "url": "https://media.discordapp.net/attachments/907267454357606400/1512105523992858634/image.png?ex=6a22e182&is=6a219002&hm=06910952737cc3c5bfdb4ec35a13e22f470784fc749b19f5aa695b18cb30e787&=&format=webp&quality=lossless&width=1423&height=693",
     "error": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://thirdspacelearning.com/wp-content/uploads/2021/10/Rotations-Example-5.svg",
-    "error": "HTTP Error 403: Forbidden"
-   },
-   {
-    "url": "https://thirdspacelearning.com/wp-content/uploads/2021/10/Translation-Example-1-Step-4.svg",
-    "error": "HTTP Error 403: Forbidden"
-   },
-   {
     "url": "https://www.ixl.com/\\~media/1/wnAWAgoIYPO0Unzw4-XuKOrJVxOfMyMihAdFXAV-tpnW-gJvXuOC-RG_mSMS4Fo7MMatkNH4cyJG7O6BM5KpvM4WOc0EY_hjhBujbvwtmrg.svg",
     "error": "HTTP Error 400: Bad Request"
+   }
+  ],
+  "images_resolved": [
+   {
+    "orig_url": "https://img.brainkart.com/imagebk42/9tSeyvr.jpg",
+    "orig_error": "html body served for image url",
+    "recovered_url": "https://wsrv.nl/?url=https%3A%2F%2Fimg.brainkart.com%2Fimagebk42%2F9tSeyvr.jpg",
+    "strategy": "wsrv",
+    "asset": "fb8526c7d4da-9tseyvr.jpg",
+    "bytes": 13864
+   },
+   {
+    "orig_url": "https://thirdspacelearning.com/wp-content/uploads/2021/10/Rotations-Example-5.svg",
+    "orig_error": "HTTP Error 403: Forbidden",
+    "recovered_url": "https://wsrv.nl/?url=https%3A%2F%2Fthirdspacelearning.com%2Fwp-content%2Fuploads%2F2021%2F10%2FRotations-Example-5.svg",
+    "strategy": "wsrv",
+    "asset": "f8b438c9fcff-rotations-example-5.svg",
+    "bytes": 7162
+   },
+   {
+    "orig_url": "https://thirdspacelearning.com/wp-content/uploads/2021/10/Translation-Example-1-Step-4.svg",
+    "orig_error": "HTTP Error 403: Forbidden",
+    "recovered_url": "https://wsrv.nl/?url=https%3A%2F%2Fthirdspacelearning.com%2Fwp-content%2Fuploads%2F2021%2F10%2FTranslation-Example-1-Step-4.svg",
+    "strategy": "wsrv",
+    "asset": "5099e7bdf768-translation-example-1-step-4.svg",
+    "bytes": 4204
    }
   ]
  },
@@ -477,5 +491,7 @@
     "h"
    ]
   }
- }
+ },
+ "resynced_utc": "2026-10-31T15:28:01Z",
+ "resync_task": "T-ZNOTES-2"
 }

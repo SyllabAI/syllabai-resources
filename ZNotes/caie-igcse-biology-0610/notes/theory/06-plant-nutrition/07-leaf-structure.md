@@ -2,7 +2,7 @@
 
 Most dicotyledonous plant leaves have a **large surface area** and are **thin**.
 
-![Plant Leaf: Features, Structure, Parts, Functions, Facts](https://microbenotes.com/wp-content/uploads/2025/05/Structure-of-Plant-Leaf-Cross-Section.jpeg)
+![Plant Leaf: Features, Structure, Parts, Functions, Facts](../../../assets/af36b4ea5807-structure-of-plant-leaf-cross-section.jpeg)
 
 #|
 ||
