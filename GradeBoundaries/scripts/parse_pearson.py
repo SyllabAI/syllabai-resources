@@ -36,7 +36,14 @@ from gb_common import (PARSED, RAW, fail, manifest_lookup, monotonic_ok,
 CODE_LIKE = re.compile(r"^[4W][A-Z0-9]{1,6}$")
 CASHIN_LIKE = re.compile(r"^[XY4W][A-Z0-9]{1,6}$")
 HEADING_LIKE = re.compile(r"^[A-Za-z &/'\u2019.-]{3,35}$")
-GRADE_LABEL = re.compile(r"^(?:9|[1-8Uu]|a\*|[a-gA-G])$")
+# [1-9]{2} covers the Double Award pair grades (99 98 88 ... 21 11) printed
+# on split-ladder cash-in tables; it can only ever appear AFTER "Max Mark"
+# on a header line, so extending the label alphabet is safe.
+GRADE_LABEL = re.compile(r"^(?:9|[1-8Uu]|a\*|[a-gA-G]|[1-9]{2})$")
+# the fixed second segment of the Double Award pair ladder (grades below
+# 5-4): 4-4 4-3 3-3 3-2 2-2 2-1 1-1 + U — printed left-to-right in this
+# order in every session of the split-ladder cash-in table
+PAIR_LADDER_TAIL = ["44", "43", "33", "32", "22", "21", "11", "U"]
 
 
 def cluster_lines(words: list[dict]) -> list[list[dict]]:
@@ -109,6 +116,15 @@ def parse_doc(pdf: Path, family: str) -> tuple[list[dict], list[str]]:
     ladder_labels: list[str] = []
     section = "units"            # units | cashins (modular/IAL only)
     current: dict | None = None
+    # split-ladder stitch state (Double Award 4XSD1: the 17-grade pair
+    # ladder is printed as two segments — 99..54 values on a bare line
+    # under the header, then the code row carrying the 44..11+U labels,
+    # then those values on the next line)
+    split_ctx = False            # current cash-in header used a pair ladder
+    split_bounds1: dict | None = None
+    split_row: dict | None = None
+    split_head1: dict | None = None   # shape B: code/title/max stashed from
+                                      # the standard-parsed seg1 row
 
     words: list[dict] = []
     with pdfplumber.open(pdf) as doc:
@@ -177,6 +193,12 @@ def parse_doc(pdf: Path, family: str) -> tuple[list[dict], list[str]]:
                 # the section never changes on it
                 ladder = cand
                 ladder_labels = [g for g, _ in cand]
+                split_ctx = (section == "cashins"
+                             and any(re.fullmatch(r"[1-9]{2}", g)
+                                     for g, _ in cand))
+                split_bounds1 = None
+                split_row = None
+                split_head1 = None
                 continue
 
         labels = ladder_labels
@@ -221,6 +243,72 @@ def parse_doc(pdf: Path, family: str) -> tuple[list[dict], list[str]]:
                                             if len(toks) > 1 else
                                             text.replace("Paper(s)", "").strip())
             continue
+
+        # ---- split-ladder stitch (Double Award 4XSD1) ----
+        if section == "cashins" and split_ctx and toks \
+                and all(t.isdigit() for t in toks):
+            if split_row is None and split_bounds1 is None \
+                    and ladder is not None and len(toks) == len(ladder):
+                seg1 = parse_values(line, ladder, 0)
+                if any(v is not None for v in seg1.values()):
+                    split_bounds1 = seg1
+                    continue
+            if split_row is not None:
+                seg2 = parse_values(line, split_row["labels"], 0)
+                bounds = {**(split_bounds1 or {}), **seg2}
+                ok = monotonic_ok(bounds, [g for g, _ in split_row["labels"]])
+                if current is None:
+                    new_subject(None)
+                current["cashIns"].append({
+                    "code": split_row["code"], "title": split_row["title"],
+                    "maxMark": split_row["maxMark"], "boundaries": bounds,
+                    "ok": ok})
+                current["reviewRequired"] = current["reviewRequired"] or not ok
+                split_row = None
+                continue
+            if split_row is None and split_bounds1 is None and split_head1 is not None \
+                    and len(toks) == len(PAIR_LADDER_TAIL):
+                # June-2025 shape: the second segment's grade labels are not
+                # in the text layer at all — only the values line is. The
+                # pair-ladder tail is fixed by the qualification structure
+                # (4-4, 4-3, 3-3, 3-2, 2-2, 2-1, 1-1, U) and the values are
+                # printed left-to-right, so they pair in order (verified
+                # equal to the June 2026 session where the labels ARE
+                # present and align positionally: 192/168/144/120/96/72/48/0).
+                bounds = {**split_head1["bounds"], **dict(zip(
+                    PAIR_LADDER_TAIL, (int(t) for t in toks)))}
+                ok = monotonic_ok(bounds, PAIR_LADDER_TAIL)
+                if current is None:
+                    new_subject(None)
+                current["cashIns"].append({
+                    "code": split_head1["code"],
+                    "title": split_head1["title"],
+                    "maxMark": split_head1["maxMark"],
+                    "boundaries": bounds, "ok": ok})
+                current["reviewRequired"] = current["reviewRequired"] or not ok
+                split_head1 = None
+                continue
+
+        # ---- split-ladder code row (Double Award 4XSD1): the trailing
+        # tokens are the second segment's grade labels, and the 'UMS' scale
+        # word may or may not cluster onto this line
+        if section == "cashins" and split_ctx and split_bounds1 is not None \
+                and split_row is None and toks \
+                and CASHIN_LIKE.match(toks[0]):
+            run = len(toks)
+            while run > 0 and GRADE_LABEL.match(toks[run - 1]):
+                run -= 1
+            if len(toks) - run >= 4 and run > 0 \
+                    and toks[run - 1].isdigit():
+                label_words = line[-(len(toks) - run):]
+                title_toks = [t for t in toks[1:run - 1] if t != "UMS"]
+                split_row = {
+                    "code": toks[0],
+                    "title": norm_ws(" ".join(title_toks)),
+                    "maxMark": int(toks[run - 1]),
+                    "labels": [(w["text"], xc(w)) for w in label_words],
+                }
+                continue
 
         # ---- MODULAR / IAL unit row (glue-aware: pdfplumber can fuse the
         # title with the scale word, e.g. '…Organic ChemistryRaw 80 59 …') ----
@@ -321,6 +409,17 @@ def parse_doc(pdf: Path, family: str) -> tuple[list[dict], list[str]]:
             bounds = parse_values(line, ladder, val_start)
             if current is None:
                 new_subject(None)
+            # shape B (June 2025): a pair-ladder code row carries the seg1
+            # VALUES — stash instead of appending, the seg2 values line
+            # completes it
+            if split_ctx and split_row is None and split_bounds1 is None \
+                    and split_head1 is None and ladder_labels \
+                    and re.fullmatch(r"[1-9]{2}", ladder_labels[0]) \
+                    and set(bounds) == set(ladder_labels) \
+                    and all(v is not None for v in bounds.values()):
+                split_head1 = {"code": code, "title": title,
+                               "maxMark": max_mark, "bounds": bounds}
+                continue
             ok = monotonic_ok(bounds, labels)
             current["cashIns"].append({
                 "code": code, "title": title, "maxMark": max_mark,

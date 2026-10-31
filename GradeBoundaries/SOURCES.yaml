@@ -36,16 +36,22 @@ pearson:
   verification: "%PDF magic + final URL must not be /en/campaigns/404.html"
 
 cambridge:
-  listing: https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-upper-secondary/cambridge-igcse/grade-threshold-tables (+ cambridge-advanced/... ; JS-rendered, not crawlable)
+  listing: https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-upper-secondary/cambridge-igcse/grade-threshold-tables (+ cambridge-advanced/...)
+  note: T-GRADE-2 correction — the per-session listing pages ARE server-rendered; fetch_cie.py crawls them (8 pages per run) and harvests /Images/<id>-…-grade-threshold-table.pdf links for the wanted syllabi. CIE_IDS remains as a verified known-ID fallback seed.
   base: https://www.cambridgeinternational.org/Images
-  law: known-ID registry in fetch_cie.py CIE_IDS (id + exact published filename)
-  covers_seed:
-    "0620": ["June 2025", "June 2026"]
-    "0625": ["June 2024", "June 2026"]
-    "0580": ["June 2025", "June 2026"]
-    "9609": ["June 2026"]
-    "9700": ["June 2026"]
-    "9701": ["June 2026"]
+  sessions: June 2026, June 2025, November 2025, November 2024 (both programme levels)
+  wanted_codes: the 31 course-map syllabi (see scripts/fetch_cie.py WANTED_CODES)
+  honest_absences:
+    "0490": "no June 2025/June 2026 award in CIE listings; November 2024/November 2025 present"
+    "0264": "first assessment March 2027 (official CIE syllabus page) — no boundary documents exist yet"
+
+structure_metadata:
+  file: curated/aggregation.json
+  sources:
+    - https://qualifications.pearson.com/content/dam/pdf/Support/Information-manual/4-ial-2025-2026.pdf (IAL cash-in compositions)
+    - https://qualifications.pearson.com/en/support/support-topics/results-certification/understanding-marks-and-grades/understanding-your-results-information-for-students/edexcel-international-advanced-level-results-explained.html (A* rules)
+    - https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/Science%20(Double%20Award)/2024/specification-and-sample-assessments/international-gcse-science-da-modular-specification.pdf (4XSD1 unit structure)
+  law: composition/structure metadata only; boundary values always document-sourced
 
 sessions_probed: January/June/October/November 2019-2026 (covid gaps + unpublished
   docs recorded in raw/fetch-missing.json)
