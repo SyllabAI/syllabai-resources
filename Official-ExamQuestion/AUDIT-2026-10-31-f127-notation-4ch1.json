@@ -1,0 +1,79 @@
+{
+ "schema": "syllabai.notation-pass-receipt/1.0",
+ "wave": "F127",
+ "task": "T-OEQ-NOTATION-1",
+ "order": "scope it as the next pass -> Proceed",
+ "generated_utc": "2026-10-31",
+ "data_cut": "rebased onto resources main e967e75f (the wave's original base 8f6a6a80 was orphaned upstream mid-flight; the repaired corpus re-verified BYTE-IDENTICAL across the rebase — the chemistry corpus never moved)",
+ "classification": "ADR-039 Mode A (presentation/notation repair; digit VALUES untouched)",
+ "universe": {
+  "slices": 54,
+  "parts": 2607,
+  "token_ledger": 485,
+  "withhold": 48,
+  "exclude": 25,
+  "corpus_token_applications": 4678,
+  "applied_by_class": {
+   "dispatch-multi-formula": 2326,
+   "dispatch-single-ion": 173,
+   "dispatch-single-molecule": 548,
+   "coeff-dispatch-molecule": 53,
+   "coeff-formula": 371,
+   "dispatch-single-formula": 102,
+   "coeff-dispatch-formula": 13,
+   "unit": 854,
+   "coeff-charge-sup": 59,
+   "bracket-mult": 46,
+   "var_formula": 49,
+   "dispatch-multi-ion": 61,
+   "coeff-dispatch-ion": 7,
+   "ion_token": 4,
+   "titration": 12
+  },
+  "bracket_multiplier_subscripts": 153,
+  "occurrence_skips": 4,
+  "skip_law": "detached-sign ions-table layout (Mg2/Al3/S2/CO32) — stay flat, logged"
+ },
+ "fields_repaired": [
+  "problem_md",
+  "stem_md",
+  "group_stem_md",
+  "mark_points[].text_md",
+  "choices[].text_md",
+  "solution_md (corpus + SOLUTION-ENRICH.json lockstep)",
+  "assets alt/note (census: none carried tokens)"
+ ],
+ "anchors_and_pins": {
+  "stem_restore_tails": 16,
+  "cut_span_anchors": 11,
+  "canary_match_strings": 2,
+  "canary_part_field_sha_pins": 19,
+  "f121_battery_constants": 2
+ },
+ "gated_run": {
+  "G-E1": "967 deltas == the disclosure exactly (54 sets, new=0/gone=0)",
+  "G-E2": "ok",
+  "G-E3": "ok — 54 slices / 4860 marks",
+  "G-E4": "ok — questions.json byte-identical passthrough (2605409 B, 28 SME sets)",
+  "G-E6": "ok — 2607/2607 labels",
+  "G-E7": "ok — 567 stems / 46 cuts / 1 part cut, post-re-repair anchors",
+  "new_bundle_sha256_16": "135ca487ac9b71dd"
+ },
+ "batteries": {
+  "f121": "149/149 PASS (2 corpus-text pins re-derived)",
+  "strip_law": "29/29 PASS",
+  "f116": "PASS",
+  "f117": "PASS",
+  "f118": "PASS",
+  "f119": "PASS",
+  "canaries": "165 PASS / 49 FAIL on the JSON-only local subset — every failure missing-infrastructure (validation-reports, asset PNGs, spec-labels, FIGURE-QUEUE, CROSS-DIFF, physics/maths lanes, G9 harness deps); ZERO byte-regressions; repair-pinned families (C50/C111/C112/19 sha pins) PASS; independent PUA scan 0",
+  "pua_scan": "0 PUA chars across 54 topics + SOLUTION-ENRICH + STEM-RESTORE"
+ },
+ "scope_extension_disclosed": "solution_md + SOLUTION-ENRICH.json joined the field universe — the authored layer carried the same flat class; repaired in lockstep",
+ "deviation_disclosed": "context-verified token adjudication replaced the scope's QP-page contact sheets; page renders remain the evidence path for promoted withholds",
+ "not_checked": [
+  "physics/maths-B lanes (same class — future wave)",
+  "G9 rendered benchmark + live probe (ride the companion deploy)"
+ ],
+ "residuals": "none new; withhold list filed for human review"
+}

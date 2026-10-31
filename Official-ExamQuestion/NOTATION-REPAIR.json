@@ -1,0 +1,2585 @@
+{
+ "schema": "syllabai.notation-repair/1.0",
+ "doctrine": "ADR-039 Mode A; every repair is source-page-supported typography (digit VALUES unchanged); the replacer is fail-closed — any candidate token absent from this ledger ABORTS the run; guard classes resolve per occurrence (adjacent charge sign -> ion; '(' -> formula; detached charge -> skip+log)",
+ "sign_convention": "digits after element symbols -> subscripts; trailing charge -> superscript; coefficients stay flat; bracket multipliers after ')' subscript",
+ "withhold_families": [
+  "isotopes (73Li/6Li/7Li/24Mg/25Mg/26Mg/20Ne/22Ne/19F/18F/35Cl/37Cl/Cl35Cl/Cl37Cl/37Cl37Cl/37Cl35Cl/Cu-/Mg-) — superscript-prefix repositioning needs page evidence (Mode C)",
+  "MS-quoted wrong-answer formulas (KSO4/N2Mg3/NH3CO3/NH4CO3/2CH4COO/MgCL2) — the text QUOTES a wrong answer; repairing would falsify the quote",
+  "sign-first ALLOW variants (Al+/Cu+/Na+/2S2/2SO42/Mg+)",
+  "garbled/typo tokens (MgFl2/NH41/H3O/YH2O/F2Z/ZF2/F2Mg/CH3CH/CHCH2CH3)",
+  "spaced-equation fragments (H4/H6/H8/2C2/3H7OH)",
+  "bond dashes (C-/H-/O-/Br-/Cl-) and method bullets",
+  "prose noise (3D/2D/U-/M1-/1SF/J-values/answer references)"
+ ],
+ "tokens": {
+  "Sr2": {
+   "class": "dispatch",
+   "dispatch": "single",
+   "in_molecules": false,
+   "repair": null
+  },
+  "N2": {
+   "class": "dispatch",
+   "dispatch": "single",
+   "in_molecules": true,
+   "repair": null
+  },
+  "3H2": {
+   "class": "coeff_dispatch",
+   "repair": null,
+   "dispatch": "single",
+   "lead": "3"
+  },
+  "2NH3": {
+   "class": "coeff_formula",
+   "repair": "2NH₃",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "3D": {
+   "class": "exclude",
+   "repair": null
+  },
+  "C2H4": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "O2": {
+   "class": "dispatch",
+   "dispatch": "single",
+   "in_molecules": true,
+   "repair": null
+  },
+  "2C2H4Cl2": {
+   "class": "coeff_formula",
+   "repair": "2C₂H₄Cl₂",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "2H2O": {
+   "class": "coeff_formula",
+   "repair": "2H₂O",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "Br2": {
+   "class": "dispatch",
+   "dispatch": "single",
+   "in_molecules": true,
+   "repair": null
+  },
+  "CBrF3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "C5H12": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "C5H10Br2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "H2": {
+   "class": "dispatch",
+   "dispatch": "single",
+   "in_molecules": true,
+   "repair": null
+  },
+  "C5H11Br": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "U-": {
+   "class": "exclude",
+   "repair": null
+  },
+  "CH4": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "CO2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "CaCO3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "NH4NO3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "cm3": {
+   "class": "unit",
+   "repair": "cm³"
+  },
+  "2H": {
+   "class": "coeff",
+   "repair": null
+  },
+  "CuSO4": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "5H2O": {
+   "class": "coeff_formula",
+   "repair": "5H₂O",
+   "dispatch": "multi",
+   "lead": "5"
+  },
+  "Fe2": {
+   "class": "dispatch",
+   "dispatch": "single",
+   "in_molecules": false,
+   "repair": null
+  },
+  "NH4": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "SO4": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "H2O": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "2SO4": {
+   "class": "coeff_formula",
+   "repair": "2SO₄",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "4Na": {
+   "class": "coeff",
+   "repair": null
+  },
+  "2Na2O": {
+   "class": "coeff_formula",
+   "repair": "2Na₂O",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "8O2": {
+   "class": "coeff_dispatch",
+   "repair": null,
+   "dispatch": "single",
+   "lead": "8"
+  },
+  "5CO2": {
+   "class": "coeff_formula",
+   "repair": "5CO₂",
+   "dispatch": "multi",
+   "lead": "5"
+  },
+  "6H2O": {
+   "class": "coeff_formula",
+   "repair": "6H₂O",
+   "dispatch": "multi",
+   "lead": "6"
+  },
+  "2HCl": {
+   "class": "coeff",
+   "repair": null
+  },
+  "CaCl2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "C2H3Cl": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "Fe3": {
+   "class": "dispatch",
+   "dispatch": "single",
+   "in_molecules": false,
+   "repair": null
+  },
+  "FeCl3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "C2H4Cl2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "Mg2": {
+   "class": "dispatch",
+   "dispatch": "single",
+   "in_molecules": false,
+   "repair": null
+  },
+  "NO3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "C60": {
+   "class": "dispatch",
+   "dispatch": "single",
+   "in_molecules": true,
+   "repair": null
+  },
+  "CH3OH": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "C2H5OH": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "CH3COONa": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "NaCH3COO": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "N2O4": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "NO2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "mol/dm3": {
+   "class": "unit",
+   "repair": "mol/dm³"
+  },
+  "SO3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "SO2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "K2CO3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "2CH3COOH": {
+   "class": "coeff_formula",
+   "repair": "2CH₃COOH",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "2CH3COOK": {
+   "class": "coeff_formula",
+   "repair": "2CH₃COOK",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "2CH3": {
+   "class": "coeff_formula",
+   "repair": "2CH₃",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "2KCH3COO": {
+   "class": "coeff_formula",
+   "repair": "2KCH₃COO",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "dm3": {
+   "class": "unit",
+   "repair": "dm³"
+  },
+  "2Al": {
+   "class": "coeff",
+   "repair": null
+  },
+  "2Fe": {
+   "class": "coeff",
+   "repair": null
+  },
+  "Al3": {
+   "class": "dispatch",
+   "dispatch": "single",
+   "in_molecules": false,
+   "repair": null
+  },
+  "S2": {
+   "class": "dispatch",
+   "dispatch": "single",
+   "in_molecules": false,
+   "repair": null
+  },
+  "Al2S3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "Al2": {
+   "class": "dispatch",
+   "dispatch": "single",
+   "in_molecules": false,
+   "repair": null
+  },
+  "CO32": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "MgCO3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "CO3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "2S": {
+   "class": "coeff",
+   "repair": null
+  },
+  "2CO3": {
+   "class": "coeff_formula",
+   "repair": "2CO₃",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "CH2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "C2H4F2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "2CH2F": {
+   "class": "coeff_formula",
+   "repair": "2CH₂F",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "I2": {
+   "class": "dispatch",
+   "dispatch": "single",
+   "in_molecules": true,
+   "repair": null
+  },
+  "2NaI": {
+   "class": "coeff",
+   "repair": null
+  },
+  "2NaBr": {
+   "class": "coeff",
+   "repair": null
+  },
+  "2I": {
+   "class": "coeff",
+   "repair": null
+  },
+  "2Br": {
+   "class": "coeff",
+   "repair": null
+  },
+  "Cu2": {
+   "class": "dispatch",
+   "dispatch": "single",
+   "in_molecules": false,
+   "repair": null
+  },
+  "4NH3": {
+   "class": "coeff_formula",
+   "repair": "4NH₃",
+   "dispatch": "multi",
+   "lead": "4"
+  },
+  "5O2": {
+   "class": "coeff_dispatch",
+   "repair": null,
+   "dispatch": "single",
+   "lead": "5"
+  },
+  "4NO": {
+   "class": "coeff",
+   "repair": null
+  },
+  "2NO": {
+   "class": "coeff",
+   "repair": null
+  },
+  "2NO2": {
+   "class": "coeff_formula",
+   "repair": "2NO₂",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "HNO3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "C9": {
+   "class": "exclude",
+   "repair": null
+  },
+  "A4": {
+   "class": "exclude",
+   "repair": null
+  },
+  "Z2": {
+   "class": "dispatch",
+   "dispatch": "single",
+   "in_molecules": true,
+   "repair": null
+  },
+  "Y2": {
+   "class": "dispatch",
+   "dispatch": "single",
+   "in_molecules": true,
+   "repair": null
+  },
+  "X2": {
+   "class": "dispatch",
+   "dispatch": "single",
+   "in_molecules": true,
+   "repair": null
+  },
+  "3Cl2": {
+   "class": "coeff_dispatch",
+   "repair": null,
+   "dispatch": "single",
+   "lead": "3"
+  },
+  "2FeCl3": {
+   "class": "coeff_formula",
+   "repair": "2FeCl₃",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "NH41": {
+   "class": "withhold",
+   "repair": null
+  },
+  "162J": {
+   "class": "exclude",
+   "repair": null
+  },
+  "Ca2": {
+   "class": "dispatch",
+   "dispatch": "single",
+   "in_molecules": false,
+   "repair": null
+  },
+  "H4": {
+   "class": "withhold",
+   "repair": null
+  },
+  "3C": {
+   "class": "coeff",
+   "repair": null
+  },
+  "3CO": {
+   "class": "coeff",
+   "repair": null
+  },
+  "Fe2O3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "C7H16": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "Al2O3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "SiO2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "C11H24": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "C4H8": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "C6H12": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "C3H6": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "2C3H6": {
+   "class": "coeff_formula",
+   "repair": "2C₃H₆",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "2NaOH": {
+   "class": "coeff",
+   "repair": null
+  },
+  "H2SO4": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "2H2O2": {
+   "class": "coeff_formula",
+   "repair": "2H₂O₂",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "C2H6O": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "3O2": {
+   "class": "coeff_dispatch",
+   "repair": null,
+   "dispatch": "single",
+   "lead": "3"
+  },
+  "2CO2": {
+   "class": "coeff_formula",
+   "repair": "2CO₂",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "3H2O": {
+   "class": "coeff_formula",
+   "repair": "3H₂O",
+   "dispatch": "multi",
+   "lead": "3"
+  },
+  "2Mg": {
+   "class": "coeff",
+   "repair": null
+  },
+  "2MgO": {
+   "class": "coeff",
+   "repair": null
+  },
+  "Ba2": {
+   "class": "dispatch",
+   "dispatch": "single",
+   "in_molecules": false,
+   "repair": null
+  },
+  "SO42": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "BaSO4": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "AgNO3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "Pb2": {
+   "class": "dispatch",
+   "dispatch": "single",
+   "in_molecules": false,
+   "repair": null
+  },
+  "2Li": {
+   "class": "coeff",
+   "repair": null
+  },
+  "2LiOH": {
+   "class": "coeff",
+   "repair": null
+  },
+  "H6": {
+   "class": "withhold",
+   "repair": null
+  },
+  "C2H6": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "Cl2": {
+   "class": "dispatch",
+   "dispatch": "single",
+   "in_molecules": true,
+   "repair": null
+  },
+  "CH3Cl": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "Q5": {
+   "class": "exclude",
+   "repair": null
+  },
+  "C3H8": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "C4H10": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "CH3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "2NaCl": {
+   "class": "coeff",
+   "repair": null
+  },
+  "Q7": {
+   "class": "exclude",
+   "repair": null
+  },
+  "Q8": {
+   "class": "exclude",
+   "repair": null
+  },
+  "Na2CO3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "NaHCO3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "Q9": {
+   "class": "exclude",
+   "repair": null
+  },
+  "Pb3O4": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "4HNO3": {
+   "class": "coeff_formula",
+   "repair": "4HNO₃",
+   "dispatch": "multi",
+   "lead": "4"
+  },
+  "2Pb": {
+   "class": "coeff",
+   "repair": null
+  },
+  "PbO2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "CH3O": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "C2H6O2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "ZnSO4": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "7H2O": {
+   "class": "coeff_formula",
+   "repair": "7H₂O",
+   "dispatch": "multi",
+   "lead": "7"
+  },
+  "B5": {
+   "class": "exclude",
+   "repair": null
+  },
+  "PbCO3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "2PbO": {
+   "class": "coeff",
+   "repair": null
+  },
+  "C3H6O2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "4CO": {
+   "class": "coeff",
+   "repair": null
+  },
+  "C4H6": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "2C": {
+   "class": "coeff",
+   "repair": null
+  },
+  "BaCl2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "2KOH": {
+   "class": "coeff",
+   "repair": null
+  },
+  "2KCl": {
+   "class": "coeff",
+   "repair": null
+  },
+  "C12H26": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "F2": {
+   "class": "dispatch",
+   "dispatch": "single",
+   "in_molecules": true,
+   "repair": null
+  },
+  "2LiF": {
+   "class": "coeff",
+   "repair": null
+  },
+  "2O2": {
+   "class": "coeff_dispatch",
+   "repair": null,
+   "dispatch": "single",
+   "lead": "2"
+  },
+  "3O": {
+   "class": "coeff",
+   "repair": null
+  },
+  "2O": {
+   "class": "coeff",
+   "repair": null
+  },
+  "3H": {
+   "class": "coeff",
+   "repair": null
+  },
+  "C-": {
+   "class": "exclude",
+   "repair": null
+  },
+  "O-": {
+   "class": "exclude",
+   "repair": null
+  },
+  "5C": {
+   "class": "coeff",
+   "repair": null
+  },
+  "4C": {
+   "class": "coeff",
+   "repair": null
+  },
+  "6O": {
+   "class": "coeff",
+   "repair": null
+  },
+  "2HCOOH": {
+   "class": "coeff",
+   "repair": null
+  },
+  "2HCOONa": {
+   "class": "coeff",
+   "repair": null
+  },
+  "PbI2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "2KI": {
+   "class": "coeff",
+   "repair": null
+  },
+  "2KNO3": {
+   "class": "coeff_formula",
+   "repair": "2KNO₃",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "4400J": {
+   "class": "exclude",
+   "repair": null
+  },
+  "4368J": {
+   "class": "exclude",
+   "repair": null
+  },
+  "C3H7Br": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "YH2O": {
+   "class": "withhold",
+   "repair": null
+  },
+  "C13H28": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "C8H18": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "C5H10": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "CuCO3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "ZnCl2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "2Cs": {
+   "class": "coeff",
+   "repair": null
+  },
+  "2CsOH": {
+   "class": "coeff",
+   "repair": null
+  },
+  "CaSO4": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "Al3+": {
+   "class": "ion_token",
+   "repair": "Al³⁺"
+  },
+  "⟨DOT⟩": {
+   "class": "exclude",
+   "repair": null,
+   "note": "method-step bullet furniture, not hydrate dots"
+  },
+  "2AgCl": {
+   "class": "coeff",
+   "repair": null
+  },
+  "2Cl": {
+   "class": "coeff",
+   "repair": null
+  },
+  "At2": {
+   "class": "dispatch",
+   "dispatch": "single",
+   "in_molecules": true,
+   "repair": null
+  },
+  "4A": {
+   "class": "exclude",
+   "repair": null
+  },
+  "C4H9OH": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "CH3COOH": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "CH3COOCH3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "NH4Cl": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "NH3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "20Ne": {
+   "class": "withhold",
+   "repair": null
+  },
+  "22Ne": {
+   "class": "withhold",
+   "repair": null
+  },
+  "2C2H6": {
+   "class": "coeff_formula",
+   "repair": "2C₂H₆",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "7O2": {
+   "class": "coeff_dispatch",
+   "repair": null,
+   "dispatch": "single",
+   "lead": "7"
+  },
+  "4CO2": {
+   "class": "coeff_formula",
+   "repair": "4CO₂",
+   "dispatch": "multi",
+   "lead": "4"
+  },
+  "2194J": {
+   "class": "coeff",
+   "repair": null
+  },
+  "PbCl2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "2HNO3": {
+   "class": "coeff_formula",
+   "repair": "2HNO₃",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "C9H20": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "C6H12O6": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "2C2H5OH": {
+   "class": "coeff_formula",
+   "repair": "2C₂H₅OH",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "2C2H6O": {
+   "class": "coeff_formula",
+   "repair": "2C₂H₆O",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "2Na": {
+   "class": "coeff",
+   "repair": null
+  },
+  "3NaOH": {
+   "class": "coeff",
+   "repair": null
+  },
+  "2H2S": {
+   "class": "coeff_formula",
+   "repair": "2H₂S",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "H2S": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "K2O": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "4H": {
+   "class": "coeff",
+   "repair": null
+  },
+  "4OH": {
+   "class": "coeff",
+   "repair": null
+  },
+  "4Al": {
+   "class": "coeff",
+   "repair": null
+  },
+  "3H7OH": {
+   "class": "withhold",
+   "repair": null
+  },
+  "2HI": {
+   "class": "coeff",
+   "repair": null
+  },
+  "2HF": {
+   "class": "coeff",
+   "repair": null
+  },
+  "Na2O2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "CH3Br": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "C2H4Cl": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "C4H8Cl2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "C7": {
+   "class": "exclude",
+   "repair": null
+  },
+  "MgCl2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "C10H16": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "C5H8": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "KHCO3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "HNO2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "C10H22": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "CH2O": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "K2Cr2O7": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "H2S2O7": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "2H2SO4": {
+   "class": "coeff_formula",
+   "repair": "2H₂SO₄",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "Cl-": {
+   "class": "exclude",
+   "repair": null
+  },
+  "Cu-": {
+   "class": "withhold",
+   "repair": null
+  },
+  "6PbO": {
+   "class": "coeff",
+   "repair": null
+  },
+  "XCO3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "SiH4": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "2Ag": {
+   "class": "coeff",
+   "repair": null
+  },
+  "WO3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "2LiCl": {
+   "class": "coeff",
+   "repair": null
+  },
+  "HCOOCH3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "HOOCCH2CH2COOH": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "HOCH2CH2OH": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "TiO2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "KMnO4": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "C2H5": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "CH2CH2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "CH3CH2CH3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "H8": {
+   "class": "withhold",
+   "repair": null
+  },
+  "Cu+": {
+   "class": "withhold",
+   "repair": null
+  },
+  "CH3COOC4H9": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "K2SO4": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "KSO4": {
+   "class": "withhold",
+   "repair": null
+  },
+  "3Mg": {
+   "class": "coeff",
+   "repair": null
+  },
+  "CHCl3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "CHCH2CH3": {
+   "class": "withhold",
+   "repair": null
+  },
+  "CH2CHCH2CH3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "C4H9Br": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "Mg3N2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "N2Mg3": {
+   "class": "withhold",
+   "repair": null
+  },
+  "600J": {
+   "class": "exclude",
+   "repair": null
+  },
+  "CH3CH2CH2CH3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "2C2": {
+   "class": "withhold",
+   "repair": null
+  },
+  "2Zn": {
+   "class": "coeff",
+   "repair": null
+  },
+  "2ZnO": {
+   "class": "coeff",
+   "repair": null
+  },
+  "4NO2": {
+   "class": "coeff_formula",
+   "repair": "4NO₂",
+   "dispatch": "multi",
+   "lead": "4"
+  },
+  "12H2O": {
+   "class": "coeff_formula",
+   "repair": "12H₂O",
+   "dispatch": "multi",
+   "lead": "12"
+  },
+  "CH3CH2OH": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "P3": {
+   "class": "dispatch",
+   "dispatch": "single",
+   "in_molecules": false,
+   "repair": null
+  },
+  "Ca3": {
+   "class": "dispatch",
+   "dispatch": "single",
+   "in_molecules": false,
+   "repair": null
+  },
+  "Ca3P2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "PO4": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "3Ca": {
+   "class": "coeff",
+   "repair": null
+  },
+  "2PH3": {
+   "class": "coeff_formula",
+   "repair": "2PH₃",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "FeSO4": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "C2H3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "AlCl3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "2KBr": {
+   "class": "coeff",
+   "repair": null
+  },
+  "C5H11OH": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "B4": {
+   "class": "exclude",
+   "repair": null
+  },
+  "Na2SO4": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "73Li": {
+   "class": "withhold",
+   "repair": null
+  },
+  "36Li": {
+   "class": "withhold",
+   "repair": null
+  },
+  "C12H24": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "2Ca": {
+   "class": "coeff",
+   "repair": null
+  },
+  "2CaO": {
+   "class": "coeff",
+   "repair": null
+  },
+  "CH3CH": {
+   "class": "withhold",
+   "repair": null
+  },
+  "C3H8O": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "Na2S": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "Na+": {
+   "class": "withhold",
+   "repair": null
+  },
+  "2S2": {
+   "class": "withhold",
+   "repair": null
+  },
+  "H3PO4": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "1SF": {
+   "class": "coeff",
+   "repair": null
+  },
+  "C2H5Br": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "C2H5OBr": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "H3O": {
+   "class": "withhold",
+   "repair": null
+  },
+  "CH3COO": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "2C2H4O2": {
+   "class": "coeff_formula",
+   "repair": "2C₂H₄O₂",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "2CH4COO": {
+   "class": "withhold",
+   "repair": null
+  },
+  "CH3CH2COOCH3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "6HCl": {
+   "class": "coeff",
+   "repair": null
+  },
+  "2AlCl3": {
+   "class": "coeff_formula",
+   "repair": "2AlCl₃",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "ZF2": {
+   "class": "withhold",
+   "repair": null
+  },
+  "MgF2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "F2Mg": {
+   "class": "withhold",
+   "repair": null
+  },
+  "F2Z": {
+   "class": "withhold",
+   "repair": null
+  },
+  "MgFl2": {
+   "class": "withhold",
+   "repair": null
+  },
+  "C4H5N2O": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "Al+": {
+   "class": "withhold",
+   "repair": null
+  },
+  "NH3CO3": {
+   "class": "withhold",
+   "repair": null
+  },
+  "NH4CO3": {
+   "class": "withhold",
+   "repair": null
+  },
+  "5CO": {
+   "class": "coeff",
+   "repair": null
+  },
+  "9H2O": {
+   "class": "coeff_formula",
+   "repair": "9H₂O",
+   "dispatch": "multi",
+   "lead": "9"
+  },
+  "Zn2": {
+   "class": "dispatch",
+   "dispatch": "single",
+   "in_molecules": false,
+   "repair": null
+  },
+  "Zn2+": {
+   "class": "ion_token",
+   "repair": "Zn²⁺"
+  },
+  "2SO42": {
+   "class": "withhold",
+   "repair": null
+  },
+  "2Ta": {
+   "class": "coeff",
+   "repair": null
+  },
+  "2TaCl5": {
+   "class": "coeff_formula",
+   "repair": "2TaCl₅",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "5H2": {
+   "class": "coeff_dispatch",
+   "repair": null,
+   "dispatch": "single",
+   "lead": "5"
+  },
+  "10HCl": {
+   "class": "coeff",
+   "repair": null
+  },
+  "KNO3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "NaNO3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "C2H4O2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "CH3OOCH": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "CH3COOCH2CH2CH2CH3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "C6H12O2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "PbBr2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "63Li": {
+   "class": "withhold",
+   "repair": null
+  },
+  "xH2O": {
+   "class": "var_formula",
+   "repair": "xH₂O"
+  },
+  "3N": {
+   "class": "coeff",
+   "repair": null
+  },
+  "MgSO4": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "2CO": {
+   "class": "coeff",
+   "repair": null
+  },
+  "20000J": {
+   "class": "exclude",
+   "repair": null
+  },
+  "2PbS": {
+   "class": "coeff",
+   "repair": null
+  },
+  "2SO2": {
+   "class": "coeff_formula",
+   "repair": "2SO₂",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "M1-": {
+   "class": "exclude",
+   "repair": null
+  },
+  "PO43": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "2H3PO4": {
+   "class": "coeff_formula",
+   "repair": "2H₃PO₄",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "2C4H10": {
+   "class": "coeff_formula",
+   "repair": "2C₄H₁₀",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "13O2": {
+   "class": "coeff_dispatch",
+   "repair": null,
+   "dispatch": "single",
+   "lead": "13"
+  },
+  "8CO2": {
+   "class": "coeff_formula",
+   "repair": "8CO₂",
+   "dispatch": "multi",
+   "lead": "8"
+  },
+  "10H2O": {
+   "class": "coeff_formula",
+   "repair": "10H₂O",
+   "dispatch": "multi",
+   "lead": "10"
+  },
+  "2D": {
+   "class": "exclude",
+   "repair": null
+  },
+  "C2H4Br2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "6Li": {
+   "class": "withhold",
+   "repair": null
+  },
+  "7Li": {
+   "class": "withhold",
+   "repair": null
+  },
+  "24Mg": {
+   "class": "withhold",
+   "repair": null
+  },
+  "25Mg": {
+   "class": "withhold",
+   "repair": null
+  },
+  "26Mg": {
+   "class": "withhold",
+   "repair": null
+  },
+  "2At": {
+   "class": "coeff",
+   "repair": null
+  },
+  "H-": {
+   "class": "exclude",
+   "repair": null
+  },
+  "Mg+": {
+   "class": "withhold",
+   "repair": null
+  },
+  "2CH3COONa": {
+   "class": "coeff_formula",
+   "repair": "2CH₃COONa",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "2NaCH3COO": {
+   "class": "coeff_formula",
+   "repair": "2NaCH₃COO",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "2NaOOCCH3": {
+   "class": "coeff_formula",
+   "repair": "2NaOOCCH₃",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "C1": {
+   "class": "titration",
+   "repair": "C₁"
+  },
+  "V1": {
+   "class": "titration",
+   "repair": "V₁"
+  },
+  "C2": {
+   "class": "titration",
+   "repair": "C₂"
+  },
+  "V2": {
+   "class": "titration",
+   "repair": "V₂"
+  },
+  "nI2": {
+   "class": "var_formula",
+   "repair": "nI₂"
+  },
+  "3KOH": {
+   "class": "coeff",
+   "repair": null
+  },
+  "2K3PO4": {
+   "class": "coeff_formula",
+   "repair": "2K₃PO₄",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "3CaCl2": {
+   "class": "coeff_formula",
+   "repair": "3CaCl₂",
+   "dispatch": "multi",
+   "lead": "3"
+  },
+  "6KCl": {
+   "class": "coeff",
+   "repair": null
+  },
+  "C14H30": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "3C2H4": {
+   "class": "coeff_formula",
+   "repair": "3C₂H₄",
+   "dispatch": "multi",
+   "lead": "3"
+  },
+  "Li2SO4": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "AlPO4": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "C3H7OBr": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "Cl35Cl": {
+   "class": "withhold",
+   "repair": null
+  },
+  "Cl37Cl": {
+   "class": "withhold",
+   "repair": null
+  },
+  "35Cl": {
+   "class": "withhold",
+   "repair": null
+  },
+  "37Cl": {
+   "class": "withhold",
+   "repair": null
+  },
+  "37Cl37Cl": {
+   "class": "withhold",
+   "repair": null
+  },
+  "37Cl35Cl": {
+   "class": "withhold",
+   "repair": null
+  },
+  "3HCl": {
+   "class": "coeff",
+   "repair": null
+  },
+  "Br-": {
+   "class": "exclude",
+   "repair": null
+  },
+  "2CuO": {
+   "class": "coeff",
+   "repair": null
+  },
+  "2Cu": {
+   "class": "coeff",
+   "repair": null
+  },
+  "C4H6O4": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "19F": {
+   "class": "withhold",
+   "repair": null
+  },
+  "18F": {
+   "class": "withhold",
+   "repair": null
+  },
+  "C5H10O4": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "10CO2": {
+   "class": "coeff_formula",
+   "repair": "10CO₂",
+   "dispatch": "multi",
+   "lead": "10"
+  },
+  "12H": {
+   "class": "coeff",
+   "repair": null
+  },
+  "14O2": {
+   "class": "coeff_dispatch",
+   "repair": null,
+   "dispatch": "single",
+   "lead": "14"
+  },
+  "2CH3COO": {
+   "class": "coeff_formula",
+   "repair": "2CH₃COO",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "2K": {
+   "class": "coeff",
+   "repair": null
+  },
+  "2N": {
+   "class": "coeff",
+   "repair": null
+  },
+  "2OH": {
+   "class": "coeff",
+   "repair": null
+  },
+  "2RCOOH": {
+   "class": "coeff",
+   "repair": null
+  },
+  "2RCOONa": {
+   "class": "coeff",
+   "repair": null
+  },
+  "35Cl37Cl": {
+   "class": "withhold",
+   "repair": null
+  },
+  "3S": {
+   "class": "coeff",
+   "repair": null
+  },
+  "4Cu": {
+   "class": "coeff",
+   "repair": null
+  },
+  "4CuO": {
+   "class": "coeff",
+   "repair": null
+  },
+  "4HCl": {
+   "class": "coeff",
+   "repair": null
+  },
+  "8C": {
+   "class": "coeff",
+   "repair": null
+  },
+  "8CO": {
+   "class": "coeff",
+   "repair": null
+  },
+  "C2H": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "C4H": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "MgCL2": {
+   "class": "withhold",
+   "repair": null
+  },
+  "F-": {
+   "class": "withhold",
+   "repair": null
+  },
+  "Mg-": {
+   "class": "withhold",
+   "repair": null
+  },
+  "C4H8O2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "N3": {
+   "class": "dispatch",
+   "dispatch": "single",
+   "in_molecules": false,
+   "repair": null
+  },
+  "Na2O": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "Na3N": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "SiCl4": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "Zn3N2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "4H2O": {
+   "class": "coeff_formula",
+   "repair": "4H₂O",
+   "dispatch": "multi",
+   "lead": "4"
+  },
+  "C3H7OH": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "N2H4": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "H2O2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "CH2F": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "3NO2": {
+   "class": "coeff_formula",
+   "repair": "3NO₂",
+   "dispatch": "multi",
+   "lead": "3"
+  },
+  "Cu2O": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "Na2S2O3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "2NaHCO3": {
+   "class": "coeff_formula",
+   "repair": "2NaHCO₃",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "2C4H6": {
+   "class": "coeff_formula",
+   "repair": "2C₄H₆",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "11O2": {
+   "class": "coeff_dispatch",
+   "repair": null,
+   "dispatch": "single",
+   "lead": "11"
+  },
+  "HCOOC2H5": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "Li2O": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "2C2H4": {
+   "class": "coeff_formula",
+   "repair": "2C₂H₄",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "ZO2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "XCO2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "COOCH3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "C4H8Br2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "CH3CH2COOH": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "CH3CH2CH2COOH": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "CuCl2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "2AgNO3": {
+   "class": "coeff_formula",
+   "repair": "2AgNO₃",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "Na3PO4": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "BaCO3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "3H2SO4": {
+   "class": "coeff_formula",
+   "repair": "3H₂SO₄",
+   "dispatch": "multi",
+   "lead": "3"
+  },
+  "2Al2O3": {
+   "class": "coeff_formula",
+   "repair": "2Al₂O₃",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "CH3COOK": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "C3H5N3O9": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "2KHCO3": {
+   "class": "coeff_formula",
+   "repair": "2KHCO₃",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "CH3CH2CH2CH2CH3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "2SO3": {
+   "class": "coeff_formula",
+   "repair": "2SO₃",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "2Pb3O4": {
+   "class": "coeff_formula",
+   "repair": "2Pb₃O₄",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "HCOOC3H7": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "2Cl2": {
+   "class": "coeff_dispatch",
+   "repair": null,
+   "dispatch": "single",
+   "lead": "2"
+  },
+  "TiCl4": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "2MgCl2": {
+   "class": "coeff_formula",
+   "repair": "2MgCl₂",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "xO2": {
+   "class": "var_formula",
+   "repair": "xO₂"
+  },
+  "zH2O": {
+   "class": "var_formula",
+   "repair": "zH₂O"
+  },
+  "C9H8O4": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "2Al3": {
+   "class": "coeff_dispatch",
+   "repair": null,
+   "dispatch": "single",
+   "lead": "2"
+  },
+  "3Mg2": {
+   "class": "coeff_dispatch",
+   "repair": null,
+   "dispatch": "single",
+   "lead": "3"
+  },
+  "C10H16N2O3S": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "PbSO4": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "2NaNO3": {
+   "class": "coeff_formula",
+   "repair": "2NaNO₃",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "3N2H4": {
+   "class": "coeff_formula",
+   "repair": "3N₂H₄",
+   "dispatch": "multi",
+   "lead": "3"
+  },
+  "PH3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "HCO3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "nH2O": {
+   "class": "var_formula",
+   "repair": "nH₂O"
+  },
+  "7CO2": {
+   "class": "coeff_formula",
+   "repair": "7CO₂",
+   "dispatch": "multi",
+   "lead": "7"
+  },
+  "8H2O": {
+   "class": "coeff_formula",
+   "repair": "8H₂O",
+   "dispatch": "multi",
+   "lead": "8"
+  },
+  "C15H32": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "2H2": {
+   "class": "coeff_dispatch",
+   "repair": null,
+   "dispatch": "single",
+   "lead": "2"
+  },
+  "C8H10N4O2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "CaBr2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "C257H383N65O77S6": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "TaCl5": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "Ta2O5": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "NaHSO4": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "CH3CH2CH2OH": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "NaOOCH2CH2COONa": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "C6H14": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "3CO2": {
+   "class": "coeff_formula",
+   "repair": "3CO₂",
+   "dispatch": "multi",
+   "lead": "3"
+  },
+  "CaSiO3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "2KMnO4": {
+   "class": "coeff_formula",
+   "repair": "2KMnO₄",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "K2MnO4": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "MnO2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "K3PO4": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "LiNO3": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "Li3PO4": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "Mg3": {
+   "class": "dispatch",
+   "dispatch": "single",
+   "in_molecules": false,
+   "repair": null
+  },
+  "CH2CH2CH2": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "CCl4": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "MSO4": {
+   "class": "dispatch",
+   "dispatch": "multi",
+   "in_molecules": false,
+   "repair": null
+  },
+  "2NH4OH": {
+   "class": "coeff_formula",
+   "repair": "2NH₄OH",
+   "dispatch": "multi",
+   "lead": "2"
+  },
+  "12CO2": {
+   "class": "coeff_formula",
+   "repair": "12CO₂",
+   "dispatch": "multi",
+   "lead": "12"
+  }
+ }
+}

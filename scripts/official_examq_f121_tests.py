@@ -453,9 +453,9 @@ def section_f():
     check("dropSpan apparatus soup cut",
           "hydrogen peroxide solution 0 20 40" not in mdc)
     check("dropSpan join is clean prose",
-          "peroxide solution. The student adds 100 cm3" in mdc)
+          "peroxide solution. The student adds 100 cm³" in mdc)
     check("dropTail graph axes cut",
-          "100 Volume of oxygen in cm3 0 4 8" not in mdc)
+          "100 Volume of oxygen in cm³ 0 4 8" not in mdc)
     # ---- F125: the part-level live pin (2019-06 1CR 8(b)(i)) ----
     t3 = ex.export_series("2019-06", "1CR", stem_ledger=led,
                           enrich=ex.load_enrichment_ledger())

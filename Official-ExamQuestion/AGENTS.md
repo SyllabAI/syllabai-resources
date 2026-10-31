@@ -513,6 +513,24 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
 
 ## Known open work (pick up from here)
 
+- Task 34 (2026-10-31, F127) CLOSED the flat-notation presentation class end-to-end (operator
+  order "scope it as the next pass" -> "Proceed"): the QP print's true sub/superscripts that the
+  PDF text layer linearized flat (C2H4, cm3, Mg2+(aq), SO42-, (NO3)2, xH2O ...) are repaired to
+  the unicode convention of record (the authored-solution layer's own convention) across ALL
+  serve-facing fields under ADR-039 Mode A — digit VALUES untouched, exporter of record
+  UNCHANGED, corpus-side (the F123 shape). The law of record is NOTATION-REPAIR.json (485
+  tokens; fail-closed replacer; per-occurrence guards; known-ion templates; withhold 48 incl.
+  the MS-quoted wrong-answer formulas that must stay flat). STEM-RESTORE anchors (tails +
+  cut spans), CANARIES match-strings and 19 part_field_sha pins re-derived through the SAME
+  replacer; F121 battery 149/149 after 2 corpus-text pin bumps; strip-law 29/29; F116-F119
+  green; G-E1 967 == the disclosure exactly (new=0/gone=0), G-E7 567+46+1 cuts green,
+  G-E4 byte-identical; canaries 165 PASS / 49 env-only FAILs (JSON-only subset) — PUA 0.
+  4,678 token applications + 153 bracket-multiplier subscripts. The wave RE-BASED onto main
+  mid-flight (its original base was orphaned upstream; the repaired corpus verified
+  byte-identical across the rebase). Scope extensions disclosed: solution_md + SOLUTION-ENRICH
+  lockstep; context-verified adjudication replaces QP contact sheets (page renders stay the
+  path for promoted withholds). Receipt: AUDIT-2026-10-31-f127-notation-4ch1.{md,json};
+  disclosure scripts/exporter-disclosures/2026-10-31-f127-notation-4ch1.json.
 - Task 36 (2026-10-31, F128) EXECUTED the F121-groupstem physics serving decision
   (operator order "F121-groupstem", trace 1a19135ba51a454d): the v2 plane of record
   learned all 421 question-group intros (PR #548, sha256 06d1848f -> f0945d29,

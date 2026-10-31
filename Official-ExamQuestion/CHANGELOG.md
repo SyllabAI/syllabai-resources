@@ -1,5 +1,21 @@
 # CHANGELOG — official_examq_extract.py (ADR-037 converter)
 
+## exporter-v6+F127 — 2026-10-31 · the Mode-A notation pass (T-OEQ-NOTATION-1) — converter & exporter unchanged
+
+- The wave: flat print notation (PDF text layer flattened the QP's true sub/superscripts) repaired
+  to the unicode convention of record across problem_md, stem_md, group_stem_md, mark_points,
+  choices, solution_md and SOLUTION-ENRICH.json — 4,678 token applications + 153 bracket-multiplier
+  subscripts, 967 served parts changed, new=0/gone=0, every digit VALUE untouched.
+- The law: NOTATION-REPAIR.json (485 tokens; fail-closed replacer; known-ion templates; withhold 48
+  incl. MS-quoted wrong answers; detached-charge skips logged). STEM-RESTORE anchors (tails + cut
+  spans), CANARIES pins and 19 sha pins re-derived through the same replacer. F121 149/149
+  (2 pins re-derived); strip-law 29/29; F116-F119 green; G-E1 967 == census; G-E7 567+46+1 green;
+  G-E4 byte-identical; PUA 0. Re-based onto main e967e75f mid-flight (original base orphaned
+  upstream; repaired corpus verified byte-identical across the rebase).
+- Receipt: AUDIT-2026-10-31-f127-notation-4ch1.{md,json}; disclosure
+  scripts/exporter-disclosures/2026-10-31-f127-notation-4ch1.json; ledger entry F127.
+
+
 ## exporter-v6+F125 — 2026-10-31 · the part-level soup pass (T-OEQ-PARTSOUP-1) — converter unchanged
 
 - **The gap (the F123 residual, one layer down again)**: the 1CR 8(b)(i) printed
