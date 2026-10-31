@@ -1,0 +1,609 @@
+{
+  "format": "guided-lesson/0.5",
+  "figures": [
+    {
+      "id": "fig-01",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-chemistry-19/assets/bf49f3442360-copper-sulfate-crystals.jpg",
+      "alt": "copper-sulfate-crystals",
+      "sourceHeading": "Copper sulfate crystals",
+      "caption": "After filtering and heating copper sulfate crystals will form. Larger crystals will form if the water in the solution is left to evaporate slowly",
+      "binding": "heading-unique",
+      "moduleIds": [
+        "L2"
+      ]
+    }
+  ],
+  "noteRef": {
+    "noteId": "rn_6ZCysv9GnNQmc3w2",
+    "corpusVersion": "sme-revision-notes-igcse-chemistry-19-2026-09-18",
+    "topicTitle": "2. Inorganic Chemistry",
+    "subtopicTitle": "Acids, Bases & Salt Preparations",
+    "sourceUrl": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/2-inorganic-chemistry/2-7-acids-bases-and-salt-preparations/2-7-5-prepare-a-soluble-salt"
+  },
+  "specPoints": [
+    {
+      "code": "4CH1-2.39",
+      "text": "describe an experiment to prepare a pure, dry sample of a soluble salt, starting from an insoluble reactant"
+    }
+  ],
+  "primer": {
+    "text": "From Bases you already know that metal oxides and hydroxides neutralise acids to form a salt and water. This note turns that chemistry into a working method: how to prepare, purify and crystallise a soluble salt starting from an insoluble base.",
+    "prerequisiteSubtopic": "Bases"
+  },
+  "lessons": [
+    {
+      "title": "Prepare a soluble salt",
+      "sourceHeadings": [
+        "Prepare a soluble salt"
+      ],
+      "specRefs": [
+        "4CH1-2.39"
+      ],
+      "opening": "A soluble salt can be made by warming an acid with an insoluble base such as a metal oxide. The base is added until some of it is left over, which guarantees the acid has all reacted, and the leftover solid is then filtered away. What remains is a solution of the salt alone, ready to be concentrated and crystallised.",
+      "keyPoints": [
+        "A soluble salt forms when an acid reacts with an insoluble base.",
+        "The insoluble base is added in excess so that all of the acid reacts.",
+        "Filtration removes the excess solid, leaving only the salt and water in solution.",
+        "Heating evaporates water until small crystals begin to appear, usually when about half the water has gone.",
+        "Slow evaporation over several days lets larger crystals grow."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Warm the acid with the insoluble base and keep adding base until a little of it stays solid, which proves the acid is used up. Filter the extra solid away, then heat the clear solution so that water leaves and crystals of the salt begin to appear.",
+          "analogy": "It works like pouring sugar into tea until no more dissolves: the undissolved spoonfuls at the bottom prove the drink is full, and you simply filter or scoop the surplus out before drinking.",
+          "examPointer": "Method questions award marks in order, so write react, filter, evaporate and crystallise as separate steps rather than one sentence."
+        },
+        "medium": {
+          "restatement": "The insoluble base sits in excess precisely so that every trace of acid is used up, because surviving acid would concentrate dangerously as the water evaporates. Once the surplus is filtered off, gentle heating plus slow crystallisation delivers the pure, dry sample.",
+          "analogy": "The excess base works like a sponge left standing in a spill: it guarantees nothing acidic remains, and wringing it out afterwards, which is the filtration, leaves the floor holding only what you wanted.",
+          "examPointer": "When asked why the base goes in excess, answer in terms of consuming all the acid and the danger of concentrated acid during evaporation, not in terms of yield."
+        }
+      },
+      "check": [
+        {
+          "stem": "Why is the insoluble base added in excess?",
+          "misconceptionClass": "excess purpose",
+          "options": [
+            {
+              "key": "A",
+              "text": "So that all of the acid reacts",
+              "correct": true,
+              "explanation": "Surplus base guarantees no acid survives into the evaporation stage.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "To make the salt more soluble",
+              "correct": false,
+              "explanation": "Solubility is a property of the salt itself and does not change with extra base.",
+              "misconception": "solubility fiction"
+            },
+            {
+              "key": "C",
+              "text": "To speed up the filtering step",
+              "correct": false,
+              "explanation": "Extra solid gives the filter more work, not less; the reason is about the acid, not the filtering.",
+              "misconception": "purpose misassigned to filtration"
+            },
+            {
+              "key": "D",
+              "text": "So the crystals grow larger",
+              "correct": false,
+              "explanation": "Crystal size depends on evaporation speed, not on leftover solid.",
+              "misconception": "crystal-size purpose invented"
+            }
+          ]
+        },
+        {
+          "stem": "What would happen if unreacted acid were left in the solution during evaporation?",
+          "misconceptionClass": "acid residue consequence",
+          "options": [
+            {
+              "key": "A",
+              "text": "It would become dangerously concentrated",
+              "correct": true,
+              "explanation": "As water leaves, any surviving acid grows stronger and more hazardous in the dish.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "It would evaporate away harmlessly first",
+              "correct": false,
+              "explanation": "Acids do not simply fly off ahead of the water; they concentrate instead.",
+              "misconception": "acid volatility assumed"
+            },
+            {
+              "key": "C",
+              "text": "It would turn into more salt",
+              "correct": false,
+              "explanation": "There is nothing left for the acid to react with, so it stays as acid.",
+              "misconception": "acid-to-salt conversion imagined"
+            },
+            {
+              "key": "D",
+              "text": "It would neutralise the excess base",
+              "correct": false,
+              "explanation": "Whatever base remains has already done its neutralising; the residue is acid on its own.",
+              "misconception": "reaction timing reversed"
+            }
+          ]
+        },
+        {
+          "stem": "How is the excess solid removed once the acid has all reacted?",
+          "misconceptionClass": "separation method selection",
+          "options": [
+            {
+              "key": "A",
+              "text": "By filtration",
+              "correct": true,
+              "explanation": "The undissolved base is caught by the filter paper while the solution passes through.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "By evaporation",
+              "correct": false,
+              "explanation": "Evaporation removes water later; it cannot separate a solid from a solution.",
+              "misconception": "separation methods swapped"
+            },
+            {
+              "key": "C",
+              "text": "By decanting into a burette",
+              "correct": false,
+              "explanation": "A burette measures volumes in titrations and plays no part in this method.",
+              "misconception": "titration equipment misplaced"
+            },
+            {
+              "key": "D",
+              "text": "By adding more acid",
+              "correct": false,
+              "explanation": "Adding acid would undo the excess-base strategy rather than clean it up.",
+              "misconception": "dissolving the solid imagined"
+            }
+          ]
+        },
+        {
+          "stem": "When should heating stop during the evaporation stage?",
+          "misconceptionClass": "evaporation endpoint",
+          "options": [
+            {
+              "key": "A",
+              "text": "When small crystals begin to appear",
+              "correct": true,
+              "explanation": "The first crystals mark the point where the solution is concentrated enough to crystallise.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "When the solution starts boiling vigorously",
+              "correct": false,
+              "explanation": "Vigorous boiling is about temperature, not about the crystallisation point.",
+              "misconception": "boiling mistaken for the endpoint"
+            },
+            {
+              "key": "C",
+              "text": "Only when every drop of water has gone",
+              "correct": false,
+              "explanation": "Heating to dryness risks decomposition of the salt and is not the method.",
+              "misconception": "overheating to dryness"
+            },
+            {
+              "key": "D",
+              "text": "Before the solution is warm",
+              "correct": false,
+              "explanation": "Little water would have left, so no crystals could form at all.",
+              "misconception": "premature stop"
+            }
+          ]
+        },
+        {
+          "stem": "How can larger crystals be obtained?",
+          "misconceptionClass": "crystal growth control",
+          "options": [
+            {
+              "key": "A",
+              "text": "By letting the solution evaporate slowly over several days",
+              "correct": true,
+              "explanation": "Slow water loss gives dissolved particles the time to build big, ordered crystals.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "By heating the solution as fast as possible",
+              "correct": false,
+              "explanation": "Fast evaporation gives many small crystals, not large ones.",
+              "misconception": "speed-size confusion"
+            },
+            {
+              "key": "C",
+              "text": "By adding extra acid at the end",
+              "correct": false,
+              "explanation": "Extra acid contaminates the product instead of improving it.",
+              "misconception": "purity corrupted"
+            },
+            {
+              "key": "D",
+              "text": "By filtering more than once",
+              "correct": false,
+              "explanation": "Repeat filtering changes nothing about how the crystals grow.",
+              "misconception": "ritual repetition"
+            }
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "Name the separation technique used to remove undissolved solid from the salt solution.",
+          "misconceptionClass": "filtration step recall",
+          "modelAnswer": "Filtration removes the excess (undissolved) base, leaving only the salt and water in solution.",
+          "keywords": [
+            "filtration",
+            "filter",
+            "filtered",
+            "filtering",
+            "residue"
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "State the condition that lets larger crystals grow during the final stage of the preparation.",
+          "misconceptionClass": "crystal growth recall",
+          "modelAnswer": "Slow evaporation over several days lets larger crystals grow.",
+          "keywords": [
+            "slow",
+            "slowly",
+            "slower",
+            "days",
+            "several"
+          ]
+        },
+        {
+          "kind": "explain-why",
+          "stem": "Explain the purpose of having some undissolved base left over at the end of the reaction.",
+          "misconceptionClass": "excess-base purpose explain",
+          "modelAnswer": "Leftover base proves that every trace of acid has reacted, so the solution contains only the salt and water formed.",
+          "keywords": [
+            "acid",
+            "reacted",
+            "reacts",
+            "fully",
+            "completely",
+            "proves"
+          ]
+        },
+        {
+          "kind": "application",
+          "stem": "During evaporation a student keeps heating until every trace of liquid has disappeared. Predict the consequence for the batch.",
+          "misconceptionClass": "over-heated batch application",
+          "modelAnswer": "The solution becomes completely dry, so crystals cannot form properly; heating past this stage can also decompose the salt and spoils the batch.",
+          "keywords": [
+            "decompose",
+            "decomposes",
+            "spoiled",
+            "spoils",
+            "properly",
+            "cannot"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Copper sulfate crystals",
+      "sourceHeadings": [
+        "Copper sulfate crystals"
+      ],
+      "specRefs": [
+        "4CH1-2.39"
+      ],
+      "figureIds": [
+        "fig-01"
+      ],
+      "opening": "The standard example is copper(II) sulfate, made by reacting black copper(II) oxide with dilute sulfuric acid until the solid is in excess. After filtering and gentle heating, blue crystals appear, and they grow larger when the water is left to evaporate slowly. A carbonate base simply releases carbon dioxide gas instead, and a suitable metal can replace the base altogether.",
+      "keyPoints": [
+        "Copper(II) sulfate is made from copper(II) oxide and dilute sulfuric acid.",
+        "The reaction of copper(II) oxide with sulfuric acid produces copper(II) sulfate solution and water.",
+        "Unreacted acid left behind would become dangerously concentrated as the water evaporates.",
+        "A carbonate base releases carbon dioxide gas into the air during the reaction.",
+        "An acid can instead be reacted with a metal above hydrogen in the reactivity series."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Black copper(II) oxide plus dilute sulfuric acid gives blue copper(II) sulfate solution and water. Filter, heat gently until crystals start, then leave the rest to evaporate slowly for bigger crystals.",
+          "analogy": "The black powder vanishing into the acid is like sugar vanishing in tea: the solid seems to disappear, but it has simply joined the liquid as new blue salt.",
+          "examPointer": "Learn the copper(II) oxide plus sulfuric acid equation, because the copper(II) sulfate preparation is the named example examiners quote."
+        },
+        "medium": {
+          "restatement": "Copper(II) oxide reacts with sulfuric acid to give copper(II) sulfate and water, with no gas made. With a carbonate base the same method works but carbon dioxide escapes, and with a metal the salt forms provided the metal sits above hydrogen yet below the dangerously reactive few.",
+          "analogy": "Choosing the solid reactant is like choosing a courier for a parcel: oxide, carbonate and metal all deliver the salt, but each leaves a different calling card, gas or no gas, at the door.",
+          "examPointer": "Questions may swap the base for a metal or carbonate, so practise saying what extra product, if any, each choice produces."
+        }
+      },
+      "check": [
+        {
+          "stem": "Which reagents make copper(II) sulfate by this method?",
+          "misconceptionClass": "reagent selection",
+          "options": [
+            {
+              "key": "A",
+              "text": "Copper(II) oxide and dilute sulfuric acid",
+              "correct": true,
+              "explanation": "Insoluble oxide plus acid is exactly the method, and sulfate comes from sulfuric acid.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Copper metal and dilute sulfuric acid",
+              "correct": false,
+              "explanation": "Copper sits below hydrogen, so it does not displace hydrogen from the acid.",
+              "misconception": "reactivity order ignored"
+            },
+            {
+              "key": "C",
+              "text": "Copper(II) carbonate and dilute hydrochloric acid",
+              "correct": false,
+              "explanation": "Hydrochloric acid would give the chloride, not the sulfate.",
+              "misconception": "wrong acid chosen"
+            },
+            {
+              "key": "D",
+              "text": "Copper(II) sulfate and water",
+              "correct": false,
+              "explanation": "The product cannot be its own starting material.",
+              "misconception": "product named as reagent"
+            }
+          ]
+        },
+        {
+          "stem": "What is observed when a carbonate base reacts with the acid?",
+          "misconceptionClass": "carbonate observation",
+          "options": [
+            {
+              "key": "A",
+              "text": "Effervescence as carbon dioxide is released",
+              "correct": true,
+              "explanation": "Carbonates release carbon dioxide gas, which is seen as fizzing.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "A colour change from blue to white",
+              "correct": false,
+              "explanation": "That is the anhydrous copper(II) sulfate water test, not this reaction.",
+              "misconception": "water-test colours misplaced"
+            },
+            {
+              "key": "C",
+              "text": "The mixture turns alkaline",
+              "correct": false,
+              "explanation": "The acid is being neutralised, so the mixture does not turn alkaline.",
+              "misconception": "product misidentified"
+            },
+            {
+              "key": "D",
+              "text": "Nothing, because carbonates are insoluble",
+              "correct": false,
+              "explanation": "Insoluble bases still react with acids; insolubility does not mean inertness.",
+              "misconception": "solubility confused with reactivity"
+            }
+          ]
+        },
+        {
+          "stem": "Which metal could safely be used instead of a base to make a salt from acid?",
+          "misconceptionClass": "metal selection window",
+          "options": [
+            {
+              "key": "A",
+              "text": "Magnesium, which sits above hydrogen but is not dangerously reactive",
+              "correct": true,
+              "explanation": "The safe window is above hydrogen yet below the metals that react explosively.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Copper, which is below hydrogen",
+              "correct": false,
+              "explanation": "Metals below hydrogen do not react with dilute acids to make salts.",
+              "misconception": "reactivity order error"
+            },
+            {
+              "key": "C",
+              "text": "Sodium, which reacts explosively",
+              "correct": false,
+              "explanation": "Too-reactive metals make the reaction dangerous rather than useful.",
+              "misconception": "too-reactive hazard ignored"
+            },
+            {
+              "key": "D",
+              "text": "Gold, which is unreactive but above hydrogen",
+              "correct": false,
+              "explanation": "Gold sits below hydrogen and would do nothing in the acid.",
+              "misconception": "false position in the series"
+            }
+          ]
+        },
+        {
+          "stem": "What are the products when copper(II) oxide reacts with dilute sulfuric acid?",
+          "misconceptionClass": "product identification",
+          "options": [
+            {
+              "key": "A",
+              "text": "Copper(II) sulfate and water",
+              "correct": true,
+              "explanation": "Acid plus metal oxide always gives salt plus water.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Copper(II) sulfite and hydrogen",
+              "correct": false,
+              "explanation": "Sulfuric acid makes sulfates, and no hydrogen is released with an oxide.",
+              "misconception": "wrong salt family and invented gas"
+            },
+            {
+              "key": "C",
+              "text": "Copper and sulfuric acid",
+              "correct": false,
+              "explanation": "That reverses the reaction; the oxide is consumed, not produced.",
+              "misconception": "reverse reaction imagined"
+            },
+            {
+              "key": "D",
+              "text": "Copper(II) hydroxide and sulfate",
+              "correct": false,
+              "explanation": "Those are fragments of the reactants, not the products.",
+              "misconception": "ions named as products"
+            }
+          ]
+        },
+        {
+          "stem": "Why is the leftover solid filtered off before evaporation?",
+          "misconceptionClass": "purification purpose",
+          "options": [
+            {
+              "key": "A",
+              "text": "So only the salt and water remain in the solution",
+              "correct": true,
+              "explanation": "Removing the surplus base leaves a solution with nothing but the product in it.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "To remove the blue colour",
+              "correct": false,
+              "explanation": "The blue colour belongs to the wanted salt, not to an impurity.",
+              "misconception": "cosmetic purpose invented"
+            },
+            {
+              "key": "C",
+              "text": "To add water of crystallisation",
+              "correct": false,
+              "explanation": "Filtration removes solid; it adds nothing to the solution.",
+              "misconception": "concept misplaced"
+            },
+            {
+              "key": "D",
+              "text": "To concentrate the acid further",
+              "correct": false,
+              "explanation": "All the acid has already reacted; there is no free acid to concentrate.",
+              "misconception": "contradicts the method"
+            }
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "Name the two reagents used to prepare copper(II) sulfate by the insoluble-base method.",
+          "misconceptionClass": "reagent pair recall",
+          "modelAnswer": "Copper(II) oxide is warmed with dilute sulfuric acid to make copper(II) sulfate.",
+          "keywords": [
+            "oxide",
+            "sulfuric",
+            "warm",
+            "warmed",
+            "warming",
+            "black"
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "State the observation when a carbonate base reacts with dilute acid.",
+          "misconceptionClass": "carbonate observation recall",
+          "modelAnswer": "The mixture fizzes as bubbles of carbon dioxide gas are released into the air.",
+          "keywords": [
+            "fizz",
+            "fizzing",
+            "fizzes",
+            "effervescence",
+            "bubbles",
+            "carbon",
+            "dioxide"
+          ]
+        },
+        {
+          "kind": "explain-why",
+          "stem": "Explain why unreacted acid must not remain in the copper sulfate solution while it evaporates.",
+          "misconceptionClass": "concentrating acid explain",
+          "modelAnswer": "As the water evaporates the leftover acid becomes more and more concentrated, which is dangerous and would contaminate the crystals formed.",
+          "keywords": [
+            "concentrated",
+            "concentrates",
+            "dangerous",
+            "danger",
+            "contaminate"
+          ]
+        },
+        {
+          "kind": "application",
+          "stem": "A student has no copper(II) oxide but does have magnesium ribbon. Explain whether the magnesium could be used to make a salt from dilute sulfuric acid.",
+          "misconceptionClass": "metal-instead-of-base application",
+          "modelAnswer": "Yes - magnesium sits above hydrogen in the reactivity series, so it reacts with the acid to give the soluble salt magnesium sulfate plus hydrogen gas, and the excess metal is filtered off.",
+          "keywords": [
+            "above",
+            "reactivity",
+            "series",
+            "soluble",
+            "filtered",
+            "yes"
+          ]
+        }
+      ]
+    }
+  ],
+  "noteAssets": {
+    "glossary": [
+      {
+        "term": "soluble salt",
+        "definition": "A salt that dissolves in water, prepared here from an acid and an insoluble base.",
+        "firstLesson": 1
+      },
+      {
+        "term": "excess",
+        "definition": "More than enough of a reactant, added so the other reactant is completely used up.",
+        "firstLesson": 1
+      },
+      {
+        "term": "filtration",
+        "definition": "Separating an undissolved solid from a liquid by passing the mixture through filter paper.",
+        "firstLesson": 1
+      },
+      {
+        "term": "evaporation",
+        "definition": "The change from liquid to vapour that concentrates a solution as it is heated.",
+        "firstLesson": 1
+      },
+      {
+        "term": "crystallisation",
+        "definition": "The formation of ordered solid crystals as a concentrated solution loses water.",
+        "firstLesson": 2
+      }
+    ],
+    "workedExample": {
+      "prompt": "Describe how to prepare a pure, dry sample of copper(II) sulfate crystals starting from an insoluble reactant, including the equation for the reaction used.",
+      "steps": [
+        "Warm dilute sulfuric acid and add black copper(II) oxide, stirring, until no more will dissolve — the base is in excess, so every trace of acid has reacted.",
+        "Filter off the excess copper(II) oxide; the filtrate can only be copper(II) sulfate solution and water.",
+        "Heat the filtrate gently until about half the water has evaporated and crystals begin to appear, then leave it to cool and crystallise — slow evaporation over several days grows larger crystals.",
+        "The reaction of record is: CuO (s) + H2SO4 (aq) → CuSO4 (aq) + H2O (l)."
+      ],
+      "finalAnswer": "Excess CuO in warm dilute H2SO4, filter, evaporate to half, crystallise; CuO + H2SO4 → CuSO4 + H2O."
+    }
+  }
+}

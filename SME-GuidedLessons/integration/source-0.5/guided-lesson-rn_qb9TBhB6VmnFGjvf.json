@@ -1,0 +1,586 @@
+{
+  "format": "guided-lesson/0.5",
+  "noteRef": {
+    "noteId": "rn_qb9TBhB6VmnFGjvf",
+    "corpusVersion": "sme-revision-notes-igcse-chemistry-19-2026-09-18",
+    "topicTitle": "2. Inorganic Chemistry",
+    "subtopicTitle": "Acids, Bases & Salt Preparations",
+    "sourceUrl": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/2-inorganic-chemistry/2-7-acids-bases-and-salt-preparations/2-7-7-prepare-an-insoluble-salt"
+  },
+  "specPoints": [
+    {
+      "code": "4CH1-2.41C",
+      "text": "describe an experiment to prepare a pure, dry sample of an insoluble salt, starting from two soluble reactants"
+    }
+  ],
+  "primer": {
+    "text": "From Solubility Rules you already know which salts dissolve and which do not. This note uses that table as a design tool, choosing two soluble reactants whose swapped partners give the insoluble salt you want to collect.",
+    "prerequisiteSubtopic": "Solubility Rules"
+  },
+  "lessons": [
+    {
+      "title": "The precipitation reaction pattern",
+      "sourceHeadings": [
+        "Prepare an insoluble salt"
+      ],
+      "specRefs": [
+        "4CH1-2.41C"
+      ],
+      "opening": "An insoluble salt is prepared by precipitation, in which two clear solutions are mixed and a solid forms and sinks. The solid that appears is the precipitate, and it is the salt itself. The reaction pairs two soluble starting solutions and swaps their partners, so one product turns solid while the other stays dissolved.",
+      "keyPoints": [
+        "Insoluble salts are made using a precipitation reaction.",
+        "The solid salt formed must be insoluble in water for the method to work.",
+        "Two soluble salts swap partners: soluble salt 1 plus soluble salt 2 gives the insoluble salt plus a third soluble salt.",
+        "In symbol form the pattern is AB plus CD giving AD plus CB.",
+        "The partner-swapping pattern is why chemists also call it double decomposition."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Mix two clear solutions whose salts can swap partners, and the wanted insoluble salt falls out as a solid. Everything else stays dissolved, so the solid can be filtered off as the product.",
+          "analogy": "Two dancing couples swapping partners is the picture: each dancer leaves with a new partner, and one of the new pairs, the insoluble salt, immediately sits down out of the dance.",
+          "examPointer": "Use the AB plus CD pattern to predict products quickly in precipitation questions, then check the solubility table to see which product falls out."
+        },
+        "medium": {
+          "restatement": "The method only works when the wanted product is insoluble, because the solid that separates is the product and is collected as such. If both possible products were soluble, nothing would separate and there would be no solid to collect, which is why the solubility table decides whether this route is available at all.",
+          "analogy": "It is like mixing two teams where only one new pairing is incompatible: the incompatible pair walks off the pitch together, which is exactly the solid you wanted to remove from the game.",
+          "examPointer": "Prediction questions usually hinge on the solubility rules, so name the insoluble product explicitly rather than saying a precipitate forms."
+        }
+      },
+      "check": [
+        {
+          "stem": "Which general pattern does the precipitation method follow?",
+          "misconceptionClass": "reaction pattern",
+          "options": [
+            {
+              "key": "A",
+              "text": "Two soluble salts react to give an insoluble salt and another soluble salt",
+              "correct": true,
+              "explanation": "That is the source's stated pattern for the preparation.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "An acid and an insoluble base give a soluble salt",
+              "correct": false,
+              "explanation": "That is the soluble-salt method from the previous note, not this one.",
+              "misconception": "soluble-salt method transplanted"
+            },
+            {
+              "key": "C",
+              "text": "Two insoluble salts dissolve into one solution",
+              "correct": false,
+              "explanation": "Insoluble salts cannot dissolve to give a clear solution; the direction is backwards.",
+              "misconception": "reaction direction reversed"
+            },
+            {
+              "key": "D",
+              "text": "A metal and an acid give a salt and hydrogen",
+              "correct": false,
+              "explanation": "That is the metal-acid reaction family, unrelated to precipitation.",
+              "misconception": "metal-acid family intrudes"
+            }
+          ]
+        },
+        {
+          "stem": "Why must the salt being made be insoluble?",
+          "misconceptionClass": "insolubility requirement",
+          "options": [
+            {
+              "key": "A",
+              "text": "Because the method collects the salt as a solid precipitate",
+              "correct": true,
+              "explanation": "A soluble product would stay dissolved and there would be nothing solid to collect.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Because soluble salts are too dangerous to make",
+              "correct": false,
+              "explanation": "Solubility is not a hazard classification; soluble salts are made by other methods routinely.",
+              "misconception": "hazard invention"
+            },
+            {
+              "key": "C",
+              "text": "Because insoluble salts react faster",
+              "correct": false,
+              "explanation": "Rate has nothing to do with the requirement; collection does.",
+              "misconception": "rate fiction"
+            },
+            {
+              "key": "D",
+              "text": "Because filtration only works on acids",
+              "correct": false,
+              "explanation": "Filtration separates any solid from any liquid, whatever the chemistry.",
+              "misconception": "apparatus fiction"
+            }
+          ]
+        },
+        {
+          "stem": "In the pattern AB plus CD giving AD plus CB, what is AD?",
+          "misconceptionClass": "symbol pattern reading",
+          "options": [
+            {
+              "key": "A",
+              "text": "The insoluble salt that forms",
+              "correct": true,
+              "explanation": "In the stated pattern, AD is the insoluble product and CB is the soluble one.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "The soluble salt left behind",
+              "correct": false,
+              "explanation": "That role belongs to CB in the pattern.",
+              "misconception": "product roles swapped"
+            },
+            {
+              "key": "C",
+              "text": "The original soluble salt unchanged",
+              "correct": false,
+              "explanation": "AD is a new substance built from one ion of each reactant.",
+              "misconception": "no-reaction reading"
+            },
+            {
+              "key": "D",
+              "text": "The water formed by neutralisation",
+              "correct": false,
+              "explanation": "No neutralisation frame applies; the partners simply swap.",
+              "misconception": "neutralisation frame imposed"
+            }
+          ]
+        },
+        {
+          "stem": "What is another name for this type of reaction?",
+          "misconceptionClass": "reaction naming",
+          "options": [
+            {
+              "key": "A",
+              "text": "Double decomposition",
+              "correct": true,
+              "explanation": "The exam hint names double decomposition as the alternative term.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Single replacement",
+              "correct": false,
+              "explanation": "Two partners swap here, not one, so single replacement misdescribes it.",
+              "misconception": "wrong classification family"
+            },
+            {
+              "key": "C",
+              "text": "Thermal decomposition",
+              "correct": false,
+              "explanation": "Nothing is heated apart in this reaction; it happens on mixing.",
+              "misconception": "heat association"
+            },
+            {
+              "key": "D",
+              "text": "Neutralisation",
+              "correct": false,
+              "explanation": "No acid or alkali is required, so neutralisation is the wrong frame.",
+              "misconception": "acid-alkali frame imposed"
+            }
+          ]
+        },
+        {
+          "stem": "Silver nitrate solution and sodium chloride solution are mixed. Which statement is right?",
+          "misconceptionClass": "precipitation prediction",
+          "options": [
+            {
+              "key": "A",
+              "text": "Silver chloride forms as the precipitate while sodium nitrate stays dissolved",
+              "correct": true,
+              "explanation": "Silver chloride is insoluble and sodium nitrate is soluble, so the swap leaves the wanted solid.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Sodium chloride forms as the precipitate",
+              "correct": false,
+              "explanation": "Sodium chloride was effectively there at the start and is soluble anyway.",
+              "misconception": "reactant treated as product"
+            },
+            {
+              "key": "C",
+              "text": "Nothing happens because both starting solutions are soluble",
+              "correct": false,
+              "explanation": "The solubility of the reactants does not decide the products; the product's own solubility does.",
+              "misconception": "reactant solubility confused with product"
+            },
+            {
+              "key": "D",
+              "text": "Both products dissolve, so no solid forms",
+              "correct": false,
+              "explanation": "Silver chloride is insoluble, so a white solid must appear.",
+              "misconception": "product solubility misjudged"
+            }
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "State what happens to the two pairs of ions when the soluble reactant salts meet in a precipitation reaction.",
+          "misconceptionClass": "partner-swap recall",
+          "modelAnswer": "The two soluble salts swap partners: each metal ion pairs with the other non-metal ion, forming the insoluble salt plus a third soluble salt.",
+          "keywords": [
+            "swap",
+            "swaps",
+            "swapped",
+            "exchange",
+            "exchanged"
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "State the other name chemists give to this partner-swapping type of reaction.",
+          "misconceptionClass": "double decomposition recall",
+          "modelAnswer": "The reaction is also called double decomposition.",
+          "keywords": [
+            "double",
+            "decomposition",
+            "decompose"
+          ]
+        },
+        {
+          "kind": "explain-why",
+          "stem": "Explain why a soluble product would defeat this preparation method entirely.",
+          "misconceptionClass": "soluble-product defeat explain",
+          "modelAnswer": "If the product salt were soluble it would stay dissolved in the solution instead of falling out as a solid, so no precipitate could form, be filtered or be collected.",
+          "keywords": [
+            "dissolved",
+            "solution",
+            "stays",
+            "remains",
+            "filtered",
+            "solid"
+          ]
+        },
+        {
+          "kind": "application",
+          "stem": "Silver nitrate solution is mixed with sodium chloride solution. Write the pattern equation and name the solid product.",
+          "misconceptionClass": "pattern-equation application",
+          "modelAnswer": "AgNO3 + NaCl giving AgCl + NaNO3; the white precipitate is silver chloride.",
+          "keywords": [
+            "agcl",
+            "nacl",
+            "nano3",
+            "white"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Recovering and drying the precipitate",
+      "sourceHeadings": [
+        "Prepare an insoluble salt"
+      ],
+      "specRefs": [
+        "4CH1-2.41C"
+      ],
+      "opening": "A fixed volume of the first solution is measured out, and the second solution is added until it sits in a slight excess, which squeezes the maximum amount of solid out of the mixture. The precipitate is collected on a filter, washed with distilled water to strip away traces of the other chemicals, and then left to dry. Silver and lead(II) salts suit this method, and their nitrates make convenient starting materials because every nitrate dissolves.",
+      "keyPoints": [
+        "One salt solution is measured out as a fixed volume.",
+        "The second solution is added until it is in slight excess.",
+        "The slight excess ensures the maximum amount of precipitate.",
+        "Filtering collects the solid precipitate from the mixture.",
+        "Washing with distilled water removes reactants contaminating the residue, which then dries."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Measure one solution, stir in the second until there is a little too much of it, then filter the solid out. Wash the solid with distilled water and leave it to dry, giving the pure, dry insoluble salt.",
+          "analogy": "The slight excess is like inviting one extra guest so nobody leaves alone: it guarantees every particle of the first salt finds a partner and joins the solid.",
+          "examPointer": "Method marks live in the order: measure, mix to slight excess, filter, wash, dry. Quote them in that order."
+        },
+        "medium": {
+          "restatement": "A slight excess of the second solution drives the shared-ion product all the way out of solution, maximising the yield of solid. Washing matters because the wet residue is soaked in the soluble by-product and leftover reactants, and only distilled water can carry those away without adding fresh impurities of its own.",
+          "analogy": "Washing the precipitate is like rinsing a jumper after dyeing it: the garment keeps its shape and colour, but the loose dye and soap of the process leave in the rinse water.",
+          "examPointer": "If asked why distilled water rather than tap water, say distilled water carries no dissolved minerals that could add new impurities to the product."
+        }
+      },
+      "check": [
+        {
+          "stem": "Why is the second solution added in slight excess?",
+          "misconceptionClass": "slight excess purpose",
+          "options": [
+            {
+              "key": "A",
+              "text": "To obtain the maximum amount of precipitate",
+              "correct": true,
+              "explanation": "The surplus drives as much of the first salt as possible into the solid.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "To make the precipitate purer",
+              "correct": false,
+              "explanation": "Purity comes from washing; the excess is about yield.",
+              "misconception": "purity purpose misassigned"
+            },
+            {
+              "key": "C",
+              "text": "To speed up filtration",
+              "correct": false,
+              "explanation": "Filtration speed is unaffected by how much reactant was in excess.",
+              "misconception": "rate purpose invented"
+            },
+            {
+              "key": "D",
+              "text": "To dissolve any leftover solid",
+              "correct": false,
+              "explanation": "The excess creates solid, it does not dissolve it.",
+              "misconception": "opposite effect claimed"
+            }
+          ]
+        },
+        {
+          "stem": "What is the wash water for?",
+          "misconceptionClass": "washing purpose",
+          "options": [
+            {
+              "key": "A",
+              "text": "Removing traces of the other solutions clinging to the residue",
+              "correct": true,
+              "explanation": "The wash carries away the soluble by-product and leftover reactants from the solid.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Dissolving the precipitate for recrystallisation",
+              "correct": false,
+              "explanation": "The precipitate is insoluble by design, so it cannot be redissolved this way.",
+              "misconception": "method confusion"
+            },
+            {
+              "key": "C",
+              "text": "Adding water of crystallisation",
+              "correct": false,
+              "explanation": "Water of crystallisation belongs to soluble-salt crystals, not to this washing step.",
+              "misconception": "concept misapplied"
+            },
+            {
+              "key": "D",
+              "text": "Cooling the residue for storage",
+              "correct": false,
+              "explanation": "Cooling is not the purpose; cleaning the solid is.",
+              "misconception": "purpose invented"
+            }
+          ]
+        },
+        {
+          "stem": "Which property makes nitrates convenient starting materials?",
+          "misconceptionClass": "nitrate solubility",
+          "options": [
+            {
+              "key": "A",
+              "text": "All nitrates are soluble",
+              "correct": true,
+              "explanation": "The universal solubility of nitrates lets silver and lead(II) nitrates be used as the soluble reactants.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "All nitrates are insoluble",
+              "correct": false,
+              "explanation": "That would make them useless here, since the reactants must dissolve.",
+              "misconception": "rule inverted"
+            },
+            {
+              "key": "C",
+              "text": "Nitrates are always coloured",
+              "correct": false,
+              "explanation": "Colour is irrelevant to the method; solubility is what matters.",
+              "misconception": "colour fiction"
+            },
+            {
+              "key": "D",
+              "text": "Nitrates never react",
+              "correct": false,
+              "explanation": "They are the reacting species; being inert would defeat the purpose.",
+              "misconception": "inertness fiction"
+            }
+          ]
+        },
+        {
+          "stem": "Why does this method suit silver and lead(II) salts?",
+          "misconceptionClass": "method suitability",
+          "options": [
+            {
+              "key": "A",
+              "text": "Because those salts are often insoluble, so they precipitate cleanly",
+              "correct": true,
+              "explanation": "The method needs an insoluble product, and silver and lead(II) salts commonly are.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Because they are the cheapest salts available",
+              "correct": false,
+              "explanation": "Cost never enters the chemical reasoning of the method.",
+              "misconception": "economics reasoning"
+            },
+            {
+              "key": "C",
+              "text": "Because they are highly soluble",
+              "correct": false,
+              "explanation": "Highly soluble products would never come out of solution.",
+              "misconception": "solubility inverted"
+            },
+            {
+              "key": "D",
+              "text": "Because they melt at low temperature",
+              "correct": false,
+              "explanation": "Melting point plays no part in precipitation.",
+              "misconception": "irrelevant property cited"
+            }
+          ]
+        },
+        {
+          "stem": "What is the residue in the filtration step of this preparation?",
+          "misconceptionClass": "residue identity",
+          "options": [
+            {
+              "key": "A",
+              "text": "The insoluble salt, which is the product",
+              "correct": true,
+              "explanation": "The caught solid is the wanted salt; the liquid through the paper is the rest.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "The soluble salt by-product dissolved in water",
+              "correct": false,
+              "explanation": "A dissolved substance passes through the paper as filtrate; it cannot be the residue.",
+              "misconception": "filtrate and residue swapped"
+            },
+            {
+              "key": "C",
+              "text": "The excess unreacted acid",
+              "correct": false,
+              "explanation": "No acid appears in this preparation at all.",
+              "misconception": "wrong method frame"
+            },
+            {
+              "key": "D",
+              "text": "The filter paper itself",
+              "correct": false,
+              "explanation": "The paper is the apparatus, not what sits on it.",
+              "misconception": "literal misreading"
+            }
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "State how much of the second solution is added and when the addition is stopped.",
+          "misconceptionClass": "slight-excess endpoint recall",
+          "modelAnswer": "The second solution is added until it sits in slight excess, a little beyond the amount needed to react.",
+          "keywords": [
+            "slight",
+            "excess",
+            "beyond",
+            "stops",
+            "until"
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "State the liquid used to wash the collected precipitate and what that wash removes.",
+          "misconceptionClass": "wash purpose recall",
+          "modelAnswer": "Distilled water washes away traces of the reactant solutions that are contaminating the residue.",
+          "keywords": [
+            "distilled",
+            "traces",
+            "contaminating",
+            "residue",
+            "pure"
+          ]
+        },
+        {
+          "kind": "explain-why",
+          "stem": "Explain why a slight excess of the second solution guarantees the greatest possible amount of precipitate.",
+          "misconceptionClass": "maximum yield explain",
+          "modelAnswer": "With the second solution in slight excess, every limiting ion from the first solution finds a partner to react with, so the largest possible amount of insoluble salt forms.",
+          "keywords": [
+            "limiting",
+            "every",
+            "largest",
+            "partner",
+            "fully"
+          ]
+        },
+        {
+          "kind": "application",
+          "stem": "A student adds the second solution drop by drop until no more solid appears, then adds five further drops. Comment on this approach.",
+          "misconceptionClass": "slight-excess procedure application",
+          "modelAnswer": "That is exactly the slight-excess method: stopping once no more precipitate forms and then adding a little more ensures the maximum precipitate without a wasteful large surplus.",
+          "keywords": [
+            "excess",
+            "maximum",
+            "ensures",
+            "slight",
+            "surplus"
+          ]
+        }
+      ]
+    }
+  ],
+  "noteAssets": {
+    "glossary": [
+      {
+        "term": "precipitate",
+        "definition": "The insoluble solid that forms and separates when two solutions react.",
+        "firstLesson": 1
+      },
+      {
+        "term": "precipitation",
+        "definition": "The reaction in which mixing two solutions produces an insoluble solid product.",
+        "firstLesson": 1
+      },
+      {
+        "term": "double decomposition",
+        "definition": "Another name for the partner-swapping reaction that forms an insoluble salt.",
+        "firstLesson": 1
+      },
+      {
+        "term": "distilled water",
+        "definition": "Water purified by distillation, containing no dissolved minerals, used for washing the product.",
+        "firstLesson": 2
+      },
+      {
+        "term": "residue",
+        "definition": "The solid left on the filter paper after filtration.",
+        "firstLesson": 2
+      }
+    ],
+    "workedExample": {
+      "prompt": "Describe the method for preparing a pure, dry sample of an insoluble salt from two soluble reactants, and state why nitrates make convenient starting materials.",
+      "steps": [
+        "Measure out a fixed volume of the first salt solution, then add the second salt solution until it is in slight excess — this ensures the maximum amount of precipitate forms.",
+        "The two soluble salts swap partners in a double decomposition: soluble salt 1 + soluble salt 2 → insoluble salt + soluble salt 3 (the AB + CD → AD + CB pattern).",
+        "Filter the mixture — the insoluble salt is the residue on the filter paper.",
+        "Wash the residue with distilled water to strip away traces of the other solutions, then leave it to dry.",
+        "Nitrates suit this method because all nitrates are soluble, so silver nitrate or lead(II) nitrate gives a soluble starting salt for the insoluble silver or lead(II) salts wanted."
+      ],
+      "finalAnswer": "Mix to slight excess, filter, wash with distilled water, dry. All nitrates dissolve, so they make ideal soluble starting salts."
+    }
+  }
+}
