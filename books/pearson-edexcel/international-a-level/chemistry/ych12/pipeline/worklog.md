@@ -569,3 +569,45 @@ Stage Summary:
   records self-heal)**, todo 131; two record rounds back-to-back (+194,
   +204); recovery and landing now fully repo-resident. Open follow-ups:
   finish the last 131 ids, pack-floor fold fix (own gate), serving lane.
+
+---
+Task ID: T-PARSE-YCH12-2-POLISH-CONT-V2-7
+Agent: Z.ai (main, zai-web)
+Task: "continue" (2026-10-31, zai-web, trace 1a18ffa5c8740e49) — continue the v2
+polish grind, land whatever delta survives the quota, keep the §9 playbook
+current.
+
+Work Log:
+- SANDBOX RESET #11 recovery: same base-image clone route as CONT-V2-6
+  (reused, not re-cloned), non-cone sparse pattern re-applied from the
+  round recipe, ff to the tip (parallel lanes: PR #244-#248), ych12
+  baseline verified (last lane commit = CONT-V2-6, evidence 724 records).
+  Workspace seeded via the repo-resident reseed.sh + env template — the
+  third consecutive reset recovered without recreating anything from
+  memory.
+- GRIND: 9 windows, BURST-THEN-WALLS — window 1 a FULL window, the
+  grind's most productive single crack since CONT-V2-3 (+56 records: 51
+  ok / 2 rej / 3 err) taking done to 680/801; then the wall CLOSED
+  COMPLETELY — windows 2-9 all clean-exit probe windows (8 x 12 probes,
+  PROBE_WAIT 45-50s) against a ~73-minute full closure, THE GRIND'S
+  LONGEST (previous max observed: 51+ min, L-017's third intensity data
+  point now at 73 min). Landed per the standing discipline: harvest the
+  delta, resume the rest. Evidence 780 raw records (675 ok / 48 rejected
+  / 57 error-cum-429); 723/801 done, todo 78.
+- MERGE (after reseed.sh): llm_repaired 675, text changed 671, anchor
+  PASS 0 drift; reconcile ALL PASS (net-new 51, overlap 624 re-applied
+  from pristine, R1-R6 clean); audit 0 Unicode-unit regressions (benign
+  chemistry-word residual class); validate ALL CHECKS PASSED x2
+  (workspace + repo copy, EP 10/10, by_design_gaps preserved).
+- LANDED: parsed/ chunks_v2 + full_book_docling_v2 + parse_report_v2
+  (llm_polished 624->675) + evidence/llm_repairs_ych12_v2.jsonl (780
+  records); ledgers same commit: lane README, CATALOG row 12 + §3.6,
+  playbook R-016 + changelog v1.13. No new L-entries (the 73-min closure
+  extends L-017's range observation, recorded here + in R-016 rather
+  than as a new lesson — same mechanism, longer tail). No new errata.
+
+Stage Summary:
+- v2 polish R1 at **675/801 applied (723 done incl. 48 rejected, 57 error
+  records self-heal)**, todo 78 — ~90% of the grind complete, 78 ids
+  resumable behind the current wall. Open follow-ups: finish the last
+  78, pack-floor fold fix (own gate), serving lane.

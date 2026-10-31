@@ -1050,6 +1050,33 @@ E-ID they correct)*
   playbook: none. Lessons appended: none new. Errata filed: none new
   (E-007 headroom 2500 untouched — no near-max chunk repaired this round).
 
+- **R-016** (2026-10-31, T-PARSE-YCH12-2 POLISH-CONT-V2-7, YCH12 SB2 v2 polish
+  continuation): pages parsed n/a (polish grind + landing); chunks unchanged
+  **1406** (v2 = corpus of record); validation ALL CHECKS PASSED post-merge
+  AND re-run green against the repo copy (v2 grammar, EP 10/10,
+  by_design_gaps preserved); LLM polish R1-v2: 801 staged, cumulative **675
+  applied** (675 flagged, 671 text changed), 48 rejected (guard; raws in
+  evidence), 57 error-cum-429 (self-heal on resume; 723/801 done, todo
+  78 — ~90% of the grind complete); this session 9 windows,
+  BURST-THEN-WALLS: window 1 the most productive single crack since
+  CONT-V2-3 (+56 records: 51 ok / 2 rej / 3 err), then the wall closed
+  COMPLETELY — 8 consecutive clean-exit probe windows (12 probes each,
+  PROBE_WAIT 45–50 s) against a **~73-minute full closure, the grind's
+  longest** (L-017's intensity range now observed at full windows /
+  crack-openings / 51+ min / 73 min). Recovery: reset #11, same
+  base-image-clone route as CONT-V2-6 — third consecutive reset recovered
+  with zero tooling recreated from memory (env template + reseed law).
+  Landing end-to-end resident chain: reseed → merge (675/671, anchor 0
+  drift) → reconcile ALL PASS (net-new 51, overlap 624 re-applied from
+  pristine) → audit 0 Unicode-unit regressions → validate ALL CHECKS
+  PASSED ×2. A parallel lane landed the ych12 SERVING package (r0 slices
+  manifest, operator order trace 1a18fe1f9cace659) between fetches —
+  byte-disjoint from the polish lane's paths, no conflict, disclosed
+  here for the round record. Deviations from playbook: none. Lessons
+  appended: none new (the 73-min closure extends L-017's observed range;
+  same mechanism, longer tail — recorded here, not as a new lesson).
+  Errata filed: none new.
+
 ```
 - **R-<seq>** (<date>, <TASK-ID>, <book>): pages parsed N/N; chunks N;
   content types N; offset N (3-way confirmed); validation ALL CHECKS PASSED
@@ -1059,6 +1086,17 @@ E-ID they correct)*
 ```
 
 ## 10. Change log
+
+- **2026-10-31 — v1.13 (T-PARSE-YCH12-2 POLISH-CONT-V2-7):** YCH12 v2 polish
+  grind continued and landed (R-016: cumulative **675/801 applied**, net-new
+  +51 this landing — one full window then the grind's longest full closure
+  (~73 min, extending L-017's observed range); anchor 0 drift,
+  reconciliation + audit + validator all green ×2; todo 78, the grind is
+  ~90% done). Reset #11 recovered on the base-image-clone route, third
+  consecutive reset with zero tooling recreated from memory. Disclosed:
+  a parallel lane landed the ych12 r0 serving package between fetches
+  (byte-disjoint, no conflict). Ledgers: CATALOG row 12 + §3.6 updated;
+  lane README + worklog same commit.
 
 - **2026-10-30 — v1.12 (T-PARSE-YCH12-2 POLISH-CONT-V2-6):** YCH12 v2 polish
   grind continued and landed (R-015: cumulative **624/801 applied**, net-new

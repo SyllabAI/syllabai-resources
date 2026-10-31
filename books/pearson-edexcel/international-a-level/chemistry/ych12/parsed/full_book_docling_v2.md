@@ -1042,7 +1042,9 @@ MATHS SKILLS FOR THIS TOPIC
 
 ### 11A Further Kinetics
 
-1TECHNIQUESFORMEASURING THERATEOFREACTION
+
+#### 1TECHNIQUESFORMEASURING THERATEOFREACTION
+1 TECHNIQUES FOR MEASURING THE RATE OF REACTION
 LEARNING OBJECTIVES
 
 • Understand the term 'rate of reaction'.
@@ -2121,9 +2123,9 @@ CHECKPOINT
 Suggest why a catalytic converter could not be used in a car running on leaded petrol.
 SUBJECT VOCABULARY
 
-adsorptiontheadhesionofatoms,moleculesorionstothesurface of a solid
+adsorption the adhesion of atoms, molecules or ions to the surface of a solid
 
-autocatalysiswhenareactionproductactsasacatalystforthe reaction
+autocatalysis when a reaction product acts as a catalyst for the reaction
 11A 6EFFECTOFTEMPERATUREON THERATECONSTANT
 LEARNING OBJECTIVES
 
@@ -2177,7 +2179,7 @@ Table A shows some data related to the reaction between peroxydisulfate and iodi
 S₂O₈²⁻(aq) + 2I⁻(aq) → 2SO₄²⁻(aq) + I₂(aq)
 
 #### WORKED EXAMPLE
-|   TEMPERATURE/K |   MAGNITUDEOFRATE CONSTANT,K |   Ink |   1/T/K-1 |
+|   TEMPERATURE/K |   MAGNITUDE OF RATE CONSTANT,K |   Ink |   1/T/K-1 |
 |-----------------|------------------------------|-------|-----------|
 |             300 |                      0.00513 | -5.27 |   0.00333 |
 |             310 |                      0.00833 | -4.79 |   0.00323 |
@@ -3041,15 +3043,17 @@ The increase in entropy obtained by supplying a certain amount of heat energy to
 If an object is very cold, the molecules are not moving around very much.Supplying some heat energy tothe objectwill make themoleculesmove around more,so theentropy increases.
 
 If we supply the same amount of heat energy to a much hotter object, the entropy will still increase, but not by as much as with the cold object. This is because in the hot object the molecules are already moving around vigorously and the increased degree of movement is less for the hot object.
-WHYDOESWATERFREEZE?
 
-We will now apply these principles to explain why,under certain conditions, water will freeze.
+#### WHYDOESWATERFREEZE?
+WHY DOES WATER FREEZE?
+
+We will now apply these principles to explain why, under certain conditions, water will freeze.
 
 Ice has lower entropy than liquid water, so Ssystem is negative.
 
-The process is exothermic, so △Ssuroundings is positive.
+The process is exothermic, so △Ssurroundings is positive.
 
-If the magnitude of Ssuroundings > the magnitude of Ssystem, then Siotal is positive and the water will freeze.
+If the magnitude of Ssurroundings > the magnitude of Ssystem, then Stotal is positive and the water will freeze.
 
 We will now calculate △Sota for the change of water into ice at +5 °C and -5 °C using the following data.
 
@@ -3063,17 +3067,17 @@ At +5°C (278 K):
 
 ΔS_system = (47.9 − 69.9) = −22.0 J K⁻¹ mol⁻¹ ΔS_surroundings = − −6010 / 278 = +21.6 J K⁻¹ mol⁻¹ ΔS_total = −0.4 J K⁻¹ mol⁻¹
 
-The total entropy change is negative, meaning that the change is not thermodynamically spontaneous. Thewaterwill notfreeze.
+The total entropy change is negative, meaning that the change is not thermodynamically spontaneous. The water will not freeze.
 
-At-5°C(268K):
+At -5°C(268K):
 
 ΔS_system = (47.9 − 69.9) = −22.0 J K⁻¹ mol⁻¹ ΔS_surroundings = − −6010 / 268 = +22.4 J K⁻¹ mol⁻¹ ΔS_total = +0.4 J K⁻¹ mol⁻¹
 
-The total entropy change is positive, meaning that the change is thermodynamically spontaneous. Thewaterwill freeze.
+The total entropy change is positive, meaning that the change is thermodynamically spontaneous. The water will freeze.
 
-It is interesting to note that what has changed between+5°C and-5°Cis the entropy of the surroundings. The reason that Ssuroundings has changed in magnitude is simply because of the temperature change.The same amount ofheatenergyhasbeen transferred tothesurroundings but,because the entropy of the surroundings has a higher temperature when at +5°C thanwhen at -5 °C, the change in entropy is smaller, as explained earlier.
+It is interesting to note that what has changed between +5°C and -5°C is the entropy of the surroundings. The reason that Ssurroundings has changed in magnitude is simply because of the temperature change. The same amount of heat energy has been transferred to the surroundings but, because the entropy of the surroundings has a higher temperature when at +5°C than when at -5 °C, the change in entropy is smaller, as explained earlier.
 
-So,the reasonwe put waterinto a freezer whenwewant tomakeice is because the entropy change of the surroundings (i.e.essentially the air inside the freezer) is large enough to compensate for the decreaseinentropywhenthewaterfreezes.
+So, the reason we put water into a freezer when we want to make ice is because the entropy change of the surroundings (i.e. essentially the air inside the freezer) is large enough to compensate for the decrease in entropy when the water freezes.
 CHECKPOINT
 
 • 1.Hydrated cobalt(ll) chloride dehydrates on heating according to the following equation:
@@ -3103,13 +3107,13 @@ LEARNING OBJECTIVES
 
 • Understand why entropy changes occur during:
 
-• (i)changes of state
+• (i) changes of state
 
-• ）dissolvingofasolidioniclattice
+• ) dissolving of a solid ionic lattice
 
-• (ii)reactionsinwhichthereisa changeinthenumberofmolesfromreactantstoproducts
+• (ii) reactions in which there is a change in the number of moles from reactants to products
 
-• Be able to use entropy and enthalpy changes of solution values to predict the solubility of ionic compounds and discuss trends inthesolubilityofioniccompoundscoveredinUnit2
+• Be able to use entropy and enthalpy changes of solution values to predict the solubility of ionic compounds and discuss trends in the solubility of ionic compounds covered in Unit 2
 REACTIONSINVOLVINGACHANGEOFSTATE
 
 We have already mentioned that,in general, entropy increases in the order:
@@ -3326,23 +3330,25 @@ LEARNING OBJECTIVES
 • ConstructBorn-Habercyclesandcarryoutrelatedcalculations.
 
 • Understand the effectof ioniccharge and ionicradius on thevalue of thelatticeenergy of an ioniccompound.
-LATTICEENERGY
 
-InBook1,we saw thatbond enthalpies canbeused asameasure of the strength of the covalent bonding in molecules. The equivalent energy change forionic bonding in ionic compounds is lattice energy,△LeH (or lattice enthalpy)
+#### LATTICEENERGY
+LATTICE ENERGY
 
-The lattice energy of a compound is the energy change when one moleoftheionicsolidisformedfromitsgaseousions.Ifstandard conditionsof100kPaand astatedtemperature(usually298K) standard lattice energy.
+In Book 1, we saw that bond enthalpies can be used as a measure of the strength of the covalent bonding in molecules. The equivalent energy change for ionic bonding in ionic compounds is lattice energy, △LeH (or lattice enthalpy)
+
+The lattice energy of a compound is the energy change when one mole of the ionic solid is formed from its gaseous ions. If standard conditions of 100 kPa and a stated temperature (usually 298 K) standard lattice energy.
 
 The equation that represents the standard lattice energy of sodium chloride is:
 
-Na+(g) + Cl-(g) → NaCl(s)
+Na⁺(g) + Cl⁻(g) → NaCl(s)
 
-LEH=-780kJ mol-1
+LEH = -780 kJ mol⁻¹
 
 For magnesium chloride it is:
 
-Mg²+(g) + 2Cl-(g) →→ MgCl2(s)
+Mg²⁺(g) + 2Cl⁻(g) → MgCl₂(s)
 
-LEH=-2526kJmol-1
+LEH = -2526 kJ mol⁻¹
 LEARNING TIP
 
 The terms 'lattice energy' and 'lattice enthalpy' are commonly used as if they mean exactly the same thing. You will often find both terms used within the same textbook, article or website, including some university websites.
@@ -3461,13 +3467,15 @@ Li(g) + e⁻ → Li⁻(g) 1st EA = −60 kJ mol⁻¹
 Na(g) + e⁻ → Na⁻(g) 1st EA = −53 kJ mol⁻¹
 
 1st EA =-53kJ mol-1
-BORN-HABERCYCLES
 
-We are now in aposition to consider the overallenergy changes thattakeplacewhenanioniccompoundismadefromits leveldiagramcalledtheBorn-Habercycle.FigAshowsthe Born-Haber cycle for sodium chloride.
+#### BORN-HABERCYCLES
+BORN-HABER CYCLES
+
+We are now in a position to consider the overall energy changes that take place when an ionic compound is made from its level diagram called the Born-Haber cycle. Fig A shows the Born-Haber cycle for sodium chloride.
 
 Energy
 
-figABorn-Haber cycleforsodiumchloride.
+fig A Born-Haber cycle for sodium chloride.
 EXAM HINT
 
 Examiners may ask you to label enthalpy change of atomisation, enthalpy change of ionisation, electron affinity and enthalpy change of formation on Born-Haber cycle diagrams like fig A. Make sure that you can recognise each process and label it correctly.
@@ -3995,7 +4003,7 @@ WRITING SCIENTIFICALLY
 If theword'explain' is used in a question,your answerneedstoinclude a justification. This could involvereasoning or a mathematicalexplanation.
 DID YOU KNOW?
 
-Althoughpredictedasearly as1935,the creationofthe metallicstateofhydrogen wasfinallyreported in2011. ScientistsattheMaxPlanck InstituteinGermanyreported that thisform of hydrogen hadfinallybeenmadeat a pressure of 260billion Pa. Metallichydrogenhelps explain, among other things, the strong magneticfield generated bythe'gasgiant' Jupiter,which,unlikeEarth, has no iron core.
+Although predicted as early as 1935, the creation of the metallic state of hydrogen was finally reported in 2011. Scientists at the Max Planck Institute in Germany reported that this form of hydrogen had finally been made at a pressure of 260 billion Pa. Metallic hydrogen helps explain, among other things, the strong magnetic field generated by the 'gas giant' Jupiter, which, unlike Earth, has no iron core.
 12 EXAMPRACTICE
 
 • 1The table shows the ionic radi and charges for six different ions.
@@ -4670,7 +4678,7 @@ Some chlorine gas is placed in a closed container and heated to 1400 K until equ
 • (ii) Calculate the value of K, for this reaction at 1400 K. Give the units, if any.
 SUBJECT VOCABULARY
 
-partial pressure(ofagasinamixtureofgases) thepressure that thegaswould exert if it alone occupied thevolumeofthemixture
+partial pressure (of a gas in a mixture of gases) the pressure that the gas would exert if it alone occupied the volume of the mixture
 LEARNING OBJECTIVES
 
 • Know the effect of changing the temperature on the equilibrium constant (K. and K,) for both exothermic and endothermic reactions.
@@ -5342,9 +5350,9 @@ The process is normally carried out in industry at a pressure of 500 atm and a t
 #### (Total for Question 8 = 9 marks)
 [4]
 
-• (i)Deduce the conditions of temperature and pressure that would give the highest yield of R. [2]
+• (i) Deduce the conditions of temperature and pressure that would give the highest yield of R. [2]
 
-• i1 Explain why the conditions you have suggested in part (i) may be different from those used industrially. [2]
+• (ii) Explain why the conditions you have suggested in part (i) may be different from those used industrially. [2]
 
 #### (TotalforQuestion9=10marks)
 (Total for Question 9 = 10 marks)
@@ -5808,15 +5816,15 @@ Youwill noticethatthelargerthevalueofKthestrongertheacid.
 By contrast, the smaller the value of pKathe stronger the acid.
 
 #### K。 AND pK。 VALUES
-| NAMEOFACID            | FORMULAOFACID   | K/moldm-3   |   pKa |
-|-----------------------|-----------------|-------------|-------|
-| propanoicacid         | CHCH2COOH       | 1.35 × 10-5 |  4.87 |
-| ethanoic acid         | CH;COOH         | 1.74 × 10-5 |  4.76 |
-| benzoic acid          | CHCOOH          | 6.31 ×10-5  |  4.20 |
-| methanoicacid         | HCOOH           | 1.60 ×10-4  |  3.80 |
-| chloroethanoicacid    | CH2CICOOH       | 1.38 ×10-3  |  2.86 |
-| dichloroethanoicacid  | CHCICOOH        | 5.13 × 10-2 |  1.29 |
-| trichloroethanoicacid | CCI;COOH        | 2.24 × 10-1 |  0.65 |
+| NAME OF ACID          | FORMULA OF ACID   | K/mol dm⁻³   |   pKa |
+|-----------------------|-------------------|--------------|-------|
+| propanoic acid        | CH₃CH₂COOH       | 1.35 × 10⁻⁵ |  4.87 |
+| ethanoic acid         | CH₃COOH          | 1.74 × 10⁻⁵ |  4.76 |
+| benzoic acid          | C₆H₅COOH         | 6.31 × 10⁻⁵ |  4.20 |
+| methanoic acid        | HCOOH            | 1.60 × 10⁻⁴ |  3.80 |
+| chloroethanoic acid   | CH₂ClCOOH        | 1.38 × 10⁻³ |  2.86 |
+| dichloroethanoic acid | CHCl₂COOH        | 5.13 × 10⁻² |  1.29 |
+| trichloroethanoic acid| CCl₃COOH         | 2.24 × 10⁻¹ |  0.65 |
 
 #### CALCULATINGTHEpHOFADIBASICACID
 CALCULATING THE pH OF A DIBASIC ACID
@@ -5863,7 +5871,7 @@ CHECKPOINT
 • The pH of an aqueous solution of a weak acid,HA,of concentration 0.0305 mol dm-3 is 4.97. Calculatethedissociationconstant,Ka,forthisweakacid.
 SUBJECT VOCABULARY
 
-pH(of an aqueoussolution)thereciprocal of thelogarithm to thebase10of thehydrogenion concentration,measured inmolespercubicdecimetre,pH=-lg[H+].Thisdefinitionisdifficultto remember,soeitherof thetwoequationsgivenonpage83canbeusedto definepH pKa=-lg Ka
+pH(of an aqueous solution) the reciprocal of the logarithm to the base10 of the hydrogen ion concentration, measured in moles per cubic decimetre, pH=-lg[H+]. This definition is difficult to remember, so either of the two equations given on page83 can be used to define pH pKa=-lg Ka
 LEARNING OBJECTIVES
 
 • Be abletodefinetheionicproductofwater,Kw
@@ -5936,7 +5944,7 @@ LEARNING TIP
 The equation should strictly be pKw=-lgKw/(c)², where c is the standard concentration of 1 mol dm⁻³, in order to be able to take the logarithm of a dimensionless quantity. However we will use the simplified version of the equation.
 TOPIC14
 
-A sodium hydroxide solution of concentration 0.100mol dm-3 therefore has a hydroxide ion concentrationof0.100moldm-3.
+A sodium hydroxide solution of concentration 0.100 mol dm-3 therefore has a hydroxide ion concentration of 0.100 mol dm-3.
 
 If [OH-(aq)] = 0.100 mol dm-3 and [H+(aq)][OH-(aq)] = 1.00 × 10-14 mol2 dm-6, then
 
@@ -6252,19 +6260,21 @@ figCpH curveforaweak acid-strongbase titration.
 The curve (fig C) is the same as that for a strong acid-strong base up to theequivalencepoint,butthereisadifferenceoncetheacid is presentinexcess.Pasttheequivalencepoint,thesolution contains a mixture of ethanoic acid and sodium ethanoate. This mixture acts as a buffer solution and therefore resists any large change in pH upon addition of further acid. (See Section 14B.2).
 
 Note that the pH at the equivalencepoint isbetween 8 and 9;it is not7.
-TITRATIONOFASTRONGACIDWITHAWEAKBASE
 
-For this example we will add 1.00 mol dm-3 hydrochloric acid to 25 cm²of1.00moldm-3 aqueous ammonia.
+#### TITRATIONOFASTRONGACIDWITHAWEAKBASE
+TITRATION OF A STRONG ACID WITH A WEAK BASE
 
-figDpHcurvefora strong acid-weakbase titration.
+For this example we will add 1.00 mol dm⁻³ hydrochloric acid to 25 cm³ of 1.00 mol dm⁻³ aqueous ammonia.
 
-Whentheacidisfirst addedthepHstartstofallquitesharply, but the curve quickly levels out (fig D). This is because a buffer solution has been formed, containing ammonia and ammonium chloride(again,seeSection 14B.2).
+fig D pH curve for a strong acid-weak base titration.
 
-NoticethatthepHattheequivalencepointislessthan7because the salt formed, ammonium chloride, is composed of a strong acid and aweakbase.
+When the acid is first added the pH starts to fall quite sharply, but the curve quickly levels out (fig D). This is because a buffer solution has been formed, containing ammonia and ammonium chloride (again, see Section 14B.2).
 
-fig EpH curve for a weak acid-weak base titration.
+Notice that the pH at the equivalence point is less than 7 because the salt formed, ammonium chloride, is composed of a strong acid and a weak base.
 
-Notice that there is not any steep section to this graph (fig E). Instead, there is what is known as a 'point of inflection'. The lack ofa steepsectionmeansthatit isdifficult todoa titrationof a weak acid against a weak base using anindicator Thereason for thiswill beexplained inSection14B.3.
+fig E pH curve for a weak acid-weak base titration.
+
+Notice that there is not any steep section to this graph (fig E). Instead, there is what is known as a 'point of inflection'. The lack of a steep section means that it is difficult to do a titration of a weak acid against a weak base using an indicator. The reason for this will be explained in Section 14B.3.
 
 #### ACID-BASEINDICATORS
 ACID-BASE INDICATORS
@@ -6343,13 +6353,15 @@ Fig F shows the pH titration curve for 25 cm³ of 1.00 mol dm⁻³ NaOH(aq) titr
 Fig F: Strong acid-strong base pH curve.
 
 You will notice that the pH range of each indicator falls within the steep section of the curve, where a large pH change is occurring upon the addition of just one drop of acid. This means that both indicators will change colour at the end point and therefore both are suitable indicators to use in this titration.
-WEAKACID-STRONGBASETITRATION
 
-Wewill nowconsiderthesuitabilityofeachindicatorforaweak acid-strongbase titration.
+#### WEAKACID-STRONGBASETITRATION
+WEAK ACID-STRONG BASE TITRATION
 
-Fig G shows the pH titration curve for 25 cm? of 1.00 mol dm-3 NaOH(aq) titrated with 1.00 mol dm-3 CH;COOH(aq). Once again, the pH ranges of methyl orange and phenolphthalein have also been included.
+We will now consider the suitability of each indicator for a weak acid-strong base titration.
 
-figGWeakacid-strongbasepHcurve.
+Fig G shows the pH titration curve for 25 cm³ of 1.00 mol dm⁻³ NaOH(aq) titrated with 1.00 mol dm⁻³ CH₃COOH(aq). Once again, the pH ranges of methyl orange and phenolphthalein have also been included.
+
+Fig G Weak acid-strong base pH curve.
 
 This time, only the pH range of phenolphthalein falls within the steep section of the curve. So, phenolphthalein is suitable, but methyl orange is not.
 STRONGACID-WEAKBASETITRATION
@@ -6789,9 +6801,9 @@ Fig A shows a typical pH curve obtained when a weak acid is titrated against a s
 fig AStrong base-weak acid pH curve showing buffer range.
 EXAM HINT
 
-Whenaweakacid istitratedagainstastrongbase,thereisafairlyrapid changeof about1.5pHunits when the strongbaseisfirst added.This is beforethebufferrangebegins.Besuretoshowthisclearlyifyouare askedtosketchacurveforthistitrationinanexamquestion.
+When a weak acid is titrated against a strong base, there is a fairly rapid change of about 1.5pH units when the strong base is first added. This is before the buffer range begins. Be sure to show this clearly if you are asked to sketch a curve for this titration in an exam question.
 
-In the region marked buffer range', the change in pH as the base is added isgradual.Over thisrange thereisa considerable concentration of both acid and conjugate base molecules. This mixture is displaying buffer action.
+In the region marked 'buffer range', the change in pH as the base is added is gradual. Over this range there is a considerable concentration of both acid and conjugate base molecules. This mixture is displaying buffer action.
 DETERMININGKFROMApHTITRATIONCURVE
 
 This experiment involves performing a titration with an aqueous solutionofaweakacidinaconicalflask.Fromaburette,weadd a standard solution of a strong base, such as sodium hydroxide. WemeasurethepHofthesolutionaftereachaddition.
@@ -7049,15 +7061,15 @@ D 8.0
 • 7A mixture ofethanoic acid,CH₃COOH,andits sodiumsalt CH₃COONa, can act as a buffer solution.
 
 #### (Total for Question 5 = 1 mark)
-• 10Sulfurdioxidereactswithwater toproduce sulfurous acid, HSO3, which is a weak dibasic acid.
+• 10 Sulfur dioxide reacts with water to produce sulfurous acid, HSO₃, which is a weak dibasic acid.
 
-• (a)State what is meant by the term buffer solution'. [2]
+• (a) State what is meant by the term 'buffer solution'. [2]
 
-• (b)Explain how a mixture of ethanoic acid and sodiumethanoateactsasabuffer. [4]
+• (b) Explain how a mixture of ethanoic acid and sodium ethanoate acts as a buffer. [4]
 
-• (c)A buffer solution is made by adding a solution of sodium hydroxide, of concentration 1.00 mol dm-3, to a sample of 1.00 mol dm-3 ethanoic acid until half of the amount of acid present has reacted.Calculate the pH of this buffer solution.
+• (c) A buffer solution is made by adding a solution of sodium hydroxide, of concentration 1.00 mol dm⁻³, to a sample of 1.00 mol dm⁻³ ethanoic acid until half of the amount of acid present has reacted. Calculate the pH of this buffer solution.
 
-[Ka of ethanoic acid at the temperature used is 1.70 × 10-5 mol dm-3]
+[Ka of ethanoic acid at the temperature used is 1.70 × 10⁻⁵ mol dm⁻³]
 
 [3]
 (Total for Question 7 = 9 marks)
@@ -7145,7 +7157,9 @@ The overall equation for the reaction is: Na₂CO₃(aq) + 2HCl(aq) → 2NaCl(aq
 
 ### Topic 15: Organic Chemistry: Carbonyls, Carboxylic Acids and Chirality
 
-TOPIC15ORGANIC CHEMISTRY:CARBONYLS CARBOXYLICACIDSAND CHIRALITY
+
+#### TOPIC15ORGANIC CHEMISTRY:CARBONYLS CARBOXYLICACIDSAND CHIRALITY
+TOPIC 15 ORGANIC CHEMISTRY: CARBONYLS CARBOXYLIC ACIDS AND CHIRALITY
 CHIRALITYIBCARBONYLCOMPOUNDS CARBOXYLICACIDSIDCARBOXYLICACIDDERIVATIVES E SPECTROSCOPYANDCHROMATOGRAPHY
 
 In Book 1 you learned about the simplest hydrocarbons (alkanes and alkenes) and how to name them using IUPAC (International Union of Pure and Applied Chemistry) rules.You then considered halogenoalkanes and alcohols, including important practical techniques used to convert one organic compound into another. You the structures oforganiccompounds.
@@ -7233,13 +7247,13 @@ OPTICAL ISOMERISM
 How does optical isomerism fit into this family tree? Optical isomers are non-superimposable mirror images of each other but are otherwise the same. This needs careful explanation!
 CHIRALITY
 
-This is a term derived from the Greek word for'hand',and could be translated as'handedness'. Many objects,includinghumanhands,canbedescribed aschiral.Yourhandshavethesamefeatures,and you could describeboth hands using the same words.Both consist of a palm with a thumb on one
+This is a term derived from the Greek word for 'hand', and could be translated as 'handedness'. Many objects, including human hands, can be described as chiral. Your hands have the same features, and you could describe both hands using the same words. Both consist of a palm with a thumb on one
 
 15.2
 
-sideandfourfingersofdifferentsizes.However,ifyouplace one cannotsuperimposeonehand ontheother.
+side and four fingers of different sizes. However, if you place one cannot superimpose one hand on the other.
 
-Nowputyourhandstogether-youcanseethatthethumbsare corresponds.Next,putyourlefthand infront of a mirror,then lookattheimage inthemirror andyourright hand atthesame time-theyshould lookidentical,soyour hands canbe described asmirrorimages,or sometimes as an object and itsmirrorimage.
+Now put your hands together - you can see that the thumbs are corresponds. Next, put your left hand in front of a mirror, then look at the image in the mirror and your right hand at the same time - they should look identical, so your hands can be described as mirror images, or sometimes as an object and its mirror image.
 
 #### CHIRALITYINSIMPLEMOLECULES
 CHIRALITY IN SIMPLE MOLECULES
@@ -7442,7 +7456,9 @@ unimolecular(mechanism) a mechanism in which only one species is reactinginthera
 
 ### 15B Carbonyl Compounds
 
-1CARBONYLCOMPOUNDSAND THEIRPHYSICALPROPERTIES
+
+#### 1CARBONYLCOMPOUNDSAND THEIRPHYSICALPROPERTIES
+1 CARBONYL COMPOUNDS AND THEIR PHYSICAL PROPERTIES
 LEARNING OBJECTIVES
 
 • Understand the nomenclature of aldehydes and ketones and be able to draw their structural, displayed and skeletal formulae.
@@ -7560,11 +7576,13 @@ LEARNING OBJECTIVES
 • (i)Fehling's orBenedict's solution,Tollens'reagent and acidified dichromate(Vl) ions
 
 • (ii) iodine in the presence of alkali (the iodoform test).
-OXIDATIONREACTIONS
 
-You may remember from Topic 10 (Book 1: IAS) that carbonyl compounds(formedbytheoxidationofalcohols)differintheir easeofoxidation-aldehydes(butnotketones)areeasilyoxidised tocarboxylicacids.Inthissection,wewilllookatthesereactions inmoredetail,and alsoconsiderthereductionreactionsof carbonylcompounds.FigAsummarises thesereactions.
+#### OXIDATIONREACTIONS
+OXIDATION REACTIONS
 
-fig AAldehydes can be reduced and oxidised,but ketones can only be reduced.
+You may remember from Topic 10 (Book 1: IAS) that carbonyl compounds (formed by the oxidation of alcohols) differ in their ease of oxidation - aldehydes (but not ketones) are easily oxidised to carboxylic acids. In this section, we will look at these reactions in more detail, and also consider the reduction reactions of carbonyl compounds. Fig A summarises these reactions.
+
+Fig A Aldehydes can be reduced and oxidised, but ketones can only be reduced.
 
 #### REDUCTIONREACTIONS
 REDUCTION REACTIONS
@@ -7639,7 +7657,7 @@ tableB
 | 2-methylpropan-1-ol | (CH3)2CHCHO        | negative |
 EXAM HINT
 
-Astheiodoformtestisanoxidisingreaction,asecondary alcoholwith a terminal methyl group(e.g.butan-2-ol) will alsogive a positive result.
+As the iodoform test is an oxidising reaction, a secondary alcohol with a terminal methyl group (e.g. butan-2-ol) will also give a positive result.
 CHECKPOINT
 
 • 1. What are the names of the organic products of thesereactions?
@@ -7751,7 +7769,9 @@ nucleophilic addition a type of mechanism in which a molecule containing two ato
 
 ### 15C Carboxylic Acids
 
-1CARBOXYLICACIDSANDTHEIR PHYSICALPROPERTIES
+
+#### 1CARBOXYLICACIDSANDTHEIR PHYSICALPROPERTIES
+1 CARBOXYLIC ACIDS AND THEIR PHYSICAL PROPERTIES
 LEARNING OBJECTIVES
 
 • Understand the nomenclature of carboxylic acids and be able to draw their structural, displayed and skeletal formulae.
@@ -7866,7 +7886,9 @@ CHECKPOINT
 • (b) ethanedioicacid.
 
 • 2. Explainwhyhexanoicacidismuchlesssolublethanethanoic acid inwater.
-2PREPARATIONSANDREACTIONS OFCARBOXYLICACIDS
+
+#### 2PREPARATIONSANDREACTIONS OFCARBOXYLICACIDS
+2 PREPARATIONS AND REACTIONS OF CARBOXYLIC ACIDS
 LEARNING OBJECTIVES
 
 • Understand that carboxylic acids can be prepared by the oxidation of alcohols or aldehydes and the hydrolysis of nitriles.
@@ -7989,7 +8011,9 @@ With an ester, be careful to make sure that the name and formula match. CH₃COO
 
 ### 15D Carboxylic Acid Derivatives
 
-1CARBOXYLICACIDDERIVATIVES: ACYLCHLORIDES
+
+#### 1CARBOXYLICACIDDERIVATIVES: ACYLCHLORIDES
+1 CARBOXYLIC ACID DERIVATIVES: ACYL CHLORIDES
 LEARNING OBJECTIVES
 
 • Understand the nomenclature of acyl chlorides andbe able to draw their structural, displayed and skeletal formulae.
@@ -8159,13 +8183,13 @@ HYDROLYSIS OF ESTERS
 The only reactions of esters that you need to know about are two slightly different types of hydrolysis. The term 'hydrolysis' means
 LEARNING TIP
 
-Acidichydrolysisofanesterisa reversiblereaction,butalkaline hydrolysisreactionsgoto completion.
+Acidic hydrolysis of an ester is a reversible reaction, but alkaline hydrolysis reactions go to completion.
 
-breaking down (lysis) using water (hydro). It can be considered as the reverse of esterification. You mayrememberequationssuch asthisfrom aprevioussection:
+breaking down (lysis) using water (hydro). It can be considered as the reverse of esterification. You may remember equations such as this from a previous section:
 
-CHCOOH+CHCHOH=CHCOOCHCH+HO
+CHCOOH + CHCHOH = CHCOOCHCH + HO
 
-reversiblearrowindicatesthatamixtureofethylethanoateandwaterreactstogethertoformethanoic acid and ethanol. This reversereaction could be described as the hydrolysis of ethyl ethanoate.
+reversible arrow indicates that a mixture of ethyl ethanoate and water react together to form ethanoic acid and ethanol. This reverse reaction could be described as the hydrolysis of ethyl ethanoate.
 
 #### HYDROLYSISINACIDICSOLUTION
 HYDROLYSIS IN ACIDIC SOLUTION
@@ -8190,19 +8214,19 @@ CH₃CH₂COO⁻ + H⁺ → CH₃CH₂COOH
 The final organic products are methanol and propanoic acid.
 SAPONIFICATION
 
-The Latinword for soap is sapo,so saponification means'soap-making'.This is a particular example ofthe alkalinehydrolysisofesters.Soaps anddetergentshavesimilaruses,butthemaindifferenceis obtainedfromvegetable(and,originally,animal)sources.
+The Latin word for soap is sapo, so saponification means 'soap-making'. This is a particular example of the alkaline hydrolysis of esters. Soaps and detergents have similar uses, but the main difference is obtained from vegetable (and, originally, animal) sources.
 
-Vegetable oils containlarge quantities oftriglycerides.These are triesters,each ofwhich consists of a large ester molecule that canbehydrolysed to one alcohol and three carboxylicacid molecules. The hydrolysis of a typical triglyceride is shown in fig B.
+Vegetable oils contain large quantities of triglycerides. These are triesters, each of which consists of a large ester molecule that can be hydrolysed to one alcohol and three carboxylic acid molecules. The hydrolysis of a typical triglyceride is shown in fig B.
 
-a triglyceride:anester oflong-chain carboxylic acidsandatriol sodium octadecanoate (sodium stearate)
+a triglyceride: an ester of long-chain carboxylic acids and a triol sodium octadecanoate (sodium stearate)
 
 propane-1,2,3-triol
 
 (glycerol)
 
-In this example, hydrolysis produces an alcohol with three hydroxyl groups (glycerol). Glycerol has manyuses,including as a sweetenerinfoods and toothpastes,and in skin careproducts.It is also used as a component of the liquid in electronic cigarettes.
+In this example, hydrolysis produces an alcohol with three hydroxyl groups (glycerol). Glycerol has many uses, including as a sweetener in foods and toothpastes, and in skin care products. It is also used as a component of the liquid in electronic cigarettes.
 
-The other product of thisreaction,commonlyknown as sodiumstearate,is avery common ingredient ofmostsoaps.
+The other product of this reaction, commonly known as sodium stearate, is a very common ingredient of most soaps.
 CHECKPOINT
 
 • Whatarethenamesoftheseesters? (a) CHCHCOOCH2CH2CH3 (b)(CH)CHCOOCH3
@@ -8678,9 +8702,11 @@ NMRismuchmoredifficulttofullyunderstand thanMSorIR spectroscopy.Fortunately,our 
 | These nuclei are affected by an external magnetic field.                                                      | Nuclei can be imagined as either lining up or opposing the external magnetic field.                                                                                                  |
 | There is a difference in energy between these two different states of a nucleus.                             | As the spins of nuclei'flip' between lining up and opposing the external magnetic field, the nuclei can absorb electromagnetic radiation.                                                      |
 | The nuclei of two adjacent (neighbouring) atoms in a molecule influence each other, and electrons also have an effect. | This means that electromagnetic radiation is absorbed differently by different atoms in a molecule, and these are detected as different 'signals at different frequencies.                        |
-KEYASPECTSOFNMR
 
-YouneedtoknowaboutseveralaspectsofNMR.
+#### KEYASPECTSOFNMR
+KEY ASPECTS OF NMR
+
+You need to know about several aspects of NMR.
 NMRSPECTRUM
 
 Theoutputofamassspectrometerorofaninfraredspectrometer produces a spectrum (a kind of graph). Similarly, each compound testedusingNMRproducesacharacteristicspectrum.The verticalaxisissometimeslabelled'absorption'(for'absorption of radio frequency energy) and has no units, although the label isoftenomitted.Thehorizontal axisislabelledchemicalshift (or sometimes with the & symbol - the same symbol as used for partial charges) and has the units'ppm'(parts per million). The scaleusuallystartswitha zerovalue ontheright,with thevalues increasing totheleft.
@@ -8876,9 +8902,9 @@ LEARNING TIP
 When you need to decide how many different chemical environments there are for the carbon atoms in a molecule, it is a good idea to write the structure with the carbon atoms separated, e.g. CH3-CH(OH)-CH3.
 LEARNING OBJECTIVES
 
-• Be abletousebothlow andhighresolutionprotonNMRspectroscopyto:
+• Be able to use both low and high resolution proton NMR spectroscopy to:
 
-• (i)predictthedifferent typesofprotonspresentin amolecule,givenvaluesof thechemical shift,8
+• (i) predict the different types of protons present in a molecule, given values of the chemical shift, δ
 
 • (i) relate relative peak areas, or ratio numbers of protons, to the relative numbers of H atoms in different environments.
 LOWRESOLUTION'HNMRSPECTROSCOPY
@@ -9121,9 +9147,9 @@ The peak on the right is a doublet at 8 = 1.2 ppm representing six protons.This 
 Thefinal stepistoput all theseinterpretationstogether.Again this iseasyto dobut difficult to explain.The only structure that fits the interpretations is(CHs)2-CH-COOH- this is the acid methylpropanoic acid.
 REASONING
 
-• Acompoundhasthemolecularformula CHsO.ItsH NMR spectrumcontainsonlythreesinglets,withchemicalshiftvalues of4.0,3.4 and2.1ppm.Theintegration traceshows theratios 2:3:3.What is its structure?
+• A compound has the molecular formula CH₃O. Its H NMR spectrum contains only three singlets, with chemical shift values of 4.0, 3.4 and 2.1 ppm. The integration trace shows the ratios 2:3:3. What is its structure?
 
-• A compound has themolecular formula CsH1oO2.ItsH NMR spectrum contains a singlet with a chemical shift of 2.3 ppm, a quartetwithachemical shiftof5.0ppmanda doubletwitha chemicalshiftof1.2ppm.Theintegrationtraceshowstheratios 3:1:6.Whatisitsstructure?
+• A compound has the molecular formula C₅H₁₀O₂. Its H NMR spectrum contains a singlet with a chemical shift of 2.3 ppm, a quartet with a chemical shift of 5.0 ppm and a doublet with a chemical shift of 1.2 ppm. The integration trace shows the ratios 3:1:6. What is its structure?
 SUBJECT VOCABULARY
 
 equivalent protons hydrogen atoms in the same chemical environment
@@ -9330,25 +9356,25 @@ reagent
 Write an equation foreach of these steps. [2]
 (Total for Question 9 = 10 marks)
 
-• 10Thestructures oftwo compounds are:
+• 10The structures of two compounds are:
 
-• (a)Explain why infrared spectroscopy is not used to distinguishthesetwocompounds.
+• (a) Explain why infrared spectroscopy is not used to distinguish these two compounds.
 
 • [2]
 
-• (b) Explain how the number of peaks in the 13C NMR spectra of thesecompounds canbeused toidentifywhich spectrum is obtained from each compound. [4]
+• (b) Explain how the number of peaks in the 13C NMR spectra of these compounds can be used to identify which spectrum is obtained from each compound. [4]
 
-• (c) One of these compounds has a 'H NMR spectrum that shows onlytwosinglets. Explain which compound can be identified from this information.
+• (c) One of these compounds has a 'H NMR spectrum that shows only two singlets. Explain which compound can be identified from this information.
 
 [3]
 
-• (d)A simplified mass spectrum of each of the compounds is shownbelow.
+• (d) A simplified mass spectrum of each of the compounds is shown below.
 
-Explain how this information can be used toidentify each compound. [6]
+Explain how this information can be used to identify each compound. [6]
 
-(Total for Question 10 =15 marks)
+(Total for Question 10 = 15 marks)
 
-+HCI
++ HCl
 
 ## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
 
@@ -9608,13 +9634,13 @@ H⁺(aq) + 2e⁻ = H₂(g) E° = 0.00V
 Cu²⁺(aq) + 2e⁻ = Cu(s) E° = +0.34V
 TOPIC 16
 
-furthertotheleftthantheequilibriumpositionofthereactioninthehydrogenelectrode.
+further to the left than the equilibrium position of the reaction in the hydrogen electrode.
 
-ThepositivesignforCu²+(aq)|Cu(s)indicatesthattheequilibriumpositionofthisreactionisfurther totherightthantheequilibriumpositionofthereactioninthehydrogenelectrode.
+The positive sign for Cu²+(aq)|Cu(s) indicates that the equilibrium position of this reaction is further to the right than the equilibrium position of the reaction in the hydrogen electrode.
 
-This is another way of saying that magnesium releases electrons more readily than hydrogen (and also than copper),but that copperreleases electrons lessreadily thanhydrogen.
+This is another way of saying that magnesium releases electrons more readily than hydrogen (and also than copper), but that copper releases electrons less readily than hydrogen.
 
-Magnesium is,therefore,a better reducing agent than both hydrogen and copper In addition, hydrogen is a better reducing agent than copper. This point will be developed later in the topic.
+Magnesium is, therefore, a better reducing agent than both hydrogen and copper. In addition, hydrogen is a better reducing agent than copper. This point will be developed later in the topic.
 EXAM HINT
 
 Areducing agent is a species thatreduces another speciesby addingone ormore electronsto it.When a reducing agent reacts it loses electrons and is, therefore, oxidised.
@@ -9781,13 +9807,15 @@ LEARNING OBJECTIVES
 • Be able to calculate a standard emf, Eell, by combining two standard electrode potentials.
 
 • Be able to write cell diagrams using the conventional representation of half-cells.
-ELECTROCHEMICALCELLS
 
-An electrochemical cell is a device for producing an electric currentfromchemicalreactions.Itisconstructedfromtwo half-cells. Fig A shows the apparatus used to construct an electrochemicalcellfrom aZn²+|Znhalf-cell and aCu²+| Cu half-cell under standard conditions.
+#### ELECTROCHEMICALCELLS
+ELECTROCHEMICAL CELLS
 
-temperature=298K
+An electrochemical cell is a device for producing an electric current from chemical reactions. It is constructed from two half-cells. Fig A shows the apparatus used to construct an electrochemical cell from a Zn²⁺|Zn half-cell and a Cu²⁺|Cu half-cell under standard conditions.
 
-fig AAn electrochemical cell consisting of Zn²+|Zn and Cu²+|Cu half-cells.
+temperature = 298K
+
+fig A An electrochemical cell consisting of Zn²⁺|Zn and Cu²⁺|Cu half-cells.
 EXAM HINT
 
 The reactions taking place under these conditions are shown below.
@@ -11088,17 +11116,21 @@ What will I study in this topic?
 
 ### 17A Principles of Transition Metal Chemistry
 
-1TRANSITIONMETAL ELECTRONICCONFIGURATIONS
+
+#### 1TRANSITIONMETAL ELECTRONICCONFIGURATIONS
+1 TRANSITION METAL ELECTRONIC CONFIGURATIONS
 LEARNING OBJECTIVES
 
 • Be able to deduce the electronicconfigurations of atoms and ions of the d-blockelements of Period 4 (Sc-Zn) given their atomicnumberandcharge(ifany).
 
 • Understandwhytransitionmetalsshowvariableoxidationnumbers.
-WHEREARETHEYFOUNDINTHEPERIODICTABLE?
 
-YouwillbefamiliarwiththePeriodicTable and thenumbersofthedifferentgroups.Group1isonthe farleft.Onthefarright arethenoblegases,whichareinagroupnumbered 0(orsometimes8).When you studied periodicity using the elements inPeriods 2 and 3, youignored thebiggapbetweenGroups 2and3.However,whenyoulookatPeriod4youcanseeelementsbetweenGroups2and4.Someof theseelementsaretransitionmetals.
+#### WHEREARETHEYFOUNDINTHEPERIODICTABLE?
+WHERE ARE THEY FOUND IN THE PERIODIC TABLE?
 
-You will also be familiar with the idea of classifying elements as belonging to one of the blocks (s, p, d or f) of the Periodic Table. The transition metals are in the d-block of the Periodic Table (fig A). In thistopicwewill concentrateonthe10elementsinPeriod4.
+You will be familiar with the Periodic Table and the numbers of the different groups. Group 1 is on the far left. On the far right are the noble gases, which are in a group numbered 0 (or sometimes 8). When you studied periodicity using the elements in Periods 2 and 3, you ignored the big gap between Groups 2 and 3. However, when you look at Period 4 you can see elements between Groups 2 and 4. Some of these elements are transition metals.
+
+You will also be familiar with the idea of classifying elements as belonging to one of the blocks (s, p, d or f) of the Periodic Table. The transition metals are in the d-block of the Periodic Table (fig A). In this topic we will concentrate on the 10 elements in Period 4.
 
 #### WHEREARETHEYFOUNDINTHEPERIODICTABLE?
 fig ATheposition of the transitionmetalsin theperiodic table. |       | 2     |                                     | H                                   |                                     |                                     |                                     |                                     |                                     |                                     |                                     | 3                                   |                                     | 5                                   | 6                                   |                                     | 0(8) - He 2                         | |-------|-------|-------------------------------------|-------------------------------------|-------------------------------------|-------------------------------------|-------------------------------------|-------------------------------------|-------------------------------------|-------------------------------------|-------------------------------------|-------------------------------------|-------------------------------------|-------------------------------------|-------------------------------------|-------------------------------------|-------------------------------------| | Li 3  | Be 4  |                                     |                                     |                                     |                                     |                                     |                                     |                                     |                                     |                                     | B 5                                 | C 6                                 | N 7                                 | 8                                   | F 9                                 | Ne 10                               |
@@ -11111,11 +11143,13 @@ fig ATheposition of the transitionmetalsin theperiodic table. |       | 2     | 
 
 #### WHEREARETHEYFOUNDINTHEPERIODICTABLE?
 fig ATheposition of the transitionmetalsin theperiodic table.
-WHATISATRANSITIONMETAL?
 
-It is easier tolist the characteristics of transitionmetals than to explainfully what they are.To describethemasbeinginthed-blockindicatesonlytheirlocationand nottheircharacteristics.Most definitions of a transition metal refer to the electronic configurations of their atoms orions(see the Subject Vocabulary for a simple definition).
+#### WHATISATRANSITIONMETAL?
+WHAT IS A TRANSITION METAL?
 
-Afullerdefinitionisquotedin theEdexcelspecification:
+It is easier to list the characteristics of transition metals than to explain fully what they are. To describe them as being in the d-block indicates only their location and not their characteristics. Most definitions of a transition metal refer to the electronic configurations of their atoms or ions (see the Subject Vocabulary for a simple definition).
+
+A fuller definition is quoted in the Edexcel specification:
 
 'Transition metals are d-block elements that form one or more stable ions with incompletely filled d-orbitals.'
 
@@ -11474,9 +11508,9 @@ You can usually assume that a complex with six ligands is octahedral, one with f
 fig B The structures of a tetrahedral complex and a linear complex
 CHECKPOINT
 
-• Acomplexthatformsbetweencobaltionsandnitriteions(NOz)hastheabbreviatedformula [Co(NO2)]-.Predictitsshapeandtheoxidationnumberofthetransitionmetalion.
+• A complex that forms between cobalt ions and nitrite ions (NO₂) has the abbreviated formula [Co(NO₂)]⁻. Predict its shape and the oxidation number of the transition metal ion.
 
-• A complex forms between nickel(ll) ions and chlorideions.Predict its shape,name and formula.
+• A complex forms between nickel(II) ions and chloride ions. Predict its shape, name and formula.
 SUBJECT VOCABULARY
 
 six-fold coordination complexes in which there are six ligandsforming coordinate bonds with the transitionmetalion
@@ -11694,17 +11728,19 @@ So far we have considered the origin of colour in transition metal ions. We can 
 • coordination number change - the number of ligands changes.
 
 Any one of these types of reaction can cause a change in the colour of the complex. Some reactions involve more than one of these types of reactions.
-CHANGEINOXIDATIONNUMBER
 
-An aqueous solution containingFe²+(aq) ions is palegreen,but when it is exposed to air it gradually turns yellow or brown, as the oxidationnumberofiron increasesfrom+2to+3.Thetypeand number ofligandsremain unchangedinthis oxidationreaction, so the formulae of the two complexes are [Fe(H2O)]²+ and [Fe(HzO)]+.Colourchangessuch astheonein thisreaction are best illustrated usingsolid samples containing theions(seefigA).
+#### CHANGEINOXIDATIONNUMBER
+CHANGE IN OXIDATION NUMBER
 
-Equationsarenotusuallywrittenforoxidationreactionsinwhich the onlychangeistheoxidationnumberofthetransitionmetalion.
+An aqueous solution containing Fe²⁺(aq) ions is pale green, but when it is exposed to air it gradually turns yellow or brown, as the oxidation number of iron increases from +2 to +3. The type and number of ligands remain unchanged in this oxidation reaction, so the formulae of the two complexes are [Fe(H₂O)₆]²⁺ and [Fe(H₂O)₆]³⁺. Colour changes such as the one in this reaction are best illustrated using solid samples containing the ions (see fig A).
 
-Iron(ll) sulphate (FeSO4)
+Equations are not usually written for oxidation reactions in which the only change is the oxidation number of the transition metal ion.
 
-Iron(l) sulphate (Fe2(SO4)3)
+Iron(II) sulphate (FeSO₄)
 
-figASolidsamplesclearlyshowcolourdifferencesbetweenions.
+Iron(III) sulphate (Fe₂(SO₄)₃)
+
+fig A Solid samples clearly show colour differences between ions.
 
 #### FORMATIONOF[Cu(NH3)4(H2O)2]2+:DEPROTONATIONAND LIGANDEXCHANGEREACTIONS
 FORMATION OF [Cu(NH3)4(H2O)2]2+: DEPROTONATION AND LIGAND EXCHANGE REACTIONS
@@ -11890,27 +11926,29 @@ LEARNING OBJECTIVES
 INTRODUCTION
 
 Some of thereactions of chromium are similar to thosewehave already metfor theions ofcopper, cobalt,iron(Il)and iron(IlI).However, chromium has ions inwhich themetal has an oxidation number of +6, so reactions involving these ions must be considered in a different way.
-AWORDOFWARNING
 
-Wehavealreadydiscussedthatthereareaninfinitenumberofcoloursinthespectrumofvisiblelight althoughwesometimesrefertothesevencoloursoftherainbow.Theperceptionofcoloursbyhumans varies a lot.A specificcolour might bedescribed aspinkorpurple bydifferentpeople,and a colour described as blue-green by one person might be described as blue, green or turquoise by others.
+#### AWORDOFWARNING
+A WORD OF WARNING
 
-The situationwith thecolours used to describe chromium compounds isfurther complicated by thesefactors:
+We have already discussed that there are an infinite number of colours in the spectrum of visible light although we sometimes refer to the seven colours of the rainbow. The perception of colours by humans varies a lot. A specific colour might be described as pink or purple by different people, and a colour described as blue-green by one person might be described as blue, green or turquoise by others.
+
+The situation with the colours used to describe chromium compounds is further complicated by these factors:
 
 • ·Some compounds have different colours as solids and aqueous solutions.
 
 • ·The colour of a solution depends on concentration.
 
-• Thepresence ofdissolved oxygen in an aqueoussolution can affect the colour observed.
+• The presence of dissolved oxygen in an aqueous solution can affect the colour observed.
 
-This means that the colours used in this book may not always correspond to those in other books, andmaybedifferentfromthoseobservedintesttubereactionsthatyousee.
+This means that the colours used in this book may not always correspond to those in other books, and may be different from those observed in test tube reactions that you see.
 
-REACTIONSINVOLVINGCHROMIUM(III)COMPLEXES
+REACTIONS INVOLVING CHROMIUM(III) COMPLEXES
 
-REACTIONOFCHROMIUM(III)COMPLEXESWITHALKALIS
+REACTION OF CHROMIUM(III) COMPLEXES WITH ALKALIS
 
 Consider the reaction that occurs when aqueous sodium hydroxide is added to a solution containing
 
-[Cr(H2O)6]3+ + 3OH- → [Cr(H2O)s(OH)3] + 3H2O
+[Cr(H₂O)₆]³⁺ + 3OH⁻ → [Cr(H₂O)₅(OH)₃] + 3H₂O
 LEARNING TIP
 
 The colour of the [Cr(NH₃)₆]³⁺ ion in a solid, such as chrome alum, is violet. However, when this solid is dissolved in water the resulting solution is green, not violet. This is because of ligand exchange reactions that occur with the negative ions present.
@@ -12904,11 +12942,11 @@ ALIPHATICANDAROMATIC
 With a few exceptions,almost all the organic compounds you haveseensofarinthiscoursecouldhavebeendescribed as aliphatic', although this is a term we did not use to describe them because therewas no point.You can regard aliphatic compounds asallthosethatarenotaromatic!
 BENZENE
 
-Thecompoundbenzeneis attheheartofeveryaromatic compound. So, the first thing we must do is understand what is special aboutbenzene.
+The compound benzene is at the heart of every aromatic compound. So, the first thing we must do is understand what is special about benzene.
 
-Benzenecanbedescribed as anarene,ascanmanyofits derivatives. Youalreadykmowthat-eneindicatesthepresenceofa C=Cdouble bond in a molecule (as in ethene). Therefore, you would expect that an arene also contains C=C doublebonds.The answer is-yes and no.Thisobviouslyneeds careful explanation!
+Benzene can be described as an arene, as can many of its derivatives. You already know that -ene indicates the presence of a C=C double bond in a molecule (as in ethene). Therefore, you would expect that an arene also contains C=C double bonds. The answer is - yes and no. This obviously needs careful explanation!
 
-Its molecular formula is CHe, which suggests that it is highly unsaturated,because thealkanewithsixcarbon atomshas14 hydrogen atoms.Finding a structural formula tofit themolecular formula, and which was supported by studies of its chemical reactions,was a challengeforchemists.
+Its molecular formula is C₆H₆, which suggests that it is highly unsaturated, because the alkane with six carbon atoms has 14 hydrogen atoms. Finding a structural formula to fit the molecular formula, and which was supported by studies of its chemical reactions, was a challenge for chemists.
 
 #### THEKEKULESTRUCTURE
 THE KEKULE STRUCTURE
@@ -12941,11 +12979,13 @@ As more compounds containing the benzene ring were discovered, including those s
 fig D These are the four isomers of C₆H₄Br₂, assuming that the Kekule structure is correct.
 
 However, only three were known to exist. So, the two isomers with bromine on adjacent carbon atoms are identical. It is not the case that adjacent atoms in one isomer are joined by C—C and in the other by C=C. This suggests that the bonds between the carbon atoms in the benzene ring are the same, not different.
-PROBLEM3
 
-When datafromX-ray diffraction about the lengths ofcovalent bondsinmoleculesbecameavailable,therewas anotherproblem
+#### PROBLEM3
+PROBLEM 3
 
-TableAshowsthebondlengthsinbenzene andcyclohexene (a cyclic alkene with five C——C single bonds and one C=C doublebond)inpicometres.
+When data from X-ray diffraction about the lengths of covalent bonds in molecules became available, there was another problem
+
+Table A shows the bond lengths in benzene and cyclohexene (a cyclic alkene with five C——C single bonds and one C=C double bond) in picometres.
 
 #### PROBLEM3
 | BOND              |   BONDLENGTH/pm |
@@ -14464,27 +14504,29 @@ Reagent Q
 
 ### Topic 20: Organic Synthesis
 
-A ORGANICSTRUCTURES
 
-In organic chemistry so far you have learned about the reactions of a number of functional groups, such as alcohols,aldehydes,ketones,carboxylicacids,acyl chlorides,esters,amines and amides.
+#### A ORGANICSTRUCTURES
+A ORGANIC STRUCTURES
 
-In this topic you will learn how to use your knowledge of these reactions to produce a reaction synthesis for an of organic compounds, such as refluxing, solvent extraction, recrystallisation and distillaton.
+In organic chemistry so far you have learned about the reactions of a number of functional groups, such as alcohols, aldehydes, ketones, carboxylic acids, acyl chlorides, esters, amines and amides.
 
-medicines obtained from plants and herbs for thousands of years. During most of that time they had no idea how or why the medicines worked. The effectiveness of the plants or herbs was discovered by trial and error, andsometimesthereweredisastrousmistakes.
+In this topic you will learn how to use your knowledge of these reactions to produce a reaction synthesis for an of organic compounds, such as refluxing, solvent extraction, recrystallisation and distillation.
 
-Today's synthetic medicines are increasingly designed to have specific effects, something that is becoming easier as we learn more about the body's chemistry. Aspirin and paracetamol are perhaps two of the best known and earliestmedicinestohavebeen synthesised.Today there are thousands of synthesised medicines to help combat all types of illnesses and diseases, ranging from antibiotics, to cure illnesses caused by bacteria, tostatins,whichhelptolowerthelevelof LDLcholesterol in theblood.
+medicines obtained from plants and herbs for thousands of years. During most of that time they had no idea how or why the medicines worked. The effectiveness of the plants or herbs was discovered by trial and error, and sometimes there were disastrous mistakes.
 
-Whoknows!Maybeonedayyouwillbeinvolved inthesynthesisofalife-savingmedicine.
+Today's synthetic medicines are increasingly designed to have specific effects, something that is becoming easier as we learn more about the body's chemistry. Aspirin and paracetamol are perhaps two of the best known and earliest medicines to have been synthesised. Today there are thousands of synthesised medicines to help combat all types of illnesses and diseases, ranging from antibiotics, to cure illnesses caused by bacteria, to statins, which help to lower the level of LDL cholesterol in the blood.
+
+Who knows! Maybe one day you will be involved in the synthesis of a life-saving medicine.
 
 MATHS SKILLS FOR THIS TOPIC
 
-• ·Recogniseanduseexpressionsindecimalandordinaryform
+• · Recognise and use expressions in decimal and ordinary form
 
-• .Use ratios,fractions and percentages
+• . Use ratios, fractions and percentages
 
 • . Use an appropriate number of significant figures
 
-Topics10,15
+Topics 10, 15
 
 • Mass spectrometry appears in Topic 15
 
@@ -14741,7 +14783,7 @@ Determine the molecular formula of Y.
 Use all the information above to deduce the structures of compounds Z and Y.
 Answer
 
-• (a)Step 1: calculate mass of oxygen
+• (a) Step 1: calculate mass of oxygen
 
 12.0
 
@@ -14759,39 +14801,39 @@ mass of hydrogen =
 
 18.0
 
-mass of nitrogen =(24.0 ÷ 24 000) × 28.0 = 0.028 g
+mass of nitrogen = (24.0 ÷ 24 000) × 28.0 = 0.028 g
 
 mass of oxygen = 0.132 g - (0.008 + 0.048 + 0.028) g
 
 = 0.048g
 
-Step2:calculateempirical formula ofY
+Step 2: calculate empirical formula of Y
 
-moles of carbon =(0.048÷12.0)=0.004 moles of hydrogen = (0.008 ÷ 1.0) = 0.008 moles of nitrogen = (0.028 ÷ 14.0) = 0.002 moles of oxygen = (0.048 - 16.0) = 0.003 Empirical formula of Y is C4HaN2O3 Empiricalformulamass =(12.0x4)+ (1.0×8) +(14.0×2) +(16.0×3) =132
+moles of carbon = (0.048 ÷ 12.0) = 0.004 moles of hydrogen = (0.008 ÷ 1.0) = 0.008 moles of nitrogen = (0.028 ÷ 14.0) = 0.002 moles of oxygen = (0.048 ÷ 16.0) = 0.003 Empirical formula of Y is C₄H₈N₂O₃ Empirical formula mass = (12.0×4) + (1.0×8) + (14.0×2) + (16.0×3) = 132
 
-Theempiricalformulamass=therelativemolecularmass Therefore,the molecular formula of Yis CHNO3.
+The empirical formula mass = the relative molecular mass Therefore, the molecular formula of Y is C₄H₈N₂O₃.
 
-• (b)Z reacts with HCl, so it contains an amine group (-NH2).
+• (b) Z reacts with HCl, so it contains an amine group (-NH₂).
 
 • Z reacts with NaOH, so it contains a carboxylic acid group (-COOH).
 
-There is one -NH2 group per molecule and one -COOH per molecule(onemoleof ZreactswithbothonemoleofHCl and onemoleof NaOH).
+There is one -NH₂ group per molecule and one -COOH per molecule (one mole of Z reacts with both one mole of HCl and one mole of NaOH).
 
-• Zcanform a zwitterion,soit mustbe anamino acid.
+• Z can form a zwitterion, so it must be an amino acid.
 
-The structureofZisHNCHCOOH.
+The structure of Z is H₂NCH₂COOH.
 
-• Zis produced by hydrolysis of Y. Y must therefore be an amide. Since thereis only one organicproduct,thestructureof Ymust beHNCHCONHCHCOOH.
+• Z is produced by hydrolysis of Y. Y must therefore be an amide. Since there is only one organic product, the structure of Y must be H₂NCH₂CONHCH₂COOH.
 
-• ThasamolecularformulaofCHO2
+• T has a molecular formula of C₃H₈O₂
 
-• (a)WritethestructuralformulaeofthreepossibleisomersofT. Justifyyour answer.
+• (a) Write the structural formulae of three possible isomers of T. Justify your answer.
 
-• (b)ThemassspectrumofThaspeaksatm/zvaluesof29and 59.Usethisinformationtodeduce theidentity ofT.
+• (b) The mass spectrum of T has peaks at m/z values of 29 and 59. Use this information to deduce the identity of T.
 
-• 2.The proton NMR spectrum of an organic compound is shown below.
+• 2. The proton NMR spectrum of an organic compound is shown below.
 
-Usethisinformationtoidentifythecompound.
+Use this information to identify the compound.
 LEARNING OBJECTIVES
 
 • Understand methods of increasing the length of the carbon chain in a molecule by the use of magnesium to form Grignard reagents and the reactions of the latter with carbon dioxide and with carbonyl compounds in dry ether.
@@ -15119,13 +15161,15 @@ The risk is that hydrochloric acid may get into your eyes and cause harm.
 The control measure is to wear eye protection to reduce the risk of the acid getting into your eyes.
 
 This simple example should help you to understand the difference between hazard and risk - these two words are often thought, wrongly, to have the same meaning.
-HAZARDWARNINGSYMBOLS
 
-early attempt to prevent harm to laboratory workerswas well intentioned,but some people may have thought that bottles without such a label contained harmless substances.
+#### HAZARDWARNINGSYMBOLS
+HAZARD WARNING SYMBOLS
 
-More recently, symbols (sometimes called pictograms) have been used as labels for bottles to identify theactualhazardofthesubstanceinside.Theactualsymbolshavechanged overtheyears,andyou may still see older ones used,especially those in squares with an orangebackground, such as these:
+Early attempt to prevent harm to laboratory workers was well intentioned, but some people may have thought that bottles without such a label contained harmless substances.
 
-Thesymbolsincurrentusearereddiamondshapes.TableAshowssomeofthemorecommon ones,alongwithasimpledescriptionoftheirmeanings
+More recently, symbols (sometimes called pictograms) have been used as labels for bottles to identify the actual hazard of the substance inside. The actual symbols have changed over the years, and you may still see older ones used, especially those in squares with an orange background, such as these:
+
+The symbols in current use are red diamond shapes. Table A shows some of the more common ones, along with a simple description of their meanings.
 
 #### HAZARDWARNINGSYMBOLS
 tableA
@@ -15175,8 +15219,10 @@ RESPONSIBILITY
 • 2. Use your chemical knowledge to suggest why spilling sodium hydroxide solution onto your skin may cause more harm than hydrochloric acid of the same concentration.
 SUBJECT VOCABULARY
 
-hazardapropertyofasubstancethatcouldcauseharmtoauser risk thepossible effect that a substance may cause toa user,and this willdependonfactorssuchasconcentrationandapparatus.Thelevel ofriskiscontrolledusingcontrol measures
-4PRACTICALTECHNIQUESIN ORGANICCHEMISTRY:PART1
+hazard a property of a substance that could cause harm to a user risk the possible effect that a substance may cause to a user, and this will depend on factors such as concentration and apparatus. The level of risk is controlled using control measures
+
+#### 4PRACTICALTECHNIQUESIN ORGANICCHEMISTRY:PART1
+4 PRACTICAL TECHNIQUES IN ORGANIC CHEMISTRY: PART 1
 LEARNING OBJECTIVES
 
 • Understand the following techniquesused in the preparation and purification of organic compounds:
@@ -15210,9 +15256,11 @@ The advantages of using simple distillation, rather than fractional distillation
 EXAM HINT
 
 You maybe asked to draw distillation apparatus (simple or fractional). If so, make sure that you draw the bulb of the thermometer level with the side-arm linked to the condenser.
-STEAMDISTILLATION
 
-Steamdistillationisatechniqueusedtoseparateaninsoluble liquidfrom an aqueoussolution.It involvespassingsteaminto a reactionmixture thatcontainsanaqueoussolution and a liquid
+#### STEAMDISTILLATION
+STEAM DISTILLATION
+
+Steam distillation is a technique used to separate an insoluble liquid from an aqueous solution. It involves passing steam into a reaction mixture that contains an aqueous solution and a liquid
 
 SPECIFICATION REFERENCE
 
@@ -15636,7 +15684,7 @@ After purification by recrystallisation, 7.77 g of aspirin was obtained.
 
 • 9 Biodiesel can be made from vegetable oils and methanol. The equation for the reaction is:
 
-• (a) Describe two hazards when carrying out this reaction. Foreachone,statetheprecautionyouwould taketo minimise the risk.
+• (a) Describe two hazards when carrying out this reaction. For each one, state the precaution you would take to minimise the risk.
 
 [4]
 
@@ -15665,17 +15713,17 @@ The table shows the solubility in water of paracetamol at various temperatures.
 | Solubility/gper100g | 0.82 | 0.94 |  1.3 |  5.2 |
 
 #### (Total for Question 9 = 6 marks)
-• (i）Explain the purpose of each of the two filtrations in therecrystallisation process.
+• (i) Explain the purpose of each of the two filtrations in the recrystallisation process.
 
-• (i)Explain, using the temperatures given in the table, which pair of temperatures will give the highest yield ofparacetamol.
+• (i) Explain, using the temperatures given in the table, which pair of temperatures will give the highest yield of paracetamol.
 
 [2]
 
-• (ii) Name the technique that could be used in a school laboratory to check thepurity of therecrystallised paracetamol.
+• (ii) Name the technique that could be used in a school laboratory to check the purity of the recrystallised paracetamol.
 
 [1]
 
-(TotalforQuestion10=12marks)
+(Total for Question 10 = 12 marks)
 MATHSSKILLS
 
 For you tobe able to developyour skills,knowledge and understanding in Chemistry you will need to have developed your mathematical skills in a number of key areas. This section givesmore explanation and examples of somekey mathematical concepts you need to understand.Further examples relevant to your International A Level Chemistry studies aregiven throughout this book and Book 1.
@@ -15905,13 +15953,15 @@ Always show your working for any calculations. Marks may be available for indivi
 PLANYOURANSWER
 
 In questions marked with an asterisk (*), marks will be awarded for your ability to structure your answer logically, showinghowthepointsthatyoumakearerelatedorfollow on from each other, where appropriate.Read the question fully and carefully (at least twice!) before beginning your answer.
-MAKETHEMOSTOFGRAPHSANDDIAGRAMS
 
-Diagrams and sketch graphs can earn marks, often more easily andquicklythanwrittenexplanations,buttheywill only earn marks if they are carefully drawn.
+#### MAKETHEMOSTOFGRAPHSANDDIAGRAMS
+MAKE THE MOST OF GRAPHS AND DIAGRAMS
 
-• ·Ifyou are askedtoread agraph,payattentiontothe labels andnumbersonthex-andy-axes.Rememberthat each axis is a numberline.
+Diagrams and sketch graphs can earn marks, often more easily and quickly than written explanations, but they will only earn marks if they are carefully drawn.
 
-• ·If asked to draw or sketchagraph,always ensure you useasensiblescale,andlabelbothaxeswithquantities and units. If plotting a graph, use a pencil and draw small crossesordotsforthepoints.
+• ·If you are asked to read a graph, pay attention to the labels and numbers on the x-and y-axes. Remember that each axis is a number line.
+
+• ·If asked to draw or sketch a graph, always ensure you use a sensible scale, and label both axes with quantities and units. If plotting a graph, use a pencil and draw small crosses or dots for the points.
 
 • Diagrams must always be neat, clear and fully labelled.
 
@@ -16009,15 +16059,17 @@ Thisis an excellent answerbecause:
 The student has the electronic configuration of the Cu²+ion correct. However, they have clearly forgotten that copper atomshave10 electrons in the3d sub-shell andonly one 4s electron.
 
 Thecommandword hereis'describe，soyouwill need to give an account of the results shown.You do not need to explainthescientificreasonsbehindanypatterns.Itis important to note the command word carefully in graphbased questions, as you may be asked to analyse, explain or compare and contrast results, each of which requires a very differentapproach.
-QUESTIONTYPE:EXTENDEDWRITING
 
-• *The equilibrium reactionbetween carbon dioxide and water isimportantformaintainingthepHofthebodythrough buffering.
+#### QUESTIONTYPE:EXTENDEDWRITING
+QUESTION TYPE: EXTENDED WRITING
 
-Theequationforthereactionis:
+• *The equilibrium reaction between carbon dioxide and water is important for maintaining the pH of the body through buffering.
 
-CO2+HO=HCO+H+
+The equation for the reaction is:
 
-State what is meant by a buffer solution and explain how a buffersolutionworksbyreferringtothisequation.
+CO₂ + H₂O ⇌ HCO₃⁻ + H⁺
+
+State what is meant by a buffer solution and explain how a buffer solution works by referring to this equation.
 Question analysis
 
 • ·In questions marked with an asterisk (*), marks will be awarded for your ability to structure your answers logically, showing how the points that you make are related or follow on from each other, where appropriate.
