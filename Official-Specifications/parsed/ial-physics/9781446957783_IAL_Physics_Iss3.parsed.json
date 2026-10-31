@@ -6,7 +6,7 @@
   "pdf": "9781446957783_IAL_Physics_Iss3.pdf",
   "pdf_sha1": "a2b42d6fc5082b8529270cbfa40d2adc11cfe581",
   "pages": 87,
-  "parser": "spec-parser-1.0",
+  "parser": "spec-parser-1.0+spec-reparse-1.0",
   "parsed_utc": "2026-09-17T15:53:49+00:00"
  },
  "topics": [
@@ -1030,7 +1030,7 @@
    "official_code": "45",
    "scope": null,
    "suffix": "",
-   "text": "know and understand that at the interface between medium 1 and medium 2 n 1 sin θ 1 = n 2 sin θ 2 where refractive index is c n =",
+   "text": "know and understand that at the interface between medium 1 and medium 2 n₁sin θ₁= n₂sin θ₂ where refractive index is n=c⁄v",
    "page": 24,
    "oy": 582.5,
    "topic": {
@@ -1040,11 +1040,11 @@
     "oy": 76
    },
    "subsection": null,
-   "sub_items": [
-    "v"
-   ],
+   "sub_items": [],
    "practical": false,
-   "flags": [],
+   "flags": [
+    "reparse-1.0"
+   ],
    "id": "IAL_PHYSICS:45"
   },
   {
@@ -3452,6 +3452,6 @@
   "practicals": 0,
   "topics": 29,
   "subsections": 0,
-  "flagged": 0
+  "flagged": 1
  }
 }

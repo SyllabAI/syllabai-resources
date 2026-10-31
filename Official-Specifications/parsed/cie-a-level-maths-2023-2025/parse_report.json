@@ -17,5 +17,39 @@
   "G4_id_prefix_valid": true
  },
  "duplicate_ids": [],
- "gates_all_pass": true
+ "gates_all_pass": true,
+ "reparse": {
+  "version": "spec-reparse-1.0",
+  "classes": [
+   "mathmagic-font-garble",
+   "superscript-reattach",
+   "two-column-interleave",
+   "inline-fraction"
+  ],
+  "proposals": [
+   "1.5.3",
+   "1.5.4",
+   "2.3.2",
+   "3.3.2",
+   "3.5.3",
+   "5.1.5",
+   "5.3.3",
+   "6.1.1",
+   "6.1.2"
+  ],
+  "deletes": [],
+  "aborted_rows": [
+   "3.9.5"
+  ],
+  "nomatch_rows": [],
+  "counts_after": {
+   "spec_points": 146,
+   "practicals": 0,
+   "topics": 6,
+   "subsections": 38,
+   "flagged": 146
+  },
+  "idempotence": "re-probe after apply: 0 proposals, 0 deletes (all six quals)",
+  "gates_after": "finalize_reports.py: gates=PASS (all 58 quals)"
+ }
 }

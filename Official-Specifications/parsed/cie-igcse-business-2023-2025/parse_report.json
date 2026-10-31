@@ -8,7 +8,7 @@
   "practicals": 0,
   "topics": 6,
   "subsections": 28,
-  "flagged": 0
+  "flagged": 59
  },
  "gates": {
   "G1_schema_present": true,
@@ -17,5 +17,26 @@
   "G4_id_prefix_valid": true
  },
  "duplicate_ids": [],
- "gates_all_pass": true
+ "gates_all_pass": true,
+ "reparse": {
+  "version": "spec-reparse-1.0",
+  "classes": [
+   "two-column-interleave"
+  ],
+  "proposals": [
+   "*59 rows (statement/notes de-interleave)"
+  ],
+  "deletes": [],
+  "aborted_rows": [],
+  "nomatch_rows": [],
+  "counts_after": {
+   "spec_points": 63,
+   "practicals": 0,
+   "topics": 6,
+   "subsections": 28,
+   "flagged": 59
+  },
+  "idempotence": "re-probe after apply: 0 proposals, 0 deletes (all six quals)",
+  "gates_after": "finalize_reports.py: gates=PASS (all 58 quals)"
+ }
 }

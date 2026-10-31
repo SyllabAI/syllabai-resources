@@ -4,11 +4,11 @@
  "pdf": "664522-2025-2027-syllabus.pdf",
  "pdf_sha1": "085d30b79e6029a5724ad9cc07b759571623c56e",
  "counts": {
-  "spec_points": 131,
+  "spec_points": 126,
   "practicals": 0,
   "topics": 8,
   "subsections": 28,
-  "flagged": 131
+  "flagged": 126
  },
  "gates": {
   "G1_schema_present": true,
@@ -17,5 +17,33 @@
   "G4_id_prefix_valid": true
  },
  "duplicate_ids": [],
- "gates_all_pass": true
+ "gates_all_pass": true,
+ "reparse": {
+  "version": "spec-reparse-1.0",
+  "classes": [
+   "two-column-interleave",
+   "spurious-note-rows"
+  ],
+  "proposals": [
+   "2.4.4"
+  ],
+  "deletes": [
+   "2.4.1-dup2",
+   "2.4.2-dup2",
+   "2.4.3-dup2",
+   "2.4.4-dup2",
+   "2.4.5"
+  ],
+  "aborted_rows": [],
+  "nomatch_rows": [],
+  "counts_after": {
+   "spec_points": 126,
+   "practicals": 0,
+   "topics": 8,
+   "subsections": 28,
+   "flagged": 126
+  },
+  "idempotence": "re-probe after apply: 0 proposals, 0 deletes (all six quals)",
+  "gates_after": "finalize_reports.py: gates=PASS (all 58 quals)"
+ }
 }
