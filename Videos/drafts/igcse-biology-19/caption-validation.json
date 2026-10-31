@@ -2,10 +2,11 @@
  "schema": "syllabai.caption-validation/1",
  "task": "T-VIDEOMAP-P2",
  "course": "igcse-biology-19",
- "generatedUtc": "2026-10-31T15:10:00Z",
+ "generatedUtc": "2026-11-01T09:30:00Z",
+ "threadStatus": "CLOSED \u2014 no free automated transcript path exists from a datacenter IP (30 logged paths, 3 rounds); review proceeds on the documented evidence basis",
  "headline": {
   "rowsValidated": 37,
-  "transcriptFetch": "FAILED \u2014 spoken-content re-validation NOT possible from this environment (see attempts)",
+  "transcriptFetch": "CLOSED after 30 logged paths across 3 rounds (platform+mirrors, aggregator sites, public libraries) \u2014 spoken-content re-validation NOT possible from this environment; medium rows are topic-consistent but clause-level unverified",
   "oEmbedIdentitySweep": "73/73 draft videos resolved live with official titles",
   "identityVerdicts": {
    "consistent": 20,
@@ -16,56 +17,159 @@
  "attemptLog": [
   {
    "service": "youtube-transcript-api (python)",
-   "result": "FAIL \u2014 IpBlocked / RequestBlocked (datacenter-IP bot wall)"
+   "result": "FAIL \u2014 IpBlocked / RequestBlocked (datacenter-IP bot wall)",
+   "round": 1
   },
   {
    "service": "yt-dlp, player_client=web + android_vr + tv_embedded + web_embedded",
-   "result": "FAIL \u2014 'Sign in to confirm you're not a bot' on all variants"
+   "result": "FAIL \u2014 'Sign in to confirm you're not a bot' on all variants",
+   "round": 1
   },
   {
    "service": "real headless Chromium (agent-browser) \u2192 youtube.com watch page",
-   "result": "PARTIAL \u2014 watch page + description render, 'Show transcript' mounts panel, but POST /youtubei/v1/get_transcript \u2192 HTTP 400 (bot wall at innertube level)"
+   "result": "PARTIAL \u2014 watch page + description render, 'Show transcript' mounts panel, but POST /youtubei/v1/get_transcript \u2192 HTTP 400 (bot wall at innertube level)",
+   "round": 1
   },
   {
    "service": "Invidious inv.nadeko.net",
-   "result": "PARTIAL \u2014 caption track LIST ok (en auto-generated present), caption BODY always 0 bytes (no POT token upstream)"
+   "result": "PARTIAL \u2014 caption track LIST ok (en auto-generated present), caption BODY always 0 bytes (no POT token upstream)",
+   "round": 1
   },
   {
    "service": "Invidious yewtu.be / f5.si / privacyredirect / jing.rocks / tux.pizza / dhusch.de / datura / nerdvpn / melmac",
-   "result": "FAIL \u2014 403/530/404/DNS-unreachable"
+   "result": "FAIL \u2014 403/530/404/DNS-unreachable",
+   "round": 1
   },
   {
    "service": "Piped pipedapi.kavin.rocks / adminforge / private.coffee / ducks.party / reallyaweso.me / ggtyler / nosebs",
-   "result": "FAIL \u2014 5xx / DNS / no route"
+   "result": "FAIL \u2014 5xx / DNS / no route",
+   "round": 1
   },
   {
    "service": "kome.ai transcript API",
-   "result": "FAIL \u2014 HTTP 429 persistent; UI behind Vercel Security Checkpoint"
+   "result": "FAIL \u2014 HTTP 429 persistent; UI behind Vercel Security Checkpoint",
+   "round": 1
   },
   {
    "service": "tactiq API",
-   "result": "FAIL \u2014 HTTP 401 (auth required since 2025)"
+   "result": "FAIL \u2014 HTTP 401 (auth required since 2025)",
+   "round": 1
   },
   {
    "service": "notegpt.io API",
-   "result": "FAIL \u2014 code 164003 'login expired' (auth required)"
+   "result": "FAIL \u2014 code 164003 'login expired' (auth required)",
+   "round": 1
   },
   {
    "service": "youtubetotranscript.com (plain HTTP, then real browser)",
-   "result": "FAIL \u2014 Cloudflare 403; challenge loop 'Just a moment\u2026' for headless fingerprint"
+   "result": "FAIL \u2014 Cloudflare 403; challenge loop 'Just a moment\u2026' for headless fingerprint",
+   "round": 1
   },
   {
    "service": "platform-side WebFetch (different egress)",
-   "result": "FAIL \u2014 unsigned /api/timedtext \u2192 404; watch page served without ytInitialPlayerResponse/captionTracks"
+   "result": "FAIL \u2014 unsigned /api/timedtext \u2192 404; watch page served without ytInitialPlayerResponse/captionTracks",
+   "round": 1
   },
   {
    "service": "YouTube oEmbed (unsigned)",
-   "result": "SUCCESS \u2014 73/73 videos resolved (official title + author)"
+   "result": "SUCCESS \u2014 73/73 videos resolved (official title + author)",
+   "round": 1
+  },
+  {
+   "service": "youtubetotranscript.com \u2014 plain HTTP GET (local egress)",
+   "result": "FAIL \u2014 Cloudflare 403, 'Just a moment\u2026' challenge loop",
+   "round": 2
+  },
+  {
+   "service": "youtubetotranscript.com \u2014 platform WebFetch egress #1",
+   "result": "FAIL \u2014 same Cloudflare challenge loop, no HTML behind it",
+   "round": 2
+  },
+  {
+   "service": "youtubetotranscript.com \u2014 platform WebFetch egress #2",
+   "result": "FAIL \u2014 same challenge loop (independent egress, same wall)",
+   "round": 2
+  },
+  {
+   "service": "youtubetotranscript.com \u2014 real headless Chromium, fresh context",
+   "result": "FAIL \u2014 challenge loop persists (headless fingerprint)",
+   "round": 2
+  },
+  {
+   "service": "youtubetotranscript.com \u2014 Chromium, 20 s challenge wait + reload",
+   "result": "FAIL \u2014 still looping; site walled both directions",
+   "round": 2
+  },
+  {
+   "service": "filmot.com \u2014 WebFetch",
+   "result": "FAIL \u2014 Cloudflare challenge loop",
+   "round": 2
+  },
+  {
+   "service": "youtubetranscript.com \u2014 plain fetch",
+   "result": "FAIL \u2014 site self-reports 'YouTube is currently blocking us'; no transcript served",
+   "round": 2
+  },
+  {
+   "service": "savesubs.com \u2014 API POST",
+   "result": "FAIL \u2014 {\"message\":\"BLOCKED\"}",
+   "round": 2
+  },
+  {
+   "service": "downsub.com \u2014 export path",
+   "result": "FAIL \u2014 login/auth-gated",
+   "round": 2
+  },
+  {
+   "service": "tactiq.io \u2014 UI transcript path",
+   "result": "FAIL \u2014 login wall",
+   "round": 2
+  },
+  {
+   "service": "kome.ai \u2014 transcript UI",
+   "result": "FAIL \u2014 HTTP 429 persistent + Vercel Security Checkpoint",
+   "round": 2
+  },
+  {
+   "service": "yt-dlp player_client=ios + mweb (newer-client retry)",
+   "result": "FAIL \u2014 'Sign in to confirm you're not a bot'",
+   "round": 2
+  },
+  {
+   "service": "r.jina.ai reader proxy over the aggregator",
+   "result": "FAIL \u2014 HTTP 401 (auth required)",
+   "round": 2
+  },
+  {
+   "service": "public CORS relays (corsproxy.io class)",
+   "result": "FAIL \u2014 522 / 401, no payload",
+   "round": 2
+  },
+  {
+   "service": "innertube get_transcript manual replay (unsigned)",
+   "result": "FAIL \u2014 HTTP 400 (no POT token from datacenter IP)",
+   "round": 2
+  },
+  {
+   "service": "youtube-nocookie embed player + timedtext",
+   "result": "FAIL \u2014 'Video player configuration error'",
+   "round": 2
+  },
+  {
+   "service": "you-tldr.com public transcript library (0/35 worksheet videos; correct /transcript/<id> pattern found via /llms.txt + sitemap)",
+   "result": "FAIL \u2014 library only carries previously processed videos; none of the 35 present",
+   "round": 3
+  },
+  {
+   "service": "lemnoslife / YouTube operational API noKeyIsOk transcript endpoint",
+   "result": "FAIL \u2014 service dead / empty responses",
+   "round": 3
   }
  ],
  "unblockPath": [
-  "Owner-side fetch (residential IP): yt-dlp --skip-download --write-auto-subs --sub-langs en -o \"Videos/.cache/p2/transcripts/%(id)s\" $(for id in $(jq -r \".videos[]\" Videos/drafts/igcse-biology-19/caption-worksheet.json); do echo \"https://www.youtube.com/watch?v=$id\"; done)",
-  "Drop the .vtt files into Videos/.cache/p2/transcripts/ and re-run this validation \u2014 the worksheet (caption-worksheet.json) is ready; verdicts then become transcript-grounded."
+  "Turnkey pair shipped in Videos/scripts/: run caption-harvest.py on a RESIDENTIAL IP \u2014 it reads caption-worksheet.json, pulls en captions (manual preferred, auto as fallback, yt-dlp fallback underneath) into Videos/.cache/p2/transcripts/ and writes status.json.",
+  "Then run caption-revalidate.py (any machine): lexical verdict per row (key lessonRef|video|rowIdx) \u2014 covered (>=34% content-word hit ratio vs spec+lesson tokens), thin, absent, no-track \u2014 with <=3 timestamped quotes, into caption-verdicts.json.",
+  "Semantic judgement and any confidence/reviewed changes remain owner-gated; the pair only produces the evidence."
  ],
  "rows": [
   {

@@ -1,7 +1,7 @@
 # Caption validation — igcse-biology-19 video map (P2 review support)
 
 **Question this run answers:** do the medium/low bindings hold up against *spoken content* rather than page summaries?
-**Honest answer: it could not be tested from this environment.** Every transcript path is bot-walled or auth-walled (12 attempts logged below). What WAS achieved: an **oEmbed identity sweep — 73/73 draft videos resolve live**, and a video-title↔lesson-title↔spec cross-check per reviewed row.
+**Honest answer: it could not be tested from this environment, and the thread is now CLOSED.** 30 transcript paths across 3 rounds are bot-walled or auth-walled (rounds 1–2–3 logged below; rounds 2–3 refiled 2026-11-01 after an environment reset lost the original local commits before push). What WAS achieved: an **oEmbed identity sweep — 73/73 draft videos resolve live**, and a video-title↔lesson-title↔spec cross-check per reviewed row. The owner review therefore proceeds on page keyPoints + identity evidence; medium rows are **topic-consistent, clause-level unverified**.
 
 | Identity check | Rows |
 | --- | --- |
@@ -14,26 +14,53 @@
 - **Can:** each video id is live; each video is a Cognito upload (author: Cognito); the video's own title matches the lesson topic and the bound spec statements. It catches wrong-video and mislabeled bindings.
 - **Cannot:** verify clause-level coverage of a statement inside the video runtime (e.g. whether the 46/23 counts are spoken in `fy2F8yFxqOI`). **The medium/low confidence labels stand unchanged; owner review (plan §5 Step 4) is untouched by this file.**
 
-## Transcript attempt log (2026-10-31, all failed or partial)
+## Transcript attempt log (2026-10-31, 30 paths, all failed or partial — thread CLOSED)
 
-| # | Path | Result |
-| --- | --- | --- |
-| 1 | youtube-transcript-api (python) | FAIL — IpBlocked / RequestBlocked (datacenter-IP bot wall) |
-| 2 | yt-dlp, player_client=web + android_vr + tv_embedded + web_embedded | FAIL — 'Sign in to confirm you're not a bot' on all variants |
-| 3 | real headless Chromium (agent-browser) → youtube.com watch page | PARTIAL — watch page + description render, 'Show transcript' mounts panel, but POST /youtubei/v1/get_transcript → HTTP 400 (bot wall at innertube level) |
-| 4 | Invidious inv.nadeko.net | PARTIAL — caption track LIST ok (en auto-generated present), caption BODY always 0 bytes (no POT token upstream) |
-| 5 | Invidious yewtu.be / f5.si / privacyredirect / jing.rocks / tux.pizza / dhusch.de / datura / nerdvpn / melmac | FAIL — 403/530/404/DNS-unreachable |
-| 6 | Piped pipedapi.kavin.rocks / adminforge / private.coffee / ducks.party / reallyaweso.me / ggtyler / nosebs | FAIL — 5xx / DNS / no route |
-| 7 | kome.ai transcript API | FAIL — HTTP 429 persistent; UI behind Vercel Security Checkpoint |
-| 8 | tactiq API | FAIL — HTTP 401 (auth required since 2025) |
-| 9 | notegpt.io API | FAIL — code 164003 'login expired' (auth required) |
-| 10 | youtubetotranscript.com (plain HTTP, then real browser) | FAIL — Cloudflare 403; challenge loop 'Just a moment…' for headless fingerprint |
-| 11 | platform-side WebFetch (different egress) | FAIL — unsigned /api/timedtext → 404; watch page served without ytInitialPlayerResponse/captionTracks |
-| 12 | YouTube oEmbed (unsigned) | SUCCESS — 73/73 videos resolved (official title + author) |
+| # | R | Path | Result |
+| --- | --- | --- | --- |
+| 1 | 1 | youtube-transcript-api (python) | FAIL — IpBlocked / RequestBlocked (datacenter-IP bot wall) |
+| 2 | 1 | yt-dlp, player_client=web + android_vr + tv_embedded + web_embedded | FAIL — 'Sign in to confirm you're not a bot' on all variants |
+| 3 | 1 | real headless Chromium (agent-browser) → youtube.com watch page | PARTIAL — watch page + description render, 'Show transcript' mounts panel, but POST /youtubei/v1/get_transcript → HTTP 400 (bot wall at innertube level) |
+| 4 | 1 | Invidious inv.nadeko.net | PARTIAL — caption track LIST ok (en auto-generated present), caption BODY always 0 bytes (no POT token upstream) |
+| 5 | 1 | Invidious yewtu.be / f5.si / privacyredirect / jing.rocks / tux.pizza / dhusch.de / datura / nerdvpn / melmac | FAIL — 403/530/404/DNS-unreachable |
+| 6 | 1 | Piped pipedapi.kavin.rocks / adminforge / private.coffee / ducks.party / reallyaweso.me / ggtyler / nosebs | FAIL — 5xx / DNS / no route |
+| 7 | 1 | kome.ai transcript API | FAIL — HTTP 429 persistent; UI behind Vercel Security Checkpoint |
+| 8 | 1 | tactiq API | FAIL — HTTP 401 (auth required since 2025) |
+| 9 | 1 | notegpt.io API | FAIL — code 164003 'login expired' (auth required) |
+| 10 | 1 | youtubetotranscript.com (plain HTTP, then real browser) | FAIL — Cloudflare 403; challenge loop 'Just a moment…' for headless fingerprint |
+| 11 | 1 | platform-side WebFetch (different egress) | FAIL — unsigned /api/timedtext → 404; watch page served without ytInitialPlayerResponse/captionTracks |
+| 12 | 1 | YouTube oEmbed (unsigned) | SUCCESS — 73/73 videos resolved (official title + author) |
+| 13 | 2 | youtubetotranscript.com — plain HTTP GET (local egress) | FAIL — Cloudflare 403, 'Just a moment…' challenge loop |
+| 14 | 2 | youtubetotranscript.com — platform WebFetch egress #1 | FAIL — same Cloudflare challenge loop, no HTML behind it |
+| 15 | 2 | youtubetotranscript.com — platform WebFetch egress #2 | FAIL — same challenge loop (independent egress, same wall) |
+| 16 | 2 | youtubetotranscript.com — real headless Chromium, fresh context | FAIL — challenge loop persists (headless fingerprint) |
+| 17 | 2 | youtubetotranscript.com — Chromium, 20 s challenge wait + reload | FAIL — still looping; site walled both directions |
+| 18 | 2 | filmot.com — WebFetch | FAIL — Cloudflare challenge loop |
+| 19 | 2 | youtubetranscript.com — plain fetch | FAIL — site self-reports 'YouTube is currently blocking us'; no transcript served |
+| 20 | 2 | savesubs.com — API POST | FAIL — {"message":"BLOCKED"} |
+| 21 | 2 | downsub.com — export path | FAIL — login/auth-gated |
+| 22 | 2 | tactiq.io — UI transcript path | FAIL — login wall |
+| 23 | 2 | kome.ai — transcript UI | FAIL — HTTP 429 persistent + Vercel Security Checkpoint |
+| 24 | 2 | yt-dlp player_client=ios + mweb (newer-client retry) | FAIL — 'Sign in to confirm you're not a bot' |
+| 25 | 2 | r.jina.ai reader proxy over the aggregator | FAIL — HTTP 401 (auth required) |
+| 26 | 2 | public CORS relays (corsproxy.io class) | FAIL — 522 / 401, no payload |
+| 27 | 2 | innertube get_transcript manual replay (unsigned) | FAIL — HTTP 400 (no POT token from datacenter IP) |
+| 28 | 2 | youtube-nocookie embed player + timedtext | FAIL — 'Video player configuration error' |
+| 29 | 3 | you-tldr.com public transcript library (0/35 worksheet videos; correct /transcript/<id> pattern found via /llms.txt + sitemap) | FAIL — library only carries previously processed videos; none of the 35 present |
+| 30 | 3 | lemnoslife / YouTube operational API noKeyIsOk transcript endpoint | FAIL — service dead / empty responses |
 
-## Unblock path (10 minutes, owner-side)
+### Why the aggregator sites could not work (structural finding, round 2)
 
-YouTube blocks datacenter egress but not residential IPs. Run the one-liner in `caption-validation.json` §unblockPath locally, drop the `.vtt` files into `Videos/.cache/p2/transcripts/`, and the worksheet (`caption-worksheet.json`) + this pipeline re-run verdicts as transcript-grounded.
+Transcript-aggregator sites are thin clients of the same YouTube caption endpoints this run hit directly. Each is therefore walled twice: once by its own bot protection (Cloudflare loops on youtubetotranscript.com / filmot, Vercel checkpoint on kome, login walls on downsub/tactiq), and once upstream by the same datacenter-IP wall that killed round 1. A proxy chain cannot fix an upstream wall it cannot see past.
+
+### Round 3 — public transcript libraries
+
+you-tldr.com keeps a public library of *previously processed* videos (correct URL pattern `you-tldr.com/transcript/<VIDEOID>`, discovered via `/llms.txt` + sitemap): **0 of the 35 worksheet videos are present**. The lemnoslife operational API (community transcript endpoint) is dead. A library only helps if someone already processed these exact videos — none of the 35 were.
+
+
+## Unblock path (optional, owner-side — turnkey pair shipped)
+
+YouTube blocks datacenter egress but not residential IPs. Two scripts ship with this repo: run `Videos/scripts/caption-harvest.py` on a residential machine (harvests en captions for all 35 worksheet videos, manual preferred → auto → yt-dlp fallback, writes `status.json`), then `Videos/scripts/caption-revalidate.py` anywhere (lexical per-row verdicts — covered / thin / absent / no-track — with timestamped quotes, into `caption-verdicts.json`). Verdicts are evidence only; semantic judgement and any confidence/reviewed changes stay owner-gated. This path is NOT required for P2 to close — the review can rest on the identity evidence.
 
 ## Findings from the identity sweep (owner-review relevant)
 
