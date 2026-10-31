@@ -27,6 +27,8 @@ def qual_of(course):
             return 'ial-maths'
         return m.group(1)
     m = re.match(r'(igcse-[a-z-]+)-\d{2}', course)
+    if not m:
+        return None  # CIE/other course dirs: no SME spec_point_index of this shape
     q = m.group(1)
     for tail in ('-foundation', '-higher', '-financial-statements',
                  '-introduction-to-bookkeeping-and-accounting'):
@@ -80,6 +82,8 @@ for course in sorted(os.listdir(SME)):
     if not os.path.exists(p):
         continue
     q = qual_of(course)
+    if q is None:
+        continue
     idx = json.load(open(p))
     sps = list(idx['spec_points'].values())
     stmts = parsed.get(q, [])

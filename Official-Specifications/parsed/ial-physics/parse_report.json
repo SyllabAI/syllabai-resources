@@ -11,7 +11,9 @@
    "topics": 29,
    "subsections": 0,
    "flagged": 0
-  }
+  },
+  "spec_points": 171,
+  "flagged": 1
  },
  "totals": {
   "spec_points": 171,
@@ -57,5 +59,27 @@
    "ao-descriptors-not-printed-in-source",
    "ial-physics equations appendix: dense nested fraction layout, reconstruction approximate; raw spans preserved, refine at consumption layer"
   ]
+ },
+ "reparse": {
+  "version": "spec-reparse-1.0",
+  "classes": [
+   "lost-fraction-geometry",
+   "subscript-reattach"
+  ],
+  "proposals": [
+   "IAL_PHYSICS:45"
+  ],
+  "deletes": [],
+  "aborted_rows": [],
+  "nomatch_rows": [],
+  "counts_after": {
+   "spec_points": 171,
+   "practicals": 0,
+   "topics": 29,
+   "subsections": 0,
+   "flagged": 1
+  },
+  "idempotence": "re-probe after apply: 0 proposals, 0 deletes (all six quals)",
+  "gates_after": "finalize_reports.py: gates=PASS (all 58 quals)"
  }
 }
