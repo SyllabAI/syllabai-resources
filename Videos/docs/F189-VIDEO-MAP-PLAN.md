@@ -454,3 +454,30 @@ Evidence: `Videos/docs/P1-CRAWL-REPORT.md` §4; per-shelf table in
 fields), V5 worked example (`aGDFNZApXXI`), V6 live spot-check 5/5 —
 **ALL GATES GREEN**. Phase table: **P1 ✅ done** (P0 ✅, P2 next:
 `igcse-biology-19`).
+
+### A6 — 2026-10-31 · P2 finding: §5 Step 3 pass 1 adapted — Cognito's chapter numbering is NOT the spec numbering
+
+The deterministic pre-pass (§5 Step 3 pass 1) assumed GCSE lesson refs align
+with spec refs ("the 4BI1 case"). Live P2 verification on `b2-gcse-iedexcel`:
+**only 25/109 lesson refs coincide with spine codes, and several coincide
+misleadingly** — Cognito organises its course in its own chapters 1–11 (plus
+10.x core practicals and 11.x skills), while 4BI1 has 5 spec sections. E.g.
+Cognito `3.1 Photosynthesis` vs spec `3.1` (meiosis) would auto-map wrongly.
+Ref matching is therefore **demoted to a trap warning** (P1 tracker gap 4
+extends from subtopic refs to lesson refs), and the deterministic pass is
+re-scoped as a **lexical evidence scorer** (`align-deterministic.mjs`: token
+overlap of lesson title/description/keyPoints against spine statements, refs
+deliberately ignored) whose output feeds the LLM curation pass. The alignment
+itself remains LLM-drafted with per-row evidence, confidence labels and the
+review gate (§5 Step 4) — the quality law is unchanged. Recorded in
+`Videos/drafts/igcse-biology-19/coverage-report.md` §Method.
+
+### A7 — 2026-10-31 · P2 finding: video references vs distinct videos
+
+Shelf totals count id **references** (one lesson can embed several; Cognito
+re-embeds one video across adjacent lessons — observed pairs 3.5+3.6,
+7.16+7.17, 9.6+9.7). `hub.video-map/1` `videos[]` therefore lists **distinct**
+ids (73 on this shelf) while `mappings[]` carries a row **per lesson binding**
+(the many-to-many law of §4.2 in its first real exercise). Per-mapping
+`lessonRef`/`lessonUrl` fields (draft schema only) keep shared-video rows
+unambiguous for review.
