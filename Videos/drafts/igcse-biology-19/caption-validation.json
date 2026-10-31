@@ -1,0 +1,760 @@
+{
+ "schema": "syllabai.caption-validation/1",
+ "task": "T-VIDEOMAP-P2",
+ "course": "igcse-biology-19",
+ "generatedUtc": "2026-11-01T09:30:00Z",
+ "threadStatus": "CLOSED \u2014 no free automated transcript path exists from a datacenter IP (30 logged paths, 3 rounds); review proceeds on the documented evidence basis",
+ "headline": {
+  "rowsValidated": 37,
+  "transcriptFetch": "CLOSED after 30 logged paths across 3 rounds (platform+mirrors, aggregator sites, public libraries) \u2014 spoken-content re-validation NOT possible from this environment; medium rows are topic-consistent but clause-level unverified",
+  "oEmbedIdentitySweep": "73/73 draft videos resolved live with official titles",
+  "identityVerdicts": {
+   "consistent": 20,
+   "partial": 13,
+   "conflict": 4
+  }
+ },
+ "attemptLog": [
+  {
+   "service": "youtube-transcript-api (python)",
+   "result": "FAIL \u2014 IpBlocked / RequestBlocked (datacenter-IP bot wall)",
+   "round": 1
+  },
+  {
+   "service": "yt-dlp, player_client=web + android_vr + tv_embedded + web_embedded",
+   "result": "FAIL \u2014 'Sign in to confirm you're not a bot' on all variants",
+   "round": 1
+  },
+  {
+   "service": "real headless Chromium (agent-browser) \u2192 youtube.com watch page",
+   "result": "PARTIAL \u2014 watch page + description render, 'Show transcript' mounts panel, but POST /youtubei/v1/get_transcript \u2192 HTTP 400 (bot wall at innertube level)",
+   "round": 1
+  },
+  {
+   "service": "Invidious inv.nadeko.net",
+   "result": "PARTIAL \u2014 caption track LIST ok (en auto-generated present), caption BODY always 0 bytes (no POT token upstream)",
+   "round": 1
+  },
+  {
+   "service": "Invidious yewtu.be / f5.si / privacyredirect / jing.rocks / tux.pizza / dhusch.de / datura / nerdvpn / melmac",
+   "result": "FAIL \u2014 403/530/404/DNS-unreachable",
+   "round": 1
+  },
+  {
+   "service": "Piped pipedapi.kavin.rocks / adminforge / private.coffee / ducks.party / reallyaweso.me / ggtyler / nosebs",
+   "result": "FAIL \u2014 5xx / DNS / no route",
+   "round": 1
+  },
+  {
+   "service": "kome.ai transcript API",
+   "result": "FAIL \u2014 HTTP 429 persistent; UI behind Vercel Security Checkpoint",
+   "round": 1
+  },
+  {
+   "service": "tactiq API",
+   "result": "FAIL \u2014 HTTP 401 (auth required since 2025)",
+   "round": 1
+  },
+  {
+   "service": "notegpt.io API",
+   "result": "FAIL \u2014 code 164003 'login expired' (auth required)",
+   "round": 1
+  },
+  {
+   "service": "youtubetotranscript.com (plain HTTP, then real browser)",
+   "result": "FAIL \u2014 Cloudflare 403; challenge loop 'Just a moment\u2026' for headless fingerprint",
+   "round": 1
+  },
+  {
+   "service": "platform-side WebFetch (different egress)",
+   "result": "FAIL \u2014 unsigned /api/timedtext \u2192 404; watch page served without ytInitialPlayerResponse/captionTracks",
+   "round": 1
+  },
+  {
+   "service": "YouTube oEmbed (unsigned)",
+   "result": "SUCCESS \u2014 73/73 videos resolved (official title + author)",
+   "round": 1
+  },
+  {
+   "service": "youtubetotranscript.com \u2014 plain HTTP GET (local egress)",
+   "result": "FAIL \u2014 Cloudflare 403, 'Just a moment\u2026' challenge loop",
+   "round": 2
+  },
+  {
+   "service": "youtubetotranscript.com \u2014 platform WebFetch egress #1",
+   "result": "FAIL \u2014 same Cloudflare challenge loop, no HTML behind it",
+   "round": 2
+  },
+  {
+   "service": "youtubetotranscript.com \u2014 platform WebFetch egress #2",
+   "result": "FAIL \u2014 same challenge loop (independent egress, same wall)",
+   "round": 2
+  },
+  {
+   "service": "youtubetotranscript.com \u2014 real headless Chromium, fresh context",
+   "result": "FAIL \u2014 challenge loop persists (headless fingerprint)",
+   "round": 2
+  },
+  {
+   "service": "youtubetotranscript.com \u2014 Chromium, 20 s challenge wait + reload",
+   "result": "FAIL \u2014 still looping; site walled both directions",
+   "round": 2
+  },
+  {
+   "service": "filmot.com \u2014 WebFetch",
+   "result": "FAIL \u2014 Cloudflare challenge loop",
+   "round": 2
+  },
+  {
+   "service": "youtubetranscript.com \u2014 plain fetch",
+   "result": "FAIL \u2014 site self-reports 'YouTube is currently blocking us'; no transcript served",
+   "round": 2
+  },
+  {
+   "service": "savesubs.com \u2014 API POST",
+   "result": "FAIL \u2014 {\"message\":\"BLOCKED\"}",
+   "round": 2
+  },
+  {
+   "service": "downsub.com \u2014 export path",
+   "result": "FAIL \u2014 login/auth-gated",
+   "round": 2
+  },
+  {
+   "service": "tactiq.io \u2014 UI transcript path",
+   "result": "FAIL \u2014 login wall",
+   "round": 2
+  },
+  {
+   "service": "kome.ai \u2014 transcript UI",
+   "result": "FAIL \u2014 HTTP 429 persistent + Vercel Security Checkpoint",
+   "round": 2
+  },
+  {
+   "service": "yt-dlp player_client=ios + mweb (newer-client retry)",
+   "result": "FAIL \u2014 'Sign in to confirm you're not a bot'",
+   "round": 2
+  },
+  {
+   "service": "r.jina.ai reader proxy over the aggregator",
+   "result": "FAIL \u2014 HTTP 401 (auth required)",
+   "round": 2
+  },
+  {
+   "service": "public CORS relays (corsproxy.io class)",
+   "result": "FAIL \u2014 522 / 401, no payload",
+   "round": 2
+  },
+  {
+   "service": "innertube get_transcript manual replay (unsigned)",
+   "result": "FAIL \u2014 HTTP 400 (no POT token from datacenter IP)",
+   "round": 2
+  },
+  {
+   "service": "youtube-nocookie embed player + timedtext",
+   "result": "FAIL \u2014 'Video player configuration error'",
+   "round": 2
+  },
+  {
+   "service": "you-tldr.com public transcript library (0/35 worksheet videos; correct /transcript/<id> pattern found via /llms.txt + sitemap)",
+   "result": "FAIL \u2014 library only carries previously processed videos; none of the 35 present",
+   "round": 3
+  },
+  {
+   "service": "lemnoslife / YouTube operational API noKeyIsOk transcript endpoint",
+   "result": "FAIL \u2014 service dead / empty responses",
+   "round": 3
+  }
+ ],
+ "unblockPath": [
+  "Turnkey pair shipped in Videos/scripts/: run caption-harvest.py on a RESIDENTIAL IP \u2014 it reads caption-worksheet.json, pulls en captions (manual preferred, auto as fallback, yt-dlp fallback underneath) into Videos/.cache/p2/transcripts/ and writes status.json.",
+  "Then run caption-revalidate.py (any machine): lexical verdict per row (key lessonRef|video|rowIdx) \u2014 covered (>=34% content-word hit ratio vs spec+lesson tokens), thin, absent, no-track \u2014 with <=3 timestamped quotes, into caption-verdicts.json.",
+  "Semantic judgement and any confidence/reviewed changes remain owner-gated; the pair only produces the evidence."
+ ],
+ "rows": [
+  {
+   "lessonRef": "1.1",
+   "lessonTitle": "Characteristics Of Living Organisms",
+   "video": "aGDFNZApXXI",
+   "specs": [
+    "1.1"
+   ],
+   "confidence": "high",
+   "evidence": "H1 'Characteristics of Living Organisms'; keyPoints walk the seven MRS GREN life processes = spec 1.1 verbatim",
+   "videoTitle": "GCSE Biology -  Characteristics of Living Things (Organisms) (2026/27 exams)",
+   "videoAuthor": "Cognito",
+   "identityVerdict": "consistent",
+   "identityOverlap": 0.75,
+   "transcriptVerdict": "not-fetchable"
+  },
+  {
+   "lessonRef": "1.2",
+   "lessonTitle": "Variety Of Living Organisms",
+   "video": "Xzy4Ze93G3g",
+   "specs": [
+    "1.4"
+   ],
+   "confidence": "medium",
+   "evidence": "keyPoints describe viruses as non-living host-replicating particles (1.4 clause); the term 'pathogen' itself is not evidenced",
+   "videoTitle": "Kingdoms of Life - Animals, Plants, Fungi, Protoctists, Bacteria and Viruses",
+   "videoAuthor": "Cognito",
+   "identityVerdict": "consistent",
+   "identityOverlap": 0.62,
+   "transcriptVerdict": "not-fetchable"
+  },
+  {
+   "lessonRef": "1.6",
+   "lessonTitle": "Stem Cells",
+   "video": "fp5H3SslskQ",
+   "specs": [
+    "2.5B",
+    "2.6B"
+   ],
+   "confidence": "medium",
+   "evidence": "stem cells as source of specialised cells (2.5B) and the basis of medical use (2.6B); the medicine pros/cons live in Cognito 1.7",
+   "videoTitle": "GCSE Biology - What are Stem Cells? Difference Between Embryonic and Adult Stem Cells",
+   "videoAuthor": "Cognito",
+   "identityVerdict": "partial",
+   "identityOverlap": 0.25,
+   "transcriptVerdict": "not-fetchable"
+  },
+  {
+   "lessonRef": "1.14",
+   "lessonTitle": "Exchange Surfaces",
+   "video": "GXGNR1NCPjE",
+   "specs": [
+    "2.52"
+   ],
+   "confidence": "medium",
+   "evidence": "why large multicellular organisms cannot rely on surface diffusion alone = need for exchange/transport systems (2.52)",
+   "videoTitle": "GCSE Biology - Specialised Exchange Surfaces (2026/27 exams)",
+   "videoAuthor": "Cognito",
+   "identityVerdict": "consistent",
+   "identityOverlap": 0.67,
+   "transcriptVerdict": "not-fetchable"
+  },
+  {
+   "lessonRef": "2.3",
+   "lessonTitle": "Balanced Diet",
+   "video": "YDDjkxz2_1k",
+   "specs": [
+    "2.25"
+   ],
+   "confidence": "medium",
+   "evidence": "carbohydrate/lipid/protein roles stated; full vitamin/mineral source list not evidenced in keyPoints",
+   "videoTitle": "GCSE Biology - Nutrition - Carbohydrates | Lipids | Proteins | Vitamins | Minerals (2027/28 exams)",
+   "videoAuthor": "Cognito",
+   "identityVerdict": "consistent",
+   "identityOverlap": 0.83,
+   "transcriptVerdict": "not-fetchable",
+   "inspectedVerdict": "consistent",
+   "inspectedNote": "video title names the exact nutrient groups spec 2.25 lists (carbohydrates/lipids/proteins/vitamins/minerals); lesson slug wording differs only"
+  },
+  {
+   "lessonRef": "3.1",
+   "lessonTitle": "Photosynthesis",
+   "video": "cucQtak-jco",
+   "specs": [
+    "2.43B"
+   ],
+   "confidence": "medium",
+   "evidence": "stomata as pores for gas movement named; stoma role detail not expanded",
+   "videoTitle": "GCSE Biology - Photosynthesis (2027/28 exams)",
+   "videoAuthor": "Cognito",
+   "identityVerdict": "consistent",
+   "identityOverlap": 1.0,
+   "transcriptVerdict": "not-fetchable"
+  },
+  {
+   "lessonRef": "3.3",
+   "lessonTitle": "Leaf Structure",
+   "video": "c9aUWHleZ_k",
+   "specs": [
+    "2.42B",
+    "2.43B"
+   ],
+   "confidence": "medium",
+   "evidence": "spongy mesophyll air spaces for diffusion (2.42B) and stomata (2.43B) mentioned within leaf-structure lesson",
+   "videoTitle": "GCSE Biology - Structure of a Leaf | Plant Cell Organisation (2027/28 exams)",
+   "videoAuthor": "Cognito",
+   "identityVerdict": "partial",
+   "identityOverlap": 0.4,
+   "transcriptVerdict": "not-fetchable"
+  },
+  {
+   "lessonRef": "3.5",
+   "lessonTitle": "Transport In Plants",
+   "video": "s06FvGH3QJo",
+   "specs": [
+    "2.52"
+   ],
+   "confidence": "medium",
+   "evidence": "why plants need a transport system contextualised; statement's multicellular-organism rationale partially evidenced",
+   "videoTitle": "GCSE Biology - Transpiration & Translocation (2027/28 exams)",
+   "videoAuthor": "Cognito",
+   "identityVerdict": "conflict",
+   "identityOverlap": 0.0,
+   "transcriptVerdict": "not-fetchable",
+   "inspectedVerdict": "consistent",
+   "inspectedNote": "video title \"Transpiration & Translocation\" covers both re-embedded lessons: translocation = phloem (2.53), water transport = xylem (2.54) \u2014 strengthens the pair"
+  },
+  {
+   "lessonRef": "4.1",
+   "lessonTitle": "Aerobic Anaerobic Respiration",
+   "video": "xzDAZUZido0",
+   "specs": [
+    "2.34",
+    "2.35"
+   ],
+   "confidence": "medium",
+   "evidence": "respiration releasing energy from glucose continuously (2.34/2.35 ATP clauses); ATP named in lesson body per Cognito's respiration lesson",
+   "videoTitle": "Aerobic & Anaerobic Respiration (2027/28 Exams)",
+   "videoAuthor": "Cognito",
+   "identityVerdict": "consistent",
+   "identityOverlap": 1.0,
+   "transcriptVerdict": "not-fetchable"
+  },
+  {
+   "lessonRef": "4.2",
+   "lessonTitle": "Lungs Gas Exchange",
+   "video": "Nn4ke02sW8Q",
+   "specs": [
+    "2.46",
+    "2.40B"
+   ],
+   "confidence": "medium",
+   "evidence": "thorax structures incl. pleural membranes (2.46); diffusion as the gas-exchange mechanism (2.40B)",
+   "videoTitle": "GCSE Biology - The Lungs & Gas Exchange (2027/28 exams)",
+   "videoAuthor": "Cognito",
+   "identityVerdict": "consistent",
+   "identityOverlap": 1.0,
+   "transcriptVerdict": "not-fetchable"
+  },
+  {
+   "lessonRef": "4.3",
+   "lessonTitle": "Ventilation",
+   "video": "rsA-4TroH6Y",
+   "specs": [
+    "2.46"
+   ],
+   "confidence": "medium",
+   "evidence": "air pathway trachea\u2192bronchi\u2192bronchioles\u2192alveoli = 2.46 structure list",
+   "videoTitle": "Ventilation Mechanism | How Breathing Works | Inspiration & Expiration (2027/28 exams)",
+   "videoAuthor": "Cognito",
+   "identityVerdict": "conflict",
+   "identityOverlap": 0.14,
+   "transcriptVerdict": "not-fetchable",
+   "inspectedVerdict": "consistent",
+   "inspectedNote": "title is literally the ventilation mechanism (inspiration/expiration) = spec 2.47; overlap penalty was ratio artifact"
+  },
+  {
+   "lessonRef": "4.5",
+   "lessonTitle": "Response To Exercise",
+   "video": "3QIvixsepLI",
+   "specs": [
+    "2.50"
+   ],
+   "confidence": "medium",
+   "evidence": "breathing-rate response incl. anaerobic oxygen debt context; 2.50's practical measurement framing",
+   "videoTitle": "GCSE Biology - Exercise & Oxygen Debt (2027/28 exams)",
+   "videoAuthor": "Cognito",
+   "identityVerdict": "partial",
+   "identityOverlap": 0.33,
+   "transcriptVerdict": "not-fetchable"
+  },
+  {
+   "lessonRef": "5.1",
+   "lessonTitle": "Blood",
+   "video": "c-6ZhcHkB4s",
+   "specs": [
+    "2.62",
+    "2.60"
+   ],
+   "confidence": "medium",
+   "evidence": "phagocytes + lymphocytes antibodies (2.62 \u2014 deep-dive is Cognito 5.2); plasma transporting substances and heat (2.60)",
+   "videoTitle": "GCSE Biology - The Circulatory System | The Blood (2027/28 exams)",
+   "videoAuthor": "Cognito",
+   "identityVerdict": "consistent",
+   "identityOverlap": 0.67,
+   "transcriptVerdict": "not-fetchable"
+  },
+  {
+   "lessonRef": "5.2",
+   "lessonTitle": "The Immune System",
+   "video": "k1oCiR9Y2zQ",
+   "specs": [
+    "2.62"
+   ],
+   "confidence": "high",
+   "evidence": "phagocytes engulfing pathogens + lymphocytes producing specific antibodies = 2.62 verbatim",
+   "videoTitle": "GCSE Biology - Immune System & Defences | Types of White Blood Cell (2027/28 exams)",
+   "videoAuthor": "Cognito",
+   "identityVerdict": "consistent",
+   "identityOverlap": 0.71,
+   "transcriptVerdict": "not-fetchable"
+  },
+  {
+   "lessonRef": "5.7",
+   "lessonTitle": "Kidneys Excretion",
+   "video": "gWnIFIdDeto",
+   "specs": [
+    "2.71"
+   ],
+   "confidence": "medium",
+   "evidence": "urea, excess water and ions removed (2.71 kidney clause); lungs/skin excretory roles not evidenced",
+   "videoTitle": "GCSE Biology - How the Kidneys Work - (Kidneys Part 1/3)",
+   "videoAuthor": "Cognito",
+   "identityVerdict": "partial",
+   "identityOverlap": 0.33,
+   "transcriptVerdict": "not-fetchable"
+  },
+  {
+   "lessonRef": "5.8",
+   "lessonTitle": "Kidneys The Nephron",
+   "video": "sRZ7VOeIr6g",
+   "specs": [
+    "2.73B",
+    "2.76B",
+    "2.77B"
+   ],
+   "confidence": "medium",
+   "evidence": "renal artery/vein, ureter, bladder, urethra (2.73B); selective reabsorption of needed substances incl. water and glucose (2.76B/2.77B)",
+   "videoTitle": "GCSE Biology - Structure of the Kidneys - (Kidneys Part 2/3)",
+   "videoAuthor": "Cognito",
+   "identityVerdict": "consistent",
+   "identityOverlap": 1.0,
+   "transcriptVerdict": "not-fetchable"
+  },
+  {
+   "lessonRef": "6.1",
+   "lessonTitle": "Homeostasis",
+   "video": "zvDwNd_aKsk",
+   "specs": [
+    "2.80",
+    "2.82"
+   ],
+   "confidence": "medium",
+   "evidence": "automatic control systems responding to internal changes; receptors \u2192 coordination centre \u2192 effectors loop = 2.80/2.82",
+   "videoTitle": "GCSE Biology - Homeostasis | Receptors, Coordination Centres, Effectors | Negative Feedback",
+   "videoAuthor": "Cognito",
+   "identityVerdict": "partial",
+   "identityOverlap": 0.43,
+   "transcriptVerdict": "not-fetchable",
+   "inspectedVerdict": "consistent",
+   "inspectedNote": "title names receptors/coordination centres/effectors/negative feedback = spec 2.80/2.82 vocabulary verbatim"
+  },
+  {
+   "lessonRef": "6.2",
+   "lessonTitle": "The Nervous System Reflexes",
+   "video": "BnsZo4j1YvU",
+   "specs": [
+    "2.86"
+   ],
+   "confidence": "medium",
+   "evidence": "nervous communication focus; hormonal comparison partial at best",
+   "videoTitle": "GCSE Biology - The Nervous System | Reflex Arcs Explained (2027/28 exams)",
+   "videoAuthor": "Cognito",
+   "identityVerdict": "partial",
+   "identityOverlap": 0.4,
+   "transcriptVerdict": "not-fetchable"
+  },
+  {
+   "lessonRef": "6.5",
+   "lessonTitle": "The Endocrine System",
+   "video": "2fctpbrN0s8",
+   "specs": [
+    "2.86"
+   ],
+   "confidence": "medium",
+   "evidence": "hormonal communication system described; explicit nervous-vs-hormonal comparison partial",
+   "videoTitle": "GCSE Biology - The Endocrine System (2027/28 exams)",
+   "videoAuthor": "Cognito",
+   "identityVerdict": "consistent",
+   "identityOverlap": 1.0,
+   "transcriptVerdict": "not-fetchable"
+  },
+  {
+   "lessonRef": "7.1",
+   "lessonTitle": "Sexual Asexual Reproduction",
+   "video": "kSVKUNCDcPk",
+   "specs": [
+    "3.2"
+   ],
+   "confidence": "medium",
+   "evidence": "gametes carrying half the genetic information (haploid); fertilisation fusion named in lesson body",
+   "videoTitle": "GCSE Biology - Sexual & Asexual Reproduction | Gametes (2027/28 exams)",
+   "videoAuthor": "Cognito",
+   "identityVerdict": "consistent",
+   "identityOverlap": 1.0,
+   "transcriptVerdict": "not-fetchable"
+  },
+  {
+   "lessonRef": "7.7",
+   "lessonTitle": "Dna Chromosomes The Genome",
+   "video": "fy2F8yFxqOI",
+   "specs": [
+    "3.32"
+   ],
+   "confidence": "low",
+   "evidence": "chromosome pairs, one from each parent \u2014 grounds diploid/haploid distinction; the 46/23 counts themselves not evidenced in keyPoints",
+   "videoTitle": "GCSE Biology - DNA Part 1 | Chromosomes & Genome (2027/28 exams)",
+   "videoAuthor": "Cognito",
+   "identityVerdict": "consistent",
+   "identityOverlap": 1.0,
+   "transcriptVerdict": "not-fetchable"
+  },
+  {
+   "lessonRef": "7.8",
+   "lessonTitle": "Structure Of Dna",
+   "video": "T6_wKPAbf2k",
+   "specs": [
+    "3.16B"
+   ],
+   "confidence": "high",
+   "evidence": "double helix strands + A-T/C-G base pairing = 3.16B verbatim",
+   "videoTitle": "GCSE Biology - What is DNA? (Structure and Function of DNA)",
+   "videoAuthor": "Cognito",
+   "identityVerdict": "partial",
+   "identityOverlap": 0.4,
+   "transcriptVerdict": "not-fetchable"
+  },
+  {
+   "lessonRef": "7.9",
+   "lessonTitle": "Protein Synthesis",
+   "video": "ubdoUqmNF98",
+   "specs": [
+    "3.17B"
+   ],
+   "confidence": "medium",
+   "evidence": "messenger RNA described carrying the code to the ribosome (single-stranded RNA role); uracil-vs-thymine detail not evidenced in keyPoints",
+   "videoTitle": "How are Proteins Made? Transcription & Translation",
+   "videoAuthor": "Cognito",
+   "identityVerdict": "conflict",
+   "identityOverlap": 0.17,
+   "transcriptVerdict": "not-fetchable",
+   "inspectedVerdict": "consistent",
+   "inspectedNote": "title \"How are Proteins Made? Transcription & Translation\" = exactly 3.17B/3.18B content"
+  },
+  {
+   "lessonRef": "7.11",
+   "lessonTitle": "Meiosis",
+   "video": "nRAwve3OVp4",
+   "specs": [
+    "3.31"
+   ],
+   "confidence": "medium",
+   "evidence": "gamete uniqueness from random shuffling underpins random-fertilisation variation (3.31)",
+   "videoTitle": "GCSE Biology - Meiosis (2027/28 exams)",
+   "videoAuthor": "Cognito",
+   "identityVerdict": "consistent",
+   "identityOverlap": 1.0,
+   "transcriptVerdict": "not-fetchable"
+  },
+  {
+   "lessonRef": "7.14",
+   "lessonTitle": "Family Pedigrees",
+   "video": "uhKqmNOiPR8",
+   "specs": [
+    "3.25"
+   ],
+   "confidence": "medium",
+   "evidence": "predicting inheritance probability from pedigree crosses",
+   "videoTitle": "GCSE Biology - Family Trees / Family Pedigrees (2026/27 exams)",
+   "videoAuthor": "Cognito",
+   "identityVerdict": "consistent",
+   "identityOverlap": 0.67,
+   "transcriptVerdict": "not-fetchable"
+  },
+  {
+   "lessonRef": "7.16",
+   "lessonTitle": "Variation",
+   "video": "4PtOgToaKP8",
+   "specs": [
+    "3.22"
+   ],
+   "confidence": "medium",
+   "evidence": "continuous vs discontinuous variation; polygenic inference partial",
+   "videoTitle": "GCSE Biology - Variation and Evolution (2027/28 exams)",
+   "videoAuthor": "Cognito",
+   "identityVerdict": "partial",
+   "identityOverlap": 0.5,
+   "transcriptVerdict": "not-fetchable"
+  },
+  {
+   "lessonRef": "8.3",
+   "lessonTitle": "Food Chains Food Webs",
+   "video": "e8vzQWjzjm0",
+   "specs": [
+    "4.6",
+    "4.8"
+   ],
+   "confidence": "medium",
+   "evidence": "producers/consumers named (4.6); energy transfer direction and biomass fall (4.8)",
+   "videoTitle": "GCSE Biology - Food Chains & Predator-Prey Cycles (2027/28 exams)",
+   "videoAuthor": "Cognito",
+   "identityVerdict": "partial",
+   "identityOverlap": 0.4,
+   "transcriptVerdict": "not-fetchable"
+  },
+  {
+   "lessonRef": "8.4",
+   "lessonTitle": "Trophic Levels",
+   "video": "D1In8W2qev4",
+   "specs": [
+    "4.7"
+   ],
+   "confidence": "medium",
+   "evidence": "chain length limited by energy loss; pyramids context",
+   "videoTitle": "GCSE Biology - Trophic Levels - Producers, Consumers, Herbivores & Carnivores (2026/27 exams)",
+   "videoAuthor": "Cognito",
+   "identityVerdict": "partial",
+   "identityOverlap": 0.33,
+   "transcriptVerdict": "not-fetchable"
+  },
+  {
+   "lessonRef": "8.5",
+   "lessonTitle": "Biomass Transfer Pyramids",
+   "video": "Tn0_L-8amjM",
+   "specs": [
+    "4.7",
+    "4.8"
+   ],
+   "confidence": "medium",
+   "evidence": "pyramids of biomass (4.7); transfer losses to respiration/egestion (4.8)",
+   "videoTitle": "GCSE Biology - Pyramids of Biomass (2026/27 exams)",
+   "videoAuthor": "Cognito",
+   "identityVerdict": "consistent",
+   "identityOverlap": 1.0,
+   "transcriptVerdict": "not-fetchable"
+  },
+  {
+   "lessonRef": "8.6",
+   "lessonTitle": "The Carbon Cycle",
+   "video": "wSNSGcOqb38",
+   "specs": [
+    "4.10"
+   ],
+   "confidence": "high",
+   "evidence": "carbon cycle: photosynthesis, respiration, decomposition, combustion = 4.10 verbatim",
+   "videoTitle": "GCSE Biology - Carbon Cycle & Water Cycle (2027/28 exams)",
+   "videoAuthor": "Cognito",
+   "identityVerdict": "consistent",
+   "identityOverlap": 0.67,
+   "transcriptVerdict": "not-fetchable"
+  },
+  {
+   "lessonRef": "8.8",
+   "lessonTitle": "Human Impact On The Environment",
+   "video": "cickRHnPKvc",
+   "specs": [
+    "4.12"
+   ],
+   "confidence": "medium",
+   "evidence": "carbon monoxide from burning fuels binding haemoglobin explained (4.12 CO clause); SO2 not evidenced",
+   "videoTitle": "GCSE Biology - How Humans Reduce Biodiversity (2027/28 exams)",
+   "videoAuthor": "Cognito",
+   "identityVerdict": "partial",
+   "identityOverlap": 0.25,
+   "transcriptVerdict": "not-fetchable",
+   "inspectedVerdict": "CONFLICT-CONFIRMED",
+   "inspectedNote": "video title is specifically \"How Humans Reduce Biodiversity\": strengthens the 4.3B (high) binding, WEAKENS 4.12 (medium, CO/haemoglobin clause) and 4.16 (low, sewage/eutrophication) \u2014 the video likely does not walk the pollution mechanisms; recommend rejecting 4.16 and downgrading 4.12 unless owner scans the video"
+  },
+  {
+   "lessonRef": "8.8",
+   "lessonTitle": "Human Impact On The Environment",
+   "video": "cickRHnPKvc",
+   "specs": [
+    "4.16"
+   ],
+   "confidence": "low",
+   "evidence": "water pollution reducing biodiversity in generic terms; sewage specifically not covered",
+   "videoTitle": "GCSE Biology - How Humans Reduce Biodiversity (2027/28 exams)",
+   "videoAuthor": "Cognito",
+   "identityVerdict": "partial",
+   "identityOverlap": 0.25,
+   "transcriptVerdict": "not-fetchable",
+   "inspectedVerdict": "CONFLICT-CONFIRMED",
+   "inspectedNote": "video title is specifically \"How Humans Reduce Biodiversity\": strengthens the 4.3B (high) binding, WEAKENS 4.12 (medium, CO/haemoglobin clause) and 4.16 (low, sewage/eutrophication) \u2014 the video likely does not walk the pollution mechanisms; recommend rejecting 4.16 and downgrading 4.12 unless owner scans the video"
+  },
+  {
+   "lessonRef": "9.6",
+   "lessonTitle": "Genetic Engineering",
+   "video": "4Wu86ACPTKY",
+   "specs": [
+    "5.13",
+    "5.16"
+   ],
+   "confidence": "medium",
+   "evidence": "gene-transfer stages imply a vector (5.13); cross-species gene addition = transgenic concept (5.16) \u2014 terms not named in keyPoints",
+   "videoTitle": "GCSE Biology - Genetic Engineering | GMO (2027/28 exams)",
+   "videoAuthor": "Cognito",
+   "identityVerdict": "consistent",
+   "identityOverlap": 0.67,
+   "transcriptVerdict": "not-fetchable"
+  },
+  {
+   "lessonRef": "9.7",
+   "lessonTitle": "Benefits Risks Of Gm",
+   "video": "4Wu86ACPTKY",
+   "specs": [
+    "5.15"
+   ],
+   "confidence": "medium",
+   "evidence": "GM crop benefits (insect resistance, herbicide tolerance) and risks discussion extends 5.15",
+   "videoTitle": "GCSE Biology - Genetic Engineering | GMO (2027/28 exams)",
+   "videoAuthor": "Cognito",
+   "identityVerdict": "conflict",
+   "identityOverlap": 0.0,
+   "transcriptVerdict": "not-fetchable",
+   "inspectedVerdict": "partial",
+   "inspectedNote": "re-embed: title covers genetic engineering/GMO (9.6\u2019s topic); 9.7 binding to 5.15 (benefits/risks of GM crops) rests on keyPoints only \u2014 keep medium, review individually"
+  },
+  {
+   "lessonRef": "10.4",
+   "lessonTitle": "Effect Of Ph Temperature Concentration On Enzyme Activity",
+   "video": "8Yqbu56ImXk",
+   "specs": [
+    "2.13"
+   ],
+   "confidence": "medium",
+   "evidence": "optimum pH read from rate graph; pH-effect explanation partial",
+   "videoTitle": "Enzymes - GCSE Science Required Practical",
+   "videoAuthor": "Malmesbury Education",
+   "identityVerdict": "partial",
+   "identityOverlap": 0.25,
+   "transcriptVerdict": "not-fetchable",
+   "inspectedVerdict": "consistent",
+   "inspectedNote": "title \"Enzymes - Required Practical\" = exactly the 2.12/2.13/2.14B practical domain; singular/plural artifact"
+  },
+  {
+   "lessonRef": "10.8",
+   "lessonTitle": "Rate Of Photosynthesis",
+   "video": "id0aO_OdFwA",
+   "specs": [
+    "2.23"
+   ],
+   "confidence": "medium",
+   "evidence": "photosynthesis investigation with 1/d\u00b2 light treatment; oxygen/starch/CO2/chlorophyll requirements partially evidenced",
+   "videoTitle": "Rates Of Photosynthesis - GCSE Science Required Practical",
+   "videoAuthor": "Malmesbury Education",
+   "identityVerdict": "consistent",
+   "identityOverlap": 0.6,
+   "transcriptVerdict": "not-fetchable"
+  },
+  {
+   "lessonRef": "10.13",
+   "lessonTitle": "Field Sampling With Quadrats",
+   "video": "RhMOCxXcDrQ",
+   "specs": [
+    "4.2"
+   ],
+   "confidence": "high",
+   "evidence": "quadrat sampling scaled to population estimate = 4.2 practical",
+   "videoTitle": "Sampling with Quadrats - GCSE Biology Required Practical",
+   "videoAuthor": "Malmesbury Education",
+   "identityVerdict": "consistent",
+   "identityOverlap": 0.75,
+   "transcriptVerdict": "not-fetchable"
+  }
+ ]
+}

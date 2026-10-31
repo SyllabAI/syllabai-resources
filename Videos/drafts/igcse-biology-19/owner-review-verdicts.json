@@ -1,0 +1,18 @@
+{
+ "schema": "syllabai.owner-review/1",
+ "task": "T-VIDEOMAP-P2",
+ "course": "igcse-biology-19",
+ "ruledUtc": "2026-10-31T17:45:00Z",
+ "source": "'approve all except 4.16' \u2014 owner chat, 2026-11-01",
+ "default": "approve",
+ "reviewer": "owner (chat ruling 2026-11-01)",
+ "evidenceBasis": "Page keyPoints + oEmbed identity sweep (73/73 official titles, caption-validation.json) \u2014 transcript re-validation closed after 30 logged paths (caption-validation.md); medium rows are topic-consistent but clause-level unverified.",
+ "rejects": [
+  {
+   "lessonRef": "8.8",
+   "video": "cickRHnPKvc",
+   "spec": "4.16",
+   "reason": "Video identity conflict: the video's own official title is 'How Humans Reduce Biodiversity', which does not support the sewage/eutrophication clause of spec 4.16 (draft evidence itself noted 'sewage specifically not covered'). Owner adopted the caption-validation recommendation; binding removed from the shipped map and spec 4.16 falls back to the honest no-video list."
+  }
+ ]
+}
