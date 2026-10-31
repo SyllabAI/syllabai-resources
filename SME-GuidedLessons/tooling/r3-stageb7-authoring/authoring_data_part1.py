@@ -1,0 +1,425 @@
+# R3-CHECK-TYPES S-B7 authoring data — part 1 (5 notes: 5g8 / 6ZC / T6S / Vvs / YWD)
+# 4 written items per lesson, appended order [recall, recall, explain-why, application],
+# each KP-anchored (anchor.kp is 1-indexed into the lesson keyPoints of source-0.4).
+# Conventions of record: ASCII chemistry (CuSO4 + 5H2O giving CuSO4.5H2O; NH4+; cm3;
+# degrees Celsius), modelAnswer full sentences, generous synonym/inflection-bearing
+# keywords (case-insensitive whole-token [a-z0-9]+ law, >=1 hit -> correct).
+
+PART1 = {
+    "rn_5g8Dd6y89tkCVJsN": {
+        "lessons": [
+            {
+                "items": [
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 2},
+                        "stem": "State the piece of apparatus used to measure the alkali into the conical flask in a titration.",
+                        "misconceptionClass": "titration apparatus recall",
+                        "modelAnswer": "A pipette measures a fixed volume of the alkali into the conical flask.",
+                        "keywords": ["pipette", "pipettes", "volumetric", "fixed"],
+                    },
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 5},
+                        "stem": "Which two burette readings are used to calculate the volume of acid run in during the titration?",
+                        "misconceptionClass": "burette difference recall",
+                        "modelAnswer": "The starting reading is subtracted from the final reading; the difference between the two burette values is the volume of acid added.",
+                        "keywords": ["starting", "initial", "final", "difference", "subtracted"],
+                    },
+                    {
+                        "kind": "explain-why",
+                        "anchor": {"kp": 3},
+                        "stem": "Explain why only a few drops of indicator are added in a titration.",
+                        "misconceptionClass": "indicator quantity explain",
+                        "modelAnswer": "A few drops already give a clear colour change, so more is unnecessary; a large amount of indicator could itself react with the acid or alkali and spoil the accuracy of the measured volume.",
+                        "keywords": ["colour", "clear", "react", "accuracy", "spoil", "unnecessary", "large"],
+                    },
+                    {
+                        "kind": "application",
+                        "anchor": {"kp": 4},
+                        "stem": "A student runs acid in quickly near the end point and the colour goes past its first change. State the effect on the recorded volume.",
+                        "misconceptionClass": "overshoot effect application",
+                        "modelAnswer": "The flask has received more acid than the neutral volume, so the recorded reading is larger than it should be and the titration result comes out too high.",
+                        "keywords": ["larger", "high", "beyond", "pale", "overshoot", "extra"],
+                    },
+                ]
+            },
+            {
+                "items": [
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 1},
+                        "stem": "State what is left out when the measured titration volumes are repeated for the real batch.",
+                        "misconceptionClass": "indicator-free repeat recall",
+                        "modelAnswer": "The indicator is left out, so the repeat mixture contains only the salt and water formed by the reaction.",
+                        "keywords": ["indicator", "omitted", "excluded", "colourless"],
+                    },
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 3},
+                        "stem": "Describe how the solid crystals are separated from the liquid once they have appeared.",
+                        "misconceptionClass": "decantation recall",
+                        "modelAnswer": "The crystals are left to form, and the excess solution above them is decanted (poured) off.",
+                        "keywords": ["decant", "decanted", "decanting", "poured", "pour", "above"],
+                    },
+                    {
+                        "kind": "explain-why",
+                        "anchor": {"kp": 5},
+                        "stem": "Explain why heating is stopped while some water still remains with the crystals.",
+                        "misconceptionClass": "water of crystallisation explain",
+                        "modelAnswer": "Some water is left behind to allow for water of crystallisation; heating to dryness would overheat the salt and could make it decompose.",
+                        "keywords": ["crystallisation", "decompose", "decomposes", "decomposition", "overheat", "overheating"],
+                    },
+                    {
+                        "kind": "application",
+                        "anchor": {"kp": 2},
+                        "stem": "A student heats the salt solution until the evaporating basin is bone dry. Predict what has gone wrong.",
+                        "misconceptionClass": "over-evaporated batch application",
+                        "modelAnswer": "All the water has been driven off, so no saturated solution was left for crystals to form, and any water of crystallisation has been lost; the salt may also have decomposed.",
+                        "keywords": ["driven", "lost", "decomposed", "overheated", "saturated"],
+                    },
+                ]
+            },
+        ],
+    },
+    "rn_6ZCysv9GnNQmc3w2": {
+        "lessons": [
+            {
+                "items": [
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 3},
+                        "stem": "Name the separation technique used to remove undissolved solid from the salt solution.",
+                        "misconceptionClass": "filtration step recall",
+                        "modelAnswer": "Filtration removes the excess (undissolved) base, leaving only the salt and water in solution.",
+                        "keywords": ["filtration", "filter", "filtered", "filtering", "residue"],
+                    },
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 5},
+                        "stem": "State the condition that lets larger crystals grow during the final stage of the preparation.",
+                        "misconceptionClass": "crystal growth recall",
+                        "modelAnswer": "Slow evaporation over several days lets larger crystals grow.",
+                        "keywords": ["slow", "slowly", "slower", "days", "several"],
+                    },
+                    {
+                        "kind": "explain-why",
+                        "anchor": {"kp": 2},
+                        "stem": "Explain the purpose of having some undissolved base left over at the end of the reaction.",
+                        "misconceptionClass": "excess-base purpose explain",
+                        "modelAnswer": "Leftover base proves that every trace of acid has reacted, so the solution contains only the salt and water formed.",
+                        "keywords": ["acid", "reacted", "reacts", "fully", "completely", "proves"],
+                    },
+                    {
+                        "kind": "application",
+                        "anchor": {"kp": 4},
+                        "stem": "During evaporation a student keeps heating until every trace of liquid has disappeared. Predict the consequence for the batch.",
+                        "misconceptionClass": "over-heated batch application",
+                        "modelAnswer": "The solution becomes completely dry, so crystals cannot form properly; heating past this stage can also decompose the salt and spoils the batch.",
+                        "keywords": ["decompose", "decomposes", "spoiled", "spoils", "properly", "cannot"],
+                    },
+                ]
+            },
+            {
+                "items": [
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 1},
+                        "stem": "Name the two reagents used to prepare copper(II) sulfate by the insoluble-base method.",
+                        "misconceptionClass": "reagent pair recall",
+                        "modelAnswer": "Copper(II) oxide is warmed with dilute sulfuric acid to make copper(II) sulfate.",
+                        "keywords": ["oxide", "sulfuric", "warm", "warmed", "warming", "black"],
+                    },
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 4},
+                        "stem": "State the observation when a carbonate base reacts with dilute acid.",
+                        "misconceptionClass": "carbonate observation recall",
+                        "modelAnswer": "The mixture fizzes as bubbles of carbon dioxide gas are released into the air.",
+                        "keywords": ["fizz", "fizzing", "fizzes", "effervescence", "bubbles", "carbon", "dioxide"],
+                    },
+                    {
+                        "kind": "explain-why",
+                        "anchor": {"kp": 3},
+                        "stem": "Explain why unreacted acid must not remain in the copper sulfate solution while it evaporates.",
+                        "misconceptionClass": "concentrating acid explain",
+                        "modelAnswer": "As the water evaporates the leftover acid becomes more and more concentrated, which is dangerous and would contaminate the crystals formed.",
+                        "keywords": ["concentrated", "concentrates", "dangerous", "danger", "contaminate"],
+                    },
+                    {
+                        "kind": "application",
+                        "anchor": {"kp": 5},
+                        "stem": "A student has no copper(II) oxide but does have magnesium ribbon. Explain whether the magnesium could be used to make a salt from dilute sulfuric acid.",
+                        "misconceptionClass": "metal-instead-of-base application",
+                        "modelAnswer": "Yes - magnesium sits above hydrogen in the reactivity series, so it reacts with the acid to give the soluble salt magnesium sulfate plus hydrogen gas, and the excess metal is filtered off.",
+                        "keywords": ["above", "reactivity", "series", "soluble", "filtered", "yes"],
+                    },
+                ]
+            },
+        ],
+    },
+    "rn_T6S7R66N2wSZpWyc": {
+        "lessons": [
+            {
+                "items": [
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 1},
+                        "stem": "State the colour change seen when damp red litmus paper is held in ammonia gas.",
+                        "misconceptionClass": "ammonia litmus recall",
+                        "modelAnswer": "The damp red litmus paper turns blue.",
+                        "keywords": ["blue", "turns", "turn"],
+                    },
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 4},
+                        "stem": "State the two-stage observation produced by chlorine on damp blue litmus paper, in order.",
+                        "misconceptionClass": "chlorine litmus recall",
+                        "modelAnswer": "Chlorine turns the damp blue litmus paper red first and then bleaches it white.",
+                        "keywords": ["white", "bleaches", "bleaching", "bleach", "then"],
+                    },
+                    {
+                        "kind": "explain-why",
+                        "anchor": {"kp": 3},
+                        "stem": "Explain why the litmus paper must not touch the glass sides during the ammonium-ion test.",
+                        "misconceptionClass": "false-positive risk explain",
+                        "modelAnswer": "Sodium hydroxide traces clinging to the glass would also turn red litmus blue, giving a false positive; only the gas above the solution should be sampled.",
+                        "keywords": ["false", "positive", "traces", "sodium", "hydroxide", "cling"],
+                    },
+                    {
+                        "kind": "application",
+                        "anchor": {"kp": 1},
+                        "stem": "Gas X turns damp red litmus paper blue; gas Y turns damp blue litmus paper red and then white. Identify both gases.",
+                        "misconceptionClass": "two-gas identification application",
+                        "modelAnswer": "Gas X is ammonia and gas Y is chlorine.",
+                        "keywords": ["ammonia", "chlorine"],
+                    },
+                ]
+            },
+            {
+                "items": [
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 2},
+                        "stem": "State the chemical identity of limewater.",
+                        "misconceptionClass": "limewater identity recall",
+                        "modelAnswer": "Limewater is calcium hydroxide dissolved in water, so it is a calcium hydroxide solution.",
+                        "keywords": ["calcium", "hydroxide", "dissolved", "solution"],
+                    },
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 3},
+                        "stem": "Describe the appearance change that counts as a positive limewater result.",
+                        "misconceptionClass": "cloudy-white result recall",
+                        "modelAnswer": "Bubbling the gas through limewater turns the limewater cloudy white.",
+                        "keywords": ["cloudy", "white", "milky", "cloudiness"],
+                    },
+                    {
+                        "kind": "explain-why",
+                        "anchor": {"kp": 4},
+                        "stem": "Explain why an extinguished splint is not accepted as a test for carbon dioxide.",
+                        "misconceptionClass": "non-specific splint explain",
+                        "modelAnswer": "Other gases such as nitrogen also extinguish a burning splint, so a flame going out is a shared property and identifies none of them specifically.",
+                        "keywords": ["nitrogen", "extinguish", "extinguishes", "shared", "property", "flame"],
+                    },
+                    {
+                        "kind": "application",
+                        "anchor": {"kp": 1},
+                        "stem": "Two unknown gases are bubbled through separate limewater samples; one sample turns cloudy and the other stays clear. State what each result shows.",
+                        "misconceptionClass": "paired limewater readings application",
+                        "modelAnswer": "The cloudy sample shows carbon dioxide is present; the clear one shows that gas is not carbon dioxide (a negative result).",
+                        "keywords": ["present", "absent", "dioxide", "negative"],
+                    },
+                ]
+            },
+            {
+                "items": [
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 1},
+                        "stem": "State the observation that confirms hydrogen when a lit splint is used.",
+                        "misconceptionClass": "squeaky pop recall",
+                        "modelAnswer": "The lit splint gives a squeaky pop at the mouth of the tube.",
+                        "keywords": ["squeaky", "pop", "bang", "mouth"],
+                    },
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 4},
+                        "stem": "State what a glowing splint does when it is lowered into a tube of oxygen.",
+                        "misconceptionClass": "glowing splint recall",
+                        "modelAnswer": "A glowing splint relights in oxygen.",
+                        "keywords": ["relight", "relights", "relighting", "bursts", "flame"],
+                    },
+                    {
+                        "kind": "explain-why",
+                        "anchor": {"kp": 3},
+                        "stem": "Explain why the splint is held at the mouth of the tube in the hydrogen test.",
+                        "misconceptionClass": "air-supply explain",
+                        "modelAnswer": "The gas needs the oxygen of the surrounding air to burn, so the flame only pops where hydrogen meets air at the tube mouth; pushed deep inside there is no air to support the combustion.",
+                        "keywords": ["air", "oxygen", "outside", "combustion", "support"],
+                    },
+                    {
+                        "kind": "application",
+                        "anchor": {"kp": 2},
+                        "stem": "An unknown gas gives the classic sharp sound with a lit splint, while a glowing splint lowered into it does not relight. Identify the gas and justify both readings.",
+                        "misconceptionClass": "paired splint identification application",
+                        "modelAnswer": "The gas is hydrogen: the squeaky pop shows hydrogen burning rapidly to give water, and the failure to relight shows the gas is not oxygen.",
+                        "keywords": ["pop", "squeaky", "water", "burning", "burns"],
+                    },
+                ]
+            },
+        ],
+    },
+    "rn_VvsXMdW3TB37JhWF": {
+        "lessons": [
+            {
+                "items": [
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 1},
+                        "stem": "State the products formed when an acid reacts with a base.",
+                        "misconceptionClass": "neutralisation products recall",
+                        "modelAnswer": "A neutralisation reaction between an acid and a base gives a salt and water.",
+                        "keywords": ["salt", "salts", "water", "neutralisation"],
+                    },
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 3},
+                        "stem": "State the pH values that identify an alkali.",
+                        "misconceptionClass": "alkali ph-band recall",
+                        "modelAnswer": "An alkali has a pH above 7 (any value greater than 7).",
+                        "keywords": ["above", "7", "seven", "greater", "higher"],
+                    },
+                    {
+                        "kind": "explain-why",
+                        "anchor": {"kp": 2},
+                        "stem": "Explain why copper(II) oxide is a base but is not an alkali.",
+                        "misconceptionClass": "base-vs-alkali explain",
+                        "modelAnswer": "Copper(II) oxide neutralises acids, so it is a base, but it does not dissolve in water, so it cannot be an alkali; every alkali is a soluble base while many bases never dissolve.",
+                        "keywords": ["dissolve", "dissolves", "dissolving", "soluble", "water"],
+                    },
+                    {
+                        "kind": "application",
+                        "anchor": {"kp": 4},
+                        "stem": "A colourless solution turns red litmus paper blue. State what class of substance it is and one pH value it could have.",
+                        "misconceptionClass": "litmus classification application",
+                        "modelAnswer": "It is basic (alkaline) - an alkali or soluble base - with a pH above 7, such as pH 11.",
+                        "keywords": ["alkaline", "alkali", "basic", "above", "11"],
+                    },
+                ]
+            },
+            {
+                "items": [
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 2},
+                        "stem": "Name the two ions present in a solution of sodium hydroxide.",
+                        "misconceptionClass": "alkali ion pair recall",
+                        "modelAnswer": "Sodium hydroxide solution contains sodium ions (Na+) and hydroxide ions (OH-).",
+                        "keywords": ["na", "oh", "charged", "cations", "anions"],
+                    },
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 4},
+                        "stem": "Name the two ions present in aqueous ammonia and state how they come to exist.",
+                        "misconceptionClass": "aqueous ammonia ions recall",
+                        "modelAnswer": "Aqueous ammonia contains ammonium ions (NH4+) and hydroxide ions (OH-), formed when ammonia reacts with the water.",
+                        "keywords": ["ammonium", "nh4", "reacts", "reaction", "formed"],
+                    },
+                    {
+                        "kind": "explain-why",
+                        "anchor": {"kp": 5},
+                        "stem": "Explain why the words ammonia and ammonium must not be confused with each other.",
+                        "misconceptionClass": "ammonia-vs-ammonium explain",
+                        "modelAnswer": "Ammonia is the neutral gas NH3, while ammonium is the positive ion NH4+ that exists in solution; one is a gas and the other an ion, and their formulas differ by one hydrogen.",
+                        "keywords": ["gas", "ion", "nh3", "nh4", "hydrogen", "formula"],
+                    },
+                    {
+                        "kind": "application",
+                        "anchor": {"kp": 1},
+                        "stem": "A student adds sodium hydroxide dropwise to dilute hydrochloric acid. Explain why the mixture can pass from turning litmus red to turning litmus blue.",
+                        "misconceptionClass": "neutralisation swing application",
+                        "modelAnswer": "The added alkali first neutralises the acid; once every H+ has reacted, spare hydroxide ions remain in solution, so the mixture becomes alkaline and turns red litmus blue.",
+                        "keywords": ["neutralises", "neutralised", "spare", "alkaline", "remains", "leftover"],
+                    },
+                ]
+            },
+        ],
+    },
+    "rn_YWDXCCmjfjkJcs6c": {
+        "lessons": [
+            {
+                "items": [
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 1},
+                        "stem": "State the colour change of anhydrous copper(II) sulfate when water is added to it.",
+                        "misconceptionClass": "cuso4 colour change recall",
+                        "modelAnswer": "The white anhydrous powder turns blue.",
+                        "keywords": ["white", "turns", "powder", "hydrated"],
+                    },
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 2},
+                        "stem": "Write the equation for anhydrous copper(II) sulfate binding water of crystallisation.",
+                        "misconceptionClass": "hydration equation recall",
+                        "modelAnswer": "CuSO4 + 5H2O giving CuSO4.5H2O - the white salt takes five waters into its structure.",
+                        "keywords": ["cuso4", "5h2o", "five", "hydrated", "hydrate"],
+                    },
+                    {
+                        "kind": "explain-why",
+                        "anchor": {"kp": 4},
+                        "stem": "Explain why the white and blue forms of copper(II) sulfate count as different substances.",
+                        "misconceptionClass": "anhydrous-vs-hydrated explain",
+                        "modelAnswer": "The white powder is the anhydrous salt with no water of crystallisation, while the blue solid is the hydrated salt holding five water molecules per copper sulfate unit, so their structures and formulas differ.",
+                        "keywords": ["anhydrous", "hydrated", "holding", "waters", "structures", "formulas"],
+                    },
+                    {
+                        "kind": "application",
+                        "anchor": {"kp": 1},
+                        "stem": "A sealed vial holds either ethanol or pure water. Describe how anhydrous copper(II) sulfate could identify which liquid is water.",
+                        "misconceptionClass": "liquid identification application",
+                        "modelAnswer": "Add a little of each liquid to white anhydrous copper(II) sulfate: the sample that turns the powder blue contains water, and the one leaving it white is not water.",
+                        "keywords": ["blue", "turns", "hydration", "positive"],
+                    },
+                ]
+            },
+            {
+                "items": [
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 3},
+                        "stem": "State the boiling point of pure water measured at standard pressure.",
+                        "misconceptionClass": "pure-water boiling point recall",
+                        "modelAnswer": "Pure water boils at exactly 100 degrees Celsius.",
+                        "keywords": ["100", "hundred", "exactly", "celsius"],
+                    },
+                    {
+                        "kind": "recall",
+                        "anchor": {"kp": 2},
+                        "stem": "Name the vessel that holds the sample during the careful heating and the instrument that reads how hot it is.",
+                        "misconceptionClass": "apparatus pair recall",
+                        "modelAnswer": "The sample is heated gently in a boiling tube and its temperature is read with a thermometer.",
+                        "keywords": ["boiling", "tube", "thermometer", "gently"],
+                    },
+                    {
+                        "kind": "explain-why",
+                        "anchor": {"kp": 4},
+                        "stem": "Explain why a sample that boils at 102 degrees Celsius is judged not to be pure water.",
+                        "misconceptionClass": "elevated boiling point explain",
+                        "modelAnswer": "Dissolved impurities raise the boiling point above the pure value of 100 degrees Celsius, so any reading higher than 100 signals dissolved substances in the sample.",
+                        "keywords": ["impurities", "raise", "raises", "higher", "dissolved", "above"],
+                    },
+                    {
+                        "kind": "application",
+                        "anchor": {"kp": 5},
+                        "stem": "A liquid melts at minus 3 degrees Celsius instead of 0. Predict what this shows about the sample and link it to the boiling test.",
+                        "misconceptionClass": "depressed melting point application",
+                        "modelAnswer": "The depressed melting point shows dissolved impurities; the same impurities would raise the boiling point above 100 degrees Celsius, so the sample is not pure water.",
+                        "keywords": ["impurities", "impure", "depressed", "depresses", "lowered", "raise"],
+                    },
+                ]
+            },
+        ],
+    },
+}

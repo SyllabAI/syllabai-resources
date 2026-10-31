@@ -1,0 +1,631 @@
+{
+  "format": "guided-lesson/0.5",
+  "figures": [
+    {
+      "id": "fig-01",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-chemistry-19/assets/295f15261331-2-7-9-preparation-of-leadiisulfate-1.png",
+      "alt": "Preparation of lead(II)sulfate 1, downloadable IGCSE & GCSE Chemistry revision notes",
+      "sourceHeading": "Preparation of an insoluble salt via precipitation",
+      "binding": "note-level",
+      "moduleIds": []
+    },
+    {
+      "id": "fig-02",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-chemistry-19/assets/c42c7d706434-2-7-9-preparation-of-leadiisulfate-2.png",
+      "alt": "Preparation of lead(II)sulfate 2, downloadable IGCSE & GCSE Chemistry revision notes",
+      "sourceHeading": "Preparation of an insoluble salt via precipitation",
+      "binding": "note-level",
+      "moduleIds": []
+    },
+    {
+      "id": "fig-03",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-chemistry-19/assets/14629074e53c-2-7-9-preparation-of-leadiisulfate-3.png",
+      "alt": "Preparation of lead(II)sulfate 3, downloadable IGCSE & GCSE Chemistry revision notes",
+      "sourceHeading": "Preparation of an insoluble salt via precipitation",
+      "binding": "note-level",
+      "moduleIds": []
+    },
+    {
+      "id": "fig-04",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-chemistry-19/assets/0093b0722e85-2-7-9-preparation-of-leadiisulfate-4.png",
+      "alt": "Preparation of lead(II)sulfate 4, downloadable IGCSE & GCSE Chemistry revision notes",
+      "sourceHeading": "Preparation of an insoluble salt via precipitation",
+      "caption": "The preparation of lead(II)sulfate by precipitation from two soluble salts",
+      "binding": "note-level",
+      "moduleIds": []
+    }
+  ],
+  "noteRef": {
+    "noteId": "rn_pBp5Z5C2RHTKk7Wn",
+    "corpusVersion": "sme-revision-notes-igcse-chemistry-19-2026-09-18",
+    "topicTitle": "2. Inorganic Chemistry",
+    "subtopicTitle": "Acids, Bases & Salt Preparations",
+    "sourceUrl": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/2-inorganic-chemistry/2-7-acids-bases-and-salt-preparations/2-7-9-practical-prepare-leadiisulfate"
+  },
+  "specPoints": [
+    {
+      "code": "4CH1-2.41C",
+      "text": "describe an experiment to prepare a pure, dry sample of an insoluble salt, starting from two soluble reactants"
+    },
+    {
+      "code": "4CH1-2.43C",
+      "text": "practical: prepare a sample of pure, dry lead(II) sulfate"
+    }
+  ],
+  "primer": {
+    "text": "From Prepare an Insoluble Salt you already know the precipitation pattern of two soluble salts swapping partners. This note runs that pattern as a named practical, with measured volumes, filtration, washing and drying, ending with a dry sample of lead(II) sulfate.",
+    "prerequisiteSubtopic": "Prepare an Insoluble Salt"
+  },
+  "lessons": [
+    {
+      "title": "Aim",
+      "sourceHeadings": [
+        "Aim"
+      ],
+      "specRefs": [
+        "4CH1-2.41C",
+        "4CH1-2.43C"
+      ],
+      "opening": "This practical prepares a dry sample of lead(II) sulfate, an insoluble salt, from two solutions that are both soluble. Lead(II) nitrate provides the lead ions and potassium sulfate provides the sulfate ions, and when the two solutions meet, white lead(II) sulfate falls out of the mixture while potassium nitrate stays behind in the liquid.",
+      "keyPoints": [
+        "The aim is a pure, dry sample of lead(II) sulfate.",
+        "The reactants are lead(II) nitrate solution and potassium sulfate solution.",
+        "Both reactants must be soluble while the product must be insoluble.",
+        "Lead(II) sulfate forms as the precipitate.",
+        "Potassium nitrate remains dissolved in the liquid above the solid."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Two clear solutions, lead(II) nitrate and potassium sulfate, are mixed, and white lead(II) sulfate drops out as a solid. The potassium nitrate made alongside it stays dissolved, so the solid can be filtered off as the product.",
+          "analogy": "It is like two crowds meeting in a doorway where only one pairing is incompatible: the incompatible pair, lead and sulfate, clumps together and steps aside as a solid.",
+          "examPointer": "State both reactant solutions by name and the white precipitate by name, because the practical mark scheme expects the full cast, not just the product."
+        },
+        "medium": {
+          "restatement": "The ionic story is that Pb2+ meets SO42- and their insoluble compound leaves the solution, while the spectator ions K+ and NO3- never leave it. The design constraint is the same as any precipitation: both chosen reactants must dissolve so they can meet, and the chosen product must not dissolve so it can be collected.",
+          "analogy": "The spectator ions are like the audience at a match: they are present for every moment of it but never step onto the pitch, which belongs only to the lead and sulfate players.",
+          "examPointer": "Ionic-equation questions want Pb2+ plus SO42- giving PbSO4, with the spectator ions left out entirely."
+        }
+      },
+      "check": [
+        {
+          "stem": "Which two solutions are mixed in this practical?",
+          "misconceptionClass": "reactant recall",
+          "options": [
+            {
+              "key": "A",
+              "text": "Lead(II) nitrate and potassium sulfate",
+              "correct": true,
+              "explanation": "Those are the two soluble salts named by the practical.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Lead(II) sulfate and potassium nitrate",
+              "correct": false,
+              "explanation": "Those are the products, not the starting solutions.",
+              "misconception": "products named as reactants"
+            },
+            {
+              "key": "C",
+              "text": "Lead(II) chloride and potassium sulfate",
+              "correct": false,
+              "explanation": "Lead(II) chloride is insoluble and is not the named reactant.",
+              "misconception": "wrong lead salt"
+            },
+            {
+              "key": "D",
+              "text": "Lead metal and sulfuric acid",
+              "correct": false,
+              "explanation": "That is a different reaction family altogether; no metal is used here.",
+              "misconception": "metal-acid route intrudes"
+            }
+          ]
+        },
+        {
+          "stem": "Why must both starting solutions be soluble?",
+          "misconceptionClass": "solubility constraint",
+          "options": [
+            {
+              "key": "A",
+              "text": "So they can be mixed as solutions and react in water",
+              "correct": true,
+              "explanation": "Ions can only meet in solution, which requires both reactants to dissolve.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Because insoluble salts are toxic",
+              "correct": false,
+              "explanation": "Toxicity is a separate issue here; the constraint is about meeting in solution.",
+              "misconception": "hazard misattributed"
+            },
+            {
+              "key": "C",
+              "text": "Because soluble salts precipitate faster",
+              "correct": false,
+              "explanation": "The rate is not the issue; the ability to form solutions is.",
+              "misconception": "rate fiction"
+            },
+            {
+              "key": "D",
+              "text": "So the product dissolves too",
+              "correct": false,
+              "explanation": "The product must stay insoluble for the method to collect it.",
+              "misconception": "product property confused"
+            }
+          ]
+        },
+        {
+          "stem": "What happens to the potassium nitrate formed?",
+          "misconceptionClass": "by-product fate",
+          "options": [
+            {
+              "key": "A",
+              "text": "It stays dissolved in the liquid and is washed away later",
+              "correct": true,
+              "explanation": "As a soluble salt it never leaves solution, and the wash carries its traces off the solid.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "It precipitates alongside the lead(II) sulfate",
+              "correct": false,
+              "explanation": "Only the insoluble salt precipitates; potassium nitrate is soluble.",
+              "misconception": "double precipitation imagined"
+            },
+            {
+              "key": "C",
+              "text": "It evaporates during stirring",
+              "correct": false,
+              "explanation": "A dissolved salt cannot evaporate with the water; it stays until the wash.",
+              "misconception": "phase fiction"
+            },
+            {
+              "key": "D",
+              "text": "It turns into more lead(II) sulfate",
+              "correct": false,
+              "explanation": "The two products are distinct; no conversion happens between them.",
+              "misconception": "conversion fiction"
+            }
+          ]
+        },
+        {
+          "stem": "Which ion pair comes together to form the solid?",
+          "misconceptionClass": "ionic pair selection",
+          "options": [
+            {
+              "key": "A",
+              "text": "Pb2+ and SO42-",
+              "correct": true,
+              "explanation": "Lead ions and sulfate ions build the insoluble lead(II) sulfate.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Pb2+ and NO3-",
+              "correct": false,
+              "explanation": "Lead(II) nitrate is one of the soluble reactants, so that pair stays dissolved.",
+              "misconception": "nitrate pair chosen"
+            },
+            {
+              "key": "C",
+              "text": "K+ and SO42-",
+              "correct": false,
+              "explanation": "Potassium sulfate is the other soluble reactant, not the product.",
+              "misconception": "reactant pair chosen"
+            },
+            {
+              "key": "D",
+              "text": "K+ and NO3-",
+              "correct": false,
+              "explanation": "That pair makes the soluble by-product, not the solid.",
+              "misconception": "by-product pair chosen"
+            }
+          ]
+        },
+        {
+          "stem": "In the equation Pb(NO3)2 + K2SO4 giving PbSO4 + 2KNO3, what does the 2 before KNO3 balance?",
+          "misconceptionClass": "equation balancing",
+          "options": [
+            {
+              "key": "A",
+              "text": "The two nitrate ions in one lead(II) nitrate unit",
+              "correct": true,
+              "explanation": "Both nitrates must reappear as two potassium nitrates on the right.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "The two potassium ions in potassium sulfate",
+              "correct": false,
+              "explanation": "Those two potassiums explain why KNO3 carries a 2, but the question points at the nitrate side of the balance.",
+              "misconception": "count source confused"
+            },
+            {
+              "key": "C",
+              "text": "The two charges on lead",
+              "correct": false,
+              "explanation": "Ionic charges are already balanced inside the formulae; the 2 is a counting number.",
+              "misconception": "charge confused with stoichiometry"
+            },
+            {
+              "key": "D",
+              "text": "Nothing, it is a typographical slip",
+              "correct": false,
+              "explanation": "The equation is balanced as written; the 2 is essential.",
+              "misconception": "balancing dismissed"
+            }
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "Name the two starting solutions used to prepare the insoluble salt lead(II) sulfate.",
+          "misconceptionClass": "reactant pair recall",
+          "modelAnswer": "Lead(II) nitrate solution and potassium sulfate solution are mixed together.",
+          "keywords": [
+            "nitrate",
+            "potassium"
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "State the solubility requirements for the two reactants and for the product in a precipitation preparation.",
+          "misconceptionClass": "solubility requirements recall",
+          "modelAnswer": "Both starting salts must be soluble while the product salt must be insoluble, so only the product falls out of solution as a solid.",
+          "keywords": [
+            "soluble",
+            "insoluble",
+            "dissolve",
+            "falls",
+            "solid"
+          ]
+        },
+        {
+          "kind": "explain-why",
+          "stem": "Explain why potassium nitrate does not appear in the collected solid sample.",
+          "misconceptionClass": "spectator fate explain",
+          "modelAnswer": "Potassium nitrate is soluble, so it stays dissolved in the liquid above the precipitate and is washed away rather than collected.",
+          "keywords": [
+            "soluble",
+            "dissolved",
+            "stays",
+            "liquid",
+            "washed"
+          ]
+        },
+        {
+          "kind": "application",
+          "stem": "A student mixes sodium sulfate solution with lead(II) nitrate solution instead. State the solid that forms and the two ions that come together to make it.",
+          "misconceptionClass": "ion-pair transfer application",
+          "modelAnswer": "Lead(II) sulfate still forms - the lead ions meet the sulfate ions and precipitate; only the spectator partner changes, with sodium nitrate staying in solution.",
+          "keywords": [
+            "precipitate",
+            "precipitates",
+            "white"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Method",
+      "sourceHeadings": [
+        "Method"
+      ],
+      "specRefs": [
+        "4CH1-2.43C"
+      ],
+      "opening": "Equal volumes of the two solutions are measured, mixed and stirred, and the white solid is then collected by filtration. Washing with distilled water strips away traces of the leftover solutions, and a spell in a warm oven dries the product. Lead salts are toxic, so care is needed at every stage of the handling.",
+      "keyPoints": [
+        "25 cm3 of 0.5 mol dm-3 lead(II) nitrate solution is measured into a small beaker.",
+        "An equal volume of potassium sulfate solution is added and the mixture is stirred.",
+        "Filtration separates the precipitate from the mixture.",
+        "Distilled water washes away traces of the other solutions.",
+        "The sample is left in an oven to dry."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Measure 25 cm3 of each 0.5 mol dm-3 solution into a beaker and stir them together. Filter off the white solid, rinse it with distilled water, then dry it in an oven to finish the sample.",
+          "analogy": "The method is a production line with four stations, mix, filter, wash, dry, and each station hands a cleaner product to the next.",
+          "examPointer": "Quote the measured quantities if the question gives them, 25 cm3 of each solution, because practical write-ups expect the actual numbers."
+        },
+        "medium": {
+          "restatement": "Equal volumes of equal concentrations give the ions in matching amounts, so neither reactant is left wanting when the solid forms. The wash then removes the potassium nitrate solution soaking the residue, and oven drying removes the rinse water, delivering the product dry without heating it anywhere near decomposition.",
+          "analogy": "Rinsing the residue before drying is like towelling off before putting on clean clothes: skip the rinse and the drying stage simply bakes the old solution onto the solid.",
+          "examPointer": "Safety questions expect the lead-salt toxicity named explicitly, with careful handling stated as the response."
+        }
+      },
+      "check": [
+        {
+          "stem": "What volumes and concentrations are used for each solution?",
+          "misconceptionClass": "measured quantities recall",
+          "options": [
+            {
+              "key": "A",
+              "text": "25 cm3 of 0.5 mol dm-3 for both",
+              "correct": true,
+              "explanation": "Both solutions are measured out at 25 cm3 and 0.5 mol dm-3.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "50 cm3 of 1.0 mol dm-3 for both",
+              "correct": false,
+              "explanation": "Every figure has been doubled compared with the method of record.",
+              "misconception": "figures doubled"
+            },
+            {
+              "key": "C",
+              "text": "25 cm3 of 0.5 mol dm-3 for lead(II) nitrate only",
+              "correct": false,
+              "explanation": "Both solutions carry the same volume and concentration in the method.",
+              "misconception": "asymmetric volumes assumed"
+            },
+            {
+              "key": "D",
+              "text": "10 cm3 of 2.0 mol dm-3 for both",
+              "correct": false,
+              "explanation": "The figures do not match the practical as written.",
+              "misconception": "figures misremembered"
+            }
+          ]
+        },
+        {
+          "stem": "After mixing, how is the solid collected?",
+          "misconceptionClass": "collection technique",
+          "options": [
+            {
+              "key": "A",
+              "text": "By filtering the mixture",
+              "correct": true,
+              "explanation": "Filtration is the stated collection step for the precipitate.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "By decanting into a burette",
+              "correct": false,
+              "explanation": "A burette belongs to titrations and has no role here.",
+              "misconception": "titration apparatus intrudes"
+            },
+            {
+              "key": "C",
+              "text": "By evaporating the water first",
+              "correct": false,
+              "explanation": "Evaporation belongs to the soluble-salt method, not to collecting a precipitate.",
+              "misconception": "soluble-salt route intrudes"
+            },
+            {
+              "key": "D",
+              "text": "By picking out the crystals by hand",
+              "correct": false,
+              "explanation": "That is neither safe with toxic lead salts nor a real laboratory technique here.",
+              "misconception": "improvised technique imagined"
+            }
+          ]
+        },
+        {
+          "stem": "The source method says to wash the filtrate. What should actually be washed, and why?",
+          "misconceptionClass": "filtrate versus residue",
+          "options": [
+            {
+              "key": "A",
+              "text": "The solid residue on the filter paper, to strip away traces of the other solutions",
+              "correct": true,
+              "explanation": "The product is the residue, so it is the residue that needs the rinse.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "The filtrate, because the product dissolves in it",
+              "correct": false,
+              "explanation": "The product is insoluble by design and sits above the paper, not below it.",
+              "misconception": "source wording taken literally"
+            },
+            {
+              "key": "C",
+              "text": "The beaker only, since the solid is clean",
+              "correct": false,
+              "explanation": "The solid is exactly what carries the solution traces needing removal.",
+              "misconception": "washing dismissed"
+            },
+            {
+              "key": "D",
+              "text": "The filter paper before use, to wet it",
+              "correct": false,
+              "explanation": "Wetting the paper is a different technique and not what the wash step is for.",
+              "misconception": "different technique substituted"
+            }
+          ]
+        },
+        {
+          "stem": "How is the sample dried?",
+          "misconceptionClass": "drying step recall",
+          "options": [
+            {
+              "key": "A",
+              "text": "In an oven",
+              "correct": true,
+              "explanation": "The method leaves the washed solid in an oven to dry.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "In a freezer",
+              "correct": false,
+              "explanation": "Cold does not remove water; warmth does.",
+              "misconception": "opposite treatment"
+            },
+            {
+              "key": "C",
+              "text": "Over a naked flame",
+              "correct": false,
+              "explanation": "A naked flame is uncontrolled heating and unsuitable for a toxic salt.",
+              "misconception": "unsafe heating imagined"
+            },
+            {
+              "key": "D",
+              "text": "With a hairdryer",
+              "correct": false,
+              "explanation": "Improvised equipment is not part of the method.",
+              "misconception": "improvised equipment"
+            }
+          ]
+        },
+        {
+          "stem": "What safety point applies to this practical?",
+          "misconceptionClass": "safety awareness",
+          "options": [
+            {
+              "key": "A",
+              "text": "Lead salts are toxic, so care is needed when handling them",
+              "correct": true,
+              "explanation": "That is the source's stated safety warning for the practical.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Potassium nitrate is radioactive",
+              "correct": false,
+              "explanation": "It is an ordinary soluble salt with no radioactivity involved.",
+              "misconception": "hazard invented"
+            },
+            {
+              "key": "C",
+              "text": "Lead(II) sulfate is flammable",
+              "correct": false,
+              "explanation": "An inorganic salt like this is not the flammable hazard; toxicity is.",
+              "misconception": "wrong hazard class"
+            },
+            {
+              "key": "D",
+              "text": "No care is needed once the salt is insoluble",
+              "correct": false,
+              "explanation": "Insolubility changes nothing about the toxicity of lead compounds.",
+              "misconception": "false reassurance"
+            }
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "State the volume and concentration of lead(II) nitrate solution used at the start of the method.",
+          "misconceptionClass": "measured volume recall",
+          "modelAnswer": "25 cm3 of 0.5 mol dm-3 lead(II) nitrate solution is measured into a small beaker.",
+          "keywords": [
+            "25",
+            "cm3",
+            "beaker",
+            "measured"
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "State what the collected precipitate is washed with and the purpose of that wash.",
+          "misconceptionClass": "distilled-water wash recall",
+          "modelAnswer": "The residue (the lead(II) sulfate precipitate) is washed with distilled water to remove traces of the other solutions.",
+          "keywords": [
+            "distilled",
+            "residue",
+            "traces",
+            "purify",
+            "impurities"
+          ]
+        },
+        {
+          "kind": "explain-why",
+          "stem": "Explain why filtration is the correct separation technique for this preparation.",
+          "misconceptionClass": "filtration choice explain",
+          "modelAnswer": "The product is an insoluble solid suspended in liquid, so filtering traps the precipitate as the residue while the soluble spectators pass through as the filtrate.",
+          "keywords": [
+            "insoluble",
+            "solid",
+            "residue",
+            "filtrate",
+            "traps"
+          ]
+        },
+        {
+          "kind": "application",
+          "stem": "The collected solid is still damp at the end of the filtration. Describe the final step and one safety precaution tied to this product.",
+          "misconceptionClass": "drying and safety application",
+          "modelAnswer": "The sample is left in a warm oven to dry; lead salts are toxic, so gloves and careful handling are needed throughout.",
+          "keywords": [
+            "oven",
+            "dry",
+            "dried",
+            "toxic",
+            "gloves",
+            "lead"
+          ]
+        }
+      ]
+    }
+  ],
+  "noteAssets": {
+    "glossary": [
+      {
+        "term": "precipitate",
+        "definition": "The insoluble solid that separates when the two solutions are mixed.",
+        "firstLesson": 1
+      },
+      {
+        "term": "spectator ions",
+        "definition": "Ions present in the mixture that take no part in forming the precipitate.",
+        "firstLesson": 1
+      },
+      {
+        "term": "filtrate",
+        "definition": "The liquid that passes through the filter paper, leaving the solid residue behind.",
+        "firstLesson": 2
+      },
+      {
+        "term": "distilled water",
+        "definition": "Purified water with no dissolved minerals, used to wash traces of other solutions off the solid.",
+        "firstLesson": 2
+      },
+      {
+        "term": "toxic",
+        "definition": "Poisonous to the body, the reason lead salts need careful handling.",
+        "firstLesson": 2
+      },
+      {
+        "term": "precipitation",
+        "definition": "The reaction in which mixing two solutions produces an insoluble solid product.",
+        "firstLesson": 1
+      },
+      {
+        "term": "filtration",
+        "definition": "Separating an undissolved solid from a liquid by passing the mixture through filter paper.",
+        "firstLesson": 2
+      }
+    ],
+    "workedExample": {
+      "prompt": "A student prepares lead(II) sulfate by mixing 25 cm3 of 0.5 mol dm-3 lead(II) nitrate with 25 cm3 of 0.5 mol dm-3 potassium sulfate. a) Write the full equation with state symbols. b) Describe how the solid is collected, washed and dried. c) Why must the salt being made be insoluble for this method to work, and what safety precaution applies?",
+      "steps": [
+        "a) Pb(NO3)2 (aq) + K2SO4 (aq) → PbSO4 (s) + 2KNO3 (aq).",
+        "b) The mixture is filtered to collect the white precipitate; the residue is washed with distilled water to remove traces of the other solutions, then left in an oven to dry.",
+        "c) The precipitate is itself the product, so the wanted salt must be insoluble while both reactants are soluble; lead salts are toxic, so they must be handled with care."
+      ],
+      "finalAnswer": "a) Pb(NO3)2 + K2SO4 → PbSO4 + 2KNO3. b) Filter, wash with distilled water, oven-dry. c) The precipitate is the product; lead salts are toxic — handle carefully."
+    }
+  }
+}
