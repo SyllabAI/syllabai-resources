@@ -1,0 +1,7 @@
+## Q1 Energy Solutions
+
+c) To purchase a fracking licence, ES can use a variety of internal and external sources of finance like retained earnings, sale of assets, debentures, equity capital, bank loans, etc.
+
+One internal source of finance may be retained earnings. As ES has been operating for 25 years and had 12m USD in 2018 it is likely to have enough retained earnings to invest in buying licences worth 50m USD. Using retained earnings means they are available immediately, allowing ES to quickly increase supply of energy, leading to high sales and profits. Also, ES will not have to repay this money or pay any interest on it, allowing them to raise finance without increasing their debts and liabilities. But, doing so, has an opportunity cost. ES could’ve used this money elsewhere, perhaps to buy machines and other capital equipment which may be required in the new fracking sites.
+
+ES can even sell shares as a source of external finance to raise money to buy licences worth 50m USD. As it is a public limited company, ES can sell shares to the general public, making it easier to raise finance. Also, as it is an already established business, running for 25 years, it may not have to spend much on advertising about the shares. Furthermore, it is a permanent source of finance and ES does not have to repay it or pay any interest on it. But, shareholders will expect dividends each year, in return for investing in the company. Also, there will be a further delusion of ownership in the company leading to a loss of control for the original owners of ES.
