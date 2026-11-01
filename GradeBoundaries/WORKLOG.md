@@ -45,3 +45,15 @@
 - BUNDLE (build_hub_import v1): rebuilt, **105 served / 1 roadmap / 106 total unchanged**, sha256_16 `9c7bc67671dd31e9` → `533671bf1070ff93`; diff contains only `generated` + **133 series fills across 21 served slugs** (chemistry-19 4, biology-19 4, physics-19 4, english-language-a-16 ×3 slugs 18 each, english-literature-16 17, maths-a-18-foundation/higher 6 each, maths-b-16 6, science-double-award-17 ×3 slugs 4 each, accounting-17 ×2 slugs 2 each, economics-17 4, business-19 2, geography-19 2, history-17 2, ict-17 2, further-maths-19 4); all 227 (course, session) joins verified label-list-equal against the parsed layer (bundle fills exceed parsed fills because shared-code rows serve multiple slugs).
 - GATES: G1 0 errors (24 Pearson + 119 CIE docs); G2 MathsGenie parity **6/6 EXACT** (values byte-identical, assert-proven); G3(b) CIE 30/31 (0264 honestly absent); G3(c) 28 aggregate-ums courses 0 errors.
 - HUB EFFECT: the 4CH1 June 2019 / January 2020 pairs now serve `1C 2C` / `1CR 2CR` → the hub renders the paper labels and the R badge; the `—` fallback retires for every variant group that had it (only the 4ES1 speaking rows keep it, by document).
+
+- T-GRADE-7 HARVEST (operator trace: "Run it" after the why-are-years-missing diagnosis): the missing
+  sessions were a fetch-side gap — Pearson names session docs inconsistently and the slug matrix lacked
+  the `-v1` suffix family (Jan 2023 serves `2301-intgcse-9-1-subject-grade-boundaries-v1.pdf`; same
+  index shows the sibling docs bare-suffixed). fetch_pearson.py matrices extended (`-v1`/`-v2` variants
+  per lane; new-era `-v1` names for linear). Re-probe recovered 4 docs: linear January 2023 + November
+  2021; IAL January 2021 + November 2020 (modular unchanged — first modular docs are 2024+). TOTAL 26/96;
+  70 absences re-recorded in fetch-missing.json (cancelled June 2020/2021 series, October-era guesses,
+  and docs Pearson no longer serves under any known slug).
+- RE-PARSE: 26 Pearson docs / 991 subjects / 0 warnings. GATES: G1 0 errors; G2 MathsGenie 4CH1 parity
+  6/6 EXACT; G3 info-only (honest IAL unit absences). BUNDLE rebuilt 105 served / 1 roadmap / 106 total,
+  sha256_16 `7ba6951347f5c37e`; 4CH1 serves 13 sessions (+January 2023, +November 2021).
