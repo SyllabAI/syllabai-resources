@@ -1,15 +1,19 @@
 #!/usr/bin/env python3
 """Post-polish audit for physics v1 (chemistry-style): re-score the polished
 corpus with the same selector patterns and report before/after on the 300
-polished ids plus corpus-wide space-glue totals."""
-import json, re, sys
+polished ids plus corpus-wide space-glue totals.
+
+v2-lane convention (T-PARSE-YCH12-2): paths via env, defaults = v1
+(byte-proven unchanged).
+"""
+import json, re, sys, os
 from collections import Counter
 
 sys.path.insert(0, "/home/z/my-project/gh_repos/syllabai-resources/books/pearson-edexcel/international-a-level/chemistry/ych11/pipeline/scripts")
 
-POLISHED = "/home/z/my-project/data/ych11_sb1/out/edexcel_ial_chemistry_ych11_sb1_chunks_v1.jsonl"
-PRISTINE = "/home/z/my-project/data/ych11_sb1/out/edexcel_ial_chemistry_ych11_sb1_chunks_v1.pristine"
-REPAIRS = "/home/z/my-project/data/ych11_sb1/llm_repairs_ych11.jsonl"
+POLISHED = os.environ.get("YCH11_CORPUS", "/home/z/my-project/data/ych11_sb1/out/edexcel_ial_chemistry_ych11_sb1_chunks_v1.jsonl")
+PRISTINE = os.environ.get("YCH11_PRISTINE", "/home/z/my-project/data/ych11_sb1/out/edexcel_ial_chemistry_ych11_sb1_chunks_v1.pristine")
+REPAIRS = os.environ.get("YCH11_REPAIRS", "/home/z/my-project/data/ych11_sb1/llm_repairs_ych11.jsonl")
 
 PATTERNS = {
     "space_run":     re.compile(r"\b[a-z]{18,}\b"),

@@ -1181,6 +1181,27 @@ E-ID they correct)*
   §3.6 updated; lane README + worklog + METHOD_AND_FINDINGS §5 closure
   same commit.
 
+- **2026-11-01 — v1.16 (T-PARSE-YCH11-1-R5):** YCH11 SB1 polish resumed on
+  the YCH12-v2-convention parameterized toolchain (the round's
+  infrastructure deliverable: `llm_repair_ych11.js` / `merge_llm_ych11.py` /
+  `audit_polish_ych11.py` env-ized with byte-proven v1 defaults; new
+  repo-resident `ych11_env_template.sh` + `ych11_reseed.sh` +
+  `ych11_reconcile.py` R1-R6 port; pre-grind sanity = reseed->merge->
+  reconcile net-new 0 reproducing the landed corpus; a template-doc drift
+  found — reseed writes the baseline next to the corpus, reconcile doc line
+  fixed in the ych11 template, the same stale line in the YCH12 template
+  disclosed untouched). Grind: 9 windows (6 harvesting +49/+25/+27/+21/
+  +24/+19, 3 fully walled) — **130/800 -> 295/800 applied** (325 records:
+  295 ok / 28 rejected / 20 error-cum-429 pending retry), the lane's
+  largest single round; anchor 0 drift, reconcile ALL PASS (net-new 165,
+  overlap 130 re-applied from pristine), audit 0 Unicode regressions,
+  validate ALL CHECKS PASSED ×2. Audit residual disclosed: 2 repaired
+  chunks retain sentence-length space-glue (pass-2 spot retry tool
+  `retry_glue_ych11.js` landed; appends only on a clean pass so
+  latest-wins merge can never regress), 15 residual runs are genuine
+  chemistry vocabulary. Ledgers: CATALOG row 11 + §3.5, lane README +
+  worklog same commit.
+
 - **2026-10-30 — v1.12 (T-PARSE-YCH12-2 POLISH-CONT-V2-6):** YCH12 v2 polish
   grind continued and landed (R-015: cumulative **624/801 applied**, net-new
   **+204** this landing — the second consecutive record round, +194 before

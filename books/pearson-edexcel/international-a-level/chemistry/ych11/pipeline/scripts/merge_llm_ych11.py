@@ -4,17 +4,22 @@ text_original preserved, llm_repaired flag, char_count recomputed, markdown +
 report regenerated. Serving-critical guarantee: id / unit_no / chapter_no /
 content_type / pdf_pages / book_pages / section are NEVER touched; an
 anchor-preservation diff against the pristine pre-polish snapshot is printed.
+
+v2-lane convention (T-PARSE-YCH12-2): paths via env, defaults = v1
+(byte-proven unchanged). CLOBBER LAW (L-024): for a merge, YCH11_CORPUS must
+be seeded from the .pristine BEFORE this script runs — a landed/seeded corpus
+gets its text_original re-clobbered by the re-apply.
 """
 import json, os, sys, collections
 
 sys.path.insert(0, "/home/z/my-project/gh_repos/syllabai-resources/books/pearson-edexcel/international-a-level/chemistry/ych11/pipeline/scripts")
 from book_structure_ych11 import BOOK_TITLE, BOOK_AUTHOR
 
-ZJSONL = "/home/z/my-project/data/ych11_sb1/out/edexcel_ial_chemistry_ych11_sb1_chunks_v1.jsonl"
-PRISTINE = "/home/z/my-project/data/ych11_sb1/out/edexcel_ial_chemistry_ych11_sb1_chunks_v1.pristine"
-REPAIRS = "/home/z/my-project/data/ych11_sb1/llm_repairs_ych11.jsonl"
-MD_OUT = "/home/z/my-project/data/ych11_sb1/out/full_book_docling.md"
-REPORT = "/home/z/my-project/data/ych11_sb1/out/parse_report_v1.json"
+ZJSONL = os.environ.get("YCH11_CORPUS", "/home/z/my-project/data/ych11_sb1/out/edexcel_ial_chemistry_ych11_sb1_chunks_v1.jsonl")
+PRISTINE = os.environ.get("YCH11_PRISTINE", "/home/z/my-project/data/ych11_sb1/out/edexcel_ial_chemistry_ych11_sb1_chunks_v1.pristine")
+REPAIRS = os.environ.get("YCH11_REPAIRS", "/home/z/my-project/data/ych11_sb1/llm_repairs_ych11.jsonl")
+MD_OUT = os.environ.get("YCH11_MD", "/home/z/my-project/data/ych11_sb1/out/full_book_docling.md")
+REPORT = os.environ.get("YCH11_REPORT", "/home/z/my-project/data/ych11_sb1/out/parse_report_v1.json")
 ANCHOR_KEYS = ("id", "unit_no", "chapter_no", "content_type",
                "pdf_pages", "book_pages", "section", "unit_name", "chapter_title")
 

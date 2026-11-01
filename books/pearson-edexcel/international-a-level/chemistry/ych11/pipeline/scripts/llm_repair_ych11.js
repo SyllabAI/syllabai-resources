@@ -3,14 +3,16 @@
  * LLM fidelity polish for YCH11 SB1 (IAL chemistry) v1 chunks (YPH11-style, space-drop scan; chemistry prompt).
  * PRIMARY error class on this scan: RapidOCR drops spaces between words.
  * STRICT RULE: fix only OCR/parse transcription errors; never reword/paraphrase.
- * Reads data/ych11_sb1/llm_repair_ids_ych11.json, writes data/ych11_sb1/llm_repairs_ych11.jsonl (resumable).
+ * Reads the staged ids file, writes the repairs JSONL (resumable). Paths via
+ * env (v2-lane convention, T-PARSE-YCH12-2; defaults = v1, byte-proven
+ * unchanged): YCH11_CORPUS, YCH11_IDS, YCH11_REPAIRS, YCH11_LOG.
  */
 const fs = require("fs");
 
-const ZJSONL = "/home/z/my-project/data/ych11_sb1/out/edexcel_ial_chemistry_ych11_sb1_chunks_v1.jsonl";
-const IDS = JSON.parse(fs.readFileSync("/home/z/my-project/data/ych11_sb1/llm_repair_ids_ych11.json", "utf-8"));
-const OUT = "/home/z/my-project/data/ych11_sb1/llm_repairs_ych11.jsonl";
-const LOG = "/home/z/my-project/data/ych11_sb1/llm_repair_ych11.log";
+const ZJSONL = process.env.YCH11_CORPUS || "/home/z/my-project/data/ych11_sb1/out/edexcel_ial_chemistry_ych11_sb1_chunks_v1.jsonl";
+const IDS = JSON.parse(fs.readFileSync(process.env.YCH11_IDS || "/home/z/my-project/data/ych11_sb1/llm_repair_ids_ych11.json", "utf-8"));
+const OUT = process.env.YCH11_REPAIRS || "/home/z/my-project/data/ych11_sb1/llm_repairs_ych11.jsonl";
+const LOG = process.env.YCH11_LOG || "/home/z/my-project/data/ych11_sb1/llm_repair_ych11.log";
 
 function log(msg) {
   const line = `[${new Date().toISOString()}] ${msg}`;

@@ -158,3 +158,62 @@ Stage Summary:
   permanently skipped by the resume done-set; 8 error ids re-attempt on the
   next run). Recipe unchanged: node llm_repair_ych11.js (burst-harvest while
   the wall is bursty) -> post-grind protocol -> land.
+---
+Task ID: T-PARSE-YCH11-1-R5
+Agent: Z.ai (main, zai-web)
+Task: "resuming YCH11 polish with the same parameterized tooling" (2026-11-01,
+zai-web, trace 1a195fe3279586d9) — resume the R4-parked 130/800 grind on the
+YCH12-v2-style env-parameterized toolchain.
+
+Work Log:
+- Sandbox reset #14 recovery: mirror rolled back to the base image (refs at
+  a8803c5, objects from the prior session's fetch gone), sparse flipped back
+  to cone mode by a parallel session — non-cone lane patterns re-applied
+  (now covering BOTH chemistry lanes), fetch + ff to tip 5a9d5f46. Opening
+  guard: 3cda3af3..5a9d5f46 checked for ych11 activity — none (GradeBoundaries
+  / guided-lessons lanes only); no parallel landing to re-point at.
+- TOOLING PARAMETERIZED (the round's infrastructure deliverable): the ych11
+  lane scripts predate the YCH12 v2 env convention — `llm_repair_ych11.js`
+  (4 paths), `merge_llm_ych11.py` (5 paths) and `audit_polish_ych11.py`
+  (3 paths) now read YCH11_* env overrides with defaults = the previous
+  hardcoded v1 paths, byte-proven unchanged (same diff-only convention as
+  T-PARSE-YCH12-2). New repo-resident: `ych11_env_template.sh` (YCH11_*
+  surface, CONC=2/PROBE_WAIT=45 cadence), `ych11_reseed.sh` (L-024 law:
+  corpus<-pristine, report<-landed, baseline<-landed corpus) and
+  `ych11_reconcile.py` (three-way R1-R6 port of ych12_v2_reconcile.py —
+  logic is id-generic, zero ych12-specific bits). Template-doc nit found and
+  fixed here: the reseed writes the baseline next to the corpus (out/), the
+  reconcile doc line now says $YCH11_WS/out/baseline_landed_v1.jsonl (the
+  YCH12 template carries the same stale doc line — untouched this round,
+  disclosed for its next touch). Chain sanity before grinding: reseed ->
+  merge (130 applied, anchor 0 drift) -> reconcile ALL PASS net-new 0 vs the
+  landed corpus — the parameterized toolchain reproduces the landed state.
+- GRIND (9 windows, 07:39-08:49Z, CONC=2, PROBE_WAIT=45, foreground 580 s):
+  6 harvesting — +49/+25/+27/+21/+24/+19 = **+165 ok** (130 -> 295); 3 fully
+  walled (08:36Z onward, ~25 min closure) -> parked. rejected 14 -> 28
+  (+14), error-cum-429 records 8 -> 20 (all retried to terminal on their
+  next run by the self-heal law). todo 477/800 (done-set 323).
+- AUDIT: 0 Unicode-unit regressions; 17/293 changed chunks carry residual
+  18+ lowercase runs — 15 are genuine chemistry vocabulary (disproportionation,
+  tetrachloromethane, trifluoromethanesulfonate, electronegativities,
+  bromomethylpropane), benign; 2 chunks (ych1_v1_u6_c21_pdf172_0960,
+  ych1_v1_u10_c0_pdf313_1702) retain sentence-length space-glue the pass-1
+  model declined to fix. PASS-2 spot retry (repo-resident
+  `retry_glue_ych11.js`: re-asks only those ids with the runner's exact
+  prompt + sanity check; appends an improved ok record ONLY on a clean
+  pass, so a 429/failed retry appends nothing and the pass-1 record stands
+  — latest-wins merge can never regress) fired twice, both walled (429) —
+  nothing appended, disclosed residual, re-run when the wall cracks.
+- LANDING CHAIN: reseed -> merge (1571 chunks, llm_repaired 295, text
+  changed 293, anchor PASS 0 drift) -> reconcile ALL PASS (net-new 165,
+  overlap 130 re-applied from pristine, R6 no orphans) -> audit 0 Unicode
+  regressions -> validate ALL CHECKS PASSED x2 (workspace + repo copy, EP
+  10/10). Artifacts copied back to parsed/ + evidence/ (325 records).
+
+Stage Summary:
+- **Polish 130/800 -> 295/800 (net-new +165, the lane's largest single
+  round), on the fully parameterized YCH12-v2-convention toolchain; every
+  gate green.** Open follow-ups: (a) todo 477 + 20 error-cum-429 records —
+  grind resumes as R6; (b) the 2-chunk glue residual — retry_glue_ych11.js
+  when the wall cracks; (c) YCH11_BASELINE doc line in the YCH12 env
+  template (disclosed above).
