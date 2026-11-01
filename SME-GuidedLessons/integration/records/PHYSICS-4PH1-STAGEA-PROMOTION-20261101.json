@@ -1,0 +1,272 @@
+{
+  "format": "r3-check-types-promotion-receipt/1.0",
+  "format_note": "the receipt FAMILY of record per runbook §3; the wave field carries the physics lane identity",
+  "wave": "PHYSICS-4PH1 stage A — the new-subject bootstrap pilot (rn_RpyMnS5nqWSRWXXG, Distance-Time Graphs)",
+  "operator_traces": [
+    "1a192830222371a5",
+    "1a1954284ff72101"
+  ],
+  "generated_at_utc": "2026-11-01T04:41:06Z",
+  "repo": "SyllabAI/syllabai-resources",
+  "branch": "integration/physics-stagea-20261101",
+  "runbook_of_record": ".syllabai/docs/new-subject-runbook.md @ SyllabAI/syllabai-v2 f99969a2 (verified unchanged @ 55f91919)",
+  "b6_manifest_continuity": {
+    "decision": "continue-global",
+    "selected": "physics stage-A = manifest v18 (the programme-level series continues across subjects)",
+    "rejected": "per-course series (physics v1) — would collide with chemistry hub-import-manifest-v1..v17.json filenames in the shared integration/ namespace and fork the integration ledger",
+    "recorded_by": "runbook B6 (.syllabai/docs/new-subject-runbook.md @ hub f99969a2); recorded here and in the stage-A receipt"
+  },
+  "commits": {
+    "B0": {
+      "sha": "(register-completion commit)",
+      "note": "SME-RevisionNotes/igcse-physics-19/spec_point_resolution.json — B1 inventory completion, derived mechanically from hub notes.json smeSpecPointIds @ 55f91919 (schema syllabai.sme-notes-spec-resolution/1.0, methods hub-landing:notes-json)"
+    },
+    "A": {
+      "sha": "7d493985c7729f30c2186e7e61a713ceacc96517",
+      "parent": "a4997ba7a95ce0941219a9e2834af018be1e07aa",
+      "note": "source-0.6 generation — 1 authored guided-lesson/0.6 pilot note (18 checks) + schema/guided-lesson.0.6.schema.json"
+    },
+    "B": {
+      "sha": "(target schemas commit)",
+      "note": "schema/hub-lesson-import.1.5.schema.json + schema/sme-question-package.1.2.schema.json (union minors)"
+    },
+    "C": {
+      "sha": "(namespace-complete — outputs + manifest v18 + records + spec + pipeline)",
+      "note": "hub-import-1.5/ + question-packages-1.2/ + hub-import-manifest-v18.json + records/INT-3-transform-record-physics-stagea.json + records/PHYSICS-4PH1-STAGEA-PROMOTION-20261101.json + ADAPTER-SPEC-guided-lesson-0.6-to-hub-1.5.md + tooling/physics-stagea-pipeline.js"
+    }
+  },
+  "artifact_pin": "7d493985c7729f30c2186e7e61a713ceacc96517",
+  "pkg_pin": "7d493985c7729f30c2186e7e61a713ceacc96517 (the pilot package — first sme-question-package of the new subject)",
+  "input_pins": {
+    "resources_main_at_stageA_open": "4b75272db1e2e0ff419c1e7653ec008c7f5dbcd5",
+    "hub_main_at_stageA_open": "55f919191cce99e3d9971f508200d83f9e0d08cc",
+    "bodymd_asset_pin": "aa0b4de1b732738b4d02dabdd02d9ead85522907"
+  },
+  "manifest": "hub-import-manifest-v18.json",
+  "int_record": "INT-3-transform-record-physics-stagea.json",
+  "adapter_spec": "ADAPTER-SPEC-guided-lesson-0.6-to-hub-1.5.md",
+  "counts_census": {
+    "notes": 1,
+    "lessons": 2,
+    "checks": 18,
+    "checks_mcq": 10,
+    "written_recall": 4,
+    "written_explain_why": 2,
+    "written_application": 2,
+    "distractors": 30,
+    "pilot_notes": [
+      "rn_RpyMnS5nqWSRWXXG"
+    ]
+  },
+  "schema_delta": "additive union minors x3: guided-lesson 0.5->0.6 (format const + course-scoped pattern generalization: spec codes '^([A-Z0-9]+-)?[0-9]+\\.[0-9]+[A-Z]?$' accept plain 4PH1 codes, figure URLs accept igcse-physics-19 assets); hub/lesson-import 1.4->1.5 (UNION consts + ids/spec patterns generalized); sme-question-package 1.1->1.2 (UNION consts + subject enum + packageId pattern generalized). Chemistry union proven: 112 sources vs 0.6 + 112 lessons vs 1.5 + 112 packages vs 1.2, zero failures.",
+  "taxonomy": "kind enum of record: mcq (default/absent) | recall | explain-why | application — 2 lessons x [5 MCQ + 2 recall + 1 explain-why + 1 application] = the B2 law",
+  "conservation": {
+    "law": "written stems + misconceptionClass + modelAnswer + keywords are §7 stream tokens on kind!=mcq; the pilot note's stream is anchored in the INT-3 record; chemistry streams byte-untouched (no chemistry re-issues in v18)",
+    "authored_chars": 13924
+  },
+  "gates": {
+    "pipeline": "38/38 pass, 0 fail",
+    "gate_log": [
+      {
+        "name": "P0 branch is the stage-A integration branch",
+        "ok": true,
+        "detail": "integration/physics-stagea-20261101"
+      },
+      {
+        "name": "P0 committed == working tree @ guided-lesson-rn_RpyMnS5nqWSRWXXG.json",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "P0 committed == working tree @ guided-lesson.0.6.schema.json",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 source vs guided-lesson/0.6",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 What a distance-time gra: 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 What a distance-time gra: keyPoints 3..6",
+        "ok": true,
+        "detail": "4"
+      },
+      {
+        "name": "A0 primer 35..90 words",
+        "ok": true,
+        "detail": "53 words"
+      },
+      {
+        "name": "A0 Changing speed and the g: 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 Changing speed and the g: keyPoints 3..6",
+        "ok": true,
+        "detail": "5"
+      },
+      {
+        "name": "A0 primer 35..90 words",
+        "ok": true,
+        "detail": "53 words"
+      },
+      {
+        "name": "A0 sizing B2: 1 note -> 1..3 lessons",
+        "ok": true,
+        "detail": "2"
+      },
+      {
+        "name": "A0 lessons carry specRefs",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 figure closure both ways (figureIds <-> moduleIds)",
+        "ok": true,
+        "detail": "9/9"
+      },
+      {
+        "name": "A0 glossary 3..8",
+        "ok": true,
+        "detail": "6"
+      },
+      {
+        "name": "AN exactly-one-correct x10 + distinct option texts",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "AN correct-key census >= 3 distinct letters, max <= 5",
+        "ok": true,
+        "detail": "{\"B\":5,\"C\":2,\"A\":2,\"D\":1}"
+      },
+      {
+        "name": "JC every option explained; distractors named; correct misconception null x10",
+        "ok": true,
+        "detail": "0 violations"
+      },
+      {
+        "name": "SG lesson specRefs subset of file specPoints",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "SG every check KP-anchored x18",
+        "ok": true,
+        "detail": "18/18"
+      },
+      {
+        "name": "KW >=3 distinct grounded keywords per written item x8",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "2.1B zero 8-gram overlaps (stems, model answers, options+explanations vs note body)",
+        "ok": true,
+        "detail": "0 hits"
+      },
+      {
+        "name": "NUM worked example: 8000/360 = 22.2 (3sf)",
+        "ok": true,
+        "detail": "22.22222222222222"
+      },
+      {
+        "name": "NUM unit conversions: 8 km = 8000 m; 6 min = 360 s",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "NUM distractor A: 8/6 = 1.3 (km/min misread)",
+        "ok": true,
+        "detail": "{\"A\":\"1.3 m/s\",\"B\":\"22.2 m/s\",\"C\":\"133 m/s\",\"D\":\"8000 m/s\"}"
+      },
+      {
+        "name": "NUM distractor C: 8000/60 = 133 (partial conversion)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "NUM correct option carries 22.2 m/s",
+        "ok": true,
+        "detail": "22.2 m/s"
+      },
+      {
+        "name": "NUM application modelAnswer: 22.2 derived from 8000/360",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "NUM WE finalAnswer carries 22.2",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 chemistry sources x112 vs guided-lesson/0.6 (union)",
+        "ok": true,
+        "detail": "112/112"
+      },
+      {
+        "name": "C-6 chemistry lessons x112 vs hub/lesson-import/1.5 (union)",
+        "ok": true,
+        "detail": "112/112"
+      },
+      {
+        "name": "C-6 chemistry packages x112 vs sme-question-package/1.2 (union)",
+        "ok": true,
+        "detail": "112/112"
+      },
+      {
+        "name": "written-kind invariants (x8)",
+        "ok": true,
+        "detail": "8/8"
+      },
+      {
+        "name": "C-5 checkRefs<->questions 1:1 rn_RpyMnS5nqWSRWXXG",
+        "ok": true,
+        "detail": "18 refs / 18 questions"
+      },
+      {
+        "name": "B2 target: every module carries exactly 9 checkRefs",
+        "ok": true,
+        "detail": "9,9"
+      },
+      {
+        "name": "C-6 lesson rn_RpyMnS5nqWSRWXXG vs hub/lesson-import/1.5",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 package rn_RpyMnS5nqWSRWXXG vs sme-question-package/1.2",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "B2 identity arithmetic: 9 = 5+2+1+1 per lesson",
+        "ok": true,
+        "detail": "{\"notes\":1,\"lessons\":2,\"checks\":18,\"keyPoints\":9,\"distractors\":30,\"glossaryTerms\":6,\"figures\":9,\"figures_module_mapped\":9,\"figures_note_level\":0,\"workedExamples_populated\":1,\"workedExamples_null\":0,\"checks_mcq\":10,\"written_recall\":4,\"written_explain_why\":2,\"written_application\":2}"
+      },
+      {
+        "name": "manifest v18 lists 2 artifacts",
+        "ok": true,
+        "detail": "2"
+      }
+    ]
+  },
+  "merge_order": "resources PR (this branch) merges to main FIRST; the hub PR (FEED physics-stagea-v18 + runner feed-gated parameterization + landed artifacts + re-issued guided-import.json) merges only after; wave-1 buckets remain operator-gated and are NOT in this tranche (B3: the pilot stays out of the wave buckets)",
+  "hub_side_note": "the hub renderer is course-generic (courses/[course]/guided-lessons/[noteId] + per-course guided-import.json discovery, fail-closed) — written-kind and figure rendering shipped with the chemistry R3 chain; the physics feed needs runner feed-gated constants only (pack/course_id/counts/prefix/wave-count, chemistry-preserving defaults)",
+  "disclosures": [
+    "B1 deviation: the physics register plane lacked spec_point_resolution.json (chemistry carried one); bridged by a mechanical derivation from hub notes.json smeSpecPointIds (the of-record registry), filed as commit B0 — the resolution file lists id/code/note mappings only, no invented spec texts",
+    "authoring source of record = the revision-note row (hub notes.json bodyMd, asset URLs pinned @ aa0b4de1); prose parity vs the resources .md = 24/25 paragraphs (one worked-example image-line paragraph splits differently), disclosed",
+    "captions: 4 of 9 figures carry the note's own bold-italic explanatory line; the 5 worked-example images carry none (fail-closed absent, declared)",
+    "the note's second worked example (student stroll) is not carried — the schema carries one workedExample per note; the train-gradient WE is the numeric one (NUM-gated), declared",
+    "runner evolution is feed-gated with chemistry-preserving defaults (pack/course_id/counts/prefix/wave-count) — chemistry feeds byte-identical in behavior",
+    "sandbox recycle this session lost the previous lane's local mirrors; all of-record state re-fetched from remotes (fetch-first honored)"
+  ]
+}
