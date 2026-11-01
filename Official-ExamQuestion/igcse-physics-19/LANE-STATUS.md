@@ -267,3 +267,19 @@ serving leg rides the next converter run per the corpus-first law).
   + the serving leg (corpus → v2 plane re-export + manifest re-stamp) all remain for the
   operator's next orders. The tick-table `square` backtick residual (qq3VPGgCZtyWTqzV
   rows 2-4, corpus ≡ plane) is filed, not executed.
+## 2026-11-02 — F131: the run-008 W2 serving leg + the 2022-01 1(a) corpus fix
+
+The W2 corpus wave (F129, #269) is served: the of-record exporter re-export at the
+declared data cut passes G-E1 (3 disclosed deltas = the 3 restored official MCQ parts,
+exactly), G-E1b/G-E3/G-E4/G-E6/G-E7 (identity, constants, SME passthrough byte-identical,
+labels, 421 group stems), and G-E5 (staging topics content-identical to the cut). The
+exporter run surfaced one corpus defect — the 2022-01 4PH1-1P 1(a) problem_md kept an
+inline image line against the official field semantics, doubling the figure on the
+served plane; sole occurrence corpus-wide (scanned). Fixed here corpus-first: clean stem
+in problem_md, the page-evidenced composite crop serves via the assets registry per the
+field semantics; questions.md echo dropped. The SME leg (26 W2 parts / 29 degenerate
+blocks → true N-col tables and prose boxes, per the F129 transforms of record) is
+consumed surgically on the v2 plane in the same wave. Post-serve census expectation:
+SME 1COL_DEGENERATE 29 → 0, MULTI_COL_OK 122 → 146; official plane pipe blocks 0 → 2;
+math-pipe 0; untouched parts byte-identical. R2 (93 SME flattened parts) remains the
+standing next wave.

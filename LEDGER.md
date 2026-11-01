@@ -1002,3 +1002,19 @@ Evidence: `scripts/oeq_phys_run008w2/` + `scripts/oeq_phys_run008w2_pins.json`.
    it sweep all 175 cases (full battery re-run: 102/102 PASS, ALL G9 GATE TESTS
    GREEN). This is the point of the un-red: the 12 downstream gates are back on
    duty and already earned their keep.
+## Wave 23 — the W2 serving-leg corpus fix (F131; T-OEQ-PHYS-FORMAT-1 run-008 serving leg)
+
+The serving leg's of-record exporter run (official_examq_export_hub.py --spec 4ph1;
+G-E1/G-E1b/G-E3/G-E4/G-E6/G-E7 all live) surfaced exactly one corpus defect: the #269
+restoration of 2022-01 4PH1-1P 1(a) kept an INLINE image line in problem_md — against
+the official-corpus field semantics (images serve from the assets registry; the exporter
+appends the figure line — the run-006 wrap-decomposition law) — so the re-export doubled
+the figure (a broken assets/-relative line plus the registry rawUrl line on the plane).
+Fix, corpus-first: problem_md := the clean stem (the committed page-evidenced composite
+crop asset_1_a_diagram_choices.png is unchanged and now serves via the registry exactly
+like every other crop part); questions.md echo line dropped, appendix untouched. Sole
+occurrence corpus-wide (all 55 slices scanned for the "](assets/" inline class across
+problem_md/solution_md/stem_md). The serving leg (v2 re-export at this cut + manifest
+re-stamp + the 26-part SME consume) rides on the v2 side of this wave; receipt
+scripts/oeq_phys_run008w2/f131-corpus-fix.json.
+

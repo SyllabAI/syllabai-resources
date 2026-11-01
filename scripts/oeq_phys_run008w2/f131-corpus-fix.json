@@ -1,0 +1,37 @@
+{
+ "lane": "T-OEQ-PHYS-FORMAT-1",
+ "run": "run-008-serving-leg",
+ "wave": "F131 (ledger Wave 23)",
+ "date": "2026-11-02",
+ "scope": "corpus fix for the 2022-01 4PH1-1P 1(a) inline image line (sole occurrence corpus-wide) + serving-leg disclosure; the SME consume and the official re-export land v2-side in the same wave",
+ "defect": {
+  "class": "inline image line kept in official corpus problem_md (against the field semantics: images serve from the assets registry; the exporter appends the figure line — run-006 wrap-decomposition law); the re-export doubled the figure (broken assets/-relative line + registry rawUrl line on the plane)",
+  "file": "Official-ExamQuestion/igcse-physics-19/2022-01/4PH1-1P/topic.json",
+  "part": "1(a)",
+  "before_len": 180,
+  "after": "Which of these diagrams correctly represents the magnetic field around a bar magnet?",
+  "asset_unchanged": "assets/asset_1_a_diagram_choices.png (the #269 page-evidenced composite crop) — untouched"
+ },
+ "scan": {
+  "law": "every problem_md/solution_md/stem_md of the 55 landed official slices scanned for the '](assets/' inline-image class",
+  "result": "1 occurrence (this part); zero others corpus-wide"
+ },
+ "questions_md": {
+  "law": "surgical block replacement, unique-match asserted",
+  "edits": [
+   "corpus echo line dropped"
+  ],
+  "untouched": [
+   "the figure-appendix line (the correct convention, cf. lines 143/267/308/...)"
+  ]
+ },
+ "gates": {
+  "T1": "topic.json json.dumps(indent=1, ensure_ascii=False), no trailing newline; reparse round-trip; every untouched part byte-identical",
+  "G3": "zero PUA / U+FFFD / C0 controls in every written value",
+  "exporter_expectation": "re-export at the post-fix cut: G-E1 census still exactly the 3 W2 official parts; 1(a) problemMd = stem + ONE registry figure line (rawUrl), no doubling; choices letter-only; assets = the composite crop"
+ },
+ "serving_leg": {
+  "official": "exporter re-export --spec 4ph1 --source-cut main@<this merge>; manifest importSource.ref stamped; note = F131 paragraph prepended, F128-era lineage preserved verbatim below",
+  "sme": "26 parts / 29 blocks consumed surgically on v2 questions.json per scripts/oeq_phys_run008w2/oeq_phys_run008w2_transforms.json (the F129 transforms of record); post-census 1COL 29 -> 0, MULTI_COL_OK 122 -> 146"
+ }
+}
