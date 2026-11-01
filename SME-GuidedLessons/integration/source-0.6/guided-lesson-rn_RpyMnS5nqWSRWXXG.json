@@ -1,0 +1,715 @@
+{
+  "format": "guided-lesson/0.6",
+  "noteRef": {
+    "noteId": "rn_RpyMnS5nqWSRWXXG",
+    "corpusVersion": "sme-revision-notes-igcse-physics-19-2026-09-17",
+    "topicTitle": "1. Forces & Motion",
+    "subtopicTitle": "Movement & Position",
+    "sourceUrl": "https://www.savemyexams.com/igcse/physics/edexcel/19/revision-notes/1-forces-and-motion/1-1-movement-and-position/1-1-1-distance-time-graphs"
+  },
+  "specPoints": [
+    {
+      "code": "1.3",
+      "text": "plot and explain distance−time graphs"
+    }
+  ],
+  "primer": {
+    "text": "From Speed you already know how to average distance over time for steady motion. This lesson turns that arithmetic into a picture: the distance-time graph, where the steepness of every straight line is a speed and every flat stretch is a rest. It is the first graph-reading skill the motion topic builds on.",
+    "prerequisiteSubtopic": "Movement & Position"
+  },
+  "figures": [
+    {
+      "id": "fig-01",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/aab04bb7d8dd-5-6-8-distance-time-graph-1.png",
+      "alt": "Distance -Time Graph 1, downloadable IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "Distance-time graphs",
+      "moduleIds": [
+        "L1"
+      ],
+      "caption": "This graph shows a moving object moving further away from its origin",
+      "binding": "heading-unique"
+    },
+    {
+      "id": "fig-02",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/439c26ddd931-5-6-8-distance-time-graph-2.png",
+      "alt": "Distance -Time Graph 2, downloadable IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "Constant speed on a distance-time graph",
+      "moduleIds": [
+        "L1"
+      ],
+      "caption": "This graph shows how the slope of a line is used to interpret the speed of moving objects. Both of these objects are moving with a constant speed, because the lines are straight.",
+      "binding": "heading-unique"
+    },
+    {
+      "id": "fig-03",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/b355727c82b0-5-6-8-distance-time-graph-3.png",
+      "alt": "Distance -Time Graph 3, downloadable IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "Changing speed on a distance-time graph",
+      "moduleIds": [
+        "L2"
+      ],
+      "caption": "Changing speeds are represented by changing slopes. The red line represents an object slowing down and the green line represents an object speeding up.",
+      "binding": "heading-unique"
+    },
+    {
+      "id": "fig-04",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/df2e77a2f8d8-gradient-distance-time-graph-xy.png",
+      "alt": "gradient-distance-time-graph-xy",
+      "sourceHeading": "Calculating speed from a distance-time graph",
+      "moduleIds": [
+        "L2"
+      ],
+      "caption": "The speed of an object can be found by calculating the gradient of a distance-time graph",
+      "binding": "heading-unique"
+    },
+    {
+      "id": "fig-05",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/b45dedb00620-5-6-8-we-gradient-of-d-t-question-graph.png",
+      "alt": "WE Gradient of D-T question graph, downloadable IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "Calculating speed from a distance-time graph",
+      "moduleIds": [
+        "L2"
+      ],
+      "binding": "heading-unique"
+    },
+    {
+      "id": "fig-06",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/730a2d3566a7-gradient-of-distance-time-graph-we1.png",
+      "alt": "gradient-of-distance-time-graph-we1",
+      "sourceHeading": "Calculating speed from a distance-time graph",
+      "moduleIds": [
+        "L2"
+      ],
+      "binding": "heading-unique"
+    },
+    {
+      "id": "fig-07",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/aba917f4e7f3-5-6-8-we-ose-gets-carried-away-question-image.png",
+      "alt": "WE Ose gets carried away Question image, downloadable IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "Calculating speed from a distance-time graph",
+      "moduleIds": [
+        "L2"
+      ],
+      "binding": "heading-unique"
+    },
+    {
+      "id": "fig-08",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/da1f6ff25688-5-6-8-we-ose-gets-carried-away-ans-a.png",
+      "alt": "WE Ose gets carried away Ans a, downloadable IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "Calculating speed from a distance-time graph",
+      "moduleIds": [
+        "L2"
+      ],
+      "binding": "heading-unique"
+    },
+    {
+      "id": "fig-09",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/e77026a9ad29-5-6-8-we-ose-gets-carried-away-ans-c.png",
+      "alt": "WE Ose gets carried away Ans c, downloadable IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "Calculating speed from a distance-time graph",
+      "moduleIds": [
+        "L2"
+      ],
+      "binding": "heading-unique"
+    }
+  ],
+  "lessons": [
+    {
+      "title": "What a distance-time graph shows",
+      "sourceHeadings": [
+        "Distance-time graphs",
+        "Constant speed on a distance-time graph"
+      ],
+      "specRefs": [
+        "1.3"
+      ],
+      "figureIds": [
+        "fig-01",
+        "fig-02"
+      ],
+      "opening": "A distance-time graph is a picture of a journey: how far the object sits from its starting point at every moment of the trip. This lesson trains the two readings that unlock every such graph — what the steepness tells you, and what a flat line tells you.",
+      "keyPoints": [
+        "A distance-time graph plots how far an object is from its starting point against time.",
+        "A straight line means constant speed; the steeper the line, the larger the speed.",
+        "A flat horizontal line means the object is stationary.",
+        "A curve means the speed is changing — steepening is speeding up, flattening is slowing down."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "On a distance-time graph the distance from the start runs up the side and time runs along the bottom. Straight lines are constant speeds, flat lines are rests, and curves are changing speeds.",
+          "analogy": "Think of the line as a hill-walk profile tipped on its side: the steeper the path climbs, the faster you are walking; where it levels out, you have stopped for a break.",
+          "examPointer": "Questions usually ask what a section of line shows — answer with the motion word (stationary, constant speed, speeding up, slowing down), not with a description of the line's shape."
+        },
+        "medium": {
+          "restatement": "Because the vertical axis is distance, the gradient at any point equals the speed there. A straight line has one gradient throughout, so straight means constant speed; a changing gradient means a changing speed.",
+          "analogy": "Treat each point of the line like a car's speedometer needle frozen at that instant: straight lines hold the same reading, curves swing it up or down.",
+          "examPointer": "Compare-the-two-lines questions are graded on gradient: the steeper line is the faster object, even if it ends lower — never rank speeds by final height."
+        }
+      },
+      "check": [
+        {
+          "stem": "On a distance-time graph, a section of the line is completely flat and horizontal. What does this show?",
+          "misconceptionClass": "flat-line stationary confusion",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "The object is moving at a large constant speed",
+              "correct": false,
+              "explanation": "A large constant speed is a steep straight line, not a flat one.",
+              "misconception": "slope-height conflation"
+            },
+            {
+              "key": "B",
+              "text": "The object is stationary",
+              "correct": true,
+              "explanation": "Distance from the start is not changing, so the object is not moving.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "The object is accelerating steadily",
+              "correct": false,
+              "explanation": "Acceleration needs a curve; a flat line has no steepness to change.",
+              "misconception": "curve-shape misread"
+            },
+            {
+              "key": "D",
+              "text": "The object is returning to its starting point",
+              "correct": false,
+              "explanation": "Returning means distance decreasing — a downward-sloping line.",
+              "misconception": "direction misread"
+            }
+          ]
+        },
+        {
+          "stem": "Two objects each trace a straight line on the same distance-time axes. Line P is steeper than line Q. What follows?",
+          "misconceptionClass": "slope-vs-endpoint conflation",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "P has travelled further in total",
+              "correct": false,
+              "explanation": "Total distance comes from where the line ends, not from its steepness.",
+              "misconception": "endpoint-speed conflation"
+            },
+            {
+              "key": "B",
+              "text": "P is accelerating",
+              "correct": false,
+              "explanation": "Straight lines carry one unchanging gradient, so neither object accelerates.",
+              "misconception": "straight-line acceleration myth"
+            },
+            {
+              "key": "C",
+              "text": "P is moving faster than Q",
+              "correct": true,
+              "explanation": "On distance-time axes the gradient is the speed, and P's gradient is larger.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "Q is stationary",
+              "correct": false,
+              "explanation": "A stationary object gives a flat line, not a sloped one.",
+              "misconception": "sloped-line stationary misread"
+            }
+          ]
+        },
+        {
+          "stem": "How is the speed of an object read from a straight line on a distance-time graph?",
+          "misconceptionClass": "slope-reads-speed",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "From how high the line finishes",
+              "correct": false,
+              "explanation": "The finishing height is the total distance, not the speed.",
+              "misconception": "final-value-speed conflation"
+            },
+            {
+              "key": "B",
+              "text": "From the steepness of the line — steeper means faster",
+              "correct": true,
+              "explanation": "The gradient of a distance-time line is the speed.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "From the physical length of the drawn line",
+              "correct": false,
+              "explanation": "Drawing size is a page artefact and carries no motion information.",
+              "misconception": "graph-artefact confusion"
+            },
+            {
+              "key": "D",
+              "text": "Straight lines carry no speed information",
+              "correct": false,
+              "explanation": "A straight line is exactly the case where one speed value applies throughout.",
+              "misconception": "curves-only misread"
+            }
+          ]
+        },
+        {
+          "stem": "A distance-time graph shows a smooth curve instead of a straight line. What does the curve indicate?",
+          "misconceptionClass": "curve-equals-error",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "The speed is changing",
+              "correct": true,
+              "explanation": "A curve's gradient changes from point to point, so the speed changes too.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "The object is stationary",
+              "correct": false,
+              "explanation": "Stationary objects give flat lines, not curves.",
+              "misconception": "flat-line misread"
+            },
+            {
+              "key": "C",
+              "text": "The graph has been plotted incorrectly",
+              "correct": false,
+              "explanation": "Curves are the correct picture for changing speed, not a plotting mistake.",
+              "misconception": "curve-equals-error"
+            },
+            {
+              "key": "D",
+              "text": "The object moves at constant speed",
+              "correct": false,
+              "explanation": "Constant speed demands a constant gradient, which a curve does not have.",
+              "misconception": "any-line-constant myth"
+            }
+          ]
+        },
+        {
+          "stem": "Where on a distance-time graph do you read the total distance an object has travelled?",
+          "misconceptionClass": "total-distance reading",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "At the steepest gradient of the line",
+              "correct": false,
+              "explanation": "The steepest gradient reads the largest speed, not the distance covered.",
+              "misconception": "speed-distance conflation"
+            },
+            {
+              "key": "B",
+              "text": "At the final height of the line",
+              "correct": true,
+              "explanation": "The vertical value at the end of the line is the distance reached from the start.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "In the area under the line",
+              "correct": false,
+              "explanation": "Area under a line is a velocity-time reading; distance-time graphs are read by height.",
+              "misconception": "cross-graph habit"
+            },
+            {
+              "key": "D",
+              "text": "On the time axis",
+              "correct": false,
+              "explanation": "The time axis shows when things happened, not how far.",
+              "misconception": "axis-role confusion"
+            }
+          ]
+        },
+        {
+          "stem": "State what a flat, horizontal line on a distance-time graph tells you about the object's motion.",
+          "misconceptionClass": "flat-line stationary confusion",
+          "kind": "recall",
+          "modelAnswer": "The object is stationary (at rest, still) — its distance from the starting point is not changing, so it has stopped moving and its speed is zero.",
+          "keywords": [
+            "stationary",
+            "at rest",
+            "not moving",
+            "zero speed",
+            "stopped",
+            "still"
+          ]
+        },
+        {
+          "stem": "State what the steepness of a straight line on a distance-time graph represents.",
+          "misconceptionClass": "slope-reads-speed",
+          "kind": "recall",
+          "modelAnswer": "The speed — the steepness (gradient) of the line: the steeper the line, the larger the speed it represents.",
+          "keywords": [
+            "speed",
+            "how fast",
+            "steepness",
+            "gradient",
+            "steeper"
+          ]
+        },
+        {
+          "stem": "Explain why two objects drawing straight lines of different steepness are both moving at constant speed.",
+          "misconceptionClass": "constant-speed reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "A straight line has the same gradient — the same slope — at every point, and on a distance-time graph that gradient is the speed. Because neither line's gradient changes (stays unchanging), both speeds stay constant — only their values differ.",
+          "keywords": [
+            "gradient",
+            "constant",
+            "same",
+            "slope",
+            "speed",
+            "unchanging"
+          ]
+        },
+        {
+          "stem": "Object X's line on a distance-time graph is noticeably steeper than object Y's over the same interval of time. State which object moves faster and how the graph shows it.",
+          "misconceptionClass": "gradient comparison",
+          "kind": "application",
+          "modelAnswer": "X moves faster: over the same time interval X's line rises further, so X's gradient — and therefore its speed — is larger.",
+          "keywords": [
+            "steeper",
+            "gradient",
+            "larger",
+            "faster",
+            "rises further"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Changing speed and the gradient",
+      "sourceHeadings": [
+        "Changing speed on a distance-time graph",
+        "Calculating speed from a distance-time graph"
+      ],
+      "specRefs": [
+        "1.3"
+      ],
+      "figureIds": [
+        "fig-03",
+        "fig-04",
+        "fig-05",
+        "fig-06",
+        "fig-07",
+        "fig-08",
+        "fig-09"
+      ],
+      "opening": "When speed changes, the distance-time line stops being straight. This lesson turns the line's steepness into a number — the gradient — and uses it to calculate speeds from graph axes, including the unit conversions examiners expect.",
+      "keyPoints": [
+        "Speed is the gradient of a distance-time line: change in distance divided by change in time.",
+        "Convert axis units to metres and seconds before reading a gradient, giving a speed in m/s.",
+        "A large gradient triangle gives a more accurate gradient than a small one.",
+        "A line sloping back toward zero distance shows the object returning to its start.",
+        "A downward slope marks the direction of travel, not deceleration — speed is the gradient's magnitude."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "The gradient of the line — how much the distance changes for each bit of time — is the speed. Draw a large triangle on the line, divide the distance change by the time change, and convert the units first.",
+          "analogy": "A gradient triangle is like a ladder leaned against the line: the taller and wider the ladder, the more reliable your read of how steep the hill really is.",
+          "examPointer": "Show the unit conversions explicitly — kilometres to metres and minutes to seconds — because the marks sit in the conversion as often as the division."
+        },
+        "medium": {
+          "restatement": "Gradient equals change in vertical over change in horizontal, so on distance-time axes it is distance change over time change in the axis units. Steepening curves mark acceleration; flattening curves mark deceleration; a falling line is a return journey whose speed is the magnitude of its gradient.",
+          "analogy": "Read a curve like a ramp into a car park: the entry steepens as you speed up, flattens as you brake, and the downward exit ramp still has a speed even though it heads back to the ground floor.",
+          "examPointer": "Large gradient triangles earn method marks; tiny triangles squeezed against the line lose accuracy and credit. Quote the final speed to 2 or 3 significant figures."
+        }
+      },
+      "check": [
+        {
+          "stem": "The gradient of a distance-time line is the speed. Which pair of quantities gives that gradient?",
+          "misconceptionClass": "axis inversion",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "Change in time divided by change in distance",
+              "correct": false,
+              "explanation": "That inverts the axes and yields s/m, not m/s.",
+              "misconception": "axis inversion"
+            },
+            {
+              "key": "B",
+              "text": "Change in speed divided by change in time",
+              "correct": false,
+              "explanation": "That is the acceleration formula from velocity-time work, not a distance-time reading.",
+              "misconception": "cross-topic formula bleed"
+            },
+            {
+              "key": "C",
+              "text": "Change in distance divided by change in time",
+              "correct": true,
+              "explanation": "Vertical change over horizontal change on these axes is distance over time = speed.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "Distance multiplied by time",
+              "correct": false,
+              "explanation": "Multiplying the axes quantities has no motion meaning here.",
+              "misconception": "operation slip"
+            }
+          ]
+        },
+        {
+          "stem": "A graph's axes read distance in km and time in minutes, and a gradient triangle spans 8 km over 6 minutes. The speed in m/s is closest to:",
+          "misconceptionClass": "unit conversion slip",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "1.3 m/s",
+              "correct": false,
+              "explanation": "8 divided by 6 gives km per minute; reading that as m/s skips both conversions.",
+              "misconception": "conversion skipped"
+            },
+            {
+              "key": "B",
+              "text": "22.2 m/s",
+              "correct": true,
+              "explanation": "8 km = 8000 m and 6 min = 360 s, so 8000 / 360 = 22.2 m/s.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "133 m/s",
+              "correct": false,
+              "explanation": "8000 divided by 60 converts only the minutes; the 360 s total needs minutes times 60.",
+              "misconception": "partial conversion"
+            },
+            {
+              "key": "D",
+              "text": "8000 m/s",
+              "correct": false,
+              "explanation": "Converting the distance but never dividing by the time is not a speed.",
+              "misconception": "division skipped"
+            }
+          ]
+        },
+        {
+          "stem": "Why should a large gradient triangle be drawn when reading a gradient from a graph line?",
+          "misconceptionClass": "precision practice",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "It makes the finished graph look fuller",
+              "correct": false,
+              "explanation": "Presentation is not the reason; the triangle size changes the accuracy of the reading.",
+              "misconception": "cosmetic reasoning"
+            },
+            {
+              "key": "B",
+              "text": "It avoids having to convert units",
+              "correct": false,
+              "explanation": "Unit conversion is still required whatever the triangle size.",
+              "misconception": "conversion shortcut myth"
+            },
+            {
+              "key": "C",
+              "text": "Small triangles are banned in exams",
+              "correct": false,
+              "explanation": "Small triangles cost accuracy, not legality — the guidance is about reliability.",
+              "misconception": "rule misremembering"
+            },
+            {
+              "key": "D",
+              "text": "The same reading uncertainty becomes a smaller fraction, so the gradient is more accurate",
+              "correct": true,
+              "explanation": "Larger spans dilute the fixed reading error, giving a gradient closer to the true value.",
+              "misconception": null
+            }
+          ]
+        },
+        {
+          "stem": "A line on a distance-time graph slopes downward, back toward zero distance. What is happening?",
+          "misconceptionClass": "down-slope deceleration myth",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "The object must be decelerating",
+              "correct": false,
+              "explanation": "The speed is the gradient's magnitude; a straight downward line is constant speed toward the start.",
+              "misconception": "slope direction equals slowing myth"
+            },
+            {
+              "key": "B",
+              "text": "The object is returning toward its starting point",
+              "correct": true,
+              "explanation": "Distance from the start is decreasing, so the object is heading back the way it came.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "Time is running backwards",
+              "correct": false,
+              "explanation": "Time still advances left to right; only the distance value falls.",
+              "misconception": "axis-direction panic"
+            },
+            {
+              "key": "D",
+              "text": "The graph has been plotted wrongly",
+              "correct": false,
+              "explanation": "Distance can decrease on a return journey; a falling line is perfectly valid.",
+              "misconception": "distance-cannot-fall myth"
+            }
+          ]
+        },
+        {
+          "stem": "What are the SI units of the gradient of a distance-time graph?",
+          "misconceptionClass": "gradient units",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "metres per second (m/s)",
+              "correct": true,
+              "explanation": "Metres on the vertical axis divided by seconds on the horizontal axis gives m/s.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "seconds per metre (s/m)",
+              "correct": false,
+              "explanation": "That inverts the axes.",
+              "misconception": "axis inversion"
+            },
+            {
+              "key": "C",
+              "text": "metres (m)",
+              "correct": false,
+              "explanation": "Metres alone is the vertical axis quantity, not its gradient.",
+              "misconception": "axis-quantity confusion"
+            },
+            {
+              "key": "D",
+              "text": "metres per second squared (m/s squared)",
+              "correct": false,
+              "explanation": "That is acceleration, which belongs to velocity-time graphs.",
+              "misconception": "cross-topic units"
+            }
+          ]
+        },
+        {
+          "stem": "State the equation used to find speed from a distance-time graph.",
+          "misconceptionClass": "gradient formula",
+          "kind": "recall",
+          "modelAnswer": "speed = gradient = change in distance divided by change in time (the rise-over-run of the graph line).",
+          "keywords": [
+            "gradient",
+            "change in distance",
+            "change in time",
+            "rise over run",
+            "speed"
+          ]
+        },
+        {
+          "stem": "Recall the SI units distance and time should be converted to before reading a speed from graph axes.",
+          "misconceptionClass": "unit conversion recall",
+          "kind": "recall",
+          "modelAnswer": "Distance in metres and time in seconds (the SI units), so the gradient comes out in metres per second (m/s).",
+          "keywords": [
+            "metres",
+            "seconds",
+            "m/s",
+            "si units"
+          ]
+        },
+        {
+          "stem": "Explain why a large gradient triangle gives a more reliable speed than a small one.",
+          "misconceptionClass": "precision reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "The gradient is the distance change divided by the time change. A larger triangle uses bigger changes, so the same small reading error is a smaller fraction of each value — the calculated gradient is more accurate, with less uncertainty, and sits closer to the true speed.",
+          "keywords": [
+            "gradient",
+            "larger",
+            "error",
+            "fraction",
+            "accurate",
+            "triangle",
+            "uncertainty"
+          ]
+        },
+        {
+          "stem": "A train's distance-time graph shows a straight line rising 8 km in 6 minutes. Calculate the speed in m/s, showing the unit conversions.",
+          "misconceptionClass": "gradient calculation",
+          "kind": "application",
+          "modelAnswer": "8 km = 8000 m and 6 min = 360 s, so speed = 8000 divided by 360 = 22.2 m/s (to 3 significant figures).",
+          "keywords": [
+            "22.2",
+            "8000",
+            "360",
+            "22.2 m/s",
+            "8000 divided by 360"
+          ]
+        }
+      ]
+    }
+  ],
+  "noteAssets": {
+    "glossary": [
+      {
+        "term": "distance-time graph",
+        "definition": "A plot of how far an object is from its starting point against time taken.",
+        "firstLesson": 1
+      },
+      {
+        "term": "gradient",
+        "definition": "The steepness of a line, worked out as the change in the vertical axis divided by the change in the horizontal axis.",
+        "firstLesson": 1
+      },
+      {
+        "term": "stationary",
+        "definition": "Not moving at all — shown by a flat, horizontal line on a distance-time graph.",
+        "firstLesson": 1
+      },
+      {
+        "term": "constant speed",
+        "definition": "Speed that does not change, shown by a straight line on a distance-time graph.",
+        "firstLesson": 1
+      },
+      {
+        "term": "accelerating",
+        "definition": "Speeding up, shown on a distance-time graph by a line that steepens.",
+        "firstLesson": 2
+      },
+      {
+        "term": "decelerating",
+        "definition": "Slowing down, shown on a distance-time graph by a line that flattens.",
+        "firstLesson": 2
+      }
+    ],
+    "workedExample": {
+      "prompt": "A distance-time graph is drawn below for part of a train journey. The train is travelling at a constant speed. Calculate the speed of the train.",
+      "steps": [
+        "Draw a large gradient triangle on the graph and label the change in distance and the change in time using the units stated on each axis.",
+        "Convert to standard units: the distance travelled is 8 km = 8000 m, and the time taken is 6 mins = 360 s.",
+        "State that the gradient of a distance-time graph equals the speed: speed = gradient = change in distance / change in time.",
+        "Substitute the values: speed = 8000 / 360 = 22.2 m/s."
+      ],
+      "finalAnswer": "22.2 m/s (8000 m divided by 360 s = 22.2 m/s to 3 significant figures)"
+    }
+  }
+}
