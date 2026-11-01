@@ -1,0 +1,78 @@
+{
+  "stage": "INT-3",
+  "title": "transform record — PHYSICS-4PH1 stage A (adapter guided-lesson-0.6--hub-lesson-import-1.5)",
+  "generated_at_utc": "2026-11-01T04:41:06Z",
+  "operator_traces": {
+    "ignition": "1a192830222371a5",
+    "execution": "1a1954284ff72101"
+  },
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "course_id": "igcse-physics-19",
+  "b6_manifest_continuity": {
+    "decision": "continue-global",
+    "selected": "physics stage-A = manifest v18 (the programme-level series continues across subjects)",
+    "rejected": "per-course series (physics v1) — would collide with chemistry hub-import-manifest-v1..v17.json filenames in the shared integration/ namespace and fork the integration ledger",
+    "recorded_by": "runbook B6 (.syllabai/docs/new-subject-runbook.md @ hub f99969a2); recorded here and in the stage-A receipt"
+  },
+  "source_pin": {
+    "repo": "SyllabAI/syllabai-resources",
+    "ref": "4b75272db1e2e0ff419c1e7653ec008c7f5dbcd5",
+    "note": "resources main at stage-A open; the register plane (manifest 127 notes / 373 assets) is complete but carried NO spec_point_resolution.json — bridged this chain by records-side bootstrap commit (SME-RevisionNotes/igcse-physics-19/spec_point_resolution.json derived mechanically from hub notes.json smeSpecPointIds; runbook B1 deviation disclosed)"
+  },
+  "registry_pin": {
+    "repo": "SyllabAI/syllabai-v2",
+    "ref": "55f919191cce99e3d9971f508200d83f9e0d08cc",
+    "path": "apps/hub/content/igcse-physics-19/notes.json",
+    "note": "the revision-note row of record (noteId registry, specPointCodes, bodyMd with asset URLs pinned @ aa0b4de1); prose parity vs the resources .md proven 24/25 paragraphs (1 WE-image split paragraph, disclosed)"
+  },
+  "source_06_generation_pin": {
+    "commit": "7d493985c7729f30c2186e7e61a713ceacc96517",
+    "namespace": "SME-GuidedLessons/integration/source-0.6/"
+  },
+  "conservation_law": "kind/modelAnswer/keywords on written items ARE §7 stream tokens (the runner walk extends by those fields on kind!=mcq): the single pilot note's stream is anchored below; the chemistry corpus streams are untouched (no chemistry bytes re-issued in v18). Grand + wave-0 computed over the pilot note in artifact order.",
+  "grand_stream": {
+    "chars": 13924,
+    "sha256": "42dea4b02c94947735ee0900ee1d433b4cbad1006edd1fb3104af7b5073dc2f4"
+  },
+  "wave_stream_sha256": {
+    "wave-0": "42dea4b02c94947735ee0900ee1d433b4cbad1006edd1fb3104af7b5073dc2f4"
+  },
+  "battery": {
+    "names": "A0 / AN / SG / KW / JC / 2.1B / NUM (runbook §1.4 battery of record)",
+    "a0": "ajv guided-lesson/0.6 + 9-check SME kind order per lesson + B2 sizing (1 note -> 2 lessons) + figure closure both ways + glossary 3..8 + primer word band",
+    "an": "exactly one correct option per MCQ x10; correct-key letter census >=3 distinct / max 5; option texts distinct",
+    "sg": "lesson specRefs subset of file specPoints (4PH1 1.3); every check shares a content token with its lesson keyPoints (KP-index provenance)",
+    "kw": "written items >=3 distinct keywords, each grounded in the modelAnswer/stem/keyPoints union",
+    "jc": "every option explained; distractors name misconceptions; correct option misconception null",
+    "2.1b": "zero 8-gram overlap between learner-surface text (stems, model answers, option text+explanations) and the corpus note body",
+    "num": "8000/360=22.2 (3sf) re-derived; 8 km=8000 m, 6 min=360 s; distractor arithmetics 8/6=1.3 and 8000/60=133 re-derived"
+  },
+  "physics_census": {
+    "pilot_notes": [
+      "rn_RpyMnS5nqWSRWXXG"
+    ],
+    "pilot_lessons": 2,
+    "checks": 18,
+    "checks_mcq": 10,
+    "written_recall": 4,
+    "written_explain_why": 2,
+    "written_application": 2,
+    "distractors": 30,
+    "figures": 9,
+    "figures_captions": 4,
+    "figures_no_caption": 5
+  },
+  "notes": [
+    {
+      "noteId": "rn_RpyMnS5nqWSRWXXG",
+      "wave": 0,
+      "sourceLayerSha256": "dcd79fe8b60f1708179c57fd71e03717f25ba6d212b16388edf16fa8fdc3ed42",
+      "hubSha256": "4be97f7c9763ff88d74805982bb38cad6a517e6eb564f15e1968445fbb56584b",
+      "pkgSha256": "11c39840eeb3ab694d9cddec36171e2c18f8b209cfebb94ebf4e29ae2992ee85",
+      "stream": {
+        "sha256": "42dea4b02c94947735ee0900ee1d433b4cbad1006edd1fb3104af7b5073dc2f4",
+        "chars": 13924
+      }
+    }
+  ]
+}
