@@ -1,0 +1,26 @@
+{
+  "schema": "syllabai.receipt/1",
+  "task": "T-GRADE-007 (run-001)",
+  "title": "Pearson -v1 slug harvest \u2014 4CH1 +2 sessions, IAL +2",
+  "generated": "2026-11-01T18:05:00Z",
+  "agent": "Z.ai main agent (zai-web session web-19f335c2-abed-4ade-968a-305029b290e3)",
+  "plane": "data (syllabai-resources) + hub bundle import",
+  "deltas": [
+    "fetch_pearson.py: FAMILY_SLUGS extended (-v1/-v2 legacy names, new-era -v1, modular/ial variants)",
+    "raw/: +4 %PDF-verified source PDFs (linear January 2023, November 2021; ial January 2021, November 2020) + MANIFEST.jsonl + fetch-missing.json re-recorded (70 absences)",
+    "parsed/: 26 docs re-parsed, 991 subjects, 0 warnings",
+    "hub-import bundle rebuilt: 105 served / 1 roadmap / 106 total, sha256_16 7ba6951347f5c37e",
+    "syllabai-v2: bundle.v1.json mechanical import; 4CH1 11 -> 13 sessions (+January 2023, +November 2021)"
+  ],
+  "gates": {
+    "fetch": "every downloaded byte %PDF-verified + final URL not Pearson's soft-404 campaign page",
+    "parse": "26 docs / 991 subjects / 0 warnings",
+    "G1": "0 errors (schema + monotonicity)",
+    "G2": "MathsGenie 4CH1 golden parity 6/6 EXACT",
+    "G3": "coverage green; info-only honest IAL unit absences"
+  },
+  "honest_remainders": [
+    "70 wanted sessions remain unfetched and are ledgered in fetch-missing.json: June 2020/2021 series were cancelled (no boundaries document exists), October-session probes and further name variants did not verify",
+    "within-session name variants beyond the extended matrix (if any) remain undiscovered"
+  ]
+}
