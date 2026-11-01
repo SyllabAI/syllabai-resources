@@ -59,8 +59,8 @@ The following passage is about falling at a constant velocity.
 
 Use the words and phrases in the box to complete the sentences about why skydiver fall at a constant velocity. Some words may be used more than once, or not at all.
 
-| **stays the same         increases         decreases          downwards  upwards         greater than         less than         equal to       balanced         unbalanced** |
-|---|
+| **stays the same** | **increases** | **decreases** | **downwards** | **upwards** | **greater than** | **less than** | **equal to** | **balanced** | **unbalanced** |
+|---|---|---|---|---|---|---|---|---|---|
 
 As the skydiver falls, the weight ......................... but the air resistance ......................... .
 

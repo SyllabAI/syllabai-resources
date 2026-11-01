@@ -224,8 +224,8 @@ Light reflects from a plane mirror.
 
 (i) Use words from the box to complete the sentence below.
 
-| less than         equal to         greater than |
-|---|
+| less than | equal to | greater than |
+|---|---|---|
 
 When light reflects from the surface of a plane mirror, the angle of incidence is ......................................... the angle of reflection.
 

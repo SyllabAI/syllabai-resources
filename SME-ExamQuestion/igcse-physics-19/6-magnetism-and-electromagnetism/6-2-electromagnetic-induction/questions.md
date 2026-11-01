@@ -97,8 +97,11 @@ State two advantages of transmitting electricity at high voltages rather than at
 
 Complete the following sentences using one of the phrases from the box below.
 
-| efficiency is reduced<br><br>the national grid<br><br>a power station<br><br>heat loss is reduced                                                         a transformer |
-|---|
+| efficiency is reduced |  |
+|---|---|
+| the national grid |  |
+| a power station |  |
+| heat loss is reduced | a transformer |
 
 Electrical power is generated at ............................ . Electricity is transmitted over long distances by transmission lines that are part of .............................. . Electricity is transmitted at high voltages so that .............................. .
 

@@ -153,26 +153,26 @@
      "part_number": "2(a)",
      "marks": 1,
      "question_type": "multiple_choice",
-     "problem_md": "The nucleus of an atom of carbon has 6 protons and 8 neutrons. Which row of the table shows the nucleus of an atom that is a different isotope of carbon? Number of protons Number of neutrons",
+     "problem_md": "The nucleus of an atom of carbon has 6 protons and 8 neutrons.\n\nWhich row of the table shows the nucleus of an atom that is a different isotope of carbon?\n\n| Number of protons | Number of neutrons |\n|---|---|\n| 6 | 6 |\n| 6 | 8 |\n| 8 | 6 |\n| 8 | 8 |",
      "choices": [
       {
        "label": "A",
-       "text_md": "6                       6",
+       "text_md": "",
        "is_correct": true
       },
       {
        "label": "B",
-       "text_md": "6                       8",
+       "text_md": "",
        "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "8                       6",
+       "text_md": "",
        "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "8                       8",
+       "text_md": "",
        "is_correct": false
       }
      ],
@@ -186,30 +186,18 @@
       }
      ],
      "source_page": 4,
-     "assets": [
-      {
-       "id": "asset_2_a_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 4,
-       "review": false,
-       "path": "assets/asset_2_a_table.png",
-       "render": "vector",
-       "text_coverage": 0.351,
-       "manual_crop": true,
-       "review_verdict": "accepted"
-      }
-     ],
+     "assets": [],
      "spec_point_codes": [
       "7.3"
      ],
      "tagging": "llm-spec-wave",
-     "edit_status": "extracted",
+     "edit_status": "repaired:run008-w2-f129",
      "value_trace": {
       "keys": "ms-positional",
       "marks": "ms-printed",
-      "numbers": "source-printed"
+      "numbers": "source-printed",
+      "table": "run008-w2 page-evidenced (qp.pdf print, eyes-on)",
+      "choices": "letter-only: option content lives in the stem (table/diagrams); labels+key unchanged"
      }
     },
     {

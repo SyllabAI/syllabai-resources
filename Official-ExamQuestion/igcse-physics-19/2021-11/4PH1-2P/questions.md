@@ -24,12 +24,21 @@ The table lists some statements about the universe. Place ticks (✓) in the tab
 
 ### 1(b) [1]
 
-The Sun will become a red giant star when it leaves the main sequence. Which row correctly describes how the surface temperature and brightness of the Sun will change when it becomes a red giant? Surface Brightness temperature
+The Sun will become a red giant star when it leaves the main sequence.
 
-- **(A)** decreases                                                                          decreases
-- **(B)** decreases                                                                           increases  ✔
-- **(C)** increases                                                                         decreases
-- **(D)** increases                                                                          increases
+Which row correctly describes how the surface temperature and brightness of the Sun will change when it becomes a red giant?
+
+| Surface temperature | Brightness |
+|---|---|
+| decreases | decreases |
+| decreases | increases |
+| increases | decreases |
+| increases | increases |
+
+- **(A)** 
+- **(B)**   ✔
+- **(C)** 
+- **(D)** 
 
 
 **Mark scheme answer**

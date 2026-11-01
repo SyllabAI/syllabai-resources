@@ -89,22 +89,22 @@ A student uses two pieces of equipment, **A** and **B**, to display a sound wave
 
 (i) Use words from the box to complete the sentence
 
-| **a loudspeaker    a microphone    an oscilloscope    a screen ** |
-|---|
+| **a loudspeaker** | **a microphone** | **an oscilloscope** | **a screen** |
+|---|---|---|---|
 
 **A** is ............................................ and **B** is .........................................
 
 (ii) Use words from the box to complete the sentence
 
-| **the amplitude    half the amplitude    the frequency    half the frequency** |
-|---|
+| **the amplitude** | **half the amplitude** | **the frequency** | **half the frequency** |
+|---|---|---|---|
 
 The distance $x$ marked on the diagram measures ................................ of the sound wave.
 
 (iii) Use words from the box to complete the sentence
 
-| **louder    quieter     a higher pitch    a lower pitch** |
-|---|
+| **louder** | **quieter** | **a higher pitch** | **a lower pitch** |
+|---|---|---|---|
 
 The distance $x$ becomes smaller. This is because the sound has become ........................................... .
 

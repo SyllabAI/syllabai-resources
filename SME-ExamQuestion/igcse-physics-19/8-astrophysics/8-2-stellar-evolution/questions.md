@@ -10,8 +10,8 @@ The sentence gives information about the life cycle of a star.
 
 Use the words in the box to complete the sentence. Some words may be used more than once, or not at all.
 
-| **electron             supernova             giant             dwarf          momentum  neutron** |
-|---|
+| **electron** | **supernova** | **giant** | **dwarf** | **momentum** | **neutron** |
+|---|---|---|---|---|---|
 
 A very dense .................................. star is left behind when a large red .................................. star blows up in an explosion called a ..................................
 
@@ -32,8 +32,7 @@ Draw lines between the colour and the temperature to show the correct colour and
 ### 1() — 2 marks — command: state — structured
 This paragraph is from a website.
 
-| *A star forms when enough dust and gas are pulled together. Masses smaller than a star may also be formed when dust and gas are pulled together.* |
-|---|
+> *A star forms when enough dust and gas are pulled together. Masses smaller than a star may also be formed when dust and gas are pulled together.*
 
 (i) State the name of the force that pulls the dust and gas together.
 
@@ -42,8 +41,8 @@ This paragraph is from a website.
 ### 2() — 3 marks — command: label — structured
 The diagram shows part of the life cycle of a star with a similar mass to the Sun.
 
-| **black dwarf          nebula          fusion          white dwarf                      main sequence star** |
-|---|
+| **black dwarf** | **nebula** | **fusion** | **white dwarf** | **main sequence star** |
+|---|---|---|---|---|
 
 Use words from the box to label the stages in the life cycle.
 
@@ -80,8 +79,8 @@ Describe how stars are formed.
 ### 2() — 3 marks — command: add — structured
 Add words from the box in the gaps to make the sentences correct.
 
-| **decay          balanced          fission          resultant forces          fusion          forces** |
-|---|
+| **decay** | **balanced** | **fission** | **resultant forces** | **fusion** | **forces** |
+|---|---|---|---|---|---|
 
 (i) Nuclear ...................................... releases energy inside stars.
 
@@ -106,8 +105,8 @@ Label the horizontal and vertical axes of the diagram by writing in the boxes.
 ### 2() — 4 marks — command: match — structured
 The words in the box detail the different classifications of stars.
 
-| **supergiants            white dwarfs          main sequence stars          giants** |
-|---|
+| **supergiants** | **white dwarfs** | **main sequence stars** | **giants** |
+|---|---|---|---|
 
 Complete the table by matching the star classification with the area it is found on the HR diagram.
 

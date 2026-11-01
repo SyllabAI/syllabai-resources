@@ -34,8 +34,9 @@ The sentences relate to nuclear fission and fusion.
 
 Use words from the box to complete the passage.
 
-| Sun         Moon         splitting<br><br>moderator         fusion         joining |
-|---|
+| Sun | Moon | splitting |
+|---|---|---|
+| moderator | fusion | joining |
 
 (i) Fission is the ............... of a nucleus
 
@@ -60,8 +61,9 @@ The passage describes some of the properties of fission.
 
 Use words from the box to complete the passage.
 
-| **shielding         fast         high**<br><br>**fuel rods         daughter         baby** |
-|---|
+| **shielding** | **fast** | **high** |
+|---|---|---|
+| **fuel rods** | **daughter** | **baby** |
 
 Some of the ............... nuclei produced in nuclear fission are highly radioactive and emit ............... energy neutrons when they decay. Concrete ............... can be used to absorb the neutrons.
 
@@ -105,8 +107,9 @@ The following passage is about control rods and moderators in a nuclear reactor.
 
 Select words from the box to complete the sentences.
 
-| **graphite         ionise         refract         magnesium**<br><br>**boron         slow         cardboard         absorb** |
-|---|
+| **graphite** | **ionise** | **refract** | **magnesium** |
+|---|---|---|---|
+| **boron** | **slow** | **cardboard** | **absorb** |
 
 The moderator in a nuclear reactor is often made from ............... .  The moderator is used to ............... neutrons.
 

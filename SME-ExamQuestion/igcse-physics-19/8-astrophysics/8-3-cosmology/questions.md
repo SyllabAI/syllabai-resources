@@ -31,8 +31,8 @@ The diagram shows two people observing the same light source, which is in motion
 
 Complete the boxes on the diagram with words or phrases from the list below.
 
-| **higher frequency       lower frequency       phase difference       wavelength       blueshift       relative motion       star       redshift** |
-|---|
+| **higher frequency** | **lower frequency** | **phase difference** | **wavelength** | **blueshift** | **relative motion** | **star** | **redshift** |
+|---|---|---|---|---|---|---|---|
 
 ## Q2 — easy — 15 marks · exam-questions
 
@@ -90,8 +90,9 @@ This passage is about redshift.
 
 Complete the following sentences by filling in the correct words in the gaps. Use words from the box below:
 
-| **stretch out     slower     expanding     moving towards     red**<br><br>**receding     faster     black hole     doppler    blue** |
-|---|
+| **stretch out** | **slower** | **expanding** | **moving towards** | **red** |
+|---|---|---|---|---|
+| **receding** | **faster** | **black hole** | **doppler** | **blue** |
 
 After the discovery of Doppler redshift, astronomers began to realise that almost all the galaxies in the universe are ........................ .
 
@@ -106,8 +107,8 @@ The following passage is about the start of the universe.
 
 Complete the passage using words in the box below.
 
-| **explosion        faster        expand        Big Bang        heats        hot        Big Crunch        shrinks        cools** |
-|---|
+| **explosion** | **faster** | **expand** | **Big Bang** | **heats** | **hot** | **Big Crunch** | **shrinks** | **cools** |
+|---|---|---|---|---|---|---|---|---|
 
 Around 14 billion years ago, the Universe began from a very small region that was extremely ............... and dense.
 

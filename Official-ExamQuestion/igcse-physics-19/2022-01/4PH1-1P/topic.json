@@ -31,26 +31,26 @@
      "part_number": "1(a)",
      "marks": 1,
      "question_type": "multiple_choice",
-     "problem_md": "Which of these diagrams correctly represents the magnetic field around a bar magnet?",
+     "problem_md": "Which of these diagrams correctly represents the magnetic field around a bar magnet?\n\n![magnetic field diagrams — options A to D (qp.pdf p.3)](assets/asset_1_a_diagram_choices.png)",
      "choices": [
       {
        "label": "A",
-       "text_md": "N       S",
+       "text_md": "",
        "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "N       S",
+       "text_md": "",
        "is_correct": true
       },
       {
        "label": "C",
-       "text_md": "N       S",
+       "text_md": "",
        "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "N       S",
+       "text_md": "",
        "is_correct": false
       }
      ],
@@ -64,16 +64,34 @@
       }
      ],
      "source_page": 3,
-     "assets": [],
+     "assets": [
+      {
+       "id": "asset_1_a_diagram_choices",
+       "kind": "crop",
+       "mention": "magnetic field diagrams — options A to D",
+       "source": "qp.pdf",
+       "page": 3,
+       "review": false,
+       "path": "assets/asset_1_a_diagram_choices.png",
+       "render": "raster",
+       "text_coverage": 0.0,
+       "manual_crop": true,
+       "review_verdict": "run008-w2 page-evidenced",
+       "shared": false,
+       "ref_part": "asset_1_a_diagram_choices"
+      }
+     ],
      "spec_point_codes": [
       "6.4"
      ],
      "tagging": "llm-spec-wave",
-     "edit_status": "extracted",
+     "edit_status": "repaired:run008-w2-f129",
      "value_trace": {
       "keys": "ms-positional",
       "marks": "ms-printed",
-      "numbers": "source-printed"
+      "numbers": "source-printed",
+      "table": "run008-w2 page-evidenced (qp.pdf print, eyes-on)",
+      "choices": "letter-only: option content lives in the stem (table/diagrams); labels+key unchanged"
      }
     },
     {
