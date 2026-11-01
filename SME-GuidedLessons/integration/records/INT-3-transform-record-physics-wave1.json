@@ -1,0 +1,246 @@
+{
+  "stage": "INT-3",
+  "title": "transform record — PHYSICS-4PH1 wave-1 (adapter guided-lesson-0.6--hub-lesson-import-1.5)",
+  "generated_at_utc": "2026-11-01T16:09:45Z",
+  "operator_traces": {
+    "ignition": "1a196b9c429c5ae5",
+    "execution": "1a197b1687dc5cd9"
+  },
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "course_id": "igcse-physics-19",
+  "b6_manifest_continuity": {
+    "decision": "continue-global",
+    "selected": "physics wave-1 = manifest v19 (the programme-level series continues across subjects; stage-A opened it at v18)",
+    "rejected": "per-course series (physics v1) — would collide with chemistry hub-import-manifest-v1..v17.json filenames in the shared integration/ namespace and fork the integration ledger",
+    "recorded_by": "runbook B6 + the stage-A receipt of record (PHYSICS-4PH1-STAGEA-PROMOTION-20261101.json); continued here at v19"
+  },
+  "b4_partition_of_record": {
+    "law": "runbook §0 B4 — partition at wave open only; final wave takes the remainder; never re-bucket mid-programme",
+    "basis": "hub notes.json register rows (127) minus the stage-A pilot (B3) = 126 notes, section-aligned in register order",
+    "buckets": {
+      "W1": {
+        "sections": [
+          "1-forces-and-motion/1-1-movement-and-position"
+        ],
+        "notes": 6
+      },
+      "W2": {
+        "sections": [
+          "1-forces-and-motion/1-2-forces-movement-and-changing-shape"
+        ],
+        "notes": null
+      },
+      "W3": {
+        "sections": [
+          "1-forces-and-motion/1-3-momentum",
+          "1-forces-and-motion/1-4-moments"
+        ],
+        "notes": null
+      },
+      "W4": {
+        "sections": [
+          "2-electricity/2-1-current-potential-difference-and-resistance",
+          "2-electricity/2-2-components-in-series-and-parallel-circuits"
+        ],
+        "notes": null
+      },
+      "W5": {
+        "sections": [
+          "2-electricity/2-3-electrical-power-and-mains-electricity",
+          "2-electricity/2-4-static-electricity"
+        ],
+        "notes": null
+      },
+      "W6": {
+        "sections": [
+          "3-waves/3-1-waves-and-the-electromagnetic-spectrum",
+          "3-waves/3-2-reflection-and-refraction"
+        ],
+        "notes": null
+      },
+      "W7": {
+        "sections": [
+          "3-waves/3-3-sound",
+          "4-energy-resources-and-energy-transfers/4-1-energy-stores-and-transfers"
+        ],
+        "notes": null
+      },
+      "W8": {
+        "sections": [
+          "4-energy-resources-and-energy-transfers/4-2-work-power-and-energy-resources",
+          "5-solids-liquids-and-gases/5-1-density-and-pressure"
+        ],
+        "notes": null
+      },
+      "W9": {
+        "sections": [
+          "5-solids-liquids-and-gases/5-2-changes-of-state",
+          "5-solids-liquids-and-gases/5-3-ideal-gases"
+        ],
+        "notes": null
+      },
+      "W10": {
+        "sections": [
+          "6-magnetism-and-electromagnetism/6-1-magnetism-and-electromagnetism",
+          "6-magnetism-and-electromagnetism/6-2-electromagnetic-induction"
+        ],
+        "notes": null
+      },
+      "W11": {
+        "sections": [
+          "7-radioactivity-and-particles/7-1-properties-of-radiation",
+          "7-radioactivity-and-particles/7-2-radioactivity-uses-and-dangers"
+        ],
+        "notes": null
+      },
+      "W12-final-remainder": {
+        "sections": [
+          "7-radioactivity-and-particles/7-3-fission-and-fusion",
+          "8-astrophysics/8-1-motion-in-the-universe",
+          "8-astrophysics/8-2-stellar-evolution",
+          "8-astrophysics/8-3-cosmology"
+        ],
+        "notes": null
+      }
+    },
+    "bucket_sizes": {
+      "W1": 6,
+      "W2": 9,
+      "W3": 7,
+      "W4": 8,
+      "W5": 9,
+      "W6": 13,
+      "W7": 10,
+      "W8": 11,
+      "W9": 11,
+      "W10": 14,
+      "W11": 11,
+      "W12-final-remainder": 17
+    },
+    "executed_this_wave": "W1 (1-1-2..1-1-7)"
+  },
+  "source_pin": {
+    "repo": "SyllabAI/syllabai-resources",
+    "ref": "196c2957ee54c0de3342fe515ba055cbacb2d260",
+    "note": "resources main at wave-1 open = 196c2957 (PR #270 g9-followups-20261101: LEDGER.md + scripts/ only); the re-ground read 23dd0c9d (run-008 W2 corpus lane) and main advanced once between re-ground and branch — the mid-flight race was caught by the pre-branch fetch (fetch-first discipline), the branch is based on the new tip, and the overlap census vs the wave-1 namespaces (SME-GuidedLessons/**) is ZERO"
+  },
+  "registry_pin": {
+    "repo": "SyllabAI/syllabai-v2",
+    "ref": "37aa9e442a6384b54e7f1235c23921b290537db9",
+    "path": "apps/hub/content/igcse-physics-19/notes.json",
+    "note": "the revision-note rows of record (noteId registry, specPointCodes, bodyMd with asset URLs)"
+  },
+  "source_06_generation_pin": {
+    "commit": "aa6485187429e0911b4a47a8a468e256bb41ce32",
+    "namespace": "SME-GuidedLessons/integration/source-0.6/"
+  },
+  "conservation_law": "kind/modelAnswer/keywords on written items ARE §7 stream tokens (the runner walk extends by those fields on kind!=mcq); each wave-1 note's stream is anchored below; the chemistry corpus streams and the v18 stage-A stream are untouched (no chemistry or stage-A bytes re-issued in v19). Grand + wave-1 computed over the 6 notes in artifact order.",
+  "grand_stream": {
+    "chars": 85861,
+    "sha256": "92f368945a8375418cb4bfd7487e91e8a9652d15c1b89a71ef1731ba4dd47e8c"
+  },
+  "wave_stream_sha256": {
+    "wave-1": "92f368945a8375418cb4bfd7487e91e8a9652d15c1b89a71ef1731ba4dd47e8c"
+  },
+  "battery": {
+    "names": "A0 / AN / SG / KW / JC / 2.1B / NUM (runbook §1.4 battery of record), run per note",
+    "a0": "ajv guided-lesson/0.6 x6 + 9-check SME kind order per lesson (12 lessons) + B2 sizing (6 notes -> 2 lessons each) + figure closure both ways (figures/figureIds optional keys — absent lawful, empty unlawful) + glossary 3..8 + primer word band",
+    "an": "exactly one correct option per MCQ x60; per-note correct-key letter census >=3 distinct / max 5; option texts distinct",
+    "sg": "lesson specRefs subset of file specPoints (4PH1 1.4..1.10); every check shares a content token with its lesson keyPoints (KP-index provenance)",
+    "kw": "written items >=3 distinct keywords, each grounded in the modelAnswer/stem/keyPoints union",
+    "jc": "every option explained; distractors name misconceptions; correct option misconception null",
+    "2.1b": "zero 8-gram overlap between learner-surface text (stems, model answers, option text+explanations) and each note's bodyMd",
+    "num": "per-note numeric ledgers re-derived in code (see the NUM gate log): unit conversions, WE arithmetics, MCQ distractor arithmetics — all exact"
+  },
+  "physics_census": {
+    "wave_notes": [
+      "rn_k9wr3prcgSBg5vfw",
+      "rn_pfndTqR6DTJGZ8xQ",
+      "rn_CpJZQWzbvMcM8fw3",
+      "rn_5hfYYFrc2XjMJCrq",
+      "rn_GxNWbSMqkTN4zgZB",
+      "rn_ZgGMNrRGBKvYxxFf"
+    ],
+    "wave_lessons": 12,
+    "checks": 108,
+    "checks_mcq": 60,
+    "written_recall": 24,
+    "written_explain_why": 12,
+    "written_application": 12,
+    "distractors": 180,
+    "figures": 16,
+    "figures_captions": 12,
+    "figures_no_caption": 4,
+    "figureless_notes": [
+      "rn_ZgGMNrRGBKvYxxFf"
+    ]
+  },
+  "notes": [
+    {
+      "noteId": "rn_k9wr3prcgSBg5vfw",
+      "wave": 1,
+      "sourceLayerSha256": "64d6daaa99454e62c7c96ae084a59ca49eab487c4a92e9b6acef53129185deae",
+      "hubSha256": "d3a4abea468b3f914c4230e8d4f43b487eeab895e2c761031fa048f4dcba4d2d",
+      "pkgSha256": "0f36d5976dced31c9510ae94642a61a14e687523d6b6db920df9b44d337f253f",
+      "stream": {
+        "sha256": "008f6ba0e4fef381722e325a4baf1f7979aae5e529ee7095f53d51a967f2cf10",
+        "chars": 14664
+      }
+    },
+    {
+      "noteId": "rn_pfndTqR6DTJGZ8xQ",
+      "wave": 1,
+      "sourceLayerSha256": "85e8d3d1fb828e52ba2011846d42826beb9e23a4db202058060075dca2da0e5f",
+      "hubSha256": "ddeac6cec1f75f90580b83b1902d38d821804b135eaabe95e03e5023f97246fc",
+      "pkgSha256": "c9fc3e3825d95620e43cd19a912c2a574348fca68fe03fb81cb500474cf89813",
+      "stream": {
+        "sha256": "f6c714df8a6b0f2fc36141385e83d04bd6ca442a15604b596091482deba5e784",
+        "chars": 14442
+      }
+    },
+    {
+      "noteId": "rn_CpJZQWzbvMcM8fw3",
+      "wave": 1,
+      "sourceLayerSha256": "ce35a1614d44eaff618819ca3ed4d17d5774d22323caa574e6d94855c3196ef3",
+      "hubSha256": "1c4f9bc552fcdb0539296002b478aaa65623dccc7ab9fc0af287ac49cd3267fd",
+      "pkgSha256": "79f7c868770976632231243d0676467cc1cd50963bbb6218bb6393efb336811f",
+      "stream": {
+        "sha256": "8622909b8919c05ecbd810d3c195fa1d6664a2bc5395d99bf44d5910c638e42c",
+        "chars": 13764
+      }
+    },
+    {
+      "noteId": "rn_5hfYYFrc2XjMJCrq",
+      "wave": 1,
+      "sourceLayerSha256": "34c83f3935d3dda40ec50b503508498b518ce0d83212a26527ee9bce73bf8347",
+      "hubSha256": "60d8b44384d4f865214874581d025930f99be0d1bd02447bdc27618b74c8f051",
+      "pkgSha256": "85f000ad21c83f7a56265afcf258c1cb3a74c35ba458cb16a2c75ee8d043d57e",
+      "stream": {
+        "sha256": "1f730d9553534f3fa1b38bf5c301038eb85253c6c98240e408977fd387e930c8",
+        "chars": 14791
+      }
+    },
+    {
+      "noteId": "rn_GxNWbSMqkTN4zgZB",
+      "wave": 1,
+      "sourceLayerSha256": "39cadbeba8a9cca142b4e0db4e445f20477c855e30b5eec799070bf8a5129a84",
+      "hubSha256": "574a6cb53b8125e3696968e5281f9bb7fe6bca6222b1a7ef7ab46a78fb851f29",
+      "pkgSha256": "c1b26dde13620779470eeac4f85f9e4f53b1f42d5357a276610b86054156d319",
+      "stream": {
+        "sha256": "a723060ae0138646dffab3fca804a0a163d14b511fdc217b2f4bbccc16554861",
+        "chars": 13922
+      }
+    },
+    {
+      "noteId": "rn_ZgGMNrRGBKvYxxFf",
+      "wave": 1,
+      "sourceLayerSha256": "51556a88a18e61723ff93837ccefedde9c825f326e36d156f9c2e3cf445cb935",
+      "hubSha256": "891fc481b5c64cc85f948009f5efd67b9a0478e16857b0bdbdca64cb82c66dbc",
+      "pkgSha256": "fb8874d146d8189909db2c69be725a783efef04fa0a4ade983162daf635ea1f4",
+      "stream": {
+        "sha256": "9c1bbda1537af828f9c228351c4cb9ab76964ce33aa3409ffda0baf62df3768e",
+        "chars": 14278
+      }
+    }
+  ]
+}
