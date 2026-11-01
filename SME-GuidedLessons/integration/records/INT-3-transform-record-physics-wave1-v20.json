@@ -1,0 +1,141 @@
+{
+  "stage": "INT-3",
+  "title": "transform record — PHYSICS-4PH1 wave-1 CUMULATIVE re-issue v20 (adapter guided-lesson-0.6--hub-lesson-import-1.5)",
+  "generated_at_utc": "2026-11-01T17:31:53Z",
+  "operator_traces": {
+    "ignition": "1a196b9c429c5ae5",
+    "execution": "1a197b1687dc5cd9"
+  },
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "course_id": "igcse-physics-19",
+  "supersedes_int3": "INT-3-transform-record-physics-wave1.json (6 rows — the tranche-scoped defect of record; its 6 rows are carried VERBATIM below)",
+  "defect_and_fix": "the v19 hub import rebuilt the runner-owned guided-import.json from these rows and dropped the stage-A pilot; v20 carries the full 7-row cumulative table (pilot @ its stage-A anchors re-derived from the pinned bytes + the 6 wave-1 rows verbatim)",
+  "b6_manifest_continuity": {
+    "decision": "continue-global",
+    "selected": "physics wave-1 = manifest v20 (CUMULATIVE over the igcse-physics-19 pack — the chemistry v8..v17 pattern; the programme series continues)",
+    "rejected": "per-course series (physics v1) — would collide with chemistry hub-import-manifest-v1..v17.json filenames in the shared integration/ namespace and fork the integration ledger",
+    "recorded_by": "runbook B6 + the stage-A receipt; v19's tranche scope was the DEFECTIVE departure from the cumulative law, corrected here"
+  },
+  "source_pin": {
+    "repo": "SyllabAI/syllabai-resources",
+    "ref": "origin/main @ resources PR #271 merge-of-record 499a692f",
+    "note": "the pilot artifacts are re-pinned from resources main bytes, sha-gated vs the v18 manifest"
+  },
+  "registry_pin": {
+    "repo": "SyllabAI/syllabai-v2",
+    "ref": "origin/main",
+    "path": "apps/hub/content/igcse-physics-19/notes.json",
+    "note": "unchanged by this re-issue"
+  },
+  "conservation_law": "the 7 per-note streams below are the runner's §7 walk over the pinned artifact bytes; grand = concatenation in row order; wave-0 (pilot) + wave-1 (6 notes) subtotals match the stage-A and wave-1 anchors exactly",
+  "grand_stream": {
+    "chars": 99785,
+    "sha256": "21afa6b5916c96361589fbfe0bed90e928849003c68c76a3314851b0551a6d37"
+  },
+  "wave_stream_sha256": {
+    "wave-0": "42dea4b02c94947735ee0900ee1d433b4cbad1006edd1fb3104af7b5073dc2f4",
+    "wave-1": "92f368945a8375418cb4bfd7487e91e8a9652d15c1b89a71ef1731ba4dd47e8c"
+  },
+  "battery": {
+    "names": "re-pin battery (no authored bytes change): pilot bytes == v18 sha; wave-1 bytes == v19 sha; pilot stream re-derived == stage-A anchor; wave subtotals == v18/v19 anchors; B2 cumulative identity arithmetic 14x9=126"
+  },
+  "physics_census": {
+    "pack_notes": 7,
+    "pack_lessons": 14,
+    "checks": 126,
+    "checks_mcq": 70,
+    "written_recall": 28,
+    "written_explain_why": 14,
+    "written_application": 14,
+    "distractors": 210,
+    "figures": 25,
+    "wave1_notes": [
+      "rn_k9wr3prcgSBg5vfw",
+      "rn_pfndTqR6DTJGZ8xQ",
+      "rn_CpJZQWzbvMcM8fw3",
+      "rn_5hfYYFrc2XjMJCrq",
+      "rn_GxNWbSMqkTN4zgZB",
+      "rn_ZgGMNrRGBKvYxxFf"
+    ],
+    "pilot": "rn_RpyMnS5nqWSRWXXG"
+  },
+  "notes": [
+    {
+      "noteId": "rn_RpyMnS5nqWSRWXXG",
+      "wave": 0,
+      "sourceLayerSha256": "dcd79fe8b60f1708179c57fd71e03717f25ba6d212b16388edf16fa8fdc3ed42",
+      "hubSha256": "4be97f7c9763ff88d74805982bb38cad6a517e6eb564f15e1968445fbb56584b",
+      "pkgSha256": "11c39840eeb3ab694d9cddec36171e2c18f8b209cfebb94ebf4e29ae2992ee85",
+      "stream": {
+        "sha256": "42dea4b02c94947735ee0900ee1d433b4cbad1006edd1fb3104af7b5073dc2f4",
+        "chars": 13924
+      }
+    },
+    {
+      "noteId": "rn_k9wr3prcgSBg5vfw",
+      "wave": 1,
+      "sourceLayerSha256": "64d6daaa99454e62c7c96ae084a59ca49eab487c4a92e9b6acef53129185deae",
+      "hubSha256": "d3a4abea468b3f914c4230e8d4f43b487eeab895e2c761031fa048f4dcba4d2d",
+      "pkgSha256": "0f36d5976dced31c9510ae94642a61a14e687523d6b6db920df9b44d337f253f",
+      "stream": {
+        "sha256": "008f6ba0e4fef381722e325a4baf1f7979aae5e529ee7095f53d51a967f2cf10",
+        "chars": 14664
+      }
+    },
+    {
+      "noteId": "rn_pfndTqR6DTJGZ8xQ",
+      "wave": 1,
+      "sourceLayerSha256": "85e8d3d1fb828e52ba2011846d42826beb9e23a4db202058060075dca2da0e5f",
+      "hubSha256": "ddeac6cec1f75f90580b83b1902d38d821804b135eaabe95e03e5023f97246fc",
+      "pkgSha256": "c9fc3e3825d95620e43cd19a912c2a574348fca68fe03fb81cb500474cf89813",
+      "stream": {
+        "sha256": "f6c714df8a6b0f2fc36141385e83d04bd6ca442a15604b596091482deba5e784",
+        "chars": 14442
+      }
+    },
+    {
+      "noteId": "rn_CpJZQWzbvMcM8fw3",
+      "wave": 1,
+      "sourceLayerSha256": "ce35a1614d44eaff618819ca3ed4d17d5774d22323caa574e6d94855c3196ef3",
+      "hubSha256": "1c4f9bc552fcdb0539296002b478aaa65623dccc7ab9fc0af287ac49cd3267fd",
+      "pkgSha256": "79f7c868770976632231243d0676467cc1cd50963bbb6218bb6393efb336811f",
+      "stream": {
+        "sha256": "8622909b8919c05ecbd810d3c195fa1d6664a2bc5395d99bf44d5910c638e42c",
+        "chars": 13764
+      }
+    },
+    {
+      "noteId": "rn_5hfYYFrc2XjMJCrq",
+      "wave": 1,
+      "sourceLayerSha256": "34c83f3935d3dda40ec50b503508498b518ce0d83212a26527ee9bce73bf8347",
+      "hubSha256": "60d8b44384d4f865214874581d025930f99be0d1bd02447bdc27618b74c8f051",
+      "pkgSha256": "85f000ad21c83f7a56265afcf258c1cb3a74c35ba458cb16a2c75ee8d043d57e",
+      "stream": {
+        "sha256": "1f730d9553534f3fa1b38bf5c301038eb85253c6c98240e408977fd387e930c8",
+        "chars": 14791
+      }
+    },
+    {
+      "noteId": "rn_GxNWbSMqkTN4zgZB",
+      "wave": 1,
+      "sourceLayerSha256": "39cadbeba8a9cca142b4e0db4e445f20477c855e30b5eec799070bf8a5129a84",
+      "hubSha256": "574a6cb53b8125e3696968e5281f9bb7fe6bca6222b1a7ef7ab46a78fb851f29",
+      "pkgSha256": "c1b26dde13620779470eeac4f85f9e4f53b1f42d5357a276610b86054156d319",
+      "stream": {
+        "sha256": "a723060ae0138646dffab3fca804a0a163d14b511fdc217b2f4bbccc16554861",
+        "chars": 13922
+      }
+    },
+    {
+      "noteId": "rn_ZgGMNrRGBKvYxxFf",
+      "wave": 1,
+      "sourceLayerSha256": "51556a88a18e61723ff93837ccefedde9c825f326e36d156f9c2e3cf445cb935",
+      "hubSha256": "891fc481b5c64cc85f948009f5efd67b9a0478e16857b0bdbdca64cb82c66dbc",
+      "pkgSha256": "fb8874d146d8189909db2c69be725a783efef04fa0a4ade983162daf635ea1f4",
+      "stream": {
+        "sha256": "9c1bbda1537af828f9c228351c4cb9ab76964ce33aa3409ffda0baf62df3768e",
+        "chars": 14278
+      }
+    }
+  ]
+}
