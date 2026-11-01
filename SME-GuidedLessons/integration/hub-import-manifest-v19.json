@@ -1,0 +1,141 @@
+{
+  "format": "hub-import-manifest/1.0",
+  "manifest_version": 19,
+  "course_id": "igcse-physics-19",
+  "b6_manifest_continuity": {
+    "decision": "continue-global",
+    "selected": "physics wave-1 = manifest v19 (the programme-level series continues across subjects; stage-A opened it at v18)",
+    "rejected": "per-course series (physics v1) — would collide with chemistry hub-import-manifest-v1..v17.json filenames in the shared integration/ namespace and fork the integration ledger",
+    "recorded_by": "runbook B6 + the stage-A receipt of record (PHYSICS-4PH1-STAGEA-PROMOTION-20261101.json); continued here at v19"
+  },
+  "generated_at_utc": "2026-11-01T16:09:45Z",
+  "operator_trace": "1a197b1687dc5cd9",
+  "supersedes": "hub-import-manifest-v18.json (physics stage-A pilot: 1 note / 2 lessons / 18 checks @ promo 01a2fc34, all re-pinned byte-identical; nothing stage-A carries new bytes in this generation) — v19 is the FIRST register wave: 6 igcse-physics-19 notes, 12 artifacts",
+  "checks_layer": {
+    "wave": "PHYSICS-4PH1 wave-1 (the 1-1 remainder: 1-1-2..1-1-7; runbook §1 B4 bucket of record) — operator ignition trace 1a196b9c429c5ae5 (\"ignite wave-1\"), execution trace 1a197b1687dc5cd9 (PAT delivered in-session)",
+    "derivation": "108 authored checks (60 MCQ + 24 recall + 12 explain-why + 12 application = 12 lessons x [5 MCQ + 2 recall + 1 explain-why + 1 application]), spec-anchored to 4PH1 1.4..1.10 with KP-index provenance; written items carry modelAnswer + generous synonym/inflection-bearing keywords",
+    "declared_revision": "the SECOND package-channel tranche of the new subject and the FIRST wave: 6 packages issued under sme-question-package/1.2 and 6 lessons under hub/lesson-import/1.5 (union schemas — the 112 chemistry 1.1/1.4 artifacts validate unchanged); the v18 stage-A artifacts are re-pinned byte-identical",
+    "grading_law": "case-insensitive whole-token match of the learner text against keywords[]; >=1 hit -> correct; 0 hits -> not-quite + model answer; empty submit blocked; keywords absent -> reveal-only (fail-closed, never a silent wrong grade)",
+    "fail_closed": "written item without modelAnswer renders reveal-only, never gradeable, never blank; unknown kind renders reveal-only and warns at this gate"
+  },
+  "source_generation": {
+    "format": "guided-lesson/0.6",
+    "namespace": "SME-GuidedLessons/integration/source-0.6/",
+    "pin": "aa6485187429e0911b4a47a8a468e256bb41ce32",
+    "int0_lineage": "(new subject — no INT-0 ancestry; the wave-1 0.6 sources are authored directly from the igcse-physics-19 revision-note rows of record, hub notes.json @ 37aa9e44)"
+  },
+  "load_scope": {
+    "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+    "target_schemas": [
+      "hub/lesson-import/1.5",
+      "sme-question-package/1.2"
+    ]
+  },
+  "counts": {
+    "notes": 6,
+    "lessons": 12,
+    "checks": 108,
+    "keyPoints": 52,
+    "distractors": 180,
+    "glossaryTerms": 25,
+    "figures": 16,
+    "figures_module_mapped": 16,
+    "figures_note_level": 0,
+    "workedExamples_populated": 5,
+    "workedExamples_null": 1,
+    "authored_chars_conserved": 85861
+  },
+  "conservation": {
+    "authored_stream_sha256": "92f368945a8375418cb4bfd7487e91e8a9652d15c1b89a71ef1731ba4dd47e8c",
+    "authored_chars": 85861,
+    "wave_stream_sha256": {
+      "wave-1": "92f368945a8375418cb4bfd7487e91e8a9652d15c1b89a71ef1731ba4dd47e8c"
+    }
+  },
+  "artifacts": [
+    {
+      "kind": "hub-lesson-import-1.5",
+      "noteId": "rn_k9wr3prcgSBg5vfw",
+      "path": "SME-GuidedLessons/integration/hub-import-1.5/rn_k9wr3prcgSBg5vfw.hub-lesson-import.json",
+      "sha256": "d3a4abea468b3f914c4230e8d4f43b487eeab895e2c761031fa048f4dcba4d2d",
+      "bytes": 10458
+    },
+    {
+      "kind": "sme-question-package",
+      "noteId": "rn_k9wr3prcgSBg5vfw",
+      "path": "SME-GuidedLessons/integration/question-packages-1.2/rn_k9wr3prcgSBg5vfw.sme-question-package.json",
+      "sha256": "0f36d5976dced31c9510ae94642a61a14e687523d6b6db920df9b44d337f253f",
+      "bytes": 20515
+    },
+    {
+      "kind": "hub-lesson-import-1.5",
+      "noteId": "rn_pfndTqR6DTJGZ8xQ",
+      "path": "SME-GuidedLessons/integration/hub-import-1.5/rn_pfndTqR6DTJGZ8xQ.hub-lesson-import.json",
+      "sha256": "ddeac6cec1f75f90580b83b1902d38d821804b135eaabe95e03e5023f97246fc",
+      "bytes": 9781
+    },
+    {
+      "kind": "sme-question-package",
+      "noteId": "rn_pfndTqR6DTJGZ8xQ",
+      "path": "SME-GuidedLessons/integration/question-packages-1.2/rn_pfndTqR6DTJGZ8xQ.sme-question-package.json",
+      "sha256": "c9fc3e3825d95620e43cd19a912c2a574348fca68fe03fb81cb500474cf89813",
+      "bytes": 20355
+    },
+    {
+      "kind": "hub-lesson-import-1.5",
+      "noteId": "rn_CpJZQWzbvMcM8fw3",
+      "path": "SME-GuidedLessons/integration/hub-import-1.5/rn_CpJZQWzbvMcM8fw3.hub-lesson-import.json",
+      "sha256": "1c4f9bc552fcdb0539296002b478aaa65623dccc7ab9fc0af287ac49cd3267fd",
+      "bytes": 10008
+    },
+    {
+      "kind": "sme-question-package",
+      "noteId": "rn_CpJZQWzbvMcM8fw3",
+      "path": "SME-GuidedLessons/integration/question-packages-1.2/rn_CpJZQWzbvMcM8fw3.sme-question-package.json",
+      "sha256": "79f7c868770976632231243d0676467cc1cd50963bbb6218bb6393efb336811f",
+      "bytes": 19740
+    },
+    {
+      "kind": "hub-lesson-import-1.5",
+      "noteId": "rn_5hfYYFrc2XjMJCrq",
+      "path": "SME-GuidedLessons/integration/hub-import-1.5/rn_5hfYYFrc2XjMJCrq.hub-lesson-import.json",
+      "sha256": "60d8b44384d4f865214874581d025930f99be0d1bd02447bdc27618b74c8f051",
+      "bytes": 11928
+    },
+    {
+      "kind": "sme-question-package",
+      "noteId": "rn_5hfYYFrc2XjMJCrq",
+      "path": "SME-GuidedLessons/integration/question-packages-1.2/rn_5hfYYFrc2XjMJCrq.sme-question-package.json",
+      "sha256": "85f000ad21c83f7a56265afcf258c1cb3a74c35ba458cb16a2c75ee8d043d57e",
+      "bytes": 20204
+    },
+    {
+      "kind": "hub-lesson-import-1.5",
+      "noteId": "rn_GxNWbSMqkTN4zgZB",
+      "path": "SME-GuidedLessons/integration/hub-import-1.5/rn_GxNWbSMqkTN4zgZB.hub-lesson-import.json",
+      "sha256": "574a6cb53b8125e3696968e5281f9bb7fe6bca6222b1a7ef7ab46a78fb851f29",
+      "bytes": 11103
+    },
+    {
+      "kind": "sme-question-package",
+      "noteId": "rn_GxNWbSMqkTN4zgZB",
+      "path": "SME-GuidedLessons/integration/question-packages-1.2/rn_GxNWbSMqkTN4zgZB.sme-question-package.json",
+      "sha256": "c1b26dde13620779470eeac4f85f9e4f53b1f42d5357a276610b86054156d319",
+      "bytes": 19744
+    },
+    {
+      "kind": "hub-lesson-import-1.5",
+      "noteId": "rn_ZgGMNrRGBKvYxxFf",
+      "path": "SME-GuidedLessons/integration/hub-import-1.5/rn_ZgGMNrRGBKvYxxFf.hub-lesson-import.json",
+      "sha256": "891fc481b5c64cc85f948009f5efd67b9a0478e16857b0bdbdca64cb82c66dbc",
+      "bytes": 9289
+    },
+    {
+      "kind": "sme-question-package",
+      "noteId": "rn_ZgGMNrRGBKvYxxFf",
+      "path": "SME-GuidedLessons/integration/question-packages-1.2/rn_ZgGMNrRGBKvYxxFf.sme-question-package.json",
+      "sha256": "fb8874d146d8189909db2c69be725a783efef04fa0a4ade983162daf635ea1f4",
+      "bytes": 19689
+    }
+  ]
+}

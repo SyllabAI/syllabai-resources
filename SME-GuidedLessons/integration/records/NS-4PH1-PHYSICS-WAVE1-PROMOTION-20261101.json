@@ -1,0 +1,998 @@
+{
+  "format": "r3-check-types-promotion-receipt/1.0",
+  "format_note": "the receipt FAMILY of record per runbook §3; the wave field carries the physics lane identity",
+  "wave": "PHYSICS-4PH1 wave-1 — the 1-1 remainder (1-1-2 Speed, 1-1-3 Core Practical, 1-1-4 Acceleration, 1-1-5 Velocity-Time Graphs, 1-1-6 Area under a V-T Graph, 1-1-7 Calculating Uniform Acceleration)",
+  "operator_traces": [
+    "1a196b9c429c5ae5",
+    "1a197b1687dc5cd9"
+  ],
+  "generated_at_utc": "2026-11-01T16:09:45Z",
+  "repo": "SyllabAI/syllabai-resources",
+  "branch": "integration/physics-wave1-20261101",
+  "runbook_of_record": ".syllabai/docs/new-subject-runbook.md @ SyllabAI/syllabai-v2 main",
+  "b6_manifest_continuity": {
+    "decision": "continue-global",
+    "selected": "physics wave-1 = manifest v19 (the programme-level series continues across subjects; stage-A opened it at v18)",
+    "rejected": "per-course series (physics v1) — would collide with chemistry hub-import-manifest-v1..v17.json filenames in the shared integration/ namespace and fork the integration ledger",
+    "recorded_by": "runbook B6 + the stage-A receipt of record (PHYSICS-4PH1-STAGEA-PROMOTION-20261101.json); continued here at v19"
+  },
+  "b4_partition": {
+    "law": "runbook §0 B4 — partition at wave open only; final wave takes the remainder; never re-bucket mid-programme",
+    "basis": "hub notes.json register rows (127) minus the stage-A pilot (B3) = 126 notes, section-aligned in register order",
+    "buckets": {
+      "W1": {
+        "sections": [
+          "1-forces-and-motion/1-1-movement-and-position"
+        ],
+        "notes": 6
+      },
+      "W2": {
+        "sections": [
+          "1-forces-and-motion/1-2-forces-movement-and-changing-shape"
+        ],
+        "notes": null
+      },
+      "W3": {
+        "sections": [
+          "1-forces-and-motion/1-3-momentum",
+          "1-forces-and-motion/1-4-moments"
+        ],
+        "notes": null
+      },
+      "W4": {
+        "sections": [
+          "2-electricity/2-1-current-potential-difference-and-resistance",
+          "2-electricity/2-2-components-in-series-and-parallel-circuits"
+        ],
+        "notes": null
+      },
+      "W5": {
+        "sections": [
+          "2-electricity/2-3-electrical-power-and-mains-electricity",
+          "2-electricity/2-4-static-electricity"
+        ],
+        "notes": null
+      },
+      "W6": {
+        "sections": [
+          "3-waves/3-1-waves-and-the-electromagnetic-spectrum",
+          "3-waves/3-2-reflection-and-refraction"
+        ],
+        "notes": null
+      },
+      "W7": {
+        "sections": [
+          "3-waves/3-3-sound",
+          "4-energy-resources-and-energy-transfers/4-1-energy-stores-and-transfers"
+        ],
+        "notes": null
+      },
+      "W8": {
+        "sections": [
+          "4-energy-resources-and-energy-transfers/4-2-work-power-and-energy-resources",
+          "5-solids-liquids-and-gases/5-1-density-and-pressure"
+        ],
+        "notes": null
+      },
+      "W9": {
+        "sections": [
+          "5-solids-liquids-and-gases/5-2-changes-of-state",
+          "5-solids-liquids-and-gases/5-3-ideal-gases"
+        ],
+        "notes": null
+      },
+      "W10": {
+        "sections": [
+          "6-magnetism-and-electromagnetism/6-1-magnetism-and-electromagnetism",
+          "6-magnetism-and-electromagnetism/6-2-electromagnetic-induction"
+        ],
+        "notes": null
+      },
+      "W11": {
+        "sections": [
+          "7-radioactivity-and-particles/7-1-properties-of-radiation",
+          "7-radioactivity-and-particles/7-2-radioactivity-uses-and-dangers"
+        ],
+        "notes": null
+      },
+      "W12-final-remainder": {
+        "sections": [
+          "7-radioactivity-and-particles/7-3-fission-and-fusion",
+          "8-astrophysics/8-1-motion-in-the-universe",
+          "8-astrophysics/8-2-stellar-evolution",
+          "8-astrophysics/8-3-cosmology"
+        ],
+        "notes": null
+      }
+    },
+    "bucket_sizes": {
+      "W1": 6,
+      "W2": 9,
+      "W3": 7,
+      "W4": 8,
+      "W5": 9,
+      "W6": 13,
+      "W7": 10,
+      "W8": 11,
+      "W9": 11,
+      "W10": 14,
+      "W11": 11,
+      "W12-final-remainder": 17
+    },
+    "executed_this_wave": "W1 (1-1-2..1-1-7)"
+  },
+  "commits": {
+    "A": {
+      "sha": "aa6485187429e0911b4a47a8a468e256bb41ce32",
+      "parent": "196c2957ee54c0de3342fe515ba055cbacb2d260",
+      "note": "source-0.6 generation — 6 authored guided-lesson/0.6 wave-1 notes (12 lessons / 108 checks); schemas ride main unchanged from stage-A"
+    },
+    "C": {
+      "sha": "(namespace-complete — outputs + manifest v19 + records + pipeline)",
+      "note": "hub-import-1.5/ x6 + question-packages-1.2/ x6 + hub-import-manifest-v19.json + records/INT-3-transform-record-physics-wave1.json + records/NS-4PH1-PHYSICS-WAVE1-PROMOTION-20261101.json + tooling/physics-wave1-pipeline.js"
+    }
+  },
+  "artifact_pin": "aa6485187429e0911b4a47a8a468e256bb41ce32",
+  "pkg_pin": "aa6485187429e0911b4a47a8a468e256bb41ce32 (all six wave-1 packages pin the commit-A source generation)",
+  "input_pins": {
+    "resources_main_at_wave1_open": "196c2957ee54c0de3342fe515ba055cbacb2d260",
+    "hub_main_at_wave1_open": "37aa9e442a6384b54e7f1235c23921b290537db9"
+  },
+  "manifest": "hub-import-manifest-v19.json",
+  "int_record": "INT-3-transform-record-physics-wave1.json",
+  "adapter_spec": "ADAPTER-SPEC-guided-lesson-0.6-to-hub-1.5.md (unchanged from stage-A)",
+  "counts_census": {
+    "notes": 6,
+    "lessons": 12,
+    "checks": 108,
+    "checks_mcq": 60,
+    "written_recall": 24,
+    "written_explain_why": 12,
+    "written_application": 12,
+    "distractors": 180,
+    "wave_notes": [
+      "rn_k9wr3prcgSBg5vfw",
+      "rn_pfndTqR6DTJGZ8xQ",
+      "rn_CpJZQWzbvMcM8fw3",
+      "rn_5hfYYFrc2XjMJCrq",
+      "rn_GxNWbSMqkTN4zgZB",
+      "rn_ZgGMNrRGBKvYxxFf"
+    ]
+  },
+  "schema_delta": "NONE — wave-1 runs the stage-A union schemas byte-identical (guided-lesson/0.6, hub/lesson-import/1.5, sme-question-package/1.2). The figureless note (1-1-7) lands by OMITTING the optional figures/figureIds keys — exactly the chemistry precedent (22/112 notes figureless per the 0.6 schema description).",
+  "taxonomy": "kind enum of record: mcq (default/absent) | recall | explain-why | application — 12 lessons x [5 MCQ + 2 recall + 1 explain-why + 1 application] = the B2 law",
+  "conservation": {
+    "law": "written stems + misconceptionClass + modelAnswer + keywords are §7 stream tokens on kind!=mcq; the wave-1 streams are anchored in the INT-3 record; chemistry + stage-A streams byte-untouched (no re-issues in v19)",
+    "authored_chars": 85861
+  },
+  "gates": {
+    "pipeline": "163/163 pass, 0 fail",
+    "gate_log": [
+      {
+        "name": "P0 branch is the wave-1 integration branch",
+        "ok": true,
+        "detail": "integration/physics-wave1-20261101"
+      },
+      {
+        "name": "P0 committed == working tree @ rn_k9wr3prcg",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "P0 committed == working tree @ rn_pfndTqR6D",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "P0 committed == working tree @ rn_CpJZQWzbv",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "P0 committed == working tree @ rn_5hfYYFrc2",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "P0 committed == working tree @ rn_GxNWbSMqk",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "P0 committed == working tree @ rn_ZgGMNrRGB",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "P0 schema on branch == working tree @ guided-lesson.0.6.schema.json",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "P0 schema on branch == working tree @ hub-lesson-import.1.5.schema.json",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "P0 schema on branch == working tree @ sme-question-package.1.2.schema.json",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "register census 127 rows",
+        "ok": true,
+        "detail": "127"
+      },
+      {
+        "name": "B4 buckets partition the 126-note remainder exactly",
+        "ok": true,
+        "detail": "126 notes bucketed"
+      },
+      {
+        "name": "B4 W1 == the 6 authored wave-1 notes",
+        "ok": true,
+        "detail": "1-1-2-speed,1-1-3-core-practical-investigating-motion,1-1-4-acceleration,1-1-5-velocity-time-graphs,1-1-6-area-under-a-velocity-time-graph,1-1-7-calculating-uniform-acceleration"
+      },
+      {
+        "name": "B4 pilot outside every bucket",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_k9wr3prcg vs guided-lesson/0.6",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_k9wr3prcg \"Average speed and th\": 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 rn_k9wr3prcg: keyPoints 3..6",
+        "ok": true,
+        "detail": "4"
+      },
+      {
+        "name": "A0 rn_k9wr3prcg: primer 35..90 words",
+        "ok": true,
+        "detail": "51 words"
+      },
+      {
+        "name": "A0 rn_k9wr3prcg \"Formula triangles an\": 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 rn_k9wr3prcg: keyPoints 3..6",
+        "ok": true,
+        "detail": "4"
+      },
+      {
+        "name": "A0 rn_k9wr3prcg: primer 35..90 words",
+        "ok": true,
+        "detail": "51 words"
+      },
+      {
+        "name": "A0 rn_k9wr3prcg: sizing B2 1..3 lessons",
+        "ok": true,
+        "detail": "2"
+      },
+      {
+        "name": "A0 rn_k9wr3prcg: lessons carry specRefs",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_k9wr3prcg: figure closure both ways (figureIds <-> moduleIds)",
+        "ok": true,
+        "detail": "3/3"
+      },
+      {
+        "name": "A0 rn_k9wr3prcg: glossary 3..8",
+        "ok": true,
+        "detail": "4"
+      },
+      {
+        "name": "A0 rn_pfndTqR6D vs guided-lesson/0.6",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_pfndTqR6D \"Aim, variables and a\": 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 rn_pfndTqR6D: keyPoints 3..6",
+        "ok": true,
+        "detail": "4"
+      },
+      {
+        "name": "A0 rn_pfndTqR6D: primer 35..90 words",
+        "ok": true,
+        "detail": "54 words"
+      },
+      {
+        "name": "A0 rn_pfndTqR6D \"Running the drop and\": 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 rn_pfndTqR6D: keyPoints 3..6",
+        "ok": true,
+        "detail": "5"
+      },
+      {
+        "name": "A0 rn_pfndTqR6D: primer 35..90 words",
+        "ok": true,
+        "detail": "54 words"
+      },
+      {
+        "name": "A0 rn_pfndTqR6D: sizing B2 1..3 lessons",
+        "ok": true,
+        "detail": "2"
+      },
+      {
+        "name": "A0 rn_pfndTqR6D: lessons carry specRefs",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_pfndTqR6D: figure closure both ways (figureIds <-> moduleIds)",
+        "ok": true,
+        "detail": "2/2"
+      },
+      {
+        "name": "A0 rn_pfndTqR6D: glossary 3..8",
+        "ok": true,
+        "detail": "5"
+      },
+      {
+        "name": "A0 rn_CpJZQWzbv vs guided-lesson/0.6",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_CpJZQWzbv \"Acceleration as the \": 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 rn_CpJZQWzbv: keyPoints 3..6",
+        "ok": true,
+        "detail": "4"
+      },
+      {
+        "name": "A0 rn_CpJZQWzbv: primer 35..90 words",
+        "ok": true,
+        "detail": "50 words"
+      },
+      {
+        "name": "A0 rn_CpJZQWzbv \"Slowing down, the tr\": 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 rn_CpJZQWzbv: keyPoints 3..6",
+        "ok": true,
+        "detail": "4"
+      },
+      {
+        "name": "A0 rn_CpJZQWzbv: primer 35..90 words",
+        "ok": true,
+        "detail": "50 words"
+      },
+      {
+        "name": "A0 rn_CpJZQWzbv: sizing B2 1..3 lessons",
+        "ok": true,
+        "detail": "2"
+      },
+      {
+        "name": "A0 rn_CpJZQWzbv: lessons carry specRefs",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_CpJZQWzbv: figure closure both ways (figureIds <-> moduleIds)",
+        "ok": true,
+        "detail": "2/2"
+      },
+      {
+        "name": "A0 rn_CpJZQWzbv: glossary 3..8",
+        "ok": true,
+        "detail": "4"
+      },
+      {
+        "name": "A0 rn_5hfYYFrc2 vs guided-lesson/0.6",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_5hfYYFrc2 \"Reading slopes and f\": 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 rn_5hfYYFrc2: keyPoints 3..6",
+        "ok": true,
+        "detail": "5"
+      },
+      {
+        "name": "A0 rn_5hfYYFrc2: primer 35..90 words",
+        "ok": true,
+        "detail": "42 words"
+      },
+      {
+        "name": "A0 rn_5hfYYFrc2 \"Acceleration from th\": 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 rn_5hfYYFrc2: keyPoints 3..6",
+        "ok": true,
+        "detail": "4"
+      },
+      {
+        "name": "A0 rn_5hfYYFrc2: primer 35..90 words",
+        "ok": true,
+        "detail": "42 words"
+      },
+      {
+        "name": "A0 rn_5hfYYFrc2: sizing B2 1..3 lessons",
+        "ok": true,
+        "detail": "2"
+      },
+      {
+        "name": "A0 rn_5hfYYFrc2: lessons carry specRefs",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_5hfYYFrc2: figure closure both ways (figureIds <-> moduleIds)",
+        "ok": true,
+        "detail": "5/5"
+      },
+      {
+        "name": "A0 rn_5hfYYFrc2: glossary 3..8",
+        "ok": true,
+        "detail": "4"
+      },
+      {
+        "name": "A0 rn_GxNWbSMqk vs guided-lesson/0.6",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_GxNWbSMqk \"What the area under \": 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 rn_GxNWbSMqk: keyPoints 3..6",
+        "ok": true,
+        "detail": "4"
+      },
+      {
+        "name": "A0 rn_GxNWbSMqk: primer 35..90 words",
+        "ok": true,
+        "detail": "42 words"
+      },
+      {
+        "name": "A0 rn_GxNWbSMqk \"Splitting the region\": 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 rn_GxNWbSMqk: keyPoints 3..6",
+        "ok": true,
+        "detail": "5"
+      },
+      {
+        "name": "A0 rn_GxNWbSMqk: primer 35..90 words",
+        "ok": true,
+        "detail": "42 words"
+      },
+      {
+        "name": "A0 rn_GxNWbSMqk: sizing B2 1..3 lessons",
+        "ok": true,
+        "detail": "2"
+      },
+      {
+        "name": "A0 rn_GxNWbSMqk: lessons carry specRefs",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_GxNWbSMqk: figure closure both ways (figureIds <-> moduleIds)",
+        "ok": true,
+        "detail": "4/4"
+      },
+      {
+        "name": "A0 rn_GxNWbSMqk: glossary 3..8",
+        "ok": true,
+        "detail": "4"
+      },
+      {
+        "name": "A0 rn_ZgGMNrRGB vs guided-lesson/0.6",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_ZgGMNrRGB \"The v² = u² + 2as re\": 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 rn_ZgGMNrRGB: keyPoints 3..6",
+        "ok": true,
+        "detail": "4"
+      },
+      {
+        "name": "A0 rn_ZgGMNrRGB: primer 35..90 words",
+        "ok": true,
+        "detail": "46 words"
+      },
+      {
+        "name": "A0 rn_ZgGMNrRGB \"Rearranging without \": 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 rn_ZgGMNrRGB: keyPoints 3..6",
+        "ok": true,
+        "detail": "5"
+      },
+      {
+        "name": "A0 rn_ZgGMNrRGB: primer 35..90 words",
+        "ok": true,
+        "detail": "46 words"
+      },
+      {
+        "name": "A0 rn_ZgGMNrRGB: sizing B2 1..3 lessons",
+        "ok": true,
+        "detail": "2"
+      },
+      {
+        "name": "A0 rn_ZgGMNrRGB: lessons carry specRefs",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_ZgGMNrRGB: figure closure both ways (figureIds <-> moduleIds)",
+        "ok": true,
+        "detail": "0/0"
+      },
+      {
+        "name": "A0 rn_ZgGMNrRGB: glossary 3..8",
+        "ok": true,
+        "detail": "4"
+      },
+      {
+        "name": "AN rn_k9wr3prcg: exactly-one-correct x10 + distinct option texts",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "AN rn_k9wr3prcg: correct-key census >= 3 distinct letters, max <= 5",
+        "ok": true,
+        "detail": "{\"A\":3,\"B\":3,\"C\":2,\"D\":2}"
+      },
+      {
+        "name": "AN rn_pfndTqR6D: exactly-one-correct x10 + distinct option texts",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "AN rn_pfndTqR6D: correct-key census >= 3 distinct letters, max <= 5",
+        "ok": true,
+        "detail": "{\"A\":2,\"C\":3,\"B\":3,\"D\":2}"
+      },
+      {
+        "name": "AN rn_CpJZQWzbv: exactly-one-correct x10 + distinct option texts",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "AN rn_CpJZQWzbv: correct-key census >= 3 distinct letters, max <= 5",
+        "ok": true,
+        "detail": "{\"A\":3,\"B\":3,\"D\":2,\"C\":2}"
+      },
+      {
+        "name": "AN rn_5hfYYFrc2: exactly-one-correct x10 + distinct option texts",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "AN rn_5hfYYFrc2: correct-key census >= 3 distinct letters, max <= 5",
+        "ok": true,
+        "detail": "{\"B\":3,\"D\":2,\"C\":2,\"A\":3}"
+      },
+      {
+        "name": "AN rn_GxNWbSMqk: exactly-one-correct x10 + distinct option texts",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "AN rn_GxNWbSMqk: correct-key census >= 3 distinct letters, max <= 5",
+        "ok": true,
+        "detail": "{\"B\":3,\"C\":2,\"A\":3,\"D\":2}"
+      },
+      {
+        "name": "AN rn_ZgGMNrRGB: exactly-one-correct x10 + distinct option texts",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "AN rn_ZgGMNrRGB: correct-key census >= 3 distinct letters, max <= 5",
+        "ok": true,
+        "detail": "{\"B\":2,\"C\":3,\"A\":3,\"D\":2}"
+      },
+      {
+        "name": "JC rn_k9wr3prcg: every option explained; distractors named; correct misconception null x10",
+        "ok": true,
+        "detail": "0 violations"
+      },
+      {
+        "name": "JC rn_pfndTqR6D: every option explained; distractors named; correct misconception null x10",
+        "ok": true,
+        "detail": "0 violations"
+      },
+      {
+        "name": "JC rn_CpJZQWzbv: every option explained; distractors named; correct misconception null x10",
+        "ok": true,
+        "detail": "0 violations"
+      },
+      {
+        "name": "JC rn_5hfYYFrc2: every option explained; distractors named; correct misconception null x10",
+        "ok": true,
+        "detail": "0 violations"
+      },
+      {
+        "name": "JC rn_GxNWbSMqk: every option explained; distractors named; correct misconception null x10",
+        "ok": true,
+        "detail": "0 violations"
+      },
+      {
+        "name": "JC rn_ZgGMNrRGB: every option explained; distractors named; correct misconception null x10",
+        "ok": true,
+        "detail": "0 violations"
+      },
+      {
+        "name": "SG rn_k9wr3prcg: lesson specRefs subset of file specPoints",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "SG rn_k9wr3prcg: every check KP-anchored x18",
+        "ok": true,
+        "detail": "18/18"
+      },
+      {
+        "name": "SG rn_pfndTqR6D: lesson specRefs subset of file specPoints",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "SG rn_pfndTqR6D: every check KP-anchored x18",
+        "ok": true,
+        "detail": "18/18"
+      },
+      {
+        "name": "SG rn_CpJZQWzbv: lesson specRefs subset of file specPoints",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "SG rn_CpJZQWzbv: every check KP-anchored x18",
+        "ok": true,
+        "detail": "18/18"
+      },
+      {
+        "name": "SG rn_5hfYYFrc2: lesson specRefs subset of file specPoints",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "SG rn_5hfYYFrc2: every check KP-anchored x18",
+        "ok": true,
+        "detail": "18/18"
+      },
+      {
+        "name": "SG rn_GxNWbSMqk: lesson specRefs subset of file specPoints",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "SG rn_GxNWbSMqk: every check KP-anchored x18",
+        "ok": true,
+        "detail": "18/18"
+      },
+      {
+        "name": "SG rn_ZgGMNrRGB: lesson specRefs subset of file specPoints",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "SG rn_ZgGMNrRGB: every check KP-anchored x18",
+        "ok": true,
+        "detail": "18/18"
+      },
+      {
+        "name": "KW rn_k9wr3prcg: >=3 distinct grounded keywords per written item x8",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "KW rn_pfndTqR6D: >=3 distinct grounded keywords per written item x8",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "KW rn_CpJZQWzbv: >=3 distinct grounded keywords per written item x8",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "KW rn_5hfYYFrc2: >=3 distinct grounded keywords per written item x8",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "KW rn_GxNWbSMqk: >=3 distinct grounded keywords per written item x8",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "KW rn_ZgGMNrRGB: >=3 distinct grounded keywords per written item x8",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "2.1B rn_k9wr3prcg: zero 8-gram overlaps vs note body",
+        "ok": true,
+        "detail": "0 hits"
+      },
+      {
+        "name": "2.1B rn_pfndTqR6D: zero 8-gram overlaps vs note body",
+        "ok": true,
+        "detail": "0 hits"
+      },
+      {
+        "name": "2.1B rn_CpJZQWzbv: zero 8-gram overlaps vs note body",
+        "ok": true,
+        "detail": "0 hits"
+      },
+      {
+        "name": "2.1B rn_5hfYYFrc2: zero 8-gram overlaps vs note body",
+        "ok": true,
+        "detail": "0 hits"
+      },
+      {
+        "name": "2.1B rn_GxNWbSMqk: zero 8-gram overlaps vs note body",
+        "ok": true,
+        "detail": "0 hits"
+      },
+      {
+        "name": "2.1B rn_ZgGMNrRGB: zero 8-gram overlaps vs note body",
+        "ok": true,
+        "detail": "0 hits"
+      },
+      {
+        "name": "NUM rn_k9wr3prcg: 8 ledger claims re-derived",
+        "ok": true,
+        "detail": "all exact"
+      },
+      {
+        "name": "NUM rn_pfndTqR6D: 5 ledger claims re-derived",
+        "ok": true,
+        "detail": "all exact"
+      },
+      {
+        "name": "NUM rn_CpJZQWzbv: 7 ledger claims re-derived",
+        "ok": true,
+        "detail": "all exact"
+      },
+      {
+        "name": "NUM rn_5hfYYFrc2: 5 ledger claims re-derived",
+        "ok": true,
+        "detail": "all exact"
+      },
+      {
+        "name": "NUM rn_GxNWbSMqk: 6 ledger claims re-derived",
+        "ok": true,
+        "detail": "all exact"
+      },
+      {
+        "name": "NUM rn_ZgGMNrRGB: 5 ledger claims re-derived",
+        "ok": true,
+        "detail": "all exact"
+      },
+      {
+        "name": "C-6 chemistry sources x112 vs guided-lesson/0.6 (union)",
+        "ok": true,
+        "detail": "112/112"
+      },
+      {
+        "name": "C-6 chemistry lessons x112 vs hub/lesson-import/1.5 (union)",
+        "ok": true,
+        "detail": "112/112"
+      },
+      {
+        "name": "C-6 chemistry packages x112 vs sme-question-package/1.2 (union)",
+        "ok": true,
+        "detail": "112/112"
+      },
+      {
+        "name": "written-kind invariants rn_k9wr3prcg (x8)",
+        "ok": true,
+        "detail": "8/8"
+      },
+      {
+        "name": "C-5 checkRefs<->questions 1:1 rn_k9wr3prcg",
+        "ok": true,
+        "detail": "18 refs / 18 questions"
+      },
+      {
+        "name": "B2 target rn_k9wr3prcg: every module carries exactly 9 checkRefs",
+        "ok": true,
+        "detail": "9,9"
+      },
+      {
+        "name": "C-6 lesson rn_k9wr3prcg vs hub/lesson-import/1.5",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 package rn_k9wr3prcg vs sme-question-package/1.2",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "written-kind invariants rn_pfndTqR6D (x8)",
+        "ok": true,
+        "detail": "8/8"
+      },
+      {
+        "name": "C-5 checkRefs<->questions 1:1 rn_pfndTqR6D",
+        "ok": true,
+        "detail": "18 refs / 18 questions"
+      },
+      {
+        "name": "B2 target rn_pfndTqR6D: every module carries exactly 9 checkRefs",
+        "ok": true,
+        "detail": "9,9"
+      },
+      {
+        "name": "C-6 lesson rn_pfndTqR6D vs hub/lesson-import/1.5",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 package rn_pfndTqR6D vs sme-question-package/1.2",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "written-kind invariants rn_CpJZQWzbv (x8)",
+        "ok": true,
+        "detail": "8/8"
+      },
+      {
+        "name": "C-5 checkRefs<->questions 1:1 rn_CpJZQWzbv",
+        "ok": true,
+        "detail": "18 refs / 18 questions"
+      },
+      {
+        "name": "B2 target rn_CpJZQWzbv: every module carries exactly 9 checkRefs",
+        "ok": true,
+        "detail": "9,9"
+      },
+      {
+        "name": "C-6 lesson rn_CpJZQWzbv vs hub/lesson-import/1.5",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 package rn_CpJZQWzbv vs sme-question-package/1.2",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "written-kind invariants rn_5hfYYFrc2 (x8)",
+        "ok": true,
+        "detail": "8/8"
+      },
+      {
+        "name": "C-5 checkRefs<->questions 1:1 rn_5hfYYFrc2",
+        "ok": true,
+        "detail": "18 refs / 18 questions"
+      },
+      {
+        "name": "B2 target rn_5hfYYFrc2: every module carries exactly 9 checkRefs",
+        "ok": true,
+        "detail": "9,9"
+      },
+      {
+        "name": "C-6 lesson rn_5hfYYFrc2 vs hub/lesson-import/1.5",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 package rn_5hfYYFrc2 vs sme-question-package/1.2",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "written-kind invariants rn_GxNWbSMqk (x8)",
+        "ok": true,
+        "detail": "8/8"
+      },
+      {
+        "name": "C-5 checkRefs<->questions 1:1 rn_GxNWbSMqk",
+        "ok": true,
+        "detail": "18 refs / 18 questions"
+      },
+      {
+        "name": "B2 target rn_GxNWbSMqk: every module carries exactly 9 checkRefs",
+        "ok": true,
+        "detail": "9,9"
+      },
+      {
+        "name": "C-6 lesson rn_GxNWbSMqk vs hub/lesson-import/1.5",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 package rn_GxNWbSMqk vs sme-question-package/1.2",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "written-kind invariants rn_ZgGMNrRGB (x8)",
+        "ok": true,
+        "detail": "8/8"
+      },
+      {
+        "name": "C-5 checkRefs<->questions 1:1 rn_ZgGMNrRGB",
+        "ok": true,
+        "detail": "18 refs / 18 questions"
+      },
+      {
+        "name": "B2 target rn_ZgGMNrRGB: every module carries exactly 9 checkRefs",
+        "ok": true,
+        "detail": "9,9"
+      },
+      {
+        "name": "C-6 lesson rn_ZgGMNrRGB vs hub/lesson-import/1.5",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 package rn_ZgGMNrRGB vs sme-question-package/1.2",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "B2 identity arithmetic: 9 = 5+2+1+1 per lesson",
+        "ok": true,
+        "detail": "{\"notes\":6,\"lessons\":12,\"checks\":108,\"keyPoints\":52,\"distractors\":180,\"glossaryTerms\":25,\"figures\":16,\"figures_module_mapped\":16,\"figures_note_level\":0,\"workedExamples_populated\":5,\"workedExamples_null\":1,\"checks_mcq\":60,\"written_recall\":24,\"written_explain_why\":12,\"written_application\":12}"
+      },
+      {
+        "name": "manifest v19 lists 12 artifacts",
+        "ok": true,
+        "detail": "12"
+      }
+    ]
+  },
+  "merge_order": "resources PR (this branch) merges to main FIRST; the hub PR (FEED physics-wave1-v19 + landed artifacts + re-issued guided-import.json) merges only after; wave-2 buckets remain operator-gated and are NOT in this tranche (B4: one wave per gate)",
+  "hub_side_note": "the hub renderer is course-generic; the physics FEED physics-stagea-v18 already exercised the parameterized runner — wave-1 adds one FEED entry (physics-wave1-v19) with feed-gated constants only (pack/course_id/counts/prefix/wave-count), chemistry-preserving defaults untouched",
+  "disclosures": [
+    "naming: the contract of record named lanes ns4ph1-waveN; the landed stage-A execution used the physics-* family (receipts dir PHYSICS-STAGEA, feed physics-stagea-v18) — wave-1 follows the LANDED convention (lane physics-wave1, feed physics-wave1-v19, receipts PHYSICS-WAVE1); recorded here so both naming families resolve to the same programme",
+    "the 1-1-7 note carries zero usable images — the optional figures layer is omitted entirely (key absent, never an empty array), matching the 0.6 schema's declared absent-when-no-usable-images semantics; 5/127 physics notes are figureless (census of record)",
+    "spec 1.6's curriculum title of record carries the fragment 'accelerati on' (a curriculum-data artifact); it is carried VERBATIM (zero-invention law) and disclosed here",
+    "captions: 10 of 16 figures carry the notes' own bold-italic explanatory lines; the 6 worked-example images carry none (fail-closed absent, declared)",
+    "other-run activity at open disclosed: resources main advanced 23dd0c9d -> 196c2957 (PR #270 g9-followups: LEDGER.md + scripts/ only) between re-ground and branch — caught by the pre-branch fetch, zero namespace overlap, race-guard re-checks due at push; hub main 37aa9e44 (t-gradeb-6) likewise an unrelated lane",
+    "sandbox recycle lost the previous session's lane mirrors; all of-record state re-fetched from remotes (fetch-first honored)"
+  ]
+}
