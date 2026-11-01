@@ -71,26 +71,26 @@
      "part_number": "1(b)",
      "marks": 1,
      "question_type": "multiple_choice",
-     "problem_md": "The Sun will become a red giant star when it leaves the main sequence. Which row correctly describes how the surface temperature and brightness of the Sun will change when it becomes a red giant? Surface Brightness temperature",
+     "problem_md": "The Sun will become a red giant star when it leaves the main sequence.\n\nWhich row correctly describes how the surface temperature and brightness of the Sun will change when it becomes a red giant?\n\n| Surface temperature | Brightness |\n|---|---|\n| decreases | decreases |\n| decreases | increases |\n| increases | decreases |\n| increases | increases |",
      "choices": [
       {
        "label": "A",
-       "text_md": "decreases                                                                          decreases",
+       "text_md": "",
        "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "decreases                                                                           increases",
+       "text_md": "",
        "is_correct": true
       },
       {
        "label": "C",
-       "text_md": "increases                                                                         decreases",
+       "text_md": "",
        "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "increases                                                                          increases",
+       "text_md": "",
        "is_correct": false
       }
      ],
@@ -109,11 +109,13 @@
       "8.9"
      ],
      "tagging": "llm-spec-wave",
-     "edit_status": "extracted",
+     "edit_status": "repaired:run008-w2-f129",
      "value_trace": {
       "keys": "ms-positional",
       "marks": "ms-printed",
-      "numbers": "source-printed"
+      "numbers": "source-printed",
+      "table": "run008-w2 page-evidenced (qp.pdf print, eyes-on)",
+      "choices": "letter-only: option content lives in the stem (table/diagrams); labels+key unchanged"
      }
     },
     {

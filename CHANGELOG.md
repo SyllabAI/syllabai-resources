@@ -400,3 +400,13 @@ converter stays 0.11.0-era; zero corpus changes; 63 corpus canaries untouched.
   verification" queue it referenced was settled in v0.10.1).
 - Retired in review: reflow of PDF hard-wraps (render-identical under react-markdown soft
   breaks; disturbed the wave-14 verbatim pins).
+
+## F129 — 2026-11-01 · 4PH1 run-008 W2: the R1+R3 table-format corpus wave
+
+Word-bank pseudo-tables rebuilt page-evidenced corpus-side (17 single-line banks → N-col
+GFM with terms as cells; 6 multi-line banks → row-per-line; 5 prose/label boxes →
+blockquotes; 1 label → 2-col), 3 official flattened MCQ parts restored (GFM stem tables +
+composite diagram crop; choices letter-only), 2 mirror-lag pids := plane. questions.md
+regen rides (15 files; official via the of-record renderer, SME surgical — the shipped
+renders predate the renderer). Post-census == pre-registered gate exactly; G3/T1/T2
+GREEN; 55 pins; v2 plane untouched.

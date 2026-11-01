@@ -1,0 +1,72 @@
+{
+ "anchor": {
+  "resources_main": "168b8582 (branch base; physics corpus identical to census anchor 12e13629)",
+  "v2_main": "c5d59fa5"
+ },
+ "census": {
+  "plane": {
+   "questions": {
+    "label": "plane-questions.json",
+    "blocks": 151,
+    "by_class": {
+     "MULTI_COL_OK": 122,
+     "1COL_DEGENERATE": 29
+    },
+    "parts_by_class": {
+     "MULTI_COL_OK": 99,
+     "1COL_DEGENERATE": 26
+    }
+   },
+   "official": {
+    "label": "plane-official-papers.json",
+    "blocks": 0,
+    "by_class": {},
+    "parts_by_class": {}
+   }
+  },
+  "corpus": {
+   "sme": {
+    "label": "corpus-topic.json",
+    "blocks": 151,
+    "by_class": {
+     "MULTI_COL_OK": 122,
+     "1COL_DEGENERATE": 29
+    },
+    "parts_by_class": {
+     "MULTI_COL_OK": 99,
+     "1COL_DEGENERATE": 26
+    }
+   }
+  }
+ },
+ "math_pipe": {
+  "plane_questions": [],
+  "plane_official": [],
+  "corpus_sme": []
+ },
+ "plane_vs_corpus": {
+  "common_pids_with_blocks": 123,
+  "plane_only": [],
+  "corpus_only": [],
+  "signature_diffs": [
+   "qstnprt_JHSpcZfPW7RxDt6t",
+   "qstnprt_qq3VPGgCZtyWTqzV",
+   "qstnprt_rFWG5Qh543f8GNmQ"
+  ]
+ },
+ "post_gate_expectation": {
+  "sme_census": {
+   "1COL_DEGENERATE_blocks": 0,
+   "MULTI_COL_OK_blocks": 146,
+   "math_pipe_conflicts": 0
+  },
+  "official_corpus_census": {
+   "MULTI_COL_OK_blocks": 2,
+   "1COL_DEGENERATE_blocks": 0,
+   "math_pipe_conflicts": 0
+  },
+  "g3": "zero PUA / U+FFFD / C0 controls in every written value",
+  "plane_of_record": "v2 apps/hub/content/igcse-physics-19/** byte-identical (no v2 commit in W2)",
+  "t2": "untouched topic.json + questions.md byte-identical to HEAD; touched topic.json differ ONLY in the pinned fields (T1: indent=1, ensure_ascii=False, no trailing newline)"
+ }
+}

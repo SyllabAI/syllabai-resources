@@ -198,8 +198,8 @@ State two advantages of connecting lamps in parallel rather than series.
 ### 7() — 4 marks — command: multiple — structured — from paper June 2014 · 1PR
 A label on one of the office computers includes this information.
 
-| 230 V                                                                                        0.25 kW |
-|---|
+| 230 V | 0.25 kW |
+|---|---|
 
 (i) State the equation linking power, current and voltage.
 
@@ -275,8 +275,13 @@ The photograph shows an extension cable on a reel.
 
 There is a warning label on the reel.
 
-| WARNING<br><br>maximum allowable power<br><br>when cable fully extended - 2400 W, 240 V<br><br>when cable coiled up - 700 W, 240 V |
-|---|
+> WARNING
+>
+> maximum allowable power
+>
+> when cable fully extended - 2400 W, 240 V
+>
+> when cable coiled up - 700 W, 240 V
 
 (i) State the equation linking power, current and voltage.
 

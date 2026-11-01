@@ -214,3 +214,56 @@ disclosure retires by consumption (the r2-consumed twin) and the 421-pin
 zero-network group-stem battery (B0-B5) is CI-enforced. Hygiene: the stray
 F127 conflict-marker line removed; the f126-named disclosure path ref
 corrected to the f127 file.
+
+## 2026-11-01 — F129: the R1+R3 table-format corpus wave (T-OEQ-PHYS-FORMAT-1 run-008 W2)
+
+Operator order: "W2 (R1+R3 in the resources corpus, page-evidence law, questions.md regen
+rides)". The audit's pre-registered census gate re-verified fresh at the branch base
+(origin/main 168b8582; physics corpus byte-identical to the census anchor): R1 = 29
+degenerate one-column blocks / 26 SME parts (audit number reproduced exactly), R3 = the 3
+official flattened/corrupt-header MCQ parts (2022-01 1P 1(a), 2024-06 1P 2(a), 2021-11 2P
+1(b) — official-papers.json byte-identical since the audit, sha256 f0945d29…), 0
+math-pipe conflicts. W2 lands corpus-side only (the v2 plane of record is untouched; the
+serving leg rides the next converter run per the corpus-first law).
+
+- **R1 (26 parts / 29 blocks, 12 SME subtopics)**: every 1-col degenerate pseudo-table
+  rebuilt page-evidenced — 17 single-line word banks → true N-col GFM tables (terms =
+  cells, scrape bold/italic verbatim), 6 multi-line banks (<br> line structure = rows) →
+  N-col tables with explicit padding, 5 prose/label boxes (WARNING labels, student
+  response, lifting-sheet explainer, italic sentence box) → blockquotes, 1 two-token
+  label → 2-col table. Eyes-on evidence: live SME pages of record rendered headless
+  (13 pages, 52 box crops, 7 contact sheets in
+  `scripts/oeq_phys_run008w2/`); one DRIFT disclosed (3-3-sound — live SME reworded the
+  question post-scrape 2026-09-17; rebuilt from the corpus's own gap+<br> transcription,
+  no invention).
+- **R3 (3 official MCQ parts)**: 2024-06 1P 2(a) and 2021-11 2P 1(b) — the flattened
+  header tails removed and the printed tables restored as GFM tables in the stem
+  (page-evidenced vs the QP pdf renders; the 2024-06 crop asset_2_a_table.png dropped
+  from the registry per the maths-B Mode-A precedent, file kept); 2022-01 1P 1(a) — the
+  four field-pattern DIAGRAMS restored as one composite page-evidenced crop
+  (asset_1_a_diagram_choices.png); all three parts' choices go letter-only (text_md := ""
+  — the hub's own mcqOptionsVisible/letterOnly convention: option content lives in the
+  stem; labels + attested keys unchanged). edit_status "repaired:run008-w2-f129" +
+  value_trace stamps per part.
+- **R4 rider (2 pids, disclosed at pre-registration)**: the fresh census surfaced 2
+  corpus-lag pids absent from every run-006/007 pins file (qstnprt_JHSpcZfPW7RxDt6t
+  backtick nuclear-notation cells; qstnprt_qq3VPGgCZtyWTqzV $\text{square}$ tick cell) —
+  corpus := v2 plane of record byte-exact (the run-006 field law), closing a live
+  exporter-regression trap for the next serving leg. One benign transform pid
+  (rFWG5Qh543f8GNmQ, asset-path rewrite) disclosed as NOT drift.
+- **questions.md regen rides**: 15 files — official 3 via the of-record write_questions_md
+  renderer (byte-fidelity proven on an untouched paper first), SME 12 via surgical block
+  replacement (the shipped SME renders predate the current renderer and are not
+  byte-reproducible by it — full re-render refused by design).
+- **Gates GREEN**: post-census == pre-registration exactly (SME 1COL_DEGENERATE 29 → 0,
+  MULTI_COL_OK 122 → 146; official corpus 0 → 2; math-pipe 0/0); G3 zero
+  PUA/U+FFFD/C0 corpus-wide; T1 JSON round-trip on every touched file; T2 untouched
+  slices byte-identical (36 modified files + 1 new asset = exactly the edited set);
+  55 field/file pins (`scripts/oeq_phys_run008w2_pins.json`); plane of record v2
+  untouched. Zero DB/Neon/prod contact.
+- **Standing**: R2 (93 SME flattened parts, audit of record) + the june-2026-4ph1-1p
+  single-paper inspection (absorbed into the census: zero pipe tables and zero flattened
+  parts on that paper — the official trio above is the complete official-side defect set)
+  + the serving leg (corpus → v2 plane re-export + manifest re-stamp) all remain for the
+  operator's next orders. The tick-table `square` backtick residual (qq3VPGgCZtyWTqzV
+  rows 2-4, corpus ≡ plane) is filed, not executed.

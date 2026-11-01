@@ -326,7 +326,7 @@ The table describes the nuclei of four atoms.
 
 | uranium-234 | uranium-235 | plutonium-238 | americium-238 |
 |---|---|---|---|
-| `U _ 92 ^ 234` | `U _ 92 ^ 235` | $Pu_{94}^{238}$ | $Am_{95}^{238}$ |
+|---|---|---|---|
 
 (i) Which two nuclei have the same number of protons?
 

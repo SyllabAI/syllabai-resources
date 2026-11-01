@@ -79,14 +79,21 @@ This question is about radioactivity.
 
 ### 2(a) [1]
 
-The nucleus of an atom of carbon has 6 protons and 8 neutrons. Which row of the table shows the nucleus of an atom that is a different isotope of carbon? Number of protons Number of neutrons
+The nucleus of an atom of carbon has 6 protons and 8 neutrons.
 
-- **(A)** 6                       6  ✔
-- **(B)** 6                       8
-- **(C)** 8                       6
-- **(D)** 8                       8
+Which row of the table shows the nucleus of an atom that is a different isotope of carbon?
 
-![table — official paper figure (qp.pdf p.4)](assets/asset_2_a_table.png)
+| Number of protons | Number of neutrons |
+|---|---|
+| 6 | 6 |
+| 6 | 8 |
+| 8 | 6 |
+| 8 | 8 |
+
+- **(A)**   ✔
+- **(B)** 
+- **(C)** 
+- **(D)** 
 
 
 **Mark scheme answer**

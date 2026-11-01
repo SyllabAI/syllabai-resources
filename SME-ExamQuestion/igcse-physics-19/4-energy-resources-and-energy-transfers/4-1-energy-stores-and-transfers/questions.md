@@ -38,8 +38,9 @@ The diagram shows a cell connected to a lamp.
 
 Use words from the box to complete the sentences.
 
-| chemical         heating         nuclear         mechanically<br><br>thermal         radiation         magnetic |
-|---|
+| chemical | heating | nuclear | mechanically |
+|---|---|---|---|
+| thermal | radiation | magnetic | |
 
 Each word may be used once, more than once, or not at all.
 

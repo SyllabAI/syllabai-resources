@@ -108,7 +108,7 @@ Explain why.
 
 Tick **(✓) one** box.
 
-| **Radon-222** | $\text{square}$ |
+| **Radon-222** | $\square$ |
 |---|---|
 | **Iodine-131** | `square` |
 | **Cobalt-60** | `square` |

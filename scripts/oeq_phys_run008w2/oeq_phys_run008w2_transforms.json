@@ -1,0 +1,108 @@
+{
+  "lane": "T-OEQ-PHYS-FORMAT-1",
+  "run": "run-008",
+  "wave": "W2",
+  "scope": "R1+R3 in the resources corpus, page-evidence law, questions.md regen rides (operator order)",
+  "preregistration": {
+    "census_of_record": {
+      "source": "fresh census at resources main 12e13629 / v2 main c5d59fa5 (run008_census.py)",
+      "plane_questions_json": {"blocks": 151, "MULTI_COL_OK": 122, "1COL_DEGENERATE": 29, "parts_1COL": 26, "math_pipe_conflicts": 0},
+      "corpus_sme": {"blocks": 151, "MULTI_COL_OK": 122, "1COL_DEGENERATE": 29, "parts_1COL": 26, "math_pipe_conflicts": 0},
+      "plane_official": {"pipe_blocks": 0, "flattened_table_parts": 3, "parts": ["offp_2022-01_1p_1-a", "offp_2024-06_1p_2-a", "offp_2021-11_2p_1-b"]},
+      "audit_reconciliation": "R1 29 blocks / 26 parts REPRODUCED exactly; the audit's 3 corrupt-dash-header parts = the official flattened MCQ trio (official-papers.json byte-identical since the audit, sha256 f0945d29...); audit MULTI_COL_OK 119/96 vs fresh 122/99 — the 3-block delta is the plane-vs-corpus signature-diff trio (2 mirror-lag pids + 1 benign asset-path transform), disclosed below",
+      "r2_note": "R2 (93 SME flattened parts) is NOT in W2 scope; the audit's R2 figure stands as recorded, re-derivation rides the R2 wave's own pre-registration"
+    },
+    "newly_disclosed": {
+      "mirror_lag_pids": [
+        {"pid": "qstnprt_JHSpcZfPW7RxDt6t", "class": "problem_md KaTeX cells stale corpus-side (plane served the run-001/003 form; corpus kept backtick cells + legacy Pu/Am cell forms); absent from every run-006/007 pins file", "fix": "R4 rider: corpus := plane of record, byte-exact"},
+        {"pid": "qstnprt_qq3VPGgCZtyWTqzV", "class": "problem_md tick-cell $\\text{square}$ vs plane $\\square$ (row 1 of the tick table); absent from every pins file", "fix": "R4 rider: corpus := plane of record, byte-exact"}
+      ],
+      "benign_transform_pid": {"pid": "qstnprt_rFWG5Qh543f8GNmQ", "why": "corpus assets/... paths vs plane raw.githubusercontent URLs — the exporter's own rewrite, NOT drift"},
+      "observed_residual": {"pid": "qstnprt_qq3VPGgCZtyWTqzV", "note": "tick-table rows 2-4 carry backtick square cells corpus AND plane alike (no drift) — served-defect class, outside W2 scope, filed for the operator"}
+    }
+  },
+  "transforms": {
+    "sme_r1": [
+      {"pid": "qstnprt_3fvGTjrNb4SMqq83", "file": "8-astrophysics/8-3-cosmology/topic.json", "morph": "bank-1line",
+       "new": "| **explosion** | **faster** | **expand** | **Big Bang** | **heats** | **hot** | **Big Crunch** | **shrinks** | **cools** |\n|---|---|---|---|---|---|---|---|---|"},
+      {"pid": "qstnprt_5DGHPHGkbxDxY7Gn", "file": "2-electricity/2-4-static-electricity/topic.json", "morph": "prose-box",
+       "new": "> **This is how it works**\n>\n> A lifting sheet is placed over the footprint.\n>\n> The metal plate is placed near it.\n>\n> The control unit applies a voltage of 10 kV between the lifting sheet and the metal plate.\n>\n> The lifting sheet becomes negatively charged and the metal plate becomes positively charged.\n>\n> A dust print forms on the lower surface of the lifting sheet."},
+      {"pid": "qstnprt_8PBqXPkmRgdhHMCV", "file": "2-electricity/2-4-static-electricity/topic.json", "morph": "bank-1line",
+       "new": "| **conductor** | **insulator** | **potential difference** | **current** | **charge** | **resistance** | **electrons** | **earth** | **air** |\n|---|---|---|---|---|---|---|---|---|"},
+      {"pid": "qstnprt_C4W6Sv3kFhgy3HjQ", "file": "1-forces-and-motion/1-4-moments/topic.json", "morph": "bank-1line-x2",
+       "new": "| **larger than** | **smaller than** | **equal to** |\n|---|---|---|",
+       "new2": "| **lifting force** | **weight** | **further from** | **closer to** |\n|---|---|---|---|"},
+      {"pid": "qstnprt_HJ2JhhCjypv6Q6bp", "file": "4-energy-resources-and-energy-transfers/4-1-energy-stores-and-transfers/topic.json", "morph": "bank-2line",
+       "new": "| chemical | heating | nuclear | mechanically |\n|---|---|---|---|\n| thermal | radiation | magnetic | |"},
+      {"pid": "qstnprt_KV6qpKqzvJ3H3mXM", "file": "8-astrophysics/8-3-cosmology/topic.json", "morph": "bank-2line",
+       "new": "| **stretch out** | **slower** | **expanding** | **moving towards** | **red** |\n|---|---|---|---|---|\n| **receding** | **faster** | **black hole** | **doppler** | **blue** |"},
+      {"pid": "qstnprt_KXxGC7xXRRNNx2Yd", "file": "5-solids-liquids-and-gases/5-3-ideal-gases/topic.json", "morph": "prose-box",
+       "new": "> To measure the pressure in the balloon I will count how many times I push the pump. The same amount of air goes into the balloon with each push.\n>\n> When there is twice as much air in the balloon the pressure will be twice as high, so the pressure will be proportional to the number of times I push the pump."},
+      {"pid": "qstnprt_KzKNv3KRmPXqHFRM", "file": "5-solids-liquids-and-gases/5-3-ideal-gases/topic.json", "morph": "prose-box",
+       "new": "> **WARNING**\n>\n> Pressurised container\n>\n> Do not expose to temperatures above 50°C"},
+      {"pid": "qstnprt_Ntxd8MKCTKWWSYdK", "file": "1-forces-and-motion/1-2-forces-movement-and-changing-shape/topic.json", "morph": "bank-1line",
+       "new": "| **stays the same** | **increases** | **decreases** | **downwards** | **upwards** | **greater than** | **less than** | **equal to** | **balanced** | **unbalanced** |\n|---|---|---|---|---|---|---|---|---|---|"},
+      {"pid": "qstnprt_PG9zCnZzzNpK7Fwc", "file": "2-electricity/2-4-static-electricity/topic.json", "morph": "bank-1line",
+       "new": "| **electrons** | **negative** | **neutral** | **neutrons** | **positive** | **protons** |\n|---|---|---|---|---|---|"},
+      {"pid": "qstnprt_Tkhndjq33kyf3rS3", "file": "1-forces-and-motion/1-4-moments/topic.json", "morph": "bank-1line",
+       "new": "| **a balancing** | **an accelerating** | **a turning** |\n|---|---|---|"},
+      {"pid": "qstnprt_WdtFYtwK94PM5zQr", "file": "7-radioactivity-and-particles/7-3-fission-and-fusion/topic.json", "morph": "bank-2line",
+       "new": "| **graphite** | **ionise** | **refract** | **magnesium** |\n|---|---|---|---|\n| **boron** | **slow** | **cardboard** | **absorb** |"},
+      {"pid": "qstnprt_WmXgbrnMRr2fVm53", "file": "6-magnetism-and-electromagnetism/6-2-electromagnetic-induction/topic.json", "morph": "bank-4line",
+       "new": "| efficiency is reduced |  |\n|---|---|\n| the national grid |  |\n| a power station |  |\n| heat loss is reduced | a transformer |"},
+      {"pid": "qstnprt_XmHQ2P2TVn7YQ8MR", "file": "3-waves/3-2-reflection-and-refraction/topic.json", "morph": "bank-1line",
+       "new": "| less than | equal to | greater than |\n|---|---|---|"},
+      {"pid": "qstnprt_XtHcvHZRp3RsjJBR", "file": "8-astrophysics/8-3-cosmology/topic.json", "morph": "bank-1line",
+       "new": "| **higher frequency** | **lower frequency** | **phase difference** | **wavelength** | **blueshift** | **relative motion** | **star** | **redshift** |\n|---|---|---|---|---|---|---|---|"},
+      {"pid": "qstnprt_YDVJY5BTZSR8nnjd", "file": "3-waves/3-3-sound/topic.json", "morph": "bank-1line-x3-drift",
+       "new": "| **a loudspeaker** | **a microphone** | **an oscilloscope** | **a screen** |\n|---|---|---|---|",
+       "new2": "| **the amplitude** | **half the amplitude** | **the frequency** | **half the frequency** |\n|---|---|---|---|",
+       "new3": "| **louder** | **quieter** | **a higher pitch** | **a lower pitch** |\n|---|---|---|---|"},
+      {"pid": "qstnprt_YQ8P73HYRZgxfhr2", "file": "7-radioactivity-and-particles/7-3-fission-and-fusion/topic.json", "morph": "bank-2line",
+       "new": "| Sun | Moon | splitting |\n|---|---|---|\n| moderator | fusion | joining |"},
+      {"pid": "qstnprt_cmJDFHBKn7C9Rr5x", "file": "8-astrophysics/8-2-stellar-evolution/topic.json", "morph": "bank-1line",
+       "new": "| **black dwarf** | **nebula** | **fusion** | **white dwarf** | **main sequence star** |\n|---|---|---|---|---|"},
+      {"pid": "qstnprt_fQrTP3QXDHyYStg2", "file": "7-radioactivity-and-particles/7-3-fission-and-fusion/topic.json", "morph": "bank-2line",
+       "new": "| **shielding** | **fast** | **high** |\n|---|---|---|\n| **fuel rods** | **daughter** | **baby** |"},
+      {"pid": "qstnprt_gJXSTr7BTvjDC9bq", "file": "2-electricity/2-3-electrical-power-and-mains-electricity/topic.json", "morph": "prose-box",
+       "new": "> WARNING\n>\n> maximum allowable power\n>\n> when cable fully extended - 2400 W, 240 V\n>\n> when cable coiled up - 700 W, 240 V"},
+      {"pid": "qstnprt_nfyVdG835XJF9wgK", "file": "8-astrophysics/8-2-stellar-evolution/topic.json", "morph": "bank-1line",
+       "new": "| **supergiants** | **white dwarfs** | **main sequence stars** | **giants** |\n|---|---|---|---|"},
+      {"pid": "qstnprt_nhDPW3VhQWzkKDgf", "file": "2-electricity/2-2-components-in-series-and-parallel-circuits/topic.json", "morph": "bank-1line",
+       "new": "| **larger than** | **smaller than** | **melts** | **falls off** | **starts** | **stops** | **overheating** | **overexciting** |\n|---|---|---|---|---|---|---|---|"},
+      {"pid": "qstnprt_qrNHTPPHqNctvcfF", "file": "8-astrophysics/8-2-stellar-evolution/topic.json", "morph": "prose-box",
+       "new": "> *A star forms when enough dust and gas are pulled together. Masses smaller than a star may also be formed when dust and gas are pulled together.*"},
+      {"pid": "qstnprt_tCzbVshDzwVC6jDt", "file": "2-electricity/2-3-electrical-power-and-mains-electricity/topic.json", "morph": "label-2tok",
+       "new": "| 230 V | 0.25 kW |\n|---|---|"},
+      {"pid": "qstnprt_v5G6z2MPDygXxKtP", "file": "8-astrophysics/8-2-stellar-evolution/topic.json", "morph": "bank-1line",
+       "new": "| **electron** | **supernova** | **giant** | **dwarf** | **momentum** | **neutron** |\n|---|---|---|---|---|---|"},
+      {"pid": "qstnprt_wB6TVwBHTm6d4fJc", "file": "8-astrophysics/8-2-stellar-evolution/topic.json", "morph": "bank-1line",
+       "new": "| **decay** | **balanced** | **fission** | **resultant forces** | **fusion** | **forces** |\n|---|---|---|---|---|---|"}
+    ],
+    "sme_r4_mirror": [
+      {"pid": "qstnprt_JHSpcZfPW7RxDt6t", "law": "corpus := v2 plane of record byte-exact (problem_md)"},
+      {"pid": "qstnprt_qq3VPGgCZtyWTqzV", "law": "corpus := v2 plane of record byte-exact (problem_md)"}
+    ],
+    "official_r3": [
+      {"part": "offp_2024-06_1p_2-a", "file": "Official-ExamQuestion/igcse-physics-19/2024-06/4PH1-1P/topic.json",
+       "problem_md": "The nucleus of an atom of carbon has 6 protons and 8 neutrons.\n\nWhich row of the table shows the nucleus of an atom that is a different isotope of carbon?\n\n| Number of protons | Number of neutrons |\n|---|---|\n| 6 | 6 |\n| 6 | 8 |\n| 8 | 6 |\n| 8 | 8 |",
+       "choices_text_md": "", "assets": "drop"},
+      {"part": "offp_2021-11_2p_1-b", "file": "Official-ExamQuestion/igcse-physics-19/2021-11/4PH1-2P/topic.json",
+       "problem_md": "The Sun will become a red giant star when it leaves the main sequence.\n\nWhich row correctly describes how the surface temperature and brightness of the Sun will change when it becomes a red giant?\n\n| Surface temperature | Brightness |\n|---|---|\n| decreases | decreases |\n| decreases | increases |\n| increases | decreases |\n| increases | increases |",
+       "choices_text_md": "", "assets": "none"},
+      {"part": "offp_2022-01_1p_1-a", "file": "Official-ExamQuestion/igcse-physics-19/2022-01/4PH1-1P/topic.json",
+       "problem_md": "Which of these diagrams correctly represents the magnetic field around a bar magnet?\n\n![magnetic field diagrams — options A to D (qp.pdf p.3)](assets/asset_1_a_diagram_choices.png)",
+       "choices_text_md": "", "assets": "add"}
+    ]
+  },
+  "post_gate_expectation": {
+    "sme_census": {"1COL_DEGENERATE_blocks": 0, "MULTI_COL_OK_blocks": 146, "math_pipe_conflicts": 0},
+    "official_corpus_census": {"MULTI_COL_OK_blocks": 2, "1COL_DEGENERATE_blocks": 0, "math_pipe_conflicts": 0},
+    "g3": "zero PUA / U+FFFD / C0 controls in every written value",
+    "plane_of_record": "v2 apps/hub/content/igcse-physics-19/** byte-identical (no v2 commit in W2)",
+    "t2": "untouched topic.json + questions.md byte-identical to HEAD; touched topic.json differ ONLY in the pinned fields (T1: indent=1, ensure_ascii=False, no trailing newline)"
+  },
+  "renderer_constraint_disclosure": "GFM mandates a header row; bank first lines render as th (bold) on the hub — cosmetic delta vs SME's uniform box lines for the no-bold blocks and body rows. Recorded, accepted (empty header rows strictly worse).",
+  "sme_questions_md_regen_law": "the shipped SME questions.md files predate the current renderer (malformed Source line, 1((b)) labels) and are NOT byte-reproducible by it — regen is SURGICAL per edited block (old block text replaced, unique-match asserted), full re-render refused by design",
+  "official_questions_md_regen_law": "write_questions_md (official_examq_extract.py:5154) is the of-record renderer (run-006 G-E1 law); fidelity tested on an untouched paper before the 3 touched papers re-render; surgical fallback if fidelity fails"
+}

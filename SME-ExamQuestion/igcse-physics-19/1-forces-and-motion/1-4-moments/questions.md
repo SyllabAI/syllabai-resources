@@ -75,8 +75,8 @@ One force which acts on the sign is its weight.
 
 Complete the following sentence
 
-| **a balancing     an accelerating     a turning** |
-|---|
+| **a balancing** | **an accelerating** | **a turning** |
+|---|---|---|
 
 The moment of the weight produces .................................... effect.
 
@@ -103,13 +103,13 @@ As the pole is lifted, what is the size and direction of the moment produced by 
 ### 2() — 2 marks — command: complete — structured
 Complete the following sentences
 
-| **larger than      smaller than     equal to** |
-|---|
+| **larger than** | **smaller than** | **equal to** |
+|---|---|---|
 
 (i) The minimum force needed to lift the end of the pole will be .................................... the weight of the pole.
 
-| **lifting force      weight       further from       closer to** |
-|---|
+| **lifting force** | **weight** | **further from** | **closer to** |
+|---|---|---|---|
 
 (ii) This is because the .................................... is .................................... the axis of rotation than the .................................... .
 

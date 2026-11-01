@@ -94,8 +94,8 @@ Which of the following shows the correct relationship between the readings on am
 ### 2() — 3 marks — command: complete — structured
 Complete the sentences to explain how a fuse protects a circuit.** **
 
-| **larger than         smaller than         melts          falls off          starts          stops         overheating         overexciting** |
-|---|
+| **larger than** | **smaller than** | **melts** | **falls off** | **starts** | **stops** | **overheating** | **overexciting** |
+|---|---|---|---|---|---|---|---|
 
 When the current becomes ........................... the value of the fuse, the fuse wire ........................... .** **This ........................... the flow of current in the circuit.
 

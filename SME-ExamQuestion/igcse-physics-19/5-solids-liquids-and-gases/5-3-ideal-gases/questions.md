@@ -296,8 +296,11 @@ Use ideas about particles to explain how a gas causes a pressure on the inside o
 ### 10((b)) — 3 marks — command: multiple — structured — from paper January 2013 · 1P
 The can has a warning sign on it.
 
-| **WARNING**<br><br>Pressurised container<br><br>Do not expose to temperatures above 50°C |
-|---|
+> **WARNING**
+>
+> Pressurised container
+>
+> Do not expose to temperatures above 50°C
 
 (i) How would increasing the temperature of the compressed air affect the pressure in the can?
 
@@ -527,8 +530,9 @@ A student wants to investigate how the volume of a balloon changes with pressure
 
 (ii) The student plans to measure the pressure of the air in the balloon.
 
-| To measure the pressure in the balloon I will count how many times I push the pump. The same amount of air goes into the balloon with each push.<br><br>When there is twice as much air in the balloon the pressure will be twice as high, so the pressure will be proportional to the number of times I push the pump. |
-|---|
+> To measure the pressure in the balloon I will count how many times I push the pump. The same amount of air goes into the balloon with each push.
+>
+> When there is twice as much air in the balloon the pressure will be twice as high, so the pressure will be proportional to the number of times I push the pump.
 
 Explain why the student’s plan will not work.
 

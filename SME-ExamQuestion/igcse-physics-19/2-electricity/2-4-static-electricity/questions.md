@@ -66,8 +66,8 @@ This question is about electrostatic charges.
 
 Complete the sentences using words from the box. Each word may be used once, more than once or not at all.
 
-| **electrons       negative       neutral       neutrons       positive       protons    ** |
-|---|
+| **electrons** | **negative** | **neutral** | **neutrons** | **positive** | **protons** |
+|---|---|---|---|---|---|
 
 When a plastic rod is rubbed with a cloth, the plastic rod gains ..................................... .
 
@@ -107,8 +107,8 @@ Metal appliances, such as the lift button, are earthed for safety.
 
 Use words from the box to complete the sentences.** **
 
-| **conductor      insulator      potential difference      current      charge      resistance      electrons       earth      air** |
-|---|
+| **conductor** | **insulator** | **potential difference** | **current** | **charge** | **resistance** | **electrons** | **earth** | **air** |
+|---|---|---|---|---|---|---|---|---|
 
 The man receives a shock even though the button is properly earthed because the lift button is made from metal, which is a ................................. . Since the man is charged, there is a ................................. between him and the button.
 
@@ -181,8 +181,17 @@ A forensic scientist uses an electrostatic dust print lifter (EDPL) to take impr
 
 ![gds](assets/014-gds.png)
 
-| **This is how it works**<br><br>A lifting sheet is placed over the footprint.<br><br>The metal plate is placed near it.<br><br>The control unit applies a voltage of 10 kV between the lifting sheet and the metal plate.<br><br>The lifting sheet becomes negatively charged and the metal plate becomes positively charged.<br><br>A dust print forms on the lower surface of the lifting sheet. |
-|---|
+> **This is how it works**
+>
+> A lifting sheet is placed over the footprint.
+>
+> The metal plate is placed near it.
+>
+> The control unit applies a voltage of 10 kV between the lifting sheet and the metal plate.
+>
+> The lifting sheet becomes negatively charged and the metal plate becomes positively charged.
+>
+> A dust print forms on the lower surface of the lifting sheet.
 
 Use the idea of charge movement to explain how the lifting sheet becomes negatively charged and the metal plate becomes positively charged.
 
