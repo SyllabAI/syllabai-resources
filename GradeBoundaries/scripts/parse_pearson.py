@@ -13,7 +13,11 @@ mis-alignment — fail-loud, never silent.
 
 Document grammars (one state machine):
   LINEAR  subject-header ladder lines + rows "<code> <name> Subject <max> <vals>"
-          + "Paper(s) 1C 2C" note lines. Tiered subjects carry
+          + "Paper(s) 1C 2C" note lines (the 2019/2020 era prints the same
+          fact as "Papers 1C & 2C" / "Papers 1B, 1C & 1P" and, for
+          single-paper subjects, singular "Paper 01" — all normalize to the
+          canonical 2022+ papersNote shape, e.g. "1C 2C", "1B 1C 1P", "01").
+          Tiered subjects carry
           "(Foundation)"/"(Higher)" in the row name; blank cells = None.
   MODULAR/IAL  per-subject sections: AS-unit / A2-unit ladder headers +
           "<code> <title> Raw <max> <vals>" rows with a bare "UMS <max> <vals>"
@@ -236,12 +240,21 @@ def parse_doc(pdf: Path, family: str) -> tuple[list[dict], list[str]]:
             continue
 
         # ---- papers note (linear) ----
-        if toks and toks[0].startswith("Paper(s)") and current is not None \
+        # two document generations print the same fact differently: the
+        # 2022+ docs say "Paper(s) 1C 2C" / "Paper(s) 1B 1C 1P", the
+        # 2019/2020 era says "Papers 1C & 2C" / "Papers 1B, 1C & 1P" and,
+        # for single-paper subjects (English Language B), singular
+        # "Paper 01" — normalize all three to the canonical 2022+ shape
+        # ("1C 2C", "1B 1C 1P", "01")
+        if toks and (toks[0].startswith("Paper(s)")
+                     or re.fullmatch(r"Papers?", toks[0])) \
+                and current is not None \
                 and current.get("overall") is not None \
                 and current.get("papersNote") is None:
-            current["papersNote"] = norm_ws(" ".join(toks[1:])
-                                            if len(toks) > 1 else
-                                            text.replace("Paper(s)", "").strip())
+            body = " ".join(toks[1:]) if len(toks) > 1 else text
+            body = re.sub(r"^Papers?(?:\(s\))?\s*", "", body)
+            body = re.sub(r"[,&]", " ", body)
+            current["papersNote"] = norm_ws(body)
             continue
 
         # ---- split-ladder stitch (Double Award 4XSD1) ----
