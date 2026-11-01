@@ -1029,3 +1029,72 @@ the stray git conflict-marker line at the F127 section tail (a leaked
 union-resolution fragment from the F126/F127 rebase race run-006 disclosed)
 is removed, and the f126-named disclosure path refs are corrected to the
 f127-named file of record.
+
+## The G9 all-papers audit + the validator 0.6/0.7 wave + the v4 contract (T-OEQ-G9-PAPERS-1, F129)
+
+The operator's order of record ("check all the papers … look for issues,
+critically", trace 1a19594682b002bd) executed as a full-breadth G9 rendered
+audit: EVERY official paper of the three ADR-037 lanes — **175 paper surfaces**
+(chemistry 54, physics 55, maths-B 66) — driven through the real syllabai-v2
+hub, then the frozen benchmark contract RE-DERIVED at that breadth as
+**benchmark_version 4**. Deployment identity settled before the probe
+(commit-status API): the sweep window served v2 `d7b199d35b52` (Vercel success
+2026-11-01T04:54:08Z) with the three official-papers.json bundles byte-identical
+across that sha, v2 main and the audit checkout (chem `135ca487…`, phys
+`f0945d29…` — the F128 stamp — maths `801474a7…`); receipts carry
+`deployment-identity.json`. The leg of record is the local runtime
+(`syllabai-v2-local-runtime`, the README runbook — production app code, not a
+mock); the production surface adds a 0.7 vercel spot (3/3 PASS, including the
+operator-cited `june-2026-4ch1-1c` route) at the spot-time sha `31028458b111`
+where the chemistry/physics bundles are still byte-identical and the maths-B
+bundle has moved to `6b6ba879…` under another lane's wave — recorded, not
+consumed here.
+
+Three committed sweeps, every FAIL probed to classification before any fix
+landed (fail-closed; nothing silenced):
+
+- **run0 (validator 0.5 of record, audit case set r0):** 135 PASS / 40 FAIL.
+  All 40 verified as validator-at-breadth defects, none learner-surface
+  defects: 39 solution-modal truncation false-FAILs (0.5 sliced
+  `body.innerText` at 20000 chars; the View-answer modal is a DOM-tail portal
+  — `chemistry-1c-2019-06`'s modal text sits at body index 21918 of 22599,
+  verbatim-present), 1 MCQ feedback mispick (`physics-1pr-2020-06`: the 2(c)
+  stem carries a "Correct (tick)" table header that matched the `/Correct/`
+  filter before the real feedback paragraph, while the marking styles proved
+  applied), and the interaction hydration class (pre-hydration click → no-op
+  submit) reproduced in calibration.
+- **run1 (validator 0.6 — FIX-1 full-text modal probe, FIX-2 interaction
+  retry/hydration gate, FIX-3 deterministic feedback-prefix filter):** 149
+  PASS / 26 FAIL. `solution-fail-classification.json` files the direct probe
+  of every residual: 13 raw-present in the View-answer modal (surface-choice
+  artifacts), 13 unrenderable frozen forms (2 markdown list-item heads, 8
+  squashed-MS-debris partials, 3 MS-debris absents). Zero learner-surface
+  content defects.
+- **run2 (validator 0.7 — FIX-5 either-surface solution law + the F129 census
+  checks; benchmark v4):** rendered leg **175/175 case PASS, 3058/3058 checks
+  PASS, zero FAIL/REVIEW/NOT_RUN**; static-bundles leg (g9-static-check/0.3,
+  unchanged of record) **175/175 PASS** over the v4 contract. The corpus leg
+  is not run in this wave (no resources checkout in the audit environment) —
+  no OVERALL aggregate is claimed, exactly per the F105 law.
+
+The v4 contract (`benchmark/cases.json`, casegen of record bumped to v4):
+every official paper topic of the three lanes is a frozen case (the static
+175-entry CASE_DEFS list), each case additionally freezing the 0.7 census
+expectations (ordered `question_ids`, exact `content_imgs_inlined`, exact
+`mcq_options_total`, `marks-meta-strict`). FIX-4 rides the derivation: the
+solution-fact picker refuses markdown list-marker heads and mark-scheme debris
+(M1/A1/cao/oe/…, `;;;`, Allow/Condone/Ignore verbs) — a paper whose
+solutionMd carries no clean prose freezes NO solution fact and runs the honest
+reveal-presence path, never a snippet the surface cannot render verbatim.
+Double derivation over the bundles of record is byte-identical
+(`casegen-determinism.receipt.json`, sha256 `8ca2b2deebec3448…`).
+
+Validator fix ledger (all receipted, none silent): FIX-1..3 (0.6, runner),
+FIX-4 (0.7, casegen), FIX-5 (0.7, runner either-surface) — each documented in
+the runner/casegen headers and the benchmark README evidence tables with the
+run that surfaced it.
+
+Receipts of record: `benchmark/receipts/2026-11-01-run0/` (discovery),
+`2026-11-01-run1/` (+classification), `2026-11-01-run2/` (leg of record:
+rendered + static-bundles + determinism + identity + 175 DOM audits + 175
+post-interaction screenshots + the vercel spot).

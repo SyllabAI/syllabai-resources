@@ -131,6 +131,26 @@ python3 scripts/official_examq_asset_bytes.py --scan-corpus Official-ExamQuestio
 python3 scripts/official_examq_g9_tests.py
 ```
 
+## The cases (benchmark_version 4 — the ALL-PAPERS contract, F129)
+
+**v3 → v4 (F129, this wave):** the operator's full-paper audit order ("check all the
+papers … look for issues, critically") swept EVERY official paper of the three
+ADR-037 lanes through the real hub — **175 paper surfaces** (chemistry 54, physics
+55, maths-B 66). A spot-case contract cannot describe that surface, so the frozen
+contract is RE-DERIVED at full breadth via the committed casegen: every official
+paper topic is a case (the static 175-entry CASE_DEFS list), and every case
+additionally freezes the **0.7 census expectations** — the ordered `question_ids`
+list, the exact `content_imgs_inlined` count, the exact `mcq_options_total`, and
+the `marks-meta-strict` parse. The derivation also carries the FIX-4 contract fix:
+the solution-fact picker refuses markdown list-item heads and mark-scheme table
+debris (squashed MS rows are never renderable verbatim), so a paper whose
+solutionMd carries no clean prose freezes NO solution fact and runs the honest
+reveal-presence path instead. Double derivation over the bundles of record is
+byte-identical (casegen-determinism.receipt.json).
+
+The v3 spot-case table below is retained as the selection-of-record history for
+the eight legacy cases; their hand rationales ride into v4 unchanged.
+
 ## The cases (benchmark_version 3)
 
 8 real corpus slices across the three lanes — physics (4), chemistry (3),
@@ -244,6 +264,41 @@ No `asset-byte-scan.json` in this run directory: the scan of record is
 corpus-wide (1192 assets, run1) and this wave's checkout carries only the 8
 case slices — a partial scan would be a dishonest census. The F104 scan stays
 enforced by the CI corpus-gates job on every PR.
+
+## Evidence of record (2026-11-01 — the all-papers audit, validator 0.5 → 0.7, benchmark v4)
+
+Three committed runs over the FULL 175-paper surface, plus the production spot.
+Renderer of record for the sweeps: `syllabai-v2-local-runtime` — the production
+`apps/hub` checkout at the deployed sha `d7b199d35b52` (Vercel deploy success
+2026-11-01T04:54:08Z; the three official-papers.json bundles byte-identical
+across that sha, v2 main and the checkout — `deployment-identity.json`).
+
+| run | receipt | result |
+|---|---|---|
+| `2026-11-01-run0` | `g9-render-receipt.json` (validator **0.5**, audit case set r0) | 175 cases: **135 PASS / 40 FAIL** — the fail-closed discovery leg. All 40 FAILs verified by direct probe to be VALIDATOR defects at full breadth, not learner-surface defects: 39 solution-modal truncation false-FAILs (the 0.5 probe sliced `body.innerText` at 20000 chars; the View-answer modal is a DOM-tail portal — `chemistry-1c-2019-06`'s modal text sits at body index 21918 of 22599, snippet verbatim-present), 1 feedback-paragraph mispick (a stem carrying a "Correct (tick)" table header matched the `/Correct/` filter first while marking styles proved applied), and the interaction hydration class reproduced in calibration (pre-hydration click → no-op submit). |
+| `2026-11-01-run1` | `g9-render-receipt.json` (validator **0.6**: FIX-1 full-text modal probe, FIX-2 interaction retry/hydration gate, FIX-3 deterministic feedback-prefix filter) + `solution-fail-classification.json` | 175 cases: **149 PASS / 26 FAIL**. The direct-probe classification of all 26 residuals: 13 raw-present in the View-answer modal (surface-choice artifacts → FIX-5), 13 unrenderable frozen forms (2 list-item heads, 8 MS-debris partials, 3 MS-debris absents → FIX-4 in the casegen). **Zero learner-surface content defects.** |
+| `2026-11-01-run2` | `g9-render.receipt.json` (validator **0.7**: FIX-5 either-surface solution law + the F129 census checks) + `g9-static-bundles.receipt.json` + `casegen-determinism.receipt.json` + `deployment-identity.json` + 175 DOM audits + 175 post-interaction screenshots | benchmark **v4** (175 frozen cases). Rendered leg: **175/175 case PASS, 3058/3058 checks PASS, zero FAIL/REVIEW/NOT_RUN.** Static-bundles leg (g9-static-check/0.3): **175/175 PASS.** The corpus leg is NOT run this wave (no resources checkout in the audit environment) — no OVERALL aggregate is claimed. |
+| `2026-11-01-run2` | `g9-render-vercel-spot.receipt.json` (validator **0.7** through the DEPLOYED hub) | 3/3 case PASS on production, including the operator-cited `/courses/igcse-chemistry-19/past-papers/june-2026-4ch1-1c`. Spot-time identity: v2 `31028458b111` (Vercel success 09:56:41Z); chemistry/physics bundles byte-identical to the sweep window; the maths-B bundle drifted after the sweep window (another lane's wave, `801474a7` → `6b6ba879`), so the spot covers the two unchanged lanes. |
+
+**Validator 0.6/0.7 fix ledger (all receipted, none silent):**
+
+- **FIX-1 (0.6)** — solution-modal probe searches the FULL page text; the 20000-char
+  slice false-FAILed present facts on any long paper (39 cases at 0.5).
+- **FIX-2 (0.6)** — interaction probes retry the click→submit→read cycle on a fresh
+  player state with growing settle waits; a pre-hydration click is retried, never
+  recorded as a surface FAIL.
+- **FIX-3 (0.6)** — the MCQ feedback paragraph is captured by its deterministic
+  prefix (`Correct…`/`Not quite…`), not any `/Correct/` occurrence (a stem with a
+  "Correct (tick)" table header mispicked first at 0.5: `physics-1pr-2020-06`).
+- **FIX-4 (0.7, casegen v4)** — the solution-fact picker refuses list-marker heads
+  and MS-debris lines; unrenderable frozen forms can no longer enter the contract
+  (the 13 maths/chemistry residual classes at 0.6).
+- **FIX-5 (0.7)** — either-surface solution law: reveal expansion (full qblock
+  text) first, View-answer modal (full page text) as fallback; the check names the
+  surface that actually carried the fact.
+
+Run0/run1 commit their receipts (with per-case check details) but not their DOM
+audits; run2 — the leg of record — commits everything.
 
 ## The asset-byte guard (the F104 fix at the earliest reliable boundary)
 

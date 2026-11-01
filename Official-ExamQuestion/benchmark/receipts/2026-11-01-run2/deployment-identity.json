@@ -1,0 +1,29 @@
+{
+  "evidence_schema": "syllabai.g9-deployment-identity/0.1",
+  "label": "f129-all-papers-audit-20261101",
+  "settled_utc": "2026-11-01T05:38:30Z",
+  "deployed_sha_of_record": "d7b199d35b528b4eedf5cf1dac7a0087fe0207d6",
+  "deployment_evidence": {
+    "source": "GitHub commit-status API, SyllabAI/syllabai-v2",
+    "status": "Vercel deploy SUCCESS for d7b199d35b52 at 2026-11-01T04:54:08Z",
+    "note": "commits after d7b199d (067a52b, cff6700, fae8c58 at probe time) were Vercel=pending; the production surface serves the d7b199d build"
+  },
+  "local_runtime_identity": {
+    "checkout": "worktree/v2-clone at d7b199d35b528b4eedf5cf1dac7a0087fe0207d6 (git rev-parse verified)",
+    "runtime": "next dev (the runbook of record for the local-runtime rendered leg); standalone build 500s on paper pages in this environment while production and dev serve 200 — dev is the README runbook, and the receipts record renderer class syllabai-v2-local-runtime",
+    "base_url": "http://localhost:3101"
+  },
+  "bundle_byte_identity": {
+    "method": "sha256 of apps/hub/content/<course>/official-papers.json fetched three ways: at the deployed sha, at v2 main, and from the local checkout",
+    "igcse-chemistry-19": "135ca487ac9b71dd... (identical across all three)",
+    "igcse-physics-19": "f0945d296107ea49... (identical across all three)",
+    "igcse-maths-b-16": "801474a740be6546... (identical across all three)",
+    "note": "the F128 LEDGER stamp records the physics bundle move 06d1848f -> f0945d29; the served surface matches"
+  },
+  "paper_universe": {
+    "igcse-chemistry-19": 54,
+    "igcse-physics-19": 55,
+    "igcse-maths-b-16": 66,
+    "total": 175
+  }
+}

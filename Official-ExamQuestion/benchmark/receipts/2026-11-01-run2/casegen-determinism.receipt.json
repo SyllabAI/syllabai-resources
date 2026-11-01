@@ -1,0 +1,14 @@
+{
+ "receipt_schema": "syllabai.g9-casegen-determinism/0.1",
+ "what": "official_examq_g9_casegen.py (v4) double derivation over the bundles of record",
+ "command": "python3 scripts/official_examq_g9_casegen.py --bundles-dir apps/hub/content --out cases.json (run twice)",
+ "run1_sha256": "8ca2b2deebec3448a91e9b53ef3f200a612d1ec011bc66ea0d3764a113f5e149",
+ "run2_sha256": "8ca2b2deebec3448a91e9b53ef3f200a612d1ec011bc66ea0d3764a113f5e149",
+ "byte_identical": true,
+ "cases": 175,
+ "bundles_identity": {
+  "igcse-chemistry-19": "135ca487ac9b71dd (byte-identical at deployed sha d7b199d, v2 main, and the local checkout)",
+  "igcse-physics-19": "f0945d296107ea49 (same)",
+  "igcse-maths-b-16": "801474a740be6546 (the sweep-window bundle of record; a later lane's wave moved the deployed maths bundle to 6b6ba879 AFTER this audit window \u2014 see deployment-identity.json)"
+ }
+}
