@@ -993,3 +993,12 @@ Evidence: `scripts/oeq_phys_run008w2/` + `scripts/oeq_phys_run008w2_pins.json`.
    locally unrunnable since `7343e125` (it copies the deleted corpus to build
    fixtures — pre-existing, not in CI, disclosed here; it resumes working the
    moment a corpus copy exists).
+3. **the un-red's first catch (the F130 payoff, same PR)** — letting the corpus-gates
+   job run past `graph_check` for the first time since `7343e125` immediately exposed
+   a latent stale pin: `official_examq_g9_tests.py` asserted "committed contract is
+   benchmark_version 3" while #268 had re-derived the committed contract to v4 —
+   invisible at the time because the job never reached the battery. The pin now
+   asserts the v4 contract of record; the version-agnostic shape/census checks below
+   it sweep all 175 cases (full battery re-run: 102/102 PASS, ALL G9 GATE TESTS
+   GREEN). This is the point of the un-red: the 12 downstream gates are back on
+   duty and already earned their keep.

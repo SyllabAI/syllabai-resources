@@ -427,11 +427,17 @@ def test_f120_label_contract(tmp):
     check("label control receipt honest (status DETECTED, control=mutated-label)",
           lrec.get("status") == "DETECTED" and lrec.get("control") == "mutated-label", str(lrec))
 
-    # e. the committed contract of record carries the v3 label shape
+    # e. the committed contract of record carries the v4 label shape
+    # F130 rider (2026-11-01): the pin below stayed at "benchmark_version 3"
+    # when the F129 re-derivation (PR #268) bumped the committed contract to
+    # v4 — invisible at the time because the corpus-gates job aborted at
+    # graph_check before this battery ever ran; the F130 un-red exposed it.
+    # The pin now asserts the v4 all-papers contract of record; the
+    # version-agnostic shape/census checks below it sweep all 175 cases.
     committed = HERE.parent / "Official-ExamQuestion" / "benchmark" / "cases.json"
     if committed.exists():
         cb = json.loads(committed.read_text())
-        check("committed contract is benchmark_version 3", cb.get("benchmark_version") == 3,
+        check("committed contract is benchmark_version 4", cb.get("benchmark_version") == 4,
               str(cb.get("benchmark_version")))
         bad = [c["id"] for c in cb["cases"]
                if not c.get("part_labels") or "labelled_parts" not in c.get("expected", {})]
