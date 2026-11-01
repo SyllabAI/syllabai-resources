@@ -238,3 +238,37 @@ the natural P4 target for those.
 **Schema note:** external rows add per-video `provider`, `watchUrl`, `levelTag`, `boardNote`
 (plan §10 anticipated additive providers). The P3 loader (`lib/video-map.ts`) must accept these
 fields and resolve `lessonUrl: null` to the watch URL — flagged before P3, not silently.
+
+---
+
+## P2C — All-subjects external-channels sweep (2026-11-01, T-VIDEOMAP-P2C)
+
+Owner follow-up: "Proceed with all subjects, not just biology. Check what courses syllabAI has".
+
+**Course census** (`Videos/docs/P2C-COURSE-CENSUS.md`): 106 spine-backed courses, 12,246 spec
+points. Cognito covers 11 shelves → the Edexcel-IGCSE trio + maths and the CIE-IGCSE trio +
+CIE A-level sciences; c3/p3-alevel-cie are FULLY guest-gated (zero site videos — channels are
+their only future source). Non-science subjects have no aligned channel source (honest empty).
+
+**P2C drafts (channel supplement, reviewed:false):**
+
+| Course | Specs | Rows (M/L) | Distinct specs drafted |
+| --- | --- | --- | --- |
+| igcse-chemistry-19 | 182 | 94 (86/8) | 126 (69%) |
+| igcse-physics-19 | 195 | 102 (92/10) | 144 (74%) |
+| igcse-maths-a-18-higher | 188 | 7 (6/1) | 7 |
+| cie-igcse-biology-23 | 388 | 14 (13/1) | 15 (pilot) |
+| cie-igcse-chemistry-23 | 252 | 15 (14/1) | 17 (pilot) |
+| cie-igcse-physics-23 | 294 | 16 (15/1) | 16 (pilot) |
+
+oEmbed identity: **214/214 verified** (`Videos/inventory/channels/candidate-oembed-p2c.json`).
+CIE sub-codes resolved against the real CIE spines pre-drafting; unresolved phrases dropped.
+Validation gate caught + fixed one real code error (5.10 → 5.10P) pre-commit.
+
+**Deferred with reasons:** CIE A-level trio (AQA↔CIE A-level divergence too sharp for title-only
+binding; needs a dedicated lane — and c3/p3 have NO site videos so channels are unavoidable there),
+double-award/modular variants (fold from triple lanes), non-science subjects (no source).
+
+**Reminder of record:** these are supplements — every course above (except igcse-biology-19) still
+owes the P2-method site-inventory alignment, which carries keyPoints evidence and can upgrade
+title-only grades to high.
