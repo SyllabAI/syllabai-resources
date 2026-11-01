@@ -57,6 +57,15 @@ Validates, with zero core-repo dependencies:
                         record, always reading the REAL repo files so the
                         negative-test graph copies cannot cheat them)
 
+SKIP dispositions (F130, 2026-11-01): the notes corpus of record was deleted
+from the repo (7343e125, 2026-10-31, direct push). With
+'Chemistry IGCSE Revision Notes/' ABSENT, the corpus-dependent subchecks
+(c10-notes-mapping; c11.4 NOTE-anchor existence/quote; c11.6 NOTE-only
+admissibility) record an explicit SKIP — printed, counted in the summary,
+never a silent pass, never able to exit 0 by itself — and every other check
+is enforced exactly as before. A restored corpus re-arms them automatically.
+Negative tests are unaffected (they always pass an existing notes root).
+
 Exit code 0 = all checks pass; 1 = failures (listed).
 Usage: python3 scripts/graph_check.py [--graph DIR]
        python3 scripts/graph_check.py [--notes-root DIR]  (negative tests)
@@ -79,6 +88,17 @@ import graph_paths as GP  # C28 §3.2 path registry — single source of ratifie
 REPO = Path(__file__).resolve().parent.parent
 GRAPH_DEFAULT = GP.qual_dir()  # C28 registry-resolved ratified store dir
 NOTES_ROOT_DEFAULT = REPO / "Chemistry IGCSE Revision Notes"
+# F130 (2026-11-01): the SME notes corpus was deleted from the repo of record
+# (7343e125, 2026-10-31, direct push — "Delete Chemistry IGCSE Revision Notes
+# directory", 359 files). The corpus-dependent checks below (c10-notes-mapping;
+# c11.4 NOTE-anchor existence/quote; c11.6 NOTE-only admissibility) have been
+# false-FAILing every CI run since (corpus-gates red, aborting the job before
+# its 12 downstream gate steps). Disposition of record: with the corpus ABSENT
+# those subchecks record an explicit SKIP (visible, counted, never a silent
+# pass; only a FAIL exits 1); with the corpus present every check is enforced
+# exactly as before, and a restored corpus at the same path re-arms them
+# automatically.
+NOTES_CORPUS_ABSENT = not NOTES_ROOT_DEFAULT.is_dir()
 
 FILES = ["specification_points.yaml", "topics.yaml", "relationships.yaml",
          "command_words.yaml", "practicals.yaml", "assessment_objectives.yaml"]
@@ -167,9 +187,16 @@ class Check:
     def __init__(self, name):
         self.name = name
         self.failures = []
+        # F130 (2026-11-01): explicit, loud skip dispositions. A skip is
+        # never a silent pass (printed + counted in the summary) and can
+        # never clear a failing run by itself — only a FAIL exits 1.
+        self.skips = []
 
     def fail(self, msg):
         self.failures.append(msg)
+
+    def skip(self, msg):
+        self.skips.append(msg)
 
     @property
     def ok(self):
@@ -719,6 +746,16 @@ def check_notes_mapping(data, point_codes, sub_codes, notes_root=None):
     """Check group 6 — T-C10 note->spec-point mapping state (front matter)."""
     chk = Check("c10-notes-mapping")
     notes_root = Path(notes_root) if notes_root else NOTES_ROOT_DEFAULT
+
+    if not notes_root.is_dir():
+        # F130: explicit SKIP — the T-C10 mapping state cannot be audited
+        # without the notes corpus (deleted from the repo of record,
+        # 7343e125 2026-10-31). The negative tests always pass an existing
+        # temp root, so they are unaffected.
+        chk.skip(f"notes corpus absent from the checkout ({notes_root.name!r} "
+                 f"deleted from the repo of record, 7343e125 2026-10-31) — "
+                 f"all c10 checks skipped")
+        return chk
 
     note_files = sorted(p for p in notes_root.rglob("*.md")
                         if "assets" not in p.parts)
@@ -1526,6 +1563,15 @@ def _c11_anchor_check(chk, a, where, idx, sps):
     rel = GP.resolve_rel(rel)
     p = REPO / rel
     if not p.exists():
+        if a["kind"] == "NOTE" and NOTES_CORPUS_ABSENT:
+            # F130: NOTE anchors live in the deleted notes corpus; their
+            # absence is the documented corpus state, not a graph defect —
+            # SKIP, and let the c11.6 admissibility line decide with the
+            # saw-kinds rule (SPEC-bearing evidence still FAILs on a failed
+            # resolve).
+            chk.skip(f"c11.4 {where}: SKIP — NOTE anchor in the notes corpus "
+                     f"(absent, deleted 7343e125 2026-10-31): {rel}")
+            return
         chk.fail(f"c11.4 {where}: anchor file missing: {rel}")
         return
     if a["kind"] == "NOTE" and "Chemistry IGCSE Revision Notes" not in rel:
@@ -1551,9 +1597,11 @@ def _sp_anchor_text(sp):
 
 def _c11_attachment_check(chk, att, where, idx, sps):
     ok = False
+    saw = set()
     for a in att.get("evidence") or []:
         _c11_anchor_check(chk, a, where, idx, sps)
         kind, rel, quote = a.get("kind"), a.get("file"), a.get("quote")
+        saw.add(kind)
         if kind == "SPEC":
             sp = sps.get(att.get("code"))
             if sp and c11_norm(quote) in c11_norm(_sp_anchor_text(sp)):
@@ -1562,6 +1610,13 @@ def _c11_attachment_check(chk, att, where, idx, sps):
             if att.get("code") in idx.get(rel, set()):
                 ok = True
     if not ok:
+        if NOTES_CORPUS_ABSENT and saw == {"NOTE"}:
+            # F130: NOTE-only evidence is unverifiable without the corpus —
+            # SKIP. SPEC-bearing attachments still FAIL on a failed resolve
+            # (the SPEC surface is evaluable without the corpus).
+            chk.skip(f"c11.6 {where}: SKIP — NOTE-only evidence, notes corpus "
+                     f"absent (deleted 7343e125 2026-10-31)")
+            return
         chk.fail(f"c11.6 {where}: no anchor resolves to the SP (SPEC quote "
                  f"inside its official wording, or a NOTE whose T-C10 mapping "
                  f"to this SP is HUMAN_VALIDATED)")
@@ -1761,9 +1816,11 @@ def check_c11_concept_edges(c11, c09_data):
         if src in prs:
             attached.add(prs[src]["spec_point"])
         ok = False
+        saw = set()
         for a in e.get("evidence") or []:
             _c11_anchor_check(chk, a, where, idx, sps)
             kind, relf, quote = a.get("kind"), a.get("file"), a.get("quote")
+            saw.add(kind)
             if kind == "MARK_SCHEME":
                 if rel in C11_MISCONCEPTION_RELATIONS:
                     ok = True
@@ -1779,10 +1836,16 @@ def check_c11_concept_edges(c11, c09_data):
                 if any(sp in idx.get(relf, set()) for sp in attached):
                     ok = True
         if not ok:
-            chk.fail(f"c11.6 {where}: no anchor is admissible (NOTE anchors "
-                     f"must HUMAN_VALIDATED-map to an attached SP of the "
-                     f"source/target; SPEC quotes must sit inside an attached "
-                     f"SP's wording)")
+            if NOTES_CORPUS_ABSENT and saw == {"NOTE"}:
+                # F130: NOTE-only evidence is unverifiable without the corpus
+                # — SKIP (same rule as the attachment check above).
+                chk.skip(f"c11.6 {where}: SKIP — NOTE-only evidence, notes "
+                         f"corpus absent (deleted 7343e125 2026-10-31)")
+            else:
+                chk.fail(f"c11.6 {where}: no anchor is admissible (NOTE anchors "
+                         f"must HUMAN_VALIDATED-map to an attached SP of the "
+                         f"source/target; SPEC quotes must sit inside an attached "
+                         f"SP's wording)")
 
     # PART_OF set must equal the attachments declared in concepts.yaml
     declared = set()
@@ -1877,9 +1940,14 @@ def main():
     results.append(check_c11_concept_edges(c11, data))
 
     total_fail = 0
+    total_skips = 0
     for chk in results:
         if chk.ok:
             print(f"PASS  {chk.name}")
+            # F130: skips print under their PASSing group — loud, never silent.
+            for msg in chk.skips:
+                print(f"      - SKIP: {msg}")
+            total_skips += len(chk.skips)
         else:
             print(f"FAIL  {chk.name} ({len(chk.failures)} issue(s)):")
             for msg in chk.failures[:20]:
@@ -1895,6 +1963,13 @@ def main():
     n_points = len(point_codes)
     c11_promoted = sum(1 for e in c11["concept_edges.yaml"]["edges"]
                        if e.get("validation_status") == "HUMAN_VALIDATED")
+    # F130: the summary names the skip count of record (a PASS-with-skips run
+    # is never indistinguishable from a fully-armed run).
+    if total_skips:
+        print(f"graph_check: {total_skips} SKIP disposition(s) of record — "
+              f"notes corpus absent (deleted 7343e125, 2026-10-31); restore "
+              f"'Chemistry IGCSE Revision Notes/' to re-arm the c10/c11 "
+              f"NOTE-anchored checks.")
     print(f"graph_check: ALL PASS — {n_points} spec points, "
           f"{len(topic_codes)} topics, {len(sub_codes)} subtopics, "
           f"{COUNTS['edges']} edges, {COUNTS['command_words']} command words, "

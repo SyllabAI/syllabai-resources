@@ -146,7 +146,10 @@
   vocabulary, anchor-vs-slug, foreign codes, totals 112/209/181 — round-4
   baseline after the 2 rejections). Runs as
   part of the normal `graph_check.py` invocation; `--notes-root` points it
-  at an alternative tree for testing.
+  at an alternative tree for testing. F130 (2026-11-01): with the notes
+  corpus absent from the checkout (deleted from the repo of record,
+  `7343e125`) the corpus-dependent subchecks record an explicit SKIP
+  disposition instead of false-FAILing — see the graph_check docstring.
 - `c10_round5_enumerate.py` — T-C10 round-5 enumeration + dossier builder
   (2026-09-11, READ-ONLY): computes the exact 150 unreviewed (note, code)
   pairs (store 209 minus the 59 round-4-surviving ratification targets;
