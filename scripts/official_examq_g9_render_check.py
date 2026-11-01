@@ -73,8 +73,45 @@ from official_examq_g9_semantics import (  # noqa: E402
     LABEL_GRAMMAR_SRC,
 )
 
-VALIDATOR_VERSION = "g9-render-check/0.5"
+VALIDATOR_VERSION = "g9-render-check/0.6"
 SCROLL_STEPS = 14
+
+# 0.6 fixes of record (the all-papers audit at full breadth, 2026-11-01):
+#   FIX-1 (solution-modal truncation) — the 0.5 modal probe searched only
+#   body.innerText.slice(0, 20000); the View-answer modal is a portal at the
+#   END of the DOM, so on any long paper the modal text lands past char 20000
+#   and a PRESENT solution fact false-FAILed (7/8 chemistry cases at 0.5
+#   breadth). The probe now searches the FULL page text with the modal open.
+#   (Found at 0.5 full-breadth: chemistry-1c-2019-06 modal text at body index
+#   21918 of 22599; snippet verbatim-present.)
+#   FIX-2 (interaction hydration gate) — 0.5 clicked the MCQ radio/submit
+#   with a fixed 0.5s post-submit sleep and no readiness gate; on a fresh
+#   runtime the click can land before hydration attaches handlers, so the
+#   submit is a no-op and deterministic marking false-FAILs. The interaction
+#   probes now RETRY the click->submit->read cycle (fresh player state per
+#   attempt, bounded, growing settle waits) and only FAIL when a fully
+#   re-driven attempt still yields no deterministic feedback.
+#   FIX-3 (feedback paragraph mispick) — 0.5 captured the feedback <p> as the
+#   FIRST paragraph matching /Correct|Not quite/; a question stem carrying the
+#   word "Correct" (physics-1pr-2020-06 2(c) stem has a "Correct (tick)"
+#   table header) matched first, so a WORKING surface (marking styles proved
+#   applied) false-FAILed on the feedback text. The filter now requires the
+#   deterministic feedback prefix (paragraph text STARTS WITH 'Correct' or
+#   'Not quite'), which the stem paragraph cannot match.
+#   FIX-4 (contract picker — lives in official_examq_g9_casegen.py, v4): the
+#   solution-fact picker could freeze markdown list-item lines (rendered form
+#   drops the "- " marker) and squashed mark-scheme table debris (no surface
+#   renders the squashed form verbatim). See the casegen v4 header.
+#   FIX-5 (either-surface solution law): the solution probe no longer commits
+#   to one surface up front; it probes the reveal expansion (FULL qblock text,
+#   no 4000-char slice) and falls back to the View-answer modal (FULL page
+#   text) before recording a FAIL — the classification probe of record
+#   (run1 solution-fail-classification.json) showed all 13 physics/chemistry
+#   reveal-path FAILs were surface-choice artifacts with the fact present in
+#   the modal.
+#   0.7 also adds the F129 census checks (qids-census, content-imgs-census,
+#   mcq-options-census, marks-meta-strict) — the full-paper contract can pin
+#   exact rendered censuses, not just zero-broken/one-or-more forms.
 
 AUDIT_JS = r"""
 (() => {
@@ -323,8 +360,12 @@ def drive_case(base_url, case, outdir, shots=True):
             ck("interaction", "qblock-resolves", True, qb)
             for attempt, want_correct, label in (("correct", True, ix["correct_label"]),
                                                  ("distractor", False, ix["distractor_label"])):
-                if not want_correct:
-                    open_page()  # fresh player state for the second pass
+                # FIX-2: hydration/retry gate. Each attempt drives a FRESH
+                # player state (open_page) with a growing settle wait, then
+                # click -> submit -> read. A pre-hydration click (submit no-op,
+                # no feedback) retries instead of false-FAILing; the check
+                # fails only when a fully re-driven cycle still yields no
+                # deterministic marking feedback.
                 click_js = ("(() => { const p = {qb: " + q(qb) + ", label: " + q(label) + "};"
                             " const qs = [...document.querySelectorAll('[data-question-block]')];"
                             " const q = qs.find(x => x.getAttribute('data-question-block') === p.qb);"
@@ -333,39 +374,45 @@ def drive_case(base_url, case, outdir, shots=True):
                             " const target = radios.find(r => ((r.querySelector('span') || {}).textContent || '').trim() === p.label);"
                             " if (!target) return JSON.stringify({err: 'radio not found', labels: radios.map(r => ((r.querySelector('span') || {}).textContent || '').trim().slice(0,2))});"
                             " target.click(); return JSON.stringify({ok: true}); })()")
-                res = ab_eval(click_js)
-                if res.get("err"):
-                    ck("interaction", f"select-{attempt}", False, f"{ix['part_id']}: {res}")
-                    break
                 submit_js = ("(() => { const p = {qb: " + q(qb) + "};"
                              " const qs = [...document.querySelectorAll('[data-question-block]')];"
                              " const q = qs.find(x => x.getAttribute('data-question-block') === p.qb);"
                              " const btn = [...q.querySelectorAll('button')].find(b => /Submit answer/.test(b.textContent));"
                              " if (!btn) return JSON.stringify({err: 'submit button missing'}); btn.click();"
                              " return JSON.stringify({ok: true}); })()")
-                res2 = ab_eval(submit_js)
-                time.sleep(0.5)
-                if res2.get("err"):
-                    ck("interaction", f"submit-{attempt}", False, f"{ix['part_id']}: {res2}")
-                    break
                 state_js = ("(() => { const p = {qb: " + q(qb) + ", correct: " + q(ix["correct_label"]) + ", chosen: " + q(label) + "};"
                             " const qs = [...document.querySelectorAll('[data-question-block]')];"
                             " const q = qs.find(x => x.getAttribute('data-question-block') === p.qb);"
                             " const radios = [...q.querySelectorAll('[role=radio]')];"
                             " const row = (lab) => { const r = radios.find(r => ((r.querySelector('span') || {}).textContent || '').trim() === lab);"
                             "   if (!r) return null; return {success: r.className.includes('border-success'), destructive: r.className.includes('border-destructive')}; };"
-                            " const fb = [...q.querySelectorAll('p')].map(x => x.textContent.trim()).filter(t => /Correct|Not quite/.test(t));"
+                            " const fb = [...q.querySelectorAll('p')].map(x => x.textContent.trim()).filter(t => t.startsWith('Correct') || t.startsWith('Not quite'));"
                             " return JSON.stringify({rowCorrect: row(p.correct), rowChosen: row(p.chosen), feedback: fb.slice(0, 1)}); })()")
-                st = ab_eval(state_js)
-                if want_correct:
+                ok, last = False, "not driven"
+                for try_i in range(3):
+                    if try_i > 0 or not want_correct:
+                        open_page()  # fresh player state per retry / distractor pass
+                        time.sleep(0.4 + 0.6 * try_i)
+                    res = ab_eval(click_js)
+                    if res.get("err"):
+                        last = f"select: {res}"
+                        continue
+                    res2 = ab_eval(submit_js)
+                    if res2.get("err"):
+                        last = f"submit: {res2}"
+                        continue
+                    time.sleep(0.5 + 0.4 * try_i)
+                    st = ab_eval(state_js)
+                    last = str(st)
                     rowc = st.get("rowCorrect") or {}
-                    okc = bool(rowc.get("success")) and any("Correct — well done" in t for t in st.get("feedback", []))
-                    ck("interaction", "submit-correct", okc, f"{ix['part_id']}: {st}")
-                else:
-                    rowc = st.get("rowCorrect") or {}
-                    rowch = st.get("rowChosen") or {}
-                    okw = bool(rowc.get("success")) and bool(rowch.get("destructive")) and any("Not quite" in t for t in st.get("feedback", []))
-                    ck("interaction", "submit-distractor", okw, f"{ix['part_id']}: {st}")
+                    if want_correct:
+                        ok = bool(rowc.get("success")) and any("Correct — well done" in t for t in st.get("feedback", []))
+                    else:
+                        rowch = st.get("rowChosen") or {}
+                        ok = bool(rowc.get("success")) and bool(rowch.get("destructive")) and any("Not quite" in t for t in st.get("feedback", []))
+                    if ok:
+                        break
+                ck("interaction", f"submit-{attempt}", ok, f"{ix['part_id']}: {last}")
 
     # ── E solution ──────────────────────────────────────────────────────────
     if case["solution_facts"]:
@@ -382,8 +429,29 @@ def drive_case(base_url, case, outdir, shots=True):
                      " if (btn.getAttribute('aria-expanded') !== 'true') btn.click();"
                      " return JSON.stringify({ok: true}); })()")
         rv = ab_eval(reveal_js)
-        if not rv.get("ok") and want:
-            # non-MCQ case: solutions open through the per-question "View answer" modal
+        # FIX-5 (F129): EITHER-SURFACE solution law. The frozen solution fact
+        # must be visible on SOME learner-reachable solution surface. 0.5/0.6
+        # committed to exactly one surface up front (reveal expansion OR the
+        # View-answer modal, chosen by whether the reveal button matched) and
+        # both branches carried their own truncation (the 4000-char qblock
+        # slice) or state assumption (the player paginates parts, so the
+        # expanded reveal may belong to a different part than the frozen
+        # fact's). 0.7 probes the reveal surface first (FULL qblock text — no
+        # slice), and falls back to the per-question View-answer modal (FULL
+        # page text — FIX-1) before recording any FAIL. The check id names
+        # the surface that actually carried the fact.
+        got = None
+        if rv.get("ok"):
+            time.sleep(0.4)
+            txt_js = ("(() => { const p = {qb: " + q(qbs) + "};"
+                      " const qs = [...document.querySelectorAll('[data-question-block]')];"
+                      " const q = qs.find(x => x.getAttribute('data-question-block') === p.qb);"
+                      " return JSON.stringify(q.innerText); })()")
+            qtxt = norm(ab_eval(txt_js))
+            if want and want in qtxt:
+                got = "reveal"
+        if got is None and want:
+            # non-MCQ / state-dependent case: the per-question View-answer modal
             open_js = ("(() => { const p = {qb: " + q(qbs) + "};"
                        " const qs = [...document.querySelectorAll('[data-question-block]')];"
                        " const q = qs.find(x => x.getAttribute('data-question-block') === p.qb);"
@@ -392,22 +460,16 @@ def drive_case(base_url, case, outdir, shots=True):
                        " btns[0].click(); return JSON.stringify({ok: true}); })()")
             ov = ab_eval(open_js)
             time.sleep(0.6)
-            dtxt = norm(ab_eval("JSON.stringify((document.body.innerText||'').slice(0, 20000))"))
-            ck("solution", f"solution-modal:{epart}", ov.get("ok") and want in dtxt,
-               "solution fact visible in the View answer modal" if want in dtxt else f"MISSING from modal; open={ov}")
+            dtxt = norm(ab_eval("JSON.stringify((document.body.innerText||''))"))
+            if ov.get("ok") and want in dtxt:
+                got = "modal"
             close_js = ("(() => { const b = [...document.querySelectorAll('button')]"
                         "                        .find(b => (b.getAttribute('aria-label') || '') === 'Close mark scheme');"
                         " if (b) b.click(); return JSON.stringify({ok: true}); })()")
             ab_eval(close_js)
-        else:
-            time.sleep(0.4)
-            txt_js = ("(() => { const p = {qb: " + q(qbs) + "};"
-                      " const qs = [...document.querySelectorAll('[data-question-block]')];"
-                      " const q = qs.find(x => x.getAttribute('data-question-block') === p.qb);"
-                      " return JSON.stringify(q.innerText.slice(0, 4000)); })()")
-            qtxt = norm(ab_eval(txt_js))
-            ck("solution", f"solution-renders:{epart}", rv.get("ok") and want in qtxt,
-               "solution fact visible after reveal" if want in qtxt else f"MISSING; reveal={rv}")
+        ck("solution", f"solution-fact:{epart}", got is not None,
+           f"solution fact visible on surface={got}" if got
+           else f"MISSING from both surfaces; reveal={rv}")
     elif e.get("solutions", 0) > 0:
         pick_js = ("(() => { const qs = [...document.querySelectorAll('[data-question-block]')];"
                    " for (const q of qs) { const btn = [...q.querySelectorAll('button')].find(b => /Why this is the answer|Answer and mark scheme/.test(b.textContent));"

@@ -4,10 +4,11 @@ official_examq_g9_casegen.py — deterministic generator for the G9 benchmark
 case manifest (Official-ExamQuestion/benchmark/cases.json).
 
 G9 = Learner-Surface Quality gate (rendered). The case manifest is the FROZEN
-benchmark contract: expected semantic facts, counts, MCQ interactions and
-solution expectations, all derived from the hub official bundles of record
-(syllabai-v2 apps/hub/content/<course>/official-papers.json — the H3-cutover
-exports of the resources corpus of record).
+benchmark contract: expected semantic facts, counts, censuses, MCQ
+interactions, solution expectations and label samples, all derived from the
+hub official bundles of record (syllabai-v2
+apps/hub/content/<course>/official-papers.json — the H3-cutover exports of
+the resources corpus of record).
 
 Re-derivation discipline: cases.json is versioned and committed; this script
 documents its derivation. Editing expectations by hand requires a BUMP of
@@ -29,28 +30,212 @@ from official_examq_g9_semantics import (  # noqa: E402 — the F120 shared labe
     LABEL_GRAMMAR_RE, bundle_label_of, label_from_offp_id,
 )
 
-# F120 bump: the label-visibility contract. The G9 rendered gate had NO
-# part-label visibility case when the printed labels shipped (F119 "QUEUED"
-# follow-up of record) — the same blind spot that let the original defect
-# reach learners. v3 freezes per-case part_labels samples (labelled + null
-# classes) and the labelled_parts census; every v2 expectation is carried
-# over byte-identical (the F119 label emission touched ONLY
-# sourcePaper.questionPart — zero content deltas per G-E1).
-BENCHMARK_VERSION = 3
-VALIDATOR_VERSION = "g9-render-check/0.1"
+# F129 bump (v3 -> v4): the ALL-PAPERS contract. The 2026-11-01 full-paper
+# rendered audit ("check all the papers") swept every official paper of the
+# three ADR-037 lanes through the real hub — 175 paper surfaces. The frozen
+# 8-case contract cannot describe that surface, so the contract is
+# RE-DERIVED at full breadth: every official paper topic of the three lanes
+# is a frozen case (CASE_DEFS below is the complete static list), and each
+# case additionally freezes the 0.7 census expectations (ordered question
+# ids, exact content-image count, exact MCQ option count). Two contract
+# derivation fixes rode the audit (both fail-closed, both receipted):
+#   FIX-4 (solution-fact picker): the picker could freeze (a) markdown
+#   list-item lines ("- Carbon (C): 38.4 ÷ 12 = 3.2") whose rendered form
+#   drops the leading marker, and (b) squashed mark-scheme table debris
+#   ("124 + 180 oe 2 M1 270 + 34 commonly seen.") that no surface renders
+#   verbatim. The hardened picker refuses list-marker heads and mark-scheme
+#   debris patterns; papers whose solutionMd carries no clean prose freeze
+#   NO solution fact (their case then runs the honest reveal-presence
+#   path) — never a snippet the surface cannot render.
+#   FIX-5 is a runner fix (either-surface solution probing) and lives in
+#   official_examq_g9_render_check.py 0.7.
+BENCHMARK_VERSION = 4
+VALIDATOR_VERSION = "g9-render-check/0.7"
 
-# (case_id, lane, course, topic_slug_suffix)
+# (case_id, lane, course, topic_slug_suffix) — the COMPLETE official paper
+# universe of the three lanes at the bundles of record (175 papers:
+# chemistry 54, physics 55, maths-B 66), sorted per lane by slug.
 CASE_DEFS = [
-    ("physics-2p-2023-06",  "igcse-physics-19",  "igcse-physics-19",  "official-4ph1-2p-2023-06"),   # F102 repaired slice
-    ("physics-1p-2019-06",  "igcse-physics-19",  "igcse-physics-19",  "official-4ph1-1p-2019-06"),   # F101 OCR slice
-    ("physics-2p-2024-06",  "igcse-physics-19",  "igcse-physics-19",  "official-4ph1-2p-2024-06"),   # graph-asset class
-    ("physics-1p-2023-06",  "igcse-physics-19",  "igcse-physics-19",  "official-4ph1-1p-2023-06"),   # G1-exact, heaviest crop surface
-    ("chemistry-1c-2023-06", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-1c-2023-06"), # corpus of record, ce-notation
-    ("chemistry-1c-2020-01", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-1c-2020-01"), # MCQ adjudication class
-    ("chemistry-2c-2019-06", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-2c-2019-06"), # rasterized-page legacy class
-    ("maths-02r-2019-06",   "igcse-maths-b-16",  "igcse-maths-b-16",  "official-4mb1-02r-2019-06"),   # LaTeX typesetting class
+    ("chemistry-1c-2019-06", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-1c-2019-06"),
+    ("chemistry-1c-2020-01", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-1c-2020-01"),   # v3 legacy case (hand rationale kept)
+    ("chemistry-1c-2020-11", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-1c-2020-11"),
+    ("chemistry-1c-2021-01", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-1c-2021-01"),
+    ("chemistry-1c-2021-06", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-1c-2021-06"),
+    ("chemistry-1c-2021-11", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-1c-2021-11"),
+    ("chemistry-1c-2022-01", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-1c-2022-01"),
+    ("chemistry-1c-2022-06", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-1c-2022-06"),
+    ("chemistry-1c-2023-01", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-1c-2023-01"),
+    ("chemistry-1c-2023-06", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-1c-2023-06"),   # v3 legacy case (hand rationale kept)
+    ("chemistry-1c-2023-11", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-1c-2023-11"),
+    ("chemistry-1c-2024-06", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-1c-2024-06"),
+    ("chemistry-1c-2024-11", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-1c-2024-11"),
+    ("chemistry-1c-2025-06", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-1c-2025-06"),
+    ("chemistry-1c-2025-11", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-1c-2025-11"),
+    ("chemistry-1c-2026-06", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-1c-2026-06"),
+    ("chemistry-1cr-2019-06", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-1cr-2019-06"),
+    ("chemistry-1cr-2020-01", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-1cr-2020-01"),
+    ("chemistry-1cr-2020-11", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-1cr-2020-11"),
+    ("chemistry-1cr-2021-01", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-1cr-2021-01"),
+    ("chemistry-1cr-2022-01", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-1cr-2022-01"),
+    ("chemistry-1cr-2022-06", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-1cr-2022-06"),
+    ("chemistry-1cr-2023-01", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-1cr-2023-01"),
+    ("chemistry-1cr-2023-06", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-1cr-2023-06"),
+    ("chemistry-1cr-2024-06", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-1cr-2024-06"),
+    ("chemistry-1cr-2025-06", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-1cr-2025-06"),
+    ("chemistry-1cr-2026-06", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-1cr-2026-06"),
+    ("chemistry-2c-2019-06", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-2c-2019-06"),   # v3 legacy case (hand rationale kept)
+    ("chemistry-2c-2020-01", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-2c-2020-01"),
+    ("chemistry-2c-2020-11", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-2c-2020-11"),
+    ("chemistry-2c-2021-01", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-2c-2021-01"),
+    ("chemistry-2c-2021-06", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-2c-2021-06"),
+    ("chemistry-2c-2021-11", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-2c-2021-11"),
+    ("chemistry-2c-2022-01", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-2c-2022-01"),
+    ("chemistry-2c-2022-06", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-2c-2022-06"),
+    ("chemistry-2c-2023-01", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-2c-2023-01"),
+    ("chemistry-2c-2023-06", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-2c-2023-06"),
+    ("chemistry-2c-2023-11", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-2c-2023-11"),
+    ("chemistry-2c-2024-06", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-2c-2024-06"),
+    ("chemistry-2c-2024-11", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-2c-2024-11"),
+    ("chemistry-2c-2025-06", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-2c-2025-06"),
+    ("chemistry-2c-2025-11", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-2c-2025-11"),
+    ("chemistry-2c-2026-06", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-2c-2026-06"),
+    ("chemistry-2cr-2019-06", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-2cr-2019-06"),
+    ("chemistry-2cr-2020-01", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-2cr-2020-01"),
+    ("chemistry-2cr-2020-11", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-2cr-2020-11"),
+    ("chemistry-2cr-2021-01", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-2cr-2021-01"),
+    ("chemistry-2cr-2022-01", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-2cr-2022-01"),
+    ("chemistry-2cr-2022-06", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-2cr-2022-06"),
+    ("chemistry-2cr-2023-01", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-2cr-2023-01"),
+    ("chemistry-2cr-2023-06", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-2cr-2023-06"),
+    ("chemistry-2cr-2024-06", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-2cr-2024-06"),
+    ("chemistry-2cr-2025-06", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-2cr-2025-06"),
+    ("chemistry-2cr-2026-06", "igcse-chemistry-19", "igcse-chemistry-19", "official-4ch1-2cr-2026-06"),
+    ("physics-1p-2019-06", "igcse-physics-19", "igcse-physics-19", "official-4ph1-1p-2019-06"),   # v3 legacy case (hand rationale kept)
+    ("physics-1p-2020-01", "igcse-physics-19", "igcse-physics-19", "official-4ph1-1p-2020-01"),
+    ("physics-1p-2020-06", "igcse-physics-19", "igcse-physics-19", "official-4ph1-1p-2020-06"),
+    ("physics-1p-2020-11", "igcse-physics-19", "igcse-physics-19", "official-4ph1-1p-2020-11"),
+    ("physics-1p-2021-01", "igcse-physics-19", "igcse-physics-19", "official-4ph1-1p-2021-01"),
+    ("physics-1p-2021-06", "igcse-physics-19", "igcse-physics-19", "official-4ph1-1p-2021-06"),
+    ("physics-1p-2021-11", "igcse-physics-19", "igcse-physics-19", "official-4ph1-1p-2021-11"),
+    ("physics-1p-2022-01", "igcse-physics-19", "igcse-physics-19", "official-4ph1-1p-2022-01"),
+    ("physics-1p-2022-06", "igcse-physics-19", "igcse-physics-19", "official-4ph1-1p-2022-06"),
+    ("physics-1p-2023-01", "igcse-physics-19", "igcse-physics-19", "official-4ph1-1p-2023-01"),
+    ("physics-1p-2023-06", "igcse-physics-19", "igcse-physics-19", "official-4ph1-1p-2023-06"),   # v3 legacy case (hand rationale kept)
+    ("physics-1p-2023-11", "igcse-physics-19", "igcse-physics-19", "official-4ph1-1p-2023-11"),
+    ("physics-1p-2024-06", "igcse-physics-19", "igcse-physics-19", "official-4ph1-1p-2024-06"),
+    ("physics-1p-2024-11", "igcse-physics-19", "igcse-physics-19", "official-4ph1-1p-2024-11"),
+    ("physics-1p-2025-06", "igcse-physics-19", "igcse-physics-19", "official-4ph1-1p-2025-06"),
+    ("physics-1p-2025-11", "igcse-physics-19", "igcse-physics-19", "official-4ph1-1p-2025-11"),
+    ("physics-1p-2026-06", "igcse-physics-19", "igcse-physics-19", "official-4ph1-1p-2026-06"),
+    ("physics-1pr-2019-06", "igcse-physics-19", "igcse-physics-19", "official-4ph1-1pr-2019-06"),
+    ("physics-1pr-2020-01", "igcse-physics-19", "igcse-physics-19", "official-4ph1-1pr-2020-01"),
+    ("physics-1pr-2020-06", "igcse-physics-19", "igcse-physics-19", "official-4ph1-1pr-2020-06"),
+    ("physics-1pr-2021-01", "igcse-physics-19", "igcse-physics-19", "official-4ph1-1pr-2021-01"),
+    ("physics-1pr-2022-01", "igcse-physics-19", "igcse-physics-19", "official-4ph1-1pr-2022-01"),
+    ("physics-1pr-2022-06", "igcse-physics-19", "igcse-physics-19", "official-4ph1-1pr-2022-06"),
+    ("physics-1pr-2023-01", "igcse-physics-19", "igcse-physics-19", "official-4ph1-1pr-2023-01"),
+    ("physics-1pr-2023-06", "igcse-physics-19", "igcse-physics-19", "official-4ph1-1pr-2023-06"),
+    ("physics-1pr-2024-06", "igcse-physics-19", "igcse-physics-19", "official-4ph1-1pr-2024-06"),
+    ("physics-1pr-2025-06", "igcse-physics-19", "igcse-physics-19", "official-4ph1-1pr-2025-06"),
+    ("physics-1pr-2026-06", "igcse-physics-19", "igcse-physics-19", "official-4ph1-1pr-2026-06"),
+    ("physics-2p-2019-06", "igcse-physics-19", "igcse-physics-19", "official-4ph1-2p-2019-06"),
+    ("physics-2p-2020-01", "igcse-physics-19", "igcse-physics-19", "official-4ph1-2p-2020-01"),
+    ("physics-2p-2020-06", "igcse-physics-19", "igcse-physics-19", "official-4ph1-2p-2020-06"),
+    ("physics-2p-2021-01", "igcse-physics-19", "igcse-physics-19", "official-4ph1-2p-2021-01"),
+    ("physics-2p-2021-06", "igcse-physics-19", "igcse-physics-19", "official-4ph1-2p-2021-06"),
+    ("physics-2p-2021-11", "igcse-physics-19", "igcse-physics-19", "official-4ph1-2p-2021-11"),
+    ("physics-2p-2022-01", "igcse-physics-19", "igcse-physics-19", "official-4ph1-2p-2022-01"),
+    ("physics-2p-2022-06", "igcse-physics-19", "igcse-physics-19", "official-4ph1-2p-2022-06"),
+    ("physics-2p-2023-01", "igcse-physics-19", "igcse-physics-19", "official-4ph1-2p-2023-01"),
+    ("physics-2p-2023-06", "igcse-physics-19", "igcse-physics-19", "official-4ph1-2p-2023-06"),   # v3 legacy case (hand rationale kept)
+    ("physics-2p-2023-11", "igcse-physics-19", "igcse-physics-19", "official-4ph1-2p-2023-11"),
+    ("physics-2p-2024-06", "igcse-physics-19", "igcse-physics-19", "official-4ph1-2p-2024-06"),   # v3 legacy case (hand rationale kept)
+    ("physics-2p-2024-11", "igcse-physics-19", "igcse-physics-19", "official-4ph1-2p-2024-11"),
+    ("physics-2p-2025-06", "igcse-physics-19", "igcse-physics-19", "official-4ph1-2p-2025-06"),
+    ("physics-2p-2025-11", "igcse-physics-19", "igcse-physics-19", "official-4ph1-2p-2025-11"),
+    ("physics-2p-2026-06", "igcse-physics-19", "igcse-physics-19", "official-4ph1-2p-2026-06"),
+    ("physics-2pr-2019-06", "igcse-physics-19", "igcse-physics-19", "official-4ph1-2pr-2019-06"),
+    ("physics-2pr-2020-01", "igcse-physics-19", "igcse-physics-19", "official-4ph1-2pr-2020-01"),
+    ("physics-2pr-2020-06", "igcse-physics-19", "igcse-physics-19", "official-4ph1-2pr-2020-06"),
+    ("physics-2pr-2021-01", "igcse-physics-19", "igcse-physics-19", "official-4ph1-2pr-2021-01"),
+    ("physics-2pr-2022-01", "igcse-physics-19", "igcse-physics-19", "official-4ph1-2pr-2022-01"),
+    ("physics-2pr-2022-06", "igcse-physics-19", "igcse-physics-19", "official-4ph1-2pr-2022-06"),
+    ("physics-2pr-2023-01", "igcse-physics-19", "igcse-physics-19", "official-4ph1-2pr-2023-01"),
+    ("physics-2pr-2023-06", "igcse-physics-19", "igcse-physics-19", "official-4ph1-2pr-2023-06"),
+    ("physics-2pr-2024-06", "igcse-physics-19", "igcse-physics-19", "official-4ph1-2pr-2024-06"),
+    ("physics-2pr-2025-06", "igcse-physics-19", "igcse-physics-19", "official-4ph1-2pr-2025-06"),
+    ("physics-2pr-2026-06", "igcse-physics-19", "igcse-physics-19", "official-4ph1-2pr-2026-06"),
+    ("maths-01-2018-06", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-01-2018-06"),
+    ("maths-01-2019-01", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-01-2019-01"),
+    ("maths-01-2019-06", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-01-2019-06"),
+    ("maths-01-2020-01", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-01-2020-01"),
+    ("maths-01-2020-06", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-01-2020-06"),
+    ("maths-01-2020-11", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-01-2020-11"),
+    ("maths-01-2021-01", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-01-2021-01"),
+    ("maths-01-2021-06", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-01-2021-06"),
+    ("maths-01-2021-11", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-01-2021-11"),
+    ("maths-01-2022-01", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-01-2022-01"),
+    ("maths-01-2022-06", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-01-2022-06"),
+    ("maths-01-2023-01", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-01-2023-01"),
+    ("maths-01-2023-06", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-01-2023-06"),
+    ("maths-01-2023-11", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-01-2023-11"),
+    ("maths-01-2024-06", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-01-2024-06"),
+    ("maths-01-2024-11", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-01-2024-11"),
+    ("maths-01-2025-06", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-01-2025-06"),
+    ("maths-01-2025-10", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-01-2025-10"),
+    ("maths-01-2026-06", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-01-2026-06"),
+    ("maths-01r-2018-06", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-01r-2018-06"),
+    ("maths-01r-2019-01", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-01r-2019-01"),
+    ("maths-01r-2019-06", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-01r-2019-06"),
+    ("maths-01r-2020-01", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-01r-2020-01"),
+    ("maths-01r-2020-06", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-01r-2020-06"),
+    ("maths-01r-2020-11", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-01r-2020-11"),
+    ("maths-01r-2021-01", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-01r-2021-01"),
+    ("maths-01r-2022-01", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-01r-2022-01"),
+    ("maths-01r-2022-06", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-01r-2022-06"),
+    ("maths-01r-2023-01", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-01r-2023-01"),
+    ("maths-01r-2023-06", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-01r-2023-06"),
+    ("maths-01r-2024-06", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-01r-2024-06"),
+    ("maths-01r-2025-06", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-01r-2025-06"),
+    ("maths-01r-2026-06", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-01r-2026-06"),
+    ("maths-02-2018-06", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-02-2018-06"),
+    ("maths-02-2019-01", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-02-2019-01"),
+    ("maths-02-2019-06", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-02-2019-06"),
+    ("maths-02-2020-01", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-02-2020-01"),
+    ("maths-02-2020-06", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-02-2020-06"),
+    ("maths-02-2020-11", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-02-2020-11"),
+    ("maths-02-2021-01", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-02-2021-01"),
+    ("maths-02-2021-06", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-02-2021-06"),
+    ("maths-02-2021-11", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-02-2021-11"),
+    ("maths-02-2022-01", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-02-2022-01"),
+    ("maths-02-2022-06", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-02-2022-06"),
+    ("maths-02-2023-01", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-02-2023-01"),
+    ("maths-02-2023-06", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-02-2023-06"),
+    ("maths-02-2023-11", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-02-2023-11"),
+    ("maths-02-2024-06", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-02-2024-06"),
+    ("maths-02-2024-11", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-02-2024-11"),
+    ("maths-02-2025-06", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-02-2025-06"),
+    ("maths-02-2025-11", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-02-2025-11"),
+    ("maths-02-2026-06", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-02-2026-06"),
+    ("maths-02r-2018-06", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-02r-2018-06"),
+    ("maths-02r-2019-01", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-02r-2019-01"),
+    ("maths-02r-2019-06", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-02r-2019-06"),   # v3 legacy case (hand rationale kept)
+    ("maths-02r-2020-01", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-02r-2020-01"),
+    ("maths-02r-2020-06", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-02r-2020-06"),
+    ("maths-02r-2020-11", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-02r-2020-11"),
+    ("maths-02r-2021-01", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-02r-2021-01"),
+    ("maths-02r-2022-01", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-02r-2022-01"),
+    ("maths-02r-2022-06", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-02r-2022-06"),
+    ("maths-02r-2023-01", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-02r-2023-01"),
+    ("maths-02r-2023-06", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-02r-2023-06"),
+    ("maths-02r-2024-06", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-02r-2024-06"),
+    ("maths-02r-2025-06", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-02r-2025-06"),
+    ("maths-02r-2026-06", "igcse-maths-b-16", "igcse-maths-b-16", "official-4mb1-02r-2026-06"),
 ]
 
+# v3 legacy cases keep their hand-written selection records verbatim; the
+# F129 full-coverage cases derive their risk classes mechanically from the
+# same frozen expectations (mcq / figures / stubs / no-mcq / long-paper).
 RISKS = {
     "physics-2p-2023-06": ["multipart", "mcq", "figures", "crop-required-stubs", "repaired-source-F102"],
     "physics-1p-2019-06": ["damaged-source-OCR-F101", "page-anchors", "mcq", "figures", "multipart"],
@@ -160,6 +345,19 @@ def pick_facts(parts, want=3, minlen=40, maxlen=110):
     return out
 
 
+# FIX-4 (F129): mark-scheme debris signature. maths-B solutionMds (and some
+# physics mark-scheme rows) are squashed MS table rows, not prose: mark codes
+# (M1/A1/B1/...), MS verdict verbs (Allow / Do not / Condone / Ignore / Alt),
+# the squashed-row separator ";;;", or the "oe/cao/isw/awrt/soi/ft" family.
+# A line matching this pattern is never frozen as an expected fact — the
+# surface renders those rows through the structured MarkScheme component and
+# can never reproduce the squashed form verbatim.
+MS_DEBRIS_RE = re.compile(
+    r"\bM1\b|\bA1\b|\bB1\b|\bB2\b|\bB3\b|\bC1\b|\bcao\b|\boe\b|\bisw\b"
+    r"|\bawrt\b|\bsoi\b|\bft\b|\bAlt\b|;;;|\bAllow\b|\bDo not\b"
+    r"|\bCondone\b|\bIgnore\b|\bmark for each\b")
+
+
 def pick_solution_facts(parts, want=2, minlen=24, maxlen=120):
     out = []
     for p in parts:
@@ -170,7 +368,9 @@ def pick_solution_facts(parts, want=2, minlen=24, maxlen=120):
                 continue
             if re.search(r"[$<>|_\\*]|https?:", cand):
                 continue
-            if re.fullmatch(r"(?:[MBA]1|SC\d?|FT|oe|cao|isw|awrt|soi)[\s;,()a-z]*", cand, re.I):
+            if re.match(r"^\s*[-*•]\s", cand):  # FIX-4: list-item head —
+                continue                           # rendered form drops the marker
+            if MS_DEBRIS_RE.search(cand):          # FIX-4: MS table debris
                 continue
             out.append({"part_id": p["id"], "snippet": cand})
             break
@@ -214,16 +414,60 @@ def crop_img_occurrences(parts):
     return n, missing_inline
 
 
+def content_imgs_inlined(parts):
+    """F129 census: ALL asset occurrences actually inlined into problemMd
+    (any asset kind) — the exact number of content <img> elements the
+    rendered page must show before any interaction."""
+    n = 0
+    for p in parts:
+        md = p.get("problemMd") or ""
+        for a in p.get("assets") or []:
+            url = a.get("rawUrl") or ""
+            path = a.get("path") or ""
+            if url and url in md:
+                n += 1
+            elif path and (path in md or f"assets/{path.split('/')[-1]}" in md):
+                n += 1
+    return n
+
+
+def mechanical_risks(case_id, e):
+    risks = ["full-coverage-F129"]
+    if e["mcq_parts"]:
+        risks.append("mcq")
+    else:
+        risks.append("no-mcq")
+    if e["crop_assets"]:
+        risks.append("figures")
+    if e["crop_required_stubs"]:
+        risks.append("crop-required-stubs")
+    if e["parts"] > 45:
+        risks.append("long-paper")
+    if e["mark_points"]:
+        risks.append("mark-points")
+    return risks
+
+
+def mechanical_rationale(case_id, lane_course, e):
+    return ("Full-coverage class (F129 all-papers re-derivation): every official paper of "
+            f"the {lane_course} lane is a frozen case, derived from the bundles of record "
+            f"with the 0.7 validator (q={e['questions']}, parts={e['parts']}, "
+            f"marks={e['marks_total']}).")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--bundles-dir", required=True)
     ap.add_argument("--out", required=True)
     args = ap.parse_args()
 
+    bundles = {}
+    for _course in ("igcse-chemistry-19", "igcse-physics-19", "igcse-maths-b-16"):
+        bundles[_course] = json.load(open(f"{args.bundles_dir}/{_course}/official-papers.json"))
+
     cases = []
     for case_id, lane, course, slug_suffix in CASE_DEFS:
-        bundle = json.load(open(f"{args.bundles_dir}/{course}/official-papers.json"))
-        topics = [t for t in bundle if (t.get("slug") or "").endswith(slug_suffix)]
+        topics = [t for t in bundles[course] if (t.get("slug") or "").endswith(slug_suffix)]
         if len(topics) != 1:
             sys.exit(f"casegen: expected exactly 1 topic for {slug_suffix}, got {len(topics)}")
         t = topics[0]
@@ -235,10 +479,30 @@ def main():
         crops = [a for p in parts for a in (p.get("assets") or []) if a.get("kind") == "crop"]
         stubs = [a for p in parts for a in (p.get("assets") or []) if a.get("kind") == "crop-required"]
         imgs_expected, missing_inline = crop_img_occurrences(parts)
-        src = next((p.get("sourcePaper") or {}) for p in parts if p.get("sourcePaper"))
+        src = next((p.get("sourcePaper") or {} for p in parts if p.get("sourcePaper")), {})
         date, number = src.get("date") or "", src.get("number") or ""
         paper_key = f"{slugify(date)}-{slugify(number)}"
         mcq = first_keyed_mcq(keyed) if keyed else None
+        e = {
+            "questions": len(qs),
+            "parts": len(parts),
+            "marks_total": marks,
+            "mcq_parts": len(mcq_parts),
+            "mcq_keyed": len(keyed),
+            "crop_assets": len(crops),
+            "crop_required_stubs": len(stubs),
+            "mark_points": sum(len(p.get("markPoints") or []) for p in parts),
+            "crop_imgs_inlined": imgs_expected,
+            "solutions": sum(1 for p in parts if (p.get("solutionMd") or "").strip()),
+            # F120: the labelled-parts census of the case (parts whose
+            # served sourcePaper.questionPart is non-null) — enforced at
+            # the static-bundles leg AND as the rendered chip census.
+            "labelled_parts": sum(1 for p in parts if bundle_label_of(p)),
+            # F129 (v4): the 0.7 census expectations.
+            "question_ids": [q["id"] for q in qs],
+            "content_imgs_inlined": content_imgs_inlined(parts),
+            "mcq_options_total": sum(len(p.get("choices") or []) for p in mcq_parts),
+        }
         case = {
             "id": case_id,
             "lane": lane,
@@ -249,25 +513,10 @@ def main():
             "paper_key": paper_key,
             "url_path": f"/courses/{course}/past-papers/{paper_key}",
             "selection": {
-                "rationale": RATIONALES[case_id],
-                "risk_classes": RISKS[case_id],
+                "rationale": RATIONALES.get(case_id) or mechanical_rationale(case_id, course, e),
+                "risk_classes": RISKS.get(case_id) or mechanical_risks(case_id, e),
             },
-            "expected": {
-                "questions": len(qs),
-                "parts": len(parts),
-                "marks_total": marks,
-                "mcq_parts": len(mcq_parts),
-                "mcq_keyed": len(keyed),
-                "crop_assets": len(crops),
-                "crop_required_stubs": len(stubs),
-                "mark_points": sum(len(p.get("markPoints") or []) for p in parts),
-                "crop_imgs_inlined": imgs_expected,
-                "solutions": sum(1 for p in parts if (p.get("solutionMd") or "").strip()),
-                # F120: the labelled-parts census of the case (parts whose
-                # served sourcePaper.questionPart is non-null) — enforced at
-                # the static-bundles leg AND as the rendered chip census.
-                "labelled_parts": sum(1 for p in parts if bundle_label_of(p)),
-            },
+            "expected": e,
             "fact_parts": pick_facts(parts),
             "solution_facts": pick_solution_facts(parts),
             "mcq_interaction": mcq,
@@ -284,18 +533,20 @@ def main():
         "note": "Frozen rendered-question benchmark contract. Expected facts derived from the "
                 "syllabai-v2 hub official bundles of record (H3-cutover exports of the "
                 "resources corpus of record). Re-derive only via official_examq_g9_casegen.py "
-                "with a benchmark_version BUMP + LEDGER entry (anti-gaming rule).",
+                "with a benchmark_version BUMP + LEDGER entry (anti-gaming rule). v4 (F129): "
+                "the all-papers contract — every official paper of the three ADR-037 lanes "
+                "is a frozen case, with the 0.7 census expectations.",
         "cases": cases,
     }
     json.dump(out, open(args.out, "w"), indent=1, ensure_ascii=False)
     print(f"wrote {args.out}: {len(cases)} cases")
-    for c in cases:
+    for c in cases[:3]:
         e = c["expected"]
         print(f"  {c['id']}: q={e['questions']} parts={e['parts']} marks={e['marks_total']} "
-              f"mcq={e['mcq_parts']}/{e['mcq_keyed']} crops={e['crop_assets']} imgs_inline={e['crop_imgs_inlined']} "
-              f"stubs={e['crop_required_stubs']} facts={len(c['fact_parts'])} solfacts={len(c['solution_facts'])} "
-              f"mcq_ixn={'Y' if c['mcq_interaction'] else 'N'} labels={e['labelled_parts']}/{e['parts']} "
-              f"samples={len(c['part_labels'])} url={c['url_path']}")
+              f"mcq={e['mcq_parts']}/{e['mcq_keyed']} crops={e['crop_assets']} "
+              f"imgs_inline={e['crop_imgs_inlined']} facts={len(c['fact_parts'])} "
+              f"solfacts={len(c['solution_facts'])} labels={e['labelled_parts']}/{e['parts']} "
+              f"url={c['url_path']}")
 
 
 if __name__ == "__main__":
