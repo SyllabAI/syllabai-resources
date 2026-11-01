@@ -73,7 +73,15 @@ from official_examq_g9_semantics import (  # noqa: E402
     LABEL_GRAMMAR_SRC,
 )
 
-VALIDATOR_VERSION = "g9-render-check/0.6"
+# F130 string normalization (2026-11-01, post-#268 follow-up): the landed
+# behavior IS the 0.7 leg of record — the 2026-11-01 run2 all-papers receipts
+# (label run2-v07-all-papers-leg-of-record, 175/175 PASS) were produced by
+# this behavior set and self-identify as g9-render-check/0.7, while the file
+# carried a stale 0.6 literal. Verified string-only: the run2 receipt's check
+# set is IDENTICAL to this file's behavior (no unlanded census check ids —
+# the F129 census pinning lives in the v4 completeness comparisons), so this
+# changes the emitted validator_version field and nothing else.
+VALIDATOR_VERSION = "g9-render-check/0.7"
 SCROLL_STEPS = 14
 
 # 0.6 fixes of record (the all-papers audit at full breadth, 2026-11-01):

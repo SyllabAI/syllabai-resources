@@ -957,3 +957,39 @@ corpus-lag pids := v2 plane byte-exact. questions.md regen rides (15 files). Pos
 == pre-registration (1COL 29→0, MULTI_COL_OK 122→146 SME / 0→2 official, math-pipe 0);
 G3/T1/T2 GREEN; 55 pins; v2 plane untouched (serving leg = next converter run).
 Evidence: `scripts/oeq_phys_run008w2/` + `scripts/oeq_phys_run008w2_pins.json`.
+
+## Wave 22 — the gates-hygiene follow-ups (F130; post-#268 follow-ups, operator trace `1a197ae2bc0d9bfd` "Proceed with follow ups")
+
+1. **g9-render-check/0.7 string normalization** — the landed validator (PR #268
+   merged `168b8582d167`) carried a stale `VALIDATOR_VERSION = "g9-render-check/0.6"`
+   literal while the 2026-11-01 run2 all-papers leg of record
+   (`Official-ExamQuestion/benchmark/receipts/2026-11-01-run2/g9-render.receipt.json`,
+   label `run2-v07-all-papers-leg-of-record`, 175/175 PASS) self-identifies as
+   `g9-render-check/0.7`. Verified string-only before landing: the run2 receipt's
+   check set is IDENTICAL to the landed behavior (zero unlanded census check ids —
+   the F129 census pinning lives in the v4 completeness comparisons:
+   question-blocks/marks-meta/images-loaded exact-count laws), so the bump changes
+   the emitted `validator_version` field and nothing else.
+2. **corpus-gates un-red (F130)** — corpus-gates went red at the `graph_check` step
+   on 2026-10-31 (`7343e125` "Delete Chemistry IGCSE Revision Notes directory",
+   direct push, 359 files / −14,145 lines, last green run 428 @ `b57b77f619cd`) and
+   every run since aborted there: the 12 downstream gate steps (c12 batteries, the
+   G9 aggregation-law + F104 test fixtures, strip-law, F116-F118, the maths-B and
+   4PH1 back-sync batteries, the F104 asset-byte scan) have not run in CI since.
+   `graph_check.py` gains an explicit SKIP disposition of record — `Check.skip`
+   (printed under the PASSing group, counted in the summary line; never silent,
+   never able to clear a failing run) — for exactly the corpus-dependent subchecks
+   when `Chemistry IGCSE Revision Notes/` is absent: the c10-notes-mapping group
+   (root-absent early SKIP), c11.4 NOTE-anchor existence/quote, and c11.6
+   NOTE-only admissibility (SPEC-bearing evidence still FAILs on a failed resolve —
+   the SPEC surface is corpus-independent). Everything else is enforced exactly as
+   before; a restored corpus at the same path re-arms the skipped checks
+   automatically. Baseline reproduced locally at `origin/main` `23dd0c9d`:
+   1694 failures / 3 groups (c10 4, c11.4 1294, c11.6 396) — byte-identical
+   classes to CI; post-fix: exit 0, ALL 11 groups PASS, 1294+396 skips map 1:1 to
+   the baseline c11 failures and c10 collapses 4→1 — zero non-notes failures
+   existed to mask. The c10 negative-test battery is untouched semantically (its
+   corrupted-copy roots always exist; the SKIP path never fires there) but remains
+   locally unrunnable since `7343e125` (it copies the deleted corpus to build
+   fixtures — pre-existing, not in CI, disclosed here; it resumes working the
+   moment a corpus copy exists).
