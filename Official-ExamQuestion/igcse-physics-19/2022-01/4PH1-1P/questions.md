@@ -12,8 +12,6 @@ The region of space around a magnet is known as a magnetic field.
 
 Which of these diagrams correctly represents the magnetic field around a bar magnet?
 
-![magnetic field diagrams — options A to D (qp.pdf p.3)](assets/asset_1_a_diagram_choices.png)
-
 - **(A)** 
 - **(B)**   ✔
 - **(C)** 
