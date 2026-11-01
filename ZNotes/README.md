@@ -14,6 +14,8 @@ Scraped from ZNotes' web revision notes (T-ZNOTES-1, fetched 2026-10-31, base co
 
 - License: upstream content © ZNotes (znotes.org), captured for internal study-platform use — not for redistribution. See `../LICENSE-DATA.md` for the corpus-wide licensing frame; flag to the operator before any external serving.
 
+- **Tracker**: [`TRACKER.md`](TRACKER.md) (T-ZNOTES-3, 2026-11-01) is the master tracking doc for this folder — per-course inventory joined to the live registry, the full subject-lane universe with per-lane status, the source-availability evidence trail (incl. the 2026-11-01 re-verification: GCE Guide now dead, SME unchanged, no new source passes the provenance bar), reconciliations against the 2026-10-31 scan, the image-failures ledger, and task/PR history. Consult it before extending or importing from this folder.
+
 
 ## Rebuild / refresh
 
