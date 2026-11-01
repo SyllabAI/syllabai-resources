@@ -47,6 +47,14 @@ def load(family: str) -> list[dict]:
 def check_doc(doc: dict) -> list[str]:
     errs: list[str] = []
     fam = doc["family"]
+    # T-GRADE-8: cancelled/no-award sessions (e.g. January 2021, November
+    # 2020) publish component boundaries only — the source genuinely has no
+    # overall rows for ANY subject. That is an honest absence, not a parse
+    # failure; a doc with SOME overall rows missing others stays an error
+    # (that asymmetry is what the guard exists to catch).
+    doc_has_any_overall = any(
+        s.get("overall") for s in doc["subjects"]
+    ) if fam == "pearson-int-gcse-linear" else True
     for s in doc["subjects"]:
         code = s.get("code") or "?"
         ladders: list[tuple[str, dict, list[str]]] = []
@@ -59,7 +67,8 @@ def check_doc(doc: dict) -> list[str]:
                                 s["gradeLadder"]))
         for c in s.get("cashIns", []):
             ladders.append((f"cash-in {c['code']}", c, s["gradeLadder"]))
-        if fam == "pearson-int-gcse-linear" and not s.get("overall"):
+        if fam == "pearson-int-gcse-linear" and not s.get("overall") \
+                and doc_has_any_overall:
             errs.append(f"{fam}/{doc['session']} {code}: no overall row")
         for name, row, ladder in ladders:
             if not row.get("boundaries"):
