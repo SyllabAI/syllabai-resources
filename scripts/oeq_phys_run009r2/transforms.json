@@ -1,0 +1,128 @@
+{
+ "lane": "T-OEQ-PHYS-FORMAT-1",
+ "run": "run-009-r2",
+ "wave": "R2+M1+M2",
+ "scope": "R2 flattened-table rebuild (live-evidence census) + M1 math code-span conversion; questions.md regen rides; official corpus untouched",
+ "transforms": [
+  {
+   "track": "R2-a",
+   "pid": "qstnprt_rdyGR5PkqVnRXwkH",
+   "file": "SME-ExamQuestion/igcse-physics-19/5-solids-liquids-and-gases/5-1-density-and-pressure/topic.json",
+   "field": "problem_md",
+   "morph": "mathml-strip -> $matrix$ (amended: serving lineage already carries the KaTeX matrix; corpus adopts it; table morph dropped)",
+   "evidence": "live page: <span role=\"math\" aria-label=\"table row cell ... end table\"> containing <mtable> nest; equation = \"pressure of the / trapped air\" = \"atmospheric / pressure\" + \"pressure difference / caused by water\"",
+   "new": "$\\begin{matrix}\\begin{matrix}pressure  of  the \\\\ trapped  air\\end{matrix}  = \\end{matrix} \\begin{matrix}atmospheric \\\\ pressure\\end{matrix}  +  \\begin{matrix}pressure  difference \\\\ caused  by  water\\end{matrix}$"
+  },
+  {
+   "track": "R2-b",
+   "pid": "qstnprt_dtqBs72bCBHhzmPW",
+   "file": "SME-ExamQuestion/igcse-physics-19/7-radioactivity-and-particles/7-2-radioactivity-uses-and-dangers/topic.json",
+   "field": "problem_md",
+   "morph": "dash-arrow-header",
+   "evidence": "live page: <th colSpan=\"3\"> \"least ionising \" + <math> 8x long dash + rightwards arrow </math> + \" most ionising\"; data row of 3 empty cells",
+   "new_header_cell": "least ionising ————————→ most ionising"
+  },
+  {
+   "track": "M1",
+   "pid": "qstnprt_6KGc2JNpQkkr4fMC",
+   "file": "SME-ExamQuestion/igcse-physics-19/1-forces-and-motion/1-1-movement-and-position/topic.json",
+   "field": "solution_md",
+   "morph": "math-code-span",
+   "lines": 2,
+   "evidence": "live page: equation nodes (MathML mfrac/mrow) for area-of-trapezium and total-distance",
+   "new": "backtick LaTeX -> $...$ LaTeX (2 lines)"
+  },
+  {
+   "track": "M1",
+   "pid": "qstnprt_M8YQX5F9BqRJwVJ3",
+   "file": "SME-ExamQuestion/igcse-physics-19/1-forces-and-motion/1-3-momentum/topic.json",
+   "field": "solution_md",
+   "morph": "math-code-span",
+   "lines": 1,
+   "evidence": "live page: equation node \"m_{ball} = 6.4 kg\" MathML family; p_1 = (m_ball + m_pin) x v rendered as math",
+   "new": "backtick LaTeX -> $...$ LaTeX (1 line)"
+  },
+  {
+   "track": "M2-a",
+   "pid": "qstnprt_4vfnyBdMN6xzcDJM",
+   "file": "SME-ExamQuestion/igcse-physics-19/7-radioactivity-and-particles/7-1-properties-of-radiation/topic.json",
+   "field": "problem_md",
+   "lines": 1,
+   "morph": "backtick nuclear pseudo-notation -> KaTeX prescript LaTeX",
+   "evidence": "live page 7-1: <mmultiscripts> prescript pairs p(sub 1,sup 1) + e(sub -1,sup 0) -> n(sub 0,sup 1); serving plane already renders identical KaTeX",
+   "new": "${}_{1}^{1}p  +  {}_{- 1}^{0}e  \\rightarrow {}_{0}^{1}n$"
+  },
+  {
+   "track": "M2-a",
+   "pid": "qstnprt_zmCwB2mCVKK6Fsx7",
+   "file": "SME-ExamQuestion/igcse-physics-19/7-radioactivity-and-particles/7-2-radioactivity-uses-and-dangers/topic.json",
+   "field": "problem_md + solution_md",
+   "lines": 3,
+   "morph": "backtick nuclear pseudo-notation -> KaTeX prescript LaTeX (Th-232 decay, incomplete + completed forms)",
+   "evidence": "live page 7-2: <mmultiscripts> Th(90,232) -> Rn(86,220) + ...... alpha(dots) + ...... beta(-1,0); six-dot coefficient placeholders preserved",
+   "new": "${}_{90}^{232}{Th}  \\rightarrow  {}_{86}^{220}{Rn}  +  . . . . . .  {}_{. . .}^{. . .}{\\alpha} \\text{   } +  . . . . . .  {}_{- 1}^{0}{\\beta}$ (problem); completed forms in solution L6/L28"
+  },
+  {
+   "track": "M2-b (discovered in evidence pass)",
+   "pids": [
+    "qstnprt_QzWSVGGTRn5mWtdz",
+    "qstnprt_xYdvSN5X58QNZbXC",
+    "qstnprt_KK5wsxWXhgZcnNFV"
+   ],
+   "lines": 3,
+   "morph": "pre_square/pre^ flatten junk + word-symbol math -> KaTeX prescript LaTeX",
+   "evidence": "live MathML mmultiscripts convention (sub=Z, sup=A); v2 serving forms verbatim; zmCwB collateral: L20 double-backslash beta, L33 $alpha_{2}^{4}$ word-symbol"
+  },
+  {
+   "track": "M2-c (discovered in evidence pass)",
+   "pids": [
+    "qstnprt_mwJzfZ6r4rsjtsS8",
+    "qstnprt_cYtnGPmf9PDd7P8p",
+    "qstnprt_XgBcnrhxGY4rNQ5B",
+    "qstnprt_NSMPgHFrX8cz4SVf",
+    "qstnprt_5kbz6sYFk9twzTx7",
+    "qstnprt_VGn9kGtZX3jt4bty"
+   ],
+   "lines": 8,
+   "morph": "double-backslash render-breakers (\\\\lambda, \\\\rho, \\\\beta) + missing-space control sequences (\\timesg) -> clean KaTeX",
+   "evidence": "v2 serving forms verbatim (PR #634 head cc2e1b7); corpus math was ParseError-grade (\\\\ = line-break cmd inline; \\timesg = unknown control sequence)"
+  }
+ ],
+ "residuals_disclosed": [
+  {
+   "class": "eqbox-dotted-lines",
+   "pids": [
+    "qstnprt_7WxytyFccQPST5JG",
+    "qstnprt_36cNn2622xqfVfQS",
+    "qstnprt_XgBcnrhxGY4rNQ5B"
+   ],
+   "note": "dotted answer lines \"moment = .... unit = ....\" — legitimate exam formatting; no action"
+  },
+  {
+   "class": "br-br-header-debris",
+   "note": "several table headers carry <br><br> joins (e.g. temperature/V/ mA table); render correctly; cosmetic only; no action this run"
+  },
+  {
+   "class": "ZTrm-content-mismatch",
+   "pids": [
+    "qstnprt_ZTrm3d8Qwgth5z94"
+   ],
+   "note": "corpus has Po/Pb/Bi grid question; v2 serves a DIFFERENT question (gamma emission) under the same pid; 7 pre_square lines deferred until content reconciliation decides the of-record content"
+  },
+  {
+   "class": "equation-code-span-cosmetic",
+   "pids": [
+    "qstnprt_cHf2Brk7zsDZsdHb"
+   ],
+   "note": "`equation` code span above image equation; v2 carries the same span; cosmetic, no action"
+  },
+  {
+   "class": "gathered-vs-matrix-cosmetic",
+   "pids": [
+    "qstnprt_NSMPgHFrX8cz4SVf"
+   ],
+   "note": "corpus gathered-env form is valid KaTeX; v2 normalized to matrix form; cosmetic divergence, no action"
+  }
+ ],
+ "figure_correction": "conversation-level \"93 SME flattened-table parts / 121 lines\" (earlier session, scripts lost) did NOT reproduce under any detector on either corpus (old anchor 4ec3e6c, current main) or the live pages; the committed W2 pre-registered census (26 parts R1 + 3 headers R3 + 3 official) is the authoritative record; this run pre-registers the live-evidence census instead"
+}

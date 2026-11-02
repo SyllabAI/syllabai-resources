@@ -379,7 +379,7 @@ When the pressure of this trapped air reaches 104 kPa, the pressure switch turns
 
 The pressure of the trapped air is given by this relationship
 
-`| | pressure of the | | trapped air | | = | | | atmospheric | pressure | + | pressure difference | | caused by water | |`
+$\begin{matrix}\begin{matrix}pressure  of  the \\ trapped  air\end{matrix}  = \end{matrix} \begin{matrix}atmospheric \\ pressure\end{matrix}  +  \begin{matrix}pressure  difference \\ caused  by  water\end{matrix}$
 
 State the equation linking pressure difference, height, density and *g*.
 

@@ -346,7 +346,7 @@ When plutonium decays, it emits an alpha particle and a gamma ray.
 
 (i) Complete the decay equation for plutonium-238.
 
-$Pu_{94}^{238} \rightarrow \ \\alpha pre_{square} pre^{4} + \mathrm{X} pre_{square} pre^{square} + \ \\gamma pre_{0} pre^{square}$
+${}_{94}^{238}{Pu}  \rightarrow  {}_{\square}^{4}{\alpha}  +  {}_{\square}^{\square}X  +  {}_{0}^{\square}{\gamma}$
 
 (ii) Use information from the table in part (a) to identify element X.
 
@@ -355,7 +355,7 @@ The nucleus of americium-238 can absorb an electron. When this happens, one of t
 
 This equation describes the process.
 
-`p _ 1 ^ 1 + e _ - 1 ^ 0 -> n _ 0 ^ 1`
+${}_{1}^{1}p  +  {}_{- 1}^{0}e  \rightarrow {}_{0}^{1}n$
 
 (i) Describe how this process affects the proton number and the nucleon number of the nucleus that absorbs the electron.
 
@@ -486,7 +486,7 @@ Complete the table by ticking the correct type of radiation for each property. T
 ### 2((b)) — 3 marks — command: multiple — structured — from paper 2015 January · 1P
 The symbol for the structure of an alpha particle is
 
-`equation`$\ \\alpha pre_{2} pre^{4}$
+`equation`${}_{2}^{4}{\alpha}$
 
 (i) State the number of neutrons and the number of protons in an alpha particle.
 

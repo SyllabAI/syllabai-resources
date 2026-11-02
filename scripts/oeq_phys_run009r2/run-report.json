@@ -1,0 +1,45 @@
+{
+ "lane": "T-OEQ-PHYS-FORMAT-1",
+ "run": "run-009-r2",
+ "date": "2026-11-02",
+ "gates": {
+  "census_blocks_post": {
+   "official_semantics_MULTI_COL_OK": 146,
+   "word_bank_header_only_accepted": 21,
+   "1COL_DEGENERATE": 0
+  },
+  "orphan_pipe_lines_post": 0,
+  "math_pipe_conflicts": 0,
+  "g3_char_safety": "PASS",
+  "t1_field_parity": "4/4 PASS (exactly pinned fields differ)",
+  "qmd_unique_match": "2/2 asserted",
+  "official_corpus": "untouched (0 diffs)"
+ },
+ "pin_count": 7,
+ "note": "5 corpus field pins + 2 questions.md file pins; T1 json.dumps(indent=1, ensure_ascii=False) no trailing newline (byte-parity verified on all 24 untouched files pre-edit)",
+ "amendments": [
+  "commit 2: R2-a morph corrected table -> KaTeX $matrix$ (serving-lineage evidence; plane already renders it; corpus adopts verbatim)",
+  "commit 3: M2 executed — nuclear-notation + math-serialization parity wave; 17 corpus lines / 11 parts / 7 topic.json + 5 questions.md lines / 2 files; new strings verbatim from v2 serving plane (PR #634 head cc2e1b7); nuclear forms independently confirmed against live MathML mmultiscripts prescript pairs; gates re-run GREEN"
+ ],
+ "m2": {
+  "date": "2026-11-02",
+  "scope_preregistered": "4 nuclear-decay backtick lines / 2 parts",
+  "scope_executed": "17 lines / 11 parts / 7 files (M2-a 4 preregistered; M2-b 3+2 same-family discovered; M2-c 8 same-family discovered) + 5 questions.md lines",
+  "gates_rerun": {
+   "t1_idempotence": "24/24 byte-exact (indent=1, ensure_ascii=False, no trailing NL)",
+   "t1_field_pins": "17/17 exact (after-hash = final cumulative field state)",
+   "census_zero_drift": "0 table rows touched",
+   "math_pipe_conflicts": 0,
+   "g3_char_safety": "PASS (ASCII + whitelisted greek rho from v2)",
+   "pseudo_notation_rescan": "0 unexpected corpus-wide; 7 whitelisted (ZTrm disclosed residual)",
+   "qmd_pins": "5/5 exact",
+   "official_corpus": "untouched"
+  },
+  "v2_side": "questions.json NO-OP (all 17 lines already correct on plane); serve payload updated",
+  "artifacts": [
+   "m2-scan.json",
+   "m2-pins.json",
+   "m2-qmd-pins.json"
+  ]
+ }
+}
