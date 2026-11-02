@@ -137,7 +137,7 @@ How many neutrons are there in a nucleus of radon-220?
 ### 1((a)) — 1 mark — multiple_choice — from paper 2013 January · 1P
 Vanadium-50 is an isotope of vanadium.
 
-It has the symbol $space_{23}^{50} \mathrm{V}$
+It has the symbol ${}_{23}^{50}{} V$
 
 The number of neutrons in a vanadium-50 nucleus is
 - **A.** 23
@@ -458,11 +458,11 @@ The grid shows the number of neutrons and the number of protons in some isotopes
 ii) Why are some isotopes described as stable?
 
 ### 14((b)) — 4 marks — command: multiple — structured — from paper 2013 June · 1PR
-(i) Use the grid in part (a) to calculate the number of neutrons in a $\text{Po} pre_{ } pre^{210}$ nucleus.
+(i) Use the grid in part (a) to calculate the number of neutrons in a ${}^{210}\text{Po}$ nucleus.
 
-(ii) Describe what happens to the number of protons and the number of neutrons when a nucleus of $\text{Pb} pre_{ } pre^{210}$ decays to form $\text{Bi} pre_{ } pre^{210}$.
+(ii) Describe what happens to the number of protons and the number of neutrons when a nucleus of ${}^{210}\text{Pb}$ decays to form ${}^{210}\text{Bi}$.
 
-(iii) State the type of decay that occurs when $\text{Pb} pre_{ } pre^{210}$ decays to form $\text{Bi} pre_{ } pre^{210}$.
+(iii) State the type of decay that occurs when ${}^{210}\text{Pb}$ decays to form ${}^{210}\text{Bi}$.
 
 ### 14((c)) — 2 marks — command: explain — structured — from paper 2013 June · 1PR
 Explain why the mass (nucleon) number and the atomic (proton) number do not change when a gamma ray is emitted from a nucleus.
