@@ -217,3 +217,71 @@ Stage Summary:
   grind resumes as R6; (b) the 2-chunk glue residual — retry_glue_ych11.js
   when the wall cracks; (c) YCH11_BASELINE doc line in the YCH12 env
   template (disclosed above).
+
+---
+Task ID: T-PARSE-YCH11-1-R6
+Agent: Z.ai (main, zai-web)
+Task: "Continue" (2026-11-02, zai-web, trace 1a19c372e4e0d355) — resume the
+R5-parked 295/800 grind on the established parameterized toolchain.
+
+Work Log:
+- Sandbox reset #15 recovery: mirror rolled back to the base image again
+  (refs at a8803c5, 12e136296 objects gone) — fetch + ff to tip fb28c174.
+  Opening guard: 12e136296..fb28c174 checked for ych11/ledger activity —
+  ZERO commits touch the lane or books/README.md + CATALOG.md (the 20
+  parallel commits are physics guided waves 1-3, T-GRADE-7/8/9,
+  T-OEQ-MATHSB-SERVE-1, T-OEQ-PHYS-FORMAT-1); baseline stands. Sparse
+  flipped back to cone mode (parallel-session law) — full non-cone pattern
+  set re-applied, lane materialized. Workspace: partial-survival reset
+  (data/ kept, node_modules + mirror gone) — env copied from the
+  repo-resident template, reseed (corpus<-pristine, report<-landed,
+  baseline<-landed corpus), evidence 343 records + 800 ids copied in.
+- GRIND (12 windows, 18:15-20:03Z, CONC=2, PROBE_WAIT=45, foreground 580 s):
+  9 harvesting — +56/+26/+26/+26/+26/+26/+27/+42/+11 = +266 terminal
+  (295 -> 555 applied after one pre-landing drop, below); 3 fully walled
+  (W7, W11, W12; the 20:03Z closure ran past the round's stop rule) ->
+  parked. rejected 28 -> 33 (+5), error-cum-429 records 20 -> 41 (all
+  self-heal candidates for R7; the bursty-crack rhythm continues).
+- ENOSPC INCIDENT (W9, 19:40Z): disk hit 100% mid-window (global usage —
+  4.1G partial-clone .git + 3.1G legacy workspaces + 1.9G docling venv),
+  runner died on a log append. Remediation: freed ~1.28G (scratch/ych11
+  probe renders 213M, workspace probe/ 48M, docling HF model cache 1,012M
+  — all re-derivable); evidence tail-check found ONE truncated record
+  (ych1_v1_u3_c9_pdf090_0535 ok, cut mid-string by the failed append) —
+  dropped with backup (llm_repairs_ych11.jsonl.bak_enospc_20261102), the
+  id stays out of the done-set so the runner re-attempts it (self-heal
+  law); all 617 surviving records parse clean.
+- PASS-2 GLUE RETRY (retry_glue_ych11.js): ych1_v1_u10_c0_pdf313_1702
+  CLEARED (improved repair appended, 1203 -> 1233 chars — input taken
+  from the LANDED corpus, note: the workspace corpus is pristine by
+  reseed design, the pass-2 targets are repaired chunks); 1 of R5's two
+  residuals closed. Re-run later against the merged corpus + the R6 audit
+  added two NEW true-glue targets (ych1_v1_u5_c15_pdf151_0858,
+  ych1_v1_u0_c0_pdf003_0009; ych1_v1_u6_c21_pdf172_0960 NOOP'd once) —
+  RETRY_IDS updated to the 3-id list; two attempts (20:05Z, 20:08Z) both
+  fully walled, nothing appended (invariant held), disclosed residual.
+- VALIDATE-GATE DROP (first in lane history): one R6 ok record
+  (ych1_v1_u5_c15_pdf146_0835) repaired its chunk 2315 -> 2447 chars,
+  over the book's 2400 hard max — the runner's sanity check verifies
+  content ratios (0.6x/1.7x + lcsRatio 0.97) but never the book-level
+  bound, a blind spot this round closes: `llm_repair_ych11.js` and
+  `retry_glue_ych11.js` sanityCheck now reject t.length > 2400 (R6
+  lesson comment in-code). The record was dropped with backup
+  (.bak_drop_20261102), the id returns to todo for an R7 re-attempt
+  under the patched gate; reseed -> re-merge -> reconcile re-run clean.
+- LANDING CHAIN: merge (1571 chunks, llm_repaired 555, text changed 552,
+  anchor PASS 0 drift) -> reconcile ALL PASS (net-new 260, overlap 295
+  re-applied from pristine, 591 latest-wins ids: 555 ok / 33 rejected /
+  3 err in flight) -> audit 0 Unicode regressions (25 residual 18+
+  lowercase runs: 22 benign chemistry vocabulary + the 3 glue targets
+  above) -> validate ALL CHECKS PASSED x2 (workspace + repo copy,
+  EP 10/10) -> artifacts copied back, cmp byte-equal x5 (corpus / md /
+  report / evidence / ids).
+
+Stage Summary:
+- **Polish 295/800 -> 555/800 (net-new +260, todo 212), every gate green;
+  tooling hardened on two fronts (book-bound sanity + pass-2 target
+  refresh).** Open follow-ups: (a) todo 212 + 41 error-cum-429 records —
+  grind resumes as R7; (b) 3-chunk glue residual (u6_c21 / u5_c15_pdf151 /
+  u0_c0) — retry_glue_ych11.js when the wall cracks; (c) YCH12 env
+  template stale baseline doc line (still disclosed-untouched).

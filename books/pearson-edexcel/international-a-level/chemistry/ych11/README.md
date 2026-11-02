@@ -2,8 +2,8 @@
 
 **Status:** SB1 **PARSED** (T-PARSE-YCH11-1, 2026-10-24: corpus v1 1571 chunks,
 validator ALL CHECKS PASSED; 291 blank display-equation regions recovered by
-verbatim manual transcription before chunking; LLM polish R1–R5 partial at
-295/800, quota-walled, resumable). SB2 = parsed in the sibling `ych12` lane
+verbatim manual transcription before chunking; LLM polish R1–R6 partial at
+555/800, quota-walled, resumable). SB2 = parsed in the sibling `ych12` lane
 (T-PARSE-YCH12-1, 2026-10-25; `ych2_v1_` law) — the NOT-SOURCED note above was
 drift from before that lane landed, repaired here.
 Scaffold per `books/README.md` §5 (copy of the `physics/yph11/` IAL lane).
@@ -31,7 +31,16 @@ sentence-length space-glue the model declined to fix — pass-2 spot retry
 tool landed (`retry_glue_ych11.js`), re-run when the wall cracks; the other
 15 residual runs are genuine chemistry vocabulary, benign; tooling now
 fully env-parameterized per the YCH12 v2 convention: `ych11_env_template.sh`
-+ `ych11_reseed.sh` + `ych11_reconcile.py` repo-resident)
++ `ych11_reseed.sh` + `ych11_reconcile.py` repo-resident); **R6
+2026-11-02: +260 net-new in nine harvesting windows of twelve — 555/800
+applied (552 text-changed; 630 evidence records: 556 ok / 33 rejected /
+41 error-cum-429 pending retry, todo 212)**; merge re-applied from
+pristine, anchor diff 0 drift, reconcile ALL PASS (net-new 260, overlap
+295), 0 Unicode regressions, validate ALL CHECKS PASSED ×2; pass-2
+cleared R5's ych1_v1_u10_c0_pdf313_1702 glue chunk; 3 glue targets
+remain (u6_c21 + R6-found u5_c15_pdf151_0858 / u0_c0_pdf003_0009);
+first validate-gate drop in lane history (one repair pushed its chunk
+over the 2400 hard max — runner sanity now enforces the book bound)
 - **Provenance:** https://www.taleem360.com/edexcel-international-a-level-chemistry-student-book-1-in-pdf-gfv (direct download link `?f=062fc8b2`, served 148,791,436 bytes to a Googlebot UA — the method of record from the YPH11 lane; this title was not reCAPTCHA-walled)
 
 ## Structure (probed 2026-10-24, production-confirmed at parse)

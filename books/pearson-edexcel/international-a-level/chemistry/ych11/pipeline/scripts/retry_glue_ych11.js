@@ -17,9 +17,12 @@ const OUT = process.env.YCH11_REPAIRS || "/home/z/my-project/data/ych11_sb1/llm_
 const LOG = process.env.YCH11_LOG || "/home/z/my-project/data/ych11_sb1/llm_repair_ych11.log";
 
 // pass-2 targets: audit residuals that are NOT genuine chemistry vocabulary
+// (R5: u6_c21+u10_c0 — u10_c0 cleared at R6, u6_c21 NOOP'd once, still listed;
+//  R6 audit added u5_c15 + u0_c0 as true multi-word glue runs)
 const RETRY_IDS = [
   "ych1_v1_u6_c21_pdf172_0960",
-  "ych1_v1_u10_c0_pdf313_1702",
+  "ych1_v1_u5_c15_pdf151_0858",
+  "ych1_v1_u0_c0_pdf003_0009",
 ];
 
 function log(msg) {
@@ -93,6 +96,7 @@ function sanityCheck(original, repaired) {
   t = t.replace(/^(here is|here's) the corrected text:?\s*/i, "");
   if (t.length < original.length * 0.6) return null;
   if (t.length > original.length * 1.7) return null;
+  if (t.length > 2400) return null; // book-level hard bound (R6 lesson, same as runner)
   if (/i cannot|unable to|as an ai/i.test(t.slice(0, 80))) return null;
   const oLines = original.split("\n"), rLines = t.split("\n");
   if (original.includes("|")) {

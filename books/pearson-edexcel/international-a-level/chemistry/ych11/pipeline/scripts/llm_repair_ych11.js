@@ -94,6 +94,10 @@ function sanityCheck(original, repaired) {
   t = t.replace(/^(here is|here's) the corrected text:?\s*/i, "");
   if (t.length < original.length * 0.6) return null; // too short -> keep original
   if (t.length > original.length * 1.7) return null; // too long -> suspicious
+  // book-level hard bound (validate_ych11.py #9): a repair must never push a
+  // chunk over it (R6 lesson: 2315 -> 2447 repair passed these ratio checks
+  // but failed the book gate at landing; the id had to be dropped)
+  if (t.length > 2400) return null;
   if (/i cannot|unable to|as an ai/i.test(t.slice(0, 80))) return null;
   const oLines = original.split("\n"), rLines = t.split("\n");
   if (original.includes("|")) {

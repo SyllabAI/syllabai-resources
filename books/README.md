@@ -1202,6 +1202,28 @@ E-ID they correct)*
   chemistry vocabulary. Ledgers: CATALOG row 11 + §3.5, lane README +
   worklog same commit.
 
+- **2026-11-02 — v1.17 (T-PARSE-YCH11-1-R6):** YCH11 SB1 polish resumed
+  (reset #15, sixth consecutive zero-memory recovery — the repo-resident
+  template/reseed/reconcile surface now covers the round start end to
+  end; opening guard: zero ych11/ledger commits in 12e136296..fb28c174,
+  the 20 parallel commits are other lanes'). Grind: 12 windows
+  (18:15–20:03Z) — 9 harvesting +56/+26/+26/+26/+26/+26/+27/+42/+11,
+  3 fully walled — **295/800 -> 555/800 applied (net-new +260, todo
+  212; 630 evidence records: 556 ok / 33 rejected / 41 error-cum-429
+  pending retry)**; anchor 0 drift, reconcile ALL PASS (net-new 260,
+  overlap 295 re-applied from pristine), audit 0 Unicode regressions,
+  validate ALL CHECKS PASSED ×2. Two lane firsts, both gated and
+  disclosed: (1) an ENOSPC kill mid-window (global disk, 100%) — freed
+  ~1.28G of re-derivable artifacts, ONE tail-truncated evidence record
+  dropped with backup, its id re-queued by the done-set law; (2) a
+  validate-gate drop — one repair expanded its chunk over the book's
+  2400 hard max unseen by the runner's ratio-only sanity check; the
+  record was dropped with backup, the id returns to todo, and BOTH
+  repair tools now enforce the bound in-code. Pass-2 glue retry cleared
+  1 of R5's 2 residuals (u10_c0) and re-targeted 3 (u6_c21 + 2 R6
+  audit finds), attempts walled — residual disclosed. Ledgers: CATALOG
+  row 11 + §3.5 + §4.2, lane README + worklog same commit.
+
 - **2026-10-30 — v1.12 (T-PARSE-YCH12-2 POLISH-CONT-V2-6):** YCH12 v2 polish
   grind continued and landed (R-015: cumulative **624/801 applied**, net-new
   **+204** this landing — the second consecutive record round, +194 before
