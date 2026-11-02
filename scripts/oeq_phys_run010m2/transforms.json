@@ -1,0 +1,77 @@
+{
+ "lane": "T-OEQ-PHYS-FORMAT-1",
+ "run": "run-010-m2",
+ "wave": "M2 (nuclear notation)",
+ "scope": "nuclear-decay notation repair: corpus adopts the serving-plane KaTeX strings verbatim (run-001/003 lineage); questions.md regen rides; v2 plane needs ZERO content changes (corpus converges to plane); official corpus untouched",
+ "evidence": {
+  "capture_equation": "live 7-1 aria-label: \"straight p presubscript 1 presuperscript 1 space plus space straight e presubscript negative 1 end presubscript presuperscript 0 space rightwards arrow straight n presubscript 0 presuperscript 1\" -> prescripts on upright letters",
+  "thorium_equation": "live 7-2 aria-label: \"Th presubscript 90 presuperscript 232 space rightwards arrow space Rn presubscript 86 presuperscript 220 space plus space...... space straight alpha presubscript... presuperscript... space plus space...... space straight beta presubscript negative 1 presuperscript 0\" -> prescripts; coefficient blanks are literal \"......\"; alpha Z/A blanks are literal \"...\"",
+  "physics_balance": "A: 232 = 220 + 3x4; Z: 90 = 86 + 3x2 - 2x1 (both exact)"
+ },
+ "transforms": [
+  {
+   "track": "M2-a",
+   "pid": "qstnprt_4vfnyBdMN6xzcDJM",
+   "field": "problem_md",
+   "lines": 1,
+   "morph": "backtick pseudo-notation -> plane KaTeX string (prescripts)"
+  },
+  {
+   "track": "M2-b1",
+   "pid": "qstnprt_zmCwB2mCVKK6Fsx7",
+   "field": "problem_md",
+   "lines": 1,
+   "morph": "backtick pseudo (blank form) -> plane KaTeX string"
+  },
+  {
+   "track": "M2-b2",
+   "pid": "qstnprt_zmCwB2mCVKK6Fsx7",
+   "field": "solution_md",
+   "lines": 1,
+   "morph": "backtick pseudo (partial form) -> plane KaTeX string"
+  },
+  {
+   "track": "M2-b3",
+   "pid": "qstnprt_zmCwB2mCVKK6Fsx7",
+   "field": "solution_md",
+   "lines": 1,
+   "morph": "backtick pseudo (final form) -> plane KaTeX string"
+  },
+  {
+   "track": "M2-b4",
+   "pid": "qstnprt_zmCwB2mCVKK6Fsx7",
+   "field": "solution_md",
+   "lines": 1,
+   "morph": "KaTeX style drift adopt: corpus `( 2 \\times 3 ) - \\\\beta` -> plane `\\left(2 \\times 3\\right) - \\beta`"
+  },
+  {
+   "track": "M2-b5",
+   "pid": "qstnprt_zmCwB2mCVKK6Fsx7",
+   "field": "solution_md",
+   "lines": 1,
+   "morph": "HIDDEN CASUALTY: corpus `$alpha_{2}^{4}$` (letters \"alpha\", mis-renders) -> plane `${}_{2}^{4}{\\alpha}$` — 5th M2-class line, found by whole-field plane-parity gate, NOT by the backtick scan"
+  }
+ ],
+ "gates": {
+  "plane_parity_both_parts": "PASS (whole problem_md+solution_md fields byte-equal to plane)",
+  "backtick_pseudo_post": 0,
+  "orphan_pipe_post": 0,
+  "math_pipe_conflicts": 0,
+  "g3_char_safety": "PASS",
+  "t1_field_parity": "7-1: 1/1 PASS; 7-2: 2/2 field diffs, all pinned"
+ },
+ "disclosures": {
+  "corpus_plane_drift_census": {
+   "drift_parts": 634,
+   "drift_fields": 850,
+   "note": "corpus<->plane field-level drift across the whole SME bank (of 1135 parts / 2270 fields). Includes benign style drift and plane-lineage fixes never back-adopted. This run pays down 2 parts to ZERO drift. Reconciliation = its own future wave (drift census + classification + adoption law) — NOT in M2 scope.",
+   "artifact": "scripts/oeq_phys_run010m2/drift-scan.json"
+  },
+  "M3_candidates": {
+   "class": "pre_square mmultiscripts debris",
+   "lines": 6,
+   "parts": 4,
+   "note": "e.g. `$Pu_{94}^{238} \\rightarrow \\ \\alpha pre_{square} pre^{4}...$` — mmultiscripts conversion junk (\"pre\"/\"square\" tokens); same family as M2 but each needs live MathML evidence + blank-box (\\square) representation decisions"
+  }
+ }
+}
