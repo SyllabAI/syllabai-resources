@@ -1,0 +1,612 @@
+{
+  "format": "guided-lesson/0.6",
+  "noteRef": {
+    "noteId": "rn_gDy2qTkY26r5sMtd",
+    "corpusVersion": "sme-revision-notes-igcse-physics-19-2026-09-17",
+    "topicTitle": "1. Forces & Motion",
+    "subtopicTitle": "Forces, Movement & Changing Shape",
+    "sourceUrl": "https://www.savemyexams.com/igcse/physics/edexcel/19/revision-notes/1-forces-and-motion/1-2-forces-movement-and-changing-shape/1-2-4-unbalanced-forces"
+  },
+  "specPoints": [
+    {
+      "code": "1.17",
+      "text": "know and use the relationship between unbalanced force, mass and acceleration: force = mass × acceleration F = m × a"
+    }
+  ],
+  "primer": {
+    "text": "A book on a desk and a tug-of-war rope tell one story in two halves: sometimes the forces cancel, sometimes they leave a surplus. This note names the two cases, then turns the surplus into the most used equation in mechanics — force equals mass times acceleration.",
+    "prerequisiteSubtopic": "Forces, Movement & Changing Shape"
+  },
+  "lessons": [
+    {
+      "title": "Balanced and unbalanced forces",
+      "sourceHeadings": [
+        "Balanced forces",
+        "Unbalanced forces"
+      ],
+      "specRefs": [
+        "1.17"
+      ],
+      "opening": "Forces on one object combine along each line into a single resultant. When that resultant is zero the forces are balanced and nothing about the motion changes; when a surplus survives, the forces are unbalanced and the object must accelerate. This lesson fixes both words with the two standard scenes.",
+      "keyPoints": [
+        "Balanced forces cancel completely, so the resultant force on the body is zero.",
+        "A book on a desk shows the standard balance: its weight downward against the desk's upward push.",
+        "Unbalanced forces leave a resultant, and that resultant causes the object to accelerate.",
+        "The acceleration may show as speeding up, slowing down, or changing direction.",
+        "A tug-of-war with 80 N against 100 N leaves a 20 N resultant towards the stronger side."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Cancel completely — balanced, nothing changes. Leave a surplus — unbalanced, and the surplus accelerates the object.",
+          "analogy": "Two shopkeepers haggling over one till: equal pulls hold the till still; the stronger pull walks away with it.",
+          "examPointer": "'Balanced' questions want the phrase 'resultant force is zero' — not merely 'the forces are equal'."
+        },
+        "medium": {
+          "restatement": "Balance is a statement about the resultant, not about stillness: a balanced object keeps whatever velocity it had, while any non-zero resultant rewrites that velocity.",
+          "analogy": "A barge in steady current: matched tow ropes hold its heading; one extra metre of rope on a side swings it — velocity responds to the surplus, not to the pull.",
+          "examPointer": "Direction of the acceleration follows the resultant's direction — state both when a question asks for the motion."
+        }
+      },
+      "check": [
+        {
+          "stem": "A book's weight is 12 N downward and the desk pushes up with 12 N. The resultant force on the book is:",
+          "misconceptionClass": "balance reading",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "24 N downward",
+              "correct": false,
+              "explanation": "The forces oppose; they do not stack.",
+              "misconception": "add-only error"
+            },
+            {
+              "key": "B",
+              "text": "12 N upward",
+              "correct": false,
+              "explanation": "That is one force alone, not the combination.",
+              "misconception": "member-vs-sum confusion"
+            },
+            {
+              "key": "C",
+              "text": "Zero — the forces are balanced",
+              "correct": true,
+              "explanation": "Equal opposites cancel to a zero resultant.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "Impossible to say without the mass",
+              "correct": false,
+              "explanation": "The two values already decide the resultant.",
+              "misconception": "data myth"
+            }
+          ]
+        },
+        {
+          "stem": "In a tug-of-war, person A pulls 80 N left and person B pulls 100 N right. The rope's resultant is:",
+          "misconceptionClass": "tug arithmetic",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "180 N to the right",
+              "correct": false,
+              "explanation": "Opposing pulls subtract rather than add.",
+              "misconception": "add-only error"
+            },
+            {
+              "key": "B",
+              "text": "20 N to the right",
+              "correct": true,
+              "explanation": "100 − 80 = 20 N, on the stronger side.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "20 N to the left",
+              "correct": false,
+              "explanation": "The leftward pull is the weaker one.",
+              "misconception": "direction flip"
+            },
+            {
+              "key": "D",
+              "text": "90 N, the average",
+              "correct": false,
+              "explanation": "Averaging is not the combining law.",
+              "misconception": "averaging error"
+            }
+          ]
+        },
+        {
+          "stem": "An unbalanced resultant force must cause the object to:",
+          "misconceptionClass": "consequence recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "Stay exactly where it is",
+              "correct": false,
+              "explanation": "That is the balanced case.",
+              "misconception": "case flip"
+            },
+            {
+              "key": "B",
+              "text": "Move at constant velocity",
+              "correct": false,
+              "explanation": "Constant velocity needs zero resultant.",
+              "misconception": "case flip"
+            },
+            {
+              "key": "C",
+              "text": "Gain mass",
+              "correct": false,
+              "explanation": "Mass is untouched by forces.",
+              "misconception": "invented effect"
+            },
+            {
+              "key": "D",
+              "text": "Accelerate — its velocity changes",
+              "correct": true,
+              "explanation": "A non-zero resultant always changes the velocity: speed, direction, or both.",
+              "misconception": null
+            }
+          ]
+        },
+        {
+          "stem": "Which pair of forces is balanced?",
+          "misconceptionClass": "pair discrimination",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "7 N left and 7 N right",
+              "correct": true,
+              "explanation": "Equal opposites cancel exactly.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "7 N left and 9 N right",
+              "correct": false,
+              "explanation": "A 2 N surplus survives.",
+              "misconception": "imbalance missed"
+            },
+            {
+              "key": "C",
+              "text": "7 N left and 7 N up",
+              "correct": false,
+              "explanation": "Those are not along one line and do not cancel.",
+              "misconception": "axis mixing"
+            },
+            {
+              "key": "D",
+              "text": "5 N up and 3 N up",
+              "correct": false,
+              "explanation": "Same-direction forces add to 8 N.",
+              "misconception": "direction misread"
+            }
+          ]
+        },
+        {
+          "stem": "A crate already sliding at 4 m/s experiences balanced forces. Its motion becomes:",
+          "misconceptionClass": "balanced-motion law",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "A stop, because balanced means stationary",
+              "correct": false,
+              "explanation": "Balanced does not mean stationary; it means no change.",
+              "misconception": "stillness myth"
+            },
+            {
+              "key": "B",
+              "text": "A steady 4 m/s in a straight line",
+              "correct": true,
+              "explanation": "Zero resultant leaves the existing velocity untouched.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "A gradual speed-up",
+              "correct": false,
+              "explanation": "Speeding up needs a resultant along the motion.",
+              "misconception": "case flip"
+            },
+            {
+              "key": "D",
+              "text": "A widening circle",
+              "correct": false,
+              "explanation": "Turning needs a sideways resultant.",
+              "misconception": "case flip"
+            }
+          ]
+        },
+        {
+          "stem": "State what 'balanced forces' means for the resultant force.",
+          "misconceptionClass": "definition recall",
+          "kind": "recall",
+          "modelAnswer": "The forces cancel completely, so the resultant force on the body is zero.",
+          "keywords": [
+            "cancel",
+            "zero",
+            "resultant",
+            "forces"
+          ]
+        },
+        {
+          "stem": "Name the two forces that balance for a book resting on a desk.",
+          "misconceptionClass": "scene recall",
+          "kind": "recall",
+          "modelAnswer": "The book's weight acting downward and the desk's upward push on it.",
+          "keywords": [
+            "weight",
+            "desk",
+            "upward",
+            "push"
+          ]
+        },
+        {
+          "stem": "Explain why the tug-of-war rope accelerates towards person B when A pulls 80 N and B pulls 100 N.",
+          "misconceptionClass": "surplus reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "The two pulls do not cancel: subtracting 80 N from 100 N leaves a 20 N resultant pointing towards B. Any unbalanced force accelerates the body in the resultant's own direction, so the rope gains velocity towards B.",
+          "keywords": [
+            "20",
+            "unbalanced",
+            "accelerate",
+            "resultant"
+          ]
+        },
+        {
+          "stem": "Two horizontal pushes act on a crate: 25 N to the right and 10 N to the left. State the resultant and the effect on the crate's motion.",
+          "misconceptionClass": "resultant application",
+          "kind": "application",
+          "modelAnswer": "25 N − 10 N = 15 N to the right; the crate accelerates in that direction, its velocity changing accordingly.",
+          "keywords": [
+            "15",
+            "right",
+            "accelerate",
+            "resultant"
+          ]
+        }
+      ],
+      "figureIds": [
+        "fig-01",
+        "fig-02"
+      ]
+    },
+    {
+      "title": "The relationship F = m × a",
+      "sourceHeadings": [
+        "Unbalanced Forces, Mass & Acceleration"
+      ],
+      "specRefs": [
+        "1.17"
+      ],
+      "opening": "One equation runs this whole note: the resultant force equals the mass times the acceleration. This lesson fixes the equation, its units, and the proportionality habits it rewards — doubling force doubles acceleration, doubling mass halves it — then applies all three in worked numbers.",
+      "keyPoints": [
+        "The relationship is force = mass × acceleration, written F = m × a, also known as Newton's second law.",
+        "F is the resultant force in newtons, m the mass in kilograms, a the acceleration in metres per second squared.",
+        "For a fixed mass, doubling the resultant force doubles the acceleration.",
+        "For a fixed force, doubling the mass halves the acceleration.",
+        "A negative F value records a force acting opposite to the motion — a decelerating force."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Push harder on the same mass and it speeds up faster; push the same on a heavier mass and it speeds up more slowly.",
+          "analogy": "Supermarket trolleys: an empty trolley leaps away at the same shove; the half-full one needs double the shove for the same getaway.",
+          "examPointer": "Always check the units before substituting: kilograms and metres per second squared feed newtons directly."
+        },
+        "medium": {
+          "restatement": "F = m × a is a proportionality law, not just a formula: a scales with F for fixed m and with 1/m for fixed F — the two habits behind most rearrangement questions.",
+          "analogy": "It behaves like a see-saw: force and mass at the ends, acceleration the tilt — load one end double and the tilt answers in kind.",
+          "examPointer": "When a question hands you a negative force, say why: the minus sign marks a force opposing the motion, exactly the crash-test deceleration case."
+        }
+      },
+      "check": [
+        {
+          "stem": "In F = m × a, the resultant force is measured in:",
+          "misconceptionClass": "unit recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "Kilograms",
+              "correct": false,
+              "explanation": "Kilograms measure the mass.",
+              "misconception": "unit slip"
+            },
+            {
+              "key": "B",
+              "text": "Newtons",
+              "correct": true,
+              "explanation": "Force's unit is the newton (N).",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "Metres per second",
+              "correct": false,
+              "explanation": "That is a velocity unit.",
+              "misconception": "unit slip"
+            },
+            {
+              "key": "D",
+              "text": "Metres per second squared",
+              "correct": false,
+              "explanation": "That is the acceleration's unit.",
+              "misconception": "unit slip"
+            }
+          ]
+        },
+        {
+          "stem": "A 4 kg trolley is pushed by a 12 N resultant force. Its acceleration is:",
+          "misconceptionClass": "direct substitution",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "3 m/s²",
+              "correct": true,
+              "explanation": "a = F/m = 12/4 = 3 m/s².",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "48 m/s²",
+              "correct": false,
+              "explanation": "That multiplies instead of dividing.",
+              "misconception": "operation flip"
+            },
+            {
+              "key": "C",
+              "text": "0.33 m/s²",
+              "correct": false,
+              "explanation": "That divides the wrong way.",
+              "misconception": "reciprocal slip"
+            },
+            {
+              "key": "D",
+              "text": "16 m/s²",
+              "correct": false,
+              "explanation": "That adds the two values.",
+              "misconception": "addition slip"
+            }
+          ]
+        },
+        {
+          "stem": "The same resultant force acts on a trolley whose mass is then doubled. The new acceleration is:",
+          "misconceptionClass": "inverse proportionality",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "Unchanged",
+              "correct": false,
+              "explanation": "Mass sits in the denominator; it cannot leave a unchanged.",
+              "misconception": "invariance myth"
+            },
+            {
+              "key": "B",
+              "text": "Doubled",
+              "correct": false,
+              "explanation": "That is the force habit, not the mass habit.",
+              "misconception": "proportion flip"
+            },
+            {
+              "key": "C",
+              "text": "Zero",
+              "correct": false,
+              "explanation": "A non-zero force on any mass gives non-zero acceleration.",
+              "misconception": "zero myth"
+            },
+            {
+              "key": "D",
+              "text": "Halved",
+              "correct": true,
+              "explanation": "Doubling m halves a for the same F.",
+              "misconception": null
+            }
+          ]
+        },
+        {
+          "stem": "A crash calculation returns F = −14000 N for a passenger. The minus sign records that:",
+          "misconceptionClass": "sign reading",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "The force is a mistake",
+              "correct": false,
+              "explanation": "The sign is meaningful, not erroneous.",
+              "misconception": "error myth"
+            },
+            {
+              "key": "B",
+              "text": "The passenger's mass is negative",
+              "correct": false,
+              "explanation": "Masses never enter with a minus here.",
+              "misconception": "nonsense reading"
+            },
+            {
+              "key": "C",
+              "text": "The force acts opposite to the passenger's motion",
+              "correct": true,
+              "explanation": "The decelerating force opposes the travel — that is what the minus encodes.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "The answer should be squared",
+              "correct": false,
+              "explanation": "Squaring has no place in the law.",
+              "misconception": "invented step"
+            }
+          ]
+        },
+        {
+          "stem": "A 1200 kg car accelerates from rest to 18 m/s in 6 s. The resultant force is:",
+          "misconceptionClass": "two-step calculation",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "3600 N",
+              "correct": true,
+              "explanation": "a = 18/6 = 3 m/s², then F = 1200 × 3 = 3600 N.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "200 N",
+              "correct": false,
+              "explanation": "That divides mass by time — not the law.",
+              "misconception": "operation slip"
+            },
+            {
+              "key": "C",
+              "text": "21600 N",
+              "correct": false,
+              "explanation": "That multiplies mass by the final velocity.",
+              "misconception": "equation slip"
+            },
+            {
+              "key": "D",
+              "text": "7200 N",
+              "correct": false,
+              "explanation": "That double-counts the time.",
+              "misconception": "arithmetic slip"
+            }
+          ]
+        },
+        {
+          "stem": "Write the equation linking unbalanced force, mass and acceleration, with the unit of each quantity.",
+          "misconceptionClass": "equation recall",
+          "kind": "recall",
+          "modelAnswer": "F = m × a: force in newtons, mass in kilograms, acceleration in metres per second squared.",
+          "keywords": [
+            "force",
+            "mass",
+            "acceleration",
+            "newtons"
+          ]
+        },
+        {
+          "stem": "Under which famous name is F = m × a also known?",
+          "misconceptionClass": "attribution recall",
+          "kind": "recall",
+          "modelAnswer": "Newton's second law of motion.",
+          "keywords": [
+            "second law",
+            "newton",
+            "motion"
+          ]
+        },
+        {
+          "stem": "Explain why the decelerating force on a crash-test passenger carries a minus sign.",
+          "misconceptionClass": "sign reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "The force points opposite to the passenger's motion. The minus sign records that opposing direction — which is exactly why the force slows the passenger to a halt instead of speeding them up.",
+          "keywords": [
+            "opposite",
+            "direction",
+            "minus",
+            "slow"
+          ]
+        },
+        {
+          "stem": "A 70 kg passenger travelling at 20 m/s is brought to rest in 0.1 s. Calculate the deceleration and the force on the passenger.",
+          "misconceptionClass": "crash arithmetic",
+          "kind": "application",
+          "modelAnswer": "a = (0 − 20)/0.1 = −200 m/s², and F = 70 × (−200) = −14000 N — the minus showing the force opposes the motion.",
+          "keywords": [
+            "200",
+            "14000",
+            "0.1",
+            "opposes"
+          ]
+        }
+      ]
+    }
+  ],
+  "noteAssets": {
+    "glossary": [
+      {
+        "term": "unbalanced",
+        "definition": "Describes forces whose combination leaves a non-zero resultant on the body.",
+        "firstLesson": 1
+      },
+      {
+        "term": "newton",
+        "definition": "The unit of force: 1 N accelerates 1 kg at 1 m/s².",
+        "firstLesson": 2
+      },
+      {
+        "term": "acceleration",
+        "definition": "The rate of change of velocity, in metres per second squared.",
+        "firstLesson": 2
+      },
+      {
+        "term": "Newton's second law",
+        "definition": "The law that the resultant force equals mass times acceleration, F = m × a.",
+        "firstLesson": 2
+      }
+    ],
+    "workedExample": {
+      "prompt": "A car of mass 900 kg accelerates from rest to 27 m/s in 3 s. Calculate (a) the acceleration and (b) the force producing it.",
+      "steps": [
+        "List the known quantities: initial velocity 0 m/s, final velocity 27 m/s, time 3 s, mass 900 kg.",
+        "The acceleration is the velocity change over time: a = (27 − 0)/3.",
+        "a = 27/3 = 9 m/s².",
+        "Newton's second law then gives F = m × a = 900 × 9."
+      ],
+      "finalAnswer": "a = 9 m/s² and F = 8100 N."
+    }
+  },
+  "figures": [
+    {
+      "id": "fig-01",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/eae3d18eb4c2-5-1-6-balanced-forces.png",
+      "alt": "Balanced Forces, downloadable IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "Balanced forces",
+      "moduleIds": [
+        "L1"
+      ],
+      "caption": "A book resting on a table is an example of balanced forces",
+      "binding": "heading-unique"
+    },
+    {
+      "id": "fig-02",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/b46dc8a21744-5-1-6-tug-o-war.png",
+      "alt": "Tug O War, downloadable IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "Unbalanced forces",
+      "moduleIds": [
+        "L1"
+      ],
+      "caption": "A tug-of-war is an example of when forces can become unbalanced",
+      "binding": "heading-unique"
+    }
+  ]
+}

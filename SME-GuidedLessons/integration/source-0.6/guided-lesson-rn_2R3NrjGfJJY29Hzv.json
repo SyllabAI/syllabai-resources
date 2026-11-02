@@ -1,0 +1,603 @@
+{
+  "format": "guided-lesson/0.6",
+  "noteRef": {
+    "noteId": "rn_2R3NrjGfJJY29Hzv",
+    "corpusVersion": "sme-revision-notes-igcse-physics-19-2026-09-17",
+    "topicTitle": "1. Forces & Motion",
+    "subtopicTitle": "Forces, Movement & Changing Shape",
+    "sourceUrl": "https://www.savemyexams.com/igcse/physics/edexcel/19/revision-notes/1-forces-and-motion/1-2-forces-movement-and-changing-shape/1-2-5-weight"
+  },
+  "specPoints": [
+    {
+      "code": "1.18",
+      "text": "know and use the relationship between weight, mass and gravitational field strength: weight = mass × gravitational field strength W = m × g"
+    }
+  ],
+  "primer": {
+    "text": "Bathroom scales conflate two very different quantities. Mass counts the matter in you and never changes location; weight is the gravitational force on that matter and changes from planet to planet. This note separates the pair and builds the one-equation bridge between them.",
+    "prerequisiteSubtopic": "Forces, Movement & Changing Shape"
+  },
+  "lessons": [
+    {
+      "title": "Weight, mass and gravitational fields",
+      "sourceHeadings": [
+        "Weight",
+        "Weight and mass"
+      ],
+      "specRefs": [
+        "1.18"
+      ],
+      "opening": "Weight is the force an object with mass experiences inside a gravitational field — nothing more, nothing less. Mass counts matter and is a scalar; weight is a force and is a vector. This lesson pins the definitions and explains why planets, not objects, decide the weight reading.",
+      "keyPoints": [
+        "Weight is the force experienced by an object with mass when placed in a gravitational field.",
+        "Mass measures the amount of matter in an object; it is a scalar with magnitude only.",
+        "Weight is a force, and forces carry magnitude and direction, so weight is a vector.",
+        "Different planets have different gravitational field strengths; more massive planets pull more strongly.",
+        "An object's mass stays fixed from planet to planet, while its weight follows the local field."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Mass is how much matter you contain; weight is the pull a planet exerts on that matter.",
+          "analogy": "Mass is the amount of luggage you pack; weight is how heavily the local gravity drags on the bags — repack nothing, change worlds, feel the difference.",
+          "examPointer": "Call the force 'weight', never bare 'gravity' — examiners mark the loose word wrong."
+        },
+        "medium": {
+          "restatement": "The scalar/vector split settles the vocabulary: mass reports a magnitude only; weight reports a magnitude and points towards the attracting body's centre.",
+          "analogy": "Mass is printed on the box; weight is the arrow the planet draws on it, always pointing down-hill in the local field.",
+          "examPointer": "Comparing Earth and Moon questions want both halves: same mass, different g, therefore different weight."
+        }
+      },
+      "check": [
+        {
+          "stem": "Weight is best described as:",
+          "misconceptionClass": "definition recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "The amount of matter in an object",
+              "correct": false,
+              "explanation": "That is mass.",
+              "misconception": "term swap"
+            },
+            {
+              "key": "B",
+              "text": "The volume an object occupies",
+              "correct": false,
+              "explanation": "Volume is unrelated to either quantity's definition.",
+              "misconception": "catalogue noise"
+            },
+            {
+              "key": "C",
+              "text": "The force an object with mass experiences in a gravitational field",
+              "correct": true,
+              "explanation": "This is the definition of record.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "A property that stays fixed across planets",
+              "correct": false,
+              "explanation": "Weight varies with the local field; mass is the fixed one.",
+              "misconception": "invariance swap"
+            }
+          ]
+        },
+        {
+          "stem": "Mass is classified as a scalar because it:",
+          "misconceptionClass": "family test",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "Has magnitude but no direction",
+              "correct": true,
+              "explanation": "That is the scalar criterion, and mass meets it.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Changes with location",
+              "correct": false,
+              "explanation": "Mass famously does not change with location.",
+              "misconception": "behaviour flip"
+            },
+            {
+              "key": "C",
+              "text": "Is measured in newtons",
+              "correct": false,
+              "explanation": "Mass is in kilograms; newtons are force.",
+              "misconception": "unit slip"
+            },
+            {
+              "key": "D",
+              "text": "Is the only scalar in physics",
+              "correct": false,
+              "explanation": "Many quantities are scalars — energy, temperature, density.",
+              "misconception": "exclusivity myth"
+            }
+          ]
+        },
+        {
+          "stem": "Which quantity is a vector?",
+          "misconceptionClass": "family sort",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "Mass",
+              "correct": false,
+              "explanation": "Mass reports a magnitude only.",
+              "misconception": "family flip"
+            },
+            {
+              "key": "B",
+              "text": "Weight",
+              "correct": true,
+              "explanation": "Weight is a force: magnitude plus direction.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "Volume",
+              "correct": false,
+              "explanation": "Volume is a size only.",
+              "misconception": "family flip"
+            },
+            {
+              "key": "D",
+              "text": "Energy",
+              "correct": false,
+              "explanation": "Energy carries no direction.",
+              "misconception": "family flip"
+            }
+          ]
+        },
+        {
+          "stem": "A planet's gravitational field strength depends chiefly on the planet's:",
+          "misconceptionClass": "field dependence",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "Colour of surface",
+              "correct": false,
+              "explanation": "Appearance plays no role in the field strength.",
+              "misconception": "irrelevance"
+            },
+            {
+              "key": "B",
+              "text": "Distance from its moons",
+              "correct": false,
+              "explanation": "The field at the surface is about the planet itself.",
+              "misconception": "irrelevance"
+            },
+            {
+              "key": "C",
+              "text": "Rotation speed",
+              "correct": false,
+              "explanation": "Rotation is not the driver of record here.",
+              "misconception": "irrelevance"
+            },
+            {
+              "key": "D",
+              "text": "Mass",
+              "correct": true,
+              "explanation": "More massive planets have stronger gravitational fields.",
+              "misconception": null
+            }
+          ]
+        },
+        {
+          "stem": "An astronaut travels from Earth to the Moon. Her mass:",
+          "misconceptionClass": "invariance recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "Doubles under weaker gravity",
+              "correct": false,
+              "explanation": "Mass ignores the field entirely.",
+              "misconception": "field coupling myth"
+            },
+            {
+              "key": "B",
+              "text": "Stays exactly the same",
+              "correct": true,
+              "explanation": "Mass is location-independent.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "Falls to zero in space",
+              "correct": false,
+              "explanation": "Nothing removes her matter.",
+              "misconception": "zero myth"
+            },
+            {
+              "key": "D",
+              "text": "Becomes a vector",
+              "correct": false,
+              "explanation": "Mass never grows a direction.",
+              "misconception": "family flip"
+            }
+          ]
+        },
+        {
+          "stem": "State the definition of weight.",
+          "misconceptionClass": "definition recall",
+          "kind": "recall",
+          "modelAnswer": "Weight is the pull that a gravitational field exerts on a body because the body has mass — a force, measured in newtons.",
+          "keywords": [
+            "weight",
+            "gravitational",
+            "force",
+            "mass"
+          ]
+        },
+        {
+          "stem": "Which of mass and weight changes between planets, and why?",
+          "misconceptionClass": "comparison recall",
+          "kind": "recall",
+          "modelAnswer": "Mass stays fixed; weight changes because each planet's gravitational field strength differs.",
+          "keywords": [
+            "mass",
+            "weight",
+            "planet",
+            "field"
+          ]
+        },
+        {
+          "stem": "Explain why weight is called a vector while mass is not.",
+          "misconceptionClass": "family reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "Weight is a force, and forces carry a magnitude and a direction — the pull points towards the planet's centre. Mass reports only an amount of matter, with no direction attached, so it remains a scalar.",
+          "keywords": [
+            "force",
+            "direction",
+            "magnitude",
+            "matter"
+          ]
+        },
+        {
+          "stem": "A learner writes 'my weight is 55 kg'. Rewrite the statement correctly, computing the true weight on Earth.",
+          "misconceptionClass": "vocabulary repair",
+          "kind": "application",
+          "modelAnswer": "55 kg is the learner's mass, not weight. The weight on Earth is 55 × 10 = 550 N — a force in newtons, directed downward.",
+          "keywords": [
+            "mass",
+            "550",
+            "newtons",
+            "weight"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Calculating weight with W = m × g",
+      "sourceHeadings": [
+        "Gravitational field strength",
+        "Weight, mass and gravitational field strength"
+      ],
+      "specRefs": [
+        "1.18"
+      ],
+      "opening": "One line of arithmetic joins the three ideas: W = m × g. The gravitational field strength g does the planet's work — about 10 N/kg on Earth, about 2 N/kg on the Moon — and the same g doubles as the freefall acceleration. This lesson works the equation in both directions.",
+      "keyPoints": [
+        "The relationship is W = m × g: weight in newtons, mass in kilograms, gravitational field strength in newtons per kilogram.",
+        "Earth's gravitational field strength is 10 N/kg.",
+        "The same g describes the acceleration of freefall in a gravitational field, 10 m/s² on Earth.",
+        "Mass and weight are directly proportional: double one and the other doubles.",
+        "The Moon's field is about 2 N/kg, so the same mass weighs about five times less there."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Multiply the mass by the local field strength and you have the weight: W = m × g.",
+          "analogy": "g is an exchange rate between kilograms and newtons — Earth converts at 10, the Moon at 2.",
+          "examPointer": "g's value is given in exams; the skill is substituting it correctly, not memorising it."
+        },
+        "medium": {
+          "restatement": "The proportionality is the working law: weight tracks mass linearly for a fixed field, and tracks the field linearly for a fixed mass — the two moves every rearranged question uses.",
+          "analogy": "A radio volume knob with two sliders: slide the mass or slide the field, and the weight output moves in exact proportion.",
+          "examPointer": "Quote g's two faces when asked — 10 N/kg as a field strength, 10 m/s² as a freefall acceleration; they are one quantity seen two ways."
+        }
+      },
+      "check": [
+        {
+          "stem": "On Earth (g = 10 N/kg), the weight of a 6 kg mass is:",
+          "misconceptionClass": "direct substitution",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "0.6 N",
+              "correct": false,
+              "explanation": "That divides instead of multiplies.",
+              "misconception": "operation flip"
+            },
+            {
+              "key": "B",
+              "text": "16 N",
+              "correct": false,
+              "explanation": "That adds the two values.",
+              "misconception": "addition slip"
+            },
+            {
+              "key": "C",
+              "text": "36 N",
+              "correct": false,
+              "explanation": "No step in the law produces this.",
+              "misconception": "invented arithmetic"
+            },
+            {
+              "key": "D",
+              "text": "60 N",
+              "correct": true,
+              "explanation": "W = 6 × 10 = 60 N.",
+              "misconception": null
+            }
+          ]
+        },
+        {
+          "stem": "In the weight relationship W = m × g, the unit of g is:",
+          "misconceptionClass": "unit recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "N/kg",
+              "correct": true,
+              "explanation": "Newtons per kilogram — the field strength's unit.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "kg/N",
+              "correct": false,
+              "explanation": "That inverts the ratio.",
+              "misconception": "unit inversion"
+            },
+            {
+              "key": "C",
+              "text": "N·kg",
+              "correct": false,
+              "explanation": "The relationship multiplies m by g to give N, so g must be N/kg.",
+              "misconception": "unit logic slip"
+            },
+            {
+              "key": "D",
+              "text": "m/s",
+              "correct": false,
+              "explanation": "That is a velocity unit.",
+              "misconception": "unit slip"
+            }
+          ]
+        },
+        {
+          "stem": "Besides being a field strength, g also describes:",
+          "misconceptionClass": "dual-role recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "The object's volume",
+              "correct": false,
+              "explanation": "Unrelated to g.",
+              "misconception": "irrelevance"
+            },
+            {
+              "key": "B",
+              "text": "The object's mass density",
+              "correct": false,
+              "explanation": "Unrelated to g.",
+              "misconception": "irrelevance"
+            },
+            {
+              "key": "C",
+              "text": "The acceleration of an object in freefall",
+              "correct": true,
+              "explanation": "g does double duty: 10 N/kg and 10 m/s² describe the same thing two ways.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "The planet's surface area",
+              "correct": false,
+              "explanation": "Unrelated to g.",
+              "misconception": "irrelevance"
+            }
+          ]
+        },
+        {
+          "stem": "If an object's mass doubles while the field stays fixed, its weight:",
+          "misconceptionClass": "proportionality",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "Halves",
+              "correct": false,
+              "explanation": "The proportionality is direct, not inverse.",
+              "misconception": "proportion flip"
+            },
+            {
+              "key": "B",
+              "text": "Doubles",
+              "correct": true,
+              "explanation": "Mass and weight are directly proportional.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "Stays the same",
+              "correct": false,
+              "explanation": "Weight tracks the mass linearly.",
+              "misconception": "invariance myth"
+            },
+            {
+              "key": "D",
+              "text": "Quadruples",
+              "correct": false,
+              "explanation": "Only a fourfold mass change would quadruple the weight.",
+              "misconception": "overshoot"
+            }
+          ]
+        },
+        {
+          "stem": "An 80 kg astronaut stands on the Moon (g = 2 N/kg). Her weight there is:",
+          "misconceptionClass": "moon substitution",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "160 N",
+              "correct": true,
+              "explanation": "W = 80 × 2 = 160 N.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "800 N",
+              "correct": false,
+              "explanation": "That uses Earth's 10 N/kg.",
+              "misconception": "field slip"
+            },
+            {
+              "key": "C",
+              "text": "40 N",
+              "correct": false,
+              "explanation": "That divides instead of multiplies.",
+              "misconception": "operation flip"
+            },
+            {
+              "key": "D",
+              "text": "784 N",
+              "correct": false,
+              "explanation": "That imports an out-of-programme value of g.",
+              "misconception": "value invention"
+            }
+          ]
+        },
+        {
+          "stem": "Write the weight equation and give the unit of each symbol.",
+          "misconceptionClass": "equation recall",
+          "kind": "recall",
+          "modelAnswer": "W = m × g, with weight in newtons, mass in kilograms and gravitational field strength in newtons per kilogram.",
+          "keywords": [
+            "weight",
+            "newtons",
+            "kilograms",
+            "field strength"
+          ]
+        },
+        {
+          "stem": "State Earth's gravitational field strength of record.",
+          "misconceptionClass": "value recall",
+          "kind": "recall",
+          "modelAnswer": "10 N/kg — equivalently a freefall acceleration of 10 m/s².",
+          "keywords": [
+            "10",
+            "freefall",
+            "acceleration",
+            "field strength"
+          ]
+        },
+        {
+          "stem": "Explain why the same person weighs less on the Moon than on Earth.",
+          "misconceptionClass": "field comparison",
+          "kind": "explain-why",
+          "modelAnswer": "The Moon's gravitational field strength is smaller — about 2 N/kg against Earth's 10 N/kg. With W = m × g and the traveller's mass unchanged, the smaller g gives the smaller weight.",
+          "keywords": [
+            "Moon",
+            "smaller",
+            "field",
+            "weight"
+          ]
+        },
+        {
+          "stem": "Isabelle's mass is 40 kg. Compute her weight on Earth (g = 10 N/kg) and on the Moon (g = 2 N/kg).",
+          "misconceptionClass": "two-world arithmetic",
+          "kind": "application",
+          "modelAnswer": "Earth: W = 40 × 10 = 400 N. Moon: W = 40 × 2 = 80 N — the same mass, one fifth the weight.",
+          "keywords": [
+            "400",
+            "80",
+            "40",
+            "weight"
+          ]
+        }
+      ],
+      "figureIds": [
+        "fig-01"
+      ]
+    }
+  ],
+  "noteAssets": {
+    "glossary": [
+      {
+        "term": "weight",
+        "definition": "The force experienced by an object with mass when placed in a gravitational field.",
+        "firstLesson": 1
+      },
+      {
+        "term": "mass",
+        "definition": "A measure of the amount of matter in an object; a scalar.",
+        "firstLesson": 1
+      },
+      {
+        "term": "gravitational field strength",
+        "definition": "The force per unit mass exerted by a gravitational field, in newtons per kilogram.",
+        "firstLesson": 2
+      },
+      {
+        "term": "freefall",
+        "definition": "Motion under gravity alone; its acceleration equals g.",
+        "firstLesson": 2
+      }
+    ],
+    "workedExample": {
+      "prompt": "Isabelle has a mass of 40 kg. Earth's gravitational field strength is 10 N/kg and the Moon's is 2 N/kg. Discuss the difference between her weight on Earth and on the Moon.",
+      "steps": [
+        "State the equation linking weight and mass: W = m × g.",
+        "List the known values: m = 40 kg, Earth g = 10 N/kg, Moon g = 2 N/kg.",
+        "Earth: W = 40 × 10 = 400 N.",
+        "Moon: W = 40 × 2 = 80 N.",
+        "Compare: Earth's larger field strength gives the larger weight — five times larger for the same mass."
+      ],
+      "finalAnswer": "Isabelle weighs 400 N on Earth and 80 N on the Moon; her mass is 40 kg in both places."
+    }
+  },
+  "figures": [
+    {
+      "id": "fig-01",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/b86886e2f9de-5-1-4-weight-force.png",
+      "alt": "5-1-4-weight-force",
+      "sourceHeading": "Weight, mass and gravitational field strength",
+      "moduleIds": [
+        "L2"
+      ],
+      "caption": "Some of the phenomena associated with gravitational attraction and the weight force",
+      "binding": "heading-unique"
+    }
+  ]
+}
