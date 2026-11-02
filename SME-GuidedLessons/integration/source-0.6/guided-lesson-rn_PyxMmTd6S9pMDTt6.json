@@ -1,0 +1,631 @@
+{
+  "format": "guided-lesson/0.6",
+  "noteRef": {
+    "noteId": "rn_PyxMmTd6S9pMDTt6",
+    "corpusVersion": "sme-revision-notes-igcse-physics-19-2026-09-17",
+    "topicTitle": "2. Electricity",
+    "subtopicTitle": "Components in Series & Parallel Circuits",
+    "sourceUrl": "https://www.savemyexams.com/igcse/physics/edexcel/19/revision-notes/2-electricity/2-2-components-in-series-and-parallel-circuits/2-2-3-resistors-in-series"
+  },
+  "specPoints": [
+    {
+      "code": "2.19",
+      "text": "calculate the currents, voltages and resistances of two resistive components connected in a series circuit"
+    }
+  ],
+  "primer": {
+    "text": "String resistors together in a row and their opposition to current simply adds up. This note states the series rule for resistance, shows why the supply voltage divides across the chain, and then summarises the full contrast between series and parallel behaviour so that any simple circuit can be solved step by step.",
+    "prerequisiteSubtopic": "Components in Series & Parallel Circuits"
+  },
+  "lessons": [
+    {
+      "title": "Resistors in series",
+      "sourceHeadings": [
+        "Resistors in series"
+      ],
+      "specRefs": [
+        "2.19"
+      ],
+      "figureIds": [
+        "fig-01",
+        "fig-02",
+        "fig-03"
+      ],
+      "opening": "Charge pushing through series resistors must run the whole obstacle course, so the oppositions stack. Add the resistances for the total, share the supply voltage across the chain, and one common current threads every component. This lesson turns that picture into three solvable equations.",
+      "keyPoints": [
+        "Resistors in series add: the total resistance equals the sum of the individual resistances.",
+        "For two resistors the rule reads R = R1 + R2.",
+        "Each extra series resistor adds more opposition for the charge to push through.",
+        "The supply voltage divides so that the individual voltages sum to the total.",
+        "In series the current is common to every component, so one equation chain solves the circuit."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Total resistance in series is plain addition: R1 plus R2 (plus any more) is the lot.",
+          "analogy": "Toll booths in a row: the total toll is just the sum of every booth's charge.",
+          "examPointer": "Write the full equation R = R1 + R2 before substituting — the marks sit in the statement of the law."
+        },
+        "medium": {
+          "restatement": "One current, shared voltage: find the loop current from the total resistance, then read any component's voltage with V = I × R.",
+          "analogy": "One highway with several tolls: the same traffic (current) passes each booth, and each collects its own share of the total fare (voltage).",
+          "examPointer": "Check your answer closes: the component voltages you compute must sum back to the supply voltage."
+        }
+      },
+      "check": [
+        {
+          "stem": "Two resistors of 4 Ω and 6 Ω are in series. The total resistance is:",
+          "misconceptionClass": "series arithmetic",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "24 Ω",
+              "correct": false,
+              "explanation": "That multiplies the resistances; series adds them.",
+              "misconception": "multiply slip"
+            },
+            {
+              "key": "B",
+              "text": "10 Ω",
+              "correct": true,
+              "explanation": "R = 4 + 6 = 10 Ω.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "2 Ω",
+              "correct": false,
+              "explanation": "That subtracts the smaller from the larger.",
+              "misconception": "subtraction slip"
+            },
+            {
+              "key": "D",
+              "text": "2.4 Ω",
+              "correct": false,
+              "explanation": "That is the parallel-pair value, not the series one.",
+              "misconception": "parallel slip"
+            }
+          ]
+        },
+        {
+          "stem": "Adding a third resistor to an existing series chain:",
+          "misconceptionClass": "component effect",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "lowers the total resistance",
+              "correct": false,
+              "explanation": "Series resistances only ever add up.",
+              "misconception": "parallel intuition"
+            },
+            {
+              "key": "B",
+              "text": "leaves the total resistance unchanged",
+              "correct": false,
+              "explanation": "The new resistor contributes its own share of opposition.",
+              "misconception": "independence myth"
+            },
+            {
+              "key": "C",
+              "text": "raises the total resistance",
+              "correct": true,
+              "explanation": "More series resistors means more total opposition.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "reverses the current",
+              "correct": false,
+              "explanation": "Direction comes from the supply and never depends on the resistor count.",
+              "misconception": "direction myth"
+            }
+          ]
+        },
+        {
+          "stem": "Three resistors of 30 Ω, R and 10 Ω in series give 60 Ω total. R equals:",
+          "misconceptionClass": "rearrangement arithmetic",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "100 Ω",
+              "correct": false,
+              "explanation": "That adds the total to the known resistors instead of subtracting them.",
+              "misconception": "addition slip"
+            },
+            {
+              "key": "B",
+              "text": "20 Ω",
+              "correct": true,
+              "explanation": "R = 60 − 30 − 10 = 20 Ω.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "40 Ω",
+              "correct": false,
+              "explanation": "That only subtracts the 30 Ω and forgets the 10 Ω.",
+              "misconception": "partial slip"
+            },
+            {
+              "key": "D",
+              "text": "80 Ω",
+              "correct": false,
+              "explanation": "That combines the values in the wrong direction entirely.",
+              "misconception": "operation slip"
+            }
+          ]
+        },
+        {
+          "stem": "The voltages across resistors in a series chain:",
+          "misconceptionClass": "voltage behaviour",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "add up to the supply voltage",
+              "correct": true,
+              "explanation": "The individual shares always total the supply.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "are each equal to the supply voltage",
+              "correct": false,
+              "explanation": "That is the parallel branch behaviour.",
+              "misconception": "parallel carryover"
+            },
+            {
+              "key": "C",
+              "text": "always split equally",
+              "correct": false,
+              "explanation": "Equal splitting needs identical resistances.",
+              "misconception": "equality myth"
+            },
+            {
+              "key": "D",
+              "text": "multiply together to give the supply voltage",
+              "correct": false,
+              "explanation": "Voltage shares add; they never multiply.",
+              "misconception": "operation slip"
+            }
+          ]
+        },
+        {
+          "stem": "A series circuit carries a current of 2 A. The current through each of its three resistors is:",
+          "misconceptionClass": "series behaviour",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "2 A divided by 3",
+              "correct": false,
+              "explanation": "The current is not rationed out among series components.",
+              "misconception": "rationing myth"
+            },
+            {
+              "key": "B",
+              "text": "2 A shared in some other proportion",
+              "correct": false,
+              "explanation": "Nothing is shared — the same current passes everywhere.",
+              "misconception": "share myth"
+            },
+            {
+              "key": "C",
+              "text": "6 A",
+              "correct": false,
+              "explanation": "Multiplying the loop current by the component count is meaningless.",
+              "misconception": "multiply slip"
+            },
+            {
+              "key": "D",
+              "text": "2 A through each",
+              "correct": true,
+              "explanation": "One loop means one current: every component carries the full 2 A.",
+              "misconception": null
+            }
+          ]
+        },
+        {
+          "stem": "Write the equation for the total resistance of two resistors in series.",
+          "misconceptionClass": "equation recall",
+          "kind": "recall",
+          "modelAnswer": "R = R1 + R2 — the two individual resistances add up to the total.",
+          "keywords": [
+            "resistance",
+            "series",
+            "sum",
+            "resistors",
+            "total"
+          ]
+        },
+        {
+          "stem": "State how the voltages across series components relate to the supply voltage.",
+          "misconceptionClass": "voltage recall",
+          "kind": "recall",
+          "modelAnswer": "They add up: the individual voltages sum to the total supplied by the source.",
+          "keywords": [
+            "voltages",
+            "sum",
+            "supply",
+            "add",
+            "total"
+          ]
+        },
+        {
+          "stem": "Explain why adding a resistor in series reduces the circuit's current.",
+          "misconceptionClass": "opposition reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "Series resistances add, so the loop's total resistance grows; with the supply voltage fixed, the larger opposition leaves a smaller current flowing.",
+          "keywords": [
+            "resistance",
+            "current",
+            "voltage",
+            "series",
+            "total"
+          ]
+        },
+        {
+          "stem": "A 12 V supply drives a series pair of 4 Ω and 8 Ω resistors. Calculate the current, then the voltage across the 8 Ω resistor.",
+          "misconceptionClass": "circuit calculation",
+          "kind": "application",
+          "modelAnswer": "Total resistance = 4 + 8 = 12 Ω, so I = 12 ÷ 12 = 1 A. The 8 Ω resistor takes V = 1 × 8 = 8 V.",
+          "keywords": [
+            "1",
+            "8",
+            "12",
+            "current",
+            "voltage"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Summary of series and parallel circuits",
+      "sourceHeadings": [
+        "Summary of series and parallel circuits"
+      ],
+      "specRefs": [
+        "2.19"
+      ],
+      "opening": "Two arrangements, six rules — learn them as a matched set and every simple circuit question becomes bookkeeping. Series keeps one current and adds resistances; parallel splits the current, repeats the voltage, and lands at a total resistance smaller than any branch.",
+      "keyPoints": [
+        "Series circuit: current identical everywhere, voltage shared, resistances added.",
+        "Parallel: current splits between branches, voltage identical across branches.",
+        "Parallel total resistance lands below the smallest single branch resistance.",
+        "A series loop breaks entirely when any component fails.",
+        "Series chains need fewer connections than parallel arrays.",
+        "Choosing the arrangement means weighing control, wiring effort and failure behaviour."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Series: one current, shared voltage, added resistance. Parallel: split current, repeated voltage, shrunken resistance.",
+          "analogy": "A single-lane road with tolls versus a multi-lane motorway: one queue versus many, and more lanes move more cars with less total delay.",
+          "examPointer": "Memorise the six rules as a table; most two-mark questions are just one rule quoted back."
+        },
+        "medium": {
+          "restatement": "The rules interlock: one current in series is why the voltages must share, and the split current in parallel is why each branch keeps the full voltage.",
+          "analogy": "Two ways to organise a queue at a fair: one line feeding all rides (series) or one ticket booth per ride (parallel).",
+          "examPointer": "When a question mixes both arrangements, solve the series part and the parallel part separately, then join them at the junction."
+        }
+      },
+      "check": [
+        {
+          "stem": "Which statement about a parallel circuit is correct?",
+          "misconceptionClass": "parallel rules",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "the current is the same in every branch",
+              "correct": false,
+              "explanation": "Branch currents split; only the voltage repeats across branches.",
+              "misconception": "series carryover"
+            },
+            {
+              "key": "B",
+              "text": "each branch receives the same voltage",
+              "correct": true,
+              "explanation": "Every branch sits across the supply and takes the full voltage.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "the total resistance exceeds every branch's resistance",
+              "correct": false,
+              "explanation": "Parallel total resistance is smaller than any single branch.",
+              "misconception": "opposite slip"
+            },
+            {
+              "key": "D",
+              "text": "the branches share one single loop",
+              "correct": false,
+              "explanation": "Parallel means multiple loops by definition.",
+              "misconception": "topology myth"
+            }
+          ]
+        },
+        {
+          "stem": "Which statement about a series circuit is correct?",
+          "misconceptionClass": "series rules",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "the voltage is the same across every component",
+              "correct": false,
+              "explanation": "Series components share the voltage out.",
+              "misconception": "parallel carryover"
+            },
+            {
+              "key": "B",
+              "text": "the current splits between components",
+              "correct": false,
+              "explanation": "There is nowhere to split in a single loop.",
+              "misconception": "parallel carryover"
+            },
+            {
+              "key": "C",
+              "text": "their resistances add up to one total",
+              "correct": true,
+              "explanation": "Series oppositions simply add up.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "removing one component leaves the rest working",
+              "correct": false,
+              "explanation": "One break opens the whole series loop.",
+              "misconception": "parallel property"
+            }
+          ]
+        },
+        {
+          "stem": "A 4 Ω and a 6 Ω resistor are connected in parallel. Their combined resistance is:",
+          "misconceptionClass": "parallel resistance",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "greater than 6 Ω",
+              "correct": false,
+              "explanation": "Parallel never exceeds the largest branch.",
+              "misconception": "series carryover"
+            },
+            {
+              "key": "B",
+              "text": "exactly 10 Ω",
+              "correct": false,
+              "explanation": "10 Ω is the series answer; parallel lands lower.",
+              "misconception": "series sum"
+            },
+            {
+              "key": "C",
+              "text": "less than 4 Ω",
+              "correct": true,
+              "explanation": "Parallel total resistance is smaller than the smallest branch.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "exactly 24 Ω",
+              "correct": false,
+              "explanation": "Multiplying the resistances has no meaning here.",
+              "misconception": "multiply slip"
+            }
+          ]
+        },
+        {
+          "stem": "Compared with a single-component circuit on the same supply voltage, a series loop with extra components carries:",
+          "misconceptionClass": "comparison reasoning",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "a larger current",
+              "correct": false,
+              "explanation": "More total resistance means less current, not more.",
+              "misconception": "opposite slip"
+            },
+            {
+              "key": "B",
+              "text": "a smaller current",
+              "correct": true,
+              "explanation": "The added resistances throttle the flow at the fixed supply voltage.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "an identical current",
+              "correct": false,
+              "explanation": "The extra opposition must change the flow.",
+              "misconception": "independence myth"
+            },
+            {
+              "key": "D",
+              "text": "no current at all",
+              "correct": false,
+              "explanation": "The loop still conducts; only its size changes.",
+              "misconception": "extreme myth"
+            }
+          ]
+        },
+        {
+          "stem": "Which pairing matches the circuit laws?",
+          "misconceptionClass": "rule matching",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "series — voltage the same everywhere",
+              "correct": false,
+              "explanation": "Series shares the voltage; parallel repeats it.",
+              "misconception": "rule swap"
+            },
+            {
+              "key": "B",
+              "text": "parallel — resistances add",
+              "correct": false,
+              "explanation": "Adding resistances is the series law.",
+              "misconception": "rule swap"
+            },
+            {
+              "key": "C",
+              "text": "series — resistances add; parallel — voltage the same across branches",
+              "correct": true,
+              "explanation": "Both halves state their arrangement's law correctly.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "series — current splits; parallel — current the same everywhere",
+              "correct": false,
+              "explanation": "Both halves are swapped.",
+              "misconception": "rule swap"
+            }
+          ]
+        },
+        {
+          "stem": "State three rules for a series circuit concerning current, voltage and resistance.",
+          "misconceptionClass": "rules recall",
+          "kind": "recall",
+          "modelAnswer": "The current is the same at every point, the supply voltage is shared between the components, and every resistance adds into the total.",
+          "keywords": [
+            "current",
+            "voltage",
+            "resistance",
+            "shared",
+            "total"
+          ]
+        },
+        {
+          "stem": "State three rules for a parallel circuit concerning current, voltage and resistance.",
+          "misconceptionClass": "rules recall",
+          "kind": "recall",
+          "modelAnswer": "The supply current splits between the branches, each branch receives the same voltage, and the total resistance is smaller than any single branch's.",
+          "keywords": [
+            "current",
+            "branches",
+            "voltage",
+            "resistance",
+            "smaller"
+          ]
+        },
+        {
+          "stem": "Explain why the total resistance of two resistors in series exceeds either resistor alone.",
+          "misconceptionClass": "opposition reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "The charge must push through both oppositions one after the other, so the two resistances add to a total larger than either individual value.",
+          "keywords": [
+            "resistance",
+            "resistors",
+            "series",
+            "charge",
+            "total"
+          ]
+        },
+        {
+          "stem": "A 6 V cell drives a series pair of 2 Ω and 4 Ω resistors. Calculate the total resistance, the current, and the voltage across the 4 Ω resistor.",
+          "misconceptionClass": "circuit calculation",
+          "kind": "application",
+          "modelAnswer": "Total resistance = 2 + 4 = 6 Ω; I = 6 ÷ 6 = 1 A; the 4 Ω resistor takes 1 × 4 = 4 V.",
+          "keywords": [
+            "6",
+            "1",
+            "4",
+            "resistance",
+            "current"
+          ]
+        }
+      ]
+    }
+  ],
+  "noteAssets": {
+    "glossary": [
+      {
+        "term": "total resistance",
+        "definition": "The single resistance that could replace a whole arrangement — the sum of the parts in series.",
+        "firstLesson": 1
+      },
+      {
+        "term": "series circuit",
+        "definition": "A single-loop circuit whose components share the supply voltage and one common current.",
+        "firstLesson": 1
+      },
+      {
+        "term": "parallel circuit",
+        "definition": "A branch circuit whose components each take the full voltage while the current splits between them.",
+        "firstLesson": 2
+      },
+      {
+        "term": "ohm",
+        "definition": "The unit of resistance — one volt driving one amp through the component.",
+        "firstLesson": 1
+      }
+    ],
+    "workedExample": {
+      "prompt": "Three resistors sit in series and the combined resistance is 60 Ω. Two of them are 30 Ω and 10 Ω. Find the third resistance.",
+      "steps": [
+        "Write the series law: R = R1 + R2 + R3.",
+        "Substitute the knowns: 60 = 30 + R2 + 10.",
+        "Collect the known terms: 30 + 10 = 40.",
+        "Rearrange: R2 = 60 − 40 = 20."
+      ],
+      "finalAnswer": "The unknown resistor is 20 Ω."
+    }
+  },
+  "figures": [
+    {
+      "id": "fig-01",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/3aedd078ebf8-combined-resistance.png",
+      "alt": "combined-resistance",
+      "sourceHeading": "Resistors in series",
+      "moduleIds": [
+        "L1"
+      ],
+      "caption": "Three resistors connected in series. The total voltage is the sum of the individual voltages, and the total resistance is the sum of the three individual resistances",
+      "binding": "heading-unique"
+    },
+    {
+      "id": "fig-02",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/6ace15c22546-we-resistors-in-series-question-image.png",
+      "alt": "6ace15c22546-we-resistors-in-series-question-image",
+      "sourceHeading": "Resistors in series",
+      "moduleIds": [
+        "L1"
+      ],
+      "binding": "heading-unique"
+    },
+    {
+      "id": "fig-03",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/e52a458da067-10-2-1-we-series-circuit-question-image.png",
+      "alt": "WE Series Circuit Question image, downloadable IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "Resistors in series",
+      "moduleIds": [
+        "L1"
+      ],
+      "binding": "heading-unique"
+    }
+  ]
+}
