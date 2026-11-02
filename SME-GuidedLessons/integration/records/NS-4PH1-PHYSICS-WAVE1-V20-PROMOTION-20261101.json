@@ -1,0 +1,185 @@
+{
+  "format": "r3-check-types-promotion-receipt/1.0",
+  "wave": "PHYSICS-4PH1 wave-1 CUMULATIVE re-issue v20 — the corrective of record for the v19 index regression",
+  "operator_traces": [
+    "1a196b9c429c5ae5",
+    "1a197b1687dc5cd9"
+  ],
+  "generated_at_utc": "2026-11-01T17:31:53Z",
+  "repo": "SyllabAI/syllabai-resources",
+  "branch": "integration/physics-wave1-v20-20261101",
+  "runbook_of_record": ".syllabai/docs/new-subject-runbook.md @ SyllabAI/syllabai-v2 main",
+  "b6_manifest_continuity": {
+    "decision": "continue-global",
+    "selected": "physics wave-1 = manifest v20 (CUMULATIVE over the igcse-physics-19 pack — the chemistry v8..v17 pattern; the programme series continues)",
+    "rejected": "per-course series (physics v1) — would collide with chemistry hub-import-manifest-v1..v17.json filenames in the shared integration/ namespace and fork the integration ledger",
+    "recorded_by": "runbook B6 + the stage-A receipt; v19's tranche scope was the DEFECTIVE departure from the cumulative law, corrected here"
+  },
+  "defect_of_record": {
+    "what": "hub-import-manifest-v19.json was tranche-scoped (12 artifacts / 6-note INT-3); the runner-owned guided-import.json rebuild (run_import.mjs notes: int3.notes.map) dropped the stage-A pilot rows from the physics index",
+    "caught_by": "the LIVE SPOT-CHECK discipline (bake probe calibration leg): pilot page rn_RpyMnS5nqWSRWXXG served 'Your answer' x0 vs the x8 of record; the 32 runner gates could not see it (the index is runner-owned run metadata, outside the conserved-artifact gates)",
+    "state_while_defective": "12 wave-1 artifacts byte-correct and serving x8 each; pilot lesson artifact bytes UNTOUCHED on main (additive law held) — only the index rows were wrong",
+    "v19_run_of_record": {
+      "feed": "physics-wave1-v19",
+      "promo": "e1d89fd2dbb3e0a699c4f1d266410226e2b91b60",
+      "mergeOfRecord": "499a692fdaf26717f24dc720724eda39f6f4289f",
+      "receipt": "download/integration/HUB-IMPORT-RUN-20261101-physics-wave1.json (32/32 GREEN; the index regression was invisible to its gates)"
+    }
+  },
+  "fix_of_record": {
+    "what": "manifest v20 CUMULATIVE over the pack (14 artifacts = 2 pilot re-pinned @ v18 shas + 12 wave-1 re-pinned @ v19 shas; counts/grand/wave-subtotals cumulative over 7 notes) + INT-3 v20 with the 7-row anchor table",
+    "zero_authored_delta": "every artifact byte in v20 is an already-landed byte, sha-gated; the hub re-run lands 14/14 identical-exists and re-issues the index with all 7 notes"
+  },
+  "commits": {
+    "C20": {
+      "sha": "(this commit — namespace-complete v20 re-issue)",
+      "note": "hub-import-manifest-v20.json + records/INT-3-transform-record-physics-wave1-v20.json + records/NS-4PH1-PHYSICS-WAVE1-V20-PROMOTION-20261101.json + tooling/physics-wave1-v20-reissue.js"
+    }
+  },
+  "manifest": "hub-import-manifest-v20.json",
+  "int_record": "INT-3-transform-record-physics-wave1-v20.json",
+  "counts_census": {
+    "notes": 7,
+    "lessons": 14,
+    "checks": 126,
+    "keyPoints": 61,
+    "distractors": 210,
+    "glossaryTerms": 31,
+    "figures": 25,
+    "figures_module_mapped": 25,
+    "figures_note_level": 0,
+    "workedExamples_populated": 6,
+    "workedExamples_null": 1,
+    "authored_chars_conserved": 99785,
+    "wave_notes": [
+      "rn_k9wr3prcgSBg5vfw",
+      "rn_pfndTqR6DTJGZ8xQ",
+      "rn_CpJZQWzbvMcM8fw3",
+      "rn_5hfYYFrc2XjMJCrq",
+      "rn_GxNWbSMqkTN4zgZB",
+      "rn_ZgGMNrRGBKvYxxFf"
+    ],
+    "pilot": "rn_RpyMnS5nqWSRWXXG"
+  },
+  "schema_delta": "NONE (B5) — the stage-A union schemas ride main unchanged",
+  "conservation": {
+    "law": "unchanged §7 walk; grand 99,785 chars = pilot 13,924 + wave-1 85,861",
+    "authored_chars": 99785
+  },
+  "gates": {
+    "pipeline": "21/21 pass, 0 fail",
+    "gate_log": [
+      {
+        "name": "P0 branch is the v20 corrective branch",
+        "ok": true,
+        "detail": "integration/physics-wave1-v20-20261101"
+      },
+      {
+        "name": "P0 pilot lesson bytes @ resources main == v18 sha256",
+        "ok": true,
+        "detail": "4be97f7c9763/14459"
+      },
+      {
+        "name": "P0 pilot package bytes @ resources main == v18 sha256",
+        "ok": true,
+        "detail": "11c39840eeb3/19303"
+      },
+      {
+        "name": "P0 pilot stream re-derived == stage-A anchor",
+        "ok": true,
+        "detail": "42dea4b02c94/13924"
+      },
+      {
+        "name": "v20 re-pin rn_k9wr3prcg lesson == v19 sha",
+        "ok": true,
+        "detail": "d3a4abea468b"
+      },
+      {
+        "name": "v20 re-pin rn_k9wr3prcg package == v19 sha",
+        "ok": true,
+        "detail": "0f36d5976dce"
+      },
+      {
+        "name": "v20 re-pin rn_pfndTqR6D lesson == v19 sha",
+        "ok": true,
+        "detail": "ddeac6cec1f7"
+      },
+      {
+        "name": "v20 re-pin rn_pfndTqR6D package == v19 sha",
+        "ok": true,
+        "detail": "c9fc3e3825d9"
+      },
+      {
+        "name": "v20 re-pin rn_CpJZQWzbv lesson == v19 sha",
+        "ok": true,
+        "detail": "1c4f9bc552fc"
+      },
+      {
+        "name": "v20 re-pin rn_CpJZQWzbv package == v19 sha",
+        "ok": true,
+        "detail": "79f7c8687709"
+      },
+      {
+        "name": "v20 re-pin rn_5hfYYFrc2 lesson == v19 sha",
+        "ok": true,
+        "detail": "60d8b44384d4"
+      },
+      {
+        "name": "v20 re-pin rn_5hfYYFrc2 package == v19 sha",
+        "ok": true,
+        "detail": "85f000ad21c8"
+      },
+      {
+        "name": "v20 re-pin rn_GxNWbSMqk lesson == v19 sha",
+        "ok": true,
+        "detail": "574a6cb53b81"
+      },
+      {
+        "name": "v20 re-pin rn_GxNWbSMqk package == v19 sha",
+        "ok": true,
+        "detail": "c1b26dde1362"
+      },
+      {
+        "name": "v20 re-pin rn_ZgGMNrRGB lesson == v19 sha",
+        "ok": true,
+        "detail": "891fc481b5c6"
+      },
+      {
+        "name": "v20 re-pin rn_ZgGMNrRGB package == v19 sha",
+        "ok": true,
+        "detail": "fb8874d146d8"
+      },
+      {
+        "name": "P0 wave-0 subtotal == stage-A grand",
+        "ok": true,
+        "detail": "42dea4b02c94"
+      },
+      {
+        "name": "P0 wave-1 subtotal == the v19 wave subtotal",
+        "ok": true,
+        "detail": "92f368945a83"
+      },
+      {
+        "name": "B2 cumulative identity arithmetic: 14 lessons x 9 = 126 checks",
+        "ok": true,
+        "detail": "{\"notes\":7,\"lessons\":14,\"checks\":126,\"keyPoints\":61,\"distractors\":210,\"glossaryTerms\":31,\"figures\":25,\"figures_module_mapped\":25,\"figures_note_level\":0,\"workedExamples_populated\":6,\"workedExamples_null\":1,\"checks_mcq\":70,\"written_recall\":28,\"written_explain_why\":14,\"written_application\":14}"
+      },
+      {
+        "name": "cumulative == v18 + v19 parts",
+        "ok": true,
+        "detail": "{\"grandChars\":99785}"
+      },
+      {
+        "name": "manifest v20 lists 14 artifacts",
+        "ok": true,
+        "detail": "14"
+      }
+    ]
+  },
+  "merge_order": "resources PR merges FIRST; the hub chain (FEED physics-wave1-v20 + index re-issue) follows; merge method 'merge', never squash",
+  "disclosures": [
+    "the v19 manifest/INT-3/pipeline/receipt remain of record for the wave-1 authoring (their artifact bytes were correct); v20 supersedes them for the INTEGRATION bookkeeping only",
+    "the physics index defect window on production: from the #613 bake until the v20 hub landing — disclosed, no data loss (artifact bytes were never wrong)",
+    "naming: feed physics-wave1-v20, hub branch physics-wave1-hub-v20, receipts PHYSICS-WAVE1"
+  ]
+}
