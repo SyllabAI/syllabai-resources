@@ -1,0 +1,174 @@
+{
+ "lane": "T-OEQ-PHYS-FORMAT-1",
+ "run": "run-009-r2 / M2",
+ "method": "whole-corpus regex scan (A backtick-pseudo, B pre_square, C double-backslash outside gathered/matrix, D word-symbol math) over 24 topic.json; pre-edit state = PR #280 head cd56d81 blobs",
+ "population_pre_edit": [
+  {
+   "file": "SME-ExamQuestion/igcse-physics-19/7-radioactivity-and-particles/7-1-properties-of-radiation/topic.json",
+   "pid": "qstnprt_4vfnyBdMN6xzcDJM",
+   "field": "problem_md",
+   "line": 4,
+   "bucket": "M2-a",
+   "old_line": "`p _ 1 ^ 1 + e _ - 1 ^ 0 -> n _ 0 ^ 1`"
+  },
+  {
+   "file": "SME-ExamQuestion/igcse-physics-19/7-radioactivity-and-particles/7-1-properties-of-radiation/topic.json",
+   "pid": "qstnprt_QzWSVGGTRn5mWtdz",
+   "field": "problem_md",
+   "line": 4,
+   "bucket": "M2-b",
+   "old_line": "$Pu_{94}^{238} \\rightarrow \\ \\\\alpha pre_{square} pre^{4} + \\mathrm{X} pre_{square} pre^{square} + \\ \\\\gamma pre_{0} pre^{square}$"
+  },
+  {
+   "file": "SME-ExamQuestion/igcse-physics-19/7-radioactivity-and-particles/7-1-properties-of-radiation/topic.json",
+   "pid": "qstnprt_xYdvSN5X58QNZbXC",
+   "field": "problem_md",
+   "line": 2,
+   "bucket": "M2-b",
+   "old_line": "`equation`$\\ \\\\alpha pre_{2} pre^{4}$"
+  },
+  {
+   "file": "SME-ExamQuestion/igcse-physics-19/7-radioactivity-and-particles/7-2-radioactivity-uses-and-dangers/topic.json",
+   "pid": "qstnprt_zmCwB2mCVKK6Fsx7",
+   "field": "problem_md",
+   "line": 4,
+   "bucket": "M2-a",
+   "old_line": "`Th _ 90 ^ 232 -> Rn _ 86 ^ 220 + ...... alpha _... ^... + ...... beta _ - 1 ^ 0`"
+  },
+  {
+   "file": "SME-ExamQuestion/igcse-physics-19/7-radioactivity-and-particles/7-2-radioactivity-uses-and-dangers/topic.json",
+   "pid": "qstnprt_zmCwB2mCVKK6Fsx7",
+   "field": "solution_md",
+   "line": 6,
+   "bucket": "M2-a",
+   "old_line": "`Th _ 90 ^ 232 -> Rn _ 86 ^ 220 + ...... alpha _ 2 ^ 4 + ...... beta _ - 1 ^ 0`"
+  },
+  {
+   "file": "SME-ExamQuestion/igcse-physics-19/7-radioactivity-and-particles/7-2-radioactivity-uses-and-dangers/topic.json",
+   "pid": "qstnprt_zmCwB2mCVKK6Fsx7",
+   "field": "solution_md",
+   "line": 20,
+   "bucket": "M2-b-collateral",
+   "old_line": "$90 = 86 + ( 2 \\times 3 ) - \\\\beta$"
+  },
+  {
+   "file": "SME-ExamQuestion/igcse-physics-19/7-radioactivity-and-particles/7-2-radioactivity-uses-and-dangers/topic.json",
+   "pid": "qstnprt_zmCwB2mCVKK6Fsx7",
+   "field": "solution_md",
+   "line": 28,
+   "bucket": "M2-a",
+   "old_line": "`Th _ 90 ^ 232 -> Rn _ 86 ^ 220 + 3 alpha _ 2 ^ 4 + 2 beta _ - 1 ^ 0`"
+  },
+  {
+   "file": "SME-ExamQuestion/igcse-physics-19/7-radioactivity-and-particles/7-2-radioactivity-uses-and-dangers/topic.json",
+   "pid": "qstnprt_zmCwB2mCVKK6Fsx7",
+   "field": "solution_md",
+   "line": 33,
+   "bucket": "M2-b-collateral",
+   "old_line": "> 1 mark for the correct numbers for alpha particle = $alpha_{2}^{4}$"
+  },
+  {
+   "file": "SME-ExamQuestion/igcse-physics-19/7-radioactivity-and-particles/7-2-radioactivity-uses-and-dangers/topic.json",
+   "pid": "qstnprt_KK5wsxWXhgZcnNFV",
+   "field": "problem_md",
+   "line": 10,
+   "bucket": "M2-b",
+   "old_line": "$Th_{90}^{232} \\rightarrow \\text{Ra} pre_{square} pre^{square} + \\ \\\\alpha pre_{square} pre^{4}$"
+  },
+  {
+   "file": "SME-ExamQuestion/igcse-physics-19/3-waves/3-1-waves-and-the-electromagnetic-spectrum/topic.json",
+   "pid": "qstnprt_mwJzfZ6r4rsjtsS8",
+   "field": "solution_md",
+   "line": 17,
+   "bucket": "M2-c",
+   "old_line": "- $v = f \\\\lambda = ( 200 \\times 10^{3} ) \\times 1500 = 300 000 000$**; [1 mark]**"
+  },
+  {
+   "file": "SME-ExamQuestion/igcse-physics-19/3-waves/3-1-waves-and-the-electromagnetic-spectrum/topic.json",
+   "pid": "qstnprt_cYtnGPmf9PDd7P8p",
+   "field": "solution_md",
+   "line": 21,
+   "bucket": "M2-c",
+   "old_line": "- $\\\\lambda = \\frac{300 \\cancel{000 000} }{31 \\cancel{000 000} } = 9.68$"
+  },
+  {
+   "file": "SME-ExamQuestion/igcse-physics-19/5-solids-liquids-and-gases/5-1-density-and-pressure/topic.json",
+   "pid": "qstnprt_XgBcnrhxGY4rNQ5B",
+   "field": "solution_md",
+   "line": 29,
+   "bucket": "M2-c",
+   "old_line": "  - $\\frac{P}{\\\\rho g} = \\frac{ \\cancel{ \\\\rho g} h}{ \\cancel{ \\\\rho g} }$"
+  },
+  {
+   "file": "SME-ExamQuestion/igcse-physics-19/5-solids-liquids-and-gases/5-3-ideal-gases/topic.json",
+   "pid": "qstnprt_NSMPgHFrX8cz4SVf",
+   "field": "solution_md",
+   "line": 2,
+   "bucket": "M2-c",
+   "old_line": "- $Pressuredifference=density\\timesg\\timesheight$ **OR **$P=ρ\\timesg\\timesh$ **[1 mark]**"
+  },
+  {
+   "file": "SME-ExamQuestion/igcse-physics-19/5-solids-liquids-and-gases/5-3-ideal-gases/topic.json",
+   "pid": "qstnprt_NSMPgHFrX8cz4SVf",
+   "field": "solution_md",
+   "line": 14,
+   "bucket": "M2-c",
+   "old_line": "- $P=ρ\\timesg\\timesh$"
+  },
+  {
+   "file": "SME-ExamQuestion/igcse-physics-19/8-astrophysics/8-1-motion-in-the-universe/topic.json",
+   "pid": "qstnprt_5kbz6sYFk9twzTx7",
+   "field": "solution_md",
+   "line": 29,
+   "bucket": "M2-c",
+   "old_line": "- $\\\\rho = \\frac{3 m}{4 \\pi r^{3}} = \\frac{3 \\times ( 100 \\times 10^{24} )}{4 \\times \\pi \\times ( 25 000 )^{3}}$ **[1 mark]**"
+  },
+  {
+   "file": "SME-ExamQuestion/igcse-physics-19/8-astrophysics/8-3-cosmology/topic.json",
+   "pid": "qstnprt_VGn9kGtZX3jt4bty",
+   "field": "solution_md",
+   "line": 11,
+   "bucket": "M2-c",
+   "old_line": "- $\\frac{\\Delta \\\\lambda }{450} = \\frac{( 2.0 \\times 10^{4} )}{( 3.0 \\times 10^{8} )}$ **[1 mark]**"
+  },
+  {
+   "file": "SME-ExamQuestion/igcse-physics-19/8-astrophysics/8-3-cosmology/topic.json",
+   "pid": "qstnprt_VGn9kGtZX3jt4bty",
+   "field": "solution_md",
+   "line": 12,
+   "bucket": "M2-c",
+   "old_line": "- $\\Delta \\\\lambda = 450 \\times \\frac{( 2.0 \\times 10^{4} )}{( 3.0 \\times 10^{8} )}$ **[1 mark]**"
+  }
+ ],
+ "totals": {
+  "lines": 17,
+  "parts": 11,
+  "files": 7,
+  "buckets": {
+   "M2-a": 4,
+   "M2-b": 3,
+   "M2-b-collateral": 2,
+   "M2-c": 8
+  }
+ },
+ "not_admitted": [
+  {
+   "pid": "qstnprt_ZTrm3d8Qwgth5z94",
+   "reason": "corpus/plane CONTENT mismatch (v2 serves a different question under this pid); 7 pre_square lines defer to content reconciliation"
+  },
+  {
+   "pid": "qstnprt_NSMPgHFrX8cz4SVf",
+   "lines": [
+    32
+   ],
+   "reason": "gathered-environment row separators are valid KaTeX (cosmetic divergence vs v2 matrix form); not admitted"
+  },
+  {
+   "pid": "qstnprt_cHf2Brk7zsDZsdHb",
+   "lines": [
+    4
+   ],
+   "reason": "`equation` code span above image equation: v2 carries the same span (BOTH_DIRTY); cosmetic, no parity basis"
+  }
+ ]
+}

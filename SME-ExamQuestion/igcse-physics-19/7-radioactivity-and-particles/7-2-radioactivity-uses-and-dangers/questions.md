@@ -254,7 +254,7 @@ Thorium-232 undergoes alpha decay and produces an isotope of radium, Ra.
 
 Complete the equation for this decay.
 
-$Th_{90}^{232} \rightarrow \text{Ra} pre_{square} pre^{square} + \ \\alpha pre_{square} pre^{4}$
+${}_{90}^{232}{Th}  \rightarrow  {}_{\square}^{\square}{Ra}  +  {}_{\square}^{4}{\alpha}$
 
 ### 7((b)) — 3 marks — command: suggest — structured — from paper 2015 June · 1P
 The radioactive glass also emits beta particles from a different isotope.
@@ -353,7 +353,7 @@ Thorium-232 decays into radon-220 through a number of alpha decays and beta deca
 
 The incomplete nuclear decay equation summarises this process.
 
-`Th _ 90 ^ 232 -> Rn _ 86 ^ 220 + ...... alpha _... ^... + ...... beta _ - 1 ^ 0`
+${}_{90}^{232}{Th}  \rightarrow  {}_{86}^{220}{Rn}  +  . . . . . .  {}_{. . .}^{. . .}{\alpha} \text{   } +  . . . . . .  {}_{- 1}^{0}{\beta}$
 
 Complete the nuclear equation for the decay of thorium-232 into radon-220 by giving the missing numbers.
 
