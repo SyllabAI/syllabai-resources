@@ -1,0 +1,20 @@
+{
+ "lane": "T-OEQ-PHYS-FORMAT-1",
+ "run": "run-009-r2",
+ "date": "2026-11-02",
+ "gates": {
+  "census_blocks_post": {
+   "official_semantics_MULTI_COL_OK": 147,
+   "word_bank_header_only_accepted": 21,
+   "1COL_DEGENERATE": 0
+  },
+  "orphan_pipe_lines_post": 0,
+  "math_pipe_conflicts": 0,
+  "g3_char_safety": "PASS",
+  "t1_field_parity": "4/4 PASS (exactly pinned fields differ)",
+  "qmd_unique_match": "2/2 asserted",
+  "official_corpus": "untouched (0 diffs)"
+ },
+ "pin_count": 7,
+ "note": "5 corpus field pins + 2 questions.md file pins; T1 json.dumps(indent=1, ensure_ascii=False) no trailing newline (byte-parity verified on all 24 untouched files pre-edit)"
+}

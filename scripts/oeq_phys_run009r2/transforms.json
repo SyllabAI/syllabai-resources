@@ -1,0 +1,71 @@
+{
+ "lane": "T-OEQ-PHYS-FORMAT-1",
+ "run": "run-009-r2",
+ "wave": "R2+M1",
+ "scope": "R2 flattened-table rebuild (live-evidence census) + M1 math code-span conversion; questions.md regen rides; official corpus untouched",
+ "transforms": [
+  {
+   "track": "R2-a",
+   "pid": "qstnprt_rdyGR5PkqVnRXwkH",
+   "file": "SME-ExamQuestion/igcse-physics-19/5-solids-liquids-and-gases/5-1-density-and-pressure/topic.json",
+   "field": "problem_md",
+   "morph": "mathml-strip",
+   "evidence": "live page: <span role=\"math\" aria-label=\"table row cell ... end table\"> containing <mtable> nest; equation = \"pressure of the / trapped air\" = \"atmospheric / pressure\" + \"pressure difference / caused by water\"",
+   "new": "| pressure of the trapped air | = | atmospheric pressure | + | pressure difference caused by water |\n|---|---|---|---|---|"
+  },
+  {
+   "track": "R2-b",
+   "pid": "qstnprt_dtqBs72bCBHhzmPW",
+   "file": "SME-ExamQuestion/igcse-physics-19/7-radioactivity-and-particles/7-2-radioactivity-uses-and-dangers/topic.json",
+   "field": "problem_md",
+   "morph": "dash-arrow-header",
+   "evidence": "live page: <th colSpan=\"3\"> \"least ionising \" + <math> 8x long dash + rightwards arrow </math> + \" most ionising\"; data row of 3 empty cells",
+   "new_header_cell": "least ionising ————————→ most ionising"
+  },
+  {
+   "track": "M1",
+   "pid": "qstnprt_6KGc2JNpQkkr4fMC",
+   "file": "SME-ExamQuestion/igcse-physics-19/1-forces-and-motion/1-1-movement-and-position/topic.json",
+   "field": "solution_md",
+   "morph": "math-code-span",
+   "lines": 2,
+   "evidence": "live page: equation nodes (MathML mfrac/mrow) for area-of-trapezium and total-distance",
+   "new": "backtick LaTeX -> $...$ LaTeX (2 lines)"
+  },
+  {
+   "track": "M1",
+   "pid": "qstnprt_M8YQX5F9BqRJwVJ3",
+   "file": "SME-ExamQuestion/igcse-physics-19/1-forces-and-motion/1-3-momentum/topic.json",
+   "field": "solution_md",
+   "morph": "math-code-span",
+   "lines": 1,
+   "evidence": "live page: equation node \"m_{ball} = 6.4 kg\" MathML family; p_1 = (m_ball + m_pin) x v rendered as math",
+   "new": "backtick LaTeX -> $...$ LaTeX (1 line)"
+  }
+ ],
+ "residuals_disclosed": [
+  {
+   "class": "M2-nuclear-notation",
+   "pids": [
+    "qstnprt_4vfnyBdMN6xzcDJM",
+    "qstnprt_zmCwB2mCVKK6Fsx7"
+   ],
+   "lines": 4,
+   "note": "nuclear decay equations in backtick pseudo-notation (Th _ 90 ^ 232 -> ...); need true LaTeX re-authoring with live MathML evidence; NOT tables; deferred to next micro-wave"
+  },
+  {
+   "class": "eqbox-dotted-lines",
+   "pids": [
+    "qstnprt_7WxytyFccQPST5JG",
+    "qstnprt_36cNn2622xqfVfQS",
+    "qstnprt_XgBcnrhxGY4rNQ5B"
+   ],
+   "note": "dotted answer lines \"moment = .... unit = ....\" — legitimate exam formatting; no action"
+  },
+  {
+   "class": "br-br-header-debris",
+   "note": "several table headers carry <br><br> joins (e.g. temperature/V/ mA table); render correctly; cosmetic only; no action this run"
+  }
+ ],
+ "figure_correction": "conversation-level \"93 SME flattened-table parts / 121 lines\" (earlier session, scripts lost) did NOT reproduce under any detector on either corpus (old anchor 4ec3e6c, current main) or the live pages; the committed W2 pre-registered census (26 parts R1 + 3 headers R3 + 3 official) is the authoritative record; this run pre-registers the live-evidence census instead"
+}

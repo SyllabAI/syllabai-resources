@@ -1,0 +1,53 @@
+{
+ "lane": "T-OEQ-PHYS-FORMAT-1",
+ "run": "run-009-r2",
+ "pin_count": 5,
+ "law": "every written corpus field pinned before/after",
+ "pins": [
+  {
+   "target": "qstnprt_rdyGR5PkqVnRXwkH",
+   "file": "SME-ExamQuestion/igcse-physics-19/5-solids-liquids-and-gases/5-1-density-and-pressure/topic.json",
+   "field": "problem_md",
+   "track": "R2-a",
+   "before_sha256": "4d4948582dafe7dd182394b3a86d7e7fbc6f5adb74d14387a417bfd9ffb381ce",
+   "after_sha256": "bbc44e190e67db22675d71a0a8a572c3dd5bc321f1cde4fbc1a4fcf1ac562d4d",
+   "law": "corpus := live page of record (SME, scrape 2026-09-17); R2-a equation strip (live: mtable aria-label, 3 terms + 2 operators)"
+  },
+  {
+   "target": "qstnprt_dtqBs72bCBHhzmPW",
+   "file": "SME-ExamQuestion/igcse-physics-19/7-radioactivity-and-particles/7-2-radioactivity-uses-and-dangers/topic.json",
+   "field": "problem_md",
+   "track": "R2-b",
+   "before_sha256": "86e3b79c2bc733ae7c5e92d6e753fd7733df5a7a37ab1140d89a981871c7a85f",
+   "after_sha256": "5fb0cf8f88393b3bfd0d873ca76f7255d133992eea35a693ad126c1b8fa3cefd",
+   "law": "corpus := live page of record (SME, scrape 2026-09-17); R2-b ionisation header cell (live: th colSpan=3, 8 long dashes + rightwards arrow)"
+  },
+  {
+   "target": "qstnprt_6KGc2JNpQkkr4fMC",
+   "file": "SME-ExamQuestion/igcse-physics-19/1-forces-and-motion/1-1-movement-and-position/topic.json",
+   "field": "solution_md",
+   "track": "M1",
+   "before_sha256": "5b6c81fab9cf748689c3aa9aff1a689f546e423a006e6b61db464c9f2c00e3c9",
+   "after_sha256": "c6c60f174f41b35edcf49be634b32acb7ba4f56c590628c3bd3c641ec33b389b",
+   "law": "corpus := live page of record (SME, scrape 2026-09-17); M1 math code-span -> $...$ (live: equation node, MathML)"
+  },
+  {
+   "target": "qstnprt_6KGc2JNpQkkr4fMC",
+   "file": "SME-ExamQuestion/igcse-physics-19/1-forces-and-motion/1-1-movement-and-position/topic.json",
+   "field": "solution_md",
+   "track": "M1",
+   "before_sha256": "c6c60f174f41b35edcf49be634b32acb7ba4f56c590628c3bd3c641ec33b389b",
+   "after_sha256": "a49553233c830461f380c75d5d5da932e26ffdac524d01b6adc00d097cb29388",
+   "law": "corpus := live page of record (SME, scrape 2026-09-17); M1 math code-span -> $...$ (live: equation node, MathML)"
+  },
+  {
+   "target": "qstnprt_M8YQX5F9BqRJwVJ3",
+   "file": "SME-ExamQuestion/igcse-physics-19/1-forces-and-motion/1-3-momentum/topic.json",
+   "field": "solution_md",
+   "track": "M1",
+   "before_sha256": "eadc450eee7808de76dbef2de81a43fb976773c5a9ba398d8062036e9e776311",
+   "after_sha256": "e1d7ae9e6cb1de528d089f333397aadea9eccd3a271f6ad00d334bb35b937594",
+   "law": "corpus := live page of record (SME, scrape 2026-09-17); M1 math code-span -> $...$ (live: equation node \"p_1=(m_ball+m_pin) x v\", MathML)"
+  }
+ ]
+}

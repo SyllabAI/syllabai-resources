@@ -19,7 +19,7 @@ Alpha, beta and gamma radiations are described as ionising.
 
 (i) Complete the table to show alpha, beta and gamma radiations in order of increasing ionisation.
 
-| least ionising $------------------------\rightarrow$most ionising |   |   |
+| least ionising ————————→ most ionising |   |   |
 |---|---|---|
 |   |   |   |
 
