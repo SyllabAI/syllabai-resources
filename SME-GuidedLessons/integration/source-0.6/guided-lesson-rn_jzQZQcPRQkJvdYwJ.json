@@ -1,0 +1,647 @@
+{
+  "format": "guided-lesson/0.6",
+  "noteRef": {
+    "noteId": "rn_jzQZQcPRQkJvdYwJ",
+    "corpusVersion": "sme-revision-notes-igcse-physics-19-2026-09-17",
+    "topicTitle": "1. Forces & Motion",
+    "subtopicTitle": "Moments",
+    "sourceUrl": "https://www.savemyexams.com/igcse/physics/edexcel/19/revision-notes/1-forces-and-motion/1-4-moments/1-4-1-moments"
+  },
+  "specPoints": [
+    {
+      "code": "1.30P",
+      "text": "know and use the relationship between the moment of a force and its perpendicular distance from the pivot: moment = force × perpendicular distance from the pivot"
+    }
+  ],
+  "primer": {
+    "text": "Forces do more than push objects along in a straight line — they can also make them turn. A stiff door, a spanner and a playground see-saw all rotate about a fixed point when a force acts. This note names that turning effect, shows the clockwise and anticlockwise senses it can take, and builds the equation that measures it.",
+    "prerequisiteSubtopic": "Moments"
+  },
+  "lessons": [
+    {
+      "title": "The moment of a force",
+      "sourceHeadings": [
+        "Clockwise and anti-clockwise rotation",
+        "An object rotating clockwise about a pivot"
+      ],
+      "specRefs": [
+        "1.30P"
+      ],
+      "opening": "Push a see-saw and it swings; twist a tap and it turns — forces can spin things as well as shove them. The spinning action a force produces about a fixed turning point is called a moment. This lesson pins down that idea and the two senses of rotation it can take.",
+      "keyPoints": [
+        "A moment is the turning effect that a force gives about a pivot.",
+        "Everyday examples include see-saws, spanner handles, doors, cranes, screwdrivers, taps, wheelbarrows and scissors.",
+        "Forces can make an object rotate around a fixed pivot, turning either clockwise or anticlockwise.",
+        "A force applied to one side of a pivot makes the object rotate.",
+        "The direction of turning is judged against the way a clock's hands travel."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "A moment is the turning effect a force has about a pivot; the spin it produces runs clockwise or anticlockwise.",
+          "analogy": "A playground roundabout: where you lean and push decides which way it sweeps around its central post.",
+          "examPointer": "When a question asks for the direction of turning, answer with the exact sense — clockwise or anticlockwise — not a bare 'it rotates'."
+        },
+        "medium": {
+          "restatement": "The pivot is the fixed point the object swings about; a force pushing on just one side of it sets the whole object rotating in one definite sense.",
+          "analogy": "Treat a clock face as the referee: a sweep from the 12 towards the 3 is clockwise, the reverse sweep anticlockwise.",
+          "examPointer": "Even before any calculation, label the sense of rotation on the diagram — examiners expect the clock comparison."
+        }
+      },
+      "check": [
+        {
+          "stem": "A moment is best described as:",
+          "misconceptionClass": "definition recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "The amount of matter packed into an object",
+              "correct": false,
+              "explanation": "That is mass, a different quantity entirely.",
+              "misconception": "term swap"
+            },
+            {
+              "key": "B",
+              "text": "The speed at which an object spins",
+              "correct": false,
+              "explanation": "A moment sizes a turning effect; it is not a rotation speed.",
+              "misconception": "rate confusion"
+            },
+            {
+              "key": "C",
+              "text": "The turning effect a force produces about a pivot",
+              "correct": true,
+              "explanation": "That is the definition of record.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "A force stored inside an object",
+              "correct": false,
+              "explanation": "Nothing is stored; the moment describes the turning action of an applied force.",
+              "misconception": "storage myth"
+            }
+          ]
+        },
+        {
+          "stem": "A rotation is described as clockwise when it turns in the same direction as:",
+          "misconceptionClass": "sense test",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "The hands of a clock",
+              "correct": true,
+              "explanation": "The clock face is the reference: matching its hands means clockwise.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "A planet's orbit around the Sun",
+              "correct": false,
+              "explanation": "The comparison of record is a clock, not planetary motion.",
+              "misconception": "origin myth"
+            },
+            {
+              "key": "C",
+              "text": "The swing of a pendulum",
+              "correct": false,
+              "explanation": "A pendulum sweeps both ways, so it cannot define one sense.",
+              "misconception": "analogy swap"
+            },
+            {
+              "key": "D",
+              "text": "Any force pointing downwards",
+              "correct": false,
+              "explanation": "A downward force can turn an object either way, depending on where it acts.",
+              "misconception": "direction slip"
+            }
+          ]
+        },
+        {
+          "stem": "Which everyday action involves a moment producing rotation?",
+          "misconceptionClass": "example sort",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "Sliding a box along the floor",
+              "correct": false,
+              "explanation": "Straight-line sliding involves no turn about a pivot.",
+              "misconception": "translation only"
+            },
+            {
+              "key": "B",
+              "text": "Squeezing a sponge between your palms",
+              "correct": false,
+              "explanation": "A squeeze deforms the sponge without rotating it about a pivot.",
+              "misconception": "no-pivot case"
+            },
+            {
+              "key": "C",
+              "text": "A picture hanging still on a wall",
+              "correct": false,
+              "explanation": "Nothing turns, so no moment acts.",
+              "misconception": "static case"
+            },
+            {
+              "key": "D",
+              "text": "Twisting a tap on and off",
+              "correct": true,
+              "explanation": "The tap head rotates about its spindle — a standard moment example.",
+              "misconception": null
+            }
+          ]
+        },
+        {
+          "stem": "A force is applied on just one side of a pivot. What is the result?",
+          "misconceptionClass": "one-sided force",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "The object stays exactly balanced",
+              "correct": false,
+              "explanation": "A one-sided push cannot balance; it turns the object.",
+              "misconception": "balance myth"
+            },
+            {
+              "key": "B",
+              "text": "The object rotates about the pivot",
+              "correct": true,
+              "explanation": "A force acting to one side of a pivot produces turning.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "The object slides away without any turning",
+              "correct": false,
+              "explanation": "An off-centre force turns the object as well as moving it.",
+              "misconception": "translation only"
+            },
+            {
+              "key": "D",
+              "text": "The pivot moves across to meet the force",
+              "correct": false,
+              "explanation": "The pivot is fixed — that is what makes the rotation well defined.",
+              "misconception": "pivot drift"
+            }
+          ]
+        },
+        {
+          "stem": "A door swings open. Which part acts as its fixed pivot?",
+          "misconceptionClass": "pivot identification",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "The edge you push",
+              "correct": false,
+              "explanation": "That is where the force is applied, not the turning point.",
+              "misconception": "force-site swap"
+            },
+            {
+              "key": "B",
+              "text": "The floor beneath it",
+              "correct": false,
+              "explanation": "The floor supports the door but is not the rotation's fixed point.",
+              "misconception": "catalogue noise"
+            },
+            {
+              "key": "C",
+              "text": "The hinge",
+              "correct": true,
+              "explanation": "The hinge is the fixed pivot about which the door turns.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "The handle",
+              "correct": false,
+              "explanation": "The handle carries the push; it is not the fixed turning point.",
+              "misconception": "irrelevance"
+            }
+          ]
+        },
+        {
+          "stem": "State what is meant by a moment.",
+          "misconceptionClass": "definition recall",
+          "kind": "recall",
+          "modelAnswer": "A moment is the turning effect that a force produces about a pivot.",
+          "keywords": [
+            "moment",
+            "turning",
+            "effect",
+            "force",
+            "pivot"
+          ]
+        },
+        {
+          "stem": "Give two everyday examples of rotation caused by a moment.",
+          "misconceptionClass": "example recall",
+          "kind": "recall",
+          "modelAnswer": "Any two of: a child on a see-saw, a spanner turning a nut, a door opening, a crane lifting supplies, a screwdriver opening a paint tin, a tap twisted on, a wheelbarrow lifted, or scissors cutting.",
+          "keywords": [
+            "see-saw",
+            "spanner",
+            "door",
+            "crane",
+            "scissors"
+          ]
+        },
+        {
+          "stem": "Explain why the rotation caused by a moment is labelled either clockwise or anticlockwise, and what reference settles the choice.",
+          "misconceptionClass": "sense reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "The object spins about a fixed pivot, so its parts all sweep the same way round that point. Comparing the sweep with the hands of a clock gives the label: matching them is clockwise, the reverse is anticlockwise.",
+          "keywords": [
+            "rotation",
+            "pivot",
+            "clockwise",
+            "anticlockwise",
+            "clock"
+          ]
+        },
+        {
+          "stem": "A learner says 'the hinge is the moment of the door'. Rewrite the sentence using the correct terms.",
+          "misconceptionClass": "vocabulary repair",
+          "kind": "application",
+          "modelAnswer": "The hinge is the pivot — the fixed point the door turns about — while the moment is the turning effect the applied force produces.",
+          "keywords": [
+            "hinge",
+            "pivot",
+            "moment",
+            "turning"
+          ]
+        }
+      ],
+      "figureIds": [
+        "fig-01",
+        "fig-02"
+      ]
+    },
+    {
+      "title": "Calculating moments with M = F × d",
+      "sourceHeadings": [
+        "The moment of a force exerted on a spanner",
+        "Forces required to open a door"
+      ],
+      "specRefs": [
+        "1.30P"
+      ],
+      "opening": "Sizing a turning effect takes one multiplication. The moment equals the force multiplied by its perpendicular distance from the pivot — the straight-across gap to that turning point — and it is measured in newton metres. Step back from the hinge and a lighter push opens the same door.",
+      "keyPoints": [
+        "The size of a moment is M = F × d: force times perpendicular distance from the pivot.",
+        "M is the moment in newton metres (N m), F the force in newtons (N), and d the perpendicular distance in metres (m).",
+        "The force should act perpendicular to the distance that separates it from the pivot — on a horizontal beam, up or down forces create moments.",
+        "Pushing farther from the pivot needs less force — pushing a door near the hinge is hard, at the handle it is easy.",
+        "Moments may be quoted in newton centimetres when the distance is in centimetres; convert distances to metres unless the question names a unit."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Multiply the force by its perpendicular distance from the pivot and you have the moment: M = F × d.",
+          "analogy": "A longer spanner arm is a force multiplier: the same hand grip swings a stiffer nut because the extra reach does part of the work.",
+          "examPointer": "Watch the units: force in newtons and distance in metres give a moment in newton metres (N m)."
+        },
+        "medium": {
+          "restatement": "M = F × d runs both ways: divide the moment by the distance to recover the force, or by the force to recover the distance.",
+          "analogy": "Reach is a discount on effort: every extra metre from the pivot buys the same turn for fewer newtons.",
+          "examPointer": "If the question gives centimetres and names no unit for the answer, convert the distance to metres before multiplying — newton metres is the default."
+        }
+      },
+      "check": [
+        {
+          "stem": "A force of 10 N acts 0.50 m from a pivot, at right angles to the distance. The moment is:",
+          "misconceptionClass": "direct substitution",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "0.05 N m",
+              "correct": false,
+              "explanation": "That divides the distance by the force.",
+              "misconception": "value inversion"
+            },
+            {
+              "key": "B",
+              "text": "5.0 N m",
+              "correct": true,
+              "explanation": "M = 10 × 0.50 = 5.0 N m.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "20 N m",
+              "correct": false,
+              "explanation": "That divides the force by the distance instead of multiplying.",
+              "misconception": "operation flip"
+            },
+            {
+              "key": "D",
+              "text": "10.5 N m",
+              "correct": false,
+              "explanation": "That adds the two values.",
+              "misconception": "addition slip"
+            }
+          ]
+        },
+        {
+          "stem": "With F in newtons and d in metres, the moment M comes out in:",
+          "misconceptionClass": "unit recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "newtons (N)",
+              "correct": false,
+              "explanation": "Newtons measure the force alone, not force times distance.",
+              "misconception": "unit slip"
+            },
+            {
+              "key": "B",
+              "text": "metres (m)",
+              "correct": false,
+              "explanation": "Metres measure the distance alone.",
+              "misconception": "quantity slip"
+            },
+            {
+              "key": "C",
+              "text": "newtons per metre (N/m)",
+              "correct": false,
+              "explanation": "That would divide force by distance; the relationship multiplies them.",
+              "misconception": "unit inversion"
+            },
+            {
+              "key": "D",
+              "text": "newton metres (N m)",
+              "correct": true,
+              "explanation": "Force (N) times distance (m) gives the moment unit N m.",
+              "misconception": null
+            }
+          ]
+        },
+        {
+          "stem": "On a horizontal beam, which forces create a moment about a point on the beam?",
+          "misconceptionClass": "perpendicular test",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "Forces pointing straight up or down",
+              "correct": true,
+              "explanation": "Up or down forces cut across a horizontal beam — exactly the perpendicular case.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Forces directed along the beam itself",
+              "correct": false,
+              "explanation": "A push straight along the beam has no perpendicular separation, so it produces no turning.",
+              "misconception": "direction slip"
+            },
+            {
+              "key": "C",
+              "text": "Whichever force on the beam is largest",
+              "correct": false,
+              "explanation": "Size alone never decides; the direction relative to the distance matters.",
+              "misconception": "magnitude-only myth"
+            },
+            {
+              "key": "D",
+              "text": "Any force, whatever its direction",
+              "correct": false,
+              "explanation": "The moment equation applies when the force acts across the perpendicular gap to the pivot, not along it.",
+              "misconception": "any-direction myth"
+            }
+          ]
+        },
+        {
+          "stem": "Pushing a door open at the handle, far from the hinges, is easier than pushing next to them because:",
+          "misconceptionClass": "distance trade-off",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "The handle multiplies the force you exert",
+              "correct": false,
+              "explanation": "The handle adds no force; it adds distance from the pivot.",
+              "misconception": "force invention"
+            },
+            {
+              "key": "B",
+              "text": "The door becomes lighter farther from the hinges",
+              "correct": false,
+              "explanation": "The door's weight never changes with where you push.",
+              "misconception": "weight myth"
+            },
+            {
+              "key": "C",
+              "text": "The greater distance from the pivot lets a smaller force supply the moment",
+              "correct": true,
+              "explanation": "A longer distance from the pivot decreases the force needed for the same turning effect.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "The hinges grip more loosely near the handle",
+              "correct": false,
+              "explanation": "Hinge conditions are identical; only the geometry of the push changes.",
+              "misconception": "irrelevance"
+            }
+          ]
+        },
+        {
+          "stem": "A moment of 30 N m is produced by a 5 N force. The force's perpendicular distance from the pivot is:",
+          "misconceptionClass": "rearrangement",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "150 m",
+              "correct": false,
+              "explanation": "That multiplies instead of dividing.",
+              "misconception": "operation flip"
+            },
+            {
+              "key": "B",
+              "text": "6 m",
+              "correct": true,
+              "explanation": "d = M ÷ F = 30 ÷ 5 = 6 m.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "0.17 m",
+              "correct": false,
+              "explanation": "That divides the force by the moment, upside down.",
+              "misconception": "inverted division"
+            },
+            {
+              "key": "D",
+              "text": "35 m",
+              "correct": false,
+              "explanation": "That adds the two values.",
+              "misconception": "addition slip"
+            }
+          ]
+        },
+        {
+          "stem": "State the equation for the moment of a force and give the unit of the moment.",
+          "misconceptionClass": "equation recall",
+          "kind": "recall",
+          "modelAnswer": "M = F × d, where M is the moment in newton metres (N m), F is the force in newtons (N) and d is the perpendicular distance in metres (m).",
+          "keywords": [
+            "moment",
+            "newton metres",
+            "force",
+            "distance",
+            "perpendicular"
+          ]
+        },
+        {
+          "stem": "Why should distances be converted into metres before calculating a moment, and what units result?",
+          "misconceptionClass": "unit-conversion recall",
+          "kind": "recall",
+          "modelAnswer": "Working in metres keeps the standard units, so the moment comes out in newton metres (N m); leaving the distance in centimetres would give newton centimetres instead. Convert unless the question names a unit.",
+          "keywords": [
+            "metres",
+            "newton",
+            "convert",
+            "centimetres"
+          ]
+        },
+        {
+          "stem": "Explain why increasing the distance from the pivot decreases the force needed for a given moment.",
+          "misconceptionClass": "proportionality reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "In M = F × d, the moment required for the task is fixed, so force and distance trade off inversely: any increase in d lets F fall by the same factor. Reaching farther from the pivot therefore buys the same turning effect with a smaller force.",
+          "keywords": [
+            "moment",
+            "inversely",
+            "distance",
+            "force",
+            "pivot"
+          ]
+        },
+        {
+          "stem": "A spanner pushes with a 15 N force at 0.40 m from the nut — the pivot. Compute the moment, then state the force needed if the grip moves out to 0.50 m for the same moment.",
+          "misconceptionClass": "two-step arithmetic",
+          "kind": "application",
+          "modelAnswer": "M = 15 × 0.40 = 6.0 N m. At 0.50 m: F = 6.0 ÷ 0.50 = 12 N — farther from the pivot, the needed force drops to 12 N.",
+          "keywords": [
+            "moment",
+            "6.0",
+            "12",
+            "force",
+            "distance"
+          ]
+        }
+      ],
+      "figureIds": [
+        "fig-03",
+        "fig-04"
+      ]
+    }
+  ],
+  "noteAssets": {
+    "glossary": [
+      {
+        "term": "moment",
+        "definition": "The turning effect that a force produces about a pivot.",
+        "firstLesson": 1
+      },
+      {
+        "term": "pivot",
+        "definition": "The fixed point about which an object rotates when a force turns it.",
+        "firstLesson": 1
+      },
+      {
+        "term": "clockwise",
+        "definition": "Turning the same way as the hands of a clock.",
+        "firstLesson": 1
+      },
+      {
+        "term": "anticlockwise",
+        "definition": "Turning the opposite way to the hands of a clock.",
+        "firstLesson": 1
+      },
+      {
+        "term": "newton metre",
+        "definition": "The unit of moment: one newton acting one metre from the pivot, written N m.",
+        "firstLesson": 2
+      },
+      {
+        "term": "perpendicular distance",
+        "definition": "The straight-across gap from the pivot to the force's line, the d in M = F × d.",
+        "firstLesson": 2
+      }
+    ],
+    "workedExample": null
+  },
+  "figures": [
+    {
+      "id": "fig-01",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/8deafe18b2cf-clockwiseanticlockwise.png",
+      "alt": "Clockwise and Anticlockwise, IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "Clockwise and anti-clockwise rotation",
+      "moduleIds": [
+        "L1"
+      ],
+      "caption": "Consider the hands of a clock when deciding if an object will rotate in a clockwise or anti-clockwise direction",
+      "binding": "heading-unique"
+    },
+    {
+      "id": "fig-02",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/bbbf4bf6bc7a-pivot-force.png",
+      "alt": "pivot-force, IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "An object rotating clockwise about a pivot",
+      "moduleIds": [
+        "L1"
+      ],
+      "caption": "The force applied will cause the object to rotate clockwise about the pivot",
+      "binding": "heading-unique"
+    },
+    {
+      "id": "fig-03",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/6e66c3538e45-moment-of-force.png",
+      "alt": "moment-of-force, IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "The moment of a force exerted on a spanner",
+      "moduleIds": [
+        "L2"
+      ],
+      "caption": "The moment depends on the force and perpendicular distance to the pivot",
+      "binding": "heading-unique"
+    },
+    {
+      "id": "fig-04",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/d4251427b273-2-4-door-momentts-example.png",
+      "alt": "2-4-door-momentts-example",
+      "sourceHeading": "Forces required to open a door",
+      "moduleIds": [
+        "L2"
+      ],
+      "caption": "A greater force is required to push open a door next to the hinges than at the door handle",
+      "binding": "heading-unique"
+    }
+  ]
+}
