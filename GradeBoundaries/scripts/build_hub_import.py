@@ -7,6 +7,13 @@ apps/hub/content/grade-boundaries/bundle.v1.json. Only sessions whose source
 PDF has a recorded sha256 may enter the bundle (provenance law); any map
 entry whose family parsed nothing is emitted with an empty series list —
 an honest absence the hub renders as the roadmap state, never a stub.
+
+T-GRADE-8 run-003 — the units-absent law (the run-014 upstream note): a
+series row whose only content is a cash-in must NOT arrive as `units: []`.
+A present-but-empty optional array is exactly the shape the hub prebuild
+validator rejects; the honest emission omits the key entirely. Applies to
+every optional series array, generator-wide, with a fail-loud post-build
+guard.
 """
 from __future__ import annotations
 
@@ -24,6 +31,34 @@ AGGREGATION = LANE / "curated" / "aggregation.json"
 
 def sha16(s: str) -> str:
     return hashlib.sha256(s.encode()).hexdigest()[:16]
+
+
+# T-GRADE-8 run-003 — the units-absent law (the run-014 upstream note): a
+# session whose only content is a cash-in must NOT be emitted as `units: []`.
+# A present-but-empty optional array is precisely the shape the hub prebuild
+# validator rejects (validate_gradeb_bundle.ts), so the honest emission omits
+# the key entirely.
+OPTIONAL_ARRAY_KEYS = ("units", "cashIns", "components", "routes",
+                       "calculatorUnits")
+
+
+def put_rows(entry: dict, key: str, rows: list[dict]) -> None:
+    """Set entry[key] only when rows exist — units-absent, never `[]`."""
+    if rows:
+        entry[key] = rows
+
+
+def assert_no_present_empty_arrays(bundle: dict) -> None:
+    """Fail-loud post-build guard for the units-absent law."""
+    bad = []
+    for slug, c in bundle["courses"].items():
+        for s in c.get("series", []):
+            for k in OPTIONAL_ARRAY_KEYS:
+                if k in s and s[k] == []:
+                    bad.append(f"{slug} {s['session']}: {k}: []")
+    if bad:
+        fail("present-but-empty optional arrays in the built bundle "
+             "(units-absent law violation):\n  " + "\n  ".join(bad))
 
 
 def load_aggregation() -> dict:
@@ -244,12 +279,12 @@ def modular_ial_course_entry(row: dict, docs: dict[str, dict],
                          and unit_stem[:2] in u.get("code", "")]
             cashins = [c for c in subj.get("cashIns", [])
                        if c.get("code") == code]
-        entry["units"] = [
+        unit_rows = [
             {"code": u["code"], "title": u["title"], "maxMark": u["maxMark"],
              "boundaries": u["boundaries"],
              "ums": u.get("ums")}
             for u in units if u.get("boundaries")]
-        entry["cashIns"] = [
+        cashin_rows = [
             {"code": c["code"], "title": c["title"], "maxMark": c["maxMark"],
              "boundaries": c["boundaries"],
              "gradeLadder": list(c["boundaries"].keys())}
@@ -265,10 +300,12 @@ def modular_ial_course_entry(row: dict, docs: dict[str, dict],
         # filtered to the composition allowlist above.
         if calculator.get("mode") == "aggregate-ums" and \
                 not any(u["code"] in calculator.get("required", [])
-                        for u in entry["units"]):
+                        for u in unit_rows):
             continue
-        if not entry["units"] and not entry["cashIns"]:
+        if not unit_rows and not cashin_rows:
             continue
+        put_rows(entry, "units", unit_rows)  # run-003: key absent, never []
+        put_rows(entry, "cashIns", cashin_rows)
         if subj.get("reviewRequired") or doc.get("parse_warnings"):
             review = True
         # the aggregation calculator needs EVERY composition unit's
@@ -279,11 +316,11 @@ def modular_ial_course_entry(row: dict, docs: dict[str, dict],
             for pair in calculator.get("optionalPairs", []):
                 comp_units += [c for c in pair if c not in comp_units]
             std = standard_unit_rows(subj.get("units", []), comp_units)
-            entry["calculatorUnits"] = [
+            put_rows(entry, "calculatorUnits", [  # run-003: absent, never []
                 {"code": u["code"], "title": u["title"],
                  "maxMark": u["maxMark"], "boundaries": u["boundaries"],
                  "ums": u.get("ums")}
-                for u in std if u.get("boundaries") and u.get("ums")]
+                for u in std if u.get("boundaries") and u.get("ums")])
         series.append(entry)
     if not series:
         return None
@@ -323,24 +360,29 @@ def cie_course_entry(row: dict) -> dict | None:
         elif level == "A-Level":
             routes = [r for r in routes
                       if (r.get("award") or "").startswith("A-Level")]
-        series.append({
+        comp_rows = [
+            {"code": c["code"], "maxMark": c["maxMark"],
+             "boundaries": c["boundaries"]}
+            for c in doc.get("components", []) if c.get("boundaries")]
+        route_rows = [
+            {"combination": r["combination"],
+             "option": r.get("option"),
+             "award": r.get("award"),
+             "maxWeightedMark": r["maxWeightedMark"],
+             "boundaries": r["boundaries"]}
+            for r in routes if r.get("boundaries")]
+        if not comp_rows and not route_rows:
+            continue  # run-003: an award-less session is skipped, not stubbed
+        entry = {
             "session": doc["session"],
             "year": int(doc["session"].split()[-1]),
             "gradeLadder": doc.get("gradeLadder"),
-            "components": [
-                {"code": c["code"], "maxMark": c["maxMark"],
-                 "boundaries": c["boundaries"]}
-                for c in doc.get("components", []) if c.get("boundaries")],
-            "routes": [
-                {"combination": r["combination"],
-                 "option": r.get("option"),
-                 "award": r.get("award"),
-                 "maxWeightedMark": r["maxWeightedMark"],
-                 "boundaries": r["boundaries"]}
-                for r in routes if r.get("boundaries")],
-            "source": {"family": doc["family"],
-                       "sha256_16": (doc["source"].get("sha256") or "")[:16]},
-        })
+        }
+        put_rows(entry, "components", comp_rows)  # run-003: absent, never []
+        put_rows(entry, "routes", route_rows)
+        entry["source"] = {"family": doc["family"],
+                           "sha256_16": (doc["source"].get("sha256") or "")[:16]}
+        series.append(entry)
     if not series:
         return None
     series.sort(key=lambda s: (s["year"], s["session"]))
@@ -389,10 +431,12 @@ def main() -> None:
     if man.exists():
         manifest_rows = [json.loads(ln) for ln in
                          man.read_text().splitlines() if ln.strip()]
+    # v2: the units-absent emission law (run-003) — the generator string
+    # names the law bump so downstream imports can tell the shapes apart.
     bundle = {
         "schema": "syllabai.grade-boundaries/1.0",
         "generated": now_utc(),
-        "generator": "GradeBoundaries/scripts/build_hub_import.py v1",
+        "generator": "GradeBoundaries/scripts/build_hub_import.py v2",
         "source": {
             "lane": "SyllabAI/syllabai-resources GradeBoundaries",
             "documents": len(manifest_rows),
@@ -402,6 +446,7 @@ def main() -> None:
                    "courses_total": len(out_courses)},
         "courses": dict(sorted(out_courses.items())),
     }
+    assert_no_present_empty_arrays(bundle)  # run-003 fail-loud emission gate
     HUB_IMPORT.mkdir(parents=True, exist_ok=True)
     BUNDLE.write_text(json.dumps(bundle, indent=1, ensure_ascii=False) + "\n")
     size = BUNDLE.stat().st_size

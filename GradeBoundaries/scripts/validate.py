@@ -286,9 +286,23 @@ def main() -> None:
         errors.append(f"cie coverage: map syllabi without parsed docs: "
                       f"{unexplained}")
 
+    # ---- T-GRADE-8 run-003 bundle shape law (the run-014 upstream note) ----
+    # No series row may carry a present-but-empty optional array: the hub
+    # prebuild validator rejects that shape outright, and the honest
+    # cash-in-only emission is key-absent (units-absent).
     # ---- G3(c): aggregation calculator structural soundness ----
     if BUNDLE.exists():
         bundle = json.loads(BUNDLE.read_text())
+        shape_bad = []
+        for slug, entry in bundle["courses"].items():
+            for s in entry.get("series", []):
+                for k in ("units", "cashIns", "components", "routes",
+                          "calculatorUnits"):
+                    if k in s and s[k] == []:
+                        shape_bad.append(f"{slug} {s['session']}: {k}: []")
+        if shape_bad:
+            errors.append("bundle shape law: present-empty optional arrays: "
+                          + "; ".join(shape_bad[:12]))
         docs_by_family = {f: load(f) for f in
                           ("pearson-int-gcse-modular", "pearson-ial")}
         agg_errs, agg_infos = check_aggregation(bundle, docs_by_family)
