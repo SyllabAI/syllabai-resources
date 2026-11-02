@@ -1,0 +1,633 @@
+{
+  "format": "guided-lesson/0.6",
+  "noteRef": {
+    "noteId": "rn_4zdmGRWTg5ksK44N",
+    "corpusVersion": "sme-revision-notes-igcse-physics-19-2026-09-17",
+    "topicTitle": "1. Forces & Motion",
+    "subtopicTitle": "Forces, Movement & Changing Shape",
+    "sourceUrl": "https://www.savemyexams.com/igcse/physics/edexcel/19/revision-notes/1-forces-and-motion/1-2-forces-movement-and-changing-shape/1-2-2-scalar-and-vectors"
+  },
+  "specPoints": [
+    {
+      "code": "1.13",
+      "text": "understand how vector quantities differ from scalar quantities"
+    },
+    {
+      "code": "1.14",
+      "text": "understand that force is a vector quantity"
+    }
+  ],
+  "primer": {
+    "text": "Every measured quantity in this course belongs to one of two families. One family reports only 'how much'; the other also reports 'which way'. This note defines the two families, sorts the familiar pairs — distance and displacement, speed and velocity — and then shows why force itself sits in the second family.",
+    "prerequisiteSubtopic": "Forces, Movement & Changing Shape"
+  },
+  "lessons": [
+    {
+      "title": "Scalars, vectors and their paired quantities",
+      "sourceHeadings": [
+        "Distance and displacement",
+        "Examples of scalars & vectors"
+      ],
+      "specRefs": [
+        "1.13"
+      ],
+      "opening": "A scalar reports a size and nothing else; a vector reports a size plus a direction. The distinction looks small until you meet the paired quantities: distance against displacement, and the route a walker actually takes against the straight line home. This lesson fixes the definitions and the standard pairings.",
+      "keyPoints": [
+        "A scalar carries a magnitude only, with no direction attached.",
+        "A vector carries both a magnitude and a direction.",
+        "Distance is the total length of the path travelled, regardless of direction, so it is a scalar.",
+        "Displacement is the straight-line separation of the finishing point from the starting point, including the direction, so it is a vector.",
+        "Mass, energy, volume, density, temperature and power are scalars; weight, force, acceleration and momentum are vectors."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Ask one question: does the quantity need a direction to be complete? If no, it is a scalar; if yes, it is a vector.",
+          "analogy": "A shopping receipt gives amounts only — that is scalar-style data. Directions to a hidden treasure need steps with headings — vector-style data.",
+          "examPointer": "Sort-the-list questions are common; memorise the two columns rather than re-deriving them in the exam."
+        },
+        "medium": {
+          "restatement": "Distance and displacement disagree whenever the path bends: the path length accumulates every turn, while the displacement records only the net straight-line outcome with its heading.",
+          "analogy": "The odometer adds up every bend of a mountain road (distance); the map's ruler ignores the bends and draws one arrow start-to-finish (displacement).",
+          "examPointer": "A full lap of a track gives a large distance but zero displacement — a favourite one-mark discriminator."
+        }
+      },
+      "check": [
+        {
+          "stem": "Which statement separates vector quantities from scalar quantities?",
+          "misconceptionClass": "family-definition slip",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "Scalars are measured with instruments; vectors are estimated",
+              "correct": false,
+              "explanation": "Both families are measured the same way; the difference is direction, not equipment.",
+              "misconception": "tool-based confusion"
+            },
+            {
+              "key": "B",
+              "text": "Scalars can be negative; vectors cannot",
+              "correct": false,
+              "explanation": "Sign conventions exist in both families and prove nothing about direction.",
+              "misconception": "sign-based confusion"
+            },
+            {
+              "key": "C",
+              "text": "Vectors carry a magnitude and a direction; scalars carry a magnitude only",
+              "correct": true,
+              "explanation": "This is the definition of record for the two families.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "Scalars apply to solids; vectors apply to moving things",
+              "correct": false,
+              "explanation": "Neither family is restricted by the state of matter or by motion.",
+              "misconception": "domain invention"
+            }
+          ]
+        },
+        {
+          "stem": "A runner completes one full 400 m lap and stops where she started. Which row gives her distance and displacement?",
+          "misconceptionClass": "lap discriminator",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "400 m and 400 m",
+              "correct": false,
+              "explanation": "The displacement is not the lap length; start and finish coincide.",
+              "misconception": "distance overwrite"
+            },
+            {
+              "key": "B",
+              "text": "Zero and 400 m",
+              "correct": false,
+              "explanation": "That swaps the two quantities.",
+              "misconception": "pair swap"
+            },
+            {
+              "key": "C",
+              "text": "400 m and zero",
+              "correct": true,
+              "explanation": "The path length is 400 m; the straight-line start-to-finish separation is zero.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "Zero and zero",
+              "correct": false,
+              "explanation": "The travelled path length is not zero.",
+              "misconception": "overcorrection"
+            }
+          ]
+        },
+        {
+          "stem": "Which of these is a vector quantity?",
+          "misconceptionClass": "sort-item slip",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "Energy",
+              "correct": false,
+              "explanation": "Energy reports a size only.",
+              "misconception": "scalar mis-sort"
+            },
+            {
+              "key": "B",
+              "text": "Displacement",
+              "correct": true,
+              "explanation": "Displacement includes the direction, which makes it a vector.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "Temperature",
+              "correct": false,
+              "explanation": "Temperature has no direction attached.",
+              "misconception": "scalar mis-sort"
+            },
+            {
+              "key": "D",
+              "text": "Density",
+              "correct": false,
+              "explanation": "Density reports mass per volume — no direction.",
+              "misconception": "scalar mis-sort"
+            }
+          ]
+        },
+        {
+          "stem": "From the standard pairing table, which scalar stands opposite velocity?",
+          "misconceptionClass": "pairing recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "Speed",
+              "correct": true,
+              "explanation": "Speed is the magnitude-only partner of velocity.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Distance",
+              "correct": false,
+              "explanation": "Distance pairs with displacement.",
+              "misconception": "pair mismatch"
+            },
+            {
+              "key": "C",
+              "text": "Mass",
+              "correct": false,
+              "explanation": "Mass has no vector partner in the table.",
+              "misconception": "pair mismatch"
+            },
+            {
+              "key": "D",
+              "text": "Power",
+              "correct": false,
+              "explanation": "Power is a scalar with no pairing here.",
+              "misconception": "pair mismatch"
+            }
+          ]
+        },
+        {
+          "stem": "A learner's mass reads 70 kg on Earth and 70 kg in orbit, while the force pressing her into the seat changes. The explanation is:",
+          "misconceptionClass": "mass-weight family test",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "Mass is a scalar and stays put; the seat force involves direction and can vary",
+              "correct": true,
+              "explanation": "Mass carries magnitude only, so location leaves it alone; the varying quantity is a vector force.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Both quantities are scalars, so both must change together",
+              "correct": false,
+              "explanation": "The 70 kg reading does not change; the premise fails.",
+              "misconception": "premise violation"
+            },
+            {
+              "key": "C",
+              "text": "Mass secretly depends on the planet while weight does not",
+              "correct": false,
+              "explanation": "That inverts the actual behaviour.",
+              "misconception": "inversion error"
+            },
+            {
+              "key": "D",
+              "text": "Instruments stop working in orbit",
+              "correct": false,
+              "explanation": "The instruments are fine; the physics explains the readings.",
+              "misconception": "instrument myth"
+            }
+          ]
+        },
+        {
+          "stem": "State the difference between distance and displacement.",
+          "misconceptionClass": "pair recall",
+          "kind": "recall",
+          "modelAnswer": "Distance is the total path length travelled with no direction attached; displacement is the straight-line separation of the finishing point from the starting point, including that direction.",
+          "keywords": [
+            "distance",
+            "displacement",
+            "direction",
+            "straight line"
+          ]
+        },
+        {
+          "stem": "Give the scalar partner of velocity and of displacement.",
+          "misconceptionClass": "partner recall",
+          "kind": "recall",
+          "modelAnswer": "Velocity pairs with speed, and displacement pairs with distance.",
+          "keywords": [
+            "velocity",
+            "speed",
+            "displacement",
+            "distance"
+          ]
+        },
+        {
+          "stem": "Explain why a student's distance travelled to school can differ from its displacement.",
+          "misconceptionClass": "path-vs-line reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "The route along roads twists and turns, so the path length accumulates every bend. The displacement ignores the route entirely: it is one straight line from home to school with its heading, so it is usually shorter than the distance.",
+          "keywords": [
+            "route",
+            "bend",
+            "straight line",
+            "shorter"
+          ]
+        },
+        {
+          "stem": "A hiker walks 3 km east, then 4 km north. State the distance walked and describe the displacement.",
+          "misconceptionClass": "path arithmetic",
+          "kind": "application",
+          "modelAnswer": "The distance is the whole path length: 3 km + 4 km = 7 km. The displacement is the straight line from start to finish, 5 km long, pointing diagonally between the two legs.",
+          "keywords": [
+            "7 km",
+            "5 km",
+            "straight line",
+            "path"
+          ]
+        }
+      ],
+      "figureIds": [
+        "fig-01"
+      ]
+    },
+    {
+      "title": "Velocity and force as vectors",
+      "sourceHeadings": [
+        "Speed and velocity",
+        "Forces as vectors"
+      ],
+      "specRefs": [
+        "1.13",
+        "1.14"
+      ],
+      "opening": "The pairing idea now meets motion and force. Speed copies distance's magnitude-only habit; velocity inherits displacement's direction. Force behaves the same way, which is why force arrows are drawn with proportional lengths and stated headings. This lesson turns both statements into working rules.",
+      "keyPoints": [
+        "Speed measures the distance covered per unit time regardless of direction, so it is a scalar.",
+        "Velocity measures the displacement per unit time with the direction included, so it is a vector.",
+        "An object can keep a constant speed while its velocity changes, because the heading is turning.",
+        "Force is a vector: it has a magnitude and acts along a stated direction.",
+        "Force arrows are drawn with length proportional to magnitude, in the force's direction, and labelled with the force's name.",
+        "Directions that are neither horizontal nor vertical are described by an angle from the horizontal or the vertical."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Velocity is speed with a heading; force is a push or pull with a heading. Arrows show both facts at once.",
+          "analogy": "A delivery app pin shows distance only; the rider's arrow on the map shows where the van is heading — the vector view.",
+          "examPointer": "Any describe-the-force answer should carry a size in newtons and a direction — one without the other is incomplete."
+        },
+        "medium": {
+          "restatement": "Because velocity is displacement per time, a turning path changes the velocity even at fixed pace; because force is a vector, two equal-magnitude forces can cancel or combine depending on their directions.",
+          "analogy": "Two identical dogs pulling a post in opposite ways hold it still; the same two pulling the same way drag it off — magnitudes alone never tell the story.",
+          "examPointer": "For diagram marks: state the scale, keep lengths proportional (a 4 N arrow twice a 2 N arrow) and label every arrow."
+        }
+      },
+      "check": [
+        {
+          "stem": "Which statement defines velocity by comparison with speed?",
+          "misconceptionClass": "definition pairing",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "Velocity is speed with the direction of travel included",
+              "correct": true,
+              "explanation": "Velocity is displacement per time — speed plus heading.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Velocity is speed measured over a longer time",
+              "correct": false,
+              "explanation": "The time window changes nothing about the family.",
+              "misconception": "window myth"
+            },
+            {
+              "key": "C",
+              "text": "Velocity is speed divided by distance",
+              "correct": false,
+              "explanation": "That combination is not a defined quantity here.",
+              "misconception": "invented formula"
+            },
+            {
+              "key": "D",
+              "text": "Velocity and speed are interchangeable names",
+              "correct": false,
+              "explanation": "They belong to different families — the whole point of the pairing.",
+              "misconception": "equivalence myth"
+            }
+          ]
+        },
+        {
+          "stem": "A force of 100 N acts at 40° above the horizontal. What role does the 40° play?",
+          "misconceptionClass": "angle role recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "It fixes the arrow's length on the diagram",
+              "correct": false,
+              "explanation": "The magnitude fixes the length; the angle fixes the heading.",
+              "misconception": "role swap"
+            },
+            {
+              "key": "B",
+              "text": "It specifies the direction of the force relative to the horizontal",
+              "correct": true,
+              "explanation": "Angles anchor a vector's direction to a reference line.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "It converts the force into a scalar",
+              "correct": false,
+              "explanation": "Stating a direction keeps the quantity a vector.",
+              "misconception": "family flip"
+            },
+            {
+              "key": "D",
+              "text": "It is decorative — the force is fully described by 100 N",
+              "correct": false,
+              "explanation": "Without the angle the description is incomplete; the direction is essential.",
+              "misconception": "magnitude-only myth"
+            }
+          ]
+        },
+        {
+          "stem": "Two 50 N forces act on a peg along the same line. What outcomes are possible?",
+          "misconceptionClass": "same-line combination",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "Only a 50 N resultant, whatever the arrangement",
+              "correct": false,
+              "explanation": "The arrangement along the line decides the resultant.",
+              "misconception": "fixed-resultant myth"
+            },
+            {
+              "key": "B",
+              "text": "Zero if they oppose, 100 N if they align",
+              "correct": true,
+              "explanation": "Opposite directions cancel; same direction adds — the along-a-line law.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "Always 100 N because both are 50 N",
+              "correct": false,
+              "explanation": "Adding ignores the direction arrangement.",
+              "misconception": "add-only error"
+            },
+            {
+              "key": "D",
+              "text": "Always zero because they are equal",
+              "correct": false,
+              "explanation": "Equal forces cancel only when opposed.",
+              "misconception": "equality myth"
+            }
+          ]
+        },
+        {
+          "stem": "A diagram's scale says 1 cm stands for 20 N. A second arrow is drawn half as long as the 3 cm arrow that shows 60 N. What force does the shorter arrow show?",
+          "misconceptionClass": "scale reading",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "120 N",
+              "correct": false,
+              "explanation": "Half the length is half the magnitude, not double.",
+              "misconception": "scale inversion"
+            },
+            {
+              "key": "B",
+              "text": "60 N — length carries no meaning",
+              "correct": false,
+              "explanation": "Length is precisely what encodes the magnitude.",
+              "misconception": "encoding denial"
+            },
+            {
+              "key": "C",
+              "text": "15 N",
+              "correct": false,
+              "explanation": "A quarter of the length would give 15 N, not a half.",
+              "misconception": "fraction slip"
+            },
+            {
+              "key": "D",
+              "text": "30 N",
+              "correct": true,
+              "explanation": "Equal scale means length proportional to magnitude: half the arrow, 30 N.",
+              "misconception": null
+            }
+          ]
+        },
+        {
+          "stem": "Weight, W, is the gravitational force on an object. Its vector nature means a full answer names:",
+          "misconceptionClass": "weight description",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "Its size in newtons and its downward direction",
+              "correct": true,
+              "explanation": "Magnitude plus direction — the pull towards the planet's centre.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Its size in kilograms",
+              "correct": false,
+              "explanation": "Kilograms measure mass, not force.",
+              "misconception": "unit slip"
+            },
+            {
+              "key": "C",
+              "text": "Its direction only",
+              "correct": false,
+              "explanation": "The size is equally required.",
+              "misconception": "direction-only"
+            },
+            {
+              "key": "D",
+              "text": "Nothing more once the object is named",
+              "correct": false,
+              "explanation": "Naming the object does not describe the force.",
+              "misconception": "short-cut myth"
+            }
+          ]
+        },
+        {
+          "stem": "Define velocity in terms of displacement.",
+          "misconceptionClass": "definition recall",
+          "kind": "recall",
+          "modelAnswer": "Velocity gives the displacement covered in each unit of time, with the direction of travel included.",
+          "keywords": [
+            "velocity",
+            "displacement",
+            "time",
+            "direction"
+          ]
+        },
+        {
+          "stem": "State the two features of a force that a drawn arrow must show.",
+          "misconceptionClass": "arrow recall",
+          "kind": "recall",
+          "modelAnswer": "Its length, proportional to the magnitude, and its direction, matching the force's line of action — with the arrow labelled.",
+          "keywords": [
+            "length",
+            "magnitude",
+            "direction",
+            "label"
+          ]
+        },
+        {
+          "stem": "Explain why a number alone can never fully describe a force.",
+          "misconceptionClass": "vector completeness",
+          "kind": "explain-why",
+          "modelAnswer": "A number reports only the size. A force also acts along a line in a particular direction, and two same-sized forces can act in opposite ways and produce entirely different outcomes, so the heading must be stated alongside the newtons.",
+          "keywords": [
+            "size",
+            "direction",
+            "outcome",
+            "newtons"
+          ]
+        },
+        {
+          "stem": "A diagram's scale says 1 cm stands for 20 N. State the force shown by a 3 cm arrow at 30° below the horizontal.",
+          "misconceptionClass": "scale application",
+          "kind": "application",
+          "modelAnswer": "The arrow's length gives 3 × 20 = 60 N, and its heading is 30° below the horizontal, so the force is 60 N directed 30° below the horizontal.",
+          "keywords": [
+            "60",
+            "30",
+            "below the horizontal",
+            "scale"
+          ]
+        }
+      ],
+      "figureIds": [
+        "fig-02",
+        "fig-03"
+      ]
+    }
+  ],
+  "noteAssets": {
+    "glossary": [
+      {
+        "term": "scalar",
+        "definition": "A quantity that carries a magnitude only, with no direction attached.",
+        "firstLesson": 1
+      },
+      {
+        "term": "vector",
+        "definition": "A quantity that carries both a magnitude and a direction.",
+        "firstLesson": 1
+      },
+      {
+        "term": "displacement",
+        "definition": "The straight-line separation of the finishing point from the starting point, including the direction.",
+        "firstLesson": 1
+      },
+      {
+        "term": "velocity",
+        "definition": "The displacement travelled per unit time, with the direction of travel included.",
+        "firstLesson": 2
+      }
+    ],
+    "workedExample": {
+      "prompt": "Suggest how a training officer should explain the difference between mass and weight to junior astronauts, using the definitions of scalars and vectors.",
+      "steps": [
+        "Recall the definitions: a scalar has magnitude only, a vector has magnitude and direction.",
+        "Mass has magnitude only, so it is a scalar — its value does not depend on location.",
+        "Weight is a force, so it has magnitude and direction, making it a vector — its value varies with location in space."
+      ],
+      "finalAnswer": "Mass is a scalar (magnitude only, location-independent); weight is a vector force (magnitude and direction, location-dependent)."
+    }
+  },
+  "figures": [
+    {
+      "id": "fig-01",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/7a527e21eb2f-1-1-3-displacement-v-distance-1.png",
+      "alt": "Displacement v distance",
+      "sourceHeading": "What is the difference between distance and displacement?",
+      "moduleIds": [
+        "L1"
+      ],
+      "caption": "Displacement is a vector quantity while distance is a scalar quantity",
+      "binding": "heading-unique"
+    },
+    {
+      "id": "fig-02",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/a98ff19107aa-two-forces-on-an-object-1.png",
+      "alt": "two-forces-on-an-object-1",
+      "sourceHeading": "Two forces acting on an object",
+      "moduleIds": [
+        "L2"
+      ],
+      "caption": "The length of the arrows are proportional to the magnitude of the forces, and show the direction that forces act in",
+      "binding": "heading-unique"
+    },
+    {
+      "id": "fig-03",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/8f00c0157949-5-1-3-force-at-angle.png",
+      "alt": "Force at Angle, downloadable IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "A force acting at an angle",
+      "moduleIds": [
+        "L2"
+      ],
+      "caption": "A force of magnitude 100 N directed 40° from the horizontal",
+      "binding": "heading-unique"
+    }
+  ]
+}
