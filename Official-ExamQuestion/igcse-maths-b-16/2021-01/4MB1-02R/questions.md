@@ -163,13 +163,13 @@ The equation of a curve is y = −2x3 + 6x + x2
 
 ### 3(a) [2]
 
-The equation of a curve is y = −2x3 + 6x + x²
+The equation of a curve is $y = -2x^3 + 6x + \frac{5}{x^2}$
 
-Complete the table of values for y = −2x3 + 6x + x² Give your values of y to 2 decimal places where necessary. x −2 −1.8 −1.7 −1.6 −1.4 −1.2 −1 −0.9 −0.8 y 5.25 2.41 0.55 −0.36 1 4.04
+Complete the table of values for $y = -2x^3 + 6x + \frac{5}{x^2}$ Give your values of $y$ to 2 decimal places where necessary.
 
-![table — official paper figure (qp.pdf p.8)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2021-01/4MB1-02R/assets/asset_3_a_table.png)
-
-![table — official paper figure (qp.pdf p.8)](assets/asset_3_a_table.png)
+| $x$ | $-2$ | $-1.8$ | $-1.7$ | $-1.6$ | $-1.4$ | $-1.2$ | $-1$ | $-0.9$ | $-0.8$ |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| $y$ | $5.25$ | $2.41$ |  | $0.55$ | $-0.36$ |  | $1$ |  | $4.04$ |
 
 
 **Mark scheme answer**
@@ -183,9 +183,13 @@ Complete the table of values for y = −2x3 + 6x + x² Give your values of y to 
 
 On the grid opposite, plot the points from your completed table and join them to form a smooth curve.
 
-![grid — official paper figure (qp.pdf p.9)](assets/asset_3_b_grid.png)
+![grid — official paper figure (qp.pdf p.9)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2021-01/4MB1-02R/assets/asset_3_b_grid.png)
 
-![table — official paper figure (qp.pdf p.8) — shared with 3(a)](assets/asset_3_a_table.png)
+| $x$ | $-2$ | $-1.8$ | $-1.7$ | $-1.6$ | $-1.4$ | $-1.2$ | $-1$ | $-0.9$ | $-0.8$ |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| $y$ | $5.25$ | $2.41$ |  | $0.55$ | $-0.36$ |  | $1$ |  | $4.04$ |
+
+![grid — official paper figure (qp.pdf p.9)](assets/asset_3_b_grid.png)
 
 
 **Mark scheme answer**

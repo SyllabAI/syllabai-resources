@@ -143,9 +143,13 @@ A biased dice has six faces numbered 1, 2, 3, 4, 5 and 6 The table below shows i
 
 ### 7 [2]
 
-A biased dice has six faces numbered 1, 2, 3, 4, 5 and 6 The table below shows information about the probability that, when the dice is thrown once, it will land on each of the numbers. Number 1 2 3 4 5 6 Probability 0.1 0.3 0.18 0.03 0.32 0.07 The dice is thrown 300 times. Calculate the expected number of times the dice will land on a number greater than 3
+A biased dice has six faces numbered 1, 2, 3, 4, 5 and 6 The table below shows information about the probability that, when the dice is thrown once, it will land on each of the numbers. 
 
-![table — official paper figure (qp.pdf p.5) — shared with asset_7_q_table_stem](assets/asset_7_q_table_stem.png)
+| Number | 1 | 2 | 3 | 4 | 5 | 6 |
+| --- | --- | --- | --- | --- | --- | --- |
+| Probability | 0.1 | 0.3 | 0.18 | 0.03 | 0.32 | 0.07 |
+
+ The dice is thrown 300 times. Calculate the expected number of times the dice will land on a number greater than 3
 
 
 **Mark scheme answer**

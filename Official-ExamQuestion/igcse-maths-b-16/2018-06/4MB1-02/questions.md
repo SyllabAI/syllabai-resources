@@ -609,13 +609,13 @@ The equation of a curve is given by y = x2 − 5x + x
 
 ### 10(a) [3]
 
-The equation of a curve is given by y = x² − 5x + x
+The equation of a curve is given by $y = x^2 - 5x + \frac{8}{x}$
 
-Complete the table of values for y, giving your values of y to 2 decimal places where necessary. x 0.8 1 2 3 4 5 6 y 4 –2 –2 7.33
+Complete the table of values for $y$, giving your values of $y$ to 2 decimal places where necessary.
 
-![table — official paper figure (qp.pdf p.30)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2018-06/4MB1-02/assets/asset_10_a_table.png)
-
-![table — official paper figure (qp.pdf p.30)](assets/asset_10_a_table.png)
+| $x$ | $0.8$ | $1$ | $2$ | $3$ | $4$ | $5$ | $6$ |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| $y$ |  | $4$ | $-2$ |  | $-2$ |  | $7.33$ |
 
 
 **Mark scheme answer**
@@ -628,9 +628,13 @@ Complete the table of values for y, giving your values of y to 2 decimal places 
 
 On the grid, plot the points from your completed table and join them to form a smooth curve.
 
-![grid — official paper figure (qp.pdf p.31)](assets/asset_10_b_grid.png)
+![grid — official paper figure (qp.pdf p.31) (same figure as 10(b))](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2018-06/4MB1-02/assets/asset_10_b_grid.png)
 
-![table — official paper figure (qp.pdf p.30) — shared with 10(a)](assets/asset_10_a_table.png)
+| $x$ | $0.8$ | $1$ | $2$ | $3$ | $4$ | $5$ | $6$ |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| $y$ |  | $4$ | $-2$ |  | $-2$ |  | $7.33$ |
+
+![grid — official paper figure (qp.pdf p.31)](assets/asset_10_b_grid.png)
 
 
 **Mark scheme answer**

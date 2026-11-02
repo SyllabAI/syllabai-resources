@@ -8,7 +8,13 @@ The table gives the area, in km2, and the population of each of three countries 
 
 ### 1(a) [1]
 
-The table gives the area, in km², and the population of each of three countries in 2017 Country Area (km²) Population Greenland 2.166 × 106 5.617 × 104 Sri Lanka 6.561 × 104 2.144 × 107 China 9.597 × 106 1.368 × 109
+The table gives the area, in km², and the population of each of three countries in 2017 
+
+| Country | Area (km²) | Population |
+| --- | --- | --- |
+| Greenland | $2.166 \times 10^{6}$ | $5.617 \times 10^{4}$ |
+| Sri Lanka | $6.561 \times 10^{4}$ | $2.144 \times 10^{7}$ |
+| China | $9.597 \times 10^{6}$ | $1.368 \times 10^{9}$ |
 
 Write 5.617 × 104 as an ordinary number.
 
@@ -186,13 +192,13 @@ The curve C has equation y = x2 + 2x + x≠0 x
 
 ### 6(a) [2]
 
-The curve C has equation y = x² + 2x + x≠0 x
+The curve $C$ has equation $y = x^2 + 2x + \frac{4}{x} \quad x \ne 0$
 
-Complete the table of values for C x −4 −2 −1 −0.5 0.5 1 2 4 y −8.75 7 10 25
+Complete the table of values for $C$
 
-![table — official paper figure (qp.pdf p.12)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2021-06/4MB1-02/assets/asset_6_a_table.png)
-
-![table — official paper figure (qp.pdf p.12)](assets/asset_6_a_table.png)
+| $x$ | $-4$ | $-2$ | $-1$ | $-0.5$ | $0.5$ | $1$ | $2$ | $4$ |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| $y$ |  |  |  | $-8.75$ |  | $7$ | $10$ | $25$ |
 
 
 **Mark scheme answer**
@@ -205,9 +211,9 @@ Complete the table of values for C x −4 −2 −1 −0.5 0.5 1 2 4 y −8.75 7
 
 On the grid opposite, plot the points from your completed table. The curve has one turning point and this has coordinates (1, 7)
 
-![grid — official paper figure (qp.pdf p.12) — shared with 6(a)](assets/asset_6_a_table.png)
-
-![table — official paper figure (qp.pdf p.12) — shared with 6(a)](assets/asset_6_a_table.png)
+| $x$ | $-4$ | $-2$ | $-1$ | $-0.5$ | $0.5$ | $1$ | $2$ | $4$ |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| $y$ |  |  |  | $-8.75$ |  | $7$ | $10$ | $25$ |
 
 
 **Mark scheme answer**
@@ -328,11 +334,17 @@ Show that this year Lillian receives, in total, 75% of the profit made by the co
 
 ### 7(b) [2]
 
-Calculate the interest she receives in one year. Graham goes to a travel agent to change his share of the profit from dollars (\$) into pounds (£). The table gives information about the exchange rates that are available. Exchange rate 1 euro = \$1.20 1 euro = £x \$1 = £0.76 Graham has to decide whether to change his dollars into euros and then change the euros into pounds or change his dollars straight into pounds. He calculates that if he chooses to do (i) he will receive £20 more than if he chooses to do (ii)
+Calculate the interest she receives in one year.
 
-![table — official paper figure (qp.pdf p.16)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2021-06/4MB1-02/assets/asset_7_b_table.png)
+Graham goes to a travel agent to change his share of the profit from dollars (\$) into pounds (£). The table gives information about the exchange rates that are available.
 
-![table — official paper figure (qp.pdf p.16)](assets/asset_7_b_table.png)
+| Exchange rate |
+| --- |
+| 1 euro = \$1.20 |
+| 1 euro = £x |
+| \$1 = £0.76 |
+
+Graham has to decide whether to change his dollars into euros and then change the euros into pounds or change his dollars straight into pounds. He calculates that if he chooses to do (i) he will receive £20 more than if he chooses to do (ii)
 
 
 **Mark scheme answer**

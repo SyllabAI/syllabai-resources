@@ -513,6 +513,25 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
 
 ## Known open work (pick up from here)
 
+- Task 35 (2026-11-02, F130) DISCHARGED the corpus rider population of the table->GFM era (the
+  F126 law's next converter run = the discharge itself — tranche-3 worklists complete, no continuation
+  units; operator go on the T-OEQ-MATHSB-SERVE-1 lane): corpus := plane-of-record 817674ccd6d33f37 over
+  the 5-commit plane history (6405c9d3/08158508/00070c9b/5f209324/f3fcd974) = 236 field writes / 136 pids
+  / 64 sets, attribution byte-exact vs the of-record accruals (run-035 18p/35w; run-036 77p/143w — union
+  95p/178w as filed; run-037 29p/33w; run-038 33p/66w; RN-DEBRIS-7 2p/2w); 134 problem_md := served GFM
+  text (28 ledger re-points + 106 G-E7 joins) + 102 assets[] rebuilt to emission-exactness (incl. run-038's
+  33 attachments whose PR #278 PNGs existed unwired — the topic.json wiring completed here); per-part
+  ADR-039 edits[] + edit_status corrected + value_trace stamps; questions.md x64 regenerated after
+  regen-from-old byte-proof 64/64; ledger/pins 2,684 -> 2,790 (B2 equality; counts 959/1078/753; CANARIES
+  overlap 0); PNG census of record includes TEXT references (F114-frozen inline URLs — 4 accrual rows
+  survive as live references, NOT deleted) — 54 deleted (52 drop-deltas + 2 pre-existing debris,
+  disclosed). PROOF: battery B1-B7 ALL PASS 2,790/2,790; exporter run of record x3 at the discharged cut
+  main@b494a890 (census 0 delta pids; G-E5 66/66; G-E3 66/20/1281/2443/6600; G-E2; G-E1 BYTE-LEVEL NO-OP;
+  G-E1b 66/66; G-E7 2,790/2,790 IN-RUN; G-E6; G-E4 passthrough byte-identical); determinism x2
+  byte-identical; staged official-papers.json sha256 817674ccd6d33f37 == the served plane BYTE-EXACT
+  (3,701,183 B). The rider debt class is EMPTY of record; it rides the next converter run by
+  construction. validation-report.json NOT regenerated (F114/C57 lesson).
+
 - Task 34 (2026-10-31, F127) CLOSED the flat-notation presentation class end-to-end (operator
   order "scope it as the next pass" -> "Proceed"): the QP print's true sub/superscripts that the
   PDF text layer linearized flat (C2H4, cm3, Mg2+(aq), SO42-, (NO3)2, xH2O ...) are repaired to

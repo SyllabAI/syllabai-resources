@@ -126,9 +126,17 @@ Arup collects information about the time delay, in minutes, of some trains. He i
 
 ### 3(a) [2]
 
-Complete the table.
+Arup collects information about the time delay, in minutes, of some trains. He is going to draw a pie chart for his results. The incomplete table below gives some information about his results together with the size, in degrees, of the angle of each of three sectors in his pie chart.
 
-![table — official paper figure (qp.pdf p.5) — shared with asset_3_a_table_stem](assets/asset_3_a_table_stem.png)
+| Time delay ($t$ minutes) | Frequency | Angle (in degrees) |
+| --- | --- | --- |
+| $1 < t \le 5$ | 42 | 168 |
+| $5 < t \le 10$ |  | 92 |
+| $10 < t \le 20$ | 15 |  |
+| $20 < t \le 25$ |  |  |
+| $25 < t \le 40$ | 2 | 8 |
+
+Complete the table.
 
 
 **Mark scheme answer**

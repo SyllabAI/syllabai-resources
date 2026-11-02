@@ -439,7 +439,7 @@
      "part_number": "7(a)",
      "marks": 4,
      "question_type": "structured",
-     "problem_md": "Calculate the number of times he would expect to score 1 Vincent plays the game another two times and records his two scores. He adds these two scores together to get his Total.",
+     "problem_md": "Vincent plays a game in which he can score 0, 1, 2, 3 or 4 each time he plays the game. The score he gets in a game is independent of the score he got in the previous games. The table gives information about the probability of getting each score in a game. \n\n| Score | 0 | 1 | 2 | 3 | 4 |\n| --- | --- | --- | --- | --- | --- |\n| Probability | $x$ | $3x$ | $x$ | 0.2 | 0.1 |\n\n Vincent plays the game 150 times.\n\nCalculate the number of times he would expect to score 1 Vincent plays the game another two times and records his two scores. He adds these two scores together to get his Total.",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "1 − 0.2 − 0.1 = 0.7 M1\n\"0.7\"\n[ = \"0.14\"] M1\n3 × \"0.14\" × 150 M1\n63 4 A1",
@@ -454,12 +454,21 @@
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 5f209324 (run-037) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "7(b)",
@@ -1049,7 +1058,7 @@
      "part_number": "11(d)",
      "marks": 5,
      "question_type": "structured",
-     "problem_md": "Find the coordinates, to 2 decimal places, of the turning points of C. The table below gives the coordinates of three points on C. x –2 0.5 1.5 y –12 –12 –12",
+     "problem_md": "Find the coordinates, to 2 decimal places, of the turning points of $C$. The table below gives the coordinates of three points on $C$.\n\n| $x$ | $-2$ | $0.5$ | $1.5$ |\n| --- | --- | --- | --- |\n| $y$ | $-12$ | $-12$ | $-12$ |",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "dy\n= 12 x 2 − 13 M1\ndx",
@@ -1061,27 +1070,30 @@
       }
      ],
      "source_page": 24,
-     "assets": [
-      {
-       "id": "asset_11_d_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 24,
-       "review": true,
-       "path": "assets/asset_11_d_table.png",
-       "render": "vector",
-       "text_coverage": 0.317
-      }
-     ],
+     "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 6405c9d3 (run-035) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 6405c9d3 (run-035) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "11(e)",

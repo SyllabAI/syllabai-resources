@@ -31,7 +31,7 @@
      "part_number": "1(a)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "The table gives the area, in km², and the population of each of three countries in 2017 Country Area (km²) Population Greenland 2.166 × 106 5.617 × 104 Sri Lanka 6.561 × 104 2.144 × 107 China 9.597 × 106 1.368 × 109\n\nWrite 5.617 × 104 as an ordinary number.",
+     "problem_md": "The table gives the area, in km², and the population of each of three countries in 2017 \n\n| Country | Area (km²) | Population |\n| --- | --- | --- |\n| Greenland | $2.166 \\times 10^{6}$ | $5.617 \\times 10^{4}$ |\n| Sri Lanka | $6.561 \\times 10^{4}$ | $2.144 \\times 10^{7}$ |\n| China | $9.597 \\times 10^{6}$ | $1.368 \\times 10^{9}$ |\n\nWrite 5.617 × 104 as an ordinary number.",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "56170 1 B1",
@@ -46,12 +46,21 @@
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 5f209324 (run-037) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "1(b)",
@@ -331,7 +340,7 @@
      "part_number": "6(a)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "The curve C has equation y = x² + 2x + x≠0 x\n\nComplete the table of values for C x −4 −2 −1 −0.5 0.5 1 2 4 y −8.75 7 10 25\n\n![table — official paper figure (qp.pdf p.12)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2021-06/4MB1-02/assets/asset_6_a_table.png)",
+     "problem_md": "The curve $C$ has equation $y = x^2 + 2x + \\frac{4}{x} \\quad x \\ne 0$\n\nComplete the table of values for $C$\n\n| $x$ | $-4$ | $-2$ | $-1$ | $-0.5$ | $0.5$ | $1$ | $2$ | $4$ |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| $y$ |  |  |  | $-8.75$ |  | $7$ | $10$ | $25$ |",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "7, −2, −5, 9.25 2 B2 −1 each error or omission (to a maximum of 2 marks)",
@@ -343,33 +352,36 @@
       }
      ],
      "source_page": 12,
-     "assets": [
-      {
-       "id": "asset_6_a_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 12,
-       "review": false,
-       "path": "assets/asset_6_a_table.png",
-       "render": "vector",
-       "text_coverage": 0.271
-      }
-     ],
+     "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 6405c9d3 (run-035) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 6405c9d3 (run-035) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "6(b)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "On the grid opposite, plot the points from your completed table. The curve has one turning point and this has coordinates (1, 7)",
+     "problem_md": "On the grid opposite, plot the points from your completed table. The curve has one turning point and this has coordinates (1, 7)\n\n| $x$ | $-4$ | $-2$ | $-1$ | $-0.5$ | $0.5$ | $1$ | $2$ | $4$ |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| $y$ |  |  |  | $-8.75$ |  | $7$ | $10$ | $25$ |",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "3 5 2 5\nPB = − a + 3b = AB or oe, e.g., AB = AP or AP = PB or AB = BP or AB = − PB or\n5 5 2 3 3\n4 2 2\nAP = − a + 2b = PB oe AP = − BP or AB = − PA etc.\n5 3 3\nAP and AB are parallel A1 for a comment that one is a multiple of the other (oe e.g. that they are\nwith the point A in parallel) and that there is a common point on each of the two lines (so if AB, AP\ncommon on each line∴ used then must mention that A is the common point, if PB, AB used then must\ncollinear mention that B is the common point, etc. )\n2:3\n1 accuracy in plotting on the given axes in the answer book)",
@@ -381,42 +393,30 @@
       }
      ],
      "source_page": 12,
-     "assets": [
-      {
-       "id": "asset_6_b_grid",
-       "kind": "crop",
-       "mention": "grid",
-       "source": "qp.pdf",
-       "page": 12,
-       "review": false,
-       "path": "assets/asset_6_a_table.png",
-       "render": "vector",
-       "text_coverage": 0.271,
-       "shared": true,
-       "ref_part": "6(a)"
-      },
-      {
-       "id": "asset_6_b_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 12,
-       "review": false,
-       "path": "assets/asset_6_a_table.png",
-       "render": "vector",
-       "text_coverage": 0.271,
-       "shared": true,
-       "ref_part": "6(a)"
-      }
-     ],
+     "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "6(c)",
@@ -589,7 +589,7 @@
      "part_number": "7(b)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Calculate the interest she receives in one year. Graham goes to a travel agent to change his share of the profit from dollars (\\$) into pounds (£). The table gives information about the exchange rates that are available. Exchange rate 1 euro = \\$1.20 1 euro = £x \\$1 = £0.76 Graham has to decide whether to change his dollars into euros and then change the euros into pounds or change his dollars straight into pounds. He calculates that if he chooses to do (i) he will receive £20 more than if he chooses to do (ii)\n\n![table — official paper figure (qp.pdf p.16)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2021-06/4MB1-02/assets/asset_7_b_table.png)",
+     "problem_md": "Calculate the interest she receives in one year.\n\nGraham goes to a travel agent to change his share of the profit from dollars (\\$) into pounds (£). The table gives information about the exchange rates that are available.\n\n| Exchange rate |\n| --- |\n| 1 euro = \\$1.20 |\n| 1 euro = £x |\n| \\$1 = £0.76 |\n\nGraham has to decide whether to change his dollars into euros and then change the euros into pounds or change his dollars straight into pounds. He calculates that if he chooses to do (i) he will receive £20 more than if he chooses to do (ii)",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "For M1 allow 1.048 × 2000\n\\$72 2 A1 (\\$ sign not required)\n0.25 × 2000 [ = 500] M1 for calculating Graham’s share in dollars (implied by use of 500 in an",
@@ -601,27 +601,30 @@
       }
      ],
      "source_page": 16,
-     "assets": [
-      {
-       "id": "asset_7_b_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 16,
-       "review": false,
-       "path": "assets/asset_7_b_table.png",
-       "render": "vector",
-       "text_coverage": 0.176
-      }
-     ],
+     "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 6405c9d3 (run-035) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 6405c9d3 (run-035) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "7(c)",

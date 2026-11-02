@@ -925,30 +925,19 @@
      "part_number": "11(d)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Complete the table of values for y = x 2 – 2x – 1 x –2 –1 0 1 2 3 4 y –1 2 7",
+     "problem_md": "Complete the table of values for $y = x^2 - 2x - 1$\n\n| $x$ | $-2$ | $-1$ | $0$ | $1$ | $2$ | $3$ | $4$ |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| $y$ |  |  | $-1$ |  |  | $2$ | $7$ |",
      "choices": [],
      "answer_status": "unmatched",
      "source_page": 26,
-     "assets": [
-      {
-       "id": "asset_11_d_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 26,
-       "review": false,
-       "path": "assets/asset_11_d_table.png",
-       "render": "vector",
-       "text_coverage": 0.372
-      }
-     ],
+     "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
      },
      "solution_md": "Missing values: x = −2 → 7, x = 1 → −2, x = 2 → −1, x = 3 → 2",
      "mark_points": [
@@ -958,99 +947,113 @@
        "label": "B2",
        "text_md": "all 4 values correct (B1 for 2 or 3 values correct)"
       }
+     ],
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 6405c9d3 (run-035) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 6405c9d3 (run-035) [problem_md]"
+      }
      ]
     },
     {
      "part_number": "11(e)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "On the same grid on the opposite page, plot the points from your completed table and join them to form a smooth curve.",
+     "problem_md": "On the same grid on the opposite page, plot the points from your completed table and join them to form a smooth curve.\n\n| $x$ | $-2$ | $-1$ | $0$ | $1$ | $2$ | $3$ | $4$ |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| $y$ |  |  | $-1$ |  |  | $2$ | $7$ |\n\n![plotting grid — official paper figure (qp.pdf p.27)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-01/4MB1-02/assets/asset_11_grid.png)\n",
      "choices": [],
      "answer_status": "unmatched",
      "source_page": 26,
      "assets": [
       {
-       "id": "asset_11_e_grid",
+       "id": "asset_11_grid",
+       "source": "qp.pdf",
+       "render": "vector",
        "kind": "crop",
        "mention": "grid",
-       "source": "qp.pdf",
-       "page": 26,
-       "review": false,
-       "path": "assets/asset_11_d_table.png",
-       "render": "vector",
-       "text_coverage": 0.372,
+       "page": 27,
+       "review": true,
        "shared": true,
-       "ref_part": "11(d)"
-      },
-      {
-       "id": "asset_11_e_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 26,
-       "review": false,
-       "path": "assets/asset_11_d_table.png",
-       "render": "vector",
-       "text_coverage": 0.372,
-       "shared": true,
-       "ref_part": "11(d)"
+       "path": "assets/asset_11_grid.png"
       }
      ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
      },
-     "solution_md": "*The official mark scheme line for this part was not captured by the digitised extraction — treat the worked values above the line with care and check against the paper's own mark scheme.*"
+     "solution_md": "*The official mark scheme line for this part was not captured by the digitised extraction — treat the worked values above the line with care and check against the paper's own mark scheme.*",
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508+f3fcd974 (run-036+run-038) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508+f3fcd974 (run-036+run-038) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "11(f)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "Using part (a) and part (e), find an estimate, to one decimal place, for the range of values of x for which 11 5 x² − x− <0 4 2 Show your working clearly.\n\n![graph — official paper figure (qp.pdf p.26) (same figure as 11(d))](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-01/4MB1-02/assets/asset_11_d_table.png)",
+     "problem_md": "Using part (a) and part (e), find an estimate, to one decimal place, for the range of values of x for which 11 5 x² − x− <0 4 2 Show your working clearly.\n\n![plotting grid — official paper figure (qp.pdf p.27)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-01/4MB1-02/assets/asset_11_grid.png)\n",
      "choices": [],
      "answer_status": "unmatched",
      "source_page": 26,
      "assets": [
       {
-       "id": "asset_11_f_graph",
-       "kind": "crop",
-       "mention": "graph",
+       "id": "asset_11_grid_2",
        "source": "qp.pdf",
-       "page": 26,
-       "review": false,
-       "path": "assets/asset_11_d_table.png",
        "render": "vector",
-       "text_coverage": 0.372,
-       "shared": true,
-       "ref_part": "11(d)"
-      },
-      {
-       "id": "asset_11_f_grid",
        "kind": "crop",
        "mention": "grid",
-       "source": "qp.pdf",
-       "page": 26,
-       "review": false,
-       "path": "assets/asset_11_d_table.png",
-       "render": "vector",
-       "text_coverage": 0.372,
+       "page": 27,
+       "review": true,
        "shared": true,
-       "ref_part": "11(d)"
+       "path": "assets/asset_11_grid.png"
       }
      ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
      },
-     "solution_md": "*The official mark scheme line for this part was not captured by the digitised extraction — treat the worked values above the line with care and check against the paper's own mark scheme.*"
+     "solution_md": "*The official mark scheme line for this part was not captured by the digitised extraction — treat the worked values above the line with care and check against the paper's own mark scheme.*",
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508+f3fcd974 (run-036+run-038) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508+f3fcd974 (run-036+run-038) [problem_md]"
+      }
+     ]
     }
    ],
    "groups": {

@@ -461,11 +461,17 @@ Show that the coordinates of A are (0.75, –1.5625)
 
 ### 8(b) [3]
 
-Complete the table of values for y x x x –3 –2 –1 0 1 2 3 4 y 12.5 3.5 The point A has been plotted on the grid opposite.
+Complete the table of values for $y = x^2 - \frac{3x}{2} - 1$
+
+| $x$ | $-3$ | $-2$ | $-1$ | $0$ | $1$ | $2$ | $3$ | $4$ |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| $y$ | $12.5$ |  |  |  |  |  | $3.5$ |  |
+
+The point $A$ has been plotted on the grid opposite.
+
+![grid — official paper figure (qp.pdf p.25)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-01/4MB1-02R/assets/asset_8_b_grid.png)
 
 ![grid — official paper figure (qp.pdf p.25)](assets/asset_8_b_grid.png)
-
-![table — official paper figure (qp.pdf p.24)](assets/asset_8_b_table.png)
 
 
 **Mark scheme answer**
@@ -477,9 +483,7 @@ Complete the table of values for y x x x –3 –2 –1 0 1 2 3 4 y 12.5 3.5 The
 
 ### 8(c) [3]
 
-On the grid opposite, draw the curve with equation y x 2 x 1 for values of x from –3 to 4 2
-
-![grid — official paper figure (qp.pdf p.24) — shared with 8(b)](assets/asset_8_b_table.png)
+On the grid opposite, draw the curve with equation $y = x^2 - \frac{3x}{2} - 1$ for values of x from –3 to 4
 
 
 **Mark scheme answer**
@@ -506,11 +510,7 @@ Using your curve, find an estimate, to one decimal place, for the range of value
 
 By drawing a suitable straight line on the grid, find estimates, to one decimal place, 7 1 of the solutions of the equation x 2 x 2 2 Show your working clearly.
 
-![graph — official paper figure (qp.pdf p.24) (same figure as 8(b))](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-01/4MB1-02R/assets/asset_8_b_table.png)
-
 ![grid — official paper figure (qp.pdf p.25) (same figure as asset_8_b_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-01/4MB1-02R/assets/asset_8_b_grid.png)
-
-![graph — official paper figure (qp.pdf p.24) — shared with 8(b)](assets/asset_8_b_table.png)
 
 ![grid — official paper figure (qp.pdf p.25) — shared with asset_8_b_grid](assets/asset_8_b_grid.png)
 

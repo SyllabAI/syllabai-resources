@@ -539,7 +539,7 @@
      "part_number": "7",
      "marks": 6,
      "question_type": "structured",
-     "problem_md": "Given that a is inversely proportional to b and b is inversely proportional to c3 complete the following table. a c 16 240 250 135",
+     "problem_md": "Given that $a$ is inversely proportional to $\\sqrt{b}$ and $b$ is inversely proportional to $c^3$ complete the following table.\n\n| $a$ | $c$ |\n| --- | --- |\n| 16 | 240 |\n| 250 |  |\n|  | 135 |",
      "choices": [],
      "implicit_single_part": true,
      "answer_status": "linked",
@@ -552,29 +552,30 @@
       }
      ],
      "source_page": 14,
-     "assets": [
-      {
-       "id": "asset_7_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 14,
-       "review": false,
-       "path": "assets/asset_7_q_table_stem.png",
-       "render": "vector",
-       "text_coverage": 0.15,
-       "shared": true,
-       "ref_part": "asset_7_q_table_stem"
-      }
-     ],
+     "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 6405c9d3 (run-035) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 6405c9d3 (run-035) [problem_md]"
+      }
+     ]
     }
    ],
    "groups": {}
@@ -1014,7 +1015,7 @@
      "part_number": "11(a)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "Complete the table of values for y = x 3 − 10x 2 + 20 Give your values of y to one decimal place where necessary. x −2 −1.5 −1 −0.5 0 0.5 1 1.5 2 2.5 3 y −28 −5.9 17.4 20 11 0.9 −12 −43",
+     "problem_md": "The equation of a curve is $y = f(x)$ where $f(x) = x^3 - 10x^2 + 20$\n\nComplete the table of values for $y = f(x)$\n\n| $x$ | $-2$ | $-1.5$ | $-1$ | $-0.5$ | $0$ | $0.5$ | $1$ | $1.5$ | $2$ | $2.5$ | $3$ |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| $y$ | $-28$ | $-5.9$ |  | $17.4$ | $20$ |  | $11$ | $0.9$ | $-12$ |  | $-43$ |",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "9, 17.6, –26.9 3 B3 Penalise values incorrectly rounded or truncated only\nonce. (unrounded correct values are 9, 17.625, –26.875)",
@@ -1026,33 +1027,36 @@
       }
      ],
      "source_page": 26,
-     "assets": [
-      {
-       "id": "asset_11_a_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 26,
-       "review": false,
-       "path": "assets/asset_11_a_table.png",
-       "render": "vector",
-       "text_coverage": 0.393
-      }
-     ],
+     "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 6405c9d3 (run-035) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 6405c9d3 (run-035) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "11(b)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "On the grid opposite, plot the points from your completed table and join them to form a smooth curve. dB A curve C has equation y = g (x) where B = g (x) and = f (x) dx The curve C has two turning points in −2 ≤ x ≤ 3",
+     "problem_md": "On the grid opposite, plot the points from your completed table and join them to form a smooth curve. dB A curve C has equation y = g (x) where B = g (x) and = f (x) dx The curve C has two turning points in −2 ≤ x ≤ 3\n\n![grid — official paper figure (qp.pdf p.27)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2021-01/4MB1-02/assets/asset_11_b_grid.png)\n\n| $x$ | $-2$ | $-1.5$ | $-1$ | $-0.5$ | $0$ | $0.5$ | $1$ | $1.5$ | $2$ | $2.5$ | $3$ |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| $y$ | $-28$ | $-5.9$ |  | $17.4$ | $20$ |  | $11$ | $0.9$ | $-12$ |  | $-43$ |",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "Correct curve 3 M1 Attempts to plot the 11 points with at least 6 correct ±1\nsmall square. (Allow if curve goes through the points)\nM1 drawing a smooth curve through at least 9 of their\npoints. Do not allow if they use straight lines. Allow ±1\nsquare from their point.\nA1 A fully correct curve. All Points plotted correctly (Allow\nif they have lost a mark for truncation in (a)) with a smooth\ncurve through all the points.",
@@ -1067,37 +1071,40 @@
      "assets": [
       {
        "id": "asset_11_b_grid",
+       "source": "qp.pdf",
+       "render": "vector",
+       "text_coverage": 0.049,
        "kind": "crop",
        "mention": "grid",
-       "source": "qp.pdf",
        "page": 27,
        "review": true,
-       "path": "assets/asset_11_b_grid.png",
-       "render": "vector",
-       "text_coverage": 0.049
-      },
-      {
-       "id": "asset_11_b_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 26,
-       "review": false,
-       "path": "assets/asset_11_a_table.png",
-       "render": "vector",
-       "text_coverage": 0.393,
-       "shared": true,
-       "ref_part": "11(a)"
+       "shared": false,
+       "path": "assets/asset_11_b_grid.png"
       }
      ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "11(c)",

@@ -576,7 +576,7 @@
      "part_number": "14",
      "marks": 4,
      "question_type": "structured",
-     "problem_md": "Xiou records the time, in minutes, it takes each of the 30 students in his class to complete the same puzzle. The table shows information about his results. Time taken Frequency (t minutes) 0≤t<2 7 2≤t<4 8 4≤t<6 6 6≤t<8 5 8 ≤ t < 10 4 Calculate an estimate for the mean number of minutes that these students take to complete the puzzle minutes",
+     "problem_md": "Xiou records the time, in minutes, it takes each of the 30 students in his class to complete the same puzzle. The table shows information about his results.\n\n| Time taken ($t$ minutes) | Frequency |\n| --- | --- |\n| $0 \\le t < 2$ | 7 |\n| $2 \\le t < 4$ | 8 |\n| $4 \\le t < 6$ | 6 |\n| $6 \\le t < 8$ | 5 |\n| $8 \\le t < 10$ | 4 |\n\nCalculate an estimate for the mean number of minutes that these students take to complete the puzzle",
      "choices": [],
      "implicit_single_part": true,
      "answer_status": "linked",
@@ -589,27 +589,30 @@
       }
      ],
      "source_page": 11,
-     "assets": [
-      {
-       "id": "asset_14_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 11,
-       "review": false,
-       "path": "assets/asset_14_table.png",
-       "render": "vector",
-       "text_coverage": 0.23
-      }
-     ],
+     "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [problem_md]"
+      }
+     ]
     }
    ],
    "groups": {}
@@ -1001,7 +1004,7 @@
      "part_number": "22(a)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Show that y = 16 A tomato for which w ≤ 35 grams is classed as a small tomato. A small tomato is selected at random. The probability that this tomato weighs less than or equal to 15 grams is",
+     "problem_md": "The weights, in grams, of tomatoes harvested by a gardener last month were measured. The incomplete table and incomplete histogram below give information about the weight, in grams, of each tomato harvested last month. \n\n| Weight ($w$ grams) | Number of tomatoes |\n| --- | --- |\n| $0 < w \\le 10$ | $x$ |\n| $10 < w \\le 15$ | 24 |\n| $15 < w \\le 25$ | 40 |\n| $25 < w \\le 35$ | 60 |\n| $35 < w \\le 55$ | $y$ |\n| $55 < w \\le 65$ | 20 |\n\n![histogram — official paper figure (qp.pdf p.20)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2025-06/4MB1-01R/assets/asset_22_histogram.png)\n\nShow that y = 16 A tomato for which w ≤ 35 grams is classed as a small tomato. A small tomato is selected at random. The probability that this tomato weighs less than or equal to 15 grams is",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "fd = 4.8 or 4 or 6 or 2 oe seen by the table or 2 M1 for use of area to work out frequency density.\nin working or on the graph May be implied by a correct fd or a correct frequency per\nsquare(s) or a correct scale on the y-axis.\nor for a correct frequency density on the FD\naxis where the height of one large square is 2 Allow multiple of squares eg 2 large squares = 40\neg height of 10-15 bar is 4.8\nor height of 15-25 bar is 4\nor height of 25-35 bar is 6\nor height of 35-55 bar is 0.8\nor height of 55-65 bar is 2,\n(may be seen besides the table)\nor 1 small square = 0.2 oe\nor 1 medium square = 5 oe\nor 1 large square = 20 oe\n20 × 0.8 = 16 A1 shows that y = 16\neg 80 × 0.2 = 16 or 4 × 0.8 × 5 = 16 or 2 × 0.4 × 20 = 16\nAllow verification eg 16 ÷ 20 = 0.8 and fd = 0.8 for the 35-\n55 group\nOR\ny\n0.8 = and y = 16 and fd = 0.8 for the 35-55 group",
@@ -1012,21 +1015,48 @@
        "text_md": "fd = 4.8 or 4 or 6 or 2 oe seen by the table or 2 M1 for use of area to work out frequency density.\nin working or on the graph May be implied by a correct fd or a correct frequency per\nsquare(s) or a correct scale on the y-axis.\nor for a correct frequency density on the FD\naxis where the height of one large square is 2 Allow multiple of squares eg 2 large squares = 40\neg height of 10-15 bar is 4.8\nor height of 15-25 bar is 4\nor height of 25-35 bar is 6\nor height of 35-55 bar is 0.8\nor height of 55-65 bar is 2,\n(may be seen besides the table)\nor 1 small square = 0.2 oe\nor 1 medium square = 5 oe\nor 1 large square = 20 oe\n20 × 0.8 = 16 A1 shows that y = 16\neg 80 × 0.2 = 16 or 4 × 0.8 × 5 = 16 or 2 × 0.4 × 20 = 16\nAllow verification eg 16 ÷ 20 = 0.8 and fd = 0.8 for the 35-\n55 group\nOR\ny\n0.8 = and y = 16 and fd = 0.8 for the 35-55 group"
       }
      ],
-     "assets": [],
+     "assets": [
+      {
+       "id": "asset_22_histogram",
+       "source": "qp.pdf",
+       "render": "vector",
+       "kind": "crop",
+       "mention": "diagram",
+       "page": 20,
+       "review": true,
+       "shared": true,
+       "path": "assets/asset_22_histogram.png"
+      }
+     ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record f3fcd974 (run-038) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 5f209324+f3fcd974 (run-037+run-038) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "22(b)",
      "marks": 4,
      "question_type": "structured",
-     "problem_md": "Complete the histogram.",
+     "problem_md": "Complete the histogram.\n\n![histogram — official paper figure (qp.pdf p.20)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2025-06/4MB1-01R/assets/asset_22_histogram.png)\n",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "x + 24 3 x + 24 3 4 x + 24 3 40 + 60 5\n= oe eg = M1 Allow = or = where a is a positive\nx + 24 + 40 + 60 8 x + 124 8 x+a 8 x+a\n40 + 60 5 100 5 x + 24 3 40 + 60 5\nor = oe eg = integer eg = or =\nx + 24 + 40 + 60 8 x + 124 8 x + 160 8 x + 160 8\nThe denominator must be an expression with an unknown\neg 8( x + 24) = 3( x + 124) M1 Allow any correct equation\nor 8 x + 192 = 3x + 372 x + 24\neg = oe\nor 800 = 5( x + 124) x + 24 + 40 + 60 8\nor 800 = 5 x + 620\nCan be implied by 36 provided not from an incorrect\nequation or incorrect working\nx = 36 A1 can be implied by a bar of height 18 small squares\nprovided not from incorrect working\nBar 18 B1ft their x value provided x is an integer\nsmall\nsquares NB A bar of height 18 small squares and width 10 small\nhigh squares is to be awarded all 4 marks if no working is seen or\nno incorrect working seen",
@@ -1038,15 +1068,42 @@
       }
      ],
      "source_page": 21,
-     "assets": [],
+     "assets": [
+      {
+       "id": "asset_22_histogram_2",
+       "source": "qp.pdf",
+       "render": "vector",
+       "kind": "crop",
+       "mention": "diagram",
+       "page": 20,
+       "review": true,
+       "shared": true,
+       "path": "assets/asset_22_histogram.png"
+      }
+     ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record f3fcd974 (run-038) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record f3fcd974 (run-038) [problem_md]"
+      }
+     ]
     }
    ],
    "groups": {}

@@ -281,7 +281,18 @@ The incomplete table and pie chart below show information about the favourite ty
 
 ### 12 [4]
 
-The incomplete table and pie chart below show information about the favourite type of chocolate of 440 adults. Type of chocolate Number of adults Milk 209 Plain White Total 440 Plain 144° Complete the table and the pie chart.
+The incomplete table and pie chart below show information about the favourite type of chocolate of 440 adults.
+
+| Type of chocolate | Number of adults |
+| --- | --- |
+| Milk | 209 |
+| Plain |  |
+| White |  |
+| Total | 440 |
+
+Complete the table and the pie chart.
+
+![pie chart — official paper figure (qp.pdf p.9)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-06/4MB1-01R/assets/asset_12_q_table_stem.png)
 
 ![table — official paper figure (qp.pdf p.9) — shared with asset_12_q_table_stem](assets/asset_12_q_table_stem.png)
 

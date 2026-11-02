@@ -243,7 +243,7 @@
      "part_number": "2(a)(ii)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "Represent your solution onthe number line on the next page.",
+     "problem_md": "Represent your solution on the number line on the next page.",
      "choices": [],
      "edits": [
       {
@@ -251,6 +251,12 @@
        "kind": "structural-repair",
        "tool": "official_examq_extract.py F82a",
        "evidence_ref": "qp text-glued marker (1) after 'present your solution on' — Q2 footer sum 3+1=10"
+      },
+      {
+       "field": "problem_md",
+       "kind": "joined-run-split",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 00070c9b (RN-DEBRIS-7) [problem_md]"
       }
      ],
      "answer_status": "linked",
@@ -269,7 +275,8 @@
      "value_trace": {
       "keys": "n/a",
       "marks": "corrected:qp-glued-marker-sum-law",
-      "numbers": "source-printed"
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
      }
     },
     {
@@ -482,7 +489,7 @@
      "part_number": "4(a)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "The total amount of money that was spent last March by Marco’s family was \\$4200 The four table itemsbelow gives information about the amount Marco’s family spent on each of last March. Item Amount healthcare insurance \\$504 \\$336 food \\$546 travel \\$630 housing entertainment other items\n\nCalculate the percentage of the total amount that was spent on healthcare. The amount transport spent in the on 4 ratios travel : 3 : 2was divided between Marco’s car, his wife’s car and other",
+     "problem_md": "The total amount of money that was spent last March by Marco’s family was \\$4200 The table below gives information about the amount Marco’s family spent on each of four items last March. \n\n| Item | Amount |\n| --- | --- |\n| healthcare | \\$336 |\n| insurance | \\$504 |\n| food | \\$546 |\n| travel | \\$630 |\n| housing |  |\n| entertainment |  |\n| other items |  |\n\nCalculate the percentage of the total amount that was spent on healthcare. The amount spent on travel was divided between Marco’s car, his wife’s car and other transport in the ratios $4 : 3 : 2$",
      "choices": [],
      "edits": [
       {
@@ -490,6 +497,12 @@
        "kind": "structural-repair",
        "tool": "official_examq_extract.py F82a",
        "evidence_ref": "qp text-glued marker (2) after 'the percentage of' — Q4 footer sum 8+2=14"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 5f209324 (run-037) [problem_md]"
       }
      ],
      "answer_status": "linked",
@@ -509,7 +522,8 @@
      "value_trace": {
       "keys": "n/a",
       "marks": "corrected:qp-glued-marker-sum-law",
-      "numbers": "source-printed"
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
      }
     },
     {
@@ -542,7 +556,7 @@
      "part_number": "4(c)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "Calculate the amount, in \\$, that was spent on food last February. The amount of money of was that moneynot spent spent on on entertainment last March healthcare, insurance, was food 12.5% and of the total amount travel.",
+     "problem_md": "Calculate the amount, in \\$, that was spent on food last February. The amount of money of was that money not spent spent on on entertainment last March healthcare, insurance, was food 12.5% and of the total amount travel.",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "5 3 5 7 3 5 3 7 3 M2ft for a fully correct method\n× + × + × + × + ft dep on probabilities between 0 and 1\n15 14 15 14 15 14 15 14\n7 5 7 3\n× + × or M1ft for at least 2 correct products (or one product of eg O, O' or\n15 14 15 14\nfor 1 minus at least one product for 2 of the same colour (ft the\nM2 for\n(546 ÷ 112) × 100 M1 1.12\n(\\$)487.5(0) A1",
@@ -557,12 +571,21 @@
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "problem_md",
+       "kind": "joined-run-split",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 00070c9b (RN-DEBRIS-7) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "4(d)",
@@ -882,7 +905,7 @@
      "part_number": "7(a)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Complete the table of values for y = 5 — 5 — x? x —4 —3 —2 —l 0 1 2 3 y 9 2 4.5 3.5 0",
+     "problem_md": "The equation of a curve is $y = 5 - \\frac{x}{2} - x^2$\n\nComplete the table of values for $y = 5 - \\frac{x}{2} - x^2$\n\n| $x$ | $-4$ | $-3$ | $-2$ | $-1$ | $0$ | $1$ | $2$ | $3$ |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| $y$ | $-9$ |  | $2$ | $4.5$ |  | $3.5$ | $0$ |  |",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "−2.5, 5, −5.5 2 B2 all correct, B1 for 2 correct",
@@ -894,33 +917,36 @@
       }
      ],
      "source_page": 20,
-     "assets": [
-      {
-       "id": "asset_7_a_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 20,
-       "review": false,
-       "path": "assets/asset_7_a_table.png",
-       "render": "vector",
-       "text_coverage": 0.136
-      }
-     ],
+     "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "7(b)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "On the grid opposite, plot the points from your completed table and join them to form a smooth curve.\n\n> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*\n\n![table — official paper figure (qp.pdf p.20) (same figure as 7(a))](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2019-06/4MB1-02R/assets/asset_7_a_table.png)",
+     "problem_md": "On the grid opposite, plot the points from your completed table and join them to form a smooth curve.\n\n![grid — official paper figure (qp.pdf p.21)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2019-06/4MB1-02R/assets/asset_7_7-b.png)\n\n| $x$ | $-4$ | $-3$ | $-2$ | $-1$ | $0$ | $1$ | $2$ | $3$ |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| $y$ | $-9$ |  | $2$ | $4.5$ |  | $3.5$ | $0$ |  |",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "2 M1 for at least 6 points plotted correctly ft table\nA1 a fully correct graph where all points have been\nplotted correctly (clear intention to go through all the\ncorrect points and join them with a curve)",
@@ -935,37 +961,39 @@
      "assets": [
       {
        "id": "asset_7_b_grid",
+       "source": "qp.pdf",
        "kind": "crop",
        "mention": "figure",
-       "source": "qp.pdf",
        "page": 20,
        "review": true,
        "shared": false,
        "path": "assets/asset_7_7-b.png",
        "note": "run-012 machine-staged (adjacent+1(no-block)); supersedes crop-required:"
-      },
-      {
-       "id": "asset_7_b_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 20,
-       "review": false,
-       "path": "assets/asset_7_a_table.png",
-       "render": "vector",
-       "text_coverage": 0.136,
-       "shared": true,
-       "ref_part": "7(a)"
       }
      ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "7(c)",
@@ -1030,6 +1058,12 @@
        "kind": "structural-repair",
        "tool": "official_examq_extract.py F82b",
        "evidence_ref": "vector-drawn qp marker, 600dpi render crop cd3629757b9b (tesseract draft '(3'), MS Mark column = 3"
+      },
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [assets]"
       }
      ],
      "answer_status": "linked",
@@ -1041,21 +1075,7 @@
        "text_md": "M1 for $y = 0.5x + 2$ stated or shown in working,\neg $5 - 0.5x - x^2 = 2 + 0.5x$\n\nM1 for drawing $y = 0.5x + 2$ accurately going through the\npoints (−2, 1), (0, 2), (2, 3) (or would if extended)\n\n−2.3, 1.3  A1 ft from their graph — both values dependent on M2 awarded\n\nMust not be given as part of a coordinate"
       }
      ],
-     "assets": [
-      {
-       "id": "asset_7_e_grid",
-       "kind": "crop",
-       "mention": "grid",
-       "source": "qp.pdf",
-       "page": 20,
-       "review": false,
-       "path": "assets/asset_7_a_table.png",
-       "render": "vector",
-       "text_coverage": 0.136,
-       "shared": true,
-       "ref_part": "7(a)"
-      }
-     ],
+     "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "corrected",

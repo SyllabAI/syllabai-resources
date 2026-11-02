@@ -171,11 +171,17 @@ The table below shows information about the prices of secondhand cars for sale a
 
 ### 3 [4]
 
-The table below shows information about the prices of secondhand cars for sale at a garage. Price of secondhand car (\$x) Frequency 6000 < x ≤ 12000 3 12000 < x ≤ 20000 23 20000 < x ≤ 34000 21 34000 < x ≤ 40000 34 40 000 < x ≤ 62 000 10 Calculate an estimate, in dollars, for the mean price of a secondhand car at this garage.
+The table below shows information about the prices of secondhand cars for sale at a garage.
 
-![table — official paper figure (qp.pdf p.6) (same figure as asset_3_q_table_stem)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2023-06/4MB1-02/assets/asset_3_q_table_stem.png)
+| Price of secondhand car ($x$) | Frequency |
+| --- | --- |
+| $6000 < x \le 12000$ | 3 |
+| $12000 < x \le 20000$ | 23 |
+| $20000 < x \le 34000$ | 21 |
+| $34000 < x \le 40000$ | 34 |
+| $40\,000 < x \le 62\,000$ | 10 |
 
-![table — official paper figure (qp.pdf p.6) — shared with asset_3_q_table_stem](assets/asset_3_q_table_stem.png)
+Calculate an estimate, in dollars, for the mean price of a secondhand car at this garage.
 
 
 **Mark scheme answer**

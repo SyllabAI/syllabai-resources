@@ -669,9 +669,11 @@ Hence, or otherwise, solve the inequality < 4 3
 
 ### 11(d) [2]
 
-Complete the table of values for y = x 2 – 2x – 1 x –2 –1 0 1 2 3 4 y –1 2 7
+Complete the table of values for $y = x^2 - 2x - 1$
 
-![table — official paper figure (qp.pdf p.26)](assets/asset_11_d_table.png)
+| $x$ | $-2$ | $-1$ | $0$ | $1$ | $2$ | $3$ | $4$ |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| $y$ |  |  | $-1$ |  |  | $2$ | $7$ |
 
 
 **Mark scheme answer**
@@ -684,9 +686,14 @@ Complete the table of values for y = x 2 – 2x – 1 x –2 –1 0 1 2 3 4 y �
 
 On the same grid on the opposite page, plot the points from your completed table and join them to form a smooth curve.
 
-![grid — official paper figure (qp.pdf p.26) — shared with 11(d)](assets/asset_11_d_table.png)
+| $x$ | $-2$ | $-1$ | $0$ | $1$ | $2$ | $3$ | $4$ |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| $y$ |  |  | $-1$ |  |  | $2$ | $7$ |
 
-![table — official paper figure (qp.pdf p.26) — shared with 11(d)](assets/asset_11_d_table.png)
+![plotting grid — official paper figure (qp.pdf p.27)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-01/4MB1-02/assets/asset_11_grid.png)
+
+
+![grid — official paper figure (qp.pdf p.27) — shared with ?](assets/asset_11_grid.png)
 
 
 **Mark scheme answer**
@@ -698,11 +705,10 @@ On the same grid on the opposite page, plot the points from your completed table
 
 Using part (a) and part (e), find an estimate, to one decimal place, for the range of values of x for which 11 5 x² − x− <0 4 2 Show your working clearly.
 
-![graph — official paper figure (qp.pdf p.26) (same figure as 11(d))](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-01/4MB1-02/assets/asset_11_d_table.png)
+![plotting grid — official paper figure (qp.pdf p.27)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-01/4MB1-02/assets/asset_11_grid.png)
 
-![graph — official paper figure (qp.pdf p.26) — shared with 11(d)](assets/asset_11_d_table.png)
 
-![grid — official paper figure (qp.pdf p.26) — shared with 11(d)](assets/asset_11_d_table.png)
+![grid — official paper figure (qp.pdf p.27) — shared with ?](assets/asset_11_grid.png)
 
 
 **Mark scheme answer**

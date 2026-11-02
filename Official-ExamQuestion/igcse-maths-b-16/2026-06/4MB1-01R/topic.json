@@ -550,7 +550,7 @@
      "part_number": "12",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "The incomplete table and the incomplete histogram give information about the length of time, in minutes, that each of 100 students worked in a library. Complete the table and the histogram. Time (t minutes) Number of students 0 ≤ t < 20 18 20 ≤ t < 60 60 ≤ t < 100 33 100 ≤ t < 200 Frequency density 0 40 80 120 160 200 Time (t minutes)",
+     "problem_md": "The incomplete table and the incomplete histogram give information about the length of time, in minutes, that each of 100 students worked in a library.\n\n| Time ($t$ minutes) | Number of students |\n| --- | --- |\n| $0 \\le t < 20$ | 18 |\n| $20 \\le t < 60$ |  |\n| $60 \\le t < 100$ | 33 |\n| $100 \\le t < 200$ |  |\n\nComplete the table and the histogram.\n\n![histogram — official paper figure (qp.pdf p.9)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2026-06/4MB1-01R/assets/asset_12_histogram.png)",
      "choices": [],
      "implicit_single_part": true,
      "answer_status": "linked",
@@ -565,27 +565,40 @@
      "source_page": 9,
      "assets": [
       {
-       "id": "asset_12_table",
-       "kind": "crop",
-       "mention": "table",
+       "id": "asset_12_histogram",
        "source": "qp.pdf",
-       "page": 9,
-       "review": false,
-       "path": "assets/asset_12_q_table_stem.png",
        "render": "vector",
-       "text_coverage": 0.271,
-       "shared": true,
-       "ref_part": "asset_12_q_table_stem"
+       "kind": "crop",
+       "mention": "diagram",
+       "page": 9,
+       "review": true,
+       "shared": false,
+       "path": "assets/asset_12_histogram.png"
       }
      ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508+f3fcd974 (run-036+run-038) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508+f3fcd974 (run-036+run-038) [problem_md]"
+      }
+     ]
     }
    ],
    "groups": {}
@@ -1130,7 +1143,7 @@
      "part_number": "22(a)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Find the value of x x = There are 340 buttons in the bag.",
+     "problem_md": "A bag contains only red buttons, green buttons, blue buttons and yellow buttons. The table shows information about the probability that when a button is taken at random from the bag it is red or green or blue or yellow. \n\n| Colour | red | green | blue | yellow |\n| --- | --- | --- | --- | --- |\n| Probability | 0.3 | 0.1 | $2x$ | $x$ |\n\nFind the value of x x = There are 340 buttons in the bag.",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "1 − 0.3 − 0.1 2 M1 Correct equivalent equation\n0.3 + 0.1 + 2 x + x = 1 or or\nCorrect equivalent full method (look for this to be in parts\nand carry through any processing errors,\ne.g 0.3 + 0.1 [= 0.31 incorrect processing, correct method]\n1 – 0.31 [= 0.79 correct method again, with now 2\nprocessing errors]\n0.79\nwill be awarded this mark if all of the method is\nexplicitly shown.\ncas 0.2 A1",
@@ -1144,12 +1157,21 @@
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 5f209324 (run-037) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "22(b)",

@@ -673,7 +673,7 @@
      "part_number": "17",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "The table gives information about the weights, in grams, of 100 birds. Weight (w grams) Frequency 85 < w ≤ 95 15 95 < w ≤ 100 25 100 < w ≤ 105 22 105 < w ≤ 110 20 110 < w ≤ 130 18 Use the information in the table to draw a histogram on the grid below. Frequency density 80 90 100 110 120 130 Weight in grams",
+     "problem_md": "The table gives information about the weights, in grams, of 100 birds.\n\n| Weight ($w$ grams) | Frequency |\n| --- | --- |\n| $85 < w \\le 95$ | 15 |\n| $95 < w \\le 100$ | 25 |\n| $100 < w \\le 105$ | 22 |\n| $105 < w \\le 110$ | 20 |\n| $110 < w \\le 130$ | 18 |\n\nUse the information in the table to draw a histogram on the grid below. Frequency density 80 90 100 110 120 130 Weight in grams\n\n![grid — official paper figure (qp.pdf p.11)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2023-06/4MB1-01/assets/asset_17_grid.png)",
      "choices": [],
      "implicit_single_part": true,
      "answer_status": "linked",
@@ -689,35 +689,40 @@
      "assets": [
       {
        "id": "asset_17_grid",
+       "source": "qp.pdf",
+       "render": "vector",
+       "text_coverage": 0.059,
        "kind": "crop",
        "mention": "grid",
-       "source": "qp.pdf",
        "page": 11,
        "review": true,
-       "path": "assets/asset_17_grid.png",
-       "render": "vector",
-       "text_coverage": 0.059
-      },
-      {
-       "id": "asset_17_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 11,
-       "review": false,
-       "path": "assets/asset_17_table.png",
-       "render": "vector",
-       "text_coverage": 0.336
+       "shared": false,
+       "path": "assets/asset_17_grid.png"
       }
      ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [problem_md]"
+      }
+     ]
     }
    ],
    "groups": {}
@@ -770,7 +775,7 @@
      "part_number": "19(a)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "Calculate the probability that the number the dice lands on is less than 7 The dice is thrown 80 times.",
+     "problem_md": "A biased dice has six faces numbered 2, 4, 6, 8, 10 and 12 The table below shows information about the probability that, when the dice is thrown once, it will land on each of the numbers. \n\n| Number | 2 | 4 | 6 | 8 | 10 | 12 |\n| --- | --- | --- | --- | --- | --- | --- |\n| Probability | $a$ | $0.22 - a$ | 0.20 | $1.5a$ | $a + 0.03$ | $2a + 0.01$ |\n\n The dice is thrown once.\n\nCalculate the probability that the number the dice lands on is less than 7 The dice is thrown 80 times.",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "0. 42 1\nB1 accept or 42% oe Do not isw",
@@ -785,12 +790,21 @@
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 5f209324 (run-037) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "19(b)",

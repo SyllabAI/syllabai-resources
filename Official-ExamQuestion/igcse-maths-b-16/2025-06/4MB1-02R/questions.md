@@ -463,6 +463,16 @@ Table 1 gives information about the probability that a biased red six-sided dice
 
 ### 8(a)(i) [1]
 
+Table 1 gives information about the probability that a biased red six-sided dice will land on each of the numbers 1, 2, 5, 7, 9, 11 
+
+Table 1
+
+| Number | 1 | 2 | 5 | 7 | 9 | 11 |
+| --- | --- | --- | --- | --- | --- | --- |
+| Probability | 0.1 | 0.15 | 0.2 | $2x$ | $2x + 0.1$ | $x$ |
+
+Calvin rolls the red dice once.
+
 either the number 2 or the number 5
 
 
@@ -760,9 +770,11 @@ Complete the table of values for y f x x −1.5 −0.75 0 0.75 1.5 2.25 y 0.3 �
 
 On the grid opposite, plot the points where curve C crosses the x-axis, the two turning points and all the points from your completed table.
 
-![grid — official paper figure (qp.pdf p.33)](assets/asset_11_e_i_grid.png)
+Solutions of $ax^2 + bx + c = 0$ are $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
 
-![table — official paper figure (qp.pdf p.32)](assets/asset_11_e_i_table.png)
+![grid — official paper figure (qp.pdf p.33)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2025-06/4MB1-02R/assets/asset_11_e_i_grid.png)
+
+![grid — official paper figure (qp.pdf p.33)](assets/asset_11_e_i_grid.png)
 
 ### 11(e)(ii) [4]
 
@@ -778,7 +790,7 @@ Join all the points to form a smooth curve.
 
 By drawing a suitable line on the grid, find estimates to one decimal place, of the solutions to the equation 2 x 3 x 2 3x 0 in the interval −1.5 ≤ x ≤ 2.25
 
-![grid — official paper figure (qp.pdf p.32) — shared with 11(e)(i)](assets/asset_11_e_i_table.png)
+Solutions of $ax^2 + bx + c = 0$ are $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
 
 
 **Mark scheme answer**
@@ -796,11 +808,9 @@ By drawing a suitable line on the grid, find estimates to one decimal place, of 
 
 By drawing a suitable line (at least 3 cm long) on the grid, find the gradient of curve C at the point where x = 1.5.
 
-![graph — official paper figure (qp.pdf p.32) (same figure as 11(e)(i))](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2025-06/4MB1-02R/assets/asset_11_e_i_table.png)
+Solutions of $ax^2 + bx + c = 0$ are $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
 
 ![grid — official paper figure (qp.pdf p.33) (same figure as asset_11_e_i_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2025-06/4MB1-02R/assets/asset_11_e_i_grid.png)
-
-![graph — official paper figure (qp.pdf p.32) — shared with 11(e)(i)](assets/asset_11_e_i_table.png)
 
 ![grid — official paper figure (qp.pdf p.33) — shared with asset_11_e_i_grid](assets/asset_11_e_i_grid.png)
 

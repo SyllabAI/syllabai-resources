@@ -438,7 +438,7 @@
      "part_number": "6(b)",
      "marks": 4,
      "question_type": "structured",
-     "problem_md": "Calculate the lower bound, in metres/minute to 3 significant figures, for Xavier’s average speed. Show all your working. The times, in minutes, for the 120 runners to complete 5 km is recorded. No runner takes less than 15 minutes or more than 70 minutes. The incomplete table and the incomplete histogram give information about the times. Minutes (t minutes) Frequency 15 < t ≤ 25 10 25 < t ≤ 30 16 30 < t ≤ 35 28 35 < t ≤ 40 40 < t ≤ 50 24 50 < t ≤ 70 Frequency density 10 20 30 40 50 60 70 Time (t minutes)\n\n> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*",
+     "problem_md": "Calculate the lower bound, in metres/minute to 3 significant figures, for Xavier’s average speed. Show all your working.\n\nThe times, in minutes, for the 120 runners to complete 5 km is recorded. No runner takes less than 15 minutes or more than 70 minutes. The incomplete table and the incomplete histogram give information about the times.\n\n| Minutes ($t$ minutes) | Frequency |\n| --- | --- |\n| $15 < t \\le 25$ | 10 |\n| $25 < t \\le 30$ | 16 |\n| $30 < t \\le 35$ | 28 |\n| $35 < t \\le 40$ |  |\n| $40 < t \\le 50$ | 24 |\n| $50 < t \\le 70$ |  |\n\n![histogram — official paper figure (qp.pdf p.15)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2025-11/4MB1-02/assets/asset_6_b_histogram.png)",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "d 4 M1 for a correct method to find the speed\nwhere 2950 ̇̇d 3050 and 17.5 ̇̇t 18.5\nt d and t must be within the limits given\n[ d LB =] 2950, [ dUB =] 3050, [tLB =]17.5 , [tUB =]18.5 B1 for one correct LB or UB stated or used\n2950 ̇ d < 3000 ⎡ 2950 ⎤ M1 for recognising to be LB/UB ie\nspeed = speed =\n18 < t ̇ 18.5 ⎣ 18.5 ⎥⎦ speed =\n2950 ̇ d < 3000\n18 < t ̇ 18.5\n159 2950\nA1 dep on Allow awrt 159\n18.5",
@@ -453,29 +453,55 @@
      "assets": [
       {
        "id": "asset_6_b_table",
+       "source": "qp.pdf",
        "kind": "crop",
        "mention": "table",
-       "source": "qp.pdf",
        "page": 13,
        "review": true,
        "shared": false,
        "path": "assets/asset_6_table.png"
+      },
+      {
+       "id": "asset_6_b_histogram",
+       "source": "qp.pdf",
+       "render": "vector",
+       "kind": "crop",
+       "mention": "diagram",
+       "page": 15,
+       "review": true,
+       "shared": false,
+       "path": "assets/asset_6_b_histogram.png"
       }
      ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record f3fcd974 (run-038) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508+f3fcd974 (run-036+run-038) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "6(c)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "Complete the table and the histogram.",
+     "problem_md": "Complete the table and the histogram.\n\n![histogram and table — official paper figure (qp.pdf p.15)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2025-11/4MB1-02/assets/asset_6_c_table_stem.png)",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "For a correct frequency density on the FD axis or by table or 3 M1 for use of area to work out frequency density. May\nOne 1cm square height = FD of 1 be implied by one correct value in the table or at least\nor 1 person = 5 small squares or 5 people = 1 large square etc two correct bars drawn\n34 and 8 A1 for both values correct\nHeight 3.2 A1 for all three bars correct\n(25-30) Allow bars plotted at correct height even if there is no\nHeight 5.6 scale given on the FD axis\n(30-35)\nHeight 2.4\n(40-50)",
@@ -504,12 +530,21 @@
      ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [problem_md]"
+      }
+     ]
     }
    ],
    "groups": {}
@@ -525,7 +560,7 @@
      "part_number": "7(a)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Alex produces and sells cans of drink. The table shows the production costs for 80 000 cans of drink. Production cost (euros) Manufacturing 31 000 Other 4 350 Total production cost 35 350\n\nCalculate the manufacturing cost as a percentage of the total production cost. Give your answer to one decimal place. Alex sells each of the 80 000 cans of drink for £0.60 Using the exchange rate of £1 = 1.15 euros …………… , ……………",
+     "problem_md": "Alex produces and sells cans of drink. The table shows the production costs for 80 000 cans of drink. \n\n|  | Production cost (euros) |\n| --- | --- |\n| Manufacturing | 31 000 |\n| Other | 4 350 |\n| Total production cost | 35 350 |\n\nCalculate the manufacturing cost as a percentage of the total production cost. Give your answer to one decimal place. Alex sells each of the 80 000 cans of drink for £0.60 Using the exchange rate of £1 = 1.15 euros …………… , ……………",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "31000 2 M1 for method to find the percentage (can be one step away ie without the ×\n[×100] 100).\n35350\nMay be implied by 0.8769…\n87.7[%] A1 awrt 87.7\nWay 1 Total cost in £’s (1st 3 Marks)",
@@ -540,12 +575,21 @@
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 5f209324 (run-037) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "7(b)",

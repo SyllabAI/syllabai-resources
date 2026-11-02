@@ -485,11 +485,21 @@ The table shows information about the number of hours for which each of 100 chil
 
 ### 20 [4]
 
-The table shows information about the number of hours for which each of 100 children used a computer one week. Number of hours (h) Frequency h-2 20 h-5 24 h-8 12 h - 12 14 h - 15 30 The diagram below is an incomplete histogram representing this information. Use the information in the table to complete the histogram. Frequency density 0– – – – – – – – – – 0 2 4 6 8 10 12 14 16 Number of hours
+The table shows information about the number of hours for which each of 100 children used a computer one week.
+
+| Number of hours ($h$) | Frequency |
+| --- | --- |
+| $0 < h \le 2$ | 20 |
+| $2 < h \le 5$ | 24 |
+| $5 < h \le 8$ | 12 |
+| $8 < h \le 12$ | 14 |
+| $12 < h \le 15$ | 30 |
+
+The diagram below is an incomplete histogram representing this information. Use the information in the table to complete the histogram.
+
+![diagram — official paper figure (qp.pdf p.14) (same figure as asset_20_q_diagram_stem)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2018-06/4MB1-01/assets/asset_20_q_diagram_stem.png)
 
 ![diagram — official paper figure (qp.pdf p.14) — shared with asset_20_q_diagram_stem](assets/asset_20_q_diagram_stem.png)
-
-![table — official paper figure (qp.pdf p.14)](assets/asset_20_table.png)
 
 
 **Mark scheme answer**

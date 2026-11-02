@@ -329,9 +329,13 @@ Given that a is inversely proportional to b and b is inversely proportional to c
 
 ### 7 [6]
 
-Given that a is inversely proportional to b and b is inversely proportional to c3 complete the following table. a c 16 240 250 135
+Given that $a$ is inversely proportional to $\sqrt{b}$ and $b$ is inversely proportional to $c^3$ complete the following table.
 
-![table — official paper figure (qp.pdf p.14) — shared with asset_7_q_table_stem](assets/asset_7_q_table_stem.png)
+| $a$ | $c$ |
+| --- | --- |
+| 16 | 240 |
+| 250 |  |
+|  | 135 |
 
 
 **Mark scheme answer**
@@ -642,9 +646,13 @@ The equation of a curve is y = f (x) where f (x) = x 3 − 10x 2 + 20
 
 ### 11(a) [3]
 
-Complete the table of values for y = x 3 − 10x 2 + 20 Give your values of y to one decimal place where necessary. x −2 −1.5 −1 −0.5 0 0.5 1 1.5 2 2.5 3 y −28 −5.9 17.4 20 11 0.9 −12 −43
+The equation of a curve is $y = f(x)$ where $f(x) = x^3 - 10x^2 + 20$
 
-![table — official paper figure (qp.pdf p.26)](assets/asset_11_a_table.png)
+Complete the table of values for $y = f(x)$
+
+| $x$ | $-2$ | $-1.5$ | $-1$ | $-0.5$ | $0$ | $0.5$ | $1$ | $1.5$ | $2$ | $2.5$ | $3$ |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| $y$ | $-28$ | $-5.9$ |  | $17.4$ | $20$ |  | $11$ | $0.9$ | $-12$ |  | $-43$ |
 
 
 **Mark scheme answer**
@@ -658,9 +666,13 @@ Complete the table of values for y = x 3 − 10x 2 + 20 Give your values of y to
 
 On the grid opposite, plot the points from your completed table and join them to form a smooth curve. dB A curve C has equation y = g (x) where B = g (x) and = f (x) dx The curve C has two turning points in −2 ≤ x ≤ 3
 
-![grid — official paper figure (qp.pdf p.27)](assets/asset_11_b_grid.png)
+![grid — official paper figure (qp.pdf p.27)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2021-01/4MB1-02/assets/asset_11_b_grid.png)
 
-![table — official paper figure (qp.pdf p.26) — shared with 11(a)](assets/asset_11_a_table.png)
+| $x$ | $-2$ | $-1.5$ | $-1$ | $-0.5$ | $0$ | $0.5$ | $1$ | $1.5$ | $2$ | $2.5$ | $3$ |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| $y$ | $-28$ | $-5.9$ |  | $17.4$ | $20$ |  | $11$ | $0.9$ | $-12$ |  | $-43$ |
+
+![grid — official paper figure (qp.pdf p.27)](assets/asset_11_b_grid.png)
 
 
 **Mark scheme answer**

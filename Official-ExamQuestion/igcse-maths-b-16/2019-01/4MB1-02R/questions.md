@@ -47,11 +47,11 @@ Calculate, to 3 decimal places, the upper bound of h.
 ## Question 2 (9 marks)
 ### 2(a) [2]
 
-Complete the table of values for y = x² − 3x + 1 x −1 0 1 2 3 4 5 y −1 1 5
+Complete the table of values for $y = x^2 - 3x + 1$
 
-![table — official paper figure (qp.pdf p.4)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2019-01/4MB1-02R/assets/asset_2_a_table.png)
-
-![table — official paper figure (qp.pdf p.4)](assets/asset_2_a_table.png)
+| $x$ | $-1$ | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| $y$ |  |  | $-1$ |  | $1$ | $5$ |  |
 
 
 **Mark scheme answer**
@@ -64,9 +64,13 @@ Complete the table of values for y = x² − 3x + 1 x −1 0 1 2 3 4 5 y −1 1 
 
 On the grid opposite, plot the points from your completed table and join them to form a smooth curve.
 
-![grid — official paper figure (qp.pdf p.5)](assets/asset_2_b_grid.png)
+![grid — official paper figure (qp.pdf p.5)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2019-01/4MB1-02R/assets/asset_2_b_grid.png)
 
-![table — official paper figure (qp.pdf p.4) — shared with 2(a)](assets/asset_2_a_table.png)
+| $x$ | $-1$ | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| $y$ |  |  | $-1$ |  | $1$ | $5$ |  |
+
+![grid — official paper figure (qp.pdf p.5)](assets/asset_2_b_grid.png)
 
 
 **Mark scheme answer**
@@ -514,7 +518,11 @@ Frequency density 0 10 20 30 40 50 60 Time (minutes) Figure 4 Figure 4 shows a h
 
 ### 9 [5]
 
-Frequency density 0 10 20 30 40 50 60 Time (minutes) Figure 4 Figure 4 shows a histogram that gives information about the time, in minutes, each of 440 people spent in a supermarket. Two people are chosen at random from the 440 people. Calculate an estimate, to 3 significant figures, for the probability that both of these people spent more than 45 minutes in the supermarket.
+![Figure 4 — histogram, official paper figure (qp.pdf p.30)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2019-01/4MB1-02R/assets/asset_9_histogram.png)
+
+Figure 4 shows a histogram that gives information about the time, in minutes, each of 440 people spent in a supermarket. Two people are chosen at random from the 440 people. Calculate an estimate, to 3 significant figures, for the probability that both of these people spent more than 45 minutes in the supermarket.
+
+![diagram — official paper figure (qp.pdf p.30)](assets/asset_9_histogram.png)
 
 
 **Mark scheme answer**

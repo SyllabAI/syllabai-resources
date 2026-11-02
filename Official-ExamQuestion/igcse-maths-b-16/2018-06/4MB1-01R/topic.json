@@ -1164,7 +1164,7 @@
      "part_number": "25(a)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Calculate the value of x. x = There are 39 blue bricks in the box.",
+     "problem_md": "A box of toy bricks contains only red bricks, blue bricks, green bricks, yellow bricks and orange bricks. A brick is taken at random from the box. The table gives information about the probabilities that the brick is red or is blue or is green or is yellow or is orange. \n\n| Colour | red | blue | green | yellow | orange |\n| --- | --- | --- | --- | --- | --- |\n| Probability | 0.15 | 0.13 | 0.2 | 0.32 | $x$ |\n\nCalculate the value of x. x = There are 39 blue bricks in the box.",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "1 – (0.15+0.13+0.2+0.32) M1\n0.2 A1",
@@ -1178,12 +1178,21 @@
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 5f209324 (run-037) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "25(b)",

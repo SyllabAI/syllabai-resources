@@ -508,6 +508,17 @@ The temperature (T °C ) at midday in a city was recorded each day for 50 days. 
 
 ### 20(a) [1]
 
+The temperature (T °C ) at midday in a city was recorded each day for 50 days. The table shows information about these temperatures. 
+
+| Temperature ($T$ °C) | Number of days |
+| --- | --- |
+| $5 < T \le 8$ | 3 |
+| $8 < T \le 11$ | 12 |
+| $11 < T \le 14$ | 12 |
+| $14 < T \le 17$ | 16 |
+| $17 < T \le 20$ | 6 |
+| $20 < T \le 23$ | 1 |
+
 Write down the modal class.
 
 

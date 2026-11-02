@@ -998,7 +998,7 @@
      "part_number": "11(a)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "Part of the curve with equation y = x² – 5x + 3 is drawn on the grid. x³ 6 x 2 3x The equation of another curve is y = – + − 6 5 2 x³ 6 x 2 3x\n\nComplete the table of values for y = – + − 6 5 2 Give your values of y to 2 decimal places. x 0 0.5 1 2 3 4 4.5 5 y 0 –0.47 1.8 1.67\n\n![table — official paper figure (qp.pdf p.28)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-01/4MB1-02R/assets/asset_11_a_table.png)",
+     "problem_md": "Part of the curve with equation $y = x^2 - 5x + 3$ is drawn on the grid. The equation of another curve is $y = -\\frac{x^3}{6} + \\frac{6x^2}{5} - \\frac{3x}{2}$\n\nComplete the table of values for $y = -\\frac{x^3}{6} + \\frac{6x^2}{5} - \\frac{3x}{2}$ Give your values of $y$ to 2 decimal places.\n\n| $x$ | $0$ | $0.5$ | $1$ | $2$ | $3$ | $4$ | $4.5$ | $5$ |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| $y$ | $0$ | $-0.47$ |  |  | $1.8$ |  |  | $1.67$ |\n\n![grid with drawn curve — official paper figure (qp.pdf p.29)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-01/4MB1-02R/assets/asset_11_grid.png)\n",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "− 0.47, 0.47, 2.53, 2.36 3 B3 (-1eeoo)",
@@ -1012,31 +1012,46 @@
      "source_page": 28,
      "assets": [
       {
-       "id": "asset_11_a_table",
-       "kind": "crop",
-       "mention": "table",
+       "id": "asset_11_grid",
        "source": "qp.pdf",
-       "page": 28,
-       "review": false,
-       "path": "assets/asset_11_a_table.png",
        "render": "vector",
-       "text_coverage": 0.334
+       "kind": "crop",
+       "mention": "grid",
+       "page": 29,
+       "review": true,
+       "shared": true,
+       "path": "assets/asset_11_grid.png"
       }
      ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508+f3fcd974 (run-036+run-038) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508+f3fcd974 (run-036+run-038) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "11(b)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "On the grid opposite, plot the points from your completed table and join them to form a smooth curve.",
+     "problem_md": "On the grid opposite, plot the points from your completed table and join them to form a smooth curve.\n\n| $x$ | $0$ | $0.5$ | $1$ | $2$ | $3$ | $4$ | $4.5$ | $5$ |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| $y$ | $0$ | $-0.47$ |  |  | $1.8$ |  |  | $1.67$ |\n\n![grid with drawn curve — official paper figure (qp.pdf p.29)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-01/4MB1-02R/assets/asset_11_grid.png)\n",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "Curve drawn 3 B3ft (NB: ft on their (a) values)\nFor reference: −1 mark for\nstraight line segments\neach point missed\nx y\n0 0 each missed segment\n0.5 −0.47\n1 each point not plotted\n‘−0.47’\n2 ‘0.47’ each point incorrectly plotted\n3 1.8\n4 ‘2.53’ tramlines\n4.5 ‘2.36’\nvery poor curve\n5 1.67\nNB: Accuracy for both plotting and drawing is\n± ss = 0.05",
@@ -1050,46 +1065,46 @@
      "source_page": 28,
      "assets": [
       {
-       "id": "asset_11_b_grid",
+       "id": "asset_11_grid_2",
+       "source": "qp.pdf",
+       "render": "vector",
        "kind": "crop",
        "mention": "grid",
-       "source": "qp.pdf",
-       "page": 28,
-       "review": false,
-       "path": "assets/asset_11_a_table.png",
-       "render": "vector",
-       "text_coverage": 0.334,
+       "page": 29,
+       "review": true,
        "shared": true,
-       "ref_part": "11(a)"
-      },
-      {
-       "id": "asset_11_b_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 28,
-       "review": false,
-       "path": "assets/asset_11_a_table.png",
-       "render": "vector",
-       "text_coverage": 0.334,
-       "shared": true,
-       "ref_part": "11(a)"
+       "path": "assets/asset_11_grid.png"
       }
      ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508+f3fcd974 (run-036+run-038) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508+f3fcd974 (run-036+run-038) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "11(c)",
      "marks": 4,
      "question_type": "structured",
-     "problem_md": "Use the two curves on the grid to find an estimate, to 2 decimal places, of the range x³ x 2 7 x of positive values of x for which − − +3<0 6 5 2 Show your working clearly. For positive values of x, the two curves on the grid intersect at the points P and Q.\n\n![grid — official paper figure (qp.pdf p.28) (same figure as 11(a))](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-01/4MB1-02R/assets/asset_11_a_table.png)",
+     "problem_md": "Use the two curves on the grid to find an estimate, to 2 decimal places, of the range x³ x 2 7 x of positive values of x for which − − +3<0 6 5 2 Show your working clearly. For positive values of x, the two curves on the grid intersect at the points P and Q.\n\n![grid with drawn curve — official paper figure (qp.pdf p.29)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-01/4MB1-02R/assets/asset_11_grid.png)\n",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "Penalise failure to round correctly ONCE\nonly\n− + − > x² − 5x + 3 the intersection of the two curves)\n6 5\n0.85 ± 0.05 A1ft (one intersection of their graphs)\n4.80 ± 0.05 A1ft (second intersection of their graphs)\n0.85 ± 0.05 < x < 4.80 ± 0.05 4 A1ft (must be using strict inequalities)",
@@ -1103,27 +1118,40 @@
      "source_page": 28,
      "assets": [
       {
-       "id": "asset_11_c_grid",
+       "id": "asset_11_grid_3",
+       "source": "qp.pdf",
+       "render": "vector",
        "kind": "crop",
        "mention": "grid",
-       "source": "qp.pdf",
-       "page": 28,
-       "review": false,
-       "path": "assets/asset_11_a_table.png",
-       "render": "vector",
-       "text_coverage": 0.334,
+       "page": 29,
+       "review": true,
        "shared": true,
-       "ref_part": "11(a)"
+       "path": "assets/asset_11_grid.png"
       }
      ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508+f3fcd974 (run-036+run-038) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508+f3fcd974 (run-036+run-038) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "11(d)",
@@ -1155,7 +1183,7 @@
      "part_number": "11(e)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Find, to 1 decimal place, the value of b.\n\n![grid — official paper figure (qp.pdf p.28) (same figure as 11(a))](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-01/4MB1-02R/assets/asset_11_a_table.png)",
+     "problem_md": "Find, to 1 decimal place, the value of b.",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "(a = 0.641) ∴ M1 Using their gradient (which must be positive)\ne.g. b = \"− 0.511\"− \"( d )\"× \"0.845\" and their coordinates for P or Q (or any other point\ne.g. b = \"2.022\"− \"( d )\"× \"4.796\" (oe) on their line) to obtain a value for b\nb = −1.0, −1.1 2 A1\nTotal 14 marks",
@@ -1167,29 +1195,30 @@
       }
      ],
      "source_page": 28,
-     "assets": [
-      {
-       "id": "asset_11_e_grid",
-       "kind": "crop",
-       "mention": "grid",
-       "source": "qp.pdf",
-       "page": 28,
-       "review": false,
-       "path": "assets/asset_11_a_table.png",
-       "render": "vector",
-       "text_coverage": 0.334,
-       "shared": true,
-       "ref_part": "11(a)"
-      }
-     ],
+     "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [problem_md]"
+      }
+     ]
     }
    ],
    "groups": {}

@@ -744,7 +744,7 @@
      "part_number": "8(a)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Calculate the percentage decrease in the weight of citrus fruit sold. The table below shows the weight of citrus fruit, the weight of berries and the weight of tropical fruit Chetan sold in March. Fruit type Weight sold citrus 508 kg berries 126 kg tropical 86 kg Chetan is going to draw a pie chart for this information.",
+     "problem_md": "Chetan owns a fruit shop. In January, Chetan sold 560 kg of citrus fruit. In February, Chetan sold 518 kg of citrus fruit.\n\nCalculate the percentage decrease in the weight of citrus fruit sold. The table below shows the weight of citrus fruit, the weight of berries and the weight of tropical fruit Chetan sold in March.\n\n| Fruit type | Weight sold |\n| --- | --- |\n| citrus | 508 kg |\n| berries | 126 kg |\n| tropical | 86 kg |\n\nChetan is going to draw a pie chart for this information.",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "560 − 518 560 − 518 2 M1 for a method to find the percentage change\n[= 0.075] or ×100 or Allow 518 – 560 for 560 – 518\n560 560\n518 518\n[= 0.925] or ×100[= 92.5]\n560 560\n7.5 (%) A1 allow –7.5(%)",
@@ -756,33 +756,36 @@
       }
      ],
      "source_page": 20,
-     "assets": [
-      {
-       "id": "asset_8_a_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 20,
-       "review": true,
-       "path": "assets/asset_8_a_table.png",
-       "render": "vector",
-       "text_coverage": 0.142
-      }
-     ],
+     "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "8(b)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Calculate the size, in degrees, of the angle of the sector in the pie chart for the weight of berries sold in March. The table below gives information about the weight, in kg, of berries sold on each of the 30 days in April. Weight (w kg) Frequency 0 < w ≤ 5 10 5 < w ≤ 10 7 10 < w ≤ 15 6 15 < w ≤ 20 5 20 < w ≤ 25 2",
+     "problem_md": "Calculate the size, in degrees, of the angle of the sector in the pie chart for the weight of berries sold in March. The table below gives information about the weight, in kg, of berries sold on each of the 30 days in April.\n\n| Weight ($w$ kg) | Frequency |\n| --- | --- |\n| $0 < w \\le 5$ | 10 |\n| $5 < w \\le 10$ | 7 |\n| $10 < w \\le 15$ | 6 |\n| $15 < w \\le 20$ | 5 |\n| $20 < w \\le 25$ | 2 |",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "126 2 M1 for a method to find angle\n× 360\n508 + 126 + 86\n63 A1 cao",
@@ -794,29 +797,30 @@
       }
      ],
      "source_page": 20,
-     "assets": [
-      {
-       "id": "asset_8_b_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 20,
-       "review": false,
-       "path": "assets/asset_8_a_table.png",
-       "render": "vector",
-       "text_coverage": 0.142,
-       "shared": true,
-       "ref_part": "8(a)"
-      }
-     ],
+     "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "8(c)",

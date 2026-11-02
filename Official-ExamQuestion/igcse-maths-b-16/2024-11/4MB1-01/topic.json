@@ -276,7 +276,7 @@
      "part_number": "7",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "A biased dice has six faces numbered 1, 2, 3, 4, 5 and 6 The table below shows information about the probability that, when the dice is thrown once, it will land on each of the numbers. Number 1 2 3 4 5 6 Probability 0.1 0.3 0.18 0.03 0.32 0.07 The dice is thrown 300 times. Calculate the expected number of times the dice will land on a number greater than 3",
+     "problem_md": "A biased dice has six faces numbered 1, 2, 3, 4, 5 and 6 The table below shows information about the probability that, when the dice is thrown once, it will land on each of the numbers. \n\n| Number | 1 | 2 | 3 | 4 | 5 | 6 |\n| --- | --- | --- | --- | --- | --- | --- |\n| Probability | 0.1 | 0.3 | 0.18 | 0.03 | 0.32 | 0.07 |\n\n The dice is thrown 300 times. Calculate the expected number of times the dice will land on a number greater than 3",
      "choices": [],
      "implicit_single_part": true,
      "answer_status": "linked",
@@ -289,29 +289,30 @@
       }
      ],
      "source_page": 5,
-     "assets": [
-      {
-       "id": "asset_7_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 5,
-       "review": false,
-       "path": "assets/asset_7_q_table_stem.png",
-       "render": "vector",
-       "text_coverage": 0.423,
-       "shared": true,
-       "ref_part": "asset_7_q_table_stem"
-      }
-     ],
+     "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 5f209324 (run-037) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 5f209324 (run-037) [problem_md]"
+      }
+     ]
     }
    ],
    "groups": {}

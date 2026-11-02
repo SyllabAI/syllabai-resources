@@ -739,7 +739,7 @@
      "part_number": "7(a)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "Find the class interval that contains the median length of time that the birds spent on the bird table on Monday.",
+     "problem_md": "The table gives information about the length of time, in seconds, that each of 28 birds spent on Ali’s bird table on Monday.\n\n| Length of time ($t$ seconds) | Frequency |\n| --- | --- |\n| $0 < t \\le 5$ | 10 |\n| $5 < t \\le 8$ | 8 |\n| $8 < t \\le 10$ | 5 |\n| $10 < t \\le 15$ | 3 |\n| $15 < t \\le 30$ | 2 |\n| $t > 30$ | 0 |\n\nFind the class interval that contains the median length of time that the birds spent on the bird table on Monday.",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "M2 for at least 4 correct",
@@ -751,35 +751,36 @@
       }
      ],
      "source_page": 16,
-     "assets": [
-      {
-       "id": "asset_7_a_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 16,
-       "review": false,
-       "path": "assets/asset_7_a_table_stem.png",
-       "render": "vector",
-       "text_coverage": 0.532,
-       "shared": true,
-       "ref_part": "asset_7_a_table_stem"
-      }
-     ],
+     "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "7(b)",
      "marks": 4,
      "question_type": "structured",
-     "problem_md": "Calculate an estimate, in seconds to one decimal place, for the mean length of time that the birds spent on the bird table on Monday. The incomplete histogram below gives some information about the length of time, in seconds, that each of 35 birds spent on Ali’s bird table on Tuesday. Frequency density 0 10 20 30 40 Length of time (seconds) On Tuesday 9 of the birds spent between 5 seconds and 8 seconds on the bird table 6 of the birds spent between 8 seconds and 10 seconds on the bird table no bird spent longer than 40 seconds on the bird table.",
+     "problem_md": "Calculate an estimate, in seconds to one decimal place, for the mean length of time that the birds spent on the bird table on Monday. The incomplete histogram below gives some information about the length of time, in seconds, that each of 35 birds spent on Ali’s bird table on Tuesday. ![Tuesday histogram — official paper figure (qp.pdf p.16)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-11/4MB1-02R/assets/asset_7_histogram.png) On Tuesday 9 of the birds spent between 5 seconds and 8 seconds on the bird table 6 of the birds spent between 8 seconds and 10 seconds on the bird table no bird spent longer than 40 seconds on the bird table.",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "products added OR\n2.5 ×10 + 6.5 × 8 + 9 × 5 + 12.5 × 3 + 22.5 × 2 (M1 for use of a value within\n( = 204.5) interval (incl. end points) for at\nleast 4 products, which must be\nadded).\n\"204.5\" M1(dep) on at least M1\n4 A1\nawrt 7.3\nBar drawn height 30 1 B1",
@@ -793,33 +794,46 @@
      "source_page": 16,
      "assets": [
       {
-       "id": "asset_7_b_table",
-       "kind": "crop",
-       "mention": "table",
+       "id": "asset_7_histogram",
        "source": "qp.pdf",
-       "page": 16,
-       "review": false,
-       "path": "assets/asset_7_a_table_stem.png",
        "render": "vector",
-       "text_coverage": 0.532,
+       "kind": "crop",
+       "mention": "diagram",
+       "page": 16,
+       "review": true,
        "shared": true,
-       "ref_part": "asset_7_a_table_stem"
+       "path": "assets/asset_7_histogram.png"
       }
      ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508+f3fcd974 (run-036+run-038) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508+f3fcd974 (run-036+run-038) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "7(c)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "Use this information to complete the histogram.",
+     "problem_md": "Use this information to complete the histogram.\n\n![Tuesday histogram — official paper figure (qp.pdf p.16)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-11/4MB1-02R/assets/asset_7_histogram.png)\n",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "little squares\noe 1 B1 (0.14(28571...) or",
@@ -831,21 +845,48 @@
       }
      ],
      "source_page": 16,
-     "assets": [],
+     "assets": [
+      {
+       "id": "asset_7_histogram_2",
+       "source": "qp.pdf",
+       "render": "vector",
+       "kind": "crop",
+       "mention": "diagram",
+       "page": 16,
+       "review": true,
+       "shared": true,
+       "path": "assets/asset_7_histogram.png"
+      }
+     ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record f3fcd974 (run-038) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record f3fcd974 (run-038) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "7(d)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "Find the proportion of birds on Tuesday that spent longer than 15 seconds on the bird table. for a spare copy of the histogram if you need to redraw your bar. Only use this histogram if you need to redraw your bar. Frequency density 0 10 20 30 40 Length of time (seconds)",
+     "problem_md": "Find the proportion of birds on Tuesday that spent longer than 15 seconds on the bird table. for a spare copy of the histogram if you need to redraw your bar. Only use this histogram if you need to redraw your bar. ![spare histogram copy — official paper figure (qp.pdf p.19)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-11/4MB1-02R/assets/asset_7_histogram_spare.png)",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "35 14(.28571)%)",
@@ -859,27 +900,40 @@
      "source_page": 16,
      "assets": [
       {
-       "id": "asset_7_d_table",
-       "kind": "crop",
-       "mention": "table",
+       "id": "asset_7_histogram_spare",
        "source": "qp.pdf",
-       "page": 16,
-       "review": false,
-       "path": "assets/asset_7_a_table_stem.png",
        "render": "vector",
-       "text_coverage": 0.532,
-       "shared": true,
-       "ref_part": "asset_7_a_table_stem"
+       "kind": "crop",
+       "mention": "diagram",
+       "page": 19,
+       "review": true,
+       "shared": false,
+       "path": "assets/asset_7_histogram_spare.png"
       }
      ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508+f3fcd974 (run-036+run-038) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508+f3fcd974 (run-036+run-038) [problem_md]"
+      }
+     ]
     }
    ],
    "groups": {}

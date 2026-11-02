@@ -213,9 +213,17 @@ The table gives information about the number of brothers that each student in a 
 
 ### 9 [3]
 
-The table gives information about the number of brothers that each student in a class has. Number of brothers Frequency 0 5 1 2 2 8 3 4 4 1 Calculate the mean number of brothers.
+The table gives information about the number of brothers that each student in a class has.
 
-![table — official paper figure (qp.pdf p.6)](assets/asset_9_table.png)
+| Number of brothers | Frequency |
+| --- | --- |
+| 0 | 5 |
+| 1 | 2 |
+| 2 | 8 |
+| 3 | 4 |
+| 4 | 1 |
+
+Calculate the mean number of brothers.
 
 
 **Mark scheme answer**
@@ -426,7 +434,9 @@ The histogram below shows information about the age of each person on a plane. F
 
 ### 17 [3]
 
-The histogram below shows information about the age of each person on a plane. Frequency density 0 5 10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 Age (years) There were 7 people on the plane with an age of 5 years or under. Calculate the number of people on the plane with an age of over 20 years.
+The histogram below shows information about the age of each person on a plane. ![histogram — official paper figure (qp.pdf p.12)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-06/4MB1-01/assets/asset_17_histogram.png) There were 7 people on the plane with an age of 5 years or under. Calculate the number of people on the plane with an age of over 20 years.
+
+![diagram — official paper figure (qp.pdf p.12)](assets/asset_17_histogram.png)
 
 
 **Mark scheme answer**
@@ -770,9 +780,23 @@ Aarya has a biased 5-sided spinner. pink orange green blue yellow When the spinn
 
 ### 27(a) [3]
 
+Aarya has a biased 5-sided spinner.
+
+![spinner diagram — official paper figure (qp.pdf p.21)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-06/4MB1-01/assets/asset_27_a_spinner.png)
+
+When the spinner is spun once, it can land on blue or yellow or green or pink or orange. Aarya spins the spinner many times and records the colour that the spinner lands on each time. She uses these results to calculate the probability of the spinner landing on each colour. 
+
+The table below gives the probabilities that Aarya calculated for blue, yellow and green.
+
+| Colour | blue | yellow | green | pink | orange |
+| --- | --- | --- | --- | --- | --- |
+| Probability | 0.22 | 0.34 | 0.12 |  |  |
+
+ Aarya’s calculations showed that the probability of the spinner landing on orange is 3 times the probability of the spinner landing on pink.
+
 Complete the table for pink and for orange. When Aarya spun the spinner, it landed on green 90 times.
 
-![table — official paper figure (qp.pdf p.21) — shared with asset_27_a_table_stem](assets/asset_27_a_table_stem.png)
+![diagram — official paper figure (qp.pdf p.21)](assets/asset_27_a_spinner.png)
 
 
 **Mark scheme answer**

@@ -691,9 +691,11 @@ Show that the value of k is 12 12 9
 
 ### 11(b) [2]
 
-Complete the table of values for y x x Give your values of y to 2 decimal places. x –6 –5 –4 –3 –2 –1 –0.8 y –1.44 –2.00 –2.75 –2.00
+Complete the table of values for $y = \frac{12}{x} + \frac{9}{x^2} + 1$ Give your values of $y$ to 2 decimal places.
 
-![table — official paper figure (qp.pdf p.26)](assets/asset_11_b_table.png)
+| $x$ | $-6$ | $-5$ | $-4$ | $-3$ | $-2$ | $-1$ | $-0.8$ |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| $y$ |  |  | $-1.44$ | $-2.00$ | $-2.75$ | $-2.00$ |  |
 
 
 **Mark scheme answer**
@@ -707,9 +709,9 @@ Complete the table of values for y x x Give your values of y to 2 decimal places
 
 On the grid opposite, plot the minimum point and the points from your completed table.
 
-![grid — official paper figure (qp.pdf p.27)](assets/asset_11_c_i_grid.png)
+![grid — official paper figure (qp.pdf p.27)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2023-01/4MB1-02/assets/asset_11_c_i_grid.png)
 
-![table — official paper figure (qp.pdf p.26) — shared with 11(b)](assets/asset_11_b_table.png)
+![grid — official paper figure (qp.pdf p.27)](assets/asset_11_c_i_grid.png)
 
 ### 11(c)(ii) [4]
 

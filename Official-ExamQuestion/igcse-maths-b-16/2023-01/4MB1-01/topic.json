@@ -910,7 +910,7 @@
      "part_number": "20(a)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "Write down the mode of the number of visits to the cinema.",
+     "problem_md": "Sarah records the number of visits to the cinema that each of the 19 students in her class made in June. The table below shows her results. \n\n| Number of visits to the cinema | Frequency |\n| --- | --- |\n| 0 | 6 |\n| 1 | 4 |\n| 2 | 5 |\n| 3 | 3 |\n| 4 | 1 |\n\nWrite down the mode of the number of visits to the cinema.",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "0 1 B1",
@@ -925,12 +925,21 @@
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 5f209324 (run-037) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "20(b)",

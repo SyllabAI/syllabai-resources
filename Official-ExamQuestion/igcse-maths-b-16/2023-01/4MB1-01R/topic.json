@@ -1252,7 +1252,7 @@
      "part_number": "26(a)",
      "marks": 4,
      "question_type": "structured",
-     "problem_md": "Calculate an estimate for the mean length of time, in minutes, that these people were in the shop minutes The incomplete table and the incomplete histogram give information about the number of kilometres each of the 40 people had travelled to get to the shop. Distance (k kilometres) Frequency 0 < k ≤ 10 4 10 < k ≤ 15 15 < k ≤ 30 30 < k ≤ 60 6 None of the people travelled more than 60 km. Frequency density 0 10 20 30 40 50 60 Distance (k kilometres)",
+     "problem_md": "Jenny has a shop. One Monday, each of the 40 people who went in Jenny’s shop were asked how long they were in the shop. The table below shows information about the results.\n\n| Time ($t$ minutes) | Frequency |\n| --- | --- |\n| $0 < t \\le 5$ | 10 |\n| $5 < t \\le 15$ | 7 |\n| $15 < t \\le 25$ | 5 |\n| $25 < t \\le 30$ | 6 |\n| $30 < t \\le 40$ | 12 |\n\nCalculate an estimate for the mean length of time, in minutes, that these people were in the shop\n\nThe incomplete table and the incomplete histogram give information about the number of kilometres each of the 40 people had travelled to get to the shop.\n\n| Distance ($k$ kilometres) | Frequency |\n| --- | --- |\n| $0 < k \\le 10$ | 4 |\n| $10 < k \\le 15$ |  |\n| $15 < k \\le 30$ |  |\n| $30 < k \\le 60$ | 6 |\n\nNone of the people travelled more than 60 km. Frequency density 0 10 20 30 40 50 60 Distance (k kilometres)\n\n![histogram — official paper figure (qp.pdf p.23)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2023-01/4MB1-01R/assets/asset_26_histogram.png)\n",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "2.5 ×10 + 10 × 7 + 20 × 5 + 27.5 × 6 + 35 ×12 4 M2 for correct calculation (need not be evaluated) If no\n[ = 25 + 70 + 100 + 165 + 420 = 780] working shown then figures must be correct Give bod if\nvalues in a list and a total given.\nM1 xf calculated and added for at least 3 class intervals\nwhere x is a number in the range (including end points)\nor correct mid-points used for at least 3 products but not\nadded\n“780” ÷ 40 M1 dep on M1\n19.5 A1",
@@ -1266,33 +1266,46 @@
      "source_page": 22,
      "assets": [
       {
-       "id": "asset_26_a_table",
-       "kind": "crop",
-       "mention": "table",
+       "id": "asset_26_histogram",
        "source": "qp.pdf",
-       "page": 22,
-       "review": false,
-       "path": "assets/asset_26_a_table_stem.png",
        "render": "vector",
-       "text_coverage": 0.384,
+       "kind": "crop",
+       "mention": "diagram",
+       "page": 23,
+       "review": true,
        "shared": true,
-       "ref_part": "asset_26_a_table_stem"
+       "path": "assets/asset_26_histogram.png"
       }
      ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508+f3fcd974 (run-036+run-038) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508+f3fcd974 (run-036+run-038) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "26(b)",
      "marks": 4,
      "question_type": "structured",
-     "problem_md": "Complete the histogram and the frequency table.",
+     "problem_md": "Complete the histogram and the frequency table.\n\n| Time ($t$ minutes) | Frequency |\n| --- | --- |\n| $0 < t \\le 5$ | 10 |\n| $5 < t \\le 15$ | 7 |\n| $15 < t \\le 25$ | 5 |\n| $25 < t \\le 30$ | 6 |\n| $30 < t \\le 40$ | 12 |\n\n![histogram — official paper figure (qp.pdf p.23)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2023-01/4MB1-01R/assets/asset_26_histogram.png)\n",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "For a correct frequency density on the FD 4 M1 for use of area to work out frequency density,\naxis – one 2cm square height = FD of 0.5 or implied by any correct aspect of the table or graph seen\nheight of 15 – 30 bar is 1.2 or 10 – 15 bar is\n2.4, may be seen besides the table\n12,18 and bars of A3 for all four correct\nheight A2 for three correct\n0.4 between A1 for two correct\n0 and 10 The heights must be drawn on the histogram correct to 1\nand 0.2 between small square.\n30 and 60\nCorrect answers scores full marks (unless Total 8 marks\nfrom obviously incorrect working)",
@@ -1306,27 +1319,40 @@
      "source_page": 23,
      "assets": [
       {
-       "id": "asset_26_b_table",
-       "kind": "crop",
-       "mention": "table",
+       "id": "asset_26_histogram_2",
        "source": "qp.pdf",
-       "page": 22,
-       "review": false,
-       "path": "assets/asset_26_a_table_stem.png",
        "render": "vector",
-       "text_coverage": 0.384,
+       "kind": "crop",
+       "mention": "diagram",
+       "page": 23,
+       "review": true,
        "shared": true,
-       "ref_part": "asset_26_a_table_stem"
+       "path": "assets/asset_26_histogram.png"
       }
      ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 6405c9d3+f3fcd974 (run-035+run-038) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 6405c9d3+f3fcd974 (run-035+run-038) [problem_md]"
+      }
+     ]
     }
    ],
    "groups": {}

@@ -46,9 +46,18 @@ Part of the curve with equation y = x 2 – 3x – 1 is drawn on the grid on the
 
 ### 2(a) [2]
 
-Complete the table of values for y = –x 2 – 2x + 4 x –4 –3 –2 –1 0 1 2 y –4 5 1
+Part of the curve with equation $y = x^2 - 3x - 1$ is drawn on the grid on the opposite page. The equation of another curve is $y = -x^2 - 2x + 4$
 
-![table — official paper figure (qp.pdf p.4)](assets/asset_2_a_table.png)
+Complete the table of values for $y = -x^2 - 2x + 4$
+
+| $x$ | $-4$ | $-3$ | $-2$ | $-1$ | $0$ | $1$ | $2$ |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| $y$ | $-4$ |  |  | $5$ |  | $1$ |  |
+
+![grid with drawn curve — official paper figure (qp.pdf p.5)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2018-06/4MB1-02R/assets/asset_2_grid.png)
+
+
+![grid — official paper figure (qp.pdf p.5) — shared with ?](assets/asset_2_grid.png)
 
 
 **Mark scheme answer**
@@ -61,9 +70,14 @@ Complete the table of values for y = –x 2 – 2x + 4 x –4 –3 –2 –1 0 1
 
 On the grid, plot the points from your completed table and join them to form a smooth curve.
 
-![grid — official paper figure (qp.pdf p.4) — shared with 2(a)](assets/asset_2_a_table.png)
+| $x$ | $-4$ | $-3$ | $-2$ | $-1$ | $0$ | $1$ | $2$ |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| $y$ | $-4$ |  |  | $5$ |  | $1$ |  |
 
-![table — official paper figure (qp.pdf p.4) — shared with 2(a)](assets/asset_2_a_table.png)
+![grid with drawn curve — official paper figure (qp.pdf p.5)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2018-06/4MB1-02R/assets/asset_2_grid.png)
+
+
+![grid — official paper figure (qp.pdf p.5) — shared with ?](assets/asset_2_grid.png)
 
 
 **Mark scheme answer**
@@ -75,9 +89,9 @@ On the grid, plot the points from your completed table and join them to form a s
 
 ### 2(c) [2]
 
-Use the two curves on the grid to find estimates, to 1 decimal place, for the solutions of the equation 2x 2 – x – 5 = 0 y –4 –3 –2 –1 O 1 2 3 x –1 –2 –3 –4 –5
+Use the two curves on the grid to find estimates, to 1 decimal place, for the solutions of the equation $2x^2 - x - 5 = 0$ ![grid with drawn curve — official paper figure (qp.pdf p.5)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2018-06/4MB1-02R/assets/asset_2_grid.png)
 
-![grid — official paper figure (qp.pdf p.4) — shared with 2(a)](assets/asset_2_a_table.png)
+![grid — official paper figure (qp.pdf p.5) — shared with ?](assets/asset_2_grid.png)
 
 
 **Mark scheme answer**
@@ -384,6 +398,16 @@ One Saturday, each of the 100 people who visited a library was asked how long th
 **(b)** Find, to 3 decimal places, the probability that
 
 ### 9(a) [4]
+
+One Saturday, each of the 100 people who visited a library was asked how long they were in the library. The table below shows information about the results. 
+
+| Time ($t$ mins) | Frequency |
+| --- | --- |
+| $0 < t \le 10$ | 16 |
+| $10 < t \le 30$ | 22 |
+| $30 < t \le 35$ | 10 |
+| $35 < t \le 60$ | 40 |
+| $60 < t \le 100$ | 12 |
 
 Calculate an estimate for the mean length of time, in minutes to 3 significant figures, these people were in the library. Two of the 100 people who visited the library that Saturday are picked at random.
 

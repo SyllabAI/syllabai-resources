@@ -359,9 +359,18 @@ The table gives information about the length of time, in seconds, that each of 2
 
 ### 7(a) [1]
 
-Find the class interval that contains the median length of time that the birds spent on the bird table on Monday.
+The table gives information about the length of time, in seconds, that each of 28 birds spent on Ali’s bird table on Monday.
 
-![table — official paper figure (qp.pdf p.16) — shared with asset_7_a_table_stem](assets/asset_7_a_table_stem.png)
+| Length of time ($t$ seconds) | Frequency |
+| --- | --- |
+| $0 < t \le 5$ | 10 |
+| $5 < t \le 8$ | 8 |
+| $8 < t \le 10$ | 5 |
+| $10 < t \le 15$ | 3 |
+| $15 < t \le 30$ | 2 |
+| $t > 30$ | 0 |
+
+Find the class interval that contains the median length of time that the birds spent on the bird table on Monday.
 
 
 **Mark scheme answer**
@@ -372,9 +381,9 @@ Find the class interval that contains the median length of time that the birds s
 
 ### 7(b) [4]
 
-Calculate an estimate, in seconds to one decimal place, for the mean length of time that the birds spent on the bird table on Monday. The incomplete histogram below gives some information about the length of time, in seconds, that each of 35 birds spent on Ali’s bird table on Tuesday. Frequency density 0 10 20 30 40 Length of time (seconds) On Tuesday 9 of the birds spent between 5 seconds and 8 seconds on the bird table 6 of the birds spent between 8 seconds and 10 seconds on the bird table no bird spent longer than 40 seconds on the bird table.
+Calculate an estimate, in seconds to one decimal place, for the mean length of time that the birds spent on the bird table on Monday. The incomplete histogram below gives some information about the length of time, in seconds, that each of 35 birds spent on Ali’s bird table on Tuesday. ![Tuesday histogram — official paper figure (qp.pdf p.16)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-11/4MB1-02R/assets/asset_7_histogram.png) On Tuesday 9 of the birds spent between 5 seconds and 8 seconds on the bird table 6 of the birds spent between 8 seconds and 10 seconds on the bird table no bird spent longer than 40 seconds on the bird table.
 
-![table — official paper figure (qp.pdf p.16) — shared with asset_7_a_table_stem](assets/asset_7_a_table_stem.png)
+![diagram — official paper figure (qp.pdf p.16) — shared with ?](assets/asset_7_histogram.png)
 
 
 **Mark scheme answer**
@@ -395,6 +404,11 @@ Calculate an estimate, in seconds to one decimal place, for the mean length of t
 
 Use this information to complete the histogram.
 
+![Tuesday histogram — official paper figure (qp.pdf p.16)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-11/4MB1-02R/assets/asset_7_histogram.png)
+
+
+![diagram — official paper figure (qp.pdf p.16) — shared with ?](assets/asset_7_histogram.png)
+
 
 **Mark scheme answer**
 
@@ -405,9 +419,9 @@ Use this information to complete the histogram.
 
 ### 7(d) [1]
 
-Find the proportion of birds on Tuesday that spent longer than 15 seconds on the bird table. for a spare copy of the histogram if you need to redraw your bar. Only use this histogram if you need to redraw your bar. Frequency density 0 10 20 30 40 Length of time (seconds)
+Find the proportion of birds on Tuesday that spent longer than 15 seconds on the bird table. for a spare copy of the histogram if you need to redraw your bar. Only use this histogram if you need to redraw your bar. ![spare histogram copy — official paper figure (qp.pdf p.19)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-11/4MB1-02R/assets/asset_7_histogram_spare.png)
 
-![table — official paper figure (qp.pdf p.16) — shared with asset_7_a_table_stem](assets/asset_7_a_table_stem.png)
+![diagram — official paper figure (qp.pdf p.19)](assets/asset_7_histogram_spare.png)
 
 
 **Mark scheme answer**

@@ -609,7 +609,7 @@
      "part_number": "15(a)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "Calculate an estimate for the mean weight, in grams to 3 significant figures, of these adult mice grams One of these adult mice is selected at random.",
+     "problem_md": "The table gives information about the weights, in grams, of 40 adult mice. \n\n| Weight ($w$ grams) | Frequency |\n| --- | --- |\n| $17 \\le w < 19$ | 8 |\n| $19 \\le w < 21$ | 3 |\n| $21 \\le w < 22$ | 15 |\n| $22 \\le w < 23$ | 8 |\n| $23 \\le w < 25$ | 6 |\n\nCalculate an estimate for the mean weight, in grams to 3 significant figures, of these adult mice grams One of these adult mice is selected at random.",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "18 × 8 + 20 × 3 + 21.5 ×15 + 22.5 × 8 + 24 × 6 3 M1 for fx calculated for at least 4 class intervals where x\n[ = 144 + 60 + 322.5 + 180 + 144 = 850.5] is a number in the range including the upper bound\nand an attempt to sum.\n\"850.5\" M1 dep dividing their total for fx by their total for f\n[8 + 3 + 15 + 8 + 6 =] 40\n21.3 A1 awrt 21.3",
@@ -624,12 +624,21 @@
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 5f209324 (run-037) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "15(b)",

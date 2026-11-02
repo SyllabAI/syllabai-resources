@@ -515,9 +515,21 @@ The weights of 710 passengers boarding buses at a bus station were recorded. The
 
 ### 21(a) [1]
 
+The weights of 710 passengers boarding buses at a bus station were recorded. The incomplete table and histogram give information about these passengers.
+
+| Weight of passenger ($w$ kg) | Number of passengers |
+| --- | --- |
+| $50 \le w < 60$ | 80 |
+| $60 \le w < 80$ | 120 |
+| $80 \le w < 95$ | 270 |
+| $95 \le w < 115$ |  |
+
 Complete the table.
 
-![table — official paper figure (qp.pdf p.13) — shared with asset_21_a_table_stem](assets/asset_21_a_table_stem.png)
+![histogram — official paper figure (qp.pdf p.13)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-01/4MB1-01R/assets/asset_21_histogram.png)
+
+
+![diagram — official paper figure (qp.pdf p.13) — shared with ?](assets/asset_21_histogram.png)
 
 
 **Mark scheme answer**
@@ -528,7 +540,9 @@ Complete the table.
 
 ### 21(b) [3]
 
-Complete the histogram. Frequency density 50 60 70 80 90 100 110 120 Weight of passenger (kg)
+Complete the histogram. ![histogram — official paper figure (qp.pdf p.13)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-01/4MB1-01R/assets/asset_21_histogram.png)
+
+![diagram — official paper figure (qp.pdf p.13) — shared with ?](assets/asset_21_histogram.png)
 
 
 **Mark scheme answer**

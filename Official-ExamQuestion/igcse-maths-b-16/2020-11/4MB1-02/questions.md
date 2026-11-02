@@ -680,9 +680,11 @@ Solve hg(x) = 5 Show clear algebraic working.
 ## Question 11 (10 marks)
 ### 11(a) [3]
 
-Complete the table of values for y = 2x 3 – 3x + 4 x –2.5 –2 –1.5 –1 –0.5 0 0.5 1 1.5 2 2.5 y –19.75 1.75 5.25 2.75 6.25 14 27.75
+Complete the table of values for $y = 2x^3 - 3x + 4$
 
-![table — official paper figure (qp.pdf p.30)](assets/asset_11_a_table.png)
+| $x$ | $-2.5$ | $-2$ | $-1.5$ | $-1$ | $-0.5$ | $0$ | $0.5$ | $1$ | $1.5$ | $2$ | $2.5$ |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| $y$ | $-19.75$ |  | $1.75$ |  | $5.25$ |  | $2.75$ |  | $6.25$ | $14$ | $27.75$ |
 
 
 **Mark scheme answer**
@@ -695,9 +697,13 @@ Complete the table of values for y = 2x 3 – 3x + 4 x –2.5 –2 –1.5 –1 �
 
 On the grid, plot the points from your completed table and join them to form a smooth curve.
 
-![grid — official paper figure (qp.pdf p.31)](assets/asset_11_b_grid.png)
+![grid — official paper figure (qp.pdf p.31)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-11/4MB1-02/assets/asset_11_b_grid.png)
 
-![table — official paper figure (qp.pdf p.30) — shared with 11(a)](assets/asset_11_a_table.png)
+| $x$ | $-2.5$ | $-2$ | $-1.5$ | $-1$ | $-0.5$ | $0$ | $0.5$ | $1$ | $1.5$ | $2$ | $2.5$ |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| $y$ | $-19.75$ |  | $1.75$ |  | $5.25$ |  | $2.75$ |  | $6.25$ | $14$ | $27.75$ |
+
+![grid — official paper figure (qp.pdf p.31)](assets/asset_11_b_grid.png)
 
 
 **Mark scheme answer**

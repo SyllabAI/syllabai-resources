@@ -323,11 +323,24 @@ Calculate how many of these 120 runners are aged 25 to 34 Xavier is one of the r
 
 ### 6(b) [4]
 
-Calculate the lower bound, in metres/minute to 3 significant figures, for Xavier’s average speed. Show all your working. The times, in minutes, for the 120 runners to complete 5 km is recorded. No runner takes less than 15 minutes or more than 70 minutes. The incomplete table and the incomplete histogram give information about the times. Minutes (t minutes) Frequency 15 < t ≤ 25 10 25 < t ≤ 30 16 30 < t ≤ 35 28 35 < t ≤ 40 40 < t ≤ 50 24 50 < t ≤ 70 Frequency density 10 20 30 40 50 60 70 Time (t minutes)
+Calculate the lower bound, in metres/minute to 3 significant figures, for Xavier’s average speed. Show all your working.
 
-> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+The times, in minutes, for the 120 runners to complete 5 km is recorded. No runner takes less than 15 minutes or more than 70 minutes. The incomplete table and the incomplete histogram give information about the times.
+
+| Minutes ($t$ minutes) | Frequency |
+| --- | --- |
+| $15 < t \le 25$ | 10 |
+| $25 < t \le 30$ | 16 |
+| $30 < t \le 35$ | 28 |
+| $35 < t \le 40$ |  |
+| $40 < t \le 50$ | 24 |
+| $50 < t \le 70$ |  |
+
+![histogram — official paper figure (qp.pdf p.15)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2025-11/4MB1-02/assets/asset_6_b_histogram.png)
 
 ![table — official paper figure (qp.pdf p.13)](assets/asset_6_table.png)
+
+![diagram — official paper figure (qp.pdf p.15)](assets/asset_6_b_histogram.png)
 
 
 **Mark scheme answer**
@@ -350,6 +363,8 @@ Calculate the lower bound, in metres/minute to 3 significant figures, for Xavier
 ### 6(c) [3]
 
 Complete the table and the histogram.
+
+![histogram and table — official paper figure (qp.pdf p.15)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2025-11/4MB1-02/assets/asset_6_c_table_stem.png)
 
 ![table — official paper figure (qp.pdf p.15) — shared with asset_6_c_table_stem](assets/asset_6_c_table_stem.png)
 
@@ -376,7 +391,13 @@ Alex produces and sells cans of drink. The table shows the production costs for 
 
 ### 7(a) [2]
 
-Alex produces and sells cans of drink. The table shows the production costs for 80 000 cans of drink. Production cost (euros) Manufacturing 31 000 Other 4 350 Total production cost 35 350
+Alex produces and sells cans of drink. The table shows the production costs for 80 000 cans of drink. 
+
+|  | Production cost (euros) |
+| --- | --- |
+| Manufacturing | 31 000 |
+| Other | 4 350 |
+| Total production cost | 35 350 |
 
 Calculate the manufacturing cost as a percentage of the total production cost. Give your answer to one decimal place. Alex sells each of the 80 000 cans of drink for £0.60 Using the exchange rate of £1 = 1.15 euros …………… , ……………
 

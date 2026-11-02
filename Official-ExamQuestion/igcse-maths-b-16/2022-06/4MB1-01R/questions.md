@@ -553,9 +553,25 @@ The incomplete table and incomplete histogram give information about the length 
 
 ### 20(a) [2]
 
+The incomplete table and incomplete histogram give information about the length of time, in minutes, that each of 105 runners took to complete a half marathon.
+
+| Time ($t$ minutes) | Frequency |
+| --- | --- |
+| $0 < t \le 70$ | 35 |
+| $70 < t \le 80$ |  |
+| $80 < t \le 90$ | 10 |
+| $90 < t \le 110$ | 15 |
+| $110 < t \le 130$ |  |
+| $130 < t \le 190$ |  |
+
+None of the 105 runners took longer than 190 minutes to complete the half marathon.
+
 Use this information and the information in the histogram to complete the table.
 
-![table — official paper figure (qp.pdf p.14) — shared with asset_20_a_table_stem](assets/asset_20_a_table_stem.png)
+![histogram — official paper figure (qp.pdf p.14)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-06/4MB1-01R/assets/asset_20_histogram.png)
+
+
+![diagram — official paper figure (qp.pdf p.14) — shared with ?](assets/asset_20_histogram.png)
 
 
 **Mark scheme answer**
@@ -567,9 +583,9 @@ Use this information and the information in the histogram to complete the table.
 
 ### 20(b) [2]
 
-Use the information in the table to complete the histogram. Frequency density 0 20 40 60 80 100 120 140 160 180 200 Time (minutes)
+Use the information in the table to complete the histogram. ![histogram — official paper figure (qp.pdf p.14)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-06/4MB1-01R/assets/asset_20_histogram.png)
 
-![table — official paper figure (qp.pdf p.14) — shared with asset_20_a_table_stem](assets/asset_20_a_table_stem.png)
+![diagram — official paper figure (qp.pdf p.14) — shared with ?](assets/asset_20_histogram.png)
 
 
 **Mark scheme answer**
@@ -756,9 +772,13 @@ A dice has eight faces numbered 1, 2, 3, 4, 5, 6, 7 and 8 The table shows inform
 
 ### 23 [6]
 
-A dice has eight faces numbered 1, 2, 3, 4, 5, 6, 7 and 8 The table shows information about the probability that, when the dice is rolled once, it will land on each of the possible numbers. Number 1 2 3 4 5 6 7 8 Probability y 0.1 2x – 4 0.05 3y – 1 x–2 0.12 0.03 When the dice is rolled once, the probability that the dice will land on the number 5 is 0.2 The dice is rolled 250 times. Calculate an estimate for the number of times the dice will land on an odd number.
+A dice has eight faces numbered 1, 2, 3, 4, 5, 6, 7 and 8 The table shows information about the probability that, when the dice is rolled once, it will land on each of the possible numbers. 
 
-![table — official paper figure (qp.pdf p.18)](assets/asset_23_table.png)
+| Number | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Probability | $\frac{1}{2}y$ | 0.1 | $2x - 4$ | 0.05 | $3y - 1$ | $x - 2$ | 0.12 | 0.03 |
+
+ When the dice is rolled once, the probability that the dice will land on the number 5 is 0.2 The dice is rolled 250 times. Calculate an estimate for the number of times the dice will land on an odd number.
 
 
 **Mark scheme answer**

@@ -840,9 +840,18 @@ The table shows the number of children in each of the families from a town. Numb
 
 ### 24 [6]
 
-The table shows the number of children in each of the families from a town. Number of Frequency children 0 k 1 215 2 362 3 181 4 94 5 15 k is an unknown integer. The mean number of children in a family = 2.0 to 2 significant figures. Find the range of possible values of k
+The table shows the number of children in each of the families from a town.
 
-![table — official paper figure (qp.pdf p.20)](assets/asset_24_table.png)
+| Number of children | Frequency |
+| --- | --- |
+| 0 | $k$ |
+| 1 | 215 |
+| 2 | 362 |
+| 3 | 181 |
+| 4 | 94 |
+| 5 | 15 |
+
+$k$ is an unknown integer. The mean number of children in a family = 2.0 to 2 significant figures. Find the range of possible values of $k$
 
 
 **Mark scheme answer**
