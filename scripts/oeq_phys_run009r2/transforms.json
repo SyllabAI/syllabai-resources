@@ -9,9 +9,9 @@
    "pid": "qstnprt_rdyGR5PkqVnRXwkH",
    "file": "SME-ExamQuestion/igcse-physics-19/5-solids-liquids-and-gases/5-1-density-and-pressure/topic.json",
    "field": "problem_md",
-   "morph": "mathml-strip",
+   "morph": "mathml-strip -> $matrix$ (amended: serving lineage already carries the KaTeX matrix; corpus adopts it; table morph dropped)",
    "evidence": "live page: <span role=\"math\" aria-label=\"table row cell ... end table\"> containing <mtable> nest; equation = \"pressure of the / trapped air\" = \"atmospheric / pressure\" + \"pressure difference / caused by water\"",
-   "new": "| pressure of the trapped air | = | atmospheric pressure | + | pressure difference caused by water |\n|---|---|---|---|---|"
+   "new": "$\\begin{matrix}\\begin{matrix}pressure  of  the \\\\ trapped  air\\end{matrix}  = \\end{matrix} \\begin{matrix}atmospheric \\\\ pressure\\end{matrix}  +  \\begin{matrix}pressure  difference \\\\ caused  by  water\\end{matrix}$"
   },
   {
    "track": "R2-b",

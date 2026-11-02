@@ -5,15 +5,6 @@
  "law": "every written corpus field pinned before/after",
  "pins": [
   {
-   "target": "qstnprt_rdyGR5PkqVnRXwkH",
-   "file": "SME-ExamQuestion/igcse-physics-19/5-solids-liquids-and-gases/5-1-density-and-pressure/topic.json",
-   "field": "problem_md",
-   "track": "R2-a",
-   "before_sha256": "4d4948582dafe7dd182394b3a86d7e7fbc6f5adb74d14387a417bfd9ffb381ce",
-   "after_sha256": "bbc44e190e67db22675d71a0a8a572c3dd5bc321f1cde4fbc1a4fcf1ac562d4d",
-   "law": "corpus := live page of record (SME, scrape 2026-09-17); R2-a equation strip (live: mtable aria-label, 3 terms + 2 operators)"
-  },
-  {
    "target": "qstnprt_dtqBs72bCBHhzmPW",
    "file": "SME-ExamQuestion/igcse-physics-19/7-radioactivity-and-particles/7-2-radioactivity-uses-and-dangers/topic.json",
    "field": "problem_md",
@@ -48,6 +39,15 @@
    "before_sha256": "eadc450eee7808de76dbef2de81a43fb976773c5a9ba398d8062036e9e776311",
    "after_sha256": "e1d7ae9e6cb1de528d089f333397aadea9eccd3a271f6ad00d334bb35b937594",
    "law": "corpus := live page of record (SME, scrape 2026-09-17); M1 math code-span -> $...$ (live: equation node \"p_1=(m_ball+m_pin) x v\", MathML)"
+  },
+  {
+   "target": "qstnprt_rdyGR5PkqVnRXwkH",
+   "file": "SME-ExamQuestion/igcse-physics-19/5-solids-liquids-and-gases/5-1-density-and-pressure/topic.json",
+   "field": "problem_md",
+   "track": "R2-a",
+   "before_sha256": "4d4948582dafe7dd182394b3a86d7e7fbc6f5adb74d14387a417bfd9ffb381ce",
+   "after_sha256": "0878ccf34d929dda17f370575ee7868309dabdb932ea36152257f373555cd033",
+   "law": "corpus := live page of record (SME MathML mtable, stacked equation) AND serving-lineage KaTeX matrix (run-001/003 pass already renders it on the plane); morph corrected table->math in amend commit 2"
   }
  ]
 }
