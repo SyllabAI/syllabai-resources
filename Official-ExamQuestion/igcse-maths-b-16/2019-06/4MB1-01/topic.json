@@ -717,7 +717,7 @@
      "part_number": "16(a)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "Calculate an estimate for the number of times the spinner will land on number 1",
+     "problem_md": "Here is a biased spinner labelled 1, 2, 3, 4, 5, 6\n\n![spinner diagram — official paper figure (qp.pdf p.9)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2019-06/4MB1-01/assets/asset_16_spinner.png)\n\nThe table below shows information about the probability that when the spinner is spun once it will land on each of the numbers 1, 2, 3, 4, 5, 6 \n\n| Number | 1 | 2 | 3 | 4 | 5 | 6 |\n| --- | --- | --- | --- | --- | --- | --- |\n| Probability | 0.05 | 0.1 | $2x - 0.1$ | 0.2 | 0.3 | $3x + 0.2$ |\n\n Abdul is going to spin the spinner 300 times.\n\nCalculate an estimate for the number of times the spinner will land on number 1",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "15 1 B1",
@@ -729,15 +729,42 @@
       }
      ],
      "source_page": 9,
-     "assets": [],
+     "assets": [
+      {
+       "id": "asset_16_spinner",
+       "source": "qp.pdf",
+       "render": "vector",
+       "kind": "crop",
+       "mention": "diagram",
+       "page": 9,
+       "review": true,
+       "shared": false,
+       "path": "assets/asset_16_spinner.png"
+      }
+     ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record f3fcd974 (run-038) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 5f209324+f3fcd974 (run-037+run-038) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "16(b)",
@@ -925,7 +952,7 @@
      "part_number": "20",
      "marks": 4,
      "question_type": "structured",
-     "problem_md": "The incomplete histogram and the incomplete table give information about the time taken, in minutes, for some students to each complete a piece of homework. No student took less than 10 minutes to complete the homework and no student took longer than 60 minutes to complete the homework. Frequency density 10 20 30 40 50 60 70 Time taken (t minutes) Time taken (t minutes) Number of students 10 ⩽ t < 20 20 ⩽ t < 25 25 ⩽ t < 30 30 ⩽ t < 45 45 ⩽ t < 60 Complete the histogram and the table.",
+     "problem_md": "The incomplete histogram and the incomplete table give information about the time taken, in minutes, for some students to each complete a piece of homework. No student took less than 10 minutes to complete the homework and no student took longer than 60 minutes to complete the homework.\n\n| Time taken ($t$ minutes) | Number of students |\n| --- | --- |\n| $10 \\le t < 20$ |  |\n| $20 \\le t < 25$ |  |\n| $25 \\le t < 30$ |  |\n| $30 \\le t < 45$ |  |\n| $45 \\le t < 60$ |  |\n\nComplete the histogram and the table.\n\n![histogram — official paper figure (qp.pdf p.13)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2019-06/4MB1-01/assets/asset_20_table.png)",
      "choices": [],
      "implicit_single_part": true,
      "answer_status": "linked",
@@ -953,12 +980,21 @@
      ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [problem_md]"
+      }
+     ]
     }
    ],
    "groups": {}

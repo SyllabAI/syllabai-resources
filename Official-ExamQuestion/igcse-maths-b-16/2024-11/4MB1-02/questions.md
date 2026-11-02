@@ -494,9 +494,17 @@ Chetan owns a fruit shop. In January, Chetan sold 560 kg of citrus fruit. In Feb
 
 ### 8(a) [2]
 
-Calculate the percentage decrease in the weight of citrus fruit sold. The table below shows the weight of citrus fruit, the weight of berries and the weight of tropical fruit Chetan sold in March. Fruit type Weight sold citrus 508 kg berries 126 kg tropical 86 kg Chetan is going to draw a pie chart for this information.
+Chetan owns a fruit shop. In January, Chetan sold 560 kg of citrus fruit. In February, Chetan sold 518 kg of citrus fruit.
 
-![table — official paper figure (qp.pdf p.20)](assets/asset_8_a_table.png)
+Calculate the percentage decrease in the weight of citrus fruit sold. The table below shows the weight of citrus fruit, the weight of berries and the weight of tropical fruit Chetan sold in March.
+
+| Fruit type | Weight sold |
+| --- | --- |
+| citrus | 508 kg |
+| berries | 126 kg |
+| tropical | 86 kg |
+
+Chetan is going to draw a pie chart for this information.
 
 
 **Mark scheme answer**
@@ -513,9 +521,15 @@ Calculate the percentage decrease in the weight of citrus fruit sold. The table 
 
 ### 8(b) [2]
 
-Calculate the size, in degrees, of the angle of the sector in the pie chart for the weight of berries sold in March. The table below gives information about the weight, in kg, of berries sold on each of the 30 days in April. Weight (w kg) Frequency 0 < w ≤ 5 10 5 < w ≤ 10 7 10 < w ≤ 15 6 15 < w ≤ 20 5 20 < w ≤ 25 2
+Calculate the size, in degrees, of the angle of the sector in the pie chart for the weight of berries sold in March. The table below gives information about the weight, in kg, of berries sold on each of the 30 days in April.
 
-![table — official paper figure (qp.pdf p.20) — shared with 8(a)](assets/asset_8_a_table.png)
+| Weight ($w$ kg) | Frequency |
+| --- | --- |
+| $0 < w \le 5$ | 10 |
+| $5 < w \le 10$ | 7 |
+| $10 < w \le 15$ | 6 |
+| $15 < w \le 20$ | 5 |
+| $20 < w \le 25$ | 2 |
 
 
 **Mark scheme answer**

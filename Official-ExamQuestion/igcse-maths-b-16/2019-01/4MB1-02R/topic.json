@@ -119,7 +119,7 @@
      "part_number": "2(a)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Complete the table of values for y = x² − 3x + 1 x −1 0 1 2 3 4 5 y −1 1 5\n\n![table — official paper figure (qp.pdf p.4)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2019-01/4MB1-02R/assets/asset_2_a_table.png)",
+     "problem_md": "Complete the table of values for $y = x^2 - 3x + 1$\n\n| $x$ | $-1$ | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| $y$ |  |  | $-1$ |  | $1$ | $5$ |  |",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "5, 1, −1, 11 2 B2 all correct or B1 for 2 or 3 correct",
@@ -131,33 +131,36 @@
       }
      ],
      "source_page": 4,
-     "assets": [
-      {
-       "id": "asset_2_a_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 4,
-       "review": false,
-       "path": "assets/asset_2_a_table.png",
-       "render": "vector",
-       "text_coverage": 0.317
-      }
-     ],
+     "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "2(b)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "On the grid opposite, plot the points from your completed table and join them to form a smooth curve.",
+     "problem_md": "On the grid opposite, plot the points from your completed table and join them to form a smooth curve.\n\n![grid — official paper figure (qp.pdf p.5)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2019-01/4MB1-02R/assets/asset_2_b_grid.png)\n\n| $x$ | $-1$ | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| $y$ |  |  | $-1$ |  | $1$ | $5$ |  |",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "(–1,5)(0,1)(1, –1)(2, –1)(3,1)(4,5)(5,11) Correct 2 B1 Completely correct curve.\ncurve\nB1ft for at least 5 points correctly plotted\nand joined.",
@@ -172,37 +175,40 @@
      "assets": [
       {
        "id": "asset_2_b_grid",
+       "source": "qp.pdf",
+       "render": "vector",
+       "text_coverage": 0.047,
        "kind": "crop",
        "mention": "grid",
-       "source": "qp.pdf",
        "page": 5,
        "review": true,
-       "path": "assets/asset_2_b_grid.png",
-       "render": "vector",
-       "text_coverage": 0.047
-      },
-      {
-       "id": "asset_2_b_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 4,
-       "review": false,
-       "path": "assets/asset_2_a_table.png",
-       "render": "vector",
-       "text_coverage": 0.317,
-       "shared": true,
-       "ref_part": "2(a)"
+       "shared": false,
+       "path": "assets/asset_2_b_grid.png"
       }
      ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "2(c)",
@@ -1047,7 +1053,7 @@
      "part_number": "9",
      "marks": 5,
      "question_type": "structured",
-     "problem_md": "Frequency density 0 10 20 30 40 50 60 Time (minutes) Figure 4 Figure 4 shows a histogram that gives information about the time, in minutes, each of 440 people spent in a supermarket. Two people are chosen at random from the 440 people. Calculate an estimate, to 3 significant figures, for the probability that both of these people spent more than 45 minutes in the supermarket.",
+     "problem_md": "![Figure 4 — histogram, official paper figure (qp.pdf p.30)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2019-01/4MB1-02R/assets/asset_9_histogram.png)\n\nFigure 4 shows a histogram that gives information about the time, in minutes, each of 440 people spent in a supermarket. Two people are chosen at random from the 440 people. Calculate an estimate, to 3 significant figures, for the probability that both of these people spent more than 45 minutes in the supermarket.",
      "choices": [],
      "implicit_single_part": true,
      "answer_status": "linked",
@@ -1059,15 +1065,42 @@
        "text_md": "eg (3×5+2×15+3.6×10+0.6×20+1.7×10) M1 for use of area of bar, showing at least\nor 2 products or for statement such as 44\n(6×5+4×15+7.2×10+1.2×20+3.4×10) blocks of 25 squares or 11 blocks of 100\nor squares. Allow 44 squares. Implied by\n(30×5+20×15+36×10+6×20+17×10) following Method mark\nM1 for complete method to find total area\n(3×5+2×15+3.6×10+0.6×20+1.7×10) [= 110] of bars\nor 8\n(6×5+4×15+7.2×10+1.2×20+3.4×10) [=220] or for >45 = or or\nor 44 11\n(30×5+20×15+36×10+6×20+17×10) [=1100] for FD scale of 1cm = FD of 2 , 0.4 [per\nsmall square] oe\nM1 for correct method to find frequency of\nfreq of 30 – 50 bar = 20 × 2.4 [=48] 30-50 or 50-60 bar or 45 – 50 or for\nor freq of 50 – 60 bar = 10 × 6.8[=68] 8\nor freq of 45 – 50 = 5 × 2.4[=12] × 440 or × 440 oe\n44\n\"80\" \"80\"− 1\n× M1 oe\n440 439\n158\nA1 0.032718989..., awrt 0.0327\n0.0327 5 4829"
       }
      ],
-     "assets": [],
+     "assets": [
+      {
+       "id": "asset_9_histogram",
+       "source": "qp.pdf",
+       "render": "vector",
+       "kind": "crop",
+       "mention": "diagram",
+       "page": 30,
+       "review": true,
+       "shared": false,
+       "path": "assets/asset_9_histogram.png"
+      }
+     ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record f3fcd974 (run-038) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record f3fcd974 (run-038) [problem_md]"
+      }
+     ]
     }
    ],
    "groups": {}

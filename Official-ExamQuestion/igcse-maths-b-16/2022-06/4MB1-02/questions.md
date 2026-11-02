@@ -8,9 +8,17 @@ The GDP per capita for a region is defined as follows total GDP GDP per capita =
 
 ### 1 [6]
 
-The GDP per capita for a region is defined as follows total GDP GDP per capita = population Complete the table below, giving each value to 2 significant figures. Region Total GDP Population GDP per capita Grenada 1.23 ×109 112 000 Hungary 1.61 ×1011 16 500 World 7.67 ×109 11 400
+The GDP per capita for a region is defined as follows
 
-![table — official paper figure (qp.pdf p.2) — shared with asset_1_q_table_stem](assets/asset_1_q_table_stem.png)
+$\text{GDP per capita} = \frac{\text{total GDP}}{\text{population}}$
+
+Complete the table below, giving each value to 2 significant figures.
+
+| Region | Total GDP | Population | GDP per capita |
+| --- | --- | --- | --- |
+| Grenada | $1.23 \times 10^9$ | 112 000 |  |
+| Hungary | $1.61 \times 10^{11}$ |  | 16 500 |
+| World |  | $7.67 \times 10^9$ | 11 400 |
 
 
 **Mark scheme answer**
@@ -176,9 +184,16 @@ Write down the class interval that contains the median time spent on the interne
 
 ### 4(b) [4]
 
-Calculate an estimate for the mean time spent on the internet per day. Sophie drew a histogram for the information in the table. In her histogram, the bar for the class interval 30 ≤ t < 60 is a square with sides of length 3 cm. Given that the bar for the class interval 10 ≤ t < 30 is a rectangle of width w cm and of height h cm …………… , ……………![table — official paper figure (qp.pdf p.8) (same figure as asset_4_b_table_stem)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-06/4MB1-02/assets/asset_4_b_table_stem.png)
+Calculate an estimate for the mean time spent on the internet per day. Sophie drew a histogram for the information in the table. In her histogram, the bar for the class interval $30 \le t < 60$ is a square with sides of length 3 cm. Given that the bar for the class interval $10 \le t < 30$ is a rectangle of width $w$ cm and of height $h$ cm
 
-![table — official paper figure (qp.pdf p.8) — shared with asset_4_b_table_stem](assets/asset_4_b_table_stem.png)
+| Time ($t$ minutes) | Frequency |
+| --- | --- |
+| $0 \le t < 10$ | 5 |
+| $10 \le t < 30$ | 7 |
+| $30 \le t < 60$ | 15 |
+| $60 \le t < 120$ | 36 |
+| $120 \le t < 240$ | 19 |
+| $240 \le t < 360$ | 8 |
 
 
 **Mark scheme answer**
@@ -649,9 +664,11 @@ Find, to 3 significant figures, the value of x such that =0 dx 2a Question 10 pa
 
 ### 10(c) [2]
 
-Complete the following table of values for V = 4x 3 – 60x 2 + 200x x 0 1 1.5 2.5 3 3.5 4 5 V 0 144 178.5 187.5 136.5 0
+Complete the following table of values for $V = 4x^3 - 60x^2 + 200x$
 
-![table — official paper figure (qp.pdf p.26)](assets/asset_10_c_table.png)
+| $x$ | $0$ | $1$ | $1.5$ | $2.5$ | $3$ | $3.5$ | $4$ | $5$ |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| $V$ | $0$ | $144$ | $178.5$ | $187.5$ |  | $136.5$ |  | $0$ |
 
 
 **Mark scheme answer**
@@ -664,9 +681,13 @@ Complete the following table of values for V = 4x 3 – 60x 2 + 200x x 0 1 1.5 2
 
 On the grid opposite, plot the points from your completed table and, using your answer to part (b), join them to form a smooth curve.
 
-![grid — official paper figure (qp.pdf p.27)](assets/asset_10_d_grid.png)
+![grid — official paper figure (qp.pdf p.27)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-06/4MB1-02/assets/asset_10_d_grid.png)
 
-![table — official paper figure (qp.pdf p.26) — shared with 10(c)](assets/asset_10_c_table.png)
+| $x$ | $0$ | $1$ | $1.5$ | $2.5$ | $3$ | $3.5$ | $4$ | $5$ |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| $V$ | $0$ | $144$ | $178.5$ | $187.5$ |  | $136.5$ |  | $0$ |
+
+![grid — official paper figure (qp.pdf p.27)](assets/asset_10_d_grid.png)
 
 
 **Mark scheme answer**

@@ -843,7 +843,7 @@
      "part_number": "9(a)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Complete the table of values for the graph. x –4 –3 –2 –1 – 0.5 0.5 1 2 3 4 y 1.25 – 0.42 – 0.94 – 4.94 – 2.5 –1.08 0.75",
+     "problem_md": "A graph has equation $y = \\frac{x^2}{4} - 3 - \\frac{1}{x} \\quad x \\ne 0$\n\nComplete the table of values for the graph.\n\n| $x$ | $-4$ | $-3$ | $-2$ | $-1$ | $-0.5$ | $0.5$ | $1$ | $2$ | $3$ | $4$ |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| $y$ | $1.25$ | $-0.42$ |  |  | $-0.94$ | $-4.94$ |  | $-2.5$ | $-1.08$ | $0.75$ |\n\n![graph — official paper figure (qp.pdf p.25)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2024-06/4MB1-02/assets/asset_9_a_graph.png)",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "–1.5, –1.75, 2 B2 All 3 values correct\n–3.75 (B1 2 values correct or if have –1.5, –1.8, –3.8)",
@@ -858,41 +858,46 @@
      "assets": [
       {
        "id": "asset_9_a_graph",
+       "source": "qp.pdf",
+       "render": "vector",
+       "text_coverage": 0.059,
        "kind": "crop",
        "mention": "graph",
-       "source": "qp.pdf",
        "page": 25,
        "review": true,
-       "path": "assets/asset_9_a_graph.png",
-       "render": "vector",
-       "text_coverage": 0.059
-      },
-      {
-       "id": "asset_9_a_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 24,
-       "review": false,
-       "path": "assets/asset_9_a_table.png",
-       "render": "vector",
-       "text_coverage": 0.34
+       "shared": false,
+       "path": "assets/asset_9_a_graph.png"
       }
      ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "9(b)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "On the grid opposite, plot the points from your completed table and draw the graph 1 2 1 y x 4 x",
+     "problem_md": "On the grid opposite, plot the points from your completed table and draw the graph $y = \\frac{x^2}{4} - 3 - \\frac{1}{x}$\n\n| $x$ | $-4$ | $-3$ | $-2$ | $-1$ | $-0.5$ | $0.5$ | $1$ | $2$ | $3$ | $4$ |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| $y$ | $1.25$ | $-0.42$ |  |  | $-0.94$ | $-4.94$ |  | $-2.5$ | $-1.08$ | $0.75$ |",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "3 B1 correct shape between x = –0.5 and x = 0 Points not joined and the\ncurve must go above the x – axis between –0.5 and 0 and not cross the\ny-axis.\nB2 At least 8 points plotted correctly and joined with a reasonably\nsmooth curve to form the 2 parts. Condone the points at x = –0.5 and\nx = 0.5 being joined to form 1 curve (ie condone crossing the y-axis) Do\nnot allow straight lines for B2 (B1 for at least 6 points plotted correctly)\nNB for the 2 points at x = 0.5 and 3 check they are close to –1",
@@ -904,61 +909,36 @@
       }
      ],
      "source_page": 24,
-     "assets": [
-      {
-       "id": "asset_9_b_graph",
-       "kind": "crop",
-       "mention": "graph",
-       "source": "qp.pdf",
-       "page": 24,
-       "review": false,
-       "path": "assets/asset_9_a_table.png",
-       "render": "vector",
-       "text_coverage": 0.34,
-       "shared": true,
-       "ref_part": "9(a)"
-      },
-      {
-       "id": "asset_9_b_grid",
-       "kind": "crop",
-       "mention": "grid",
-       "source": "qp.pdf",
-       "page": 24,
-       "review": false,
-       "path": "assets/asset_9_a_table.png",
-       "render": "vector",
-       "text_coverage": 0.34,
-       "shared": true,
-       "ref_part": "9(a)"
-      },
-      {
-       "id": "asset_9_b_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 24,
-       "review": false,
-       "path": "assets/asset_9_a_table.png",
-       "render": "vector",
-       "text_coverage": 0.34,
-       "shared": true,
-       "ref_part": "9(a)"
-      }
-     ],
+     "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "9(c)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "Using your graph, find estimates, to one decimal place, of the solutions of the equation 1 2 1 x 3 4 x",
+     "problem_md": "Using your graph, find estimates, to one decimal place, of the solutions of the equation $\\frac{x^2}{4} - 3 = \\frac{1}{x}$",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "3.6, –3.3, –0.3 1 B1 Allow ±0.1 Do not allow extra values",
@@ -970,35 +950,36 @@
       }
      ],
      "source_page": 24,
-     "assets": [
-      {
-       "id": "asset_9_c_graph",
-       "kind": "crop",
-       "mention": "graph",
-       "source": "qp.pdf",
-       "page": 24,
-       "review": false,
-       "path": "assets/asset_9_a_table.png",
-       "render": "vector",
-       "text_coverage": 0.34,
-       "shared": true,
-       "ref_part": "9(a)"
-      }
-     ],
+     "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "9(d)",
      "marks": 4,
      "question_type": "structured",
-     "problem_md": "By drawing a suitable line on the grid, find the range of values, to one decimal place, of x in −4 ≤ x ≤ 4 for which 1 2 1 x − 2 − ≤0 4 x\n\n![graph — official paper figure (qp.pdf p.24) (same figure as 9(a))](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2024-06/4MB1-02/assets/asset_9_a_table.png)\n\n![grid — official paper figure (qp.pdf p.25) (same figure as asset_9_a_graph)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2024-06/4MB1-02/assets/asset_9_a_graph.png)",
+     "problem_md": "By drawing a suitable line on the grid, find the range of values, to one decimal place, of $x$ in $-4 \\le x \\le 4$ for which $\\frac{x^2}{4} - 3 - \\frac{1}{x} \\le 0$\n\n![grid — official paper figure (qp.pdf p.25) (same figure as asset_9_a_graph)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2024-06/4MB1-02/assets/asset_9_a_graph.png)",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "Line y = −1 drawn 4 M1 for the line y = −1 drawn on the grid from –4 to 4\n–2.5, –0.5, 3.1 A1 dep on M1 For 3 correct values allow ±0.2 must agree with their\nhorizontal line and graph. Condone incorrect extras. May be seen as\npart of inequalities or coordinates\nA0 if values are given to 3dp or more\nFor reference x = –2.534070197, –0.517304045, 3.051374242\n−2.5 x − 0.5 or 0 < x < 3.1 M1 dependent on a horizontal line being drawn at y = –1 One correct\nrange using the correct values ±0.2 which must agree with their\nhorizontal line and graph. Allow < for and for <\nSC If drawn y = 1 allow for a correct inequality −3.9 x − 0.3 or\n0 < x < 4.1 (all values ±0.2 )\nA1 dep on first M1\n−2.5 x − 0.5 Allow x − 2.5 [and] x − 0.5 for −2.5 x − 0.5\nand 0 < x < 3.1 Allow x > 0 [and] x < 3.1 for 0 < x < 3.1\nmust have 0 < but the others we will allow < or or >\nAllow other notation eg [–2.5, –0.5] or (0,3.1] allow curved brackets for\nsquare brackets NB Allow −2.5, −0.5 and 3.1 all ± 0.2 but must have 0",
@@ -1012,40 +993,42 @@
      "source_page": 24,
      "assets": [
       {
-       "id": "asset_9_d_graph",
-       "kind": "crop",
-       "mention": "graph",
-       "source": "qp.pdf",
-       "page": 24,
-       "review": false,
-       "path": "assets/asset_9_a_table.png",
-       "render": "vector",
-       "text_coverage": 0.34,
-       "shared": true,
-       "ref_part": "9(a)"
-      },
-      {
        "id": "asset_9_d_grid",
-       "kind": "crop",
-       "mention": "grid",
        "source": "qp.pdf",
-       "page": 25,
-       "review": false,
-       "path": "assets/asset_9_a_graph.png",
        "render": "vector",
        "text_coverage": 0.059,
+       "kind": "crop",
+       "mention": "grid",
+       "page": 25,
+       "review": false,
        "shared": true,
-       "ref_part": "asset_9_a_graph"
+       "ref_part": "asset_9_a_graph",
+       "path": "assets/asset_9_a_graph.png"
       }
      ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [problem_md]"
+      }
+     ]
     }
    ],
    "groups": {}

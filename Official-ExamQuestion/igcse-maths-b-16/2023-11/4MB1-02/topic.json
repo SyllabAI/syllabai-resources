@@ -31,7 +31,7 @@
      "part_number": "1(a)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "The table shows information about 5 lakes in the Lake District. Name Surface area (m²) Volume (m³) Windermere 1.5 × 107 3.1 × 108 Ullswater 8.9 × 106 2.2 × 108 Thirlmere 3.3 × 106 5.0 × 107 Wastwater 2.9 × 106 1.1 × 108 Ennerdale Water 3.0 × 106 5.4 × 107\n\nWrite 3.3 × 106 as an ordinary number. Elter Water is another lake and has a volume of 500 000\n\n…………… m³",
+     "problem_md": "The table shows information about 5 lakes in the Lake District. \n\n| Name | Surface area (m²) | Volume (m³) |\n| --- | --- | --- |\n| Windermere | $1.5 \\times 10^{7}$ | $3.1 \\times 10^{8}$ |\n| Ullswater | $8.9 \\times 10^{6}$ | $2.2 \\times 10^{8}$ |\n| Thirlmere | $3.3 \\times 10^{6}$ | $5.0 \\times 10^{7}$ |\n| Wastwater | $2.9 \\times 10^{6}$ | $1.1 \\times 10^{8}$ |\n| Ennerdale Water | $3.0 \\times 10^{6}$ | $5.4 \\times 10^{7}$ |\n\nWrite 3.3 × 106 as an ordinary number. Elter Water is another lake and has a volume of 500 000\n\n…………… m³",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "3 300 000 1 B1",
@@ -45,12 +45,21 @@
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 5f209324 (run-037) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "1(b)",
@@ -465,7 +474,7 @@
      "part_number": "6(a)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "Write down the class interval that contains the median time.",
+     "problem_md": "The table gives information about the time, in minutes, spent in a supermarket by 65 customers. \n\n| Time ($t$ minutes) | Frequency |\n| --- | --- |\n| $0 < t \\le 15$ | 15 |\n| $15 < t \\le 25$ | 21 |\n| $25 < t \\le 30$ | 20 |\n| $30 < t \\le 40$ | 8 |\n| $40 < t \\le 60$ | 1 |\n\nWrite down the class interval that contains the median time.",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "15 < t 25 1 B1 condone < for and for <",
@@ -480,12 +489,21 @@
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 5f209324 (run-037) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "6(b)",
@@ -517,7 +535,7 @@
      "part_number": "6(c)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "Calculate the probability that the customer spent more than 30 minutes in the supermarket. The histogram below shows information about the time, in minutes, spent in the checkout queue for each of these 65 customers. Frequency density 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 Time in minutes There were 15 customers who spent between 5 and 10 minutes in the queue.",
+     "problem_md": "Calculate the probability that the customer spent more than 30 minutes in the supermarket. The histogram below shows information about the time, in minutes, spent in the checkout queue for each of these 65 customers. ![histogram — official paper figure (qp.pdf p.10)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2023-11/4MB1-02/assets/asset_6_c_histogram.png) There were 15 customers who spent between 5 and 10 minutes in the queue.",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "9 1 B1 awrt 0.14",
@@ -529,15 +547,42 @@
       }
      ],
      "source_page": 10,
-     "assets": [],
+     "assets": [
+      {
+       "id": "asset_6_c_histogram",
+       "source": "qp.pdf",
+       "render": "vector",
+       "kind": "crop",
+       "mention": "diagram",
+       "page": 10,
+       "review": true,
+       "shared": false,
+       "path": "assets/asset_6_c_histogram.png"
+      }
+     ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record f3fcd974 (run-038) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record f3fcd974 (run-038) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "6(d)",
@@ -740,7 +785,7 @@
      "part_number": "8(b)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "On the grid opposite, plot the points from your completed table and join them to form a smooth curve.\n\n> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*\n\n![table — official paper figure (qp.pdf p.16) (same figure as asset_8_b_table_stem)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2023-11/4MB1-02/assets/asset_8_b_table_stem.png)",
+     "problem_md": "On the grid opposite, plot the points from your completed table and join them to form a smooth curve.\n\n> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "2 B2 Fully correct graph.\n( B1 All points plotted correctly or at least 4 points plotted\ncorrectly with a smooth curve joining them. Do not ft any\nincorrect values)",
@@ -755,37 +800,39 @@
      "assets": [
       {
        "id": "asset_8_b_grid",
+       "source": "qp.pdf",
        "kind": "crop",
        "mention": "figure",
-       "source": "qp.pdf",
        "page": 16,
        "review": true,
        "shared": false,
        "path": "assets/asset_8_8-b.png",
        "note": "run-012 machine-staged (adjacent+1(no-block)); supersedes crop-required:"
-      },
-      {
-       "id": "asset_8_b_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 16,
-       "review": false,
-       "path": "assets/asset_8_b_table_stem.png",
-       "render": "vector",
-       "text_coverage": 0.379,
-       "shared": true,
-       "ref_part": "asset_8_b_table_stem"
       }
      ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "8(c)",

@@ -380,6 +380,16 @@ The table below shows information about the time, in minutes, it takes each of 5
 
 ### 8(a) [4]
 
+The table below shows information about the time, in minutes, it takes each of 50 teachers to travel to work. 
+
+| Time ($t$ minutes) | Frequency |
+| --- | --- |
+| $20 < t \le 22$ | 4 |
+| $22 < t \le 25$ | 6 |
+| $25 < t \le 30$ | 23 |
+| $30 < t \le 35$ | 12 |
+| $35 < t \le 60$ | 5 |
+
 Calculate an estimate, in minutes, for the mean time it takes for these 50 teachers to travel to work. Below is some information about how these 50 teachers travel to work. n teachers walk and travel by bus 21 teachers walk 34 teachers travel by bus 6 teachers do not walk and do not travel by bus Rosa selects at random 2 teachers from those who walk.
 
 

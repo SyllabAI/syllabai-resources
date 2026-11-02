@@ -916,7 +916,7 @@
      "part_number": "10(d)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "On the grid opposite, plot the points from your completed table and join them to form a smooth curve.",
+     "problem_md": "On the grid opposite, plot the points from your completed table and join them to form a smooth curve.\n\n![grid — official paper figure (qp.pdf p.27)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2025-06/4MB1-02/assets/asset_10_d_grid.png)\n\n| $x$ | $-2$ | $-1.5$ | $-1$ | $-0.5$ | $0$ | $0.5$ | $1$ | $1.5$ | $2$ | $2.5$ |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| $y$ | $-4$ | $-0.9$ |  |  | $-2$ | $-3.4$ | $-4$ |  | $0$ | $6.1$ |",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "Curve drawn 3 B3 Fully correct smooth curve ±1 small square. Allow if curve goes\nthrough points, even if the points are not plotted.\n(B2 for at least 7 points plotted correctly ±1 small square or a curve/line\nsegments that goes through at least 7 correct points ±1 small square .\n(B1 For at least 5 points plotted correctly ±1 small square or a curve/line\nsegments that goes through at least 5 correct points ±1 small square.",
@@ -931,37 +931,40 @@
      "assets": [
       {
        "id": "asset_10_d_grid",
+       "source": "qp.pdf",
+       "render": "vector",
+       "text_coverage": 0.056,
        "kind": "crop",
        "mention": "grid",
-       "source": "qp.pdf",
        "page": 27,
        "review": true,
-       "path": "assets/asset_10_d_grid.png",
-       "render": "vector",
-       "text_coverage": 0.056
-      },
-      {
-       "id": "asset_10_d_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 26,
-       "review": false,
-       "path": "assets/asset_10_d_table_stem.png",
-       "render": "vector",
-       "text_coverage": 0.385,
-       "shared": true,
-       "ref_part": "asset_10_d_table_stem"
+       "shared": false,
+       "path": "assets/asset_10_d_grid.png"
       }
      ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "10(e)",

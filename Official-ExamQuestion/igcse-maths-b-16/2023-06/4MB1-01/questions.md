@@ -441,11 +441,21 @@ The table gives information about the weights, in grams, of 100 birds. Weight (w
 
 ### 17 [3]
 
-The table gives information about the weights, in grams, of 100 birds. Weight (w grams) Frequency 85 < w ≤ 95 15 95 < w ≤ 100 25 100 < w ≤ 105 22 105 < w ≤ 110 20 110 < w ≤ 130 18 Use the information in the table to draw a histogram on the grid below. Frequency density 80 90 100 110 120 130 Weight in grams
+The table gives information about the weights, in grams, of 100 birds.
+
+| Weight ($w$ grams) | Frequency |
+| --- | --- |
+| $85 < w \le 95$ | 15 |
+| $95 < w \le 100$ | 25 |
+| $100 < w \le 105$ | 22 |
+| $105 < w \le 110$ | 20 |
+| $110 < w \le 130$ | 18 |
+
+Use the information in the table to draw a histogram on the grid below. Frequency density 80 90 100 110 120 130 Weight in grams
+
+![grid — official paper figure (qp.pdf p.11)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2023-06/4MB1-01/assets/asset_17_grid.png)
 
 ![grid — official paper figure (qp.pdf p.11)](assets/asset_17_grid.png)
-
-![table — official paper figure (qp.pdf p.11)](assets/asset_17_table.png)
 
 
 **Mark scheme answer**
@@ -516,6 +526,14 @@ Here are eight numbers written in ascending order. −20 −15 3 5 x 77 85 90 Th
 A biased dice has six faces numbered 2, 4, 6, 8, 10 and 12 The table below shows information about the probability that, when the dice is thrown once, it will land on each of the numbers. Number 2 4 6 8 10 12 Probability a 0.22 − a 0.20 1.5a a + 0.03 2a + 0.01 The dice is thrown once.
 
 ### 19(a) [1]
+
+A biased dice has six faces numbered 2, 4, 6, 8, 10 and 12 The table below shows information about the probability that, when the dice is thrown once, it will land on each of the numbers. 
+
+| Number | 2 | 4 | 6 | 8 | 10 | 12 |
+| --- | --- | --- | --- | --- | --- | --- |
+| Probability | $a$ | $0.22 - a$ | 0.20 | $1.5a$ | $a + 0.03$ | $2a + 0.01$ |
+
+ The dice is thrown once.
 
 Calculate the probability that the number the dice lands on is less than 7 The dice is thrown 80 times.
 

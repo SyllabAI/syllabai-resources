@@ -331,7 +331,7 @@
      "part_number": "3(a)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "The equation of a curve is y = −2x3 + 6x + x²\n\nComplete the table of values for y = −2x3 + 6x + x² Give your values of y to 2 decimal places where necessary. x −2 −1.8 −1.7 −1.6 −1.4 −1.2 −1 −0.9 −0.8 y 5.25 2.41 0.55 −0.36 1 4.04\n\n![table — official paper figure (qp.pdf p.8)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2021-01/4MB1-02R/assets/asset_3_a_table.png)",
+     "problem_md": "The equation of a curve is $y = -2x^3 + 6x + \\frac{5}{x^2}$\n\nComplete the table of values for $y = -2x^3 + 6x + \\frac{5}{x^2}$ Give your values of $y$ to 2 decimal places where necessary.\n\n| $x$ | $-2$ | $-1.8$ | $-1.7$ | $-1.6$ | $-1.4$ | $-1.2$ | $-1$ | $-0.9$ | $-0.8$ |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| $y$ | $5.25$ | $2.41$ |  | $0.55$ | $-0.36$ |  | $1$ |  | $4.04$ |",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "1.36, −0.27, 2 B2 awrt. Penalise rounding to 1dp once only.\n2.23 (−1eeoo)",
@@ -343,33 +343,36 @@
       }
      ],
      "source_page": 8,
-     "assets": [
-      {
-       "id": "asset_3_a_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 8,
-       "review": false,
-       "path": "assets/asset_3_a_table.png",
-       "render": "vector",
-       "text_coverage": 0.432
-      }
-     ],
+     "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "3(b)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "On the grid opposite, plot the points from your completed table and join them to form a smooth curve.",
+     "problem_md": "On the grid opposite, plot the points from your completed table and join them to form a smooth curve.\n\n![grid — official paper figure (qp.pdf p.9)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2021-01/4MB1-02R/assets/asset_3_b_grid.png)\n\n| $x$ | $-2$ | $-1.8$ | $-1.7$ | $-1.6$ | $-1.4$ | $-1.2$ | $-1$ | $-0.9$ | $-0.8$ |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| $y$ | $5.25$ | $2.41$ |  | $0.55$ | $-0.36$ |  | $1$ |  | $4.04$ |",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "Plots 9 points with at least 6 correct ± 1 3 M1 Attempts to plot the 9 points with at least 6 correct\nsmall square ±1 small square. (Allow if curve goes through the points)\nDraws a smooth curve through at least 6 M1 drawing a smooth curve through at least 6 of their\npoints points. Do not allow if they use straight lines. Allow ±1\nsmall square from their point.\nFully correct A1 A fully correct curve. All Points plotted correctly with\ncurve a smooth curve through all the points.",
@@ -384,37 +387,40 @@
      "assets": [
       {
        "id": "asset_3_b_grid",
+       "source": "qp.pdf",
+       "render": "vector",
+       "text_coverage": 0.04,
        "kind": "crop",
        "mention": "grid",
-       "source": "qp.pdf",
        "page": 9,
        "review": true,
-       "path": "assets/asset_3_b_grid.png",
-       "render": "vector",
-       "text_coverage": 0.04
-      },
-      {
-       "id": "asset_3_b_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 8,
-       "review": false,
-       "path": "assets/asset_3_a_table.png",
-       "render": "vector",
-       "text_coverage": 0.432,
-       "shared": true,
-       "ref_part": "3(a)"
+       "shared": false,
+       "path": "assets/asset_3_b_grid.png"
       }
      ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "3(c)",

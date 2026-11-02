@@ -731,6 +731,16 @@ The table below gives some information about the distance travelled to work, in 
 
 ### 23(a) [1]
 
+The table below gives some information about the distance travelled to work, in km, each day by 60 people. 
+
+| Distance ($d$ km) | Frequency |
+| --- | --- |
+| $0 < d \le 2$ | 22 |
+| $2 < d \le 5$ | 13 |
+| $5 < d \le 10$ | 9 |
+| $10 < d \le 20$ | 12 |
+| $20 < d \le 40$ | 4 |
+
 Write down the modal class.
 
 

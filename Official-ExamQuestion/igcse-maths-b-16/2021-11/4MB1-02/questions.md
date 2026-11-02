@@ -150,9 +150,17 @@ Calculate an estimate for the mean time, in minutes, that these 200 people waite
 
 On the grid opposite, draw a histogram for the information in the table. Frequency density 0 10 20 30 40 50 60 70 80 Time in minutes
 
-![grid — official paper figure (qp.pdf p.7)](assets/asset_3_c_grid.png)
+![grid — official paper figure (qp.pdf p.7)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2021-11/4MB1-02/assets/asset_3_c_grid.png)
 
-![table — official paper figure (qp.pdf p.6) — shared with asset_3_c_table_stem](assets/asset_3_c_table_stem.png)
+| Time ($t$ minutes) | Frequency |
+| --- | --- |
+| $0 < t \le 5$ | 28 |
+| $5 < t \le 15$ | 74 |
+| $15 < t \le 35$ | 42 |
+| $35 < t \le 50$ | 36 |
+| $50 < t \le 75$ | 20 |
+
+![grid — official paper figure (qp.pdf p.7)](assets/asset_3_c_grid.png)
 
 
 **Mark scheme answer**
@@ -429,13 +437,13 @@ Here is the equation of a curve y = x3 − 3x − 1
 
 ### 7(a) [3]
 
-Here is the equation of a curve y = x³ − 3x − 1
+Here is the equation of a curve $y = x^3 - 3x - 1$
 
-Complete the table of values for y = x³ − 3x − 1, giving your values of y to 2 decimal places where necessary. x −2 −1.5 −1 −0.5 0 0.5 1 1.5 2 y 0.13 0.38 −3 −2.13 1
+Complete the table of values for $y = x^3 - 3x - 1$, giving your values of $y$ to 2 decimal places where necessary.
 
-![table — official paper figure (qp.pdf p.16)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2021-11/4MB1-02/assets/asset_7_a_table.png)
-
-![table — official paper figure (qp.pdf p.16)](assets/asset_7_a_table.png)
+| $x$ | $-2$ | $-1.5$ | $-1$ | $-0.5$ | $0$ | $0.5$ | $1$ | $1.5$ | $2$ |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| $y$ |  | $0.13$ |  | $0.38$ |  |  | $-3$ | $-2.13$ | $1$ |
 
 
 **Mark scheme answer**
@@ -448,9 +456,13 @@ Complete the table of values for y = x³ − 3x − 1, giving your values of y t
 
 On the grid opposite, plot the points from your completed table and join them to form a smooth curve.
 
-![grid — official paper figure (qp.pdf p.17)](assets/asset_7_b_grid.png)
+![grid — official paper figure (qp.pdf p.17)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2021-11/4MB1-02/assets/asset_7_b_grid.png)
 
-![table — official paper figure (qp.pdf p.16) — shared with 7(a)](assets/asset_7_a_table.png)
+| $x$ | $-2$ | $-1.5$ | $-1$ | $-0.5$ | $0$ | $0.5$ | $1$ | $1.5$ | $2$ |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| $y$ |  | $0.13$ |  | $0.38$ |  |  | $-3$ | $-2.13$ | $1$ |
+
+![grid — official paper figure (qp.pdf p.17)](assets/asset_7_b_grid.png)
 
 
 **Mark scheme answer**

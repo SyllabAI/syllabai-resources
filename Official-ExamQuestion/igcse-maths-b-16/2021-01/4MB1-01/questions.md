@@ -686,7 +686,18 @@ The incomplete histogram and the incomplete table give information about the dai
 
 ### 23 [5]
 
-The incomplete histogram and the incomplete table give information about the daily mean temperature for 184 days measured at Heathrow. None of the daily mean temperatures were less than 5°C and all the daily mean temperatures were less than 25°C. Frequency density 0 5 10 15 20 25 30 Daily mean temperature (T °C) Daily mean temperature (T °C) Number of days 5 ≤ t < 10 20 10 ≤ t < 15 80 15 ≤ t < 17 17 ≤ t < 25 Complete the histogram and the table.
+The incomplete histogram and the incomplete table give information about the daily mean temperature for 184 days measured at Heathrow. None of the daily mean temperatures were less than 5°C and all the daily mean temperatures were less than 25°C.
+
+| Daily mean temperature ($T$ °C) | Number of days |
+| --- | --- |
+| $5 \le t < 10$ | 20 |
+| $10 \le t < 15$ | 80 |
+| $15 \le t < 17$ |  |
+| $17 \le t < 25$ |  |
+
+Complete the histogram and the table.
+
+![histogram — official paper figure (qp.pdf p.20)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2021-01/4MB1-01/assets/asset_23_table.png)
 
 ![table — official paper figure (qp.pdf p.20)](assets/asset_23_table.png)
 

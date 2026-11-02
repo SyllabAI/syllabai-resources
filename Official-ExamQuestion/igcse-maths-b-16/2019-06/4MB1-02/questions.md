@@ -8,7 +8,19 @@ Malcolm is investigating the ages of the 200 members of a theatre company. The t
 
 ### 1(a) [2]
 
-Calculate the size, in degrees, of the angle of the sector in the pie chart for those members of the company whose age group is 40 t - 50
+Malcolm is investigating the ages of the 200 members of a theatre company. The table below gives information about the age group of each member of the company. 
+
+| Age ($t$ years) | Frequency |
+| --- | --- |
+| $10 < t \le 20$ | 23 |
+| $20 < t \le 30$ | 47 |
+| $30 < t \le 40$ | 56 |
+| $40 < t \le 50$ | 48 |
+| $50 < t \le 60$ | 26 |
+
+ Malcolm is going to draw a pie chart for this information.
+
+Calculate the size, in degrees, of the angle of the sector in the pie chart for those members of the company whose age group is $40 < t \le 50$
 
 
 **Mark scheme answer**
@@ -680,9 +692,11 @@ Show that V = (1/3)πr2(15 − 4r) ⎡ 1 2 ⎤ ⎢ Volume of cone = 3 πr h ⎥ 
 
 ### 11(c) [3]
 
-Complete the following table of values for V = (1/3)πr2(15 − 4r) Give your values of V to one decimal place. r 0 0.4 0.8 1.2 1.6 2.0 2.4 V 0 7.9 29.3 32.6
+Complete the following table of values for $V = \frac{1}{3}\pi r^2 (15 - 4r)$ Give your values of $V$ to 1 decimal place.
 
-![table — official paper figure (qp.pdf p.34)](assets/asset_11_c_table.png)
+| $r$ | $0$ | $0.4$ | $0.8$ | $1.2$ | $1.6$ | $2.0$ | $2.4$ |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| $V$ | $0$ |  | $7.9$ |  |  | $29.3$ | $32.6$ |
 
 
 **Mark scheme answer**
@@ -698,11 +712,11 @@ On the grid opposite, plot the points from your completed table and join them to
 
 ![grid — official paper figure (qp.pdf p.35)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2019-06/4MB1-02/assets/asset_11_d_grid.png)
 
-![table — official paper figure (qp.pdf p.34) (same figure as 11(c))](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2019-06/4MB1-02/assets/asset_11_c_table.png)
+| $r$ | $0$ | $0.4$ | $0.8$ | $1.2$ | $1.6$ | $2.0$ | $2.4$ |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| $V$ | $0$ |  | $7.9$ |  |  | $29.3$ | $32.6$ |
 
 ![grid — official paper figure (qp.pdf p.35)](assets/asset_11_d_grid.png)
-
-![table — official paper figure (qp.pdf p.34) — shared with 11(c)](assets/asset_11_c_table.png)
 
 
 **Mark scheme answer**

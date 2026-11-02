@@ -28,7 +28,13 @@ A pattern is made using a four by four grid with both grey squares and white squ
 
 ### 2(a) [1]
 
+A pattern is made using a four by four grid with both grey squares and white squares.
+
+![pattern grids — official paper figure (qp.pdf p.2)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2021-06/4MB1-01/assets/asset_2_grids.png)
+
 Shade one more square to make a pattern with exactly one line of symmetry.
+
+![diagram — official paper figure (qp.pdf p.2)](assets/asset_2_grids.png)
 
 
 **Mark scheme answer**

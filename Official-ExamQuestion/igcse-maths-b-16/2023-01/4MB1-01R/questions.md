@@ -890,9 +890,33 @@ Jenny has a shop. One Monday, each of the 40 people who went in Jenny’s shop w
 
 ### 26(a) [4]
 
-Calculate an estimate for the mean length of time, in minutes, that these people were in the shop minutes The incomplete table and the incomplete histogram give information about the number of kilometres each of the 40 people had travelled to get to the shop. Distance (k kilometres) Frequency 0 < k ≤ 10 4 10 < k ≤ 15 15 < k ≤ 30 30 < k ≤ 60 6 None of the people travelled more than 60 km. Frequency density 0 10 20 30 40 50 60 Distance (k kilometres)
+Jenny has a shop. One Monday, each of the 40 people who went in Jenny’s shop were asked how long they were in the shop. The table below shows information about the results.
 
-![table — official paper figure (qp.pdf p.22) — shared with asset_26_a_table_stem](assets/asset_26_a_table_stem.png)
+| Time ($t$ minutes) | Frequency |
+| --- | --- |
+| $0 < t \le 5$ | 10 |
+| $5 < t \le 15$ | 7 |
+| $15 < t \le 25$ | 5 |
+| $25 < t \le 30$ | 6 |
+| $30 < t \le 40$ | 12 |
+
+Calculate an estimate for the mean length of time, in minutes, that these people were in the shop
+
+The incomplete table and the incomplete histogram give information about the number of kilometres each of the 40 people had travelled to get to the shop.
+
+| Distance ($k$ kilometres) | Frequency |
+| --- | --- |
+| $0 < k \le 10$ | 4 |
+| $10 < k \le 15$ |  |
+| $15 < k \le 30$ |  |
+| $30 < k \le 60$ | 6 |
+
+None of the people travelled more than 60 km. Frequency density 0 10 20 30 40 50 60 Distance (k kilometres)
+
+![histogram — official paper figure (qp.pdf p.23)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2023-01/4MB1-01R/assets/asset_26_histogram.png)
+
+
+![diagram — official paper figure (qp.pdf p.23) — shared with ?](assets/asset_26_histogram.png)
 
 
 **Mark scheme answer**
@@ -913,7 +937,18 @@ Calculate an estimate for the mean length of time, in minutes, that these people
 
 Complete the histogram and the frequency table.
 
-![table — official paper figure (qp.pdf p.22) — shared with asset_26_a_table_stem](assets/asset_26_a_table_stem.png)
+| Time ($t$ minutes) | Frequency |
+| --- | --- |
+| $0 < t \le 5$ | 10 |
+| $5 < t \le 15$ | 7 |
+| $15 < t \le 25$ | 5 |
+| $25 < t \le 30$ | 6 |
+| $30 < t \le 40$ | 12 |
+
+![histogram — official paper figure (qp.pdf p.23)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2023-01/4MB1-01R/assets/asset_26_histogram.png)
+
+
+![diagram — official paper figure (qp.pdf p.23) — shared with ?](assets/asset_26_histogram.png)
 
 
 **Mark scheme answer**

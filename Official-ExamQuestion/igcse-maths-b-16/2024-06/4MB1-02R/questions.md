@@ -301,8 +301,6 @@ On the grid opposite, plot the points from your completed table and join them to
 
 ![grid — official paper figure (qp.pdf p.13)](assets/asset_5_b_grid.png)
 
-![table — official paper figure (qp.pdf p.11)](assets/asset_5_table.png)
-
 
 **Mark scheme answer**
 
@@ -481,7 +479,9 @@ Last week Aalia worked for 5 days and wrote down 5 integers that represent the d
 
 ### 8(b) [3]
 
-Aalia has 8 letters to deliver to Tom. The mean weight of the 8 letters is 104 grams. 5 of the letters are each of weight 89 grams. The mean weight of the remaining letters is A grams. Work out the value of A The histogram shows information about the weights of all the parcels Aalia has in her delivery van on Friday. Frequency density 0 2 4 6 8 10 12 Weight (kg) 75 of the parcels in the van each have a weight between 2 kg and 6 kg. Aalia takes 2 parcels at random from the van.
+Aalia has 8 letters to deliver to Tom. The mean weight of the 8 letters is 104 grams. 5 of the letters are each of weight 89 grams. The mean weight of the remaining letters is A grams. Work out the value of A The histogram shows information about the weights of all the parcels Aalia has in her delivery van on Friday. ![histogram — official paper figure (qp.pdf p.18)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2024-06/4MB1-02R/assets/asset_8_histogram.png) 75 of the parcels in the van each have a weight between 2 kg and 6 kg. Aalia takes 2 parcels at random from the van.
+
+![diagram — official paper figure (qp.pdf p.18)](assets/asset_8_histogram.png)
 
 
 **Mark scheme answer**

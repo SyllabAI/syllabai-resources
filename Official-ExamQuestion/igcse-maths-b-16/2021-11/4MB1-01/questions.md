@@ -616,11 +616,14 @@ Solid A and solid B are similar. The table gives information about the surface a
 
 ### 22 [4]
 
-Solid A and solid B are similar. The table gives information about the surface areas and the volumes of A and B. Surface area (in cm²) Volume (in cm³) Solid A 425 312.5 Solid B x 67.5 Calculate the value of x. x =
+Solid $A$ and solid $B$ are similar. The table gives information about the surface areas and the volumes of $A$ and $B$.
 
-![table — official paper figure (qp.pdf p.19)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2021-11/4MB1-01/assets/asset_22_table.png)
+|  | Surface area (in cm²) | Volume (in cm³) |
+| --- | --- | --- |
+| Solid $A$ | 425 | 312.5 |
+| Solid $B$ | $x$ | 67.5 |
 
-![table — official paper figure (qp.pdf p.19)](assets/asset_22_table.png)
+Calculate the value of $x$.
 
 
 **Mark scheme answer**

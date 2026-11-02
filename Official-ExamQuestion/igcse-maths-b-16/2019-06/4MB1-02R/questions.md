@@ -98,7 +98,7 @@ Solve the inequality 6x + 10 > 2x + 2
 
 ### 2(a)(ii) [1]
 
-Represent your solution onthe number line on the next page.
+Represent your solution on the number line on the next page.
 
 
 **Mark scheme answer**
@@ -216,9 +216,19 @@ The total amount of money that was spent last March by Marco’s family was $420
 
 ### 4(a) [2]
 
-The total amount of money that was spent last March by Marco’s family was \$4200 The four table itemsbelow gives information about the amount Marco’s family spent on each of last March. Item Amount healthcare insurance \$504 \$336 food \$546 travel \$630 housing entertainment other items
+The total amount of money that was spent last March by Marco’s family was \$4200 The table below gives information about the amount Marco’s family spent on each of four items last March. 
 
-Calculate the percentage of the total amount that was spent on healthcare. The amount transport spent in the on 4 ratios travel : 3 : 2was divided between Marco’s car, his wife’s car and other
+| Item | Amount |
+| --- | --- |
+| healthcare | \$336 |
+| insurance | \$504 |
+| food | \$546 |
+| travel | \$630 |
+| housing |  |
+| entertainment |  |
+| other items |  |
+
+Calculate the percentage of the total amount that was spent on healthcare. The amount spent on travel was divided between Marco’s car, his wife’s car and other transport in the ratios $4 : 3 : 2$
 
 
 **Mark scheme answer**
@@ -252,7 +262,7 @@ Calculate the amount, in \$, that was spent on Marco’s car. The amount last Fe
 
 ### 4(c) [3]
 
-Calculate the amount, in \$, that was spent on food last February. The amount of money of was that moneynot spent spent on on entertainment last March healthcare, insurance, was food 12.5% and of the total amount travel.
+Calculate the amount, in \$, that was spent on food last February. The amount of money of was that money not spent spent on on entertainment last March healthcare, insurance, was food 12.5% and of the total amount travel.
 
 
 **Mark scheme answer**
@@ -448,9 +458,13 @@ The equation of a curve is y= 5 — 5 x?
 
 ### 7(a) [2]
 
-Complete the table of values for y = 5 — 5 — x? x —4 —3 —2 —l 0 1 2 3 y 9 2 4.5 3.5 0
+The equation of a curve is $y = 5 - \frac{x}{2} - x^2$
 
-![table — official paper figure (qp.pdf p.20)](assets/asset_7_a_table.png)
+Complete the table of values for $y = 5 - \frac{x}{2} - x^2$
+
+| $x$ | $-4$ | $-3$ | $-2$ | $-1$ | $0$ | $1$ | $2$ | $3$ |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| $y$ | $-9$ |  | $2$ | $4.5$ |  | $3.5$ | $0$ |  |
 
 
 **Mark scheme answer**
@@ -463,13 +477,13 @@ Complete the table of values for y = 5 — 5 — x? x —4 —3 —2 —l 0 1 2 
 
 On the grid opposite, plot the points from your completed table and join them to form a smooth curve.
 
-> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+![grid — official paper figure (qp.pdf p.21)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2019-06/4MB1-02R/assets/asset_7_7-b.png)
 
-![table — official paper figure (qp.pdf p.20) (same figure as 7(a))](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2019-06/4MB1-02R/assets/asset_7_a_table.png)
+| $x$ | $-4$ | $-3$ | $-2$ | $-1$ | $0$ | $1$ | $2$ | $3$ |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| $y$ | $-9$ |  | $2$ | $4.5$ |  | $3.5$ | $0$ |  |
 
 ![figure — official paper figure (qp.pdf p.20)](assets/asset_7_7-b.png)
-
-![table — official paper figure (qp.pdf p.20) — shared with 7(a)](assets/asset_7_a_table.png)
 
 
 **Mark scheme answer**
@@ -512,8 +526,6 @@ xUse your curve to find the range of values of x, to one decimal place, for whic
 ### 7(e) [3]
 
 By drawing a suitable straight line on the grid, find estimates, to one decimal place, for the solutions of the equation $3 - x - x^2 = 0$
-
-![grid — official paper figure (qp.pdf p.20) — shared with 7(a)](assets/asset_7_a_table.png)
 
 
 **Mark scheme answer**

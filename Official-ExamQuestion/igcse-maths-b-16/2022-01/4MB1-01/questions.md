@@ -384,6 +384,16 @@ The table gives information about the weights, in grams, of 40 adult mice. Weigh
 
 ### 15(a) [3]
 
+The table gives information about the weights, in grams, of 40 adult mice. 
+
+| Weight ($w$ grams) | Frequency |
+| --- | --- |
+| $17 \le w < 19$ | 8 |
+| $19 \le w < 21$ | 3 |
+| $21 \le w < 22$ | 15 |
+| $22 \le w < 23$ | 8 |
+| $23 \le w < 25$ | 6 |
+
 Calculate an estimate for the mean weight, in grams to 3 significant figures, of these adult mice grams One of these adult mice is selected at random.
 
 

@@ -610,7 +610,19 @@ The incomplete table and the incomplete histogram give information about the num
 
 ### 18(a) [3]
 
+The incomplete table and the incomplete histogram give information about the number of minutes that 900 flights arrived late at an airport.
+
+| Minutes late ($t$ minutes) | Frequency |
+| --- | --- |
+| $0 < t \le 30$ |  |
+| $30 < t \le 60$ |  |
+| $60 < t \le 120$ | 180 |
+| $120 < t \le 180$ | 120 |
+| $180 < t \le 300$ | 120 |
+
 Complete the table and the histogram. Sam selects at random one of the 900 flights.
+
+![histogram — official paper figure (qp.pdf p.14)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2025-06/4MB1-01/assets/asset_18_a_table_stem.png)
 
 ![table — official paper figure (qp.pdf p.14) — shared with asset_18_a_table_stem](assets/asset_18_a_table_stem.png)
 

@@ -867,7 +867,7 @@
      "part_number": "20(a)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Use this information and the information in the histogram to complete the table.",
+     "problem_md": "The incomplete table and incomplete histogram give information about the length of time, in minutes, that each of 105 runners took to complete a half marathon.\n\n| Time ($t$ minutes) | Frequency |\n| --- | --- |\n| $0 < t \\le 70$ | 35 |\n| $70 < t \\le 80$ |  |\n| $80 < t \\le 90$ | 10 |\n| $90 < t \\le 110$ | 15 |\n| $110 < t \\le 130$ |  |\n| $130 < t \\le 190$ |  |\n\nNone of the 105 runners took longer than 190 minutes to complete the half marathon.\n\nUse this information and the information in the histogram to complete the table.\n\n![histogram — official paper figure (qp.pdf p.14)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-06/4MB1-01R/assets/asset_20_histogram.png)\n",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "25, 5, 15 2 B2 all correct\nB1 for one correct",
@@ -881,33 +881,46 @@
      "source_page": 14,
      "assets": [
       {
-       "id": "asset_20_a_table",
-       "kind": "crop",
-       "mention": "table",
+       "id": "asset_20_histogram",
        "source": "qp.pdf",
-       "page": 14,
-       "review": false,
-       "path": "assets/asset_20_a_table_stem.png",
        "render": "vector",
-       "text_coverage": 0.313,
+       "kind": "crop",
+       "mention": "diagram",
+       "page": 14,
+       "review": true,
        "shared": true,
-       "ref_part": "asset_20_a_table_stem"
+       "path": "assets/asset_20_histogram.png"
       }
      ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508+f3fcd974 (run-036+run-038) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508+f3fcd974 (run-036+run-038) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "20(b)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Use the information in the table to complete the histogram. Frequency density 0 20 40 60 80 100 120 140 160 180 200 Time (minutes)",
+     "problem_md": "Use the information in the table to complete the histogram. ![histogram — official paper figure (qp.pdf p.14)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-06/4MB1-01R/assets/asset_20_histogram.png)",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "Remaining frequency densities are 1, 0.75, 0.25 M1 for one correct bar or correctly stating all\nMissing bars are 4, 3 and 1 square high three required frequency densities\nCorrectly 2 A1 correct histogram including frequency\ncompleted density axis correctly labelled (one value\nhistogram correctly labelled on the vertical axis is\nincluding sufficient). Heights of the missing bars are 4 sq.\nlabelling on 3 sq. and 1 sq. Check intervals carefully, these\nfrequency density should be 80 – 90, 90 – 110 and 130 – 190\naxis (check carefully for those that continue to 200)\nTotal 4 marks",
@@ -921,27 +934,40 @@
      "source_page": 14,
      "assets": [
       {
-       "id": "asset_20_b_table",
-       "kind": "crop",
-       "mention": "table",
+       "id": "asset_20_histogram_2",
        "source": "qp.pdf",
-       "page": 14,
-       "review": false,
-       "path": "assets/asset_20_a_table_stem.png",
        "render": "vector",
-       "text_coverage": 0.313,
+       "kind": "crop",
+       "mention": "diagram",
+       "page": 14,
+       "review": true,
        "shared": true,
-       "ref_part": "asset_20_a_table_stem"
+       "path": "assets/asset_20_histogram.png"
       }
      ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508+f3fcd974 (run-036+run-038) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508+f3fcd974 (run-036+run-038) [problem_md]"
+      }
+     ]
     }
    ],
    "groups": {}
@@ -1078,7 +1104,7 @@
      "part_number": "23",
      "marks": 6,
      "question_type": "structured",
-     "problem_md": "A dice has eight faces numbered 1, 2, 3, 4, 5, 6, 7 and 8 The table shows information about the probability that, when the dice is rolled once, it will land on each of the possible numbers. Number 1 2 3 4 5 6 7 8 Probability y 0.1 2x – 4 0.05 3y – 1 x–2 0.12 0.03 When the dice is rolled once, the probability that the dice will land on the number 5 is 0.2 The dice is rolled 250 times. Calculate an estimate for the number of times the dice will land on an odd number.",
+     "problem_md": "A dice has eight faces numbered 1, 2, 3, 4, 5, 6, 7 and 8 The table shows information about the probability that, when the dice is rolled once, it will land on each of the possible numbers. \n\n| Number | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Probability | $\\frac{1}{2}y$ | 0.1 | $2x - 4$ | 0.05 | $3y - 1$ | $x - 2$ | 0.12 | 0.03 |\n\n When the dice is rolled once, the probability that the dice will land on the number 5 is 0.2 The dice is rolled 250 times. Calculate an estimate for the number of times the dice will land on an odd number.",
      "choices": [],
      "implicit_single_part": true,
      "answer_status": "linked",
@@ -1091,27 +1117,30 @@
       }
      ],
      "source_page": 18,
-     "assets": [
-      {
-       "id": "asset_23_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 18,
-       "review": true,
-       "path": "assets/asset_23_table.png",
-       "render": "vector",
-       "text_coverage": 0.557
-      }
-     ],
+     "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 5f209324 (run-037) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 5f209324 (run-037) [problem_md]"
+      }
+     ]
     }
    ],
    "groups": {}

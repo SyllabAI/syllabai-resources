@@ -636,6 +636,16 @@ The table below gives information about the lengths of time that 50 people have 
 
 ### 26(a) [1]
 
+The table below gives information about the lengths of time that 50 people have been waiting for a train. 
+
+| Waiting time ($m$ minutes) | Frequency |
+| --- | --- |
+| $0 < m \le 5$ | 4 |
+| $5 < m \le 10$ | 5 |
+| $10 < m \le 15$ | 11 |
+| $15 < m \le 20$ | 8 |
+| $20 < m \le 25$ | 22 |
+
 Find the modal class.
 
 

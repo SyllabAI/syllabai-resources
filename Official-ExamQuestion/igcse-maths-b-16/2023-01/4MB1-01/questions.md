@@ -624,6 +624,16 @@ Sarah records the number of visits to the cinema that each of the 19 students in
 
 ### 20(a) [1]
 
+Sarah records the number of visits to the cinema that each of the 19 students in her class made in June. The table below shows her results. 
+
+| Number of visits to the cinema | Frequency |
+| --- | --- |
+| 0 | 6 |
+| 1 | 4 |
+| 2 | 5 |
+| 3 | 3 |
+| 4 | 1 |
+
 Write down the mode of the number of visits to the cinema.
 
 

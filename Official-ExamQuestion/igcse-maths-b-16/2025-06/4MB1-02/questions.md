@@ -711,9 +711,13 @@ Complete the table of values for y x 3 3 x Give your values of y to one decimal 
 
 On the grid opposite, plot the points from your completed table and join them to form a smooth curve.
 
-![grid — official paper figure (qp.pdf p.27)](assets/asset_10_d_grid.png)
+![grid — official paper figure (qp.pdf p.27)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2025-06/4MB1-02/assets/asset_10_d_grid.png)
 
-![table — official paper figure (qp.pdf p.26) — shared with asset_10_d_table_stem](assets/asset_10_d_table_stem.png)
+| $x$ | $-2$ | $-1.5$ | $-1$ | $-0.5$ | $0$ | $0.5$ | $1$ | $1.5$ | $2$ | $2.5$ |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| $y$ | $-4$ | $-0.9$ |  |  | $-2$ | $-3.4$ | $-4$ |  | $0$ | $6.1$ |
+
+![grid — official paper figure (qp.pdf p.27)](assets/asset_10_d_grid.png)
 
 
 **Mark scheme answer**

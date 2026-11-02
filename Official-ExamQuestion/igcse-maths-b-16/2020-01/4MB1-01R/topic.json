@@ -833,7 +833,7 @@
      "part_number": "21(a)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "Complete the table.",
+     "problem_md": "The weights of 710 passengers boarding buses at a bus station were recorded. The incomplete table and histogram give information about these passengers.\n\n| Weight of passenger ($w$ kg) | Number of passengers |\n| --- | --- |\n| $50 \\le w < 60$ | 80 |\n| $60 \\le w < 80$ | 120 |\n| $80 \\le w < 95$ | 270 |\n| $95 \\le w < 115$ |  |\n\nComplete the table.\n\n![histogram — official paper figure (qp.pdf p.13)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-01/4MB1-01R/assets/asset_21_histogram.png)\n",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "240 1 B1 (No. of passengers in 95 ≤ w < 115 )",
@@ -847,33 +847,46 @@
      "source_page": 13,
      "assets": [
       {
-       "id": "asset_21_a_table",
-       "kind": "crop",
-       "mention": "table",
+       "id": "asset_21_histogram",
        "source": "qp.pdf",
-       "page": 13,
-       "review": false,
-       "path": "assets/asset_21_a_table_stem.png",
        "render": "vector",
-       "text_coverage": 0.349,
+       "kind": "crop",
+       "mention": "diagram",
+       "page": 13,
+       "review": true,
        "shared": true,
-       "ref_part": "asset_21_a_table_stem"
+       "path": "assets/asset_21_histogram.png"
       }
      ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508+f3fcd974 (run-036+run-038) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508+f3fcd974 (run-036+run-038) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "21(b)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "Complete the histogram. Frequency density 50 60 70 80 90 100 110 120 Weight of passenger (kg)",
+     "problem_md": "Complete the histogram. ![histogram — official paper figure (qp.pdf p.13)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-01/4MB1-01R/assets/asset_21_histogram.png)",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "(Ht. of 50 ≤ w < 60 bar) – FD = 8 3 M1 for a correct bar OR a correct scale for FD\n(Ht. of 80 ≤ w < 95 bar) – FD = 18 A1 for 2 correct bars OR one correct bar and correct\n(Ht. of 95 ≤ w < 115 bar) – FD = 12 Completely correct scale for FD\n(NB: 1 cm = 2 units on FD axis) histogram A1 for all bars correct and correct scale for FD\nTotal 4 marks",
@@ -884,15 +897,42 @@
        "text_md": "(Ht. of 50 ≤ w < 60 bar) – FD = 8 3 M1 for a correct bar OR a correct scale for FD\n(Ht. of 80 ≤ w < 95 bar) – FD = 18 A1 for 2 correct bars OR one correct bar and correct\n(Ht. of 95 ≤ w < 115 bar) – FD = 12 Completely correct scale for FD\n(NB: 1 cm = 2 units on FD axis) histogram A1 for all bars correct and correct scale for FD\nTotal 4 marks"
       }
      ],
-     "assets": [],
+     "assets": [
+      {
+       "id": "asset_21_histogram_2",
+       "source": "qp.pdf",
+       "render": "vector",
+       "kind": "crop",
+       "mention": "diagram",
+       "page": 13,
+       "review": true,
+       "shared": true,
+       "path": "assets/asset_21_histogram.png"
+      }
+     ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record f3fcd974 (run-038) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record f3fcd974 (run-038) [problem_md]"
+      }
+     ]
     }
    ],
    "groups": {}

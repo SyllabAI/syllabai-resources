@@ -395,7 +395,21 @@ Here is a biased spinner labelled 1, 2, 3, 4, 5, 6 6 2 5 3 The table below shows
 
 ### 16(a) [1]
 
+Here is a biased spinner labelled 1, 2, 3, 4, 5, 6
+
+![spinner diagram — official paper figure (qp.pdf p.9)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2019-06/4MB1-01/assets/asset_16_spinner.png)
+
+The table below shows information about the probability that when the spinner is spun once it will land on each of the numbers 1, 2, 3, 4, 5, 6 
+
+| Number | 1 | 2 | 3 | 4 | 5 | 6 |
+| --- | --- | --- | --- | --- | --- | --- |
+| Probability | 0.05 | 0.1 | $2x - 0.1$ | 0.2 | 0.3 | $3x + 0.2$ |
+
+ Abdul is going to spin the spinner 300 times.
+
 Calculate an estimate for the number of times the spinner will land on number 1
+
+![diagram — official paper figure (qp.pdf p.9)](assets/asset_16_spinner.png)
 
 
 **Mark scheme answer**
@@ -529,7 +543,19 @@ The incomplete histogram and the incomplete table give information about the tim
 
 ### 20 [4]
 
-The incomplete histogram and the incomplete table give information about the time taken, in minutes, for some students to each complete a piece of homework. No student took less than 10 minutes to complete the homework and no student took longer than 60 minutes to complete the homework. Frequency density 10 20 30 40 50 60 70 Time taken (t minutes) Time taken (t minutes) Number of students 10 ⩽ t < 20 20 ⩽ t < 25 25 ⩽ t < 30 30 ⩽ t < 45 45 ⩽ t < 60 Complete the histogram and the table.
+The incomplete histogram and the incomplete table give information about the time taken, in minutes, for some students to each complete a piece of homework. No student took less than 10 minutes to complete the homework and no student took longer than 60 minutes to complete the homework.
+
+| Time taken ($t$ minutes) | Number of students |
+| --- | --- |
+| $10 \le t < 20$ |  |
+| $20 \le t < 25$ |  |
+| $25 \le t < 30$ |  |
+| $30 \le t < 45$ |  |
+| $45 \le t < 60$ |  |
+
+Complete the histogram and the table.
+
+![histogram — official paper figure (qp.pdf p.13)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2019-06/4MB1-01/assets/asset_20_table.png)
 
 ![table — official paper figure (qp.pdf p.13)](assets/asset_20_table.png)
 

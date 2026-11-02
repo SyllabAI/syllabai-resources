@@ -613,11 +613,17 @@ A graph has equation 1 2 1 y x x ≠ 0 4 x
 
 ### 9(a) [2]
 
-Complete the table of values for the graph. x –4 –3 –2 –1 – 0.5 0.5 1 2 3 4 y 1.25 – 0.42 – 0.94 – 4.94 – 2.5 –1.08 0.75
+A graph has equation $y = \frac{x^2}{4} - 3 - \frac{1}{x} \quad x \ne 0$
+
+Complete the table of values for the graph.
+
+| $x$ | $-4$ | $-3$ | $-2$ | $-1$ | $-0.5$ | $0.5$ | $1$ | $2$ | $3$ | $4$ |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| $y$ | $1.25$ | $-0.42$ |  |  | $-0.94$ | $-4.94$ |  | $-2.5$ | $-1.08$ | $0.75$ |
+
+![graph — official paper figure (qp.pdf p.25)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2024-06/4MB1-02/assets/asset_9_a_graph.png)
 
 ![graph — official paper figure (qp.pdf p.25)](assets/asset_9_a_graph.png)
-
-![table — official paper figure (qp.pdf p.24)](assets/asset_9_a_table.png)
 
 
 **Mark scheme answer**
@@ -629,13 +635,11 @@ Complete the table of values for the graph. x –4 –3 –2 –1 – 0.5 0.5 1 
 
 ### 9(b) [3]
 
-On the grid opposite, plot the points from your completed table and draw the graph 1 2 1 y x 4 x
+On the grid opposite, plot the points from your completed table and draw the graph $y = \frac{x^2}{4} - 3 - \frac{1}{x}$
 
-![graph — official paper figure (qp.pdf p.24) — shared with 9(a)](assets/asset_9_a_table.png)
-
-![grid — official paper figure (qp.pdf p.24) — shared with 9(a)](assets/asset_9_a_table.png)
-
-![table — official paper figure (qp.pdf p.24) — shared with 9(a)](assets/asset_9_a_table.png)
+| $x$ | $-4$ | $-3$ | $-2$ | $-1$ | $-0.5$ | $0.5$ | $1$ | $2$ | $3$ | $4$ |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| $y$ | $1.25$ | $-0.42$ |  |  | $-0.94$ | $-4.94$ |  | $-2.5$ | $-1.08$ | $0.75$ |
 
 
 **Mark scheme answer**
@@ -653,9 +657,7 @@ On the grid opposite, plot the points from your completed table and draw the gra
 
 ### 9(c) [1]
 
-Using your graph, find estimates, to one decimal place, of the solutions of the equation 1 2 1 x 3 4 x
-
-![graph — official paper figure (qp.pdf p.24) — shared with 9(a)](assets/asset_9_a_table.png)
+Using your graph, find estimates, to one decimal place, of the solutions of the equation $\frac{x^2}{4} - 3 = \frac{1}{x}$
 
 
 **Mark scheme answer**
@@ -666,13 +668,9 @@ Using your graph, find estimates, to one decimal place, of the solutions of the 
 
 ### 9(d) [4]
 
-By drawing a suitable line on the grid, find the range of values, to one decimal place, of x in −4 ≤ x ≤ 4 for which 1 2 1 x − 2 − ≤0 4 x
-
-![graph — official paper figure (qp.pdf p.24) (same figure as 9(a))](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2024-06/4MB1-02/assets/asset_9_a_table.png)
+By drawing a suitable line on the grid, find the range of values, to one decimal place, of $x$ in $-4 \le x \le 4$ for which $\frac{x^2}{4} - 3 - \frac{1}{x} \le 0$
 
 ![grid — official paper figure (qp.pdf p.25) (same figure as asset_9_a_graph)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2024-06/4MB1-02/assets/asset_9_a_graph.png)
-
-![graph — official paper figure (qp.pdf p.24) — shared with 9(a)](assets/asset_9_a_table.png)
 
 ![grid — official paper figure (qp.pdf p.25) — shared with asset_9_a_graph](assets/asset_9_a_graph.png)
 

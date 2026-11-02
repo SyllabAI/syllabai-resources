@@ -235,9 +235,17 @@ Zahra records the time, t hours, some people spend watching television each day.
 
 ### 10 [3]
 
-Zahra records the time, t hours, some people spend watching television each day. Her results are shown in the table below. Time (t hours) Frequency 0≤t < 2 13 2≤t < 4 20 4≤t < 7 27 She draws a histogram for the information in the table. In the histogram the bar for the class interval 4 ≤ t < 7 is a square with sides of length 4.5 cm the bar for the class interval 2 ≤ t < 4 is a rectangle of width w cm and height h cm Find the value of w and the value of h w = h =
+Zahra records the time, $t$ hours, some people spend watching television each day. Her results are shown in the table below.
 
-![table — official paper figure (qp.pdf p.6) — shared with asset_10_q_table_stem](assets/asset_10_q_table_stem.png)
+| Time ($t$ hours) | Frequency |
+| --- | --- |
+| $0 \le t < 2$ | 13 |
+| $2 \le t < 4$ | 20 |
+| $4 \le t < 7$ | 27 |
+
+She draws a histogram for the information in the table. In the histogram the bar for the class interval $4 \le t < 7$ is a square with sides of length 4.5 cm the bar for the class interval $2 \le t < 4$ is a rectangle of width $w$ cm and height $h$ cm
+
+Find the value of $w$ and the value of $h$
 
 
 **Mark scheme answer**

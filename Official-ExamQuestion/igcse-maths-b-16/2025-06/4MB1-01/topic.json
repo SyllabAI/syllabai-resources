@@ -870,7 +870,7 @@
      "part_number": "18(a)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "Complete the table and the histogram. Sam selects at random one of the 900 flights.",
+     "problem_md": "The incomplete table and the incomplete histogram give information about the number of minutes that 900 flights arrived late at an airport.\n\n| Minutes late ($t$ minutes) | Frequency |\n| --- | --- |\n| $0 < t \\le 30$ |  |\n| $30 < t \\le 60$ |  |\n| $60 < t \\le 120$ | 180 |\n| $120 < t \\le 180$ | 120 |\n| $180 < t \\le 300$ | 120 |\n\nComplete the table and the histogram. Sam selects at random one of the 900 flights.\n\n![histogram — official paper figure (qp.pdf p.14)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2025-06/4MB1-01/assets/asset_18_a_table_stem.png)",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "Fd = 3 or 2 or 1 oe seen by the table or in 3 M1 for use of area to work out frequency density, implied\nworking or on the graph or a correct by a correct fd or a correct frequency per square(s) or a\nfrequency indicated. correct scale on the y-axis or a correct frequency or the\nWatch out for equivalences such as 180/60 180-300 (height 1) or the 120-180 (height 2) bars\n[= 3] completed at the correct height (even if fd not marked or\nor incorrect).\nfor a correct frequency density on the FD Allow multiples of squares eg 2 large squares = 240\naxis where the height of one large square is\n2 eg height of 0-30 bar is 9,\nor height of 30-60 bar is 7\nor height of 60-120 bar is 3, (may be seen\nbesides the table)\nor 1 small square = 1.2 oe\nor 1 medium square ( 5 × 5 ) = 30 oe\nor 1 large square (10 × 10 ) = 120 oe\n270 and 210 A2 for all four correct\nand height 2 (if not A2 then A1 for two or three correct)\n(120-180)\nand height 1\n(180-300)",
@@ -899,12 +899,21 @@
      ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "18(b)",

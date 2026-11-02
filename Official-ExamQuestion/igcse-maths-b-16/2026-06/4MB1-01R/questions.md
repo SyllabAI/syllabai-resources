@@ -362,9 +362,20 @@ The incomplete table and the incomplete histogram give information about the len
 
 ### 12 [3]
 
-The incomplete table and the incomplete histogram give information about the length of time, in minutes, that each of 100 students worked in a library. Complete the table and the histogram. Time (t minutes) Number of students 0 ≤ t < 20 18 20 ≤ t < 60 60 ≤ t < 100 33 100 ≤ t < 200 Frequency density 0 40 80 120 160 200 Time (t minutes)
+The incomplete table and the incomplete histogram give information about the length of time, in minutes, that each of 100 students worked in a library.
 
-![table — official paper figure (qp.pdf p.9) — shared with asset_12_q_table_stem](assets/asset_12_q_table_stem.png)
+| Time ($t$ minutes) | Number of students |
+| --- | --- |
+| $0 \le t < 20$ | 18 |
+| $20 \le t < 60$ |  |
+| $60 \le t < 100$ | 33 |
+| $100 \le t < 200$ |  |
+
+Complete the table and the histogram.
+
+![histogram — official paper figure (qp.pdf p.9)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2026-06/4MB1-01R/assets/asset_12_histogram.png)
+
+![diagram — official paper figure (qp.pdf p.9)](assets/asset_12_histogram.png)
 
 
 **Mark scheme answer**
@@ -930,6 +941,12 @@ Shape A is transformed to shape B under the transformation with matrix M where 1
 A bag contains only red buttons, green buttons, blue buttons and yellow buttons. The table shows information about the probability that when a button is taken at random from the bag it is red or green or blue or yellow. Colour red green blue yellow Probability 0.3 0.1 2x x
 
 ### 22(a) [2]
+
+A bag contains only red buttons, green buttons, blue buttons and yellow buttons. The table shows information about the probability that when a button is taken at random from the bag it is red or green or blue or yellow. 
+
+| Colour | red | green | blue | yellow |
+| --- | --- | --- | --- | --- |
+| Probability | 0.3 | 0.1 | $2x$ | $x$ |
 
 Find the value of x x = There are 340 buttons in the bag.
 

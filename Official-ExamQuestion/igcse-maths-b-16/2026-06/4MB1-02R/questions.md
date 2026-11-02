@@ -854,9 +854,11 @@ Find the domain of f −1
 ## Question 12 (9 marks)
 ### 12(a) [2]
 
-Complete the following table of values for y 5 x 2 2x2 Give values to 2 decimal places. x 0.2 0.4 0.6 0.8 1 1.2 1.4 1.6 y 2.70 −6.08 −6.81 −4.50 0.06 3.00
+Complete the following table of values for $y = 5x^2 - 10 + \frac{1}{2x^2}$ Give values to 2 decimal places.
 
-![table — official paper figure (qp.pdf p.30)](assets/asset_12_a_table.png)
+| $x$ | $0.2$ | $0.4$ | $0.6$ | $0.8$ | $1$ | $1.2$ | $1.4$ | $1.6$ |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| $y$ | $2.70$ | $-6.08$ | $-6.81$ |  | $-4.50$ |  | $0.06$ | $3.00$ |
 
 
 **Mark scheme answer**
@@ -870,9 +872,13 @@ Complete the following table of values for y 5 x 2 2x2 Give values to 2 decimal 
 
 On the grid opposite, plot the points from your completed table and join them to form a smooth curve.
 
-![grid — official paper figure (qp.pdf p.31)](assets/asset_12_b_grid.png)
+![grid — official paper figure (qp.pdf p.31)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2026-06/4MB1-02R/assets/asset_12_b_grid.png)
 
-![table — official paper figure (qp.pdf p.30) — shared with 12(a)](assets/asset_12_a_table.png)
+| $x$ | $0.2$ | $0.4$ | $0.6$ | $0.8$ | $1$ | $1.2$ | $1.4$ | $1.6$ |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| $y$ | $2.70$ | $-6.08$ | $-6.81$ |  | $-4.50$ |  | $0.06$ | $3.00$ |
+
+![grid — official paper figure (qp.pdf p.31)](assets/asset_12_b_grid.png)
 
 
 **Mark scheme answer**

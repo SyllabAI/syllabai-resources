@@ -1035,7 +1035,7 @@
      "part_number": "11(a)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "Complete the table of values for y = 2x 3 – 3x + 4 x –2.5 –2 –1.5 –1 –0.5 0 0.5 1 1.5 2 2.5 y –19.75 1.75 5.25 2.75 6.25 14 27.75",
+     "problem_md": "Complete the table of values for $y = 2x^3 - 3x + 4$\n\n| $x$ | $-2.5$ | $-2$ | $-1.5$ | $-1$ | $-0.5$ | $0$ | $0.5$ | $1$ | $1.5$ | $2$ | $2.5$ |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| $y$ | $-19.75$ |  | $1.75$ |  | $5.25$ |  | $2.75$ |  | $6.25$ | $14$ | $27.75$ |",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "−6, 5, 4, 3 3 B3 for all 4 correct values (B2 for 3 correct, B1 for 2 correct)",
@@ -1047,33 +1047,36 @@
       }
      ],
      "source_page": 30,
-     "assets": [
-      {
-       "id": "asset_11_a_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 30,
-       "review": false,
-       "path": "assets/asset_11_a_table.png",
-       "render": "vector",
-       "text_coverage": 0.365
-      }
-     ],
+     "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 6405c9d3 (run-035) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 6405c9d3 (run-035) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "11(b)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "On the grid, plot the points from your completed table and join them to form a smooth curve.",
+     "problem_md": "On the grid, plot the points from your completed table and join them to form a smooth curve.\n\n![grid — official paper figure (qp.pdf p.31)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-06/4MB1-02/assets/asset_11_b_grid.png)\n\n| $x$ | $-2.5$ | $-2$ | $-1.5$ | $-1$ | $-0.5$ | $0$ | $0.5$ | $1$ | $1.5$ | $2$ | $2.5$ |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| $y$ | $-19.75$ |  | $1.75$ |  | $5.25$ |  | $2.75$ |  | $6.25$ | $14$ | $27.75$ |",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "A single 3 B3 ft A single smooth curve passing through all the correct\nsmooth curve points or all \"their points\" from the table.\npassing B2 ft For a single curve going through at least 8 points from\nthrough all \"their table\".\ntheir points B1 ft straight lines joining points rather than a curve going\nthrough at least 8 points from\" their table\" or all points from\n\"their table\" plotted but not connected.\nNB accuracy is ±1 small square",
@@ -1088,37 +1091,40 @@
      "assets": [
       {
        "id": "asset_11_b_grid",
+       "source": "qp.pdf",
+       "render": "vector",
+       "text_coverage": 0.049,
        "kind": "crop",
        "mention": "grid",
-       "source": "qp.pdf",
        "page": 31,
        "review": true,
-       "path": "assets/asset_11_b_grid.png",
-       "render": "vector",
-       "text_coverage": 0.049
-      },
-      {
-       "id": "asset_11_b_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 30,
-       "review": false,
-       "path": "assets/asset_11_a_table.png",
-       "render": "vector",
-       "text_coverage": 0.365,
-       "shared": true,
-       "ref_part": "11(a)"
+       "shared": false,
+       "path": "assets/asset_11_b_grid.png"
       }
      ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "11(c)",

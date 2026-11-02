@@ -206,6 +206,14 @@ Vincent plays a game in which he can score 0, 1, 2, 3 or 4 each time he plays th
 
 ### 7(a) [4]
 
+Vincent plays a game in which he can score 0, 1, 2, 3 or 4 each time he plays the game. The score he gets in a game is independent of the score he got in the previous games. The table gives information about the probability of getting each score in a game. 
+
+| Score | 0 | 1 | 2 | 3 | 4 |
+| --- | --- | --- | --- | --- | --- |
+| Probability | $x$ | $3x$ | $x$ | 0.2 | 0.1 |
+
+ Vincent plays the game 150 times.
+
 Calculate the number of times he would expect to score 1 Vincent plays the game another two times and records his two scores. He adds these two scores together to get his Total.
 
 
@@ -531,9 +539,11 @@ Find the coordinates of the points of intersection of C with the x‑axis.
 
 ### 11(d) [5]
 
-Find the coordinates, to 2 decimal places, of the turning points of C. The table below gives the coordinates of three points on C. x –2 0.5 1.5 y –12 –12 –12
+Find the coordinates, to 2 decimal places, of the turning points of $C$. The table below gives the coordinates of three points on $C$.
 
-![table — official paper figure (qp.pdf p.24)](assets/asset_11_d_table.png)
+| $x$ | $-2$ | $0.5$ | $1.5$ |
+| --- | --- | --- | --- |
+| $y$ | $-12$ | $-12$ | $-12$ |
 
 
 **Mark scheme answer**

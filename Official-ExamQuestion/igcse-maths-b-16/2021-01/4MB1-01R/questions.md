@@ -726,15 +726,13 @@ Find the class interval that contains the median of these times.
 
 ### 27(b) [4]
 
-Calculate an estimate, to 3 significant figures, of the mean time it took Amrit to complete his homework tasks last term minutes ( ) The diagram below is an incomplete histogram for the information in the table. Frequency density 15 20 25 30 35 40 45 50 Time (minutes)
+Calculate an estimate, to 3 significant figures, of the mean time it took Amrit to complete his homework tasks last term
 
-> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+The diagram below is an incomplete histogram for the information in the table. Frequency density 15 20 25 30 35 40 45 50 Time (minutes)
 
-![table — official paper figure (qp.pdf p.24) (same figure as asset_27_b_table_stem)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2021-01/4MB1-01R/assets/asset_27_b_table_stem.png)
+![histogram — official paper figure (qp.pdf p.24)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2021-01/4MB1-01R/assets/asset_27_diagram.png)
 
 ![diagram — official paper figure (qp.pdf p.None)](assets/asset_27_diagram.png)
-
-![table — official paper figure (qp.pdf p.24) — shared with asset_27_b_table_stem](assets/asset_27_b_table_stem.png)
 
 
 **Mark scheme answer**
@@ -753,7 +751,13 @@ Calculate an estimate, to 3 significant figures, of the mean time it took Amrit 
 
 Use the information in the table to complete the histogram.
 
-![table — official paper figure (qp.pdf p.24) — shared with asset_27_b_table_stem](assets/asset_27_b_table_stem.png)
+| Time ($t$ minutes) | Frequency |
+| --- | --- |
+| $15 \le t < 20$ | 12 |
+| $20 \le t < 25$ | 10 |
+| $25 \le t < 30$ | 8 |
+| $30 \le t < 40$ | 28 |
+| $40 \le t < 50$ | 14 |
 
 
 **Mark scheme answer**

@@ -1034,7 +1034,7 @@
      "part_number": "23(a)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "Write down the modal class.",
+     "problem_md": "The table below gives some information about the distance travelled to work, in km, each day by 60 people. \n\n| Distance ($d$ km) | Frequency |\n| --- | --- |\n| $0 < d \\le 2$ | 22 |\n| $2 < d \\le 5$ | 13 |\n| $5 < d \\le 10$ | 9 |\n| $10 < d \\le 20$ | 12 |\n| $20 < d \\le 40$ | 4 |\n\nWrite down the modal class.",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "0<d 2 1 B1 accept unambiguous response",
@@ -1049,12 +1049,21 @@
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 5f209324 (run-037) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "23(b)",

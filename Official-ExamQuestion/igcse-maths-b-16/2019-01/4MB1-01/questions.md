@@ -553,6 +553,17 @@ Josh asks the students in his form how many hours they played sport last week. T
 
 ### 23(a) [1]
 
+Josh asks the students in his form how many hours they played sport last week. The table shows information about his results. 
+
+| Number of hours ($t$) | Frequency |
+| --- | --- |
+| $0 \le t < 1$ | 9 |
+| $1 \le t < 2$ | 8 |
+| $2 \le t < 3$ | 5 |
+| $3 \le t < 4$ | 7 |
+| $4 \le t < 6$ | 3 |
+| 6 or more | 0 |
+
 Find the class interval that contains the median number of hours.
 
 

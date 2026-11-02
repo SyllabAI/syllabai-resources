@@ -8,7 +8,15 @@ The table shows information about 5 lakes in the Lake District. Name Surface are
 
 ### 1(a) [1]
 
-The table shows information about 5 lakes in the Lake District. Name Surface area (m²) Volume (m³) Windermere 1.5 × 107 3.1 × 108 Ullswater 8.9 × 106 2.2 × 108 Thirlmere 3.3 × 106 5.0 × 107 Wastwater 2.9 × 106 1.1 × 108 Ennerdale Water 3.0 × 106 5.4 × 107
+The table shows information about 5 lakes in the Lake District. 
+
+| Name | Surface area (m²) | Volume (m³) |
+| --- | --- | --- |
+| Windermere | $1.5 \times 10^{7}$ | $3.1 \times 10^{8}$ |
+| Ullswater | $8.9 \times 10^{6}$ | $2.2 \times 10^{8}$ |
+| Thirlmere | $3.3 \times 10^{6}$ | $5.0 \times 10^{7}$ |
+| Wastwater | $2.9 \times 10^{6}$ | $1.1 \times 10^{8}$ |
+| Ennerdale Water | $3.0 \times 10^{6}$ | $5.4 \times 10^{7}$ |
 
 Write 3.3 × 106 as an ordinary number. Elter Water is another lake and has a volume of 500 000
 
@@ -290,6 +298,16 @@ The table gives information about the time, in minutes, spent in a supermarket b
 
 ### 6(a) [1]
 
+The table gives information about the time, in minutes, spent in a supermarket by 65 customers. 
+
+| Time ($t$ minutes) | Frequency |
+| --- | --- |
+| $0 < t \le 15$ | 15 |
+| $15 < t \le 25$ | 21 |
+| $25 < t \le 30$ | 20 |
+| $30 < t \le 40$ | 8 |
+| $40 < t \le 60$ | 1 |
+
 Write down the class interval that contains the median time.
 
 
@@ -322,7 +340,9 @@ Calculate an estimate for the mean time spent by these 65 customers in the super
 
 ### 6(c) [1]
 
-Calculate the probability that the customer spent more than 30 minutes in the supermarket. The histogram below shows information about the time, in minutes, spent in the checkout queue for each of these 65 customers. Frequency density 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 Time in minutes There were 15 customers who spent between 5 and 10 minutes in the queue.
+Calculate the probability that the customer spent more than 30 minutes in the supermarket. The histogram below shows information about the time, in minutes, spent in the checkout queue for each of these 65 customers. ![histogram — official paper figure (qp.pdf p.10)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2023-11/4MB1-02/assets/asset_6_c_histogram.png) There were 15 customers who spent between 5 and 10 minutes in the queue.
+
+![diagram — official paper figure (qp.pdf p.10)](assets/asset_6_c_histogram.png)
 
 
 **Mark scheme answer**
@@ -458,11 +478,7 @@ On the grid opposite, plot the points from your completed table and join them to
 
 > *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
 
-![table — official paper figure (qp.pdf p.16) (same figure as asset_8_b_table_stem)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2023-11/4MB1-02/assets/asset_8_b_table_stem.png)
-
 ![figure — official paper figure (qp.pdf p.16)](assets/asset_8_8-b.png)
-
-![table — official paper figure (qp.pdf p.16) — shared with asset_8_b_table_stem](assets/asset_8_b_table_stem.png)
 
 
 **Mark scheme answer**

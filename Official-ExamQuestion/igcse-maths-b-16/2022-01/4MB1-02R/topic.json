@@ -907,7 +907,7 @@
      "part_number": "8(b)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "Complete the table of values for y x x x –3 –2 –1 0 1 2 3 4 y 12.5 3.5 The point A has been plotted on the grid opposite.",
+     "problem_md": "Complete the table of values for $y = x^2 - \\frac{3x}{2} - 1$\n\n| $x$ | $-3$ | $-2$ | $-1$ | $0$ | $1$ | $2$ | $3$ | $4$ |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| $y$ | $12.5$ |  |  |  |  |  | $3.5$ |  |\n\nThe point $A$ has been plotted on the grid opposite.\n\n![grid — official paper figure (qp.pdf p.25)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-01/4MB1-02R/assets/asset_8_b_grid.png)",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "correct)\nCurve −1 for: A correct curve 3 B3 ft (−1 eeoo)",
@@ -922,41 +922,46 @@
      "assets": [
       {
        "id": "asset_8_b_grid",
+       "source": "qp.pdf",
+       "render": "vector",
+       "text_coverage": 0.03,
        "kind": "crop",
        "mention": "grid",
-       "source": "qp.pdf",
        "page": 25,
        "review": true,
-       "path": "assets/asset_8_b_grid.png",
-       "render": "vector",
-       "text_coverage": 0.03
-      },
-      {
-       "id": "asset_8_b_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 24,
-       "review": false,
-       "path": "assets/asset_8_b_table.png",
-       "render": "vector",
-       "text_coverage": 0.281
+       "shared": false,
+       "path": "assets/asset_8_b_grid.png"
       }
      ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "8(c)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "On the grid opposite, draw the curve with equation y x 2 x 1 for values of x from –3 to 4 2",
+     "problem_md": "On the grid opposite, draw the curve with equation $y = x^2 - \\frac{3x}{2} - 1$ for values of x from –3 to 4",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "Straight line segments, Each point missed, NB: accuracy for both plotting and drawing is\nEach missed segment, Very poor curve ±0.5 ss\nEach point incorrectly plotted, Tramlines,",
@@ -968,29 +973,30 @@
       }
      ],
      "source_page": 24,
-     "assets": [
-      {
-       "id": "asset_8_c_grid",
-       "kind": "crop",
-       "mention": "grid",
-       "source": "qp.pdf",
-       "page": 24,
-       "review": false,
-       "path": "assets/asset_8_b_table.png",
-       "render": "vector",
-       "text_coverage": 0.281,
-       "shared": true,
-       "ref_part": "8(b)"
-      }
-     ],
+     "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "8(d)",
@@ -1022,7 +1028,7 @@
      "part_number": "8(e)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "By drawing a suitable straight line on the grid, find estimates, to one decimal place, 7 1 of the solutions of the equation x 2 x 2 2 Show your working clearly.\n\n![graph — official paper figure (qp.pdf p.24) (same figure as 8(b))](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-01/4MB1-02R/assets/asset_8_b_table.png)\n\n![grid — official paper figure (qp.pdf p.25) (same figure as asset_8_b_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-01/4MB1-02R/assets/asset_8_b_grid.png)",
+     "problem_md": "By drawing a suitable straight line on the grid, find estimates, to one decimal place, 7 1 of the solutions of the equation x 2 x 2 2 Show your working clearly.\n\n![grid — official paper figure (qp.pdf p.25) (same figure as asset_8_b_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-01/4MB1-02R/assets/asset_8_b_grid.png)",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "3 3 M1 rearranging equation\nx 2 − x − 1 = 2 x − 0.5 oe\ndraw the line y = 2x – 0.5 M1\n−0.1, 3.6 A1 ft from correct graph (2 marks only if written\nas coordinates)\nQues Working Answer Mark Notes",
@@ -1036,40 +1042,42 @@
      "source_page": 24,
      "assets": [
       {
-       "id": "asset_8_e_graph",
-       "kind": "crop",
-       "mention": "graph",
-       "source": "qp.pdf",
-       "page": 24,
-       "review": false,
-       "path": "assets/asset_8_b_table.png",
-       "render": "vector",
-       "text_coverage": 0.281,
-       "shared": true,
-       "ref_part": "8(b)"
-      },
-      {
        "id": "asset_8_e_grid",
-       "kind": "crop",
-       "mention": "grid",
        "source": "qp.pdf",
-       "page": 25,
-       "review": false,
-       "path": "assets/asset_8_b_grid.png",
        "render": "vector",
        "text_coverage": 0.03,
+       "kind": "crop",
+       "mention": "grid",
+       "page": 25,
+       "review": false,
        "shared": true,
-       "ref_part": "asset_8_b_grid"
+       "ref_part": "asset_8_b_grid",
+       "path": "assets/asset_8_b_grid.png"
       }
      ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [problem_md]"
+      }
+     ]
     }
    ],
    "groups": {}

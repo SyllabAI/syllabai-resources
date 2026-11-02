@@ -31,7 +31,7 @@
      "part_number": "1",
      "marks": 6,
      "question_type": "structured",
-     "problem_md": "The GDP per capita for a region is defined as follows total GDP GDP per capita = population Complete the table below, giving each value to 2 significant figures. Region Total GDP Population GDP per capita Grenada 1.23 ×109 112 000 Hungary 1.61 ×1011 16 500 World 7.67 ×109 11 400",
+     "problem_md": "The GDP per capita for a region is defined as follows\n\n$\\text{GDP per capita} = \\frac{\\text{total GDP}}{\\text{population}}$\n\nComplete the table below, giving each value to 2 significant figures.\n\n| Region | Total GDP | Population | GDP per capita |\n| --- | --- | --- | --- |\n| Grenada | $1.23 \\times 10^9$ | 112 000 |  |\n| Hungary | $1.61 \\times 10^{11}$ |  | 16 500 |\n| World |  | $7.67 \\times 10^9$ | 11 400 |",
      "choices": [],
      "implicit_single_part": true,
      "answer_status": "linked",
@@ -44,29 +44,30 @@
       }
      ],
      "source_page": 2,
-     "assets": [
-      {
-       "id": "asset_1_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 2,
-       "review": false,
-       "path": "assets/asset_1_q_table_stem.png",
-       "render": "vector",
-       "text_coverage": 0.424,
-       "shared": true,
-       "ref_part": "asset_1_q_table_stem"
-      }
-     ],
+     "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 6405c9d3 (run-035) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 6405c9d3 (run-035) [problem_md]"
+      }
+     ]
     }
    ],
    "groups": {}
@@ -323,7 +324,7 @@
      "part_number": "4(b)",
      "marks": 4,
      "question_type": "structured",
-     "problem_md": "Calculate an estimate for the mean time spent on the internet per day. Sophie drew a histogram for the information in the table. In her histogram, the bar for the class interval 30 ≤ t < 60 is a square with sides of length 3 cm. Given that the bar for the class interval 10 ≤ t < 30 is a rectangle of width w cm and of height h cm …………… , ……………![table — official paper figure (qp.pdf p.8) (same figure as asset_4_b_table_stem)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-06/4MB1-02/assets/asset_4_b_table_stem.png)",
+     "problem_md": "Calculate an estimate for the mean time spent on the internet per day. Sophie drew a histogram for the information in the table. In her histogram, the bar for the class interval $30 \\le t < 60$ is a square with sides of length 3 cm. Given that the bar for the class interval $10 \\le t < 30$ is a rectangle of width $w$ cm and of height $h$ cm\n\n| Time ($t$ minutes) | Frequency |\n| --- | --- |\n| $0 \\le t < 10$ | 5 |\n| $10 \\le t < 30$ | 7 |\n| $30 \\le t < 60$ | 15 |\n| $60 \\le t < 120$ | 36 |\n| $120 \\le t < 240$ | 19 |\n| $240 \\le t < 360$ | 8 |",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "5 × \"5\"+ 7 × \"20\"+ 15 × \"45\"+ 4 M2 for correct calculation (need not be evaluated)\n36 × \"90\"+ 19 × \"180\"+ 8 × \"300\" If no working shown then figures must be correct\nGive bod if values in a list and a total given.\n⎡ = 25 + 140 + 675 + 3240 + 3420 + 2400 ⎤\n⎢ = 9900 ⎥\n⎣ ⎦ (M1 for xf calculated and added for at least 3 class\nintervals where x is a number in the range (incl end\npoints) OR correct mid-points used for at least 3\nproducts but not added)\n\"9900\" M1 dep on at least M1 previously scored. For dividing\n90 their sum by 90\n110 A1 cao",
@@ -335,29 +336,30 @@
       }
      ],
      "source_page": 8,
-     "assets": [
-      {
-       "id": "asset_4_b_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 8,
-       "review": false,
-       "path": "assets/asset_4_b_table_stem.png",
-       "render": "vector",
-       "text_coverage": 0.402,
-       "shared": true,
-       "ref_part": "asset_4_b_table_stem"
-      }
-     ],
+     "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "4(c)",
@@ -941,7 +943,7 @@
      "part_number": "10(c)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Complete the following table of values for V = 4x 3 – 60x 2 + 200x x 0 1 1.5 2.5 3 3.5 4 5 V 0 144 178.5 187.5 136.5 0",
+     "problem_md": "Complete the following table of values for $V = 4x^3 - 60x^2 + 200x$\n\n| $x$ | $0$ | $1$ | $1.5$ | $2.5$ | $3$ | $3.5$ | $4$ | $5$ |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| $V$ | $0$ | $144$ | $178.5$ | $187.5$ |  | $136.5$ |  | $0$ |",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "168, 96 2 B2",
@@ -953,33 +955,36 @@
       }
      ],
      "source_page": 26,
-     "assets": [
-      {
-       "id": "asset_10_c_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 26,
-       "review": false,
-       "path": "assets/asset_10_c_table.png",
-       "render": "vector",
-       "text_coverage": 0.379
-      }
-     ],
+     "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "10(d)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "On the grid opposite, plot the points from your completed table and, using your answer to part (b), join them to form a smooth curve.",
+     "problem_md": "On the grid opposite, plot the points from your completed table and, using your answer to part (b), join them to form a smooth curve.\n\n![grid — official paper figure (qp.pdf p.27)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-06/4MB1-02/assets/asset_10_d_grid.png)\n\n| $x$ | $0$ | $1$ | $1.5$ | $2.5$ | $3$ | $3.5$ | $4$ | $5$ |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| $V$ | $0$ | $144$ | $178.5$ | $187.5$ |  | $136.5$ |  | $0$ |",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "2 B2 Fully correct graph. Allow max at 1.5 < x 2.5 (Allow if\ncurve goes through points even if you can't see the point\nplotted\n(B1 All points plotted correctly or 4 points plotted correctly with\ncurve joining all their plotted points )",
@@ -994,37 +999,40 @@
      "assets": [
       {
        "id": "asset_10_d_grid",
+       "source": "qp.pdf",
+       "render": "vector",
+       "text_coverage": 0.033,
        "kind": "crop",
        "mention": "grid",
-       "source": "qp.pdf",
        "page": 27,
        "review": true,
-       "path": "assets/asset_10_d_grid.png",
-       "render": "vector",
-       "text_coverage": 0.033
-      },
-      {
-       "id": "asset_10_d_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 26,
-       "review": false,
-       "path": "assets/asset_10_c_table.png",
-       "render": "vector",
-       "text_coverage": 0.379,
-       "shared": true,
-       "ref_part": "10(c)"
+       "shared": false,
+       "path": "assets/asset_10_d_grid.png"
       }
      ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "10(e)",

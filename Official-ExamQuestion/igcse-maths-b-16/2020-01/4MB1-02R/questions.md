@@ -625,13 +625,18 @@ Part of the curve with equation y = x2 – 5x + 3 is drawn on the grid. x3 6 x 2
 
 ### 11(a) [3]
 
-Part of the curve with equation y = x² – 5x + 3 is drawn on the grid. x³ 6 x 2 3x The equation of another curve is y = – + − 6 5 2 x³ 6 x 2 3x
+Part of the curve with equation $y = x^2 - 5x + 3$ is drawn on the grid. The equation of another curve is $y = -\frac{x^3}{6} + \frac{6x^2}{5} - \frac{3x}{2}$
 
-Complete the table of values for y = – + − 6 5 2 Give your values of y to 2 decimal places. x 0 0.5 1 2 3 4 4.5 5 y 0 –0.47 1.8 1.67
+Complete the table of values for $y = -\frac{x^3}{6} + \frac{6x^2}{5} - \frac{3x}{2}$ Give your values of $y$ to 2 decimal places.
 
-![table — official paper figure (qp.pdf p.28)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-01/4MB1-02R/assets/asset_11_a_table.png)
+| $x$ | $0$ | $0.5$ | $1$ | $2$ | $3$ | $4$ | $4.5$ | $5$ |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| $y$ | $0$ | $-0.47$ |  |  | $1.8$ |  |  | $1.67$ |
 
-![table — official paper figure (qp.pdf p.28)](assets/asset_11_a_table.png)
+![grid with drawn curve — official paper figure (qp.pdf p.29)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-01/4MB1-02R/assets/asset_11_grid.png)
+
+
+![grid — official paper figure (qp.pdf p.29) — shared with ?](assets/asset_11_grid.png)
 
 
 **Mark scheme answer**
@@ -644,9 +649,14 @@ Complete the table of values for y = – + − 6 5 2 Give your values of y to 2 
 
 On the grid opposite, plot the points from your completed table and join them to form a smooth curve.
 
-![grid — official paper figure (qp.pdf p.28) — shared with 11(a)](assets/asset_11_a_table.png)
+| $x$ | $0$ | $0.5$ | $1$ | $2$ | $3$ | $4$ | $4.5$ | $5$ |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| $y$ | $0$ | $-0.47$ |  |  | $1.8$ |  |  | $1.67$ |
 
-![table — official paper figure (qp.pdf p.28) — shared with 11(a)](assets/asset_11_a_table.png)
+![grid with drawn curve — official paper figure (qp.pdf p.29)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-01/4MB1-02R/assets/asset_11_grid.png)
+
+
+![grid — official paper figure (qp.pdf p.29) — shared with ?](assets/asset_11_grid.png)
 
 
 **Mark scheme answer**
@@ -675,9 +685,10 @@ On the grid opposite, plot the points from your completed table and join them to
 
 Use the two curves on the grid to find an estimate, to 2 decimal places, of the range x³ x 2 7 x of positive values of x for which − − +3<0 6 5 2 Show your working clearly. For positive values of x, the two curves on the grid intersect at the points P and Q.
 
-![grid — official paper figure (qp.pdf p.28) (same figure as 11(a))](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-01/4MB1-02R/assets/asset_11_a_table.png)
+![grid with drawn curve — official paper figure (qp.pdf p.29)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-01/4MB1-02R/assets/asset_11_grid.png)
 
-![grid — official paper figure (qp.pdf p.28) — shared with 11(a)](assets/asset_11_a_table.png)
+
+![grid — official paper figure (qp.pdf p.29) — shared with ?](assets/asset_11_grid.png)
 
 
 **Mark scheme answer**
@@ -713,10 +724,6 @@ Find an estimate, to 1 decimal place, of the gradient of the straight line throu
 ### 11(e) [2]
 
 Find, to 1 decimal place, the value of b.
-
-![grid — official paper figure (qp.pdf p.28) (same figure as 11(a))](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-01/4MB1-02R/assets/asset_11_a_table.png)
-
-![grid — official paper figure (qp.pdf p.28) — shared with 11(a)](assets/asset_11_a_table.png)
 
 
 **Mark scheme answer**

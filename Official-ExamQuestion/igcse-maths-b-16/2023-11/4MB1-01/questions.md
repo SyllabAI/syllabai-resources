@@ -343,6 +343,14 @@ A bag contains red pens, blue pens, black pens, green pens and purple pens. A pe
 
 ### 14(a) [1]
 
+A bag contains red pens, blue pens, black pens, green pens and purple pens. A pen is selected at random from the bag. The table gives information about the probability of the colour of the pen that is selected. 
+
+| Colour | red | blue | black | green | purple |
+| --- | --- | --- | --- | --- | --- |
+| Probability | 0.25 | 0.10 | $3y + 0.15$ | $x$ | $y$ |
+
+ Tisam draws a pie chart to show the information about the number of pens of each colour in the bag. The size of the angle of the sector representing green pens is 50.4°
+
 Show that x = 0.14
 
 

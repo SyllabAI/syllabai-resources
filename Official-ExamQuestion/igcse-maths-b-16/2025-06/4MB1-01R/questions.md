@@ -401,9 +401,17 @@ Xiou records the time, in minutes, it takes each of the 30 students in his class
 
 ### 14 [4]
 
-Xiou records the time, in minutes, it takes each of the 30 students in his class to complete the same puzzle. The table shows information about his results. Time taken Frequency (t minutes) 0≤t<2 7 2≤t<4 8 4≤t<6 6 6≤t<8 5 8 ≤ t < 10 4 Calculate an estimate for the mean number of minutes that these students take to complete the puzzle minutes
+Xiou records the time, in minutes, it takes each of the 30 students in his class to complete the same puzzle. The table shows information about his results.
 
-![table — official paper figure (qp.pdf p.11)](assets/asset_14_table.png)
+| Time taken ($t$ minutes) | Frequency |
+| --- | --- |
+| $0 \le t < 2$ | 7 |
+| $2 \le t < 4$ | 8 |
+| $4 \le t < 6$ | 6 |
+| $6 \le t < 8$ | 5 |
+| $8 \le t < 10$ | 4 |
+
+Calculate an estimate for the mean number of minutes that these students take to complete the puzzle
 
 
 **Mark scheme answer**
@@ -822,7 +830,22 @@ The weights, in grams, of tomatoes harvested by a gardener last month were measu
 
 ### 22(a) [2]
 
+The weights, in grams, of tomatoes harvested by a gardener last month were measured. The incomplete table and incomplete histogram below give information about the weight, in grams, of each tomato harvested last month. 
+
+| Weight ($w$ grams) | Number of tomatoes |
+| --- | --- |
+| $0 < w \le 10$ | $x$ |
+| $10 < w \le 15$ | 24 |
+| $15 < w \le 25$ | 40 |
+| $25 < w \le 35$ | 60 |
+| $35 < w \le 55$ | $y$ |
+| $55 < w \le 65$ | 20 |
+
+![histogram — official paper figure (qp.pdf p.20)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2025-06/4MB1-01R/assets/asset_22_histogram.png)
+
 Show that y = 16 A tomato for which w ≤ 35 grams is classed as a small tomato. A small tomato is selected at random. The probability that this tomato weighs less than or equal to 15 grams is
+
+![diagram — official paper figure (qp.pdf p.20) — shared with ?](assets/asset_22_histogram.png)
 
 
 **Mark scheme answer**
@@ -854,6 +877,11 @@ Show that y = 16 A tomato for which w ≤ 35 grams is classed as a small tomato.
 ### 22(b) [4]
 
 Complete the histogram.
+
+![histogram — official paper figure (qp.pdf p.20)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2025-06/4MB1-01R/assets/asset_22_histogram.png)
+
+
+![diagram — official paper figure (qp.pdf p.20) — shared with ?](assets/asset_22_histogram.png)
 
 
 **Mark scheme answer**

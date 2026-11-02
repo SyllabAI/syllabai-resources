@@ -679,9 +679,11 @@ Find, to one decimal place, the coordinates of the stationary point of C
 
 ### 9(b) [2]
 
-Complete the table of values for y Give your values of y to one decimal place where necessary. x 0.4 0.6 0.8 1 2 3 4 5 y 35.2 0 –8 –3 4.8
+Complete the table of values for $y = x^2 + \frac{24}{x} - 25$ Give your values of $y$ to one decimal place where necessary.
 
-![table — official paper figure (qp.pdf p.26)](assets/asset_9_b_table.png)
+| $x$ | $0.4$ | $0.6$ | $0.8$ | $1$ | $2$ | $3$ | $4$ | $5$ |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| $y$ | $35.2$ |  |  | $0$ |  | $-8$ | $-3$ | $4.8$ |
 
 
 **Mark scheme answer**
@@ -696,9 +698,13 @@ Complete the table of values for y Give your values of y to one decimal place wh
 
 On the grid opposite, plot the stationary point and plot the points from your completed table. Join these to form a smooth curve.
 
-![grid — official paper figure (qp.pdf p.27)](assets/asset_9_c_grid.png)
+![grid — official paper figure (qp.pdf p.27)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2023-06/4MB1-02R/assets/asset_9_c_grid.png)
 
-![table — official paper figure (qp.pdf p.26) — shared with 9(b)](assets/asset_9_b_table.png)
+| $x$ | $0.4$ | $0.6$ | $0.8$ | $1$ | $2$ | $3$ | $4$ | $5$ |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| $y$ | $35.2$ |  |  | $0$ |  | $-8$ | $-3$ | $4.8$ |
+
+![grid — official paper figure (qp.pdf p.27)](assets/asset_9_c_grid.png)
 
 
 **Mark scheme answer**

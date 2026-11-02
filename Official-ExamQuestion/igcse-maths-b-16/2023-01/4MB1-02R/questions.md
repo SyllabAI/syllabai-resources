@@ -532,9 +532,9 @@ Complete the table of values for y = x – 5x – 3 x –4 –3 –2 –1 0 1 2 
 
 On the grid opposite, plot the points from your completed table and join them to form a smooth curve.
 
-![grid — official paper figure (qp.pdf p.23)](assets/asset_8_b_grid.png)
+![grid — official paper figure (qp.pdf p.23)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2023-01/4MB1-02R/assets/asset_8_b_grid.png)
 
-![table — official paper figure (qp.pdf p.22) — shared with asset_8_b_table_stem](assets/asset_8_b_table_stem.png)
+![grid — official paper figure (qp.pdf p.23)](assets/asset_8_b_grid.png)
 
 
 **Mark scheme answer**

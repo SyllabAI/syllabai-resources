@@ -706,6 +706,12 @@ A box of toy bricks contains only red bricks, blue bricks, green bricks, yellow 
 
 ### 25(a) [2]
 
+A box of toy bricks contains only red bricks, blue bricks, green bricks, yellow bricks and orange bricks. A brick is taken at random from the box. The table gives information about the probabilities that the brick is red or is blue or is green or is yellow or is orange. 
+
+| Colour | red | blue | green | yellow | orange |
+| --- | --- | --- | --- | --- | --- |
+| Probability | 0.15 | 0.13 | 0.2 | 0.32 | $x$ |
+
 Calculate the value of x. x = There are 39 blue bricks in the box.
 
 

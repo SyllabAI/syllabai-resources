@@ -489,6 +489,16 @@ The table shows information about the lengths of time, in minutes, that 70 peopl
 
 ### 22(a) [1]
 
+The table shows information about the lengths of time, in minutes, that 70 people waited for a train. 
+
+| Length of time ($m$ minutes) | Frequency |
+| --- | --- |
+| $0 < m \le 10$ | 25 |
+| $10 < m \le 20$ | 16 |
+| $20 < m \le 30$ | 14 |
+| $30 < m \le 40$ | 11 |
+| $40 < m \le 50$ | 4 |
+
 Write down the modal class.
 
 

@@ -1,20 +1,19 @@
 {
  "schema": "syllabai.oeq-mathsb-synced-fields/1.0",
- "lane": "T-OEQ-MATHSB-SERVE-1 run-030 (R1 corpus back-sync)",
- "ledger": "LEDGER F122",
+ "lane": "T-OEQ-MATHSB-SERVE-1 run-039 (corpus rider discharge — riders of runs 035/036/037/038 + RN-DEBRIS-7; run-030 lineage preserved)",
+ "ledger": "LEDGER F130",
  "operatorOrder": "the maths-B corpus back-sync (trace 1a18c23adef78245)",
- "derivedFrom": "the fresh G-E1 census at resources main@9cf6037 vs the v2 plane of record f7a8c687 (1,471 delta pids), superseding the run-029 26-field inline ledger (its 26 = C120-C146 minus C145; the fields whose transform law already reproduces the plane need no pass-through and are guarded by the C-pins instead)",
+ "derivedFrom": "plane-history diff 2021ec4730bf1c83 -> 817674ccd6d33f37 (5 plane-touching commits; 236 field writes / 136 pids; runs 035/036/037/038 + RN-DEBRIS-7 attribution in scratch rider_projection.json of the lane)",
  "law": "ledgered part fields pass through from the corpus VERBATIM (no stem splice, no figure footer append, no furniture strip; problem_md no strip — R3/A1); the exporter G-E7 gate proves IN-RUN that every ledgered field's staged value is byte-identical to the plane of record and refuses the run on drift",
  "verifiedAgainst": {
-  "plane": "f7a8c687d329ffb5 (v2 main apps/hub/content/igcse-maths-b-16/official-papers.json, 3,722,053 B)",
-  "corpus": "this repo, Official-ExamQuestion/igcse-maths-b-16 (the R1 back-synced tree)",
-  "census": "G-E1 delta pids 0; G-E7 2669/2669 corpus==plane in-run; determinism stage2==stage3 byte-identical"
+  "plane": "817674ccd6d33f37 (v2 main apps/hub/content/igcse-maths-b-16/official-papers.json, 3701183 B)",
+  "corpus": "this repo, Official-ExamQuestion/igcse-maths-b-16 (the run-039 discharged tree)"
  },
  "counts": {
-  "problem_md": 853,
+  "problem_md": 959,
   "solution_md": 1078,
   "mark_points": 753,
-  "total": 2684
+  "total": 2790
  },
  "fields": [
   {
@@ -16119,6 +16118,642 @@
    "field": "problem_md",
    "paper": "02R",
    "part": "6(a)",
+   "series": "2026-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01",
+   "part": "20",
+   "series": "2018-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01R",
+   "part": "25(a)",
+   "series": "2018-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02",
+   "part": "10(b)",
+   "series": "2018-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02R",
+   "part": "2(a)",
+   "series": "2018-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02R",
+   "part": "2(b)",
+   "series": "2018-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02R",
+   "part": "2(c)",
+   "series": "2018-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02R",
+   "part": "9(a)",
+   "series": "2018-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01",
+   "part": "23(a)",
+   "series": "2019-01"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01R",
+   "part": "26(a)",
+   "series": "2019-01"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02",
+   "part": "11(d)",
+   "series": "2019-01"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02",
+   "part": "7(a)",
+   "series": "2019-01"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02R",
+   "part": "2(b)",
+   "series": "2019-01"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02R",
+   "part": "9",
+   "series": "2019-01"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01",
+   "part": "16(a)",
+   "series": "2019-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01",
+   "part": "20",
+   "series": "2019-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02",
+   "part": "1(a)",
+   "series": "2019-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02",
+   "part": "11(c)",
+   "series": "2019-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02R",
+   "part": "2(a)(ii)",
+   "series": "2019-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02R",
+   "part": "7(a)",
+   "series": "2019-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01",
+   "part": "20(a)",
+   "series": "2020-01"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01R",
+   "part": "21(a)",
+   "series": "2020-01"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01R",
+   "part": "21(b)",
+   "series": "2020-01"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02R",
+   "part": "11(b)",
+   "series": "2020-01"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01",
+   "part": "17",
+   "series": "2020-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01",
+   "part": "27(a)",
+   "series": "2020-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01",
+   "part": "9",
+   "series": "2020-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01R",
+   "part": "12",
+   "series": "2020-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02",
+   "part": "11(a)",
+   "series": "2020-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02",
+   "part": "11(b)",
+   "series": "2020-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02R",
+   "part": "7(a)",
+   "series": "2020-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02R",
+   "part": "7(b)",
+   "series": "2020-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02R",
+   "part": "7(c)",
+   "series": "2020-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02R",
+   "part": "7(d)",
+   "series": "2020-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01",
+   "part": "17",
+   "series": "2020-11"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01",
+   "part": "27(a)",
+   "series": "2020-11"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01",
+   "part": "9",
+   "series": "2020-11"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01R",
+   "part": "12",
+   "series": "2020-11"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02",
+   "part": "11(a)",
+   "series": "2020-11"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02",
+   "part": "11(b)",
+   "series": "2020-11"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02R",
+   "part": "7(a)",
+   "series": "2020-11"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02R",
+   "part": "7(b)",
+   "series": "2020-11"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02R",
+   "part": "7(c)",
+   "series": "2020-11"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02R",
+   "part": "7(d)",
+   "series": "2020-11"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01",
+   "part": "23",
+   "series": "2021-01"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01R",
+   "part": "27(c)",
+   "series": "2021-01"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02",
+   "part": "11(a)",
+   "series": "2021-01"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02",
+   "part": "11(b)",
+   "series": "2021-01"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02",
+   "part": "7",
+   "series": "2021-01"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02R",
+   "part": "3(b)",
+   "series": "2021-01"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01",
+   "part": "2(a)",
+   "series": "2021-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02",
+   "part": "6(b)",
+   "series": "2021-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02",
+   "part": "3(c)",
+   "series": "2021-11"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02",
+   "part": "7(b)",
+   "series": "2021-11"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01",
+   "part": "15(a)",
+   "series": "2022-01"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01R",
+   "part": "22(a)",
+   "series": "2022-01"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02",
+   "part": "11(d)",
+   "series": "2022-01"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02",
+   "part": "11(e)",
+   "series": "2022-01"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02R",
+   "part": "8(b)",
+   "series": "2022-01"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02R",
+   "part": "8(c)",
+   "series": "2022-01"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01R",
+   "part": "20(a)",
+   "series": "2022-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01R",
+   "part": "20(b)",
+   "series": "2022-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01R",
+   "part": "23",
+   "series": "2022-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02",
+   "part": "1",
+   "series": "2022-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02",
+   "part": "10(c)",
+   "series": "2022-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02",
+   "part": "10(d)",
+   "series": "2022-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02R",
+   "part": "3(a)",
+   "series": "2022-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01",
+   "part": "20(a)",
+   "series": "2023-01"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01R",
+   "part": "26(a)",
+   "series": "2023-01"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01R",
+   "part": "26(b)",
+   "series": "2023-01"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02",
+   "part": "11(b)",
+   "series": "2023-01"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02",
+   "part": "11(c)(i)",
+   "series": "2023-01"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02R",
+   "part": "8(b)",
+   "series": "2023-01"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01",
+   "part": "17",
+   "series": "2023-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01",
+   "part": "19(a)",
+   "series": "2023-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01R",
+   "part": "24",
+   "series": "2023-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02R",
+   "part": "9(b)",
+   "series": "2023-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02R",
+   "part": "9(c)",
+   "series": "2023-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01",
+   "part": "14(a)",
+   "series": "2023-11"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02",
+   "part": "6(a)",
+   "series": "2023-11"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02",
+   "part": "6(c)",
+   "series": "2023-11"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01",
+   "part": "23(a)",
+   "series": "2024-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01R",
+   "part": "18(a)",
+   "series": "2024-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01R",
+   "part": "19",
+   "series": "2024-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02",
+   "part": "9(a)",
+   "series": "2024-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02",
+   "part": "9(b)",
+   "series": "2024-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02",
+   "part": "9(c)",
+   "series": "2024-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02R",
+   "part": "8(b)",
+   "series": "2024-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01",
+   "part": "7",
+   "series": "2024-11"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02",
+   "part": "8(a)",
+   "series": "2024-11"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02",
+   "part": "8(b)",
+   "series": "2024-11"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01",
+   "part": "18(a)",
+   "series": "2025-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01R",
+   "part": "14",
+   "series": "2025-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01R",
+   "part": "22(a)",
+   "series": "2025-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01R",
+   "part": "22(b)",
+   "series": "2025-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02",
+   "part": "10(d)",
+   "series": "2025-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02R",
+   "part": "11(e)(i)",
+   "series": "2025-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02R",
+   "part": "11(f)",
+   "series": "2025-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02R",
+   "part": "8(a)(i)",
+   "series": "2025-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01",
+   "part": "21(a)",
+   "series": "2025-10"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02",
+   "part": "6(c)",
+   "series": "2025-11"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01",
+   "part": "10",
+   "series": "2026-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01R",
+   "part": "12",
+   "series": "2026-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "01R",
+   "part": "22(a)",
+   "series": "2026-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02",
+   "part": "8(a)",
+   "series": "2026-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02R",
+   "part": "12(a)",
+   "series": "2026-06"
+  },
+  {
+   "field": "problem_md",
+   "paper": "02R",
+   "part": "12(b)",
    "series": "2026-06"
   }
  ]

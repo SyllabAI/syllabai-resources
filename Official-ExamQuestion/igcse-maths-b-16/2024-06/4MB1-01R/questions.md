@@ -589,6 +589,16 @@ The table gives information about the heights, in cm, of 80 plants in a garden. 
 
 ### 18(a) [1]
 
+The table gives information about the heights, in cm, of 80 plants in a garden. 
+
+| Height ($h$ cm) | Frequency |
+| --- | --- |
+| $0 < h \le 10$ | 2 |
+| $10 < h \le 20$ | 26 |
+| $20 < h \le 30$ | 10 |
+| $30 < h \le 40$ | 24 |
+| $40 < h \le 50$ | 18 |
+
 Find the class interval that contains the median height of these plants.
 
 
@@ -625,7 +635,19 @@ The students in class 7T and the students in class 8Y were asked to name their f
 
 ### 19 [5]
 
-The students in class 7T and the students in class 8Y were asked to name their favourite ice cream flavour. The table shows information about the favourite ice cream flavour for class 7T The pie chart shows information about the favourite ice cream flavour for class 8Y class 7T class 8Y ice cream flavour number of students vanilla 3x + 1 vanilla chocolate 80° strawberry 5x – 12 152° 128° chocolate 2x + 3 strawberry There are 32 students in class 7T There are 45 students in class 8Y More students in class 7T than in class 8Y said vanilla was their favourite ice cream flavour. Find how many more.
+The students in class 7T and the students in class 8Y were asked to name their favourite ice cream flavour. The table shows information about the favourite ice cream flavour for class 7T The pie chart shows information about the favourite ice cream flavour for class 8Y
+
+class 7T
+
+| ice cream flavour | number of students |
+| --- | --- |
+| vanilla | $3x + 1$ |
+| strawberry | $5x - 12$ |
+| chocolate | $2x + 3$ |
+
+There are 32 students in class 7T There are 45 students in class 8Y More students in class 7T than in class 8Y said vanilla was their favourite ice cream flavour. Find how many more.
+
+![pie chart — official paper figure (qp.pdf p.14)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2024-06/4MB1-01R/assets/asset_19_table.png)
 
 ![table — official paper figure (qp.pdf p.14)](assets/asset_19_table.png)
 

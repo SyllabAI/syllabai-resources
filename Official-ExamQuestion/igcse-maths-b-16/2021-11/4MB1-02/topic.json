@@ -219,7 +219,7 @@
      "part_number": "3(c)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "On the grid opposite, draw a histogram for the information in the table. Frequency density 0 10 20 30 40 50 60 70 80 Time in minutes",
+     "problem_md": "On the grid opposite, draw a histogram for the information in the table. Frequency density 0 10 20 30 40 50 60 70 80 Time in minutes\n\n![grid — official paper figure (qp.pdf p.7)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2021-11/4MB1-02/assets/asset_3_c_grid.png)\n\n| Time ($t$ minutes) | Frequency |\n| --- | --- |\n| $0 < t \\le 5$ | 28 |\n| $5 < t \\le 15$ | 74 |\n| $15 < t \\le 35$ | 42 |\n| $35 < t \\le 50$ | 36 |\n| $50 < t \\le 75$ | 20 |",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "FDs: 28÷5 (=5.6), 74÷10 (=7.4), 3 M2 for correct methods to find at least 4 of the FD which may be\n42÷20 (=2.1), 36÷15 (=2.4), on graph (M1 for at least 2 FDs which may be on graph)\n20÷25 (=0.8) If there is not a scale on the y-axis we will allow if the bars are\ndrawn at the correct height, in relation to the bar for\n5 < t ≤15\nA1 completely correct histogram. A correct scale with at least one\ncorrect value on the y-axis\nTotal 9 marks",
@@ -234,37 +234,40 @@
      "assets": [
       {
        "id": "asset_3_c_grid",
+       "source": "qp.pdf",
+       "render": "vector",
+       "text_coverage": 0.062,
        "kind": "crop",
        "mention": "grid",
-       "source": "qp.pdf",
        "page": 7,
        "review": true,
-       "path": "assets/asset_3_c_grid.png",
-       "render": "vector",
-       "text_coverage": 0.062
-      },
-      {
-       "id": "asset_3_c_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 6,
-       "review": false,
-       "path": "assets/asset_3_c_table_stem.png",
-       "render": "vector",
-       "text_coverage": 0.489,
-       "shared": true,
-       "ref_part": "asset_3_c_table_stem"
+       "shared": false,
+       "path": "assets/asset_3_c_grid.png"
       }
      ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [problem_md]"
+      }
+     ]
     }
    ],
    "groups": {}
@@ -607,7 +610,7 @@
      "part_number": "7(a)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "Here is the equation of a curve y = x³ − 3x − 1\n\nComplete the table of values for y = x³ − 3x − 1, giving your values of y to 2 decimal places where necessary. x −2 −1.5 −1 −0.5 0 0.5 1 1.5 2 y 0.13 0.38 −3 −2.13 1\n\n![table — official paper figure (qp.pdf p.16)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2021-11/4MB1-02/assets/asset_7_a_table.png)",
+     "problem_md": "Here is the equation of a curve $y = x^3 - 3x - 1$\n\nComplete the table of values for $y = x^3 - 3x - 1$, giving your values of $y$ to 2 decimal places where necessary.\n\n| $x$ | $-2$ | $-1.5$ | $-1$ | $-0.5$ | $0$ | $0.5$ | $1$ | $1.5$ | $2$ |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| $y$ |  | $0.13$ |  | $0.38$ |  |  | $-3$ | $-2.13$ | $1$ |",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "−3, 1, −1, −2.38 (allow −2.375) 3 B3 for all 4 correct values, B2 for 3 correct, B1 for 2 correct",
@@ -619,33 +622,36 @@
       }
      ],
      "source_page": 16,
-     "assets": [
-      {
-       "id": "asset_7_a_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 16,
-       "review": false,
-       "path": "assets/asset_7_a_table.png",
-       "render": "vector",
-       "text_coverage": 0.347
-      }
-     ],
+     "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 6405c9d3 (run-035) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 6405c9d3 (run-035) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "7(b)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "On the grid opposite, plot the points from your completed table and join them to form a smooth curve.",
+     "problem_md": "On the grid opposite, plot the points from your completed table and join them to form a smooth curve.\n\n![grid — official paper figure (qp.pdf p.17)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2021-11/4MB1-02/assets/asset_7_b_grid.png)\n\n| $x$ | $-2$ | $-1.5$ | $-1$ | $-0.5$ | $0$ | $0.5$ | $1$ | $1.5$ | $2$ |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| $y$ |  | $0.13$ |  | $0.38$ |  |  | $-3$ | $-2.13$ | $1$ |",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "Correct curve 3 M1 Attempts to plot at least 7 of their points with at least 5\ndrawn correct ±1 small square. (Allow if curve goes through the points)\nM1 drawing a smooth curve through at least 5of the plotted points.\nDo not allow if they use straight lines. Allow ±1 square from their\npoint.\nA1 A fully correct curve. All Points plotted correctly, ± 1square,\n(allow their point (0.5, a)) provided −2 < a < −2.5 with a smooth\ncurve through all the points.",
@@ -660,37 +666,40 @@
      "assets": [
       {
        "id": "asset_7_b_grid",
+       "source": "qp.pdf",
+       "render": "vector",
+       "text_coverage": 0.069,
        "kind": "crop",
        "mention": "grid",
-       "source": "qp.pdf",
        "page": 17,
        "review": true,
-       "path": "assets/asset_7_b_grid.png",
-       "render": "vector",
-       "text_coverage": 0.069
-      },
-      {
-       "id": "asset_7_b_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 16,
-       "review": false,
-       "path": "assets/asset_7_a_table.png",
-       "render": "vector",
-       "text_coverage": 0.347,
-       "shared": true,
-       "ref_part": "7(a)"
+       "shared": false,
+       "path": "assets/asset_7_b_grid.png"
       }
      ],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-039-rider-discharge (corpus := plane of record 817674ccd6d33f37; riders of runs 035/036/037/038 + RN-DEBRIS-7 discharged; text fields G-E7-joined)"
+     },
+     "edits": [
+      {
+       "field": "assets",
+       "kind": "figure-wiring",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [assets]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "table-gfm-rebuild",
+       "tool": "run-039 corpus rider discharge vs plane of record 817674ccd6d33f37 (T-OEQ-MATHSB-SERVE-1; riders of runs 035/036/037/038 + RN-DEBRIS-7)",
+       "evidence_ref": "plane of record 817674ccd6d33f37 (v2 main official-papers.json); change of record 08158508 (run-036) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "7(c)",

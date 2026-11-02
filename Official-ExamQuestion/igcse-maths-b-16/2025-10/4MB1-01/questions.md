@@ -645,6 +645,18 @@ The table shows information about the number of points scored by people in a gam
 
 ### 21(a) [4]
 
+The table shows information about the number of points scored by people in a game. 
+
+| Number of points | Frequency |
+| --- | --- |
+| 12 | 27 |
+| 14 | 59 |
+| 16 | $x$ |
+| 18 | 40 |
+| 20 | 15 |
+
+ Given that the mean number of points scored is 15.6 seconds
+
 calculate the value of x Show all your working. x = One of the people is chosen at random.
 
 

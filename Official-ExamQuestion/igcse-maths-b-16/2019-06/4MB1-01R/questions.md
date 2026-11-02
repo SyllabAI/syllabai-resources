@@ -774,11 +774,29 @@ The table below gives information about the lengths of time, in minutes, that 75
 
 ### 28(a) [4]
 
-The table below gives information about the lengths of time, in minutes, that 75 cars were parked in a car park on Sunday. Time (t minutes) Frequency 0 < t ⩽ 5 8 5 < t ⩽ 20 10 20 < t ⩽ 30 15 30 < t ⩽ 40 17 40 < t ⩽ 60 25
+The table below gives information about the lengths of time, in minutes, that 75 cars were parked in a car park on Sunday.
 
-Calculate an estimate for the mean length of time, in minutes to one decimal place, that the 75 cars were parked in the car park on Sunday minutes The incomplete table and incomplete histogram give information about the lengths of time, in minutes, that 132 cars were parked in the car park on Monday. Time (t minutes) Frequency 0 < t ⩽ 5 12 5 < t ⩽ 20 20 < t ⩽ 30 30 < t ⩽ 40 27 40 < t ⩽ 60 18
+| Time ($t$ minutes) | Frequency |
+| --- | --- |
+| $0 < t \le 5$ | 8 |
+| $5 < t \le 20$ | 10 |
+| $20 < t \le 30$ | 15 |
+| $30 < t \le 40$ | 17 |
+| $40 < t \le 60$ | 25 |
 
-> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+Calculate an estimate for the mean length of time, in minutes to one decimal place, that the 75 cars were parked in the car park on Sunday
+
+The incomplete table and incomplete histogram give information about the lengths of time, in minutes, that 132 cars were parked in the car park on Monday.
+
+| Time ($t$ minutes) | Frequency |
+| --- | --- |
+| $0 < t \le 5$ | 12 |
+| $5 < t \le 20$ |  |
+| $20 < t \le 30$ |  |
+| $30 < t \le 40$ | 27 |
+| $40 < t \le 60$ | 18 |
+
+![histogram — official paper figure (qp.pdf p.23)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2019-06/4MB1-01R/assets/asset_28_table.png)
 
 ![table — official paper figure (qp.pdf p.None)](assets/asset_28_table.png)
 
@@ -797,7 +815,7 @@ Calculate an estimate for the mean length of time, in minutes to one decimal pla
 
 Complete the histogram and the table. Frequency density 0 10 20 30 40 50 60 Time (t minutes)
 
-> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+![histogram — official paper figure (qp.pdf p.23)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2019-06/4MB1-01R/assets/asset_28_table.png)
 
 ![table — official paper figure (qp.pdf p.None)](assets/asset_28_table.png)
 
