@@ -1,0 +1,23 @@
+{
+  "schema": "syllabai.receipt/1",
+  "task": "T-GRADE-009 (run-001)",
+  "generated": "2026-11-02T00:00:00Z",
+  "trace": "1a1984c6a317ea2d",
+  "bundle_sha256_16": "043289a76bf38e85",
+  "era_guard": {
+    "suppressed": "aggregate-ums rows with none of the required-spec units",
+    "effect": "9 x January 2019 legacy YMA01 servings removed (one per maths-20 course)",
+    "enforcement": "validate.py hard error on regression"
+  },
+  "a_star_rule": {
+    "config": "12/12 IAL aggregate-ums courses consistent",
+    "engine": "grade-boundaries-calc.ts gradeFromAggregation (pre-existing, tested)",
+    "ui_label": "'A* via the A2-aggregate rule (A overall + 90% of A2 UMS)'",
+    "precedence": "printed cash-in A* boundary wins when present (legacy docs)"
+  },
+  "gates": {
+    "G1": "0 errors",
+    "G2": "8/8 EXACT",
+    "G3": "0 errors, 12 honest-absence infos"
+  }
+}

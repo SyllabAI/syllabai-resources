@@ -254,6 +254,19 @@ def modular_ial_course_entry(row: dict, docs: dict[str, dict],
              "boundaries": c["boundaries"],
              "gradeLadder": list(c["boundaries"].keys())}
             for c in cashins if c.get("boundaries")]
+        # T-GRADE-9 era-guard (approved): Pearson reuses Y-cash-in codes
+        # across specifications (YMA01 = legacy 2008 Maths AND the 2018
+        # Maths cash-in). A row that contains NONE of this course's
+        # required-spec units is a foreign-era cash-in (e.g. January 2019
+        # YMA01 with WMA01/WME01/... units) and must not serve: the legacy
+        # cash-in boundaries would render under a 2018-spec course page.
+        # Transitional rows that DO contain required-spec units (June 2019
+        # YMA01 carries WMA12/WDM11 alongside legacy units) stay, already
+        # filtered to the composition allowlist above.
+        if calculator.get("mode") == "aggregate-ums" and \
+                not any(u["code"] in calculator.get("required", [])
+                        for u in entry["units"]):
+            continue
         if not entry["units"] and not entry["cashIns"]:
             continue
         if subj.get("reviewRequired") or doc.get("parse_warnings"):

@@ -137,6 +137,17 @@ def check_aggregation(bundle: dict, docs_by_family: dict[str, list[dict]]) \
         fam = entry["series"][0]["source"]["family"]
         required = list(calc.get("required", []))
         pairs = calc.get("optionalPairs") or []
+        # T-GRADE-9 era-guard enforcement: a SERVED row must carry at least
+        # one required-spec unit. Rows with none are foreign-era cash-ins
+        # (legacy YMA01 rendered on 2018-spec maths pages) — the builder
+        # suppresses them; a regression here is a hard error, not info.
+        for s in entry["series"]:
+            served = {u["code"] for u in (s.get("calculatorUnits")
+                                          or s.get("units", []))}
+            if required and not (set(required) & served):
+                errs.append(f"{slug} {s['session']}: served row has no "
+                            f"required-spec unit {sorted(required)[:3]}.. — "
+                            f"era-guard regression")
         satisfiable = 0
         for s in entry["series"]:
             units = {u["code"]: u for u in s.get("calculatorUnits", [])
