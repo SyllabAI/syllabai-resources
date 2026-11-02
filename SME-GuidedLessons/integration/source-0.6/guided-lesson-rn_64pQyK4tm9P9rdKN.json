@@ -1,0 +1,358 @@
+{
+  "format": "guided-lesson/0.6",
+  "noteRef": {
+    "noteId": "rn_64pQyK4tm9P9rdKN",
+    "corpusVersion": "sme-revision-notes-igcse-physics-19-2026-09-17",
+    "topicTitle": "2. Electricity",
+    "subtopicTitle": "Current, Potential Difference & Resistance",
+    "sourceUrl": "https://www.savemyexams.com/igcse/physics/edexcel/19/revision-notes/2-electricity/2-1-current-potential-difference-and-resistance/2-1-3-resistance"
+  },
+  "specPoints": [
+    {
+      "code": "2.13",
+      "text": "know and use the relationship between voltage, current and resistance: voltage = current × resistance V = I × R"
+    }
+  ],
+  "primer": {
+    "text": "Every component, even a plain copper wire, pushes back a little against the current trying to pass through it. That push-back is resistance. This note defines the ohm, shows how resistance throttles the current at a fixed voltage, and assembles the equation linking voltage, current and resistance that solves most simple circuits.",
+    "prerequisiteSubtopic": "Current, Potential Difference & Resistance"
+  },
+  "lessons": [
+    {
+      "title": "Calculating current, resistance & potential difference",
+      "sourceHeadings": [
+        "Calculating current, resistance & potential difference"
+      ],
+      "specRefs": [
+        "2.13"
+      ],
+      "figureIds": [
+        "fig-01",
+        "fig-02"
+      ],
+      "opening": "Squeeze a garden hose and the flow drops; leave it open and the flow soars. Resistance does to charge exactly what your hand does to the water. This lesson defines the ohm, sets the see-saw between resistance and current, and assembles the equation V = I × R that ties all three quantities together.",
+      "keyPoints": [
+        "Resistance describes how strongly a component opposes the flow of current through it.",
+        "Resistance is measured in ohm units (Ω); one ohm lets one volt drive one amp through a component.",
+        "For a fixed voltage, a higher resistance means a smaller current, and a lower resistance means a larger one.",
+        "The three quantities are linked by V = I × R.",
+        "Copper wiring has a very low resistance, which is why it counts as a good conductor.",
+        "In exam circuits the wires, ammeters and cells are taken to have zero resistance."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Resistance is the brake on the current: more ohms means less flow for the same push.",
+          "analogy": "A narrow door in a busy corridor — the wider the door (lower resistance), the more people (current) get through.",
+          "examPointer": "Use Ω for ohms in your working, and keep V, A and Ω labelled in every substitution."
+        },
+        "medium": {
+          "restatement": "The equation is a see-saw: at fixed voltage, current and resistance move in opposite directions, because I = V ÷ R.",
+          "analogy": "A credit limit: the voltage is your budget, the resistance is the price of goods, and the current is how much you can buy.",
+          "examPointer": "Assume wires, ammeters and cells have zero resistance unless a question says otherwise — only the named components count."
+        }
+      },
+      "check": [
+        {
+          "stem": "Resistance is measured in:",
+          "misconceptionClass": "unit recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "amperes",
+              "correct": false,
+              "explanation": "Amperes measure current.",
+              "misconception": "unit slip"
+            },
+            {
+              "key": "B",
+              "text": "volts",
+              "correct": false,
+              "explanation": "Volts measure voltage.",
+              "misconception": "unit slip"
+            },
+            {
+              "key": "C",
+              "text": "ohms",
+              "correct": true,
+              "explanation": "The ohm (Ω) is the unit of resistance.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "coulombs",
+              "correct": false,
+              "explanation": "Coulombs measure charge.",
+              "misconception": "unit slip"
+            }
+          ]
+        },
+        {
+          "stem": "A resistance of one ohm is equivalent to:",
+          "misconceptionClass": "unit recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "one volt producing one amp",
+              "correct": true,
+              "explanation": "A 1 V push that drives a 1 A flow means the component has 1 Ω.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "one amp producing one volt",
+              "correct": false,
+              "explanation": "The causality runs voltage first, current second.",
+              "misconception": "inversion slip"
+            },
+            {
+              "key": "C",
+              "text": "one joule per coulomb",
+              "correct": false,
+              "explanation": "That defines a volt, not an ohm.",
+              "misconception": "unit swap"
+            },
+            {
+              "key": "D",
+              "text": "one coulomb per second",
+              "correct": false,
+              "explanation": "That defines an ampere, not an ohm.",
+              "misconception": "unit swap"
+            }
+          ]
+        },
+        {
+          "stem": "For the same voltage, doubling a component's resistance makes the current through it:",
+          "misconceptionClass": "inverse reasoning",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "double",
+              "correct": false,
+              "explanation": "Current and resistance move oppositely at fixed voltage.",
+              "misconception": "proportional slip"
+            },
+            {
+              "key": "B",
+              "text": "halve",
+              "correct": true,
+              "explanation": "With V fixed, I = V ÷ R, so twice the resistance gives half the current.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "stay unchanged",
+              "correct": false,
+              "explanation": "The resistance sets the current, so changing it must change the flow.",
+              "misconception": "independence myth"
+            },
+            {
+              "key": "D",
+              "text": "fall to zero",
+              "correct": false,
+              "explanation": "Doubling is not blocking; some current still flows.",
+              "misconception": "extreme myth"
+            }
+          ]
+        },
+        {
+          "stem": "A current of 0.3 A flows through a 10 Ω resistor. The voltage across it is:",
+          "misconceptionClass": "voltage arithmetic",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "30 V",
+              "correct": false,
+              "explanation": "That slips two decimal places: 0.3 × 10 = 3, not 30.",
+              "misconception": "place-value slip"
+            },
+            {
+              "key": "B",
+              "text": "3 V",
+              "correct": true,
+              "explanation": "V = I × R = 0.3 × 10 = 3 V.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "10.3 V",
+              "correct": false,
+              "explanation": "Adding the values is meaningless.",
+              "misconception": "addition slip"
+            },
+            {
+              "key": "D",
+              "text": "0.03 V",
+              "correct": false,
+              "explanation": "That divides current by resistance instead of multiplying.",
+              "misconception": "division slip"
+            }
+          ]
+        },
+        {
+          "stem": "Copper is used for connecting wires because it has:",
+          "misconceptionClass": "material reasoning",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "a very high resistance",
+              "correct": false,
+              "explanation": "High resistance would choke the very current the wires exist to carry.",
+              "misconception": "opposite slip"
+            },
+            {
+              "key": "B",
+              "text": "no charge inside it",
+              "correct": false,
+              "explanation": "Copper is full of movable charge — that is the point.",
+              "misconception": "charge myth"
+            },
+            {
+              "key": "C",
+              "text": "a very low resistance",
+              "correct": true,
+              "explanation": "A low-resistance metal lets current pass easily, so copper is a good conductor.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "a resistance that grows as the current grows",
+              "correct": false,
+              "explanation": "That behaviour belongs to heating components like filaments, not copper wiring.",
+              "misconception": "variable myth"
+            }
+          ]
+        },
+        {
+          "stem": "Write down the equation linking voltage, current and resistance, naming the unit of each quantity.",
+          "misconceptionClass": "equation recall",
+          "kind": "recall",
+          "modelAnswer": "V = I × R, with voltage in volts, current in amperes and resistance in ohms.",
+          "keywords": [
+            "voltage",
+            "current",
+            "resistance",
+            "volt",
+            "ohm"
+          ]
+        },
+        {
+          "stem": "What happens to the current in a circuit if the resistance is increased while the voltage stays fixed?",
+          "misconceptionClass": "inverse reasoning recall",
+          "kind": "recall",
+          "modelAnswer": "The current falls, because a higher resistance opposes the flow more strongly at the same voltage.",
+          "keywords": [
+            "current",
+            "resistance",
+            "voltage",
+            "higher",
+            "opposes"
+          ]
+        },
+        {
+          "stem": "Explain why a wire with a higher resistance carries a smaller current for the same voltage.",
+          "misconceptionClass": "opposition reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "Resistance opposes the drift of charge, so at a fixed voltage a larger resistance leaves less current — the two effects balance through V = I × R.",
+          "keywords": [
+            "resistance",
+            "voltage",
+            "current",
+            "opposes",
+            "fixed"
+          ]
+        },
+        {
+          "stem": "A lamp draws 0.5 A from a 6 V supply. Calculate its resistance.",
+          "misconceptionClass": "resistance calculation",
+          "kind": "application",
+          "modelAnswer": "R = V ÷ I = 6 V ÷ 0.5 A = 12 Ω.",
+          "keywords": [
+            "12",
+            "resistance",
+            "ohms",
+            "voltage",
+            "current"
+          ]
+        }
+      ]
+    }
+  ],
+  "noteAssets": {
+    "glossary": [
+      {
+        "term": "resistance",
+        "definition": "The opposition a component offers to the current trying to flow through it, measured in ohms.",
+        "firstLesson": 1
+      },
+      {
+        "term": "ohm",
+        "definition": "The unit of resistance — one volt driving one amp through the component.",
+        "firstLesson": 1
+      },
+      {
+        "term": "conductor",
+        "definition": "A material that lets charge flow through it easily.",
+        "firstLesson": 1
+      },
+      {
+        "term": "current",
+        "definition": "The rate at which electric charge streams through a component, measured in amperes.",
+        "firstLesson": 1
+      },
+      {
+        "term": "copper",
+        "definition": "The low-resistance metal usually chosen for connecting wires.",
+        "firstLesson": 1
+      }
+    ],
+    "workedExample": {
+      "prompt": "Find the voltage across a 10 Ω resistor carrying a current of 0.3 A.",
+      "steps": [
+        "List the knowns: resistance R = 10 Ω and current I = 0.3 A.",
+        "State the linking equation: V = I × R.",
+        "Substitute: V = 0.3 × 10.",
+        "Work the product: 0.3 × 10 = 3."
+      ],
+      "finalAnswer": "The voltage across the resistor is 3 V."
+    }
+  },
+  "figures": [
+    {
+      "id": "fig-01",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/26010f42165d-2-1-3-resistance-current.png",
+      "alt": "Resistance & Current, downloadable IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "Comparing current and resistance",
+      "moduleIds": [
+        "L1"
+      ],
+      "caption": "A greater resistance means there is a lower current and vice versa",
+      "binding": "sole-lesson"
+    },
+    {
+      "id": "fig-02",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/575e0ddc60ca-vir-triangle-3-e1630869703775.png",
+      "alt": "VIR triangle, IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "Voltage current resistance formula triangle",
+      "moduleIds": [
+        "L1"
+      ],
+      "caption": "Formula triangle for the voltage, current and resistance equation",
+      "binding": "sole-lesson"
+    }
+  ]
+}

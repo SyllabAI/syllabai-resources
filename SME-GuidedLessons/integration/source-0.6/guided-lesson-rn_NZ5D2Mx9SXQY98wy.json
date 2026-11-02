@@ -1,0 +1,676 @@
+{
+  "format": "guided-lesson/0.6",
+  "noteRef": {
+    "noteId": "rn_NZ5D2Mx9SXQY98wy",
+    "corpusVersion": "sme-revision-notes-igcse-physics-19-2026-09-17",
+    "topicTitle": "2. Electricity",
+    "subtopicTitle": "Current, Potential Difference & Resistance",
+    "sourceUrl": "https://www.savemyexams.com/igcse/physics/edexcel/19/revision-notes/2-electricity/2-1-current-potential-difference-and-resistance/2-1-1-charge-and-current"
+  },
+  "specPoints": [
+    {
+      "code": "2.14",
+      "text": "know that current is the rate of flow of charge"
+    },
+    {
+      "code": "2.15",
+      "text": "know that electric current in solid metallic conductors is a flow of negatively charged electrons"
+    },
+    {
+      "code": "2.16",
+      "text": "know and use the relationship between charge, current and time: charge = current × time Q = I × t"
+    }
+  ],
+  "primer": {
+    "text": "Switch on a lamp and billions of tiny charges begin drifting through the copper — that drift is what we call electric current. This note defines current, counts it in amperes and coulombs, and then links the charge delivered to the current and the time with a compact equation. It also separates the conventional direction engineers use from the electron drift that actually carries the charge.",
+    "prerequisiteSubtopic": "Current, Potential Difference & Resistance"
+  },
+  "lessons": [
+    {
+      "title": "Current",
+      "sourceHeadings": [
+        "Current",
+        "Measuring current"
+      ],
+      "specRefs": [
+        "2.14"
+      ],
+      "figureIds": [
+        "fig-01",
+        "fig-02"
+      ],
+      "opening": "Picture a garden hose: the water company does not care how fast one drop goes, only how much water passes the tap each second. Electric current is the same idea for charge. This lesson defines the ampere, follows the conventional direction around the loop, and meets the meter that reads it.",
+      "keyPoints": [
+        "Current is the rate at which electric charge flows through a component.",
+        "Current is measured in amperes (A): one ampere is one coulomb of charge per second.",
+        "Current flows around a complete circuit from the positive terminal of a cell to the negative one.",
+        "An ammeter reads the current and must sit in series with the component being measured."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Current counts how much charge squeezes past a point each second — more charge per second means a bigger current.",
+          "analogy": "Think of counting cars past a roundabout: current is the traffic count per second, not the speed of any single car.",
+          "examPointer": "Quote the unit as amperes (A); if a question says amps, keep the symbol A in your working."
+        },
+        "medium": {
+          "restatement": "The definition is a ratio — charge divided by time — so a 2 A reading means 2 coulombs arrive every single second.",
+          "analogy": "A turnstile tally: the charge is the crowd, the time is how long the gate stays open, and the current is the tally per second.",
+          "examPointer": "Exams expect conventional current (positive to negative); mention electron drift only when the question asks about charge carriers."
+        }
+      },
+      "check": [
+        {
+          "stem": "Electric current is defined as:",
+          "misconceptionClass": "definition recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "the energy transferred per unit charge",
+              "correct": false,
+              "explanation": "That is the definition of voltage, not current.",
+              "misconception": "definition swap"
+            },
+            {
+              "key": "B",
+              "text": "how fast electric charge streams past a point",
+              "correct": true,
+              "explanation": "Current counts how much charge passes each second.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "the force pushing electrons through a wire",
+              "correct": false,
+              "explanation": "No force appears anywhere in the definition of current.",
+              "misconception": "force myth"
+            },
+            {
+              "key": "D",
+              "text": "the number of electrons sitting inside a wire",
+              "correct": false,
+              "explanation": "Owning electrons is not the same as moving them; current needs flow.",
+              "misconception": "inventory myth"
+            }
+          ]
+        },
+        {
+          "stem": "One ampere is equivalent to:",
+          "misconceptionClass": "unit recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "one joule of energy carried by one coulomb",
+              "correct": false,
+              "explanation": "A joule per coulomb defines a volt.",
+              "misconception": "volt slip"
+            },
+            {
+              "key": "B",
+              "text": "one volt across one ohm of resistance",
+              "correct": false,
+              "explanation": "That combination belongs to the voltage-current-resistance equation, not the ampere.",
+              "misconception": "equation mashup"
+            },
+            {
+              "key": "C",
+              "text": "one watt delivered for one second",
+              "correct": false,
+              "explanation": "A watt times a second is a joule of energy, not a flow of charge.",
+              "misconception": "power slip"
+            },
+            {
+              "key": "D",
+              "text": "one coulomb of charge flowing past each second",
+              "correct": true,
+              "explanation": "One amp means one coulomb arriving every second.",
+              "misconception": null
+            }
+          ]
+        },
+        {
+          "stem": "An ammeter must be connected:",
+          "misconceptionClass": "meter placement",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "in series with the component being measured",
+              "correct": true,
+              "explanation": "The meter must feel the same current as the component, so it sits in the same path.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "in parallel across the component",
+              "correct": false,
+              "explanation": "That is the voltmeter's placement; an ammeter in parallel misreads the circuit.",
+              "misconception": "placement swap"
+            },
+            {
+              "key": "C",
+              "text": "anywhere convenient in the loop",
+              "correct": false,
+              "explanation": "Placement matters: only in series does it read the component's current.",
+              "misconception": "placement myth"
+            },
+            {
+              "key": "D",
+              "text": "directly across the cell terminals",
+              "correct": false,
+              "explanation": "Placing it across the cell measures the cell, not the component in question.",
+              "misconception": "terminal myth"
+            }
+          ]
+        },
+        {
+          "stem": "Conventional current is taken to flow:",
+          "misconceptionClass": "direction convention",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "negative terminal back to the positive one",
+              "correct": false,
+              "explanation": "That is the direction of electron flow, not conventional current.",
+              "misconception": "electron swap"
+            },
+            {
+              "key": "B",
+              "text": "in the same direction as the electrons move",
+              "correct": false,
+              "explanation": "Electrons are negative, so they drift against the conventional arrow.",
+              "misconception": "carrier confusion"
+            },
+            {
+              "key": "C",
+              "text": "positive terminal out to the negative one",
+              "correct": true,
+              "explanation": "The convention sends current out of the positive terminal and back into the negative one.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "only inside the cell itself",
+              "correct": false,
+              "explanation": "Current travels the whole loop, wires included.",
+              "misconception": "loop myth"
+            }
+          ]
+        },
+        {
+          "stem": "A charge of 6 C flows past a point in a circuit in 2 s. The current is:",
+          "misconceptionClass": "rate arithmetic",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "12 A",
+              "correct": false,
+              "explanation": "That multiplies charge by time instead of dividing.",
+              "misconception": "operation slip"
+            },
+            {
+              "key": "B",
+              "text": "0.33 A",
+              "correct": false,
+              "explanation": "That divides time by charge, flipping the ratio.",
+              "misconception": "inversion slip"
+            },
+            {
+              "key": "C",
+              "text": "3 A",
+              "correct": true,
+              "explanation": "Current = charge ÷ time = 6 ÷ 2 = 3 A.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "8 A",
+              "correct": false,
+              "explanation": "Adding the two quantities is meaningless here.",
+              "misconception": "addition slip"
+            }
+          ]
+        },
+        {
+          "stem": "State what electric current measures and give its unit.",
+          "misconceptionClass": "definition recall",
+          "kind": "recall",
+          "modelAnswer": "Current measures the rate at which electric charge flows through a component, and it is measured in amperes (A).",
+          "keywords": [
+            "current",
+            "charge",
+            "rate",
+            "ampere",
+            "flow"
+          ]
+        },
+        {
+          "stem": "How should an ammeter be connected when measuring the current through a lamp?",
+          "misconceptionClass": "meter placement recall",
+          "kind": "recall",
+          "modelAnswer": "In series with the lamp, so the same current that passes through the lamp also passes through the meter.",
+          "keywords": [
+            "series",
+            "ammeter",
+            "current",
+            "lamp",
+            "component"
+          ]
+        },
+        {
+          "stem": "Explain why scientists describe current as flowing from positive to negative even though electrons move the other way.",
+          "misconceptionClass": "convention reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "The positive-to-negative direction was chosen as the convention before electrons were discovered, and scientists kept it after the electron turned out to drift the opposite way.",
+          "keywords": [
+            "conventional",
+            "electron",
+            "opposite",
+            "discovered",
+            "current"
+          ]
+        },
+        {
+          "stem": "A charge of 15 C flows through a torch bulb in 60 s. Calculate the current.",
+          "misconceptionClass": "rate calculation",
+          "kind": "application",
+          "modelAnswer": "Current = charge ÷ time = 15 C ÷ 60 s = 0.25 A.",
+          "keywords": [
+            "0.25",
+            "current",
+            "charge",
+            "second"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Charge",
+      "sourceHeadings": [
+        "Charge",
+        "Calculating electric charge"
+      ],
+      "specRefs": [
+        "2.15",
+        "2.16"
+      ],
+      "figureIds": [
+        "fig-03",
+        "fig-04",
+        "fig-05"
+      ],
+      "opening": "Inside the wires, the story gets specific: the movers are electrons, each carrying one negative packet of charge. This lesson names the carriers, then packages the whole picture into one equation — charge equals current multiplied by time — that turns meter readings into totals.",
+      "keyPoints": [
+        "In solid metal conductors the current is a flow of negatively charged electrons.",
+        "Wires are made of metal because it conducts electricity well.",
+        "Charge, current and time are linked by Q = I × t.",
+        "Charge is measured in coulombs (C), current in amperes (A) and time in seconds (s).",
+        "Electron flow runs from negative to positive — the reverse of conventional current."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Multiply how hard the charge flows (current) by how long it flows (time) and you have the total charge delivered.",
+          "analogy": "A water meter: flow rate times running time gives the total volume collected in the tank.",
+          "examPointer": "Keep units straight — coulombs for charge, amperes for current, seconds for time — before substituting anything."
+        },
+        "medium": {
+          "restatement": "The equation is a rate statement rearranged: since I = Q ÷ t, multiplying both sides by t gives Q = I × t.",
+          "analogy": "Earnings: current is your hourly wage, time is hours worked, and total charge is the pay packet at the end.",
+          "examPointer": "Convert minutes to seconds before substituting — examiners hide the unit conversion inside the question."
+        }
+      },
+      "check": [
+        {
+          "stem": "In a metal wire, the charge carriers that make up the current are:",
+          "misconceptionClass": "carrier identification",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "positive ions fixed in the metal lattice",
+              "correct": false,
+              "explanation": "Lattice ions vibrate in place; they do not drift along the wire.",
+              "misconception": "ion myth"
+            },
+            {
+              "key": "B",
+              "text": "free electrons, which carry negative charge",
+              "correct": true,
+              "explanation": "Metal conductors conduct through their negatively charged electrons.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "protons escaping from the nuclei",
+              "correct": false,
+              "explanation": "Nuclear protons never roam a circuit wire.",
+              "misconception": "proton myth"
+            },
+            {
+              "key": "D",
+              "text": "whole atoms drifting along the wire",
+              "correct": false,
+              "explanation": "Atoms stay in the lattice; only their loose electrons travel.",
+              "misconception": "atom myth"
+            }
+          ]
+        },
+        {
+          "stem": "The equation linking charge, current and time is:",
+          "misconceptionClass": "equation recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "Q = I ÷ t",
+              "correct": false,
+              "explanation": "Dividing by time gives the current, not the charge.",
+              "misconception": "operation slip"
+            },
+            {
+              "key": "B",
+              "text": "Q = I × t",
+              "correct": true,
+              "explanation": "Charge accumulates at the rate I for a duration t.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "Q = t ÷ I",
+              "correct": false,
+              "explanation": "That inverts the rate relationship.",
+              "misconception": "inversion slip"
+            },
+            {
+              "key": "D",
+              "text": "Q = I + t",
+              "correct": false,
+              "explanation": "Different units cannot simply be added.",
+              "misconception": "operation slip"
+            }
+          ]
+        },
+        {
+          "stem": "How much charge flows when a current of 4 A runs for 10 s?",
+          "misconceptionClass": "charge arithmetic",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "40 C",
+              "correct": true,
+              "explanation": "Q = I × t = 4 × 10 = 40 C.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "2.5 C",
+              "correct": false,
+              "explanation": "That divides time by current instead of multiplying.",
+              "misconception": "inversion slip"
+            },
+            {
+              "key": "C",
+              "text": "14 C",
+              "correct": false,
+              "explanation": "Adding current and time is meaningless.",
+              "misconception": "addition slip"
+            },
+            {
+              "key": "D",
+              "text": "0.4 C",
+              "correct": false,
+              "explanation": "That divides current by time, giving the wrong direction.",
+              "misconception": "division slip"
+            }
+          ]
+        },
+        {
+          "stem": "Electrons drift through a cell from:",
+          "misconceptionClass": "electron direction",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "positive to negative, like conventional current",
+              "correct": false,
+              "explanation": "Electrons are negative, so they move against the conventional arrow.",
+              "misconception": "convention confusion"
+            },
+            {
+              "key": "B",
+              "text": "negative to positive, opposite to conventional current",
+              "correct": true,
+              "explanation": "Negative carriers drift the opposite way to the conventional direction.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "both directions at once",
+              "correct": false,
+              "explanation": "The drift has one net direction around the loop.",
+              "misconception": "bidirectional myth"
+            },
+            {
+              "key": "D",
+              "text": "nowhere — electrons stay fixed in the metal",
+              "correct": false,
+              "explanation": "Fixed electrons could never carry a current.",
+              "misconception": "static myth"
+            }
+          ]
+        },
+        {
+          "stem": "A current quoted as 10 mA expressed in amperes is:",
+          "misconceptionClass": "unit prefix",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "10 000 A",
+              "correct": false,
+              "explanation": "That scales the wrong way: milli means one thousandth.",
+              "misconception": "prefix flip"
+            },
+            {
+              "key": "B",
+              "text": "1 A",
+              "correct": false,
+              "explanation": "That ignores the milli prefix entirely.",
+              "misconception": "prefix ignored"
+            },
+            {
+              "key": "C",
+              "text": "0.1 A",
+              "correct": false,
+              "explanation": "That treats milli as one tenth.",
+              "misconception": "prefix slip"
+            },
+            {
+              "key": "D",
+              "text": "0.01 A",
+              "correct": true,
+              "explanation": "10 mA = 10 ÷ 1000 = 0.01 A.",
+              "misconception": null
+            }
+          ]
+        },
+        {
+          "stem": "Write down the equation linking charge, current and time, stating the unit of each quantity.",
+          "misconceptionClass": "equation recall",
+          "kind": "recall",
+          "modelAnswer": "Q = I × t, with charge Q in coulombs (C), current I in amperes (A) and time t in seconds (s).",
+          "keywords": [
+            "charge",
+            "current",
+            "coulomb",
+            "ampere",
+            "second"
+          ]
+        },
+        {
+          "stem": "What carries the current inside a metal wire?",
+          "misconceptionClass": "carrier recall",
+          "kind": "recall",
+          "modelAnswer": "A flow of negatively charged electrons drifts through the metal when a voltage drives them.",
+          "keywords": [
+            "electrons",
+            "negative",
+            "metal",
+            "flow"
+          ]
+        },
+        {
+          "stem": "Explain why conventional current and electron flow point in opposite directions.",
+          "misconceptionClass": "convention reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "Conventional current was fixed as the direction positive charge would move, before anyone knew electrons existed; once electrons were found to be negative carriers, their drift turned out to run the other way, but the convention was kept.",
+          "keywords": [
+            "conventional",
+            "electron",
+            "opposite",
+            "negative",
+            "charge"
+          ]
+        },
+        {
+          "stem": "A motor draws a current of 0.5 A for 2 minutes. Calculate the charge that flows through it.",
+          "misconceptionClass": "unit conversion",
+          "kind": "application",
+          "modelAnswer": "Convert first: 2 minutes = 120 s. Then Q = I × t = 0.5 × 120 = 60 C.",
+          "keywords": [
+            "60",
+            "0.5",
+            "120",
+            "charge",
+            "current"
+          ]
+        }
+      ]
+    }
+  ],
+  "noteAssets": {
+    "glossary": [
+      {
+        "term": "current",
+        "definition": "The rate at which electric charge streams through a component, measured in amperes.",
+        "firstLesson": 1
+      },
+      {
+        "term": "ampere",
+        "definition": "The unit of current: one coulomb of charge passing each second.",
+        "firstLesson": 1
+      },
+      {
+        "term": "charge",
+        "definition": "The fundamental electrical quantity whose flow constitutes a current, measured in coulombs.",
+        "firstLesson": 1
+      },
+      {
+        "term": "coulomb",
+        "definition": "The unit of charge — the packet delivered by a one-amp current in one second.",
+        "firstLesson": 1
+      },
+      {
+        "term": "conventional current",
+        "definition": "The agreed direction of current, from the positive terminal to the negative one.",
+        "firstLesson": 1
+      },
+      {
+        "term": "electron",
+        "definition": "The negatively charged particle whose drift through a metal carries the current.",
+        "firstLesson": 2
+      }
+    ],
+    "workedExample": {
+      "prompt": "A multiple-choice ask wants to know when an 8 A current will pass through a circuit. The options pair different charges with different times.",
+      "steps": [
+        "Rearrange Q = I × t to make the current the subject: I = Q ÷ t.",
+        "Test the pairing 4 C in 0.5 s: I = 4 ÷ 0.5 = 8 A — this one matches.",
+        "Test 8 C in 0.1 s: I = 8 ÷ 0.1 = 80 A, far larger than 8 A.",
+        "Test 1 C in 8 s: I = 1 ÷ 8 = 0.125 A, far smaller than 8 A.",
+        "The remaining option (8 J used by 1 C) describes 8 volts, not 8 amperes."
+      ],
+      "finalAnswer": "A charge of 4 C passing in 0.5 s produces the 8 A current, so that option is the answer."
+    }
+  },
+  "figures": [
+    {
+      "id": "fig-01",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/3f6fa0dffa02-current-in-a-circuit.png",
+      "alt": "current-in-a-circuit",
+      "sourceHeading": "Current",
+      "moduleIds": [
+        "L1"
+      ],
+      "caption": "Charge flows from the positive terminal to the negative terminal",
+      "binding": "heading-unique"
+    },
+    {
+      "id": "fig-02",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/c6ecdbfb57ab-measuring-current.png",
+      "alt": "Measuring current, IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "Measuring current",
+      "moduleIds": [
+        "L1"
+      ],
+      "caption": "An ammeter can be used to measure the current around a circuit",
+      "binding": "heading-unique"
+    },
+    {
+      "id": "fig-03",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/3ed8a46542ef-electrons-and-current.png",
+      "alt": "electrons-and-current, IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "Charge",
+      "moduleIds": [
+        "L2"
+      ],
+      "caption": "In metal wires, the current is a flow of negatively charged electrons. When a voltage is applied, electrons flow through the lattice of metal ions",
+      "binding": "heading-unique"
+    },
+    {
+      "id": "fig-04",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/d75bfa1a089e-flow-of-charge-in-a-circuit.png",
+      "alt": "flow-of-charge-in-a-circuit",
+      "sourceHeading": "Charge",
+      "moduleIds": [
+        "L2"
+      ],
+      "binding": "heading-unique"
+    },
+    {
+      "id": "fig-05",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/5ba51ff45aef-current-charge-time-triangle.png",
+      "alt": "Current charge time triangle, IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "Calculating electric charge",
+      "moduleIds": [
+        "L2"
+      ],
+      "caption": "Formula triangle for the charge, current and time equation",
+      "binding": "heading-unique"
+    }
+  ]
+}

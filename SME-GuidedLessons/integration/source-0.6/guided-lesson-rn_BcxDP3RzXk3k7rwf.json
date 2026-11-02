@@ -1,0 +1,648 @@
+{
+  "format": "guided-lesson/0.6",
+  "noteRef": {
+    "noteId": "rn_BcxDP3RzXk3k7rwf",
+    "corpusVersion": "sme-revision-notes-igcse-physics-19-2026-09-17",
+    "topicTitle": "2. Electricity",
+    "subtopicTitle": "Current, Potential Difference & Resistance",
+    "sourceUrl": "https://www.savemyexams.com/igcse/physics/edexcel/19/revision-notes/2-electricity/2-1-current-potential-difference-and-resistance/2-1-2-voltage-and-energy"
+  },
+  "specPoints": [
+    {
+      "code": "2.20",
+      "text": "know that: voltage is the energy transferred per unit charge passed; the volt is a joule per coulomb"
+    },
+    {
+      "code": "2.21",
+      "text": "know and use the relationship between energy transferred, charge and voltage: energy transferred = charge × voltage E = Q × V"
+    }
+  ],
+  "primer": {
+    "text": "Push a charge through a lamp and it hands over energy as it goes — the amount handed over by each coulomb is the voltage. This note defines the volt, follows the electrons as they gain energy inside the cell and spend it around the loop, and then builds the equation that turns charge and voltage into energy transferred.",
+    "prerequisiteSubtopic": "Current, Potential Difference & Resistance"
+  },
+  "lessons": [
+    {
+      "title": "Voltage",
+      "sourceHeadings": [
+        "Voltage",
+        "Measuring voltage"
+      ],
+      "specRefs": [
+        "2.20"
+      ],
+      "figureIds": [
+        "fig-01",
+        "fig-02"
+      ],
+      "opening": "Every coulomb leaving a cell carries an energy parcel, and the size of that parcel is what we call voltage. A 12 V cell hands each coulomb 12 joules to spend. This lesson pins the definition, watches electrons gain and spend that energy, and meets the meter that reads it.",
+      "keyPoints": [
+        "Voltage measures how much energy each coulomb of charge delivers between two points.",
+        "Voltage is measured in volts (V); one volt means one joule transferred by one coulomb.",
+        "Electrons gain energy as they pass through the cell and spend it around the circuit.",
+        "A voltmeter reads voltage and must be connected in parallel with the component.",
+        "Potential difference names the same quantity — a difference measured between two points."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Voltage is the energy price per coulomb: a 6 V supply gives every coulomb 6 joules to spend on the way round.",
+          "analogy": "Think of a fuel allowance per delivery van: the voltage is how much fuel each van (coulomb) is loaded with at the depot (cell).",
+          "examPointer": "Write the unit as volts (V) and remember the fundamental form: one volt is a joule per coulomb."
+        },
+        "medium": {
+          "restatement": "The energy story runs both ways — charge gains its parcel crossing the cell, then unloads it across the components it passes through.",
+          "analogy": "Riders buying a ticket at the station (the cell) and spending it on each ride (component) before returning for another.",
+          "examPointer": "Connect a voltmeter last when building a circuit, and always across the component — never in series."
+        }
+      },
+      "check": [
+        {
+          "stem": "Voltage is defined as:",
+          "misconceptionClass": "definition recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "the rate of flow of charge",
+              "correct": false,
+              "explanation": "That defines current, not voltage.",
+              "misconception": "definition swap"
+            },
+            {
+              "key": "B",
+              "text": "the energy transferred per unit charge between two points",
+              "correct": true,
+              "explanation": "Voltage is the energy handed over by each coulomb between two locations.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "the opposition to the flow of charge",
+              "correct": false,
+              "explanation": "That describes resistance.",
+              "misconception": "definition swap"
+            },
+            {
+              "key": "D",
+              "text": "the total energy in a circuit",
+              "correct": false,
+              "explanation": "Voltage is a per-coulomb quantity, not an energy total.",
+              "misconception": "quantity slip"
+            }
+          ]
+        },
+        {
+          "stem": "One volt is equivalent to:",
+          "misconceptionClass": "unit recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "one joule per coulomb",
+              "correct": true,
+              "explanation": "The volt is defined as a joule of energy transferred per coulomb of charge.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "one coulomb per second",
+              "correct": false,
+              "explanation": "That combination defines the ampere.",
+              "misconception": "unit swap"
+            },
+            {
+              "key": "C",
+              "text": "one joule per second",
+              "correct": false,
+              "explanation": "That combination defines the watt.",
+              "misconception": "unit swap"
+            },
+            {
+              "key": "D",
+              "text": "one newton per coulomb",
+              "correct": false,
+              "explanation": "That combination belongs to electric field strength, not voltage.",
+              "misconception": "unit mashup"
+            }
+          ]
+        },
+        {
+          "stem": "A voltmeter must be connected:",
+          "misconceptionClass": "meter placement",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "in series with the component",
+              "correct": false,
+              "explanation": "Series placement is for ammeters; a voltmeter in series spoils the reading.",
+              "misconception": "placement swap"
+            },
+            {
+              "key": "B",
+              "text": "anywhere along the loop",
+              "correct": false,
+              "explanation": "The meter must span the exact two points whose difference you want.",
+              "misconception": "placement myth"
+            },
+            {
+              "key": "C",
+              "text": "in parallel across the component",
+              "correct": true,
+              "explanation": "Voltage is a difference between two points, so the meter bridges them in parallel.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "only at the cell terminals",
+              "correct": false,
+              "explanation": "A voltmeter can read any component, not just the cell.",
+              "misconception": "terminal myth"
+            }
+          ]
+        },
+        {
+          "stem": "In a 12 V cell, each coulomb of charge passing through:",
+          "misconceptionClass": "energy gain reasoning",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "gains 12 J of energy",
+              "correct": true,
+              "explanation": "A 12 V cell gives every coulomb 12 joules of energy.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "gains 12 N of force",
+              "correct": false,
+              "explanation": "Newtons measure force; the cell hands out energy.",
+              "misconception": "quantity slip"
+            },
+            {
+              "key": "C",
+              "text": "loses 12 J of energy",
+              "correct": false,
+              "explanation": "Inside the cell the charge gains energy; it spends it later in the circuit.",
+              "misconception": "direction slip"
+            },
+            {
+              "key": "D",
+              "text": "gains 12 C of extra charge",
+              "correct": false,
+              "explanation": "Cells move charge; they do not manufacture it.",
+              "misconception": "charge-creation myth"
+            }
+          ]
+        },
+        {
+          "stem": "As electrons flow around the circuit away from the cell, they:",
+          "misconceptionClass": "energy transfer reasoning",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "keep gaining energy indefinitely",
+              "correct": false,
+              "explanation": "Only the cell gives energy out; the rest of the loop takes it.",
+              "misconception": "growth myth"
+            },
+            {
+              "key": "B",
+              "text": "hold all their energy until they return to the cell",
+              "correct": false,
+              "explanation": "Components and wires take the energy along the way.",
+              "misconception": "conservation slip"
+            },
+            {
+              "key": "C",
+              "text": "transfer energy to the components and wires they pass through",
+              "correct": true,
+              "explanation": "Each coulomb unloads its energy parcel as it travels the loop.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "reverse direction at every component",
+              "correct": false,
+              "explanation": "The drift keeps one direction around the whole loop.",
+              "misconception": "direction myth"
+            }
+          ]
+        },
+        {
+          "stem": "State what voltage measures and give its unit in fundamental units.",
+          "misconceptionClass": "definition recall",
+          "kind": "recall",
+          "modelAnswer": "Voltage measures the energy transferred per unit of charge between two points; one volt is one joule per coulomb.",
+          "keywords": [
+            "voltage",
+            "energy",
+            "charge",
+            "joule",
+            "coulomb"
+          ]
+        },
+        {
+          "stem": "How should a voltmeter be connected when measuring the voltage across a lamp?",
+          "misconceptionClass": "meter placement recall",
+          "kind": "recall",
+          "modelAnswer": "In parallel with the lamp, so the meter spans the same two points as the component.",
+          "keywords": [
+            "parallel",
+            "voltmeter",
+            "lamp",
+            "component",
+            "points"
+          ]
+        },
+        {
+          "stem": "Explain why a voltmeter needs to span two points in a circuit.",
+          "misconceptionClass": "definition reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "Voltage is a difference in energy per coulomb between two locations, so the meter must compare both points — that is why the name potential difference fits it.",
+          "keywords": [
+            "difference",
+            "potential",
+            "two",
+            "points",
+            "voltage"
+          ]
+        },
+        {
+          "stem": "A charge of 25 C passes through a bulb, transferring 200 J of energy. Calculate the voltage across the bulb.",
+          "misconceptionClass": "voltage calculation",
+          "kind": "application",
+          "modelAnswer": "V = E ÷ Q = 200 J ÷ 25 C = 8 V.",
+          "keywords": [
+            "8",
+            "200",
+            "25",
+            "voltage",
+            "energy"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Calculating voltage",
+      "sourceHeadings": [
+        "Calculating voltage"
+      ],
+      "specRefs": [
+        "2.21"
+      ],
+      "figureIds": [
+        "fig-03"
+      ],
+      "opening": "One equation ties the energy story together: energy transferred equals charge moved times voltage. It answers the practical questions — how much energy does this lamp take, how much does that charge deliver. This lesson builds the equation, rearranges it both ways, and works a full example.",
+      "keyPoints": [
+        "Energy transferred equals charge moved multiplied by voltage — the equation E = Q × V computes the joules delivered.",
+        "Energy transferred is measured in joules (J), charge in coulombs (C) and voltage in volts (V).",
+        "Rearranged, voltage equals energy divided by charge, and charge equals energy divided by voltage.",
+        "A formula triangle with E on top and Q and V beneath generates all three rearrangements."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Multiply the charge that moved by the voltage it crossed and you have the energy it transferred.",
+          "analogy": "Bus fares: charge is the number of passengers, voltage is the fare each one pays, and energy is the total taken at the end.",
+          "examPointer": "State the equation before substituting — the marks are for E = Q × V, not just the number."
+        },
+        "medium": {
+          "restatement": "Every rearrangement keeps the units honest: joules ÷ coulombs gives volts, joules ÷ volts gives coulombs.",
+          "analogy": "A total bill: passengers × fare = total; you can always recover the fare by dividing the bill by the passenger count.",
+          "examPointer": "The triangle is a rearranging tool only — write the full equation in your answer or you may lose the mark."
+        }
+      },
+      "check": [
+        {
+          "stem": "The equation linking energy transferred, charge and voltage is:",
+          "misconceptionClass": "equation recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "E = Q ÷ V",
+              "correct": false,
+              "explanation": "Dividing energy by voltage gives charge, not energy.",
+              "misconception": "operation slip"
+            },
+            {
+              "key": "B",
+              "text": "E = Q × V",
+              "correct": true,
+              "explanation": "Energy transferred is charge multiplied by voltage.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "E = V ÷ Q",
+              "correct": false,
+              "explanation": "That inverts the relationship.",
+              "misconception": "inversion slip"
+            },
+            {
+              "key": "D",
+              "text": "E = Q + V",
+              "correct": false,
+              "explanation": "Different units cannot simply be added.",
+              "misconception": "operation slip"
+            }
+          ]
+        },
+        {
+          "stem": "A 6 V lamp has 4200 C of charge flow through it. The energy transferred is:",
+          "misconceptionClass": "energy arithmetic",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "700 J",
+              "correct": false,
+              "explanation": "That divides charge by voltage instead of multiplying.",
+              "misconception": "division slip"
+            },
+            {
+              "key": "B",
+              "text": "25 200 J",
+              "correct": true,
+              "explanation": "E = Q × V = 4200 × 6 = 25 200 J.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "4206 J",
+              "correct": false,
+              "explanation": "Adding the two values is meaningless.",
+              "misconception": "addition slip"
+            },
+            {
+              "key": "D",
+              "text": "4194 J",
+              "correct": false,
+              "explanation": "Subtracting the values is meaningless here.",
+              "misconception": "subtraction slip"
+            }
+          ]
+        },
+        {
+          "stem": "Rearranging E = Q × V for charge gives:",
+          "misconceptionClass": "equation rearrangement",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "Q = E × V",
+              "correct": false,
+              "explanation": "Multiplying by V moves further from the original equation.",
+              "misconception": "operation slip"
+            },
+            {
+              "key": "B",
+              "text": "Q = V ÷ E",
+              "correct": false,
+              "explanation": "That inverts the rearrangement.",
+              "misconception": "inversion slip"
+            },
+            {
+              "key": "C",
+              "text": "Q = E ÷ V",
+              "correct": true,
+              "explanation": "Dividing both sides by V isolates the charge.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "Q = E + V",
+              "correct": false,
+              "explanation": "Addition cannot rearrange a product.",
+              "misconception": "operation slip"
+            }
+          ]
+        },
+        {
+          "stem": "Energy transferred when 2 C of charge moves through 9 V is:",
+          "misconceptionClass": "energy arithmetic",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "18 J",
+              "correct": true,
+              "explanation": "E = 2 × 9 = 18 J.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "4.5 J",
+              "correct": false,
+              "explanation": "That divides voltage by charge instead of multiplying.",
+              "misconception": "division slip"
+            },
+            {
+              "key": "C",
+              "text": "11 J",
+              "correct": false,
+              "explanation": "Adding the values is meaningless.",
+              "misconception": "addition slip"
+            },
+            {
+              "key": "D",
+              "text": "7 J",
+              "correct": false,
+              "explanation": "Subtracting the values is meaningless here.",
+              "misconception": "subtraction slip"
+            }
+          ]
+        },
+        {
+          "stem": "The equation E = Q × V computes which quantity for a lamp?",
+          "misconceptionClass": "quantity identification",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "the power it dissipates each second",
+              "correct": false,
+              "explanation": "Power needs an energy-per-time view, which this equation does not give.",
+              "misconception": "quantity swap"
+            },
+            {
+              "key": "B",
+              "text": "the current through its filament",
+              "correct": false,
+              "explanation": "Current is charge per second — a different quantity entirely.",
+              "misconception": "quantity swap"
+            },
+            {
+              "key": "C",
+              "text": "the total energy it transfers for the given charge",
+              "correct": true,
+              "explanation": "The equation totals the energy carried by the stated charge at that voltage.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "the resistance of its filament",
+              "correct": false,
+              "explanation": "Resistance belongs to the voltage-current-resistance equation.",
+              "misconception": "quantity swap"
+            }
+          ]
+        },
+        {
+          "stem": "Write down the equation linking energy transferred, charge and voltage.",
+          "misconceptionClass": "equation recall",
+          "kind": "recall",
+          "modelAnswer": "E = Q × V — energy transferred in joules equals the charge in coulombs multiplied by the voltage in volts.",
+          "keywords": [
+            "energy",
+            "charge",
+            "voltage",
+            "joule",
+            "coulomb"
+          ]
+        },
+        {
+          "stem": "Calculate the energy transferred when 5 C of charge moves through a voltage of 6 V.",
+          "misconceptionClass": "energy calculation",
+          "kind": "recall",
+          "modelAnswer": "E = Q × V = 5 × 6 = 30 J.",
+          "keywords": [
+            "30",
+            "5",
+            "6",
+            "energy",
+            "charge"
+          ]
+        },
+        {
+          "stem": "Explain why one volt can also be described as one joule per coulomb.",
+          "misconceptionClass": "unit reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "Rearranging E = Q × V gives V = E ÷ Q, so a voltage of one volt means one joule of energy is transferred by each coulomb of charge.",
+          "keywords": [
+            "volt",
+            "joule",
+            "coulomb",
+            "rearranged",
+            "energy"
+          ]
+        },
+        {
+          "stem": "A 12 V motor moves 150 C of charge through itself. Calculate the energy transferred.",
+          "misconceptionClass": "energy calculation",
+          "kind": "application",
+          "modelAnswer": "E = Q × V = 150 C × 12 V = 1800 J.",
+          "keywords": [
+            "1800",
+            "150",
+            "12",
+            "energy",
+            "charge"
+          ]
+        }
+      ]
+    }
+  ],
+  "noteAssets": {
+    "glossary": [
+      {
+        "term": "voltage",
+        "definition": "The energy handed over by each coulomb of charge between two points, measured in volts.",
+        "firstLesson": 1
+      },
+      {
+        "term": "volt",
+        "definition": "The unit of voltage — one joule transferred per coulomb of charge.",
+        "firstLesson": 1
+      },
+      {
+        "term": "energy transferred",
+        "definition": "The total energy given to, or taken from, the charge as it moves — measured in joules.",
+        "firstLesson": 1
+      },
+      {
+        "term": "coulomb",
+        "definition": "The unit of charge — the packet delivered by a one-amp current in one second.",
+        "firstLesson": 1
+      },
+      {
+        "term": "voltmeter",
+        "definition": "The meter that reads voltage, connected in parallel across the component.",
+        "firstLesson": 1
+      },
+      {
+        "term": "potential difference",
+        "definition": "An alternative name for voltage, stressing that it compares two points in a circuit.",
+        "firstLesson": 1
+      }
+    ],
+    "workedExample": {
+      "prompt": "A lamp runs normally at 6 V. Find the energy transferred in the lamp when 4200 C of charge flows through it.",
+      "steps": [
+        "List the knowns: voltage V = 6 V and charge Q = 4200 C.",
+        "State the linking equation: E = Q × V.",
+        "Substitute: E = 4200 × 6.",
+        "Work the product: 4200 × 6 = 25 200."
+      ],
+      "finalAnswer": "25 200 J of energy is transferred in the lamp."
+    }
+  },
+  "figures": [
+    {
+      "id": "fig-01",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/0a116790cc6e-voltage-in-a-circuit.png",
+      "alt": "voltage-in-a-circuit",
+      "sourceHeading": "Voltage",
+      "moduleIds": [
+        "L1"
+      ],
+      "caption": "Electrons gain energy as they pass through a cell. As they flow through the light bulb, energy is transferred to the surroundings by heating and radiation",
+      "binding": "heading-unique"
+    },
+    {
+      "id": "fig-02",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/106fc663151b-9-1-2-1-voltmeter-in-a-circuit.png",
+      "alt": "Voltmeter in a circuit, downloadable AS & A Level Physics revision notes",
+      "sourceHeading": "Measuring voltage",
+      "moduleIds": [
+        "L1"
+      ],
+      "caption": "Voltage can be measured by connecting a voltmeter in parallel between two points in a circuit",
+      "binding": "heading-unique"
+    },
+    {
+      "id": "fig-03",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/2f497f4d69e4-2-1-2-energy-charge-voltage-formula-triangle.png",
+      "alt": "Energy Charge Voltage Formula Triangle, downloadable IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "Calculating voltage",
+      "moduleIds": [
+        "L2"
+      ],
+      "caption": "Formula triangle for the energy transferred, voltage and charge equation",
+      "binding": "heading-unique"
+    }
+  ]
+}
