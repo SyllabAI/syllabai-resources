@@ -1,6 +1,6 @@
 {
  "lane": "T-OEQ-PHYS-FORMAT-1",
- "ledger_version": "run-012-wave-c",
+ "ledger_version": "run-012-disc6",
  "date": "2026-11-03",
  "supersedes": "scripts/oeq_phys_run011m3/ledger.json (ledger_version run-011-m3)",
  "rules": [
@@ -58,7 +58,7 @@
    "found_in": "run-012 wave-C mechanism dossier",
    "what": "the T-CONSUME-EDX-2 run's post-build stack (span patch / fix_tail / clean-segment grafts parallel-tree pairing) collapsed per-part md fields to the LAST part's content for 17 physics questions (22 fields); the standing importer of record (build_bundles.py) is field-faithful and EDX-1's output was clean; chemistry SME bank (1404 parts) carries no exact sibling-copy signature; the official physics bank is exporter-gate-protected",
    "size": "22 fields / 20 parts / 17 questions (physics SME bank only, detected)",
-   "disposition": "repaired data-side by the wave-C serving leg; the stack sub-step attribution + a re-run census guard for any future bank rebuild are filed for the platform lane (v2 .syllabai/receipts/T-CONSUME-EDX-2/)"
+   "disposition": "ATTRIBUTED + HANDED OFF 2026-11-03 (see the disc6 section): the collapse step is the post-build stack's clean-segment grafts V1 pass (question-keyed clean-source pool, last-write-wins); intro commit c2388bca confirmed by per-field history walks for every group INCLUDING 3 banks outside physics-19 (5 further corrupted fields = the wave-D candidate); standing census guard delivered in v2 (census_guard.py + CENSUS-GUARD.md) with the 106-bank baseline receipt"
   }
  ],
  "real_content_drift": 0,
@@ -75,5 +75,21 @@
    "v2 .syllabai/lane-artifacts/T-OEQ-PHYS-FORMAT-1/run012-wavec-serve-payload.json"
   ],
   "learner_impact": "the 7-1 Po-210 grid question (qstn_hXjpCk7PMZPn2xst, incl. the run-011-m3 M3-repaired isotope notation) and the 5-3 molecules/sentences question (qstn_x3gPVCnBWZZS5Dd4) are SERVED again for the first time since 2026-10-21; the 15 solution-collapsed questions serve their true per-part solutions again."
+ },
+ "disc6": {
+  "date": "2026-11-03",
+  "what": "the DISC-6 hand-off: EDX-2 stack sub-step attribution + the standing census guard for any future bank rebuild",
+  "attribution": "step = the 23a residual chain's clean-segment grafts V1 pass (receipt of record: 'clean-segment grafts 321 (v1) + 36 (v2 gate-exact pairing)'); mechanism = the v1 clean-source pool was keyed per QUESTION+kind (last-write-wins), so every residual target field received its own question's LAST part's content; EDX-1's grafts were path-aligned per-field and the bank stayed clean (counterfactual); the v1/v2 graft implementations were ad-hoc worktree scripts, never committed (P1)",
+  "target_selection": "at the EDX-2 build pin aa0b4de1: 22/22 physics-19 targets' true contents carry 23a-class pollution (18 prose-form speech-text + 4 unconvertible multiline); the 139 polluted non-last NON-targets are ALL span/multiline form = the dictionary-repairable class, 0 prose-only; cross-bank holders polluted at pin, last parts clean",
+  "bank_wide_baseline": "census_guard over all 106 banks @ v2 main fa8059d7 (106 banks / 44,502 questions / 148,978 md fields / 39 findings in 27 groups): igcse-physics-19 ZERO (wave-C holds); 5 further EDX-2-corrupted fields confirmed in igcse-physics-modular-24-unit-2, igcse-science-double-award-17-physics (both = the radiation-family middle part, problem+solution) and ial-maths-20-decision-1 (post-patch pool variant) - intro commit c2388bca for every group (per-field history walks); benign groups: cie-as-chemistry-25 (corpus-attested duplicate), ial-maths-20-statistics-2 (of-record twin, born pre-EDX-2); maths-b fetch-bank groups (20) = no corpus counterpart by the no_topic_questions ruling, EDX-2 never rebuilt that pack - owned by the fetch-bank lane",
+  "guard": "v2 apps/hub/scripts/import_corpus/census_guard.py + CENSUS-GUARD.md mandate: exit-0 required BEFORE any rebuilt bank is committed and AFTER any post-build stack, receipt pasted into the run receipt; baseline receipt v2 .syllabai/lane-artifacts/T-OEQ-PHYS-FORMAT-1/disc6-guard-baseline.json",
+  "process_findings": "P1 ad-hoc uncommitted stack steps are unauditable - all stack steps must be committed re-runnable scripts with receipts; P2 the EDX-2 'documented reproducible path' still contains the defective v1 graft pass - replay hazard until replaced by the gate-exact pairing; P3 the corruption was gate-invisible (23a read ZERO after the grafts) - cross-field classes need this census guard, not per-field gates; P4 learner impact of the 5 remaining fields (2 radiation questions + 1 LP question) since 2026-10-21",
+  "artifacts": [
+   "scripts/oeq_phys_run012/wave-c/disc6/edx2-attribution.md",
+   "scripts/oeq_phys_run012/wave-c/disc6/graft-target-pollution-census.json",
+   "scripts/oeq_phys_run012/wave-c/disc6/guard-baseline-corpus-classification.json",
+   "scripts/oeq_phys_run012/wave-c/disc6/intro-walk.json",
+   "v2 .syllabai/receipts/T-CONSUME-EDX-2/DISC-6-handoff.md"
+  ]
  }
 }

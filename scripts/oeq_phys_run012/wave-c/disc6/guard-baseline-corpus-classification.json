@@ -1,0 +1,499 @@
+{
+ "lane": "T-OEQ-PHYS-FORMAT-1",
+ "run": "run-012 DISC-6 (census-guard baseline findings classified against the corpus of record)",
+ "guard_receipt": "v2 .syllabai/lane-artifacts/T-OEQ-PHYS-FORMAT-1/disc6-guard-baseline.json",
+ "model": "per finding group: plane parts sharing one value vs corpus-of-record values (see script docstring)",
+ "summary": {
+  "BENIGN-OF-RECORD": 1,
+  "NOT-OF-RECORD": 2,
+  "NO-CORPUS": 20,
+  "LAST-PART-COLLAPSE": 4
+ },
+ "rows": [
+  {
+   "course": "cie-as-chemistry-25",
+   "qid": "qstn_62k9kSPCBGRt34yy",
+   "kind": "solutionMd",
+   "value_len": 1407,
+   "guard_classes": [
+    "sibling_copy"
+   ],
+   "n_parts_sharing_value": 2,
+   "topic": "2-3-formulas",
+   "corpus_topic": "2-atoms-molecules-and-stoichiometry/2-3-formulas",
+   "parts_verdict": {
+    "qstnprt_ZFN6qgxBCjYcF78z": "faithful",
+    "qstnprt_KpXm8dsQqNwKbmRy": "faithful"
+   },
+   "corpus_last_pollution": {
+    "mark": false,
+    "lrm": false,
+    "len": 731,
+    "tokens": []
+   },
+   "corpus_holder_pollution": {
+    "qstnprt_ZFN6qgxBCjYcF78z": {
+     "mark": false,
+     "lrm": false,
+     "len": 1407,
+     "tokens": []
+    },
+    "qstnprt_KpXm8dsQqNwKbmRy": {
+     "mark": false,
+     "lrm": false,
+     "len": 1407,
+     "tokens": []
+    }
+   },
+   "verdict": "BENIGN-OF-RECORD"
+  },
+  {
+   "course": "ial-maths-20-decision-1",
+   "qid": "qstn_hjMZz7469DDbGmkD",
+   "kind": "problemMd",
+   "value_len": 226,
+   "guard_classes": [
+    "collapse_signature"
+   ],
+   "n_parts_sharing_value": 1,
+   "topic": "graphical-solutions-of-lp-problems",
+   "corpus_topic": "linear-programming/graphical-solutions-of-lp-problems",
+   "parts_verdict": {
+    "qstnprt_GcDFjgD9bRKWkGjC": "corrupted-own-content-lost"
+   },
+   "corpus_last_pollution": {
+    "mark": false,
+    "lrm": false,
+    "len": 225,
+    "tokens": []
+   },
+   "corpus_holder_pollution": {
+    "qstnprt_GcDFjgD9bRKWkGjC": {
+     "mark": true,
+     "lrm": false,
+     "len": 755,
+     "tokens": [
+      "intersection"
+     ]
+    }
+   },
+   "verdict": "NOT-OF-RECORD",
+   "note": "plane pair value matches no corpus part raw; if the bank is 23a-patch-transformed this is consistent with the same collapse over post-patch pool content — adjudicate with the patch diff"
+  },
+  {
+   "course": "ial-maths-20-statistics-2",
+   "qid": "qstn_VC4gHySgcd2xYVyf",
+   "kind": "solutionMd",
+   "value_len": 222,
+   "guard_classes": [
+    "collapse_signature"
+   ],
+   "n_parts_sharing_value": 1,
+   "topic": "working-with-distributions",
+   "corpus_topic": "statistical-distributions/working-with-distributions",
+   "parts_verdict": {
+    "qstnprt_WSMNcHhfhNXzQhmr": "corrupted-own-content-lost"
+   },
+   "corpus_last_pollution": {
+    "mark": false,
+    "lrm": false,
+    "len": 23,
+    "tokens": []
+   },
+   "corpus_holder_pollution": {
+    "qstnprt_WSMNcHhfhNXzQhmr": {
+     "mark": false,
+     "lrm": false,
+     "len": 23,
+     "tokens": []
+    }
+   },
+   "verdict": "NOT-OF-RECORD",
+   "note": "plane pair value matches no corpus part raw; if the bank is 23a-patch-transformed this is consistent with the same collapse over post-patch pool content — adjudicate with the patch diff"
+  },
+  {
+   "course": "igcse-maths-b-16",
+   "qid": "qstn_77SHQMZjRiOS0WIh94L5Uc",
+   "kind": "solutionMd",
+   "value_len": 15,
+   "guard_classes": [
+    "collapse_signature"
+   ],
+   "n_parts_sharing_value": 1,
+   "topic": "2020-01-4mb1-01r",
+   "verdict": "NO-CORPUS",
+   "note": "no SME-ExamQuestion counterpart dir (fetch-bank plane, owned by its own lane)"
+  },
+  {
+   "course": "igcse-maths-b-16",
+   "qid": "qstn_6EEwYPkmdR3EUeQJgpL3OB",
+   "kind": "solutionMd",
+   "value_len": 56,
+   "guard_classes": [
+    "sibling_copy"
+   ],
+   "n_parts_sharing_value": 3,
+   "topic": "2020-01-4mb1-02r",
+   "verdict": "NO-CORPUS",
+   "note": "no SME-ExamQuestion counterpart dir (fetch-bank plane, owned by its own lane)"
+  },
+  {
+   "course": "igcse-maths-b-16",
+   "qid": "qstn_C4p0kToVTGBWKE4xntOyD",
+   "kind": "solutionMd",
+   "value_len": 33,
+   "guard_classes": [
+    "sibling_copy"
+   ],
+   "n_parts_sharing_value": 2,
+   "topic": "2020-01-4mb1-02r",
+   "verdict": "NO-CORPUS",
+   "note": "no SME-ExamQuestion counterpart dir (fetch-bank plane, owned by its own lane)"
+  },
+  {
+   "course": "igcse-maths-b-16",
+   "qid": "qstn_7MPcYrPb2vPHPYtJikdczR",
+   "kind": "solutionMd",
+   "value_len": 15,
+   "guard_classes": [
+    "sibling_copy"
+   ],
+   "n_parts_sharing_value": 2,
+   "topic": "2020-01-4mb1-02r",
+   "verdict": "NO-CORPUS",
+   "note": "no SME-ExamQuestion counterpart dir (fetch-bank plane, owned by its own lane)"
+  },
+  {
+   "course": "igcse-maths-b-16",
+   "qid": "qstn_6XpLA0DarD7NzwiPcEYQji",
+   "kind": "solutionMd",
+   "value_len": 118,
+   "guard_classes": [
+    "collapse_signature"
+   ],
+   "n_parts_sharing_value": 1,
+   "topic": "2020-06-4mb1-01",
+   "verdict": "NO-CORPUS",
+   "note": "no SME-ExamQuestion counterpart dir (fetch-bank plane, owned by its own lane)"
+  },
+  {
+   "course": "igcse-maths-b-16",
+   "qid": "qstn_p7f95ToJlCRxAruzzXyGK",
+   "kind": "solutionMd",
+   "value_len": 144,
+   "guard_classes": [
+    "collapse_signature"
+   ],
+   "n_parts_sharing_value": 1,
+   "topic": "2020-06-4mb1-02r",
+   "verdict": "NO-CORPUS",
+   "note": "no SME-ExamQuestion counterpart dir (fetch-bank plane, owned by its own lane)"
+  },
+  {
+   "course": "igcse-maths-b-16",
+   "qid": "qstn_6Zq6EMPCFk1GPduoONgeBr",
+   "kind": "solutionMd",
+   "value_len": 34,
+   "guard_classes": [
+    "collapse_signature"
+   ],
+   "n_parts_sharing_value": 1,
+   "topic": "2020-06-4mb1-02r",
+   "verdict": "NO-CORPUS",
+   "note": "no SME-ExamQuestion counterpart dir (fetch-bank plane, owned by its own lane)"
+  },
+  {
+   "course": "igcse-maths-b-16",
+   "qid": "qstn_7cSbEyudWLVRWEk4TkeoVK",
+   "kind": "solutionMd",
+   "value_len": 118,
+   "guard_classes": [
+    "collapse_signature"
+   ],
+   "n_parts_sharing_value": 1,
+   "topic": "2020-11-4mb1-01",
+   "verdict": "NO-CORPUS",
+   "note": "no SME-ExamQuestion counterpart dir (fetch-bank plane, owned by its own lane)"
+  },
+  {
+   "course": "igcse-maths-b-16",
+   "qid": "qstn_2k3IuKqkvrTbFRGF1q2Hq6",
+   "kind": "solutionMd",
+   "value_len": 144,
+   "guard_classes": [
+    "collapse_signature"
+   ],
+   "n_parts_sharing_value": 1,
+   "topic": "2020-11-4mb1-02r",
+   "verdict": "NO-CORPUS",
+   "note": "no SME-ExamQuestion counterpart dir (fetch-bank plane, owned by its own lane)"
+  },
+  {
+   "course": "igcse-maths-b-16",
+   "qid": "qstn_7137BjnJ1CUVlfXajyqR1Y",
+   "kind": "solutionMd",
+   "value_len": 34,
+   "guard_classes": [
+    "collapse_signature"
+   ],
+   "n_parts_sharing_value": 1,
+   "topic": "2020-11-4mb1-02r",
+   "verdict": "NO-CORPUS",
+   "note": "no SME-ExamQuestion counterpart dir (fetch-bank plane, owned by its own lane)"
+  },
+  {
+   "course": "igcse-maths-b-16",
+   "qid": "qstn_5uTvxTne0zpVMxkWWHBXE7",
+   "kind": "solutionMd",
+   "value_len": 45,
+   "guard_classes": [
+    "sibling_copy"
+   ],
+   "n_parts_sharing_value": 3,
+   "topic": "2021-01-4mb1-01r",
+   "verdict": "NO-CORPUS",
+   "note": "no SME-ExamQuestion counterpart dir (fetch-bank plane, owned by its own lane)"
+  },
+  {
+   "course": "igcse-maths-b-16",
+   "qid": "qstn_6zioru7wWOHjQ22Vy3f7mz",
+   "kind": "problemMd",
+   "value_len": 60,
+   "guard_classes": [
+    "sibling_copy"
+   ],
+   "n_parts_sharing_value": 2,
+   "topic": "2021-01-4mb1-02",
+   "verdict": "NO-CORPUS",
+   "note": "no SME-ExamQuestion counterpart dir (fetch-bank plane, owned by its own lane)"
+  },
+  {
+   "course": "igcse-maths-b-16",
+   "qid": "qstn_6bLoCbORM4NBHFrCLHLEJT",
+   "kind": "solutionMd",
+   "value_len": 516,
+   "guard_classes": [
+    "collapse_signature"
+   ],
+   "n_parts_sharing_value": 1,
+   "topic": "2021-06-4mb1-02",
+   "verdict": "NO-CORPUS",
+   "note": "no SME-ExamQuestion counterpart dir (fetch-bank plane, owned by its own lane)"
+  },
+  {
+   "course": "igcse-maths-b-16",
+   "qid": "qstn_oy1etcqwODj4LS7EFYzS",
+   "kind": "solutionMd",
+   "value_len": 167,
+   "guard_classes": [
+    "collapse_signature"
+   ],
+   "n_parts_sharing_value": 1,
+   "topic": "2021-06-4mb1-02",
+   "verdict": "NO-CORPUS",
+   "note": "no SME-ExamQuestion counterpart dir (fetch-bank plane, owned by its own lane)"
+  },
+  {
+   "course": "igcse-maths-b-16",
+   "qid": "qstn_2PH2mEIGCRCK5pbyz2p0eR",
+   "kind": "solutionMd",
+   "value_len": 63,
+   "guard_classes": [
+    "sibling_copy"
+   ],
+   "n_parts_sharing_value": 2,
+   "topic": "2022-06-4mb1-02r",
+   "verdict": "NO-CORPUS",
+   "note": "no SME-ExamQuestion counterpart dir (fetch-bank plane, owned by its own lane)"
+  },
+  {
+   "course": "igcse-maths-b-16",
+   "qid": "qstn_kuJWAeto1g5ALtapiYszZ",
+   "kind": "solutionMd",
+   "value_len": 450,
+   "guard_classes": [
+    "sibling_copy"
+   ],
+   "n_parts_sharing_value": 2,
+   "topic": "2023-01-4mb1-02",
+   "verdict": "NO-CORPUS",
+   "note": "no SME-ExamQuestion counterpart dir (fetch-bank plane, owned by its own lane)"
+  },
+  {
+   "course": "igcse-maths-b-16",
+   "qid": "qstn_4Wt1M4ixbeu7PbnBdCwnnO",
+   "kind": "solutionMd",
+   "value_len": 30,
+   "guard_classes": [
+    "sibling_copy"
+   ],
+   "n_parts_sharing_value": 2,
+   "topic": "2023-06-4mb1-01r",
+   "verdict": "NO-CORPUS",
+   "note": "no SME-ExamQuestion counterpart dir (fetch-bank plane, owned by its own lane)"
+  },
+  {
+   "course": "igcse-maths-b-16",
+   "qid": "qstn_5EvcPTWRPyTD4FfAxiwq2t",
+   "kind": "solutionMd",
+   "value_len": 186,
+   "guard_classes": [
+    "sibling_copy"
+   ],
+   "n_parts_sharing_value": 2,
+   "topic": "2023-06-4mb1-02r",
+   "verdict": "NO-CORPUS",
+   "note": "no SME-ExamQuestion counterpart dir (fetch-bank plane, owned by its own lane)"
+  },
+  {
+   "course": "igcse-maths-b-16",
+   "qid": "qstn_5ATZ6bH0p7ZiXKiEpOJBmW",
+   "kind": "solutionMd",
+   "value_len": 87,
+   "guard_classes": [
+    "collapse_signature"
+   ],
+   "n_parts_sharing_value": 1,
+   "topic": "2023-11-4mb1-02",
+   "verdict": "NO-CORPUS",
+   "note": "no SME-ExamQuestion counterpart dir (fetch-bank plane, owned by its own lane)"
+  },
+  {
+   "course": "igcse-maths-b-16",
+   "qid": "qstn_4yvfZ0PUg7z1ZgGE0Yy05T",
+   "kind": "solutionMd",
+   "value_len": 548,
+   "guard_classes": [
+    "collapse_signature"
+   ],
+   "n_parts_sharing_value": 1,
+   "topic": "2025-06-4mb1-02",
+   "verdict": "NO-CORPUS",
+   "note": "no SME-ExamQuestion counterpart dir (fetch-bank plane, owned by its own lane)"
+  },
+  {
+   "course": "igcse-physics-modular-24-unit-2",
+   "qid": "qstn_StT48QqJHnmfWTDr",
+   "kind": "problemMd",
+   "value_len": 126,
+   "guard_classes": [
+    "collapse_signature"
+   ],
+   "n_parts_sharing_value": 1,
+   "topic": "properties-of-radiation",
+   "corpus_topic": "radioactivity-particles/properties-of-radiation",
+   "parts_verdict": {
+    "qstnprt_TQjyXfgvNtgD897N": "corrupted-own-content-lost"
+   },
+   "corpus_last_pollution": {
+    "mark": false,
+    "lrm": false,
+    "len": 126,
+    "tokens": []
+   },
+   "corpus_holder_pollution": {
+    "qstnprt_TQjyXfgvNtgD897N": {
+     "mark": false,
+     "lrm": false,
+     "len": 433,
+     "tokens": []
+    }
+   },
+   "verdict": "LAST-PART-COLLAPSE",
+   "edX2_fingerprint": true
+  },
+  {
+   "course": "igcse-physics-modular-24-unit-2",
+   "qid": "qstn_StT48QqJHnmfWTDr",
+   "kind": "solutionMd",
+   "value_len": 525,
+   "guard_classes": [
+    "collapse_signature"
+   ],
+   "n_parts_sharing_value": 1,
+   "topic": "properties-of-radiation",
+   "corpus_topic": "radioactivity-particles/properties-of-radiation",
+   "parts_verdict": {
+    "qstnprt_TQjyXfgvNtgD897N": "corrupted-own-content-lost"
+   },
+   "corpus_last_pollution": {
+    "mark": false,
+    "lrm": false,
+    "len": 525,
+    "tokens": []
+   },
+   "corpus_holder_pollution": {
+    "qstnprt_TQjyXfgvNtgD897N": {
+     "mark": false,
+     "lrm": false,
+     "len": 903,
+     "tokens": []
+    }
+   },
+   "verdict": "LAST-PART-COLLAPSE",
+   "edX2_fingerprint": true
+  },
+  {
+   "course": "igcse-science-double-award-17-physics",
+   "qid": "qstn_j4MgKD5BjMHMxFzG",
+   "kind": "problemMd",
+   "value_len": 126,
+   "guard_classes": [
+    "collapse_signature"
+   ],
+   "n_parts_sharing_value": 1,
+   "topic": "properties-of-radiation",
+   "corpus_topic": "radioactivity-and-particles/properties-of-radiation",
+   "parts_verdict": {
+    "qstnprt_6z5wkKsZtQZhbvgH": "corrupted-own-content-lost"
+   },
+   "corpus_last_pollution": {
+    "mark": false,
+    "lrm": false,
+    "len": 126,
+    "tokens": []
+   },
+   "corpus_holder_pollution": {
+    "qstnprt_6z5wkKsZtQZhbvgH": {
+     "mark": false,
+     "lrm": false,
+     "len": 434,
+     "tokens": []
+    }
+   },
+   "verdict": "LAST-PART-COLLAPSE",
+   "edX2_fingerprint": true
+  },
+  {
+   "course": "igcse-science-double-award-17-physics",
+   "qid": "qstn_j4MgKD5BjMHMxFzG",
+   "kind": "solutionMd",
+   "value_len": 521,
+   "guard_classes": [
+    "collapse_signature"
+   ],
+   "n_parts_sharing_value": 1,
+   "topic": "properties-of-radiation",
+   "corpus_topic": "radioactivity-and-particles/properties-of-radiation",
+   "parts_verdict": {
+    "qstnprt_6z5wkKsZtQZhbvgH": "corrupted-own-content-lost"
+   },
+   "corpus_last_pollution": {
+    "mark": false,
+    "lrm": false,
+    "len": 521,
+    "tokens": []
+   },
+   "corpus_holder_pollution": {
+    "qstnprt_6z5wkKsZtQZhbvgH": {
+     "mark": false,
+     "lrm": false,
+     "len": 898,
+     "tokens": []
+    }
+   },
+   "verdict": "LAST-PART-COLLAPSE",
+   "edX2_fingerprint": true
+  }
+ ]
+}

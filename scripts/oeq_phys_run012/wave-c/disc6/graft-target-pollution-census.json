@@ -1,0 +1,1852 @@
+{
+ "lane": "T-OEQ-PHYS-FORMAT-1",
+ "run": "run-012 DISC-6 forensics (graft-target pollution census)",
+ "purpose": "test the attribution hypothesis: the 22 collapse fields were targets of the T-CONSUME-EDX-2 clean-segment grafts residual pass (23a gate residual chain); their true content at the EDX-2 pin must carry 23a gate-class pollution",
+ "pin": "aa0b4de1b732738b4d02dabdd02d9ead85522907",
+ "mark_regex_source": "apps/hub/scripts/patch_corpus_math_23a.ts @ v2 c2388bca (quoted verbatim)",
+ "polluted_definition": "mark_raw OR mark_in_span OR mathml_tag OR dollar_odd OR multiline_dollar (over-approximation of the 23a residual defect list, disclosed)",
+ "baseline": {
+  "pin": "aa0b4de1b732738b4d02dabdd02d9ead85522907",
+  "bank_md_fields": 2270,
+  "bank_polluted": 280,
+  "non_last_fields": 1292,
+  "non_last_polluted": 161,
+  "non_last_polluted_excl_targets": 139,
+  "last_part_fields": 978,
+  "last_part_polluted": 119,
+  "pollution_rate_pct": 12.33,
+  "non_last_pollution_rate_pct": 12.46,
+  "targets_polluted": 22,
+  "targets_polluted_of": 22
+ },
+ "targets": [
+  {
+   "pid": "qstnprt_kJySyxXqNPwvjWKp",
+   "kind": "solution_md",
+   "topic": "2-electricity/2-1-current-potential-difference-and-resistance",
+   "order": 2,
+   "n_parts": 4,
+   "copy_of_orders": [
+    3
+   ],
+   "sha256_at_edx2_pin": "97009aaf4baa5c0d8cbe70bc8b7af54e73ab66169abea9b6906619a481056171",
+   "len_at_edx2_pin": 646,
+   "matches_serve_table_corpus_sha": true,
+   "mark_raw": true,
+   "mark_in_span": false,
+   "mark_tokens": [
+    "proportional to"
+   ],
+   "mathml_tag": false,
+   "dollar_odd": false,
+   "multiline_dollar": false,
+   "lrm": false
+  },
+  {
+   "pid": "qstnprt_dzHnFdPwWP8RW5Xt",
+   "kind": "solution_md",
+   "topic": "5-solids-liquids-and-gases/5-1-density-and-pressure",
+   "order": 1,
+   "n_parts": 3,
+   "copy_of_orders": [
+    2
+   ],
+   "sha256_at_edx2_pin": "22ea4713226a66e2d1bb0fcbc418663aea2b9c2a23e6db38d904f1c21d93ac66",
+   "len_at_edx2_pin": 925,
+   "matches_serve_table_corpus_sha": false,
+   "mark_raw": true,
+   "mark_in_span": true,
+   "mark_tokens": [
+    "down diagonal strike",
+    "end fraction",
+    "fraction numerator",
+    "over denominator"
+   ],
+   "mathml_tag": false,
+   "dollar_odd": false,
+   "multiline_dollar": true,
+   "lrm": false
+  },
+  {
+   "pid": "qstnprt_28ZKFq2BKyYtwDtb",
+   "kind": "solution_md",
+   "topic": "3-waves/3-1-waves-and-the-electromagnetic-spectrum",
+   "order": 1,
+   "n_parts": 3,
+   "copy_of_orders": [
+    2
+   ],
+   "sha256_at_edx2_pin": "c2eb4141631c7937a40017ccf7102fc0e2d707feb97563fa342f4f2ad91742de",
+   "len_at_edx2_pin": 405,
+   "matches_serve_table_corpus_sha": true,
+   "mark_raw": true,
+   "mark_in_span": false,
+   "mark_tokens": [
+    "proportional to"
+   ],
+   "mathml_tag": false,
+   "dollar_odd": false,
+   "multiline_dollar": true,
+   "lrm": false
+  },
+  {
+   "pid": "qstnprt_D4MrkXXKV3rXMCgD",
+   "kind": "solution_md",
+   "topic": "8-astrophysics/8-1-motion-in-the-universe",
+   "order": 2,
+   "n_parts": 4,
+   "copy_of_orders": [
+    3
+   ],
+   "sha256_at_edx2_pin": "e0217fc1907d76f7553fd0f814253ec848619383aabbe4d92abf7dbaab2e07ce",
+   "len_at_edx2_pin": 640,
+   "matches_serve_table_corpus_sha": true,
+   "mark_raw": true,
+   "mark_in_span": false,
+   "mark_tokens": [
+    "proportional to"
+   ],
+   "mathml_tag": false,
+   "dollar_odd": false,
+   "multiline_dollar": false,
+   "lrm": false
+  },
+  {
+   "pid": "qstnprt_yCK74nZSndFymhSB",
+   "kind": "solution_md",
+   "topic": "3-waves/3-1-waves-and-the-electromagnetic-spectrum",
+   "order": 1,
+   "n_parts": 3,
+   "copy_of_orders": [
+    2
+   ],
+   "sha256_at_edx2_pin": "2e6d69e48a5ec9a9648ebc82a4070dc8ea336f987b6ff52d86518e4eaaa17c04",
+   "len_at_edx2_pin": 879,
+   "matches_serve_table_corpus_sha": true,
+   "mark_raw": true,
+   "mark_in_span": false,
+   "mark_tokens": [
+    "proportional to"
+   ],
+   "mathml_tag": false,
+   "dollar_odd": false,
+   "multiline_dollar": true,
+   "lrm": false
+  },
+  {
+   "pid": "qstnprt_NfgGD66yPS5zPTX9",
+   "kind": "solution_md",
+   "topic": "5-solids-liquids-and-gases/5-3-ideal-gases",
+   "order": 0,
+   "n_parts": 2,
+   "copy_of_orders": [
+    1
+   ],
+   "sha256_at_edx2_pin": "246a6dd4474c1ae06cf4c7fc0e63f6a90e602aae452efff6bbaa08dd275c3ea4",
+   "len_at_edx2_pin": 950,
+   "matches_serve_table_corpus_sha": true,
+   "mark_raw": true,
+   "mark_in_span": false,
+   "mark_tokens": [
+    "proportional to"
+   ],
+   "mathml_tag": false,
+   "dollar_odd": false,
+   "multiline_dollar": false,
+   "lrm": false
+  },
+  {
+   "pid": "qstnprt_9PZGDdJKKwZvM4M2",
+   "kind": "solution_md",
+   "topic": "5-solids-liquids-and-gases/5-3-ideal-gases",
+   "order": 0,
+   "n_parts": 5,
+   "copy_of_orders": [
+    4
+   ],
+   "sha256_at_edx2_pin": "d7920765dfb33f3ebae38de32d9ac036aa6404fd64a58170e220e60a0ecc2ba8",
+   "len_at_edx2_pin": 566,
+   "matches_serve_table_corpus_sha": true,
+   "mark_raw": true,
+   "mark_in_span": false,
+   "mark_tokens": [
+    "proportional to"
+   ],
+   "mathml_tag": false,
+   "dollar_odd": false,
+   "multiline_dollar": false,
+   "lrm": false
+  },
+  {
+   "pid": "qstnprt_WkXvqPsJDRJQgmnn",
+   "kind": "solution_md",
+   "topic": "5-solids-liquids-and-gases/5-3-ideal-gases",
+   "order": 1,
+   "n_parts": 5,
+   "copy_of_orders": [
+    4
+   ],
+   "sha256_at_edx2_pin": "be83f203068fe1e3ae9a9c19e023bc71ed7812c69f1fe266e112dad7cade4778",
+   "len_at_edx2_pin": 190,
+   "matches_serve_table_corpus_sha": true,
+   "mark_raw": true,
+   "mark_in_span": false,
+   "mark_tokens": [
+    "proportional to"
+   ],
+   "mathml_tag": false,
+   "dollar_odd": false,
+   "multiline_dollar": false,
+   "lrm": false
+  },
+  {
+   "pid": "qstnprt_YdRjy7ck5Xv8CQcT",
+   "kind": "solution_md",
+   "topic": "5-solids-liquids-and-gases/5-3-ideal-gases",
+   "order": 2,
+   "n_parts": 5,
+   "copy_of_orders": [
+    4
+   ],
+   "sha256_at_edx2_pin": "66c3c8292e82d9c645d7e2edcf8ecde4fe43aa3c757e5268c2e861aa762338f1",
+   "len_at_edx2_pin": 172,
+   "matches_serve_table_corpus_sha": true,
+   "mark_raw": true,
+   "mark_in_span": false,
+   "mark_tokens": [
+    "proportional to"
+   ],
+   "mathml_tag": false,
+   "dollar_odd": false,
+   "multiline_dollar": false,
+   "lrm": false
+  },
+  {
+   "pid": "qstnprt_mZsY58SkjdsqMT98",
+   "kind": "solution_md",
+   "topic": "5-solids-liquids-and-gases/5-3-ideal-gases",
+   "order": 3,
+   "n_parts": 5,
+   "copy_of_orders": [
+    4
+   ],
+   "sha256_at_edx2_pin": "571eba84f41acce8980803fea71c8eb9ffe69d39d384e248589e5a4d1bd34b95",
+   "len_at_edx2_pin": 557,
+   "matches_serve_table_corpus_sha": true,
+   "mark_raw": true,
+   "mark_in_span": false,
+   "mark_tokens": [
+    "proportional to"
+   ],
+   "mathml_tag": false,
+   "dollar_odd": false,
+   "multiline_dollar": false,
+   "lrm": false
+  },
+  {
+   "pid": "qstnprt_n9TCk4YF3bTf4bpx",
+   "kind": "solution_md",
+   "topic": "3-waves/3-2-reflection-and-refraction",
+   "order": 0,
+   "n_parts": 3,
+   "copy_of_orders": [
+    2
+   ],
+   "sha256_at_edx2_pin": "523a9c4eabccbcd60199fb2242bca4efc45101796fbe5b2c318d101421ebe42f",
+   "len_at_edx2_pin": 1779,
+   "matches_serve_table_corpus_sha": true,
+   "mark_raw": true,
+   "mark_in_span": false,
+   "mark_tokens": [
+    "vertical line"
+   ],
+   "mathml_tag": false,
+   "dollar_odd": false,
+   "multiline_dollar": false,
+   "lrm": false
+  },
+  {
+   "pid": "qstnprt_SXDYtzdjr8YbM2mT",
+   "kind": "solution_md",
+   "topic": "1-forces-and-motion/1-2-forces-movement-and-changing-shape",
+   "order": 3,
+   "n_parts": 5,
+   "copy_of_orders": [
+    4
+   ],
+   "sha256_at_edx2_pin": "275381f9d77a2dac8054ead3dc2d08d89b494b83e910933ef0dfb59d53b61666",
+   "len_at_edx2_pin": 221,
+   "matches_serve_table_corpus_sha": true,
+   "mark_raw": true,
+   "mark_in_span": false,
+   "mark_tokens": [
+    "proportional to"
+   ],
+   "mathml_tag": false,
+   "dollar_odd": false,
+   "multiline_dollar": false,
+   "lrm": false
+  },
+  {
+   "pid": "qstnprt_wjqmcFX5pbg5jfWV",
+   "kind": "solution_md",
+   "topic": "5-solids-liquids-and-gases/5-1-density-and-pressure",
+   "order": 2,
+   "n_parts": 4,
+   "copy_of_orders": [
+    3
+   ],
+   "sha256_at_edx2_pin": "ab61a24319de3e74ef8b69e19be98c14d4c6253e9afe198dfc5fb266ceaeafe3",
+   "len_at_edx2_pin": 284,
+   "matches_serve_table_corpus_sha": true,
+   "mark_raw": true,
+   "mark_in_span": false,
+   "mark_tokens": [
+    "proportional to"
+   ],
+   "mathml_tag": false,
+   "dollar_odd": false,
+   "multiline_dollar": false,
+   "lrm": false
+  },
+  {
+   "pid": "qstnprt_dxXk78VwxZckQg9X",
+   "kind": "solution_md",
+   "topic": "6-magnetism-and-electromagnetism/6-2-electromagnetic-induction",
+   "order": 0,
+   "n_parts": 2,
+   "copy_of_orders": [
+    1
+   ],
+   "sha256_at_edx2_pin": "cbc44774a60d2322c403836bddeff60891f6e597abfc4df249319af3b052e7ca",
+   "len_at_edx2_pin": 1223,
+   "matches_serve_table_corpus_sha": true,
+   "mark_raw": true,
+   "mark_in_span": false,
+   "mark_tokens": [
+    "proportional to"
+   ],
+   "mathml_tag": false,
+   "dollar_odd": false,
+   "multiline_dollar": false,
+   "lrm": false
+  },
+  {
+   "pid": "qstnprt_ZTrm3d8Qwgth5z94",
+   "kind": "problem_md",
+   "topic": "7-radioactivity-and-particles/7-1-properties-of-radiation",
+   "order": 1,
+   "n_parts": 3,
+   "copy_of_orders": [
+    2
+   ],
+   "sha256_at_edx2_pin": "8f8004566b7bc43ce5852a5271e675632d5dc8bf823ece94db46c9627121ef65",
+   "len_at_edx2_pin": 471,
+   "matches_serve_table_corpus_sha": false,
+   "mark_raw": true,
+   "mark_in_span": true,
+   "mark_tokens": [
+    "presubscript",
+    "presuperscript"
+   ],
+   "mathml_tag": false,
+   "dollar_odd": false,
+   "multiline_dollar": false,
+   "lrm": false
+  },
+  {
+   "pid": "qstnprt_ZTrm3d8Qwgth5z94",
+   "kind": "solution_md",
+   "topic": "7-radioactivity-and-particles/7-1-properties-of-radiation",
+   "order": 1,
+   "n_parts": 3,
+   "copy_of_orders": [
+    2
+   ],
+   "sha256_at_edx2_pin": "df661b09b4d39d986a19d91b4686c558fb3e92ea58ac2ee799212ac63b2aa8d0",
+   "len_at_edx2_pin": 976,
+   "matches_serve_table_corpus_sha": false,
+   "mark_raw": true,
+   "mark_in_span": true,
+   "mark_tokens": [
+    "presubscript",
+    "presuperscript"
+   ],
+   "mathml_tag": false,
+   "dollar_odd": false,
+   "multiline_dollar": false,
+   "lrm": false
+  },
+  {
+   "pid": "qstnprt_V8vcYRxcrfGfNb3p",
+   "kind": "solution_md",
+   "topic": "1-forces-and-motion/1-2-forces-movement-and-changing-shape",
+   "order": 0,
+   "n_parts": 2,
+   "copy_of_orders": [
+    1
+   ],
+   "sha256_at_edx2_pin": "c81ba568e8044e485e94b227c6825c8bc48f66a235b81b2daffb98c8a821d7eb",
+   "len_at_edx2_pin": 1500,
+   "matches_serve_table_corpus_sha": true,
+   "mark_raw": true,
+   "mark_in_span": false,
+   "mark_tokens": [
+    "proportional to"
+   ],
+   "mathml_tag": false,
+   "dollar_odd": false,
+   "multiline_dollar": false,
+   "lrm": false
+  },
+  {
+   "pid": "qstnprt_QrgqV5RjQzxVzD2q",
+   "kind": "solution_md",
+   "topic": "5-solids-liquids-and-gases/5-3-ideal-gases",
+   "order": 0,
+   "n_parts": 2,
+   "copy_of_orders": [
+    1
+   ],
+   "sha256_at_edx2_pin": "b8efc1cf7f2a104b1bfd4318b049f7151b944ddffebeafd654552371374f1ad6",
+   "len_at_edx2_pin": 2132,
+   "matches_serve_table_corpus_sha": false,
+   "mark_raw": true,
+   "mark_in_span": true,
+   "mark_tokens": [
+    "down diagonal strike",
+    "end fraction",
+    "end strike",
+    "fraction numerator",
+    "over denominator",
+    "proportional to",
+    "subscript"
+   ],
+   "mathml_tag": false,
+   "dollar_odd": false,
+   "multiline_dollar": true,
+   "lrm": false
+  },
+  {
+   "pid": "qstnprt_r5y76ghCvYSmh6jr",
+   "kind": "solution_md",
+   "topic": "3-waves/3-1-waves-and-the-electromagnetic-spectrum",
+   "order": 0,
+   "n_parts": 3,
+   "copy_of_orders": [
+    2
+   ],
+   "sha256_at_edx2_pin": "021c15425b64c74d21feb401145ea501329ac3a6ad65e03247bf4b0f207066cc",
+   "len_at_edx2_pin": 263,
+   "matches_serve_table_corpus_sha": true,
+   "mark_raw": true,
+   "mark_in_span": false,
+   "mark_tokens": [
+    "proportional to"
+   ],
+   "mathml_tag": false,
+   "dollar_odd": false,
+   "multiline_dollar": false,
+   "lrm": false
+  },
+  {
+   "pid": "qstnprt_Vn36YRgjsBNv8BK2",
+   "kind": "problem_md",
+   "topic": "5-solids-liquids-and-gases/5-3-ideal-gases",
+   "order": 1,
+   "n_parts": 3,
+   "copy_of_orders": [
+    2
+   ],
+   "sha256_at_edx2_pin": "f708e7151c0abbec64f642b6b9ff1df7ba8f783c8188b8b4becd194dfb2f5d10",
+   "len_at_edx2_pin": 1006,
+   "matches_serve_table_corpus_sha": true,
+   "mark_raw": true,
+   "mark_in_span": false,
+   "mark_tokens": [
+    "proportional to"
+   ],
+   "mathml_tag": false,
+   "dollar_odd": false,
+   "multiline_dollar": false,
+   "lrm": false
+  },
+  {
+   "pid": "qstnprt_Vn36YRgjsBNv8BK2",
+   "kind": "solution_md",
+   "topic": "5-solids-liquids-and-gases/5-3-ideal-gases",
+   "order": 1,
+   "n_parts": 3,
+   "copy_of_orders": [
+    2
+   ],
+   "sha256_at_edx2_pin": "3a7bf7382ba979f845354fffc87226af2e8794eb87a22cd1f30f8306447372f2",
+   "len_at_edx2_pin": 740,
+   "matches_serve_table_corpus_sha": true,
+   "mark_raw": true,
+   "mark_in_span": false,
+   "mark_tokens": [
+    "proportional to"
+   ],
+   "mathml_tag": false,
+   "dollar_odd": false,
+   "multiline_dollar": false,
+   "lrm": false
+  },
+  {
+   "pid": "qstnprt_ZSk3sJwXjptrTH2S",
+   "kind": "solution_md",
+   "topic": "1-forces-and-motion/1-1-movement-and-position",
+   "order": 2,
+   "n_parts": 4,
+   "copy_of_orders": [
+    3
+   ],
+   "sha256_at_edx2_pin": "a486235735bf1e866492c75d25dac0d93b143837b3a58ef2e6d5fc77eaa64e22",
+   "len_at_edx2_pin": 988,
+   "matches_serve_table_corpus_sha": true,
+   "mark_raw": true,
+   "mark_in_span": false,
+   "mark_tokens": [
+    "vertical line"
+   ],
+   "mathml_tag": false,
+   "dollar_odd": false,
+   "multiline_dollar": false,
+   "lrm": false
+  }
+ ],
+ "question_pool_audit": [
+  {
+   "qid": "qstn_24mxj4JbTZqHvFTY",
+   "topic": "2-electricity/2-1-current-potential-difference-and-resistance",
+   "n_parts": 4,
+   "last_order": 3,
+   "parts": [
+    {
+     "pid": "qstnprt_DFW3YBvyc4Dgnm2f",
+     "order": 0,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     }
+    },
+    {
+     "pid": "qstnprt_8VwchMRDvSvHHX6W",
+     "order": 1,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     }
+    },
+    {
+     "pid": "qstnprt_kJySyxXqNPwvjWKp",
+     "order": 2,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": true,
+      "raw_only": true,
+      "tokens": [
+       "proportional to"
+      ]
+     }
+    },
+    {
+     "pid": "qstnprt_XJHD8kbrNKhDYpGY",
+     "order": 3,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     }
+    }
+   ]
+  },
+  {
+   "qid": "qstn_32JP6qtsPbMyqTQb",
+   "topic": "5-solids-liquids-and-gases/5-1-density-and-pressure",
+   "n_parts": 3,
+   "last_order": 2,
+   "parts": [
+    {
+     "pid": "qstnprt_mjYcg4pFMGmSNZGM",
+     "order": 0,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     }
+    },
+    {
+     "pid": "qstnprt_dzHnFdPwWP8RW5Xt",
+     "order": 1,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": true,
+      "raw_only": false,
+      "tokens": [
+       "down diagonal strike",
+       "end fraction",
+       "fraction numerator",
+       "over denominator"
+      ]
+     }
+    },
+    {
+     "pid": "qstnprt_8Q4Ckg2399QfmC3W",
+     "order": 2,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     }
+    }
+   ]
+  },
+  {
+   "qid": "qstn_6PHfhmshxjjnv9vm",
+   "topic": "3-waves/3-1-waves-and-the-electromagnetic-spectrum",
+   "n_parts": 3,
+   "last_order": 2,
+   "parts": [
+    {
+     "pid": "qstnprt_MWmPPcsk6frz8JDh",
+     "order": 0,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": true,
+      "raw_only": false,
+      "tokens": []
+     }
+    },
+    {
+     "pid": "qstnprt_28ZKFq2BKyYtwDtb",
+     "order": 1,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": true,
+      "raw_only": true,
+      "tokens": [
+       "proportional to"
+      ]
+     }
+    },
+    {
+     "pid": "qstnprt_gTfxTrcCrJn2JXPB",
+     "order": 2,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     }
+    }
+   ]
+  },
+  {
+   "qid": "qstn_79RBtgNKYFMXzP5G",
+   "topic": "8-astrophysics/8-1-motion-in-the-universe",
+   "n_parts": 4,
+   "last_order": 3,
+   "parts": [
+    {
+     "pid": "qstnprt_8VHpWT2Zfrz8VGpR",
+     "order": 0,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     }
+    },
+    {
+     "pid": "qstnprt_nKdgj4MVGhk3z3NH",
+     "order": 1,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": true,
+      "raw_only": false,
+      "tokens": []
+     }
+    },
+    {
+     "pid": "qstnprt_D4MrkXXKV3rXMCgD",
+     "order": 2,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": true,
+      "raw_only": true,
+      "tokens": [
+       "proportional to"
+      ]
+     }
+    },
+    {
+     "pid": "qstnprt_MCjdywbSTxMjvCg6",
+     "order": 3,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     }
+    }
+   ]
+  },
+  {
+   "qid": "qstn_BgrY44krPSVM4gmV",
+   "topic": "3-waves/3-1-waves-and-the-electromagnetic-spectrum",
+   "n_parts": 3,
+   "last_order": 2,
+   "parts": [
+    {
+     "pid": "qstnprt_MSq8KG9str56GYXb",
+     "order": 0,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     }
+    },
+    {
+     "pid": "qstnprt_yCK74nZSndFymhSB",
+     "order": 1,
+     "problem_md": {
+      "polluted": true,
+      "raw_only": false,
+      "tokens": [
+       "close parentheses",
+       "cross times",
+       "open parentheses"
+      ]
+     },
+     "solution_md": {
+      "polluted": true,
+      "raw_only": true,
+      "tokens": [
+       "proportional to"
+      ]
+     }
+    },
+    {
+     "pid": "qstnprt_Q925Kz5D5ZrSYTsB",
+     "order": 2,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     }
+    }
+   ]
+  },
+  {
+   "qid": "qstn_Jbd8462pbZXzg6cJ",
+   "topic": "5-solids-liquids-and-gases/5-3-ideal-gases",
+   "n_parts": 2,
+   "last_order": 1,
+   "parts": [
+    {
+     "pid": "qstnprt_NfgGD66yPS5zPTX9",
+     "order": 0,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": true,
+      "raw_only": true,
+      "tokens": [
+       "proportional to"
+      ]
+     }
+    },
+    {
+     "pid": "qstnprt_C58s6fHp23SGZgts",
+     "order": 1,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     }
+    }
+   ]
+  },
+  {
+   "qid": "qstn_K6yxfXjpJXp5sSyG",
+   "topic": "5-solids-liquids-and-gases/5-3-ideal-gases",
+   "n_parts": 5,
+   "last_order": 4,
+   "parts": [
+    {
+     "pid": "qstnprt_9PZGDdJKKwZvM4M2",
+     "order": 0,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": true,
+      "raw_only": true,
+      "tokens": [
+       "proportional to"
+      ]
+     }
+    },
+    {
+     "pid": "qstnprt_WkXvqPsJDRJQgmnn",
+     "order": 1,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": true,
+      "raw_only": true,
+      "tokens": [
+       "proportional to"
+      ]
+     }
+    },
+    {
+     "pid": "qstnprt_YdRjy7ck5Xv8CQcT",
+     "order": 2,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": true,
+      "raw_only": true,
+      "tokens": [
+       "proportional to"
+      ]
+     }
+    },
+    {
+     "pid": "qstnprt_mZsY58SkjdsqMT98",
+     "order": 3,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": true,
+      "raw_only": true,
+      "tokens": [
+       "proportional to"
+      ]
+     }
+    },
+    {
+     "pid": "qstnprt_PnYK8tkCjzCjtwG3",
+     "order": 4,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": true,
+      "raw_only": false,
+      "tokens": []
+     }
+    }
+   ]
+  },
+  {
+   "qid": "qstn_KKQYkd3zPbDP6KyD",
+   "topic": "3-waves/3-2-reflection-and-refraction",
+   "n_parts": 3,
+   "last_order": 2,
+   "parts": [
+    {
+     "pid": "qstnprt_n9TCk4YF3bTf4bpx",
+     "order": 0,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": true,
+      "raw_only": true,
+      "tokens": [
+       "vertical line"
+      ]
+     }
+    },
+    {
+     "pid": "qstnprt_9zmCRGR9wRX2FTr8",
+     "order": 1,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": true,
+      "raw_only": false,
+      "tokens": []
+     }
+    },
+    {
+     "pid": "qstnprt_XfqmFtxK2BCmqp93",
+     "order": 2,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     }
+    }
+   ]
+  },
+  {
+   "qid": "qstn_MJZqfpM2smPKm8ZW",
+   "topic": "1-forces-and-motion/1-2-forces-movement-and-changing-shape",
+   "n_parts": 5,
+   "last_order": 4,
+   "parts": [
+    {
+     "pid": "qstnprt_sPBm6sfvvG4B6SvJ",
+     "order": 0,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     }
+    },
+    {
+     "pid": "qstnprt_8T4Z4MbMXr2ms2v4",
+     "order": 1,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     }
+    },
+    {
+     "pid": "qstnprt_n6nbn3JcypVrq8Zb",
+     "order": 2,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     }
+    },
+    {
+     "pid": "qstnprt_SXDYtzdjr8YbM2mT",
+     "order": 3,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": true,
+      "raw_only": true,
+      "tokens": [
+       "proportional to"
+      ]
+     }
+    },
+    {
+     "pid": "qstnprt_t93nYC7nsvDds95Y",
+     "order": 4,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     }
+    }
+   ]
+  },
+  {
+   "qid": "qstn_SMcbJjfR9NCkrmyd",
+   "topic": "5-solids-liquids-and-gases/5-1-density-and-pressure",
+   "n_parts": 4,
+   "last_order": 3,
+   "parts": [
+    {
+     "pid": "qstnprt_zc8JjQ24RK5MgVj9",
+     "order": 0,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     }
+    },
+    {
+     "pid": "qstnprt_g5J7PXKv3wXwMDwY",
+     "order": 1,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": true,
+      "raw_only": false,
+      "tokens": [
+       "close parentheses",
+       "cross times",
+       "end fraction",
+       "end strike"
+      ]
+     }
+    },
+    {
+     "pid": "qstnprt_wjqmcFX5pbg5jfWV",
+     "order": 2,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": true,
+      "raw_only": true,
+      "tokens": [
+       "proportional to"
+      ]
+     }
+    },
+    {
+     "pid": "qstnprt_qrX695x37YvdSQhT",
+     "order": 3,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     }
+    }
+   ]
+  },
+  {
+   "qid": "qstn_bPFXHMfg9VhVZhjX",
+   "topic": "6-magnetism-and-electromagnetism/6-2-electromagnetic-induction",
+   "n_parts": 2,
+   "last_order": 1,
+   "parts": [
+    {
+     "pid": "qstnprt_dxXk78VwxZckQg9X",
+     "order": 0,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": true,
+      "raw_only": true,
+      "tokens": [
+       "proportional to"
+      ]
+     }
+    },
+    {
+     "pid": "qstnprt_WvWc54wznybBZfyF",
+     "order": 1,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     }
+    }
+   ]
+  },
+  {
+   "qid": "qstn_hXjpCk7PMZPn2xst",
+   "topic": "7-radioactivity-and-particles/7-1-properties-of-radiation",
+   "n_parts": 3,
+   "last_order": 2,
+   "parts": [
+    {
+     "pid": "qstnprt_xG3XGy5dd5FfK47C",
+     "order": 0,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     }
+    },
+    {
+     "pid": "qstnprt_ZTrm3d8Qwgth5z94",
+     "order": 1,
+     "problem_md": {
+      "polluted": true,
+      "raw_only": false,
+      "tokens": [
+       "presubscript",
+       "presuperscript"
+      ]
+     },
+     "solution_md": {
+      "polluted": true,
+      "raw_only": false,
+      "tokens": [
+       "presubscript",
+       "presuperscript"
+      ]
+     }
+    },
+    {
+     "pid": "qstnprt_CZmG2HZmcGRntGDF",
+     "order": 2,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     }
+    }
+   ]
+  },
+  {
+   "qid": "qstn_hq78FpS5b2BGMFpy",
+   "topic": "1-forces-and-motion/1-2-forces-movement-and-changing-shape",
+   "n_parts": 2,
+   "last_order": 1,
+   "parts": [
+    {
+     "pid": "qstnprt_V8vcYRxcrfGfNb3p",
+     "order": 0,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": true,
+      "raw_only": true,
+      "tokens": [
+       "proportional to"
+      ]
+     }
+    },
+    {
+     "pid": "qstnprt_fGGJVymBMkqnCbQn",
+     "order": 1,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": true,
+      "raw_only": false,
+      "tokens": []
+     }
+    }
+   ]
+  },
+  {
+   "qid": "qstn_tF9ntDdc253Yqdmz",
+   "topic": "5-solids-liquids-and-gases/5-3-ideal-gases",
+   "n_parts": 2,
+   "last_order": 1,
+   "parts": [
+    {
+     "pid": "qstnprt_QrgqV5RjQzxVzD2q",
+     "order": 0,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": true,
+      "raw_only": false,
+      "tokens": [
+       "down diagonal strike",
+       "end fraction",
+       "end strike",
+       "fraction numerator"
+      ]
+     }
+    },
+    {
+     "pid": "qstnprt_KXxGC7xXRRNNx2Yd",
+     "order": 1,
+     "problem_md": {
+      "polluted": true,
+      "raw_only": true,
+      "tokens": [
+       "proportional to"
+      ]
+     },
+     "solution_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     }
+    }
+   ]
+  },
+  {
+   "qid": "qstn_x2Z76DwmPQbJqKk7",
+   "topic": "3-waves/3-1-waves-and-the-electromagnetic-spectrum",
+   "n_parts": 3,
+   "last_order": 2,
+   "parts": [
+    {
+     "pid": "qstnprt_r5y76ghCvYSmh6jr",
+     "order": 0,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": true,
+      "raw_only": true,
+      "tokens": [
+       "proportional to"
+      ]
+     }
+    },
+    {
+     "pid": "qstnprt_grVn2kzZ3w4B2KN3",
+     "order": 1,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": true,
+      "raw_only": false,
+      "tokens": []
+     }
+    },
+    {
+     "pid": "qstnprt_YW9F85ScTPydTKQ3",
+     "order": 2,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": true,
+      "raw_only": false,
+      "tokens": []
+     }
+    }
+   ]
+  },
+  {
+   "qid": "qstn_x3gPVCnBWZZS5Dd4",
+   "topic": "5-solids-liquids-and-gases/5-3-ideal-gases",
+   "n_parts": 3,
+   "last_order": 2,
+   "parts": [
+    {
+     "pid": "qstnprt_B68WjzVbp5w2fjjY",
+     "order": 0,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     }
+    },
+    {
+     "pid": "qstnprt_Vn36YRgjsBNv8BK2",
+     "order": 1,
+     "problem_md": {
+      "polluted": true,
+      "raw_only": true,
+      "tokens": [
+       "proportional to"
+      ]
+     },
+     "solution_md": {
+      "polluted": true,
+      "raw_only": true,
+      "tokens": [
+       "proportional to"
+      ]
+     }
+    },
+    {
+     "pid": "qstnprt_hV5TvZxVQMwbwTf2",
+     "order": 2,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     }
+    }
+   ]
+  },
+  {
+   "qid": "qstn_zJjKWgkbNJnXHYT5",
+   "topic": "1-forces-and-motion/1-1-movement-and-position",
+   "n_parts": 4,
+   "last_order": 3,
+   "parts": [
+    {
+     "pid": "qstnprt_g6rHCzzDwyJqsKyk",
+     "order": 0,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     }
+    },
+    {
+     "pid": "qstnprt_8t2m39TKqZK926dD",
+     "order": 1,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     }
+    },
+    {
+     "pid": "qstnprt_ZSk3sJwXjptrTH2S",
+     "order": 2,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": true,
+      "raw_only": true,
+      "tokens": [
+       "vertical line"
+      ]
+     }
+    },
+    {
+     "pid": "qstnprt_f5xNTZwRw8bgnCk4",
+     "order": 3,
+     "problem_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     },
+     "solution_md": {
+      "polluted": false,
+      "raw_only": false,
+      "tokens": []
+     }
+    }
+   ]
+  }
+ ],
+ "non_last_polluted_non_target_sample": [
+  {
+   "pid": "qstnprt_r8wCHsFYn9WzFrjQ",
+   "kind": "solution_md",
+   "topic": "1-forces-and-motion/1-1-movement-and-position",
+   "order": 0,
+   "mark_tokens": [],
+   "len": 1231
+  },
+  {
+   "pid": "qstnprt_y8hYqjwmGnnGqPk8",
+   "kind": "solution_md",
+   "topic": "1-forces-and-motion/1-1-movement-and-position",
+   "order": 1,
+   "mark_tokens": [],
+   "len": 1014
+  },
+  {
+   "pid": "qstnprt_QMd7Pdhw9TXWBWsr",
+   "kind": "solution_md",
+   "topic": "1-forces-and-motion/1-1-movement-and-position",
+   "order": 2,
+   "mark_tokens": [],
+   "len": 593
+  },
+  {
+   "pid": "qstnprt_bkzvd5K4vsWmfzGM",
+   "kind": "solution_md",
+   "topic": "1-forces-and-motion/1-1-movement-and-position",
+   "order": 1,
+   "mark_tokens": [],
+   "len": 2776
+  },
+  {
+   "pid": "qstnprt_6KGc2JNpQkkr4fMC",
+   "kind": "solution_md",
+   "topic": "1-forces-and-motion/1-1-movement-and-position",
+   "order": 0,
+   "mark_tokens": [],
+   "len": 2659
+  },
+  {
+   "pid": "qstnprt_kg3w62JBy4NHXXMB",
+   "kind": "solution_md",
+   "topic": "1-forces-and-motion/1-1-movement-and-position",
+   "order": 0,
+   "mark_tokens": [],
+   "len": 1224
+  },
+  {
+   "pid": "qstnprt_Z7TdHpZbMqxgzP49",
+   "kind": "solution_md",
+   "topic": "1-forces-and-motion/1-1-movement-and-position",
+   "order": 2,
+   "mark_tokens": [
+    "close parentheses",
+    "end exponent",
+    "end fraction",
+    "fraction numerator",
+    "open parentheses",
+    "over denominator",
+    "to the power",
+    "up diagonal strike"
+   ],
+   "len": 2084
+  },
+  {
+   "pid": "qstnprt_qJckYBMx4K8ghfBm",
+   "kind": "solution_md",
+   "topic": "1-forces-and-motion/1-1-movement-and-position",
+   "order": 2,
+   "mark_tokens": [],
+   "len": 2085
+  },
+  {
+   "pid": "qstnprt_jS8Wzq6gjXbTrTRG",
+   "kind": "solution_md",
+   "topic": "1-forces-and-motion/1-1-movement-and-position",
+   "order": 0,
+   "mark_tokens": [],
+   "len": 1100
+  },
+  {
+   "pid": "qstnprt_rRcfVxKcB5SxjFgS",
+   "kind": "solution_md",
+   "topic": "1-forces-and-motion/1-1-movement-and-position",
+   "order": 0,
+   "mark_tokens": [
+    "close parentheses",
+    "cross times",
+    "end fraction",
+    "end root",
+    "fraction numerator",
+    "open parentheses",
+    "over denominator",
+    "square root"
+   ],
+   "len": 2359
+  },
+  {
+   "pid": "qstnprt_ZGX5qwbqMZZqzcDk",
+   "kind": "solution_md",
+   "topic": "1-forces-and-motion/1-2-forces-movement-and-changing-shape",
+   "order": 1,
+   "mark_tokens": [
+    "close parentheses",
+    "end fraction",
+    "fraction numerator",
+    "open parentheses",
+    "over denominator"
+   ],
+   "len": 955
+  },
+  {
+   "pid": "qstnprt_HP9DMgfG7NkYHPGD",
+   "kind": "solution_md",
+   "topic": "1-forces-and-motion/1-2-forces-movement-and-changing-shape",
+   "order": 1,
+   "mark_tokens": [],
+   "len": 521
+  },
+  {
+   "pid": "qstnprt_trZd56CNZsdMczjd",
+   "kind": "solution_md",
+   "topic": "1-forces-and-motion/1-2-forces-movement-and-changing-shape",
+   "order": 0,
+   "mark_tokens": [],
+   "len": 1042
+  },
+  {
+   "pid": "qstnprt_X8JMfpFsPGBmwKFs",
+   "kind": "problem_md",
+   "topic": "1-forces-and-motion/1-3-momentum",
+   "order": 0,
+   "mark_tokens": [],
+   "len": 277
+  },
+  {
+   "pid": "qstnprt_X8JMfpFsPGBmwKFs",
+   "kind": "solution_md",
+   "topic": "1-forces-and-motion/1-3-momentum",
+   "order": 0,
+   "mark_tokens": [],
+   "len": 242
+  },
+  {
+   "pid": "qstnprt_P4V23ZXtyT4p9HYC",
+   "kind": "solution_md",
+   "topic": "1-forces-and-motion/1-3-momentum",
+   "order": 1,
+   "mark_tokens": [],
+   "len": 252
+  },
+  {
+   "pid": "qstnprt_r5RgfkxsgbBnq9KT",
+   "kind": "solution_md",
+   "topic": "1-forces-and-motion/1-3-momentum",
+   "order": 2,
+   "mark_tokens": [
+    "close parentheses",
+    "end fraction",
+    "fraction numerator",
+    "open parentheses",
+    "over denominator"
+   ],
+   "len": 744
+  },
+  {
+   "pid": "qstnprt_S7RfSPtwSp2Ys6h2",
+   "kind": "solution_md",
+   "topic": "1-forces-and-motion/1-3-momentum",
+   "order": 1,
+   "mark_tokens": [],
+   "len": 701
+  },
+  {
+   "pid": "qstnprt_KDx6qpfjk5Z2M7gS",
+   "kind": "solution_md",
+   "topic": "1-forces-and-motion/1-3-momentum",
+   "order": 0,
+   "mark_tokens": [
+    "close parentheses",
+    "end fraction",
+    "fraction numerator",
+    "open parentheses",
+    "over denominator"
+   ],
+   "len": 1145
+  },
+  {
+   "pid": "qstnprt_FqzxWfbckj23r786",
+   "kind": "solution_md",
+   "topic": "1-forces-and-motion/1-3-momentum",
+   "order": 0,
+   "mark_tokens": [],
+   "len": 834
+  },
+  {
+   "pid": "qstnprt_tKXtcpZ5ZYwtVzsx",
+   "kind": "solution_md",
+   "topic": "1-forces-and-motion/1-3-momentum",
+   "order": 0,
+   "mark_tokens": [],
+   "len": 280
+  },
+  {
+   "pid": "qstnprt_Cv2S4jgz4SCxGbwq",
+   "kind": "solution_md",
+   "topic": "1-forces-and-motion/1-3-momentum",
+   "order": 1,
+   "mark_tokens": [],
+   "len": 285
+  },
+  {
+   "pid": "qstnprt_gddK9Ytw9wCCtybR",
+   "kind": "solution_md",
+   "topic": "1-forces-and-motion/1-3-momentum",
+   "order": 1,
+   "mark_tokens": [],
+   "len": 712
+  },
+  {
+   "pid": "qstnprt_bXfZrTwT5fWtgvdm",
+   "kind": "solution_md",
+   "topic": "1-forces-and-motion/1-3-momentum",
+   "order": 0,
+   "mark_tokens": [],
+   "len": 685
+  },
+  {
+   "pid": "qstnprt_Y97Tb9brzhCGPwqq",
+   "kind": "solution_md",
+   "topic": "1-forces-and-motion/1-3-momentum",
+   "order": 0,
+   "mark_tokens": [
+    "close parentheses",
+    "open parentheses",
+    "subscript"
+   ],
+   "len": 2006
+  },
+  {
+   "pid": "qstnprt_csPyW6yN72PHdQhK",
+   "kind": "solution_md",
+   "topic": "1-forces-and-motion/1-4-moments",
+   "order": 2,
+   "mark_tokens": [],
+   "len": 775
+  },
+  {
+   "pid": "qstnprt_9ZzvKxvZqjqPkXJF",
+   "kind": "solution_md",
+   "topic": "2-electricity/2-1-current-potential-difference-and-resistance",
+   "order": 0,
+   "mark_tokens": [],
+   "len": 971
+  },
+  {
+   "pid": "qstnprt_mM6HMdTwJQ2KVhdx",
+   "kind": "solution_md",
+   "topic": "2-electricity/2-1-current-potential-difference-and-resistance",
+   "order": 0,
+   "mark_tokens": [],
+   "len": 1278
+  },
+  {
+   "pid": "qstnprt_NGr6KCDf2bNyf6dT",
+   "kind": "solution_md",
+   "topic": "2-electricity/2-1-current-potential-difference-and-resistance",
+   "order": 0,
+   "mark_tokens": [],
+   "len": 950
+  },
+  {
+   "pid": "qstnprt_36cNn2622xqfVfQS",
+   "kind": "solution_md",
+   "topic": "2-electricity/2-1-current-potential-difference-and-resistance",
+   "order": 2,
+   "mark_tokens": [],
+   "len": 511
+  },
+  {
+   "pid": "qstnprt_rzk8cDWSRwDrkTpf",
+   "kind": "solution_md",
+   "topic": "2-electricity/2-1-current-potential-difference-and-resistance",
+   "order": 0,
+   "mark_tokens": [],
+   "len": 2300
+  },
+  {
+   "pid": "qstnprt_bQjb9rN8895pp5yT",
+   "kind": "solution_md",
+   "topic": "2-electricity/2-1-current-potential-difference-and-resistance",
+   "order": 0,
+   "mark_tokens": [],
+   "len": 744
+  },
+  {
+   "pid": "qstnprt_qpxpNZGKSwcsyzXH",
+   "kind": "solution_md",
+   "topic": "2-electricity/2-1-current-potential-difference-and-resistance",
+   "order": 1,
+   "mark_tokens": [],
+   "len": 1036
+  },
+  {
+   "pid": "qstnprt_FTrPytRVgmD4tXVw",
+   "kind": "solution_md",
+   "topic": "2-electricity/2-1-current-potential-difference-and-resistance",
+   "order": 2,
+   "mark_tokens": [],
+   "len": 1204
+  },
+  {
+   "pid": "qstnprt_hMGcwBcFrGmPhtJ2",
+   "kind": "solution_md",
+   "topic": "2-electricity/2-1-current-potential-difference-and-resistance",
+   "order": 1,
+   "mark_tokens": [],
+   "len": 1162
+  },
+  {
+   "pid": "qstnprt_3wX5G2ZfpKqQ4jzF",
+   "kind": "solution_md",
+   "topic": "2-electricity/2-2-components-in-series-and-parallel-circuits",
+   "order": 1,
+   "mark_tokens": [],
+   "len": 484
+  },
+  {
+   "pid": "qstnprt_Bvj538NydtvPfB4D",
+   "kind": "solution_md",
+   "topic": "2-electricity/2-2-components-in-series-and-parallel-circuits",
+   "order": 2,
+   "mark_tokens": [],
+   "len": 712
+  },
+  {
+   "pid": "qstnprt_gxsdr8HP7Vx4cWsg",
+   "kind": "solution_md",
+   "topic": "2-electricity/2-2-components-in-series-and-parallel-circuits",
+   "order": 1,
+   "mark_tokens": [],
+   "len": 1102
+  },
+  {
+   "pid": "qstnprt_sH4MPM68JM9zP7fx",
+   "kind": "solution_md",
+   "topic": "2-electricity/2-2-components-in-series-and-parallel-circuits",
+   "order": 1,
+   "mark_tokens": [],
+   "len": 998
+  },
+  {
+   "pid": "qstnprt_y9W92gqSQ58thkKj",
+   "kind": "solution_md",
+   "topic": "2-electricity/2-3-electrical-power-and-mains-electricity",
+   "order": 0,
+   "mark_tokens": [],
+   "len": 567
+  }
+ ]
+}
