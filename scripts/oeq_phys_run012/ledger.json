@@ -1,6 +1,6 @@
 {
  "lane": "T-OEQ-PHYS-FORMAT-1",
- "ledger_version": "run-012",
+ "ledger_version": "run-012-wave-c",
  "date": "2026-11-03",
  "supersedes": "scripts/oeq_phys_run011m3/ledger.json (ledger_version run-011-m3)",
  "rules": [
@@ -23,7 +23,7 @@
    "id": "RES-1",
    "carried_from": "run-011-m3 ledger",
    "what": "qstnprt_KK5wsxWXhgZcnNFV (7-2 camera-lens) corpus differs from v2 plane under the same id",
-   "status_update": "mechanism confirmed by run-012 classification: cross-id / true mapping drift family; related pairs qstnprt_ZTrm3d8Qwgth5z94 <-> qstnprt_CZmG2HZmcGRntGDF and qstnprt_Vn36YRgjsBNv8BK2 <-> qstnprt_hV5TvZxVQMwbwTf2; owned by the L4 mapping-repair wave; NOT field-verbatim adoptable"
+   "status_update": "CLOSED 2026-11-03 (wave-C): reconciled by the run-010-m2/run-011-m3 adoptions; the run-012 residual classifies benign-style (LRM/URL encoding), canon-equal at main. The census's 'related pairs' reading is superseded by the wave-C definitive census: there was never a symmetric id swap - the plane-side T-CONSUME-EDX-2 collapse duplicated the LAST part's content over earlier parts' ids (see wave_c)."
   },
   {
    "id": "RES-2",
@@ -51,8 +51,29 @@
    "found_in": "run-012 census",
    "what": "cross-id duplication has two mechanisms: (a) MCQ solution boilerplate shared across parts (qstnprt_PnYK8tkCjzCjtwG3 is the corpus home of a generic solution reused by 4 plane parts); (b) true mapping drift (2 pairs, see RES-1)",
    "size": "22 fields / 20 parts, all counterparts within the same topic, direction uniformly plane==corpus@other",
-   "disposition": "L4 mapping-repair wave; boilerplate documented as no-op"
+   "disposition": "SUPERSEDED by wave-C (2026-11-03): the 'boilerplate reuse' sub-class does not exist - all 22 fields are the same last-part collapse mechanism (see wave_c); both sub-classes were the EDX-2 corruption. Repaired by the wave-C serving leg under L4."
+  },
+  {
+   "id": "DISC-6",
+   "found_in": "run-012 wave-C mechanism dossier",
+   "what": "the T-CONSUME-EDX-2 run's post-build stack (span patch / fix_tail / clean-segment grafts parallel-tree pairing) collapsed per-part md fields to the LAST part's content for 17 physics questions (22 fields); the standing importer of record (build_bundles.py) is field-faithful and EDX-1's output was clean; chemistry SME bank (1404 parts) carries no exact sibling-copy signature; the official physics bank is exporter-gate-protected",
+   "size": "22 fields / 20 parts / 17 questions (physics SME bank only, detected)",
+   "disposition": "repaired data-side by the wave-C serving leg; the stack sub-step attribution + a re-run census guard for any future bank rebuild are filed for the platform lane (v2 .syllabai/receipts/T-CONSUME-EDX-2/)"
   }
  ],
- "real_content_drift": 0
+ "real_content_drift": 0,
+ "wave_c": {
+  "date": "2026-11-03",
+  "what": "L4 mapping-repair executed: the definitive per-question census (dup-census-post-wave-b.json, 2270 md fields / 489 questions) proves ALL 22 cross-id fields are ONE mechanism - the v2 plane serves the LAST part's md content under earlier parts' ids of the same question (18 solution_md across 17 questions + problem_md+solution_md on the 2 middle parts of 3-part questions). Introduced by T-CONSUME-EDX-2 (v2 c2388bca 2026-10-21, 49-pack rebuild + post-build stack re-applied); the plane bank was born clean (seed 3a92153e, hub import @ 93226a43) and stayed clean through T-CONSUME-EDX-1 (2ece53bf). The corpus of record was correct at every visible sha since 2026-09-17.",
+  "disposition": "RULE-1 L4 satisfied: mapping-repair, never field-verbatim adoption INTO the corpus. The repair restores the true id->content pairing ON THE PLANE (plane := corpus of record verbatim, asset hrefs hotlinked at data cut 79b437615ac21097f59631f6bc41176e97ed8a08 per the exporter hotlink() semantics): 22 field writes / 20 parts / 17 questions / 10 topics (v2 serving leg). The corpus of record is untouched by this wave.",
+  "gates": "T1 serialization (indent=1, ensure_ascii=False, no trailing newline); G1 deep-diff = exactly the 22 pinned fields, zero other movement; G2 char safety (no C0/PUA/FFFD, no new LRM); G3 $-parity even on all 22; G4 debris-free; G5 post-serve cross-part copy census = 0; G6 metadata integrity (marks/order/type/spec/choices/sourcePaper untouched). L6 drift-delta: raw drift 750 -> 732 fields / 565 -> 554 parts; NON-BENIGN 22 -> 0 (18 served fields raw-equal, 4 asset-bearing canon-equal per L3).",
+  "artifacts": [
+   "scripts/oeq_phys_run012/wave-c/mechanism.md",
+   "scripts/oeq_phys_run012/wave-c/dup-census-post-wave-b.json",
+   "scripts/oeq_phys_run012/wave-c/dup-census-pre-wave-a.json",
+   "scripts/oeq_phys_run012/wave-c/serve-table.json",
+   "v2 .syllabai/lane-artifacts/T-OEQ-PHYS-FORMAT-1/run012-wavec-serve-payload.json"
+  ],
+  "learner_impact": "the 7-1 Po-210 grid question (qstn_hXjpCk7PMZPn2xst, incl. the run-011-m3 M3-repaired isotope notation) and the 5-3 molecules/sentences question (qstn_x3gPVCnBWZZS5Dd4) are SERVED again for the first time since 2026-10-21; the 15 solution-collapsed questions serve their true per-part solutions again."
+ }
 }
