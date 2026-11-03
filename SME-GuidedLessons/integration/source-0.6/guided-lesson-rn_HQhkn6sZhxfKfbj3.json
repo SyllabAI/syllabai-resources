@@ -1,0 +1,607 @@
+{
+  "format": "guided-lesson/0.6",
+  "noteRef": {
+    "noteId": "rn_HQhkn6sZhxfKfbj3",
+    "corpusVersion": "sme-revision-notes-igcse-physics-19-2026-09-17",
+    "topicTitle": "5. Solids, Liquids and Gases",
+    "subtopicTitle": "Density & Pressure",
+    "sourceUrl": "https://www.savemyexams.com/igcse/physics/edexcel/19/revision-notes/5-solids-liquids-and-gases/5-1-density-and-pressure/5-1-4-pressure-in-liquids"
+  },
+  "specPoints": [
+    {
+      "code": "5.6",
+      "text": "understand how the pressure at a point in a gas or liquid at rest acts equally in all directions"
+    },
+    {
+      "code": "5.7",
+      "text": "know and use the relationship for pressure difference: pressure difference = height × density × gravitational field strength p = h × ρ × g"
+    }
+  ],
+  "primer": {
+    "text": "Divers feel it in their ears: fluid pressure grows with depth. These lessons show why a fluid at rest squeezes equally in all directions, then build the pressure-difference equation that turns depth, density and gravity into pascals.",
+    "prerequisiteSubtopic": "Density & Pressure"
+  },
+  "lessons": [
+    {
+      "title": "Pressure in fluids acts in all directions",
+      "sourceHeadings": [
+        "Pressure in a liquid"
+      ],
+      "specRefs": [
+        "5.6"
+      ],
+      "opening": "A fluid at rest — liquid or gas — pushes on anything immersed in it from every side at once. The squeeze is even, and where it meets a surface the push always arrives head-on, at right angles.",
+      "keyPoints": [
+        "A fluid is a liquid or a gas.",
+        "An object at rest in a fluid is squeezed by pressure acting evenly over its whole surface and in all directions.",
+        "The fluid's pressure creates forces against the surfaces it touches.",
+        "Those forces always act at right angles to the surface."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Sink a ball into water: every point of its skin feels the same steady squeeze, from every compass direction, always straight into the surface. Fluids are democratic squeezers.",
+          "analogy": "A group hug with no favourite side: the water's push arrives from everywhere, each push perpendicular to wherever it lands.",
+          "examPointer": "Draw the force arrows at 90 degrees to the surface in every fluid-pressure diagram — slanted arrows lose the mark."
+        },
+        "medium": {
+          "restatement": "For a fluid at rest, pressure at a point is directionless: it acts equally in all directions, delivering normal forces on any immersed surface. The evenness is what distinguishes fluid pressure from a single contact push, and it holds for liquids and gases alike.",
+          "analogy": "Inflation: a balloon's skin is pressed outward equally everywhere by the air inside — no side is favoured, and every patch is pushed straight out.",
+          "examPointer": "State 'acts equally in all directions' verbatim for 5.6 — it is the sentence the specification rewards — then attach the right-angle rule for forces."
+        }
+      },
+      "check": [
+        {
+          "stem": "Which set names fluids?",
+          "misconceptionClass": "concept recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "liquids and gases",
+              "correct": true,
+              "explanation": "Both flow, so both are fluids.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "solids and liquids",
+              "correct": false,
+              "explanation": "Solids are not fluids.",
+              "misconception": "state swap"
+            },
+            {
+              "key": "C",
+              "text": "gases and solids",
+              "correct": false,
+              "explanation": "Solids are not fluids.",
+              "misconception": "state swap"
+            },
+            {
+              "key": "D",
+              "text": "liquids only",
+              "correct": false,
+              "explanation": "Gases are fluids too.",
+              "misconception": "over-narrow reading"
+            }
+          ]
+        },
+        {
+          "stem": "An object sits stationary in water. How does the water's pressure act on it?",
+          "misconceptionClass": "concept transfer",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "evenly over its whole surface and in all directions",
+              "correct": true,
+              "explanation": "A fluid at rest squeezes without favourites.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "only from above, following gravity",
+              "correct": false,
+              "explanation": "Gravity drives the pressure but not its direction of action.",
+              "misconception": "direction slip"
+            },
+            {
+              "key": "C",
+              "text": "only on the bottom face",
+              "correct": false,
+              "explanation": "Every face is squeezed.",
+              "misconception": "over-narrow reading"
+            },
+            {
+              "key": "D",
+              "text": "mostly sideways, ignoring top and bottom",
+              "correct": false,
+              "explanation": "The squeeze is even, not lateral.",
+              "misconception": "direction slip"
+            }
+          ]
+        },
+        {
+          "stem": "The force a fluid's pressure exerts on an immersed surface acts",
+          "misconceptionClass": "concept transfer",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "at right angles to that surface",
+              "correct": true,
+              "explanation": "Normal forces only — 90 degrees, always.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "parallel to the surface",
+              "correct": false,
+              "explanation": "Parallel pushes slide nothing here.",
+              "misconception": "direction slip"
+            },
+            {
+              "key": "C",
+              "text": "along the object's weight direction only",
+              "correct": false,
+              "explanation": "Weight and fluid force are different pushes.",
+              "misconception": "force swap"
+            },
+            {
+              "key": "D",
+              "text": "in the direction the object is moving",
+              "correct": false,
+              "explanation": "The object is at rest in this scenario.",
+              "misconception": "context slip"
+            }
+          ]
+        },
+        {
+          "stem": "Which everyday observation shows fluid pressure acting in all directions?",
+          "misconceptionClass": "concept transfer",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "a bubble blown underwater is spherical",
+              "correct": true,
+              "explanation": "Even pressure from all sides rounds the bubble.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "ice floats high in a glass",
+              "correct": false,
+              "explanation": "Floating shows density, not omnidirectionality.",
+              "misconception": "phenomenon swap"
+            },
+            {
+              "key": "C",
+              "text": "a kettle whistles when boiling",
+              "correct": false,
+              "explanation": "The whistle is steam escaping, not the squeeze.",
+              "misconception": "phenomenon swap"
+            },
+            {
+              "key": "D",
+              "text": "a spoon gets hot in soup",
+              "correct": false,
+              "explanation": "That is heating, not pressure.",
+              "misconception": "phenomenon swap"
+            }
+          ]
+        },
+        {
+          "stem": "What does the fluid pressure CREATE against an immersed surface?",
+          "misconceptionClass": "variable identification",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "forces",
+              "correct": true,
+              "explanation": "Pressure delivers forces against surfaces.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "heat",
+              "correct": false,
+              "explanation": "Heating is not the pressure's product here.",
+              "misconception": "quantity swap"
+            },
+            {
+              "key": "C",
+              "text": "light",
+              "correct": false,
+              "explanation": "Nothing optical is involved.",
+              "misconception": "absurd limit"
+            },
+            {
+              "key": "D",
+              "text": "mass",
+              "correct": false,
+              "explanation": "Mass is untouched by pressure.",
+              "misconception": "absurd limit"
+            }
+          ]
+        },
+        {
+          "stem": "State what the word fluid covers.",
+          "misconceptionClass": "definition recall",
+          "kind": "recall",
+          "modelAnswer": "A fluid means a liquid or a gas — both flow and both exert pressure.",
+          "keywords": [
+            "fluid",
+            "liquid",
+            "gas",
+            "flow"
+          ]
+        },
+        {
+          "stem": "State the direction law for the forces a fluid's pressure exerts on a surface.",
+          "misconceptionClass": "definition recall",
+          "kind": "recall",
+          "modelAnswer": "The forces act at right angles — 90 degrees — to the surface.",
+          "keywords": [
+            "forces",
+            "right angles",
+            "90",
+            "surface"
+          ]
+        },
+        {
+          "stem": "Explain why a submerged submarine's hull feels a squeeze from below as well as above.",
+          "misconceptionClass": "mechanism reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "A fluid at rest carries pressure to every point it touches, acting equally in all directions. The hull's underside faces fluid just as its top does, so the water pushes upward on the keel exactly as it pushes downward and sideways elsewhere — the squeeze has no favoured direction.",
+          "keywords": [
+            "pressure",
+            "directions",
+            "hull",
+            "fluid"
+          ]
+        },
+        {
+          "stem": "A toy ball is held still at the bottom of a pool. Describe the water's pushes on the ball's surface.",
+          "misconceptionClass": "application transfer",
+          "kind": "application",
+          "modelAnswer": "The water presses evenly over the ball's entire surface and in all directions, with every push arriving at right angles to the skin where it lands.",
+          "keywords": [
+            "water",
+            "evenly",
+            "directions",
+            "right angles"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Pressure difference with depth",
+      "sourceHeadings": [
+        "Calculating pressure in a liquid",
+        "Pressure in a liquid with a density is applied at a depth"
+      ],
+      "specRefs": [
+        "5.7"
+      ],
+      "opening": "Dive deeper and the squeeze strengthens: the fluid column above grows heavier. The pressure-difference equation multiplies depth by density by gravitational field strength, and rearranges to predict pressures or depths.",
+      "keyPoints": [
+        "The pressure on an object in a fluid rises as the object sits deeper.",
+        "Pressure difference = height × density × gravitational field strength, written p = h × ρ × g.",
+        "Height (depth) enters in metres, density in kilograms per metre cubed, g in newtons per kilogram, giving pascals.",
+        "The equation rearranges for any of the four quantities — including a depth prediction from a measured pressure."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Every metre down adds another layer of fluid pressing from above, so the deeper you go, the harder the squeeze. Multiply depth by the fluid's density by g and you have the extra pressure in pascals.",
+          "analogy": "A stack of mattresses: the bottom sleeper feels every mattress above; the top sleeper feels none. Depth is position in the stack.",
+          "examPointer": "Rearranging is examined: h = p ÷ (ρ × g) predicts depth from pressure — the swimming-pool style question — and watch the kilopascal conversion."
+        },
+        "medium": {
+          "restatement": "The pressure-difference equation p = hρg prices the fluid column above the point of interest: deeper points carry taller columns, denser fluids heavier ones, and g converts mass to weight. It rearranges freely — depth from pressure, density from a measured difference — with all inputs in SI units so the answer lands in pascals.",
+          "analogy": "A skyscraper's ground-floor lobby carries every floor's weight above it; higher floors feel lighter loads. The lobby is the deep point; the penthouse is the surface.",
+          "examPointer": "Convert kilopascals to pascals before substituting, and quote pascals or kilopascals consistently in the final line."
+        }
+      },
+      "check": [
+        {
+          "stem": "What happens to the pressure on an object as it sits deeper in a fluid?",
+          "misconceptionClass": "concept transfer",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "it increases, because the fluid column above it grows",
+              "correct": true,
+              "explanation": "More overlying fluid presses harder.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "it decreases, because the fluid thins with depth",
+              "correct": false,
+              "explanation": "Liquids barely compress; the column grows.",
+              "misconception": "inversion slip"
+            },
+            {
+              "key": "C",
+              "text": "it stays the same at all depths",
+              "correct": false,
+              "explanation": "Depth is exactly what the equation multiplies.",
+              "misconception": "no-transfer slip"
+            },
+            {
+              "key": "D",
+              "text": "it depends only on the object's mass",
+              "correct": false,
+              "explanation": "The object's mass never enters the equation.",
+              "misconception": "variable swap"
+            }
+          ]
+        },
+        {
+          "stem": "Which equation gives the pressure difference in a fluid?",
+          "misconceptionClass": "equation recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "p = h × ρ × g",
+              "correct": true,
+              "explanation": "Depth times density times field strength.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "p = F ÷ A",
+              "correct": false,
+              "explanation": "That is the solid-contact pressure equation.",
+              "misconception": "equation tangle"
+            },
+            {
+              "key": "C",
+              "text": "p = m ÷ V",
+              "correct": false,
+              "explanation": "That is density.",
+              "misconception": "equation tangle"
+            },
+            {
+              "key": "D",
+              "text": "p = h ÷ ρ × g",
+              "correct": false,
+              "explanation": "The depth multiplies; it does not divide.",
+              "misconception": "operation slip"
+            }
+          ]
+        },
+        {
+          "stem": "Which unit triple feeds p = h × ρ × g so the answer is in pascals?",
+          "misconceptionClass": "variable identification",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "metres, kilograms per metre cubed, newtons per kilogram",
+              "correct": true,
+              "explanation": "The SI triple evaluates exactly to pascals.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "centimetres, grams per cm cubed, newtons per kilogram",
+              "correct": false,
+              "explanation": "Mixed units corrupt the pascals.",
+              "misconception": "unit slip"
+            },
+            {
+              "key": "C",
+              "text": "metres, kilograms, newtons",
+              "correct": false,
+              "explanation": "Density needs its per-volume unit.",
+              "misconception": "unit slip"
+            },
+            {
+              "key": "D",
+              "text": "kilometres, tonnes, seconds",
+              "correct": false,
+              "explanation": "None of these fit.",
+              "misconception": "unit slip"
+            }
+          ]
+        },
+        {
+          "stem": "A swimmer descends from the surface to 3 m in a pool. The pressure difference she feels depends on",
+          "misconceptionClass": "concept transfer",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "the water's density, g, and the 3 m depth",
+              "correct": true,
+              "explanation": "Those are exactly the equation's inputs.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "her body mass alone",
+              "correct": false,
+              "explanation": "Her mass is absent from the equation.",
+              "misconception": "variable swap"
+            },
+            {
+              "key": "C",
+              "text": "the pool's surface area",
+              "correct": false,
+              "explanation": "Area never enters this equation.",
+              "misconception": "variable swap"
+            },
+            {
+              "key": "D",
+              "text": "the pool's water temperature only",
+              "correct": false,
+              "explanation": "Temperature is not an input here.",
+              "misconception": "variable swap"
+            }
+          ]
+        },
+        {
+          "stem": "Water of density 1000 kg/m³ sits 2 m deep in a tank (g = 10 N/kg). The pressure difference from surface to base is",
+          "misconceptionClass": "arithmetic",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "20 000 Pa",
+              "correct": true,
+              "explanation": "2 × 1000 × 10 = 20 000 pascals.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "200 Pa",
+              "correct": false,
+              "explanation": "That slips two factors of ten.",
+              "misconception": "arithmetic slip"
+            },
+            {
+              "key": "C",
+              "text": "5000 Pa",
+              "correct": false,
+              "explanation": "That divides somewhere along the way.",
+              "misconception": "operation slip"
+            },
+            {
+              "key": "D",
+              "text": "2000 Pa",
+              "correct": false,
+              "explanation": "That drops a factor of ten.",
+              "misconception": "arithmetic slip"
+            }
+          ]
+        },
+        {
+          "stem": "State the pressure-difference equation in symbols and name each quantity.",
+          "misconceptionClass": "equation recall",
+          "kind": "recall",
+          "modelAnswer": "p = h × ρ × g, where p is the pressure difference in pascals, h the depth in metres, ρ the fluid's density in kilograms per metre cubed and g the gravitational field strength in newtons per kilogram.",
+          "keywords": [
+            "pressure",
+            "depth",
+            "density",
+            "field strength"
+          ]
+        },
+        {
+          "stem": "State how the pressure on an immersed object changes as it moves deeper.",
+          "misconceptionClass": "concept recall",
+          "kind": "recall",
+          "modelAnswer": "The pressure rises as the object sits deeper, because the fluid column above it grows taller.",
+          "keywords": [
+            "pressure",
+            "deeper",
+            "column",
+            "rises"
+          ]
+        },
+        {
+          "stem": "Explain why the pressure difference depends on the fluid's density.",
+          "misconceptionClass": "mechanism reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "The overlying column's weight creates the pressure at depth, and weight scales with mass per volume. A denser fluid packs more mass into the same column, so its weight — and the pressure it delivers — is larger for the same depth.",
+          "keywords": [
+            "density",
+            "column",
+            "weight",
+            "pressure"
+          ]
+        },
+        {
+          "stem": "A diver measures a pressure difference of 20 kPa in fresh water (ρ = 1000 kg/m³, g = 9.8 N/kg). Calculate the depth, and state the rearrangement used.",
+          "misconceptionClass": "application transfer",
+          "kind": "application",
+          "modelAnswer": "Rearranged, h = p ÷ (ρ × g) = 20 000 ÷ (1000 × 9.8) ≈ 2.0 m, so the diver sits about two metres deep.",
+          "keywords": [
+            "20 000",
+            "rearranged",
+            "2.0",
+            "depth"
+          ]
+        }
+      ]
+    }
+  ],
+  "noteAssets": {
+    "glossary": [
+      {
+        "term": "fluid",
+        "definition": "Either a liquid or a gas — a state that flows and exerts pressure in all directions.",
+        "firstLesson": 1
+      },
+      {
+        "term": "pressure difference",
+        "definition": "The extra pressure at depth in a fluid, equal to height × density × gravitational field strength.",
+        "firstLesson": 2
+      },
+      {
+        "term": "kilopascal",
+        "definition": "One thousand pascals, the unit in which large fluid pressures are often quoted.",
+        "firstLesson": 2
+      }
+    ],
+    "workedExample": {
+      "prompt": "Calculate the depth of water in a swimming pool where a pressure of 20 kPa is exerted. The density of water is 1000 kg/m³ and the gravitational field strength on Earth is 9.8 N/kg.",
+      "steps": [
+        "List the known quantities: pressure p = 20 kPa, density ρ = 1000 kg/m³, field strength g = 9.8 N/kg.",
+        "State the equation: p = h × ρ × g.",
+        "Rearrange for depth: h = p ÷ (ρ × g).",
+        "Convert units: 20 kPa = 20 000 Pa.",
+        "Substitute: h = 20 000 ÷ (1000 × 9.8) ≈ 2.0 m."
+      ],
+      "finalAnswer": "The water is about 2.0 m deep where the pressure is 20 kPa."
+    }
+  },
+  "figures": [
+    {
+      "id": "fig-01",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/bf63aff2620b-pressure-force.png",
+      "alt": "pressure-&-force, IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "Pressure in a liquid",
+      "moduleIds": [
+        "L1"
+      ],
+      "binding": "heading-unique",
+      "caption": "The pressure of a fluid on an object creates a force normal (at right angles) to the surface"
+    },
+    {
+      "id": "fig-02",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/143ce2b06875-pressure-in-liquids.png",
+      "alt": "pressure-in-liquids, IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "Pressure in a liquid with a density is applied at a depth",
+      "moduleIds": [
+        "L2"
+      ],
+      "binding": "heading-unique",
+      "caption": "The force from the pressure of objects in a liquid is exerted evenly across its whole surface"
+    }
+  ]
+}
