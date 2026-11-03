@@ -1,0 +1,588 @@
+{
+  "format": "guided-lesson/0.6",
+  "noteRef": {
+    "noteId": "rn_p3SDZQRDzPCYhztZ",
+    "corpusVersion": "sme-revision-notes-igcse-physics-19-2026-09-17",
+    "topicTitle": "4. Energy Resources and Energy Transfers",
+    "subtopicTitle": "Work, Power & Energy Resources",
+    "sourceUrl": "https://www.savemyexams.com/igcse/physics/edexcel/19/revision-notes/4-energy-resources-and-energy-transfers/4-2-work-power-and-energy-resources/4-2-4-work-gpe-and-ke"
+  },
+  "specPoints": [
+    {
+      "code": "4.15",
+      "text": "understand how conservation of energy produces a link between gravitational potential energy, kinetic energy and work"
+    }
+  ],
+  "primer": {
+    "text": "Real machines shuttle energy between stores: a thrown ball trades gravitational potential for kinetic and back again. These lessons connect work, GPE and KE through conservation of energy, then practise the perfect-transfer sums that exam questions reward.",
+    "prerequisiteSubtopic": "Work, Power & Energy Resources"
+  },
+  "lessons": [
+    {
+      "title": "Conservation links work, GPE and KE",
+      "sourceHeadings": [
+        "Work, GPE & KE"
+      ],
+      "specRefs": [
+        "4.15"
+      ],
+      "opening": "Energy never appears from nowhere. When a force works over a distance it moves energy mechanically between stores, and conservation of energy insists the books balance: what leaves one store arrives in another, with the work done as the receipt.",
+      "keyPoints": [
+        "GPE names the gravitational potential store and KE names the kinetic store.",
+        "Mechanical work is the transfer route: a force acting over a distance moves energy between stores.",
+        "Conservation of energy keeps the total constant, so the energy transferred equals the work done.",
+        "Pendulum swings shuttle energy back and forth between the kinetic and gravitational stores."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Two vaults, gravitational and kinetic, with work done as the courier between them. Nothing is minted or destroyed in transit — the courier's manifest (joules of work) matches the deposits and withdrawals exactly.",
+          "analogy": "A bank transfer: one account falls, the other rises by the same amount, and the transfer slip (work done) records the identical figure.",
+          "examPointer": "When describing transfers, name both stores and the courier — 'energy is transferred mechanically from the kinetic store to the gravitational store'."
+        },
+        "medium": {
+          "restatement": "Conservation of energy binds the three quantities: the work done by a force over a distance equals the energy transferred, and that energy arrives in or departs from named stores. In ideal swings the kinetic and gravitational stores exchange the whole amount, each emptying as the other fills.",
+          "analogy": "A perfectly sealed pipe loop: whatever volume leaves the tank on the left arrives at the tank on the right, with the pump meter (work done) reading the flow.",
+          "examPointer": "Use the store names precisely — 'gravitational store' and 'kinetic store' — and attach the transfer route (mechanical work) to collect full description marks."
+        }
+      },
+      "check": [
+        {
+          "stem": "Which store does the abbreviation GPE name?",
+          "misconceptionClass": "concept recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "the gravitational potential store",
+              "correct": true,
+              "explanation": "GPE is the store label for height energy.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "a general potential exponent",
+              "correct": false,
+              "explanation": "The abbreviation is concrete, not algebraic.",
+              "misconception": "absurd limit"
+            },
+            {
+              "key": "C",
+              "text": "generated power equivalent",
+              "correct": false,
+              "explanation": "No such quantity exists here.",
+              "misconception": "absurd limit"
+            },
+            {
+              "key": "D",
+              "text": "ground pressure energy",
+              "correct": false,
+              "explanation": "Pressure belongs to a different topic.",
+              "misconception": "concept mix-up"
+            }
+          ]
+        },
+        {
+          "stem": "Which route moves energy between stores when a force acts over a distance?",
+          "misconceptionClass": "concept transfer",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "mechanical work",
+              "correct": true,
+              "explanation": "Force times distance along the force is the transfer route.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "nuclear decay",
+              "correct": false,
+              "explanation": "A different mechanism, not the one described here.",
+              "misconception": "context slip"
+            },
+            {
+              "key": "C",
+              "text": "electrical conduction only",
+              "correct": false,
+              "explanation": "The described route is mechanical, not electrical.",
+              "misconception": "route mismatch"
+            },
+            {
+              "key": "D",
+              "text": "thermal radiation only",
+              "correct": false,
+              "explanation": "Radiation is a heating route, not the mechanical one.",
+              "misconception": "route mismatch"
+            }
+          ]
+        },
+        {
+          "stem": "A pendulum swings freely. Where is its energy at the very top of each swing?",
+          "misconceptionClass": "concept transfer",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "fully in the gravitational potential store",
+              "correct": true,
+              "explanation": "At the turning point the motion stops and the height peaks.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "fully in the kinetic store",
+              "correct": false,
+              "explanation": "The kinetic store peaks at the bottom of the swing.",
+              "misconception": "store swap"
+            },
+            {
+              "key": "C",
+              "text": "split equally with the surroundings",
+              "correct": false,
+              "explanation": "An idealised swing wastes nothing to the surroundings.",
+              "misconception": "dissipation slip"
+            },
+            {
+              "key": "D",
+              "text": "gone entirely",
+              "correct": false,
+              "explanation": "Conservation forbids the energy vanishing.",
+              "misconception": "creation slip"
+            }
+          ]
+        },
+        {
+          "stem": "Conservation of energy tells us that during any transfer",
+          "misconceptionClass": "definition recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "the total energy across all stores stays constant",
+              "correct": true,
+              "explanation": "Stores exchange; the total is invariant.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "energy multiplies as it moves",
+              "correct": false,
+              "explanation": "Nothing is minted in transit.",
+              "misconception": "creation slip"
+            },
+            {
+              "key": "C",
+              "text": "energy vanishes once used",
+              "correct": false,
+              "explanation": "It dissipates to stores; it never vanishes.",
+              "misconception": "destruction slip"
+            },
+            {
+              "key": "D",
+              "text": "only kinetic energy survives a transfer",
+              "correct": false,
+              "explanation": "Every store participates in the bookkeeping.",
+              "misconception": "over-narrow reading"
+            }
+          ]
+        },
+        {
+          "stem": "The energy transferred by mechanical work is measured by",
+          "misconceptionClass": "variable identification",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "the work done, in joules",
+              "correct": true,
+              "explanation": "Energy transferred equals work done.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "the force alone",
+              "correct": false,
+              "explanation": "Force without distance transfers nothing.",
+              "misconception": "partial-credit slip"
+            },
+            {
+              "key": "C",
+              "text": "the distance alone",
+              "correct": false,
+              "explanation": "Distance without force transfers nothing.",
+              "misconception": "partial-credit slip"
+            },
+            {
+              "key": "D",
+              "text": "the object's mass alone",
+              "correct": false,
+              "explanation": "Mass alone prices no transfer.",
+              "misconception": "partial-credit slip"
+            }
+          ]
+        },
+        {
+          "stem": "State what KE abbreviates.",
+          "misconceptionClass": "concept recall",
+          "kind": "recall",
+          "modelAnswer": "KE abbreviates kinetic energy, the energy held in an object's kinetic store because it is moving.",
+          "keywords": [
+            "kinetic",
+            "energy",
+            "store",
+            "moving"
+          ]
+        },
+        {
+          "stem": "State the bookkeeping rule that connects energy transferred with work done.",
+          "misconceptionClass": "definition recall",
+          "kind": "recall",
+          "modelAnswer": "The energy transferred is equal to the work done, as demanded by conservation of energy.",
+          "keywords": [
+            "energy",
+            "transferred",
+            "work",
+            "conservation"
+          ]
+        },
+        {
+          "stem": "Explain why a swinging pendulum never climbs higher than its starting height in an idealised model.",
+          "misconceptionClass": "mechanism reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "With conservation of energy and a perfect transfer, all the gravitational potential energy at the top of one swing becomes kinetic energy at the bottom and back again. No energy leaks away, so the gravitational store can never exceed its starting value and the swing height repeats exactly.",
+          "keywords": [
+            "energy",
+            "gravitational",
+            "kinetic",
+            "store"
+          ]
+        },
+        {
+          "stem": "A child's swing reaches the same height on every push while friction stays negligible. Name the two stores taking turns to hold the energy.",
+          "misconceptionClass": "application transfer",
+          "kind": "application",
+          "modelAnswer": "The energy alternates between the swing's gravitational potential store at the top of each arc and its kinetic store at the bottom, with conservation of energy keeping the total fixed.",
+          "keywords": [
+            "gravitational",
+            "kinetic",
+            "store",
+            "energy"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Perfect transfers and energy equivalency",
+      "sourceHeadings": [
+        "GPE and KE calculations"
+      ],
+      "specRefs": [
+        "4.15"
+      ],
+      "opening": "Exam calculations often declare a perfect transfer: no energy wasted, so the stores can be equated directly. Assuming air resistance and friction away lets the GPE lost by a fall equal the KE gained, unlocking speed and height predictions.",
+      "keyPoints": [
+        "A perfect energy transfer wastes nothing, so the energy leaving one store equals the energy entering the next.",
+        "Questions signal the assumption by telling you to ignore air resistance or friction.",
+        "With a perfect transfer, the decrease in GPE equals the increase in KE, so the two can be equated.",
+        "Real transfers always leak some energy, which is why the perfect assumption is a modelling choice."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "When a question grants a perfect transfer, the two stores mirror each other exactly: whatever drains from one fills the other. That single permission turns two hard quantities into one equation.",
+          "analogy": "Two water tanks joined by a flawless pipe: drop the level in one, and the other rises by exactly the same volume — no drips, no leaks, no losses.",
+          "examPointer": "Spot the trigger words 'ignore air resistance' or 'frictionless' — they license equating the stores in your calculation."
+        },
+        "medium": {
+          "restatement": "Energy equivalency under a perfect transfer sets the magnitude of the gravitational store's decrease equal to the kinetic store's increase. The assumption is warranted only when the question declares wasted transfers negligible; real transfers always route some energy to thermal stores.",
+          "analogy": "An idealised accounting rule: 'no leakage' lets you subtract one column and add the same figure to the other without an audit trail of losses.",
+          "examPointer": "State the assumption in words before equating the stores — 'friction is ignored, so the transfer is perfect' — then carry the arithmetic through."
+        }
+      },
+      "check": [
+        {
+          "stem": "What does a question mean when it tells you to ignore air resistance?",
+          "misconceptionClass": "method reasoning",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "assume a perfect transfer with no wasted energy",
+              "correct": true,
+              "explanation": "Ignoring resistance licenses equating the stores.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "assume all the energy is dissipated",
+              "correct": false,
+              "explanation": "That is the opposite of the granted assumption.",
+              "misconception": "inverted relation"
+            },
+            {
+              "key": "C",
+              "text": "assume the object loses mass as it moves",
+              "correct": false,
+              "explanation": "Mass is never affected by the instruction.",
+              "misconception": "absurd limit"
+            },
+            {
+              "key": "D",
+              "text": "assume gravity switches off",
+              "correct": false,
+              "explanation": "Gravity stays; only the losses are ignored.",
+              "misconception": "absurd limit"
+            }
+          ]
+        },
+        {
+          "stem": "Under a perfect transfer, the GPE lost by a descending object is",
+          "misconceptionClass": "concept transfer",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "exactly equal to the KE gained",
+              "correct": true,
+              "explanation": "The whole amount leaving the height store arrives in the motion store.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "larger than the KE gained",
+              "correct": false,
+              "explanation": "With no losses, nothing shortchanges the kinetic store.",
+              "misconception": "dissipation slip"
+            },
+            {
+              "key": "C",
+              "text": "smaller than the KE gained",
+              "correct": false,
+              "explanation": "The kinetic store cannot receive more than was released.",
+              "misconception": "creation slip"
+            },
+            {
+              "key": "D",
+              "text": "unrelated to the KE gained",
+              "correct": false,
+              "explanation": "Conservation ties the two amounts exactly.",
+              "misconception": "disconnect slip"
+            }
+          ]
+        },
+        {
+          "stem": "Why can the stores be equated in these calculations?",
+          "misconceptionClass": "evaluation reasoning",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "because a perfect transfer wastes nothing, so the amounts match",
+              "correct": true,
+              "explanation": "Zero leakage makes the store changes identical in size.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "because joules and newtons are the same unit",
+              "correct": false,
+              "explanation": "They are different units entirely.",
+              "misconception": "absurd limit"
+            },
+            {
+              "key": "C",
+              "text": "because GPE and KE are the same store",
+              "correct": false,
+              "explanation": "They are distinct stores with a transfer between them.",
+              "misconception": "store conflation"
+            },
+            {
+              "key": "D",
+              "text": "because energy always doubles in a transfer",
+              "correct": false,
+              "explanation": "Conservation forbids doubling.",
+              "misconception": "creation slip"
+            }
+          ]
+        },
+        {
+          "stem": "In reality, compared with the perfect-transfer prediction, a real rollercoaster's top speed is",
+          "misconceptionClass": "evaluation reasoning",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "slightly lower, because some energy dissipates",
+              "correct": true,
+              "explanation": "Real transfers leak to thermal stores, starving the kinetic store.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "slightly higher, because friction assists",
+              "correct": false,
+              "explanation": "Friction never assists the motion store.",
+              "misconception": "inverted relation"
+            },
+            {
+              "key": "C",
+              "text": "exactly the same",
+              "correct": false,
+              "explanation": "Only the idealised model gives the exact value.",
+              "misconception": "idealisation slip"
+            },
+            {
+              "key": "D",
+              "text": "zero, because real rides cannot move",
+              "correct": false,
+              "explanation": "Real rides move; they just lose some energy.",
+              "misconception": "absurd limit"
+            }
+          ]
+        },
+        {
+          "stem": "A 2 kg ball falls from rest through 5 m in a perfect transfer (g = 10 N/kg). What kinetic energy does it gain?",
+          "misconceptionClass": "arithmetic",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "100 J",
+              "correct": true,
+              "explanation": "GPE released = 2 × 10 × 5 = 100 J, all of it becoming kinetic.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "10 J",
+              "correct": false,
+              "explanation": "That keeps only one input of the calculation.",
+              "misconception": "arithmetic slip"
+            },
+            {
+              "key": "C",
+              "text": "50 J",
+              "correct": false,
+              "explanation": "That drops the field strength factor.",
+              "misconception": "arithmetic slip"
+            },
+            {
+              "key": "D",
+              "text": "200 J",
+              "correct": false,
+              "explanation": "That doubles the correct answer without cause.",
+              "misconception": "arithmetic slip"
+            }
+          ]
+        },
+        {
+          "stem": "State the assumption hidden in the phrase perfect energy transfer.",
+          "misconceptionClass": "definition recall",
+          "kind": "recall",
+          "modelAnswer": "No energy is wasted or dissipated, so the entire amount leaving one store arrives in the next.",
+          "keywords": [
+            "energy",
+            "wasted",
+            "store",
+            "transfer"
+          ]
+        },
+        {
+          "stem": "State the equating rule used for a perfect fall.",
+          "misconceptionClass": "equation recall",
+          "kind": "recall",
+          "modelAnswer": "The decrease in gravitational potential energy equals the increase in kinetic energy, so the two store changes can be set equal.",
+          "keywords": [
+            "gravitational",
+            "kinetic",
+            "energy",
+            "equal"
+          ]
+        },
+        {
+          "stem": "Explain why ignoring resistance is a modelling choice rather than a claim about the real world.",
+          "misconceptionClass": "evaluation reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "Every real transfer leaks some energy to the thermal stores of the surroundings, so a perfect transfer never actually happens. The assumption is adopted only because the question declares wasted transfers negligible, making the store arithmetic tractable.",
+          "keywords": [
+            "energy",
+            "thermal",
+            "transfer",
+            "assumption"
+          ]
+        },
+        {
+          "stem": "A 50 kg sledder starts from rest and descends an 8 m slope in a perfect transfer (g = 10 N/kg). Calculate the sledder's speed at the bottom.",
+          "misconceptionClass": "application transfer",
+          "kind": "application",
+          "modelAnswer": "Gravitational energy released = 50 × 10 × 8 = 4000 J; equating the kinetic store gives v = √(2 × 4000 ÷ 50) = √160, so the speed at the bottom is about 13 m/s.",
+          "keywords": [
+            "4000",
+            "160",
+            "speed",
+            "kinetic"
+          ]
+        }
+      ]
+    }
+  ],
+  "noteAssets": {
+    "glossary": [
+      {
+        "term": "conservation of energy",
+        "definition": "The law that energy cannot be created or destroyed, only transferred between stores.",
+        "firstLesson": 1
+      },
+      {
+        "term": "energy equivalency",
+        "definition": "Setting the energy change in one store equal to that in another under the perfect-transfer assumption.",
+        "firstLesson": 2
+      },
+      {
+        "term": "perfect energy transfer",
+        "definition": "An idealised transfer in which no energy is wasted to the surroundings.",
+        "firstLesson": 2
+      }
+    ],
+    "workedExample": {
+      "prompt": "The diagram shows a rollercoaster going down a track. The rollercoaster takes the path A → B → C → D. The rollercoaster begins at a height of 15 m above the ground and ends at ground level. Braking to stop the ride begins after it passes position D. The mass of the rollercoaster is 100 kg. Calculate the maximum speed of the rollercoaster at position D. Ignore any frictional effects before passing point D.",
+      "steps": [
+        "List the known quantities: height h = 15 m, mass m = 100 kg, field strength g = 10 N/kg.",
+        "Gravitational energy released: ΔGPE = m × g × Δh = 100 × 10 × 15 = 15 000 J.",
+        "Friction is ignored, so assume a perfect transfer and equate: KE = ΔGPE = 15 000 J.",
+        "Rearrange KE = ½ × m × v² for speed: v = √(2 × KE ÷ m).",
+        "Substitute: v = √(2 × 15 000 ÷ 100) = √300, which is about 17 m/s."
+      ],
+      "finalAnswer": "The maximum speed of the rollercoaster at position D is about 17 m/s."
+    }
+  },
+  "figures": [
+    {
+      "id": "fig-01",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/f4f9667c6b9d-we-energy-transfers-question-image.png",
+      "alt": "WE - Energy transfers question image, downloadable AS & A Level Physics revision notes",
+      "sourceHeading": "GPE and KE calculations",
+      "moduleIds": [],
+      "binding": "heading-unique"
+    }
+  ]
+}

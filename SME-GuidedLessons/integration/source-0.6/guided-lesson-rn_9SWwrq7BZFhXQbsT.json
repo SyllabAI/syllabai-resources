@@ -1,0 +1,878 @@
+{
+  "format": "guided-lesson/0.6",
+  "noteRef": {
+    "noteId": "rn_9SWwrq7BZFhXQbsT",
+    "corpusVersion": "sme-revision-notes-igcse-physics-19-2026-09-17",
+    "topicTitle": "5. Solids, Liquids and Gases",
+    "subtopicTitle": "Density & Pressure",
+    "sourceUrl": "https://www.savemyexams.com/igcse/physics/edexcel/19/revision-notes/5-solids-liquids-and-gases/5-1-density-and-pressure/5-1-1-density"
+  },
+  "specPoints": [
+    {
+      "code": "5.3",
+      "text": "know and use the relationship between density, mass and volume: density = volume mass m ρ = V"
+    }
+  ],
+  "primer": {
+    "text": "A feather bag and a metal bag can share a size yet differ wildly in heft. These lessons define density, build the density equation and its triangle, compare materials state by state, and unlock the volume formulae the calculation needs first.",
+    "prerequisiteSubtopic": "Density & Pressure"
+  },
+  "lessons": [
+    {
+      "title": "The density equation",
+      "sourceHeadings": [
+        "Density",
+        "Formula triangle for density, mass and volume"
+      ],
+      "specRefs": [
+        "5.3"
+      ],
+      "opening": "Density prices a material: how much mass is packed into each cube of its volume. The equation divides mass by volume, the triangle rearranges it, and the units follow whatever units the two inputs arrive in.",
+      "keyPoints": [
+        "Density is how much mass a material packs into each unit of its volume.",
+        "ρ = m ÷ V, with density in kilograms per metre cubed, mass in kilograms and volume in metres cubed.",
+        "A formula triangle covering ρ, m or V reproduces every rearrangement of the equation.",
+        "Grams with centimetres cubed give grams per centimetre cubed; kilograms with metres cubed give kilograms per metre cubed."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Weigh it, measure the space it fills, divide the first by the second. Hide the symbol you want on the triangle and the other two show you whether to multiply or divide.",
+          "analogy": "A crowd count: people (mass) spread through a hall (volume) — a cramped hall has a dense crowd, an empty one does not.",
+          "examPointer": "State the unit with the answer and match it to the input units — mixing grams with metres cubed is the classic unit slip."
+        },
+        "medium": {
+          "restatement": "The density equation ρ = m/V divides the mass of a sample by the volume it occupies, so equal masses in smaller volumes are denser. The unit follows the inputs: grams and centimetres cubed yield grams per centimetre cubed, kilograms and metres cubed yield kilograms per metre cubed, and the triangle encodes all three rearrangements.",
+          "analogy": "A population density map: the same city spread over a larger county reads as a lower figure — area here plays volume's role.",
+          "examPointer": "Convert lengths to metres and masses to kilograms before dividing whenever the question wants kg/m³ — quote the unit to bank the mark."
+        }
+      },
+      "check": [
+        {
+          "stem": "Which equation defines density?",
+          "misconceptionClass": "equation recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "density = mass ÷ volume",
+              "correct": true,
+              "explanation": "Mass divided by the volume it fills.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "density = volume ÷ mass",
+              "correct": false,
+              "explanation": "That inverts the relationship.",
+              "misconception": "inversion slip"
+            },
+            {
+              "key": "C",
+              "text": "density = mass × volume",
+              "correct": false,
+              "explanation": "Multiplying has no physical meaning here.",
+              "misconception": "operation slip"
+            },
+            {
+              "key": "D",
+              "text": "density = weight ÷ area",
+              "correct": false,
+              "explanation": "That is pressure's territory.",
+              "misconception": "equation tangle"
+            }
+          ]
+        },
+        {
+          "stem": "A material's mass is measured in kilograms and its volume in metres cubed. Its density unit is",
+          "misconceptionClass": "variable identification",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "kilograms per metre cubed",
+              "correct": true,
+              "explanation": "The unit follows the input units directly.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "grams per centimetre cubed",
+              "correct": false,
+              "explanation": "That pair belongs to gram-and-centimetre inputs.",
+              "misconception": "unit slip"
+            },
+            {
+              "key": "C",
+              "text": "newtons per kilogram",
+              "correct": false,
+              "explanation": "That is gravitational field strength.",
+              "misconception": "unit swap"
+            },
+            {
+              "key": "D",
+              "text": "metres cubed per kilogram",
+              "correct": false,
+              "explanation": "That inverts the unit.",
+              "misconception": "unit inversion"
+            }
+          ]
+        },
+        {
+          "stem": "Two identical bags hold the same volume, one filled with feathers and one with metal. What can be said about their masses?",
+          "misconceptionClass": "concept transfer",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "the metal bag has much the greater mass in the same volume, so the higher density",
+              "correct": true,
+              "explanation": "Equal volumes: the heavier filling is the denser material.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "the feather bag is denser because feathers pile tightly",
+              "correct": false,
+              "explanation": "Feathers pack far more air between fibres.",
+              "misconception": "inversion slip"
+            },
+            {
+              "key": "C",
+              "text": "both bags have the same density because their volumes match",
+              "correct": false,
+              "explanation": "Equal volume with different mass means different density.",
+              "misconception": "false-equality"
+            },
+            {
+              "key": "D",
+              "text": "neither bag has a measurable density",
+              "correct": false,
+              "explanation": "Both are perfectly measurable.",
+              "misconception": "absurd limit"
+            }
+          ]
+        },
+        {
+          "stem": "Why does a gas have a lower density than the same substance as a solid?",
+          "misconceptionClass": "mechanism reasoning",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "its particles are spread out, so the same mass occupies a larger volume",
+              "correct": true,
+              "explanation": "Same mass over more volume divides to a smaller density.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "gas particles weigh less than solid particles",
+              "correct": false,
+              "explanation": "The particles are identical; only their spacing changes.",
+              "misconception": "particle slip"
+            },
+            {
+              "key": "C",
+              "text": "gases have no mass at all",
+              "correct": false,
+              "explanation": "Gases are massy, just spread thin.",
+              "misconception": "absurd limit"
+            },
+            {
+              "key": "D",
+              "text": "solid particles are always larger",
+              "correct": false,
+              "explanation": "Particle size does not change with state.",
+              "misconception": "particle slip"
+            }
+          ]
+        },
+        {
+          "stem": "On the density formula triangle, covering V leaves",
+          "misconceptionClass": "method detail",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "m over ρ, so V = m ÷ ρ",
+              "correct": true,
+              "explanation": "Hiding the volume exposes the mass over the density.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "ρ over m, so V = ρ ÷ m",
+              "correct": false,
+              "explanation": "That inverts the rearrangement.",
+              "misconception": "inversion slip"
+            },
+            {
+              "key": "C",
+              "text": "ρ × m, so V = ρ × m",
+              "correct": false,
+              "explanation": "That would multiply, not divide.",
+              "misconception": "operation slip"
+            },
+            {
+              "key": "D",
+              "text": "nothing useful — the triangle only finds density",
+              "correct": false,
+              "explanation": "The triangle serves all three rearrangements.",
+              "misconception": "over-narrow reading"
+            }
+          ]
+        },
+        {
+          "stem": "State the density equation in symbols and name each quantity with its unit.",
+          "misconceptionClass": "equation recall",
+          "kind": "recall",
+          "modelAnswer": "ρ = m ÷ V, where ρ is the density in kilograms per metre cubed, m is the mass in kilograms and V is the volume in metres cubed.",
+          "keywords": [
+            "density",
+            "mass",
+            "volume",
+            "kilograms"
+          ]
+        },
+        {
+          "stem": "State what the density of a material tells you about its mass and volume.",
+          "misconceptionClass": "definition recall",
+          "kind": "recall",
+          "modelAnswer": "The density tells you how much mass is packed into each unit of the material's volume.",
+          "keywords": [
+            "mass",
+            "volume",
+            "packed",
+            "density"
+          ]
+        },
+        {
+          "stem": "Explain why a balloon can occupy more space than a small lead bar yet contain far less mass.",
+          "misconceptionClass": "mechanism reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "Density divides mass by volume, and the balloon's filling — mostly gas — spreads very little mass through a large volume, while the lead bars cram a large mass into a small one. Occupied space alone decides nothing; the mass-per-volume ratio decides everything.",
+          "keywords": [
+            "mass",
+            "volume",
+            "density",
+            "lead"
+          ]
+        },
+        {
+          "stem": "A cube measures 2 m along each edge and has a mass of 1600 kg. Calculate its density.",
+          "misconceptionClass": "application transfer",
+          "kind": "application",
+          "modelAnswer": "Volume = 2 × 2 × 2 = 8 m³, and density = 1600 ÷ 8 = 200 kg/m³.",
+          "keywords": [
+            "volume",
+            "density",
+            "1600",
+            "200"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Density across states and materials",
+      "sourceHeadings": [
+        "Comparing the density of solids and gases"
+      ],
+      "specRefs": [
+        "5.3"
+      ],
+      "opening": "The same substance changes its density with its state: packed particles make dense solids and liquids, while spread-out particles thin gases out. Material choice matters just as much — equal sizes, wildly different hefts.",
+      "keyPoints": [
+        "Objects made from low-density materials carry low masses; equal-sized objects of high-density materials carry high masses.",
+        "A bag of feathers is far lighter than the same bag filled with metal.",
+        "Gases are generally less dense than solids because their particles sit far apart.",
+        "The same substance is denser in solid or liquid form than as a gas."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Squeeze the same atoms closer together and the density climbs: solid tight, liquid close, gas sparse. Swap the material instead and the atom's own heft sets the scale — feathers float, lead sinks.",
+          "analogy": "Three classrooms: packed full (solid), half full (liquid), one pupil per corridor (gas) — same school, very different crowding.",
+          "examPointer": "Comparisons must fix everything but one variable — equal volumes for material comparisons, equal substance for state comparisons."
+        },
+        "medium": {
+          "restatement": "Density tracks particle spacing: a substance's solid and liquid states pack particles closely, so both out-dense the gas state where the same mass disperses through far more volume. Across materials at equal volume, the heavier-particle, tighter-packed material wins the density contest outright.",
+          "analogy": "Packing for three trips: folded tight (solid), loosely rolled (liquid), scattered across the whole suitcase (gas) — same belongings, three bulks.",
+          "examPointer": "When a question compares states, answer with particle spacing and the mass-over-volume consequence, not with 'gases are light', which explains nothing."
+        }
+      },
+      "check": [
+        {
+          "stem": "Equal-sized blocks of wood and lead: which has the greater mass?",
+          "misconceptionClass": "concept transfer",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "the lead block, because lead is the denser material",
+              "correct": true,
+              "explanation": "Equal volumes make the density ranking decide the masses.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "the wooden block, because wood is heavier grain by grain",
+              "correct": false,
+              "explanation": "Wood is the less dense material.",
+              "misconception": "inversion slip"
+            },
+            {
+              "key": "C",
+              "text": "neither — equal sizes mean equal masses",
+              "correct": false,
+              "explanation": "Equal size does not equalise different materials.",
+              "misconception": "false-equality"
+            },
+            {
+              "key": "D",
+              "text": "whichever block was made first",
+              "correct": false,
+              "explanation": "History sets no mass.",
+              "misconception": "absurd limit"
+            }
+          ]
+        },
+        {
+          "stem": "Water becomes steam. What happens to the density of the water you are watching?",
+          "misconceptionClass": "concept transfer",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "it drops sharply, because the same mass now spreads through much more volume",
+              "correct": true,
+              "explanation": "Evaporation inflates the volume at constant mass.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "it rises, because steam is hotter",
+              "correct": false,
+              "explanation": "Temperature alone does not set the density jump here.",
+              "misconception": "cause slip"
+            },
+            {
+              "key": "C",
+              "text": "it stays the same — states never change density",
+              "correct": false,
+              "explanation": "State changes rearrange particle spacing dramatically.",
+              "misconception": "no-transfer slip"
+            },
+            {
+              "key": "D",
+              "text": "it doubles, because steam particles split",
+              "correct": false,
+              "explanation": "Particles do not split on boiling.",
+              "misconception": "particle slip"
+            }
+          ]
+        },
+        {
+          "stem": "Which statement about the three states of one substance is correct?",
+          "misconceptionClass": "concept recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "solid and liquid are both denser than the gas state",
+              "correct": true,
+              "explanation": "The gas spreads the same mass over more volume.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "the gas is denser than the liquid",
+              "correct": false,
+              "explanation": "The ordering is reversed.",
+              "misconception": "inversion slip"
+            },
+            {
+              "key": "C",
+              "text": "all three states share one density",
+              "correct": false,
+              "explanation": "Spacing changes with state, so density does too.",
+              "misconception": "false-equality"
+            },
+            {
+              "key": "D",
+              "text": "only the solid has any density at all",
+              "correct": false,
+              "explanation": "Every state has a measurable density.",
+              "misconception": "absurd limit"
+            }
+          ]
+        },
+        {
+          "stem": "A workshop sorts offcuts by mass alone to guess density. What must it also know?",
+          "misconceptionClass": "evaluation reasoning",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "each offcut's volume, because density compares mass to volume",
+              "correct": true,
+              "explanation": "Mass without volume prices nothing.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "the offcuts' colours",
+              "correct": false,
+              "explanation": "Colour carries no density information.",
+              "misconception": "absurd limit"
+            },
+            {
+              "key": "C",
+              "text": "the workshop's temperature only",
+              "correct": false,
+              "explanation": "Temperature is not the missing quantity here.",
+              "misconception": "context slip"
+            },
+            {
+              "key": "D",
+              "text": "nothing else — mass alone fixes density",
+              "correct": false,
+              "explanation": "Density is a ratio, not a raw mass.",
+              "misconception": "partial-credit slip"
+            }
+          ]
+        },
+        {
+          "stem": "Which comparison is a fair density comparison?",
+          "misconceptionClass": "evaluation reasoning",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "the same substance as solid versus as gas",
+              "correct": true,
+              "explanation": "One variable — the state — changes.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "a balloon of helium against a bar of lead of any size",
+              "correct": false,
+              "explanation": "Both material and volume differ at once.",
+              "misconception": "confounded comparison"
+            },
+            {
+              "key": "C",
+              "text": "a warm feather against a cold anvil",
+              "correct": false,
+              "explanation": "Material, size and temperature all differ.",
+              "misconception": "confounded comparison"
+            },
+            {
+              "key": "D",
+              "text": "a full gas jar against an empty one",
+              "correct": false,
+              "explanation": "One side has no sample to compare.",
+              "misconception": "absurd limit"
+            }
+          ]
+        },
+        {
+          "stem": "State why gases are generally less dense than solids.",
+          "misconceptionClass": "mechanism reasoning",
+          "kind": "recall",
+          "modelAnswer": "Gas particles are more spread out, so the same mass occupies a larger volume and the mass-per-volume ratio falls.",
+          "keywords": [
+            "particles",
+            "spread",
+            "mass",
+            "volume"
+          ]
+        },
+        {
+          "stem": "State which fills a same-size bag to a greater mass: feathers or metal.",
+          "misconceptionClass": "concept recall",
+          "kind": "recall",
+          "modelAnswer": "Metal fills the same-size bag to a far greater mass, because it is the denser material.",
+          "keywords": [
+            "metal",
+            "mass",
+            "denser",
+            "feathers"
+          ]
+        },
+        {
+          "stem": "Explain why comparing the densities of two different materials is fairest when their volumes match.",
+          "misconceptionClass": "evaluation reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "Density is the ratio of mass to volume, so a fair material comparison holds the volume fixed and lets only the material differ. With volumes equal, the material with the greater mass is unambiguously the denser one.",
+          "keywords": [
+            "density",
+            "mass",
+            "volume",
+            "material"
+          ]
+        },
+        {
+          "stem": "A State changes from liquid to solid and its volume shrinks slightly while its mass stays constant. State what happens to its density.",
+          "misconceptionClass": "application transfer",
+          "kind": "application",
+          "modelAnswer": "The density increases, because the same mass now divides by a smaller volume.",
+          "keywords": [
+            "density",
+            "increases",
+            "mass",
+            "volume"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Finding volume first",
+      "sourceHeadings": [
+        "Calculating volume to help obtain density values",
+        "Common formulae required to calculate the volumes of objects to then obtain their density"
+      ],
+      "specRefs": [
+        "5.3"
+      ],
+      "opening": "Density questions often hide the volume inside the object's shape. Out come the geometry formulae — cubes, cuboids, cylinders and spheres — and only after the volume is rebuilt can the density equation divide.",
+      "keyPoints": [
+        "An object's volume is not always stated and must be calculated from its shape first.",
+        "Each regular shape carries its own volume formula — cube, cuboid, cylinder and sphere among them.",
+        "Once the volume is known, the density equation divides mass by volume as usual.",
+        "Lengths must enter the volume formulae in metres so the density lands in kilograms per metre cubed."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Measure the edges, apply the shape's own formula, then divide the mass by what you get. The geometry is the servant: it exists to feed the density equation a volume.",
+          "analogy": "A recipe: the shape's formula is the measuring jug step — only after pouring the volume can you cook the density.",
+          "examPointer": "Write the volume formula explicitly before substituting — examiners award the method mark even where arithmetic slips."
+        },
+        "medium": {
+          "restatement": "Volume reconstruction precedes density calculation whenever the volume is not given directly: the object's shape selects the formula, the lengths are multiplied through in metres, and the resulting volume in metres cubed feeds ρ = m/V. Errors in the geometry propagate straight into the density, which is why the formula must be stated.",
+          "analogy": "A two-stage rocket: the geometry stage lifts off first, and only its burnout hands the mass-over-volume stage its payload.",
+          "examPointer": "State the shape formula, convert lengths to metres, then divide — and carry the units through the volume step, not just the final answer."
+        }
+      },
+      "check": [
+        {
+          "stem": "Why might a density calculation need a volume formula first?",
+          "misconceptionClass": "method reasoning",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "the object's volume is often not stated and must come from its shape",
+              "correct": true,
+              "explanation": "Geometry supplies the missing input.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "mass can only be found from volume formulas",
+              "correct": false,
+              "explanation": "Mass comes from the balance.",
+              "misconception": "role swap"
+            },
+            {
+              "key": "C",
+              "text": "density formulas require geometry by definition",
+              "correct": false,
+              "explanation": "The density equation needs only a volume value, however obtained.",
+              "misconception": "over-claim"
+            },
+            {
+              "key": "D",
+              "text": "volumes are always too small to measure",
+              "correct": false,
+              "explanation": "They are measurable; the question is what is given.",
+              "misconception": "over-claim"
+            }
+          ]
+        },
+        {
+          "stem": "Which volume belongs to a cuboid of edges 2 m, 3 m and 4 m?",
+          "misconceptionClass": "arithmetic",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "24 m³",
+              "correct": true,
+              "explanation": "2 × 3 × 4 = 24 cubic metres.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "9 m³",
+              "correct": false,
+              "explanation": "That adds the edges instead of multiplying.",
+              "misconception": "operation slip"
+            },
+            {
+              "key": "C",
+              "text": "24 m²",
+              "correct": false,
+              "explanation": "Volume carries cubic units.",
+              "misconception": "unit slip"
+            },
+            {
+              "key": "D",
+              "text": "12 m³",
+              "correct": false,
+              "explanation": "That drops one edge.",
+              "misconception": "arithmetic slip"
+            }
+          ]
+        },
+        {
+          "stem": "An object's edges were measured in centimetres. What must happen before the volume feeds a kg/m³ density?",
+          "misconceptionClass": "variable identification",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "the lengths convert to metres, giving a volume in metres cubed",
+              "correct": true,
+              "explanation": "Unit discipline decides the density's unit.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "nothing — centimetres feed kg/m³ directly",
+              "correct": false,
+              "explanation": "Mixed units corrupt the answer.",
+              "misconception": "unit slip"
+            },
+            {
+              "key": "C",
+              "text": "the mass converts to grams instead",
+              "correct": false,
+              "explanation": "The target unit is kilograms per metre cubed.",
+              "misconception": "unit slip"
+            },
+            {
+              "key": "D",
+              "text": "the volume converts to litres",
+              "correct": false,
+              "explanation": "Litres are not the target volume unit here.",
+              "misconception": "unit slip"
+            }
+          ]
+        },
+        {
+          "stem": "A cylinder's radius and height are known. What is the shape-formula step for its volume?",
+          "misconceptionClass": "method detail",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "multiply π by the radius squared by the height",
+              "correct": true,
+              "explanation": "V = πr²h for a cylinder.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "multiply the radius by the height",
+              "correct": false,
+              "explanation": "That misses π and the square.",
+              "misconception": "formula slip"
+            },
+            {
+              "key": "C",
+              "text": "cube the radius",
+              "correct": false,
+              "explanation": "Cubing suits cubes, not cylinders.",
+              "misconception": "formula slip"
+            },
+            {
+              "key": "D",
+              "text": "add the radius to the height",
+              "correct": false,
+              "explanation": "Adding never builds a volume.",
+              "misconception": "operation slip"
+            }
+          ]
+        },
+        {
+          "stem": "A slab measures 0.02 m × 0.4 m × 0.9 m and has a mass of 60 kg. Which working finds its density?",
+          "misconceptionClass": "arithmetic",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "volume 0.0072 m³, then 60 ÷ 0.0072 ≈ 8300 kg/m³",
+              "correct": true,
+              "explanation": "The geometry feeds the division; the answer rounds to 2 s.f.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "volume 0.0072 m³, then 0.0072 ÷ 60 ≈ 0.00012 kg/m³",
+              "correct": false,
+              "explanation": "That inverts the division.",
+              "misconception": "inversion slip"
+            },
+            {
+              "key": "C",
+              "text": "volume 1.32 m³, then 60 ÷ 1.32 ≈ 45 kg/m³",
+              "correct": false,
+              "explanation": "That adds the dimensions instead of multiplying.",
+              "misconception": "operation slip"
+            },
+            {
+              "key": "D",
+              "text": "density 60 × 0.0072 ≈ 0.43 kg/m³",
+              "correct": false,
+              "explanation": "Multiplying never divides mass by volume.",
+              "misconception": "operation slip"
+            }
+          ]
+        },
+        {
+          "stem": "State the volume formula for a cube of edge length L.",
+          "misconceptionClass": "equation recall",
+          "kind": "recall",
+          "modelAnswer": "The volume of a cube is L × L × L, the edge length cubed.",
+          "keywords": [
+            "volume",
+            "cube",
+            "edge",
+            "cubed"
+          ]
+        },
+        {
+          "stem": "State what must be calculated before the density equation when the volume is not given.",
+          "misconceptionClass": "method reasoning",
+          "kind": "recall",
+          "modelAnswer": "The object's volume must be calculated from its shape using the appropriate formula first.",
+          "keywords": [
+            "volume",
+            "shape",
+            "formula",
+            "density"
+          ]
+        },
+        {
+          "stem": "Explain why an error in the volume step propagates straight into the final density.",
+          "misconceptionClass": "mechanism reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "The density divides the mass by the calculated volume, so the volume sits in the denominator of the final step. Any volume error — a wrong formula, unconverted units — rescales the density directly, which is why the geometry must be written and checked before dividing.",
+          "keywords": [
+            "volume",
+            "density",
+            "error",
+            "divide"
+          ]
+        },
+        {
+          "stem": "A sphere of radius 0.1 m has a mass of 4.2 kg. Taking the sphere volume as 4 ÷ 3 × π × r³ and π ≈ 3, calculate its density.",
+          "misconceptionClass": "application transfer",
+          "kind": "application",
+          "modelAnswer": "Volume = 4 ÷ 3 × 3 × 0.1³ = 4 × 0.001 = 0.004 m³, and density = 4.2 ÷ 0.004 = 1050 kg/m³.",
+          "keywords": [
+            "volume",
+            "density",
+            "0.004",
+            "1050"
+          ]
+        }
+      ]
+    }
+  ],
+  "noteAssets": {
+    "glossary": [
+      {
+        "term": "density",
+        "definition": "How much mass a material packs into each unit of its volume.",
+        "firstLesson": 1
+      },
+      {
+        "term": "kilogram per metre cubed",
+        "definition": "The density unit that follows when mass is in kilograms and volume in metres cubed.",
+        "firstLesson": 1
+      },
+      {
+        "term": "volume",
+        "definition": "The amount of three-dimensional space an object occupies, in metres cubed here.",
+        "firstLesson": 1
+      }
+    ],
+    "workedExample": {
+      "prompt": "A paving slab has a mass of 73 kg and dimensions 0.04 m × 0.5 m × 0.85 m. Calculate the density, in kg/m³, of the material from which the paving slab is made.",
+      "steps": [
+        "List the known quantities: mass m = 73 kg, edges 0.04 m, 0.5 m and 0.85 m.",
+        "Volume of slab: V = 0.04 × 0.5 × 0.85 = 0.017 m³.",
+        "State the density equation: ρ = m ÷ V.",
+        "Substitute: ρ = 73 ÷ 0.017 = 4294 kg/m³.",
+        "Round to two significant figures: ρ = 4300 kg/m³."
+      ],
+      "finalAnswer": "The density of the slab material is about 4300 kg/m³."
+    }
+  },
+  "figures": [
+    {
+      "id": "fig-01",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/122b03e55de0-density-triangle-2.png",
+      "alt": "Density triangle (2), IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "Formula triangle for density, mass and volume",
+      "moduleIds": [
+        "L1"
+      ],
+      "binding": "heading-unique",
+      "caption": "To use a formula triangle, simply cover up the quantity you wish calculate and the structure of the equation is revealed"
+    },
+    {
+      "id": "fig-02",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/465c592f3946-4-2-1-density-comparison.png",
+      "alt": "Density comparison, downloadable AS & A Level Physics revision notes",
+      "sourceHeading": "Comparing the density of solids and gases",
+      "moduleIds": [
+        "L2"
+      ],
+      "binding": "heading-unique",
+      "caption": "A gas is less dense than the same substance in liquid or solid form"
+    },
+    {
+      "id": "fig-03",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/b517af5b3607-4-2-1-volume-of-shapes.png",
+      "alt": "Volume of shapes, downloadable AS & A Level Physics revision notes",
+      "sourceHeading": "Common formulae required to calculate the volumes of objects to then obtain their density",
+      "moduleIds": [
+        "L3"
+      ],
+      "binding": "heading-unique",
+      "caption": "Volumes of common 3D shapes"
+    }
+  ]
+}
