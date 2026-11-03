@@ -1,0 +1,610 @@
+{
+  "format": "guided-lesson/0.6",
+  "noteRef": {
+    "noteId": "rn_qG9dxcQrRJJVDQf7",
+    "corpusVersion": "sme-revision-notes-igcse-physics-19-2026-09-17",
+    "topicTitle": "2. Electricity",
+    "subtopicTitle": "Static Electricity",
+    "sourceUrl": "https://www.savemyexams.com/igcse/physics/edexcel/19/revision-notes/2-electricity/2-4-static-electricity/2-4-1-conductors--insulators"
+  },
+  "specPoints": [
+    {
+      "code": "2.22P",
+      "text": "identify common materials which are electrical conductors or insulators, including metals and plastics (physics only)"
+    }
+  ],
+  "primer": {
+    "text": "Whether charge can move through a material decides everything about how it behaves in a circuit. Metals brim with delocalised electrons and conduct freely; plastics, rubber, glass and wood have no free charges and block the flow. This note sorts the everyday materials and explains the atomic picture behind the split.",
+    "prerequisiteSubtopic": "Static Electricity"
+  },
+  "lessons": [
+    {
+      "title": "Conductors & delocalised electrons",
+      "sourceHeadings": [
+        "Conductors"
+      ],
+      "specRefs": [
+        "2.22P"
+      ],
+      "figureIds": [
+        "fig-01",
+        "fig-02"
+      ],
+      "opening": "Metals conduct because their outermost electrons are not attached to any single atom: they form a mobile crowd around the positive ions. Since current is a flow of electrons, the freer that crowd moves, the better the metal conducts. Silver, copper, aluminium and steel are the everyday examples.",
+      "keyPoints": [
+        "A conductor lets charge, usually electrons, flow through it easily.",
+        "Typical conductors are metals: silver, copper, aluminium and steel.",
+        "Metal lattices hold positive ions surrounded by delocalised outer electrons.",
+        "Those free electrons make metals good conductors, since current is a flow of electrons.",
+        "Plastics and rubbers are insulators — no free charges — so they sheath cables safely."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Metals conduct because their electrons are free to move; the metal ions themselves stay put.",
+          "analogy": "A crowd in a stadium: the seats (ions) never move, but the spectators (electrons) can shuffle along the rows.",
+          "examPointer": "Name four conducting metals if asked to identify common conductors."
+        },
+        "medium": {
+          "restatement": "Conductivity is a statement about charge carriers: the more mobile the delocalised electrons, the larger the current a given push produces.",
+          "analogy": "A motorway versus lanes of parked cars — the freer the traffic, the bigger the flow for the same speed limit.",
+          "examPointer": "Tie the atomic picture to the definition: delocalised electrons are why the current flows."
+        }
+      },
+      "check": [
+        {
+          "stem": "A conductor is a material that:",
+          "misconceptionClass": "definition recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "blocks all charge movement",
+              "correct": false,
+              "explanation": "That describes an insulator.",
+              "misconception": "category swap"
+            },
+            {
+              "key": "B",
+              "text": "lets charge flow through it easily",
+              "correct": true,
+              "explanation": "Conduction means charge moves freely.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "only carries protons",
+              "correct": false,
+              "explanation": "Protons stay in the nuclei; electrons carry the current.",
+              "misconception": "particle confusion"
+            },
+            {
+              "key": "D",
+              "text": "generates electrons",
+              "correct": false,
+              "explanation": "Electrons are not created, only set in motion.",
+              "misconception": "creation myth"
+            }
+          ]
+        },
+        {
+          "stem": "Which list is all conductors?",
+          "misconceptionClass": "material recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "rubber, plastic, glass",
+              "correct": false,
+              "explanation": "All three are insulators.",
+              "misconception": "category swap"
+            },
+            {
+              "key": "B",
+              "text": "wood, rubber, silver",
+              "correct": false,
+              "explanation": "Wood and rubber are insulators.",
+              "misconception": "mixed list"
+            },
+            {
+              "key": "C",
+              "text": "glass, steel, wood",
+              "correct": false,
+              "explanation": "Glass and wood are insulators.",
+              "misconception": "mixed list"
+            },
+            {
+              "key": "D",
+              "text": "silver, copper, aluminium, steel",
+              "correct": true,
+              "explanation": "All four are metals, and metals conduct.",
+              "misconception": null
+            }
+          ]
+        },
+        {
+          "stem": "In a metal lattice the outermost electrons are:",
+          "misconceptionClass": "atomic model recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "delocalised and free to move",
+              "correct": true,
+              "explanation": "The outer electrons detach from single atoms and roam the lattice.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "locked to one ion",
+              "correct": false,
+              "explanation": "Delocalisation is exactly the opposite.",
+              "misconception": "binding slip"
+            },
+            {
+              "key": "C",
+              "text": "absent",
+              "correct": false,
+              "explanation": "Metals are full of mobile electrons.",
+              "misconception": "existence myth"
+            },
+            {
+              "key": "D",
+              "text": "positively charged",
+              "correct": false,
+              "explanation": "Electrons are negative.",
+              "misconception": "sign slip"
+            }
+          ]
+        },
+        {
+          "stem": "Current in a metal is the flow of:",
+          "misconceptionClass": "particle recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "protons",
+              "correct": false,
+              "explanation": "Protons are fixed in the nuclei.",
+              "misconception": "particle confusion"
+            },
+            {
+              "key": "B",
+              "text": "neutrons",
+              "correct": false,
+              "explanation": "Neutrons are neutral and immobile.",
+              "misconception": "particle confusion"
+            },
+            {
+              "key": "C",
+              "text": "electrons",
+              "correct": true,
+              "explanation": "The delocalised electrons drift to carry the current.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "ions",
+              "correct": false,
+              "explanation": "The ions stay in the lattice.",
+              "misconception": "particle confusion"
+            }
+          ]
+        },
+        {
+          "stem": "The better the electrons move through a metal, the:",
+          "misconceptionClass": "reasoning recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "worse it conducts",
+              "correct": false,
+              "explanation": "Mobility helps conduction, not hinders it.",
+              "misconception": "inversion slip"
+            },
+            {
+              "key": "B",
+              "text": "better it conducts",
+              "correct": true,
+              "explanation": "Current is electron flow, so freer electrons mean better conduction.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "hotter it stays",
+              "correct": false,
+              "explanation": "Temperature is not what varies here.",
+              "misconception": "irrelevant effect"
+            },
+            {
+              "key": "D",
+              "text": "slower the lattice vibrates",
+              "correct": false,
+              "explanation": "Lattice vibration is unrelated to the electron mobility claim.",
+              "misconception": "irrelevant effect"
+            }
+          ]
+        },
+        {
+          "stem": "Name four common conducting metals.",
+          "misconceptionClass": "material recall",
+          "kind": "recall",
+          "modelAnswer": "Silver, copper, aluminium and steel.",
+          "keywords": [
+            "silver",
+            "copper",
+            "aluminium",
+            "steel",
+            "metals"
+          ]
+        },
+        {
+          "stem": "What are delocalised electrons?",
+          "misconceptionClass": "atomic model recall",
+          "kind": "recall",
+          "modelAnswer": "The outer metal electrons that are not bound to any one ion and can move through the lattice.",
+          "keywords": [
+            "electrons",
+            "bound",
+            "ion",
+            "lattice",
+            "move"
+          ]
+        },
+        {
+          "stem": "Explain why plastics are used to sheath mains cables.",
+          "misconceptionClass": "application reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "Plastics are insulators with no free charges, so the sheath stops the live conductor inside from delivering a shock to anyone touching the cable.",
+          "keywords": [
+            "plastics",
+            "insulators",
+            "charges",
+            "sheath",
+            "shock"
+          ]
+        },
+        {
+          "stem": "A cable must carry current to a garden shed outdoors. Choose the conductor for the core and the insulator for the sheath, and justify both.",
+          "misconceptionClass": "material selection",
+          "kind": "application",
+          "modelAnswer": "Copper for the core, because it is a metal packed with free electrons; plastic for the sheath, because with no free charges it blocks the current from reaching the user.",
+          "keywords": [
+            "copper",
+            "core",
+            "plastic",
+            "sheath",
+            "insulator"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Insulators & static build-up",
+      "sourceHeadings": [
+        "Insulators"
+      ],
+      "specRefs": [
+        "2.22P"
+      ],
+      "opening": "An insulator holds its charges hostage: with nothing free to move, any charge deposited on its surface stays where it landed. Rubber, plastic, glass and wood all behave this way. That immobility sounds like a weakness, but it is exactly what lets insulators hold a static charge — and what makes them safe sheaths.",
+      "keyPoints": [
+        "An insulator has no free charges, so charge cannot travel through it easily.",
+        "Rubber, plastic, glass and wood are everyday insulators.",
+        "Some non-metals conduct a little in the form of static electricity.",
+        "Charge can gather on insulator surfaces and pass across when two of them touch."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Insulators have no free charges, so charge stays where it is put on their surfaces.",
+          "analogy": "A parking lot with no exits: cars (charge) can enter but cannot drive through.",
+          "examPointer": "Insulators are not 'nothing happens' materials — they hold static charge, which matters later in this topic."
+        },
+        "medium": {
+          "restatement": "The absence of mobile carriers explains both safety uses (sheathing) and static phenomena (charge accumulating on surfaces).",
+          "analogy": "A sponge that cannot drip: whatever water lands on it, stays on it, until something touches it.",
+          "examPointer": "Quote the everyday insulators: rubber, plastic, glass, wood."
+        }
+      },
+      "check": [
+        {
+          "stem": "An insulator is a material that:",
+          "misconceptionClass": "definition recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "has no free charges",
+              "correct": true,
+              "explanation": "Without free charges, charge cannot flow through it easily.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "has many free electrons",
+              "correct": false,
+              "explanation": "That describes a conductor.",
+              "misconception": "category swap"
+            },
+            {
+              "key": "C",
+              "text": "always sparks",
+              "correct": false,
+              "explanation": "Sparking is not part of the definition.",
+              "misconception": "phenomenon slip"
+            },
+            {
+              "key": "D",
+              "text": "attracts protons",
+              "correct": false,
+              "explanation": "Nothing in the definition involves attracting protons.",
+              "misconception": "invented property"
+            }
+          ]
+        },
+        {
+          "stem": "Which list is all insulators?",
+          "misconceptionClass": "material recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "copper, rubber, glass",
+              "correct": false,
+              "explanation": "Copper conducts.",
+              "misconception": "mixed list"
+            },
+            {
+              "key": "B",
+              "text": "steel, wood, plastic",
+              "correct": false,
+              "explanation": "Steel conducts.",
+              "misconception": "mixed list"
+            },
+            {
+              "key": "C",
+              "text": "rubber, plastic, glass, wood",
+              "correct": true,
+              "explanation": "All four lack free charges.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "silver, glass, aluminium",
+              "correct": false,
+              "explanation": "Silver and aluminium conduct.",
+              "misconception": "mixed list"
+            }
+          ]
+        },
+        {
+          "stem": "Charge built up on an insulator surface escapes mainly when:",
+          "misconceptionClass": "static reasoning",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "it heats up",
+              "correct": false,
+              "explanation": "Heating is not the escape route described.",
+              "misconception": "mechanism myth"
+            },
+            {
+              "key": "B",
+              "text": "the insulator melts",
+              "correct": false,
+              "explanation": "Melting destroys the sample rather than passing charge.",
+              "misconception": "mechanism myth"
+            },
+            {
+              "key": "C",
+              "text": "the charge doubles",
+              "correct": false,
+              "explanation": "Nothing doubles spontaneously.",
+              "misconception": "nonsense option"
+            },
+            {
+              "key": "D",
+              "text": "it touches another material that can carry the charge away",
+              "correct": true,
+              "explanation": "Contact lets the gathered charge be conducted away.",
+              "misconception": null
+            }
+          ]
+        },
+        {
+          "stem": "Wood compared with copper conducts:",
+          "misconceptionClass": "comparison reasoning",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "much better",
+              "correct": false,
+              "explanation": "Wood is the insulator of the pair.",
+              "misconception": "category swap"
+            },
+            {
+              "key": "B",
+              "text": "far worse, though a little static can pass",
+              "correct": true,
+              "explanation": "Poor conductors still pass some charge as static electricity.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "identically",
+              "correct": false,
+              "explanation": "The two sit at opposite ends.",
+              "misconception": "equality myth"
+            },
+            {
+              "key": "D",
+              "text": "not at all, ever",
+              "correct": false,
+              "explanation": "Even insulators pass a little static.",
+              "misconception": "absolutism myth"
+            }
+          ]
+        },
+        {
+          "stem": "Two charged insulators touch. The charge between them:",
+          "misconceptionClass": "static reasoning",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "partially conducts across",
+              "correct": true,
+              "explanation": "Contact lets the surface charge be conducted away, at least in part.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "doubles",
+              "correct": false,
+              "explanation": "Charge is conserved, not created.",
+              "misconception": "conservation myth"
+            },
+            {
+              "key": "C",
+              "text": "turns positive",
+              "correct": false,
+              "explanation": "Touching does not flip the sign.",
+              "misconception": "sign myth"
+            },
+            {
+              "key": "D",
+              "text": "stays frozen forever",
+              "correct": false,
+              "explanation": "Some charge passes on contact.",
+              "misconception": "absolutism myth"
+            }
+          ]
+        },
+        {
+          "stem": "Define an insulator.",
+          "misconceptionClass": "definition recall",
+          "kind": "recall",
+          "modelAnswer": "A material with no free charges that does not let charge flow through it easily.",
+          "keywords": [
+            "material",
+            "free",
+            "charges",
+            "flow",
+            "insulator"
+          ]
+        },
+        {
+          "stem": "In what form can charge pass through a poor conductor such as wood?",
+          "misconceptionClass": "static recall",
+          "kind": "recall",
+          "modelAnswer": "As static electricity — charge gathering on the surface and passing across on contact.",
+          "keywords": [
+            "static",
+            "electricity",
+            "surface",
+            "charge",
+            "contact"
+          ]
+        },
+        {
+          "stem": "Explain why rubbing two insulators charges them but rubbing two metals does not.",
+          "misconceptionClass": "reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "On insulators the transferred charge stays put on each surface because nothing free can carry it away; on metals any transferred charge would flow away at once through the delocalised electrons.",
+          "keywords": [
+            "charge",
+            "stays",
+            "surface",
+            "metals",
+            "electrons"
+          ]
+        },
+        {
+          "stem": "A charged plastic rod picks up small paper circles. Explain the role of the rod being an insulator.",
+          "misconceptionClass": "application reasoning",
+          "kind": "application",
+          "modelAnswer": "The rubbed surface keeps its gathered charge because the plastic has no free charges; that stationary surface charge then attracts the neutral paper.",
+          "keywords": [
+            "charge",
+            "plastic",
+            "surface",
+            "attracts",
+            "paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "noteAssets": {
+    "glossary": [
+      {
+        "term": "conductor",
+        "definition": "A material that lets charge flow through it easily; metals are the everyday examples.",
+        "firstLesson": 1
+      },
+      {
+        "term": "insulator",
+        "definition": "A material with no free charges, so charge cannot travel through it easily.",
+        "firstLesson": 1
+      },
+      {
+        "term": "delocalised electrons",
+        "definition": "Metal outer electrons free to move through the lattice — the carriers of the current.",
+        "firstLesson": 1
+      },
+      {
+        "term": "static electricity",
+        "definition": "Charge held on an insulator's surface, able to pass across only on contact.",
+        "firstLesson": 2
+      }
+    ],
+    "workedExample": null
+  },
+  "figures": [
+    {
+      "id": "fig-01",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/3c558be6065b-14-1-9-conductors-and-insulators.png",
+      "alt": "Conductors and insulators, downloadable IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "Conductors",
+      "moduleIds": [
+        "L1"
+      ],
+      "caption": "Different materials have different properties of conductivity",
+      "binding": "heading-unique"
+    },
+    {
+      "id": "fig-02",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/a961a8c52061-2-4-1-free-electrons-conductor.png",
+      "alt": "Free Electrons Conductor, downloadable IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "Conductors",
+      "moduleIds": [
+        "L1"
+      ],
+      "caption": "The lattice structure of a conductor with positive metal ions and delocalised electrons",
+      "binding": "heading-unique"
+    }
+  ]
+}
