@@ -1,0 +1,118 @@
+{
+ "lane": "T-OEQ-PHYS-FORMAT-1",
+ "run": "run-012-wave-b",
+ "date": "2026-11-03",
+ "law": "RULE-1 (L1 direction, L2 identity gate, L3 asset canonicalization, L5 qmd rides, L6 drift-delta, L7 RES-2 re-baseline)",
+ "population": {
+  "fields": 43,
+  "parts": 43,
+  "topics": 17,
+  "l2_automatic_hunk_census": 34,
+  "l2_eyeball_signoff": 9
+ },
+ "baseline_at_adoption": {
+  "fields": 789,
+  "parts": 591,
+  "buckets": {
+   "benign-style": 724,
+   "id-swap": 22,
+   "real-content": 8,
+   "format-families": 35
+  }
+ },
+ "baseline_provenance": "fresh full re-scan @ resources main 909d3116e207 x v2 main 4376905404d4 (plane file unmoved since census: last commit 40db4abf 2026-11-02T15:03Z); reproduced wave-A post-state exactly (789/591/724/65)",
+ "l6_semantics": "of the 43 adopted fields, 39 become raw-equal (leave the drift population) and 4 stay raw-unequal only via asset-ref canonicalization (migrate to benign-style); predicted post-wave: drift_fields 789 -> 750, non-benign 43 -> 0 + id-swap 22",
+ "gates": {
+  "t1_roundtrip_all_touched": true,
+  "deepdiff_exactly_pinned_fields": true,
+  "char_safety": true,
+  "dollar_parity_all_even": true
+ },
+ "debris_census": {
+  "scope_note": "drift-census scope is problem_md/solution_md; equations[].alt is outside the adoption law scope and recorded as a ledger observation",
+  "md_word_latin_delta": {
+   "pre": 3,
+   "post": 0
+  },
+  "md_code_span_math": {
+   "pre": 7,
+   "post": 2,
+   "residual_location": "id-swap fields (L4 population, not adoptable)"
+  },
+  "md_gathered_env": {
+   "pre": 10,
+   "post": 0
+  },
+  "equations_alt_word_latin_delta": {
+   "pre": 19,
+   "post": 19,
+   "disposition": "out of md scope - untouched per law; ledger observation for future work"
+  }
+ },
+ "qmd_rides": [
+  {
+   "field": "qstnprt_RZTSdSHjZNCRrjw4:problem_md",
+   "file": "7-radioactivity-and-particles/7-1-properties-of-radiation/questions.md",
+   "mode": "full-block byte-identical replace",
+   "span_len": 158
+  },
+  {
+   "field": "qstnprt_TFNVth8BBPYY5dHS:problem_md",
+   "file": "7-radioactivity-and-particles/7-1-properties-of-radiation/questions.md",
+   "mode": "full-block byte-identical replace",
+   "span_len": 377
+  },
+  {
+   "field": "qstnprt_d2C6ZCDXBMjGnnPn:problem_md",
+   "file": "7-radioactivity-and-particles/7-1-properties-of-radiation/questions.md",
+   "mode": "full-block byte-identical replace",
+   "span_len": 250
+  },
+  {
+   "field": "qstnprt_rQQpqK7R72snf3sm:problem_md",
+   "file": "7-radioactivity-and-particles/7-2-radioactivity-uses-and-dangers/questions.md",
+   "mode": "full-block byte-identical replace",
+   "span_len": 373
+  },
+  {
+   "field": "qstnprt_yCK74nZSndFymhSB:problem_md",
+   "file": "3-waves/3-1-waves-and-the-electromagnetic-spectrum/questions.md",
+   "mode": "equation-fragment replace (backslash-flexible unique match; covers all 13 hunks)",
+   "span_len": 178
+  }
+ ],
+ "qmd_no_ride_disclosures": {
+  "qstnprt_HHnKNt4KD7gJKJZn:solution_md": "qmd mirror diverges at the changed region (matches neither corpus nor plane form flexibly; older regen revision) - left for platform regen",
+  "qstnprt_zBDvdWwJ6ttsRhNJ:solution_md": "qmd mirror diverges at the changed region (matches neither corpus nor plane form flexibly; older regen revision) - left for platform regen"
+ },
+ "res2_rebaseline": [
+  {
+   "pin": "questions.md:7-1 capture",
+   "file": "7-radioactivity-and-particles/7-1-properties-of-radiation/questions.md",
+   "was_run010_after_sha256": "8834aa0cc4063915708265ca1f77e5e79e9bed33771f7509fd194b344cbd84e4",
+   "rebaselined_sha256": "ac512a869dea4b7137bf85b285995d77dde00918179fffaa4413a87fae532c2a",
+   "bytes": 17996,
+   "note": "post-wave-B (regen rides applied in this wave)"
+  },
+  {
+   "pin": "questions.md:7-2 blank",
+   "file": "7-radioactivity-and-particles/7-2-radioactivity-uses-and-dangers/questions.md",
+   "was_run010_after_sha256": "a29e68d3b69d23f19a461e68c82d3740a95e3e8a0bde789d0d21575f733de7db",
+   "rebaselined_sha256": "4b4438cf467880cf57f00a6c8e687352e94636ed037d5178dc35c2e92ae24aef",
+   "bytes": 19304,
+   "note": "post-wave-B (regen rides applied in this wave)"
+  }
+ ],
+ "l2_eyeball_dossier": {
+  "qstnprt_3mpM8g7D9rYFrYSS:solution_md": "m1-code-span -> math conversion: code-span `( v_(1) x ... )` becomes $...$ with \\frac/\\times/{}_{1} subscripts; all 28 hunks inside the converted span",
+  "qstnprt_DbkGnnv3GNcddRgM:solution_md": "gathered -> aligned math-env rename + unit-style \\mathrm{m} \\div \\mathrm{s} -> m/s",
+  "qstnprt_NR7qRS3Tt58GqGHR:solution_md": "stray coefficient \"1 \" inside $...$ (mgh = 1 \\frac{1}{2}mv^2 -> mgh = \\frac{1}{2}mv^2, value-neutral x1 debris) + one pure space insert",
+  "qstnprt_RZTSdSHjZNCRrjw4:problem_md": "M3 prescript family: $Te_{Z}^{A}$ -> ${}_{Z}^{A}{Te}$ (element symbol repositioned after prescript braces)",
+  "qstnprt_TFNVth8BBPYY5dHS:problem_md": "M3 prescript family: $H_{Z}^{A}$ -> ${}_{Z}^{A}{H}$ (element symbol repositioned after prescript braces)",
+  "qstnprt_XchmpFGts7RB9BCs:solution_md": "m1-code-span -> math conversion: code-span `( ... )` becomes $...$ with \\bcancel/\\frac; all 10 hunks inside the converted span",
+  "qstnprt_d2C6ZCDXBMjGnnPn:problem_md": "M3 prescript family x2: $Th_{90}^{232}$ -> ${}_{90}^{232}{Th}$ and $Th_{90}^{228}$ -> ${}_{90}^{228}{Th}$ (verified: LRM run between the equations is an equal-region, pre-existing corpus-side benign mark, 18 -> 18 unchanged)",
+  "qstnprt_rQQpqK7R72snf3sm:problem_md": "M3 prescript family: $Sr_{Z}^{A}$ -> ${}_{Z}^{A}{Sr}$ (element symbol repositioned after prescript braces)",
+  "qstnprt_yMt8v6tvc2w9J7KJ:solution_md": "m1-code-span -> math conversion: `( F = ( capital delta p )/( capital delta t) )` -> $\\left(F = \\frac{\\Delta p }{\\Delta t}\\right)$; all 7 hunks inside the converted span; extra-eyeballed for ratio-form variance"
+ },
+ "pin_count": 43
+}
