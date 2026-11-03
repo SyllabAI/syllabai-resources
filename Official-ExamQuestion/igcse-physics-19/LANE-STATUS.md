@@ -350,3 +350,44 @@ side carries the guard, the mandate, the hand-off receipt at
 `.syllabai/receipts/T-CONSUME-EDX-2/DISC-6-handoff.md` and the baseline
 receipt in this lane's artifacts dir. The corpus of record is untouched by
 this wave.
+
+## 2026-11-03 — F134: the owner ruling + wave-D executed (5 cross-bank fields repaired; P2 remediation delivered)
+
+The operator ruled "R1+R2 as recommended" (trace 1a1a2138d7f42e51): the DISC-6
+census-guard mandate is RATIFIED as standing policy (with the P1 law — every
+stack step committed, re-runnable, receipted — folded in), and wave-D is opened
+under this lane for the 5 further EDX-2-corrupted fields the guard baseline
+found (intro c2388bca for every group). Executed the same day:
+
+- Wave-D (L4 mapping-repair, wave-C shape): plane := corpus of record verbatim
+  at resources main 5027ee19 — igcse-physics-modular-24-unit-2 StT48 part 1/3
+  problemMd+solutionMd, igcse-science-double-award-17-physics j4Mg part 1/3
+  problemMd+solutionMd, ial-maths-20-decision-1 hjMZ part 0/2 problemMd
+  (5 writes / 3 parts / 3 questions / 3 banks; corpus untouched). Canon: the
+  banks' own 100% image form (raw URLs at the bank-wide pin 1a5c37bc, files
+  verified at the pin) + LRM strip. Gates all green (T1 round-trip per bank —
+  all three banks compact `indent=None, separators (',',':')`; G1 deep-diff ==
+  exactly the 5 fields; G2/G3/G4/G6; G5 census guard CLEAN exit-0 per touched
+  bank + full-corpus 39->34 findings, ZERO in touched banks). The 2 radiation
+  questions and the LP question serve their true per-part content again for
+  the first time since 2026-10-21.
+- P2 remediation delivered per R1: the committed gate-exact grafts stage
+  (v2 clean_segment_grafts.py — G-A source.part_id == target.part_id is the
+  anti-collapse law the defective v1 pass lacked; --selftest GREEN) + the
+  remediation receipt at the EDX-2 site. The EDX-2 replay hazard is LIFTED.
+  Platform-lane item 2 (wiring census_guard.py into CI) remains open.
+- New finding P5 (corpus-side): the corpus of record for the two radiation
+  banks carries the ` pre` isotope/decay glue debris class — served verbatim
+  (22 instances) per the mapping-repair law, already served verbatim elsewhere
+  in double-award (6 instances). M4 candidate: the run-011-m3-analog
+  corpus-side isotope repair for these banks, then a small plane sync.
+- Canon archaeology of record: the pre-corruption (2ece53bf) serving form
+  differs from corpus verbatim ONLY in the EDX-1 isotope-graft backtick form,
+  which exists nowhere in the current banks (wiped by the 10-27/10-29
+  re-imports) — wave-D serves the corpus of record verbatim per the ruling.
+
+Dossier: `scripts/oeq_phys_run012/wave-d/` (the committed serve script per P1 +
+the serve table); ledger DISC-6 -> ruling recorded, wave_d section added. The
+v2 serving leg is PR #688 (3 bank files + the remediation script + guard
+receipts + the payload receipt). The corpus of record is untouched by this
+wave.
