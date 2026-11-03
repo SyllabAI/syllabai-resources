@@ -1,0 +1,56 @@
+{
+ "lane": "T-OEQ-PHYS-FORMAT-1",
+ "run": "run-012-reconciliation",
+ "date": "2026-11-03",
+ "type": "census + adoption-law proposal (NO content edits in this run)",
+ "rebaseline": {
+  "disclosed_at_run_010_m2": {"drift_parts": 634, "drift_fields": 850},
+  "measured_now": {"drift_parts": 627, "drift_fields": 842},
+  "delta": {"parts": -7, "fields": -8},
+  "attribution": "point-in-time snapshot drift: plane-side repairs (v2 RN-DEBRIS-3/4/5/6/9 waves, run-009-r2 serving backsync, F131 serving leg) + corpus-side repairs (#280, #282, #285) landed after the run-010 scan; run-010 sample of 8 parts re-verified field-stable; id space still exactly aligned 1135<->1135, zero corpus-only / plane-only",
+  "scope": "problem_md/solution_md only, corpus topic.json vs v2 questions.json, all 24 igcse-physics-19 topics"
+ },
+ "buckets": {
+  "benign-style": {
+   "fields": 715,
+   "what": "same content, different encoding: plane pins asset refs to raw.githubusercontent URLs (pin sha aa0b4de) vs corpus relative assets/ paths; whitespace/layout variants; invisible LRM marks (U+200E) on corpus side; table-separator spacing",
+   "style_split": "exact + layout-only (whitespace-class equality after URL canonicalization + invisible-char strip)",
+   "disposition": "CLOSED - no content edits either side; URL pinning is a serving-layer concern, corpus of record keeps relative asset paths"
+  },
+  "glue-spacing": {
+   "fields": 62, "parts": 61,
+   "what": "corpus side glued/lost inter-word spaces (conversion debris); plane side already re-spaced (RN-DEBRIS-adjacent class); 52 fields pure space-inserts, 10 mixed",
+   "evidence_band": "ratio 0.94-1.0, all hunks are C[''] P[' '] space inserts (or whitespace-only replaces)",
+   "disposition": "ADOPTABLE wave-A: corpus := plane verbatim, field pins, standard gates"
+  },
+  "format-families": {
+   "fields": 43, "parts": 43,
+   "what": "known repair-family residue, plane carries the target form: m1-code-span backtick->math (3), gathered->aligned/matrix env (~6), M3 prescript form Th/Sr/Te postscript vs {}-prescript (6), \\text{} unwrap (4), \\left\\right paren style (34, overlapping tag), unit style (\\mathrm{m} \\div \\mathrm{s} vs m / s), bold-marker spacing",
+   "evidence_band": "ratio 0.86-0.999 except one 0.655",
+   "disposition": "ADOPTABLE wave-B: corpus := plane verbatim per family, field pins, standard gates"
+  },
+  "cross-id": {
+   "fields": 22, "parts": 20,
+   "what": "DISC-1 family: this side's normalized content exactly equals the other side's content under a DIFFERENT part id; all 22 counterparts are inside the SAME topic; direction uniformly plane==corpus@other",
+   "mechanisms": [
+    "MCQ solution boilerplate reuse: qstnprt_PnYK8tkCjzCjtwG3 is the corpus home of a generic MCQ solution shared by 4 plane parts (9PZG/WkXv/YdRj/mZsY)",
+    "true mapping drift: qstnprt_ZTrm3d8Qwgth5z94 <-> qstnprt_CZmG2HZmcGRntGDF (the DISC-1 case of record: plane stores the gamma 2-marker under ZTrm..., corpus keeps it under CZmG...), plus qstnprt_Vn36YRgjsBNv8BK2 <-> qstnprt_hV5TvZxVQMwbwTf2 (both fields)"
+   ],
+   "disposition": "NOT field-verbatim adoptable; mapping-repair wave with per-part sign-off after mechanism confirmation"
+  },
+  "real-content": {
+   "fields": 0,
+   "what": "the single threshold candidate (qstnprt_rRcfVxKcB5SxjFgS solution_md, ratio 0.655) dissolves on inspection into \\left\\right paren style over a long field - reclassified to format-families",
+   "disposition": "none"
+  }
+ },
+ "headline": "842 drifting fields = 715 benign-encoding + 62 glue-spacing + 43 format-families + 22 cross-id + 0 real-content",
+ "law_proposal": "see adoption-law.md in this dossier (L1-L7)",
+ "artifacts": [
+  "classification.json (per-field classification, 627 parts)",
+  "families.json (family tags for the 105 non-benign adoptable fields)",
+  "hunk_kinds.json (glue vs format kind per field)",
+  "adoption-law.md (proposal, pending sign-off)"
+ ],
+ "gates": "n/a - census-only run, zero corpus/plane edits"
+}
