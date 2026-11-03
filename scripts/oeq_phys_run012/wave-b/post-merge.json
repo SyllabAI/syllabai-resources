@@ -1,0 +1,34 @@
+{
+ "run": "run-012-wave-b post-merge verification",
+ "main": "1323fbb25d4755d8187a0164334fb584f82f2351",
+ "l6": {
+  "drift_fields": 750,
+  "drift_parts": 565,
+  "buckets": {
+   "benign-style": 728,
+   "id-swap": 22
+  },
+  "was": {
+   "fields": 789,
+   "parts": 591,
+   "benign": 724,
+   "non_benign": 65
+  },
+  "raw_equal_gone": 39,
+  "l3_canon_migrated_benign": 4,
+  "new_drift": 0,
+  "unexpected_movement": 0,
+  "drift_delta_exact": true,
+  "parts_note": "591 -> 565: 26 parts fully cleaned; 13 gone-field parts retain a second drifting field (cross-id population)"
+ },
+ "landing": {
+  "topic_json_byte_exact": 17,
+  "questions_md_byte_exact": 3,
+  "mismatches": []
+ },
+ "res2_confirmed": {
+  "7-1 capture": "ac512a869dea4b7137bf85b285995d77dde00918179fffaa4413a87fae532c2a",
+  "7-2 blank": "4b4438cf467880cf57f00a6c8e687352e94636ed037d5178dc35c2e92ae24aef"
+ },
+ "plane_unchanged": true
+}
