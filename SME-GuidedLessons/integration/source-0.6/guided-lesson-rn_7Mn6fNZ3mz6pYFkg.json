@@ -1,0 +1,604 @@
+{
+  "format": "guided-lesson/0.6",
+  "noteRef": {
+    "noteId": "rn_7Mn6fNZ3mz6pYFkg",
+    "corpusVersion": "sme-revision-notes-igcse-physics-19-2026-09-17",
+    "topicTitle": "4. Energy Resources and Energy Transfers",
+    "subtopicTitle": "Energy Stores & Transfers",
+    "sourceUrl": "https://www.savemyexams.com/igcse/physics/edexcel/19/revision-notes/4-energy-resources-and-energy-transfers/4-1-energy-stores-and-transfers/4-1-1-energy-stores-and-transfers"
+  },
+  "specPoints": [
+    {
+      "code": "4.2",
+      "text": "describe energy transfers involving energy stores: • energy stores: chemical, kinetic, gravitational, elastic, thermal, magnetic, electrostatic, nuclear • energy transfers: mechanically, electrically, by heating, by radiation (light and sound)"
+    }
+  ],
+  "primer": {
+    "text": "Every energy argument in this course runs on one model: eight stores that hold energy and four pathways that move it. This note fixes the vocabulary — system, equilibrium, stores, pathways — so that later calculations always have somewhere precise to put the joules.",
+    "prerequisiteSubtopic": "Energy Stores & Transfers"
+  },
+  "lessons": [
+    {
+      "title": "Systems and energy stores",
+      "sourceHeadings": [
+        "Systems in physics",
+        "Energy stores"
+      ],
+      "specRefs": [
+        "4.2"
+      ],
+      "opening": "Physics borrows a bookkeeping idea to keep energy arguments tidy: define a system — an object or group of objects — and then only energy crossing its boundary matters. Inside the accounts, eight named stores hold the energy while anything changing moves it between them.",
+      "keyPoints": [
+        "A system means an object or a group of objects chosen for study.",
+        "Defining the system narrows the physics to what is relevant for the situation being observed.",
+        "A system in equilibrium transfers nothing; any change to the system moves energy between stores.",
+        "There are eight energy stores: kinetic, gravitational, elastic, magnetic, electrostatic, chemical, nuclear and thermal.",
+        "Moving objects fill the kinetic store; lifted objects fill the gravitational store; hotter objects fill the thermal store."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "A system is any object or group of objects; changes to it transfer energy between the eight named stores, and an unchanged system in equilibrium transfers nothing.",
+          "analogy": "A ledger with eight named accounts: nothing is spent or created, money simply moves between accounts whenever something happens to the system.",
+          "examPointer": "Learn the eight stores as a fixed list — classification questions expect the exact names, not paraphrases."
+        },
+        "medium": {
+          "restatement": "The system boundary decides which energy transfers are counted: an apple on a table transfers energy only once the table is removed, and the accounting then runs from the gravitational store into the kinetic store as it falls.",
+          "analogy": "Choosing a fence around a farm: only animals crossing the fence are counted, and the fence you draw changes the whole story.",
+          "examPointer": "State the system explicitly in long answers: the same falling apple is a different story if the Earth is inside or outside the system."
+        }
+      },
+      "check": [
+        {
+          "stem": "What is a system in physics?",
+          "misconceptionClass": "definition recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "an object or group of objects",
+              "correct": true,
+              "explanation": "This is the stated definition of a system.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "only a single isolated particle",
+              "correct": false,
+              "explanation": "A system can be one object or a whole group.",
+              "misconception": "absurd limit"
+            },
+            {
+              "key": "C",
+              "text": "any source of energy",
+              "correct": false,
+              "explanation": "Sources are parts of systems; the definition is broader.",
+              "misconception": "concept mix-up"
+            },
+            {
+              "key": "D",
+              "text": "a machine that transfers heat",
+              "correct": false,
+              "explanation": "Machines are systems, but so are apples and tables.",
+              "misconception": "concept mix-up"
+            }
+          ]
+        },
+        {
+          "stem": "An apple sits on a table and the table is suddenly removed. As the apple falls, which store-to-store transfer happens?",
+          "misconceptionClass": "concept transfer",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "kinetic store to gravitational store",
+              "correct": false,
+              "explanation": "The transfer runs the other way while falling.",
+              "misconception": "inverted relation"
+            },
+            {
+              "key": "B",
+              "text": "gravitational store to kinetic store",
+              "correct": true,
+              "explanation": "Falling transfers energy from the gravitational store into the kinetic store.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "thermal store to kinetic store",
+              "correct": false,
+              "explanation": "Heating is not what drives the fall.",
+              "misconception": "concept mix-up"
+            },
+            {
+              "key": "D",
+              "text": "elastic store to gravitational store",
+              "correct": false,
+              "explanation": "Nothing is stretched in this scenario.",
+              "misconception": "concept mix-up"
+            }
+          ]
+        },
+        {
+          "stem": "A stretched spring is released. Which store held the energy before release?",
+          "misconceptionClass": "concept recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "the gravitational store",
+              "correct": false,
+              "explanation": "Gravity is not what stretched the spring.",
+              "misconception": "concept mix-up"
+            },
+            {
+              "key": "B",
+              "text": "the elastic store",
+              "correct": true,
+              "explanation": "Stretched, squashed or bent objects hold energy in the elastic store.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "the nuclear store",
+              "correct": false,
+              "explanation": "Nuclei are not involved in a spring.",
+              "misconception": "concept mix-up"
+            },
+            {
+              "key": "D",
+              "text": "the electrostatic store",
+              "correct": false,
+              "explanation": "Charges are not the mechanism in an ordinary spring.",
+              "misconception": "concept mix-up"
+            }
+          ]
+        },
+        {
+          "stem": "Which store does EVERY object have, simply because it has a temperature?",
+          "misconceptionClass": "concept recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "the kinetic store of motion through space",
+              "correct": false,
+              "explanation": "The store tied to temperature is the thermal store.",
+              "misconception": "concept mix-up"
+            },
+            {
+              "key": "B",
+              "text": "the thermal store",
+              "correct": true,
+              "explanation": "All objects have energy in their thermal store; hotter means more.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "the magnetic store",
+              "correct": false,
+              "explanation": "Only magnetic materials interacting magnetically fill that store.",
+              "misconception": "concept mix-up"
+            },
+            {
+              "key": "D",
+              "text": "the chemical store",
+              "correct": false,
+              "explanation": "Chemical energy belongs to reactions, not to temperature alone.",
+              "misconception": "concept mix-up"
+            }
+          ]
+        },
+        {
+          "stem": "Energy is released during a nuclear reaction in a power station. Which store is emptied?",
+          "misconceptionClass": "concept transfer",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "the thermal store",
+              "correct": false,
+              "explanation": "The thermal store GAINS as the reaction’s energy arrives.",
+              "misconception": "direction error"
+            },
+            {
+              "key": "B",
+              "text": "the nuclear store",
+              "correct": true,
+              "explanation": "Atomic nuclei release energy from their nuclear store in nuclear reactions.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "the electrostatic store",
+              "correct": false,
+              "explanation": "Electrostatic interactions are not the source here.",
+              "misconception": "concept mix-up"
+            },
+            {
+              "key": "D",
+              "text": "the elastic store",
+              "correct": false,
+              "explanation": "Nothing is stretched inside the reactor.",
+              "misconception": "concept mix-up"
+            }
+          ]
+        },
+        {
+          "stem": "State the eight energy stores named in the stores table.",
+          "misconceptionClass": "definition recall",
+          "kind": "recall",
+          "modelAnswer": "Kinetic, gravitational, elastic, magnetic, electrostatic, chemical, nuclear and thermal.",
+          "keywords": [
+            "kinetic",
+            "gravitational",
+            "elastic",
+            "magnetic",
+            "electrostatic",
+            "chemical",
+            "nuclear",
+            "thermal"
+          ]
+        },
+        {
+          "stem": "A system sits in equilibrium and nothing changes. State what is transferred while it stays in equilibrium.",
+          "misconceptionClass": "definition recall",
+          "kind": "recall",
+          "modelAnswer": "Nothing changes, so no energy is transferred while the system remains in equilibrium.",
+          "keywords": [
+            "nothing",
+            "equilibrium",
+            "transferred"
+          ]
+        },
+        {
+          "stem": "Explain why defining a system is a useful step before describing an energy transfer.",
+          "misconceptionClass": "evaluation reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "Defining the system narrows the parameters to only what is relevant, fixes the boundary that energy crosses, and makes the accounting unambiguous: transfers inside the boundary move energy between stores, while transfers across it are gains or losses for the system.",
+          "keywords": [
+            "system",
+            "boundary",
+            "relevant",
+            "energy",
+            "transfer"
+          ]
+        },
+        {
+          "stem": "Classify the store being emptied and the store being filled: (a) a log burns in a fire, (b) a car speeds up along a road.",
+          "misconceptionClass": "application transfer",
+          "kind": "application",
+          "modelAnswer": "(a) the log’s chemical store empties and the surroundings’ thermal store fills; (b) the car’s chemical store empties and its kinetic store fills.",
+          "keywords": [
+            "chemical",
+            "thermal",
+            "kinetic",
+            "store"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Energy transfer pathways",
+      "sourceHeadings": [
+        "Energy transfers",
+        "Table of energy transfer pathways"
+      ],
+      "specRefs": [
+        "4.2"
+      ],
+      "opening": "Stores hold energy; pathways move it. The model names exactly four: mechanical work, electrical work, heating and radiation (light and sound). Any everyday transfer you can describe — a kettle, a falling apple, sunlight on a wall — reduces to these four crossings between stores.",
+      "keyPoints": [
+        "Energy is transferred between stores by four pathways: mechanically, electrically, by heating and by radiation.",
+        "Mechanical work involves a force acting through a distance.",
+        "Electrical work transfers energy through moving charge in a circuit.",
+        "Heating covers particle-to-particle transfer such as conduction, and radiation (light and sound) transfers energy without a material medium."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Four pathways carry energy between the eight stores: mechanical, electrical, heating, and radiation (light and sound); every device description is a pathway joining two stores.",
+          "analogy": "Four roads between eight towns: the stores are the towns and every journey of energy takes one of the four roads.",
+          "examPointer": "When a question says describe the transfer, name BOTH the stores and the pathway: store → pathway → store."
+        },
+        "medium": {
+          "restatement": "The pathway table separates how the energy crosses the boundary: force-through-distance is mechanical, charge-in-a-circuit is electrical, particle collisions are heating, and waves leaving the object are radiation.",
+          "analogy": "Payment methods for the same money: cash, card, transfer and bitcoin all move the same pounds between the same accounts.",
+          "examPointer": "Light and sound both count as radiation pathways — exam answers often forget sound is included."
+        }
+      },
+      "check": [
+        {
+          "stem": "How many energy transfer pathways does the model name?",
+          "misconceptionClass": "definition recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "three",
+              "correct": false,
+              "explanation": "Three processes (conduction, convection, radiation) belong to HEATING, not to the pathway list.",
+              "misconception": "concept mix-up"
+            },
+            {
+              "key": "B",
+              "text": "four",
+              "correct": true,
+              "explanation": "The pathways are mechanical, electrical, heating and radiation.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "eight",
+              "correct": false,
+              "explanation": "Eight is the number of stores.",
+              "misconception": "quantity swap"
+            },
+            {
+              "key": "D",
+              "text": "two",
+              "correct": false,
+              "explanation": "Two is far too few for the model.",
+              "misconception": "magnitude error"
+            }
+          ]
+        },
+        {
+          "stem": "A kettle boils water. Which pathway carries energy from the mains supply to the heating element?",
+          "misconceptionClass": "concept transfer",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "mechanically",
+              "correct": false,
+              "explanation": "No force acts through a distance to deliver the energy here.",
+              "misconception": "pathway mix-up"
+            },
+            {
+              "key": "B",
+              "text": "electrically",
+              "correct": true,
+              "explanation": "The mains supply transfers energy electrically to the element.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "by radiation",
+              "correct": false,
+              "explanation": "Light and sound are not the mains delivery route.",
+              "misconception": "pathway mix-up"
+            },
+            {
+              "key": "D",
+              "text": "by heating directly from the mains",
+              "correct": false,
+              "explanation": "Heating happens after the element warms, not across the supply link.",
+              "misconception": "pathway mix-up"
+            }
+          ]
+        },
+        {
+          "stem": "Which pathway can transfer energy across empty space?",
+          "misconceptionClass": "concept recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "mechanical work",
+              "correct": false,
+              "explanation": "Mechanical work needs a force and contact.",
+              "misconception": "concept mix-up"
+            },
+            {
+              "key": "B",
+              "text": "electrical work",
+              "correct": false,
+              "explanation": "Electrical work needs a circuit of charge flow.",
+              "misconception": "concept mix-up"
+            },
+            {
+              "key": "C",
+              "text": "radiation",
+              "correct": true,
+              "explanation": "Radiation (light and sound... light especially) needs no material medium.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "heating by conduction",
+              "correct": false,
+              "explanation": "Conduction needs particles to collide.",
+              "misconception": "concept mix-up"
+            }
+          ]
+        },
+        {
+          "stem": "A person pushes a box along the floor at constant speed. Energy reaches the box’s thermal store through which pathway?",
+          "misconceptionClass": "concept transfer",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "electrical work",
+              "correct": false,
+              "explanation": "No circuit is involved in pushing.",
+              "misconception": "pathway mix-up"
+            },
+            {
+              "key": "B",
+              "text": "mechanical work, then heating by friction",
+              "correct": true,
+              "explanation": "The push is mechanical work; friction delivers it to the thermal store by heating.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "radiation only",
+              "correct": false,
+              "explanation": "Sound from the scrape is radiation, but it is not the main route.",
+              "misconception": "pathway mix-up"
+            },
+            {
+              "key": "D",
+              "text": "by heating from the hand directly",
+              "correct": false,
+              "explanation": "The hand is not touching the box bottom where friction acts.",
+              "misconception": "method detail"
+            }
+          ]
+        },
+        {
+          "stem": "Which description matches the heating pathway?",
+          "misconceptionClass": "definition recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "a force moving an object",
+              "correct": false,
+              "explanation": "That is mechanical work.",
+              "misconception": "pathway mix-up"
+            },
+            {
+              "key": "B",
+              "text": "energy transferred by particle collisions or because of a temperature difference",
+              "correct": true,
+              "explanation": "Heating is the particle-level pathway driven by temperature difference.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "charge flowing in a wire",
+              "correct": false,
+              "explanation": "That is electrical work.",
+              "misconception": "pathway mix-up"
+            },
+            {
+              "key": "D",
+              "text": "light leaving a lamp",
+              "correct": false,
+              "explanation": "That is the radiation pathway.",
+              "misconception": "pathway mix-up"
+            }
+          ]
+        },
+        {
+          "stem": "State the four energy transfer pathways.",
+          "misconceptionClass": "definition recall",
+          "kind": "recall",
+          "modelAnswer": "Mechanical, electrical, heating and radiation (light and sound).",
+          "keywords": [
+            "mechanical",
+            "electrical",
+            "heating",
+            "radiation"
+          ]
+        },
+        {
+          "stem": "State the pathway involved when a torch lamp lights a wall, and the store being emptied in the battery.",
+          "misconceptionClass": "definition recall",
+          "kind": "recall",
+          "modelAnswer": "The lamp’s energy reaches the wall by radiation (light), and the battery’s chemical store is being emptied.",
+          "keywords": [
+            "radiation",
+            "chemical",
+            "store"
+          ]
+        },
+        {
+          "stem": "Explain why sound belongs to the radiation pathway even though sound needs a medium to travel.",
+          "misconceptionClass": "evaluation reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "The pathway names describe how energy leaves the source and crosses to where it is received: sound carries energy away from the vibrating source as a wave, without any bulk movement of the source itself, which is exactly the radiation behaviour — the medium’s particles pass the wave along, but no matter travels with it.",
+          "keywords": [
+            "wave",
+            "energy",
+            "source",
+            "medium",
+            "radiation"
+          ]
+        },
+        {
+          "stem": "Describe the full store-pathway-store chain for a falling apple that splashes into a puddle.",
+          "misconceptionClass": "application transfer",
+          "kind": "application",
+          "modelAnswer": "The apple’s gravitational store empties mechanically into its kinetic store as it falls; at the splash, the kinetic store empties by heating (into the water and apple thermal stores) and by radiation (the splash’s sound).",
+          "keywords": [
+            "gravitational",
+            "kinetic",
+            "heating",
+            "radiation",
+            "thermal"
+          ]
+        }
+      ]
+    }
+  ],
+  "noteAssets": {
+    "glossary": [
+      {
+        "term": "system",
+        "definition": "An object or group of objects chosen as the focus of an energy description.",
+        "firstLesson": 1
+      },
+      {
+        "term": "equilibrium",
+        "definition": "The state of a system in which nothing changes, so no energy is transferred.",
+        "firstLesson": 1
+      },
+      {
+        "term": "energy store",
+        "definition": "One of the eight named places energy can be held: kinetic, gravitational, elastic, magnetic, electrostatic, chemical, nuclear or thermal.",
+        "firstLesson": 1
+      },
+      {
+        "term": "transfer pathway",
+        "definition": "One of the four ways energy moves between stores: mechanically, electrically, by heating, by radiation.",
+        "firstLesson": 2
+      }
+    ],
+    "workedExample": null
+  },
+  "figures": [
+    {
+      "id": "fig-01",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/beaf216e9b0a-apple-table-system.png",
+      "alt": "apple-table-system",
+      "sourceHeading": "Systems in physics",
+      "moduleIds": [
+        "L1"
+      ],
+      "binding": "heading-unique"
+    },
+    {
+      "id": "fig-02",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/b4384975fb40-1-thermal-energy-transfer-new.png",
+      "alt": "1--thermal-energy-transfer--new",
+      "sourceHeading": "Table of energy transfer pathways",
+      "moduleIds": [
+        "L2"
+      ],
+      "binding": "heading-unique",
+      "caption": "Energy is transferred by heating from the hot coffee to the mug to the cold hands"
+    }
+  ]
+}

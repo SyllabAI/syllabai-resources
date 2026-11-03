@@ -1,0 +1,328 @@
+{
+  "format": "guided-lesson/0.6",
+  "noteRef": {
+    "noteId": "rn_P8xWkdTw6SrvWYJx",
+    "corpusVersion": "sme-revision-notes-igcse-physics-19-2026-09-17",
+    "topicTitle": "3. Waves",
+    "subtopicTitle": "Sound",
+    "sourceUrl": "https://www.savemyexams.com/igcse/physics/edexcel/19/revision-notes/3-waves/3-3-sound/3-3-3-core-practical-using-an-oscilloscope"
+  },
+  "specPoints": [
+    {
+      "code": "3.27P",
+      "text": "practical: investigate the frequency of a sound wave using an oscilloscope"
+    }
+  ],
+  "primer": {
+    "text": "This core practical turns the oscilloscope from a display into a measuring instrument. A tuning fork supplies a pure note, the time base supplies the ruler, and one counted cycle plus f = 1/T supplies the frequency — repeated across forks to map period against frequency.",
+    "prerequisiteSubtopic": "Sound"
+  },
+  "lessons": [
+    {
+      "title": "Finding frequency from the time base",
+      "sourceHeadings": [
+        "A diagram of the oscilloscope and tuning fork set up",
+        "An example results table of the oscilloscope display"
+      ],
+      "specRefs": [
+        "3.27P"
+      ],
+      "opening": "A tuning fork hands you a sound of pure, known-shape frequency. Display it on an oscilloscope, count the divisions spanned by one complete cycle, convert with the time-base scale to get the time period, and the frequency follows from f = 1/T — then repeat for forks of different frequency.",
+      "keyPoints": [
+        "The independent variable is the frequency of the tuning fork used and the dependent variable is the measured time period.",
+        "The microphone detects the fork’s note and the oscilloscope displays the wave electronically.",
+        "The time base is adjusted until multiple complete waves fit on the screen.",
+        "One complete cycle is measured in divisions and converted to seconds with the time-base scale.",
+        "Frequency is calculated from f = 1/T and the measurement is repeated for a variety of forks."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Strike a tuning fork, hold it near the microphone, freeze the trace, read the width of one cycle in divisions, convert divisions to milliseconds with the time base, and invert to get the frequency.",
+          "analogy": "Reading the wave off the screen is like timing one lap from a photo-finish: count the start and finish lines, apply the scale, and one lap gives the rate.",
+          "examPointer": "State f = 1/T and keep the units honest: divisions × ms per division gives T in ms; convert to seconds before inverting."
+        },
+        "medium": {
+          "restatement": "Divisions are the scope’s ruler: counted divisions multiplied by the ms-per-division setting give the period in milliseconds, and inverting after converting to seconds gives the frequency; each fork repeats the reading to build its period-frequency pair.",
+          "analogy": "Reading a map: count centimetres on the page, multiply by the scale, and the real distance appears — here the scale is the time base.",
+          "examPointer": "Watch the unit chain: divisions → ms → s → 1/T in Hz; slipping a factor of 1000 is the classic error."
+        }
+      },
+      "check": [
+        {
+          "stem": "What is the independent variable in this core practical?",
+          "misconceptionClass": "variable identification",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "the time period of the wave",
+              "correct": false,
+              "explanation": "Time period is the dependent variable being measured.",
+              "misconception": "variable swap"
+            },
+            {
+              "key": "B",
+              "text": "the frequency of the tuning fork chosen",
+              "correct": true,
+              "explanation": "Different tuning forks supply the input frequencies.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "the loudness of the hum test",
+              "correct": false,
+              "explanation": "The hum only checks the microphone works.",
+              "misconception": "method detail"
+            },
+            {
+              "key": "D",
+              "text": "the number of divisions on the screen",
+              "correct": false,
+              "explanation": "That is part of the reading, not the input.",
+              "misconception": "method detail"
+            }
+          ]
+        },
+        {
+          "stem": "Why is the time base adjusted before striking the fork?",
+          "misconceptionClass": "method reasoning",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "to make the trace taller",
+              "correct": false,
+              "explanation": "The vertical gain changes height, not the time base.",
+              "misconception": "control swap"
+            },
+            {
+              "key": "B",
+              "text": "so that multiple complete waves fit on the screen",
+              "correct": true,
+              "explanation": "The method requires several full cycles to be visible before measuring.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "to silence background noise",
+              "correct": false,
+              "explanation": "The time base does not filter sound.",
+              "misconception": "mechanism myth"
+            },
+            {
+              "key": "D",
+              "text": "to change the fork’s frequency",
+              "correct": false,
+              "explanation": "The fork’s frequency is fixed by its construction.",
+              "misconception": "variable mix-up"
+            }
+          ]
+        },
+        {
+          "stem": "How is the time period read from the frozen trace?",
+          "misconceptionClass": "reading the trace",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "count the divisions spanned by one complete wave cycle",
+              "correct": true,
+              "explanation": "One full cycle across the divisions, converted by the time base, is the period.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "count the divisions spanned by all visible waves",
+              "correct": false,
+              "explanation": "All visible waves span several periods, not one.",
+              "misconception": "reading error"
+            },
+            {
+              "key": "C",
+              "text": "measure the height of the tallest peak",
+              "correct": false,
+              "explanation": "Height gives amplitude, not period.",
+              "misconception": "quantity swap"
+            },
+            {
+              "key": "D",
+              "text": "read the frequency directly off the screen",
+              "correct": false,
+              "explanation": "The screen shows the waveform; the frequency is calculated.",
+              "misconception": "method myth"
+            }
+          ]
+        },
+        {
+          "stem": "A time base is set in ms per centimetre. A wave spans 4 cm for one cycle with a time base of 1 ms/cm. What is the frequency?",
+          "misconceptionClass": "arithmetic",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "4 Hz",
+              "correct": false,
+              "explanation": "4 ms is the period; inverting gives the frequency, not this value.",
+              "misconception": "inverted ratio"
+            },
+            {
+              "key": "B",
+              "text": "250 Hz",
+              "correct": true,
+              "explanation": "T = 4 ms = 0.004 s, so f = 1 / 0.004 = 250 Hz.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "4000 Hz",
+              "correct": false,
+              "explanation": "This treats 4 ms as if it were already inverted in kHz.",
+              "misconception": "arithmetic slip"
+            },
+            {
+              "key": "D",
+              "text": "0.25 Hz",
+              "correct": false,
+              "explanation": "This slips a factor of a thousand on the unit conversion.",
+              "misconception": "arithmetic slip"
+            }
+          ]
+        },
+        {
+          "stem": "Why is the microphone tested by humming before the forks are used?",
+          "misconceptionClass": "method reasoning",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "to warm up the oscilloscope screen",
+              "correct": false,
+              "explanation": "Screens do not need humming.",
+              "misconception": "method myth"
+            },
+            {
+              "key": "B",
+              "text": "to check the microphone displays a signal",
+              "correct": true,
+              "explanation": "The hum confirms the microphone and scope chain works before measurements start.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "to set the fork frequency",
+              "correct": false,
+              "explanation": "Humming does not tune anything.",
+              "misconception": "method myth"
+            },
+            {
+              "key": "D",
+              "text": "to clean the microphone",
+              "correct": false,
+              "explanation": "Cleaning is unrelated to the hum test.",
+              "misconception": "absurd limit"
+            }
+          ]
+        },
+        {
+          "stem": "State the dependent variable of this experiment.",
+          "misconceptionClass": "variable identification",
+          "kind": "recall",
+          "modelAnswer": "The dependent variable is the time period of the displayed wave.",
+          "keywords": [
+            "time",
+            "period",
+            "dependent"
+          ]
+        },
+        {
+          "stem": "State the equation used to convert the measured time period into frequency.",
+          "misconceptionClass": "definition recall",
+          "kind": "recall",
+          "modelAnswer": "Frequency = 1 divided by time period, f = 1/T.",
+          "keywords": [
+            "frequency",
+            "1",
+            "period"
+          ]
+        },
+        {
+          "stem": "Explain why several complete waves should be visible on the screen before a reading is taken.",
+          "misconceptionClass": "evaluation reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "With several complete cycles on screen the one chosen for measurement can be a clean, representative cycle, the scale can be checked for consistency across cycles, and a single clipped or distorted cycle cannot masquerade as a full period.",
+          "keywords": [
+            "complete",
+            "cycles",
+            "representative",
+            "check"
+          ]
+        },
+        {
+          "stem": "A fork’s trace spans 3 divisions for one cycle at a time base of 2 ms per division. Calculate the frequency of the fork.",
+          "misconceptionClass": "application transfer",
+          "kind": "application",
+          "modelAnswer": "T = 3 × 2 ms = 6 ms = 0.006 s, so f = 1 / 0.006 = about 167 Hz.",
+          "keywords": [
+            "6",
+            "0.006",
+            "167",
+            "f"
+          ]
+        }
+      ]
+    }
+  ],
+  "noteAssets": {
+    "glossary": [
+      {
+        "term": "tuning fork",
+        "definition": "A metal fork that vibrates at one fixed pure frequency when struck.",
+        "firstLesson": 1
+      },
+      {
+        "term": "division",
+        "definition": "One grid square on the oscilloscope screen, used with the time-base scale to count a cycle’s width.",
+        "firstLesson": 1
+      },
+      {
+        "term": "pure frequency",
+        "definition": "A sound made of a single frequency, with no mixture of overtones.",
+        "firstLesson": 1
+      }
+    ],
+    "workedExample": null
+  },
+  "figures": [
+    {
+      "id": "fig-01",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/620b63b88285-3-3-3-oscilloscopes-and-frequency-apparatus.png",
+      "alt": "Oscilloscopes and Frequency Apparatus, downloadable IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "A diagram of the oscilloscope and tuning fork set up",
+      "moduleIds": [
+        "L1"
+      ],
+      "binding": "heading-unique",
+      "caption": "Measuring the frequency of a sound wave using an oscilloscope"
+    },
+    {
+      "id": "fig-02",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/c142614b177e-3-3-3-oscilloscope-frequency-results-table.png",
+      "alt": "Oscilloscope & Frequency Results Table, downloadable IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "An example results table of the oscilloscope display",
+      "moduleIds": [
+        "L1"
+      ],
+      "binding": "heading-unique"
+    }
+  ]
+}

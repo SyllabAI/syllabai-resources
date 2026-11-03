@@ -1,0 +1,891 @@
+{
+  "stage": "PHYSICS-4PH1 wave-7 (B4 W7: 3-3 sound + 4-1 energy stores & transfers)",
+  "title": "INT-3 transform record — physics wave-7 (guided-lesson/0.6 -> hub/lesson-import/1.5 + sme-question-package/1.2), CUMULATIVE 63-row anchor table",
+  "generated_at_utc": "2026-11-03T15:09:45Z",
+  "operator_traces": {
+    "ignition": "1a1a1b6d5b658cb5",
+    "execution": "1a1a1b6d5b658cb5"
+  },
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "course_id": "igcse-physics-19",
+  "supersedes_int3": "records/INT-3-transform-record-physics-wave6.json (the 53-row v25 anchor table; rows 0..52 carried byte-equivalent here — every prior anchor re-proven on the wave-7 tree)",
+  "b6_manifest_continuity": {
+    "decision": "continue-global",
+    "selected": "manifest v26 supersedes v25"
+  },
+  "b4_partition_of_record": {
+    "law": "runbook §0 B4 — partition at wave open only; final wave takes the remainder; never re-bucket mid-programme",
+    "basis": "hub notes.json register rows (127) minus the stage-A pilot (B3) = 126 notes at freeze, section-aligned in register order; W1 (6 notes) landed at v19, W2 (9) at v21, W3 (7) at v22, W4 (8) at v23, W5 (9) at v24; 87 remain bucketed",
+    "buckets": {
+      "W1": {
+        "sections": [
+          "1-forces-and-motion/1-1-movement-and-position"
+        ],
+        "notes": null
+      },
+      "W2": {
+        "sections": [
+          "1-forces-and-motion/1-2-forces-movement-and-changing-shape"
+        ],
+        "notes": null
+      },
+      "W3": {
+        "sections": [
+          "1-forces-and-motion/1-3-momentum",
+          "1-forces-and-motion/1-4-moments"
+        ],
+        "notes": null
+      },
+      "W4": {
+        "sections": [
+          "2-electricity/2-1-current-potential-difference-and-resistance",
+          "2-electricity/2-2-components-in-series-and-parallel-circuits"
+        ],
+        "notes": null
+      },
+      "W5": {
+        "sections": [
+          "2-electricity/2-3-electrical-power-and-mains-electricity",
+          "2-electricity/2-4-static-electricity"
+        ],
+        "notes": null
+      },
+      "W6": {
+        "sections": [
+          "3-waves/3-1-waves-and-the-electromagnetic-spectrum",
+          "3-waves/3-2-reflection-and-refraction"
+        ],
+        "notes": 13
+      },
+      "W7": {
+        "sections": [
+          "3-waves/3-3-sound",
+          "4-energy-resources-and-energy-transfers/4-1-energy-stores-and-transfers"
+        ],
+        "notes": null
+      },
+      "W8": {
+        "sections": [
+          "4-energy-resources-and-energy-transfers/4-2-work-power-and-energy-resources",
+          "5-solids-liquids-and-gases/5-1-density-and-pressure"
+        ],
+        "notes": null
+      },
+      "W9": {
+        "sections": [
+          "5-solids-liquids-and-gases/5-2-changes-of-state",
+          "5-solids-liquids-and-gases/5-3-ideal-gases"
+        ],
+        "notes": null
+      },
+      "W10": {
+        "sections": [
+          "6-magnetism-and-electromagnetism/6-1-magnetism-and-electromagnetism",
+          "6-magnetism-and-electromagnetism/6-2-electromagnetic-induction"
+        ],
+        "notes": null
+      },
+      "W11": {
+        "sections": [
+          "7-radioactivity-and-particles/7-1-properties-of-radiation",
+          "7-radioactivity-and-particles/7-2-radioactivity-uses-and-dangers"
+        ],
+        "notes": null
+      },
+      "W12-final-remainder": {
+        "sections": [
+          "7-radioactivity-and-particles/7-3-fission-and-fusion",
+          "8-astrophysics/8-1-motion-in-the-universe",
+          "8-astrophysics/8-2-stellar-evolution",
+          "8-astrophysics/8-3-cosmology"
+        ],
+        "notes": null
+      }
+    },
+    "executed_this_wave": "W7 (3-3-1 core-practical-investigating-the-speed-of-sound; 3-3-2 sound--oscilloscopes; 3-3-3 core-practical-using-an-oscilloscope; 3-3-4 pitch--loudness; 4-1-1 energy-stores-and-transfers; 4-1-2 conservation-of-energy; 4-1-3 efficiency; 4-1-4 conduction-convection-and-radiation; 4-1-5 core-practical-investigating-thermal-energy; 4-1-6 reducing-energy-loss)"
+  },
+  "source_pin": {
+    "commitA": "8f834fff738f114f05e2078aedf5fdaad53b9ff7",
+    "namespace": "SME-GuidedLessons/integration/source-0.6/",
+    "files": [
+      "guided-lesson-rn_SCPfx5yXVvZQSpgw.json",
+      "guided-lesson-rn_mr7Dpsm3T3mCqmns.json",
+      "guided-lesson-rn_P8xWkdTw6SrvWYJx.json",
+      "guided-lesson-rn_kTvJN82ZMcTrCypr.json",
+      "guided-lesson-rn_7Mn6fNZ3mz6pYFkg.json",
+      "guided-lesson-rn_g66ndvxcyxsTpKPn.json",
+      "guided-lesson-rn_vctGRbxP4NVz34JT.json",
+      "guided-lesson-rn_kxdTzqwVgkFBYVC3.json",
+      "guided-lesson-rn_6wZc5RHQn4qftvc8.json",
+      "guided-lesson-rn_mf22KJj8JXw3DRHn.json"
+    ]
+  },
+  "registry_pin": {
+    "file": "apps/hub/content/igcse-physics-19/notes.json",
+    "rows": "127",
+    "wave7_rows": "53..62 (register order)"
+  },
+  "source_06_generation_pin": "8f834fff738f114f05e2078aedf5fdaad53b9ff7",
+  "conservation_law": {
+    "law": "adapter spec 0.6 §7 walk (byte-identical to run_import.mjs targetTokens): specAnchors -> primer -> modules (title/headings/specRefs/opening/keyPoints/depthLayers) -> glossary -> workedExample -> questions (stem/class/options + modelAnswer/keywords on written kinds); per-note sha256 of the \"\\n\"-joined stream",
+    "wave_subtotals": {
+      "wave-0": "42dea4b02c94947735ee0900ee1d433b4cbad1006edd1fb3104af7b5073dc2f4",
+      "wave-1": "92f368945a8375418cb4bfd7487e91e8a9652d15c1b89a71ef1731ba4dd47e8c",
+      "wave-2": "86911ed8c7e75e859b0e587946e0d97688c5db5e744e688ec2a89bfa36391528",
+      "wave-3": "ba1b1d218dfe7b230782d100262cd4da9115b6bfd490ba920504d84d342535f6",
+      "wave-4": "6601709adae40f109f6d02da9a5c619b14caa77c322e2a83ed86565f425add37",
+      "wave-5": "463d40676629f89368a72ab127d00f58395fef725a031af7c705836b33dc8a7e",
+      "wave-6": "b235f7ba96ade6b41998f8763df4824a5132d1c960dc6f3244248ceea4bdf207",
+      "wave-7": "333638f4a08dde16a66105ef81c45ff8eeb7ca75df2f4a8215fd693015454fe1"
+    }
+  },
+  "grand_stream": {
+    "chars": 715840,
+    "sha256": "af7da83abe4d41fae036b593eb7ffed204677e180c4c80c1e6f8aac272a3f73e"
+  },
+  "wave_stream_sha256": {
+    "wave-0": "42dea4b02c94947735ee0900ee1d433b4cbad1006edd1fb3104af7b5073dc2f4",
+    "wave-1": "92f368945a8375418cb4bfd7487e91e8a9652d15c1b89a71ef1731ba4dd47e8c",
+    "wave-2": "86911ed8c7e75e859b0e587946e0d97688c5db5e744e688ec2a89bfa36391528",
+    "wave-3": "ba1b1d218dfe7b230782d100262cd4da9115b6bfd490ba920504d84d342535f6",
+    "wave-4": "6601709adae40f109f6d02da9a5c619b14caa77c322e2a83ed86565f425add37",
+    "wave-5": "463d40676629f89368a72ab127d00f58395fef725a031af7c705836b33dc8a7e",
+    "wave-6": "b235f7ba96ade6b41998f8763df4824a5132d1c960dc6f3244248ceea4bdf207",
+    "wave-7": "333638f4a08dde16a66105ef81c45ff8eeb7ca75df2f4a8215fd693015454fe1"
+  },
+  "battery": {
+    "names": [
+      "P0",
+      "A0",
+      "AN",
+      "JC",
+      "SG",
+      "KW",
+      "2.1B",
+      "NUM",
+      "C-6",
+      "written",
+      "C-5",
+      "B2",
+      "G-E"
+    ],
+    "a0": "ajv x10 sources vs guided-lesson.0.6 + kind order x22 + B2 sizing + spec text provenance (curriculum graph verbatim) + figure closure both ways + corpus image coverage x34 + glossary band + primer band",
+    "an": "exactly-one-correct x110; correct-key census >=3 distinct per note; distinct option texts; four options",
+    "sg": "lesson specRefs subset of file specPoints; every check KP-anchored (content-token overlap)",
+    "kw": ">=3 grounded keywords per written item x88",
+    "jc": "every option explained; distractors name misconceptions; correct-option misconception null",
+    "2.1b": "zero 8-gram overlaps of learner-surface text vs the corpus note body x10",
+    "num": "declared arithmetic ledgers (oscilloscope 250 Hz/167 Hz, speed of sound 340 m/s, octaves, efficiency 72%/70%/24%/30%, hearing-range sorts, trampoline decay, cooling deltas)",
+    "c6": "chemistry union ajv x336 (112 sources vs 0.6 + 112 lessons vs 1.5 + 112 packages vs 1.2) + wave-7 outputs x20",
+    "c5": "checkRefs <-> questions bidirectional 1:1 in order x10",
+    "b2": "9 checkRefs per module x22; identity arithmetic 9 = 5+2+1+1 x22",
+    "ge": "per-note stream anchors x63 (53 legacy byte-equivalent + 10 new) + wave subtotals x8 (waves 0..7) + grand stream single-finalization"
+  },
+  "physics_census": {
+    "notes_total": 63,
+    "lessons_total": 127,
+    "checks_total": 1143,
+    "wave7_lessons": 22,
+    "wave7_checks": 198,
+    "wave7_figures": 34,
+    "wave7_notes": 10,
+    "corpus_images_bound": 34,
+    "worked_examples_populated_wave7": 1,
+    "worked_examples_null_wave7": 9
+  },
+  "notes": [
+    {
+      "noteId": "rn_RpyMnS5nqWSRWXXG",
+      "wave": 0,
+      "sourceLayerSha256": "dcd79fe8b60f1708179c57fd71e03717f25ba6d212b16388edf16fa8fdc3ed42",
+      "hubSha256": "4be97f7c9763ff88d74805982bb38cad6a517e6eb564f15e1968445fbb56584b",
+      "pkgSha256": "11c39840eeb3ab694d9cddec36171e2c18f8b209cfebb94ebf4e29ae2992ee85",
+      "stream": {
+        "sha256": "42dea4b02c94947735ee0900ee1d433b4cbad1006edd1fb3104af7b5073dc2f4",
+        "chars": 13924
+      }
+    },
+    {
+      "noteId": "rn_k9wr3prcgSBg5vfw",
+      "wave": 1,
+      "sourceLayerSha256": "64d6daaa99454e62c7c96ae084a59ca49eab487c4a92e9b6acef53129185deae",
+      "hubSha256": "d3a4abea468b3f914c4230e8d4f43b487eeab895e2c761031fa048f4dcba4d2d",
+      "pkgSha256": "0f36d5976dced31c9510ae94642a61a14e687523d6b6db920df9b44d337f253f",
+      "stream": {
+        "sha256": "008f6ba0e4fef381722e325a4baf1f7979aae5e529ee7095f53d51a967f2cf10",
+        "chars": 14664
+      }
+    },
+    {
+      "noteId": "rn_pfndTqR6DTJGZ8xQ",
+      "wave": 1,
+      "sourceLayerSha256": "85e8d3d1fb828e52ba2011846d42826beb9e23a4db202058060075dca2da0e5f",
+      "hubSha256": "ddeac6cec1f75f90580b83b1902d38d821804b135eaabe95e03e5023f97246fc",
+      "pkgSha256": "c9fc3e3825d95620e43cd19a912c2a574348fca68fe03fb81cb500474cf89813",
+      "stream": {
+        "sha256": "f6c714df8a6b0f2fc36141385e83d04bd6ca442a15604b596091482deba5e784",
+        "chars": 14442
+      }
+    },
+    {
+      "noteId": "rn_CpJZQWzbvMcM8fw3",
+      "wave": 1,
+      "sourceLayerSha256": "ce35a1614d44eaff618819ca3ed4d17d5774d22323caa574e6d94855c3196ef3",
+      "hubSha256": "1c4f9bc552fcdb0539296002b478aaa65623dccc7ab9fc0af287ac49cd3267fd",
+      "pkgSha256": "79f7c868770976632231243d0676467cc1cd50963bbb6218bb6393efb336811f",
+      "stream": {
+        "sha256": "8622909b8919c05ecbd810d3c195fa1d6664a2bc5395d99bf44d5910c638e42c",
+        "chars": 13764
+      }
+    },
+    {
+      "noteId": "rn_5hfYYFrc2XjMJCrq",
+      "wave": 1,
+      "sourceLayerSha256": "34c83f3935d3dda40ec50b503508498b518ce0d83212a26527ee9bce73bf8347",
+      "hubSha256": "60d8b44384d4f865214874581d025930f99be0d1bd02447bdc27618b74c8f051",
+      "pkgSha256": "85f000ad21c83f7a56265afcf258c1cb3a74c35ba458cb16a2c75ee8d043d57e",
+      "stream": {
+        "sha256": "1f730d9553534f3fa1b38bf5c301038eb85253c6c98240e408977fd387e930c8",
+        "chars": 14791
+      }
+    },
+    {
+      "noteId": "rn_GxNWbSMqkTN4zgZB",
+      "wave": 1,
+      "sourceLayerSha256": "39cadbeba8a9cca142b4e0db4e445f20477c855e30b5eec799070bf8a5129a84",
+      "hubSha256": "574a6cb53b8125e3696968e5281f9bb7fe6bca6222b1a7ef7ab46a78fb851f29",
+      "pkgSha256": "c1b26dde13620779470eeac4f85f9e4f53b1f42d5357a276610b86054156d319",
+      "stream": {
+        "sha256": "a723060ae0138646dffab3fca804a0a163d14b511fdc217b2f4bbccc16554861",
+        "chars": 13922
+      }
+    },
+    {
+      "noteId": "rn_ZgGMNrRGBKvYxxFf",
+      "wave": 1,
+      "sourceLayerSha256": "51556a88a18e61723ff93837ccefedde9c825f326e36d156f9c2e3cf445cb935",
+      "hubSha256": "891fc481b5c64cc85f948009f5efd67b9a0478e16857b0bdbdca64cb82c66dbc",
+      "pkgSha256": "fb8874d146d8189909db2c69be725a783efef04fa0a4ade983162daf635ea1f4",
+      "stream": {
+        "sha256": "9c1bbda1537af828f9c228351c4cb9ab76964ce33aa3409ffda0baf62df3768e",
+        "chars": 14278
+      }
+    },
+    {
+      "noteId": "rn_nyV7C6zmyKXWJjKg",
+      "wave": 2,
+      "sourceLayerSha256": "190d7edae6f11eb8ced78ef199f2eb93e1cea425f947191ec139accc033a98ee",
+      "hubSha256": "f9fe939274b8e8aea7cf372cd538b014b7a6ee6ed634d796fc9523685b15b472",
+      "pkgSha256": "bded73732cbdd7a014bc8db35cb29f21cfb5133e03c80ed8501d9eef30aaa460",
+      "stream": {
+        "sha256": "ae8f0ea1bbf52e3719c6a53d98fc5182fddfc44f08e03d9099a3c368e780f865",
+        "chars": 13092
+      }
+    },
+    {
+      "noteId": "rn_4zdmGRWTg5ksK44N",
+      "wave": 2,
+      "sourceLayerSha256": "7117dd9cd06c0bb92099e016064763d9538fc51f43c5ec3a8cc05dad11d2639a",
+      "hubSha256": "da2559a5a51ac55e932c85dc8cdc79633fb566e5c4aad4681a69a434984c3d2e",
+      "pkgSha256": "a413e9872f5fd7541bf733192783e8ccb9b9b6ebf9fd53586779fbd8d1659bac",
+      "stream": {
+        "sha256": "f561722339e992af18e891858d25c6a0eaacefc51b086440fd68276ea496d15f",
+        "chars": 12215
+      }
+    },
+    {
+      "noteId": "rn_K3p2R3ykwwvHV9dp",
+      "wave": 2,
+      "sourceLayerSha256": "cbc8bcd2d0418428cef5c3e8bbb807c664f249a0d794f226cfe3c3d9e2814583",
+      "hubSha256": "610918ca5e26f027b31912a4ec3e6e794f204154a85f30f591f8dd6651232807",
+      "pkgSha256": "fd682309853590582799e3aa19864a60a4f342975cc8444c204c45bf1bc0395d",
+      "stream": {
+        "sha256": "1529173b48c156782abd3820f1ba7a3c42da880724b29c33641fed7db602350e",
+        "chars": 11081
+      }
+    },
+    {
+      "noteId": "rn_gDy2qTkY26r5sMtd",
+      "wave": 2,
+      "sourceLayerSha256": "2520c479b5d10ab5b41368b3bd9b79402e55aeb5e0241d64abbc9a3e730ba342",
+      "hubSha256": "5eec5ed1da5b6fbd6025abd53e155d181423dd8d8eaf240cf67ab8e61343ef8f",
+      "pkgSha256": "2c94ef7f7b56360f3ea48701264aced90cc51c642d702cb6b8ed8994280712f4",
+      "stream": {
+        "sha256": "670c6a74640119300e7d822f1a79061422c9e3a86a1e4e121499cbaab9d4b2fa",
+        "chars": 10046
+      }
+    },
+    {
+      "noteId": "rn_2R3NrjGfJJY29Hzv",
+      "wave": 2,
+      "sourceLayerSha256": "5907a0545a77945df54c9a4fcbcc42c5b21bf23d1dcf4f1b4a0841781fa496fe",
+      "hubSha256": "a24f5d6287edc5a825f5aaf0ad0ba8a25763bb7c173cf66055f76c3b3e9b5e0f",
+      "pkgSha256": "8743c248b6035b208e9d61f2ab0b85c39affea0aa4b43e88feca5226bfb54075",
+      "stream": {
+        "sha256": "810021ab11ac11cdf195bfab04055ed9f4dfc4b7d7732404879434146adc38f0",
+        "chars": 9605
+      }
+    },
+    {
+      "noteId": "rn_ZCGJsYwy6S6FbbbW",
+      "wave": 2,
+      "sourceLayerSha256": "8f10cad43aa7f44741a70ebe5c03ef41a35c1340a2db2513b83b9ccdc0d13ed5",
+      "hubSha256": "6ea281f9f81b9befa3c5e00dce06fe503d89dfae018873759a5c1a6142599ab7",
+      "pkgSha256": "e4faf017c52d8293123b80595a233fbdcb3874eeb51f3835a1519737e7d130ce",
+      "stream": {
+        "sha256": "af8e349a88c479c9a7f9383b8b81995639be9144c20c5764f83680c97f874ca6",
+        "chars": 10308
+      }
+    },
+    {
+      "noteId": "rn_Mrfn29ZgQMq8th5P",
+      "wave": 2,
+      "sourceLayerSha256": "f55c0a87a2974834eed740ba93b54da4901d024ef12e31b90200b6f71209cbfc",
+      "hubSha256": "f2d301fb4d3a133d4fcac34ce524343eae19f0f4a25ea29df3aa54d466fe29bb",
+      "pkgSha256": "ea1e16e3d7b61988d09509ee35f36f9e211c58d7555ee45ad87d239cc97d4832",
+      "stream": {
+        "sha256": "e30896b535e9a5d9b8743a4b3d6d91034d49881858431cf936adbf64395c7986",
+        "chars": 10775
+      }
+    },
+    {
+      "noteId": "rn_kN63sqWsc9QdHSVx",
+      "wave": 2,
+      "sourceLayerSha256": "3fc7540a30d2dfbf0997c9732c3655eeef0c6c9e14155dfc7f160c097b9cd5da",
+      "hubSha256": "fa7830722204b7e2d37efacc5ded59ccd1e48e4a7ea3e390248608475ff6fed1",
+      "pkgSha256": "39977967eeef5f770faaa05e016e563b2bd5abadce923cc765dd50ed57d6eab1",
+      "stream": {
+        "sha256": "9eabc991d80a8436921f84b220822b10eadea989c2b406876795fd743ad3960d",
+        "chars": 9774
+      }
+    },
+    {
+      "noteId": "rn_nC3BswtJzYw8k6nX",
+      "wave": 2,
+      "sourceLayerSha256": "a457dde93c781d8757c83c068a96921d3998c1ad9c8fa9cc283000eda2823422",
+      "hubSha256": "b814dd538fab9024f936b9aba14d0e6355ffd5412478b089f2684c60eff0872d",
+      "pkgSha256": "7fcf99734c51f9f02407b691c434f10e93e97029e17a23320ff5bfe9a08a9818",
+      "stream": {
+        "sha256": "7646dd723d25cd67fd713242dc6d54af68fc1b612c85e170f1e4945deb3ec01d",
+        "chars": 9797
+      }
+    },
+    {
+      "noteId": "rn_pqp4mfpHzGVtrjTT",
+      "wave": 3,
+      "sourceLayerSha256": "d92ab2de63bf2a4740299f9e4d0a51b7b901e60be4f167fb3115cc8b4209c18e",
+      "hubSha256": "17faccfc8db1d835155c9866e6cd07d6f15e6541824800bb23edb7f6ab1c5abd",
+      "pkgSha256": "c07ad8885f85f89df238eabead80d4c7a26a6426c6c54cb2991fd54ac9ca5694",
+      "stream": {
+        "sha256": "c6cd3d7d707c77238d0572028651d50d0eaf0645327abc7d4cfd4f7211b6a80d",
+        "chars": 12911
+      }
+    },
+    {
+      "noteId": "rn_NfCjFmPfmMQ8pQSw",
+      "wave": 3,
+      "sourceLayerSha256": "963ee6adaac60f2cf676a14ae1de69308de2dfbd6182e98ab4e99fad818d40bd",
+      "hubSha256": "ad3e515e2d0f1ad4a764a3b52f25b29a7e8672efd3d24c8245c1f1f3caf36e2c",
+      "pkgSha256": "af2b84147cf8bca4ddc1a985088fd103e46f38baadcc4c056b35db9cd409a9c9",
+      "stream": {
+        "sha256": "2358e8555654c11c64237ee7901635bfbb76bd850503a9cefcec641579172a6c",
+        "chars": 12583
+      }
+    },
+    {
+      "noteId": "rn_8wqvPtsCCh3gdJN5",
+      "wave": 3,
+      "sourceLayerSha256": "be5753c2919212ec2761ea9cc3fbe4fec64b00cae6133ae0deadd07615df1d28",
+      "hubSha256": "4611a5aee55850cd1154002aeab9eb81cf3ffa674e012024dee98a9ea745e7d3",
+      "pkgSha256": "77fa5bc3b0bf4764ec615a9b39cff1e81c646914583189d2fcc95d0dfbca1881",
+      "stream": {
+        "sha256": "1e03e68206180d12c40dd041978d29fbba51df9825d8ef6845dfb3aee03e522e",
+        "chars": 18281
+      }
+    },
+    {
+      "noteId": "rn_RQK2MW3zRPNNzwtc",
+      "wave": 3,
+      "sourceLayerSha256": "ccdb1c682ea7f661c30f8e676588781c54ab9b0101208491d65b325aa9190a5d",
+      "hubSha256": "ad8e4b04332e806f606942a52f7bd3fd8a97f2b0e7d7545301cbd126d5989791",
+      "pkgSha256": "d6f5194d7aabe3e9d5ab2ef899fa20edaea0642f0978aa9b0b0d8f7f91bdc2aa",
+      "stream": {
+        "sha256": "95cfe4ffcd305621bf9aca2de12e856cb3aa89bbbe08ab9690f9e851a234e34b",
+        "chars": 12952
+      }
+    },
+    {
+      "noteId": "rn_jzQZQcPRQkJvdYwJ",
+      "wave": 3,
+      "sourceLayerSha256": "cfee3c32d9d2a96ae4b7e3feed31997716c92c5cb726d666ec860fb8c6a05590",
+      "hubSha256": "c1b97cb4c5a87c1968bc0ea56aea37466fb6328eb30d6beab03cb90e85e8127e",
+      "pkgSha256": "92d61ab3083a441c29e9455c497f72d8fef45b310e3ffa59136ddd9605f259cb",
+      "stream": {
+        "sha256": "16cf00395b2f520449c27a4d84a5aeb6d23cc16ef02186bde86a3cb56db59d7c",
+        "chars": 11510
+      }
+    },
+    {
+      "noteId": "rn_zn4NVCRcTSNv8sRZ",
+      "wave": 3,
+      "sourceLayerSha256": "6a304ffb877592b9c2277a9a66f0fa3aacfd042fc6647f6fa2d58be7d258fd57",
+      "hubSha256": "d44d080e5a8abce1f160e17b789b099846751e9938a90b8c15e9146a18d363e0",
+      "pkgSha256": "05b71896a87f36dda4897c6fd8d965d0d850a30ca86f4f1a932818221e2d4002",
+      "stream": {
+        "sha256": "f464bb5b08299bc0861bd32a845e672f4cc0f179ebd4203b15cd1bae26b2f4f3",
+        "chars": 13485
+      }
+    },
+    {
+      "noteId": "rn_TPDdhwDYsrWgQB7R",
+      "wave": 3,
+      "sourceLayerSha256": "1d674627077b7e722642842d23e7b7e4de73864e22dd52d95c5276be71355af6",
+      "hubSha256": "864a4066283e696147baf44b42609cd0ce27f784ab4e7aba64d35ec634fcfe18",
+      "pkgSha256": "ad490f98c3d1a9bafe98acb343dce52aa9cea7a611ac0cffc7f70f53ad7e33f9",
+      "stream": {
+        "sha256": "cc91505d3d092cb3a95e52433db25e5c97a9db1b25bb9460be9d502eda7607ea",
+        "chars": 6450
+      }
+    },
+    {
+      "noteId": "rn_NZ5D2Mx9SXQY98wy",
+      "wave": 4,
+      "sourceLayerSha256": "8ac25b12101d0e98bafbf82cc0e650a4286033eb0f165f8317618a0f7f66937a",
+      "hubSha256": "de4f03004f6db2f402c631d2cc03199aebe6ed4b862d6145ef6b3118d56c2802",
+      "pkgSha256": "024d3ef29d7c20031be62e41def43ee88b4f5f4d29dec848a535060742d34cdc",
+      "stream": {
+        "sha256": "b7da25c1e399ace074af183e24fc0b92212edb239448cb63e0423adf33ae702f",
+        "chars": 10929
+      }
+    },
+    {
+      "noteId": "rn_BcxDP3RzXk3k7rwf",
+      "wave": 4,
+      "sourceLayerSha256": "51f0869980db8ebba20ff5dc9cdcf6254fc6b8708eb0c36846761632175bf37e",
+      "hubSha256": "b9cdfb84c6cd28e9f8894deff66fbdcc611b921b3a8051aa41c4c008ed604ca4",
+      "pkgSha256": "f03b8abb5c952aca89c918469d327d508f11e100f8ef13b62387a71d34a6c9d2",
+      "stream": {
+        "sha256": "cdbd4ac42c55fcb3d0d92a422898571b59257138b78fd72bd504d3181382c801",
+        "chars": 10208
+      }
+    },
+    {
+      "noteId": "rn_64pQyK4tm9P9rdKN",
+      "wave": 4,
+      "sourceLayerSha256": "c4f3c5b374e71882c10cc662342d4f91bd098df14a3b6154280d4128cf8152c7",
+      "hubSha256": "582d2539ec751924c6a3ceb96af500ec88a4122326dff1ca42910116906d1045",
+      "pkgSha256": "0c73caf207d6268889ada207baddbf197a215a89ba84680f784ee724353eb0dd",
+      "stream": {
+        "sha256": "f5dd2e5d8b42fd256f01ccddca342fb693105c635a5a3f5c5310618e80a78bf9",
+        "chars": 5586
+      }
+    },
+    {
+      "noteId": "rn_BFQBSmVz2xFZVsB6",
+      "wave": 4,
+      "sourceLayerSha256": "76e3dc8434a611e575853a10b2a817af8a50ae1f27f5cf6ecbe4fdeaa5d1c28d",
+      "hubSha256": "f59af93de07bd32c293d719d053fc4af0aa3cee052636c1c8114406c8436e409",
+      "pkgSha256": "677642a3948b8f2cebbac21d20735a33e5166182d3fb0448c658828ed98489ff",
+      "stream": {
+        "sha256": "a3b4f55569610fe832c751e4746361ac9ee7e1f6448231fd5045c9e03dba3676",
+        "chars": 11483
+      }
+    },
+    {
+      "noteId": "rn_ynsstfBQngnx2pgq",
+      "wave": 4,
+      "sourceLayerSha256": "15a4fb4ae1b52d20c392baccc564a81c592506cd02cce1f6b001513b0c864ea8",
+      "hubSha256": "508326ac2774b4d79bdac3ed7a694f8199175b73b871d0fe4fc3715ee00f370f",
+      "pkgSha256": "bbb14f817d273fa88fa28218c65c3a5f3b05f66f87c8a77d22e39eb94686d92b",
+      "stream": {
+        "sha256": "59183c8855fe50e29a5a3b8621a3374aef4b59c140a0a593d55c26699dab7796",
+        "chars": 10792
+      }
+    },
+    {
+      "noteId": "rn_PyxMmTd6S9pMDTt6",
+      "wave": 4,
+      "sourceLayerSha256": "d15226a24f3ecbb60576f759988aacdcfef80931ddfa35d8a8207ac95e999413",
+      "hubSha256": "dd58abf1d20d40315e888d347cdea914b4b9d35c2f9b7bceae475975aab8021a",
+      "pkgSha256": "4212a563b682768c39b5673c911d74c5ef79277d5b04029ca3c7a60ae89652b8",
+      "stream": {
+        "sha256": "6faa39227cda4ffecd70303fa128af026bfe35a011af941fe34182c9c942f821",
+        "chars": 10533
+      }
+    },
+    {
+      "noteId": "rn_WzQZfyNNFFFFghbF",
+      "wave": 4,
+      "sourceLayerSha256": "8c0c55647d3a22e189d77f2a9986991f75b3ccc0437435535cdd514fc9c40132",
+      "hubSha256": "c74e7faccb1131139dc5149363f651eb7955f5bbe9a419c8b1cf930d9ba5b828",
+      "pkgSha256": "685737a38fa5bf49431a9b9b1c7ced74c68476c78178dc10cefb1ff1b0ed7d64",
+      "stream": {
+        "sha256": "836d26b4b4a59bf4814badbff1a4086b1f432de3221b7761f1d73fc5ec2ec5ef",
+        "chars": 16087
+      }
+    },
+    {
+      "noteId": "rn_gYqbXsJPfrqtg5yQ",
+      "wave": 4,
+      "sourceLayerSha256": "1f9a8fb76b5aa8f882c7337a9d462084b59c91f6de723a518dcbd5efa2353356",
+      "hubSha256": "cfc97b21cc1726235522883f9ad122723d4dbde5b0475621a18c7c05f636e27b",
+      "pkgSha256": "cf8ddc2bb2a9d3a365c28edd46ed203b7f82ce44e3ed585ffe3d00f561a42922",
+      "stream": {
+        "sha256": "21a5bec0ca67569f1d8bbb77d53d46f6dafa929008c06b6a39d188a2702457a7",
+        "chars": 9686
+      }
+    },
+    {
+      "noteId": "rn_PZZFkywYbmP9bwyh",
+      "wave": 5,
+      "sourceLayerSha256": "13856f0774d8a83250592907afa742e87b76b346cbe588875a357033279ccf9d",
+      "hubSha256": "73eb5d1a107f765e10e9e5ad4634a44ec2ba52edebc2139a95dfa9e92b946aef",
+      "pkgSha256": "08a876d11b76da02dfcb329fa2fa7b75909d9b8535e46a473fe355069d389526",
+      "stream": {
+        "sha256": "3c2109af70aaf35350733d7be7131ad2e951db5b7985434b4dc00fcd504eb79b",
+        "chars": 10169
+      }
+    },
+    {
+      "noteId": "rn_FfvmFrDdhSsMk9rm",
+      "wave": 5,
+      "sourceLayerSha256": "5e492b92c8e65bd80d6d71ebdde660e589000d50f9e7568e896b45ae9fb8983b",
+      "hubSha256": "f1327bc1678970f1289e7bac217040f244fa723c7ff1365737126302ab2b9b88",
+      "pkgSha256": "1603de9f8d0679853b6b88cabcbb5ed84f7d09d5caaa74e4221084eb9a25ad2d",
+      "stream": {
+        "sha256": "a4820bb8669cf5511403a7ae88d76acecfe8e17131eeab6350cfe251513cbfd5",
+        "chars": 5392
+      }
+    },
+    {
+      "noteId": "rn_kxw7Ms4Pr7dQJykY",
+      "wave": 5,
+      "sourceLayerSha256": "693e0994d983fc81a0a6c6682dec35fe841b30322e4749d26c4f7e8eb09b3f55",
+      "hubSha256": "b8bd18cd8f715fe5b5ab255c84f22cba8c320444583de56feda9b829681a238b",
+      "pkgSha256": "33c2650974f072b0da2d9c2fd1da34f9d11316a882237023ff4bdf6d78000caa",
+      "stream": {
+        "sha256": "c3ec80ecc7454caf66ba2f2a7393848d4b8efbac4137863e5d21ca25aa04f975",
+        "chars": 13748
+      }
+    },
+    {
+      "noteId": "rn_z4nNPFw97V9fDkyS",
+      "wave": 5,
+      "sourceLayerSha256": "8751655c8601cff0070e99239623a314df25c9e370ff583df827bbf172712840",
+      "hubSha256": "a9c83127d7f1cb7f8041a0d27ce34fd4d0a35359254da484a86dae1d702a9423",
+      "pkgSha256": "f5a1d1d2251f9692d8e7174ac81e787192ad819f29b31a4056466155783fb180",
+      "stream": {
+        "sha256": "0c397c02c751aa197a96d9b404c02e97c5fd879ef81713d73bc09807b073f414",
+        "chars": 5200
+      }
+    },
+    {
+      "noteId": "rn_NgxJhPpm5Zs7kFSz",
+      "wave": 5,
+      "sourceLayerSha256": "8f680af9bad64803ce9ecf761a6aa96dd4d646befbe04a7b8746018a2429da28",
+      "hubSha256": "ec001a6954e296eb9ed47b04b3ce36796a90c1a74eaf98af41076cb5a035144c",
+      "pkgSha256": "296632b77f906bfa064a9502ee31e0dd5eef5c4f4cee240594ae494ea91630cd",
+      "stream": {
+        "sha256": "26b3fa80f9fa6dd81fe13ebc2eaed2db5f70880e9c8d2871213f6a2436585cd4",
+        "chars": 8174
+      }
+    },
+    {
+      "noteId": "rn_qG9dxcQrRJJVDQf7",
+      "wave": 5,
+      "sourceLayerSha256": "e16719e4e67d43cd03619d2918e1981328193933ee7ccd91e1d6116a79210228",
+      "hubSha256": "cdbb15bae9cbcf33b7ca3423eba91a680b92b99bd9f21cf8cf7ec89b24c77584",
+      "pkgSha256": "3b8aad6473f885661543c21c3a49edcc64f6c2e7eaf50b025966431fe8962750",
+      "stream": {
+        "sha256": "a44c276e4d2ac3db171720287e3c7fa804c556062cf59f32c8bd129132366b05",
+        "chars": 8881
+      }
+    },
+    {
+      "noteId": "rn_ws8NtMW3QwCs73Gh",
+      "wave": 5,
+      "sourceLayerSha256": "c48dac58035ac121615e3d6eac4f345b45afc20a504ea345d5f707e75b74271f",
+      "hubSha256": "ded309e4d696b648fa86b19d4991e1e1ac1d21ee3211cf22f3445b689fdeb485",
+      "pkgSha256": "368a253e4d570bf4345333c72914253eddb45d44431e4fb526cf5827e86dafdc",
+      "stream": {
+        "sha256": "1bb66c0f4acc135edc4e912a57759cac98bfc0e66f21037c49ac6fddd4a87e7c",
+        "chars": 9581
+      }
+    },
+    {
+      "noteId": "rn_NhRw6hdrVD4vmNJw",
+      "wave": 5,
+      "sourceLayerSha256": "89b9bfd3e153cdf6ee7edd452c13fb74785055d784aa66ddeaf2ce75a5319411",
+      "hubSha256": "e93eb509fb08c08cff769142552e0de6639117e2b90f5a6901e25e741848eaf3",
+      "pkgSha256": "f65f90a2e87f86069b0ff39c699bcb5d714963a3c37d44f7cdbee1f17f5558d7",
+      "stream": {
+        "sha256": "0060d84d44c191f519d5bee99b0f23d0ddacd3de1ba38b8109dacf53868f3f12",
+        "chars": 13238
+      }
+    },
+    {
+      "noteId": "rn_W3QnDKVK9mMQ3Mhg",
+      "wave": 5,
+      "sourceLayerSha256": "91590d9a0da550b6f48402509041d3a5d99107c868b5ad8ed2ccaacf8db1a00a",
+      "hubSha256": "5ee1bfb538a84857b5a2b312337dbc7ab5eb0a5029786906a479f8a50479af2d",
+      "pkgSha256": "7e6eab8605ab72ee53383e25d98cf51be3d22490dca8cd16a4497c227fc95459",
+      "stream": {
+        "sha256": "548e6808f291c7b4ab952cbb33f5cdb3db2ae958f6ea64bbf4848ccb2365540a",
+        "chars": 9326
+      }
+    },
+    {
+      "noteId": "rn_HKZzkTMztGJvqXCd",
+      "wave": 6,
+      "sourceLayerSha256": "56f00c9677c65de3b05c8e619402265e9bfa624377724f2eedf5784e1a3be181",
+      "hubSha256": "cfa88ab65fc836f2dcd857764bc935fc7f0550a97cdd6d42900902eb3f3e6955",
+      "pkgSha256": "aba0283d69323501f7de2ecf28e00101a8757f6d8aadd57b40c5e724d15bc287",
+      "stream": {
+        "sha256": "be3b48e609bf97cd68e56a5bae8622c638943c671e055669a93b0007a7e1b802",
+        "chars": 17465
+      }
+    },
+    {
+      "noteId": "rn_TPSJT83Gh8nMCcVV",
+      "wave": 6,
+      "sourceLayerSha256": "38111481a5067b59d77b49ae8f9317b10ba45292c92ae4336ead16f77c4f2f8f",
+      "hubSha256": "2e852a138a6373a57fba79dc3fc5cb0cce6a2b810aeb5694b0d433e2c73fda65",
+      "pkgSha256": "68c1f1ee489fd342ef6cb6d6236a8cb179e778afe521e2ff6a6a42c96b5ad001",
+      "stream": {
+        "sha256": "3e6f0451486c7aff5f1d3c34f6067914369386ca2d5ef3848024a6e83cfd4d9e",
+        "chars": 14874
+      }
+    },
+    {
+      "noteId": "rn_hkV9ncw6zTQqrbN5",
+      "wave": 6,
+      "sourceLayerSha256": "097e71cfa17c0d05db915a3a8e49b488a3081f08444f6a4d7a5df4ec70abe4bf",
+      "hubSha256": "4772c691578c227206c2d46bcfcb50bfafe5f47804f4d0300ce9fcd7c56a8b8c",
+      "pkgSha256": "3acf1481d8f223f793ba879fc1ce9c244ecf465a4412f3ac430f4d78fdfb9b75",
+      "stream": {
+        "sha256": "4b320ca029be3a2bc764c1dc892c169706217217927a3f0d4ca0073a9bbf8bc6",
+        "chars": 13436
+      }
+    },
+    {
+      "noteId": "rn_ctTgFb5NSQTSQVSP",
+      "wave": 6,
+      "sourceLayerSha256": "3a22ec30400d6f0fa58eed3b15d39d3f5b6b4ed9ecfaa6f69ebc8d38cca61e54",
+      "hubSha256": "c4efe12bd80485372af65854673bf77d12d310bff43393b3d69c012d6139de79",
+      "pkgSha256": "f0e9737f20cad715fec70927c4fcd31b24354edb07df501583e3c617c4a190c9",
+      "stream": {
+        "sha256": "8b8ec8c8976bcf54c039b9c92ddbd62d87bd13a5ed5f21cfdc119e6ce2542ab9",
+        "chars": 6430
+      }
+    },
+    {
+      "noteId": "rn_GVDsPK5gmYw5wqvG",
+      "wave": 6,
+      "sourceLayerSha256": "386100404b6ba709ab4a81fac77cf511d7bd65c617652b0a84ca1f995bdfc855",
+      "hubSha256": "36467d07adede14344f759c7e6f11263d845d98fe39751f0d0007d6501f1fe3a",
+      "pkgSha256": "591594c180c5273cbf6963ebd3ea3d708c946068535aded8d0b0b724352c4669",
+      "stream": {
+        "sha256": "7a739635b93888c6b74c9e96bb6cef42d62f6f73e6f8205db41d0e7598f53c1b",
+        "chars": 11055
+      }
+    },
+    {
+      "noteId": "rn_8K4rhNpfVqrR8pHF",
+      "wave": 6,
+      "sourceLayerSha256": "98dccb92b6e2144a94207277b0c1b9302107e4afb33ab32a689bad10b51dbce7",
+      "hubSha256": "3cfa214105c4fbb9abfe00921cefa4f099ab5f1dfd2894a1f7d13c2c8e928272",
+      "pkgSha256": "efab091a3588af52613811d9acaabf104541b6fb093dfbe57f3b4ed210e4a5cd",
+      "stream": {
+        "sha256": "eddd42f18b0d58aeac6c7997d1775f5dc0c7ff12b5826f8e85f83e2c1c8ac76b",
+        "chars": 5288
+      }
+    },
+    {
+      "noteId": "rn_dx62W8M2b3RpDWjM",
+      "wave": 6,
+      "sourceLayerSha256": "c6b1bb85a7dce8691c47d6df57d70b0727c7819669bc6eaacc16ce9e40ef8f54",
+      "hubSha256": "ef5c1951a6f7f0ba27c2cbb871f25b6299fbc3797cb252fc42261408b945f2a3",
+      "pkgSha256": "d1221aef8cc5f12a87f035f972b56e7fb5d3d8db91fb2c4376441db23f1934b4",
+      "stream": {
+        "sha256": "50aee00664a5da63fc8664b6af2626315dbd79f2c0e6f0e2de2de6a997c12944",
+        "chars": 5691
+      }
+    },
+    {
+      "noteId": "rn_25TjVtFjyh6Hmr8X",
+      "wave": 6,
+      "sourceLayerSha256": "b1ee4396e8d11b16418e1fba7582a03e06d5319c8963603b42ed2b8b6a260355",
+      "hubSha256": "6f37ff9f1456e61c6b0c1d38b09e930f72fbd1bbbe1811b02edd9e2a535fce42",
+      "pkgSha256": "15272fd1593f5b49624dbf4a0ea4fa0f4d987f3701d8488ddd13ccd8b63b7fe7",
+      "stream": {
+        "sha256": "aeb8b71be659379f1a337dfb57d9beb7e05085d45e6450710c0640376a68ccc0",
+        "chars": 9677
+      }
+    },
+    {
+      "noteId": "rn_35snKWs7CjH7vshw",
+      "wave": 6,
+      "sourceLayerSha256": "a02dc95d3b9bc0d5b97da9f24e0215d695528ffba7822ddeee20509fe91e1261",
+      "hubSha256": "58c65b85ce33de4174e99e2a46ae72604673596e2b33d015e0fcdc98158b9869",
+      "pkgSha256": "74b71a7dc56ae3a8221e978294a59cbf657db3e0c2a038db6edc7c93a3158b40",
+      "stream": {
+        "sha256": "5d3a182da1eeaa33e55167d79d727d56be2120cf29cd0764f7d6eff4614cf297",
+        "chars": 10417
+      }
+    },
+    {
+      "noteId": "rn_N74nsXGBw66yzqSf",
+      "wave": 6,
+      "sourceLayerSha256": "ec7bd1b1570a5e7c546540a1d1b4b4bbc15817e03cb49a9e7f7518d7764a8048",
+      "hubSha256": "79816bf5a3db27bf9d850c1142cb6df7729b09cc52aca716d81124c75579dd72",
+      "pkgSha256": "27937c681daf979da32a8b050612f5db146944b34f593ab8fa2e70f27063b2ea",
+      "stream": {
+        "sha256": "bdbb3278a6d85006a2a6afb73f6739e81fd3691dd81a91ed8a64c22a796ff2b7",
+        "chars": 11065
+      }
+    },
+    {
+      "noteId": "rn_J6rwHvcb9zhBpJCM",
+      "wave": 6,
+      "sourceLayerSha256": "90e0844b4ad91efac104cc367bbfbe9a2ae1c9bd7040e9cbad7263064c6f1be4",
+      "hubSha256": "51071d0dcfd0636aa0fc293a2508a9d01a05820bcf4a30a724dc78aff75648f2",
+      "pkgSha256": "45e774a5fa0a3dc9fe4092cf783fa3108a3595204b38679b15771b2cd86c329b",
+      "stream": {
+        "sha256": "818c7b6f332d108c6c89ce69abcbcff228f00dc1ca82887d15286e1d9a254e4a",
+        "chars": 6806
+      }
+    },
+    {
+      "noteId": "rn_MfKYy7mHFkx7zF9x",
+      "wave": 6,
+      "sourceLayerSha256": "a7ca7032911228b586c2fc7163e92780b05f15f90b8934a7faf7b719cbbe1577",
+      "hubSha256": "c1ba95a345442a8ba92912a3b8ad73f3ef7f9a47cc48d24566b2063d6fdae345",
+      "pkgSha256": "c92c3cb441e5b633df615c3bb0bcab09843babb97d4c0d4676440c070ef66b83",
+      "stream": {
+        "sha256": "dbf453cd3ac26de968e0ca33a0abb952a381f6abdcf8572d0b7421136a81597b",
+        "chars": 6462
+      }
+    },
+    {
+      "noteId": "rn_HhjktGSR32fxhHPW",
+      "wave": 6,
+      "sourceLayerSha256": "68fb873dcb7d932370f7b3f92387904b1708debd6ce6f216de6242f7850a085c",
+      "hubSha256": "c2da6ab6e68d82ca8ef3fd6a1ab3d9606bb607c98680ef8d4f32b1fe023449d9",
+      "pkgSha256": "9313be1c37e431f3829cb1f7f28b5f11b49049e7fa1587d3e01292fc97838356",
+      "stream": {
+        "sha256": "4633b8653668aa9468dcb000709dd17d01d95973a6ad9e4d4a63ff93018b6015",
+        "chars": 18225
+      }
+    },
+    {
+      "noteId": "rn_SCPfx5yXVvZQSpgw",
+      "wave": 7,
+      "sourceLayerSha256": "5115dff7853f472e4927bac5143de93778741c87545ebcc3b96b57c0f17848f5",
+      "hubSha256": "e80167787e22cea4dfe78a6bb3920ad948481bff0dc0f047c8e5c16e5ef8d82c",
+      "pkgSha256": "fcddb379b9c484ef57f7473d2c62a129b9af0d97092d33ff5cdf47baa03ea749",
+      "stream": {
+        "sha256": "f9601e548cd715c7f84010f23899112a188a8bdd542f22d901c5e20868d9a393",
+        "chars": 12241
+      }
+    },
+    {
+      "noteId": "rn_mr7Dpsm3T3mCqmns",
+      "wave": 7,
+      "sourceLayerSha256": "34a7acd55cd2fa55d4c354ac1efd21ea92b29867d4b8e0d59864a4e43c762e37",
+      "hubSha256": "152c8f3c047928632812072f0bdd5015abf02fc986ee3d0fc98ece2dbb3018b6",
+      "pkgSha256": "d5f31b398e86b4cb43b3c2c22b379d12d17fe9a6f5b4d07e3bdc51dec0022033",
+      "stream": {
+        "sha256": "3c55e20bdf43707602c6f235e48e6c3a58630b6b0a08e60a6586efa42d93c441",
+        "chars": 6443
+      }
+    },
+    {
+      "noteId": "rn_P8xWkdTw6SrvWYJx",
+      "wave": 7,
+      "sourceLayerSha256": "834703226ee88e4182dc67f96d9d9a3a4096139dca6d90eb70b21dd26bc5fe95",
+      "hubSha256": "ab7a6e283c670dabd8ace8cf2d7c367deb128f5f0a5f0efc137efb0100d87729",
+      "pkgSha256": "6fa3011d3d5bd4a3a61914ed276f1bab4883b1dfdcc4e0a7f2035d734c6489b3",
+      "stream": {
+        "sha256": "89b546d15b4bfd86c14cc738a0cc87c8c52d7db73f7e3a13ca7e6a0cd2f6c179",
+        "chars": 5786
+      }
+    },
+    {
+      "noteId": "rn_kTvJN82ZMcTrCypr",
+      "wave": 7,
+      "sourceLayerSha256": "5001a6f3543f64514f5650cc040fe011843504b50fd8e1217c03577b23bc61ba",
+      "hubSha256": "4bce588d791ca2bebff1b28e911b3a8f5e867cd6834d4f27ea942502cb639f43",
+      "pkgSha256": "26dc4794135bd5ff3280352849efe65ccc7bcfe805ddbfcf086503494561cde6",
+      "stream": {
+        "sha256": "7106dab26427119a3abdd9cbe068c635964eb3084118442557da50556d7858b8",
+        "chars": 11194
+      }
+    },
+    {
+      "noteId": "rn_7Mn6fNZ3mz6pYFkg",
+      "wave": 7,
+      "sourceLayerSha256": "8963ff7eb755dab447eb6dde408cb79dde7f163ca91a0ad8d6017072517e8f06",
+      "hubSha256": "4a26b8ca14a2f42afa0c25b83f3210b39a52cfc23b2a5459f85ecc749602ad6b",
+      "pkgSha256": "d2adfea642c2aa3478629b53d30bfa59546bf434c6f3c9cda58127de25cfff4b",
+      "stream": {
+        "sha256": "bb36e0ec538776fcfe48bc20927640577c914aa6442c58666e7813ac0412f3e8",
+        "chars": 11321
+      }
+    },
+    {
+      "noteId": "rn_g66ndvxcyxsTpKPn",
+      "wave": 7,
+      "sourceLayerSha256": "e522bd85ca5866fb68be35516df5bf3019b8ea84f13bb2c719702868e0229dcc",
+      "hubSha256": "83974240b2d2c6c2e4913198656f763a9995628e5d140dc9f6f527162fe7d594",
+      "pkgSha256": "fc63c2545738a624601a53ff8b216acad6fc5a03520c9c8667a573410bd3f76a",
+      "stream": {
+        "sha256": "feb12a1548997c52247603ed1aef485889dc10cafa79ad221d4234a994c93bb6",
+        "chars": 17178
+      }
+    },
+    {
+      "noteId": "rn_vctGRbxP4NVz34JT",
+      "wave": 7,
+      "sourceLayerSha256": "a477390de756bd8585ebf26a30e86638ff1a4a707bf26212654f8a4410e61b88",
+      "hubSha256": "befee64dc4a8d9ec3b96a47b3680dc44f35dbd9497f5c59933a74b9113a0149e",
+      "pkgSha256": "40f50f1fdfef74ad219f97f8b685ec26c8a83b8baf1da12e38960fe300c126dc",
+      "stream": {
+        "sha256": "fdbe37b2ad315a288d48dae5999386a0b152fda18566706550acb85f1d401a41",
+        "chars": 16347
+      }
+    },
+    {
+      "noteId": "rn_kxdTzqwVgkFBYVC3",
+      "wave": 7,
+      "sourceLayerSha256": "26b8b037ea503ce888f5da63b22758cfd1ac9baf41b8d93ff971a52027b77f04",
+      "hubSha256": "c389072fba21e17760251de8eb7102e1c6ace027d1637cb275210954230c19af",
+      "pkgSha256": "6c897026a0ba5ea98ad1552438d491d400c13eee311d9b6c184ec8c3e8c3fcc6",
+      "stream": {
+        "sha256": "09bf1661fea33152a0c9500d83d2ffc1123d9b399bc063c3bd7bc7f7c2cd456f",
+        "chars": 22052
+      }
+    },
+    {
+      "noteId": "rn_6wZc5RHQn4qftvc8",
+      "wave": 7,
+      "sourceLayerSha256": "a6ef18deb713517712a5256a96cb3f1db45365d8f5d576fa8e9dc8b0f32a7fe5",
+      "hubSha256": "bb78b3f22b7283246edcb8bc509acd34079611e2d08f25a5c9f17064780d01a0",
+      "pkgSha256": "78eff598e46de69cc25338e785f9d1746ae40b00414dfb701e46bfd2ca047297",
+      "stream": {
+        "sha256": "255d1c70c525038288904528a298b7738878f1f8fe146fcecc7db499500c51fa",
+        "chars": 16658
+      }
+    },
+    {
+      "noteId": "rn_mf22KJj8JXw3DRHn",
+      "wave": 7,
+      "sourceLayerSha256": "4db013de9b4362e4e502a7396ecd68240bf42f11bbbb86567f42e9fe75af7132",
+      "hubSha256": "a668f41eb580f3ee8769878cf081ee0ae18165d1ea9e88096107b1144b902414",
+      "pkgSha256": "82d31620466e3daaf20fac0e8b1b0a1f5c738eb49285ff78037275864b2a2952",
+      "stream": {
+        "sha256": "40ef6c241f5d58bf1944536ba0679c22d402df9ef4f022348b2286d7fcbec4a8",
+        "chars": 6066
+      }
+    }
+  ]
+}
