@@ -312,3 +312,41 @@ DISC-5a "boilerplate reuse" superseded (same collapse mechanism); DISC-6 filed
 (the EDX-2 stack attribution + the re-run-census-before-rebuild guard for the
 platform lane). The cross-id population of the RULE-1 law is extinct
 bank-wide; the corpus↔plane reconciliation is COMPLETE (0 non-benign drift).
+
+## 2026-11-03 — F133: the DISC-6 hand-off (EDX-2 stack attribution + the census guard)
+
+DISC-6 is closed from this lane's side: the EDX-2 stack sub-step is ATTRIBUTED
+and the standing guard is DELIVERED. Verdict: the corruption step is the 23a
+residual chain's clean-segment grafts V1 pass (of record in the EDX-2 receipt
+as "321 (v1) + 36 (v2 gate-exact pairing)"); the v1 clean-source pool was
+keyed per QUESTION+kind (last-write-wins), so every residual target field
+received its own question's LAST part's content. Target selection is
+quantified at the build pin aa0b4de1: 22/22 physics-19 targets' true contents
+carry 23a-class pollution (18 prose-form speech-text + 4 unconvertible
+multiline), while the 139 polluted non-last non-targets are ALL span-form =
+the dictionary-repairable class. EDX-1's path-aligned grafts are the
+counterfactual (bank stayed clean).
+
+The delivered census guard (v2 `apps/hub/scripts/import_corpus/census_guard.py`
++ `CENSUS-GUARD.md`) scanned all 106 banks at v2 main fa8059d7 (44,502
+questions / 148,978 md fields): igcse-physics-19 ZERO findings (the wave-C
+repair holds bank-wide); 5 FURTHER EDX-2-corrupted fields confirmed in
+igcse-physics-modular-24-unit-2 + igcse-science-double-award-17-physics (both
+the radiation-family middle part, problem+solution) and ial-maths-20-decision-1
+(post-patch pool variant) — per-field history walks flip every group at
+exactly c2388bca (2026-10-21). Those 5 fields are the wave-D candidate
+(plane := corpus L4 repair, wave-C shape; operator ruling requested). Benign
+groups: cie-as-chemistry-25 (corpus-attested duplicate), ial-maths-20-
+statistics-2 (of-record twin, born pre-EDX-2); the 20 maths-b fetch-bank
+groups are corpus-free by the no_topic_questions ruling and stay owned by the
+fetch-bank lane. Process findings of record: the v1/v2 graft scripts were
+never committed (P1); the EDX-2 "reproducible path" still contains the
+defective v1 pass — replay hazard (P2); the corruption was gate-invisible —
+23a read ZERO after the grafts (P3).
+
+Dossier: `scripts/oeq_phys_run012/wave-c/disc6/` (edx2-attribution.md +
+3 census/walk artifacts); ledger DISC-6 → ATTRIBUTED + HANDED OFF. The v2
+side carries the guard, the mandate, the hand-off receipt at
+`.syllabai/receipts/T-CONSUME-EDX-2/DISC-6-handoff.md` and the baseline
+receipt in this lane's artifacts dir. The corpus of record is untouched by
+this wave.
