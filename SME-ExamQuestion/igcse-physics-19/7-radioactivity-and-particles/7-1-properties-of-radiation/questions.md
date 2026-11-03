@@ -375,7 +375,7 @@ Explain why alpha particles and beta particles have different penetrating powers
 ### 1() — 2 marks — command: describe — structured
 Thorium-232 and thorium-228 are radioactive isotopes of thorium and can be represented as
 
-$Th_{90}^{232}$‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ $Th_{90}^{228}$
+${}_{90}^{232}{Th}$‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ${}_{90}^{228}{Th}$
 
 Describe a similarity and a difference between the nuclei of these two isotopes of thorium.
 

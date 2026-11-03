@@ -672,7 +672,7 @@ A scanner emits an ultrasound wave into the patient and records any reflections.
 
 A technician calculates the depth of the reflection using the equation
 
-$d e p t h = 1 \frac{1}{2} \\times ( s p e e d o f u l t r a s o u n d i n p a t i e n t \\times t i m e r e c o r d e d b y s c a n n e r )$Explain why the technician uses the value $\frac{1}{2}$ in the equation.
+$d e p t h  =  \frac{1}{2} \times \left(s p e e d  o f  u l t r a s o u n d  i n  p a t i e n t  \times t i m e  r e c o r d e d  b y  s c a n n e r\right)$Explain why the technician uses the value $\frac{1}{2}$ in the equation.
 
 (ii) An ultrasound wave travels faster in the patient than it does in air.
 
