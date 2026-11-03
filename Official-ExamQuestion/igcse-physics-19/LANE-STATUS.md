@@ -283,3 +283,32 @@ consumed surgically on the v2 plane in the same wave. Post-serve census expectat
 SME 1COL_DEGENERATE 29 → 0, MULTI_COL_OK 122 → 146; official plane pipe blocks 0 → 2;
 math-pipe 0; untouched parts byte-identical. R2 (93 SME flattened parts) remains the
 standing next wave.
+
+## 2026-11-03 — F132: the run-012 wave-C L4 mapping-repair (corpus<->plane closure)
+
+The run-012 reconciliation's last open population is closed. The definitive
+per-question census (`scripts/oeq_phys_run012/wave-c/`) proves all 22 cross-id
+fields are ONE mechanism: since T-CONSUME-EDX-2 (v2 c2388bca, 2026-10-21) the
+serving plane's SME bank carried the LAST part's md content under earlier
+parts' ids for 17 questions (18 solution_md + 2 problem_md+solution_md pairs);
+the plane bank was born clean (seed 3a92153e) and stayed clean through EDX-1 —
+the corruption site is the EDX-2 run's post-build stack, not the standing
+importer (field-faithful). The corpus of record was correct at every visible
+sha since 2026-09-17 and is UNTOUCHED by this wave.
+
+Repair (RULE-1 L4, mapping-repair): the v2 serving leg writes the corpus of
+record's own per-part content back under the right ids — plane := corpus
+verbatim, asset hrefs hotlinked at data cut main@79b437615ac2 (the exporter's
+own hotlink semantics; the reverse of L1, justified per L4). 22 fields / 20
+parts / 17 questions / 10 topics; gates T1/G1–G6 green in-run; L6 drift-delta:
+non-benign 22 → 0, raw drift 750 → 732 fields / 565 → 554 parts. Learner
+impact: the 7-1 Po-210 grid question (with the run-011-m3-repaired isotope
+notation) and the 5-3 molecules/sentences question serve again for the first
+time since 2026-10-21, and the 15 solution-collapsed questions serve their
+true per-part solutions again.
+
+Ledger: RES-1 CLOSED (reconciled by run-010-m2/run-011-m3; residual benign);
+DISC-5a "boilerplate reuse" superseded (same collapse mechanism); DISC-6 filed
+(the EDX-2 stack attribution + the re-run-census-before-rebuild guard for the
+platform lane). The cross-id population of the RULE-1 law is extinct
+bank-wide; the corpus↔plane reconciliation is COMPLETE (0 non-benign drift).
