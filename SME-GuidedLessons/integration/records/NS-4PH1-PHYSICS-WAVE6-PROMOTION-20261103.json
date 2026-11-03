@@ -1,0 +1,2554 @@
+{
+  "format": "r3-check-types-promotion-receipt/1.0",
+  "format_note": "the receipt FAMILY of record per runbook §3; the wave field carries the physics lane identity",
+  "wave": "PHYSICS-4PH1 wave-6 — the 3-1 waves-and-the-electromagnetic-spectrum + 3-2 reflection-and-refraction subtopics (3-1-1 Transverse & Longitudinal Waves, 3-1-2 Describing Wave Motion, 3-1-3 The Wave Equation, 3-1-4 The Doppler Effect, 3-1-5 Electromagnetic (EM) Waves, 3-1-6 Applications of EM Waves, 3-1-7 Dangers of EM Waves, 3-2-1 Light & Sound Waves, 3-2-2 Reflection & Refraction, 3-2-3 Core Practical: Investigating Refraction, 3-2-4 Snell's Law, 3-2-5 Core Practical: Investigating Snell's law, 3-2-6 Total Internal Reflection)",
+  "operator_traces": [
+    "1a1a01c1321c30b5",
+    "1a1a01c1321c30b5"
+  ],
+  "trace_note": "ignition and execution share the session trace 1a1a01c1321c30b5 — the operator directive 'Wave-6' and this execution ran in one operator session across two sandbox windows (authoring window, then continuation window after a container recycle); disclosed rather than minted",
+  "generated_at_utc": "2026-11-03T08:48:36Z",
+  "repo": "SyllabAI/syllabai-resources",
+  "branch": "integration/physics-wave6-20261103",
+  "runbook_of_record": ".syllabai/docs/new-subject-runbook.md @ SyllabAI/syllabai-v2 main",
+  "b6_manifest_continuity": {
+    "decision": "continue-global",
+    "selected": "physics wave-6 = manifest v25 (CUMULATIVE over the igcse-physics-19 pack — the chemistry v8..v17 pattern; the programme series continues)",
+    "rejected": "per-course series (physics v1) — would collide with chemistry hub-import-manifest-v1..v17.json filenames in the shared integration/ namespace and fork the integration ledger",
+    "recorded_by": "runbook B6 + the stage-A receipt of record (PHYSICS-4PH1-STAGEA-PROMOTION-20261101.json); continued at v19/v20/v21/v22/v23/v24, continued here at v25"
+  },
+  "b4_partition": {
+    "law": "runbook §0 B4 — partition at wave open only; final wave takes the remainder; never re-bucket mid-programme",
+    "basis": "hub notes.json register rows (127) minus the stage-A pilot (B3) = 126 notes at freeze, section-aligned in register order; W1 (6 notes) landed at v19, W2 (9) at v21, W3 (7) at v22, W4 (8) at v23, W5 (9) at v24; 87 remain bucketed",
+    "buckets": {
+      "W1": {
+        "sections": [
+          "1-forces-and-motion/1-1-movement-and-position"
+        ],
+        "notes": null
+      },
+      "W2": {
+        "sections": [
+          "1-forces-and-motion/1-2-forces-movement-and-changing-shape"
+        ],
+        "notes": null
+      },
+      "W3": {
+        "sections": [
+          "1-forces-and-motion/1-3-momentum",
+          "1-forces-and-motion/1-4-moments"
+        ],
+        "notes": null
+      },
+      "W4": {
+        "sections": [
+          "2-electricity/2-1-current-potential-difference-and-resistance",
+          "2-electricity/2-2-components-in-series-and-parallel-circuits"
+        ],
+        "notes": null
+      },
+      "W5": {
+        "sections": [
+          "2-electricity/2-3-electrical-power-and-mains-electricity",
+          "2-electricity/2-4-static-electricity"
+        ],
+        "notes": null
+      },
+      "W6": {
+        "sections": [
+          "3-waves/3-1-waves-and-the-electromagnetic-spectrum",
+          "3-waves/3-2-reflection-and-refraction"
+        ],
+        "notes": 13
+      },
+      "W7": {
+        "sections": [
+          "3-waves/3-3-sound",
+          "4-energy-resources-and-energy-transfers/4-1-energy-stores-and-transfers"
+        ],
+        "notes": null
+      },
+      "W8": {
+        "sections": [
+          "4-energy-resources-and-energy-transfers/4-2-work-power-and-energy-resources",
+          "5-solids-liquids-and-gases/5-1-density-and-pressure"
+        ],
+        "notes": null
+      },
+      "W9": {
+        "sections": [
+          "5-solids-liquids-and-gases/5-2-changes-of-state",
+          "5-solids-liquids-and-gases/5-3-ideal-gases"
+        ],
+        "notes": null
+      },
+      "W10": {
+        "sections": [
+          "6-magnetism-and-electromagnetism/6-1-magnetism-and-electromagnetism",
+          "6-magnetism-and-electromagnetism/6-2-electromagnetic-induction"
+        ],
+        "notes": null
+      },
+      "W11": {
+        "sections": [
+          "7-radioactivity-and-particles/7-1-properties-of-radiation",
+          "7-radioactivity-and-particles/7-2-radioactivity-uses-and-dangers"
+        ],
+        "notes": null
+      },
+      "W12-final-remainder": {
+        "sections": [
+          "7-radioactivity-and-particles/7-3-fission-and-fusion",
+          "8-astrophysics/8-1-motion-in-the-universe",
+          "8-astrophysics/8-2-stellar-evolution",
+          "8-astrophysics/8-3-cosmology"
+        ],
+        "notes": null
+      }
+    },
+    "executed_this_wave": "W6 (3-1-1 transverse-and-longitudinal-waves; 3-1-2 describing-wave-motion; 3-1-3 the-wave-equation; 3-1-4 the-doppler-effect; 3-1-5 electromagnetic-em-waves; 3-1-6 applications-of-em-waves; 3-1-7 dangers-of-em-waves; 3-2-1 light-and-sound-waves; 3-2-2 reflection-and-refraction; 3-2-3 core-practical-investigating-refraction; 3-2-4 snells-law; 3-2-5 core-practical-investigating-snells-law; 3-2-6 total-internal-reflection)"
+  },
+  "commits": {
+    "A": {
+      "sha": "dad406f1ecd8919cbcddd4c429b20f4f1aadae24",
+      "parent": "d0f6ebbb02b246c86e44cf6421ccea6b5b0419a3",
+      "note": "source-0.6 generation — 13 authored guided-lesson/0.6 wave-6 notes (25 lessons / 225 checks); schemas ride main unchanged from stage-A"
+    },
+    "C": {
+      "sha": "(namespace-complete — outputs + manifest v25 + records + pipeline)",
+      "note": "hub-import-1.5/ x13 + question-packages-1.2/ x13 (FIRST issues) + hub-import-manifest-v25.json (106 artifacts cumulative) + records/INT-3-transform-record-physics-wave6.json (53 rows) + records/NS-4PH1-PHYSICS-WAVE6-PROMOTION-20261103.json + tooling/physics-wave6-pipeline.js"
+    }
+  },
+  "artifact_pin": "dad406f1ecd8919cbcddd4c429b20f4f1aadae24",
+  "pkg_pin": "dad406f1ecd8919cbcddd4c429b20f4f1aadae24 (all thirteen wave-6 packages pin the commit-A source generation)",
+  "prior_pack_pins": {
+    "pilot": "7d493985c7729f30c2186e7e61a713ceacc96517",
+    "wave1": "aa6485187429e0911b4a47a8a468e256bb41ce32",
+    "wave2": "bfae9977809436fc2e5c20967bf2581f67a52bec",
+    "wave3": "377ef184395b676ce98c183a46fd72c584deb4fa",
+    "wave4": "acd23dd30dda707775cd5f27346ee0a3958c0afe",
+    "wave5": "909d3116e2077d3e951cfc8fdc66affffc089843",
+    "note": "the 80 prior artifacts keep their generation pins inside their bytes; v25 re-pins their (identical) bytes at the manifest level only"
+  },
+  "input_pins": {
+    "resources_main_at_wave6_open": "d0f6ebbb02b246c86e44cf6421ccea6b5b0419a3",
+    "hub_main_at_wave6_open": "8165f69609fc3e55c15178ee03587f8909255ad2"
+  },
+  "manifest": "hub-import-manifest-v25.json",
+  "int_record": "INT-3-transform-record-physics-wave6.json",
+  "adapter_spec": "ADAPTER-SPEC-guided-lesson-0.6-to-hub-1.5.md (unchanged from stage-A)",
+  "counts_census": {
+    "notes": 53,
+    "lessons": 105,
+    "checks": 945,
+    "checks_mcq": 525,
+    "written_recall": 210,
+    "written_explain_why": 105,
+    "written_application": 105,
+    "distractors": 1575,
+    "wave_notes": [
+      "rn_HKZzkTMztGJvqXCd",
+      "rn_TPSJT83Gh8nMCcVV",
+      "rn_hkV9ncw6zTQqrbN5",
+      "rn_ctTgFb5NSQTSQVSP",
+      "rn_GVDsPK5gmYw5wqvG",
+      "rn_8K4rhNpfVqrR8pHF",
+      "rn_dx62W8M2b3RpDWjM",
+      "rn_25TjVtFjyh6Hmr8X",
+      "rn_35snKWs7CjH7vshw",
+      "rn_N74nsXGBw66yzqSf",
+      "rn_J6rwHvcb9zhBpJCM",
+      "rn_MfKYy7mHFkx7zF9x",
+      "rn_HhjktGSR32fxhHPW"
+    ]
+  },
+  "schema_delta": "NONE — wave-6 runs the stage-A union schemas byte-identical (guided-lesson/0.6, hub/lesson-import/1.5, sme-question-package/1.2). 12 of 13 notes carry the figures layer (3-1-6 Applications of EM Waves lawfully omits it — no images in its note body); figure counts per note follow the bodyMd image order exactly (see the INT-3 census figures fields); alt forms include slug-fallbacks where the body alt is empty (3-1-1 fig-01 and fig-06); captions carried from the notes' own bold-italic sidecar lines where present, lawfully absent otherwise (counted in figures_captions/figures_no_caption); figures left unclaimed by the two-heading sourceHeadings cap sit at note level (moduleIds [], binding 'note-level' per the 0.6 schema's page-fallback mode — exact counts at figures_note_level); 3-2-4 Snell's Law carries the 15-degree glass-block worked example; 3-2-6 Total Internal Reflection carries the glass-cube critical-angle WE with the opal/diamond comparison anchoring its L3 application check instead (the two-WE law of record); all other wave-6 notes declare workedExample null (no WE block in their bodies, fail-closed absent).",
+  "taxonomy": "kind enum of record: mcq (default/absent) | recall | explain-why | application — 25 lessons x [5 MCQ + 2 recall + 1 explain-why + 1 application] = the B2 law; cumulative pack 105 lessons / 945 checks",
+  "conservation": {
+    "law": "written stems + misconceptionClass + modelAnswer + keywords are §7 stream tokens on kind!=mcq; the wave-6 streams are anchored in the INT-3 record; chemistry streams byte-untouched; the 80 prior-pack artifacts re-pinned byte-identical (grand recomputed over the 53-note pack; wave-0..wave-5 subtotals reproduce the v24 values exactly)",
+    "authored_chars": 590554
+  },
+  "gates": {
+    "pipeline": "473/473 pass, 0 fail",
+    "gate_log": [
+      {
+        "name": "P0 branch is the wave-6 integration branch",
+        "ok": true,
+        "detail": "integration/physics-wave6-20261103"
+      },
+      {
+        "name": "P0 commit A parent is the wave-open resources main of record",
+        "ok": true,
+        "detail": "d0f6ebbb02b246c86e44cf6421ccea6b5b0419a3"
+      },
+      {
+        "name": "P0 committed == working tree @ rn_HKZzkTMzt",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "P0 committed == working tree @ rn_TPSJT83Gh",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "P0 committed == working tree @ rn_hkV9ncw6z",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "P0 committed == working tree @ rn_ctTgFb5NS",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "P0 committed == working tree @ rn_GVDsPK5gm",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "P0 committed == working tree @ rn_8K4rhNpfV",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "P0 committed == working tree @ rn_dx62W8M2b",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "P0 committed == working tree @ rn_25TjVtFjy",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "P0 committed == working tree @ rn_35snKWs7C",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "P0 committed == working tree @ rn_N74nsXGBw",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "P0 committed == working tree @ rn_J6rwHvcb9",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "P0 committed == working tree @ rn_MfKYy7mHF",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "P0 committed == working tree @ rn_HhjktGSR3",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "P0 schema on branch == working tree @ guided-lesson.0.6.schema.json",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "P0 schema on branch == working tree @ hub-lesson-import.1.5.schema.json",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "P0 schema on branch == working tree @ sme-question-package.1.2.schema.json",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "register census 127 rows",
+        "ok": true,
+        "detail": "127"
+      },
+      {
+        "name": "B4 buckets partition the 87-note post-wave-5 remainder exactly",
+        "ok": true,
+        "detail": "87 notes bucketed (126 at freeze − 39 landed through W5, pilot excluded)"
+      },
+      {
+        "name": "B4 W6 == the 13 authored wave-6 notes",
+        "ok": true,
+        "detail": "3-1-1-transverse-and-longitudinal-waves,3-1-2-describing-wave-motion,3-1-3-the-wave-equation,3-1-4-the-doppler-effect,3-1-5-electromagnetic-em-waves,3-1-6-applications-of-em-waves,3-1-7-dangers-of-em-waves,3-2-1-light-and-sound-waves,3-2-2-reflection-and-refraction,3-2-3-core-practical-investigating"
+      },
+      {
+        "name": "B4 pilot + W1..W5 outside every remaining bucket",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_HKZzkTMzt vs guided-lesson/0.6",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_HKZzkTMzt \"Transverse waves\": 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 rn_HKZzkTMzt: keyPoints 3..6",
+        "ok": true,
+        "detail": "5"
+      },
+      {
+        "name": "A0 rn_HKZzkTMzt: primer 35..90 words",
+        "ok": true,
+        "detail": "56 words"
+      },
+      {
+        "name": "A0 rn_HKZzkTMzt \"Longitudinal waves\": 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 rn_HKZzkTMzt: keyPoints 3..6",
+        "ok": true,
+        "detail": "5"
+      },
+      {
+        "name": "A0 rn_HKZzkTMzt: primer 35..90 words",
+        "ok": true,
+        "detail": "56 words"
+      },
+      {
+        "name": "A0 rn_HKZzkTMzt \"Comparing the two fa\": 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 rn_HKZzkTMzt: keyPoints 3..6",
+        "ok": true,
+        "detail": "5"
+      },
+      {
+        "name": "A0 rn_HKZzkTMzt: primer 35..90 words",
+        "ok": true,
+        "detail": "56 words"
+      },
+      {
+        "name": "A0 rn_HKZzkTMzt: sizing B2 1..3 lessons",
+        "ok": true,
+        "detail": "3"
+      },
+      {
+        "name": "A0 rn_HKZzkTMzt: lessons carry specRefs",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_HKZzkTMzt: lesson specRefs union == file specPoints",
+        "ok": true,
+        "detail": "3.2,3.4 vs 3.2,3.4"
+      },
+      {
+        "name": "A0 rn_HKZzkTMzt: figure closure both ways (figureIds <-> moduleIds)",
+        "ok": true,
+        "detail": "5/5"
+      },
+      {
+        "name": "A0 rn_HKZzkTMzt: glossary 3..8",
+        "ok": true,
+        "detail": "5"
+      },
+      {
+        "name": "A0 rn_TPSJT83Gh vs guided-lesson/0.6",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_TPSJT83Gh \"Wavefronts\": 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 rn_TPSJT83Gh: keyPoints 3..6",
+        "ok": true,
+        "detail": "4"
+      },
+      {
+        "name": "A0 rn_TPSJT83Gh: primer 35..90 words",
+        "ok": true,
+        "detail": "57 words"
+      },
+      {
+        "name": "A0 rn_TPSJT83Gh \"Amplitude & waveleng\": 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 rn_TPSJT83Gh: keyPoints 3..6",
+        "ok": true,
+        "detail": "5"
+      },
+      {
+        "name": "A0 rn_TPSJT83Gh: primer 35..90 words",
+        "ok": true,
+        "detail": "57 words"
+      },
+      {
+        "name": "A0 rn_TPSJT83Gh \"Frequency & time per\": 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 rn_TPSJT83Gh: keyPoints 3..6",
+        "ok": true,
+        "detail": "5"
+      },
+      {
+        "name": "A0 rn_TPSJT83Gh: primer 35..90 words",
+        "ok": true,
+        "detail": "57 words"
+      },
+      {
+        "name": "A0 rn_TPSJT83Gh: sizing B2 1..3 lessons",
+        "ok": true,
+        "detail": "3"
+      },
+      {
+        "name": "A0 rn_TPSJT83Gh: lessons carry specRefs",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_TPSJT83Gh: lesson specRefs union == file specPoints",
+        "ok": true,
+        "detail": "3.3 vs 3.3"
+      },
+      {
+        "name": "A0 rn_TPSJT83Gh: figure closure both ways (figureIds <-> moduleIds)",
+        "ok": true,
+        "detail": "3/3"
+      },
+      {
+        "name": "A0 rn_TPSJT83Gh: glossary 3..8",
+        "ok": true,
+        "detail": "5"
+      },
+      {
+        "name": "A0 rn_hkV9ncw6z vs guided-lesson/0.6",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_hkV9ncw6z \"The wave speed equat\": 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 rn_hkV9ncw6z: keyPoints 3..6",
+        "ok": true,
+        "detail": "4"
+      },
+      {
+        "name": "A0 rn_hkV9ncw6z: primer 35..90 words",
+        "ok": true,
+        "detail": "55 words"
+      },
+      {
+        "name": "A0 rn_hkV9ncw6z \"Frequency & time per\": 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 rn_hkV9ncw6z: keyPoints 3..6",
+        "ok": true,
+        "detail": "4"
+      },
+      {
+        "name": "A0 rn_hkV9ncw6z: primer 35..90 words",
+        "ok": true,
+        "detail": "55 words"
+      },
+      {
+        "name": "A0 rn_hkV9ncw6z \"Using the relationsh\": 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 rn_hkV9ncw6z: keyPoints 3..6",
+        "ok": true,
+        "detail": "4"
+      },
+      {
+        "name": "A0 rn_hkV9ncw6z: primer 35..90 words",
+        "ok": true,
+        "detail": "55 words"
+      },
+      {
+        "name": "A0 rn_hkV9ncw6z: sizing B2 1..3 lessons",
+        "ok": true,
+        "detail": "3"
+      },
+      {
+        "name": "A0 rn_hkV9ncw6z: lessons carry specRefs",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_hkV9ncw6z: lesson specRefs union == file specPoints",
+        "ok": true,
+        "detail": "3.5,3.6,3.7 vs 3.5,3.6,3.7"
+      },
+      {
+        "name": "A0 rn_hkV9ncw6z: figure closure both ways (figureIds <-> moduleIds)",
+        "ok": true,
+        "detail": "1/1"
+      },
+      {
+        "name": "A0 rn_hkV9ncw6z: glossary 3..8",
+        "ok": true,
+        "detail": "3"
+      },
+      {
+        "name": "A0 rn_ctTgFb5NS vs guided-lesson/0.6",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_ctTgFb5NS \"The Doppler effect\": 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 rn_ctTgFb5NS: keyPoints 3..6",
+        "ok": true,
+        "detail": "5"
+      },
+      {
+        "name": "A0 rn_ctTgFb5NS: primer 35..90 words",
+        "ok": true,
+        "detail": "54 words"
+      },
+      {
+        "name": "A0 rn_ctTgFb5NS: sizing B2 1..3 lessons",
+        "ok": true,
+        "detail": "1"
+      },
+      {
+        "name": "A0 rn_ctTgFb5NS: lessons carry specRefs",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_ctTgFb5NS: lesson specRefs union == file specPoints",
+        "ok": true,
+        "detail": "3.8 vs 3.8"
+      },
+      {
+        "name": "A0 rn_ctTgFb5NS: figure closure both ways (figureIds <-> moduleIds)",
+        "ok": true,
+        "detail": "2/2"
+      },
+      {
+        "name": "A0 rn_ctTgFb5NS: glossary 3..8",
+        "ok": true,
+        "detail": "3"
+      },
+      {
+        "name": "A0 rn_GVDsPK5gm vs guided-lesson/0.6",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_GVDsPK5gm \"Properties of EM wav\": 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 rn_GVDsPK5gm: keyPoints 3..6",
+        "ok": true,
+        "detail": "5"
+      },
+      {
+        "name": "A0 rn_GVDsPK5gm: primer 35..90 words",
+        "ok": true,
+        "detail": "55 words"
+      },
+      {
+        "name": "A0 rn_GVDsPK5gm \"The EM spectrum & vi\": 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 rn_GVDsPK5gm: keyPoints 3..6",
+        "ok": true,
+        "detail": "5"
+      },
+      {
+        "name": "A0 rn_GVDsPK5gm: primer 35..90 words",
+        "ok": true,
+        "detail": "55 words"
+      },
+      {
+        "name": "A0 rn_GVDsPK5gm: sizing B2 1..3 lessons",
+        "ok": true,
+        "detail": "2"
+      },
+      {
+        "name": "A0 rn_GVDsPK5gm: lessons carry specRefs",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_GVDsPK5gm: lesson specRefs union == file specPoints",
+        "ok": true,
+        "detail": "3.10,3.11 vs 3.10,3.11"
+      },
+      {
+        "name": "A0 rn_GVDsPK5gm: figure closure both ways (figureIds <-> moduleIds)",
+        "ok": true,
+        "detail": "3/3"
+      },
+      {
+        "name": "A0 rn_GVDsPK5gm: glossary 3..8",
+        "ok": true,
+        "detail": "3"
+      },
+      {
+        "name": "A0 rn_8K4rhNpfV vs guided-lesson/0.6",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_8K4rhNpfV \"Uses of EM waves\": 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 rn_8K4rhNpfV: keyPoints 3..6",
+        "ok": true,
+        "detail": "5"
+      },
+      {
+        "name": "A0 rn_8K4rhNpfV: primer 35..90 words",
+        "ok": true,
+        "detail": "46 words"
+      },
+      {
+        "name": "A0 rn_8K4rhNpfV: sizing B2 1..3 lessons",
+        "ok": true,
+        "detail": "1"
+      },
+      {
+        "name": "A0 rn_8K4rhNpfV: lessons carry specRefs",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_8K4rhNpfV: lesson specRefs union == file specPoints",
+        "ok": true,
+        "detail": "3.12 vs 3.12"
+      },
+      {
+        "name": "A0 rn_8K4rhNpfV: figure closure both ways (figureIds <-> moduleIds)",
+        "ok": true,
+        "detail": "0/0"
+      },
+      {
+        "name": "A0 rn_8K4rhNpfV: glossary 3..8",
+        "ok": true,
+        "detail": "3"
+      },
+      {
+        "name": "A0 rn_dx62W8M2b vs guided-lesson/0.6",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_dx62W8M2b \"Dangers of EM waves \": 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 rn_dx62W8M2b: keyPoints 3..6",
+        "ok": true,
+        "detail": "5"
+      },
+      {
+        "name": "A0 rn_dx62W8M2b: primer 35..90 words",
+        "ok": true,
+        "detail": "58 words"
+      },
+      {
+        "name": "A0 rn_dx62W8M2b: sizing B2 1..3 lessons",
+        "ok": true,
+        "detail": "1"
+      },
+      {
+        "name": "A0 rn_dx62W8M2b: lessons carry specRefs",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_dx62W8M2b: lesson specRefs union == file specPoints",
+        "ok": true,
+        "detail": "3.13 vs 3.13"
+      },
+      {
+        "name": "A0 rn_dx62W8M2b: figure closure both ways (figureIds <-> moduleIds)",
+        "ok": true,
+        "detail": "2/2"
+      },
+      {
+        "name": "A0 rn_dx62W8M2b: glossary 3..8",
+        "ok": true,
+        "detail": "3"
+      },
+      {
+        "name": "A0 rn_25TjVtFjy vs guided-lesson/0.6",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_25TjVtFjy \"Light waves\": 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 rn_25TjVtFjy: keyPoints 3..6",
+        "ok": true,
+        "detail": "4"
+      },
+      {
+        "name": "A0 rn_25TjVtFjy: primer 35..90 words",
+        "ok": true,
+        "detail": "55 words"
+      },
+      {
+        "name": "A0 rn_25TjVtFjy \"Sound waves\": 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 rn_25TjVtFjy: keyPoints 3..6",
+        "ok": true,
+        "detail": "4"
+      },
+      {
+        "name": "A0 rn_25TjVtFjy: primer 35..90 words",
+        "ok": true,
+        "detail": "55 words"
+      },
+      {
+        "name": "A0 rn_25TjVtFjy: sizing B2 1..3 lessons",
+        "ok": true,
+        "detail": "2"
+      },
+      {
+        "name": "A0 rn_25TjVtFjy: lessons carry specRefs",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_25TjVtFjy: lesson specRefs union == file specPoints",
+        "ok": true,
+        "detail": "3.14,3.23 vs 3.14,3.23"
+      },
+      {
+        "name": "A0 rn_25TjVtFjy: figure closure both ways (figureIds <-> moduleIds)",
+        "ok": true,
+        "detail": "2/2"
+      },
+      {
+        "name": "A0 rn_25TjVtFjy: glossary 3..8",
+        "ok": true,
+        "detail": "3"
+      },
+      {
+        "name": "A0 rn_35snKWs7C vs guided-lesson/0.6",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_35snKWs7C \"Reflection & the law\": 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 rn_35snKWs7C: keyPoints 3..6",
+        "ok": true,
+        "detail": "5"
+      },
+      {
+        "name": "A0 rn_35snKWs7C: primer 35..90 words",
+        "ok": true,
+        "detail": "52 words"
+      },
+      {
+        "name": "A0 rn_35snKWs7C \"Ray diagrams & refra\": 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 rn_35snKWs7C: keyPoints 3..6",
+        "ok": true,
+        "detail": "5"
+      },
+      {
+        "name": "A0 rn_35snKWs7C: primer 35..90 words",
+        "ok": true,
+        "detail": "52 words"
+      },
+      {
+        "name": "A0 rn_35snKWs7C: sizing B2 1..3 lessons",
+        "ok": true,
+        "detail": "2"
+      },
+      {
+        "name": "A0 rn_35snKWs7C: lessons carry specRefs",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_35snKWs7C: lesson specRefs union == file specPoints",
+        "ok": true,
+        "detail": "3.15,3.16,3.9 vs 3.15,3.16,3.9"
+      },
+      {
+        "name": "A0 rn_35snKWs7C: figure closure both ways (figureIds <-> moduleIds)",
+        "ok": true,
+        "detail": "4/4"
+      },
+      {
+        "name": "A0 rn_35snKWs7C: glossary 3..8",
+        "ok": true,
+        "detail": "5"
+      },
+      {
+        "name": "A0 rn_N74nsXGBw vs guided-lesson/0.6",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_N74nsXGBw \"Refraction core prac\": 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 rn_N74nsXGBw: keyPoints 3..6",
+        "ok": true,
+        "detail": "5"
+      },
+      {
+        "name": "A0 rn_N74nsXGBw: primer 35..90 words",
+        "ok": true,
+        "detail": "49 words"
+      },
+      {
+        "name": "A0 rn_N74nsXGBw \"Refraction core prac\": 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 rn_N74nsXGBw: keyPoints 3..6",
+        "ok": true,
+        "detail": "5"
+      },
+      {
+        "name": "A0 rn_N74nsXGBw: primer 35..90 words",
+        "ok": true,
+        "detail": "49 words"
+      },
+      {
+        "name": "A0 rn_N74nsXGBw: sizing B2 1..3 lessons",
+        "ok": true,
+        "detail": "2"
+      },
+      {
+        "name": "A0 rn_N74nsXGBw: lessons carry specRefs",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_N74nsXGBw: lesson specRefs union == file specPoints",
+        "ok": true,
+        "detail": "3.17 vs 3.17"
+      },
+      {
+        "name": "A0 rn_N74nsXGBw: figure closure both ways (figureIds <-> moduleIds)",
+        "ok": true,
+        "detail": "2/2"
+      },
+      {
+        "name": "A0 rn_N74nsXGBw: glossary 3..8",
+        "ok": true,
+        "detail": "4"
+      },
+      {
+        "name": "A0 rn_J6rwHvcb9 vs guided-lesson/0.6",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_J6rwHvcb9 \"Snell's law\": 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 rn_J6rwHvcb9: keyPoints 3..6",
+        "ok": true,
+        "detail": "4"
+      },
+      {
+        "name": "A0 rn_J6rwHvcb9: primer 35..90 words",
+        "ok": true,
+        "detail": "71 words"
+      },
+      {
+        "name": "A0 rn_J6rwHvcb9: sizing B2 1..3 lessons",
+        "ok": true,
+        "detail": "1"
+      },
+      {
+        "name": "A0 rn_J6rwHvcb9: lessons carry specRefs",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_J6rwHvcb9: lesson specRefs union == file specPoints",
+        "ok": true,
+        "detail": "3.18 vs 3.18"
+      },
+      {
+        "name": "A0 rn_J6rwHvcb9: figure closure both ways (figureIds <-> moduleIds)",
+        "ok": true,
+        "detail": "1/1"
+      },
+      {
+        "name": "A0 rn_J6rwHvcb9: glossary 3..8",
+        "ok": true,
+        "detail": "4"
+      },
+      {
+        "name": "A0 rn_MfKYy7mHF vs guided-lesson/0.6",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_MfKYy7mHF \"Core Practical: Inve\": 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 rn_MfKYy7mHF: keyPoints 3..6",
+        "ok": true,
+        "detail": "5"
+      },
+      {
+        "name": "A0 rn_MfKYy7mHF: primer 35..90 words",
+        "ok": true,
+        "detail": "67 words"
+      },
+      {
+        "name": "A0 rn_MfKYy7mHF: sizing B2 1..3 lessons",
+        "ok": true,
+        "detail": "1"
+      },
+      {
+        "name": "A0 rn_MfKYy7mHF: lessons carry specRefs",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_MfKYy7mHF: lesson specRefs union == file specPoints",
+        "ok": true,
+        "detail": "3.19 vs 3.19"
+      },
+      {
+        "name": "A0 rn_MfKYy7mHF: figure closure both ways (figureIds <-> moduleIds)",
+        "ok": true,
+        "detail": "3/3"
+      },
+      {
+        "name": "A0 rn_MfKYy7mHF: glossary 3..8",
+        "ok": true,
+        "detail": "4"
+      },
+      {
+        "name": "A0 rn_HhjktGSR3 vs guided-lesson/0.6",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_HhjktGSR3 \"Total internal refle\": 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 rn_HhjktGSR3: keyPoints 3..6",
+        "ok": true,
+        "detail": "5"
+      },
+      {
+        "name": "A0 rn_HhjktGSR3: primer 35..90 words",
+        "ok": true,
+        "detail": "75 words"
+      },
+      {
+        "name": "A0 rn_HhjktGSR3 \"The critical angle\": 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 rn_HhjktGSR3: keyPoints 3..6",
+        "ok": true,
+        "detail": "4"
+      },
+      {
+        "name": "A0 rn_HhjktGSR3: primer 35..90 words",
+        "ok": true,
+        "detail": "75 words"
+      },
+      {
+        "name": "A0 rn_HhjktGSR3 \"Calculating the crit\": 9 checks in SME kind order",
+        "ok": true,
+        "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+      },
+      {
+        "name": "A0 rn_HhjktGSR3: keyPoints 3..6",
+        "ok": true,
+        "detail": "4"
+      },
+      {
+        "name": "A0 rn_HhjktGSR3: primer 35..90 words",
+        "ok": true,
+        "detail": "75 words"
+      },
+      {
+        "name": "A0 rn_HhjktGSR3: sizing B2 1..3 lessons",
+        "ok": true,
+        "detail": "3"
+      },
+      {
+        "name": "A0 rn_HhjktGSR3: lessons carry specRefs",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_HhjktGSR3: lesson specRefs union == file specPoints",
+        "ok": true,
+        "detail": "3.20,3.21,3.22 vs 3.20,3.21,3.22"
+      },
+      {
+        "name": "A0 rn_HhjktGSR3: figure closure both ways (figureIds <-> moduleIds)",
+        "ok": true,
+        "detail": "5/5"
+      },
+      {
+        "name": "A0 rn_HhjktGSR3: glossary 3..8",
+        "ok": true,
+        "detail": "4"
+      },
+      {
+        "name": "AN rn_HKZzkTMzt: exactly-one-correct x15 + distinct option texts/keys",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "AN rn_HKZzkTMzt: correct-key census >= 3 distinct letters, max <= 5",
+        "ok": true,
+        "detail": "{\"B\":4,\"C\":4,\"D\":4,\"A\":3}"
+      },
+      {
+        "name": "AN rn_TPSJT83Gh: exactly-one-correct x15 + distinct option texts/keys",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "AN rn_TPSJT83Gh: correct-key census >= 3 distinct letters, max <= 5",
+        "ok": true,
+        "detail": "{\"B\":4,\"C\":4,\"D\":4,\"A\":3}"
+      },
+      {
+        "name": "AN rn_hkV9ncw6z: exactly-one-correct x15 + distinct option texts/keys",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "AN rn_hkV9ncw6z: correct-key census >= 3 distinct letters, max <= 5",
+        "ok": true,
+        "detail": "{\"B\":4,\"C\":4,\"D\":4,\"A\":3}"
+      },
+      {
+        "name": "AN rn_ctTgFb5NS: exactly-one-correct x5 + distinct option texts/keys",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "AN rn_ctTgFb5NS: correct-key census >= 3 distinct letters, max <= 5",
+        "ok": true,
+        "detail": "{\"B\":1,\"C\":2,\"D\":1,\"A\":1}"
+      },
+      {
+        "name": "AN rn_GVDsPK5gm: exactly-one-correct x10 + distinct option texts/keys",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "AN rn_GVDsPK5gm: correct-key census >= 3 distinct letters, max <= 5",
+        "ok": true,
+        "detail": "{\"B\":2,\"C\":3,\"D\":3,\"A\":2}"
+      },
+      {
+        "name": "AN rn_8K4rhNpfV: exactly-one-correct x5 + distinct option texts/keys",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "AN rn_8K4rhNpfV: correct-key census >= 3 distinct letters, max <= 5",
+        "ok": true,
+        "detail": "{\"B\":1,\"C\":2,\"D\":1,\"A\":1}"
+      },
+      {
+        "name": "AN rn_dx62W8M2b: exactly-one-correct x5 + distinct option texts/keys",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "AN rn_dx62W8M2b: correct-key census >= 3 distinct letters, max <= 5",
+        "ok": true,
+        "detail": "{\"C\":1,\"A\":1,\"B\":2,\"D\":1}"
+      },
+      {
+        "name": "AN rn_25TjVtFjy: exactly-one-correct x10 + distinct option texts/keys",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "AN rn_25TjVtFjy: correct-key census >= 3 distinct letters, max <= 5",
+        "ok": true,
+        "detail": "{\"B\":2,\"C\":3,\"D\":3,\"A\":2}"
+      },
+      {
+        "name": "AN rn_35snKWs7C: exactly-one-correct x10 + distinct option texts/keys",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "AN rn_35snKWs7C: correct-key census >= 3 distinct letters, max <= 5",
+        "ok": true,
+        "detail": "{\"B\":2,\"C\":3,\"D\":3,\"A\":2}"
+      },
+      {
+        "name": "AN rn_N74nsXGBw: exactly-one-correct x10 + distinct option texts/keys",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "AN rn_N74nsXGBw: correct-key census >= 3 distinct letters, max <= 5",
+        "ok": true,
+        "detail": "{\"B\":2,\"C\":3,\"D\":3,\"A\":2}"
+      },
+      {
+        "name": "AN rn_J6rwHvcb9: exactly-one-correct x5 + distinct option texts/keys",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "AN rn_J6rwHvcb9: correct-key census >= 3 distinct letters, max <= 5",
+        "ok": true,
+        "detail": "{\"A\":2,\"C\":2,\"B\":1}"
+      },
+      {
+        "name": "AN rn_MfKYy7mHF: exactly-one-correct x5 + distinct option texts/keys",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "AN rn_MfKYy7mHF: correct-key census >= 3 distinct letters, max <= 5",
+        "ok": true,
+        "detail": "{\"C\":1,\"A\":2,\"B\":2}"
+      },
+      {
+        "name": "AN rn_HhjktGSR3: exactly-one-correct x15 + distinct option texts/keys",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "AN rn_HhjktGSR3: correct-key census >= 3 distinct letters, max <= 5",
+        "ok": true,
+        "detail": "{\"A\":5,\"C\":4,\"B\":4,\"D\":2}"
+      },
+      {
+        "name": "JC rn_HKZzkTMzt: every option explained; distractors named; correct misconception null x15",
+        "ok": true,
+        "detail": "0 violations"
+      },
+      {
+        "name": "JC rn_TPSJT83Gh: every option explained; distractors named; correct misconception null x15",
+        "ok": true,
+        "detail": "0 violations"
+      },
+      {
+        "name": "JC rn_hkV9ncw6z: every option explained; distractors named; correct misconception null x15",
+        "ok": true,
+        "detail": "0 violations"
+      },
+      {
+        "name": "JC rn_ctTgFb5NS: every option explained; distractors named; correct misconception null x5",
+        "ok": true,
+        "detail": "0 violations"
+      },
+      {
+        "name": "JC rn_GVDsPK5gm: every option explained; distractors named; correct misconception null x10",
+        "ok": true,
+        "detail": "0 violations"
+      },
+      {
+        "name": "JC rn_8K4rhNpfV: every option explained; distractors named; correct misconception null x5",
+        "ok": true,
+        "detail": "0 violations"
+      },
+      {
+        "name": "JC rn_dx62W8M2b: every option explained; distractors named; correct misconception null x5",
+        "ok": true,
+        "detail": "0 violations"
+      },
+      {
+        "name": "JC rn_25TjVtFjy: every option explained; distractors named; correct misconception null x10",
+        "ok": true,
+        "detail": "0 violations"
+      },
+      {
+        "name": "JC rn_35snKWs7C: every option explained; distractors named; correct misconception null x10",
+        "ok": true,
+        "detail": "0 violations"
+      },
+      {
+        "name": "JC rn_N74nsXGBw: every option explained; distractors named; correct misconception null x10",
+        "ok": true,
+        "detail": "0 violations"
+      },
+      {
+        "name": "JC rn_J6rwHvcb9: every option explained; distractors named; correct misconception null x5",
+        "ok": true,
+        "detail": "0 violations"
+      },
+      {
+        "name": "JC rn_MfKYy7mHF: every option explained; distractors named; correct misconception null x5",
+        "ok": true,
+        "detail": "0 violations"
+      },
+      {
+        "name": "JC rn_HhjktGSR3: every option explained; distractors named; correct misconception null x15",
+        "ok": true,
+        "detail": "0 violations"
+      },
+      {
+        "name": "SG rn_HKZzkTMzt: lesson specRefs subset of file specPoints",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "SG rn_HKZzkTMzt: every check KP-anchored x27",
+        "ok": true,
+        "detail": "27/27"
+      },
+      {
+        "name": "SG rn_TPSJT83Gh: lesson specRefs subset of file specPoints",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "SG rn_TPSJT83Gh: every check KP-anchored x27",
+        "ok": true,
+        "detail": "27/27"
+      },
+      {
+        "name": "SG rn_hkV9ncw6z: lesson specRefs subset of file specPoints",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "SG rn_hkV9ncw6z: every check KP-anchored x27",
+        "ok": true,
+        "detail": "27/27"
+      },
+      {
+        "name": "SG rn_ctTgFb5NS: lesson specRefs subset of file specPoints",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "SG rn_ctTgFb5NS: every check KP-anchored x9",
+        "ok": true,
+        "detail": "9/9"
+      },
+      {
+        "name": "SG rn_GVDsPK5gm: lesson specRefs subset of file specPoints",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "SG rn_GVDsPK5gm: every check KP-anchored x18",
+        "ok": true,
+        "detail": "18/18"
+      },
+      {
+        "name": "SG rn_8K4rhNpfV: lesson specRefs subset of file specPoints",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "SG rn_8K4rhNpfV: every check KP-anchored x9",
+        "ok": true,
+        "detail": "9/9"
+      },
+      {
+        "name": "SG rn_dx62W8M2b: lesson specRefs subset of file specPoints",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "SG rn_dx62W8M2b: every check KP-anchored x9",
+        "ok": true,
+        "detail": "9/9"
+      },
+      {
+        "name": "SG rn_25TjVtFjy: lesson specRefs subset of file specPoints",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "SG rn_25TjVtFjy: every check KP-anchored x18",
+        "ok": true,
+        "detail": "18/18"
+      },
+      {
+        "name": "SG rn_35snKWs7C: lesson specRefs subset of file specPoints",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "SG rn_35snKWs7C: every check KP-anchored x18",
+        "ok": true,
+        "detail": "18/18"
+      },
+      {
+        "name": "SG rn_N74nsXGBw: lesson specRefs subset of file specPoints",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "SG rn_N74nsXGBw: every check KP-anchored x18",
+        "ok": true,
+        "detail": "18/18"
+      },
+      {
+        "name": "SG rn_J6rwHvcb9: lesson specRefs subset of file specPoints",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "SG rn_J6rwHvcb9: every check KP-anchored x9",
+        "ok": true,
+        "detail": "9/9"
+      },
+      {
+        "name": "SG rn_MfKYy7mHF: lesson specRefs subset of file specPoints",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "SG rn_MfKYy7mHF: every check KP-anchored x9",
+        "ok": true,
+        "detail": "9/9"
+      },
+      {
+        "name": "SG rn_HhjktGSR3: lesson specRefs subset of file specPoints",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "SG rn_HhjktGSR3: every check KP-anchored x27",
+        "ok": true,
+        "detail": "27/27"
+      },
+      {
+        "name": "KW rn_HKZzkTMzt: >=3 distinct grounded keywords per written item x12",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "KW rn_TPSJT83Gh: >=3 distinct grounded keywords per written item x12",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "KW rn_hkV9ncw6z: >=3 distinct grounded keywords per written item x12",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "KW rn_ctTgFb5NS: >=3 distinct grounded keywords per written item x4",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "KW rn_GVDsPK5gm: >=3 distinct grounded keywords per written item x8",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "KW rn_8K4rhNpfV: >=3 distinct grounded keywords per written item x4",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "KW rn_dx62W8M2b: >=3 distinct grounded keywords per written item x4",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "KW rn_25TjVtFjy: >=3 distinct grounded keywords per written item x8",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "KW rn_35snKWs7C: >=3 distinct grounded keywords per written item x8",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "KW rn_N74nsXGBw: >=3 distinct grounded keywords per written item x8",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "KW rn_J6rwHvcb9: >=3 distinct grounded keywords per written item x4",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "KW rn_MfKYy7mHF: >=3 distinct grounded keywords per written item x4",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "KW rn_HhjktGSR3: >=3 distinct grounded keywords per written item x12",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "2.1B rn_HKZzkTMzt: zero 8-gram overlaps vs note body",
+        "ok": true,
+        "detail": "0 hits"
+      },
+      {
+        "name": "2.1B rn_TPSJT83Gh: zero 8-gram overlaps vs note body",
+        "ok": true,
+        "detail": "0 hits"
+      },
+      {
+        "name": "2.1B rn_hkV9ncw6z: zero 8-gram overlaps vs note body",
+        "ok": true,
+        "detail": "0 hits"
+      },
+      {
+        "name": "2.1B rn_ctTgFb5NS: zero 8-gram overlaps vs note body",
+        "ok": true,
+        "detail": "0 hits"
+      },
+      {
+        "name": "2.1B rn_GVDsPK5gm: zero 8-gram overlaps vs note body",
+        "ok": true,
+        "detail": "0 hits"
+      },
+      {
+        "name": "2.1B rn_8K4rhNpfV: zero 8-gram overlaps vs note body",
+        "ok": true,
+        "detail": "0 hits"
+      },
+      {
+        "name": "2.1B rn_dx62W8M2b: zero 8-gram overlaps vs note body",
+        "ok": true,
+        "detail": "0 hits"
+      },
+      {
+        "name": "2.1B rn_25TjVtFjy: zero 8-gram overlaps vs note body",
+        "ok": true,
+        "detail": "0 hits"
+      },
+      {
+        "name": "2.1B rn_35snKWs7C: zero 8-gram overlaps vs note body",
+        "ok": true,
+        "detail": "0 hits"
+      },
+      {
+        "name": "2.1B rn_N74nsXGBw: zero 8-gram overlaps vs note body",
+        "ok": true,
+        "detail": "0 hits"
+      },
+      {
+        "name": "2.1B rn_J6rwHvcb9: zero 8-gram overlaps vs note body",
+        "ok": true,
+        "detail": "0 hits"
+      },
+      {
+        "name": "2.1B rn_MfKYy7mHF: zero 8-gram overlaps vs note body",
+        "ok": true,
+        "detail": "0 hits"
+      },
+      {
+        "name": "2.1B rn_HhjktGSR3: zero 8-gram overlaps vs note body",
+        "ok": true,
+        "detail": "0 hits"
+      },
+      {
+        "name": "NUM rn_HKZzkTMzt: 1 ledger claims re-derived",
+        "ok": true,
+        "detail": "all exact"
+      },
+      {
+        "name": "NUM rn_TPSJT83Gh: 1 ledger claims re-derived",
+        "ok": true,
+        "detail": "all exact"
+      },
+      {
+        "name": "NUM rn_hkV9ncw6z: 11 ledger claims re-derived",
+        "ok": true,
+        "detail": "all exact"
+      },
+      {
+        "name": "NUM rn_ctTgFb5NS: 1 ledger claims re-derived",
+        "ok": true,
+        "detail": "all exact"
+      },
+      {
+        "name": "NUM rn_GVDsPK5gm: 1 ledger claims re-derived",
+        "ok": true,
+        "detail": "all exact"
+      },
+      {
+        "name": "NUM rn_8K4rhNpfV: 1 ledger claims re-derived",
+        "ok": true,
+        "detail": "all exact"
+      },
+      {
+        "name": "NUM rn_dx62W8M2b: 1 ledger claims re-derived",
+        "ok": true,
+        "detail": "all exact"
+      },
+      {
+        "name": "NUM rn_25TjVtFjy: 1 ledger claims re-derived",
+        "ok": true,
+        "detail": "all exact"
+      },
+      {
+        "name": "NUM rn_35snKWs7C: 1 ledger claims re-derived",
+        "ok": true,
+        "detail": "all exact"
+      },
+      {
+        "name": "NUM rn_N74nsXGBw: 1 ledger claims re-derived",
+        "ok": true,
+        "detail": "all exact"
+      },
+      {
+        "name": "NUM rn_J6rwHvcb9: 11 ledger claims re-derived",
+        "ok": true,
+        "detail": "all exact"
+      },
+      {
+        "name": "NUM rn_MfKYy7mHF: 5 ledger claims re-derived",
+        "ok": true,
+        "detail": "all exact"
+      },
+      {
+        "name": "NUM rn_HhjktGSR3: 9 ledger claims re-derived",
+        "ok": true,
+        "detail": "all exact"
+      },
+      {
+        "name": "C-6 chemistry sources x112 vs guided-lesson/0.6 (union)",
+        "ok": true,
+        "detail": "112/112"
+      },
+      {
+        "name": "C-6 chemistry lessons x112 vs hub/lesson-import/1.5 (union)",
+        "ok": true,
+        "detail": "112/112"
+      },
+      {
+        "name": "C-6 chemistry packages x112 vs sme-question-package/1.2 (union)",
+        "ok": true,
+        "detail": "112/112"
+      },
+      {
+        "name": "written-kind invariants rn_HKZzkTMzt (x12)",
+        "ok": true,
+        "detail": "12/12"
+      },
+      {
+        "name": "C-5 checkRefs<->questions 1:1 rn_HKZzkTMzt",
+        "ok": true,
+        "detail": "27 refs / 27 questions"
+      },
+      {
+        "name": "B2 target rn_HKZzkTMzt: every module carries exactly 9 checkRefs",
+        "ok": true,
+        "detail": "9,9,9"
+      },
+      {
+        "name": "C-6 lesson rn_HKZzkTMzt vs hub/lesson-import/1.5",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 package rn_HKZzkTMzt vs sme-question-package/1.2",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "written-kind invariants rn_TPSJT83Gh (x12)",
+        "ok": true,
+        "detail": "12/12"
+      },
+      {
+        "name": "C-5 checkRefs<->questions 1:1 rn_TPSJT83Gh",
+        "ok": true,
+        "detail": "27 refs / 27 questions"
+      },
+      {
+        "name": "B2 target rn_TPSJT83Gh: every module carries exactly 9 checkRefs",
+        "ok": true,
+        "detail": "9,9,9"
+      },
+      {
+        "name": "C-6 lesson rn_TPSJT83Gh vs hub/lesson-import/1.5",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 package rn_TPSJT83Gh vs sme-question-package/1.2",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "written-kind invariants rn_hkV9ncw6z (x12)",
+        "ok": true,
+        "detail": "12/12"
+      },
+      {
+        "name": "C-5 checkRefs<->questions 1:1 rn_hkV9ncw6z",
+        "ok": true,
+        "detail": "27 refs / 27 questions"
+      },
+      {
+        "name": "B2 target rn_hkV9ncw6z: every module carries exactly 9 checkRefs",
+        "ok": true,
+        "detail": "9,9,9"
+      },
+      {
+        "name": "C-6 lesson rn_hkV9ncw6z vs hub/lesson-import/1.5",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 package rn_hkV9ncw6z vs sme-question-package/1.2",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "written-kind invariants rn_ctTgFb5NS (x4)",
+        "ok": true,
+        "detail": "4/4"
+      },
+      {
+        "name": "C-5 checkRefs<->questions 1:1 rn_ctTgFb5NS",
+        "ok": true,
+        "detail": "9 refs / 9 questions"
+      },
+      {
+        "name": "B2 target rn_ctTgFb5NS: every module carries exactly 9 checkRefs",
+        "ok": true,
+        "detail": "9"
+      },
+      {
+        "name": "C-6 lesson rn_ctTgFb5NS vs hub/lesson-import/1.5",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 package rn_ctTgFb5NS vs sme-question-package/1.2",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "written-kind invariants rn_GVDsPK5gm (x8)",
+        "ok": true,
+        "detail": "8/8"
+      },
+      {
+        "name": "C-5 checkRefs<->questions 1:1 rn_GVDsPK5gm",
+        "ok": true,
+        "detail": "18 refs / 18 questions"
+      },
+      {
+        "name": "B2 target rn_GVDsPK5gm: every module carries exactly 9 checkRefs",
+        "ok": true,
+        "detail": "9,9"
+      },
+      {
+        "name": "C-6 lesson rn_GVDsPK5gm vs hub/lesson-import/1.5",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 package rn_GVDsPK5gm vs sme-question-package/1.2",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "written-kind invariants rn_8K4rhNpfV (x4)",
+        "ok": true,
+        "detail": "4/4"
+      },
+      {
+        "name": "C-5 checkRefs<->questions 1:1 rn_8K4rhNpfV",
+        "ok": true,
+        "detail": "9 refs / 9 questions"
+      },
+      {
+        "name": "B2 target rn_8K4rhNpfV: every module carries exactly 9 checkRefs",
+        "ok": true,
+        "detail": "9"
+      },
+      {
+        "name": "C-6 lesson rn_8K4rhNpfV vs hub/lesson-import/1.5",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 package rn_8K4rhNpfV vs sme-question-package/1.2",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "written-kind invariants rn_dx62W8M2b (x4)",
+        "ok": true,
+        "detail": "4/4"
+      },
+      {
+        "name": "C-5 checkRefs<->questions 1:1 rn_dx62W8M2b",
+        "ok": true,
+        "detail": "9 refs / 9 questions"
+      },
+      {
+        "name": "B2 target rn_dx62W8M2b: every module carries exactly 9 checkRefs",
+        "ok": true,
+        "detail": "9"
+      },
+      {
+        "name": "C-6 lesson rn_dx62W8M2b vs hub/lesson-import/1.5",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 package rn_dx62W8M2b vs sme-question-package/1.2",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "written-kind invariants rn_25TjVtFjy (x8)",
+        "ok": true,
+        "detail": "8/8"
+      },
+      {
+        "name": "C-5 checkRefs<->questions 1:1 rn_25TjVtFjy",
+        "ok": true,
+        "detail": "18 refs / 18 questions"
+      },
+      {
+        "name": "B2 target rn_25TjVtFjy: every module carries exactly 9 checkRefs",
+        "ok": true,
+        "detail": "9,9"
+      },
+      {
+        "name": "C-6 lesson rn_25TjVtFjy vs hub/lesson-import/1.5",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 package rn_25TjVtFjy vs sme-question-package/1.2",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "written-kind invariants rn_35snKWs7C (x8)",
+        "ok": true,
+        "detail": "8/8"
+      },
+      {
+        "name": "C-5 checkRefs<->questions 1:1 rn_35snKWs7C",
+        "ok": true,
+        "detail": "18 refs / 18 questions"
+      },
+      {
+        "name": "B2 target rn_35snKWs7C: every module carries exactly 9 checkRefs",
+        "ok": true,
+        "detail": "9,9"
+      },
+      {
+        "name": "C-6 lesson rn_35snKWs7C vs hub/lesson-import/1.5",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 package rn_35snKWs7C vs sme-question-package/1.2",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "written-kind invariants rn_N74nsXGBw (x8)",
+        "ok": true,
+        "detail": "8/8"
+      },
+      {
+        "name": "C-5 checkRefs<->questions 1:1 rn_N74nsXGBw",
+        "ok": true,
+        "detail": "18 refs / 18 questions"
+      },
+      {
+        "name": "B2 target rn_N74nsXGBw: every module carries exactly 9 checkRefs",
+        "ok": true,
+        "detail": "9,9"
+      },
+      {
+        "name": "C-6 lesson rn_N74nsXGBw vs hub/lesson-import/1.5",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 package rn_N74nsXGBw vs sme-question-package/1.2",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "written-kind invariants rn_J6rwHvcb9 (x4)",
+        "ok": true,
+        "detail": "4/4"
+      },
+      {
+        "name": "C-5 checkRefs<->questions 1:1 rn_J6rwHvcb9",
+        "ok": true,
+        "detail": "9 refs / 9 questions"
+      },
+      {
+        "name": "B2 target rn_J6rwHvcb9: every module carries exactly 9 checkRefs",
+        "ok": true,
+        "detail": "9"
+      },
+      {
+        "name": "C-6 lesson rn_J6rwHvcb9 vs hub/lesson-import/1.5",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 package rn_J6rwHvcb9 vs sme-question-package/1.2",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "written-kind invariants rn_MfKYy7mHF (x4)",
+        "ok": true,
+        "detail": "4/4"
+      },
+      {
+        "name": "C-5 checkRefs<->questions 1:1 rn_MfKYy7mHF",
+        "ok": true,
+        "detail": "9 refs / 9 questions"
+      },
+      {
+        "name": "B2 target rn_MfKYy7mHF: every module carries exactly 9 checkRefs",
+        "ok": true,
+        "detail": "9"
+      },
+      {
+        "name": "C-6 lesson rn_MfKYy7mHF vs hub/lesson-import/1.5",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 package rn_MfKYy7mHF vs sme-question-package/1.2",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "written-kind invariants rn_HhjktGSR3 (x12)",
+        "ok": true,
+        "detail": "12/12"
+      },
+      {
+        "name": "C-5 checkRefs<->questions 1:1 rn_HhjktGSR3",
+        "ok": true,
+        "detail": "27 refs / 27 questions"
+      },
+      {
+        "name": "B2 target rn_HhjktGSR3: every module carries exactly 9 checkRefs",
+        "ok": true,
+        "detail": "9,9,9"
+      },
+      {
+        "name": "C-6 lesson rn_HhjktGSR3 vs hub/lesson-import/1.5",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 package rn_HhjktGSR3 vs sme-question-package/1.2",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "prior manifest is v24",
+        "ok": true,
+        "detail": "80"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_RpyMnS5nq hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "4be97f7c9763/14459B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_RpyMnS5nq sme-question-package",
+        "ok": true,
+        "detail": "11c39840eeb3/19303B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_k9wr3prcg hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "d3a4abea468b/10458B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_k9wr3prcg sme-question-package",
+        "ok": true,
+        "detail": "0f36d5976dce/20515B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_pfndTqR6D hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "ddeac6cec1f7/9781B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_pfndTqR6D sme-question-package",
+        "ok": true,
+        "detail": "c9fc3e3825d9/20355B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_CpJZQWzbv hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "1c4f9bc552fc/10008B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_CpJZQWzbv sme-question-package",
+        "ok": true,
+        "detail": "79f7c8687709/19740B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_5hfYYFrc2 hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "60d8b44384d4/11928B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_5hfYYFrc2 sme-question-package",
+        "ok": true,
+        "detail": "85f000ad21c8/20204B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_GxNWbSMqk hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "574a6cb53b81/11103B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_GxNWbSMqk sme-question-package",
+        "ok": true,
+        "detail": "c1b26dde1362/19744B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_ZgGMNrRGB hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "891fc481b5c6/9289B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_ZgGMNrRGB sme-question-package",
+        "ok": true,
+        "detail": "fb8874d146d8/19689B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_nyV7C6zmy hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "f9fe939274b8/12464B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_nyV7C6zmy sme-question-package",
+        "ok": true,
+        "detail": "bded73732cbd/18962B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_4zdmGRWTg hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "da2559a5a51a/10681B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_4zdmGRWTg sme-question-package",
+        "ok": true,
+        "detail": "a413e9872f5f/17882B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_K3p2R3ykw hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "610918ca5e26/9952B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_K3p2R3ykw sme-question-package",
+        "ok": true,
+        "detail": "fd6823098535/17417B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_gDy2qTkY2 hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "5eec5ed1da5b/9436B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_gDy2qTkY2 sme-question-package",
+        "ok": true,
+        "detail": "2c94ef7f7b56/16296B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_2R3NrjGfJ hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "a24f5d6287ed/8998B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_2R3NrjGfJ sme-question-package",
+        "ok": true,
+        "detail": "8743c248b603/15790B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_ZCGJsYwy6 hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "6ea281f9f81b/9291B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_ZCGJsYwy6 sme-question-package",
+        "ok": true,
+        "detail": "e4faf017c52d/16365B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_Mrfn29ZgQ hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "f2d301fb4d3a/9241B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_Mrfn29ZgQ sme-question-package",
+        "ok": true,
+        "detail": "ea1e16e3d7b6/16769B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_kN63sqWsc hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "fa7830722204/10172B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_kN63sqWsc sme-question-package",
+        "ok": true,
+        "detail": "39977967eeef/16206B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_nC3BswtJz hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "b814dd538fab/9646B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_nC3BswtJz sme-question-package",
+        "ok": true,
+        "detail": "7fcf99734c51/16398B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_pqp4mfpHz hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "17faccfc8db1/12123B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_pqp4mfpHz sme-question-package",
+        "ok": true,
+        "detail": "c07ad8885f85/18108B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_NfCjFmPfm hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "ad3e515e2d0f/10375B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_NfCjFmPfm sme-question-package",
+        "ok": true,
+        "detail": "af2b84147cf8/17967B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_8wqvPtsCC hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "4611a5aee558/15084B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_8wqvPtsCC sme-question-package",
+        "ok": true,
+        "detail": "77fa5bc3b0bf/27184B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_RQK2MW3zR hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "ad8e4b04332e/9772B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_RQK2MW3zR sme-question-package",
+        "ok": true,
+        "detail": "d6f5194d7aab/19049B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_jzQZQcPRQ hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "c1b97cb4c5a8/10502B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_jzQZQcPRQ sme-question-package",
+        "ok": true,
+        "detail": "92d61ab3083a/17933B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_zn4NVCRcT hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "d44d080e5a8a/13127B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_zn4NVCRcT sme-question-package",
+        "ok": true,
+        "detail": "05b71896a87f/18586B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_TPDdhwDYs hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "864a4066283e/6585B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_TPDdhwDYs sme-question-package",
+        "ok": true,
+        "detail": "ad490f98c3d1/9210B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_NZ5D2Mx9S hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "de4f03004f6d/11463B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_NZ5D2Mx9S sme-question-package",
+        "ok": true,
+        "detail": "024d3ef29d7c/17027B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_BcxDP3RzX hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "b9cdfb84c6cd/10354B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_BcxDP3RzX sme-question-package",
+        "ok": true,
+        "detail": "f03b8abb5c95/16558B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_64pQyK4tm hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "582d2539ec75/6762B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_64pQyK4tm sme-question-package",
+        "ok": true,
+        "detail": "0c73caf207d6/8436B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_BFQBSmVz2 hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "f59af93de07b/12146B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_BFQBSmVz2 sme-question-package",
+        "ok": true,
+        "detail": "677642a3948b/17677B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_ynsstfBQn hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "508326ac2774/10434B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_ynsstfBQn sme-question-package",
+        "ok": true,
+        "detail": "bbb14f817d27/17376B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_PyxMmTd6S hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "dd58abf1d20d/9679B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_PyxMmTd6S sme-question-package",
+        "ok": true,
+        "detail": "4212a563b682/17116B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_WzQZfyNNF hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "c74e7faccb11/15231B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_WzQZfyNNF sme-question-package",
+        "ok": true,
+        "detail": "685737a38fa5/25649B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_gYqbXsJPf hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "cfc97b21cc17/11208B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_gYqbXsJPf sme-question-package",
+        "ok": true,
+        "detail": "cf8ddc2bb2a9/16555B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_PZZFkywYb hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "73eb5d1a107f/9366B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_PZZFkywYb sme-question-package",
+        "ok": true,
+        "detail": "08a876d11b76/16690B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_FfvmFrDdh hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "f1327bc16789/5183B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_FfvmFrDdh sme-question-package",
+        "ok": true,
+        "detail": "1603de9f8d06/8525B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_kxw7Ms4Pr hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "b8bd18cd8f71/12663B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_kxw7Ms4Pr sme-question-package",
+        "ok": true,
+        "detail": "33c2650974f0/24228B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_z4nNPFw97 hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "a9c83127d7f1/5230B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_z4nNPFw97 sme-question-package",
+        "ok": true,
+        "detail": "f5a1d1d2251f/8679B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_NgxJhPpm5 hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "ec001a6954e2/8106B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_NgxJhPpm5 sme-question-package",
+        "ok": true,
+        "detail": "296632b77f90/15591B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_qG9dxcQrR hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "cdbb15bae9cb/8391B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_qG9dxcQrR sme-question-package",
+        "ok": true,
+        "detail": "3b8aad6473f8/16087B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_ws8NtMW3Q hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "ded309e4d696/8713B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_ws8NtMW3Q sme-question-package",
+        "ok": true,
+        "detail": "368a253e4d57/16539B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_NhRw6hdrV hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "e93eb509fb08/12690B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_NhRw6hdrV sme-question-package",
+        "ok": true,
+        "detail": "f65f90a2e87f/23738B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_W3QnDKVK9 hub-lesson-import-1.5",
+        "ok": true,
+        "detail": "5ee1bfb538a8/9507B"
+      },
+      {
+        "name": "prior artifact sha256/bytes exact @ HEAD: rn_W3QnDKVK9 sme-question-package",
+        "ok": true,
+        "detail": "7e6eab8605ab/16158B"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_RpyMnS5nq",
+        "ok": true,
+        "detail": "rn_RpyMnS5nqWSRWXXG: 42dea4b02c94"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_k9wr3prcg",
+        "ok": true,
+        "detail": "rn_k9wr3prcgSBg5vfw: 008f6ba0e4fe"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_pfndTqR6D",
+        "ok": true,
+        "detail": "rn_pfndTqR6DTJGZ8xQ: f6c714df8a6b"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_CpJZQWzbv",
+        "ok": true,
+        "detail": "rn_CpJZQWzbvMcM8fw3: 8622909b8919"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_5hfYYFrc2",
+        "ok": true,
+        "detail": "rn_5hfYYFrc2XjMJCrq: 1f730d955353"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_GxNWbSMqk",
+        "ok": true,
+        "detail": "rn_GxNWbSMqkTN4zgZB: a723060ae013"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_ZgGMNrRGB",
+        "ok": true,
+        "detail": "rn_ZgGMNrRGBKvYxxFf: 9c1bbda1537a"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_nyV7C6zmy",
+        "ok": true,
+        "detail": "rn_nyV7C6zmyKXWJjKg: ae8f0ea1bbf5"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_4zdmGRWTg",
+        "ok": true,
+        "detail": "rn_4zdmGRWTg5ksK44N: f561722339e9"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_K3p2R3ykw",
+        "ok": true,
+        "detail": "rn_K3p2R3ykwwvHV9dp: 1529173b48c1"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_gDy2qTkY2",
+        "ok": true,
+        "detail": "rn_gDy2qTkY26r5sMtd: 670c6a746401"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_2R3NrjGfJ",
+        "ok": true,
+        "detail": "rn_2R3NrjGfJJY29Hzv: 810021ab11ac"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_ZCGJsYwy6",
+        "ok": true,
+        "detail": "rn_ZCGJsYwy6S6FbbbW: af8e349a88c4"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_Mrfn29ZgQ",
+        "ok": true,
+        "detail": "rn_Mrfn29ZgQMq8th5P: e30896b535e9"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_kN63sqWsc",
+        "ok": true,
+        "detail": "rn_kN63sqWsc9QdHSVx: 9eabc991d80a"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_nC3BswtJz",
+        "ok": true,
+        "detail": "rn_nC3BswtJzYw8k6nX: 7646dd723d25"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_pqp4mfpHz",
+        "ok": true,
+        "detail": "rn_pqp4mfpHzGVtrjTT: c6cd3d7d707c"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_NfCjFmPfm",
+        "ok": true,
+        "detail": "rn_NfCjFmPfmMQ8pQSw: 2358e8555654"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_8wqvPtsCC",
+        "ok": true,
+        "detail": "rn_8wqvPtsCCh3gdJN5: 1e03e6820618"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_RQK2MW3zR",
+        "ok": true,
+        "detail": "rn_RQK2MW3zRPNNzwtc: 95cfe4ffcd30"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_jzQZQcPRQ",
+        "ok": true,
+        "detail": "rn_jzQZQcPRQkJvdYwJ: 16cf00395b2f"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_zn4NVCRcT",
+        "ok": true,
+        "detail": "rn_zn4NVCRcTSNv8sRZ: f464bb5b0829"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_TPDdhwDYs",
+        "ok": true,
+        "detail": "rn_TPDdhwDYsrWgQB7R: cc91505d3d09"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_NZ5D2Mx9S",
+        "ok": true,
+        "detail": "rn_NZ5D2Mx9SXQY98wy: b7da25c1e399"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_BcxDP3RzX",
+        "ok": true,
+        "detail": "rn_BcxDP3RzXk3k7rwf: cdbd4ac42c55"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_64pQyK4tm",
+        "ok": true,
+        "detail": "rn_64pQyK4tm9P9rdKN: f5dd2e5d8b42"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_BFQBSmVz2",
+        "ok": true,
+        "detail": "rn_BFQBSmVz2xFZVsB6: a3b4f5556961"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_ynsstfBQn",
+        "ok": true,
+        "detail": "rn_ynsstfBQngnx2pgq: 59183c8855fe"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_PyxMmTd6S",
+        "ok": true,
+        "detail": "rn_PyxMmTd6S9pMDTt6: 6faa39227cda"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_WzQZfyNNF",
+        "ok": true,
+        "detail": "rn_WzQZfyNNFFFFghbF: 836d26b4b4a5"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_gYqbXsJPf",
+        "ok": true,
+        "detail": "rn_gYqbXsJPfrqtg5yQ: 21a5bec0ca67"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_PZZFkywYb",
+        "ok": true,
+        "detail": "rn_PZZFkywYbmP9bwyh: 3c2109af70aa"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_FfvmFrDdh",
+        "ok": true,
+        "detail": "rn_FfvmFrDdhSsMk9rm: a4820bb8669c"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_kxw7Ms4Pr",
+        "ok": true,
+        "detail": "rn_kxw7Ms4Pr7dQJykY: c3ec80ecc745"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_z4nNPFw97",
+        "ok": true,
+        "detail": "rn_z4nNPFw97V9fDkyS: 0c397c02c751"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_NgxJhPpm5",
+        "ok": true,
+        "detail": "rn_NgxJhPpm5Zs7kFSz: 26b3fa80f9fa"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_qG9dxcQrR",
+        "ok": true,
+        "detail": "rn_qG9dxcQrRJJVDQf7: a44c276e4d2a"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_ws8NtMW3Q",
+        "ok": true,
+        "detail": "rn_ws8NtMW3QwCs73Gh: 1bb66c0f4acc"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_NhRw6hdrV",
+        "ok": true,
+        "detail": "rn_NhRw6hdrVD4vmNJw: 0060d84d44c1"
+      },
+      {
+        "name": "prior stream re-derivation matches v24 INT-3: rn_W3QnDKVK9",
+        "ok": true,
+        "detail": "rn_W3QnDKVK9mMQ3Mhg: 548e6808f291"
+      },
+      {
+        "name": "INT-3 carries ALL 53 pack rows (the v19-lesson law)",
+        "ok": true,
+        "detail": "53"
+      },
+      {
+        "name": "wave subtotals reproduce the v24 of-record values for wave-0..wave-5",
+        "ok": true,
+        "detail": "w0 42dea4b02c94 w1 92f368945a83 w2 86911ed8c7e7 w3 ba1b1d218dfe w4 6601709adae4 w5 463d40676629"
+      },
+      {
+        "name": "B2 identity arithmetic: 9 = 5+2+1+1 per lesson (cumulative)",
+        "ok": true,
+        "detail": "{\"notes\":53,\"lessons\":105,\"checks\":945,\"keyPoints\":518,\"distractors\":1575,\"glossaryTerms\":239,\"figures\":168,\"workedExamples_populated\":27,\"workedExamples_null\":26,\"figures_module_mapped\":163,\"figures_note_level\":5,\"checks_mcq\":525,\"written_recall\":210,\"written_explain_why\":105,\"written_application\":"
+      },
+      {
+        "name": "cumulative delta vs v24: +13 notes, +25 lessons, +225 checks",
+        "ok": true,
+        "detail": "{\"notes\":53,\"lessons\":105,\"checks\":945,\"w6L\":25,\"w6C\":225}"
+      },
+      {
+        "name": "manifest v25 lists 106 artifacts",
+        "ok": true,
+        "detail": "106"
+      }
+    ]
+  },
+  "merge_order": "resources PR (this branch) merges to main FIRST; the hub PR (FEED physics-wave6-v25 + landed artifacts + re-issued guided-import.json) merges only after; wave-7 buckets remain operator-gated and are NOT in this tranche (B4: one wave per gate)",
+  "hub_side_note": "the hub renderer is course-generic; the physics FEEDs physics-stagea-v18 / physics-wave1-v19 / physics-wave1-v20 / physics-wave2-v21 / physics-wave3-v22 / physics-wave4-v23 / physics-wave5-v24 already exercised the parameterized runner — wave-6 adds one FEED entry (physics-wave6-v25) with feed-gated constants only, chemistry-preserving defaults untouched",
+  "disclosures": [
+    "authoring continuity: modules A-C of the wave-6 content (10 notes) were written in the operator session's first window and never pre-batteried; the continuation window authored module D (3 notes: 3-2-4 Snell's Law, 3-2-5 Core Practical: Investigating Snell's law, 3-2-6 Total Internal Reflection), rebuilt the author transform and ran the FIRST full pre-commit battery — 245/245 gates GREEN before commit A; several authored surfaces were reworded at that battery to satisfy the 2.1B learner-surface law (definitions of amplitude/wavelength/time period, the law-of-reflection phrasing, the EM-band order lists) and the KW grounding law",
+    "AN re-lettering: six notes authored with clustered correct keys (census max share up to 14) were re-lettered at the author transform under a DECLARED deterministic rotation table (ROTATE in the tooling), preserving option semantics while spreading correct keys (per-note census >= 3 distinct letters, max <= 5); the rotation is a transform step of record, not a hand edit",
+    "written-check misconceptionClass: the authored modules carry mc classes on MCQ checks; written checks receive their misconceptionClass mechanically by kind at the transform (recall -> 'definition recall', explain-why -> 'evaluation reasoning', application -> 'application transfer') — a declared transform convention of this wave, stream-tokened like any other field",
+    "figures mapping law: ids fig-01..fig-NN in bodyMd image order; url re-written to the main/ form of the 0.6 schema pattern; binding derived mechanically (sole-lesson for single-lesson notes, exact sourceHeading match then normalized-substring fallback otherwise) and cross-checked against the authored figIdx intent with a fail-closed diff (zero mismatches at run); figures left unclaimed by the two-heading sourceHeadings cap sit at note level (moduleIds [], binding 'note-level' per the 0.6 schema's page-fallback mode) — exact counts in the INT-3 census (figures_module_mapped / figures_note_level)",
+    "spec text provenance: all 20 wave-6 spec texts (3.2..3.9, 3.10..3.23 subset per bucket rows) are the note bodies' own Spec-point block lines carried verbatim (the two wrapped lines — 3.18 and 3.22 — are joined at the line wrap with a single space, disclosed); code order follows the register rows' specPointCodes",
+    "executed_this_wave bucket-size law: the frozen partition of the wave-1 contract is honored byte-for-byte; W6 = 13 notes as frozen (8 electromagnetic-spectrum-side + 5 reflection-and-refraction-side, the 3-2-1 Light & Sound note included)",
+    "mid-flight race disclosed: hub main moved 8165f696 -> 30a5ce59 during the wave (PR #671 T-SM-ROLLOUT merge + #672/#673 T-BOOK-069 strength-pack lanes + a worklog union) — census at fetch: ZERO files under apps/hub/content/igcse-physics-19/ and apps/hub/scripts/import_guided/run_import.mjs; resources main did NOT move (d0f6ebbb at open, at branch cut and at push); race-guard re-checks due at merge",
+    "between the wave-5 and wave-6 windows the sandbox was recycled (container rootfs swap): the wave-5 clones and ajvkit were lost; the wave-6 clones were rebuilt fetch-first — resources as a blobless sparse clone of the integration namespace (lazy blob fetches verified against the pinned tree), the hub in full; the 13 authored wave-6 sources were pre-batteried 245/245 before commit A",
+    "pat advisory carried from the wave-5 of-record: the session credential (PAT, one-shot inline use per command, never persisted) remains VALID — revoke/rotate advised"
+  ]
+}

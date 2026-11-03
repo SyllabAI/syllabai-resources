@@ -1,0 +1,339 @@
+{
+  "format": "guided-lesson/0.6",
+  "noteRef": {
+    "noteId": "rn_J6rwHvcb9zhBpJCM",
+    "corpusVersion": "sme-revision-notes-igcse-physics-19-2026-09-17",
+    "topicTitle": "3. Waves",
+    "subtopicTitle": "Reflection & Refraction",
+    "sourceUrl": "https://www.savemyexams.com/igcse/physics/edexcel/19/revision-notes/3-waves/3-2-reflection-and-refraction/3-2-4-snells-law"
+  },
+  "specPoints": [
+    {
+      "code": "3.18",
+      "text": "know and use the relationship between refractive index, angle of incidence and angle of refraction: n = sin i / sin r"
+    }
+  ],
+  "primer": {
+    "text": "Refraction bends a light ray when it crosses into a new material, and Snell's law turns that bending into a calculation. One ratio — the refractive index — ties the sine of the incidence angle to the sine of the refraction angle. Rearranged, it predicts how sharply a ray bends at any boundary. This lesson defines the ratio, works the equation both ways and explains why every material lands above 1.",
+    "prerequisiteSubtopic": "Reflection & Refraction"
+  },
+  "lessons": [
+    {
+      "title": "Snell's law",
+      "sourceHeadings": [
+        "Snell's law",
+        "Refractive index"
+      ],
+      "specRefs": [
+        "3.18"
+      ],
+      "opening": "Draw any ray hitting a boundary and two angles matter: one on the way in, one on the way out. Snell's law says the sines of those angles keep a fixed ratio, and that ratio is the material's refractive index. Because it compares two speeds, the index is a bare number — always above 1, larger for optically denser materials, and it works for every boundary light can cross.",
+      "keyPoints": [
+        "Snell's law links the refractive index to the angles of incidence and refraction: n = sin i / sin r.",
+        "The refractive index compares the speed of light in a vacuum with the slower speed of light inside the material.",
+        "The refractive index is always larger than 1, differs between materials and has no units because it is a ratio.",
+        "More optically dense materials have higher refractive indices: about 2.4 for diamond and about 1.5 for glass."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Snell's law says dividing the sine of the incidence angle by the sine of the refraction angle gives the refractive index, a fixed number for the material.",
+          "analogy": "A shopping receipt: the ratio of two prices gives one fixed exchange rate, whatever amounts you trade.",
+          "examPointer": "Quote the equation as n = sin i / sin r and name n as the refractive index — that alone often earns the first mark."
+        },
+        "medium": {
+          "restatement": "The index compares the vacuum speed of light with the slower speed inside the material, so it is a ratio with no units, always greater than 1 and bigger for optically denser materials.",
+          "analogy": "A marathon runner versus a wader: the same crossing takes longer through the pond, and the delay factor is the index.",
+          "examPointer": "When a question asks why the index has no units, answer that it is one speed divided by another — a pure ratio."
+        }
+      },
+      "check": [
+        {
+          "stem": "In Snell's law the ratio n = sin i / sin r is called:",
+          "misconceptionClass": "symbol recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "the refractive index of the material",
+              "correct": true,
+              "explanation": "n names the material's refractive index, the fixed ratio in Snell's law.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "the speed of light in the material",
+              "correct": false,
+              "explanation": "The speed is one ingredient of the ratio, not the ratio itself.",
+              "misconception": "quantity swap"
+            },
+            {
+              "key": "C",
+              "text": "the number of refractions per second",
+              "correct": false,
+              "explanation": "Refraction is not counted per second; n is a speed ratio.",
+              "misconception": "quantity invention"
+            },
+            {
+              "key": "D",
+              "text": "the angle between the ray and the normal",
+              "correct": false,
+              "explanation": "Those are i and r; n is not an angle.",
+              "misconception": "symbol swap"
+            }
+          ]
+        },
+        {
+          "stem": "Light passes from a vacuum into glass. Inside the glass the light travels:",
+          "misconceptionClass": "index meaning",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "faster than it did in the vacuum",
+              "correct": false,
+              "explanation": "No material speeds light up beyond its vacuum speed.",
+              "misconception": "direction slip"
+            },
+            {
+              "key": "B",
+              "text": "at exactly the same speed",
+              "correct": false,
+              "explanation": "The glass slows the light; that is why its refractive index exceeds 1.",
+              "misconception": "invariance myth"
+            },
+            {
+              "key": "C",
+              "text": "slower than it did in the vacuum",
+              "correct": true,
+              "explanation": "The refractive index compares the vacuum speed with the slower speed inside the material.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "in bursts whose average is unpredictable",
+              "correct": false,
+              "explanation": "The slowing is steady and predictable, not burst-like.",
+              "misconception": "mechanism invention"
+            }
+          ]
+        },
+        {
+          "stem": "A ray meets a glass block of refractive index 1.53 at 15° to the normal. Given sin 15° = 0.259, the value of sin r is:",
+          "misconceptionClass": "rearrangement arithmetic",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "0.396",
+              "correct": false,
+              "explanation": "That multiplies instead of divides: 0.259 x 1.53.",
+              "misconception": "rearrangement inversion"
+            },
+            {
+              "key": "B",
+              "text": "0.169",
+              "correct": true,
+              "explanation": "sin r = sin i / n = 0.259 / 1.53 = 0.169 (3 d.p.).",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "5.91",
+              "correct": false,
+              "explanation": "That divides the other way round: 1.53 / 0.259.",
+              "misconception": "rearrangement inversion"
+            },
+            {
+              "key": "D",
+              "text": "1.789",
+              "correct": false,
+              "explanation": "That adds the two values instead of dividing.",
+              "misconception": "operation slip"
+            }
+          ]
+        },
+        {
+          "stem": "Which statement about refractive index is correct?",
+          "misconceptionClass": "property recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "It is always larger than 1 and has no units.",
+              "correct": true,
+              "explanation": "A vacuum speed divided by a smaller material speed is a unitless ratio above 1.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "It is always smaller than 1.",
+              "correct": false,
+              "explanation": "Light never travels faster in a material than in a vacuum, so the ratio cannot fall below 1.",
+              "misconception": "direction slip"
+            },
+            {
+              "key": "C",
+              "text": "It is measured in degrees.",
+              "correct": false,
+              "explanation": "The angles are in degrees; the index is a unitless ratio.",
+              "misconception": "unit invention"
+            },
+            {
+              "key": "D",
+              "text": "It is identical for every transparent material.",
+              "correct": false,
+              "explanation": "The index differs between materials: about 1.5 for glass, about 2.4 for diamond.",
+              "misconception": "overgeneralisation"
+            }
+          ]
+        },
+        {
+          "stem": "The angle of refraction is measured between the refracted ray and:",
+          "misconceptionClass": "geometry recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "the boundary surface",
+              "correct": false,
+              "explanation": "Angles in refraction are measured from the normal, not the surface.",
+              "misconception": "surface-normal swap"
+            },
+            {
+              "key": "B",
+              "text": "the incident ray",
+              "correct": false,
+              "explanation": "The incident ray defines the incidence angle, not the refraction angle.",
+              "misconception": "ray confusion"
+            },
+            {
+              "key": "C",
+              "text": "the normal",
+              "correct": true,
+              "explanation": "Both i and r are measured from the normal at the boundary.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "the ray box aperture",
+              "correct": false,
+              "explanation": "Equipment plays no role in defining the angles.",
+              "misconception": "context slip"
+            }
+          ]
+        },
+        {
+          "stem": "State Snell's law as an equation and say what each symbol represents.",
+          "misconceptionClass": "definition recall",
+          "kind": "recall",
+          "modelAnswer": "n = sin i / sin r, where n is the refractive index of the material, i is the angle of incidence and r is the angle of refraction.",
+          "keywords": [
+            "refractive",
+            "index",
+            "angle",
+            "incidence",
+            "refraction"
+          ]
+        },
+        {
+          "stem": "State two refractive index values quoted in this lesson and the materials they belong to.",
+          "misconceptionClass": "definition recall",
+          "kind": "recall",
+          "modelAnswer": "About 2.4 for diamond and about 1.5 for glass.",
+          "keywords": [
+            "2.4",
+            "diamond",
+            "1.5",
+            "glass"
+          ]
+        },
+        {
+          "stem": "Explain why the refractive index of a material is always greater than 1.",
+          "misconceptionClass": "evaluation reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "Light travels fastest in a vacuum, so every material slows it down; the refractive index divides the vacuum speed by the slower material speed, and a bigger number divided by a smaller one always lands above 1.",
+          "keywords": [
+            "vacuum",
+            "speed",
+            "divides",
+            "slower",
+            "above"
+          ]
+        },
+        {
+          "stem": "A ray strikes a transparent block at 40° to the normal and refracts at 25° inside. Show that the block behaves like a typical glass, whose refractive index is about 1.5.",
+          "misconceptionClass": "application transfer",
+          "kind": "application",
+          "modelAnswer": "n = sin i / sin r = sin 40° / sin 25° = 0.643 / 0.423 = 1.52, which rounds to about 1.5 — the typical refractive index of glass.",
+          "keywords": [
+            "0.643",
+            "0.423",
+            "1.52",
+            "glass"
+          ]
+        }
+      ],
+      "figureIds": [
+        "fig-01"
+      ]
+    }
+  ],
+  "noteAssets": {
+    "glossary": [
+      {
+        "term": "refractive index",
+        "definition": "The ratio of the speed of light in a vacuum to the speed of light in a material; it has no units.",
+        "firstLesson": 1
+      },
+      {
+        "term": "angle of incidence",
+        "definition": "The angle between the incoming ray and the normal.",
+        "firstLesson": 1
+      },
+      {
+        "term": "angle of refraction",
+        "definition": "The angle between the refracted ray and the normal.",
+        "firstLesson": 1
+      },
+      {
+        "term": "optically dense",
+        "definition": "Describing a medium that slows light by a large factor, giving a high refractive index.",
+        "firstLesson": 1
+      }
+    ],
+    "workedExample": {
+      "prompt": "A ray of light enters a glass block of refractive index 1.53, making an angle of 15° with the normal before entering the block. Calculate the angle it makes with the normal after it enters the glass.",
+      "steps": [
+        "List the known quantities: refractive index n = 1.53 and angle of incidence i = 15°.",
+        "Write Snell's law: n = sin i / sin r.",
+        "Rearrange for the sine of the refraction angle: sin r = sin i / n.",
+        "Evaluate: sin 15° = 0.259, so sin r = 0.259 / 1.53 = 0.169 (3 d.p.).",
+        "Apply the inverse sine function: r = sin⁻¹(0.169) = 9.7°, which rounds to 10°."
+      ],
+      "finalAnswer": "The ray travels at about 10° to the normal inside the glass block."
+    }
+  },
+  "figures": [
+    {
+      "id": "fig-01",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/85c4b447a418-snell-triangle-2.png",
+      "alt": "Snell triangle (2), IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "A formula triangle can help rearrange the snell's law equation",
+      "moduleIds": [
+        "L1"
+      ],
+      "binding": "sole-lesson",
+      "caption": "Snell's law formula triangle"
+    }
+  ]
+}

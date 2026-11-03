@@ -1,0 +1,656 @@
+{
+  "format": "guided-lesson/0.6",
+  "noteRef": {
+    "noteId": "rn_35snKWs7CjH7vshw",
+    "corpusVersion": "sme-revision-notes-igcse-physics-19-2026-09-17",
+    "topicTitle": "3. Waves",
+    "subtopicTitle": "Reflection & Refraction",
+    "sourceUrl": "https://www.savemyexams.com/igcse/physics/edexcel/19/revision-notes/3-waves/3-2-reflection-and-refraction/3-2-2-reflection-and-refraction"
+  },
+  "specPoints": [
+    {
+      "code": "3.15",
+      "text": "use the law of reflection (the angle of incidence equals the angle of reflection)"
+    },
+    {
+      "code": "3.16",
+      "text": "draw ray diagrams to illustrate reflection and refraction"
+    },
+    {
+      "code": "3.9",
+      "text": "explain that all waves can be reflected and refracted"
+    }
+  ],
+  "primer": {
+    "text": "Reflection and refraction are the two doors every wave meets at a boundary: one turns it back, the other bends it onward. You can already name both behaviours for light and sound; this lesson adds the measuring law for reflection and the drawing rules that turn those laws into full-mark ray diagrams.",
+    "prerequisiteSubtopic": "Reflection & Refraction"
+  },
+  "lessons": [
+    {
+      "title": "Reflection & the law of reflection",
+      "sourceHeadings": [
+        "An example of reflection",
+        "The law of reflection"
+      ],
+      "specRefs": [
+        "3.9",
+        "3.15"
+      ],
+      "opening": "Reflection happens when a wave meets the boundary between two media and stays in the one it came from, like a tree mirrored in still water. The law that governs it is symmetrical: the angle of incidence equals the angle of reflection, both measured from the normal, the line at right angles to the boundary.",
+      "keyPoints": [
+        "All waves, transverse or longitudinal, can be reflected and refracted.",
+        "Reflection keeps the wave in its original medium at the boundary.",
+        "The law of reflection states that the angle of incidence equals the angle of reflection.",
+        "Both angles are measured between the ray and the normal.",
+        "The normal is the line at ninety degrees to the boundary surface."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "At a reflecting boundary the wave bounces back into its own medium, and the angle it arrived at, measured from the normal, equals the angle it leaves at.",
+          "analogy": "A ball thrown at a wall straight-on comes straight back; thrown at a slant it leaves at the same slant, mirrored.",
+          "examPointer": "Always draw and label the normal first; angles measured from the boundary itself score zero."
+        },
+        "medium": {
+          "restatement": "The equality of the two angles is the reversible symmetry of the path: send a ray along the reflected direction and it retraces the incident one, which is why mirror layouts in periscopes and reflectors work in both directions.",
+          "analogy": "A corridor with one mirrored wall: walk any route in and the mirror sends you out along the exact mirror twin of your path.",
+          "examPointer": "For the mark, quote i = r in words as well as symbols, and name both angles from the normal."
+        }
+      },
+      "check": [
+        {
+          "stem": "Reflection happens when a wave arrives at a boundary and:",
+          "misconceptionClass": "definition recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "passes into the new medium and bends",
+              "correct": false,
+              "explanation": "That describes refraction.",
+              "misconception": "concept swap"
+            },
+            {
+              "key": "B",
+              "text": "stays in the original medium, bouncing back",
+              "correct": true,
+              "explanation": "Reflected waves do not cross into the second medium.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "stops entirely",
+              "correct": false,
+              "explanation": "The wave continues, redirected.",
+              "misconception": "absorption myth"
+            },
+            {
+              "key": "D",
+              "text": "splits into colours",
+              "correct": false,
+              "explanation": "Dispersion is a separate effect.",
+              "misconception": "concept swap"
+            }
+          ]
+        },
+        {
+          "stem": "The law of reflection states that:",
+          "misconceptionClass": "law recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "angle of incidence = angle of refraction",
+              "correct": false,
+              "explanation": "That confuses reflection with refraction.",
+              "misconception": "concept swap"
+            },
+            {
+              "key": "B",
+              "text": "angle of incidence is twice the angle of reflection",
+              "correct": false,
+              "explanation": "No doubling exists in the law.",
+              "misconception": "doubling error"
+            },
+            {
+              "key": "C",
+              "text": "angle of incidence = angle of reflection",
+              "correct": true,
+              "explanation": "That equality is the law, both angles from the normal.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "the angles add to ninety degrees",
+              "correct": false,
+              "explanation": "No fixed sum is part of the law.",
+              "misconception": "sum invention"
+            }
+          ]
+        },
+        {
+          "stem": "Angles of incidence and reflection are measured between the ray and:",
+          "misconceptionClass": "convention recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "the boundary surface itself",
+              "correct": false,
+              "explanation": "Measuring from the surface is the classic error.",
+              "misconception": "reference error"
+            },
+            {
+              "key": "B",
+              "text": "the incident ray",
+              "correct": false,
+              "explanation": "The incident ray cannot measure its own angle.",
+              "misconception": "reference error"
+            },
+            {
+              "key": "C",
+              "text": "the wavefront lines",
+              "correct": false,
+              "explanation": "Wavefronts are drawing aids, not angle references.",
+              "misconception": "reference error"
+            },
+            {
+              "key": "D",
+              "text": "the normal",
+              "correct": true,
+              "explanation": "The normal is the reference line for all such angles.",
+              "misconception": null
+            }
+          ]
+        },
+        {
+          "stem": "A ray strikes a plane mirror at 35 degrees from the normal. It leaves at:",
+          "misconceptionClass": "law application",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "35 degrees from the normal on the other side",
+              "correct": true,
+              "explanation": "The reflection angle equals the incidence angle.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "55 degrees from the normal",
+              "correct": false,
+              "explanation": "That subtracts from ninety unnecessarily.",
+              "misconception": "complement confusion"
+            },
+            {
+              "key": "C",
+              "text": "70 degrees from the normal",
+              "correct": false,
+              "explanation": "No doubling applies.",
+              "misconception": "doubling error"
+            },
+            {
+              "key": "D",
+              "text": "35 degrees measured from the mirror surface",
+              "correct": false,
+              "explanation": "Angles are quoted from the normal, not the surface.",
+              "misconception": "reference error"
+            }
+          ]
+        },
+        {
+          "stem": "Which waves can be reflected?",
+          "misconceptionClass": "scope law",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "light only",
+              "correct": false,
+              "explanation": "Sound and water waves reflect too.",
+              "misconception": "scope narrowing"
+            },
+            {
+              "key": "B",
+              "text": "transverse waves only",
+              "correct": false,
+              "explanation": "Longitudinal waves reflect as echoes.",
+              "misconception": "scope narrowing"
+            },
+            {
+              "key": "C",
+              "text": "all waves, transverse and longitudinal",
+              "correct": true,
+              "explanation": "Reflection is universal across the wave families.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "none, it is a light-only effect",
+              "correct": false,
+              "explanation": "The spec statement is explicitly about all waves.",
+              "misconception": "scope denial"
+            }
+          ]
+        },
+        {
+          "stem": "State the law of reflection in words.",
+          "misconceptionClass": "definition recall",
+          "kind": "recall",
+          "modelAnswer": "The incidence angle equals the reflection angle, both measured from the normal.",
+          "keywords": [
+            "angle of incidence",
+            "angle of reflection",
+            "equal",
+            "normal"
+          ]
+        },
+        {
+          "stem": "State what the normal is.",
+          "misconceptionClass": "definition recall",
+          "kind": "recall",
+          "modelAnswer": "The normal is the construction line at right angles (ninety degrees) to the boundary from which angles are measured.",
+          "keywords": [
+            "normal",
+            "right angles",
+            "ninety",
+            "boundary"
+          ]
+        },
+        {
+          "stem": "Explain why measuring reflection angles from the mirror surface instead of the normal gives the wrong comparison.",
+          "misconceptionClass": "evaluation reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "The law compares angles defined from the normal, so measuring from the surface gives each angle as its complement to ninety degrees; two unequal incidence and reflection angles could then appear equal, hiding the true geometry.",
+          "keywords": [
+            "normal",
+            "complement",
+            "ninety",
+            "wrong",
+            "surface"
+          ]
+        },
+        {
+          "stem": "A tree stands by a calm lake and its image appears below it in the water. Name the effect and state the equality that governs each ray involved.",
+          "misconceptionClass": "application transfer",
+          "kind": "application",
+          "modelAnswer": "The image is produced by reflection at the water surface; every ray obeys the law of reflection, leaving at an angle from the normal equal to the angle at which it arrived.",
+          "keywords": [
+            "reflection",
+            "water",
+            "angle of incidence",
+            "angle of reflection",
+            "equal"
+          ]
+        }
+      ],
+      "figureIds": [
+        "fig-01",
+        "fig-03",
+        "fig-04"
+      ]
+    },
+    {
+      "title": "Ray diagrams & refraction",
+      "sourceHeadings": [
+        "An example of refraction",
+        "Ray diagrams"
+      ],
+      "specRefs": [
+        "3.16"
+      ],
+      "opening": "Ray diagrams reduce waves to arrowed lines, incident arrows pointing at the boundary and reflected arrows pointing away. Refraction adds a bend whose direction follows optical density: into a denser medium the ray bends towards the normal, out of one it bends away, and along the normal it does not bend at all.",
+      "keyPoints": [
+        "An incident ray is drawn with its arrow pointing towards the boundary.",
+        "A reflected ray is drawn with its arrow pointing away from the boundary.",
+        "Entering a denser medium, light bends towards the normal.",
+        "Leaving a denser medium, light bends away from the normal.",
+        "Speed and wavelength change during refraction but frequency does not."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Ray diagrams use straight arrowed lines: into denser media the bend is towards the normal, out of them it is away, and frequency never changes even though speed and wavelength do.",
+          "analogy": "A trolley rolling from pavement onto mud veers towards the normal as its wheels slow on the near side.",
+          "examPointer": "Remember the paired phrase: enters towards, leaves away; arrows on every ray are compulsory."
+        },
+        "medium": {
+          "restatement": "The bend is the geometry of a speed change: the wavefront edge that arrives first slows first, rotating the front, which also explains why the frequency survives unchanged while wavelength rescales with speed.",
+          "analogy": "A car pair turning as one wheel hits gravel before the other: the axle pivots without the engine changing its rhythm.",
+          "examPointer": "The unchanged-frequency argument via colour is the classic explanation mark: light does not change colour on refracting."
+        }
+      },
+      "check": [
+        {
+          "stem": "On a ray diagram, the arrow of the incident ray points:",
+          "misconceptionClass": "diagram convention",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "away from the boundary",
+              "correct": false,
+              "explanation": "That is the reflected ray convention.",
+              "misconception": "arrow swap"
+            },
+            {
+              "key": "B",
+              "text": "towards the boundary",
+              "correct": true,
+              "explanation": "Incident rays travel into the boundary.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "along the boundary",
+              "correct": false,
+              "explanation": "No convention points rays along the surface here.",
+              "misconception": "convention invention"
+            },
+            {
+              "key": "D",
+              "text": "both ways",
+              "correct": false,
+              "explanation": "Each ray carries one direction arrow.",
+              "misconception": "convention confusion"
+            }
+          ]
+        },
+        {
+          "stem": "Light passes from air into glass. The refracted ray bends:",
+          "misconceptionClass": "bend direction",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "away from the normal",
+              "correct": false,
+              "explanation": "That is the glass-to-air direction.",
+              "misconception": "bend inversion"
+            },
+            {
+              "key": "B",
+              "text": "not at all",
+              "correct": false,
+              "explanation": "No bending happens only along the normal.",
+              "misconception": "condition confusion"
+            },
+            {
+              "key": "C",
+              "text": "back on itself",
+              "correct": false,
+              "explanation": "That would be reflection, not refraction.",
+              "misconception": "concept swap"
+            },
+            {
+              "key": "D",
+              "text": "towards the normal",
+              "correct": true,
+              "explanation": "Into the denser medium the ray bends towards the normal.",
+              "misconception": null
+            }
+          ]
+        },
+        {
+          "stem": "Light leaves the glass block back into air. The emerging ray bends:",
+          "misconceptionClass": "bend direction",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "away from the normal",
+              "correct": true,
+              "explanation": "Into the less dense medium the ray bends away from the normal.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "towards the normal",
+              "correct": false,
+              "explanation": "That is the air-to-glass direction.",
+              "misconception": "bend inversion"
+            },
+            {
+              "key": "C",
+              "text": "along the boundary",
+              "correct": false,
+              "explanation": "That special case is not the general exit behaviour.",
+              "misconception": "condition confusion"
+            },
+            {
+              "key": "D",
+              "text": "in a circle",
+              "correct": false,
+              "explanation": "Rays bend linearly at flat boundaries.",
+              "misconception": "shape invention"
+            }
+          ]
+        },
+        {
+          "stem": "During refraction, which properties change?",
+          "misconceptionClass": "property tracking",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "frequency and speed, but not wavelength",
+              "correct": false,
+              "explanation": "Frequency is the survivor; wavelength follows speed.",
+              "misconception": "property swap"
+            },
+            {
+              "key": "B",
+              "text": "all three",
+              "correct": false,
+              "explanation": "Frequency never changes on refraction.",
+              "misconception": "overgeneralisation"
+            },
+            {
+              "key": "C",
+              "text": "speed and wavelength, but not frequency",
+              "correct": true,
+              "explanation": "The medium changes the speed and the wavelength rescales with it.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "none of them",
+              "correct": false,
+              "explanation": "A speed change is the cause of the bending.",
+              "misconception": "invariant assumption"
+            }
+          ]
+        },
+        {
+          "stem": "A ray hits a boundary exactly along the normal. It:",
+          "misconceptionClass": "special case",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "bends towards the normal",
+              "correct": false,
+              "explanation": "It is already on the normal; there is nothing to bend towards.",
+              "misconception": "condition confusion"
+            },
+            {
+              "key": "B",
+              "text": "reflects completely",
+              "correct": false,
+              "explanation": "Partial reflection may occur, but the listed behaviour is straight-through transmission.",
+              "misconception": "concept swap"
+            },
+            {
+              "key": "C",
+              "text": "stops at the boundary",
+              "correct": false,
+              "explanation": "The wave continues into the new medium.",
+              "misconception": "absorption myth"
+            },
+            {
+              "key": "D",
+              "text": "passes straight through without bending",
+              "correct": true,
+              "explanation": "Along the normal there is no direction change on refraction.",
+              "misconception": null
+            }
+          ]
+        },
+        {
+          "stem": "State the bending rule for light entering a denser medium.",
+          "misconceptionClass": "definition recall",
+          "kind": "recall",
+          "modelAnswer": "It bends towards the normal.",
+          "keywords": [
+            "towards",
+            "normal",
+            "denser"
+          ]
+        },
+        {
+          "stem": "State what happens to the frequency of light during refraction.",
+          "misconceptionClass": "definition recall",
+          "kind": "recall",
+          "modelAnswer": "The frequency does not change.",
+          "keywords": [
+            "frequency",
+            "does not change",
+            "change"
+          ]
+        },
+        {
+          "stem": "Explain why a pencil standing in a glass of water looks bent at the surface.",
+          "misconceptionClass": "evaluation reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "Light from the underwater part leaves the water and bends away from the normal into the air, so the rays reaching your eye come from a shifted apparent direction and the pencil appears bent at the boundary.",
+          "keywords": [
+            "leaves",
+            "away",
+            "normal",
+            "apparent",
+            "bent"
+          ]
+        },
+        {
+          "stem": "A ray diagram must show a beam travelling air-to-glass-to-air through a rectangular block. Sketch description: state the bend at each boundary and the arrow directions.",
+          "misconceptionClass": "application transfer",
+          "kind": "application",
+          "modelAnswer": "At the air-to-glass face the ray bends towards the normal as it enters; at the glass-to-air face it bends away from the normal as it leaves; the incident arrow points at the first boundary and the emerging arrow points away from the block on the far side.",
+          "keywords": [
+            "towards",
+            "away",
+            "normal",
+            "enter",
+            "leave"
+          ]
+        }
+      ],
+      "figureIds": [
+        "fig-02"
+      ]
+    }
+  ],
+  "noteAssets": {
+    "glossary": [
+      {
+        "term": "medium",
+        "definition": "A material that transmits light; more than one is called media.",
+        "firstLesson": 1
+      },
+      {
+        "term": "normal",
+        "definition": "The construction line at right angles to a boundary from which angles are measured.",
+        "firstLesson": 2
+      },
+      {
+        "term": "angle of incidence",
+        "definition": "The angle between the incoming ray and the normal.",
+        "firstLesson": 2
+      },
+      {
+        "term": "angle of reflection",
+        "definition": "The angle between the outgoing reflected ray and the normal.",
+        "firstLesson": 2
+      },
+      {
+        "term": "optical density",
+        "definition": "A measure of how much a material slows light passing through it.",
+        "firstLesson": 2
+      }
+    ],
+    "workedExample": null
+  },
+  "figures": [
+    {
+      "id": "fig-01",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/4136653b322f-3-2-2-reflection-on-water.png",
+      "alt": "Reflection on Water, downloadable IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "An example of reflection",
+      "moduleIds": [
+        "L1"
+      ],
+      "binding": "heading-unique",
+      "caption": "An identical image of the tree is seen in the water due to reflection"
+    },
+    {
+      "id": "fig-02",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/cc72ec490872-4-1-8-refraction-direction-change.png",
+      "alt": "Refraction direction change, downloadable IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "An example of refraction",
+      "moduleIds": [
+        "L2"
+      ],
+      "binding": "heading-unique",
+      "caption": "Waves can change direction when moving between materials with different optical densities"
+    },
+    {
+      "id": "fig-03",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/b3859e1040ef-6-3-5-light-reflection.png",
+      "alt": "Light Reflection, downloadable IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "An example of reflection in a plane mirror",
+      "moduleIds": [
+        "L1"
+      ],
+      "binding": "heading-unique",
+      "caption": "Ray diagram of the reflection of a wave in a mirror"
+    },
+    {
+      "id": "fig-04",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/9943dedc692e-5-1-1-reflection.png",
+      "alt": "Reflection, downloadable IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "A diagram showing the law of reflection",
+      "moduleIds": [
+        "L1"
+      ],
+      "binding": "heading-unique",
+      "caption": "The angle of incidence and angle of reflection are equal in the law of reflection"
+    },
+    {
+      "id": "fig-05",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/49872d27fdf1-6-2-4-refraction-of-light.png",
+      "alt": "Refraction of Light, downloadable IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "A diagram of a ray refracted into and out of a glass block",
+      "moduleIds": [],
+      "binding": "heading-unique",
+      "caption": "How to construct a ray diagram showing the refraction of light as it passes through a rectangular block"
+    }
+  ]
+}
