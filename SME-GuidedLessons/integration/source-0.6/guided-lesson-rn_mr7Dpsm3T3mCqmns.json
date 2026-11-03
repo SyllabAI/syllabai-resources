@@ -1,0 +1,331 @@
+{
+  "format": "guided-lesson/0.6",
+  "noteRef": {
+    "noteId": "rn_mr7Dpsm3T3mCqmns",
+    "corpusVersion": "sme-revision-notes-igcse-physics-19-2026-09-17",
+    "topicTitle": "3. Waves",
+    "subtopicTitle": "Sound",
+    "sourceUrl": "https://www.savemyexams.com/igcse/physics/edexcel/19/revision-notes/3-waves/3-3-sound/3-3-2-sound--oscilloscopes"
+  },
+  "specPoints": [
+    {
+      "code": "3.26P",
+      "text": "understand how an oscilloscope and microphone can be used to display a sound wave"
+    }
+  ],
+  "primer": {
+    "text": "Before the oscilloscope can time a wave for you, you have to be able to read it. This lesson builds that skill: what the microphone contributes, why a longitudinal wave gets drawn like a transverse one, and how amplitude and frequency each show up on the screen.",
+    "prerequisiteSubtopic": "Sound"
+  },
+  "lessons": [
+    {
+      "title": "Displaying sound on an oscilloscope",
+      "sourceHeadings": [
+        "An oscilloscope is used to display sound as a waveform",
+        "An explanation of the sound waveform as displayed on an oscilloscope"
+      ],
+      "specRefs": [
+        "3.26P"
+      ],
+      "opening": "An oscilloscope draws a picture of a rapidly changing signal against time. Feed it a microphone and a sound wave becomes a living trace: the horizontal axis is the time base, the height of the trace tracks the amplitude, and the number of complete cycles on screen tells you the frequency.",
+      "keyPoints": [
+        "An oscilloscope displays rapidly changing signals such as a sound wave or an alternating current.",
+        "A microphone detects the sound wave and converts it into an electrical signal for the screen.",
+        "On the screen the sound wave — longitudinal in air — is drawn with the peak-and-trough look of a transverse wave.",
+        "The time base — the horizontal axis — is where the wave’s time period is read off.",
+        "The trace height from the centre is related to amplitude, and more complete waves on screen means higher frequency."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "The microphone turns sound into a voltage, the oscilloscope plots that voltage against time, and the resulting wavy line can be read for amplitude through its height and frequency through how many cycles fit on the screen.",
+          "analogy": "A heart monitor for sound: each peak is one squeeze of the source, spread out along a time ruler.",
+          "examPointer": "Say the direction trick explicitly: the sound is longitudinal in air but is DRAWN like a transverse wave because the screen plots voltage against time."
+        },
+        "medium": {
+          "restatement": "The microphone’s voltage rises and falls as the sound’s pressure rises and falls; plotted against time, the cycles sit side by side, so one cycle’s width is the period and the peak height from the centre line is the amplitude.",
+          "analogy": "A seismograph needle: the paper carries time horizontally while the needle swings with the push, drawing a transverse-looking picture of a shaking world.",
+          "examPointer": "Comparisons of traces only hold while the time base is fixed — state the fixed-scale condition when comparing two notes."
+        }
+      },
+      "check": [
+        {
+          "stem": "Which device converts the sound wave into the electrical signal shown on the oscilloscope?",
+          "misconceptionClass": "equipment purpose",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "the time base dial",
+              "correct": false,
+              "explanation": "The time base sets the horizontal scale; it detects nothing.",
+              "misconception": "instrument swap"
+            },
+            {
+              "key": "B",
+              "text": "a microphone",
+              "correct": true,
+              "explanation": "The microphone detects the sound and turns it into an electrical signal.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "the screen",
+              "correct": false,
+              "explanation": "The screen displays the signal; it does not capture it.",
+              "misconception": "instrument swap"
+            },
+            {
+              "key": "D",
+              "text": "a tuning fork",
+              "correct": false,
+              "explanation": "A tuning fork makes sound; it does not detect it.",
+              "misconception": "instrument swap"
+            }
+          ]
+        },
+        {
+          "stem": "What does the horizontal axis (time base) of the oscilloscope allow you to measure?",
+          "misconceptionClass": "reading the trace",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "the amplitude of the wave",
+              "correct": false,
+              "explanation": "Amplitude is read vertically, from the centre line.",
+              "misconception": "quantity swap"
+            },
+            {
+              "key": "B",
+              "text": "the time period of the wave",
+              "correct": true,
+              "explanation": "The horizontal axis is time, so one full cycle spans the time period.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "the loudness of the source",
+              "correct": false,
+              "explanation": "Loudness is linked to amplitude, which is vertical.",
+              "misconception": "quantity swap"
+            },
+            {
+              "key": "D",
+              "text": "the material of the source",
+              "correct": false,
+              "explanation": "Nothing on the screen identifies material.",
+              "misconception": "absurd limit"
+            }
+          ]
+        },
+        {
+          "stem": "A second sound is played with a higher frequency than the first. What changes on the screen if the time base is unchanged?",
+          "misconceptionClass": "reading the trace",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "the trace becomes taller only",
+              "correct": false,
+              "explanation": "Frequency is a horizontal, cycle-count property.",
+              "misconception": "quantity swap"
+            },
+            {
+              "key": "B",
+              "text": "more complete waves fit on the screen",
+              "correct": true,
+              "explanation": "Higher frequency packs more cycles into the same time window.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "fewer complete waves fit on the screen",
+              "correct": false,
+              "explanation": "That is what a LOWER frequency does.",
+              "misconception": "inverted relation"
+            },
+            {
+              "key": "D",
+              "text": "nothing changes",
+              "correct": false,
+              "explanation": "Frequency is exactly what the horizontal axis displays.",
+              "misconception": "misreading the screen"
+            }
+          ]
+        },
+        {
+          "stem": "A trace rises and falls gently with a large height from the centre line. What does that indicate about the sound?",
+          "misconceptionClass": "reading the trace",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "high pitch and quiet",
+              "correct": false,
+              "explanation": "Height indicates amplitude (loudness), not pitch.",
+              "misconception": "quantity swap"
+            },
+            {
+              "key": "B",
+              "text": "low frequency and loud",
+              "correct": false,
+              "explanation": "The gentle rise and fall suggests a long period, but the large height means loud; the pitch claim does not follow from height alone.",
+              "misconception": "mixed reading"
+            },
+            {
+              "key": "C",
+              "text": "large amplitude, so a loud sound",
+              "correct": true,
+              "explanation": "Height measured from the centre is the amplitude, and amplitude carries loudness.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "ultrasound, because the wave is tall",
+              "correct": false,
+              "explanation": "Nothing on screen alone names the frequency band.",
+              "misconception": "concept mix-up"
+            }
+          ]
+        },
+        {
+          "stem": "Besides a sound wave, which signal is named as something an oscilloscope can display?",
+          "misconceptionClass": "equipment purpose",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "a steady direct current from a battery",
+              "correct": false,
+              "explanation": "A steady d.c. is not a rapidly changing signal.",
+              "misconception": "concept mix-up"
+            },
+            {
+              "key": "B",
+              "text": "an alternating current",
+              "correct": true,
+              "explanation": "Alternating current is the second named rapidly changing signal.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "static friction",
+              "correct": false,
+              "explanation": "Friction is not a signal at all.",
+              "misconception": "absurd limit"
+            },
+            {
+              "key": "D",
+              "text": "a magnetic field line",
+              "correct": false,
+              "explanation": "Field lines are diagrams, not time signals.",
+              "misconception": "absurd limit"
+            }
+          ]
+        },
+        {
+          "stem": "State what a microphone does in this set-up.",
+          "misconceptionClass": "definition recall",
+          "kind": "recall",
+          "modelAnswer": "It detects the sound wave and converts it into an electrical signal that the oscilloscope can display.",
+          "keywords": [
+            "detects",
+            "converts",
+            "electrical",
+            "signal"
+          ]
+        },
+        {
+          "stem": "State what the trace height, taken from the screen’s centre line, is related to.",
+          "misconceptionClass": "definition recall",
+          "kind": "recall",
+          "modelAnswer": "The trace height shows the amplitude of the sound wave.",
+          "keywords": [
+            "amplitude",
+            "height",
+            "trace"
+          ]
+        },
+        {
+          "stem": "Explain why a sound wave, which is longitudinal in air, can be displayed as a transverse-looking trace on an oscilloscope.",
+          "misconceptionClass": "evaluation reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "The oscilloscope does not draw the air itself; it plots the microphone’s electrical signal against time. Pressure variations of the longitudinal wave become voltage ups and downs along the time axis, so the displayed trace has the peak-and-trough shape of a transverse wave even though the air vibrations are along the direction of travel.",
+          "keywords": [
+            "plots",
+            "voltage",
+            "time",
+            "longitudinal",
+            "transverse"
+          ]
+        },
+        {
+          "stem": "Two traces are frozen on the same screen. Trace X shows six complete cycles and trace Y shows two complete cycles in the same width. Compare the pitch of the two sounds.",
+          "misconceptionClass": "application transfer",
+          "kind": "application",
+          "modelAnswer": "Trace X shows more cycles in the same time, so it has the higher frequency, and since pitch rises with frequency, X is the higher-pitched sound while Y is the lower-pitched one.",
+          "keywords": [
+            "cycles",
+            "frequency",
+            "pitch",
+            "higher"
+          ]
+        }
+      ]
+    }
+  ],
+  "noteAssets": {
+    "glossary": [
+      {
+        "term": "oscilloscope",
+        "definition": "An instrument that displays a rapidly changing electrical signal as a trace against time.",
+        "firstLesson": 1
+      },
+      {
+        "term": "time base",
+        "definition": "The horizontal axis setting of an oscilloscope, which measures time and is used to read the time period.",
+        "firstLesson": 1
+      },
+      {
+        "term": "waveform",
+        "definition": "The shape of a wave as drawn by the oscilloscope, carrying amplitude and frequency information.",
+        "firstLesson": 1
+      }
+    ],
+    "workedExample": null
+  },
+  "figures": [
+    {
+      "id": "fig-01",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/8fb52b7b5439-1-3-7-oscilloscope.png",
+      "alt": "Oscilloscope, downloadable AS & A Level Physics revision notes",
+      "sourceHeading": "An oscilloscope is used to display sound as a waveform",
+      "moduleIds": [
+        "L1"
+      ],
+      "binding": "heading-unique",
+      "caption": "Oscilloscopes have lots of dials and buttons, but their main purpose is to display and measure changing signals like sound waves and alternating current. The horizontal axis represents time, so the two waveforms on the screen have different time periods"
+    },
+    {
+      "id": "fig-02",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/1802af4e594c-3-3-2-sound-wave-in-an-oscilloscopes.png",
+      "alt": "Sound Wave in an Oscilloscopes, downloadable IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "An explanation of the sound waveform as displayed on an oscilloscope",
+      "moduleIds": [
+        "L1"
+      ],
+      "binding": "heading-unique",
+      "caption": "A sound wave is displayed as though it were a transverse wave on the screen of the oscilloscope. The time base can be used to measure a full time period of the wave cycle"
+    }
+  ]
+}
