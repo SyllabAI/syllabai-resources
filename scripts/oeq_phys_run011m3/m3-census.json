@@ -1,0 +1,44 @@
+{
+ "census_basis": "resources main @ fb28c174; 24 topic.json bank-wide raw grep + JSON walk",
+ "pre_class": {
+  "parts": 1,
+  "part_ids": [
+   "qstnprt_ZTrm3d8Qwgth5z94"
+  ],
+  "file": "7-radioactivity-and-particles/7-1-properties-of-radiation/topic.json",
+  "instances": 11,
+  "fields": {
+   "problem_md": 5,
+   "solution_md": 6
+  },
+  "qmd_file_instances": 5,
+  "disclosure_reconciliation": "#282 M3_candidates estimate (6 lines / 4 parts) was branch-era and value-granular: it predated the M2-b fixes now on main and counted the two branch-era qmd stale lines (run-010 residual RES-2). Verified main-state population = 1 part / 11 spans (+5 qmd spans), all in 7-1."
+ },
+ "space_class": {
+  "parts": 1,
+  "files": 1,
+  "instances": 3,
+  "class": "aria-label word 'space' absorbed into math spans (space[_^] adjacency, *_md fields only; the loose \\bspace[_ ] scan's 24 prose 'space ' matches were discarded as false positives) \u2014 SAME family as pre_ debris",
+  "disposition": "the single real instance (vanadium-50, qstnprt_czZxScXFQwpGYHXp, 7-1 problem_md + qmd regen) was identity-checked vs the plane (same question \u2014 DISC-1 law holds here) and FIXED IN-WAVE as the M3-space rider; bank-wide space-class census is now ZERO (gate G1)",
+  "detail": [
+   {
+    "part": "qstnprt_czZxScXFQwpGYHXp",
+    "file": "original_topic.json",
+    "field": "problem_md",
+    "sample": "space_{23}^{50}"
+   },
+   {
+    "part": "questions.md:7-1",
+    "file": "7-1-properties-of-radiation/questions.md",
+    "field": "file",
+    "sample": "space_{23}^{50}"
+   },
+   {
+    "part": "qstnprt_czZxScXFQwpGYHXp",
+    "file": "7-radioactivity-and-particles/7-1-properties-of-radiation/topic.json",
+    "field": "problem_md",
+    "sample": "$space_{23}^{50} \\mathrm{V}$ (from pre-edit census of the edited file)"
+   }
+  ]
+ }
+}

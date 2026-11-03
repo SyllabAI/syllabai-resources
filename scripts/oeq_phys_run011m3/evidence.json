@@ -1,0 +1,26 @@
+{
+ "url": "https://www.savemyexams.com/igcse/physics/edexcel/19/topic-questions/7-radioactivity-and-particles/7-1-properties-of-radiation/exam-questions",
+ "fetched_at": "2026-11-02",
+ "method": "curl --compressed, Chrome UA, -L (308 -> 200, 97565 B)",
+ "live_mathml": {
+  "shape": "<mmultiscripts><mtext>{X}</mtext><mprescripts/><none/><mn>210</mn></mmultiscripts>",
+  "symbols": {
+   "Po": "{}^{210}\\text{Po}",
+   "Pb": "{}^{210}\\text{Pb}",
+   "Bi": "{}^{210}\\text{Bi}"
+  },
+  "aria_labels_are_latex": true,
+  "note": "aria-label IS the upstream pipeline's own LaTeX of record (run-001/003 lineage); adopted verbatim as ${}^{210}\\text{X}$ math spans"
+ },
+ "blank_decision": "presubscript <none/> = ABSENCE (no printed blank) -> adopt empty group {}; M2-b \\square reserved for printed fill-in boxes (different semantic, see run-010 QzWSVGGTRn5mWtdz)",
+ "physics": "Po-210: Z=84, N=126 (matches corpus solution '84 protons, 210 nucleons'); Pb(82)->Bi(83) beta-minus, A stays 210 \u2014 symbols only, no equation to balance",
+ "space_rider": {
+  "part": "qstnprt_czZxScXFQwpGYHXp (vanadium-50, same file, identity-checked vs plane: same question)",
+  "live_mathml": "<mmultiscripts><mtext>&#160;</mtext><mprescripts/><mn>23</mn><mn>50</mn></mmultiscripts><mi mathvariant=\"normal\">V</mi>",
+  "aria_label": "space presubscript 23 presuperscript 50 straight V",
+  "leak_mechanism": "the aria-label verbalizes the nbsp base (<mtext>&#160;</mtext>) as the literal word 'space'; the corpus string pasted that word into the LaTeX",
+  "adopt": "corpus $space_{23}^{50} \\mathrm{V}$ -> plane ${}_{23}^{50}{} V$ verbatim (R2-a/M2-b4 precedent)",
+  "physics": "V-50: Z=23, A=50, N=27 - symbol only, no equation"
+ },
+ "capture_equation_crossref": "same page aria-label 'straight p presubscript 1 ...' -> ${}_{1}^{1}p...$ (run-010 evidence, unchanged)"
+}

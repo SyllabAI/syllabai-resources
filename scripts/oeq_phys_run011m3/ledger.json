@@ -1,0 +1,33 @@
+{
+ "lane": "T-OEQ-PHYS-FORMAT-1",
+ "ledger_version": "run-011-m3",
+ "date": "2026-11-02",
+ "residuals": [
+  {
+   "id": "RES-1",
+   "from": "run-010-m2 post-merge verification (#282)",
+   "what": "qstnprt_KK5wsxWXhgZcnNFV (7-2 camera-lens): resources main field content differs from the v2 plane's content under the same id (pre-existing, not that merge)",
+   "status": "open \u2014 owned by the corpus<->plane reconciliation wave (634 parts / 850 fields census)"
+  },
+  {
+   "id": "RES-2",
+   "from": "run-010-m2 post-merge verification (#282)",
+   "what": "run-010 qmd pins certify branch-era questions.md; delta vs post-merge main is exactly two inherited pre_{square} stale lines main had already cleaned",
+   "status": "noted \u2014 any future re-verification of those pins must expect that benign mismatch; re-baseline rides the next qmd-pinning run"
+  }
+ ],
+ "discoveries": [
+  {
+   "id": "DISC-1",
+   "found_in": "run-011-m3 prep",
+   "what": "id->content mapping drift: the v2 plane stores a different question (gamma 2-marker) under qstnprt_ZTrm3d8Qwgth5z94 than the corpus does (Po/Pb/Bi-210 grid question); the corpus keeps the gamma text under qstnprt_CZmG2HZmcGRntGDF. Full id space is aligned (1135<->1135, zero corpus-only / plane-only), but id-keyed joins are not identity-safe in drifted regions",
+   "implication": "plane-verbatim field adoption MUST be preceded by a content-identity check (same question, not merely same id)"
+  },
+  {
+   "id": "DISC-2",
+   "found_in": "run-011-m3 prep",
+   "what": "sibling leak class: aria 'space' tokens inside math spans (tight census: 1 real instance \u2014 vanadium-50, same 7-1 file; 24 loose prose matches discarded as false positives)",
+   "implication": "same conversion-junk family as the pre_ debris; fixed in-wave as the M3-space rider (identity-checked per DISC-1); any future aria-label-based repair must guard against pasting verbalized words (space/dots) into LaTeX"
+  }
+ ]
+}
