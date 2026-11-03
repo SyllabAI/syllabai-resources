@@ -1,0 +1,20 @@
+{
+ "lane": "T-OEQ-PHYS-FORMAT-1",
+ "run": "run-012 wave-D post-merge verification",
+ "date": "2026-11-03",
+ "v2_main": "cab6b3df0bf7",
+ "resources_main": "c63aac4e4978",
+ "v2_pr": 688,
+ "resources_pr": 297,
+ "served_values_verified": "5/5 == canon(corpus of record @ main), collapse gone",
+ "guard": {
+  "banks": 106,
+  "questions": 44502,
+  "md_fields": 148978,
+  "findings": 34,
+  "findings_in_touched_banks": 0,
+  "note": "34 remaining = chemistry-25 corpus-attested duplicate (2) + statistics-2 pre-EDX-2 twin (1) + maths-b fetch-bank groups (31); 39 -> 34 = exactly the 5 wave-D repairs",
+  "receipt": ".syllabai/lane-artifacts/T-OEQ-PHYS-FORMAT-1/run012-waved-post-merge-guard.json"
+ },
+ "verdict": "RECONCILIATION HOLDS @ main — the 5 cross-bank EDX-2 collapse fields serve their true per-part content"
+}
