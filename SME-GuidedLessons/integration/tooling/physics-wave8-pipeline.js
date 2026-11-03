@@ -670,7 +670,7 @@ const int3 = {
   physics_census: {
     notes_total: 74, lessons_total: 127 + idLessons, checks_total: 1143 + idChecks,
     wave8_lessons: idLessons, wave8_checks: idChecks, wave8_figures: totFig, wave8_notes: 11,
-    corpus_images_bound: totFig, worked_examples_populated_wave8: 4, worked_examples_null_wave8: 7,
+    corpus_images_bound: totFig, worked_examples_populated_wave8: totWEPop, worked_examples_null_wave8: totWENull,
   },
   notes: int3Notes,
 };
@@ -690,7 +690,7 @@ const receipt = {
     kinds: { mcq: streamCharsArr().mcq, recall: streamCharsArr().rec, 'explain-why': streamCharsArr().exp, application: streamCharsArr().app },
     figures: totFig, figures_module_mapped: totFigMapped,
     glossary_terms: NOTES_W8.reduce((t, i) => t + JSON.parse(fs.readFileSync(path.join(INT, 'source-0.6/guided-lesson-' + i + '.json'), 'utf8')).noteAssets.glossary.length, 0),
-    worked_examples: { populated: 4, null: 7 },
+    worked_examples: { populated: totWEPop, null: totWENull },
     stream_chars: NOTES_W8.reduce((t, i) => t + streamChars[i].chars, 0),
   },
   b4_partition: priorInt3.b4_partition_of_record,
