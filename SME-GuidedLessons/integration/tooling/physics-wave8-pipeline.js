@@ -713,7 +713,7 @@ const receipt = {
   ],
 };
 const rb = Buffer.from(JSON.stringify(receipt, null, 2) + '\n');
-fs.writeFileSync(path.join(INT, 'records/NS-4PH1-PHYSICS-WAVE8-PROMOTION-20261103.json'), rb);
+fs.writeFileSync(path.join(INT, 'records/NS-4PH1-PHYSICS-WAVE8-PROMOTION-20261104.json'), rb);
 
 console.log(`GATES: ${LOG.filter((l) => l.ok).length}/${LOG.length} GREEN, 0 failures`);
 console.log(`EMITTED: 22 outputs + manifest v27 (${mb.length}B) + INT-3 (${ib.length}B) + promotion receipt (${rb.length}B)`);
