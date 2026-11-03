@@ -1,0 +1,58 @@
+{
+ "lane": "T-OEQ-PHYS-FORMAT-1",
+ "ledger_version": "run-012",
+ "date": "2026-11-03",
+ "supersedes": "scripts/oeq_phys_run011m3/ledger.json (ledger_version run-011-m3)",
+ "rules": [
+  {
+   "id": "RULE-1",
+   "title": "corpus<->plane reconciliation adoption law (L1-L7)",
+   "status": "ADOPTED 2026-11-03 (user sign-off in-session)",
+   "what": "L1 direction corpus := plane verbatim (R2-a / run-010-m2 / run-011-m3 precedent generalized); L2 content-identity gate before ANY adoption - accepted proofs: known-family hunk census, cross-id counterpart confirmation, or eyeball sign-off recorded in dossier; failure quarantines to the cross-id queue; L3 benign-encoding class CLOSED (no edits either side; corpus keeps relative asset paths, URL pinning is a serving-layer concern); L4 cross-id class handled by a dedicated mapping-repair wave, never field-verbatim; L5 wave sequence: wave-A glue-spacing (62 fields / 61 parts), wave-B format families (43 fields / 43 parts); L6 drift-delta gate - post-wave full re-scan must reduce drift_fields by exactly the wave pin count with zero unrelated movement; L7 this census re-baselines the run-010-m2 drift disclosure",
+   "dossier": "scripts/oeq_phys_run012/ (run-report.json, adoption-law.md, classification.json, families.json, hunk_kinds.json)"
+  }
+ ],
+ "rebaseline": {
+  "was": "634 parts / 850 fields (run-010-m2 disclosure, scripts/oeq_phys_run010m2/drift-scan.json)",
+  "now": "627 parts / 842 fields (2026-11-03 main x main, full re-scan, problem_md/solution_md, all 24 igcse-physics-19 topics)",
+  "delta": "-7 parts / -8 fields",
+  "attribution": "point-in-time snapshot drift: plane-side repairs (v2 RN-DEBRIS-3/4/5/6/9 waves, run-009-r2 serving backsync, F131 serving leg) and corpus-side repairs (#280, #282, #285) landed after the run-010 scan; run-010 8-part sample re-verified field-stable; id space still exactly aligned 1135<->1135, zero corpus-only / plane-only"
+ },
+ "residuals": [
+  {
+   "id": "RES-1",
+   "carried_from": "run-011-m3 ledger",
+   "what": "qstnprt_KK5wsxWXhgZcnNFV (7-2 camera-lens) corpus differs from v2 plane under the same id",
+   "status_update": "mechanism confirmed by run-012 classification: cross-id / true mapping drift family; related pairs qstnprt_ZTrm3d8Qwgth5z94 <-> qstnprt_CZmG2HZmcGRntGDF and qstnprt_Vn36YRgjsBNv8BK2 <-> qstnprt_hV5TvZxVQMwbwTf2; owned by the L4 mapping-repair wave; NOT field-verbatim adoptable"
+  },
+  {
+   "id": "RES-2",
+   "carried_from": "run-011-m3 ledger",
+   "status": "unchanged - any future re-verification of the run-010 qmd pins must expect the benign two-line mismatch; re-baseline rides the next qmd-pinning run. run-012 preflight additionally verified questions.md files do not carry the glue-spacing field texts (0/132 hunk windows, both forms), so wave-A needs no qmd ride"
+  }
+ ],
+ "discoveries": [
+  {
+   "id": "DISC-3",
+   "found_in": "run-012 census",
+   "what": "dominant drift mechanism is asset-ref encoding, not content: the plane pins raw.githubusercontent URLs at sha aa0b4de1 while the corpus uses relative assets/ paths; plus layout whitespace variants and invisible LRM marks (U+200E) on the corpus side",
+   "size": "715 of 842 fields (85%)",
+   "disposition": "benign-style CLOSED per L3; any adoption canonicalizes plane strings to corpus asset-path form first"
+  },
+  {
+   "id": "DISC-4",
+   "found_in": "run-012 census",
+   "what": "glue-spacing class: corpus side lost inter-word spaces during conversion (52 pure space-insert fields + 10 mixed; all ratio >= 0.94); the plane carries the repaired spacing (RN-DEBRIS-adjacent class)",
+   "size": "62 fields / 61 parts across 20 topics",
+   "disposition": "wave-A adoption under RULE-1"
+  },
+  {
+   "id": "DISC-5",
+   "found_in": "run-012 census",
+   "what": "cross-id duplication has two mechanisms: (a) MCQ solution boilerplate shared across parts (qstnprt_PnYK8tkCjzCjtwG3 is the corpus home of a generic solution reused by 4 plane parts); (b) true mapping drift (2 pairs, see RES-1)",
+   "size": "22 fields / 20 parts, all counterparts within the same topic, direction uniformly plane==corpus@other",
+   "disposition": "L4 mapping-repair wave; boilerplate documented as no-op"
+  }
+ ],
+ "real_content_drift": 0
+}
