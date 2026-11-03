@@ -1,0 +1,609 @@
+{
+  "format": "guided-lesson/0.6",
+  "noteRef": {
+    "noteId": "rn_NgxJhPpm5Zs7kFSz",
+    "corpusVersion": "sme-revision-notes-igcse-physics-19-2026-09-17",
+    "topicTitle": "2. Electricity",
+    "subtopicTitle": "Electrical Power & Mains Electricity",
+    "sourceUrl": "https://www.savemyexams.com/igcse/physics/edexcel/19/revision-notes/2-electricity/2-3-electrical-power-and-mains-electricity/2-3-5-ac-and-dc"
+  },
+  "specPoints": [
+    {
+      "code": "2.6",
+      "text": "know the difference between mains electricity being alternating current (a.c.) and direct current (d.c.) being supplied by a cell or battery"
+    }
+  ],
+  "primer": {
+    "text": "Two kinds of current power the world: the steady one-way flow from a battery, and the back-and-forth flow from the mains. This note defines direct and alternating current, contrasts their terminals, and pins down the UK mains figures — alternating current at 50 Hz and about 230 V — alongside the oscilloscope traces that tell them apart.",
+    "prerequisiteSubtopic": "Electrical Power & Mains Electricity"
+  },
+  "lessons": [
+    {
+      "title": "Direct current from cells & batteries",
+      "sourceHeadings": [
+        "Direct current"
+      ],
+      "specRefs": [
+        "2.6"
+      ],
+      "figureIds": [
+        "fig-01"
+      ],
+      "opening": "A battery pushes charge the same way all the time: its positive and negative terminals never swap, so the current flows steadily one way around the circuit. That is direct current, and every cell or battery you have wired into a circuit produces it.",
+      "keyPoints": [
+        "Direct current flows steadily one way round the circuit, positive to negative.",
+        "A d.c. supply keeps fixed positive and negative terminals.",
+        "Cells and batteries are the everyday sources of direct current."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Direct current goes one way only, from the positive terminal to the negative.",
+          "analogy": "A one-way escalator: everyone moves in the same direction, all the time.",
+          "examPointer": "All the circuits you have built so far are d.c. — the calculations you know already apply unchanged."
+        },
+        "medium": {
+          "restatement": "The fixed polarity of the terminals is what fixes the direction: the current follows the potential difference, and that never reverses.",
+          "analogy": "A river bed that only ever slopes one way — the water has no choice of direction.",
+          "examPointer": "If asked for a source, say cells or batteries, not 'the plug'."
+        }
+      },
+      "check": [
+        {
+          "stem": "In a d.c. circuit the charge flows:",
+          "misconceptionClass": "definition recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "back and forth rapidly",
+              "correct": false,
+              "explanation": "That is alternating current.",
+              "misconception": "category swap"
+            },
+            {
+              "key": "B",
+              "text": "one way only, positive to negative",
+              "correct": true,
+              "explanation": "Direct current keeps a single direction.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "from negative to positive only",
+              "correct": false,
+              "explanation": "The conventional direction runs positive to negative.",
+              "misconception": "direction slip"
+            },
+            {
+              "key": "D",
+              "text": "in neither direction",
+              "correct": false,
+              "explanation": "A working circuit carries current.",
+              "misconception": "nonsense option"
+            }
+          ]
+        },
+        {
+          "stem": "Which supply has fixed terminals?",
+          "misconceptionClass": "property recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "the UK mains",
+              "correct": false,
+              "explanation": "Mains polarity alternates.",
+              "misconception": "category swap"
+            },
+            {
+              "key": "B",
+              "text": "a generator",
+              "correct": false,
+              "explanation": "Generators produce the alternating mains.",
+              "misconception": "category swap"
+            },
+            {
+              "key": "C",
+              "text": "an alternator",
+              "correct": false,
+              "explanation": "An alternator is an a.c. source by design.",
+              "misconception": "category swap"
+            },
+            {
+              "key": "D",
+              "text": "a battery",
+              "correct": true,
+              "explanation": "A battery's positive and negative terminals stay fixed.",
+              "misconception": null
+            }
+          ]
+        },
+        {
+          "stem": "Cells and batteries provide:",
+          "misconceptionClass": "source recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "direct current",
+              "correct": true,
+              "explanation": "Cells and batteries are the d.c. sources.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "alternating current",
+              "correct": false,
+              "explanation": "That comes from generators and the mains.",
+              "misconception": "category swap"
+            },
+            {
+              "key": "C",
+              "text": "static charge only",
+              "correct": false,
+              "explanation": "Batteries drive a continuous flow, not static build-up.",
+              "misconception": "category swap"
+            },
+            {
+              "key": "D",
+              "text": "no current",
+              "correct": false,
+              "explanation": "A battery in a closed circuit drives current.",
+              "misconception": "nonsense option"
+            }
+          ]
+        },
+        {
+          "stem": "The current in a d.c. circuit flows:",
+          "misconceptionClass": "reasoning recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "in alternating directions",
+              "correct": false,
+              "explanation": "The polarity never swaps, so the direction never swaps.",
+              "misconception": "category slip"
+            },
+            {
+              "key": "B",
+              "text": "nowhere",
+              "correct": false,
+              "explanation": "In a closed circuit the current flows.",
+              "misconception": "nonsense option"
+            },
+            {
+              "key": "C",
+              "text": "in one direction around the circuit",
+              "correct": true,
+              "explanation": "Fixed polarity means one-way flow.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "only while the switch is open",
+              "correct": false,
+              "explanation": "An open switch stops the flow.",
+              "misconception": "switch slip"
+            }
+          ]
+        },
+        {
+          "stem": "On an oscilloscope, a direct current trace appears as:",
+          "misconceptionClass": "graph recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "a sine wave",
+              "correct": false,
+              "explanation": "That is the alternating trace.",
+              "misconception": "trace swap"
+            },
+            {
+              "key": "B",
+              "text": "a flat line at fixed height",
+              "correct": true,
+              "explanation": "A steady one-way current sits at a constant level.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "a sawtooth",
+              "correct": false,
+              "explanation": "Neither supply gives a sawtooth here.",
+              "misconception": "trace invention"
+            },
+            {
+              "key": "D",
+              "text": "a random scatter",
+              "correct": false,
+              "explanation": "The trace is steady, not noisy.",
+              "misconception": "trace invention"
+            }
+          ]
+        },
+        {
+          "stem": "Define direct current.",
+          "misconceptionClass": "definition recall",
+          "kind": "recall",
+          "modelAnswer": "A steady current that keeps flowing the same way around the circuit, from positive to negative.",
+          "keywords": [
+            "steady",
+            "current",
+            "same",
+            "direction",
+            "positive",
+            "negative"
+          ]
+        },
+        {
+          "stem": "Name two sources of direct current.",
+          "misconceptionClass": "source recall",
+          "kind": "recall",
+          "modelAnswer": "Cells and batteries.",
+          "keywords": [
+            "cells",
+            "batteries",
+            "sources",
+            "direct",
+            "current"
+          ]
+        },
+        {
+          "stem": "Explain why a battery cannot power a device that needs the current to reverse.",
+          "misconceptionClass": "reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "A battery's terminals are fixed, so its push stays one way round the circuit; reversing the current would need the polarity to swap, which only an alternating supply does.",
+          "keywords": [
+            "battery",
+            "terminals",
+            "current",
+            "reverse",
+            "polarity"
+          ]
+        },
+        {
+          "stem": "A torch runs from two cells in a holder. State the kind of supply and the direction of the current through the lamp.",
+          "misconceptionClass": "application",
+          "kind": "application",
+          "modelAnswer": "Direct current, flowing steadily from the positive terminal of the holder, through the lamp, to the negative terminal.",
+          "keywords": [
+            "direct",
+            "current",
+            "positive",
+            "negative",
+            "terminal"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Alternating current & the UK mains",
+      "sourceHeadings": [
+        "Alternating current",
+        "Comparing alternating current & direct current"
+      ],
+      "specRefs": [
+        "2.6"
+      ],
+      "figureIds": [
+        "fig-02"
+      ],
+      "opening": "The mains behaves differently: its two terminals keep trading polarity, so the current sweeps back and forth instead of holding one direction. That is alternating current. The frequency counts the sweeps each second — 50 of them in UK sockets — and the voltage sits near 230 V.",
+      "keyPoints": [
+        "Alternating current changes direction continuously, moving back and forth.",
+        "An a.c. supply has two identical terminals whose polarity keeps swapping.",
+        "The frequency counts the back-and-forth direction changes each second.",
+        "UK mains delivers alternating current at 50 Hz and about 230 V.",
+        "Generators at power stations produce the mains alternating current."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Alternating current keeps reversing direction; UK mains does this 50 times a second at about 230 V.",
+          "analogy": "A pendulum versus a one-way slide: the pendulum sweeps both ways, the slide only down.",
+          "examPointer": "Learn the two mains numbers as a pair — 50 Hz and 230 V — questions rarely ask for one without the other."
+        },
+        "medium": {
+          "restatement": "Because the terminals swap polarity continuously, neither is 'the positive one'; each is positive half the time and negative the other half.",
+          "analogy": "Two children on a see-saw taking turns being 'up' — neither holds the title for long.",
+          "examPointer": "Sketch the two oscilloscope traces: a flat line for d.c., an oscillating wave for a.c."
+        }
+      },
+      "check": [
+        {
+          "stem": "Alternating current is defined by:",
+          "misconceptionClass": "definition recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "constant one-way flow",
+              "correct": false,
+              "explanation": "That is direct current.",
+              "misconception": "category swap"
+            },
+            {
+              "key": "B",
+              "text": "zero frequency",
+              "correct": false,
+              "explanation": "A.c. has a frequency by definition.",
+              "misconception": "contradiction"
+            },
+            {
+              "key": "C",
+              "text": "continuous reversal of direction",
+              "correct": true,
+              "explanation": "The current keeps changing direction, back and forth.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "fixed polarity",
+              "correct": false,
+              "explanation": "The polarity swaps — that is the point.",
+              "misconception": "contradiction"
+            }
+          ]
+        },
+        {
+          "stem": "UK mains potential difference is about:",
+          "misconceptionClass": "value recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "230 V",
+              "correct": true,
+              "explanation": "UK mains sits at around 230 V.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "12 V",
+              "correct": false,
+              "explanation": "That is a car-battery scale.",
+              "misconception": "value slip"
+            },
+            {
+              "key": "C",
+              "text": "1.5 V",
+              "correct": false,
+              "explanation": "That is a single cell.",
+              "misconception": "value slip"
+            },
+            {
+              "key": "D",
+              "text": "50 000 V",
+              "correct": false,
+              "explanation": "That is transmission-line territory.",
+              "misconception": "value slip"
+            }
+          ]
+        },
+        {
+          "stem": "The frequency of UK mains is:",
+          "misconceptionClass": "value recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "230 Hz",
+              "correct": false,
+              "explanation": "230 is the voltage figure.",
+              "misconception": "value swap"
+            },
+            {
+              "key": "B",
+              "text": "60 Hz",
+              "correct": false,
+              "explanation": "That is another country's standard.",
+              "misconception": "value slip"
+            },
+            {
+              "key": "C",
+              "text": "5 Hz",
+              "correct": false,
+              "explanation": "Far below the mains frequency.",
+              "misconception": "value slip"
+            },
+            {
+              "key": "D",
+              "text": "50 Hz",
+              "correct": true,
+              "explanation": "UK mains alternates at 50 Hz.",
+              "misconception": null
+            }
+          ]
+        },
+        {
+          "stem": "An a.c. supply's two terminals are:",
+          "misconceptionClass": "property recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "fixed positive and negative",
+              "correct": false,
+              "explanation": "That describes d.c.",
+              "misconception": "category swap"
+            },
+            {
+              "key": "B",
+              "text": "identical and constantly swapping polarity",
+              "correct": true,
+              "explanation": "Each terminal takes both roles in turn.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "both always negative",
+              "correct": false,
+              "explanation": "They alternate between both signs.",
+              "misconception": "contradiction"
+            },
+            {
+              "key": "D",
+              "text": "insulated from the circuit",
+              "correct": false,
+              "explanation": "They connect to the circuit by definition.",
+              "misconception": "nonsense option"
+            }
+          ]
+        },
+        {
+          "stem": "Mains alternating current is produced by:",
+          "misconceptionClass": "source recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "cells",
+              "correct": false,
+              "explanation": "Cells give d.c.",
+              "misconception": "category swap"
+            },
+            {
+              "key": "B",
+              "text": "batteries",
+              "correct": false,
+              "explanation": "Batteries give d.c.",
+              "misconception": "category swap"
+            },
+            {
+              "key": "C",
+              "text": "generators",
+              "correct": true,
+              "explanation": "Generators — the power stations — produce the alternating mains.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "photocopiers",
+              "correct": false,
+              "explanation": "Photocopiers consume mains electricity, they do not make it.",
+              "misconception": "device confusion"
+            }
+          ]
+        },
+        {
+          "stem": "Define alternating current.",
+          "misconceptionClass": "definition recall",
+          "kind": "recall",
+          "modelAnswer": "A current that keeps changing its direction, going back and forth around the circuit.",
+          "keywords": [
+            "current",
+            "changing",
+            "direction",
+            "back",
+            "forth"
+          ]
+        },
+        {
+          "stem": "State the frequency and approximate voltage of UK mains electricity.",
+          "misconceptionClass": "value recall",
+          "kind": "recall",
+          "modelAnswer": "50 Hz at around 230 V.",
+          "keywords": [
+            "50",
+            "hz",
+            "230",
+            "mains",
+            "frequency",
+            "voltage"
+          ]
+        },
+        {
+          "stem": "Explain why the two terminals of an a.c. supply are described as identical.",
+          "misconceptionClass": "reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "Each terminal keeps swapping between positive and negative, so neither stays fixed and the two are interchangeable.",
+          "keywords": [
+            "terminal",
+            "swapping",
+            "positive",
+            "negative",
+            "identical"
+          ]
+        },
+        {
+          "stem": "An oscilloscope shows one trace flat and one trace oscillating. Identify each supply.",
+          "misconceptionClass": "graph application",
+          "kind": "application",
+          "modelAnswer": "The flat trace is direct current from a fixed-polarity source; the oscillating trace is alternating current whose direction reverses continuously.",
+          "keywords": [
+            "flat",
+            "direct",
+            "oscillating",
+            "alternating",
+            "trace"
+          ]
+        }
+      ]
+    }
+  ],
+  "noteAssets": {
+    "glossary": [
+      {
+        "term": "direct current",
+        "definition": "A steady current flowing one way only, produced by cells and batteries.",
+        "firstLesson": 1
+      },
+      {
+        "term": "alternating current",
+        "definition": "A current that continuously changes direction, produced by generators and carried by the mains.",
+        "firstLesson": 2
+      },
+      {
+        "term": "frequency",
+        "definition": "The number of back-and-forth direction changes per second, in hertz; UK mains is 50 Hz.",
+        "firstLesson": 2
+      }
+    ],
+    "workedExample": null
+  },
+  "figures": [
+    {
+      "id": "fig-01",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/106fc663151b-9-1-2-1-voltmeter-in-a-circuit.png",
+      "alt": "Voltmeter in a circuit, downloadable AS & A Level Physics revision notes",
+      "sourceHeading": "Direct current",
+      "moduleIds": [
+        "L1"
+      ],
+      "caption": "Circuits powered by cells or batteries use a d.c. supply",
+      "binding": "heading-unique"
+    },
+    {
+      "id": "fig-02",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/f32a21394813-ac-dc.png",
+      "alt": "ac-&-dc, IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "Alternating current",
+      "moduleIds": [
+        "L2"
+      ],
+      "caption": "Two graphs showing the variation of current with time for alternating current and direct current",
+      "binding": "heading-unique"
+    }
+  ]
+}

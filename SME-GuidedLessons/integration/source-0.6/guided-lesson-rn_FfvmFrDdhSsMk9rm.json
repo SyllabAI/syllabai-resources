@@ -1,0 +1,319 @@
+{
+  "format": "guided-lesson/0.6",
+  "noteRef": {
+    "noteId": "rn_FfvmFrDdhSsMk9rm",
+    "corpusVersion": "sme-revision-notes-igcse-physics-19-2026-09-17",
+    "topicTitle": "2. Electricity",
+    "subtopicTitle": "Electrical Power & Mains Electricity",
+    "sourceUrl": "https://www.savemyexams.com/igcse/physics/edexcel/19/revision-notes/2-electricity/2-3-electrical-power-and-mains-electricity/2-3-2-calculating-energy-transfers"
+  },
+  "specPoints": [
+    {
+      "code": "2.5",
+      "text": "use the relationship between energy transferred, current, voltage and time: energy transferred = current × voltage × time"
+    }
+  ],
+  "primer": {
+    "text": "When charge is driven around a circuit, the battery is doing work — and work done is energy transferred. This note assembles the three quantities that set the size of that transfer, the current, the voltage and the time in seconds, into the single equation E = I × V × t, and shows it is just power multiplied by time.",
+    "prerequisiteSubtopic": "Electrical Power & Mains Electricity"
+  },
+  "lessons": [
+    {
+      "title": "Calculating energy transfers",
+      "sourceHeadings": [
+        "Calculating energy transfers"
+      ],
+      "specRefs": [
+        "2.5"
+      ],
+      "opening": "Charge flowing through a component is the battery doing work on it, and the energy handed over depends on three things: how hard the charge is pushed (voltage), how much flow there is (current) and how long the flow lasts (time). Multiply the three and you have the energy transferred in joules.",
+      "keyPoints": [
+        "Work done by the moving charge equals the energy transferred in the circuit.",
+        "Energy transferred depends on the current, the voltage and the time the component runs.",
+        "The equation of record is E = I × V × t, with energy in joules.",
+        "It is E = P × t with the power written as P = I × V.",
+        "Time must enter the equation in seconds, never minutes.",
+        "The energy the battery supplies equals the total transferred to every component."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Energy transferred equals current × voltage × time; the longer a device runs, the more energy it moves.",
+          "analogy": "Filling a paddling pool: the flow rate (current), the pressure (voltage) and the filling time together set the water collected.",
+          "examPointer": "Convert minutes to seconds before substituting — this single slip loses the most marks here."
+        },
+        "medium": {
+          "restatement": "Because P = I × V, the same law can be read as E = P × t; the two forms are one relationship seen two ways.",
+          "analogy": "A taxi fare: the rate per mile (power) times the miles driven (time at speed) gives the total paid (energy).",
+          "examPointer": "'Work done' and 'energy transferred' are interchangeable in mark schemes — use either name confidently."
+        }
+      },
+      "check": [
+        {
+          "stem": "Charge flowing through a resistor transfers energy that makes the resistor:",
+          "misconceptionClass": "heating recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "magnetic",
+              "correct": false,
+              "explanation": "The transfer warms the resistor; magnetism is not part of this relationship.",
+              "misconception": "effect confusion"
+            },
+            {
+              "key": "B",
+              "text": "hot",
+              "correct": true,
+              "explanation": "The transferred energy heats the resistor as the charge is pushed through.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "positively charged",
+              "correct": false,
+              "explanation": "Energy transfer does not leave the resistor charged.",
+              "misconception": "quantity confusion"
+            },
+            {
+              "key": "D",
+              "text": "cooler than the room",
+              "correct": false,
+              "explanation": "The transfer raises, not lowers, the temperature.",
+              "misconception": "direction slip"
+            }
+          ]
+        },
+        {
+          "stem": "Energy transferred by electrical work equals:",
+          "misconceptionClass": "equation recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "current ÷ voltage × time",
+              "correct": false,
+              "explanation": "The current multiplies the voltage; dividing has no meaning here.",
+              "misconception": "operation slip"
+            },
+            {
+              "key": "B",
+              "text": "voltage ÷ current × time",
+              "correct": false,
+              "explanation": "That is not any relationship of record.",
+              "misconception": "invented relationship"
+            },
+            {
+              "key": "C",
+              "text": "current × voltage ÷ time",
+              "correct": false,
+              "explanation": "Time multiplies in — longer running transfers more energy.",
+              "misconception": "time misplacement"
+            },
+            {
+              "key": "D",
+              "text": "current × voltage × time",
+              "correct": true,
+              "explanation": "E = I × V × t is the relationship of record.",
+              "misconception": null
+            }
+          ]
+        },
+        {
+          "stem": "A 0.7 A appliance on 4 V runs for one minute. The energy transferred is:",
+          "misconceptionClass": "energy arithmetic",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "168 J",
+              "correct": true,
+              "explanation": "E = 0.7 × 4 × 60 = 168 J, with the minute converted to 60 s.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "2.8 J",
+              "correct": false,
+              "explanation": "That is only 0.7 × 4 — the time was dropped.",
+              "misconception": "omission slip"
+            },
+            {
+              "key": "C",
+              "text": "240 J",
+              "correct": false,
+              "explanation": "That is 4 × 60 — the current was dropped.",
+              "misconception": "omission slip"
+            },
+            {
+              "key": "D",
+              "text": "16.8 J",
+              "correct": false,
+              "explanation": "That used 6 s instead of 60 s.",
+              "misconception": "conversion slip"
+            }
+          ]
+        },
+        {
+          "stem": "Before substituting into E = I × V × t, any time given in minutes must be:",
+          "misconceptionClass": "unit discipline",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "left in minutes",
+              "correct": false,
+              "explanation": "Leaving minutes overstates nothing consistently — it breaks the joule arithmetic.",
+              "misconception": "unit slip"
+            },
+            {
+              "key": "B",
+              "text": "converted into hours",
+              "correct": false,
+              "explanation": "Hours move further from the SI unit, not closer.",
+              "misconception": "wrong conversion"
+            },
+            {
+              "key": "C",
+              "text": "converted into seconds",
+              "correct": true,
+              "explanation": "The joule arithmetic only works with time in seconds.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "halved",
+              "correct": false,
+              "explanation": "Halving is not a unit conversion.",
+              "misconception": "invented rule"
+            }
+          ]
+        },
+        {
+          "stem": "'Work done' and 'energy transferred' in circuits are:",
+          "misconceptionClass": "terminology recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "unrelated quantities",
+              "correct": false,
+              "explanation": "They name the same physical quantity.",
+              "misconception": "separation myth"
+            },
+            {
+              "key": "B",
+              "text": "two names for the same quantity",
+              "correct": true,
+              "explanation": "Work done by the charge is exactly the energy transferred.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "always different signs",
+              "correct": false,
+              "explanation": "No sign distinction exists in this usage.",
+              "misconception": "sign myth"
+            },
+            {
+              "key": "D",
+              "text": "different units",
+              "correct": false,
+              "explanation": "Both are measured in joules.",
+              "misconception": "unit myth"
+            }
+          ]
+        },
+        {
+          "stem": "State the equation linking energy transferred, current, voltage and time, naming the unit of energy.",
+          "misconceptionClass": "equation recall",
+          "kind": "recall",
+          "modelAnswer": "E = I × V × t, with energy in joules, current in amperes, voltage in volts and time in seconds.",
+          "keywords": [
+            "energy",
+            "current",
+            "voltage",
+            "time",
+            "joule"
+          ]
+        },
+        {
+          "stem": "How are E = I × V × t and E = P × t connected?",
+          "misconceptionClass": "equation connection",
+          "kind": "recall",
+          "modelAnswer": "The power in E = P × t is itself P = I × V, so substituting that into E = P × t gives E = I × V × t.",
+          "keywords": [
+            "power",
+            "substituting",
+            "equation",
+            "gives",
+            "connected"
+          ]
+        },
+        {
+          "stem": "Explain why the time in E = I × V × t must be in seconds.",
+          "misconceptionClass": "unit reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "The watt is one joule per second, so only a time in seconds makes the energy come out in joules; a time left in minutes would understate the transfer by a factor of sixty.",
+          "keywords": [
+            "seconds",
+            "joules",
+            "minutes",
+            "time",
+            "watt"
+          ]
+        },
+        {
+          "stem": "A 2 A heater on 12 V runs for 30 s. Calculate the energy transferred.",
+          "misconceptionClass": "energy calculation",
+          "kind": "application",
+          "modelAnswer": "E = I × V × t = 2 × 12 × 30 = 720 J.",
+          "keywords": [
+            "720",
+            "energy",
+            "heater",
+            "transferred"
+          ]
+        }
+      ]
+    }
+  ],
+  "noteAssets": {
+    "glossary": [
+      {
+        "term": "energy transferred",
+        "definition": "The energy handed over by the moving charge, equal to the work done, in joules.",
+        "firstLesson": 1
+      },
+      {
+        "term": "work done",
+        "definition": "Another name for energy transferred when charge flows around a circuit.",
+        "firstLesson": 1
+      },
+      {
+        "term": "joule",
+        "definition": "The SI unit of energy.",
+        "firstLesson": 1
+      }
+    ],
+    "workedExample": {
+      "prompt": "Calculate the energy transferred in 1 minute when a current of 0.7 A passes through a potential difference of 4 V.",
+      "steps": [
+        "List the knowns: time t = 1 minute = 60 s, current I = 0.7 A, potential difference V = 4 V.",
+        "State the linking equation: E = I × V × t.",
+        "Substitute: E = 0.7 × 4 × 60.",
+        "Work the product: E = 168 J."
+      ],
+      "finalAnswer": "The energy transferred is 168 J."
+    }
+  }
+}

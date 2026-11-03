@@ -1,0 +1,918 @@
+{
+  "format": "guided-lesson/0.6",
+  "noteRef": {
+    "noteId": "rn_NhRw6hdrVD4vmNJw",
+    "corpusVersion": "sme-revision-notes-igcse-physics-19-2026-09-17",
+    "topicTitle": "2. Electricity",
+    "subtopicTitle": "Static Electricity",
+    "sourceUrl": "https://www.savemyexams.com/igcse/physics/edexcel/19/revision-notes/2-electricity/2-4-static-electricity/2-4-3-electric-charge"
+  },
+  "specPoints": [
+    {
+      "code": "2.24P",
+      "text": "explain how positive and negative electrostatic charges are produced on materials by the loss and gain of electrons (physics only)"
+    },
+    {
+      "code": "2.25P",
+      "text": "know that there are forces of attraction between unlike charges and forces of repulsion between like charges (physics only)"
+    },
+    {
+      "code": "2.26P",
+      "text": "explain electrostatic phenomena in terms of the movement of electrons (physics only)"
+    }
+  ],
+  "primer": {
+    "text": "Charge is a particle property: protons positive, electrons negative, neutrons nothing. Balance them and an atom is neutral; unbalance them by moving electrons only, and objects charge up. This note covers the forces that unbalanced charges exert on each other, how friction produces them, and why every electrostatic phenomenon is an electron story.",
+    "prerequisiteSubtopic": "Static Electricity"
+  },
+  "lessons": [
+    {
+      "title": "Charges, atoms & forces between them",
+      "sourceHeadings": [
+        "Electric forces between charges"
+      ],
+      "specRefs": [
+        "2.25P"
+      ],
+      "figureIds": [
+        "fig-01",
+        "fig-02"
+      ],
+      "opening": "A neutral atom carries equal numbers of electrons and protons, so its charges cancel to zero. Tip that balance by moving electrons and the object charges up — and charged objects exert forces on each other without touching: unlike charges attract, like charges repel, and the force grows as they close in.",
+      "keyPoints": [
+        "Particles carry positive, negative or neutral charge: protons positive, electrons negative, neutrons neutral.",
+        "A neutral atom holds equal numbers of electrons and protons, so the charges cancel.",
+        "An object charges negatively by gaining electrons and positively by losing them.",
+        "Unlike charges attract; like charges repel.",
+        "The force between charges strengthens as they come closer.",
+        "Attraction and repulsion act without contact — non-contact forces."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Opposite charges pull together, matching charges push apart, and neither needs a touch to act.",
+          "analogy": "Two magnets on a table: north-to-south snaps together, north-to-north shoves apart, from clear across the desk.",
+          "examPointer": "'Opposites attract' is the saying examiners want — but name the charges, not just the slogan."
+        },
+        "medium": {
+          "restatement": "The force is non-contact and distance-dependent, weakening rapidly as the charged objects separate.",
+          "analogy": "A smell from the kitchen: strongest up close, fading with distance, no contact needed.",
+          "examPointer": "Use the summary table pattern: positive-positive repel, positive-negative attract, and so on."
+        }
+      },
+      "check": [
+        {
+          "stem": "In a neutral atom:",
+          "misconceptionClass": "atomic structure recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "electrons equal neutrons",
+              "correct": false,
+              "explanation": "Neutrons are irrelevant to the balance of charge.",
+              "misconception": "particle confusion"
+            },
+            {
+              "key": "B",
+              "text": "protons outnumber electrons",
+              "correct": false,
+              "explanation": "That would leave the atom positive.",
+              "misconception": "balance slip"
+            },
+            {
+              "key": "C",
+              "text": "electrons equal protons",
+              "correct": true,
+              "explanation": "Equal opposite charges cancel to zero.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "all charges add to positive",
+              "correct": false,
+              "explanation": "A neutral atom adds to zero.",
+              "misconception": "balance slip"
+            }
+          ]
+        },
+        {
+          "stem": "An object that has gained electrons is:",
+          "misconceptionClass": "charge reasoning",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "positively charged",
+              "correct": false,
+              "explanation": "Gaining negative charge makes it negative.",
+              "misconception": "sign slip"
+            },
+            {
+              "key": "B",
+              "text": "neutral",
+              "correct": false,
+              "explanation": "The balance has tipped.",
+              "misconception": "balance slip"
+            },
+            {
+              "key": "C",
+              "text": "discharged",
+              "correct": false,
+              "explanation": "Gaining charge is the opposite of discharging.",
+              "misconception": "term confusion"
+            },
+            {
+              "key": "D",
+              "text": "negatively charged",
+              "correct": true,
+              "explanation": "Extra electrons mean a net negative charge.",
+              "misconception": null
+            }
+          ]
+        },
+        {
+          "stem": "Two like charges brought near each other will:",
+          "misconceptionClass": "force recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "repel",
+              "correct": true,
+              "explanation": "Like charges push apart.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "attract",
+              "correct": false,
+              "explanation": "Only unlike charges attract.",
+              "misconception": "rule slip"
+            },
+            {
+              "key": "C",
+              "text": "cancel",
+              "correct": false,
+              "explanation": "Charges on separate objects do not cancel each other.",
+              "misconception": "interaction myth"
+            },
+            {
+              "key": "D",
+              "text": "discharge",
+              "correct": false,
+              "explanation": "Discharge needs a conducting path.",
+              "misconception": "mechanism myth"
+            }
+          ]
+        },
+        {
+          "stem": "Two opposite charges will:",
+          "misconceptionClass": "force recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "repel",
+              "correct": false,
+              "explanation": "Opposites do the opposite of repelling.",
+              "misconception": "rule slip"
+            },
+            {
+              "key": "B",
+              "text": "attract",
+              "correct": true,
+              "explanation": "Unlike charges pull together.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "orbit",
+              "correct": false,
+              "explanation": "No orbiting occurs between static charges.",
+              "misconception": "invented behaviour"
+            },
+            {
+              "key": "D",
+              "text": "neutralise instantly",
+              "correct": false,
+              "explanation": "Attraction is the effect named here, not instant neutralisation.",
+              "misconception": "mechanism slip"
+            }
+          ]
+        },
+        {
+          "stem": "The force between two charged objects grows when they:",
+          "misconceptionClass": "force reasoning",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "move apart",
+              "correct": false,
+              "explanation": "Separation weakens the force.",
+              "misconception": "direction slip"
+            },
+            {
+              "key": "B",
+              "text": "lose mass",
+              "correct": false,
+              "explanation": "Mass is not the variable here.",
+              "misconception": "irrelevant quantity"
+            },
+            {
+              "key": "C",
+              "text": "move closer together",
+              "correct": true,
+              "explanation": "The force strengthens as the objects close in.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "cool down",
+              "correct": false,
+              "explanation": "Temperature is not the variable.",
+              "misconception": "irrelevant quantity"
+            }
+          ]
+        },
+        {
+          "stem": "State the charges of protons, electrons and neutrons.",
+          "misconceptionClass": "particle recall",
+          "kind": "recall",
+          "modelAnswer": "Protons positive, electrons negative, neutrons neutral.",
+          "keywords": [
+            "protons",
+            "positive",
+            "electrons",
+            "negative",
+            "neutrons"
+          ]
+        },
+        {
+          "stem": "What kind of force is the attraction between charges, and what does that mean?",
+          "misconceptionClass": "force classification",
+          "kind": "recall",
+          "modelAnswer": "A non-contact force — it acts on the objects without them touching.",
+          "keywords": [
+            "non-contact",
+            "force",
+            "without",
+            "touching",
+            "attraction"
+          ]
+        },
+        {
+          "stem": "Explain why a neutral atom carries no overall charge.",
+          "misconceptionClass": "reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "It holds the same count of negative electrons and positive protons, and equal opposite charges cancel to zero.",
+          "keywords": [
+            "neutral",
+            "atom",
+            "electrons",
+            "protons",
+            "cancel"
+          ]
+        },
+        {
+          "stem": "A charged balloon sticks to a neutral wall. Name the force type and describe the charge behaviour involved.",
+          "misconceptionClass": "application",
+          "kind": "application",
+          "modelAnswer": "A non-contact electrostatic attraction: the balloon's charge pulls opposite charge to the wall's surface, and the unlike charges attract.",
+          "keywords": [
+            "attraction",
+            "non-contact",
+            "charge",
+            "surface",
+            "unlike"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Production of static by friction",
+      "sourceHeadings": [
+        "Production of static"
+      ],
+      "specRefs": [
+        "2.24P"
+      ],
+      "figureIds": [
+        "fig-03"
+      ],
+      "opening": "Rub two insulators together and charge appears on both — not from nowhere, but by moving electrons from one surface onto the other. The charges stay put because the materials have no free carriers, and the two objects end up with equal and opposite signs: one negative, the other equally positive.",
+      "keyPoints": [
+        "Static electricity is charge accumulated on an insulator, able to attract objects or spark.",
+        "Rubbing two insulators together charges them by friction.",
+        "The charge stays put on insulators because it cannot flow away at once.",
+        "Only electrons move: one material gains them, the other loses them.",
+        "A polythene rod rubbed with a cloth gains electrons and charges negative; the cloth is left equally positive."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Rubbing moves electrons between two insulators; the gainer turns negative, the loser positive.",
+          "analogy": "Passing bricks between two wheelbarrows: one loads up, the other lightens — nothing else changes.",
+          "examPointer": "Always answer in electrons: they are the only particle that moves."
+        },
+        "medium": {
+          "restatement": "The equality matters: the negative surplus on one surface matches the positive shortfall on the other, so charge is conserved overall.",
+          "analogy": "A seesaw: one side down by exactly as much as the other side is up.",
+          "examPointer": "If asked how a positive charge appears, say electrons LEFT — never that protons arrived."
+        }
+      },
+      "check": [
+        {
+          "stem": "Charging by friction happens when:",
+          "misconceptionClass": "definition recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "two metals are wired together",
+              "correct": false,
+              "explanation": "Metals would let any charge flow away instantly.",
+              "misconception": "material slip"
+            },
+            {
+              "key": "B",
+              "text": "two insulators are rubbed together",
+              "correct": true,
+              "explanation": "Friction between insulators transfers and traps charge.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "a battery charges a plate",
+              "correct": false,
+              "explanation": "That is supplied charging, not friction.",
+              "misconception": "mechanism slip"
+            },
+            {
+              "key": "D",
+              "text": "a spark jumps a gap",
+              "correct": false,
+              "explanation": "Sparking is a discharge, not a charging method.",
+              "misconception": "mechanism slip"
+            }
+          ]
+        },
+        {
+          "stem": "When a polythene rod is rubbed with a cloth, the cloth:",
+          "misconceptionClass": "charge reasoning",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "gains electrons and turns negative",
+              "correct": false,
+              "explanation": "The rod is the gainer here.",
+              "misconception": "direction slip"
+            },
+            {
+              "key": "B",
+              "text": "gains protons",
+              "correct": false,
+              "explanation": "Protons never move.",
+              "misconception": "particle confusion"
+            },
+            {
+              "key": "C",
+              "text": "stays neutral always",
+              "correct": false,
+              "explanation": "The cloth loses exactly the electrons the rod gains.",
+              "misconception": "balance myth"
+            },
+            {
+              "key": "D",
+              "text": "loses electrons and is left positive",
+              "correct": true,
+              "explanation": "The cloth's lost electrons leave a positive charge behind.",
+              "misconception": null
+            }
+          ]
+        },
+        {
+          "stem": "The charge on a rubbed insulator remains where it is because:",
+          "misconceptionClass": "static reasoning",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "no free charges can carry it away",
+              "correct": true,
+              "explanation": "Immobile charge is the defining trait of an insulator.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "the air insulates it",
+              "correct": false,
+              "explanation": "Air is not the operative insulator here.",
+              "misconception": "mechanism slip"
+            },
+            {
+              "key": "C",
+              "text": "it repels everything",
+              "correct": false,
+              "explanation": "Repulsion is an effect of charge, not its keeper.",
+              "misconception": "mechanism slip"
+            },
+            {
+              "key": "D",
+              "text": "gravity holds it",
+              "correct": false,
+              "explanation": "Gravity plays no role in charge retention.",
+              "misconception": "nonsense option"
+            }
+          ]
+        },
+        {
+          "stem": "Which particles transfer during friction charging?",
+          "misconceptionClass": "particle recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "protons",
+              "correct": false,
+              "explanation": "Protons are bound in nuclei.",
+              "misconception": "particle confusion"
+            },
+            {
+              "key": "B",
+              "text": "neutrons",
+              "correct": false,
+              "explanation": "Neutrons carry no charge and stay put.",
+              "misconception": "particle confusion"
+            },
+            {
+              "key": "C",
+              "text": "electrons",
+              "correct": true,
+              "explanation": "Only the mobile negative electrons move.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "positive charges",
+              "correct": false,
+              "explanation": "Positive charge never travels between insulators.",
+              "misconception": "particle confusion"
+            }
+          ]
+        },
+        {
+          "stem": "Accumulated static charge can:",
+          "misconceptionClass": "phenomenon recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "power a motor",
+              "correct": false,
+              "explanation": "Static charge cannot sustain a motor drive.",
+              "misconception": "capability myth"
+            },
+            {
+              "key": "B",
+              "text": "attract objects or produce sparks",
+              "correct": true,
+              "explanation": "Both are the named capabilities of accumulated charge.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "cool the surface",
+              "correct": false,
+              "explanation": "No cooling occurs.",
+              "misconception": "invented effect"
+            },
+            {
+              "key": "D",
+              "text": "increase the mass visibly",
+              "correct": false,
+              "explanation": "Electron mass is far too small to see.",
+              "misconception": "scale myth"
+            }
+          ]
+        },
+        {
+          "stem": "Define static electricity.",
+          "misconceptionClass": "definition recall",
+          "kind": "recall",
+          "modelAnswer": "Charge that has piled up on an object — enough to attract other things or to spark.",
+          "keywords": [
+            "charge",
+            "attract",
+            "spark",
+            "object",
+            "piled"
+          ]
+        },
+        {
+          "stem": "What always transfers during charging by friction?",
+          "misconceptionClass": "particle recall",
+          "kind": "recall",
+          "modelAnswer": "Electrons — never positive charge; the loser is left positive, the gainer negative.",
+          "keywords": [
+            "electrons",
+            "transfer",
+            "positive",
+            "negative",
+            "loser"
+          ]
+        },
+        {
+          "stem": "Explain why both rod and cloth end up charged after rubbing.",
+          "misconceptionClass": "reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "Electrons move from one material to the other, so one gains a negative surplus while the other is left with an equal positive shortfall.",
+          "keywords": [
+            "electrons",
+            "material",
+            "negative",
+            "positive",
+            "surplus"
+          ]
+        },
+        {
+          "stem": "A polythene rod and a cloth are rubbed together. State the charge on each and name the particle movement responsible.",
+          "misconceptionClass": "application",
+          "kind": "application",
+          "modelAnswer": "The rod gains electrons and turns negative; the cloth loses them and turns equally positive; moving electrons carry the entire transfer.",
+          "keywords": [
+            "rod",
+            "cloth",
+            "electrons",
+            "negative",
+            "positive"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Movement of electrons explains phenomena",
+      "sourceHeadings": [
+        "Movement of electrons"
+      ],
+      "specRefs": [
+        "2.26P"
+      ],
+      "figureIds": [
+        "fig-04"
+      ],
+      "opening": "Every electrostatic observation reduces to one storyline: electrons moved. Start neutral, transfer electrons by friction, and the receiver goes negative while the giver goes positive. Even a charged object's pull on neutral things is an electron story — opposite charge is drawn to the surface nearest the charge.",
+      "keyPoints": [
+        "Everyday objects start electrically neutral, with charge evenly spread.",
+        "Friction transfers electrons: the receiver turns negative, the giver positive.",
+        "A charged object attracts neutral ones by pulling opposite charge to their surface.",
+        "Rubbing an acetate rod sends its electrons to the cloth, leaving rod positive, cloth negative.",
+        "Once separated, rod and cloth attract each other."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Charged things attract neutrals by rearranging the neutrals' own charges across their surface.",
+          "analogy": "A comb through hair lifting paper bits — the comb's charge re-dresses each paper's surface charge.",
+          "examPointer": "Phenomena questions want the electron direction: to the rod, from the rod, or to the surface."
+        },
+        "medium": {
+          "restatement": "The induced surface charge explains why attraction works on neutrals: the unlike charge sits closer than the like charge, so attraction wins.",
+          "analogy": "A magnet near iron filings: the filings polarise and the nearest poles pull hardest.",
+          "examPointer": "For the acetate-cloth pair, name both directions: electrons rod-to-cloth, so rod positive and cloth negative."
+        }
+      },
+      "check": [
+        {
+          "stem": "Before any friction, everyday objects are:",
+          "misconceptionClass": "initial state recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "electrically neutral",
+              "correct": true,
+              "explanation": "Charge is evenly spread — equal positives and negatives.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "strongly negative",
+              "correct": false,
+              "explanation": "Nothing has moved the electrons yet.",
+              "misconception": "state slip"
+            },
+            {
+              "key": "C",
+              "text": "strongly positive",
+              "correct": false,
+              "explanation": "Same — no transfer has occurred.",
+              "misconception": "state slip"
+            },
+            {
+              "key": "D",
+              "text": "sparking",
+              "correct": false,
+              "explanation": "Sparking needs a large built-up charge.",
+              "misconception": "phenomenon slip"
+            }
+          ]
+        },
+        {
+          "stem": "During friction charging, the object receiving electrons becomes:",
+          "misconceptionClass": "charge reasoning",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "positive",
+              "correct": false,
+              "explanation": "Receiving negatives tips the balance negative.",
+              "misconception": "sign slip"
+            },
+            {
+              "key": "B",
+              "text": "neutral",
+              "correct": false,
+              "explanation": "The balance has tipped.",
+              "misconception": "balance slip"
+            },
+            {
+              "key": "C",
+              "text": "discharged",
+              "correct": false,
+              "explanation": "It has gained charge, not lost it.",
+              "misconception": "term confusion"
+            },
+            {
+              "key": "D",
+              "text": "negative",
+              "correct": true,
+              "explanation": "Extra electrons make the receiver negative.",
+              "misconception": null
+            }
+          ]
+        },
+        {
+          "stem": "A charged rod attracts a neutral object because:",
+          "misconceptionClass": "phenomenon reasoning",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "the rod's charge doubles",
+              "correct": false,
+              "explanation": "Nothing doubles on approach.",
+              "misconception": "nonsense option"
+            },
+            {
+              "key": "B",
+              "text": "opposite charge gathers on the neutral object's surface",
+              "correct": true,
+              "explanation": "The induced surface charge sits nearer the rod, so attraction wins.",
+              "misconception": null
+            },
+            {
+              "key": "C",
+              "text": "the object loses protons",
+              "correct": false,
+              "explanation": "Protons never move.",
+              "misconception": "particle confusion"
+            },
+            {
+              "key": "D",
+              "text": "gravity inverts",
+              "correct": false,
+              "explanation": "Gravity is irrelevant here.",
+              "misconception": "nonsense option"
+            }
+          ]
+        },
+        {
+          "stem": "When an acetate rod is rubbed with a cloth, electrons move:",
+          "misconceptionClass": "electron direction",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "from cloth to rod",
+              "correct": false,
+              "explanation": "That would charge the rod negative.",
+              "misconception": "direction slip"
+            },
+            {
+              "key": "B",
+              "text": "nowhere",
+              "correct": false,
+              "explanation": "The rubbing does transfer electrons.",
+              "misconception": "nonsense option"
+            },
+            {
+              "key": "C",
+              "text": "from rod to cloth",
+              "correct": true,
+              "explanation": "The acetate loses electrons to the cloth.",
+              "misconception": null
+            },
+            {
+              "key": "D",
+              "text": "both ways equally",
+              "correct": false,
+              "explanation": "Equal swapping would leave both neutral.",
+              "misconception": "balance myth"
+            }
+          ]
+        },
+        {
+          "stem": "After separation, the acetate rod and cloth:",
+          "misconceptionClass": "outcome recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "attract each other",
+              "correct": true,
+              "explanation": "Opposite charges on the two objects pull them together.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "repel each other",
+              "correct": false,
+              "explanation": "Repulsion needs like charges.",
+              "misconception": "rule slip"
+            },
+            {
+              "key": "C",
+              "text": "feel no force",
+              "correct": false,
+              "explanation": "The charged pair exerts a force.",
+              "misconception": "force myth"
+            },
+            {
+              "key": "D",
+              "text": "discharge instantly",
+              "correct": false,
+              "explanation": "In air, with no path, the charges persist.",
+              "misconception": "mechanism slip"
+            }
+          ]
+        },
+        {
+          "stem": "Describe the charge state of the rod and the cloth after an acetate rod is rubbed.",
+          "misconceptionClass": "outcome recall",
+          "kind": "recall",
+          "modelAnswer": "The cloth gains electrons and is negative; the rod loses them and is positive.",
+          "keywords": [
+            "cloth",
+            "gains",
+            "electrons",
+            "negative",
+            "rod",
+            "positive"
+          ]
+        },
+        {
+          "stem": "How does a charged object pull on a neutral one?",
+          "misconceptionClass": "mechanism recall",
+          "kind": "recall",
+          "modelAnswer": "It attracts the opposite charge towards the neutral object's surface, so unlike charges meet and attract.",
+          "keywords": [
+            "opposite",
+            "charge",
+            "surface",
+            "attract",
+            "neutral"
+          ]
+        },
+        {
+          "stem": "Explain why only electron movement can explain friction charging.",
+          "misconceptionClass": "reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "Positive protons stay locked in nuclei, so any transfer between surfaces must be the mobile negative electrons; that alone flips one object negative and the other positive.",
+          "keywords": [
+            "protons",
+            "nuclei",
+            "electrons",
+            "transfer",
+            "negative",
+            "positive"
+          ]
+        },
+        {
+          "stem": "A rubbed acetate rod hangs near its cloth and swings toward it. Explain fully, naming the charges.",
+          "misconceptionClass": "application",
+          "kind": "application",
+          "modelAnswer": "Rubbing moved electrons from rod to cloth, so the cloth is negative and the rod positive; the opposite charges attract once separated.",
+          "keywords": [
+            "electrons",
+            "cloth",
+            "negative",
+            "positive",
+            "attract"
+          ]
+        }
+      ]
+    }
+  ],
+  "noteAssets": {
+    "glossary": [
+      {
+        "term": "neutral",
+        "definition": "Having equal positive and negative charge, adding to zero.",
+        "firstLesson": 1
+      },
+      {
+        "term": "non-contact force",
+        "definition": "A force acting between objects that are not touching.",
+        "firstLesson": 1
+      },
+      {
+        "term": "charging by friction",
+        "definition": "Producing electrostatic charge on two insulators by rubbing them together.",
+        "firstLesson": 2
+      },
+      {
+        "term": "induced charge",
+        "definition": "Opposite charge drawn to a neutral object's surface by a nearby charged object.",
+        "firstLesson": 3
+      }
+    ],
+    "workedExample": null
+  },
+  "figures": [
+    {
+      "id": "fig-01",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/c6b34b2d01e0-11-1-2-nucleus-and-electrons-e1632120061207.png",
+      "alt": "Nucleus and electrons, downloadable AS & A Level Physics revision notes",
+      "sourceHeading": "Electric forces between charges",
+      "moduleIds": [
+        "L1"
+      ],
+      "caption": "The number of negative electrons in an atom balances the number of positive protons",
+      "binding": "heading-unique"
+    },
+    {
+      "id": "fig-02",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/0620928981cf-opposites-attract.png",
+      "alt": "opposites-attract, IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "Electric forces between charges",
+      "moduleIds": [
+        "L1"
+      ],
+      "caption": "Opposite charges attract, like charges repel",
+      "binding": "heading-unique"
+    },
+    {
+      "id": "fig-03",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/ca01bc48c3f5-charging-by-friction-v-1.png",
+      "alt": "charging-by-friction, IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "Production of static",
+      "moduleIds": [
+        "L2"
+      ],
+      "caption": "A polythene rod may be given a charge by rubbing it with a cloth",
+      "binding": "heading-unique"
+    },
+    {
+      "id": "fig-04",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/2a7d8f2e094a-2-4-2-static-charge-transfer.png",
+      "alt": "2a7d8f2e094a-2-4-2-static-charge-transfer",
+      "sourceHeading": "Movement of electrons",
+      "moduleIds": [
+        "L3"
+      ],
+      "caption": "Electrons are transferred from the rod to the cloth as they are rubbed together. This leaves the cloth negatively charged and the rod positively charged",
+      "binding": "heading-unique"
+    }
+  ]
+}
