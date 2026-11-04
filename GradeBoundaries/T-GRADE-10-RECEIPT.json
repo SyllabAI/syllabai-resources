@@ -1,0 +1,51 @@
+{
+  "schema": "syllabai.receipt/1",
+  "task": "T-GRADE-010 (run-001, YFM01 aggregation unlock)",
+  "generated": "2026-11-04T19:45:16Z",
+  "trace": "5c2f02913c6f798b",
+  "resources_pr": "SyllabAI/syllabai-resources#312 (merged 28966a89)",
+  "v2_pr": "SyllabAI/syllabai-v2#765 (merged e2c05f9b, CI green)",
+  "bundle_sha256_16": "2cb0628e9c3e3587",
+  "official_sources": [
+    {
+      "id": "pearson-ial-maths-aggregation-guidance",
+      "sha256_16": "61b32c5016644e74",
+      "role": "Rules 1-7: two-step grade/UMS maximisation, group unit locking, 3 worked examples; official AS/A2 designation"
+    },
+    {
+      "id": "pearson-ial-info-manual (p.12)",
+      "role": "YFM01 route compositions + the prerequisite + the certification-locking paragraphs"
+    },
+    {
+      "id": "pearson-ial-results-explained",
+      "role": "A* rule verbatim: A overall + at least 90% of the A2 UMS (re-verified live this run)"
+    }
+  ],
+  "structure": {
+    "pool": "10 FM-suite units (WFM01-03, WME01-03, WST01-03, WDM11)",
+    "size": 6,
+    "mustInclude": [
+      "WFM01"
+    ],
+    "atLeastOneOf": [
+      "WFM02",
+      "WFM03"
+    ],
+    "a2": [
+      "WFM02",
+      "WFM03",
+      "WME02",
+      "WME03",
+      "WST02",
+      "WST03"
+    ],
+    "aStar": "rate form, a2Rate 0.9 (the A2 ceiling depends on the combination)",
+    "maximisation": "Rule 1: best grade first, then best UMS total"
+  },
+  "bundle_effect": "105 served / 1 roadmap / 106 total unchanged; only ial-further-maths-18-further-pure-1 changed (display-only -> aggregate-ums; 18/18 cash-ins kept; 12/18 calculator-eligible, 6 honest absences); all other 105 courses byte-identical ex-stamp",
+  "gates": {
+    "resources": "run_all ALL GREEN (fetch+parse+G1+G2 parity+G3+build); test_units_absent 12/12; validate.py selection twins + rate-form + printed-A consistency gate",
+    "v2": "grade-boundaries suites 39/39 (official Example 1 FM half caught + killed a rank-inversion on first run); tsc/eslint clean; GB prebuild validator PASS (29 aggregate-ums); CI verify+build SUCCESS on the full tree"
+  },
+  "roadmap_retired": "YFM01 (the 'needs a verified official worked example' item) — the worked example exists and is now cited, sha-pinned, and encoded"
+}
