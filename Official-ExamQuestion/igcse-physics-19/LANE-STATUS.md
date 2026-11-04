@@ -391,3 +391,36 @@ the serve table); ledger DISC-6 -> ruling recorded, wave_d section added. The
 v2 serving leg is PR #688 (3 bank files + the remediation script + guard
 receipts + the payload receipt). The corpus of record is untouched by this
 wave.
+
+## 2026-11-04 — F135: lane closure — the parked post-merge items executed (citation fix + CI infra issue); T-OEQ-PHYS-FORMAT-1 disposition CLOSED
+
+The operator ordered "Proceed" (trace 1a1a51c2b1537aa1) on the two parked items from
+the wave-D post-merge leg, after which this lane closes. Both executed the same day:
+
+- **Ledger citation micro-fix** (resources PR #305, merged 5589fd126f89cb1dfda97be81cfbdec85500649f): the
+  `wave_d.post_merge` record and the `wave-d/post-merge.json` receipt cited
+  `run012-waved-post-merge-guard.json` — a filename that exists nowhere in
+  syllabai-v2 (full tree enumerated, zero hits). The guard receipt of record is
+  `run012-waved-guard-full.json` in the same directory and carries exactly the
+  recorded numbers (106 banks / 44,502 questions / 148,978 md fields / 34 findings);
+  the dossier's own artifacts list had already cited it correctly via the
+  brace-expansion form. Citation-only correction — no number, verdict, rev or date
+  changed; 2 lines, 2 files.
+- **CI infra item filed** (resources issue #306): both `scripts-tests.yml`
+  gate jobs re-download the full ~6.5 GB repo snapshot per run (the PR #298 night's
+  4 checkout-timeout kills trace here; the ebb79e8a timeout bump is a palliative).
+  Proposal of record: per-PR sparse checkout + `partial-clone-filter: blob:none`
+  (the jobs' measured read-sets are scripts/ 34 MB + graph/ 21 MB + three OE bank
+  dirs + OE root JSONs), and the corpus-wide F104 asset-byte scan moved to a
+  scheduled full-checkout job. Cross-lane infra — not a lane blocker.
+
+Disposition of record: **T-OEQ-PHYS-FORMAT-1 CLOSED** — the format lane's queue
+is drained (run-006 back-sync F127, run-007 groupstem F128, run-008 W2 table-format
+F129/F131, run-012 wave-C/D mapping-repairs F132/F134, post-merge verification +
+this closure F135). Standing hand-offs out of this lane, none blocking the lane
+verdict: (1) platform-lane item 2 — wiring `census_guard.py` into CI (open since
+F134); (2) M4 candidate — the run-011-m3-analog corpus-side isotope repair for
+modular-24-unit-2 + double-award-17-physics, then a small plane sync (P5, F134);
+(3) the CI infra issue above. The lane verdict of record is unchanged: the served
+igcse-physics-19 corpus + the wave-C/D mapping repairs reconcile with the corpus of
+record @ main (RECONCILIATION HOLDS).
