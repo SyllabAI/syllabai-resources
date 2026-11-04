@@ -1,0 +1,309 @@
+{
+  "format": "guided-lesson/0.6",
+  "noteRef": {
+    "noteId": "rn_tq52Kk7NNvjdsnPx",
+    "corpusVersion": "sme-revision-notes-igcse-physics-19-2026-09-17",
+    "topicTitle": "5. Solids, Liquids and Gases",
+    "subtopicTitle": "Changes of State",
+    "sourceUrl": "https://www.savemyexams.com/igcse/physics/edexcel/19/revision-notes/5-solids-liquids-and-gases/5-2-changes-of-state/5-2-2-changes-of-state"
+  },
+  "specPoints": [
+    {
+      "code": "5.8P",
+      "text": "explain why heating a system will change the energy stored within the system and raise its temperature or produce changes of state"
+    },
+    {
+      "code": "5.9P",
+      "text": "describe the changes that occur when a solid melts to form a liquid, and when a liquid evaporates or boils to form a gas"
+    }
+  ],
+  "primer": {
+    "text": "Heating does not always show up on a thermometer. Supplied energy can push a substance up in temperature, or it can be spent rearranging particles as the substance melts, evaporates or boils. This note names every state change, tracks the energy in and out, and separates heat from temperature.",
+    "prerequisiteSubtopic": "Changes of State"
+  },
+  "lessons": [
+    {
+      "title": "Naming the state changes and their energy flows",
+      "sourceHeadings": [
+        "Changing between states of matter"
+      ],
+      "specRefs": ["5.8P", "5.9P"],
+      "opening": "Six named transitions connect the three states, three driven by heating and three by cooling. Each transition carries an energy signature: taken in while bonds loosen, released while bonds tighten.",
+      "keyPoints": [
+        "Melting turns a solid into a liquid; freezing turns a liquid into a solid.",
+        "Evaporation and boiling turn a liquid into a gas; condensation turns a gas into a liquid.",
+        "Melting, evaporation and boiling are endothermic — energy is absorbed from the surroundings.",
+        "Freezing and condensation are exothermic — energy is released to the surroundings.",
+        "Sublimation turns a solid directly into a gas without passing through the liquid state."
+      ],
+      "confidenceGate": {
+        "ratings": ["low", "medium", "high"],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Warm a solid and it melts; warm a liquid and it evaporates or boils; cool a gas and it condenses; cool a liquid and it freezes. The warming direction drinks in energy and the cooling direction gives it back out.",
+          "analogy": "A reversible commuter route: heating pays the fare that loosens the bonds and lets particles travel further apart, cooling refunds exactly that fare as the crowd packs tight again.",
+          "examPointer": "Match the direction word to the energy word: if particles are being pulled apart, say energy is absorbed; if they are being pulled together, say it is released."
+        },
+        "medium": {
+          "restatement": "On heating, supplied energy first raises internal energy and can overcome the attractions holding particles in place, producing melting at the melting point and vaporisation at the boiling point. The reverse transitions export that latent energy to the surroundings as new attractions form, which is why condensation and freezing warm their surroundings.",
+          "analogy": "Breaking camp: hours of effort (absorbed energy) are needed to pull the tent pegs up, and every peg hammered back in on packing up (released energy) returns effort to the day.",
+          "examPointer": "Boiling happens throughout the liquid at a fixed boiling point, while evaporation is a surface process at any temperature — quote that distinction when the question says 'state two differences'."
+        }
+      },
+      "check": [
+        {
+          "stem": "Which name is given to a gas turning into a liquid?",
+          "misconceptionClass": "state-change vocabulary",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "condensation", "correct": true, "explanation": "Condensation is the gas-to-liquid transition.", "misconception": null},
+            {"key": "B", "text": "freezing", "correct": false, "explanation": "Freezing is the liquid-to-solid transition.", "misconception": "vocabulary swap"},
+            {"key": "C", "text": "evaporation", "correct": false, "explanation": "Evaporation runs the other way, liquid to gas.", "misconception": "direction slip"},
+            {"key": "D", "text": "sublimation", "correct": false, "explanation": "Sublimation jumps solid straight to gas.", "misconception": "vocabulary swap"}
+          ]
+        },
+        {
+          "stem": "Which two transitions are endothermic?",
+          "misconceptionClass": "energy direction",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "melting and boiling", "correct": true, "explanation": "Both loosen particle arrangements and so absorb energy.", "misconception": null},
+            {"key": "B", "text": "freezing and condensation", "correct": false, "explanation": "Both tighten arrangements and so release energy.", "misconception": "direction slip"},
+            {"key": "C", "text": "condensation and melting", "correct": false, "explanation": "Condensation releases energy while melting absorbs it.", "misconception": "mixed pairing"},
+            {"key": "D", "text": "freezing and evaporation", "correct": false, "explanation": "Freezing releases energy while evaporation absorbs it.", "misconception": "mixed pairing"}
+          ]
+        },
+        {
+          "stem": "Why does the evaporation of sweat cool the skin?",
+          "misconceptionClass": "mechanism linking",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "evaporating water absorbs energy from the skin", "correct": true, "explanation": "The most energetic surface molecules leave, taking energy away with them.", "misconception": null},
+            {"key": "B", "text": "evaporating water releases energy into the skin", "correct": false, "explanation": "Evaporation is endothermic — it takes energy in, it does not give it out.", "misconception": "direction slip"},
+            {"key": "C", "text": "the water condenses on the skin and cools it", "correct": false, "explanation": "Sweat evaporates rather than condensing; condensation would warm the surface.", "misconception": "vocabulary swap"},
+            {"key": "D", "text": "water conducts heat better than skin", "correct": false, "explanation": "The cooling comes from the state change, not from conduction.", "misconception": "mechanism swap"}
+          ]
+        },
+        {
+          "stem": "How does boiling differ from evaporation?",
+          "misconceptionClass": "distinction recall",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "boiling occurs throughout the liquid at a fixed temperature", "correct": true, "explanation": "Bubbles form everywhere once the boiling point is reached.", "misconception": null},
+            {"key": "B", "text": "boiling happens only at the surface at any temperature", "correct": false, "explanation": "That describes evaporation, not boiling.", "misconception": "distinction swap"},
+            {"key": "C", "text": "boiling absorbs no energy because the temperature is constant", "correct": false, "explanation": "Energy is still absorbed during boiling — it loosens the bonds instead of raising temperature.", "misconception": "no-energy slip"},
+            {"key": "D", "text": "boiling turns a solid directly into a gas", "correct": false, "explanation": "Solid-to-gas is sublimation.", "misconception": "vocabulary swap"}
+          ]
+        },
+        {
+          "stem": "A beaker of stearic acid cools from 80 °C to room temperature and solidifies. What happens to the energy stored in the acid during solidification?",
+          "misconceptionClass": "energy direction",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "it decreases as energy is released to the surroundings", "correct": true, "explanation": "Freezing is exothermic: forming the lattice exports energy.", "misconception": null},
+            {"key": "B", "text": "it increases because particles move faster", "correct": false, "explanation": "Cooling slows the particles; the store empties rather than fills.", "misconception": "direction slip"},
+            {"key": "C", "text": "it stays constant because temperature is constant during freezing", "correct": false, "explanation": "A constant temperature during freezing does not mean constant energy — latent energy leaves the system.", "misconception": "no-energy slip"},
+            {"key": "D", "text": "it becomes zero when the acid is fully solid", "correct": false, "explanation": "Solid particles still vibrate, so the energy store never empties completely.", "misconception": "zero-store slip"}
+          ]
+        },
+        {
+          "stem": "State the name of the transition in which a solid changes directly into a gas.",
+          "misconceptionClass": "state-change vocabulary",
+          "kind": "recall",
+          "modelAnswer": "Sublimation is the direct change from solid to gas without any liquid stage in between.",
+          "keywords": ["sublimation", "solid", "gas", "direct"]
+        },
+        {
+          "stem": "State whether energy is absorbed or released during freezing, and name the particles' role in that release.",
+          "misconceptionClass": "energy direction recall",
+          "kind": "recall",
+          "modelAnswer": "Energy is released during freezing as the particles settle into fixed positions and new attractions form in the solid lattice.",
+          "keywords": ["released", "freezing", "particles", "lattice"]
+        },
+        {
+          "stem": "Explain why heating a sealed flask of liquid may raise its temperature at first but hold it constant once boiling begins.",
+          "misconceptionClass": "evaluation reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "Before boiling, the supplied energy goes into the internal store and shows up as faster particles and a higher temperature. Once boiling starts, every further joule is spent pulling particles apart against their attractions — the work of vaporisation — so the internal energy still rises but the temperature stays pinned at the boiling point until the liquid has gone.",
+          "keywords": ["energy", "internal", "boiling", "temperature"]
+        },
+        {
+          "stem": "A pan of water boils dry on a hot plate. Describe what happens to the temperature of the water during the boiling and state where the heater's energy goes once 100 °C is reached.",
+          "misconceptionClass": "application transfer",
+          "kind": "application",
+          "modelAnswer": "The temperature rises to 100 °C and then stays constant throughout the boiling. Once at 100 °C, the heater's energy no longer raises the temperature — it is absorbed as the energy needed to turn liquid water into steam, loosening the particle arrangement until the last of the water has vaporised.",
+          "keywords": ["constant", "100", "absorbed", "vaporised"]
+        }
+      ]
+    },
+    {
+      "title": "Heat, temperature and internal energy",
+      "sourceHeadings": [
+        "Heat & temperature",
+        "The relationship between temperature and internal energy"
+      ],
+      "specRefs": ["5.8P"],
+      "opening": "Heat and temperature are not rivals but different currencies: heat is the energy in transit, temperature the per-particle reading of the internal store. A beaker left open overnight shows how one can fall while nothing warms at all.",
+      "keyPoints": [
+        "Heat is energy transferred because of a temperature difference, flowing from hotter to colder.",
+        "Temperature measures the average kinetic energy of the particles in a substance.",
+        "Heating a system raises the energy stored within it — its internal energy.",
+        "A temperature rise or a change of state are the two possible outcomes of that stored-energy rise.",
+        "Evaporation removes the most energetic molecules, so the average energy of those left behind falls."
+      ],
+      "confidenceGate": {
+        "ratings": ["low", "medium", "high"],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Heat is energy on the move between a hot thing and a cold thing; temperature is the crowd's average pace. Give energy to a system and either its particles speed up (warmer) or they break ranks and change state.",
+          "analogy": "A wallet and a speedometer: heat is the cash handed over, temperature is the speedometer needle that rises when the crowd's energy per head rises.",
+          "examPointer": "Never write 'heat rises' — write 'energy is transferred'. Heat is a transfer, temperature is a measure; mixing the two nouns is a classic lost mark."
+        },
+        "medium": {
+          "restatement": "The internal energy of a system is the total kinetic and potential energy of its particles. Heating increases that store, and the increase is spent either on kinetic energy (temperature rise) or on potential energy as separations widen (change of state). Evaporation is selective: only the fastest surface molecules escape, lowering the mean kinetic energy of the residue even though no thermostat changed.",
+          "analogy": "A cinema that lets only the fastest filmgoers leave first: the average running speed of the remaining audience drops even though nobody inside slowed down.",
+          "examPointer": "For 'explain why an open beaker of water cools', the winning chain is: most energetic molecules evaporate first, so the average kinetic energy of those remaining falls, so the temperature reading falls."
+        }
+      },
+      "check": [
+        {
+          "stem": "What is meant by heat as an energy transfer between objects at different temperatures?",
+          "misconceptionClass": "definition recall",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "energy transferred because of a temperature difference", "correct": true, "explanation": "Heat is a transfer of energy, always hot-to-cold.", "misconception": null},
+            {"key": "B", "text": "the same thing as temperature", "correct": false, "explanation": "Temperature measures average particle energy; heat is the energy in transit.", "misconception": "noun conflation"},
+            {"key": "C", "text": "a fluid stored inside hot objects", "correct": false, "explanation": "The caloric idea is long retired; heat is not a substance.", "misconception": "caloric slip"},
+            {"key": "D", "text": "the total mass of the hot object", "correct": false, "explanation": "Mass is irrelevant to the definition of heat.", "misconception": "category slip"}
+          ]
+        },
+        {
+          "stem": "A gas is heated in a sealed rigid box. What happens to its internal energy?",
+          "misconceptionClass": "system energy",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "it increases — the particles move faster", "correct": true, "explanation": "Heating raises the stored energy; in a rigid box it shows up as kinetic energy.", "misconception": null},
+            {"key": "B", "text": "it stays the same because the box cannot expand", "correct": false, "explanation": "Fixed volume stops expansion, not the energy gain.", "misconception": "no-energy slip"},
+            {"key": "C", "text": "it decreases as energy escapes through the walls", "correct": false, "explanation": "Heating adds energy; nothing in the setup drains it faster than it arrives.", "misconception": "direction slip"},
+            {"key": "D", "text": "it becomes heat and disappears", "correct": false, "explanation": "Energy is conserved; it is stored, not destroyed.", "misconception": "conservation slip"}
+          ]
+        },
+        {
+          "stem": "A beaker of water is left standing in a room at constant temperature. Why does the water cool slightly over an hour?",
+          "misconceptionClass": "evaporation mechanism",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "the fastest molecules escape by evaporation, lowering the average energy left", "correct": true, "explanation": "Selective loss of the most energetic particles drags the mean down.", "misconception": null},
+            {"key": "B", "text": "the slowest molecules escape, lowering the average energy left", "correct": false, "explanation": "It is the fastest molecules that break away from the surface first.", "misconception": "selection inversion"},
+            {"key": "C", "text": "the water gains energy from the room and heats up", "correct": false, "explanation": "A net gain would raise the temperature, not lower it.", "misconception": "direction slip"},
+            {"key": "D", "text": "the beaker shrinks and squeezes the water", "correct": false, "explanation": "No state change of the beaker is involved.", "misconception": "irrelevant cause"}
+          ]
+        },
+        {
+          "stem": "Which statement links heating to its two possible outcomes?",
+          "misconceptionClass": "spec linkage",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "heating raises the stored energy, which may warm the system or change its state", "correct": true, "explanation": "Temperature rise and state change are the two channels for the added energy.", "misconception": null},
+            {"key": "B", "text": "heating always raises the temperature and never changes state", "correct": false, "explanation": "At melting and boiling points the temperature holds still while the state changes.", "misconception": "always-slip"},
+            {"key": "C", "text": "heating changes state without touching the stored energy", "correct": false, "explanation": "State changes are powered by the raised internal energy.", "misconception": "no-energy slip"},
+            {"key": "D", "text": "heating only transfers energy between two systems, never within one", "correct": false, "explanation": "A single system can be heated and store the energy internally.", "misconception": "scope slip"}
+          ]
+        },
+        {
+          "stem": "Steam scalds more badly than the same mass of boiling water. Which energy account explains this?",
+          "misconceptionClass": "application transfer",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "the steam carries extra energy that it releases while condensing on the skin", "correct": true, "explanation": "Condensation hands back the latent energy absorbed during vaporisation.", "misconception": null},
+            {"key": "B", "text": "steam particles move faster than boiling-water particles", "correct": false, "explanation": "At 100 °C both have the same average kinetic energy; the difference is the latent store.", "misconception": "speed conflation"},
+            {"key": "C", "text": "steam has a higher specific heat capacity", "correct": false, "explanation": "The scald comes from latent heat released, not from capacity differences.", "misconception": "capacity conflation"},
+            {"key": "D", "text": "steam is denser and presses harder on the skin", "correct": false, "explanation": "Steam is less dense than water.", "misconception": "density inversion"}
+          ]
+        },
+        {
+          "stem": "State what is meant by the internal energy of a system.",
+          "misconceptionClass": "definition recall",
+          "kind": "recall",
+          "modelAnswer": "Internal energy is the total energy stored in the particles of the system — their kinetic energy of motion plus the potential energy of their arrangements and attractions.",
+          "keywords": ["total", "energy", "particles", "kinetic"]
+        },
+        {
+          "stem": "State the direction in which heat energy flows between two objects at different temperatures.",
+          "misconceptionClass": "definition recall",
+          "kind": "recall",
+          "modelAnswer": "Heat flows from the object at the higher temperature to the object at the lower temperature until their temperatures equalise.",
+          "keywords": ["higher", "temperature", "lower", "flows"]
+        },
+        {
+          "stem": "Explain why a cream-haired mammal feels cooler after emerging from a swim even on a warm day.",
+          "misconceptionClass": "evaluation reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "Water on the fur evaporates, and evaporation is selective — the most energetic molecules leave the surface first. Removing the fastest particles lowers the average kinetic energy of the molecules that remain, and since temperature tracks that average, the surface cools even while the surrounding air stays warm.",
+          "keywords": ["evaporates", "energetic", "average", "temperature"]
+        },
+        {
+          "stem": "A student weighs a beaker of water, leaves it for a day at constant room temperature, then weighs it again and finds the mass smaller. Explain one correct and one incorrect conclusion the class might draw from the mass loss.",
+          "misconceptionClass": "application transfer",
+          "kind": "application",
+          "modelAnswer": "Correct: the mass difference equals the mass of water that evaporated, because the missing molecules left the surface as vapour. Incorrect: claiming the overall count of water molecules in beaker and air combined decreased — evaporation conserves the molecules, it merely moves them from the beaker into the air.",
+          "keywords": ["evaporated", "molecules", "conserves", "mass"]
+        }
+      ]
+    }
+  ],
+  "noteAssets": {
+    "glossary": [
+      {"term": "endothermic", "definition": "A process that absorbs energy from the surroundings, such as melting or boiling.", "firstLesson": 1},
+      {"term": "exothermic", "definition": "A process that releases energy to the surroundings, such as freezing or condensing.", "firstLesson": 1},
+      {"term": "internal energy", "definition": "The total kinetic and potential energy stored in the particles of a system.", "firstLesson": 2},
+      {"term": "heat", "definition": "Energy transferred between regions because of a temperature difference.", "firstLesson": 2}
+    ],
+    "workedExample": {
+      "prompt": "A student weighs a beaker of water, leaves it for 24 hours at constant room temperature, and weighs it again to find the mass has decreased. Which of the following is NOT a correct conclusion from the experiment: A — the mass difference equals the mass of water that evaporated; B — the total energy stored in the beaker of water decreased; C — the density of water vapour in the room's air increased; D — the overall count of water molecules in beaker and air combined decreased.",
+      "steps": [
+        "Option A holds: the missing mass is exactly the water that evaporated from the beaker.",
+        "Option B holds: the most energetic molecules left the liquid, so the energy stored in the remaining water fell.",
+        "Option C holds: evaporated molecules were added to the room's air without a significant change in the air's volume, so the vapour density rose.",
+        "Option D fails: evaporation conserves the molecules — the beaker's count fell, but the air's count rose by the same amount, so the total is unchanged."
+      ],
+      "finalAnswer": "D is not a correct conclusion: evaporation moves molecules from the beaker into the air, conserving the overall molecule count."
+    }
+  },
+  "figures": [
+    {
+      "id": "fig-01",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/c178aa43eec6-solids-liquids-gases.png",
+      "alt": "Solids liquids gases",
+      "sourceHeading": "Changing between states of matter",
+      "moduleIds": ["L1"],
+      "binding": "heading-unique",
+      "caption": "Changing the temperature of a solid, liquid or gas changes its state"
+    },
+    {
+      "id": "fig-02",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/89b189588fe5-16-1-change-in-internal-energy.png",
+      "alt": "Change in internal energy, downloadable AS & A Level Physics revision notes",
+      "sourceHeading": "The relationship between temperature and internal energy",
+      "moduleIds": ["L2"],
+      "binding": "heading-unique",
+      "caption": "As the container is heated up, the gas molecules move faster with higher kinetic energy. The energy stored within the system - the internal energy - therefore increases"
+    },
+    {
+      "id": "fig-03",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/4e9686e19821-14-1-4-we-decrease-in-mass-question-image.png",
+      "alt": "WE Decrease in mass Question image, downloadable IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "The relationship between temperature and internal energy",
+      "moduleIds": ["L2"],
+      "binding": "heading-unique"
+    }
+  ]
+}

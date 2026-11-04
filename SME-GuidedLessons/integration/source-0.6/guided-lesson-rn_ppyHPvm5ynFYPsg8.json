@@ -1,0 +1,298 @@
+{
+  "format": "guided-lesson/0.6",
+  "noteRef": {
+    "noteId": "rn_ppyHPvm5ynFYPsg8",
+    "corpusVersion": "sme-revision-notes-igcse-physics-19-2026-09-17",
+    "topicTitle": "5. Solids, Liquids and Gases",
+    "subtopicTitle": "Ideal Gases",
+    "sourceUrl": "https://www.savemyexams.com/igcse/physics/edexcel/19/revision-notes/5-solids-liquids-and-gases/5-3-ideal-gases/5-3-2-absolute-zero"
+  },
+  "specPoints": [
+    {
+      "code": "5.16",
+      "text": "understand why there is an absolute zero of temperature, which is –273 ° C"
+    },
+    {
+      "code": "5.17",
+      "text": "describe the Kelvin scale of temperature and be able to convert between the Kelvin and Celsius scales"
+    }
+  ],
+  "primer": {
+    "text": "Temperature has a floor, and the kinetic model tells you where: particles slowed to the minimum possible motion. That floor is absolute zero at −273 °C, the zero of the Kelvin scale — and this note drills the two-way conversion between kelvin and degrees Celsius.",
+    "prerequisiteSubtopic": "Ideal Gases"
+  },
+  "lessons": [
+    {
+      "title": "Why absolute zero exists",
+      "sourceHeadings": [
+        "Absolute zero"
+      ],
+      "specRefs": ["5.16"],
+      "opening": "Cool a gas and its particles slow; keep cooling and a limit appears — the temperature at which particle motion reaches its minimum and cannot be reduced further. Below that point there is simply no slower state to reach: absolute zero, at −273 °C.",
+      "keyPoints": [
+        "Absolute zero is the lowest possible temperature, at −273 °C.",
+        "At absolute zero the particles have the minimum kinetic energy possible.",
+        "Colder-than-absolute-zero is impossible because particle motion cannot be reduced below its minimum.",
+        "Extrapolating the pressure–temperature graph of a fixed gas to zero pressure lands at −273 °C.",
+        "At absolute zero an ideal gas would exert no pressure from wall collisions."
+      ],
+      "confidenceGate": {
+        "ratings": ["low", "medium", "high"],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Temperature tracks how fast particles jiggle and fly. Slow them down and the temperature drops; there is a hard stop when the motion is as small as physics allows, and that stop is −273 °C.",
+          "analogy": "A dimmer switch with a true zero: you can slide the lights down only to off — no setting is darker than off.",
+          "examPointer": "Quote the value with its minus sign: absolute zero is −273 °C (more precisely −273.15, but the qualification is −273 in exams)."
+        },
+        "medium": {
+          "restatement": "Because temperature is proportional to mean kinetic energy, the kinetic definition of coldness has a natural origin: the energy cannot go negative, so the scale bottoms out where molecular motion is minimal. The same origin appears experimentally: extrapolate any fixed-volume gas's pressure against temperature and every gas's line converges on the same −273 °C intercept — the pressure from wall collisions would vanish exactly where motion does.",
+          "analogy": "Every downhill road, however winding, meets the same valley floor: different gases have different slopes, but all their pressure–temperature lines hit the same absolute floor.",
+          "examPointer": "The strongest answers link both routes: the kinetic argument (motion has a minimum) and the graphical argument (pressure extrapolates to zero at −273 °C)."
+        }
+      },
+      "check": [
+        {
+          "stem": "What is the temperature of absolute zero in degrees Celsius?",
+          "misconceptionClass": "value recall",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "−273 °C", "correct": true, "explanation": "Absolute zero sits 273 degrees below the freezing point of water.", "misconception": null},
+            {"key": "B", "text": "0 °C", "correct": false, "explanation": "0 °C is the freezing point of water, far above absolute zero.", "misconception": "origin confusion"},
+            {"key": "C", "text": "−100 °C", "correct": false, "explanation": "That is below water's boiling point but nowhere near the floor.", "misconception": "value slip"},
+            {"key": "D", "text": "273 °C", "correct": false, "explanation": "The sign matters: it is below zero.", "misconception": "sign slip"}
+          ]
+        },
+        {
+          "stem": "Why is a temperature below absolute zero impossible?",
+          "misconceptionClass": "kinetic reasoning",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "particle motion is already at its minimum there and cannot be reduced further", "correct": true, "explanation": "Coldness is slowed particles; there is no slower-than-minimum state.", "misconception": null},
+            {"key": "B", "text": "thermometers stop working below that point", "correct": false, "explanation": "Instrument limits are not nature's limits.", "misconception": "instrument conflation"},
+            {"key": "C", "text": "all gases have frozen solid long before", "correct": false, "explanation": "Some substances are still fluid near absolute zero; the limit is deeper than freezing.", "misconception": "freezing conflation"},
+            {"key": "D", "text": "the Celsius scale simply ends there", "correct": false, "explanation": "Scales are conventions; the limit is physical.", "misconception": "convention conflation"}
+          ]
+        },
+        {
+          "stem": "What happens to the pressure of an ideal fixed-volume gas as its temperature approaches absolute zero?",
+          "misconceptionClass": "extrapolation",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "it falls towards zero because the wall collisions die away", "correct": true, "explanation": "No motion means no collisions and no pressure.", "misconception": null},
+            {"key": "B", "text": "it rises without limit", "correct": false, "explanation": "Cooling lowers pressure; heating raises it.", "misconception": "direction inversion"},
+            {"key": "C", "text": "it stays constant", "correct": false, "explanation": "Pressure tracks temperature at fixed volume.", "misconception": "no-change slip"},
+            {"key": "D", "text": "it becomes negative", "correct": false, "explanation": "A gas cannot pull on the walls; pressure bottoms at zero.", "misconception": "sign slip"}
+          ]
+        },
+        {
+          "stem": "Different gases extrapolate to the same −273 °C intercept on a pressure–temperature graph. What does this show?",
+          "misconceptionClass": "graph reasoning",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "absolute zero is a universal property of temperature, not of any one gas", "correct": true, "explanation": "A shared intercept points to a scale-level limit.", "misconception": null},
+            {"key": "B", "text": "all gases have identical pressures at room temperature", "correct": false, "explanation": "Slopes differ; only the intercept is shared.", "misconception": "conflation"},
+            {"key": "C", "text": "the experiment was done with one gas only", "correct": false, "explanation": "The convergence is the finding across gases.", "misconception": "misreading"},
+            {"key": "D", "text": "gas thermometers are all broken the same way", "correct": false, "explanation": "Consistency across instruments is evidence, not error.", "misconception": "sceptic slip"}
+          ]
+        },
+        {
+          "stem": "At absolute zero, why would an ideal gas exert no pressure at all?",
+          "misconceptionClass": "kinetic reasoning",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "the molecules would have minimum kinetic energy, so wall collisions cease", "correct": true, "explanation": "Pressure is wall bombardment; still molecules deliver none.", "misconception": null},
+            {"key": "B", "text": "the molecules would sink to the bottom", "correct": false, "explanation": "Pooling is a gravity picture, not the pressure mechanism.", "misconception": "weight conflation"},
+            {"key": "C", "text": "the walls would absorb all the molecules", "correct": false, "explanation": "Molecules are conserved; they are not soaked up.", "misconception": "absurd claim"},
+            {"key": "D", "text": "the container would expand indefinitely", "correct": false, "explanation": "Containers do not grow at low temperature.", "misconception": "absurd claim"}
+          ]
+        },
+        {
+          "stem": "State the temperature of absolute zero.",
+          "misconceptionClass": "value recall",
+          "kind": "recall",
+          "modelAnswer": "Absolute zero is −273 °C, the lowest temperature possible.",
+          "keywords": ["−273", "lowest", "temperature", "possible"]
+        },
+        {
+          "stem": "State what happens to the kinetic energy of particles as a substance is cooled towards absolute zero.",
+          "misconceptionClass": "kinetic recall",
+          "kind": "recall",
+          "modelAnswer": "The kinetic energy of the particles falls towards the minimum possible value as their motion slows.",
+          "keywords": ["kinetic", "energy", "falls", "minimum"]
+        },
+        {
+          "stem": "Explain how a pressure–temperature graph provides evidence for a lowest possible temperature.",
+          "misconceptionClass": "evaluation reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "For a fixed mass of gas at constant volume, pressure falls linearly as temperature falls. Extrapolating the straight line beyond the measured range, the pressure reaches zero at −273 °C for every gas tried. A gas cannot exert less than zero pressure, so temperature cannot continue below the point where the bombardment vanishes — the graph therefore exposes a hard floor for temperature itself.",
+          "keywords": ["pressure", "zero", "extrapolating", "−273"]
+        },
+        {
+          "stem": "A fixed-volume gas thermometer reads 0 Pa of gas pressure in an ideal extrapolation. State the corresponding temperature in °C and in kelvin.",
+          "misconceptionClass": "application transfer",
+          "kind": "application",
+          "modelAnswer": "Zero ideal-gas pressure corresponds to absolute zero: −273 °C, which is 0 K on the Kelvin scale.",
+          "keywords": ["−273", "0", "kelvin", "absolute"]
+        }
+      ]
+    },
+    {
+      "title": "The Kelvin scale and conversions",
+      "sourceHeadings": [
+        "The Kelvin scale"
+      ],
+      "specRefs": ["5.17"],
+      "opening": "The Kelvin scale re-zeros temperature at absolute zero, so every kelvin reading is directly proportional to particle energy. Conversion is a single addition or subtraction of 273 — and the gas laws only ever speak kelvin.",
+      "keyPoints": [
+        "The Kelvin scale starts at 0 K, absolute zero, at −273 °C.",
+        "A temperature in kelvin is the Celsius temperature plus 273.",
+        "A Celsius temperature is the kelvin temperature minus 273.",
+        "One kelvin step equals one Celsius degree in size — only the origins differ.",
+        "Gas-law equations use kelvin because proportionality to kinetic energy starts at 0 K."
+      ],
+      "confidenceGate": {
+        "ratings": ["low", "medium", "high"],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "To go from Celsius to kelvin, add 273; to come back, subtract 273. The step size is identical — 20 kelvin warmer is 20 Celsius degrees warmer — only the zero point moved to absolute zero.",
+          "analogy": "Two rulers pinned to the same wall, one starting 273 marks lower: readings differ by a constant, but a centimetre is a centimetre on both.",
+          "examPointer": "Convert before any gas-law calculation — substituting Celsius into a gas law is the single most common temperature mark lost."
+        },
+        "medium": {
+          "restatement": "The Kelvin scale is the absolute thermodynamic scale: its origin coincides with zero mean translational kinetic energy, so T in kelvin is proportional to molecular energy. Celsius is a relative scale pinned to water's phase changes, which is why ratios are meaningful only in kelvin — 300 K is genuinely twice 150 K in energy terms, while 27 °C is not twice 13.5 °C in any physical sense.",
+          "analogy": "Distance from a town centre versus altitude above sea level: only the altitude version supports 'twice as high' claims, because its zero is a true floor.",
+          "examPointer": "Watch the pressure-law and Boyle's-law questions: they hide Celsius values to trap unconverted substitution. Convert first, always."
+        }
+      },
+      "check": [
+        {
+          "stem": "How do you convert a temperature from °C to kelvin?",
+          "misconceptionClass": "conversion recall",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "add 273", "correct": true, "explanation": "K = °C + 273.", "misconception": null},
+            {"key": "B", "text": "subtract 273", "correct": false, "explanation": "That is the °C-from-kelvin direction.", "misconception": "direction slip"},
+            {"key": "C", "text": "multiply by 273", "correct": false, "explanation": "The conversion is additive, not multiplicative.", "misconception": "operation slip"},
+            {"key": "D", "text": "divide by 273", "correct": false, "explanation": "No division belongs in this conversion.", "misconception": "operation slip"}
+          ]
+        },
+        {
+          "stem": "A room is at 27 °C. What is this in kelvin?",
+          "misconceptionClass": "conversion",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "300 K", "correct": true, "explanation": "27 + 273 = 300 K.", "misconception": null},
+            {"key": "B", "text": "27 K", "correct": false, "explanation": "That forgets the offset entirely.", "misconception": "offset drop"},
+            {"key": "C", "text": "246 K", "correct": false, "explanation": "That subtracted instead of adding.", "misconception": "direction slip"},
+            {"key": "D", "text": "273 K", "correct": false, "explanation": "273 K is 0 °C, not 27 °C.", "misconception": "offset slip"}
+          ]
+        },
+        {
+          "stem": "How does the size of one kelvin compare with one Celsius degree?",
+          "misconceptionClass": "scale comparison",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "they are the same size", "correct": true, "explanation": "Only the zero points differ; the degrees are equal.", "misconception": null},
+            {"key": "B", "text": "a kelvin is bigger", "correct": false, "explanation": "The steps are identical in size.", "misconception": "size slip"},
+            {"key": "C", "text": "a kelvin is smaller", "correct": false, "explanation": "The steps are identical in size.", "misconception": "size slip"},
+            {"key": "D", "text": "they cannot be compared", "correct": false, "explanation": "They are directly comparable — equal steps.", "misconception": "abdication"}
+          ]
+        },
+        {
+          "stem": "Why do gas-law calculations require kelvin rather than Celsius?",
+          "misconceptionClass": "scale reasoning",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "gas laws state proportions to particle energy, which is zero at 0 K", "correct": true, "explanation": "The laws' proportionality holds only from the true zero.", "misconception": null},
+            {"key": "B", "text": "Celsius readings are always inaccurate", "correct": false, "explanation": "Celsius is accurate; it is just the wrong origin for ratios.", "misconception": "instrument blame"},
+            {"key": "C", "text": "kelvin numbers are larger and easier", "correct": false, "explanation": "Convenience is not the reason; correctness is.", "misconception": "convenience conflation"},
+            {"key": "D", "text": "examiners prefer kelvin", "correct": false, "explanation": "The physics, not the preference, demands kelvin.", "misconception": "absurd claim"}
+          ]
+        },
+        {
+          "stem": "A gas at 150 K is warmed to 300 K. How does its average molecular kinetic energy change, and what would the equivalent Celsius statement be?",
+          "misconceptionClass": "proportional reasoning",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "it doubles; the Celsius pair is −123 °C to 27 °C", "correct": true, "explanation": "150 K = −123 °C and 300 K = 27 °C; kelvin doubles energy.", "misconception": null},
+            {"key": "B", "text": "it doubles; the Celsius pair is 150 °C to 300 °C", "correct": false, "explanation": "That adds 273 backwards — mislabelling temperatures.", "misconception": "conversion slip"},
+            {"key": "C", "text": "it stays the same because Celsius doubled too", "correct": false, "explanation": "Celsius ratios are not physical ratios.", "misconception": "scale confusion"},
+            {"key": "D", "text": "it quadruples", "correct": false, "explanation": "Kinetic energy is proportional to kelvin temperature, linearly.", "misconception": "squaring slip"}
+          ]
+        },
+        {
+          "stem": "State the conversion from kelvin to degrees Celsius.",
+          "misconceptionClass": "conversion recall",
+          "kind": "recall",
+          "modelAnswer": "Subtract 273 from the kelvin temperature to get the temperature in degrees Celsius.",
+          "keywords": ["subtract", "273", "kelvin", "celsius"]
+        },
+        {
+          "stem": "State the temperature of absolute zero in kelvin and in degrees Celsius.",
+          "misconceptionClass": "value recall",
+          "kind": "recall",
+          "modelAnswer": "Absolute zero is 0 K, which equals −273 °C on the Celsius scale.",
+          "keywords": ["0", "K", "−273", "celsius"]
+        },
+        {
+          "stem": "Explain why saying '27 °C is twice as hot as 13.5 °C' is meaningless while '300 K is twice 150 K' is meaningful.",
+          "misconceptionClass": "evaluation reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "Temperature ratios are only physical when measured from the true zero of energy, which is 0 K. Celsius's zero is an arbitrary water-based mark 273 degrees above that floor, so its ratios compare offsets from an arbitrary line. Kelvin starts where molecular energy starts, so doubling kelvin genuinely doubles the mean kinetic energy of the molecules.",
+          "keywords": ["zero", "kelvin", "energy", "ratio"]
+        },
+        {
+          "stem": "A gas law problem gives the initial temperature as 20 °C and requires doubling the kelvin temperature. Calculate the target temperature in °C.",
+          "misconceptionClass": "application transfer",
+          "kind": "application",
+          "modelAnswer": "20 °C = 293 K. Doubling gives 586 K, and converting back: 586 − 273 = 313 °C. Note the answer is not 40 °C — Celsius ratios are not physical.",
+          "keywords": ["293", "586", "313", "kelvin"]
+        }
+      ]
+    }
+  ],
+  "noteAssets": {
+    "glossary": [
+      {"term": "absolute zero", "definition": "The lowest possible temperature, −273 °C or 0 K, where particle energy is minimal.", "firstLesson": 1},
+      {"term": "Kelvin scale", "definition": "The absolute temperature scale whose zero is absolute zero.", "firstLesson": 2},
+      {"term": "extrapolation", "definition": "Extending a graph's line beyond the measured data to find an intercept.", "firstLesson": 1}
+    ],
+    "workedExample": {
+      "prompt": "The temperature in a room is 300 K. What is this temperature in Celsius?",
+      "steps": [
+        "Write the Kelvin-to-Celsius conversion: θ in °C = T in K − 273.",
+        "Substitute the value: 300 − 273.",
+        "Evaluate the difference: 300 − 273 = 27."
+      ],
+      "finalAnswer": "The room's temperature is 27 °C."
+    }
+  },
+  "figures": [
+    {
+      "id": "fig-01",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/b3aa853a082b-6-5-2-pressure-law.png",
+      "alt": "Pressure Law, downloadable AS & A Level Physics revision notes",
+      "sourceHeading": "Absolute zero",
+      "moduleIds": ["L1"],
+      "binding": "heading-unique",
+      "caption": "At absolute zero, or −273 °C, particles will have no net movement. It is therefore not possible to have a lower temperature"
+    },
+    {
+      "id": "fig-02",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/dc73556f9916-14-1-k-and-celsius-conversion-chart.png",
+      "alt": "K and Celsius conversion chart, downloadable AS & A Level Physics revision notes",
+      "sourceHeading": "The Kelvin scale",
+      "moduleIds": ["L2"],
+      "binding": "heading-unique",
+      "caption": "Conversion chart relating the temperature on the Kelvin and Celsius scales"
+    }
+  ]
+}
