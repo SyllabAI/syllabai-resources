@@ -1,0 +1,36 @@
+{
+  "schema": "syllabai.receipt/1",
+  "task": "T-GRADE-009 (run-002, sandbox-rebuild verification)",
+  "generated": "2026-11-04T15:30:55Z",
+  "trace": "f61b2052b1e1cccc",
+  "base_commit": "f6ba6b16",
+  "bundle_sha256_16": "94228254c09f2411",
+  "regen_proof": {
+    "rebuilt_sha256_16": "94228254c09f2411",
+    "semantic_diff": "generated stamp ONLY (rest-equal assert TRUE)",
+    "counts": "105 served / 1 roadmap / 106 total, 3,866,528 B — unchanged"
+  },
+  "v2_sync": {
+    "v2_imported_sha256_16": "94228254c09f2411",
+    "byte_identical_to_committed": true,
+    "v2_generated": "2026-11-02T06:40:40Z"
+  },
+  "nov_2021_papers_note": {
+    "verdict": "document-honest null",
+    "evidence": "November 2021.pdf: 4CN1 prints 'Paper(s) 01 02' under its row; 4CH1 prints no note line at all (pdftotext lines 55-59)"
+  },
+  "live_verification": {
+    "site": "syllabai-hub-v2.vercel.app (2026-11-04)",
+    "igcse-chemistry-19": "13 sessions newest-first; Average pill; '1C 2C'/'1CR 2CR' labels with R rows; 9-1 total-mark calculator",
+    "ial-maths-20-pure-1": "18 sessions (era-guarded, was 19) newest-first; honest 'averaged across 15 sessions' label (15/18 eligible); UMS aggregate surface"
+  },
+  "gates": {
+    "validate.py": "exit 0 — 40 Pearson docs 0 errors; 28 aggregate-ums courses 0 errors; honest-absence infos only",
+    "test_units_absent.py": "ALL GREEN"
+  },
+  "prs_confirmed_merged": [
+    "SyllabAI/syllabai-resources#257 (2026-11-01T05:29:54Z)",
+    "SyllabAI/syllabai-v2#591 (2026-11-01T05:40:46Z)"
+  ],
+  "data_changed": false
+}
