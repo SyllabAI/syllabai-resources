@@ -1,0 +1,26 @@
+name: asset-guard
+
+# Issue #306: the F104 asset-byte guard is the only gate step that needs the
+# full Official-ExamQuestion tree, so it no longer rides the per-PR
+# corpus-gates checkout (6.49 GB per run). It runs here instead: nightly on a
+# schedule, on demand, and on every PR/push that actually touches the corpus.
+on:
+  schedule:
+    - cron: "23 2 * * *"
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - "Official-ExamQuestion/**"
+  push:
+    branches: [main]
+    paths:
+      - "Official-ExamQuestion/**"
+
+jobs:
+  f104-asset-byte-guard:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: F104 asset-byte guard scan (every assets/ file format-truth validated + dangling references)
+        run: python3 scripts/official_examq_asset_bytes.py --scan-corpus Official-ExamQuestion
