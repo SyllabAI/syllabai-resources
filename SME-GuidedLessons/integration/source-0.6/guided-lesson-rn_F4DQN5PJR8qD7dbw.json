@@ -1,0 +1,523 @@
+{
+  "format": "guided-lesson/0.6",
+  "noteRef": {
+    "noteId": "rn_F4DQN5PJR8qD7dbw",
+    "corpusVersion": "sme-revision-notes-igcse-physics-19-2026-09-17",
+    "topicTitle": "5. Solids, Liquids and Gases",
+    "subtopicTitle": "Changes of State",
+    "sourceUrl": "https://www.savemyexams.com/igcse/physics/edexcel/19/revision-notes/5-solids-liquids-and-gases/5-2-changes-of-state/5-2-3-core-practical-investigating-changes-of-state"
+  },
+  "specPoints": [
+    {
+      "code": "5.11P",
+      "text": "practical: obtain a temperature–time graph to show the constant temperature during a change of state"
+    }
+  ],
+  "primer": {
+    "text": "This practical watches ice become water on a temperature–time graph and catches the melting plateau red-handed: while the change of state runs, the thermometer refuses to move. The method, the expected flat region, and the honest error analysis are all part of the mark scheme.",
+    "prerequisiteSubtopic": "Changes of State"
+  },
+  "lessons": [
+    {
+      "title": "Aim and equipment of the melting-ice practical",
+      "sourceHeadings": [
+        "Aims of the experiment",
+        "Equipment"
+      ],
+      "specRefs": ["5.11P"],
+      "opening": "The investigation has one target: record how the temperature of crushed ice behaves as it is heated steadily, and reveal the plateau at the melting point. The kit list is deliberately ordinary so the plateau is not hidden by apparatus quirks.",
+      "keyPoints": [
+        "The aim is to obtain a temperature–time graph showing constant temperature while ice melts.",
+        "Crushed ice is used so the thermometer bulb makes good thermal contact throughout the sample.",
+        "A thermometer, a beaker, a heat source and a stopwatch form the core equipment set.",
+        "Readings are taken at regular, equal intervals of time so the graph is fair."
+      ],
+      "confidenceGate": {
+        "ratings": ["low", "medium", "high"],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Melt some crushed ice with a gentle flame, note the temperature every half-minute, and plot temperature against time. The graph should climb, sit flat at zero degrees while the ice melts, then climb again.",
+          "analogy": "Filming a staircase where one step is a landing: the temperature climbs, rests on the melting landing for a while, then resumes climbing.",
+          "examPointer": "Quote the aim in the question's own terms — a temperature–time graph showing the constant temperature during the change of state — rather than a vague 'find the melting point'."
+        },
+        "medium": {
+          "restatement": "The design manipulates the heating rate (independent variable in time) and measures temperature at fixed intervals, with crushed ice chosen to minimise thermal gradients around the bulb. The plateau is the dependent behaviour of interest: energy supplied during melting is going into the change of state, not into temperature.",
+          "analogy": "A taxi meter that stops ticking while the passenger changes seats: the engine (heater) keeps running, the fare (temperature) pauses during the transition.",
+          "examPointer": "If asked why crushed ice rather than a single block, answer thermal contact: small chips surround the bulb so the reading reflects the whole sample, not one warm corner."
+        }
+      },
+      "check": [
+        {
+          "stem": "What is the aim of this practical investigation into melting ice?",
+          "misconceptionClass": "aim recall",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "to obtain a temperature–time graph showing constant temperature during melting", "correct": true, "explanation": "The plateau at the melting point is the target evidence.", "misconception": null},
+            {"key": "B", "text": "to measure the specific heat capacity of ice", "correct": false, "explanation": "That is a different practical; here the plateau itself is the goal.", "misconception": "practical swap"},
+            {"key": "C", "text": "to find how fast ice conducts heat", "correct": false, "explanation": "No conduction measurement is made.", "misconception": "practical swap"},
+            {"key": "D", "text": "to determine the boiling point of water", "correct": false, "explanation": "The investigation never reaches boiling.", "misconception": "practical swap"}
+          ]
+        },
+        {
+          "stem": "Why is crushed ice preferred to a single large block?",
+          "misconceptionClass": "method design",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "it surrounds the thermometer bulb for better thermal contact", "correct": true, "explanation": "Good contact means the reading represents the whole sample.", "misconception": null},
+            {"key": "B", "text": "it melts at a lower temperature than block ice", "correct": false, "explanation": "Melting point depends on the substance, not the chunk size.", "misconception": "property invention"},
+            {"key": "C", "text": "it stops the ice from changing state", "correct": false, "explanation": "The change of state is exactly what is being observed.", "misconception": "contradiction slip"},
+            {"key": "D", "text": "it reduces the energy needed to heat the beaker", "correct": false, "explanation": "The beaker's energy cost is unchanged by crushing the ice.", "misconception": "irrelevant cause"}
+          ]
+        },
+        {
+          "stem": "Which set of equipment is sufficient for this practical?",
+          "misconceptionClass": "equipment recall",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "beaker of crushed ice, thermometer, heat source, stopwatch", "correct": true, "explanation": "These four deliver heating, sensing and timed readings.", "misconception": null},
+            {"key": "B", "text": "voltmeter, ammeter and immersion heater only", "correct": false, "explanation": "Electrical metering belongs to the specific-heat practical, not this one.", "misconception": "practical swap"},
+            {"key": "C", "text": "balance and measuring cylinder only", "correct": false, "explanation": "Mass and volume are not measured in this investigation.", "misconception": "equipment swap"},
+            {"key": "D", "text": "barometer and anemometer", "correct": false, "explanation": "Weather instruments have no role here.", "misconception": "category slip"}
+          ]
+        },
+        {
+          "stem": "Why should temperature readings be taken at equal time intervals?",
+          "misconceptionClass": "fairness",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "equal spacing makes the time axis of the graph even and the plateau clear", "correct": true, "explanation": "Regular sampling yields a fair, evenly scaled temperature–time plot.", "misconception": null},
+            {"key": "B", "text": "equal spacing lowers the melting point of the ice", "correct": false, "explanation": "Sampling cannot affect the melting point.", "misconception": "impossible causation"},
+            {"key": "C", "text": "unequal spacing would melt the ice too quickly", "correct": false, "explanation": "Reading frequency does not drive the heating.", "misconception": "impossible causation"},
+            {"key": "D", "text": "equal spacing is only needed when using a data logger", "correct": false, "explanation": "Regularity matters for manual and logged readings alike.", "misconception": "scope slip"}
+          ]
+        },
+        {
+          "stem": "A student proposes measuring the ice temperature once, at the end, after all the ice has melted. Why does this fail the aim?",
+          "misconceptionClass": "design critique",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "a single late reading cannot reveal the plateau during the change of state", "correct": true, "explanation": "The constant-temperature region is only visible from repeated readings across the melt.", "misconception": null},
+            {"key": "B", "text": "a single reading is always inaccurate", "correct": false, "explanation": "One reading can be accurate; it simply cannot show the plateau.", "misconception": "overstatement"},
+            {"key": "C", "text": "the thermometer cannot read liquid water", "correct": false, "explanation": "Thermometers read liquid water perfectly well.", "misconception": "impossible claim"},
+            {"key": "D", "text": "the ice would not melt without repeated readings", "correct": false, "explanation": "Melting depends on heating, not on reading frequency.", "misconception": "impossible causation"}
+          ]
+        },
+        {
+          "stem": "State the core equipment needed to obtain the temperature–time graph for melting ice.",
+          "misconceptionClass": "equipment recall",
+          "kind": "recall",
+          "modelAnswer": "A beaker of crushed ice with a thermometer in it, a heat source to warm it steadily, and a stopwatch for timing equal-interval readings.",
+          "keywords": ["crushed", "ice", "thermometer", "stopwatch"]
+        },
+        {
+          "stem": "State what is special about the temperature of the ice while it is melting.",
+          "misconceptionClass": "phenomenon recall",
+          "kind": "recall",
+          "modelAnswer": "While the ice melts its temperature stays constant at the melting point even though heating continues.",
+          "keywords": ["constant", "melting", "temperature", "heating"]
+        },
+        {
+          "stem": "Explain why the thermometer should sit in the middle of the crushed ice rather than touching the beaker wall.",
+          "misconceptionClass": "evaluation reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "The beaker wall is heated first and directly by the flame, so glass near the wall can be warmer than the bulk ice. A bulb touching the wall would read the heated glass rather than the sample, exaggerating the temperature and distorting the plateau. Central placement keeps the bulb in thermal contact with the melting ice itself.",
+          "keywords": ["wall", "warmer", "bulb", "ice"]
+        },
+        {
+          "stem": "A class takes readings every 30 seconds for ten minutes. Describe how they should plot the data to meet the aim.",
+          "misconceptionClass": "application transfer",
+          "kind": "application",
+          "modelAnswer": "Plot temperature on the vertical axis against time on the horizontal axis at the 30-second intervals, join the points smoothly, and identify the flat region where the temperature stays constant — that plateau is the melting point during the change of state.",
+          "keywords": ["temperature", "time", "plot", "constant"]
+        }
+      ]
+    },
+    {
+      "title": "Method and apparatus for the melting-ice practical",
+      "sourceHeadings": [
+        "Method",
+        "The experimental set-up with ice"
+      ],
+      "specRefs": ["5.11P"],
+      "opening": "The run itself is a rhythm: heat gently, stir nothing, read on the beat. Gentle heating is the whole trick — too fierce a flame smears the plateau across seconds instead of minutes.",
+      "keyPoints": [
+        "Place the thermometer bulb in the centre of the crushed ice before heating begins.",
+        "Heat gently and steadily so the change of state is stretched out in time.",
+        "Record the temperature at equal intervals from before melting starts until all the ice has melted.",
+        "The apparatus is a beaker of crushed ice over a heat source with the bulb central in the sample."
+      ],
+      "confidenceGate": {
+        "ratings": ["low", "medium", "high"],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Bury the bulb in the ice, light a small flame underneath, and take a temperature reading every fixed interval. Keep the flame gentle so the melting stage lasts long enough to be caught by several readings.",
+          "analogy": "Slow-roasting rather than searing: a low heat lets the cook watch every stage of the change instead of skipping past it.",
+          "examPointer": "The words 'gentle' and 'steady' earn method marks — an uncontrolled flame is the classic reason a plateau shows only one reading."
+        },
+        "medium": {
+          "restatement": "The apparatus couples a low, steady heating rate to fixed-interval sampling so that the isothermal melt occupies a measurable stretch of the time axis. Starting readings before heating establishes the initial state, and continuing past full melt shows the resumed temperature rise — both anchor the plateau between two climbing limbs.",
+          "analogy": "A slow-motion replay of a sprint finish: only by slowing the action (gentle heating) can the judge (thermometer) log each frame (reading) of the decisive moment.",
+          "examPointer": "Describe readings taken before, during and after the melt — the plateau is only convincing if the graph rises, flattens, then rises again."
+        }
+      },
+      "check": [
+        {
+          "stem": "Where should the thermometer bulb be placed before heating starts?",
+          "misconceptionClass": "method recall",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "in the centre of the crushed ice", "correct": true, "explanation": "Central placement samples the bulk of the melting ice.", "misconception": null},
+            {"key": "B", "text": "resting on the beaker wall", "correct": false, "explanation": "The wall heats first and reads warm.", "misconception": "placement slip"},
+            {"key": "C", "text": "held above the ice in the flame's path", "correct": false, "explanation": "The bulb should sense the ice, not the flame.", "misconception": "placement slip"},
+            {"key": "D", "text": "outside the beaker for safety", "correct": false, "explanation": "An outside bulb reads nothing useful.", "misconception": "absurd slip"}
+          ]
+        },
+        {
+          "stem": "Why is gentle heating used in this practical?",
+          "misconceptionClass": "method design",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "it stretches the melting stage so several readings land on the plateau", "correct": true, "explanation": "A slow melt gives the constant-temperature region enough readings to be visible.", "misconception": null},
+            {"key": "B", "text": "it raises the melting point of the ice", "correct": false, "explanation": "The melting point is a property of water, not of the flame size.", "misconception": "property invention"},
+            {"key": "C", "text": "it prevents any change of state", "correct": false, "explanation": "The change of state is the observation target.", "misconception": "contradiction slip"},
+            {"key": "D", "text": "it reduces the thermometer's response time to zero", "correct": false, "explanation": "Instruments respond at their own speed regardless of flame size.", "misconception": "irrelevant claim"}
+          ]
+        },
+        {
+          "stem": "When should the student stop recording the temperature?",
+          "misconceptionClass": "method recall",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "a few readings after all the ice has melted", "correct": true, "explanation": "Continuing past the melt shows the temperature rising again, framing the plateau.", "misconception": null},
+            {"key": "B", "text": "as soon as the plateau begins", "correct": false, "explanation": "Stopping at the plateau leaves the second rise unrecorded.", "misconception": "premature stop"},
+            {"key": "C", "text": "only after the water boils", "correct": false, "explanation": "Boiling is outside this practical's scope.", "misconception": "scope slip"},
+            {"key": "D", "text": "before heating begins", "correct": false, "explanation": "A start-only reading records nothing of the melt.", "misconception": "absurd slip"}
+          ]
+        },
+        {
+          "stem": "Which sketch matches the expected temperature–time graph for gently heated crushed ice?",
+          "misconceptionClass": "graph interpretation",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "rise, flat region, rise", "correct": true, "explanation": "Warming ice, isothermal melt, warming water — in that order.", "misconception": null},
+            {"key": "B", "text": "flat region, rise, flat region", "correct": false, "explanation": "Ice starts below the melting point, so the graph does not begin flat.", "misconception": "shape swap"},
+            {"key": "C", "text": "a single straight rising line", "correct": false, "explanation": "A straight rise would deny the plateau this practical exists to show.", "misconception": "plateau denial"},
+            {"key": "D", "text": "a single flat line throughout", "correct": false, "explanation": "Temperature climbs before and after the melt.", "misconception": "plateau overreach"}
+          ]
+        },
+        {
+          "stem": "A student heats strongly and takes readings every 30 seconds, but the plateau shows on only one reading. What went wrong?",
+          "misconceptionClass": "design critique",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "the melt was too fast for the sampling interval — the heating should have been gentler", "correct": true, "explanation": "A fierce flame races through the plateau between readings.", "misconception": null},
+            {"key": "B", "text": "the thermometer was broken", "correct": false, "explanation": "A working thermometer simply missed the brief plateau.", "misconception": "equipment blame"},
+            {"key": "C", "text": "the ice was crushed too finely", "correct": false, "explanation": "Fine crushing improves contact; it does not hide plateaus.", "misconception": "wrong culprit"},
+            {"key": "D", "text": "ice has no constant-temperature melt", "correct": false, "explanation": "Melting ice is the textbook isothermal change.", "misconception": "theory slip"}
+          ]
+        },
+        {
+          "stem": "State the two heating controls that make the plateau easy to observe.",
+          "misconceptionClass": "method recall",
+          "kind": "recall",
+          "modelAnswer": "Heat gently and heat steadily, so the change of state lasts long enough for several equal-interval readings to fall on the plateau.",
+          "keywords": ["gently", "steadily", "readings", "plateau"]
+        },
+        {
+          "stem": "State what the apparatus consists of in this practical.",
+          "misconceptionClass": "equipment recall",
+          "kind": "recall",
+          "modelAnswer": "A beaker of crushed ice standing over a heat source, with a thermometer whose bulb sits centrally in the ice.",
+          "keywords": ["beaker", "ice", "heat", "thermometer"]
+        },
+        {
+          "stem": "Explain why the student should record one reading before the heat source is switched on at all.",
+          "misconceptionClass": "evaluation reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "The pre-heating reading anchors the graph's starting level and proves the ice was below the melting point to begin with. Without it, the initial climbing limb cannot be drawn and the plateau would lack the rise-then-flat structure that identifies the constant-temperature change of state.",
+          "keywords": ["reading", "start", "graph", "melting"]
+        },
+        {
+          "stem": "A class obtains a beautiful plateau but wants to confirm it is the melting point. State the reading they should quote and the two graph features either side of it.",
+          "misconceptionClass": "application transfer",
+          "kind": "application",
+          "modelAnswer": "They should quote the flat-region temperature, about 0 °C for ice, bounded by a climbing limb before the melt (solid warming) and a second climbing limb after the melt (liquid warming) — rise, plateau, rise confirms the change of state.",
+          "keywords": ["flat", "temperature", "rise", "melting"]
+        }
+      ]
+    },
+    {
+      "title": "Results and the analysis of the melting curve",
+      "sourceHeadings": [
+        "Results",
+        "Analysis of results"
+      ],
+      "specRefs": ["5.11P"],
+      "opening": "The numbers become a table, the table becomes a curve, and the curve confesses: temperature climbs, refuses to move through the melt, then climbs again. The flat stretch is the energy of change of state made visible.",
+      "keyPoints": [
+        "Readings are tabulated as time against temperature at the fixed sampling interval.",
+        "Plotting temperature against time reveals a flat region at the melting point.",
+        "The flat region shows energy supplied during melting is not raising the temperature.",
+        "After the last ice melts, the temperature of the liquid water rises again."
+      ],
+      "confidenceGate": {
+        "ratings": ["low", "medium", "high"],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Write each reading in the table, plot it, and look for the horizontal step. That step sits at zero degrees for melting ice and proves the temperature held constant while the state changed.",
+          "analogy": "A heartbeat trace with a flat pause: the pulse (heating) never stopped, but the trace held its line through the pause.",
+          "examPointer": "When asked to 'use the graph', point at the flat region by name and read its temperature off the axis — that pairing is the analysis mark."
+        },
+        "medium": {
+          "restatement": "During the plateau the supplied energy raises the internal energy of the sample by weakening intermolecular attractions rather than by speeding particles up, so the mean kinetic energy — and hence the temperature — is unchanged. The gradient before and after the plateau reflects the specific heat capacities of ice and water respectively, which differ, so the two limbs need not be parallel.",
+          "analogy": "Paying workers to unbolt seats instead of pushing the rows faster: the money (energy) is spent, the seating chart (state) changes, but the row speed (temperature) pauses.",
+          "examPointer": "If asked why the two rising limbs have different slopes, answer that ice and water have different specific heat capacities — equal heating raises their temperatures at different rates."
+        }
+      },
+      "check": [
+        {
+          "stem": "What does the flat region of the temperature–time graph represent?",
+          "misconceptionClass": "graph interpretation",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "the change of state at constant temperature", "correct": true, "explanation": "Melting runs isothermally — the flat stretch is the melt.", "misconception": null},
+            {"key": "B", "text": "a pause in the heating", "correct": false, "explanation": "Heating continued; the energy went into the state change.", "misconception": "heating pause myth"},
+            {"key": "C", "text": "a broken thermometer", "correct": false, "explanation": "The plateau is the expected physics, not an instrument fault.", "misconception": "equipment blame"},
+            {"key": "D", "text": "the boiling of the melted water", "correct": false, "explanation": "Boiling happens at 100 °C, far beyond this practical.", "misconception": "transition overshoot"}
+          ]
+        },
+        {
+          "stem": "Where does the energy go while the ice is on the plateau?",
+          "misconceptionClass": "energy accounting",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "into weakening the attractions as the solid becomes liquid", "correct": true, "explanation": "The supplied energy funds the change of state, not the temperature.", "misconception": null},
+            {"key": "B", "text": "into speeding up the particles", "correct": false, "explanation": "Speeding particles would raise the temperature; the graph shows it constant.", "misconception": "energy misrouting"},
+            {"key": "C", "text": "nowhere — energy flow stops at the melting point", "correct": false, "explanation": "Energy keeps flowing; its effect changes.", "misconception": "no-energy slip"},
+            {"key": "D", "text": "into the beaker only", "correct": false, "explanation": "Some heats the beaker, but the plateau exists because of the ice's change of state.", "misconception": "misrouting"}
+          ]
+        },
+        {
+          "stem": "After the last crystal melts, what happens to the graph?",
+          "misconceptionClass": "graph interpretation",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "the temperature rises again as liquid water warms", "correct": true, "explanation": "With no solid left, supplied energy raises the temperature once more.", "misconception": null},
+            {"key": "B", "text": "the temperature falls back to zero", "correct": false, "explanation": "Nothing cools the sample while heating continues.", "misconception": "direction slip"},
+            {"key": "C", "text": "the graph stays flat forever", "correct": false, "explanation": "The flat region ends exactly when the melt ends.", "misconception": "plateau overreach"},
+            {"key": "D", "text": "the graph becomes jagged and unreliable", "correct": false, "explanation": "Nothing about the melt-end introduces noise.", "misconception": "irrelevant claim"}
+          ]
+        },
+        {
+          "stem": "Why might the rising limbs before and after the plateau have different gradients?",
+          "misconceptionClass": "gradient reasoning",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "ice and water have different specific heat capacities", "correct": true, "explanation": "Different capacities mean the same heating changes their temperatures at different rates.", "misconception": null},
+            {"key": "B", "text": "the flame was changed mid-practical", "correct": false, "explanation": "With steady heating the flame is not the cause.", "misconception": "wrong culprit"},
+            {"key": "C", "text": "the thermometer drifted out of calibration", "correct": false, "explanation": "Calibration drift would bend the whole curve, not shift one limb's slope.", "misconception": "equipment blame"},
+            {"key": "D", "text": "the plateau destroys the graph's scale", "correct": false, "explanation": "Axes are unaffected by the shape of the data.", "misconception": "absurd claim"}
+          ]
+        },
+        {
+          "stem": "A student's graph shows the temperature still climbing slowly through the supposed plateau. What is the most likely cause?",
+          "misconceptionClass": "error attribution",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "the sample was unevenly heated, so the bulb region warmed slightly during the melt", "correct": true, "explanation": "Thermal gradients tilt the plateau; stirring-free designs are vulnerable to this.", "misconception": null},
+            {"key": "B", "text": "ice melts above 0 °C in beakers", "correct": false, "explanation": "The melting point of ice does not care about the beaker.", "misconception": "theory slip"},
+            {"key": "C", "text": "the stopwatch was slow", "correct": false, "explanation": "Timing error shifts the axis, not the temperature.", "misconception": "wrong culprit"},
+            {"key": "D", "text": "the graph paper was miscounted", "correct": false, "explanation": "Plotting errors are possible but the systemic tilt points to heating.", "misconception": "wrong culprit"}
+          ]
+        },
+        {
+          "stem": "State what the results table should contain.",
+          "misconceptionClass": "results recall",
+          "kind": "recall",
+          "modelAnswer": "Two columns — the time of each reading and the temperature taken at that time, sampled at the fixed equal interval.",
+          "keywords": ["time", "temperature", "readings", "interval"]
+        },
+        {
+          "stem": "State the temperature of the flat region for melting ice.",
+          "misconceptionClass": "read-off recall",
+          "kind": "recall",
+          "modelAnswer": "The flat region sits at 0 °C, the melting point of ice.",
+          "keywords": ["0", "melting", "point", "ice"]
+        },
+        {
+          "stem": "Explain how the graph demonstrates that a change of state occurs at constant temperature.",
+          "misconceptionClass": "evaluation reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "Between the two rising limbs the plotted line is horizontal: the stopwatch keeps advancing and the heater keeps supplying energy, yet the temperature reading does not change. A temperature that stays fixed while heating continues is only explicable if the energy is being absorbed by the change of state itself, which is exactly what the plateau demonstrates.",
+          "keywords": ["horizontal", "heating", "temperature", "change"]
+        },
+        {
+          "stem": "A class's graph shows a plateau from 2.0 to 6.0 minutes and a pre-plateau gradient twice as steep as the post-plateau gradient. State the melting temperature and describe which phase warms faster per minute under equal heating.",
+          "misconceptionClass": "application transfer",
+          "kind": "application",
+          "modelAnswer": "The melting temperature is read from the flat region, about 0 °C, spanning 2.0 to 6.0 minutes. The steeper pre-plateau limb means the solid ice warms faster per minute than the melted water under the same heating, because ice has the lower specific heat capacity.",
+          "keywords": ["0", "steeper", "ice", "warms"]
+        }
+      ]
+    },
+    {
+      "title": "Evaluating the melt-curve practical and working safely",
+      "sourceHeadings": [
+        "Evaluating the experiment",
+        "Safety considerations"
+      ],
+      "specRefs": ["5.11P"],
+      "opening": "No practical is perfect: heat leaks, readings wobble, bulbs touch glass. Naming the systematic and random errors — and the fixes — is as much a part of the practical as the plateau itself.",
+      "keyPoints": [
+        "A systematic error such as heat bypassing the ice tilts or shortens the plateau.",
+        "Random reading errors are reduced by averaging and by careful, consistent reading technique.",
+        "The main safety duties are handling the hot beaker with tongs or a heatproof mat and keeping the flame controlled.",
+        "Eye protection is worn throughout because heated glassware can spit or crack."
+      ],
+      "confidenceGate": {
+        "ratings": ["low", "medium", "high"],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Watch out for heat sneaking straight into the thermometer or beaker rather than the ice, and for small wobbly readings. Use goggles, stand the hot beaker on a mat, and lift it with tongs.",
+          "analogy": "Checking a cake recipe: note where heat escaped, accept that every timing jitters a little, and keep the oven gloves on.",
+          "examPointer": "Classify before you fix: systematic errors shift every reading the same way, random errors scatter — improvements should match the error type."
+        },
+        "medium": {
+          "restatement": "The dominant systematic threat is energy entering the bulb or glass rather than the sample, which lifts the apparent melt temperature; the control is insulating or repositioning the bulb. Random scatter comes from parallax and reaction-time variation between interval readings; repeating the run and smoothing the plot mitigates it. Safety mirrors any small-scale heating practical: eye protection, heatproof mat, tongs, and flame discipline.",
+          "analogy": "Calibrating bathroom scales on a tilted floor: no amount of re-weighing (averaging) fixes a tilt (systematic), but the jitter between steps (random) does average out.",
+          "examPointer": "For the evaluation mark, name the error, name its effect on the plateau, and name the fix — all three, in that order."
+        }
+      },
+      "check": [
+        {
+          "stem": "Which error would shift the whole plateau to a temperature above 0 °C?",
+          "misconceptionClass": "systematic error",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "the bulb touching the warmed beaker wall instead of the ice", "correct": true, "explanation": "Reading heated glass systematically inflates the temperature.", "misconception": null},
+            {"key": "B", "text": "one mistimed reading among many", "correct": false, "explanation": "A single slip is random, not systematic.", "misconception": "error-class swap"},
+            {"key": "C", "text": "using a stopwatch instead of a data logger", "correct": false, "explanation": "The instrument choice does not bias temperature.", "misconception": "wrong culprit"},
+            {"key": "D", "text": "drawing the axes too small", "correct": false, "explanation": "Presentation does not change measured values.", "misconception": "presentation confusion"}
+          ]
+        },
+        {
+          "stem": "Which improvement reduces random error in the plotted curve?",
+          "misconceptionClass": "error control",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "repeating the run and plotting a best-fit smoothing through the points", "correct": true, "explanation": "Repetition and smoothing average out scatter.", "misconception": null},
+            {"key": "B", "text": "replacing the crushed ice with one big block", "correct": false, "explanation": "A block worsens contact and adds systematic error.", "misconception": "fix backfire"},
+            {"key": "C", "text": "heating more fiercely to finish sooner", "correct": false, "explanation": "Fierce heating hides the plateau entirely.", "misconception": "fix backfire"},
+            {"key": "D", "text": "reading the thermometer from above at an angle", "correct": false, "explanation": "Parallax adds random error rather than removing it.", "misconception": "fix backfire"}
+          ]
+        },
+        {
+          "stem": "Why is eye protection required in this practical?",
+          "misconceptionClass": "safety recall",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "heated glassware and boiling spits can eject hot material", "correct": true, "explanation": "Goggles guard against splashes and cracking glass.", "misconception": null},
+            {"key": "B", "text": "ice at 0 °C damages unprotected eyes", "correct": false, "explanation": "The hazard is the heating, not the ice.", "misconception": "hazard misattribution"},
+            {"key": "C", "text": "the stopwatch could shatter", "correct": false, "explanation": "Stopwatches are not the hazard here.", "misconception": "absurd claim"},
+            {"key": "D", "text": "goggles improve reading precision", "correct": false, "explanation": "Goggles protect eyes; they do not change parallax.", "misconception": "purpose confusion"}
+          ]
+        },
+        {
+          "stem": "A plateau is obtained but lasts only two readings. Which evaluation follows?",
+          "misconceptionClass": "design critique",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "reduce the heating rate so the melt spans more readings", "correct": true, "explanation": "A gentler flame stretches the constant-temperature region.", "misconception": null},
+            {"key": "B", "text": "take fewer readings to shorten the practical", "correct": false, "explanation": "Fewer readings starve the plateau further.", "misconception": "fix backfire"},
+            {"key": "C", "text": "double the ice but also double the flame", "correct": false, "explanation": "Scaling both leaves the plateau equally brief.", "misconception": "neutral fix"},
+            {"key": "D", "text": "accept it — plateaus are always one reading long", "correct": false, "explanation": "The plateau duration is under the experimenter's control.", "misconception": "resignation slip"}
+          ]
+        },
+        {
+          "stem": "A student claims the practical proves 'heat always raises temperature'. Which result contradicts them?",
+          "misconceptionClass": "concept check",
+          "kind": "mcq",
+          "options": [
+            {"key": "A", "text": "the plateau, where heating continued but temperature held constant", "correct": true, "explanation": "The flat region is direct counter-evidence during the change of state.", "misconception": null},
+            {"key": "B", "text": "the first rising limb", "correct": false, "explanation": "That limb supports the claim rather than contradicting it.", "misconception": "evidence swap"},
+            {"key": "C", "text": "the choice of crushed ice", "correct": false, "explanation": "Equipment choice is not evidence about temperature.", "misconception": "category slip"},
+            {"key": "D", "text": "the safety precautions", "correct": false, "explanation": "Safety is not part of the energy argument.", "misconception": "category slip"}
+          ]
+        },
+        {
+          "stem": "State one systematic error in this practical and its effect on the plateau.",
+          "misconceptionClass": "error recall",
+          "kind": "recall",
+          "modelAnswer": "Heat reaching the bulb through the warmed beaker wall is systematic — it raises the apparent melt temperature or tilts the plateau instead of holding it level.",
+          "keywords": ["systematic", "wall", "temperature", "plateau"]
+        },
+        {
+          "stem": "State two safety precautions for heating ice in a glass beaker.",
+          "misconceptionClass": "safety recall",
+          "kind": "recall",
+          "modelAnswer": "Wear eye protection throughout and stand the beaker on a heatproof mat, lifting or moving it only with tongs once hot.",
+          "keywords": ["eye", "protection", "heatproof", "tongs"]
+        },
+        {
+          "stem": "Explain why repeating the experiment improves confidence in the plateau but cannot fix a bulb touching the wall.",
+          "misconceptionClass": "evaluation reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "Repetition averages out random scatter such as reaction-time wobble and parallax, so the plateau's level and duration become more reliable. But a bulb resting on warmed glass biases every run in the same direction — the error is systematic — so repeated runs simply reproduce the inflated value until the placement is corrected.",
+          "keywords": ["repetition", "random", "systematic", "bias"]
+        },
+        {
+          "stem": "A class must redesign the practical so the plateau spans at least four readings at 30-second intervals. State two changes they should make and the effect each has.",
+          "misconceptionClass": "application transfer",
+          "kind": "application",
+          "modelAnswer": "Reduce the flame so the melt lasts longer in time, and start with more crushed ice so there is more solid to melt — together these stretch the constant-temperature region across several 30-second readings, giving at least four points on the plateau.",
+          "keywords": ["flame", "ice", "longer", "readings"]
+        }
+      ]
+    }
+  ],
+  "noteAssets": {
+    "glossary": [
+      {"term": "temperature–time graph", "definition": "A plot of temperature against time used to reveal constant-temperature regions during heating.", "firstLesson": 1},
+      {"term": "plateau", "definition": "The flat region of the graph where temperature stays constant while the state changes.", "firstLesson": 3},
+      {"term": "systematic error", "definition": "A repeatable bias that shifts every reading in the same direction.", "firstLesson": 4},
+      {"term": "random error", "definition": "Unpredictable scatter between readings that averaging can reduce.", "firstLesson": 4}
+    ],
+    "workedExample": null
+  },
+  "figures": [
+    {
+      "id": "fig-01",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/14f5b912e95a-5-2-3-change-of-state-apparatus.png",
+      "alt": "Change of State Apparatus, downloadable IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "The experimental set-up with ice",
+      "moduleIds": ["L2"],
+      "binding": "heading-unique",
+      "caption": "Apparatus used to heat ice and measure its temperature as it melts"
+    },
+    {
+      "id": "fig-02",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/98b15b249897-14-1-10-practical-shc-heating-curve.png",
+      "alt": "Practical SHC Heating curve, downloadable IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "Analysis of results",
+      "moduleIds": ["L3"],
+      "binding": "heading-unique",
+      "caption": "A graph of temperature against time will show a flat region where the ice is melting"
+    }
+  ]
+}
