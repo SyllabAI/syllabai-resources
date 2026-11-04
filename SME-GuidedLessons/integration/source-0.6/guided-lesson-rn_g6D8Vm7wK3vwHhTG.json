@@ -1,0 +1,348 @@
+{
+  "format": "guided-lesson/0.6",
+  "noteRef": {
+    "noteId": "rn_g6D8Vm7wK3vwHhTG",
+    "corpusVersion": "sme-revision-notes-igcse-physics-19-2026-09-17",
+    "topicTitle": "6. Magnetism and Electromagnetism",
+    "subtopicTitle": "Magnetism and Electromagnetism",
+    "sourceUrl": "https://www.savemyexams.com/igcse/physics/edexcel/19/revision-notes/6-magnetism-and-electromagnetism/6-1-magnetism-and-electromagnetism/6-1-7-flemings-left-hand-rule"
+  },
+  "specPoints": [
+    {
+      "code": "6.13",
+      "text": "use the left-hand rule to predict the direction of the resulting force when a wire carries a current perpendicular to a magnetic field"
+    }
+  ],
+  "primer": {
+    "text": "Three directions, one hand: the first finger along the field, the second along the current, and the thumb fires out the force. This note drills Fleming's left-hand rule for wires crossing a magnetic field — including the conventional-current trap and what happens when either input flips.",
+    "prerequisiteSubtopic": "Magnetism and Electromagnetism"
+  },
+  "lessons": [
+    {
+      "title": "Predicting the force with Fleming's left-hand rule",
+      "sourceHeadings": [
+        "Fleming's left-hand rule"
+      ],
+      "specRefs": [
+        "6.13"
+      ],
+      "opening": "The left-hand rule turns three directions into one prediction: first finger along the magnetic field, second finger along the current, and the thumb at right angles to both gives the direction of the force on the wire. It works whenever the current runs perpendicular to the field — the geometry the rule was built for.",
+      "keyPoints": [
+        "The first finger points along the magnetic field, from north to south.",
+        "The second finger points along the conventional current in the wire.",
+        "The thumb then gives the direction of the force on the wire.",
+        "The three fingers are held at right angles to each other in a left hand.",
+        "The rule predicts the force when the current is perpendicular to the field."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Hold the left hand flat: point the first finger the way the field runs, the second finger the way the current flows, and the thumb sticks out in the direction the wire gets pushed.",
+          "analogy": "It is a three-arrow machine: feed in field and current, and the thumb fires out the answer.",
+          "examPointer": "Name the fingers in order — first (field), second (current), thumb (force) — examiners check the mapping, not just the pose."
+        },
+        "medium": {
+          "restatement": "The rule encodes the perpendicular geometry of the motor effect: force, field and current are mutually at right angles, so a left-hand coordinate frame fixes the third direction once two are known. The rule applies to the conventional-current direction, so electron flow runs against the second finger, and it presumes the current crosses the field — parallel arrangements fall outside it.",
+          "analogy": "Like a 3D jigsaw: two pieces click in, and the shape of the frame forces the third piece into one place only.",
+          "examPointer": "Check the current direction in the diagram first — using electron flow instead of conventional current is the classic inversion error."
+        }
+      },
+      "check": [
+        {
+          "stem": "Which finger of the left hand gives the direction of the FORCE?",
+          "misconceptionClass": "rule recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "the thumb",
+              "correct": true,
+              "explanation": "First finger field, second finger current, thumb force.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "the first finger",
+              "correct": false,
+              "explanation": "The first finger carries the field direction.",
+              "misconception": "finger swap"
+            },
+            {
+              "key": "C",
+              "text": "the second finger",
+              "correct": false,
+              "explanation": "The second finger carries the current direction.",
+              "misconception": "finger swap"
+            },
+            {
+              "key": "D",
+              "text": "the palm",
+              "correct": false,
+              "explanation": "The palm plays no role in the rule.",
+              "misconception": "hand-part invention"
+            }
+          ]
+        },
+        {
+          "stem": "The FIRST finger in Fleming's left-hand rule points along:",
+          "misconceptionClass": "rule recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "the magnetic field, north to south",
+              "correct": true,
+              "explanation": "Field is assigned to the first finger.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "the conventional current",
+              "correct": false,
+              "explanation": "Current belongs to the second finger.",
+              "misconception": "finger swap"
+            },
+            {
+              "key": "C",
+              "text": "the force",
+              "correct": false,
+              "explanation": "Force belongs to the thumb.",
+              "misconception": "finger swap"
+            },
+            {
+              "key": "D",
+              "text": "the electron flow",
+              "correct": false,
+              "explanation": "Electron flow runs opposite to the conventional current.",
+              "misconception": "charge confusion"
+            }
+          ]
+        },
+        {
+          "stem": "A wire carries current at right angles to a field. The rule predicts the force direction. What is assumed about the current used in the rule?",
+          "misconceptionClass": "convention reasoning",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "the conventional current, from positive to negative",
+              "correct": true,
+              "explanation": "The rule uses conventional current, not electron flow.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "the electron flow direction",
+              "correct": false,
+              "explanation": "Electrons run against the second finger.",
+              "misconception": "charge confusion"
+            },
+            {
+              "key": "C",
+              "text": "the alternating current peak value",
+              "correct": false,
+              "explanation": "Direction, not magnitude, is what the rule needs.",
+              "misconception": "quantity confusion"
+            },
+            {
+              "key": "D",
+              "text": "the resistance current",
+              "correct": false,
+              "explanation": "There is no separate 'resistance current'.",
+              "misconception": "invented quantity"
+            }
+          ]
+        },
+        {
+          "stem": "The current in the wire is reversed while the field stays fixed. What does the rule now predict?",
+          "misconceptionClass": "direction reasoning",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "a force in the opposite direction",
+              "correct": true,
+              "explanation": "Reversing one input mirrors the predicted force.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "the same force direction",
+              "correct": false,
+              "explanation": "The prediction flips with the current.",
+              "misconception": "direction confusion"
+            },
+            {
+              "key": "C",
+              "text": "a larger force in the same direction",
+              "correct": false,
+              "explanation": "Reversal changes direction, not size.",
+              "misconception": "magnitude confusion"
+            },
+            {
+              "key": "D",
+              "text": "no force at all",
+              "correct": false,
+              "explanation": "The wire still crosses the field, so a force remains.",
+              "misconception": "vanishing claim"
+            }
+          ]
+        },
+        {
+          "stem": "Which arrangement is NOT the perpendicular case that the rule predicts?",
+          "misconceptionClass": "scope reasoning",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "a wire carrying current parallel to the field lines",
+              "correct": true,
+              "explanation": "The rule predicts forces for currents perpendicular to the field.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "a wire carrying current across the field",
+              "correct": false,
+              "explanation": "That is exactly the case the rule covers.",
+              "misconception": "scope inversion"
+            },
+            {
+              "key": "C",
+              "text": "a wire between two opposite poles",
+              "correct": false,
+              "explanation": "The gap field is a standard case for the rule.",
+              "misconception": "scope confusion"
+            },
+            {
+              "key": "D",
+              "text": "a straight wire rather than a coil",
+              "correct": false,
+              "explanation": "The rule works wire by wire, straight or coiled.",
+              "misconception": "scope confusion"
+            }
+          ]
+        },
+        {
+          "stem": "State what each of the three fingers represents in the left-hand rule.",
+          "misconceptionClass": "rule recall",
+          "kind": "recall",
+          "modelAnswer": "First finger along the magnetic field, second finger along the current, thumb along the force.",
+          "keywords": [
+            "first",
+            "field",
+            "second",
+            "current",
+            "thumb"
+          ]
+        },
+        {
+          "stem": "State which hand is used in the rule for motor-effect force prediction.",
+          "misconceptionClass": "rule recall",
+          "kind": "recall",
+          "modelAnswer": "The left hand is used for predicting the force in the motor effect.",
+          "keywords": [
+            "left",
+            "hand",
+            "force"
+          ]
+        },
+        {
+          "stem": "Explain why reversing the field direction flips the predicted force.",
+          "misconceptionClass": "geometry reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "The three directions form a right-angled set: with the current unchanged, pointing the first finger the opposite way leaves the thumb pointing the opposite way too. The geometry of the hand mirrors the physics — the force depends on both inputs, so flipping either flips the result.",
+          "keywords": [
+            "first",
+            "finger",
+            "thumb",
+            "opposite"
+          ]
+        },
+        {
+          "stem": "A horizontal wire runs north, carrying current northwards, in a field directed from east to west. Predict the initial force direction using the rule.",
+          "misconceptionClass": "application transfer",
+          "kind": "application",
+          "modelAnswer": "First finger points west (field), second finger points north (current), and the left-hand thumb then points vertically upwards — the wire is pushed up out of its position.",
+          "keywords": [
+            "west",
+            "north",
+            "thumb",
+            "upwards"
+          ]
+        }
+      ]
+    }
+  ],
+  "noteAssets": {
+    "glossary": [
+      {
+        "term": "Fleming's left-hand rule",
+        "definition": "The rule assigning field to the first finger, current to the second and force to the thumb of a left hand.",
+        "firstLesson": 1
+      },
+      {
+        "term": "conventional current",
+        "definition": "The direction of current flow from positive to negative, used by the rule.",
+        "firstLesson": 1
+      },
+      {
+        "term": "motor effect",
+        "definition": "The force on a current-carrying wire in a magnetic field, whose direction the rule predicts.",
+        "firstLesson": 1
+      }
+    ],
+    "workedExample": {
+      "prompt": "A current-carrying wire is placed into the magnetic field between the poles of a magnet, as shown in the diagram. Use Fleming's left-hand rule to determine the direction of the force on the wire.",
+      "steps": [
+        "Read the current direction along the wire from the diagram.",
+        "Read the field direction between the poles, from north to south.",
+        "Align the first finger with the field and the second finger with the current.",
+        "The thumb then gives the force direction; from the diagram this is vertically downwards."
+      ],
+      "finalAnswer": "The force on the wire acts vertically downwards, as given by the thumb of the left hand with first finger along the field and second finger along the current."
+    }
+  },
+  "figures": [
+    {
+      "id": "fig-01",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/6f50bab96981-7-2-3-flemings-left-hand-rule.png",
+      "alt": "Flemings Left Hand Rule, downloadable IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "Fleming's left-hand rule",
+      "moduleIds": [
+        "L1"
+      ],
+      "binding": "heading-unique",
+      "caption": "Fleming’s left-hand rule can be used to determine the directions of the force, magnetic field and current"
+    },
+    {
+      "id": "fig-02",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/4be7f49afd13-7-2-3-we-flemings-lhr-question-image.png",
+      "alt": "WE Flemings LHR Question Image, downloadable IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "Fleming's left-hand rule",
+      "moduleIds": [
+        "L1"
+      ],
+      "binding": "heading-unique"
+    },
+    {
+      "id": "fig-03",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/f5e2f028c1bd-7-2-3-we-flemings-lhr-answer-image.png",
+      "alt": "WE Flemings LHR Answer Image, downloadable IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "Fleming's left-hand rule",
+      "moduleIds": [
+        "L1"
+      ],
+      "binding": "heading-unique"
+    }
+  ]
+}

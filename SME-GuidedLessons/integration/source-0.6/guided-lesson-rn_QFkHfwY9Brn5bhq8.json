@@ -1,0 +1,319 @@
+{
+  "format": "guided-lesson/0.6",
+  "noteRef": {
+    "noteId": "rn_QFkHfwY9Brn5bhq8",
+    "corpusVersion": "sme-revision-notes-igcse-physics-19-2026-09-17",
+    "topicTitle": "6. Magnetism and Electromagnetism",
+    "subtopicTitle": "Magnetism and Electromagnetism",
+    "sourceUrl": "https://www.savemyexams.com/igcse/physics/edexcel/19/revision-notes/6-magnetism-and-electromagnetism/6-1-magnetism-and-electromagnetism/6-1-8-electromagnets"
+  },
+  "specPoints": [
+    {
+      "code": "6.9P",
+      "text": "describe the construction of electromagnets"
+    }
+  ],
+  "primer": {
+    "text": "Wind a coil, add a soft iron core, switch on the current — and you own a magnet with an off switch. This note covers the construction of electromagnets, the polarity flip when the current reverses, and the two levers — turns and current — that set the strength.",
+    "prerequisiteSubtopic": "Magnetism and Electromagnetism"
+  },
+  "lessons": [
+    {
+      "title": "Building and using an electromagnet",
+      "sourceHeadings": [
+        "Electromagnets",
+        "Electromagnet diagram"
+      ],
+      "specRefs": [
+        "6.9P"
+      ],
+      "opening": "An electromagnet is a coil of wire — often wound on a soft iron core — that becomes a magnet only while current flows through the coil. Its poles swap when the current reverses, its strength responds to the current and the number of turns, and the on/off switch is what makes it so useful.",
+      "keyPoints": [
+        "An electromagnet is constructed from a coil of wire carrying a current.",
+        "The coil is often wound around a soft iron core to strengthen the field.",
+        "The electromagnet behaves as a magnet only while the current flows.",
+        "Reversing the current swaps the positions of the electromagnet's poles.",
+        "More turns on the coil and a larger current both strengthen the electromagnet."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Wrap wire round an iron nail, connect a battery, and the nail picks up pins. Cut the current and the pins drop — the magnet switched off with the switch.",
+          "analogy": "A permanent magnet is a candle that never goes out; an electromagnet is a torch — light while pressed, dark when released.",
+          "examPointer": "Construction answers need both parts: a COIL of wire CARRYING CURRENT, and the soft iron core named for the stronger version."
+        },
+        "medium": {
+          "restatement": "Each turn contributes its circular field, and coiling stacks them into a bar-magnet-like pattern with poles at the ends; the soft iron core is induced by the coil's field, multiplying the field strength while the current runs. Reversing the current reverses every turn's circulation, so the induced core poles and the coil poles swap together.",
+          "analogy": "Each turn is one weak battery of field; coiling wires them in series so their fields add, and the iron core is the amplifier in the circuit.",
+          "examPointer": "Diagram descriptions should trace the polarity: which end is north for the drawn current direction — polarity questions are common."
+        }
+      },
+      "check": [
+        {
+          "stem": "What are the essential parts of an electromagnet?",
+          "misconceptionClass": "construction recall",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "a coil of wire carrying a current",
+              "correct": true,
+              "explanation": "Current through a coil is the core construction.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "a permanent magnet glued to a wire",
+              "correct": false,
+              "explanation": "No permanent magnet is part of the construction.",
+              "misconception": "part invention"
+            },
+            {
+              "key": "C",
+              "text": "a battery and a plastic rod",
+              "correct": false,
+              "explanation": "The plastic rod is non-magnetic and pointless as a core.",
+              "misconception": "material error"
+            },
+            {
+              "key": "D",
+              "text": "a single straight wire",
+              "correct": false,
+              "explanation": "A single wire's field is weak; coiling is the construction.",
+              "misconception": "shape error"
+            }
+          ]
+        },
+        {
+          "stem": "Why is the coil often wound on a soft iron core?",
+          "misconceptionClass": "design reasoning",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "the core is induced by the coil's field and strengthens it",
+              "correct": true,
+              "explanation": "Induced magnetism in the core multiplies the field.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "the core stores the electricity for later",
+              "correct": false,
+              "explanation": "Cores store no charge.",
+              "misconception": "function invention"
+            },
+            {
+              "key": "C",
+              "text": "the core keeps the coil cool",
+              "correct": false,
+              "explanation": "Cooling is not the core's role.",
+              "misconception": "function invention"
+            },
+            {
+              "key": "D",
+              "text": "the core makes the electromagnet permanent",
+              "correct": false,
+              "explanation": "Soft iron is chosen because it is NOT permanent.",
+              "misconception": "goal inversion"
+            }
+          ]
+        },
+        {
+          "stem": "The current through an electromagnet is reversed. What happens?",
+          "misconceptionClass": "polarity reasoning",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "its poles swap ends",
+              "correct": true,
+              "explanation": "Reversed current reverses the field and the pole positions.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "it switches off completely",
+              "correct": false,
+              "explanation": "A reversed current still runs — the magnet works with swapped poles.",
+              "misconception": "state confusion"
+            },
+            {
+              "key": "C",
+              "text": "it becomes stronger",
+              "correct": false,
+              "explanation": "Reversal changes direction, not strength.",
+              "misconception": "magnitude confusion"
+            },
+            {
+              "key": "D",
+              "text": "nothing observable changes",
+              "correct": false,
+              "explanation": "The pole swap is observable with a compass.",
+              "misconception": "no-change claim"
+            }
+          ]
+        },
+        {
+          "stem": "Which change makes an electromagnet STRONGER?",
+          "misconceptionClass": "factor reasoning",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "adding more turns to the coil",
+              "correct": true,
+              "explanation": "More turns stack more field contributions.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "removing the iron core",
+              "correct": false,
+              "explanation": "The core strengthens the field; removing it weakens the magnet.",
+              "misconception": "factor inversion"
+            },
+            {
+              "key": "C",
+              "text": "reducing the current",
+              "correct": false,
+              "explanation": "A smaller current weakens the field.",
+              "misconception": "factor inversion"
+            },
+            {
+              "key": "D",
+              "text": "unwinding the coil into a straight wire",
+              "correct": false,
+              "explanation": "Uncoiled wire gives a much weaker surrounding field.",
+              "misconception": "shape error"
+            }
+          ]
+        },
+        {
+          "stem": "A scrapyard electromagnet releases its load the moment the current stops. What property of the core makes this possible?",
+          "misconceptionClass": "material reasoning",
+          "kind": "mcq",
+          "options": [
+            {
+              "key": "A",
+              "text": "soft iron loses its induced magnetism as soon as the field goes",
+              "correct": true,
+              "explanation": "Soft-iron behaviour gives the on/off control.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "the core is magnetically hard and holds its poles",
+              "correct": false,
+              "explanation": "A hard core would keep holding the load.",
+              "misconception": "material inversion"
+            },
+            {
+              "key": "C",
+              "text": "the core cools instantly",
+              "correct": false,
+              "explanation": "Release is magnetic, not thermal.",
+              "misconception": "cause confusion"
+            },
+            {
+              "key": "D",
+              "text": "the coil unwinds slightly",
+              "correct": false,
+              "explanation": "The coil geometry is unchanged by switching off.",
+              "misconception": "mechanism invention"
+            }
+          ]
+        },
+        {
+          "stem": "State what an electromagnet is made from.",
+          "misconceptionClass": "construction recall",
+          "kind": "recall",
+          "modelAnswer": "A coil of wire, often wound around a soft iron core, carrying a current.",
+          "keywords": [
+            "coil",
+            "wire",
+            "soft",
+            "iron"
+          ]
+        },
+        {
+          "stem": "State when an electromagnet behaves as a magnet.",
+          "misconceptionClass": "condition recall",
+          "kind": "recall",
+          "modelAnswer": "Only while a current flows through its coil.",
+          "keywords": [
+            "current",
+            "flows",
+            "coil"
+          ]
+        },
+        {
+          "stem": "Explain why reversing the current swaps the poles of an electromagnet.",
+          "misconceptionClass": "mechanism reasoning",
+          "kind": "explain-why",
+          "modelAnswer": "Each turn of the coil produces a field whose direction is set by the current direction, and the turns stack into the end-to-end field of a bar-like magnet. Reversing the current reverses every turn's circulation, so the stacked field reverses along the axis — the end that was north becomes south and the poles swap.",
+          "keywords": [
+            "reverses",
+            "field",
+            "poles",
+            "swap"
+          ]
+        },
+        {
+          "stem": "A hospital needs a magnet that can hold a steel instrument during an operation and release it instantly on demand. Design the magnet and justify each choice.",
+          "misconceptionClass": "application transfer",
+          "kind": "application",
+          "modelAnswer": "Use an electromagnet: a many-turn coil on a soft iron core, supplied by a switchable current. The coil and core give a strong holding field while the current flows, and the soft core sheds its induced magnetism the instant the current is cut, releasing the instrument cleanly — a permanent magnet could do the holding but could never release on command.",
+          "keywords": [
+            "electromagnet",
+            "soft",
+            "current",
+            "release"
+          ]
+        }
+      ]
+    }
+  ],
+  "noteAssets": {
+    "glossary": [
+      {
+        "term": "electromagnet",
+        "definition": "A coil of wire, usually on a soft iron core, that acts as a magnet while current flows.",
+        "firstLesson": 1
+      },
+      {
+        "term": "core",
+        "definition": "The soft iron bar inside the coil that strengthens the electromagnet's field.",
+        "firstLesson": 1
+      },
+      {
+        "term": "soft iron",
+        "definition": "Magnetically soft iron that gains and loses induced magnetism easily, ideal for electromagnet cores.",
+        "firstLesson": 1
+      }
+    ],
+    "workedExample": null
+  },
+  "figures": [
+    {
+      "id": "fig-01",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/1afbbd809e59-electromagnet.png",
+      "alt": "Electromagnet, IGCSE & GCSE Physics revision notes",
+      "sourceHeading": "Electromagnet diagram",
+      "moduleIds": [
+        "L1"
+      ],
+      "binding": "heading-unique",
+      "caption": "Electromagnets are made up of a coil of wire wrapped around an iron core"
+    }
+  ]
+}
