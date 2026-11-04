@@ -141,7 +141,7 @@ How many neutrons are there in a nucleus of radon-220?
 ### 1((a)) — 1 mark — multiple_choice — from paper 2013 January · 1P
 Vanadium-50 is an isotope of vanadium.
 
-It has the symbol $space_{23}^{50} \mathrm{V}$
+It has the symbol $V_{23}^{50}$
 
 The number of neutrons in a vanadium-50 nucleus is
 - **A.** 23
@@ -374,7 +374,7 @@ When plutonium decays, it emits an alpha particle and a gamma ray.
 
 (i) Complete the decay equation for plutonium-238.
 
-$Pu_{94}^{238} \rightarrow \ \\alpha pre_{square} pre^{4} + \mathrm{X} pre_{square} pre^{square} + \ \\gamma pre_{0} pre^{square}$
+$Pu_{94}^{238} \rightarrow \ \\alpha_{\text{square}}^{4} + \mathrm{X}_{\text{square}}^{\text{square}} + \ \\gamma_{0}^{\text{square}}$
 
 **[4]**
 
@@ -476,15 +476,15 @@ ii) Why are some isotopes described as stable?
 **[1]**
 
 ### 14((b)) — 4 marks — command: multiple — structured — from paper 2013 June · 1PR
-(i) Use the grid in part (a) to calculate the number of neutrons in a $\text{Po} pre_{ } pre^{210}$ nucleus.
+(i) Use the grid in part (a) to calculate the number of neutrons in a $\text{Po}_{}^{210}$ nucleus.
 
 **[1]**
 
-(ii) Describe what happens to the number of protons and the number of neutrons when a nucleus of $\text{Pb} pre_{ } pre^{210}$ decays to form $\text{Bi} pre_{ } pre^{210}$.
+(ii) Describe what happens to the number of protons and the number of neutrons when a nucleus of $\text{Pb}_{}^{210}$ decays to form $\text{Bi}_{}^{210}$.
 
 **[2]**
 
-(iii)  State the type of decay that occurs when $\text{Pb} pre_{ } pre^{210}$ decays to form $\text{Bi} pre_{ } pre^{210}$.
+(iii)  State the type of decay that occurs when $\text{Pb}_{}^{210}$ decays to form $\text{Bi}_{}^{210}$.
 
 **[1]**
 
@@ -510,7 +510,7 @@ Complete the table by ticking the correct type of radiation for each property. T
 ### 2((b)) — 3 marks — command: multiple — structured — from paper 2015 January · 1P
 The symbol for the structure of an alpha particle is
 
-$\ \\alpha pre_{2} pre^{4}$
+$\ \\alpha_{2}^{4}$
 
 (i) State the number of neutrons and the number of protons in an alpha particle.
 

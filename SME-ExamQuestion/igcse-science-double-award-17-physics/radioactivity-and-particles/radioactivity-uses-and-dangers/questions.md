@@ -280,7 +280,7 @@ Thorium-232 undergoes alpha decay and produces an isotope of radium, Ra.
 
 Complete the equation for this decay.
 
-$Th_{90}^{232} \rightarrow \text{Ra} pre_{square} pre^{square} + \ \\alpha pre_{square} pre^{4}$
+$Th_{90}^{232} \rightarrow \text{Ra}_{\text{square}}^{\text{square}} + \ \\alpha_{\text{square}}^{4}$
 
 ### 7((b)) — 3 marks — command: suggest — structured — from paper 2015 June · 1P
 The radioactive glass also emits beta particles from a different isotope.
