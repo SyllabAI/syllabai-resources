@@ -76,7 +76,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
-      # issue #306: reads only scripts/ + Official-ExamQuestion/igcse-chemistry-19
+      # issue #306: reads only scripts/ + the OE root law JSONs (STEM-RESTORE is an
+      # exporter input, F-W15-1) + Official-ExamQuestion/igcse-chemistry-19
       - uses: actions/checkout@v4
         with:
           fetch-depth: 1
@@ -84,6 +85,7 @@ jobs:
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             scripts
+            Official-ExamQuestion/*.json
             Official-ExamQuestion/igcse-chemistry-19
       - uses: actions/setup-python@v5
         with:
