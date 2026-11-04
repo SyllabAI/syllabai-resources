@@ -19,7 +19,24 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
+      # issue #306: the measured read-set of every step below is scripts/ (34 MB)
+      # + graph/ (21 MB) + three Official-ExamQuestion bank dirs + the OE root
+      # JSONs + OE/benchmark — NOT the 6.49 GB repo. Partial clone (blob:none)
+      # + sparse checkout fetches exactly that. The corpus-wide F104 asset-byte
+      # scan moved to asset-guard.yml (it is the only full-OE consumer).
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            scripts
+            graph
+            Official-ExamQuestion/*.json
+            Official-ExamQuestion/benchmark
+            Official-ExamQuestion/igcse-chemistry-19
+            Official-ExamQuestion/igcse-maths-b-16
+            Official-ExamQuestion/igcse-physics-19
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -54,14 +71,22 @@ jobs:
         run: python3 scripts/official_examq_phys_backsync_tests.py
       - name: 4PH1 physics group-stem serving battery (F128/run-007 — the 421 served group-intro pins + the G-E7 physics accounting + grammar + char laws + negative control; zero network)
         run: python3 scripts/official_examq_phys_groupstem_tests.py
-      - name: F104 asset-byte guard scan (every assets/ file format-truth validated + dangling references)
-        run: python3 scripts/official_examq_asset_bytes.py --scan-corpus Official-ExamQuestion
 
   official-export-gates:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
+      # issue #306: reads only scripts/ + the OE root law JSONs (STEM-RESTORE is an
+      # exporter input, F-W15-1) + Official-ExamQuestion/igcse-chemistry-19
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            scripts
+            Official-ExamQuestion/*.json
+            Official-ExamQuestion/igcse-chemistry-19
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
