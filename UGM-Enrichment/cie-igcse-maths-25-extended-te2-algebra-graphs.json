@@ -1,0 +1,3073 @@
+{
+ "schema": "syllabai.ugm-spec-enrichment/1.0",
+ "board": "Cambridge CIE",
+ "course": "cie-igcse-maths-25-extended",
+ "qual": "cie-igcse-maths-2025-2027",
+ "qualRegistryId": "CIE_IGCSE_MATHS_2025_2027",
+ "generated_utc": "2026-11-04T00:00:00Z",
+ "task": "T-UGM-MODE1-19",
+ "review_state": {
+  "state": "SUGGESTED",
+  "note": "facts-only enrichment (mode 1) per ADR-UGM-0001; promotion gate = operator"
+ },
+ "licensing": {
+  "law": "facts-only enrichment (mode 1): spec codes, titles, URLs, resource types, confidence and evidence strings — no UGM body text in this file (text of record lives in UGM-Resources/ under the attestation)",
+  "rights": "© University of Cambridge (Underground Mathematics); linking and facts safe per IP-AND-COPYRIGHT-NOTES.md"
+ },
+ "mode2Note": "modesRecorded reflects the cross-map’s mode flags of record: [1] facts; no Mode-2 rendering.",
+ "source": {
+  "kind": "reverse-engineering corpus (metadata facts only)",
+  "repo": "SyllabAI/syllabai-experimental",
+  "path": "undergroundmathematics/resources/derived/cross-map-0580-te2-algebra-graphs.json",
+  "adr": "ADR-UGM-0001 (as amended); DECISION-0580-IGCSE-EXTENDED-LANE.md; Ruling UGM-SCOPE-1 (INTEGRATION-PLAN P7 tail)"
+ },
+ "stationScope": {
+  "note": "lane-19 substrate is scattered by design across the non-calculus stations (the DECISION-0580 §1 subject law excludes the five calculus stations from this plane); fresh bodies land under UGM-Resources/igcse-extended-te2-algebra-graphs/, already-imported resources ride their original capture dirs by reference",
+  "scope": "TE2 Algebra and graphs (E2.1.1-E2.13.3, 47 spec points)",
+  "stations": [
+   "combining-functions",
+   "geometry-of-equations",
+   "introducing-calculus",
+   "polynomials",
+   "quadratics",
+   "sequences",
+   "thinking-about-algebra",
+   "thinking-about-functions"
+  ]
+ },
+ "coverage": {
+  "corpusScreened": 855,
+  "sweepCandidates": 710,
+  "substrateResources": 106,
+  "ugmResourcesConsidered": 710,
+  "aligned": 118,
+  "alignedSubstrate": 99,
+  "nonOverlap": 7,
+  "crossLaneAligned": 0,
+  "rejectedOfRecord": 604,
+  "specPointsClosed": 47,
+  "specPointsWithRows": 33,
+  "specPointsHonestEmpty": 14,
+  "freshBodies": 28,
+  "alignedShare": 0.1662
+ },
+ "perSpecPoint": {
+  "E2.1.1": {
+   "officialCode": "E2.1.1",
+   "officialText": "\u0007Know that letters can be used to represent generalised numbers.",
+   "spineTitleVerbatim": "\u0007Know that letters can be used to represent generalised numbers.",
+   "subtopic": "Introduction to algebra",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ],
+   "honestEmpty": {
+    "law": "thin-tail",
+    "note": "Letters-as-generalised-numbers sits below the post-16 corpus floor; no UGM substrate (the census TE1/TE2 thin-tail register)."
+   }
+  },
+  "E2.1.2": {
+   "officialCode": "E2.1.2",
+   "officialText": "\u0007Substitute numbers into expressions and formulas.",
+   "spineTitleVerbatim": "\u0007Substitute numbers into expressions and formulas.",
+   "subtopic": "Introduction to algebra",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ],
+   "honestEmpty": {
+    "law": "thin-tail",
+    "note": "Substitution into expressions/formulas: the post-16 corpus assumes this fluency and carries no explicit gentle substitution task in the non-calculus pool; never manufactured."
+   }
+  },
+  "E2.2.1": {
+   "officialCode": "E2.2.1",
+   "officialText": "Simplify expressions by collecting like terms. Simplify means give the answer in its simplest form, e.g.",
+   "spineTitleVerbatim": "Simplify expressions by collecting like terms. Simplify means give the answer in its simplest form, e.g.",
+   "subtopic": "Algebraic manipulation",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ]
+  },
+  "E2.2.2": {
+   "officialCode": "E2.2.2",
+   "officialText": "Expand products of algebraic expressions. e.g. expand",
+   "spineTitleVerbatim": "Expand products of algebraic expressions. e.g. expand",
+   "subtopic": "Algebraic manipulation",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ]
+  },
+  "E2.2.3": {
+   "officialCode": "E2.2.3",
+   "officialText": "Includes products of more than two brackets, e.g. expand 3 Factorise by extracting common factors. Factorise means factorise fully, e.g.",
+   "spineTitleVerbatim": "Includes products of more than two brackets, e.g. expand 3 Factorise by extracting common factors. Factorise means factorise fully, e.g.",
+   "subtopic": "Algebraic manipulation",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ]
+  },
+  "E2.2.4": {
+   "officialCode": "E2.2.4",
+   "officialText": "Factorise expressions of the form: • ax + bx + kay + kby • a x − b y • a + 2 ab + b • ax + bx + c • ax + bx + cx .",
+   "spineTitleVerbatim": "Factorise expressions of the form: • ax + bx + kay + kby • a x − b y • a + 2 ab + b • ax + bx + c • ax + bx + cx .",
+   "subtopic": "Algebraic manipulation",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ]
+  },
+  "E2.2.5": {
+   "officialCode": "E2.2.5",
+   "officialText": "\u0007Complete the square for expressions in the form ax + bx + c .",
+   "spineTitleVerbatim": "\u0007Complete the square for expressions in the form ax + bx + c .",
+   "subtopic": "Algebraic manipulation",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ]
+  },
+  "E2.3.1": {
+   "officialCode": "E2.3.1",
+   "officialText": "Manipulate algebraic fractions. Examples include:",
+   "spineTitleVerbatim": "Manipulate algebraic fractions. Examples include:",
+   "subtopic": "Algebraic fractions",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ]
+  },
+  "E2.3.2": {
+   "officialCode": "E2.3.2",
+   "officialText": "Factorise and simplify rational expressions. e.g.",
+   "spineTitleVerbatim": "Factorise and simplify rational expressions. e.g.",
+   "subtopic": "Algebraic fractions",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ]
+  },
+  "E2.4.1": {
+   "officialCode": "E2.4.1",
+   "officialText": "\u0007Understand and use indices (positive, zero, e.g. solve: negative and fractional). •",
+   "spineTitleVerbatim": "\u0007Understand and use indices (positive, zero, e.g. solve: negative and fractional). •",
+   "subtopic": "Indices II",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ]
+  },
+  "E2.4.2": {
+   "officialCode": "E2.4.2",
+   "officialText": "\u0007Understand and use the rules of indices. e.g. simplify:",
+   "spineTitleVerbatim": "\u0007Understand and use the rules of indices. e.g. simplify:",
+   "subtopic": "Indices II",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ]
+  },
+  "E2.4.3": {
+   "officialCode": "E2.4.3",
+   "officialText": "Knowledge of logarithms is",
+   "spineTitleVerbatim": "Knowledge of logarithms is",
+   "subtopic": "Indices II",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ],
+   "honestEmpty": {
+    "law": "exclusion-by-design",
+    "note": "The spine row is the syllabus note \"Knowledge of logarithms is not required.\" (parse-truncated verbatim at \"Knowledge of logarithms is\") — a designed exclusion row carrying zero rows, the 3.7.7 pattern."
+   }
+  },
+  "E2.5.1": {
+   "officialCode": "E2.5.1",
+   "officialText": "Construct expressions, equations and formulas. e.g. write an expression for the product of two consecutive even numbers.",
+   "spineTitleVerbatim": "Construct expressions, equations and formulas. e.g. write an expression for the product of two consecutive even numbers.",
+   "subtopic": "Equations",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ]
+  },
+  "E2.5.2": {
+   "officialCode": "E2.5.2",
+   "officialText": "Includes constructing simultaneous equations. 2 \u0007Solve linear equations in one unknown. Examples include:",
+   "spineTitleVerbatim": "Includes constructing simultaneous equations. 2 \u0007Solve linear equations in one unknown. Examples include:",
+   "subtopic": "Equations",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ]
+  },
+  "E2.5.3": {
+   "officialCode": "E2.5.3",
+   "officialText": "\u0007Solve fractional equations with numerical and Examples include: linear algebraic denominators.",
+   "spineTitleVerbatim": "\u0007Solve fractional equations with numerical and Examples include: linear algebraic denominators.",
+   "subtopic": "Equations",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ]
+  },
+  "E2.5.4": {
+   "officialCode": "E2.5.4",
+   "officialText": "\u0007Solve simultaneous linear equations in two unknowns.",
+   "spineTitleVerbatim": "\u0007Solve simultaneous linear equations in two unknowns.",
+   "subtopic": "Equations",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ]
+  },
+  "E2.5.5": {
+   "officialCode": "E2.5.5",
+   "officialText": "\u0007Solve simultaneous equations, involving one With powers no higher than two. linear and one non-linear.",
+   "spineTitleVerbatim": "\u0007Solve simultaneous equations, involving one With powers no higher than two. linear and one non-linear.",
+   "subtopic": "Equations",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ]
+  },
+  "E2.5.6": {
+   "officialCode": "E2.5.6",
+   "officialText": "\u0007Solve quadratic equations by factorisation, Includes writing a quadratic expression in completing the square and by use of the completed square form. quadratic formula. Candidates may be expected to give solutions in surd form.",
+   "spineTitleVerbatim": "\u0007Solve quadratic equations by factorisation, Includes writing a quadratic expression in completing the square and by use of the completed square form. quadratic formula. Candidates may be expected to give solutions in surd form.",
+   "subtopic": "Equations",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ]
+  },
+  "E2.5.7": {
+   "officialCode": "E2.5.7",
+   "officialText": "The quadratic formula is given in the List of formulas. 7 \u0007Change the subject of formulas. e.g. change the subject of a formula where:",
+   "spineTitleVerbatim": "The quadratic formula is given in the List of formulas. 7 \u0007Change the subject of formulas. e.g. change the subject of a formula where:",
+   "subtopic": "Equations",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ],
+   "honestEmpty": {
+    "law": "thin-tail",
+    "note": "Change-the-subject has no UGM substrate in the 710-pool (zero signature hits); never manufactured."
+   }
+  },
+  "E2.6.1": {
+   "officialCode": "E2.6.1",
+   "officialText": "\u0007Represent and interpret inequalities, including on When representing and interpreting inequalities on a number line. a number line: e.g.",
+   "spineTitleVerbatim": "\u0007Represent and interpret inequalities, including on When representing and interpreting inequalities on a number line. a number line: e.g.",
+   "subtopic": "Inequalities",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ]
+  },
+  "E2.6.2": {
+   "officialCode": "E2.6.2",
+   "officialText": "Construct, solve and interpret linear inequalities. Examples include:",
+   "spineTitleVerbatim": "Construct, solve and interpret linear inequalities. Examples include:",
+   "subtopic": "Inequalities",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ]
+  },
+  "E2.6.3": {
+   "officialCode": "E2.6.3",
+   "officialText": "\u0007Represent and interpret linear inequalities in two The following conventions should be used: variables graphically. e.g.",
+   "spineTitleVerbatim": "\u0007Represent and interpret linear inequalities in two The following conventions should be used: variables graphically. e.g.",
+   "subtopic": "Inequalities",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ]
+  },
+  "E2.6.4": {
+   "officialCode": "E2.6.4",
+   "officialText": "List inequalities that define a given region. Linear programming problems are",
+   "spineTitleVerbatim": "List inequalities that define a given region. Linear programming problems are",
+   "subtopic": "Inequalities",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ]
+  },
+  "E2.7.1": {
+   "officialCode": "E2.7.1",
+   "officialText": "Continue a given number sequence or pattern. Subscript notation may be used, e.g. term of sequence",
+   "spineTitleVerbatim": "Continue a given number sequence or pattern. Subscript notation may be used, e.g. term of sequence",
+   "subtopic": "Sequences",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ]
+  },
+  "E2.7.2": {
+   "officialCode": "E2.7.2",
+   "officialText": "\u0007Recognise patterns in sequences, including the Includes linear, quadratic, cubic and exponential term-to-term rule, and relationships between sequences and simple combinations of these. different sequences.",
+   "spineTitleVerbatim": "\u0007Recognise patterns in sequences, including the Includes linear, quadratic, cubic and exponential term-to-term rule, and relationships between sequences and simple combinations of these. different sequences.",
+   "subtopic": "Sequences",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ]
+  },
+  "E2.7.3": {
+   "officialCode": "E2.7.3",
+   "officialText": "Find and use the n th term of sequences.",
+   "spineTitleVerbatim": "Find and use the n th term of sequences.",
+   "subtopic": "Sequences",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ]
+  },
+  "E2.8.1": {
+   "officialCode": "E2.8.1",
+   "officialText": "Express direct and inverse proportion in algebraic Includes linear, square, square root, cube and cube terms and use this form of expression to find root proportion. unknown quantities. Knowledge of proportional symbol (",
+   "spineTitleVerbatim": "Express direct and inverse proportion in algebraic Includes linear, square, square root, cube and cube terms and use this form of expression to find root proportion. unknown quantities. Knowledge of proportional symbol (",
+   "subtopic": "Proportion",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ],
+   "honestEmpty": {
+    "law": "thin-tail",
+    "note": "Algebraic proportion has no non-calculus UGM substrate (proportion signatures resolve only to calculus/trig/geometry stations)."
+   }
+  },
+  "E2.9.1": {
+   "officialCode": "E2.9.1",
+   "officialText": "\u0007Use and interpret graphs in practical situations Includes estimation and interpretation of the including travel graphs and conversion graphs. gradient of a tangent at a point.",
+   "spineTitleVerbatim": "\u0007Use and interpret graphs in practical situations Includes estimation and interpretation of the including travel graphs and conversion graphs. gradient of a tangent at a point.",
+   "subtopic": "Graphs in practical situations",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ]
+  },
+  "E2.9.2": {
+   "officialCode": "E2.9.2",
+   "officialText": "\u0007Draw graphs from given data.",
+   "spineTitleVerbatim": "\u0007Draw graphs from given data.",
+   "subtopic": "Graphs in practical situations",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ],
+   "honestEmpty": {
+    "law": "thin-tail",
+    "note": "Draw graphs from given data: no non-calculus substrate (worth-1000-words serves E2.11.1 sketching-from-equations, not data-plotting)."
+   }
+  },
+  "E2.9.3": {
+   "officialCode": "E2.9.3",
+   "officialText": "\u0007Apply the idea of rate of change to simple kinematics involving distance–time and speed–time graphs, acceleration and deceleration.",
+   "spineTitleVerbatim": "\u0007Apply the idea of rate of change to simple kinematics involving distance–time and speed–time graphs, acceleration and deceleration.",
+   "subtopic": "Graphs in practical situations",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ],
+   "honestEmpty": {
+    "law": "subject-exclusion + UGM-SCOPE-1",
+    "note": "Kinematics graphs: the only substrate is the introducing-calculus v-t trio (UGM-SCOPE-1 register) — excluded from this plane by subject per DECISION-0580 §1; companion disclosures filed, zero aligned rows."
+   }
+  },
+  "E2.9.4": {
+   "officialCode": "E2.9.4",
+   "officialText": "\u0007Calculate distance travelled as area under a Areas will involve linear sections of the graph only. speed–time graph.",
+   "spineTitleVerbatim": "\u0007Calculate distance travelled as area under a Areas will involve linear sections of the graph only. speed–time graph.",
+   "subtopic": "Graphs in practical situations",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ],
+   "honestEmpty": {
+    "law": "subject-exclusion + UGM-SCOPE-1",
+    "note": "Area under speed-time graphs: same subject-exclusion law; the v-t area substrate (walk-sorting et al.) is calculus-station; companion disclosures filed, zero aligned rows."
+   }
+  },
+  "E2.10.1": {
+   "officialCode": "E2.10.1",
+   "officialText": "\u0007Construct tables of values, and draw, recognise Examples include: and interpret graphs for functions of the following • forms: these): • ax (includes sums of no more than three of • ab + c",
+   "spineTitleVerbatim": "\u0007Construct tables of values, and draw, recognise Examples include: and interpret graphs for functions of the following • forms: these): • ax (includes sums of no more than three of • ab + c",
+   "subtopic": "Graphs of functions",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ]
+  },
+  "E2.10.1a": {
+   "officialCode": "E2.10.1a",
+   "officialText": "1 , \u0007where n = –2 , –1 , − , 0 , 1 , 2 , 3 ; a and c are",
+   "spineTitleVerbatim": "1 , \u0007where n = –2 , –1 , − , 0 , 1 , 2 , 3 ; a and c are",
+   "subtopic": "Graphs of functions",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ]
+  },
+  "E2.10.2": {
+   "officialCode": "E2.10.2",
+   "officialText": "2 rational numbers; and b is a positive integer. 2 \u0007Solve associated equations graphically, including e.g. finding the intersection of a line and a curve. finding and interpreting roots by graphical methods.",
+   "spineTitleVerbatim": "2 rational numbers; and b is a positive integer. 2 \u0007Solve associated equations graphically, including e.g. finding the intersection of a line and a curve. finding and interpreting roots by graphical methods.",
+   "subtopic": "Graphs of functions",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ]
+  },
+  "E2.10.3": {
+   "officialCode": "E2.10.3",
+   "officialText": "\u0007Draw and interpret graphs representing exponential growth and decay problems.",
+   "spineTitleVerbatim": "\u0007Draw and interpret graphs representing exponential growth and decay problems.",
+   "subtopic": "Graphs of functions",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ],
+   "honestEmpty": {
+    "law": "thin-tail",
+    "note": "Exponential growth/decay graphs: exp-and-log substrate is A-level ln/e^x beyond the 0580 register; no gentle real-world growth substrate exists corpus-wide."
+   }
+  },
+  "E2.11.1": {
+   "officialCode": "E2.11.1",
+   "officialText": "Recognise, sketch and interpret graphs of the Functions will be equivalent to: following functions: • (a) linear • (b) quadratic • (c) cubic • (d) reciprocal (e) exponential. where rational, positive number.",
+   "spineTitleVerbatim": "Recognise, sketch and interpret graphs of the Functions will be equivalent to: following functions: • (a) linear • (b) quadratic • (c) cubic • (d) reciprocal (e) exponential. where rational, positive number.",
+   "subtopic": "Sketching curves",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ]
+  },
+  "E2.11.2": {
+   "officialCode": "E2.11.2",
+   "officialText": "Knowledge of turning points, roots and symmetry is required.",
+   "spineTitleVerbatim": "Knowledge of turning points, roots and symmetry is required.",
+   "subtopic": "Sketching curves",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ]
+  },
+  "E2.11.3": {
+   "officialCode": "E2.11.3",
+   "officialText": "Knowledge of vertical and horizontal asymptotes is required.",
+   "spineTitleVerbatim": "Knowledge of vertical and horizontal asymptotes is required.",
+   "subtopic": "Sketching curves",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ]
+  },
+  "E2.11.4": {
+   "officialCode": "E2.11.4",
+   "officialText": "Finding turning points of quadratics by completing the square is required.",
+   "spineTitleVerbatim": "Finding turning points of quadratics by completing the square is required.",
+   "subtopic": "Sketching curves",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ]
+  },
+  "E2.12.1": {
+   "officialCode": "E2.12.1",
+   "officialText": "\u0007Estimate gradients of curves by drawing tangents.",
+   "spineTitleVerbatim": "\u0007Estimate gradients of curves by drawing tangents.",
+   "subtopic": "Differentiation",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ],
+   "honestEmpty": {
+    "law": "subject-exclusion",
+    "note": "Differentiation intro: the only substrate is the five calculus stations, excluded from this plane by subject per DECISION-0580 §1; the spine carries E2.12 inside TE2 and the lane closes all five points honest-empty on that law."
+   }
+  },
+  "E2.12.2": {
+   "officialCode": "E2.12.2",
+   "officialText": "\u0007Use the derivatives of functions of the form ax , where a is a rational constant and n is a positive integer or zero, and simple sums of not more than three of these.",
+   "spineTitleVerbatim": "\u0007Use the derivatives of functions of the form ax , where a is a rational constant and n is a positive integer or zero, and simple sums of not more than three of these.",
+   "subtopic": "Differentiation",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ],
+   "honestEmpty": {
+    "law": "subject-exclusion",
+    "note": "Derivatives of ax^n: calculus-station substrate only — subject-excluded; honest-empty."
+   }
+  },
+  "E2.12.3": {
+   "officialCode": "E2.12.3",
+   "officialText": "\u0007Apply differentiation to gradients and stationary points (turning points).",
+   "spineTitleVerbatim": "\u0007Apply differentiation to gradients and stationary points (turning points).",
+   "subtopic": "Differentiation",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ],
+   "honestEmpty": {
+    "law": "subject-exclusion",
+    "note": "Gradients/stationary points: calculus-station substrate only — subject-excluded; honest-empty."
+   }
+  },
+  "E2.12.4": {
+   "officialCode": "E2.12.4",
+   "officialText": "\u0007Discriminate between maxima and minima by Maximum and minimum points may be identified by: any method. •",
+   "spineTitleVerbatim": "\u0007Discriminate between maxima and minima by Maximum and minimum points may be identified by: any method. •",
+   "subtopic": "Differentiation",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ],
+   "honestEmpty": {
+    "law": "subject-exclusion",
+    "note": "Maxima/minima discrimination: calculus-station substrate only — subject-excluded; honest-empty."
+   }
+  },
+  "E2.12.5": {
+   "officialCode": "E2.12.5",
+   "officialText": "Candidates are inflection.",
+   "spineTitleVerbatim": "Candidates are inflection.",
+   "subtopic": "Differentiation",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ],
+   "honestEmpty": {
+    "law": "subject-exclusion",
+    "note": "Second derivatives/inflection: calculus-station substrate only — subject-excluded; honest-empty."
+   }
+  },
+  "E2.13.1": {
+   "officialCode": "E2.13.1",
+   "officialText": "\u0007Understand functions, domain and range and use function notation.",
+   "spineTitleVerbatim": "\u0007Understand functions, domain and range and use function notation.",
+   "subtopic": "Functions",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ]
+  },
+  "E2.13.2": {
+   "officialCode": "E2.13.2",
+   "officialText": "\u0007Understand and find inverse functions f ( x ) .",
+   "spineTitleVerbatim": "\u0007Understand and find inverse functions f ( x ) .",
+   "subtopic": "Functions",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ]
+  },
+  "E2.13.3": {
+   "officialCode": "E2.13.3",
+   "officialText": "\u0007Form composite functions as defined by",
+   "spineTitleVerbatim": "\u0007Form composite functions as defined by",
+   "subtopic": "Functions",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference"
+    }
+   ]
+  }
+ },
+ "nonOverlapRows": [
+  {
+   "ugmSlug": "speed-vs-velocity",
+   "station": "introducing-calculus",
+   "title": "Speed vs velocity",
+   "url": "https://undergroundmathematics.org/introducing-calculus/speed-vs-velocity",
+   "resourceType": "Building blocks",
+   "routedTo": "E2.9.3 companion disclosure",
+   "reason": "Introducing-calculus v-t gradient card sort — the UGM-SCOPE-1 mechanics register (one of the 13); the only substrate near E2.9.3 kinematics sits in calculus stations, excluded from this plane by subject per DECISION-0580 §1, so the row files as a companion disclosure, never an alignment.",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false
+  },
+  {
+   "ugmSlug": "walk-sorting",
+   "station": "introducing-calculus",
+   "title": "Walk-sorting",
+   "url": "https://undergroundmathematics.org/introducing-calculus/walk-sorting",
+   "resourceType": "Building blocks",
+   "routedTo": "E2.9.3/E2.9.4 companion disclosure",
+   "reason": "Introducing-calculus v-t story-to-graph sorting — UGM-SCOPE-1 register; companion only under the same subject-exclusion law.",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false
+  },
+  {
+   "ugmSlug": "r9586",
+   "station": "introducing-calculus",
+   "title": "What is the acceleration of this particle?",
+   "url": "https://undergroundmathematics.org/introducing-calculus/r9586",
+   "resourceType": "Review question",
+   "routedTo": "E2.9.3 companion disclosure",
+   "reason": "What is the acceleration of this particle? (site slug what-is-the-acceleration-of-this-particle; corpus friendlyName r9586) — introducing-calculus v-a question, one of the UGM-SCOPE-1 mechanics register 13; the only substrate near E2.9.3 kinematics sits in calculus stations, excluded from this plane by subject per DECISION-0580 §1, so the row files as a companion disclosure, never an alignment.",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false
+  },
+  {
+   "ugmSlug": "r6864",
+   "station": "quadratics",
+   "title": "How fast are these particles sliding when they pass?",
+   "url": "https://undergroundmathematics.org/quadratics/r6864",
+   "resourceType": "Review question",
+   "routedTo": "mechanics-register sighting",
+   "reason": "Quadratics-station question on the passing speed of sliding particles — a 14th mechanics-flavoured sighting outside the UGM-SCOPE-1 sweep of record; routed to the same non-overlap companion class per the lane-16 mechanics register.",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false
+  },
+  {
+   "ugmSlug": "r6299",
+   "station": "polynomials",
+   "title": "Can we sketch the reciprocal of a polynomial?",
+   "url": "https://undergroundmathematics.org/polynomials/r6299",
+   "resourceType": "Review question",
+   "routedTo": "E2.11.3 depth-guard companion",
+   "reason": "Sketch the reciprocal of a general polynomial — the asymptote content is E2.11.3-adjacent but the general-polynomial depth is beyond the 0580 register; companion, never forced.",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false
+  },
+  {
+   "ugmSlug": "proving-quad-formula",
+   "station": "quadratics",
+   "title": "Proving the quadratic formula",
+   "url": "https://undergroundmathematics.org/quadratics/proving-quad-formula",
+   "resourceType": "Scaffolded task",
+   "routedTo": "E2.2.5/E2.5.6 depth-guard companion",
+   "reason": "Derivation of the quadratic formula by completing the square — 0580 gives the formula in the List of formulas and requires only its use; the derivation is beyond-register, filed as companion.",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false
+  },
+  {
+   "ugmSlug": "absurder",
+   "station": "polynomials",
+   "title": "Ab-surder!",
+   "url": "https://undergroundmathematics.org/polynomials/absurder",
+   "resourceType": "Go and think about it...",
+   "routedTo": "beyond-register companion (the lane-17 disclosure resource)",
+   "reason": "Ab-surder! carries the conjugate-pair factorisation aside (a^2+b^2=(a+ib)(a-ib)) — the disclosure resource of the lane-17 corpus-boundary row; beyond the 0580 register (no complex numbers in the E-scope), filed as companion so the aside stays of record without any alignment claim.",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false
+  }
+ ],
+ "crossLaneAligned": []
+}
