@@ -1,0 +1,33 @@
+{
+ "lane": "T-OEQ-PHYS-FORMAT-1 (post-closure hand-off execution, F135 item 2 — recorded as F136)",
+ "run": "run-013-m4",
+ "date": "2026-11-04",
+ "scope": "M4 wave: the P5 corpus-side isotope/decay debris repair (the run-011-m3 analog) for igcse-physics-modular-24-unit-2 + igcse-science-double-award-17-physics — 26 debris spans in 8 part-fields across 3 topic.json + the 5 human renders by surgical substitution",
+ "law": "corpus := the live SaveMyExams MathML aria-label VALUES with each bank's own healthy lexical convention of record (postscript bare-letter isotope spans — $Te_{52}^{120}$/$Pu_{94}^{238}$/$H_{1}^{3}$/$Am_{95}^{238}$ in the same files); m3's decisions carried over: <none/> -> empty group {}, printed fill-in box = \\text{square} (the bank's own healthy form); the \\-space + double-backslash base encodings (\\ \\\\alpha) preserved byte-exact — only the `pre` junk tokens and the aria-nbsp `space_` base are repaired",
+ "evidence": "evidence.json (3 live pages, 16 aria-labels, sha-pinned archives re-fetchable at the recorded URLs)",
+ "gates": {
+  "G0 t1-roundtrip": "PASS (3/3 topic.json byte-exact: indent=1, ensure_ascii=False, trailing newline)",
+  "G1 debris-post-0": "PASS (6 bank files scanned post-repair: pre_/pre^/space_ classes all zero)",
+  "G2 dollar-parity": "PASS (7/7 transform pairs + 8/8 repaired field values)",
+  "G3 char-safety": "PASS (new forms pure ASCII; per-field non-ASCII inventory unchanged old->new)",
+  "G4 count-law": "PASS (per-form: Po 6 / Pb 8 / Bi 8 / alpha-2-4 1 / Pu-chain 1 / Th-decay 1 / vanadium 1 = 26; G4a cross-view parity md==topic.json parsed)",
+  "G5 field-parity": "PASS (deep-diff == exactly 8 part-fields in exactly 3 topic.json; every other byte identical)",
+  "G6 md-surgical": "PASS (5/5 renders: reverse-substitution identity byte-exact)",
+  "G7 change-set": "PASS (8 corpus files + dossier only)",
+  "G8 plane pre-identity": "PASS (8/8: canon(corpus pre-repair) == v2 plane current value verbatim — LRM strip + asset repin at bank pin 1a5c37bc + trim, the wave-D serving canon)"
+ },
+ "plane_sync": {
+  "manifest": "serve-table.json (8 fields, canon-form sha256+len)",
+  "law": "plane := repaired corpus of record verbatim through the wave-D serving canon; compact serialization T1 per bank (indent=None, separators (',',':'), no trailing newline — detected, not assumed); separate v2 PR"
+ },
+ "files_touched": [
+  "SME-ExamQuestion/igcse-physics-modular-24-unit-2/radioactivity-particles/properties-of-radiation/mark-schemes.md",
+  "SME-ExamQuestion/igcse-physics-modular-24-unit-2/radioactivity-particles/properties-of-radiation/questions.md",
+  "SME-ExamQuestion/igcse-physics-modular-24-unit-2/radioactivity-particles/properties-of-radiation/topic.json",
+  "SME-ExamQuestion/igcse-science-double-award-17-physics/radioactivity-and-particles/properties-of-radiation/mark-schemes.md",
+  "SME-ExamQuestion/igcse-science-double-award-17-physics/radioactivity-and-particles/properties-of-radiation/questions.md",
+  "SME-ExamQuestion/igcse-science-double-award-17-physics/radioactivity-and-particles/properties-of-radiation/topic.json",
+  "SME-ExamQuestion/igcse-science-double-award-17-physics/radioactivity-and-particles/radioactivity-uses-and-dangers/questions.md",
+  "SME-ExamQuestion/igcse-science-double-award-17-physics/radioactivity-and-particles/radioactivity-uses-and-dangers/topic.json"
+ ]
+}

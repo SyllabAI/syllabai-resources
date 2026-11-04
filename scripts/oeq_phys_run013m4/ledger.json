@@ -1,0 +1,32 @@
+{
+ "lane": "T-OEQ-PHYS-FORMAT-1 (post-closure hand-off)",
+ "ledger_version": "run-013-m4",
+ "date": "2026-11-04",
+ "residuals": [],
+ "discoveries": [
+  {
+   "id": "DISC-1",
+   "found_in": "run-013-m4 census",
+   "what": "the two banks' corpus md headers carry a systematic 'Source: ttps://' typo (missing h) across ALL topic dirs — pre-existing scrape-era class, cosmetically invisible to learners, out of M4 scope; noted for the next corpus-hygiene pass",
+   "implication": "trivial-fix candidate; do NOT bundle into content waves"
+  },
+  {
+   "id": "DISC-2",
+   "found_in": "run-013-m4 census",
+   "what": "F134 P5's prose counts reconcile as: 22 instances = exactly the two wave-D-repaired parts' debris (TQjy 5+6, 6z5w 5+6) + 4 further spans elsewhere (4BVk, HQYw, S72Y, pbDW) + the aria 'square' slots counted differently — the census of record is 26 spans / 8 fields / 7 distinct forms",
+   "implication": "P5 is now fully enumerated; the F134 note was approximate prose"
+  },
+  {
+   "id": "DISC-3",
+   "found_in": "run-013-m4 transforms",
+   "what": "the affected corpus carries base encodings like '\\ \\\\alpha' (thin-space + doubled backslash before the symbol) — conversion-era quirks that are HEALTHY-by-convention and render as the intended symbols; M4 preserved them byte-exact and repaired ONLY the pre-junk/space_ classes",
+   "implication": "any future normalization of the doubled-backslash class must be its own evidence-driven wave"
+  },
+  {
+   "id": "DISC-4",
+   "found_in": "run-013-m4 evidence",
+   "what": "the live pages' MathML aria-labels verbalize in English ('Po presubscript 90 ...'), unlike the run-011-m3 7-1 page where aria-label IS LaTeX — two aria dialects across SME page generations",
+   "implication": "evidence tooling must handle both dialects; the bank-local healthy-convention rule disambiguates the lexical form"
+  }
+ ]
+}

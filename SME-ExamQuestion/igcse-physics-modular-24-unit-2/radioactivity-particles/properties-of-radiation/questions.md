@@ -466,15 +466,15 @@ ii) Why are some isotopes described as stable?
 **(1)**
 
 ### 14((b)) — 4 marks — command: multiple — structured — from paper 2013 June · 1PR
-(i) Use the grid in part (a) to calculate the number of neutrons in a $\text{Po} pre_{ } pre^{210}$ nucleus.
+(i) Use the grid in part (a) to calculate the number of neutrons in a $\text{Po}_{}^{210}$ nucleus.
 
 **(1)**
 
-(ii) Describe what happens to the number of protons and the number of neutrons when a nucleus of $\text{Pb} pre_{ } pre^{210}$ decays to form $\text{Bi} pre_{ } pre^{210}$.
+(ii) Describe what happens to the number of protons and the number of neutrons when a nucleus of $\text{Pb}_{}^{210}$ decays to form $\text{Bi}_{}^{210}$.
 
 **(2)**
 
-(iii) State the type of decay that occurs when $\text{Pb} pre_{ } pre^{210}$ decays to form $\text{Bi} pre_{ } pre^{210}$.
+(iii) State the type of decay that occurs when $\text{Pb}_{}^{210}$ decays to form $\text{Bi}_{}^{210}$.
 
 **(1)**
 
