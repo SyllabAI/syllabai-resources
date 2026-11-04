@@ -15,6 +15,13 @@
       "usedFor": "A* rule: grade A overall AND at least 90% of the A2 UMS; Mathematics: 480 overall + at least 180/200 from P3+P4; six-unit IALs: 480 overall + at least 270/300 at A2; four-unit IALs: 320 + 180/200"
     },
     {
+      "id": "pearson-ial-maths-aggregation-guidance",
+      "title": "IAL 2018 Mathematics Aggregation Rules — Guidance for Centres (Rules 1-7: two-step grade/UMS maximisation, qualification-group unit locking, worked Examples; official AS/A2 designation: P1 P2 FP1 M1 S1 D1 are AS units, P3 P4 FP2 FP3 M2 M3 S2 S3 are A2 units)",
+      "url": "https://qualifications.pearson.com/content/dam/pdf/International%20Advanced%20Level/Mathematics/2018/Teaching-and-Learning-Materials/aggregation-rules-and-guidance.pdf",
+      "sha256_16": "61b32c5016644e74",
+      "usedFor": "YFM01 multi-route eligibility + Rule 1 maximisation + unit locking + the AS/A2 designation behind a2[]"
+    },
+    {
       "id": "pearson-igcse-science-da-modular-spec",
       "title": "Pearson Edexcel International GCSE in Science (Double Award) (Modular) specification (2024), 'Qualification at a glance'",
       "url": "https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/Science%20(Double%20Award)/2024/specification-and-sample-assessments/international-gcse-science-da-modular-specification.pdf",
@@ -58,6 +65,20 @@
       ],
       "a2": ["WMA13", "WMA14"],
       "aStar": { "overallMin": 480, "a2Min": 180 }
+    },
+    "YFM01": {
+      "title": "Further Mathematics International Advanced Level",
+      "required": ["WFM01"],
+      "selection": {
+        "pool": ["WFM01", "WFM02", "WFM03", "WME01", "WME02", "WME03",
+                 "WST01", "WST02", "WST03", "WDM11"],
+        "size": 6,
+        "mustInclude": ["WFM01"],
+        "atLeastOneOf": ["WFM02", "WFM03"]
+      },
+      "a2": ["WFM02", "WFM03", "WME02", "WME03", "WST02", "WST03"],
+      "aStar": { "overallMin": 480, "a2Rate": 0.9 },
+      "maximisation": "rule-1-grade-then-ums"
     }
   },
   "modularCashIns": {
@@ -69,7 +90,6 @@
     "4XSD1": { "units": ["4WSD1", "4WSD2", "4WSD3", "4WSD4", "4WSD5", "4WSD6"] }
   },
   "roadmap": {
-    "YFM01": "Further Maths cash-ins are multi-route (F1 + one of F2/F3 + four of seven applied, OR F1+F2+F3 + three of seven) with cross-cash-in unit locking — encode with the Maths cash-in only after a verified official worked example; display-only until then.",
-    "bestCombination": "Pearson cash-ins use the candidate's best valid unit combination across attempts; this wave's calculator grades the marks the user enters (one mark per unit slot), not a best-of search."
+    "bestCombination": "Pearson cash-ins use the candidate's best valid unit combination across attempts. Selection-mode calculators (YFM01) apply the board's Rule 1 over the entered units — best qualification grade first, then best UMS total. Pair-mode courses (YMA01 suite) still grade the marks the user enters for the chosen pair, one mark per unit slot."
   }
 }

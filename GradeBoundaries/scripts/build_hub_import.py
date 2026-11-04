@@ -203,6 +203,8 @@ def modular_ial_course_entry(row: dict, docs: dict[str, dict],
             }
             if agg.get("optionalPairs"):
                 calculator["optionalPairs"] = agg["optionalPairs"]
+            if agg.get("selection"):
+                calculator["selection"] = agg["selection"]
             if agg.get("aStar"):
                 calculator["aStar"] = {**agg["aStar"], "a2Units": agg["a2"]}
     else:
@@ -265,12 +267,35 @@ def modular_ial_course_entry(row: dict, docs: dict[str, dict],
             agg2 = aggregation.get("ialCashIns", {}).get(code)
             if agg2:
                 # explicit allowlist: the cash-in composition names every
-                # unit that may contribute (required + optional pairs + A2)
+                # unit that may contribute (required + optional pairs + A2
+                # +, for selection-mode cash-ins like YFM01, the full
+                # official pool the candidate's six may be drawn from)
                 allow = set(agg2["required"]) | set(agg2.get("a2", []))
                 for pair in agg2.get("optionalPairs", []):
                     allow.update(pair)
+                allow.update(
+                    agg2.get("selection", {}).get("pool", []))
                 units = [u for u in subj.get("units", [])
                          if u.get("code", "") in allow]
+                if agg2.get("selection"):
+                    # T-GRADE-10: selection-mode pool units are printed
+                    # across SEVERAL subject blocks of the same document —
+                    # the FM suite's applied units (WME01-03/WST01-03/
+                    # WDM11) sit in the Mathematics block, the FP units in
+                    # the Further Mathematics block. Join every pool unit
+                    # the doc prints, doc-wide, first-appearance order.
+                    pool = set(agg2["selection"]["pool"])
+                    subj_codes = {u.get("code", "")
+                                  for u in subj.get("units", [])}
+                    for sj in doc["subjects"]:
+                        if sj is subj:
+                            continue
+                        for u in sj.get("units", []):
+                            if u.get("code", "") in pool and \
+                                    u.get("code") not in subj_codes and \
+                                    u.get("boundaries"):
+                                units.append(u)
+                                subj_codes.add(u.get("code"))
             else:
                 units = [u for u in subj.get("units", [])
                          if unit_stem and re.match(
@@ -290,18 +315,30 @@ def modular_ial_course_entry(row: dict, docs: dict[str, dict],
              "gradeLadder": list(c["boundaries"].keys())}
             for c in cashins if c.get("boundaries")]
         # T-GRADE-9 era-guard (approved): Pearson reuses Y-cash-in codes
-        # across specifications (YMA01 = legacy 2008 Maths AND the 2018
-        # Maths cash-in). A row that contains NONE of this course's
-        # required-spec units is a foreign-era cash-in (e.g. January 2019
+        # across specifications (YMA01 = legacy 2008 Maths AND 2018 Maths).
+        # For pair-mode courses a row that CARRIES unit rows but none of
+        # the required-spec units is a foreign-era cash-in (January 2019
         # YMA01 with WMA01/WME01/... units) and must not serve: the legacy
-        # cash-in boundaries would render under a 2018-spec course page.
-        # Transitional rows that DO contain required-spec units (June 2019
-        # YMA01 carries WMA12/WDM11 alongside legacy units) stay, already
-        # filtered to the composition allowlist above.
-        if calculator.get("mode") == "aggregate-ums" and \
-                not any(u["code"] in calculator.get("required", [])
-                        for u in unit_rows):
-            continue
+        # boundaries would render under a 2018-spec course page.
+        # T-GRADE-10 selection-mode posture (YFM01): unit codes alone
+        # cannot date an FM row (WFM01-03 are shared across specs), the
+        # served corpus starts January 2019 (the 2018 spec's first exam
+        # session), and a session may honestly examine only part of the
+        # pool (no WFM01 sitting that series) — so the guard checks the
+        # opposite invariant: every unit on a served row must BELONG to
+        # the official pool; any foreign code suppresses the row.
+        # Transitional pair-mode rows that DO contain required-spec units
+        # (June 2019 YMA01 carries WMA12/WDM11 alongside legacy units)
+        # stay, already filtered to the composition allowlist above.
+        if calculator.get("mode") == "aggregate-ums" and unit_rows:
+            pool_codes = set(calculator.get("selection", {})
+                             .get("pool", []))
+            if pool_codes:
+                if not all(u["code"] in pool_codes for u in unit_rows):
+                    continue
+            elif not any(u["code"] in calculator.get("required", [])
+                         for u in unit_rows):
+                continue
         if not unit_rows and not cashin_rows:
             continue
         put_rows(entry, "units", unit_rows)  # run-003: key absent, never []
@@ -315,7 +352,18 @@ def modular_ial_course_entry(row: dict, docs: dict[str, dict],
             comp_units = list(calculator.get("required", []))
             for pair in calculator.get("optionalPairs", []):
                 comp_units += [c for c in pair if c not in comp_units]
-            std = standard_unit_rows(subj.get("units", []), comp_units)
+            # selection-mode (YFM01): the candidate's six may be drawn from
+            # the whole official pool, so every pool unit the session's
+            # document prints needs a conversion table embedded
+            for c in calculator.get("selection", {}).get("pool", []):
+                if c not in comp_units:
+                    comp_units.append(c)
+            # selection-mode: the joined doc-wide unit list (the pool is
+            # printed across several subject blocks); pair-mode keeps the
+            # course's own subject block
+            std_source = (units if calculator.get("selection")
+                          else subj.get("units", []))
+            std = standard_unit_rows(std_source, comp_units)
             put_rows(entry, "calculatorUnits", [  # run-003: absent, never []
                 {"code": u["code"], "title": u["title"],
                  "maxMark": u["maxMark"], "boundaries": u["boundaries"],
