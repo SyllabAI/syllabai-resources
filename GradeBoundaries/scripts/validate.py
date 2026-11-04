@@ -137,14 +137,28 @@ def check_aggregation(bundle: dict, docs_by_family: dict[str, list[dict]]) \
         fam = entry["series"][0]["source"]["family"]
         required = list(calc.get("required", []))
         pairs = calc.get("optionalPairs") or []
+        sel = calc.get("selection") or {}
+        pool = list(sel.get("pool", []))
         # T-GRADE-9 era-guard enforcement: a SERVED row must carry at least
         # one required-spec unit. Rows with none are foreign-era cash-ins
         # (legacy YMA01 rendered on 2018-spec maths pages) — the builder
         # suppresses them; a regression here is a hard error, not info.
+        # T-GRADE-10 selection-mode twin (YFM01): unit codes cannot date an
+        # FM row (WFM01-03 are shared across specs) and a session may
+        # honestly examine only part of the pool — so the hard check is
+        # the builder's pool-membership invariant (any unit OUTSIDE the
+        # official pool is a foreign-era row), while partial coverage and
+        # units-absent rows are honest absences.
         for s in entry["series"]:
-            served = {u["code"] for u in (s.get("calculatorUnits")
-                                          or s.get("units", []))}
-            if required and not (set(required) & served):
+            unit_rows = s.get("calculatorUnits") or s.get("units", [])
+            served = {u["code"] for u in unit_rows}
+            if pool and unit_rows:
+                stray = sorted(set(served) - set(pool))
+                if stray:
+                    errs.append(f"{slug} {s['session']}: served row has "
+                                f"units outside the selection pool "
+                                f"{stray} — era-guard regression")
+            elif required and unit_rows and not (set(required) & served):
                 errs.append(f"{slug} {s['session']}: served row has no "
                             f"required-spec unit {sorted(required)[:3]}.. — "
                             f"era-guard regression")
@@ -170,7 +184,34 @@ def check_aggregation(bundle: dict, docs_by_family: dict[str, list[dict]]) \
                 errs.append(f"{slug} {s['session']}: cash-in "
                             f"{calc['cashIn']} absent")
                 continue
-            if pairs:
+            if pool:
+                # selection-mode composition (T-GRADE-10, YFM01): the
+                # candidate's `size` units are drawn from the official pool
+                # (mustInclude + atLeastOneOf guards eligibility); every
+                # pool unit carries UMS max 100, so any size-subset sums to
+                # the cash-in maximum — verify exactly that, per session.
+                bad_max = [c for c in units
+                           if c in pool
+                           and (units[c].get("ums") or {}).get("maxMark")
+                           != 100]
+                if bad_max:
+                    errs.append(f"{slug} {s['session']}: pool units whose "
+                                f"UMS max != 100 {bad_max}")
+                    continue
+                with_ums = [c for c in pool
+                            if (units.get(c) or {}).get("ums", {}).get(
+                                "maxMark")]
+                ok = (all(c in with_ums for c in sel.get("mustInclude", []))
+                      and any(c in with_ums
+                              for c in sel.get("atLeastOneOf", []))
+                      and len(with_ums) >= sel.get("size", 6))
+                if not ok:
+                    infos.append(f"{slug} {s['session']}: no eligible "
+                                 f"{sel.get('size', 6)}-unit selection from "
+                                 f"the pool this session (honest absence)")
+                    continue
+                total = sel.get("size", 6) * 100
+            elif pairs:
                 usable = [p for p in pairs if p[0] in units and p[1] in units
                           and (units[p[0]].get("ums") or {}).get("maxMark")
                           and (units[p[1]].get("ums") or {}).get("maxMark")]
@@ -191,8 +232,35 @@ def check_aggregation(bundle: dict, docs_by_family: dict[str, list[dict]]) \
             if a_star and a_star.get("a2Units"):
                 a2_missing = [c for c in a_star["a2Units"] if c not in units]
                 if a2_missing:
-                    errs.append(f"{slug} {s['session']}: A2 units missing "
-                                f"{a2_missing}")
+                    line = (f"{slug} {s['session']}: A2 units missing "
+                            f"{a2_missing}")
+                    if pool:
+                        # selection-mode: a session may not examine every
+                        # pool unit — the Rule-1 combination just cannot
+                        # select the missing ones (honest per-session absence)
+                        infos.append(line + " (honest absence)")
+                    else:
+                        errs.append(line)
+            if a_star and pool:
+                # selection-mode A* rule is rate-form (T-GRADE-10): the A2
+                # UMS maximum depends on which units the combination uses,
+                # so the board's "at least 90% of the A2 UMS" is carried as
+                # a2Rate, not a fixed a2Min
+                if a_star.get("a2Rate") != 0.9:
+                    errs.append(f"{slug} {s['session']}: selection-mode "
+                                f"aStar must carry a2Rate 0.9 "
+                                f"(got {a_star.get('a2Rate')})")
+                stray = [c for c in a_star.get("a2Units", [])
+                         if c not in pool]
+                if stray:
+                    errs.append(f"{slug} {s['session']}: a2Units outside "
+                                f"the selection pool {stray}")
+            if a_star and a_star.get("overallMin") is not None:
+                printed_a = cashin["boundaries"].get("A")
+                if printed_a != a_star["overallMin"]:
+                    errs.append(f"{slug} {s['session']}: aStar.overallMin "
+                                f"{a_star['overallMin']} != printed A "
+                                f"boundary {printed_a}")
             satisfiable += 1
         if satisfiable == 0:
             errs.append(f"{slug}: NO session can compose the "
