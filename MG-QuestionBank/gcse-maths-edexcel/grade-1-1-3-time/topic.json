@@ -1,53 +1,30 @@
 {
- "slug": "grade-1-1-3-time",
- "title": "Time",
- "grade_tab": "1",
- "resources": {
-  "booklet": {
-   "file": "booklet.pdf",
-   "title": "Time exam booklet",
-   "url": "https://assets.mathsgenie.co.uk/sources/mathsgenie/content/resources/nocover/1-time.pdf",
-   "sha256": "c25c6e741970ea46b7487aa50c7bb9dfb6ebdb81689d1ac12b7dd85a2b76cdb2",
-   "bytes": 122275
-  },
-  "worksheet": {
-   "file": "exam-questions.pdf",
-   "title": "Time exam questions",
-   "url": "https://assets.mathsgenie.co.uk/sources/mathsgenie/content/resources/1-time-ws.pdf",
-   "sha256": "72450ae3026cb5f955cd5f334b32606292be7ab0572cb349da5774faaddd1b18",
-   "bytes": 81181
-  },
-  "solutions": {
-   "file": "solutions.pdf",
-   "title": "Time solutions",
-   "url": "https://assets.mathsgenie.co.uk/sources/mathsgenie/content/resources/1-timeans.pdf",
-   "sha256": "d0440b033fd8d5ec20bfc7931c948c15c3bb4d9f160f13e61bd9e9453e632d16",
-   "bytes": 492255
-  }
- },
- "premium_gated": 45,
- "modes_present": [
-  "booklet",
-  "questions",
-  "videos",
-  "revision-guides",
-  "flashcards",
-  "lessons",
-  "question-rush"
- ],
+ "plane": "MG-QuestionBank",
  "lane": "gcse-maths-edexcel",
  "qualification": "GCSE",
  "subject": "Maths",
- "board": "edexcel",
- "spec": "1MA1",
- "href": "/gcse/maths/edexcel/grade-1-1-3-time",
- "source_page": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-1-1-3-time/booklet",
- "extracted_at": "2026-11-07T15:11:05Z",
- "task_id": "T-MG-QB-1",
- "run": "run-001",
- "extractor": "mg_qb_run001.py v1 (mg_rsc.py v1)",
- "license": "free-tier of record per LICENSE-DATA.md entry; premium-gated items recorded, not downloaded",
- "pending": {
-  "questions_structured_parse": "run-002"
+ "board": "Edexcel",
+ "slug": "grade-1-1-3-time",
+ "name": "Time",
+ "code": "1.3",
+ "grade_band": "1",
+ "grade": 1,
+ "ordinal": 3,
+ "question_source": {
+  "kind": "ws-sheet",
+  "url": "https://old-asset.mathsgenie.co.uk/resources/1-time-ws.pdf",
+  "sha256": "72450ae3026cb5f955cd5f334b32606292be7ab0572cb349da5774faaddd1b18"
+ },
+ "booklet": {
+  "url": "https://old-asset.mathsgenie.co.uk/resources/1-time.pdf",
+  "sha256": "9beb336382e4495d894b4afed838bc7e185ceb3574b9f63fbb69b32731fabbcf"
+ },
+ "question_count": 10,
+ "provenance": {
+  "source_page": "https://old.mathsgenie.co.uk/gcse.html",
+  "site_topic_page": "https://mathsgenie.co.uk/gcse/maths/edexcel/grade-1-1-3-time",
+  "extracted_at": "2026-11-07T16:01:46Z",
+  "extractor": "mg_qb_extract.py v1 (T-MG-QB-1 run-001)",
+  "task_id": "T-MG-QB-1/run-001"
  }
 }

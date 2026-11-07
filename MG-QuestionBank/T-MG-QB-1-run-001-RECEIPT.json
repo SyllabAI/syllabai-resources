@@ -1,0 +1,71 @@
+{
+ "receipt": "T-MG-QB-1-run-001",
+ "task_id": "T-MG-QB-1/run-001",
+ "date": "2026-11-07T16:06:35Z",
+ "actor": "SyllabAI Corpus Bot (operator-directed)",
+ "scope": "MG-QuestionBank/gcse-maths-edexcel \u2014 per-topic exam-question bank from MathsGenie",
+ "sources": {
+  "classic_page": "https://old.mathsgenie.co.uk/gcse.html",
+  "asset_host": "old-asset.mathsgenie.co.uk/resources/",
+  "site_lane_join": "https://mathsgenie.co.uk/gcse/maths/edexcel"
+ },
+ "counts": {
+  "topics_in_catalog": 134,
+  "topics_extracted": 133,
+  "topics_not_published": 1,
+  "questions": 1666,
+  "source_kinds": {
+   "ws-sheet": 99,
+   "booklet-fallback (ws has no text anchors)": 21,
+   "booklet": 13
+  }
+ },
+ "exclusions": [
+  "past-paper banks",
+  "predicted-paper banks",
+  "mini-tests (operator decision 2026-11-07: no paper PDFs)"
+ ],
+ "honest_gaps": [
+  {
+   "topic": "grade-5-5-13-mid-point-of-a-line-segment",
+   "gap": "no question resources published at source"
+  },
+  {
+   "topic": "grade-6-6-13-capture-recapture",
+   "gap": "solutions asset transiently 404 during probing; re-fetched successfully in-run (6 pages present)"
+  },
+  {
+   "metric": "965/1666 questions carry null marks",
+   "note": "worksheet-generation sheets print no marks; never inferred (README coverage law rule 4)"
+  }
+ ],
+ "verification": [
+  "site-native slug join 134/134 against live lane",
+  "sequential question-number anchors enforced (gaps logged)",
+  "marks parsed from printed '(N marks)' only; never inferred",
+  "crop QA on text-2col, image-ws (booklet fallback) and booklet-only generations",
+  "solution scans: booklet-cover page dropped when ans page count matches booklet page count"
+ ],
+ "artifacts": [
+  "MG-QuestionBank/gcse-maths-edexcel/manifest.json",
+  "MG-QuestionBank/gcse-maths-edexcel/INDEX.md",
+  "MG-QuestionBank/gcse-maths-edexcel/<topic>/topic.json|questions.json|.md|answers.json|.md|assets/"
+ ],
+ "supersedes": {
+  "note": "an earlier same-day draft of run-001 (mg_qb_run001.py, finished 2026-11-07T15:11:05Z, on main) staged raw source PDFs per topic (391 files, ~147 MB); this run supersedes it with the structured extraction and removes the raw PDFs per the plane pdf_policy (sources re-fetchable from recorded URLs + sha256).",
+  "removed_from_lane": 391,
+  "kept": [
+   "scripts/mg_run000/* (T-MG-VERIFY-1 run-000 receipts)",
+   "scripts/mg_qb_run001/receipt.json",
+   "scripts/mg_rsc.py",
+   "scripts/mg_run000.py",
+   "scripts/mg_qb_run001.py"
+  ]
+ },
+ "related_runs": [
+  {
+   "task_id": "T-MG-VERIFY-1/run-000",
+   "note": "mode-presence sweep across GCSE maths lanes (990 topics), receipts under scripts/mg_run000/ on main"
+  }
+ ]
+}
