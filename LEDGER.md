@@ -1047,3 +1047,11 @@ with no stub directory; capture-recapture's solutions asset 404'd transiently du
 re-fetched cleanly in-run. Source PDFs are fetched, processed and discarded — only sha256 + URL survive
 per topic. Receipt: `MG-QuestionBank/T-MG-QB-1-run-001-RECEIPT.json`; extraction scripts land as
 `scripts/mg_*.py` (catalog fetch, PDF probe, extractor, manifest builder, Git-Data-API uploader).
+
+**Supersession note (same day):** T-MG-VERIFY-1 run-000 (mode-presence sweep across the GCSE maths
+lanes, receipts under `scripts/mg_run000/`) landed earlier today with a same-day raw-PDF draft of
+run-001 (`scripts/mg_qb_run001/receipt.json`: 133 booklets / 125 question sheets / 133 solutions
+staged verbatim, ~147 MB). This wave supersedes that draft: the structured extraction above replaces
+the draft's per-topic metadata, and the raw source PDFs are **removed from the lane** per the plane's
+pdf_policy of record — every source stays re-fetchable from its recorded URL + sha256, and the
+operator's 2026-11-07 direction (no paper PDFs hoarded in the corpus) is enforced in both directions.

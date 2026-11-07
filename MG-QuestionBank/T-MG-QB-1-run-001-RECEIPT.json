@@ -50,5 +50,22 @@
   "MG-QuestionBank/gcse-maths-edexcel/manifest.json",
   "MG-QuestionBank/gcse-maths-edexcel/INDEX.md",
   "MG-QuestionBank/gcse-maths-edexcel/<topic>/topic.json|questions.json|.md|answers.json|.md|assets/"
+ ],
+ "supersedes": {
+  "note": "an earlier same-day draft of run-001 (mg_qb_run001.py, finished 2026-11-07T15:11:05Z, on main) staged raw source PDFs per topic (391 files, ~147 MB); this run supersedes it with the structured extraction and removes the raw PDFs per the plane pdf_policy (sources re-fetchable from recorded URLs + sha256).",
+  "removed_from_lane": 391,
+  "kept": [
+   "scripts/mg_run000/* (T-MG-VERIFY-1 run-000 receipts)",
+   "scripts/mg_qb_run001/receipt.json",
+   "scripts/mg_rsc.py",
+   "scripts/mg_run000.py",
+   "scripts/mg_qb_run001.py"
+  ]
+ },
+ "related_runs": [
+  {
+   "task_id": "T-MG-VERIFY-1/run-000",
+   "note": "mode-presence sweep across GCSE maths lanes (990 topics), receipts under scripts/mg_run000/ on main"
+  }
  ]
 }
