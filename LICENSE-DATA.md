@@ -195,3 +195,24 @@ Consequences of this amendment:
   manifests) and takedown / correction handling remain in force unchanged: takedown / correction
   requests → open an issue on this repository or contact the repository owner via GitHub; affected
   material will be removed promptly.
+
+## Amendment 2026-11-07 — MathsGenie corpus extraction (operator directive; the T-MG-VERIFY-1 amendment of record)
+
+The operator directed (instruction of record, 2026-11-07) the extraction of MathsGenie
+(mathsgenie.co.uk) resources into the four MG-* planes (`MG-QuestionBank/`, `MG-RevisionGuides/`,
+`MG-Flashcards/`, `MG-Lessons/` — scaffold PR #314). Position of record:
+
+1. **Free tier only.** Only resources the site serves without authentication
+   (`premium: false` in the site's own resource records) are downloaded. Premium-gated
+   items (worksheet Sets, print editions) are recorded as metadata of record with their
+   source URLs and a `premium-gated` reason — never downloaded, never proxied.
+2. **No authentication, no circumvention.** Extraction reads public pages (RSC flight
+   payloads + rendered HTML) with a disclosed corpus-bot UA, per the methodology already
+   published in `SyllabAI/MathsGenie` (`research/06-parsing-methodology.md`).
+3. **Provenance on every artifact.** Each file carries `source_url`, `sha256`,
+   `extracted_at`, `extractor`, `task_id`. Receipts live under `scripts/mg_*/`.
+4. **Hosting precedent.** Corpus-plane hosting of third-party free-tier educational
+   material follows the SME-* (2026-09-17), Underground Mathematics (2026-10-23/24) and
+   Pearson Student Book (2026-10-22) precedents in this file; as with those, the operator
+   may withdraw any lane on request and the `source_url` of record keeps every artifact
+   re-pointable to the origin.
