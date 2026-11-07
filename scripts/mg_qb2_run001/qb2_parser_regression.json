@@ -1,0 +1,181 @@
+{
+ "purpose": "T-MG-QB-2 run-001 hardening check: patched anchor rule (column-relative x <= 75pt) vs T-MG-QB-1 run-001 of-record per-topic question counts on the GCSE corpus",
+ "checked": 133,
+ "missing_pdfs": [],
+ "divergent_topics": [
+  {
+   "code": "3.2",
+   "slug": "grade-3-3-2-fractions",
+   "of_record": 3,
+   "patched": 0
+  },
+  {
+   "code": "3.4",
+   "slug": "grade-3-3-4-writing-and-simplifying-ratio",
+   "of_record": 16,
+   "patched": 4
+  },
+  {
+   "code": "3.8",
+   "slug": "grade-3-3-8-percentage-change",
+   "of_record": 14,
+   "patched": 4
+  },
+  {
+   "code": "3.10",
+   "slug": "grade-3-3-10-conversions-and-units",
+   "of_record": 10,
+   "patched": 9
+  },
+  {
+   "code": "3.17",
+   "slug": "grade-3-3-17-transformations",
+   "of_record": 10,
+   "patched": 7
+  },
+  {
+   "code": "3.18",
+   "slug": "grade-3-3-18-area-of-compound-shapes",
+   "of_record": 2,
+   "patched": 0
+  },
+  {
+   "code": "4.12",
+   "slug": "grade-4-4-12-surface-area",
+   "of_record": 8,
+   "patched": 7
+  },
+  {
+   "code": "4.13",
+   "slug": "grade-4-4-13-volume-of-a-prism",
+   "of_record": 8,
+   "patched": 7
+  },
+  {
+   "code": "4.17",
+   "slug": "grade-4-4-17-plans-and-elevations",
+   "of_record": 4,
+   "patched": 7
+  },
+  {
+   "code": "5.9",
+   "slug": "grade-5-5-9-drawing-quadratic-graphs",
+   "of_record": 3,
+   "patched": 7
+  },
+  {
+   "code": "6.11",
+   "slug": "grade-6-6-11-cumulative-frequency",
+   "of_record": 6,
+   "patched": 10
+  },
+  {
+   "code": "7.8",
+   "slug": "grade-7-7-8-trigonometric-and-exponential-graphs",
+   "of_record": 10,
+   "patched": 9
+  },
+  {
+   "code": "8.7",
+   "slug": "grade-8-9-8-7-velocity-time-graphs",
+   "of_record": 8,
+   "patched": 4
+  }
+ ],
+ "recovered_undercounts": [
+  {
+   "code": "4.17",
+   "slug": "grade-4-4-17-plans-and-elevations",
+   "of_record": 4,
+   "patched": 7
+  },
+  {
+   "code": "5.9",
+   "slug": "grade-5-5-9-drawing-quadratic-graphs",
+   "of_record": 3,
+   "patched": 7
+  },
+  {
+   "code": "6.11",
+   "slug": "grade-6-6-11-cumulative-frequency",
+   "of_record": 6,
+   "patched": 10
+  }
+ ],
+ "deflated_overcounts": [
+  {
+   "code": "3.2",
+   "slug": "grade-3-3-2-fractions",
+   "of_record": 3,
+   "patched": 0
+  },
+  {
+   "code": "3.4",
+   "slug": "grade-3-3-4-writing-and-simplifying-ratio",
+   "of_record": 16,
+   "patched": 4
+  },
+  {
+   "code": "3.8",
+   "slug": "grade-3-3-8-percentage-change",
+   "of_record": 14,
+   "patched": 4
+  },
+  {
+   "code": "3.10",
+   "slug": "grade-3-3-10-conversions-and-units",
+   "of_record": 10,
+   "patched": 9
+  },
+  {
+   "code": "3.17",
+   "slug": "grade-3-3-17-transformations",
+   "of_record": 10,
+   "patched": 7
+  },
+  {
+   "code": "3.18",
+   "slug": "grade-3-3-18-area-of-compound-shapes",
+   "of_record": 2,
+   "patched": 0
+  },
+  {
+   "code": "4.12",
+   "slug": "grade-4-4-12-surface-area",
+   "of_record": 8,
+   "patched": 7
+  },
+  {
+   "code": "4.13",
+   "slug": "grade-4-4-13-volume-of-a-prism",
+   "of_record": 8,
+   "patched": 7
+  },
+  {
+   "code": "7.8",
+   "slug": "grade-7-7-8-trigonometric-and-exponential-graphs",
+   "of_record": 10,
+   "patched": 9
+  },
+  {
+   "code": "8.7",
+   "slug": "grade-8-9-8-7-velocity-time-graphs",
+   "of_record": 8,
+   "patched": 4
+  }
+ ],
+ "ground_truth_spot_checks": [
+  {
+   "code": "8.7",
+   "finding": "ws truly has 4 questions (IGCSE Sequences Higher, 1 page Q1-Q4); of-record 8 was inflated by sequence-term false anchors"
+  },
+  {
+   "code": "4.17",
+   "finding": "ws truly has >=5 questions (Q1 and Q5 visible on page 1); of-record 4 was an undercount"
+  },
+  {
+   "code": "3.2",
+   "finding": "booklet questions are images; text layer is fraction fragments; of-record 3 were fragment strips, patched 0 is the honest state"
+  }
+ ]
+}

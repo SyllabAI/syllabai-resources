@@ -1,0 +1,18 @@
+# Pythagoras — Worked Solutions (IGCSE Maths · Edexcel · Grade 4)
+
+Mapping: `per-page` · 7 image(s) · source sha256 `4c2dccd7226fc286…`
+
+![a-p02.png](assets/a-p02.png)
+
+![a-p03.png](assets/a-p03.png)
+
+![a-p04.png](assets/a-p04.png)
+
+![a-p05.png](assets/a-p05.png)
+
+![a-p06.png](assets/a-p06.png)
+
+![a-p07.png](assets/a-p07.png)
+
+![a-p08.png](assets/a-p08.png)
+
