@@ -1025,3 +1025,25 @@ The GradeBoundaries roadmap is down to its honest floor: **0264 cie-igcse-busine
 ## Wave 25 — the MG-* planes go live (T-MG-VERIFY-1 run-000 + T-MG-QB-1 run-001; operator-directed MathsGenie extraction)
 
 Two runs, one wave. The organization-law scaffold (PR #314) put four MG-* planes next to the SME-* family; this wave fills the first one with of-record content. **T-MG-VERIFY-1 run-000** swept all nine deep maths lanes live (990 topic pages, cached RSC+HTML, zero errors): per-topic mode cards are the sparse-coverage evidence of record — GCSE ×6 boards identical at 134 topics (booklet 133, questions 133, revision-guides 132, flashcards 125, lessons 122, question-rush 133); IGCSE 118 topics (questions only 99, no revision-guides or question-rush mode at all); AS 24 / A-Level 44 topics with lessons present (23 and 41) — a live divergence from the MathsGenie catalog's earlier A-Level mode list, recorded here. **T-MG-QB-1 run-001** landed the gcse-maths-edexcel question bank free-tier of record: 134 topics, 391 PDFs, 147.5 MB (booklet ×133, exam-questions ×125, solutions ×133), every artifact sha256-pinned with source URL + task ID; premium worksheet Sets recorded as premium-gated, never downloaded (the LICENSE-DATA.md amendment of record lands in the same commit). Disclosed pendings: structured question parse (run-002), papers bank (run-003), remaining lanes + learn/recall/teach planes. Receipts: `scripts/mg_run000/`, `scripts/mg_qb_run001/`.
+
+
+## Wave 25 — MG-QuestionBank lands: the MathsGenie GCSE Maths (Edexcel) per-topic question bank (T-MG-QB-1 run-001; branch t-mg-qb-1/run-001)
+
+The first corpus wave lands in the MG-* planes: `MG-QuestionBank/gcse-maths-edexcel` carries
+**133 of 134 topics / 1,666 per-topic questions** extracted from MathsGenie's classic GCSE page
+(`old.mathsgenie.co.uk/gcse.html`, asset host `old-asset.mathsgenie.co.uk`), with every site-native
+topic slug verified 134/134 against the live lane (`mathsgenie.co.uk/gcse/maths/edexcel`) — the join
+to the `SyllabAI/MathsGenie` catalog stays trivial. Three source generations are handled and recorded
+per topic in `topic.json`: exam-question sheets (99 topics, two-column sequential-number anchors),
+image-only sheets with automatic booklet fallback (21), and booklet-only topics (13). Worked solutions
+are per-page scans of the source answer booklets; where the answer PDF is the booklet rescanned with
+solutions, the cover page is dropped by page-count match. Marks are parsed from printed "(N marks)"
+lines only — 965 of 1,666 questions legitimately carry `null` marks because the worksheet generation
+prints none; nothing is inferred (AGENT.md rule 3). The operator decision of record from 2026-11-07 is
+enforced in the lane shape: **no past-paper or predicted-paper PDFs anywhere in MG-*** (mini-tests stay
+link-of-record) — `manifest.json` carries `scope_exclusions` next to `modes_absent`. Topic 5.13
+(Midpoint of a Line Segment) publishes no question resources at source and is recorded `not-published`
+with no stub directory; capture-recapture's solutions asset 404'd transiently during probing and was
+re-fetched cleanly in-run. Source PDFs are fetched, processed and discarded — only sha256 + URL survive
+per topic. Receipt: `MG-QuestionBank/T-MG-QB-1-run-001-RECEIPT.json`; extraction scripts land as
+`scripts/mg_*.py` (catalog fetch, PDF probe, extractor, manifest builder, Git-Data-API uploader).

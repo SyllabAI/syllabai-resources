@@ -216,3 +216,17 @@ The operator directed (instruction of record, 2026-11-07) the extraction of Math
    Pearson Student Book (2026-10-22) precedents in this file; as with those, the operator
    may withdraw any lane on request and the `source_url` of record keeps every artifact
    re-pointable to the origin.
+
+
+### Addendum 2026-11-07 — first extraction wave under this amendment (T-MG-QB-1 run-001)
+
+- **Scope decision of record (operator, 2026-11-07): no past-paper or predicted-paper PDFs are
+  collected anywhere in MG-\***; mini-tests remain link-of-record only. Enforced in
+  `MG-QuestionBank/gcse-maths-edexcel/manifest.json` (`scope_exclusions`, `modes_absent`).
+- First lane landed: `MG-QuestionBank/gcse-maths-edexcel` — 133/134 topics, 1,666 per-topic
+  questions with per-page worked-solution scans, from the site's free tier only (classic page
+  `old.mathsgenie.co.uk/gcse.html`; slugs joined 134/134 against the live lane). Topic 5.13 is
+  recorded `not-published` (no stub directory). Source PDFs are fetched, processed, discarded —
+  sha256 + URL of record per topic.
+- Receipt of record: `MG-QuestionBank/T-MG-QB-1-run-001-RECEIPT.json`; extraction scripts:
+  `scripts/mg_*.py`.

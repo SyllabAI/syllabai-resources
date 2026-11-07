@@ -60,5 +60,5 @@ Rules (enforce in every extraction run):
 ## Governance
 
 - Extraction lands as task-ID'd runs (`T-MG-QB-1`, …) with worklog evidence, a `LEDGER.md` wave entry and a receipt JSON, per repo `AGENT.md`.
-- Extraction scripts live in `../scripts/` as `mg_*.py` (`flight_decode.py`, `fetch_catalog.py`, `qb_extract.py`, `mg_upload.py`, `probe_pdf.py`).
+- Extraction scripts live in `../scripts/` as `mg_*.py` (`mg_flight_decode.py`, `mg_fetch_catalog.py`, `mg_probe_pdf.py`, `mg_qb_extract.py`, `mg_manifest.py`, `mg_upload.py`).
 - Crosswalk: `igcse-maths-edexcel` ↔ SME lane `igcse-maths-a-18-{foundation,higher}` (join field in manifest.json); GCSE maths lanes have no SME equivalent and are new corpus territory.
