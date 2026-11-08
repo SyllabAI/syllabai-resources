@@ -1,0 +1,136 @@
+{
+ "topic": "grade-2-2-3-systematic-listing",
+ "lane": "igcse-maths-edexcel",
+ "grade": "2",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Why systematic listing matters",
+   "body": "Systematic listing means writing outcomes in a clear order so that none are missed and none are repeated. The skill is mostly about being organised.\n\nAn outcome is one possible result, and the sample space is the complete list of all outcomes. A reliable method is to keep the first choice fixed, work through every second choice, and then move on."
+  },
+  {
+   "heading": "Two groups of choices",
+   "body": "When one choice comes from each of two groups, fix one item from the first group and pair it with every item from the second group. Each complete pair is one outcome.\n\nExample: snacks are crisps, fruit, yoghurt and drinks are water, juice. Start with crisps and pair it with water, then juice, then repeat for fruit and yoghurt.\n\nThe complete list is crisps and water, crisps and juice, fruit and water, fruit and juice, yoghurt and water, yoghurt and juice. A quick check is $3 \\times 2 = 6$, so a complete list must contain 6 outcomes."
+  },
+  {
+   "heading": "Repeated events and order",
+   "body": "If the same event happens more than once, order usually matters. For three coin flips, HHT is different from HTH because the tail appears on a different flip.\n\n![Tree diagram of three coin flips with branches H and T ending in HHH, HHT, HTH, HTT, THH, THT, TTH and TTT](../assets/001-3e02bc7f-0448-4e2d-b87c-ac9ecd9bdaa2.jpeg)\nA tree-style list helps you expand one flip at a time, and using H and T keeps the sample space short. For three flips, the sample space is HHH, HHT, HTH, HTT, THH, THT, TTH, TTT.\n\nEach extra coin flip doubles the number of outcomes. In the case of three flips, this results in $2^3 = 8$ distinct outcomes.",
+   "figure_refs": [
+    "assets/001-3e02bc7f-0448-4e2d-b87c-ac9ecd9bdaa2.jpeg"
+   ]
+  },
+  {
+   "heading": "Making numbers from digit cards",
+   "body": "For digit-card questions, decide whether a card can be reused and which place value you are filling first. If you are making a three-digit number, the first digit is the hundreds digit.\n\nExample: using 2, 5 and 9 to make three-digit numbers, fix the hundreds digit first. With 2 in front you get 259 and 295, and with 5 in front you get 529 and 592.\n\nThen put 9 in front to get 925 and 952. The complete list has 6 numbers, which matches the check $3 \\times 2 = 6$."
+  },
+  {
+   "heading": "Repeated digits and duplicates",
+   "body": "Repeated digits need extra care because swapping identical cards does not create a new written number. You count different numbers, not different physical swaps.\n\nUsing $1, 4, 4$ and $7$ once each, start with $1$ first to get $1447, 1474, 1744$. Start with $4$ first to get $4147, 4174, 4417, 4471, 4714, 4741$.\n\nStart with $7$ first to get $7144, 7414, 7441$. By listing them systematically by their starting digit, we find there are $12$ different four-digit numbers altogether."
+  },
+  {
+   "heading": "Using a list to find probability",
+   "body": "![6 by 6 grid of ordered pairs for two dice with cells for sums greater than 7 highlighted](../assets/002-f92ada08-0319-4061-bd32-53243f2f8772.jpeg)\nFor two dice, a grid is often the neatest way to organise the sample space. There are $6 \\times 6 = 36$ equally likely outcomes, and $(2,6)$ is different from $(6,2)$ because the first die and second die can be told apart.\n\nTo find a total greater than 7, count the outcomes with sums 8, 9, 10, 11 and 12. That gives $5 + 4 + 3 + 2 + 1 = 15$ successful outcomes.\n\nNow use $P = \\frac{\\text{successful outcomes}}{\\text{total outcomes}}$, so $P = \\frac{15}{36} = \\frac{5}{12}$. A complete systematic list makes the counting reliable.",
+   "figure_refs": [
+    "assets/002-f92ada08-0319-4061-bd32-53243f2f8772.jpeg"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Which statement best describes systematic listing?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Writing outcomes in a clear order so none are missed or repeated",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "Writing only the most likely outcomes first",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "Writing outcomes in any order as quickly as possible",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Writing the same outcome in two different ways",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A is correct because a systematic list follows a pattern that helps you check completeness and avoid duplicates. The most common wrong answer is C, but a random order makes it much easier to miss an outcome or list one twice."
+  },
+  {
+   "id": "card-6",
+   "question": "A student writes HHH, HHT, HTH, HTT, THH, THT, TTT for three coin flips. Which outcome is missing?",
+   "options": [
+    {
+     "id": "a",
+     "text": "TTH",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "HHH",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "HTT",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "TTT",
+     "is_correct": false
+    }
+   ],
+   "explanation": "There should be $2^3 = 8$ outcomes for three coin flips. The four outcomes starting with T are THH, THT, TTH and TTT, so TTH is missing; the most common wrong answer is TTT, but TTT is already in the list."
+  },
+  {
+   "id": "card-10",
+   "question": "Digit cards 3, 6 and 8 are used to make a two-digit number with different cards. Which number cannot be made?",
+   "options": [
+    {
+     "id": "a",
+     "text": "36",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "68",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "83",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "88",
+     "is_correct": true
+    }
+   ],
+   "explanation": "88 is impossible because it uses the digit 8 twice when there is only one 8 card. The most common wrong answer is 83, but order matters in numbers, so 83 is different from 38 and is allowed."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-2-2-3-systematic-listing/lessons",
+ "source_sha256": "ee577b08f5196bcc84aa58175571a51ac502d64fd7990e4160be9978e36a0dc4",
+ "extracted_at": "2026-11-08T19:00:24Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "b1b360e8-f3f0-4c60-8c52-7fb64a62a117",
+  "topic_id": "1402a68e-6a2f-4840-9956-20de32123535",
+  "created_at": "2026-05-13T11:43:46.627Z",
+  "updated_at": "2026-05-13T11:49:08.941Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

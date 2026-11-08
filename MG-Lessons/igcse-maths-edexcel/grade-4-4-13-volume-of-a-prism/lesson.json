@@ -1,0 +1,129 @@
+{
+ "topic": "grade-4-4-13-volume-of-a-prism",
+ "lane": "igcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Prisms, cross-sections, and the main formula",
+   "body": "![Generic prism with shaded front cross-section labelled cross-section area A and arrow showing prism length l](../assets/001-afc9d811-3886-4a45-b20a-9c7effb954d7.jpeg)\nA prism is a 3D shape with the same 2D cross-section all the way through its length. You can think of it as a flat shape stretched straight backwards.\n\nVolume measures the space inside a shape, so it is written in cubic units such as $\\text{cm}^{3}$ or $\\text{m}^{3}$. For any prism, the rule is\n\n$$$V = A \\times l$$\n\nThis works because the same area is repeated all the way along. Here, $A$ is the area of the cross-section and $l$ is the prism length.",
+   "figure_refs": [
+    "assets/001-afc9d811-3886-4a45-b20a-9c7effb954d7.jpeg"
+   ]
+  },
+  {
+   "heading": "Worked example: triangular prism",
+   "body": "A triangular prism has a right-angled triangular cross-section with base $6 \\, \\text{cm}$, height $5 \\, \\text{cm}$, and prism length $9 \\, \\text{cm}$. Start with the area of the triangle, not the volume.\n\nThe triangle area is $$A = \\frac{1}{2} \\times 6 \\times 5 = 15 \\, \\text{cm}^{2}$$ so the cross-section area is $15 \\, \\text{cm}^{2}$.\n\nNow multiply by the prism length. $$V = 15 \\times 9 = 135 \\, \\text{cm}^{3}$$ So the volume is $135 \\, \\text{cm}^{3}$. A common mistake is using the sloping side as the height, but the height must be perpendicular to the base."
+  },
+  {
+   "heading": "Finding the cross-section area",
+   "body": "Before you can find the volume, you need the area formula that matches the cross-section. Rectangles use $A = lw$, triangles use $A = \\frac{1}{2}bh$, and trapeziums use $A = \\frac{1}{2}(a+b)h$.\n\nFor a trapezium prism with parallel sides $5 \\, \\text{cm}$ and $11 \\, \\text{cm}$, height $4 \\, \\text{cm}$, and length $12 \\, \\text{cm}$, start with the trapezium area. $$A = \\frac{1}{2}(5+11)\\times4 = 32 \\, \\text{cm}^{2}$$ Now multiply that area by the prism length. $$V = 32 \\times 12 = 384 \\, \\text{cm}^{3}$$\n\nForgetting the $\\frac{1}{2}$ in the calculation would incorrectly double the answer. Always find the cross-section area before attempting to find the volume."
+  },
+  {
+   "heading": "Composite prisms",
+   "body": "Some prisms have cross-sections made from more than one simple shape. Split the cross-section into rectangles or triangles, find the area of each part, then add them to get the total cross-section area.\n\nFor example, if an L-shaped cross-section is split into two rectangles with areas of 30 square centimetres and 20 square centimetres, the total cross-section area is 50 square centimetres. If the prism length is 8 cm, multiply 50 by 8.\n\n$$$V = 50 \\times 8 = 400$$\n\nSo the volume is 400 cubic centimetres. Add areas, not side lengths, when the cross-section is composite."
+  },
+  {
+   "heading": "Capacity and unit conversions",
+   "body": "Volume questions about tanks and containers often finish in litres or millilitres. First find the volume in cubic centimetres, then convert at the end.\n\nUseful facts: 1 litre equals 1000 cubic centimetres, and 1 millilitre equals 1 cubic centimetre.\n\nFor a prism, the volume is the cross-sectional area multiplied by the length. If a tank shaped like a prism has a cross-sectional area of 250 square centimetres and a length of 48 centimetres, multiply 250 by 48.\n\n250 multiplied by 48 is 12,000, so the volume is 12,000 cubic centimetres. Since 1000 cubic centimetres equals 1 litre, the tank holds 12 litres.\n\nIn practical questions, keep the working in one set of units while finding the prism volume, then convert to litres or millilitres at the end."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "In the formula $V = A \\times l$, what does $A$ represent?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The area of the cross-section",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "The area of any one face",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "The total surface area",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "The perimeter of the cross-section",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The formula for a prism uses the repeated 2D cross-section, so $A$ must be the cross-section area. The common wrong answer is C because surface area also uses square units, but surface area measures the outside faces, not the space inside the prism."
+  },
+  {
+   "id": "card-7",
+   "question": "A prism has a trapezium cross-section with parallel sides $7 \\, \\text{cm}$ and $9 \\, \\text{cm}$, height $3 \\, \\text{cm}$, and length $10 \\, \\text{cm}$. What is its volume?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$160 \\, \\text{cm}^{3}$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$240 \\, \\text{cm}^{3}$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$320 \\, \\text{cm}^{3}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$480 \\, \\text{cm}^{3}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "First find the trapezium area: $\\frac{1}{2}(7+9)\\times3 = 24 \\, \\text{cm}^{2}$. Then multiply by the length: $24 \\times 10 = 240 \\, \\text{cm}^{3}$; the common wrong answer is D because it forgets the $\\frac{1}{2}$ in the trapezium area formula."
+  },
+  {
+   "id": "card-13",
+   "question": "A rectangular tank measures $80\\,\\text{cm} \\times 45\\,\\text{cm} \\times 50\\,\\text{cm}$. Each bucket holds $9\\,\\text{L}$. How many full buckets are needed to fill the tank?",
+   "options": [
+    {
+     "id": "a",
+     "text": "18",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "20",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "180",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "200",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The tank volume is $80 \\times 45 \\times 50 = 180000\\,\\text{cm}^3 = 180\\,\\text{L}$, and $180 \\div 9 = 20$. The common wrong answer is C because it stops after converting to litres and forgets to divide by the bucket size."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-4-4-13-volume-of-a-prism/lessons",
+ "source_sha256": "8a21b7da1e6a8b71a6e7a7e32fd2730e61dc6eb655b2f1162402344529635283",
+ "extracted_at": "2026-11-08T19:00:41Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "aa501c1c-f3d5-49f2-a94a-1ec4857c0bbc",
+  "topic_id": "f1b4b175-5188-426e-b43e-5589b62502d7",
+  "created_at": "2026-05-13T12:33:00.961Z",
+  "updated_at": "2026-05-13T12:54:14.878Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

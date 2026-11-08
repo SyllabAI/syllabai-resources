@@ -1,0 +1,129 @@
+{
+ "topic": "grade-3-3-12-substitution",
+ "lane": "igcse-maths-edexcel",
+ "grade": "3",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What substitution means",
+   "body": "![Flowchart showing substitution steps: replace variables with values, put negative values in brackets, work out brackets and powers, then multiplication and division, then addition and subtraction, with examples of hidden multiplication.](../assets/001-c55b3981-1139-4e18-97f7-0b07a2428c6e.jpeg)\n\nA variable is a letter that stands for a number. Substitution means replacing the letter with its given value, then working out the result.\n\nIn algebra, multiplication signs are often hidden: $3f$ means $3 \\times f$, $bc$ means $b \\times c$, and $m(n-2)$ means $m \\times (n-2)$. After you substitute, use BIDMAS so you calculate in the right order.",
+   "figure_refs": [
+    "assets/001-c55b3981-1139-4e18-97f7-0b07a2428c6e.jpeg"
+   ]
+  },
+  {
+   "heading": "Worked example: a simple expression",
+   "body": "Suppose $f=6$ and $g=4$. Replace each letter first and show the hidden multiplication with brackets.\n\n$$3f + 2g = 3(6) + 2(4)$$\n\nNow do the multiplications before the addition. This follows BIDMAS.\n\n$$3(6) + 2(4) = 18 + 8$$\n\nFinally add the two terms. Writing the substituted line first can earn method marks even if the arithmetic later slips.\n\n$$18 + 8 = 26$$"
+  },
+  {
+   "heading": "Negative numbers and powers",
+   "body": "If a variable has a negative value, put it in brackets straight away. This keeps the sign clear, because $4(-3)$ is different from $4-3$.\n\nFor $Q = 6p + 4r$ with $p=5$ and $r=-3$, substitute first and keep the negative value in brackets. Then multiply before you add.\n\n$$$Q = 6(5) + 4(-3) = 30 + (-12) = 18$$\n\nBrackets matter even more with powers. If $x=-3$, then $x^2 = (-3)^2 = 9$, not $-9$."
+  },
+  {
+   "heading": "Brackets and fractions in formulas",
+   "body": "Some formulas already contain brackets, so that part must be done first after substitution. For $L = m(n-4)$ with $m=8$ and $n=9$, the bracket comes before the multiplication.\n\n$$$L = 8(9-4) = 8(5) = 40$$\n\nA fraction bar means divide, so it helps to work out the top and bottom separately. For $s = \\frac{v^2-u^2}{2a}$ with $v=8$, $u=4$, and $a=2$, do the powers first.\n\n$$$s = \\frac{8^2 - 4^2}{2(2)} = \\frac{64 - 16}{4} = \\frac{48}{4} = 12$$"
+  },
+  {
+   "heading": "Longer formulas without panic",
+   "body": "Longer formulas are not harder if you stay organised. Write the full substituted line first, then simplify one part at a time.\n\n$$s = ut + \\frac{1}{2}at^2$$\n\nIf $u=-4$, $a=6$, and $t=3$, substitute everything before calculating. Keep the negative number in brackets.\n\n$$s = (-4)(3) + \\frac{1}{2}(6)(3)^2$$\n\nNow work out the power, then the multiplications. This keeps the order of operations clear.\n\n$$s = (-4)(3) + \\frac{1}{2}(6)(9) = -12 + 27$$\n\nFinally add the two terms. A neat line of working is exactly what examiners want to see.\n\n$$s = 15$$"
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "If $d=7$, which line correctly rewrites $4d$ after substitution?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$4(7)$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$47$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$4+7$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$7-4$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A is correct because $4d$ means $4 \\times d$, so when $d=7$ it becomes $4(7)$. The most common wrong answer is B, but that wrongly joins the digits together instead of using the hidden multiplication."
+  },
+  {
+   "id": "card-7",
+   "question": "If $x=-4$, what is the value of $2x^2$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "32",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "-32",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "8",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "-8",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A is correct because you square the whole value first: $2(-4)^2 = 2(16) = 32$. The most common wrong answer is B, which comes from forgetting that the negative number must be squared as a whole."
+  },
+  {
+   "id": "card-12",
+   "question": "When $a=2$, $b=-5$, and $c=3$, what is the value of $b^2 - 4ac$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "1",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "-1",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "49",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "24",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A is correct because $(-5)^2 = 25$ and $4ac = 4(2)(3) = 24$, so $25 - 24 = 1$. The most common wrong answer is B, which happens when a student treats $(-5)^2$ as $-25$ instead of squaring the whole negative number. Hint: Square $b$ before subtracting the product $4ac$."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-3-3-12-substitution/lessons",
+ "source_sha256": "69cff3bcc117bf2621c05e32f789cc108d66acb5f974ed10af426ab105cd8820",
+ "extracted_at": "2026-11-08T19:00:28Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "4b026c17-64dd-46d1-a8b8-02147b8ce3d2",
+  "topic_id": "972c6071-feb4-4c3e-b949-2d2220bcc10e",
+  "created_at": "2026-05-13T12:24:58.117Z",
+  "updated_at": "2026-05-13T12:27:06.069Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

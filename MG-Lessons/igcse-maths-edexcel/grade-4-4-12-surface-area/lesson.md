@@ -1,0 +1,134 @@
+# grade-4-4-12-surface-area — lesson
+
+_Lane: `igcse-maths-edexcel` · grade 4 · 7 content steps · 4 check questions (source: MathsGenie lessons)_
+
+## What surface area means
+
+Surface area is the total area of all the outside faces of a 3D shape. It is measured in square units such as $cm^{2}$ or $m^{2}$.
+
+A net shows the faces opened out flat, which helps you see exactly what must be added. Think of wrapping paper or paint: every outside face counts, even the ones hidden in a 3D drawing.
+
+## Cuboids: three pairs of matching faces
+
+![Cuboid labelled length 11 cm, width 6 cm, height 3 cm next to its net with matching rectangular faces highlighted](../assets/001-811fbb1d-064b-49de-84dc-1ba9a66b9fae.jpeg)
+A cuboid has 3 different rectangle areas, and each one appears twice. For a cuboid with length $l$, width $w$, and height $h$, the total surface area formula is: $$\text{surface area} = 2(lw + lh + wh).$$
+
+For dimensions $l=11$, $w=6$, and $h=3$, we first calculate the area of the three unique faces: $$11\times 6 = 66,\quad 11\times 3 = 33,\quad 6\times 3 = 18.$$ These represent one face from each matching pair.
+
+The final step is to double each area and add them together: $$2(66)+2(33)+2(18)=132+66+36=234.$$ This gives a total surface area of $234 \, \text{cm}^2$.
+
+## Any prism: two ends plus the side rectangles
+
+![Right triangular prism with 6 cm, 8 cm, 10 cm cross-section and 9 cm length next to its net showing two triangles and three rectangles](../assets/002-e57f5f09-4769-4ce1-a043-fa8246e49f20.jpeg)
+
+A prism has the same cross-section all the way through its length. Its surface area is the two identical end faces plus the rectangles that wrap around the side.
+
+If the cross-section area is $A$, its perimeter is $P$, and the prism length is $L$, then
+$$\text{surface area} = 2A + PL.$$
+The $PL$ part works because each side of the cross-section becomes a rectangle of width that side length and length $L$.
+
+So you need two separate 2D measurements from the cross-section: area for the ends and perimeter for the side faces. Mixing them up is the most common prism mistake.
+
+## Worked example: triangular prism
+
+A right triangular prism has triangle side lengths $6 \, \text{cm}$, $8 \, \text{cm}$, and $10 \, \text{cm}$, and prism length $9 \, \text{cm}$. First find the area of one triangular end:
+$$A = \frac{1}{2}\times 6 \times 8 = 24.$$
+
+There are 2 triangular ends, so together they contribute
+$$2A = 2\times 24 = 48.$$
+Next find the perimeter of the triangle:
+$$P = 6 + 8 + 10 = 24.$$
+
+The side rectangles have total area
+$$PL = 24 \times 9 = 216.$$
+So the total surface area is
+$$48 + 216 = 264,$$
+which gives $264 \, \text{cm}^2$.
+
+## Trapezium and L-shaped cross-sections
+
+For a trapezium prism, the trapezium height is used in area, not usually in perimeter. Start with the area of one trapezium:
+$$A = \frac{1}{2}(10 + 16)\times 4 = 52,$$
+so the two ends give $104 \, \text{cm}^2$.
+
+Now use the outside side lengths for the perimeter:
+$$P = 10 + 16 + 5 + 5 = 36.$$
+If the prism length is $7 \, \text{cm}$, then the side rectangles have area
+$$PL = 36 \times 7 = 252.$$
+
+Add the two parts to get
+$$104 + 252 = 356,$$
+so the total surface area is $356 \, \text{cm}^2$. For an L-shaped cross-section, split it into rectangles for the area, but use only the outside boundary for the perimeter and ignore any internal split lines.
+
+## Painting problems and unit conversions
+
+Real questions often mix surface area with paint coverage. The method is: find one surface area, multiply by the number of objects, divide by the coverage of one pot, then round up.
+
+Always check the units first. Since $100 \, \text{cm} = 1 \, \text{m}$, you must use $$10{,}000 \, \text{cm}^2 = 1 \, \text{m}^2$$ when converting area.
+
+For a box measuring $90 \, \text{cm}$ by $45 \, \text{cm}$ by $30 \, \text{cm}$, convert first to $0.9 \, \text{m}$, $0.45 \, \text{m}$, and $0.3 \, \text{m}$. Then $$\text{surface area} = 2(0.9 \times 0.45)+2(0.9 \times 0.3)+2(0.45 \times 0.3)=1.62,$$ so one box has surface area $1.62 \, \text{m}^2$.
+
+For 6 boxes, the total area is $$6 \times 1.62 = 9.72.$$ If one pot covers $5 \, \text{m}^2$, then $$9.72 \div 5 = 1.944,$$ so you must round up and buy 2 pots.
+
+## Closed cylinders
+
+![Closed cylinder of radius 0.3 m and height 1.2 m next to its net with two circles and one rectangle labelled circumference 2πr](../assets/003-7692dd1b-451c-4486-87d8-3240da75ccbe.jpeg)
+A closed cylinder has 2 circles and 1 curved surface. When the curved surface is unwrapped, it becomes a rectangle with width equal to the circumference $2\pi r$ and height $h$.
+
+So the total surface area is
+$$\text{surface area} = 2\pi r^2 + 2\pi rh.$$
+The first term represents the area of the two circular bases and the second term is the area of the curved rectangle.
+
+If the diameter is $60 \, \text{cm}$ and the height is $1.2 \, \text{m}$, convert the diameter to $0.6 \, \text{m}$ so the radius is $0.3 \, \text{m}$. Then
+$$2\pi(0.3)^2 + 2\pi(0.3)(1.2) = 0.18\pi + 0.72\pi = 0.90\pi \approx 2.83,$$
+so one closed cylinder has a total surface area of about $2.83 \, \text{m}^2$.
+
+## Check yourself
+
+1. Which statement best describes the surface area of a closed box?
+
+   - The total area of all 6 outside faces ✔
+
+   - The area of the top face only
+
+   - The distance around the bottom edge
+
+   - The amount of space inside the box
+
+   _Explanation:_ Surface area means adding the areas of every outside face, so A is correct. Imagine opening the box into a net and adding every face. The most common wrong answer is D, but that describes volume, which measures space inside the box rather than covering the outside.
+
+2. A prism has cross-section area $18 \, \text{cm}^2$, cross-section perimeter $20 \, \text{cm}$, and length $7 \, \text{cm}$. What is its total surface area?
+
+   - $$140 \, \text{cm}^2$
+
+   - $$158 \, \text{cm}^2$
+
+   - $$176 \, \text{cm}^2$ ✔
+
+   - $$252 \, \text{cm}^2$
+
+   _Explanation:_ Use $$2A + PL = 2(18) + 20\times 7 = 36 + 140 = 176,$$ so C is correct. The most common wrong answer is B, which comes from adding only one end face instead of two.
+
+3. Stretch question: An L-shaped prism has cross-section area $43 \, \text{cm}^2$, outside perimeter $32 \, \text{cm}$, and length $12 \, \text{cm}$. What is its total surface area?
+
+   - $$470 \, \text{cm}^2$ ✔
+
+   - $$427 \, \text{cm}^2$
+
+   - $$384 \, \text{cm}^2$
+
+   - $$516 \, \text{cm}^2$
+
+   _Explanation:_ Use $$2A + PL = 2(43) + 32 \times 12 = 86 + 384 = 470,$$ so A is correct. The most common wrong answer is B, which forgets that there are two L-shaped end faces, not one. Hint: The internal split you use for the area is not part of the perimeter.
+
+4. Stretch question: Three closed cylindrical tanks each have diameter $60 \, \text{cm}$ and height $1.2 \, \text{m}$. If one pot of paint covers $3 \, \text{m}^2$, how many pots are needed?
+
+   - 2
+
+   - 3 ✔
+
+   - 8
+
+   - 9
+
+   _Explanation:_ One tank has surface area about $2.83 \, \text{m}^2$, so 3 tanks need about $$3\times 2.83 = 8.49 \, \text{m}^2.$$ Then $$8.49 \div 3 = 2.83,$$ so you must round up to 3 pots. The most common wrong answer is 2, which rounds down even though 2 pots would not cover the full area. Hint: Work out one tank first, then multiply, divide, and round up.

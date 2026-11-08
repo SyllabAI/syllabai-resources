@@ -1,0 +1,129 @@
+{
+ "topic": "grade-5-5-12-data",
+ "lane": "igcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Typical value and spread",
+   "body": "![Ordered scores on a number line with a matching box plot labelled $Q_1 = 18$, median $= 20$, $Q_3 = 22$, and IQR $= 4$](../assets/001-5a777774-29ab-48f1-837e-cc332660fb99.jpeg)\nWhen we describe data, we usually want one number for a typical value and one number for spread. Typical values include the mean and median, while spread can be shown by the range or the interquartile range.\n\nQuartiles split ordered data into four parts. $Q_1$ is the middle of the lower half, $Q_3$ is the middle of the upper half, and\n$$\n\\text{IQR} = Q_3 - Q_1\n$$\n\nThe range uses the whole data set:\n$$\n\\text{range} = \\text{highest} - \\text{lowest}\n$$\nA smaller IQR means the middle half of the data is less spread out, so the results are more consistent.",
+   "figure_refs": [
+    "assets/001-5a777774-29ab-48f1-837e-cc332660fb99.jpeg"
+   ]
+  },
+  {
+   "heading": "Worked example: finding the interquartile range",
+   "body": "Suppose the scores are 19, 15, 21, 18, 24, 21, 16, 22, 20, 18, 25. First put them in order: 15, 16, 18, 18, 19, 20, 21, 21, 22, 24, 25. There are 11 values, so the median is the 6th value, which is 20.\n\nDo not include this median when you split the data into lower and upper halves. The lower half is 15, 16, 18, 18, 19, so $Q_1 = 18$. The upper half is 21, 21, 22, 24, 25, so $Q_3 = 22$.\n\nNow subtract the quartiles: $$\\text{IQR} = Q_3 - Q_1 = 22 - 18 = 4$$ So the middle half of the scores is spread over 4 points."
+  },
+  {
+   "heading": "Comparing two groups",
+   "body": "When you compare two groups, make two separate comments. Use the median to describe the typical score, and use the IQR to describe spread or consistency.\n\nExample: Red Class has median 31 and IQR 15. Blue Class has median 28.5 and IQR 8. Red Class has the higher typical score because $31 > 28.5$.\n\nBlue Class has the smaller IQR, so Blue Class is more consistent. A larger IQR does not mean a group did better; it only means the results are more spread out."
+  },
+  {
+   "heading": "Combined means",
+   "body": "For mean questions, think about totals first. The key formula used to navigate these problems is: \n$$\\text{total} = \\text{mean} \\times \\text{number of values}$$\n\nExample: 24 students are in Group A and 36 are in Group B. The mean for all 60 students is 70.4, and Group A has mean 73.4. First find the totals for the whole set and the known group: \n$$70.4 \\times 60 = 4224$$\nand\n$$73.4 \\times 24 = 1761.6$$\n\nSubtract to get Group B's total: $$4224 - 1761.6 = 2462.4$$. Now divide by the 36 students in Group B: $$2462.4 \\div 36 = 68.4$$. So Group B's mean is 68.4. Avoid averaging the two means directly, as groups with different sizes must be weighted."
+  },
+  {
+   "heading": "Combined range",
+   "body": "For a combined range, you need the overall lowest value and the overall highest value. If a group gives you a lowest value and a range, first work out its highest value.\n\nExample: Group A has lowest 41 and range 54, so its highest value is $$41 + 54 = 95$$. Group B has lowest 36 and range 52, so its highest value is $$36 + 52 = 88$$.\n\nThe overall lowest value is 36 and the overall highest value is 95. This allows us to calculate: $$\\text{combined range} = 95 - 36 = 59$$\n\nDo not add the two ranges together. Range depends only on the extreme values of the combined data set, not the sum of individual ranges."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "In an ordered data set with 11 values, which value is the median?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The 5th value",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "The 6th value",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "The mean of the 5th and 6th values",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "The 7th value",
+     "is_correct": false
+    }
+   ],
+   "explanation": "With 11 values, the middle position is $(11+1)/2 = 6$, so the median is the 6th value. A common wrong answer is A, because students count the 5 values below the middle but forget that the middle value itself is the 6th one."
+  },
+  {
+   "id": "card-8",
+   "question": "Red Class has median 31 and IQR 15. Blue Class has median 28.5 and IQR 8. Which comparison is correct?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Red Class has the higher typical score, and Blue Class is more consistent",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "Blue Class has the higher typical score, and Blue Class is more consistent",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "Red Class has the higher typical score, and Red Class is more consistent",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Blue Class has the higher typical score, and Red Class is more consistent",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Red Class has the higher typical score because its median is larger: $31 > 28.5$. Blue Class is more consistent because its IQR is smaller: $8 < 15$. A common wrong answer is C, which mixes up typical score with consistency and assumes the class with the higher median must also be more consistent."
+  },
+  {
+   "id": "card-13",
+   "question": "Group A has lowest 12 and range 20. Group B has lowest 8 and range 17. What is the combined range?",
+   "options": [
+    {
+     "id": "a",
+     "text": "20",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "24",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "29",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "37",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Group A's highest value is $12 + 20 = 32$ and Group B's highest value is $8 + 17 = 25$. The overall lowest value is 8 and the overall highest value is 32, so the combined range is $32 - 8 = 24$. A common wrong answer is A, which just chooses the larger given range instead of using the overall lowest and highest values."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-5-5-12-data/lessons",
+ "source_sha256": "7393f38750f8d0615317053b947c476a00a747c25148d860c049beb168bf4413",
+ "extracted_at": "2026-11-08T19:00:57Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "3bb38d1b-b34c-43f2-83cb-a872d27e5990",
+  "topic_id": "43d4739b-0d50-462e-8281-17d35d4df35d",
+  "created_at": "2026-05-13T12:27:56.336Z",
+  "updated_at": "2026-05-13T12:30:41.318Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

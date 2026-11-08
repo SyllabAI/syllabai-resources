@@ -1,0 +1,135 @@
+{
+ "topic": "grade-2-2-10-angles",
+ "lane": "igcse-maths-edexcel",
+ "grade": "2",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What is an angle?",
+   "body": "![Four separate labelled angles showing acute 35°, right 90°, obtuse 120°, and reflex 250°](../assets/001-9993c320-d41e-462e-8ed8-a58eb4c7519a.jpeg)\n\nAn angle measures the turn between two straight lines that meet at a point. The point where they meet is called the vertex, and angles are measured in degrees, written with the symbol $^\\circ$.\n\nAn acute angle is less than $90^\\circ$, and a right angle is exactly $90^\\circ$. A right angle is often marked with a small square in a diagram.\n\nAn obtuse angle is more than $90^\\circ$ but less than $180^\\circ$. A reflex angle is more than $180^\\circ$ but less than $360^\\circ$. A quick check is to compare the angle with the corner of a rectangle.",
+   "figure_refs": [
+    "assets/001-9993c320-d41e-462e-8ed8-a58eb4c7519a.jpeg"
+   ]
+  },
+  {
+   "heading": "Measuring and drawing with a protractor",
+   "body": "![Semicircular protractor measuring an obtuse angle with one arm on 0° and the other crossing 116° on the correct scale](../assets/002-3d82a065-7339-4508-bde4-34a9fbee9569.jpeg)\nTo measure an angle, put the centre of the protractor exactly on the vertex. Then line one arm up with the $0^{\\circ}$ line so you know which scale starts correctly.\n\nRead the number where the other arm crosses that scale. In this example, the angle is $116^{\\circ}$, so it is obtuse because it is greater than $90^{\\circ}$ but less than $180^{\\circ}$.\n\nTo draw an angle, reverse the process: draw one arm, place the centre on the vertex, mark the required number, then join the mark back to the vertex. If the picture looks acute but your reading is something like $140^{\\circ}$, you have probably used the wrong scale.",
+   "figure_refs": [
+    "assets/002-3d82a065-7339-4508-bde4-34a9fbee9569.jpeg"
+   ]
+  },
+  {
+   "heading": "Core angle facts",
+   "body": "Angles on a straight line add to $180^\\circ$. If two lines are perpendicular, they meet at $90^\\circ$, so a split right angle can be found with subtraction, for example $90 - 34 = 56$.\n\nAngles around a point add to $360^\\circ$. Use this rule only when the angles make a full turn around one vertex.\n\nThe three interior angles of any triangle add to $180^\\circ$. In exam questions, write the exact reason you used, such as \"angles in a triangle add up to $180^\\circ$\"."
+  },
+  {
+   "heading": "Isosceles and equilateral triangles",
+   "body": "An isosceles triangle has two equal sides, so the angles opposite those sides are equal. An equilateral triangle has three equal sides, so each angle is $60^\\circ$.\n\nSuppose an isosceles triangle has base angles $72^\\circ$ and $72^\\circ$, and the top angle is $x$. Use the triangle sum to write $x + 72 + 72 = 180$.\n\nAdd the known angles first, then subtract from $180$: $x = 180 - 144 = 36$. So the top angle is $36^\\circ$, and only an equilateral triangle would have all three angles equal."
+  },
+  {
+   "heading": "Combined diagrams and multi-step questions",
+   "body": "![Square ABDE joined to equilateral triangle BCD on side BD, with angle ADB marked 90°, angle BDC marked 60°, and angle ADC highlighted at D](../assets/003-ac757748-0def-49b6-acae-e3f46b28607d.jpeg)\n\nCombined shape questions often mix angle facts from standard shapes. In a square every corner is $90^\\circ$, and in an equilateral triangle every angle is $60^\\circ$.\n\nIn this diagram, $\\angle ADB = 90^\\circ$ because it is a corner of the square. Also, $\\angle BDC = 60^\\circ$ because triangle $BCD$ is equilateral.\n\nSo the larger angle at $D$ is $\\angle ADC = 90^\\circ + 60^\\circ = 150^\\circ$. Do not guess from the picture; find one missing angle at a time and write a reason for each step.",
+   "figure_refs": [
+    "assets/003-ac757748-0def-49b6-acae-e3f46b28607d.jpeg"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Which word best describes an angle of $127^\\circ$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "acute",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "right",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "obtuse",
+     "is_correct": true
+    },
+    {
+     "id": "d",
+     "text": "reflex",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$127^\\circ$ is bigger than $90^\\circ$ but smaller than $180^\\circ$, so it is obtuse. The most common wrong answer is reflex, but reflex angles are greater than $180^\\circ$, so $127^\\circ$ is not reflex."
+  },
+  {
+   "id": "card-8",
+   "question": "In triangle ABC, angle A is $58^\\circ$ and angle C is $41^\\circ$. What is angle B?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$81^\\circ$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$99^\\circ$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$121^\\circ$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$17^\\circ$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Angles in a triangle add to $180^\\circ$, so first add the known angles: $58 + 41 = 99$. Then subtract from 180 to get $180 - 99 = 81$. The most common wrong answer is $99^\\circ$ because that is just the total of the two given angles, not the missing angle. Hint: Add the known angles before you subtract."
+  },
+  {
+   "id": "card-13",
+   "question": "Points A, B, and C lie on a straight line in that order. D is above the line. Triangle ABD is isosceles with $AD = BD$ and $\\angle ADB = 64^\\circ$. If $\\angle DCB = 31^\\circ$, what is $\\angle BDC$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$27^\\circ$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$58^\\circ$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$64^\\circ$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$122^\\circ$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "In triangle $ABD$, the equal base angles are $(180^\\circ - 64^\\circ) \\div 2 = 58^\\circ$, so $\\angle ABD = 58^\\circ$. Because $B$ lies between $A$ and $C$ on a straight line, $\\angle DBC = 180^\\circ - 58^\\circ = 122^\\circ$. Then in triangle $DBC$, $\\angle BDC = 180^\\circ - 122^\\circ - 31^\\circ = 27^\\circ$."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-2-2-10-angles/lessons",
+ "source_sha256": "f437f5702c1026076bad1a4c0098afb851c226d4df5f027824261e3b780656ff",
+ "extracted_at": "2026-11-08T19:00:18Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "b6ba6b7f-242d-4235-a61c-f904310e23a8",
+  "topic_id": "03f9f962-82ca-4041-80fd-f3f5bb80a996",
+  "created_at": "2026-05-13T12:25:21.102Z",
+  "updated_at": "2026-05-13T12:30:31.828Z",
+  "figures": 3,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

@@ -1,0 +1,132 @@
+{
+ "topic": "grade-7-7-13-the-magnitude-of-a-vector",
+ "lane": "igcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Magnitude means length",
+   "body": "![Vector from the origin to point (x, y) split into horizontal and vertical components, with the full length labelled magnitude](../assets/001-cc20a0f1-15fa-4694-a725-66800dd15c3b.jpeg)\nA vector describes both size and direction. In a column vector $\\begin{pmatrix} x \\\\ y \\end{pmatrix}$, the top number is the horizontal movement and the bottom number is the vertical movement.\n\nThe magnitude of a vector is its length, written as $|\\vec{v}|$. The components form a right-angled triangle, so we use Pythagoras' theorem to calculate this distance.\n\n$$$|\\vec{v}|=\\sqrt{x^2+y^2}$$\n\nFor example, $\\begin{pmatrix} 5 \\\\ -2 \\end{pmatrix}$ means 5 units right and 2 units down. A negative component changes direction, but the magnitude result is still always positive.",
+   "figure_refs": [
+    "assets/001-cc20a0f1-15fa-4694-a725-66800dd15c3b.jpeg"
+   ]
+  },
+  {
+   "heading": "Worked example with a negative component",
+   "body": "Suppose $\\vec{v}=\\begin{pmatrix} -8 \\\\ 15 \\end{pmatrix}$. The negative sign tells you the horizontal part points left, but it does not make the length negative.\n\nSubstitute carefully, keeping the negative in brackets when you square. This is why $(-8)^2=64$, not $-64$. $$ |\\vec{v}|=\\sqrt{(-8)^2+15^2}=\\sqrt{64+225}=\\sqrt{289} $$\n\nNow take the square root to finish the calculation. So the magnitude is $17$."
+  },
+  {
+   "heading": "Exact answers and surds",
+   "body": "Sometimes the square root of the magnitude is not a whole number. In these cases, you should provide an exact answer and simplify the surd whenever possible.\n\nFor $\\vec{p}=\\begin{pmatrix} 10 \\\\ -4 \\end{pmatrix}$, start with the magnitude formula and simplify the value inside the root first. This gives the unsimplified exact magnitude:\n$$|\\vec{p}|=\\sqrt{10^2+(-4)^2}=\\sqrt{100+16}=\\sqrt{116}$$\n\nNow look for a square factor inside $116$ to simplify the expression. Since $116=4\\times29$, we can take the square root of 4 to find the simplified exact magnitude:\n$$|\\vec{p}|=2\\sqrt{29}$$"
+  },
+  {
+   "heading": "Find the vector first, then the magnitude",
+   "body": "![Triangle with vectors AB, BC, and AC showing that AC equals AB plus BC](../assets/002-0543d82f-09f2-4310-ba34-6f180b4b8934.jpeg)\n\nMany questions do not give you the vector whose magnitude you need straight away. To solve these, you must first build the correct vector using a path such as $\\vec{AC}=\\vec{AB}+\\vec{BC}$.\n\nIf you are given $\\vec{CB}$ instead of $\\vec{BC}$, reverse it by changing both signs. With $\\vec{AB}=\\begin{pmatrix} 5 \\\\ -7 \\end{pmatrix}$ and $\\vec{CB}=\\begin{pmatrix} -1 \\\\ 4 \\end{pmatrix}$, we first calculate the necessary components.\n\n$$$\\vec{BC}=-\\vec{CB}=\\begin{pmatrix} 1 \\\\ -4 \\end{pmatrix}$$\n\n$$\\vec{AC}=\\vec{AB}+\\vec{BC}=\\begin{pmatrix} 6 \\\\ -11 \\end{pmatrix}$$\n\nOnly after finding the resultant vector do you calculate its magnitude. Using the Pythagorean theorem on the components, the final exact answer is: $$|\\vec{AC}|=\\sqrt{6^2+(-11)^2}=\\sqrt{157}$$",
+   "figure_refs": [
+    "assets/002-0543d82f-09f2-4310-ba34-6f180b4b8934.jpeg"
+   ]
+  },
+  {
+   "heading": "Parallelograms and diagonals",
+   "body": "In a parallelogram, the diagonal from $A$ to $C$ can be found by going along $\\vec{AB}$ and then $\\vec{BC}$. This gives the vector relationship $\\vec{AC}=\\vec{AB}+\\vec{BC}$, which rearranges to $\\vec{BC}=\\vec{AC}-\\vec{AB}$.\n\nIf $\\vec{AB}=\\begin{pmatrix} 3 \\\\ 2 \\end{pmatrix}$ and $\\vec{AC}=\\begin{pmatrix} 11 \\\\ -4 \\end{pmatrix}$, we subtract component by component to find the side vector. This gives the following result:\n\n$$\\vec{BC}=\\begin{pmatrix} 11 \\\\ -4 \\end{pmatrix}-\\begin{pmatrix} 3 \\\\ 2 \\end{pmatrix}=\\begin{pmatrix} 8 \\\\ -6 \\end{pmatrix}$$\n\nNow apply the magnitude formula to the new vector. In harder trapezium questions, you may also need to calculate scalar multiples such as $\\vec{DC}=3\\vec{AB}$ before performing this final step:\n\n$$|\\vec{BC}|=\\sqrt{8^2+(-6)^2}=\\sqrt{64+36}=\\sqrt{100}=10$$"
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "What is the magnitude of $\\begin{pmatrix} 3 \\\\ 4 \\end{pmatrix}$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$5$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$7$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$25$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$1$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The magnitude is $\\sqrt{3^2+4^2}=\\sqrt{25}=5$. The common wrong answer $7$ comes from adding the components instead of using Pythagoras."
+  },
+  {
+   "id": "card-7",
+   "question": "What is the simplified exact magnitude of $\\begin{pmatrix} 10 \\\\ -4 \\end{pmatrix}$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$2\\sqrt{29}$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$\\sqrt{116}$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$29$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$2\\sqrt{116}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "First find $\\sqrt{10^2+(-4)^2}=\\sqrt{116}$. The common wrong answer $\\sqrt{116}$ is exact but not simplified, while $2\\sqrt{29}$ is the simplified exact form."
+  },
+  {
+   "id": "card-12",
+   "question": "In a parallelogram, $\\vec{AB} = \\begin{pmatrix} 3 \\\\ 2 \\end{pmatrix}$ and $\\vec{AC} = \\begin{pmatrix} 11 \\\\ -4 \\end{pmatrix}$. What is $\\vec{BC}$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$\\begin{pmatrix} 8 \\\\ -6 \\end{pmatrix}$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$\\begin{pmatrix} 14 \\\\ -2 \\end{pmatrix}$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$\\begin{pmatrix} 8 \\\\ 6 \\end{pmatrix}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$\\begin{pmatrix} -8 \\\\ 6 \\end{pmatrix}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Because $\\vec{AC}=\\vec{AB}+\\vec{BC}$, rearrange to $\\vec{BC}=\\vec{AC}-\\vec{AB}$. The common wrong answer $\\begin{pmatrix} 14 \\\\ -2 \\end{pmatrix}$ comes from adding instead of subtracting."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-7-7-13-the-magnitude-of-a-vector/lessons",
+ "source_sha256": "331dbb37f0ef88b552b25b8a38ebb963ab323b63d439790ce16cfeea591d9e64",
+ "extracted_at": "2026-11-08T19:01:20Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "e879859b-efdb-4239-b482-2c31abbaa2e0",
+  "topic_id": "8e338bc9-d8dd-4fd0-9231-4922e95cb536",
+  "created_at": "2026-05-14T16:09:10.525Z",
+  "updated_at": "2026-05-14T16:11:32.937Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

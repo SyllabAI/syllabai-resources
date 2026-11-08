@@ -1,0 +1,163 @@
+{
+ "topic": "grade-4-4-9-pythagoras",
+ "lane": "igcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Right-angled triangles and the hypotenuse",
+   "body": "![Labelled right-angled triangle with sides a and b as shorter sides and side c as the hypotenuse opposite the right angle](../assets/001-cf895e71-50a3-42fb-a212-0757350f4f2c.jpeg)\n\nPythagoras' theorem only works in a right-angled triangle. The hypotenuse is opposite the right angle. It is always the longest side.\n\nIf the shorter sides are $a$ and $b$ and the hypotenuse is $c$, then:\n$$\nc^2 = a^2 + b^2\n$$\nThis is the key formula you will use.\n\nBefore substituting numbers, mark the $90^\\circ$ angle and identify $c$ first. Do not choose the hypotenuse just because it looks longest; it must be opposite the right angle.",
+   "figure_refs": [
+    "assets/001-cf895e71-50a3-42fb-a212-0757350f4f2c.jpeg"
+   ]
+  },
+  {
+   "heading": "When to add and when to subtract",
+   "body": "If the missing side is the hypotenuse, add the squares of the two shorter sides. Then take a square root at the end.\n\nFor a missing hypotenuse $x$, write:\n$$\nx^2 = a^2 + b^2\n$$\nThe answer should come out longer than either shorter side.\n\nIf the missing side is one of the shorter sides, subtract the known shorter side square from the hypotenuse square. The hypotenuse square is always the biggest square in the equation.\n\nFor a missing shorter side $x$, write:\n$$\nx^2 = c^2 - a^2\n$$\nSquare first, then subtract, so use $15^2 - 8^2$, not $(15 - 8)^2$."
+  },
+  {
+   "heading": "Worked example: finding the hypotenuse",
+   "body": "A right-angled triangle has shorter sides 7.2 cm and 9.6 cm. Let the hypotenuse be $x$. Because $x$ is opposite the right angle, it is the hypotenuse. That means we add the squares of the shorter sides:\n\n$$$x^2 = 7.2^2 + 9.6^2$$\nNow square each number and add:\n$$x^2 = 51.84 + 92.16 = 144$$\nThis gives an exact square, which makes the last step simple.\n\nTake the square root to find the side itself:\n$$x = \\sqrt{144} = 12$$\nSo the hypotenuse is $12 \\, \\text{cm}$, which is longer than both shorter sides."
+  },
+  {
+   "heading": "Worked example: finding a shorter side",
+   "body": "A right-angled triangle has hypotenuse 15 cm and one shorter side 8 cm. Let the missing shorter side be $x$. Start with Pythagoras and then rearrange because $x$ is not the hypotenuse:\n\n$$$15^2 = 8^2 + x^2$$ So we need to subtract $8^2$ from $15^2$. Now calculate the square difference:\n\n$$$x^2 = 15^2 - 8^2 = 225 - 64 = 161$$ Square first, then subtract, not the other way around. Take the square root at the end:\n\n$$$x = \\sqrt{161} = 12.688\\ldots$$ So the missing side is $12.7 \\, \\text{cm}$ to 1 decimal place."
+  },
+  {
+   "heading": "Spotting hidden right-angled triangles",
+   "body": "![Composite diagram](../assets/002-6688d39e-ca69-4fae-923d-71b5f2b18044.jpeg)\n\nMany questions hide a right-angled triangle inside a bigger shape. Look for diagonals, heights, and wall-floor corners.\n\nIn a rectangle, the diagonal is the hypotenuse. In an isosceles triangle, drawing the height from the top vertex bisects the base and makes two right-angled triangles.\n\nA ladder against a wall forms a right-angled triangle. Convert units first, for example: 80 cm = 0.8 m.",
+   "figure_refs": [
+    "assets/002-6688d39e-ca69-4fae-923d-71b5f2b18044.jpeg"
+   ]
+  },
+  {
+   "heading": "A two-step Pythagoras problem",
+   "body": "Some questions need Pythagoras twice. First find a shared side, then use it in a second right-angled triangle.\n\nIn the first triangle, the hypotenuse is $20 \\, \\text{m}$ and one shorter side is $12 \\, \\text{m}$. If the shared side is $s$, then: $$s^2 = 20^2 - 12^2 = 400 - 144 = 256$$\n\nSo $s = \\sqrt{256} = 16$. In the second triangle, use $16 \\, \\text{m}$ and $9 \\, \\text{m}$ as the shorter sides: $$x^2 = 16^2 + 9^2 = 337$$\n\nFinally, $$x = \\sqrt{337} = 18.357\\ldots$$ so the final hypotenuse is $18.4 \\, \\text{m}$ to 3 significant figures. Keep the unrounded calculator value until the last step."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Which statement correctly identifies the hypotenuse?",
+   "options": [
+    {
+     "id": "a",
+     "text": "It is the side opposite the right angle",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "It is the side that looks longest",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "It is any side touching the right angle",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "It is the shortest side",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The hypotenuse is defined by position, so A is correct because it is opposite the $90^\\circ$ angle. Option B is a common mistake because a drawing can be misleading; you must find the right angle first, not guess by appearance."
+  },
+  {
+   "id": "card-6",
+   "question": "A right-angled triangle has shorter sides 5 cm and 12 cm. What is the hypotenuse?",
+   "options": [
+    {
+     "id": "a",
+     "text": "13 cm",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "17 cm",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "169 cm",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "7 cm",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Use $c^2 = 5^2 + 12^2 = 25 + 144 = 169$, so $c = \\sqrt{169} = 13$. Option B is the common mistake of adding $5 + 12$ instead of adding the squares and then square-rooting."
+  },
+  {
+   "id": "card-12",
+   "question": "An isosceles triangle has equal sides 13 cm and base 10 cm. What is the perpendicular height?",
+   "options": [
+    {
+     "id": "a",
+     "text": "12 cm",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "8.3 cm",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "5 cm",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "18 cm",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The height splits the 10 cm base into two 5 cm halves, so $h^2 = 13^2 - 5^2 = 169 - 25 = 144$ and $h = 12$. Option B is the common mistake from using the whole base 10 instead of halving it first."
+  },
+  {
+   "id": "card-14",
+   "question": "A rectangle has side lengths in the ratio $3:4$ and a diagonal of 10 cm. What is the longer side?",
+   "options": [
+    {
+     "id": "a",
+     "text": "6 cm",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "8 cm",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "10 cm",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "12 cm",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Let the sides be $3k$ and $4k$. Then $10^2 = (3k)^2 + (4k)^2 = 25k^2$, so $5k = 10$ and $k = 2$, giving longer side $4k = 8$. Option A is the common mistake of finding the shorter side $3k$ and stopping there."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-4-4-9-pythagoras/lessons",
+ "source_sha256": "1d08bab21df23a55c2be44fd498bc750c069a6f63c1ec94034d19852fdc56620",
+ "extracted_at": "2026-11-08T19:00:52Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "09a911d7-11f3-4dfa-b36d-1e6212fcbf2c",
+  "topic_id": "33e6e1c3-2193-45d2-9479-a690d09d670e",
+  "created_at": "2026-05-13T12:16:44.033Z",
+  "updated_at": "2026-05-13T12:27:00.853Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

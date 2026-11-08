@@ -1,0 +1,136 @@
+{
+ "topic": "grade-1-1-5-place-value",
+ "lane": "igcse-maths-edexcel",
+ "grade": "1",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What place value means",
+   "body": "![Place value chart of 36.482 showing columns from ten-thousands to thousandths and the value of each digit](../assets/001-03599b7c-4424-4fb5-aa44-c482472fd3b4.jpeg)\n\nA digit is one symbol from $0$ to $9$, but a number can have many digits. Place value means the value a digit has because of its position in a number.\n\nIn $36.482$, the $3$ is worth $30$, the $6$ is worth $6$, the $4$ is worth $0.4$, the $8$ is worth $0.08$, and the $2$ is worth $0.002$. Digits further left have greater value, while digits further right after the decimal point have smaller value.",
+   "figure_refs": [
+    "assets/001-03599b7c-4424-4fb5-aa44-c482472fd3b4.jpeg"
+   ]
+  },
+  {
+   "heading": "Whole numbers and placeholders",
+   "body": "Whole-number columns go ones, tens, hundreds, thousands as you move left. To find a digit's value, name its column, then multiply by that column value.\n\nWorked example: in 2,794, count from the right. The 4 is ones, the 9 is tens, the 7 is hundreds, and the 2 is thousands, so the 7 is worth $7 \\times 100 = 700$.\n\nZeros are placeholders that keep digits in the correct columns. In 8,041, the 0 sits in the hundreds column, so the 4 is in the tens column and is worth $4 \\times 10 = 40$, not 400."
+  },
+  {
+   "heading": "Decimal place value",
+   "body": "After the decimal point, the first place is tenths, the second is hundredths, and the third is thousandths. Read these columns carefully from left to right.\n\nWorked example: in 48.263, the 2 is tenths, the 6 is hundredths, and the 3 is thousandths. So the value of the 6 is $6 \\times 0.01 = 0.06$.\n\nAdding zeros at the end of a decimal does not change its value. For example, $0.5 = 0.50$ and $1.6 = 1.600$."
+  },
+  {
+   "heading": "Building numbers and writing millions",
+   "body": "If a question says \"make a 5-digit number with 6 as the thousands digit\", think in columns. The first digit cannot be 0, or the number would not really be a 5-digit number.\n\nOne possible answer is 76,421, because the 6 is in the thousands column and appears only once. This same column thinking helps when writing large numbers in figures.\n\nA million is $1\\,000\\,000$. So 7 million is 7,000,000, and\n\n$$$4.6 \\times 1\\,000\\,000 = 4\\,600\\,000$$\n\nso 4.6 million is 4,600,000."
+  },
+  {
+   "heading": "Ordering whole numbers and decimals",
+   "body": "![Decimal comparison table rewriting 0.42, 0.402, 0.24, 0.024 and 0.204 to three decimal places before ordering them](../assets/002-fb75c035-6996-47d7-8372-0524ca0928a3.jpeg)\nFor whole numbers, compare from left to right. If one number has fewer digits than another, it is usually smaller.\n\nFor decimals, line up the decimal points and add zeros if needed. This lets you compare the same place values fairly, so a longer decimal is not automatically larger.\n\nWorked example: order 0.42, 0.402, 0.24, 0.024, and 0.204. Write them as 0.420, 0.402, 0.240, 0.024, and 0.204, then compare from left to right, giving $0.024 < 0.204 < 0.24 < 0.402 < 0.42$.",
+   "figure_refs": [
+    "assets/002-fb75c035-6996-47d7-8372-0524ca0928a3.jpeg"
+   ]
+  },
+  {
+   "heading": "Digit cards and smart choices",
+   "body": "To make the largest number from digit cards, put the largest digits in the highest-value columns. For example, from 6, 1, 8, and 4, the largest 3-digit number is 864 because 8 goes in hundreds, 6 in tens, and 4 in ones.\n\nTo make the smallest whole number, put the smallest digits first, but never start with 0. If you are making two 2-digit numbers and adding them, the tens columns matter more than the ones columns.\n\nWorked example: using 1, 5, 7, and 3 to make two 2-digit numbers with the smallest possible sum, put 1 and 3 in the tens columns. One arrangement is $15 + 37 = 52$, and any arrangement with 1 and 3 in the tens places gives the same smallest sum."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "In 2,794, what is the value of the digit 7?",
+   "options": [
+    {
+     "id": "a",
+     "text": "7",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "70",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "700",
+     "is_correct": true
+    },
+    {
+     "id": "d",
+     "text": "7000",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The 7 is in the hundreds column, so it is worth $7 \\times 100 = 700$. Option B is the common mistake if you count the 7 as tens instead of hundreds. Hint: Count from the right: ones, tens, hundreds, thousands."
+  },
+  {
+   "id": "card-7",
+   "question": "In 48.263, what is the value of the digit 6?",
+   "options": [
+    {
+     "id": "a",
+     "text": "0.6",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "0.06",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "6",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "0.006",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The 6 is the second digit after the decimal point, so it is in the hundredths column and is worth $6 \\times 0.01 = 0.06$. Option A is the common wrong answer because tenths is the first digit after the decimal point, not the second."
+  },
+  {
+   "id": "card-12",
+   "question": "Which list puts these decimals in order from smallest to largest: 2.7, 2.07, 2.73, 2.703, 2.37?",
+   "options": [
+    {
+     "id": "a",
+     "text": "2.07, 2.37, 2.7, 2.703, 2.73",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "2.07, 2.37, 2.703, 2.7, 2.73",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "2.37, 2.07, 2.7, 2.703, 2.73",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "2.07, 2.7, 2.37, 2.703, 2.73",
+     "is_correct": false
+    }
+   ],
+   "explanation": "All the numbers have whole-number part 2. Write them as $2.070$, $2.370$, $2.700$, $2.703$, and $2.730$, then compare from left to right. Option B is the common mistake because it treats 2.703 as smaller than 2.7, but $2.7 = 2.700$, so 2.703 is larger."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-1-1-5-place-value/lessons",
+ "source_sha256": "018416d9a3f3da962953e101b40b6675d49eefb08a3c37e4e17120646469f098",
+ "extracted_at": "2026-11-08T19:00:13Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "b704af5b-3fbe-4a1f-a564-236fa8200360",
+  "topic_id": "68ddc666-96d1-40ab-a084-7f6bf567d5a4",
+  "created_at": "2026-05-19T13:25:35.957Z",
+  "updated_at": "2026-05-19T13:28:57.303Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

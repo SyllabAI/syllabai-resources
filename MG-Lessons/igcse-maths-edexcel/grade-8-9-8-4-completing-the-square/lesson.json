@@ -1,0 +1,133 @@
+{
+ "topic": "grade-8-9-8-4-completing-the-square",
+ "lane": "igcse-maths-edexcel",
+ "grade": "8",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Building a perfect square",
+   "body": "Completing the square rewrites a quadratic into a form where the square is obvious. The aim is to write it as $(x + a)^2 + b$, which makes the structure much easier to read.\n\nThe pattern comes from expansion:\n$$\n(x + p)^2 = x^2 + 2px + p^2\n$$\nThe middle term is always twice the number inside the bracket.\n\nSo if the expression begins $x^2 + bx$, the square part starts as $\\left(x + \\frac{b}{2}\\right)^2$. After that, you correct the constant outside the bracket because the square has created a hidden $+\\left(\\frac{b}{2}\\right)^2$."
+  },
+  {
+   "heading": "Worked example with coefficient 1",
+   "body": "To rewrite $x^2 - 8x + 6$, focus on the first two terms. Half of $-8$ is $-4$, so the square bracket must be $(x - 4)^2$.\n\nNow check what that bracket really expands to:\n$$\n(x - 4)^2 = x^2 - 8x + 16\n$$\nThis is close, but it has $+16$ instead of the original constant.\n\nCorrect the extra 16 outside the bracket:\n$$\nx^2 - 8x + 6 = (x - 4)^2 - 16 + 6 = (x - 4)^2 - 10\n$$\nThat outside number is what makes the expression exactly equal to the original quadratic."
+  },
+  {
+   "heading": "Turning points from completed square form",
+   "body": "![Graph of $y=(x-2)^2+1$ with turning point $(2,1)$ and axis of symmetry $x=2$ labelled](../assets/001-b807f30a-f977-4b62-9d1a-a0a0a42d6604.jpeg)\n\nWhen a quadratic is written as $y = (x - h)^2 + k$, its turning point is $(h, k)$. The axis of symmetry is the vertical line $x = h$.\n\nIn $y = x^2 + 10x + 4$, half of 10 is 5, so we can complete the square:\n\n$$y = (x + 5)^2 - 25 + 4 = (x + 5)^2 - 21$$\n\nThis puts the quadratic into completed square form. The square part is smallest when it equals 0, so $x + 5 = 0$ and $x = -5$. Therefore the turning point is $(-5, -21)$, not $(5, -21)$.",
+   "figure_refs": [
+    "assets/001-b807f30a-f977-4b62-9d1a-a0a0a42d6604.jpeg"
+   ]
+  },
+  {
+   "heading": "Fractions are allowed",
+   "body": "If the coefficient of $x$ is odd, halving it gives a fraction and that is completely fine. You use exactly the same method as you would with even integers.\n\nFor $y = x^2 + 5x - 2$, half of 5 is $\\frac{5}{2}$, so start with $\\left(x + \\frac{5}{2}\\right)^2$. Expanding this bracket shows that the hidden constant being added is $\\frac{25}{4}$.\n\nSubtracting this constant gives: $$y = \\left(x + \\frac{5}{2}\\right)^2 - \\frac{25}{4} - 2 = \\left(x + \\frac{5}{2}\\right)^2 - \\frac{33}{4}$$ From this form, we can see the turning point is $\\left(-\\frac{5}{2}, -\\frac{33}{4}\\right)$."
+  },
+  {
+   "heading": "When the leading coefficient is not 1",
+   "body": "If the quadratic starts with a coefficient other than 1, such as $2x^2$ or $3x^2$, first factor that number out of the $x^2$ and $x$ terms. You can then complete the square for the simplified expression inside the bracket.\n\nFor $2x^2 - 20x + 41$, we begin by factoring out the 2:\n$$2x^2 - 20x + 41 = 2(x^2 - 10x) + 41$$\nInside the bracket, $x^2 - 10x$ is completed to $(x - 5)^2 - 25$.\n\nSubstitute this back and multiply the correction term by the coefficient:\n$$2((x - 5)^2 - 25) + 41 = 2(x - 5)^2 - 50 + 41 = 2(x - 5)^2 - 9$$\nThe turning point is $(5, -9)$. A common error is forgetting to multiply the $-25$ by the leading 2."
+  },
+  {
+   "heading": "Solving by completing the square",
+   "body": "To solve a quadratic exactly, rewrite it in completed square form, move the constant, then square root both sides. This is especially useful when the answers are not whole numbers.\n\nFor $x^2 + 6x - 5 = 0$, complete the square first: $$x^2 + 6x - 5 = (x + 3)^2 - 9 - 5 = (x + 3)^2 - 14$$ So the equation becomes $(x + 3)^2 - 14 = 0$.\n\nNow isolate the square to prepare for rooting: $$(x + 3)^2 = 14$$ Taking square roots gives $x + 3 = \\pm \\sqrt{14}$.\n\nFinally, rearrange the equation to solve for $x$: $$x = -3 \\pm \\sqrt{14}$$ The $\\pm$ matters because both $+\\sqrt{14}$ and $-\\sqrt{14}$ square to 14."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Which square bracket should you write first when completing the square for $x^2 + 10x - 3$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$(x + 5)^2$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$(x + 10)^2$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$(x + 3)^2$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$(x + 25)^2$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A is right because half of 10 is 5, so the square must start as $(x + 5)^2$. The common wrong answer B uses the full coefficient of $x$ instead of halving it."
+  },
+  {
+   "id": "card-7",
+   "question": "What is the turning point of $y = (x - 6)^2 - 11$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$(6, -11)$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$(-6, -11)$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$(6, 11)$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$(-6, 11)$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A is right because the square is zero when $x - 6 = 0$, so $x = 6$ and then $y = -11$. The common wrong answer B flips the sign even though the bracket is already $x - 6$."
+  },
+  {
+   "id": "card-12",
+   "question": "Which is equivalent to $3x^2 + 12x + 1$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$3(x + 2)^2 - 11$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$3(x + 2)^2 - 3$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$3(x + 4)^2 + 1$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$(3x + 2)^2 - 11$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A is right because $3x^2 + 12x + 1 = 3(x^2 + 4x) + 1 = 3((x + 2)^2 - 4) + 1 = 3(x + 2)^2 - 11$. The common wrong answer B forgets that the correction $-4$ inside the bracket must also be multiplied by 3."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-8-9-8-4-completing-the-square/lessons",
+ "source_sha256": "5f637d32b382a92bc6c9bac60ce4234d3954cb45b254717ab5135e752646e627",
+ "extracted_at": "2026-11-08T19:01:28Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "969a8d4b-f05a-4d06-9062-292a14a713bf",
+  "topic_id": "46c2a320-dee1-45d2-8fad-473ccc73955c",
+  "created_at": "2026-05-14T03:18:33.777Z",
+  "updated_at": "2026-05-14T03:21:26.877Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

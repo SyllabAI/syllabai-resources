@@ -1,0 +1,137 @@
+{
+ "topic": "grade-5-5-5-expanding-and-factorising-quadratics",
+ "lane": "igcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What are expanding and factorising?",
+   "body": "![Area model showing a rectangle split into four parts for expanding (x + 4)(x + 3), with cells labelled x squared, 4x, 3x, and 12, then simplified to x squared plus 7x plus 12.](../assets/001-43bf0166-f038-44f8-9b85-fcf305d2b4b4.jpeg)\n\nA quadratic expression has highest power 2, such as $x^2 + 6x + 8$. Expanding means removing brackets by multiplying, and factorising means writing the quadratic back as a product of brackets.\n\nWhen you multiply two linear brackets, each term in the first bracket multiplies each term in the second, so there are four products to find. The area model shows why $(x + 4)(x + 3)$ becomes $x^2 + 4x + 3x + 12$, then simplifies to $x^2 + 7x + 12$.",
+   "figure_refs": [
+    "assets/001-43bf0166-f038-44f8-9b85-fcf305d2b4b4.jpeg"
+   ]
+  },
+  {
+   "heading": "Multiplying terms accurately",
+   "body": "When you expand brackets, multiply the numbers and the variables separately. Remember that $x \\cdot x = x^2$, not $2x$.\n\nSigns matter as well: positive times positive gives positive, negative times negative gives positive, and different signs give negative. For example, $-3x \\cdot 5x = -15x^2$."
+  },
+  {
+   "heading": "Expanding two brackets",
+   "body": "To expand two brackets, use the four products method: first, outside, inside, last. Writing all four products before simplifying helps you avoid missing a term.\n\nFor $(x + 5)(x - 2)$, the four products are $x^2$, $-2x$, $5x$, and $-10$. Write them all first:\n\n$$$x^2 - 2x + 5x - 10$$\n\nThen collect like terms to get $x^2 + 3x - 10$. After expanding, you usually expect an $x^2$ term, an $x$ term, and a constant term. If one seems to be missing, check whether it has cancelled out."
+  },
+  {
+   "heading": "Coefficients and negative signs",
+   "body": "A coefficient changes the size of the products, but the method is still exactly the same. Keep the subtraction sign attached to the term that follows it.\n\nFor $(3p - 4)(p - 6)$, the four products are $3p^2$, $-18p$, $-4p$, and $24$. Write and simplify them as follows:\n\n$$$3p^2 - 18p - 4p + 24 = 3p^2 - 22p + 24$$\n\nThe last product is positive because $(-4)(-6) = 24$. A very common mistake is to lose one negative sign and write $-24$ instead."
+  },
+  {
+   "heading": "Factorising $x^2 + bx + c$",
+   "body": "Factorising is the reverse of expanding. For expressions of the form $x^2 + bx + c$, look for two numbers that multiply to give the constant $c$ and add to give the coefficient $b$. For $x^2 + 11x + 24$, the pair is 3 and 8 because $3 \\times 8 = 24$ and $3 + 8 = 11$.\n\n$$$x^2 + 11x + 24 = (x + 3)(x + 8)$$\n\nSigns tell you which brackets to use. In $x^2 - 9x + 20$, the final term is positive so the signs match, and the middle term is negative so both signs in the binomials must be negative:\n\n$$$x^2 - 9x + 20 = (x - 4)(x - 5)$$"
+  },
+  {
+   "heading": "Special cases to spot quickly",
+   "body": "A squared bracket means the bracket is multiplied by itself, so $(y - 8)^2 = (y - 8)(y - 8)$. Expanding gives $y^2 - 8y - 8y + 64 = y^2 - 16y + 64$, so the middle term does not disappear.\n\nA perfect square trinomial has the form $x^2 + 2ax + a^2$ or $x^2 - 2ax + a^2$. For example, $x^2 + 14x + 49 = (x + 7)^2$ because $49 = 7^2$ and $14 = 2 \\times 7$.\n\nA difference of two squares has the form $x^2 - a^2$. So $x^2 - 64 = (x + 8)(x - 8)$, and $x^2 + 64$ does not factorise this way at IGCSE level."
+  },
+  {
+   "heading": "Always check by expanding",
+   "body": "A quick check on any factorisation is to expand your brackets back out. If you get the original quadratic exactly, including the signs, your factorisation is correct.\n\nFor example, expanding $(n + 6)(n - 4)$ gives:\n$$\n(n + 6)(n - 4) = n^2 - 4n + 6n - 24 = n^2 + 2n - 24\n$$\nThus, $(n + 6)(n - 4)$ is confirmed as the correct factorisation of $n^2 + 2n - 24$.\n\nIn an exam, write all four products before simplifying, and use the rule \"multiply to the end, add to the middle\" when factorising $x^2 + bx + c$. These two habits prevent most sign errors."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-3",
+   "question": "Simplify $-3x \\cdot 5x$.",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$-15x^2$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$-15x$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$15x^2$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$2x$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Multiply the numbers to get $-15$ and multiply the variables to get $x^2$, so the result is $-15x^2$. The most common wrong answer is B, which comes from forgetting that $x \\cdot x = x^2$. Hint: Treat the number part and the variable part separately."
+  },
+  {
+   "id": "card-7",
+   "question": "Expand and simplify $(2x - 3)(x - 5)$.",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$2x^2 - 13x + 15$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$2x^2 - 7x - 15$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$2x^2 + 13x + 15$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$2x^2 - 13x - 15$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Multiplying gives $2x^2$, $-10x$, $-3x$, and $15$, so the middle terms combine to $-13x$ and the constant is positive 15. The most common wrong answer is D, which comes from forgetting that a negative times a negative is positive."
+  },
+  {
+   "id": "card-11",
+   "question": "Which is the correct factorisation of $x^2 + 2x - 35$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$(x + 7)(x - 5)$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$(x + 5)(x - 7)$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$(x - 7)(x - 5)$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$(x + 7)(x + 5)$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The numbers must multiply to $-35$ and add to 2, so they are 7 and $-5$. The most common wrong answer is B, but $(x + 5)(x - 7)$ expands to $x^2 - 2x - 35$, so the middle term has the wrong sign."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-5-5-5-expanding-and-factorising-quadratics/lessons",
+ "source_sha256": "a176763b3b301c9a7570b16632515c79b0d03e3f2b0daccafd2999459082b231",
+ "extracted_at": "2026-11-08T19:01:00Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "d441b699-8342-41fd-8966-ff2b567c3ede",
+  "topic_id": "a85b59ac-a071-414c-835f-2fbd0957529c",
+  "created_at": "2026-05-13T11:47:58.123Z",
+  "updated_at": "2026-05-13T11:48:45.115Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

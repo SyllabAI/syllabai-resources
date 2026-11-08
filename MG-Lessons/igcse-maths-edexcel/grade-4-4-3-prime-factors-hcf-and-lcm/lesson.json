@@ -1,0 +1,160 @@
+{
+ "topic": "grade-4-4-3-prime-factors-hcf-and-lcm",
+ "lane": "igcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Factors, multiples and primes",
+   "body": "A factor divides exactly into a number, while a multiple is a number in another number's times table. A prime number has exactly two factors, 1 and itself.\n\nFor example, $8$ is a factor of $56$ because $56 \\div 8 = 7$. Also, $56$ is a multiple of $8$ because $8 \\times 7 = 56$.\n\nThe number $1$ is not prime because it has only one factor. These ideas lead to HCF, the biggest shared factor, and LCM, the smallest shared multiple."
+  },
+  {
+   "heading": "Writing a number as a product of prime factors",
+   "body": "![Factor tree for 84 showing 84 splitting to 12 and 7, 12 splitting to 3 and 4, and 4 splitting to 2 and 2, with prime leaves 2, 2, 3 and 7 highlighted](../assets/001-e468607e-b680-4206-bf60-a74f45548f53.jpeg)\n\nA prime factorisation writes a number as a multiplication using only prime numbers. A factor tree helps you keep splitting until every branch ends with a prime.\n\nFor $84$, start with $84 = 12 \\times 7$. Then split $12 = 3 \\times 4$, and finally split $4 = 2 \\times 2$.\n\nCollect the prime leaves $2$, $2$, $3$ and $7$ and write them neatly as $84 = 2^2 \\times 3 \\times 7$. The exponent in $2^2$ shows repeated multiplication: $2 \\times 2$.",
+   "figure_refs": [
+    "assets/001-e468607e-b680-4206-bf60-a74f45548f53.jpeg"
+   ]
+  },
+  {
+   "heading": "Finding the HCF",
+   "body": "To find the Highest Common Factor (HCF), write each number as a product of prime factors. Keep only the prime factors that appear in both numbers. If a prime factor appears with different powers, use the smaller power.\n\nFor example, $72 = 2^3 \\times 3^2$ and $108 = 2^2 \\times 3^3$. The shared prime factors are $2^2$ and $3^2$, because both numbers contain at least two 2s and two 3s.\n\nMultiply the shared factors:\n$$2^2 \\times 3^2 = 36$$\nSo the HCF is $36$. Because we used every shared prime factor, no larger common factor is possible.\n\nIn a Venn diagram, the HCF comes from the overlap. The extra $2$ from 72 and the extra $3$ from 108 are not included in the HCF. For the LCM, you would use all the prime factors from both numbers."
+  },
+  {
+   "heading": "Finding the LCM",
+   "body": "For LCM, use every prime that appears in at least one of the numbers. If a prime has different powers, choose the largest power.\n\nFor $90$ and $126$, write $90 = 2 \\times 3^2 \\times 5$ and $126 = 2 \\times 3^2 \\times 7$. The primes you need are $2$, $3$, $5$ and $7$.\n\nSo $\\text{LCM} = 2 \\times 3^2 \\times 5 \\times 7 = 630$. This is the smallest number that is a multiple of both 90 and 126.\n\nIf a prime appears in only one number, it does not belong in the HCF, but it does belong in the LCM. That is why 5 and 7 are both included here."
+  },
+  {
+   "heading": "Repeated events use the LCM",
+   "body": "When repeated events start together, the next time they happen together is found using the LCM of the intervals. After finding the LCM, add that amount of time to the start time.\n\nFor buses every 12 minutes and 18 minutes, write $12 = 2^2 \\times 3$ and $18 = 2 \\times 3^2$. Using the largest powers gives $\\text{LCM} = 2^2 \\times 3^2 = 36$.\n\nIf both buses leave at 8:15 am, they next leave together 36 minutes later at 8:51 am. Do not add 12 and 18, because 30 is not a multiple of both intervals."
+  },
+  {
+   "heading": "Working backwards from HCF and LCM",
+   "body": "A reverse question gives you the HCF and LCM and asks for the original numbers. If two numbers have HCF 6, you can write them as $6a$ and $6b$, where $a$ and $b$ are coprime.\n\nIf the LCM is 180, divide by the HCF: $180 \\div 6 = 30$. Now look for a coprime factor pair of 30, such as 5 and 6.\n\nMultiply back by 6: $6 \\times 5 = 30$ and $6 \\times 6 = 36$. So one possible pair is 30 and 36.\n\nAlways check both conditions at the end. Here, $\\text{HCF}(30,36) = 6$ and $\\text{LCM}(30,36) = 180$."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Which statement is true?",
+   "options": [
+    {
+     "id": "a",
+     "text": "1 is a prime number",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "8 is a factor of 56",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "56 is a factor of 8",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "9 is a prime number",
+     "is_correct": false
+    }
+   ],
+   "explanation": "8 is a factor of 56 because $56 \\div 8 = 7$, which is a whole number. A common wrong choice is A, but 1 is not prime because it has only one factor, not two."
+  },
+  {
+   "id": "card-7",
+   "question": "What is the HCF of 48 and 60?",
+   "options": [
+    {
+     "id": "a",
+     "text": "12",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "24",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "240",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "6",
+     "is_correct": false
+    }
+   ],
+   "explanation": "HCF means shared primes with smallest powers. $48 = 2^4 \\times 3$ and $60 = 2^2 \\times 3 \\times 5$, so the shared primes with the smallest powers are $2^2$ and $3$. That gives $2^2 \\times 3 = 12$. A common wrong answer is 240, which is the LCM because it uses the largest powers and includes the 5."
+  },
+  {
+   "id": "card-12",
+   "question": "Two alarms ring together at $9:00$ am. One rings every $8$ minutes and the other every $12$ minutes. When do they next ring together?",
+   "options": [
+    {
+     "id": "a",
+     "text": "9:20 am",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "9:24 am",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "9:36 am",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "10:36 am",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The LCM of $8$ and $12$ is $24$, so the next time together is $24$ minutes after $9:00$ am, which is $9:24$ am. A common wrong answer is $9:20$ am, which comes from adding the intervals even though $20$ is not a multiple of $12$."
+  },
+  {
+   "id": "card-14",
+   "question": "Two numbers are both greater than 20. Their HCF is 6 and their LCM is 180. Which pair fits?",
+   "options": [
+    {
+     "id": "a",
+     "text": "24 and 45",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "30 and 36",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "18 and 60",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "12 and 90",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$30 = 2 \\times 3 \\times 5$ and $36 = 2^2 \\times 3^2$, so the shared smallest powers give HCF $6$ and the largest powers give LCM $2^2 \\times 3^2 \\times 5 = 180$. A common wrong answer is 18 and 60 because it does have HCF 6 and LCM 180, but 18 is not greater than 20. Hint: Divide the LCM by the HCF, then use a coprime factor pair of the result."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-4-4-3-prime-factors-hcf-and-lcm/lessons",
+ "source_sha256": "0518c99fef8b7ddc7ceedf9bd787698166bbc706095be116262b2c6a7f4d62e4",
+ "extracted_at": "2026-11-08T19:00:46Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "176f61db-4793-463f-aea9-0f818aa1c4a6",
+  "topic_id": "113a4916-f65b-49dd-87df-3065a7006afa",
+  "created_at": "2026-05-14T03:15:49.573Z",
+  "updated_at": "2026-05-14T03:20:07.760Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

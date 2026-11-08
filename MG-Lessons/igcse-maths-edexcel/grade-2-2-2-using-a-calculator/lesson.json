@@ -1,0 +1,133 @@
+{
+ "topic": "grade-2-2-2-using-a-calculator",
+ "lane": "igcse-maths-edexcel",
+ "grade": "2",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Calculator rules that prevent easy errors",
+   "body": "A calculator is fast, but it only follows what you type. Most mistakes come from missing brackets, typing a fraction badly, or rounding before the end.\n\nAn expression is a calculation such as $1.3^2 + 1.4^2$. Scientific calculators usually follow BIDMAS, which means brackets, indices, division and multiplication, then addition and subtraction.\n\nIf a question says \"write down all the figures on the display\", copy every digit your screen shows on your own calculator. If your calculator shows a fraction or root form first, switch to decimal display with a key such as S⇔D, F⇔D or ≈."
+  },
+  {
+   "heading": "Squares and square roots",
+   "body": "A square means multiply a number by itself, so $1.25^2 = 1.25 \\times 1.25$. A square root reverses this and asks for the positive number whose square gives the value.\n\nFor example, $\\sqrt{2.89} = 1.7$ because $1.7^2 = 2.89$. Also, $1.15^2 = 1.15 \\times 1.15 = 1.3225$.\n\nUse the square root key for roots and the $x^2$ key for squares. Always check whether the square should apply to one number or to a whole bracket."
+  },
+  {
+   "heading": "Brackets first, then powers",
+   "body": "Brackets tell the calculator which part of the expression should be done first. If you typed $4.25 - 0.36^2 - 8.104$, only $0.36$ would be squared, which changes the result significantly.\n\nWork out $(4.25 - 0.36)^2 - 8.104$ by typing the bracketed part first. Inside the brackets, $4.25 - 0.36 = 3.89$, so the squared part becomes $3.89^2 = 15.1321$.\n\nNow subtract $8.104$ from the squared result: $15.1321 - 8.104 = 7.0281$. The final figures displayed on the calculator should be $7.0281$."
+  },
+  {
+   "heading": "Fractions and roots in one expression",
+   "body": "![A labelled diagram of a square root sign enclosing a fraction with numerator 21.8 minus 4.28 and denominator 6.10 plus 1.20](../assets/001-090fc23e-1f1d-4597-ac27-287cbe14b379.jpeg)\n\nFor a fraction, use the fraction template if your calculator has one. If you use the division key instead, bracket the whole denominator so the whole bottom line stays together.\n\nIn $\\sqrt{\\frac{21.8 - 4.28}{6.10 + 1.20}}$, the numerator is $21.8 - 4.28 = 17.52$ and the denominator is $6.10 + 1.20 = 7.30$. So the value inside the root is $17.52 \\div 7.30 = 2.4$.\n\nNow find $\\sqrt{2.4}$, which gives a typical display of $1.549193338$. Write all the digits shown on your own display, and switch to decimal mode first if the calculator shows an exact form.",
+   "figure_refs": [
+    "assets/001-090fc23e-1f1d-4597-ac27-287cbe14b379.jpeg"
+   ]
+  },
+  {
+   "heading": "Round only at the end",
+   "body": "Do not round halfway through a calculation, because a small error can grow in the later steps. Keep the full calculator value until the final answer, then round only if the question asks you to.\n\nFor $\\frac{\\sqrt{11.56 - 5.31}}{2.6^2}$, the display is about $0.3698224852$. To 2 decimal places, keep $0.36$ for now and look at the next digit, which is $9$, so the answer is $0.37$.\n\nFor $\\frac{12.34 + \\sqrt{8.41}}{5.2 \\times 3.7}$, the display is about $0.7920997921$. To 2 significant figures, keep $7$ and $9$; the next digit is $2$, so the rounded answer is $0.79$."
+  },
+  {
+   "heading": "Trig keys: check DEG first",
+   "body": "Before using $\\sin$, $\\cos$ or $\\tan$, check that your calculator is in degree mode. In IGCSE questions the screen should usually show DEG.\n\nFor $\\frac{\\sin 30^\\circ + \\cos 60^\\circ}{\\cos 45^\\circ - \\sin 30^\\circ}$, the numerator is $0.5 + 0.5 = 1$. The denominator is about $0.7071067812 - 0.5 = 0.2071067812$.\n\nSo the value is about $1 \\div 0.2071067812 = 4.828427125$, which rounds to $4.83$ to 2 decimal places. If the calculator is in radians, the answer will be wrong even if every bracket is correct."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "A question says \"write down all the figures on your calculator display\" and your screen shows 4.282258065. What should you write?",
+   "options": [
+    {
+     "id": "a",
+     "text": "4.28",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "4.282258065",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "4.2823",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "4.2822581",
+     "is_correct": false
+    }
+   ],
+   "explanation": "You should copy exactly what the display shows, so $4.282258065$ is correct. The common wrong answer $4.28$ rounds to 2 decimal places, but the question did not ask for rounding."
+  },
+  {
+   "id": "card-7",
+   "question": "Which calculator entry matches $(4.25 - 0.36)^2 - 8.104$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$4.25 - 0.36^2 - 8.104$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$(4.25 - 0.36)^2 - 8.104$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$(4.25 - 0.36 - 8.104)^2$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$4.25 - (0.36^2 - 8.104)$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The square must apply to the whole bracket, so option B is the only correct entry. The common wrong choice A squares only $0.36$, which changes the expression completely."
+  },
+  {
+   "id": "card-13",
+   "question": "Stretch: A calculator display shows $0.046718293$. Rounded to 2 significant figures, what is the answer?",
+   "options": [
+    {
+     "id": "a",
+     "text": "0.05",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "0.047",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "0.046",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "0.0467",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The first two significant figures are 4 and 6, and the next digit is 7, so $0.046718293$ rounds to $0.047$. The common wrong answer $0.05$ ignores that the leading zeros are not significant and rounds too far."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-2-2-2-using-a-calculator/lessons",
+ "source_sha256": "48d4d094b9eb3eb5f029310f3c3298a2628fa8a389a82579bf03f79fdf8298e1",
+ "extracted_at": "2026-11-08T19:00:23Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "edf97590-7d4b-4c2b-9c50-e20a8316a2fd",
+  "topic_id": "4d29d37d-a892-4094-a5f5-9f8a2c092cff",
+  "created_at": "2026-05-14T03:13:06.950Z",
+  "updated_at": "2026-05-14T03:14:57.590Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

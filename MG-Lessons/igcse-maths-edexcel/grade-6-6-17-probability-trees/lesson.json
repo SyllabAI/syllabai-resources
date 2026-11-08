@@ -1,0 +1,136 @@
+{
+ "topic": "grade-6-6-17-probability-trees",
+ "lane": "igcse-maths-edexcel",
+ "grade": "6",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Probability and complements",
+   "body": "Probability is a number from $0$ to $1$, where $0$ means impossible and $1$ means certain. For equally likely outcomes such as counters or cards, use the following formula:\n\n$$$P(\\text{event}) = \\frac{\\text{number of successful outcomes}}{\\text{total number of outcomes}}$$\n\nA probability tree is a branching diagram for events that happen in stages. At each split, the branch probabilities must add to $1$.\n\nA complement means \"does not happen\". If $P(A)=p$, then the probability of the event not occurring is $P(\\text{not }A)=1-p$."
+  },
+  {
+   "heading": "How to read a tree",
+   "body": "To draw a two-stage tree, start with the first event and label its branches. From the end of each first branch, draw the possible outcomes of the second event.\n\nIf the events are independent, the second-stage probabilities stay the same on every branch. If something is taken and not replaced, the later probabilities can change.\n\nRead the wording before calculating. \"And\" usually means multiply one complete path, while \"or\" usually means add separate successful paths after multiplying each one."
+  },
+  {
+   "heading": "Worked example: two blue counters",
+   "body": "![Two-stage probability tree for Bag A and Bag B with the blue then blue path highlighted and labelled 2/5 times 3/5 equals 6/25](../assets/001-88031edb-0a34-427e-a5e2-b4cb301bf570.jpeg)\n\nBag A has $6$ red and $4$ blue counters. Bag B has $2$ red and $3$ blue counters, and one counter is chosen from each bag. We want to find $P(\\text{blue from A and blue from B})$.\n\nFirst find the blue probabilities for each bag. In Bag A, $P(\\text{blue from A}) = \\frac{4}{10} = \\frac{2}{5}$, and in Bag B, $P(\\text{blue from B}) = \\frac{3}{5}$.\n\nThe event \"two blue counters\" is one complete path through the tree: blue from A, then blue from B. To calculate this outcome, we multiply the probabilities along that specific path.\n\n$$$\\frac{2}{5} \\times \\frac{3}{5} = \\frac{6}{25}$$\n\nThere is only one successful path here, so we stop after multiplying. This is the pattern for questions that say \"both\" or \"and\".",
+   "figure_refs": [
+    "assets/001-88031edb-0a34-427e-a5e2-b4cb301bf570.jpeg"
+   ]
+  },
+  {
+   "heading": "Worked example: different colours",
+   "body": "![Two-stage probability tree for Monday and Tuesday scarf colours with blue then white and white then blue paths highlighted and added to 24/49](../assets/002-12e3365e-8df5-4feb-9ce1-a089c3162ed6.jpeg)\n\nSofia wears a blue scarf with probability $\\frac{3}{7}$ on any day, so the probability of a white scarf is $1-\\frac{3}{7}=\\frac{4}{7}$. Different colours can happen in two ways: blue then white, or white then blue.\n\nFind each path first. Each complete route is multiplied separately.\n$$\\frac{3}{7}\\times\\frac{4}{7}=\\frac{12}{49}$$\n$$\\frac{4}{7}\\times\\frac{3}{7}=\\frac{12}{49}$$\n\nNow add the matching path probabilities:\n$$\\frac{12}{49}+\\frac{12}{49}=\\frac{24}{49}$$\n\nA very common mistake is to stop at $\\frac{12}{49}$. That counts only one order and misses the second successful path.",
+   "figure_refs": [
+    "assets/002-12e3365e-8df5-4feb-9ce1-a089c3162ed6.jpeg"
+   ]
+  },
+  {
+   "heading": "At least one is often quickest by complement",
+   "body": "\"At least one\" means one or more. In a two-stage tree, you can add several successful paths, but the complement rule is usually a much quicker method.\n\nSuppose a train is delayed with probability $0.3$ on any day. Then the probability of the train being on time is $P(\\text{not delayed}) = 1 - 0.3 = 0.7$.\n\nThe complement of \"delayed on at least one day\" is \"not delayed on either day\". That is a single path, calculated as:\n$$0.7 \\times 0.7 = 0.49$$\n\nNow subtract from $1$ to find the final probability:\n$$1 - 0.49 = 0.51$$\nSo the probability of at least one delay occurring is $0.51$."
+  },
+  {
+   "heading": "Three branches and changing probabilities",
+   "body": "Not every split has two branches. A tree can have three outcomes such as win, draw or lose, and those branch probabilities must still add to $1$.\n\nIf $P(\\text{win})=0.5$ and $P(\\text{draw})=0.2$, then $P(\\text{lose})=1-0.5-0.2=0.3$. To find the probability of winning both games, follow the single path win then win:\n\n$$$0.5\\times 0.5=0.25$$\n\nWatch for wording like \"not replaced\". Then the first result changes what is left, so the probabilities on the second split may be different."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-3",
+   "question": "A spinner lands on green with probability $\\frac{3}{8}$. If green and purple are the only outcomes, what is $P(\\text{purple})$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$\\frac{5}{8}$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$\\frac{3}{8}$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$\\frac{3}{5}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$\\frac{1}{8}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$\\frac{5}{8}$ is correct because purple is the complement of green, so $1-\\frac{3}{8}=\\frac{5}{8}$. The common wrong answer $\\frac{3}{8}$ just repeats the green probability instead of finding what is left to make the total $1$."
+  },
+  {
+   "id": "card-7",
+   "question": "Sofia wears blue with probability $\\frac{3}{7}$ each day and white otherwise. What is the probability she wears different colours on Monday and Tuesday?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$\\frac{12}{49}$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$\\frac{24}{49}$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$\\frac{25}{49}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$\\frac{6}{7}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$\\frac{24}{49}$ is correct because \"different colours\" includes two paths: blue then white ($P = \\frac{3}{7} \\times \\frac{4}{7} = \\frac{12}{49}$) and white then blue ($P = \\frac{4}{7} \\times \\frac{3}{7} = \\frac{12}{49}$). Summing these mutually exclusive events gives $\\frac{24}{49}$. The common wrong answer $\\frac{12}{49}$ finds only one of those paths and forgets to add the second order."
+  },
+  {
+   "id": "card-13",
+   "question": "Nina plays two games. In each game, $P(\\text{win})=0.5$, $P(\\text{draw})=0.2$ and $P(\\text{lose})=0.3$. What is the probability of one win and one draw?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$0.1$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$0.2$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$0.7$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$0.25$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$0.2$ is correct because there are two successful paths, win then draw and draw then win, so $0.5\\times 0.2 + 0.2\\times 0.5 = 0.1 + 0.1 = 0.2$. The common wrong answer $0.1$ counts only one order and misses the second successful path."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-6-6-17-probability-trees/lessons",
+ "source_sha256": "a7a354f6bf41b1f9291fdabcc67de513c613bc675fedeb2fdf6c5c531052d560",
+ "extracted_at": "2026-11-08T19:01:10Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "088aa74e-c69d-4bdf-8915-502a21e0ba78",
+  "topic_id": "bd51f121-c6e4-4963-ad53-0c4aefb074ba",
+  "created_at": "2026-05-14T04:53:34.187Z",
+  "updated_at": "2026-05-14T04:54:14.812Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

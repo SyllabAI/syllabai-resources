@@ -1,0 +1,133 @@
+{
+ "topic": "grade-4-4-5-inequalities",
+ "lane": "igcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What inequalities tell us",
+   "body": "An equation gives one exact answer, such as $x = 4$. An inequality compares values and usually gives a range of answers, such as $x < 4$.\n\nThe symbols mean: $<$ less than, $>$ greater than, $\\le$ less than or equal to, and $\\ge$ greater than or equal to. A number is a solution if it makes the inequality true.\n\nThe signs $<$ and $>$ are strict, so the endpoint is not included. The signs $\\le$ and $\\ge$ are inclusive, so the endpoint is included."
+  },
+  {
+   "heading": "Showing inequalities on a number line",
+   "body": "![Number line examples showing x less than 2, x less than or equal to 2, x greater than negative 1, and negative 4 less than n less than or equal to 3, with open and filled circles, arrows, and a line segment](../assets/001-5d47ab90-53f6-4ee3-897e-9482276b4e25.jpeg) On a number line, use an open circle for $<$ or $>$ because the endpoint is not included. Use a filled circle for $\\le$ or $\\ge$ because the endpoint is included.\n\nShade to the left for smaller values and to the right for larger values. For a double inequality such as $-4 < n \\le 3$, mark both endpoints and draw the segment between them.",
+   "figure_refs": [
+    "assets/001-5d47ab90-53f6-4ee3-897e-9482276b4e25.jpeg"
+   ]
+  },
+  {
+   "heading": "Listing integer solutions",
+   "body": "An integer is a whole number, including negative numbers and zero. If a question says the variable is an integer, you only list whole-number values that satisfy the inequality.\n\nExample: if $-3 \\le n < 2$, start at -3 because $\\le$ includes it. Stop before 2 because $<$ is strict.\n\nSo the possible values are $n = -3, -2, -1, 0, 1$. Checking both endpoints first helps you avoid missing or adding a value."
+  },
+  {
+   "heading": "Solving linear inequalities",
+   "body": "You solve most linear inequalities just like equations: use inverse operations and keep both sides balanced. If there are brackets, expand them first, and if the variable is on both sides, collect the variable terms onto one side.\n\nExample: solve $5x - 6 \\le 2x + 9$. Subtract $2x$ from both sides to get $3x - 6 \\le 9$, then add 6 to get $3x \\le 15$.\n\nNow divide by 3 to get $x \\le 5$. On a number line, this means a filled circle at 5 and shading to the left."
+  },
+  {
+   "heading": "The sign changes with negatives",
+   "body": "There is one extra rule for inequalities: if you multiply or divide both sides by a negative number, reverse the inequality sign. This is the step students forget most often.\n\nExample: solve $5 > 17 - 3x$. Subtract 17 from both sides to get $-12 > -3x$.\n\nNow divide by -3 and reverse the sign to get $4 < x$. This is usually written as $x > 4$."
+  },
+  {
+   "heading": "Solving double inequalities",
+   "body": "A double inequality has the variable between two bounds, such as $-2 < x \\le 5$. Both parts must be true at the same time.\n\nWhen solving, do the same operation to all three parts. For $3 \\le 2y - 1 < 11$, add 1 everywhere to get $4 \\le 2y < 12$.\n\nNow divide all three parts by 2 to get $2 \\le y < 6$. If $y$ is an integer, the possible values are $2, 3, 4, 5$."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Which inequality represents all numbers up to and including 3?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$x < 3$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$x \\le 3$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$x > 3$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$x \\ge 3$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$x \\le 3$ includes 3 itself and every smaller number. The common wrong answer is $x < 3$, but that is a strict inequality, meaning 3 is not included. Hint: Inclusive inequalities include the endpoint."
+  },
+  {
+   "id": "card-6",
+   "question": "$$n$ is an integer and $-2 < n \\le 2$. Which list gives all possible values of $n$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$-2, -1, 0, 1, 2$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$-1, 0, 1, 2$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$-1, 0, 1$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$-2, -1, 0, 1$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$-2 < n$ means -2 is not allowed, while $n \\le 2$ means 2 is allowed, so the full list is $-1, 0, 1, 2$. The common wrong answer is A, which incorrectly includes -2."
+  },
+  {
+   "id": "card-11",
+   "question": "Which is the correct solution to $7 - 2(x - 1) \\ge 3x + 5$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$x \\le \\frac{4}{5}$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$x \\ge \\frac{4}{5}$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$x \\le -\\frac{4}{5}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$x \\ge -\\frac{4}{5}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Expand first: $7 - 2(x - 1) = 9 - 2x$, so $9 - 2x \\ge 3x + 5$. Rearranging gives $4 \\ge 5x$, so $x \\le \\frac{4}{5}$. The common wrong answer is B, which comes from rewriting $4 \\ge 5x$ the wrong way round; dividing by positive 5 does not flip the sign. Hint: Expand the bracket before collecting the $x$ terms."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-4-4-5-inequalities/lessons",
+ "source_sha256": "eab0e0f2ac7a23d1bd1abe56c69a75f89e5b0118d17c7c24d23526923111a06c",
+ "extracted_at": "2026-11-08T19:00:47Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "bbe70264-16a3-4272-8485-6bcc7975fd0e",
+  "topic_id": "b754cc79-1b6b-40c6-93c3-2402d14d6a0a",
+  "created_at": "2026-05-14T03:22:43.434Z",
+  "updated_at": "2026-05-14T03:23:32.718Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

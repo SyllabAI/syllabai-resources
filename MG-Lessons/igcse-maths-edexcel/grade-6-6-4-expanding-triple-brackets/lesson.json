@@ -1,0 +1,160 @@
+{
+ "topic": "grade-6-6-4-expanding-triple-brackets",
+ "lane": "igcse-maths-edexcel",
+ "grade": "6",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "The main method",
+   "body": "![Flowchart showing the three brackets (x+3), (x+4), and (x+2) becoming a quadratic and then a cubic during expansion](../assets/001-cc174316-631b-4dc8-a899-41de609b4053.jpeg)\n\nA triple bracket such as $(x+2)(x+5)(x-1)$ means three linear factors are being multiplied together. The safest method is to expand any two brackets first, simplify to a quadratic, then multiply by the remaining bracket.\n\nIf each bracket contains an $x$ term, the final answer is usually a cubic expression. You can start with any pair of brackets, but write the finished result in descending powers: $x^3$, then $x^2$, then $x$, then the constant.",
+   "figure_refs": [
+    "assets/001-cc174316-631b-4dc8-a899-41de609b4053.jpeg"
+   ]
+  },
+  {
+   "heading": "Worked example with positive terms",
+   "body": "Expand and simplify $(x+3)(x+4)(x+2)$. Start by expanding the first two brackets to create a quadratic expression:\n\n$$(x+3)(x+4)=x^2+4x+3x+12=x^2+7x+12$$\n\nThis leaves the quadratic result ready to be multiplied by the final bracket.\n\nNow multiply the quadratic by the remaining bracket $(x+2)$. It is often easiest to split this into two separate distributions, first by $x$ and then by $2$:\n\n$$x(x^2+7x+12)=x^3+7x^2+12x$$\n$$2(x^2+7x+12)=2x^2+14x+24$$\n\nFinally, add the results of the two distributions and collect like terms carefully. This process yields the final simplified cubic expression:\n\n$$x^3+7x^2+12x+2x^2+14x+24=x^3+9x^2+26x+24$$"
+  },
+  {
+   "heading": "Negative signs need care",
+   "body": "Negative signs are where most slips happen. For $(x-4)(x+6)(x-1)$, expand the first two brackets first:\n$$\n(x-4)(x+6)=x^2+6x-4x-24=x^2+2x-24\n$$\nNow the last bracket is still waiting.\n\nNext multiply the quadratic by $(x-1)$. The second row must be multiplication by $-1$, so every sign changes:\n$$\nx(x^2+2x-24)=x^3+2x^2-24x\n$$\n$$\n-1(x^2+2x-24)=-x^2-2x+24\n$$\n\nAdd the rows and collect like terms. This gives $(x-4)(x+6)(x-1)=x^3+x^2-26x+24$:\n$$\nx^3+2x^2-24x-x^2-2x+24=x^3+x^2-26x+24\n$$"
+  },
+  {
+   "heading": "Repeated brackets",
+   "body": "$$(x-2)^2$ means $(x-2)(x-2)$, not $x^2+4$. For an expression like $(x+5)(x-2)^2$, we start by expanding the repeated pair first:\n$$\n(x-2)(x-2)=x^2-2x-2x+4=x^2-4x+4\n$$\n\nNow multiply the resulting quadratic by the remaining $(x+5)$. We can split this into multiplication by $x$ and multiplication by $5$:\n$$\nx(x^2-4x+4)=x^3-4x^2+4x\n$$\n$$\n5(x^2-4x+4)=5x^2-20x+20\n$$\n\nFinally, add the rows and simplify by collecting like terms. The fully expanded form of $(x+5)(x-2)^2$ is $x^3+x^2-16x+20$:\n$$\nx^3-4x^2+4x+5x^2-20x+20=x^3+x^2-16x+20\n$$"
+  },
+  {
+   "heading": "Brackets with coefficients",
+   "body": "The method stays the same when brackets contain terms like $2x$ or $3x$. A quick check for the leading term is to multiply only the x-terms: $2x \\cdot x \\cdot 3x = 6x^3$.\n\nFor $(2x+3)(x-1)(3x+2)$, expand the first two brackets first: $$(2x+3)(x-1)=2x^2-2x+3x-3=2x^2+x-3$$ This quadratic is the new expression you multiply by $(3x+2)$.\n\nNow multiply by $(3x+2)$ using two rows. Then collect like terms to finish: $$3x(2x^2+x-3)=6x^3+3x^2-9x$$ $$2(2x^2+x-3)=4x^2+2x-6$$ $$6x^3+3x^2-9x+4x^2+2x-6=6x^3+7x^2-7x-6$$"
+  },
+  {
+   "heading": "Show that questions",
+   "body": "A show that question asks you to prove an identity. You must expand and simplify algebraically, because checking one value of $x$ does not prove something is true for all values.\n\nFor $(2x+1)(4x-3)(x-2)$, begin by expanding the first two brackets:\n$$\n(2x+1)(4x-3)=8x^2-6x+4x-3=8x^2-2x-3\n$$\nThis gives the quadratic you need for the final multiplication.\n\nNow multiply by $(x-2)$ and collect like terms. The left-hand side becomes the required cubic, so the identity is proved:\n$$\nx(8x^2-2x-3)=8x^3-2x^2-3x\n$$\n$$\n-2(8x^2-2x-3)=-16x^2+4x+6\n$$\n$$\n8x^3-2x^2-3x-16x^2+4x+6=8x^3-18x^2+x+6\n$$"
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "When you expand $(x+2)(x-5)(x+1)$, what should the highest power in the final answer be?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$x^3$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$x^2$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$x^4$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$x$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The x terms from all three brackets multiply to give $x \\cdot x \\cdot x = x^3$, so the final expression is cubic. The most common wrong answer is $x^2$, which happens if you stop after expanding only the first two brackets."
+  },
+  {
+   "id": "card-6",
+   "question": "In the expansion of $(x^2+2x-24)(x-1)$, what is the correct second row?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$-x^2-2x+24$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$x^2+2x-24$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$-x^2+2x+24$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$x^2-2x+24$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The second row comes from multiplying the whole quadratic by $-1$, so every term changes sign to give $-x^2-2x+24$. The most common wrong answer is $x^2+2x-24$, which forgets that the multiplier is negative."
+  },
+  {
+   "id": "card-12",
+   "question": "What is the leading term of $(2x-1)(x+4)(3x+5)$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$6x^3$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$6x^2$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$5x^3$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$3x^3$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The leading term comes from multiplying the highest-power terms: $(2x)(x)(3x)=6x^3$. The most common wrong answer is $3x^3$, which misses the coefficient 2 from the first bracket."
+  },
+  {
+   "id": "card-14",
+   "question": "Which method proves that $(2x+1)(4x-3)(x-2)=8x^3-18x^2+x+6$ for all values of $x$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Expand and simplify the left-hand side until it matches the right-hand side",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "Substitute $x=1$ and check both sides",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "Substitute $x=0$ and $x=2$ and check both sides",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Compare only the $x^3$ terms on each side",
+     "is_correct": false
+    }
+   ],
+   "explanation": "To prove an identity, you must show the two expressions are algebraically identical for every value of $x$, which is why full expansion works. The most common wrong answer is B, but checking one value only shows the statement is true in that single case."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-6-6-4-expanding-triple-brackets/lessons",
+ "source_sha256": "ee2caef1768f8434b6b9005a4cb9ce3afd43ef6febd878a90c7b0972289c62ab",
+ "extracted_at": "2026-11-08T19:01:11Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "e79b378b-7f80-4651-b914-8f249f6cb293",
+  "topic_id": "c555ec2f-9d2d-4d36-8d53-7c5ebd9de8c2",
+  "created_at": "2026-05-14T03:19:44.923Z",
+  "updated_at": "2026-05-14T03:20:39.795Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

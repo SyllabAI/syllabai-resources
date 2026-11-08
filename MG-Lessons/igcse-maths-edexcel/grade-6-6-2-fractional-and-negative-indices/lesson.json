@@ -1,0 +1,122 @@
+{
+ "topic": "grade-6-6-2-fractional-and-negative-indices",
+ "lane": "igcse-maths-edexcel",
+ "grade": "6",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What indices are telling you",
+   "body": "One helpful way to calculate $a^{-m/n}$ is:\n\n- Negative sign: take the reciprocal.\n- Denominator $n$: take the $n$th root.\n- Numerator $m$: raise to the power $m$.\n\nSo\n\n$$a^{-m/n}=\\frac{1}{(\\sqrt[n]{a})^m}=\\frac{1}{\\sqrt[n]{a^m}}$$\n\nExample:\n\n$$32^{-2/5}=\\frac{1}{(\\sqrt[5]{32})^2}=\\frac{1}{2^2}=\\frac{1}{4}$$\n\nIn $a^k$, $a$ is the base and $k$ is the index. For a fractional index $a^{m/n}$, the denominator $n$ tells you the root and the numerator $m$ tells you the power. When the root is defined, you can write\n\n$$a^{m/n}=\\sqrt[n]{a^m}=(\\sqrt[n]{a})^m$$\n\nA negative index means reciprocal, not a negative answer. For any non-zero $a$ and integer $k$, $a^{-k}=\\frac{1}{a^k}$, so $4^{-1}=\\frac{1}{4}$. The same idea works for fractional indices: $a^{-m/n}=\\frac{1}{a^{m/n}}$. This is why $0^{-1}$ is undefined: it would mean dividing by zero."
+  },
+  {
+   "heading": "Fractional indices mean roots",
+   "body": "A fractional index tells you to take a root and then a power. For positive values of $a$, $a^{\\frac{1}{2}} = \\sqrt{a}$, $a^{\\frac{1}{3}} = \\sqrt[3]{a}$, and in general $a^{\\frac{m}{n}} = \\left(\\sqrt[n]{a}\\right)^m$.\n\nThe denominator tells you the root and the numerator tells you the power. For $343^{\\frac{2}{3}}$, take the cube root first to get $7$, then square to get $49$. A half power is a square root, so $144^{\\frac{1}{2}} = 12$, not $72$."
+  },
+  {
+   "heading": "Negative fractional indices",
+   "body": "Put the two ideas together and read the index in stages. For non-zero $a$, $a^{-\\frac{m}{n}} = \\frac{1}{a^{\\frac{m}{n}}}$, so the negative sign means reciprocal, the denominator means root, and the numerator means power.\n\nExample: $32^{-\\frac{2}{5}} = \\frac{1}{32^{\\frac{2}{5}}}$. The fifth root of $32$ is $2$, then $2^2 = 4$, so the value is $\\frac{1}{4}$.\n\nWith a fraction base, inverting first is often quickest. $$\\left(\\frac{16}{25}\\right)^{-\\frac{3}{2}} = \\left(\\frac{25}{16}\\right)^{\\frac{3}{2}} = \\left(\\frac{5}{4}\\right)^3 = \\frac{125}{64}$$"
+  },
+  {
+   "heading": "Algebra and the same-base strategy",
+   "body": "The same laws work with algebraic terms, especially $(a^p)^q = a^{pq}$. For example, $(27x^6)^{\\frac{2}{3}} = (\\sqrt[3]{27x^6})^2 = (3x^2)^2 = 9x^4$.\n\nTo find an unknown index, rewrite both sides with the same base and compare the powers. Since $32 = 2^5$, $2 \\times \\sqrt{32} = 2^1 \\times (2^5)^{\\frac{1}{2}} = 2^1 \\times 2^{\\frac{5}{2}}$. Add the indices to get $2^{\\frac{7}{2}}$, so if $2 \\times \\sqrt{32} = 2^n$, then $n = \\frac{7}{2}$."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "What is $7^{-1}$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$\\frac{1}{7}$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$-7$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$7$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$-\\frac{1}{7}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A negative index means reciprocal, so $7^{-1} = \\frac{1}{7}$. The common wrong answer $-7$ treats the negative index like a negative sign, but it changes the position of the power, not the sign of the value."
+  },
+  {
+   "id": "card-7",
+   "question": "What is $\\left(\\frac{9}{16}\\right)^{-\\frac{1}{2}}$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$\\frac{4}{3}$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$\\frac{3}{4}$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$-\\frac{4}{3}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$-\\frac{3}{4}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "First take the square root: $\\left(\\frac{9}{16}\\right)^{\\frac{1}{2}} = \\frac{3}{4}$. The negative index then means take the reciprocal, so the answer is $\\frac{4}{3}$. The common wrong answer $\\frac{3}{4}$ forgets to deal with the negative sign."
+  },
+  {
+   "id": "card-12",
+   "question": "Simplify $2^3 \\times 2^{-\\frac{1}{2}}$.",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$2^{\\frac{5}{2}}$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$2^{\\frac{7}{2}}$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$2^{-\\frac{3}{2}}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$4^{\\frac{5}{2}}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "When multiplying powers with the same base, add the indices: $3 + \\left(-\\frac{1}{2}\\right) = \\frac{5}{2}$. The common wrong answer $2^{\\frac{7}{2}}$ comes from subtracting the negative index instead of just adding it."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-6-6-2-fractional-and-negative-indices/lessons",
+ "source_sha256": "ca22d25aca31f76cb0f105425ec1bd9dc27d00673638e156c540ce199cc9b9e7",
+ "extracted_at": "2026-11-08T19:01:10Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "b95516ae-d5f3-4079-88ec-a06a86b06519",
+  "topic_id": "23f80718-dfb1-4842-8f32-83a2e28c7be7",
+  "created_at": "2026-05-14T03:10:07.047Z",
+  "updated_at": "2026-05-14T03:19:07.935Z",
+  "figures": 0,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

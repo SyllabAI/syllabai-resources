@@ -1,0 +1,136 @@
+{
+ "topic": "grade-3-3-18-frequency-trees",
+ "lane": "igcse-maths-edexcel",
+ "grade": "3",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What a frequency tree shows",
+   "body": "![Frequency tree with total 120 splitting into male 58 and female 62, then tea and coffee totals on each branch](../assets/001-8f32f14b-19da-42e4-8d6c-5d273518cd7a.jpeg)\n\nA frequency tree shows counts as a group splits into categories. Unlike a probability tree, the numbers are actual frequencies, so they do not add to 1.\n\nEach parent total splits into two child totals that must add back to the parent. The starting number is the root, and the end numbers are joint frequencies because they satisfy two conditions at once.",
+   "figure_refs": [
+    "assets/001-8f32f14b-19da-42e4-8d6c-5d273518cd7a.jpeg"
+   ]
+  },
+  {
+   "heading": "Finding a missing part",
+   "body": "Most missing values come from whole, part, part. If 90 students split into 37 in Year 10 and the rest in Year 11, subtract to find the missing part.\n\n$$$90 - 37 = 53$$\n\nSo 53 are in Year 11. A quick check is $37 + 53 = 90$, which matches the original total."
+  },
+  {
+   "heading": "Worked example: complete the tree",
+   "body": "40 students took an English test and a science test. If 31 passed English, then the number who failed English is: $$40 - 31 = 9$$\n\nNow stay inside the passed English branch. Of these 31 students, 27 passed science, so the number who failed science is: $$31 - 27 = 4$$\n\nNext use the failed English branch total of 9. If 4 of these failed science, then the number who passed science is: $$9 - 4 = 5$$\n\nThe four end values are 27, 4, 5 and 4, so the tree is complete and they add to 40. Notice that the second and third subtractions used branch totals 31 and 9, not the overall total 40."
+  },
+  {
+   "heading": "When a total sits across both branches",
+   "body": "![Completed frequency tree for 100 people split into male and female, then cats and dogs, with counts 46, 54, 13, 33, 32 and 22](../assets/002-3aa954dd-0664-486e-951d-7ef748450deb.jpeg)\n\nSometimes a clue such as \"55 preferred dogs\" is a total across both first branches, so you cannot place it on just one side straight away. First find the female total by subtracting the males from the grand total: $100 - 46 = 54$.\n\nNow complete the female branch. If 32 females preferred cats, then females who preferred dogs are $54 - 32 = 22$. Using the overall dog total of 55, the males who preferred dogs are $55 - 22 = 33$.\n\nFinally, the males who preferred cats are $46 - 33 = 13$. A quick check gives a cat total of $13 + 32 = 45$, and $45 + 55 = 100$. This check shows the tree is consistent.",
+   "figure_refs": [
+    "assets/002-3aa954dd-0664-486e-951d-7ef748450deb.jpeg"
+   ]
+  },
+  {
+   "heading": "Turning a completed tree into probability",
+   "body": "Once a tree is complete, you can answer probability questions by dividing a frequency by a total. For a random choice from the whole sample, the denominator is the root total.\n\nIn the cats and dogs example, $P(\\text{dogs}) = \\frac{55}{100} = \\frac{11}{20}$. The numerator is the dog frequency, and the denominator is the whole sample of 100 people.\n\nIf the question says \"given female\", use the female branch total as the denominator instead. So $P(\\text{cats} \\mid \\text{female}) = \\frac{32}{54} = \\frac{16}{27}$, not $\\frac{32}{100}$."
+  },
+  {
+   "heading": "Fraction clues in a branch",
+   "body": "A clue like $\\frac{2}{3}$ of the boys refers only to the boys branch. Multiply the branch total by the fraction, not the overall total. If there are 72 students and 30 are boys, then boys who play football are:\n\n$$$30 \\times \\frac{2}{3} = 20$$\n\nSo 20 boys play football and $30 - 20 = 10$ boys do not. If 18 girls play football, then the girls total is $72 - 30 = 42$ and girls who do not play football are $42 - 18 = 24$."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "In a frequency tree, what must be true at every split?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The two branch totals add to the parent total",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "The two branch totals always add to 1",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "The left branch is always larger than the right branch",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "The end values must all be equal",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A frequency tree is built from counts, so the two child frequencies must add back to the parent total. The common wrong answer is B, which confuses a frequency tree with a probability tree, where probabilities from a split add to 1."
+  },
+  {
+   "id": "card-8",
+   "question": "In the cats and dogs example, why do we calculate $55 - 22$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "To find the number of males who preferred dogs",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "To find the number of females who preferred cats",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "To find the total number of males",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "To find the total number of people who preferred cats",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The 55 is the total number of people who preferred dogs, and 22 of these are females, so subtracting gives the males who preferred dogs. The common wrong answer is D, but the cat total would be found from $100 - 55 = 45$, not from $55 - 22$."
+  },
+  {
+   "id": "card-13",
+   "question": "A survey has 84 people. 36 are adults, so 48 are children. $\\frac{3}{4}$ of the children own a bike. How many children do not own a bike?",
+   "options": [
+    {
+     "id": "a",
+     "text": "12",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "36",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "16",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "9",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$\\frac{3}{4}$ of 48 is 36, so 36 children own a bike and the remaining $48 - 36 = 12$ do not. The common wrong answer is B, which gives the number who own a bike instead of the number who do not."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-3-3-18-frequency-trees/lessons",
+ "source_sha256": "f6d26146c12d426b842f0196dd470a6f7f17dfcb248702ac097381ec2140d70d",
+ "extracted_at": "2026-11-08T19:00:31Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "8a66a61e-5322-4701-a938-5ba131f6620b",
+  "topic_id": "31f65884-b24b-4a08-b042-9caf8b24ac82",
+  "created_at": "2026-05-14T04:53:50.077Z",
+  "updated_at": "2026-05-14T04:55:57.600Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

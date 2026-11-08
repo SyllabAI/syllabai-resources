@@ -1,0 +1,136 @@
+{
+ "topic": "grade-7-7-2-bounds",
+ "lane": "igcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What bounds mean",
+   "body": "![Number line with 20.5 as a filled endpoint and 21.5 as an open endpoint for 21 cm to the nearest cm](../assets/001-0860621e-812f-4cd8-9d48-f3f94c13af21.jpeg)\n\nA rounded measurement is not exact. If a length is given as 21 cm to the nearest cm, the true value lies in a continuous interval of possible values.\n\nThe lower bound is the smallest possible value, and the upper bound is the boundary at the top of the interval. For this example, we write $20.5 \\le x < 21.5$.\n\nThe symbol $<$ is used at the top because 21.5 would round to 22, not 21. In bounds questions, write the interval first and then use it in the calculation.",
+   "figure_refs": [
+    "assets/001-0860621e-812f-4cd8-9d48-f3f94c13af21.jpeg"
+   ]
+  },
+  {
+   "heading": "The half-unit rule",
+   "body": "To find bounds, take half of the rounding unit.\n\nThen subtract that half-unit to get the lower bound and add it to get the upper bound. Rounding to the nearest cm gives a half-unit of 0.5 cm, rounding to the nearest 5 m gives 2.5 m, and rounding to 2 decimal places gives 0.005.\n\nExample: if a length is 130 m to the nearest 5 m, the half-unit is 2.5 m. Then $130 - 2.5 = 127.5$ and $130 + 2.5 = 132.5$. So the actual length is from 127.5 m up to but not including 132.5 m.\n\nFor significant figures, first find the place value of the last significant digit. If 3680 is correct to 3 significant figures, the last significant digit is in the tens place, so it was rounded to the nearest 10 and the half-unit is 5. Then $3680 - 5 = 3675$ and $3680 + 5 = 3685$. So the actual value is from 3675 up to but not including 3685."
+  },
+  {
+   "heading": "Bounds in perimeter and area",
+   "body": "For positive lengths, making a measurement bigger makes perimeter, area, and circumference bigger. So upper bound questions use bigger lengths, and lower bound questions use smaller lengths.\n\nA rectangle has length 38 cm to the nearest cm and width 7.4 cm to the nearest mm. Therefore $37.5 \\le L < 38.5$ and $7.35 \\le W < 7.45$ because nearest mm is nearest 0.1 cm.\n\nThe upper bound of the perimeter uses both upper values because perimeter is found by adding positive lengths. $$P_{\\text{upper}} = 2(38.5 + 7.45) = 91.9$$ So the upper bound of the perimeter is 91.9 cm.\n\nThe lower bound of the area uses both lower values because we want the smallest possible product. $$A_{\\text{lower}} = 37.5 \\times 7.35 = 275.625$$ So the lower bound of the area is 275.625 $\\text{cm}^2$."
+  },
+  {
+   "heading": "Products and quotients",
+   "body": "For a product of positive quantities, the largest answer uses upper bounds and the smallest uses lower bounds. For a fraction, the denominator works the opposite way because a smaller denominator makes the quotient larger.\n\nSo for $v = \\frac{s}{t}$, the upper bound uses the upper bound of $s$ and the lower bound of $t$. With $s = 5.42$ and $t = 1.37$ correct to 2 decimal places, the intervals are $5.415 \\le s < 5.425$ and $1.365 \\le t < 1.375$.\n\nNow substitute the values that make the fraction as large as possible. $$v_{\\text{upper}} = \\frac{5.425}{1.365} = 3.974358\\dots$$ So the upper bound is 3.974 to 3 decimal places."
+  },
+  {
+   "heading": "Pythagoras and subtraction",
+   "body": "![Right-angled triangle labelled a, b, and c with a note that the lower bound of b uses lower c and upper a](../assets/002-322199bd-6155-4c48-ae1f-64fe589670fb.jpeg)\n\nFor positive lengths, squaring and square-rooting keep the order the same. The key change comes from the subtraction inside the formula $b = \\sqrt{c^2 - a^2}$.\n\nSuppose $a = 3.8$ cm to the nearest mm and $c = 9$ cm to the nearest cm. This results in the bounds $3.75 \\le a < 3.85$ and $8.5 \\le c < 9.5$. To find the lower bound of $b$, use the smallest hypotenuse and the largest value of $a$ because $a^2$ is being subtracted.\n\n$$$\nb_{\\text{lower}} = \\sqrt{8.5^2 - 3.85^2} = \\sqrt{57.4275} = 7.577\\ldots\n$$\n\nThe result $7.577\\ldots$ means the lower bound of $b$ is 7.6 cm when rounded to 1 decimal place.",
+   "figure_refs": [
+    "assets/002-322199bd-6155-4c48-ae1f-64fe589670fb.jpeg"
+   ]
+  },
+  {
+   "heading": "Choosing a suitable degree of accuracy",
+   "body": "A suitable degree of accuracy is a rounding level for which every possible value gives the same rounded answer. To test this, calculate the lower and upper possible answers first.\n\nIf $p = \\frac{F}{A}$, with $F = 31.42$ correct to 2 decimal places and $A = 5.18$ correct to 3 significant figures, then $31.415 \\le F < 31.425$ and $5.175 \\le A < 5.185$. The lower bound of $p$ uses lower $F$ and upper $A$, while the upper bound uses upper $F$ and lower $A$.\n\nThis gives $$p_{\\text{lower}} = \\frac{31.415}{5.185} = 6.0588\\ldots$$ $$p_{\\text{upper}} = \\frac{31.425}{5.175} = 6.0724\\ldots$$ To 2 decimal places these round differently, but to 2 significant figures both round to 6.1."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "A rod has length 21 cm to the nearest cm. Which interval is correct for its true length $x$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$20.5 \\le x < 21.5$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$20 < x < 22$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$20.5 < x \\le 21.5$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$21 \\le x < 22$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$21$ to the nearest cm means the rounding unit is 1, so the half-unit is 0.5 and the interval is $20.5 \\le x < 21.5$. The most common wrong answer is C because students reverse the inclusive and exclusive ends, but 20.5 does round to 21 so it must be included, while 21.5 rounds to 22 so it must be excluded."
+  },
+  {
+   "id": "card-7",
+   "question": "A rectangle has length 12 cm to the nearest cm and width 4.6 cm to the nearest mm. Which calculation gives the upper bound for its perimeter?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$2(12.5 + 4.65)$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$2(11.5 + 4.55)$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$2(12.5 + 4.55)$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$2(11.5 + 4.65)$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Perimeter gets larger when either side gets larger, so the upper bound must use both upper bounds, giving $2(12.5 + 4.65)$. The most common wrong answer is C because students use the correct upper length but forget that the width must also be as large as possible."
+  },
+  {
+   "id": "card-14",
+   "question": "A value is known to lie between $6.0588$ and $6.0724$. What is the greatest suitable degree of accuracy?",
+   "options": [
+    {
+     "id": "a",
+     "text": "3 decimal places",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "2 decimal places",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "2 significant figures",
+     "is_correct": true
+    },
+    {
+     "id": "d",
+     "text": "3 significant figures",
+     "is_correct": false
+    }
+   ],
+   "explanation": "2 significant figures is correct because both endpoints round to $6.1$, so every possible value in the interval gives the same answer. The most common wrong answer is 2 decimal places, but the endpoints round to $6.06$ and $6.07$, so that accuracy is not safe. Hint: Round both endpoints at each proposed accuracy."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-7-7-2-bounds/lessons",
+ "source_sha256": "d87431dff78ca7d4f171f04eddc9bf1909e805bd611415b9f865fdece361b3b2",
+ "extracted_at": "2026-11-08T19:01:23Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "78a63536-45cc-4c8f-a792-f3fac91c010a",
+  "topic_id": "aa086bae-b4a5-46cd-93b8-4204917d7d07",
+  "created_at": "2026-05-13T11:27:44.377Z",
+  "updated_at": "2026-05-13T11:38:44.128Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

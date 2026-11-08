@@ -1,0 +1,133 @@
+{
+ "topic": "grade-7-7-1-surds",
+ "lane": "igcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What counts as a surd?",
+   "body": "A surd is an exact root that is irrational, such as $\\sqrt{2}$ or $\\sqrt{7}$. If the root evaluates to a whole number, then it is not a surd.\n\nCheck the square numbers first: 1, 4, 9, 16, 25, 36, 49, and so on. For example, $\\sqrt{36}=6$ so it is not a surd, but $\\sqrt{18}$ and $\\sqrt{10}$ are surds because 18 and 10 are not perfect squares."
+  },
+  {
+   "heading": "Simplifying surds",
+   "body": "To simplify a surd, look for the largest perfect-square factor inside the root. Then use $\\sqrt{ab}=\\sqrt{a}\\sqrt{b}$ to pull the square factor out.\n\nFor $\\sqrt{72}$, the best square factor is 36, so $$ \\sqrt{72}=\\sqrt{36\\times 2}=6\\sqrt{2} $$ Choosing the largest square factor keeps the answer fully simplified.\n\nIf there is already a coefficient, simplify the root first. For example, $$ 4\\sqrt{45}=4\\sqrt{9\\times 5}=4(3\\sqrt{5})=12\\sqrt{5} $$ Do not split sums inside roots, so $\\sqrt{9+16}\\neq \\sqrt{9}+\\sqrt{16}$."
+  },
+  {
+   "heading": "Like surds and collecting terms",
+   "body": "Like surds have the same root part, such as $3\\sqrt{7}$ and $5\\sqrt{7}$. You can only collect them after each surd has been simplified.\n\nIn $3\\sqrt{48}+2\\sqrt{75}$, simplify each root first:\n$$\n\\sqrt{48}=4\\sqrt{3},\\qquad \\sqrt{75}=5\\sqrt{3}\n$$\nNow the surds are like surds because both contain $\\sqrt{3}$.\n\nSubstitute back and collect the coefficients:\n$$\n3\\sqrt{48}+2\\sqrt{75}=3(4\\sqrt{3})+2(5\\sqrt{3})=12\\sqrt{3}+10\\sqrt{3}=22\\sqrt{3}\n$$\nYou would not combine $2\\sqrt{3}$ and $7\\sqrt{5}$ because the root parts are different."
+  },
+  {
+   "heading": "Expanding surd brackets",
+   "body": "Expand brackets with surds just as you would in algebra: multiply every term in the first bracket by every term in the second. Remember that $\\sqrt{a}\\sqrt{a}=a$, so $(\\sqrt{7})^2=7$.\n\nFor example,\n$$\n(2+\\sqrt{7})(3-\\sqrt{7})=6-2\\sqrt{7}+3\\sqrt{7}-7=-1+\\sqrt{7}\n$$\nAfter expanding, collect the ordinary numbers and the like surds.\n\nA pair like $a+\\sqrt{b}$ and $a-\\sqrt{b}$ are conjugates. Their product has no surd part, so\n$$\n(5+\\sqrt{6})(5-\\sqrt{6})=25-6=19\n$$"
+  },
+  {
+   "heading": "Rationalising the denominator",
+   "body": "![Flowchart showing that a single surd denominator is rationalised by multiplying by the same surd, while a two-term denominator is rationalised by multiplying by the conjugate](../assets/001-2ab25cb7-b2c2-4f27-bbb1-853420a77497.jpeg)\n\nTo rationalise a denominator means to rewrite a fraction so there is no surd on the bottom. If the denominator has one term like $\\sqrt{3}$, multiply by the same surd; if it has two terms like $3+\\sqrt{2}$, multiply by its conjugate.\n\nFor a single surd denominator,\n$$\n\\frac{12}{\\sqrt{3}}\\times\\frac{\\sqrt{3}}{\\sqrt{3}}=\\frac{12\\sqrt{3}}{3}=4\\sqrt{3}\n$$\nYou must multiply the numerator and denominator by the same expression, otherwise you change the value.\n\nFor a two-term denominator, use the conjugate:\n$$\n\\frac{10+\\sqrt{2}}{3+\\sqrt{2}}\\times\\frac{3-\\sqrt{2}}{3-\\sqrt{2}}=\\frac{(10+\\sqrt{2})(3-\\sqrt{2})}{(3+\\sqrt{2})(3-\\sqrt{2})}=\\frac{28-7\\sqrt{2}}{7}=4-\\sqrt{2}\n$$\nThe denominator becomes a difference of two squares, so the surd disappears.",
+   "figure_refs": [
+    "assets/001-2ab25cb7-b2c2-4f27-bbb1-853420a77497.jpeg"
+   ]
+  },
+  {
+   "heading": "Algebraic surds",
+   "body": "The same rules work when letters are under square roots, as long as the quantities inside the roots are non-negative. In IGCSE questions, that is usually assumed unless the question says otherwise.\n\nConjugates still give a difference of two squares: $$(\\sqrt{x}+\\sqrt{y})(\\sqrt{x}-\\sqrt{y})=x-y$$ because $\\sqrt{x}\\sqrt{x}=x$ and $\\sqrt{y}\\sqrt{y}=y$.\n\nSquaring a bracket still needs the middle term. For example, $$(3p+\\sqrt{q})^2=(3p+\\sqrt{q})(3p+\\sqrt{q})=9p^2+6p\\sqrt{q}+q$$"
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Which expression is a surd?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$\\sqrt{36}$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$\\sqrt{18}$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$\\sqrt{81}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$\\sqrt{49}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$\\sqrt{18}$ is irrational and cannot be simplified to an integer, so it is a surd. A common wrong choice is $\\sqrt{36}$, but that equals 6 exactly, so it is not a surd."
+  },
+  {
+   "id": "card-7",
+   "question": "Simplify $2\\sqrt{12}+\\sqrt{27}$.",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$5\\sqrt{3}$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$7\\sqrt{3}$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$2\\sqrt{39}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$7\\sqrt{12}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$2\\sqrt{12}=2(2\\sqrt{3})=4\\sqrt{3}$ and $\\sqrt{27}=3\\sqrt{3}$, so the total is $7\\sqrt{3}$. A common wrong answer is $5\\sqrt{3}$, which happens if you simplify $\\sqrt{12}$ correctly but forget to multiply by the outside 2."
+  },
+  {
+   "id": "card-12",
+   "question": "Simplify fully $\\frac{6+\\sqrt{5}}{2+\\sqrt{5}}$.",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$7-4\\sqrt{5}$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$4\\sqrt{5}-7$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$8+\\sqrt{5}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$4-\\sqrt{5}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Multiply by the conjugate $2-\\sqrt{5}$. The numerator becomes $7-4\\sqrt{5}$ and the denominator becomes $4-5=-1$, so the whole fraction is $4\\sqrt{5}-7$. A common wrong answer is $7-4\\sqrt{5}$, which forgets to divide by the denominator $-1$."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-7-7-1-surds/lessons",
+ "source_sha256": "5b76efbd6eedcff066dcb74a3145f35dfe82e74d6ac7e951d79006830c965b1a",
+ "extracted_at": "2026-11-08T19:01:16Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "dd25e88c-82cf-4099-9c3b-ce1ed57eb8d5",
+  "topic_id": "93bf8b6f-a42a-4df9-a766-7beba6eb1d7f",
+  "created_at": "2026-05-14T08:52:17.760Z",
+  "updated_at": "2026-05-14T08:52:57.442Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

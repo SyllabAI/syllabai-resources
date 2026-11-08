@@ -1,0 +1,133 @@
+{
+ "topic": "grade-8-9-8-8-differentiation",
+ "lane": "igcse-maths-edexcel",
+ "grade": "8",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Gradient and derivative",
+   "body": "![Graph of a curve with an upward tangent labeled positive gradient, a horizontal tangent labeled stationary point, and a downward tangent labeled negative gradient](../assets/001-3830ca49-9f32-4e3a-8fe7-dcc9ab6ee391.jpeg)\n\nThe gradient of a straight line is constant, but the gradient of a curve changes from point to point. To find the gradient at one exact point, we draw a tangent and measure the gradient of that tangent.\n\nThe derivative, written $\\frac{dy}{dx}$, tells you the gradient of the curve at each value of $x$. A positive derivative means the curve rises, a zero derivative means a horizontal tangent, and a negative derivative means the curve falls.",
+   "figure_refs": [
+    "assets/001-3830ca49-9f32-4e3a-8fe7-dcc9ab6ee391.jpeg"
+   ]
+  },
+  {
+   "heading": "The power rule",
+   "body": "The power rule is the main rule you use at IGCSE: if $y = ax^n$, then $\\frac{dy}{dx} = anx^{n-1}$. To apply this, multiply the coefficient by the current power and then reduce the exponent by 1.\n\nDifferentiate $y = 5x^4 - 3x^2 + 7x - 11$ term by term. Each term is handled separately before the results are combined:\n$$5x^4 \\to 20x^3, \\qquad -3x^2 \\to -6x, \\qquad 7x \\to 7, \\qquad -11 \\to 0$$\n\nSo the derivative is\n$$\\frac{dy}{dx} = 20x^3 - 6x + 7$$\nA constant term disappears during differentiation because its gradient is always zero."
+  },
+  {
+   "heading": "Reciprocal terms",
+   "body": "Reciprocal terms are easiest if you rewrite them with negative powers first. For example, $\\frac{1}{x} = x^{-1}$ and $\\frac{3}{x} = 3x^{-1}$.\n\nDifferentiate $y = 4x^2 + \\frac{1}{x}$ by first writing $y = 4x^2 + x^{-1}$. Then apply the power rule to both terms.\n\n$$$\\frac{dy}{dx} = 8x - x^{-2} = 8x - \\frac{1}{x^2}$$\n\nA negative power does not mean the term is negative. It means the term belongs in the denominator, so $x^{-2} = \\frac{1}{x^2}$."
+  },
+  {
+   "heading": "Worked example: finding a stationary point",
+   "body": "A stationary point happens when the gradient is zero, so we solve $\\frac{dy}{dx} = 0$. For the function $y = 4x^2 + \\frac{1}{x}$, we first find the derivative: $$\\frac{dy}{dx} = 8x - \\frac{1}{x^2}$$\n\nNext, set the derivative to zero and solve for $x$. Multiply by $x^2$ to clear the fraction and simplify the resulting cubic equation: $$8x - \\frac{1}{x^2} = 0 \\Rightarrow 8x^3 - 1 = 0 \\Rightarrow x^3 = \\frac{1}{8} \\Rightarrow x = \\frac{1}{2}$$\n\nFinally, substitute $x = \\frac{1}{2}$ into the original equation, not the derivative, to find the $y$-coordinate: $$y = 4\\left(\\frac{1}{2}\\right)^2 + \\frac{1}{\\frac{1}{2}} = 1 + 2 = 3$$ Therefore, the stationary point is $\\left(\\frac{1}{2}, 3\\right)$."
+  },
+  {
+   "heading": "Where a curve has negative gradient",
+   "body": "To find where a curve has negative gradient, differentiate and solve $\\frac{dy}{dx} < 0$. For the function $y = x^3 - 3x^2 - 9x + 6$, we first calculate the derivative:\n\n$$$\\frac{dy}{dx} = 3x^2 - 6x - 9$$\n\nNext, we solve the inequality $3x^2 - 6x - 9 < 0$. Factorising the quadratic reveals its roots, and since the $x^2$ coefficient is positive, the graph opens upwards:\n\n$$$3x^2 - 6x - 9 < 0 \\Rightarrow 3(x - 3)(x + 1) < 0$$\n\nThe solution to the inequality is $-1 < x < 3$. The endpoints are excluded from the result because the gradient is exactly zero at those specific points."
+  },
+  {
+   "heading": "Differentiation in motion",
+   "body": "In motion questions, displacement is usually $s$, velocity is usually $v$, and acceleration is usually $a$. If $s$ is given in terms of time $t$, then $v = \\frac{ds}{dt}$ and $a = \\frac{dv}{dt}$.\n\nFor $s = t^3 - 4t^2 - 3t + 6$, differentiate once to get velocity. A particle is instantaneously at rest when $v = 0$. $$v = 3t^2 - 8t - 3$$\n\nSo solve $$3t^2 - 8t - 3 = 0 \\Rightarrow (3t + 1)(t - 3) = 0$$ giving $t = -\\frac{1}{3}$ or $t = 3$. If $t \\ge 0$, only $t = 3$ is valid, and differentiating again gives $$a = 6t - 8$$"
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "What does $\\frac{dy}{dx}$ tell you at a point on a curve?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The gradient of the tangent at that point",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "The $y$-coordinate of the point",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "The average gradient between two different points",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "The area under the curve",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The derivative at a point is the gradient of the tangent at that point, so A is correct. A common mistake is C, but that is an average gradient between two points, not the instantaneous gradient at one point. Hint: Think about what a tangent tells you."
+  },
+  {
+   "id": "card-7",
+   "question": "Differentiate $y = 2x^3 + \\frac{3}{x}$.",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$6x^2 + \\frac{3}{x^2}$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$6x^2 - \\frac{3}{x^2}$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$6x - \\frac{3}{x^2}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$6x^2 - \\frac{3}{x}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Rewrite $\\frac{3}{x}$ as $3x^{-1}$, so its derivative is $-3x^{-2} = -\\frac{3}{x^2}$. A common mistake is option A, which forgets that differentiating $x^{-1}$ gives a negative sign."
+  },
+  {
+   "id": "card-12",
+   "question": "Stretch: If $\\frac{dy}{dx} = (x-4)(x+2)$, for which values of $x$ is the gradient negative?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$x < -2$ or $x > 4$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$-2 < x < 4$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$x \\le -2$ or $x \\ge 4$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$x = -2$ or $x = 4$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The roots are $x = -2$ and $x = 4$, and the positive coefficient means the quadratic is below the axis between the roots, so the gradient is negative on $-2 < x < 4$. A common mistake is A, which would be true for a downward-opening quadratic, and the endpoints are excluded because there the gradient is zero."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-8-9-8-8-differentiation/lessons",
+ "source_sha256": "eb5c05a7a7b6a57579d82aa1fd0821b36f2d03a0b03002bf9054eef44a38368e",
+ "extracted_at": "2026-11-08T19:01:31Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "72bd6e81-ad98-43ae-8243-78e0d78a8fa4",
+  "topic_id": "e95ce1eb-759a-491d-bbfc-cc622e432bea",
+  "created_at": "2026-05-13T12:00:40.568Z",
+  "updated_at": "2026-05-13T12:04:13.455Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

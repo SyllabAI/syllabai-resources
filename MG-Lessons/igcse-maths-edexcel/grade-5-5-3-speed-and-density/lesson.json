@@ -1,0 +1,132 @@
+{
+ "topic": "grade-5-5-3-speed-and-density",
+ "lane": "igcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Compound measures and key formulas",
+   "body": "Speed and density are compound measures, so they compare two different quantities. The word per usually means divide.\n\nUse $\\text{average speed} = \\frac{\\text{distance}}{\\text{time}}$ and $\\text{density} = \\frac{\\text{mass}}{\\text{volume}}$. The same divide idea also appears in pressure, where $\\text{pressure} = \\frac{\\text{force}}{\\text{area}}$.\n\nUnits help you spot the formula: mph and m/s are speed units, while $g/cm^{3}$ and $g/ml$ are density units. Before substituting, make sure the time and volume units match the question."
+  },
+  {
+   "heading": "Average speed and time conversions",
+   "body": "Average speed is total distance divided by total time. If the speed is in mph, the time must be in hours, and if the speed is in m/s, the time must be in seconds.\n\nBe careful with mixed times. For example, 4 hours 30 minutes is $4.5$ hours, not 4.30 hours, because $30 \\div 60 = 0.5$ hour.\n\nWorked example: a car travels 250 miles in 4 hours 30 minutes. Using $4.5$ hours, the calculation is: $$\\text{average speed} = \\frac{250}{4.5} = 55.555\\ldots$$ The average speed is 55.6 mph to 1 decimal place.\n\nTo find an arrival time, first use $\\text{time} = \\frac{\\text{distance}}{\\text{speed}}$ to determine the journey duration. Then add that journey time to the starting clock time."
+  },
+  {
+   "heading": "Whole-journey average speed",
+   "body": "![Journey diagram split into 150 miles at 60 mph and 160 miles in 3 h 20 min, showing total distance, total time, and average speed 53.1 mph](../assets/001-994c29eb-5be5-406f-aed5-1f4774ac4e6f.jpeg)\nFor a whole journey, average speed means total distance divided by total time. Do not just average the speeds from each part unless the times are the same.\n\nIn Mina's trip, the first 150 miles at 60 mph takes $\\frac{150}{60} = 2.5$ hours. The second part takes 3 hours 20 minutes. In hours, this is $3 + \\frac{20}{60} = 3.333\\ldots$ hours.\n\nNow combine the journey: total distance is 310 miles and total time is $2.5 + 3.333\\ldots = 5.833\\ldots$ hours. So the average speed is $\\frac{310}{5.833\\ldots} \\approx 53.1$, which results in an average speed of 53.1 mph.",
+   "figure_refs": [
+    "assets/001-994c29eb-5be5-406f-aed5-1f4774ac4e6f.jpeg"
+   ]
+  },
+  {
+   "heading": "Density and rearranging formulas",
+   "body": "Density tells you how much mass is packed into each unit of volume. Use the formula $\\text{density} = \\frac{\\text{mass}}{\\text{volume}}$, which can be rearranged to $\\text{mass} = \\text{density} \\times \\text{volume}$ and $\\text{volume} = \\frac{\\text{mass}}{\\text{density}}$.\n\nExample: a stone has mass $72 \\, \\text{g}$ and density $4.5 \\, \\text{g/cm}^3$. Because volume is missing, we use the rearranged calculation $\\text{volume} = \\frac{72}{4.5} = 16$.\n\nThe resulting volume is $16 \\, \\text{cm}^3$. The units also fit perfectly, because dividing grams ($\\text{g}$) by grams per cubic centimeter ($\\text{g/cm}^3$) leaves cubic centimeters ($\\text{cm}^3$)."
+  },
+  {
+   "heading": "Density of a mixture",
+   "body": "![Two liquids labelled X and Y being combined, with masses 120 g and 300 g adding to total mass 420 g, volumes 150 ml and 250 ml adding to total volume 400 ml, and final density 1.05 g/ml](../assets/002-83c75d31-ee60-4ce8-9660-75386d983667.jpeg)\n\nWhen liquids are mixed, keep track of mass and volume separately. Do not add or average the densities first.\n\nFor Liquid X:\n$$\\text{mass} = \\text{density} \\times \\text{volume} = 0.8 \\times 150 = 120 \\text{ g}$$\nFor Liquid Y:\n$$\\text{mass} = 1.2 \\times 250 = 300 \\text{ g}$$\n\nNow add the totals: $\\text{total mass} = 120 + 300 = 420$ g and $\\text{total volume} = 150 + 250 = 400$ ml. To find the final density, divide the total mass by the total volume.\n\n$$$\\text{Mixture Density} = \\frac{420}{400} = 1.05 \\text{ g/ml}$$",
+   "figure_refs": [
+    "assets/002-83c75d31-ee60-4ce8-9660-75386d983667.jpeg"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Which expression matches miles per hour?",
+   "options": [
+    {
+     "id": "a",
+     "text": "miles $\\div$ hours",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "miles $\\times$ hours",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "hours $\\div$ miles",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "miles + hours",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Miles per hour means miles for each hour, so it is distance divided by time. The common wrong answer B is used when finding distance from speed and time, but mph itself is still a divide measure."
+  },
+  {
+   "id": "card-7",
+   "question": "Mina drives 150 miles at 60 mph and then 160 miles in 3 hours 20 minutes. Which calculation gives her whole-journey average speed?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$\\frac{60 + 48}{2}$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$\\frac{310}{2.5 + 3 + \\frac{20}{60}}$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$\\frac{150 + 160}{2}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$60 + 48$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Whole-journey average speed uses total distance divided by total time, so you must add the distances and add the times first. The common wrong answer A averages the two part-speeds directly, but the two parts take different lengths of time."
+  },
+  {
+   "id": "card-12",
+   "question": "Two liquids are mixed. What is the correct method for finding the density of the mixture?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Add the two densities",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "Average the two densities",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "Add the masses and add the volumes, then divide total mass by total volume",
+     "is_correct": true
+    },
+    {
+     "id": "d",
+     "text": "Multiply the two densities",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Density depends on both mass and volume, so you must total those quantities first and divide once at the end. The common wrong answer B ignores the different volumes, so it can give the wrong density."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-5-5-3-speed-and-density/lessons",
+ "source_sha256": "f9b98a780797836c1cf538a7d8f548af92be3bb5517b771482e10ab804383b9f",
+ "extracted_at": "2026-11-08T19:00:59Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "ec2cda10-7172-43ad-b300-b0781c6ed94f",
+  "topic_id": "a1a226f3-5b6b-47bd-84dd-2c2e671748a7",
+  "created_at": "2026-05-14T12:01:07.780Z",
+  "updated_at": "2026-05-14T12:11:16.626Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

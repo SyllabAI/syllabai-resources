@@ -1,0 +1,133 @@
+{
+ "topic": "grade-7-7-7-rearranging-harder-formulae",
+ "lane": "igcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "The core idea",
+   "body": "![Flowchart showing m = n + kp with forward operations multiply by p and add n, and reverse operations subtract n and divide by p to isolate k](../assets/001-91a3ce33-8c81-424c-bb27-e843dfc78d60.jpeg)\n\nRearranging a harder formula means isolating one variable so the final line has $x$ on its own on one side. The safest idea is balance: whatever you do to one side, you must do to the other side.\n\nWork backwards through the operations using inverse operations. Undo addition before multiplication, and clear fractions before you try to collect terms.\n\nA good exam check is simple: the target letter should appear once, on its own, and nowhere else. If it still appears on both sides, you have more rearranging to do.",
+   "figure_refs": [
+    "assets/001-91a3ce33-8c81-424c-bb27-e843dfc78d60.jpeg"
+   ]
+  },
+  {
+   "heading": "Worked example with inverse operations",
+   "body": "Start with the operation furthest from the target letter. In $m=n+kp$, the $n$ is added after $kp$ is formed, so subtract $n$ first.\n\nSubtracting $n$ from both sides results in:\n$$m-n=kp$$\nWe then divide both sides by $p$ to isolate the target variable.\n\n$$$k=\\frac{m-n}{p}$$\nThinking in inverse operations is safer than talking about moving terms across, as it helps prevent sign errors."
+  },
+  {
+   "heading": "Squares and half-terms",
+   "body": "If the target letter is squared, isolate the squared part before taking the square root. In pure algebra you usually need $\\pm$, although for a length or time the negative root may be rejected.\n\nFrom $R^2=P^2+5qt$, subtract $5qt$ first:\n$$R^2-5qt=P^2$$\nThen square root both sides:\n$$P=\\pm\\sqrt{R^2-5qt}$$\n\nIf a term has a coefficient like $\\frac{1}{2}$, clear that fraction before dividing by other factors. Do not divide by $t^2$ first, because the $\\frac{1}{2}$ applies to the whole product.\n\nFrom $d=wt+\\frac{1}{2}nt^2$, first isolate the half-term:\n$$d-wt=\\frac{1}{2}nt^2$$\nMultiply by 2 and then divide by $t^2$:\n$$2(d-wt)=nt^2$$\n$$n=\\frac{2(d-wt)}{t^2}$$"
+  },
+  {
+   "heading": "Collect, factorise, divide",
+   "body": "If the target letter appears in two places, collect those terms together before you try to divide. Dividing too early often traps the target letter in another term.\n\nFor $x(4+a)=b(x+1)$, expand both sides first:\n$$4x+ax=bx+b$$\nNow subtract $bx$ from both sides to group the terms containing $x$ on one side:\n$$4x+ax-bx=b$$\n\nFactorise $x$ from the left-hand side:\n$$x(4+a-b)=b$$\nNow divide by the bracket to isolate the subject:\n$$x=\\frac{b}{4+a-b}$$"
+  },
+  {
+   "heading": "Clearing algebraic fractions",
+   "body": "When the target letter is in a numerator and a denominator, clear the fraction first. If one fraction equals another, the same idea becomes multiplying by both denominators, which is often called cross-multiplying.\n\nFrom $p=\\frac{6+2qx}{2x-5}$, multiply both sides by $2x-5$: $$p(2x-5)=6+2qx$$ Then expand the bracket: $$2px-5p=6+2qx$$\n\nCollect the $x$ terms on one side and the other terms on the other side: $$2px-2qx=6+5p$$ Factorise $2x$: $$2x(p-q)=6+5p$$\n\nNow divide by $2(p-q)$: $$x=\\frac{6+5p}{2(p-q)}$$ You also need hidden restrictions such as $2x-5\\neq0$ and $p-q\\neq0$ so you never divide by zero."
+  },
+  {
+   "heading": "Reciprocal formulae",
+   "body": "Reciprocal formulae look awkward, but the method is very regular. Isolate the reciprocal containing the target, combine the other fractions, then take the reciprocal at the end.\n\nFor $\\frac{1}{x}=\\frac{1}{y}+\\frac{1}{z}$, subtract $\\frac{1}{z}$ from both sides:\n$$\\frac{1}{y}=\\frac{1}{x}-\\frac{1}{z}$$\n\nNow combine the fractions:\n$$\\frac{1}{y}=\\frac{z}{xz}-\\frac{x}{xz}=\\frac{z-x}{xz}$$\n\nTake the reciprocal of both sides:\n$$y=\\frac{xz}{z-x}$$\nThis only makes sense when the denominators are non-zero, so $x\\neq0$, $z\\neq0$, and $z-x\\neq0$."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "When you have successfully made $x$ the subject of a formula, what must be true?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$x$ is alone on one side and does not appear on the other",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$2x$ is alone on one side",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$x$ appears on both sides",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "the formula has no fractions",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A is correct because the subject of a formula is the variable isolated by itself. B is the most common wrong idea because $x$ is still being multiplied by 2, so it is not fully isolated. Hint: The subject is the variable written by itself."
+  },
+  {
+   "id": "card-7",
+   "question": "Make $P$ the subject of $R^2=P^2+5qt$. Which answer is correct?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$P=\\sqrt{R^2-5qt}$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$P=\\pm\\sqrt{R^2-5qt}$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$P=R^2-5qt$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$P=\\pm(R^2-5qt)$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "B is correct because after subtracting $5qt$ you have $P^2=R^2-5qt$, and square-rooting gives two roots unless context says only positive values are allowed. A is the most common wrong answer because it forgets the negative root."
+  },
+  {
+   "id": "card-13",
+   "question": "What is the best first step when rearranging $p=\\frac{6+2qx}{2x-5}$ to make $x$ the subject?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Divide both sides by $2q$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "Multiply both sides by $2x-5$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "Subtract 6 from both sides",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Take the reciprocal of both sides",
+     "is_correct": false
+    }
+   ],
+   "explanation": "B is correct because clearing the denominator removes the fraction containing $x$. A is the most common wrong answer because dividing by $2q$ leaves the denominator $2x-5$ untouched."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-7-7-7-rearranging-harder-formulae/lessons",
+ "source_sha256": "61484eed8880068803a36118dbdc77ddbdbf034123a1f2d7ab8de60dda995818",
+ "extracted_at": "2026-11-08T19:01:25Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "6124a717-da9a-40b7-af3a-5d3e767d2749",
+  "topic_id": "630e8c65-f90a-4515-b224-9b5d1ce4f533",
+  "created_at": "2026-05-13T12:02:03.259Z",
+  "updated_at": "2026-05-13T12:03:19.467Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

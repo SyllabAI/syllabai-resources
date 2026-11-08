@@ -1,0 +1,139 @@
+{
+ "topic": "grade-4-4-16-bearings",
+ "lane": "igcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What is a bearing?",
+   "body": "![Bearing measured clockwise from the North line at A to line AB labelled 067 degrees](../assets/001-d229c310-51d5-4f02-8ef8-a3b54e4c6d4f.jpeg)\nA bearing describes direction. It is always measured clockwise from the North line at the starting point.\n\nA bearing is written using three figures, such as $067^\\circ$ or $315^\\circ$. In \"the bearing of B from A\", the word \"from\" tells you to stand at A.",
+   "figure_refs": [
+    "assets/001-d229c310-51d5-4f02-8ef8-a3b54e4c6d4f.jpeg"
+   ]
+  },
+  {
+   "heading": "Three-figure bearings",
+   "body": "A bearing must have three digits before the degree symbol. Consequently, $7^\\circ$ becomes $007^\\circ$, $45^\\circ$ becomes $045^\\circ$, and $90^\\circ$ is written as $090^\\circ$.\n\nThe main compass directions are North $000^\\circ$, East $090^\\circ$, South $180^\\circ$, and West $270^\\circ$. South-West is halfway between South and West, so it is expressed as $225^\\circ$.\n\nIf a direction is $23^\\circ$ clockwise from North, write it as $023^\\circ$. The leading zero is a mandatory part of the notation, not just extra decoration."
+  },
+  {
+   "heading": "How to draw a bearing",
+   "body": "![Point P with North line and a ray at 125 degrees clockwise to point Q 6 cm away](../assets/002-1c6781cc-e18d-4642-9d5f-c9877a2d7915.jpeg)\n\nTo draw a bearing, start at the point named in the question and draw a North line upwards from it. Then place the centre of the protractor exactly on the point.\n\nTo draw Q $6 \\, \\text{cm}$ from P on a bearing of $125^\\circ$, line up $0^\\circ$ with the North line and measure $125^\\circ$ clockwise. Make a small mark, draw a ray through it, then measure $6 \\, \\text{cm}$ along the ray to place Q.\n\nIf the numbers on the protractor get smaller as you move clockwise, you are reading the wrong scale. Check that the angle is measured from North, not from the line segment itself.",
+   "figure_refs": [
+    "assets/002-1c6781cc-e18d-4642-9d5f-c9877a2d7915.jpeg"
+   ]
+  },
+  {
+   "heading": "Reverse bearings",
+   "body": "A reverse bearing sends you back along the same line in the opposite direction. Opposite directions differ by a half-turn, and a half-turn is $180^\\circ$.\n\nIf the original bearing is less than $180^\\circ$, add $180^\\circ$. If the original bearing is $180^\\circ$ or more, subtract $180^\\circ$.\n\nFor example, the reverse of $070^\\circ$ is $250^\\circ$, and the reverse of $238^\\circ$ is $058^\\circ$. The second answer needs a leading zero because bearings must still have three figures."
+  },
+  {
+   "heading": "Bearings in triangles",
+   "body": "![Triangle ABC with North lines at A and B, 040 degree bearing from A to B and 120 degree bearing from B to C](../assets/003-2b98622f-df5e-40b4-8dda-700347b7d6bd.jpeg)\n\nWhen a question asks for an angle in a triangle, make both directions start from the same point before you subtract. North lines at different points are parallel, so reverse bearings are often the key step.\n\nWorked example: from A, B is on a bearing of $040^\\circ$ and from B, C is on a bearing of $120^\\circ$. Angle $ABC$ is at B, so we need the directions from B to A and from B to C.\n\nFirst find the reverse bearing of A to B:\n\n$$40^\\circ + 180^\\circ = 220^\\circ$$\n\nSo the bearing of A from B is $220^\\circ$.\n\nNow compare the two directions from B, which are $220^\\circ$ to A and $120^\\circ$ to C.\n\n$$220^\\circ - 120^\\circ = 100^\\circ$$\n\nTherefore, angle $ABC = 100^\\circ$.",
+   "figure_refs": [
+    "assets/003-2b98622f-df5e-40b4-8dda-700347b7d6bd.jpeg"
+   ]
+  },
+  {
+   "heading": "Exam technique and common traps",
+   "body": "Start by underlining the word \"from\" and putting your pencil on that point. If there is no North line there, draw or extend one before measuring.\n\nAlways measure clockwise and always write three figures. If a question gives a small anticlockwise angle from North, subtract it from $360^\\circ$ to turn it into the clockwise bearing.\n\nIn triangle questions, find any reverse bearings first and then use ordinary angle facts such as angles on a straight line or angles in a triangle. Only subtract two bearings directly when both directions have been measured from the same point."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Which statement about bearings is correct?",
+   "options": [
+    {
+     "id": "a",
+     "text": "A bearing is measured clockwise from North at the starting point",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "A bearing is measured anticlockwise from North at the starting point",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "A bearing is measured clockwise from East at the starting point",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "A bearing is measured clockwise from North at the finishing point",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A bearing always starts from the North line and turns clockwise at the point named after \"from\". The most common wrong answer is D, but \"from A\" means use the North line at A, not at the other point. Hint: Underline the word \"from\"."
+  },
+  {
+   "id": "card-9",
+   "question": "The bearing of B from A is $238^\\circ$. What is the bearing of A from B?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$058^\\circ$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$58^\\circ$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$418^\\circ$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$138^\\circ$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Reverse bearings differ by $180^\\circ$. Because $238^\\circ$ is $180^\\circ$ or more, subtract $180^\\circ$ to get $58^\\circ$, then write it as $058^\\circ$ to satisfy the three-figure rule. A common mistake is forgetting the leading zero."
+  },
+  {
+   "id": "card-13",
+   "question": "From A, B is on a bearing of $326^\\circ$ and C is on a bearing of $058^\\circ$. What is angle $BAC$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$92^\\circ$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$268^\\circ$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$32^\\circ$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$24^\\circ$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Both bearings are already from A, so compare them at the same point. The smaller angle crosses North: from $326^\\circ$ to $360^\\circ$ is $34^\\circ$, then $34^\\circ + 58^\\circ = 92^\\circ$; the common wrong answer B comes from subtracting $326 - 58$ without choosing the smaller angle. Hint: Sketch the North line at A and look for the smaller angle."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-4-4-16-bearings/lessons",
+ "source_sha256": "f8b5db2d5ff7ec616146c34b44dd18deba8d400dc7a8204b1f8651a2e6aa9312",
+ "extracted_at": "2026-11-08T19:00:44Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "af6ccfbf-87d6-4c33-958d-8038bbda5977",
+  "topic_id": "f80722d9-fc8c-4604-96bc-b274a8bd3be6",
+  "created_at": "2026-05-14T04:45:56.034Z",
+  "updated_at": "2026-05-14T04:50:26.329Z",
+  "figures": 3,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}
