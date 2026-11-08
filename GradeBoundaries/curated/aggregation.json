@@ -4,19 +4,19 @@
   "sources": [
     {
       "id": "pearson-ial-info-manual",
-      "title": "Pearson Qualifications Information Manual 2025/26 — International Advanced A Level section (unit requirements per cash-in code)",
+      "title": "Pearson Qualifications Information Manual 2025/26 \u2014 International Advanced A Level section (unit requirements per cash-in code)",
       "url": "https://qualifications.pearson.com/content/dam/pdf/Support/Information-manual/4-ial-2025-2026.pdf",
       "usedFor": "XMA01/YMA01/YFM01 unit compositions incl. the five allowed YMA01 applied pairs"
     },
     {
       "id": "pearson-ial-results-explained",
-      "title": "Pearson — International Advanced Level results explained for students",
+      "title": "Pearson \u2014 International Advanced Level results explained for students",
       "url": "https://qualifications.pearson.com/en/support/support-topics/results-certification/understanding-marks-and-grades/understanding-your-results-information-for-students/edexcel-international-advanced-level-results-explained.html",
       "usedFor": "A* rule: grade A overall AND at least 90% of the A2 UMS; Mathematics: 480 overall + at least 180/200 from P3+P4; six-unit IALs: 480 overall + at least 270/300 at A2; four-unit IALs: 320 + 180/200"
     },
     {
       "id": "pearson-ial-maths-aggregation-guidance",
-      "title": "IAL 2018 Mathematics Aggregation Rules — Guidance for Centres (Rules 1-7: two-step grade/UMS maximisation, qualification-group unit locking, worked Examples; official AS/A2 designation: P1 P2 FP1 M1 S1 D1 are AS units, P3 P4 FP2 FP3 M2 M3 S2 S3 are A2 units)",
+      "title": "IAL 2018 Mathematics Aggregation Rules \u2014 Guidance for Centres (Rules 1-7: two-step grade/UMS maximisation, qualification-group unit locking, worked Examples; official AS/A2 designation: P1 P2 FP1 M1 S1 D1 are AS units, P3 P4 FP2 FP3 M2 M3 S2 S3 are A2 units)",
       "url": "https://qualifications.pearson.com/content/dam/pdf/International%20Advanced%20Level/Mathematics/2018/Teaching-and-Learning-Materials/aggregation-rules-and-guidance.pdf",
       "sha256_16": "61b32c5016644e74",
       "usedFor": "YFM01 multi-route eligibility + Rule 1 maximisation + unit locking + the AS/A2 designation behind a2[]"
@@ -29,7 +29,7 @@
     },
     {
       "id": "pearson-igcse-modular-boundary-doc",
-      "title": "Pearson International GCSE Modular grade-boundary documents (raw/pearson-int-gcse-modular) — 'Maximum marks and grade boundaries for the overall qualification (the cash-in) are only shown in UMS marks'",
+      "title": "Pearson International GCSE Modular grade-boundary documents (raw/pearson-int-gcse-modular) \u2014 'Maximum marks and grade boundaries for the overall qualification (the cash-in) are only shown in UMS marks'",
       "url": "https://qualifications.pearson.com/",
       "usedFor": "Modular cash-in grades are UMS-aggregated; unit raw marks convert to UMS through the unit's own published raw+UMS boundary pairs"
     }
@@ -37,59 +37,526 @@
   "ialCashIns": {
     "YBI11": {
       "title": "Biology International Advanced Level",
-      "required": ["WBI11", "WBI12", "WBI13", "WBI14", "WBI15", "WBI16"],
-      "a2": ["WBI14", "WBI15", "WBI16"],
-      "aStar": { "overallMin": 480, "a2Min": 270 }
+      "required": [
+        "WBI11",
+        "WBI12",
+        "WBI13",
+        "WBI14",
+        "WBI15",
+        "WBI16"
+      ],
+      "a2": [
+        "WBI14",
+        "WBI15",
+        "WBI16"
+      ],
+      "aStar": {
+        "overallMin": 480,
+        "a2Min": 270
+      }
     },
     "YCH11": {
       "title": "Chemistry International Advanced Level",
-      "required": ["WCH11", "WCH12", "WCH13", "WCH14", "WCH15", "WCH16"],
-      "a2": ["WCH14", "WCH15", "WCH16"],
-      "aStar": { "overallMin": 480, "a2Min": 270 }
+      "required": [
+        "WCH11",
+        "WCH12",
+        "WCH13",
+        "WCH14",
+        "WCH15",
+        "WCH16"
+      ],
+      "a2": [
+        "WCH14",
+        "WCH15",
+        "WCH16"
+      ],
+      "aStar": {
+        "overallMin": 480,
+        "a2Min": 270
+      }
     },
     "YPH11": {
       "title": "Physics International Advanced Level",
-      "required": ["WPH11", "WPH12", "WPH13", "WPH14", "WPH15", "WPH16"],
-      "a2": ["WPH14", "WPH15", "WPH16"],
-      "aStar": { "overallMin": 480, "a2Min": 270 }
+      "required": [
+        "WPH11",
+        "WPH12",
+        "WPH13",
+        "WPH14",
+        "WPH15",
+        "WPH16"
+      ],
+      "a2": [
+        "WPH14",
+        "WPH15",
+        "WPH16"
+      ],
+      "aStar": {
+        "overallMin": 480,
+        "a2Min": 270
+      }
     },
     "YMA01": {
       "title": "Mathematics International Advanced Level",
-      "required": ["WMA11", "WMA12", "WMA13", "WMA14"],
-      "optionalPairs": [
-        ["WME01", "WST01"],
-        ["WME01", "WDM11"],
-        ["WME01", "WME02"],
-        ["WST01", "WDM11"],
-        ["WST01", "WST02"]
+      "required": [
+        "WMA11",
+        "WMA12",
+        "WMA13",
+        "WMA14"
       ],
-      "a2": ["WMA13", "WMA14"],
-      "aStar": { "overallMin": 480, "a2Min": 180 }
+      "optionalPairs": [
+        [
+          "WME01",
+          "WST01"
+        ],
+        [
+          "WME01",
+          "WDM11"
+        ],
+        [
+          "WME01",
+          "WME02"
+        ],
+        [
+          "WST01",
+          "WDM11"
+        ],
+        [
+          "WST01",
+          "WST02"
+        ]
+      ],
+      "a2": [
+        "WMA13",
+        "WMA14"
+      ],
+      "aStar": {
+        "overallMin": 480,
+        "a2Min": 180
+      }
     },
     "YFM01": {
       "title": "Further Mathematics International Advanced Level",
-      "required": ["WFM01"],
+      "required": [
+        "WFM01"
+      ],
       "selection": {
-        "pool": ["WFM01", "WFM02", "WFM03", "WME01", "WME02", "WME03",
-                 "WST01", "WST02", "WST03", "WDM11"],
+        "pool": [
+          "WFM01",
+          "WFM02",
+          "WFM03",
+          "WME01",
+          "WME02",
+          "WME03",
+          "WST01",
+          "WST02",
+          "WST03",
+          "WDM11"
+        ],
         "size": 6,
-        "mustInclude": ["WFM01"],
-        "atLeastOneOf": ["WFM02", "WFM03"]
+        "mustInclude": [
+          "WFM01"
+        ],
+        "atLeastOneOf": [
+          "WFM02",
+          "WFM03"
+        ]
       },
-      "a2": ["WFM02", "WFM03", "WME02", "WME03", "WST02", "WST03"],
-      "aStar": { "overallMin": 480, "a2Rate": 0.9 },
+      "a2": [
+        "WFM02",
+        "WFM03",
+        "WME02",
+        "WME03",
+        "WST02",
+        "WST03"
+      ],
+      "aStar": {
+        "overallMin": 480,
+        "a2Rate": 0.9
+      },
       "maximisation": "rule-1-grade-then-ums"
     }
   },
   "modularCashIns": {
-    "4XBI1": { "units": ["4WBI1", "4WBI2"] },
-    "4XCH1": { "units": ["4WCH1", "4WCH2"] },
-    "4XPH1": { "units": ["4WPH1", "4WPH2"] },
-    "4XMAF": { "units": ["4WM1F", "4WM2F"] },
-    "4XMAH": { "units": ["4WM1H", "4WM2H"] },
-    "4XSD1": { "units": ["4WSD1", "4WSD2", "4WSD3", "4WSD4", "4WSD5", "4WSD6"] }
+    "4XBI1": {
+      "units": [
+        "4WBI1",
+        "4WBI2"
+      ],
+      "umsMax": 240,
+      "unitUmsMax": {
+        "4WBI1": 120,
+        "4WBI2": 120
+      },
+      "gradeThresholds": {
+        "9": 216,
+        "8": 192,
+        "7": 168,
+        "6": 144,
+        "5": 120,
+        "4": 96,
+        "3": 72,
+        "2": 48,
+        "1": 24
+      },
+      "unitGradeTables": {
+        "4WBI1": {
+          "9": 108,
+          "8": 96,
+          "7": 84,
+          "6": 72,
+          "5": 60,
+          "4": 48,
+          "3": 36,
+          "2": 24,
+          "1": 12
+        },
+        "4WBI2": {
+          "9": 108,
+          "8": 96,
+          "7": 84,
+          "6": 72,
+          "5": 60,
+          "4": 48,
+          "3": 36,
+          "2": 24,
+          "1": 12
+        }
+      },
+      "aStar": {
+        "overallMin": 216,
+        "note": "9-1 ladder: grade 9 is the top grade (no A*); overallMin is the spec's fixed minimum total UMS for grade 9"
+      },
+      "unclassifiedBelow": 24,
+      "resitRule": "Only the better of the two most recent attempts of a unit counts toward aggregation (spec 'Resitting of units').",
+      "firstCertification": "August 2025",
+      "sourceIds": [
+        "pearson-4xb1-modular-specification"
+      ]
+    },
+    "4XCH1": {
+      "units": [
+        "4WCH1",
+        "4WCH2"
+      ],
+      "umsMax": 240,
+      "unitUmsMax": {
+        "4WCH1": 120,
+        "4WCH2": 120
+      },
+      "gradeThresholds": {
+        "9": 216,
+        "8": 192,
+        "7": 168,
+        "6": 144,
+        "5": 120,
+        "4": 96,
+        "3": 72,
+        "2": 48,
+        "1": 24
+      },
+      "unitGradeTables": {
+        "4WCH1": {
+          "9": 108,
+          "8": 96,
+          "7": 84,
+          "6": 72,
+          "5": 60,
+          "4": 48,
+          "3": 36,
+          "2": 24,
+          "1": 12
+        },
+        "4WCH2": {
+          "9": 108,
+          "8": 96,
+          "7": 84,
+          "6": 72,
+          "5": 60,
+          "4": 48,
+          "3": 36,
+          "2": 24,
+          "1": 12
+        }
+      },
+      "aStar": {
+        "overallMin": 216,
+        "note": "9-1 ladder: grade 9 is the top grade (no A*); overallMin is the spec's fixed minimum total UMS for grade 9"
+      },
+      "unclassifiedBelow": 24,
+      "resitRule": "Only the better of the two most recent attempts of a unit counts toward aggregation (spec 'Resitting of units').",
+      "firstCertification": "August 2025",
+      "sourceIds": [
+        "pearson-4xc1-modular-specification"
+      ]
+    },
+    "4XPH1": {
+      "units": [
+        "4WPH1",
+        "4WPH2"
+      ],
+      "umsMax": 240,
+      "unitUmsMax": {
+        "4WPH1": 120,
+        "4WPH2": 120
+      },
+      "gradeThresholds": {
+        "9": 216,
+        "8": 192,
+        "7": 168,
+        "6": 144,
+        "5": 120,
+        "4": 96,
+        "3": 72,
+        "2": 48,
+        "1": 24
+      },
+      "unitGradeTables": {
+        "4WPH1": {
+          "9": 108,
+          "8": 96,
+          "7": 84,
+          "6": 72,
+          "5": 60,
+          "4": 48,
+          "3": 36,
+          "2": 24,
+          "1": 12
+        },
+        "4WPH2": {
+          "9": 108,
+          "8": 96,
+          "7": 84,
+          "6": 72,
+          "5": 60,
+          "4": 48,
+          "3": 36,
+          "2": 24,
+          "1": 12
+        }
+      },
+      "aStar": {
+        "overallMin": 216,
+        "note": "9-1 ladder: grade 9 is the top grade (no A*); overallMin is the spec's fixed minimum total UMS for grade 9"
+      },
+      "unclassifiedBelow": 24,
+      "resitRule": "Only the better of the two most recent attempts of a unit counts toward aggregation (spec 'Resitting of units').",
+      "firstCertification": "August 2025",
+      "sourceIds": [
+        "pearson-4xp1-modular-specification"
+      ]
+    },
+    "4XMAF": {
+      "units": [
+        "4WM1F",
+        "4WM2F"
+      ],
+      "umsMax": 240,
+      "unitUmsMax": {
+        "4WM1F": 120,
+        "4WM2F": 120
+      },
+      "gradeThresholds": {
+        "5": 120,
+        "4": 96,
+        "3": 72,
+        "2": 48,
+        "1": 24
+      },
+      "unitGradeTables": {
+        "4WM1F": {
+          "5": 60,
+          "4": 48,
+          "3": 36,
+          "2": 24,
+          "1": 12
+        },
+        "4WM2F": {
+          "5": 60,
+          "4": 48,
+          "3": 36,
+          "2": 24,
+          "1": 12
+        }
+      },
+      "aStar": {
+        "overallMin": 120,
+        "note": "Foundation tier top grade is 5; overallMin is the spec's fixed minimum total UMS for grade 5 (240-UMS ladder, 9-1 scale with F grades 5-1)"
+      },
+      "unclassifiedBelow": 24,
+      "resitRule": "Only the better of the two most recent attempts of a unit counts toward aggregation (spec 'Resitting of units').",
+      "firstCertification": "August 2025",
+      "sourceIds": [
+        "pearson-4xm1-modular-specification"
+      ]
+    },
+    "4XMAH": {
+      "units": [
+        "4WM1H",
+        "4WM2H"
+      ],
+      "umsMax": 240,
+      "unitUmsMax": {
+        "4WM1H": 120,
+        "4WM2H": 120
+      },
+      "gradeThresholds": {
+        "9": 216,
+        "8": 192,
+        "7": 168,
+        "6": 144,
+        "5": 120,
+        "4": 96,
+        "3": 84
+      },
+      "unitGradeTables": {
+        "4WM1H": {
+          "9": 108,
+          "8": 96,
+          "7": 84,
+          "6": 72,
+          "5": 60,
+          "4": 48,
+          "3": 42
+        },
+        "4WM2H": {
+          "9": 108,
+          "8": 96,
+          "7": 84,
+          "6": 72,
+          "5": 60,
+          "4": 48,
+          "3": 42
+        }
+      },
+      "aStar": {
+        "overallMin": 216,
+        "note": "Higher tier top grade 9; grades below 3 not targeted (3 allowed at 84/240 total, 42 per 120-UMS unit)"
+      },
+      "unclassifiedBelow": 24,
+      "resitRule": "Only the better of the two most recent attempts of a unit counts toward aggregation (spec 'Resitting of units').",
+      "firstCertification": "August 2025",
+      "sourceIds": [
+        "pearson-4xm1-modular-specification"
+      ]
+    },
+    "4XSD1": {
+      "units": [
+        "4WSD1",
+        "4WSD2",
+        "4WSD3",
+        "4WSD4",
+        "4WSD5",
+        "4WSD6"
+      ],
+      "umsMax": 480,
+      "unitUmsMax": {
+        "4WSD1": 80,
+        "4WSD2": 80,
+        "4WSD3": 80,
+        "4WSD4": 80,
+        "4WSD5": 80,
+        "4WSD6": 80
+      },
+      "gradeThresholds": {
+        "9-9": 480,
+        "9-8": 432,
+        "8-8": 408,
+        "8-7": 384,
+        "7-7": 360,
+        "7-6": 336,
+        "6-6": 312,
+        "6-5": 288,
+        "5-5": 264,
+        "5-4": 240,
+        "4-4": 216,
+        "4-3": 192,
+        "3-3": 168,
+        "3-2": 144,
+        "2-2": 120,
+        "2-1": 96,
+        "1-1": 72
+      },
+      "unitGradeTables": {
+        "4WSD1": {
+          "9": 72,
+          "8": 64,
+          "7": 56,
+          "6": 48,
+          "5": 40,
+          "4": 32,
+          "3": 24,
+          "2": 16,
+          "1": 8
+        },
+        "4WSD2": {
+          "9": 72,
+          "8": 64,
+          "7": 56,
+          "6": 48,
+          "5": 40,
+          "4": 32,
+          "3": 24,
+          "2": 16,
+          "1": 8
+        },
+        "4WSD3": {
+          "9": 72,
+          "8": 64,
+          "7": 56,
+          "6": 48,
+          "5": 40,
+          "4": 32,
+          "3": 24,
+          "2": 16,
+          "1": 8
+        },
+        "4WSD4": {
+          "9": 72,
+          "8": 64,
+          "7": 56,
+          "6": 48,
+          "5": 40,
+          "4": 32,
+          "3": 24,
+          "2": 16,
+          "1": 8
+        },
+        "4WSD5": {
+          "9": 72,
+          "8": 64,
+          "7": 56,
+          "6": 48,
+          "5": 40,
+          "4": 32,
+          "3": 24,
+          "2": 16,
+          "1": 8
+        },
+        "4WSD6": {
+          "9": 72,
+          "8": 64,
+          "7": 56,
+          "6": 48,
+          "5": 40,
+          "4": 32,
+          "3": 24,
+          "2": 16,
+          "1": 8
+        }
+      },
+      "aStar": {
+        "overallMin": 480,
+        "note": "17-grade double-award ladder 9-9..1-1; the top grade 9-9 requires the full 480 UMS (spec caps 9-9 at the maximum uniform mark)"
+      },
+      "unclassifiedBelow": 48,
+      "resitRule": "Only the better of the two most recent attempts of a unit counts toward aggregation (spec 'Resitting of units').",
+      "firstCertification": "August 2025",
+      "sourceIds": [
+        "pearson-4xs1-modular-specification"
+      ]
+    }
   },
   "roadmap": {
-    "bestCombination": "Pearson cash-ins use the candidate's best valid unit combination across attempts. Selection-mode calculators (YFM01) apply the board's Rule 1 over the entered units — best qualification grade first, then best UMS total. Pair-mode courses (YMA01 suite) still grade the marks the user enters for the chosen pair, one mark per unit slot."
+    "bestCombination": "Pearson cash-ins use the candidate's best valid unit combination across attempts. Selection-mode calculators (YFM01) apply the board's Rule 1 over the entered units \u2014 best qualification grade first, then best UMS total. Pair-mode courses (YMA01 suite) still grade the marks the user enters for the chosen pair, one mark per unit slot."
   }
 }

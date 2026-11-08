@@ -154,3 +154,60 @@ law this lane covers); 4MA1/4PM1 regional variants (R-papers) are not recorded
 — the 4MB1 pattern's regionalVariant field exists but no R-paper structure
 differences were extracted this run; roadmap note for a follow-up if the hub
 ever serves R-variant boundaries.
+
+---
+## T-GB-STRUCT-3 run-001 — modular IGCSE award laws: the 16 aggregate-ums courses get their qualification-grade rules (trace 0b3e2a41c9d75f60)
+
+**Correction to the lane title.** The "16 aggregate-ums courses without an
+A* law" are NOT IAL — the 13 IAL unit courses were already covered by the
+run-001-era Y-cash-in aStar laws (YBI11/YCH11/YPH11/YMA01/YFM01). The 16 are
+the Pearson International GCSE (Modular) 2024 suite unit courses (Biology/
+Chemistry/Physics 2 each, Maths A modular F/H 2+2, Science Double Award 6),
+aggregating to cash-ins 4XBI1/4XCH1/4XPH1/4XMAF/4XMAH/4XSD1. Honest audit
+output, stated plainly.
+
+**What landed.** The award law for all six modular cash-ins, transcribed from
+the five official modular specifications (raw/specs/4X?-modular-specification.pdf,
+full sha256 pinned in SOURCES.yaml): 9-1 grading on total UMS with FIXED
+spec-published thresholds — 4XBI1/4XCH1/4XPH1: units 4WB/CH/PH1+2 at 120 UMS
+each, cash-in 240, grade 9 at 216 (90%), 8 at 192 … 1 at 24; 4XMAF (240):
+F grades 5–1 at 120/96/72/48/24; 4XMAH (240): H grades 9–3 at
+216/192/168/144/120/96/84 (grade 3 allowed at 42 per 120-UMS unit — the spec's
+"3 allowed" law); 4XSD1 (480): SEVENTEEN-grade double ladder 9-9..1-1
+(9-9 capped at the full 480, 9-8 432 … 1-1 72), six units 4WSD1..6 at 80 UMS
+each. Per-unit fixed tables recorded too. Shared rules: best of the two most
+recent attempts counts toward aggregation; results held in the unit bank;
+first certification August 2025; unclassified below 24 (240-UMS cash-ins) or
+48 (480-UMS).
+
+**Embedding.** build_hub_import.py now embeds the law into every modular
+course calculator (umsMax, unitUmsMax, gradeThresholds, unitGradeTables,
+aStar.overallMin = top-grade threshold with the 9-1 ladder note, resitRule) —
+16 courses, additive keys only, IAL calculators untouched.
+
+**Gate.** New check_modular_awards: Σ unitUmsMax == umsMax, thresholds
+strictly descending within range, aStar.overallMin == top threshold, and every
+served session's unit UMS max must equal the law. The aggregation check now
+also enforces the law's thresholds against the boundaries the served cash-in
+rows print, session by session — the spec table and the served June 2025 /
+November 2025 / June 2026 cash-in rows agree exactly (216/192/.../24),
+independent documentary confirmation.
+
+**Audit finds served-data truth, not bugs (adapted sessions).** The structure
+cross-check flagged November 2021 (4GE1 160, 4HI1 90) and June 2022
+(4GE1 134, 4HI1 90). Re-checked against the official boundaries documents
+themselves: those totals ARE what Pearson printed — COVID-era (November 2021)
+and advance-information (June 2022) adaptations, with the route rows 4HI1
+Papers 1A+2A / 1B+2B at 90. The parsed and served data is faithful; the
+assumption "every session totals the spec figure" was the wrong part. The four
+sessions are now recorded as adaptedSessions in curated/structure.json
+(evidence: the pinned raw boundaries PDFs) and the gate accepts a session
+total only when it matches the recorded adaptation. Everything else stays
+strict.
+
+**Honest absences.** Modular unit RAW maxima (90 per separate-science unit,
+60 per SDA unit, 100 per maths unit) are served per-session already; the spec
+documents first assessment June 2025 / first certification August 2025 for the
+whole suite. No A* language anywhere: these qualifications top out at grade 9
+(9-9 for the double award) — the aStar field carries the top-grade law with
+that note spelled out.

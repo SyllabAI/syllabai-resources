@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.grade-boundaries/1.1",
- "generated": "2026-11-08T19:02:34Z",
+ "generated": "2026-11-08T19:14:57Z",
  "generator": "GradeBoundaries/scripts/build_hub_import.py v3",
  "source": {
   "lane": "SyllabAI/syllabai-resources GradeBoundaries",
@@ -192783,7 +192783,52 @@
     "required": [
      "4WBI1",
      "4WBI2"
-    ]
+    ],
+    "umsMax": 240,
+    "unitUmsMax": {
+     "4WBI1": 120,
+     "4WBI2": 120
+    },
+    "gradeThresholds": {
+     "9": 216,
+     "8": 192,
+     "7": 168,
+     "6": 144,
+     "5": 120,
+     "4": 96,
+     "3": 72,
+     "2": 48,
+     "1": 24
+    },
+    "unitGradeTables": {
+     "4WBI1": {
+      "9": 108,
+      "8": 96,
+      "7": 84,
+      "6": 72,
+      "5": 60,
+      "4": 48,
+      "3": 36,
+      "2": 24,
+      "1": 12
+     },
+     "4WBI2": {
+      "9": 108,
+      "8": 96,
+      "7": 84,
+      "6": 72,
+      "5": 60,
+      "4": 48,
+      "3": 36,
+      "2": 24,
+      "1": 12
+     }
+    },
+    "aStar": {
+     "overallMin": 216,
+     "note": "9-1 ladder: grade 9 is the top grade (no A*); overallMin is the spec's fixed minimum total UMS for grade 9"
+    },
+    "resitRule": "Only the better of the two most recent attempts of a unit counts toward aggregation (spec 'Resitting of units')."
    },
    "reviewRequired": false,
    "series": [
@@ -193329,7 +193374,52 @@
     "required": [
      "4WBI1",
      "4WBI2"
-    ]
+    ],
+    "umsMax": 240,
+    "unitUmsMax": {
+     "4WBI1": 120,
+     "4WBI2": 120
+    },
+    "gradeThresholds": {
+     "9": 216,
+     "8": 192,
+     "7": 168,
+     "6": 144,
+     "5": 120,
+     "4": 96,
+     "3": 72,
+     "2": 48,
+     "1": 24
+    },
+    "unitGradeTables": {
+     "4WBI1": {
+      "9": 108,
+      "8": 96,
+      "7": 84,
+      "6": 72,
+      "5": 60,
+      "4": 48,
+      "3": 36,
+      "2": 24,
+      "1": 12
+     },
+     "4WBI2": {
+      "9": 108,
+      "8": 96,
+      "7": 84,
+      "6": 72,
+      "5": 60,
+      "4": 48,
+      "3": 36,
+      "2": 24,
+      "1": 12
+     }
+    },
+    "aStar": {
+     "overallMin": 216,
+     "note": "9-1 ladder: grade 9 is the top grade (no A*); overallMin is the spec's fixed minimum total UMS for grade 9"
+    },
+    "resitRule": "Only the better of the two most recent attempts of a unit counts toward aggregation (spec 'Resitting of units')."
    },
    "reviewRequired": false,
    "series": [
@@ -195895,7 +195985,52 @@
     "required": [
      "4WCH1",
      "4WCH2"
-    ]
+    ],
+    "umsMax": 240,
+    "unitUmsMax": {
+     "4WCH1": 120,
+     "4WCH2": 120
+    },
+    "gradeThresholds": {
+     "9": 216,
+     "8": 192,
+     "7": 168,
+     "6": 144,
+     "5": 120,
+     "4": 96,
+     "3": 72,
+     "2": 48,
+     "1": 24
+    },
+    "unitGradeTables": {
+     "4WCH1": {
+      "9": 108,
+      "8": 96,
+      "7": 84,
+      "6": 72,
+      "5": 60,
+      "4": 48,
+      "3": 36,
+      "2": 24,
+      "1": 12
+     },
+     "4WCH2": {
+      "9": 108,
+      "8": 96,
+      "7": 84,
+      "6": 72,
+      "5": 60,
+      "4": 48,
+      "3": 36,
+      "2": 24,
+      "1": 12
+     }
+    },
+    "aStar": {
+     "overallMin": 216,
+     "note": "9-1 ladder: grade 9 is the top grade (no A*); overallMin is the spec's fixed minimum total UMS for grade 9"
+    },
+    "resitRule": "Only the better of the two most recent attempts of a unit counts toward aggregation (spec 'Resitting of units')."
    },
    "reviewRequired": false,
    "series": [
@@ -196441,7 +196576,52 @@
     "required": [
      "4WCH1",
      "4WCH2"
-    ]
+    ],
+    "umsMax": 240,
+    "unitUmsMax": {
+     "4WCH1": 120,
+     "4WCH2": 120
+    },
+    "gradeThresholds": {
+     "9": 216,
+     "8": 192,
+     "7": 168,
+     "6": 144,
+     "5": 120,
+     "4": 96,
+     "3": 72,
+     "2": 48,
+     "1": 24
+    },
+    "unitGradeTables": {
+     "4WCH1": {
+      "9": 108,
+      "8": 96,
+      "7": 84,
+      "6": 72,
+      "5": 60,
+      "4": 48,
+      "3": 36,
+      "2": 24,
+      "1": 12
+     },
+     "4WCH2": {
+      "9": 108,
+      "8": 96,
+      "7": 84,
+      "6": 72,
+      "5": 60,
+      "4": 48,
+      "3": 36,
+      "2": 24,
+      "1": 12
+     }
+    },
+    "aStar": {
+     "overallMin": 216,
+     "note": "9-1 ladder: grade 9 is the top grade (no A*); overallMin is the spec's fixed minimum total UMS for grade 9"
+    },
+    "resitRule": "Only the better of the two most recent attempts of a unit counts toward aggregation (spec 'Resitting of units')."
    },
    "reviewRequired": false,
    "series": [
@@ -217895,7 +218075,15 @@
      "kind": "linear-9-1",
      "note": "Linear 9-1, Foundation tier targeted at grades 5–1: two equally weighted 2-hour papers, graded on the unscaled total of 200."
     },
-    "sources": []
+    "sources": [
+     {
+      "id": "pearson-4ma1-specification",
+      "title": "Pearson Edexcel International GCSE Mathematics A (4MA1) specification Issue 2 (official PDF, full sha256 pinned)",
+      "url": "https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/Mathematics%20A/2016/Specification%20and%20sample%20assessments/international-gcse-in-mathematics-spec-a.pdf",
+      "sha256_16": "d58830e570d58aec",
+      "usedFor": "4MA1 assessment requirements (papers 1F/2F/1H/2H, 2h, 100 marks each, 50% each, per-tier total 200; Issue 2 code renames)"
+     }
+    ]
    }
   },
   "igcse-maths-a-18-higher": {
@@ -218828,7 +219016,15 @@
      "kind": "linear-9-1",
      "note": "Linear 9-1, Higher tier targeted at grades 9–4 with 3 allowed: two equally weighted 2-hour papers, graded on the unscaled total of 200. Issue 2 renamed the earlier 4MA1/3H,4MA1/4H codes to 4MA1/1H,4MA1/2H."
     },
-    "sources": []
+    "sources": [
+     {
+      "id": "pearson-4ma1-specification",
+      "title": "Pearson Edexcel International GCSE Mathematics A (4MA1) specification Issue 2 (official PDF, full sha256 pinned)",
+      "url": "https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/Mathematics%20A/2016/Specification%20and%20sample%20assessments/international-gcse-in-mathematics-spec-a.pdf",
+      "sha256_16": "d58830e570d58aec",
+      "usedFor": "4MA1 assessment requirements (papers 1F/2F/1H/2H, 2h, 100 marks each, 50% each, per-tier total 200; Issue 2 code renames)"
+     }
+    ]
    }
   },
   "igcse-maths-a-modular-24-foundation-unit-1": {
@@ -218854,7 +219050,40 @@
     "required": [
      "4WM1F",
      "4WM2F"
-    ]
+    ],
+    "umsMax": 240,
+    "unitUmsMax": {
+     "4WM1F": 120,
+     "4WM2F": 120
+    },
+    "gradeThresholds": {
+     "5": 120,
+     "4": 96,
+     "3": 72,
+     "2": 48,
+     "1": 24
+    },
+    "unitGradeTables": {
+     "4WM1F": {
+      "5": 60,
+      "4": 48,
+      "3": 36,
+      "2": 24,
+      "1": 12
+     },
+     "4WM2F": {
+      "5": 60,
+      "4": 48,
+      "3": 36,
+      "2": 24,
+      "1": 12
+     }
+    },
+    "aStar": {
+     "overallMin": 120,
+     "note": "Foundation tier top grade is 5; overallMin is the spec's fixed minimum total UMS for grade 5 (240-UMS ladder, 9-1 scale with F grades 5-1)"
+    },
+    "resitRule": "Only the better of the two most recent attempts of a unit counts toward aggregation (spec 'Resitting of units')."
    },
    "reviewRequired": false,
    "series": [
@@ -219400,7 +219629,40 @@
     "required": [
      "4WM1F",
      "4WM2F"
-    ]
+    ],
+    "umsMax": 240,
+    "unitUmsMax": {
+     "4WM1F": 120,
+     "4WM2F": 120
+    },
+    "gradeThresholds": {
+     "5": 120,
+     "4": 96,
+     "3": 72,
+     "2": 48,
+     "1": 24
+    },
+    "unitGradeTables": {
+     "4WM1F": {
+      "5": 60,
+      "4": 48,
+      "3": 36,
+      "2": 24,
+      "1": 12
+     },
+     "4WM2F": {
+      "5": 60,
+      "4": 48,
+      "3": 36,
+      "2": 24,
+      "1": 12
+     }
+    },
+    "aStar": {
+     "overallMin": 120,
+     "note": "Foundation tier top grade is 5; overallMin is the spec's fixed minimum total UMS for grade 5 (240-UMS ladder, 9-1 scale with F grades 5-1)"
+    },
+    "resitRule": "Only the better of the two most recent attempts of a unit counts toward aggregation (spec 'Resitting of units')."
    },
    "reviewRequired": false,
    "series": [
@@ -219946,7 +220208,46 @@
     "required": [
      "4WM1H",
      "4WM2H"
-    ]
+    ],
+    "umsMax": 240,
+    "unitUmsMax": {
+     "4WM1H": 120,
+     "4WM2H": 120
+    },
+    "gradeThresholds": {
+     "9": 216,
+     "8": 192,
+     "7": 168,
+     "6": 144,
+     "5": 120,
+     "4": 96,
+     "3": 84
+    },
+    "unitGradeTables": {
+     "4WM1H": {
+      "9": 108,
+      "8": 96,
+      "7": 84,
+      "6": 72,
+      "5": 60,
+      "4": 48,
+      "3": 42
+     },
+     "4WM2H": {
+      "9": 108,
+      "8": 96,
+      "7": 84,
+      "6": 72,
+      "5": 60,
+      "4": 48,
+      "3": 42
+     }
+    },
+    "aStar": {
+     "overallMin": 216,
+     "note": "Higher tier top grade 9; grades below 3 not targeted (3 allowed at 84/240 total, 42 per 120-UMS unit)"
+    },
+    "resitRule": "Only the better of the two most recent attempts of a unit counts toward aggregation (spec 'Resitting of units')."
    },
    "reviewRequired": false,
    "series": [
@@ -220492,7 +220793,46 @@
     "required": [
      "4WM1H",
      "4WM2H"
-    ]
+    ],
+    "umsMax": 240,
+    "unitUmsMax": {
+     "4WM1H": 120,
+     "4WM2H": 120
+    },
+    "gradeThresholds": {
+     "9": 216,
+     "8": 192,
+     "7": 168,
+     "6": 144,
+     "5": 120,
+     "4": 96,
+     "3": 84
+    },
+    "unitGradeTables": {
+     "4WM1H": {
+      "9": 108,
+      "8": 96,
+      "7": 84,
+      "6": 72,
+      "5": 60,
+      "4": 48,
+      "3": 42
+     },
+     "4WM2H": {
+      "9": 108,
+      "8": 96,
+      "7": 84,
+      "6": 72,
+      "5": 60,
+      "4": 48,
+      "3": 42
+     }
+    },
+    "aStar": {
+     "overallMin": 216,
+     "note": "Higher tier top grade 9; grades below 3 not targeted (3 allowed at 84/240 total, 42 per 120-UMS unit)"
+    },
+    "resitRule": "Only the better of the two most recent attempts of a unit counts toward aggregation (spec 'Resitting of units')."
    },
    "reviewRequired": false,
    "series": [
@@ -222854,7 +223194,52 @@
     "required": [
      "4WPH1",
      "4WPH2"
-    ]
+    ],
+    "umsMax": 240,
+    "unitUmsMax": {
+     "4WPH1": 120,
+     "4WPH2": 120
+    },
+    "gradeThresholds": {
+     "9": 216,
+     "8": 192,
+     "7": 168,
+     "6": 144,
+     "5": 120,
+     "4": 96,
+     "3": 72,
+     "2": 48,
+     "1": 24
+    },
+    "unitGradeTables": {
+     "4WPH1": {
+      "9": 108,
+      "8": 96,
+      "7": 84,
+      "6": 72,
+      "5": 60,
+      "4": 48,
+      "3": 36,
+      "2": 24,
+      "1": 12
+     },
+     "4WPH2": {
+      "9": 108,
+      "8": 96,
+      "7": 84,
+      "6": 72,
+      "5": 60,
+      "4": 48,
+      "3": 36,
+      "2": 24,
+      "1": 12
+     }
+    },
+    "aStar": {
+     "overallMin": 216,
+     "note": "9-1 ladder: grade 9 is the top grade (no A*); overallMin is the spec's fixed minimum total UMS for grade 9"
+    },
+    "resitRule": "Only the better of the two most recent attempts of a unit counts toward aggregation (spec 'Resitting of units')."
    },
    "reviewRequired": false,
    "series": [
@@ -223400,7 +223785,52 @@
     "required": [
      "4WPH1",
      "4WPH2"
-    ]
+    ],
+    "umsMax": 240,
+    "unitUmsMax": {
+     "4WPH1": 120,
+     "4WPH2": 120
+    },
+    "gradeThresholds": {
+     "9": 216,
+     "8": 192,
+     "7": 168,
+     "6": 144,
+     "5": 120,
+     "4": 96,
+     "3": 72,
+     "2": 48,
+     "1": 24
+    },
+    "unitGradeTables": {
+     "4WPH1": {
+      "9": 108,
+      "8": 96,
+      "7": 84,
+      "6": 72,
+      "5": 60,
+      "4": 48,
+      "3": 36,
+      "2": 24,
+      "1": 12
+     },
+     "4WPH2": {
+      "9": 108,
+      "8": 96,
+      "7": 84,
+      "6": 72,
+      "5": 60,
+      "4": 48,
+      "3": 36,
+      "2": 24,
+      "1": 12
+     }
+    },
+    "aStar": {
+     "overallMin": 216,
+     "note": "9-1 ladder: grade 9 is the top grade (no A*); overallMin is the spec's fixed minimum total UMS for grade 9"
+    },
+    "resitRule": "Only the better of the two most recent attempts of a unit counts toward aggregation (spec 'Resitting of units')."
    },
    "reviewRequired": false,
    "series": [
@@ -226590,7 +227020,108 @@
      "4WSD4",
      "4WSD5",
      "4WSD6"
-    ]
+    ],
+    "umsMax": 480,
+    "unitUmsMax": {
+     "4WSD1": 80,
+     "4WSD2": 80,
+     "4WSD3": 80,
+     "4WSD4": 80,
+     "4WSD5": 80,
+     "4WSD6": 80
+    },
+    "gradeThresholds": {
+     "9-9": 480,
+     "9-8": 432,
+     "8-8": 408,
+     "8-7": 384,
+     "7-7": 360,
+     "7-6": 336,
+     "6-6": 312,
+     "6-5": 288,
+     "5-5": 264,
+     "5-4": 240,
+     "4-4": 216,
+     "4-3": 192,
+     "3-3": 168,
+     "3-2": 144,
+     "2-2": 120,
+     "2-1": 96,
+     "1-1": 72
+    },
+    "unitGradeTables": {
+     "4WSD1": {
+      "9": 72,
+      "8": 64,
+      "7": 56,
+      "6": 48,
+      "5": 40,
+      "4": 32,
+      "3": 24,
+      "2": 16,
+      "1": 8
+     },
+     "4WSD2": {
+      "9": 72,
+      "8": 64,
+      "7": 56,
+      "6": 48,
+      "5": 40,
+      "4": 32,
+      "3": 24,
+      "2": 16,
+      "1": 8
+     },
+     "4WSD3": {
+      "9": 72,
+      "8": 64,
+      "7": 56,
+      "6": 48,
+      "5": 40,
+      "4": 32,
+      "3": 24,
+      "2": 16,
+      "1": 8
+     },
+     "4WSD4": {
+      "9": 72,
+      "8": 64,
+      "7": 56,
+      "6": 48,
+      "5": 40,
+      "4": 32,
+      "3": 24,
+      "2": 16,
+      "1": 8
+     },
+     "4WSD5": {
+      "9": 72,
+      "8": 64,
+      "7": 56,
+      "6": 48,
+      "5": 40,
+      "4": 32,
+      "3": 24,
+      "2": 16,
+      "1": 8
+     },
+     "4WSD6": {
+      "9": 72,
+      "8": 64,
+      "7": 56,
+      "6": 48,
+      "5": 40,
+      "4": 32,
+      "3": 24,
+      "2": 16,
+      "1": 8
+     }
+    },
+    "aStar": {
+     "overallMin": 480,
+     "note": "17-grade double-award ladder 9-9..1-1; the top grade 9-9 requires the full 480 UMS (spec caps 9-9 at the maximum uniform mark)"
+    },
+    "resitRule": "Only the better of the two most recent attempts of a unit counts toward aggregation (spec 'Resitting of units')."
    },
    "reviewRequired": false,
    "series": [
@@ -227277,7 +227808,108 @@
      "4WSD4",
      "4WSD5",
      "4WSD6"
-    ]
+    ],
+    "umsMax": 480,
+    "unitUmsMax": {
+     "4WSD1": 80,
+     "4WSD2": 80,
+     "4WSD3": 80,
+     "4WSD4": 80,
+     "4WSD5": 80,
+     "4WSD6": 80
+    },
+    "gradeThresholds": {
+     "9-9": 480,
+     "9-8": 432,
+     "8-8": 408,
+     "8-7": 384,
+     "7-7": 360,
+     "7-6": 336,
+     "6-6": 312,
+     "6-5": 288,
+     "5-5": 264,
+     "5-4": 240,
+     "4-4": 216,
+     "4-3": 192,
+     "3-3": 168,
+     "3-2": 144,
+     "2-2": 120,
+     "2-1": 96,
+     "1-1": 72
+    },
+    "unitGradeTables": {
+     "4WSD1": {
+      "9": 72,
+      "8": 64,
+      "7": 56,
+      "6": 48,
+      "5": 40,
+      "4": 32,
+      "3": 24,
+      "2": 16,
+      "1": 8
+     },
+     "4WSD2": {
+      "9": 72,
+      "8": 64,
+      "7": 56,
+      "6": 48,
+      "5": 40,
+      "4": 32,
+      "3": 24,
+      "2": 16,
+      "1": 8
+     },
+     "4WSD3": {
+      "9": 72,
+      "8": 64,
+      "7": 56,
+      "6": 48,
+      "5": 40,
+      "4": 32,
+      "3": 24,
+      "2": 16,
+      "1": 8
+     },
+     "4WSD4": {
+      "9": 72,
+      "8": 64,
+      "7": 56,
+      "6": 48,
+      "5": 40,
+      "4": 32,
+      "3": 24,
+      "2": 16,
+      "1": 8
+     },
+     "4WSD5": {
+      "9": 72,
+      "8": 64,
+      "7": 56,
+      "6": 48,
+      "5": 40,
+      "4": 32,
+      "3": 24,
+      "2": 16,
+      "1": 8
+     },
+     "4WSD6": {
+      "9": 72,
+      "8": 64,
+      "7": 56,
+      "6": 48,
+      "5": 40,
+      "4": 32,
+      "3": 24,
+      "2": 16,
+      "1": 8
+     }
+    },
+    "aStar": {
+     "overallMin": 480,
+     "note": "17-grade double-award ladder 9-9..1-1; the top grade 9-9 requires the full 480 UMS (spec caps 9-9 at the maximum uniform mark)"
+    },
+    "resitRule": "Only the better of the two most recent attempts of a unit counts toward aggregation (spec 'Resitting of units')."
    },
    "reviewRequired": false,
    "series": [
@@ -227964,7 +228596,108 @@
      "4WSD4",
      "4WSD5",
      "4WSD6"
-    ]
+    ],
+    "umsMax": 480,
+    "unitUmsMax": {
+     "4WSD1": 80,
+     "4WSD2": 80,
+     "4WSD3": 80,
+     "4WSD4": 80,
+     "4WSD5": 80,
+     "4WSD6": 80
+    },
+    "gradeThresholds": {
+     "9-9": 480,
+     "9-8": 432,
+     "8-8": 408,
+     "8-7": 384,
+     "7-7": 360,
+     "7-6": 336,
+     "6-6": 312,
+     "6-5": 288,
+     "5-5": 264,
+     "5-4": 240,
+     "4-4": 216,
+     "4-3": 192,
+     "3-3": 168,
+     "3-2": 144,
+     "2-2": 120,
+     "2-1": 96,
+     "1-1": 72
+    },
+    "unitGradeTables": {
+     "4WSD1": {
+      "9": 72,
+      "8": 64,
+      "7": 56,
+      "6": 48,
+      "5": 40,
+      "4": 32,
+      "3": 24,
+      "2": 16,
+      "1": 8
+     },
+     "4WSD2": {
+      "9": 72,
+      "8": 64,
+      "7": 56,
+      "6": 48,
+      "5": 40,
+      "4": 32,
+      "3": 24,
+      "2": 16,
+      "1": 8
+     },
+     "4WSD3": {
+      "9": 72,
+      "8": 64,
+      "7": 56,
+      "6": 48,
+      "5": 40,
+      "4": 32,
+      "3": 24,
+      "2": 16,
+      "1": 8
+     },
+     "4WSD4": {
+      "9": 72,
+      "8": 64,
+      "7": 56,
+      "6": 48,
+      "5": 40,
+      "4": 32,
+      "3": 24,
+      "2": 16,
+      "1": 8
+     },
+     "4WSD5": {
+      "9": 72,
+      "8": 64,
+      "7": 56,
+      "6": 48,
+      "5": 40,
+      "4": 32,
+      "3": 24,
+      "2": 16,
+      "1": 8
+     },
+     "4WSD6": {
+      "9": 72,
+      "8": 64,
+      "7": 56,
+      "6": 48,
+      "5": 40,
+      "4": 32,
+      "3": 24,
+      "2": 16,
+      "1": 8
+     }
+    },
+    "aStar": {
+     "overallMin": 480,
+     "note": "17-grade double-award ladder 9-9..1-1; the top grade 9-9 requires the full 480 UMS (spec caps 9-9 at the maximum uniform mark)"
+    },
+    "resitRule": "Only the better of the two most recent attempts of a unit counts toward aggregation (spec 'Resitting of units')."
    },
    "reviewRequired": false,
    "series": [
@@ -228651,7 +229384,108 @@
      "4WSD4",
      "4WSD5",
      "4WSD6"
-    ]
+    ],
+    "umsMax": 480,
+    "unitUmsMax": {
+     "4WSD1": 80,
+     "4WSD2": 80,
+     "4WSD3": 80,
+     "4WSD4": 80,
+     "4WSD5": 80,
+     "4WSD6": 80
+    },
+    "gradeThresholds": {
+     "9-9": 480,
+     "9-8": 432,
+     "8-8": 408,
+     "8-7": 384,
+     "7-7": 360,
+     "7-6": 336,
+     "6-6": 312,
+     "6-5": 288,
+     "5-5": 264,
+     "5-4": 240,
+     "4-4": 216,
+     "4-3": 192,
+     "3-3": 168,
+     "3-2": 144,
+     "2-2": 120,
+     "2-1": 96,
+     "1-1": 72
+    },
+    "unitGradeTables": {
+     "4WSD1": {
+      "9": 72,
+      "8": 64,
+      "7": 56,
+      "6": 48,
+      "5": 40,
+      "4": 32,
+      "3": 24,
+      "2": 16,
+      "1": 8
+     },
+     "4WSD2": {
+      "9": 72,
+      "8": 64,
+      "7": 56,
+      "6": 48,
+      "5": 40,
+      "4": 32,
+      "3": 24,
+      "2": 16,
+      "1": 8
+     },
+     "4WSD3": {
+      "9": 72,
+      "8": 64,
+      "7": 56,
+      "6": 48,
+      "5": 40,
+      "4": 32,
+      "3": 24,
+      "2": 16,
+      "1": 8
+     },
+     "4WSD4": {
+      "9": 72,
+      "8": 64,
+      "7": 56,
+      "6": 48,
+      "5": 40,
+      "4": 32,
+      "3": 24,
+      "2": 16,
+      "1": 8
+     },
+     "4WSD5": {
+      "9": 72,
+      "8": 64,
+      "7": 56,
+      "6": 48,
+      "5": 40,
+      "4": 32,
+      "3": 24,
+      "2": 16,
+      "1": 8
+     },
+     "4WSD6": {
+      "9": 72,
+      "8": 64,
+      "7": 56,
+      "6": 48,
+      "5": 40,
+      "4": 32,
+      "3": 24,
+      "2": 16,
+      "1": 8
+     }
+    },
+    "aStar": {
+     "overallMin": 480,
+     "note": "17-grade double-award ladder 9-9..1-1; the top grade 9-9 requires the full 480 UMS (spec caps 9-9 at the maximum uniform mark)"
+    },
+    "resitRule": "Only the better of the two most recent attempts of a unit counts toward aggregation (spec 'Resitting of units')."
    },
    "reviewRequired": false,
    "series": [
@@ -229338,7 +230172,108 @@
      "4WSD4",
      "4WSD5",
      "4WSD6"
-    ]
+    ],
+    "umsMax": 480,
+    "unitUmsMax": {
+     "4WSD1": 80,
+     "4WSD2": 80,
+     "4WSD3": 80,
+     "4WSD4": 80,
+     "4WSD5": 80,
+     "4WSD6": 80
+    },
+    "gradeThresholds": {
+     "9-9": 480,
+     "9-8": 432,
+     "8-8": 408,
+     "8-7": 384,
+     "7-7": 360,
+     "7-6": 336,
+     "6-6": 312,
+     "6-5": 288,
+     "5-5": 264,
+     "5-4": 240,
+     "4-4": 216,
+     "4-3": 192,
+     "3-3": 168,
+     "3-2": 144,
+     "2-2": 120,
+     "2-1": 96,
+     "1-1": 72
+    },
+    "unitGradeTables": {
+     "4WSD1": {
+      "9": 72,
+      "8": 64,
+      "7": 56,
+      "6": 48,
+      "5": 40,
+      "4": 32,
+      "3": 24,
+      "2": 16,
+      "1": 8
+     },
+     "4WSD2": {
+      "9": 72,
+      "8": 64,
+      "7": 56,
+      "6": 48,
+      "5": 40,
+      "4": 32,
+      "3": 24,
+      "2": 16,
+      "1": 8
+     },
+     "4WSD3": {
+      "9": 72,
+      "8": 64,
+      "7": 56,
+      "6": 48,
+      "5": 40,
+      "4": 32,
+      "3": 24,
+      "2": 16,
+      "1": 8
+     },
+     "4WSD4": {
+      "9": 72,
+      "8": 64,
+      "7": 56,
+      "6": 48,
+      "5": 40,
+      "4": 32,
+      "3": 24,
+      "2": 16,
+      "1": 8
+     },
+     "4WSD5": {
+      "9": 72,
+      "8": 64,
+      "7": 56,
+      "6": 48,
+      "5": 40,
+      "4": 32,
+      "3": 24,
+      "2": 16,
+      "1": 8
+     },
+     "4WSD6": {
+      "9": 72,
+      "8": 64,
+      "7": 56,
+      "6": 48,
+      "5": 40,
+      "4": 32,
+      "3": 24,
+      "2": 16,
+      "1": 8
+     }
+    },
+    "aStar": {
+     "overallMin": 480,
+     "note": "17-grade double-award ladder 9-9..1-1; the top grade 9-9 requires the full 480 UMS (spec caps 9-9 at the maximum uniform mark)"
+    },
+    "resitRule": "Only the better of the two most recent attempts of a unit counts toward aggregation (spec 'Resitting of units')."
    },
    "reviewRequired": false,
    "series": [
@@ -230025,7 +230960,108 @@
      "4WSD4",
      "4WSD5",
      "4WSD6"
-    ]
+    ],
+    "umsMax": 480,
+    "unitUmsMax": {
+     "4WSD1": 80,
+     "4WSD2": 80,
+     "4WSD3": 80,
+     "4WSD4": 80,
+     "4WSD5": 80,
+     "4WSD6": 80
+    },
+    "gradeThresholds": {
+     "9-9": 480,
+     "9-8": 432,
+     "8-8": 408,
+     "8-7": 384,
+     "7-7": 360,
+     "7-6": 336,
+     "6-6": 312,
+     "6-5": 288,
+     "5-5": 264,
+     "5-4": 240,
+     "4-4": 216,
+     "4-3": 192,
+     "3-3": 168,
+     "3-2": 144,
+     "2-2": 120,
+     "2-1": 96,
+     "1-1": 72
+    },
+    "unitGradeTables": {
+     "4WSD1": {
+      "9": 72,
+      "8": 64,
+      "7": 56,
+      "6": 48,
+      "5": 40,
+      "4": 32,
+      "3": 24,
+      "2": 16,
+      "1": 8
+     },
+     "4WSD2": {
+      "9": 72,
+      "8": 64,
+      "7": 56,
+      "6": 48,
+      "5": 40,
+      "4": 32,
+      "3": 24,
+      "2": 16,
+      "1": 8
+     },
+     "4WSD3": {
+      "9": 72,
+      "8": 64,
+      "7": 56,
+      "6": 48,
+      "5": 40,
+      "4": 32,
+      "3": 24,
+      "2": 16,
+      "1": 8
+     },
+     "4WSD4": {
+      "9": 72,
+      "8": 64,
+      "7": 56,
+      "6": 48,
+      "5": 40,
+      "4": 32,
+      "3": 24,
+      "2": 16,
+      "1": 8
+     },
+     "4WSD5": {
+      "9": 72,
+      "8": 64,
+      "7": 56,
+      "6": 48,
+      "5": 40,
+      "4": 32,
+      "3": 24,
+      "2": 16,
+      "1": 8
+     },
+     "4WSD6": {
+      "9": 72,
+      "8": 64,
+      "7": 56,
+      "6": 48,
+      "5": 40,
+      "4": 32,
+      "3": 24,
+      "2": 16,
+      "1": 8
+     }
+    },
+    "aStar": {
+     "overallMin": 480,
+     "note": "17-grade double-award ladder 9-9..1-1; the top grade 9-9 requires the full 480 UMS (spec caps 9-9 at the maximum uniform mark)"
+    },
+    "resitRule": "Only the better of the two most recent attempts of a unit counts toward aggregation (spec 'Resitting of units')."
    },
    "reviewRequired": false,
    "series": [
