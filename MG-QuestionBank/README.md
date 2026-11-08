@@ -43,7 +43,7 @@ MathsGenie is **not uniform**. Within GCSE Maths Edexcel (the deep bank), resour
 |---|---|---|---|---|
 | `gcse-maths-edexcel` | 134 (bands 1–7, 8-9) | 133 (120 ws + 13 booklet-only) | 133 | 5.13 Midpoint of a Line Segment: **nothing published** — recorded absent, no stub dir |
 | `igcse-maths-edexcel` | 118 (bands 1–7, 8-9) | 118 (82 ws + 36 booklet, incl. 21 booklet-fallback) | 118 | extracted by `T-MG-QB-2/run-001`; no revision-guides / question-rush mode in this lane; 3.1 + 3.17 carry `question_count: 0` (image-only / fraction-fragment text layers — honest gaps, never padded) |
-| `as-level-maths-edexcel`, `a-level-maths-edexcel`, other boards | — | — | — | later runs under `T-MG-QB-*`; mode presence re-verified at run-000 of each |
+| `a-level-maths-edexcel` | 44 chapters (Year 1 `as-*` ×24 + Year 2 `a-level-*` ×20) over 245 subtopics | 44 (per-chapter question sets — the site's A-Level question resource) | 44 | extracted by `T-MG-QB-3/run-001`; 913 questions / 5,323 printed marks; segmented by printed total lines (numbers embedded in display-math make leading anchors unreliable here); 3 source total-line typos + 1 printed numbering gap recorded; 9 question PDFs via the site's own asset-host naming convention (page publishes answers only; HEAD-200 verified); `as-level-maths-edexcel` intentionally **not** extracted separately — its 24 chapters are slug-identical to this lane's Year-1 half (same source sets; dedup decision in manifest) |
 
 Rules (enforce in every extraction run):
 
@@ -61,5 +61,5 @@ Rules (enforce in every extraction run):
 ## Governance
 
 - Extraction lands as task-ID'd runs (`T-MG-QB-1`, …) with worklog evidence, a `LEDGER.md` wave entry and a receipt JSON, per repo `AGENT.md`.
-- Extraction scripts live in `../scripts/` as `mg_*.py` (`mg_flight_decode.py`, `mg_fetch_catalog.py`, `mg_probe_pdf.py`, `mg_qb_extract.py`, `mg_manifest.py`, `mg_upload.py`).
+- Extraction scripts live in `../scripts/` as `mg_*.py` (`mg_flight_decode.py`, `mg_fetch_catalog.py`, `mg_probe_pdf.py`, `mg_qb_extract.py`, `mg_manifest.py`, `mg_upload.py`; QB-2: `mg_qb2_*.py`; QB-3: `mg_qb3_*.py`, plus the shared `gh_api.py` Git-Data-API helper).
 - Crosswalk: `igcse-maths-edexcel` ↔ SME lane `igcse-maths-a-18-{foundation,higher}` (join field in manifest.json); GCSE maths lanes have no SME equivalent and are new corpus territory.
