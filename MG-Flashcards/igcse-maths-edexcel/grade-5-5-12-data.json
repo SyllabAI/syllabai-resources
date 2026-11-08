@@ -1,0 +1,644 @@
+{
+ "topic": "grade-5-5-12-data",
+ "lane": "igcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "title": "Data Flashcards",
+ "cards": [
+  {
+   "id": "bab9b5ae-b63f-409d-ad70-a219f2819329",
+   "card_type": "basic",
+   "front": "What is the first step when calculating the median or quartiles from raw data?",
+   "back": "Put the values in order (smallest to largest).",
+   "options": [
+    {
+     "text": "Put the values in order (smallest to largest).",
+     "correct": true,
+     "explanation": "Ordering the values reveals their positions in the data set, allowing the middle value and the points one-quarter and three-quarters through the data to be identified."
+    },
+    {
+     "text": "Add the values to find the total of the data set.",
+     "correct": false,
+     "explanation": "Adding the values is a step used when calculating the mean, not the median or quartiles. The values must first be ordered from smallest to largest."
+    },
+    {
+     "text": "Subtract the smallest value from the largest value.",
+     "correct": false,
+     "explanation": "Subtracting the extremes calculates the range, which measures spread. To calculate the median or quartiles, first arrange all values from smallest to largest."
+    },
+    {
+     "text": "Group the values into equal intervals of the same width.",
+     "correct": false,
+     "explanation": "Grouping data into intervals can help create a grouped frequency table, but it is unnecessary for raw data. First put the individual values in ascending order."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "a5373808-167d-4a85-ad45-74ff930d5427",
+   "card_type": "cloze",
+   "front": "The interquartile range (IQR) is calculated using the formula: $\\text{[...]}$.",
+   "back": "The interquartile range (IQR) is calculated using the formula: $\\boxed{Q_3 - Q_1}$.",
+   "options": [
+    {
+     "text": "$$Q_3 - Q_1$",
+     "correct": true,
+     "explanation": "The IQR is the difference between the upper quartile and lower quartile, so subtracting $Q_1$ from $Q_3$ gives the spread of the middle half."
+    },
+    {
+     "text": "$$Q_3 + Q_1$",
+     "correct": false,
+     "explanation": "Adding the quartiles does not measure the distance between them. The IQR is found by subtracting the lower quartile from the upper quartile: $Q_3 - Q_1$."
+    },
+    {
+     "text": "$$Q_1 - Q_3$",
+     "correct": false,
+     "explanation": "This reverses the subtraction and normally produces a negative value, although spread cannot be negative. The correct order is upper quartile minus lower quartile: $Q_3 - Q_1$."
+    },
+    {
+     "text": "$$\\frac{Q_3 - Q_1}{2}$",
+     "correct": false,
+     "explanation": "Dividing the difference by two gives half the interquartile range, not the IQR itself. The complete distance between the quartiles is $Q_3 - Q_1$."
+    }
+   ]
+  },
+  {
+   "id": "ba078248-a389-4245-aee7-dd7dd3d74587",
+   "card_type": "cloze",
+   "front": "The IQR measures the spread of the [ ___ ] of the data.",
+   "back": "The IQR measures the spread of the middle half of the data.",
+   "options": [
+    {
+     "text": "middle half",
+     "correct": true,
+     "explanation": "The lower and upper quartiles enclose the central 50% of the ordered values. Therefore, the IQR measures the spread of the middle half of the data."
+    },
+    {
+     "text": "middle quarter",
+     "correct": false,
+     "explanation": "The interval from $Q_1$ to $Q_3$ contains 50%, not 25%, of the ordered data. Therefore, the IQR measures the spread of the middle half."
+    },
+    {
+     "text": "outer half",
+     "correct": false,
+     "explanation": "The outer half lies outside the quartiles and is not measured by their difference. The IQR measures the spread of the middle half between $Q_1$ and $Q_3$."
+    },
+    {
+     "text": "whole set",
+     "correct": false,
+     "explanation": "The range measures the spread of the whole data set using its maximum and minimum. The IQR instead measures the spread of the middle half."
+    }
+   ]
+  },
+  {
+   "id": "b51db6fb-47e7-4de7-8927-0dd4e719bba7",
+   "card_type": "basic",
+   "front": "What does a smaller IQR indicate about a data set?",
+   "back": "The results are more consistent (less spread out).",
+   "options": [
+    {
+     "text": "The results are more consistent (less spread out).",
+     "correct": true,
+     "explanation": "A smaller IQR means the middle half of the values occupies a narrower interval, so those results show less variation and are therefore more consistent."
+    },
+    {
+     "text": "The results are less consistent (more spread out).",
+     "correct": false,
+     "explanation": "This describes a larger IQR, where the middle half covers a wider interval. A smaller IQR means the results are more consistent and less spread out."
+    },
+    {
+     "text": "The results are more accurate (closer to the true value).",
+     "correct": false,
+     "explanation": "IQR measures consistency rather than accuracy, so it cannot show closeness to a true value. A smaller IQR indicates that the results are more consistent."
+    },
+    {
+     "text": "The results have a higher median (greater typical value).",
+     "correct": false,
+     "explanation": "IQR describes spread and does not determine whether the median is high or low. A smaller IQR means the results are more consistent and less spread out."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "54685b0a-5693-4e2b-a95b-581cd563f8be",
+   "card_type": "basic",
+   "front": "How is the median calculated if there are two middle values?",
+   "back": "Find the mean of the two middle values.",
+   "options": [
+    {
+     "text": "Find the mean of the two middle values.",
+     "correct": true,
+     "explanation": "With an even number of ordered values, neither middle value alone is central. Adding the two middle values and dividing by two gives the median."
+    },
+    {
+     "text": "Find the range of the two middle values.",
+     "correct": false,
+     "explanation": "Subtracting the middle values gives the distance between them, not their central value. The median is the mean of the two middle values."
+    },
+    {
+     "text": "Choose the lower of the two middle values.",
+     "correct": false,
+     "explanation": "Selecting the lower middle value ignores the upper one and places the median too low. The correct median is the mean of both middle values."
+    },
+    {
+     "text": "Choose the higher of the two middle values.",
+     "correct": false,
+     "explanation": "Selecting the higher middle value ignores the lower one and places the median too high. The correct median is the mean of both middle values."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "c048a709-f45b-4dfb-9046-39eb71d69b52",
+   "card_type": "basic",
+   "front": "In a set of 11 ordered values, which value is the median?",
+   "back": "The 6th value.",
+   "options": [
+    {
+     "text": "The 6th value.",
+     "correct": true,
+     "explanation": "Five ordered values lie below the 6th and five lie above it, so the 6th value is exactly in the middle of the 11 values."
+    },
+    {
+     "text": "The 5th value.",
+     "correct": false,
+     "explanation": "The 5th value has four values below it and six above it, so it is not central. The 6th value is the median of 11 values."
+    },
+    {
+     "text": "The 7th value.",
+     "correct": false,
+     "explanation": "The 7th value has six values below it and four above it, so it is not central. The 6th value is the median of 11 values."
+    },
+    {
+     "text": "The 11th value.",
+     "correct": false,
+     "explanation": "The 11th value is the largest value in an ordered set, not the middle one. With 11 values, the median is the 6th value."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "fccefc74-3212-4c1e-b02c-7e3228a8f0f8",
+   "card_type": "cloze",
+   "front": "To find $Q_1$ from 11 ordered values, you find the middle of the [ ___ ] values below the median.",
+   "back": "To find $Q_1$ from 11 ordered values, you find the middle of the 5 values below the median.",
+   "options": [
+    {
+     "text": "5",
+     "correct": true,
+     "explanation": "The 6th value is the median, leaving five values below it. The middle of those five lower values gives the lower quartile, $Q_1$."
+    },
+    {
+     "text": "6",
+     "correct": false,
+     "explanation": "Counting six values incorrectly includes the median in the lower half. The median is excluded, leaving five values below it for finding $Q_1$."
+    },
+    {
+     "text": "10",
+     "correct": false,
+     "explanation": "Ten is the number of values remaining after excluding the median from the entire set, not the lower half. Only five values lie below the median."
+    },
+    {
+     "text": "11",
+     "correct": false,
+     "explanation": "Using all 11 values would locate the overall median again rather than the lower quartile. For $Q_1$, use only the five values below the median."
+    }
+   ]
+  },
+  {
+   "id": "78466d78-313d-4d62-b71a-ad6ac54f92fa",
+   "card_type": "basic",
+   "front": "When comparing two groups, what two properties should you comment on?",
+   "back": "The typical score (usually using the median).The consistency/spread (usually using the IQR).",
+   "options": [
+    {
+     "text": "The typical score (usually using the median).The consistency/spread (usually using the IQR).",
+     "correct": true,
+     "explanation": "A useful comparison describes both where each group is centred and how variable it is. The median compares typical scores, while the IQR compares consistency or spread."
+    },
+    {
+     "text": "The highest score (usually using the maximum).The lowest score (usually using the minimum).",
+     "correct": false,
+     "explanation": "The maximum and minimum only describe the extremes and may be affected by unusual values. Groups should be compared using a typical score and a measure of consistency or spread."
+    },
+    {
+     "text": "The total score (usually using the sum).The group size (usually using the frequency).",
+     "correct": false,
+     "explanation": "Totals depend heavily on the number of observations and do not directly compare distributions. Comment instead on the typical score using the median and spread using the IQR."
+    },
+    {
+     "text": "The lowest quartile (usually using $Q_1$).The highest quartile (usually using $Q_3$).",
+     "correct": false,
+     "explanation": "Quoting the quartiles separately misses the intended comparison of centre and spread. Use the median for the typical score and $Q_3-Q_1$ for consistency or spread."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "3f75e0c7-cbd0-4b66-963b-e896203b963d",
+   "card_type": "basic",
+   "front": "How do you interpret a higher median when comparing two classes?",
+   "back": "The group with the higher median has a higher typical score.",
+   "options": [
+    {
+     "text": "The group with the higher median has a higher typical score.",
+     "correct": true,
+     "explanation": "The median is the middle value when scores are ordered, so a higher median indicates that the centre, or typical score, is higher for that group."
+    },
+    {
+     "text": "The group with the higher median has a higher maximum score.",
+     "correct": false,
+     "explanation": "The median describes the middle of the ordered scores, not the greatest score. The correct interpretation is that the group has a higher typical score."
+    },
+    {
+     "text": "The group with the higher median has a larger spread of scores.",
+     "correct": false,
+     "explanation": "Spread is measured using quantities such as the range or IQR, not the median. A higher median means the group has a higher typical score."
+    },
+    {
+     "text": "The group with the higher median has a more consistent set of scores.",
+     "correct": false,
+     "explanation": "Consistency concerns how closely scores are grouped and is assessed using spread. A higher median instead indicates that the group has a higher typical score."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "0e97f3ae-758c-4652-96ed-ab979e94dcfe",
+   "card_type": "cloze",
+   "front": "The formula for the total of a data set is: $\\text{total} = \\text{[...]} \\times \\text{number of values}$.",
+   "back": "The formula for the total of a data set is: $\\text{total} = \\boxed{\\text{mean}} \\times \\text{number of values}$.",
+   "options": [
+    {
+     "text": "$$\\text{mean}$",
+     "correct": true,
+     "explanation": "The mean equals the total divided by the number of values. Rearranging this relationship gives total equals mean multiplied by the number of values."
+    },
+    {
+     "text": "$$\\text{median}$",
+     "correct": false,
+     "explanation": "The median identifies the middle ordered value and cannot generally be used to calculate the total. The total is found by multiplying the mean by the number of values."
+    },
+    {
+     "text": "$$\\text{range}$",
+     "correct": false,
+     "explanation": "The range measures spread by subtracting the lowest value from the highest. The total is instead calculated by multiplying the mean by the number of values."
+    },
+    {
+     "text": "$$\\text{mode}$",
+     "correct": false,
+     "explanation": "The mode is the most frequent value and does not determine the total of a data set. The required quantity in this formula is the mean."
+    }
+   ]
+  },
+  {
+   "id": "99b4dd25-a0ce-4987-92ba-14b2136ce381",
+   "card_type": "cloze",
+   "front": "The formula for the total of a data set is: $\\text{total} = \\text{mean} \\times \\text{[...]}$.",
+   "back": "The formula for the total of a data set is: $\\text{total} = \\text{mean} \\times \\boxed{\\text{number of values}}$.",
+   "options": [
+    {
+     "text": "$$\\text{number of values}$",
+     "correct": true,
+     "explanation": "Multiplying the mean by the number of values reverses the calculation used to find the mean, producing the total of all values in the data set."
+    },
+    {
+     "text": "$$\\text{range of values}$",
+     "correct": false,
+     "explanation": "The range measures the distance between the highest and lowest values, so multiplying by it does not recover the total. The mean must be multiplied by the number of values."
+    },
+    {
+     "text": "$$\\text{number of groups}$",
+     "correct": false,
+     "explanation": "Counting groups rather than individual data values ignores how many observations each group contains. The total equals the mean multiplied by the number of values."
+    },
+    {
+     "text": "$$\\text{sum of values}$",
+     "correct": false,
+     "explanation": "The sum of the values is already the total, so multiplying the mean by it is circular. The required multiplier is the number of values."
+    }
+   ]
+  },
+  {
+   "id": "58adbb40-29a1-4983-b355-99ec0a592c31",
+   "card_type": "basic",
+   "front": "Why can you not simply average two class means to find the combined mean?",
+   "back": "Classes may have different numbers of students (different weights).",
+   "options": [
+    {
+     "text": "Classes may have different numbers of students (different weights).",
+     "correct": true,
+     "explanation": "A larger class contributes more scores to the combined data, so its mean must receive greater weight. Simply averaging the two means only works when class sizes are equal."
+    },
+    {
+     "text": "Classes may have different ranges of scores (different spreads).",
+     "correct": false,
+     "explanation": "Different ranges do not prevent class means from being combined directly when class sizes are equal. The real problem is that unequal student numbers give the means different weights."
+    },
+    {
+     "text": "Classes may have different middle scores (different medians).",
+     "correct": false,
+     "explanation": "The medians are irrelevant when calculating a combined mean. Simple averaging can fail because the classes may contain different numbers of students and therefore require different weights."
+    },
+    {
+     "text": "Classes may have different highest scores (different maxima).",
+     "correct": false,
+     "explanation": "Different maximum scores do not determine how class means should be weighted. The key issue is that unequal class sizes contribute different numbers of values to the combined total."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "320cb6dd-103d-4279-b4d7-1b348cb44d1a",
+   "card_type": "basic",
+   "front": "Outline the steps to find a missing group's mean when given the combined mean and the other group's mean.",
+   "back": "Find the overall total (mean &times; total n).Subtract the known group's total.Divide the remaining total by the missing group's n.",
+   "options": [
+    {
+     "text": "Find the overall total (mean &times; total n).Subtract the known group's total.Divide the remaining total by the missing group's n.",
+     "correct": true,
+     "explanation": "Converting both means into totals allows the known group’s contribution to be removed. Dividing the remaining total by the missing group’s size then gives its mean."
+    },
+    {
+     "text": "Find the overall total (mean &times; total n).Subtract the known group's mean.Divide the remaining total by the missing group's n.",
+     "correct": false,
+     "explanation": "This subtracts a mean from a total, mixing incompatible quantities. First calculate the known group’s total, subtract that from the overall total, then divide by the missing group’s size."
+    },
+    {
+     "text": "Find the overall total (mean &times; total n).Subtract the known group's total.Divide the remaining total by the total n.",
+     "correct": false,
+     "explanation": "After subtraction, the remaining total belongs only to the missing group. Dividing by the combined number of students understates its mean; divide by the missing group’s n instead."
+    },
+    {
+     "text": "Find the overall total (mean &times; number of groups).Subtract the known group's total.Divide the remaining total by the missing group's n.",
+     "correct": false,
+     "explanation": "Multiplying by the number of groups does not recover the overall total. Multiply the combined mean by the total number of students before subtracting the known group’s total."
+    }
+   ],
+   "points": 3
+  },
+  {
+   "id": "fdd932e6-339d-454d-add9-9e9adf18dd5a",
+   "card_type": "cloze",
+   "front": "The highest value in a data set can be found using: $\\text{highest value} = \\text{[...]}$.",
+   "back": "The highest value in a data set can be found using: $\\text{highest value} = \\boxed{\\text{lowest value} + \\text{range}}$.",
+   "options": [
+    {
+     "text": "$$\\text{lowest value} + \\text{range}$",
+     "correct": true,
+     "explanation": "The range equals the highest value minus the lowest value. Rearranging this equation shows that the highest value equals the lowest value plus the range."
+    },
+    {
+     "text": "$$\\text{lowest value} - \\text{range}$",
+     "correct": false,
+     "explanation": "Subtracting the range moves below the lowest value rather than up to the highest. The highest value is found by adding the range to the lowest value."
+    },
+    {
+     "text": "$$\\text{range} - \\text{lowest value}$",
+     "correct": false,
+     "explanation": "This incorrectly reverses the terms from the range formula and does not isolate the highest value. The correct rearrangement is lowest value plus range."
+    },
+    {
+     "text": "$$\\text{lowest value} + \\text{IQR}$",
+     "correct": false,
+     "explanation": "The IQR covers only the middle 50% of the data, so it cannot locate the maximum. Add the full range to the lowest value instead."
+    }
+   ]
+  },
+  {
+   "id": "c37dd7f1-2aa5-497b-8376-e9df13b9a160",
+   "card_type": "basic",
+   "front": "How do you find the range for two groups combined?",
+   "back": "Subtract the overall lowest value from the overall highest value across both groups.",
+   "options": [
+    {
+     "text": "Subtract the overall lowest value from the overall highest value across both groups.",
+     "correct": true,
+     "explanation": "Once the groups are combined, the range uses the smallest and largest values in the entire combined data set, regardless of which group contains them."
+    },
+    {
+     "text": "Subtract the lowest group range from the highest group range across both groups.",
+     "correct": false,
+     "explanation": "Comparing the two separate ranges does not give the combined range. Identify the overall highest and overall lowest individual values, then subtract the latter from the former."
+    },
+    {
+     "text": "Add the first group's range to the second group's range across both groups.",
+     "correct": false,
+     "explanation": "Adding separate ranges double-counts or ignores gaps and overlaps between the groups. The combined range is the overall highest value minus the overall lowest value."
+    },
+    {
+     "text": "Subtract the overall highest value from the overall lowest value across both groups.",
+     "correct": false,
+     "explanation": "This reverses the subtraction and usually produces a negative result. A range is non-negative, so subtract the overall lowest value from the overall highest value."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "07a87859-ca05-4642-8f81-e1e71e1fa5f4",
+   "card_type": "basic",
+   "front": "Does a larger IQR mean a group performed better? Explain.",
+   "back": "No; it only means the scores were more spread out (less consistent).",
+   "options": [
+    {
+     "text": "No; it only means the scores were more spread out (less consistent).",
+     "correct": true,
+     "explanation": "The IQR measures the spread of the middle 50% of scores, not their level. A larger IQR therefore indicates greater variation and less consistency."
+    },
+    {
+     "text": "Yes; it means the scores had a higher typical value (better performance).",
+     "correct": false,
+     "explanation": "A higher typical value would be shown by a higher median, not a larger IQR. The IQR measures spread, so a larger value means less consistent scores."
+    },
+    {
+     "text": "Yes; it means the scores had a higher maximum value (best performance).",
+     "correct": false,
+     "explanation": "The IQR does not identify the maximum because it uses the middle 50% of the data. A larger IQR only shows that these scores are more spread out."
+    },
+    {
+     "text": "No; it only means the scores were more closely grouped (more consistent).",
+     "correct": false,
+     "explanation": "This reverses the interpretation of spread. A smaller IQR indicates more closely grouped, consistent scores, while a larger IQR indicates that the middle scores are more spread out."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "892adadc-0b39-4f70-942b-041c072ad18e",
+   "card_type": "cloze",
+   "front": "In comparison questions, the word [ ___ ] should be used for medians and the word consistent for IQR.",
+   "back": "In comparison questions, the word typical should be used for medians and the word consistent for IQR.",
+   "options": [
+    {
+     "text": "typical",
+     "correct": true,
+     "explanation": "The median is a measure of central tendency, so it describes a typical value for each data set rather than how spread out the values are."
+    },
+    {
+     "text": "consistent",
+     "correct": false,
+     "explanation": "Consistency concerns spread and is judged using the IQR, not the median. The correct word for comparing medians is typical because the median represents a central value."
+    },
+    {
+     "text": "variable",
+     "correct": false,
+     "explanation": "Variability describes how spread out data are, which is assessed using the IQR. The correct word is typical because a median indicates the centre of an ordered data set."
+    },
+    {
+     "text": "reliable",
+     "correct": false,
+     "explanation": "Reliability is not the standard statistical interpretation of a median. The correct word is typical because medians compare the central or representative values of data sets."
+    }
+   ]
+  },
+  {
+   "id": "f5f0c37d-aba1-4beb-b37a-c8f11bd50a9f",
+   "card_type": "cloze",
+   "front": "In comparison questions, the word typical should be used for medians and the word [ ___ ] for IQR.",
+   "back": "In comparison questions, the word typical should be used for medians and the word consistent for IQR.",
+   "options": [
+    {
+     "text": "consistent",
+     "correct": true,
+     "explanation": "The IQR measures the spread of the middle 50% of the data. A smaller IQR means values are more closely grouped and therefore more consistent."
+    },
+    {
+     "text": "typical",
+     "correct": false,
+     "explanation": "Typical describes the central value represented by the median, not the spread measured by the IQR. The correct word for an IQR comparison is consistent."
+    },
+    {
+     "text": "representative",
+     "correct": false,
+     "explanation": "A representative value describes the centre of a data set rather than its variability. The correct word is consistent because the IQR measures the spread of the middle 50%."
+    },
+    {
+     "text": "average",
+     "correct": false,
+     "explanation": "The IQR is a measure of spread, not a type of average. The correct word is consistent, with a smaller IQR indicating more closely grouped data."
+    }
+   ]
+  },
+  {
+   "id": "e46ec4b7-02ff-4f53-93f8-b1913a1d2cab",
+   "card_type": "basic",
+   "front": "Define the Upper Quartile ($Q_3$).",
+   "back": "The middle value of the upper half of the ordered data.",
+   "options": [
+    {
+     "text": "The middle value of the upper half of the ordered data.",
+     "correct": true,
+     "explanation": "After arranging the data in order and dividing it around the median, the upper quartile is found by taking the median of the upper half."
+    },
+    {
+     "text": "The middle value of the lower half of the ordered data.",
+     "correct": false,
+     "explanation": "Taking the middle value of the lower half gives the lower quartile, $Q_1$. The upper quartile, $Q_3$, is the middle value of the upper half."
+    },
+    {
+     "text": "The middle value of the whole set of the ordered data.",
+     "correct": false,
+     "explanation": "Taking the middle value of the entire ordered set gives the median, $Q_2$. The upper quartile is the middle value of the upper half."
+    },
+    {
+     "text": "The highest value of the upper half of the ordered data.",
+     "correct": false,
+     "explanation": "The highest value is the maximum, not a quartile. The upper quartile, $Q_3$, is found by taking the middle value of the upper half."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "48b322a0-8689-483a-94de-e58bdf1bd80f",
+   "card_type": "basic",
+   "front": "Define the Range.",
+   "back": "The highest value minus the lowest value.",
+   "options": [
+    {
+     "text": "The highest value minus the lowest value.",
+     "correct": true,
+     "explanation": "The range measures the full spread of a data set by calculating the difference between its maximum and minimum values."
+    },
+    {
+     "text": "The highest value plus the lowest value.",
+     "correct": false,
+     "explanation": "Adding the extreme values does not measure the distance between them. The range is calculated by subtracting the lowest value from the highest value."
+    },
+    {
+     "text": "The lowest value minus the highest value.",
+     "correct": false,
+     "explanation": "Reversing the subtraction usually produces a negative answer, but the range is a non-negative measure of spread. Subtract the lowest value from the highest value."
+    },
+    {
+     "text": "The second-highest value minus the second-lowest value.",
+     "correct": false,
+     "explanation": "Ignoring the two extreme observations does not give the range. The range uses the highest and lowest values, subtracting the lowest from the highest."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "bd659b3d-cef2-4a25-9b32-5a134b8fef55",
+   "card_type": "cloze",
+   "front": "When calculating combined means, groups with [ ___ ] have a greater effect on the final result.",
+   "back": "When calculating combined means, groups with more people have a greater effect on the final result.",
+   "options": [
+    {
+     "text": "more people",
+     "correct": true,
+     "explanation": "A combined mean is a weighted mean, so a group containing more people contributes more individual values and therefore has greater influence on the final result."
+    },
+    {
+     "text": "higher means",
+     "correct": false,
+     "explanation": "A high group mean may change the result's direction, but it does not determine the group's weighting. The correct fill is more people because weighting depends on group size."
+    },
+    {
+     "text": "larger ranges",
+     "correct": false,
+     "explanation": "The range measures spread and does not determine a group's weight in a combined mean. Groups with more people have greater influence because they contribute more values."
+    },
+    {
+     "text": "more extreme values",
+     "correct": false,
+     "explanation": "Extreme values can affect a group's own mean, but the group's weight in the combined calculation depends on its size. The correct fill is more people."
+    }
+   ]
+  },
+  {
+   "id": "a42732c4-3867-4a49-9529-83c3e3a5d423",
+   "card_type": "basic",
+   "front": "If Group A has an IQR of 15 and Group B has an IQR of 8, which group is more consistent?",
+   "back": "Group B (smaller IQR).",
+   "options": [
+    {
+     "text": "Group B (smaller IQR).",
+     "correct": true,
+     "explanation": "A smaller IQR means the middle 50% of the data is less spread out. Since $8<15$, Group B is more consistent."
+    },
+    {
+     "text": "Group A (larger IQR).",
+     "correct": false,
+     "explanation": "A larger IQR indicates greater spread, not greater consistency. Since Group B has the smaller IQR of 8, its middle 50% is more closely grouped."
+    },
+    {
+     "text": "Both groups (similar IQRs).",
+     "correct": false,
+     "explanation": "The IQRs are not equal, so the groups do not have the same consistency by this measure. Group B is more consistent because 8 is smaller than 15."
+    },
+    {
+     "text": "Neither group (means are needed).",
+     "correct": false,
+     "explanation": "Means compare typical values rather than consistency. IQR directly measures spread, so Group B is more consistent because its IQR of 8 is smaller."
+    }
+   ],
+   "points": 1
+  }
+ ],
+ "card_count": 22,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-5-5-12-data/flashcards",
+ "source_sha256": "754350a59fa83e74b270693f7ab58595dcc2eae0a4c8ec44697449e0555dab89",
+ "extracted_at": "2026-11-08T19:00:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-2 run-001)",
+ "task_id": "T-MG-FC-2"
+}

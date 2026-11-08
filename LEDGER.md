@@ -1153,3 +1153,12 @@ the site sitemap, every page fetched 200. Receipt:
 `MG-RevisionGuides/T-MG-RG-1-run-001-RECEIPT.json`; scripts land as
 `scripts/mg_rg1_*.py` (+ shared `mg_common.py`, `rsc.py`, `envelope.py`) with
 run evidence under `scripts/mg_rg1_run001/`.
+---
+
+## Wave 31 — MG-Flashcards lands: MathsGenie igcse-maths-edexcel multiple-choice flashcard decks (T-MG-FC-2 run-001; branch `t-mg-fc-2/run-001`)
+
+`T-MG-FC-2/run-001` opens the **MG-Flashcards plane** for `igcse-maths-edexcel`: 104/104 catalog topics carry the flashcards mode; gaps recorded as not-offered.
+104/104 mode-publishing topics extracted; 1,934 cards, 1,934 of them multiple-choice with options/correct/explanation captured verbatim (card_type basic|cloze of record) (run-001: grammar amendment of record documented in receipt). Zero PDFs stored (operator decision 2026-11-07). Receipt:
+`MG-Flashcards/T-MG-FC-2-run-001-RECEIPT.json`; scripts land as `scripts/mg_fc-2_*.py`
+(+ shared `mg_common.py`, `rsc.py`, `envelope.py`) with run evidence under
+`scripts/mg_fc-2_run001/`.

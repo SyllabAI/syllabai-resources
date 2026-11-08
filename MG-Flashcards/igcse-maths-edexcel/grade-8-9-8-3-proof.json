@@ -1,0 +1,505 @@
+{
+ "topic": "grade-8-9-8-3-proof",
+ "lane": "igcse-maths-edexcel",
+ "grade": "8",
+ "tier": null,
+ "title": "Proof Flashcards",
+ "cards": [
+  {
+   "id": "bd42f64b-2f88-4265-9e52-55c1b798e4a7",
+   "card_type": "basic",
+   "front": "What is the standard algebraic representation of an even integer?",
+   "back": "$$2n$ (where $n$ is an integer)",
+   "options": [
+    {
+     "text": "$$2n$ (where $n$ is an integer)",
+     "correct": true,
+     "explanation": "Multiplying any integer $n$ by 2 produces an integer divisible by 2, so this expression represents every even integer."
+    },
+    {
+     "text": "$$2n+1$ (where $n$ is an integer)",
+     "correct": false,
+     "explanation": "Adding 1 to twice an integer always produces an odd integer. An even integer is represented by $2n$, where $n$ is an integer."
+    },
+    {
+     "text": "$$\\frac{n}{2}$ (where $n$ is an integer)",
+     "correct": false,
+     "explanation": "Dividing an integer by 2 may produce a non-integer and does not guarantee an even result. Every even integer has the form $2n$."
+    },
+    {
+     "text": "$$n+2$ (where $n$ is an integer)",
+     "correct": false,
+     "explanation": "Adding 2 preserves whether $n$ is odd or even, so the result is not necessarily even. Multiplying an integer by 2 gives the required form $2n$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "01965898-d6b8-4a9d-b5d0-d793676e7009",
+   "card_type": "basic",
+   "front": "What are the two common algebraic forms for an odd integer?",
+   "back": "$$2n+1$ or $2n-1$",
+   "options": [
+    {
+     "text": "$$2n+1$ or $2n-1$",
+     "correct": true,
+     "explanation": "Twice an integer is even, so adding or subtracting 1 makes it odd. These forms can represent every positive or negative odd integer."
+    },
+    {
+     "text": "$$2n+2$ or $2n-2$",
+     "correct": false,
+     "explanation": "Both expressions are divisible by 2 and therefore represent even integers. Odd integers are one more or one less than an even integer: $2n+1$ or $2n-1$."
+    },
+    {
+     "text": "$$n+1$ or $n-1$",
+     "correct": false,
+     "explanation": "The parity of these expressions depends on the chosen value of $n$, so they are not always odd. Guaranteed odd integers have the forms $2n+1$ or $2n-1$."
+    },
+    {
+     "text": "$$3n+1$ or $3n-1$",
+     "correct": false,
+     "explanation": "Multiples of 3 shifted by 1 can be odd or even depending on $n$. Using twice an integer and shifting by 1 guarantees an odd result."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "8ec1617a-3727-40c9-b02a-b9c0afc9e44a",
+   "card_type": "basic",
+   "front": "What algebraic expressions represent three consecutive integers?",
+   "back": "$$n$, $n+1$, $n+2$",
+   "options": [
+    {
+     "text": "$$n$, $n+1$, $n+2$",
+     "correct": true,
+     "explanation": "Consecutive integers differ by 1. Starting with an arbitrary integer $n$, the next two integers are therefore $n+1$ and $n+2$."
+    },
+    {
+     "text": "$$n$, $n+2$, $n+4$",
+     "correct": false,
+     "explanation": "These values increase by 2, so they represent three integers of the same parity rather than consecutive integers. Consecutive integers must increase by 1 each time."
+    },
+    {
+     "text": "$$n-1$, $n+1$, $n+3$",
+     "correct": false,
+     "explanation": "Although the expressions are arranged symmetrically around $n$, each adjacent pair differs by 2. The correct sequence is $n$, $n+1$, $n+2$."
+    },
+    {
+     "text": "$$2n$, $2n+2$, $2n+4$",
+     "correct": false,
+     "explanation": "These expressions represent consecutive even integers because their values differ by 2. Three consecutive integers instead have the form $n$, $n+1$, $n+2$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "69c8f750-7a21-4fbd-ae09-4a80b1c74038",
+   "card_type": "basic",
+   "front": "What algebraic expressions represent two consecutive even integers?",
+   "back": "$$2n$ and $2n+2$",
+   "options": [
+    {
+     "text": "$$2n$ and $2n+2$",
+     "correct": true,
+     "explanation": "Every even integer can be written as $2n$, and the next even integer is 2 greater. Thus consecutive even integers differ by 2."
+    },
+    {
+     "text": "$$2n$ and $2n+4$",
+     "correct": false,
+     "explanation": "The expressions differ by 4, so there is another even integer, $2n+2$, between them. Consecutive even integers must differ by 2."
+    },
+    {
+     "text": "$$n$ and $n+2$",
+     "correct": false,
+     "explanation": "The expressions differ by 2 but are not guaranteed to be even because $n$ could be odd. Starting with $2n$ guarantees both integers are even."
+    },
+    {
+     "text": "$$2n+1$ and $2n+3$",
+     "correct": false,
+     "explanation": "Both expressions are odd because 1 or 3 is added to an even number. Consecutive even integers are represented by $2n$ and $2n+2$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "af1ae9c4-0c10-4086-b8a1-f8f936b07e6b",
+   "card_type": "basic",
+   "front": "What algebraic expressions represent two consecutive odd integers?",
+   "back": "$$2n+1$ and $2n+3$",
+   "options": [
+    {
+     "text": "$$2n+1$ and $2n+3$",
+     "correct": true,
+     "explanation": "Adding 1 to the even integer $2n$ produces an odd integer, and adding a further 2 gives the next odd integer."
+    },
+    {
+     "text": "$$2n$ and $2n+2$",
+     "correct": false,
+     "explanation": "Both expressions are even, not odd, because they are divisible by 2. Consecutive odd integers have the form $2n+1$ and $2n+3$."
+    },
+    {
+     "text": "$$2n+1$ and $2n+5$",
+     "correct": false,
+     "explanation": "These are both odd, but they differ by 4, leaving another odd integer between them. Consecutive odd integers must differ by 2."
+    },
+    {
+     "text": "$$n+1$ and $n+3$",
+     "correct": false,
+     "explanation": "The expressions differ by 2, but their parity depends on $n$ and is not guaranteed to be odd. Adding 1 to $2n$ guarantees odd values."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "d3927153-f9ff-4ad0-b2a5-b207709bb575",
+   "card_type": "basic",
+   "front": "Why is testing specific numbers (e.g., $n=1, 2, 3$) not considered a mathematical proof?",
+   "back": "Testing only shows the statement is true for specific casesAlgebraic proof shows it is true for all allowed values",
+   "options": [
+    {
+     "text": "Testing only shows the statement is true for specific casesAlgebraic proof shows it is true for all allowed values",
+     "correct": true,
+     "explanation": "Checking finitely many examples cannot rule out a failure at another allowed value. Algebra treats an arbitrary value and therefore establishes the statement throughout its stated domain."
+    },
+    {
+     "text": "Testing shows the statement is true for all casesAlgebraic proof shows it is true for specific allowed values",
+     "correct": false,
+     "explanation": "The roles have been reversed: numerical testing establishes only the cases checked, while a valid algebraic argument establishes the result for all allowed values."
+    },
+    {
+     "text": "Testing always finds a counterexampleAlgebraic proof relies on chosen numerical examples",
+     "correct": false,
+     "explanation": "Testing can support a conjecture but does not always find a counterexample, even when one exists. Algebraic proof uses general reasoning rather than relying on selected examples."
+    },
+    {
+     "text": "Testing is invalid for positive integersAlgebraic proof avoids using integer values entirely",
+     "correct": false,
+     "explanation": "Positive integers are valid mathematical inputs, so their use is not the problem. The limitation is that testing finitely many inputs cannot establish a claim for every allowed value."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "8d9ccbc2-7a4e-4f31-9370-6f992232bcd9",
+   "card_type": "basic",
+   "front": "What is the goal when proving an expression is a multiple of 6?",
+   "back": "Factorise the expression into the form $6(\\text{expression})$",
+   "options": [
+    {
+     "text": "Factorise the expression into the form $6(\\text{expression})$",
+     "correct": true,
+     "explanation": "Writing the result as 6 multiplied by an integer-valued expression demonstrates directly that it is divisible by 6 and hence is a multiple of 6."
+    },
+    {
+     "text": "Factorise the expression into the form $3(\\text{expression})$",
+     "correct": false,
+     "explanation": "A factor of 3 proves only that the result is divisible by 3; it may not be even. A factor of 6 is needed to establish divisibility by 6."
+    },
+    {
+     "text": "Rewrite the expression into the form $6+(\\text{expression})$",
+     "correct": false,
+     "explanation": "Adding 6 does not generally make a quantity divisible by 6, since the remaining expression may have any remainder. The result must be written as a product with factor 6."
+    },
+    {
+     "text": "Rewrite the expression into the form $(\\text{expression})^6$",
+     "correct": false,
+     "explanation": "A sixth power is not necessarily divisible by 6; for example, $5^6$ is not. The expression must instead be shown as 6 times an integer."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "08065be7-be31-48eb-8aab-ee53ccfbdbd6",
+   "card_type": "basic",
+   "front": "How do you finish a proof that results in $12n$ to ensure you get the mark?",
+   "back": "State that because $n$ is an integer, $12n$ must be a multiple of 12.",
+   "options": [
+    {
+     "text": "State that because $n$ is an integer, $12n$ must be a multiple of 12.",
+     "correct": true,
+     "explanation": "Since $n$ is an integer, multiplying it by 12 produces an integer divisible by 12. This final statement explicitly links the algebraic result to the required conclusion."
+    },
+    {
+     "text": "State that because $n$ is an integer, $12n$ must be a factor of 12.",
+     "correct": false,
+     "explanation": "The factor relationship has been reversed: $12n$ is generally a multiple of 12, not a factor of it. Stating divisibility by 12 completes the proof."
+    },
+    {
+     "text": "State that because $n$ is an integer, $12n$ must be a positive integer.",
+     "correct": false,
+     "explanation": "An integer need not be positive, so that claim introduces an unjustified restriction. Positivity is irrelevant; integer $n$ is sufficient to conclude that $12n$ is a multiple of 12."
+    },
+    {
+     "text": "State that because $12$ is an integer, $n$ must be a multiple of 12.",
+     "correct": false,
+     "explanation": "The fact that 12 is an integer places no such divisibility condition on $n$. Instead, integer $n$ ensures the product $12n$ is a multiple of 12."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "57fe4dff-3267-4366-8f17-12c4de9954c1",
+   "card_type": "basic",
+   "front": "What algebraic form should you reach to prove a result is a square number?",
+   "back": "$$m^2$ or $(\\text{expression})^2$",
+   "options": [
+    {
+     "text": "$$m^2$ or $(\\text{expression})^2$",
+     "correct": true,
+     "explanation": "A square number can be written as an integer multiplied by itself, so the final algebraic form must be $m^2$ or the square of an expression."
+    },
+    {
+     "text": "$$m^2+1$ or $(\\text{expression})^2+1$",
+     "correct": false,
+     "explanation": "Adding 1 means the result is one greater than a square, not necessarily a square itself. The required form is $m^2$ or $(\\text{expression})^2$."
+    },
+    {
+     "text": "$$2m^2$ or $2(\\text{expression})^2$",
+     "correct": false,
+     "explanation": "Multiplying a square by 2 does not usually produce another square number. The result must be written directly as $m^2$ or $(\\text{expression})^2$."
+    },
+    {
+     "text": "$$m^3$ or $(\\text{expression})^3$",
+     "correct": false,
+     "explanation": "A cube has power 3, whereas a square has power 2. To prove the result is a square number, reach the form $m^2$ or $(\\text{expression})^2$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "244e39e0-49f9-4632-a469-5dcf2af4c516",
+   "card_type": "basic",
+   "front": "To prove a result is \"4 more than a multiple of 8\", what target form is needed?",
+   "back": "$$8k+4$ (where $k$ is an integer)",
+   "options": [
+    {
+     "text": "$$8k+4$ (where $k$ is an integer)",
+     "correct": true,
+     "explanation": "Every multiple of 8 has the form $8k$. Adding 4 gives exactly the numbers that are 4 more than a multiple of 8."
+    },
+    {
+     "text": "$$8k$ (where $k$ is an integer)",
+     "correct": false,
+     "explanation": "This represents a multiple of 8 itself, without the required extra 4. The target form for 4 more than a multiple of 8 is $8k+4$."
+    },
+    {
+     "text": "$$8k+2$ (where $k$ is an integer)",
+     "correct": false,
+     "explanation": "Adding 2 produces numbers that are 2 more than multiples of 8, not 4 more. The correct target form is $8k+4$."
+    },
+    {
+     "text": "$$4k+4$ (where $k$ is an integer)",
+     "correct": false,
+     "explanation": "This describes numbers 4 more than a multiple of 4, which includes values that are not 4 more than multiples of 8. The required form is $8k+4$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "2d355c27-2060-4176-86bd-002f38224d78",
+   "card_type": "basic",
+   "front": "When proving a sum is a square number, why is factorising often better than expanding?",
+   "back": "It leads directly to the squared bracket form $(n+a)^2$ rather than a long quadratic.",
+   "options": [
+    {
+     "text": "It leads directly to the squared bracket form $(n+a)^2$ rather than a long quadratic.",
+     "correct": true,
+     "explanation": "Factorising can reveal two identical brackets, such as $(n+a)(n+a)$, which immediately becomes $(n+a)^2$ and proves the result is a square."
+    },
+    {
+     "text": "It leads directly to the linear bracket form $(n+a)$ rather than a long quadratic.",
+     "correct": false,
+     "explanation": "A single linear bracket is not enough to show that an expression is a square. Factorising is useful because it can reveal the repeated bracket $(n+a)^2$."
+    },
+    {
+     "text": "It leads directly to the difference bracket form $(n-a)(n+a)$ rather than a long quadratic.",
+     "correct": false,
+     "explanation": "The form $(n-a)(n+a)$ represents a difference of two squares, not necessarily a square number. The useful target is the repeated bracket $(n+a)^2$."
+    },
+    {
+     "text": "It leads directly to the cubed bracket form $(n+a)^3$ rather than a long quadratic.",
+     "correct": false,
+     "explanation": "A cubed bracket proves a cube, not a square. Factorising helps when it produces two identical factors, giving the squared form $(n+a)^2$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "d2da262f-6aa8-43ef-9a16-ac80c5c3a2b2",
+   "card_type": "basic",
+   "front": "Expand the identity for $(a-b)^2$.",
+   "back": "$$a^2 - 2ab + b^2$",
+   "options": [
+    {
+     "text": "$$a^2 - 2ab + b^2$",
+     "correct": true,
+     "explanation": "Squaring $(a-b)$ gives $a^2-ab-ab+b^2$, which combines to $a^2-2ab+b^2$."
+    },
+    {
+     "text": "$$a^2 - ab + b^2$",
+     "correct": false,
+     "explanation": "The two cross-products, $-ab$ and $-ab$, combine to $-2ab$, not $-ab$. Therefore the expansion is $a^2-2ab+b^2$."
+    },
+    {
+     "text": "$$a^2 + 2ab + b^2$",
+     "correct": false,
+     "explanation": "This is the expansion of $(a+b)^2$; the minus sign between $a$ and $b$ makes the middle term negative. The correct result is $a^2-2ab+b^2$."
+    },
+    {
+     "text": "$$a^2 - 2ab - b^2$",
+     "correct": false,
+     "explanation": "The final term comes from multiplying $-b$ by $-b$, which gives positive $b^2$. Thus the expansion is $a^2-2ab+b^2$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "b73f0fd9-94d6-4a86-a595-52a3be285a6a",
+   "card_type": "basic",
+   "front": "What is the difference of two squares identity used in proofs?",
+   "back": "$$a^2 - b^2 = (a-b)(a+b)$",
+   "options": [
+    {
+     "text": "$$a^2 - b^2 = (a-b)(a+b)$",
+     "correct": true,
+     "explanation": "Multiplying $(a-b)(a+b)$ cancels the two cross-terms, leaving $a^2-b^2$. This identity is useful for factorising a difference of two squares."
+    },
+    {
+     "text": "$$a^2 + b^2 = (a-b)(a+b)$",
+     "correct": false,
+     "explanation": "The product $(a-b)(a+b)$ gives $a^2-b^2$ because the cross-terms cancel. It does not factorise the sum $a^2+b^2$ in this way."
+    },
+    {
+     "text": "$$a^2 - b^2 = (a-b)^2$",
+     "correct": false,
+     "explanation": "Squaring $(a-b)$ introduces the extra middle term $-2ab$. The difference of two squares instead factorises into two different brackets, $(a-b)(a+b)$."
+    },
+    {
+     "text": "$$a^2 - b^2 = (a+b)^2$",
+     "correct": false,
+     "explanation": "Expanding $(a+b)^2$ gives $a^2+2ab+b^2$, including a positive middle term. The correct factorisation is $(a-b)(a+b)$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "34a1e847-3eab-46be-9ee9-2bccc44c82e5",
+   "card_type": "basic",
+   "front": "Prove that $2n+5$ is always odd for any integer $n$.",
+   "back": "$2n+4$ is a multiple of 2 (even)$2n+5$ is one more than an even number",
+   "options": [
+    {
+     "text": "$2n+4$ is a multiple of 2 (even)$2n+5$ is one more than an even number",
+     "correct": true,
+     "explanation": "Since $2n+4$ is divisible by 2, it is even. Adding 1 gives $2n+5$, which is one more than an even number and therefore odd."
+    },
+    {
+     "text": "$2n+4$ is a multiple of 2 (even)$2n+5$ is one less than an even number",
+     "correct": false,
+     "explanation": "The expression $2n+5$ is one more than $2n+4$, not one less. Being one more than an even number proves it is odd."
+    },
+    {
+     "text": "$2n+5$ is a multiple of 2 (even)$2n+5$ is one more than an even number",
+     "correct": false,
+     "explanation": "The first statement is false: $2n+5$ is not divisible by 2. Instead, $2n+4$ is even, and $2n+5$ is one more than it, so the result is odd."
+    },
+    {
+     "text": "$2n+4$ is a multiple of 2 (even)$2n+5$ is two more than an even number",
+     "correct": false,
+     "explanation": "The difference between $2n+5$ and $2n+4$ is 1, not 2. The correct proof uses the fact that $2n+5$ is one more than an even number."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "92a82ebf-3753-44bf-aec9-7117b9f85b09",
+   "card_type": "cloze",
+   "front": "To prove an expression is a multiple of 12, it must be written in the form $\\text{[...]}$ where $k$ is an integer.",
+   "back": "To prove an expression is a multiple of 12, it must be written in the form $\\boxed{12k}$ where $k$ is an integer.",
+   "options": [
+    {
+     "text": "$$12k$",
+     "correct": true,
+     "explanation": "An expression is a multiple of 12 when it equals 12 multiplied by an integer. Writing it as $12k$ guarantees divisibility by 12."
+    },
+    {
+     "text": "$$12+k$",
+     "correct": false,
+     "explanation": "Adding an integer to 12 does not generally produce a multiple of 12. The required form is $12k$, meaning 12 multiplied by an integer."
+    },
+    {
+     "text": "$$k^{12}$",
+     "correct": false,
+     "explanation": "Raising $k$ to the twelfth power does not ensure the result is divisible by 12, especially when $k=1$. A multiple of 12 has the form $12k$."
+    },
+    {
+     "text": "$$k+12k$",
+     "correct": false,
+     "explanation": "This simplifies to $13k$, which is a multiple of 13 rather than necessarily a multiple of 12. The correct form is $12k$."
+    }
+   ]
+  },
+  {
+   "id": "e19a2730-afcf-4984-9f7e-ec9a28628ad0",
+   "card_type": "cloze",
+   "front": "The expansion of $(a+b)^2$ is $\\text{[...]}$.",
+   "back": "The expansion of $(a+b)^2$ is $\\boxed{a^2+2ab+b^2}$.",
+   "options": [
+    {
+     "text": "$$a^2+2ab+b^2$",
+     "correct": true,
+     "explanation": "Multiplying $(a+b)(a+b)$ gives $a^2+ab+ab+b^2$, and the two middle terms combine to $2ab$."
+    },
+    {
+     "text": "$$a^2+ab+b^2$",
+     "correct": false,
+     "explanation": "There are two cross-products, $ab$ and $ab$, so they combine to $2ab$, not $ab$. The correct expansion is $a^2+2ab+b^2$."
+    },
+    {
+     "text": "$$a^2-2ab+b^2$",
+     "correct": false,
+     "explanation": "The negative middle term comes from expanding $(a-b)^2$. With a plus sign, both cross-products are positive, giving $a^2+2ab+b^2$."
+    },
+    {
+     "text": "$$a^2+2ab-b^2$",
+     "correct": false,
+     "explanation": "The final term is $b$ multiplied by $b$, so it is positive $b^2$. Therefore $(a+b)^2$ expands to $a^2+2ab+b^2$."
+    }
+   ]
+  },
+  {
+   "id": "8cd50163-4c75-4348-996d-655043cab30d",
+   "card_type": "cloze",
+   "front": "A square number is an expression that can be written in the form $\\text{[...]}$.",
+   "back": "A square number is an expression that can be written in the form $\\boxed{m^2}$.",
+   "options": [
+    {
+     "text": "$$m^2$",
+     "correct": true,
+     "explanation": "A square number is obtained by multiplying an expression by itself, so it has the form $m \\times m = m^2$."
+    },
+    {
+     "text": "$$2m$",
+     "correct": false,
+     "explanation": "Multiplying $m$ by 2 gives twice the expression, not its square. A square number results from multiplying $m$ by itself, giving $m^2$."
+    },
+    {
+     "text": "$$m^3$",
+     "correct": false,
+     "explanation": "The exponent 3 represents a cube because $m^3 = m \\times m \\times m$. A square number has exponent 2, so its form is $m^2$."
+    },
+    {
+     "text": "$$m + 2$",
+     "correct": false,
+     "explanation": "Adding 2 to $m$ increases it by a fixed amount but does not square it. A square number is formed by multiplying $m$ by itself, giving $m^2$."
+    }
+   ]
+  }
+ ],
+ "card_count": 17,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-8-9-8-3-proof/flashcards",
+ "source_sha256": "391692651da59f7146d48da4865f8d9ceb89677eaaa84003d0a33348fc0876b9",
+ "extracted_at": "2026-11-08T19:00:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-2 run-001)",
+ "task_id": "T-MG-FC-2"
+}

@@ -1,0 +1,675 @@
+{
+ "topic": "grade-2-2-11-area-and-perimeter",
+ "lane": "igcse-maths-edexcel",
+ "grade": "2",
+ "tier": null,
+ "title": "Area and Perimeter Flashcards",
+ "cards": [
+  {
+   "id": "d1161e31-7ad2-4a24-88ae-66084db90479",
+   "card_type": "basic",
+   "front": "What is the difference between area and perimeter?",
+   "back": "Area: the amount of flat space inside a shape.Perimeter: the total distance around the outside edge.",
+   "options": [
+    {
+     "text": "Area: the amount of flat space inside a shape.Perimeter: the total distance around the outside edge.",
+     "correct": true,
+     "explanation": "Area describes the surface enclosed by a shape, while perimeter measures the complete distance around its boundary. They use different units: square units for area and length units for perimeter."
+    },
+    {
+     "text": "Area: the total distance around the outside edge.Perimeter: the amount of flat space inside a shape.",
+     "correct": false,
+     "explanation": "The two definitions have been reversed, a common confusion between what is inside a shape and what goes around its boundary. Area is the inside space, while perimeter is the outside distance."
+    },
+    {
+     "text": "Area: the longest distance across a shape.Perimeter: the amount of flat space inside a shape.",
+     "correct": false,
+     "explanation": "The longest distance across a shape is a measurement such as a diagonal, not area. Area measures inside space, while perimeter measures the total distance around the outside edge."
+    },
+    {
+     "text": "Area: the total distance around the outside edge.Perimeter: the longest distance across a shape.",
+     "correct": false,
+     "explanation": "This confuses both concepts with other measurements. Area is the flat space inside a shape, and perimeter is found by adding all the lengths around its outside edge."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "65fd431f-9353-49b1-b2ce-02b2251c4bad",
+   "card_type": "cloze",
+   "front": "Area is measured in [ ___ ] (e.g. cm²), while perimeter is measured in length units (e.g. cm).",
+   "back": "Area is measured in square units (e.g. cm²), while perimeter is measured in length units (e.g. cm).",
+   "options": [
+    {
+     "text": "square units",
+     "correct": true,
+     "explanation": "Area measures the amount of two-dimensional space covered by a shape, so its units have two dimensions, such as cm². These are called square units."
+    },
+    {
+     "text": "length units",
+     "correct": false,
+     "explanation": "Length units such as centimetres measure one-dimensional distance and are used for perimeter. Area requires square units, such as cm², because it covers a surface."
+    },
+    {
+     "text": "cubic units",
+     "correct": false,
+     "explanation": "Cubic units measure volume in three dimensions, such as cm³. Area is two-dimensional, so it is measured in square units such as cm²."
+    },
+    {
+     "text": "angle units",
+     "correct": false,
+     "explanation": "Angle units such as degrees measure rotation or the size of an angle, not surface space. Area is measured in square units, such as cm²."
+    }
+   ]
+  },
+  {
+   "id": "9f1e2b2e-4385-491f-9998-e5505a33125c",
+   "card_type": "cloze",
+   "front": "Area is measured in square units (e.g. cm²), while perimeter is measured in [ ___ ] (e.g. cm).",
+   "back": "Area is measured in square units (e.g. cm²), while perimeter is measured in length units (e.g. cm).",
+   "options": [
+    {
+     "text": "length units",
+     "correct": true,
+     "explanation": "Perimeter measures the total distance around a shape, which is one-dimensional. Therefore it uses ordinary length units, such as centimetres, rather than square or cubic units."
+    },
+    {
+     "text": "square units",
+     "correct": false,
+     "explanation": "Square units measure two-dimensional area, not the one-dimensional distance around a boundary. Perimeter is measured in length units such as cm."
+    },
+    {
+     "text": "cubic units",
+     "correct": false,
+     "explanation": "Cubic units measure three-dimensional volume and are unsuitable for a boundary distance. Perimeter uses length units, such as cm, because it measures distance in one dimension."
+    },
+    {
+     "text": "angle units",
+     "correct": false,
+     "explanation": "Angle units measure turns or angles, not distances. The perimeter of a shape is the total length around its edge, so it is measured in length units such as cm."
+    }
+   ]
+  },
+  {
+   "id": "e772ff5c-da12-45d8-9da3-af9ef435a9c1",
+   "card_type": "basic",
+   "front": "What is the formula for the area of a rectangle?",
+   "back": "$$A = l \\times w$ (length multiplied by width).",
+   "options": [
+    {
+     "text": "$$A = l \\times w$ (length multiplied by width).",
+     "correct": true,
+     "explanation": "A rectangle’s area is found by multiplying its length by its width, so the formula is $A = l \\times w$. Both measurements must use compatible length units."
+    },
+    {
+     "text": "$$A = 2l + 2w$ (twice the length plus twice the width).",
+     "correct": false,
+     "explanation": "This formula adds all four sides, so it finds the rectangle’s perimeter rather than its area. Area requires multiplication: $A = l \\times w$."
+    },
+    {
+     "text": "$$A = l + w$ (length plus width).",
+     "correct": false,
+     "explanation": "Adding the length and width does not cover the rectangle’s surface and is not an area formula. The correct calculation multiplies them: $A = l \\times w$."
+    },
+    {
+     "text": "$$A = l \\div w$ (length divided by width).",
+     "correct": false,
+     "explanation": "Dividing the dimensions does not calculate the rectangular surface and can also produce unsuitable units. Multiply length by width to find area: $A = l \\times w$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "943d5a6f-156d-4d29-a562-8c87c659a2f0",
+   "card_type": "basic",
+   "front": "What is the formula for the perimeter of a rectangle?",
+   "back": "$$P = 2l + 2w$ (or $P = 2(l + w)$).",
+   "options": [
+    {
+     "text": "$$P = 2l + 2w$ (or $P = 2(l + w)$).",
+     "correct": true,
+     "explanation": "A rectangle has two sides of length $l$ and two sides of width $w$, so its perimeter is $2l + 2w$, equivalently $2(l + w)$."
+    },
+    {
+     "text": "$$P = l + w$ (length plus width).",
+     "correct": false,
+     "explanation": "This adds only one length and one width, omitting the opposite sides. A rectangle’s perimeter includes two of each, so $P = 2l + 2w$."
+    },
+    {
+     "text": "$$P = l \\times w$ (length multiplied by width).",
+     "correct": false,
+     "explanation": "Multiplying length by width calculates the rectangle’s area, not the distance around it. The perimeter formula adds both pairs of equal sides: $P = 2l + 2w$."
+    },
+    {
+     "text": "$$P = 2l + w$ (twice the length plus the width).",
+     "correct": false,
+     "explanation": "This includes two lengths but only one width, so one side is missing from the boundary total. The correct formula includes two widths as well: $P = 2l + 2w$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "2ba0ef39-b7b9-43e0-87f8-2c6c9a0c4c14",
+   "card_type": "basic",
+   "front": "How do you find the side length of a square if you know its area?",
+   "back": "Calculate the square root of the area ($\\sqrt{A}$).",
+   "options": [
+    {
+     "text": "Calculate the square root of the area ($\\sqrt{A}$).",
+     "correct": true,
+     "explanation": "For a square, area equals side length squared, $A=s^2$. Taking the square root reverses the squaring operation, giving the side length as $s=\\sqrt{A}$."
+    },
+    {
+     "text": "Calculate the square of the area ($A^2$).",
+     "correct": false,
+     "explanation": "Squaring the area moves further away from the side length and produces incorrect units. Since $A=s^2$, take the square root to obtain $s=\\sqrt{A}$."
+    },
+    {
+     "text": "Calculate half of the area ($A \\div 2$).",
+     "correct": false,
+     "explanation": "Halving the area has no general connection with a square’s side length. The side is the number which squares to give the area, so use $\\sqrt{A}$."
+    },
+    {
+     "text": "Calculate the cube root of the area ($\\sqrt[3]{A}$).",
+     "correct": false,
+     "explanation": "A cube root reverses cubing and is associated with three-dimensional volume, not the area of a square. Square area requires the square root, $\\sqrt{A}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "cc65cb64-afbd-43fb-b7a7-040a34a047f5",
+   "card_type": "basic",
+   "front": "A square has area 81 cm². What is its perimeter?",
+   "back": "Find side length: $\\sqrt{81} = 9$ cm.Multiply by 4: $9 \\times 4 = 36$ cm.",
+   "options": [
+    {
+     "text": "Find side length: $\\sqrt{81} = 9$ cm.Multiply by 4: $9 \\times 4 = 36$ cm.",
+     "correct": true,
+     "explanation": "The side length of a square is the square root of its area, so $\\sqrt{81}=9$ cm. A square has four equal sides, giving a perimeter of $4 \\times 9=36$ cm."
+    },
+    {
+     "text": "Find side length: $81 \\div 4 = 20.25$ cm.Multiply by 4: $20.25 \\times 4 = 81$ cm.",
+     "correct": false,
+     "explanation": "Dividing the area by four treats the area as though it were a perimeter. The side length comes from $\\sqrt{81}=9$ cm, so the perimeter is $4 \\times 9=36$ cm."
+    },
+    {
+     "text": "Find side length: $\\sqrt{81} = 9$ cm.Multiply by 2: $9 \\times 2 = 18$ cm.",
+     "correct": false,
+     "explanation": "The square root correctly finds the side, but multiplying by two counts only a pair of sides. A square has four equal sides, so the perimeter is $9 \\times 4=36$ cm."
+    },
+    {
+     "text": "Find side length: $81$ cm.Multiply by 4: $81 \\times 4 = 324$ cm.",
+     "correct": false,
+     "explanation": "The area value is not itself the side length; confusing these gives an excessively large perimeter. The side is $\\sqrt{81}=9$ cm, making the perimeter $36$ cm."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "669d1b1c-ed24-4e89-8b18-f69a6073cf67",
+   "card_type": "basic",
+   "front": "A square has perimeter 32 cm. What is its area?",
+   "back": "Find side length: $32 \\div 4 = 8$ cm.Square the side: $8^2 = 64$ cm².",
+   "options": [
+    {
+     "text": "Find side length: $32 \\div 4 = 8$ cm.Square the side: $8^2 = 64$ cm².",
+     "correct": true,
+     "explanation": "A square’s four equal sides give a side length of $32 \\div 4=8$ cm. Squaring this side gives the area: $8^2=64$ cm²."
+    },
+    {
+     "text": "Find side length: $32 \\div 4 = 8$ cm.Multiply the side by 4: $8 \\times 4 = 32$ cm².",
+     "correct": false,
+     "explanation": "The side length is found correctly, but multiplying by four returns the perimeter rather than the area. Area requires squaring the side, so $8^2=64$ cm²."
+    },
+    {
+     "text": "Find side length: $32 \\div 2 = 16$ cm.Square the side: $16^2 = 256$ cm².",
+     "correct": false,
+     "explanation": "Dividing the perimeter by two counts two sides instead of all four, making the side twice as large. Use $32 \\div 4=8$ cm, then square to get $64$ cm²."
+    },
+    {
+     "text": "Find side length: $\\sqrt{32}$ cm.Square the side: $(\\sqrt{32})^2 = 32$ cm².",
+     "correct": false,
+     "explanation": "Taking a square root is used when area is known and the side is required. Here the perimeter gives the side as $32 \\div 4=8$ cm, producing an area of $64$ cm²."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "dcdef895-f131-4c98-9d84-8adbd53b6b12",
+   "card_type": "basic",
+   "front": "If the length of a rectangle is twice its width ($w$), what is the expression for its perimeter?",
+   "back": "$$6w$ (from $w + w + 2w + 2w$).",
+   "options": [
+    {
+     "text": "$$6w$ (from $w + w + 2w + 2w$).",
+     "correct": true,
+     "explanation": "The two widths total $2w$ and the two lengths total $4w$, so the perimeter is $2w + 4w = 6w$."
+    },
+    {
+     "text": "$$4w$ (from $w + w + w + w$).",
+     "correct": false,
+     "explanation": "This treats all four sides as width $w$, ignoring that each length is $2w$. Adding $w + w + 2w + 2w$ gives the correct perimeter, $6w$."
+    },
+    {
+     "text": "$$3w$ (from $w + 2w$).",
+     "correct": false,
+     "explanation": "This adds only one width and one length, giving half the perimeter. A rectangle has two of each side, so the correct perimeter is $2(w + 2w) = 6w$."
+    },
+    {
+     "text": "$$2w^2$ (from $2w \\times w$).",
+     "correct": false,
+     "explanation": "Multiplying length by width calculates the area, not the perimeter. Perimeter requires adding all four sides, which gives $w + w + 2w + 2w = 6w$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "07813d35-f424-4af2-bf39-970388a962dc",
+   "card_type": "basic",
+   "front": "If the length of a rectangle is three times its width ($w$), what is the expression for its area?",
+   "back": "$$3w^2$ (from $3w \\times w$).",
+   "options": [
+    {
+     "text": "$$3w^2$ (from $3w \\times w$).",
+     "correct": true,
+     "explanation": "A rectangle’s area is length multiplied by width. With length $3w$ and width $w$, the area is $3w \\times w = 3w^2$."
+    },
+    {
+     "text": "$$8w$ (from $w + w + 3w + 3w$).",
+     "correct": false,
+     "explanation": "Adding all four sides calculates the perimeter rather than the area. Multiplying the length $3w$ by the width $w$ gives the correct area, $3w^2$."
+    },
+    {
+     "text": "$$4w^2$ (from $(3w + w) \\times w$).",
+     "correct": false,
+     "explanation": "This incorrectly adds the length and width before multiplying. Rectangle area is simply length multiplied by width, so $3w \\times w = 3w^2$."
+    },
+    {
+     "text": "$$9w^2$ (from $3w \\times 3w$).",
+     "correct": false,
+     "explanation": "This uses $3w$ for both dimensions, incorrectly treating the rectangle as a square. Its width is $w$, so the area is $3w \\times w = 3w^2$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "84e5a3ae-2513-417d-b3c9-fcdc7c52015f",
+   "card_type": "basic",
+   "front": "What is the formula for the area of a triangle?",
+   "back": "$$A = \\frac{1}{2}bh$ (half $\\times$ base $\\times$ perpendicular height).",
+   "options": [
+    {
+     "text": "$$A = \\frac{1}{2}bh$ (half $\\times$ base $\\times$ perpendicular height).",
+     "correct": true,
+     "explanation": "A triangle occupies half the area of a parallelogram with the same base and perpendicular height. Therefore its area is $A = \\frac{1}{2}bh$."
+    },
+    {
+     "text": "$$A = bh$ (base $\\times$ perpendicular height).",
+     "correct": false,
+     "explanation": "This is the area formula for a parallelogram and misses the factor of one-half. A triangle’s area is $A = \\frac{1}{2}bh$, using its perpendicular height."
+    },
+    {
+     "text": "$$A = \\frac{1}{2}(b + h)$ (half $\\times$ base plus height).",
+     "correct": false,
+     "explanation": "Adding the base and height cannot produce an area because it does not create squared units. The dimensions must be multiplied, giving $A = \\frac{1}{2}bh$."
+    },
+    {
+     "text": "$$A = \\frac{1}{2}b^2$ (half $\\times$ base $\\times$ base).",
+     "correct": false,
+     "explanation": "This incorrectly uses the base twice and ignores the perpendicular height. Triangle area depends on both measurements, so the correct formula is $A = \\frac{1}{2}bh$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "dd2d156a-bf71-4b85-9fff-3c893e03cfd5",
+   "card_type": "cloze",
+   "front": "For triangles and parallelograms, the height used in area formulas must be [ ___ ] to the base, never the slanted side.",
+   "back": "For triangles and parallelograms, the height used in area formulas must be perpendicular to the base, never the slanted side.",
+   "options": [
+    {
+     "text": "perpendicular",
+     "correct": true,
+     "explanation": "The height is the shortest distance from the base to the opposite vertex or side, measured at a right angle. Therefore it must be perpendicular to the base."
+    },
+    {
+     "text": "parallel",
+     "correct": false,
+     "explanation": "A parallel line never meets the base, so it cannot represent the height between the base and the opposite vertex or side. The required height is perpendicular to the base."
+    },
+    {
+     "text": "diagonal",
+     "correct": false,
+     "explanation": "A diagonal joins non-adjacent vertices and is not necessarily at a right angle to the base. Area formulas require the perpendicular distance from the base."
+    },
+    {
+     "text": "adjacent",
+     "correct": false,
+     "explanation": "An adjacent side may be slanted and therefore may not measure the shortest distance from the base. The height used for area must be perpendicular to the base."
+    }
+   ]
+  },
+  {
+   "id": "00ae11c0-7627-4bdc-804f-1ee829dba678",
+   "card_type": "cloze",
+   "front": "For triangles and parallelograms, the height used in area formulas must be perpendicular to the base, never the [ ___ ] side.",
+   "back": "For triangles and parallelograms, the height used in area formulas must be perpendicular to the base, never the slanted side.",
+   "options": [
+    {
+     "text": "slanted",
+     "correct": true,
+     "explanation": "A slanted side is not generally perpendicular to the base, so using it would give an incorrect area. The height must be the right-angled distance from the base."
+    },
+    {
+     "text": "parallel",
+     "correct": false,
+     "explanation": "The warning concerns a visible side that learners often mistake for the height, namely the slanted side. A parallel side is not a candidate for the perpendicular height."
+    },
+    {
+     "text": "horizontal",
+     "correct": false,
+     "explanation": "Whether a side is horizontal depends only on how the shape is drawn, not on its role in the formula. The side to avoid using as height is the slanted side."
+    },
+    {
+     "text": "opposite",
+     "correct": false,
+     "explanation": "In a parallelogram, the opposite side is parallel to the chosen base and helps define the shape. The common error is using the slanted side instead of perpendicular height."
+    }
+   ]
+  },
+  {
+   "id": "4c2795f4-59c3-4034-ad9d-54b375b4efb1",
+   "card_type": "basic",
+   "front": "What is the formula for the area of a parallelogram?",
+   "back": "$$A = bh$ (base $\\times$ perpendicular height).",
+   "options": [
+    {
+     "text": "$$A = bh$ (base $\\times$ perpendicular height).",
+     "correct": true,
+     "explanation": "A parallelogram can be rearranged into a rectangle with the same base and perpendicular height. Its area is therefore $A = bh$."
+    },
+    {
+     "text": "$$A = \\frac{1}{2}bh$ (half $\\times$ base $\\times$ perpendicular height).",
+     "correct": false,
+     "explanation": "The factor of one-half belongs to the triangle area formula. A parallelogram uses the full product of its base and perpendicular height, so $A = bh$."
+    },
+    {
+     "text": "$$A = bs$ (base $\\times$ slanted side).",
+     "correct": false,
+     "explanation": "The slanted side does not measure the perpendicular distance between the parallel bases. The area must use perpendicular height, giving $A = bh$."
+    },
+    {
+     "text": "$$A = 2(b + h)$ (twice base plus height).",
+     "correct": false,
+     "explanation": "This resembles a perimeter calculation because it adds lengths rather than multiplying dimensions. Parallelogram area is base multiplied by perpendicular height, so $A = bh$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "f3160eb4-827b-4ec7-9d3c-32a1d04fd949",
+   "card_type": "basic",
+   "front": "A triangle has area 25 cm² and the base is twice the height ($2h$). Find the height.",
+   "back": "Substitute: $25 = \\frac{1}{2} \\times 2h \\times h$.Simplify: $25 = h^2$.Solve: $h = 5$ cm.",
+   "options": [
+    {
+     "text": "Substitute: $25 = \\frac{1}{2} \\times 2h \\times h$.Simplify: $25 = h^2$.Solve: $h = 5$ cm.",
+     "correct": true,
+     "explanation": "Substituting base $2h$ into $A = \\frac{1}{2}bh$ gives $25 = h^2$. Taking the positive square root gives $h = 5$ cm, since height cannot be negative."
+    },
+    {
+     "text": "Substitute: $25 = \\frac{1}{2} \\times 2h \\times h$.Simplify: $25 = 2h^2$.Solve: $h = 3.54$ cm.",
+     "correct": false,
+     "explanation": "This fails to cancel $\\frac{1}{2}$ with the factor $2$ in the base. The equation simplifies to $25 = h^2$, so the height is $5$ cm."
+    },
+    {
+     "text": "Substitute: $25 = 2h \\times h$.Simplify: $25 = 2h^2$.Solve: $h = 3.54$ cm.",
+     "correct": false,
+     "explanation": "This uses the rectangle or parallelogram formula and omits the triangle’s factor of $\\frac{1}{2}$. Correct substitution gives $25 = \\frac{1}{2}(2h)(h) = h^2$, hence $h = 5$ cm."
+    },
+    {
+     "text": "Substitute: $25 = \\frac{1}{2} \\times 2h \\times h$.Simplify: $25 = h^2$.Solve: $h = 12.5$ cm.",
+     "correct": false,
+     "explanation": "This divides $25$ by $2$ instead of taking the square root when solving $h^2 = 25$. The positive square root gives the correct height, $h = 5$ cm."
+    }
+   ],
+   "points": 3
+  },
+  {
+   "id": "2df363c4-c1f6-4de2-a955-2c225534698a",
+   "card_type": "basic",
+   "front": "What are the geometric properties of a parallelogram?",
+   "back": "A four-sided shape with two pairs of parallel opposite sides.",
+   "options": [
+    {
+     "text": "A four-sided shape with two pairs of parallel opposite sides.",
+     "correct": true,
+     "explanation": "A parallelogram is a quadrilateral whose two pairs of opposite sides are parallel. This defining property also leads to equal opposite sides and equal opposite angles."
+    },
+    {
+     "text": "A four-sided shape with one pair of parallel opposite sides.",
+     "correct": false,
+     "explanation": "Having only one pair of parallel opposite sides describes a trapezium in UK terminology. A parallelogram must have two pairs of parallel opposite sides."
+    },
+    {
+     "text": "A four-sided shape with two pairs of perpendicular opposite sides.",
+     "correct": false,
+     "explanation": "Opposite sides cannot be perpendicular because they face each other rather than meeting. In a parallelogram, both pairs of opposite sides are parallel."
+    },
+    {
+     "text": "A four-sided shape with four pairs of parallel opposite sides.",
+     "correct": false,
+     "explanation": "A quadrilateral has only two pairs of opposite sides, so four such pairs are impossible. A parallelogram is defined by two pairs of parallel opposite sides."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "2d045577-f2ac-403c-a5a3-9da0adb840f5",
+   "card_type": "basic",
+   "front": "What is the formula for the area of a trapezium?",
+   "back": "$$A = \\frac{1}{2}(a+b)h$",
+   "options": [
+    {
+     "text": "$$A = \\frac{1}{2}(a+b)h$",
+     "correct": true,
+     "explanation": "The parallel side lengths are added, multiplied by the perpendicular height, and halved. This is equivalent to multiplying the average length of the parallel sides by the height."
+    },
+    {
+     "text": "$$A = (a+b)h$",
+     "correct": false,
+     "explanation": "Omitting the factor of $\\frac{1}{2}$ doubles the calculated area. The correct formula uses the average of the parallel sides: $A = \\frac{1}{2}(a+b)h$."
+    },
+    {
+     "text": "$$A = \\frac{1}{2}(a-b)h$",
+     "correct": false,
+     "explanation": "Subtracting the parallel sides does not find their average and can even produce a negative result. They must be added, giving $A = \\frac{1}{2}(a+b)h$."
+    },
+    {
+     "text": "$$A = \\frac{1}{2}abh$",
+     "correct": false,
+     "explanation": "Multiplying the two parallel side lengths together incorrectly treats the trapezium like a three-dimensional calculation. The correct formula is $A = \\frac{1}{2}(a+b)h$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "6200049b-51d8-4f77-a768-8d62118a7a49",
+   "card_type": "basic",
+   "front": "In the trapezium formula $A = \\frac{1}{2}(a+b)h$, what do $a$ and $b$ represent?",
+   "back": "The lengths of the parallel sides.",
+   "options": [
+    {
+     "text": "The lengths of the parallel sides.",
+     "correct": true,
+     "explanation": "The variables $a$ and $b$ are the two parallel side lengths. Their mean is multiplied by the perpendicular height $h$ to calculate the trapezium’s area."
+    },
+    {
+     "text": "The lengths of the non-parallel sides.",
+     "correct": false,
+     "explanation": "The sloping or non-parallel sides are not added in the area formula. The variables $a$ and $b$ represent the lengths of the parallel sides."
+    },
+    {
+     "text": "The length and the perpendicular height.",
+     "correct": false,
+     "explanation": "The perpendicular height is represented separately by $h$, not by $a$ or $b$. Both $a$ and $b$ are lengths of the parallel sides."
+    },
+    {
+     "text": "The lengths of the two diagonals.",
+     "correct": false,
+     "explanation": "A trapezium’s diagonals are not used in this area formula. The variables $a$ and $b$ represent the lengths of its two parallel sides."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "6ff4d787-aa05-465f-8667-314752cd1785",
+   "card_type": "basic",
+   "front": "What three steps are used to calculate trapezium area?",
+   "back": "Add the parallel sides.Halve the result.Multiply by the perpendicular height.",
+   "options": [
+    {
+     "text": "Add the parallel sides.Halve the result.Multiply by the perpendicular height.",
+     "correct": true,
+     "explanation": "These steps apply $A = \\frac{1}{2}(a+b)h$: add the parallel side lengths, divide their sum by two, then multiply by the perpendicular height."
+    },
+    {
+     "text": "Subtract the parallel sides.Halve the result.Multiply by the perpendicular height.",
+     "correct": false,
+     "explanation": "Subtracting the parallel sides finds their difference rather than their average. They must be added, the sum halved, and the result multiplied by the perpendicular height."
+    },
+    {
+     "text": "Add the parallel sides.Double the result.Multiply by the perpendicular height.",
+     "correct": false,
+     "explanation": "Doubling instead of halving makes the answer four times the correct area. Add the parallel sides, halve their sum, then multiply by the perpendicular height."
+    },
+    {
+     "text": "Add the non-parallel sides.Halve the result.Multiply by the perpendicular height.",
+     "correct": false,
+     "explanation": "The area formula uses the parallel sides, not the sloping or non-parallel sides. Add the parallel sides, halve the sum, then multiply by the perpendicular height."
+    }
+   ],
+   "points": 3
+  },
+  {
+   "id": "a067146d-ae0b-450a-bf04-b0966eb50600",
+   "card_type": "cloze",
+   "front": "A trapezium is a four-sided shape with exactly [ ___ ] of parallel sides.",
+   "back": "A trapezium is a four-sided shape with exactly one pair of parallel sides.",
+   "options": [
+    {
+     "text": "one pair",
+     "correct": true,
+     "explanation": "Under the definition used here, a trapezium is a quadrilateral with exactly one pair of parallel sides. The other pair of opposite sides is not parallel."
+    },
+    {
+     "text": "two pairs",
+     "correct": false,
+     "explanation": "A quadrilateral with two pairs of parallel sides is a parallelogram, with rectangles, rhombuses and squares as special cases. A trapezium has exactly one pair."
+    },
+    {
+     "text": "no pairs",
+     "correct": false,
+     "explanation": "A quadrilateral with no parallel sides does not meet the definition of a trapezium used here. A trapezium must have exactly one pair of parallel sides."
+    },
+    {
+     "text": "three pairs",
+     "correct": false,
+     "explanation": "A four-sided polygon has only two pairs of opposite sides, so it cannot have three pairs of parallel sides. A trapezium has exactly one pair."
+    }
+   ]
+  },
+  {
+   "id": "c508cb3b-9986-4c10-9917-2aa3749d38c5",
+   "card_type": "basic",
+   "front": "When calculating the perimeter of a compound shape, which edges are ignored?",
+   "back": "Any joined edges inside the shape; only the outside boundary is counted.",
+   "options": [
+    {
+     "text": "Any joined edges inside the shape; only the outside boundary is counted.",
+     "correct": true,
+     "explanation": "Perimeter is the total distance around a shape’s exterior. Edges where component shapes join are internal, so they do not form part of the outside boundary."
+    },
+    {
+     "text": "Any curved edges inside the shape; only the straight boundary is counted.",
+     "correct": false,
+     "explanation": "Curved exterior edges still contribute to perimeter; being curved does not exclude them. Only joined edges inside the compound shape are ignored, while the entire outside boundary is counted."
+    },
+    {
+     "text": "Any short edges inside the shape; only the longest boundary is counted.",
+     "correct": false,
+     "explanation": "Edge length does not determine whether an edge contributes to perimeter. Every outside edge is counted, while joined edges inside the compound shape are ignored."
+    },
+    {
+     "text": "Any outside edges around the shape; only the joined boundary is counted.",
+     "correct": false,
+     "explanation": "This reverses the perimeter rule by counting internal joins instead of the exterior. Joined edges inside are ignored, and only the outside boundary is included."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "bc457ba3-6066-48d2-af1f-e50f62d4bfc9",
+   "card_type": "cloze",
+   "front": "A square with side $s$ has area $\\text{[...]}$ and perimeter $4s$.",
+   "back": "A square with side $s$ has area $\\boxed{s^2}$ and perimeter $4s$.",
+   "options": [
+    {
+     "text": "$$s^2$",
+     "correct": true,
+     "explanation": "A square’s area is length multiplied by width. Both dimensions equal $s$, so its area is $s \\times s = s^2$."
+    },
+    {
+     "text": "$$s$",
+     "correct": false,
+     "explanation": "Using $s$ alone gives a length rather than an area and misses the second dimension. Multiplying the two equal side lengths gives the correct area, $s^2$."
+    },
+    {
+     "text": "$$2s$",
+     "correct": false,
+     "explanation": "Adding two side lengths gives neither the square’s area nor its full perimeter. Area requires multiplication of the dimensions, so it is $s \\times s = s^2$."
+    },
+    {
+     "text": "$$4s^2$",
+     "correct": false,
+     "explanation": "Multiplying $s^2$ by four incorrectly treats the square as four separate regions of area $s^2$. The whole square’s area is simply $s^2$."
+    }
+   ]
+  },
+  {
+   "id": "1fa77e05-6679-482d-88a3-47735c730766",
+   "card_type": "cloze",
+   "front": "A square with side $s$ has area $s^2$ and perimeter $\\text{[...]}$.",
+   "back": "A square with side $s$ has area $s^2$ and perimeter $\\boxed{4s}$.",
+   "options": [
+    {
+     "text": "$$4s$",
+     "correct": true,
+     "explanation": "A square has four equal sides, each of length $s$. Adding them gives $s+s+s+s=4s$, so the perimeter is $4s$."
+    },
+    {
+     "text": "$$s^2$",
+     "correct": false,
+     "explanation": "Squaring the side length calculates the square’s area, not the distance around it. Adding its four equal sides gives the correct perimeter, $4s$."
+    },
+    {
+     "text": "$$2s$",
+     "correct": false,
+     "explanation": "Multiplying by two counts only two of the square’s four equal sides. The perimeter includes every side, so it is $4s$."
+    },
+    {
+     "text": "$$8s$",
+     "correct": false,
+     "explanation": "Multiplying by eight double-counts each of the square’s four sides. Each side is included once, giving the correct perimeter of $4s$."
+    }
+   ]
+  }
+ ],
+ "card_count": 23,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-2-2-11-area-and-perimeter/flashcards",
+ "source_sha256": "77bc35864ed984f2b41586bc3540a8828b168a7dd40b2dc4c9e132a6bd24735b",
+ "extracted_at": "2026-11-08T19:00:03Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-2 run-001)",
+ "task_id": "T-MG-FC-2"
+}

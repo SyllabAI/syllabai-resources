@@ -1,0 +1,589 @@
+{
+ "topic": "grade-4-4-2-indices",
+ "lane": "igcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "title": "Indices Flashcards",
+ "cards": [
+  {
+   "id": "be21469a-17b7-44ac-850f-0502a2782fc9",
+   "card_type": "basic",
+   "front": "In the algebraic term $a^n$, what are the names for $a$ and $n$?",
+   "back": "$a$ is the base$n$ is the index",
+   "options": [
+    {
+     "text": "$a$ is the base$n$ is the index",
+     "correct": true,
+     "explanation": "The base is the quantity being repeatedly multiplied, while the index states how many factors of that base appear in the expanded power."
+    },
+    {
+     "text": "$a$ is the index$n$ is the base",
+     "correct": false,
+     "explanation": "This reverses the two names. In $a^n$, $a$ is the base being raised to a power, while $n$ is the index."
+    },
+    {
+     "text": "$a$ is the coefficient$n$ is the variable",
+     "correct": false,
+     "explanation": "A coefficient multiplies an algebraic term, so it is not the correct label here. In $a^n$, $a$ is the base and $n$ is the index."
+    },
+    {
+     "text": "$a$ is the power$n$ is the coefficient",
+     "correct": false,
+     "explanation": "The power refers to the complete expression rather than the letter $a$, and $n$ is not a coefficient. The correct names are base and index respectively."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "2fa41d56-8273-45ce-ba8a-bb7e5f0baa75",
+   "card_type": "basic",
+   "front": "In the term $a^n$, what does the index $n$ represent?",
+   "back": "How many times the base is multiplied by itself.",
+   "options": [
+    {
+     "text": "How many times the base is multiplied by itself.",
+     "correct": true,
+     "explanation": "The index counts the number of factors of the base. For example, $a^3$ means $a \\times a \\times a$, giving three factors of $a$."
+    },
+    {
+     "text": "How many times the base is added to itself.",
+     "correct": false,
+     "explanation": "This confuses powers with repeated addition, which describes multiplication. An index instead shows how many times the base occurs as a factor in repeated multiplication."
+    },
+    {
+     "text": "How many times the index is multiplied by itself.",
+     "correct": false,
+     "explanation": "The index is not the quantity being repeatedly multiplied. It counts how many times the base is multiplied by itself, so $a^n$ contains $n$ factors of $a$."
+    },
+    {
+     "text": "How many times the base is divided by itself.",
+     "correct": false,
+     "explanation": "Indices describe repeated multiplication rather than repeated division. The index $n$ tells you that the expanded power contains $n$ factors of the base."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "c27ff171-7043-4383-8b64-ff90a8fd4aa4",
+   "card_type": "cloze",
+   "front": "When multiplying powers with the same base, $a^m \\times a^n = \\text{[...]}.",
+   "back": "When multiplying powers with the same base, $a^m \\times a^n = \\boxed{a^{m+n}}.",
+   "options": [
+    {
+     "text": "$$a^{m+n}$",
+     "correct": true,
+     "explanation": "Multiplying powers with the same base combines all their factors, so the indices are added. Therefore, $a^m \\times a^n$ simplifies to $a^{m+n}$."
+    },
+    {
+     "text": "$$a^{mn}$",
+     "correct": false,
+     "explanation": "Multiplying the indices is the rule for raising a power to another power, not multiplying powers. With the same base, add the indices to obtain $a^{m+n}$."
+    },
+    {
+     "text": "$$a^{m-n}$",
+     "correct": false,
+     "explanation": "Subtracting indices applies when dividing powers with the same non-zero base. Multiplication combines the factors, so the indices must be added to give $a^{m+n}$."
+    },
+    {
+     "text": "$$a^{m+n+1}$",
+     "correct": false,
+     "explanation": "No additional factor of $a$ is introduced during multiplication, so adding an extra $1$ is an off-by-one error. The correct result is $a^{m+n}$."
+    }
+   ]
+  },
+  {
+   "id": "c345d8c8-c537-4d9c-8d5f-d484671c5418",
+   "card_type": "cloze",
+   "front": "When dividing powers with the same non-zero base, $\\frac{a^m}{a^n} = \\text{[...]}.",
+   "back": "When dividing powers with the same non-zero base, $\\frac{a^m}{a^n} = \\boxed{a^{m-n}}.",
+   "options": [
+    {
+     "text": "$$a^{m-n}$",
+     "correct": true,
+     "explanation": "Dividing cancels $n$ factors of $a$ from the $m$ factors in the numerator. This leaves an index of $m-n$, giving $a^{m-n}$."
+    },
+    {
+     "text": "$$a^{m+n}$",
+     "correct": false,
+     "explanation": "Adding the indices is the rule for multiplying powers with the same base. Division cancels factors, so subtract the denominator’s index from the numerator’s to get $a^{m-n}$."
+    },
+    {
+     "text": "$$a^{n-m}$",
+     "correct": false,
+     "explanation": "This subtracts the indices in the wrong order. The denominator’s index is subtracted from the numerator’s index, so the result is $a^{m-n}$."
+    },
+    {
+     "text": "$$a^{\\frac{m}{n}}$",
+     "correct": false,
+     "explanation": "Dividing powers does not mean dividing their indices. Cancelling common factors subtracts the denominator’s index from the numerator’s, producing $a^{m-n}$."
+    }
+   ]
+  },
+  {
+   "id": "18e6504b-7193-4f00-a363-44749d2965c3",
+   "card_type": "cloze",
+   "front": "When a power is raised to another power, $(a^m)^n = \\text{[...]}.",
+   "back": "When a power is raised to another power, $(a^m)^n = \\boxed{a^{mn}}.",
+   "options": [
+    {
+     "text": "$$a^{mn}$",
+     "correct": true,
+     "explanation": "Raising $a^m$ to the power $n$ creates $n$ copies of $a^m$. Adding those repeated indices gives $m+m+\\cdots+m=mn$."
+    },
+    {
+     "text": "$$a^{m+n}$",
+     "correct": false,
+     "explanation": "Adding indices applies when multiplying separate powers with the same base. A power raised to another power requires the indices to be multiplied, giving $a^{mn}$."
+    },
+    {
+     "text": "$$a^{m^n}$",
+     "correct": false,
+     "explanation": "The outer index does not become a power of the inner index. It counts repeated copies of $a^m$, so the indices multiply and the result is $a^{mn}$."
+    },
+    {
+     "text": "$$a^{m-n}$",
+     "correct": false,
+     "explanation": "Subtracting indices is used when dividing powers with the same non-zero base. Here the power is repeated $n$ times, so the indices multiply to give $a^{mn}$."
+    }
+   ]
+  },
+  {
+   "id": "14487ee0-1a1a-4b0b-bee6-f497c51ee564",
+   "card_type": "cloze",
+   "front": "An algebraic letter on its own (e.g. $x$) has a hidden index of [ ___ ].",
+   "back": "An algebraic letter on its own (e.g. $x$) has a hidden index of 1.",
+   "options": [
+    {
+     "text": "1",
+     "correct": true,
+     "explanation": "An algebraic letter written without a visible index represents one factor of itself. Therefore, $x$ means exactly the same as $x^1$."
+    },
+    {
+     "text": "0",
+     "correct": false,
+     "explanation": "An index of zero would make a non-zero base equal to $1$, so $x^0$ is not $x$. A letter on its own has index $1$."
+    },
+    {
+     "text": "2",
+     "correct": false,
+     "explanation": "An index of $2$ would mean the letter is multiplied by itself, producing $x^2$. A single $x$ contains one factor, so its hidden index is $1$."
+    },
+    {
+     "text": "-1",
+     "correct": false,
+     "explanation": "A negative index indicates a reciprocal, so $x^{-1}=\\frac{1}{x}$. A letter written on its own is simply $x^1$, giving a hidden index of $1$."
+    }
+   ]
+  },
+  {
+   "id": "27079495-652c-4d8c-8c34-6c6512da99ec",
+   "card_type": "cloze",
+   "front": "For any non-zero base, $a^0 = \\text{[...]}.",
+   "back": "For any non-zero base, $a^0 = \\boxed{1}.",
+   "options": [
+    {
+     "text": "$$1$",
+     "correct": true,
+     "explanation": "For any non-zero $a$, dividing $a^n$ by itself gives both $a^{n-n}=a^0$ and $1$. Therefore, $a^0=1$."
+    },
+    {
+     "text": "$$0$",
+     "correct": false,
+     "explanation": "This confuses a zero index with multiplying the base by zero. Since $a^n \\div a^n=a^0$ and also equals $1$, the correct value is $1$."
+    },
+    {
+     "text": "$$a$",
+     "correct": false,
+     "explanation": "The expression $a$ has an index of $1$, not $0$. Reducing the index to zero gives $a^0=1$ for every non-zero base."
+    },
+    {
+     "text": "$$-1$",
+     "correct": false,
+     "explanation": "A zero index does not make a value negative. Using $a^n \\div a^n=a^{n-n}=a^0$ shows that the result must be $1$."
+    }
+   ]
+  },
+  {
+   "id": "69c02c3c-271c-4080-aef7-479587f01b69",
+   "card_type": "cloze",
+   "front": "A negative index indicates a reciprocal: $a^{-n} = \\text{[...]}.",
+   "back": "A negative index indicates a reciprocal: $a^{-n} = \\boxed{\\frac{1}{a^n}}.",
+   "options": [
+    {
+     "text": "$$\\frac{1}{a^n}$",
+     "correct": true,
+     "explanation": "A negative index means take the reciprocal of the corresponding positive power. Moving $a^{-n}$ across the fraction bar changes the index to $n$, giving $\\frac{1}{a^n}$."
+    },
+    {
+     "text": "$$-a^n$",
+     "correct": false,
+     "explanation": "A negative index does not make the value itself negative; it indicates a reciprocal. The correct conversion is $a^{-n}=\\frac{1}{a^n}$."
+    },
+    {
+     "text": "$$\\frac{-1}{a^n}$",
+     "correct": false,
+     "explanation": "The negative sign belongs to the index and does not create a negative numerator. It instructs you to take the reciprocal, giving $\\frac{1}{a^n}$."
+    },
+    {
+     "text": "$$\\frac{1}{a^{-n}}$",
+     "correct": false,
+     "explanation": "Placing $a^{-n}$ in the denominator reverses the reciprocal again, making the expression equal to $a^n$. The correct reciprocal form is $\\frac{1}{a^n}$."
+    }
+   ]
+  },
+  {
+   "id": "28723a5d-39ea-4af5-88fa-a99e6dd2df20",
+   "card_type": "basic",
+   "front": "Why is the division law $\\frac{a^m}{a^n} = a^{m-n}$ restricted to non-zero bases?",
+   "back": "Because division by zero is not allowed.",
+   "options": [
+    {
+     "text": "Because division by zero is not allowed.",
+     "correct": true,
+     "explanation": "The expression contains division by $a^n$. If $a=0$, then $a^n=0$ for positive $n$, making the denominator zero and the division undefined."
+    },
+    {
+     "text": "Because subtraction of indices is not allowed.",
+     "correct": false,
+     "explanation": "Subtracting indices is exactly the correct operation when dividing powers with the same non-zero base. The restriction exists because a zero base could produce division by zero."
+    },
+    {
+     "text": "Because negative indices are not allowed.",
+     "correct": false,
+     "explanation": "Negative indices are valid and represent reciprocals, such as $a^{-2}=\\frac{1}{a^2}$. The base must be non-zero because the division law may otherwise involve division by zero."
+    },
+    {
+     "text": "Because zero indices are not allowed.",
+     "correct": false,
+     "explanation": "A zero index is valid for any non-zero base, with $a^0=1$. The non-zero restriction is needed because dividing powers of zero can require division by zero."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "1c7a17af-0466-4c41-9e81-ebd7fc3b4fac",
+   "card_type": "basic",
+   "front": "Simplify $(4x)^2$ and explain the common mistake.",
+   "back": "The answer is $16x^2$. The coefficient 4 must be squared as well as the $x$.",
+   "options": [
+    {
+     "text": "The answer is $16x^2$. The coefficient 4 must be squared as well as the $x$.",
+     "correct": true,
+     "explanation": "The exponent applies to everything inside the brackets, so $(4x)^2=4^2x^2=16x^2$. Both the numerical coefficient and the variable must be squared."
+    },
+    {
+     "text": "The answer is $4x^2$. The coefficient 4 must be left unchanged while squaring the $x$.",
+     "correct": false,
+     "explanation": "This applies the exponent only to $x$, a common bracket error. The exponent applies to the entire product, so $4$ must also be squared, giving $16x^2$."
+    },
+    {
+     "text": "The answer is $8x^2$. The coefficient 4 must be multiplied by 2 as well as squaring the $x$.",
+     "correct": false,
+     "explanation": "An exponent of 2 means multiplying a quantity by itself, not multiplying it by 2. Therefore $4^2=16$, so the simplified expression is $16x^2$."
+    },
+    {
+     "text": "The answer is $16x$. The coefficient 4 must be squared while leaving the $x$ unchanged.",
+     "correct": false,
+     "explanation": "This correctly squares the coefficient but fails to square the variable. Since the exponent applies to both factors inside the brackets, the answer is $16x^2$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "7e726f9c-ae42-493b-aa75-71dbf27a0e34",
+   "card_type": "basic",
+   "front": "Simplify the expression $(3m^2n)^3$.",
+   "back": "$$27m^6n^3$",
+   "options": [
+    {
+     "text": "$$27m^6n^3$",
+     "correct": true,
+     "explanation": "Cube each factor inside the brackets: $3^3=27$, $(m^2)^3=m^6$, and $n^3=n^3$. Therefore the fully simplified product is $27m^6n^3$."
+    },
+    {
+     "text": "$$9m^6n^3$",
+     "correct": false,
+     "explanation": "The variable indices have been multiplied correctly, but the coefficient has only been squared. Cubing $3$ gives $3^3=27$, so the answer is $27m^6n^3$."
+    },
+    {
+     "text": "$$27m^5n^3$",
+     "correct": false,
+     "explanation": "This adds the indices $2+3$ instead of multiplying them. The power-of-a-power law gives $(m^2)^3=m^{2\\times3}=m^6$, so the answer is $27m^6n^3$."
+    },
+    {
+     "text": "$$27m^6n$",
+     "correct": false,
+     "explanation": "The outer exponent applies to every factor inside the brackets, including $n$. Thus $n$ becomes $n^3$, and the complete simplified expression is $27m^6n^3$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "83c627cc-2c62-423e-a45c-e2752901d633",
+   "card_type": "basic",
+   "front": "State the two-step process for multiplying algebraic terms like $4p^2 \\times 5p^3$.",
+   "back": "Multiply the coefficients ($4 \\times 5$)Add the indices for matching bases ($p^{2+3}$)",
+   "options": [
+    {
+     "text": "Multiply the coefficients ($4 \\times 5$)Add the indices for matching bases ($p^{2+3}$)",
+     "correct": true,
+     "explanation": "Numerical coefficients are multiplied normally, while powers with the same base are combined by adding their indices. Hence $4p^2\\times5p^3=20p^5$."
+    },
+    {
+     "text": "Multiply the coefficients ($4 \\times 5$)Multiply the indices for matching bases ($p^{2\\times3}$)",
+     "correct": false,
+     "explanation": "Multiplying indices is used for a power raised to another power, not for multiplying separate powers. Here the indices are added, so $4p^2\\times5p^3=20p^5$."
+    },
+    {
+     "text": "Add the coefficients ($4 + 5$)Add the indices for matching bases ($p^{2+3}$)",
+     "correct": false,
+     "explanation": "The indices are correctly added, but coefficients must be multiplied when algebraic terms are multiplied. Therefore the coefficient is $4\\times5=20$, giving $20p^5$."
+    },
+    {
+     "text": "Multiply the coefficients ($4 \\times 5$)Subtract the indices for matching bases ($p^{3-2}$)",
+     "correct": false,
+     "explanation": "Subtracting indices applies when dividing powers with the same base. For multiplication, add the indices, so the correct process gives $20p^{2+3}=20p^5$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "82baf3ba-7a56-4b6f-9dc7-4651eebd31cb",
+   "card_type": "basic",
+   "front": "Simplify $\\frac{18a^6b^4}{6a^2b}$.",
+   "back": "$$3a^4b^3$",
+   "options": [
+    {
+     "text": "$$3a^4b^3$",
+     "correct": true,
+     "explanation": "Divide the coefficients to get $18\\div6=3$, then subtract indices for matching bases: $a^{6-2}=a^4$ and $b^{4-1}=b^3$."
+    },
+    {
+     "text": "$$3a^3b^4$",
+     "correct": false,
+     "explanation": "This mishandles both variable divisions. Subtracting the denominator indices gives $a^{6-2}=a^4$ and $b^{4-1}=b^3$, so the answer is $3a^4b^3$."
+    },
+    {
+     "text": "$$12a^4b^3$",
+     "correct": false,
+     "explanation": "The variable indices are correct, but the coefficients have been subtracted rather than divided. Since $18\\div6=3$, the correct simplified expression is $3a^4b^3$."
+    },
+    {
+     "text": "$$3a^8b^5$",
+     "correct": false,
+     "explanation": "Adding the indices is the rule for multiplication, not division. Division requires subtraction, giving $a^{6-2}=a^4$ and $b^{4-1}=b^3$, so the answer is $3a^4b^3$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "21d0ddb1-85fe-43a7-99aa-28d02cb16893",
+   "card_type": "basic",
+   "front": "Explain why $x^0 = 1$ using the division law (where $x \\neq 0$).",
+   "back": "$\\frac{x^n}{x^n} = 1$ because any non-zero value divided by itself is 1By index laws, $\\frac{x^n}{x^n} = x^{n-n} = x^0$",
+   "options": [
+    {
+     "text": "$\\frac{x^n}{x^n} = 1$ because any non-zero value divided by itself is 1By index laws, $\\frac{x^n}{x^n} = x^{n-n} = x^0$",
+     "correct": true,
+     "explanation": "The same quotient equals both $1$ by ordinary division and $x^0$ by subtracting equal indices. Therefore $x^0=1$ for every non-zero value of $x$."
+    },
+    {
+     "text": "$\\frac{x^n}{x^n} = 0$ because any value subtracted from itself is 0By index laws, $\\frac{x^n}{x^n} = x^{n-n} = x^0$",
+     "correct": false,
+     "explanation": "This confuses division with subtraction. A non-zero value divided by itself equals $1$, while only the indices are subtracted, so the comparison shows that $x^0=1$."
+    },
+    {
+     "text": "$\\frac{x^n}{x^n} = 1$ because any non-zero value divided by itself is 1By index laws, $\\frac{x^n}{x^n} = x^{n+n} = x^{2n}$",
+     "correct": false,
+     "explanation": "Adding indices is the multiplication law, whereas division requires subtracting them. Thus $\\frac{x^n}{x^n}=x^{n-n}=x^0$, and since the quotient is $1$, $x^0=1$."
+    },
+    {
+     "text": "$\\frac{x^n}{x^n} = x$ because equal powers cancel to leave their baseBy index laws, $\\frac{x^n}{x^n} = x^{n-n} = x^0$",
+     "correct": false,
+     "explanation": "Equal numerator and denominator factors cancel completely, leaving $1$, not the base. Since the index law also gives $x^{n-n}=x^0$, it follows that $x^0=1$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "c3b58647-6263-4c9c-8f84-322c53d8fa5a",
+   "card_type": "basic",
+   "front": "Evaluate $3^{-2}$.",
+   "back": "$$\\frac{1}{9}$",
+   "options": [
+    {
+     "text": "$$\\frac{1}{9}$",
+     "correct": true,
+     "explanation": "A negative index means take the reciprocal: $3^{-2}=\\frac{1}{3^2}$. Since $3^2=9$, the value is $\\frac{1}{9}$."
+    },
+    {
+     "text": "$$-9$",
+     "correct": false,
+     "explanation": "A negative index does not make the result negative; it indicates a reciprocal. Therefore $3^{-2}=\\frac{1}{3^2}=\\frac{1}{9}$, which is positive."
+    },
+    {
+     "text": "$$\\frac{1}{6}$",
+     "correct": false,
+     "explanation": "This treats the exponent as multiplication by $2$. The exponent means square the base, so $3^{-2}=\\frac{1}{3^2}=\\frac{1}{9}$."
+    },
+    {
+     "text": "$$9$",
+     "correct": false,
+     "explanation": "This ignores the negative sign on the index. While $3^2=9$, a negative index requires the reciprocal, so $3^{-2}=\\frac{1}{9}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "6a655287-3f1f-49a0-ba2f-59dd6001f1f9",
+   "card_type": "basic",
+   "front": "Simplify $7x^5 \\times 2x^{-3}$.",
+   "back": "$$14x^2$",
+   "options": [
+    {
+     "text": "$$14x^2$",
+     "correct": true,
+     "explanation": "Multiply the coefficients to get $7\\times2=14$, then add the indices of the matching base: $5+(-3)=2$. Therefore the result is $14x^2$."
+    },
+    {
+     "text": "$$14x^8$",
+     "correct": false,
+     "explanation": "This subtracts the negative index as though applying the division law. For multiplication, indices are added: $5+(-3)=2$, so the correct result is $14x^2$."
+    },
+    {
+     "text": "$$9x^2$",
+     "correct": false,
+     "explanation": "The indices have been combined correctly, but the coefficients have been added rather than multiplied. Since $7\\times2=14$, the correct simplified expression is $14x^2$."
+    },
+    {
+     "text": "$$14x^{-15}$",
+     "correct": false,
+     "explanation": "Multiplying the indices is a power-of-a-power error. When multiplying powers with the same base, add the indices: $5+(-3)=2$, giving $14x^2$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "cad5a029-dd4d-4932-86d1-8e2f75b0c1d6",
+   "card_type": "basic",
+   "front": "Rewrite $1000^3$ as a power of 10.",
+   "back": "$$10^9$",
+   "options": [
+    {
+     "text": "$$10^9$",
+     "correct": true,
+     "explanation": "Since $1000 = 10^3$, the power-of-a-power law gives $(10^3)^3 = 10^{3 \\times 3} = 10^9$."
+    },
+    {
+     "text": "$$10^6$",
+     "correct": false,
+     "explanation": "Adding the two indices gives 6, but the power-of-a-power law requires multiplication. Since $1000 = 10^3$, $(10^3)^3 = 10^{3 \\times 3} = 10^9$."
+    },
+    {
+     "text": "$$10^3$",
+     "correct": false,
+     "explanation": "This rewrites 1000 correctly but ignores the outer cube. Cubing $10^3$ multiplies its index by 3, giving $(10^3)^3 = 10^9$."
+    },
+    {
+     "text": "$$10^{27}$",
+     "correct": false,
+     "explanation": "Cubing the index itself gives 27, but indices are multiplied when raising a power to another power. Therefore $(10^3)^3 = 10^{3 \\times 3} = 10^9$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "66707514-12ef-426b-ad28-66c1359a6087",
+   "card_type": "basic",
+   "front": "Solve $z^4 \\times z^k = z^{11}$ for $k$.",
+   "back": "$$k = 7$",
+   "options": [
+    {
+     "text": "$$k = 7$",
+     "correct": true,
+     "explanation": "Multiplying powers with the same base adds their indices, so $4 + k = 11$. Subtracting 4 from both sides gives $k = 7$."
+    },
+    {
+     "text": "$$k = 15$",
+     "correct": false,
+     "explanation": "Adding 4 to 11 reverses the required solving step. The index law gives $4 + k = 11$, so subtracting 4 gives $k = 7$."
+    },
+    {
+     "text": "$$k = 44$",
+     "correct": false,
+     "explanation": "Multiplying the indices is a common error; indices are added when powers with the same base are multiplied. Thus $4 + k = 11$, giving $k = 7$."
+    },
+    {
+     "text": "$$k = 8$",
+     "correct": false,
+     "explanation": "This is an off-by-one subtraction error. Since $z^4 \\times z^k = z^{4+k}$, the equation is $4 + k = 11$, so $k = 7$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "c0e2d354-032b-4818-9c90-5e3c20f8a890",
+   "card_type": "basic",
+   "front": "Solve $\\frac{x^5}{x^a} = x^8$ for $a$.",
+   "back": "$$a = -3$",
+   "options": [
+    {
+     "text": "$$a = -3$",
+     "correct": true,
+     "explanation": "Dividing powers with the same base subtracts the denominator’s index, so $5-a=8$. Hence $-a=3$, which gives $a=-3$."
+    },
+    {
+     "text": "$$a = 3$",
+     "correct": false,
+     "explanation": "This loses the negative sign when solving $5-a=8$. Subtracting 5 gives $-a=3$, so multiplying by $-1$ gives the correct answer $a=-3$."
+    },
+    {
+     "text": "$$a = 13$",
+     "correct": false,
+     "explanation": "This comes from reversing the order of the exponent subtraction. The quotient is $x^{5-a}$, not $x^{a-5}$, so $5-a=8$ and $a=-3$."
+    },
+    {
+     "text": "$$a = \\frac{5}{8}$",
+     "correct": false,
+     "explanation": "Indices are subtracted, not divided, when powers with the same base are divided. Therefore the equation is $5-a=8$, which solves to $a=-3$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "0c4bdb50-b26c-444e-807d-1caf022dd739",
+   "card_type": "basic",
+   "front": "Work out the value of $\\frac{2^7 \\times 2^{-2}}{2^3}$ using index laws.",
+   "back": "4",
+   "options": [
+    {
+     "text": "4",
+     "correct": true,
+     "explanation": "Combining the indices gives $2^{7+(-2)-3}=2^2$. Since $2^2=4$, the value of the expression is 4."
+    },
+    {
+     "text": "2",
+     "correct": false,
+     "explanation": "This gives the resulting index rather than evaluating the power. The expression simplifies to $2^{7-2-3}=2^2$, and $2^2=4$."
+    },
+    {
+     "text": "16",
+     "correct": false,
+     "explanation": "This results from ignoring the factor $2^{-2}$. All three powers must be combined: $2^{7+(-2)-3}=2^2$, so the value is 4."
+    },
+    {
+     "text": "64",
+     "correct": false,
+     "explanation": "This treats the index $-2$ as positive 2, producing $2^6$. The negative index must remain negative, so $7+(-2)-3=2$ and the value is 4."
+    }
+   ],
+   "points": 2
+  }
+ ],
+ "card_count": 20,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-4-4-2-indices/flashcards",
+ "source_sha256": "db4231926540e72c525caca3bf3eb4db4026c224d5fd9bfb0365b01d8cf97925",
+ "extracted_at": "2026-11-08T19:00:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-2 run-001)",
+ "task_id": "T-MG-FC-2"
+}

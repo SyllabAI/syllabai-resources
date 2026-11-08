@@ -1,0 +1,646 @@
+{
+ "topic": "grade-7-7-15-conditional-probability",
+ "lane": "igcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "title": "Conditional Probability Flashcards",
+ "cards": [
+  {
+   "id": "a040c43a-aac9-46cd-84ff-cba04e375f6c",
+   "card_type": "cloze",
+   "front": "An [ ___ ] is one possible result; an [ ___ ] is a set of outcomes.",
+   "back": "An outcome is one possible result; an event is a set of outcomes.",
+   "options": [
+    {
+     "text": "An outcome is one possible result; an event is a set of outcomes.",
+     "correct": true,
+     "explanation": "An outcome is one individual result of an experiment, while an event contains one or more outcomes that satisfy a specified condition."
+    },
+    {
+     "text": "An event is one possible result; an outcome is a set of outcomes.",
+     "correct": false,
+     "explanation": "This reverses the two definitions. An outcome is one possible result, whereas an event is a set containing one or more outcomes."
+    },
+    {
+     "text": "An experiment is one possible result; an event is a set of outcomes.",
+     "correct": false,
+     "explanation": "An experiment is the process that generates results, not one possible result. The individual result is an outcome, and a set of outcomes is an event."
+    },
+    {
+     "text": "An trial is one possible result; an sample space is a set of outcomes.",
+     "correct": false,
+     "explanation": "A trial is one performance of an experiment, while the result it produces is an outcome. A set of outcomes is called an event."
+    }
+   ]
+  },
+  {
+   "id": "ba81658c-352b-4191-9bc4-154c26dc553e",
+   "card_type": "basic",
+   "front": "For equally likely outcomes, how do you calculate probability?",
+   "back": "Successful outcomes divided by total outcomes: $$\\frac{\\text{successful outcomes}}{\\text{total outcomes}}$$",
+   "options": [
+    {
+     "text": "Successful outcomes divided by total outcomes: $$\\frac{\\text{successful outcomes}}{\\text{total outcomes}}$$",
+     "correct": true,
+     "explanation": "For equally likely outcomes, probability is the number of outcomes satisfying the event divided by the total number of possible outcomes."
+    },
+    {
+     "text": "Total outcomes divided by successful outcomes: $$\\frac{\\text{total outcomes}}{\\text{successful outcomes}}$$",
+     "correct": false,
+     "explanation": "Reversing the fraction can produce a value greater than 1, which is impossible for probability. Successful outcomes must be divided by total outcomes."
+    },
+    {
+     "text": "Unsuccessful outcomes divided by total outcomes: $$\\frac{\\text{unsuccessful outcomes}}{\\text{total outcomes}}$$",
+     "correct": false,
+     "explanation": "Counting unsuccessful outcomes gives the probability of the complementary event. The required probability uses successful outcomes divided by total outcomes."
+    },
+    {
+     "text": "Successful outcomes divided by unsuccessful outcomes: $$\\frac{\\text{successful outcomes}}{\\text{unsuccessful outcomes}}$$",
+     "correct": false,
+     "explanation": "The denominator must count every possible outcome, not only failures. Probability is successful outcomes divided by the total number of outcomes."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "79af9dff-20f3-4819-90ae-3a8547da1321",
+   "card_type": "cloze",
+   "front": "A probability of 0 means [ ___ ]; a probability of 1 means [ ___ ].",
+   "back": "A probability of 0 means impossible; a probability of 1 means certain.",
+   "options": [
+    {
+     "text": "A probability of 0 means impossible; a probability of 1 means certain.",
+     "correct": true,
+     "explanation": "Probability 0 represents an event that cannot occur, while probability 1 represents an event guaranteed to occur under the stated conditions."
+    },
+    {
+     "text": "A probability of 0 means certain; a probability of 1 means impossible.",
+     "correct": false,
+     "explanation": "This reverses the endpoints of the probability scale. Probability 0 means impossible, while probability 1 means certain."
+    },
+    {
+     "text": "A probability of 0 means unlikely; a probability of 1 means likely.",
+     "correct": false,
+     "explanation": "“Unlikely” and “likely” describe probabilities near the endpoints, not exactly at them. Probability 0 means impossible and probability 1 means certain."
+    },
+    {
+     "text": "A probability of 0 means less likely; a probability of 1 means more likely.",
+     "correct": false,
+     "explanation": "Probability 0 is not merely less likely, and probability 1 is not merely more likely. They mean impossible and certain respectively."
+    }
+   ]
+  },
+  {
+   "id": "951938ef-0fec-4695-98cc-59ad10f0ce1e",
+   "card_type": "cloze",
+   "front": "$$P(B\\mid A)$ means the probability of event $B$ [ ___ ].",
+   "back": "$$P(B\\mid A)$ means the probability of event $B$ given event A.",
+   "options": [
+    {
+     "text": "given event A",
+     "correct": true,
+     "explanation": "The vertical bar means “given”, so $P(B\\mid A)$ is the probability that $B$ occurs under the condition that event $A$ has occurred."
+    },
+    {
+     "text": "given event B",
+     "correct": false,
+     "explanation": "This reverses the conditioning event. $P(B\\mid A)$ asks about $B$ given that $A$ has occurred, not $B$ given itself."
+    },
+    {
+     "text": "independent of event A",
+     "correct": false,
+     "explanation": "Conditional notation does not assert independence. It asks for the probability of $B$ after taking the information that event $A$ occurred into account."
+    },
+    {
+     "text": "or event A",
+     "correct": false,
+     "explanation": "The vertical bar denotes a condition, not the union word “or”. The expression means the probability of $B$ given event $A$."
+    }
+   ]
+  },
+  {
+   "id": "05d7d8c7-b145-4389-8549-2095a96eceb6",
+   "card_type": "basic",
+   "front": "Without replacement, what happens to the second denominator?",
+   "back": "It is one less than the first denominator.",
+   "options": [
+    {
+     "text": "It is one less than the first denominator.",
+     "correct": true,
+     "explanation": "One object has already been removed, so the total number available for the second selection decreases by one, making its denominator one less."
+    },
+    {
+     "text": "It is one more than the first denominator.",
+     "correct": false,
+     "explanation": "The total cannot increase when an object is removed. Without replacement, one fewer object remains, so the second denominator is one less."
+    },
+    {
+     "text": "It is the same as the first denominator.",
+     "correct": false,
+     "explanation": "Keeping the denominator unchanged incorrectly treats the selection as replacement. Without replacement, one object is gone, so the denominator decreases by one."
+    },
+    {
+     "text": "It is two less than the first denominator.",
+     "correct": false,
+     "explanation": "Only one object has been selected before the second draw, so the total decreases by one rather than two. The second denominator is one less."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "19e8a47c-49a4-48c4-9d08-374a9e843985",
+   "card_type": "basic",
+   "front": "A bag has 7 orange and 5 purple counters. First is purple and not replaced. What is $P(\\text{orange second})$?",
+   "back": "$$\\frac{7}{11}$",
+   "options": [
+    {
+     "text": "$$\\frac{7}{11}$",
+     "correct": true,
+     "explanation": "Removing a purple counter leaves all 7 orange counters among 11 counters in total. Therefore, the probability of orange on the second draw is $\\frac{7}{11}$."
+    },
+    {
+     "text": "$$\\frac{7}{12}$",
+     "correct": false,
+     "explanation": "Using 12 as the denominator incorrectly assumes the purple counter was replaced. Without replacement, only 11 counters remain, so the probability is $\\frac{7}{11}$."
+    },
+    {
+     "text": "$$\\frac{6}{11}$",
+     "correct": false,
+     "explanation": "This subtracts one from the orange count even though a purple counter was removed. All 7 orange counters remain, giving $\\frac{7}{11}$."
+    },
+    {
+     "text": "$$\\frac{5}{11}$",
+     "correct": false,
+     "explanation": "This uses the original number of purple counters as the numerator. The requested colour is orange, and 7 orange counters remain out of 11."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "b89a923f-424b-4ad4-b097-bef8203316a8",
+   "card_type": "cloze",
+   "front": "In a probability tree, [ ___ ] along a complete route and [ ___ ] different successful routes.",
+   "back": "In a probability tree, multiply along a complete route and add different successful routes.",
+   "options": [
+    {
+     "text": "In a probability tree, multiply along a complete route and add different successful routes.",
+     "correct": true,
+     "explanation": "Successive branches on one complete route represent events occurring together, so their probabilities are multiplied. Alternative successful routes are mutually exclusive, so their probabilities are added."
+    },
+    {
+     "text": "In a probability tree, multiply along a complete route and multiply different successful routes.",
+     "correct": false,
+     "explanation": "Multiplication is correct along each complete route, but alternative successful routes must be added because any one of those routes can produce the required event."
+    },
+    {
+     "text": "In a probability tree, add along a complete route and multiply different successful routes.",
+     "correct": false,
+     "explanation": "This reverses the probability-tree rules. Multiply successive probabilities along a complete route, then add the probabilities of different routes that produce the required result."
+    },
+    {
+     "text": "In a probability tree, add along a complete route and add different successful routes.",
+     "correct": false,
+     "explanation": "Adding along a route treats successive events as alternatives rather than a sequence. Multiply along each complete route, then add the different successful routes."
+    }
+   ]
+  },
+  {
+   "id": "2b078ad0-d4ed-4041-87aa-d050b2e52aa1",
+   "card_type": "basic",
+   "front": "A bag has 5 red and 3 blue counters. Two are chosen without replacement. What is $P(\\text{red then blue})$?",
+   "back": "$$\\frac{5}{8}\\times\\frac{3}{7}=\\frac{15}{56}$",
+   "options": [
+    {
+     "text": "$$\\frac{5}{8}\\times\\frac{3}{7}=\\frac{15}{56}$",
+     "correct": true,
+     "explanation": "The first draw is red with probability $\\frac{5}{8}$. This leaves 3 blue counters among 7 counters, so multiplying gives $\\frac{15}{56}$."
+    },
+    {
+     "text": "$$\\frac{5}{8}\\times\\frac{3}{8}=\\frac{15}{64}$",
+     "correct": false,
+     "explanation": "Keeping 8 as the second denominator incorrectly assumes replacement. After the red counter is removed, 7 counters remain, giving $\\frac{5}{8}\\times\\frac{3}{7}=\\frac{15}{56}$."
+    },
+    {
+     "text": "$$\\frac{5}{8}\\times\\frac{2}{7}=\\frac{10}{56}$",
+     "correct": false,
+     "explanation": "This incorrectly removes a blue counter after the first draw. The removed counter was red, so all 3 blue counters remain among the 7 counters."
+    },
+    {
+     "text": "$$\\frac{5}{8}+\\frac{3}{7}=\\frac{59}{56}$",
+     "correct": false,
+     "explanation": "Adding treats the two draws as alternative routes, but “red then blue” requires both successive events. Their probabilities must be multiplied to obtain $\\frac{15}{56}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "f50d82fe-c7c7-4415-ac29-125a6bf5a8ea",
+   "card_type": "basic",
+   "front": "A bag has 5 red and 3 blue counters. Two are chosen without replacement. What is $P(\\text{one of each colour})$?",
+   "back": "$$\\frac{15}{28}$",
+   "options": [
+    {
+     "text": "$$\\frac{15}{28}$",
+     "correct": true,
+     "explanation": "There are 5 ways to choose red first and blue second, and 3 ways to choose blue first and red second, giving 15 favourable ordered outcomes out of 8 × 7 = 56, which simplifies to this fraction."
+    },
+    {
+     "text": "$$\\frac{15}{56}$",
+     "correct": false,
+     "explanation": "This counts the 15 favourable ordered outcomes but uses 8 × 14 as the denominator. Without replacement, the second draw has 7 remaining counters, so the correct probability is $\\frac{15}{28}$."
+    },
+    {
+     "text": "$$\\frac{3}{8}$",
+     "correct": false,
+     "explanation": "This uses the proportion of red counters, $\\frac{5}{8}$, without properly accounting for the second draw and the two possible colour orders. The correct probability is $\\frac{15}{28}$."
+    },
+    {
+     "text": "$$\\frac{5}{14}$",
+     "correct": false,
+     "explanation": "This includes only one colour order, such as red then blue, rather than both red-blue and blue-red. Including both orders gives the correct probability, $\\frac{15}{28}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "04275679-e8b6-4fa0-82bd-789092deac22",
+   "card_type": "cloze",
+   "front": "“One of each colour” usually means [ ___ ]; “both the same colour” means [ ___ ].",
+   "back": "“One of each colour” usually means different colours; “both the same colour” means matching pairs.",
+   "options": [
+    {
+     "text": "“One of each colour” usually means different colours; “both the same colour” means matching pairs.",
+     "correct": true,
+     "explanation": "“Different colours” means the two selected counters do not match, while “matching pairs” means both counters have the same colour. These phrases describe the two possible categories of outcomes."
+    },
+    {
+     "text": "“One of each colour” usually means matching colours; “both the same colour” means matching pairs.",
+     "correct": false,
+     "explanation": "The first phrase describes counters with the same colour, but “one of each colour” requires different colours. The correct meanings are different colours and matching pairs."
+    },
+    {
+     "text": "“One of each colour” usually means different colours; “both the same colour” means different pairs.",
+     "correct": false,
+     "explanation": "“One of each colour” is correctly identified, but “both the same colour” does not mean different pairs. It means matching pairs, because the two colours match."
+    },
+    {
+     "text": "“One of each colour” usually means same colours; “both the same colour” means matching pairs.",
+     "correct": false,
+     "explanation": "The first phrase has been reversed: one of each colour means different colours, not same colours. The second meaning is correct, but both meanings must be right."
+    }
+   ]
+  },
+  {
+   "id": "8ea3a0e5-da8c-471a-8da8-22154875e5e5",
+   "card_type": "basic",
+   "front": "With red, blue and green counters, what routes give “both the same colour”?",
+   "back": "red-redblue-bluegreen-green",
+   "options": [
+    {
+     "text": "red-redblue-bluegreen-green",
+     "correct": true,
+     "explanation": "For both counters to have the same colour, they can be red-red, blue-blue or green-green. These are the three possible same-colour routes."
+    },
+    {
+     "text": "red-blueblue-greengreen-red",
+     "correct": false,
+     "explanation": "Each listed route uses two different colours, so these are routes for “one of each colour”, not “both the same colour”. The correct routes are red-red, blue-blue and green-green."
+    },
+    {
+     "text": "red-redblue-greenred-green",
+     "correct": false,
+     "explanation": "This includes only one valid same-colour route and two mixed-colour routes. A complete list must contain one route for each colour: red-red, blue-blue and green-green."
+    },
+    {
+     "text": "red-blueblue-bluegreen-red",
+     "correct": false,
+     "explanation": "The repeated colours are not paired correctly in these routes, and mixed-colour selections do not count as matching. The valid same-colour routes are red-red, blue-blue and green-green."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "57730a17-0aa3-4639-9201-02995d92fda7",
+   "card_type": "basic",
+   "front": "A bag has 4 red, 4 blue and 2 green counters. Two are chosen without replacement. What is $P(\\text{same colour})$?",
+   "back": "$$\\frac{13}{45}$",
+   "options": [
+    {
+     "text": "$$\\frac{13}{45}$",
+     "correct": true,
+     "explanation": "There are $\\binom{4}{2}=6$ red-red pairs, 6 blue-blue pairs and $\\binom{2}{2}=1$ green-green pair, out of $\\binom{10}{2}=45$ pairs. Thus the probability is $\\frac{13}{45}$."
+    },
+    {
+     "text": "$$\\frac{17}{45}$",
+     "correct": false,
+     "explanation": "This overcounts the green-green pairs as though there were more than two green counters. Only one green-green pair exists, so the correct total is 13 favourable pairs and probability $\\frac{13}{45}$."
+    },
+    {
+     "text": "$$\\frac{7}{15}$",
+     "correct": false,
+     "explanation": "This counts same-colour pairs using replacement, allowing a counter to be selected again. The counters are chosen without replacement, giving the correct probability $\\frac{13}{45}$."
+    },
+    {
+     "text": "$$\\frac{2}{9}$",
+     "correct": false,
+     "explanation": "This misses some of the red-red and blue-blue pairs by treating colours rather than individual counters as the outcomes. Counting individual pairs gives $\\frac{13}{45}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "97441540-769d-4349-a5f5-fe64a2d05ebd",
+   "card_type": "cloze",
+   "front": "If there are only two possible outcomes, their probabilities add to [ ___ ]; if black is 0.35, not black is [ ___ ].",
+   "back": "If there are only two possible outcomes, their probabilities add to 1; if black is 0.35, not black is 0.65.",
+   "options": [
+    {
+     "text": "If there are only two possible outcomes, their probabilities add to 1; if black is 0.35, not black is 0.65.",
+     "correct": true,
+     "explanation": "For two outcomes, the probabilities must account for every possibility, so they add to 1. The complement of black is $1-0.35=0.65$."
+    },
+    {
+     "text": "If there are only two possible outcomes, their probabilities add to 2; if black is 0.35, not black is 0.65.",
+     "correct": false,
+     "explanation": "The complement calculation is correct, but two exhaustive probabilities add to 1, not 2. The correct completed statement uses 1 and 0.65."
+    },
+    {
+     "text": "If there are only two possible outcomes, their probabilities add to 1; if black is 0.35, not black is 0.35.",
+     "correct": false,
+     "explanation": "Two possible outcomes add to 1, but the complement of 0.35 is found by subtracting from 1, giving 0.65 rather than repeating 0.35."
+    },
+    {
+     "text": "If there are only two possible outcomes, their probabilities add to 0.99; if black is 0.35, not black is 0.75.",
+     "correct": false,
+     "explanation": "Neither value follows the complement rule: exhaustive probabilities add to 1, and not black is $1-0.35=0.65$. The values 0.99 and 0.75 result from incorrect subtraction."
+    }
+   ]
+  },
+  {
+   "id": "680d9f4c-3711-4447-93f2-11714b8cc4cc",
+   "card_type": "basic",
+   "front": "In the tie example, what is $P(\\text{different coloured ties})$?",
+   "back": "$$0.6775$",
+   "options": [
+    {
+     "text": "$$0.6775$",
+     "correct": true,
+     "explanation": "The different-coloured tie outcomes together have probability 0.6775 in the tie example. This is found by adding the probabilities of all tie outcomes involving different colours."
+    },
+    {
+     "text": "$$0.3225$",
+     "correct": false,
+     "explanation": "This is the complement of the required probability, representing same-coloured rather than different-coloured ties. The probability of different-coloured ties is $0.6775$."
+    },
+    {
+     "text": "$$0.675$",
+     "correct": false,
+     "explanation": "This is a near-miss from rounding or copying one component of the calculation, but it does not equal the total of the relevant different-coloured tie outcomes. The correct value is $0.6775$."
+    },
+    {
+     "text": "$$0.7225$",
+     "correct": false,
+     "explanation": "This overestimates the total by including an outcome that is not a different-coloured tie. Adding only the required outcomes gives $0.6775$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "d92e07c9-5375-4ccc-bac6-570ab7af95f4",
+   "card_type": "basic",
+   "front": "Six number cards are chosen two at a time without replacement. How many ordered selections are possible?",
+   "back": "$$6\\times5=30$",
+   "options": [
+    {
+     "text": "$$6\\times5=30$",
+     "correct": true,
+     "explanation": "The first card has 6 choices and, without replacement, the second has 5 remaining choices. Since order matters, the number of ordered selections is $6\\times5=30$."
+    },
+    {
+     "text": "$$6+5=11$",
+     "correct": false,
+     "explanation": "Adding the numbers counts 6 plus 5 rather than forming ordered pairs. The multiplication rule is needed: 6 choices for the first card and 5 for the second, giving 30."
+    },
+    {
+     "text": "$$6\\times6=36$",
+     "correct": false,
+     "explanation": "This allows the same card to be selected again, as though replacement occurred. Without replacement, the second choice has 5 possibilities, so the correct total is 30."
+    },
+    {
+     "text": "$$5\\times4=20$",
+     "correct": false,
+     "explanation": "This starts with only 5 choices and then reduces to 4, omitting one possible first card. The correct calculation is 6 choices followed by 5 choices, giving 30."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "350a2a4a-373b-4932-a1ff-53becc9d7276",
+   "card_type": "basic",
+   "front": "For cards 1, 1, 2, 3, 3, 4, how many ordered selections have the second number greater than the first?",
+   "back": "13",
+   "options": [
+    {
+     "text": "13",
+     "correct": true,
+     "explanation": "Count each possible first card and the higher-valued second cards: the two 1s give 8 choices, the 2 gives 3, and the two 3s give 2. Altogether, $8+3+2=13$."
+    },
+    {
+     "text": "10",
+     "correct": false,
+     "explanation": "This undercounts the repeated 1s or 3s by treating equal-valued cards as a single card. Ordered selections use individual cards, so the correct total is 13."
+    },
+    {
+     "text": "15",
+     "correct": false,
+     "explanation": "This includes some selections where the second number is equal to or lower than the first. Only strictly greater second numbers count, giving 13 ordered selections."
+    },
+    {
+     "text": "6",
+     "correct": false,
+     "explanation": "This counts only the distinct number values rather than the six individual cards, so it misses the extra choices created by the repeated 1s and 3s. The correct answer is 13."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "74ce3434-e2d9-4d8c-a349-f13388fcd23a",
+   "card_type": "basic",
+   "front": "For cards 1, 1, 2, 3, 3, 4, what is $P(\\text{second greater than first})$?",
+   "back": "$$\\frac{13}{30}$",
+   "options": [
+    {
+     "text": "$$\\frac{13}{30}$",
+     "correct": true,
+     "explanation": "There are 30 ordered draws without replacement. Of these, 13 have a second card whose value is strictly greater than the first card’s value."
+    },
+    {
+     "text": "$$\\frac{1}{2}$",
+     "correct": false,
+     "explanation": "This assumes symmetry gives half the outcomes, but equal-value draws involving the repeated 1s or 3s are possible. Excluding ties leaves the correct probability $\\frac{13}{30}$."
+    },
+    {
+     "text": "$$\\frac{13}{15}$",
+     "correct": false,
+     "explanation": "This counts the 13 favourable unordered pairs but fails to use the 30 equally likely ordered draws. The required probability is therefore $\\frac{13}{30}$."
+    },
+    {
+     "text": "$$\\frac{17}{30}$",
+     "correct": false,
+     "explanation": "This includes the four ordered outcomes where the two cards have equal values, so it represents “greater than or equal to”. Strictly greater gives $\\frac{13}{30}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "0509c1d0-b561-4bed-a3ae-0219a6a5cc3f",
+   "card_type": "cloze",
+   "front": "A Venn diagram uses overlapping circles to organise information about [ ___ ].",
+   "back": "A Venn diagram uses overlapping circles to organise information about sets.",
+   "options": [
+    {
+     "text": "sets",
+     "correct": true,
+     "explanation": "A Venn diagram represents sets using circles, with overlapping regions showing elements that belong to two or more sets simultaneously."
+    },
+    {
+     "text": "outcomes",
+     "correct": false,
+     "explanation": "Outcomes are possible results of an experiment and are usually organised in a sample space. Venn diagrams specifically use overlapping circles to organise sets."
+    },
+    {
+     "text": "frequencies",
+     "correct": false,
+     "explanation": "Frequencies record how often values occur and are commonly displayed in tables or charts. The objects organised by a Venn diagram are sets."
+    },
+    {
+     "text": "coordinates",
+     "correct": false,
+     "explanation": "Coordinates locate points using ordered pairs and are plotted on axes. Venn diagrams instead organise information about sets and their intersections."
+    }
+   ]
+  },
+  {
+   "id": "2902ffe3-ecba-4337-bb0b-9ffd7da8eb3b",
+   "card_type": "basic",
+   "front": "In the survey Venn example, 48 people were surveyed and 6 liked none. How many are inside the circles?",
+   "back": "$$48-6=42$",
+   "options": [
+    {
+     "text": "$$48-6=42$",
+     "correct": true,
+     "explanation": "The 6 people who liked none are outside every circle, so subtracting them from all 48 surveyed people leaves 42 inside the circles."
+    },
+    {
+     "text": "$$48+6=54$",
+     "correct": false,
+     "explanation": "Adding the 6 people who liked none double-counts people outside the circles rather than removing them. The number inside is $48-6=42$."
+    },
+    {
+     "text": "$$48-8=40$",
+     "correct": false,
+     "explanation": "This subtracts the 8 people who liked all three, but they are inside the circles and must remain included. Subtracting the 6 who liked none gives $48-6=42$."
+    },
+    {
+     "text": "$$48-17=31$",
+     "correct": false,
+     "explanation": "The 17 people who liked tea and coffee are inside the circles, so they should not be removed. Only the 6 who liked none are subtracted, giving $48-6=42$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "e3c51220-5909-420d-9705-dacb3783bb4d",
+   "card_type": "basic",
+   "front": "In the survey Venn example, 17 like tea and coffee altogether and 8 like all three. How many are tea-and-coffee-only?",
+   "back": "$$17-8=9$",
+   "options": [
+    {
+     "text": "$$17-8=9$",
+     "correct": true,
+     "explanation": "The total of 17 includes the 8 people who like all three drinks. Removing those 8 leaves 9 who like tea and coffee only."
+    },
+    {
+     "text": "$$17+8=25$",
+     "correct": false,
+     "explanation": "Adding includes the all-three group twice rather than removing it from the tea-and-coffee total. The tea-and-coffee-only region is $17-8=9$."
+    },
+    {
+     "text": "$$17-9=8$",
+     "correct": false,
+     "explanation": "This reverses the required subtraction by removing the tea-and-coffee-only value from the total. Subtracting the 8 who like all three from 17 gives $17-8=9$."
+    },
+    {
+     "text": "$$17-6=11$",
+     "correct": false,
+     "explanation": "The 6 people who like none are unrelated to the tea-and-coffee overlap. The 8 who like all three must be removed from 17, giving $17-8=9$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "2a6f1df7-2898-4737-bfb1-f21786669049",
+   "card_type": "basic",
+   "front": "In the survey Venn example, how many people like coffee after completing the diagram?",
+   "back": "24",
+   "options": [
+    {
+     "text": "24",
+     "correct": true,
+     "explanation": "Adding every disjoint region contained within the coffee circle, including its overlaps with the other circles, gives a total of 24 people."
+    },
+    {
+     "text": "17",
+     "correct": false,
+     "explanation": "The value 17 counts people who like both tea and coffee altogether, not everyone in the coffee circle. Summing all coffee regions gives 24."
+    },
+    {
+     "text": "8",
+     "correct": false,
+     "explanation": "The value 8 counts only people in the three-way intersection, so it omits the other coffee-containing regions. The complete coffee total is 24."
+    },
+    {
+     "text": "42",
+     "correct": false,
+     "explanation": "The value 42 is the number inside any of the circles, including people who may not like coffee. Only the coffee regions sum to 24."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "6193d62c-a647-4b07-a5d9-760dd123c180",
+   "card_type": "basic",
+   "front": "In the survey Venn example, 24 of 48 people like coffee. Two are chosen without replacement. What is $P(\\text{both like coffee})$?",
+   "back": "$$\\frac{24}{48}\\times\\frac{23}{47}=\\frac{23}{94}$",
+   "options": [
+    {
+     "text": "$$\\frac{24}{48}\\times\\frac{23}{47}=\\frac{23}{94}$",
+     "correct": true,
+     "explanation": "The first probability is $24/48$. After one coffee-liker is selected, 23 coffee-likers remain among 47 people, giving the product $\\frac{23}{94}$."
+    },
+    {
+     "text": "$$\\frac{24}{48}\\times\\frac{24}{48}=\\frac{1}{4}$",
+     "correct": false,
+     "explanation": "This treats the selections as if the first person were replaced, leaving both numbers unchanged. Without replacement, the second probability is $23/47$, giving $\\frac{23}{94}$."
+    },
+    {
+     "text": "$$\\frac{24}{48}\\times\\frac{24}{47}=\\frac{12}{47}$",
+     "correct": false,
+     "explanation": "This reduces the total from 48 to 47 but fails to reduce the number of coffee-likers from 24 to 23. The correct product is $\\frac{24}{48}\\times\\frac{23}{47}=\\frac{23}{94}$."
+    },
+    {
+     "text": "$$\\frac{24}{48}\\times\\frac{23}{48}=\\frac{23}{96}$",
+     "correct": false,
+     "explanation": "This removes one coffee-liker but incorrectly keeps the total at 48. Since one person has also left the survey group, the second denominator is 47, giving $\\frac{23}{94}$."
+    }
+   ],
+   "points": 2
+  }
+ ],
+ "card_count": 22,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-7-7-15-conditional-probability/flashcards",
+ "source_sha256": "cd1caaed978ff1289eb75b0f58ebac6b475a8105de98b7b840e57f5d9af14329",
+ "extracted_at": "2026-11-08T19:00:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-2 run-001)",
+ "task_id": "T-MG-FC-2"
+}

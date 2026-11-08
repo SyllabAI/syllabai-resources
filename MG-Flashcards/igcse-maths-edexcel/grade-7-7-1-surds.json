@@ -1,0 +1,592 @@
+{
+ "topic": "grade-7-7-1-surds",
+ "lane": "igcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "title": "Surds Flashcards",
+ "cards": [
+  {
+   "id": "2abcc871-0049-4444-b88e-a859faea2846",
+   "card_type": "basic",
+   "front": "What defines a surd in terms of its numeric type?",
+   "back": "An irrational number expressed as an exact root.",
+   "options": [
+    {
+     "text": "An irrational number expressed as an exact root.",
+     "correct": true,
+     "explanation": "A surd is an exact root whose value is irrational, such as $\\sqrt{2}$. It cannot be written exactly as a fraction of two integers."
+    },
+    {
+     "text": "A rational number expressed as an exact root.",
+     "correct": false,
+     "explanation": "A root with a rational value, such as $\\sqrt{9}=3$, is not a surd. A surd is an irrational number expressed as an exact root."
+    },
+    {
+     "text": "An integer number expressed as an exact root.",
+     "correct": false,
+     "explanation": "Integers obtained from roots of perfect squares are rational, so they are not surds. A surd must be an irrational number left in exact root form."
+    },
+    {
+     "text": "A decimal number expressed as an exact root.",
+     "correct": false,
+     "explanation": "Writing a root as a decimal usually gives an approximation rather than an exact value. A surd is an irrational number expressed exactly using a root symbol."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "15f630ed-c806-4013-a970-554e90f630be",
+   "card_type": "basic",
+   "front": "Why is $\\sqrt{64}$ not considered a surd?",
+   "back": "64 is a perfect square, so $\\sqrt{64} = 8$ (a rational number).",
+   "options": [
+    {
+     "text": "64 is a perfect square, so $\\sqrt{64} = 8$ (a rational number).",
+     "correct": true,
+     "explanation": "Since $64=8^2$, its square root is the integer $8$. Surds are irrational roots, so a root that simplifies to a rational number is not a surd."
+    },
+    {
+     "text": "64 is a perfect cube, so $\\sqrt{64} = 4$ (a rational number).",
+     "correct": false,
+     "explanation": "Confusing square roots with cube roots gives $4$, since $\\sqrt[3]{64}=4$. In fact, $64=8^2$, so $\\sqrt{64}=8$ and is rational."
+    },
+    {
+     "text": "64 is an even number, so $\\sqrt{64} = 32$ (a rational number).",
+     "correct": false,
+     "explanation": "Halving an even number does not calculate its square root. Because $64$ is the perfect square $8^2$, $\\sqrt{64}=8$, which is rational."
+    },
+    {
+     "text": "64 is a multiple of eight, so $\\sqrt{64} = 16$ (a rational number).",
+     "correct": false,
+     "explanation": "Being a multiple of eight does not determine a square root, and $16^2$ is $256$. Since $64=8^2$, the correct value is $8$, a rational number."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "04b5e7ac-c1ba-4b74-b6ec-f842aa3c47e8",
+   "card_type": "basic",
+   "front": "State the rule for splitting a product inside a square root.",
+   "back": "$$\\sqrt{ab} = \\sqrt{a}\\sqrt{b}$",
+   "options": [
+    {
+     "text": "$$\\sqrt{ab} = \\sqrt{a}\\sqrt{b}$",
+     "correct": true,
+     "explanation": "A product under a square root can be split into the product of the individual square roots, assuming the quantities are non-negative in the IGCSE context."
+    },
+    {
+     "text": "$$\\sqrt{ab} = \\sqrt{a}+\\sqrt{b}$",
+     "correct": false,
+     "explanation": "The product rule is often confused with addition, but square roots of factors must be multiplied. The correct identity is $\\sqrt{ab}=\\sqrt{a}\\sqrt{b}$."
+    },
+    {
+     "text": "$$\\sqrt{ab} = a\\sqrt{b}$",
+     "correct": false,
+     "explanation": "Taking $a$ outside unchanged incorrectly treats it as a perfect-square factor. The correct general rule is $\\sqrt{ab}=\\sqrt{a}\\sqrt{b}$; only $\\sqrt{a^2b}=a\\sqrt{b}$."
+    },
+    {
+     "text": "$$\\sqrt{ab} = \\sqrt{a+b}$",
+     "correct": false,
+     "explanation": "Replacing multiplication inside the root with addition changes the value of the expression. A product splits according to $\\sqrt{ab}=\\sqrt{a}\\sqrt{b}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "1113a1e4-b863-4f41-bb9c-7ec2c82d0951",
+   "card_type": "basic",
+   "front": "What is the first step to simplify a surd like $\\sqrt{72}$?",
+   "back": "Find the largest perfect-square factor of the number.",
+   "options": [
+    {
+     "text": "Find the largest perfect-square factor of the number.",
+     "correct": true,
+     "explanation": "Using the largest perfect-square factor allows its square root to be taken immediately, leaving the simplest possible surd in one step."
+    },
+    {
+     "text": "Find the largest prime-number factor of the number.",
+     "correct": false,
+     "explanation": "A prime factor cannot usually be removed from a square root by itself. The useful factor is the largest perfect-square factor, such as $36$ in $72$."
+    },
+    {
+     "text": "Find the nearest perfect-square number to the number.",
+     "correct": false,
+     "explanation": "Using a nearby perfect square would change the original value rather than simplify it exactly. The first step is to find the largest perfect-square factor of the number."
+    },
+    {
+     "text": "Find the decimal approximation of the number.",
+     "correct": false,
+     "explanation": "A decimal approximation loses the exact surd form and does not perform algebraic simplification. Instead, identify the largest perfect-square factor inside the root."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "46fda38a-2d26-4ebd-95a1-331b9b4a508f",
+   "card_type": "basic",
+   "front": "Simplify $\\sqrt{72}$ into the form $k\\sqrt{2}$.",
+   "back": "$$\\sqrt{36 \\times 2} = 6\\sqrt{2}$",
+   "options": [
+    {
+     "text": "$$\\sqrt{36 \\times 2} = 6\\sqrt{2}$",
+     "correct": true,
+     "explanation": "Since $72=36\\times2$ and $36$ is a perfect square, $\\sqrt{72}=\\sqrt{36}\\sqrt{2}=6\\sqrt{2}$."
+    },
+    {
+     "text": "$$\\sqrt{36 \\times 2} = 3\\sqrt{2}$",
+     "correct": false,
+     "explanation": "This incorrectly evaluates $\\sqrt{36}$ as $3$, confusing it with $\\sqrt{9}$. Since $\\sqrt{36}=6$, the correct simplification is $6\\sqrt{2}$."
+    },
+    {
+     "text": "$$\\sqrt{36 \\times 2} = 36\\sqrt{2}$",
+     "correct": false,
+     "explanation": "This takes $36$ outside the root without finding its square root. The extracted coefficient must be $\\sqrt{36}=6$, giving $6\\sqrt{2}$."
+    },
+    {
+     "text": "$$\\sqrt{36 \\times 2} = 6\\sqrt{6}$",
+     "correct": false,
+     "explanation": "The factor remaining under the root is $2$, not $6$. Splitting $\\sqrt{36\\times2}$ gives $\\sqrt{36}\\sqrt{2}=6\\sqrt{2}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "b2e8bef0-dedf-4270-ab74-153f98b2fc01",
+   "card_type": "cloze",
+   "front": "While $\\sqrt{ab} = \\sqrt{a}\\sqrt{b}$ is true, the expression $\\sqrt{a+b}$ [ ___ ] $\\sqrt{a}+\\sqrt{b}$.",
+   "back": "While $\\sqrt{ab} = \\sqrt{a}\\sqrt{b}$ is true, the expression $\\sqrt{a+b}$ is not equal to $\\sqrt{a}+\\sqrt{b}$.",
+   "options": [
+    {
+     "text": "is not equal to",
+     "correct": true,
+     "explanation": "Square roots do not distribute over addition. For example, $\\sqrt{9+16}=5$, whereas $\\sqrt{9}+\\sqrt{16}=7$, so the expressions are not equal."
+    },
+    {
+     "text": "is equal to",
+     "correct": false,
+     "explanation": "This incorrectly applies the product rule to a sum. Square roots distribute over multiplication, but $\\sqrt{a+b}$ is not equal to $\\sqrt{a}+\\sqrt{b}$."
+    },
+    {
+     "text": "can be expanded to",
+     "correct": false,
+     "explanation": "Treating a square root like an algebraic bracket creates a false expansion. The valid product rule does not extend to sums, so the expressions are not equal."
+    },
+    {
+     "text": "is always twice",
+     "correct": false,
+     "explanation": "There is no fixed factor of two between these expressions. For instance, $\\sqrt{9+16}=5$ while $\\sqrt{9}+\\sqrt{16}=7$, so they are not equal."
+    }
+   ]
+  },
+  {
+   "id": "2108fbe4-2136-4e87-9d94-2568ef35b572",
+   "card_type": "basic",
+   "front": "What are like surds?",
+   "back": "Surds that have the same root part (e.g. $3\\sqrt{7}$ and $5\\sqrt{7}$).",
+   "options": [
+    {
+     "text": "Surds that have the same root part (e.g. $3\\sqrt{7}$ and $5\\sqrt{7}$).",
+     "correct": true,
+     "explanation": "Like surds contain the same irrational root part, while their coefficients may differ. This allows their coefficients to be added or subtracted like algebraic terms."
+    },
+    {
+     "text": "Surds that have the same coefficient (e.g. $3\\sqrt{7}$ and $3\\sqrt{5}$).",
+     "correct": false,
+     "explanation": "Matching coefficients do not make surds like terms when their root parts differ. Like surds must share the same root part, such as $3\\sqrt{7}$ and $5\\sqrt{7}$."
+    },
+    {
+     "text": "Surds that have different root parts (e.g. $3\\sqrt{7}$ and $5\\sqrt{3}$).",
+     "correct": false,
+     "explanation": "Different root parts make the surds unlike, so their coefficients cannot be combined directly. Like surds have the same root part, such as multiples of $\\sqrt{7}$."
+    },
+    {
+     "text": "Surds that have the same value (e.g. $2\\sqrt{3}$ and $\\sqrt{12}$).",
+     "correct": false,
+     "explanation": "Equivalent expressions may simplify to the same value, but that is not the definition of like surds. In simplified form, like surds have the same root part."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "6469f1da-b796-4afb-a203-4d7224486837",
+   "card_type": "basic",
+   "front": "Simplify $12\\sqrt{3} + 10\\sqrt{3}$.",
+   "back": "$$22\\sqrt{3}$",
+   "options": [
+    {
+     "text": "$$22\\sqrt{3}$",
+     "correct": true,
+     "explanation": "Both terms contain the same root part, $\\sqrt{3}$, so they are like surds. Adding their coefficients gives $(12+10)\\sqrt{3}=22\\sqrt{3}$."
+    },
+    {
+     "text": "$$22\\sqrt{6}$",
+     "correct": false,
+     "explanation": "This incorrectly adds the numbers inside identical roots as well as the coefficients. Like surds keep the root part unchanged, giving $(12+10)\\sqrt{3}=22\\sqrt{3}$."
+    },
+    {
+     "text": "$$2\\sqrt{3}$",
+     "correct": false,
+     "explanation": "This subtracts the coefficients instead of adding them, producing $12-10=2$. The operation shown is addition, so the correct result is $22\\sqrt{3}$."
+    },
+    {
+     "text": "$$120\\sqrt{3}$",
+     "correct": false,
+     "explanation": "This multiplies the coefficients $12$ and $10$ even though the terms are being added. Like surds are combined by adding coefficients, giving $22\\sqrt{3}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "3ed523a1-5949-4749-95f5-5cc071247d8a",
+   "card_type": "basic",
+   "front": "How do you simplify a surd with a coefficient, such as $4\\sqrt{45}$?",
+   "back": "Simplify the root: $\\sqrt{45} = 3\\sqrt{5}$Multiply by the coefficient: $4 \\times 3\\sqrt{5} = 12\\sqrt{5}$",
+   "options": [
+    {
+     "text": "Simplify the root: $\\sqrt{45} = 3\\sqrt{5}$Multiply by the coefficient: $4 \\times 3\\sqrt{5} = 12\\sqrt{5}$",
+     "correct": true,
+     "explanation": "Since $45=9\\times5$, $\\sqrt{45}=\\sqrt{9}\\sqrt{5}=3\\sqrt{5}$. Multiplying this by the outside coefficient $4$ gives $12\\sqrt{5}$."
+    },
+    {
+     "text": "Simplify the root: $\\sqrt{45} = 9\\sqrt{5}$Multiply by the coefficient: $4 \\times 9\\sqrt{5} = 36\\sqrt{5}$",
+     "correct": false,
+     "explanation": "This takes $9$ outside the root without square-rooting it. Since $\\sqrt{9}=3$, $\\sqrt{45}=3\\sqrt{5}$ and therefore $4\\sqrt{45}=12\\sqrt{5}$."
+    },
+    {
+     "text": "Simplify the root: $\\sqrt{45} = 3\\sqrt{5}$Add the coefficient: $4 + 3\\sqrt{5} = 7\\sqrt{5}$",
+     "correct": false,
+     "explanation": "The coefficient $4$ multiplies the surd rather than adding to its coefficient. As $\\sqrt{45}=3\\sqrt{5}$, the expression becomes $4\\times3\\sqrt{5}=12\\sqrt{5}$."
+    },
+    {
+     "text": "Simplify the root: $\\sqrt{45} = 5\\sqrt{3}$Multiply by the coefficient: $4 \\times 5\\sqrt{3} = 20\\sqrt{3}$",
+     "correct": false,
+     "explanation": "This incorrectly removes $5$ from the root, although $25$ is not a factor of $45$. Using $45=9\\times5$ gives $\\sqrt{45}=3\\sqrt{5}$ and the result $12\\sqrt{5}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "6dcdb9a0-c5d4-466f-91f4-47d678079216",
+   "card_type": "basic",
+   "front": "What is the result of $\\sqrt{a} \\times \\sqrt{a}$?",
+   "back": "$$a$",
+   "options": [
+    {
+     "text": "$$a$",
+     "correct": true,
+     "explanation": "Multiplying a square root by itself reverses the square-root operation: $\\sqrt{a}\\times\\sqrt{a}=(\\sqrt{a})^2=a$, for values where the square root is defined."
+    },
+    {
+     "text": "$$a^2$",
+     "correct": false,
+     "explanation": "This squares $a$ rather than squaring its square root. Since $(\\sqrt{a})^2=a$, the product $\\sqrt{a}\\times\\sqrt{a}$ simplifies to $a$."
+    },
+    {
+     "text": "$$2a$",
+     "correct": false,
+     "explanation": "The factor $2$ usually comes from adding two identical terms, not multiplying them. Multiplying $\\sqrt{a}$ by itself gives $(\\sqrt{a})^2=a$."
+    },
+    {
+     "text": "$$\\sqrt{2a}$",
+     "correct": false,
+     "explanation": "This treats multiplication like addition inside the root. The correct rule gives $\\sqrt{a}\\times\\sqrt{a}=\\sqrt{a^2}=a$, assuming $a$ is non-negative."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "f16db7ad-d212-426d-ae3a-c27133f0f799",
+   "card_type": "cloze",
+   "front": "Two expressions such as $a+\\sqrt{b}$ and $a-\\sqrt{b}$ are known as [ ___ ].",
+   "back": "Two expressions such as $a+\\sqrt{b}$ and $a-\\sqrt{b}$ are known as conjugates.",
+   "options": [
+    {
+     "text": "conjugates",
+     "correct": true,
+     "explanation": "Conjugates contain the same two terms but have opposite signs between them. Thus $a+\\sqrt{b}$ and $a-\\sqrt{b}$ form a conjugate pair."
+    },
+    {
+     "text": "reciprocals",
+     "correct": false,
+     "explanation": "Reciprocals multiply to $1$, whereas these expressions differ only in the sign between their terms. They are called conjugates, and their product eliminates the surd cross-terms."
+    },
+    {
+     "text": "factors",
+     "correct": false,
+     "explanation": "Factors are expressions multiplied together to form a product, so the term does not describe this sign-changing relationship. The two expressions are known as conjugates."
+    },
+    {
+     "text": "coefficients",
+     "correct": false,
+     "explanation": "Coefficients are numerical or algebraic multipliers of terms. Expressions with identical terms and opposite signs, such as $a+\\sqrt{b}$ and $a-\\sqrt{b}$, are conjugates."
+    }
+   ]
+  },
+  {
+   "id": "892534ad-0e8c-444f-93d9-6e5ef85309d2",
+   "card_type": "basic",
+   "front": "What is the simplified result of the product $(a+\\sqrt{b})(a-\\sqrt{b})$?",
+   "back": "$$a^2 - b$",
+   "options": [
+    {
+     "text": "$$a^2 - b$",
+     "correct": true,
+     "explanation": "The expressions are conjugates, so the middle terms $-a\\sqrt{b}$ and $+a\\sqrt{b}$ cancel. The remaining terms are $a^2-(\\sqrt{b})^2=a^2-b$."
+    },
+    {
+     "text": "$$a^2 + b$",
+     "correct": false,
+     "explanation": "The final terms multiply to $\\sqrt{b}\\times(-\\sqrt{b})=-b$, not $+b$. After the middle terms cancel, the correct product is $a^2-b$."
+    },
+    {
+     "text": "$$a^2 - 2b$",
+     "correct": false,
+     "explanation": "The two middle terms cancel rather than combining to produce another $b$. Since $(\\sqrt{b})^2=b$, the conjugate product simplifies to $a^2-b$."
+    },
+    {
+     "text": "$$a - b^2$",
+     "correct": false,
+     "explanation": "This squares the wrong parts of the product. Multiplying the first terms gives $a^2$, while multiplying the surd terms gives $-b$, producing $a^2-b$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "529523e8-b7b5-4a67-8d7b-da363f2a9db0",
+   "card_type": "basic",
+   "front": "When squaring a bracket like $(3-\\sqrt{5})^2$, why is it helpful to write it as two identical brackets?",
+   "back": "To ensure the middle terms are included in the expansion.",
+   "options": [
+    {
+     "text": "To ensure the middle terms are included in the expansion.",
+     "correct": true,
+     "explanation": "Writing $(3-\\sqrt{5})^2$ as $(3-\\sqrt{5})(3-\\sqrt{5})$ makes both cross-products visible. These middle terms are essential and combine to give $-6\\sqrt{5}$."
+    },
+    {
+     "text": "To ensure the middle terms cancel in the expansion.",
+     "correct": false,
+     "explanation": "The middle terms cancel when multiplying conjugates, but these brackets are identical rather than conjugate. Here both cross-products are negative, so they combine to give $-6\\sqrt{5}$."
+    },
+    {
+     "text": "To ensure the surd term is removed before the expansion.",
+     "correct": false,
+     "explanation": "The surd should not be removed before expanding, and the final result still contains a surd term. Two brackets help ensure both middle cross-products are included."
+    },
+    {
+     "text": "To ensure the constant term is not squared in the expansion.",
+     "correct": false,
+     "explanation": "The constant term must be squared: $3\\times3=9$. Writing two identical brackets is helpful because it displays both middle cross-products, preventing them from being omitted."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "4d8b48b5-7c24-4416-8186-1cb4e5f3b569",
+   "card_type": "basic",
+   "front": "Expand and simplify $(5+\\sqrt{6})(5-\\sqrt{6})$.",
+   "back": "$$25 - 6 = 19$",
+   "options": [
+    {
+     "text": "$$25 - 6 = 19$",
+     "correct": true,
+     "explanation": "The brackets are conjugates, so the middle terms cancel. The remaining product is $5^2-(\\sqrt{6})^2=25-6=19$."
+    },
+    {
+     "text": "$$25 + 6 = 31$",
+     "correct": false,
+     "explanation": "The surd terms have opposite signs, so their product is $\\sqrt{6}\\times(-\\sqrt{6})=-6$, not $+6$. Therefore the result is $25-6=19$."
+    },
+    {
+     "text": "$$10 - 6 = 4$",
+     "correct": false,
+     "explanation": "This doubles $5$ instead of multiplying $5$ by itself. The constant product is $5^2=25$, so the conjugate product is $25-6=19$."
+    },
+    {
+     "text": "$$25 - 36 = -11$",
+     "correct": false,
+     "explanation": "This incorrectly squares $6$ rather than squaring $\\sqrt{6}$. Since $(\\sqrt{6})^2=6$, the correct calculation is $25-6=19$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "b489744a-00eb-4e7f-982a-36eeeec37bac",
+   "card_type": "basic",
+   "front": "What is the objective of rationalising a denominator?",
+   "back": "To rewrite the fraction so there is no surd in the denominator.",
+   "options": [
+    {
+     "text": "To rewrite the fraction so there is no surd in the denominator.",
+     "correct": true,
+     "explanation": "Rationalising changes an irrational denominator into a rational one without changing the fraction’s value. The resulting denominator therefore contains no surd."
+    },
+    {
+     "text": "To rewrite the fraction so there is no surd in the numerator.",
+     "correct": false,
+     "explanation": "Rationalising concerns the denominator, and the numerator may still contain a surd afterwards. Its objective is to produce an equivalent fraction with no surd in the denominator."
+    },
+    {
+     "text": "To rewrite the fraction so the denominator is equal to 1.",
+     "correct": false,
+     "explanation": "Rationalising does not generally make the denominator $1$; it makes the denominator rational. The required equivalent fraction has no surd in its denominator."
+    },
+    {
+     "text": "To rewrite the fraction so there are no fractions in the expression.",
+     "correct": false,
+     "explanation": "The expression usually remains a fraction after rationalising. The process specifically removes surds from the denominator while preserving the fraction’s original value."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "90dbe8ce-b99b-4c03-a4c4-0dfd62c96d2f",
+   "card_type": "basic",
+   "front": "How do you rationalise a fraction with a single surd denominator $\\frac{k}{\\sqrt{a}}$?",
+   "back": "Multiply both the numerator and denominator by $\\sqrt{a}$.",
+   "options": [
+    {
+     "text": "Multiply both the numerator and denominator by $\\sqrt{a}$.",
+     "correct": true,
+     "explanation": "Multiplying by $\\frac{\\sqrt{a}}{\\sqrt{a}}$ preserves the fraction’s value, while the denominator becomes $\\sqrt{a}\\times\\sqrt{a}=a$, which is rational."
+    },
+    {
+     "text": "Multiply only the numerator by $\\sqrt{a}$.",
+     "correct": false,
+     "explanation": "Multiplying only the numerator changes the value of the fraction and leaves the denominator irrational. Both parts must be multiplied by $\\sqrt{a}$, giving denominator $a$."
+    },
+    {
+     "text": "Multiply only the denominator by $\\sqrt{a}$.",
+     "correct": false,
+     "explanation": "Although this would make the denominator $a$, changing only the denominator changes the fraction’s value. Multiply both numerator and denominator by $\\sqrt{a}$ instead."
+    },
+    {
+     "text": "Multiply both the numerator and denominator by $a$.",
+     "correct": false,
+     "explanation": "Multiplying by $a$ leaves the denominator as $a\\sqrt{a}$, which still contains a surd. Multiplying both parts by $\\sqrt{a}$ makes the denominator equal to $a$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "a66b647e-3275-488c-a45c-8dca5ce693f1",
+   "card_type": "cloze",
+   "front": "To rationalise a denominator with two terms, such as $3+\\sqrt{2}$, you must multiply the numerator and denominator by the [ ___ ].",
+   "back": "To rationalise a denominator with two terms, such as $3+\\sqrt{2}$, you must multiply the numerator and denominator by the conjugate.",
+   "options": [
+    {
+     "text": "conjugate",
+     "correct": true,
+     "explanation": "The conjugate of $3+sqrt{2}$ is $3-sqrt{2}$. Multiplying them produces $9-2=7$, eliminating the surd from the denominator."
+    },
+    {
+     "text": "reciprocal",
+     "correct": false,
+     "explanation": "A reciprocal swaps the numerator and denominator but does not necessarily remove a surd. The correct multiplier is the conjugate, which uses the opposite sign between the two terms."
+    },
+    {
+     "text": "denominator",
+     "correct": false,
+     "explanation": "Multiplying by the denominator itself gives $(3+sqrt{2})^2$, which still contains a surd term. The conjugate $3-sqrt{2}$ creates a difference of two squares."
+    },
+    {
+     "text": "numerator",
+     "correct": false,
+     "explanation": "The numerator is unrelated to the method for eliminating a two-term surd denominator. Multiplying by the conjugate makes the denominator rational through the difference-of-squares identity."
+    }
+   ]
+  },
+  {
+   "id": "fb8cc97e-88ba-4713-8dcd-a3865f54f87c",
+   "card_type": "basic",
+   "front": "Simplify $\\frac{12}{\\sqrt{3}}$ fully.",
+   "back": "$$\\frac{12\\sqrt{3}}{3} = 4\\sqrt{3}$",
+   "options": [
+    {
+     "text": "$$\\frac{12\\sqrt{3}}{3} = 4\\sqrt{3}$",
+     "correct": true,
+     "explanation": "Multiplying top and bottom by $sqrt{3}$ gives $frac{12sqrt{3}}{3}$. Dividing the coefficient $12$ by $3$ then produces the fully simplified result $4sqrt{3}$."
+    },
+    {
+     "text": "$$frac{12sqrt{3}}{3} = 12sqrt{3}$",
+     "correct": false,
+     "explanation": "The denominator becomes $3$, so the coefficient must also be divided by $3$. Failing to perform this division gives $12sqrt{3}$ instead of the correct $4sqrt{3}$."
+    },
+    {
+     "text": "$$frac{12sqrt{3}}{6} = 2sqrt{3}$",
+     "correct": false,
+     "explanation": "Multiplying $sqrt{3}$ by itself gives $3$, not $6$. Rationalising therefore gives $frac{12sqrt{3}}{3}=4sqrt{3}$, rather than halving the correct coefficient."
+    },
+    {
+     "text": "$$frac{12}{3} = 4$",
+     "correct": false,
+     "explanation": "This treats $sqrt{3}$ as though it were $3$. Rationalising requires multiplying by $sqrt{3}$, giving $frac{12sqrt{3}}{3}=4sqrt{3}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "c5835a17-f75d-43bb-84c0-41219914d5de",
+   "card_type": "basic",
+   "front": "Simplify the algebraic surd expression $(\\sqrt{x}+\\sqrt{y})(\\sqrt{x}-\\sqrt{y})$.",
+   "back": "$$x - y$",
+   "options": [
+    {
+     "text": "$$x - y$",
+     "correct": true,
+     "explanation": "The expression is a product of conjugates, so it follows $(a+b)(a-b)=a^2-b^2$. Thus $(sqrt{x})^2-(sqrt{y})^2=x-y$."
+    },
+    {
+     "text": "$$x + y$",
+     "correct": false,
+     "explanation": "The signs of the two cross terms are opposite, so they cancel; the final term is negative. Applying the difference-of-squares identity gives $x-y$, not $x+y$."
+    },
+    {
+     "text": "$$x - 2sqrt{xy} + y$",
+     "correct": false,
+     "explanation": "This is the expansion of $(sqrt{x}-sqrt{y})^2$, not a product of conjugates. Here the cross terms cancel completely, leaving the correct result $x-y$."
+    },
+    {
+     "text": "$$sqrt{x} - sqrt{y}$",
+     "correct": false,
+     "explanation": "This leaves the factors essentially unexpanded and ignores that each square root is multiplied by itself. Full expansion cancels the cross terms and gives $x-y$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "78646f5d-cece-476d-83e3-e5360a1fa023",
+   "card_type": "basic",
+   "front": "Expand and simplify $(3p+\\sqrt{q})^2$.",
+   "back": "$$9p^2 + 6p\\sqrt{q} + q$",
+   "options": [
+    {
+     "text": "$$9p^2 + 6p\\sqrt{q} + q$",
+     "correct": true,
+     "explanation": "Using $(a+b)^2=a^2+2ab+b^2$, the terms are $(3p)^2=9p^2$, $2(3p)(sqrt{q})=6psqrt{q}$ and $(sqrt{q})^2=q$."
+    },
+    {
+     "text": "$$9p^2 + q$",
+     "correct": false,
+     "explanation": "Squaring a binomial requires the cross term $2ab$. Here it is $2(3p)(sqrt{q})=6psqrt{q}$, so the complete result is $9p^2+6psqrt{q}+q$."
+    },
+    {
+     "text": "$$9p^2 + 3psqrt{q} + q$",
+     "correct": false,
+     "explanation": "The middle term must include a factor of $2$ because both cross-products occur. Therefore it is $6psqrt{q}$, giving $9p^2+6psqrt{q}+q$."
+    },
+    {
+     "text": "$$9p^2 + 6psqrt{q} + q^2$",
+     "correct": false,
+     "explanation": "Squaring $sqrt{q}$ gives $q$, not $q^2$. The first and middle terms are correct, but the full expansion ends with $+q$."
+    }
+   ],
+   "points": 2
+  }
+ ],
+ "card_count": 20,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-7-7-1-surds/flashcards",
+ "source_sha256": "666ffdc2f8d70e6fd091d6d704e90106dc789730f8f8ec8938dc5f019c8808f3",
+ "extracted_at": "2026-11-08T19:00:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-2 run-001)",
+ "task_id": "T-MG-FC-2"
+}

@@ -1,0 +1,590 @@
+{
+ "topic": "grade-3-3-3-writing-and-simplifying-ratio",
+ "lane": "igcse-maths-edexcel",
+ "grade": "3",
+ "tier": null,
+ "title": "Writing and Simplifying Ratio Flashcards",
+ "cards": [
+  {
+   "id": "ba8ced90-61af-49bc-a95e-181473908238",
+   "card_type": "basic",
+   "front": "In the ratio $A:B$, why does the order of the numbers matter?",
+   "back": "It must match the order of words in the question (e.g. \"apples to oranges\").",
+   "options": [
+    {
+     "text": "It must match the order of words in the question (e.g. \"apples to oranges\").",
+     "correct": true,
+     "explanation": "Each number represents the quantity named in the corresponding position. For “apples to oranges”, the number of apples must come first and the number of oranges second."
+    },
+    {
+     "text": "It must place the larger number first, regardless of the wording in the question.",
+     "correct": false,
+     "explanation": "Ratios are not arranged by numerical size. The numbers must follow the order of the words, so “apples to oranges” means apples first and oranges second."
+    },
+    {
+     "text": "It must match the order of calculation used to find the two quantities.",
+     "correct": false,
+     "explanation": "The order in which quantities are calculated does not determine their ratio positions. The correct order comes from the named quantities in the question."
+    },
+    {
+     "text": "It must list the smaller number first so the ratio is simplified.",
+     "correct": false,
+     "explanation": "Putting the smaller number first does not simplify a ratio and may reverse its meaning. The order must match the order of the quantities named."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "db1480a5-42bb-43e0-8b76-710c4bff07e7",
+   "card_type": "basic",
+   "front": "How is a ratio simplified?",
+   "back": "Divide all parts by the same common factor.",
+   "options": [
+    {
+     "text": "Divide all parts by the same common factor.",
+     "correct": true,
+     "explanation": "Dividing every part by the same common factor creates an equivalent ratio. Using the highest common factor reduces the ratio fully to its simplest form."
+    },
+    {
+     "text": "Multiply all parts by the same common factor.",
+     "correct": false,
+     "explanation": "Multiplication produces an equivalent ratio with larger values rather than simplifying it. Divide every part by the same common factor, ideally the highest common factor."
+    },
+    {
+     "text": "Divide one part by the largest common factor.",
+     "correct": false,
+     "explanation": "Changing only one part alters the relationship between the quantities. Every part must be divided by the same common factor to preserve the ratio."
+    },
+    {
+     "text": "Subtract the same common factor from all parts.",
+     "correct": false,
+     "explanation": "Subtracting equal amounts does not preserve the multiplicative relationship represented by a ratio. Simplification requires dividing all parts by the same common factor."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "2d698170-0c48-43ee-8b0c-353cde882d0c",
+   "card_type": "cloze",
+   "front": "A ratio is in simplest form when no whole number bigger than [ ___ ] divides exactly into every part.",
+   "back": "A ratio is in simplest form when no whole number bigger than 1 divides exactly into every part.",
+   "options": [
+    {
+     "text": "1",
+     "correct": true,
+     "explanation": "Every whole number is divisible by 1, so this does not allow further simplification. A ratio is simplest when no larger whole number divides every part exactly."
+    },
+    {
+     "text": "0",
+     "correct": false,
+     "explanation": "Division by 0 is undefined, while every whole number is divisible by 1. The threshold must therefore be 1 when defining whether a ratio is fully simplified."
+    },
+    {
+     "text": "2",
+     "correct": false,
+     "explanation": "This would wrongly classify ratios whose parts share a factor of 2 as simplest. The correct number is 1 because any common factor greater than 1 permits simplification."
+    },
+    {
+     "text": "10",
+     "correct": false,
+     "explanation": "This overlooks common factors from 2 to 10, so many reducible ratios would be called simplest. The correct number is 1 because no larger common factor may remain."
+    }
+   ]
+  },
+  {
+   "id": "7ad22961-9ae1-4c9f-96d6-9606d91c9ebd",
+   "card_type": "basic",
+   "front": "Simplify the length ratio 420 cm to 30 cm.",
+   "back": "$$14 : 1$",
+   "options": [
+    {
+     "text": "$$14 : 1$",
+     "correct": true,
+     "explanation": "Both lengths use centimetres, so divide 420 and 30 by their highest common factor, 30. This gives $420 \\div 30 : 30 \\div 30 = 14 : 1$."
+    },
+    {
+     "text": "$$42 : 3$",
+     "correct": false,
+     "explanation": "Dividing both values by 10 gives an equivalent ratio, but it is not fully simplified because 42 and 3 share a factor of 3. The simplest ratio is $14 : 1$."
+    },
+    {
+     "text": "$$14 : 10$",
+     "correct": false,
+     "explanation": "This comes from removing a zero from 420 but not applying the same division correctly to 30. Dividing both original parts by 30 gives $14 : 1$."
+    },
+    {
+     "text": "$$140 : 1$",
+     "correct": false,
+     "explanation": "This divides the two parts by different amounts, changing the ratio’s value. Both 420 and 30 must be divided by 30, producing $14 : 1$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "f9cc09ab-c3cc-4e86-9b3d-d9e16c0726dc",
+   "card_type": "basic",
+   "front": "When writing a ratio of values (like coins), what must you do first?",
+   "back": "Multiply the number of items by the value per item to find the total value for each group.",
+   "options": [
+    {
+     "text": "Multiply the number of items by the value per item to find the total value for each group.",
+     "correct": true,
+     "explanation": "A value ratio compares the groups’ total monetary values, not merely their item counts. Multiplying each group’s number of items by its value per item finds those totals."
+    },
+    {
+     "text": "Compare the number of items with the value per item without finding the total value of each group.",
+     "correct": false,
+     "explanation": "This mixes two different quantities: an item count and a monetary value. Calculate each group’s total value by multiplying its number of items by the value per item."
+    },
+    {
+     "text": "Add the number of items to the value per item to find the total value for each group.",
+     "correct": false,
+     "explanation": "Adding a count to a monetary value does not calculate a group’s total worth. The number of items must be multiplied by the value per item."
+    },
+    {
+     "text": "Divide the number of items by the value per item to find the total value for each group.",
+     "correct": false,
+     "explanation": "Division does not give the total value of identical items. Multiply the quantity of items by the value of each item before forming and simplifying the ratio."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "c79eed48-e31a-4ab1-aec7-60b055d75691",
+   "card_type": "basic",
+   "front": "Calculate the ratio of the value of four 20p coins to three 50p coins.",
+   "back": "$$8 : 15$",
+   "options": [
+    {
+     "text": "$$8 : 15$",
+     "correct": true,
+     "explanation": "Four 20p coins are worth 80p, while three 50p coins are worth 150p. The ratio $80 : 150$ simplifies by dividing both parts by 10."
+    },
+    {
+     "text": "$$4 : 3$",
+     "correct": false,
+     "explanation": "This compares the numbers of coins rather than their values. The totals are 80p and 150p, giving $80 : 150 = 8 : 15$."
+    },
+    {
+     "text": "$$2 : 5$",
+     "correct": false,
+     "explanation": "This compares the denominations 20p and 50p but ignores how many coins there are. Using the total values gives $80 : 150 = 8 : 15$."
+    },
+    {
+     "text": "$$8 : 5$",
+     "correct": false,
+     "explanation": "The first total is correctly treated as 80p, but the second part uses one 50p coin rather than three. The correct simplified ratio is $80 : 150 = 8 : 15$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "c124bbb5-a5c5-44c4-b043-e1cab246c800",
+   "card_type": "basic",
+   "front": "If $\\frac{2}{9}$ of a group are left-handed, what is the ratio of left-handed to right-handed students?",
+   "back": "$$2 : 7$",
+   "options": [
+    {
+     "text": "$$2 : 7$",
+     "correct": true,
+     "explanation": "The whole group has 9 equal parts, with 2 left-handed parts. The remaining $9 - 2 = 7$ parts are right-handed, giving $2 : 7$."
+    },
+    {
+     "text": "$$2 : 9$",
+     "correct": false,
+     "explanation": "This is the ratio of left-handed students to the whole group, not to right-handed students. Right-handed students make up $9 - 2 = 7$ parts, so the ratio is $2 : 7$."
+    },
+    {
+     "text": "$$7 : 2$",
+     "correct": false,
+     "explanation": "The quantities have been placed in reverse order. There are 2 left-handed parts and 7 right-handed parts, so left-handed to right-handed is $2 : 7$."
+    },
+    {
+     "text": "$$2 : 11$",
+     "correct": false,
+     "explanation": "Adding the numerator and denominator treats the 9 parts as if they exclude the left-handed students. Since 9 represents the whole, the right-handed share is $9 - 2 = 7$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "3e7dcb95-449e-4fbd-b267-d1ed35ff2cb7",
+   "card_type": "cloze",
+   "front": "To write a ratio in the form $n:1$, you must divide both parts by the [ ___ ] part.",
+   "back": "To write a ratio in the form $n:1$, you must divide both parts by the second part.",
+   "options": [
+    {
+     "text": "second",
+     "correct": true,
+     "explanation": "Dividing both parts by the second part makes that part equal to 1. The first part becomes its value relative to the second, producing the form $n:1$."
+    },
+    {
+     "text": "first",
+     "correct": false,
+     "explanation": "Dividing by the first part makes the first entry equal to 1, producing a ratio in the form $1:n$. For $n:1$, divide by the second part."
+    },
+    {
+     "text": "larger",
+     "correct": false,
+     "explanation": "Dividing by the larger part only gives $n:1$ when the larger value happens to be second. The reliable rule is always to divide by the second part."
+    },
+    {
+     "text": "smaller",
+     "correct": false,
+     "explanation": "Dividing by the smaller part does not necessarily make the second entry equal to 1. To obtain $n:1$, both entries must be divided by the second part."
+    }
+   ]
+  },
+  {
+   "id": "a103b90b-cdd4-421f-9179-5650c01ee120",
+   "card_type": "cloze",
+   "front": "To write a ratio in the form $1:n$, you must divide both parts by the [ ___ ] part.",
+   "back": "To write a ratio in the form $1:n$, you must divide both parts by the first part.",
+   "options": [
+    {
+     "text": "first",
+     "correct": true,
+     "explanation": "Dividing both parts by the first part makes the first term equal to 1, leaving the equivalent ratio in the required form $1:n$."
+    },
+    {
+     "text": "second",
+     "correct": false,
+     "explanation": "Dividing by the second part would make the second term equal to 1, producing a ratio in the form $n:1$. The first part is needed for $1:n$."
+    },
+    {
+     "text": "larger",
+     "correct": false,
+     "explanation": "The part chosen does not depend on which term is larger. To make the first term equal to 1, divide both parts by the first part."
+    },
+    {
+     "text": "smaller",
+     "correct": false,
+     "explanation": "Choosing the smaller part is not the rule and may not produce a first term of 1. Divide both parts by the first part instead."
+    }
+   ]
+  },
+  {
+   "id": "3d3c3eaf-ac5c-457a-a800-ebb4d2ead188",
+   "card_type": "basic",
+   "front": "Convert the ratio $14 : 35$ into the form $1:n$.",
+   "back": "$$1 : 2.5$",
+   "options": [
+    {
+     "text": "$$1 : 2.5$",
+     "correct": true,
+     "explanation": "Divide both terms by 14: $14 \\div 14 = 1$ and $35 \\div 14 = 2.5$, giving the equivalent ratio $1 : 2.5$."
+    },
+    {
+     "text": "$$1 : 2$",
+     "correct": false,
+     "explanation": "This comes from treating 35 as approximately twice 14 and losing the remaining half. Dividing accurately by 14 gives $1 : 2.5$."
+    },
+    {
+     "text": "$$1 : 3.5$",
+     "correct": false,
+     "explanation": "The second term has been divided by 10 instead of using the first term as the common divisor. Dividing both terms by 14 gives $1 : 2.5$."
+    },
+    {
+     "text": "$$2.5 : 1$",
+     "correct": false,
+     "explanation": "This reverses the ratio, making the second original term correspond to 1. Dividing by the first term keeps the order and gives $1 : 2.5$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "52a560b9-b2ec-4b16-8b60-eaf837b7db0f",
+   "card_type": "basic",
+   "front": "Convert the ratio $10.5 : 3.5$ into the form $n:1$.",
+   "back": "$$3 : 1$",
+   "options": [
+    {
+     "text": "$$3 : 1$",
+     "correct": true,
+     "explanation": "Divide both terms by 3.5, the second term: $10.5 \\div 3.5 = 3$ and $3.5 \\div 3.5 = 1$. Therefore the ratio is $3 : 1$."
+    },
+    {
+     "text": "$$1 : 3$",
+     "correct": false,
+     "explanation": "The terms have been reversed after simplifying. Dividing both original terms by 3.5 gives 3 for the first term and 1 for the second, so the answer is $3 : 1$."
+    },
+    {
+     "text": "$$3.5 : 1$",
+     "correct": false,
+     "explanation": "Only the second term has effectively been divided, while the first term has not been simplified. Both terms must be divided by 3.5, giving $3 : 1$."
+    },
+    {
+     "text": "$$2 : 1$",
+     "correct": false,
+     "explanation": "This may result from rounding 10.5 or using an incorrect common divisor. Since $10.5 \\div 3.5 = 3$, the simplified ratio is $3 : 1$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "90d91708-5c48-4d08-83a3-29a7cd94bdd2",
+   "card_type": "basic",
+   "front": "In a three-part ratio, there are 3 times as many green pens as black, and 2 times as many red as green. What is the ratio green : black : red?",
+   "back": "$$3 : 1 : 6$",
+   "options": [
+    {
+     "text": "$$3 : 1 : 6$",
+     "correct": true,
+     "explanation": "Taking black as 1 part gives green as 3 parts. Red is twice green, so it is 6 parts, producing $3 : 1 : 6$."
+    },
+    {
+     "text": "$$3 : 1 : 5$",
+     "correct": false,
+     "explanation": "The red quantity has been found by adding 2 to green instead of multiplying green by 2. Twice 3 is 6, so the ratio is $3 : 1 : 6$."
+    },
+    {
+     "text": "$$1 : 3 : 6$",
+     "correct": false,
+     "explanation": "The first two parts are reversed, making black appear three times green. The information says green is three times black, so the correct ratio is $3 : 1 : 6$."
+    },
+    {
+     "text": "$$3 : 1 : 9$",
+     "correct": false,
+     "explanation": "The red quantity has been made three times green rather than twice green. With green equal to 3 parts, red must be 6 parts, giving $3 : 1 : 6$."
+    }
+   ],
+   "points": 3
+  },
+  {
+   "id": "2007f66e-f622-429a-ac19-74683b6c19cf",
+   "card_type": "basic",
+   "front": "How do you convert a ratio like $1 : 3 : 1.5$ into whole numbers?",
+   "back": "Multiply every part by 2.",
+   "options": [
+    {
+     "text": "Multiply every part by 2.",
+     "correct": true,
+     "explanation": "Multiplying by 2 changes the decimal part 1.5 into the whole number 3, while preserving the ratio's proportions and making every term an integer."
+    },
+    {
+     "text": "Divide every part by 2.",
+     "correct": false,
+     "explanation": "Dividing by 2 creates smaller values and leaves 0.75 as a decimal. Multiplying by 2 changes 1.5 into 3 and makes all parts whole numbers."
+    },
+    {
+     "text": "Add 2 to every part.",
+     "correct": false,
+     "explanation": "Adding the same number changes the ratios between the parts, so it is not an equivalent ratio. Multiplying every part by 2 preserves the proportions."
+    },
+    {
+     "text": "Multiply every part by 1.5.",
+     "correct": false,
+     "explanation": "This still gives a non-whole value for the first part, 1.5, and changes the useful scaling factor. Multiplying every part by 2 removes the decimal."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "5ff14410-ff77-4529-8833-f11ccf23b2b2",
+   "card_type": "basic",
+   "front": "If 48 people are Year 11, 16 are Year 10, and the total is 96, how many are \"the rest\" (Year 9)?",
+   "back": "32",
+   "options": [
+    {
+     "text": "32",
+     "correct": true,
+     "explanation": "The known groups contain $48 + 16 = 64$ people. Subtracting this from the total gives $96 - 64 = 32$ people in Year 9."
+    },
+    {
+     "text": "48",
+     "correct": false,
+     "explanation": "This subtracts only the Year 10 group from the total and ignores the 48 Year 11 pupils. Subtracting both known groups gives $96 - 48 - 16 = 32$."
+    },
+    {
+     "text": "64",
+     "correct": false,
+     "explanation": "This is the number of people already assigned to Years 11 and 10, not the remainder. The rest is $96 - (48 + 16) = 32$."
+    },
+    {
+     "text": "80",
+     "correct": false,
+     "explanation": "This results from subtracting only 16 from 96, leaving out the Year 11 group. Both known groups must be removed, giving $96 - 64 = 32$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "8fa2cc06-f8bd-42c4-975f-50797c9720ab",
+   "card_type": "cloze",
+   "front": "A percentage is calculated by finding a fraction of the total and multiplying by [ ___ ].",
+   "back": "A percentage is calculated by finding a fraction of the total and multiplying by 100.",
+   "options": [
+    {
+     "text": "100",
+     "correct": true,
+     "explanation": "A percentage expresses a fraction out of 100, so multiplying the fraction by 100 converts it into a percentage value."
+    },
+    {
+     "text": "10",
+     "correct": false,
+     "explanation": "Multiplying by 10 changes a decimal into a value based on tenths, not hundredths. Percentages require multiplication by 100 because percent means per hundred."
+    },
+    {
+     "text": "1,000",
+     "correct": false,
+     "explanation": "Multiplying by 1,000 would express the fraction per thousand rather than per hundred. The conversion to a percentage uses a factor of 100."
+    },
+    {
+     "text": "1",
+     "correct": false,
+     "explanation": "Multiplying by 1 leaves the fraction unchanged, so it does not convert it into a percentage. A percentage is found by multiplying the fraction by 100."
+    }
+   ]
+  },
+  {
+   "id": "0af2a7db-a172-4660-a061-c453090e6b49",
+   "card_type": "basic",
+   "front": "If a ratio is $6 : 2 : 1$ (green:orange:purple), what fraction of the total is orange?",
+   "back": "$$\\frac{2}{9}$",
+   "options": [
+    {
+     "text": "$$\\frac{2}{9}$",
+     "correct": true,
+     "explanation": "The total number of ratio parts is $6 + 2 + 1 = 9$. Orange accounts for 2 of those parts, so its fraction of the total is $\\frac{2}{9}$."
+    },
+    {
+     "text": "$$\\frac{1}{3}$",
+     "correct": false,
+     "explanation": "This treats the three colours as equal groups, but their ratio parts are 6, 2 and 1. Orange therefore represents 2 out of 9 parts, or $\\frac{2}{9}$."
+    },
+    {
+     "text": "$$\\frac{2}{7}$",
+     "correct": false,
+     "explanation": "The purple part has been omitted when finding the total, giving $6 + 1 = 7$. Including all three colours gives 9 parts, so orange is $\\frac{2}{9}$."
+    },
+    {
+     "text": "$$\\frac{1}{9}$",
+     "correct": false,
+     "explanation": "This uses the single purple part as the numerator instead of the two orange parts. Orange contributes 2 of the 9 total parts, giving $\\frac{2}{9}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "301bff90-2887-4285-a594-503de76e710c",
+   "card_type": "cloze",
+   "front": "When turning a fraction into a ratio, the [ ___ ] represents the total number of parts.",
+   "back": "When turning a fraction into a ratio, the denominator represents the total number of parts.",
+   "options": [
+    {
+     "text": "denominator",
+     "correct": true,
+     "explanation": "The denominator states how many equal parts make up the whole, so it becomes the total number of parts when the fraction is expressed as a ratio."
+    },
+    {
+     "text": "numerator",
+     "correct": false,
+     "explanation": "The numerator counts the selected parts, not the total number of parts. The denominator gives the total because it shows how many equal parts form the whole."
+    },
+    {
+     "text": "quotient",
+     "correct": false,
+     "explanation": "A quotient is the result of division, so it does not identify the number of equal parts in the whole. That information is given by the denominator."
+    },
+    {
+     "text": "remainder",
+     "correct": false,
+     "explanation": "A remainder is an amount left over after division, not the total number of equal parts. In a fraction, the denominator represents the total number of parts."
+    }
+   ]
+  },
+  {
+   "id": "661a2272-29f0-4702-81db-d9adc3e46bbd",
+   "card_type": "basic",
+   "front": "Simplify the ratio $84 : 36$ to its simplest form.",
+   "back": "$$7 : 3$",
+   "options": [
+    {
+     "text": "$$7 : 3$",
+     "correct": true,
+     "explanation": "The highest common factor of 84 and 36 is 12. Dividing both terms by 12 gives $84 \\div 12 : 36 \\div 12 = 7 : 3$."
+    },
+    {
+     "text": "$$14 : 6$",
+     "correct": false,
+     "explanation": "Dividing both terms by 6 gives $14 : 6$, but both terms still have a common factor of 2. Dividing again gives the simplest form, $7 : 3$."
+    },
+    {
+     "text": "$$21 : 9$",
+     "correct": false,
+     "explanation": "Dividing both terms by 4 gives $21 : 9$, but both terms remain divisible by 3. The ratio simplifies fully to $7 : 3$."
+    },
+    {
+     "text": "$$3 : 7$",
+     "correct": false,
+     "explanation": "This reverses the order of the ratio after simplifying. Since 84 corresponds to the first term and 36 to the second, the simplest form is $7 : 3$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "09daeb83-5729-4f29-bc03-1f62b6506ee2",
+   "card_type": "basic",
+   "front": "What is the common mistake when simplifying a ratio like $84 : 36$?",
+   "back": "Dividing only one side of the ratio.",
+   "options": [
+    {
+     "text": "Dividing only one side of the ratio.",
+     "correct": true,
+     "explanation": "Equivalent ratios are produced by applying the same operation to both terms. Dividing only one side changes the relationship between the quantities rather than simplifying it."
+    },
+    {
+     "text": "Dividing both sides equally in the ratio.",
+     "correct": false,
+     "explanation": "Dividing both terms by the same common factor is the correct method, not the common mistake. The mistake is dividing only one side, which changes the ratio’s value."
+    },
+    {
+     "text": "Finding the highest common factor first.",
+     "correct": false,
+     "explanation": "Finding the highest common factor is an efficient correct strategy because it simplifies the ratio in one step. The common mistake is dividing only one side of the ratio."
+    },
+    {
+     "text": "Checking the final ratio cannot simplify.",
+     "correct": false,
+     "explanation": "Checking that no common factor remains is good practice, not an error. The common mistake is dividing only one side instead of dividing both terms equally."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "e87e4058-2a4b-4e7c-9f08-26ef1a0801a7",
+   "card_type": "basic",
+   "front": "What must you check before writing a ratio between two physical quantities like lengths?",
+   "back": "Ensure both quantities are in the same units.",
+   "options": [
+    {
+     "text": "Ensure both quantities are in the same units.",
+     "correct": true,
+     "explanation": "A ratio compares quantities directly, so their units must match before the numbers are compared. Converting to the same units produces a valid ratio that can then be simplified."
+    },
+    {
+     "text": "Ensure both quantities have the same value.",
+     "correct": false,
+     "explanation": "Quantities in a ratio do not need equal values; the ratio describes how their values compare. They must instead be converted into the same units before forming the ratio."
+    },
+    {
+     "text": "Ensure both quantities use the same scale.",
+     "correct": false,
+     "explanation": "A shared drawing scale may matter in a diagram, but it is not the essential check for physical quantities. Both measurements must first be expressed in the same units."
+    },
+    {
+     "text": "Ensure both quantities have the same precision.",
+     "correct": false,
+     "explanation": "Matching decimal places or significant figures is not required for writing a ratio. The essential requirement is that both physical quantities are expressed using the same units."
+    }
+   ],
+   "points": 1
+  }
+ ],
+ "card_count": 20,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-3-3-3-writing-and-simplifying-ratio/flashcards",
+ "source_sha256": "95e67a3220c0d5b940ccf77ba59d4ac566dc67ec66672e15a5a0cd5be0ee6142",
+ "extracted_at": "2026-11-08T19:00:03Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-2 run-001)",
+ "task_id": "T-MG-FC-2"
+}

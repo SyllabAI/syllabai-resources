@@ -1,0 +1,617 @@
+{
+ "topic": "grade-5-5-8-simultaneous-equations",
+ "lane": "igcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "title": "Simultaneous Equations Flashcards",
+ "cards": [
+  {
+   "id": "8e337dd6-34a1-47b7-b70d-08704331bf71",
+   "card_type": "basic",
+   "front": "Graphically, what represents the solution to two linear simultaneous equations?",
+   "back": "The point where the two straight lines cross (intersect).",
+   "options": [
+    {
+     "text": "The point where the two straight lines cross (intersect).",
+     "correct": true,
+     "explanation": "At the intersection, the coordinates lie on both straight lines. They therefore satisfy both linear equations simultaneously, making that point the graphical solution."
+    },
+    {
+     "text": "The point where either straight line crosses the $y$-axis.",
+     "correct": false,
+     "explanation": "A $y$-intercept satisfies only the equation represented by its own line. The simultaneous solution is where the two straight lines cross each other."
+    },
+    {
+     "text": "The gradient shared by the two straight lines when they are parallel.",
+     "correct": false,
+     "explanation": "Parallel lines may share a gradient, but distinct parallel lines never intersect and therefore have no simultaneous solution. A graphical solution is the lines’ intersection point."
+    },
+    {
+     "text": "The region lying between the two straight lines on the graph.",
+     "correct": false,
+     "explanation": "A region between two lines does not give a coordinate satisfying both equations. The solution is the single point where the two straight lines intersect."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "60d83b44-fae1-4c39-ba16-598c2ccfb0fe",
+   "card_type": "basic",
+   "front": "What does a solution pair $(x, y)$ represent in simultaneous equations?",
+   "back": "The single pair of values that makes both equations true at the same time.",
+   "options": [
+    {
+     "text": "The single pair of values that makes both equations true at the same time.",
+     "correct": true,
+     "explanation": "A simultaneous solution must satisfy every equation in the system. Substituting its $x$-value and $y$-value makes both equations true at once."
+    },
+    {
+     "text": "The separate pair of values that makes either equation true at a particular time.",
+     "correct": false,
+     "explanation": "Satisfying either equation alone is insufficient because many points lie on each individual line. The solution pair must make both equations true simultaneously."
+    },
+    {
+     "text": "The single value of $x$ that makes one equation true without using $y$.",
+     "correct": false,
+     "explanation": "A solution pair contains both an $x$-value and a $y$-value, not just one unknown. Together, the values must satisfy both equations."
+    },
+    {
+     "text": "The pair of intercepts where each equation crosses an axis on the graph.",
+     "correct": false,
+     "explanation": "Axis intercepts describe where individual lines meet the axes, not necessarily each other. The solution pair gives the coordinates satisfying both equations simultaneously."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "ed63922e-53fe-4eb8-bacd-37580d00a6bb",
+   "card_type": "basic",
+   "front": "How do you verify if a coordinate like $(4, 1)$ is the solution to a system of equations?",
+   "back": "Substitute the values into both equations to see if they hold true.",
+   "options": [
+    {
+     "text": "Substitute the values into both equations to see if they hold true.",
+     "correct": true,
+     "explanation": "Replacing $x$ with $4$ and $y$ with $1$ must produce a true statement in each equation. Only then is $(4, 1)$ the simultaneous solution."
+    },
+    {
+     "text": "Substitute the values into one equation to see if it holds true.",
+     "correct": false,
+     "explanation": "A coordinate can satisfy one equation without satisfying the whole system. Substitute $x=4$ and $y=1$ into both equations and check both statements."
+    },
+    {
+     "text": "Add the two values in both equations to see if their total is 5.",
+     "correct": false,
+     "explanation": "The fact that $4+1=5$ does not verify a system unless an equation specifically requires it. Substitute each value for its corresponding variable in both equations."
+    },
+    {
+     "text": "Plot the values on one line to see if the coordinate lies on it.",
+     "correct": false,
+     "explanation": "Lying on one line proves that only one equation is satisfied. The coordinate must lie on both lines, checked by substitution into both equations."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "09001819-a458-40bd-b7f2-56e53be2da83",
+   "card_type": "cloze",
+   "front": "To eliminate a variable with [ ___ ] signs (e.g. $+3y$ and $-3y$), you add the equations together.",
+   "back": "To eliminate a variable with opposite signs (e.g. $+3y$ and $-3y$), you add the equations together.",
+   "options": [
+    {
+     "text": "opposite",
+     "correct": true,
+     "explanation": "Equal coefficients with opposite signs cancel when added: $+3y+(-3y)=0$. This eliminates $y$ while preserving the equality of the combined equation."
+    },
+    {
+     "text": "the same",
+     "correct": false,
+     "explanation": "Adding coefficients with the same sign would combine rather than eliminate them, such as $3y+3y=6y$. Opposite signs are required when adding equations."
+    },
+    {
+     "text": "positive",
+     "correct": false,
+     "explanation": "Two positive coefficients add together instead of cancelling. To eliminate by addition, the coefficients must have equal magnitude and opposite signs, such as $+3y$ and $-3y$."
+    },
+    {
+     "text": "negative",
+     "correct": false,
+     "explanation": "Two negative coefficients also combine rather than cancel, such as $-3y+(-3y)=-6y$. Addition eliminates a variable when its coefficients have opposite signs."
+    }
+   ]
+  },
+  {
+   "id": "5009b2f6-ddc0-48ad-8aa9-e9205828c42c",
+   "card_type": "cloze",
+   "front": "To eliminate a variable with [ ___ ] sign (e.g. $2x$ and $2x$), you subtract one equation from the other.",
+   "back": "To eliminate a variable with the same sign (e.g. $2x$ and $2x$), you subtract one equation from the other.",
+   "options": [
+    {
+     "text": "the same",
+     "correct": true,
+     "explanation": "Equal coefficients with the same sign cancel under subtraction: $2x-2x=0$. This removes the variable and leaves an equation in the other unknown."
+    },
+    {
+     "text": "opposite",
+     "correct": false,
+     "explanation": "Subtracting a negative coefficient changes it to positive, so opposite signs combine rather than cancel. Opposite coefficients should be added; same-sign coefficients should be subtracted."
+    },
+    {
+     "text": "a different",
+     "correct": false,
+     "explanation": "Different coefficients do not cancel directly when one equation is subtracted from the other. First make their magnitudes equal, then use subtraction if their signs are the same."
+    },
+    {
+     "text": "a negative",
+     "correct": false,
+     "explanation": "Being negative alone does not determine the operation; two equal negative coefficients have the same sign and can cancel by subtraction. The key condition is the same sign."
+    }
+   ]
+  },
+  {
+   "id": "c6e10f3f-9d84-492b-afb1-c4f70743bca5",
+   "card_type": "basic",
+   "front": "What is a coefficient in an algebraic term like $4x$?",
+   "back": "The number multiplying the variable (the 4).",
+   "options": [
+    {
+     "text": "The number multiplying the variable (the 4).",
+     "correct": true,
+     "explanation": "In the term $4x$, the numerical factor attached to $x$ is $4$. This number is called the coefficient of the variable."
+    },
+    {
+     "text": "The variable being multiplied by the number (the x).",
+     "correct": false,
+     "explanation": "The $x$ is the variable because its value can change. The coefficient is the numerical factor multiplying it, which is $4$ in $4x$."
+    },
+    {
+     "text": "The power applied to the variable (the 1).",
+     "correct": false,
+     "explanation": "The implicit power of $x$ in $4x$ is $1$, but that is its exponent. The coefficient is the multiplying number, which is $4$."
+    },
+    {
+     "text": "The term formed by multiplying the number and variable (the 4x).",
+     "correct": false,
+     "explanation": "The whole expression $4x$ is an algebraic term, not its coefficient. The coefficient is only the numerical factor multiplying $x$, namely $4$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "1af192ce-822f-43a3-9439-4357896baf4d",
+   "card_type": "basic",
+   "front": "When subtracting equations, what is the result of $5y - (-y)$?",
+   "back": "$$6y$",
+   "options": [
+    {
+     "text": "$$6y$",
+     "correct": true,
+     "explanation": "Subtracting a negative changes the operation to addition, so $5y-(-y)=5y+y=6y$. The two like terms then combine normally."
+    },
+    {
+     "text": "$$4y$",
+     "correct": false,
+     "explanation": "This results from treating $-(-y)$ as $-y$ and calculating $5y-y$. The two negatives make a positive, so the correct result is $6y$."
+    },
+    {
+     "text": "$$5y$",
+     "correct": false,
+     "explanation": "This incorrectly assumes that the two negative signs cancel the entire second term. They change subtraction to addition, giving $5y+y=6y$."
+    },
+    {
+     "text": "$$-6y$",
+     "correct": false,
+     "explanation": "This combines the coefficients as $5+1$ but incorrectly gives the result a negative sign. Since $-(-y)=+y$, the correct result is positive $6y$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "78257a11-b3e4-4519-97c2-ee333dee2807",
+   "card_type": "basic",
+   "front": "If neither variable has a matching coefficient, how can you prepare the equations for elimination?",
+   "back": "Multiply one (or both) whole equations by a constant to make one coefficient match.",
+   "options": [
+    {
+     "text": "Multiply one (or both) whole equations by a constant to make one coefficient match.",
+     "correct": true,
+     "explanation": "Multiplying every term on both sides preserves an equation’s solutions. Suitable multipliers can create equal or opposite coefficients, allowing one variable to be eliminated."
+    },
+    {
+     "text": "Multiply only one variable term by a constant to make one coefficient match.",
+     "correct": false,
+     "explanation": "Changing only one term alters the equation and therefore its solutions. Every term on both sides of one or both equations must be multiplied by the constant."
+    },
+    {
+     "text": "Change one coefficient directly without altering any other terms in the equation.",
+     "correct": false,
+     "explanation": "Changing a coefficient alone creates a different equation with different solutions. Instead, multiply the entire equation by a constant so that equality is preserved."
+    },
+    {
+     "text": "Add a constant to one variable term until its coefficient matches the other.",
+     "correct": false,
+     "explanation": "Adding to a variable term does not scale its coefficient correctly and changes the equation. Multiply one or both whole equations by a suitable constant instead."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "e995f73c-b4fc-4a3e-b6f7-1e7412e745b4",
+   "card_type": "basic",
+   "front": "What is the common mistake when multiplying an equation to match coefficients?",
+   "back": "Forgetting to multiply every term on both sides of the equals sign.",
+   "options": [
+    {
+     "text": "Forgetting to multiply every term on both sides of the equals sign.",
+     "correct": true,
+     "explanation": "Multiplying an equation by a factor means applying it to every term on both sides, preserving equality. Missing even one term changes the equation and produces an incorrect solution."
+    },
+    {
+     "text": "Multiplying only the terms containing variables on both sides of the equals sign.",
+     "correct": false,
+     "explanation": "This leaves constants unchanged even though the factor applies to the entire equation. The correct method is multiplying every term on both sides of the equals sign."
+    },
+    {
+     "text": "Changing the equals sign to a plus sign after multiplying both sides.",
+     "correct": false,
+     "explanation": "Multiplication does not change the operation joining the two sides; the equals sign must remain. The common mistake is failing to multiply every term on both sides."
+    },
+    {
+     "text": "Dividing the equation by the coefficient instead of multiplying every term.",
+     "correct": false,
+     "explanation": "Dividing may be useful in another rearrangement, but it does not match coefficients when multiplication is required. The correct precaution is multiplying every term on both sides."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "29aa0d31-30e9-4ddc-95bf-f6ef31aa316b",
+   "card_type": "basic",
+   "front": "Define standard form for linear simultaneous equations.",
+   "back": "$$ax + by = c$, where $x$ and $y$ terms are on the left and the constant is on the right.",
+   "options": [
+    {
+     "text": "$$ax + by = c$, where $x$ and $y$ terms are on the left and the constant is on the right.",
+     "correct": true,
+     "explanation": "This arrangement places both variable terms on the left and the constant term on the right, giving the standard linear form $ax + by = c$."
+    },
+    {
+     "text": "$$ax - by = c$, where $x$ and $y$ terms are on the right and the constant is on the left.",
+     "correct": false,
+     "explanation": "The variables and constant have been placed on opposite sides from the required arrangement, and the minus sign is not part of the general definition. The correct form is $ax + by = c$ with variables left and constant right."
+    },
+    {
+     "text": "$$a + bx + cy = 0$, where all terms are on the left and there is no constant on the right.",
+     "correct": false,
+     "explanation": "Although equations can sometimes be rearranged this way, it is not the stated standard form for two-variable linear equations. The correct form is $ax + by = c$, with variables left and constant right."
+    },
+    {
+     "text": "$$x + y = ab + c$, where the variables are on the left and all coefficients are on the right.",
+     "correct": false,
+     "explanation": "Coefficients belong with their variable terms rather than being moved to the constant side. The required standard form is $ax + by = c$, with both variable terms left and the constant right."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "485441ad-d320-4017-9f0e-59b20f3063f2",
+   "card_type": "cloze",
+   "front": "The standard form of $3x = 10 + y$ is $\\text{[...]}$.",
+   "back": "The standard form of $3x = 10 + y$ is $\\boxed{3x - y = 10}$.",
+   "options": [
+    {
+     "text": "$$3x - y = 10$",
+     "correct": true,
+     "explanation": "Subtracting $y$ from both sides of $3x = 10 + y$ places the $y$ term on the left, leaving the constant $10$ on the right."
+    },
+    {
+     "text": "$$3x + y = 10$",
+     "correct": false,
+     "explanation": "The $y$ term changes sign when it moves from the right to the left, so it must become negative. The correct standard form is $3x - y = 10$."
+    },
+    {
+     "text": "$$3x - y = -10$",
+     "correct": false,
+     "explanation": "Moving $y$ across changes its sign, but the positive constant $10$ stays positive on the right. The correct rearrangement is $3x - y = 10$."
+    },
+    {
+     "text": "$$3x + y = -10$",
+     "correct": false,
+     "explanation": "This changes the signs of both terms incorrectly. Only $y$ changes sign when subtracted from both sides, giving the correct form $3x - y = 10$."
+    }
+   ]
+  },
+  {
+   "id": "6f609683-2281-49fc-944b-a652ac8163d3",
+   "card_type": "basic",
+   "front": "How can you simplify an equation containing decimals (e.g., 4.5) before solving?",
+   "back": "Multiply the whole equation by 10 to clear the decimal point.",
+   "options": [
+    {
+     "text": "Multiply the whole equation by 10 to clear the decimal point.",
+     "correct": true,
+     "explanation": "Multiplying every term in the equation by 10 changes tenths into whole numbers, such as $4.5$ into $45$, while preserving equality and making the equations easier to solve."
+    },
+    {
+     "text": "Multiply only the decimal term by 10 and leave the other terms unchanged.",
+     "correct": false,
+     "explanation": "Applying the factor to only one term changes the equation unevenly. The correct method is to multiply the whole equation by 10 so both sides remain equal."
+    },
+    {
+     "text": "Divide the whole equation by 10 to move the decimal point left.",
+     "correct": false,
+     "explanation": "Dividing by 10 would make the decimal smaller rather than clear it, changing $4.5$ to $0.45$. Multiplying the whole equation by 10 clears the decimal point."
+    },
+    {
+     "text": "Round each decimal term to the nearest whole number before solving.",
+     "correct": false,
+     "explanation": "Rounding changes the exact equation and can alter the solutions. Instead, multiply the whole equation by 10 to remove the decimals without losing accuracy."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "8051a9b3-b954-49af-aca3-325b3315b665",
+   "card_type": "cloze",
+   "front": "If an equation contains 4.5, multiplying the whole equation by 10 changes it to [ ___ ].",
+   "back": "If an equation contains 4.5, multiplying the whole equation by 10 changes it to 45.",
+   "options": [
+    {
+     "text": "45",
+     "correct": true,
+     "explanation": "Multiplying $4.5$ by 10 moves the decimal point one place to the right, giving $45$. Applying the same multiplication to the whole equation preserves its equality."
+    },
+    {
+     "text": "0.45",
+     "correct": false,
+     "explanation": "Moving the decimal point one place left corresponds to dividing by 10, not multiplying by 10. Multiplying $4.5$ by 10 gives the correct result, $45$."
+    },
+    {
+     "text": "450",
+     "correct": false,
+     "explanation": "This moves the decimal point two places right, which would mean multiplying by 100. Multiplying $4.5$ by 10 moves it one place right to give $45$."
+    },
+    {
+     "text": "4.05",
+     "correct": false,
+     "explanation": "This incorrectly inserts a zero rather than moving the decimal point one place right. The calculation $4.5 \\times 10$ gives $45$."
+    }
+   ]
+  },
+  {
+   "id": "190ec7e1-f47f-4fc5-a8e8-0ddd11fef511",
+   "card_type": "basic",
+   "front": "What is the very first step when solving a word problem using simultaneous equations?",
+   "back": "Define variables (assign letters) for the unknown values.",
+   "options": [
+    {
+     "text": "Define variables (assign letters) for the unknown values.",
+     "correct": true,
+     "explanation": "Assigning variables to the unknown quantities gives the problem a clear algebraic structure. These variables can then be used to form the two simultaneous equations."
+    },
+    {
+     "text": "Solve one equation before identifying the unknown values.",
+     "correct": false,
+     "explanation": "An equation cannot be formed or solved reliably until the unknown quantities have been identified and represented. The first step is to define variables by assigning letters."
+    },
+    {
+     "text": "Substitute numerical values for the unknowns immediately.",
+     "correct": false,
+     "explanation": "The unknown values are what the problem asks you to find, so inserting numbers before forming equations is unjustified. First define variables for those unknown values."
+    },
+    {
+     "text": "Eliminate one variable before translating the information into equations.",
+     "correct": false,
+     "explanation": "Elimination is a solving method used after the equations have been formed. The first step is to define variables, allowing the worded relationships to be expressed algebraically."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "538aa107-51f4-4057-ab07-04ce8fd0fa0c",
+   "card_type": "basic",
+   "front": "If you solve a word problem using pence, but the question asks for prices, what must you remember?",
+   "back": "Convert the final answers back into pounds (&pound;).",
+   "options": [
+    {
+     "text": "Convert the final answers back into pounds (&pound;).",
+     "correct": true,
+     "explanation": "Since 100 pence make one pound, divide each final pence answer by 100 and report the prices in pounds, matching the units requested by the question."
+    },
+    {
+     "text": "Convert the final answers into pence (p).",
+     "correct": false,
+     "explanation": "The calculations were already performed in pence, so leaving the answers in pence does not match a question asking for prices in pounds. The final answers must be converted back into pounds (&pound;)."
+    },
+    {
+     "text": "Multiply the final answers by 100 and write them in pounds (&pound;).",
+     "correct": false,
+     "explanation": "Multiplying by 100 makes the numerical values larger, whereas converting pence to pounds requires dividing by 100. The final answers should be converted into pounds (&pound;)."
+    },
+    {
+     "text": "Round the final answers to the nearest whole pound (&pound;).",
+     "correct": false,
+     "explanation": "Rounding can lose the exact price and does not perform the required unit conversion. Divide the pence values by 100 to convert the final answers into pounds (&pound;)."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "d6a8a4c5-04ab-4279-9392-857424a2ce6d",
+   "card_type": "basic",
+   "front": "After using elimination to find the value of $x$, how do you find the value of $y$?",
+   "back": "Substitute the value of $x$ back into one of the original equations.",
+   "options": [
+    {
+     "text": "Substitute the value of $x$ back into one of the original equations.",
+     "correct": true,
+     "explanation": "Replacing $x$ with its known value in either original equation leaves an equation containing only $y$. Solving that equation gives the corresponding value of $y$."
+    },
+    {
+     "text": "Substitute the value of $y$ back into one of the original equations.",
+     "correct": false,
+     "explanation": "At this stage the known value is $x$, so substituting $y$ reverses the order of the method and does not provide the needed value. Substitute the value of $x$ to find $y$."
+    },
+    {
+     "text": "Eliminate the value of $x$ from one of the original equations.",
+     "correct": false,
+     "explanation": "Elimination is used with both equations to remove a variable, but after finding $x$, the efficient next step is substitution. Put the value of $x$ into an original equation to find $y$."
+    },
+    {
+     "text": "Divide the value of $x$ by one of the original equations.",
+     "correct": false,
+     "explanation": "An equation is not divided by a value in this step, and doing so does not isolate $y$. Substitute the known value of $x$ into an original equation, then solve for $y$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "4b13e8cf-3870-409a-bf10-0bcc198f3f4c",
+   "card_type": "cloze",
+   "front": "In the elimination method, you [ ___ ] or subtract equations to remove one variable.",
+   "back": "In the elimination method, you add or subtract equations to remove one variable.",
+   "options": [
+    {
+     "text": "add",
+     "correct": true,
+     "explanation": "Adding the two equations can make opposite coefficients cancel, removing one variable and leaving an equation that contains only the other variable."
+    },
+    {
+     "text": "multiply",
+     "correct": false,
+     "explanation": "Multiplication may first be used to create matching coefficients, but the equations are then added or subtracted. The missing word is add."
+    },
+    {
+     "text": "divide",
+     "correct": false,
+     "explanation": "Dividing an equation can simplify its coefficients, but it does not describe the combining step in elimination. The missing word is add."
+    },
+    {
+     "text": "factorise",
+     "correct": false,
+     "explanation": "Factorising rewrites an expression as a product and is not the operation used to combine equations. In elimination, you add or subtract equations."
+    }
+   ]
+  },
+  {
+   "id": "5476cb46-7364-412b-82ed-e87425e91faf",
+   "card_type": "cloze",
+   "front": "In the elimination method, you add or [ ___ ] equations to remove one variable.",
+   "back": "In the elimination method, you add or subtract equations to remove one variable.",
+   "options": [
+    {
+     "text": "subtract",
+     "correct": true,
+     "explanation": "Subtracting equations with equal coefficients can make one pair of variable terms cancel, leaving an equation in just one variable."
+    },
+    {
+     "text": "multiply",
+     "correct": false,
+     "explanation": "Multiplying may be used beforehand to make coefficients equal or opposite, but the equations are combined by adding or subtracting. The missing word is subtract."
+    },
+    {
+     "text": "divide",
+     "correct": false,
+     "explanation": "Dividing can simplify an individual equation, but it is not the alternative to adding equations in the elimination method. The correct term is subtract."
+    },
+    {
+     "text": "expand",
+     "correct": false,
+     "explanation": "Expanding removes brackets within an expression rather than combining two equations to cancel a variable. In elimination, equations are added or subtracted."
+    }
+   ]
+  },
+  {
+   "id": "cab239b7-aafe-4465-945c-34851a588529",
+   "card_type": "basic",
+   "front": "In the equations $4x + 3y = 26$ and $x - 3y = -1$, what is the result of adding them?",
+   "back": "$$5x = 25$",
+   "options": [
+    {
+     "text": "$$5x = 25$",
+     "correct": true,
+     "explanation": "Adding gives $4x+x=5x$, while $3y+(-3y)=0$ and $26+(-1)=25$. Therefore the resulting equation is $5x=25$."
+    },
+    {
+     "text": "$$3x = 27$",
+     "correct": false,
+     "explanation": "This incorrectly subtracts the $x$ terms and treats $-1$ as positive. Adding correctly gives $4x+x=5x$ and $26+(-1)=25$, so $5x=25$."
+    },
+    {
+     "text": "$$5x = 27$",
+     "correct": false,
+     "explanation": "The variable terms have been combined correctly, but the constants have not: $26+(-1)$ is $25$, not $27$. The correct result is $5x=25$."
+    },
+    {
+     "text": "$$5x = 26$",
+     "correct": false,
+     "explanation": "This cancels the $y$ terms but overlooks the $-1$ on the right-hand side. Since $26+(-1)=25$, the correct result is $5x=25$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "d3c7ae9a-6a9c-4e05-9155-87da1745fedb",
+   "card_type": "basic",
+   "front": "What does it mean to eliminate a variable?",
+   "back": "To remove it from the system so you are left with an equation in only one variable.",
+   "options": [
+    {
+     "text": "To remove it from the system so you are left with an equation in only one variable.",
+     "correct": true,
+     "explanation": "Elimination combines the equations so one variable’s terms cancel. This produces a simpler equation involving only the remaining variable, which can then be solved."
+    },
+    {
+     "text": "To isolate it in the system so you are left with that variable on one side.",
+     "correct": false,
+     "explanation": "Isolating a variable describes rearrangement or substitution, not elimination. To eliminate a variable means to remove it, leaving an equation in only one variable."
+    },
+    {
+     "text": "To replace it in the system with a different variable from the other equation.",
+     "correct": false,
+     "explanation": "Variables are not replaced by different variables during elimination. Instead, the equations are combined so one variable is removed, leaving an equation in the other variable."
+    },
+    {
+     "text": "To divide it from the system so both equations are written in their simplest form.",
+     "correct": false,
+     "explanation": "Elimination does not mean dividing a variable out of the equations. It means combining the equations to remove one variable and obtain a one-variable equation."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "1a2a588f-e469-4f2d-aa98-ef0988cac33a",
+   "card_type": "cloze",
+   "front": "Rearranging $x + 4y = 12$ to match $3x - y = 10$ involves multiplying the first equation by [ ___ ] to make the $x$ coefficients match.",
+   "back": "Rearranging $x + 4y = 12$ to match $3x - y = 10$ involves multiplying the first equation by 3 to make the $x$ coefficients match.",
+   "options": [
+    {
+     "text": "3",
+     "correct": true,
+     "explanation": "Multiplying every term in $x+4y=12$ by $3$ gives $3x+12y=36$, so its $x$ coefficient matches the $3x$ coefficient in the other equation."
+    },
+    {
+     "text": "$$\\frac{1}{3}$",
+     "correct": false,
+     "explanation": "Multiplying by $\\frac{1}{3}$ changes the first $x$ coefficient to $\\frac{1}{3}$ rather than $3$. The required multiplier is $3$."
+    },
+    {
+     "text": "$$-3$",
+     "correct": false,
+     "explanation": "Multiplying by $-3$ produces an $x$ coefficient of $-3$, which is opposite rather than matching. To make both $x$ coefficients $3$, multiply by $3$."
+    },
+    {
+     "text": "4",
+     "correct": false,
+     "explanation": "Multiplying by $4$ makes the first $x$ coefficient $4$, so it does not match the second equation’s coefficient. The correct multiplier is $3$."
+    }
+   ]
+  }
+ ],
+ "card_count": 21,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-5-5-8-simultaneous-equations/flashcards",
+ "source_sha256": "b789ab233d9a13fc21c655a2dcacb5e1407ad03d7cd702689f3d0d4c1299e948",
+ "extracted_at": "2026-11-08T19:00:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-2 run-001)",
+ "task_id": "T-MG-FC-2"
+}

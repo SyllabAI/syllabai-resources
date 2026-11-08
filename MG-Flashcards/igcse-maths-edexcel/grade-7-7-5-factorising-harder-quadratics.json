@@ -1,0 +1,645 @@
+{
+ "topic": "grade-7-7-5-factorising-harder-quadratics",
+ "lane": "igcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "title": "Factorising Harder Quadratics Flashcards",
+ "cards": [
+  {
+   "id": "8a55dc32-7cbb-4dd8-aabe-edb708e070b3",
+   "card_type": "basic",
+   "front": "What is the coefficient of $x$ in the expression $5x^2-3x+8$?",
+   "back": "-3",
+   "options": [
+    {
+     "text": "-3",
+     "correct": true,
+     "explanation": "The coefficient is the numerical multiplier of $x$. In the term $-3x$, that multiplier is $-3$, including its negative sign."
+    },
+    {
+     "text": "5",
+     "correct": false,
+     "explanation": "Taking the coefficient from $5x^2$ confuses the quadratic term with the linear term. The $x$ term is $-3x$, so its coefficient is $-3$."
+    },
+    {
+     "text": "3",
+     "correct": false,
+     "explanation": "Ignoring the negative sign changes the coefficient. Since the linear term is $-3x$, the coefficient of $x$ is $-3$, not positive $3$."
+    },
+    {
+     "text": "8",
+     "correct": false,
+     "explanation": "The number $8$ is the constant term because it has no variable attached. The coefficient of $x$ comes from $-3x$ and is $-3$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "261ebdd3-52d7-435c-8d58-7305704158c8",
+   "card_type": "cloze",
+   "front": "To factorise $ax^2+bx+c$, find two numbers that multiply to $\\text{[...]}$ and add to $b$.",
+   "back": "To factorise $ax^2+bx+c$, find two numbers that multiply to $\\boxed{ac}$ and add to $b$.",
+   "options": [
+    {
+     "text": "$$ac$",
+     "correct": true,
+     "explanation": "The product must combine the leading coefficient and constant term. Therefore, the two splitting numbers must multiply to $a \\times c=ac$."
+    },
+    {
+     "text": "$$c$",
+     "correct": false,
+     "explanation": "Using only the constant term is the monic-quadratic method and overlooks the leading coefficient $a$. For a general quadratic, the product target is $ac$."
+    },
+    {
+     "text": "$$b$",
+     "correct": false,
+     "explanation": "The middle coefficient is the sum target, not the product target. The two numbers must add to $b$ but multiply to $ac$."
+    },
+    {
+     "text": "$$ab$",
+     "correct": false,
+     "explanation": "Multiplying the leading and middle coefficients uses the wrong pair of terms. The required product is the leading coefficient times the constant, namely $ac$."
+    }
+   ]
+  },
+  {
+   "id": "36a71be6-171f-4bec-b194-ee6b3ce519b2",
+   "card_type": "cloze",
+   "front": "To factorise $ax^2+bx+c$, find two numbers that multiply to $ac$ and add to $\\text{[...]}$.",
+   "back": "To factorise $ax^2+bx+c$, find two numbers that multiply to $ac$ and add to $\\boxed{b}$.",
+   "options": [
+    {
+     "text": "$$b$",
+     "correct": true,
+     "explanation": "The two numbers are used to split the middle term $bx$. Their sum must therefore equal $b$, while their product must equal $ac$."
+    },
+    {
+     "text": "$$c$",
+     "correct": false,
+     "explanation": "The constant coefficient contributes to the product target rather than the sum target. The two numbers multiply to $ac$ and must add to $b$."
+    },
+    {
+     "text": "$$a$",
+     "correct": false,
+     "explanation": "The leading coefficient helps form the product target $ac$, but it is not the required sum. The two splitting numbers must add to $b$."
+    },
+    {
+     "text": "$$ac$",
+     "correct": false,
+     "explanation": "The expression $ac$ is the product target, so using it again as the sum confuses the two conditions. The required sum is $b$."
+    }
+   ]
+  },
+  {
+   "id": "21c60a9c-117e-46b4-af8b-39fa6147c191",
+   "card_type": "basic",
+   "front": "If the constant term $c$ is positive and the $x$ coefficient $b$ is negative, what are the signs of the two numbers?",
+   "back": "Both are negative.",
+   "options": [
+    {
+     "text": "Both are negative.",
+     "correct": true,
+     "explanation": "A positive product means the numbers have the same sign. Since their sum is negative, both numbers must be negative."
+    },
+    {
+     "text": "Both are positive.",
+     "correct": false,
+     "explanation": "Two positive numbers have a positive sum, which cannot produce a negative middle coefficient. A positive product and negative sum require both numbers to be negative."
+    },
+    {
+     "text": "One is positive and one is negative.",
+     "correct": false,
+     "explanation": "Numbers with opposite signs have a negative product, contradicting the positive constant term. The positive product and negative sum mean both numbers are negative."
+    },
+    {
+     "text": "One is zero and one is negative.",
+     "correct": false,
+     "explanation": "Including zero would make the product zero rather than positive. To give a positive product and a negative sum, both numbers must be negative."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "24e0c065-4cd3-40c2-bafc-380459d8af77",
+   "card_type": "basic",
+   "front": "If the constant term $c$ is negative, what are the signs of the two numbers?",
+   "back": "One is positive and one is negative.",
+   "options": [
+    {
+     "text": "One is positive and one is negative.",
+     "correct": true,
+     "explanation": "A negative product can only result from multiplying numbers with opposite signs. Therefore, one of the two numbers is positive and the other is negative."
+    },
+    {
+     "text": "Both are negative.",
+     "correct": false,
+     "explanation": "Two negative numbers multiply to give a positive result, not a negative one. A negative constant requires one positive number and one negative number."
+    },
+    {
+     "text": "Both are positive.",
+     "correct": false,
+     "explanation": "Two positive numbers produce a positive product, so they cannot give a negative constant. The two numbers must instead have opposite signs."
+    },
+    {
+     "text": "One is zero and one is negative.",
+     "correct": false,
+     "explanation": "Multiplication by zero gives zero rather than a negative result. A negative product requires exactly one positive factor and one negative factor."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "8688ca13-fafd-42c1-9528-7e01f191cdb9",
+   "card_type": "basic",
+   "front": "What is the product target for splitting the middle term of $2x^2+x-15$?",
+   "back": "-30 ($2 \\times -15$)",
+   "options": [
+    {
+     "text": "-30 ($2 \\times -15$)",
+     "correct": true,
+     "explanation": "The product target is $ac$, found by multiplying the coefficient of $x^2$ by the constant term: $2 \\times -15=-30$."
+    },
+    {
+     "text": "30 ($2 \\times 15$)",
+     "correct": false,
+     "explanation": "Dropping the constant’s negative sign produces a positive product incorrectly. Multiplying the actual coefficients gives $2 \\times -15=-30$."
+    },
+    {
+     "text": "-13 ($2 + -15$)",
+     "correct": false,
+     "explanation": "Adding the leading coefficient and constant is not the product-target rule. The target is found by multiplication, giving $2 \\times -15=-30$."
+    },
+    {
+     "text": "-15 ($1 \\times -15$)",
+     "correct": false,
+     "explanation": "Using the middle coefficient instead of the leading coefficient misses the factor of $2$. The correct product target is $2 \\times -15=-30$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "58b19766-58b8-4f69-b422-359165864a4d",
+   "card_type": "basic",
+   "front": "What is the sum target for splitting the middle term of $2x^2+x-15$?",
+   "back": "1",
+   "options": [
+    {
+     "text": "1",
+     "correct": true,
+     "explanation": "The sum target is the coefficient of the middle term. Since the middle term is $+x=1x$, the required sum is $1$."
+    },
+    {
+     "text": "-30",
+     "correct": false,
+     "explanation": "The value $-30$ is the product target $ac$, not the sum target. The sum must equal the coefficient of $x$, which is $1$."
+    },
+    {
+     "text": "-15",
+     "correct": false,
+     "explanation": "The value $-15$ is the constant term rather than the middle coefficient. The coefficient of $x$ is $1$, so the sum target is $1$."
+    },
+    {
+     "text": "3",
+     "correct": false,
+     "explanation": "Adding the visible coefficients $2$ and $1$ does not determine the sum target. It is simply the coefficient of $x$, which is $1$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "324bc049-14e1-457a-b1a6-7c6390fe34dc",
+   "card_type": "basic",
+   "front": "Which two numbers multiply to $-30$ and add to $1$?",
+   "back": "6 and -5",
+   "options": [
+    {
+     "text": "6 and -5",
+     "correct": true,
+     "explanation": "The product is $6 \\times -5=-30$, and the sum is $6+(-5)=1$. Both required conditions are therefore satisfied."
+    },
+    {
+     "text": "5 and -6",
+     "correct": false,
+     "explanation": "Reversing the signs preserves the product $-30$ but changes the sum to $-1$. The required pair is $6$ and $-5$, whose sum is $1$."
+    },
+    {
+     "text": "10 and -3",
+     "correct": false,
+     "explanation": "Although $10 \\times -3=-30$, these numbers add to $7$, not $1$. The pair satisfying both conditions is $6$ and $-5$."
+    },
+    {
+     "text": "6 and 5",
+     "correct": false,
+     "explanation": "These numbers add to $11$ and multiply to positive $30$, so neither condition is met. The correct pair is $6$ and $-5$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "fc2dd0ab-947d-4440-afa7-7c5c596d667f",
+   "card_type": "cloze",
+   "front": "The expression $2x^2+x-15$ is split into $\\text{[...]}$ before grouping.",
+   "back": "The expression $2x^2+x-15$ is split into $\\boxed{2x^2+6x-5x-15}$ before grouping.",
+   "options": [
+    {
+     "text": "$$2x^2+6x-5x-15$",
+     "correct": true,
+     "explanation": "The middle terms must add to $x$ and multiply to $-30$, the product of $2$ and $-15$. Therefore, $6x$ and $-5x$ give the required split."
+    },
+    {
+     "text": "$$2x^2+3x-5x-15$",
+     "correct": false,
+     "explanation": "These middle terms multiply correctly to $-15$ but do not produce the required coefficient of $x$. The correct split uses $6x$ and $-5x$, whose product is $-30$."
+    },
+    {
+     "text": "$$2x^2-6x+5x-15$",
+     "correct": false,
+     "explanation": "The signs make the middle terms combine to $-x$, not $+x$. The correct split is $2x^2+6x-5x-15$, giving both the required sum and product."
+    },
+    {
+     "text": "$$2x^2+5x-3x-15$",
+     "correct": false,
+     "explanation": "These terms add to $2x$, so they do not reproduce the original middle coefficient. The required pair is $6x$ and $-5x$, which add to $x$ and multiply to $-30$."
+    }
+   ]
+  },
+  {
+   "id": "f35fa4c0-7a70-4eb2-85af-ee6356d26dae",
+   "card_type": "basic",
+   "front": "When factorising by grouping, how do you check if your pair of numbers or signs are correct?",
+   "back": "Both parts of the expression must contain the same bracket.",
+   "options": [
+    {
+     "text": "Both parts of the expression must contain the same bracket.",
+     "correct": true,
+     "explanation": "After splitting and grouping, both groups should have an identical bracket. This confirms that the chosen pair of numbers and signs allows the expression to be factorised correctly."
+    },
+    {
+     "text": "Both parts of the expression must contain opposite brackets.",
+     "correct": false,
+     "explanation": "Opposite brackets do not provide a common factor for grouping. The correct check is that both parts contain the same bracket, allowing that bracket to be taken out."
+    },
+    {
+     "text": "Both parts of the expression must contain the same coefficient.",
+     "correct": false,
+     "explanation": "A matching coefficient alone does not show that grouping has worked. The essential check is a common bracket appearing in both groups, which can then be factored out."
+    },
+    {
+     "text": "Both parts of the expression must contain different brackets.",
+     "correct": false,
+     "explanation": "Different brackets cannot be taken out as one common factor. Correct grouping produces the same bracket in both parts of the expression."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "bf67db51-fb20-4ffd-ae6b-6a7fb948d24a",
+   "card_type": "cloze",
+   "front": "The zero product property states that if $AB=0$, then $\\text{[...]}$ or $B=0$.",
+   "back": "The zero product property states that if $AB=0$, then $\\boxed{A=0}$ or $B=0$.",
+   "options": [
+    {
+     "text": "$$A=0$",
+     "correct": true,
+     "explanation": "The zero product property says a product is zero only when at least one factor is zero. Thus, if $AB=0$, one possible conclusion is $A=0$."
+    },
+    {
+     "text": "$$A=1$",
+     "correct": false,
+     "explanation": "A factor equal to $1$ leaves the other factor unchanged, so it does not make the product zero. The correct condition is $A=0$, because zero multiplied by any value is zero."
+    },
+    {
+     "text": "$$A=-1$",
+     "correct": false,
+     "explanation": "A factor of $-1$ changes the sign but does not make a product zero. The zero product property requires $A=0$ or $B=0$, so the missing statement is $A=0$."
+    },
+    {
+     "text": "$$A=B$",
+     "correct": false,
+     "explanation": "The two factors do not need to be equal for their product to be zero. At least one must equal zero, and here the missing conclusion is $A=0$."
+    }
+   ]
+  },
+  {
+   "id": "6ca1ca90-ee4e-4e45-a05d-df60e1cb0fdf",
+   "card_type": "cloze",
+   "front": "The zero product property states that if $AB=0$, then $A=0$ or $\\text{[...]}$.",
+   "back": "The zero product property states that if $AB=0$, then $A=0$ or $\\boxed{B=0}$.",
+   "options": [
+    {
+     "text": "$$B=0$",
+     "correct": true,
+     "explanation": "If the product $AB$ equals zero, at least one factor must be zero. In this part of the statement, the second possible factor is therefore $B=0$."
+    },
+    {
+     "text": "$$B=1$",
+     "correct": false,
+     "explanation": "Setting a factor to $1$ does not make the product zero. The zero product property requires one factor to equal zero, so the correct missing statement is $B=0$."
+    },
+    {
+     "text": "$$B=-1$",
+     "correct": false,
+     "explanation": "A factor of $-1$ produces a nonzero product unless the other factor is zero. The required conclusion here is $B=0$, not a nonzero value."
+    },
+    {
+     "text": "$$A=B$",
+     "correct": false,
+     "explanation": "The factors can have completely different values when their product is zero. One factor must be zero, and in this position the correct conclusion is $B=0$."
+    }
+   ]
+  },
+  {
+   "id": "a91c93a3-59a3-4635-8bd0-3dd5de3ab613",
+   "card_type": "basic",
+   "front": "How do you find the roots of a quadratic equation once it is factorised into brackets?",
+   "back": "Set each bracket equal to zero and solve for $x$.",
+   "options": [
+    {
+     "text": "Set each bracket equal to zero and solve for $x$.",
+     "correct": true,
+     "explanation": "A product is zero when at least one factor is zero. Setting each bracket to zero gives the equations whose solutions are the roots of the factorised quadratic."
+    },
+    {
+     "text": "Set each bracket equal to one and solve for $x$.",
+     "correct": false,
+     "explanation": "A product being zero does not mean its factors equal one. Set each bracket equal to zero, then solve the resulting equations for the roots."
+    },
+    {
+     "text": "Set the brackets equal to each other and solve for $x$.",
+     "correct": false,
+     "explanation": "The factors do not need to have equal values for their product to be zero. Set each bracket equal to zero to find the possible values of $x$."
+    },
+    {
+     "text": "Set the constant term equal to zero and solve for $x$.",
+     "correct": false,
+     "explanation": "The constant term alone does not identify the roots once the quadratic is factorised. Set each bracket equal to zero and solve both resulting equations."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "63703ca2-c333-4c8d-bf98-d6e8e06e0796",
+   "card_type": "basic",
+   "front": "What are the solutions to $(2x-3)(2x+5)=0$?",
+   "back": "$x=\\frac{3}{2}$$x=-\\frac{5}{2}$",
+   "options": [
+    {
+     "text": "$x=\\frac{3}{2}$$x=-\\frac{5}{2}$",
+     "correct": true,
+     "explanation": "The zero product property gives $2x-3=0$ or $2x+5=0$. Solving these equations produces $x=\\frac{3}{2}$ and $x=-\\frac{5}{2}$."
+    },
+    {
+     "text": "$x=-\\frac{3}{2}$$x=\\frac{5}{2}$",
+     "correct": false,
+     "explanation": "Both signs have been reversed when rearranging the brackets. Solving $2x-3=0$ and $2x+5=0$ correctly gives $x=\\frac{3}{2}$ and $x=-\\frac{5}{2}$."
+    },
+    {
+     "text": "$x=3$$x=-5$",
+     "correct": false,
+     "explanation": "This misses the division by the coefficient $2$ in each linear equation. The correct roots are $x=\\frac{3}{2}$ and $x=-\\frac{5}{2}$."
+    },
+    {
+     "text": "$x=\\frac{2}{3}$$x=-\\frac{2}{5}$",
+     "correct": false,
+     "explanation": "The fractions have been inverted instead of isolating $x$ by dividing the constants by $2$. The correct solutions are $x=\\frac{3}{2}$ and $x=-\\frac{5}{2}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "f702d6de-903c-41fe-b854-7b7d8119b7e3",
+   "card_type": "basic",
+   "front": "What two steps are required to factorise fully $6x^2-24$?",
+   "back": "Take out the highest common factor 6Use the difference of two squares on $(x^2-4)$",
+   "options": [
+    {
+     "text": "Take out the highest common factor 6Use the difference of two squares on $(x^2-4)$",
+     "correct": true,
+     "explanation": "First factor out $6$, giving $6(x^2-4)$. Then use the difference of two squares because $x^2-4=x^2-2^2$, so the expression can be factorised completely."
+    },
+    {
+     "text": "Take out the highest common factor 3Use the difference of two squares on $(2x^2-8)$",
+     "correct": false,
+     "explanation": "The highest common factor is $6$, not $3$, since both terms divide by $6$. The correct first step gives $6(x^2-4)$ before applying the difference of two squares."
+    },
+    {
+     "text": "Take out the highest common factor 6Use the sum of two squares on $(x^2-4)$",
+     "correct": false,
+     "explanation": "The expression inside the bracket is a subtraction, not a sum, and $x^2-4$ is a difference of two squares. Use that identity after taking out the factor $6$."
+    },
+    {
+     "text": "Take out the highest common factor 2Use the difference of two squares on $(3x^2-12)$",
+     "correct": false,
+     "explanation": "Although $2$ is a common factor, it is not the highest common factor, so the expression is not fully simplified. Take out $6$ to obtain $6(x^2-4)$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "ca244182-2f78-4b9f-ba07-1187d0227da2",
+   "card_type": "cloze",
+   "front": "The difference of two squares formula is $a^2-b^2=$ $\\text{[...]}$.",
+   "back": "The difference of two squares formula is $a^2-b^2=$ $\\boxed{(a-b)(a+b)}$.",
+   "options": [
+    {
+     "text": "$$(a-b)(a+b)$",
+     "correct": true,
+     "explanation": "The difference of two squares factors because $a^2-b^2$ is the product of the difference and sum of the square roots: $(a-b)(a+b)$."
+    },
+    {
+     "text": "$$(a+b)(a+b)$",
+     "correct": false,
+     "explanation": "This produces $(a+b)^2$, which includes a positive middle term rather than cancellation. The correct factorisation of a difference of squares is $(a-b)(a+b)$."
+    },
+    {
+     "text": "$$(a-b)^2$",
+     "correct": false,
+     "explanation": "Squaring the difference creates $a^2-2ab+b^2$, not $a^2-b^2$. The correct identity uses two different brackets: $(a-b)(a+b)$."
+    },
+    {
+     "text": "$$a(a-b)$",
+     "correct": false,
+     "explanation": "This expands to $a^2-ab$, so it does not contain the required $-b^2$ term. The difference of two squares factors as $(a-b)(a+b)$."
+    }
+   ]
+  },
+  {
+   "id": "6a0fdd90-a179-47b6-9382-2be83ee95fb6",
+   "card_type": "basic",
+   "front": "Factorise $x^2-4$.",
+   "back": "$$(x-2)(x+2)$",
+   "options": [
+    {
+     "text": "$$(x-2)(x+2)$",
+     "correct": true,
+     "explanation": "This is a difference of two squares: $x^2-2^2=(x-2)(x+2)$. Expanding the brackets gives $x^2-4$, confirming the factorisation."
+    },
+    {
+     "text": "$$(x-2)(x-2)$",
+     "correct": false,
+     "explanation": "This treats the expression as a perfect square. Expanding gives $x^2-4x+4$, whereas the difference of two squares factorises as $(x-2)(x+2)$."
+    },
+    {
+     "text": "$$(x+2)(x+2)$",
+     "correct": false,
+     "explanation": "This introduces a positive middle term: expanding gives $x^2+4x+4$. Since $x^2-4$ is a difference of squares, the correct factors are $(x-2)(x+2)$."
+    },
+    {
+     "text": "$$(x-4)(x+1)$",
+     "correct": false,
+     "explanation": "Although the constants multiply to $-4$, expanding produces $x^2-3x-4$, including an unwanted middle term. Opposite signs with equal values give $(x-2)(x+2)$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "1cf8e2d1-c80f-41bd-908f-e87bb8b084fb",
+   "card_type": "basic",
+   "front": "When factorising $2x^2+7xy+3y^2$, what variables must be present in the brackets?",
+   "back": "Both $x$ and $y$.",
+   "options": [
+    {
+     "text": "Both $x$ and $y$.",
+     "correct": true,
+     "explanation": "The quadratic contains $x^2$, $xy$ and $y^2$, so each bracket must contain an $x$ term and a $y$ term to generate all three."
+    },
+    {
+     "text": "Only $x$.",
+     "correct": false,
+     "explanation": "Brackets containing only $x$ could generate powers of $x$ but not the $xy$ or $y^2$ terms. Both $x$ and $y$ must be present."
+    },
+    {
+     "text": "Only $y$.",
+     "correct": false,
+     "explanation": "Brackets containing only $y$ could not generate the $x^2$ or $xy$ terms. Both $x$ and $y$ are needed in the factorisation."
+    },
+    {
+     "text": "Neither $x$ nor $y$.",
+     "correct": false,
+     "explanation": "Leaving out both variables cannot reproduce any variable terms in the quadratic. Each bracket must contain both an $x$ term and a $y$ term."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "6f66b311-b704-40c0-a3e0-06e371ea39a5",
+   "card_type": "basic",
+   "front": "Which numbers multiply to $12$ and add to $-13$ for the expression $3x^2-13xy+4y^2$?",
+   "back": "-12 and -1",
+   "options": [
+    {
+     "text": "-12 and -1",
+     "correct": true,
+     "explanation": "The numbers must multiply to $3\\times4=12$ and sum to the middle coefficient, $-13$. The pair $-12$ and $-1$ satisfies both conditions."
+    },
+    {
+     "text": "12 and 1",
+     "correct": false,
+     "explanation": "This pair multiplies to $12$ but adds to $13$, reflecting a sign error. Both numbers must be negative, giving -12 and -1."
+    },
+    {
+     "text": "-6 and -2",
+     "correct": false,
+     "explanation": "This pair correctly has product $12$, but its sum is $-8$, not $-13$. The required pair is -12 and -1."
+    },
+    {
+     "text": "-4 and -3",
+     "correct": false,
+     "explanation": "This pair multiplies to $12$, but it adds to $-7$ rather than the middle coefficient $-13$. The correct numbers are -12 and -1."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "be49e138-b953-40df-a3a6-fe3d54ca0d13",
+   "card_type": "cloze",
+   "front": "To factorise by grouping for $3x(x-4y)-y(x-4y)$, you take out the repeated bracket to get $\\text{[...]}$.",
+   "back": "To factorise by grouping for $3x(x-4y)-y(x-4y)$, you take out the repeated bracket to get $\\boxed{(3x-y)(x-4y)}$.",
+   "options": [
+    {
+     "text": "$$(3x-y)(x-4y)$",
+     "correct": true,
+     "explanation": "Both terms contain the identical factor $(x-4y)$. Taking it outside leaves $3x-y$, so the complete factorisation is $(3x-y)(x-4y)$."
+    },
+    {
+     "text": "$$(3x+y)(x-4y)$",
+     "correct": false,
+     "explanation": "The second original term is subtracted, so taking out $(x-4y)$ leaves $-y$, not $+y$. The correct factorisation is $(3x-y)(x-4y)$."
+    },
+    {
+     "text": "$$(3x-y)(x+4y)$",
+     "correct": false,
+     "explanation": "The repeated bracket is $(x-4y)$, and its sign must remain unchanged when extracted. Replacing it with $(x+4y)$ gives the wrong expansion."
+    },
+    {
+     "text": "$$(3x-1)(x-4y)$",
+     "correct": false,
+     "explanation": "After extracting $(x-4y)$, the remaining terms are $3x$ and $-y$. Dropping the variable from $-y$ is invalid, so the first bracket must be $(3x-y)$."
+    }
+   ]
+  },
+  {
+   "id": "603c5b78-7f68-4b6a-a263-db49658b3613",
+   "card_type": "basic",
+   "front": "What is the fastest way to check if a factorisation is correct in an exam?",
+   "back": "Expand the brackets to see if you return to the original expression.",
+   "options": [
+    {
+     "text": "Expand the brackets to see if you return to the original expression.",
+     "correct": true,
+     "explanation": "Expanding multiplies out every term and collects like terms, allowing direct comparison with the original expression. An exact match confirms that the factorisation is correct."
+    },
+    {
+     "text": "Factorise the brackets to see if you obtain a different expression.",
+     "correct": false,
+     "explanation": "Factorising the brackets again does not independently check the work and may repeat the same mistake. Expanding them should reproduce the original expression exactly."
+    },
+    {
+     "text": "Substitute one value to see if both expressions give the same result.",
+     "correct": false,
+     "explanation": "Testing one substituted value may miss an algebraic error because two different expressions can agree at a particular value. Expanding provides a complete check against the original."
+    },
+    {
+     "text": "Add the bracket terms to see if you obtain the original expression.",
+     "correct": false,
+     "explanation": "Adding the contents of brackets ignores the multiplication represented by adjacent factors, so it cannot verify a factorisation. Expand the brackets and compare with the original expression."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "aa683d51-b89e-4919-b350-d9dc62c6e8e4",
+   "card_type": "cloze",
+   "front": "A [ ___ ] is a value of the variable that makes an equation true.",
+   "back": "A root is a value of the variable that makes an equation true.",
+   "options": [
+    {
+     "text": "root",
+     "correct": true,
+     "explanation": "A root is an input value that satisfies an equation, meaning substitution makes the two sides equal. Quadratic equations can have zero, one or two real roots."
+    },
+    {
+     "text": "factor",
+     "correct": false,
+     "explanation": "A factor is an expression or number multiplied by another to form a product, not a value satisfying an equation. Such a satisfying value is called a root."
+    },
+    {
+     "text": "coefficient",
+     "correct": false,
+     "explanation": "A coefficient is the numerical multiplier of a variable, such as $3$ in $3x$. A variable value that makes an equation true is called a root."
+    },
+    {
+     "text": "constant",
+     "correct": false,
+     "explanation": "A constant is a fixed term without a variable, rather than a value chosen to satisfy an equation. The satisfying value of the variable is a root."
+    }
+   ]
+  }
+ ],
+ "card_count": 22,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-7-7-5-factorising-harder-quadratics/flashcards",
+ "source_sha256": "ce43d991350b9befd85212352e5ad439929beb3ffa0f03d472d07bf701a70dc0",
+ "extracted_at": "2026-11-08T19:00:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-2 run-001)",
+ "task_id": "T-MG-FC-2"
+}
