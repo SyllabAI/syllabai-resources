@@ -100,6 +100,17 @@ def apply_structure(row: dict, entry: dict, structure: dict) -> None:
     s = (structure.get("courses") or {}).get(row["code"])
     if not s:
         return
+    if "tiers" in s:
+        # tier-keyed qualification (T-GB-STRUCT-2: 4MA1 F/H): pick the block
+        # matching the built course's tier; a missing tier block is a config
+        # error, not an honest absence
+        tier = (entry.get("tier") or "").strip().lower()
+        pick = s["tiers"].get({"foundation": "Foundation",
+                               "higher": "Higher"}.get(tier))
+        if pick is None:
+            fail(f"structure.json {row['code']}: no tier block for "
+                 f"tier {entry.get('tier')!r}")
+        s = pick
     by_id = {src["id"]: src for src in structure.get("sources", [])}
     resolved = [by_id[i] for i in s.get("sourceIds", []) if i in by_id]
     missing = [i for i in s.get("sourceIds", []) if i not in by_id]

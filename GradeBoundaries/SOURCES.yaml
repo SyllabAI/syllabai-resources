@@ -81,3 +81,73 @@ golden_master:
     (retrieved 2026-10-31, zai-web trace 1a191d55e2154601)
   use: validate.py G2 parity — parsed 4CH1 rows must equal it exactly on
     every overlapping session
+    - id: pearson-4ma1-specification
+      url: https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/Mathematics%20A/2016/Specification%20and%20sample%20assessments/international-gcse-in-mathematics-spec-a.pdf
+      sha256: d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b
+      retrieved: 2026-11-08
+      usedFor: 4MA1 assessment requirements (papers 1F/2F/1H/2H, 2h, 100 marks each, 50% each, per-tier total 200; Issue 2 code renames)
+    - id: pearson-4pm1-specification
+      url: https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/Further%20Pure%20Mathematics/2016/Specification%20and%20sample%20assessments/international-gcse-in-further-pure-mathematics-spec.pdf
+      sha256: 4d13a0fb7002e472c58ac3e136e3edb2ca33f9866597c75e871dbd5f06dcf5a6
+      retrieved: 2026-11-08
+      usedFor: 4PM1 assessment requirements (papers 01/02, 2h, 100 marks each, 50% each, single tier, total 200)
+    - id: pearson-4bi1-specification
+      url: https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/Biology/2017/specification-and-sample-assessments/international-gcse-biology-2017-specification1.pdf
+      sha256: 9f474a0ef0e93ef3c3107b568956d163454cdb476bb2017189e8dd12c0d58cef
+      retrieved: 2026-11-08
+      usedFor: 4BI1 assessment requirements (1B 110/2h, 2B 70/1h15, unscaled total 180)
+    - id: pearson-4ch1-specification
+      url: https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/Chemistry/2017/specification-and-sample-assessments/international-gcse-chemistry-2017-specification.pdf
+      sha256: 36e2080d2e99f060bcc18f2a9d0bbd8b29498b45e007fa232e3befcd89b73362
+      retrieved: 2026-11-08
+      usedFor: 4CH1 assessment requirements (1C 110/2h, 2C 70/1h15, unscaled total 180)
+    - id: pearson-4ph1-specification
+      url: https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/Physics/2017/specification-and-sample-assessments/international-gcse-physics-2017-specification.pdf
+      sha256: bac4b8312d4fbfc84672f909100d66b2b3cda0b25e98c0d11bbc7366dae482b2
+      retrieved: 2026-11-08
+      usedFor: 4PH1 assessment requirements (1P 110/2h, 2P 70/1h15, unscaled total 180)
+    - id: pearson-4sd1-specification
+      url: https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/Science%20(Double%20Award)/2017/specification-and-sample-assessments/international-gcse-science-double-award-2017-specification1.pdf
+      sha256: 5780fb046368974e2aad45415448682634a8e9afcab77bfd29fdf61cec56ac17
+      retrieved: 2026-11-08
+      usedFor: 4SD1 assessment requirements (three Paper 1s 4BI1/1B, 4CH1/1C, 4PH1/1P, 110 each 33.3%, total 330, double grades 9-9..1-1)
+    - id: pearson-4ac1-specification
+      url: https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/Accounting/2017/Specification-and-sample-assessments/ig-accountancy-spec.pdf
+      sha256: 3f7ff62da3988a099f53b1fa71e751da9798e2e159e821a0a842df4fa4e97865
+      retrieved: 2026-11-08
+      usedFor: 4AC1 assessment requirements (Paper 1 100/2h 66.6%, Paper 2 50/1h15 33.3%, total 150)
+    - id: pearson-4bs1-specification
+      url: https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/Business%20Studies/2017/specification-and-sample-assessment/9781446942765-international-gcse-business-specification.pdf
+      sha256: fe492c90db0c52a3090dfb487dbb9bf816a91dcc4353685ccea4e18254690772
+      retrieved: 2026-11-08
+      usedFor: 4BS1 assessment requirements (papers 01/02, 1h30, 80 marks each, 50% each, total 160)
+    - id: pearson-4ec1-specification
+      url: https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/Economics/2017/Specification%20and%20SAMS/international-gcse-spec-9781446942789.pdf
+      sha256: 4920f7524cc9c519e463dba421f068b4cd6e9e0117e45f2f2936673c8dff9520
+      retrieved: 2026-11-08
+      usedFor: 4EC1 assessment requirements (papers 01/02, 1h30, 80 marks each, 50% each, total 160)
+    - id: pearson-4ea1-specification
+      url: https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/English%20Language%20A/2016/Specification%20and%20sample%20assessments/9781446954379-int-gcse-englang-a-iss6-02-02-2023.pdf
+      sha256: 512ea0098f7f6bd4e9f64836893c882fdd2e2523e2513ba2386486b92ecf5998
+      retrieved: 2026-11-08
+      usedFor: 4EA1 assessment requirements (Component 1 90/2h15, Component 2 exam or Component 3 coursework 60, total 150; spoken endorsement ungraded)
+    - id: pearson-4et1-specification
+      url: https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/English%20Literature/2016/Specification%20and%20sample%20assessments/international-gcse-english-literature-specification.pdf
+      sha256: a4d27a8c98028b09811142c1a5673f8b11d67129330046bca02ff4b89cc0aa90
+      retrieved: 2026-11-08
+      usedFor: 4ET1 assessment requirements (Component 1 90/2h, Component 2 exam or Component 3 NEA 60, total 150)
+    - id: pearson-4ge1-specification
+      url: https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/Geography/2017/specification-and-sample-assessments/9781446958360-int-gcse-geog-issue-3.pdf
+      sha256: a5ff19bd10182ce739b3f2eae6e94ab543ea3df31b418def965d184ad245aa0f
+      retrieved: 2026-11-08
+      usedFor: 4GE1 assessment requirements (Paper 1 70/1h10 40%, Paper 2 105/1h45 60%, total 175)
+    - id: pearson-4hi1-specification
+      url: https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/History/2017/specification-and-sample-assessments/int-gcse-history-specification.pdf
+      sha256: c8efe4433e9b03bb80b206838ceeb44c77b89b7af97a18fae1d2891c43d540f0
+      retrieved: 2026-11-08
+      usedFor: 4HI1 assessment requirements (papers 01/02, 1h30, 60 marks each, 50% each, total 120)
+    - id: pearson-4it1-specification
+      url: https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/Information%20and%20Communication%20Technology/2017/Specification%20and%20sample%20assessments/international-gcse-in-ict-spec.pdf
+      sha256: 12f15eeaae987589d221fac12bf3de2f6684bc2b01a20ffb0e056b339641a9dc
+      retrieved: 2026-11-08
+      usedFor: 4IT1 assessment requirements (Paper 1 written 100/1h30, Paper 2 practical 100/3h, total 200)
