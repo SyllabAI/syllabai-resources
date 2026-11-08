@@ -42,7 +42,8 @@ MathsGenie is **not uniform**. Within GCSE Maths Edexcel (the deep bank), resour
 | Lane | Topics | With question sheets | With solutions link | Notes |
 |---|---|---|---|---|
 | `gcse-maths-edexcel` | 134 (bands 1–7, 8-9) | 133 (120 ws + 13 booklet-only) | 133 | 5.13 Midpoint of a Line Segment: **nothing published** — recorded absent, no stub dir |
-| `igcse-maths-edexcel`, `as-level-maths-edexcel`, `a-level-maths-edexcel`, other boards | — | — | — | later runs under `T-MG-QB-*`; mode presence re-verified at run-000 of each |
+| `igcse-maths-edexcel` | 118 (bands 1–7, 8-9) | 118 (82 ws + 36 booklet, incl. 21 booklet-fallback) | 118 | extracted by `T-MG-QB-2/run-001`; no revision-guides / question-rush mode in this lane; 3.1 + 3.17 carry `question_count: 0` (image-only / fraction-fragment text layers — honest gaps, never padded) |
+| `as-level-maths-edexcel`, `a-level-maths-edexcel`, other boards | — | — | — | later runs under `T-MG-QB-*`; mode presence re-verified at run-000 of each |
 
 Rules (enforce in every extraction run):
 

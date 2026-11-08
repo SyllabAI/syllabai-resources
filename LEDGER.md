@@ -1055,3 +1055,43 @@ staged verbatim, ~147 MB). This wave supersedes that draft: the structured extra
 the draft's per-topic metadata, and the raw source PDFs are **removed from the lane** per the plane's
 pdf_policy of record — every source stays re-fetchable from its recorded URL + sha256, and the
 operator's 2026-11-07 direction (no paper PDFs hoarded in the corpus) is enforced in both directions.
+
+
+## Wave 26 — MG-QuestionBank's second lane: the MathsGenie IGCSE Maths (Edexcel) per-topic question bank (T-MG-QB-2 run-001; branch t-mg-qb-2/run-001)
+
+The question bank's first follow-up lane lands: `MG-QuestionBank/igcse-maths-edexcel` carries
+**118 of 118 topics / 1,438 structured questions** extracted from the live IGCSE lane
+(`mathsgenie.co.uk/igcse/maths/edexcel`), re-verified zero-drift against `T-MG-VERIFY-1/run-000`
+at run time, with every site-native slug grammar cross-validated 134/134 against the QB-1 GCSE
+catalog codes. Resource profile (sparse coverage of record): booklet 118, booklet-page worksheet
+103, solutions 118; the lane offers **no revision-guides and no question-rush mode at all**, and
+2,613 premium Set entries are recorded as gated, never downloaded. Mode divergence recorded, not
+silently reconciled: 17 topics expose a worksheet on the booklet page without a topic-page
+questions card, and 13 carry a questions card with no free worksheet entry.
+
+Extraction follows the QB-1 law of record (sequential-number anchors, `(N marks)` only, never
+inferred; booklet-fallback for image-only worksheets; per-page solution scans with the cover
+dropped by page-count match — extended here to the covered-booklet variant, since the IGCSE
+booklet tab serves the `/nocover/` booklet: 90 covers dropped, 26 ans files match the nocover
+booklet, 2 indeterminate with all pages retained). Two honest gaps are of record:
+`grade-3-3-1-fractions` and `grade-3-3-17-area-of-compound-shapes` carry `question_count: 0` —
+their sheets' text layers (image-only / fraction fragments) offer no sequentially anchorable
+question numbers; content stays reachable via recorded source URLs + solution scans, never padded.
+
+Two incidents disclosed for the chain of record. (1) **Same-day contamination, purged**: the first
+pass reused QB-1's working-PDF staging (`{code}.pdf` filenames) and 114 of 118 IGCSE topics
+share their code with GCSE — the fetch-skip served stale GCSE bytes under IGCSE URLs. Detected by
+visual QA (a GCSE cover surfacing inside the IGCSE lane), purged, hardened with lane-prefixed
+staging names (`igcse-<code>-*.pdf`), and the full 118-topic extraction re-run clean; recorded
+sha256s verified against fresh downloads. (2) **Parser hardening with a QB-1 finding**: IGCSE
+vector booklets render diagram labels ("2a", "3b") as digit-led text that fired as false question
+anchors mid-question; the hardened rule only accepts anchors within 75 pt of the column margin.
+A regression over all 133 GCSE QB-1 topics (staged source PDFs) shows 13 divergent topics —
+3 recovered undercounts, 10 deflated overcounts (incl. the image-only 3.2 booklet) — with
+ground-truth spot-checks (8.7 sequences: sheet truly has 4 questions, not 8; 4.17: at least 5,
+not 4) siding with the hardened parser. **A `T-MG-QB-1` run-002 re-extraction of the GCSE lane
+with the hardened parser is recommended as a follow-up**; the QB-1 corpus of record is untouched
+by this wave. Source PDFs fetched, processed, discarded — sha256 + URL only survive per topic.
+Receipt: `MG-QuestionBank/T-MG-QB-2-run-001-RECEIPT.json`; scripts land as `scripts/mg_qb2_*.py`
+(catalog builder, extractor, manifest builder, uploader, parser-regression harness) with run
+evidence under `scripts/mg_qb2_run001/`.

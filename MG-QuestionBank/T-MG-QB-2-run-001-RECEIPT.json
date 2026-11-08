@@ -1,0 +1,254 @@
+{
+ "receipt": "T-MG-QB-2-run-001",
+ "task_id": "T-MG-QB-2/run-001",
+ "date": "2026-11-07T18:49:27Z",
+ "actor": "SyllabAI Corpus Bot (operator-directed)",
+ "scope": "MG-QuestionBank/igcse-maths-edexcel \u2014 per-topic exam-question bank from MathsGenie (second QB lane; first follow-up to T-MG-QB-1)",
+ "sources": {
+  "lane_page": "https://www.mathsgenie.co.uk/igcse/maths/edexcel",
+  "booklet_pages": "mathsgenie.co.uk/igcse/maths/edexcel/{slug}/booklet (RSC entriesByTab)",
+  "asset_host": "assets.mathsgenie.co.uk/sources/mathsgenie/content/resources/",
+  "site_lane_join": "https://mathsgenie.co.uk/igcse/maths/edexcel"
+ },
+ "counts": {
+  "topics_in_catalog": 118,
+  "topics_extracted": 118,
+  "topics_no_question_source": 0,
+  "questions": 1438,
+  "source_kinds": {
+   "ws-sheet": 82,
+   "booklet": 15,
+   "booklet-fallback (ws has no text anchors)": 21
+  },
+  "premium_gated_recorded_not_downloaded": 2613
+ },
+ "exclusions": [
+  "past-paper banks",
+  "predicted-paper banks",
+  "mini-tests (operator decision 2026-11-07: no paper PDFs)"
+ ],
+ "honest_gaps": [
+  {
+   "metric": "2 extracted topics carry 0 questions",
+   "topics": [
+    "grade-3-3-1-fractions",
+    "grade-3-3-17-area-of-compound-shapes"
+   ],
+   "note": "question source reachable but the text layer has no sequentially anchorable question numbers (image-only sheets / fraction-fragment layers); content preserved via recorded source URLs + solution scans \u2014 never padded"
+  },
+  {
+   "metric": "0 topics without solutions",
+   "codes": [],
+   "note": "solutions asset missing at source; recorded, not substituted"
+  },
+  {
+   "metric": "2 answers with indeterminate cover rule",
+   "slugs": [
+    "grade-3-3-8-exchange-rates",
+    "grade-7-7-15-conditional-probability"
+   ],
+   "note": "all ans pages retained, honest gap recorded per topic"
+  },
+  {
+   "metric": "marks null where only booklet 'Total for question' lines print marks",
+   "note": "consistent with the T-MG-QB-1 marks law (printed '(N marks)' only)"
+  }
+ ],
+ "verification": [
+  "live lane re-verified at run time: 118/118 topics, zero drift vs T-MG-VERIFY-1 run-000",
+  "slug grammar cross-validated 134/134 against the T-MG-QB-1 catalog codes",
+  "sequential question-number anchors enforced (gaps logged)",
+  "anchor hardening: column-relative x<=75pt guard rejects digit-led diagram labels ('2 a', '3 b', '14 cm 6 cm') that previously fired as false anchors mid-question",
+  "parser regression vs the T-MG-QB-1 GCSE of-record corpus run (133 topics, staged source PDFs): 13 divergent topics (3 recovered undercounts, 10 deflated overcounts incl. one image-only booklet) \u2014 ground-truth spot-checks side with the hardened parser; T-MG-QB-1 re-extraction recommended as a follow-up run",
+  "marks parsed from printed '(N marks)' only; never inferred",
+  "cover-drop rule extended to the covered-booklet page-count match (IGCSE /nocover/ booklet variant)",
+  "premium worksheet Sets recorded as gated (2,613 entries), never downloaded (license law)",
+  "PDF-staging hygiene: lane-prefixed working filenames (igcse-<code>-*.pdf) \u2014 a GCSE/IGCSE code-collision contamination in the first same-day pass was purged and the full 118-topic extraction re-run clean; recorded shas verified against fresh downloads"
+ ],
+ "qb1_parser_hardening_findings": {
+  "purpose": "T-MG-QB-2 run-001 hardening check: patched anchor rule (column-relative x <= 75pt) vs T-MG-QB-1 run-001 of-record per-topic question counts on the GCSE corpus",
+  "checked": 133,
+  "missing_pdfs": [],
+  "divergent_topics": [
+   {
+    "code": "3.2",
+    "slug": "grade-3-3-2-fractions",
+    "of_record": 3,
+    "patched": 0
+   },
+   {
+    "code": "3.4",
+    "slug": "grade-3-3-4-writing-and-simplifying-ratio",
+    "of_record": 16,
+    "patched": 4
+   },
+   {
+    "code": "3.8",
+    "slug": "grade-3-3-8-percentage-change",
+    "of_record": 14,
+    "patched": 4
+   },
+   {
+    "code": "3.10",
+    "slug": "grade-3-3-10-conversions-and-units",
+    "of_record": 10,
+    "patched": 9
+   },
+   {
+    "code": "3.17",
+    "slug": "grade-3-3-17-transformations",
+    "of_record": 10,
+    "patched": 7
+   },
+   {
+    "code": "3.18",
+    "slug": "grade-3-3-18-area-of-compound-shapes",
+    "of_record": 2,
+    "patched": 0
+   },
+   {
+    "code": "4.12",
+    "slug": "grade-4-4-12-surface-area",
+    "of_record": 8,
+    "patched": 7
+   },
+   {
+    "code": "4.13",
+    "slug": "grade-4-4-13-volume-of-a-prism",
+    "of_record": 8,
+    "patched": 7
+   },
+   {
+    "code": "4.17",
+    "slug": "grade-4-4-17-plans-and-elevations",
+    "of_record": 4,
+    "patched": 7
+   },
+   {
+    "code": "5.9",
+    "slug": "grade-5-5-9-drawing-quadratic-graphs",
+    "of_record": 3,
+    "patched": 7
+   },
+   {
+    "code": "6.11",
+    "slug": "grade-6-6-11-cumulative-frequency",
+    "of_record": 6,
+    "patched": 10
+   },
+   {
+    "code": "7.8",
+    "slug": "grade-7-7-8-trigonometric-and-exponential-graphs",
+    "of_record": 10,
+    "patched": 9
+   },
+   {
+    "code": "8.7",
+    "slug": "grade-8-9-8-7-velocity-time-graphs",
+    "of_record": 8,
+    "patched": 4
+   }
+  ],
+  "recovered_undercounts": [
+   {
+    "code": "4.17",
+    "slug": "grade-4-4-17-plans-and-elevations",
+    "of_record": 4,
+    "patched": 7
+   },
+   {
+    "code": "5.9",
+    "slug": "grade-5-5-9-drawing-quadratic-graphs",
+    "of_record": 3,
+    "patched": 7
+   },
+   {
+    "code": "6.11",
+    "slug": "grade-6-6-11-cumulative-frequency",
+    "of_record": 6,
+    "patched": 10
+   }
+  ],
+  "deflated_overcounts": [
+   {
+    "code": "3.2",
+    "slug": "grade-3-3-2-fractions",
+    "of_record": 3,
+    "patched": 0
+   },
+   {
+    "code": "3.4",
+    "slug": "grade-3-3-4-writing-and-simplifying-ratio",
+    "of_record": 16,
+    "patched": 4
+   },
+   {
+    "code": "3.8",
+    "slug": "grade-3-3-8-percentage-change",
+    "of_record": 14,
+    "patched": 4
+   },
+   {
+    "code": "3.10",
+    "slug": "grade-3-3-10-conversions-and-units",
+    "of_record": 10,
+    "patched": 9
+   },
+   {
+    "code": "3.17",
+    "slug": "grade-3-3-17-transformations",
+    "of_record": 10,
+    "patched": 7
+   },
+   {
+    "code": "3.18",
+    "slug": "grade-3-3-18-area-of-compound-shapes",
+    "of_record": 2,
+    "patched": 0
+   },
+   {
+    "code": "4.12",
+    "slug": "grade-4-4-12-surface-area",
+    "of_record": 8,
+    "patched": 7
+   },
+   {
+    "code": "4.13",
+    "slug": "grade-4-4-13-volume-of-a-prism",
+    "of_record": 8,
+    "patched": 7
+   },
+   {
+    "code": "7.8",
+    "slug": "grade-7-7-8-trigonometric-and-exponential-graphs",
+    "of_record": 10,
+    "patched": 9
+   },
+   {
+    "code": "8.7",
+    "slug": "grade-8-9-8-7-velocity-time-graphs",
+    "of_record": 8,
+    "patched": 4
+   }
+  ],
+  "ground_truth_spot_checks": [
+   {
+    "code": "8.7",
+    "finding": "ws truly has 4 questions (IGCSE Sequences Higher, 1 page Q1-Q4); of-record 8 was inflated by sequence-term false anchors"
+   },
+   {
+    "code": "4.17",
+    "finding": "ws truly has >=5 questions (Q1 and Q5 visible on page 1); of-record 4 was an undercount"
+   },
+   {
+    "code": "3.2",
+    "finding": "booklet questions are images; text layer is fraction fragments; of-record 3 were fragment strips, patched 0 is the honest state"
+   }
+  ]
+ },
+ "artifacts": [
+  "MG-QuestionBank/igcse-maths-edexcel/manifest.json",
+  "MG-QuestionBank/igcse-maths-edexcel/INDEX.md",
+  "MG-QuestionBank/igcse-maths-edexcel/<topic>/topic.json|questions.json|.md|answers.json|.md|assets/"
+ ]
+}
