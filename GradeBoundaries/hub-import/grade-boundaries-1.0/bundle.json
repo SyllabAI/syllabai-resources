@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.grade-boundaries/1.1",
- "generated": "2026-11-08T19:14:57Z",
+ "generated": "2026-11-08T19:18:46Z",
  "generator": "GradeBoundaries/scripts/build_hub_import.py v3",
  "source": {
   "lane": "SyllabAI/syllabai-resources GradeBoundaries",
@@ -215192,7 +215192,17 @@
       "sha256_16": "a5ff19bd10182ce7",
       "usedFor": "4GE1 assessment requirements (Paper 1 70/1h10 40%, Paper 2 105/1h45 60%, total 175)"
      }
-    ]
+    ],
+    "adaptedSessions": {
+     "November 2021": {
+      "servedMaxMark": 160,
+      "note": "Adapted November 2021 assessment: the official boundaries document prints the 4GE1 subject row at maxMark 160 (COVID-era adaptations). Evidence: raw/pearson-int-gcse-linear/November 2021.pdf (pinned in raw/MANIFEST.jsonl)."
+     },
+     "June 2022": {
+      "servedMaxMark": 134,
+      "note": "Adapted June 2022 assessment (advance-information arrangements): the official boundaries document prints the 4GE1 subject row at maxMark 134. Evidence: raw/pearson-int-gcse-linear/June 2022.pdf (pinned)."
+     }
+    }
    }
   },
   "igcse-history-17": {
@@ -216419,7 +216429,17 @@
       "sha256_16": "c8efe4433e9b03bb",
       "usedFor": "4HI1 assessment requirements (papers 01/02, 1h30, 60 marks each, 50% each, total 120)"
      }
-    ]
+    ],
+    "adaptedSessions": {
+     "November 2021": {
+      "servedMaxMark": 90,
+      "note": "Adapted November 2021 assessment: the official boundaries document prints 4HI1 route rows (Papers 1A+2A, 1B+2B) at maxMark 90. Evidence: raw/pearson-int-gcse-linear/November 2021.pdf (pinned)."
+     },
+     "June 2022": {
+      "servedMaxMark": 90,
+      "note": "Adapted June 2022 assessment: the official boundaries document prints 4HI1 route rows at maxMark 90. Evidence: raw/pearson-int-gcse-linear/June 2022.pdf (pinned)."
+     }
+    }
    }
   },
   "igcse-ict-17": {
