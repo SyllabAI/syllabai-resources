@@ -1,0 +1,133 @@
+{
+ "topic": "as-statistics-variance-and-standard-deviation",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Why spread matters",
+   "body": "![Two horizontal dot plots labelled Set A and Set B, both centred on mean 5, with Set A at 4, 5, 6 and Set B at 1, 5, 9 to show different spread](../assets/001-2f4b484b-877e-4bc6-b5d3-58feb5077e50.jpeg)\n\nA measure of location, such as the mean, tells you where the data is centred. A measure of spread tells you how tightly the values cluster around that centre.\n\nThe two sets in the diagram both have mean $5$, but Set B is more spread out. Standard deviation measures the typical distance of values from the mean, so a larger standard deviation means more variation.\n\nIf there are $n$ data values, the mean is\n\n$$\\bar{x}=\\frac{\\sum x}{n}$$\n\nWe use this mean as the centre when discussing spread.",
+   "figure_refs": [
+    "assets/001-2f4b484b-877e-4bc6-b5d3-58feb5077e50.jpeg"
+   ]
+  },
+  {
+   "heading": "Deviation, variance, and standard deviation",
+   "body": "A deviation tells you how far a value is from the mean, so for a value $x$ it is $x-\\bar{x}$. If you add all the deviations, they cancel to zero, so we square them instead. Variance is the mean of the squared deviations, so it uses squared units. Standard deviation is the square root of the variance, so it is back in the original units.\n\n$$$s^2=\\frac{\\sum (x-\\bar{x})^2}{n},\\qquad s=\\sqrt{\\frac{\\sum (x-\\bar{x})^2}{n}}$$\n\nIn AS questions, the shortcut formula below is usually faster. Remember that this gives the variance first, so you must square root to get $s$.\n\n$$$s^2=\\frac{\\sum x^2}{n}-\\bar{x}^2$$"
+  },
+  {
+   "heading": "Worked example: raw data setup",
+   "body": "The six race times are $45.2$, $46.8$, $46.0$, $46.3$, $45.5$, and $45.0$ seconds. For raw data, start by finding $n$, $\\sum x$, and $\\sum x^2$.\n\nHere the totals are shown below. These are the key calculator values to write down. $$n=6,\\qquad \\sum x=274.8,\\qquad \\sum x^2=12588.22$$\n\nNow find the mean so you know the centre of the data. This will be used again in the variance formula. $$\\bar{x}=\\frac{274.8}{6}=45.8$$"
+  },
+  {
+   "heading": "Worked example: raw data finish",
+   "body": "Substitute the totals into the shortcut formula to get the variance. This is quicker than working from every deviation one by one.\n\n$$$s^2=\\frac{12588.22}{6}-45.8^2=0.396666\\ldots$$\n\nNow square root the variance to get the standard deviation. Quote the answer to 3 significant figures.\n\n$$$s=\\sqrt{0.396666\\ldots}=0.6298\\ldots \\approx 0.630$$ So the standard deviation is $0.630$ seconds. If you stopped at $0.396666\\ldots$, you would only have the variance."
+  },
+  {
+   "heading": "Grouped data: estimate using midpoints",
+   "body": "When data is grouped into class intervals, the exact values are missing. We estimate each class by its midpoint and combine it with the frequency. Because midpoints replace the original values, the answers are estimates.\n\n$$$\\bar{x}=\\frac{\\sum fx}{\\sum f},\\qquad s^2=\\frac{\\sum fx^2}{\\sum f}-\\bar{x}^2$$\n\nFor the plant heights, $\\sum f=50$, $\\sum fx=7360$, and $\\sum fx^2=1091100$. Applying the midpoints to the formula gives the following results: $$\\bar{x}=\\frac{7360}{50}=147.2,\\qquad s=\\sqrt{\\frac{1091100}{50}-147.2^2}=12.4$$\n\nThe estimated standard deviation is 12.4 cm. For a class such as $160 < h \\leq 180$, remember that the midpoint is $170$, rather than the boundaries $160$ or $180$."
+  },
+  {
+   "heading": "Coding: what changes and what stays the same",
+   "body": "Coding makes awkward numbers easier to handle. If $T=a+bX$, then the mean and median of $T$ are found by applying the same transformation.\n\nSpread only reacts to the scale factor. The shift $a$ does not change spread, but the standard deviation is multiplied by $|b|$ and the variance by $b^2$.\n\n$$$s_T=|b|s_X$$\n\nFor example, if $x=\\frac{t-12}{3}$, then $t=3x+12$. So a coded standard deviation of $7.81$ becomes $s_t=3\\times 7.81=23.4$, and you do not add 12 to the standard deviation."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Two data sets both have mean $12$. Set A is $11, 12, 13$ and Set B is $6, 12, 18$. Which statement is correct?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Set A has the larger standard deviation",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "Set B has the larger standard deviation",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "The standard deviations are equal because the means are equal",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Standard deviation cannot be compared without the median",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Set B is correct because its values are further from the mean $12$, so the deviations and squared deviations are larger. The common wrong answer is C, but having the same mean only tells you the centre, not the spread."
+  },
+  {
+   "id": "card-11",
+   "question": "In the class $160 < h \\leq 180$, which value should be used as $x$ in the grouped-data formula?",
+   "options": [
+    {
+     "id": "a",
+     "text": "160",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "170",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "180",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "20",
+     "is_correct": false
+    }
+   ],
+   "explanation": "170 is correct because the midpoint is halfway between 160 and 180. The common wrong answer is A, but 160 is just the lower class boundary, not a representative value for the whole class."
+  },
+  {
+   "id": "card-14",
+   "question": "Stretch: If $Y=4-2X$ and the variance of $X$ is $9$, what is the variance of $Y$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "18",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "9",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "36",
+     "is_correct": true
+    },
+    {
+     "id": "d",
+     "text": "13",
+     "is_correct": false
+    }
+   ],
+   "explanation": "36 is correct because multiplying by -2 multiplies the variance by $(-2)^2=4$, and the +4 shift does not change spread. The common wrong answer is A because it multiplies by 2 instead of squaring the scale factor."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/as-statistics-variance-and-standard-deviation/lessons",
+ "source_sha256": "bcc3a9fd9fb3b3040de404cf55f18504cadb258ea8913df48f389c1d81494bcc",
+ "extracted_at": "2026-11-08T19:02:18Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-3 run-001)",
+ "task_id": "T-MG-LS-3",
+ "source_meta": {
+  "lesson_id": "77808490-6598-90de-8f04-79f4322c0c41",
+  "topic_id": "62f9311a-85a8-36b7-4b3e-b2b2a418a52f",
+  "created_at": "2026-05-14T03:46:25.049Z",
+  "updated_at": "2026-05-14T03:47:51.164Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

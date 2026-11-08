@@ -1,0 +1,133 @@
+{
+ "topic": "a-level-pure-mathematics-12-vectors",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Components and resultants",
+   "body": "![3D axes with a vector from the origin to the point (3,-2,5), with dashed component projections labelled 3i, -2j and 5k](../assets/001-c0e60ea7-31db-48a5-9e06-3d14d4fb7b5e.jpeg)\nA vector has magnitude and direction, so in 3D we describe it by how far it moves in the $\\mathbf{i}$, $\\mathbf{j}$ and $\\mathbf{k}$ directions. For example, $3\\mathbf{i}-2\\mathbf{j}+5\\mathbf{k}$ means 3 units in $x$, 2 units in the negative $y$ direction, and 5 units in $z$.\n\nThe same vector can be written as a column vector:\n$$\n\\begin{pmatrix}\n3\\\\\n-2\\\\\n5\n\\end{pmatrix}\n$$\nHere $\\mathbf{i}$, $\\mathbf{j}$ and $\\mathbf{k}$ are unit vectors, each with length 1.\n\nTo add or subtract vectors, work component by component. For example,\n$$\n(x_1\\mathbf{i}+y_1\\mathbf{j}+z_1\\mathbf{k})+(x_2\\mathbf{i}+y_2\\mathbf{j}+z_2\\mathbf{k})=(x_1+x_2)\\mathbf{i}+(y_1+y_2)\\mathbf{j}+(z_1+z_2)\\mathbf{k}\n$$\nthe $\\mathbf{i}$, $\\mathbf{j}$ and $\\mathbf{k}$ parts are combined separately, and the final single vector is the resultant.",
+   "figure_refs": [
+    "assets/001-c0e60ea7-31db-48a5-9e06-3d14d4fb7b5e.jpeg"
+   ]
+  },
+  {
+   "heading": "Position vectors and displacement",
+   "body": "A position vector tells you where a point is relative to the origin $O$. If point $A$ has position vector $\\mathbf{a}$, then $\\vec{OA}=\\mathbf{a}$.\n\nA displacement vector tells you how to move from one point to another. If $A$ has position vector $\\mathbf{a}$ and $B$ has position vector $\\mathbf{b}$, then the displacement between them is calculated as:\n\n$$$\\vec{AB}=\\mathbf{b}-\\mathbf{a}$$\n\nThis is the head minus tail rule. If you subtract the other way round, you reverse the direction. So $\\vec{BA}=\\mathbf{a}-\\mathbf{b}=-\\vec{AB}$, which has the same length as $\\vec{AB}$ but points the opposite way."
+  },
+  {
+   "heading": "Worked example: finding a vector and its length",
+   "body": "Suppose points $A$ and $B$ have position vectors $2\\mathbf{i}-3\\mathbf{j}+4\\mathbf{k}$ and $-5\\mathbf{i}+\\mathbf{j}+6\\mathbf{k}$. First find the displacement by subtracting the position vector of $A$ from that of $B$:\n$$\\vec{AB}=(-5-2)\\mathbf{i}+(1-(-3))\\mathbf{j}+(6-4)\\mathbf{k}=-7\\mathbf{i}+4\\mathbf{j}+2\\mathbf{k}$$\n\nNow use the magnitude formula for a 3D vector. Substitute the three components into the radical expression:\n$$|\\vec{AB}|=\\sqrt{(-7)^2+4^2+2^2}$$\nThis application is essentially the Pythagorean theorem extended to three perpendicular directions.\n\nSimplify the terms under the radical carefully to find the final scalar value:\n$$|\\vec{AB}|=\\sqrt{49+16+4}=\\sqrt{69}$$\nThe exact length is $\\sqrt{69}$, not 69, because the square root operation is a fundamental part of the magnitude formula."
+  },
+  {
+   "heading": "Routes, midpoints and extending a line",
+   "body": "Vectors can be linked like journeys. If you go from $A$ to $B$ and then from $B$ to $C$, the resulting vector $\\vec{AC}$ is the sum of the individual paths:\n$$\n\\vec{AB}+\\vec{BC}=\\vec{AC}\n$$\nThis relationship can be rearranged to find an unknown side vector if the other two are known.\n\nThe midpoint of two position vectors is defined as their average. If $A$ has position vector $\\mathbf{a}$ and $B$ has position vector $\\mathbf{b}$, the midpoint position vector is:\n$$\n\\frac{\\mathbf{a}+\\mathbf{b}}{2}\n$$\nTo calculate this result, you average the corresponding $x$ and $y$ components separately.\n\nIf a line is extended so that $\\vec{AB}=\\vec{BD}$, you first find the vector $\\vec{AB}=\\mathbf{b}-\\mathbf{a}$. Then add this to the position vector $\\mathbf{b}$ to find the new point's position:\n$$\n\\mathbf{d}=\\mathbf{b}+\\vec{AB}=2\\mathbf{b}-\\mathbf{a}\n$$"
+  },
+  {
+   "heading": "Parallel vectors and simple shape proofs",
+   "body": "Consider the trapezium $OABC$, with vertices joined in order $O \\to A \\to B \\to C \\to O$:\n```\n   A ────→ B\n  ╱        ╲\n O ────────→ C\n```\nHere the only vectors shown on the parallel sides are $\\vec{AB}$ on the top and $\\vec{OC}$ on the bottom, with $\\vec{OC}=2\\vec{AB}$. Two non-zero vectors are parallel if one is a scalar multiple of the other, so every component is multiplied by the same number.\n\nIn coordinate shape questions, calculate the vectors for opposite sides and check whether one is a scalar multiple of the other. Reversing a side changes the sign of the vector but not whether the sides are parallel. A parallelogram has both pairs of opposite sides parallel, while a trapezium has exactly one pair.\n\nIn this example, $\\vec{AB}=3\\mathbf{i}-2\\mathbf{j}+\\mathbf{k}$ and $\\vec{OC}=6\\mathbf{i}-4\\mathbf{j}+2\\mathbf{k}=2\\vec{AB}$. So the sides $AB$ and $OC$ are parallel. If $\\vec{OA}$ and $\\vec{BC}$ are not scalar multiples of each other, then the other pair is not parallel, so $OABC$ is a trapezium rather than a parallelogram."
+  },
+  {
+   "heading": "Unknown components from a magnitude",
+   "body": "Sometimes a magnitude is given and one component is unknown. To solve these, start with the magnitude formula and square both sides to remove the square root. For example, consider the vector magnitude equation $|2\\mathbf{i}+m\\mathbf{j}-3\\mathbf{k}|=7$.\n\n$$$\\sqrt{2^2+m^2+(-3)^2}=7$$\n\nSquaring both sides gives the equation $4+m^2+9=49$. Notice that the negative component still becomes positive after squaring, which is a crucial step to remember when dealing with unknown variables.\n\nSimplifying leads to $m^2=36$, hence $m=\\pm 6$. There are two answers because a magnitude gives length only; therefore, both positive and negative $\\mathbf{j}$ components can produce the same overall magnitude."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Three forces act on a particle: $\\mathbf{F}_1=-2\\mathbf{i}+5\\mathbf{j}+3\\mathbf{k}$, $\\mathbf{F}_2=6\\mathbf{i}-\\mathbf{j}-4\\mathbf{k}$ and $\\mathbf{F}_3=\\mathbf{i}+2\\mathbf{j}+7\\mathbf{k}$. What is the resultant force?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$5\\mathbf{i}+6\\mathbf{j}+6\\mathbf{k}$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$3\\mathbf{i}+6\\mathbf{j}+6\\mathbf{k}$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$5\\mathbf{i}+4\\mathbf{j}+10\\mathbf{k}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$9\\mathbf{i}+6\\mathbf{j}-8\\mathbf{k}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Add each component separately: $-2+6+1=5$, $5-1+2=6$, and $3-4+7=6$, so the resultant is $5\\mathbf{i}+6\\mathbf{j}+6\\mathbf{k}$. Option B is the common wrong choice because it treats the $\\mathbf{i}$ component of $\\mathbf{F}_3$ as negative instead of positive."
+  },
+  {
+   "id": "card-6",
+   "question": "What is the magnitude of $\\vec{AB}$ if $\\vec{AB}=-7\\mathbf{i}+4\\mathbf{j}+2\\mathbf{k}$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$\\sqrt{69}$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$69$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$\\sqrt{53}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$13$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Magnitude uses the square root of the sum of squares: $\\sqrt{(-7)^2+4^2+2^2}=\\sqrt{69}$. Option B is the common wrong answer because 69 is the value inside the square root, not the magnitude itself."
+  },
+  {
+   "id": "card-12",
+   "question": "In quadrilateral $OABC$, suppose $\\vec{OC}=2\\vec{AB}$ and $\\vec{BC}$ is not a scalar multiple of $\\vec{OA}$. Which shape must $OABC$ be?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Parallelogram",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "Trapezium",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "Rectangle",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Kite",
+     "is_correct": false
+    }
+   ],
+   "explanation": "If $\\vec{OC}=2\\vec{AB}$, then $\\vec{CO}=-2\\vec{AB}$, so $AB$ is parallel to $CO$. Also, $\\vec{BC}$ not being a scalar multiple of $\\vec{OA}$ means $BC$ is not parallel to $OA$. Therefore, the quadrilateral has exactly one pair of opposite sides parallel, so it must be a trapezium."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/a-level-pure-mathematics-12-vectors/lessons",
+ "source_sha256": "a7a7ad339ec4c73e6a1d38e87e03ced17c62a51227528644967169b1a6549b5a",
+ "extracted_at": "2026-11-08T19:01:39Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-3 run-001)",
+ "task_id": "T-MG-LS-3",
+ "source_meta": {
+  "lesson_id": "0c7b4aaa-e929-43f2-95d5-d738225d3806",
+  "topic_id": "53f28e45-68bc-4049-aa25-45ef430b2cc3",
+  "created_at": "2026-05-13T02:36:28.726Z",
+  "updated_at": "2026-05-13T02:42:35.775Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

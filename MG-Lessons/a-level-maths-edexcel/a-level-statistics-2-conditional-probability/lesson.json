@@ -1,0 +1,105 @@
+{
+ "topic": "a-level-statistics-2-conditional-probability",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Event notation and overlap",
+   "body": "Probability questions use events such as $A$ and $B$. The complement $A'$ means $A$ does not happen, the intersection $A \\cap B$ means both happen, and the union $A \\cup B$ means at least one happens. For two events, the \"or\" formula is:\n\n$$$P(A \\cup B)=P(A)+P(B)-P(A \\cap B)$$\n\nThis formula subtracts the intersection because the overlap is counted twice if you just add $P(A)$ and $P(B)$. If you want the probability of neither event, take the complement of the union:\n\n$$$P(A' \\cap B')=1-P(A \\cup B)$$\n\nThis outside region often appears before a conditional probability question."
+  },
+  {
+   "heading": "Conditional probability means a smaller sample space",
+   "body": "![Venn diagram with B shaded as the reduced sample space and overlap A intersect B darkened](../assets/001-e7f75fdd-28ec-45ab-be03-12d34508b381.jpeg)\n\n$P(A \\mid B)$ means the probability of $A$, given that $B$ has happened. Once $B$ is known, event $B$ becomes the whole sample space.\n\n$$$P(A \\mid B)=\\frac{P(A \\cap B)}{P(B)}$$\n\nThe event after the bar tells you the denominator, so \"given $B$\" means divide by $P(B)$, not by $P(A)$.",
+   "figure_refs": [
+    "assets/001-e7f75fdd-28ec-45ab-be03-12d34508b381.jpeg"
+   ]
+  },
+  {
+   "heading": "Worked example: reverse conditionals",
+   "body": "Suppose $P(A)=\\frac{5}{18}$, $P(B)=\\frac{2}{3}$ and $P(A \\mid B)=\\frac{1}{4}$. Start by reversing the conditional formula to find the overlap.\n$$P(A \\cap B)=P(A \\mid B)P(B)=\\frac{1}{4}\\times \\frac{2}{3}=\\frac{1}{6}$$\n\nTo find $P(B' \\mid A)$, we first need the part of $A$ that is not in $B$. Subtract the overlap from $P(A)$.\n$$P(A \\cap B')=P(A)-P(A \\cap B)=\\frac{5}{18}-\\frac{1}{6}=\\frac{1}{9}$$\n\nNow condition on $A$, because the phrase is \"given $A$\". Divide by $P(A)$, not by $P(B')$.\n$$P(B' \\mid A)=\\frac{P(A \\cap B')}{P(A)}=\\frac{\\frac{1}{9}}{\\frac{5}{18}}=\\frac{2}{5}$$\n\nFor $P(A' \\cup B)$, it is quicker to use a complement. The only region excluded is $A \\cap B'$, so\n$$P(A' \\cup B)=1-P(A \\cap B')=1-\\frac{1}{9}=\\frac{8}{9}$$"
+  },
+  {
+   "heading": "Independence versus mutually exclusive",
+   "body": "Independent events do not affect each other. You can test for independence using the following multiplication rule:\n\n$$$P(A \\cap B)=P(A)P(B)$$\n\nEquivalently, you can check if $P(A \\mid B)=P(A)$ when $P(B)>0$. On the other hand, mutually exclusive events are events that cannot happen together, meaning their intersection is empty.\n\n$$$P(A \\cap B)=0$$\n\nSince there is no overlap, the union simplifies to $P(A \\cup B)=P(A)+P(B)$. If $P(A)$ and $P(B)$ are non-zero and mutually exclusive, knowing $B$ happened makes $A$ impossible, so the events cannot be independent."
+  },
+  {
+   "heading": "Tree diagrams and reverse conditionals",
+   "body": "![Probability tree showing machines A, B, and C leading to faulty and not faulty branches with probabilities labelled](../assets/002-ca73318d-58ba-40df-8fa1-bdffda2d0254.jpeg)\nA tree diagram is useful when there are stages, such as choosing a machine and then checking whether a component is faulty. Multiply along each path, and add separate paths that end at the same outcome.\n\nHere $P(A)=0.50$, $P(B)=0.30$, $P(C)=0.20$ and the faulty rates are $4\\%$, $2\\%$, and $5\\%$. Multiply along the faulty paths:\n$$P(A \\cap F)=0.50 \\times 0.04=0.020$$\n$$P(B \\cap F)=0.30 \\times 0.02=0.006$$\n$$P(C \\cap F)=0.20 \\times 0.05=0.010$$\n\nAdd these separate faulty paths to get the total probability:\n$$P(F)=0.020+0.006+0.010=0.036$$\nThis is the probability that a randomly chosen component is faulty regardless of which machine produced it.\n\nIf the component is known to be faulty, only the faulty branches remain in the sample space. So\n$$P(C \\mid F)=\\frac{P(C \\cap F)}{P(F)}=\\frac{0.010}{0.036}=\\frac{5}{18}$$\nThis is larger than $0.20$ because machine $C$ has the highest faulty rate among the three.",
+   "figure_refs": [
+    "assets/002-ca73318d-58ba-40df-8fa1-bdffda2d0254.jpeg"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-3",
+   "question": "Which expression is always equal to $P(A \\mid B)$, provided $P(B)>0$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$\\frac{P(A \\cap B)}{P(B)}$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$\\frac{P(A \\cap B)}{P(A)}$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$\\frac{P(A \\cup B)}{P(B)}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$P(A)+P(B)$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The condition is $B$, so $B$ is the reduced sample space and the denominator must be $P(B)$. The most common wrong answer is B, but dividing by $P(A)$ would match a \"given $A$\" question instead."
+  },
+  {
+   "id": "card-7",
+   "question": "Stretch: Events $A$ and $B$ satisfy $P(A)=\\frac{5}{18}$, $P(B)=\\frac{2}{3}$ and $P(A \\mid B)=\\frac{1}{4}$. What is $P(B' \\mid A)$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$\\frac{2}{5}$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$\\frac{1}{4}$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$\\frac{1}{6}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$\\frac{3}{5}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "First find $P(A \\cap B)=\\frac{1}{6}$, then $P(A \\cap B')=\\frac{5}{18}-\\frac{1}{6}=\\frac{1}{9}$. Finally divide by $P(A)=\\frac{5}{18}$ to get $\\frac{2}{5}$; the common wrong answer $\\frac{1}{4}$ is just the original $P(A \\mid B)$ and does not reverse the condition. Hint: Work inside event $A$."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/a-level-statistics-2-conditional-probability/lessons",
+ "source_sha256": "31599de78b60246def3e9050046d9bf825f9fafb1428d41ccf0958bb718e5fd9",
+ "extracted_at": "2026-11-08T19:01:47Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-3 run-001)",
+ "task_id": "T-MG-LS-3",
+ "source_meta": {
+  "lesson_id": "dee8ba27-35d9-4c93-a0e1-67d859940354",
+  "topic_id": "26d692db-d581-4f20-af2a-c8d8a9cc694c",
+  "created_at": "2026-05-13T05:06:22.758Z",
+  "updated_at": "2026-05-13T05:07:00.473Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

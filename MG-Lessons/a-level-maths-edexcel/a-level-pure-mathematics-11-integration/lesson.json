@@ -1,0 +1,133 @@
+{
+ "topic": "a-level-pure-mathematics-11-integration",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Integration as reverse differentiation",
+   "body": "Integration reverses differentiation: if $F'(x)=f(x)$, then $\\int f(x)\\,dx = F(x)+c$. The constant $+c$ is essential because any constant disappears when you differentiate. Later, the same idea powers area problems, differential equations and numerical estimates.\n\nFor $n \\neq -1$,\n$$\\int x^n\\,dx = \\frac{x^{n+1}}{n+1}+c$$\nand the special case is\n$$\\int \\frac{1}{x}\\,dx = \\ln|x|+c.$$\nA linear bracket such as $ax+b$ needs a scale factor, so reverse the chain rule by dividing by the derivative of the bracket."
+  },
+  {
+   "heading": "Reverse chain rule in action",
+   "body": "A very common mistake is forgetting the hidden derivative inside a bracket. Since $\\frac{d}{dx}(5x-3)=5$, reversing the chain rule for $(5x-3)^{1/2}$ means dividing by 5.\n\nFor the first term, we apply the reverse chain rule: $$\\int (5x-3)^{1/2}\\,dx = \\frac{1}{5}\\cdot\\frac{(5x-3)^{3/2}}{3/2} = \\frac{2}{15}(5x-3)^{3/2}.$$ That extra factor of $\\frac{1}{5}$ is what students most often miss.\n\nFor the second term: $$\\int 2(4x+1)^{-3}\\,dx = 2\\cdot\\frac{1}{4}\\cdot\\frac{(4x+1)^{-2}}{-2} = -\\frac{1}{4}(4x+1)^{-2}.$$ Combining these, we find: $$\\int \\left((5x-3)^{1/2} + 2(4x+1)^{-3}\\right)\\,dx = \\frac{2}{15}(5x-3)^{3/2} - \\frac{1}{4}(4x+1)^{-2} + c.$$ Differentiate this result and both original terms reappear."
+  },
+  {
+   "heading": "Definite integrals and signed area",
+   "body": "![Graph of y = x^3 - x with the region from x = -1 to 0 shaded above the x-axis as positive area and the region from x = 0 to 1 shaded below the x-axis as negative area, showing that a definite integral gives signed area](../assets/001-e8a07efe-bdca-4a09-8cdb-f169aceaae25.jpeg)\nA definite integral adds up signed area between a curve and the $x$-axis. Area above the axis counts positive and area below counts negative, so equal positive and negative parts can cancel.\n\nFor definite integrals, the limits tell you where to start and finish, so there is no $+c$. A standard trig example is\n$$\n\\int_0^{\\frac{\\pi}{2}} \\cos^2 x\\,dx = \\int_0^{\\frac{\\pi}{2}} \\frac{1+\\cos 2x}{2}\\,dx.\n$$\n\nIntegrating term by term gives\n$$\n\\left[\\frac{x}{2}+\\frac{\\sin 2x}{4}\\right]_0^{\\frac{\\pi}{2}} = \\frac{\\pi}{4}.\n$$\nUsing the identity first is the key step.",
+   "figure_refs": [
+    "assets/001-e8a07efe-bdca-4a09-8cdb-f169aceaae25.jpeg"
+   ]
+  },
+  {
+   "heading": "Substitution and changing limits",
+   "body": "Substitution rewrites a hard integral in a simpler variable and is the reverse of the chain rule. For definite integrals, either change the limits straight away or change back to $x$ at the end, but never mix the two methods.\n\nConsider the following integral example:\n$$\nI=\\int_0^{\\frac{\\pi}{2}} \\frac{\\sin x}{1+\\cos x}\\,dx\n$$\nLet $u=1+\\cos x$. Then $du=-\\sin x\\,dx$, so $\\sin x\\,dx=-du$, and the limits change from $x=0,\\frac{\\pi}{2}$ to $u=2,1$.\n\nNow we substitute and evaluate the integral:\n$$\nI=\\int_2^1 -\\frac{1}{u}\\,du = \\int_1^2 \\frac{1}{u}\\,du = \\left[\\ln u\\right]_1^2 = \\ln 2.\n$$\nThe minus sign is important because it is used to flip the limits."
+  },
+  {
+   "heading": "Integration by parts",
+   "body": "Integration by parts reverses the product rule, so it is useful for products such as $x\\sin x$ or $x e^x$. The formula is\n$$\\int u\\frac{dv}{dx}\\,dx = uv - \\int v\\frac{du}{dx}\\,dx.$$\n\nFor\n$$I=\\int x\\sin x\\,dx,$$\nchoose $u=x$ so that differentiating simplifies it, and take $\\frac{dv}{dx}=\\sin x$. Then $\\frac{du}{dx}=1$ and $v=-\\cos x$.\n\nSubstituting gives\n$$I = x(-\\cos x) - \\int (-\\cos x)(1)\\,dx = -x\\cos x + \\sin x + c.$$\nA quick derivative check confirms the answer, and it also catches the common sign error."
+  },
+  {
+   "heading": "Partial fractions before integrating",
+   "body": "When the integrand is a rational function, partial fractions can break it into simpler pieces whose antiderivatives you already know. This is especially useful when linear factors produce logarithms.\n\nTo solve an example like $\\int \\frac{3x}{(x+1)(x-2)} \\,dx$, we first decompose the integrand. We write the fraction as: $$\\frac{3x}{(x+1)(x-2)} = \\frac{A}{x+1} + \\frac{B}{x-2}$$ and multiply through by $(x+1)(x-2)$ to get $$3x = A(x-2) + B(x+1).$$\n\nComparing coefficients gives $A+B=3$ and $-2A+B=0$, so $A=1$ and $B=2$. Substituting these values allows us to integrate: $$\\int \\frac{3x}{(x+1)(x-2)}\\,dx = \\int \\left(\\frac{1}{x+1} + \\frac{2}{x-2}\\right)\\,dx = \\ln|x+1| + 2\\ln|x-2| + c.$$ Modulus signs are used here because the linear factors inside the logarithms can be negative."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Why does an indefinite integral need $+c$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because constants disappear when differentiated",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "Because integration is only an approximation",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "Because the power rule always adds 1 to the answer",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Because every integral must have limits",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$+c$ is needed because differentiating any constant gives 0, so many different functions have the same derivative. The most common wrong answer is D, but limits are only used for definite integrals, not indefinite ones. Hint: Differentiate $x^2$, $x^2+3$ and $x^2-10$."
+  },
+  {
+   "id": "card-7",
+   "question": "What is $\\int_{-1}^{1} (x^3-x)\\,dx$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$0$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$\\frac{1}{4}$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$\\frac{1}{2}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$1$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The positive area from $-1$ to 0 and the negative area from 0 to 1 are equal in size, so the signed areas cancel and the integral is 0. The most common wrong answer is C, which adds the magnitudes of the areas instead of using signed area."
+  },
+  {
+   "id": "card-12",
+   "question": "Stretch: Which is correct for $\\int \\ln x\\,dx$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$x\\ln x - x + c$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$x\\ln x + c$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$\\frac{(\\ln x)^2}{2}+c$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$x^2\\ln x + c$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Use integration by parts with $u=\\ln x$ and $dv=dx$, so $du=\\frac{1}{x}\\,dx$ and $v=x$. This gives $x\\ln x-\\int 1\\,dx = x\\ln x-x+c$, while the common wrong answer B forgets the extra $-\\int 1\\,dx$ term and differentiates to $\\ln x + 1$."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/a-level-pure-mathematics-11-integration/lessons",
+ "source_sha256": "aadd5b2105f2bbce6b34aeb9581ea3fd39385caf728302c42d8b5c5cebb69f41",
+ "extracted_at": "2026-11-08T19:01:38Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-3 run-001)",
+ "task_id": "T-MG-LS-3",
+ "source_meta": {
+  "lesson_id": "b84ada30-939b-4876-bd71-8de2af7fbd7b",
+  "topic_id": "c9822ae7-d582-4944-aae2-f26e103b7c71",
+  "created_at": "2026-05-13T03:38:46.898Z",
+  "updated_at": "2026-05-13T03:48:44.473Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

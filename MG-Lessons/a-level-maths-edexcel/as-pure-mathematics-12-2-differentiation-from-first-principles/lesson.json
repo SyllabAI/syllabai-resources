@@ -1,0 +1,133 @@
+{
+ "topic": "as-pure-mathematics-12-2-differentiation-from-first-principles",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Average and instantaneous gradient",
+   "body": "![Graph of a curve $y=f(x)$ with points at $x$ and $x+h$, a secant line through both points, and a tangent at $x$](../assets/001-c52cbfe3-051e-48a1-83a7-37a63ebd366e.jpeg)\n\nA straight line has one constant gradient, but a curve changes steepness from point to point. The gradient between two points on a curve is the average gradient, found from the secant or chord joining them.\n\nAt one exact point, we want the instantaneous gradient instead. That is the gradient of the tangent to the curve at that point.",
+   "figure_refs": [
+    "assets/001-c52cbfe3-051e-48a1-83a7-37a63ebd366e.jpeg"
+   ]
+  },
+  {
+   "heading": "Building the formula",
+   "body": "Take one point at input $x$ and a nearby point at input $x+h$, where $h$ is a small change in $x$. Their average gradient is\n$$\n\\frac{f(x+h)-f(x)}{h}\n$$\n\nAs $h$ gets closer to 0, the secant approaches the tangent. That limiting value is the derivative, written $f'(x)$ or $\\frac{dy}{dx}$.\n\n$$$\nf'(x)=\\lim_{h\\to 0}\\frac{f(x+h)-f(x)}{h}\n$$\nThis is called differentiating from first principles. Do not substitute $h=0$ at the start, because the denominator would still be zero."
+  },
+  {
+   "heading": "Warm-up: a linear function",
+   "body": "Let $f(x)=6x$ and start with the general definition of the derivative:\n$$f'(x)=\\lim_{h\\to 0}\\frac{f(x+h)-f(x)}{h}$$\n\nFirst, find the expression for $f(x+h)=6(x+h)=6x+6h$. Substitute this into the difference quotient:\n$$f'(x)=\\lim_{h\\to 0}\\frac{(6x+6h)-6x}{h}=\\lim_{h\\to 0}\\frac{6h}{h}$$\n\nThe $6x$ terms cancel exactly. Now cancel the common factor of $h$ and take the limit to find the result:\n$$f'(x)=\\lim_{h\\to 0}6=6$$\nSo the derivative of $6x$ is 6 at every point."
+  },
+  {
+   "heading": "Expanding brackets correctly",
+   "body": "Most first-principles mistakes are algebra mistakes. You need accurate expansions before you can cancel $h$.\n\nThe key expansions to know are $$(x+h)^2=x^2+2xh+h^2$$ and $$(x+h)^3=x^3+3x^2h+3xh^2+h^3$$\n\nThese are the patterns you should know by heart. After subtracting $f(x)$, every remaining term should contain a factor of $h$. If one term does not, check your expansion or your subtraction signs."
+  },
+  {
+   "heading": "Worked example: quadratic from first principles",
+   "body": "Let $f(x)=3x^2$ and start with the definition of the derivative from first principles:\n$$\nf'(x)=\\lim_{h\\to 0}\\frac{f(x+h)-f(x)}{h}\n$$\nIn this specific case, we have the term $f(x+h)=3(x+h)^2$.\n\nExpand the expression carefully to avoid algebraic errors:\n$$\nf(x+h)=3(x^2+2xh+h^2)=3x^2+6xh+3h^2\n$$\nNow substitute this back into the limit definition, keeping brackets around the part you subtract to manage the signs.\n\n$$$\nf'(x)=\\lim_{h\\to 0}\\frac{(3x^2+6xh+3h^2)-3x^2}{h}\n=\\lim_{h\\to 0}\\frac{6xh+3h^2}{h}\n$$\nEvery term in the numerator now has a factor of $h$, which allows us to factor it out and simplify the fraction.\n\nFactor and cancel the common $h$ terms:\n$$\nf'(x)=\\lim_{h\\to 0}\\frac{h(6x+3h)}{h}\n=\\lim_{h\\to 0}(6x+3h)\n=6x\n$$\nOnly now is it safe to let $h\\to 0$. This proves that the derivative of $3x^2$ is $6x$ using the first principles method."
+  },
+  {
+   "heading": "Cubic proof and the power rule",
+   "body": "For $f(x)=4x^3$, start in the same way as previous examples, but apply the cubic expansion. Since $(x+h)^3=x^3+3x^2h+3xh^2+h^3$, we determine the expanded form of the function:\n$$f(x+h)=4x^3+12x^2h+12xh^2+4h^3$$\n\nSubstitute and simplify using the limit definition of the derivative. As shown below, every term in the simplified numerator contains $h$, which allows us to factor it out:\n$$f'(x)=\\lim_{h\\to 0}\\frac{(4x^3+12x^2h+12xh^2+4h^3)-4x^3}{h} =\\lim_{h\\to 0}\\frac{12x^2h+12xh^2+4h^3}{h}$$\n\nCancel the $h$ in the denominator and take the limit. The pattern shows that if $f(x)=ax^3$, then $f'(x)=3ax^2$, which aligns with the shortcut power rule:\n$$f'(x)=\\lim_{h\\to 0}(12x^2+12xh+4h^2)=12x^2$$\n\nYou can use the general rule $\\frac{d}{dx}(x^n)=nx^{n-1}$ to check your final answer. However, if an exam specifies finding the derivative \"from first principles,\" the full limit method must be shown as your primary solution."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "For the curve $y=x^2$, what is the average gradient between $x=2$ and $x=5$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "7",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "21",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "3",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "5",
+     "is_correct": false
+    }
+   ],
+   "explanation": "At $x=2$, $y=4$, and at $x=5$, $y=25$, so the average gradient is $\\frac{25-4}{5-2}=\\frac{21}{3}=7$. A very common wrong answer is 21, which is just the change in $y$ and forgets to divide by the change in $x$."
+  },
+  {
+   "id": "card-6",
+   "question": "Why must you simplify or cancel the factor of $h$ before setting $h=0$ in first principles?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because otherwise the denominator would be zero",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "Because $x$ would also become 0",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "Because limits remove any denominator automatically",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Because $h$ and $x$ must always be equal",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A is right because the original quotient has $h$ in the denominator, so setting $h=0$ too early would mean dividing by zero. C is the common misconception: limits do not magically cancel denominators, so you still have to simplify the algebra first."
+  },
+  {
+   "id": "card-12",
+   "question": "In the quadratic proof for $f(x)=3x^2$, what is the simplified numerator after subtracting $f(x)$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$6xh+3h^2$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$3x^2+6xh+3h^2$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$6x+3h$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$6xh$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A is right because the $3x^2$ from $f(x+h)$ and the $3x^2$ from $f(x)$ cancel, leaving only terms with $h$. B is the common wrong answer when you forget to subtract the whole of $f(x)$."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/as-pure-mathematics-12-2-differentiation-from-first-principles/lessons",
+ "source_sha256": "f4b9c580e2a68581c46b3ed62b54e334b0dad0932c75b018e26304bb1936ba69",
+ "extracted_at": "2026-11-08T19:01:56Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-3 run-001)",
+ "task_id": "T-MG-LS-3",
+ "source_meta": {
+  "lesson_id": "67f316ba-017b-0603-37fd-c1f6eef212f6",
+  "topic_id": "1f2092ec-3f95-f928-b645-43305c012e9f",
+  "created_at": "2026-05-14T08:21:21.768Z",
+  "updated_at": "2026-05-14T08:23:18.478Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

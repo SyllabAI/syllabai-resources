@@ -1,0 +1,132 @@
+{
+ "topic": "as-mechanics-modelling-assumptions",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Why mechanics uses models",
+   "body": "![Real ball simplified to a particle with downward acceleration g and air resistance ignored](../assets/001-37ecb77d-be91-4ca0-a87e-91909cfee086.jpeg)\nA model is a simplified version of a real situation. Modelling assumptions ignore smaller effects so the mathematics becomes manageable.\n\nIf an object is modelled as a particle, its mass is treated as concentrated at one point. Its size, shape and rotation are ignored, but it can still have mass and weight.\n\nThese words are not decoration. They tell you which forces and effects are included, so they decide which equations you are allowed to use.",
+   "figure_refs": [
+    "assets/001-37ecb77d-be91-4ca0-a87e-91909cfee086.jpeg"
+   ]
+  },
+  {
+   "heading": "Constant acceleration and SUVAT",
+   "body": "Constant acceleration means the acceleration stays the same throughout the motion. In straight-line motion, that is the key condition for using the SUVAT equations.\n\nThe symbols are $s$ for displacement, $u$ for initial velocity, $v$ for final velocity, $a$ for acceleration and $t$ for time. The main equations are\n$$\nv = u + at,\\qquad s = ut + \\frac{1}{2}at^2,\\qquad v^2 = u^2 + 2as,\\qquad s = \\frac{1}{2}(u+v)t\n$$\nChoose the one that matches the information you know.\n\nIf an object moves freely under gravity and air resistance is negligible, the only force is weight, so its acceleration is the constant value $g$ downward. Near the Earth's surface, $g = 9.8 \\, \\text{m s}^{-2}$.\n\nChoose a positive direction before you substitute. Any choice is fine if you stay consistent: if upwards is positive, then $a = -9.8 \\, \\text{m s}^{-2}$; if downwards is positive, then $a = 9.8 \\, \\text{m s}^{-2}$."
+  },
+  {
+   "heading": "Worked example: free fall under gravity",
+   "body": "Example: A small stone is dropped from rest from a height of $20 \\, \\text{m}$ and modelled as a particle falling freely under gravity with air resistance ignored. Choose downwards as positive, so $u = 0$, $a = 9.8 \\, \\text{m s}^{-2}$ and $s = 20 \\, \\text{m}$.\n\nUse $v^2 = u^2 + 2as$. \n\n $$v^2 = 0^2 + 2(9.8)(20) = 392$$\n\n$$$v = \\sqrt{392} \\approx 19.8 \\, \\text{m s}^{-1}$$ \n\n The positive square root is taken because the question asks for speed.\n\nThis model is reasonable for a small dense stone, because air resistance may be small compared with its weight. In reality there is still some drag, so the actual speed would be slightly less than $19.8 \\, \\text{m s}^{-1}$."
+  },
+  {
+   "heading": "Smooth, rough, light and inextensible",
+   "body": "![Two blocks connected by a taut inextensible string over a smooth light pulley with equal tensions and equal-magnitude accelerations](../assets/002-783824a0-e4c1-4b54-9200-1cf68cc3c806.jpeg)\nA smooth surface has no friction, while a rough surface does include friction. A light object has zero mass in the model, so light does not mean small.\n\nIf a string is taut and inextensible, connected particles have the same magnitude of acceleration. If a pulley is smooth and light, the tension is the same on both sides.\n\nBe careful with the word taut. If the string goes slack, the same-acceleration conclusion no longer follows.",
+   "figure_refs": [
+    "assets/002-783824a0-e4c1-4b54-9200-1cf68cc3c806.jpeg"
+   ]
+  },
+  {
+   "heading": "Writing exam-style comments on suitability",
+   "body": "When you judge a model, do not just say it is unrealistic. Name the assumption and explain what real effect has been ignored.\n\nA strong sentence uses the word because. For example, ignoring air resistance may be unsuitable because the object has a large surface area, so drag could noticeably reduce its acceleration. This links the assumption to a physical consequence.\n\nThe same idea works for the particle model. A bus may be treated as a particle for a long straight journey, but not if turning, tipping or size clearance matters."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "A car travelling $200\\,\\text{m}$ along a straight road is modelled as a particle. What does this mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Its mass is treated as concentrated at one point, so size and turning effects are ignored.",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "It has zero mass.",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "No forces act on it.",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "It must be moving very slowly.",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A particle model keeps the object's mass and weight, but ignores its size, shape and rotation when these do not matter to the calculation. The common wrong answer is B: zero mass does not describe a particle."
+  },
+  {
+   "id": "card-7",
+   "question": "A table tennis ball is modelled as moving freely under gravity with negligible air resistance. Why might this model be unsuitable?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because a table tennis ball has a relatively large surface area for its mass, so air resistance may significantly change its acceleration.",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "Because particles cannot move vertically.",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "Because modelling it as a particle removes its weight.",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Because gravity near the Earth is not about $9.8 \\, \\text{m s}^{-2}$.",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The free-fall model assumes air resistance is small enough to ignore, so acceleration remains $g$ downward. The common wrong answer is C: a particle can still have mass and weight, so modelling it as a particle does not remove gravity."
+  },
+  {
+   "id": "card-12",
+   "question": "Two particles are connected by a taut inextensible string over a pulley. Which change could make the tensions different on the two sides while the particles still have the same magnitude of acceleration?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The pulley is rough or has mass.",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "The string becomes extensible.",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "One particle is described as a particle.",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Air resistance is ignored.",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Equal tension comes from a smooth light pulley, while same acceleration magnitude comes from a taut inextensible string. The common wrong answer is B: if the string becomes extensible, the same-acceleration conclusion is no longer guaranteed."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/as-mechanics-modelling-assumptions/lessons",
+ "source_sha256": "688364587ee14107824d7efa7b786a13c6f4cfc3f91da8233329d4b11ba86f93",
+ "extracted_at": "2026-11-08T19:01:51Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-3 run-001)",
+ "task_id": "T-MG-LS-3",
+ "source_meta": {
+  "lesson_id": "70ae093a-b3ff-f4f4-d141-4054af92b4d0",
+  "topic_id": "8d615f5c-14c3-4000-fa19-f8a888873d28",
+  "created_at": "2026-05-14T02:25:56.848Z",
+  "updated_at": "2026-05-14T02:28:24.531Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

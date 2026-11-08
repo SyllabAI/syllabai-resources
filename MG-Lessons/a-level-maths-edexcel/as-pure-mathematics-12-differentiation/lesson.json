@@ -1,0 +1,163 @@
+{
+ "topic": "as-pure-mathematics-12-differentiation",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "steps": [
+  {
+   "heading": "From gradient to derivative",
+   "body": "![Curve on axes with tangent at point P, a rise-run triangle, and gradient dy/dx marked at x=a](../assets/001-39edcf0e-436c-421a-9d63-d90a5eeadb55.jpeg)\nA straight line has one constant gradient, but a curve can have a different gradient at each point. To get the gradient at one point on a curve, we draw the tangent there.\n\nThe derivative is the rule that gives this gradient for every value of $x$. We write it as $\\frac{dy}{dx}$ or $f'(x)$, and to differentiate means to find this derivative.\n\nIf $\\frac{dy}{dx} > 0$, the curve is rising, and if $\\frac{dy}{dx} < 0$, it is falling. If $\\frac{dy}{dx} = 0$, the tangent is horizontal and the point is stationary.",
+   "figure_refs": [
+    "assets/001-39edcf0e-436c-421a-9d63-d90a5eeadb55.jpeg"
+   ]
+  },
+  {
+   "heading": "The power rule",
+   "body": "Most AS differentiation starts with powers of $x$. For $ax^n$, multiply by the old power and then reduce the power by 1.\n\n$$$\\frac{d}{dx}(ax^n)=anx^{n-1}$$\n\nA constant differentiates to 0, so a term like $-8$ disappears. Work term by term, and do not substitute an $x$-value until after differentiating.\n\nFor $y=3x^3-4x^2+6x-8$, the derivative is $$\\frac{dy}{dx}=9x^2-8x+6$$ When $x=2$, the gradient is $9(2)^2-8(2)+6=36-16+6=26$."
+  },
+  {
+   "heading": "Roots, fractions, and second derivatives",
+   "body": "The power rule works best when everything is written as a power of $x$. Useful rewrites are $\\sqrt{x}=x^{1/2}$, $\\frac{1}{x}=x^{-1}$, and $\\frac{1}{x^{2}}=x^{-2}$.\n\nFor $y=6\\sqrt{x}+\\frac{4}{x}+7$, first rewrite the function as $y=6x^{1/2}+4x^{-1}+7$. Then differentiate once:\n$$\\frac{dy}{dx}=3x^{-1/2}-4x^{-2}$$\n\nDifferentiate again to get the second derivative:\n$$\\frac{d^{2}y}{dx^{2}}=-\\frac{3}{2}x^{-3/2}+8x^{-3}$$\nNegative powers are usually fine unless the question asks for fractions."
+  },
+  {
+   "heading": "Stationary points and their nature",
+   "body": "![Cubic curve with stationary points labelled at (1,6) and (3,2), showing where the curve increases and decreases](../assets/002-1553a1c5-6bef-4dac-bb71-4690865bc98c.jpeg)\nStationary points happen where $\\frac{dy}{dx}=0$. A positive derivative means the function is increasing, and a negative derivative means it is decreasing.\n\nFor the curve $y=x^3-6x^2+9x+2$, we find the stationary points by differentiating and factoring the result:\n$$\n\\frac{dy}{dx}=3x^2-12x+9=3(x-1)(x-3)\n$$\nSetting $\\frac{dy}{dx}=0$ gives the x-coordinates $x=1$ and $x=3$.\n\nNext, we find the corresponding $y$-coordinates by substituting $x$ back into the original equation:\n$$\ny(1)=1-6+9+2=6,\\qquad y(3)=27-54+27+2=2\n$$\nSo the stationary points are located at $(1,6)$ and $(3,2)$.\n\nTo determine their nature, we differentiate again to find the second derivative:\n$$\n\\frac{d^2y}{dx^2}=6x-12\n$$\nAt $x=1$, $\\frac{d^2y}{dx^2} = -6 < 0$, so $(1,6)$ is a local maximum. At $x=3$, $\\frac{d^2y}{dx^2} = 6 > 0$, so $(3,2)$ is a local minimum.",
+   "figure_refs": [
+    "assets/002-1553a1c5-6bef-4dac-bb71-4690865bc98c.jpeg"
+   ]
+  },
+  {
+   "heading": "Tangents and normals",
+   "body": "A tangent has the same gradient as the curve at a point. A normal is perpendicular to the tangent, so if the tangent gradient is $m$, the normal gradient is $-\\frac{1}{m}$.\n\nUse the line formula $y-b=m(x-a)$ once you know a point and a gradient. If the tangent gradient is $0$, the normal is vertical and has the equation $x=a$.\n\nFor $y=\\frac{(2x+1)(x-3)}{x}$ at $x=-1$, first simplify the expression to $y=2x-5-3x^{-1}$ and differentiate: $$\\frac{dy}{dx}=2+3x^{-2}$$\n\nAt $x=-1$, the tangent gradient is $2+3(-1)^{-2}=5$ and the $y$-coordinate is $y(-1)=-4$. The normal gradient is $-\\frac{1}{5}$, giving $y+4=-\\frac{1}{5}(x+1)$, which simplifies to $x+5y+21=0$."
+  },
+  {
+   "heading": "Optimisation with differentiation",
+   "body": "Optimisation means finding the maximum or minimum value of a quantity. To do this, first write the quantity as a function of one variable, then differentiate and solve where the derivative is 0.\n\nFor $C=\\frac{3200}{v}+2v+15$, rewrite as $C=3200v^{-1}+2v+15$ and differentiate:\n$$\\frac{dC}{dv}=-3200v^{-2}+2$$\nSet this equal to 0 to find the turning point.\n\nSolving gives\n$$-\\frac{3200}{v^2}+2=0 \\Rightarrow v^2=1600 \\Rightarrow v=40$$\nWe keep the positive root because speed cannot be negative.\n\nCheck with the second derivative:\n$$\\frac{d^2C}{dv^2}=6400v^{-3}$$\nAt $v=40$, this is positive, so the cost is a minimum. The minimum cost is $C=\\frac{3200}{40}+2(40)+15=175$."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Which statement best describes $\\frac{dy}{dx}$ for $y=f(x)$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The gradient of the curve at each value of $x$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "The y-coordinate of the curve at each value of $x$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "The average gradient between two points on the curve",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "The gradient of the normal at each value of $x$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A is right because the derivative gives the instantaneous gradient of the curve at each value of $x$. The common wrong answer C is the average gradient between two points, which is a secant gradient, not the gradient at one point."
+  },
+  {
+   "id": "card-7",
+   "question": "If $y=2\\sqrt{x}+\\frac{3}{x}$, what is $\\frac{dy}{dx}$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$x^{-1/2}-3x^{-2}$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$x^{-1/2}+3x^{-2}$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$2x^{-1/2}-3x^{-1}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$x^{1/2}-3x^{-2}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A is right because $2x^{1/2}$ differentiates to $x^{-1/2}$ and $3x^{-1}$ differentiates to $-3x^{-2}$. The common wrong answer B forgets that differentiating $x^{-1}$ introduces a negative sign."
+  },
+  {
+   "id": "card-12",
+   "question": "At the point $x=4$, a curve has tangent gradient 0. What is the equation of the normal?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$y=4$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$x=4$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$y=0$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$x=0$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "B is right because a tangent with gradient 0 is horizontal, so the perpendicular normal is vertical and has equation $x=4$. The common wrong answer A is another horizontal line, so it is not perpendicular to the tangent."
+  },
+  {
+   "id": "card-14",
+   "question": "For $v>0$, a cost model is $C=\\frac{1800}{v}+3v+30$. What speed minimises $C$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$10\\sqrt{6}$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$20\\sqrt{6}$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$10\\sqrt{3}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$30$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A is right because $\\frac{dC}{dv}=-1800v^{-2}+3$, and setting this to 0 gives $v^2=600$, so $v=10\\sqrt{6}$ for $v>0$. The common wrong answer D copies the earlier case with coefficient 2, but here the coefficient 3 changes the stationary value."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/as-pure-mathematics-12-differentiation/lessons",
+ "source_sha256": "b033e8cf027c92cb45a61147ec8f03e5f761471b0d9cb45bcd5cc163fa9fe625",
+ "extracted_at": "2026-11-08T19:01:57Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-3 run-001)",
+ "task_id": "T-MG-LS-3",
+ "source_meta": {
+  "lesson_id": "90719b27-316c-787d-8e90-03fd35fa3093",
+  "topic_id": "14fe73d0-4e51-cc32-b412-1b824fabd817",
+  "created_at": "2026-05-15T05:49:51.944Z",
+  "updated_at": "2026-05-15T05:52:08.549Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

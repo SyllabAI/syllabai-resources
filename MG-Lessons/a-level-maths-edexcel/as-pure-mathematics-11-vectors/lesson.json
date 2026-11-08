@@ -1,0 +1,163 @@
+{
+ "topic": "as-pure-mathematics-11-vectors",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Vectors in component form",
+   "body": "A scalar has size only, but a vector has size and direction. In AS Maths, two-dimensional vectors are usually written using $\\mathbf{i}$ and $\\mathbf{j}$.\n\n$$\\mathbf{i}$ means 1 unit in the positive horizontal direction, and $\\mathbf{j}$ means 1 unit in the positive vertical direction. So $4\\mathbf{i}-3\\mathbf{j}$ means 4 units right and 3 units down.\n\nRead $a\\mathbf{i}+b\\mathbf{j}$ as instructions: move $a$ horizontally and $b$ vertically. A negative component means move in the opposite direction."
+  },
+  {
+   "heading": "Position vectors and vectors between points",
+   "body": "![Coordinate plane showing position vectors OA and OB and displacement AB between A(4,-2) and B(-3,6)](../assets/001-f425ed9b-f38a-4f25-bfa8-9d6ce2964c07.jpeg)\n\nA position vector tells you where a point is relative to the origin $O$. To find the vector from $A$ to $B$, subtract the starting position vector from the finishing position vector.\n\n$$$\n\\vec{AB}=\\vec{OB}-\\vec{OA}\n$$\n\nOrder matters when calculating displacement, because the vector $\\vec{BA}$ points in the exact opposite direction of $\\vec{AB}$.\n\nIf $A$ has position vector $4\\mathbf{i}-2\\mathbf{j}$ and $B$ has position vector $-3\\mathbf{i}+6\\mathbf{j}$, then:\n\n$$\\vec{AB}=(-3\\mathbf{i}+6\\mathbf{j})-(4\\mathbf{i}-2\\mathbf{j})=-7\\mathbf{i}+8\\mathbf{j}$$\n\nWhen simplifying, only combine $\\mathbf{i}$ terms with $\\mathbf{i}$ terms, and $\\mathbf{j}$ terms with $\\mathbf{j}$ terms.",
+   "figure_refs": [
+    "assets/001-f425ed9b-f38a-4f25-bfa8-9d6ce2964c07.jpeg"
+   ]
+  },
+  {
+   "heading": "Magnitude and length",
+   "body": "The magnitude of a vector is its length, written $|\\mathbf{v}|$. If a vector is given in terms of unit vectors as $\\mathbf{v}=a\\mathbf{i}+b\\mathbf{j}$, its magnitude is calculated using the following formula:\n\n$$$ |\\mathbf{v}|=\\sqrt{a^2+b^2} $$\n\nFor example, if $\\mathbf{v}=-7\\mathbf{i}+8\\mathbf{j}$, we calculate the magnitude by squaring the components: $$ |\\mathbf{v}|=\\sqrt{(-7)^2+8^2}=\\sqrt{49+64}=\\sqrt{113} $$ So the length is $\\sqrt{113}$, which is approximately $10.6$.\n\nIf a question provides the magnitude, there may be two possible answers for a missing component. For instance, the equation $|5\\mathbf{i}+k\\mathbf{j}|=13$ leads to $25+k^2=169$, which simplifies to $k^2=144$ and gives $k=\\pm 12$."
+  },
+  {
+   "heading": "Adding vectors and resultants",
+   "body": "When vectors act together, add their components separately. This gives the resultant vector, which has the same overall effect as all the original vectors together.\n\nFor $\\mathbf{F}_1=-2\\mathbf{i}+6\\mathbf{j}$, $\\mathbf{F}_2=7\\mathbf{i}-4\\mathbf{j}$, and $\\mathbf{F}_3=3\\mathbf{i}+5\\mathbf{j}$, the resultant is:\n$$\\mathbf{R}=(-2+7+3)\\mathbf{i}+(6-4+5)\\mathbf{j}=8\\mathbf{i}+7\\mathbf{j}$$\nSimply add the $\\mathbf{i}$ parts together and the $\\mathbf{j}$ parts together to find the new components.\n\nIf the resultant and one vector are known, you can work backwards. Compare the horizontal components and vertical components separately to find the missing vector."
+  },
+  {
+   "heading": "Velocity vectors, speed and bearing",
+   "body": "![Compass diagram with north and east axes, a south-east velocity vector with components 6 east and 8 south, and the bearing marked about 143 degrees](../assets/002-5031e854-29bd-404f-b1b7-0fae3a92d0f9.jpeg)\nA velocity vector tells you both speed and direction. If $\\mathbf{i}$ is east and $\\mathbf{j}$ is north, then speed is the magnitude of the vector and bearing is measured clockwise from north.\n\nFor velocity $(6\\mathbf{i}-8\\mathbf{j}) \\, \\text{m s}^{-1}$,\n$$\n\\text{speed}=\\sqrt{6^2+(-8)^2}=10 \\, \\text{m s}^{-1}\n$$\nThe signs show 6 east and 8 south, so the motion is in the south-east quadrant.\n\nThe angle below east is\n$$\n\\theta=\\tan^{-1}\\left(\\frac{8}{6}\\right)\\approx 53.1^\\circ\n$$\nBearings start from north, so\n$$\n\\text{bearing}=90^\\circ+53.1^\\circ\\approx 143^\\circ\n$$",
+   "figure_refs": [
+    "assets/002-5031e854-29bd-404f-b1b7-0fae3a92d0f9.jpeg"
+   ]
+  },
+  {
+   "heading": "Vectors in triangles",
+   "body": "In a triangle, vectors between vertices still follow start-to-finish subtraction. If two vectors start from the same point, subtract them to get the side joining their endpoints.\n\nFor example, the vector $\\vec{BC}$ can be found using the relationship $\\vec{BC}=\\vec{AC}-\\vec{AB}$. If $\\vec{AB}=6\\mathbf{i}-2\\mathbf{j}$ and $\\vec{AC}=9\\mathbf{i}+4\\mathbf{j}$, then:\n$$\n\\vec{BC}=(9\\mathbf{i}+4\\mathbf{j})-(6\\mathbf{i}-2\\mathbf{j})=3\\mathbf{i}+6\\mathbf{j}\n$$\n\nYou can find side lengths using magnitude in exactly the same way. For the vector $\\vec{AB}$ defined previously, the length is calculated as:\n$$\n|\\vec{AB}|=\\sqrt{6^2+(-2)^2}=\\sqrt{40}=2\\sqrt{10}\n$$"
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "What does the vector $4\\mathbf{i}-3\\mathbf{j}$ represent?",
+   "options": [
+    {
+     "id": "a",
+     "text": "4 units right and 3 units down",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "4 units left and 3 units up",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "3 units right and 4 units down",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "4 units right and 3 units up",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The $\\mathbf{i}$ component gives horizontal movement and the $\\mathbf{j}$ component gives vertical movement, so $4\\mathbf{i}-3\\mathbf{j}$ means 4 right and 3 down. The common wrong answer is D, which ignores the negative sign on the $\\mathbf{j}$ component."
+  },
+  {
+   "id": "card-6",
+   "question": "Given that $|5\\mathbf{i}+k\\mathbf{j}|=13$, what are the possible values of $k$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$12$ only",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$-12$ only",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$\\pm 12$",
+     "is_correct": true
+    },
+    {
+     "id": "d",
+     "text": "$$\\pm 8$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Using $13^2=5^2+k^2$ gives $169=25+k^2$, so $k^2=144$ and therefore $k=\\pm 12$. The common wrong answer is A, which forgets that squaring removes the sign. Hint: Square the magnitude equation."
+  },
+  {
+   "id": "card-12",
+   "question": "A velocity vector is $-5\\mathbf{i}+2\\mathbf{j}$, where $\\mathbf{i}$ is east and $\\mathbf{j}$ is north. Which interval must its bearing lie in?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Between $0^{\\circ}$ and $90^{\\circ}$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "Between $90^{\\circ}$ and $180^{\\circ}$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "Between $180^{\\circ}$ and $270^{\\circ}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Between $270^{\\circ}$ and $360^{\\circ}$",
+     "is_correct": true
+    }
+   ],
+   "explanation": "A negative $\\mathbf{i}$ component means west and a positive $\\mathbf{j}$ component means north, so the vector points north-west. Bearings in the north-west quadrant lie between $270^{\\circ}$ and $360^{\\circ}$, while the common wrong answer A forgets the west component and assumes north-east."
+  },
+  {
+   "id": "card-14",
+   "question": "In triangle $ABC$, $\\vec{AB}=6\\mathbf{i}-2\\mathbf{j}$ and $\\vec{AC}=9\\mathbf{i}+4\\mathbf{j}$. What is $\\vec{BC}$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$3\\mathbf{i}+6\\mathbf{j}$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$-3\\mathbf{i}-6\\mathbf{j}$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$15\\mathbf{i}+2\\mathbf{j}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$-15\\mathbf{i}-2\\mathbf{j}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Use $\\vec{BC}=\\vec{AC}-\\vec{AB}$, so the components are $(9-6)\\mathbf{i}$ and $(4-(-2))\\mathbf{j}$, giving $3\\mathbf{i}+6\\mathbf{j}$. The common wrong answer is B, which reverses the subtraction and actually gives $\\vec{CB}$."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/as-pure-mathematics-11-vectors/lessons",
+ "source_sha256": "152597fc0072b9f199e5eaae0641c2ea68358f406632a60864456f8097277b86",
+ "extracted_at": "2026-11-08T19:01:56Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-3 run-001)",
+ "task_id": "T-MG-LS-3",
+ "source_meta": {
+  "lesson_id": "f3d4b4b3-e577-e708-1180-0802570e531e",
+  "topic_id": "7b4cdacf-448e-1557-0b42-2b8807037fb4",
+  "created_at": "2026-05-14T03:47:52.637Z",
+  "updated_at": "2026-05-14T03:54:47.350Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

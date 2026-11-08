@@ -1153,3 +1153,12 @@ the site sitemap, every page fetched 200. Receipt:
 `MG-RevisionGuides/T-MG-RG-1-run-001-RECEIPT.json`; scripts land as
 `scripts/mg_rg1_*.py` (+ shared `mg_common.py`, `rsc.py`, `envelope.py`) with
 run evidence under `scripts/mg_rg1_run001/`.
+---
+
+## Wave 34 — MG-Lessons lands: MathsGenie a-level-maths-edexcel step-by-step lessons (T-MG-LS-3 run-001; branch `t-mg-ls-3/run-001`)
+
+`T-MG-LS-3/run-001` opens the **MG-Lessons plane** for `a-level-maths-edexcel`: 55/57 catalog topics carry the lessons mode; gaps recorded as not-offered.
+55/57 mode-publishing topics extracted; 332 lesson steps, 180 MC check questions, 89 inline figure assets; videos stay links-of-record (lessons pages of record embed none). Zero PDFs stored (operator decision 2026-11-07). Receipt:
+`MG-Lessons/T-MG-LS-3-run-001-RECEIPT.json`; scripts land as `scripts/mg_ls-3_*.py`
+(+ shared `mg_common.py`, `rsc.py`, `envelope.py`) with run evidence under
+`scripts/mg_ls-3_run001/`.
