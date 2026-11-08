@@ -131,6 +131,13 @@ def apply_structure(row: dict, entry: dict, structure: dict) -> None:
                      "sha256_16": x["sha256"][:16], "usedFor": x["usedFor"]}
                     for x in resolved],
     }
+    # T-GB-STRUCT-3: official adapted sessions (e.g. the COVID-era November
+    # 2021 and advance-information June 2022 rows Pearson printed at
+    # different totals) ride with the block so the served bundle explains
+    # its own rows; absent stays absent
+    adapted = (structure.get("adaptedSessions") or {}).get(row["code"])
+    if adapted:
+        entry["structure"]["adaptedSessions"] = adapted
 
 
 def read_map() -> list[dict]:
