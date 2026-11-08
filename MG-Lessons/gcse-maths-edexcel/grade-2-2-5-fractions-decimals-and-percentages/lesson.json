@@ -1,0 +1,133 @@
+{
+ "topic": "grade-2-2-5-fractions-decimals-and-percentages",
+ "lane": "gcse-maths-edexcel",
+ "grade": "2",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Three forms, one value",
+   "body": "![Hundred square with 40 shaded and labels 40/100, 2/5, 0.4 and 40% showing equivalent amounts](../assets/001-dd5686e3-7f83-46ed-b724-0faf36874f7e.jpeg)\n\nFractions, decimals and percentages are three ways to describe the same part of a whole. The whole can be one complete shape, one full amount, or $100\\%$.\n\nA fraction uses a numerator and denominator, a decimal uses place value, and a percentage means out of 100. For example, $\\frac{2}{5}$, $0.4$, and $40\\%$ all represent the same amount.\n\nWhen you need to compare values, convert them into the same form first. Decimals are often the quickest form for ordering or deciding which is larger.",
+   "figure_refs": [
+    "assets/001-dd5686e3-7f83-46ed-b724-0faf36874f7e.jpeg"
+   ]
+  },
+  {
+   "heading": "Decimals and percentages",
+   "body": "To change a decimal to a percentage, multiply by $100$ and add the percent sign. To change a percentage to a decimal, divide by $100$.\n\nStart with $0.37$. Multiply by $100$:\n$$0.37 \\times 100 = 37$$\nso $0.37 = 37\\%$.\n\nStart with $7\\%$. Divide by $100$:\n$$7 \\div 100 = 0.07$$\nso $7\\% = 0.07$.\n\nWatch place value carefully. $0.3 = 30\\%$, not $3\\%$, because the decimal point moves two places."
+  },
+  {
+   "heading": "Fractions and decimals",
+   "body": "A fraction bar means divide. If the denominator can be changed to $10$, $100$, or $1000$, that is often the quickest route to a decimal.\n\nStart with $\\frac{4}{5}$. Make tenths first:\n$$\\frac{4}{5} = \\frac{8}{10} = 0.8$$\nWe multiplied numerator and denominator by $2$, so the value stayed the same.\n\nFor a decimal to a fraction, use place value. Since $0.025$ has three digits after the decimal point, it is thousandths:\n$$0.025 = \\frac{25}{1000} = \\frac{1}{40}$$\nafter simplifying by $25$."
+  },
+  {
+   "heading": "Fractions to percentages",
+   "body": "Because percentage means out of $100$, try to rewrite the fraction with a denominator of $100$. If that is awkward, convert the fraction to a decimal first and then multiply by $100$.\n\nStart with the fraction $\\frac{11}{20}$. We can make the denominator $100$ by multiplying both the numerator and the denominator by $5$: $$\\frac{11}{20} = \\frac{55}{100} = 55\\%$$\n\nYou must change both parts of the fraction by the same factor. If you only change the denominator, you have changed the actual value of the fraction rather than finding an equivalent form."
+  },
+  {
+   "heading": "Comparing and ordering mixed forms",
+   "body": "When forms are mixed, decimals are usually easiest to compare. Convert first, compare second, and then write the original values in order.\n\nStart with $42\\%$, $\\frac{1}{2}$, $0.47$, $\\frac{2}{5}$, and $0.405$. Convert the percentage and fractions: $$42\\% = 0.42 \\quad \\frac{1}{2} = 0.5 \\quad \\frac{2}{5} = 0.4$$\n\nNow compare using the same number of decimal places: $$0.400 < 0.405 < 0.420 < 0.470 < 0.500$$ So the original values in order are $\\frac{2}{5}$, $0.405$, $42\\%$, $0.47$, $\\frac{1}{2}$."
+  },
+  {
+   "heading": "Exam technique and pitfalls",
+   "body": "In a 2-mark comparison question, show one clean conversion line before you compare, such as $16\\% = 0.16$. This makes your method easy to follow and can help you earn method marks.\n\nCheck place value carefully: $4\\% = 0.04$, not $0.4$. If someone spends part and saves the rest, remember the whole is $1$ or $100\\%$, so saved amount = whole - spent amount."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Which value is equal to $0.08$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "8%",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "0.8%",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "80%",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$\\frac{8}{10}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$0.08$ is eight hundredths, so it is $\\frac{8}{100}$, which is 8%. The common wrong answer 80% comes from moving the decimal point the wrong way; 80% is $0.8$, not $0.08$. Hint: Think about hundredths."
+  },
+  {
+   "id": "card-7",
+   "question": "What is $0.025$ as a simplified fraction?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$\\frac{25}{100}$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$\\frac{1}{40}$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$\\frac{25}{1000}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$\\frac{1}{25}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$0.025$ has three decimal places, so it is $\\frac{25}{1000}$, which simplifies to $\\frac{1}{40}$. The common wrong answer $\\frac{25}{100}$ treats $0.025$ as 25 hundredths, but it is 25 thousandths."
+  },
+  {
+   "id": "card-12",
+   "question": "Maya saves 38% of her money. Leo spends $\\frac{3}{5}$ of his money and saves the rest. Who saves more?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Maya",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "Leo",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "They save the same amount",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "It cannot be decided",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Leo saves the rest, so he saves $1 - \\frac{3}{5} = \\frac{2}{5} = 40\\%$. The common wrong answer Maya comes from comparing 38% with $\\frac{3}{5}$ instead of first finding Leo's saved part."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-2-2-5-fractions-decimals-and-percentages/lessons",
+ "source_sha256": "055f0fa16a3878b1d0b05511d718536dd19386760d7ead0299f28ab59c0dd878",
+ "extracted_at": "2026-11-08T17:58:04Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "fd17425d-7aa6-4539-90a7-8b45496d39bb",
+  "topic_id": "577e9414-30c8-4f3b-af4b-7f61b2dca99b",
+  "created_at": "2026-05-15T06:48:14.781Z",
+  "updated_at": "2026-05-15T06:51:33.785Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

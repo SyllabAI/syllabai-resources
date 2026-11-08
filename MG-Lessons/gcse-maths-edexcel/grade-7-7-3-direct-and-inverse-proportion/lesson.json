@@ -1,0 +1,133 @@
+{
+ "topic": "grade-7-7-3-direct-and-inverse-proportion",
+ "lane": "gcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What proportion means",
+   "body": "The symbol $y \\propto x$ means $y$ is proportional to $x$. In GCSE questions, you usually replace $\\propto$ with an equation using a constant $k$.\n\nFor direct proportion, $y = kx$, so both variables scale by the same factor. For inverse proportion, $y = \\frac{k}{x}$, so when one variable gets bigger, the other gets smaller.\n\nWatch the wording carefully. If $A$ is directly proportional to the square of $B$, write $A = kB^2$, but if $P$ is inversely proportional to the cube of $Q$, write $P = \\frac{k}{Q^3}$."
+  },
+  {
+   "heading": "The main method",
+   "body": "Most proportion questions follow the same routine. First write the formula with $k$, then use the known pair of values to find $k$, then substitute the new value.\n\nKeep the first variable named in the question on the left side of the equation. If the question says \"$p$ is directly proportional to $q$\", start with $p = kq$, not $q = kp$.\n\nA quick check can save marks. In direct proportion, the answer should move in the same direction as the input, while in inverse proportion it should usually move in the opposite direction."
+  },
+  {
+   "heading": "Worked example: direct proportion",
+   "body": "Example: $p$ is directly proportional to $q$. When $p=8$ and $q=20$, find $q$ when $p=14$. Start with $p = kq$.\n\nSubstitute $p=8$ and $q=20$. This gives $$8 = 20k$$ so $$k = \\frac{8}{20} = \\frac{2}{5}$$\n\nNow use $p=14$ in the same formula. Then $$14 = \\frac{2}{5}q$$ so $$q = 14 \\div \\frac{2}{5} = 35$$\n\nThe answer is $q=35$. That makes sense because in direct proportion, increasing $p$ from 8 to 14 should also increase $q$ from 20 to a larger value."
+  },
+  {
+   "heading": "Inverse proportion",
+   "body": "If $m$ is inversely proportional to $n$, we write the relationship as $m = \\frac{k}{n}$. As $n$ gets larger, $m$ gets smaller, and the product $mn$ always remains constant.\n\nFor example, if $m=18$ when $n=5$, find $m$ when $n=15$. We start by substituting the known values to find the constant $k$: $$18 = \\frac{k}{5}$$ which gives $$k = 18 \\times 5 = 90$$\n\nNow substitute $n=15$ back into the formula: $$m = \\frac{90}{15} = 6$$ This result is sensible because $n$ increased from 5 to 15, and in an inverse proportion, $m$ must decrease accordingly."
+  },
+  {
+   "heading": "Squares, cubes and square roots",
+   "body": "The wording can add powers or roots, but the method stays the same. \"$y$ directly proportional to $x^2$\" means $y = kx^2$, while \"$y$ inversely proportional to $x^3$\" means $y = \\frac{k}{x^3}$.\n\nSquare roots work in the same way. \"$r$ directly proportional to the square root of $s$\" becomes $r = k\\sqrt{s}$, and \"$p$ inversely proportional to the square root of $q$\" becomes $p = \\frac{k}{\\sqrt{q}}$.\n\nExample: if $r=10$ when $s=25$, then $$10 = k\\sqrt{25} = 5k$$ so $k=2$.\n\nIf $r=6$, then $$6 = 2\\sqrt{s}$$ so $\\sqrt{s}=3$ and $s=9$. Remember that $\\sqrt{s}$ means the positive square root in these questions."
+  },
+  {
+   "heading": "Recognising graphs and tables",
+   "body": "![Four labelled graph shapes for proportional relationships: straight line through origin, parabola at origin, reciprocal curve, and reciprocal squared curve](../assets/001-8ddc41c1-8d27-4a8e-8a2e-e792ca4afe3b.jpeg)\nGraph shapes help you recognise the formula before you calculate anything. A direct proportion $y \\propto x$ is a straight line through the origin, while $y \\propto x^2$ is a U-shaped curve with its vertex at the origin.\n\nInverse graphs are curved rather than straight. For positive $k$, $y \\propto \\frac{1}{x}$ has one branch in the first quadrant and one in the third, while $y \\propto \\frac{1}{x^2}$ has two branches above the x-axis, one on each side of the y-axis.\n\nFor tables, test which quotient stays constant. For example, if $x=2$ gives $y=24$ and $x=3$ gives $y=81$, only $y \\div x^3$ stays equal to 3, so $y = 3x^3$.",
+   "figure_refs": [
+    "assets/001-8ddc41c1-8d27-4a8e-8a2e-e792ca4afe3b.jpeg"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Which equation matches the statement \"$P$ is inversely proportional to the cube of $Q$\"?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$P = kQ^3$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$P = \\frac{k}{Q^3}$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$Q = \\frac{k}{P^3}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$P = \\frac{k}{3Q}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$P = \\frac{k}{Q^3}$ is correct because inverse proportion puts the expression involving $Q$ in the denominator, and \"cube of $Q$\" means $Q^3$. The common wrong answer A treats the relationship as direct proportion instead of inverse proportion."
+  },
+  {
+   "id": "card-10",
+   "question": "$$y$ is inversely proportional to $x$. When $y=12$ and $x=4$, what is the value of $y$ when $x=6$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "8",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "18",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "2",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "72",
+     "is_correct": false
+    }
+   ],
+   "explanation": "For inverse proportion, $y = \\frac{k}{x}$. Using $12 = \\frac{k}{4}$ gives $k=48$, so when $x=6$, $y = \\frac{48}{6} = 8$. The common wrong answer B comes from treating the relationship as direct proportion, but if $x$ increases in an inverse proportion, $y$ should decrease."
+  },
+  {
+   "id": "card-14",
+   "question": "A graph is a straight line but it crosses the y-axis at 4, not at the origin. What does this tell you?",
+   "options": [
+    {
+     "id": "a",
+     "text": "It shows direct proportion because all straight lines are direct proportion.",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "It is not direct proportion because a direct proportion line must pass through the origin.",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "It must show inverse proportion.",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "It must show $y \\propto x^2$.",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Direct proportion graphs have the form $y = kx$, so when $x=0$, $y=0$ and the line must pass through $(0,0)$. The common wrong answer A forgets that being straight is not enough; missing the origin means it is not direct proportion."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-7-7-3-direct-and-inverse-proportion/lessons",
+ "source_sha256": "58e112f078e5d91882af093829f2c122ea19f5a4082c34bf0265139b5e982c83",
+ "extracted_at": "2026-11-08T17:59:00Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "7477c038-795d-4002-9618-282ae6613f82",
+  "topic_id": "d9bb1e45-e0c8-4600-a83d-89609cc717bc",
+  "created_at": "2026-05-13T06:12:09.844Z",
+  "updated_at": "2026-05-13T06:14:08.078Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

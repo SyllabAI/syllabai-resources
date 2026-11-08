@@ -1,0 +1,136 @@
+{
+ "topic": "grade-4-4-9-pythagoras",
+ "lane": "gcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Right angles and the hypotenuse",
+   "body": "![Right-angled triangle labelled A, B, C with a right angle at B and hypotenuse c on AC](../assets/001-b1264292-7fac-40fa-a4c0-a8a144c33a32.jpeg)\n\nPythagoras' theorem only works in a right-angled triangle. Find the $90^\\circ$ angle first. The side opposite the right angle is the hypotenuse, which is always the longest side.\n\nIf the two shorter sides are $a$ and $b$, and the hypotenuse is $c$, then\n$$a^2 + b^2 = c^2$$\nThis means the squares of the two shorter sides add to the square of the longest side.\n\nBefore you calculate, label the right angle and the hypotenuse. Also make sure every side length is in the same unit before you substitute into the formula.",
+   "figure_refs": [
+    "assets/001-b1264292-7fac-40fa-a4c0-a8a144c33a32.jpeg"
+   ]
+  },
+  {
+   "heading": "Finding the hypotenuse",
+   "body": "A right-angled triangle has shorter sides $5.4 \\text{ cm}$ and $7.2 \\text{ cm}$. Since the missing side is the longest side, we are finding the hypotenuse, so we add the squares of the two known sides.\n\nLet the hypotenuse be $c$. We can set up the calculation to find the square of this missing length as follows: $$c^2 = 5.4^2 + 7.2^2 = 29.16 + 51.84 = 81$$\n\nNow we must square root the result to find the actual length. $$c = \\sqrt{81} = 9$$ So the missing side is $9 \\text{ cm}$. Do not stop at $81$, because $81$ is the value of $c^2$, not the side length $c$."
+  },
+  {
+   "heading": "Finding a shorter side",
+   "body": "If the hypotenuse is already given, the missing side must be one of the shorter sides. This time we subtract, because a shorter side squared equals hypotenuse squared minus the other shorter side squared.\n\nSuppose $DF = 16 \\text{ cm}$ is the hypotenuse and $DE = 7 \\text{ cm}$ is another side. We calculate the square of the missing side $EF$ using the rearranged formula:\n\n$$$EF^2 = 16^2 - 7^2 = 256 - 49 = 207$$\n\nNow square root and round only at the end. Since $EF = \\sqrt{207} = 14.387\\ldots$, the side length to 1 decimal place is $14.4 \\text{ cm}$."
+  },
+  {
+   "heading": "Hidden right-angled triangles in rectangles",
+   "body": "![Rectangle labelled 16 cm by 9 cm with diagonal d drawn from one corner to the opposite corner](../assets/002-a220c7b5-51f6-4361-8fe4-f7f16528f779.jpeg)\n\nA rectangle hides a right-angled triangle if you draw a diagonal. The diagonal is the hypotenuse, because it lies opposite a right angle made by the length and width.\n\nFor a rectangle that is $16 \\text{ cm}$ by $9 \\text{ cm}$, let the diagonal be $d$.\n\n$$d^2 = 16^2 + 9^2 = 256 + 81 = 337$$\n\nNow square root and round to find the final length:\n\n$$d = \\sqrt{337} = 18.357\\ldots$$\n\nSo the diagonal is $18.4 \\text{ cm}$ to 1 decimal place.",
+   "figure_refs": [
+    "assets/002-a220c7b5-51f6-4361-8fe4-f7f16528f779.jpeg"
+   ]
+  },
+  {
+   "heading": "Word problems and matching units",
+   "body": "In word problems, sketch the triangle first. A wall and the ground meet at $90^{\\circ}$, so a ladder against a wall forms a right-angled triangle.\n\nA ladder reaches $2.4 \\text{ m}$ up a wall and its base is $90 \\text{ cm}$ from the wall. Convert first so the units match: $90 \\text{ cm} = 0.9 \\text{ m}$.\n\nNow use Pythagoras for the ladder length $l$. $$l^2 = 2.4^2 + 0.9^2 = 5.76 + 0.81 = 6.57$$ $$l = \\sqrt{6.57} = 2.563\\ldots$$ To 3 significant figures, the ladder is $2.56 \\text{ m}$ long."
+  },
+  {
+   "heading": "Using Pythagoras twice",
+   "body": "Some exam questions contain two right-angled triangles joined together. Find the shared side first, then use it in the second triangle.\n\nSuppose triangle $ABC$ has $AB = 12 \\text{ m}$, $BC = 13 \\text{ m}$, and $BC$ is the hypotenuse. Then $$AC^2 = 13^2 - 12^2 = 25$$\n\nSo $AC = 5 \\text{ m}$. Now use triangle $ACD$, where $AC = 5 \\text{ m}$ and $CD = 6 \\text{ m}$ meet at the right angle.\n\n$$$AD^2 = 5^2 + 6^2 = 61$$ $$AD = \\sqrt{61} = 7.810\\ldots$$ To 3 significant figures, $AD = 7.81 \\text{ m}$."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Triangle $PQR$ has a right angle at $Q$. Which side is the hypotenuse?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$PQ$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$QR$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$PR$",
+     "is_correct": true
+    },
+    {
+     "id": "d",
+     "text": "You cannot tell",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The hypotenuse is always the side opposite the right angle, so with the right angle at $Q$, the hypotenuse is $PR$. A common mistake is choosing $PQ$ or $QR$ because they touch the right angle, but the hypotenuse is opposite it, not next to it."
+  },
+  {
+   "id": "card-7",
+   "question": "Which expression correctly finds the missing shorter side in a right-angled triangle with hypotenuse $13 \\text{ cm}$ and other shorter side $5 \\text{ cm}$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$\\sqrt{13^2 - 5^2}$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$\\sqrt{13^2 + 5^2}$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$13 - 5$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$\\sqrt{5^2 - 13^2}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Because $13 \\text{ cm}$ is the hypotenuse, the missing shorter side is $\\sqrt{13^2 - 5^2} = 12$. The most common wrong answer is B, but adding is for finding a hypotenuse, and it would wrongly give a side longer than the given longest side."
+  },
+  {
+   "id": "card-13",
+   "question": "A ladder reaches $2.4 \\text{ m}$ up a wall and its base is $90 \\text{ cm}$ from the wall. What is the ladder length to 3 significant figures?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$2.23 \\text{ m}$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$2.56 \\text{ m}$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$3.30 \\text{ m}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$2.40 \\text{ m}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "First convert $90 \\text{ cm}$ to $0.9 \\text{ m}$ so the units match, then calculate $\\sqrt{2.4^2 + 0.9^2} = 2.563\\dots$, which rounds to $2.56 \\text{ m}$. The most common wrong answer is C, which comes from adding $2.4 + 0.9$ directly instead of using Pythagoras."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-4-4-9-pythagoras/lessons",
+ "source_sha256": "4b11ed2a25ba363ab830d06f8c105304d08878e9d82ebeefa30b448760b49942",
+ "extracted_at": "2026-11-08T17:58:33Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "7deb1a04-f66f-4a89-8869-57b353ccad3f",
+  "topic_id": "470186c8-c2c0-4dda-ab30-403e7b1a69f7",
+  "created_at": "2026-05-13T10:52:16.083Z",
+  "updated_at": "2026-05-13T10:56:19.741Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

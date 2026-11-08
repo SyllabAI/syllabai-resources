@@ -1,0 +1,132 @@
+{
+ "topic": "grade-5-5-23-venn-diagrams",
+ "lane": "gcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What a Venn diagram shows",
+   "body": "![Two-circle Venn diagram inside a rectangle labelled universal set E, with regions A only, overlap, B only, and outside both](../assets/001-e879bc92-8f8d-432d-bf49-347f993ca472.jpeg)\n\nA Venn diagram shows sets inside a rectangle called the universal set, written $\\mathcal{E}$. Each separate area is a region, so in a two-circle diagram you can talk about A-only, B-only, the overlap, and the outside region.\n\nThe intersection, written $A \\cap B$, means \"in both sets\". The union, written $A \\cup B$, means \"in A or B or both\".\n\nThe complement of $A$, written $A'$, means everything in $\\mathcal{E}$ that is not in $A$. If an item is either in $A$ or not in $A$, then the probabilities satisfy $P(A)+P(A')=1$.",
+   "figure_refs": [
+    "assets/001-e879bc92-8f8d-432d-bf49-347f993ca472.jpeg"
+   ]
+  },
+  {
+   "heading": "Shading regions correctly",
+   "body": "When you shade a region, translate each symbol one step at a time. The symbol $\\cap$ means \"and\", so look for the common part, while $\\cup$ means \"or\", so include every region that fits at least one condition.\n\nFor example, $A \\cap B'$ means in $A$ but not in $B$, so you shade only the A-only region. Also, $A' \\cap B'$ means outside both circles.\n\nFor a mixed expression such as $A' \\cup B$, begin with everything not in $A$ and then add all of $B$. The only region left unshaded is the A-only region."
+  },
+  {
+   "heading": "Completing a two-circle diagram from totals",
+   "body": "In a survey of 48 pupils, 26 had visited Wales, 21 had visited Ireland, and 9 had visited both. Put 9 in the overlap first because it is the most specific information.\n\nSubtract the overlap from each circle total to find the \"only\" regions. Wales only is $26-9=17$, and Ireland only is $21-9=12$.\n\nNow find how many are in at least one circle: $17+9+12=38$. The number in neither is $48-38=10$, and the check $17+9+12+10=48$ confirms the diagram is complete."
+  },
+  {
+   "heading": "Three-circle diagrams from the centre out",
+   "body": "![Three-circle Venn diagram inside a rectangle, with circles R, F, and C, showing the centre and the pair-only overlap regions](../assets/002-557585b7-e853-4e6c-aab6-5de3a1333279.jpeg)\nIn a survey of 60 students, 7 like rugby, football, and cricket. Put 7 in the centre first because every pair total includes this middle region.\n\nNow find the pair-only regions by subtracting the centre. Rugby and football only is $18-7=11$, football and cricket only is $14-7=7$, and rugby and cricket only is $16-7=9$.\n\nUse the circle totals next. Rugby only is $30-11-9-7=3$, football only is $34-11-7-7=9$, and cricket only is $28-9-7-7=5$.\n\nAdd every region inside the circles to get $51$. So the number who like none is $60-51=9$.",
+   "figure_refs": [
+    "assets/002-557585b7-e853-4e6c-aab6-5de3a1333279.jpeg"
+   ]
+  },
+  {
+   "heading": "Probability from a completed diagram",
+   "body": "Sometimes the universal set and the sets are given as lists instead of totals. Let $\\mathcal{E}=\\{2,4,6,8,10,12,14,16,18\\}$, $A=\\{2,4,8,12,18\\}$, and $B=\\{4,6,12,14\\}$.\n\nThe overlap is $\\{4,12\\}$, so A-only is $\\{2,8,18\\}$ and B-only is $\\{6,14\\}$. The numbers outside both sets are $\\{10,16\\}$.\n\nIf one element is chosen at random, the denominator is the whole universal set, which has 9 elements. Since $A \\cup B$ contains 7 elements, $P(A \\cup B)=\\frac{7}{9}$."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Which part of a two-circle Venn diagram represents $A \\cap B$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Only the overlapping middle region",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "All regions inside either circle",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "Only the part inside $A$ but not $B$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "The region outside both circles",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$A \\cap B$ means items in both sets, so only the overlapping middle region fits. The most common wrong answer is B, but that is the union $A \\cup B$, which includes the A-only and B-only regions as well."
+  },
+  {
+   "id": "card-7",
+   "question": "50 people were asked whether they have a dog or a cat. 31 have a dog, 27 have a cat, and 8 have neither. How many have both?",
+   "options": [
+    {
+     "id": "a",
+     "text": "16",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "4",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "8",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "42",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Since 8 have neither, $50-8=42$ have at least one pet. Adding the dog and cat totals gives $31+27=58$, which counts the overlap twice, so the number with both is $58-42=16$. The most common wrong answer is 42, but that is the number with at least one pet, not the overlap."
+  },
+  {
+   "id": "card-13",
+   "question": "A universal set has 12 elements. Set $A$ has 7 elements, set $B$ has 6 elements, and $n(A \\cap B)=3$. What is $P((A \\cup B)')$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$\\frac{1}{6}$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$\\frac{5}{6}$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$\\frac{1}{4}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$\\frac{1}{2}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "First find the union: $7+6-3=10$. That leaves $12-10=2$ elements outside the union, so $P((A \\cup B)')=\\frac{2}{12}=\\frac{1}{6}$. The most common wrong answer is $\\frac{5}{6}$, but that is $P(A \\cup B)$, not the complement."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-5-5-23-venn-diagrams/lessons",
+ "source_sha256": "0e9f68a1c3f15fe52d8cecb79bc162fff4eb60b8580e6bdca2651a1d679e535b",
+ "extracted_at": "2026-11-08T17:58:40Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "3ca297cb-2d36-407a-ba59-7f1c57f84860",
+  "topic_id": "eb804cd0-e918-4680-98ed-685374a91a17",
+  "created_at": "2026-05-13T07:32:52.596Z",
+  "updated_at": "2026-05-13T07:34:55.036Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

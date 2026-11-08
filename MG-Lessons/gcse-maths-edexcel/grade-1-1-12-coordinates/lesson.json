@@ -1,0 +1,135 @@
+{
+ "topic": "grade-1-1-12-coordinates",
+ "lane": "gcse-maths-edexcel",
+ "grade": "1",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Meet the coordinate grid",
+   "body": "![Coordinate grid with labelled x-axis, y-axis, origin, point A at (4,-2), and point B at (-1,3), with arrows showing x first then y second](../assets/001-91894f6b-2e0a-41cf-9785-b3df53fe33c6.jpeg)\n\nA coordinate grid uses two perpendicular axes to show exact positions. The horizontal axis is the x-axis. The vertical axis is the y-axis. They meet at the origin, $(0,0)$.\n\nCoordinates are written as $(x,y)$. The first number tells you how far left or right to move, and the second tells you how far up or down to move. In the diagram, point $A$ is at $(4,-2)$, so you move 4 right and 2 down. Point $B$ is at $(-1,3)$, so you move 1 left and 3 up.",
+   "figure_refs": [
+    "assets/001-91894f6b-2e0a-41cf-9785-b3df53fe33c6.jpeg"
+   ]
+  },
+  {
+   "heading": "Reading and plotting negative coordinates",
+   "body": "Negative coordinates only change the direction you move. Negative $x$ means left, and negative $y$ means down.\n\nTo plot $(-4,-3)$, start at the origin and move 4 squares left. Then move 3 squares down and mark the point.\n\nWhen reading a point from a grid, reverse the process by counting across first and then up or down. A very common mistake is to swap the order and write the $y$-coordinate first."
+  },
+  {
+   "heading": "Finding a midpoint",
+   "body": "![Two-panel coordinate diagram with segment from B(-3,3) to C(3,0), midpoint M(0,1.5), and examples of the lines x = -2 and y = 4](../assets/002-6c8c974a-ef9a-4cf5-8038-6d2585457064.jpeg)\n\nIn the left panel, the midpoint is the point exactly halfway between the endpoints of a line segment. To find it, average the x-coordinates and average the y-coordinates.\n\nFor points $B(-3,3)$ and $C(3,0)$, work out each average separately:\n\n$$x_{\\text{mid}} = \\frac{-3+3}{2} = 0$$\n\n$$y_{\\text{mid}} = \\frac{3+0}{2} = 1.5$$\n\nThese averages are the two coordinates of the midpoint. So the midpoint is $(0,1.5)$. A common mistake is to find only one coordinate, but a midpoint always needs both.",
+   "figure_refs": [
+    "assets/002-6c8c974a-ef9a-4cf5-8038-6d2585457064.jpeg"
+   ]
+  },
+  {
+   "heading": "Lines where x or y is fixed",
+   "body": "![Two coordinate grids showing the vertical line $x = -2$ with point $(-2,3)$ and the horizontal line $y = 4$ with point $(1,4)$](../assets/003-coordinates-fixed-lines-52cbfa96723affdb.png)\n\nA line $x = -2$ is vertical because every point on it has the same $x$-coordinate. A line $y = 4$ is horizontal because every point on it has the same $y$-coordinate.\n\nYou can test a point by checking the fixed coordinate. For example, $(-2,3)$ lies on $x = -2$ but $(3,-2)$ does not, and $(1,4)$ lies on $y = 4$ but $(1,3)$ does not.",
+   "figure_refs": [
+    "assets/003-coordinates-fixed-lines-52cbfa96723affdb.png"
+   ]
+  },
+  {
+   "heading": "Stretch: completing a square on a grid",
+   "body": "In a square $ABCD$, the letters go around the shape in order, so the move from $B$ to $C$ matches the move from $A$ to $D$. This lets you find a missing corner by copying a horizontal move and a vertical move.\n\nFor $A(-1,3)$, $B(3,2)$, and $C(2,-2)$, the move from $B$ to $C$ is 1 left and 4 down. Apply that same move to $A$ to get $D=(-2,-1)$."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "A point is 2 squares left and 5 squares up from the origin. What are its coordinates?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$(-2,5)$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$(5,-2)$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$(2,-5)$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$(-5,2)$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$(-2,5)$ is correct because x comes first, so 2 left gives $x=-2$, and 5 up gives $y=5$. The common wrong answer is $(5,-2)$ because it swaps the coordinates and puts the up/down move first."
+  },
+  {
+   "id": "card-10",
+   "question": "Which statement is true?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The line $x=3$ is horizontal.",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "The line $y=3$ is vertical.",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "The line $x=3$ is vertical.",
+     "is_correct": true
+    },
+    {
+     "id": "d",
+     "text": "The line $x=3$ passes through the origin.",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The line $x=3$ is vertical because $x$ stays fixed at $3$ while $y$ can vary. The common wrong answer is A because students often match $x$ with horizontal movement, but a fixed $x$-value makes a vertical line."
+  },
+  {
+   "id": "card-12",
+   "question": "Points $A(-1,3)$, $B(3,2)$, and $C(2,-2)$ are consecutive vertices of square $ABCD$. What are the coordinates of $D$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$(-2,-1)$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$(0,-1)$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$(-2,1)$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$(-1,-1)$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$(-2,-1)$ is correct because the move from $B$ to $C$ is 1 left and 4 down, and the same move from $A$ gives $D$. The common wrong answer is $(-1,-1)$ because it copies only the 4 down part and forgets the 1 left."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-1-1-12-coordinates/lessons",
+ "source_sha256": "ee91ccc9d594976157a1691ba75d35136873562c60c7ae26ad69100e3733f051",
+ "extracted_at": "2026-11-08T17:57:51Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "b6402abf-df2b-40f2-8a36-fd4d615b6309",
+  "topic_id": "fffa66b6-2e95-461f-a756-9a4e40c658d4",
+  "created_at": "2026-05-13T11:07:45.373Z",
+  "updated_at": "2026-11-03T03:17:43.102Z",
+  "figures": 3,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

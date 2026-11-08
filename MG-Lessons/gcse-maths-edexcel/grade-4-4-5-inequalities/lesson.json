@@ -1,0 +1,164 @@
+{
+ "topic": "grade-4-4-5-inequalities",
+ "lane": "gcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What inequalities mean",
+   "body": "An inequality compares two values, and a variable such as $x$ or $n$ stands for a number. A solution is any value that makes the inequality true.\n\nRead the sign from left to right. For example, $x < 4$ means less than 4, $x > 4$ means greater than 4, $x \\le 4$ means less than or equal to 4, and $x \\ge 4$ means greater than or equal to 4.\n\nThe extra line in $\\le$ or $\\ge$ means the end value is included. Without that line, the end value is not included."
+  },
+  {
+   "heading": "Listing integer values between limits",
+   "body": "If a question says \"integer\", you can only use numbers with no decimal or fractional part, including negatives, zero, and positives.\n\nFor $-4 < n \\le 2$, $n$ must be greater than $-4$ but less than or equal to $2$. That means $-4$ is not included, but $2$ is.\n\nSo the possible integer values are: -3, -2, -1, 0, 1, 2.\n\nWriting them in order helps you avoid missing one."
+  },
+  {
+   "heading": "Reading and drawing number lines",
+   "body": "![Two number lines: top has an open circle at 1 with shading to the left, bottom has a solid circle at negative 2, an open circle at 3, and a segment between them](../assets/001-80638a4e-fec5-416a-883c-361c319b187f.jpeg)\n\nA number line helps you show exactly which values are allowed. Open circles mean 'not included', and solid circles mean 'included'.\n\nAn arrow to the right means greater than, and an arrow to the left means less than. A thick line between two endpoints means every value between them works.\n\nFor $-2 \\le x < 3$, put a solid circle at $-2$ and an open circle at $3$, then join them. For $x < 1$, use an open circle at $1$ and shade the line to the left.",
+   "figure_refs": [
+    "assets/001-80638a4e-fec5-416a-883c-361c319b187f.jpeg"
+   ]
+  },
+  {
+   "heading": "Solving simple inequalities",
+   "body": "Solving an inequality is very similar to solving an equation. Do the same operation to both sides, and the sign stays the same while you add, subtract, multiply, or divide by a positive number. If there are brackets, expand them first.\n\nExample: solve $3t + 5 \\le 17$. Subtract 5 from both sides:\n\n$$3t \\le 12$$\n\nNow divide both sides by 3:\n\n$$t \\le 4$$\n\nSo any value of $t$ up to 4 is a solution."
+  },
+  {
+   "heading": "Letters on both sides",
+   "body": "When the variable appears on both sides, collect the variable terms on one side and the numbers on the other. It is usually best to keep the variable positive if you can.\n\nSolve $5x + 1 \\le 2x + 13$ by subtracting $2x$ from both sides:\n\n$$3x + 1 \\le 13$$\n\nThen subtract 1:\n\n$$3x \\le 12$$\n\nNow divide by 3 to get $x \\le 4$. On a number line, this is represented by a solid circle at 4 with an arrow pointing to the left."
+  },
+  {
+   "heading": "When the sign reverses",
+   "body": "The inequality sign only flips when you multiply or divide both sides by a negative number. It does not change when you just add or subtract.\n\nSolve $5 > 17 - 3x$ by subtracting 17 from both sides:\n\n$$-12 > -3x$$\n\nNow you need to divide by -3.\n\nDividing by -3 reverses the sign, so:\n\n$$4 < x$$\n\nThis is usually written as $x > 4$."
+  },
+  {
+   "heading": "Compound inequalities",
+   "body": "A compound inequality has two signs, so the variable must fit between two end values. To solve it, do the same operation to all three parts.\n\nFor $3 \\le 2y - 1 < 11$, add 1 to every part:\n$$\n4 \\le 2y < 12\n$$\n\nThen divide every part by 2. This gives:\n$$\n2 \\le y < 6\n$$\n\nIf $y$ is an integer, the possible values are 2, 3, 4 and 5. The 2 is included, but 6 is not."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Which statement correctly describes $x \\ge -2$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$x$ is greater than or equal to -2",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$x$ is greater than -2 only",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$x$ is less than or equal to -2",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$x$ is less than -2 only",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$\\ge$ means \"greater than or equal to\", so -2 itself is included. The common wrong answer is B, which forgets that the extra line means the endpoint is allowed."
+  },
+  {
+   "id": "card-6",
+   "question": "A number line has an open circle at 1 and an arrow pointing left. Which inequality does it represent?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$x < 1$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$x \\le 1$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$x > 1$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$x \\ge 1$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The arrow points left, so the values are less than 1, and the open circle shows 1 is not included. The common wrong answer is B, which would need a solid circle at 1."
+  },
+  {
+   "id": "card-11",
+   "question": "Solve the inequality: $4x - 3$ is greater than $x + 6$.",
+   "options": [
+    {
+     "id": "a",
+     "text": "x is greater than 3",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "x is greater than 9",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "x is less than 3",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "x is less than 9",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Subtract x from both sides to get 3x minus 3 is greater than 6. Add 3 to both sides to get 3x is greater than 9. Divide both sides by 3. So the solution is all numbers greater than 3."
+  },
+  {
+   "id": "card-13",
+   "question": "Why does the inequality sign change when solving $-12 > -3x$ for x?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because 12 is larger than 3",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "Because you divided both sides by a negative number",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "Because the variable starts on the right side",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Because you subtracted the same amount from both sides",
+     "is_correct": false
+    }
+   ],
+   "explanation": "An inequality changes direction only when you multiply or divide both sides by a negative number. Here, dividing by $-3$ reverses the inequality sign. Adding or subtracting the same number on both sides does not change its direction."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-4-4-5-inequalities/lessons",
+ "source_sha256": "ee93ac0b993b5f0ba22ef0b490ffd252accb524bc02d53f9c19ce3245055b462",
+ "extracted_at": "2026-11-08T17:58:31Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "3cb33630-1522-411d-a4a9-2d2f8dd55825",
+  "topic_id": "6637693a-4c3f-403f-999d-9051d99cb1c6",
+  "created_at": "2026-05-13T10:37:00.581Z",
+  "updated_at": "2026-05-13T10:48:18.602Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

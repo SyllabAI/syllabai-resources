@@ -1,0 +1,163 @@
+{
+ "topic": "grade-2-2-4-fractions-of-an-amount",
+ "lane": "gcse-maths-edexcel",
+ "grade": "2",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Fraction of an amount: the main idea",
+   "body": "When you find a fraction of an amount, the amount is the whole number, price, or group you start with. The denominator tells you how many equal parts to split the whole into, and the numerator tells you how many parts to take.\n\nThe main method is divide first, then multiply. For $\\frac{a}{b}$ of an amount, divide by $b$ first, and only multiply by $a$ afterwards.\n\nIf the fraction is a unit fraction such as $\\frac{1}{6}$, the numerator is 1, so you only need the division step. As a quick check, the answer to a proper fraction of an amount should be smaller than the starting amount."
+  },
+  {
+   "heading": "Worked example: a unit fraction",
+   "body": "To find $\\frac{1}{6}$ of 360, start with the denominator. A denominator of 6 means split 360 into 6 equal parts. Find one sixth by dividing:\n\n$$$360 \\div 6 = 60$$\n\nBecause the numerator is 1, that single part is the final answer. So $\\frac{1}{6}$ of 360 is 60. The answer makes sense because 60 is smaller than 360."
+  },
+  {
+   "heading": "Worked example: a non-unit fraction",
+   "body": "![Bar model of 96 split into 8 equal parts, with 5 shaded parts and labels showing 96 divided by 8 gives 12 and 12 multiplied by 5 gives 60](../assets/001-870f73ac-26f1-4861-8a98-66371d47273e.jpeg)\nTo find $\\frac{5}{8}$ of 96, first find one eighth of 96. The bar model shows 96 split into 8 equal parts, so the denominator tells you to divide by 8.\n\nOne equal part is\n$$96 \\div 8 = 12$$\nNow each eighth is worth 12.\n\nYou need 5 parts, so multiply by the numerator:\n$$12 \\times 5 = 60$$\nSo $\\frac{5}{8}$ of 96 is 60.",
+   "figure_refs": [
+    "assets/001-870f73ac-26f1-4861-8a98-66371d47273e.jpeg"
+   ]
+  },
+  {
+   "heading": "Working backwards from a fraction",
+   "body": "![Bar model of an unknown whole n split into 5 equal parts, with 2 parts labeled 26, one part labeled 13, and the whole labeled 65](../assets/002-2220d7e3-cec2-4e2f-8487-e67baa563d7b.jpeg) If $\\frac{2}{5}$ of a number is 26, then 26 represents 2 equal parts, not the whole. Work backwards by finding one part first.\n\nOne part is\n$$26 \\div 2 = 13$$\nThis tells you the value of $\\frac{1}{5}$ of the number.\n\nThe whole number has 5 equal parts, so multiply by 5:\n$$13 \\times 5 = 65$$\nTherefore $n = 65$.",
+   "figure_refs": [
+    "assets/002-2220d7e3-cec2-4e2f-8487-e67baa563d7b.jpeg"
+   ]
+  },
+  {
+   "heading": "Word problems that need subtraction",
+   "body": "In word problems, phrases such as difference, reduced by, off, and the rest usually mean the fraction is not the final answer. You often find a fraction first and then subtract.\n\nFor example, a game costs £35 and is reduced by $\\frac{1}{5}$. First find the discount:\n$$35 \\div 5 = 7$$\n\nThen subtract the discount from the original price.\n$$35 - 7 = 28$$\nSo the sale price is £28, not £7.\n\nFor difference questions, find both amounts and subtract the smaller from the larger. A useful fact is that 20% is the same as $\\frac{1}{5}$."
+  },
+  {
+   "heading": "Groups inside groups",
+   "body": "This type of problem hides a smaller group inside the total. If a question says $\\frac{3}{7}$ of the children, you must find the number of children before using the fraction.\n\nAt a school event there are 300 people, with 124 adults and 92 teenagers. The rest are children, so subtract the adults and teenagers from the total population:\n$$300 - 124 - 92 = 84$$\n\nNow find the boys by working out $\\frac{3}{7}$ of 84. Divide by the denominator and then multiply the result by the numerator:\n$$84 \\div 7 = 12$$\n$$12 \\times 3 = 36$$\n\nGirls are the rest of the children, so subtract the boys from the children to find the final result:\n$$84 - 36 = 48$$\nThere are 48 girls."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "To find $\\frac{3}{5}$ of 100, what should you do first?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Multiply 100 by 3",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "Divide 100 by 5",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "Divide 100 by 3",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Multiply 100 by 5",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The denominator 5 tells you to split 100 into 5 equal parts first, so $100 \\div 5 = 20$. The most common wrong answer is A because it uses the numerator first, but the numerator only tells you how many parts to take after one part has been found."
+  },
+  {
+   "id": "card-6",
+   "question": "What is $\\frac{3}{4}$ of 40?",
+   "options": [
+    {
+     "id": "a",
+     "text": "10",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "30",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "160",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "12",
+     "is_correct": false
+    }
+   ],
+   "explanation": "First find one quarter: $40 \\div 4 = 10$, then multiply by 3 to get $30$. The most common wrong answer is A because 10 is only $\\frac{1}{4}$ of 40, so it stops after the division step."
+  },
+  {
+   "id": "card-12",
+   "question": "What is the difference between 20% of 85 and $\\frac{3}{4}$ of 40?",
+   "options": [
+    {
+     "id": "a",
+     "text": "13",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "17",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "30",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "47",
+     "is_correct": false
+    }
+   ],
+   "explanation": "20% of 85 is $\\frac{1}{5}$ of 85, which is 17, and $\\frac{3}{4}$ of 40 is 30, so the difference is $30 - 17 = 13$. The most common wrong answer is C because 30 is only one of the two values, so it forgets the final subtraction."
+  },
+  {
+   "id": "card-14",
+   "question": "There are 60 marbles. $\\frac{1}{3}$ are blue and the rest are red. $\\frac{1}{4}$ of the red marbles are chipped. How many red marbles are not chipped?",
+   "options": [
+    {
+     "id": "a",
+     "text": "10",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "20",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "30",
+     "is_correct": true
+    },
+    {
+     "id": "d",
+     "text": "40",
+     "is_correct": false
+    }
+   ],
+   "explanation": "First find the blue marbles: $60 \\div 3 = 20$, so the red marbles are $60 - 20 = 40$. Then find the chipped red marbles: $40 \\div 4 = 10$, so the red marbles that are not chipped are $40 - 10 = 30$; the most common wrong answer is A because 10 is the chipped red marbles, not the red marbles not chipped."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-2-2-4-fractions-of-an-amount/lessons",
+ "source_sha256": "13f0526dd40d2fb86b5f1a15aa092199f1a68e67a4f80824139270f6f3dc0a21",
+ "extracted_at": "2026-11-08T17:58:04Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "1ecefc9c-e292-4302-91d9-82b522e9ad76",
+  "topic_id": "45988751-a004-4032-a561-dda1e2cc321e",
+  "created_at": "2026-05-13T06:18:09.134Z",
+  "updated_at": "2026-05-13T06:22:01.782Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

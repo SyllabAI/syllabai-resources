@@ -1,0 +1,163 @@
+{
+ "topic": "grade-6-6-10-circle-theorems",
+ "lane": "gcse-maths-edexcel",
+ "grade": "6",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Spot the clues",
+   "body": "Circle theorem questions are really about spotting structure in a diagram. Look for radii, chords, tangents, and shapes with all vertices on the circle.\n\nThe main angle facts come from three clues: equal radii, a tangent touching the circle, and angles standing on the same chord or arc. Start by marking these clues on the diagram before you calculate anything."
+  },
+  {
+   "heading": "Equal radii make isosceles triangles",
+   "body": "All radii in the same circle are equal. So if $OA$ and $OB$ are radii, triangle $AOB$ is isosceles and its base angles are equal.\n\nWorked example: if $\\angle ABO = 42^\\circ$, then $\\angle OAB = 42^\\circ$ because $OA = OB$. Angles in triangle $AOB$ must add to $180^\\circ$.\n\n$$$\\angle AOB = 180^\\circ - 42^\\circ - 42^\\circ = 96^\\circ$$\n\nHidden isosceles triangles are often the first step in a longer circle theorem question. Identifying these equal sides is key to unlocking more complex geometry problems."
+  },
+  {
+   "heading": "Tangent and radius",
+   "body": "A tangent touches the circle at exactly one point. The radius to that point is perpendicular to the tangent, so the angle there is $90^\\circ$.\n\nWorked example: $AB$ and $CB$ are tangents to a circle with centre $O$, and $\\angle ABC = 50^\\circ$. In quadrilateral $AOCB$, the two right angles give $\\angle AOC = 360^\\circ - 90^\\circ - 90^\\circ - 50^\\circ = 130^\\circ$.\n\nNow $OA = OC$ because both are radii, so triangle $AOC$ is isosceles. Each base angle is $\\frac{180^\\circ - 130^\\circ}{2} = 25^\\circ$, so $\\angle OAC = 25^\\circ$."
+  },
+  {
+   "heading": "Centre angle and circumference angle",
+   "body": "![Circle with centre O, chord BC, central angle BOC of 74° and angle BAC of 37° at the circumference standing on the same chord](../assets/001-94174955-181c-453a-9ea1-4eaa9f7fdb28.jpeg)\n\nWhen two angles stand on the same chord, the angle at the centre is twice the angle at the circumference. In the diagram, both angles stand on chord $BC$.\n\nIf $\\angle BOC = 74^\\circ$, then $\\angle BAC = \\frac{74^\\circ}{2} = 37^\\circ$. If you know the circumference angle instead, double it to get the centre angle.\n\nCheck carefully whether the diagram shows the smaller centre angle or a reflex angle. Use the angle on the correct arc before you halve or double.",
+   "figure_refs": [
+    "assets/001-94174955-181c-453a-9ea1-4eaa9f7fdb28.jpeg"
+   ]
+  },
+  {
+   "heading": "Same segment and cyclic quadrilaterals",
+   "body": "Two angles in the same segment stand on the same chord, so they are equal. A cyclic quadrilateral has all four vertices on the circle, and its opposite angles add to $180^\\circ$.\n\nWorked example: if $\\angle ADB = 47^\\circ$ and points $A$, $B$, $C$, $D$ lie on the same circle, then $\\angle ACB = 47^\\circ$ because both angles stand on chord $AB$.\n\nIf $\\angle ADC = 78^\\circ$, then the opposite angle in cyclic quadrilateral $ABCD$ is $\\angle ABC = 180^\\circ - 78^\\circ = 102^\\circ$. These two facts often appear together in multi-step questions."
+  },
+  {
+   "heading": "Alternate segment theorem and tangent lengths",
+   "body": "![Circle with tangent at C, radius OC at right angles to the tangent, chord CB, angle x between radius OC and chord CB, and angle BAC in the opposite segment](../assets/002-8c3e1f40-7ffc-46f6-a5c0-7eecfe2bb0dd.jpeg)\nThe alternate segment theorem says that the angle between a tangent and a chord equals the angle in the opposite segment. Match the chord carefully: if the tangent angle uses chord $CB$, look for the angle on the circumference in the opposite segment made by chord $CB$. In this diagram, the labelled angle $x$ is between $OC$ and $CB$, so the tangent-chord angle and $x$ add to $90^\\circ$.\n\nExample: in triangle $ABC$, $\\angle ABC = 58^\\circ$ and $\\angle ACB = 71^\\circ$, so $\\angle BAC = 180^\\circ - 58^\\circ - 71^\\circ = 51^\\circ$. By the alternate segment theorem, the angle between the tangent at $C$ and chord $CB$ is also $51^\\circ$. Since $OC$ is perpendicular to the tangent, the labelled angle is $x = 90^\\circ - 51^\\circ = 39^\\circ$.\n\nTangents can also lead to length questions because a radius and tangent make a right-angled triangle. If $OA = 6$ cm, $AC = 8$ cm, and $O$, $B$, $C$ are on a straight line, then triangle $OAC$ is right-angled and\n$$OC^2 = 6^2 + 8^2 = 100$$\nso $OC = 10$ cm.\n\nSince $OB = 6$ cm is also a radius, $BC = 10 - 6 = 4$ cm. Always check whether the question wants the whole sloping side or just the leftover section.",
+   "figure_refs": [
+    "assets/002-8c3e1f40-7ffc-46f6-a5c0-7eecfe2bb0dd.jpeg"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-3",
+   "question": "A and B lie on a circle with centre O. If OA and OB are radii and $\\angle ABO = 35^\\circ$, what is $\\angle AOB$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$110^\\circ$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$70^\\circ$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$145^\\circ$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$35^\\circ$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$OA = OB$, so triangle $AOB$ is isosceles and $\\angle OAB = 35^\\circ$ too. Then $\\angle AOB = 180^\\circ - 35^\\circ - 35^\\circ = 110^\\circ$; the common wrong answer $70^\\circ$ just doubles the base angle and forgets that all three angles in the triangle must add to $180^\\circ$."
+  },
+  {
+   "id": "card-8",
+   "question": "Angles $BOC$ and $BAC$ stand on the same chord $BC$. If $\\angle BOC = 124^\\circ$, what is $\\angle BAC$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$62^\\circ$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$124^\\circ$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$248^\\circ$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$56^\\circ$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The angle at the centre is twice the angle at the circumference on the same chord, so $\\angle BAC = \\frac{124^\\circ}{2} = 62^\\circ$. The common wrong answer $124^\\circ$ treats the two angles as equal, but the centre angle should be the larger one."
+  },
+  {
+   "id": "card-13",
+   "question": "A tangent touches the circle at C. In triangle ABC, $\\angle ABC = 53^\\circ$ and $\\angle ACB = 64^\\circ$. What is the angle between the tangent at C and chord CB?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$63^\\circ$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$53^\\circ$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$64^\\circ$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$117^\\circ$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "First find the third angle: $\\angle BAC = 180^\\circ - 53^\\circ - 64^\\circ = 63^\\circ$. By the alternate segment theorem, the angle between the tangent and chord $CB$ equals the angle in the opposite segment on chord $CB$, so $63^\\circ$ is correct; $53^\\circ$ is the common wrong choice because it picks a known angle without matching the chord."
+  },
+  {
+   "id": "card-15",
+   "question": "AC is a tangent at A. O is the centre, and O, B, C lie on a straight line. OA = 5 cm and AC = 12 cm. What is BC?",
+   "options": [
+    {
+     "id": "a",
+     "text": "8 cm",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "13 cm",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "17 cm",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "7 cm",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Triangle $OAC$ is right-angled at A, so $OC = 13$ cm by Pythagoras because $5^2 + 12^2 = 13^2$. Then $OB = 5$ cm as a radius, so $BC = 13 - 5 = 8$ cm; 13 cm is the common wrong answer because it is $OC$, not the required segment $BC$."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-6-6-10-circle-theorems/lessons",
+ "source_sha256": "584e9da2a1ac2d7bc3a7bb57d77bc03f8f41c4d4392925adfb7baf5036fa05af",
+ "extracted_at": "2026-11-08T17:58:45Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "de5c77c5-3bca-4f5c-9466-8ccda6497082",
+  "topic_id": "ec0748de-c1ca-4c1b-b089-645255c03937",
+  "created_at": "2026-05-13T06:48:48.259Z",
+  "updated_at": "2026-05-13T06:55:36.364Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

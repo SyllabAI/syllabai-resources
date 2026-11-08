@@ -1,0 +1,133 @@
+{
+ "topic": "grade-4-4-18-averages-from-frequency-tables",
+ "lane": "gcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What a frequency table tells you",
+   "body": "![Frequency table with value, frequency and product columns, arrows showing multiplication, total frequency 14, sum of products 19, and notes for mean and median](../assets/001-859811d3-bb08-44ae-9ca1-55c75bad6ead.jpeg)\n\nA frequency table shows each value, or each interval, and how often it occurs. It saves time because you do not need to write every result out in a long list.\n\nThe frequency is how many times something happens, and the total frequency is the sum of all the frequencies. From a frequency table you can find the mean, median, and mode.\n\nIf the table uses exact values, you can calculate the exact mean. If the table uses grouped intervals, you use midpoints, so the mean is only an estimate.",
+   "figure_refs": [
+    "assets/001-859811d3-bb08-44ae-9ca1-55c75bad6ead.jpeg"
+   ]
+  },
+  {
+   "heading": "Mean from an exact frequency table",
+   "body": "To find the mean from exact data, first multiply each value by its frequency. This creates a product column so repeated values are counted the right number of times.\n\nThen divide the total of the products by the total frequency. $$\\text{mean} = \\frac{\\text{sum of products}}{\\text{total frequency}}$$\n\nIf value 2 has frequency 7, it contributes $2 \\times 7 = 14$ to the total. Do not divide by the number of rows, because the rows can have very different frequencies."
+  },
+  {
+   "heading": "Worked example: exact mean",
+   "body": "Here is a full worked example using scores.\n\n| Score | Frequency | Product |\n|---|---:|---:|\n| 0 | 4 | 0 |\n| 1 | 6 | 6 |\n| 2 | 10 | 20 |\n| 3 | 5 | 15 |\n| 4 | 2 | 8 |\n\nThe product column shows what each row adds to the total.\n\nFirst add the products: $$0+6+20+15+8=49$$ Then add the frequencies: $$4+6+10+5+2=27$$\n\nNow divide the total product by the total frequency: $$\\text{mean} = \\frac{49}{27} \\approx 1.8$$ So the mean score is about 1.8 points. Notice that score 2 has the biggest effect because it happens 10 times. That is why adding $0+1+2+3+4$ and dividing by 5 would be wrong."
+  },
+  {
+   "heading": "Median and mode from a frequency table",
+   "body": "The median is the middle value when the data is in order, and the mode is the most common value. In a frequency table, cumulative frequency helps you find where the middle positions fall.\n\nSuppose goals 0, 1, 2 and 3 have frequencies 5, 12, 9 and 6. The total frequency is 32, so the middle positions are the 16th and 17th values.\n\nThe cumulative frequencies are 5, 17, 26 and 32, so both the 16th and 17th values are in the 1-goal row. The median is 1 and the highest frequency is 12, so the mode is also 1.\n\nYou can still find the total number of goals with products. $$0 \\times 5 + 1 \\times 12 + 2 \\times 9 + 3 \\times 6 = 48$$ So the team scored 48 goals in total."
+  },
+  {
+   "heading": "Grouped data and estimated mean",
+   "body": "Grouped frequency tables use intervals such as over 10, up to 15, instead of exact values. Because the exact data in each class is unknown, the mean from grouped data is only an estimate.\n\nUse the midpoint of each class as a typical value for that class. Then calculate: $$\\text{estimated mean} = \\frac{\\text{sum of midpoint products}}{\\text{total frequency}}$$\n\nAlways work out each midpoint from the ends of the interval. For example, over 10 up to 15 has midpoint $12.5$, while over 25 up to 35 has midpoint $30$."
+  },
+  {
+   "heading": "Worked example: estimated mean and median class",
+   "body": "Now estimate a mean time from grouped data. First find the midpoint of each class, then multiply by frequency.\n\n| Time interval | Frequency | Midpoint | Product |\n|---|---:|---:|---:|\n| Over 10, up to 15 | 2 | 12.5 | 25 |\n| Over 15, up to 20 | 6 | 17.5 | 105 |\n| Over 20, up to 25 | 8 | 22.5 | 180 |\n| Over 25, up to 35 | 4 | 30 | 120 |\n\nAdd the products to get the estimated total time: $$25+105+180+120=430$$ Add the frequencies to get the total number of pupils: $$2+6+8+4=20$$\n\nNow divide to estimate the mean time: $$\\text{estimated mean} = \\frac{430}{20} = 21.5$$ So the estimated mean time is 21.5 minutes.\n\nYou can also find the median class instead of an exact median. With 20 values, the middle positions are 10 and 11. Looking at the cumulative frequencies (2, 8, 16, 20), both values fall into the \"over 20, up to 25\" class. Therefore, the median class is over 20, up to 25 minutes."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "A game gives scores 0, 1, 2 and 3 with frequencies 3, 5, 4 and 2. What is the total frequency?",
+   "options": [
+    {
+     "id": "a",
+     "text": "14",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "6",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "19",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "4",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The total frequency is $3+5+4+2=14$, so 14 games were played. A common wrong answer is 19, but that comes from adding score times frequency, not from counting how many results there are."
+  },
+  {
+   "id": "card-6",
+   "question": "A student adds 0, 1, 2, 3 and 4, then divides by 5 to find the mean of the table in the worked example. What have they ignored?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The frequencies",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "The total frequency is always 5",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "The median must be found first",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "The values should be put in descending order",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The frequencies matter because each score occurs a different number of times, so repeated scores must count more than once. B is the common wrong idea, but the total frequency is $4+6+10+5+2=27$, not 5."
+  },
+  {
+   "id": "card-12",
+   "question": "In a grouped table, the class over 25, up to 35 has frequency 4. What does this class contribute to the total used for the estimated mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "100",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "120",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "140",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "30",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The midpoint of 25 and 35 is 30, and $30 \\times 4 = 120$. A is the common wrong answer because it uses the lower end of the class instead of the midpoint."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-4-4-18-averages-from-frequency-tables/lessons",
+ "source_sha256": "3c6588ed60d7df8858dcb6eeb2ed74adae455e9b9552cd75afd93b151268058f",
+ "extracted_at": "2026-11-08T17:58:28Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "2bf112fc-6964-4b60-ad10-c0b5b15b4831",
+  "topic_id": "41407151-2df8-4048-bbe8-081b1861175f",
+  "created_at": "2026-05-13T07:30:24.776Z",
+  "updated_at": "2026-05-13T07:31:22.275Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

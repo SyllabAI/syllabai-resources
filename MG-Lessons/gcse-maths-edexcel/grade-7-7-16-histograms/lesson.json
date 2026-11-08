@@ -1,0 +1,136 @@
+{
+ "topic": "grade-7-7-16-histograms",
+ "lane": "gcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What a histogram shows",
+   "body": "![Histogram with four touching bars of unequal widths over 0 to 4, 4 to 9, 9 to 15 and 15 to 25, with frequency density heights labelled](../assets/001-24294d11-f9ec-44fe-bb4f-718445ee4551.jpeg)\nA histogram is used for grouped continuous data such as time, length, or mass. Unlike an ordinary bar chart, the class intervals can have different widths, so the width of each bar matters.\n\nIn a histogram, frequency is shown by the area of a bar, not by height alone. That is why the vertical axis is usually frequency density rather than frequency.\n\nThe bars touch because the intervals join up with no gaps. For example, $0 \\le t < 5$ includes 0 up to but not including 5, so a value of exactly 5 goes in the next class.",
+   "figure_refs": [
+    "assets/001-24294d11-f9ec-44fe-bb4f-718445ee4551.jpeg"
+   ]
+  },
+  {
+   "heading": "Class intervals and class widths",
+   "body": "The class width is the upper boundary minus the lower boundary. In $0 \\le t < 5$, the width is $5 - 0 = 5$, and a value of exactly 5 goes into the next class.\n\nFor $0 \\le t < 3$, $3 \\le t < 8$, $8 \\le t < 14$, and $14 \\le t < 24$, the widths are $3$, $5$, $6$, and $10$. Writing these widths down first makes later calculations much easier."
+  },
+  {
+   "heading": "Frequency density is the bar height",
+   "body": "The vertical axis on a histogram is usually frequency density, often shortened to f.d. This tells you how much frequency there is per unit of class width.\n\nUse\n$$\\text{frequency density}=\\frac{\\text{frequency}}{\\text{class width}}$$\nto find the height of a bar. Rearranging gives\n$$\\text{frequency}=\\text{class width}\\times\\text{frequency density}$$\nwhen you need the frequency from a bar.\n\nFor $2 \\le t < 8$ with frequency 18, the class width is $8 - 2 = 6$. So the frequency density is $18 \\div 6 = 3$, so the bar height is 3, not 18."
+  },
+  {
+   "heading": "Worked example: complete the missing values",
+   "body": "A table gives $0 \\le t < 4$ frequency 10, $4 \\le t < 9$ frequency density 1.4, $9 \\le t < 15$ frequency density 1.5, and $15 \\le t < 25$ frequency 12. First find the class widths: $4$, $5$, $6$, and $10$.\n\nFor the classes with known frequencies, divide by the width to get the bar heights:\n$$\n\\begin{aligned}\n\\text{f.d. for }0 \\le t < 4 &= \\frac{10}{4}=2.5\\\\\n\\text{f.d. for }15 \\le t < 25 &= \\frac{12}{10}=1.2\n\\end{aligned}\n$$\nThese are the heights of those two bars.\n\nFor the classes with known frequency densities, multiply by the width to get the frequencies:\n$$\n\\begin{aligned}\n\\text{frequency for }4 \\le t < 9 &= 5 \\times 1.4=7\\\\\n\\text{frequency for }9 \\le t < 15 &= 6 \\times 1.5=9\n\\end{aligned}\n$$\nThese are the missing frequencies.\n\nSo the completed rows are frequency 10 and frequency density 2.5, frequency 7 and frequency density 1.4, frequency 9 and frequency density 1.5, and frequency 12 and frequency density 1.2. Draw touching bars across the correct intervals, with heights $2.5$, $1.4$, $1.5$, and $1.2$ on the frequency density axis."
+  },
+  {
+   "heading": "Estimating from part of a bar",
+   "body": "![Histogram bar from 10 to 20 with a highlighted sub-interval from 12 to 18 and height 2.5](../assets/002-d1827ecd-04a1-421f-b748-da5807ca8499.jpeg)\nSometimes you only want part of a class interval, such as $12 \\le t < 18$ inside the bar $10 \\le t < 20$. You use the same frequency density within that bar and assume the data is spread evenly through the class.\n\nThe smaller interval has width $18 - 12 = 6$. So the estimated frequency is\n$$\n6 \\times 2.5 = 15\n$$\nThe estimate is 15.\n\nThis is only an estimate because the real data might not be perfectly even inside the class. The method works by taking the area of just the highlighted part of the bar.",
+   "figure_refs": [
+    "assets/002-d1827ecd-04a1-421f-b748-da5807ca8499.jpeg"
+   ]
+  },
+  {
+   "heading": "Common mistakes and exam checks",
+   "body": "Read the vertical axis carefully. If it says frequency density, a bar with width 10 and height 2 has frequency $10 \\times 2 = 20$.\n\nWrite each class width beside the interval before you calculate. This stops two common errors: drawing all bars the same width and using raw frequency as the bar height.\n\nBars should touch because the data is continuous. If you use only part of a bar, say that the answer is an estimate."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Why does a histogram use area rather than just height to show frequency?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because class widths can be different, so frequency must depend on width and height",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "Because all histogram bars have the same width",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "Because frequency density is always the same as frequency",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Because continuous data cannot be counted",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Histograms can have unequal class widths, so height alone would not fairly show how much data is in a class. The common wrong answer is B, but that describes ordinary bar charts, not histograms. For example, compare a class from 15 to 25 with a class from 4 to 9; their widths differ significantly."
+  },
+  {
+   "id": "card-6",
+   "question": "A class interval $4 \\le x < 10$ has frequency 15. What is the frequency density?",
+   "options": [
+    {
+     "id": "a",
+     "text": "2.5",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "15",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "6",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "90",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The class width is $10 - 4 = 6$, so the frequency density is $15 \\div 6 = 2.5$. The common wrong answer is B, which treats the frequency as if it were the bar height."
+  },
+  {
+   "id": "card-12",
+   "question": "A class interval $20 \\le x < 35$ has frequency 24. Estimate the frequency for $26 \\le x < 31$.",
+   "options": [
+    {
+     "id": "a",
+     "text": "5",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "8",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "16",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "24",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The full class width is $35 - 20 = 15$, so the frequency density is $24 \\div 15 = 1.6$. The smaller interval has width 5, so the estimate is $5 \\times 1.6 = 8$; the common wrong answer C comes from using the wrong fraction of the class."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-7-7-16-histograms/lessons",
+ "source_sha256": "d1e6a64221a49c700d26c98728f7b078173fa9820cb0e5048c1e512be2ed2f84",
+ "extracted_at": "2026-11-08T17:58:58Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "1f877e05-fa77-4aa3-8249-a9cbcdeb3bdb",
+  "topic_id": "e0340d54-a293-44a9-a6ee-c03d1fd68878",
+  "created_at": "2026-05-13T07:16:54.475Z",
+  "updated_at": "2026-05-13T07:18:02.045Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

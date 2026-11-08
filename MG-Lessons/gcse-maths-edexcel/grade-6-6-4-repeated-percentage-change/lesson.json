@@ -1,0 +1,136 @@
+{
+ "topic": "grade-6-6-4-repeated-percentage-change",
+ "lane": "gcse-maths-edexcel",
+ "grade": "6",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Multipliers first",
+   "body": "![Flow diagram showing £100 becoming £110, £121, and £133.10 under three successive multipliers of 1.10, with overall multiplier 1.10^3 labelled](../assets/001-c34cae33-7b78-4a98-8607-2d17bc1ed211.jpeg)\n\nA repeated percentage change means the same kind of percentage change happens more than once, each time on the new amount. The quickest method is to turn the percentage into a multiplier.\n\nFor an increase of $p\\%$, use $1+\\frac{p}{100}$. For a decrease of $p\\%$, use $1-\\frac{p}{100}$. For example, a 12% increase gives a multiplier of $1.12$, while a 12% decrease gives $0.88$.\n\nIf the same multiplier $m$ happens $n$ times, the overall multiplier is $m^n$. That is why repeated percentage change is really about multipliers, powers, and sometimes roots.",
+   "figure_refs": [
+    "assets/001-c34cae33-7b78-4a98-8607-2d17bc1ed211.jpeg"
+   ]
+  },
+  {
+   "heading": "Same change repeated",
+   "body": "Repeated changes are not found by adding the percentages. A 12% increase each hour means multiply by $1.12$ each hour.\n\nIf the starting population is $P$, then after 3 hours it is $P \\times 1.12^3$. Calculate the power first:\n$$1.12^3 = 1.404928$$\nSo the final population is about $1.405$ times the original.\n\nTo turn the multiplier back into a percentage increase, subtract 1 and multiply by 100.\n$$\\left(1.404928 - 1\\right)\\times 100 = 40.4928$$\nSo the total increase is about 40.5%, not 36%."
+  },
+  {
+   "heading": "Different changes in a row",
+   "body": "When different percentage changes happen one after another, multiply the multipliers in order. Do not add the percentages unless the question says both are taken from the original amount.\n\nTo test '15% off, then another 20% off', start with £100. The calculation is: $$100 \\times 0.85 \\times 0.80 = 68$$ This result shows that the overall multiplier for both changes is $0.68$.\n\nA final price of £68 from £100 means a 32% decrease. The common wrong answer is 35%, which comes from adding 15 and 20 instead of compounding them."
+  },
+  {
+   "heading": "Compound interest backwards",
+   "body": "Compound interest uses the same multiplier idea, because each year's interest is added before the next year's interest is worked out. The general model is\n$$\\text{final amount} = \\text{starting amount} \\times m^n$$\nwhere $m$ is the yearly multiplier.\n\nAisha has £5624.32 after 3 years at 4% compound interest. Let the starting amount be $A$, so\n$$A \\times 1.04^3 = 5624.32$$\n\nDivide by $1.04^3$ to undo the repeated increase. Then\n$$A = \\frac{5624.32}{1.04^3} = 5000$$\nso Aisha invested £5000."
+  },
+  {
+   "heading": "Finding the repeated rate",
+   "body": "Sometimes you know the total change but not the equal rate each time. In that case, an $n$th root undoes the power.\n\nSuppose a colony grows by 75% over 5 years at a constant rate. The overall multiplier is $1.75$, so if the yearly multiplier is $m$ then:\n$$m^5 = 1.75$$\n\nTake the fifth root to find the one-year multiplier:\n$$m = \\sqrt[5]{1.75} \\approx 1.1184$$\nThis means a yearly increase of 11.84%, so the rate is 11.8% to 1 decimal place."
+  },
+  {
+   "heading": "Length, area, and volume",
+   "body": "![Split-panel diagram showing a square with side multiplier 1.06 leading to area multiplier 1.06^2, and a cube with side multiplier k leading to volume multiplier k^3](../assets/002-a5de5a91-e020-47c4-98d6-d24003692344.jpeg)\nWhen every length changes by multiplier $k$, area changes by $k^2$ and volume changes by $k^3$. Working backwards means using a square root for area or a cube root for volume.\n\nIf a circle's radius increases by 6%, the radius multiplier is $1.06$. Its area multiplier is\n$$1.06^2 = 1.1236$$\nso the area increases by 12.36%.\n\nIf a cube's volume increases by 20%, the volume multiplier is $1.20$. The side length multiplier is\n$$\\sqrt[3]{1.20} \\approx 1.06266$$\nso the side length increases by about 6.27%.",
+   "figure_refs": [
+    "assets/002-a5de5a91-e020-47c4-98d6-d24003692344.jpeg"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "What is the multiplier for a $12\\%$ increase?",
+   "options": [
+    {
+     "id": "a",
+     "text": "1.12",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "0.88",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "1.20",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "0.12",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A $12\\%$ increase means $112\\%$ of the original, so the multiplier is $1.12$. The common wrong answer $0.88$ is the multiplier for a $12\\%$ decrease, because it leaves $88\\%$ of the original."
+  },
+  {
+   "id": "card-6",
+   "question": "A price is reduced by $10\\%$ and then increased by $10\\%$. What is the overall change?",
+   "options": [
+    {
+     "id": "a",
+     "text": "No change",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "1% decrease",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "1% increase",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "20% increase",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Start with $£100$: after a $10\\%$ decrease it becomes $£90$, and after a $10\\%$ increase it becomes $£99$, so the overall change is a $1\\%$ decrease. The common wrong answer \"no change\" comes from cancelling $+10\\%$ and $-10\\%$, but the second change is applied to the smaller amount."
+  },
+  {
+   "id": "card-12",
+   "question": "Stretch: A machine is worth 40% of its original value after 6 years, falling by the same percentage each year. What is the yearly percentage decrease, to 2 d.p.?",
+   "options": [
+    {
+     "id": "a",
+     "text": "10.00%",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "14.16%",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "40.00%",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "60.00%",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Hint: First find the multiplier that remains each year. Being worth 40% overall means an overall multiplier of $0.40$, so the yearly multiplier is $\\sqrt[6]{0.40} \\approx 0.85837$. That is a yearly decrease of $1 - 0.85837 = 0.14163$, so about 14.16%; the common wrong answers 40% and 60% confuse the total change with the equal yearly change."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-6-6-4-repeated-percentage-change/lessons",
+ "source_sha256": "fc91c13a3f094a027894fbd104c9e7460f1c7b6250ad81bd0f025a8397dae7d9",
+ "extracted_at": "2026-11-08T17:58:50Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "838d0254-ac5d-49d7-82ab-6ed24b9779b0",
+  "topic_id": "577ce82f-f425-4df6-8103-85cdfec895fa",
+  "created_at": "2026-05-13T06:17:22.095Z",
+  "updated_at": "2026-05-13T06:19:16.357Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

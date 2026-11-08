@@ -1,0 +1,129 @@
+{
+ "topic": "grade-8-9-8-1-quadratic-simultaneous-equations",
+ "lane": "gcse-maths-edexcel",
+ "grade": "8",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What are quadratic simultaneous equations?",
+   "body": "![Graph of the circle $x^2 + y^2 = 25$ and the line $y = 5 - 3x$ with intersections labelled at $(0,5)$ and $(3,-4)$.](../assets/001-c50b66a0-8349-4fc5-a018-bb6d25dc6499.jpeg)\n\nQuadratic simultaneous equations combine a quadratic equation with another equation, often a line. A solution is an ordered pair $(x, y)$ that makes both equations true at the same time.\n\nOn a graph, the solution pairs are the intersection points of the two graphs. That is why there can be $0$, $1$, or $2$ real solutions.\n\nA linear equation such as $3x + y = 5$ has variables only to the first power, so it draws as a straight line. A quadratic equation such as $x^2 + y^2 = 25$ contains a squared term, so its graph is curved.",
+   "figure_refs": [
+    "assets/001-c50b66a0-8349-4fc5-a018-bb6d25dc6499.jpeg"
+   ]
+  },
+  {
+   "heading": "Substitution turns two equations into one",
+   "body": "Use the linear equation to replace one variable in the quadratic equation. If the line is already written as $x = \\dots$ or $y = \\dots$, you can substitute straight away.\n\nFor $x^2 + y^2 = 25$ and $x = y - 1$, replace every $x$ with $y - 1$. Because the whole expression is being substituted, write brackets to show the substitution:\n$$\n(y - 1)^2 + y^2 = 25\n$$\n\nExpand and collect terms until you have standard form $ax^2 + bx + c = 0$. Here the first stage is to expand the brackets and collect like terms:\n$$\ny^2 - 2y + 1 + y^2 = 25\n$$\n\nFinally, set the expression to zero and divide through by any common factors to simplify. The resulting standard quadratic equations are:\n$$\n2y^2 - 2y - 24 = 0\n$$\n$$\ny^2 - y - 12 = 0\n$$"
+  },
+  {
+   "heading": "Finish the example and pair the answers",
+   "body": "Now solve the one-variable quadratic. Factorising the resulting equation gives the following expression:\n\n$$$ (y - 4)(y + 3) = 0 $$\n\nThis yields $y = 4$ or $y = -3$. Substitute each value back into the equation $x = y - 1$. If $y = 4$, then $x = 3$; if $y = -3$, then $x = -4$.\n\nSo the solutions are $(3, 4)$ and $(-4, -3)$. Always write coordinate pairs, because separate lists of $x$-values and $y$-values do not show the correct matching."
+  },
+  {
+   "heading": "Worked example: rearrange the line first",
+   "body": "Sometimes the line is not ready to substitute. For $x^2 + y^2 = 25$ and $3x + y = 5$, first make $y$ the subject: $$y = 5 - 3x$$\n\nSubstitute into the quadratic and simplify carefully. Collect like terms after expanding the square: $$x^2 + (5 - 3x)^2 = 25$$ $$x^2 + 25 - 30x + 9x^2 = 25$$\n\n$$$10x^2 - 30x = 0$$ Factorise to get $$10x(x - 3) = 0$$ so $x = 0$ or $x = 3$. Then $y = 5 - 3x$ gives $y = 5$ or $y = -4$, so the solutions are $(0, 5)$ and $(3, -4)$."
+  },
+  {
+   "heading": "When factorising is awkward",
+   "body": "If the quadratic does not factorise nicely, use the quadratic formula:\n$$\nx = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\n$$\nThis is often necessary when solving simultaneous equations where substitution leads to complex coefficients.\n\nFor $x^2 + y^2 = 18$ and $2x + y = 4$, first rearrange the linear equation to $y = 4 - 2x$. Then substitute this into the quadratic to produce a single equation in $x$:\n$$\nx^2 + (4 - 2x)^2 = 18\n$$\n\nExpand the quadratic and collect terms to reach the standard form $ax^2 + bx + c = 0$:\n$$\nx^2 + 16 - 16x + 4x^2 = 18\n$$\n$$\n5x^2 - 16x - 2 = 0\n$$\n\nUsing the formula gives $x = \\frac{16 \\pm \\sqrt{296}}{10}$, so $x \\approx 3.320$ or $x \\approx -0.120$. Using the unrounded values in $y = 4 - 2x$ gives the solutions $(3.32, -2.64)$ and $(-0.120, 4.24)$. Remember to keep full calculator values until the final line."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Which ordered pair is a solution of both $x^2 + y^2 = 25$ and $y = 5 - 3x$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$(0, 5)$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$(5, 0)$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$(3, 4)$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$(-4, 3)$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$(0, 5)$ works because $0^2 + 5^2 = 25$ and $5 = 5 - 3 \\times 0$. The common wrong choice is $(3, 4)$ because it lies on the circle, but it does not satisfy the line since $5 - 3 \\times 3 = -4$."
+  },
+  {
+   "id": "card-6",
+   "question": "If $y = 5 - 3x$, which substitution into $x^2 + y^2 = 25$ is correct?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$x^2 + (5 - 3x)^2 = 25$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$x^2 + 5 - 3x^2 = 25$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$(x^2 + 5 - 3x)^2 = 25$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$x^2 + (5 - 3x) = 25$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "You replace $y$ with the whole expression $5 - 3x$, so the square must be written as $(5 - 3x)^2$. The common wrong choice is $x^2 + 5 - 3x^2 = 25$, which incorrectly squares only part of the expression."
+  },
+  {
+   "id": "card-12",
+   "question": "Stretch: After substituting $x = 5 - 2y$ into $x^2 - 2y^2 = 7$, which quadratic in $y$ is correct?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$y^2 - 10y + 9 = 0$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$y^2 - 10y - 9 = 0$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$y^2 - 20y + 18 = 0$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$2y^2 - 20y + 9 = 0$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Expanding gives $25 - 20y + 4y^2 - 2y^2 = 7$, so $2y^2 - 20y + 18 = 0$, and dividing by $2$ gives $y^2 - 10y + 9 = 0$. The common wrong choice is $y^2 - 10y - 9 = 0$, which comes from moving the $7$ across with the wrong sign. Hint: Expand $(5 - 2y)^2$ before collecting like terms."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-8-9-8-1-quadratic-simultaneous-equations/lessons",
+ "source_sha256": "502c6bb3f2d07e40b7cdbaf74c8bc066d3fbcc6a6c0d7484eb3fd4a06457de06",
+ "extracted_at": "2026-11-08T17:59:03Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "2a7b54aa-04da-4197-a5aa-09a882842235",
+  "topic_id": "5b49f03b-8291-4a41-8df3-3453ada454e8",
+  "created_at": "2026-05-13T04:43:57.675Z",
+  "updated_at": "2026-05-13T04:46:19.930Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

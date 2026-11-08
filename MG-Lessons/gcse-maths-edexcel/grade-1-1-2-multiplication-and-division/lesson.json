@@ -1,0 +1,136 @@
+{
+ "topic": "grade-1-1-2-multiplication-and-division",
+ "lane": "gcse-maths-edexcel",
+ "grade": "1",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Using place value",
+   "body": "Multiplication finds the total in equal groups, and the answer is called the product. Division shares into equal groups, and the answer is called the quotient.\n\nPlace value tells you what each digit is worth. For example, $572 = 500 + 70 + 2$, so the 5 means 500, the 7 means 70, and the 2 means 2.\n\nThis split is useful because big calculations become smaller, safer ones. The same idea works with decimals too, using tenths and hundredths."
+  },
+  {
+   "heading": "Multiply a 3-digit number by a 1-digit number",
+   "body": "Split $246$ into place value parts first. This turns one hard multiplication into three easier ones.\n\n$$246 = 200 + 40 + 6$$\n\nMultiply each part by $7$. Keep every part of $246$ in the calculation.\n\n$$200 \\times 7 = 1400,\\quad 40 \\times 7 = 280,\\quad 6 \\times 7 = 42$$\n\nNow add the partial products to get the final product. A common mistake is forgetting one of the three parts.\n\n$$1400 + 280 + 42 = 1722$$"
+  },
+  {
+   "heading": "Divide by a 1-digit number using easy parts",
+   "body": "For division, split the number into parts that divide exactly. They do not have to be just hundreds, tens, and ones.\n\n$$936 = 800 + 80 + 56$$\n\nNow divide each part by $8$. Each smaller division is exact.\n\n$$800 \\div 8 = 100,\\quad 80 \\div 8 = 10,\\quad 56 \\div 8 = 7$$\n\nAdd the smaller answers to get the quotient. If your split is awkward, choose a better one.\n\n$$100 + 10 + 7 = 117$$"
+  },
+  {
+   "heading": "Multiply by a 2-digit number",
+   "body": "![Area model of 62 by 34 split into 60 and 2 across the top and 30 and 4 down the side, with partial products 1800, 240, 60, and 8 and total 2108](../assets/001-46bd1b61-6a1b-4c6e-bd7a-ffc1530d75aa.jpeg)\nA two-digit number can be split into tens and ones. Here $34 = 30 + 4$, and the diagram also splits $62$ into $60 + 2$ so every partial product is easy to see.\n\nThe four products are $1800$, $240$, $60$, and $8$. Adding these values together gives the final product: $62 \\times 34 = 2108$.\n\nThis is the same as calculating $62 \\times 30 + 62 \\times 4$. Be careful that $30$ is three tens, so $62 \\times 30 = 1860$, not $186$.",
+   "figure_refs": [
+    "assets/001-46bd1b61-6a1b-4c6e-bd7a-ffc1530d75aa.jpeg"
+   ]
+  },
+  {
+   "heading": "Multiplying decimals carefully",
+   "body": "Ignore the decimal points first, multiply as whole numbers, then put the decimal point back at the end. You decide where it goes by counting decimal places, not by guessing.\n\nFor $18.7 \\times 6$, first do $187 \\times 6 = 1122$. Since $18.7$ has 1 decimal place, the answer is $112.2$.\n\nFor $42.1 \\times 6.3$, first do $421 \\times 63 = 26523$. There are 2 decimal places altogether, so the answer is $265.23$, and an estimate like $40 \\times 6 \\approx 240$ shows this is sensible."
+  },
+  {
+   "heading": "Dividing decimals",
+   "body": "![Flow diagram showing 52.8 divided by 0.4, then multiplying both numbers by 10 to get 528 divided by 4, and finally the answer 132](../assets/002-a3c941e4-2dc3-4c87-a893-39d48bec6207.jpeg)\n\nIf the divisor is a decimal, scale both numbers by the same power of $10$ until the divisor is whole. For example, $52.8 \\div 0.4 = 528 \\div 4 = 132$.\n\nIf you divide a decimal by a whole number, keep the place value safe. For example, $45.36 \\div 9 = 5.04$ because $4536$ hundredths divided by $9$ gives $504$ hundredths.\n\nNever change only one number in a division. That would make a different question and give a wrong answer.",
+   "figure_refs": [
+    "assets/002-a3c941e4-2dc3-4c87-a893-39d48bec6207.jpeg"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Which is the correct place value split of $572$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$500 + 70 + 2$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$50 + 70 + 2$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$500 + 7 + 2$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$5 + 7 + 2$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A is correct because 5 is in the hundreds column, 7 is in the tens column, and 2 is in the ones column. Common wrong C reads the tens digit as 7 ones, but a 7 in the tens column means 70, not 7. Hint: Think hundreds, tens, ones."
+  },
+  {
+   "id": "card-8",
+   "question": "Which calculation correctly works out $54 \\times 23$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$54 \\times 20 + 54 \\times 3 = 1242$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$54 \\times 2 + 54 \\times 3 = 270$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$50 \\times 20 + 4 \\times 3 = 1012$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$54 \\times 20 + 3 = 1083$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A is correct because $23 = 20 + 3$, so you need one tens product and one ones product. Common wrong B treats 20 as 2 and misses the factor of 10, so the answer is ten times too small."
+  },
+  {
+   "id": "card-13",
+   "question": "What is $7.2 \\div 0.03$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$24$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$240$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$2.4$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$2400$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "B is correct because multiplying both numbers by 100 gives $720 \\div 3 = 240$. Common wrong A multiplies by 10 instead of 100 and forgets that $0.03$ has 2 decimal places."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-1-1-2-multiplication-and-division/lessons",
+ "source_sha256": "ed3642804ce2a2d440c5ebe43cd3eb646a90eae166be96e3dd3619ef5979c88e",
+ "extracted_at": "2026-11-08T17:57:52Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "583f9fd0-8c81-464c-b05a-0e780d164926",
+  "topic_id": "17e01967-73bc-4bdd-8ca0-d2c278c634ff",
+  "created_at": "2026-05-14T08:39:38.461Z",
+  "updated_at": "2026-05-14T08:40:17.259Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

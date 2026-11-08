@@ -1,0 +1,133 @@
+{
+ "topic": "grade-7-7-9-inverse-and-composite-functions",
+ "lane": "gcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Function notation and inputs",
+   "body": "![Function machine with an input x going through f to output f(x), an inverse arrow taking the output back to x, and a composite chain x through f then g to give g(f(x)).](../assets/001-7661c1ef-b376-4f1a-b16e-a7fa1696ef7b.jpeg)\n\nA function is a rule that gives exactly one output for each input. In $f(3)$, the 3 is the input and the value you get after applying the rule is the output.\n\nTo evaluate a function, replace every $x$ with the given input. Use brackets for negative inputs, so $h(-4)=2(-4)^2-6$, not $2-4^2-6$.\n\nFunction notation is the language used for inverse and composite functions too. Once substitution is secure, you can start undoing rules with $f^{-1}(x)$ and chaining rules with $g(f(x))$.",
+   "figure_refs": [
+    "assets/001-7661c1ef-b376-4f1a-b16e-a7fa1696ef7b.jpeg"
+   ]
+  },
+  {
+   "heading": "Solving from an output",
+   "body": "When a question says $q(x)=23$, it is asking for the input values that produce an output of 23. Function notation is just shorthand, so replace $q(x)$ with its formula and solve the equation.\n\nFor $q(x)=3x^2-4$, we substitute the rule into the equation to solve for the input $x$. This allows us to write:\n\n$$3x^2-4=23$$\n\n$$3x^2=27$$\n\n$$x^2=9$$\n\nThis shows the wanted inputs are the ones whose square is 9. Taking square roots gives $x=3$ or $x=-3$. Always check whether a squared expression gives two possible solutions."
+  },
+  {
+   "heading": "Inverse functions",
+   "body": "An inverse function undoes the original rule. If $f(a)=b$, then $f^{-1}(b)=a$. Also, $f^{-1}(x)$ is not the same as $\\frac{1}{f(x)}$.\n\nTo find the inverse of $r(x)=4x-3$, start with $y=4x-3$ and swap $x$ and $y$. Then rearrange to make $y$ the subject.\n$$y=4x-3$$\n$$x=4y-3$$\n$$y=\\frac{x+3}{4}$$\nSo $r^{-1}(x)=\\frac{x+3}{4}$.\n\nNow solve $r^{-1}(x)=5$ by using the inverse rule. This gives\n$$\\frac{x+3}{4}=5$$\n$$x+3=20$$\n$$x=17$$\n\nSo the inverse maps 17 to 5, which means the original function maps 5 to 17. Some functions, such as $x^2$, need a restricted domain before they have an inverse. At GCSE, this often means using the non-negative square root."
+  },
+  {
+   "heading": "Composite functions",
+   "body": "A composite function applies one rule and then another. $gf(x)$ means $g(f(x))$, so the function nearest to $x$ is done first.\n\nIf $f(x)=2x+1$ and $g(x)=x^2$, then $gf(3)=g(f(3))$. First calculate the inner function $f(3)=7$, and then use that result for the outer function to find $g(7)=49$.\n\nComposition is not multiplication, and the order usually changes the result. In this example, $gf(x)$ squares after doubling and adding 1, but $fg(x)$ doubles and adds 1 after squaring."
+  },
+  {
+   "heading": "Worked composite example",
+   "body": "Let $f(x)=2x+1$ and $g(x)=x^2$. To find $fg(x)$, do $g$ first and then feed the result into $f$.\n\n$$fg(x)=f(g(x))=f(x^2)=2x^2+1$$\n\nTo find $gf(x)$, do $f$ first and then feed the result into $g$. This changes the expression because the order is different.\n\n$$gf(x)=g(f(x))=g(2x+1)=(2x+1)^2$$\n\nNow solve $fg(x)=gf(x)$ by setting the two expressions equal and simplifying. So:\n\n$$2x^2+1=(2x+1)^2$$\n$$2x^2+1=4x^2+4x+1$$\n$$0=2x^2+4x$$\n$$0=2x(x+2)$$\n$$x=0 \\text{ or } x=-2$$"
+  },
+  {
+   "heading": "Substituting expressions and constants",
+   "body": "When the input is an expression, substitute the whole thing in brackets. For example, if $f(x)=x^2+2$, then $f(x-3)=(x-3)^2+2$, not $x^2-3^2+2$.\n\nConstants can also appear inside composite functions, and the order still matters. If $a(x)=3x-4$ and $b(x)=kx^2$, then $ab(2)=a(b(2))$, so do $b$ first.\n\nWork through the inside function first, then use the given output to solve for $k$. The steps for calculation are shown below.\n\n$$$b(2)=k(2)^2=4k$$ $$a(4k)=3(4k)-4=12k-4$$ $$12k-4=20$$ $$k=2$$"
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "If $h(x)=2x^2-6$, what is $h(-4)$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$26$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$-38$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$-14$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$32$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$h(-4)=2(-4)^2-6=32-6=26$. Common wrong B comes from forgetting brackets around the negative input and treating $-4^2$ as $-16$."
+  },
+  {
+   "id": "card-7",
+   "question": "If $f(x)=5x+2$, what is $f^{-1}(x)$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$\\frac{x-2}{5}$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$\\frac{1}{5x+2}$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$5x-2$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$\\frac{x+2}{5}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Start with $y=5x+2$, swap to $x=5y+2$, then rearrange to get $y=\\frac{x-2}{5}$. Common wrong B treats the inverse as a reciprocal, but the inverse must undo \"multiply by 5, then add 2\"."
+  },
+  {
+   "id": "card-14",
+   "question": "Let $a(x)=3x-4$ and $b(x)=kx^2$. Given that $ab(2)=20$, what is $k$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$2$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$5$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$\\frac{5}{2}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$8$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$ab(2)$ means $a(b(2))$, not $a(2)b(2)$. First $b(2)=4k$, then $a(4k)=12k-4$, so $12k-4=20$ and $k=2$; common wrong C comes from multiplying $a(2)$ and $b(2)$ instead of composing them. Hint: Read the composition from right to left."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-7-7-9-inverse-and-composite-functions/lessons",
+ "source_sha256": "d246c98887596eb43ba6587636893d83992c097dfc5e01e8aa99ed18a1cf6dec",
+ "extracted_at": "2026-11-08T17:59:02Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "7893af99-c20f-46a7-ad49-2fd49baf999d",
+  "topic_id": "ca35ba57-8cf2-4c09-9dbc-19a675dd9bee",
+  "created_at": "2026-05-13T10:53:11.653Z",
+  "updated_at": "2026-05-13T10:56:36.843Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

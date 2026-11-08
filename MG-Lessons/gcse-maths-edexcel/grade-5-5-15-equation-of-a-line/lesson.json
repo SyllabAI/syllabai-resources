@@ -1,0 +1,136 @@
+{
+ "topic": "grade-5-5-15-equation-of-a-line",
+ "lane": "gcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What $y = mx + c$ means",
+   "body": "![Graph of the line y = 2x + 3 with y-intercept at (0,3) and a rise of 4 over a run of 2 labelled to show gradient 2](../assets/001-c1e6e90e-c1b1-4662-aba0-174cba440eed.jpeg)\n\nA straight line is usually written as $y = mx + c$. In this form, $m$ is the gradient and $c$ is the y-intercept.\n\nThe y-intercept is where the line crosses the y-axis, so it happens when $x = 0$. A positive gradient rises from left to right, a negative gradient falls, and a horizontal line has gradient 0.\n\nThe crossing point is $(0, c)$. This means you can read a lot from the equation before you even draw the line.",
+   "figure_refs": [
+    "assets/001-c1e6e90e-c1b1-4662-aba0-174cba440eed.jpeg"
+   ]
+  },
+  {
+   "heading": "Finding the gradient from two points",
+   "body": "Gradient tells you how steep the line is. Always compare points from left to right so the sign is correct.\n\nTo calculate the gradient, use the formula:\n\n$$m = \\frac{\\text{change in } y}{\\text{change in } x}$$\n\nChoose two exact points on the line, then count how much $y$ changes and how much $x$ changes.\n\nBetween $(1, 7)$ and $(3, 1)$, $x$ increases by 2 while $y$ decreases by 6. So\n\n$$m = \\frac{-6}{2} = -3$$\n\nand the line slopes downward."
+  },
+  {
+   "heading": "Worked example from a graph",
+   "body": "![Graph of a downward sloping line through the points (0,5) and (2,-1), with the y-intercept marked and changes +2 in x and -6 in y labelled to show gradient -3 and equation y = -3x + 5](../assets/002-17694495-85fc-405a-a672-79d60bdb5600.jpeg)\nTo find an equation from a graph, you need the gradient and the y-intercept. This line passes through $(0, 5)$ and $(2, -1)$.\n\nBecause $(0, 5)$ is on the y-axis, the intercept is $c = 5$. Now compare the two points from left to right to find the gradient.\n\nFrom $(0, 5)$ to $(2, -1)$, $x$ increases by 2 and $y$ decreases by 6. So\n$$\nm = \\frac{-6}{2} = -3\n$$\nand the negative sign matches the downward slope.\n\nSubstitute $m = -3$ and $c = 5$ into $y = mx + c$. The equation is\n$$\ny = -3x + 5\n$$",
+   "figure_refs": [
+    "assets/002-17694495-85fc-405a-a672-79d60bdb5600.jpeg"
+   ]
+  },
+  {
+   "heading": "Rearranging before you read the gradient",
+   "body": "Sometimes the line is not written as $y = mx + c$. Rearrange first so $y$ is on its own, then you can spot the gradient and intercept.\n\nStart with\n$$\n3y - 6x = 12\n$$\nAdd $6x$ to both sides to get\n$$\n3y = 6x + 12\n$$\n\nNow divide every term by 3 to get\n$$\ny = 2x + 4\n$$\nCompare with $y = mx + c$, so the gradient is 2 and the y-intercept is 4."
+  },
+  {
+   "heading": "Parallel and horizontal lines",
+   "body": "Parallel lines never meet and have the same gradient. So if two lines are parallel, keep the same $m$ value and change $c$ if needed.\n\nFor example, $x + 2y = 10$ rearranges to:\n$$\ny = -\\frac{1}{2}x + 5\n$$\n\nA parallel line through $(0, 1)$ must have the same gradient, so its equation is:\n$$\ny = -\\frac{1}{2}x + 1\n$$\n\nA horizontal line is a special case with gradient 0. Its equation is just $y = c$, such as $y = 4$."
+  },
+  {
+   "heading": "Quick graph clues",
+   "body": "When matching a line to an equation, first look at whether it goes up, goes down, or stays flat. Then check where it crosses the y-axis.\n\nA positive line through the origin matches something like $y = 2x$ because there is no added constant. A flat line crossing at $4$ is $y = 4$.\n\nA negative line crossing at $4$ could be written as $y = 4 - 2x$, which is the same as $y = -2x + 4$. Watch for hidden coefficients too: in $y = 2 - x$, the gradient is $-1$."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "For the line $y = 6 - 2x$, which statement is correct?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The gradient is $-2$ and the y-intercept is 6",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "The gradient is 6 and the y-intercept is $-2$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "The gradient is 2 and the y-intercept is 6",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "The gradient is $-2$ and the y-intercept is $-6$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Rewrite the equation as $y = -2x + 6$. That shows the gradient is $-2$ and the y-intercept is 6. The common wrong answer is C, which spots the 2 next to $x$ but forgets that it is negative."
+  },
+  {
+   "id": "card-8",
+   "question": "A line has gradient 4 and passes through $(0, -3)$. What is its equation?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$y = 4x - 3$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$y = -3x + 4$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$y = 4x + 3$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$y = -4x - 3$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "In $y = mx + c$, use $m = 4$ and $c = -3$, giving $y = 4x - 3$. The common wrong answer is C, which keeps the correct gradient but changes the sign of the y-intercept. Hint: A point with $x = 0$ tells you the y-intercept."
+  },
+  {
+   "id": "card-13",
+   "question": "Which equation is parallel to $x + 2y = 10$ and crosses the y-axis at 1?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$y = -\\frac{1}{2}x + 1$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$y = -2x + 1$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$y = \\frac{1}{2}x + 1$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$y = -\\frac{1}{2}x + 5$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Rearranging $x + 2y = 10$ gives $y = -\\frac{1}{2}x + 5$, so any parallel line must keep gradient $-\\frac{1}{2}$. The common wrong answer is D, which keeps the old intercept 5 instead of using the new intercept 1. Hint: Rearrange first, then keep the same gradient."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-5-5-15-equation-of-a-line/lessons",
+ "source_sha256": "675edfcfe4f676b69f586e46f217c01342ec97836322f02f6aef524aa0e24e39",
+ "extracted_at": "2026-11-08T17:58:36Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "cb46dbf0-6fdc-4a7b-a0e0-defd96b1597f",
+  "topic_id": "6873fad8-364f-4815-ba61-4c83942c9ee0",
+  "created_at": "2026-05-13T07:19:58.201Z",
+  "updated_at": "2026-05-13T07:21:04.582Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

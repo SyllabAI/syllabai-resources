@@ -1,0 +1,167 @@
+{
+ "topic": "grade-5-5-1-writing-a-ratio-as-a-fraction-or-linear-function",
+ "lane": "gcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Ratio parts and fractions of a whole",
+   "body": "![Horizontal ratio bar for Mia and Noah sharing £45 in the ratio 4:5, split into 9 equal parts with 4 parts for Mia and 5 for Noah](../assets/001-efb1b365-0813-4ba1-a57e-7bd2c531276c.jpeg)\n\nA ratio compares quantities by counting equal parts. In a ratio like $4:5$, the first quantity has $4$ parts and the second has $5$ parts, so there are $9$ parts altogether.\n\nTo turn one part of a ratio into a fraction of the whole, put that part over the total number of parts. So the fractions are $\\frac{4}{9}$ and $\\frac{5}{9}$.",
+   "figure_refs": [
+    "assets/001-efb1b365-0813-4ba1-a57e-7bd2c531276c.jpeg"
+   ]
+  },
+  {
+   "heading": "Worked example with a total amount",
+   "body": "If two people share an amount in a ratio, first find the total number of parts. Then turn the required share into a fraction of the whole.\n\nExample: Mia and Noah share £45 in the ratio $4:5$. There are $4+5=9$ parts, so Mia gets $\\frac{4}{9}$ of the total.\n\nMultiply the total by Mia's fraction. $45 \\times \\frac{4}{9}=20$, so Mia gets £20."
+  },
+  {
+   "heading": "From ratio to linear function",
+   "body": "![Coordinate graph of A against B with a straight line through the origin for A = 5/2 B, showing points (2,5) and (4,10)](../assets/002-abf59305-bdd8-4d56-9af8-fb963eac846d.jpeg)\n\nA ratio with letters can be written as one variable in terms of the other. If $A:B=5:2$, then $\\frac{A}{B}=\\frac{5}{2}$, so $A=\\frac{5}{2}B$.\n\nIf you treat $B$ as the input, then $A=\\frac{5}{2}B$ is a linear function. The graph is a straight line through the origin because the multiplier $\\frac{5}{2}$ stays constant.",
+   "figure_refs": [
+    "assets/002-abf59305-bdd8-4d56-9af8-fb963eac846d.jpeg"
+   ]
+  },
+  {
+   "heading": "Combining two ratios with a shared letter",
+   "body": "When two ratios share one letter, make that shared letter the same number of parts before you combine anything. This technique is often referred to as matching the middle term.\n\nConsider the example where $a:b=2:5$ and $b:c=3:4$. The shared letter is $b$, represented by 5 and 3 parts respectively. To combine them, find the lowest common multiple of $5$ and $3$, which is $15$.\n\nScale the ratios to get $a:b=6:15$ and $b:c=15:20$. Now that the middle value matches for both ratios, they can be merged into a single three-part ratio: $a:b:c=6:15:20$."
+  },
+  {
+   "heading": "Using a common multiplier with a difference",
+   "body": "After finding a combined ratio, use a common multiplier to turn parts into real amounts. If one part is $k$, then the ratio $15:6:20$ represents the actual quantities $15k$, $6k$, and $20k$.\n\nSuppose Dylan, Eva, and Finn satisfy $D:E=5:2$ and $D:F=3:4$, and we are told Finn has $10$ more counters than Dylan. By matching the $D$ value, we find the combined ratio $D:E:F=15:6:20$.\n\nThe difference between Finn and Dylan is $20 - 15 = 5$ parts. Since these $5$ parts equal $10$ real counters, one part must be $2$. Therefore, Eva gets $6 \\times 2 = 12$ counters."
+  },
+  {
+   "heading": "Ratios with not groups",
+   "body": "A statement like red:not red splits the whole set into two groups: red and everything else. In this context, a ratio of $3:7$ means there are $10$ parts altogether, rather than $7$.\n\nIf the ratio red:not red is $3:7$, then red items represent $\\frac{3}{10}$ of the total. Similarly, if the ratio green:not green is $2:3$, then green items represent $\\frac{2}{5}$ of the total.\n\nTo combine these ratios, choose a total that works for both fractions. For example, using $10$ total parts gives red $= 3$ and green $= 4$. This leaves blue $= 10 - 3 - 4 = 3$, resulting in a final ratio of $R:B:G = 3:3:4$."
+  },
+  {
+   "heading": "Stretch: line segment ratios",
+   "body": "On a straight line, longer sections are sums of shorter sections. If the points are in order $A$, $B$, $C$, $D$, then $AC=AB+BC$ and $BD=BC+CD$.\n\nFor a stretch example, let $AB=x$, $BC=y$, and $CD=z$. Then $AB:BD=1:4$ gives $x:(y+z)=1:4$, so $y+z=4x$, and $AC:CD=3:5$ gives $(x+y):z=3:5$, so $5(x+y)=3z$.\n\nSubstitute $z=4x-y$ into $5(x+y)=3z$ to get $5(x+y)=3(4x-y)$, so $8y=7x$. Choose $x=8$ to make whole-number sections, then $y=7$ and $z=25$, so $AB:BC:CD=8:7:25$."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "In the ratio red:blue $= 2:3$, what fraction of the whole is red?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$\\frac{2}{3}$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$\\frac{2}{5}$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$\\frac{3}{5}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$\\frac{1}{5}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Red is $2$ parts out of $2+3=5$ total parts, so the fraction of the whole that is red is $\\frac{2}{5}$. The common wrong answer $\\frac{2}{3}$ compares red to blue, not red to the whole."
+  },
+  {
+   "id": "card-6",
+   "question": "Given $p:q = 7:3$, which statement is correct?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$p=\\frac{7}{3}q$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$p=\\frac{3}{7}q$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$q=\\frac{7}{3}p$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$p+q=10$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The ratio tells us $\\frac{p}{q}=\\frac{7}{3}$, so multiplying by $q$ gives $p=\\frac{7}{3}q$. The common wrong answer $p=\\frac{3}{7}q$ reverses the order of the ratio."
+  },
+  {
+   "id": "card-12",
+   "question": "Dylan, Eva, and Finn are in the ratio $15:6:20$. Finn has 10 more counters than Dylan. How many counters does Eva have?",
+   "options": [
+    {
+     "id": "a",
+     "text": "6",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "12",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "20",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "30",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Finn and Dylan differ by $20-15=5$ parts, and those $5$ parts are worth $10$, so $1$ part is $2$. Eva has $6$ parts, so she gets $12$ counters. The common wrong answer $20$ confuses ratio parts with actual counters."
+  },
+  {
+   "id": "card-16",
+   "question": "Points $A$, $B$, $C$, and $D$ lie in order on a straight line. If $AB:BD=1:4$ and $AC:CD=3:5$, what is $AB:BC:CD$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$1:4:5$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$3:4:5$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$8:7:25$",
+     "is_correct": true
+    },
+    {
+     "id": "d",
+     "text": "$$4:3:5$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Let $AB=x$, $BC=y$, and $CD=z$. Then $y+z=4x$ and $5(x+y)=3z$, which leads to $8y=7x$; choosing whole-number parts gives $x:y:z=8:7:25$. The common wrong answer $1:4:5$ copies the given ratios without using $AC=AB+BC$ and $BD=BC+CD$."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-5-5-1-writing-a-ratio-as-a-fraction-or-linear-function/lessons",
+ "source_sha256": "7dae95522f2aa4133538fc0ab1dbda2bba04ab3499ab34a5cee11329b950ccb1",
+ "extracted_at": "2026-11-08T17:58:34Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "c3569679-54f2-48fb-b6ef-3d2ac0022e09",
+  "topic_id": "cbb4dd18-58d7-4eeb-b9d2-800895e459a5",
+  "created_at": "2026-05-13T04:46:56.326Z",
+  "updated_at": "2026-05-13T04:49:43.390Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

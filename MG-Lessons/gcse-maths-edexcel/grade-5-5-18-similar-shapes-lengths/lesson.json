@@ -1,0 +1,132 @@
+{
+ "topic": "grade-5-5-18-similar-shapes-lengths",
+ "lane": "gcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What similar shapes mean",
+   "body": "Similar shapes have the same shape but can be different sizes. Their corresponding angles are equal, and every corresponding length is changed by the same scale factor.\n\nTo find corresponding sides, match the vertices first, then compare sides in the same positions. This matters when a shape has been rotated, reflected, or labelled in a different order.\n\nIf one side is multiplied by $k$, every other corresponding side is also multiplied by $k$. This is the key length rule in every similar-shapes question."
+  },
+  {
+   "heading": "The scale-factor method",
+   "body": "To calculate the scale factor, identify one complete matching pair of sides. From shape 1 to shape 2, the scale factor $k$ is found using this ratio:\n\n$$$k = \\frac{\\text{shape 2 length}}{\\text{shape 1 length}}$$\n\nApply this multiplier to every corresponding length to find missing values. If you are moving from the larger shape back to the smaller one, you must divide by $k$ instead of multiplying.\n\nAlways perform a sanity check at the end of your calculation. A side on the larger shape should result in a larger value, while a side on the smaller shape should be smaller."
+  },
+  {
+   "heading": "Worked example: missing lengths in similar triangles",
+   "body": "![Two similar triangles ABC and PQR with corresponding sides colour-matched, AB = 10 cm, AC = 24 cm, PQ = 15 cm, QR = 27 cm, and unknowns BC and PR](../assets/001-459854b2-ca94-488c-b54f-1b37e078b407.jpeg)\n\nWe match the vertices first: $A \\leftrightarrow P$, $B \\leftrightarrow Q$, $C \\leftrightarrow R$. So $AB \\leftrightarrow PQ$, $AC \\leftrightarrow PR$, and $BC \\leftrightarrow QR$.\n\nFind the scale factor from $ABC$ to $PQR$: $k = \\frac{PQ}{AB} = \\frac{15}{10} = 1.5$. Because $PQR$ is the larger triangle, we multiply lengths from $ABC$ by $1.5$.\n\nUse $AC \\leftrightarrow PR$: $PR = 24 \\times 1.5 = 36$ cm. This is on the larger triangle, so multiplying is the correct direction.\n\nUse $BC \\leftrightarrow QR$ and work backwards: $BC = 27 \\div 1.5 = 18$ cm. Dividing makes sense here because $BC$ is on the smaller triangle.",
+   "figure_refs": [
+    "assets/001-459854b2-ca94-488c-b54f-1b37e078b407.jpeg"
+   ]
+  },
+  {
+   "heading": "Parallel lines inside triangles",
+   "body": "![Triangle ACD with points B on AC and E on AD, segment BE parallel to CD, AB = 6 cm, BC = 4 cm, AE = 7.5 cm, CD = 15 cm, and unknowns BE and ED](../assets/002-222131cd-91d6-4055-8c04-27cf4cc3ca40.jpeg)\n\nBecause $BE$ is parallel to $CD$, triangles $ABE$ and $ACD$ have equal corresponding angles, so they are similar. First find the whole side $AC = AB + BC = 6 + 4 = 10$ cm.\n\nNow find the scale factor from the small triangle to the whole triangle: $$k = \\frac{AC}{AB} = \\frac{10}{6} = \\frac{5}{3}$$ This means every whole-triangle length is $\\frac{5}{3}$ times the matching small-triangle length.\n\nUse $AE \\leftrightarrow AD$ to find the whole sloping side: $AD = 7.5 \\times \\frac{5}{3} = 12.5$ cm. The question wants the extra part, so $ED = AD - AE = 12.5 - 7.5 = 5$ cm.\n\nUse $BE \\leftrightarrow CD$ for the other missing side: $BE = 15 \\div \\frac{5}{3} = 9$ cm. Always check whether you need a whole side, a small side, or just the leftover section.",
+   "figure_refs": [
+    "assets/002-222131cd-91d6-4055-8c04-27cf4cc3ca40.jpeg"
+   ]
+  },
+  {
+   "heading": "Ratios and showing rectangles are not similar",
+   "body": "A ratio can hide the scale factor. If $AB:AC = 2:5$, then the scale factor from $AB$ to $AC$ is $\\frac{5}{2} = 2.5$.\n\nFor rectangles, all angles are right angles already, so the real test is whether the side scale factors match. Compare length with length and width with width.\n\nExample: rectangle A is $120$ mm by $70$ mm and rectangle B is $150$ mm by $90$ mm. Here $k_{\\text{length}} = \\frac{150}{120} = 1.25$ but $k_{\\text{width}} = \\frac{90}{70} \\approx 1.29$, so the rectangles are not similar."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Which statement guarantees that two shapes are mathematically similar?",
+   "options": [
+    {
+     "id": "a",
+     "text": "All matching angles are equal and all corresponding sides have the same scale factor",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "They have the same area",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "They are both triangles",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "They have one equal side",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A is correct because similar shapes need both equal corresponding angles and one constant multiplier for all matching lengths. C is a common wrong answer because two triangles can have very different shapes unless their angles and side ratios match."
+  },
+  {
+   "id": "card-6",
+   "question": "The scale factor from a smaller triangle to a larger triangle is $1.5$. If a corresponding side on the smaller triangle is $12$ cm, what is the matching side on the larger triangle?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$8$ cm",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$15$ cm",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$18$ cm",
+     "is_correct": true
+    },
+    {
+     "id": "d",
+     "text": "$$30$ cm",
+     "is_correct": false
+    }
+   ],
+   "explanation": "C is correct because $12 \\times 1.5 = 18$. A is the most common wrong answer because it comes from dividing by $1.5$, but dividing would move from the larger shape back to the smaller one."
+  },
+  {
+   "id": "card-12",
+   "question": "Rectangle A is $120$ mm by $70$ mm and rectangle B is $150$ mm by $90$ mm. Which is the best reason they are not similar?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The side differences are not equal",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$\\frac{150}{120} = 1.25$ but $\\frac{90}{70} \\approx 1.29$, so the scale factors do not match",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "They are not similar because one rectangle is larger",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "They are similar because all rectangles have equal angles",
+     "is_correct": false
+    }
+   ],
+   "explanation": "B is correct because similar rectangles need the same multiplier for both length and width. D is the most common wrong answer because equal angles are not enough on their own; rectangles can have different length-to-width ratios."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-5-5-18-similar-shapes-lengths/lessons",
+ "source_sha256": "2aed9d969c506750faff2f3b1108cc7261bd7ba988ff0bca04693fb79993b05d",
+ "extracted_at": "2026-11-08T17:58:38Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "9f9ab7e0-192c-45df-93c5-15fddfd84c73",
+  "topic_id": "29c58e4e-7115-4775-836d-636635103aaa",
+  "created_at": "2026-05-13T07:25:15.938Z",
+  "updated_at": "2026-05-13T07:27:21.739Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

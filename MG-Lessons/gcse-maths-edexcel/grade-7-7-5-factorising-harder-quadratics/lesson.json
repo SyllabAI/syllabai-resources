@@ -1,0 +1,160 @@
+{
+ "topic": "grade-7-7-5-factorising-harder-quadratics",
+ "lane": "gcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "The key idea",
+   "body": "When the coefficient of $x^2$ is 1, you can often factorise by inspection. When it is not 1, as in $2x^2 + 7x + 3$, splitting the middle term is the reliable method.\n\nFor an expression of the form $ax^2 + bx + c$, first check for a common factor. If there is none, multiply $a$ and $c$, then find two numbers that multiply to $ac$ and add to $b$."
+  },
+  {
+   "heading": "Worked example",
+   "body": "![Flowchart showing how 2x^2 + 7x + 3 is split, grouped, and factorised into (2x + 1)(x + 3)](../assets/001-37fa6399-b057-46b7-89b6-1e7fb4e2d930.jpeg)\nThis flowchart shows the split-the-middle method on $2x^2 + 7x + 3$. Notice that the middle term is rewritten, not the whole expression changed.\n\nIn this example, $a = 2$, $b = 7$, and $c = 3$, so $ac = 6$. The numbers 6 and 1 multiply to 6 and add to 7, so we split the $7x$ term into $6x + x$.\n\nSplit and group the terms to begin factorising:\n$$2x^2 + 7x + 3 = 2x^2 + 6x + x + 3 = 2x(x + 3) + 1(x + 3)$$\nNow both pairs of terms contain the same common bracket $(x + 3)$.\n\nFinally, take out the common bracket to finish the expression:\n$$2x^2 + 7x + 3 = (2x + 1)(x + 3)$$\nA quick expansion check gives $2x^2 + 6x + x + 3 = 2x^2 + 7x + 3$.",
+   "figure_refs": [
+    "assets/001-37fa6399-b057-46b7-89b6-1e7fb4e2d930.jpeg"
+   ]
+  },
+  {
+   "heading": "Getting the signs right",
+   "body": "Negative signs matter just as much as the numbers. If $c$ is negative, the two split numbers must have opposite signs because their product is negative.\n\nFactorise $4x^2 - 11x - 3$ by first calculating $ac = 4 \\times (-3) = -12$. The numbers $-12$ and 1 multiply to $-12$ and add to $-11$, so split $-11x$ as $-12x + x$.\n\nNow split and group: $$4x^2 - 11x - 3 = 4x^2 - 12x + x - 3 = 4x(x - 3) + 1(x - 3)$$ So the factorisation is $(4x + 1)(x - 3)$."
+  },
+  {
+   "heading": "Solving by factorising",
+   "body": "If a quadratic equation equals zero, first factorise it and then use the zero product property. A product is zero only when at least one factor is zero.\n\nFor $3x^2 + 10x - 8 = 0$, calculate $ac = 3 \\times (-8) = -24$. The numbers 12 and $-2$ multiply to $-24$ and add to 10, so split $10x$ as $12x - 2x$.\n\nSplit and factorise:\n$$3x^2 + 10x - 8 = 3x^2 + 12x - 2x - 8 = 3x(x + 4) - 2(x + 4) = (3x - 2)(x + 4)$$\nThen solve $3x - 2 = 0$ or $x + 4 = 0$ to get $x = \\frac{2}{3}$ or $x = -4$."
+  },
+  {
+   "heading": "Common factor first",
+   "body": "When a question says \"factorise fully\", check for a common factor before using any other pattern. This step makes the expression smaller, easier to work with, and helps you avoid missing easy marks.\n\nFor the expression $3x^2 - 75$, we should take out the common factor of 3 first:\n$$3x^2 - 75 = 3(x^2 - 25)$$\nThe bracket is now in the form of a difference of two squares.\n\nApply the identity $A^2 - B^2 = (A - B)(A + B)$ using $A = x$ and $B = 5$. The final factorised expression is:\n$$3x^2 - 75 = 3(x - 5)(x + 5)$$"
+  },
+  {
+   "heading": "Two variables and pattern spotting",
+   "body": "The same split-the-middle method works with terms like $xy$ and $y^2$. Treat the middle term as the $xy$ term and match like terms carefully. For $2x^2 + 11xy + 5y^2$, use $ac = 2 \\times 5 = 10$ to split $11xy$ into $10xy + xy$.\n\n$$$2x^2 + 11xy + 5y^2 = 2x^2 + 10xy + xy + 5y^2 = 2x(x + 5y) + y(x + 5y) = (2x + y)(x + 5y)$$\n\nAlso watch for perfect-square quadratics. These follow a recognizable pattern where the first and last terms are squares, and the middle term is twice the product of their square roots.\n\n$$$x^2 - 8xy + 16y^2 = x^2 - 2(x)(4y) + (4y)^2 = (x - 4y)^2$$"
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "For $2x^2 + 7x + 3$, which pair of numbers should you use to split the middle term?",
+   "options": [
+    {
+     "id": "a",
+     "text": "6 and 1",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "3 and 2",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "7 and 3",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "-6 and -1",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Multiply $a$ and $c$ to get $2 \\times 3 = 6$, then find numbers that add to $7$. So 6 and 1 are correct. The most common wrong answer is 3 and 2 because they multiply to 6 but only add to 5."
+  },
+  {
+   "id": "card-7",
+   "question": "Which factorisation is correct for $4x^2 - 11x - 3$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$(4x + 1)(x - 3)$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$(4x - 1)(x + 3)$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$(2x - 3)(2x + 1)$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$(4x - 3)(x + 1)$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Expanding A gives $4x^2 - 12x + x - 3 = 4x^2 - 11x - 3$. The most common wrong answer is B because it uses the right numbers but the signs give $4x^2 + 11x - 3$ instead."
+  },
+  {
+   "id": "card-12",
+   "question": "Which is the fully factorised form of $3x^2 - 75$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$3(x - 5)(x + 5)$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$(3x - 5)(x + 5)$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$3(x^2 - 25)$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$(x - 5)(x + 5)$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "First take out the common factor 3, then use difference of two squares on $x^2 - 25$. The most common wrong answer is C because it is only partly factorised, so it is not fully factorised."
+  },
+  {
+   "id": "card-14",
+   "question": "Which is the correct factorisation of $2x^2 + 11xy + 5y^2$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$(2x + y)(x + 5y)$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$(2x + 5y)(x + y)$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$(x + 5y)^2$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$(2x + y)(x + y)$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Expanding A gives $2x^2 + 10xy + xy + 5y^2 = 2x^2 + 11xy + 5y^2$. The most common wrong answer is B because its middle terms are $2xy$ and $5xy$, which add to only $7xy$. Hint: Expand the middle terms if two answers look similar."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-7-7-5-factorising-harder-quadratics/lessons",
+ "source_sha256": "6af9f87e0adfa845d96fe78ef554af45cc5294900bf446b2dc818c65a3107842",
+ "extracted_at": "2026-11-08T17:59:01Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "383ee6a3-bb24-479d-a2ef-07230882e4fe",
+  "topic_id": "a5f5fdf7-892c-44b7-b3c5-9000e461e11e",
+  "created_at": "2026-05-13T06:19:17.188Z",
+  "updated_at": "2026-05-13T06:20:21.372Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

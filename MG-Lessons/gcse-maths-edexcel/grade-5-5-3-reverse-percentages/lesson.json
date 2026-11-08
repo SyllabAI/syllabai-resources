@@ -1,0 +1,156 @@
+{
+ "topic": "grade-5-5-3-reverse-percentages",
+ "lane": "gcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Reverse percentages and multipliers",
+   "body": "![Flow diagram showing a 5% increase from £200 to £210 using ×1.05 and reverse ÷1.05, and a 20% decrease from £35 to £28 using ×0.80 and reverse ÷0.80](../assets/001-d98d9658-97b9-4c0a-bbab-90eadd412545.jpeg)\n\nReverse percentages ask you to find the amount before a percentage change. First identify the original amount, the final amount, and whether the change was an increase or a decrease.\n\nThe forward rule is:\n$$F = O \\times m$$\nwhere $m$ is the multiplier. To work backwards, use the inverse formula:\n$$O = \\frac{F}{m}$$\n\nFor an increase, the multiplier is more than $1$, like $1.10$ for a $10\\%$ increase. For a decrease, the multiplier is less than $1$, like $0.80$ for a $20\\%$ decrease.",
+   "figure_refs": [
+    "assets/001-d98d9658-97b9-4c0a-bbab-90eadd412545.jpeg"
+   ]
+  },
+  {
+   "heading": "Worked example from a final amount after an increase",
+   "body": "A flat increased in value by 5% and is now worth £210,000. The final value is therefore 105% of the original value.\n\nConvert 105% to a multiplier. Then divide the final value by that multiplier.\n\n$$105\\% = 1.05$$\n\n$$O = \\frac{210000}{1.05} = 200000$$\n\nSo the flat was originally worth £200,000. Check by doing the percentage change forwards.\n\n$$200000 \\times 1.05 = 210000$$"
+  },
+  {
+   "heading": "Worked example from a final amount after a decrease",
+   "body": "A video game is reduced by 20% and the sale price is £28. A 20% reduction means 80% of the original price is left.\n\nConvert 80% to a multiplier. Then divide the sale price by that multiplier.\n\n$$$80\\% = 0.80$$\n\n$$O = \\frac{28}{0.80} = 35$$\n\nSo the normal price was £35. Do not add 20% of £28, because the 20% discount was based on the original price, not the sale price."
+  },
+  {
+   "heading": "When the question gives the amount of change",
+   "body": "Sometimes the question gives the amount of increase or the discount, not the final price. In that case, the change amount is the percentage part of the original value.\n\nFor example, if a subscription increased by 6% and the increase was £18, then £18 represents 6% of the original cost. To find the total, convert 6% to $0.06$ and divide.\n\n$$$O = \\frac{18}{0.06} = 300$$\n\nSo the original cost was £300. This method is different from dividing by a multiplier like $1.06$, because the £18 value given is not the final total price."
+  },
+  {
+   "heading": "Choosing the correct method",
+   "body": "Ask yourself what the given number actually represents. If the value provided is the price after the change has occurred, use the formula $O = \\frac{F}{m}$ to find the original.\n\nIf the value is specifically the amount of increase or decrease, divide that change by the percentage expressed as a decimal. For example, if a 30% discount is £18, divide by $0.30$ to find the original, not by $0.70$.\n\nAlways perform a quick sanity check at the end. After an increase, the original value should be smaller than the final amount; after a decrease, the original value should be larger than the final amount."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "A coat is reduced by $25\\%$. Which multiplier takes the original price to the sale price?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$0.75$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$1.25$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$0.25$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$25$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A reduction of $25\\%$ leaves $75\\%$ of the original, so the multiplier is $0.75$. The common wrong answer $1.25$ would be used for a $25\\%$ increase, not a decrease. Think about how much of the original is left."
+  },
+  {
+   "id": "card-6",
+   "question": "A jumper is reduced by 20% and now costs £28. What was the original price?",
+   "options": [
+    {
+     "id": "a",
+     "text": "£35",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "£33.60",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "£22.40",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "£48",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A 20% decrease leaves 80% of the original, so divide £28 by $0.80$ to get £35. The common wrong answer £33.60 comes from adding 20% of the sale price, but the 20% was taken from the original price. Hint: After a decrease, the original should be bigger than the final price."
+  },
+  {
+   "id": "card-12",
+   "question": "A TV is increased by 8%, and the increase is £36. Which calculation gives the original price?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$36 \\div 0.08$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$36 \\div 1.08$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$36 \\times 1.08$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$36 \\div 0.92$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The £36 is the increase amount, so it represents $8\\%$ of the original price and you divide by $0.08$. The common wrong answer $36 \\div 1.08$ uses the reverse-multiplier method, but that only works when £36 is the final amount. Hint: Decide whether £36 is the whole amount or just the change."
+  },
+  {
+   "id": "card-14",
+   "question": "Stretch: A bike is reduced by 17.5% and now costs £330. What was the original price?",
+   "options": [
+    {
+     "id": "a",
+     "text": "£400",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "£387.75",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "£345",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "£547.50",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A reduction of $17.5\\%$ leaves $82.5\\%$, so use the multiplier $0.825$ and calculate $330 \\div 0.825 = 400$. The common wrong answer £387.75 comes from adding $17.5\\%$ of £330, but the percentage was taken from the original price, not the sale price."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-5-5-3-reverse-percentages/lessons",
+ "source_sha256": "b4300a4dbfeb953a6c5560a297fcd9e4e4a037b59546eda11d05cd91c629a953",
+ "extracted_at": "2026-11-08T17:58:41Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "a2879d52-3958-4004-8177-3ef926d561f2",
+  "topic_id": "b40044df-1356-46e5-92d7-fa6ca1e260f1",
+  "created_at": "2026-05-14T04:03:25.842Z",
+  "updated_at": "2026-05-14T04:04:45.311Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

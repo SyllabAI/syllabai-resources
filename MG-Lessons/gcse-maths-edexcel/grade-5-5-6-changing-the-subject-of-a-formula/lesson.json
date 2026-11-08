@@ -1,0 +1,129 @@
+{
+ "topic": "grade-5-5-6-changing-the-subject-of-a-formula",
+ "lane": "gcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "The subject and the balance method",
+   "body": "A formula connects variables, and the subject is the letter that already stands alone on one side of the equals sign. In the formula $A = lw$, the subject is $A$.\n\nWhen you are asked to make $x$ the subject, your final line should have $x$ alone, usually on the left of the equals sign. Changing the subject is like solving an equation, but with letters instead of numbers.\n\nUse the balance idea all the way through the process. Do not just \"move\" a term and hope the sign changes; instead, undo operations in reverse order on both sides to isolate the variable."
+  },
+  {
+   "heading": "Worked examples with linear formulae",
+   "body": "Start with $q = 6r - 10$ and target $r$. Undo the subtract 10 first, then undo the multiply by 6.\n\n$$q + 10 = 6r$$\n\n$$r = \\frac{q + 10}{6}$$\n\nIn $S = 2m + 5p$, the letter $m$ is treated just like a number. Subtract $2m$ first, then divide the whole result by 5.\n\n$$S - 2m = 5p$$\n\n$$p = \\frac{S - 2m}{5}$$\n\nKeep the whole expression together when you divide. The fraction line goes under both $S$ and $-2m$, not just under one term."
+  },
+  {
+   "heading": "Brackets and fractions",
+   "body": "![Flow diagram showing a becomes a plus 7 then z equals 4(a plus 7), with inverse steps divide by 4 then subtract 7 to return to a](../assets/001-1147ef40-4594-4c72-82fc-baaf08b9055f.jpeg)\n\nWhen the target letter is inside brackets, undo the operation outside the bracket first. In $z = 4(a + 7)$, divide by 4 before touching the $+ 7$.\n\n$$$\\frac{z}{4} = a + 7$$\n$$a = \\frac{z}{4} - 7$$\n\nIf a formula has a denominator, clearing the fraction is often the safest first move. From $y = \\frac{3x - 2}{5}$, multiply both sides by 5, then continue one step at a time.\n\n$$$5y = 3x - 2$$\n$$x = \\frac{5y + 2}{3}$$",
+   "figure_refs": [
+    "assets/001-1147ef40-4594-4c72-82fc-baaf08b9055f.jpeg"
+   ]
+  },
+  {
+   "heading": "When the subject starts in the denominator",
+   "body": "If the subject starts in the denominator, multiply by that denominator first so it comes out of the fraction. For $k = \\frac{r + 4}{s}$, multiplying both sides by $s$ gives a simpler equation.\n\n$$$ks = r + 4$$\n\n$$$s = \\frac{r + 4}{k}$$\n\nThe final step divides by $k$, so this rearranged formula only makes sense when $k \\ne 0$. It is worth checking restrictions like this whenever you divide by a letter."
+  },
+  {
+   "heading": "Powers and roots",
+   "body": "If the subject is squared, undo everything else first and then square root. From $T = n^2 + 6$, subtract 6 before taking roots.\n$$T - 6 = n^2$$\n$$n = \\pm\\sqrt{T - 6}$$\n\nThe $\\pm$ matters because both positive and negative numbers can square to the same value. If the subject is cubed instead, use a cube root.\n$$y - 4 = x^3$$\n$$x = \\sqrt[3]{y - 4}$$\n\nIf the whole expression is inside a square root, square both sides first. From $r = \\sqrt{\\frac{h + 3}{4}}$, this gives:\n$$r^2 = \\frac{h + 3}{4}$$\n$$h = 4r^2 - 3$$"
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "In $q = 6r - 10$, what is the first step if you want $r$ as the subject?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Add 10 to both sides",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "Subtract 10 from both sides",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "Divide both sides by 6",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Multiply both sides by 6",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The last thing done to $r$ is subtract 10, so the first inverse step is to add 10 to both sides. A common wrong answer is divide by 6 first, but the $-10$ is still outside that multiplication and must be undone before the 6."
+  },
+  {
+   "id": "card-8",
+   "question": "Which line correctly clears the fraction in $y = \\frac{3x - 2}{5}$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$5y = 3x - 2$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$y = 3x - 10$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$5y = 3x - 10$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$y = \\frac{3x}{5} - 2$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Multiplying both sides by 5 removes the denominator from the whole fraction, so $5y = 3x - 2$. A common wrong answer is $5y = 3x - 10$, but that wrongly multiplies the $-2$ by 5 even though the entire numerator was already over 5 together."
+  },
+  {
+   "id": "card-12",
+   "question": "Stretch: Make $h$ the subject of $r = \\sqrt{\\frac{h + 3}{4}}$.",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$h = 4r^2 - 3$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$h = \\frac{r^2 + 3}{4}$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$h = 2r - 3$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$h = 4r - 3$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Square both sides first to remove the square root, then multiply by 4 and subtract 3. A common wrong answer is $\\frac{r^2 + 3}{4}$, which keeps the denominator in the wrong place after squaring."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-5-5-6-changing-the-subject-of-a-formula/lessons",
+ "source_sha256": "6f32ebcdd60783530a401bb69ba109626d9349e3f91b8a582cca6b9125c4dab2",
+ "extracted_at": "2026-11-08T17:58:42Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "32c62116-f832-4997-bcf1-ac81f8db6044",
+  "topic_id": "7d6de8a5-0c9e-40db-8cb3-ab809f9efd09",
+  "created_at": "2026-05-13T06:24:47.737Z",
+  "updated_at": "2026-05-13T06:31:14.419Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

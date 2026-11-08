@@ -1,0 +1,133 @@
+{
+ "topic": "grade-5-5-22-probability-trees",
+ "lane": "gcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Reading a probability tree",
+   "body": "A probability tree shows events happening in stages. Each split represents the possible outcomes of one event.\n\nAt any split, the branch probabilities must add to 1. If one branch is missing, use the complement rule $P(\\text{not }A)=1-P(A)$.\n\nA split can have two branches or three, such as win, draw, lose, but the labels from one point still add to 1. Then read the question language carefully: multiply along a route for both, and add route totals when the event can happen in more than one way."
+  },
+  {
+   "heading": "Labelling a two-stage tree from counts",
+   "body": "![Two-stage probability tree for Bag A and Bag B with branches labelled Red 1/4 and Blue 3/4 for Bag A, then Red 4/5 and Blue 1/5 for Bag B, ending with the four colour outcomes](../assets/001-e0a63106-c79a-4455-b660-1de6fc8ff8fe.jpeg)\n\nThis tree shows Sofia taking one counter from Bag A, then one from Bag B. The first split represents Bag A, and the second split is copied after both first branches because Bag B is a separate event.\n\nBag A has 2 red and 6 blue counters, so there are 8 in total. Its first branches are calculated as $P(\\text{red from A})=\\frac{2}{8}=\\frac{1}{4}$ and $P(\\text{blue from A})=\\frac{6}{8}=\\frac{3}{4}$.\n\nBag B has 4 red and 1 blue counter, so its branches are $P(\\text{red from B})=\\frac{4}{5}$ and $P(\\text{blue from B})=\\frac{1}{5}$. Always check that the probabilities in each split add up to 1 before you proceed with calculations.",
+   "figure_refs": [
+    "assets/001-e0a63106-c79a-4455-b660-1de6fc8ff8fe.jpeg"
+   ]
+  },
+  {
+   "heading": "Multiply along one route for both",
+   "body": "When a question says both or and, follow one complete route from start to finish. That means you multiply the branch probabilities on that route.\n\nAmira has $P(\\text{win badminton}) = \\frac{3}{5}$ and $P(\\text{win table tennis}) = \\frac{7}{10}$. To find the probability that she wins both, we multiply along the win-win path: $$P(\\text{both wins}) = \\frac{3}{5} \\times \\frac{7}{10} = \\frac{21}{50}$$\n\nA common mistake is to add the two win probabilities. Adding is for different routes, not for calculating a single outcome along one route."
+  },
+  {
+   "heading": "Add routes for different results",
+   "body": "Sometimes the answer can happen in more than one way. If Eli wears different colours on Monday and Tuesday, the successful routes are navy then grey or grey then navy.\n\nFirst find the missing probability: $P(\\text{grey})=1-\\frac{5}{9}=\\frac{4}{9}$. Then multiply along each route: $P(\\text{navy then grey})=\\frac{5}{9} \\times \\frac{4}{9}=\\frac{20}{81}$ and $P(\\text{grey then navy})=\\frac{4}{9} \\times \\frac{5}{9}=\\frac{20}{81}$.\n\nNow add the successful route probabilities together to find the final result. In this example, $P(\\text{different})=\\frac{20}{81}+\\frac{20}{81}=\\frac{40}{81}$."
+  },
+  {
+   "heading": "Use a complement for at least one",
+   "body": "At least one means one or more. In probability problems, it is often much quicker to find the probability of the opposite event, which is \"none\", and subtract that value from 1.\n\nConsider a train that is late with probability $0.3$ on each of two days. The probability it is not late is $0.7$, so the probability it is late on neither day is $P(\\text{none late}) = 0.7 \\times 0.7 = 0.49$.\n\nNow use the complement rule: $P(\\text{at least one late}) = 1 - 0.49 = 0.51$. Using this shortcut is usually faster than listing every successful route on a tree diagram and summing them."
+  },
+  {
+   "heading": "Trees with three outcomes",
+   "body": "A tree does not have to be restricted to binary outcomes at each split. It can have three or more branches, such as win, draw, and lose, provided the probabilities of all branches at a single node sum to 1.\n\nIf $P(\\text{win})=0.5$ and $P(\\text{draw})=0.2$, then the probability of the remaining outcome is $P(\\text{lose})=1-0.5-0.2=0.3$. In this scenario, each round split consists of three distinct branches: win (0.5), draw (0.2), and lose (0.3).\n\nThe standard multiplication rules for independent events still apply regardless of the number of branches. For example, the probability of winning both rounds in a sequence is calculated as $P(\\text{win both rounds})=0.5 \\times 0.5=0.25$."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "The probability of winning a game is 0.65. What label should go on the not win branch of a tree?",
+   "options": [
+    {
+     "id": "a",
+     "text": "0.35",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "0.65",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "0.30",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "1.65",
+     "is_correct": false
+    }
+   ],
+   "explanation": "At one split the probabilities must total 1, so $P(\\text{not win})=1-0.65=0.35$. The common wrong answer 0.65 just repeats the given branch and ignores the complement."
+  },
+  {
+   "id": "card-7",
+   "question": "Amira wins badminton with probability $\\frac{3}{5}$ and table tennis with probability $\\frac{7}{10}$. What is the probability she wins both?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$\\frac{13}{10}$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$\\frac{21}{50}$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$\\frac{1}{2}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$\\frac{1}{10}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Wins both is one route, so you multiply: $\\frac{3}{5} \\times \\frac{7}{10}=\\frac{21}{50}$. The common wrong answer $\\frac{13}{10}$ comes from adding, and it is impossible anyway because a probability cannot be greater than 1."
+  },
+  {
+   "id": "card-14",
+   "question": "A player has $P(\\text{win})=0.5$, $P(\\text{draw})=0.2$, and $P(\\text{lose})=0.3$ in each round. What is the probability of at least one draw in two rounds?",
+   "options": [
+    {
+     "id": "a",
+     "text": "0.04",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "0.36",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "0.64",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "0.40",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The chance of no draw in one round is $0.8$, so the chance of no draws in two rounds is $0.8 \\times 0.8=0.64$. Therefore $P(\\text{at least one draw})=1-0.64=0.36$; the common wrong answer 0.04 is only the probability of drawing both rounds."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-5-5-22-probability-trees/lessons",
+ "source_sha256": "b56e472f2b6fb9d5652c5f48ddcd0fb49a831a97a1751e1e60205ba1ad519424",
+ "extracted_at": "2026-11-08T17:58:40Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "c199dabd-e09a-4518-8dc0-47c072275e93",
+  "topic_id": "bbb8f80b-d539-4268-b457-34e545931e99",
+  "created_at": "2026-05-13T07:31:42.368Z",
+  "updated_at": "2026-05-13T07:35:43.941Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

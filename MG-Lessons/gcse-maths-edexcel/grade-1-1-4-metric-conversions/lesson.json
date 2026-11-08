@@ -1,0 +1,129 @@
+{
+ "topic": "grade-1-1-4-metric-conversions",
+ "lane": "gcse-maths-edexcel",
+ "grade": "1",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What changes in a metric conversion?",
+   "body": "![Metric conversion chart showing km to m to cm to mm, kg to g, and L to ml with arrows for multiplying and dividing](../assets/001-0a898afb-8c44-4f9b-aef7-3d44b0fd47a8.jpeg)\n\nA measurement has a number and a unit, such as $30 \\, \\text{cm}$. A conversion changes the unit without changing the actual length, mass, or capacity, so the amount stays the same.\n\nUseful facts are $1 \\, \\text{km} = 1000 \\, \\text{m}$, $1 \\, \\text{m} = 100 \\, \\text{cm}$, $1 \\, \\text{cm} = 10 \\, \\text{mm}$, $1 \\, \\text{kg} = 1000 \\, \\text{g}$, and $1 \\, \\text{L} = 1000 \\, \\text{ml}$. Big unit to small unit means multiply, and small unit to big unit means divide.\n\nDo a quick size check before you calculate. If the target unit is smaller, your answer should be a bigger number, and if the target unit is bigger, your answer should be a smaller number.",
+   "figure_refs": [
+    "assets/001-0a898afb-8c44-4f9b-aef7-3d44b0fd47a8.jpeg"
+   ]
+  },
+  {
+   "heading": "Worked examples with length",
+   "body": "Start by naming the starting unit and the target unit. Then write the fact you need and decide whether the number should get bigger or smaller.\n\nExample 1: change $2.7 \\, \\text{km}$ to metres. Kilometres are bigger than metres, so multiply by 1000.\n\n$$$2.7 \\, \\text{km} \\times \\frac{1000 \\, \\text{m}}{1 \\, \\text{km}} = 2700 \\, \\text{m}$$ The $\\text{km}$ cancels, leaving metres. The number got bigger, which matches our size check.\n\nFor $950 \\, \\text{cm}$ to metres, centimetres are smaller than metres, so divide by 100. $$950 \\, \\text{cm} \\times \\frac{1 \\, \\text{m}}{100 \\, \\text{cm}} = 9.5 \\, \\text{m}$$ The $\\text{cm}$ cancels, leaving metres, and the number gets smaller as expected."
+  },
+  {
+   "heading": "Mass and capacity conversions",
+   "body": "Mass usually uses kilograms and grams, and capacity usually uses litres and millilitres. The key facts are $1 \\, \\text{kg} = 1000 \\, \\text{g}$ and $1 \\, \\text{L} = 1000 \\, \\text{ml}$.\n\nTo change $0.72 \\, \\text{kg}$ to grams, kilograms are bigger than grams, so multiply by 1000.\n\n$$0.72 \\times 1000 = 720$$\n\nSo the answer is $720 \\, \\text{g}$.\n\nTo change $680 \\, \\text{ml}$ to litres, millilitres are smaller than litres, so divide by 1000.\n\n$$680 \\div 1000 = 0.68$$\n\nSo the answer is $0.68 \\, \\text{L}$.\n\nDecimals do not change the method. You still multiply or divide by the same conversion factor."
+  },
+  {
+   "heading": "Two-step conversions",
+   "body": "Sometimes you cross more than one link, such as metres to millimetres. You can do it in steps or combine the multipliers into one conversion.\n\nExample: change $3.25 \\, \\text{m}$ to millimetres. From metres to centimetres is $\\times 100$, and from centimetres to millimetres is $\\times 10$. Altogether that is $\\times 1000$.\n\n$$$3.25 \\times 100 \\times 10 = 3250$$\n\nSo $3.25 \\, \\text{m} = 3250 \\, \\text{mm}$. This is sensible because millimetres are smaller than metres, so the number should be much bigger. In an exam, underline the start unit and the target unit before calculating. That helps you avoid the common mistake of multiplying every time you see 1000."
+  },
+  {
+   "heading": "Choosing sensible answers",
+   "body": "Before you trust an answer, ask whether the number should be bigger or smaller. Changing to a smaller unit, like m to cm, should make the number bigger, while changing to a bigger unit, like ml to L, should make the number smaller.\n\nFor example, 680 ml cannot be 680 L because a litre is a larger unit. A sensible answer is 0.68 L, since you need fewer litres than millilitres to describe the same amount.\n\nThis check is especially useful with decimals. If $0.95 \\, \\text{km}$ becomes $950 \\, \\text{m}$, the decimal disappears but the amount stays the same."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "To change $3.4 \\, \\text{m}$ to centimetres, what should you do?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Multiply by 100",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "Divide by 100",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "Multiply by 1000",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Divide by 10",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Metres are bigger than centimetres, so the number must get bigger. Since $1 \\, \\text{m} = 100 \\, \\text{cm}$, you multiply by 100; the most common wrong answer is B because students spot the 100 but forget that big to small means multiply."
+  },
+  {
+   "id": "card-7",
+   "question": "What is $4300 \\, \\text{g}$ in kilograms?",
+   "options": [
+    {
+     "id": "a",
+     "text": "4.3 kg",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "43 kg",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "0.43 kg",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "4300 kg",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Grams are smaller than kilograms, so you divide by 1000: $4300 \\div 1000 = 4.3$. The most common wrong answer is B, which comes from dividing by 100 instead of 1000."
+  },
+  {
+   "id": "card-13",
+   "question": "Which is the sensible answer for converting $680$ ml to litres?",
+   "options": [
+    {
+     "id": "a",
+     "text": "680 L",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "68 L",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "0.68 L",
+     "is_correct": true
+    },
+    {
+     "id": "d",
+     "text": "6.8 L",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Litres are bigger than millilitres, so the number must be smaller than 680. The most common wrong answer is D because students divide by 100 instead of 1000."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-1-1-4-metric-conversions/lessons",
+ "source_sha256": "3b640d0cf1735b4dddccc3fb8de89d0710fa397add0253149b0ba89fa02a07d6",
+ "extracted_at": "2026-11-08T17:57:53Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "fbeb2428-4bd0-4e47-8357-604a5032b624",
+  "topic_id": "d74f9729-78ad-4677-8d10-0ad8cca4dc4c",
+  "created_at": "2026-05-13T06:13:49.466Z",
+  "updated_at": "2026-05-13T06:14:37.171Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

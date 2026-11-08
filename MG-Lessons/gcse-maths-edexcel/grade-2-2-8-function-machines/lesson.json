@@ -1,0 +1,163 @@
+{
+ "topic": "grade-2-2-8-function-machines",
+ "lane": "gcse-maths-edexcel",
+ "grade": "2",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Reading a function machine",
+   "body": "![Function machine with input 6 passing through a multiply by 4 box and a subtract 2 box to give output 22, with 24 shown as the intermediate value](../assets/001-7fca96e2-658d-480d-872e-59418218aa03.jpeg)\n\nA function machine is a quick way to show a rule. The input goes in on the left, each box tells you an operation, and the output comes out on the right.\n\nFollow the arrows in order from left to right. If you change the order, you can get a different answer. In the example shown, input 6 becomes $24$ after multiplying by 4, and then $22$ after subtracting 2. So the machine turns 6 into 22.",
+   "figure_refs": [
+    "assets/001-7fca96e2-658d-480d-872e-59418218aa03.jpeg"
+   ]
+  },
+  {
+   "heading": "Finding an output from a rule",
+   "body": "If the input is called $x$, the machine \"multiply by 4, then subtract 2\" has output $4x - 2$. This allows you to write the whole machine as one algebraic rule.\n\nWorked example: when the input is $x = 6$, we first multiply by 4 to find the intermediate result:\n$$6 \\times 4 = 24$$\n\nNext, we subtract 2 from that result to calculate the final value:\n$$24 - 2 = 22$$\n\nSo the output is 22. Negative inputs use the same method, but you must watch the signs. For example, with \"multiply by 4, then add 7\", an input of $-2$ gives $-8$ and then a final output of $-1$."
+  },
+  {
+   "heading": "Working backwards to find the input",
+   "body": "![Function machine with an unknown input passing through multiply by 6 then add 4 to give output 46, and reverse arrows showing subtract 4 then divide by 6 to find input 7](../assets/002-c5515383-f02e-4cce-84fb-9d32c4235c6d.jpeg)\n\nWhen the output is known but the input is missing, work backwards through the machine. Undo the last box first, then undo the earlier boxes.\n\nExample: the machine is \"multiply by 6, then add 4\" and the output is 46. Start at 46, subtract 4 to undo the addition, then divide by 6 to undo the multiplication. The calculations are shown below.\n\n$$$46 - 4 = 42$$\n$$42 \\div 6 = 7$$\n\nSo the input was 7, and checking forwards confirms it by calculating $7 \\times 6 + 4$.",
+   "figure_refs": [
+    "assets/002-c5515383-f02e-4cce-84fb-9d32c4235c6d.jpeg"
+   ]
+  },
+  {
+   "heading": "Division machines",
+   "body": "A division box works like any other operation when you go forwards. For example, with \"divide by 5, then add 3\", an input of 40 gives $40 \\div 5 = 8$ and then $8 + 3 = 11$.\n\nTo work backwards, undo add 3 first, then undo divide by 5 by multiplying by 5. If the output is 12, then $12 - 3 = 9$ and $9 \\times 5 = 45$, so the input is 45.\n\nThis is a common exam trap. Division forwards means multiplication backwards."
+  },
+  {
+   "heading": "Finding a missing box",
+   "body": "If one operation is missing, use the boxes you do know first. Do not compare the input straight to the output until those known boxes have been used.\n\nExample: input 5 → add 10 → missing box → output 4. First use the known box: $5 + 10 = 15$.\n\nNow ask, \"What changes 15 into 4?\" Since $15 - 11 = 4$, the missing box is \"subtract 11\"."
+  },
+  {
+   "heading": "Worded rules as function machines",
+   "body": "A worded rule can be turned into a function machine by spotting the starting amount and the repeated change. For a taxi fare of £3 plus £2 per mile, the boxes are \"multiply miles by 2\" and then \"add 3\".\n\nFor a 7-mile journey, $7 \\times 2 = 14$ and $14 + 3 = 17$, so the fare is £17. If the fare is £19, work backwards: $19 - 3 = 16$ and $16 \\div 2 = 8$, so the journey was 8 miles.\n\nTemperature rules work the same way. For Celsius to Fahrenheit, the machine is \"multiply by 1.8, then add 32\"."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "A machine says input $\\rightarrow$ add 3 $\\rightarrow$ multiply by 2 $\\rightarrow$ output. What is the output when the input is 5?",
+   "options": [
+    {
+     "id": "a",
+     "text": "16",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "13",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "10",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "8",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Correct because $5 + 3 = 8$ and $8 \\times 2 = 16$. The common wrong answer B comes from multiplying first and then adding 3, but the arrows show add 3 happens before multiply by 2. Hint: Follow the arrows one box at a time."
+  },
+  {
+   "id": "card-7",
+   "question": "A machine says input $\\rightarrow$ multiply by 4 $\\rightarrow$ add 8 $\\rightarrow$ output. The output is 32. What was the input?",
+   "options": [
+    {
+     "id": "a",
+     "text": "0",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "6",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "8",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "10",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Hint: Start at the output, not the input. Correct because you undo $+8$ first: $32 - 8 = 24$, then undo $\\times 4$: $24 \\div 4 = 6$. The common wrong answer 0 comes from dividing first and then subtracting, but when you work backwards you must reverse the order as well as the operation."
+  },
+  {
+   "id": "card-12",
+   "question": "A machine says input $\\to$ multiply by 2 $\\to$ missing box $\\to$ output. When the input is 7, the output is 9. What is the missing box?",
+   "options": [
+    {
+     "id": "a",
+     "text": "add 2",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "subtract 5",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "divide by 2",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "subtract 2",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Correct because the known box changes 7 into 14, and $14 - 5 = 9$. The common wrong answer A compares 7 directly with 9, but you must use the known box before finding the missing one."
+  },
+  {
+   "id": "card-15",
+   "question": "A machine says input → multiply by 4 → subtract 9 → output. Which input gives the same value for input and output?",
+   "options": [
+    {
+     "id": "a",
+     "text": "0",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "3",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "4",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "9",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Correct because input 3 gives $3 \\times 4 - 9 = 12 - 9 = 3$, so the output matches the input. The common wrong answer A comes from noticing that 0 stays 0 when multiplied, but the machine still subtracts 9, so the output would be $-9$."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-2-2-8-function-machines/lessons",
+ "source_sha256": "319c4a0e8ad9a8341f9e5523ee52e9e010301a2ffd0f5aac14969eae61a4f36e",
+ "extracted_at": "2026-11-08T17:58:06Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "e986fa2e-bf1d-4198-8b9d-4527033fe396",
+  "topic_id": "bd17cc90-c97d-4a8b-85ce-43992ea8b51e",
+  "created_at": "2026-05-13T10:56:17.157Z",
+  "updated_at": "2026-05-13T11:00:57.749Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

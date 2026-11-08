@@ -1,0 +1,133 @@
+{
+ "topic": "grade-6-6-5-expanding-triple-brackets",
+ "lane": "gcse-maths-edexcel",
+ "grade": "6",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "The big idea",
+   "body": "![Flow diagram showing three brackets turning into a quadratic after expanding two brackets, then into a cubic after multiplying by the remaining bracket](../assets/001-8b4dbfc5-eb1f-4ef9-97bd-b0810fca4729.jpeg)\n\nA triple bracket expression has three factors, such as $(x+1)(x+2)(x+3)$. The safest method is to turn it into a double-bracket question first.\n\nDo not try to multiply all three brackets at once. Expand two brackets, simplify to a quadratic, then multiply that quadratic by the remaining bracket.\n\nWhen three linear brackets are expanded, the final answer usually starts with an $x^3$ term. A quick check at the end is to write your answer in descending powers: $x^3$, then $x^2$, then $x$, then the constant.",
+   "figure_refs": [
+    "assets/001-8b4dbfc5-eb1f-4ef9-97bd-b0810fca4729.jpeg"
+   ]
+  },
+  {
+   "heading": "Quick recap of double brackets",
+   "body": "Before triple brackets, you need to be confident with double brackets. Each term in one bracket multiplies each term in the other bracket.\n\nFor example,\n$$\n(x+6)(x-2)=x^2-2x+6x-12\n$$\nThis is exactly the same multiplication idea you will use twice in a triple-bracket question.\n\nNow collect the like terms.\n$$\nx^2-2x+6x-12=x^2+4x-12\n$$\nBe careful with signs because positive times negative gives a negative term."
+  },
+  {
+   "heading": "Fully worked example with three simple brackets",
+   "body": "Let us expand $(x+3)(x+5)(x+2)$ step by step. First expand the first two brackets because they are simple.\n\n$$(x+3)(x+5)=x^2+5x+3x+15$$\n\nNow simplify that result before doing anything else. This turns the first part into a quadratic.\n\n$$x^2+5x+3x+15=x^2+8x+15$$\n\nSo the question becomes $(x^2+8x+15)(x+2)$. You now multiply each term in the quadratic by both terms in $(x+2)$.\n\n$$x^2(x+2)=x^3+2x^2,\\quad 8x(x+2)=8x^2+16x,\\quad 15(x+2)=15x+30$$\n\nPut the pieces together and collect like terms. This is the point where students often miss a term, so keep every product visible.\n\n$$x^3+2x^2+8x^2+16x+15x+30=x^3+10x^2+31x+30$$\n\nThe final answer is $x^3+10x^2+31x+30$. The leading term is $x^3$, which matches the expected highest power."
+  },
+  {
+   "heading": "Coefficients and negatives",
+   "body": "Coefficients and negatives do not change the method, but they do make sign errors more likely. Choose the pair that looks simplest to expand first. For $(2x+3)(x-1)(x+4)$, starting with the simpler pair results in:\n$$ (x-1)(x+4)=x^2+3x-4 $$\n\nNext, use the chunking method by multiplying the remaining linear bracket $(2x+3)$ by the new quadratic. Calculate the products for both $2x$ and $3$ independently:\n$$ 2x(x^2+3x-4)=2x^3+6x^2-8x $$\n$$ 3(x^2+3x-4)=3x^2+9x-12 $$\n\nAdd the two lines and simplify carefully. Notice that $-8x+9x=x$, so the linear term is positive. The final expansion is:\n$$ 2x^3+6x^2-8x+3x^2+9x-12=2x^3+9x^2+x-12 $$"
+  },
+  {
+   "heading": "Squared brackets inside triple brackets",
+   "body": "A squared bracket is just a repeated bracket. For example, $(x+4)(x-2)^2$ means $(x+4)(x-2)(x-2)$. When you see this notation, you should expand the repeated brackets first.\n\nExpand the squared part: $$(x-2)(x-2)=x^2-2x-2x+4=x^2-4x+4$$ Avoid the common mistake of turning $(x-2)^2$ into just $x^2+4$; the middle term matters for the final result.\n\nNow multiply by the remaining bracket: $$(x+4)(x^2-4x+4)=x^3-4x^2+4x+4x^2-16x+16$$ Every term in the linear bracket $(x+4)$ must multiply every term in the quadratic expression.\n\nCollect like terms to finish: $$x^3-4x^2+4x+4x^2-16x+16=x^3-12x+16$$ In this case, the $x^2$ terms cancel completely, which shows that a missing power of $x$ in the final answer can still be correct."
+  },
+  {
+   "heading": "Show that questions and checking",
+   "body": "In a \"show that\" question, expand one side carefully and compare your final line with the target expression. If it does not match, that means something in the algebra needs checking. A tidy start for $(2x-1)(x+3)(4x-5)$ is to expand the middle pair first.\n\n$$$(x+3)(4x-5)=4x^2+7x-15$$ This leaves a linear bracket multiplying a quadratic. Now we can proceed to expand the remaining part of the expression in two manageable chunks.\n\n$$$2x(4x^2+7x-15)=8x^3+14x^2-30x$$ $$-1(4x^2+7x-15)=-4x^2-7x+15$$ The coefficient of $x$ comes from combining $-30x$ and $-7x$ during the collection phase.\n\n$$$8x^3+14x^2-30x-4x^2-7x+15=8x^3+10x^2-37x+15$$ Collect like terms carefully. Any claim with $-43x$ is wrong, even though the leading term and constant are correct."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "What is the safest first step when expanding $(x+1)(x+2)(x+3)$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Expand two of the brackets first and simplify",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "Multiply only the first terms to get $x^3$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "Square each bracket separately",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Add all the numbers inside the brackets",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A is correct because triple brackets are best handled in stages: first make a quadratic, then multiply by the last bracket. The common wrong answer is B, but multiplying only the first terms gives just the leading term and misses all the other terms in the expansion."
+  },
+  {
+   "id": "card-8",
+   "question": "Which is the correct expansion of $(2x+3)(x-1)(x+4)$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$2x^3+9x^2+x-12$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$2x^3+9x^2-x-12$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$2x^3+7x^2+x-12$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$2x^2+9x^2+x-12$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A is correct because $(x-1)(x+4)=x^2+3x-4$, and multiplying by $(2x+3)$ gives $2x^3+6x^2-8x+3x^2+9x-12=2x^3+9x^2+x-12$. The common wrong answer is B, which comes from treating $-8x+9x$ as $-x$ instead of the correct result $x$. Hint: Expand the simpler pair first."
+  },
+  {
+   "id": "card-13",
+   "question": "A student says $(2x-1)(x+3)(4x-5)=8x^3+10x^2-43x+15$. Which statement is correct?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The claim is true because the leading term is $8x^3$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "The coefficient of $x$ should be $-37$, so the claim is false",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "The constant term should be $-15$, so the claim is false",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "The highest power should be $x^2$, so the claim is false",
+     "is_correct": false
+    }
+   ],
+   "explanation": "B is correct because $(x+3)(4x-5)=4x^2+7x-15$, and then $(2x-1)(4x^2+7x-15)$ gives $-30x-7x=-37x$. The common wrong answer is C, but the constant is actually $(-1)(-15)=+15$, so the constant term is not the problem."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-6-6-5-expanding-triple-brackets/lessons",
+ "source_sha256": "182c52b1c6b4167bdeffd98b12395877a8c46c22f21147737de25876877fd6ef",
+ "extracted_at": "2026-11-08T17:58:50Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "7a29a4cd-6290-490e-9d66-41fb23bb071d",
+  "topic_id": "fc35be10-1d50-43e5-b80e-9d81f4c1386f",
+  "created_at": "2026-05-13T06:17:38.861Z",
+  "updated_at": "2026-05-13T06:20:05.148Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

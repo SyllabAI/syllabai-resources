@@ -1,0 +1,132 @@
+{
+ "topic": "grade-3-3-11-scale-drawings",
+ "lane": "gcse-maths-edexcel",
+ "grade": "3",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What is a scale drawing?",
+   "body": "A scale drawing keeps the same shape as the real object, but changes every length by the same multiplier. That multiplier is the scale factor.\n\nA written scale such as $1:50$ means 1 cm on the drawing represents 50 cm in real life. In this lesson, use the following calculation:\n\n$$$\\text{real length} = \\text{drawing length} \\times \\text{scale factor}$$\n\nOnly measure from a diagram if the question says it is accurate or gives a scale. A rough sketch is for information, not exact measuring."
+  },
+  {
+   "heading": "Comparing lengths on the same drawing",
+   "body": "If no written scale is given, compare two matching lengths on the same accurate drawing. The same proportion then holds in real life, so the answer is an estimate.\n\nMatch like with like. If you know a real height, compare heights on the drawing, not a height with a width.\n\nFor example, if a cupboard looks about 4 times the height of a plant pot and the real pot is $25 \\, \\text{cm}$ tall, then $25 \\times 4 = 100$. If a height is one third of a length, turn it around: the length is 3 times the height."
+  },
+  {
+   "heading": "Worked example with a written scale",
+   "body": "![Model bus labelled 12 cm on the model and 720 cm equals 7.2 m in real life at scale 1:60](../assets/001-c39abfb9-ec21-4c98-aef8-8cfa256d7708.jpeg)\nA scale of $1:60$ means $1\\text{ cm}$ on the model stands for $60\\text{ cm}$ in real life. Multiply the model length by 60 first, because the scale compares centimetres with centimetres.\n\nFor a $12\\text{ cm}$ model bus, multiply the length by the scale factor of 60:\n$$12 \\times 60 = 720$$\nThis calculation gives a real-world length of $720\\text{ cm}$.\n\nThen convert the centimetres to metres by dividing by 100:\n$$720 \\div 100 = 7.2$$\nSo the real bus is $7.2\\text{ m}$ long in real life.",
+   "figure_refs": [
+    "assets/001-c39abfb9-ec21-4c98-aef8-8cfa256d7708.jpeg"
+   ]
+  },
+  {
+   "heading": "Map scales and kilometres",
+   "body": "![Map showing villages A and B 7 cm apart on a map with scale 1:50000 and real distance 3.5 km](../assets/002-253766eb-ef3f-43ad-874a-0a26f8a1d7b3.jpeg)\n\nFor a scale of $1:50000$, 1 cm on the map represents $50000 \\, \\text{cm}$ in real life. Since $100000 \\, \\text{cm} = 1 \\, \\text{km}$, 2 cm on this map represents 1 km.\n\nIf two villages are 7 cm apart on the map, first find the real distance in centimetres.\n\n$$7 \\times 50000 = 350000$$\n\nSo the real distance is $350000 \\, \\text{cm}$.\n\nNow change centimetres to kilometres by dividing by 100000.\n\n$$350000 \\div 100000 = 3.5$$\n\nSo the villages are $3.5 \\, \\text{km}$ apart.",
+   "figure_refs": [
+    "assets/002-253766eb-ef3f-43ad-874a-0a26f8a1d7b3.jpeg"
+   ]
+  },
+  {
+   "heading": "Estimating perimeter from a scale drawing",
+   "body": "The perimeter is the total distance around the outside of a shape. For a rectangle, you can add all four sides or use $2 \\times (\\text{length} + \\text{width})$.\n\nSuppose a field is $48 \\, \\text{m}$ long in real life, and the width looks about half the length on the drawing. Then the real width is about $48 \\div 2 = 24 \\, \\text{m}$.\n\nNow add the sides.\n$$\n48 + 24 + 48 + 24 = 144\n$$\nSo the estimated perimeter is $144 \\, \\text{m}$."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "What does a scale of $1:50$ mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "1 cm on the drawing represents 50 cm in real life",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "50 cm on the drawing represents 1 cm in real life",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "1 cm on the drawing represents 50 m in real life",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Multiply the real length by 50 to get the drawing length",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Scale $1:50$ compares the same units on both sides, so 1 cm on the drawing stands for 50 cm in real life. The common wrong answer is C, but scale ratios do not change the unit by themselves."
+  },
+  {
+   "id": "card-6",
+   "question": "A toy car model is 9 cm long at scale $1:40$. What is the real length of the car?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$3.6 \\, \\text{m}$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$360 \\, \\text{m}$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$0.225 \\, \\text{m}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$36 \\, \\text{m}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "First find the real length in centimetres: $9 \\times 40 = 360$. Then convert $360 \\, \\text{cm}$ to metres by dividing by 100, giving $3.6 \\, \\text{m}$; the common wrong answer is B, which forgets the cm to m conversion."
+  },
+  {
+   "id": "card-12",
+   "question": "An accurate floor plan uses scale $1:200$. A rectangular room measures 6 cm by 3.5 cm on the plan. What is the real perimeter of the room?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$19 \\, \\text{m}$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$38 \\, \\text{m}$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$76 \\, \\text{m}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$3.8 \\, \\text{m}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "At scale $1:200$, 1 cm on the plan is $200 \\, \\text{cm}$ in real life, so 6 cm becomes 12 m and 3.5 cm becomes 7 m. The perimeter is $12 + 7 + 12 + 7 = 38 \\, \\text{m}$; the common wrong answer is A, which only adds length and width once."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-3-3-11-scale-drawings/lessons",
+ "source_sha256": "6805e78cfd5b28436c15e6b57ea05284450b3347950b9121af95abb895f8b462",
+ "extracted_at": "2026-11-08T17:58:10Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "3d9e0767-c728-4e38-97b3-b81e68baac4f",
+  "topic_id": "7d311ab5-3545-47f0-a4c8-f618a49e449a",
+  "created_at": "2026-05-13T11:01:54.694Z",
+  "updated_at": "2026-05-13T11:05:40.339Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

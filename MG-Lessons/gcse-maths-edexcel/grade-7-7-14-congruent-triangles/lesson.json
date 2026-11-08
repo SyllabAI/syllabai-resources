@@ -1,0 +1,135 @@
+{
+ "topic": "grade-7-7-14-congruent-triangles",
+ "lane": "gcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What congruent means",
+   "body": "![Two congruent triangles with corresponding vertices and matching side and angle marks labelled $A$, $B$, $C$ and $D$, $E$, $F$](../assets/001-405aa604-35c9-4774-8751-ac777df1cf5f.jpeg)\nCongruent triangles are exactly the same shape and exactly the same size. One triangle can be moved, rotated, or reflected onto the other, but every matching side and angle still agrees.\n\nWhen we write $\\triangle ABC \\cong \\triangle DEF$, the order tells you the matching vertices: $A \\leftrightarrow D$, $B \\leftrightarrow E$, and $C \\leftrightarrow F$. Getting this order right matters because it tells you which angles and sides correspond.",
+   "figure_refs": [
+    "assets/001-405aa604-35c9-4774-8751-ac777df1cf5f.jpeg"
+   ]
+  },
+  {
+   "heading": "The congruence tests",
+   "body": "You only need enough information to use a congruence test. The four tests are $SSS$, $SAS$, $ASA$ or $AAS$, and $RHS$.\n\nFor $SAS$, the angle must be the included angle, meaning the angle between the two known equal sides. If the equal angle is somewhere else, $SAS$ does not apply.\n\nBe careful with $AAA$. Three equal angles only show the triangles are similar, because one triangle could be an enlarged version of the other. So $AAA$ does not prove congruence."
+  },
+  {
+   "heading": "Worked example: proving congruence by ASA",
+   "body": "Compare $\\triangle PQR$ and $\\triangle SRQ$. They share side $QR$, and you are given $\\angle QPR = 70^\\circ$, $\\angle PQR = 45^\\circ$, $\\angle QRS = 45^\\circ$, and $\\angle RQS = 65^\\circ$.\n\nIn $\\triangle PQR$, the third angle is $180^\\circ - 70^\\circ - 45^\\circ = 65^\\circ$, so $\\angle PRQ = 65^\\circ$. Now we can match $\\angle PQR = 45^\\circ$ with $\\angle SRQ = 45^\\circ$, and $\\angle PRQ = 65^\\circ$ with $\\angle RQS = 65^\\circ$.\n\nThe side $QR$ is common, and it lies between those equal angles in both triangles. Therefore $\\triangle PQR \\cong \\triangle SRQ$ by ASA."
+  },
+  {
+   "heading": "Hidden facts in a parallelogram",
+   "body": "![Parallelogram $KLMN$ split by diagonal $KM$ with opposite sides marked equal and the common side shown](../assets/002-8cf6f0f1-b2c7-49b7-8a78-377b3a0f6a9f.jpeg)\nIn parallelogram $KLMN$, diagonal $KM$ splits the shape into two triangles. The key is to spot facts already hidden in the diagram rather than inventing new lengths.\n\nOpposite sides of a parallelogram are equal, so $KL = MN$ and $LM = NK$. The side $KM$ is common to both triangles, so $KM = KM$.\n\nThat gives three equal pairs of sides, so $\\triangle KLM \\cong \\triangle MNK$ by SSS. Once the triangles are congruent, any matching angles you need are also equal.",
+   "figure_refs": [
+    "assets/002-8cf6f0f1-b2c7-49b7-8a78-377b3a0f6a9f.jpeg"
+   ]
+  },
+  {
+   "heading": "RHS with circles and tangents",
+   "body": "![Circle with centre $O$, external point $X$, tangents $XP$ and $XQ$, radii $OP$ and $OQ$, and right angles at $P$ and $Q$](../assets/003-4cfc917b-7fa6-4d30-859b-96a421a9892b.jpeg)\n\nIf a tangent touches a circle at $P$, then the radius $OP$ is perpendicular to the tangent at $P$. That means triangle proofs with tangents often create right-angled triangles automatically.\n\nIn the diagram, $OP = OQ$ because both are radii of the same circle, and $\\angle XPO = \\angle XQO = 90^\\circ$. The side $XO$ is common, and in each right-angled triangle it is the hypotenuse.\n\nSo $\\triangle XPO \\cong \\triangle XQO$ by RHS. A useful extra conclusion is that $XP = XQ$, because corresponding sides in congruent triangles are equal.",
+   "figure_refs": [
+    "assets/003-4cfc917b-7fa6-4d30-859b-96a421a9892b.jpeg"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "If $\\triangle PQR \\cong \\triangle XZY$, which angle matches $\\angle QPR$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$\\angle ZXY$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$\\angle XZY$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$\\angle ZYX$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$\\angle XYZ$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "In the congruence statement, $P \\leftrightarrow X$, $Q \\leftrightarrow Z$, and $R \\leftrightarrow Y$, so $\\angle QPR$ matches $\\angle ZXY$. The common wrong answer is $\\angle XZY$ because students match the right letters but keep them in the wrong order, so the angle ends up at $Z$ instead of at $X$."
+  },
+  {
+   "id": "card-7",
+   "question": "Two triangles have sides 8 cm and 11 cm equal, and the angle between those sides is $54^\\circ$ in both triangles. Which congruence test should you use?",
+   "options": [
+    {
+     "id": "a",
+     "text": "SAS",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "SSS",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "ASA",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "RHS",
+     "is_correct": false
+    }
+   ],
+   "explanation": "SAS uses two sides and the included angle, so it matches the information exactly. The common wrong answer is ASA, but ASA needs two angles and a side, not two sides and one angle."
+  },
+  {
+   "id": "card-12",
+   "question": "In quadrilateral $WXYZ$, you are given $WX = WZ$ and $YX = YZ$. Why does $\\angle WXY = \\angle WZY$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because $\\triangle WXY$ and $\\triangle WZY$ are congruent by SSS, so corresponding angles are equal.",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "Because opposite angles in any quadrilateral are always equal.",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "Because AAA proves triangles are congruent.",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Because the two triangles have the same area.",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The two triangles share side $WY$, so with $WX = WZ$ and $YX = YZ$ they have three equal side pairs and are congruent by SSS. The common wrong answer is B, but opposite angles are not equal in every quadrilateral, so that rule cannot be used here."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-7-7-14-congruent-triangles/lessons",
+ "source_sha256": "b69cad82bc212c65473fe6b7977ecd74fb8572fa969a58fd8f117f1599ab707c",
+ "extracted_at": "2026-11-08T17:58:56Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "0a8142d4-a294-4b7e-92de-055e08e17a5d",
+  "topic_id": "59683834-249d-4ab9-bec7-42ff607a7f43",
+  "created_at": "2026-05-13T07:08:17.529Z",
+  "updated_at": "2026-05-13T07:10:07.751Z",
+  "figures": 3,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}
