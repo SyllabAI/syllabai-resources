@@ -1095,3 +1095,40 @@ by this wave. Source PDFs fetched, processed, discarded — sha256 + URL only su
 Receipt: `MG-QuestionBank/T-MG-QB-2-run-001-RECEIPT.json`; scripts land as `scripts/mg_qb2_*.py`
 (catalog builder, extractor, manifest builder, uploader, parser-regression harness) with run
 evidence under `scripts/mg_qb2_run001/`.
+
+
+## Wave 27 — MG-QuestionBank's third lane: the MathsGenie A-Level Maths (Edexcel, 9MA0) chapter question-set bank (T-MG-QB-3 run-001; branch t-mg-qb-3/run-001)
+
+The question bank reaches A-Level: `MG-QuestionBank/a-level-maths-edexcel` carries **44 of 44 chapters /
+913 questions / 5,323 printed marks** with worked-solution scans 44/44, zero PDFs stored (~47 MB,
+1,952 files). The lane's granularity of record is the **per-chapter question set** — the new-site lane
+(`mathsgenie.co.uk/a-level/maths/edexcel`, 44 chapters over 245 subtopics, re-decoded live and
+chapter-identical to `T-MG-VERIFY-1` run-000) publishes no per-subtopic question PDFs (subtopic pages
+are video/lesson; the new-site subtopic question bank is an interactive client-side feature,
+link-of-record), so the question resources join 44/44 by chapter title to the old-site delivery
+(`old.mathsgenie.co.uk/newalevel.php` → `a-level-*-questions-*.php`, asset host
+`old-asset.mathsgenie.co.uk/alevel/`). **`as-level-maths-edexcel` is intentionally not extracted**: its
+24 chapters verified slug-identical to this lane's Year-1 half (same source sets) — dedup decision
+recorded in the manifest, never silently dropped.
+
+Extraction needed its own parser law. A-Level sets embed question numbers inside display-math blocks
+(verified visually: one question's "5" renders inside the fragment "2 + 10 5", another's after a
+fraction numerator), so the QB-1/2 leading-number anchor law is unreliable here; instead every question
+prints a right-aligned "(Total for question N is M marks)" boundary line, and the lane is segmented by
+consecutive total lines in spatial order, the line travelling with its crop. The marks law extends
+accordingly: marks come from printed total lines only — the "(N marks)" pattern of QB-1/2 does not
+occur in this lane; nothing inferred. The numbering law keeps the printed number as identity: three
+source total-line typos (graphs-transformations Q22 printed "2", sequences-and-series Q9 printed "2",
+the-normal-distribution Q2 printed "1") are position-derived and flagged `printed_as`; one printed
+numbering gap (exponentials-and-logarithms skips 19) is kept as printed. Ground-truth fixes made
+in-run and disclosed: the singular "(Total for question N is 1 mark)" lines (six chapters would have
+lost questions to a plural-only regex); and 9 question-set pages that publish only the answers link —
+their sibling question PDFs follow the site's own asset-host naming convention, were HEAD-200-verified
+at run time, and are included with explicit discovery provenance (all 9 initially mis-read as
+image-only sets because the scanned answers PDF sat in the question slot of an interim catalog;
+re-classified before any corpus landing). Premium-gated entries: 0 (the old-site sets are all free).
+Past-paper / predicted-paper / mini-test banks remain excluded per the operator decision of
+2026-11-07; old-spec C1–C4/S1/M1 materials are a different qualification generation and out of the lane
+of record. Receipt: `MG-QuestionBank/T-MG-QB-3-run-001-RECEIPT.json`; scripts land as
+`scripts/mg_qb3_*.py` (+ the shared `scripts/gh_api.py` helper) with run evidence under
+`scripts/mg_qb3_run001/`.

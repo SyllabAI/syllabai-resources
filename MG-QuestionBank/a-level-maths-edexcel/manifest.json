@@ -1,0 +1,148 @@
+{
+ "plane": "MG-QuestionBank",
+ "lane": "a-level-maths-edexcel",
+ "qualification": "A-Level",
+ "subject": "Maths",
+ "board": "Edexcel",
+ "spec": "9MA0",
+ "source_lane": "https://www.mathsgenie.co.uk/a-level/maths/edexcel",
+ "classic_source": "https://old.mathsgenie.co.uk/newalevel.php",
+ "asset_host": "old-asset.mathsgenie.co.uk/alevel/",
+ "extracted_at": "2026-11-08T11:46:43Z",
+ "task_id": "T-MG-QB-3/run-001",
+ "lane_shape": {
+  "grammar": "site-native chapter slug: {as|a-level}-{strand}-{n}-{name} (Year 1 chapters carry the `as-` prefix, Year 2 the `a-level-` prefix)",
+  "granularity_of_record": "per-chapter question sets \u2014 MathsGenie publishes A-Level exam questions as compiled per-chapter sets; subtopic pages carry no question PDFs (video/lesson only)",
+  "chapters": 44,
+  "subtopics": 245,
+  "sections": [
+   "Year 1 Pure Mathematics (14)",
+   "Year 1 Statistics (7)",
+   "Year 1 Mechanics (3)",
+   "Year 2 Pure Mathematics (12)",
+   "Year 2 Statistics (3)",
+   "Year 2 Mechanics (5)"
+  ],
+  "sibling_lane_overlap": {
+   "as-level-maths-edexcel": "its 24 chapters are slug-identical to the Year-1 half of this lane (verified at run time); its question resources are the same 24 old-site question sets \u2014 a future AS lane extraction would duplicate content of this lane; dedup decision recorded here, AS lane NOT extracted twice"
+  }
+ },
+ "coverage": {
+  "chapters_in_catalog": 44,
+  "chapters_extracted": 44,
+  "questions": 913,
+  "marks_sum_printed": 5323,
+  "chapters_with_solutions": 44,
+  "premium_gated_entries": 0,
+  "by_year_strand": {
+   "Year 1 Mechanics": 3,
+   "Year 1 Pure Mathematics": 14,
+   "Year 1 Statistics": 7,
+   "Year 2 Mechanics": 5,
+   "Year 2 Pure Mathematics": 12,
+   "Year 2 Statistics": 3
+  }
+ },
+ "modes_present": {
+  "question-sets": "44/44 chapters (compiled exam-question sets + worked-solution scans)"
+ },
+ "modes_absent": [
+  {
+   "mode": "subtopic-level question PDFs",
+   "reason": "not-offered",
+   "note": "245 subtopic pages carry video/lesson only; the new-site subtopic question bank is an interactive client-side feature (link-of-record per subtopic page)"
+  },
+  {
+   "mode": "booklets",
+   "reason": "not-offered",
+   "note": "A-Level lane has no booklet generation (that is a GCSE/IGCSE mode)"
+  },
+  {
+   "mode": "revision-guides / flashcards",
+   "reason": "pending-extraction",
+   "note": "other MG-* planes; not in the QuestionBank scope"
+  },
+  {
+   "mode": "past-paper banks",
+   "reason": "user-exclusion",
+   "note": "operator decision 2026-11-07: no past-paper PDFs anywhere in MG-*; link-of-record remains the site"
+  },
+  {
+   "mode": "predicted-paper banks / mini-tests",
+   "reason": "user-exclusion",
+   "note": "same operator decision"
+  }
+ ],
+ "numbering_law": {
+  "rule": "printed total-line number is the question identity; non-monotonic dips are position-derived and flagged printed_as (source typos); ascending gaps are kept as printed and recorded (never renumbered silently, never padded)",
+  "gaps": [
+   [
+    "as-pure-mathematics-14-exponentials-and-logarithms",
+    [
+     19
+    ]
+   ]
+  ],
+  "printed_typos": [
+   [
+    "as-pure-mathematics-4-graphs-and-transformations",
+    [
+     {
+      "position": 22,
+      "printed": 2
+     }
+    ]
+   ],
+   [
+    "a-level-pure-mathematics-3-sequences-and-series",
+    [
+     {
+      "position": 9,
+      "printed": 2
+     }
+    ]
+   ],
+   [
+    "a-level-statistics-3-the-normal-distribution",
+    [
+     {
+      "position": 2,
+      "printed": 1
+     }
+    ]
+   ]
+  ]
+ },
+ "discovery_provenance": {
+  "chapters": 9,
+  "slugs": [
+   "as-pure-mathematics-1-algebraic-expressions",
+   "a-level-statistics-1-regression-correlation-and-hypothesis-testing",
+   "a-level-statistics-2-conditional-probability",
+   "a-level-statistics-3-the-normal-distribution",
+   "a-level-mechanics-1-moments",
+   "a-level-mechanics-2-forces-and-friction",
+   "a-level-mechanics-3-projectiles",
+   "a-level-mechanics-4-applications-of-forces",
+   "a-level-mechanics-5-further-kinematics"
+  ],
+  "rule": "question-set pages that publish only the answers link; the sibling question PDF follows the site's own asset-host naming convention ({stem}.pdf beside {stem}ans.pdf) and was HEAD-200-verified at run time before inclusion"
+ },
+ "scope_exclusions": [
+  "past-paper banks (papers/past) \u2014 operator decision 2026-11-07: no paper PDFs",
+  "predicted-paper banks \u2014 same decision",
+  "mini-tests \u2014 same decision; live-site interactive, link-of-record only",
+  "old-spec (C1-C4/S1/M1) A-Level materials (old.mathsgenie.co.uk/alevel.php) \u2014 different qualification generation, out of the 9MA0 lane of record"
+ ],
+ "drift_vs_run000": {
+  "run000_chapters": 44,
+  "live_chapters": 44,
+  "chapter_set_identical": true,
+  "note": "run-000 recorded the lane's 44 chapters as its topic set; this run adds the 245-subtopic layer decoded from the lane payload (finer than run-000 recorded)"
+ },
+ "provenance": {
+  "every_artifact": "source_url + source_sha256 + extracted_at + extractor + task_id",
+  "source_pdfs": "fetched, processed, discarded \u2014 only sha256 + URL survive per chapter",
+  "licensing": "MathsGenie site content is third-party material; operator attestation in ../LICENSE-DATA.md (Amendment 2026-11-07)"
+ }
+}

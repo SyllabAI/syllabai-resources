@@ -1,0 +1,86 @@
+{
+ "receipt": "T-MG-QB-3-run-001",
+ "task_id": "T-MG-QB-3/run-001",
+ "date": "2026-11-08T11:46:43Z",
+ "actor": "SyllabAI Corpus Bot (operator-directed)",
+ "scope": "MG-QuestionBank/a-level-maths-edexcel \u2014 MathsGenie A-Level Maths (Edexcel, 9MA0) per-chapter question-set bank (third QB lane; follows T-MG-QB-1 gcse-maths-edexcel PR #315 and T-MG-QB-2 igcse-maths-edexcel PR #316)",
+ "sources": {
+  "lane_page": "https://www.mathsgenie.co.uk/a-level/maths/edexcel",
+  "classic_question_sets": "old.mathsgenie.co.uk/newalevel.php -> a-level-*-questions-*.php",
+  "asset_host": "old-asset.mathsgenie.co.uk/alevel/",
+  "site_lane_join": "44/44 chapters title-joined new-site lane <-> old-site question sets; AS-lane overlap (24 slug-identical Year-1 chapters) recorded, not duplicated"
+ },
+ "counts": {
+  "chapters_in_catalog": 44,
+  "chapters_extracted": 44,
+  "subtopics_indexed": 245,
+  "questions": 913,
+  "marks_sum_printed": 5323,
+  "solutions_scanned_chapters": 44,
+  "premium_gated_recorded_not_downloaded": 0,
+  "question_pdfs_via_naming_convention": 9
+ },
+ "parser_law": {
+  "segmentation": "total-line boundaries: every question prints '(Total for question N is M marks)'; questions are segmented by consecutive total lines in spatial (page, y) order; the total line travels with its crop",
+  "why_not_leading_anchors": "A-Level sets embed question numbers inside display-math blocks (verified visually: Q5's number renders inside '2 + 10 5', Q8's after a fraction numerator); the QB-1/2 leading-number law is unreliable for this lane",
+  "numbering": "printed identity; dips position-derived + flagged; gaps recorded",
+  "marks": "printed total lines only ('... is M marks'); the QB-1/2 '(N marks)' pattern does not occur in this lane; nothing inferred"
+ },
+ "exclusions": [
+  "past-paper banks",
+  "predicted-paper banks",
+  "mini-tests (operator decision 2026-11-07)",
+  "old-spec C1-C4/S1/M1 materials (separate qualification generation)"
+ ],
+ "honest_gaps": [
+  {
+   "metric": "printed numbering gap",
+   "topics": [
+    "as-pure-mathematics-14-exponentials-and-logarithms"
+   ],
+   "note": "exponentials-and-logarithms prints no question 19 (1..18 then 20..41); kept as printed, never renumbered"
+  },
+  {
+   "metric": "source total-line typos",
+   "topics": [
+    "as-pure-mathematics-4-graphs-and-transformations",
+    "a-level-pure-mathematics-3-sequences-and-series",
+    "a-level-statistics-3-the-normal-distribution"
+   ],
+   "note": "graphs-transformations Q22 prints '(Total for question 2 is 6 marks)'; sequences-and-series Q9 prints '(Total for Question 2 is 9 marks)'; the-normal-distribution Q2 prints a second '(Total for question 1 ...)' line; all numbered by position and flagged printed_as in questions.json"
+  },
+  {
+   "metric": "9 question PDFs reachable only via the site's own naming convention",
+   "topics": [
+    "as-pure-mathematics-1-algebraic-expressions",
+    "a-level-statistics-1-regression-correlation-and-hypothesis-testing",
+    "a-level-statistics-2-conditional-probability",
+    "a-level-statistics-3-the-normal-distribution",
+    "a-level-mechanics-1-moments",
+    "a-level-mechanics-2-forces-and-friction",
+    "a-level-mechanics-3-projectiles",
+    "a-level-mechanics-4-applications-of-forces",
+    "a-level-mechanics-5-further-kinematics"
+   ],
+   "note": "question-set pages publish only the answers link; sibling question PDF verified HTTP 200 at run time and included with explicit discovery provenance"
+  },
+  {
+   "metric": "0 topics without solutions",
+   "codes": [],
+   "note": "44/44 answer scans present"
+  }
+ ],
+ "verification": [
+  "live lane re-decoded at run time: 44 chapters / 245 subtopics, chapter set identical to T-MG-VERIFY-1 run-000",
+  "44/44 chapter joins title-matched; no fallback matching needed",
+  "total-line counts cross-checked pre-extraction: 35/35 originally-text sets sequential (after '1 mark' singular fix) plus 9 re-classified sets; anomalies triaged to gaps/typos",
+  "visual QA: question crops hug their region with diagrams + printed total lines; solution scans verified as worked solutions",
+  "lane runs 1,949 files / ~47 MB, zero PDFs stored"
+ ],
+ "receipt_files": {
+  "manifest": "MG-QuestionBank/a-level-maths-edexcel/manifest.json",
+  "index": "MG-QuestionBank/a-level-maths-edexcel/INDEX.md",
+  "extract_results": "scripts/mg_qb3_run001/extract_results.json",
+  "catalog_log": "scripts/mg_qb3_run001/catalog_log.json"
+ }
+}
