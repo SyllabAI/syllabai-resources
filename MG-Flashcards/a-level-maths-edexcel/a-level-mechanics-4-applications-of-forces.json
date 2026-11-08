@@ -1,0 +1,645 @@
+{
+ "topic": "a-level-mechanics-4-applications-of-forces",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "title": "Applications of Forces Flashcards",
+ "cards": [
+  {
+   "id": "4ead94c0-0a38-459e-bece-ad4fe04390a7",
+   "card_type": "basic",
+   "front": "Where does the weight of a uniform rod act?",
+   "back": "At its midpoint.",
+   "options": [
+    {
+     "text": "At its midpoint.",
+     "correct": true,
+     "explanation": "A uniform rod’s mass is distributed symmetrically, so its centre of mass is at the midpoint. Its entire weight can therefore be modelled as acting there."
+    },
+    {
+     "text": "At its end.",
+     "correct": false,
+     "explanation": "An end is not the centre of mass of a uniform rod. Symmetry places the centre of mass at the midpoint, so the rod’s weight acts there."
+    },
+    {
+     "text": "At its quarter-point.",
+     "correct": false,
+     "explanation": "The quarter-point may be confused with a distance used in a moments calculation. For a uniform rod, symmetry places the centre of mass and weight at the midpoint."
+    },
+    {
+     "text": "At its point of support.",
+     "correct": false,
+     "explanation": "The point of support determines the reaction force, not where the rod’s weight acts. A uniform rod’s weight acts at its centre of mass, the midpoint."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "072163ac-230f-4349-ab54-6dde5113053a",
+   "card_type": "cloze",
+   "front": "A [ ___ ] string has negligible mass, while an inextensible string has a fixed length.",
+   "back": "A light string has negligible mass, while an inextensible string has a fixed length.",
+   "options": [
+    {
+     "text": "light",
+     "correct": true,
+     "explanation": "In mechanics, a light string is modelled as having negligible mass. This allows its own weight and inertia to be ignored when analysing connected particles."
+    },
+    {
+     "text": "heavy",
+     "correct": false,
+     "explanation": "A heavy string has significant mass, so its weight and inertia may need to be included. The modelling term for negligible mass is light."
+    },
+    {
+     "text": "extensible",
+     "correct": false,
+     "explanation": "Extensible describes a string whose length can change under tension, rather than one with negligible mass. A negligible-mass string is described as light."
+    },
+    {
+     "text": "rough",
+     "correct": false,
+     "explanation": "Rough describes a surface or contact capable of producing friction; it does not describe negligible mass. The correct modelling term for the string is light."
+    }
+   ]
+  },
+  {
+   "id": "5ac79cec-1fa9-42cc-a690-2abf4a78ef77",
+   "card_type": "cloze",
+   "front": "A light string has negligible mass, while an [ ___ ] string has a fixed length.",
+   "back": "A light string has negligible mass, while an inextensible string has a fixed length.",
+   "options": [
+    {
+     "text": "inextensible",
+     "correct": true,
+     "explanation": "An inextensible string is modelled as having a fixed length, so it does not stretch or contract while transmitting motion between connected particles."
+    },
+    {
+     "text": "elastic",
+     "correct": false,
+     "explanation": "An elastic string can extend when tension is applied, so its length is not necessarily fixed. A string modelled with fixed length is inextensible."
+    },
+    {
+     "text": "extensible",
+     "correct": false,
+     "explanation": "An extensible string is specifically able to change length, which is the opposite of the stated condition. A fixed-length string is described as inextensible."
+    },
+    {
+     "text": "accelerating",
+     "correct": false,
+     "explanation": "An accelerating string may still be extensible, so acceleration does not guarantee a fixed length. The modelling property required here is inextensible."
+    }
+   ]
+  },
+  {
+   "id": "9b44e9e3-9834-4a95-9b3a-d9f261a7a19c",
+   "card_type": "cloze",
+   "front": "Because a string is inextensible, connected particles share the same [ ___ ] while the string is taut.",
+   "back": "Because a string is inextensible, connected particles share the same magnitude of acceleration while the string is taut.",
+   "options": [
+    {
+     "text": "magnitude of acceleration",
+     "correct": true,
+     "explanation": "A taut inextensible string constrains connected particles to have matching changes in speed along the string. Their acceleration magnitudes are therefore equal, although their directions may differ."
+    },
+    {
+     "text": "direction of acceleration",
+     "correct": false,
+     "explanation": "The particles may accelerate in different directions, such as on opposite sides of a pulley. Inextensibility constrains the magnitude of their acceleration, not its direction."
+    },
+    {
+     "text": "magnitude of tension",
+     "correct": false,
+     "explanation": "Equal tension can follow from additional assumptions such as a light string and smooth pulley, not from inextensibility alone. The fixed-length constraint gives equal acceleration magnitudes."
+    },
+    {
+     "text": "mass",
+     "correct": false,
+     "explanation": "A string can connect particles with different masses, and inextensibility does not make those masses equal. It constrains the particles to have the same acceleration magnitude."
+    }
+   ]
+  },
+  {
+   "id": "25838b01-51ee-4c9c-9e16-b5538fddc1cc",
+   "card_type": "basic",
+   "front": "For a particle of mass $m$ on a plane inclined at angle $\\theta$, what is the component of weight down the slope?",
+   "back": "$$mg\\sin\\theta$",
+   "options": [
+    {
+     "text": "$$mg\\sin\\theta$",
+     "correct": true,
+     "explanation": "Resolving the vertical weight parallel to a plane inclined at angle $\\theta$ gives the opposite component of the resolution triangle, so the downslope component is $mg\\sin\\theta$."
+    },
+    {
+     "text": "$$mg\\cos\\theta$",
+     "correct": false,
+     "explanation": "Using cosine swaps the parallel and perpendicular components. The component perpendicular to the plane is $mg\\cos\\theta$, while the component down the slope is $mg\\sin\\theta$."
+    },
+    {
+     "text": "$$mg\\tan\\theta$",
+     "correct": false,
+     "explanation": "Tangent gives a ratio of resolved components, not a component of the weight itself. Resolving $mg$ parallel to the plane gives $mg\\sin\\theta$."
+    },
+    {
+     "text": "$$\\frac{mg}{\\sin\\theta}$",
+     "correct": false,
+     "explanation": "Dividing by sine incorrectly treats $mg$ as the downslope component rather than the full weight. The correct projection parallel to the slope is $mg\\sin\\theta$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "143d13de-e8ee-4719-8cd9-f4bbac07b37c",
+   "card_type": "basic",
+   "front": "For a particle of mass $m$ on a plane inclined at angle $\\theta$, what is the component of weight perpendicular to the slope?",
+   "back": "$$mg\\cos\\theta$",
+   "options": [
+    {
+     "text": "$$mg\\cos\\theta$",
+     "correct": true,
+     "explanation": "Resolving the vertical weight normal to a plane inclined at angle $\\theta$ gives the adjacent component of the resolution triangle, so its magnitude is $mg\\cos\\theta$."
+    },
+    {
+     "text": "$$mg\\sin\\theta$",
+     "correct": false,
+     "explanation": "Using sine swaps the normal and parallel components. The component down the plane is $mg\\sin\\theta$, whereas the component perpendicular to it is $mg\\cos\\theta$."
+    },
+    {
+     "text": "$$mg\\tan\\theta$",
+     "correct": false,
+     "explanation": "Tangent represents the ratio of the parallel component to the perpendicular component, not the perpendicular force itself. The required projection is $mg\\cos\\theta$."
+    },
+    {
+     "text": "$$\\frac{mg}{\\cos\\theta}$",
+     "correct": false,
+     "explanation": "Dividing by cosine incorrectly treats the full weight as a resolved component. Projecting $mg$ in the direction perpendicular to the slope gives $mg\\cos\\theta$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "c1b77264-74c7-4a51-bf6c-99995a702790",
+   "card_type": "basic",
+   "front": "What two conditions must be met for a rigid body to be in equilibrium?",
+   "back": "Resultant force is zeroResultant moment is zero",
+   "options": [
+    {
+     "text": "Resultant force is zeroResultant moment is zero",
+     "correct": true,
+     "explanation": "Zero resultant force prevents translational acceleration, while zero resultant moment prevents angular acceleration. Both conditions are necessary for a rigid body to be in equilibrium."
+    },
+    {
+     "text": "Resultant force is zeroResultant velocity is zero",
+     "correct": false,
+     "explanation": "Zero resultant force is required, but zero velocity is not: a body in dynamic equilibrium can move at constant velocity. Rotational equilibrium instead requires zero resultant moment."
+    },
+    {
+     "text": "Resultant force is constantResultant moment is zero",
+     "correct": false,
+     "explanation": "A constant non-zero resultant force would produce acceleration, so the body would not be in equilibrium. Both the resultant force and the resultant moment must be zero."
+    },
+    {
+     "text": "Resultant force is zeroResultant moment is constant",
+     "correct": false,
+     "explanation": "A constant non-zero resultant moment produces angular acceleration, so rotational equilibrium is not maintained. The resultant force and the resultant moment must both equal zero."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "887461e5-2d61-4cd0-b503-2624822cf3b9",
+   "card_type": "cloze",
+   "front": "The moment of a force is the force multiplied by the [ ___ ] from the pivot to the line of action.",
+   "back": "The moment of a force is the force multiplied by the perpendicular distance from the pivot to the line of action.",
+   "options": [
+    {
+     "text": "perpendicular distance",
+     "correct": true,
+     "explanation": "A moment measures the turning effect about a pivot. Its magnitude is the force multiplied by the perpendicular distance from the pivot to the force’s line of action."
+    },
+    {
+     "text": "direct distance",
+     "correct": false,
+     "explanation": "Using an unspecified distance ignores the angle between the position and force directions. The required lever arm is specifically the perpendicular distance to the line of action."
+    },
+    {
+     "text": "parallel distance",
+     "correct": false,
+     "explanation": "The distance parallel to the force’s line of action produces no turning leverage. A moment uses the perpendicular distance from the pivot to that line."
+    },
+    {
+     "text": "distance to the point of application",
+     "correct": false,
+     "explanation": "The distance to the application point is only usable when it is perpendicular to the force. In general, the moment uses the perpendicular distance to the line of action."
+    }
+   ]
+  },
+  {
+   "id": "ce0b03f1-8b24-4cea-8858-93649ba7e611",
+   "card_type": "basic",
+   "front": "When solving equilibrium problems for a rod, why is taking moments about a hinge or contact point effective?",
+   "back": "It eliminates unknown forces acting at that point (distance is zero).",
+   "options": [
+    {
+     "text": "It eliminates unknown forces acting at that point (distance is zero).",
+     "correct": true,
+     "explanation": "Taking moments about the hinge or contact point gives zero moment for any force acting there, so its unknown horizontal or vertical component disappears from the moment equation."
+    },
+    {
+     "text": "It eliminates known forces acting at that point (distance is zero).",
+     "correct": false,
+     "explanation": "A force is eliminated from moments about a point because its perpendicular distance is zero, not because the force itself becomes zero. The correct reason is that unknown forces at that point are eliminated."
+    },
+    {
+     "text": "It eliminates unknown forces acting elsewhere (distance is zero).",
+     "correct": false,
+     "explanation": "Taking moments about a point does not remove forces acting elsewhere, even if their distances are known. It eliminates unknown forces acting at the chosen point because their moment arms are zero."
+    },
+    {
+     "text": "It makes unknown forces acting at that point perpendicular (distance is zero).",
+     "correct": false,
+     "explanation": "The hinge or contact force is not necessarily perpendicular to the rod, and the method does not depend on making it perpendicular. Its moment is zero because its line of action passes through the chosen point."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "16a1a134-4d5e-4295-8d01-1ad2d7e44a6f",
+   "card_type": "cloze",
+   "front": "For a rough contact with normal reaction $R$, the friction $F$ satisfies the inequality $\\text{[...]}$.",
+   "back": "For a rough contact with normal reaction $R$, the friction $F$ satisfies the inequality $\\boxed{F \\le \\mu R}$.",
+   "options": [
+    {
+     "text": "$$F \\le \\mu R$",
+     "correct": true,
+     "explanation": "Friction can take any value up to its limiting value, which is $mu R$ for coefficient of friction $mu$ and normal reaction $R$. Therefore, $F le mu R$."
+    },
+    {
+     "text": "$$F = \\mu R$",
+     "correct": false,
+     "explanation": "The equality $F = \\mu R$ applies only in limiting equilibrium, when slipping is about to begin. In general, friction may be smaller, so the correct inequality is $F \\le \\mu R$."
+    },
+    {
+     "text": "$$F \\ge \\mu R$",
+     "correct": false,
+     "explanation": "Friction cannot exceed its limiting value $mu R$; using a greater-than sign reverses the physical constraint. The correct relationship is $F \\le \\mu R$."
+    },
+    {
+     "text": "$$F < \\mu R$",
+     "correct": false,
+     "explanation": "The expression $F < \\mu R$ excludes limiting equilibrium, where friction equals $mu R$. Since equality is allowed, the correct relationship is $F \\le \\mu R$."
+    }
+   ]
+  },
+  {
+   "id": "c666e412-2080-4a54-b1f8-60f278649abe",
+   "card_type": "basic",
+   "front": "Define limiting equilibrium in terms of friction.",
+   "back": "The state where a body is on the point of slipping and $F = \\mu R$.",
+   "options": [
+    {
+     "text": "The state where a body is on the point of slipping and $F = \\mu R$.",
+     "correct": true,
+     "explanation": "Limiting equilibrium is the condition immediately before slipping starts. Static friction has reached its maximum possible value, so its magnitude is $F = \\mu R$."
+    },
+    {
+     "text": "The state where a body is at rest and $F < \\mu R$.",
+     "correct": false,
+     "explanation": "A body at rest is not necessarily on the point of slipping; its friction may be less than the limiting value. Limiting equilibrium specifically means slipping is about to begin and $F = \\mu R$."
+    },
+    {
+     "text": "The state where a body is slipping and $F = \\mu R$.",
+     "correct": false,
+     "explanation": "Once a body is slipping, the limiting static-friction condition has already been passed. Limiting equilibrium occurs just before motion, when the body is on the point of slipping and $F = \\mu R$."
+    },
+    {
+     "text": "The state where a body is on the point of slipping and $F = 0$.",
+     "correct": false,
+     "explanation": "Friction is not generally zero at the instant before slipping; it reaches its maximum value. The correct definition is being on the point of slipping with $F = \\mu R$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "62786151-b38a-4626-bf34-653e95383881",
+   "card_type": "basic",
+   "front": "A ladder rests against a smooth vertical wall. What forces does the wall exert on the ladder?",
+   "back": "Only a normal reaction (no friction).",
+   "options": [
+    {
+     "text": "Only a normal reaction (no friction).",
+     "correct": true,
+     "explanation": "A smooth surface cannot exert a tangential frictional force. The wall therefore exerts only a reaction perpendicular to its surface, which for a vertical wall is horizontal."
+    },
+    {
+     "text": "Only a frictional force (no normal reaction).",
+     "correct": false,
+     "explanation": "A smooth wall has no friction, so it cannot exert a force parallel to its surface. It exerts only a normal reaction perpendicular to the wall."
+    },
+    {
+     "text": "Both a normal reaction and friction.",
+     "correct": false,
+     "explanation": "The wall is smooth, so friction is absent, and the normal reaction is not vertical: it acts horizontally, perpendicular to the vertical wall. The correct answer is only a normal reaction."
+    },
+    {
+     "text": "No force.",
+     "correct": false,
+     "explanation": "A smooth wall does exert a contact force on the ladder. That force is the normal reaction; smoothness removes only the tangential frictional component."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "7ada86d5-5e66-4688-8089-f6d262f8e200",
+   "card_type": "basic",
+   "front": "How do you calculate the resultant force acting on a hinge?",
+   "back": "Calculate horizontal ($X$) and vertical ($Y$) components, then use $\\sqrt{X^2 + Y^2}$.",
+   "options": [
+    {
+     "text": "Calculate horizontal ($X$) and vertical ($Y$) components, then use $\\sqrt{X^2 + Y^2}$.",
+     "correct": true,
+     "explanation": "Resolve the hinge force into perpendicular horizontal and vertical components, $X$ and $Y$. Pythagoras then gives the resultant magnitude as $\\sqrt{X^2 + Y^2}$."
+    },
+    {
+     "text": "Calculate horizontal ($X$) and vertical ($Y$) components, then use $X + Y$.",
+     "correct": false,
+     "explanation": "Adding $X$ and $Y$ treats perpendicular components as if they acted along the same line. The resultant magnitude requires Pythagoras: $\\sqrt{X^2 + Y^2}$."
+    },
+    {
+     "text": "Calculate horizontal ($X$) and vertical ($Y$) components, then use $X - Y$.",
+     "correct": false,
+     "explanation": "Subtracting the components is not the vector-magnitude formula and can give the wrong result even when the directions are opposite. The correct calculation is $\\sqrt{X^2 + Y^2}$."
+    },
+    {
+     "text": "Calculate horizontal ($X$) and vertical ($Y$) components, then use $\\sqrt{X^2 - Y^2}$.",
+     "correct": false,
+     "explanation": "The expression $\\sqrt{X^2 - Y^2}$ is not valid for combining perpendicular force components and may even be undefined. The resultant uses the sum of the squares, $\\sqrt{X^2 + Y^2}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "2bd97522-f151-497e-965d-c26deca0309c",
+   "card_type": "cloze",
+   "front": "For a smooth pulley, the [ ___ ] is the same on both sides of the pulley.",
+   "back": "For a smooth pulley, the tension is the same on both sides of the pulley.",
+   "options": [
+    {
+     "text": "tension",
+     "correct": true,
+     "explanation": "In an ideal smooth pulley, there is no friction between the pulley and the string, so the tension does not change as the string passes over it."
+    },
+    {
+     "text": "mass",
+     "correct": false,
+     "explanation": "The pulley’s smoothness concerns the string force, not the mass of the pulley. With no friction, the tension is the same on both sides."
+    },
+    {
+     "text": "acceleration",
+     "correct": false,
+     "explanation": "The acceleration may differ between systems or directions, but smoothness guarantees equal tension on the two sides of the string. The missing term is tension."
+    },
+    {
+     "text": "force",
+     "correct": false,
+     "explanation": "A smooth pulley can redirect the string and alter force directions, but it does not make the force zero. The same tension acts on both sides."
+    }
+   ]
+  },
+  {
+   "id": "626c0a65-cba7-4e64-ae02-ee1fc26bb4d2",
+   "card_type": "basic",
+   "front": "What is the line of greatest slope on an inclined plane?",
+   "back": "The straight up or down path along the surface of the plane.",
+   "options": [
+    {
+     "text": "The straight up or down path along the surface of the plane.",
+     "correct": true,
+     "explanation": "The line of greatest slope follows the steepest direction on the plane, directly uphill or downhill. It is perpendicular to the contours of equal height."
+    },
+    {
+     "text": "The straight across path along the surface of the plane.",
+     "correct": false,
+     "explanation": "A path across the slope is perpendicular to the steepest direction and has no change in height for an ideal plane. The line of greatest slope runs straight up or down the surface."
+    },
+    {
+     "text": "The straight horizontal path above the surface of the plane.",
+     "correct": false,
+     "explanation": "The horizontal path through the air is not a path along the plane’s surface. Greatest slope refers to the steepest straight route up or down the inclined surface."
+    },
+    {
+     "text": "The curved sideways path along the surface of the plane.",
+     "correct": false,
+     "explanation": "A curved route is not the straight steepest direction and may change its gradient. The line of greatest slope is the straight path directly up or down the plane."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "df41bfaa-9372-4e34-8e4e-57d129d67493",
+   "card_type": "basic",
+   "front": "A system is released from rest. What determines the direction of friction on a rough surface?",
+   "back": "Friction opposes the motion (or the tendency to move).",
+   "options": [
+    {
+     "text": "Friction opposes the motion (or the tendency to move).",
+     "correct": true,
+     "explanation": "Friction acts to oppose relative motion or the tendency for relative motion between surfaces. Its direction is therefore found from the impending or actual movement, not chosen automatically."
+    },
+    {
+     "text": "Friction always acts uphill (regardless of the tendency to move).",
+     "correct": false,
+     "explanation": "Friction does not always act uphill; it may act downhill if the body tends to move uphill. The correct rule is that friction opposes the actual or impending relative motion."
+    },
+    {
+     "text": "Friction acts in the direction of motion (or the tendency to move).",
+     "correct": false,
+     "explanation": "Friction is a contact force that opposes relative motion, so it does not generally act in the same direction as the motion. The correct rule is opposition to motion or its tendency."
+    },
+    {
+     "text": "Friction acts in the direction of the normal reaction.",
+     "correct": false,
+     "explanation": "The direction of friction depends on the tendency for relative slipping, not simply on the weight or the normal reaction. It opposes the motion or tendency to move."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "35c8818a-906a-4433-a743-49e9f076fa5a",
+   "card_type": "basic",
+   "front": "In a connected-particle problem, what happens to the equations of motion if the string goes slack?",
+   "back": "Tension becomes zeroParticles no longer share an acceleration",
+   "options": [
+    {
+     "text": "Tension becomes zeroParticles no longer share an acceleration",
+     "correct": true,
+     "explanation": "A slack string cannot transmit a pulling force, so its tension is zero. The particles then move independently and require separate equations of motion with separate accelerations."
+    },
+    {
+     "text": "Tension remains unchangedParticles continue to share an acceleration",
+     "correct": false,
+     "explanation": "Non-zero tension and a shared acceleration apply only while the string remains taut. Once it becomes slack, tension is zero and the particles accelerate independently."
+    },
+    {
+     "text": "Tension becomes equal to weightParticles no longer have any acceleration",
+     "correct": false,
+     "explanation": "The tension does not become equal to a particle’s weight, and the particles do not necessarily stop accelerating. Tension becomes zero, after which each particle has its own acceleration."
+    },
+    {
+     "text": "Tension becomes zeroParticles continue to share an acceleration",
+     "correct": false,
+     "explanation": "Although a slack string does have zero tension, it no longer constrains the particles to move together. Their subsequent accelerations must therefore be determined separately."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "4059b39f-9ad2-4543-bcd9-f5897391910f",
+   "card_type": "basic",
+   "front": "How do you determine if a particle will remain at rest on a rough slope after the string goes slack?",
+   "back": "Check if the maximum possible friction ($ \\mu R $) is greater than or equal to the down-slope weight component ($ mg\\sin\\theta $).",
+   "options": [
+    {
+     "text": "Check if the maximum possible friction ($ \\mu R $) is greater than or equal to the down-slope weight component ($ mg\\sin\\theta $).",
+     "correct": true,
+     "explanation": "Static friction can take any required value up to $ \\mu R $. The particle remains at rest precisely when this limit can balance the component $ mg\\sin\\theta $ down the slope."
+    },
+    {
+     "text": "Check if the maximum possible friction ($ \\mu R $) is less than the down-slope weight component ($ mg\\sin\\theta $).",
+     "correct": false,
+     "explanation": "This reverses the required inequality: if $ \\mu R < mg\\sin\\theta $, friction cannot balance the down-slope force. Rest requires $ \\mu R \\geq mg\\sin\\theta $."
+    },
+    {
+     "text": "Check if the coefficient of friction ($ \\mu $) is greater than or equal to the down-slope weight component ($ mg\\sin\\theta $).",
+     "correct": false,
+     "explanation": "This compares a dimensionless coefficient with a force, so the quantities are incompatible. The correct comparison is between the limiting friction $ \\mu R $ and $ mg\\sin\\theta $."
+    },
+    {
+     "text": "Check if the maximum possible friction ($ \\mu R $) is greater than or equal to the perpendicular weight component ($ mg\\cos\\theta $).",
+     "correct": false,
+     "explanation": "The perpendicular component $ mg\\cos\\theta $ determines the normal reaction, not the force causing sliding. Limiting friction must instead be compared with the down-slope component $ mg\\sin\\theta $."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "95a6f7c6-212c-4163-8a0b-de1a07ab1e05",
+   "card_type": "basic",
+   "front": "How is the force on a pulley calculated if the string sections are at an angle?",
+   "back": "Find the vector sum (resultant) of the two tension forces.",
+   "options": [
+    {
+     "text": "Find the vector sum (resultant) of the two tension forces.",
+     "correct": true,
+     "explanation": "The two tensions act in different directions, so they must be combined as vectors. Their vector sum gives both the magnitude and direction of the resultant force on the pulley."
+    },
+    {
+     "text": "Find the scalar sum (total) of the two tension forces.",
+     "correct": false,
+     "explanation": "Adding only the magnitudes ignores the angle between the string sections and is valid only when both forces act in the same direction. The vector sum is required."
+    },
+    {
+     "text": "Find the scalar difference between the two tension forces.",
+     "correct": false,
+     "explanation": "Subtracting the magnitudes ignores the directions of the tension forces and generally gives the wrong resultant. The force on the pulley is found using their vector sum."
+    },
+    {
+     "text": "Use the magnitude of either one of the tension forces.",
+     "correct": false,
+     "explanation": "Each string section exerts its own tension force in a different direction, so using only one omits a force. The pulley’s force is their vector resultant."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "7d9a56b4-2300-441c-bb03-b2a1fc990012",
+   "card_type": "basic",
+   "front": "List three possible modelling refinements for force problems.",
+   "back": "Include air resistanceAccount for pulley mass or pulley frictionTreat the rod as non-uniform",
+   "options": [
+    {
+     "text": "Include air resistanceAccount for pulley mass or pulley frictionTreat the rod as non-uniform",
+     "correct": true,
+     "explanation": "These refinements replace common idealisations with more realistic features: drag, a non-ideal pulley and a varying mass distribution along the rod."
+    },
+    {
+     "text": "Ignore air resistanceAssume a smooth, massless pulleyTreat the rod as uniform",
+     "correct": false,
+     "explanation": "These are idealising assumptions rather than refinements because they remove real effects. Refinements include air resistance, pulley mass or friction, and a non-uniform rod."
+    },
+    {
+     "text": "Assume a light, inextensible stringModel bodies as point particlesTreat contact surfaces as smooth",
+     "correct": false,
+     "explanation": "Light strings, point particles and smooth surfaces simplify a model rather than make it more realistic. Appropriate refinements add drag, pulley imperfections and non-uniform mass distribution."
+    },
+    {
+     "text": "Assume constant accelerationIgnore friction at every contactTreat all bodies as particles",
+     "correct": false,
+     "explanation": "These assumptions remove physical complexity instead of refining the model. Realistic refinements include air resistance, pulley mass or friction, and a non-uniform rod."
+    }
+   ],
+   "points": 3
+  },
+  {
+   "id": "dc5ae25d-9aa1-454d-ba12-c4dc1d791e04",
+   "card_type": "cloze",
+   "front": "When a hanging particle in a connected system hits the ground, the string goes [ ___ ] and the tension becomes zero.",
+   "back": "When a hanging particle in a connected system hits the ground, the string goes slack and the tension becomes zero.",
+   "options": [
+    {
+     "text": "slack",
+     "correct": true,
+     "explanation": "Once the hanging particle reaches the ground, it can no longer maintain the separation required to keep the string taut. The string therefore becomes slack and transmits no tension."
+    },
+    {
+     "text": "taut",
+     "correct": false,
+     "explanation": "A taut string constrains connected particles and can transmit tension. After the hanging particle hits the ground, that constraint is lost, so the string instead becomes slack."
+    },
+    {
+     "text": "tight",
+     "correct": false,
+     "explanation": "Calling the string tight incorrectly suggests that it still transmits a pulling force. On impact with the ground, it becomes slack and its tension falls to zero."
+    },
+    {
+     "text": "stretched",
+     "correct": false,
+     "explanation": "A stretched string would generally remain under tension, contradicting the stated zero tension. In the connected-particle model, the string becomes slack after the particle lands."
+    }
+   ]
+  },
+  {
+   "id": "d8a88e38-927f-4bf4-bec5-e2d6cbe4ca94",
+   "card_type": "cloze",
+   "front": "When a hanging particle in a connected system hits the ground, the string goes slack and the tension becomes [ ___ ].",
+   "back": "When a hanging particle in a connected system hits the ground, the string goes slack and the tension becomes zero.",
+   "options": [
+    {
+     "text": "zero",
+     "correct": true,
+     "explanation": "A slack string cannot exert a pulling force, so its tension is zero. The other particle then moves independently under the forces that still act on it."
+    },
+    {
+     "text": "constant",
+     "correct": false,
+     "explanation": "The tension is not maintained at a constant non-zero value because a slack string cannot transmit force. It becomes zero when the hanging particle hits the ground."
+    },
+    {
+     "text": "positive",
+     "correct": false,
+     "explanation": "Positive tension requires the string to be taut and pulling on both particles. Once the string goes slack, it cannot pull, so the tension becomes zero."
+    },
+    {
+     "text": "maximum",
+     "correct": false,
+     "explanation": "The impact does not maximise the tension; it removes the string’s ability to transmit a force. Consequently, the tension becomes zero when the string goes slack."
+    }
+   ]
+  }
+ ],
+ "card_count": 22,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/a-level-mechanics-4-applications-of-forces/flashcards",
+ "source_sha256": "14d67a6bc8141ee614b68220e02c77e5e12283eb916e4ddc9809c594c57b1518",
+ "extracted_at": "2026-11-08T19:00:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-3 run-001)",
+ "task_id": "T-MG-FC-3"
+}

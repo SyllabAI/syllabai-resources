@@ -1,0 +1,673 @@
+{
+ "topic": "a-level-pure-mathematics-5-radians",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "title": "Radians Flashcards",
+ "cards": [
+  {
+   "id": "ba4fe980-4d94-449b-9bf4-21da0ec99d85",
+   "card_type": "basic",
+   "front": "What is the angle in radians for a full circle ($360^\\circ$)?",
+   "back": "$$2\\pi$",
+   "options": [
+    {
+     "text": "$$2\\pi$",
+     "correct": true,
+     "explanation": "A full circle measures $360^\\circ$, which corresponds to $2\\pi$ radians because $180^\\circ=\\pi$ radians."
+    },
+    {
+     "text": "$$\\pi$",
+     "correct": false,
+     "explanation": "This is the measure of a half circle, not a full circle. A complete revolution is twice this angle, so the correct value is $2\\pi$ radians."
+    },
+    {
+     "text": "$$\\frac{\\pi}{2}$",
+     "correct": false,
+     "explanation": "This represents a quarter circle, since a right angle is $\\frac{\\pi}{2}$ radians. A full circle contains four right angles, giving $2\\pi$ radians."
+    },
+    {
+     "text": "$$4\\pi$",
+     "correct": false,
+     "explanation": "This is twice the angle in a full circle and would represent two complete revolutions. One complete revolution is $2\\pi$ radians."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "f6faab2c-051a-4bb3-b04d-4ca17796b898",
+   "card_type": "cloze",
+   "front": "One radian is defined as the central angle subtended by an arc where the [ ___ ] is equal to the radius.",
+   "back": "One radian is defined as the central angle subtended by an arc where the arc length is equal to the radius.",
+   "options": [
+    {
+     "text": "arc length",
+     "correct": true,
+     "explanation": "By definition, one radian is the central angle subtended by an arc whose length equals the circle’s radius."
+    },
+    {
+     "text": "circumference",
+     "correct": false,
+     "explanation": "The angle is defined using the arc’s length, not its curvature. The required quantity is the arc length, which must equal the radius."
+    },
+    {
+     "text": "diameter",
+     "correct": false,
+     "explanation": "The diameter is twice the radius, so using it would define an angle larger than one radian. The relevant quantity is the arc length."
+    },
+    {
+     "text": "sector area",
+     "correct": false,
+     "explanation": "The sector’s area is not used in the definition of a radian. The defining condition is that the arc length equals the radius."
+    }
+   ]
+  },
+  {
+   "id": "032b860f-7638-46a2-b6c1-5183dc6bde39",
+   "card_type": "cloze",
+   "front": "One radian is defined as the central angle subtended by an arc where the arc length is equal to the [ ___ ].",
+   "back": "One radian is defined as the central angle subtended by an arc where the arc length is equal to the radius.",
+   "options": [
+    {
+     "text": "radius",
+     "correct": true,
+     "explanation": "One radian is defined when the arc length is equal to the radius of the circle, linking the angle directly to these two lengths."
+    },
+    {
+     "text": "diameter",
+     "correct": false,
+     "explanation": "The diameter is twice the radius, so equating the arc length to it would produce an angle of $2$ radians rather than one radian."
+    },
+    {
+     "text": "circumference",
+     "correct": false,
+     "explanation": "The circumference describes the entire circle and is much longer than the arc used to define one radian. The required comparison is with the radius."
+    },
+    {
+     "text": "sector area",
+     "correct": false,
+     "explanation": "The sector area has different dimensions from a length, so it cannot be equal to the arc length in this definition. The correct quantity is the radius."
+    }
+   ]
+  },
+  {
+   "id": "8d3e99b1-99e2-4ec4-ae2a-6e95053933c3",
+   "card_type": "basic",
+   "front": "How do you convert an angle from degrees to radians?",
+   "back": "Multiply by $\\frac{\\pi}{180}$",
+   "options": [
+    {
+     "text": "Multiply by $\\frac{\\pi}{180}$",
+     "correct": true,
+     "explanation": "There are $180$ degrees in $\\pi$ radians, so multiplying a degree measure by $\\frac{\\pi}{180}$ changes the unit to radians."
+    },
+    {
+     "text": "Multiply by $\\frac{180}{\\pi}$",
+     "correct": false,
+     "explanation": "This conversion factor changes radians into degrees, so using it here reverses the required conversion. Degrees must be multiplied by $\\frac{\\pi}{180}$ to become radians."
+    },
+    {
+     "text": "Multiply by $\\frac{\\pi}{360}$",
+     "correct": false,
+     "explanation": "The factor has an extra division by two, so it would produce an angle half the correct radian measure. The required factor is $\\frac{\\pi}{180}$."
+    },
+    {
+     "text": "Divide by $\\frac{\\pi}{180}$",
+     "correct": false,
+     "explanation": "Dividing by $\\frac{\\pi}{180}$ is equivalent to multiplying by $\\frac{180}{\\pi}$, which converts in the opposite direction. Use multiplication by $\\frac{\\pi}{180}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "d602af8b-e2c3-4302-a053-b2884b6567b1",
+   "card_type": "basic",
+   "front": "How do you convert an angle from radians to degrees?",
+   "back": "Multiply by $\\frac{180}{\\pi}$",
+   "options": [
+    {
+     "text": "Multiply by $\\frac{180}{\\pi}$",
+     "correct": true,
+     "explanation": "Since $\\pi$ radians equals $180^\\circ$, multiplying a radian measure by $\\frac{180}{\\pi}$ converts it into degrees."
+    },
+    {
+     "text": "Multiply by $\\frac{\\pi}{180}$",
+     "correct": false,
+     "explanation": "This is the degrees-to-radians factor, so it changes the angle in the wrong direction. Radians must be multiplied by $\\frac{180}{\\pi}$ to give degrees."
+    },
+    {
+     "text": "Multiply by $\\frac{360}{\\pi}$",
+     "correct": false,
+     "explanation": "The factor is twice as large as required, causing the resulting degree measure to be doubled. The correct conversion factor is $\\frac{180}{\\pi}$."
+    },
+    {
+     "text": "Divide by $\\frac{180}{\\pi}$",
+     "correct": false,
+     "explanation": "Dividing by $\\frac{180}{\\pi}$ is equivalent to multiplying by $\\frac{\\pi}{180}$, which converts degrees to radians instead. Use multiplication by $\\frac{180}{\\pi}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "721155fc-18ae-4ac9-a2e8-508bdcd7460f",
+   "card_type": "basic",
+   "front": "State the formula for arc length $s$ using radius $r$ and angle $\\theta$.",
+   "back": "$$s = r\\theta$",
+   "options": [
+    {
+     "text": "$$s = r\\theta$",
+     "correct": true,
+     "explanation": "For an angle measured in radians, arc length equals the fraction of the full circumference represented by the angle, giving the formula $s=r\\theta$."
+    },
+    {
+     "text": "$$s = 2r\\theta$",
+     "correct": false,
+     "explanation": "This introduces an unnecessary factor of two. The radian definition already gives the direct relationship $s=r\\theta$, without doubling the radius."
+    },
+    {
+     "text": "$$s = \\frac{r}{\\theta}$",
+     "correct": false,
+     "explanation": "Arc length increases with the angle, rather than decreasing as division would imply. The correct relationship is the product $s=r\\theta$."
+    },
+    {
+     "text": "$$s = r + \\theta$",
+     "correct": false,
+     "explanation": "Radius and angle combine multiplicatively in the arc-length formula, not additively. The correct expression is $s=r\\theta$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "3e4250ae-61b0-455c-9031-b3f86690f8f0",
+   "card_type": "cloze",
+   "front": "The formulae $s=r\\theta$ and $A=\\frac{1}{2}r^2\\theta$ are only valid when $\\theta$ is measured in [ ___ ].",
+   "back": "The formulae $s=r\\theta$ and $A=\\frac{1}{2}r^2\\theta$ are only valid when $\\theta$ is measured in radians.",
+   "options": [
+    {
+     "text": "radians",
+     "correct": true,
+     "explanation": "The formulae use the direct radian relationships between angle, arc length and sector area. They are valid only when $\\theta$ is measured in radians."
+    },
+    {
+     "text": "degrees",
+     "correct": false,
+     "explanation": "Degrees require an additional conversion factor because they do not directly represent arc length divided by radius. These formulae therefore require radians."
+    },
+    {
+     "text": "revolutions",
+     "correct": false,
+     "explanation": "Revolutions measure complete turns rather than the ratio of arc length to radius. The formulae work directly only when the angle is given in radians."
+    },
+    {
+     "text": "gradians",
+     "correct": false,
+     "explanation": "Gradians are another angular unit and do not provide the direct relationships used by these formulae. The angle must be measured in radians."
+    }
+   ]
+  },
+  {
+   "id": "9bcac91a-dbe6-4cac-817d-93ceebbe5319",
+   "card_type": "basic",
+   "front": "State the formula for the area of a sector $A$ using radius $r$ and angle $\\theta$.",
+   "back": "$$A = \\frac{1}{2}r^2\\theta$",
+   "options": [
+    {
+     "text": "$$A = \\frac{1}{2}r^2\\theta$",
+     "correct": true,
+     "explanation": "A sector’s area is the fraction of the circle represented by $\\theta$. With $\\theta$ in radians, this simplifies to $A=\\frac{1}{2}r^2\\theta$."
+    },
+    {
+     "text": "$$A = r\\theta$",
+     "correct": false,
+     "explanation": "This is the arc-length relationship with an extra area label, so it lacks the required factor of $r$ and the factor of one half. The sector-area formula is $\\frac{1}{2}r^2\\theta$."
+    },
+    {
+     "text": "$$A = r^2\\theta$",
+     "correct": false,
+     "explanation": "The radius must be squared because area has two dimensions, and a factor of one half is also required. The correct formula is $A=\\frac{1}{2}r^2\\theta$."
+    },
+    {
+     "text": "$$A = 2r^2\\theta$",
+     "correct": false,
+     "explanation": "This has the right squared radius but doubles the sector area by omitting the factor of one half. The required expression is $A=\\frac{1}{2}r^2\\theta$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "17a2df37-9a6b-44fb-9dcf-94ec974052e1",
+   "card_type": "basic",
+   "front": "What three components must be added to find the perimeter of a sector?",
+   "back": "RadiusRadiusArc length ($r\\theta$)",
+   "options": [
+    {
+     "text": "RadiusRadiusArc length ($r\\theta$)",
+     "correct": true,
+     "explanation": "A sector’s perimeter consists of its two straight radii plus the curved arc between them. The arc length is $r\\theta$ when the angle is measured in radians."
+    },
+    {
+     "text": "DiameterDiameterArc length ($r\\theta$)",
+     "correct": false,
+     "explanation": "Using diameters doubles each straight contribution, confusing the sector’s radii with the full distance across the circle. The perimeter uses two radii and one arc length, $r\\theta$."
+    },
+    {
+     "text": "RadiusChord lengthArc length ($r\\theta$)",
+     "correct": false,
+     "explanation": "The straight edges of a sector are both radii; a chord belongs to a segment and does not form the sector’s boundary. Therefore the correct components are two radii and $r\\theta$."
+    },
+    {
+     "text": "RadiusRadiusSector area ($\\frac{1}{2}r^2\\theta$)",
+     "correct": false,
+     "explanation": "Sector area measures a two-dimensional region and cannot be added to lengths. The curved boundary contributes arc length, calculated as $r\\theta$, alongside the two radii."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "7ee7ff2b-7656-4457-9a84-465edd538d62",
+   "card_type": "basic",
+   "front": "How is the area of a minor segment calculated conceptually?",
+   "back": "Sector area minus the area of the isosceles triangle formed by the radii and chord.",
+   "options": [
+    {
+     "text": "Sector area minus the area of the isosceles triangle formed by the radii and chord.",
+     "correct": true,
+     "explanation": "A minor segment is the part of the sector outside the triangle formed by the two radii and the chord. Subtracting the triangle’s area from the sector area gives the segment area."
+    },
+    {
+     "text": "Sector area plus the area of the isosceles triangle formed by the radii and chord.",
+     "correct": false,
+     "explanation": "The triangle lies inside the sector, so adding its area counts that region twice. The minor segment is obtained by subtracting the isosceles triangle’s area from the sector area."
+    },
+    {
+     "text": "Area of the isosceles triangle formed by the radii and chord minus sector area.",
+     "correct": false,
+     "explanation": "The triangle is smaller than the corresponding sector for a minor angle, so reversing the subtraction would produce a negative value. The correct calculation is sector area minus triangle area."
+    },
+    {
+     "text": "Sector area minus the area of the equilateral triangle formed by the radii and chord.",
+     "correct": false,
+     "explanation": "The triangle formed by two radii and a chord is generally isosceles, not necessarily equilateral. The segment calculation subtracts the area of that isosceles triangle from the sector area."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "59b46589-be3b-4885-b02d-49411f8db56e",
+   "card_type": "cloze",
+   "front": "The area of a minor segment is given by the formula $A = \\text{[...]}$.",
+   "back": "The area of a minor segment is given by the formula $A = \\boxed{\\frac{1}{2}r^2(\\theta - \\sin\\theta)}$.",
+   "options": [
+    {
+     "text": "$$\\frac{1}{2}r^2(\\theta - \\sin\\theta)$",
+     "correct": true,
+     "explanation": "The minor segment equals sector area, $\\frac{1}{2}r^2\\theta$, minus triangle area, $\\frac{1}{2}r^2\\sin\\theta$. Factoring gives $\\frac{1}{2}r^2(\\theta-\\sin\\theta)$."
+    },
+    {
+     "text": "$$\\frac{1}{2}r^2(\\theta + \\sin\\theta)$",
+     "correct": false,
+     "explanation": "The triangle area must be subtracted from the sector area, not added. Using a plus sign gives the combined area rather than the small region between the chord and arc."
+    },
+    {
+     "text": "$$r^2(\\theta - \\sin\\theta)$",
+     "correct": false,
+     "explanation": "This omits the factor of $\\frac{1}{2}$ present in both the sector and triangle area formulas. The correct expression is $\\frac{1}{2}r^2(\\theta-\\sin\\theta)$."
+    },
+    {
+     "text": "$$\\frac{1}{2}r(\\theta - \\sin\\theta)$",
+     "correct": false,
+     "explanation": "Area terms require a squared length, so the radius must appear as $r^2$. Using only $r$ gives the wrong dimensions; the correct formula contains $\\frac{1}{2}r^2$."
+    }
+   ]
+  },
+  {
+   "id": "7adc84b6-b5d9-4a53-8f6d-c9cd7d7bcffa",
+   "card_type": "basic",
+   "front": "How do you find the central angle $\\theta$ if given a chord of length $L$ and radius $r$?",
+   "back": "Bisect the chord to create a right-angled triangle and solve $\\sin(\\frac{\\theta}{2}) = \\frac{L/2}{r}$.",
+   "options": [
+    {
+     "text": "Bisect the chord to create a right-angled triangle and solve $\\sin(\\frac{\\theta}{2}) = \\frac{L/2}{r}$.",
+     "correct": true,
+     "explanation": "The perpendicular from the centre bisects the chord, producing a right-angled triangle with opposite side $L/2$ and hypotenuse $r$. Hence $\\sin(\\theta/2)=(L/2)/r$."
+    },
+    {
+     "text": "Bisect the chord to create a right-angled triangle and solve $\\cos(\\frac{\\theta}{2}) = \\frac{L/2}{r}$.",
+     "correct": false,
+     "explanation": "In the resulting triangle, $L/2$ is opposite the half-angle, not adjacent to it. Therefore it must be divided by the radius using sine, giving $\\sin(\\theta/2)=(L/2)/r$."
+    },
+    {
+     "text": "Bisect the chord to create a right-angled triangle and solve $\\tan(\\frac{\\theta}{2}) = \\frac{L/2}{r}$.",
+     "correct": false,
+     "explanation": "The radius is the hypotenuse, so the ratio involving $L/2$ and $r$ is sine rather than tangent. Tangent would require the perpendicular distance from the centre."
+    },
+    {
+     "text": "Use the full chord directly and solve $\\sin\\theta = \\frac{L}{r}$.",
+     "correct": false,
+     "explanation": "The symmetry creates two right-angled triangles, so both the chord and central angle must be halved. The correct relationship is $\\sin(\\theta/2)=(L/2)/r$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "a74491e5-7bc2-474c-9998-eab57bf1c4d8",
+   "card_type": "cloze",
+   "front": "For small angles in radians:$\\sin x \\approx \\text{[...]}$$\\tan x \\approx x$",
+   "back": "For small angles in radians:$\\sin x \\approx \\boxed{x}$$\\tan x \\approx x$",
+   "options": [
+    {
+     "text": "$$x$",
+     "correct": true,
+     "explanation": "For angles measured in radians and close to zero, the sine curve is well approximated by its first Taylor term, so $\\sin x\\approx x$. The tangent approximation is also $x$."
+    },
+    {
+     "text": "$$\\frac{x^2}{2}$",
+     "correct": false,
+     "explanation": "This is the magnitude of the second-order term associated with cosine, not the leading small-angle approximation for sine. Near zero, sine is approximately linear: $\\sin x\\approx x$."
+    },
+    {
+     "text": "$$1 - \\frac{x^2}{2}$",
+     "correct": false,
+     "explanation": "This is the small-angle approximation for cosine, whose value starts near $1$. Sine starts at zero with gradient $1$, so its leading approximation is $x$."
+    },
+    {
+     "text": "$$\\tan x$",
+     "correct": false,
+     "explanation": "Replacing sine with tangent does not provide the required simplified approximation and leaves the expression unchanged. For small radian angles, the specific approximation is $\\sin x\\approx x$."
+    }
+   ]
+  },
+  {
+   "id": "b49e7afc-5956-4870-a5bc-42d2ca85ed17",
+   "card_type": "cloze",
+   "front": "For small angles in radians:$\\sin x \\approx x$$\\tan x \\approx \\text{[...]}$",
+   "back": "For small angles in radians:$\\sin x \\approx x$$\\tan x \\approx \\boxed{x}$",
+   "options": [
+    {
+     "text": "$$x$",
+     "correct": true,
+     "explanation": "When $x$ is small and measured in radians, the tangent curve is approximately its tangent line at the origin. Therefore $\\tan x\\approx x$, just like the corresponding sine approximation."
+    },
+    {
+     "text": "$$\\frac{x^2}{2}$",
+     "correct": false,
+     "explanation": "A quadratic term does not match the leading behaviour of tangent near zero, which has gradient $1$. The correct first-order approximation is $\\tan x\\approx x$."
+    },
+    {
+     "text": "$$1 - \\frac{x^2}{2}$",
+     "correct": false,
+     "explanation": "This approximates cosine, not tangent, and has value near $1$ when $x$ is zero. Tangent is zero at the origin, so its small-angle approximation is $x$."
+    },
+    {
+     "text": "$$\\sin x$",
+     "correct": false,
+     "explanation": "Although sine and tangent are close for small angles, the required approximation replaces tangent directly with the simpler quantity $x$. Writing $\\sin x$ does not complete the approximation."
+    }
+   ]
+  },
+  {
+   "id": "1c551bb8-9679-4bc5-9d15-f5350e979ae0",
+   "card_type": "basic",
+   "front": "What is the small angle approximation for $\\cos x$?",
+   "back": "$$1 - \\frac{x^2}{2}$",
+   "options": [
+    {
+     "text": "$$1 - \\frac{x^2}{2}$",
+     "correct": true,
+     "explanation": "The Taylor expansion of cosine about $x=0$ begins $1-\\frac{x^2}{2}+\\cdots$. For small radian angles, later powers are negligible, leaving this approximation."
+    },
+    {
+     "text": "$$1 + \\frac{x^2}{2}$",
+     "correct": false,
+     "explanation": "The quadratic term in cosine has a negative sign, reflecting that cosine decreases from $1$ near zero. The correct approximation is $1-\\frac{x^2}{2}$."
+    },
+    {
+     "text": "$$x - \\frac{x^3}{6}$",
+     "correct": false,
+     "explanation": "This is the beginning of the Taylor expansion for sine, an odd function that starts at zero. Cosine is even and begins with $1-\\frac{x^2}{2}$."
+    },
+    {
+     "text": "$$\\frac{x^2}{2}$",
+     "correct": false,
+     "explanation": "This keeps only the magnitude of cosine’s second-order correction and omits the constant term $1$. Near zero, cosine is close to $1$, so the approximation is $1-\\frac{x^2}{2}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "951f4658-5828-494c-a102-a4e511dc0733",
+   "card_type": "basic",
+   "front": "Why are small angle approximations useful in algebraic derivations?",
+   "back": "They allow complex trigonometric expressions to be simplified into polynomial or linear approximations.",
+   "options": [
+    {
+     "text": "They allow complex trigonometric expressions to be simplified into polynomial or linear approximations.",
+     "correct": true,
+     "explanation": "Replacing trigonometric functions with their small-angle expansions turns expressions into algebraic forms such as polynomials or linear terms, making manipulation and derivation much easier."
+    },
+    {
+     "text": "They allow complex trigonometric expressions to be simplified into exact or constant values.",
+     "correct": false,
+     "explanation": "Small-angle approximations usually produce close estimates, not exact values or constants. Their benefit is converting trigonometric expressions into manageable polynomial or linear algebra."
+    },
+    {
+     "text": "They allow complex trigonometric expressions to be simplified into exponential or logarithmic approximations.",
+     "correct": false,
+     "explanation": "Small-angle formulas replace sine, cosine and tangent with algebraic power expressions, rather than introducing exponentials or logarithms. This creates polynomial or linear approximations."
+    },
+    {
+     "text": "They allow complex trigonometric expressions to be simplified into quadratic or cubic equations.",
+     "correct": false,
+     "explanation": "The resulting approximation may be linear or polynomial, but it does not necessarily form an equation, nor must it be specifically quadratic or cubic. The key is algebraic simplification."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "fb9df7b8-c527-408d-873c-2a3f4f4d8721",
+   "card_type": "basic",
+   "front": "State the formula for percentage error between an approximation and a true value.",
+   "back": "$$\\frac{|\\text{approximation} - \\text{true value}|}{|\\text{true value}|} \\times 100$",
+   "options": [
+    {
+     "text": "$$\\frac{|\\text{approximation} - \\text{true value}|}{|\\text{true value}|} \\times 100$",
+     "correct": true,
+     "explanation": "Percentage error compares the absolute difference between the approximation and true value with the magnitude of the true value, then multiplies by 100 to express the result as a percentage."
+    },
+    {
+     "text": "$$\\frac{|\\text{approximation} - \\text{true value}|}{|\\text{approximation}|} \\times 100$",
+     "correct": false,
+     "explanation": "Using the approximation in the denominator makes the result dependent on the estimated value rather than the reference value. Percentage error is measured relative to the true value."
+    },
+    {
+     "text": "$$\\frac{|\\text{approximation} + \\text{true value}|}{|\\text{true value}|} \\times 100$",
+     "correct": false,
+     "explanation": "Adding the two values does not measure their discrepancy and can produce a large result even when they are close. The numerator must be their absolute difference."
+    },
+    {
+     "text": "$$\\frac{|\\text{approximation} - \\text{true value}|}{|\\text{true value}|}$",
+     "correct": false,
+     "explanation": "This gives the relative error as a decimal, not the percentage error. Multiplication by 100 is required to convert the ratio into a percentage."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "3b75f9fd-538a-48c3-84be-aec727ef2af7",
+   "card_type": "basic",
+   "front": "When applying small angle approximations to $\\cos(2\\theta)$, what is the result?",
+   "back": "$$1 - \\frac{(2\\theta)^2}{2} = 1 - 2\\theta^2$",
+   "options": [
+    {
+     "text": "$$1 - \\frac{(2\\theta)^2}{2} = 1 - 2\\theta^2$",
+     "correct": true,
+     "explanation": "For small angles, $\\cos u \\approx 1 - \\frac{u^2}{2}$. Substituting $u=2\\theta$ gives $1 - \\frac{4\\theta^2}{2}$, which simplifies to the stated result."
+    },
+    {
+     "text": "$$1 - \\frac{(2\\theta)^2}{2} = 1 - \\theta^2$",
+     "correct": false,
+     "explanation": "The square of $2\\theta$ is $4\\theta^2$, so dividing by 2 leaves $2\\theta^2$, not $\\theta^2$. This loses a factor of 2 during simplification."
+    },
+    {
+     "text": "$$1 - \\frac{(2\\theta)^2}{2} = 1 - 2\\theta$",
+     "correct": false,
+     "explanation": "The small-angle cosine expansion contains a squared angle, not a linear term. Replacing the squared term with $2\\theta$ confuses the cosine approximation with a first-order approximation."
+    },
+    {
+     "text": "$$1 - \\frac{(2\\theta)^2}{2} = 1 - 4\\theta^2$",
+     "correct": false,
+     "explanation": "Squaring $2\\theta$ produces $4\\theta^2$, but the expansion divides this by 2. Omitting that division gives a coefficient twice as large as the correct one."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "3209fd6f-0b18-42ab-953b-f10929870da1",
+   "card_type": "basic",
+   "front": "What does it mean for a trig graph if its small angle approximation simplifies to $y = mx + c$?",
+   "back": "Near the origin ($x=0$), the graph behaves approximately like a straight line.",
+   "options": [
+    {
+     "text": "Near the origin ($x=0$), the graph behaves approximately like a straight line.",
+     "correct": true,
+     "explanation": "A linear approximation has the form $y=mx+c$, so sufficiently close to $x=0$ the trig curve is well approximated by a straight line, even though it may curve further away."
+    },
+    {
+     "text": "Near the origin ($x=0$), the graph behaves approximately like a parabola.",
+     "correct": false,
+     "explanation": "A quadratic approximation has an $x^2$ term and therefore represents a parabola-like curve. A form of $y=mx+c$ instead describes local linear behaviour."
+    },
+    {
+     "text": "Near the origin ($x=0$), the graph behaves approximately like a horizontal line.",
+     "correct": false,
+     "explanation": "A horizontal line would require the coefficient of $x$ to be zero. Since the expression includes the linear term $mx$, the local graph is generally not horizontal."
+    },
+    {
+     "text": "Near the origin ($x=0$), the graph behaves approximately like an exponential curve.",
+     "correct": false,
+     "explanation": "An exponential curve is described by a variable in an exponent, not by the linear expression $mx+c$. The stated approximation indicates local straight-line behaviour."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "d06161b4-afa2-4150-a6cc-5c78379c6536",
+   "card_type": "cloze",
+   "front": "The angle $\\pi$ radians is equal to $\\text{[...]}$.",
+   "back": "The angle $\\pi$ radians is equal to $\\boxed{180^\\circ}$.",
+   "options": [
+    {
+     "text": "$$180^\\circ$",
+     "correct": true,
+     "explanation": "A full turn is $2\\pi$ radians, so half a turn is $\\pi$ radians. Half a turn measures 180 degrees."
+    },
+    {
+     "text": "$$90^\\circ$",
+     "correct": false,
+     "explanation": "A right angle is one quarter of a full turn, corresponding to $\\frac{\\pi}{2}$ radians. The angle $\\pi$ radians is twice this size."
+    },
+    {
+     "text": "$$360^\\circ$",
+     "correct": false,
+     "explanation": "A complete revolution measures $2\\pi$ radians, equivalent to 360 degrees. The angle $\\pi$ radians represents only half of a revolution."
+    },
+    {
+     "text": "$$2\\pi^\\circ$",
+     "correct": false,
+     "explanation": "The radian-to-degree conversion factor is $\\frac{180^\\circ}{\\pi}$, so $\\pi$ radians gives 180 degrees, not a numerical multiple of $\\pi$ degrees."
+    }
+   ]
+  },
+  {
+   "id": "8bc6f625-f398-4b1a-81ed-2a4efc3c85ce",
+   "card_type": "basic",
+   "front": "Approximate the product $\\tan(3x)\\cos(x)$ for small $x$.",
+   "back": "$$3x(1 - \\frac{x^2}{2}) = 3x - \\frac{3x^3}{2}$",
+   "options": [
+    {
+     "text": "$$3x(1 - \\frac{x^2}{2}) = 3x - \\frac{3x^3}{2}$",
+     "correct": true,
+     "explanation": "For small $x$, $\\tan(3x)\\approx 3x$ and $\\cos x\\approx 1-\\frac{x^2}{2}$. Multiplying and retaining the resulting terms gives the stated approximation."
+    },
+    {
+     "text": "$$3x(1 - \\frac{x^2}{2}) = 3x - 3x^3$",
+     "correct": false,
+     "explanation": "The cosine approximation contributes a factor of $\\frac{1}{2}$ to the cubic term. Omitting it makes the cubic correction twice as large as it should be."
+    },
+    {
+     "text": "$$3x(1 - \\frac{x^2}{2}) = 3x - \\frac{3x^2}{2}$",
+     "correct": false,
+     "explanation": "The correction from cosine involves $x^2$, and multiplying by $3x$ therefore produces an $x^3$ term. Using $x^2$ loses one factor of $x$."
+    },
+    {
+     "text": "$$3x(1 - \\frac{x^2}{2}) = 3x + \\frac{3x^3}{2}$",
+     "correct": false,
+     "explanation": "The cosine expansion has a negative quadratic correction, so multiplying by the positive leading approximation produces a negative cubic term, not a positive one."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "f3269077-2af5-46c0-999c-2ee649974f4a",
+   "card_type": "cloze",
+   "front": "In the radian definition $\\theta = \\frac{s}{r}$, $s$ represents [ ___ ] and $r$ represents radius.",
+   "back": "In the radian definition $\\theta = \\frac{s}{r}$, $s$ represents arc length and $r$ represents radius.",
+   "options": [
+    {
+     "text": "arc length",
+     "correct": true,
+     "explanation": "In the radian definition, the angle is the arc length subtended by the angle divided by the circle’s radius. Thus $s$ denotes the length of the relevant curved arc."
+    },
+    {
+     "text": "circumference",
+     "correct": false,
+     "explanation": "The circumference is the length around the entire circle, whereas $s$ refers only to the portion of the circumference intercepted by the angle. That portion is the arc length."
+    },
+    {
+     "text": "angle",
+     "correct": false,
+     "explanation": "The angle is represented by $\\theta$ in the definition. The symbol $s$ represents a length along the circle, specifically the arc length."
+    },
+    {
+     "text": "diameter",
+     "correct": false,
+     "explanation": "The radius is represented by $r$, while the diameter is twice the radius. The quantity $s$ is instead the length of the arc subtended by the angle."
+    }
+   ]
+  },
+  {
+   "id": "144794c6-b316-4a6e-b40c-551dda12a1f2",
+   "card_type": "cloze",
+   "front": "In the radian definition $\\theta = \\frac{s}{r}$, $s$ represents arc length and $r$ represents [ ___ ].",
+   "back": "In the radian definition $\\theta = \\frac{s}{r}$, $s$ represents arc length and $r$ represents radius.",
+   "options": [
+    {
+     "text": "radius",
+     "correct": true,
+     "explanation": "In $\\theta=\\frac{s}{r}$, $r$ is the distance from the centre of the circle to its circumference. This is the radius used to define the radian measure."
+    },
+    {
+     "text": "diameter",
+     "correct": false,
+     "explanation": "The diameter passes through the centre and equals twice the radius. The radian definition uses the radius itself as the denominator, not the full diameter."
+    },
+    {
+     "text": "arc length",
+     "correct": false,
+     "explanation": "The arc length is represented by $s$ in the definition. The denominator $r$ must be a distance from the centre to the circumference."
+    },
+    {
+     "text": "angle",
+     "correct": false,
+     "explanation": "The angle is represented by $\\theta$, not $r$. The symbol $r$ denotes the circle’s centre-to-edge distance used in the radian relationship."
+    }
+   ]
+  }
+ ],
+ "card_count": 23,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/a-level-pure-mathematics-5-radians/flashcards",
+ "source_sha256": "d5dad5902039feb465177344692a78d829fcee2ed0a99f4a7f114b4029df044f",
+ "extracted_at": "2026-11-08T19:00:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-3 run-001)",
+ "task_id": "T-MG-FC-3"
+}

@@ -1,0 +1,151 @@
+{
+ "topic": "as-pure-mathematics-8-the-binomial-expansion",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "title": "The Binomial Expansion Flashcards",
+ "cards": [
+  {
+   "id": "9173f00b-aae0-0142-0b7b-9f2e71c85ec6",
+   "card_type": "basic",
+   "front": "In binomial expansion, what order do terms follow when written in ascending powers of $x$?",
+   "back": "Constant term ($x^0$), followed by $x^1$, $x^2$, $x^3$, etc.",
+   "points": 1
+  },
+  {
+   "id": "09735d3e-ad12-38e5-6cde-e4d1e335d969",
+   "card_type": "cloze",
+   "front": "A [ ___ ] is an expression containing two terms, such as $a+b$ or $2-5x$.",
+   "back": "A binomial is an expression containing two terms, such as $a+b$ or $2-5x$."
+  },
+  {
+   "id": "6cd1c5a4-b26f-116c-7507-543d698c9ad7",
+   "card_type": "basic",
+   "front": "In the expansion of $(a+b)^n$, what happens to the powers of $a$ and $b$ as you move through the terms?",
+   "back": "Powers of $a$ decrease from $n$ to 0Powers of $b$ increase from 0 to $n$",
+   "points": 2
+  },
+  {
+   "id": "43504c8b-844e-5a8e-95aa-e556d035ea1c",
+   "card_type": "basic",
+   "front": "What does Pascal's triangle provide in a binomial expansion?",
+   "back": "The coefficients for each term of the expansion.",
+   "points": 1
+  },
+  {
+   "id": "913a1f1d-5378-811a-c79e-12be8023ba07",
+   "card_type": "cloze",
+   "front": "The notation $\\binom{n}{r}$ represents a binomial coefficient and is read as [ ___ ].",
+   "back": "The notation $\\binom{n}{r}$ represents a binomial coefficient and is read as n choose r."
+  },
+  {
+   "id": "27114113-4894-965c-e5ed-3f714d9c010f",
+   "card_type": "basic",
+   "front": "Which values of $r$ are needed to find the first three terms in ascending powers of $x$?",
+   "back": "$$r=0$, $r=1$, and $r=2$.",
+   "points": 1
+  },
+  {
+   "id": "b45e6ea3-8744-fb71-b275-89fd8312ed23",
+   "card_type": "basic",
+   "front": "Why must you include the constant part (e.g., $2^{n-r}$) when calculating the coefficient of an $x$ term?",
+   "back": "The term is the product of the binomial coefficient, the power of the constant, and the power of the $x$ part.",
+   "points": 2
+  },
+  {
+   "id": "a4e9c3fb-6285-0bae-35ae-66a5ee89ac2c",
+   "card_type": "basic",
+   "front": "Why do the signs of terms alternate in the expansion of $(2-5x)^7$?",
+   "back": "Odd powers of the negative term ($-5x$) result in negative terms, while even powers result in positive terms.",
+   "points": 2
+  },
+  {
+   "id": "f3bb0909-56d6-e945-8bd6-c2bf440dff51",
+   "card_type": "basic",
+   "front": "When using $(1+4x)^8$ to approximate $1.04^8$, what is the first step to find the value of $x$?",
+   "back": "Solve $1+4x=1.04$ (giving $x=0.01$).",
+   "points": 1
+  },
+  {
+   "id": "ba64ec1f-5171-b118-a59f-8101f04e8b8d",
+   "card_type": "basic",
+   "front": "In the expansion $(ax+b)(C + Dx + \\dots)$, which calculation determines the constant term?",
+   "back": "The product of the two constants: $b \\cdot C$.",
+   "points": 1
+  },
+  {
+   "id": "818998b6-0ee4-1997-d5e9-7670d74ddcdd",
+   "card_type": "basic",
+   "front": "In the expansion $(ax+b)(C + Dx + \\dots)$, which two products are summed to find the coefficient of $x$?",
+   "back": "$ax \\cdot C$$b \\cdot Dx$",
+   "points": 2
+  },
+  {
+   "id": "bab1188e-bd97-a427-62cc-b5cc7d802782",
+   "card_type": "basic",
+   "front": "What does comparing coefficients mean in an exam context?",
+   "back": "Equating the coefficient of a specific power of $x$ (like $x^3$) from the expansion to a given value or another coefficient.",
+   "points": 1
+  },
+  {
+   "id": "5bad7188-5130-c6ed-94b5-57e94e42b5f6",
+   "card_type": "basic",
+   "front": "How are binomial expansions used in probability for repeated independent events?",
+   "back": "The coefficients count the number of arrangements for a specific number of successes and failures.",
+   "points": 2
+  },
+  {
+   "id": "88f3a723-5edc-4ec3-b850-15ba1ab502dc",
+   "card_type": "basic",
+   "front": "If $p$ is the probability of success and $q$ of failure, which terms from $(p+q)^5$ calculate the probability of no more than once?",
+   "back": "The terms for 0 successes ($q^5$) and 1 success ($5pq^4$).",
+   "points": 2
+  },
+  {
+   "id": "deaaf121-ec2c-5c48-950d-2de720d03d62",
+   "card_type": "basic",
+   "front": "Why do odd powers of $x$ disappear when adding $(3+x)^4$ and $(3-x)^4$?",
+   "back": "The terms with odd powers in $(3-x)^4$ are negative and have the same magnitude as the positive odd-power terms in $(3+x)^4$.",
+   "points": 2
+  },
+  {
+   "id": "d5fcba67-771a-8c30-1791-664580f263d4",
+   "card_type": "basic",
+   "front": "How does the expansion $162 + 108x^2 + 2x^4$ prove that $(3+x)^4 + (3-x)^4 \\ge 162$?",
+   "back": "Because $x^2$ and $x^4$ are always non-negative, the sum is 162 plus a value $\\ge 0$.",
+   "points": 2
+  },
+  {
+   "id": "eaeacd7e-9839-0b0a-ea80-acd492211b5f",
+   "card_type": "cloze",
+   "front": "The finite binomial theorem for a positive integer $n$ is: $(a+b)^n = \\text{[...]}.",
+   "back": "The finite binomial theorem for a positive integer $n$ is: $(a+b)^n = \\boxed{\\sum_{r=0}^{n}\\binom{n}{r}a^{n-r}b^r}."
+  },
+  {
+   "id": "61ddc04b-8ae5-167d-d127-c3a85aafda70",
+   "card_type": "basic",
+   "front": "In the expansion of $(1+kx)^{10}$, which value of $r$ identifies the term containing $x^3$?",
+   "back": "$$r=3$.",
+   "points": 1
+  },
+  {
+   "id": "f012189e-b602-0a93-037d-48015823b3b7",
+   "card_type": "cloze",
+   "front": "The [ ___ ] of a term is the numerical multiplier of the variable part (e.g., in $12x^2$, it is 12).",
+   "back": "The coefficient of a term is the numerical multiplier of the variable part (e.g., in $12x^2$, it is 12)."
+  },
+  {
+   "id": "b5c103bb-8d4d-5eb1-0149-129f3c209e6a",
+   "card_type": "basic",
+   "front": "Identify $a$, $b$, and $n$ to expand $(2-5x)^7$ using the binomial theorem.",
+   "back": "$a = 2$$b = -5x$$n = 7$",
+   "points": 1
+  }
+ ],
+ "card_count": 20,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/as-pure-mathematics-8-the-binomial-expansion/flashcards",
+ "source_sha256": "f97c01a89ca0010fc9183f48106e81e410af61a9b3e6ee1b161a33a1f37842bf",
+ "extracted_at": "2026-11-08T19:00:05Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-3 run-001)",
+ "task_id": "T-MG-FC-3"
+}

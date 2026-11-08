@@ -1,0 +1,646 @@
+{
+ "topic": "a-level-pure-mathematics-7-trigonometry-and-modelling",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "title": "Trigonometry and Modelling Flashcards",
+ "cards": [
+  {
+   "id": "b5e338ab-2bcd-437c-b55b-225267adeccf",
+   "card_type": "basic",
+   "front": "What are the periods of the three main trigonometric functions?",
+   "back": "$\\sin x$ and $\\cos x$: $360^\\circ$ (or $2\\pi$)$\\tan x$: $180^\\circ$ (or $\\pi$)",
+   "options": [
+    {
+     "text": "$\\sin x$ and $\\cos x$: $360^\\circ$ (or $2\\pi$)$\\tan x$: $180^\\circ$ (or $\\pi$)",
+     "correct": true,
+     "explanation": "The sine and cosine graphs repeat every $360^\\circ$ (or $2\\pi$ radians), while the tangent graph repeats every $180^\\circ$ (or $\\pi$ radians)."
+    },
+    {
+     "text": "$\\sin x$ and $\\cos x$: $180^\\circ$ (or $\\pi$)$\\tan x$: $360^\\circ$ (or $2\\pi$)",
+     "correct": false,
+     "explanation": "The periods have been swapped between the function groups. Tangent repeats every $180^\\circ$, whereas sine and cosine repeat every $360^\\circ$."
+    },
+    {
+     "text": "$\\sin x$ and $\\cos x$: $360^\\circ$ (or $2\\pi$)$\\tan x$: $360^\\circ$ (or $2\\pi$)",
+     "correct": false,
+     "explanation": "All three functions do not have the same period: tangent repeats twice as often as sine and cosine. The correct periods are $360^\\circ$ for sine and cosine and $180^\\circ$ for tangent."
+    },
+    {
+     "text": "$\\sin x$ and $\\cos x$: $180^\\circ$ (or $2\\pi$)$\\tan x$: $360^\\circ$ (or $\\pi$)",
+     "correct": false,
+     "explanation": "This reverses the usual radian conversions. A full turn is $2\\pi$ radians, so sine and cosine have period $360^\\circ$ (or $2\\pi$), while tangent has period $180^\\circ$ (or $\\pi$)."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "172ac2d9-4868-424d-a84c-ee0262c8db5f",
+   "card_type": "basic",
+   "front": "State the compound-angle formula for $\\sin(A+B)$.",
+   "back": "$$\\sin A\\cos B + \\cos A\\sin B$",
+   "options": [
+    {
+     "text": "$$\\sin A\\cos B + \\cos A\\sin B$",
+     "correct": true,
+     "explanation": "The sine addition identity combines the two cross-products with a positive sign: $\\sin(A+B)=\\sin A\\cos B+\\cos A\\sin B$."
+    },
+    {
+     "text": "$$\\sin A\\cos B - \\cos A\\sin B$",
+     "correct": false,
+     "explanation": "The subtraction sign changes the identity to $\\sin(A-B)$. For a sum of angles, both cross-products are added, giving $\\sin A\\cos B + \\cos A\\sin B$."
+    },
+    {
+     "text": "$$\\cos A\\cos B + \\sin A\\sin B$",
+     "correct": false,
+     "explanation": "Using matching trigonometric functions gives the cosine difference identity, $\\cos(A-B)$. The sine addition formula uses cross-products: $\\sin A\\cos B + \\cos A\\sin B$."
+    },
+    {
+     "text": "$$\\cos A\\cos B - \\sin A\\sin B$",
+     "correct": false,
+     "explanation": "This is the compound-angle identity for $\\cos(A+B)$, not $\\sin(A+B)$. The sine formula uses cross-products joined by addition: $\\sin A\\cos B + \\cos A\\sin B$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "f44088c3-6c60-45ab-82ae-d8582360e0c5",
+   "card_type": "basic",
+   "front": "State the compound-angle formula for $\\cos(A+B)$.",
+   "back": "$$\\cos A\\cos B - \\sin A\\sin B$",
+   "options": [
+    {
+     "text": "$$\\cos A\\cos B - \\sin A\\sin B$",
+     "correct": true,
+     "explanation": "The cosine addition identity uses the products of matching trigonometric functions, with subtraction between them: $\\cos(A+B)=\\cos A\\cos B-\\sin A\\sin B$."
+    },
+    {
+     "text": "$$\\cos A\\cos B + \\sin A\\sin B$",
+     "correct": false,
+     "explanation": "The positive sign makes this the identity for $\\cos(A-B)$. For $\\cos(A+B)$, the second product is subtracted: $\\cos A\\cos B - \\sin A\\sin B$."
+    },
+    {
+     "text": "$$\\sin A\\cos B + \\cos A\\sin B$",
+     "correct": false,
+     "explanation": "This is the sine addition identity, $\\sin(A+B)$, because it contains cross-products. The cosine addition identity is $\\cos A\\cos B - \\sin A\\sin B$."
+    },
+    {
+     "text": "$$\\cos A\\sin B - \\sin A\\cos B$",
+     "correct": false,
+     "explanation": "This cross-product expression equals $\\sin(B-A)$, so it comes from a sine difference identity. Cosine addition requires matching products: $\\cos A\\cos B - \\sin A\\sin B$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "e8e48d85-cc5d-464f-86a7-f1a7818d1d91",
+   "card_type": "basic",
+   "front": "State the compound-angle formula for $\\tan(A+B)$.",
+   "back": "$$\\frac{\\tan A + \\tan B}{1 - \\tan A\\tan B}$",
+   "options": [
+    {
+     "text": "$$\\frac{\\tan A + \\tan B}{1 - \\tan A\\tan B}$",
+     "correct": true,
+     "explanation": "Dividing the sine addition formula by the cosine addition formula gives $\\tan(A+B)=\\frac{\\tan A+\\tan B}{1-\\tan A\\tan B}$."
+    },
+    {
+     "text": "$$\\frac{\\tan A + \\tan B}{1 + \\tan A\\tan B}$",
+     "correct": false,
+     "explanation": "The plus sign in the denominator belongs to the tangent subtraction formula. For tangent addition, the denominator contains $1-\\tan A\\tan B$."
+    },
+    {
+     "text": "$$\\frac{\\tan A - \\tan B}{1 - \\tan A\\tan B}$",
+     "correct": false,
+     "explanation": "The numerator for tangent addition is the sum of the two tangents. A difference corresponds to subtracting angles, not adding them."
+    },
+    {
+     "text": "$$\\frac{\\tan A - \\tan B}{1 + \\tan A\\tan B}$",
+     "correct": false,
+     "explanation": "Both signs have been changed from the addition formula. Tangent addition requires a sum in the numerator and a difference in the denominator."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "cf248a85-1b2a-4969-9d90-0d5789ea5c2d",
+   "card_type": "cloze",
+   "front": "The double-angle identity for sine is $\\sin 2A \\equiv \\text{[...]}$.",
+   "back": "The double-angle identity for sine is $\\sin 2A \\equiv \\boxed{2\\sin A\\cos A}$.",
+   "options": [
+    {
+     "text": "$$2\\sin A\\cos A$",
+     "correct": true,
+     "explanation": "The identity follows from the sine compound-angle formula: $\\sin(A+A)=\\sin A\\cos A+\\cos A\\sin A=2\\sin A\\cos A$."
+    },
+    {
+     "text": "$$\\cos^2 A - \\sin^2 A$",
+     "correct": false,
+     "explanation": "This expression is the double-angle identity for cosine, not sine. Sine uses the product $2\\sin A\\cos A$, whereas cosine involves squared sine and cosine terms."
+    },
+    {
+     "text": "$$\\sin A\\cos A$",
+     "correct": false,
+     "explanation": "The factor of $2$ has been omitted. The two equal cross-products from expanding $\\sin(A+A)$ combine to give $2\\sin A\\cos A$."
+    },
+    {
+     "text": "$$\\frac{2\\sin A}{\\cos A}$",
+     "correct": false,
+     "explanation": "This uses a tangent-style quotient and cannot represent the sine double angle. The correct identity is a product, $2\\sin A\\cos A$."
+    }
+   ]
+  },
+  {
+   "id": "3fb3b0e9-31ba-4d7f-a680-86993b91133f",
+   "card_type": "basic",
+   "front": "List the three identities for $\\cos 2A$.",
+   "back": "$\\cos^2 A - \\sin^2 A$$2\\cos^2 A - 1$$1 - 2\\sin^2 A$",
+   "options": [
+    {
+     "text": "$\\cos^2 A - \\sin^2 A$$2\\cos^2 A - 1$$1 - 2\\sin^2 A$",
+     "correct": true,
+     "explanation": "The three equivalent forms come from applying $\\sin^2 A+\\cos^2 A=1$ to $\\cos^2 A-\\sin^2 A$, eliminating either the sine or cosine squared term."
+    },
+    {
+     "text": "$\\cos^2 A - \\sin^2 A$$2\\cos^2 A - 1$$1 + 2\\sin^2 A$",
+     "correct": false,
+     "explanation": "The final form has the wrong sign pattern. Substituting $\\cos^2 A=1-\\sin^2 A$ gives $1-2\\sin^2 A$, not $1+2\\sin^2 A$."
+    },
+    {
+     "text": "$\\cos^2 A - \\sin^2 A$$2\\sin^2 A - 1$$1 - 2\\sin^2 A$",
+     "correct": false,
+     "explanation": "The second form incorrectly uses $2\\sin^2 A-1$, which is the negative of the required rearrangement. The equivalent cosine form is $2\\cos^2 A-1$."
+    },
+    {
+     "text": "$\\cos^2 A + \\sin^2 A$$2\\cos^2 A - 1$$1 - 2\\sin^2 A$",
+     "correct": false,
+     "explanation": "The first expression has been changed to a sum, but $\\cos 2A$ is a difference of squares. The Pythagorean identity then produces the two stated alternatives."
+    }
+   ],
+   "points": 3
+  },
+  {
+   "id": "3087cd50-4e63-4bd2-bc96-ea02628d4c5b",
+   "card_type": "cloze",
+   "front": "The double-angle identity for tangent is $\\tan 2A \\equiv \\text{[...]}$.",
+   "back": "The double-angle identity for tangent is $\\tan 2A \\equiv \\boxed{\\frac{2\\tan A}{1 - \\tan^2 A}}$.",
+   "options": [
+    {
+     "text": "$$\\frac{2\\tan A}{1 - \\tan^2 A}$",
+     "correct": true,
+     "explanation": "Substituting $2A$ into the tangent addition formula gives $\\tan 2A=\\frac{\\tan A+\\tan A}{1-\\tan^2 A}=\\frac{2\\tan A}{1-\\tan^2 A}$."
+    },
+    {
+     "text": "$$\\frac{2\\tan A}{1 + \\tan^2 A}$",
+     "correct": false,
+     "explanation": "The denominator sign is reversed. A plus sign occurs in the denominator for the tangent subtraction identity, whereas doubling an angle gives $1-\\tan^2 A$."
+    },
+    {
+     "text": "$$\\frac{\\tan A}{1 - \\tan^2 A}$",
+     "correct": false,
+     "explanation": "The numerator must contain twice $\\tan A$, because the two equal tangent terms are added. Omitting the factor of $2$ loses one of those terms."
+    },
+    {
+     "text": "$$\\frac{2\\tan A}{1 - A^2}$",
+     "correct": false,
+     "explanation": "The denominator should contain the square of $\\tan A$, not the square of $A$. The double-angle formula is formed from $\\tan A\\tan A=\\tan^2 A$."
+    }
+   ]
+  },
+  {
+   "id": "fc3a00ba-7087-4aa2-8a62-a25179980e30",
+   "card_type": "basic",
+   "front": "State the triple-angle identity for $\\sin 3\\theta$.",
+   "back": "$$3\\sin\\theta - 4\\sin^3\\theta$",
+   "options": [
+    {
+     "text": "$$3\\sin\\theta - 4\\sin^3\\theta$",
+     "correct": true,
+     "explanation": "The triple-angle identity follows by expanding $\\sin(2\\theta+\\theta)$ and simplifying with $\\sin^2\\theta+\\cos^2\\theta=1$, giving $3\\sin\\theta-4\\sin^3\\theta$."
+    },
+    {
+     "text": "$$3\\sin\\theta - 4\\sin^2\\theta$",
+     "correct": false,
+     "explanation": "The coefficient and cubic term are incorrect. Expanding the compound angle produces three copies of $\\sin\\theta$ and a subtraction of four times $\\sin^3\\theta$."
+    },
+    {
+     "text": "$$3\\sin\\theta + 4\\sin^3\\theta$",
+     "correct": false,
+     "explanation": "The sign of the cubic term is wrong. The simplified triple-angle identity has $-4\\sin^3\\theta$, not a positive cubic term."
+    },
+    {
+     "text": "$$4\\sin\\theta - 3\\sin^3\\theta$",
+     "correct": false,
+     "explanation": "This confuses the sine triple-angle identity with a related cosine form. The sine expression uses a linear sine term and a cubic sine term with coefficients $3$ and $-4$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "cf76a153-51c0-4789-ad78-a2c5de52d1e9",
+   "card_type": "basic",
+   "front": "State the triple-angle identity for $\\cos 3\\theta$.",
+   "back": "$$4\\cos^3\\theta - 3\\cos\\theta$",
+   "options": [
+    {
+     "text": "$$4\\cos^3\\theta - 3\\cos\\theta$",
+     "correct": true,
+     "explanation": "The triple-angle identity follows from expanding $\\cos(2\\theta+\\theta)$ and simplifying with $\\sin^2\\theta=1-\\cos^2\\theta$."
+    },
+    {
+     "text": "$$3\\cos\\theta - 4\\cos^3\\theta$",
+     "correct": false,
+     "explanation": "Reversing the terms gives the negative of the required expression, corresponding to $-\\cos 3\\theta$ rather than $\\cos 3\\theta$."
+    },
+    {
+     "text": "$$3\\cos^3\\theta - 4\\cos\\theta$",
+     "correct": false,
+     "explanation": "The coefficient of the cubic term is 4, while the linear term has coefficient 3; confusing these coefficients produces an incorrect identity."
+    },
+    {
+     "text": "$$4\\cos^3\\theta + 3\\cos\\theta$",
+     "correct": false,
+     "explanation": "This expression uses the wrong sign on the linear term. The correct triple-angle identity has a positive cubic term and a negative linear term."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "7b223b4d-9000-4c59-9569-947e9554309b",
+   "card_type": "basic",
+   "front": "When solving an equation like $\\sin 3x = 0.5$ for $0 \\leq x < 360^\\circ$, why must you enlarge the interval for $u = 3x$?",
+   "back": "To avoid missing solutions that occur in later cycles of the expanded range.",
+   "options": [
+    {
+     "text": "To avoid missing solutions that occur in later cycles of the expanded range.",
+     "correct": true,
+     "explanation": "Since $u=3x$, the original interval becomes $0\\leq u<1080^\\circ$. Checking all three $360^\\circ$ cycles prevents valid solutions from being omitted."
+    },
+    {
+     "text": "To keep u within the original interval so the equation has fewer solutions.",
+     "correct": false,
+     "explanation": "The substitution changes the upper bound from $360^\\circ$ to $1080^\\circ$, so restricting $u$ to the original interval discards valid values of $x$."
+    },
+    {
+     "text": "To change the period of sine so that it matches the original interval.",
+     "correct": false,
+     "explanation": "The interval must be enlarged because multiplying $x$ by 3 enlarges its range; changing the sine function's period is not the reason for the procedure."
+    },
+    {
+     "text": "To remove extra solutions introduced by multiplying the angle by 3.",
+     "correct": false,
+     "explanation": "The substitution does not create extra solutions that should be removed. It requires checking later cycles because those cycles contain genuine solutions for the original variable."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "663a7a6c-f6b1-49bc-bccc-120dfc9ea5a9",
+   "card_type": "basic",
+   "front": "Define the reciprocal functions $\\sec x$ and $\\csc x$.",
+   "back": "$\\sec x = \\frac{1}{\\cos x}$$\\csc x = \\frac{1}{\\sin x}$",
+   "options": [
+    {
+     "text": "$\\sec x = \\frac{1}{\\cos x}$$\\csc x = \\frac{1}{\\sin x}$",
+     "correct": true,
+     "explanation": "Secant is the reciprocal of cosine, while cosecant is the reciprocal of sine. Each reciprocal is defined where its denominator is non-zero."
+    },
+    {
+     "text": "$\\sec x = \\frac{1}{\\sin x}$$\\csc x = \\frac{1}{\\cos x}$",
+     "correct": false,
+     "explanation": "The two reciprocal functions have been interchanged. Secant corresponds to cosine and cosecant corresponds to sine, so both denominators are reversed here."
+    },
+    {
+     "text": "$\\sec x = \\frac{1}{\\sec x}$$\\csc x = \\frac{1}{\\csc x}$",
+     "correct": false,
+     "explanation": "These equations incorrectly make each function equal to the reciprocal of itself. Secant and cosecant are reciprocals of cosine and sine respectively, not of secant and cosecant."
+    },
+    {
+     "text": "$\\sec x = \\cos x$$\\csc x = \\sin x$",
+     "correct": false,
+     "explanation": "The reciprocal relationship has been omitted. Secant and cosecant are not equal directly to cosine and sine; they are their multiplicative reciprocals."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "ab47b635-abc1-43d5-9547-47f5e5795d18",
+   "card_type": "basic",
+   "front": "What is the standard procedure for proving a trigonometric identity?",
+   "back": "Simplify the more complicated side until it matches the other side (do not treat it as an equation to solve).",
+   "options": [
+    {
+     "text": "Simplify the more complicated side until it matches the other side (do not treat it as an equation to solve).",
+     "correct": true,
+     "explanation": "An identity is true for every permitted value, so simplifying one side is sufficient. Starting with the more complicated side and reaching the other proves equivalence without circular algebra."
+    },
+    {
+     "text": "Simplify the less complicated side until it matches the other side (do not treat it as an equation to solve).",
+     "correct": false,
+     "explanation": "Starting with the simpler side is not the standard efficient approach and may provide no meaningful simplification. The more complicated side should be reduced to it."
+    },
+    {
+     "text": "Set both sides equal to zero and solve for the values of the variable.",
+     "correct": false,
+     "explanation": "Treating an identity as an equation can lead to solving for particular values rather than proving it for all allowed values. The algebra should simplify one side identically."
+    },
+    {
+     "text": "Rearrange both sides simultaneously until they produce a common numerical value.",
+     "correct": false,
+     "explanation": "Combining both sides through simultaneous rearrangement can obscure whether an equivalent statement has been established. Simplifying one side avoids circular reasoning."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "bdda65ec-f7ef-4b2b-bb04-32286de4f4dc",
+   "card_type": "basic",
+   "front": "How is the amplitude $R$ calculated when converting $a\\sin x + b\\cos x$ to R-form?",
+   "back": "$$R = \\sqrt{a^2 + b^2}$",
+   "options": [
+    {
+     "text": "$$R = \\sqrt{a^2 + b^2}$",
+     "correct": true,
+     "explanation": "Matching coefficients after expanding the R-form gives $a=R\\cos\\alpha$ and $b=R\\sin\\alpha$. Squaring and adding eliminates $\\alpha$, giving $R^2=a^2+b^2$."
+    },
+    {
+     "text": "$$R = \\sqrt{a + b}$",
+     "correct": false,
+     "explanation": "Adding the coefficients before taking a square root ignores the right-triangle relationship between them. The amplitude depends on the sum of their squares, not their simple sum."
+    },
+    {
+     "text": "$$R = \\sqrt{a^2 - b^2}$",
+     "correct": false,
+     "explanation": "Subtracting the squared coefficients is not valid because both coefficient contributions determine the amplitude. Their squares must be added before taking the square root."
+    },
+    {
+     "text": "$$R = |a| + |b|$",
+     "correct": false,
+     "explanation": "Adding the absolute coefficient values treats the contributions linearly rather than as perpendicular components. The correct magnitude is found using Pythagoras."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "f9aa83d9-8aae-4e22-84b2-2e93c3bffa3f",
+   "card_type": "cloze",
+   "front": "The expansion of $R\\sin(x+\\alpha)$ is $\\text{[...]} + R\\sin\\alpha\\cos x$.",
+   "back": "The expansion of $R\\sin(x+\\alpha)$ is $\\boxed{R\\cos\\alpha\\sin x} + R\\sin\\alpha\\cos x$.",
+   "options": [
+    {
+     "text": "$$R\\cos\\alpha\\sin x$",
+     "correct": true,
+     "explanation": "Using $\\sin(x+\\alpha)=\\sin x\\cos\\alpha+\\cos x\\sin\\alpha$ and multiplying by $R$ gives the missing first term."
+    },
+    {
+     "text": "$$R\\sin\\alpha\\sin x$",
+     "correct": false,
+     "explanation": "This swaps the sine and cosine factors from the addition formula. The coefficient of $\\sin x$ must contain $\\cos\\alpha$, so the correct term is $R\\cos\\alpha\\sin x$."
+    },
+    {
+     "text": "$$R\\sin\\alpha\\cos x$",
+     "correct": false,
+     "explanation": "This is the second term from the expansion, not the coefficient of $\\sin x$. The first term requires $\\cos\\alpha$ alongside $\\sin x$."
+    },
+    {
+     "text": "$$-R\\cos\\alpha\\sin x$",
+     "correct": false,
+     "explanation": "The sign is not changed in the sine addition formula, and this term also places the wrong trigonometric factor with $\\sin x$."
+    }
+   ]
+  },
+  {
+   "id": "6b061a0a-51dc-4be5-bb07-ed2755302f33",
+   "card_type": "cloze",
+   "front": "The expansion of $R\\sin(x+\\alpha)$ is $R\\cos\\alpha\\sin x + \\text{[...]}$.",
+   "back": "The expansion of $R\\sin(x+\\alpha)$ is $R\\cos\\alpha\\sin x + \\boxed{R\\sin\\alpha\\cos x}$.",
+   "options": [
+    {
+     "text": "$$R\\sin\\alpha\\cos x$",
+     "correct": true,
+     "explanation": "The sine addition formula contains $\\cos x\\sin\\alpha$ as its second product. Multiplying by $R$ gives the missing term exactly."
+    },
+    {
+     "text": "$$R\\sin\\alpha\\sin x$",
+     "correct": false,
+     "explanation": "This pairs $\\sin\\alpha$ with $\\sin x$, but the addition formula pairs it with $\\cos x$. The correct second term is $R\\sin\\alpha\\cos x$."
+    },
+    {
+     "text": "$$R\\cos\\alpha\\sin x$",
+     "correct": false,
+     "explanation": "This term belongs first in the expansion and uses the factor $\\cos\\alpha$. It cannot supply the second product involving $\\cos x$."
+    },
+    {
+     "text": "$$-R\\sin\\alpha\\cos x$",
+     "correct": false,
+     "explanation": "The negative sign belongs to the cosine subtraction formula, not the sine addition formula. The second term here is positive and contains $\\sin\\alpha\\cos x$."
+    }
+   ]
+  },
+  {
+   "id": "f87110b3-eb8a-4a03-87ae-a2863de609be",
+   "card_type": "cloze",
+   "front": "The expansion of $R\\cos(x+\\alpha)$ is $\\text{[...]} - R\\sin\\alpha\\sin x$.",
+   "back": "The expansion of $R\\cos(x+\\alpha)$ is $\\boxed{R\\cos\\alpha\\cos x} - R\\sin\\alpha\\sin x$.",
+   "options": [
+    {
+     "text": "$$R\\cos\\alpha\\cos x$",
+     "correct": true,
+     "explanation": "Using $\\cos(x+\\alpha)=\\cos x\\cos\\alpha-\\sin x\\sin\\alpha$ and multiplying by $R$ gives the first term as shown."
+    },
+    {
+     "text": "$$R\\cos\\alpha\\sin x$",
+     "correct": false,
+     "explanation": "This uses the sine addition formula's first product instead of the cosine addition formula. The first term must contain $\\cos x\\cos\\alpha$."
+    },
+    {
+     "text": "$$R\\sin\\alpha\\cos x$",
+     "correct": false,
+     "explanation": "This places the sine factor with $\\cos\\alpha$, but the first cosine-expansion product contains two cosine factors. The displayed negative term is already the sine product."
+    },
+    {
+     "text": "$$-R\\cos\\alpha\\cos x$",
+     "correct": false,
+     "explanation": "The first product in the cosine addition formula is positive. The negative sign applies only to the $R\\sin\\alpha\\sin x$ term."
+    }
+   ]
+  },
+  {
+   "id": "6e52d051-a464-4710-9c8d-880aa30611e4",
+   "card_type": "cloze",
+   "front": "The expansion of $R\\cos(x+\\alpha)$ is $R\\cos\\alpha\\cos x - \\text{[...]}$.",
+   "back": "The expansion of $R\\cos(x+\\alpha)$ is $R\\cos\\alpha\\cos x - \\boxed{R\\sin\\alpha\\sin x}$.",
+   "options": [
+    {
+     "text": "$$R\\sin\\alpha\\sin x$",
+     "correct": true,
+     "explanation": "The cosine addition formula is $\\cos(x+\\alpha)=\\cos x\\cos\\alpha-\\sin x\\sin\\alpha$. Multiplying every term by $R$ gives the required second product."
+    },
+    {
+     "text": "$$R\\sin\\alpha\\cos x$",
+     "correct": false,
+     "explanation": "This incorrectly retains $\\cos x$ in the second product. The cosine addition formula pairs the second term as $\\sin\\alpha\\sin x$, so the correct fill is $R\\sin\\alpha\\sin x$."
+    },
+    {
+     "text": "$$R\\cos\\alpha\\sin x$",
+     "correct": false,
+     "explanation": "This mixes the sine and cosine factors from the addition formula. The subtracted product must contain both sine factors, making the correct fill $R\\sin\\alpha\\sin x$."
+    },
+    {
+     "text": "$$R\\cos\\alpha\\cos x$",
+     "correct": false,
+     "explanation": "This repeats the first product instead of using the second part of the cosine addition formula. The correct subtracted term is $R\\sin\\alpha\\sin x$."
+    }
+   ]
+  },
+  {
+   "id": "c5ba83ad-c157-41b3-8228-71f9e05f7290",
+   "card_type": "basic",
+   "front": "Which identity for $\\cos 2x$ should be used to solve an equation that also contains $\\sin x$ terms?",
+   "back": "$$\\cos 2x = 1 - 2\\sin^2 x$",
+   "options": [
+    {
+     "text": "$$\\cos 2x = 1 - 2\\sin^2 x$",
+     "correct": true,
+     "explanation": "This form expresses $\\cos 2x$ entirely in terms of $\\sin x$, allowing the equation to become a polynomial in one trigonometric function."
+    },
+    {
+     "text": "$$\\cos 2x = 1 - 2\\cos^2 x$",
+     "correct": false,
+     "explanation": "This swaps sine and cosine in the required identity: $1-2\\cos^2x$ equals $-\\cos 2x$. The suitable identity is $\\cos 2x=1-2\\sin^2x$."
+    },
+    {
+     "text": "$$\\cos 2x = 2\\sin^2 x - 1$",
+     "correct": false,
+     "explanation": "This has the signs reversed and therefore equals $-\\cos 2x$. For an equation containing $\\sin x$, use $\\cos 2x=1-2\\sin^2x$."
+    },
+    {
+     "text": "$$\\cos 2x = 1 - \\sin^2 x$",
+     "correct": false,
+     "explanation": "This omits the factor of 2 and gives $\\cos^2x$, not $\\cos 2x$. The correct double-angle identity is $\\cos 2x=1-2\\sin^2x$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "5d01cfff-16f1-4dd3-aa54-5de7cb5e3000",
+   "card_type": "basic",
+   "front": "In a trigonometric model, define midline and amplitude.",
+   "back": "Midline: The average value (vertical center) of the wave.Amplitude: The distance from the midline to the peak.",
+   "options": [
+    {
+     "text": "Midline: The average value (vertical center) of the wave.Amplitude: The distance from the midline to the peak.",
+     "correct": true,
+     "explanation": "The midline is the wave’s central horizontal level, halfway between its maximum and minimum. The amplitude is the vertical distance from that level to either extreme."
+    },
+    {
+     "text": "Midline: The average value (vertical center) of the wave.Amplitude: The distance from the trough to the peak.",
+     "correct": false,
+     "explanation": "The difference between peak and trough is the full vertical range, not the amplitude; the amplitude is half that range. The midline is the wave’s average value."
+    },
+    {
+     "text": "Midline: The minimum value (lowest point) of the wave.Amplitude: The maximum value reached at the peak.",
+     "correct": false,
+     "explanation": "The minimum is a wave’s trough rather than its midline, while the peak is a maximum rather than an amplitude. The midline is the average, and amplitude is its distance to the peak."
+    },
+    {
+     "text": "Midline: The horizontal center of one complete cycle.Amplitude: The distance from one peak to the next.",
+     "correct": false,
+     "explanation": "These definitions confuse horizontal and vertical features. The midline is the average vertical value, while the amplitude is the vertical distance from the midline to a peak."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "8785d5b6-28da-47f2-bc29-63b5f34d66c4",
+   "card_type": "basic",
+   "front": "If a daily temperature model uses the term $\\cos(15t)$ where $t$ is in hours, why is the period 24 hours?",
+   "back": "The coefficient 15 means the angle increases by $15^\\circ$ per hour; $\\frac{360}{15} = 24$.",
+   "options": [
+    {
+     "text": "The coefficient 15 means the angle increases by $15^\\circ$ per hour; $\\frac{360}{15} = 24$.",
+     "correct": true,
+     "explanation": "A cosine cycle covers $360^\\circ$. Since the argument advances by $15^\\circ$ each hour, the time for one cycle is $360\\div15=24$ hours."
+    },
+    {
+     "text": "The coefficient 15 means the angle increases by $30^\\circ$ per hour; $\\frac{360}{30} = 12$.",
+     "correct": false,
+     "explanation": "Dividing by 30 mistakenly uses half a cycle, $180^\\circ$, instead of the full $360^\\circ$ cosine cycle. The period is $360\\div15=24$ hours."
+    },
+    {
+     "text": "The coefficient 15 means the wave completes one cycle every 15 hours; $\\frac{360}{24} = 15$.",
+     "correct": false,
+     "explanation": "The coefficient is an angular rate, not the period itself. One full cycle requires $360^\\circ$, so dividing by $15^\\circ$ per hour gives 24 hours."
+    },
+    {
+     "text": "The coefficient 15 means the angle reaches $180^\\circ$ in 30 hours; $15 \\times 2 = 30$.",
+     "correct": false,
+     "explanation": "Multiplying by 2 treats $180^\\circ$ as a full cosine cycle. Cosine repeats after $360^\\circ$, so the correct calculation is $360\\div15=24$ hours."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "7ecf64e4-5682-414d-b9c6-8f0adb2ecb0d",
+   "card_type": "basic",
+   "front": "How do you find the maximum value of $y = 10 + 5\\sin(x - 30^\\circ)$?",
+   "back": "Set the sine term to its maximum value of 1; $y_{\\max} = 10 + 5(1) = 15$.",
+   "options": [
+    {
+     "text": "Set the sine term to its maximum value of 1; $y_{\\max} = 10 + 5(1) = 15$.",
+     "correct": true,
+     "explanation": "Since the greatest possible value of sine is 1, the oscillating term reaches $5$. Adding the midline value 10 gives a maximum of 15."
+    },
+    {
+     "text": "Set the sine term to its maximum value of 0; $y_{\\max} = 10 + 5(0) = 10$.",
+     "correct": false,
+     "explanation": "Zero is the middle value of sine, not its maximum, so this finds the midline. Using the maximum sine value 1 gives $y_{\\max}=10+5=15$."
+    },
+    {
+     "text": "Set the sine term to its maximum value of $-1$; $y_{\\max} = 10 + 5(-1) = 5$.",
+     "correct": false,
+     "explanation": "Using $-1$ selects the minimum of sine and therefore finds the model’s minimum value. For the maximum, use $1$, giving $y_{\\max}=10+5=15$."
+    },
+    {
+     "text": "Set the sine term to its maximum value of 5; $y_{\\max} = 10 + 5(5) = 35$.",
+     "correct": false,
+     "explanation": "The coefficient 5 is the amplitude, not a possible sine value; sine remains between $-1$ and 1. Substituting 1 gives the correct maximum of 15."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "afd4661c-842c-44ba-9df7-e2c2bc6a072f",
+   "card_type": "cloze",
+   "front": "If the interval for $x$ is $0 \\leq x < \\pi$, the interval for $u = 3x$ is $\\text{[...]}$.",
+   "back": "If the interval for $x$ is $0 \\leq x < \\pi$, the interval for $u = 3x$ is $\\boxed{0 \\leq u < 3\\pi}$.",
+   "options": [
+    {
+     "text": "$$0 \\leq u < 3\\pi$",
+     "correct": true,
+     "explanation": "Multiplying every part of $0\\leq x<\\pi$ by the positive number 3 preserves the inequality signs and gives $0\\leq3x<3\\pi$, hence this interval."
+    },
+    {
+     "text": "$$0 \\leq u < \\frac{\\pi}{3}$",
+     "correct": false,
+     "explanation": "This divides the endpoints by 3 instead of multiplying them. Since $u=3x$, the upper bound is tripled, so the correct interval is $0\\leq u<3\\pi$."
+    },
+    {
+     "text": "$$0 \\leq u \\leq 3\\pi$",
+     "correct": false,
+     "explanation": "Multiplication by 3 does not change an excluded endpoint into an included one. Because $x<\\pi$, it follows that $u<3\\pi$, so the upper inequality remains strict."
+    },
+    {
+     "text": "$$0 \\leq u < \\pi$",
+     "correct": false,
+     "explanation": "This leaves the interval unchanged despite replacing $x$ with three times its value. The endpoints must be multiplied by 3, producing $0\\leq u<3\\pi$."
+    }
+   ]
+  }
+ ],
+ "card_count": 22,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/a-level-pure-mathematics-7-trigonometry-and-modelling/flashcards",
+ "source_sha256": "eaff259acea663826c6bc3a26b75879a7cc9bf732f0166447de8c2d3ab76b593",
+ "extracted_at": "2026-11-08T19:00:05Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-3 run-001)",
+ "task_id": "T-MG-FC-3"
+}

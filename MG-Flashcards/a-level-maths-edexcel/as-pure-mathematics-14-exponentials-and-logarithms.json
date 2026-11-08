@@ -1,0 +1,155 @@
+{
+ "topic": "as-pure-mathematics-14-exponentials-and-logarithms",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "title": "Exponentials and Logarithms Flashcards",
+ "cards": [
+  {
+   "id": "23a52d30-fcde-679b-0aca-674982802b7a",
+   "card_type": "basic",
+   "front": "How do you solve $2^{x+1}=64$ without using logarithms?",
+   "back": "Rewrite 64 as $2^6$Equate indices: $x+1=6$$x=5$",
+   "points": 2
+  },
+  {
+   "id": "0b4dac82-b858-8242-b681-85b8bb41fb56",
+   "card_type": "basic",
+   "front": "Convert the logarithmic form $\\log_a b = c$ into exponential form.",
+   "back": "$$a^c = b$",
+   "points": 1
+  },
+  {
+   "id": "87a01c4c-0dce-e9ff-dcb6-f5064d39fbb5",
+   "card_type": "cloze",
+   "front": "The natural logarithm, written as $\\ln x$, is a logarithm with a base of $\\text{[...]}$ (approximately 2.718).",
+   "back": "The natural logarithm, written as $\\ln x$, is a logarithm with a base of $\\boxed{e}$ (approximately 2.718)."
+  },
+  {
+   "id": "b5736e35-80bd-4adf-f337-faaac8792b52",
+   "card_type": "basic",
+   "front": "How are the graphs of $y=e^x$ and $y=\\ln x$ geometrically related?",
+   "back": "They are inverses, meaning they reflect in the line $y=x$.",
+   "points": 1
+  },
+  {
+   "id": "3f27e6e8-c7fa-9f1d-589e-5b8e0c031409",
+   "card_type": "basic",
+   "front": "Express $\\log_a M + \\log_a N$ as a single logarithm.",
+   "back": "$$\\log_a(MN)$",
+   "points": 1
+  },
+  {
+   "id": "b99f8f3c-22cb-d497-e1ad-42984a24c75b",
+   "card_type": "basic",
+   "front": "Express $\\log_a M - \\log_a N$ as a single logarithm.",
+   "back": "$$\\log_a\\left(\\frac{M}{N}\\right)$",
+   "points": 1
+  },
+  {
+   "id": "fd18cf64-066c-882b-9217-f75a3a0d7072",
+   "card_type": "basic",
+   "front": "Express $p \\log_a M$ as a single logarithm.",
+   "back": "$$\\log_a(M^p)$",
+   "points": 1
+  },
+  {
+   "id": "f6dbfd06-1e39-272a-0143-275da3d74cb7",
+   "card_type": "cloze",
+   "front": "The argument $x$ of any logarithm $\\log_a x$ must satisfy the condition $\\text{[...]}$.",
+   "back": "The argument $x$ of any logarithm $\\log_a x$ must satisfy the condition $\\boxed{x > 0}$."
+  },
+  {
+   "id": "a9d8cda2-fa5d-2862-b425-fc0611bec5d7",
+   "card_type": "basic",
+   "front": "Solve $5^x = 18$ for $x$ using natural logarithms.",
+   "back": "$$x = \\frac{\\ln 18}{\\ln 5}$",
+   "points": 2
+  },
+  {
+   "id": "dd63ec96-d529-0e36-8f1a-478d9d7eae41",
+   "card_type": "basic",
+   "front": "What is the standard substitution used to solve $3e^y + 10e^{-y} = 11$?",
+   "back": "Let $u = e^y$ (where $u > 0$).",
+   "points": 1
+  },
+  {
+   "id": "154d6fe7-099a-d3c8-bf71-412436cc4d7c",
+   "card_type": "cloze",
+   "front": "In the growth model $P = Ae^{kt}$, the population grows if $\\text{[...]}$ and decays if $k < 0$.",
+   "back": "In the growth model $P = Ae^{kt}$, the population grows if $\\boxed{k > 0}$ and decays if $k < 0$."
+  },
+  {
+   "id": "20202aa8-59af-52e4-a1d3-7a49eb171373",
+   "card_type": "cloze",
+   "front": "In the growth model $P = Ae^{kt}$, the population grows if $k > 0$ and decays if $\\text{[...]}$.",
+   "back": "In the growth model $P = Ae^{kt}$, the population grows if $k > 0$ and decays if $\\boxed{k < 0}$."
+  },
+  {
+   "id": "78af92ac-dec9-61bc-a3b8-d20bb5a1d8de",
+   "card_type": "basic",
+   "front": "Find the derivative $\\frac{dP}{dt}$ for the exponential model $P = Ae^{kt}$.",
+   "back": "$$\\frac{dP}{dt} = kAe^{kt}$",
+   "points": 2
+  },
+  {
+   "id": "25152c96-083e-412c-c358-e88afd7d333f",
+   "card_type": "basic",
+   "front": "In an exponential model $P = Ae^{kt}$, how is the initial value found?",
+   "back": "Set $t = 0$.",
+   "points": 1
+  },
+  {
+   "id": "2000fef5-b185-4d8d-099b-4a0937f7a5b9",
+   "card_type": "cloze",
+   "front": "The range of the basic exponential function $f(x) = e^x$ is $\\text{[...]}$.",
+   "back": "The range of the basic exponential function $f(x) = e^x$ is $\\boxed{f(x) > 0}$."
+  },
+  {
+   "id": "d84da613-6e57-ccd6-db04-411c5715c667",
+   "card_type": "basic",
+   "front": "State the horizontal asymptote of $y = e^{x+2} - 4$.",
+   "back": "$$y = -4$",
+   "points": 1
+  },
+  {
+   "id": "37e3526c-3e73-be52-0838-603b07fe9253",
+   "card_type": "basic",
+   "front": "Outline the steps to find the x-intercept of $f(x) = e^{x+2} - 4$.",
+   "back": "Set $f(x) = 0$$e^{x+2} = 4$$x = \\ln 4 - 2$",
+   "points": 2
+  },
+  {
+   "id": "8c21c92f-32f6-ad66-03c8-e2ade0ac0318",
+   "card_type": "cloze",
+   "front": "If $y = \\log_2 x$, then $\\log_4 x$ can be written in terms of $y$ as $\\text{[...]}$.",
+   "back": "If $y = \\log_2 x$, then $\\log_4 x$ can be written in terms of $y$ as $\\boxed{\\frac{y}{2}}$."
+  },
+  {
+   "id": "062983cc-3455-1d3a-77b9-e08e07b34da9",
+   "card_type": "basic",
+   "front": "Why is the statement $\\log_a(M+N) = \\log_a M + \\log_a N$ incorrect?",
+   "back": "Log laws apply to multiplication, not addition, inside the logarithm.",
+   "points": 1
+  },
+  {
+   "id": "d769cb19-8e5b-f959-50a0-d0a33ae13447",
+   "card_type": "basic",
+   "front": "Find the gradient function $f'(x)$ for $f(x) = e^{x+2} - 4$.",
+   "back": "$$f'(x) = e^{x+2}$",
+   "points": 2
+  },
+  {
+   "id": "41f56b42-b451-ca88-acf0-f671dbcaa73c",
+   "card_type": "cloze",
+   "front": "To solve $\\ln(3x-2) = 1$, first remove the natural log by writing $\\text{[...]}$.",
+   "back": "To solve $\\ln(3x-2) = 1$, first remove the natural log by writing $\\boxed{3x - 2 = e^1}$."
+  }
+ ],
+ "card_count": 21,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/as-pure-mathematics-14-exponentials-and-logarithms/flashcards",
+ "source_sha256": "ec9dc58ec0eaec983a7e525151403282dd9d266919877ee61656a0d90dd652f8",
+ "extracted_at": "2026-11-08T19:00:05Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-3 run-001)",
+ "task_id": "T-MG-FC-3"
+}

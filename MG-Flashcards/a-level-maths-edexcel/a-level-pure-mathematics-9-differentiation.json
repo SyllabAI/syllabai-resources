@@ -1,0 +1,592 @@
+{
+ "topic": "a-level-pure-mathematics-9-differentiation",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "title": "Differentiation Flashcards",
+ "cards": [
+  {
+   "id": "33d6100c-f75c-456d-9654-12d0695d5b7c",
+   "card_type": "basic",
+   "front": "What does the derivative $\\frac{dy}{dx}$ represent geometrically?",
+   "back": "The gradient of the curve at a specific point.",
+   "options": [
+    {
+     "text": "The gradient of the curve at a specific point.",
+     "correct": true,
+     "explanation": "The derivative gives the instantaneous rate at which y changes with x, which geometrically is the gradient of the tangent to the curve at that point."
+    },
+    {
+     "text": "The y-coordinate of the curve at a specific point.",
+     "correct": false,
+     "explanation": "The y-coordinate gives the height of the curve, not its steepness. The derivative represents the gradient of the curve at a specific point."
+    },
+    {
+     "text": "The equation of the tangent to the curve at a specific point.",
+     "correct": false,
+     "explanation": "The tangent is a line touching the curve, whereas the derivative gives its steepness. The correct interpretation is the gradient of the curve at a specific point."
+    },
+    {
+     "text": "The distance from the origin to the curve at a specific point.",
+     "correct": false,
+     "explanation": "The derivative is not the distance from the origin to the curve. It measures local steepness, namely the gradient of the curve at a specific point."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "a9cc0085-3b06-4cf5-9246-3dbb3e57a0c4",
+   "card_type": "cloze",
+   "front": "The definition of the derivative from first principles is $f'(x) = \\lim_{h \\to 0} \\text{[...]}$.",
+   "back": "The definition of the derivative from first principles is $f'(x) = \\lim_{h \\to 0} \\boxed{\\frac{f(x+h) - f(x)}{h}}$.",
+   "options": [
+    {
+     "text": "$$\\frac{f(x+h) - f(x)}{h}$",
+     "correct": true,
+     "explanation": "The difference quotient compares the change in function value with the change in input, then the limit makes that input change tend to zero, giving the derivative."
+    },
+    {
+     "text": "$$\\frac{f(x) - f(x+h)}{h}$",
+     "correct": false,
+     "explanation": "Reversing the numerator changes the sign of the quotient, giving the negative derivative. The correct first-principles quotient is $\\frac{f(x+h) - f(x)}{h}$."
+    },
+    {
+     "text": "$$\\frac{f(x+h) - f(x)}{h^2}$",
+     "correct": false,
+     "explanation": "Dividing by $h^2$ gives the wrong scaling and does not produce the derivative limit. The denominator must be the first power, $\\frac{f(x+h) - f(x)}{h}$."
+    },
+    {
+     "text": "$$\\frac{f'(x+h) - f'(x)}{h}$",
+     "correct": false,
+     "explanation": "Using $f'(x+h)$ introduces the derivative before it has been defined, so it is circular. First principles uses function values: $\\frac{f(x+h) - f(x)}{h}$."
+    }
+   ]
+  },
+  {
+   "id": "20f8f90e-a391-43c1-bc23-f184966c8910",
+   "card_type": "basic",
+   "front": "What unit of measurement must be used for angles in standard trigonometric derivatives?",
+   "back": "Radians.",
+   "options": [
+    {
+     "text": "Radians.",
+     "correct": true,
+     "explanation": "The standard derivative formulae for sine, cosine and the other trigonometric functions assume the angle is measured in radians."
+    },
+    {
+     "text": "Degrees",
+     "correct": false,
+     "explanation": "Degree measures introduce a conversion factor into trigonometric derivatives, so the standard formulae are not valid unchanged. The required unit is Radians."
+    },
+    {
+     "text": "Revolutions",
+     "correct": false,
+     "explanation": "A revolution is an angular amount rather than the unit assumed by the standard derivative formulae. Angles must be measured in Radians."
+    },
+    {
+     "text": "Gradians",
+     "correct": false,
+     "explanation": "Gradians use a different scale from the one built into standard trigonometric derivatives. The required angular measure is Radians."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "c9b00127-fb9e-45c7-97d5-1815a8b19836",
+   "card_type": "basic",
+   "front": "Differentiate $\\tan x$.",
+   "back": "$$\\sec^2 x$",
+   "options": [
+    {
+     "text": "$$\\sec^2 x$",
+     "correct": true,
+     "explanation": "The derivative of $\\tan x$ is $\\sec^2 x$, obtained from the quotient rule or from $\\tan x = \\frac{\\sin x}{\\cos x}$."
+    },
+    {
+     "text": "$$\\sec x \\tan x$",
+     "correct": false,
+     "explanation": "This is the derivative of $\\sec x$, not $\\tan x$. Differentiating $\\tan x$ gives $\\sec^2 x$."
+    },
+    {
+     "text": "$$-\\csc^2 x$",
+     "correct": false,
+     "explanation": "The negative cosecant-square result belongs to differentiating $\\cot x$. The derivative of $\\tan x$ is $\\sec^2 x$."
+    },
+    {
+     "text": "$$\\csc^2 x$",
+     "correct": false,
+     "explanation": "This expression is the derivative of $\\cot x$ with the sign omitted, not the derivative of tangent. For $\\tan x$, the result is $\\sec^2 x$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "8149ff23-294a-45ce-be02-8e7fd11761cd",
+   "card_type": "basic",
+   "front": "Differentiate $a^x$ where $a > 0$.",
+   "back": "$$a^x \\ln a$",
+   "options": [
+    {
+     "text": "$$a^x \\ln a$",
+     "correct": true,
+     "explanation": "Writing $a^x = e^{x\\ln a}$ and applying the chain rule gives $a^x\\ln a$, which is valid for positive $a$."
+    },
+    {
+     "text": "$$xa^{x-1}$",
+     "correct": false,
+     "explanation": "This applies the power rule for $x^a$, incorrectly treating the variable base and constant exponent as the roles in $a^x$. The derivative is $a^x \\ln a$."
+    },
+    {
+     "text": "$$a^{x-1} \\ln a$",
+     "correct": false,
+     "explanation": "Reducing the exponent by one is another power-rule error. An exponential retains $a^x$ and gains the factor $\\ln a$, giving $a^x \\ln a$."
+    },
+    {
+     "text": "$$a^x$",
+     "correct": false,
+     "explanation": "The factor $\\ln a$ is missing, so this would only work when $a=e$. In general, differentiating $a^x$ gives $a^x \\ln a$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "4c4d1b62-8fd4-47d8-bdf1-ae06f4f30e0f",
+   "card_type": "basic",
+   "front": "What does the second derivative $\\frac{d^2y}{dx^2}$ represent?",
+   "back": "The rate of change of the gradient.",
+   "options": [
+    {
+     "text": "The rate of change of the gradient.",
+     "correct": true,
+     "explanation": "The first derivative is the gradient, so differentiating it again measures how quickly that gradient changes as x changes."
+    },
+    {
+     "text": "The gradient of the curve.",
+     "correct": false,
+     "explanation": "The first derivative, not the second, gives the gradient itself. The second derivative represents the rate of change of the gradient."
+    },
+    {
+     "text": "The rate of change of the function.",
+     "correct": false,
+     "explanation": "The function's rate of change is represented by the first derivative. A second derivative measures the rate of change of the gradient."
+    },
+    {
+     "text": "The value of the gradient.",
+     "correct": false,
+     "explanation": "The second derivative does not simply report the gradient's value; it reports how that gradient varies. Its meaning is the rate of change of the gradient."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "3bab033e-3a22-49f0-8d80-8e5d0f8a9d75",
+   "card_type": "basic",
+   "front": "Outline the mechanism of the Chain Rule for $y=f(g(x))$.",
+   "back": "Differentiate the outside function, leave the inside unchanged, then multiply by the derivative of the inside.",
+   "options": [
+    {
+     "text": "Differentiate the outside function, leave the inside unchanged, then multiply by the derivative of the inside.",
+     "correct": true,
+     "explanation": "The chain rule differentiates the outer operation first, retains the inner expression during that step, and multiplies by the inner expression's derivative."
+    },
+    {
+     "text": "Differentiate the inside function, leave the outside unchanged, then multiply by the derivative of the inside.",
+     "correct": false,
+     "explanation": "This reverses the chain rule's order: the outer function must be differentiated first while the inside remains unchanged. The correct sequence is outside, inside, then multiply."
+    },
+    {
+     "text": "Differentiate the outside function, leave the inside unchanged, then add the derivative of the inside.",
+     "correct": false,
+     "explanation": "Adding derivatives is a common confusion with the product rule. The chain rule requires differentiating the outside, retaining the inside, then multiplying by the inner derivative."
+    },
+    {
+     "text": "Differentiate the outside function, leave the inside unchanged, then divide by the derivative of the inside.",
+     "correct": false,
+     "explanation": "Leaving the inner function unchanged throughout omits the essential inner derivative factor. The chain rule requires differentiating the outside, leaving the inside briefly unchanged, then multiplying."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "1e49727b-23c4-41c3-9a22-54a594a71264",
+   "card_type": "basic",
+   "front": "State the Product Rule for $\\frac{d}{dx}(uv)$.",
+   "back": "$$u'v + uv'$",
+   "options": [
+    {
+     "text": "$$u'v + uv'$",
+     "correct": true,
+     "explanation": "The product rule differentiates the first factor while retaining the second, then retains the first and differentiates the second, so both contributions are included."
+    },
+    {
+     "text": "$$u'v'$",
+     "correct": false,
+     "explanation": "Differentiating both factors simultaneously omits the two product-rule contributions with one factor retained. The correct result is $u'v + uv'$."
+    },
+    {
+     "text": "$$uv$",
+     "correct": false,
+     "explanation": "This is just the original product, with neither factor differentiated. The product rule gives $u'v + uv'$."
+    },
+    {
+     "text": "$$u'v + u'v'$",
+     "correct": false,
+     "explanation": "The second term differentiates both factors instead of retaining $u$ while differentiating $v$. The correct formula is $u'v + uv'$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "83b5f5ff-d3b5-47b7-9977-dd7d5d00b75d",
+   "card_type": "basic",
+   "front": "State the Quotient Rule for $\\frac{d}{dx}(\\frac{u}{v})$.",
+   "back": "$$\\frac{u'v - uv'}{v^2}$",
+   "options": [
+    {
+     "text": "$$\\frac{u'v - uv'}{v^2}$",
+     "correct": true,
+     "explanation": "The quotient rule differentiates the numerator and denominator in a cross-product subtraction, then divides by the square of the original denominator."
+    },
+    {
+     "text": "$$\\frac{u'v + uv'}{v^2}$",
+     "correct": false,
+     "explanation": "This uses addition instead of the required subtraction. The quotient rule is $\\frac{u'v - uv'}{v^2}$, with the numerator terms subtracted in that order."
+    },
+    {
+     "text": "$$\\frac{u'v - uv'}{v}$",
+     "correct": false,
+     "explanation": "This fails to square the denominator, a common quotient-rule slip. The correct derivative is $\\frac{u'v - uv'}{v^2}$."
+    },
+    {
+     "text": "$$\\frac{uv' - u'v}{v^2}$",
+     "correct": false,
+     "explanation": "This reverses the numerator subtraction, giving the negative of the required derivative. The quotient rule is $\\frac{u'v - uv'}{v^2}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "1e3be51c-88ff-4fc5-9bef-d224da894db3",
+   "card_type": "basic",
+   "front": "If a tangent has a gradient of $m$, what is the gradient of the normal?",
+   "back": "$$-\\frac{1}{m}$ (the negative reciprocal).",
+   "options": [
+    {
+     "text": "$$-\\frac{1}{m}$ (the negative reciprocal).",
+     "correct": true,
+     "explanation": "A tangent and its normal are perpendicular, so their gradients have product $-1$. Therefore, a tangent gradient of $m$ gives a normal gradient of $-\\frac{1}{m}$."
+    },
+    {
+     "text": "$$\\frac{1}{m}$ (the reciprocal).",
+     "correct": false,
+     "explanation": "Taking only the reciprocal misses the negative sign required for perpendicular lines. The normal’s gradient is $-\\frac{1}{m}$, the negative reciprocal of $m$."
+    },
+    {
+     "text": "$$-m$ (the negative gradient).",
+     "correct": false,
+     "explanation": "Changing only the sign does not generally produce a perpendicular gradient. The normal’s gradient must be the negative reciprocal, $-\\frac{1}{m}$."
+    },
+    {
+     "text": "$$m$ (the same gradient).",
+     "correct": false,
+     "explanation": "Using the same gradient would make the normal parallel to the tangent rather than perpendicular. Its gradient is $-\\frac{1}{m}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "1feb20f8-0e9d-4bbf-ab19-33155fa9b8eb",
+   "card_type": "basic",
+   "front": "What is the requirement for a point to be stationary?",
+   "back": "$$\\frac{dy}{dx} = 0$",
+   "options": [
+    {
+     "text": "$$\\frac{dy}{dx} = 0$",
+     "correct": true,
+     "explanation": "At a stationary point, the tangent is horizontal, so its gradient is zero. Since $\\frac{dy}{dx}$ gives the tangent’s gradient, the requirement is $\\frac{dy}{dx}=0$."
+    },
+    {
+     "text": "$$\\frac{dy}{dx} = 1$",
+     "correct": false,
+     "explanation": "A gradient of one means the tangent rises at $45^\\circ$ and is not horizontal. A stationary point requires $\\frac{dy}{dx}=0$."
+    },
+    {
+     "text": "$$\\frac{d^2y}{dx^2} = 0$",
+     "correct": false,
+     "explanation": "Setting the second derivative to zero does not define a stationary point; it concerns changes in gradient. Stationarity specifically requires $\\frac{dy}{dx}=0$."
+    },
+    {
+     "text": "$$y = 0$",
+     "correct": false,
+     "explanation": "The condition $y=0$ identifies an intercept with the $x$-axis, not necessarily a stationary point. Stationarity requires the gradient condition $\\frac{dy}{dx}=0$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "59aaf832-35fd-4261-a4a5-55ba4ee04d0a",
+   "card_type": "basic",
+   "front": "How is a stationary point classified if $\\frac{d^2y}{dx^2} > 0$?",
+   "back": "Local minimum",
+   "options": [
+    {
+     "text": "Local minimum",
+     "correct": true,
+     "explanation": "A positive second derivative means the gradient is increasing through the stationary point, so the curve is concave upwards and the point is a local minimum."
+    },
+    {
+     "text": "Local maximum",
+     "correct": false,
+     "explanation": "A local maximum has a negative second derivative because the curve is concave downwards. A positive second derivative at a stationary point indicates a local minimum."
+    },
+    {
+     "text": "Stationary inflection",
+     "correct": false,
+     "explanation": "A stationary point of inflection is not identified by a strictly positive second derivative. The positive value shows upward curvature, classifying the point as a local minimum."
+    },
+    {
+     "text": "Non-stationary inflection",
+     "correct": false,
+     "explanation": "A non-stationary inflection has a non-zero first derivative and changing concavity. Here the point is stationary with positive second derivative, so it is a local minimum."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "452e8043-688b-4a22-b0d4-445c3e00f739",
+   "card_type": "basic",
+   "front": "How is a stationary point classified if $\\frac{d^2y}{dx^2} < 0$?",
+   "back": "Local maximum",
+   "options": [
+    {
+     "text": "Local maximum",
+     "correct": true,
+     "explanation": "A negative second derivative means the gradient is decreasing through the stationary point, so the curve is concave downwards and the point is a local maximum."
+    },
+    {
+     "text": "Local minimum",
+     "correct": false,
+     "explanation": "A local minimum has a positive second derivative because the curve is concave upwards. A negative second derivative at a stationary point indicates a local maximum."
+    },
+    {
+     "text": "Stationary inflection",
+     "correct": false,
+     "explanation": "A stationary point of inflection is not identified by a strictly negative second derivative. The negative value shows downward curvature, classifying the point as a local maximum."
+    },
+    {
+     "text": "Non-stationary inflection",
+     "correct": false,
+     "explanation": "A non-stationary inflection does not have zero gradient, whereas this is already a stationary point. Its negative second derivative classifies it as a local maximum."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "2912938a-db95-463b-89bf-774e76a102c5",
+   "card_type": "basic",
+   "front": "What must you do to classify a stationary point if $\\frac{d^2y}{dx^2} = 0$?",
+   "back": "Check the sign of $\\frac{dy}{dx}$ on both sides of the point.",
+   "options": [
+    {
+     "text": "Check the sign of $\\frac{dy}{dx}$ on both sides of the point.",
+     "correct": true,
+     "explanation": "When the second derivative test is inconclusive, inspect the first derivative around the point. A change from negative to positive gives a minimum, while positive to negative gives a maximum."
+    },
+    {
+     "text": "Check the value of $\\frac{d^2y}{dx^2}$ at the point again.",
+     "correct": false,
+     "explanation": "The second derivative’s value at the point is already known to be zero, so repeating that check cannot classify it. Instead, check the sign of $\\frac{dy}{dx}$ on both sides."
+    },
+    {
+     "text": "Check the sign of $y$ on both sides of the point.",
+     "correct": false,
+     "explanation": "Whether $y$ is positive or negative describes the curve’s position relative to the axis, not its turning behaviour. Check the sign of $\\frac{dy}{dx}$ on both sides."
+    },
+    {
+     "text": "Assume it is a stationary point of inflection.",
+     "correct": false,
+     "explanation": "A zero second derivative makes the test inconclusive and does not automatically imply an inflection. The sign of $\\frac{dy}{dx}$ on both sides must be checked."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "14bee051-7e87-43b7-944d-ea987d5c03a0",
+   "card_type": "cloze",
+   "front": "In implicit differentiation, $\\frac{d}{dx}(y^2) = \\text{[...]}$.",
+   "back": "In implicit differentiation, $\\frac{d}{dx}(y^2) = \\boxed{2y \\frac{dy}{dx}}$.",
+   "options": [
+    {
+     "text": "$$2y \\frac{dy}{dx}$",
+     "correct": true,
+     "explanation": "Because $y$ is a function of $x$, the chain rule applies: differentiating $y^2$ gives $2y$, multiplied by the inner derivative $\\frac{dy}{dx}$."
+    },
+    {
+     "text": "$$2y$",
+     "correct": false,
+     "explanation": "This treats $y$ as though it were the independent variable and omits the chain-rule factor. Implicit differentiation gives $2y\\frac{dy}{dx}$."
+    },
+    {
+     "text": "$$y^2 \\frac{dy}{dx}$",
+     "correct": false,
+     "explanation": "The power rule reduces the exponent from two to one; it does not leave $y^2$ unchanged. The correct derivative is $2y\\frac{dy}{dx}$."
+    },
+    {
+     "text": "$$2x \\frac{dy}{dx}$",
+     "correct": false,
+     "explanation": "This incorrectly differentiates as though the squared variable were $x$. Since $y$ depends on $x$, the chain rule gives $2y\\frac{dy}{dx}$."
+    }
+   ]
+  },
+  {
+   "id": "05484945-03dc-4a11-a678-f3c0fbfab9b9",
+   "card_type": "cloze",
+   "front": "Using the product rule on an implicit term, $\\frac{d}{dx}(xy) = \\text{[...]}$.",
+   "back": "Using the product rule on an implicit term, $\\frac{d}{dx}(xy) = \\boxed{x \\frac{dy}{dx} + y}$.",
+   "options": [
+    {
+     "text": "$$x \\frac{dy}{dx} + y$",
+     "correct": true,
+     "explanation": "Applying the product rule gives $x\\frac{dy}{dx}+y\\frac{dx}{dx}$. Since $\\frac{dx}{dx}=1$, this simplifies to $x\\frac{dy}{dx}+y$."
+    },
+    {
+     "text": "$$x \\frac{dy}{dx}$",
+     "correct": false,
+     "explanation": "This omits the second product-rule term obtained by differentiating $x$. Since $\\frac{dx}{dx}=1$, the full derivative is $x\\frac{dy}{dx}+y$."
+    },
+    {
+     "text": "$$y \\frac{dy}{dx} + x$",
+     "correct": false,
+     "explanation": "This attaches $\\frac{dy}{dx}$ to the wrong product-rule term. Differentiating $y$ supplies $\\frac{dy}{dx}$, so the derivative is $x\\frac{dy}{dx}+y$."
+    },
+    {
+     "text": "$$\\frac{dy}{dx} + y$",
+     "correct": false,
+     "explanation": "This loses the factor $x$ when differentiating $y$. The product rule preserves the undifferentiated factor, giving $x\\frac{dy}{dx}+y$."
+    }
+   ]
+  },
+  {
+   "id": "c3c05ad8-8297-42f5-aadf-2d117784d72c",
+   "card_type": "basic",
+   "front": "State the formula for parametric differentiation $\\frac{dy}{dx}$.",
+   "back": "$$\\frac{dy}{dx} = \\frac{\\frac{dy}{dt}}{\\frac{dx}{dt}}$",
+   "options": [
+    {
+     "text": "$$\\frac{dy}{dx} = \\frac{\\frac{dy}{dt}}{\\frac{dx}{dt}}$",
+     "correct": true,
+     "explanation": "For parametric equations, the chain rule gives $\\frac{dy}{dx}=\\frac{dy}{dt}\\frac{dt}{dx}$. Since $\\frac{dt}{dx}=\\frac{1}{dx/dt}$, this produces the stated quotient."
+    },
+    {
+     "text": "$$\\frac{dy}{dx} = \\frac{\\frac{dx}{dt}}{\\frac{dy}{dt}}$",
+     "correct": false,
+     "explanation": "This reverses the quotient and therefore gives $\\frac{dx}{dy}$. Parametric differentiation requires dividing $\\frac{dy}{dt}$ by $\\frac{dx}{dt}$."
+    },
+    {
+     "text": "$$\\frac{dy}{dx} = \\frac{dy}{dt}\\frac{dx}{dt}$",
+     "correct": false,
+     "explanation": "The parametric derivatives must be divided, not multiplied. Applying the chain rule correctly gives $\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}$."
+    },
+    {
+     "text": "$$\\frac{dy}{dx} = \\frac{dy}{dt} + \\frac{dx}{dt}$",
+     "correct": false,
+     "explanation": "Adding the derivatives does not eliminate the parameter $t$ correctly. The chain rule instead requires the quotient $\\frac{dy/dt}{dx/dt}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "9f7cd720-45b0-4bdd-9073-a6c7c17fc99b",
+   "card_type": "basic",
+   "front": "Differentiate $y = e^{x^2}$.",
+   "back": "$$2xe^{x^2}$",
+   "options": [
+    {
+     "text": "$$2xe^{x^2}$",
+     "correct": true,
+     "explanation": "Using the chain rule, differentiating the outer exponential leaves $e^{x^2}$, while differentiating the inner function $x^2$ gives the multiplier $2x$."
+    },
+    {
+     "text": "$$e^{x^2}$",
+     "correct": false,
+     "explanation": "This omits the derivative of the inner function $x^2$. The chain rule supplies a factor of $2x$, so the derivative is $2xe^{x^2}$."
+    },
+    {
+     "text": "$$2xe^x$",
+     "correct": false,
+     "explanation": "This differentiates the exponent incorrectly by replacing $x^2$ with $x$. The exponential remains $e^{x^2}$ and is multiplied by $2x$, giving $2xe^{x^2}$."
+    },
+    {
+     "text": "$$x^2e^{x^2}$",
+     "correct": false,
+     "explanation": "This multiplies by the original inner function rather than its derivative. Since $\\frac{d}{dx}(x^2)=2x$, the chain rule gives $2xe^{x^2}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "c2309868-1e2b-4ab2-bca6-f614cc9252de",
+   "card_type": "basic",
+   "front": "How is a stationary point of inflection identified using a sign test?",
+   "back": "The gradient $\\frac{dy}{dx}$ has the same sign on both sides of the point.",
+   "options": [
+    {
+     "text": "The gradient $\\frac{dy}{dx}$ has the same sign on both sides of the point.",
+     "correct": true,
+     "explanation": "At a stationary point of inflection, the gradient is zero at the point but does not change sign, so the function continues increasing or decreasing through it."
+    },
+    {
+     "text": "The gradient $\\frac{dy}{dx}$ has the opposite sign on both sides of the point.",
+     "correct": false,
+     "explanation": "Opposite gradient signs indicate a change between increasing and decreasing, which identifies a local maximum or minimum. At a stationary inflection, the gradient has the same sign on both sides."
+    },
+    {
+     "text": "The gradient $\\frac{dy}{dx}$ is equal to zero on both sides of the point.",
+     "correct": false,
+     "explanation": "A gradient cannot be described as zero throughout both sides merely because it is zero at the stationary point. The required test is that its sign remains the same across the point."
+    },
+    {
+     "text": "The gradient $\\frac{dy}{dx}$ has the same value on both sides of the point.",
+     "correct": false,
+     "explanation": "Equal gradient values on either side are not required and generally do not occur. A stationary point of inflection is identified when the gradient retains the same sign across the point."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "b9392229-53b4-4f1a-94bb-b25fd1e8fc5e",
+   "card_type": "basic",
+   "front": "Differentiate $y = \\cos x$.",
+   "back": "$$-\\sin x$",
+   "options": [
+    {
+     "text": "$$-\\sin x$",
+     "correct": true,
+     "explanation": "The standard trigonometric derivative is $\\frac{d}{dx}(\\cos x)=-\\sin x$. The negative sign reflects that cosine decreases immediately to the right of $x=0$."
+    },
+    {
+     "text": "$$\\sin x$",
+     "correct": false,
+     "explanation": "This misses the negative sign in the standard derivative of cosine. Since cosine initially decreases from its maximum at $x=0$, its derivative is $-\\sin x$."
+    },
+    {
+     "text": "$$\\cos x$",
+     "correct": false,
+     "explanation": "This incorrectly treats cosine as unchanged by differentiation. The standard trigonometric derivative is $\\frac{d}{dx}(\\cos x)=-\\sin x$."
+    },
+    {
+     "text": "$$-\\cos x$",
+     "correct": false,
+     "explanation": "Negating the original function is not the differentiation rule for cosine. Differentiation changes cosine to negative sine, so the correct result is $-\\sin x$."
+    }
+   ],
+   "points": 1
+  }
+ ],
+ "card_count": 20,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/a-level-pure-mathematics-9-differentiation/flashcards",
+ "source_sha256": "26b4f13a3d8356da87d1c25ac27c670e64548e06b9385da0f8788a78700bd1e5",
+ "extracted_at": "2026-11-08T19:00:05Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-3 run-001)",
+ "task_id": "T-MG-FC-3"
+}

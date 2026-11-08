@@ -1,0 +1,148 @@
+{
+ "topic": "as-mechanics-3-variable-acceleration",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "title": "Variable Acceleration Flashcards",
+ "cards": [
+  {
+   "id": "05685aa6-6f97-4840-6df8-8bff21da2114",
+   "card_type": "basic",
+   "front": "Why can SUVAT formulae not be used for variable acceleration?",
+   "back": "SUVAT only applies when acceleration is constant.",
+   "points": 1
+  },
+  {
+   "id": "d6b614f4-1fac-4487-0ab5-c2e3f87050e9",
+   "card_type": "cloze",
+   "front": "To find velocity ($v$) from displacement ($s$), you must [ ___ ] with respect to time ($t$).",
+   "back": "To find velocity ($v$) from displacement ($s$), you must differentiate with respect to time ($t$)."
+  },
+  {
+   "id": "9c1145f9-569b-d772-19ec-e5ca39d366da",
+   "card_type": "cloze",
+   "front": "To find acceleration ($a$) from velocity ($v$), you must [ ___ ] with respect to time ($t$).",
+   "back": "To find acceleration ($a$) from velocity ($v$), you must differentiate with respect to time ($t$)."
+  },
+  {
+   "id": "c8c86aeb-ee67-915a-c637-354cc66f0b52",
+   "card_type": "basic",
+   "front": "How do you calculate velocity from acceleration?",
+   "back": "Integrate acceleration with respect to time: $v = \\int a \\, dt$Include a constant of integration ($+C$)",
+   "points": 2
+  },
+  {
+   "id": "8bc92a81-570b-aa58-168b-c8d1e4c0eba4",
+   "card_type": "cloze",
+   "front": "To find displacement ($s$) from velocity ($v$), you must [ ___ ] with respect to time ($t$).",
+   "back": "To find displacement ($s$) from velocity ($v$), you must integrate with respect to time ($t$)."
+  },
+  {
+   "id": "03521977-391f-c58e-6af8-30baf15a6e46",
+   "card_type": "basic",
+   "front": "In mechanics, what does the term initially imply about the variable $t$?",
+   "back": "$$t = 0$",
+   "points": 1
+  },
+  {
+   "id": "93830e7f-a8c8-4fe4-7faf-77c04101f42d",
+   "card_type": "cloze",
+   "front": "When integrating to find displacement or velocity, you must always include a [ ___ ] (e.g., $+C$).",
+   "back": "When integrating to find displacement or velocity, you must always include a constant of integration (e.g., $+C$)."
+  },
+  {
+   "id": "a275bcf0-829f-d0d5-8eda-16aab18b4f8f",
+   "card_type": "basic",
+   "front": "What condition is met when a particle is instantaneously at rest?",
+   "back": "$$v = 0$",
+   "points": 1
+  },
+  {
+   "id": "61420d18-c653-2e07-c6bc-e1ec8a26f241",
+   "card_type": "basic",
+   "front": "What is the physical difference between displacement and distance?",
+   "back": "Displacement: signed position relative to a fixed point.Distance: total length of the path travelled (always positive).",
+   "points": 2
+  },
+  {
+   "id": "6041b19a-78b8-0c85-a374-9b4d176d765d",
+   "card_type": "cloze",
+   "front": "On a velocity-time graph, displacement is the [ ___ ] under the graph.",
+   "back": "On a velocity-time graph, displacement is the signed area under the graph."
+  },
+  {
+   "id": "56a01a2b-554b-2cbd-e0f3-c9ad7220c864",
+   "card_type": "cloze",
+   "front": "On a velocity-time graph, total distance is the [ ___ ] (treating negative areas as positive).",
+   "back": "On a velocity-time graph, total distance is the total area (treating negative areas as positive)."
+  },
+  {
+   "id": "cf1a1e71-9d83-b521-259a-6f035f07bb52",
+   "card_type": "basic",
+   "front": "How do you find the distance between two positions where a particle is at rest?",
+   "back": "Find times $t_1$ and $t_2$ where $v=0$.Calculate the magnitude of the displacement change: $|\\int_{t_1}^{t_2} v \\, dt|$.",
+   "points": 2
+  },
+  {
+   "id": "7f0dba7d-b792-9cbf-e49a-e8d4dbca114f",
+   "card_type": "basic",
+   "front": "What must be done to calculate total distance if velocity changes sign during the interval?",
+   "back": "Solve $v = 0$ to find turning points.Split the integral into sections at these times.Add the absolute values of the displacement for each section.",
+   "points": 3
+  },
+  {
+   "id": "6ada0409-ab31-c45c-4c18-142e859e9444",
+   "card_type": "basic",
+   "front": "What is the calculus relationship between displacement ($s$) and acceleration ($a$)?",
+   "back": "$$a = \\frac{d^2s}{dt^2}$ (Differentiate displacement twice).",
+   "points": 1
+  },
+  {
+   "id": "7fa6d260-1b3f-0527-e335-b6406e1a011a",
+   "card_type": "basic",
+   "front": "How do you find the time when a particle's acceleration is zero given its velocity function?",
+   "back": "Differentiate $v$ to find $a = \\frac{dv}{dt}$.Set the expression for $a$ to zero and solve for $t$.",
+   "points": 2
+  },
+  {
+   "id": "65bbd782-4081-973a-67fe-c3d4cab2080a",
+   "card_type": "basic",
+   "front": "What units are typically used for acceleration in variable acceleration problems?",
+   "back": "m s$^{-2}$",
+   "points": 1
+  },
+  {
+   "id": "e0c85c23-b3f4-4b37-ac6b-83ecd29e227d",
+   "card_type": "basic",
+   "front": "In piecewise motion, how is the constant of integration found for the second time interval?",
+   "back": "Use the final velocity/displacement from the first interval as the starting condition for the second.",
+   "points": 2
+  },
+  {
+   "id": "695c71a4-807b-3c1b-a7cf-91440748b0c3",
+   "card_type": "cloze",
+   "front": "A negative displacement value means the particle is in the [ ___ ] relative to the origin.",
+   "back": "A negative displacement value means the particle is in the negative direction relative to the origin."
+  },
+  {
+   "id": "9e4b2d5b-a34b-1c0e-42c4-4e82980283e6",
+   "card_type": "basic",
+   "front": "If $a = 6t - 12$ and $v(0) = 9$, what is the velocity function?",
+   "back": "$$v = 3t^2 - 12t + 9$",
+   "points": 2
+  },
+  {
+   "id": "7fb0c4ff-5bb5-cd11-561d-505d9872b16b",
+   "card_type": "basic",
+   "front": "Why is it incorrect to use a piecewise formula for $t > 3$ to calculate displacement at $t = 2$?",
+   "back": "Formulae are only valid within their specified time intervals.",
+   "points": 1
+  }
+ ],
+ "card_count": 20,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/as-mechanics-3-variable-acceleration/flashcards",
+ "source_sha256": "e71496714aff49d77a68328325f430ce3b714c37da26a581d45e0903697ae6db",
+ "extracted_at": "2026-11-08T19:00:05Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-3 run-001)",
+ "task_id": "T-MG-FC-3"
+}
