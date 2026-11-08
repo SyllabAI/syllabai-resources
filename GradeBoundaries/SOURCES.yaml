@@ -53,6 +53,25 @@ structure_metadata:
     - https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/Science%20(Double%20Award)/2024/specification-and-sample-assessments/international-gcse-science-da-modular-specification.pdf (4XSD1 unit structure)
   law: composition/structure metadata only; boundary values always document-sourced
 
+qualification_structure:
+  file: curated/structure.json
+  schema: syllabai.grade-boundaries.structure/1
+  stored_pdfs: raw/specs/
+  sources:
+    - id: pearson-4mb1-specification
+      url: https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/Mathematics%20B/2016/Specification%20and%20sample%20assessments/international-gcse-in-mathematics-spec-b.pdf
+      sha256: 62d4534ba1c0aee42ce2d3e7fd1da8083fd03216dd106da11ae590525d3187a5
+      retrieved: 2026-11-07
+      usedFor: 4MB1 assessment requirements (paper codes 4MB1/01+02, 100 marks
+        each, 33 1/3% vs 66 2/3% weights, 1h30/2h30, Higher tier)
+    - id: pearson-int-gcse-grade-boundaries-2606
+      url: https://qualifications.pearson.com/content/dam/pdf/Support/Grade-boundaries/International-GCSE/grade-boundaries-june-2026-international-gcse.pdf
+      sha256: 9c5627002aeba93e21062705d05da8d39a51364f841617efd335f49d1c3b8abe
+      retrieved: 2026-11-07
+      usedFor: 4MB1 subject-row maxMark 300 cross-check (weighted total)
+  law: full-sha256-pinned official specs; Σ(rawMax×weightFactor) must equal
+    the graded total; the total must match the boundaries-document maxMark
+
 sessions_probed: January/June/October/November 2019-2026 (covid gaps + unpublished
   docs recorded in raw/fetch-missing.json)
 

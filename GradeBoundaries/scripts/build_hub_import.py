@@ -14,6 +14,15 @@ A present-but-empty optional array is exactly the shape the hub prebuild
 validator rejects; the honest emission omits the key entirely. Applies to
 every optional series array, generator-wide, with a fail-loud post-build
 guard.
+
+T-GB-STRUCT-1 — the structure law: curated/structure.json carries each
+qualification's official structure (paper codes, raw maxima, weightings,
+graded-total derivation, award rules) transcribed from full-sha256-pinned
+specification documents; the generator attaches the resolved block to the
+matching course entry. Structure is metadata only — boundary VALUES stay
+document-sourced per series. validate.py G-STRUCT checks the arithmetic
+(Σ rawMax×weightFactor == total.maxMark) and the cross-check against the
+boundaries-document maxMark.
 """
 from __future__ import annotations
 
@@ -27,6 +36,7 @@ from gb_common import HUB_IMPORT, LANE, MAPPING, PARSED, fail, now_utc
 
 BUNDLE = HUB_IMPORT / "bundle.json"
 AGGREGATION = LANE / "curated" / "aggregation.json"
+STRUCTURE = LANE / "curated" / "structure.json"
 
 
 def sha16(s: str) -> str:
@@ -67,6 +77,46 @@ def load_aggregation() -> dict:
     if not AGGREGATION.exists():
         return {}
     return json.loads(AGGREGATION.read_text())
+
+
+def load_structure() -> dict:
+    """Curated qualification STRUCTURE of record (T-GB-STRUCT-1): papers,
+    official weightings, graded-total derivation and award rules, every
+    value transcribed from full-sha256-pinned specification documents.
+    Boundary values never come from here."""
+    if not STRUCTURE.exists():
+        return {}
+    return json.loads(STRUCTURE.read_text())
+
+
+def apply_structure(row: dict, entry: dict, structure: dict) -> None:
+    """Attach the curated structure block to a built course entry.
+
+    Keyed by course code (4MB1; IAL cash-ins would key by Y-code). The
+    embedded block is self-contained: the curated sources[] pins matching
+    the course's sourceIds are resolved into it so the hub renders
+    provenance without reading this lane. Absent structure -> absent key
+    (honest absence, never a stub)."""
+    s = (structure.get("courses") or {}).get(row["code"])
+    if not s:
+        return
+    by_id = {src["id"]: src for src in structure.get("sources", [])}
+    resolved = [by_id[i] for i in s.get("sourceIds", []) if i in by_id]
+    missing = [i for i in s.get("sourceIds", []) if i not in by_id]
+    if missing:
+        fail(f"structure.json {row['code']}: sourceIds not resolvable: "
+             f"{missing}")
+    st = s["structure"]
+    entry["structure"] = {
+        "kind": st["kind"],
+        "gradeScale": s.get("gradeScale"),
+        "papers": st["papers"],
+        "total": st["total"],
+        "awardRules": s.get("awardRules"),
+        "sources": [{"id": x["id"], "title": x["title"], "url": x["url"],
+                     "sha256_16": x["sha256"][:16], "usedFor": x["usedFor"]}
+                    for x in resolved],
+    }
 
 
 def read_map() -> list[dict]:
@@ -449,6 +499,7 @@ def cie_course_entry(row: dict) -> dict | None:
 def main() -> None:
     courses = read_map()
     aggregation = load_aggregation()
+    structure = load_structure()
     docs = {fam: load_family(fam) for fam in (
         "pearson-int-gcse-linear", "pearson-int-gcse-modular", "pearson-ial")}
     out_courses: dict[str, dict] = {}
@@ -463,6 +514,7 @@ def main() -> None:
         elif fam == "cie":
             entry = cie_course_entry(row)
         if entry:
+            apply_structure(row, entry, structure)
             out_courses[row["slug"]] = entry
             served += 1
         else:
@@ -481,10 +533,13 @@ def main() -> None:
                          man.read_text().splitlines() if ln.strip()]
     # v2: the units-absent emission law (run-003) — the generator string
     # names the law bump so downstream imports can tell the shapes apart.
+    # v3 (T-GB-STRUCT-1): curated qualification-structure blocks attached
+    # per course (papers/weights/total/awardRules + resolved sha-pinned
+    # sources); bundle schema bumps to /1.1.
     bundle = {
-        "schema": "syllabai.grade-boundaries/1.0",
+        "schema": "syllabai.grade-boundaries/1.1",
         "generated": now_utc(),
-        "generator": "GradeBoundaries/scripts/build_hub_import.py v2",
+        "generator": "GradeBoundaries/scripts/build_hub_import.py v3",
         "source": {
             "lane": "SyllabAI/syllabai-resources GradeBoundaries",
             "documents": len(manifest_rows),

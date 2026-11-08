@@ -13,6 +13,12 @@ G3 COVERAGE    (a) the MathsGenie golden corpus overlaps >= 6 sessions;
                structurally sound: every composed unit exists in each
                session with UMS data, and the required units' UMS maxima
                (+ one optional pair) sum to the cash-in maximum.
+G-STRUCT       (T-GB-STRUCT-1) every embedded qualification-structure
+               block is arithmetically sound and provenance-complete:
+               Σ(rawMax×weightFactor) == total.maxMark, weights sum to
+               the whole, >= 1 full-sha-pinned source per block, and the
+               graded total equals the boundaries-document maxMark on
+               every served session.
 
 Fail-loud: any gate failure exits 1 with the offending rows printed.
 """
@@ -271,6 +277,78 @@ def check_aggregation(bundle: dict, docs_by_family: dict[str, list[dict]]) \
     return errs, infos
 
 
+def check_structure(bundle: dict) -> list[str]:
+    """G-STRUCT (T-GB-STRUCT-1): embedded structure blocks must be
+    arithmetically sound and provenance-complete. The arithmetic law:
+    Σ(rawMax × weightFactor) == total.maxMark — this is precisely the
+    'Maths B shows 300, not 200' fact, now checked instead of assumed."""
+    errs: list[str] = []
+    n_struct = 0
+    for slug, entry in bundle["courses"].items():
+        st = entry.get("structure")
+        if not st:
+            continue
+        n_struct += 1
+        head = f"structure {slug}"
+        papers = st.get("papers") or []
+        if not papers:
+            errs.append(f"{head}: no papers")
+            continue
+        total = st.get("total") or {}
+        if not isinstance(total.get("maxMark"), int) or total["maxMark"] <= 0:
+            errs.append(f"{head}: total.maxMark missing/invalid")
+            continue
+        weight_sum = 0.0
+        weighted_total = 0
+        for p in papers:
+            pf = f"{head} {p.get('code', '?')}"
+            raw = p.get("rawMax")
+            wf = p.get("weightFactor")
+            w = p.get("weight") or {}
+            if not isinstance(raw, int) or raw <= 0:
+                errs.append(f"{pf}: rawMax missing/invalid")
+                continue
+            if not isinstance(wf, int) or wf < 1:
+                errs.append(f"{pf}: weightFactor missing/< 1")
+                continue
+            if not (isinstance(w.get("num"), int)
+                    and isinstance(w.get("den"), int) and w["den"] > 0):
+                errs.append(f"{pf}: weight num/den missing")
+                continue
+            weight_sum += w["num"] / w["den"]
+            weighted_total += raw * wf
+        if weighted_total != total["maxMark"]:
+            errs.append(f"{head}: Σ(rawMax×weightFactor)={weighted_total} "
+                        f"!= total.maxMark {total['maxMark']}")
+        if papers and abs(weight_sum - 1.0) > 1e-9:
+            errs.append(f"{head}: weights sum to {weight_sum!r}, not 1")
+        srcs = st.get("sources") or []
+        if not srcs:
+            errs.append(f"{head}: no resolved sources")
+        for s in srcs:
+            if not s.get("sha256_16") or len(s["sha256_16"]) != 16:
+                errs.append(f"{head} source {s.get('id', '?')}: no sha pin")
+            if not s.get("url"):
+                errs.append(f"{head} source {s.get('id', '?')}: no url")
+        if not st.get("awardRules"):
+            errs.append(f"{head}: awardRules absent (no stubs)")
+        # cross-document consistency: the graded total must equal the
+        # boundaries-document maxMark on every served session
+        calc = entry.get("calculator") or {}
+        if calc.get("mode") == "linear-total" \
+                and calc.get("maxMark") != total["maxMark"]:
+            errs.append(f"{head}: calculator.maxMark {calc.get('maxMark')} "
+                        f"!= structure total {total['maxMark']}")
+        for sr in entry.get("series", []):
+            if sr.get("maxMark") is not None \
+                    and sr["maxMark"] != total["maxMark"]:
+                errs.append(f"{head} {sr['session']}: boundaries maxMark "
+                            f"{sr['maxMark']} != structure total "
+                            f"{total['maxMark']}")
+    print(f"STRUCTURE: {n_struct} structure blocks checked")
+    return errs
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--skip-parity", action="store_true")
@@ -382,6 +460,8 @@ def main() -> None:
         errors += agg_errs
         for i in agg_infos[:12]:
             print("  info:", i)
+        # ---- G-STRUCT: qualification-structure soundness (T-GB-STRUCT-1) ----
+        errors += check_structure(bundle)
     else:
         errors.append(f"bundle missing: {BUNDLE}")
 

@@ -1,0 +1,54 @@
+{
+  "schema": "syllabai.receipt/1",
+  "task": "T-GB-STRUCT-1 (run-001, qualification STRUCTURE of record \u2014 4MB1 pilot)",
+  "generated": "2026-11-08T15:30:11Z",
+  "trace": "55e0d4895a68bf0d",
+  "resources_pr": "SyllabAI/syllabai-resources#317 (open)",
+  "v2_pr": "SyllabAI/syllabai-v2#860 (merged 8048c552 \u2014 review-of-record on the synced head db074cef0: CI verify/census/hub/previews all green, verdict approved-and-merged)",
+  "bundle_sha256_16": "5d80e1c8f59ffd43",
+  "manifest_note": "raw/MANIFEST.jsonl rebuilt as the honest 159-row current corpus (sha16 a71dad2e318a8046); the committed 144-row copy froze an operator-local fetch state that is not reproducible from the committed corpus. CIE byte counts recovered by sha-verified re-download. Serving content unaffected (deep-compare asserted).",
+  "official_sources": [
+    {
+      "id": "pearson-4mb1-specification",
+      "sha256": "62d4534ba1c0aee42ce2d3e7fd1da8083fd03216dd106da11ae590525d3187a5",
+      "role": "Assessment requirements: paper codes 4MB1/01 + 4MB1/02, 100 marks each, Paper 1 weighted 33 1/3% (1h 30m), Paper 2 weighted 66 2/3% (2h 30m), both Higher; stored at raw/specs/4MB1-specification.pdf"
+    },
+    {
+      "id": "pearson-int-gcse-grade-boundaries-2606",
+      "sha256": "9c5627002aeba93e21062705d05da8d39a51364f841617efd335f49d1c3b8abe",
+      "role": "Cross-check: 4MB1 subject row prints maxMark 300 (the weighted total, not 200 raw) with overall 9-1 boundaries"
+    }
+  ],
+  "structure_of_record": {
+    "course": "4MB1 (igcse-maths-b-16)",
+    "papers": [
+      {
+        "code": "4MB1/01",
+        "rawMax": 100,
+        "weight": "1/3",
+        "weightFactor": 1
+      },
+      {
+        "code": "4MB1/02",
+        "rawMax": 100,
+        "weight": "2/3",
+        "weightFactor": 2
+      }
+    ],
+    "total": {
+      "maxMark": 300,
+      "derivation": "100x1 + 100x2 = 300"
+    },
+    "awardRules": "linear 9-1: no unit-grade or A* aggregate conditions"
+  },
+  "gates": {
+    "validate_pre": "exit 0 (G1/G2/G3 on the committed corpus; STRUCTURE 0 blocks)",
+    "validate_post": "exit 0 (40 Pearson docs 0 errors; PARITY 8/8 exact; CIE 30/31 with 1 honest absence; AGGREGATION 29/29; G-STRUCT 1/1)",
+    "bundle_deep_compare": "the structure block on igcse-maths-b-16 + schema 1.0->1.1 + generator v2->v3 ONLY; all other courses/series/values byte-equal"
+  },
+  "next_lanes": [
+    "T-GB-STRUCT-2: audit fan-out (IGCSE linear family) \u2014 structure + award rules from the pinned specs, gap report per course",
+    "T-GB-STRUCT-3: IAL modular family \u2014 award rules from the Information Manual for the 16 aggregate-ums courses without an aStar law",
+    "extractor discovery: survey the official PDF corpus for further info-class gaps (UMS conversion tables, cash-in codes, session availability, tiers, non-graded components)"
+  ]
+}
