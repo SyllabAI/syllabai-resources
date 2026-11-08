@@ -1,0 +1,155 @@
+{
+ "topic": "grade-6-6-12-box-plots",
+ "lane": "gcse-maths-edexcel",
+ "grade": "6",
+ "tier": null,
+ "title": "Box Plots",
+ "summary": "Learn how box plots summarise data clearly using medians, quartiles, ranges, and comparisons.",
+ "blocks": [
+  {
+   "kind": "paragraph",
+   "text": "## Box Plots"
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "bbdb937f-739f-4603-89ac-9de31994a8fc",
+     "prompt": "A box plot has a minimum of $6$, lower quartile $14$, median $22$, upper quartile $31$ and maximum $40$. What is the interquartile range?",
+     "options": [
+      {
+       "text": "$9$",
+       "correct": false
+      },
+      {
+       "text": "$34$",
+       "correct": false
+      },
+      {
+       "text": "$17$",
+       "correct": true
+      },
+      {
+       "text": "$25$",
+       "correct": false
+      }
+     ],
+     "explanation": "The interquartile range is the width of the box: $Q_3-Q_1=31-14=17$."
+    },
+    {
+     "id": "80033d79-05cd-4bae-81a8-a1b1ee474f2e",
+     "prompt": "A box plot has a maximum of $67$ and a range of $48$. What is the minimum?",
+     "options": [
+      {
+       "text": "$19$",
+       "correct": true
+      },
+      {
+       "text": "$26$",
+       "correct": false
+      },
+      {
+       "text": "$48$",
+       "correct": false
+      },
+      {
+       "text": "$115$",
+       "correct": false
+      }
+     ],
+     "explanation": "Since range $=$ maximum $-$ minimum, the minimum is $67-48=19$."
+    },
+    {
+     "id": "e53ddf20-ded5-44d4-a4ac-9b256757a179",
+     "prompt": "The ordered data set is $4,6,7,9,10,12,13,15,17,18,20$. What are $Q_1$, the median and $Q_3$?",
+     "options": [
+      {
+       "text": "$8,12,16$",
+       "correct": false
+      },
+      {
+       "text": "$7,10,17$",
+       "correct": false
+      },
+      {
+       "text": "$4,12,20$",
+       "correct": false
+      },
+      {
+       "text": "$7,12,17$",
+       "correct": true
+      }
+     ],
+     "explanation": "The middle value is $12$. Excluding it, the medians of the lower and upper halves are $7$ and $17$, so the quartiles are $7,12,17$."
+    },
+    {
+     "id": "bc6344bb-c9f1-4489-b97e-7999c48ce6c9",
+     "prompt": "Runner A has median time $56$ seconds and interquartile range $12$ seconds. Runner B has median time $58$ seconds and interquartile range $6$ seconds. Which conclusion is correct?",
+     "options": [
+      {
+       "text": "Runner B was typically faster and more consistent.",
+       "correct": false
+      },
+      {
+       "text": "Runner A was typically faster and Runner B was more consistent.",
+       "correct": true
+      },
+      {
+       "text": "Runner A was typically faster and more consistent.",
+       "correct": false
+      },
+      {
+       "text": "Runner B was typically faster and Runner A was more consistent.",
+       "correct": false
+      }
+     ],
+     "explanation": "A lower median time means Runner A was typically faster. A smaller interquartile range means Runner B's times were more consistent."
+    },
+    {
+     "id": "bccbc4f6-5008-43e6-b838-94de61ccfeaf",
+     "prompt": "A cumulative frequency graph represents $80$ test scores. The scores read at cumulative frequencies $20$, $40$ and $60$ are $45$, $58$ and $74$. The minimum is $7$ and the maximum is $92$. Which five-number summary should be used to draw a box plot?",
+     "options": [
+      {
+       "text": "$7,20,40,60,92$",
+       "correct": false
+      },
+      {
+       "text": "$7,40,58,74,92$",
+       "correct": false
+      },
+      {
+       "text": "$7,45,58,74,92$",
+       "correct": true
+      },
+      {
+       "text": "$7,45,60,74,92$",
+       "correct": false
+      }
+     ],
+     "explanation": "For $80$ values, the quartiles are located at cumulative frequencies $20$, $40$ and $60$. Their corresponding scores are $45$, $58$ and $74$, giving $7,45,58,74,92$."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/6PQ8ivz1V2E"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-6-6-12-box-plots/revision-guides",
+ "source_sha256": "254fa51a275076b5bff011ae574a91c73ce67e31b1bfc3fea4d9c51eedb4cbaa",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "a7a6d676-9247-4c84-af24-b6bdb8e7c7de",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/box-plots.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207930887,
+  "figure_count": 0,
+  "block_counts": {
+   "paragraph": 1,
+   "mcq-set": 1
+  }
+ }
+}

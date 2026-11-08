@@ -1,0 +1,153 @@
+{
+ "topic": "grade-5-5-7-expanding-and-factorising-quadratics",
+ "lane": "gcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "title": "Expanding and Factorising Quadratics",
+ "summary": "Learn how brackets create quadratics and how to reverse the process by spotting pairs of numbers.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "7d9a65de-23c6-4c14-a7b6-d871481855e3",
+     "prompt": "Expand and simplify $(x + 4)(x - 7)$.",
+     "options": [
+      {
+       "text": "$x^2 - 11x - 28$",
+       "correct": false
+      },
+      {
+       "text": "$x^2 - 3x - 28$",
+       "correct": true
+      },
+      {
+       "text": "$x^2 + 3x - 28$",
+       "correct": false
+      },
+      {
+       "text": "$x^2 - 28$",
+       "correct": false
+      }
+     ],
+     "explanation": "Multiplying each pair gives $x^2 - 7x + 4x - 28$. The middle terms combine to $-3x$, so the result is $x^2 - 3x - 28$."
+    },
+    {
+     "id": "a33befab-dd52-400f-b2e9-c5f9792c173c",
+     "prompt": "Expand and simplify $(3x - 2)(2x + 5)$.",
+     "options": [
+      {
+       "text": "$6x^2 + 19x - 10$",
+       "correct": false
+      },
+      {
+       "text": "$5x^2 + 11x - 10$",
+       "correct": false
+      },
+      {
+       "text": "$6x^2 - 11x - 10$",
+       "correct": false
+      },
+      {
+       "text": "$6x^2 + 11x - 10$",
+       "correct": true
+      }
+     ],
+     "explanation": "Expanding gives $6x^2 + 15x - 4x - 10$. Collecting the middle terms gives $6x^2 + 11x - 10$."
+    },
+    {
+     "id": "cbe042a6-b8a9-44e5-9516-c51b17edc23f",
+     "prompt": "Expand and simplify $(y - 5)^2$.",
+     "options": [
+      {
+       "text": "$y^2 - 10y + 25$",
+       "correct": true
+      },
+      {
+       "text": "$y^2 - 25$",
+       "correct": false
+      },
+      {
+       "text": "$y^2 + 10y + 25$",
+       "correct": false
+      },
+      {
+       "text": "$y^2 + 25$",
+       "correct": false
+      }
+     ],
+     "explanation": "The square means $(y - 5)(y - 5)$. This expands to $y^2 - 5y - 5y + 25 = y^2 - 10y + 25$."
+    },
+    {
+     "id": "e5b06406-62ae-4547-ae1d-61edb7fb1213",
+     "prompt": "Factorise $x^2 + 2x - 35$.",
+     "options": [
+      {
+       "text": "$(x - 7)(x + 5)$",
+       "correct": false
+      },
+      {
+       "text": "$(x + 7)(x + 5)$",
+       "correct": false
+      },
+      {
+       "text": "$(x + 7)(x - 5)$",
+       "correct": true
+      },
+      {
+       "text": "$(x - 7)(x - 5)$",
+       "correct": false
+      }
+     ],
+     "explanation": "The two numbers must multiply to $-35$ and add to $2$. These numbers are $7$ and $-5$, so the factorisation is $(x + 7)(x - 5)$."
+    },
+    {
+     "id": "21d3ddf2-1a6b-4afd-ac1e-26ffd7d5cb7e",
+     "prompt": "Factorise fully $9x^2 - 16$.",
+     "options": [
+      {
+       "text": "$(9x - 4)(x + 4)$",
+       "correct": false
+      },
+      {
+       "text": "$(3x - 4)(3x + 4)$",
+       "correct": true
+      },
+      {
+       "text": "$(3x - 4)^2$",
+       "correct": false
+      },
+      {
+       "text": "$(9x - 16)(x + 1)$",
+       "correct": false
+      }
+     ],
+     "explanation": "This is a difference of two squares: $9x^2 - 16 = (3x)^2 - 4^2$. Therefore it factorises as $(3x - 4)(3x + 4)$."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/iDZeDqsLPQY"
+  },
+  {
+   "embed_url": "https://www.youtube.com/embed/FRRkLZt31S0"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-5-5-7-expanding-and-factorising-quadratics/revision-guides",
+ "source_sha256": "fcb22e7bae5c8e685113265039ca1b607f3f8e32615d446f3a3029f6a0d2809e",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "d76776ef-85a1-47f0-8c0a-5c69a75f6008",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/expanding-and-factorising-quadratics.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207930277,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

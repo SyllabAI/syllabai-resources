@@ -1,0 +1,150 @@
+{
+ "topic": "grade-7-7-12-the-sine-rule",
+ "lane": "gcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "title": "The Sine Rule",
+ "summary": "Master the sine rule for linking opposite angles and sides when right-angle trigonometry is not enough.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "305fd493-0183-4f1c-95c7-c5429b735d46",
+     "prompt": "In triangle $ABC$, $AB=8$ cm, angle $A=50^\\circ$ and angle $B=70^\\circ$. Which complete opposite pair can be used in the sine rule?",
+     "options": [
+      {
+       "text": "$AB=8$ cm and angle $C=60^\\circ$",
+       "correct": true
+      },
+      {
+       "text": "$AB=8$ cm and angle $A=50^\\circ$",
+       "correct": false
+      },
+      {
+       "text": "$AB=8$ cm and angle $B=70^\\circ$",
+       "correct": false
+      },
+      {
+       "text": "$AC=8$ cm and angle $C=60^\\circ$",
+       "correct": false
+      }
+     ],
+     "explanation": "The angles total $180^\\circ$, so $C=180^\\circ-50^\\circ-70^\\circ=60^\\circ$. Side $AB$ is opposite angle $C$, giving the pair $AB=8$ cm and $C=60^\\circ$."
+    },
+    {
+     "id": "6274bb89-cbcf-4dda-a8d3-d736e7444068",
+     "prompt": "In triangle $PQR$, $PR=10$ cm, angle $Q=80^\\circ$ and angle $R=40^\\circ$. Work out $PQ$ to 1 decimal place.",
+     "options": [
+      {
+       "text": "$15.3$ cm",
+       "correct": false
+      },
+      {
+       "text": "$7.4$ cm",
+       "correct": false
+      },
+      {
+       "text": "$6.5$ cm",
+       "correct": true
+      },
+      {
+       "text": "$8.8$ cm",
+       "correct": false
+      }
+     ],
+     "explanation": "Side $PQ$ is opposite $40^\\circ$ and $PR$ is opposite $80^\\circ$. Therefore $\\frac{PQ}{\\sin40^\\circ}=\\frac{10}{\\sin80^\\circ}$, so $PQ=10\\frac{\\sin40^\\circ}{\\sin80^\\circ}=6.5$ cm."
+    },
+    {
+     "id": "55c5ad51-8912-436a-9545-3a0218847c41",
+     "prompt": "In triangle $JKL$, $JK=9$ cm, $JL=8$ cm and angle $L=50^\\circ$. Work out angle $K$ to 1 decimal place.",
+     "options": [
+      {
+       "text": "$59.5^\\circ$",
+       "correct": false
+      },
+      {
+       "text": "$42.9^\\circ$",
+       "correct": true
+      },
+      {
+       "text": "$137.1^\\circ$",
+       "correct": false
+      },
+      {
+       "text": "$50.0^\\circ$",
+       "correct": false
+      }
+     ],
+     "explanation": "Side $JL=8$ is opposite $K$, while $JK=9$ is opposite $L$. Hence $\\frac{\\sin K}{8}=\\frac{\\sin50^\\circ}{9}$, giving $K=\\sin^{-1}\\!\\left(\\frac{8\\sin50^\\circ}{9}\\right)=42.9^\\circ$."
+    },
+    {
+     "id": "ce39e1a7-9bdb-45cd-9a6a-a3523ac7c3fe",
+     "prompt": "Triangle $ABC$ has $AC=20$ cm, $AB=14$ cm and angle $C=35^\\circ$. Angle $B$ is obtuse. Find angle $B$ to 3 significant figures.",
+     "options": [
+      {
+       "text": "$35.0^\\circ$",
+       "correct": false
+      },
+      {
+       "text": "$145^\\circ$",
+       "correct": false
+      },
+      {
+       "text": "$125^\\circ$",
+       "correct": true
+      },
+      {
+       "text": "$55.0^\\circ$",
+       "correct": false
+      }
+     ],
+     "explanation": "The sine rule gives $\\sin B=\\frac{20\\sin35^\\circ}{14}$, producing an acute value of about $55.0^\\circ$. Since $B$ is stated to be obtuse, use the supplementary angle: $B=180^\\circ-55.0^\\circ=125^\\circ$."
+    },
+    {
+     "id": "43434707-eb61-44f1-8c79-dfca35603112",
+     "prompt": "Triangle $LMN$ has $LM=10$ cm, angle $L=64^\\circ$ and angle $N=46^\\circ$. Work out its area to 1 decimal place.",
+     "options": [
+      {
+       "text": "$44.9$ cm$^2$",
+       "correct": false
+      },
+      {
+       "text": "$47.0$ cm$^2$",
+       "correct": false
+      },
+      {
+       "text": "$61.4$ cm$^2$",
+       "correct": false
+      },
+      {
+       "text": "$58.7$ cm$^2$",
+       "correct": true
+      }
+     ],
+     "explanation": "First, $M=180^\\circ-64^\\circ-46^\\circ=70^\\circ$. The sine rule gives $LN=\\frac{10\\sin70^\\circ}{\\sin46^\\circ}\\approx13.06$ cm. Then area $=\\frac12\\times10\\times13.06\\times\\sin64^\\circ=58.7$ cm$^2$."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/4vQqDLu86qg"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-7-7-12-the-sine-rule/revision-guides",
+ "source_sha256": "a63229b0fe03d792f32c76bf8dfcdf89addb975425a347fa5f1ecb50b5201fda",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "de7e6f13-0ea6-47c1-9083-3ca376fb16d7",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/sine-rule.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207931706,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

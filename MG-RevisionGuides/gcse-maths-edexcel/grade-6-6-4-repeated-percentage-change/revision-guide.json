@@ -1,0 +1,155 @@
+{
+ "topic": "grade-6-6-4-repeated-percentage-change",
+ "lane": "gcse-maths-edexcel",
+ "grade": "6",
+ "tier": null,
+ "title": "Repeated Percentage Change",
+ "summary": "Explore how percentage multipliers solve growth, decay, compound interest and shape changes efficiently.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "9bdde611-62b8-47bd-982b-63746d729a0d",
+     "prompt": "An investment of £200 grows by 10% each year for 3 years. What is it worth after 3 years?",
+     "options": [
+      {
+       "text": "£220",
+       "correct": false
+      },
+      {
+       "text": "£242",
+       "correct": false
+      },
+      {
+       "text": "£260",
+       "correct": false
+      },
+      {
+       "text": "£266.20",
+       "correct": true
+      }
+     ],
+     "explanation": "A 10% increase has multiplier $1.10$. Repeating it for 3 years gives $200\\times1.10^3=£266.20$."
+    },
+    {
+     "id": "78a5c4a2-ed7e-44af-8b3e-69f2fb3a0002",
+     "prompt": "A car worth £500 depreciates by 12% each year. What is it worth after 2 years?",
+     "options": [
+      {
+       "text": "£380",
+       "correct": false
+      },
+      {
+       "text": "£387.20",
+       "correct": true
+      },
+      {
+       "text": "£390",
+       "correct": false
+      },
+      {
+       "text": "£440",
+       "correct": false
+      }
+     ],
+     "explanation": "A 12% decrease has multiplier $0.88$. After 2 years, its value is $500\\times0.88^2=£387.20$."
+    },
+    {
+     "id": "23d02be1-2c5b-40fd-970d-0034e18dcfb2",
+     "prompt": "A price of £50 is reduced by 20% and then increased by 20%. What is the final price?",
+     "options": [
+      {
+       "text": "£48",
+       "correct": true
+      },
+      {
+       "text": "£50",
+       "correct": false
+      },
+      {
+       "text": "£52",
+       "correct": false
+      },
+      {
+       "text": "£60",
+       "correct": false
+      }
+     ],
+     "explanation": "The combined multiplier is $0.80\\times1.20=0.96$, so the final price is $50\\times0.96=£48$. The changes do not cancel because they are applied to different amounts."
+    },
+    {
+     "id": "f11a6cab-0bc1-428d-b2d6-a7bccf0433ef",
+     "prompt": "An account is worth £1102.50 after earning 5% compound interest for 2 years. How much was invested at the start?",
+     "options": [
+      {
+       "text": "£992.25",
+       "correct": false
+      },
+      {
+       "text": "£1050",
+       "correct": false
+      },
+      {
+       "text": "£1000",
+       "correct": true
+      },
+      {
+       "text": "£1002.27",
+       "correct": false
+      }
+     ],
+     "explanation": "Work backwards by dividing by the repeated multiplier: $1102.50\\div1.05^2=£1000$."
+    },
+    {
+     "id": "b79189c9-a822-4175-a3dd-789346f7071c",
+     "prompt": "An investment increases from £1000 to £1210 over 2 years at a fixed annual compound interest rate. What is the annual interest rate?",
+     "options": [
+      {
+       "text": "21%",
+       "correct": false
+      },
+      {
+       "text": "11%",
+       "correct": false
+      },
+      {
+       "text": "10.5%",
+       "correct": false
+      },
+      {
+       "text": "10%",
+       "correct": true
+      }
+     ],
+     "explanation": "The two-year multiplier is $1210\\div1000=1.21$. The annual multiplier is $\\sqrt{1.21}=1.10$, so the annual interest rate is 10%."
+    }
+   ]
+  },
+  {
+   "kind": "paragraph",
+   "text": "70:[\"$\",\"$L87\",null,{\"bund"
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/ngqNvTma_Ig"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-6-6-4-repeated-percentage-change/revision-guides",
+ "source_sha256": "c4771f4e9009c6953584614ef337f371a39e5239a02c2c0b3dbf6060c439fefd",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "a62bd460-3170-4809-af0b-e04a61f630c4",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/repeated-percentage-change.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207931078,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1,
+   "paragraph": 1
+  }
+ }
+}

@@ -1,0 +1,150 @@
+{
+ "topic": "grade-4-4-3-prime-factors-hcf-and-lcm",
+ "lane": "gcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "title": "Prime Factors, HCF and LCM",
+ "summary": "Learn to break numbers into primes, then use them to solve HCF, LCM and repeat-timing problems.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "b7b8b141-23cf-452a-bee3-8568eaf070a5",
+     "prompt": "Write $96$ as a product of prime factors using index notation.",
+     "options": [
+      {
+       "text": "$2^4 \\times 3$",
+       "correct": false
+      },
+      {
+       "text": "$2^3 \\times 3^2$",
+       "correct": false
+      },
+      {
+       "text": "$2^5 \\times 3$",
+       "correct": true
+      },
+      {
+       "text": "$2^4 \\times 6$",
+       "correct": false
+      }
+     ],
+     "explanation": "Dividing repeatedly by $2$ gives $96=2\\times2\\times2\\times2\\times2\\times3$, so $96=2^5\\times3$. The expression $2^4\\times6$ equals $96$, but $6$ is not prime."
+    },
+    {
+     "id": "77d5c7d8-69d2-483b-aedb-5cf3b2c83b69",
+     "prompt": "Find the HCF of $48$ and $60$.",
+     "options": [
+      {
+       "text": "$12$",
+       "correct": true
+      },
+      {
+       "text": "$240$",
+       "correct": false
+      },
+      {
+       "text": "$6$",
+       "correct": false
+      },
+      {
+       "text": "$24$",
+       "correct": false
+      }
+     ],
+     "explanation": "The prime factorizations are $48=2^4\\times3$ and $60=2^2\\times3\\times5$. Taking the common primes with their lowest powers gives $2^2\\times3=12$."
+    },
+    {
+     "id": "e7991b02-f1e2-4c27-b74d-23c9ec8027be",
+     "prompt": "Given $A=2^3\\times3$ and $B=2\\times3^2\\times5$, find the LCM of $A$ and $B$.",
+     "options": [
+      {
+       "text": "$2\\times3$",
+       "correct": false
+      },
+      {
+       "text": "$2^3\\times3^2$",
+       "correct": false
+      },
+      {
+       "text": "$2^4\\times3^3\\times5$",
+       "correct": false
+      },
+      {
+       "text": "$2^3\\times3^2\\times5$",
+       "correct": true
+      }
+     ],
+     "explanation": "For the LCM, include every prime using its highest power in either number. This gives $2^3\\times3^2\\times5$."
+    },
+    {
+     "id": "6018b54a-4f5b-40bf-8221-b22529d8b383",
+     "prompt": "A red light flashes every $45$ seconds and a blue light flashes every $2$ minutes. They flash together at 10:00. When will they next flash together?",
+     "options": [
+      {
+       "text": "10:01:30",
+       "correct": false
+      },
+      {
+       "text": "10:06",
+       "correct": true
+      },
+      {
+       "text": "10:02",
+       "correct": false
+      },
+      {
+       "text": "11:30",
+       "correct": false
+      }
+     ],
+     "explanation": "First convert $2$ minutes to $120$ seconds. The LCM of $45$ and $120$ is $360$ seconds, which is $6$ minutes, so they next flash together at 10:06."
+    },
+    {
+     "id": "e252b72a-4ab5-4af4-a386-594dce13ccd9",
+     "prompt": "Two whole numbers greater than $10$ have HCF $8$ and LCM $120$. Which pair could they be?",
+     "options": [
+      {
+       "text": "$8$ and $120$",
+       "correct": false
+      },
+      {
+       "text": "$16$ and $60$",
+       "correct": false
+      },
+      {
+       "text": "$24$ and $40$",
+       "correct": true
+      },
+      {
+       "text": "$32$ and $120$",
+       "correct": false
+      }
+     ],
+     "explanation": "For $24$ and $40$, the HCF is $8$ and the LCM is $120$. The other pairs either have the wrong HCF or include a number that is not greater than $10$."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/Q1W-Now_k4M"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-4-4-3-prime-factors-hcf-and-lcm/revision-guides",
+ "source_sha256": "624373a707c0c142e5ca034900bef5a25bd67259410d512dce99531b877451bf",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "9c0fbc67-888b-4318-be7c-dfcf85432de8",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/HCFLCM.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207928364,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

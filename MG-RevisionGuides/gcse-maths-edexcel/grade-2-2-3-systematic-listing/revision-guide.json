@@ -1,0 +1,306 @@
+{
+ "topic": "grade-2-2-3-systematic-listing",
+ "lane": "gcse-maths-edexcel",
+ "grade": "2",
+ "tier": null,
+ "title": "Systematic Listing",
+ "summary": "Build organised lists so no possible meal, card number, dice roll or result gets missed.",
+ "blocks": [
+  {
+   "kind": "paragraph",
+   "text": "We use systematic listing to list all of the possible outcomes of an event or all the possible combinations. Listing in a systematic way helps to make sure we do not miss any possible outcomes."
+  },
+  {
+   "kind": "worked-example",
+   "title": "Example 1: Here is a restaurant menu.",
+   "steps": [
+    {
+     "heading": null,
+     "body": "| Mains | Desserts |\n|",
+     "figure_refs": []
+    }
+   ]
+  },
+  {
+   "kind": "paragraph",
+   "text": "|"
+  },
+  {
+   "kind": "paragraph",
+   "text": "|\n| Pizza | Cheesecake |\n| Pasta | Crumble |\n| Burger | Ice Cream |"
+  },
+  {
+   "kind": "heading",
+   "text": "List all the possible combinations of one main and one dessert."
+  },
+  {
+   "kind": "paragraph",
+   "text": "We can start by picking the first main, Pizza. If we pick Pizza, we then have 3 options for dessert."
+  },
+  {
+   "kind": "paragraph",
+   "text": "Pizza and Cheesecake  \nPizza and Crumble  \nPizza and Ice Cream"
+  },
+  {
+   "kind": "paragraph",
+   "text": "We now have all the possible options involving pizza, so we can move on to the next main:"
+  },
+  {
+   "kind": "paragraph",
+   "text": "Pasta and Cheesecake  \nPasta and Crumble  \nPasta and Ice Cream"
+  },
+  {
+   "kind": "paragraph",
+   "text": "And finally we can list all options with the third main:"
+  },
+  {
+   "kind": "paragraph",
+   "text": "Burger and Cheesecake  \nBurger and Crumble  \nBurger and Ice Cream"
+  },
+  {
+   "kind": "paragraph",
+   "text": "We have now listed all the possible options for one main and one dessert."
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "4c9e2273-e505-4cab-8ebe-b81186bfc177",
+     "prompt": "A café offers cheese or tuna sandwiches and water, juice or milk. Which list shows all the possible choices of one sandwich and one drink?",
+     "options": [
+      {
+       "text": "Cheese-water, Cheese-juice, Tuna-water, Tuna-juice",
+       "correct": false
+      },
+      {
+       "text": "Cheese-water, Cheese-juice, Cheese-milk, Tuna-water, Tuna-juice, Tuna-milk",
+       "correct": true
+      },
+      {
+       "text": "Cheese-water, Cheese-milk, Tuna-juice, Tuna-milk",
+       "correct": false
+      },
+      {
+       "text": "Cheese-water, Cheese-juice, Cheese-milk, Tuna-water, Tuna-juice, Tuna-milk, Tuna-water",
+       "correct": false
+      }
+     ],
+     "explanation": "Pair each sandwich with all three drinks. This gives six different choices, with none missing or repeated."
+    },
+    {
+     "id": "200797d3-2c92-41ac-8d0a-1ec346e6990c",
+     "prompt": "A cinema offers tickets for 2 films at 4 different start times. How many different choices of one film and one start time are possible?",
+     "options": [
+      {
+       "text": "6",
+       "correct": false
+      },
+      {
+       "text": "4",
+       "correct": false
+      },
+      {
+       "text": "2",
+       "correct": false
+      },
+      {
+       "text": "8",
+       "correct": true
+      }
+     ],
+     "explanation": "Each of the 2 films can be paired with all 4 start times, so there are $2 \\times 4=8$ choices."
+    }
+   ]
+  },
+  {
+   "kind": "worked-example",
+   "title": "Example 2: Here are three number cards",
+   "steps": [
+    {
+     "heading": null,
+     "body": "1   7   5**Write down all the possible two-digit numbers that can be made with these cards.**\n\nWe can start with all the numbers with 1 in the tens\n\n17 and 15\n\nNext we can list all the numbers with 7 in the tens\n\n71 and 75\n\nFinally we can have 5 in the tens\n\n51 and 57\n\nWe have now listed all the possible two-digit numbers.",
+     "figure_refs": []
+    }
+   ]
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "805365c8-ef65-4e1e-b968-d24801bffca5",
+     "prompt": "Cards show 4, 4 and 7. You use all three cards to make different three-digit numbers. Which list is complete?",
+     "options": [
+      {
+       "text": "447, 744",
+       "correct": false
+      },
+      {
+       "text": "447, 474, 744",
+       "correct": true
+      },
+      {
+       "text": "444, 447, 474, 744",
+       "correct": false
+      },
+      {
+       "text": "447, 474, 744, 774",
+       "correct": false
+      }
+     ],
+     "explanation": "The possible numbers are 447, 474 and 744. Numbers such as 444 and 774 cannot be made because they require cards that are not available."
+    },
+    {
+     "id": "67b3dfe8-c29a-47cb-8755-db7a0363a0fd",
+     "prompt": "How many different two-digit numbers can be made using the digits 2, 5 and 8 if each digit can be used only once?",
+     "options": [
+      {
+       "text": "9",
+       "correct": false
+      },
+      {
+       "text": "3",
+       "correct": false
+      },
+      {
+       "text": "5",
+       "correct": false
+      },
+      {
+       "text": "6",
+       "correct": true
+      }
+     ],
+     "explanation": "There are 3 choices for the tens digit and then 2 remaining choices for the units digit, giving $3 \\times 2=6$ numbers."
+    },
+    {
+     "id": "6a8a770a-bdf9-4891-8376-0a2d1aa0f3d7",
+     "prompt": "A coin is tossed three times. How many possible outcomes contain exactly two heads?",
+     "options": [
+      {
+       "text": "1",
+       "correct": false
+      },
+      {
+       "text": "2",
+       "correct": false
+      },
+      {
+       "text": "3",
+       "correct": true
+      },
+      {
+       "text": "4",
+       "correct": false
+      }
+     ],
+     "explanation": "Systematically listing the outcomes gives HHT, HTH and THH, so there are 3 outcomes with exactly two heads."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "text": "Try this:"
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "bd82827c-4503-4141-97ec-4fab621b88db",
+     "prompt": "A restaurant offers 3 main courses and 2 desserts. How many different combinations of one main course and one dessert are possible?",
+     "options": [
+      {
+       "text": "5",
+       "correct": false
+      },
+      {
+       "text": "6",
+       "correct": true
+      },
+      {
+       "text": "8",
+       "correct": false
+      },
+      {
+       "text": "9",
+       "correct": false
+      }
+     ],
+     "explanation": null
+    },
+    {
+     "id": "84e2f012-e6e5-4e62-8566-38403f4fef5b",
+     "prompt": "Sarah is choosing an outfit. She has 2 different hats, 3 different t-shirts, and 2 different pairs of shorts. How many different outfits can she make, consisting of one hat, one t-shirt, and one pair of shorts?",
+     "options": [
+      {
+       "text": "7",
+       "correct": false
+      },
+      {
+       "text": "8",
+       "correct": false
+      },
+      {
+       "text": "12",
+       "correct": true
+      },
+      {
+       "text": "18",
+       "correct": false
+      }
+     ],
+     "explanation": null
+    },
+    {
+     "id": "4746354f-7d39-4170-962f-2e6937d4fba4",
+     "prompt": "How many different 2-digit numbers can be formed using the digits 4, 5, and 6, if digits can be repeated?",
+     "options": [
+      {
+       "text": "3",
+       "correct": false
+      },
+      {
+       "text": "6",
+       "correct": false
+      },
+      {
+       "text": "9",
+       "correct": true
+      },
+      {
+       "text": "12",
+       "correct": false
+      }
+     ],
+     "explanation": null
+    }
+   ]
+  },
+  {
+   "kind": "paragraph",
+   "text": "70:"
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/C6nIqYYmq38"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-2-2-3-systematic-listing/revision-guides",
+ "source_sha256": "5c55bf19642d3b6f9b650096ceadd9a7a09bc7e6661a9cfa9deec88e27600d95",
+ "extracted_at": "2026-11-08T17:51:37Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "c632139a-5b65-420e-ab9c-e1dd0441428f",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/systematic-listing.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207925202,
+  "figure_count": 0,
+  "block_counts": {
+   "paragraph": 11,
+   "worked-example": 2,
+   "heading": 2,
+   "mcq-set": 3
+  }
+ }
+}

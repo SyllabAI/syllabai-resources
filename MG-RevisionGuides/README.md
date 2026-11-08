@@ -1,6 +1,6 @@
 # MG-RevisionGuides — MathsGenie revision notes
 
-**Status:** SCAFFOLD (run-001, organization law of record) — extraction waves follow under `T-MG-RG-*`
+**Status:** LIVE (T-MG-RG-1 run-001) — `gcse-maths-edexcel` lane of record (132/132 guides); other waves follow under `T-MG-RG-*`
 **Source chain:** `mathsgenie.co.uk` → `SyllabAI/MathsGenie` catalog crawl → this plane
 **Sibling planes:** [`../MG-QuestionBank/`](../MG-QuestionBank/) · [`../MG-Flashcards/`](../MG-Flashcards/) · [`../MG-Lessons/`](../MG-Lessons/) — identical lane grammar everywhere.
 
@@ -56,3 +56,9 @@ Math stays **verbatim** (Wiris MathML or LaTeX as found) — same rule as `SME-R
 
 - Task-ID'd runs (`T-MG-RG-1`, …), worklog evidence, `LEDGER.md` wave entry, receipt JSON, gates green; scripts as `mg_*.py` in `../scripts/`.
 - Crosswalk: `igcse-maths-edexcel` ↔ SME lane `igcse-maths-a-18-{foundation,higher}`; GCSE maths lanes are new corpus territory (no SME equivalent).
+
+## Coverage of record
+
+| lane | guides | notes |
+|---|---|---|
+| `gcse-maths-edexcel` | 132/134 catalog topics (2 not-offered) | T-MG-RG-1 run-001 — 1,680 blocks (135 worked examples, 292 mcq-sets), 312 figures; grammar amended with `figure` + `mcq-set` blocks |

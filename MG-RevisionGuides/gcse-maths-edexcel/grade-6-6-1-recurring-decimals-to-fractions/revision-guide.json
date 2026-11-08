@@ -1,0 +1,150 @@
+{
+ "topic": "grade-6-6-1-recurring-decimals-to-fractions",
+ "lane": "gcse-maths-edexcel",
+ "grade": "6",
+ "tier": null,
+ "title": "Recurring Decimals to Fractions",
+ "summary": "Turn repeating decimals into exact fractions using place value, powers of 10, and a neat subtraction trick.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "3147ac7b-4d8a-4501-a1b6-24f84919fb5a",
+     "prompt": "Write $0.777...$ as a fraction in its simplest form.",
+     "options": [
+      {
+       "text": "$\\frac{7}{10}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{7}{9}$",
+       "correct": true
+      },
+      {
+       "text": "$\\frac{7}{99}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{70}{99}$",
+       "correct": false
+      }
+     ],
+     "explanation": "Let $x=0.777...$. Then $10x=7.777...$, so $10x-x=7$ and therefore $9x=7$. Hence $x=\\frac{7}{9}$."
+    },
+    {
+     "id": "4da2c7a0-40ef-4015-8b5f-154aa3aef601",
+     "prompt": "Write $0.2666...$ as a fraction in its simplest form.",
+     "options": [
+      {
+       "text": "$\\frac{13}{50}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{26}{99}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{4}{15}$",
+       "correct": true
+      },
+      {
+       "text": "$\\frac{13}{45}$",
+       "correct": false
+      }
+     ],
+     "explanation": "Let $x=0.2666...$. Subtracting $10x$ from $100x$ cancels the recurring digits: $90x=24$. Therefore $x=\\frac{24}{90}=\\frac{4}{15}$."
+    },
+    {
+     "id": "d9ad9a95-f0a6-4c40-a7e0-0d9a406dcada",
+     "prompt": "Write $1.5272727...$ as a fraction in its simplest form, where the $5$ occurs once and $27$ repeats.",
+     "options": [
+      {
+       "text": "$\\frac{1527}{1000}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{1526}{999}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{509}{330}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{84}{55}$",
+       "correct": true
+      }
+     ],
+     "explanation": "Let $x=1.5272727...$. The recurring tails align in $1000x=1527.2727...$ and $10x=15.2727...$. Subtracting gives $990x=1512$, so $x=\\frac{1512}{990}=\\frac{84}{55}$."
+    },
+    {
+     "id": "8f6d79a7-b960-4a8f-86ff-d1b0d9a672b6",
+     "prompt": "Let $x=0.3121212...$, where the $3$ occurs once and $12$ repeats. Which two multiples should be subtracted to cancel the recurring tails?",
+     "options": [
+      {
+       "text": "$1000x \\text{ and } 10x$",
+       "correct": true
+      },
+      {
+       "text": "$100x \\text{ and } x$",
+       "correct": false
+      },
+      {
+       "text": "$100x \\text{ and } 10x$",
+       "correct": false
+      },
+      {
+       "text": "$1000x \\text{ and } x$",
+       "correct": false
+      }
+     ],
+     "explanation": "Multiplying by $10$ moves past the one non-recurring digit. Multiplying by a further $100$ accounts for the two-digit recurring block, so the matching tails occur in $1000x$ and $10x$."
+    },
+    {
+     "id": "07cda922-94de-4a62-9728-81afa55ba31a",
+     "prompt": "Work out $0.1666... \\div 0.2222...$.",
+     "options": [
+      {
+       "text": "$\\frac{1}{27}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{4}{3}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{3}{4}$",
+       "correct": true
+      },
+      {
+       "text": "$\\frac{2}{3}$",
+       "correct": false
+      }
+     ],
+     "explanation": "First convert the decimals: $0.1666...=\\frac{1}{6}$ and $0.2222...=\\frac{2}{9}$. Then $\\frac{1}{6}\\div\\frac{2}{9}=\\frac{1}{6}\\times\\frac{9}{2}=\\frac{3}{4}$."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/RCeeVmVuvGU"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-6-6-1-recurring-decimals-to-fractions/revision-guides",
+ "source_sha256": "e095eeead56883b951835354ee3e5893c00fe5c44acec6b9ddbdf7c4a9fb443e",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "2a44f465-c332-4818-a134-bf66ef71532d",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/recurring.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207930912,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

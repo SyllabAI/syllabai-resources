@@ -1,0 +1,153 @@
+{
+ "topic": "grade-8-9-8-3-proof",
+ "lane": "gcse-maths-edexcel",
+ "grade": "8",
+ "tier": null,
+ "title": "Proof",
+ "summary": "Learn how to turn patterns into algebra that proves a result is true for every possible case.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "548b1fbb-e1c6-4a67-88c7-4e843d0a90bb",
+     "prompt": "For integer $n$, simplify $(3n+2)^2-(3n-2)^2$. Which result proves that the expression is divisible by $12$?",
+     "options": [
+      {
+       "text": "$18n^2+8$",
+       "correct": false
+      },
+      {
+       "text": "$12n$",
+       "correct": false
+      },
+      {
+       "text": "$24n$",
+       "correct": true
+      },
+      {
+       "text": "$9n^2+4$",
+       "correct": false
+      }
+     ],
+     "explanation": "Expanding gives $(9n^2+12n+4)-(9n^2-12n+4)=24n$. Since $24n=12(2n)$ and $2n$ is an integer, the expression is divisible by $12$."
+    },
+    {
+     "id": "83939ce3-0255-4879-9c58-c0e64fc523ff",
+     "prompt": "Which list represents three consecutive odd integers for every integer $n$?",
+     "options": [
+      {
+       "text": "$2n+1,\\ 2n+3,\\ 2n+5$",
+       "correct": true
+      },
+      {
+       "text": "$n,\\ n+2,\\ n+4$",
+       "correct": false
+      },
+      {
+       "text": "$2n,\\ 2n+2,\\ 2n+4$",
+       "correct": false
+      },
+      {
+       "text": "$2n+1,\\ 2n+2,\\ 2n+3$",
+       "correct": false
+      }
+     ],
+     "explanation": "Every number of the form $2n+1$ is odd. Consecutive odd integers differ by $2$, giving $2n+1$, $2n+3$ and $2n+5$."
+    },
+    {
+     "id": "c47fba70-895b-4719-a882-01f80a42a650",
+     "prompt": "For integer $n$, which factorised form proves that the sum of three consecutive even integers, $2n+(2n+2)+(2n+4)$, is divisible by $6$?",
+     "options": [
+      {
+       "text": "$2(3n+1)$",
+       "correct": false
+      },
+      {
+       "text": "$6(n+2)$",
+       "correct": false
+      },
+      {
+       "text": "$6n+4$",
+       "correct": false
+      },
+      {
+       "text": "$6(n+1)$",
+       "correct": true
+      }
+     ],
+     "explanation": "The sum is $6n+6=6(n+1)$. Since $n+1$ is an integer, this is always a multiple of $6$."
+    },
+    {
+     "id": "ed61083f-44f7-4195-9302-b5317acd7da9",
+     "prompt": "Which form proves that $(n+7)(n+6)+(n+7)$ is a square number for every integer $n$?",
+     "options": [
+      {
+       "text": "$(n+6)^2$",
+       "correct": false
+      },
+      {
+       "text": "$(n+7)^2$",
+       "correct": true
+      },
+      {
+       "text": "$(n+13)^2$",
+       "correct": false
+      },
+      {
+       "text": "$(n+7)(n+6)$",
+       "correct": false
+      }
+     ],
+     "explanation": "Factor out $n+7$: $(n+7)((n+6)+1)=(n+7)(n+7)=(n+7)^2$, which is a square number."
+    },
+    {
+     "id": "f074610b-1416-46eb-8af8-26d66287ddbd",
+     "prompt": "The expression $(2n+3)^2+(2n+5)^2$ simplifies to $8n^2+32n+34$. Which rewrite proves that it is always $2$ more than a multiple of $8$?",
+     "options": [
+      {
+       "text": "$8(n^2+4n)+2$",
+       "correct": false
+      },
+      {
+       "text": "$8(n^2+4n+4)+4$",
+       "correct": false
+      },
+      {
+       "text": "$8(n^2+4n+4)+2$",
+       "correct": true
+      },
+      {
+       "text": "$8(n^2+2n+4)+2$",
+       "correct": false
+      }
+     ],
+     "explanation": "Write $34$ as $32+2$: $8n^2+32n+34=8(n^2+4n+4)+2$. The bracket is an integer, so the expression is $2$ more than a multiple of $8$."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/Z6Cuamz3uj8"
+  },
+  {
+   "embed_url": "https://www.youtube.com/embed/qrJloOkkS0U"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-8-9-8-3-proof/revision-guides",
+ "source_sha256": "edbddda64a6a130b00c28ac8eda67b970e4f25981e8a57d7bc48226e9d658f47",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "43b26cd8-7e93-4fc8-a39a-dac79fbe5abe",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/proof.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207933423,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

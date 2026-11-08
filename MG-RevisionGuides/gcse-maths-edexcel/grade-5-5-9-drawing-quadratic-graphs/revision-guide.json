@@ -1,0 +1,150 @@
+{
+ "topic": "grade-5-5-9-drawing-quadratic-graphs",
+ "lane": "gcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "title": "Drawing Quadratic Graphs",
+ "summary": "Learn to build tables, plot smooth parabolas, and read roots, turning points and equation solutions from quadratic graphs.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "23545d40-6a0e-43c0-a1b6-83ef70cb5022",
+     "prompt": "For $y=x^2-x-4$, which coordinate should be plotted when $x=3$?",
+     "options": [
+      {
+       "text": "$(3,-2)$",
+       "correct": false
+      },
+      {
+       "text": "$(3,2)$",
+       "correct": true
+      },
+      {
+       "text": "$(2,3)$",
+       "correct": false
+      },
+      {
+       "text": "$(-3,2)$",
+       "correct": false
+      }
+     ],
+     "explanation": "Substitute $x=3$: $y=3^2-3-4=9-3-4=2$. Therefore, the coordinate is $(3,2)$."
+    },
+    {
+     "id": "152a437a-ad24-449f-9173-b9ccce31d975",
+     "prompt": "Which statement describes the graph of $y=4x-x^2$?",
+     "options": [
+      {
+       "text": "It opens upwards and has a lowest point",
+       "correct": false
+      },
+      {
+       "text": "It opens upwards and has a highest point",
+       "correct": false
+      },
+      {
+       "text": "It opens downwards and has a highest point",
+       "correct": true
+      },
+      {
+       "text": "It is a straight line",
+       "correct": false
+      }
+     ],
+     "explanation": "The coefficient of $x^2$ is negative because $y=-x^2+4x$. Therefore, the quadratic graph opens downwards and has a highest point."
+    },
+    {
+     "id": "323fb20a-2a91-4769-abdf-99a5a1fc64ea",
+     "prompt": "A quadratic graph crosses the $x$-axis at $(-2,0)$ and $(4,0)$. What are its roots?",
+     "options": [
+      {
+       "text": "$1$ and $-9$",
+       "correct": false
+      },
+      {
+       "text": "$0$ and $0$",
+       "correct": false
+      },
+      {
+       "text": "$-2$ and $0$",
+       "correct": false
+      },
+      {
+       "text": "$-2$ and $4$",
+       "correct": true
+      }
+     ],
+     "explanation": "The roots are the $x$-coordinates where the graph crosses the $x$-axis, so the roots are $-2$ and $4$."
+    },
+    {
+     "id": "768efcbb-dd5d-469c-994a-3a444e35c352",
+     "prompt": "For $y=x^2-2x-1$, what is the value of $y$ when $x=-2$?",
+     "options": [
+      {
+       "text": "$7$",
+       "correct": true
+      },
+      {
+       "text": "$-1$",
+       "correct": false
+      },
+      {
+       "text": "$3$",
+       "correct": false
+      },
+      {
+       "text": "$-9$",
+       "correct": false
+      }
+     ],
+     "explanation": "Substitute $x=-2$: $y=(-2)^2-2(-2)-1=4+4-1=7$. Take care that squaring a negative number gives a positive result."
+    },
+    {
+     "id": "f6c1bcc9-edcf-4656-981f-f082370d27ae",
+     "prompt": "What is the turning point of the graph $y=x^2-6x+5$?",
+     "options": [
+      {
+       "text": "$(1,0)$",
+       "correct": false
+      },
+      {
+       "text": "$(5,0)$",
+       "correct": false
+      },
+      {
+       "text": "$(3,-4)$",
+       "correct": true
+      },
+      {
+       "text": "$(-3,32)$",
+       "correct": false
+      }
+     ],
+     "explanation": "The roots are $x=1$ and $x=5$, so the axis of symmetry is halfway between them at $x=3$. Substituting gives $y=3^2-6(3)+5=-4$, so the turning point is $(3,-4)$."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/rM_A8t0CV7A"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-5-5-9-drawing-quadratic-graphs/revision-guides",
+ "source_sha256": "fbca03269000e5bce87af5477b3bec8b366c5345e210694beeb0624afd3c94ec",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "7538c5e7-a694-4472-baa6-1cbef8ba40e7",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/quadratic-graphs.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207930445,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

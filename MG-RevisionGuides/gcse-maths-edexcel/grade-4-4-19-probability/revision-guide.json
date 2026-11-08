@@ -1,0 +1,150 @@
+{
+ "topic": "grade-4-4-19-probability",
+ "lane": "gcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "title": "Probability",
+ "summary": "Turn chance into predictions by filling gaps, sharing remainders, and linking probabilities to real counts.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "046b5eba-c305-43b9-85c4-8d8fa2dd6897",
+     "prompt": "A biased coin has a probability of $0.62$ of landing on heads. It is tossed 150 times. Estimate the number of times it will land on heads.",
+     "options": [
+      {
+       "text": "93",
+       "correct": true
+      },
+      {
+       "text": "57",
+       "correct": false
+      },
+      {
+       "text": "62",
+       "correct": false
+      },
+      {
+       "text": "150",
+       "correct": false
+      }
+     ],
+     "explanation": "Estimated frequency is probability multiplied by the number of trials: $0.62 \\times 150 = 93$."
+    },
+    {
+     "id": "9d912f81-6fea-43b5-8f17-51ea1da7c22b",
+     "prompt": "A box contains red, blue, green and white beads. The probabilities of choosing red and white are $0.30$ and $0.10$. Blue is twice as likely as green. There are 30 white beads. How many blue beads are there?",
+     "options": [
+      {
+       "text": "60",
+       "correct": false
+      },
+      {
+       "text": "90",
+       "correct": false
+      },
+      {
+       "text": "120",
+       "correct": true
+      },
+      {
+       "text": "180",
+       "correct": false
+      }
+     ],
+     "explanation": "The total number of beads is $30 \\div 0.10=300$. Blue and green have probability $1-0.30-0.10=0.60$. Splitting this in the ratio $2:1$ gives blue probability $0.40$, so there are $0.40\\times300=120$ blue beads."
+    },
+    {
+     "id": "c88971a7-8c51-4462-9b78-59f99f176546",
+     "prompt": "Red, blue and yellow counters are in the ratio $2:3:5$. What is the probability of choosing a yellow counter?",
+     "options": [
+      {
+       "text": "$\\frac{5}{8}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{1}{2}$",
+       "correct": true
+      },
+      {
+       "text": "$\\frac{2}{5}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{3}{10}$",
+       "correct": false
+      }
+     ],
+     "explanation": "There are $2+3+5=10$ ratio parts altogether, of which 5 are yellow. Therefore, the probability is $\\frac{5}{10}=\\frac{1}{2}$."
+    },
+    {
+     "id": "4b09bf20-2aad-4c34-ae71-56e4d5fed011",
+     "prompt": "A spinner can land on 1, 2, 3 or 4. The probabilities are $0.18$, $0.25$, $0.31$ and $0.26$ respectively. What is the probability that it lands on 2 or 4?",
+     "options": [
+      {
+       "text": "$0.26$",
+       "correct": false
+      },
+      {
+       "text": "$0.06$",
+       "correct": false
+      },
+      {
+       "text": "$0.49$",
+       "correct": false
+      },
+      {
+       "text": "$0.51$",
+       "correct": true
+      }
+     ],
+     "explanation": "Landing on 2 and landing on 4 are mutually exclusive outcomes, so their probabilities are added: $0.25+0.26=0.51$."
+    },
+    {
+     "id": "81496b7e-1318-4df3-b48a-df3d01854c74",
+     "prompt": "A spinner can land only on red, blue or green. The probability of red is $0.28$ and the probability of blue is $0.45$. What is the probability of green?",
+     "options": [
+      {
+       "text": "$0.27$",
+       "correct": true
+      },
+      {
+       "text": "$0.17$",
+       "correct": false
+      },
+      {
+       "text": "$0.73$",
+       "correct": false
+      },
+      {
+       "text": "$0.55$",
+       "correct": false
+      }
+     ],
+     "explanation": "The probabilities of all possible outcomes total 1. Therefore, the probability of green is $1-0.28-0.45=0.27$."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/QDnDtxDEHWg"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-4-4-19-probability/revision-guides",
+ "source_sha256": "8d9e7875cf1a97fe9198af8033fd0b86e61d9d5173419202bb50bad394f46627",
+ "extracted_at": "2026-11-08T17:51:37Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "b357a79d-1fa4-477a-8167-5010a8d148ea",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/probability2.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207927755,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

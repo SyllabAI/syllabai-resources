@@ -1,0 +1,373 @@
+{
+ "topic": "grade-3-3-13-substitution",
+ "lane": "gcse-maths-edexcel",
+ "grade": "3",
+ "tier": null,
+ "title": "Substitution",
+ "summary": "Learn how to replace letters with numbers carefully, including negatives, brackets, powers and formulae.",
+ "blocks": [
+  {
+   "kind": "paragraph",
+   "text": "Substitution means putting a number into a formula or expression in place of a letter"
+  },
+  {
+   "kind": "worked-example",
+   "title": "Example 1: Find the value of 4a + b when a = 5 and b = 3",
+   "steps": [
+    {
+     "heading": null,
+     "body": "In this question we are going to change a into 5 and b into 3\n\nWe cannot write 45 + 3 because 4b means 4 times b  \nWe can instead use brackets to substitute the numbers into the expression:  \n4(5) + (3)\n\n4(5) means 4 × 5  \n4 × 5 = 20\n\nWe now have: 20 + 3  \n20 + 3 = 23",
+     "figure_refs": []
+    }
+   ]
+  },
+  {
+   "kind": "worked-example",
+   "title": "Example 2: Find the value of 4a - 3b when a = 7 and b = 2",
+   "steps": [
+    {
+     "heading": null,
+     "body": "This time we are going to change a into 7 and b into 2\n\nWe can use brackets to substitute the numbers into the expression:  \n4(7) - 3(2)\n\n4(7) means 4 × 7  \n4 × 7 = 28\n\n3(2) means 3 × 2  \n3 × 2 = 6\n\nWe now have: 28 - 6  \n28 - 6 = 22",
+     "figure_refs": []
+    }
+   ]
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "9fb38296-5926-4b05-9f7d-cc3ae1018c27",
+     "prompt": "Given $a=4$ and $b=7$, work out $3a+2b$.",
+     "options": [
+      {
+       "text": "$19$",
+       "correct": false
+      },
+      {
+       "text": "$21$",
+       "correct": false
+      },
+      {
+       "text": "$26$",
+       "correct": true
+      },
+      {
+       "text": "$33$",
+       "correct": false
+      }
+     ],
+     "explanation": "Substitute the values and multiply first: $3(4)+2(7)=12+14=26$."
+    },
+    {
+     "id": "fbaab265-6074-45ba-b293-19880978ff1f",
+     "prompt": "Given $m=6$ and $n=2$, work out $5m-4n$.",
+     "options": [
+      {
+       "text": "$22$",
+       "correct": true
+      },
+      {
+       "text": "$38$",
+       "correct": false
+      },
+      {
+       "text": "$18$",
+       "correct": false
+      },
+      {
+       "text": "$10$",
+       "correct": false
+      }
+     ],
+     "explanation": "Substitution gives $5(6)-4(2)=30-8=22$. The terms are subtracted, not added."
+    }
+   ]
+  },
+  {
+   "kind": "worked-example",
+   "title": "Example 3: Find the value of 4a² - 3b when a = 3 and b = 7",
+   "steps": [
+    {
+     "heading": null,
+     "body": "4(3)² - 3(7)\n\nThe order of operations tells us that the first step is to square the 3\n\n3² = 9\n\nWe now have: 4(9) - 3(7)\n\n4 × 9 = 36  \n3 × 7 = 21\n\n36 - 21 = 15",
+     "figure_refs": []
+    }
+   ]
+  },
+  {
+   "kind": "worked-example",
+   "title": "Example 4: Find the value of 5a² - ab when a = -3 and b = -2",
+   "steps": [
+    {
+     "heading": null,
+     "body": "5(-3)² - (-3)(-2)\n\nThe order of operations tells us that the first step is to square the negative 3\n\nA negative times a negative is a positive  \n(-3)² = (-3) × (-3) = 9\n\nWe now have: 5(9) - (-3)(-2)\n\n5 × 9 = 45  \n\\-3 × -2 = 6\n\n45 - 6 = 39",
+     "figure_refs": []
+    }
+   ]
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "71c2db96-63b2-4768-a7e8-14d14cb89abd",
+     "prompt": "Given $a=3$, $b=-4$ and $c=2$, work out $b^2-2ac$.",
+     "options": [
+      {
+       "text": "$-28$",
+       "correct": false
+      },
+      {
+       "text": "$4$",
+       "correct": true
+      },
+      {
+       "text": "$-4$",
+       "correct": false
+      },
+      {
+       "text": "$28$",
+       "correct": false
+      }
+     ],
+     "explanation": "Use brackets around the negative value: $(-4)^2-2(3)(2)=16-12=4$. Squaring a negative number gives a positive result."
+    },
+    {
+     "id": "8cb7ab42-451d-46de-845f-1d4ce6fbf47d",
+     "prompt": "Given $x=-5$ and $y=3$, work out $2x^2-y$.",
+     "options": [
+      {
+       "text": "$-53$",
+       "correct": false
+      },
+      {
+       "text": "$19$",
+       "correct": false
+      },
+      {
+       "text": "$53$",
+       "correct": false
+      },
+      {
+       "text": "$47$",
+       "correct": true
+      }
+     ],
+     "explanation": "Square before multiplying: $2(-5)^2-3=2(25)-3=50-3=47$."
+    }
+   ]
+  },
+  {
+   "kind": "worked-example",
+   "title": "Example 5: Find the value of 5ab - bc when a = 3, b = -2 and c = 4",
+   "steps": [
+    {
+     "heading": null,
+     "body": "5(3)(-2) - (-2)(4)\n\nWe can do the multiplication of 5 × 3 × -2 in any order  \n5 × 3 = 15  \n15 × -2 = -30 A positive times a negative is a negative\n\n\\-2 × 4 = -8\n\nWe now have: -30 - -8\n\nWhen we take away a negative we go up the number line -30 - - 8 = -30 + 8 = -22",
+     "figure_refs": []
+    }
+   ]
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "cf07bf43-8727-429c-a479-cd30c829d226",
+     "prompt": "Given $p=-3$ and $r=-5$, work out $4p-2r$.",
+     "options": [
+      {
+       "text": "$-22$",
+       "correct": false
+      },
+      {
+       "text": "$-2$",
+       "correct": true
+      },
+      {
+       "text": "$2$",
+       "correct": false
+      },
+      {
+       "text": "$-10$",
+       "correct": false
+      }
+     ],
+     "explanation": "Substitute using brackets: $4(-3)-2(-5)=-12-(-10)=-12+10=-2$. Subtracting a negative is the same as adding."
+    },
+    {
+     "id": "07df84fb-8cf4-4464-9444-53f1ec1361ad",
+     "prompt": "A formula is $R=\\frac{p^2-q^2}{2r}$. Find $R$ when $p=7$, $q=3$ and $r=5$.",
+     "options": [
+      {
+       "text": "$8$",
+       "correct": false
+      },
+      {
+       "text": "$20$",
+       "correct": false
+      },
+      {
+       "text": "$5$",
+       "correct": false
+      },
+      {
+       "text": "$4$",
+       "correct": true
+      }
+     ],
+     "explanation": "Substitute into the numerator and denominator: $R=\\frac{7^2-3^2}{2(5)}=\\frac{49-9}{10}=\\frac{40}{10}=4$."
+    },
+    {
+     "id": "892790a1-0481-42e8-9a2f-f96e5d95c349",
+     "prompt": "Given $a=3$, $b=-2$ and $c=4$, work out $2ab+bc$.",
+     "options": [
+      {
+       "text": "$-4$",
+       "correct": false
+      },
+      {
+       "text": "$20$",
+       "correct": false
+      },
+      {
+       "text": "$-20$",
+       "correct": true
+      },
+      {
+       "text": "$-14$",
+       "correct": false
+      }
+     ],
+     "explanation": "Substitute all three values: $2(3)(-2)+(-2)(4)=-12-8=-20$. Both products are negative."
+    },
+    {
+     "id": "67b002c1-2f39-4e63-aada-469e767e4acd",
+     "prompt": "Given $k=5$, work out $3(k+2)-4$.",
+     "options": [
+      {
+       "text": "$17$",
+       "correct": true
+      },
+      {
+       "text": "$13$",
+       "correct": false
+      },
+      {
+       "text": "$21$",
+       "correct": false
+      },
+      {
+       "text": "$25$",
+       "correct": false
+      }
+     ],
+     "explanation": "Substitute $k=5$ and evaluate the bracket first: $3(5+2)-4=3(7)-4=21-4=17$."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "text": "Try these:"
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "df7a7fd0-768d-4fe5-a7b2-5989af1b90f7",
+     "prompt": "Evaluate $3a + 2b$ when $a=4$ and $b=5$.",
+     "options": [
+      {
+       "text": "14",
+       "correct": false
+      },
+      {
+       "text": "22",
+       "correct": true
+      },
+      {
+       "text": "37",
+       "correct": false
+      },
+      {
+       "text": "59",
+       "correct": false
+      }
+     ],
+     "explanation": null
+    },
+    {
+     "id": "36c88a16-b9cd-456c-a6d4-2bdbd3c7b309",
+     "prompt": "Find the value of $x^2 - 2y$ when x=5 and $y=3$.",
+     "options": [
+      {
+       "text": "4",
+       "correct": false
+      },
+      {
+       "text": "19",
+       "correct": true
+      },
+      {
+       "text": "2",
+       "correct": false
+      },
+      {
+       "text": "31",
+       "correct": false
+      }
+     ],
+     "explanation": null
+    },
+    {
+     "id": "078bdf79-c22f-4276-b35b-eeb391c17e4e",
+     "prompt": "Calculate the value of $4p - q$ when $p=-2$ and $q=7$.",
+     "options": [
+      {
+       "text": "-1",
+       "correct": false
+      },
+      {
+       "text": "1",
+       "correct": false
+      },
+      {
+       "text": "-15",
+       "correct": true
+      },
+      {
+       "text": "15",
+       "correct": false
+      }
+     ],
+     "explanation": null
+    }
+   ]
+  },
+  {
+   "kind": "paragraph",
+   "text": "70:[\"$\",\"$L87\",null,{\""
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/G4XpJH7a7eI"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-3-3-13-substitution/revision-guides",
+ "source_sha256": "6000d0a2fb66336ffc1680ba7b7a07de984b556e8bb854fffc255a23a65c8f14",
+ "extracted_at": "2026-11-08T17:51:37Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "15fe1334-1f17-49cc-948a-bd8991e7bf34",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/substitution.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207925849,
+  "figure_count": 0,
+  "block_counts": {
+   "paragraph": 2,
+   "worked-example": 5,
+   "mcq-set": 4,
+   "heading": 1
+  }
+ }
+}

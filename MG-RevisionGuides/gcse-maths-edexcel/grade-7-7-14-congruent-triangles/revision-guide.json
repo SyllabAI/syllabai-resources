@@ -1,0 +1,153 @@
+{
+ "topic": "grade-7-7-14-congruent-triangles",
+ "lane": "gcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "title": "Congruent Triangles",
+ "summary": "Learn how to prove triangles are identical by matching sides, angles and clear GCSE proof reasons.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "f529104f-f927-4d65-864a-94a80bd870d7",
+     "prompt": "A diagonal $AC$ divides parallelogram $ABCD$ into triangles $ABC$ and $CDA$. Which congruence test proves that the triangles are congruent?",
+     "options": [
+      {
+       "text": "SSS",
+       "correct": true
+      },
+      {
+       "text": "SAS",
+       "correct": false
+      },
+      {
+       "text": "ASA",
+       "correct": false
+      },
+      {
+       "text": "RHS",
+       "correct": false
+      }
+     ],
+     "explanation": "Opposite sides of a parallelogram are equal, so $AB=CD$ and $BC=DA$. The triangles also share $AC$, giving three pairs of equal sides, so SSS applies."
+    },
+    {
+     "id": "3a67c675-4fb1-4519-a8dc-12b621ed9096",
+     "prompt": "For triangles $ABC$ and $PQR$, you know that $AB=PQ$ and $AC=PR$. Which additional fact is needed to prove congruence by SAS?",
+     "options": [
+      {
+       "text": "$\\angle ABC=\\angle PQR$",
+       "correct": false
+      },
+      {
+       "text": "$BC=QR$",
+       "correct": false
+      },
+      {
+       "text": "$\\angle ACB=\\angle PRQ$",
+       "correct": false
+      },
+      {
+       "text": "$\\angle BAC=\\angle QPR$",
+       "correct": true
+      }
+     ],
+     "explanation": "SAS requires the angle included between the two known equal sides. The angle between $AB$ and $AC$ is $\\angle BAC$, which corresponds to $\\angle QPR$."
+    },
+    {
+     "id": "ac9a8bd3-2473-4c79-a8b2-4df7bfcfca4c",
+     "prompt": "From point $X$, tangents $XP$ and $XQ$ touch a circle with centre $O$. Which test proves that triangles $XPO$ and $XQO$ are congruent?",
+     "options": [
+      {
+       "text": "AAA",
+       "correct": false
+      },
+      {
+       "text": "RHS",
+       "correct": true
+      },
+      {
+       "text": "ASA",
+       "correct": false
+      },
+      {
+       "text": "SSS",
+       "correct": false
+      }
+     ],
+     "explanation": "A radius is perpendicular to a tangent, so both triangles are right-angled. They have equal radii $OP=OQ$ and the common hypotenuse $XO$, so RHS applies."
+    },
+    {
+     "id": "27b519df-12d4-494f-b697-31926bb5f2b8",
+     "prompt": "Triangles $ABC$ and $ADC$ share side $AC$. Also, $\\angle BAC=\\angle CAD$ and $\\angle BCA=\\angle ACD$. If $BC=9\\text{ cm}$, what is $DC$?",
+     "options": [
+      {
+       "text": "$4.5\\text{ cm}$",
+       "correct": false
+      },
+      {
+       "text": "$18\\text{ cm}$",
+       "correct": false
+      },
+      {
+       "text": "$9\\text{ cm}$",
+       "correct": true
+      },
+      {
+       "text": "It cannot be determined",
+       "correct": false
+      }
+     ],
+     "explanation": "The two equal angle pairs and the common included side $AC$ prove the triangles congruent by ASA. Corresponding sides $BC$ and $DC$ are therefore equal, so $DC=9\\text{ cm}$."
+    },
+    {
+     "id": "7057d120-0bad-4fc8-8488-c449abcb066e",
+     "prompt": "Triangle $ABC$ is congruent to triangle $DFE$, with corresponding vertices written in the same order. Which side corresponds to $BC$?",
+     "options": [
+      {
+       "text": "$FE$",
+       "correct": true
+      },
+      {
+       "text": "$DF$",
+       "correct": false
+      },
+      {
+       "text": "$DE$",
+       "correct": false
+      },
+      {
+       "text": "$AB$",
+       "correct": false
+      }
+     ],
+     "explanation": "The order shows that $A$ corresponds to $D$, $B$ to $F$, and $C$ to $E$. Therefore, side $BC$ corresponds to side $FE$."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/EFCp_pxV1sU"
+  },
+  {
+   "embed_url": "https://www.youtube.com/embed/pW770w6d5AM"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-7-7-14-congruent-triangles/revision-guides",
+ "source_sha256": "e13a6c1622c94087357502dbbc71743b043a96627588bb7ae8b6edfe2965cd35",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "c1c3baad-c718-44e9-978a-8dccb30bcd47",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/congruence.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207932149,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

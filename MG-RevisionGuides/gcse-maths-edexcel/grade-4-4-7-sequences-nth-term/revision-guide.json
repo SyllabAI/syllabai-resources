@@ -1,0 +1,159 @@
+{
+ "topic": "grade-4-4-7-sequences-nth-term",
+ "lane": "gcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "title": "Sequences (Nth Term)",
+ "summary": "Spot sequence rules, use nth-term formulae, and decide confidently whether numbers belong in a sequence.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "d1501a39-0b2e-46d6-8bbb-ef8ec1de2afe",
+     "prompt": "Find the nth term of the arithmetic sequence $7, 11, 15, 19, \\ldots$",
+     "options": [
+      {
+       "text": "$7n+4$",
+       "correct": false
+      },
+      {
+       "text": "$3n+4$",
+       "correct": false
+      },
+      {
+       "text": "$4n+3$",
+       "correct": true
+      },
+      {
+       "text": "$4n+7$",
+       "correct": false
+      }
+     ],
+     "explanation": "The common difference is $4$, so start with $4n$. Since $4n$ gives $4$ when $n=1$, add $3$ to get the first term $7$. Therefore, the nth term is $4n+3$."
+    },
+    {
+     "id": "649dfec5-285b-4287-8cbb-64258e989548",
+     "prompt": "The nth term of a sequence is $6n-1$. What is the 20th term?",
+     "options": [
+      {
+       "text": "$119$",
+       "correct": true
+      },
+      {
+       "text": "$114$",
+       "correct": false
+      },
+      {
+       "text": "$120$",
+       "correct": false
+      },
+      {
+       "text": "$125$",
+       "correct": false
+      }
+     ],
+     "explanation": "Substitute $n=20$: $6(20)-1=120-1=119$."
+    },
+    {
+     "id": "676153a4-a145-4b88-8150-8f25055d9849",
+     "prompt": "The nth term of a sequence is $5n+2$. Is $42$ a term in the sequence?",
+     "options": [
+      {
+       "text": "Yes, it is the 7th term",
+       "correct": false
+      },
+      {
+       "text": "No, because $42$ is not a multiple of $5$",
+       "correct": false
+      },
+      {
+       "text": "No, because $n=8.4$",
+       "correct": false
+      },
+      {
+       "text": "Yes, it is the 8th term",
+       "correct": true
+      }
+     ],
+     "explanation": "Solve $5n+2=42$. This gives $5n=40$, so $n=8$. Since $8$ is a positive whole number, $42$ is the 8th term."
+    },
+    {
+     "id": "2f47e677-2230-4eb2-b1ad-06818ed5e354",
+     "prompt": "A sequence starts with $3$. The rule is: multiply the previous term by $3$, then subtract $2$. What is the 4th term?",
+     "options": [
+      {
+       "text": "$49$",
+       "correct": false
+      },
+      {
+       "text": "$55$",
+       "correct": true
+      },
+      {
+       "text": "$19$",
+       "correct": false
+      },
+      {
+       "text": "$57$",
+       "correct": false
+      }
+     ],
+     "explanation": "Apply the rule one term at a time: $3, 7, 19, 55$. Therefore, the 4th term is $55$."
+    },
+    {
+     "id": "df15f9f2-42dc-4f04-887b-d7fdb40de62b",
+     "prompt": "The nth term of a sequence is $n^2+3n$. Is $70$ a term in the sequence?",
+     "options": [
+      {
+       "text": "No, because $70$ is not a square number",
+       "correct": false
+      },
+      {
+       "text": "Yes, it is the 10th term",
+       "correct": false
+      },
+      {
+       "text": "Yes, it is the 7th term",
+       "correct": true
+      },
+      {
+       "text": "No, because $n$ is negative",
+       "correct": false
+      }
+     ],
+     "explanation": "Set $n^2+3n=70$, giving $n^2+3n-70=0$. Factorising gives $(n+10)(n-7)=0$, so the positive whole-number solution is $n=7$. Therefore, $70$ is the 7th term."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/2vZAiAHa2GY"
+  },
+  {
+   "embed_url": "https://www.youtube.com/embed/-6O73LQsEmw"
+  },
+  {
+   "embed_url": "https://www.youtube.com/embed/fifedKPyLLA"
+  },
+  {
+   "embed_url": "https://www.youtube.com/embed/Tv9ObyQOGAc"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-4-4-7-sequences-nth-term/revision-guides",
+ "source_sha256": "77b376415c8c673a1815214097588d9076427fc9266f5baa6fb71d34c31bef21",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "a14ff439-3505-4330-8e91-9d12f12d1818",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/sequences.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207928388,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

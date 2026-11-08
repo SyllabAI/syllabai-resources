@@ -1,0 +1,150 @@
+{
+ "topic": "grade-7-7-1-surds",
+ "lane": "gcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "title": "Surds",
+ "summary": "Learn why surds are exact roots and how to simplify, expand, and rationalise them confidently.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "edc5a9a1-5a8a-49ad-8a9f-69bc04bc74c3",
+     "prompt": "Simplify $\\sqrt{80}$ fully.",
+     "options": [
+      {
+       "text": "$4\\sqrt{5}$",
+       "correct": true
+      },
+      {
+       "text": "$16\\sqrt{5}$",
+       "correct": false
+      },
+      {
+       "text": "$8\\sqrt{10}$",
+       "correct": false
+      },
+      {
+       "text": "$2\\sqrt{20}$",
+       "correct": false
+      }
+     ],
+     "explanation": "Use the largest square factor: $\\sqrt{80}=\\sqrt{16\\times5}=4\\sqrt{5}$. Although $2\\sqrt{20}$ is equivalent, it is not fully simplified."
+    },
+    {
+     "id": "27d3af88-fceb-45ef-bed3-94bf349a0363",
+     "prompt": "Expand and simplify $(2+\\sqrt{5})(3-\\sqrt{5})$.",
+     "options": [
+      {
+       "text": "$1-\\sqrt{5}$",
+       "correct": false
+      },
+      {
+       "text": "$1+\\sqrt{5}$",
+       "correct": true
+      },
+      {
+       "text": "$6+\\sqrt{5}$",
+       "correct": false
+      },
+      {
+       "text": "$11+\\sqrt{5}$",
+       "correct": false
+      }
+     ],
+     "explanation": "Expanding gives $6-2\\sqrt{5}+3\\sqrt{5}-5$. Combining like terms produces $1+\\sqrt{5}$."
+    },
+    {
+     "id": "a35c55bc-d677-47e5-823d-58a76686345a",
+     "prompt": "Simplify $3\\sqrt{48}$ fully.",
+     "options": [
+      {
+       "text": "$4\\sqrt{3}$",
+       "correct": false
+      },
+      {
+       "text": "$6\\sqrt{12}$",
+       "correct": false
+      },
+      {
+       "text": "$12\\sqrt{3}$",
+       "correct": true
+      },
+      {
+       "text": "$48\\sqrt{3}$",
+       "correct": false
+      }
+     ],
+     "explanation": "Since $\\sqrt{48}=\\sqrt{16\\times3}=4\\sqrt{3}$, multiplying by 3 gives $3\\times4\\sqrt{3}=12\\sqrt{3}$."
+    },
+    {
+     "id": "39c74686-2e3b-4c37-a946-97bf18848c90",
+     "prompt": "Expand and simplify $(4-\\sqrt{7})^2$.",
+     "options": [
+      {
+       "text": "$9$",
+       "correct": false
+      },
+      {
+       "text": "$23$",
+       "correct": false
+      },
+      {
+       "text": "$23+8\\sqrt{7}$",
+       "correct": false
+      },
+      {
+       "text": "$23-8\\sqrt{7}$",
+       "correct": true
+      }
+     ],
+     "explanation": "Using $(a-b)^2=a^2-2ab+b^2$, we get $16-8\\sqrt{7}+7=23-8\\sqrt{7}$."
+    },
+    {
+     "id": "71f15e03-843e-40d1-8690-61d170d6a31c",
+     "prompt": "Rationalise the denominator of $\\frac{1}{4-\\sqrt{7}}$ and simplify.",
+     "options": [
+      {
+       "text": "$\\frac{4-\\sqrt{7}}{9}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{4+\\sqrt{7}}{23}$",
+       "correct": false
+      },
+      {
+       "text": "$4+\\sqrt{7}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{4+\\sqrt{7}}{9}$",
+       "correct": true
+      }
+     ],
+     "explanation": "Multiply the numerator and denominator by the conjugate $4+\\sqrt{7}$. The denominator becomes $(4-\\sqrt{7})(4+\\sqrt{7})=16-7=9$, giving $\\frac{4+\\sqrt{7}}{9}$."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/2_LkSaP2Vv8"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-7-7-1-surds/revision-guides",
+ "source_sha256": "42322d081962e745b8857b07ac4261ec3c2e729e768dd6ac2d5f342fefe6d96c",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "c3802568-a2d3-4cc0-ab8c-5b5db0b74911",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/surds.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207932181,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

@@ -1,0 +1,150 @@
+{
+ "topic": "grade-7-7-15-3d-pythagoras-and-trigonometry",
+ "lane": "gcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "title": "3d Pythagoras and Trigonometry",
+ "summary": "Learn how hidden right triangles unlock lengths, angles and volumes in 3D shapes.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "509a91ca-800d-4057-b3ab-d2a521ee8c9f",
+     "prompt": "A cuboid has perpendicular edge lengths $2$ cm, $3$ cm and $6$ cm. What is the length of its space diagonal?",
+     "options": [
+      {
+       "text": "$6.7$ cm",
+       "correct": false
+      },
+      {
+       "text": "$7$ cm",
+       "correct": true
+      },
+      {
+       "text": "$11$ cm",
+       "correct": false
+      },
+      {
+       "text": "$49$ cm",
+       "correct": false
+      }
+     ],
+     "explanation": "Apply Pythagoras in three dimensions: $d=\\sqrt{2^2+3^2+6^2}=\\sqrt{49}=7$ cm."
+    },
+    {
+     "id": "1c28c8fe-37ab-46d1-946b-5e6d56646052",
+     "prompt": "A cuboid has a space diagonal of $11$ cm. Two of its perpendicular edges are $4$ cm and $6$ cm. Find the third edge to $1$ decimal place.",
+     "options": [
+      {
+       "text": "$8.3$ cm",
+       "correct": true
+      },
+      {
+       "text": "$9.2$ cm",
+       "correct": false
+      },
+      {
+       "text": "$7.0$ cm",
+       "correct": false
+      },
+      {
+       "text": "$12.6$ cm",
+       "correct": false
+      }
+     ],
+     "explanation": "If the missing edge is $x$, then $x^2+4^2+6^2=11^2$. Therefore $x=\\sqrt{121-16-36}=\\sqrt{69}=8.3$ cm to $1$ decimal place."
+    },
+    {
+     "id": "47c37490-547c-4951-b47d-fdb5a89c25e4",
+     "prompt": "A cuboid has a base measuring $9$ cm by $12$ cm and a height of $8$ cm. What angle does its space diagonal make with the base plane, to $1$ decimal place?",
+     "options": [
+      {
+       "text": "$33.7^\\circ$",
+       "correct": false
+      },
+      {
+       "text": "$61.9^\\circ$",
+       "correct": false
+      },
+      {
+       "text": "$41.6^\\circ$",
+       "correct": false
+      },
+      {
+       "text": "$28.1^\\circ$",
+       "correct": true
+      }
+     ],
+     "explanation": "The projection of the space diagonal onto the base is the base diagonal, $\\sqrt{9^2+12^2}=15$ cm. Hence $\\tan\\theta=\\frac{8}{15}$, so $\\theta=28.1^\\circ$."
+    },
+    {
+     "id": "a6c81e3a-6ecd-4003-a0e6-03ab2011e04a",
+     "prompt": "Rectangle $ABCD$ has $AB=7$ cm and $BC=24$ cm. Point $F$ is vertically above $C$, with $CF=10$ cm. Find the angle that $AF$ makes with the plane $ABCD$, to $1$ decimal place.",
+     "options": [
+      {
+       "text": "$22.6^\\circ$",
+       "correct": false
+      },
+      {
+       "text": "$68.2^\\circ$",
+       "correct": false
+      },
+      {
+       "text": "$21.8^\\circ$",
+       "correct": true
+      },
+      {
+       "text": "$55.0^\\circ$",
+       "correct": false
+      }
+     ],
+     "explanation": "The projection of $AF$ onto the plane is $AC$, where $AC=\\sqrt{7^2+24^2}=25$ cm. Thus $\\tan\\theta=\\frac{10}{25}$, giving $\\theta=21.8^\\circ$."
+    },
+    {
+     "id": "6394fd61-ab2f-446d-87db-978f62f161bd",
+     "prompt": "A square-based pyramid has a base side length of $10$ cm. Its apex $P$ is vertically above the centre $O$. The angle $PAC$ is $50^\\circ$, where $AC$ is a diagonal of the base. Find the volume of the pyramid to $3$ significant figures.",
+     "options": [
+      {
+       "text": "$397$ cm$^3$",
+       "correct": false
+      },
+      {
+       "text": "$281$ cm$^3$",
+       "correct": true
+      },
+      {
+       "text": "$562$ cm$^3$",
+       "correct": false
+      },
+      {
+       "text": "$181$ cm$^3$",
+       "correct": false
+      }
+     ],
+     "explanation": "The distance from a corner to the centre is half the base diagonal: $AO=5\\sqrt{2}$ cm. In right-angled triangle $AOP$, $PO=5\\sqrt{2}\\tan 50^\\circ$. Therefore the volume is $\\frac13\\times10^2\\times PO=281$ cm$^3$ to $3$ significant figures."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/nmtZB_tGvDo"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-7-7-15-3d-pythagoras-and-trigonometry/revision-guides",
+ "source_sha256": "909092f0c76214794b2d54345676c4f888cf3a79f950187566c9cd2b5bc2b8b0",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "a9cf1054-db5f-43a4-95ff-5e7d86eab581",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/3d-pythagoras.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207932155,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

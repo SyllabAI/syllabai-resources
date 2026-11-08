@@ -1,0 +1,150 @@
+{
+ "topic": "grade-6-6-10-circle-theorems",
+ "lane": "gcse-maths-edexcel",
+ "grade": "6",
+ "tier": null,
+ "title": "Circle Theorems",
+ "summary": "Learn how key circle facts unlock tangent, chord, and centre-angle questions.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "977bf354-67d5-41de-b25e-ad48425ef9dd",
+     "prompt": "Points $A$, $B$ and $C$ lie on a circle. A tangent touches the circle at $C$. Given that angle $ABC=64^\\circ$ and angle $ACB=73^\\circ$, find the angle between the tangent and chord $CB$.",
+     "options": [
+      {
+       "text": "$64^\\circ$",
+       "correct": false
+      },
+      {
+       "text": "$73^\\circ$",
+       "correct": false
+      },
+      {
+       "text": "$43^\\circ$",
+       "correct": true
+      },
+      {
+       "text": "$53^\\circ$",
+       "correct": false
+      }
+     ],
+     "explanation": "First, angle $BAC=180^\\circ-64^\\circ-73^\\circ=43^\\circ$. By the alternate segment theorem, the angle between the tangent and chord $CB$ equals angle $BAC$, so it is $43^\\circ$."
+    },
+    {
+     "id": "900a545b-aeba-4a84-a313-9bd5b9e05cc7",
+     "prompt": "$ABCD$ is a cyclic quadrilateral. Angles $ADB$ and $ACB$ stand on the same chord $AB$. If angle $ADB=43^\\circ$ and angle $DAB=112^\\circ$, what are angle $ACB$ and angle $BCD$ respectively?",
+     "options": [
+      {
+       "text": "$43^\\circ$ and $112^\\circ$",
+       "correct": false
+      },
+      {
+       "text": "$43^\\circ$ and $68^\\circ$",
+       "correct": true
+      },
+      {
+       "text": "$68^\\circ$ and $43^\\circ$",
+       "correct": false
+      },
+      {
+       "text": "$137^\\circ$ and $68^\\circ$",
+       "correct": false
+      }
+     ],
+     "explanation": "Angles in the same segment are equal, so angle $ACB=43^\\circ$. Opposite angles in a cyclic quadrilateral total $180^\\circ$, so angle $BCD=180^\\circ-112^\\circ=68^\\circ$."
+    },
+    {
+     "id": "dc661075-7a4c-40ae-ba02-538b86a7841c",
+     "prompt": "A tangent at $A$ meets a point $B$. The circle has centre $O$, with $OA=5$ cm and $AB=12$ cm. Find $OB$.",
+     "options": [
+      {
+       "text": "$13$ cm",
+       "correct": true
+      },
+      {
+       "text": "$7$ cm",
+       "correct": false
+      },
+      {
+       "text": "$17$ cm",
+       "correct": false
+      },
+      {
+       "text": "$\\sqrt{119}$ cm",
+       "correct": false
+      }
+     ],
+     "explanation": "A radius is perpendicular to a tangent at the point of contact, so triangle $OAB$ is right-angled at $A$. Therefore, $OB=\\sqrt{5^2+12^2}=\\sqrt{169}=13$ cm."
+    },
+    {
+     "id": "20c81ccf-dd6b-4ae9-96e1-09bd52e789d0",
+     "prompt": "Points $A$ and $B$ lie on a circle with centre $O$. In triangle $AOB$, angle $ABO=38^\\circ$. Find angle $AOB$.",
+     "options": [
+      {
+       "text": "$76^\\circ$",
+       "correct": false
+      },
+      {
+       "text": "$142^\\circ$",
+       "correct": false
+      },
+      {
+       "text": "$52^\\circ$",
+       "correct": false
+      },
+      {
+       "text": "$104^\\circ$",
+       "correct": true
+      }
+     ],
+     "explanation": "Since $OA$ and $OB$ are radii, triangle $AOB$ is isosceles. The two base angles are both $38^\\circ$, so angle $AOB=180^\\circ-38^\\circ-38^\\circ=104^\\circ$."
+    },
+    {
+     "id": "4e759b86-de4c-4441-895b-0bee822b8731",
+     "prompt": "The reflex angle $BOC$ at the centre of a circle is $250^\\circ$. An angle $BAC$ at the circumference subtends the same reflex arc $BC$. Find angle $BAC$.",
+     "options": [
+      {
+       "text": "$55^\\circ$",
+       "correct": false
+      },
+      {
+       "text": "$110^\\circ$",
+       "correct": false
+      },
+      {
+       "text": "$125^\\circ$",
+       "correct": true
+      },
+      {
+       "text": "$250^\\circ$",
+       "correct": false
+      }
+     ],
+     "explanation": "The angle at the centre is twice the angle at the circumference when both subtend the same arc. Therefore, angle $BAC=250^\\circ\\div2=125^\\circ$."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/2NEi7VfPU2w"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-6-6-10-circle-theorems/revision-guides",
+ "source_sha256": "f43e708f71b231223b16941ae2b87bda0fe588dbc4e95fedb136457d2d6496b7",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "0592ef1a-6acb-4e23-858b-5d03ab56ca37",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/circle-theorems.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207930854,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

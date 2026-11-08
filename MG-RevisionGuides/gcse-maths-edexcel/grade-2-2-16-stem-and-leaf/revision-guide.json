@@ -1,0 +1,291 @@
+{
+ "topic": "grade-2-2-16-stem-and-leaf",
+ "lane": "gcse-maths-edexcel",
+ "grade": "2",
+ "tier": null,
+ "title": "Stem and Leaf",
+ "summary": "Organise lists of numbers neatly, then read off medians, ranges and simple probabilities with confidence.",
+ "blocks": [
+  {
+   "kind": "paragraph",
+   "text": "In a stem and leaf diagram we write an ordered list of numbers with the digits of number split up. Usually we split the tens (which become the stems) and the ones (which become the leaves)."
+  },
+  {
+   "kind": "paragraph",
+   "text": "Here are the times, in seconds, it took 15 students to complete a task."
+  },
+  {
+   "kind": "paragraph",
+   "text": "45  24  37  47  49  \n39  36  26  38  23  \n40  30  31  29  23"
+  },
+  {
+   "kind": "paragraph",
+   "text": "When we draw a stem and leaf diagram for this data the tens will become the stems and the ones will become the leaves."
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/001-stem-and-leaf-1.jpg",
+   "alt": "stem and leaf 1"
+  },
+  {
+   "kind": "paragraph",
+   "text": "A 2 in the stem will represent 20, 3 will represent 30 and 4 will represent 40."
+  },
+  {
+   "kind": "paragraph",
+   "text": "We now write all of the ones in order."
+  },
+  {
+   "kind": "paragraph",
+   "text": "We can start with all the numbers with a zero in the ones:  \nFor 30 we will write a 0 on the same line as the 3 stem.  \nFor 40 we write a 0 on the same line as the 4 stem."
+  },
+  {
+   "kind": "paragraph",
+   "text": "Next we can write all the numbers with a 1 in the ones, and then 2, and then 3..."
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "684fa950-e10a-4bb3-b187-1affdc77a0aa",
+     "prompt": "A stem and leaf diagram has the key $4|7=47$ seconds. What value does $3|9$ represent?",
+     "options": [
+      {
+       "text": "$3.9$ seconds",
+       "correct": false
+      },
+      {
+       "text": "39 seconds",
+       "correct": true
+      },
+      {
+       "text": "49 seconds",
+       "correct": false
+      },
+      {
+       "text": "37 seconds",
+       "correct": false
+      }
+     ],
+     "explanation": "The stem gives the tens digit and the leaf gives the ones digit, so $3|9$ represents $39$ seconds."
+    },
+    {
+     "id": "73b17722-38c2-439d-b931-2703f1638b44",
+     "prompt": "The scores are 21, 27, 24, 34 and 27. Which is the correctly ordered stem and leaf diagram? Use the key $2|1=21$.",
+     "options": [
+      {
+       "text": "$2|7\\ 4\\ 1\\ 7\\quad 3|4$",
+       "correct": false
+      },
+      {
+       "text": "$2|1\\ 4\\ 7\\quad 3|4$",
+       "correct": false
+      },
+      {
+       "text": "$2|1\\ 7\\ 7\\ 4\\quad 3|4$",
+       "correct": false
+      },
+      {
+       "text": "$2|1\\ 4\\ 7\\ 7\\quad 3|4$",
+       "correct": true
+      }
+     ],
+     "explanation": "The leaves must be written in ascending order, and both 27s must be included. The correct rows are $2|1\\ 4\\ 7\\ 7$ and $3|4$."
+    }
+   ]
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/002-stem-and-leaf.gif",
+   "alt": "stem and leaf"
+  },
+  {
+   "kind": "paragraph",
+   "text": "We alway include a key to show how we have split the numbers."
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "70e20100-104a-4041-bf3d-22b801b9aa67",
+     "prompt": "A stem and leaf diagram has rows $2|3\\ 5\\ 8$, $3|0\\ 1\\ 1\\ 6$ and $4|2$. The key is $2|3=23$. What is the range?",
+     "options": [
+      {
+       "text": "19",
+       "correct": true
+      },
+      {
+       "text": "21",
+       "correct": false
+      },
+      {
+       "text": "1.9",
+       "correct": false
+      },
+      {
+       "text": "42",
+       "correct": false
+      }
+     ],
+     "explanation": "The smallest value is 23 and the largest is 42. Therefore, the range is $42-23=19$."
+    },
+    {
+     "id": "54d06a86-6200-489b-9bf1-9f08b87dc742",
+     "prompt": "The key is $1|8=18$. A stem and leaf diagram has rows $1|8\\ 9$, $2|0\\ 4\\ 7$, and $3|2\\ 5$. What is the median?",
+     "options": [
+      {
+       "text": "20",
+       "correct": false
+      },
+      {
+       "text": "24",
+       "correct": true
+      },
+      {
+       "text": "27",
+       "correct": false
+      },
+      {
+       "text": "23.5",
+       "correct": false
+      }
+     ],
+     "explanation": "There are 7 values, so the median is the 4th value in order. The 4th value is 24."
+    },
+    {
+     "id": "aee3c019-9e08-4c28-85cf-431f6edf926b",
+     "prompt": "A stem and leaf diagram has the rows $6|7\\ 9$, $7|0\\ 4\\ 8$, $8|0\\ 2\\ 5\\ 9$, and $9|1\\ 6$. The key is $6|7=67$. What is the probability of choosing a score greater than 80?",
+     "options": [
+      {
+       "text": "$\\frac{6}{11}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{5}{9}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{5}{10}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{5}{11}$",
+       "correct": true
+      }
+     ],
+     "explanation": "There are 11 scores altogether. The scores greater than 80 are 82, 85, 89, 91 and 96, giving 5 favourable outcomes, so the probability is $\\frac{5}{11}$."
+    }
+   ]
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/003-stem-and-leaf-18.jpg",
+   "alt": "stem and leaf 18"
+  },
+  {
+   "kind": "heading",
+   "text": "Try these:"
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "56e87068-4254-46e2-a1c1-fba897f4fb40",
+     "prompt": "Consider the stem and leaf plot below. Stem | Leaf -----|----- 1 | 2 5 8 2 | 0 1 1 5 3 | 0 2 2 2 5 4 | 1 3 Key: 1|2 means 12 What is the smallest value in the data set?",
+     "options": [
+      {
+       "text": "1",
+       "correct": false
+      },
+      {
+       "text": "2",
+       "correct": false
+      },
+      {
+       "text": "12",
+       "correct": true
+      },
+      {
+       "text": "43",
+       "correct": false
+      }
+     ],
+     "explanation": null
+    },
+    {
+     "id": "42b24d44-f06d-49d4-a8cd-68faa67911de",
+     "prompt": "Using the stem and leaf plot below, what is the mode of the data? Stem | Leaf -----|----- 1 | 2 5 8 2 | 0 1 1 5 3 | 0 2 2 2 5 4 | 1 3 Key: 1|2 means 12",
+     "options": [
+      {
+       "text": "2",
+       "correct": false
+      },
+      {
+       "text": "3",
+       "correct": false
+      },
+      {
+       "text": "21",
+       "correct": false
+      },
+      {
+       "text": "32",
+       "correct": true
+      }
+     ],
+     "explanation": null
+    },
+    {
+     "id": "a83daa89-f224-4277-85aa-01c84b790c47",
+     "prompt": "How many data points are represented in the stem and leaf plot below? Stem | Leaf -----|----- 1 | 2 5 8 2 | 0 1 1 5 3 | 0 2 2 2 5 4 | 1 3 Key: 1|2 means 12",
+     "options": [
+      {
+       "text": "4",
+       "correct": false
+      },
+      {
+       "text": "14",
+       "correct": true
+      },
+      {
+       "text": "15",
+       "correct": false
+      },
+      {
+       "text": "43",
+       "correct": false
+      }
+     ],
+     "explanation": null
+    }
+   ]
+  },
+  {
+   "kind": "paragraph",
+   "text": "70:[\"$\",\"$L87\",null,{\"bu"
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/HogyPMjgybI"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-2-2-16-stem-and-leaf/revision-guides",
+ "source_sha256": "035ab3735ff2f1c680d0d3aad2e2eb32d943ca87142112d17b22ed9b18607d1d",
+ "extracted_at": "2026-11-08T17:51:37Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "c58ddae3-7847-4f31-8670-b99dc70350ef",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/stem-and-leaf.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207924765,
+  "figure_count": 3,
+  "block_counts": {
+   "paragraph": 10,
+   "figure": 3,
+   "mcq-set": 3,
+   "heading": 1
+  }
+ }
+}

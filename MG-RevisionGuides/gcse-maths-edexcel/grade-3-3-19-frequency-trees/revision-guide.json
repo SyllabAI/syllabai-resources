@@ -1,0 +1,150 @@
+{
+ "topic": "grade-3-3-19-frequency-trees",
+ "lane": "gcse-maths-edexcel",
+ "grade": "3",
+ "tier": null,
+ "title": "Frequency Trees",
+ "summary": "Learn to complete branching count diagrams and use them to answer simple probability questions.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "de49dcb7-7eb9-48b2-875f-b06cea142a5a",
+     "prompt": "A frequency tree starts with 62 students and first splits into boys and girls. There are 27 boys. How many girls are there?",
+     "options": [
+      {
+       "text": "27",
+       "correct": false
+      },
+      {
+       "text": "34",
+       "correct": false
+      },
+      {
+       "text": "35",
+       "correct": true
+      },
+      {
+       "text": "89",
+       "correct": false
+      }
+     ],
+     "explanation": "The two branches must add to 62, so the number of girls is $62-27=35$."
+    },
+    {
+     "id": "1de97487-187c-44a7-a2e8-2806773faa50",
+     "prompt": "A frequency tree has 40 students in the tennis group. $\\frac{3}{5}$ of the tennis group play on Saturday. How many play on Saturday?",
+     "options": [
+      {
+       "text": "8",
+       "correct": false
+      },
+      {
+       "text": "15",
+       "correct": false
+      },
+      {
+       "text": "37",
+       "correct": false
+      },
+      {
+       "text": "24",
+       "correct": true
+      }
+     ],
+     "explanation": "Find three fifths of the tennis group: $40\\times\\frac{3}{5}=24$. The answer 8 is only one fifth of 40."
+    },
+    {
+     "id": "822ba106-91ab-4663-a77e-e87268a12bb4",
+     "prompt": "A frequency tree shows 100 students split into boys and girls, then into those who walk and those who travel by bus. There are 58 students who walk, including 25 girls. How many boys walk?",
+     "options": [
+      {
+       "text": "21",
+       "correct": false
+      },
+      {
+       "text": "33",
+       "correct": true
+      },
+      {
+       "text": "54",
+       "correct": false
+      },
+      {
+       "text": "83",
+       "correct": false
+      }
+     ],
+     "explanation": "The 58 students who walk are made up of boys and girls. Therefore, the number of boys who walk is $58-25=33$."
+    },
+    {
+     "id": "a13e822d-58ac-4dec-a062-e6c611fb123c",
+     "prompt": "There are 60 students who choose either Art or Music and attend in the morning or afternoon. Of the 35 Art students, $\\frac{2}{5}$ attend in the morning. There are 32 morning students altogether. One afternoon student is chosen at random. What is the probability that they chose Music?",
+     "options": [
+      {
+       "text": "$\\frac{1}{4}$",
+       "correct": true
+      },
+      {
+       "text": "$\\frac{7}{60}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{7}{25}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{3}{4}$",
+       "correct": false
+      }
+     ],
+     "explanation": "There are $35\\times\\frac{2}{5}=14$ Art morning students, so $32-14=18$ Music morning students. There are $60-35=25$ Music students, giving $25-18=7$ Music afternoon students. There are $60-32=28$ afternoon students, so the probability is $\\frac{7}{28}=\\frac{1}{4}$."
+    },
+    {
+     "id": "8fcba0b5-0e45-4299-bfa5-8fbca31c8162",
+     "prompt": "A frequency tree shows 80 people split into 52 adults and 28 children. In total, 31 people choose tea, including 18 adults. A child is chosen at random. What is the probability that the child chooses tea?",
+     "options": [
+      {
+       "text": "$\\frac{13}{80}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{18}{52}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{31}{80}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{13}{28}$",
+       "correct": true
+      }
+     ],
+     "explanation": "The number of children who choose tea is $31-18=13$. Since a child is chosen, the denominator is the 28 children, so the probability is $\\frac{13}{28}$."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/B9iPsaRxGIw"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-3-3-19-frequency-trees/revision-guides",
+ "source_sha256": "25fab4ea5f961e21cbf748d911d01ff19f30d01350b6f0b6e030a39c43671eda",
+ "extracted_at": "2026-11-08T17:51:37Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "0af1f920-afbf-4e9c-adc3-0b2d61367376",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/frequency-trees.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207926472,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

@@ -1,0 +1,155 @@
+{
+ "topic": "grade-7-7-2-bounds",
+ "lane": "gcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "title": "Bounds",
+ "summary": "Learn how rounded measurements create upper and lower limits, then use them safely in geometry and formula questions.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "f26bdbeb-b38e-49ac-8690-09b6f07fd2f8",
+     "prompt": "A length is $58.0$ cm correct to the nearest millimetre. Which interval shows the possible values of the length $l$?",
+     "options": [
+      {
+       "text": "$57.5 \\le l < 58.5$",
+       "correct": false
+      },
+      {
+       "text": "$57.99 \\le l < 58.01$",
+       "correct": false
+      },
+      {
+       "text": "$57.95 \\le l < 58.05$",
+       "correct": true
+      },
+      {
+       "text": "$58.0 \\le l < 58.1$",
+       "correct": false
+      }
+     ],
+     "explanation": "One millimetre is $0.1$ cm, so the half-gap is $0.05$ cm. Therefore, $57.95 \\le l < 58.05$; the upper bound is not included because it would round to $58.1$ cm."
+    },
+    {
+     "id": "f5e3afe2-2faa-4b1c-9029-57f839e7105c",
+     "prompt": "A rectangle has length $12$ cm to the nearest centimetre and width $4.8$ cm to the nearest millimetre. What is the lower bound for its area?",
+     "options": [
+      {
+       "text": "$54.625$ cm²",
+       "correct": true
+      },
+      {
+       "text": "$57.6$ cm²",
+       "correct": false
+      },
+      {
+       "text": "$60.625$ cm²",
+       "correct": false
+      },
+      {
+       "text": "$54.05$ cm²",
+       "correct": false
+      }
+     ],
+     "explanation": "The lower bounds are $11.5$ cm and $4.75$ cm. Multiplying them gives the lower area: $11.5 \\times 4.75=54.625$ cm²."
+    },
+    {
+     "id": "ca2340db-b890-47d9-a3d1-41472ae5e0dc",
+     "prompt": "A distance is $8.4$ m correct to $1$ decimal place and a time is $2.6$ s correct to $1$ decimal place. For $v=\\frac{s}{t}$, what is the upper bound for $v$, rounded to $2$ decimal places?",
+     "options": [
+      {
+       "text": "$3.19$ m/s",
+       "correct": false
+      },
+      {
+       "text": "$3.23$ m/s",
+       "correct": false
+      },
+      {
+       "text": "$3.15$ m/s",
+       "correct": false
+      },
+      {
+       "text": "$3.31$ m/s",
+       "correct": true
+      }
+     ],
+     "explanation": "To maximise a positive fraction, divide the upper distance by the lower time: $8.45 \\div 2.55=3.3137\\ldots$, which rounds to $3.31$ m/s."
+    },
+    {
+     "id": "b22d7c51-6300-4f59-85ac-aa982c80c1f8",
+     "prompt": "In a right-angled triangle, $b=\\sqrt{c^2-a^2}$. If $a=9.8$ cm to the nearest millimetre and $c=15$ cm to the nearest centimetre, what is the lower bound for $b$, rounded to $1$ decimal place?",
+     "options": [
+      {
+       "text": "$10.7$ cm",
+       "correct": false
+      },
+      {
+       "text": "$10.6$ cm",
+       "correct": true
+      },
+      {
+       "text": "$12.0$ cm",
+       "correct": false
+      },
+      {
+       "text": "$17.5$ cm",
+       "correct": false
+      }
+     ],
+     "explanation": "To minimise $b$, use the lower bound of $c$ and the upper bound of $a$: $\\sqrt{14.5^2-9.85^2}=10.640\\ldots$, which rounds to $10.6$ cm."
+    },
+    {
+     "id": "2bbf6ec7-a643-42e2-b5ab-df90aef606e3",
+     "prompt": "For $q=\\frac{x}{y}$, the values $x=26.40$ and $y=5.10$ are each correct to $2$ decimal places. Which rounded value of $q$ is guaranteed by the bounds?",
+     "options": [
+      {
+       "text": "$5.17$ to $2$ d.p.",
+       "correct": false
+      },
+      {
+       "text": "$5.18$ to $2$ d.p.",
+       "correct": false
+      },
+      {
+       "text": "$5.2$ to $1$ d.p.",
+       "correct": true
+      },
+      {
+       "text": "$5.1$ to $1$ d.p.",
+       "correct": false
+      }
+     ],
+     "explanation": "The bounds give $\\frac{26.395}{5.105}\\le q<\\frac{26.405}{5.095}$, so approximately $5.170\\le q<5.183$. These values do not all round to the same answer to $2$ decimal places, but they all round to $5.2$ to $1$ decimal place."
+    }
+   ]
+  },
+  {
+   "kind": "paragraph",
+   "text": "70:[\""
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/t1Ze9RvxWP0"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-7-7-2-bounds/revision-guides",
+ "source_sha256": "c7e22e50c430d30e6aa745a2a5650d2a27e0b529246a2781164b421304e27df6",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "863d19d9-4944-4db9-b9e0-116ed2658977",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/bounds.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207932338,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1,
+   "paragraph": 1
+  }
+ }
+}

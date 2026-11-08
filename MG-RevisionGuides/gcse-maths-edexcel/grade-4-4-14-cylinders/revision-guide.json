@@ -1,0 +1,150 @@
+{
+ "topic": "grade-4-4-14-cylinders",
+ "lane": "gcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "title": "Cylinders",
+ "summary": "Build confidence with cylinder volume, surface area, half-cylinders, missing lengths and practical unit conversions.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "3e0ebec1-2061-4e6f-983d-a3c230304773",
+     "prompt": "A cylinder has diameter $12$ cm and height $5$ cm. Which expression gives its volume?",
+     "options": [
+      {
+       "text": "$\\pi \\times 6^2 \\times 5$",
+       "correct": true
+      },
+      {
+       "text": "$\\pi \\times 12^2 \\times 5$",
+       "correct": false
+      },
+      {
+       "text": "$2\\pi \\times 6 \\times 5$",
+       "correct": false
+      },
+      {
+       "text": "$\\pi \\times 6^2$",
+       "correct": false
+      }
+     ],
+     "explanation": "The radius is half the diameter, so $r=6$ cm. Using $V=\\pi r^2h$ gives $V=\\pi \\times 6^2 \\times 5$."
+    },
+    {
+     "id": "56a9f813-512b-48da-ac2c-dce81d3ebcc5",
+     "prompt": "A cylinder has radius $4$ cm and height $10$ cm. What is its volume in terms of $\\pi$?",
+     "options": [
+      {
+       "text": "$40\\pi$ cm³",
+       "correct": false
+      },
+      {
+       "text": "$80\\pi$ cm³",
+       "correct": false
+      },
+      {
+       "text": "$160\\pi$ cm³",
+       "correct": true
+      },
+      {
+       "text": "$400\\pi$ cm³",
+       "correct": false
+      }
+     ],
+     "explanation": "Using $V=\\pi r^2h$, the volume is $\\pi \\times 4^2 \\times 10=160\\pi$ cm³."
+    },
+    {
+     "id": "604ab653-a429-4c4f-aaf0-1b6148fb6d73",
+     "prompt": "A closed cylinder has radius $3$ cm and height $8$ cm. What is its total surface area?",
+     "options": [
+      {
+       "text": "$48\\pi$ cm²",
+       "correct": false
+      },
+      {
+       "text": "$66\\pi$ cm²",
+       "correct": true
+      },
+      {
+       "text": "$57\\pi$ cm²",
+       "correct": false
+      },
+      {
+       "text": "$42\\pi$ cm²",
+       "correct": false
+      }
+     ],
+     "explanation": "The two circular ends have area $2\\pi r^2=18\\pi$, and the curved surface has area $2\\pi rh=48\\pi$. The total is $66\\pi$ cm²."
+    },
+    {
+     "id": "e194a3cf-39e3-4e6a-a57c-eddca5c5bdae",
+     "prompt": "A cylindrical tank has radius $20$ cm and volume $12$ litres. What is its height to the nearest centimetre? Use $1$ litre $=1000$ cm³.",
+     "options": [
+      {
+       "text": "$30$ cm",
+       "correct": false
+      },
+      {
+       "text": "$38$ cm",
+       "correct": false
+      },
+      {
+       "text": "$191$ cm",
+       "correct": false
+      },
+      {
+       "text": "$10$ cm",
+       "correct": true
+      }
+     ],
+     "explanation": "First convert $12$ litres to $12000$ cm³. From $12000=\\pi \\times 20^2 \\times h$, $h=\\frac{12000}{400\\pi}\\approx9.55$ cm, which rounds to $10$ cm."
+    },
+    {
+     "id": "55799fc5-377c-40ac-9737-0ff72cb48ade",
+     "prompt": "A semi-cylinder has radius $4$ cm and length $10$ cm. What is its total surface area?",
+     "options": [
+      {
+       "text": "$56\\pi+80$ cm²",
+       "correct": true
+      },
+      {
+       "text": "$56\\pi$ cm²",
+       "correct": false
+      },
+      {
+       "text": "$40\\pi+80$ cm²",
+       "correct": false
+      },
+      {
+       "text": "$112\\pi+80$ cm²",
+       "correct": false
+      }
+     ],
+     "explanation": "The half-curved surface is $40\\pi$ cm², the two semicircular ends total $16\\pi$ cm², and the rectangular face is $8\\times10=80$ cm². Therefore, the total is $56\\pi+80$ cm²."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/tsnRtSQYgu4"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-4-4-14-cylinders/revision-guides",
+ "source_sha256": "e07e40b256ff3d98172aecf67baccfc0a31d1b86a8b29db9cfd85aafe5aef583",
+ "extracted_at": "2026-11-08T17:51:37Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "65744fb8-5f57-42fa-9218-1023cad75248",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/cylinders.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207927728,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

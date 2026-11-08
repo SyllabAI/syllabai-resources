@@ -1,0 +1,155 @@
+{
+ "topic": "grade-6-6-3-the-product-rule-for-counting",
+ "lane": "gcse-maths-edexcel",
+ "grade": "6",
+ "tier": null,
+ "title": "The Product Rule for Counting",
+ "summary": "Multiply, reduce and halve choices confidently when counting menus, cards, teams and handshakes.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "e08e146b-accb-49a5-ab1e-0ca1bc6960d5",
+     "prompt": "A café offers 5 sandwiches and 4 drinks. You choose one sandwich and one drink. How many different meals are possible?",
+     "options": [
+      {
+       "text": "9",
+       "correct": false
+      },
+      {
+       "text": "20",
+       "correct": true
+      },
+      {
+       "text": "10",
+       "correct": false
+      },
+      {
+       "text": "25",
+       "correct": false
+      }
+     ],
+     "explanation": "Each of the 5 sandwiches can be paired with any of the 4 drinks, so the product rule gives $5 \\times 4=20$."
+    },
+    {
+     "id": "36e3def0-ef41-47d1-bfc3-7602b3f2a0fa",
+     "prompt": "A password consists of one of 3 letters followed by one of 4 digits and then one of 2 symbols. How many different passwords are possible?",
+     "options": [
+      {
+       "text": "9",
+       "correct": false
+      },
+      {
+       "text": "12",
+       "correct": false
+      },
+      {
+       "text": "18",
+       "correct": false
+      },
+      {
+       "text": "24",
+       "correct": true
+      }
+     ],
+     "explanation": "Multiply the number of choices at each stage: $3 \\times 4 \\times 2=24$."
+    },
+    {
+     "id": "d8fc1af2-cbcf-478d-84eb-480bfaeb6ac0",
+     "prompt": "A meal deal has 6 wrap choices and some drink choices. A sign claims that there are exactly 50 possible wrap-and-drink deals. Why must the claim be incorrect?",
+     "options": [
+      {
+       "text": "$50 \\div 6$ is not a whole number",
+       "correct": true
+      },
+      {
+       "text": "There must be $50-6=44$ drinks",
+       "correct": false
+      },
+      {
+       "text": "There must be $50 \\times 6=300$ drinks",
+       "correct": false
+      },
+      {
+       "text": "The number of deals must always be less than 50",
+       "correct": false
+      }
+     ],
+     "explanation": "The number of drinks would have to be $50 \\div 6\\approx 8.33$. A number of choices must be a whole number, so exactly 50 deals are impossible."
+    },
+    {
+     "id": "d8b8f30c-d79c-48e5-b16c-d06917d41b9a",
+     "prompt": "There are 12 different cards. One card is given to Nia and then a different card is given to Omar. How many possible allocations are there?",
+     "options": [
+      {
+       "text": "24",
+       "correct": false
+      },
+      {
+       "text": "66",
+       "correct": false
+      },
+      {
+       "text": "132",
+       "correct": true
+      },
+      {
+       "text": "144",
+       "correct": false
+      }
+     ],
+     "explanation": "There are 12 choices for Nia's card and then 11 remaining choices for Omar's card, giving $12 \\times 11=132$ allocations."
+    },
+    {
+     "id": "bd4f5d4e-0733-40a4-bbab-96faba881e6b",
+     "prompt": "There are 14 teams in a league and each team plays every other team exactly once. How many matches are played?",
+     "options": [
+      {
+       "text": "78",
+       "correct": false
+      },
+      {
+       "text": "91",
+       "correct": true
+      },
+      {
+       "text": "182",
+       "correct": false
+      },
+      {
+       "text": "196",
+       "correct": false
+      }
+     ],
+     "explanation": "The product $14 \\times 13$ counts each match twice, once from each team's viewpoint. Therefore, the number of matches is $14 \\times 13 \\div 2=91$."
+    }
+   ]
+  },
+  {
+   "kind": "paragraph",
+   "text": "7"
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/5K425PAB9iE"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-6-6-3-the-product-rule-for-counting/revision-guides",
+ "source_sha256": "b748deee36e5109e75954ea4e5b6cae6ef26bc242fa4f655c5fdbf08f8262e7b",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "4c202a13-8247-4341-9a65-e0e4b0346870",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/product-rule-for-counting.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207930919,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1,
+   "paragraph": 1
+  }
+ }
+}

@@ -1,0 +1,153 @@
+{
+ "topic": "grade-7-7-13-the-cosine-rule",
+ "lane": "gcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "title": "The Cosine Rule",
+ "summary": "Learn how to solve non-right-angled triangles when Pythagoras and basic trigonometry are not enough.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "71d242ac-00d0-4e7e-8903-f86b674b4379",
+     "prompt": "Two sides of a triangle are 6 cm and 8 cm, and the angle between them is $50^\\circ$. Which side can be found directly using the Cosine Rule?",
+     "options": [
+      {
+       "text": "The 6 cm side",
+       "correct": false
+      },
+      {
+       "text": "The side adjacent to the $50^\\circ$ angle",
+       "correct": false
+      },
+      {
+       "text": "The side opposite the $50^\\circ$ angle",
+       "correct": true
+      },
+      {
+       "text": "The 8 cm side",
+       "correct": false
+      }
+     ],
+     "explanation": "When two sides and their included angle are known, the Cosine Rule finds the side opposite that angle."
+    },
+    {
+     "id": "853a7c9c-dc4b-4885-82b1-611352fbf5ef",
+     "prompt": "Two sides of a triangle are 8 cm and 11 cm, with an included angle of $60^\\circ$. Find the third side to 1 decimal place.",
+     "options": [
+      {
+       "text": "$9.8$ cm",
+       "correct": true
+      },
+      {
+       "text": "$97.0$ cm",
+       "correct": false
+      },
+      {
+       "text": "$13.6$ cm",
+       "correct": false
+      },
+      {
+       "text": "$16.5$ cm",
+       "correct": false
+      }
+     ],
+     "explanation": "Using $c^2=a^2+b^2-2ab\\cos C$ gives $c^2=8^2+11^2-2(8)(11)\\cos 60^\\circ=97$. Therefore, $c=\\sqrt{97}=9.8$ cm to 1 decimal place."
+    },
+    {
+     "id": "1bf21b5a-58d0-4dae-8bb9-d2395c745011",
+     "prompt": "A triangle has sides 5 cm, 7 cm and 9 cm. Find the angle between the 5 cm and 7 cm sides to 1 decimal place.",
+     "options": [
+      {
+       "text": "$50.7^\\circ$",
+       "correct": false
+      },
+      {
+       "text": "$84.3^\\circ$",
+       "correct": false
+      },
+      {
+       "text": "$33.6^\\circ$",
+       "correct": false
+      },
+      {
+       "text": "$95.7^\\circ$",
+       "correct": true
+      }
+     ],
+     "explanation": "The required angle is opposite the 9 cm side. Therefore, $\\cos C=\\frac{5^2+7^2-9^2}{2(5)(7)}=-0.1$, so $C=\\cos^{-1}(-0.1)=95.7^\\circ$."
+    },
+    {
+     "id": "b901dfb4-2615-493c-b6dc-10ee2fbcc131",
+     "prompt": "A triangle has sides $x+2$ cm and $2x$ cm with an included angle of $60^\\circ$. The opposite side is $\\sqrt{52}$ cm. What is the valid value of $x$?",
+     "options": [
+      {
+       "text": "$x=-4$",
+       "correct": false
+      },
+      {
+       "text": "$x=4$",
+       "correct": true
+      },
+      {
+       "text": "$x=\\pm4$",
+       "correct": false
+      },
+      {
+       "text": "$x=16$",
+       "correct": false
+      }
+     ],
+     "explanation": "The Cosine Rule gives $52=(x+2)^2+(2x)^2-2(x+2)(2x)\\cos60^\\circ=3x^2+4$. Hence $x^2=16$, but $x=-4$ would produce negative side lengths, so only $x=4$ is valid."
+    },
+    {
+     "id": "1c8fd9fa-630c-4b7e-b04a-102c20cb8cb8",
+     "prompt": "Two sides of a triangle are 10 m and 8 m. Their included angle is obtuse and the area is $24\\text{ m}^2$. Find the perimeter to 3 significant figures.",
+     "options": [
+      {
+       "text": "$24.0$ m",
+       "correct": false
+      },
+      {
+       "text": "$30.8$ m",
+       "correct": false
+      },
+      {
+       "text": "$35.1$ m",
+       "correct": true
+      },
+      {
+       "text": "$35.8$ m",
+       "correct": false
+      }
+     ],
+     "explanation": "From the area formula, $24=\\frac12(10)(8)\\sin C$, so $\\sin C=0.6$. As $C$ is obtuse, $\\cos C=-0.8$. The third side is $\\sqrt{10^2+8^2-2(10)(8)(-0.8)}=\\sqrt{292}$ m, giving a perimeter of $10+8+\\sqrt{292}=35.1$ m."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/ud8fUf7Wlzc"
+  },
+  {
+   "embed_url": "https://www.youtube.com/embed/U2sNPD7KOyw"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-7-7-13-the-cosine-rule/revision-guides",
+ "source_sha256": "9107d32ddb51b279fce5ddd00001498c1467fe5c36814fcad81bf1d957f8e682",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "95b68ea5-3aae-4f47-ae9f-5d2fb92463eb",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/cosine-rule.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207932120,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

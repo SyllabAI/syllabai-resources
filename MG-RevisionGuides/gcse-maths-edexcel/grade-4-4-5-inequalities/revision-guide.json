@@ -1,0 +1,153 @@
+{
+ "topic": "grade-4-4-5-inequalities",
+ "lane": "gcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "title": "Inequalities",
+ "summary": "Learn how inequality signs, number lines, and integer solutions work before solving simple linear inequalities.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "0a3ce59d-840a-42a7-a0e6-2b83320e2871",
+     "prompt": "A number line has an open circle at 5 and is shaded to the left. Which inequality does it represent?",
+     "options": [
+      {
+       "text": "$x \\le 5$",
+       "correct": false
+      },
+      {
+       "text": "$x > 5$",
+       "correct": false
+      },
+      {
+       "text": "$x \\ge 5$",
+       "correct": false
+      },
+      {
+       "text": "$x < 5$",
+       "correct": true
+      }
+     ],
+     "explanation": "Shading to the left means values less than 5. The open circle means 5 is not included, so the inequality is $x < 5$."
+    },
+    {
+     "id": "97fead15-94eb-4d24-9f6b-06ed1f9f4aca",
+     "prompt": "Solve $4t - 3 > 9$.",
+     "options": [
+      {
+       "text": "$t > 3$",
+       "correct": true
+      },
+      {
+       "text": "$t < 3$",
+       "correct": false
+      },
+      {
+       "text": "$t > \\frac{3}{2}$",
+       "correct": false
+      },
+      {
+       "text": "$t \\ge 3$",
+       "correct": false
+      }
+     ],
+     "explanation": "Add 3 to both sides to get $4t > 12$, then divide by 4. This gives $t > 3$; dividing by a positive number does not reverse the inequality sign."
+    },
+    {
+     "id": "4d415a90-aadd-49b4-9bd8-07b221a400e6",
+     "prompt": "Solve $7 > 19 - 3x$.",
+     "options": [
+      {
+       "text": "$x < 4$",
+       "correct": false
+      },
+      {
+       "text": "$x \\ge 4$",
+       "correct": false
+      },
+      {
+       "text": "$x > 4$",
+       "correct": true
+      },
+      {
+       "text": "$x > -4$",
+       "correct": false
+      }
+     ],
+     "explanation": "Subtract 19 to get $-12 > -3x$. Dividing by $-3$ reverses the inequality sign, giving $4 < x$, which is the same as $x > 4$."
+    },
+    {
+     "id": "619a4382-aeb3-4101-aac0-8b7daf1f7623",
+     "prompt": "Solve $3(x + 2) \\le 2x + 11$.",
+     "options": [
+      {
+       "text": "$x \\ge 5$",
+       "correct": false
+      },
+      {
+       "text": "$x \\le 5$",
+       "correct": true
+      },
+      {
+       "text": "$x < 5$",
+       "correct": false
+      },
+      {
+       "text": "$x \\le 9$",
+       "correct": false
+      }
+     ],
+     "explanation": "Expand to get $3x + 6 \\le 2x + 11$. Subtract $2x$ and then subtract 6, giving $x \\le 5$."
+    },
+    {
+     "id": "5067b9fd-657a-475c-b11f-ef817a4555af",
+     "prompt": "Let $n$ be an integer. Which list gives all possible values of $n$ if $-3 < n \\le 2$?",
+     "options": [
+      {
+       "text": "$-3, -2, -1, 0, 1, 2$",
+       "correct": false
+      },
+      {
+       "text": "$-2, -1, 0, 1$",
+       "correct": false
+      },
+      {
+       "text": "$-3, -2, -1, 0, 1$",
+       "correct": false
+      },
+      {
+       "text": "$-2, -1, 0, 1, 2$",
+       "correct": true
+      }
+     ],
+     "explanation": "The integers must be greater than $-3$, so $-3$ is excluded, and at most 2, so 2 is included. The values are $-2, -1, 0, 1, 2$."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/r4tE-lBRB0I"
+  },
+  {
+   "embed_url": "https://www.youtube.com/embed/bGps9ut59QM"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-4-4-5-inequalities/revision-guides",
+ "source_sha256": "71b96e0d247b9e7f6613aa53af6f7c861b889305d32bfb49fa78fbbff388a866",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "9423bbb8-2032-45be-a262-7190fcdbde55",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/inequalities.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207928374,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

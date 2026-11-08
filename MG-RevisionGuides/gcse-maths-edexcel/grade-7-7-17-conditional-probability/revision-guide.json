@@ -1,0 +1,150 @@
+{
+ "topic": "grade-7-7-17-conditional-probability",
+ "lane": "gcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "title": "Conditional Probability",
+ "summary": "Learn how tree diagrams update probabilities after earlier choices, then combine routes for “and”, “or”, and survey questions.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "5712be06-5805-4a88-bdf1-6c02f9d24709",
+     "prompt": "Given that a bus is late, the probability that Mia misses registration is $0.35$. What is the probability that she does not miss registration, given that the bus is late?",
+     "options": [
+      {
+       "text": "$0.35$",
+       "correct": false
+      },
+      {
+       "text": "$0.55$",
+       "correct": false
+      },
+      {
+       "text": "$0.65$",
+       "correct": true
+      },
+      {
+       "text": "$1.35$",
+       "correct": false
+      }
+     ],
+     "explanation": "The two outcomes are complementary, so the probability is $1-0.35=0.65$."
+    },
+    {
+     "id": "db81a974-ba91-4621-b35e-36e1146f61f5",
+     "prompt": "A bag contains 5 red and 3 green counters. Two counters are chosen without replacement. What is the probability of choosing a red counter followed by a green counter?",
+     "options": [
+      {
+       "text": "$\\frac{15}{64}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{15}{56}$",
+       "correct": true
+      },
+      {
+       "text": "$\\frac{8}{15}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{3}{7}$",
+       "correct": false
+      }
+     ],
+     "explanation": "After the red counter is removed, 7 counters remain. Multiply along the route: $\\frac{5}{8}\\times\\frac{3}{7}=\\frac{15}{56}$."
+    },
+    {
+     "id": "d67ff44b-c47c-4b53-815d-cb9d3a5619f3",
+     "prompt": "A bag contains 6 red and 4 blue counters. Two counters are chosen without replacement. What is the probability of choosing one counter of each colour?",
+     "options": [
+      {
+       "text": "$\\frac{4}{15}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{12}{25}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{7}{15}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{8}{15}$",
+       "correct": true
+      }
+     ],
+     "explanation": "One of each colour can occur in either order. Therefore, $\\frac{6}{10}\\times\\frac{4}{9}+\\frac{4}{10}\\times\\frac{6}{9}=\\frac{8}{15}$."
+    },
+    {
+     "id": "9cce6f24-a6af-40a1-8188-b18b32dedc8a",
+     "prompt": "Of 40 students, 24 study French. Of the students who study French, 15 also study Spanish. Given that a student studies French, what is the probability that they also study Spanish?",
+     "options": [
+      {
+       "text": "$\\frac{5}{8}$",
+       "correct": true
+      },
+      {
+       "text": "$\\frac{3}{8}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{15}{64}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{8}{15}$",
+       "correct": false
+      }
+     ],
+     "explanation": "The condition restricts the group to the 24 French students. Of these, 15 study Spanish, so the probability is $\\frac{15}{24}=\\frac{5}{8}$."
+    },
+    {
+     "id": "744976f3-d1d1-4e42-b66e-dcadc9302624",
+     "prompt": "In a survey of 36 students, 19 like art, 17 like music and 8 like both. Two students are chosen without replacement. What is the probability that both students like exactly one of art and music?",
+     "options": [
+      {
+       "text": "$\\frac{5}{9}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{3}{5}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{19}{63}$",
+       "correct": true
+      },
+      {
+       "text": "$\\frac{2}{45}$",
+       "correct": false
+      }
+     ],
+     "explanation": "The number who like exactly one is $(19-8)+(17-8)=20$. The probability is $\\frac{20}{36}\\times\\frac{19}{35}=\\frac{19}{63}$."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/gRL9FFOS8f8"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-7-7-17-conditional-probability/revision-guides",
+ "source_sha256": "fce778c375faea1356e2c12206dfd5e48b5e4efdd7595b6d125ac773e2a9b4bf",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "6808964d-50e0-4cdc-b806-8ab18469e61d",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/conditional.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207932178,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

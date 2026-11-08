@@ -1,0 +1,449 @@
+{
+ "topic": "grade-3-3-15-drawing-linear-graphs",
+ "lane": "gcse-maths-edexcel",
+ "grade": "3",
+ "tier": null,
+ "title": "Drawing Linear Graphs",
+ "summary": "Build a straight-line graph by calculating points, plotting them carefully, and reading values from the grid.",
+ "blocks": [
+  {
+   "kind": "paragraph",
+   "text": "When we have an equation with two **different** unknowns, like y = 2x + 1, we cannot solve the equation."
+  },
+  {
+   "kind": "paragraph",
+   "text": "We can instead find pairs of x and y values that make the left side equal the right side"
+  },
+  {
+   "kind": "paragraph",
+   "text": "We can use a table of values to show the number pairs:"
+  },
+  {
+   "kind": "paragraph",
+   "text": "| x | 0 | 1 | 2 | 3 |\n|---|---|---|---|---|\n| y |  |  |  |  |"
+  },
+  {
+   "kind": "paragraph",
+   "text": "To complete this table of values, for y = 2x + 1, we need to find out the value of y when x = 0, when x = 1, when x = 2 and when x = 3"
+  },
+  {
+   "kind": "paragraph",
+   "text": "We do this using substitution"
+  },
+  {
+   "kind": "paragraph",
+   "text": "When x = 0  \ny = 2(0) + 1  \ny = 1"
+  },
+  {
+   "kind": "paragraph",
+   "text": "When x = 1  \ny = 2(1) + 1  \ny = 3"
+  },
+  {
+   "kind": "paragraph",
+   "text": "When x = 2  \ny = 2(2) + 1  \ny = 5"
+  },
+  {
+   "kind": "paragraph",
+   "text": "When x = 3  \ny = 2(3) + 1  \ny = 7"
+  },
+  {
+   "kind": "paragraph",
+   "text": "We can use these values to complete the table"
+  },
+  {
+   "kind": "paragraph",
+   "text": "| x | 0 | 1 | 2 | 3 |\n|---|---|---|---|---|\n| y | 1 | 3 | 5 | 7 |"
+  },
+  {
+   "kind": "worked-example",
+   "title": "Example 1: Complete the table of values for x + y = 6",
+   "steps": [
+    {
+     "heading": null,
+     "body": "| x | 0 | 1 | 2 | 3 |\n|---|---|---|---|---|\n| y |  |  |  |  |\n\nWe can find the y values using substitution:\n\nWhen x = 0  \n0 + y = 6  \ny = 6\n\nWhen x = 1  \n1 + y = 6  \ny = 5\n\nWhen x = 2  \n2 + y = 6  \ny = 4\n\nWhen x = 3  \n3 + y = 6  \ny = 3\n\nWe can now complete the table:",
+     "figure_refs": []
+    }
+   ]
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "dba0c606-1811-4f7d-9ee4-c149f0d4fdc3",
+     "prompt": "For the equation $x+y=9$, what is the value of $y$ when $x=-3$?",
+     "options": [
+      {
+       "text": "$-12$",
+       "correct": false
+      },
+      {
+       "text": "$12$",
+       "correct": true
+      },
+      {
+       "text": "$6$",
+       "correct": false
+      },
+      {
+       "text": "$-6$",
+       "correct": false
+      }
+     ],
+     "explanation": "Substitute $x=-3$: $-3+y=9$, so adding 3 to both sides gives $y=12$."
+    },
+    {
+     "id": "edbed919-ad75-4f6b-b430-d93b85258d82",
+     "prompt": "For $y=4x-1$, which value of $y$ corresponds to $x=-2$?",
+     "options": [
+      {
+       "text": "$-7$",
+       "correct": false
+      },
+      {
+       "text": "$7$",
+       "correct": false
+      },
+      {
+       "text": "$-9$",
+       "correct": true
+      },
+      {
+       "text": "$9$",
+       "correct": false
+      }
+     ],
+     "explanation": "Substitute $x=-2$: $y=4(-2)-1=-8-1=-9$."
+    }
+   ]
+  },
+  {
+   "kind": "paragraph",
+   "text": "| x | 0 | 1 | 2 | 3 |\n|---|---|---|---|---|\n| y | 6 | 5 | 4 | 3 |"
+  },
+  {
+   "kind": "worked-example",
+   "title": "Example 2: Complete the table of values for y = 3x - 5",
+   "steps": [
+    {
+     "heading": null,
+     "body": "| x | -3 | -2 | -1 | 0 | 1 | 2 | 3 |\n|---|---|---|---|---|---|---|---|\n| y |  |  |  |  |  |  |  |\n\nIn this example we have negative x values in the table. It is often easier to start with the positive x values:\n\nWhen x = 3  \ny = 3(3) - 5  \ny = 4\n\nWhen x = 2  \ny = 3(2) - 5  \ny = 1\n\nWhen x = 1  \ny = 3(1) - 5  \ny = -2\n\nWhen x = 0  \ny = 3(0) - 5  \ny = -5\n\n| x | -3 | -2 | -1 | 0 | 1 | 2 | 3 |\n|---|---|---|---|---|---|---|---|\n| y |  |  |  | -5 | -2 | 1 | 4 |\n\nWe can notice a pattern in these y values, they are going up by 3 each time (from left to right or down by 3 each time from right to left).\n\nWe can expect that for x = -1, y = -8  \nWhen x = -2, y = -11  \nand when x = -3, y = -14\n\nSubstituting gives:\n\nWhen x = -1  \ny = 3(-1) - 5  \ny = -8\n\nWhen x = -2  \ny = 3(-2) - 5  \ny = -11\n\nWhen x = -3  \ny = 3(-3) - 5  \ny = -14\n\nIf we make a mistake in our calculations we will be able to notice as our values would not fit the pattern.",
+     "figure_refs": []
+    }
+   ]
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "99258b79-0b4b-4045-a3ec-52d978742ef3",
+     "prompt": "For $y=-2x+3$, what is the value of $y$ when $x=-4$?",
+     "options": [
+      {
+       "text": "$11$",
+       "correct": true
+      },
+      {
+       "text": "$-5$",
+       "correct": false
+      },
+      {
+       "text": "$5$",
+       "correct": false
+      },
+      {
+       "text": "$-11$",
+       "correct": false
+      }
+     ],
+     "explanation": "Substitute $x=-4$: $y=-2(-4)+3=8+3=11$. Multiplying two negative numbers gives a positive result."
+    },
+    {
+     "id": "b09e9f28-e8f2-4248-84f5-fbab8365f208",
+     "prompt": "Which point lies on the line $y=3x-5$?",
+     "options": [
+      {
+       "text": "$(-1,-2)$",
+       "correct": false
+      },
+      {
+       "text": "$(1,-8)$",
+       "correct": false
+      },
+      {
+       "text": "$(-1,-8)$",
+       "correct": true
+      },
+      {
+       "text": "$(3,5)$",
+       "correct": false
+      }
+     ],
+     "explanation": "Check $(-1,-8)$: $3(-1)-5=-3-5=-8$, so it satisfies the equation."
+    }
+   ]
+  },
+  {
+   "kind": "paragraph",
+   "text": "| x | -3 | -2 | -1 | 0 | 1 | 2 | 3 |\n|---|---|---|---|---|---|---|---|\n| y | -14 | -11 | -8 | -5 | -2 | 1 | 4 |"
+  },
+  {
+   "kind": "heading",
+   "text": "Try these:"
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "6d1c5549-cc78-4cda-bb97-84927886a353",
+     "prompt": "Which of the following tables of values is correct for the equation $y = 3x - 2$?",
+     "options": [
+      {
+       "text": "x | y -1 | -5 0 | -2 1 | 1 2 | 4",
+       "correct": true
+      },
+      {
+       "text": "x | y -1 | -1 0 | -2 1 | -1 2 | 2",
+       "correct": false
+      },
+      {
+       "text": "x | y -1 | -3 0 | -2 1 | 3 2 | 6",
+       "correct": false
+      },
+      {
+       "text": "x | y -1 | -5 0 | 2 1 | 5 2 | 8",
+       "correct": false
+      }
+     ],
+     "explanation": null
+    },
+    {
+     "id": "81ca9110-28c3-4519-b7d8-58c1410b1547",
+     "prompt": "Which of the following points lies on the line $y = 2x + 5$?",
+     "options": [
+      {
+       "text": "(1, 7)",
+       "correct": true
+      },
+      {
+       "text": "(0, 2)",
+       "correct": false
+      },
+      {
+       "text": "(2, 7)",
+       "correct": false
+      },
+      {
+       "text": "(-1, 3)",
+       "correct": false
+      }
+     ],
+     "explanation": null
+    },
+    {
+     "id": "e05135a1-51aa-45c4-a5c8-7af3a76ba9ba",
+     "prompt": "A straight line has a gradient of -3 and passes through the point (0, 1). What is its equation?",
+     "options": [
+      {
+       "text": "$y = -3x + 1$",
+       "correct": true
+      },
+      {
+       "text": "$y = 3x + 1$",
+       "correct": false
+      },
+      {
+       "text": "$y = -3x - 1$",
+       "correct": false
+      },
+      {
+       "text": "$y = x - 3$",
+       "correct": false
+      }
+     ],
+     "explanation": null
+    }
+   ]
+  },
+  {
+   "kind": "paragraph",
+   "text": "We can use a table of values to draw a graph. Each pair of values become a set of coordinates (x,y)."
+  },
+  {
+   "kind": "paragraph",
+   "text": "**Example: Here is the table of values for y = 2x - 3  \ndraw the graph for y = 2x - 3**"
+  },
+  {
+   "kind": "paragraph",
+   "text": "| x | -3 | -2 | -1 | 0 | 1 | 2 | 3 |\n|---|---|---|---|---|---|---|---|\n| y | -9 | -7 | -5 | -3 | -1 | 1 | 3 |"
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/001-linear-graphs-1.jpg",
+   "alt": "linear graphs 1"
+  },
+  {
+   "kind": "paragraph",
+   "text": "On a graph we will plot the coordinates:  \n(-3,-9), (-2,-7), (-1,-5), (0,-3), (1,-1), (2,1) and (3,3)"
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/002-linear-graphs-2.jpg",
+   "alt": "linear graphs 2"
+  },
+  {
+   "kind": "paragraph",
+   "text": "We join the points up with a straight line."
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/003-linear-graphs-3.jpg",
+   "alt": "linear graphs 3"
+  },
+  {
+   "kind": "heading",
+   "text": "Example: Draw the graph for y = 3x + 1"
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/004-linear-graphs-4.jpg",
+   "alt": "linear graphs 4"
+  },
+  {
+   "kind": "paragraph",
+   "text": "Here we have not been given a table of values."
+  },
+  {
+   "kind": "paragraph",
+   "text": "We can create a table of values. We can see that the x values on the graph are -2, -1, 0, 1 and 2. We can use these for our table of values:"
+  },
+  {
+   "kind": "paragraph",
+   "text": "| x | -2 | -1 | 0 | 1 | 2 |\n|---|---|---|---|---|---|\n| y |  |  |  |  |  |"
+  },
+  {
+   "kind": "paragraph",
+   "text": "We can now complete our table bu substituting our x values into the equation:"
+  },
+  {
+   "kind": "paragraph",
+   "text": "When x = 2  \ny = 3(2) + 1  \ny = 7"
+  },
+  {
+   "kind": "paragraph",
+   "text": "When x = 1  \ny = 3(1) + 1  \ny = 4"
+  },
+  {
+   "kind": "paragraph",
+   "text": "When x = 0  \ny = 3(0) + 1  \ny = 1"
+  },
+  {
+   "kind": "paragraph",
+   "text": "When x = -1  \ny = 3(-1) + 1  \ny = -2"
+  },
+  {
+   "kind": "paragraph",
+   "text": "When x = -2  \ny = 3(-2) + 1  \ny = -5"
+  },
+  {
+   "kind": "paragraph",
+   "text": "We can use these values to complete the table"
+  },
+  {
+   "kind": "paragraph",
+   "text": "| x | -2 | -1 | 0 | 1 | 2 |\n|---|---|---|---|---|---|\n| y | -5 | -2 | 1 | 4 | 7 |"
+  },
+  {
+   "kind": "paragraph",
+   "text": "The next step is to plot the coordinates:  \n(-2,-5), (-1,-2), (0,1), (1,4) and (2,7)"
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/005-linear-graphs-5.jpg",
+   "alt": "linear graphs 5"
+  },
+  {
+   "kind": "paragraph",
+   "text": "And finally we use a ruler to draw the line"
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/006-linear-graphs-6.jpg",
+   "alt": "linear graphs 6"
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "a2d26fad-d0ae-4102-a8a2-094e895ce134",
+     "prompt": "When drawing $y=2x-3$, which coordinate should be plotted when $x=2$?",
+     "options": [
+      {
+       "text": "$(1,2)$",
+       "correct": false
+      },
+      {
+       "text": "$(2,-1)$",
+       "correct": false
+      },
+      {
+       "text": "$(2,1)$",
+       "correct": true
+      },
+      {
+       "text": "$(-2,1)$",
+       "correct": false
+      }
+     ],
+     "explanation": "Substitute $x=2$: $y=2(2)-3=4-3=1$, giving the coordinate $(2,1)$."
+    },
+    {
+     "id": "7e01609c-6930-4265-8f3e-517473964227",
+     "prompt": "A table for a straight line shows that when $x$ increases by 1, $y$ increases by 2. What does this tell you about the line?",
+     "options": [
+      {
+       "text": "It crosses the $y$-axis at 2.",
+       "correct": false
+      },
+      {
+       "text": "It has gradient $2$.",
+       "correct": true
+      },
+      {
+       "text": "It has gradient $\\frac{1}{2}$.",
+       "correct": false
+      },
+      {
+       "text": "It decreases from left to right.",
+       "correct": false
+      }
+     ],
+     "explanation": "The gradient is the change in $y$ divided by the change in $x$. Here it is $\\frac{2}{1}=2$, so the line rises from left to right."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/WZC1f3QmkrU"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-3-3-15-drawing-linear-graphs/revision-guides",
+ "source_sha256": "994b7b8384fb6862bce86e85de09e0b988df988309778f0bb1df0663e5dc06ea",
+ "extracted_at": "2026-11-08T17:51:37Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "08af0342-0513-45c8-8caa-6b970d2d81af",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/lineargraphs.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207926029,
+  "figure_count": 6,
+  "block_counts": {
+   "paragraph": 32,
+   "worked-example": 2,
+   "mcq-set": 4,
+   "heading": 2,
+   "figure": 6
+  }
+ }
+}

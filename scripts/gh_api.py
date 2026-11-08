@@ -21,6 +21,7 @@ def _req(path, method="GET", body=None):
         "Authorization": f"token {TOKEN}",
         "Accept": "application/vnd.github+json",
         "Content-Type": "application/json",
+        "User-Agent": "syllabai-corpus-bot",
     })
     with urllib.request.urlopen(req) as r:
         return json.loads(r.read().decode())

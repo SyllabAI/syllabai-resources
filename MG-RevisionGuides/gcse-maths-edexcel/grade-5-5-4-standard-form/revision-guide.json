@@ -1,0 +1,159 @@
+{
+ "topic": "grade-5-5-4-standard-form",
+ "lane": "gcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "title": "Standard Form",
+ "summary": "Learn how to handle very large and very small numbers using powers of ten and clear calculator strategies.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "56333be8-ffd6-4553-9770-0d9256435558",
+     "prompt": "Write $0.00056$ in standard form.",
+     "options": [
+      {
+       "text": "$5.6 \\times 10^4$",
+       "correct": false
+      },
+      {
+       "text": "$0.56 \\times 10^{-3}$",
+       "correct": false
+      },
+      {
+       "text": "$56 \\times 10^{-5}$",
+       "correct": false
+      },
+      {
+       "text": "$5.6 \\times 10^{-4}$",
+       "correct": true
+      }
+     ],
+     "explanation": "Move the decimal point 4 places right to make $5.6$. Since the original number is less than 1, the exponent is negative, giving $5.6 \\times 10^{-4}$."
+    },
+    {
+     "id": "11b38a5a-fb1f-4cb1-a981-d3f00cecfb49",
+     "prompt": "Write $3.08 \\times 10^5$ as an ordinary number.",
+     "options": [
+      {
+       "text": "$308000$",
+       "correct": true
+      },
+      {
+       "text": "$30800$",
+       "correct": false
+      },
+      {
+       "text": "$0.0000308$",
+       "correct": false
+      },
+      {
+       "text": "$3080000$",
+       "correct": false
+      }
+     ],
+     "explanation": "The positive exponent means move the decimal point 5 places right, so $3.08 \\times 10^5=308000$."
+    },
+    {
+     "id": "66806016-ad41-4ff0-885a-6370180ff63c",
+     "prompt": "Write $0.47 \\times 10^8$ in standard form.",
+     "options": [
+      {
+       "text": "$4.7 \\times 10^8$",
+       "correct": false
+      },
+      {
+       "text": "$47 \\times 10^7$",
+       "correct": false
+      },
+      {
+       "text": "$4.7 \\times 10^7$",
+       "correct": true
+      },
+      {
+       "text": "$0.47 \\times 10^7$",
+       "correct": false
+      }
+     ],
+     "explanation": "In standard form, the first number must be at least 1 but less than 10. Multiplying $0.47$ by 10 and reducing the exponent by 1 gives $4.7 \\times 10^7$."
+    },
+    {
+     "id": "3007c46c-e899-41ff-bc85-6fa6264aaf53",
+     "prompt": "A spacecraft is $6.3 \\times 10^{16}$ m from Earth and travels $8 \\times 10^{15}$ m towards Earth. How far from Earth is it now, in standard form?",
+     "options": [
+      {
+       "text": "$5.5 \\times 10^{15}$ m",
+       "correct": false
+      },
+      {
+       "text": "$5.5 \\times 10^{16}$ m",
+       "correct": true
+      },
+      {
+       "text": "$1.7 \\times 10^{16}$ m",
+       "correct": false
+      },
+      {
+       "text": "$6.22 \\times 10^{16}$ m",
+       "correct": false
+      }
+     ],
+     "explanation": "First write $8 \\times 10^{15}$ as $0.8 \\times 10^{16}$. Then subtract: $(6.3-0.8)\\times 10^{16}=5.5 \\times 10^{16}$ m."
+    },
+    {
+     "id": "e63282c0-ae1b-4465-951f-d1ea1ca27402",
+     "prompt": "Work out $\\left(4 \\times 10^5\\right)\\left(3 \\times 10^{-2}\\right) \\div \\left(6 \\times 10^1\\right)$ in standard form.",
+     "options": [
+      {
+       "text": "$2 \\times 10^2$",
+       "correct": true
+      },
+      {
+       "text": "$2 \\times 10^4$",
+       "correct": false
+      },
+      {
+       "text": "$2 \\times 10^{-8}$",
+       "correct": false
+      },
+      {
+       "text": "$12 \\times 10^2$",
+       "correct": false
+      }
+     ],
+     "explanation": "Calculate the numbers using $4 \\times 3 \\div 6=2$. For the powers, add when multiplying and subtract when dividing: $5+(-2)-1=2$. Therefore the answer is $2 \\times 10^2$."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/iY-fARuYciI"
+  },
+  {
+   "embed_url": "https://www.youtube.com/embed/osuaAyyg1bY"
+  },
+  {
+   "embed_url": "https://www.youtube.com/embed/-stF6pUCckA"
+  },
+  {
+   "embed_url": "https://www.youtube.com/embed/VWhtJRV29R4"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-5-5-4-standard-form/revision-guides",
+ "source_sha256": "01daccc7178ae0b9f696314dade5fd5d237fcbe3c81527a78614abac3ba5e9a8",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "e29b8b89-394e-4c4f-ad1c-cb93e9cc68c1",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/standard-form.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207930255,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

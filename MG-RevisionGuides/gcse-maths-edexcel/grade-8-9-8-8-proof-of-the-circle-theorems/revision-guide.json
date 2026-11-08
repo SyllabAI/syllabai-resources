@@ -1,0 +1,150 @@
+{
+ "topic": "grade-8-9-8-8-proof-of-the-circle-theorems",
+ "lane": "gcse-maths-edexcel",
+ "grade": "8",
+ "tier": null,
+ "title": "Proof of the Circle Theorems",
+ "summary": "Learn how the main circle theorems are proved from basic angle facts, not just memorised.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "510720d0-a206-471a-badc-c6425d7cfb0f",
+     "prompt": "In a proof that the angle at the centre is twice the angle at the circumference, two angles at the centre are $180^\\circ-2x$ and $180^\\circ-2y$. What is the remaining angle around the centre?",
+     "options": [
+      {
+       "text": "$x+y$",
+       "correct": false
+      },
+      {
+       "text": "$180^\\circ-2x-2y$",
+       "correct": false
+      },
+      {
+       "text": "$360^\\circ-2x-2y$",
+       "correct": false
+      },
+      {
+       "text": "$2x+2y$",
+       "correct": true
+      }
+     ],
+     "explanation": "Angles around the centre total $360^\\circ$. Subtracting $(180^\\circ-2x)+(180^\\circ-2y)$ leaves $2x+2y=2(x+y)$, twice the corresponding angle at the circumference."
+    },
+    {
+     "id": "49593f24-8455-4f37-9243-4cf62bb58c32",
+     "prompt": "$ABCD$ is a cyclic quadrilateral and $\\angle ABC=112^\\circ$. Which statement must be true?",
+     "options": [
+      {
+       "text": "$\\angle BCD=68^\\circ$",
+       "correct": false
+      },
+      {
+       "text": "$\\angle DAB=112^\\circ$",
+       "correct": false
+      },
+      {
+       "text": "$\\angle ADC=68^\\circ$",
+       "correct": true
+      },
+      {
+       "text": "$\\angle ADC=112^\\circ$",
+       "correct": false
+      }
+     ],
+     "explanation": "Opposite angles in a cyclic quadrilateral add to $180^\\circ$, so $\\angle ADC=180^\\circ-112^\\circ=68^\\circ$."
+    },
+    {
+     "id": "0c428c51-45ee-4cbd-b385-464daa1d41bc",
+     "prompt": "Points $A$ and $B$ lie on a circle with centre $O$. Which statement justifies writing $\\angle OAB=\\angle ABO$ in a proof?",
+     "options": [
+      {
+       "text": "$AB$ is a chord, so its end angles are equal",
+       "correct": false
+      },
+      {
+       "text": "$OA=OB$, so triangle $AOB$ is isosceles",
+       "correct": true
+      },
+      {
+       "text": "A radius is always perpendicular to a chord",
+       "correct": false
+      },
+      {
+       "text": "Angles around $O$ add to $360^\\circ$",
+       "correct": false
+      }
+     ],
+     "explanation": "Both $OA$ and $OB$ are radii, so $OA=OB$. Therefore triangle $AOB$ is isosceles and its base angles are equal."
+    },
+    {
+     "id": "faebb37c-ccb3-4b98-9347-64547caa700b",
+     "prompt": "A tangent touches a circle at $C$, $BC$ is a chord and $O$ is the centre. If $\\angle OCB=28^\\circ$, what angle does chord $BC$ make with the tangent at $C$?",
+     "options": [
+      {
+       "text": "$62^\\circ$",
+       "correct": true
+      },
+      {
+       "text": "$28^\\circ$",
+       "correct": false
+      },
+      {
+       "text": "$56^\\circ$",
+       "correct": false
+      },
+      {
+       "text": "$118^\\circ$",
+       "correct": false
+      }
+     ],
+     "explanation": "The radius $OC$ is perpendicular to the tangent at the point of contact. Therefore the angle between the tangent and $BC$ is $90^\\circ-28^\\circ=62^\\circ$; this is also the angle in the alternate segment."
+    },
+    {
+     "id": "0af82410-5628-4be1-9c8f-24bcc53fbc93",
+     "prompt": "$AB$ is a diameter of a circle, and $C$ is a point on the circumference. Which argument proves that $\\angle ACB=90^\\circ$?",
+     "options": [
+      {
+       "text": "The angle at the circumference equals the angle at the centre",
+       "correct": false
+      },
+      {
+       "text": "Triangle $ACB$ is isosceles because $AB$ is a diameter",
+       "correct": false
+      },
+      {
+       "text": "The angle at the centre is $180^\\circ$, and the angle at the circumference standing on the same arc is half of this",
+       "correct": true
+      },
+      {
+       "text": "Opposite angles in every quadrilateral add to $180^\\circ$",
+       "correct": false
+      }
+     ],
+     "explanation": "The diameter forms a straight angle of $180^\\circ$ at the centre. The angle at the circumference subtended by the same arc is half the angle at the centre, so $\\angle ACB=90^\\circ$."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/eUcosMam7ZQ"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-8-9-8-8-proof-of-the-circle-theorems/revision-guides",
+ "source_sha256": "89b45a9aa6f7e7dbaa23ad61eb232146524294f9c4c5c56a5e80f3902a4d484b",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "ef71d832-3a1a-4d7d-86d3-abd8747c8df8",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/proof-of-circle-theorems.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207933736,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

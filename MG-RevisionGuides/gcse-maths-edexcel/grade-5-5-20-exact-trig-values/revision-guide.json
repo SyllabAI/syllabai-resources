@@ -1,0 +1,150 @@
+{
+ "topic": "grade-5-5-20-exact-trig-values",
+ "lane": "gcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "title": "Exact trig values",
+ "summary": "Learn the special sine, cosine and tangent values that let you answer trig questions without a calculator.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "dd996367-d307-4b94-b1e9-f02b609e3cb4",
+     "prompt": "What is the exact value of $\\cos(90^\\circ)+\\tan(45^\\circ)$?",
+     "options": [
+      {
+       "text": "$0$",
+       "correct": false
+      },
+      {
+       "text": "Undefined",
+       "correct": false
+      },
+      {
+       "text": "$2$",
+       "correct": false
+      },
+      {
+       "text": "$1$",
+       "correct": true
+      }
+     ],
+     "explanation": "$\\cos(90^\\circ)=0$ and $\\tan(45^\\circ)=1$, so the exact value is $0+1=1$."
+    },
+    {
+     "id": "fad8bfe5-f770-450b-a23f-d84a98a30a88",
+     "prompt": "What is the exact value of $\\sin(60^\\circ)$?",
+     "options": [
+      {
+       "text": "$\\frac{1}{2}$",
+       "correct": false
+      },
+      {
+       "text": "$\\sqrt{3}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{\\sqrt{3}}{2}$",
+       "correct": true
+      },
+      {
+       "text": "$\\frac{\\sqrt{2}}{2}$",
+       "correct": false
+      }
+     ],
+     "explanation": "In a $30^\\circ$-$60^\\circ$-$90^\\circ$ triangle, the side opposite $60^\\circ$ is $\\sqrt{3}$ and the hypotenuse is $2$. Therefore, $\\sin(60^\\circ)=\\frac{\\sqrt{3}}{2}$."
+    },
+    {
+     "id": "21930b5a-60b9-4146-8630-4dcd70cc558c",
+     "prompt": "A right-angled triangle has a $60^\\circ$ angle. The side opposite this angle is $12$ cm. What is the exact length of the adjacent side?",
+     "options": [
+      {
+       "text": "$4\\sqrt{3}$ cm",
+       "correct": true
+      },
+      {
+       "text": "$6\\sqrt{3}$ cm",
+       "correct": false
+      },
+      {
+       "text": "$12\\sqrt{3}$ cm",
+       "correct": false
+      },
+      {
+       "text": "$4$ cm",
+       "correct": false
+      }
+     ],
+     "explanation": "Using $\\tan(60^\\circ)=\\sqrt{3}$ gives $\\sqrt{3}=\\frac{12}{\\text{adjacent}}$. Hence the adjacent side is $\\frac{12}{\\sqrt{3}}=4\\sqrt{3}$ cm."
+    },
+    {
+     "id": "89222d2c-939a-44c2-8a5a-8aa9bcfcd1c4",
+     "prompt": "A right-angled triangle has a $30^\\circ$ angle and a hypotenuse of $14$ cm. What is the exact length of the side opposite the $30^\\circ$ angle?",
+     "options": [
+      {
+       "text": "$7\\sqrt{3}$ cm",
+       "correct": false
+      },
+      {
+       "text": "$7$ cm",
+       "correct": true
+      },
+      {
+       "text": "$14\\sqrt{3}$ cm",
+       "correct": false
+      },
+      {
+       "text": "$28$ cm",
+       "correct": false
+      }
+     ],
+     "explanation": "Since $\\sin(30^\\circ)=\\frac{1}{2}$, the opposite side is $14\\times\\frac{1}{2}=7$ cm."
+    },
+    {
+     "id": "fc1d60b1-b20c-42e8-9580-5b37a62efa37",
+     "prompt": "What is the exact value of $2\\sin(45^\\circ)+\\cos(60^\\circ)$?",
+     "options": [
+      {
+       "text": "$\\sqrt{2}+1$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{\\sqrt{2}+1}{2}$",
+       "correct": false
+      },
+      {
+       "text": "$\\sqrt{2}+\\frac{1}{2}$",
+       "correct": true
+      },
+      {
+       "text": "$2\\sqrt{2}+\\frac{1}{2}$",
+       "correct": false
+      }
+     ],
+     "explanation": "$\\sin(45^\\circ)=\\frac{\\sqrt{2}}{2}$ and $\\cos(60^\\circ)=\\frac{1}{2}$. Therefore, $2\\left(\\frac{\\sqrt{2}}{2}\\right)+\\frac{1}{2}=\\sqrt{2}+\\frac{1}{2}$."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/3KYomDEIQgo?ecver=1"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-5-5-20-exact-trig-values/revision-guides",
+ "source_sha256": "0825ede2850e2020748131085d9852eff2cd7873932cba94b4683f73fa7e2135",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "924f5c3b-711c-459f-9986-8d137e5d67da",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/exact-trig-values.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207929639,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

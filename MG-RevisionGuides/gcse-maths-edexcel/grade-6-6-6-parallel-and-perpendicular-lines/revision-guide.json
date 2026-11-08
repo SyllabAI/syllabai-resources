@@ -1,0 +1,150 @@
+{
+ "topic": "grade-6-6-6-parallel-and-perpendicular-lines",
+ "lane": "gcse-maths-edexcel",
+ "grade": "6",
+ "tier": null,
+ "title": "Parallel and Perpendicular Lines",
+ "summary": "Learn how gradients reveal which straight lines are parallel or perpendicular, then build their equations from points.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "12e27cdf-d856-4384-98ed-3160dcade4a9",
+     "prompt": "Rearrange $3x+6y=12$ into $y=mx+c$ form. What is the gradient?",
+     "options": [
+      {
+       "text": "$-\\frac{1}{2}$",
+       "correct": true
+      },
+      {
+       "text": "$\\frac{1}{2}$",
+       "correct": false
+      },
+      {
+       "text": "$-2$",
+       "correct": false
+      },
+      {
+       "text": "$3$",
+       "correct": false
+      }
+     ],
+     "explanation": "Subtracting $3x$ and dividing by 6 gives $y=-\\frac{1}{2}x+2$, so the gradient is $-\\frac{1}{2}$."
+    },
+    {
+     "id": "e82d8a86-cb92-40aa-8aa6-22f2c693d2f2",
+     "prompt": "A line is parallel to $y=-3x+4$ and passes through $(0,-2)$. What is its equation?",
+     "options": [
+      {
+       "text": "$y=3x-2$",
+       "correct": false
+      },
+      {
+       "text": "$y=-3x+4$",
+       "correct": false
+      },
+      {
+       "text": "$y=-3x-2$",
+       "correct": true
+      },
+      {
+       "text": "$y=-\\frac{1}{3}x-2$",
+       "correct": false
+      }
+     ],
+     "explanation": "Parallel lines have the same gradient, so the gradient is $-3$. Since the line passes through $(0,-2)$, its $y$-intercept is $-2$, giving $y=-3x-2$."
+    },
+    {
+     "id": "9cb99b96-4641-4b72-b466-122d34f82815",
+     "prompt": "What is the gradient of a line perpendicular to $y=\\frac{2}{5}x-7$?",
+     "options": [
+      {
+       "text": "$\\frac{5}{2}$",
+       "correct": false
+      },
+      {
+       "text": "$-\\frac{5}{2}$",
+       "correct": true
+      },
+      {
+       "text": "$-\\frac{2}{5}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{2}{5}$",
+       "correct": false
+      }
+     ],
+     "explanation": "Perpendicular gradients have a product of $-1$. The negative reciprocal of $\\frac{2}{5}$ is $-\\frac{5}{2}$."
+    },
+    {
+     "id": "c16ed1fe-462a-4c4f-8688-df3389518d78",
+     "prompt": "A line passes through $(-2,1)$ and $(4,10)$. A parallel line passes through $(2,-1)$. What is the equation of the parallel line?",
+     "options": [
+      {
+       "text": "$y=\\frac{2}{3}x-\\frac{7}{3}$",
+       "correct": false
+      },
+      {
+       "text": "$y=-\\frac{3}{2}x+2$",
+       "correct": false
+      },
+      {
+       "text": "$y=\\frac{3}{2}x+4$",
+       "correct": false
+      },
+      {
+       "text": "$y=\\frac{3}{2}x-4$",
+       "correct": true
+      }
+     ],
+     "explanation": "The first line has gradient $\\frac{10-1}{4-(-2)}=\\frac{9}{6}=\\frac{3}{2}$. Substituting $(2,-1)$ into $y=\\frac{3}{2}x+c$ gives $-1=3+c$, so $c=-4$."
+    },
+    {
+     "id": "3d12fffa-ee9d-4fa7-97a1-ffb74f74f7dd",
+     "prompt": "Line A passes through $(0,2)$ and $(6,5)$. Line B passes through $(1,7)$ and $(k,1)$ and is perpendicular to Line A. What is $k$?",
+     "options": [
+      {
+       "text": "$-2$",
+       "correct": false
+      },
+      {
+       "text": "3",
+       "correct": false
+      },
+      {
+       "text": "4",
+       "correct": true
+      },
+      {
+       "text": "7",
+       "correct": false
+      }
+     ],
+     "explanation": "Line A has gradient $\\frac{5-2}{6-0}=\\frac{1}{2}$, so Line B has gradient $-2$. Therefore $\\frac{1-7}{k-1}=-2$, and solving $\\frac{-6}{k-1}=-2$ gives $k=4$."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/eFjXfm6vQY8"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-6-6-6-parallel-and-perpendicular-lines/revision-guides",
+ "source_sha256": "dabaf0969e6ff85a727398d0f73fa0a8af3a00e5823913a344523b2e25396600",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "35e7208b-4fb4-490b-b4da-57b67266ea85",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/parallel-and-perpendicular-lines.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207931518,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

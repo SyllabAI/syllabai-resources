@@ -1,0 +1,150 @@
+{
+ "topic": "grade-7-7-16-histograms",
+ "lane": "gcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "title": "Histograms",
+ "summary": "Learn how histogram bar area, class width and frequency density connect so you can complete tables and draw accurate bars.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "c554d54a-b11b-42d2-ac81-cb4222380605",
+     "prompt": "A histogram uses the class interval $7 \\le t < 15$. What is the class width?",
+     "options": [
+      {
+       "text": "$7$",
+       "correct": false
+      },
+      {
+       "text": "$8$",
+       "correct": true
+      },
+      {
+       "text": "$15$",
+       "correct": false
+      },
+      {
+       "text": "$22$",
+       "correct": false
+      }
+     ],
+     "explanation": "Class width is the upper boundary minus the lower boundary: $15-7=8$."
+    },
+    {
+     "id": "f9ce47ed-81d6-4e3e-9603-bb3951c6a485",
+     "prompt": "For the class $2 \\le t < 10$, the frequency is $24$. What is the frequency density?",
+     "options": [
+      {
+       "text": "$3$",
+       "correct": true
+      },
+      {
+       "text": "$8$",
+       "correct": false
+      },
+      {
+       "text": "$12$",
+       "correct": false
+      },
+      {
+       "text": "$24$",
+       "correct": false
+      }
+     ],
+     "explanation": "Frequency density is $\\dfrac{\\text{frequency}}{\\text{class width}}$. The width is $10-2=8$, so the density is $24\\div8=3$."
+    },
+    {
+     "id": "31c0eeb1-2e6f-4169-adba-80fd42ecd6e8",
+     "prompt": "A histogram bar covers $5 \\le x < 13$ and has frequency density $1.5$. What frequency does the bar represent?",
+     "options": [
+      {
+       "text": "$7.5$",
+       "correct": false
+      },
+      {
+       "text": "$9.5$",
+       "correct": false
+      },
+      {
+       "text": "$12$",
+       "correct": true
+      },
+      {
+       "text": "$19.5$",
+       "correct": false
+      }
+     ],
+     "explanation": "Frequency is the area of the bar: $\\text{class width}\\times\\text{frequency density}$. Therefore, $(13-5)\\times1.5=8\\times1.5=12$."
+    },
+    {
+     "id": "2cd41f6f-bf43-4dc4-a5a9-eef29a13906c",
+     "prompt": "The class $0 \\le t < 4$ has frequency $18$, while the class $4 \\le t < 10$ has frequency density $2$. What are the frequency density of the first class and the frequency of the second class?",
+     "options": [
+      {
+       "text": "$18$ and $2$",
+       "correct": false
+      },
+      {
+       "text": "$72$ and $12$",
+       "correct": false
+      },
+      {
+       "text": "$4.5$ and $6$",
+       "correct": false
+      },
+      {
+       "text": "$4.5$ and $12$",
+       "correct": true
+      }
+     ],
+     "explanation": "For the first class, the density is $18\\div4=4.5$. For the second class, the width is $10-4=6$, so the frequency is $6\\times2=12$."
+    },
+    {
+     "id": "b05efdff-6d81-42e3-bdf6-4ff08bd81943",
+     "prompt": "A histogram bar covers $20 \\le m < 35$ and represents a frequency of $45$. Assuming values are evenly distributed within the class, estimate the frequency for $24 \\le m < 30$.",
+     "options": [
+      {
+       "text": "$15$",
+       "correct": false
+      },
+      {
+       "text": "$18$",
+       "correct": true
+      },
+      {
+       "text": "$24$",
+       "correct": false
+      },
+      {
+       "text": "$30$",
+       "correct": false
+      }
+     ],
+     "explanation": "The whole class has width $35-20=15$, so its density is $45\\div15=3$. The interval from $24$ to $30$ has width $6$, giving an estimated frequency of $6\\times3=18$."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/DMgczUH9U0Q"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-7-7-16-histograms/revision-guides",
+ "source_sha256": "4f42f5a074329fbf4b0d8cd0b32733697587c2b214ba1b428e6476b9e3ff54a6",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "dbd10812-af25-4475-bfb6-fbe31b6ddce7",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/histograms.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207932175,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

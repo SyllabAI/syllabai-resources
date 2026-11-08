@@ -1,0 +1,150 @@
+{
+ "topic": "grade-7-7-3-direct-and-inverse-proportion",
+ "lane": "gcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "title": "Direct and Inverse Proportion",
+ "summary": "Master proportional relationships by translating words, graphs, and tables into equations with a constant multiplier.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "abe80248-0f6d-41fa-b80b-ed2aab408db2",
+     "prompt": "$p$ is directly proportional to $q$. When $p=15$ and $q=5$, find $p$ when $q=12$.",
+     "options": [
+      {
+       "text": "22",
+       "correct": false
+      },
+      {
+       "text": "30",
+       "correct": false
+      },
+      {
+       "text": "36",
+       "correct": true
+      },
+      {
+       "text": "60",
+       "correct": false
+      }
+     ],
+     "explanation": "Since $p=kq$, $k=15\\div5=3$. Therefore, when $q=12$, $p=3\\times12=36$."
+    },
+    {
+     "id": "be5afdb6-2f53-4841-8aff-43b354057b8c",
+     "prompt": "$r$ is directly proportional to $\\sqrt{s}$. When $r=12$ and $s=16$, find $s$ when $r=18$.",
+     "options": [
+      {
+       "text": "6",
+       "correct": false
+      },
+      {
+       "text": "36",
+       "correct": true
+      },
+      {
+       "text": "24",
+       "correct": false
+      },
+      {
+       "text": "54",
+       "correct": false
+      }
+     ],
+     "explanation": "Write $r=k\\sqrt{s}$. Using the first pair gives $12=k\\sqrt{16}=4k$, so $k=3$. Then $18=3\\sqrt{s}$, giving $\\sqrt{s}=6$ and hence $s=36$."
+    },
+    {
+     "id": "adc0d96b-e02e-46f2-8aa3-7931591c606f",
+     "prompt": "The pairs $(x,y)$ are $(2,32)$, $(3,108)$ and $(4,256)$. Which formula fits all three pairs?",
+     "options": [
+      {
+       "text": "$y=4x^3$",
+       "correct": true
+      },
+      {
+       "text": "$y=8x^2$",
+       "correct": false
+      },
+      {
+       "text": "$y=16x$",
+       "correct": false
+      },
+      {
+       "text": "$y=\\frac{64}{x}$",
+       "correct": false
+      }
+     ],
+     "explanation": "For each pair, $y\\div x^3=4$: for example, $32\\div2^3=4$. Therefore $y$ is directly proportional to $x^3$ and the formula is $y=4x^3$."
+    },
+    {
+     "id": "68dd719c-a22b-4bcb-ae51-7e7c6796100e",
+     "prompt": "$m$ is inversely proportional to $n$. When $m=24$ and $n=3$, find $m$ when $n=9$.",
+     "options": [
+      {
+       "text": "72",
+       "correct": false
+      },
+      {
+       "text": "216",
+       "correct": false
+      },
+      {
+       "text": "18",
+       "correct": false
+      },
+      {
+       "text": "8",
+       "correct": true
+      }
+     ],
+     "explanation": "For inverse proportion, $mn$ is constant. Here, $mn=24\\times3=72$, so when $n=9$, $m=72\\div9=8$."
+    },
+    {
+     "id": "07437173-ba8d-4f0d-a987-c3ce56bdb1a7",
+     "prompt": "A graph of $y$ against $x$ has two curved branches above the $x$-axis and is symmetric about the $y$-axis. Which formula could describe it, where $k$ is positive?",
+     "options": [
+      {
+       "text": "$y=kx^2$",
+       "correct": false
+      },
+      {
+       "text": "$y=\\frac{k}{x^2}$",
+       "correct": true
+      },
+      {
+       "text": "$y=\\frac{k}{x}$",
+       "correct": false
+      },
+      {
+       "text": "$y=kx$",
+       "correct": false
+      }
+     ],
+     "explanation": "In $y=\\frac{k}{x^2}$, squaring $x$ makes the denominator positive for both positive and negative $x$. This produces two positive branches symmetric about the $y$-axis."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/Rx5_NejyydE"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-7-7-3-direct-and-inverse-proportion/revision-guides",
+ "source_sha256": "8d4a0181b9c9800a48a5a2b37cdad423a1ff6e28078a3581030b766dfae42ce0",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "2096c215-85d3-4826-bab0-902fe2670715",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/direct-and-inverse-proportion.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207932444,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

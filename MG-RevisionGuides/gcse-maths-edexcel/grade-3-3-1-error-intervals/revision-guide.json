@@ -1,0 +1,477 @@
+{
+ "topic": "grade-3-3-1-error-intervals",
+ "lane": "gcse-maths-edexcel",
+ "grade": "3",
+ "tier": null,
+ "title": "Error Intervals",
+ "summary": "See how one displayed value can cover many true measurements.",
+ "blocks": [
+  {
+   "kind": "paragraph",
+   "text": "When we use error intervals we are looking at a number that has been rounded. An error interval tells us the range of numbers that we could have had before the number was rounded."
+  },
+  {
+   "kind": "paragraph",
+   "text": "**Example 1: A number *x* has been rounded to one decimal place  \nThe result is 4.8  \nWrite down the error interval for *x***"
+  },
+  {
+   "kind": "paragraph",
+   "text": "The number has been rounded to 4.8 to one decimal place.  \nThe number below is 4.7 and the number above is 4.9 (to one decimal place)"
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/001-error-intervals-1.jpg",
+   "alt": "error intervals 1"
+  },
+  {
+   "kind": "paragraph",
+   "text": "We need to look half way between 4.7 and 4.8 for the lower bound and half way between 4.8 and 4.9 for the upper bound."
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/002-error-intervals-2.jpg",
+   "alt": "error intervals 2"
+  },
+  {
+   "kind": "paragraph",
+   "text": "The number must have been between 4.75 and 4.85 to round to 4.8 to one decimal place."
+  },
+  {
+   "kind": "paragraph",
+   "text": "This can be written as an inequality.  \n4.75 would round to 4.8, so we use an or equal symbol  \n4.85 would not round to 4.8 we just use the less than symbol."
+  },
+  {
+   "kind": "paragraph",
+   "text": "**4.75 ≤ *x* < 4.85**"
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "1e52b31a-ea2a-422e-8c04-5b3ca49f66b2",
+     "prompt": "A number $x$ is rounded to 2 decimal places and the result is $6.37$. What is the error interval for $x$?",
+     "options": [
+      {
+       "text": "$6.365 \\le x < 6.375$",
+       "correct": true
+      },
+      {
+       "text": "$6.37 \\le x < 6.38$",
+       "correct": false
+      },
+      {
+       "text": "$6.36 \\le x < 6.38$",
+       "correct": false
+      },
+      {
+       "text": "$6.365 < x \\le 6.375$",
+       "correct": false
+      }
+     ],
+     "explanation": "Rounding to 2 decimal places means the half-step is $0.005$. Therefore the lower bound is $6.37-0.005=6.365$ and the upper bound is $6.37+0.005=6.375$, which is not included because it would round to $6.38$."
+    },
+    {
+     "id": "f978d65b-0ce4-46cd-b1ad-fcc902d6de09",
+     "prompt": "A mass $m$ is given as $580$ g, correct to the nearest $10$ g. Which is the error interval for $m$?",
+     "options": [
+      {
+       "text": "$570 \\le m < 590$",
+       "correct": false
+      },
+      {
+       "text": "$579.5 \\le m < 580.5$",
+       "correct": false
+      },
+      {
+       "text": "$575 \\le m < 585$",
+       "correct": true
+      },
+      {
+       "text": "$580 \\le m < 590$",
+       "correct": false
+      }
+     ],
+     "explanation": "The rounding unit is $10$ g, so the half-step is $5$ g. The mass is at least $580-5=575$ g and less than $580+5=585$ g."
+    }
+   ]
+  },
+  {
+   "kind": "paragraph",
+   "text": "**Example 2: A number *y* has been rounded to one significant figure  \nThe result is 7000  \nWrite down the error interval for *y***"
+  },
+  {
+   "kind": "paragraph",
+   "text": "The number below is 6000 and the number above is 8000 (to one significant figure)"
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/003-error-intervals-3.jpg",
+   "alt": "error intervals 3"
+  },
+  {
+   "kind": "paragraph",
+   "text": "We need to look half way between 6000 and 7000 for the lower bound and half way between 7000 and 8000 for the upper bound."
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/004-error-intervals-4.jpg",
+   "alt": "error intervals 4"
+  },
+  {
+   "kind": "paragraph",
+   "text": "The number must have been between 6500 and 7500 to round to 7000 to one significant figure."
+  },
+  {
+   "kind": "paragraph",
+   "text": "We write this as an inequality. The number could have been equal to 6500, but not equal to 7500."
+  },
+  {
+   "kind": "paragraph",
+   "text": "**6500 ≤ *y* < 7500**"
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "6ac7c5a9-f46f-4238-b5e9-5e47e553e202",
+     "prompt": "A number $x$ is rounded to 2 significant figures and the result is $0.047$. What is the error interval for $x$?",
+     "options": [
+      {
+       "text": "$0.046 \\le x < 0.048$",
+       "correct": false
+      },
+      {
+       "text": "$0.0465 \\le x < 0.0475$",
+       "correct": true
+      },
+      {
+       "text": "$0.047 \\le x < 0.048$",
+       "correct": false
+      },
+      {
+       "text": "$0.04695 \\le x < 0.04705$",
+       "correct": false
+      }
+     ],
+     "explanation": "In $0.047$, the second significant figure is in the thousandths place, so the half-step is $0.0005$. Thus the interval is $0.0465 \\le x < 0.0475$."
+    },
+    {
+     "id": "f964bd78-ccfc-459b-bfd8-99e97cbba792",
+     "prompt": "A number $x$ rounds to $3.2$ to 1 decimal place. Which value could $x$ be?",
+     "options": [
+      {
+       "text": "$3.14$",
+       "correct": false
+      },
+      {
+       "text": "$3.25$",
+       "correct": false
+      },
+      {
+       "text": "$3.27$",
+       "correct": false
+      },
+      {
+       "text": "$3.15$",
+       "correct": true
+      }
+     ],
+     "explanation": "The error interval is $3.15 \\le x < 3.25$. The value $3.15$ is included because it rounds up to $3.2$, while $3.25$ would round to $3.3$."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "text": "Try these:"
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "27dd87ef-d69f-40cf-99a5-5f0348d148a3",
+     "prompt": "A number, x, is rounded to the nearest integer as 12. Which of the following represents the error interval for x?",
+     "options": [
+      {
+       "text": "$11.5 \\le x < 12.5$",
+       "correct": true
+      },
+      {
+       "text": "$11 \\le x < 12$",
+       "correct": false
+      },
+      {
+       "text": "$11.5 \\le x \\le 12.5$",
+       "correct": false
+      },
+      {
+       "text": "$11.9 \\le x < 12.1$",
+       "correct": false
+      }
+     ],
+     "explanation": null
+    },
+    {
+     "id": "e90c949e-d7a8-4221-aaa7-58ec559441b5",
+     "prompt": "A length, $L$, is measured as 5.8 cm, correct to 1 decimal place. What is the error interval for $L$?",
+     "options": [
+      {
+       "text": "$5.75 \\le L < 5.85$",
+       "correct": true
+      },
+      {
+       "text": "$5.7 \\le L < 5.9$",
+       "correct": false
+      },
+      {
+       "text": "$5.79 \\le L < 5.81$",
+       "correct": false
+      },
+      {
+       "text": "$5.8 \\le L < 5.9$",
+       "correct": false
+      }
+     ],
+     "explanation": null
+    },
+    {
+     "id": "581d71e2-e209-4bf2-8355-cd812f8b846b",
+     "prompt": "A weight, $W$, is given as 240 kg, correct to the nearest 10 kg. What is the error interval for $W$?",
+     "options": [
+      {
+       "text": "$235 \\le W < 245$",
+       "correct": true
+      },
+      {
+       "text": "$230 \\le W < 250$",
+       "correct": false
+      },
+      {
+       "text": "$239.5 \\le W < 240.5$",
+       "correct": false
+      },
+      {
+       "text": "$240 \\le W < 250$",
+       "correct": false
+      }
+     ],
+     "explanation": null
+    }
+   ]
+  },
+  {
+   "kind": "paragraph",
+   "text": "## Truncating numbers"
+  },
+  {
+   "kind": "paragraph",
+   "text": "When a number has been truncated it has been cut off. If we truncate a number to one decimal place we delete all digits after one decimal place. If we truncate a number to two decimal places we delete all digits after two decimal places."
+  },
+  {
+   "kind": "worked-example",
+   "title": "Example 3: Truncate 4.5891 to one decimal place",
+   "steps": [
+    {
+     "heading": null,
+     "body": "We delete all the digits after one decimal place:  \n4.5891  \n4.5891 truncated to one decimal place is 4.5",
+     "figure_refs": []
+    }
+   ]
+  },
+  {
+   "kind": "worked-example",
+   "title": "Example 4: Truncate 19.68572 to two decimal places",
+   "steps": [
+    {
+     "heading": null,
+     "body": "We remove all the digits after two decimal places:  \n19.68572  \n19.68572 truncated to two decimal place sis 19.68",
+     "figure_refs": []
+    }
+   ]
+  },
+  {
+   "kind": "paragraph",
+   "text": "**Example 5: A number *x* has been truncated to one decimal place  \nThe result is 1.4  \nWrite an error interval for *x***"
+  },
+  {
+   "kind": "paragraph",
+   "text": "The number must have began with 1.4 in order for it to be truncated to 1.4"
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/005-error-intervals-5.jpg",
+   "alt": "error intervals 5"
+  },
+  {
+   "kind": "paragraph",
+   "text": "All of the numbers between 1.4 and 1.5 begin with 1.4"
+  },
+  {
+   "kind": "paragraph",
+   "text": "The number could have been equal to 1.4 but not equal to 1.5 (It could have been anything up to 1.5, but not 1.5)"
+  },
+  {
+   "kind": "paragraph",
+   "text": "**1.4 ≤ *x* < 1.5**"
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "7de8a141-41de-46a7-bf36-f0ce5a53da77",
+     "prompt": "A positive number $x$ is truncated to 2 decimal places and gives $7.40$. What is the error interval for $x$?",
+     "options": [
+      {
+       "text": "$7.395 \\le x < 7.405$",
+       "correct": false
+      },
+      {
+       "text": "$7.40 \\le x < 7.41$",
+       "correct": true
+      },
+      {
+       "text": "$7.40 \\le x \\le 7.41$",
+       "correct": false
+      },
+      {
+       "text": "$7.4 \\le x < 7.5$",
+       "correct": false
+      }
+     ],
+     "explanation": "Truncation keeps the digits up to 2 decimal places and discards the rest. So $x$ can start at $7.40$ but must be less than the next hundredth, $7.41$."
+    },
+    {
+     "id": "0af48416-eaa3-4aa6-973b-909d0218e6e6",
+     "prompt": "A positive number is truncated to 2 decimal places to give $5.90$. Which value could the original number be?",
+     "options": [
+      {
+       "text": "$5.899$",
+       "correct": false
+      },
+      {
+       "text": "$5.895$",
+       "correct": false
+      },
+      {
+       "text": "$5.907$",
+       "correct": true
+      },
+      {
+       "text": "$5.91$",
+       "correct": false
+      }
+     ],
+     "explanation": "For truncation to give $5.90$, the original number must satisfy $5.90 \\le x < 5.91$. Therefore $5.907$ works; $5.91$ is too large and the first two values are below $5.90$."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "text": "Try these:"
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "8fcf505a-e77a-4f2a-b864-ded3e4ae0d72",
+     "prompt": "A number x is rounded to 15 when rounded to the nearest integer. Which of the following is the correct error interval for x?",
+     "options": [
+      {
+       "text": "$14 < x < 16$",
+       "correct": false
+      },
+      {
+       "text": "$14.5 \\le x < 15.5$",
+       "correct": true
+      },
+      {
+       "text": "$14.5 < x \\le 15.5$",
+       "correct": false
+      },
+      {
+       "text": "$14.0 \\le x < 15.0$",
+       "correct": false
+      }
+     ],
+     "explanation": null
+    },
+    {
+     "id": "933b2476-219a-4267-9d67-cac358f83b86",
+     "prompt": "A length $L$ is measured as 8.3 cm, correct to one decimal place. What is the error interval for $L$?",
+     "options": [
+      {
+       "text": "$8.2 \\le L < 8.4$",
+       "correct": false
+      },
+      {
+       "text": "$8.25 \\le L < 8.35$",
+       "correct": true
+      },
+      {
+       "text": "$8.30 \\le L < 8.39$",
+       "correct": false
+      },
+      {
+       "text": "$8.25 < L \\le 8.35$",
+       "correct": false
+      }
+     ],
+     "explanation": null
+    },
+    {
+     "id": "c813a01e-5faf-4bf1-920b-a17a936da0a4",
+     "prompt": "The mass of an object is given as 2400 g, correct to 2 significant figures. What is the error interval for the mass $m$?",
+     "options": [
+      {
+       "text": "$2350 \\le m < 2450$",
+       "correct": true
+      },
+      {
+       "text": "$2300 \\le m < 2500$",
+       "correct": false
+      },
+      {
+       "text": "$2395 \\le m < 2405$",
+       "correct": false
+      },
+      {
+       "text": "$2350 < m \\le 2450$",
+       "correct": false
+      }
+     ],
+     "explanation": null
+    }
+   ]
+  },
+  {
+   "kind": "paragraph",
+   "text": "70:[\"$"
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/f4zH_N-sSGM?ecver=1"
+  },
+  {
+   "embed_url": "https://www.youtube.com/embed/nxwXipPqPgc"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-3-3-1-error-intervals/revision-guides",
+ "source_sha256": "e1b77f31576f7c02ef17166e4e91b5ba64998eee12a1599e169ad7965a63cdbd",
+ "extracted_at": "2026-11-08T17:51:37Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "cf81a6ec-fddc-47f5-8207-e6d528a9c039",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/error-intervals.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207926475,
+  "figure_count": 5,
+  "block_counts": {
+   "paragraph": 21,
+   "figure": 5,
+   "mcq-set": 5,
+   "heading": 2,
+   "worked-example": 2
+  }
+ }
+}
