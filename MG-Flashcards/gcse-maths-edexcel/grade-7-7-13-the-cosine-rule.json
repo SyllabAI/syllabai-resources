@@ -1,0 +1,646 @@
+{
+ "topic": "grade-7-7-13-the-cosine-rule",
+ "lane": "gcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "title": "The Cosine Rule Flashcards",
+ "cards": [
+  {
+   "id": "e2961618-6d0f-4db4-b767-b6eaffb4d558",
+   "card_type": "basic",
+   "front": "Which angle must be known to find a missing side using the Cosine Rule?",
+   "back": "The included angle (the angle between the two known sides).",
+   "options": [
+    {
+     "text": "The included angle (the angle between the two known sides).",
+     "correct": true,
+     "explanation": "The Cosine Rule finds the third side when two sides and their included angle are known. This angle appears in the cosine term of the formula."
+    },
+    {
+     "text": "The opposite angle (the angle opposite one of the known sides).",
+     "correct": false,
+     "explanation": "This confuses the required angle with one opposite a known side. To calculate the missing side directly, the known angle must be between the two known sides."
+    },
+    {
+     "text": "The exterior angle (the angle outside the triangle).",
+     "correct": false,
+     "explanation": "An exterior angle is not used directly in the standard Cosine Rule formula. The required angle is the included interior angle between the two known sides."
+    },
+    {
+     "text": "A non-included angle (an angle not between the two known sides).",
+     "correct": false,
+     "explanation": "A non-included angle does not match the two known sides in the side-finding formula. The required angle is the included angle between those sides."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "14e3bc6d-8e2f-41ab-8fa4-c60f564046ce",
+   "card_type": "basic",
+   "front": "What information is required to use the Cosine Rule to find a missing angle?",
+   "back": "The lengths of all three sides.",
+   "options": [
+    {
+     "text": "The lengths of all three sides.",
+     "correct": true,
+     "explanation": "Knowing all three side lengths allows the Cosine Rule to be rearranged for the cosine of the required angle, after which inverse cosine gives the angle."
+    },
+    {
+     "text": "The lengths of two adjacent sides.",
+     "correct": false,
+     "explanation": "Two side lengths alone do not determine a unique triangle or angle. To find an angle using the Cosine Rule, the lengths of all three sides are required."
+    },
+    {
+     "text": "The sizes of all three angles.",
+     "correct": false,
+     "explanation": "Knowing every angle determines the triangle’s shape but not its side lengths, and the angle is already known. The Cosine Rule requires all three side lengths."
+    },
+    {
+     "text": "The lengths of two opposite sides.",
+     "correct": false,
+     "explanation": "This mistakenly treats sides as being opposite each other, which cannot occur in a triangle. Finding an angle by the Cosine Rule requires all three side lengths."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "4b131bd4-87ac-4bf0-8341-9edb40de10fb",
+   "card_type": "cloze",
+   "front": "In the formula $a^2 = b^2 + c^2 - 2bc\\cos A$, side $\\text{[...]}$ must be opposite angle $A$.",
+   "back": "In the formula $a^2 = b^2 + c^2 - 2bc\\cos A$, side $\\boxed{a}$ must be opposite angle $A$.",
+   "options": [
+    {
+     "text": "$$a$",
+     "correct": true,
+     "explanation": "Standard triangle notation pairs each lowercase side with its opposite uppercase angle. Therefore, side $a$ is opposite angle $A$ in this form of the Cosine Rule."
+    },
+    {
+     "text": "$$b$",
+     "correct": false,
+     "explanation": "Side $b$ is normally opposite angle $B$, not angle $A$. In this arrangement of the Cosine Rule, side $a$ must be opposite angle $A$."
+    },
+    {
+     "text": "$$c$",
+     "correct": false,
+     "explanation": "Side $c$ is normally paired with angle $C$. The squared side isolated on the left is $a$, which must be opposite the angle $A$."
+    },
+    {
+     "text": "$$d$",
+     "correct": false,
+     "explanation": "The formula does not use a side labelled $d$, so inserting it breaks the standard side-angle pairing. Side $a$ is the side opposite angle $A$."
+    }
+   ]
+  },
+  {
+   "id": "55e4bdf9-4955-4b14-89af-d36dbe97ceb3",
+   "card_type": "cloze",
+   "front": "In the formula $a^2 = b^2 + c^2 - 2bc\\cos A$, side $a$ must be opposite [ ___ ].",
+   "back": "In the formula $a^2 = b^2 + c^2 - 2bc\\cos A$, side $a$ must be opposite angle $A$.",
+   "options": [
+    {
+     "text": "angle $A$",
+     "correct": true,
+     "explanation": "The lowercase side label and uppercase angle label form an opposite pair. Thus side $a$ lies opposite angle $A$, which appears in the cosine term."
+    },
+    {
+     "text": "angle $B$",
+     "correct": false,
+     "explanation": "Angle $B$ is opposite side $b$, not side $a$. In the stated formula, side $a$ must be opposite angle $A$."
+    },
+    {
+     "text": "angle $C$",
+     "correct": false,
+     "explanation": "Angle $C$ is conventionally opposite side $c$. The formula isolates side $a$, so its corresponding opposite angle must be angle $A$."
+    },
+    {
+     "text": "angle $A + B$",
+     "correct": false,
+     "explanation": "The cosine term uses one interior angle opposite the side being found, not a sum of angles. Side $a$ is opposite angle $A$."
+    }
+   ]
+  },
+  {
+   "id": "2023db3a-5924-4fc7-86b0-2fbd7b3d525a",
+   "card_type": "basic",
+   "front": "In triangle $ABC$, which side is opposite angle $C$?",
+   "back": "Side $AB$.",
+   "options": [
+    {
+     "text": "Side $AB$.",
+     "correct": true,
+     "explanation": "Angle $C$ is located at vertex $C$, so the side that does not touch that vertex is $AB$. Therefore, $AB$ is opposite angle $C$."
+    },
+    {
+     "text": "Side $AC$.",
+     "correct": false,
+     "explanation": "Side $AC$ meets angle $C$, so it is adjacent to that angle rather than opposite it. The side opposite angle $C$ is $AB$."
+    },
+    {
+     "text": "Side $BC$.",
+     "correct": false,
+     "explanation": "Side $BC$ forms one arm of angle $C$, making it adjacent to the angle. The side across from vertex $C$ is $AB$."
+    },
+    {
+     "text": "Side $C$.",
+     "correct": false,
+     "explanation": "The letter $C$ labels a vertex or angle, not a side named by two endpoints. The side opposite vertex $C$ is $AB$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "ec15507e-c080-4721-9e79-47cdcb853054",
+   "card_type": "cloze",
+   "front": "To find a missing side $a$, the Cosine Rule is: $$\\text{[...]}$$",
+   "back": "To find a missing side $a$, the Cosine Rule is: $$\\boxed{a^2 = b^2 + c^2 - 2bc\\cos A}$$",
+   "options": [
+    {
+     "text": "$$$a^2 = b^2 + c^2 - 2bc\\cos A$$",
+     "correct": true,
+     "explanation": "The side $a$ is opposite angle $A$, so the Cosine Rule subtracts $2bc\\cos A$ from the sum of the squares of the other two sides."
+    },
+    {
+     "text": "$$$a^2 = b^2 + c^2 + 2bc\\cos A$$",
+     "correct": false,
+     "explanation": "Using addition reverses the required cosine adjustment. For side $a$ opposite angle $A$, the correct formula is $a^2 = b^2 + c^2 - 2bc\\cos A$."
+    },
+    {
+     "text": "$$$a^2 = b^2 + c^2 - bc\\cos A$$",
+     "correct": false,
+     "explanation": "The factor of $2$ comes from expanding the geometric relationship and cannot be omitted. The correct formula is $a^2 = b^2 + c^2 - 2bc\\cos A$."
+    },
+    {
+     "text": "$$$a^2 = b^2 + c^2 - 2bc\\cos B$$",
+     "correct": false,
+     "explanation": "The cosine must use the angle opposite the missing side. Since $A$ is opposite $a$, the correct formula is $a^2 = b^2 + c^2 - 2bc\\cos A$."
+    }
+   ]
+  },
+  {
+   "id": "a557d571-3193-4413-bc73-d4cfffaa3fde",
+   "card_type": "basic",
+   "front": "Why is the Cosine Rule used instead of Pythagoras or SOHCAHTOA?",
+   "back": "It works for non-right-angled triangles.",
+   "options": [
+    {
+     "text": "It works for non-right-angled triangles.",
+     "correct": true,
+     "explanation": "Pythagoras and basic SOHCAHTOA relationships are designed for right-angled triangles. The Cosine Rule extends side and angle calculations to triangles without a right angle."
+    },
+    {
+     "text": "It works for right-angled triangles only.",
+     "correct": false,
+     "explanation": "This reverses the key distinction: Pythagoras and SOHCAHTOA are the methods restricted to right-angled triangles. The Cosine Rule is useful for non-right-angled triangles."
+    },
+    {
+     "text": "It works for triangles with two equal sides.",
+     "correct": false,
+     "explanation": "The Cosine Rule does not require an isosceles triangle or any equal sides. It is used because it works with non-right-angled triangles."
+    },
+    {
+     "text": "It works without knowing any side lengths.",
+     "correct": false,
+     "explanation": "The Cosine Rule always requires side-length information, such as three sides or two sides and an included angle. Its advantage is that it works for non-right-angled triangles."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "740f2816-ea34-418b-8b39-3e06870b87a5",
+   "card_type": "basic",
+   "front": "What is the final step when calculating a missing side length using $a^2 = b^2 + c^2 - 2bc\\cos A$?",
+   "back": "Take the square root of the result.",
+   "options": [
+    {
+     "text": "Take the square root of the result.",
+     "correct": true,
+     "explanation": "The formula produces the value of $a^2$, not $a$. Taking the positive square root gives the missing side length because lengths cannot be negative."
+    },
+    {
+     "text": "Take the square of the result.",
+     "correct": false,
+     "explanation": "Squaring again would produce $a^4$ rather than the required side length. Since the formula gives $a^2$, the final step is to take its square root."
+    },
+    {
+     "text": "Divide the result by two.",
+     "correct": false,
+     "explanation": "The factor of two belongs inside the cosine term and does not need reversing at the end. The calculated result is $a^2$, so take its square root."
+    },
+    {
+     "text": "Take the inverse cosine of the result.",
+     "correct": false,
+     "explanation": "Inverse cosine is used when rearranging the rule to find an angle. For a missing side, the formula gives $a^2$, so the final operation is square root."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "2d16136d-c7db-406f-98d3-6ee9906f6026",
+   "card_type": "basic",
+   "front": "What setting must your calculator be in for GCSE triangle trigonometry?",
+   "back": "Degrees mode.",
+   "options": [
+    {
+     "text": "Degrees mode.",
+     "correct": true,
+     "explanation": "GCSE triangle angles are normally measured in degrees, so the calculator must be in degrees mode to produce the expected trigonometric values and angles."
+    },
+    {
+     "text": "Radians mode.",
+     "correct": false,
+     "explanation": "Radians are another angle unit, but GCSE triangle questions normally use degrees. Using radians would give incorrect trigonometric values, so the calculator must be in degrees mode."
+    },
+    {
+     "text": "Gradians mode.",
+     "correct": false,
+     "explanation": "Gradians divide a full turn into 400 units and are not normally used in GCSE triangle trigonometry. The calculator should be set to degrees mode."
+    },
+    {
+     "text": "Standard mode.",
+     "correct": false,
+     "explanation": "Standard display mode controls how numbers appear rather than the angle unit used in calculations. GCSE triangle trigonometry requires the calculator’s degrees mode."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "22c0b45b-c66e-44b9-8eb1-824029eaffa4",
+   "card_type": "cloze",
+   "front": "The rearranged Cosine Rule to find angle $A$ is: $$\\text{[...]}$$",
+   "back": "The rearranged Cosine Rule to find angle $A$ is: $$\\boxed{\\cos A = \\frac{b^2 + c^2 - a^2}{2bc}}$$",
+   "options": [
+    {
+     "text": "$$$\\cos A = \\frac{b^2 + c^2 - a^2}{2bc}$$",
+     "correct": true,
+     "explanation": "Rearranging $a^2=b^2+c^2-2bc\\cos A$ isolates $\\cos A$: move $a^2$ into the numerator and divide the resulting expression by $2bc$."
+    },
+    {
+     "text": "$$$\\cos A = \\frac{a^2 + c^2 - b^2}{2ac}$$",
+     "correct": false,
+     "explanation": "This is the rearrangement for angle $B$, not angle $A$, because $b$ is the opposite side being subtracted. For angle $A$, subtract $a^2$ and divide by $2bc$."
+    },
+    {
+     "text": "$$$\\cos A = \\frac{b^2 + c^2 + a^2}{2bc}$$",
+     "correct": false,
+     "explanation": "This sign error adds the square of the opposite side. Rearranging the Cosine Rule requires subtracting $a^2$, giving $\\cos A=\\frac{b^2+c^2-a^2}{2bc}$."
+    },
+    {
+     "text": "$$$\\cos A = \\frac{b^2 + c^2 - a^2}{bc}$$",
+     "correct": false,
+     "explanation": "The factor of $2$ from $2bc\\cos A$ has been lost when dividing. The complete denominator must be $2bc$, not merely $bc$."
+    }
+   ]
+  },
+  {
+   "id": "59831ec9-0603-4188-b69d-a542b759c3cd",
+   "card_type": "basic",
+   "front": "When finding a missing angle, which side length is subtracted in the numerator of the formula?",
+   "back": "The side opposite the missing angle.",
+   "options": [
+    {
+     "text": "The side opposite the missing angle.",
+     "correct": true,
+     "explanation": "In the angle form of the Cosine Rule, the squared side opposite the required angle is subtracted from the squares of the two adjacent sides."
+    },
+    {
+     "text": "The side adjacent to the missing angle.",
+     "correct": false,
+     "explanation": "The two adjacent side lengths are multiplied in the denominator and their squares are added in the numerator. The squared opposite side is the one that must be subtracted."
+    },
+    {
+     "text": "The longest side of the triangle.",
+     "correct": false,
+     "explanation": "The choice is determined by position, not by relative length. The squared side opposite the missing angle is subtracted, whether or not it is the longest side."
+    },
+    {
+     "text": "The shortest side of the triangle.",
+     "correct": false,
+     "explanation": "Selecting the shortest side confuses length with geometric position. The formula subtracts the square of the side opposite the missing angle, regardless of its size."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "9f989a41-d408-4815-ba23-5dc9be6caf1b",
+   "card_type": "basic",
+   "front": "How do you calculate the actual angle value once you know the value of $\\cos A$?",
+   "back": "Use the inverse cosine function ($\\cos^{-1}$).",
+   "options": [
+    {
+     "text": "Use the inverse cosine function ($\\cos^{-1}$).",
+     "correct": true,
+     "explanation": "Inverse cosine reverses the cosine operation, so if $\\cos A$ is known, entering $\\cos^{-1}$ of that value gives angle $A$ in the calculator’s current angle unit."
+    },
+    {
+     "text": "Use the cosine function ($\\cos$).",
+     "correct": false,
+     "explanation": "The cosine function takes an angle and returns a ratio, which is the reverse of what is needed. Apply inverse cosine, $\\cos^{-1}$, to obtain the angle."
+    },
+    {
+     "text": "Use the inverse sine function ($\\sin^{-1}$).",
+     "correct": false,
+     "explanation": "Inverse sine is used when a sine value is known, not a cosine value. Since the calculation gives $\\cos A$, the required operation is inverse cosine."
+    },
+    {
+     "text": "Use the inverse tangent function ($\\tan^{-1}$).",
+     "correct": false,
+     "explanation": "Inverse tangent reverses a tangent ratio and therefore does not recover an angle from its cosine. Apply $\\cos^{-1}$ to the known value of $\\cos A$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "637bb021-899a-4233-a6c0-58f3252f876b",
+   "card_type": "basic",
+   "front": "If side lengths are given as algebraic expressions (e.g. $x+1$), what type of equation is often formed using the Cosine Rule?",
+   "back": "A quadratic equation.",
+   "options": [
+    {
+     "text": "A quadratic equation.",
+     "correct": true,
+     "explanation": "The Cosine Rule contains squared side lengths, so substituting algebraic expressions such as $x+1$ commonly produces an equation involving $x^2$, making it quadratic."
+    },
+    {
+     "text": "A linear equation.",
+     "correct": false,
+     "explanation": "Treating the equation as linear overlooks the squared side expressions in the Cosine Rule. Expanding terms such as $(x+1)^2$ usually produces a quadratic equation."
+    },
+    {
+     "text": "A cubic equation.",
+     "correct": false,
+     "explanation": "The standard Cosine Rule squares side lengths but does not cube them. Substituting linear expressions for sides therefore generally creates a quadratic equation, not a cubic one."
+    },
+    {
+     "text": "A simultaneous equation.",
+     "correct": false,
+     "explanation": "A single unknown side expression usually leads to one equation rather than a system of equations. Because the side lengths are squared, that equation is often quadratic."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "36a1d2da-73b9-407d-a240-a79afc778492",
+   "card_type": "basic",
+   "front": "Why should a solution like $x = -6$ be rejected when solving for algebraic side lengths?",
+   "back": "Side lengths cannot be negative.",
+   "options": [
+    {
+     "text": "Side lengths cannot be negative.",
+     "correct": true,
+     "explanation": "A physical length must be greater than zero. Any algebraic solution that makes a side length negative is invalid for the triangle and must therefore be rejected."
+    },
+    {
+     "text": "Triangle angles cannot be negative.",
+     "correct": false,
+     "explanation": "Although triangle angles are positive, the rejected value here concerns a side length rather than an angle. It is rejected because a physical side length cannot be negative."
+    },
+    {
+     "text": "Quadratic roots cannot be negative.",
+     "correct": false,
+     "explanation": "Quadratic equations can have negative roots, so negativity alone does not invalidate an algebraic solution. Rejection is necessary only when that root produces an impossible negative side length."
+    },
+    {
+     "text": "Cosine values cannot be negative.",
+     "correct": false,
+     "explanation": "Cosine values can be negative for obtuse angles, so that is not a reason to reject the solution. The issue is that triangle side lengths cannot be negative."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "2e308d75-760f-4f36-9d4e-ad7d1b5db040",
+   "card_type": "cloze",
+   "front": "The formula for the area of a triangle using two sides and an included angle is: $$\\text{[...]}$$",
+   "back": "The formula for the area of a triangle using two sides and an included angle is: $$\\boxed{\\text{Area} = \\frac{1}{2}ab\\sin C}$$",
+   "options": [
+    {
+     "text": "$$$\\text{Area} = \\frac{1}{2}ab\\sin C$$",
+     "correct": true,
+     "explanation": "The area equals half the product of two side lengths multiplied by the sine of their included angle. Here, $C$ is the angle between sides $a$ and $b$."
+    },
+    {
+     "text": "$$$\\text{Area} = \\frac{1}{2}ab\\cos C$$",
+     "correct": false,
+     "explanation": "Using cosine confuses the area formula with the Cosine Rule. The perpendicular height introduces the sine of the included angle, so the correct factor is $\\sin C$."
+    },
+    {
+     "text": "$$$\\text{Area} = ab\\sin C$$",
+     "correct": false,
+     "explanation": "This misses the factor of one half from the triangle area formula. The correct expression is $\\frac{1}{2}ab\\sin C$, half the corresponding parallelogram’s area."
+    },
+    {
+     "text": "$$$\\text{Area} = \\frac{1}{2}ac\\sin C$$",
+     "correct": false,
+     "explanation": "Angle $C$ must be paired with the two sides enclosing it, which are $a$ and $b$. Using $a$ and $c$ does not use the included angle."
+    }
+   ]
+  },
+  {
+   "id": "ce574a7b-00af-45bd-bc21-9c45a8aeb76a",
+   "card_type": "basic",
+   "front": "What are the 3 steps to find the perimeter of a triangle given two sides and its area?",
+   "back": "Use the Area formula to find the included angleUse the Cosine Rule to find the third sideSum all three side lengths",
+   "options": [
+    {
+     "text": "Use the Area formula to find the included angleUse the Cosine Rule to find the third sideSum all three side lengths",
+     "correct": true,
+     "explanation": "The area and two known sides determine the included angle using the sine area formula. That angle enables the Cosine Rule, after which all three sides can be added."
+    },
+    {
+     "text": "Use the Cosine Rule to find the included angleUse the Area formula to find the third sideSum all three side lengths",
+     "correct": false,
+     "explanation": "The methods have been reversed: the Cosine Rule cannot initially find the angle without the third side. Use the area formula first, then the Cosine Rule, then add the sides."
+    },
+    {
+     "text": "Use the Area formula to find the included angleUse the Sine Rule to find the third sideSum all three side lengths",
+     "correct": false,
+     "explanation": "After finding only the included angle, there is not yet a known opposite side-angle pair for the Sine Rule. The Cosine Rule directly finds the third side."
+    },
+    {
+     "text": "Use the Area formula to find the included angleUse the Cosine Rule to find the third sideMultiply all three side lengths",
+     "correct": false,
+     "explanation": "Multiplying the side lengths does not calculate perimeter. Once the third side has been found using the Cosine Rule, perimeter is obtained by adding all three side lengths."
+    }
+   ],
+   "points": 3
+  },
+  {
+   "id": "10e79b4c-2191-4ed9-b962-5ca101fbb76c",
+   "card_type": "basic",
+   "front": "Why is it important to keep full calculator values until the final answer?",
+   "back": "To avoid rounding errors in multi-step calculations.",
+   "options": [
+    {
+     "text": "To avoid rounding errors in multi-step calculations.",
+     "correct": true,
+     "explanation": "Rounding intermediate results can introduce small inaccuracies that accumulate across several steps. Keeping full calculator values preserves precision until the final answer is rounded appropriately."
+    },
+    {
+     "text": "To avoid unit errors in multi-step calculations.",
+     "correct": false,
+     "explanation": "Units must be checked and converted separately; retaining calculator digits does not prevent unit errors. Full values are kept to avoid rounding errors accumulating during multi-step calculations."
+    },
+    {
+     "text": "To avoid formula errors in multi-step calculations.",
+     "correct": false,
+     "explanation": "Choosing and rearranging the correct formula prevents formula errors, not retaining decimal places. Full calculator values are kept to avoid accumulated rounding errors."
+    },
+    {
+     "text": "To avoid sign errors in multi-step calculations.",
+     "correct": false,
+     "explanation": "Sign errors arise from incorrect arithmetic or substitution and are not prevented by retaining digits. Full calculator values are kept to minimise rounding errors across multiple steps."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "4ac768a5-38e4-49bb-8fde-d7c2e98311c2",
+   "card_type": "basic",
+   "front": "What is the definition of an included angle?",
+   "back": "The angle formed where two known sides meet.",
+   "options": [
+    {
+     "text": "The angle formed where two known sides meet.",
+     "correct": true,
+     "explanation": "The included angle lies directly between the two known sides, sharing a vertex with both. This is the angle required when applying the cosine rule to find the opposite side."
+    },
+    {
+     "text": "The angle formed opposite the longest known side.",
+     "correct": false,
+     "explanation": "An angle opposite the longest side is the largest angle, but it is not necessarily included. The included angle is where the two known sides meet."
+    },
+    {
+     "text": "The angle formed where a known side meets an unknown side.",
+     "correct": false,
+     "explanation": "This describes an angle beside an unknown side, not the angle included by two known sides. The included angle is formed where the two known sides meet."
+    },
+    {
+     "text": "The angle formed between the two unknown sides.",
+     "correct": false,
+     "explanation": "The included angle is identified using the two relevant known sides, not two unknown sides. It is the angle at the vertex where those known sides meet."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "a9dbdf72-3fe3-4d41-8f0c-75cf7a686460",
+   "card_type": "cloze",
+   "front": "When using $\\sin^{-1}$ to find an angle from an area, there may be two possible answers: one [ ___ ] and one obtuse.",
+   "back": "When using $\\sin^{-1}$ to find an angle from an area, there may be two possible answers: one acute and one obtuse.",
+   "options": [
+    {
+     "text": "acute",
+     "correct": true,
+     "explanation": "For most sine values between 0 and 1, the inverse sine gives an acute angle. The supplementary angle, found using $180\\degree-A$, is obtuse and has the same sine."
+    },
+    {
+     "text": "reflex",
+     "correct": false,
+     "explanation": "A reflex angle exceeds $180\\degree$ and cannot be an interior angle of a triangle. The two possible triangle angles are one acute angle and its obtuse supplement."
+    },
+    {
+     "text": "right",
+     "correct": false,
+     "explanation": "A right angle occurs only when the sine value is exactly 1, in which case there is no distinct obtuse alternative. The usual ambiguous pair contains an acute angle and an obtuse angle."
+    },
+    {
+     "text": "straight",
+     "correct": false,
+     "explanation": "A straight angle is $180\\degree$ and cannot be an interior angle of a non-degenerate triangle. The inverse-sine ambiguity instead gives one acute angle and one obtuse angle."
+    }
+   ]
+  },
+  {
+   "id": "958ad939-e010-4582-872e-b8b09919c41d",
+   "card_type": "cloze",
+   "front": "When using $\\sin^{-1}$ to find an angle from an area, there may be two possible answers: one acute and one [ ___ ].",
+   "back": "When using $\\sin^{-1}$ to find an angle from an area, there may be two possible answers: one acute and one obtuse.",
+   "options": [
+    {
+     "text": "obtuse",
+     "correct": true,
+     "explanation": "Sine has the same positive value for supplementary angles. If $theta$ is the acute inverse-sine result, the second possible triangle angle is $180\\degree-\\theta$, which is obtuse."
+    },
+    {
+     "text": "acute",
+     "correct": false,
+     "explanation": "The second angle is not another distinct acute angle. Because supplementary angles have equal sines, an acute inverse-sine result corresponds to a second possible angle that is obtuse."
+    },
+    {
+     "text": "reflex",
+     "correct": false,
+     "explanation": "The supplementary alternative to an acute angle lies between $90\\degree$ and $180\\degree$, so it is obtuse rather than reflex. Reflex angles cannot be interior angles of a triangle."
+    },
+    {
+     "text": "right",
+     "correct": false,
+     "explanation": "A right angle has sine 1 and does not generally share a sine value with a distinct acute angle. The second solution paired with an acute angle is obtuse."
+    }
+   ]
+  },
+  {
+   "id": "a3108d90-3694-4510-bdf9-3a70c201ca81",
+   "card_type": "basic",
+   "front": "In the angle formula $\\cos A = \\frac{b^2 + c^2 - a^2}{2bc}$, which sides are $b$ and $c$?",
+   "back": "The two sides that form the angle $A$.",
+   "options": [
+    {
+     "text": "The two sides that form the angle $A$.",
+     "correct": true,
+     "explanation": "In the cosine rule’s angle form, $b$ and $c$ are the sides adjacent to $A$. They meet at the vertex of $A$, while $a$ lies opposite it."
+    },
+    {
+     "text": "The two sides that are opposite the angle $A$.",
+     "correct": false,
+     "explanation": "Only one side can lie opposite a given angle, and that side is $a$. The sides $b$ and $c$ are adjacent to and form angle $A$."
+    },
+    {
+     "text": "The two sides that do not meet at the angle $A$.",
+     "correct": false,
+     "explanation": "The denominator $2bc$ uses the two sides adjacent to angle $A$. Therefore, $b$ and $c$ meet at and form angle $A$."
+    },
+    {
+     "text": "The two sides that include the side opposite $A$.",
+     "correct": false,
+     "explanation": "The side opposite angle $A$ is $a$, which appears separately in the numerator. The labels $b$ and $c$ refer to the two sides forming angle $A$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "d4ce9e20-827f-4f62-846d-307bfe6e4dbe",
+   "card_type": "basic",
+   "front": "In the side formula $a^2 = b^2 + c^2 - 2bc\\cos A$, what does the term $2bc\\cos A$ adjust for?",
+   "back": "It adjusts for the triangle not being right-angled.",
+   "options": [
+    {
+     "text": "It adjusts for the triangle not being right-angled.",
+     "correct": true,
+     "explanation": "The term accounts for the included angle $A$. When $A=90\\degree$, $\\cos A=0$, so the term disappears and the formula reduces to Pythagoras’ theorem."
+    },
+    {
+     "text": "It adjusts for the triangle being right-angled.",
+     "correct": false,
+     "explanation": "For a right angle, $\\cos 90\\degree=0$, so this entire term vanishes. It is needed to adjust Pythagoras’ relationship when the triangle is not right-angled."
+    },
+    {
+     "text": "It adjusts for the triangle not having equal sides.",
+     "correct": false,
+     "explanation": "The cosine rule works for both equal-sided and unequal-sided triangles. The term depends on angle $A$ and adjusts for the triangle not being right-angled."
+    },
+    {
+     "text": "It adjusts for the triangle having an unknown side.",
+     "correct": false,
+     "explanation": "The unknown side is represented by $a^2$, not specifically by the cosine term. The term $2bc\\cos A$ adjusts the Pythagorean relationship for a non-right angle."
+    }
+   ],
+   "points": 1
+  }
+ ],
+ "card_count": 22,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-7-7-13-the-cosine-rule/flashcards",
+ "source_sha256": "d0db826d4b268639e130bc47b2d5d350e4e929a9900edf040d1a9a4c074756b9",
+ "extracted_at": "2026-11-08T17:55:05Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}

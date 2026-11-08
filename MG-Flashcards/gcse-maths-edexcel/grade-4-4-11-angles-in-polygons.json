@@ -1,0 +1,647 @@
+{
+ "topic": "grade-4-4-11-angles-in-polygons",
+ "lane": "gcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "title": "Angles in Polygons Flashcards",
+ "cards": [
+  {
+   "id": "55507d2c-f3b8-43b7-9a4a-917081eb1b06",
+   "card_type": "basic",
+   "front": "What do angles on a straight line add to?",
+   "back": "180°.",
+   "options": [
+    {
+     "text": "180°.",
+     "correct": true,
+     "explanation": "A straight line forms a half-turn, which is 180°. Therefore, adjacent angles lying on the same straight line must have a total of 180°."
+    },
+    {
+     "text": "360°.",
+     "correct": false,
+     "explanation": "This confuses a straight line with a full turn around a point. A straight line is a half-turn, so its angles add to 180°."
+    },
+    {
+     "text": "90°.",
+     "correct": false,
+     "explanation": "This mistakes a straight angle for a right angle. A right angle is 90°, but angles on a straight line add to 180°."
+    },
+    {
+     "text": "270°.",
+     "correct": false,
+     "explanation": "This represents three-quarters of a full turn rather than a straight line. A straight line forms a half-turn, so its angles total 180°."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "21cb67fc-54ed-46d7-b03e-e40ccea45320",
+   "card_type": "cloze",
+   "front": "Angles around a point add to [ ___ ].",
+   "back": "Angles around a point add to 360°.",
+   "options": [
+    {
+     "text": "360°",
+     "correct": true,
+     "explanation": "Angles around a single point make one complete turn. A complete turn measures 360°, so all the angles around the point must total 360°."
+    },
+    {
+     "text": "180°",
+     "correct": false,
+     "explanation": "This confuses angles around a point with angles on a straight line. Around a point is a complete turn, so the angles add to 360°."
+    },
+    {
+     "text": "90°",
+     "correct": false,
+     "explanation": "This gives the size of one right angle, only a quarter-turn. Angles all the way around a point form a full turn of 360°."
+    },
+    {
+     "text": "270°",
+     "correct": false,
+     "explanation": "This accounts for only three-quarters of a turn. Angles around a point complete the entire turn, so their total is 360°."
+    }
+   ]
+  },
+  {
+   "id": "934dc770-0f17-4736-8429-cb6ca4862d63",
+   "card_type": "basic",
+   "front": "What do angles in a triangle add to?",
+   "back": "180°.",
+   "options": [
+    {
+     "text": "180°.",
+     "correct": true,
+     "explanation": "The three interior angles of every triangle have a total of 180°, regardless of the triangle’s side lengths, angle sizes or orientation."
+    },
+    {
+     "text": "360°.",
+     "correct": false,
+     "explanation": "This confuses the triangle’s interior angle sum with a full turn. The three interior angles of any triangle always add to 180°."
+    },
+    {
+     "text": "90°.",
+     "correct": false,
+     "explanation": "A right triangle contains one 90° angle, but that is not the total. All three interior angles of a triangle add to 180°."
+    },
+    {
+     "text": "270°.",
+     "correct": false,
+     "explanation": "This is three right angles, not the interior angle sum of a triangle. Every triangle’s three interior angles have a total of 180°."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "c61793a7-1ce8-47b3-94ce-da9aff6dffec",
+   "card_type": "cloze",
+   "front": "In a regular polygon, all sides are [ ___ ] and all interior angles are [ ___ ].",
+   "back": "In a regular polygon, all sides are equal and all interior angles are equal.",
+   "options": [
+    {
+     "text": "In a regular polygon, all sides are equal and all interior angles are equal.",
+     "correct": true,
+     "explanation": "A polygon is regular only when it is both equilateral and equiangular. Therefore, every side has equal length and every interior angle has equal size."
+    },
+    {
+     "text": "In a regular polygon, all sides are parallel and all interior angles are equal.",
+     "correct": false,
+     "explanation": "Regular polygons have equal side lengths, not all parallel sides; adjacent sides must meet. Their interior angles are also equal, so both equality conditions are required."
+    },
+    {
+     "text": "In a regular polygon, all sides are equal and all interior angles are different.",
+     "correct": false,
+     "explanation": "Equal sides alone do not give the full definition of a regular polygon. A regular polygon must also have equal interior angles, rather than different ones."
+    },
+    {
+     "text": "In a regular polygon, all sides are different and all interior angles are different.",
+     "correct": false,
+     "explanation": "This reverses both defining properties of a regular polygon. For a polygon to be regular, all its sides and all its interior angles must be equal."
+    }
+   ]
+  },
+  {
+   "id": "0d9a7534-d7b2-4764-a368-6ae6abae78cb",
+   "card_type": "basic",
+   "front": "How many triangles can an n-sided polygon be split into from one vertex?",
+   "back": "n - 2 triangles.",
+   "options": [
+    {
+     "text": "n - 2 triangles.",
+     "correct": true,
+     "explanation": "Drawing diagonals from one vertex divides an n-sided polygon into n - 2 non-overlapping triangles. This result is used to derive the polygon interior angle sum."
+    },
+    {
+     "text": "n - 1 triangles.",
+     "correct": false,
+     "explanation": "This common off-by-one error counts one extra region. Splitting from one vertex creates n - 2 triangles because the chosen vertex belongs to the two boundary sides."
+    },
+    {
+     "text": "n triangles.",
+     "correct": false,
+     "explanation": "This incorrectly assumes one triangle for every side. Diagonals drawn from one vertex actually divide an n-sided polygon into n - 2 triangles."
+    },
+    {
+     "text": "n - 3 triangles.",
+     "correct": false,
+     "explanation": "This is the number of diagonals drawn from one vertex, not the number of triangles formed. Those diagonals create n - 2 triangles."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "5643e974-d923-4e0b-92ed-127184853019",
+   "card_type": "cloze",
+   "front": "For an n-sided polygon, the interior angle sum is [ ___ ].",
+   "back": "For an n-sided polygon, the interior angle sum is (n - 2) × 180°.",
+   "options": [
+    {
+     "text": "(n - 2) × 180°",
+     "correct": true,
+     "explanation": "An n-sided polygon can be divided from one vertex into n - 2 triangles. Each triangle contributes 180°, giving an interior angle sum of (n - 2) × 180°."
+    },
+    {
+     "text": "(n - 1) × 180°",
+     "correct": false,
+     "explanation": "This counts one too many triangles in the polygon. The correct split produces n - 2 triangles, so the interior angle sum is (n - 2) × 180°."
+    },
+    {
+     "text": "n × 180°",
+     "correct": false,
+     "explanation": "This incorrectly assigns a whole triangle to every side. An n-sided polygon splits into n - 2 triangles, making the sum (n - 2) × 180°."
+    },
+    {
+     "text": "(n - 2) × 360°",
+     "correct": false,
+     "explanation": "This uses 360° for each triangle, confusing a triangle’s angle sum with a full turn. Each triangle contributes 180°, so the formula is (n - 2) × 180°."
+    }
+   ]
+  },
+  {
+   "id": "5e5114a4-6a4b-4559-bd7f-eca0c3764589",
+   "card_type": "basic",
+   "front": "What is the interior angle sum of a pentagon?",
+   "back": "540°.",
+   "options": [
+    {
+     "text": "540°.",
+     "correct": true,
+     "explanation": "A pentagon has five sides, so its interior angle sum is (5 - 2) × 180° = 3 × 180° = 540°."
+    },
+    {
+     "text": "360°.",
+     "correct": false,
+     "explanation": "This effectively uses only two triangles instead of three. A pentagon splits into 5 - 2 = 3 triangles, so its interior angles total 540°."
+    },
+    {
+     "text": "720°.",
+     "correct": false,
+     "explanation": "This is the interior angle sum of a hexagon, not a pentagon. For a pentagon, (5 - 2) × 180° gives 540°."
+    },
+    {
+     "text": "900°.",
+     "correct": false,
+     "explanation": "This multiplies the five sides directly by 180° instead of subtracting two first. The correct calculation is (5 - 2) × 180° = 540°."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "478ae7e1-9016-4867-9e62-8d760516abc4",
+   "card_type": "basic",
+   "front": "What is the interior angle sum of a hexagon?",
+   "back": "720°.",
+   "options": [
+    {
+     "text": "720°.",
+     "correct": true,
+     "explanation": "A hexagon has six sides, so its interior angle sum is (6 - 2) × 180° = 4 × 180° = 720°."
+    },
+    {
+     "text": "540°.",
+     "correct": false,
+     "explanation": "This is the interior angle sum of a pentagon and uses only three triangles. A hexagon splits into four triangles, giving a total of 720°."
+    },
+    {
+     "text": "900°.",
+     "correct": false,
+     "explanation": "This uses five triangles, as for a seven-sided polygon. A hexagon forms 6 - 2 = 4 triangles, so its interior angle sum is 720°."
+    },
+    {
+     "text": "1080°.",
+     "correct": false,
+     "explanation": "This multiplies the six sides directly by 180° instead of subtracting two. The correct calculation is (6 - 2) × 180° = 720°."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "8e7ef042-3dc3-4856-9a84-63505364724b",
+   "card_type": "basic",
+   "front": "A pentagon has angles 98°, 121°, 116°, 85° and x. Find x.",
+   "back": "120°.",
+   "options": [
+    {
+     "text": "120°.",
+     "correct": true,
+     "explanation": "A pentagon’s interior angles total 540°. The four known angles total 420°, so the missing angle is $540° - 420° = 120°$."
+    },
+    {
+     "text": "110°.",
+     "correct": false,
+     "explanation": "This results from using 530° as the pentagon’s angle sum. The correct sum is $(5 - 2) \\times 180° = 540°$, giving $540° - 420° = 120°$."
+    },
+    {
+     "text": "130°.",
+     "correct": false,
+     "explanation": "This comes from incorrectly using 550° for the total interior angle sum. A pentagon’s angles total 540°, so the missing angle is $540° - 420° = 120°$."
+    },
+    {
+     "text": "140°.",
+     "correct": false,
+     "explanation": "This commonly follows from adding the four given angles as 400° rather than 420°. Their correct total is 420°, leaving $540° - 420° = 120°$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "227fd0ab-2a77-4677-8e98-10a9f3535992",
+   "card_type": "cloze",
+   "front": "The exterior angles of a polygon, taking one at each vertex, add to [ ___ ].",
+   "back": "The exterior angles of a polygon, taking one at each vertex, add to 360°.",
+   "options": [
+    {
+     "text": "360°",
+     "correct": true,
+     "explanation": "One exterior angle at each vertex represents the complete turn made when travelling around the polygon, so the exterior angles always add to 360°."
+    },
+    {
+     "text": "180°",
+     "correct": false,
+     "explanation": "180° is a half-turn and is also the sum of the angles on a straight line. A complete turn around any polygon is 360°."
+    },
+    {
+     "text": "90°",
+     "correct": false,
+     "explanation": "90° is a quarter-turn and may be one exterior angle of a square, but all the exterior angles of any polygon add to 360°."
+    },
+    {
+     "text": "540°",
+     "correct": false,
+     "explanation": "540° is the sum of the interior angles of a pentagon, not the universal exterior-angle sum. One exterior angle per vertex always totals 360°."
+    }
+   ]
+  },
+  {
+   "id": "1202504e-4911-4a05-8dae-fbe6ad6cb9a7",
+   "card_type": "basic",
+   "front": "For a regular polygon with n sides, what is each exterior angle?",
+   "back": "360° ÷ n.",
+   "options": [
+    {
+     "text": "360° ÷ n.",
+     "correct": true,
+     "explanation": "The exterior angles of every polygon total 360°. In a regular polygon they are equal, so dividing 360° by the number of sides gives each exterior angle."
+    },
+    {
+     "text": "180° ÷ n.",
+     "correct": false,
+     "explanation": "This incorrectly uses a half-turn as the exterior-angle total. The exterior angles sum to 360°, so each exterior angle of a regular polygon is $360° \\div n$."
+    },
+    {
+     "text": "360° × n.",
+     "correct": false,
+     "explanation": "Multiplying would make each exterior angle increase as the number of sides increases. The fixed total of 360° must instead be divided equally among $n$ vertices."
+    },
+    {
+     "text": "360° ÷ (n - 2).",
+     "correct": false,
+     "explanation": "The expression $n - 2$ belongs to the formula for the interior-angle sum. Exterior angles total 360°, so each one is $360° \\div n$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "9eb8da23-4c6a-4809-9ae7-980a6e44a229",
+   "card_type": "basic",
+   "front": "What is the exterior angle of a regular nonagon?",
+   "back": "40°.",
+   "options": [
+    {
+     "text": "40°.",
+     "correct": true,
+     "explanation": "A nonagon has nine sides. Its equal exterior angles divide the full 360° turn into nine parts, so each measures $360° \\div 9 = 40°$."
+    },
+    {
+     "text": "20°.",
+     "correct": false,
+     "explanation": "This incorrectly divides 180° by nine, using a half-turn rather than the full exterior-angle total. The correct calculation is $360° \\div 9 = 40°$."
+    },
+    {
+     "text": "45°.",
+     "correct": false,
+     "explanation": "45° is the exterior angle of a regular octagon, which has eight sides. A nonagon has nine sides, so its exterior angle is $360° \\div 9 = 40°$."
+    },
+    {
+     "text": "50°.",
+     "correct": false,
+     "explanation": "This does not divide the complete 360° turn equally among nine vertices. For a regular nonagon, each exterior angle is $360° \\div 9 = 40°$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "ebf34adc-8dce-47de-ac84-9e4c46d053dd",
+   "card_type": "cloze",
+   "front": "At each corner, the interior angle and adjacent exterior angle add to [ ___ ].",
+   "back": "At each corner, the interior angle and adjacent exterior angle add to 180°.",
+   "options": [
+    {
+     "text": "180°",
+     "correct": true,
+     "explanation": "An interior angle and its adjacent exterior angle lie on a straight line. Angles on a straight line are supplementary, so they add to 180°."
+    },
+    {
+     "text": "360°",
+     "correct": false,
+     "explanation": "360° is the total of one exterior angle at every vertex, not the pair at one corner. An adjacent interior and exterior angle form a straight line totalling 180°."
+    },
+    {
+     "text": "90°",
+     "correct": false,
+     "explanation": "90° is a right angle, but the adjacent interior and exterior angles form a straight line rather than a right angle. Their sum is therefore 180°."
+    },
+    {
+     "text": "270°",
+     "correct": false,
+     "explanation": "270° is a three-quarter turn and does not describe this linear pair. Adjacent interior and exterior angles lie on a straight line, so their sum is 180°."
+    }
+   ]
+  },
+  {
+   "id": "a481aef7-9726-44ad-9591-d56022f80acf",
+   "card_type": "basic",
+   "front": "A regular 12-sided polygon has exterior angle 30°. What is its interior angle?",
+   "back": "150°.",
+   "options": [
+    {
+     "text": "150°.",
+     "correct": true,
+     "explanation": "The interior angle and adjacent exterior angle add to 180°. Therefore, the interior angle is $180° - 30° = 150°$."
+    },
+    {
+     "text": "30°.",
+     "correct": false,
+     "explanation": "This repeats the exterior angle instead of finding its supplement. The adjacent interior and exterior angles total 180°, so the interior angle is $180° - 30° = 150°$."
+    },
+    {
+     "text": "120°.",
+     "correct": false,
+     "explanation": "This may come from subtracting 30° twice from 180°. Only one adjacent exterior angle is subtracted, giving an interior angle of $180° - 30° = 150°$."
+    },
+    {
+     "text": "330°.",
+     "correct": false,
+     "explanation": "This subtracts the exterior angle from a full turn, but the interior angle forms a straight line with it. The correct calculation is $180° - 30° = 150°$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "4cf5136b-5a07-48d8-9584-647e7bf55d38",
+   "card_type": "basic",
+   "front": "How do you find the number of sides from a regular polygon's exterior angle?",
+   "back": "n = 360° ÷ exterior angle.",
+   "options": [
+    {
+     "text": "n = 360° ÷ exterior angle.",
+     "correct": true,
+     "explanation": "The equal exterior angles total 360°. Dividing that total by the size of one exterior angle gives how many equal angles, and therefore how many sides, the polygon has."
+    },
+    {
+     "text": "n = 180° ÷ exterior angle.",
+     "correct": false,
+     "explanation": "This uses 180°, the angle on a straight line, instead of the complete exterior-angle total. The number of sides is $360° \\div$ the exterior angle."
+    },
+    {
+     "text": "n = 360° × exterior angle.",
+     "correct": false,
+     "explanation": "Multiplication does not determine how many equal exterior angles fit into 360°. The correct operation is division: $n = 360° \\div \\text{exterior angle}$."
+    },
+    {
+     "text": "n = exterior angle ÷ 360°.",
+     "correct": false,
+     "explanation": "This reverses the division and would give a value below one for ordinary exterior angles. Divide the full 360° turn by one exterior angle to find $n$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "bea72f2f-7bc8-4b63-a2db-fc1e842dc37c",
+   "card_type": "basic",
+   "front": "A regular polygon has exterior angle 30°. How many sides does it have?",
+   "back": "12 sides.",
+   "options": [
+    {
+     "text": "12 sides.",
+     "correct": true,
+     "explanation": "The exterior angles total 360°, and each is 30°. Therefore, the number of equal angles and sides is $360° \\div 30° = 12$."
+    },
+    {
+     "text": "6 sides.",
+     "correct": false,
+     "explanation": "This comes from dividing 180° by 30°, using a half-turn instead of the full exterior-angle total. The correct calculation is $360° \\div 30° = 12$ sides."
+    },
+    {
+     "text": "10 sides.",
+     "correct": false,
+     "explanation": "Ten sides would give each exterior angle as $360° \\div 10 = 36°$, not 30°. An exterior angle of 30° gives $360° \\div 30° = 12$ sides."
+    },
+    {
+     "text": "15 sides.",
+     "correct": false,
+     "explanation": "Fifteen sides would produce an exterior angle of $360° \\div 15 = 24°$. For an exterior angle of 30°, the polygon has $360° \\div 30° = 12$ sides."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "f48e4958-e924-4ef4-b876-1ab28eeaab20",
+   "card_type": "cloze",
+   "front": "If given a regular polygon's interior angle, first find the exterior angle using [ ___ ].",
+   "back": "If given a regular polygon's interior angle, first find the exterior angle using 180° - interior angle.",
+   "options": [
+    {
+     "text": "180° - interior angle",
+     "correct": true,
+     "explanation": "An interior angle and its corresponding exterior angle lie on a straight line, so they total 180°. Therefore, subtract the interior angle from 180°."
+    },
+    {
+     "text": "360° - interior angle",
+     "correct": false,
+     "explanation": "Using 360° confuses angles around a point with supplementary interior and exterior angles. The correct calculation is 180° - interior angle because the two form a straight line."
+    },
+    {
+     "text": "180° + interior angle",
+     "correct": false,
+     "explanation": "Adding the angles ignores that their total must be 180°. The exterior angle is found using 180° - interior angle because adjacent interior and exterior angles are supplementary."
+    },
+    {
+     "text": "interior angle - 180°",
+     "correct": false,
+     "explanation": "Reversing the subtraction produces a negative value for an ordinary convex polygon. The correct exterior angle is 180° - interior angle, giving a positive angle."
+    }
+   ]
+  },
+  {
+   "id": "5f8fecac-f6b0-4fb9-b51d-b0e48521f91a",
+   "card_type": "basic",
+   "front": "A regular polygon has interior angle 156°. How many sides does it have?",
+   "back": "15 sides.",
+   "options": [
+    {
+     "text": "15 sides.",
+     "correct": true,
+     "explanation": "The exterior angle is 180° - 156° = 24°. Since regular exterior angles total 360°, the polygon has 360° ÷ 24° = 15 sides."
+    },
+    {
+     "text": "24 sides.",
+     "correct": false,
+     "explanation": "This mistakes the 24° exterior angle for the number of sides. Dividing 360° by 24° gives the correct number, which is 15 sides."
+    },
+    {
+     "text": "14 sides.",
+     "correct": false,
+     "explanation": "This is an off-by-one error. The exterior angle is 24°, and 360° ÷ 24° equals exactly 15, so the polygon has 15 sides."
+    },
+    {
+     "text": "13 sides.",
+     "correct": false,
+     "explanation": "This does not follow from the exterior-angle calculation. The exterior angle is 180° - 156° = 24°, so 360° ÷ 24° gives 15 sides."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "be4f00b8-df86-41c2-b8b0-6ac15b19e666",
+   "card_type": "basic",
+   "front": "Why must you not divide the interior angle sum by the number of sides for an irregular polygon?",
+   "back": "Its angles are not all equal.",
+   "options": [
+    {
+     "text": "Its angles are not all equal.",
+     "correct": true,
+     "explanation": "Dividing the angle sum by the number of sides gives only the mean angle. In an irregular polygon, the individual interior angles are not necessarily equal to that mean."
+    },
+    {
+     "text": "Its angles are all equal.",
+     "correct": false,
+     "explanation": "Equal interior angles would make division useful for finding each angle, as in a regular polygon. An irregular polygon’s angles are not all equal, so division gives only an average."
+    },
+    {
+     "text": "Its sides are not all equal.",
+     "correct": false,
+     "explanation": "Unequal side lengths do not directly prevent calculating individual angles from the sum. The relevant issue is that an irregular polygon’s interior angles are not all equal."
+    },
+    {
+     "text": "Its angle sum is not fixed.",
+     "correct": false,
+     "explanation": "The interior angle sum is fixed by the number of sides, even for an irregular polygon. Division fails because its individual angles are not all equal."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "4b5cc7bb-3130-4a79-9d8c-b79aa86b1016",
+   "card_type": "basic",
+   "front": "Two missing angles are y and 2y and add to 210°. Find y.",
+   "back": "70°.",
+   "options": [
+    {
+     "text": "70°.",
+     "correct": true,
+     "explanation": "The two angles give y + 2y = 210°, so 3y = 210°. Dividing both sides by 3 gives y = 70°."
+    },
+    {
+     "text": "105°.",
+     "correct": false,
+     "explanation": "This comes from dividing 210° by 2, but the coefficients total 3 because y + 2y = 3y. Dividing by 3 gives y = 70°."
+    },
+    {
+     "text": "140°.",
+     "correct": false,
+     "explanation": "This treats 2y as the required value rather than y. Solving y + 2y = 210° gives y = 70°, while 2y equals 140°."
+    },
+    {
+     "text": "210°.",
+     "correct": false,
+     "explanation": "This uses the total of both missing angles as the value of y. Since y + 2y = 3y, the total must be divided by 3, giving 70°."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "1f158a23-c93e-4718-8c81-ceaa27153468",
+   "card_type": "basic",
+   "front": "When polygons meet at a point, which angles usually make the 360° total?",
+   "back": "Interior angles touching the point.",
+   "options": [
+    {
+     "text": "Interior angles touching the point.",
+     "correct": true,
+     "explanation": "At a shared vertex, the polygons’ interior angles fit together around the point. Angles around a point total 360°, so these are the angles normally added."
+    },
+    {
+     "text": "Exterior angles touching the point.",
+     "correct": false,
+     "explanation": "The angles filling the space around the shared point are normally the polygons’ interior angles. Exterior angles lie outside each polygon and are not the angles being combined here."
+    },
+    {
+     "text": "Central angles touching the point.",
+     "correct": false,
+     "explanation": "Central angles are measured at a polygon’s centre, not at a vertex where polygons meet. The interior angles at the shared vertex make the 360° total."
+    },
+    {
+     "text": "Reflex angles touching the point.",
+     "correct": false,
+     "explanation": "Reflex angles are greater than 180° and are not normally the polygon angles fitted around a shared vertex. The relevant angles are the interior angles touching the point."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "83e906a5-b0fb-47c2-b0c0-a17d4b63d9b1",
+   "card_type": "basic",
+   "front": "A square, regular hexagon and another regular polygon meet at a point. How many sides does the other polygon have?",
+   "back": "12 sides.",
+   "options": [
+    {
+     "text": "12 sides.",
+     "correct": true,
+     "explanation": "The square and hexagon contribute 90° and 120°, leaving 150°. Its exterior angle is 30°, so the regular polygon has 360° ÷ 30° = 12 sides."
+    },
+    {
+     "text": "6 sides.",
+     "correct": false,
+     "explanation": "A regular hexagon has interior angle 120°, not the required 150°. The missing angle is 360° - 90° - 120° = 150°, corresponding to 12 sides."
+    },
+    {
+     "text": "8 sides.",
+     "correct": false,
+     "explanation": "A regular octagon has interior angle 135°, so the three angles would total only 345°. The required interior angle is 150°, which belongs to a 12-sided polygon."
+    },
+    {
+     "text": "10 sides.",
+     "correct": false,
+     "explanation": "A regular decagon has interior angle 144°, making the total 354° rather than 360°. The missing 150° angle gives exterior angle 30° and therefore 12 sides."
+    }
+   ],
+   "points": 3
+  }
+ ],
+ "card_count": 22,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-4-4-11-angles-in-polygons/flashcards",
+ "source_sha256": "ce60c270913c4f425aae68e9a798bec96dc03be9052b1a0f2af2e130d213f81b",
+ "extracted_at": "2026-11-08T17:55:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}

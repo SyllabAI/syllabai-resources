@@ -1,0 +1,644 @@
+{
+ "topic": "grade-4-4-19-probability",
+ "lane": "gcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "title": "Probability Flashcards",
+ "cards": [
+  {
+   "id": "7c26a885-69f8-4a8a-8571-ac8681efa31c",
+   "card_type": "basic",
+   "front": "What are the minimum and maximum possible values for any probability?",
+   "back": "0 and 1",
+   "options": [
+    {
+     "text": "0 and 1",
+     "correct": true,
+     "explanation": "Probabilities range from 0 for an impossible event to 1 for a certain event, so every probability must lie between these values inclusive."
+    },
+    {
+     "text": "-1 and 1",
+     "correct": false,
+     "explanation": "The scale is sometimes confused with scales that include negative values, but probabilities cannot be negative. Their minimum is 0 and their maximum is 1."
+    },
+    {
+     "text": "0 and 100",
+     "correct": false,
+     "explanation": "This mixes decimal probabilities with percentage probabilities. Percentages range from 0% to 100%, but probabilities in decimal form range from 0 to 1."
+    },
+    {
+     "text": "1 and 10",
+     "correct": false,
+     "explanation": "Probability is not measured on a ten-point scale. An impossible event has probability 0, while a certain event has probability 1."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "e20527f8-f845-453d-90ad-0abc9175a4a1",
+   "card_type": "cloze",
+   "front": "In probability, a value of 0 means the event is [ ___ ] and a value of 1 means it is certain.",
+   "back": "In probability, a value of 0 means the event is impossible and a value of 1 means it is certain.",
+   "options": [
+    {
+     "text": "impossible",
+     "correct": true,
+     "explanation": "A probability of 0 means there is no chance that the event will occur, so the event is described as impossible."
+    },
+    {
+     "text": "unlikely",
+     "correct": false,
+     "explanation": "An unlikely event can still happen and therefore has a probability greater than 0. A probability of exactly 0 means the event is impossible."
+    },
+    {
+     "text": "likely",
+     "correct": false,
+     "explanation": "A likely event has a relatively high probability, not a probability of 0. A value of 0 specifically describes an impossible event."
+    },
+    {
+     "text": "certain",
+     "correct": false,
+     "explanation": "This reverses the ends of the probability scale. A certain event has probability 1, while an impossible event has probability 0."
+    }
+   ]
+  },
+  {
+   "id": "53bef20e-db62-419b-a1be-7019ac8820b2",
+   "card_type": "cloze",
+   "front": "In probability, a value of 0 means the event is impossible and a value of 1 means it is [ ___ ].",
+   "back": "In probability, a value of 0 means the event is impossible and a value of 1 means it is certain.",
+   "options": [
+    {
+     "text": "certain",
+     "correct": true,
+     "explanation": "A probability of 1 represents the maximum possible probability, meaning the event is guaranteed to happen and is therefore certain."
+    },
+    {
+     "text": "likely",
+     "correct": false,
+     "explanation": "A likely event has a high probability but may still fail to happen. A probability of exactly 1 means the event is certain."
+    },
+    {
+     "text": "impossible",
+     "correct": false,
+     "explanation": "This reverses the probability scale: an impossible event has probability 0. An event with probability 1 is certain to occur."
+    },
+    {
+     "text": "unlikely",
+     "correct": false,
+     "explanation": "An unlikely event has a low probability close to 0, not the maximum probability. A value of 1 means the event is certain."
+    }
+   ]
+  },
+  {
+   "id": "86e09c94-bff5-4fea-9d24-856536a8bf96",
+   "card_type": "basic",
+   "front": "What is the difference between an outcome and an event?",
+   "back": "Outcome: one possible result (e.g. landing on blue).Event: the specific result you are interested in (e.g. 'landing on blue').",
+   "options": [
+    {
+     "text": "Outcome: one possible result (e.g. landing on blue).Event: the specific result you are interested in (e.g. 'landing on blue').",
+     "correct": true,
+     "explanation": "An outcome is an individual possible result of an experiment. An event describes the result or collection of outcomes whose probability is being considered."
+    },
+    {
+     "text": "Outcome: the result you are interested in (e.g. landing on blue).Event: every possible result of the experiment (e.g. 'all spinner colours').",
+     "correct": false,
+     "explanation": "This confuses an event with the full sample space. An outcome is one possible result, while an event is the result or outcomes being investigated."
+    },
+    {
+     "text": "Outcome: a collection of possible results (e.g. landing on a cool colour).Event: one go of the experiment (e.g. 'spinning once').",
+     "correct": false,
+     "explanation": "One go of an experiment is a trial, not an event. An outcome is one possible result, while an event identifies the result or outcomes of interest."
+    },
+    {
+     "text": "Outcome: the chance of a result (e.g. a probability of 0.5).Event: the equipment being used (e.g. 'a spinner').",
+     "correct": false,
+     "explanation": "A probability measures chance and the spinner is the experimental equipment. An outcome is a possible result, while an event is the result or outcomes being considered."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "fb487a6c-7ea1-4b61-9b7d-f40eb9318221",
+   "card_type": "basic",
+   "front": "What does it mean if a dice or spinner is biased?",
+   "back": "The outcomes are not equally likely.",
+   "options": [
+    {
+     "text": "The outcomes are not equally likely.",
+     "correct": true,
+     "explanation": "A biased dice or spinner favours some results over others, so its possible outcomes do not all have the same probability."
+    },
+    {
+     "text": "The outcomes are always equally likely.",
+     "correct": false,
+     "explanation": "Equally likely outcomes describe a fair dice or spinner, which is the opposite of biased. With biased equipment, some outcomes are more likely than others."
+    },
+    {
+     "text": "The outcomes are completely impossible.",
+     "correct": false,
+     "explanation": "Bias changes the relative chances of outcomes; it does not necessarily make every outcome impossible. The defining feature is that the outcomes are not equally likely."
+    },
+    {
+     "text": "The outcomes are known in advance.",
+     "correct": false,
+     "explanation": "Bias does not make the next outcome predictable with certainty. It means only that the possible outcomes do not all have equal probabilities."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "66a50ce3-5b09-4920-8d4b-b3d5b8feab63",
+   "card_type": "basic",
+   "front": "If a table lists every possible outcome of an experiment, what must the probabilities add up to?",
+   "back": "1",
+   "options": [
+    {
+     "text": "1",
+     "correct": true,
+     "explanation": "Exactly one of the possible outcomes must occur, so the probabilities across a complete table of mutually exclusive outcomes must add up to 1."
+    },
+    {
+     "text": "100",
+     "correct": false,
+     "explanation": "This confuses decimal probabilities with percentages. Probabilities written as percentages total 100%, but probabilities written in the usual decimal or fractional form total 1."
+    },
+    {
+     "text": "0",
+     "correct": false,
+     "explanation": "A total of 0 would mean every possible outcome was impossible, so the experiment could not produce a result. All possible outcomes have probabilities totalling 1."
+    },
+    {
+     "text": "2",
+     "correct": false,
+     "explanation": "Adding to more than 1 would represent more than a 100% total chance. A complete set of possible outcomes must have probabilities that sum to 1."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "335fe39b-c320-4ab2-9f2c-5018d66e3d53",
+   "card_type": "basic",
+   "front": "How do you calculate a missing probability from a table of all possible outcomes?",
+   "back": "Add all known probabilities.Subtract that total from 1.",
+   "options": [
+    {
+     "text": "Add all known probabilities.Subtract that total from 1.",
+     "correct": true,
+     "explanation": "All probabilities in a complete outcome table total 1. Adding the known values and subtracting their sum from 1 therefore gives the missing probability."
+    },
+    {
+     "text": "Add all known probabilities.Subtract that total from 100.",
+     "correct": false,
+     "explanation": "Subtracting from 100 incorrectly treats decimal probabilities as whole percentages. The known probabilities should be added, then their total should be subtracted from 1."
+    },
+    {
+     "text": "Multiply all known probabilities.Subtract that product from 1.",
+     "correct": false,
+     "explanation": "Multiplication is used for some combined-event calculations, not for completing a probability table. Add the known probabilities and subtract their total from 1."
+    },
+    {
+     "text": "Add all known probabilities.Use that total as the missing value.",
+     "correct": false,
+     "explanation": "The sum of the known probabilities is the probability already accounted for, not the missing value. Subtract that sum from 1 to find the remainder."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "2bb4baea-b68b-46f7-9e96-78b513d50686",
+   "card_type": "cloze",
+   "front": "A single go of an experiment (like one roll of a dice) is called a [ ___ ].",
+   "back": "A single go of an experiment (like one roll of a dice) is called a trial.",
+   "options": [
+    {
+     "text": "trial",
+     "correct": true,
+     "explanation": "A trial is one performance or go of a probability experiment, such as rolling a dice once or spinning a spinner once."
+    },
+    {
+     "text": "experiment",
+     "correct": false,
+     "explanation": "An experiment is the overall process that can be performed, such as rolling a dice repeatedly. One individual go of that experiment is called a trial."
+    },
+    {
+     "text": "outcome",
+     "correct": false,
+     "explanation": "An outcome is the result produced, such as rolling a four, rather than the act of rolling. A single go of an experiment is a trial."
+    },
+    {
+     "text": "event",
+     "correct": false,
+     "explanation": "An event is the result or group of outcomes being investigated, not one performance of the experiment. A single go is called a trial."
+    }
+   ]
+  },
+  {
+   "id": "9afa3dd5-c3b9-4afa-942a-69d2f6ec1a57",
+   "card_type": "basic",
+   "front": "How do you calculate the estimated number of times an event will happen?",
+   "back": "$$$\\text{probability} \\times \\text{number of trials}$$",
+   "options": [
+    {
+     "text": "$$$\\text{probability} \\times \\text{number of trials}$$",
+     "correct": true,
+     "explanation": "Multiplying the probability by the number of trials gives the expected frequency, which estimates how many times the event should occur across all the trials."
+    },
+    {
+     "text": "$$$\\text{probability} + \\text{number of trials}$$",
+     "correct": false,
+     "explanation": "Adding quantities with different meanings does not produce an expected frequency. Multiply the probability by the number of trials to estimate how often the event will happen."
+    },
+    {
+     "text": "$$$\\frac{\\text{number of trials}}{\\text{probability}}$$",
+     "correct": false,
+     "explanation": "Dividing the number of trials by the probability makes less likely events appear more frequent. The correct calculation is probability multiplied by the number of trials."
+    },
+    {
+     "text": "$$$\\frac{\\text{probability}}{\\text{number of trials}}$$",
+     "correct": false,
+     "explanation": "Dividing by the number of trials produces a very small value rather than an expected frequency. Multiply the probability by the number of trials instead."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "eebf34cc-c1fc-49e7-adc9-53696cf6b681",
+   "card_type": "cloze",
+   "front": "An estimate is a [ ___ ], not a guarantee.",
+   "back": "An estimate is a sensible prediction, not a guarantee.",
+   "options": [
+    {
+     "text": "sensible prediction",
+     "correct": true,
+     "explanation": "An estimate uses available information to make a reasonable prediction, but the actual result may differ because probability describes uncertainty rather than certainty."
+    },
+    {
+     "text": "certain result",
+     "correct": false,
+     "explanation": "Treating an estimate as certain ignores the natural variation in random events. An estimate is a sensible prediction, so the actual result is not guaranteed."
+    },
+    {
+     "text": "random guess",
+     "correct": false,
+     "explanation": "A random guess need not use any evidence or probability. An estimate is a sensible prediction based on the information available, although it may not be exact."
+    },
+    {
+     "text": "exact calculation",
+     "correct": false,
+     "explanation": "An exact calculation would give a fixed result, whereas an estimate predicts an uncertain outcome. The missing term is sensible prediction because actual frequencies can vary."
+    }
+   ]
+  },
+  {
+   "id": "707d4bca-a5a0-4776-9bd1-e98ef36bc84d",
+   "card_type": "cloze",
+   "front": "An estimate is a sensible prediction, not a [ ___ ].",
+   "back": "An estimate is a sensible prediction, not a guarantee.",
+   "options": [
+    {
+     "text": "guarantee",
+     "correct": true,
+     "explanation": "An estimate predicts what is likely or expected, but random variation means the observed result can differ. It therefore cannot guarantee the actual outcome."
+    },
+    {
+     "text": "prediction",
+     "correct": false,
+     "explanation": "An estimate is itself a prediction based on available information, so it is wrong to exclude prediction. The sentence contrasts a sensible prediction with a guarantee."
+    },
+    {
+     "text": "forecast",
+     "correct": false,
+     "explanation": "A forecast is another type of prediction, so an estimate may reasonably be described as one. The intended contrast is that an estimate is not a guarantee."
+    },
+    {
+     "text": "approximation",
+     "correct": false,
+     "explanation": "An estimate can be an approximation rather than an exact value, so excluding approximation reverses its meaning. The missing word is guarantee because estimates remain uncertain."
+    }
+   ]
+  },
+  {
+   "id": "c049b20f-506c-4fa0-bffd-181b09a1d7c4",
+   "card_type": "basic",
+   "front": "What does mutually exclusive mean?",
+   "back": "Outcomes that cannot happen at the same time.",
+   "options": [
+    {
+     "text": "Outcomes that cannot happen at the same time.",
+     "correct": true,
+     "explanation": "Mutually exclusive outcomes have no overlap, so one trial cannot produce both outcomes. For example, a single coin toss cannot be both heads and tails."
+    },
+    {
+     "text": "Outcomes that can happen at the same time.",
+     "correct": false,
+     "explanation": "This describes overlapping outcomes, not mutually exclusive ones. Mutually exclusive outcomes cannot occur together in the same trial, so their intersection has probability zero."
+    },
+    {
+     "text": "Outcomes that are equally likely to happen.",
+     "correct": false,
+     "explanation": "Equal likelihood concerns whether outcomes have the same probability, not whether they overlap. Mutually exclusive outcomes are those that cannot happen at the same time."
+    },
+    {
+     "text": "Outcomes that have probabilities adding to one.",
+     "correct": false,
+     "explanation": "Probabilities add to one only when outcomes are both mutually exclusive and exhaustive. Mutual exclusivity alone means the outcomes cannot happen at the same time."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "76bd5e15-3974-4ef7-a249-41792e4b49f7",
+   "card_type": "basic",
+   "front": "How do you find the probability of one or another mutually exclusive outcome happening?",
+   "back": "Add their individual probabilities together.",
+   "options": [
+    {
+     "text": "Add their individual probabilities together.",
+     "correct": true,
+     "explanation": "For mutually exclusive outcomes, there is no overlap to count twice. Therefore, the probability of one or the other occurring is the sum of their probabilities."
+    },
+    {
+     "text": "Multiply their individual probabilities together.",
+     "correct": false,
+     "explanation": "Multiplication is commonly used for independent events linked by “and”, not mutually exclusive outcomes linked by “or”. Here, add the individual probabilities together."
+    },
+    {
+     "text": "Subtract their individual probabilities together.",
+     "correct": false,
+     "explanation": "Subtraction may be used for complements or differences, but it does not calculate either mutually exclusive outcome occurring. Their individual probabilities must be added together."
+    },
+    {
+     "text": "Divide their individual probabilities together.",
+     "correct": false,
+     "explanation": "Division compares probabilities rather than combining possible outcomes. Because the outcomes are mutually exclusive and connected by “or”, add their individual probabilities together."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "60688cc2-2757-49a1-9a0f-881a909fce68",
+   "card_type": "cloze",
+   "front": "If outcomes are in the ratio $5:4:3$, the total number of parts is [ ___ ].",
+   "back": "If outcomes are in the ratio $5:4:3$, the total number of parts is 12.",
+   "options": [
+    {
+     "text": "12",
+     "correct": true,
+     "explanation": "The total number of ratio parts is found by addition: $5+4+3=12$. Each outcome’s probability can then be written over this total."
+    },
+    {
+     "text": "9",
+     "correct": false,
+     "explanation": "This results from adding only $5+4$ and overlooking the third part. All ratio parts must be included, giving $5+4+3=12$."
+    },
+    {
+     "text": "60",
+     "correct": false,
+     "explanation": "Multiplying $5\\times4\\times3$ does not find the total number of ratio parts. Ratio parts are added, so the correct total is $12$."
+    },
+    {
+     "text": "15",
+     "correct": false,
+     "explanation": "This comes from multiplying the largest part, $5$, by the three outcomes. The parts can differ, so they must be added to obtain $12$."
+    }
+   ]
+  },
+  {
+   "id": "59a2d0c9-5eba-40bc-96c3-b8878c15a5a0",
+   "card_type": "basic",
+   "front": "How do you convert a ratio into probabilities?",
+   "back": "Add the ratio parts to find the total.Put each part over the total as a fraction.",
+   "options": [
+    {
+     "text": "Add the ratio parts to find the total.Put each part over the total as a fraction.",
+     "correct": true,
+     "explanation": "The total number of ratio parts represents all possible outcomes. Dividing each individual part by that total gives its probability, and the resulting probabilities sum to one."
+    },
+    {
+     "text": "Multiply the ratio parts to find the product.Put each part over the product as a fraction.",
+     "correct": false,
+     "explanation": "Multiplying ratio parts does not give the total share and produces probabilities that do not sum to one. Add the parts, then place each part over that total."
+    },
+    {
+     "text": "Add the ratio parts to find the total.Put the total over each part as a fraction.",
+     "correct": false,
+     "explanation": "Reversing each fraction can produce values greater than one, which cannot be probabilities. After adding the parts, place each individual part over the total."
+    },
+    {
+     "text": "Count the ratio parts to find the outcomes.Put each part over the outcomes as a fraction.",
+     "correct": false,
+     "explanation": "Using the number of categories as the denominator wrongly assumes equal probabilities. Add the numerical ratio parts, then divide each part by that total."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "95a229b3-76e5-4539-b278-f9a3b90c231c",
+   "card_type": "basic",
+   "front": "If the probability of outcome A is twice the probability of outcome B, what ratio describes their relationship?",
+   "back": "$$2:1$",
+   "options": [
+    {
+     "text": "$$2:1$",
+     "correct": true,
+     "explanation": "If A is twice as probable as B, A has two equal probability parts for every one part belonging to B. Therefore, $A:B=2:1$."
+    },
+    {
+     "text": "$$1:2$",
+     "correct": false,
+     "explanation": "This reverses the order and makes B twice as probable as A. Since A has twice B’s probability, the correct ratio is $A:B=2:1$."
+    },
+    {
+     "text": "$$2:2$",
+     "correct": false,
+     "explanation": "This ratio simplifies to $1:1$, meaning A and B are equally probable. A must have two parts for every one part of B, giving $2:1$."
+    },
+    {
+     "text": "$$1:1$",
+     "correct": false,
+     "explanation": "A ratio of $1:1$ represents equal probabilities, not one probability being twice the other. Twice as likely gives the relationship $A:B=2:1$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "8bc6645c-c4b5-4fc3-b3ea-dba194e4f6dc",
+   "card_type": "cloze",
+   "front": "If one missing probability is \"three times\" another, the leftover probability must be split into [ ___ ] equal parts.",
+   "back": "If one missing probability is \"three times\" another, the leftover probability must be split into 4 equal parts.",
+   "options": [
+    {
+     "text": "4",
+     "correct": true,
+     "explanation": "The probabilities are in the ratio 3:1, so the ratio contains 3 + 1 = 4 equal parts altogether."
+    },
+    {
+     "text": "3",
+     "correct": false,
+     "explanation": "This counts only the three parts belonging to the larger probability. The smaller probability contributes one additional part, so the leftover must be divided into 4 equal parts."
+    },
+    {
+     "text": "2",
+     "correct": false,
+     "explanation": "Splitting into two equal parts would make the missing probabilities the same. A 3:1 relationship has four parts altogether, so the leftover must be divided into 4 parts."
+    },
+    {
+     "text": "6",
+     "correct": false,
+     "explanation": "Doubling the multiplier does not give the total number of ratio parts. The ratio is 3:1, whose entries sum to 4, so there are 4 equal parts."
+    }
+   ]
+  },
+  {
+   "id": "2eedaa59-646e-47ca-a215-4ffe19f0f601",
+   "card_type": "cloze",
+   "front": "When two missing probabilities are described as \"the same\", they are split in a [ ___ ] ratio.",
+   "back": "When two missing probabilities are described as \"the same\", they are split in a 1:1 ratio.",
+   "options": [
+    {
+     "text": "1:1",
+     "correct": true,
+     "explanation": "Equal probabilities contain the same number of parts. Each receives one identical share, so their simplest ratio is 1:1."
+    },
+    {
+     "text": "1:2",
+     "correct": false,
+     "explanation": "This makes the second probability twice the first rather than making them equal. Equal probabilities each receive one identical share, giving the ratio 1:1."
+    },
+    {
+     "text": "2:1",
+     "correct": false,
+     "explanation": "This makes the first probability twice the second, reversing an unequal 1:2 relationship. The word “same” requires equal shares, represented by 1:1."
+    },
+    {
+     "text": "0:1",
+     "correct": false,
+     "explanation": "A zero part would make the first probability impossible rather than equal to the second. Two equal missing probabilities are split in the ratio 1:1."
+    }
+   ]
+  },
+  {
+   "id": "b22c3b34-2461-4af3-b749-042859870630",
+   "card_type": "basic",
+   "front": "How do you find the total number of items if you know the count of one item and its probability?",
+   "back": "$$$\\frac{\\text{number of items}}{\\text{probability}}$$",
+   "options": [
+    {
+     "text": "$$$\\frac{\\text{number of items}}{\\text{probability}}$$",
+     "correct": true,
+     "explanation": "Probability equals the number of the chosen items divided by the total. Rearranging this relationship gives the total as the known number of items divided by its probability."
+    },
+    {
+     "text": "$$$\\text{number of items} \\times \\text{probability}$$",
+     "correct": false,
+     "explanation": "Multiplication finds an expected count when the total is already known. To recover the total from a known count and probability, divide the number of items by the probability."
+    },
+    {
+     "text": "$$$\\frac{\\text{probability}}{\\text{number of items}}$$",
+     "correct": false,
+     "explanation": "This reverses the required division and does not produce a total number of items. Rearranging probability = count ÷ total gives total = count ÷ probability."
+    },
+    {
+     "text": "$$$\\frac{\\text{number of items}}{1-\\text{probability}}$$",
+     "correct": false,
+     "explanation": "Using the complementary probability would estimate the total from the count of items not in the stated category. For the given category, divide its count by its probability."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "c653eae3-0c09-4d7e-8c87-e9ea8f7fadf6",
+   "card_type": "cloze",
+   "front": "If 30 green pens represent a probability of 0.15, the total number of pens is [ ___ ].",
+   "back": "If 30 green pens represent a probability of 0.15, the total number of pens is 200.",
+   "options": [
+    {
+     "text": "200",
+     "correct": true,
+     "explanation": "The total is found by dividing the observed count by its probability: $30 \\div 0.15 = 200$. Therefore, the full collection contains 200 pens."
+    },
+    {
+     "text": "4.5",
+     "correct": false,
+     "explanation": "This results from multiplying $30$ by $0.15$, which would find 15% of 30 rather than the total. The required calculation is $30 \\div 0.15 = 200$."
+    },
+    {
+     "text": "20",
+     "correct": false,
+     "explanation": "This comes from treating $0.15$ as $1.5$, a decimal-place error. Dividing correctly by $0.15$ gives $30 \\div 0.15 = 200$ pens."
+    },
+    {
+     "text": "2000",
+     "correct": false,
+     "explanation": "This places the decimal one position too far when dividing by $0.15$. Since 30 is 15% of the total, the correct total is $30 \\div 0.15 = 200$."
+    }
+   ]
+  },
+  {
+   "id": "117077fb-0718-43fa-a549-aff2767927a6",
+   "card_type": "basic",
+   "front": "What is the probability of outcome $X$ written in mathematical notation?",
+   "back": "$$P(X)$",
+   "options": [
+    {
+     "text": "$$P(X)$",
+     "correct": true,
+     "explanation": "The notation $P(X)$ means the probability that outcome or event $X$ occurs, with the event written inside parentheses after $P$."
+    },
+    {
+     "text": "$$P(X')$",
+     "correct": false,
+     "explanation": "A prime commonly denotes the complement, so this represents the probability that $X$ does not occur. The probability of $X$ itself is written $P(X)$."
+    },
+    {
+     "text": "$$n(X)$",
+     "correct": false,
+     "explanation": "The notation $n(X)$ represents the number of elements or outcomes in set $X$, not its probability. The probability of the outcome is written $P(X)$."
+    },
+    {
+     "text": "$$P(X^c)$",
+     "correct": false,
+     "explanation": "A superscript $c$ denotes the complement of an event, so this is the probability that $X$ does not occur. The required notation is $P(X)$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "18b66fe0-fa5d-4cd0-940c-41a1aa8f9a8e",
+   "card_type": "basic",
+   "front": "A gardener plants 50 seeds with a growth probability of 0.88. What is the estimated number of seeds that grow?",
+   "back": "44 ($0.88 \\times 50$)",
+   "options": [
+    {
+     "text": "44 ($0.88 \\times 50$)",
+     "correct": true,
+     "explanation": "Multiplying the number of trials by the growth probability gives the expected frequency: $50 \\times 0.88 = 44$, so an estimated 44 seeds grow."
+    },
+    {
+     "text": "6 ($0.12 \\times 50$)",
+     "correct": false,
+     "explanation": "This uses the failure probability, $1 - 0.88 = 0.12$, so it estimates seeds that do not grow. The growing estimate is $0.88 \\times 50 = 44$."
+    },
+    {
+     "text": "45 ($0.9 \\times 50$)",
+     "correct": false,
+     "explanation": "Rounding $0.88$ to $0.9$ before calculating loses accuracy and overestimates growth. Using the given probability directly gives $0.88 \\times 50 = 44$."
+    },
+    {
+     "text": "43 ($0.88 \\times 49$)",
+     "correct": false,
+     "explanation": "Subtracting one from the number of trials creates an off-by-one error. All 50 seeds are planted, so the estimate is $0.88 \\times 50 = 44$."
+    }
+   ],
+   "points": 1
+  }
+ ],
+ "card_count": 22,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-4-4-19-probability/flashcards",
+ "source_sha256": "897f0039181e7125b77b08058786b365637e3b8350416e95e33c115f8bc13778",
+ "extracted_at": "2026-11-08T17:55:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}

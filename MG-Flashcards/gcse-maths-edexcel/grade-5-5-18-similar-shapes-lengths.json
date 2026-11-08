@@ -1,0 +1,645 @@
+{
+ "topic": "grade-5-5-18-similar-shapes-lengths",
+ "lane": "gcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "title": "Similar Shapes (Lengths) Flashcards",
+ "cards": [
+  {
+   "id": "86b83a2c-0a05-42f3-8b0a-a790d8646518",
+   "card_type": "basic",
+   "front": "What two conditions must be met for two shapes to be mathematically similar?",
+   "back": "All matching angles are equalAll matching lengths are multiplied by the same scale factor",
+   "options": [
+    {
+     "text": "All matching angles are equalAll matching lengths are multiplied by the same scale factor",
+     "correct": true,
+     "explanation": "Similar shapes have identical corresponding angles and proportional corresponding lengths. A single linear scale factor must convert every matching length on one shape to the other."
+    },
+    {
+     "text": "All matching angles are multiplied by the same scale factorAll matching lengths are equal",
+     "correct": false,
+     "explanation": "Angles are not multiplied by the scale factor, and matching lengths need not be equal. Similar shapes have equal matching angles and matching lengths related by one scale factor."
+    },
+    {
+     "text": "All matching angles are equalAll matching areas are equal",
+     "correct": false,
+     "explanation": "Similar shapes can have different areas, so equal areas are not required. Their matching angles are equal, while every matching length is multiplied by the same scale factor."
+    },
+    {
+     "text": "All matching angles have the same totalAll matching lengths differ by the same amount",
+     "correct": false,
+     "explanation": "Similarity requires individual matching angles to be equal, not merely equal angle totals. Matching lengths have a constant ratio rather than a constant difference."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "97ea5193-7602-4072-bab5-8d7c4d0cad65",
+   "card_type": "cloze",
+   "front": "An enlargement means every length has been multiplied by one fixed number called the [ ___ ].",
+   "back": "An enlargement means every length has been multiplied by one fixed number called the scale factor.",
+   "options": [
+    {
+     "text": "scale factor",
+     "correct": true,
+     "explanation": "The scale factor is the fixed multiplier applied to every length in an enlargement. Using one multiplier preserves the shape’s proportions and matching angles."
+    },
+    {
+     "text": "area scale factor",
+     "correct": false,
+     "explanation": "The area scale factor applies to areas and equals the square of the length scale factor. The fixed number multiplying every length is the scale factor."
+    },
+    {
+     "text": "volume scale factor",
+     "correct": false,
+     "explanation": "The volume scale factor describes how volumes change and equals the cube of the length scale factor. The multiplier applied directly to lengths is the scale factor."
+    },
+    {
+     "text": "translation vector",
+     "correct": false,
+     "explanation": "A translation vector specifies horizontal and vertical movement without changing size. The fixed multiplier used to enlarge every length is called the scale factor."
+    }
+   ]
+  },
+  {
+   "id": "330f449c-7c6c-42b7-99b8-a6d6cde1ca99",
+   "card_type": "basic",
+   "front": "How do you identify corresponding sides in similar shapes?",
+   "back": "Match the vertices (corners) or find the sides between matching angle labels.",
+   "options": [
+    {
+     "text": "Match the vertices (corners) or find the sides between matching angle labels.",
+     "correct": true,
+     "explanation": "Corresponding vertices occupy equivalent positions in the similar shapes. Therefore, sides joining matching vertices, or lying between matching angle labels, are corresponding sides."
+    },
+    {
+     "text": "Match the side lengths or find the sides in the same page position.",
+     "correct": false,
+     "explanation": "Corresponding sides can have different lengths and positions because a similar shape may be enlarged, rotated or reflected. Match vertices or use the sides between matching angle labels."
+    },
+    {
+     "text": "Match the parallel sides or find the sides with matching orientations.",
+     "correct": false,
+     "explanation": "Rotation can change a side’s orientation, and corresponding sides need not appear parallel on the page. Match corresponding vertices or sides between matching angle labels instead."
+    },
+    {
+     "text": "Match the longest sides or find the sides beside matching length labels.",
+     "correct": false,
+     "explanation": "Matching longest sides can help, but it is not a complete method and length labels may differ after enlargement. Corresponding sides are identified using matching vertices or angles."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "5c3a85e8-b9a3-4c7f-be4b-b6f46a72172d",
+   "card_type": "cloze",
+   "front": "If triangle $ABC$ is similar to triangle $PQR$ and $AB$ matches $PQ$, the scale factor $k$ is calculated as $k = \\frac{\\text{[...]}}{AB}$.",
+   "back": "If triangle $ABC$ is similar to triangle $PQR$ and $AB$ matches $PQ$, the scale factor $k$ is calculated as $k = \\frac{\\boxed{PQ}}{AB}$.",
+   "options": [
+    {
+     "text": "$$PQ$",
+     "correct": true,
+     "explanation": "Since $AB$ corresponds to $PQ$, the scale factor from triangle $ABC$ to triangle $PQR$ is the new matching length $PQ$ divided by the original length $AB$."
+    },
+    {
+     "text": "$$AC$",
+     "correct": false,
+     "explanation": "This mixes two sides from triangle $ABC$ rather than comparing corresponding sides across the triangles. The numerator must be $PQ$, which corresponds directly to $AB$."
+    },
+    {
+     "text": "$$QR$",
+     "correct": false,
+     "explanation": "Although $QR$ belongs to triangle $PQR$, it does not correspond to $AB$. The numerator must be the matching side $PQ$ so the ratio compares equivalent lengths."
+    },
+    {
+     "text": "$$PR$",
+     "correct": false,
+     "explanation": "Using $PR$ pairs non-corresponding sides and therefore gives an invalid scale factor. Since $AB$ matches $PQ$, the required numerator is $PQ$."
+    }
+   ]
+  },
+  {
+   "id": "6ffbecbf-97a8-40b9-81b7-0f3c51ed6faa",
+   "card_type": "cloze",
+   "front": "If triangle $ABC$ is similar to triangle $PQR$ and $AB$ matches $PQ$, the scale factor $k$ is calculated as $k = \\frac{PQ}{\\text{[...]}}$.",
+   "back": "If triangle $ABC$ is similar to triangle $PQR$ and $AB$ matches $PQ$, the scale factor $k$ is calculated as $k = \\frac{PQ}{\\boxed{AB}}$.",
+   "options": [
+    {
+     "text": "$$AB$",
+     "correct": true,
+     "explanation": "The denominator is the original matching side $AB$. Dividing its corresponding new length $PQ$ by $AB$ gives the scale factor from triangle $ABC$ to triangle $PQR$."
+    },
+    {
+     "text": "$$AC$",
+     "correct": false,
+     "explanation": "This incorrectly pairs $PQ$ with a non-corresponding side. Since the question states that $AB$ matches $PQ$, the denominator must be $AB$."
+    },
+    {
+     "text": "$$BC$",
+     "correct": false,
+     "explanation": "Using $BC$ compares sides in different corresponding positions, so the ratio is not the required scale factor. The denominator must be $AB$, which matches $PQ$."
+    },
+    {
+     "text": "$$QR$",
+     "correct": false,
+     "explanation": "This compares two sides within triangle $PQR$ instead of corresponding sides from the two triangles. The correct denominator is $AB$, the side matching $PQ$."
+    }
+   ]
+  },
+  {
+   "id": "7c6fd33a-d527-4608-8c9a-61c5e56a0d10",
+   "card_type": "basic",
+   "front": "To find a missing length on a larger similar shape, what do you do with the scale factor?",
+   "back": "Multiply the corresponding length on the smaller shape by the scale factor.",
+   "options": [
+    {
+     "text": "Multiply the corresponding length on the smaller shape by the scale factor.",
+     "correct": true,
+     "explanation": "The scale factor from the smaller shape to the larger shape is greater than one. Multiplying a corresponding smaller length by it gives the larger length."
+    },
+    {
+     "text": "Divide the corresponding length on the smaller shape by the scale factor.",
+     "correct": false,
+     "explanation": "Dividing would make the smaller length even shorter, which reverses the required enlargement. Multiply the corresponding smaller length by the scale factor to obtain the larger length."
+    },
+    {
+     "text": "Add the corresponding length on the smaller shape to the scale factor.",
+     "correct": false,
+     "explanation": "A scale factor is a multiplier, not a fixed amount added to each side. Multiply the corresponding smaller length by the scale factor to preserve proportionality."
+    },
+    {
+     "text": "Multiply the corresponding length on the smaller shape by the square of the scale factor.",
+     "correct": false,
+     "explanation": "Squaring the scale factor is used when converting areas, not lengths. For a missing length, multiply the corresponding smaller length by the scale factor itself."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "ad0a553d-2bcc-4433-9765-767a8dcd2de6",
+   "card_type": "basic",
+   "front": "To find a missing length on a smaller similar shape, what do you do with the scale factor?",
+   "back": "Divide the corresponding length on the larger shape by the scale factor.",
+   "options": [
+    {
+     "text": "Divide the corresponding length on the larger shape by the scale factor.",
+     "correct": true,
+     "explanation": "The scale factor multiplies smaller lengths to produce larger ones, so the inverse operation is required. Divide the corresponding larger length by the scale factor."
+    },
+    {
+     "text": "Multiply the corresponding length on the larger shape by the scale factor.",
+     "correct": false,
+     "explanation": "Multiplying would produce an even larger length rather than the required smaller one. Reverse the enlargement by dividing the corresponding larger length by the scale factor."
+    },
+    {
+     "text": "Subtract the scale factor from the corresponding length on the larger shape.",
+     "correct": false,
+     "explanation": "A scale factor describes a multiplicative relationship, not a fixed difference. Divide the corresponding larger length by the scale factor to find the smaller length."
+    },
+    {
+     "text": "Divide the corresponding length on the larger shape by the square of the scale factor.",
+     "correct": false,
+     "explanation": "Using the square confuses length scale factors with area scale factors and makes the result too small. Divide the larger length by the scale factor itself."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "a6efb4a2-315b-4e61-94b7-e0f4a7193dd7",
+   "card_type": "basic",
+   "front": "What is the relationship between a large triangle and a smaller triangle created by a line drawn parallel to one of its sides?",
+   "back": "The triangles are mathematically similar.",
+   "options": [
+    {
+     "text": "The triangles are mathematically similar.",
+     "correct": true,
+     "explanation": "The parallel line creates equal corresponding angles, while the triangles also share an angle. Equal matching angles establish that the two triangles are mathematically similar."
+    },
+    {
+     "text": "The triangles are mathematically congruent.",
+     "correct": false,
+     "explanation": "The triangles have equal corresponding angles but generally have different side lengths, so they are not congruent. The parallel line ensures that they are mathematically similar."
+    },
+    {
+     "text": "The triangles have mathematically equal areas.",
+     "correct": false,
+     "explanation": "The smaller triangle occupies only part of the larger triangle, so their areas are not equal. Parallel lines create equal matching angles, making the triangles mathematically similar."
+    },
+    {
+     "text": "The triangles have mathematically equal perimeters.",
+     "correct": false,
+     "explanation": "Similar triangles usually have perimeters related by the length scale factor rather than equal perimeters. The parallel line establishes equal matching angles, so the triangles are mathematically similar."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "a747965b-637c-4f5d-922d-5a00bd10b86e",
+   "card_type": "cloze",
+   "front": "When a triangle side has been split by a parallel line, the full side length is found by adding the [ ___ ] and the extra part together.",
+   "back": "When a triangle side has been split by a parallel line, the full side length is found by adding the small part and the extra part together.",
+   "options": [
+    {
+     "text": "small part",
+     "correct": true,
+     "explanation": "The full side is made from the small part plus the extra part, so these two adjacent lengths must be added together."
+    },
+    {
+     "text": "whole side",
+     "correct": false,
+     "explanation": "Adding the whole side to the extra part counts the extra section twice. The full length is found by adding the small part and the extra part."
+    },
+    {
+     "text": "corresponding side",
+     "correct": false,
+     "explanation": "A corresponding side belongs to the similar triangle comparison and is not necessarily a section of this side. Add the small part to the extra part."
+    },
+    {
+     "text": "scale factor",
+     "correct": false,
+     "explanation": "A scale factor is a multiplier, not a section with a length that can be added. The full side equals the small part plus the extra part."
+    }
+   ]
+  },
+  {
+   "id": "43cdece0-9995-4f8a-8dd8-06e76a89821c",
+   "card_type": "cloze",
+   "front": "When a triangle side has been split by a parallel line, the full side length is found by adding the small part and the [ ___ ] together.",
+   "back": "When a triangle side has been split by a parallel line, the full side length is found by adding the small part and the extra part together.",
+   "options": [
+    {
+     "text": "extra part",
+     "correct": true,
+     "explanation": "The small part and the extra part are adjacent sections forming the complete side, so adding their lengths gives the full side length."
+    },
+    {
+     "text": "whole length",
+     "correct": false,
+     "explanation": "Adding the whole length to the small part counts that small section twice. The full side is formed by adding the small part and the extra part."
+    },
+    {
+     "text": "parallel side",
+     "correct": false,
+     "explanation": "The parallel side is a separate side of one of the similar triangles, not the missing section. Add the small part and the extra part."
+    },
+    {
+     "text": "scale factor",
+     "correct": false,
+     "explanation": "The scale factor compares corresponding lengths by multiplication or division; it is not a length section. The small part must be added to the extra part."
+    }
+   ]
+  },
+  {
+   "id": "60c86f2a-8383-403e-910f-1dacaffc3734",
+   "card_type": "basic",
+   "front": "In a \"bow-tie\" diagram with parallel sides, how are the corresponding sloping sides identified?",
+   "back": "They are the sides that lie on the same straight line passing through the crossing point.",
+   "options": [
+    {
+     "text": "They are the sides that lie on the same straight line passing through the crossing point.",
+     "correct": true,
+     "explanation": "Each pair of corresponding sloping sides forms one continuous straight line through the crossing point, allowing the sides in the two similar triangles to be matched."
+    },
+    {
+     "text": "They are the sides that are parallel to each other on opposite sides of the crossing point.",
+     "correct": false,
+     "explanation": "The sloping corresponding sides are not parallel; they continue along the same straight line through the crossing point. The other pair of sides is marked parallel."
+    },
+    {
+     "text": "They are the sides that have the same measured length on either side of the crossing point.",
+     "correct": false,
+     "explanation": "Corresponding sides of similar triangles need not have equal lengths unless the scale factor is 1. They are identified by lying on the same straight line."
+    },
+    {
+     "text": "They are the sides that meet the same parallel side without passing through the crossing point.",
+     "correct": false,
+     "explanation": "Matching sides by which parallel side they meet reverses the correspondence. Corresponding sloping sides lie on one straight line passing through the central crossing point."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "36fa38c9-d27c-4e5e-bf78-54a64f0419e0",
+   "card_type": "basic",
+   "front": "How do you find the extra part (e.g., $ED$) of a side if you know the whole length ($AD$) and the small part ($AE$)?",
+   "back": "$$ED = AD - AE$ (Subtract the small part from the whole length).",
+   "options": [
+    {
+     "text": "$$ED = AD - AE$ (Subtract the small part from the whole length).",
+     "correct": true,
+     "explanation": "The whole side satisfies $AD = AE + ED$, so rearranging gives $ED = AD - AE$. The extra section is the whole minus the known small section."
+    },
+    {
+     "text": "$$ED = AD + AE$ (Add the small part to the whole length).",
+     "correct": false,
+     "explanation": "Adding $AE$ to the whole length counts the small section twice and produces a value larger than $AD$. The correct calculation is $ED = AD - AE$."
+    },
+    {
+     "text": "$$ED = AE - AD$ (Subtract the whole length from the small part).",
+     "correct": false,
+     "explanation": "This subtraction is reversed and would normally produce a negative length because $AD$ is the whole side. The correct order is $ED = AD - AE$."
+    },
+    {
+     "text": "$$ED = AD \\div AE$ (Divide the whole length by the small part).",
+     "correct": false,
+     "explanation": "Division finds a ratio or scale factor rather than the remaining length. Since $AD = AE + ED$, the extra part is found using $ED = AD - AE$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "69000865-bf70-452b-890b-d97ea6ff4f77",
+   "card_type": "basic",
+   "front": "If the ratio of two corresponding sides $AB:AC$ is $2:5$, what scale factor takes $AB$ to $AC$?",
+   "back": "$$k = \\frac{5}{2}$ (or $2.5$)",
+   "options": [
+    {
+     "text": "$$k = \\frac{5}{2}$ (or $2.5$)",
+     "correct": true,
+     "explanation": "To map $AB$ to $AC$, divide the target length by the original length: $k = AC \\div AB = 5 \\div 2 = 2.5$."
+    },
+    {
+     "text": "$$k = \\frac{2}{5}$ (or $0.4$)",
+     "correct": false,
+     "explanation": "This reverses the scale factor and would map $AC$ back to $AB$. Taking $AB$ to $AC$ requires target divided by original, giving $\\frac{5}{2}$."
+    },
+    {
+     "text": "$$k = \\frac{5}{3}$ (or $1.67$)",
+     "correct": false,
+     "explanation": "Subtracting the ratio terms before dividing is not how scale factors are calculated. Divide the target value 5 by the original value 2 to obtain $\\frac{5}{2}$."
+    },
+    {
+     "text": "$$k = \\frac{7}{2}$ (or $3.5$)",
+     "correct": false,
+     "explanation": "Adding the ratio terms before dividing incorrectly changes the target length from 5 to 7. The required calculation is $5 \\div 2$, giving $\\frac{5}{2}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "f46aa990-ae69-4b7e-947b-210568466e1a",
+   "card_type": "cloze",
+   "front": "If the ratio of corresponding lengths is $1:3$, the scale factor is [ ___ ].",
+   "back": "If the ratio of corresponding lengths is $1:3$, the scale factor is 3.",
+   "options": [
+    {
+     "text": "3",
+     "correct": true,
+     "explanation": "The second corresponding length is three times the first because $3 \\div 1 = 3$. Therefore, the enlargement scale factor from the first shape to the second is 3."
+    },
+    {
+     "text": "$$\\frac{1}{3}$",
+     "correct": false,
+     "explanation": "This is the reciprocal scale factor and describes mapping the larger length back to the smaller one. From the first length to the second, the scale factor is 3."
+    },
+    {
+     "text": "2",
+     "correct": false,
+     "explanation": "Subtracting the ratio values gives the difference in ratio parts, not the scale factor. The multiplier from 1 part to 3 parts is $3 \\div 1 = 3$."
+    },
+    {
+     "text": "4",
+     "correct": false,
+     "explanation": "Adding the two ratio values does not give the enlargement multiplier. A length of 1 becomes 3, so the required scale factor is $3 \\div 1 = 3$."
+    }
+   ]
+  },
+  {
+   "id": "1e0149fc-1788-4d82-bc53-2444ae0f7db8",
+   "card_type": "basic",
+   "front": "Why are two right-angled triangles similar if they share one other angle?",
+   "back": "Because they have two equal angles (the shared angle and the 90 degree angle), so the third must also be equal.",
+   "options": [
+    {
+     "text": "Because they have two equal angles (the shared angle and the 90 degree angle), so the third must also be equal.",
+     "correct": true,
+     "explanation": "Two pairs of corresponding angles are equal: the shared angle and the right angles. By angle-angle similarity, the triangles are similar, and their third angles also match."
+    },
+    {
+     "text": "Because they have one equal angle (the shared angle), so all the remaining sides and angles must also be equal.",
+     "correct": false,
+     "explanation": "One equal angle alone is insufficient to prove similarity. The proof works because both triangles also have a 90 degree angle, giving two equal corresponding angles."
+    },
+    {
+     "text": "Because they have two equal sides (the sides beside the shared angle), so the third side must also be equal.",
+     "correct": false,
+     "explanation": "Sharing an angle does not mean the adjacent sides have equal lengths. Similarity follows from two equal angles: the shared angle and the 90 degree angle."
+    },
+    {
+     "text": "Because they have one right angle (the 90 degree angle), so every pair of right-angled triangles must be similar.",
+     "correct": false,
+     "explanation": "A right angle alone does not establish similarity because right-angled triangles can have different acute angles. The additional shared angle supplies the second equal angle needed."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "543a3178-5244-4a6e-9b96-939da6fd0d47",
+   "card_type": "basic",
+   "front": "How do you prove that two rectangles are not mathematically similar?",
+   "back": "Show that the length scale factor and the width scale factor are different.",
+   "options": [
+    {
+     "text": "Show that the length scale factor and the width scale factor are different.",
+     "correct": true,
+     "explanation": "Similar shapes require one constant scale factor for every pair of corresponding lengths. Different scale factors for the rectangles’ lengths and widths prove that they are not similar."
+    },
+    {
+     "text": "Show that the length scale factor and the width scale factor are equal.",
+     "correct": false,
+     "explanation": "Equal length and width scale factors support similarity rather than disprove it, because all corresponding sides change by the same multiplier. To prove non-similarity, show they differ."
+    },
+    {
+     "text": "Show that the areas of the rectangles and the perimeters of the rectangles are different.",
+     "correct": false,
+     "explanation": "Similar rectangles of different sizes normally have different areas and perimeters, so this does not disprove similarity. Instead, compare the length and width scale factors."
+    },
+    {
+     "text": "Show that the corresponding angles and the right angles are equal.",
+     "correct": false,
+     "explanation": "All rectangles have four equal 90 degree angles, including rectangles that are not similar. Non-similarity is proved when the length and width scale factors are different."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "a1029936-87a9-4478-8a2e-0ede4455bcfe",
+   "card_type": "cloze",
+   "front": "Even though all rectangles have equal angles (90 degrees), they are only similar if their matching sides have the [ ___ ].",
+   "back": "Even though all rectangles have equal angles (90 degrees), they are only similar if their matching sides have the same multiplier.",
+   "options": [
+    {
+     "text": "same multiplier",
+     "correct": true,
+     "explanation": "Similar rectangles have one constant scale factor, so every pair of corresponding sides must be related by the same multiplier."
+    },
+    {
+     "text": "same length",
+     "correct": false,
+     "explanation": "Requiring equal side lengths would make the rectangles congruent, not merely similar. Similar rectangles can differ in size, provided corresponding sides have the same multiplier."
+    },
+    {
+     "text": "same difference",
+     "correct": false,
+     "explanation": "Similarity is based on multiplicative scaling, not adding or subtracting a constant difference. Corresponding sides must therefore have the same multiplier."
+    },
+    {
+     "text": "same perimeter",
+     "correct": false,
+     "explanation": "Equal perimeters do not guarantee that rectangles have matching proportions. For similarity, every pair of corresponding sides must have the same multiplier."
+    }
+   ]
+  },
+  {
+   "id": "a36fd2d4-ae9a-472c-ac99-f3b522c594db",
+   "card_type": "basic",
+   "front": "When performing a sanity check on a calculation, what should you observe about the larger triangle?",
+   "back": "Every corresponding length on the larger triangle must be larger by the same scale factor.",
+   "options": [
+    {
+     "text": "Every corresponding length on the larger triangle must be larger by the same scale factor.",
+     "correct": true,
+     "explanation": "Similarity applies one constant scale factor to all corresponding lengths, so every side of the larger triangle should increase by that same factor."
+    },
+    {
+     "text": "Every corresponding length on the larger triangle must be larger by a different scale factor.",
+     "correct": false,
+     "explanation": "Using different scale factors would change the triangle’s proportions, meaning the triangles were not similar. Every corresponding length must be enlarged by the same scale factor."
+    },
+    {
+     "text": "Only one corresponding length on the larger triangle must be larger by the same scale factor.",
+     "correct": false,
+     "explanation": "Checking only one pair of sides cannot confirm that the calculation preserves similarity. Every corresponding length must be larger by the same scale factor."
+    },
+    {
+     "text": "Every corresponding length on the larger triangle must be larger by the same added amount.",
+     "correct": false,
+     "explanation": "A common mistake is to add a fixed amount rather than multiply. Similar triangles require every corresponding length to be multiplied by the same scale factor."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "b76ca833-0014-44ea-9caf-dafc44930e89",
+   "card_type": "basic",
+   "front": "Which step should be taken before calculating values in a similarity diagram?",
+   "back": "Mark or label the corresponding sides on the diagram.",
+   "options": [
+    {
+     "text": "Mark or label the corresponding sides on the diagram.",
+     "correct": true,
+     "explanation": "Identifying corresponding sides first ensures that the correct lengths are compared and that the scale factor is applied in the correct direction."
+    },
+    {
+     "text": "Add together all the known sides on the diagram.",
+     "correct": false,
+     "explanation": "Adding known sides does not identify the matching measurements needed for similarity. First mark or label the corresponding sides on the diagram."
+    },
+    {
+     "text": "Measure or estimate the unknown sides on the diagram.",
+     "correct": false,
+     "explanation": "Similarity diagrams may not be drawn accurately, so measuring or estimating can mislead. First mark or label the corresponding sides before calculating."
+    },
+    {
+     "text": "Multiply all of the labelled sides on the diagram.",
+     "correct": false,
+     "explanation": "Multiplying every labelled side does not establish which lengths correspond or what scale factor to use. First mark or label the corresponding sides."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "737610a1-d0e5-4456-af3a-5f65b0ae28e2",
+   "card_type": "cloze",
+   "front": "Two shapes are mathematically similar if one is an [ ___ ] of the other.",
+   "back": "Two shapes are mathematically similar if one is an enlargement of the other.",
+   "options": [
+    {
+     "text": "enlargement",
+     "correct": true,
+     "explanation": "An enlargement scales every length by one constant factor while preserving angles, so the original and resulting shapes are mathematically similar."
+    },
+    {
+     "text": "distortion",
+     "correct": false,
+     "explanation": "A distortion can alter angles or change different lengths by different factors, so it does not preserve similarity. The required transformation is an enlargement."
+    },
+    {
+     "text": "shear",
+     "correct": false,
+     "explanation": "A shear changes angles and therefore usually changes the shape’s proportions. Mathematically similar shapes are related by an enlargement."
+    },
+    {
+     "text": "stretch",
+     "correct": false,
+     "explanation": "A stretch may scale different directions by different amounts, changing the shape’s proportions. Similar shapes require a uniform enlargement with one scale factor."
+    }
+   ]
+  },
+  {
+   "id": "25c8ead9-54e7-4727-8642-e4181e7be8b3",
+   "card_type": "basic",
+   "front": "If the parallel side on triangle A is 8cm and the matching side on triangle B is 20cm, what is the scale factor from A to B?",
+   "back": "$$2.5$ (calculated as $20 \\div 8$)",
+   "options": [
+    {
+     "text": "$$2.5$ (calculated as $20 \\div 8$)",
+     "correct": true,
+     "explanation": "The scale factor from A to B is the matching length in B divided by the matching length in A, giving $20 \\div 8 = 2.5$."
+    },
+    {
+     "text": "$$0.4$ (calculated as $8 \\div 20$)",
+     "correct": false,
+     "explanation": "This reverses the division and gives the scale factor from B to A. From A to B, calculate $20 \\div 8$, which equals $2.5$."
+    },
+    {
+     "text": "$$12$ (calculated as $20 - 8$)",
+     "correct": false,
+     "explanation": "Subtracting finds the difference between the lengths, not the multiplicative scale factor. Divide the B length by the A length: $20 \\div 8 = 2.5$."
+    },
+    {
+     "text": "$$160$ (calculated as $20 \\times 8$)",
+     "correct": false,
+     "explanation": "Multiplying the two matching lengths does not compare their sizes. The scale factor from A to B is $20 \\div 8 = 2.5$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "57cff93b-c51e-4228-8a80-9ee7d1967f31",
+   "card_type": "basic",
+   "front": "Outline the process for finding a missing length when only a ratio $AB:AC$ is given.",
+   "back": "Convert the ratio into a scale factor fractionMultiply the known length by that scale factor",
+   "options": [
+    {
+     "text": "Convert the ratio into a scale factor fractionMultiply the known length by that scale factor",
+     "correct": true,
+     "explanation": "The ratio establishes the multiplicative relationship between corresponding sides. Expressing it as a scale factor fraction and multiplying the known length gives the missing length."
+    },
+    {
+     "text": "Convert the ratio into a scale factor fractionAdd the known length to that scale factor",
+     "correct": false,
+     "explanation": "Adding the scale factor treats similarity as an additive relationship. After converting the ratio into a scale factor fraction, multiply the known length by it."
+    },
+    {
+     "text": "Convert the ratio into a length differenceMultiply the known length by that difference",
+     "correct": false,
+     "explanation": "A ratio describes multiplication, not a fixed difference between side lengths. Convert the ratio into a scale factor fraction, then multiply the known length by it."
+    },
+    {
+     "text": "Convert the known length into a scale factor fractionMultiply the ratio by that scale factor",
+     "correct": false,
+     "explanation": "This swaps the roles of the ratio and the measured length. Convert the ratio into a scale factor fraction, then multiply the known length by that factor."
+    }
+   ],
+   "points": 2
+  }
+ ],
+ "card_count": 22,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-5-5-18-similar-shapes-lengths/flashcards",
+ "source_sha256": "f6d5d006116a3e55f350250337666855a3078987e2e37a226888a255fa723649",
+ "extracted_at": "2026-11-08T17:55:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}

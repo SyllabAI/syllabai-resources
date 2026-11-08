@@ -1,0 +1,561 @@
+{
+ "topic": "grade-7-7-11-finding-the-area-of-any-triangle",
+ "lane": "gcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "title": "Finding the Area of Any Triangle Flashcards",
+ "cards": [
+  {
+   "id": "ce75903f-d04d-4fc4-af65-a602b8402a45",
+   "card_type": "basic",
+   "front": "What is the formula for the area of a triangle given its base $b$ and perpendicular height $h$?",
+   "back": "$$A = \\frac{1}{2}bh$",
+   "options": [
+    {
+     "text": "$$A = \\frac{1}{2}bh$",
+     "correct": true,
+     "explanation": "A triangle occupies half the area of a parallelogram with the same base and perpendicular height, so its area is half the product $bh$."
+    },
+    {
+     "text": "$$A = bh$",
+     "correct": false,
+     "explanation": "Omitting the factor of $\\frac{1}{2}$ gives the area of the corresponding parallelogram. A triangle’s area is $A = \\frac{1}{2}bh$."
+    },
+    {
+     "text": "$$A = \\frac{b}{2h}$",
+     "correct": false,
+     "explanation": "Dividing the base by twice the height does not calculate an area and gives incorrect dimensions. The required formula is $A = \\frac{1}{2}bh$."
+    },
+    {
+     "text": "$$A = \\frac{1}{2}b^2$",
+     "correct": false,
+     "explanation": "Squaring the base is not part of the triangle area formula and would ignore the perpendicular height. The correct formula is $A = \\frac{1}{2}bh$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "be999a05-0d7d-40c5-a8fb-6c5e096eeea0",
+   "card_type": "basic",
+   "front": "What is the perpendicular height of a triangle?",
+   "back": "The shortest distance from a base to the opposite vertex (meeting at 90°).",
+   "options": [
+    {
+     "text": "The shortest distance from a base to the opposite vertex (meeting at 90°).",
+     "correct": true,
+     "explanation": "The perpendicular height is measured along the shortest line from the chosen base to the opposite vertex, and this line meets the base at a right angle."
+    },
+    {
+     "text": "The distance along a side to the opposite vertex (meeting at an angle).",
+     "correct": false,
+     "explanation": "This describes the length of a side rather than the perpendicular height. The height is the shortest distance from the base to the opposite vertex, meeting at 90°."
+    },
+    {
+     "text": "The shortest distance from a base to an adjacent vertex (measured along the base).",
+     "correct": false,
+     "explanation": "The height must reach the opposite vertex, not another point on the base. It is the shortest distance from the base to the opposite vertex, meeting at 90°."
+    },
+    {
+     "text": "The longest distance from a base to the opposite vertex (meeting at any angle).",
+     "correct": false,
+     "explanation": "Choosing the longest distance is a common error involving a sloping side. The perpendicular height is the shortest distance from the base to the opposite vertex, meeting at 90°."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "760243b1-7c92-446a-a382-1e164503479e",
+   "card_type": "basic",
+   "front": "What is the definition of an included angle in a triangle?",
+   "back": "The angle formed between two given sides.",
+   "options": [
+    {
+     "text": "The angle formed between two given sides.",
+     "correct": true,
+     "explanation": "An included angle is the angle at the common endpoint of two specified sides, so it lies directly between those two sides."
+    },
+    {
+     "text": "The angle formed opposite one given side.",
+     "correct": false,
+     "explanation": "An angle opposite a given side is not necessarily the included angle. The included angle is formed between the two specified sides at their shared vertex."
+    },
+    {
+     "text": "The angle formed outside two given sides.",
+     "correct": false,
+     "explanation": "An exterior angle lies outside the triangle and is supplementary to an interior angle. The included angle is the interior angle between two specified sides."
+    },
+    {
+     "text": "The angle formed perpendicular to one given side.",
+     "correct": false,
+     "explanation": "A right angle is defined by its size, not by its position relative to specified sides. The included angle is simply the angle between the two given sides."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "369716e0-b526-4c80-bb40-5b2bdca804f8",
+   "card_type": "basic",
+   "front": "What is the sine formula for the area of any triangle?",
+   "back": "$$A = \\frac{1}{2}ab\\sin C$",
+   "options": [
+    {
+     "text": "$$A = \\frac{1}{2}ab\\sin C$",
+     "correct": true,
+     "explanation": "Multiplying two sides by the sine of their included angle gives the corresponding base-height product, and halving it gives the triangle’s area."
+    },
+    {
+     "text": "$$A = \\frac{1}{2}ab\\cos C$",
+     "correct": false,
+     "explanation": "Cosine is used in the cosine rule, but triangle area requires the sine of the included angle. The correct formula is $A = \\frac{1}{2}ab\\sin C$."
+    },
+    {
+     "text": "$$A = ab\\sin C$",
+     "correct": false,
+     "explanation": "Omitting the factor of $\\frac{1}{2}$ doubles the triangle’s area. The sine area formula is $A = \\frac{1}{2}ab\\sin C$."
+    },
+    {
+     "text": "$$A = \\frac{ab}{2\\sin C}$",
+     "correct": false,
+     "explanation": "Dividing by $\\sin C$ reverses its role in finding the perpendicular height. The area formula multiplies by sine: $A = \\frac{1}{2}ab\\sin C$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "9060ea01-9600-4db7-ba07-6d517eb77afa",
+   "card_type": "cloze",
+   "front": "The sine formula for the area of a triangle is $\\text{[...]}$.",
+   "back": "The sine formula for the area of a triangle is $\\boxed{A = \\frac{1}{2}ab\\sin C}$.",
+   "options": [
+    {
+     "text": "$$A = \\frac{1}{2}ab\\sin C$",
+     "correct": true,
+     "explanation": "For sides $a$ and $b$ enclosing angle $C$, the perpendicular height is $b\\sin C$. Substitution into the base-height formula gives $A = \\frac{1}{2}ab\\sin C$."
+    },
+    {
+     "text": "$$A = \\frac{1}{2}ab\\cos C$",
+     "correct": false,
+     "explanation": "Using cosine confuses the area formula with trigonometric ideas from the cosine rule. The area uses the sine of the included angle: $A = \\frac{1}{2}ab\\sin C$."
+    },
+    {
+     "text": "$$A = ab\\sin C$",
+     "correct": false,
+     "explanation": "Leaving out the half calculates twice the actual area, analogous to using the area of a parallelogram. The correct expression is $A = \\frac{1}{2}ab\\sin C$."
+    },
+    {
+     "text": "$$A = \\frac{1}{2}ab\\sin^2 C$",
+     "correct": false,
+     "explanation": "Squaring the sine is not justified when resolving a side into a perpendicular height. Only one sine factor is needed, giving $A = \\frac{1}{2}ab\\sin C$."
+    }
+   ]
+  },
+  {
+   "id": "95e4702c-ed3e-4f51-b61f-801177f19196",
+   "card_type": "basic",
+   "front": "What specific calculator mode must be used for triangle area trigonometry?",
+   "back": "Degrees (DEG).",
+   "options": [
+    {
+     "text": "Degrees (DEG).",
+     "correct": true,
+     "explanation": "GCSE triangle angles are normally stated in degrees, so the calculator must interpret values such as 30° and 60° using degree mode."
+    },
+    {
+     "text": "Radians (RAD).",
+     "correct": false,
+     "explanation": "Radian mode interprets an entered angle as radians, producing the wrong sine value for an angle stated in degrees. The calculator must use Degrees (DEG)."
+    },
+    {
+     "text": "Gradians (GRA).",
+     "correct": false,
+     "explanation": "Gradians divide a full turn into 400 rather than 360, so they do not match degree-labelled angles. The required setting is Degrees (DEG)."
+    },
+    {
+     "text": "Standard (NORM).",
+     "correct": false,
+     "explanation": "Standard display affects number presentation rather than the unit used for angles. Triangle area questions with degree-labelled angles require Degrees (DEG)."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "ecd53955-86e1-4e83-8c03-7ef476ec1722",
+   "card_type": "basic",
+   "front": "What is the exact value of $\\sin 30^\\circ$?",
+   "back": "$$0.5$ (or $\\frac{1}{2}$)",
+   "options": [
+    {
+     "text": "$$0.5$ (or $\\frac{1}{2}$)",
+     "correct": true,
+     "explanation": "In a 30°-60°-90° triangle, the side opposite 30° is half the hypotenuse. Therefore $\\sin 30^\\circ=\\frac{1}{2}=0.5$."
+    },
+    {
+     "text": "$$\\frac{\\sqrt{3}}{2}$",
+     "correct": false,
+     "explanation": "This is the exact value of $\\sin 60^\\circ$, produced by swapping the two acute angles in a 30°-60°-90° triangle. In fact, $\\sin 30^\\circ=0.5$."
+    },
+    {
+     "text": "$$\\frac{\\sqrt{2}}{2}$",
+     "correct": false,
+     "explanation": "This is the exact value of $\\cos 45^\\circ$ or $\\sin 45^\\circ$, not $\\sin 30^\\circ$. The correct value is $0.5$, equivalent to $\\frac{1}{2}$."
+    },
+    {
+     "text": "$$1$ (or $\\frac{2}{2}$)",
+     "correct": false,
+     "explanation": "A sine value of 1 corresponds to 90°, where the opposite side equals the hypotenuse. At 30°, the exact value is $0.5$ or $\\frac{1}{2}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "e4526330-2b1c-4169-a0d0-e31454ecaa81",
+   "card_type": "basic",
+   "front": "What is the exact value of $\\sin 60^\\circ$?",
+   "back": "$$\\frac{\\sqrt{3}}{2}$",
+   "options": [
+    {
+     "text": "$$\\frac{\\sqrt{3}}{2}$",
+     "correct": true,
+     "explanation": "In a 30°-60°-90° triangle, the side opposite 60° has length $\\sqrt{3}$ when the hypotenuse is 2. Thus $\\sin 60^\\circ=\\frac{\\sqrt{3}}{2}$."
+    },
+    {
+     "text": "$$\\frac{1}{2}$",
+     "correct": false,
+     "explanation": "This is $\\sin 30^\\circ$, so it results from swapping the two acute angles in a 30°-60°-90° triangle. The correct value is $\\frac{\\sqrt{3}}{2}$."
+    },
+    {
+     "text": "$$\\frac{\\sqrt{2}}{2}$",
+     "correct": false,
+     "explanation": "This is the exact sine of 45°, based on an isosceles right triangle rather than a 30°-60°-90° triangle. The correct value is $\\frac{\\sqrt{3}}{2}$."
+    },
+    {
+     "text": "$$\\frac{2}{\\sqrt{3}}$",
+     "correct": false,
+     "explanation": "This reverses the sine ratio and exceeds 1, which is impossible for a real angle. The correct exact value of $\\sin 60^\\circ$ is $\\frac{\\sqrt{3}}{2}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "31761055-0173-4c81-9f43-5cf7749c126a",
+   "card_type": "cloze",
+   "front": "If an included angle is $30^\\circ$, $\\sin 30^\\circ$ can be replaced by the exact value $\\text{[...]}$.",
+   "back": "If an included angle is $30^\\circ$, $\\sin 30^\\circ$ can be replaced by the exact value $\\boxed{\\frac{1}{2}}$.",
+   "options": [
+    {
+     "text": "$$\\frac{1}{2}$",
+     "correct": true,
+     "explanation": "In a $30^\\circ$-$60^\\circ$-$90^\\circ$ triangle, the side opposite $30^\\circ$ is half the hypotenuse. Therefore, $\\sin 30^\\circ = \\frac{1}{2}$."
+    },
+    {
+     "text": "$$\\frac{\\sqrt{3}}{2}$",
+     "correct": false,
+     "explanation": "This is the exact value of $\\cos 30^\\circ$ or $\\sin 60^\\circ$, not $\\sin 30^\\circ$. The required exact value is $\\frac{1}{2}$."
+    },
+    {
+     "text": "$$\\frac{\\sqrt{2}}{2}$",
+     "correct": false,
+     "explanation": "This is the exact value of $\\sin 45^\\circ$, which commonly causes confusion between special angles. For $30^\\circ$, the exact sine value is $\\frac{1}{2}$."
+    },
+    {
+     "text": "$$1$",
+     "correct": false,
+     "explanation": "A sine value of $1$ corresponds to $90^\\circ$, not $30^\\circ$. The special-angle value needed here is $\\sin 30^\\circ = \\frac{1}{2}$."
+    }
+   ]
+  },
+  {
+   "id": "2d6df627-666d-4722-8f9b-68b4bb6d57ae",
+   "card_type": "basic",
+   "front": "How do you rearrange $A = \\frac{1}{2}ab\\sin x$ to make $\\sin x$ the subject?",
+   "back": "$$\\sin x = \\frac{2A}{ab}$",
+   "options": [
+    {
+     "text": "$$\\sin x = \\frac{2A}{ab}$",
+     "correct": true,
+     "explanation": "Multiplying both sides by $2$ and then dividing by $ab$ isolates the sine term, giving $\\sin x = \\frac{2A}{ab}$."
+    },
+    {
+     "text": "$$\\sin x = \\frac{2A}{a+b}$",
+     "correct": false,
+     "explanation": "This incorrectly changes the product $ab$ into the sum $a+b$. Dividing $2A$ by the original product gives $\\sin x = \\frac{2A}{ab}$."
+    },
+    {
+     "text": "$$\\sin x = \\frac{A}{2ab}$",
+     "correct": false,
+     "explanation": "This divides by $2$ instead of cancelling the factor $\\frac{1}{2}$. Multiplying the equation by $2$ gives $\\sin x = \\frac{2A}{ab}$."
+    },
+    {
+     "text": "$$\\sin x = \\frac{ab}{2A}$",
+     "correct": false,
+     "explanation": "This takes the reciprocal of the required expression. Isolating $\\sin x$ requires dividing $2A$ by $ab$, giving $\\sin x = \\frac{2A}{ab}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "c3906413-ed28-44fc-b554-812a5e6379ab",
+   "card_type": "basic",
+   "front": "What calculator operation finds an angle when the sine value is known?",
+   "back": "Inverse sine ($\\sin^{-1}$)",
+   "options": [
+    {
+     "text": "Inverse sine ($\\sin^{-1}$)",
+     "correct": true,
+     "explanation": "Inverse sine reverses the sine operation, so entering the known sine value into $\\sin^{-1}$ returns the corresponding principal angle."
+    },
+    {
+     "text": "Inverse cosine ($\\cos^{-1}$)",
+     "correct": false,
+     "explanation": "Inverse cosine finds an angle from its cosine value, not its sine value. When the sine value is known, the correct operation is inverse sine, $\\sin^{-1}$."
+    },
+    {
+     "text": "Inverse tangent ($\\tan^{-1}$)",
+     "correct": false,
+     "explanation": "Inverse tangent finds an angle from a tangent value or an opposite-to-adjacent ratio. A known sine value requires inverse sine, $\\sin^{-1}$."
+    },
+    {
+     "text": "Reciprocal sine ($\\frac{1}{\\sin}$)",
+     "correct": false,
+     "explanation": "The reciprocal of sine is cosecant, not the operation that recovers an angle. To find the angle from a sine value, use inverse sine, $\\sin^{-1}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "76c54051-15c6-4778-a83b-43477b7beea9",
+   "card_type": "basic",
+   "front": "If $\\sin x = 0.8$ and the angle is obtuse, how is $x$ calculated from the acute calculator value $\\theta$?",
+   "back": "$$180^\\circ - \\theta$",
+   "options": [
+    {
+     "text": "$$180^\\circ - \\theta$",
+     "correct": true,
+     "explanation": "Sine is positive in the first and second quadrants. The obtuse second-quadrant angle is supplementary to the acute calculator value, so it equals $180^\\circ - \\theta$."
+    },
+    {
+     "text": "$$180^\\circ + \\theta$",
+     "correct": false,
+     "explanation": "Adding the acute angle to $180^\\circ$ produces a reflex angle, not an obtuse angle. The supplementary obtuse solution is $180^\\circ - \\theta$."
+    },
+    {
+     "text": "$$90^\\circ - \\theta$",
+     "correct": false,
+     "explanation": "Subtracting from $90^\\circ$ produces a complementary acute angle and confuses sine with cosine. The obtuse sine solution is $180^\\circ - \\theta$."
+    },
+    {
+     "text": "$$\\theta$",
+     "correct": false,
+     "explanation": "The calculator’s principal inverse-sine value is acute, so it does not meet the condition that the angle is obtuse. The required angle is $180^\\circ - \\theta$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "25aec817-ecbd-4032-a5f6-21c8f596a7a1",
+   "card_type": "cloze",
+   "front": "To find an obtuse angle from a sine value, calculate $\\text{[...]}$.",
+   "back": "To find an obtuse angle from a sine value, calculate $\\boxed{180^\\circ - \\sin^{-1}(\\text{value})}$.",
+   "options": [
+    {
+     "text": "$$180^\\circ - \\sin^{-1}(\\text{value})$",
+     "correct": true,
+     "explanation": "Inverse sine gives the acute principal angle. Since sine has the same positive value in the second quadrant, subtracting that angle from $180^\\circ$ gives the obtuse solution."
+    },
+    {
+     "text": "$$\\sin^{-1}(\\text{value})$",
+     "correct": false,
+     "explanation": "This gives only the acute principal angle returned by the calculator. To obtain the corresponding obtuse angle, calculate $180^\\circ - \\sin^{-1}(\\text{value})$."
+    },
+    {
+     "text": "$$90^\\circ - \\sin^{-1}(\\text{value})$",
+     "correct": false,
+     "explanation": "Subtracting from $90^\\circ$ finds a complementary angle and does not produce the second-quadrant sine solution. The obtuse angle is $180^\\circ - \\sin^{-1}(\\text{value})$."
+    },
+    {
+     "text": "$$180^\\circ + \\sin^{-1}(\\text{value})$",
+     "correct": false,
+     "explanation": "Adding the acute inverse-sine value to $180^\\circ$ creates a reflex angle greater than $180^\\circ$. The obtuse solution is $180^\\circ - \\sin^{-1}(\\text{value})$."
+    }
+   ]
+  },
+  {
+   "id": "98e2938d-75b2-4eb8-9d48-8d80d2ae64f2",
+   "card_type": "basic",
+   "front": "If solving for side length $x$ gives $x = -8$ and $x = 6$, why is $x = 6$ the only valid solution?",
+   "back": "A physical length cannot be negative.",
+   "options": [
+    {
+     "text": "A physical length cannot be negative.",
+     "correct": true,
+     "explanation": "Length measures a non-negative distance, so the algebraic root $-8$ cannot represent the side of a triangle. The positive root $x=6$ is physically valid."
+    },
+    {
+     "text": "A physical length must be a whole number.",
+     "correct": false,
+     "explanation": "Lengths can be decimals, fractions or irrational values, so being a whole number is not the reason. The root $-8$ is rejected because physical lengths cannot be negative."
+    },
+    {
+     "text": "The larger solution must always be selected.",
+     "correct": false,
+     "explanation": "Quadratic solutions are not chosen simply by size; each must be checked against the context. Here, $6$ is valid because a physical length cannot be negative."
+    },
+    {
+     "text": "The area formula only permits one solution.",
+     "correct": false,
+     "explanation": "The algebra may legitimately produce two roots, but the context determines which can be used. The negative root is rejected because a physical length cannot be negative."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "4a6b5cf1-1cc3-4554-b578-8bbf3ad363b9",
+   "card_type": "basic",
+   "front": "If two side lengths are in the ratio 3:2, how should they be expressed algebraically in the area formula?",
+   "back": "$$3k$ and $2k$ (where $k$ is one part).",
+   "options": [
+    {
+     "text": "$$3k$ and $2k$ (where $k$ is one part).",
+     "correct": true,
+     "explanation": "Multiplying both parts of the ratio by the same scale factor preserves $3:2$. Therefore, the two side lengths are represented by $3k$ and $2k$."
+    },
+    {
+     "text": "$$3k$ and $2$ (where $k$ is one part).",
+     "correct": false,
+     "explanation": "Only multiplying one ratio part by $k$ changes the ratio unless $k=1$. Both parts need the common multiplier, giving $3k$ and $2k$."
+    },
+    {
+     "text": "$$3+k$ and $2+k$ (where $k$ is one part).",
+     "correct": false,
+     "explanation": "Adding the same amount does not generally preserve a ratio. A ratio is scaled by multiplication, so the side lengths should be $3k$ and $2k$."
+    },
+    {
+     "text": "$$2k$ and $3k$ (where $k$ is one part).",
+     "correct": false,
+     "explanation": "This reverses the stated order and represents the ratio $2:3$ rather than $3:2$. In the given order, the lengths are $3k$ and $2k$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "ea3c59b8-b398-4098-94bf-c6e213f52e86",
+   "card_type": "cloze",
+   "front": "When side lengths are in a ratio, they are expressed using a common multiplier: $\\text{[...]}$.",
+   "back": "When side lengths are in a ratio, they are expressed using a common multiplier: $\\boxed{k}$.",
+   "options": [
+    {
+     "text": "$$k$",
+     "correct": true,
+     "explanation": "The variable $k$ represents one common scale factor applied to every part of the ratio. For example, a ratio $3:2$ gives lengths $3k$ and $2k$."
+    },
+    {
+     "text": "$$3k$",
+     "correct": false,
+     "explanation": "This represents a complete quantity corresponding to three ratio parts, not the common multiplier itself. The shared multiplier applied to each ratio part is $k$."
+    },
+    {
+     "text": "$$2k$",
+     "correct": false,
+     "explanation": "This represents a complete quantity corresponding to two ratio parts rather than the common scale factor. The multiplier common to all ratio terms is $k$."
+    },
+    {
+     "text": "$$k+1$",
+     "correct": false,
+     "explanation": "Adding $1$ does not describe the common scale factor used to preserve a ratio. The ratio parts are each multiplied by the same variable, $k$."
+    }
+   ]
+  },
+  {
+   "id": "272554a1-e7b7-41fb-b936-93419ce2bc3e",
+   "card_type": "basic",
+   "front": "What are the steps to find a missing obtuse angle given area and two sides?",
+   "back": "Substitute into $A = \\frac{1}{2}ab\\sin x$Solve for $\\sin x$Find $\\sin^{-1}$Subtract result from $180^\\circ$",
+   "options": [
+    {
+     "text": "Substitute into $A = \\frac{1}{2}ab\\sin x$Solve for $\\sin x$Find $\\sin^{-1}$Subtract result from $180^\\circ$",
+     "correct": true,
+     "explanation": "The inverse sine gives the acute solution, but sine has the same positive value for supplementary angles. Subtracting from $180^\\circ$ therefore gives the required obtuse angle."
+    },
+    {
+     "text": "Substitute into $A = \\frac{1}{2}ab\\sin x$Solve for $\\sin x$Find $\\sin^{-1}$Use result as the final angle",
+     "correct": false,
+     "explanation": "Using the inverse sine result directly gives the acute solution. Since the required angle is obtuse, the inverse sine result must be subtracted from $180^\\circ$."
+    },
+    {
+     "text": "Substitute into $A = \\frac{1}{2}ab\\cos x$Solve for $\\cos x$Find $\\cos^{-1}$Subtract result from $180^\\circ$",
+     "correct": false,
+     "explanation": "This confuses the triangle area formula with a cosine relationship. Area uses $A = \\frac{1}{2}ab\\sin x$, after which the acute inverse sine result is subtracted from $180^\\circ$."
+    },
+    {
+     "text": "Substitute into $A = \\frac{1}{2}ab\\sin x$Solve for $\\sin x$Find $\\sin^{-1}$Subtract result from $90^\\circ$",
+     "correct": false,
+     "explanation": "Subtracting from $90^\\circ$ finds a complementary angle, not the supplementary obtuse solution. The inverse sine result must be subtracted from $180^\\circ$ because supplementary angles have equal sine values."
+    }
+   ],
+   "points": 3
+  },
+  {
+   "id": "f4bf9c91-3d4e-4f82-bbc0-e32810f7db41",
+   "card_type": "basic",
+   "front": "Why is it important to check the triangle diagram when calculating an angle from the area formula?",
+   "back": "To determine if the angle is acute or obtuse (affecting the final calculation).",
+   "options": [
+    {
+     "text": "To determine if the angle is acute or obtuse (affecting the final calculation).",
+     "correct": true,
+     "explanation": "A positive sine value corresponds to both an acute angle and its obtuse supplement. The diagram indicates whether to use the inverse sine result or subtract it from $180^\\circ$."
+    },
+    {
+     "text": "To determine if the triangle is scalene or isosceles (affecting the final calculation).",
+     "correct": false,
+     "explanation": "Triangle classification does not decide which sine solution is required. The diagram must be checked to identify whether the angle is acute or obtuse, since both can have the same sine value."
+    },
+    {
+     "text": "To determine if the angle is measured in degrees or radians (affecting the final calculation).",
+     "correct": false,
+     "explanation": "The diagram does not determine the calculator’s angle unit. It is checked to decide whether the required angle is acute or obtuse, which determines whether a supplementary angle is needed."
+    },
+    {
+     "text": "To determine if the angle is positive or negative (affecting the final calculation).",
+     "correct": false,
+     "explanation": "An interior angle of a triangle is always positive, so this is not the ambiguity. The diagram distinguishes the acute solution from the obtuse supplementary solution with the same sine value."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "9a64ca38-1ae0-4234-a844-a3624408d102",
+   "card_type": "cloze",
+   "front": "The exact value for $\\sin 60^\\circ$ is $$\\text{[...]}$$.",
+   "back": "The exact value for $\\sin 60^\\circ$ is $$\\boxed{\\frac{\\sqrt{3}}{2}}$$.",
+   "options": [
+    {
+     "text": "$$$\\frac{\\sqrt{3}}{2}$$",
+     "correct": true,
+     "explanation": "In a $30^\\circ$-$60^\\circ$-$90^\\circ$ triangle, the side opposite $60^\\circ$ has relative length $\\sqrt{3}$ and the hypotenuse has length $2$, giving $\\sin 60^\\circ = \\frac{\\sqrt{3}}{2}$."
+    },
+    {
+     "text": "$$$\\frac{1}{2}$$",
+     "correct": false,
+     "explanation": "This is the exact value of $\\sin 30^\\circ$, so it results from swapping the two special angles. The correct exact value is $\\sin 60^\\circ = \\frac{\\sqrt{3}}{2}$."
+    },
+    {
+     "text": "$$$\\frac{\\sqrt{2}}{2}$$",
+     "correct": false,
+     "explanation": "This is the exact value of $\\sin 45^\\circ$, not $\\sin 60^\\circ$. Using the side ratios of a $30^\\circ$-$60^\\circ$-$90^\\circ$ triangle gives $\\frac{\\sqrt{3}}{2}$."
+    },
+    {
+     "text": "$$$\\frac{\\sqrt{3}}{3}$$",
+     "correct": false,
+     "explanation": "This value is associated with $\\tan 30^\\circ$, so it confuses sine with tangent. The opposite-to-hypotenuse ratio for $60^\\circ$ is $\\frac{\\sqrt{3}}{2}$."
+    }
+   ]
+  }
+ ],
+ "card_count": 19,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-7-7-11-finding-the-area-of-any-triangle/flashcards",
+ "source_sha256": "4e3031f5f7dd1a06516822531927c01f49adb3bdf01fa74a15d721c37b29a547",
+ "extracted_at": "2026-11-08T17:55:05Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}

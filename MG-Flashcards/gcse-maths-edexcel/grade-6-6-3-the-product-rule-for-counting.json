@@ -1,0 +1,589 @@
+{
+ "topic": "grade-6-6-3-the-product-rule-for-counting",
+ "lane": "gcse-maths-edexcel",
+ "grade": "6",
+ "tier": null,
+ "title": "The Product Rule for Counting Flashcards",
+ "cards": [
+  {
+   "id": "dbfbc27f-ad52-4089-be7c-4dc68b41b75c",
+   "card_type": "basic",
+   "front": "A task has $a$ options at stage one and $b$ options at stage two. How is the total number of outcomes calculated?",
+   "back": "Multiply the options: $a \\times b$.",
+   "options": [
+    {
+     "text": "Multiply the options: $a \\times b$.",
+     "correct": true,
+     "explanation": "For two independent stages, each of the $a$ first choices can be paired with each of the $b$ second choices, so the total is found by multiplication."
+    },
+    {
+     "text": "Add the options: $a + b$.",
+     "correct": false,
+     "explanation": "Adding counts the total number of individual choices available, not the number of two-stage outcomes. The product rule uses $a \\times b$ because every first choice can pair with every second choice."
+    },
+    {
+     "text": "Subtract the options: $a - b$.",
+     "correct": false,
+     "explanation": "Subtraction would compare the two numbers of choices rather than count all possible pairings. For a two-stage task, the total number of outcomes is $a \\times b$."
+    },
+    {
+     "text": "Divide the options: $a \\div b$.",
+     "correct": false,
+     "explanation": "Division shares one number of choices by the other, which does not count combinations. The correct product rule is $a \\times b$, one pairing for each first-stage and second-stage choice."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "629867f8-b040-413d-886c-4da14bb7b740",
+   "card_type": "cloze",
+   "front": "When choosing one item from each of several separate groups, you must [ ___ ] the number of choices in each group.",
+   "back": "When choosing one item from each of several separate groups, you must multiply the number of choices in each group.",
+   "options": [
+    {
+     "text": "multiply",
+     "correct": true,
+     "explanation": "Separate groups of choices form combinations by pairing each choice from one group with each choice from the others, so the numbers of choices must be multiplied."
+    },
+    {
+     "text": "add",
+     "correct": false,
+     "explanation": "Adding is tempting because it finds the total number of items, but it does not count combinations. Choosing one item from each separate group requires multiplying the group sizes."
+    },
+    {
+     "text": "subtract",
+     "correct": false,
+     "explanation": "Subtraction compares two quantities instead of counting all possible selections. For one choice from each group, use multiplication so every possible pairing is included."
+    },
+    {
+     "text": "divide",
+     "correct": false,
+     "explanation": "Division would split or share choices, not count the combinations formed across groups. The product rule says to multiply the number of choices in each group."
+    }
+   ]
+  },
+  {
+   "id": "5501d987-59fd-486d-9b0a-6a78197c7394",
+   "card_type": "basic",
+   "front": "A lunch offer has 2 wraps and 3 drinks. How many possible lunch combinations are there?",
+   "back": "$$2 \\times 3 = 6$.",
+   "options": [
+    {
+     "text": "$$2 \\times 3 = 6$.",
+     "correct": true,
+     "explanation": "Each of the 2 wraps can be matched with each of the 3 drinks, giving $2 \\times 3 = 6$ possible lunch combinations."
+    },
+    {
+     "text": "$$2 + 3 = 5$.",
+     "correct": false,
+     "explanation": "Adding counts the number of menu items, not the number of wrap-and-drink pairings. The product rule gives $2 \\times 3 = 6$ combinations."
+    },
+    {
+     "text": "$$3 - 2 = 1$.",
+     "correct": false,
+     "explanation": "Subtracting only compares the numbers of wraps and drinks, so it cannot count possible lunches. Each wrap pairs with each drink, giving $2 \\times 3 = 6$."
+    },
+    {
+     "text": "$$2^3 = 8$.",
+     "correct": false,
+     "explanation": "Using a power treats the choice as if there were 3 repeated stages with 2 options each. There are just 2 wraps and 3 drinks, so $2 \\times 3 = 6$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "9444a642-bcee-443d-8870-6d59cd8ad06d",
+   "card_type": "basic",
+   "front": "Why is addition ($11 + 13$) incorrect for finding the number of boy-and-girl pairs from 11 boys and 13 girls?",
+   "back": "Addition gives the total number of students, not the number of possible combinations.",
+   "options": [
+    {
+     "text": "Addition gives the total number of students, not the number of possible combinations.",
+     "correct": true,
+     "explanation": "The sum $11 + 13$ counts students separately. A boy-and-girl pair needs one choice from each group, so the number of possible pairs comes from multiplying."
+    },
+    {
+     "text": "Addition gives the number of boys only, not the number of possible combinations.",
+     "correct": false,
+     "explanation": "The sum $11 + 13$ does not give the number of boys only; it gives the total number of students. The real issue is that pairs require multiplication, not addition."
+    },
+    {
+     "text": "Addition gives the number of girls only, not the number of possible combinations.",
+     "correct": false,
+     "explanation": "The sum $11 + 13$ does not give the number of girls only; it gives all students together. To count boy-and-girl pairs, multiply the two group sizes."
+    },
+    {
+     "text": "Addition gives the number in one pair, not the number of possible combinations.",
+     "correct": false,
+     "explanation": "One pair contains 2 students, not $11 + 13$ students. Adding gives the total number of students, while multiplying counts every possible boy-and-girl pairing."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "f1860d99-b64b-4b85-bd39-573e6bce09b0",
+   "card_type": "cloze",
+   "front": "In counting problems, a calculated number of choices ($x$) must always be a [ ___ ].",
+   "back": "In counting problems, a calculated number of choices ($x$) must always be a whole number.",
+   "options": [
+    {
+     "text": "whole number",
+     "correct": true,
+     "explanation": "A number of choices counts actual possible options, so it cannot be a part of an option or a negative amount. It must be a whole number."
+    },
+    {
+     "text": "proper fraction",
+     "correct": false,
+     "explanation": "A proper fraction would mean less than one complete choice, which is impossible when counting outcomes. A calculated number of choices must be a whole number."
+    },
+    {
+     "text": "negative number",
+     "correct": false,
+     "explanation": "A negative value would mean fewer than no choices, which cannot represent a count of outcomes. Counts in these problems must be whole numbers."
+    },
+    {
+     "text": "prime number",
+     "correct": false,
+     "explanation": "Some numbers of choices are prime, but many valid counts are not, such as 6 or 12. The necessary condition is being a whole number."
+    }
+   ]
+  },
+  {
+   "id": "ad71cd34-b883-4147-82e4-d46b5ac73111",
+   "card_type": "basic",
+   "front": "A restaurant offers 4 starters, 6 mains, and 3 desserts. How many different three-course meals are possible?",
+   "back": "$$4 \\times 6 \\times 3 = 72$.",
+   "options": [
+    {
+     "text": "$$4 \\times 6 \\times 3 = 72$.",
+     "correct": true,
+     "explanation": "A three-course meal is formed by choosing one starter, one main, and one dessert. The product rule gives $4 \\times 6 \\times 3 = 72$ meals."
+    },
+    {
+     "text": "$$4 + 6 + 3 = 13$.",
+     "correct": false,
+     "explanation": "Adding counts the total number of dishes on the menu, not the number of meals. Each starter can combine with each main and dessert, so $4 \\times 6 \\times 3 = 72$."
+    },
+    {
+     "text": "$$4 \\times 6 + 3 = 27$.",
+     "correct": false,
+     "explanation": "This multiplies starters and mains but then only adds desserts, missing that each dessert can go with every starter-main pair. The correct calculation is $4 \\times 6 \\times 3 = 72$."
+    },
+    {
+     "text": "$$4 \\times 3 \\times 6 = 72$.",
+     "correct": false,
+     "explanation": "Although this gives the same value, it does not match the stated order of starters, mains, and desserts. The intended product-rule calculation is $4 \\times 6 \\times 3 = 72$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "dcc8abb7-6f2e-45ce-83ee-f05e55d1dd72",
+   "card_type": "basic",
+   "front": "What condition must be met to use the product rule directly for multiple stages?",
+   "back": "Every option at one stage must be allowed to go with every option at the next stage.",
+   "options": [
+    {
+     "text": "Every option at one stage must be allowed to go with every option at the next stage.",
+     "correct": true,
+     "explanation": "The product rule works directly only when there are no restrictions between stages. Then each choice at one stage can be paired with every choice at the next."
+    },
+    {
+     "text": "Every option at one stage must be different to go with every option at the next stage.",
+     "correct": false,
+     "explanation": "Options being different is not the key condition; restrictions are. The product rule applies directly when every option at one stage is allowed with every option at the next."
+    },
+    {
+     "text": "Every option at one stage must be equally likely to go with every option at the next stage.",
+     "correct": false,
+     "explanation": "Equally likely choices matter in probability, not in simply counting outcomes. For the product rule, the requirement is that every cross-stage combination is allowed."
+    },
+    {
+     "text": "Every option at one stage must be chosen to go with every option at the next stage.",
+     "correct": false,
+     "explanation": "You do not choose every option; you choose one option at each stage. Direct multiplication is valid when each possible first choice is allowed with each possible next choice."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "5dd14437-5077-4b3c-afd3-65890e16ec2a",
+   "card_type": "basic",
+   "front": "A shop has 8 sandwiches and $x$ drinks. Sam claims there are 90 meal deal outcomes. Why is Sam wrong?",
+   "back": "$90 \\div 8 = 11.25$The number of drinks must be a whole number.",
+   "options": [
+    {
+     "text": "$90 \\div 8 = 11.25$The number of drinks must be a whole number.",
+     "correct": true,
+     "explanation": "If there are 8 sandwiches and $x$ drinks, the outcomes are $8x$. Solving $8x = 90$ gives $x = 11.25$, which cannot be a count of drinks."
+    },
+    {
+     "text": "$90 \\times 8 = 720$The number of drinks must be a whole number.",
+     "correct": false,
+     "explanation": "Multiplying by 8 is the reverse of the required step. Since $8x = 90$, divide by 8 to get $x = 11.25$, not a whole number."
+    },
+    {
+     "text": "$90 \\div 8 = 11.25$The number of drinks can be a decimal.",
+     "correct": false,
+     "explanation": "The division is right, but the conclusion is not. A shop cannot have 11.25 drink choices, so the number of drinks must be a whole number."
+    },
+    {
+     "text": "$90 \\div 8 = 12$The number of drinks must be a whole number.",
+     "correct": false,
+     "explanation": "This rounds the division instead of calculating it exactly. $90 \\div 8 = 11.25$, and that non-whole result is why Sam’s claim cannot be correct."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "4003d549-23fc-4b55-88f2-99bc5874207c",
+   "card_type": "cloze",
+   "front": "Choosing \"without replacement\" means the number of options for the next stage [ ___ ].",
+   "back": "Choosing \"without replacement\" means the number of options for the next stage decreases by 1.",
+   "options": [
+    {
+     "text": "decreases by 1",
+     "correct": true,
+     "explanation": "Once an item has been selected without replacement, it is unavailable at the next stage. Therefore, the number of available options falls by exactly one."
+    },
+    {
+     "text": "stays the same",
+     "correct": false,
+     "explanation": "The number stays the same only when selection is with replacement. Without replacement, the chosen item is unavailable, so the number of options decreases by 1."
+    },
+    {
+     "text": "increases by 1",
+     "correct": false,
+     "explanation": "This reverses the effect of removing an item from the available choices. Without replacement, one option is used up, so the number decreases by 1."
+    },
+    {
+     "text": "decreases by 2",
+     "correct": false,
+     "explanation": "This assumes two options are removed after one choice. Only the selected item becomes unavailable, so the number of options decreases by 1."
+    }
+   ]
+  },
+  {
+   "id": "eaa74b2f-bdac-453e-9254-b3f62a78731a",
+   "card_type": "basic",
+   "front": "Two cards are dealt from a 52-card deck to two named people. How many outcomes are possible?",
+   "back": "$$52 \\times 51 = 2652$.",
+   "options": [
+    {
+     "text": "$$52 \\times 51 = 2652$.",
+     "correct": true,
+     "explanation": "The first named person can receive any of 52 cards, while the second can receive any of the remaining 51. The product rule gives $52 \\times 51 = 2652$."
+    },
+    {
+     "text": "$$52 \\times 52 = 2704$.",
+     "correct": false,
+     "explanation": "Using $52$ choices at both stages incorrectly allows the same card to be dealt twice. Without replacement, the correct calculation is $52 \\times 51 = 2652$."
+    },
+    {
+     "text": "$$\\frac{52 \\times 51}{2} = 1326$.",
+     "correct": false,
+     "explanation": "Dividing by 2 treats the recipients as interchangeable. Because the two people are named, swapping their cards creates a different outcome, giving $52 \\times 51 = 2652$."
+    },
+    {
+     "text": "$$51 \\times 51 = 2601$.",
+     "correct": false,
+     "explanation": "Using $51$ choices for both stages omits one possible first card. There are 52 initial choices and then 51 remaining choices, giving $2652$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "129a4be2-a62f-4817-ad3a-2ec1f1fadb17",
+   "card_type": "basic",
+   "front": "Why is the second stage $51$ instead of $52$ when dealing two cards from a deck?",
+   "back": "One card has already been removed and cannot be chosen again.",
+   "options": [
+    {
+     "text": "One card has already been removed and cannot be chosen again.",
+     "correct": true,
+     "explanation": "Dealing is without replacement, so the first card is no longer available for the second person. This leaves exactly 51 possible cards at the second stage."
+    },
+    {
+     "text": "One card has already been removed but can be chosen again.",
+     "correct": false,
+     "explanation": "A removed card cannot immediately be selected again when dealing without replacement. Consequently, the second stage has 51 available cards rather than 52."
+    },
+    {
+     "text": "One person has already been named and cannot be chosen again.",
+     "correct": false,
+     "explanation": "The number falls because one physical card has been removed, not because the recipients are named. After the first deal, only 51 cards remain available."
+    },
+    {
+     "text": "One ordering has already been counted and cannot be counted again.",
+     "correct": false,
+     "explanation": "Dividing for reversed arrangements applies to unordered pairs, not to the number of second-stage choices. The second stage is 51 because one card has been removed."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "c19d0b24-ae36-4644-b539-a721a274f93f",
+   "card_type": "basic",
+   "front": "When calculating unordered pairs from $n$ items, what is the formula?",
+   "back": "$$$\\frac{n(n-1)}{2}$$",
+   "options": [
+    {
+     "text": "$$$\\frac{n(n-1)}{2}$$",
+     "correct": true,
+     "explanation": "There are $n(n-1)$ ordered selections of two distinct items. Each unordered pair appears in both possible orders, so dividing by 2 gives $\\frac{n(n-1)}{2}$."
+    },
+    {
+     "text": "$$$n(n-1)$$",
+     "correct": false,
+     "explanation": "This counts every unordered pair twice because it retains both possible orders. Dividing by 2 is required, so the correct formula is $\\frac{n(n-1)}{2}$."
+    },
+    {
+     "text": "$$$\\frac{n(n+1)}{2}$$",
+     "correct": false,
+     "explanation": "The second factor must be $n-1$ because the first selected item cannot be selected again. Unordered pairs are therefore counted by $\\frac{n(n-1)}{2}$."
+    },
+    {
+     "text": "$$$\\frac{(n-1)(n-2)}{2}$$",
+     "correct": false,
+     "explanation": "This incorrectly removes two choices before either item has been selected. There are $n$ first choices and $n-1$ second choices, then division by 2."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "4ca8946e-80e5-42d1-913f-dbd61fe86167",
+   "card_type": "cloze",
+   "front": "For handshakes or matches, we [ ___ ] because each pair is counted twice (e.g., A-B and B-A).",
+   "back": "For handshakes or matches, we divide by 2 because each pair is counted twice (e.g., A-B and B-A).",
+   "options": [
+    {
+     "text": "divide by 2",
+     "correct": true,
+     "explanation": "The product $n(n-1)$ counts A-B and B-A separately. Since these represent the same handshake or match, dividing by 2 counts each pair once."
+    },
+    {
+     "text": "multiply by 2",
+     "correct": false,
+     "explanation": "Multiplying by 2 would count each pair four times after both orders are already included. The duplicate orderings must instead be removed by dividing by 2."
+    },
+    {
+     "text": "subtract 2",
+     "correct": false,
+     "explanation": "Subtracting 2 removes only two outcomes, rather than one duplicate for every pair. Because every pair is counted twice, the total must be divided by 2."
+    },
+    {
+     "text": "divide by 4",
+     "correct": false,
+     "explanation": "Dividing by 4 removes too many outcomes because each pair appears only twice, not four times. The correct adjustment is therefore to divide by 2."
+    }
+   ]
+  },
+  {
+   "id": "fb45b2ad-ff16-427b-ad02-e631a0fbd177",
+   "card_type": "basic",
+   "front": "28 students are in a class. Two are chosen for the same prize. How many possible pairs are there?",
+   "back": "$$$\\frac{28 \\times 27}{2} = 378$$",
+   "options": [
+    {
+     "text": "$$$\\frac{28 \\times 27}{2} = 378$$",
+     "correct": true,
+     "explanation": "There are $28 \\times 27$ ordered selections of two different students. Because the prize is the same, each pair is counted in both orders, giving $378$ after division by 2."
+    },
+    {
+     "text": "$$$28 \\times 27 = 756$$",
+     "correct": false,
+     "explanation": "This counts each pair twice, once in each selection order. Since both students receive the same prize, order is irrelevant and division by 2 gives $378$."
+    },
+    {
+     "text": "$$$28 \\times 28 = 784$$",
+     "correct": false,
+     "explanation": "Squaring 28 incorrectly allows the same student to occupy both selections and also treats order as significant. Distinct unordered pairs give $\\frac{28 \\times 27}{2}=378$."
+    },
+    {
+     "text": "$$$\\frac{27 \\times 26}{2} = 351$$",
+     "correct": false,
+     "explanation": "This starts with 27 rather than all 28 possible first students, creating an off-by-one error. The correct calculation is $\\frac{28 \\times 27}{2}=378$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "3c65a4d6-c903-47fb-8d53-de4d54b9655d",
+   "card_type": "basic",
+   "front": "9 teams play each other once in a league. How many games are played?",
+   "back": "$$$\\frac{9 \\times 8}{2} = 36$$",
+   "options": [
+    {
+     "text": "$$$\\frac{9 \\times 8}{2} = 36$$",
+     "correct": true,
+     "explanation": "Each of the 9 teams can face 8 others, producing 72 ordered listings. Every game appears from both teams’ perspectives, so division by 2 gives 36."
+    },
+    {
+     "text": "$$$9 \\times 8 = 72$$",
+     "correct": false,
+     "explanation": "This counts every game twice, once from each team’s perspective. Since a game between A and B is the same as B against A, the answer is 36."
+    },
+    {
+     "text": "$$$9 \\times 9 = 81$$",
+     "correct": false,
+     "explanation": "Using $9^2$ incorrectly includes each team playing itself and counts games between different teams twice. The correct calculation is $\\frac{9 \\times 8}{2}=36$."
+    },
+    {
+     "text": "$$$\\frac{8 \\times 7}{2} = 28$$",
+     "correct": false,
+     "explanation": "This calculation uses only 8 teams, omitting one team and all its fixtures. With 9 teams, the correct total is $\\frac{9 \\times 8}{2}=36$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "241f91d4-0b52-439b-b07f-bc50eda84fd6",
+   "card_type": "cloze",
+   "front": "If two people are chosen for different roles, you [ ___ ] divide by 2.",
+   "back": "If two people are chosen for different roles, you do not divide by 2.",
+   "options": [
+    {
+     "text": "do not",
+     "correct": true,
+     "explanation": "Different roles make order significant: choosing A then B assigns them differently from choosing B then A. Both assignments must remain, so division by 2 is inappropriate."
+    },
+    {
+     "text": "always",
+     "correct": false,
+     "explanation": "Dividing by 2 would wrongly merge two distinct role assignments. When the roles differ, swapping the chosen people changes the outcome, so you do not divide by 2."
+    },
+    {
+     "text": "must",
+     "correct": false,
+     "explanation": "Division by 2 is required for identical roles or unordered pairs, not different roles. Different assignments remain separate outcomes, so you do not divide by 2."
+    },
+    {
+     "text": "should",
+     "correct": false,
+     "explanation": "This confuses different roles with an unordered selection. Since reversing the two people changes who holds each role, both orders count and you do not divide by 2."
+    }
+   ]
+  },
+  {
+   "id": "87ba5ccf-ccb6-4063-9ed2-38517af4e617",
+   "card_type": "basic",
+   "front": "Contrast an option with an outcome.",
+   "back": "Option: A choice at a single stage.Outcome: A complete result after all stages.",
+   "options": [
+    {
+     "text": "Option: A choice at a single stage.Outcome: A complete result after all stages.",
+     "correct": true,
+     "explanation": "An option is one available choice within a stage, whereas an outcome is the complete result formed by combining choices from every stage."
+    },
+    {
+     "text": "Option: A complete result after all stages.Outcome: A choice at a single stage.",
+     "correct": false,
+     "explanation": "This reverses the two definitions. An option is a choice at one stage, while an outcome is a complete result after all stages have been completed."
+    },
+    {
+     "text": "Option: The number of choices at every stage.Outcome: The number of stages in total.",
+     "correct": false,
+     "explanation": "This confuses choices and results with numerical counts. An option is one choice at a single stage, while an outcome is one complete result after all stages."
+    },
+    {
+     "text": "Option: A complete list of possible results.Outcome: A method used to count choices.",
+     "correct": false,
+     "explanation": "This confuses individual choices and results with lists and methods. An option is a choice at one stage, while an outcome is a complete result after all stages."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "ca35884a-b804-4789-b2a2-83a60aaa9c27",
+   "card_type": "cloze",
+   "front": "In product rule questions, the word [ ___ ] usually indicates that you should multiply the choices.",
+   "back": "In product rule questions, the word \"and\" usually indicates that you should multiply the choices.",
+   "options": [
+    {
+     "text": "\"and\"",
+     "correct": true,
+     "explanation": "The word \"and\" links successive stages that must all occur. The product rule therefore multiplies the number of choices available at each stage."
+    },
+    {
+     "text": "\"or\"",
+     "correct": false,
+     "explanation": "The word \"or\" usually indicates alternative cases whose numbers of outcomes should be added. The word \"and\" links successive stages, so their choices are multiplied."
+    },
+    {
+     "text": "\"not\"",
+     "correct": false,
+     "explanation": "The word \"not\" indicates an exclusion or restriction, rather than the product rule. The word \"and\" usually signals that choices from successive stages should be multiplied."
+    },
+    {
+     "text": "\"only\"",
+     "correct": false,
+     "explanation": "The word \"only\" places a restriction on the permitted outcomes and does not itself signal multiplication. The usual product-rule indicator is the word \"and\"."
+    }
+   ]
+  },
+  {
+   "id": "5be842dd-5c66-4304-8ed9-f44ce44f37f5",
+   "card_type": "basic",
+   "front": "When should you divide by 2 in a counting problem?",
+   "back": "When making pairs, matches, or handshakes where the order does not matter.",
+   "options": [
+    {
+     "text": "When making pairs, matches, or handshakes where the order does not matter.",
+     "correct": true,
+     "explanation": "Choosing A with B and choosing B with A describe the same unordered pair. Basic multiplication counts each pair twice, so dividing by 2 corrects the duplication."
+    },
+    {
+     "text": "When making lists, codes, or passwords where the order does matter.",
+     "correct": false,
+     "explanation": "Ordered lists, codes, and passwords treat different arrangements as different outcomes, so dividing by 2 would wrongly remove valid results. Division by 2 applies to unordered pairs counted twice."
+    },
+    {
+     "text": "When making pairs, matches, or handshakes where the order does matter.",
+     "correct": false,
+     "explanation": "If order matters, AB and BA are distinct outcomes and should both remain counted. Divide by 2 only for pairs, matches, or handshakes where order does not matter."
+    },
+    {
+     "text": "When making choices, selections, or decisions where the stages are independent.",
+     "correct": false,
+     "explanation": "Independent successive stages normally require multiplying their numbers of options, not dividing by 2. Division is needed for unordered pairs when multiplication has counted each pair twice."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "0ae5b4b0-22d1-4fe9-9fa1-a912250dc197",
+   "card_type": "basic",
+   "front": "Identify the 3 stages in choosing a three-course meal.",
+   "back": "Choosing a starter.Choosing a main.Choosing a dessert.",
+   "options": [
+    {
+     "text": "Choosing a starter.Choosing a main.Choosing a dessert.",
+     "correct": true,
+     "explanation": "A three-course meal is formed through three successive choices: one starter, one main, and one dessert. The product rule multiplies the available options at these stages."
+    },
+    {
+     "text": "Choosing a starter.Choosing a drink.Choosing a dessert.",
+     "correct": false,
+     "explanation": "A drink is not one of the three courses specified in a three-course meal. The stages are choosing a starter, choosing a main, and choosing a dessert."
+    },
+    {
+     "text": "Choosing a starter.Choosing a main.Choosing a drink.",
+     "correct": false,
+     "explanation": "Replacing dessert with a drink misidentifies the final course. The three stages are choosing a starter, choosing a main, and choosing a dessert."
+    },
+    {
+     "text": "Choosing a main.Choosing a dessert.Choosing a drink.",
+     "correct": false,
+     "explanation": "This omits the starter and incorrectly includes a drink as a course. The stages are choosing a starter, choosing a main, and choosing a dessert."
+    }
+   ],
+   "points": 1
+  }
+ ],
+ "card_count": 20,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-6-6-3-the-product-rule-for-counting/flashcards",
+ "source_sha256": "4efe09940128ff621c23f9740518b47fada35a2740d885e991cbf1fb206f50ae",
+ "extracted_at": "2026-11-08T17:55:05Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}

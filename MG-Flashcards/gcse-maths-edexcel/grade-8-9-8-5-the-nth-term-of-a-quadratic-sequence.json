@@ -1,0 +1,73 @@
+{
+ "topic": "grade-8-9-8-5-the-nth-term-of-a-quadratic-sequence",
+ "lane": "gcse-maths-edexcel",
+ "grade": "8",
+ "tier": null,
+ "title": "The Nth Term of a Quadratic Sequence Flashcards",
+ "cards": [
+  {
+   "id": "83739475-ef42-4a5e-97b8-5cc683d2aa03",
+   "card_type": "basic",
+   "front": "How is a quadratic sequence identified from its differences?",
+   "back": "It has a constant second difference.",
+   "options": [
+    {
+     "text": "It has a constant second difference.",
+     "correct": true,
+     "explanation": "Taking two successive sets of differences from a quadratic sequence produces the same value throughout. Therefore, a constant second difference identifies the sequence as quadratic."
+    },
+    {
+     "text": "It has a constant first difference.",
+     "correct": false,
+     "explanation": "A constant first difference identifies a linear sequence, not a quadratic one. A quadratic sequence is identified by having a constant second difference."
+    },
+    {
+     "text": "It has a constant ratio between terms.",
+     "correct": false,
+     "explanation": "A constant ratio is characteristic of a geometric sequence rather than a quadratic sequence. Quadratic sequences are identified by a constant second difference."
+    },
+    {
+     "text": "It has an alternating second difference.",
+     "correct": false,
+     "explanation": "An alternating second difference changes rather than remaining fixed, so it does not identify a quadratic sequence. The defining feature is a constant second difference."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "3e85ad80-113b-4b7f-a882-863bfd78c042",
+   "card_type": "basic",
+   "front": "In the general quadratic nth term $an^2 + bn + c$, what is the relationship between $a$ and the second difference?",
+   "back": "The second difference is equal to $2a$ ($a$ is half the second difference).",
+   "options": [
+    {
+     "text": "The second difference is equal to $2a$ ($a$ is half the second difference).",
+     "correct": true,
+     "explanation": "The second difference of $n^2$ is $2$, while the linear and constant terms contribute zero. Multiplying by $a$ therefore gives a second difference of $2a$."
+    },
+    {
+     "text": "The second difference is equal to $a$ ($a$ is the second difference).",
+     "correct": false,
+     "explanation": "This forgets that the second difference of $n^2$ is $2$, not $1$. Therefore, the second difference is $2a$, making $a$ half its value."
+    },
+    {
+     "text": "The second difference is equal to $\\frac{a}{2}$ ($a$ is twice the second difference).",
+     "correct": false,
+     "explanation": "This reverses the halving relationship. Since $a$ is half the second difference, the second difference must be twice $a$, giving $2a$."
+    },
+    {
+     "text": "The second difference is equal to $2b$ ($b$ is half the second difference).",
+     "correct": false,
+     "explanation": "This incorrectly uses the coefficient of the linear term. The term $bn$ has zero second difference, while $an^2$ produces the second difference $2a$."
+    }
+   ],
+   "points": 1
+  }
+ ],
+ "card_count": 2,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-8-9-8-5-the-nth-term-of-a-quadratic-sequence/flashcards",
+ "source_sha256": "bbe43962d7c18c0387d79a14e88be3eea5f8629f906ee8f824b86719ce3ed2ce",
+ "extracted_at": "2026-11-08T17:55:05Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}

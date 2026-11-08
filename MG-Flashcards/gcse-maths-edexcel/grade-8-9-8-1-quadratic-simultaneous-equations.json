@@ -1,0 +1,644 @@
+{
+ "topic": "grade-8-9-8-1-quadratic-simultaneous-equations",
+ "lane": "gcse-maths-edexcel",
+ "grade": "8",
+ "tier": null,
+ "title": "Quadratic Simultaneous Equations Flashcards",
+ "cards": [
+  {
+   "id": "56f6b3f6-35db-4e32-997e-2ddc80b1ee00",
+   "card_type": "basic",
+   "front": "What does a solution to a pair of simultaneous equations represent graphically?",
+   "back": "The intersection point(s) where the graphs meet.",
+   "options": [
+    {
+     "text": "The intersection point(s) where the graphs meet.",
+     "correct": true,
+     "explanation": "A solution satisfies both equations, so its coordinates lie on both graphs. Graphically, these coordinates are precisely the point or points where the graphs intersect."
+    },
+    {
+     "text": "The turning point(s) where the graphs change direction.",
+     "correct": false,
+     "explanation": "A turning point shows where an individual graph changes direction, not where two equations are simultaneously satisfied. Solutions are the intersection point or points where the graphs meet."
+    },
+    {
+     "text": "The axis intercept(s) where the graphs cross an axis.",
+     "correct": false,
+     "explanation": "An axis intercept only shows where one coordinate equals zero. A simultaneous solution must lie on both graphs, so it occurs where the two graphs intersect."
+    },
+    {
+     "text": "The gradient point(s) where the graphs have equal slopes.",
+     "correct": false,
+     "explanation": "Equal gradients do not mean that a point satisfies both equations, as the graphs could remain separate. Solutions are the intersection point or points where the graphs meet."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "14ee970c-c221-4a05-bc92-0a0b76c709e3",
+   "card_type": "basic",
+   "front": "In the context of simultaneous equations, what is an ordered pair?",
+   "back": "A solution written as $(x, y)$, where the $x$-value is listed first.",
+   "options": [
+    {
+     "text": "A solution written as $(x, y)$, where the $x$-value is listed first.",
+     "correct": true,
+     "explanation": "An ordered pair records the two coordinate values in a fixed order. By convention, the $x$-coordinate comes first and the $y$-coordinate comes second."
+    },
+    {
+     "text": "A solution written as $(y, x)$, where the $y$-value is listed first.",
+     "correct": false,
+     "explanation": "This reverses the conventional coordinate order, a common mistake when reading points from a graph. An ordered pair is written $(x, y)$, with the $x$-value first."
+    },
+    {
+     "text": "A solution written as $x = y$, where the two values are set equal.",
+     "correct": false,
+     "explanation": "An equals sign states that two values are identical; it does not record a coordinate pair. A simultaneous solution is written $(x, y)$, with the $x$-value first."
+    },
+    {
+     "text": "A solution written as $\\{x, y\\}$, where the values can appear in either order.",
+     "correct": false,
+     "explanation": "Braces describe a set, whose elements have no fixed order. Coordinates require an ordered pair $(x, y)$ because exchanging the $x$- and $y$-values usually gives a different point."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "af0fcb03-1a36-4c25-b9ac-745b5060c056",
+   "card_type": "cloze",
+   "front": "A linear equation contains variables only to the [ ___ ] power, while a quadratic equation contains a squared term.",
+   "back": "A linear equation contains variables only to the first power, while a quadratic equation contains a squared term.",
+   "options": [
+    {
+     "text": "first",
+     "correct": true,
+     "explanation": "In a linear equation, each variable has a highest power of one. A variable raised to the second power would instead make the equation quadratic."
+    },
+    {
+     "text": "second",
+     "correct": false,
+     "explanation": "Confusing linear and quadratic powers makes this tempting, but a second-power variable creates a quadratic term. Linear equations contain variables only to the first power."
+    },
+    {
+     "text": "third",
+     "correct": false,
+     "explanation": "A variable raised to the third power produces a cubic equation, not a linear one. The highest power of any variable in a linear equation is first."
+    },
+    {
+     "text": "fourth",
+     "correct": false,
+     "explanation": "A fourth-power term creates a quartic equation rather than a linear equation. A linear equation contains variables only to the first power."
+    }
+   ]
+  },
+  {
+   "id": "f968e148-4b9f-4e6e-9b99-b3dc23bdb156",
+   "card_type": "cloze",
+   "front": "A linear equation contains variables only to the first power, while a quadratic equation contains a [ ___ ] term.",
+   "back": "A linear equation contains variables only to the first power, while a quadratic equation contains a squared term.",
+   "options": [
+    {
+     "text": "squared",
+     "correct": true,
+     "explanation": "A quadratic equation has degree two, meaning its highest variable power is two. It therefore contains a squared term such as $x^2$."
+    },
+    {
+     "text": "cubed",
+     "correct": false,
+     "explanation": "A cubed term such as $x^3$ gives an equation degree three, making it cubic. A quadratic equation instead contains a squared term."
+    },
+    {
+     "text": "linear",
+     "correct": false,
+     "explanation": "A linear term has a variable to the first power and does not by itself make an equation quadratic. A quadratic equation must contain a squared term."
+    },
+    {
+     "text": "square-root",
+     "correct": false,
+     "explanation": "A square-root term involves a fractional power and does not define a quadratic equation. A quadratic equation contains a squared term with power two."
+    }
+   ]
+  },
+  {
+   "id": "2f88ae3c-7288-4f39-8d92-7f5cd9901bbc",
+   "card_type": "basic",
+   "front": "What is the primary algebraic method for solving a linear and quadratic pair?",
+   "back": "Substitution.",
+   "options": [
+    {
+     "text": "Substitution.",
+     "correct": true,
+     "explanation": "Substitution replaces one variable using the linear equation, producing a quadratic equation in one variable. Solving it gives values that can then be substituted back."
+    },
+    {
+     "text": "Elimination.",
+     "correct": false,
+     "explanation": "Standard elimination works most directly when matching linear terms can be cancelled. For a linear and quadratic pair, substitution is the primary method because it creates one quadratic equation."
+    },
+    {
+     "text": "Factorisation.",
+     "correct": false,
+     "explanation": "Factorisation may solve the quadratic obtained later, but it does not initially combine the two simultaneous equations. The primary method for the pair is substitution."
+    },
+    {
+     "text": "Completing the square.",
+     "correct": false,
+     "explanation": "Completing the square can solve or rearrange a quadratic after the equations have been combined. Substitution is the primary method used to combine a linear and quadratic pair."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "204ae636-8ae0-4911-8b09-8914dd6b762c",
+   "card_type": "cloze",
+   "front": "The variable isolated on one side of an equation is known as the [ ___ ].",
+   "back": "The variable isolated on one side of an equation is known as the subject.",
+   "options": [
+    {
+     "text": "subject",
+     "correct": true,
+     "explanation": "When a variable is isolated on one side of an equation, that variable is called the subject. For example, $y$ is the subject in $y = 2x + 3$."
+    },
+    {
+     "text": "coefficient",
+     "correct": false,
+     "explanation": "A coefficient is a number multiplying a variable, such as $2$ in $2x$. The isolated variable itself is called the subject of the equation."
+    },
+    {
+     "text": "constant",
+     "correct": false,
+     "explanation": "A constant is a term with no variable, such as $3$ in $y = 2x + 3$. The isolated variable is known as the subject."
+    },
+    {
+     "text": "factor",
+     "correct": false,
+     "explanation": "A factor is a quantity multiplied by another quantity, not the name for an isolated variable. A variable alone on one side is the subject."
+    }
+   ]
+  },
+  {
+   "id": "1a0b5ca8-9281-4370-b8a9-dba25a726a6e",
+   "card_type": "basic",
+   "front": "Why is substitution used to solve simultaneous equations?",
+   "back": "It creates one quadratic equation in one variable.",
+   "options": [
+    {
+     "text": "It creates one quadratic equation in one variable.",
+     "correct": true,
+     "explanation": "Replacing one variable with an equivalent expression removes that variable from the other equation. The result is one quadratic equation involving only one unknown."
+    },
+    {
+     "text": "It creates two linear equations in two variables.",
+     "correct": false,
+     "explanation": "Substitution is used to reduce the number of variables, not preserve both of them, and the quadratic term remains. It creates one quadratic equation in one variable."
+    },
+    {
+     "text": "It creates one linear equation in one variable.",
+     "correct": false,
+     "explanation": "Substitution does reduce the problem to one variable, but the squared term means the resulting equation is quadratic, not linear. It creates one quadratic equation in one variable."
+    },
+    {
+     "text": "It creates one quadratic equation in two variables.",
+     "correct": false,
+     "explanation": "This keeps an unnecessary second variable, missing the purpose of substitution. Replacing one variable completely produces one quadratic equation in one variable."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "a7df4998-c5ca-4e76-a3f4-cb6536b6df66",
+   "card_type": "basic",
+   "front": "What is the standard form of a quadratic equation in one variable?",
+   "back": "$$ax^2 + bx + c = 0$, where $a \\neq 0$.",
+   "options": [
+    {
+     "text": "$$ax^2 + bx + c = 0$, where $a \\neq 0$.",
+     "correct": true,
+     "explanation": "Standard form places every term on one side and zero on the other. Requiring $a \\neq 0$ ensures that the $x^2$ term is present, making the equation quadratic."
+    },
+    {
+     "text": "$$ax^3 + bx + c = 0$, where $a \\neq 0$.",
+     "correct": false,
+     "explanation": "Using $x^3$ makes the highest power three, so this is a cubic equation. A quadratic has highest power two: $ax^2 + bx + c = 0$."
+    },
+    {
+     "text": "$$ax^2 + bx + c = 0$, where $a = 0$.",
+     "correct": false,
+     "explanation": "Setting $a=0$ removes the $x^2$ term, leaving a linear equation at most. For a quadratic in standard form, $a$ must not equal zero."
+    },
+    {
+     "text": "$$ax^2 + bx + c = 1$, where $a \\neq 0$.",
+     "correct": false,
+     "explanation": "This has a quadratic term but is not written in standard form because the right-hand side is not zero. Standard form is $ax^2 + bx + c = 0$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "50d7307d-65ce-4d3f-a6af-fe6281a19d8f",
+   "card_type": "cloze",
+   "front": "When substituting an expression like $y = 5 - 3x$ into a quadratic, you must use [ ___ ] to ensure the whole expression is squared.",
+   "back": "When substituting an expression like $y = 5 - 3x$ into a quadratic, you must use brackets to ensure the whole expression is squared.",
+   "options": [
+    {
+     "text": "brackets",
+     "correct": true,
+     "explanation": "Brackets group $5 - 3x$ as a single expression, so writing $(5 - 3x)^2$ squares every term in the substituted expression correctly."
+    },
+    {
+     "text": "indices",
+     "correct": false,
+     "explanation": "Indices describe powers but do not group terms together. The correct answer is brackets, which ensure that the entire expression $(5 - 3x)$ is squared."
+    },
+    {
+     "text": "coefficients",
+     "correct": false,
+     "explanation": "Coefficients are numbers multiplying variables, so they cannot show the scope of a square. Brackets are required to group the whole substituted expression before squaring."
+    },
+    {
+     "text": "square roots",
+     "correct": false,
+     "explanation": "Square roots reverse squaring rather than group an expression. Brackets are needed so the power applies to the whole expression instead of only its final term."
+    }
+   ]
+  },
+  {
+   "id": "5cae1241-0aef-4aeb-ad2e-18a59f787761",
+   "card_type": "basic",
+   "front": "State the quadratic formula for $ax^2 + bx + c = 0$.",
+   "back": "$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$",
+   "options": [
+    {
+     "text": "$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$",
+     "correct": true,
+     "explanation": "This formula gives both roots of any quadratic in the form $ax^2 + bx + c = 0$, with the discriminant appearing beneath the square root."
+    },
+    {
+     "text": "$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{a}$",
+     "correct": false,
+     "explanation": "The denominator has incorrectly omitted the factor of $2$. The quadratic formula divides the complete numerator by $2a$, not merely by $a$."
+    },
+    {
+     "text": "$$x = \\frac{-b \\pm \\sqrt{b^2 + 4ac}}{2a}$",
+     "correct": false,
+     "explanation": "The sign inside the square root has been changed to addition. The discriminant is $b^2 - 4ac$, so subtraction must be used in the quadratic formula."
+    },
+    {
+     "text": "$$x = \\frac{b \\pm \\sqrt{b^2 - 4ac}}{2a}$",
+     "correct": false,
+     "explanation": "The leading term in the numerator must be $-b$, not $b$. Losing this negative sign changes both calculated roots unless $b$ happens to be zero."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "5f44a2dd-2bf3-47c7-a552-b23c340a0f99",
+   "card_type": "cloze",
+   "front": "The expression $b^2 - 4ac$ is called the [ ___ ].",
+   "back": "The expression $b^2 - 4ac$ is called the discriminant.",
+   "options": [
+    {
+     "text": "discriminant",
+     "correct": true,
+     "explanation": "The discriminant is the expression beneath the square root in the quadratic formula. Its sign determines whether a quadratic has two, one or no real roots."
+    },
+    {
+     "text": "coefficient",
+     "correct": false,
+     "explanation": "A coefficient is a number multiplying a variable, such as $a$ or $b$ in a quadratic. The full expression $b^2 - 4ac$ is called the discriminant."
+    },
+    {
+     "text": "determinant",
+     "correct": false,
+     "explanation": "A determinant is associated with matrices and can be confused with this similarly named quantity. For a quadratic, $b^2 - 4ac$ is the discriminant."
+    },
+    {
+     "text": "factorisation",
+     "correct": false,
+     "explanation": "Factorisation rewrites an expression as a product of factors; it is not the name of this quantity. The expression $b^2 - 4ac$ is the discriminant."
+    }
+   ]
+  },
+  {
+   "id": "6f5a1ed4-7050-48eb-b04d-9eb1e767b54a",
+   "card_type": "basic",
+   "front": "How does the discriminant ($b^2 - 4ac$) relate to the number of solution pairs?",
+   "back": "Positive: Two real solutions.Zero: One repeated solution.Negative: No real solutions.",
+   "options": [
+    {
+     "text": "Positive: Two real solutions.Zero: One repeated solution.Negative: No real solutions.",
+     "correct": true,
+     "explanation": "The discriminant controls how many real roots the resulting quadratic has. These roots correspond to the solution pairs, or intersection points, of the simultaneous equations."
+    },
+    {
+     "text": "Positive: No real solutions.Zero: One repeated solution.Negative: Two real solutions.",
+     "correct": false,
+     "explanation": "This reverses the positive and negative cases. A positive discriminant gives two real solutions, zero gives one repeated solution, and a negative discriminant gives none."
+    },
+    {
+     "text": "Positive: One repeated solution.Zero: Two real solutions.Negative: No real solutions.",
+     "correct": false,
+     "explanation": "This confuses the positive and zero cases. A positive discriminant produces two distinct real solutions, while zero produces one repeated solution and negative produces none."
+    },
+    {
+     "text": "Positive: Two real solutions.Zero: No real solutions.Negative: One repeated solution.",
+     "correct": false,
+     "explanation": "This swaps the zero and negative cases. Zero makes the two roots equal, giving one repeated solution, whereas a negative discriminant gives no real solutions."
+    }
+   ],
+   "points": 3
+  },
+  {
+   "id": "e754cc0a-cafa-4a7e-89e6-1a164c110e29",
+   "card_type": "basic",
+   "front": "What does a negative discriminant indicate about the relationship between a line and a curve?",
+   "back": "The line misses the curve (they do not intersect).",
+   "options": [
+    {
+     "text": "The line misses the curve (they do not intersect).",
+     "correct": true,
+     "explanation": "A negative discriminant means the substituted quadratic has no real roots. Therefore, there are no real coordinate pairs where the line and curve intersect."
+    },
+    {
+     "text": "The line crosses the curve (they intersect at two points).",
+     "correct": false,
+     "explanation": "Two intersection points correspond to two distinct real roots and therefore a positive discriminant. A negative discriminant means the line misses the curve completely."
+    },
+    {
+     "text": "The line touches the curve (they intersect at one point).",
+     "correct": false,
+     "explanation": "A single touching point gives one repeated root, which occurs when the discriminant is zero. A negative discriminant means there are no real intersections."
+    },
+    {
+     "text": "The line overlaps the curve (they share every point).",
+     "correct": false,
+     "explanation": "A line and a genuinely quadratic curve cannot share every point. A negative discriminant specifically shows that the line misses the curve, giving no real intersections."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "d24a78b9-afc6-4fca-801e-7b77e12c9745",
+   "card_type": "basic",
+   "front": "How should solution pairs be presented to avoid marks for \"unpaired answers\"?",
+   "back": "As distinct coordinate pairs, e.g., $(3, 4)$ and $(-4, -3)$.",
+   "options": [
+    {
+     "text": "As distinct coordinate pairs, e.g., $(3, 4)$ and $(-4, -3)$.",
+     "correct": true,
+     "explanation": "Each $x$-value must be matched with its corresponding $y$-value. Writing distinct ordered coordinate pairs makes both complete simultaneous solutions clear to the examiner."
+    },
+    {
+     "text": "As separate x-values and y-values, e.g., $x = 3, -4$ and $y = 4, -3$.",
+     "correct": false,
+     "explanation": "Separate lists do not show which $x$-value belongs with which $y$-value. The answers must be written as distinct coordinate pairs such as $(3, 4)$ and $(-4, -3)$."
+    },
+    {
+     "text": "As a single list of values, e.g., $3, 4, -4, -3$.",
+     "correct": false,
+     "explanation": "A single list hides both the coordinate order and the correct pairings. Each solution should be shown as an ordered coordinate pair, such as $(3, 4)$."
+    },
+    {
+     "text": "As two sets of coordinates, e.g., $\\{3, -4\\}$ and $\\{4, -3\\}$.",
+     "correct": false,
+     "explanation": "Sets are unordered and separate the $x$-values from their corresponding $y$-values. Distinct ordered coordinate pairs are needed to show each complete solution correctly."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "86034bf1-e5d6-476b-aeab-8bbd9a674da8",
+   "card_type": "basic",
+   "front": "When a question requires answers to 3 significant figures, when should you round?",
+   "back": "Only at the final step; keep full calculator values for intermediate steps.",
+   "options": [
+    {
+     "text": "Only at the final step; keep full calculator values for intermediate steps.",
+     "correct": true,
+     "explanation": "Keeping full calculator values prevents rounding errors from accumulating during substitution or later calculations. Round each completed final answer to 3 significant figures only at the end."
+    },
+    {
+     "text": "At every step; use 3 significant figures throughout the calculation.",
+     "correct": false,
+     "explanation": "Rounding repeatedly can accumulate errors and produce an inaccurate final answer. Keep full calculator values during working and round to 3 significant figures only at the final step."
+    },
+    {
+     "text": "After the first step; use the rounded value for all later calculations.",
+     "correct": false,
+     "explanation": "Rounding after the first step introduces avoidable error into every later calculation. Intermediate values should remain unrounded, with 3 significant figures applied only to the final answer."
+    },
+    {
+     "text": "Before the final step; substitute values already rounded to 3 significant figures.",
+     "correct": false,
+     "explanation": "Substituting prematurely rounded values can shift the final result outside the accepted range. Use full calculator values in the final calculation, then round the completed answer."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "011a5a7b-86f0-4e46-b439-d9301e9f2b36",
+   "card_type": "cloze",
+   "front": "Solving [ ___ ] means using equation steps like rearranging and factorising rather than reading from a graph.",
+   "back": "Solving algebraically means using equation steps like rearranging and factorising rather than reading from a graph.",
+   "options": [
+    {
+     "text": "algebraically",
+     "correct": true,
+     "explanation": "Solving algebraically uses symbolic operations such as substitution, expansion, rearrangement, factorisation or the quadratic formula, rather than estimating intersection points from a graph."
+    },
+    {
+     "text": "graphically",
+     "correct": false,
+     "explanation": "Solving graphically means drawing or viewing graphs and reading their intersection points. Using rearrangement and factorisation is described as solving algebraically."
+    },
+    {
+     "text": "numerically",
+     "correct": false,
+     "explanation": "Numerical methods use repeated approximations or calculations to estimate solutions. Exact equation steps such as rearranging and factorising mean the equations are being solved algebraically."
+    },
+    {
+     "text": "geometrically",
+     "correct": false,
+     "explanation": "Geometrical methods rely on shapes, measurements or spatial properties. Manipulating equations through rearrangement and factorisation is instead classified as solving algebraically."
+    }
+   ]
+  },
+  {
+   "id": "b3337a1f-fe7d-4ab2-83a0-a9164f7e4667",
+   "card_type": "basic",
+   "front": "What is the first step when the linear equation does not have an isolated variable?",
+   "back": "Rearrange the linear equation to make $x$ or $y$ the subject.",
+   "options": [
+    {
+     "text": "Rearrange the linear equation to make $x$ or $y$ the subject.",
+     "correct": true,
+     "explanation": "Substitution requires one variable to be written explicitly in terms of the other. Rearranging the linear equation provides the expression that can be inserted into the quadratic equation."
+    },
+    {
+     "text": "Set the linear equation equal to zero and solve it on its own.",
+     "correct": false,
+     "explanation": "A linear equation containing two variables cannot normally determine both values on its own. Instead, rearrange it to make $x$ or $y$ the subject before substituting."
+    },
+    {
+     "text": "Factorise the linear equation to obtain separate values for $x$ and $y$.",
+     "correct": false,
+     "explanation": "Factorisation is generally used to find roots of quadratic expressions, not to separate two variables in a linear equation. Rearrange the linear equation to isolate $x$ or $y$."
+    },
+    {
+     "text": "Square the linear equation to turn it into a second quadratic equation.",
+     "correct": false,
+     "explanation": "Squaring unnecessarily complicates the system and can introduce extra solutions. The correct first step is to rearrange the linear equation so that one variable is the subject."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "be2cc6e4-77b8-449b-9d25-1dbde53c14c1",
+   "card_type": "basic",
+   "front": "Which variable should you choose to make the subject of the linear equation?",
+   "back": "The one that is easiest to substitute (e.g., has a coefficient of 1).",
+   "options": [
+    {
+     "text": "The one that is easiest to substitute (e.g., has a coefficient of 1).",
+     "correct": true,
+     "explanation": "Choosing a variable with coefficient 1 usually avoids fractions, making substitution and later simplification less error-prone while still producing the same valid solutions."
+    },
+    {
+     "text": "The one with the largest coefficient in the linear equation.",
+     "correct": false,
+     "explanation": "A large coefficient often creates awkward fractions when the equation is rearranged. The best choice is the variable that is easiest to isolate, usually one with coefficient 1."
+    },
+    {
+     "text": "The one that is squared in the quadratic, regardless of its coefficient.",
+     "correct": false,
+     "explanation": "Being squared in the quadratic does not determine which variable is easiest to isolate. Choose the variable that makes rearrangement and substitution simplest, often one with coefficient 1."
+    },
+    {
+     "text": "The one with the most terms attached in the linear equation.",
+     "correct": false,
+     "explanation": "A variable involved in more terms is usually harder, not easier, to isolate. Choose whichever variable can be made the subject most simply, ideally without creating fractions."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "b63a3541-238c-4e1f-99de-fa4f29252970",
+   "card_type": "cloze",
+   "front": "To find the matching $y$-value for a calculated $x$-root, substitute the $x$-value back into the [ ___ ] equation.",
+   "back": "To find the matching $y$-value for a calculated $x$-root, substitute the $x$-value back into the linear equation.",
+   "options": [
+    {
+     "text": "linear",
+     "correct": true,
+     "explanation": "The linear equation gives a direct relationship between $x$ and $y$, so substituting each calculated $x$-root into it produces the corresponding $y$-value."
+    },
+    {
+     "text": "quadratic",
+     "correct": false,
+     "explanation": "Substituting into the quadratic may not identify the unique corresponding $y$-value and can repeat the harder calculation. Use the linear equation because it directly links the two variables."
+    },
+    {
+     "text": "cubic",
+     "correct": false,
+     "explanation": "The simultaneous system contains a linear and a quadratic equation, not a cubic equation. Substitute each calculated $x$-root into the linear equation to find its matching $y$-value."
+    },
+    {
+     "text": "exponential",
+     "correct": false,
+     "explanation": "An exponential equation is not part of this linear-quadratic system. The matching coordinate is found by substituting the known $x$-root back into the linear equation."
+    }
+   ]
+  },
+  {
+   "id": "5d979947-3c84-4bfe-9c63-4f3e9d9718d6",
+   "card_type": "basic",
+   "front": "What is the result of expanding $(y - 1)^2$?",
+   "back": "$$y^2 - 2y + 1$",
+   "options": [
+    {
+     "text": "$$y^2 - 2y + 1$",
+     "correct": true,
+     "explanation": "Using $(a-b)^2=a^2-2ab+b^2$ with $a=y$ and $b=1$ gives $y^2-2y+1$, including both cross-products in the middle term."
+    },
+    {
+     "text": "$$y^2 - 2y - 1$",
+     "correct": false,
+     "explanation": "The constant comes from $(-1)^2$, which is positive rather than negative. Correctly multiplying $(y-1)(y-1)$ gives $y^2-2y+1$."
+    },
+    {
+     "text": "$$y^2 - y + 1$",
+     "correct": false,
+     "explanation": "The middle term must include two cross-products, $-y$ and $-y$, rather than only one. Their sum is $-2y$, giving $y^2-2y+1$."
+    },
+    {
+     "text": "$$y^2 + 2y + 1$",
+     "correct": false,
+     "explanation": "The negative signs in both brackets make each cross-product negative, not positive. The middle terms total $-2y$, so the expansion is $y^2-2y+1$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "2cdb9dd2-c727-4228-8cc7-980974f439f6",
+   "card_type": "cloze",
+   "front": "The graph of a linear equation is a [ ___ ], whereas the graph of a quadratic is curved.",
+   "back": "The graph of a linear equation is a straight line, whereas the graph of a quadratic is curved.",
+   "options": [
+    {
+     "text": "straight line",
+     "correct": true,
+     "explanation": "A first-degree equation in two variables has a constant gradient, so all coordinate pairs satisfying it lie on a single straight line when plotted."
+    },
+    {
+     "text": "parabolic curve",
+     "correct": false,
+     "explanation": "A parabola is associated with a quadratic equation because one variable is squared. A linear equation has constant gradient, so its graph is a straight line."
+    },
+    {
+     "text": "circular arc",
+     "correct": false,
+     "explanation": "Circular graphs arise from equations involving squared coordinates in a circle relationship, not from linear equations. A linear equation instead produces a straight line."
+    },
+    {
+     "text": "exponential curve",
+     "correct": false,
+     "explanation": "An exponential graph changes gradient as the variable appears in an exponent. A linear equation has constant gradient, so its graph is a straight line."
+    }
+   ]
+  },
+  {
+   "id": "69bca5c8-67a8-4acd-af5b-445cc86d1b23",
+   "card_type": "cloze",
+   "front": "The graph of a linear equation is a straight line, whereas the graph of a quadratic is [ ___ ].",
+   "back": "The graph of a linear equation is a straight line, whereas the graph of a quadratic is curved.",
+   "options": [
+    {
+     "text": "curved",
+     "correct": true,
+     "explanation": "A quadratic graph is a parabola, whose gradient changes continuously rather than remaining constant. It therefore forms a curved graph rather than a straight line."
+    },
+    {
+     "text": "straight",
+     "correct": false,
+     "explanation": "A straight graph has constant gradient and represents a linear relationship. A quadratic has a changing gradient and produces a curved parabola instead."
+    },
+    {
+     "text": "circular",
+     "correct": false,
+     "explanation": "A circle requires a circle equation, typically involving two squared variables. A quadratic function in one variable forms a curved parabola, not a circular graph."
+    },
+    {
+     "text": "exponential",
+     "correct": false,
+     "explanation": "An exponential graph comes from a variable appearing in an exponent, which is a different relationship. A quadratic graph is curved and specifically forms a parabola."
+    }
+   ]
+  }
+ ],
+ "card_count": 22,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-8-9-8-1-quadratic-simultaneous-equations/flashcards",
+ "source_sha256": "323a2dbeae836729243a6b9e58f023398c332b9b81b24ad8bf92842cabd28cf4",
+ "extracted_at": "2026-11-08T17:55:05Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}

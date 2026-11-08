@@ -1,0 +1,644 @@
+{
+ "topic": "grade-8-9-8-4-completing-the-square",
+ "lane": "gcse-maths-edexcel",
+ "grade": "8",
+ "tier": null,
+ "title": "Completing the Square Flashcards",
+ "cards": [
+  {
+   "id": "9126f16b-10e8-46ea-9e32-381dbb00f90c",
+   "card_type": "basic",
+   "front": "In the expansion $(x+r)^2 = x^2 + 2rx + r^2$, how is the number inside the bracket ($r$) related to the $x$ coefficient?",
+   "back": "It is half the coefficient of $x$.",
+   "options": [
+    {
+     "text": "It is half the coefficient of $x$.",
+     "correct": true,
+     "explanation": "Expanding $(x+r)^2$ gives an $x$ coefficient of $2r$. Therefore, to find $r$, divide the coefficient of $x$ by $2$."
+    },
+    {
+     "text": "It is twice the coefficient of $x$.",
+     "correct": false,
+     "explanation": "This reverses the required operation. Since the $x$ coefficient is $2r$, the number inside the bracket is half the coefficient of $x$, not twice it."
+    },
+    {
+     "text": "It is equal to the coefficient of $x$.",
+     "correct": false,
+     "explanation": "This overlooks the factor of $2$ in the middle term $2rx$. The number inside the bracket is half the coefficient of $x$."
+    },
+    {
+     "text": "It is the square of the coefficient of $x$.",
+     "correct": false,
+     "explanation": "Squaring is used to obtain the constant term $r^2$, not to find $r$. The number inside the bracket is half the coefficient of $x$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "347e5a0c-2a8c-46a1-be4b-752cd17cd620",
+   "card_type": "cloze",
+   "front": "The expansion of a perfect square bracket is $(x+r)^2 = \\text{[...]}.",
+   "back": "The expansion of a perfect square bracket is $(x+r)^2 = \\boxed{x^2+2rx+r^2}.",
+   "options": [
+    {
+     "text": "$$x^2+2rx+r^2$",
+     "correct": true,
+     "explanation": "Multiplying $(x+r)(x+r)$ gives $x^2+rx+rx+r^2$. Combining the two middle terms produces $x^2+2rx+r^2$."
+    },
+    {
+     "text": "$$x^2+rx+r^2$",
+     "correct": false,
+     "explanation": "This misses one of the two identical cross-products. Both $x\\times r$ products contribute $rx$, so the correct expansion is $x^2+2rx+r^2$."
+    },
+    {
+     "text": "$$x^2+2rx+2r^2$",
+     "correct": false,
+     "explanation": "The cross-term occurs twice, but the product $r\\times r$ occurs only once. Therefore, the correct expansion is $x^2+2rx+r^2$."
+    },
+    {
+     "text": "$$x^2+r^2$",
+     "correct": false,
+     "explanation": "This incorrectly cancels or omits the two cross-products. They combine to form $2rx$, giving the correct expansion $x^2+2rx+r^2$."
+    }
+   ]
+  },
+  {
+   "id": "863f4e18-f10c-4bb6-8c7b-eae036de488b",
+   "card_type": "basic",
+   "front": "When completing the square for $x^2 + px + q$, what constant value must be subtracted to correct the expression?",
+   "back": "The square of half the coefficient of $x$, or $\\left(\\frac{p}{2}\\right)^2$.",
+   "options": [
+    {
+     "text": "The square of half the coefficient of $x$, or $\\left(\\frac{p}{2}\\right)^2$.",
+     "correct": true,
+     "explanation": "The bracket $(x+\\frac{p}{2})^2$ introduces the constant $(\\frac{p}{2})^2$. This value must be subtracted to keep the original expression unchanged."
+    },
+    {
+     "text": "The half of the square of the coefficient of $x$, or $\\frac{p^2}{2}$.",
+     "correct": false,
+     "explanation": "This squares before halving, producing $\\frac{p^2}{2}$ instead of $\\frac{p^2}{4}$. The required correction is $\\left(\\frac{p}{2}\\right)^2$."
+    },
+    {
+     "text": "The half of the coefficient of $x$, or $\\frac{p}{2}$.",
+     "correct": false,
+     "explanation": "Half the coefficient belongs inside the bracket, but the introduced constant is its square. The value subtracted must be $\\left(\\frac{p}{2}\\right)^2$."
+    },
+    {
+     "text": "The square of the coefficient of $x$, or $p^2$.",
+     "correct": false,
+     "explanation": "This forgets to halve the coefficient before squaring it. Completing the square introduces $\\left(\\frac{p}{2}\\right)^2$, so that is the constant that must be subtracted."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "87fb5ea1-e483-488e-a8a8-77cfdeec6b7a",
+   "card_type": "basic",
+   "front": "Complete the square for the expression $x^2 + 10x$.",
+   "back": "$$(x+5)^2 - 25$",
+   "options": [
+    {
+     "text": "$$(x+5)^2 - 25$",
+     "correct": true,
+     "explanation": "Half of $10$ is $5$, so $(x+5)^2=x^2+10x+25$. Subtracting $25$ removes the extra constant and leaves $x^2+10x$."
+    },
+    {
+     "text": "$$(x+5)^2 + 25$",
+     "correct": false,
+     "explanation": "The square already introduces an extra $25$, so adding another $25$ gives $x^2+10x+50$. The correct form subtracts $25$: $(x+5)^2 - 25$."
+    },
+    {
+     "text": "$$(x+10)^2 - 100$",
+     "correct": false,
+     "explanation": "This uses the full $x$ coefficient inside the bracket rather than halving it, producing a middle term of $20x$. The correct form is $(x+5)^2 - 25$."
+    },
+    {
+     "text": "$$(x-5)^2 - 25$",
+     "correct": false,
+     "explanation": "The negative sign produces the middle term $-10x$, not $+10x$. A positive middle term requires the completed form $(x+5)^2 - 25$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "b85da8bb-b044-4fbf-8922-ac16eebc9671",
+   "card_type": "cloze",
+   "front": "For a quadratic in the form $y = (x+h)^2 + k$, the turning point (vertex) is $\\text{[...]}$.",
+   "back": "For a quadratic in the form $y = (x+h)^2 + k$, the turning point (vertex) is $\\boxed{(-h, k)}$.",
+   "options": [
+    {
+     "text": "$$(-h, k)$",
+     "correct": true,
+     "explanation": "The squared term is smallest when $x+h=0$, so $x=-h$. At that value, the squared term is zero and $y=k$."
+    },
+    {
+     "text": "$$(h, k)$",
+     "correct": false,
+     "explanation": "This overlooks the sign change needed to solve $x+h=0$. The turning point occurs at $x=-h$ and $y=k$, so it is $(-h, k)$."
+    },
+    {
+     "text": "$$(-h, -k)$",
+     "correct": false,
+     "explanation": "The horizontal coordinate is correctly obtained from $x+h=0$, but the vertical coordinate is not sign-reversed. The turning point is $(-h, k)$."
+    },
+    {
+     "text": "$$(h, -k)$",
+     "correct": false,
+     "explanation": "This incorrectly reverses the vertical shift while keeping the bracket’s sign. Solving $x+h=0$ and using the outside constant gives the turning point $(-h, k)$."
+    }
+   ]
+  },
+  {
+   "id": "a2d9325c-d1f6-4f50-a820-c167d2f011ca",
+   "card_type": "basic",
+   "front": "If a quadratic is in the form $y = (x-4)^2 - 7$, what are the coordinates of the turning point?",
+   "back": "$$(4, -7)$",
+   "options": [
+    {
+     "text": "$$(4, -7)$",
+     "correct": true,
+     "explanation": "The squared term is zero when $x-4=0$, giving $x=4$. Substitution then gives $y=-7$, so the turning point is $(4, -7)$."
+    },
+    {
+     "text": "$$(-4, -7)$",
+     "correct": false,
+     "explanation": "Reading the bracket without reversing its sign causes this error. Since $x-4=0$ at $x=4$, the turning point is $(4, -7)$."
+    },
+    {
+     "text": "$$(4, 7)$",
+     "correct": false,
+     "explanation": "The horizontal coordinate is correct, but the outside constant gives the vertical coordinate directly. Since the constant is $-7$, the turning point is $(4, -7)$."
+    },
+    {
+     "text": "$$(-4, 7)$",
+     "correct": false,
+     "explanation": "Both signs have been reversed incorrectly. Solving $x-4=0$ gives $x=4$, while the outside constant gives $y=-7$, so the point is $(4, -7)$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "ecd7d0d0-bd2f-48a3-901f-5c14b9a8b13b",
+   "card_type": "cloze",
+   "front": "A quadratic graph is a U-shaped curve called a [ ___ ].",
+   "back": "A quadratic graph is a U-shaped curve called a parabola.",
+   "options": [
+    {
+     "text": "parabola",
+     "correct": true,
+     "explanation": "The graph of any quadratic function is called a parabola. It has one turning point and opens upwards or downwards depending on the leading coefficient."
+    },
+    {
+     "text": "hyperbola",
+     "correct": false,
+     "explanation": "A hyperbola usually has two separate branches and is associated with reciprocal-type relationships. A U-shaped quadratic graph is called a parabola."
+    },
+    {
+     "text": "ellipse",
+     "correct": false,
+     "explanation": "An ellipse is a closed oval-shaped curve rather than an open U-shaped graph. The curve formed by a quadratic function is called a parabola."
+    },
+    {
+     "text": "circle",
+     "correct": false,
+     "explanation": "A circle is a closed curve whose points are equally distant from its centre. A U-shaped quadratic graph is instead called a parabola."
+    }
+   ]
+  },
+  {
+   "id": "af27a544-da19-4360-8b30-ee9adbc01b20",
+   "card_type": "basic",
+   "front": "How do you determine if a turning point is a maximum or a minimum from the completed square form $a(x+h)^2 + k$?",
+   "back": "If $a$ is positive, it is a minimum.If $a$ is negative, it is a maximum.",
+   "options": [
+    {
+     "text": "If $a$ is positive, it is a minimum.If $a$ is negative, it is a maximum.",
+     "correct": true,
+     "explanation": "A positive value of $a$ makes the parabola open upwards, so its turning point is a minimum. A negative value makes it open downwards, producing a maximum."
+    },
+    {
+     "text": "If $a$ is positive, it is a maximum.If $a$ is negative, it is a minimum.",
+     "correct": false,
+     "explanation": "This reverses the direction in which each parabola opens. Positive $a$ gives an upward-opening graph and a minimum, while negative $a$ gives a maximum."
+    },
+    {
+     "text": "If $k$ is positive, it is a minimum.If $k$ is negative, it is a maximum.",
+     "correct": false,
+     "explanation": "The value of $k$ sets the turning point’s vertical position, not whether it is a maximum or minimum. That is determined by the sign of $a$."
+    },
+    {
+     "text": "If $h$ is positive, it is a minimum.If $h$ is negative, it is a maximum.",
+     "correct": false,
+     "explanation": "The value of $h$ controls the turning point’s horizontal position, not the graph’s opening direction. Positive $a$ gives a minimum and negative $a$ gives a maximum."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "a44d3896-03df-4ee7-929f-ef771dac2f97",
+   "card_type": "basic",
+   "front": "When completing the square for $x^2 - 3x$, why is the correction constant $\\frac{9}{4}$?",
+   "back": "It is the square of half the coefficient: $\\left(-\\frac{3}{2}\\right)^2 = \\frac{9}{4}$.",
+   "options": [
+    {
+     "text": "It is the square of half the coefficient: $\\left(-\\frac{3}{2}\\right)^2 = \\frac{9}{4}$.",
+     "correct": true,
+     "explanation": "Half the coefficient of $x$ is $-\\frac{3}{2}$. Squaring this gives $\\frac{9}{4}$, which is added inside the square and then corrected outside it."
+    },
+    {
+     "text": "It is half the coefficient: $-\\frac{3}{2}$.",
+     "correct": false,
+     "explanation": "This stops after halving the coefficient and forgets to square it. The correction constant is $\\left(-\\frac{3}{2}\\right)^2 = \\frac{9}{4}$."
+    },
+    {
+     "text": "It is the square of the coefficient: $(-3)^2 = 9$.",
+     "correct": false,
+     "explanation": "This squares the full coefficient instead of halving it first. Completing the square requires $\\left(-\\frac{3}{2}\\right)^2$, so the correction constant is $\\frac{9}{4}$."
+    },
+    {
+     "text": "It is the square of a quarter of the coefficient: $\\left(-\\frac{3}{4}\\right)^2 = \\frac{9}{16}$.",
+     "correct": false,
+     "explanation": "This divides the coefficient by $4$ rather than by $2$. The correct procedure halves $-3$ and squares the result, giving $\\frac{9}{4}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "24e9c566-5b49-4823-b95e-320ce9bbf968",
+   "card_type": "basic",
+   "front": "What is the first step when completing the square for an expression where the $x^2$ coefficient is not 1 (e.g., $2x^2 + 16x$)?",
+   "back": "Factor out the leading coefficient from the $x^2$ and $x$ terms.",
+   "options": [
+    {
+     "text": "Factor out the leading coefficient from the $x^2$ and $x$ terms.",
+     "correct": true,
+     "explanation": "Factoring out the leading coefficient makes the coefficient of $x^2$ inside the bracket equal to $1$, allowing the usual completing-the-square method to be applied."
+    },
+    {
+     "text": "Add the leading coefficient to the $x^2$ and $x$ terms.",
+     "correct": false,
+     "explanation": "Adding the leading coefficient changes the expression rather than rewriting it equivalently. The coefficient must be factored out from both the $x^2$ and $x$ terms first."
+    },
+    {
+     "text": "Divide the $x$ coefficient by the leading coefficient without factoring.",
+     "correct": false,
+     "explanation": "Dividing only the $x$ coefficient changes the expression because the adjustment is not applied consistently. Factor the leading coefficient out of both variable terms instead."
+    },
+    {
+     "text": "Factor out the leading coefficient from the $x^2$ term only.",
+     "correct": false,
+     "explanation": "Factoring from only the $x^2$ term does not produce a useful common bracket. The leading coefficient must be factored from both the $x^2$ and $x$ terms."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "f1a1b9ac-e5eb-4f35-9986-fbe64e99b73e",
+   "card_type": "cloze",
+   "front": "When completing the square for $2(x^2 + 8x)$, the internal correction is $-16$, but the total constant subtracted is $\\text{[...]}$ because of the outside multiplier.",
+   "back": "When completing the square for $2(x^2 + 8x)$, the internal correction is $-16$, but the total constant subtracted is $\\boxed{32}$ because of the outside multiplier.",
+   "options": [
+    {
+     "text": "$$32$",
+     "correct": true,
+     "explanation": "The internal correction of $16$ is multiplied by the outside factor $2$. Therefore, the corresponding total constant subtracted from the expanded expression is $2 \\times 16 = 32$."
+    },
+    {
+     "text": "$$16$",
+     "correct": false,
+     "explanation": "This uses only the correction inside the bracket and ignores the outside multiplier. Multiplying the internal $16$ by $2$ gives a total correction of $32$."
+    },
+    {
+     "text": "$$18$",
+     "correct": false,
+     "explanation": "This adds the outside multiplier to the internal correction instead of multiplying them. The bracket is multiplied by $2$, so the total correction is $2 \\times 16 = 32$."
+    },
+    {
+     "text": "$$64$",
+     "correct": false,
+     "explanation": "This effectively multiplies the correction by $4$ rather than by the outside factor $2$. The total constant subtracted is $2 \\times 16 = 32$."
+    }
+   ]
+  },
+  {
+   "id": "a3dce380-2550-4d79-9a0b-0be517b7f6c4",
+   "card_type": "cloze",
+   "front": "When completing the square for $2(x^2 + 8x)$, the internal correction is $-16$, but the total constant subtracted is $32$ because of the [ ___ ].",
+   "back": "When completing the square for $2(x^2 + 8x)$, the internal correction is $-16$, but the total constant subtracted is $32$ because of the outside multiplier.",
+   "options": [
+    {
+     "text": "outside multiplier",
+     "correct": true,
+     "explanation": "Every term inside $2(x^2+8x)$ is multiplied by $2$. Consequently, the internal correction of $16$ contributes a total correction of $2 \\times 16 = 32$."
+    },
+    {
+     "text": "internal correction",
+     "correct": false,
+     "explanation": "The internal correction explains the value $16$, not why it becomes $32$. The doubling occurs because the entire bracket is affected by the outside multiplier $2$."
+    },
+    {
+     "text": "bracket coefficient",
+     "correct": false,
+     "explanation": "The coefficient of $x$ inside the bracket determines the internal correction of $16$. Its conversion to $32$ is specifically caused by the outside multiplier $2$."
+    },
+    {
+     "text": "squared term",
+     "correct": false,
+     "explanation": "The squared term is part of the completed-square structure, but it does not explain the doubling. The total correction is $32$ because of the outside multiplier $2$."
+    }
+   ]
+  },
+  {
+   "id": "9ca323b0-2744-467b-a267-8fca9e81b80c",
+   "card_type": "basic",
+   "front": "Outline the 4 steps to solve a quadratic equation by completing the square.",
+   "back": "Complete the square.Isolate the squared bracket.Square root both sides (using $\\pm$).Solve for $x$.",
+   "options": [
+    {
+     "text": "Complete the square.Isolate the squared bracket.Square root both sides (using $\\pm$).Solve for $x$.",
+     "correct": true,
+     "explanation": "Completing and isolating the square produces an equation of the form $(x+h)^2=k$. Taking both square roots with $\\pm$ and rearranging then gives every solution."
+    },
+    {
+     "text": "Complete the square.Isolate the squared bracket.Square root both sides (positive only).Solve for $x$.",
+     "correct": false,
+     "explanation": "Taking only the positive square root usually loses one solution. After isolating the squared bracket, use $\\pm$ when square-rooting before solving for $x$."
+    },
+    {
+     "text": "Factorise the quadratic.Isolate each linear factor.Set both factors equal to zero.Solve for $x$.",
+     "correct": false,
+     "explanation": "These steps describe solving by factorisation, not completing the square. The required method forms and isolates a squared bracket, then square-roots both sides using $\\pm$."
+    },
+    {
+     "text": "Complete the square.Expand the squared bracket.Square both sides.Solve for $x$.",
+     "correct": false,
+     "explanation": "Expanding reverses the completed-square form, while squaring both sides does not remove the square. Isolate the squared bracket and square-root both sides using $\\pm$ instead."
+    }
+   ],
+   "points": 3
+  },
+  {
+   "id": "b830bf20-4851-4505-8350-7410613b8596",
+   "card_type": "basic",
+   "front": "What is surd form?",
+   "back": "Leaving a result as an exact root (e.g., $\\sqrt{6}$) instead of a rounded decimal.",
+   "options": [
+    {
+     "text": "Leaving a result as an exact root (e.g., $\\sqrt{6}$) instead of a rounded decimal.",
+     "correct": true,
+     "explanation": "Surd form preserves an irrational root exactly rather than replacing it with a decimal approximation. For example, $\\sqrt{6}$ is exact, while $2.45$ is rounded."
+    },
+    {
+     "text": "Leaving a result as an exact fraction (e.g., $\\frac{5}{2}$) instead of a rounded decimal.",
+     "correct": false,
+     "explanation": "An exact fraction is rational and is not normally called a surd. Surd form retains an irrational root exactly, such as $\\sqrt{6}$, rather than rounding it."
+    },
+    {
+     "text": "Writing a result as a rounded decimal (e.g., $2.45$) instead of an exact root.",
+     "correct": false,
+     "explanation": "This reverses the definition because a rounded decimal is only an approximation. Surd form leaves the result as an exact root, such as $\\sqrt{6}$."
+    },
+    {
+     "text": "Removing a result’s square root (e.g., $\\sqrt{6}=6$) instead of using a decimal.",
+     "correct": false,
+     "explanation": "A square-root symbol cannot simply be removed, since $\\sqrt{6}$ is not equal to $6$. Surd form keeps the exact root unchanged rather than evaluating it approximately."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "ca404fed-828b-41f8-972d-0c634a6ae6c1",
+   "card_type": "cloze",
+   "front": "When solving $(x+h)^2 = k$ by taking a square root, you must include a $\\text{[...]}$ sign to ensure you find both roots.",
+   "back": "When solving $(x+h)^2 = k$ by taking a square root, you must include a $\\boxed{\\pm}$ sign to ensure you find both roots.",
+   "options": [
+    {
+     "text": "$$\\pm$",
+     "correct": true,
+     "explanation": "A positive number has both a positive and a negative square root. Including $\\pm$ therefore captures both values of $x+h$ and ensures both roots are found."
+    },
+    {
+     "text": "$$+$",
+     "correct": false,
+     "explanation": "Using only the positive sign discards the negative square root and can lose one solution. The correct sign is $\\pm$, representing both possible square roots of $k$."
+    },
+    {
+     "text": "$$-$",
+     "correct": false,
+     "explanation": "Using only the negative sign discards the positive square root and can lose one solution. The correct sign is $\\pm$, so both square-root possibilities are considered."
+    },
+    {
+     "text": "$$\\times$",
+     "correct": false,
+     "explanation": "A multiplication sign does not represent the two possible square roots of a positive number. The $\\pm$ sign is required to include both the positive and negative roots."
+    }
+   ]
+  },
+  {
+   "id": "e2b26eef-f04e-4131-a569-d37d54cc08d2",
+   "card_type": "cloze",
+   "front": "When solving $(x+h)^2 = k$ by taking a square root, you must include a $\\pm$ sign to ensure you find [ ___ ].",
+   "back": "When solving $(x+h)^2 = k$ by taking a square root, you must include a $\\pm$ sign to ensure you find both roots.",
+   "options": [
+    {
+     "text": "both roots",
+     "correct": true,
+     "explanation": "Taking a square root gives $x+h=\\sqrt{k}$ or $x+h=-\\sqrt{k}$. The $\\pm$ notation includes both cases, allowing both roots to be found."
+    },
+    {
+     "text": "one root",
+     "correct": false,
+     "explanation": "The purpose of $\\pm$ is not to select a single root but to represent two square-root possibilities. Considering both signs allows both roots to be found."
+    },
+    {
+     "text": "the positive root",
+     "correct": false,
+     "explanation": "The plus sign gives the positive square-root case, but $\\pm$ also includes the negative case. It is used to ensure that both roots are found."
+    },
+    {
+     "text": "no real roots",
+     "correct": false,
+     "explanation": "The $\\pm$ sign does not indicate an absence of real roots. When $k$ is positive, it represents the two real possibilities $\\sqrt{k}$ and $-\\sqrt{k}$."
+    }
+   ]
+  },
+  {
+   "id": "1216a886-72f2-4303-bca5-52ee5bcda3e8",
+   "card_type": "basic",
+   "front": "Why is the $x$-coordinate of the turning point for $(x+6)^2 + 1$ equal to $-6$?",
+   "back": "Because the turning point occurs when the squared bracket equals zero ($x+6=0$).",
+   "options": [
+    {
+     "text": "Because the turning point occurs when the squared bracket equals zero ($x+6=0$).",
+     "correct": true,
+     "explanation": "A squared expression has its minimum value of zero when its bracket equals zero. Solving $x+6=0$ gives $x=-6$, so this is the turning point’s $x$-coordinate."
+    },
+    {
+     "text": "Because the turning point occurs when the squared bracket equals six ($x+6=6$).",
+     "correct": false,
+     "explanation": "Setting the bracket equal to six incorrectly uses the constant inside it as the minimum value. The square is minimised when $x+6=0$, which gives $x=-6$."
+    },
+    {
+     "text": "Because the turning point occurs when the squared bracket equals one ($x+6=1$).",
+     "correct": false,
+     "explanation": "The outside constant gives the turning point’s $y$-coordinate, not the bracket’s value. The squared bracket must equal zero, so $x+6=0$ and $x=-6$."
+    },
+    {
+     "text": "Because the turning point occurs when the squared bracket equals zero ($x-6=0$).",
+     "correct": false,
+     "explanation": "Changing $x+6$ to $x-6$ is a sign error. The original bracket equals zero when $x+6=0$, so the turning point has $x=-6$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "6f3eea50-5a4c-4494-a4d4-f66816b05a71",
+   "card_type": "cloze",
+   "front": "In the diagram for completing the square, the subtracted constant represents the area of the [ ___ ].",
+   "back": "In the diagram for completing the square, the subtracted constant represents the area of the missing corner square.",
+   "options": [
+    {
+     "text": "missing corner square",
+     "correct": true,
+     "explanation": "Completing the square forms a larger square but introduces an extra corner area. The subtracted constant removes this missing corner square’s area to keep the expression equivalent."
+    },
+    {
+     "text": "original central rectangle",
+     "correct": false,
+     "explanation": "The central rectangle represents part of the original linear term, so its area is not subtracted. The subtracted constant accounts for the missing corner square added during rearrangement."
+    },
+    {
+     "text": "two side rectangles",
+     "correct": false,
+     "explanation": "The side rectangles represent the split linear term and remain part of the completed diagram. The subtraction corrects for the area of the missing corner square."
+    },
+    {
+     "text": "completed outer square",
+     "correct": false,
+     "explanation": "The completed outer square represents the squared bracket as a whole, not merely the subtracted amount. The subtracted constant is the area of the missing corner square."
+    }
+   ]
+  },
+  {
+   "id": "134dbe9c-d881-4827-96f1-7f9d79cb5d0e",
+   "card_type": "basic",
+   "front": "Rewrite $x^2 - 8x + 9$ in completed square form.",
+   "back": "$$(x-4)^2 - 7$",
+   "options": [
+    {
+     "text": "$$(x-4)^2 - 7$",
+     "correct": true,
+     "explanation": "Half of $-8$ is $-4$, so $(x-4)^2=x^2-8x+16$. Subtracting $7$ changes the constant from $16$ to $9$, giving the original expression."
+    },
+    {
+     "text": "$$(x-4)^2 + 7$",
+     "correct": false,
+     "explanation": "The sign of the outside constant has been reversed. Since $(x-4)^2$ contributes $16$, subtracting $7$ is required to obtain the original constant term of $9$."
+    },
+    {
+     "text": "$$(x-4)^2 - 9$",
+     "correct": false,
+     "explanation": "This subtracts the original constant rather than correcting the added $16$. The required adjustment is $9-16=-7$, so the completed form is $(x-4)^2-7$."
+    },
+    {
+     "text": "$$(x-8)^2 - 55$",
+     "correct": false,
+     "explanation": "Using $-8$ inside the bracket fails to halve the coefficient of $x$, producing a linear term of $-16x$. Half of $-8$ is $-4$, giving $(x-4)^2-7$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "d926b681-5f1d-445d-beec-bdaf9742c3f4",
+   "card_type": "basic",
+   "front": "Find the turning point of $y = 2(x-3)^2 + 7$.",
+   "back": "$$(3, 7)$",
+   "options": [
+    {
+     "text": "$$(3, 7)$",
+     "correct": true,
+     "explanation": "In the form $y=a(x-h)^2+k$, the turning point is $(h,k)$. Here $h=3$ and $k=7$, so the turning point is $(3,7)$."
+    },
+    {
+     "text": "$$(-3, 7)$",
+     "correct": false,
+     "explanation": "Reading the bracket’s sign directly causes this common error. Since $x-3=0$ when $x=3$, the turning point is $(3,7)$, not one with $x=-3$."
+    },
+    {
+     "text": "$$(3, -7)$",
+     "correct": false,
+     "explanation": "The constant outside the squared bracket is added, so the turning point’s $y$-coordinate is $7$. The correct turning point is therefore $(3,7)$."
+    },
+    {
+     "text": "$$(6, 7)$",
+     "correct": false,
+     "explanation": "The coefficient $2$ changes the graph’s vertical stretch, not the turning point’s $x$-coordinate. Setting $x-3=0$ gives the correct turning point $(3,7)$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "18be5c25-a771-4954-8390-f5fdd2fbbf66",
+   "card_type": "cloze",
+   "front": "To solve $x^2+7x+6.25=0$, it is helpful to first convert the decimal $6.25$ into the fraction $\\text{[...]}$.",
+   "back": "To solve $x^2+7x+6.25=0$, it is helpful to first convert the decimal $6.25$ into the fraction $\\boxed{\\frac{25}{4}}$.",
+   "options": [
+    {
+     "text": "$$\\frac{25}{4}$",
+     "correct": true,
+     "explanation": "Multiplying $6.25$ by $100$ gives $625/100$, which simplifies by dividing top and bottom by $25$. This produces the equivalent fraction $25/4$."
+    },
+    {
+     "text": "$$\\frac{25}{10}$",
+     "correct": false,
+     "explanation": "This treats $6.25$ as though its digits represented tenths and gives $2.5$. Since there are two decimal places, $6.25=625/100=25/4$."
+    },
+    {
+     "text": "$$\\frac{625}{10}$",
+     "correct": false,
+     "explanation": "Using a denominator of $10$ for a two-decimal-place number makes the value ten times too large. The correct conversion is $625/100$, which simplifies to $25/4$."
+    },
+    {
+     "text": "$$\\frac{25}{8}$",
+     "correct": false,
+     "explanation": "This equals $3.125$, so it is half of the required decimal value. Converting $6.25$ exactly gives $625/100$, which simplifies to $25/4$."
+    }
+   ]
+  },
+  {
+   "id": "f29ae0a6-11b7-4954-9d53-90eb1267b960",
+   "card_type": "basic",
+   "front": "What is the constant in a quadratic expression?",
+   "back": "The number on its own that is not multiplying a variable.",
+   "options": [
+    {
+     "text": "The number on its own that is not multiplying a variable.",
+     "correct": true,
+     "explanation": "A constant term has no variable attached, so its value does not change when the variable changes. It is the number appearing on its own in the expression."
+    },
+    {
+     "text": "The number multiplying $x^2$ that determines the graph’s shape.",
+     "correct": false,
+     "explanation": "The number multiplying $x^2$ is the quadratic coefficient, not the constant. The constant is the number on its own that does not multiply any variable."
+    },
+    {
+     "text": "The number multiplying $x$ that determines the linear term.",
+     "correct": false,
+     "explanation": "The number multiplying $x$ is the linear coefficient, not the constant term. The constant is the standalone number with no variable attached to it."
+    },
+    {
+     "text": "The highest power of $x$ that determines the expression’s degree.",
+     "correct": false,
+     "explanation": "The highest power identifies the degree of the expression rather than its constant. The constant is the number on its own that is not multiplying a variable."
+    }
+   ],
+   "points": 1
+  }
+ ],
+ "card_count": 22,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-8-9-8-4-completing-the-square/flashcards",
+ "source_sha256": "f569958af359798e24625e28561c4b0d1173097f4e75eb1c09921eb60617028e",
+ "extracted_at": "2026-11-08T17:55:05Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}

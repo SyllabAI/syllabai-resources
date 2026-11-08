@@ -1,0 +1,646 @@
+{
+ "topic": "grade-6-6-8-similar-shapes-area-and-volume",
+ "lane": "gcse-maths-edexcel",
+ "grade": "6",
+ "tier": null,
+ "title": "Similar Shapes (Area and Volume) Flashcards",
+ "cards": [
+  {
+   "id": "fdad08d1-443e-46f4-a13b-0cbf3ffa6aae",
+   "card_type": "basic",
+   "front": "What does it mean if two shapes are mathematically similar?",
+   "back": "They have the same shape but different sizes (one is an enlargement of the other).",
+   "options": [
+    {
+     "text": "They have the same shape but different sizes (one is an enlargement of the other).",
+     "correct": true,
+     "explanation": "Similar shapes have equal corresponding angles and proportional corresponding lengths, so their shape is unchanged even though one may be a larger or smaller enlargement."
+    },
+    {
+     "text": "They have the same size but different shapes (one has the same area as the other).",
+     "correct": false,
+     "explanation": "Having the same area does not make shapes similar, because their corresponding angles and side proportions may differ. Similar shapes have the same shape but may have different sizes."
+    },
+    {
+     "text": "They have the same perimeter but different areas (one has longer sides than the other).",
+     "correct": false,
+     "explanation": "Equal perimeters do not guarantee equal corresponding angles or proportional sides. Similar shapes have the same shape, with every corresponding length changed by one consistent scale factor."
+    },
+    {
+     "text": "They have the same area but different perimeters (one is a rotation of the other).",
+     "correct": false,
+     "explanation": "Equal areas alone do not establish similarity, and a rotation does not create a different-sized enlargement. Similar shapes have matching angles and proportional corresponding side lengths."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "17bdfd80-725a-490f-9cbd-f455e2eaf157",
+   "card_type": "basic",
+   "front": "What is the formula for the linear scale factor ($k$) when going from Shape A to Shape B?",
+   "back": "$$$k = \\frac{\\text{length on B}}{\\text{matching length on A}}$$",
+   "options": [
+    {
+     "text": "$$$k = \\frac{\\text{length on B}}{\\text{matching length on A}}$$",
+     "correct": true,
+     "explanation": "When transforming Shape A into Shape B, divide a length on the resulting shape B by its matching length on the original shape A."
+    },
+    {
+     "text": "$$$k = \\frac{\\text{length on A}}{\\text{matching length on B}}$$",
+     "correct": false,
+     "explanation": "This reverses the ratio and gives the scale factor for going from B to A. From A to B, divide the matching length on B by the length on A."
+    },
+    {
+     "text": "$$$k = \\frac{\\text{area of B}}{\\text{matching area of A}}$$",
+     "correct": false,
+     "explanation": "Dividing corresponding areas gives the area scale factor, which equals $k^2$, rather than the linear scale factor. Linear scale factor uses matching lengths on B and A."
+    },
+    {
+     "text": "$$$k = \\frac{\\text{length on B}}{\\text{area of A}}$$",
+     "correct": false,
+     "explanation": "A length cannot be divided by an area to obtain a dimensionless linear scale factor. The calculation must compare a length on B with its matching length on A."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "1dfb680f-fcb0-4dcb-b241-b9f7fbca8b33",
+   "card_type": "basic",
+   "front": "How do you calculate the area scale factor from the linear scale factor ($k$)?",
+   "back": "Square the linear scale factor: $k^2$.",
+   "options": [
+    {
+     "text": "Square the linear scale factor: $k^2$.",
+     "correct": true,
+     "explanation": "Area involves two dimensions, so both corresponding lengths are multiplied by $k$. Their combined effect is $k \\times k = k^2$."
+    },
+    {
+     "text": "Multiply by the linear scale factor: $k$.",
+     "correct": false,
+     "explanation": "Using $k$ only accounts for one dimension, which applies to lengths rather than areas. Area changes in two dimensions, so the correct scale factor is $k^2$."
+    },
+    {
+     "text": "Cube the linear scale factor: $k^3$.",
+     "correct": false,
+     "explanation": "Cubing accounts for three dimensions and therefore gives the volume scale factor. Area has two dimensions, so its scale factor is the square, $k^2$."
+    },
+    {
+     "text": "Square root the linear scale factor: $\\sqrt{k}$.",
+     "correct": false,
+     "explanation": "Taking a square root is used when recovering a linear scale factor from an area scale factor. Starting with $k$, the area scale factor is $k^2$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "4eeceb83-5fd4-46af-87c1-ef4cb24c5551",
+   "card_type": "basic",
+   "front": "How do you calculate the volume scale factor from the linear scale factor ($k$)?",
+   "back": "Cube the linear scale factor: $k^3$.",
+   "options": [
+    {
+     "text": "Cube the linear scale factor: $k^3$.",
+     "correct": true,
+     "explanation": "Volume involves three dimensions, each multiplied by $k$. Multiplying the three changes gives $k \\times k \\times k = k^3$."
+    },
+    {
+     "text": "Square the linear scale factor: $k^2$.",
+     "correct": false,
+     "explanation": "Squaring accounts for only two dimensions and gives the area scale factor. Volume changes in three dimensions, so the correct scale factor is $k^3$."
+    },
+    {
+     "text": "Multiply by the linear scale factor: $k$.",
+     "correct": false,
+     "explanation": "Using $k$ accounts for the change in just one length. A volume has three dimensions, so all three scale changes combine to give $k^3$."
+    },
+    {
+     "text": "Cube root the linear scale factor: $\\sqrt[3]{k}$.",
+     "correct": false,
+     "explanation": "Taking a cube root recovers a linear scale factor from a known volume scale factor. Starting with linear factor $k$, the volume factor is $k^3$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "78b960ad-7a19-4e58-a9cd-00e0e8aaf3e4",
+   "card_type": "cloze",
+   "front": "For similar shapes, if the length scale factor is $k$, the area scale factor is $\\text{[...]}$ and the volume scale factor is $k^3$.",
+   "back": "For similar shapes, if the length scale factor is $k$, the area scale factor is $\\boxed{k^2}$ and the volume scale factor is $k^3$.",
+   "options": [
+    {
+     "text": "$$k^2$",
+     "correct": true,
+     "explanation": "Area changes in two dimensions, and each corresponding length is multiplied by $k$. Therefore the area scale factor is $k \\times k = k^2$."
+    },
+    {
+     "text": "$$k$",
+     "correct": false,
+     "explanation": "This is the linear scale factor and accounts for only one dimension. Since area depends on two dimensions, its scale factor is $k^2$."
+    },
+    {
+     "text": "$$k^3$",
+     "correct": false,
+     "explanation": "This is the volume scale factor because volume changes in three dimensions. Area changes in only two dimensions, so the required factor is $k^2$."
+    },
+    {
+     "text": "$$\\sqrt{k}$",
+     "correct": false,
+     "explanation": "A square root would be used to find a linear factor from a known area factor. Here the linear factor is given, so the area factor is $k^2$."
+    }
+   ]
+  },
+  {
+   "id": "ef3c4d54-0fbc-4d6c-bec8-895a9e9a5689",
+   "card_type": "cloze",
+   "front": "For similar shapes, if the length scale factor is $k$, the area scale factor is $k^2$ and the volume scale factor is $\\text{[...]}$.",
+   "back": "For similar shapes, if the length scale factor is $k$, the area scale factor is $k^2$ and the volume scale factor is $\\boxed{k^3}$.",
+   "options": [
+    {
+     "text": "$$k^3$",
+     "correct": true,
+     "explanation": "Volume changes across three dimensions, each scaled by $k$. Multiplying these three factors gives $k \\times k \\times k = k^3$."
+    },
+    {
+     "text": "$$k^2$",
+     "correct": false,
+     "explanation": "This is the area scale factor and accounts for two dimensions only. Volume has three dimensions, so its scale factor is the cube, $k^3$."
+    },
+    {
+     "text": "$$k$",
+     "correct": false,
+     "explanation": "This accounts for the change in one corresponding length only. Volume combines changes in length, width and height, giving the correct factor $k^3$."
+    },
+    {
+     "text": "$$\\sqrt[3]{k}$",
+     "correct": false,
+     "explanation": "A cube root is used to recover a linear scale factor from a volume scale factor. Starting with linear factor $k$, the volume factor is $k^3$."
+    }
+   ]
+  },
+  {
+   "id": "f8d3fc91-3b32-482e-a538-248509b72666",
+   "card_type": "basic",
+   "front": "If the length of a shape doubles, what happens to its surface area?",
+   "back": "It is multiplied by 4 (because $2^2 = 4$).",
+   "options": [
+    {
+     "text": "It is multiplied by 4 (because $2^2 = 4$).",
+     "correct": true,
+     "explanation": "Surface area changes with the square of the linear scale factor. Doubling every length gives an area scale factor of $2^2 = 4$."
+    },
+    {
+     "text": "It is multiplied by 2 (because $2 \\times 1 = 2$).",
+     "correct": false,
+     "explanation": "Multiplying by 2 treats surface area like a one-dimensional length. Surface area changes in two dimensions, so doubling lengths multiplies it by $2^2 = 4$."
+    },
+    {
+     "text": "It is multiplied by 8 (because $2^3 = 8$).",
+     "correct": false,
+     "explanation": "Cubing the scale factor gives the change in volume, not surface area. Surface area uses the square, so doubling lengths multiplies it by $2^2 = 4$."
+    },
+    {
+     "text": "It is multiplied by 16 (because $4^2 = 16$).",
+     "correct": false,
+     "explanation": "This incorrectly squares the already calculated area factor of 4. The linear factor 2 should be squared once, giving a surface-area multiplier of $2^2 = 4$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "54f9aab5-8b89-4df1-97d1-8e279bc5d3b2",
+   "card_type": "basic",
+   "front": "If the length of a shape triples, what happens to its volume?",
+   "back": "It is multiplied by 27 (because $3^3 = 27$).",
+   "options": [
+    {
+     "text": "It is multiplied by 27 (because $3^3 = 27$).",
+     "correct": true,
+     "explanation": "Volume changes with the cube of the linear scale factor. Tripling every dimension gives a volume scale factor of $3^3 = 27$."
+    },
+    {
+     "text": "It is multiplied by 9 (because $3^2 = 9$).",
+     "correct": false,
+     "explanation": "Squaring the linear factor gives the area scale factor, not the volume scale factor. Volume changes in three dimensions, so tripling lengths gives $3^3 = 27$."
+    },
+    {
+     "text": "It is multiplied by 3 (because $3 \\times 1 = 3$).",
+     "correct": false,
+     "explanation": "Multiplying by 3 accounts for only one dimension and describes the change in length. Volume uses three dimensions, so the multiplier is $3^3 = 27$."
+    },
+    {
+     "text": "It is multiplied by 81 (because $3^4 = 81$).",
+     "correct": false,
+     "explanation": "Using a fourth power adds an extra dimension that volume does not have. Volume depends on three dimensions, so tripling lengths multiplies it by $3^3 = 27$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "bd62627a-eb45-462f-a5af-688251177a60",
+   "card_type": "basic",
+   "front": "What value will the linear scale factor ($k$) have if the shape is being shrunk?",
+   "back": "$$k$ will be less than 1.",
+   "options": [
+    {
+     "text": "$$k$ will be less than 1.",
+     "correct": true,
+     "explanation": "A shrink makes every corresponding length smaller, so the new-to-original length ratio, and therefore the linear scale factor $k$, must lie between $0$ and $1$."
+    },
+    {
+     "text": "$$k$ will be greater than 1.",
+     "correct": false,
+     "explanation": "A scale factor greater than $1$ produces an enlargement rather than a reduction. For a shape being shrunk, $k$ must be less than $1$."
+    },
+    {
+     "text": "$$k$ will be equal to 1.",
+     "correct": false,
+     "explanation": "A scale factor of exactly $1$ leaves every length unchanged, so the shape is neither enlarged nor shrunk. Shrinking requires $k$ to be less than $1$."
+    },
+    {
+     "text": "$$k$ will be less than 0.",
+     "correct": false,
+     "explanation": "Scale factors for ordinary lengths are positive because lengths cannot be negative. A shrinking transformation has a positive value of $k$ that is less than $1$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "e6943c26-9b6e-4e70-a581-ad8c44e06d3b",
+   "card_type": "cloze",
+   "front": "To find the linear scale factor from an area scale factor, you must [ ___ ] the area scale factor.",
+   "back": "To find the linear scale factor from an area scale factor, you must square root the area scale factor.",
+   "options": [
+    {
+     "text": "square root",
+     "correct": true,
+     "explanation": "For similar shapes, the area scale factor equals $k^2$, where $k$ is the linear scale factor. Taking the square root therefore recovers $k$."
+    },
+    {
+     "text": "square",
+     "correct": false,
+     "explanation": "Squaring applies the area relationship in the wrong direction and produces $k^4$. The linear scale factor is found by taking the square root of the area scale factor."
+    },
+    {
+     "text": "cube root",
+     "correct": false,
+     "explanation": "A cube root converts a volume scale factor into a linear scale factor. Since the given factor compares areas, its square root gives the linear scale factor."
+    },
+    {
+     "text": "halve",
+     "correct": false,
+     "explanation": "Halving is not the inverse of squaring and only happens to work in isolated cases. The area scale factor must be square rooted to obtain $k$."
+    }
+   ]
+  },
+  {
+   "id": "7e9dfc16-7b43-4047-aee7-2ad46cc9cbb2",
+   "card_type": "basic",
+   "front": "What are the three steps to find a volume when given two surface areas?",
+   "back": "Find the area scale factorSquare root it to find the length scale factor ($k$)Cube $k$ to find the volume scale factor",
+   "options": [
+    {
+     "text": "Find the area scale factorSquare root it to find the length scale factor ($k$)Cube $k$ to find the volume scale factor",
+     "correct": true,
+     "explanation": "Surface areas scale with $k^2$, so square rooting their scale factor gives $k$. Volumes scale with $k^3$, so cubing this value gives the required volume scale factor."
+    },
+    {
+     "text": "Find the area scale factorCube it to find the length scale factor ($k$)Square $k$ to find the volume scale factor",
+     "correct": false,
+     "explanation": "Cubing an area scale factor treats it as though it were already a linear factor. First square root the area factor to obtain $k$, then cube $k$."
+    },
+    {
+     "text": "Find the area scale factorUse it as the length scale factor ($k$)Cube $k$ to find the volume scale factor",
+     "correct": false,
+     "explanation": "Using the area scale factor directly as $k$ confuses two-dimensional and one-dimensional scaling. Square root the area factor first, then cube the resulting linear factor."
+    },
+    {
+     "text": "Find the area scale factorSquare root it to find the length scale factor ($k$)Square $k$ to find the volume scale factor",
+     "correct": false,
+     "explanation": "Volume does not scale with $k^2$; that power applies to area. After square rooting the area scale factor to find $k$, cube $k$ for volume."
+    }
+   ],
+   "points": 3
+  },
+  {
+   "id": "9194c09b-39b4-4222-bd59-284ad8375874",
+   "card_type": "basic",
+   "front": "Two similar solids have surface areas in the ratio $25:49$. What is their length ratio?",
+   "back": "$$5:7$ (the square root of the area ratio).",
+   "options": [
+    {
+     "text": "$$5:7$ (the square root of the area ratio).",
+     "correct": true,
+     "explanation": "Surface-area ratios are the squares of length ratios. Taking the square root of each part of $25:49$ gives $sqrt{25}:sqrt{49}=5:7$."
+    },
+    {
+     "text": "$$25:49$ (the same as the area ratio).",
+     "correct": false,
+     "explanation": "This incorrectly uses the surface-area ratio as the length ratio. Since area scales with the square of length, square rooting $25:49$ gives $5:7$."
+    },
+    {
+     "text": "$$7:5$ (the reverse of the square root ratio).",
+     "correct": false,
+     "explanation": "This reverses the order of the two solids after square rooting. Keeping the original order, $sqrt{25}:sqrt{49}$ gives the length ratio $5:7$."
+    },
+    {
+     "text": "$$5:49$ (the square root of the first area only).",
+     "correct": false,
+     "explanation": "This square roots only the first part of the area ratio. Both values must be square rooted, so $25:49$ becomes $5:7$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "94e09191-0d34-494a-aa1d-517326670bc6",
+   "card_type": "basic",
+   "front": "What is a frustum?",
+   "back": "The solid remaining after the top of a cone or pyramid is cut off parallel to its base.",
+   "options": [
+    {
+     "text": "The solid remaining after the top of a cone or pyramid is cut off parallel to its base.",
+     "correct": true,
+     "explanation": "A frustum is formed by slicing a cone or pyramid along a plane parallel to its base and removing the smaller, similar solid at the top."
+    },
+    {
+     "text": "The solid remaining after the top of a cone or pyramid is cut off perpendicular to its base.",
+     "correct": false,
+     "explanation": "A perpendicular cut does not produce the two parallel faces characteristic of a frustum. The top must be removed using a cut parallel to the base."
+    },
+    {
+     "text": "The solid remaining after the base of a cone or pyramid is cut off parallel to its top.",
+     "correct": false,
+     "explanation": "Removing the bottom would leave the small cone or pyramid rather than the frustum normally required. A frustum is the remainder after the top is removed parallel to the base."
+    },
+    {
+     "text": "The solid remaining after the side of a cone or pyramid is cut off through its apex.",
+     "correct": false,
+     "explanation": "A cut through the apex does not remove a smaller similar cone and does not create a frustum. The cut must be parallel to the base and below the apex."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "76c9618e-af78-4b79-a7a9-5bf7552dd9d2",
+   "card_type": "basic",
+   "front": "How is the volume of a frustum calculated?",
+   "back": "Total volume of the large cone minus the volume of the small cone removed from the top.",
+   "options": [
+    {
+     "text": "Total volume of the large cone minus the volume of the small cone removed from the top.",
+     "correct": true,
+     "explanation": "The original large cone can be divided into the frustum and the small cone removed. Subtracting the small cone’s volume therefore leaves the frustum’s volume."
+    },
+    {
+     "text": "Total volume of the large cone plus the volume of the small cone removed from the top.",
+     "correct": false,
+     "explanation": "Adding counts the removed cone as extra material rather than taking it away. The frustum’s volume is the large cone’s total volume minus the small cone’s volume."
+    },
+    {
+     "text": "Total volume of the small cone minus the volume of the large cone remaining at the bottom.",
+     "correct": false,
+     "explanation": "This subtraction is reversed, which would produce a negative value because the small cone has less volume. Subtract the small cone from the large cone."
+    },
+    {
+     "text": "Total surface area of the large cone minus the surface area of the small cone removed from the top.",
+     "correct": false,
+     "explanation": "Surface area and volume measure different quantities, so their values cannot be subtracted. Both measurements must be volumes: large cone volume minus small cone volume."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "bf41a437-1a6e-4d3d-b9db-a0f84dddeb70",
+   "card_type": "cloze",
+   "front": "The formula for the volume of a cone is $V = $ $$\\text{[...]}$$.",
+   "back": "The formula for the volume of a cone is $V = $ $$\\boxed{\\frac{1}{3}\\pi r^2h}$$.",
+   "options": [
+    {
+     "text": "$$$\\frac{1}{3}\\pi r^2h$$",
+     "correct": true,
+     "explanation": "A cone has one third of the volume of a cylinder with the same circular base and perpendicular height, so its volume is $V = \\frac{1}{3}\\pi r^2h$."
+    },
+    {
+     "text": "$$$\\pi r^2h$$",
+     "correct": false,
+     "explanation": "This omits the factor of $\\frac{1}{3}$ and therefore calculates the volume of the corresponding cylinder. A cone occupies one third of that volume, giving $V = \\frac{1}{3}\\pi r^2h$."
+    },
+    {
+     "text": "$$$\\frac{1}{3}\\pi rh$$",
+     "correct": false,
+     "explanation": "This fails to square the radius when finding the circular base area. Since the base area is $\\pi r^2$, the cone’s volume is $V = \\frac{1}{3}\\pi r^2h$."
+    },
+    {
+     "text": "$$$\\frac{1}{3}\\pi rh^2$$",
+     "correct": false,
+     "explanation": "This incorrectly squares the height rather than the radius. The circular base contributes $\\pi r^2$, which is multiplied by $h$ and divided by $3$, giving $V = \\frac{1}{3}\\pi r^2h$."
+    }
+   ]
+  },
+  {
+   "id": "b643e23a-0086-4b52-94d1-5a207447f7ea",
+   "card_type": "basic",
+   "front": "When using the cone volume formula, what must you do if the question provides the diameter?",
+   "back": "Halve the diameter to find the radius ($r$) first.",
+   "options": [
+    {
+     "text": "Halve the diameter to find the radius ($r$) first.",
+     "correct": true,
+     "explanation": "The radius is the distance from the centre to the circle’s edge, while the diameter spans the full width. Therefore, $r$ is half the given diameter."
+    },
+    {
+     "text": "Double the diameter to find the radius ($r$) first.",
+     "correct": false,
+     "explanation": "Doubling converts a radius into a diameter, not the other way around. When the diameter is given, halve it to obtain the radius used in the formula."
+    },
+    {
+     "text": "Use the diameter as the radius ($r$) directly.",
+     "correct": false,
+     "explanation": "Using the diameter directly as $r$ makes the radius twice its correct value and the $r^2$ term four times too large. The diameter must be halved."
+    },
+    {
+     "text": "Square the diameter to find the radius ($r$) first.",
+     "correct": false,
+     "explanation": "Squaring the diameter does not convert it into a radius; squaring occurs later in the formula. First halve the diameter to find $r$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "c2264ff5-0303-419a-b755-6d8d5882c93d",
+   "card_type": "cloze",
+   "front": "When solving frustum problems, an answer \"in terms of $\\pi$\" means you should [ ___ ] instead of using a decimal approximation.",
+   "back": "When solving frustum problems, an answer \"in terms of $\\pi$\" means you should leave $\\pi$ in the final answer instead of using a decimal approximation.",
+   "options": [
+    {
+     "text": "leave $\\pi$ in the final answer",
+     "correct": true,
+     "explanation": "An exact answer in terms of $\\pi$ retains the symbol $\\pi$, such as $20\\pi$, rather than replacing it with a rounded decimal value."
+    },
+    {
+     "text": "substitute $\\pi = 3.14$ before calculating",
+     "correct": false,
+     "explanation": "Using 3.14 replaces $\\pi$ with an approximation and produces a rounded answer. The correct approach is to leave $\\pi$ in the final answer."
+    },
+    {
+     "text": "round the final answer to three decimal places",
+     "correct": false,
+     "explanation": "Rounding gives a decimal approximation, not an exact answer in terms of $\\pi$. The $\\pi$ symbol must remain in the final expression."
+    },
+    {
+     "text": "remove $\\pi$ from the final answer",
+     "correct": false,
+     "explanation": "Cancelling or omitting $\\pi$ changes the value unless it cancels algebraically. An answer in terms of $\\pi$ must leave $\\pi$ in the final answer."
+    }
+   ]
+  },
+  {
+   "id": "5e88c3ac-2816-44d5-b091-ffe501ce6bb6",
+   "card_type": "basic",
+   "front": "Why is it incorrect to cube an area scale factor to find a volume scale factor?",
+   "back": "The area scale factor is already squared; you must square root it to find $k$ before cubing.",
+   "options": [
+    {
+     "text": "The area scale factor is already squared; you must square root it to find $k$ before cubing.",
+     "correct": true,
+     "explanation": "If the length scale factor is $k$, the area scale factor is $k^2$. Taking its square root recovers $k$, which is then cubed to obtain $k^3$."
+    },
+    {
+     "text": "The area scale factor is already cubed; you must cube root it to find $k$ before squaring.",
+     "correct": false,
+     "explanation": "This confuses area and volume scaling. Area scales as $k^2$, so square root the area scale factor to find $k$, then cube $k$ for volume."
+    },
+    {
+     "text": "The area scale factor is already squared; you must cube root it to find $k$ before cubing.",
+     "correct": false,
+     "explanation": "A cube root reverses cubing, not squaring. Since an area scale factor equals $k^2$, take its square root before cubing the resulting length scale factor."
+    },
+    {
+     "text": "The area scale factor is already squared; you must divide by 2 to find $k$ before cubing.",
+     "correct": false,
+     "explanation": "Dividing by 2 does not reverse a square; this confuses an exponent with multiplication. Take the square root of the area scale factor to recover $k$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "07b07d56-739d-493b-85af-93b297bbd3d4",
+   "card_type": "basic",
+   "front": "Two similar cylinders have lengths 5 cm and 8 cm. What is the volume scale factor from small to large?",
+   "back": "$$$(\\frac{8}{5})^3 = \\frac{512}{125}$$",
+   "options": [
+    {
+     "text": "$$$(\\frac{8}{5})^3 = \\frac{512}{125}$$",
+     "correct": true,
+     "explanation": "The length scale factor from small to large is $\\frac{8}{5}$. Volumes scale with the cube of the length factor, giving $\\left(\\frac{8}{5}\\right)^3=\\frac{512}{125}$."
+    },
+    {
+     "text": "$$$(\\frac{8}{5})^2 = \\frac{64}{25}$$",
+     "correct": false,
+     "explanation": "Squaring the length scale factor finds the area scale factor, not the volume scale factor. For volume, cube $\\frac{8}{5}$ to obtain $\\frac{512}{125}$."
+    },
+    {
+     "text": "$$$(\\frac{5}{8})^3 = \\frac{125}{512}$$",
+     "correct": false,
+     "explanation": "This reverses the direction of the scale factor and gives large to small. From small to large, cube $\\frac{8}{5}$, producing $\\frac{512}{125}$."
+    },
+    {
+     "text": "$$$(\\frac{8}{5}) \\times 3 = \\frac{24}{5}$$",
+     "correct": false,
+     "explanation": "Cubing means multiplying the length scale factor by itself three times, not multiplying it by 3. The correct calculation gives $\\left(\\frac{8}{5}\\right)^3=\\frac{512}{125}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "75382260-1a50-4abe-9a7a-00c1b3d03d47",
+   "card_type": "cloze",
+   "front": "If the length scale factor between two solids is 4, the surface area scale factor is [ ___ ] and the volume scale factor is 64.",
+   "back": "If the length scale factor between two solids is 4, the surface area scale factor is 16 and the volume scale factor is 64.",
+   "options": [
+    {
+     "text": "16",
+     "correct": true,
+     "explanation": "Surface areas scale with the square of the length scale factor. Therefore, a length scale factor of 4 gives a surface area scale factor of $4^2=16$."
+    },
+    {
+     "text": "8",
+     "correct": false,
+     "explanation": "This doubles the length scale factor instead of squaring it. Surface area scales as $k^2$, so a length scale factor of 4 gives $4^2=16$."
+    },
+    {
+     "text": "12",
+     "correct": false,
+     "explanation": "This multiplies the length scale factor by 3, confusing the exponent with ordinary multiplication. Surface area requires $4^2$, so the correct scale factor is 16."
+    },
+    {
+     "text": "64",
+     "correct": false,
+     "explanation": "This is $4^3$, the volume scale factor. Surface area scales with the square of the length factor, so its scale factor is $4^2=16$."
+    }
+   ]
+  },
+  {
+   "id": "9fd61986-4db9-4556-b3f0-f19fe02f8dea",
+   "card_type": "cloze",
+   "front": "If the length scale factor between two solids is 4, the surface area scale factor is 16 and the volume scale factor is [ ___ ].",
+   "back": "If the length scale factor between two solids is 4, the surface area scale factor is 16 and the volume scale factor is 64.",
+   "options": [
+    {
+     "text": "64",
+     "correct": true,
+     "explanation": "Volumes scale with the cube of the length scale factor. With a length scale factor of 4, the volume scale factor is $4^3=64$."
+    },
+    {
+     "text": "16",
+     "correct": false,
+     "explanation": "This is $4^2$, which is the surface area scale factor. Volume scales with the cube of the length factor, so the correct value is $4^3=64$."
+    },
+    {
+     "text": "12",
+     "correct": false,
+     "explanation": "This multiplies 4 by 3 rather than raising it to the third power. Cubing the length scale factor gives $4^3=4\\times4\\times4=64$."
+    },
+    {
+     "text": "256",
+     "correct": false,
+     "explanation": "This is $4^4$, using an exponent that does not describe volume scaling. Three-dimensional volume scales as $k^3$, so the correct value is $4^3=64$."
+    }
+   ]
+  },
+  {
+   "id": "ab53fdaa-c383-4b24-b0a7-091b85ed6462",
+   "card_type": "basic",
+   "front": "What measurements count as corresponding lengths in similar 3D shapes?",
+   "back": "Matching measurements in the same position (e.g., radius with radius, or height with height).",
+   "options": [
+    {
+     "text": "Matching measurements in the same position (e.g., radius with radius, or height with height).",
+     "correct": true,
+     "explanation": "Corresponding lengths occupy equivalent positions in similar shapes. For example, one solid’s radius matches the other solid’s radius, and its height matches the other height."
+    },
+    {
+     "text": "Measurements with the same numerical value (e.g., a 5 cm radius with a 5 cm height).",
+     "correct": false,
+     "explanation": "Equal numerical values do not make lengths corresponding, because similar shapes can have different sizes. Corresponding lengths occupy the same relative position, such as radius with radius."
+    },
+    {
+     "text": "Any measurements in the same solid (e.g., radius with height, or diameter with slant height).",
+     "correct": false,
+     "explanation": "Lengths from different positions in one solid are not automatically corresponding. The correct pairs match equivalent positions across the two solids, such as height with height."
+    },
+    {
+     "text": "Matching measurements in opposite positions (e.g., radius with height, or length with width).",
+     "correct": false,
+     "explanation": "Pairing different types of dimensions gives an invalid scale comparison. Corresponding lengths must occupy the same position in each shape, such as radius with radius."
+    }
+   ],
+   "points": 1
+  }
+ ],
+ "card_count": 22,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-6-6-8-similar-shapes-area-and-volume/flashcards",
+ "source_sha256": "0636836218eda7b17e57aca11346387265eae216cf7a1d04633f809d085404fe",
+ "extracted_at": "2026-11-08T17:55:05Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}

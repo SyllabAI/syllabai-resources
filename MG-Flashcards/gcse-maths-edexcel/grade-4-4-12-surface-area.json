@@ -1,0 +1,675 @@
+{
+ "topic": "grade-4-4-12-surface-area",
+ "lane": "gcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "title": "Surface Area Flashcards",
+ "cards": [
+  {
+   "id": "56fef617-1763-49d5-b3ac-a86eea009317",
+   "card_type": "cloze",
+   "front": "Surface area is the total area of all the [ ___ ] of a 3D shape.",
+   "back": "Surface area is the total area of all the outside faces of a 3D shape.",
+   "options": [
+    {
+     "text": "outside faces",
+     "correct": true,
+     "explanation": "Surface area is found by adding the areas of every outside face of a 3D shape. Only the surfaces exposed on the exterior are included."
+    },
+    {
+     "text": "inside angles",
+     "correct": false,
+     "explanation": "Angles describe turns between edges and do not have an area. The correct term is outside faces, because surface area totals the exterior surfaces of the shape."
+    },
+    {
+     "text": "vertical edges",
+     "correct": false,
+     "explanation": "Edges are one-dimensional lengths, so adding them would not give an area. Surface area is the total area of all the outside faces."
+    },
+    {
+     "text": "corner points",
+     "correct": false,
+     "explanation": "Corner points, or vertices, have no area and are counted rather than measured. The required term is outside faces, whose areas combine to give surface area."
+    }
+   ]
+  },
+  {
+   "id": "de3eafa4-ff5f-4b69-8897-1d7ef457b448",
+   "card_type": "basic",
+   "front": "Surface area is measured in what type of units?",
+   "back": "Square units, e.g. cm² or m².",
+   "options": [
+    {
+     "text": "Square units, e.g. cm² or m².",
+     "correct": true,
+     "explanation": "Area measures two-dimensional space, so each length unit is multiplied by another length unit. This produces square units such as cm² or m²."
+    },
+    {
+     "text": "Linear units, e.g. cm or m.",
+     "correct": false,
+     "explanation": "Linear units measure one-dimensional quantities such as length or perimeter. Surface area is two-dimensional, so it is measured in square units such as cm² or m²."
+    },
+    {
+     "text": "Cubic units, e.g. cm³ or m³.",
+     "correct": false,
+     "explanation": "Cubic units measure three-dimensional volume, not the area covering a shape. Surface area is measured in square units such as cm² or m²."
+    },
+    {
+     "text": "Angle units, e.g. degrees or radians.",
+     "correct": false,
+     "explanation": "Degrees and radians measure angles rather than the size of surfaces. Surface area measures two-dimensional regions, so square units such as cm² or m² are required."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "248eae5f-f691-47ad-b4c5-0ad257341115",
+   "card_type": "basic",
+   "front": "What formula is used for the area of a rectangular face?",
+   "back": "$\\text{length}\\times\\text{width}$",
+   "options": [
+    {
+     "text": "$\\text{length}\\times\\text{width}$",
+     "correct": true,
+     "explanation": "A rectangle’s area is found by multiplying its two perpendicular dimensions. Therefore, the area of a rectangular face is length multiplied by width."
+    },
+    {
+     "text": "$2\\times\\text{length}+2\\times\\text{width}$",
+     "correct": false,
+     "explanation": "This adds the four side lengths and therefore calculates the rectangle’s perimeter. Its area is found using length multiplied by width."
+    },
+    {
+     "text": "$\\frac{1}{2}\\times\\text{length}\\times\\text{width}$",
+     "correct": false,
+     "explanation": "The factor of one-half belongs to the triangle area formula. A rectangular face occupies twice that triangular area, so its formula is length multiplied by width."
+    },
+    {
+     "text": "$\\text{length}+\\text{width}$",
+     "correct": false,
+     "explanation": "Adding the dimensions does not calculate either the complete perimeter or the enclosed area. The area of a rectangular face is length multiplied by width."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "5cb399ef-5f69-4ef1-af54-c38985de54ed",
+   "card_type": "cloze",
+   "front": "The perpendicular height is measured [ ___ ], not along a slanted side.",
+   "back": "The perpendicular height is measured at 90° to the base, not along a slanted side.",
+   "options": [
+    {
+     "text": "at 90° to the base",
+     "correct": true,
+     "explanation": "Perpendicular lines meet at a right angle, so the perpendicular height must be measured at 90° to the base rather than along a sloping side."
+    },
+    {
+     "text": "parallel to the base",
+     "correct": false,
+     "explanation": "A line parallel to the base never forms the required height between the base and opposite point. The perpendicular height is measured at 90° to the base."
+    },
+    {
+     "text": "along the longest side",
+     "correct": false,
+     "explanation": "The longest side may be slanted and therefore may not represent the shortest distance from the base. The perpendicular height is measured at 90° to the base."
+    },
+    {
+     "text": "at 45° to the base",
+     "correct": false,
+     "explanation": "A 45° line is diagonal rather than perpendicular, so using it gives an incorrect height. The perpendicular height must be measured at 90° to the base."
+    }
+   ]
+  },
+  {
+   "id": "48ba13b0-74a7-451c-b740-e365ecfd2952",
+   "card_type": "cloze",
+   "front": "Triangle area: [ ___ ], where $h$ is the perpendicular height.",
+   "back": "Triangle area: $A=\\frac{1}{2}bh$, where $h$ is the perpendicular height.",
+   "options": [
+    {
+     "text": "$$A=\\frac{1}{2}bh$",
+     "correct": true,
+     "explanation": "A triangle occupies half the area of a rectangle with the same base and perpendicular height. Its area is therefore one-half multiplied by base multiplied by height."
+    },
+    {
+     "text": "$$A=bh$",
+     "correct": false,
+     "explanation": "This calculates the area of a rectangle or parallelogram with base $b$ and height $h$. A triangle has half that area, so $A=\\frac{1}{2}bh$."
+    },
+    {
+     "text": "$$A=\\frac{1}{2}(b+h)$",
+     "correct": false,
+     "explanation": "Adding base and height combines lengths and cannot produce square units. Triangle area requires multiplying them and halving the result: $A=\\frac{1}{2}bh$."
+    },
+    {
+     "text": "$$A=2bh$",
+     "correct": false,
+     "explanation": "This doubles the corresponding rectangle’s area instead of taking half of it. A triangle with base $b$ and perpendicular height $h$ has area $A=\\frac{1}{2}bh$."
+    }
+   ]
+  },
+  {
+   "id": "f421d731-d96a-4f63-8a99-572a4d0f50af",
+   "card_type": "cloze",
+   "front": "Trapezium area: [ ___ ], where $a$ and $b$ are parallel sides.",
+   "back": "Trapezium area: $A=\\frac{1}{2}(a+b)h$, where $a$ and $b$ are parallel sides.",
+   "options": [
+    {
+     "text": "$$A=\\frac{1}{2}(a+b)h$",
+     "correct": true,
+     "explanation": "The area of a trapezium equals its average parallel-side length, $\\frac{a+b}{2}$, multiplied by its perpendicular height. This gives $A=\\frac{1}{2}(a+b)h$."
+    },
+    {
+     "text": "$$A=(a+b)h$",
+     "correct": false,
+     "explanation": "This uses the sum rather than the average of the parallel sides, making the area twice as large. The correct formula is $A=\\frac{1}{2}(a+b)h$."
+    },
+    {
+     "text": "$$A=\\frac{1}{2}abh$",
+     "correct": false,
+     "explanation": "Multiplying both parallel sides together introduces an extra length factor and gives cubic units. Their lengths must be added, so $A=\\frac{1}{2}(a+b)h$."
+    },
+    {
+     "text": "$$A=\\frac{1}{2}(a-b)h$",
+     "correct": false,
+     "explanation": "Subtracting the parallel sides finds their difference, not their average length. They must be added before multiplying by half the height: $A=\\frac{1}{2}(a+b)h$."
+    }
+   ]
+  },
+  {
+   "id": "9afc1b8f-7702-40d6-bf64-9a12d9114274",
+   "card_type": "basic",
+   "front": "A trapezium has parallel sides 12 cm and 6 cm, height 5 cm. What is its area?",
+   "back": "45 cm²",
+   "options": [
+    {
+     "text": "45 cm²",
+     "correct": true,
+     "explanation": "Using $A=\\frac{1}{2}(a+b)h$ gives $\\frac{1}{2}(12+6)\\times5=\\frac{1}{2}\\times18\\times5=45$ cm²."
+    },
+    {
+     "text": "90 cm²",
+     "correct": false,
+     "explanation": "This omits the factor of one-half and calculates $(12+6)\\times5$. Averaging the parallel sides gives $\\frac{1}{2}(12+6)\\times5=45$ cm²."
+    },
+    {
+     "text": "30 cm²",
+     "correct": false,
+     "explanation": "This uses only the 12 cm side and halves $12\\times5$, ignoring the other parallel side. The trapezium formula gives $45$ cm²."
+    },
+    {
+     "text": "15 cm²",
+     "correct": false,
+     "explanation": "This incorrectly uses half the difference between the parallel sides: $\\frac{1}{2}(12-6)\\times5$. Their lengths must be added, giving $45$ cm²."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "a98469ba-7588-47f7-8a18-b11ebabddf9a",
+   "card_type": "basic",
+   "front": "Why do you double the three different face areas for a cuboid?",
+   "back": "Opposite faces are the same size.",
+   "options": [
+    {
+     "text": "Opposite faces are the same size.",
+     "correct": true,
+     "explanation": "A cuboid has three pairs of opposite faces. The two faces in each pair have identical dimensions and areas, so each different face area is counted twice."
+    },
+    {
+     "text": "Adjacent faces are the same shape.",
+     "correct": false,
+     "explanation": "Adjacent faces can have different dimensions and areas, even though each is rectangular. Doubling works because opposite faces are the same size and form three matching pairs."
+    },
+    {
+     "text": "Opposite edges are the same length.",
+     "correct": false,
+     "explanation": "Equal opposite edge lengths help define the cuboid, but they do not directly explain doubling face areas. Each area is doubled because opposite faces are the same size."
+    },
+    {
+     "text": "All six faces have the same area.",
+     "correct": false,
+     "explanation": "All six faces have equal area only for a cube, not for every cuboid. A general cuboid has three pairs in which opposite faces are the same size."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "710aa801-bddd-4ebb-9589-425c6a48509e",
+   "card_type": "cloze",
+   "front": "Cuboid total surface area: [ ___ ].",
+   "back": "Cuboid total surface area: $2lw+2lh+2wh$.",
+   "options": [
+    {
+     "text": "$$2lw+2lh+2wh$",
+     "correct": true,
+     "explanation": "A cuboid has two faces of each area $lw$, $lh$ and $wh$, so its total surface area is $2lw+2lh+2wh$."
+    },
+    {
+     "text": "$$lw+lh+wh$",
+     "correct": false,
+     "explanation": "This counts only one face of each size. A cuboid has two of every face, so the correct formula is $2lw+2lh+2wh$."
+    },
+    {
+     "text": "$$2lw+lh+wh$",
+     "correct": false,
+     "explanation": "This doubles only the $lw$ face, leaving the other two pairs undercounted. All three face areas must be doubled, giving $2lw+2lh+2wh$."
+    },
+    {
+     "text": "$$2l+2w+2h$",
+     "correct": false,
+     "explanation": "This adds edge lengths rather than face areas, so it cannot calculate surface area. Multiplying pairs of dimensions gives the correct formula $2lw+2lh+2wh$."
+    }
+   ]
+  },
+  {
+   "id": "a3e24811-8a15-44f2-8ff6-d0c085a57396",
+   "card_type": "basic",
+   "front": "A cuboid is 9 cm by 4 cm by 3 cm. What is its total surface area?",
+   "back": "150 cm²",
+   "options": [
+    {
+     "text": "150 cm²",
+     "correct": true,
+     "explanation": "The three different face areas are $9\\times4=36$, $9\\times3=27$ and $4\\times3=12$. Doubling their sum gives $2(36+27+12)=150$ cm²."
+    },
+    {
+     "text": "75 cm²",
+     "correct": false,
+     "explanation": "This adds one face of each size but forgets that every face has an opposite matching face. Doubling $36+27+12$ gives the correct total of 150 cm²."
+    },
+    {
+     "text": "108 cm²",
+     "correct": false,
+     "explanation": "This is the volume, found by multiplying all three dimensions, rather than the total area of the faces. The surface area is $2(36+27+12)=150$ cm²."
+    },
+    {
+     "text": "138 cm²",
+     "correct": false,
+     "explanation": "This counts only one $4\\times3$ face instead of two. Including both of every face gives $72+54+24=150$ cm²."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "da59f0d9-477d-4594-8dfd-a97a2fab36d7",
+   "card_type": "cloze",
+   "front": "A prism has the same shape all the way through; the repeated end shape is the [ ___ ].",
+   "back": "A prism has the same shape all the way through; the repeated end shape is the cross-section.",
+   "options": [
+    {
+     "text": "cross-section",
+     "correct": true,
+     "explanation": "The cross-section is the repeated two-dimensional end shape that remains identical along the entire length of a prism."
+    },
+    {
+     "text": "side elevation",
+     "correct": false,
+     "explanation": "A side elevation is a two-dimensional view of an object, not necessarily its repeated end shape. The repeated shape running through a prism is its cross-section."
+    },
+    {
+     "text": "surface area",
+     "correct": false,
+     "explanation": "Surface area is the total area of all the prism’s outer faces, not the repeated end shape. That repeated shape is called the cross-section."
+    },
+    {
+     "text": "longitudinal section",
+     "correct": false,
+     "explanation": "A longitudinal section is a cut made along an object’s length. The identical end shape repeated through a prism is instead called its cross-section."
+    }
+   ]
+  },
+  {
+   "id": "ad3e0416-1136-4114-917d-cbf7e27b5a81",
+   "card_type": "basic",
+   "front": "What formula gives the total surface area of any prism?",
+   "back": "$2\\times\\text{cross-section area}+\\text{perimeter}\\times\\text{length}$",
+   "options": [
+    {
+     "text": "$2\\times\\text{cross-section area}+\\text{perimeter}\\times\\text{length}$",
+     "correct": true,
+     "explanation": "The two congruent ends contribute twice the cross-section area, while unfolding the side faces produces rectangles with combined area equal to perimeter times length."
+    },
+    {
+     "text": "$\\text{cross-section area}+\\text{perimeter}\\times\\text{length}$",
+     "correct": false,
+     "explanation": "This includes only one of the two congruent end faces. Both ends must be counted, so the formula begins with $2\\times\\text{cross-section area}$."
+    },
+    {
+     "text": "$2\\times\\text{cross-section area}+\\text{perimeter}+\\text{length}$",
+     "correct": false,
+     "explanation": "Adding perimeter and length does not produce an area because both are one-dimensional measurements. Their product gives the area of the rectangular side faces."
+    },
+    {
+     "text": "$2\\times\\text{cross-section area}+2\\times\\text{perimeter}\\times\\text{length}$",
+     "correct": false,
+     "explanation": "This doubles the side-face area unnecessarily. The perimeter already includes every edge around the cross-section, so the correct side-face term is just perimeter times length."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "73b3a90b-91a6-4475-8a5d-49597347ce1e",
+   "card_type": "basic",
+   "front": "In the prism formula, what does $\\text{perimeter}\\times\\text{length}$ find?",
+   "back": "The rectangular side faces.",
+   "options": [
+    {
+     "text": "The rectangular side faces.",
+     "correct": true,
+     "explanation": "Each cross-section edge forms a rectangle whose other dimension is the prism’s length. Adding these rectangles gives the cross-section perimeter multiplied by the length."
+    },
+    {
+     "text": "The two cross-section faces.",
+     "correct": false,
+     "explanation": "The two end faces are found using twice the cross-section area. Perimeter multiplied by length instead gives the combined area of the rectangular side faces."
+    },
+    {
+     "text": "The volume inside the prism.",
+     "correct": false,
+     "explanation": "Volume is found by multiplying cross-section area by length. Multiplying the cross-section perimeter by length finds the combined area of the rectangular side faces."
+    },
+    {
+     "text": "The perimeter of each end.",
+     "correct": false,
+     "explanation": "The perimeter is already one factor in the calculation. Multiplying it by the prism’s length converts the boundary strips into the total area of the rectangular side faces."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "149ad0ed-55f1-492e-bf6e-57e059c177a5",
+   "card_type": "basic",
+   "front": "Triangular prism: cross-section perimeter 36 cm, length 7 cm. What is the side-face area?",
+   "back": "252 cm²",
+   "options": [
+    {
+     "text": "252 cm²",
+     "correct": true,
+     "explanation": "The side-face area of a prism is cross-section perimeter multiplied by length. Therefore, $36\\times7=252$, giving a side-face area of 252 cm²."
+    },
+    {
+     "text": "43 cm²",
+     "correct": false,
+     "explanation": "This comes from adding 36 and 7 instead of multiplying them. Side-face area is perimeter times length, so $36\\times7=252$ cm²."
+    },
+    {
+     "text": "126 cm²",
+     "correct": false,
+     "explanation": "This incorrectly halves the product, perhaps treating the side faces like a triangle. They are rectangles, so the full calculation is $36\\times7=252$ cm²."
+    },
+    {
+     "text": "504 cm²",
+     "correct": false,
+     "explanation": "This doubles the product unnecessarily. The perimeter already includes every side of the triangular cross-section, so $36\\times7=252$ cm² is the complete side-face area."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "bed5ee0b-a959-46fa-b114-bc4aeaf0f5c9",
+   "card_type": "basic",
+   "front": "How do you find the area of an L-shaped end made by removing a corner from a rectangle?",
+   "back": "Subtract the missing rectangle’s area.",
+   "options": [
+    {
+     "text": "Subtract the missing rectangle’s area.",
+     "correct": true,
+     "explanation": "The L-shape is the complete outer rectangle with a smaller rectangular corner removed, so subtracting the missing rectangle’s area leaves the required L-shaped area."
+    },
+    {
+     "text": "Add the missing rectangle’s area.",
+     "correct": false,
+     "explanation": "Adding would include the removed corner and make the result larger than the outer rectangle. The missing rectangle’s area must be subtracted from the outer rectangle’s area."
+    },
+    {
+     "text": "Subtract the missing rectangle’s perimeter.",
+     "correct": false,
+     "explanation": "Perimeter measures boundary length and cannot be subtracted from an area. Find both rectangular areas, then subtract the missing rectangle’s area from the outer rectangle’s area."
+    },
+    {
+     "text": "Multiply the missing rectangle’s area.",
+     "correct": false,
+     "explanation": "Multiplying areas does not represent removing a corner and produces the wrong units. Subtract the missing rectangle’s area from the area of the complete outer rectangle."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "8412f892-43cc-416d-9631-39a32066e4e5",
+   "card_type": "basic",
+   "front": "An L-shaped end fits inside 8 cm by 7 cm, with a 3 cm by 4 cm corner removed. What is its area?",
+   "back": "44 cm²",
+   "options": [
+    {
+     "text": "44 cm²",
+     "correct": true,
+     "explanation": "The complete outer rectangle has area $8\\times7=56$ cm², and the removed corner has area $3\\times4=12$ cm². Therefore, $56-12=44$ cm²."
+    },
+    {
+     "text": "68 cm²",
+     "correct": false,
+     "explanation": "This adds the missing corner’s area to the outer rectangle instead of removing it. The correct calculation is $56-12=44$ cm²."
+    },
+    {
+     "text": "12 cm²",
+     "correct": false,
+     "explanation": "This is only the area of the removed $3$ cm by $4$ cm corner. Subtracting it from the outer area gives $56-12=44$ cm²."
+    },
+    {
+     "text": "56 cm²",
+     "correct": false,
+     "explanation": "This is the area of the complete $8$ cm by $7$ cm rectangle and ignores the removed corner. Subtracting $12$ cm² gives 44 cm²."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "47712028-177e-4810-8994-9ce79bbd5e7e",
+   "card_type": "basic",
+   "front": "Why trace around a composite cross-section when finding perimeter?",
+   "back": "To include the step edges.",
+   "options": [
+    {
+     "text": "To include the step edges.",
+     "correct": true,
+     "explanation": "Tracing the outside boundary ensures that every exposed edge is counted, including the short step edges that are easy to overlook in a composite cross-section."
+    },
+    {
+     "text": "To include the internal joins.",
+     "correct": false,
+     "explanation": "Internal joins are not exposed parts of the perimeter and must not be counted. Tracing is used to include all outside edges, especially the step edges."
+    },
+    {
+     "text": "To include the face areas.",
+     "correct": false,
+     "explanation": "Face areas are needed for surface area, not perimeter. Tracing the boundary helps identify all exposed lengths, including the step edges."
+    },
+    {
+     "text": "To include the diagonal lengths.",
+     "correct": false,
+     "explanation": "Diagonal lengths are not automatically part of a composite cross-section’s boundary. The purpose of tracing is to ensure the step edges are included."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "2b1e1a37-f49e-41b3-92bf-e4550a2b74b7",
+   "card_type": "basic",
+   "front": "How many circular faces does a closed cylinder have?",
+   "back": "Two equal circular faces.",
+   "options": [
+    {
+     "text": "Two equal circular faces.",
+     "correct": true,
+     "explanation": "A closed cylinder has a circular face at each end. These two circles have the same radius, so they are equal in area."
+    },
+    {
+     "text": "One circular face.",
+     "correct": false,
+     "explanation": "One circular face describes an open cylinder with one end missing. A closed cylinder has two equal circular faces, one at each end."
+    },
+    {
+     "text": "Three equal circular faces.",
+     "correct": false,
+     "explanation": "The curved surface is not a circular face. A closed cylinder has exactly two equal circular faces, located at its two ends."
+    },
+    {
+     "text": "Two unequal circular faces.",
+     "correct": false,
+     "explanation": "A cylinder’s two end circles must be equal because they share the same radius. A closed cylinder therefore has two equal circular faces."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "4e76d3f8-3fd0-4e40-87d5-f1a3f3de230e",
+   "card_type": "cloze",
+   "front": "Closed cylinder total surface area: [ ___ ].",
+   "back": "Closed cylinder total surface area: $2\\pi r^2+2\\pi rh$.",
+   "options": [
+    {
+     "text": "$$2\\pi r^2+2\\pi rh$",
+     "correct": true,
+     "explanation": "The two circular ends have combined area $2\\pi r^2$, while the curved surface has area $2\\pi rh$. Adding them gives the total surface area."
+    },
+    {
+     "text": "$$\\pi r^2+2\\pi rh$",
+     "correct": false,
+     "explanation": "This includes only one circular end, omitting the second area of $\\pi r^2$. A closed cylinder requires $2\\pi r^2+2\\pi rh$."
+    },
+    {
+     "text": "$$2\\pi r^2$",
+     "correct": false,
+     "explanation": "This adds the two circular ends but omits the curved surface. The curved area is $2\\pi rh$, so the full formula is $2\\pi r^2+2\\pi rh$."
+    },
+    {
+     "text": "$$2\\pi r^2+\\pi rh$",
+     "correct": false,
+     "explanation": "The curved surface uses the circumference $2\\pi r$ multiplied by height, not $\\pi r$ multiplied by height. The correct total is $2\\pi r^2+2\\pi rh$."
+    }
+   ]
+  },
+  {
+   "id": "31d951a0-3fce-4d4e-8c34-a727c0f60d21",
+   "card_type": "basic",
+   "front": "If a cylinder question gives the diameter, what must you do first?",
+   "back": "Halve it to get the radius.",
+   "options": [
+    {
+     "text": "Halve it to get the radius.",
+     "correct": true,
+     "explanation": "The radius is the distance from the centre to the circumference, which is half the diameter. Therefore, divide the given diameter by two first."
+    },
+    {
+     "text": "Double it to get the radius.",
+     "correct": false,
+     "explanation": "Doubling confuses the relationship between radius and diameter. The diameter is already twice the radius, so it must be halved to obtain the radius."
+    },
+    {
+     "text": "Square it to get the radius.",
+     "correct": false,
+     "explanation": "Squaring the diameter does not convert it into a radius; squaring is used later in circle-area calculations. First halve the diameter to get the radius."
+    },
+    {
+     "text": "Use it as the radius.",
+     "correct": false,
+     "explanation": "Using the diameter unchanged as the radius doubles the required length and makes area calculations four times too large. The diameter must be halved."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "b293d629-dcd4-423b-b308-a14efcdf5a18",
+   "card_type": "basic",
+   "front": "If area is in cm², how do you convert it to m²?",
+   "back": "Divide by 10000.",
+   "options": [
+    {
+     "text": "Divide by 10000.",
+     "correct": true,
+     "explanation": "Since $1\\text{ m}=100\\text{ cm}$, squaring the conversion gives $1\\text{ m}^2=10000\\text{ cm}^2$. Therefore, divide a value in cm² by 10000."
+    },
+    {
+     "text": "Divide by 100.",
+     "correct": false,
+     "explanation": "Dividing by 100 applies the linear length conversion without squaring it. Area conversion requires dividing by $100^2=10000$ to change cm² into m²."
+    },
+    {
+     "text": "Multiply by 10000.",
+     "correct": false,
+     "explanation": "Multiplying by 10000 converts from m² to cm², the opposite direction. To convert the smaller cm² units into m², divide by 10000."
+    },
+    {
+     "text": "Divide by 1000000.",
+     "correct": false,
+     "explanation": "Dividing by 1000000 incorrectly uses the cubic conversion associated with cm³ and m³. For square units, divide by $100^2=10000$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "f3ffa98d-87af-420d-90bf-6e4dd6deedfd",
+   "card_type": "basic",
+   "front": "In a paint question, what do you do after dividing by coverage per pot?",
+   "back": "Round up to the next whole pot.",
+   "options": [
+    {
+     "text": "Round up to the next whole pot.",
+     "correct": true,
+     "explanation": "Any positive fraction of an additional pot means another complete pot must be bought. Rounding up ensures there is enough paint for the entire area."
+    },
+    {
+     "text": "Round down to the previous whole pot.",
+     "correct": false,
+     "explanation": "Rounding down would leave too little paint whenever the result is not already a whole number. The number of pots must always be rounded up."
+    },
+    {
+     "text": "Round normally to the nearest whole pot.",
+     "correct": false,
+     "explanation": "Rounding to the nearest whole number can round down and leave insufficient paint. Since only complete pots can be bought, always round up."
+    },
+    {
+     "text": "Leave it as a decimal number of pots.",
+     "correct": false,
+     "explanation": "A decimal result represents the calculated proportion of a pot, but shops sell whole pots. It must be rounded up to the next whole pot."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "e1ed32fa-db39-431b-a15e-919fd30317e9",
+   "card_type": "basic",
+   "front": "Four boxes need 10.24 m² of paint. One pot covers 3 m². How many pots are needed?",
+   "back": "4 pots",
+   "options": [
+    {
+     "text": "4 pots",
+     "correct": true,
+     "explanation": "Dividing the required area by the coverage gives $10.24\\div3\\approx3.41$. Since only whole pots can be bought, this must be rounded up to 4 pots."
+    },
+    {
+     "text": "3 pots",
+     "correct": false,
+     "explanation": "Three pots cover only $3\\times3=9$ m², which is less than 10.24 m². The calculation gives about 3.41, so 4 pots are required."
+    },
+    {
+     "text": "3.41 pots",
+     "correct": false,
+     "explanation": "This is the unrounded result of $10.24\\div3$, but paint is purchased in complete pots. About 3.41 pots must be rounded up to 4 pots."
+    },
+    {
+     "text": "5 pots",
+     "correct": false,
+     "explanation": "Rounding $10.24\\div3\\approx3.41$ up gives 4, not 5. Buying five pots would provide more complete pots than the calculation requires."
+    }
+   ],
+   "points": 2
+  }
+ ],
+ "card_count": 23,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-4-4-12-surface-area/flashcards",
+ "source_sha256": "2963e1aee0193657cdf64dffb61f66150646e7d3f524030e33b5ca0823e9f39e",
+ "extracted_at": "2026-11-08T17:55:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}

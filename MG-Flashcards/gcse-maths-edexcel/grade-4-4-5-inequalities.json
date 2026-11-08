@@ -1,0 +1,618 @@
+{
+ "topic": "grade-4-4-5-inequalities",
+ "lane": "gcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "title": "Inequalities Flashcards",
+ "cards": [
+  {
+   "id": "502b6881-668f-4723-a8ba-8044d02f8340",
+   "card_type": "basic",
+   "front": "In GCSE mathematics, what is an integer?",
+   "back": "A whole number (including zero and negative whole numbers).",
+   "options": [
+    {
+     "text": "A whole number (including zero and negative whole numbers).",
+     "correct": true,
+     "explanation": "Integers are whole numbers with no fractional or decimal part. They include positive whole numbers, zero and negative whole numbers."
+    },
+    {
+     "text": "A positive whole number (excluding zero and negative numbers).",
+     "correct": false,
+     "explanation": "Restricting integers to positive numbers confuses them with counting numbers. Integers also include zero and negative whole numbers, such as $0$ and $-5$."
+    },
+    {
+     "text": "A number with a decimal part (including positive and negative decimals).",
+     "correct": false,
+     "explanation": "Numbers with non-zero decimal parts are not integers. An integer is a whole number, including zero and negative whole numbers."
+    },
+    {
+     "text": "A counting number (starting at one and increasing in whole steps).",
+     "correct": false,
+     "explanation": "Counting numbers usually begin at $1$, so this definition leaves out zero and negative values. Integers include all positive and negative whole numbers and zero."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "ea5d2de7-2223-461d-8094-00b86a2132e6",
+   "card_type": "basic",
+   "front": "What is the difference between the symbols $<$ and $\\le$ in terms of the end value?",
+   "back": "$$\\le$ includes the end value.",
+   "options": [
+    {
+     "text": "$$\\le$ includes the end value.",
+     "correct": true,
+     "explanation": "A strict inequality does not allow equality, so $<$ excludes the endpoint. The line beneath $\\le$ represents equality, meaning the endpoint is included."
+    },
+    {
+     "text": "$$\\le$ excludes the end value.",
+     "correct": false,
+     "explanation": "This reverses the meanings of the two symbols. The symbol $<$ excludes equality, whereas $\\le$ means less than or equal to and therefore includes the endpoint."
+    },
+    {
+     "text": "$$\\le$ excludes the end value.",
+     "correct": false,
+     "explanation": "The line beneath $\\le$ represents equality, so its endpoint is included rather than excluded. Only the strict inequality $<$ excludes the endpoint."
+    },
+    {
+     "text": "$$\\le$ includes the end value.",
+     "correct": false,
+     "explanation": "The symbol $<$ means strictly less than, so equality is not permitted and the endpoint is excluded. The symbol $\\le$ includes the endpoint."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "8a1dabe7-7457-4504-a874-7f635041a1e7",
+   "card_type": "cloze",
+   "front": "On a number line, an [ ___ ] means the value is not included ($$), while a solid circle means the value is included ($\\le$ or $\\ge$).",
+   "back": "On a number line, an open circle means the value is not included ($$), while a solid circle means the value is included ($\\le$ or $\\ge$).",
+   "options": [
+    {
+     "text": "open circle",
+     "correct": true,
+     "explanation": "An open circle marks an excluded boundary value because a strict inequality, $$, does not permit equality at that endpoint."
+    },
+    {
+     "text": "solid circle",
+     "correct": false,
+     "explanation": "A solid circle indicates that the boundary value is included, corresponding to $\\le$ or $\\ge$. An open circle is used when the value is excluded."
+    },
+    {
+     "text": "arrowhead",
+     "correct": false,
+     "explanation": "An arrowhead shows that the solution continues indefinitely in one direction. An open circle, not an arrowhead, marks a boundary value that is excluded."
+    },
+    {
+     "text": "thick line",
+     "correct": false,
+     "explanation": "A thick line represents the set of allowed values across part of the number line. An open circle specifically shows that an endpoint is not included."
+    }
+   ]
+  },
+  {
+   "id": "a928c678-6d15-4010-a1bc-b18d6bd64900",
+   "card_type": "cloze",
+   "front": "On a number line, an open circle means the value is not included ($$), while a [ ___ ] means the value is included ($\\le$ or $\\ge$).",
+   "back": "On a number line, an open circle means the value is not included ($$), while a solid circle means the value is included ($\\le$ or $\\ge$).",
+   "options": [
+    {
+     "text": "solid circle",
+     "correct": true,
+     "explanation": "A solid circle includes the boundary value because the inequalities $\\le$ and $\\ge$ permit equality as well as values below or above the endpoint."
+    },
+    {
+     "text": "open circle",
+     "correct": false,
+     "explanation": "An open circle is used for a strict inequality, where equality is not allowed. A solid circle shows that the boundary value is included."
+    },
+    {
+     "text": "hollow circle",
+     "correct": false,
+     "explanation": "A hollow circle is another description of an open circle, so it excludes the endpoint. The required marker for an included endpoint is a solid circle."
+    },
+    {
+     "text": "thin line",
+     "correct": false,
+     "explanation": "A line shows a range of values rather than whether one boundary is included. A solid circle marks an included endpoint for $\\le$ or $\\ge$."
+    }
+   ]
+  },
+  {
+   "id": "a044c7cd-3c6e-48a7-b0c9-5503fd9612c9",
+   "card_type": "basic",
+   "front": "List the integers that satisfy $-4 < n \\le 2$.",
+   "back": "$$-3, -2, -1, 0, 1, 2$",
+   "options": [
+    {
+     "text": "$$-3, -2, -1, 0, 1, 2$",
+     "correct": true,
+     "explanation": "The strict lower bound excludes $-4$, while the inclusive upper bound allows $2$. Every integer between those endpoints is therefore listed."
+    },
+    {
+     "text": "$$-4, -3, -2, -1, 0, 1, 2$",
+     "correct": false,
+     "explanation": "Including $-4$ treats the strict inequality $-4<n$ as though it were $-4\\le n$. The correct list begins at $-3$ and ends at $2$."
+    },
+    {
+     "text": "$$-3, -2, -1, 0, 1$",
+     "correct": false,
+     "explanation": "Leaving out $2$ treats $n\\le2$ as a strict inequality. Since equality is allowed at the upper bound, the correct list includes $2$."
+    },
+    {
+     "text": "$$-4, -3, -2, -1, 0, 1$",
+     "correct": false,
+     "explanation": "This reverses both endpoint rules by including the excluded lower endpoint and omitting the included upper endpoint. The correct list runs from $-3$ through $2$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "0673179a-b4e4-474d-a8b1-b4a8a6d733a0",
+   "card_type": "basic",
+   "front": "What does an arrow pointing left from a circle on a number line represent?",
+   "back": "Values less than the circle's value.",
+   "options": [
+    {
+     "text": "Values less than the circle's value.",
+     "correct": true,
+     "explanation": "Numbers decrease as you move left along a number line. Therefore, an arrow pointing left represents values less than the boundary marked by the circle."
+    },
+    {
+     "text": "Values greater than the circle's value.",
+     "correct": false,
+     "explanation": "Greater values lie to the right on a number line, not the left. A left-pointing arrow represents values less than the circle's value."
+    },
+    {
+     "text": "Only the circle's exact value.",
+     "correct": false,
+     "explanation": "An arrow shows that the solution continues through infinitely many values rather than selecting one value. Pointing left means all represented values are less than the boundary."
+    },
+    {
+     "text": "Values greater than or equal to the circle's value.",
+     "correct": false,
+     "explanation": "This describes values extending to the right and possibly including the endpoint. A left-pointing arrow instead represents values less than the circle's value."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "540c934e-5458-48a4-a2ba-05bfe06dae7e",
+   "card_type": "basic",
+   "front": "What does a thick line between two circles on a number line represent?",
+   "back": "All values between the two endpoints are allowed.",
+   "options": [
+    {
+     "text": "All values between the two endpoints are allowed.",
+     "correct": true,
+     "explanation": "A thick line marks the complete interval of solutions, so every value along it is allowed. The circles determine separately whether each endpoint is included."
+    },
+    {
+     "text": "Only the endpoints of the interval are allowed.",
+     "correct": false,
+     "explanation": "The circles mark the endpoints, but the thick line marks every permitted value between them. It does not restrict the solution to the two endpoints."
+    },
+    {
+     "text": "All values outside the two endpoints are allowed.",
+     "correct": false,
+     "explanation": "Values outside the endpoints would be shown by lines or arrows extending away from the circles. A thick connecting line represents all values between them."
+    },
+    {
+     "text": "Only integer values between the two endpoints are allowed.",
+     "correct": false,
+     "explanation": "A continuous thick line includes every real value in the interval, including decimals and fractions. Integer-only solutions would normally be shown using separate marked points."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "09c2526b-ff57-469c-a08d-d6b8b3fe3982",
+   "card_type": "basic",
+   "front": "Describe the circles and line needed to show $-2 \\le x < 3$ on a number line.",
+   "back": "Solid circle at -2.Open circle at 3.Thick line connecting them.",
+   "options": [
+    {
+     "text": "Solid circle at -2.Open circle at 3.Thick line connecting them.",
+     "correct": true,
+     "explanation": "The symbol $\\le$ includes $-2$, so that endpoint is solid. The symbol $<$ excludes $3$, so it is open, and the interval between them is shaded."
+    },
+    {
+     "text": "Open circle at -2.Solid circle at 3.Thick line connecting them.",
+     "correct": false,
+     "explanation": "This reverses both endpoint markers. The inequality includes $-2$, requiring a solid circle, but excludes $3$, requiring an open circle."
+    },
+    {
+     "text": "Solid circle at -2.Solid circle at 3.Thick line connecting them.",
+     "correct": false,
+     "explanation": "The solid circle at $3$ incorrectly includes that endpoint. Since $x<3$ is strict, $3$ needs an open circle, while $-2$ remains solid."
+    },
+    {
+     "text": "Solid circle at -2.Open circle at 3.Thin line connecting them.",
+     "correct": false,
+     "explanation": "The endpoint circles are correct, but the solution interval must be shown with a thick line. This indicates that all values from $-2$ up to $3$ are allowed."
+    }
+   ],
+   "points": 3
+  },
+  {
+   "id": "bf020941-9fb7-4776-b0e2-caab9701fc6b",
+   "card_type": "basic",
+   "front": "Write the inequality for $x$ shown by an open circle at 1 and an arrow pointing left.",
+   "back": "$$x < 1$",
+   "options": [
+    {
+     "text": "$$x < 1$",
+     "correct": true,
+     "explanation": "An open circle excludes 1, while the arrow pointing left represents values smaller than 1. Therefore, the inequality is strictly less than 1."
+    },
+    {
+     "text": "$$x \\le 1$",
+     "correct": false,
+     "explanation": "Using $\\le$ would include 1, which requires a filled circle. The circle is open, so 1 is excluded and the correct inequality is $x < 1$."
+    },
+    {
+     "text": "$$x > 1$",
+     "correct": false,
+     "explanation": "The open circle correctly excludes 1, but $>$ represents values to the right. The arrow points left, so the correct inequality is $x < 1$."
+    },
+    {
+     "text": "$$x \\ge 1$",
+     "correct": false,
+     "explanation": "This combines both common diagram-reading errors: $\\ge$ includes 1 and represents values to the right. The open circle and left arrow give $x < 1$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "78d4e6a0-4654-4edb-be6a-9818fe9d57f4",
+   "card_type": "basic",
+   "front": "When solving an inequality, what must you do if you multiply or divide both sides by a negative number?",
+   "back": "Reverse the inequality sign (e.g., change $>$ to $<$).",
+   "options": [
+    {
+     "text": "Reverse the inequality sign (e.g., change $>$ to $<$).",
+     "correct": true,
+     "explanation": "Multiplication or division by a negative number reverses the order of the values. The inequality sign must therefore be reversed to keep the statement equivalent."
+    },
+    {
+     "text": "Keep the inequality sign unchanged (e.g., leave $>$ as $>$).",
+     "correct": false,
+     "explanation": "Keeping the sign unchanged ignores how multiplication or division by a negative reverses numerical order. The correct rule is to reverse the inequality sign."
+    },
+    {
+     "text": "Replace the inequality sign with equals (e.g., change $>$ to $=$).",
+     "correct": false,
+     "explanation": "An inequality does not become an equation when both sides are multiplied or divided. If the number is negative, the correct action is to reverse the inequality sign."
+    },
+    {
+     "text": "Reverse the signs of all terms (e.g., change $+$ to $-$).",
+     "correct": false,
+     "explanation": "Changing operation signs is not the required inequality rule. Multiplying or dividing both sides by a negative number requires the inequality sign itself to be reversed."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "ce7a6c0e-2cae-4623-85dc-5725dee9ca08",
+   "card_type": "cloze",
+   "front": "The inequality sign [ ___ ] when you add or subtract numbers from both sides.",
+   "back": "The inequality sign does NOT change when you add or subtract numbers from both sides.",
+   "options": [
+    {
+     "text": "does NOT change",
+     "correct": true,
+     "explanation": "Adding or subtracting the same number from both sides preserves their order, so the inequality sign remains unchanged. Reversal is only required when multiplying or dividing by a negative number."
+    },
+    {
+     "text": "always reverses",
+     "correct": false,
+     "explanation": "Reversing the sign here confuses addition and subtraction with multiplication or division by a negative number. The inequality sign does NOT change when equal amounts are added or subtracted."
+    },
+    {
+     "text": "changes to an equals sign",
+     "correct": false,
+     "explanation": "Performing the same addition or subtraction on both sides preserves the inequality rather than creating equality. The inequality sign does NOT change during these operations."
+    },
+    {
+     "text": "changes only when subtracting",
+     "correct": false,
+     "explanation": "Subtraction does not reverse an inequality when the same value is subtracted from both sides. For both addition and subtraction, the inequality sign does NOT change."
+    }
+   ]
+  },
+  {
+   "id": "b65e89d9-7462-4407-b229-a912b3ea3f2d",
+   "card_type": "basic",
+   "front": "Solve the inequality: $3t + 5 \\le 17$",
+   "back": "$$t \\le 4$",
+   "options": [
+    {
+     "text": "$$t \\le 4$",
+     "correct": true,
+     "explanation": "Subtracting 5 gives $3t \\le 12$, and dividing both sides by positive 3 gives $t \\le 4$. The sign remains unchanged because the divisor is positive."
+    },
+    {
+     "text": "$$t \\ge 4$",
+     "correct": false,
+     "explanation": "This unnecessarily reverses the inequality sign when dividing by positive 3. Only division by a negative reverses it, so the correct solution is $t \\le 4$."
+    },
+    {
+     "text": "$$t \\le 12$",
+     "correct": false,
+     "explanation": "Subtracting 5 gives $3t \\le 12$, but the coefficient of $t$ must still be removed. Dividing by 3 gives the complete solution $t \\le 4$."
+    },
+    {
+     "text": "$$t \\le \\frac{22}{3}$",
+     "correct": false,
+     "explanation": "This comes from adding 5 instead of subtracting it when isolating $3t$. The correct intermediate result is $3t \\le 12$, giving $t \\le 4$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "48e43db9-8d0e-40ee-9d91-9e477f0c8d92",
+   "card_type": "basic",
+   "front": "What is the recommended first step when solving an inequality with letters on both sides?",
+   "back": "Subtract the smaller variable part from both sides to keep the variable positive.",
+   "options": [
+    {
+     "text": "Subtract the smaller variable part from both sides to keep the variable positive.",
+     "correct": true,
+     "explanation": "Subtracting the smaller variable part collects the letters on one side while usually leaving a positive coefficient. This reduces the chance of needing to reverse the inequality later."
+    },
+    {
+     "text": "Subtract the larger variable part from both sides to make the variable negative.",
+     "correct": false,
+     "explanation": "Although equivalent algebra may still be possible, this creates a negative variable coefficient and introduces an avoidable sign reversal. The recommended step is to subtract the smaller variable part."
+    },
+    {
+     "text": "Divide by the variable on both sides to remove the letters completely.",
+     "correct": false,
+     "explanation": "Dividing by an unknown variable is unsafe because its sign and whether it equals zero may be unknown. Instead, subtract the smaller variable part from both sides."
+    },
+    {
+     "text": "Reverse the inequality sign before collecting the variable terms together.",
+     "correct": false,
+     "explanation": "The inequality sign is reversed only after multiplying or dividing by a negative number, not before collecting terms. First subtract the smaller variable part from both sides."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "97ad3c65-20d0-4bc4-b4ea-702965f1f649",
+   "card_type": "basic",
+   "front": "Solve the inequality: $5x + 1 \\le 2x + 13$",
+   "back": "$$x \\le 4$",
+   "options": [
+    {
+     "text": "$$x \\le 4$",
+     "correct": true,
+     "explanation": "Subtracting $2x$ gives $3x+1 \\le 13$, then subtracting 1 gives $3x \\le 12$. Dividing by positive 3 produces $x \\le 4$."
+    },
+    {
+     "text": "$$x \\ge 4$",
+     "correct": false,
+     "explanation": "This reverses the inequality despite dividing by positive 3. The sign changes only when dividing by a negative number, so the correct solution is $x \\le 4$."
+    },
+    {
+     "text": "$$x \\le 6$",
+     "correct": false,
+     "explanation": "This results from incorrectly treating $5x-2x$ as $2x$. The variable terms combine to $3x$, so $3x \\le 12$ and therefore $x \\le 4$."
+    },
+    {
+     "text": "$$x \\le \\frac{14}{3}$",
+     "correct": false,
+     "explanation": "This comes from adding 1 to 13 rather than subtracting 1 after collecting the variable terms. The correct step is $3x \\le 12$, giving $x \\le 4$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "9257669d-cb42-4c56-abcb-1c426c314e18",
+   "card_type": "cloze",
+   "front": "If you divide both sides of $-12 > -3x$ by $-3$, the resulting inequality is $\\text{[...]}$.",
+   "back": "If you divide both sides of $-12 > -3x$ by $-3$, the resulting inequality is $\\boxed{4 < x}$.",
+   "options": [
+    {
+     "text": "$$4 < x$",
+     "correct": true,
+     "explanation": "Dividing both sides by $-3$ gives 4 on the left and $x$ on the right. Because the divisor is negative, $>$ reverses to $<$."
+    },
+    {
+     "text": "$$4 > x$",
+     "correct": false,
+     "explanation": "This keeps the original inequality sign and misses the negative-division rule. Dividing by $-3$ reverses $>$ to $<$, so the correct result is $4 < x$."
+    },
+    {
+     "text": "$$-4 < x$",
+     "correct": false,
+     "explanation": "The inequality is reversed correctly, but $-12 \\div -3$ equals positive 4, not negative 4. Therefore, the resulting inequality is $4 < x$."
+    },
+    {
+     "text": "$$4 < -x$",
+     "correct": false,
+     "explanation": "Dividing $-3x$ by $-3$ gives positive $x$ because the negative signs cancel. Reversing the inequality then gives the correct result $4 < x$."
+    }
+   ]
+  },
+  {
+   "id": "8ab9b2cf-6812-482a-b2a0-6c9c6156e50f",
+   "card_type": "basic",
+   "front": "What is the first step to solve $3(n + 2) < 21$?",
+   "back": "Expand the brackets ($3n + 6 < 21$).",
+   "options": [
+    {
+     "text": "Expand the brackets ($3n + 6 < 21$).",
+     "correct": true,
+     "explanation": "Multiplying both terms inside the brackets by 3 gives $3n+6$. The equivalent inequality after expansion is therefore $3n + 6 < 21$."
+    },
+    {
+     "text": "Expand the brackets ($3n + 2 < 21$).",
+     "correct": false,
+     "explanation": "This distributes 3 to $n$ but not to 2, a common expansion error. Both terms must be multiplied by 3, giving $3n + 6 < 21$."
+    },
+    {
+     "text": "Divide the left side ($n + 2 < 21$).",
+     "correct": false,
+     "explanation": "Dividing only one side changes the inequality and produces a non-equivalent statement. The recommended first step is to expand correctly, giving $3n + 6 < 21$."
+    },
+    {
+     "text": "Multiply the brackets ($9n + 6 < 21$).",
+     "correct": false,
+     "explanation": "This incorrectly multiplies $3n$ by 3 again. Distributing the single outside factor gives $3 \\times n + 3 \\times 2$, so the result is $3n + 6 < 21$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "33d0b1a1-b503-421c-b762-92342f1e8a46",
+   "card_type": "cloze",
+   "front": "A [ ___ ] has two inequality signs and shows that a variable must fit between two values.",
+   "back": "A compound inequality has two inequality signs and shows that a variable must fit between two values.",
+   "options": [
+    {
+     "text": "compound inequality",
+     "correct": true,
+     "explanation": "A compound inequality combines two inequality comparisons in one statement, placing the variable between a lower boundary and an upper boundary."
+    },
+    {
+     "text": "simple inequality",
+     "correct": false,
+     "explanation": "A simple inequality normally contains one inequality sign and gives only one boundary. The correct term is compound inequality because two linked comparisons restrict the variable."
+    },
+    {
+     "text": "linear inequality",
+     "correct": false,
+     "explanation": "A linear inequality is defined by the variable having a highest power of one, not by having two signs. The required term is compound inequality."
+    },
+    {
+     "text": "simultaneous equation",
+     "correct": false,
+     "explanation": "A simultaneous equation involves multiple equations solved together rather than two linked inequality signs. A statement bounding one variable between two values is a compound inequality."
+    }
+   ]
+  },
+  {
+   "id": "1646b632-3c29-4265-b966-7b539c689860",
+   "card_type": "basic",
+   "front": "Solve the compound inequality: $3 \\le 2y - 1 < 11$",
+   "back": "$$2 \\le y < 6$",
+   "options": [
+    {
+     "text": "$$2 \\le y < 6$",
+     "correct": true,
+     "explanation": "Adding $1$ to all three parts gives $4 \\le 2y < 12$. Dividing every part by $2$ then gives $2 \\le y < 6$."
+    },
+    {
+     "text": "$$1.5 \\le y < 5.5$",
+     "correct": false,
+     "explanation": "This ignores the $-1$ beside $2y$ and divides only the original bounds by $2$. Adding $1$ first and then dividing gives $2 \\le y < 6$."
+    },
+    {
+     "text": "$$4 \\le y < 12$",
+     "correct": false,
+     "explanation": "Adding $1$ produces these intermediate bounds, but the coefficient of $y$ has not been removed. Dividing all three parts by $2$ gives $2 \\le y < 6$."
+    },
+    {
+     "text": "$$2 < y < 6$",
+     "correct": false,
+     "explanation": "The lower sign must remain inclusive because dividing by positive $2$ does not change it. Solving correctly gives $2 \\le y < 6$, including $y=2$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "35fc6cf3-97de-4f27-b770-c1654dc43669",
+   "card_type": "basic",
+   "front": "List the possible integer values of $y$ if $2 \\le y < 6$.",
+   "back": "$$2, 3, 4, 5$",
+   "options": [
+    {
+     "text": "$$2, 3, 4, 5$",
+     "correct": true,
+     "explanation": "The inclusive sign $\\le$ allows $2$, while the strict sign $<$ excludes $6$. Therefore the integer values from the lower bound to the upper bound are $2, 3, 4, 5$."
+    },
+    {
+     "text": "$$3, 4, 5, 6$",
+     "correct": false,
+     "explanation": "This reverses which endpoints are included: $2$ is permitted by $\\le$, whereas $6$ is excluded by $<$. The correct list is $2, 3, 4, 5$."
+    },
+    {
+     "text": "$$2, 3, 4, 5, 6$",
+     "correct": false,
+     "explanation": "Including $6$ treats the strict upper inequality $y<6$ as though it were $y\\le6$. The correct integer values are $2, 3, 4, 5$."
+    },
+    {
+     "text": "$$3, 4, 5$",
+     "correct": false,
+     "explanation": "Omitting $2$ treats the inclusive lower inequality $2\\le y$ as though it were strict. Since $2$ is allowed, the correct list is $2, 3, 4, 5$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "99adba83-5807-4130-bf44-ab2200d05940",
+   "card_type": "basic",
+   "front": "Why is $4$ not included in the list of integers for $n < 4$?",
+   "back": "Because the symbol $<$ means \"strictly less than\" and excludes the limit.",
+   "options": [
+    {
+     "text": "Because the symbol $<$ means \"strictly less than\" and excludes the limit.",
+     "correct": true,
+     "explanation": "A strict inequality allows only values below the boundary, so a value equal to $4$ does not satisfy $n<4$. Equality requires the symbol $\\le$."
+    },
+    {
+     "text": "Because the symbol $<$ means \"less than or equal to\", but integer limits are always excluded.",
+     "correct": false,
+     "explanation": "Integer boundaries are governed by the inequality symbol in exactly the same way as other numbers. The symbol $<$ means strictly less than, so it excludes $4$."
+    },
+    {
+     "text": "Because $4$ is the first integer greater than the stated limit.",
+     "correct": false,
+     "explanation": "The number $4$ equals the stated limit rather than being greater than it. It is excluded because $<$ permits only values strictly below the limit."
+    },
+    {
+     "text": "Because boundary values are excluded from every inequality, whichever symbol is used.",
+     "correct": false,
+     "explanation": "Some inequalities include their boundaries: $\\le$ and $\\ge$ both allow equality. Here, $4$ is excluded specifically because $<$ means strictly less than."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "1f86b2b8-bebc-48b7-8b9e-59cb89c06167",
+   "card_type": "cloze",
+   "front": "To solve a compound inequality, you must perform the same operation to [ ___ ] of the inequality.",
+   "back": "To solve a compound inequality, you must perform the same operation to all three parts of the inequality.",
+   "options": [
+    {
+     "text": "all three parts",
+     "correct": true,
+     "explanation": "A compound inequality links a lower bound, a variable expression and an upper bound. Applying the operation to all three preserves both comparisons and keeps the statement equivalent."
+    },
+    {
+     "text": "the left and middle parts",
+     "correct": false,
+     "explanation": "Changing only the left and middle parts breaks the comparison with the unchanged upper bound. The same operation must be applied to all three parts of the compound inequality."
+    },
+    {
+     "text": "the middle and right parts",
+     "correct": false,
+     "explanation": "Changing only the middle and right parts breaks the comparison with the unchanged lower bound. An equivalent compound inequality requires the operation to be applied to all three parts."
+    },
+    {
+     "text": "the variable term only",
+     "correct": false,
+     "explanation": "Operating only on the variable expression leaves both boundaries on the original scale, so the resulting comparisons are not equivalent. The operation must affect all three parts."
+    }
+   ]
+  }
+ ],
+ "card_count": 21,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-4-4-5-inequalities/flashcards",
+ "source_sha256": "60e2f85c3577b4f20c44eba969cbfbe850307e0697c583fbe64ff288c81b61d0",
+ "extracted_at": "2026-11-08T17:55:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}

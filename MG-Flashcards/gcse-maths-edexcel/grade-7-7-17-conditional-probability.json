@@ -1,0 +1,588 @@
+{
+ "topic": "grade-7-7-17-conditional-probability",
+ "lane": "gcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "title": "Conditional Probability Flashcards",
+ "cards": [
+  {
+   "id": "1cf92ac4-4256-4879-abc4-b3c2ee2163a1",
+   "card_type": "cloze",
+   "front": "In a probability tree diagram, all branches originating from the same point must sum to [ ___ ].",
+   "back": "In a probability tree diagram, all branches originating from the same point must sum to 1.",
+   "options": [
+    {
+     "text": "1",
+     "correct": true,
+     "explanation": "Probabilities for all possible outcomes from one point must total 1 because those branches collectively represent every outcome that can occur next."
+    },
+    {
+     "text": "0",
+     "correct": false,
+     "explanation": "A total of 0 would mean that none of the possible outcomes can occur. The branches must instead sum to 1, representing certainty."
+    },
+    {
+     "text": "2",
+     "correct": false,
+     "explanation": "This confuses the number of branches with their total probability. Regardless of how many branches there are, their probabilities must sum to 1."
+    },
+    {
+     "text": "0.5",
+     "correct": false,
+     "explanation": "Probabilities may be written as percentages, but 50% is not the required total. All branches from the same point must sum to 1, or 100%."
+    }
+   ]
+  },
+  {
+   "id": "4d944269-070c-4675-af01-0fc76a7a63fe",
+   "card_type": "basic",
+   "front": "What does the notation $P(B \\mid A)$ represent?",
+   "back": "The conditional probability of B occurring given that A has already occurred.",
+   "options": [
+    {
+     "text": "The conditional probability of B occurring given that A has already occurred.",
+     "correct": true,
+     "explanation": "The vertical bar means “given that”, so this notation describes the probability that B occurs under the condition that A has already occurred."
+    },
+    {
+     "text": "The conditional probability of A occurring given that B has already occurred.",
+     "correct": false,
+     "explanation": "This reverses the condition and describes $P(A \\mid B)$. In $P(B \\mid A)$, B is the event being considered after A has already occurred."
+    },
+    {
+     "text": "The combined probability of A and B both occurring.",
+     "correct": false,
+     "explanation": "The notation for both events occurring is $P(A \\cap B)$ or $P(A \\text{ and } B)$. The vertical bar instead indicates B occurring given A."
+    },
+    {
+     "text": "The total probability of A or B occurring independently.",
+     "correct": false,
+     "explanation": "The probability of either event is represented using a union, such as $P(A \\cup B)$. Here the vertical bar specifies the condition that A has occurred."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "b16ac9f5-26c7-489b-9de2-1c2aec833e7c",
+   "card_type": "basic",
+   "front": "How do you calculate the probability of a specific sequence of events (a single route) in a tree diagram?",
+   "back": "Multiply the probabilities along the branches.",
+   "options": [
+    {
+     "text": "Multiply the probabilities along the branches.",
+     "correct": true,
+     "explanation": "A route represents successive events that must all occur, so the multiplication rule is used to combine the probabilities on its branches."
+    },
+    {
+     "text": "Add the probabilities along the branches.",
+     "correct": false,
+     "explanation": "Adding is used to combine separate mutually exclusive routes, not successive branches on one route. For a specific sequence, multiply the branch probabilities."
+    },
+    {
+     "text": "Subtract the probabilities along the branches.",
+     "correct": false,
+     "explanation": "Subtracting branch probabilities does not represent successive events. A specific sequence requires every event on its route to occur, so multiply the probabilities."
+    },
+    {
+     "text": "Divide the probabilities along the branches.",
+     "correct": false,
+     "explanation": "Dividing the branch probabilities is not the tree-diagram rule for a sequence. Since all events along the route must occur, their probabilities are multiplied."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "e72d5737-7652-4b90-84a2-6dd1fb00472d",
+   "card_type": "cloze",
+   "front": "The rule for finding the probability of a sequence of events is $$P(A \\text{ and } B) = \\text{[...]}$$.",
+   "back": "The rule for finding the probability of a sequence of events is $$P(A \\text{ and } B) = \\boxed{P(A) \\times P(B \\mid A)}$$.",
+   "options": [
+    {
+     "text": "$$P(A) \\times P(B \\mid A)$",
+     "correct": true,
+     "explanation": "For A and B to occur in sequence, multiply the probability of A by the conditional probability that B occurs after A has occurred."
+    },
+    {
+     "text": "$$P(A) + P(B \\mid A)$",
+     "correct": false,
+     "explanation": "Adding these probabilities combines alternatives rather than successive events. The probability of the sequence is $P(A) \\times P(B \\mid A)$."
+    },
+    {
+     "text": "$$P(A) \\times P(B)$",
+     "correct": false,
+     "explanation": "This incorrectly treats B as unaffected by A. The general multiplication rule uses B’s conditional probability, giving $P(A) \\times P(B \\mid A)$."
+    },
+    {
+     "text": "$$P(A) \\times P(A \\mid B)$",
+     "correct": false,
+     "explanation": "This reverses which event is conditioned on while retaining $P(A)$. The matching rule is $P(A) \\times P(B \\mid A)$."
+    }
+   ]
+  },
+  {
+   "id": "e225c290-8305-45db-a9b2-78d379161d1a",
+   "card_type": "basic",
+   "front": "In a \"without replacement\" scenario, what two things change for the second choice?",
+   "back": "The total number of items (denominator) decreases by 1.The number of items of the chosen category (numerator) decreases by 1.",
+   "options": [
+    {
+     "text": "The total number of items (denominator) decreases by 1.The number of items of the chosen category (numerator) decreases by 1.",
+     "correct": true,
+     "explanation": "Because the selected item is not returned, one fewer item remains overall and one fewer remains in the category that was selected."
+    },
+    {
+     "text": "The total number of items (denominator) stays the same.The number of items of the chosen category (numerator) stays the same.",
+     "correct": false,
+     "explanation": "This describes replacement rather than selection without replacement. The denominator must decrease by 1, and the chosen category’s numerator must also decrease by 1."
+    },
+    {
+     "text": "The total number of items (denominator) increases by 1.The number of items of the chosen category (numerator) increases by 1.",
+     "correct": false,
+     "explanation": "Removing an item reduces rather than increases the available quantities. Both the total and the count for the selected category decrease by 1."
+    },
+    {
+     "text": "The total number of items (denominator) stays the same.The number of items of the chosen category (numerator) decreases by 1.",
+     "correct": false,
+     "explanation": "The denominator cannot stay unchanged because one item has been removed. It decreases by 1, as does the numerator for the category selected first."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "3c647250-ea21-4555-8c47-046ced9f0c52",
+   "card_type": "basic",
+   "front": "When should you add separate routes together in a probability problem?",
+   "back": "When the routes are mutually exclusive outcomes (e.g. \"Red-Red\" OR \"Green-Green\").",
+   "options": [
+    {
+     "text": "When the routes are mutually exclusive outcomes (e.g. \"Red-Red\" OR \"Green-Green\").",
+     "correct": true,
+     "explanation": "Mutually exclusive routes cannot happen simultaneously, so their probabilities are added when either route would satisfy the required outcome."
+    },
+    {
+     "text": "When the routes are independent outcomes (e.g. \"Red-Red\" AND \"Green-Green\").",
+     "correct": false,
+     "explanation": "Independent events do not automatically correspond to routes that should be added. Separate routes are added when they are mutually exclusive alternatives satisfying the required outcome."
+    },
+    {
+     "text": "When the routes are consecutive outcomes (e.g. \"Red\" THEN \"Green\").",
+     "correct": false,
+     "explanation": "Successive outcomes on one route are combined by multiplication, not addition. Addition applies to separate mutually exclusive routes that represent alternative successful outcomes."
+    },
+    {
+     "text": "When the routes are equally likely outcomes (e.g. \"Red-Blue\" AND \"Blue-Red\").",
+     "correct": false,
+     "explanation": "Equally likely routes need not be relevant alternatives, and equality is not the reason for adding. Add routes when they are mutually exclusive successful outcomes."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "560f80f7-e3ed-4a6b-8fab-3290874071b8",
+   "card_type": "basic",
+   "front": "How do you calculate the probability of picking \"one of each color\" from a bag of red and blue counters?",
+   "back": "Calculate the probability of Red-Blue and Blue-Red separately, then add them together.",
+   "options": [
+    {
+     "text": "Calculate the probability of Red-Blue and Blue-Red separately, then add them together.",
+     "correct": true,
+     "explanation": "One of each colour can occur in either order. These two mutually exclusive routes must be calculated separately and then added to obtain the total probability."
+    },
+    {
+     "text": "Calculate the probability of Red-Blue and Blue-Red separately, then multiply them together.",
+     "correct": false,
+     "explanation": "Multiplying the completed route probabilities would mean both mutually exclusive orders occur at once. Calculate Red-Blue and Blue-Red separately, then add their probabilities."
+    },
+    {
+     "text": "Calculate the probability of Red-Red and Blue-Blue separately, then add them together.",
+     "correct": false,
+     "explanation": "Red-Red and Blue-Blue represent two counters of the same colour, not one of each. Use the Red-Blue and Blue-Red routes and add them."
+    },
+    {
+     "text": "Calculate the probability of Red-Blue and Blue-Red separately, then subtract them.",
+     "correct": false,
+     "explanation": "Subtracting the two orders can cancel valid outcomes and does not represent either order occurring. Calculate both mixed-colour routes and add their probabilities."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "25d560c6-da4a-4991-bd3a-9ba95b166abf",
+   "card_type": "cloze",
+   "front": "If the probability of picking a blue pen on Monday is 0.65, the probability of picking a black pen is [ ___ ].",
+   "back": "If the probability of picking a blue pen on Monday is 0.65, the probability of picking a black pen is $1 - 0.65 = 0.35$.",
+   "options": [
+    {
+     "text": "$$1 - 0.65 = 0.35$",
+     "correct": true,
+     "explanation": "Blue and black are complementary outcomes, so their probabilities total 1. Subtracting 0.65 from 1 gives a black-pen probability of 0.35."
+    },
+    {
+     "text": "$$0.65 - 1 = -0.35$",
+     "correct": false,
+     "explanation": "This subtraction is reversed, producing a negative value, which cannot be a probability. The complement is found using $1 - 0.65 = 0.35$."
+    },
+    {
+     "text": "$$1 + 0.65 = 1.65$",
+     "correct": false,
+     "explanation": "Adding complementary probabilities is the wrong operation and gives a result above 1. The black probability is the complement, $1 - 0.65 = 0.35$."
+    },
+    {
+     "text": "$$1 - 0.35 = 0.65$",
+     "correct": false,
+     "explanation": "This treats the blue and black probabilities as equal. Since they are complementary, the black probability must be $1 - 0.65 = 0.35$."
+    }
+   ]
+  },
+  {
+   "id": "dc66182e-cdbd-4c69-b0d2-7a35e8b1201a",
+   "card_type": "basic",
+   "front": "A bag has 5 red and 3 blue counters. If a red is picked first and not replaced, what is $P(\\text{red second} \\mid \\text{red first})$?",
+   "back": "$$\\frac{4}{7}$",
+   "options": [
+    {
+     "text": "$$\\frac{4}{7}$",
+     "correct": true,
+     "explanation": "After the first red counter is removed, 4 red counters remain out of 7 counters altogether. Therefore, the conditional probability of another red is $\\frac{4}{7}$."
+    },
+    {
+     "text": "$$\\frac{5}{7}$",
+     "correct": false,
+     "explanation": "This keeps all 5 red counters in the numerator despite one already being removed. Only 4 of the 7 remaining counters are red, so the answer is $\\frac{4}{7}$."
+    },
+    {
+     "text": "$$\\frac{4}{8}$",
+     "correct": false,
+     "explanation": "This treats the first counter as though it were replaced, leaving 8 counters altogether. Without replacement, 4 red counters remain among 7, giving $\\frac{4}{7}$."
+    },
+    {
+     "text": "$$\\frac{3}{7}$",
+     "correct": false,
+     "explanation": "This uses the original number of blue counters as the numerator. After a red is removed, there are 4 red counters among 7 remaining, so the probability is $\\frac{4}{7}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "aab15fb2-5d51-449d-9f53-de32ba645c79",
+   "card_type": "cloze",
+   "front": "When picking two counters without replacement from a bag of 12, the denominator for the second branch will be [ ___ ].",
+   "back": "When picking two counters without replacement from a bag of 12, the denominator for the second branch will be 11.",
+   "options": [
+    {
+     "text": "11",
+     "correct": true,
+     "explanation": "Without replacement, the first pick removes one counter from the original total of 12. Every second branch therefore has a denominator of $12-1=11$."
+    },
+    {
+     "text": "12",
+     "correct": false,
+     "explanation": "This incorrectly keeps the original total, as if the first counter were replaced. Without replacement, only 11 counters remain, so the second-branch denominator is 11."
+    },
+    {
+     "text": "10",
+     "correct": false,
+     "explanation": "This subtracts both picks before calculating the second pick. At the moment of the second pick, only one counter has been removed, so the denominator is 11."
+    },
+    {
+     "text": "13",
+     "correct": false,
+     "explanation": "This mistakenly increases the total after the first pick. Removing one counter from a bag of 12 leaves 11, so every second-branch denominator is 11."
+    }
+   ]
+  },
+  {
+   "id": "18ca290a-dcb9-4351-8d95-8815964203fa",
+   "card_type": "basic",
+   "front": "What does it mean for two routes to be \"mutually exclusive\"?",
+   "back": "They cannot both happen at the same time.",
+   "options": [
+    {
+     "text": "They cannot both happen at the same time.",
+     "correct": true,
+     "explanation": "Mutually exclusive routes have no shared outcomes, so one route occurring prevents the other from occurring simultaneously. Their intersection therefore has probability zero."
+    },
+    {
+     "text": "They must both happen at the same time.",
+     "correct": false,
+     "explanation": "This describes routes that always occur together, not mutually exclusive routes. Mutually exclusive routes share no outcomes and therefore cannot both happen at the same time."
+    },
+    {
+     "text": "They do not affect each other when one happens.",
+     "correct": false,
+     "explanation": "This confuses mutually exclusive events with independent events. Independence means one event does not affect the other, whereas mutually exclusive routes cannot both happen at the same time."
+    },
+    {
+     "text": "They cover every possible outcome in the sample space.",
+     "correct": false,
+     "explanation": "This describes exhaustive routes, which together cover the whole sample space. Mutually exclusive routes instead have no overlap, meaning they cannot both happen at the same time."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "88565d54-8b2a-4c09-8a87-e32394a47b1d",
+   "card_type": "basic",
+   "front": "A bag has 7 red and 5 green counters. How do you set up the calculation for \"both counters are the same color\" (without replacement)?",
+   "back": "$$(\\frac{7}{12} \\times \\frac{6}{11}) + (\\frac{5}{12} \\times \\frac{4}{11})$",
+   "options": [
+    {
+     "text": "$$(\\frac{7}{12} \\times \\frac{6}{11}) + (\\frac{5}{12} \\times \\frac{4}{11})$",
+     "correct": true,
+     "explanation": "The two valid routes are red then red and green then green. Their branch probabilities are multiplied within each route, then the two mutually exclusive routes are added."
+    },
+    {
+     "text": "$$(\\frac{7}{12} \\times \\frac{7}{11}) + (\\frac{5}{12} \\times \\frac{5}{11})$",
+     "correct": false,
+     "explanation": "This fails to reduce each colour count after the first pick, effectively treating the counters as replaced. The second numerators should be 6 and 4, giving the correct sum."
+    },
+    {
+     "text": "$$(\\frac{7}{12} \\times \\frac{5}{11}) + (\\frac{5}{12} \\times \\frac{7}{11})$",
+     "correct": false,
+     "explanation": "These routes represent red then green and green then red, so they calculate different colours. For the same colour, use red-red and green-green instead."
+    },
+    {
+     "text": "$$(\\frac{7}{12} \\times \\frac{6}{11}) \\times (\\frac{5}{12} \\times \\frac{4}{11})$",
+     "correct": false,
+     "explanation": "This multiplies the red-red and green-green routes as though both routes must occur together. They are alternative outcomes, so their separate products must be added."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "79ebaa0b-3b9a-43ff-9a28-2187819c34bf",
+   "card_type": "basic",
+   "front": "Why is the calculation for \"different colors\" usually more complex than for a specific sequence like \"Black then Red\"?",
+   "back": "It usually involves two different orders (BR and RB) that must be added.",
+   "options": [
+    {
+     "text": "It usually involves two different orders (BR and RB) that must be added.",
+     "correct": true,
+     "explanation": "Different colours can occur as Black then Red or Red then Black. Each order is a separate route whose probabilities are multiplied, and the two route probabilities are then added."
+    },
+    {
+     "text": "It usually involves two different orders (BR and RB) that must be multiplied.",
+     "correct": false,
+     "explanation": "Different colours do not require both orders to occur together. BR and RB are alternative routes, so their probabilities must be calculated separately and then added, not multiplied."
+    },
+    {
+     "text": "It usually involves only one possible order (BR but not RB) in the calculation.",
+     "correct": false,
+     "explanation": "This overlooks the reverse order, Red then Black. Different colours can occur through either BR or RB, so both route probabilities must be calculated and added."
+    },
+    {
+     "text": "It usually involves replacing the first counter before the second counter is selected.",
+     "correct": false,
+     "explanation": "Replacement affects the branch probabilities but does not explain the extra complexity. The key issue is that different colours includes both BR and RB, whose probabilities must be added."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "e272e311-2a2e-48d1-90d7-7dd2360495ce",
+   "card_type": "cloze",
+   "front": "In a Venn diagram, the region representing \"Tea and Coffee but not Juice\" excludes the [ ___ ] where all three meet.",
+   "back": "In a Venn diagram, the region representing \"Tea and Coffee but not Juice\" excludes the triple overlap where all three meet.",
+   "options": [
+    {
+     "text": "triple overlap",
+     "correct": true,
+     "explanation": "The triple overlap contains people who are in Tea, Coffee and Juice. Excluding it leaves only those who are in both Tea and Coffee but not Juice."
+    },
+    {
+     "text": "pairwise overlap",
+     "correct": false,
+     "explanation": "The pairwise Tea and Coffee overlap includes the required region, so excluding all of it would remove the desired people. Only the triple overlap with Juice must be excluded."
+    },
+    {
+     "text": "union",
+     "correct": false,
+     "explanation": "The union contains everyone in at least one of the three sets, far beyond the region being excluded. Only the triple overlap belongs to all three sets."
+    },
+    {
+     "text": "outside region",
+     "correct": false,
+     "explanation": "The region outside the circles represents people in none of the sets, not people in all three. Tea and Coffee but not Juice excludes the triple overlap."
+    }
+   ]
+  },
+  {
+   "id": "53b1888d-58c3-41d5-b495-f04494eaf420",
+   "card_type": "basic",
+   "front": "If 17 people like Tea and Coffee, and 12 of those also like Juice, how many people like Tea and Coffee only?",
+   "back": "$$17 - 12 = 5$",
+   "options": [
+    {
+     "text": "$$17 - 12 = 5$",
+     "correct": true,
+     "explanation": "The 17 people counted in Tea and Coffee include the 12 who also like Juice. Subtracting those 12 leaves 5 who like Tea and Coffee only."
+    },
+    {
+     "text": "$$17 + 12 = 29$",
+     "correct": false,
+     "explanation": "Adding double-counts the 12 people because they are already included among the 17 who like Tea and Coffee. Subtracting them gives $17-12=5$."
+    },
+    {
+     "text": "$$17 - 5 = 12$",
+     "correct": false,
+     "explanation": "This subtracts the number sought rather than the 12 people known to also like Juice. Tea and Coffee only is found directly using $17-12=5$."
+    },
+    {
+     "text": "$$17 - 17 = 0$",
+     "correct": false,
+     "explanation": "This assumes all 17 Tea-and-Coffee people also like Juice, although only 12 do. Removing those 12 from 17 leaves $17-12=5$ people."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "86e09c24-4513-4e39-bdad-c3533e08d8a5",
+   "card_type": "cloze",
+   "front": "If there are 5 cards (1, 1, 2, 2, 4) and a 1 is picked first, the probability that the second card is greater than the first is [ ___ ].",
+   "back": "If there are 5 cards (1, 1, 2, 2, 4) and a 1 is picked first, the probability that the second card is greater than the first is $\\frac{3}{4}$.",
+   "options": [
+    {
+     "text": "$$\\frac{3}{4}$",
+     "correct": true,
+     "explanation": "After one 1 is removed, four cards remain: 1, 2, 2 and 4. Three of these are greater than 1, so the probability is $\\frac{3}{4}$."
+    },
+    {
+     "text": "$$\\frac{1}{2}$",
+     "correct": false,
+     "explanation": "This counts only the two cards labelled 2 and overlooks that 4 is also greater than 1. Three of the four remaining cards are favourable, giving $\\frac{3}{4}$."
+    },
+    {
+     "text": "$$\\frac{3}{5}$",
+     "correct": false,
+     "explanation": "This retains the original denominator of 5 as if the first card were replaced. Only four cards remain, and three are greater than 1, giving $\\frac{3}{4}$."
+    },
+    {
+     "text": "$$\\frac{1}{4}$",
+     "correct": false,
+     "explanation": "This counts the one remaining card labelled 1, which is the only unfavourable outcome. The other three cards exceed 1, so the required probability is $\\frac{3}{4}$."
+    }
+   ]
+  },
+  {
+   "id": "9f5ffcfb-528d-457c-b6bc-ae39585383b0",
+   "card_type": "basic",
+   "front": "What is the 3-step strategy for calculating probability for \"second card greater than first\" using a tree?",
+   "back": "Identify routes where second > first.Multiply along those specific branches.Add the resulting probabilities.",
+   "options": [
+    {
+     "text": "Identify routes where second > first.Multiply along those specific branches.Add the resulting probabilities.",
+     "correct": true,
+     "explanation": "Each valid route represents a mutually exclusive outcome. Multiplying gives the probability of each route, and adding those route probabilities gives the overall probability that the second card is greater."
+    },
+    {
+     "text": "Identify routes where second > first.Add along those specific branches.Multiply the resulting probabilities.",
+     "correct": false,
+     "explanation": "This reverses the tree rules. Probabilities are multiplied along each valid route, then the probabilities of the separate valid routes are added together."
+    },
+    {
+     "text": "Identify routes where second Multiply along those specific branches.Add the resulting probabilities.",
+     "correct": false,
+     "explanation": "This selects the opposite event, where the second card is smaller. The correct method selects routes where second > first, multiplies along them, then adds their probabilities."
+    },
+    {
+     "text": "Identify routes where second > first.Multiply all branches in the tree.Add the resulting probabilities.",
+     "correct": false,
+     "explanation": "Including every branch counts outcomes that do not satisfy the condition. Only routes where second > first should be multiplied individually before their probabilities are added."
+    }
+   ],
+   "points": 3
+  },
+  {
+   "id": "104651c5-5f73-4815-a66c-c5c64a886681",
+   "card_type": "basic",
+   "front": "In a Venn-style probability question, how do you handle picking \"two people\" from a group?",
+   "back": "Treat it as conditional probability without replacement; the total group size decreases for the second pick.",
+   "options": [
+    {
+     "text": "Treat it as conditional probability without replacement; the total group size decreases for the second pick.",
+     "correct": true,
+     "explanation": "Once the first person has been chosen, that person is unavailable for the second choice. Therefore, the second probability is conditional and uses a total reduced by one."
+    },
+    {
+     "text": "Treat it as independent probability with replacement; the total group size stays the same for the second pick.",
+     "correct": false,
+     "explanation": "This incorrectly assumes the first person is returned to the group. People are normally chosen without replacement, so the second probability depends on the first pick and has a smaller total."
+    },
+    {
+     "text": "Treat it as independent probability without replacement; the total group size decreases for the second pick.",
+     "correct": false,
+     "explanation": "Although the group size decreases, the events are not independent because the first selection changes the second selection’s probabilities. It is conditional probability without replacement."
+    },
+    {
+     "text": "Treat it as conditional probability with replacement; the total group size increases for the second pick.",
+     "correct": false,
+     "explanation": "Replacement would keep the group size unchanged, not increase it, and is not normally used when choosing two different people. The correct model is conditional probability without replacement."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "8e014429-8535-419f-bffe-6384e536c98f",
+   "card_type": "cloze",
+   "front": "To find the probability of a complement (the event not happening), you subtract the probability of the event from [ ___ ].",
+   "back": "To find the probability of a complement (the event not happening), you subtract the probability of the event from 1.",
+   "options": [
+    {
+     "text": "1",
+     "correct": true,
+     "explanation": "The probabilities of an event and its complement sum to 1. Therefore, the probability that the event does not happen is $1-P(A)$."
+    },
+    {
+     "text": "0",
+     "correct": false,
+     "explanation": "Subtracting from 0 confuses the minimum possible probability with the total probability. An event and its complement exhaust all outcomes, so their probabilities add to 1."
+    },
+    {
+     "text": "$$-1$",
+     "correct": false,
+     "explanation": "Probabilities cannot be negative, so $-1$ cannot represent the total probability. Complement probabilities are found by subtracting the event’s probability from 1."
+    },
+    {
+     "text": "2",
+     "correct": false,
+     "explanation": "A total of 2 lies outside the probability scale, which runs from 0 to 1. The event and its complement together have probability 1."
+    }
+   ]
+  },
+  {
+   "id": "a9e4635f-9a72-4cc0-8710-c59516b53271",
+   "card_type": "basic",
+   "front": "If 29 students like coffee out of 40 total, what is the probability two chosen students both like coffee?",
+   "back": "$$\\frac{29}{40} \\times \\frac{28}{39}$",
+   "options": [
+    {
+     "text": "$$\\frac{29}{40} \\times \\frac{28}{39}$",
+     "correct": true,
+     "explanation": "The first coffee-liker is chosen with probability $\\frac{29}{40}$. Without replacement, 28 coffee-likers remain among 39 students for the second choice."
+    },
+    {
+     "text": "$$\\frac{29}{40} \\times \\frac{29}{40}$",
+     "correct": false,
+     "explanation": "This treats the selections as if the first student were replaced. Without replacement, both the number of coffee-likers and the total number of students decrease by one."
+    },
+    {
+     "text": "$$\\frac{29}{40} \\times \\frac{28}{40}$",
+     "correct": false,
+     "explanation": "This reduces the number of coffee-likers but forgets to reduce the total group size. After one student is chosen, only 39 students remain."
+    },
+    {
+     "text": "$$\\frac{29}{40} \\times \\frac{29}{39}$",
+     "correct": false,
+     "explanation": "This reduces the total group size but not the number of coffee-likers. After choosing a student who likes coffee, only 28 such students remain among the other 39."
+    }
+   ],
+   "points": 2
+  }
+ ],
+ "card_count": 20,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-7-7-17-conditional-probability/flashcards",
+ "source_sha256": "42f125bfc8b28dbda768f00c30ac6cab941d37a7063b5e5aa44ec52a5c8b38f3",
+ "extracted_at": "2026-11-08T17:55:05Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}
