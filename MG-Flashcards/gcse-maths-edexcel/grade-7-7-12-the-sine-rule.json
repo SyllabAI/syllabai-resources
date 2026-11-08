@@ -1,0 +1,589 @@
+{
+ "topic": "grade-7-7-12-the-sine-rule",
+ "lane": "gcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "title": "The Sine Rule Flashcards",
+ "cards": [
+  {
+   "id": "2d1dcbac-4541-4293-88de-1ef863587b1c",
+   "card_type": "basic",
+   "front": "In triangle ABC, which side is opposite angle C?",
+   "back": "Side AB",
+   "options": [
+    {
+     "text": "Side AB",
+     "correct": true,
+     "explanation": "Angle C is formed at vertex C, so the side that does not meet that vertex is AB. Therefore, AB is opposite angle C."
+    },
+    {
+     "text": "Side AC",
+     "correct": false,
+     "explanation": "AC meets angle C at vertex C, so it is adjacent to that angle. The side opposite angle C is AB because it does not touch vertex C."
+    },
+    {
+     "text": "Side BC",
+     "correct": false,
+     "explanation": "BC meets angle C at vertex C, making it adjacent rather than opposite. AB is the only side that does not meet vertex C."
+    },
+    {
+     "text": "Side C",
+     "correct": false,
+     "explanation": "C labels a vertex and angle here, not one of the triangle’s named sides. The side lying opposite vertex C is AB."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "e1ac58cb-ae46-4db2-a682-3d968cb41006",
+   "card_type": "basic",
+   "front": "What is the minimum information required to use the sine rule?",
+   "back": "One complete opposite pair (side and angle)One other side or angle",
+   "options": [
+    {
+     "text": "One complete opposite pair (side and angle)One other side or angle",
+     "correct": true,
+     "explanation": "The sine rule requires one known side and its opposite angle to form a complete ratio, plus another side or angle whose corresponding value can be found."
+    },
+    {
+     "text": "Two known side lengthsNo known angles",
+     "correct": false,
+     "explanation": "Two sides alone do not provide a known sine-rule ratio because neither opposite angle is known. One complete opposite side-angle pair and one additional value are required."
+    },
+    {
+     "text": "Two known anglesNo known sides",
+     "correct": false,
+     "explanation": "Two angles alone determine the triangle’s shape but not its scale, so no side length can be calculated. A complete opposite pair and another value are needed."
+    },
+    {
+     "text": "One adjacent pair (side and angle)One other side or angle",
+     "correct": false,
+     "explanation": "An adjacent side-angle pair cannot form a matching sine-rule ratio. The known side and angle must be opposite each other, with one additional side or angle."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "6fff3fa4-3c7c-48af-91f2-6dd62cd79249",
+   "card_type": "basic",
+   "front": "What calculation should be performed first if a triangle has two known angles and one side?",
+   "back": "Find the third angle using the $180^\\text{o}$ sum rule.",
+   "options": [
+    {
+     "text": "Find the third angle using the $180^\\text{o}$ sum rule.",
+     "correct": true,
+     "explanation": "The interior angles of a triangle total $180^\\text{o}$. Subtracting the two known angles gives the third angle, which may complete the opposite pair needed for the sine rule."
+    },
+    {
+     "text": "Find the missing side using the sine rule immediately.",
+     "correct": false,
+     "explanation": "The sine rule should not be applied before identifying the required opposite side-angle pairs. First find the third angle by subtracting the two known angles from $180^\\text{o}$."
+    },
+    {
+     "text": "Find the angle total by adding the two known angles.",
+     "correct": false,
+     "explanation": "Adding the known angles does not directly give the missing angle. The third angle equals $180^\\text{o}$ minus the sum of the two known angles."
+    },
+    {
+     "text": "Find the third angle using the $90^\\text{o}$ sum rule.",
+     "correct": false,
+     "explanation": "Using $90^\\text{o}$ incorrectly assumes that the triangle is right-angled. For any triangle, subtract the two known angles from the full $180^\\text{o}$ angle sum."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "c222ef0a-2021-4edc-91bb-faee07900135",
+   "card_type": "cloze",
+   "front": "When using the sine rule, ensure your calculator is in [ ___ ] mode.",
+   "back": "When using the sine rule, ensure your calculator is in degrees mode.",
+   "options": [
+    {
+     "text": "degrees",
+     "correct": true,
+     "explanation": "GCSE triangle angles are measured in degrees unless stated otherwise, so degree mode ensures that sine values and inverse-sine results use the correct angular unit."
+    },
+    {
+     "text": "radians",
+     "correct": false,
+     "explanation": "Radians are a different unit of angular measure and would produce unsuitable sine values for angles given in degrees. The calculator must be set to degrees mode."
+    },
+    {
+     "text": "gradians",
+     "correct": false,
+     "explanation": "Gradians divide a full turn into 400 units rather than 360, so they do not match GCSE angles stated in degrees. Use degrees mode instead."
+    },
+    {
+     "text": "standard form",
+     "correct": false,
+     "explanation": "Standard form controls how numbers are displayed, not how trigonometric angles are interpreted. The calculator’s angular setting must be degrees mode."
+    }
+   ]
+  },
+  {
+   "id": "f6885c4e-3a35-4528-bac9-da73ff946f61",
+   "card_type": "basic",
+   "front": "When calculating a missing side, how should the sine rule formula be arranged?",
+   "back": "Side lengths on top: $\\frac{a}{\\sin A} = \\frac{b}{\\sin B}$",
+   "options": [
+    {
+     "text": "Side lengths on top: $\\frac{a}{\\sin A} = \\frac{b}{\\sin B}$",
+     "correct": true,
+     "explanation": "Placing each side above the sine of its opposite angle makes it straightforward to rearrange for an unknown side while preserving the correct opposite pairings."
+    },
+    {
+     "text": "Side lengths on top: $\\frac{a}{\\sin B} = \\frac{b}{\\sin A}$",
+     "correct": false,
+     "explanation": "This crosses the opposite pairs: side $a$ belongs with angle $A$, while side $b$ belongs with angle $B$. The correct ratios are $\\frac{a}{\\sin A}=\\frac{b}{\\sin B}$."
+    },
+    {
+     "text": "Angles on top: $\\frac{A}{a} = \\frac{B}{b}$",
+     "correct": false,
+     "explanation": "The sine rule uses the sine of each angle, not the raw angle itself. For a missing side, use $\\frac{a}{\\sin A}=\\frac{b}{\\sin B}$."
+    },
+    {
+     "text": "Side lengths on top: $\\frac{a}{\\cos A} = \\frac{b}{\\cos B}$",
+     "correct": false,
+     "explanation": "Using cosine confuses the sine rule with cosine-based methods. Each side must be divided by the sine of its opposite angle: $\\frac{a}{\\sin A}=\\frac{b}{\\sin B}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "71a2d39a-fd20-4bef-bf00-a87494cf2821",
+   "card_type": "basic",
+   "front": "When calculating a missing angle, how should the sine rule formula be arranged?",
+   "back": "Sines on top: $\\frac{\\sin A}{a} = \\frac{\\sin B}{b}$",
+   "options": [
+    {
+     "text": "Sines on top: $\\frac{\\sin A}{a} = \\frac{\\sin B}{b}$",
+     "correct": true,
+     "explanation": "Placing each angle’s sine above its opposite side allows the equation to be rearranged to isolate the sine of the missing angle before using inverse sine."
+    },
+    {
+     "text": "Sines on top: $\\frac{\\sin A}{b} = \\frac{\\sin B}{a}$",
+     "correct": false,
+     "explanation": "The denominators have been paired with the wrong angles. Angle $A$ is opposite side $a$ and angle $B$ is opposite side $b$, giving $\\frac{\\sin A}{a}=\\frac{\\sin B}{b}$."
+    },
+    {
+     "text": "Cosines on top: $\\frac{\\cos A}{a} = \\frac{\\cos B}{b}$",
+     "correct": false,
+     "explanation": "The sine rule requires sine rather than cosine, so this applies the wrong trigonometric function. The correct arrangement is $\\frac{\\sin A}{a}=\\frac{\\sin B}{b}$."
+    },
+    {
+     "text": "Angles on top: $\\frac{A}{a} = \\frac{B}{b}$",
+     "correct": false,
+     "explanation": "Using raw angle values instead of their sines is not the sine rule. The required ratios are $\\frac{\\sin A}{a}=\\frac{\\sin B}{b}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "1798bd6c-e847-49c0-9eeb-fb69ac2afd8a",
+   "card_type": "cloze",
+   "front": "To find a missing side, the formula is: $\\frac{\\text{[...]}}{\\sin A} = \\frac{b}{\\sin B}$",
+   "back": "To find a missing side, the formula is: $\\frac{\\boxed{a}}{\\sin A} = \\frac{b}{\\sin B}$",
+   "options": [
+    {
+     "text": "$$a$",
+     "correct": true,
+     "explanation": "The sine rule pairs each side with the sine of its opposite angle. Side $a$ is opposite angle $A$, so the numerator above $\\sin A$ must be $a$."
+    },
+    {
+     "text": "$$b$",
+     "correct": false,
+     "explanation": "Using $b$ above $\\sin A$ incorrectly pairs side $b$ with angle $A$. Side $b$ is opposite $B$, while the side paired with $\\sin A$ is $a$."
+    },
+    {
+     "text": "$$c$",
+     "correct": false,
+     "explanation": "Using $c$ confuses the three corresponding side-angle pairs. Side $c$ belongs with $\\sin C$; because the denominator is $\\sin A$, the numerator must be $a$."
+    },
+    {
+     "text": "$$d$",
+     "correct": false,
+     "explanation": "A triangle conventionally labels its three opposite side-angle pairs as $a,A$, $b,B$, and $c,C$. There is no corresponding $d$ here, so $\\sin A$ must pair with $a$."
+    }
+   ]
+  },
+  {
+   "id": "df2b5383-18c0-403b-993e-738c576c68ae",
+   "card_type": "cloze",
+   "front": "To find a missing side, the formula is: $\\frac{a}{\\text{[...]}} = \\frac{b}{\\sin B}$",
+   "back": "To find a missing side, the formula is: $\\frac{a}{\\boxed{\\sin A}} = \\frac{b}{\\sin B}$",
+   "options": [
+    {
+     "text": "$$\\sin A$",
+     "correct": true,
+     "explanation": "Side $a$ is opposite angle $A$, so its denominator must be the sine of that angle. This creates the corresponding ratio $\\frac{a}{\\sin A}$."
+    },
+    {
+     "text": "$$A$",
+     "correct": false,
+     "explanation": "The sine rule uses the sine of an angle, not the angle value itself. The denominator paired with side $a$ must therefore be $\\sin A$."
+    },
+    {
+     "text": "$$\\cos A$",
+     "correct": false,
+     "explanation": "Using cosine confuses the sine rule with a different trigonometric relationship. Side $a$ must be divided by the sine of its opposite angle, $\\sin A$."
+    },
+    {
+     "text": "$$\\sin B$",
+     "correct": false,
+     "explanation": "Angle $B$ is opposite side $b$, not side $a$. Keeping opposite pairs together means the denominator beneath $a$ must be $\\sin A$."
+    }
+   ]
+  },
+  {
+   "id": "2c1c547b-c66f-4cdb-9e5d-16587ae678c3",
+   "card_type": "cloze",
+   "front": "To find a missing angle, the formula is: $\\frac{\\text{[...]}}{a} = \\frac{\\sin B}{b}$",
+   "back": "To find a missing angle, the formula is: $\\frac{\\boxed{\\sin A}}{a} = \\frac{\\sin B}{b}$",
+   "options": [
+    {
+     "text": "$$\\sin A$",
+     "correct": true,
+     "explanation": "The sine rule pairs side $a$ with its opposite angle $A$, so the corresponding numerator is $\\sin A$."
+    },
+    {
+     "text": "$$\\cos A$",
+     "correct": false,
+     "explanation": "This confuses the sine rule with a cosine relationship. The numerator must be $\\sin A$ because each side is paired with the sine of its opposite angle."
+    },
+    {
+     "text": "$$\\sin B$",
+     "correct": false,
+     "explanation": "This incorrectly pairs side $a$ with angle $B$. The sine rule matches each side with its opposite angle, so the numerator must be $\\sin A$."
+    },
+    {
+     "text": "$$\\cos B$",
+     "correct": false,
+     "explanation": "This uses both the wrong trigonometric function and the wrong angle. Side $a$ must be paired with $\\sin A$ in the sine rule."
+    }
+   ]
+  },
+  {
+   "id": "7fec63fb-dfed-446d-9d43-050db145d26b",
+   "card_type": "cloze",
+   "front": "To find a missing angle, the formula is: $\\frac{\\sin A}{\\text{[...]}} = \\frac{\\sin B}{b}$",
+   "back": "To find a missing angle, the formula is: $\\frac{\\sin A}{\\boxed{a}} = \\frac{\\sin B}{b}$",
+   "options": [
+    {
+     "text": "$$a$",
+     "correct": true,
+     "explanation": "Angle $A$ is opposite side $a$, so the sine rule forms the corresponding ratio $\\frac{\\sin A}{a}$."
+    },
+    {
+     "text": "$$b$",
+     "correct": false,
+     "explanation": "This pairs angle $A$ with the side opposite angle $B$. Each sine must be paired with its corresponding opposite side, so the denominator is $a$."
+    },
+    {
+     "text": "$$2a$",
+     "correct": false,
+     "explanation": "This introduces an unnecessary factor of two, perhaps confused with the triangle area formula. The side opposite angle $A$ is simply $a$."
+    },
+    {
+     "text": "$$c$",
+     "correct": false,
+     "explanation": "This incorrectly pairs angle $A$ with the side opposite angle $C$. In standard triangle notation, angle $A$ is opposite side $a$."
+    }
+   ]
+  },
+  {
+   "id": "2388c1fb-9349-492b-95c4-4d48e3ef2392",
+   "card_type": "basic",
+   "front": "What is the purpose of the inverse sine ($\\sin^{-1}$) function in this topic?",
+   "back": "To find an angle from its sine value.",
+   "options": [
+    {
+     "text": "To find an angle from its sine value.",
+     "correct": true,
+     "explanation": "After rearranging the sine rule to obtain $\\sin A$, applying $\\sin^{-1}$ gives the corresponding angle $A$."
+    },
+    {
+     "text": "To find a side length from an angle.",
+     "correct": false,
+     "explanation": "Finding a side length requires rearranging the sine rule, not applying inverse sine alone. The inverse sine function converts a known sine value into an angle."
+    },
+    {
+     "text": "To find a sine value from an angle.",
+     "correct": false,
+     "explanation": "This describes the ordinary sine function rather than inverse sine. The inverse function $\\sin^{-1}$ takes a sine value and returns the corresponding angle."
+    },
+    {
+     "text": "To find a cosine value from an angle.",
+     "correct": false,
+     "explanation": "Cosine values are calculated using the cosine function, not inverse sine. In this topic, $\\sin^{-1}$ is used to recover an angle from its sine value."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "d2fa635d-10cc-4b2e-854b-2a08170f27d5",
+   "card_type": "basic",
+   "front": "Why should side lengths be kept as full calculator values until the final step?",
+   "back": "To prevent rounding errors in the final perimeter or area.",
+   "options": [
+    {
+     "text": "To prevent rounding errors in the final perimeter or area.",
+     "correct": true,
+     "explanation": "Rounding intermediate side lengths can carry inaccuracies into later addition or area calculations. Keeping full calculator values preserves accuracy until the final answer is rounded."
+    },
+    {
+     "text": "To prevent unit errors in the final perimeter or area.",
+     "correct": false,
+     "explanation": "Units must be handled consistently, but retaining full calculator values does not prevent unit errors. It prevents intermediate rounding from reducing the accuracy of the final result."
+    },
+    {
+     "text": "To prevent angle errors in the final perimeter or area.",
+     "correct": false,
+     "explanation": "Angle errors arise from using the wrong angle or calculator mode, not from storing full side values. Full values are retained to minimise accumulated rounding errors."
+    },
+    {
+     "text": "To prevent formula errors in the final perimeter or area.",
+     "correct": false,
+     "explanation": "Keeping extra decimal places cannot correct a wrongly selected formula. Its purpose is to avoid accumulating rounding errors before the final perimeter or area is calculated."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "15c29b2f-97d5-40da-b7b8-2a0d92042e7a",
+   "card_type": "basic",
+   "front": "What are the two steps to find the perimeter of a triangle using the sine rule?",
+   "back": "Calculate all missing side lengthsAdd all three sides together",
+   "options": [
+    {
+     "text": "Calculate all missing side lengthsAdd all three sides together",
+     "correct": true,
+     "explanation": "Perimeter is the total distance around a shape. After the sine rule supplies any unknown side lengths, all three sides of the triangle must be added."
+    },
+    {
+     "text": "Calculate all missing angle sizesAdd all three angles together",
+     "correct": false,
+     "explanation": "Adding the angles confirms their total is $180^\\circ$, but it does not give perimeter. The missing side lengths must be calculated and all three sides added."
+    },
+    {
+     "text": "Calculate all missing side lengthsMultiply all three sides together",
+     "correct": false,
+     "explanation": "Multiplying the side lengths does not measure the boundary of a triangle. Once missing sides are found, perimeter is calculated by adding all three side lengths."
+    },
+    {
+     "text": "Calculate all missing side lengthsAdd only two sides together",
+     "correct": false,
+     "explanation": "This omits one edge of the triangle, so it cannot give the complete distance around it. Perimeter requires the sum of all three side lengths."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "2a9d1642-9fca-4804-abed-e6ce0304b655",
+   "card_type": "basic",
+   "front": "What is the formula for the area of a non-right-angled triangle?",
+   "back": "$$\\text{Area} = \\frac{1}{2}ab\\sin C$",
+   "options": [
+    {
+     "text": "$$\\text{Area} = \\frac{1}{2}ab\\sin C$",
+     "correct": true,
+     "explanation": "Two side lengths and their included angle determine the area. Multiplying $ab$ by $\\sin C$ gives the corresponding perpendicular component, then halving gives the triangle’s area."
+    },
+    {
+     "text": "$$\\text{Area} = ab\\sin C$",
+     "correct": false,
+     "explanation": "This misses the factor of $\\frac{1}{2}$, doubling the triangle’s area. The correct formula is $\\text{Area} = \\frac{1}{2}ab\\sin C$."
+    },
+    {
+     "text": "$$\\text{Area} = \\frac{1}{2}ab\\cos C$",
+     "correct": false,
+     "explanation": "This substitutes cosine for sine, confusing the area formula with relationships from the cosine rule. The area uses $\\sin C$ with the two enclosing sides."
+    },
+    {
+     "text": "$$\\text{Area} = \\frac{1}{2}(a + b)\\sin C$",
+     "correct": false,
+     "explanation": "The side lengths must be multiplied, not added, because area is based on base times perpendicular height. The correct formula is $\\frac{1}{2}ab\\sin C$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "1ea33514-520d-45cc-9e2f-5cc2c291a63b",
+   "card_type": "basic",
+   "front": "In the area formula $\\frac{1}{2}ab\\sin C$, what does C represent?",
+   "back": "The included angle (the angle between sides $a$ and $b$).",
+   "options": [
+    {
+     "text": "The included angle (the angle between sides $a$ and $b$).",
+     "correct": true,
+     "explanation": "In $\\frac{1}{2}ab\\sin C$, angle $C$ must lie between the two side lengths being multiplied, $a$ and $b$."
+    },
+    {
+     "text": "The included angle (the angle between sides $a$ and $c$).",
+     "correct": false,
+     "explanation": "The angle between sides $a$ and $c$ is angle $B$ in standard notation. The formula shown uses angle $C$, which lies between sides $a$ and $b$."
+    },
+    {
+     "text": "The included angle (the angle between sides $b$ and $c$).",
+     "correct": false,
+     "explanation": "The angle between sides $b$ and $c$ is angle $A$, not angle $C$. Here, $C$ is the included angle between sides $a$ and $b$."
+    },
+    {
+     "text": "The exterior angle (the angle outside sides $a$ and $b$).",
+     "correct": false,
+     "explanation": "The standard area formula uses the interior included angle between the two known sides. Therefore, $C$ is the interior angle between $a$ and $b$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "567cbda6-94c0-4687-9f5b-171a98e9348d",
+   "card_type": "cloze",
+   "front": "In the ambiguous case, the identity used to find obtuse angles is $\\sin \\theta = \\sin(\\text{[...]})$.",
+   "back": "In the ambiguous case, the identity used to find obtuse angles is $\\sin \\theta = \\sin(\\boxed{180^\\circ - \\theta})$.",
+   "options": [
+    {
+     "text": "$$180^\\circ - \\theta$",
+     "correct": true,
+     "explanation": "Sine is positive in the first and second quadrants, so an acute angle $\\theta$ and its supplementary obtuse angle $180^\\circ - \\theta$ have equal sine values."
+    },
+    {
+     "text": "$$360^\\circ - \\theta$",
+     "correct": false,
+     "explanation": "This gives a reflex angle with the opposite sine sign for angles between $0^\\circ$ and $180^\\circ$. The supplementary angle is found using $180^\\circ - \\theta$."
+    },
+    {
+     "text": "$$90^\\circ - \\theta$",
+     "correct": false,
+     "explanation": "This is the complementary angle and its sine generally equals $\\cos\\theta$, not $\\sin\\theta$. The second possible triangle angle is $180^\\circ - \\theta$."
+    },
+    {
+     "text": "$$180^\\circ + \\theta$",
+     "correct": false,
+     "explanation": "Adding $180^\\circ$ changes the sign of the sine, so it does not produce the same positive sine value. The obtuse alternative is $180^\\circ - \\theta$."
+    }
+   ]
+  },
+  {
+   "id": "1a087713-39aa-4044-9f0e-97a0b9a11688",
+   "card_type": "basic",
+   "front": "If $\\sin^{-1}$ gives an acute angle of $52.6^\\circ$ but the question states the angle is obtuse, what is the value?",
+   "back": "$$180^\\circ - 52.6^\\circ = 127.4^\\circ$",
+   "options": [
+    {
+     "text": "$$180^\\circ - 52.6^\\circ = 127.4^\\circ$",
+     "correct": true,
+     "explanation": "The sine of an acute angle equals the sine of its supplementary obtuse angle. Subtracting $52.6^\\circ$ from $180^\\circ$ therefore gives the required obtuse angle, $127.4^\\circ$."
+    },
+    {
+     "text": "$$180^\\circ + 52.6^\\circ = 232.6^\\circ$",
+     "correct": false,
+     "explanation": "Adding the acute angle produces a reflex angle rather than an obtuse one. The supplementary angle is found by subtraction: $180^\\circ - 52.6^\\circ = 127.4^\\circ$."
+    },
+    {
+     "text": "$$90^\\circ + 52.6^\\circ = 142.6^\\circ$",
+     "correct": false,
+     "explanation": "Adding the angle to $90^\\circ$ does not produce the supplementary angle with the same sine. Subtract from $180^\\circ$ instead, giving $127.4^\\circ$."
+    },
+    {
+     "text": "$$180^\\circ - 52.6^\\circ = 137.4^\\circ$",
+     "correct": false,
+     "explanation": "The correct method is shown, but the subtraction contains an arithmetic error. Calculating it accurately gives $180^\\circ - 52.6^\\circ = 127.4^\\circ$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "9aa2d7e0-83ad-453b-86f5-8e9cc93a4492",
+   "card_type": "basic",
+   "front": "How do you identify an opposite side for the sine rule?",
+   "back": "It is the side across from the angle, not touching the angle's vertex.",
+   "options": [
+    {
+     "text": "It is the side across from the angle, not touching the angle's vertex.",
+     "correct": true,
+     "explanation": "An opposite side lies directly across the triangle from its corresponding angle. It does not meet that angle's vertex, so the side and angle form a sine-rule pair."
+    },
+    {
+     "text": "It is the side next to the angle, touching the angle's vertex.",
+     "correct": false,
+     "explanation": "A side touching the angle's vertex is adjacent, not opposite. The opposite side lies across from the angle and does not touch the angle's vertex."
+    },
+    {
+     "text": "It is the side longest in the triangle, regardless of the angle's vertex.",
+     "correct": false,
+     "explanation": "The longest side is opposite the largest angle, but it is not automatically opposite every chosen angle. Identify the side directly across from the specific angle."
+    },
+    {
+     "text": "It is the side shortest in the triangle, regardless of the angle's vertex.",
+     "correct": false,
+     "explanation": "The shortest side is opposite the smallest angle, but side length alone does not identify an opposite pair. Use the side directly across from the specified angle."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "dc0b8154-7762-4751-8986-f2779262b564",
+   "card_type": "basic",
+   "front": "When given side $c$, angle $C$, and side $a$, how do you find angle A?",
+   "back": "$$\\sin A = \\frac{a \\sin C}{c}$ followed by $\\sin^{-1}$.",
+   "options": [
+    {
+     "text": "$$\\sin A = \\frac{a \\sin C}{c}$ followed by $\\sin^{-1}$.",
+     "correct": true,
+     "explanation": "From the sine rule, $\\frac{a}{\\sin A}=\\frac{c}{\\sin C}$. Rearranging gives $\\sin A=\\frac{a\\sin C}{c}$, then inverse sine gives the angle."
+    },
+    {
+     "text": "$$\\sin A = \\frac{c \\sin C}{a}$ followed by $\\sin^{-1}$.",
+     "correct": false,
+     "explanation": "This reverses the side ratio when rearranging the sine rule. Matching each side with its opposite angle gives $\\sin A=\\frac{a\\sin C}{c}$ before applying inverse sine."
+    },
+    {
+     "text": "$$\\sin A = \\frac{a \\cos C}{c}$ followed by $\\sin^{-1}$.",
+     "correct": false,
+     "explanation": "This incorrectly replaces the sine of the known angle with cosine. The sine rule uses sine for both angles, so $\\sin A=\\frac{a\\sin C}{c}$."
+    },
+    {
+     "text": "$$\\sin A = \\frac{c \\cos C}{a}$ followed by $\\sin^{-1}$.",
+     "correct": false,
+     "explanation": "This both reverses the required side ratio and uses cosine instead of sine. Correct rearrangement of the sine rule gives $\\sin A=\\frac{a\\sin C}{c}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "81eb2766-81cc-4a2e-a3d3-eff199738e7e",
+   "card_type": "basic",
+   "front": "What specific condition triggers the 'ambiguous case' (obtuse angle twist)?",
+   "back": "When a calculated angle could be acute or obtuse, and the problem specifies which one to use.",
+   "options": [
+    {
+     "text": "When a calculated angle could be acute or obtuse, and the problem specifies which one to use.",
+     "correct": true,
+     "explanation": "Sine has the same positive value for supplementary acute and obtuse angles. If the question specifies the angle type, this determines whether to use the inverse-sine result or its supplement."
+    },
+    {
+     "text": "When a calculated angle could be acute or right-angled, and the problem specifies which one to use.",
+     "correct": false,
+     "explanation": "A positive sine value generally pairs an acute angle with its supplementary obtuse angle, not a right angle. The ambiguity is resolved by choosing acute or obtuse as specified."
+    },
+    {
+     "text": "When a calculated angle could be obtuse or reflex, and the problem specifies which one to use.",
+     "correct": false,
+     "explanation": "Interior angles of a triangle cannot be reflex, so this is not the sine-rule ambiguity. The possible supplementary solutions within the relevant range are acute and obtuse."
+    },
+    {
+     "text": "When a calculated angle could be equal or complementary, and the problem specifies which one to use.",
+     "correct": false,
+     "explanation": "Complementary angles add to $90^\\circ$ and do not generally have equal sines. The ambiguous case concerns supplementary acute and obtuse angles, which add to $180^\\circ$."
+    }
+   ],
+   "points": 1
+  }
+ ],
+ "card_count": 20,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-7-7-12-the-sine-rule/flashcards",
+ "source_sha256": "4a699234492552a810be46c1163c3a70c2f46fd684162b3c5a5a34994cf0c0cf",
+ "extracted_at": "2026-11-08T17:55:05Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}

@@ -1,0 +1,728 @@
+{
+ "topic": "grade-2-2-13-frequency-polygons",
+ "lane": "gcse-maths-edexcel",
+ "grade": "2",
+ "tier": null,
+ "title": "Frequency Polygons Flashcards",
+ "cards": [
+  {
+   "id": "51e09a5a-6ec8-4767-81e6-57ecbf8cae1c",
+   "card_type": "basic",
+   "front": "What does frequency represent in a grouped data table?",
+   "back": "How many values are in a specific group or interval.",
+   "options": [
+    {
+     "text": "How many values are in a specific group or interval.",
+     "correct": true,
+     "explanation": "Frequency is the count of data values belonging to a particular class interval. A higher frequency means that more observations fall within that group."
+    },
+    {
+     "text": "How wide the class is between its two boundaries.",
+     "correct": false,
+     "explanation": "This describes the class width, found by subtracting the lower boundary from the upper boundary. Frequency instead counts how many data values are in the interval."
+    },
+    {
+     "text": "How large the midpoint is within a specific group or interval.",
+     "correct": false,
+     "explanation": "The midpoint gives the central value of a class interval, not its frequency. Frequency is the number of data values that belong to the interval."
+    },
+    {
+     "text": "How spread out the values are in a specific group or interval.",
+     "correct": false,
+     "explanation": "Spread describes variation in the data and cannot be determined from a class frequency alone. Frequency is simply the number of values in that interval."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "3d5c3d11-15c0-494a-bb9a-ee2d1775c615",
+   "card_type": "cloze",
+   "front": "In the class interval $20 [ ___ ].",
+   "back": "In the class interval $20 < t \\leq 30$, the values are greater than 20 and up to and including 30.",
+   "options": [
+    {
+     "text": "up to and including 30",
+     "correct": true,
+     "explanation": "The inequality $t \\leq 30$ includes 30 as the greatest permitted value. Combined with $20 < t$, it represents values above 20 and up to and including 30."
+    },
+    {
+     "text": "up to but not including 30",
+     "correct": false,
+     "explanation": "Excluding 30 would correspond to $t < 30$. The symbol $\\leq$ means less than or equal to, so 30 is included in the interval."
+    },
+    {
+     "text": "at least 30",
+     "correct": false,
+     "explanation": "At least 30 means $t \\geq 30$, which extends above 30 rather than ending there. The interval includes values above 20 up to and including 30."
+    },
+    {
+     "text": "greater than 30",
+     "correct": false,
+     "explanation": "This reverses the upper restriction and would allow values beyond 30. The condition $t \\leq 30$ means that values are up to and including 30."
+    }
+   ]
+  },
+  {
+   "id": "97c524d8-f376-4bb8-a23b-633463936bce",
+   "card_type": "basic",
+   "front": "What is the formula to calculate the midpoint of a class interval?",
+   "back": "$$$\\text{midpoint}=\\frac{\\text{lower end}+\\text{upper end}}{2}$$",
+   "options": [
+    {
+     "text": "$$$\\text{midpoint}=\\frac{\\text{lower end}+\\text{upper end}}{2}$$",
+     "correct": true,
+     "explanation": "The midpoint is the mean of the two class ends. Adding the lower and upper ends and dividing by 2 gives the value halfway between them."
+    },
+    {
+     "text": "$$$\\text{midpoint}=\\text{upper end}-\\text{lower end}$$",
+     "correct": false,
+     "explanation": "Subtracting the lower end from the upper end calculates the class width, not its midpoint. The midpoint is found by adding both ends and dividing by 2."
+    },
+    {
+     "text": "$$$\\text{midpoint}=\\frac{\\text{upper end}-\\text{lower end}}{2}$$",
+     "correct": false,
+     "explanation": "This calculates half of the class width but fails to add the lower end, so it is not the class’s location. Average the two ends instead."
+    },
+    {
+     "text": "$$$\\text{midpoint}=\\text{lower end}+\\text{upper end}$$",
+     "correct": false,
+     "explanation": "This adds the class ends but omits the division by 2, making the result twice the required average. The midpoint is their sum divided by 2."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "d6643a0f-f25a-41c9-bd0b-c84a73886f23",
+   "card_type": "cloze",
+   "front": "For a frequency polygon, the x-coordinate is the [ ___ ] and the y-coordinate is the frequency.",
+   "back": "For a frequency polygon, the x-coordinate is the midpoint and the y-coordinate is the frequency.",
+   "options": [
+    {
+     "text": "midpoint",
+     "correct": true,
+     "explanation": "Each class interval is represented horizontally by its midpoint. This places the plotted point at the centre of the interval while its vertical coordinate shows the frequency."
+    },
+    {
+     "text": "lower boundary",
+     "correct": false,
+     "explanation": "Using the lower boundary shifts every point to the left edge of its interval. A frequency polygon uses the class midpoint as each point’s x-coordinate."
+    },
+    {
+     "text": "upper boundary",
+     "correct": false,
+     "explanation": "Using the upper boundary places each point at the right edge rather than the centre. The correct x-coordinate is the midpoint of the class interval."
+    },
+    {
+     "text": "class width",
+     "correct": false,
+     "explanation": "Class width measures the size of an interval and is not its horizontal position. The x-coordinate should be the interval’s midpoint, paired with its frequency."
+    }
+   ]
+  },
+  {
+   "id": "efacff9d-299b-4fb8-be3f-f03111b8aa0a",
+   "card_type": "cloze",
+   "front": "For a frequency polygon, the x-coordinate is the midpoint and the y-coordinate is the [ ___ ].",
+   "back": "For a frequency polygon, the x-coordinate is the midpoint and the y-coordinate is the frequency.",
+   "options": [
+    {
+     "text": "frequency",
+     "correct": true,
+     "explanation": "The y-coordinate shows how many observations fall in the class interval. Therefore, each class midpoint is plotted against that class’s frequency."
+    },
+    {
+     "text": "cumulative frequency",
+     "correct": false,
+     "explanation": "Cumulative frequency is used for a cumulative frequency graph and records a running total. An ordinary frequency polygon plots each class midpoint against its individual frequency."
+    },
+    {
+     "text": "frequency density",
+     "correct": false,
+     "explanation": "Frequency density is used for the vertical scale of a histogram, especially with unequal class widths. A frequency polygon here uses the actual frequency as its y-coordinate."
+    },
+    {
+     "text": "class width",
+     "correct": false,
+     "explanation": "Class width describes the horizontal span of an interval, not the height of its plotted point. The y-coordinate of a frequency polygon is the frequency."
+    }
+   ]
+  },
+  {
+   "id": "19c10f0d-22f9-40da-abed-9b42b964111c",
+   "card_type": "basic",
+   "front": "Where should a point be plotted horizontally for the interval $10 < x \\leq 20$?",
+   "back": "At the midpoint (15).",
+   "options": [
+    {
+     "text": "At the midpoint (15).",
+     "correct": true,
+     "explanation": "The midpoint is $(10+20)\\div2=15$. Frequency polygon points are placed horizontally at class midpoints, so this interval’s point has an x-coordinate of 15."
+    },
+    {
+     "text": "At the lower end (10).",
+     "correct": false,
+     "explanation": "Choosing 10 places the point at the interval’s lower boundary rather than its centre. The midpoint is $(10+20)\\div2=15$, so the point belongs at 15."
+    },
+    {
+     "text": "At the upper end (20).",
+     "correct": false,
+     "explanation": "Choosing 20 confuses the interval’s upper boundary with its representative value. Averaging the two ends gives $(10+20)\\div2=15$, the correct horizontal position."
+    },
+    {
+     "text": "At the class width (10).",
+     "correct": false,
+     "explanation": "Subtracting $10$ from $20$ gives the class width, not the horizontal coordinate. The point must be plotted at the midpoint, $(10+20)\\div2=15$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "e1da7db4-4e4d-472f-8ba9-120fce1d079c",
+   "card_type": "basic",
+   "front": "What is the common mistake when choosing the horizontal position for a frequency polygon point?",
+   "back": "Plotting at the interval ends (boundaries) instead of the midpoint.",
+   "options": [
+    {
+     "text": "Plotting at the interval ends (boundaries) instead of the midpoint.",
+     "correct": true,
+     "explanation": "Frequency polygon points represent whole class intervals, so they belong at class midpoints. Using interval boundaries incorrectly shifts the points away from the centres of their groups."
+    },
+    {
+     "text": "Plotting at the class midpoints instead of the interval ends.",
+     "correct": false,
+     "explanation": "Using class midpoints is the correct method, not a mistake. The actual common error is plotting points at interval boundaries rather than halfway between them."
+    },
+    {
+     "text": "Using the frequency as the vertical coordinate instead of frequency density.",
+     "correct": false,
+     "explanation": "Frequency is the intended vertical coordinate for an ordinary frequency polygon. The relevant common mistake is horizontal: using interval ends instead of class midpoints."
+    },
+    {
+     "text": "Joining points with straight line segments instead of a smooth curve.",
+     "correct": false,
+     "explanation": "Straight line segments are the correct way to connect frequency polygon points. The common positioning error is using class boundaries rather than the midpoint of each interval."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "ab617d7d-3ac4-4e87-89fc-597e735b3560",
+   "card_type": "basic",
+   "front": "How are the points in a frequency polygon connected?",
+   "back": "With straight line segments using a ruler.",
+   "options": [
+    {
+     "text": "With straight line segments using a ruler.",
+     "correct": true,
+     "explanation": "A frequency polygon is formed by joining consecutive plotted points with straight line segments. A ruler ensures that the connections are straight and accurately drawn."
+    },
+    {
+     "text": "With smooth curved segments drawn freehand.",
+     "correct": false,
+     "explanation": "A smooth curve would change the standard form of the graph and suggest unplotted intermediate behaviour. Frequency polygon points should be joined by straight line segments."
+    },
+    {
+     "text": "With vertical line segments from each point.",
+     "correct": false,
+     "explanation": "Vertical lines from individual points would produce a different type of graph and would not connect successive classes. Frequency polygon points are joined to one another with straight segments."
+    },
+    {
+     "text": "With touching rectangular bars using a ruler.",
+     "correct": false,
+     "explanation": "Touching rectangular bars form a histogram, not a frequency polygon. A frequency polygon connects the plotted class-midpoint points using straight line segments."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "d65bbab1-a32f-4ad8-814e-66a491009589",
+   "card_type": "basic",
+   "front": "What are the three main steps to draw a frequency polygon from a table?",
+   "back": "Find the midpoint of each intervalPlot the midpoint vs frequency as coordinatesJoin neighboring points with straight lines",
+   "options": [
+    {
+     "text": "Find the midpoint of each intervalPlot the midpoint vs frequency as coordinatesJoin neighboring points with straight lines",
+     "correct": true,
+     "explanation": "Each class interval is represented by its midpoint, which is plotted against the frequency. Joining consecutive coordinates with straight lines produces the frequency polygon."
+    },
+    {
+     "text": "Find the width of each intervalPlot the interval vs frequency as coordinatesJoin neighboring points with curved lines",
+     "correct": false,
+     "explanation": "Using interval widths and curved lines does not locate the centre of each class or create the required graph. The correct method uses midpoints, midpoint-frequency coordinates, and straight lines."
+    },
+    {
+     "text": "Find the upper bound of each intervalPlot the frequency vs midpoint as coordinatesJoin every point with vertical lines",
+     "correct": false,
+     "explanation": "Upper bounds place points at class edges, and vertical joins do not show how frequencies change across intervals. Use each midpoint, plot midpoint against frequency, then join neighbouring points with straight lines."
+    },
+    {
+     "text": "Find the lower bound of each intervalPlot the frequency vs interval as coordinatesJoin neighboring points with bars",
+     "correct": false,
+     "explanation": "Lower bounds are not the representative x-values, and bars belong to a histogram rather than a frequency polygon. The correct construction uses interval midpoints and straight line segments between points."
+    }
+   ],
+   "points": 3
+  },
+  {
+   "id": "98bb478c-0ad7-4363-8fc2-192eb47e6285",
+   "card_type": "cloze",
+   "front": "A frequency polygon is a graph made from [ ___ ], never bars.",
+   "back": "A frequency polygon is a graph made from straight line pieces, never bars.",
+   "options": [
+    {
+     "text": "straight line pieces",
+     "correct": true,
+     "explanation": "A frequency polygon connects plotted frequency points with straight line segments, creating a continuous polygonal outline rather than separate rectangular bars."
+    },
+    {
+     "text": "curved line pieces",
+     "correct": false,
+     "explanation": "Curved segments would create a smooth curve, not a polygon. The correct graph uses straight line pieces joining the plotted midpoint-frequency coordinates."
+    },
+    {
+     "text": "rectangular columns",
+     "correct": false,
+     "explanation": "Rectangular columns represent bars, as in a histogram, rather than the connected segments of a frequency polygon. The correct construction uses straight line pieces."
+    },
+    {
+     "text": "scattered points",
+     "correct": false,
+     "explanation": "Unconnected points do not show the changing pattern between class midpoints. A frequency polygon is formed by joining those points with straight line pieces."
+    }
+   ]
+  },
+  {
+   "id": "be6de77b-e2a6-466c-aa96-4a90bc600497",
+   "card_type": "cloze",
+   "front": "A frequency polygon is a graph made from straight line pieces, never [ ___ ].",
+   "back": "A frequency polygon is a graph made from straight line pieces, never bars.",
+   "options": [
+    {
+     "text": "bars",
+     "correct": true,
+     "explanation": "Bars are separate rectangular columns used in diagrams such as histograms. A frequency polygon instead joins plotted points with straight line pieces."
+    },
+    {
+     "text": "points",
+     "correct": false,
+     "explanation": "Points are needed to construct a frequency polygon, but they are not what the graph excludes. The excluded feature is bars, because the polygon uses connected straight segments."
+    },
+    {
+     "text": "midpoints",
+     "correct": false,
+     "explanation": "Midpoints provide the x-coordinates for the plotted points, so they are an essential part of the graph. Bars, not midpoints, are never used in a frequency polygon."
+    },
+    {
+     "text": "frequencies",
+     "correct": false,
+     "explanation": "Frequencies provide the y-coordinates and are therefore essential to the graph. The feature that must not be used is bars, which would produce a histogram-like display."
+    }
+   ]
+  },
+  {
+   "id": "799ee6f7-993f-4c4b-a5c7-3b790ffb5afd",
+   "card_type": "basic",
+   "front": "What is the common mistake regarding the graph's origin $(0,0)$?",
+   "back": "Drawing separate lines from every point back to the origin.",
+   "options": [
+    {
+     "text": "Drawing separate lines from every point back to the origin.",
+     "correct": true,
+     "explanation": "The origin is not a hub for the plotted points. Each point should be joined only to its neighbouring point, so separate lines from every point would create an incorrect graph."
+    },
+    {
+     "text": "Joining the first point directly to the origin.",
+     "correct": false,
+     "explanation": "The first point should connect to its neighbour, not automatically to $(0,0)$. Drawing a line to the origin changes the polygon and introduces a relationship that the data do not show."
+    },
+    {
+     "text": "Starting the graph at (0,0) and omitting the first midpoint.",
+     "correct": false,
+     "explanation": "The origin does not replace a data point, and omitting the first midpoint loses part of the distribution. Plot every class midpoint and join adjacent plotted points."
+    },
+    {
+     "text": "Drawing a vertical line from each point to the x-axis.",
+     "correct": false,
+     "explanation": "Vertical guide lines may help read individual coordinates but are not the polygon itself. The common error is treating the origin or axes as connection points instead of joining neighbours."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "31e3eebf-0df2-46ae-93c2-eeb65c43d65d",
+   "card_type": "cloze",
+   "front": "In a frequency polygon, you must join [ ___ ] from left to right.",
+   "back": "In a frequency polygon, you must join neighboring points from left to right.",
+   "options": [
+    {
+     "text": "neighboring points",
+     "correct": true,
+     "explanation": "A frequency polygon is formed by connecting each plotted point to the next point in order. Joining neighbouring points preserves the pattern across successive class intervals."
+    },
+    {
+     "text": "class boundaries",
+     "correct": false,
+     "explanation": "Class boundaries mark the edges of intervals, not the plotted coordinates that define the polygon. The graph should join neighbouring midpoint-frequency points from left to right."
+    },
+    {
+     "text": "frequency labels",
+     "correct": false,
+     "explanation": "Frequency labels describe values but are not points to connect on the graph. The required joins are between neighbouring plotted points in their horizontal order."
+    },
+    {
+     "text": "the axes",
+     "correct": false,
+     "explanation": "The axes provide the coordinate frame and should not be treated as the objects being joined. A frequency polygon connects neighbouring data points from left to right."
+    }
+   ]
+  },
+  {
+   "id": "b5eddcb0-1fd7-4b8b-8f10-1eb2689f36cc",
+   "card_type": "cloze",
+   "front": "In a frequency polygon, you must join neighboring points from [ ___ ].",
+   "back": "In a frequency polygon, you must join neighboring points from left to right.",
+   "options": [
+    {
+     "text": "left to right",
+     "correct": true,
+     "explanation": "Joining points from left to right follows increasing x-values, normally the increasing class midpoints. This produces the frequency polygon in the correct order without crossing segments."
+    },
+    {
+     "text": "right to left",
+     "correct": false,
+     "explanation": "Reversing the direction is not the standard construction and can encourage joining points in the wrong sequence. The required order is from left to right across increasing midpoints."
+    },
+    {
+     "text": "bottom to top",
+     "correct": false,
+     "explanation": "The joining order is determined by horizontal position, not by which point has the smaller or larger frequency. Points should be connected from left to right."
+    },
+    {
+     "text": "the origin outward",
+     "correct": false,
+     "explanation": "The origin is not the starting hub for a frequency polygon. Connect successive plotted points according to their x-position, moving from left to right."
+    }
+   ]
+  },
+  {
+   "id": "7ecc1ade-65da-40ad-8450-9f12ad13a217",
+   "card_type": "basic",
+   "front": "Which axis must almost always start at 0?",
+   "back": "The vertical axis (y-axis / frequency).",
+   "options": [
+    {
+     "text": "The vertical axis (y-axis / frequency).",
+     "correct": true,
+     "explanation": "The vertical axis measures frequency, and starting it at zero preserves the visual meaning of the heights. A non-zero scale can exaggerate differences between frequencies."
+    },
+    {
+     "text": "The horizontal axis (x-axis / midpoint).",
+     "correct": false,
+     "explanation": "The horizontal axis may begin above zero when all data values are large, provided the scale is clear. It is the frequency axis that should almost always start at zero."
+    },
+    {
+     "text": "Both the horizontal and vertical axes.",
+     "correct": false,
+     "explanation": "The horizontal axis does not always need to start at zero, especially for large data values. The vertical frequency axis is the one that should almost always begin at zero."
+    },
+    {
+     "text": "Neither axis, because the origin is optional.",
+     "correct": false,
+     "explanation": "Although the horizontal scale may be truncated, the vertical frequency scale should generally start at zero to avoid misleading visual comparisons between frequencies."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "c9c88be0-77ff-4482-b7ea-4adfc9eac689",
+   "card_type": "cloze",
+   "front": "The horizontal axis (x-axis) does not always need to start at 0 if the [ ___ ] are much larger.",
+   "back": "The horizontal axis (x-axis) does not always need to start at 0 if the data values are much larger.",
+   "options": [
+    {
+     "text": "data values",
+     "correct": true,
+     "explanation": "If the data values are all relatively large, starting the horizontal scale at zero may waste space and make the graph less readable. A suitable non-zero start can be used."
+    },
+    {
+     "text": "frequencies",
+     "correct": false,
+     "explanation": "Frequencies are measured on the vertical axis, not the horizontal axis. The horizontal axis may avoid zero when the data values themselves are much larger."
+    },
+    {
+     "text": "class widths",
+     "correct": false,
+     "explanation": "Class widths describe the sizes of intervals but do not determine where the horizontal scale should begin. The relevant consideration is whether the data values are much larger."
+    },
+    {
+     "text": "axis labels",
+     "correct": false,
+     "explanation": "Labels identify the scale but do not justify starting the horizontal axis above zero. That choice depends on the size of the data values being plotted."
+    }
+   ]
+  },
+  {
+   "id": "498b0570-5cd0-4941-a58f-e3494e74a377",
+   "card_type": "basic",
+   "front": "How do you calculate the total number of items (e.g., total people) from a frequency table?",
+   "back": "Add all the frequencies together.",
+   "options": [
+    {
+     "text": "Add all the frequencies together.",
+     "correct": true,
+     "explanation": "Adding every frequency counts each item in the table once, giving the total number of items represented by the data."
+    },
+    {
+     "text": "Subtract all the frequencies together.",
+     "correct": false,
+     "explanation": "Subtraction combines the frequencies incorrectly and can reduce the result. The total number of items is found by adding every frequency in the table."
+    },
+    {
+     "text": "Multiply all the frequencies together.",
+     "correct": false,
+     "explanation": "Multiplication does not count the groups in a frequency table and produces an unsuitable total. Add all the frequencies to find the number of items."
+    },
+    {
+     "text": "Divide all the frequencies together.",
+     "correct": false,
+     "explanation": "Dividing the frequencies does not combine the groups into a total and may produce a fraction. The correct method is to add all the frequencies together."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "14bc09a3-f62a-4430-b902-d6976122c368",
+   "card_type": "basic",
+   "front": "What is the midpoint of the interval $40 < s \\leq 60$?",
+   "back": "50",
+   "options": [
+    {
+     "text": "50",
+     "correct": true,
+     "explanation": "The midpoint is the average of the two class boundaries: $(40+60)\\div2=50$. It is the value halfway through the interval."
+    },
+    {
+     "text": "40",
+     "correct": false,
+     "explanation": "This uses the lower boundary rather than the centre of the interval. Averaging 40 and 60 gives the correct midpoint, 50."
+    },
+    {
+     "text": "60",
+     "correct": false,
+     "explanation": "This uses the upper boundary rather than the centre of the interval. The midpoint is halfway between 40 and 60, which is 50."
+    },
+    {
+     "text": "100",
+     "correct": false,
+     "explanation": "Adding the two boundaries without dividing by 2 gives 100, not the halfway value. The midpoint is $(40+60)\\div2=50$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "890d2dc3-832f-40cb-a680-33bcf5c8f2a6",
+   "card_type": "basic",
+   "front": "What two things should be checked when choosing a scale for blank axes?",
+   "back": "The biggest midpoint fits on the x-axisThe biggest frequency fits on the y-axis",
+   "options": [
+    {
+     "text": "The biggest midpoint fits on the x-axisThe biggest frequency fits on the y-axis",
+     "correct": true,
+     "explanation": "The x-axis must extend far enough for the largest midpoint, while the y-axis must extend far enough for the largest frequency, so every plotted point fits."
+    },
+    {
+     "text": "The smallest midpoint fits on the x-axisThe smallest frequency fits on the y-axis",
+     "correct": false,
+     "explanation": "Checking only the smallest values could leave the largest plotted point outside the axes. The scale must accommodate the biggest midpoint and biggest frequency."
+    },
+    {
+     "text": "The biggest frequency fits on the x-axisThe biggest midpoint fits on the y-axis",
+     "correct": false,
+     "explanation": "The axes have been swapped: midpoints are plotted horizontally and frequencies vertically. Therefore, the biggest midpoint belongs on the x-axis and the biggest frequency on the y-axis."
+    },
+    {
+     "text": "The average midpoint fits on the x-axisThe average frequency fits on the y-axis",
+     "correct": false,
+     "explanation": "Average values do not guarantee that the extreme plotted point will fit. Choose scales that include the biggest midpoint on the x-axis and biggest frequency on the y-axis."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "eed12855-ccc1-48aa-936d-72d0dcf883f3",
+   "card_type": "cloze",
+   "front": "When reading the y-axis, if the scale goes up in 2s, a frequency of 15 is [ ___ ] small squares above 10 (or halfway between 14 and 16).",
+   "back": "When reading the y-axis, if the scale goes up in 2s, a frequency of 15 is two and a half small squares above 10 (or halfway between 14 and 16).",
+   "options": [
+    {
+     "text": "two and a half",
+     "correct": true,
+     "explanation": "Each small square represents 2 units, so 15 is 5 units above 10. That equals $5\\div2=2.5$, or two and a half small squares."
+    },
+    {
+     "text": "two",
+     "correct": false,
+     "explanation": "Two small squares represent only 4 units, reaching 14 rather than 15. Since each square represents 2 units, the correct distance is two and a half squares."
+    },
+    {
+     "text": "three",
+     "correct": false,
+     "explanation": "Three small squares represent 6 units, reaching 16 rather than 15. The value halfway between 14 and 16 is two and a half squares above 10."
+    },
+    {
+     "text": "one and a half",
+     "correct": false,
+     "explanation": "One and a half small squares represent 3 units, reaching 13 rather than 15. The required 5-unit increase corresponds to two and a half squares."
+    }
+   ]
+  },
+  {
+   "id": "f7fc3952-accd-4e14-9643-d3d7ad963f65",
+   "card_type": "cloze",
+   "front": "When reading the y-axis, if the scale goes up in 2s, a frequency of 15 is two and a half small squares above 10 (or [ ___ ] between 14 and 16).",
+   "back": "When reading the y-axis, if the scale goes up in 2s, a frequency of 15 is two and a half small squares above 10 (or halfway between 14 and 16).",
+   "options": [
+    {
+     "text": "halfway",
+     "correct": true,
+     "explanation": "The number 15 lies exactly between 14 and 16, so it is halfway between those two labelled values on the y-axis."
+    },
+    {
+     "text": "one-quarter",
+     "correct": false,
+     "explanation": "One-quarter between 14 and 16 would be 14.5, not 15. Because 15 is the exact average of 14 and 16, the correct description is halfway."
+    },
+    {
+     "text": "three-quarters",
+     "correct": false,
+     "explanation": "Three-quarters between 14 and 16 would be 15.5, not 15. The value 15 is centred between the two neighbouring values, so it is halfway."
+    },
+    {
+     "text": "directly above",
+     "correct": false,
+     "explanation": "Being directly above does not describe the position between the two numerical values. Since 15 is equally distant from 14 and 16, it is halfway between them."
+    }
+   ]
+  },
+  {
+   "id": "aa3f0d32-9129-4d29-9902-d8e88911beb4",
+   "card_type": "basic",
+   "front": "If an interval is $150 < h \\leq 160$ with frequency 21, what coordinate is plotted?",
+   "back": "$$(155, 21)$",
+   "options": [
+    {
+     "text": "$$(155, 21)$",
+     "correct": true,
+     "explanation": "Frequency polygons use the class midpoint as the x-coordinate. The midpoint of 150 and 160 is 155, and the frequency supplies the y-coordinate 21."
+    },
+    {
+     "text": "$$(150, 21)$",
+     "correct": false,
+     "explanation": "This uses the lower class boundary as the x-coordinate rather than the class midpoint. Averaging 150 and 160 gives 155, so the coordinate is $(155, 21)$."
+    },
+    {
+     "text": "$$(160, 21)$",
+     "correct": false,
+     "explanation": "This uses the upper class boundary instead of the centre of the interval. The midpoint is 155, and the frequency remains 21, giving $(155, 21)$."
+    },
+    {
+     "text": "$$(155, 42)$",
+     "correct": false,
+     "explanation": "The x-coordinate is correctly found from the midpoint, but the frequency should not be doubled. The plotted coordinate is $(155, 21)$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "f3a88b75-e20a-439c-ace5-253959c2b4a0",
+   "card_type": "basic",
+   "front": "What should be included in the label for the x-axis?",
+   "back": "The variable name and the units (e.g., Time in minutes).",
+   "options": [
+    {
+     "text": "The variable name and the units (e.g., Time in minutes).",
+     "correct": true,
+     "explanation": "An x-axis label should identify what is being measured and the units used. This makes the meaning and scale of the midpoints clear."
+    },
+    {
+     "text": "The frequency and the units (e.g., Time in minutes).",
+     "correct": false,
+     "explanation": "Frequency belongs on the y-axis, while the x-axis describes the measured variable and its units. The label should therefore include the variable name and units."
+    },
+    {
+     "text": "The variable name and the midpoints (e.g., Time in minutes).",
+     "correct": false,
+     "explanation": "Midpoints are plotted values, not a replacement for units in an axis label. Identify the variable being measured and state its units, such as minutes."
+    },
+    {
+     "text": "The class intervals and the frequency (e.g., Time in minutes).",
+     "correct": false,
+     "explanation": "These are features of the data rather than the required axis description, and frequency belongs on the y-axis. The x-axis label needs the variable name and units."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "f5765ea2-b73f-4040-ab08-c4bc8371e6f6",
+   "card_type": "cloze",
+   "front": "A line segment is one [ ___ ] piece of line between two points.",
+   "back": "A line segment is one straight piece of line between two points.",
+   "options": [
+    {
+     "text": "straight",
+     "correct": true,
+     "explanation": "A line segment is part of a straight line bounded by two endpoints. Its defining feature is that it does not bend between those points."
+    },
+    {
+     "text": "curved",
+     "correct": false,
+     "explanation": "A curved line changes direction continuously, so it is not a line segment in the usual GCSE definition. A line segment is a straight piece between two points."
+    },
+    {
+     "text": "broken",
+     "correct": false,
+     "explanation": "A broken line contains changes in direction or separate straight parts, rather than one continuous piece. The required description is a straight piece between two points."
+    },
+    {
+     "text": "parallel",
+     "correct": false,
+     "explanation": "Parallel describes the relationship between two lines, not the shape of one bounded piece. A line segment is defined as a straight piece between two points."
+    }
+   ]
+  },
+  {
+   "id": "97faf622-f86b-4319-b198-c6e50d1b5f9b",
+   "card_type": "cloze",
+   "front": "A line segment is one straight piece of line between [ ___ ].",
+   "back": "A line segment is one straight piece of line between two points.",
+   "options": [
+    {
+     "text": "two points",
+     "correct": true,
+     "explanation": "A line segment is a finite part of a line bounded by two points, with one point at each end."
+    },
+    {
+     "text": "two parallel lines",
+     "correct": false,
+     "explanation": "Confusing a line segment with the region separating lines leads to this choice. A line segment is one straight piece of line between two points."
+    },
+    {
+     "text": "three points",
+     "correct": false,
+     "explanation": "Three points might lie on the same segment, but they do not define its two ends. A line segment is the straight piece between two points."
+    },
+    {
+     "text": "two angles",
+     "correct": false,
+     "explanation": "Angles describe turns between lines rather than the ends of a straight piece. A line segment is bounded by two points."
+    }
+   ]
+  }
+ ],
+ "card_count": 25,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-2-2-13-frequency-polygons/flashcards",
+ "source_sha256": "1c513fe3871dd1520e2fcb77c100e92f596ecbd33a3b62dcca95f8fb74062665",
+ "extracted_at": "2026-11-08T17:55:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}

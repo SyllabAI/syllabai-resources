@@ -1,0 +1,647 @@
+{
+ "topic": "grade-3-3-17-transformations",
+ "lane": "gcse-maths-edexcel",
+ "grade": "3",
+ "tier": null,
+ "title": "Transformations Flashcards",
+ "cards": [
+  {
+   "id": "94ab448d-a0da-431d-a8ee-68579a87171f",
+   "card_type": "basic",
+   "front": "In transformations, what is the name for the starting shape?",
+   "back": "The object.",
+   "options": [
+    {
+     "text": "The object.",
+     "correct": true,
+     "explanation": "The object is the original shape before any transformation is applied; the resulting transformed shape is called the image."
+    },
+    {
+     "text": "The image.",
+     "correct": false,
+     "explanation": "The image is the shape produced by a transformation, not the starting shape. The original shape before transformation is called the object."
+    },
+    {
+     "text": "The vector.",
+     "correct": false,
+     "explanation": "A vector describes the direction and distance of a translation; it does not name a shape. The starting shape is called the object."
+    },
+    {
+     "text": "The centre.",
+     "correct": false,
+     "explanation": "A centre may identify the fixed point of a rotation or enlargement, rather than the starting shape. The starting shape is called the object."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "4643ea52-5bd3-42cb-b886-f06b23487739",
+   "card_type": "basic",
+   "front": "In transformations, what is the name for the shape after it has been moved or resized?",
+   "back": "The image.",
+   "options": [
+    {
+     "text": "The image.",
+     "correct": true,
+     "explanation": "The image is the resulting shape after the object has been translated, reflected, rotated or enlarged by a transformation."
+    },
+    {
+     "text": "The object.",
+     "correct": false,
+     "explanation": "The object is the original shape before the transformation takes place. The shape produced after it has been transformed is called the image."
+    },
+    {
+     "text": "The vector.",
+     "correct": false,
+     "explanation": "A vector specifies the movement in a translation, rather than naming the transformed shape. The resulting shape is called the image."
+    },
+    {
+     "text": "The centre.",
+     "correct": false,
+     "explanation": "A centre is a point used to define a rotation or enlargement, not the transformed shape. The shape produced is called the image."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "e6ea1e37-7099-4761-a5b6-f4ede07b4a06",
+   "card_type": "basic",
+   "front": "In a translation vector, what movement does a negative top number indicate?",
+   "back": "Movement to the left.",
+   "options": [
+    {
+     "text": "Movement to the left.",
+     "correct": true,
+     "explanation": "The top number of a translation vector controls horizontal movement, and a negative value means movement to the left."
+    },
+    {
+     "text": "Movement to the right.",
+     "correct": false,
+     "explanation": "A positive top number represents movement to the right. A negative top number reverses the horizontal direction, so it indicates movement to the left."
+    },
+    {
+     "text": "Movement to the up.",
+     "correct": false,
+     "explanation": "Vertical movement is controlled by the bottom number, not the top number. A negative top number represents horizontal movement to the left."
+    },
+    {
+     "text": "Movement to the down.",
+     "correct": false,
+     "explanation": "A negative bottom number would indicate movement down. The top number controls horizontal movement, so a negative top number means left."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "bf7b083b-ca69-4b94-8963-e63cfe7e1158",
+   "card_type": "basic",
+   "front": "In a translation vector, what movement does a positive bottom number indicate?",
+   "back": "Movement up.",
+   "options": [
+    {
+     "text": "Movement up.",
+     "correct": true,
+     "explanation": "The bottom number of a translation vector controls vertical movement, and a positive value means movement upwards."
+    },
+    {
+     "text": "Movement down.",
+     "correct": false,
+     "explanation": "A negative bottom number represents downward movement. Since the bottom number is positive, the translation instead moves vertically upwards."
+    },
+    {
+     "text": "Movement right.",
+     "correct": false,
+     "explanation": "Horizontal movement is determined by the top number of the vector. A positive bottom number controls vertical movement and therefore means up."
+    },
+    {
+     "text": "Movement left.",
+     "correct": false,
+     "explanation": "Movement to the left is represented by a negative top number. A positive bottom number instead indicates vertical movement upwards."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "a2aa7ee9-18c6-4920-a6e3-44c9b01381ef",
+   "card_type": "basic",
+   "front": "What detail is required to describe a translation fully?",
+   "back": "A vector $\\begin{pmatrix} x \\\\ y \\end{pmatrix}$.",
+   "options": [
+    {
+     "text": "A vector $\\begin{pmatrix} x \\\\ y \\end{pmatrix}$.",
+     "correct": true,
+     "explanation": "A translation is fully described by a column vector, where $x$ gives horizontal movement and $y$ gives vertical movement."
+    },
+    {
+     "text": "A coordinate $(x, y)$.",
+     "correct": false,
+     "explanation": "A coordinate locates one point and does not describe how every point moves. A translation requires a vector giving horizontal and vertical displacement."
+    },
+    {
+     "text": "A scale factor $k$.",
+     "correct": false,
+     "explanation": "A scale factor is required for an enlargement, not a translation. A translation is fully specified by a vector showing horizontal and vertical movement."
+    },
+    {
+     "text": "A line $y=mx+c$.",
+     "correct": false,
+     "explanation": "A line is needed to describe the mirror line of a reflection, not a translation. A translation must be described using a vector."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "5da10b88-94df-4cc9-b538-e4579fe1956d",
+   "card_type": "basic",
+   "front": "When reflecting a point in the $x$-axis, how do the coordinates change?",
+   "back": "The $y$-coordinate changes sign (multiplied by -1).",
+   "options": [
+    {
+     "text": "The $y$-coordinate changes sign (multiplied by -1).",
+     "correct": true,
+     "explanation": "Reflection in the $x$-axis reverses a point’s vertical position, so the $y$-coordinate changes sign while the $x$-coordinate remains unchanged."
+    },
+    {
+     "text": "The $x$-coordinate changes sign (multiplied by -1).",
+     "correct": false,
+     "explanation": "Changing the $x$-coordinate reflects a point in the $y$-axis. Reflection in the $x$-axis instead changes the sign of the $y$-coordinate."
+    },
+    {
+     "text": "The $x$- and $y$-coordinates change sign (multiplied by -1).",
+     "correct": false,
+     "explanation": "Changing both signs gives a half-turn about the origin, not a reflection in the $x$-axis. Only the $y$-coordinate changes sign."
+    },
+    {
+     "text": "The $y$-coordinate stays unchanged (multiplied by 1).",
+     "correct": false,
+     "explanation": "Leaving the $y$-coordinate unchanged would not reverse the point’s vertical position. Reflection in the $x$-axis changes the sign of the $y$-coordinate."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "37563b0f-e59f-4a5a-8a3d-05cbff85a79e",
+   "card_type": "basic",
+   "front": "When reflecting a point in the $y$-axis, how do the coordinates change?",
+   "back": "The $x$-coordinate changes sign (multiplied by -1).",
+   "options": [
+    {
+     "text": "The $x$-coordinate changes sign (multiplied by -1).",
+     "correct": true,
+     "explanation": "Reflection in the $y$-axis reverses a point’s horizontal position, so the $x$-coordinate changes sign while the $y$-coordinate remains unchanged."
+    },
+    {
+     "text": "The $y$-coordinate changes sign (multiplied by -1).",
+     "correct": false,
+     "explanation": "Changing the $y$-coordinate reflects a point in the $x$-axis. Reflection in the $y$-axis instead changes the sign of the $x$-coordinate."
+    },
+    {
+     "text": "The $x$- and $y$-coordinates change sign (multiplied by -1).",
+     "correct": false,
+     "explanation": "Changing both coordinate signs produces a rotation of $180°$ about the origin. Reflection in the $y$-axis changes only the $x$-coordinate’s sign."
+    },
+    {
+     "text": "The $x$-coordinate stays unchanged (multiplied by 1).",
+     "correct": false,
+     "explanation": "Leaving the $x$-coordinate unchanged would not reverse the point’s horizontal position. Reflection in the $y$-axis changes the sign of the $x$-coordinate."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "a770d8e2-79f5-4a6d-adde-da96a8f59207",
+   "card_type": "basic",
+   "front": "What is the coordinate rule for a reflection in the line $y=x$?",
+   "back": "$$(x, y) \\to (y, x)$ (swap the coordinates).",
+   "options": [
+    {
+     "text": "$$(x, y) \\to (y, x)$ (swap the coordinates).",
+     "correct": true,
+     "explanation": "The line $y=x$ treats the horizontal and vertical directions symmetrically, so reflection in this line swaps the $x$- and $y$-coordinates."
+    },
+    {
+     "text": "$$(x, y) \\to (-x, y)$ (change the sign of $x$).",
+     "correct": false,
+     "explanation": "Changing only the sign of $x$ is the rule for reflection in the $y$-axis. Reflection in $y=x$ swaps the two coordinates."
+    },
+    {
+     "text": "$$(x, y) \\to (x, -y)$ (change the sign of $y$).",
+     "correct": false,
+     "explanation": "Changing only the sign of $y$ is the rule for reflection in the $x$-axis. Reflection in $y=x$ instead swaps the coordinates."
+    },
+    {
+     "text": "$$(x, y) \\to (-y, -x)$ (swap and change the signs).",
+     "correct": false,
+     "explanation": "Swapping both coordinates and changing their signs reflects a point in $y=-x$. Reflection in $y=x$ swaps the coordinates without changing their signs."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "761cfd62-111c-4a95-97cf-c5257b7050fb",
+   "card_type": "cloze",
+   "front": "In a reflection, corresponding vertices are the [ ___ ] from the mirror line, on opposite sides.",
+   "back": "In a reflection, corresponding vertices are the same distance from the mirror line, on opposite sides.",
+   "options": [
+    {
+     "text": "same distance",
+     "correct": true,
+     "explanation": "A reflection places each image vertex the same perpendicular distance from the mirror line as its corresponding object vertex, preserving symmetry across the line."
+    },
+    {
+     "text": "double distance",
+     "correct": false,
+     "explanation": "Doubling the distance describes a change in size rather than a reflection. Corresponding vertices must be the same perpendicular distance from the mirror line."
+    },
+    {
+     "text": "half distance",
+     "correct": false,
+     "explanation": "Halving the distance would move the image closer to the mirror line and break reflection symmetry. The two corresponding vertices must be the same distance away."
+    },
+    {
+     "text": "different distances",
+     "correct": false,
+     "explanation": "Unequal distances from the mirror line do not produce corresponding reflected points. Each object vertex and its image must be the same perpendicular distance from the line."
+    }
+   ]
+  },
+  {
+   "id": "3a2e35ba-c75b-4fe6-8898-5c791bbbf6e4",
+   "card_type": "cloze",
+   "front": "In a reflection, corresponding vertices are the same distance from the mirror line, on [ ___ ].",
+   "back": "In a reflection, corresponding vertices are the same distance from the mirror line, on opposite sides.",
+   "options": [
+    {
+     "text": "opposite sides",
+     "correct": true,
+     "explanation": "The mirror line lies between each object vertex and its corresponding image vertex, so the two points are equally distant from it on opposite sides."
+    },
+    {
+     "text": "the same side",
+     "correct": false,
+     "explanation": "Placing both vertices on the same side does not create a reflection across the line. Corresponding vertices must lie on opposite sides of the mirror line."
+    },
+    {
+     "text": "one side only",
+     "correct": false,
+     "explanation": "A reflection crosses the mirror line rather than keeping both corresponding vertices on one side. They must be equally distant on opposite sides of the line."
+    },
+    {
+     "text": "either side at random",
+     "correct": false,
+     "explanation": "The side is not chosen randomly in a reflection. Each image vertex must be positioned on the opposite side of the mirror line from its object vertex."
+    }
+   ]
+  },
+  {
+   "id": "87b2dcc1-d8e5-48a0-8bb5-bc7c9f5f4f60",
+   "card_type": "basic",
+   "front": "What three details are required to describe a rotation fully?",
+   "back": "Angle (e.g. $90^{\\circ}$)Direction (clockwise or anticlockwise)Centre of rotation",
+   "options": [
+    {
+     "text": "Angle (e.g. $90^{\\circ}$)Direction (clockwise or anticlockwise)Centre of rotation",
+     "correct": true,
+     "explanation": "A rotation is uniquely determined by how far it turns, which way it turns, and the fixed point about which the turn is made."
+    },
+    {
+     "text": "Angle (e.g. $90^{\\circ}$)Direction (clockwise or anticlockwise)Mirror line",
+     "correct": false,
+     "explanation": "A mirror line belongs to a reflection, not a rotation. A rotation requires an angle, a clockwise or anticlockwise direction, and a centre of rotation."
+    },
+    {
+     "text": "Angle (e.g. $90^{\\circ}$)Scale factorCentre of rotation",
+     "correct": false,
+     "explanation": "Scale factor describes an enlargement and does not specify which way a shape turns. The missing detail is the clockwise or anticlockwise direction."
+    },
+    {
+     "text": "Direction (clockwise or anticlockwise)Centre of rotationTranslation vector",
+     "correct": false,
+     "explanation": "A translation vector describes movement without turning and cannot replace the rotation angle. The required details are angle, direction, and centre of rotation."
+    }
+   ],
+   "points": 3
+  },
+  {
+   "id": "53a15de7-0cd4-4c50-b62e-d4880166c06f",
+   "card_type": "basic",
+   "front": "What is the coordinate rule for a $180^{\\circ}$ rotation about the origin?",
+   "back": "$$(x, y) \\to (-x, -y)$.",
+   "options": [
+    {
+     "text": "$$(x, y) \\to (-x, -y)$.",
+     "correct": true,
+     "explanation": "A $180^{\\circ}$ rotation sends each point to the position directly opposite through the origin, so both the $x$-coordinate and $y$-coordinate change sign."
+    },
+    {
+     "text": "$$(x, y) \\to (-y, x)$.",
+     "correct": false,
+     "explanation": "Swapping the coordinates and negating the original $y$-coordinate gives a $90^{\\circ}$ anticlockwise rotation. For $180^{\\circ}$, both coordinates simply change sign."
+    },
+    {
+     "text": "$$(x, y) \\to (y, -x)$.",
+     "correct": false,
+     "explanation": "This rule represents a $90^{\\circ}$ clockwise rotation about the origin. A $180^{\\circ}$ rotation instead maps the point to $(-x,-y)$."
+    },
+    {
+     "text": "$$(x, y) \\to (-x, y)$.",
+     "correct": false,
+     "explanation": "Changing only the sign of $x$ reflects a point in the $y$-axis. A $180^{\\circ}$ rotation changes the signs of both coordinates."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "662ea713-515b-44b1-9902-66c132f8d76c",
+   "card_type": "basic",
+   "front": "What is the coordinate rule for a $90^{\\circ}$ anticlockwise rotation about the origin?",
+   "back": "$$(x, y) \\to (-y, x)$.",
+   "options": [
+    {
+     "text": "$$(x, y) \\to (-y, x)$.",
+     "correct": true,
+     "explanation": "For a $90^{\\circ}$ anticlockwise rotation about the origin, the coordinates swap positions and the original $y$-coordinate becomes negative."
+    },
+    {
+     "text": "$$(x, y) \\to (y, -x)$.",
+     "correct": false,
+     "explanation": "This coordinate rule turns points $90^{\\circ}$ clockwise, reversing the required direction. Anticlockwise rotation uses $(-y,x)$ instead."
+    },
+    {
+     "text": "$$(x, y) \\to (-x, -y)$.",
+     "correct": false,
+     "explanation": "Negating both coordinates sends a point to the opposite side of the origin, which is a $180^{\\circ}$ rotation rather than a $90^{\\circ}$ anticlockwise rotation."
+    },
+    {
+     "text": "$$(x, y) \\to (-x, y)$.",
+     "correct": false,
+     "explanation": "Negating only the $x$-coordinate reflects the point in the $y$-axis. A $90^{\\circ}$ anticlockwise rotation swaps the coordinates and gives $(-y,x)$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "0f27a828-29df-4bdd-bafb-827f6c3be4af",
+   "card_type": "basic",
+   "front": "What two details are required to describe an enlargement fully?",
+   "back": "Scale factorCentre of enlargement",
+   "options": [
+    {
+     "text": "Scale factorCentre of enlargement",
+     "correct": true,
+     "explanation": "The scale factor determines the change in size, while the centre of enlargement determines the point from which corresponding vertices are projected."
+    },
+    {
+     "text": "Scale factorDirection",
+     "correct": false,
+     "explanation": "Clockwise or anticlockwise direction is needed for a rotation, not an enlargement. An enlargement is fully described by its scale factor and centre of enlargement."
+    },
+    {
+     "text": "Scale factorAngle",
+     "correct": false,
+     "explanation": "An angle describes the amount of turning in a rotation and does not locate an enlargement. The second required detail is the centre of enlargement."
+    },
+    {
+     "text": "Centre of enlargementTranslation vector",
+     "correct": false,
+     "explanation": "A translation vector describes a fixed movement and gives no change in size. An enlargement requires its centre of enlargement and its scale factor."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "036593ae-a133-4acd-a02a-e760e823628f",
+   "card_type": "cloze",
+   "front": "For an enlargement with scale factor $k$ and centre $O$, the coordinates of the image are found by [ ___ ] the object coordinates by $k$.",
+   "back": "For an enlargement with scale factor $k$ and centre $O$, the coordinates of the image are found by multiplying the object coordinates by $k$.",
+   "options": [
+    {
+     "text": "multiplying",
+     "correct": true,
+     "explanation": "With the centre at the origin $O$, multiplying each coordinate by $k$ scales its distance and direction from the origin by the required scale factor."
+    },
+    {
+     "text": "dividing",
+     "correct": false,
+     "explanation": "Dividing by $k$ applies the reciprocal scale factor $\\frac{1}{k}$ rather than $k$. The object coordinates must be multiplied by $k$."
+    },
+    {
+     "text": "adding",
+     "correct": false,
+     "explanation": "Adding $k$ to coordinates produces a translation-like shift and does not scale distances proportionally. An enlargement about the origin is found by multiplying coordinates by $k$."
+    },
+    {
+     "text": "subtracting",
+     "correct": false,
+     "explanation": "Subtracting $k$ changes coordinates by a fixed amount instead of scaling their distances from the origin. The coordinates must be multiplied by $k$."
+    }
+   ]
+  },
+  {
+   "id": "951c3e5e-cc18-4688-b781-80b166cec01b",
+   "card_type": "cloze",
+   "front": "For an enlargement with scale factor $k$ and centre $O$, the coordinates of the image are found by multiplying the object coordinates by $\\text{[...]}$.",
+   "back": "For an enlargement with scale factor $k$ and centre $O$, the coordinates of the image are found by multiplying the object coordinates by $\\boxed{k}$.",
+   "options": [
+    {
+     "text": "$$k$",
+     "correct": true,
+     "explanation": "The scale factor $k$ multiplies each coordinate, so every point’s distance from the centre of enlargement is scaled by the same factor."
+    },
+    {
+     "text": "$$k^2$",
+     "correct": false,
+     "explanation": "Squaring the scale factor confuses length scale factor with area scale factor. Coordinates represent lengths, so they are multiplied by $k$, not $k^2$."
+    },
+    {
+     "text": "$$\\frac{1}{k}$",
+     "correct": false,
+     "explanation": "Using the reciprocal reverses the intended enlargement and applies scale factor $\\frac{1}{k}$. To perform an enlargement with scale factor $k$, multiply by $k$."
+    },
+    {
+     "text": "$$-k$",
+     "correct": false,
+     "explanation": "The negative sign would place image points on the opposite side of the centre as well as scaling them. The stated scale factor is $k$, so coordinates use $k$."
+    }
+   ]
+  },
+  {
+   "id": "d2ef4947-d2f3-40ce-ad3b-1ac84e485f9c",
+   "card_type": "basic",
+   "front": "Which transformation changes the size of a shape while keeping it the same proportions?",
+   "back": "An enlargement.",
+   "options": [
+    {
+     "text": "An enlargement.",
+     "correct": true,
+     "explanation": "An enlargement changes a shape’s dimensions by a scale factor while preserving its proportions, so the image remains mathematically similar to the original shape."
+    },
+    {
+     "text": "A translation.",
+     "correct": false,
+     "explanation": "A translation moves every point by the same vector without changing the shape’s size. An enlargement changes size while preserving the shape’s proportions."
+    },
+    {
+     "text": "A reflection.",
+     "correct": false,
+     "explanation": "A reflection flips a shape across a mirror line but leaves its dimensions unchanged. An enlargement is the transformation that changes size while preserving proportions."
+    },
+    {
+     "text": "A rotation.",
+     "correct": false,
+     "explanation": "A rotation turns a shape about a centre without altering its dimensions. An enlargement changes the dimensions by a scale factor while maintaining the same proportions."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "e5713e1f-cb19-43d7-b722-7651dda30155",
+   "card_type": "basic",
+   "front": "Why is the order of combined transformations important?",
+   "back": "Performing transformations in a different order can result in a different final image.",
+   "options": [
+    {
+     "text": "Performing transformations in a different order can result in a different final image.",
+     "correct": true,
+     "explanation": "Many transformations are not commutative, meaning that reversing their order can move points to different positions and therefore produce a different final image."
+    },
+    {
+     "text": "Performing transformations in a different order always results in the same final image.",
+     "correct": false,
+     "explanation": "It is tempting to assume transformations commute, but many do not. Changing their order can move points to different positions and produce a different final image."
+    },
+    {
+     "text": "Performing transformations in a different order only changes the names of the vertices.",
+     "correct": false,
+     "explanation": "The order can affect the actual positions of the transformed vertices, not merely their labels. A different order can therefore produce a different final image."
+    },
+    {
+     "text": "Performing transformations in a different order only changes the description of the method.",
+     "correct": false,
+     "explanation": "Reordering transformations does more than alter how the method is described. Because many transformations do not commute, it can produce a different final image."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "55b0b1b9-247e-4f27-bd79-cdc9a1646ea3",
+   "card_type": "basic",
+   "front": "What is the equation for the mirror line if it is the $y$-axis?",
+   "back": "$$x = 0$.",
+   "options": [
+    {
+     "text": "$$x = 0$.",
+     "correct": true,
+     "explanation": "Every point on the $y$-axis has an $x$-coordinate of zero, so the equation of this vertical mirror line is $x = 0$."
+    },
+    {
+     "text": "$$y = 0$.",
+     "correct": false,
+     "explanation": "This is the equation of the $x$-axis, a common axis-label reversal. Every point on the $y$-axis instead satisfies $x = 0$."
+    },
+    {
+     "text": "$$x = 1$.",
+     "correct": false,
+     "explanation": "This describes a vertical line one unit to the right of the $y$-axis. The $y$-axis passes through points whose $x$-coordinate is zero, so its equation is $x = 0$."
+    },
+    {
+     "text": "$$y = x$.",
+     "correct": false,
+     "explanation": "This describes a diagonal line through the origin, not the vertical $y$-axis. The equation of the $y$-axis is $x = 0$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "5aae5ff4-bdc4-45f6-a7d8-fc222c1d8921",
+   "card_type": "cloze",
+   "front": "The point where the $x$-axis and $y$-axis intersect is called the [ ___ ] and has coordinates $(0,0)$.",
+   "back": "The point where the $x$-axis and $y$-axis intersect is called the origin and has coordinates $(0,0)$.",
+   "options": [
+    {
+     "text": "origin",
+     "correct": true,
+     "explanation": "The origin is the unique point where the two coordinate axes intersect. Its $x$-coordinate and $y$-coordinate are both zero, giving $(0,0)$."
+    },
+    {
+     "text": "midpoint",
+     "correct": false,
+     "explanation": "A midpoint is halfway between two specified points, so it does not necessarily lie where the axes meet. Their intersection at $(0,0)$ is called the origin."
+    },
+    {
+     "text": "intercept",
+     "correct": false,
+     "explanation": "An intercept is where a graph crosses an axis, rather than the name of the axes’ intersection. The $x$-axis and $y$-axis meet at the origin."
+    },
+    {
+     "text": "centre",
+     "correct": false,
+     "explanation": "Although the axes may appear centred on a coordinate grid, their intersection has the specific mathematical name origin and has coordinates $(0,0)$."
+    }
+   ]
+  },
+  {
+   "id": "c2c226aa-6767-4c90-95a6-65ab3813bcb3",
+   "card_type": "cloze",
+   "front": "The point where the $x$-axis and $y$-axis intersect is called the origin and has coordinates $\\text{[...]}$.",
+   "back": "The point where the $x$-axis and $y$-axis intersect is called the origin and has coordinates $\\boxed{(0,0)}$.",
+   "options": [
+    {
+     "text": "$$(0,0)$",
+     "correct": true,
+     "explanation": "At the origin, the point is neither horizontally nor vertically displaced from the axes’ intersection. Therefore both coordinates are zero, giving $(0,0)$."
+    },
+    {
+     "text": "$$(0,1)$",
+     "correct": false,
+     "explanation": "This point lies on the $y$-axis one unit above the origin. The axes themselves intersect where both coordinates are zero, at $(0,0)$."
+    },
+    {
+     "text": "$$(1,0)$",
+     "correct": false,
+     "explanation": "This point lies on the $x$-axis one unit to the right of the origin. The intersection of both axes has coordinates $(0,0)$."
+    },
+    {
+     "text": "$$(1,1)$",
+     "correct": false,
+     "explanation": "This point is one unit right and one unit above the axes’ intersection. At the origin, both coordinates are zero, so the coordinates are $(0,0)$."
+    }
+   ]
+  },
+  {
+   "id": "970491ef-464d-45c0-a152-5e4e078754e2",
+   "card_type": "basic",
+   "front": "If a vertex moves from $(-2, -1)$ to $(4, 2)$, what is the translation vector?",
+   "back": "$$\\begin{pmatrix} 6 \\\\ 3 \\end{pmatrix}$.",
+   "options": [
+    {
+     "text": "$$\\begin{pmatrix} 6 \\\\ 3 \\end{pmatrix}$.",
+     "correct": true,
+     "explanation": "Subtract the starting coordinates from the final coordinates: $4-(-2)=6$ horizontally and $2-(-1)=3$ vertically, giving the translation vector $\\begin{pmatrix}6\\\\3\\end{pmatrix}$."
+    },
+    {
+     "text": "$$\\begin{pmatrix} -6 \\\\ -3 \\end{pmatrix}$.",
+     "correct": false,
+     "explanation": "This reverses the subtraction and gives the vector for moving from the final point back to the start. Final minus initial gives $\\begin{pmatrix}6\\\\3\\end{pmatrix}$."
+    },
+    {
+     "text": "$$\\begin{pmatrix} 4 \\\\ 2 \\end{pmatrix}$.",
+     "correct": false,
+     "explanation": "These are the destination coordinates, not the change in position. Subtracting the initial coordinates from them gives $4-(-2)=6$ and $2-(-1)=3$."
+    },
+    {
+     "text": "$$\\begin{pmatrix} 2 \\\\ 1 \\end{pmatrix}$.",
+     "correct": false,
+     "explanation": "This comes from adding the negative starting coordinates rather than subtracting them. Subtracting a negative gives $4-(-2)=6$ and $2-(-1)=3$."
+    }
+   ],
+   "points": 2
+  }
+ ],
+ "card_count": 22,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-3-3-17-transformations/flashcards",
+ "source_sha256": "87a95b0273b37bacb0b0d93d47a8ccfb74fadb864cff18c0f4cd922076ea1c89",
+ "extracted_at": "2026-11-08T17:55:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}

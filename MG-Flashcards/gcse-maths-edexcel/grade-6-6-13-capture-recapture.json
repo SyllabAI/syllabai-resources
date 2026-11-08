@@ -1,0 +1,729 @@
+{
+ "topic": "grade-6-6-13-capture-recapture",
+ "lane": "gcse-maths-edexcel",
+ "grade": "6",
+ "tier": null,
+ "title": "Capture Recapture Flashcards",
+ "cards": [
+  {
+   "id": "c2ad8151-c5c7-433f-95ee-d869e4c19f5c",
+   "card_type": "basic",
+   "front": "What is capture recapture used to estimate?",
+   "back": "A large population size when individuals cannot be counted directly.",
+   "options": [
+    {
+     "text": "A large population size when individuals cannot be counted directly.",
+     "correct": true,
+     "explanation": "Capture recapture uses the proportion of marked individuals found in a later sample to estimate the size of a population that cannot feasibly be counted directly."
+    },
+    {
+     "text": "An exact population size when individuals cannot be counted directly.",
+     "correct": false,
+     "explanation": "Capture recapture produces an estimate rather than an exact count because its samples may not perfectly represent the population. The correct result is an estimated large population size."
+    },
+    {
+     "text": "A large population mean when individual values cannot be measured directly.",
+     "correct": false,
+     "explanation": "A population mean is estimated using representative measurements, not recaptures. Capture recapture instead estimates the size of a large population whose individuals cannot be counted directly."
+    },
+    {
+     "text": "A large population growth rate when changes cannot be observed directly.",
+     "correct": false,
+     "explanation": "Population growth requires measurements from different times and is not found from one recapture calculation. Capture recapture estimates a large population's size when direct counting is impractical."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "affba7ad-523d-4b30-bc16-3232d947d6f3",
+   "card_type": "cloze",
+   "front": "Capture recapture relies on the assumption that the [ ___ ] of marked items in the second sample is the same as the fraction in the whole population.",
+   "back": "Capture recapture relies on the assumption that the fraction of marked items in the second sample is the same as the fraction in the whole population.",
+   "options": [
+    {
+     "text": "fraction",
+     "correct": true,
+     "explanation": "The method assumes that marked individuals are mixed randomly, so the fraction marked in the second sample represents the fraction marked throughout the whole population."
+    },
+    {
+     "text": "number",
+     "correct": false,
+     "explanation": "The raw number marked depends on sample size and is not expected to match a population count. It is the fraction marked that should be representative."
+    },
+    {
+     "text": "difference",
+     "correct": false,
+     "explanation": "Capture recapture does not compare a subtraction between marked and unmarked groups. It assumes the fraction of marked items in the sample matches that in the population."
+    },
+    {
+     "text": "product",
+     "correct": false,
+     "explanation": "Multiplying quantities of marked items does not express their prevalence. The representative quantity is the fraction marked, calculated relative to the total number sampled."
+    }
+   ]
+  },
+  {
+   "id": "0608e547-b4f9-47a5-9118-0d46a61ec8a2",
+   "card_type": "cloze",
+   "front": "Capture recapture relies on the assumption that the fraction of marked items in the second sample is the same as the fraction in the [ ___ ].",
+   "back": "Capture recapture relies on the assumption that the fraction of marked items in the second sample is the same as the fraction in the whole population.",
+   "options": [
+    {
+     "text": "whole population",
+     "correct": true,
+     "explanation": "The second sample is treated as representative, so its marked fraction is assumed to equal the corresponding marked fraction across the whole population."
+    },
+    {
+     "text": "first sample",
+     "correct": false,
+     "explanation": "The first sample consists of the initially captured individuals and is not the group being estimated. The second sample's marked fraction represents the whole population."
+    },
+    {
+     "text": "second sample",
+     "correct": false,
+     "explanation": "Comparing the second sample with itself would provide no information about population size. Its marked fraction must be assumed to represent the whole population."
+    },
+    {
+     "text": "marked group",
+     "correct": false,
+     "explanation": "The marked group contains only previously captured individuals, so it cannot represent every individual. The relevant comparison is with the whole population."
+    }
+   ]
+  },
+  {
+   "id": "8c2c3964-d381-432f-850d-5926d360c4c9",
+   "card_type": "basic",
+   "front": "State the capture recapture formula for estimated population size.",
+   "back": "$$$\\frac{M \\times S}{R}$$",
+   "options": [
+    {
+     "text": "$$$\\frac{M \\times S}{R}$$",
+     "correct": true,
+     "explanation": "The proportion assumption gives $\\frac{R}{S}=\\frac{M}{N}$. Rearranging for the estimated population $N$ produces $N=\\frac{M\\times S}{R}$."
+    },
+    {
+     "text": "$$$\\frac{M + S}{R}$$",
+     "correct": false,
+     "explanation": "The two sample sizes must be multiplied, not added, when rearranging the proportion $\\frac{R}{S}=\\frac{M}{N}$. The correct formula is $\\frac{M\\times S}{R}$."
+    },
+    {
+     "text": "$$$\\frac{M \\times R}{S}$$",
+     "correct": false,
+     "explanation": "This swaps the second-sample size and the number recaptured. Recaptures must be the denominator, so the estimated population is $\\frac{M\\times S}{R}$."
+    },
+    {
+     "text": "$$$\\frac{S \\times R}{M}$$",
+     "correct": false,
+     "explanation": "This incorrectly divides by the number initially marked and multiplies by recaptures. The number recaptured belongs in the denominator, giving $\\frac{M\\times S}{R}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "9e715ae5-bf1d-4ba0-9b78-303c8ebed107",
+   "card_type": "basic",
+   "front": "In the formula $$\\frac{M \\times S}{R}$$, what do the variables M and S represent?",
+   "back": "M: Number marked in the first sample.S: Total size of the second sample.",
+   "options": [
+    {
+     "text": "M: Number marked in the first sample.S: Total size of the second sample.",
+     "correct": true,
+     "explanation": "$$M$ records how many individuals were marked initially, while $S$ is the full number examined in the later sample. These are multiplied in the numerator."
+    },
+    {
+     "text": "M: Total size of the second sample.S: Number marked in the first sample.",
+     "correct": false,
+     "explanation": "This reverses the roles of $M$ and $S$. $M$ is the number marked in the first sample, while $S$ is the total size of the second sample."
+    },
+    {
+     "text": "M: Number recaptured in the second sample.S: Total size of the first sample.",
+     "correct": false,
+     "explanation": "Recaptures are represented by $R$, not $M$, and $S$ concerns the second sample rather than the first. $M$ is initially marked and $S$ is sampled second."
+    },
+    {
+     "text": "M: Total size of the whole population.S: Number marked in the second sample.",
+     "correct": false,
+     "explanation": "The entire population is the unknown being estimated, and marked individuals in the second sample are counted by $R$. $M$ is initially marked and $S$ is the second-sample total."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "e0ba1f5e-f87c-41fe-9ef1-1c83cc9604f3",
+   "card_type": "basic",
+   "front": "In the formula $$\\frac{M \\times S}{R}$$, what does R represent?",
+   "back": "Number of marked individuals found in the second sample (recaptures).",
+   "options": [
+    {
+     "text": "Number of marked individuals found in the second sample (recaptures).",
+     "correct": true,
+     "explanation": "$$R$ counts the recaptures: individuals marked during the first capture that are encountered again within the second sample. It forms the denominator of the formula."
+    },
+    {
+     "text": "Number of unmarked individuals found in the second sample (new captures).",
+     "correct": false,
+     "explanation": "Unmarked individuals in the second sample are new captures, not recaptures. $R$ specifically counts marked individuals found again in the second sample."
+    },
+    {
+     "text": "Total number of all individuals found in the second sample (sample size).",
+     "correct": false,
+     "explanation": "The total size of the second sample is $S$, not $R$. $R$ counts only those individuals in that sample that carry the original mark."
+    },
+    {
+     "text": "Number of marked individuals found in the first sample (initial captures).",
+     "correct": false,
+     "explanation": "The number marked in the first sample is $M$, not $R$. $R$ is the subset of marked individuals encountered again in the second sample."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "1ee96df6-6d9e-4263-95a0-888d9775a55c",
+   "card_type": "cloze",
+   "front": "In the capture recapture formula, the number of [ ___ ] individuals always goes on the bottom (denominator).",
+   "back": "In the capture recapture formula, the number of recaptured marked individuals always goes on the bottom (denominator).",
+   "options": [
+    {
+     "text": "recaptured marked",
+     "correct": true,
+     "explanation": "The recaptured marked individuals provide the overlap between the two samples. Their number is $R$, which divides the product $M\\times S$ in the formula."
+    },
+    {
+     "text": "initially marked",
+     "correct": false,
+     "explanation": "The initially marked individuals are represented by $M$ and belong in the numerator. The denominator is the number of recaptured marked individuals, represented by $R$."
+    },
+    {
+     "text": "unmarked sampled",
+     "correct": false,
+     "explanation": "Unmarked sampled individuals are new captures and are not used as the denominator. The denominator counts recaptured marked individuals because they link the two samples."
+    },
+    {
+     "text": "newly captured",
+     "correct": false,
+     "explanation": "Newly captured individuals have no original mark and therefore do not measure the overlap between samples. The denominator must be the recaptured marked individuals."
+    }
+   ]
+  },
+  {
+   "id": "cae06e6b-6482-4ec4-b22e-55795e1bed33",
+   "card_type": "cloze",
+   "front": "In the capture recapture formula, the number of recaptured marked individuals always goes on the [ ___ ] (denominator).",
+   "back": "In the capture recapture formula, the number of recaptured marked individuals always goes on the bottom (denominator).",
+   "options": [
+    {
+     "text": "bottom",
+     "correct": true,
+     "explanation": "The denominator is the bottom of a fraction. Since $R$ counts recaptured marked individuals, it appears below the fraction bar in $\\frac{M\\times S}{R}$."
+    },
+    {
+     "text": "top",
+     "correct": false,
+     "explanation": "The top is the numerator and contains $M\\times S$, not the recapture count. Recaptured marked individuals are represented by $R$ on the bottom."
+    },
+    {
+     "text": "middle",
+     "correct": false,
+     "explanation": "A fraction has a numerator and denominator rather than a middle position. The recaptured marked count $R$ goes on the bottom as the denominator."
+    },
+    {
+     "text": "outside",
+     "correct": false,
+     "explanation": "Placing the recapture count outside the fraction would not divide the sample-size product correctly. It belongs on the bottom as the denominator $R$."
+    }
+   ]
+  },
+  {
+   "id": "f4c85197-28b6-4c94-aea9-2c29c2913dc3",
+   "card_type": "basic",
+   "front": "If 1/5 of the second sample is marked, and 60 were originally marked, how is the population estimated?",
+   "back": "Multiply the original number by 5 ($$60 \\times 5 = 300$$).",
+   "options": [
+    {
+     "text": "Multiply the original number by 5 ($$60 \\times 5 = 300$$).",
+     "correct": true,
+     "explanation": "If marked individuals make up one fifth of the second sample, the original 60 marked individuals represent one fifth of the population. Therefore, $60 \\times 5 = 300$."
+    },
+    {
+     "text": "Multiply the original number by 4 ($$60 \\times 4 = 240$$).",
+     "correct": false,
+     "explanation": "Using 4 counts only the remaining fifths and omits the fifth represented by the marked animals. There are five fifths altogether, so the estimate is $60 \\times 5 = 300$."
+    },
+    {
+     "text": "Multiply the original number by 6 ($$60 \\times 6 = 360$$).",
+     "correct": false,
+     "explanation": "Using 6 is an off-by-one error that adds an extra fifth. Since 60 represents one of five equal parts, the population estimate is $60 \\times 5 = 300$."
+    },
+    {
+     "text": "Divide the original number by 5 ($$60 \\div 5 = 12$$).",
+     "correct": false,
+     "explanation": "Dividing reverses the required calculation and finds one fifth of 60. Since 60 marked individuals represent one fifth of the population, multiply by 5 to obtain 300."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "fb301382-f269-4176-8a55-f9aefc298f91",
+   "card_type": "basic",
+   "front": "If only a very small number of marked individuals are recaptured, what does this suggest about the population size?",
+   "back": "The total population is large.",
+   "options": [
+    {
+     "text": "The total population is large.",
+     "correct": true,
+     "explanation": "A small proportion of recaptured individuals suggests that the marked animals have mixed into a much larger population, making marked individuals relatively rare in the second sample."
+    },
+    {
+     "text": "The total population is small.",
+     "correct": false,
+     "explanation": "This reverses the capture-recapture relationship. A small population would usually produce a high recapture proportion, whereas very few marked recaptures suggest that the total population is large."
+    },
+    {
+     "text": "The total population is the same size as the first sample.",
+     "correct": false,
+     "explanation": "The first sample contains only some members of the population, not the whole population. Very few marked recaptures indicate that the total population is large relative to the sample."
+    },
+    {
+     "text": "The total population is the same size as the second sample.",
+     "correct": false,
+     "explanation": "The second sample is only a subset used to estimate the population. A very small marked proportion suggests that many unmarked individuals exist, so the total population is large."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "bcc77de7-168a-4141-a738-f39c4e995195",
+   "card_type": "cloze",
+   "front": "You should not [ ___ ] the two sample sizes together because the method relies on proportions and individuals can appear in both samples.",
+   "back": "You should not add the two sample sizes together because the method relies on proportions and individuals can appear in both samples.",
+   "options": [
+    {
+     "text": "add",
+     "correct": true,
+     "explanation": "The sample sizes must not be added because some marked individuals may occur in both samples. Capture-recapture instead compares the proportion of marked individuals recaptured."
+    },
+    {
+     "text": "subtract",
+     "correct": false,
+     "explanation": "Subtracting the sample sizes does not account for the overlap between them or the recapture proportion. The warning is not to add them; the estimate relies on proportions."
+    },
+    {
+     "text": "multiply",
+     "correct": false,
+     "explanation": "Multiplying the two sample sizes forms part of the capture-recapture formula, so it is not the prohibited operation. You should not add the samples as though they were disjoint groups."
+    },
+    {
+     "text": "divide",
+     "correct": false,
+     "explanation": "Division is used when forming the relevant proportions, so it is not the operation being warned against. You should not add the sample sizes because individuals can appear twice."
+    }
+   ]
+  },
+  {
+   "id": "452d392b-9d5b-4810-81a8-f314c3cf26e2",
+   "card_type": "cloze",
+   "front": "You should not add the two sample sizes together because the method relies on [ ___ ] and individuals can appear in both samples.",
+   "back": "You should not add the two sample sizes together because the method relies on proportions and individuals can appear in both samples.",
+   "options": [
+    {
+     "text": "proportions",
+     "correct": true,
+     "explanation": "Capture-recapture compares the proportion of marked individuals in the second sample with the proportion marked in the population, allowing the unknown population size to be estimated."
+    },
+    {
+     "text": "averages",
+     "correct": false,
+     "explanation": "Simply using averages ignores how many individuals in the second sample were previously marked. The method relies on proportions, particularly the marked fraction of the second sample."
+    },
+    {
+     "text": "totals",
+     "correct": false,
+     "explanation": "Raw totals alone cannot show how common marked individuals are within a sample, especially when sample sizes differ. Capture-recapture relies on proportions rather than totals."
+    },
+    {
+     "text": "differences",
+     "correct": false,
+     "explanation": "Differences between sample sizes are not used to scale up to the population. The estimate comes from proportions, including the fraction of the second sample that is marked."
+    }
+   ]
+  },
+  {
+   "id": "af014491-6ff4-4ca1-b4f7-91e38a398b2d",
+   "card_type": "basic",
+   "front": "Does the first sample size need to be equal to the second sample size?",
+   "back": "No; the formula works regardless of whether sample sizes are different.",
+   "options": [
+    {
+     "text": "No; the formula works regardless of whether sample sizes are different.",
+     "correct": true,
+     "explanation": "The formula adjusts for each sample size separately, using the number marked in the first sample and the marked proportion in the second. Therefore, equal samples are unnecessary."
+    },
+    {
+     "text": "Yes; both samples must contain exactly the same number.",
+     "correct": false,
+     "explanation": "Equal sample sizes are not required because the formula accounts for both sizes separately. The estimate remains valid when the first and second samples contain different numbers."
+    },
+    {
+     "text": "Yes; the second sample must be twice the size of the first.",
+     "correct": false,
+     "explanation": "Doubling the first sample is not a condition of capture-recapture and would be an arbitrary restriction. The formula works with different sample sizes in either order."
+    },
+    {
+     "text": "No; the second sample must always be larger than the first.",
+     "correct": false,
+     "explanation": "A larger second sample may improve reliability, but it is not required for the formula to work. The two sample sizes may differ in either direction."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "cdf4f23e-6bb8-4da4-b1d4-2835b8a92dde",
+   "card_type": "basic",
+   "front": "Give two assumptions regarding the marks or tags used in the process.",
+   "back": "The marks do not fall off.The marks do not affect the chance of being caught (e.g., predation).",
+   "options": [
+    {
+     "text": "The marks do not fall off.The marks do not affect the chance of being caught (e.g., predation).",
+     "correct": true,
+     "explanation": "Marks must remain attached so recaptured animals are recognised, and they must not alter an animal’s likelihood of capture. Otherwise, the marked proportion would be biased."
+    },
+    {
+     "text": "The marks fall off before recapture.The marks increase the chance of being caught (e.g., predation).",
+     "correct": false,
+     "explanation": "Marks falling off would cause previously marked animals to be counted as unmarked, while increasing capture likelihood would bias the second sample. Marks must remain and not affect capture."
+    },
+    {
+     "text": "The marks are removed before recapture.The marks reduce the chance of being caught (e.g., avoidance).",
+     "correct": false,
+     "explanation": "Removing marks prevents recaptured individuals from being identified, and marks that reduce capture chances distort the marked proportion. Marks must stay attached and leave capture probability unchanged."
+    },
+    {
+     "text": "The marks make animals easier to find.The marks attract predators to the animals.",
+     "correct": false,
+     "explanation": "Making marked animals easier to identify within the population or more vulnerable to predators changes their recapture probability. Marks must not fall off or affect capture chances."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "d8d449ad-7f76-47b6-a64e-bade107944de",
+   "card_type": "basic",
+   "front": "Give two assumptions regarding the movement and size of the population.",
+   "back": "The marked animals mix evenly back into the population.The population size is constant (no births, deaths, or migration).",
+   "options": [
+    {
+     "text": "The marked animals mix evenly back into the population.The population size is constant (no births, deaths, or migration).",
+     "correct": true,
+     "explanation": "Even mixing gives every animal a comparable chance of entering the second sample, while a constant population prevents births, deaths, immigration or emigration from changing the proportions."
+    },
+    {
+     "text": "The marked animals stay together within the population.The population size increases (due to births or immigration).",
+     "correct": false,
+     "explanation": "Marked animals staying together would make them overrepresented or underrepresented in the second sample, while population growth changes the proportions. They must mix evenly in a constant population."
+    },
+    {
+     "text": "The marked animals leave immediately after release.The population size decreases (due to deaths or migration).",
+     "correct": false,
+     "explanation": "Leaving the population prevents marked animals from being recaptured, and a shrinking population alters the marked fraction. The marked animals must mix evenly while population size remains constant."
+    },
+    {
+     "text": "The marked animals avoid unmarked members of the population.The population size may vary (with births, deaths, or migration).",
+     "correct": false,
+     "explanation": "Separating marked animals violates the equal-mixing assumption, and allowing unrestricted population change invalidates the comparison. Marked animals must mix evenly and population size must remain constant."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "0d58264e-71ca-4daf-8971-d883ee1db4a0",
+   "card_type": "cloze",
+   "front": "A key assumption for a fair estimate is that the second sample taken is [ ___ ].",
+   "back": "A key assumption for a fair estimate is that the second sample taken is random.",
+   "options": [
+    {
+     "text": "random",
+     "correct": true,
+     "explanation": "A random second sample gives each individual a fair chance of capture. This makes its marked proportion more likely to represent the proportion marked in the whole population."
+    },
+    {
+     "text": "targeted",
+     "correct": false,
+     "explanation": "A targeted sample deliberately favours particular individuals or locations, so it may overrepresent or underrepresent marked animals. The second sample must instead be random."
+    },
+    {
+     "text": "selective",
+     "correct": false,
+     "explanation": "A selective sample excludes some individuals or gives them unequal capture chances, distorting the marked proportion. A fair capture-recapture estimate requires a random second sample."
+    },
+    {
+     "text": "biased",
+     "correct": false,
+     "explanation": "A biased sample does not represent the whole population and can distort the recapture proportion. The key assumption is that the second sample is random."
+    }
+   ]
+  },
+  {
+   "id": "6d6f1b7f-a0f8-460b-8af3-357eea459024",
+   "card_type": "basic",
+   "front": "Why is it necessary for marked animals to mix back in before taking the second sample?",
+   "back": "To ensure the second sample is representative of the whole population.",
+   "options": [
+    {
+     "text": "To ensure the second sample is representative of the whole population.",
+     "correct": true,
+     "explanation": "Mixing distributes marked animals throughout the population, so each animal has a similar chance of entering the second sample and the recaptured proportion is representative."
+    },
+    {
+     "text": "To ensure the second sample is larger than the first sample.",
+     "correct": false,
+     "explanation": "Mixing does not control the size of the second sample. It ensures the second sample is representative by distributing marked animals throughout the whole population."
+    },
+    {
+     "text": "To ensure all marked animals are recaptured in the second sample.",
+     "correct": false,
+     "explanation": "Capture-recapture does not require every marked animal to be caught again. Mixing makes the second sample representative, allowing the marked proportion to estimate population size."
+    },
+    {
+     "text": "To prevent any unmarked animals entering the second sample.",
+     "correct": false,
+     "explanation": "The second sample should contain both marked and unmarked animals. Mixing ensures it represents the whole population, rather than excluding unmarked individuals."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "8b40907a-a2d3-4a44-b29e-00cd9a1bca1e",
+   "card_type": "basic",
+   "front": "Why can the formula not be used if zero marked individuals are recaptured ($$R = 0$$)?",
+   "back": "It would result in dividing by zero, which is undefined.",
+   "options": [
+    {
+     "text": "It would result in dividing by zero, which is undefined.",
+     "correct": true,
+     "explanation": "The number recaptured is the denominator in the capture-recapture formula. When $R=0$, the calculation requires division by zero, which has no defined value."
+    },
+    {
+     "text": "It would always give a population estimate of zero.",
+     "correct": false,
+     "explanation": "Zero in the denominator does not make the answer zero; that confusion applies to a zero numerator. The formula instead involves dividing by zero, which is undefined."
+    },
+    {
+     "text": "It would show that every individual in the population was marked.",
+     "correct": false,
+     "explanation": "Recapturing no marked individuals does not mean the entire population was marked. It makes the formula undefined because the calculation requires division by $R=0$."
+    },
+    {
+     "text": "It would require multiplying by zero, making the estimate zero.",
+     "correct": false,
+     "explanation": "The recaptured number is used as the denominator, not as a multiplying factor. Therefore $R=0$ causes division by zero, which is undefined."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "361293cb-eb09-4938-bf34-c1c319f70713",
+   "card_type": "cloze",
+   "front": "When the calculation results in a decimal, you should round to the nearest [ ___ ] because you cannot have part of an animal.",
+   "back": "When the calculation results in a decimal, you should round to the nearest whole number because you cannot have part of an animal.",
+   "options": [
+    {
+     "text": "whole number",
+     "correct": true,
+     "explanation": "A population counts individual animals, so the final estimate should be a whole number. Standard rounding gives the nearest whole animal when the calculation produces a decimal."
+    },
+    {
+     "text": "decimal place",
+     "correct": false,
+     "explanation": "Rounding to a decimal place would still allow a fractional animal in the reported population. The estimate should be rounded to the nearest whole number."
+    },
+    {
+     "text": "tenth",
+     "correct": false,
+     "explanation": "Rounding to the nearest tenth leaves a decimal population, such as $42.3$ animals. Since animals are counted as whole individuals, use the nearest whole number."
+    },
+    {
+     "text": "even number",
+     "correct": false,
+     "explanation": "Animal populations can contain an odd number of individuals, so rounding to an even number is unjustified. The result should be rounded to the nearest whole number."
+    }
+   ]
+  },
+  {
+   "id": "63846036-da0b-4081-bed4-e19a87f54669",
+   "card_type": "cloze",
+   "front": "When the calculation results in a decimal, you should round to the nearest whole number because you cannot have [ ___ ].",
+   "back": "When the calculation results in a decimal, you should round to the nearest whole number because you cannot have part of an animal.",
+   "options": [
+    {
+     "text": "part of an animal",
+     "correct": true,
+     "explanation": "Population size counts discrete individuals, so a decimal would represent a fraction of one animal. The calculated estimate is therefore rounded to the nearest whole number."
+    },
+    {
+     "text": "an odd number of animals",
+     "correct": false,
+     "explanation": "A population can contain an odd number of animals, so oddness does not justify rounding. Rounding is needed because the estimate cannot represent part of an animal."
+    },
+    {
+     "text": "different sample sizes",
+     "correct": false,
+     "explanation": "The first and second samples may have different sizes without invalidating the method. Rounding is required because a population cannot contain part of an animal."
+    },
+    {
+     "text": "more marked than unmarked animals",
+     "correct": false,
+     "explanation": "A sample can contain more marked than unmarked animals, particularly in a small population. Rounding is required because the estimate cannot include part of an animal."
+    }
+   ]
+  },
+  {
+   "id": "90c09475-07d8-4787-841f-f22fbd5f1f6f",
+   "card_type": "basic",
+   "front": "70 birds are marked. Later, 50 birds are caught and 10 are marked. Calculate the population estimate.",
+   "back": "$$$\\frac{70 \\times 50}{10} = 350$$",
+   "options": [
+    {
+     "text": "$$$\\frac{70 \\times 50}{10} = 350$$",
+     "correct": true,
+     "explanation": "Multiply the number initially marked by the size of the second sample, then divide by the 10 marked birds recaptured: $70 \\times 50 \\div 10=350$."
+    },
+    {
+     "text": "$$$\\frac{70 \\times 10}{50} = 14$$",
+     "correct": false,
+     "explanation": "This swaps the second-sample size and the recaptured number in the formula. The correct calculation is $70 \\times 50 \\div 10=350$ birds."
+    },
+    {
+     "text": "$$$70 \\times 50 = 3500$$",
+     "correct": false,
+     "explanation": "This omits division by the 10 marked birds recaptured, making the estimate ten times too large. The full calculation gives $70 \\times 50 \\div 10=350$."
+    },
+    {
+     "text": "$$$70 + 50 - 10 = 110$$",
+     "correct": false,
+     "explanation": "Adding the samples and subtracting recaptures treats capture-recapture like a simple total. The proportional formula is $70 \\times 50 \\div 10=350$ birds."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "d4b21ff4-5a1c-4a4c-82ce-fb3c03524e48",
+   "card_type": "basic",
+   "front": "45 squirrels are marked. Later, 30 are caught and 6 are marked. Calculate the population estimate.",
+   "back": "$$$\\frac{45 \\times 30}{6} = 225$$",
+   "options": [
+    {
+     "text": "$$$\\frac{45 \\times 30}{6} = 225$$",
+     "correct": true,
+     "explanation": "The estimate is the initially marked number multiplied by the second-sample size, divided by the marked recaptures: $45 \\times 30 \\div 6=225$ squirrels."
+    },
+    {
+     "text": "$$$\\frac{45 \\times 6}{30} = 9$$",
+     "correct": false,
+     "explanation": "This reverses the second-sample size and marked-recapture count. The correct formula places 30 in the numerator and 6 in the denominator, giving 225 squirrels."
+    },
+    {
+     "text": "$$$45 \\times 30 = 1350$$",
+     "correct": false,
+     "explanation": "This forgets to divide by the six marked squirrels recaptured, making the result six times too large. Dividing $1350$ by 6 gives 225."
+    },
+    {
+     "text": "$$$\\frac{45 \\times 30}{24} = 56.25$$",
+     "correct": false,
+     "explanation": "This divides by the 24 unmarked squirrels instead of the six marked squirrels recaptured. The recaptured marked count is the denominator, giving $1350 \\div 6=225$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "caa3bd06-fd5d-4298-9106-1c05b0ada573",
+   "card_type": "cloze",
+   "front": "The [ ___ ] is the whole group you want to estimate, whereas a sample is a smaller group taken from it.",
+   "back": "The population is the whole group you want to estimate, whereas a sample is a smaller group taken from it.",
+   "options": [
+    {
+     "text": "population",
+     "correct": true,
+     "explanation": "The population is the complete group being investigated or estimated. A sample contains only some members of that population and is used to draw conclusions about it."
+    },
+    {
+     "text": "sample",
+     "correct": false,
+     "explanation": "A sample is the smaller group selected from the whole group, not the whole group itself. The complete group being estimated is called the population."
+    },
+    {
+     "text": "frequency",
+     "correct": false,
+     "explanation": "Frequency is the number of times a value or event occurs, rather than a group of individuals. The whole group being estimated is the population."
+    },
+    {
+     "text": "estimate",
+     "correct": false,
+     "explanation": "An estimate is an approximate numerical result, not the group being studied. The whole group is the population, while a sample is taken from it."
+    }
+   ]
+  },
+  {
+   "id": "b6542599-2e76-456a-85d9-26d74214befd",
+   "card_type": "cloze",
+   "front": "The population is the whole group you want to estimate, whereas a [ ___ ] is a smaller group taken from it.",
+   "back": "The population is the whole group you want to estimate, whereas a sample is a smaller group taken from it.",
+   "options": [
+    {
+     "text": "sample",
+     "correct": true,
+     "explanation": "A sample is a smaller group selected from the population. Capture-recapture uses information from samples to estimate the size of the complete population."
+    },
+    {
+     "text": "population",
+     "correct": false,
+     "explanation": "The population is the entire group being estimated, not a smaller group taken from itself. The selected smaller group is called a sample."
+    },
+    {
+     "text": "census",
+     "correct": false,
+     "explanation": "A census collects information from every member of a population rather than from a smaller selected group. That smaller group is called a sample."
+    },
+    {
+     "text": "estimate",
+     "correct": false,
+     "explanation": "An estimate is an approximate result, such as the calculated population size, rather than a group of individuals. A smaller group taken from a population is a sample."
+    }
+   ]
+  },
+  {
+   "id": "59468a61-4365-4a9b-9a55-e03643328891",
+   "card_type": "basic",
+   "front": "35 lizards are marked. 25 lizards are caught later and 4 are marked. Provide the estimate rounded to the nearest integer.",
+   "back": "$$$219$$ ($$218.75$$ rounded).",
+   "options": [
+    {
+     "text": "$$$219$$ ($$218.75$$ rounded).",
+     "correct": true,
+     "explanation": "The population estimate is $\\frac{35 \\times 25}{4}=218.75$. Rounding this to the nearest integer gives an estimated lizard population of $219$."
+    },
+    {
+     "text": "$$$218$$ ($$218.75$$ rounded).",
+     "correct": false,
+     "explanation": "This rounds $218.75$ down instead of to the nearest integer. Since the decimal part is $0.75$, the correct estimate rounds up to $219$."
+    },
+    {
+     "text": "$$$175$$ ($$175.00$$ rounded).",
+     "correct": false,
+     "explanation": "This results from treating five lizards as recaptures instead of four. Using the actual overlap gives $\\frac{35 \\times 25}{4}=218.75$, which rounds to $219$."
+    },
+    {
+     "text": "$$$6$$ ($$5.60$$ rounded).",
+     "correct": false,
+     "explanation": "This incorrectly calculates $\\frac{35 \\times 4}{25}$, reversing the capture-recapture formula. The correct calculation is $\\frac{35 \\times 25}{4}=218.75$, which rounds to $219$."
+    }
+   ],
+   "points": 2
+  }
+ ],
+ "card_count": 25,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-6-6-13-capture-recapture/flashcards",
+ "source_sha256": "eda939046fb555d55ba7aa47667c9dfee27e0dd6b7d1ad73d52b71c4a5bdac93",
+ "extracted_at": "2026-11-08T17:55:05Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}

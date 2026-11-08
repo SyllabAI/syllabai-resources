@@ -1,0 +1,618 @@
+{
+ "topic": "grade-4-4-18-averages-from-frequency-tables",
+ "lane": "gcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "title": "Averages from Frequency Tables Flashcards",
+ "cards": [
+  {
+   "id": "f4e6b9e3-6462-45dc-bcb7-fdaba110efd0",
+   "card_type": "basic",
+   "front": "In a frequency table, what should you add to find the total number of items?",
+   "back": "Add the frequencies, not the values.",
+   "options": [
+    {
+     "text": "Add the frequencies, not the values.",
+     "correct": true,
+     "explanation": "Each frequency counts how many items have that value. Adding all the frequencies therefore gives the total number of items represented by the table."
+    },
+    {
+     "text": "Add the values, not the frequencies.",
+     "correct": false,
+     "explanation": "Adding the listed values ignores how many times each one occurs. The total number of items is found by adding the frequencies, not the values."
+    },
+    {
+     "text": "Multiply the frequencies, not the values.",
+     "correct": false,
+     "explanation": "Multiplying frequencies does not count the observations and can produce a very large, meaningless result. Add the frequencies to obtain the total number of items."
+    },
+    {
+     "text": "Add the value-frequency products, not the values.",
+     "correct": false,
+     "explanation": "Adding value-frequency products finds the total of all data values, which is used for the mean. The number of items is found by adding the frequencies."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "fc02dc42-a816-4e26-9217-398a1c18cf99",
+   "card_type": "basic",
+   "front": "Points frequencies are 3, 5, 4, 2. How many games were played?",
+   "back": "14 games.",
+   "options": [
+    {
+     "text": "14 games.",
+     "correct": true,
+     "explanation": "The frequencies count the games in each points category, so the total is $3+5+4+2=14$. Therefore, 14 games were played."
+    },
+    {
+     "text": "12 games.",
+     "correct": false,
+     "explanation": "This total misses one of the frequency groups. All four frequencies must be added: $3+5+4+2=14$, so 14 games were played."
+    },
+    {
+     "text": "10 games.",
+     "correct": false,
+     "explanation": "This comes from adding only the first three frequencies and omitting the final frequency of 2. Including every row gives $3+5+4+2=14$ games."
+    },
+    {
+     "text": "16 games.",
+     "correct": false,
+     "explanation": "This likely double-counts the final frequency of 2. Each frequency is included once, giving $3+5+4+2=14$ games in total."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "172bd291-df01-4692-9ff3-0003549c5e7b",
+   "card_type": "cloze",
+   "front": "How many times a value, score, or group occurs is its [ ___ ].",
+   "back": "How many times a value, score, or group occurs is its frequency.",
+   "options": [
+    {
+     "text": "frequency",
+     "correct": true,
+     "explanation": "Frequency is the number of times a particular value, score, or group appears in a data set. It is the count recorded for that category."
+    },
+    {
+     "text": "range",
+     "correct": false,
+     "explanation": "The range measures the spread of data by subtracting the lowest value from the highest. The number of times a value occurs is its frequency."
+    },
+    {
+     "text": "median",
+     "correct": false,
+     "explanation": "The median is the middle value after the data are ordered. The count of how many times a value or group occurs is its frequency."
+    },
+    {
+     "text": "interval",
+     "correct": false,
+     "explanation": "An interval is a span of values used to group data. The number of observations within a value or group is called its frequency."
+    }
+   ]
+  },
+  {
+   "id": "c6923588-beb3-44be-acba-0e8f57f994a8",
+   "card_type": "basic",
+   "front": "For the mean from an exact frequency table, what is multiplied before adding?",
+   "back": "Multiply each value by its frequency.",
+   "options": [
+    {
+     "text": "Multiply each value by its frequency.",
+     "correct": true,
+     "explanation": "Multiplying each value by its frequency gives the total contribution from every occurrence of that value. These products are then added before dividing by total frequency."
+    },
+    {
+     "text": "Multiply each value by the total frequency.",
+     "correct": false,
+     "explanation": "Using the total frequency for every value treats each score as if it occurred equally often. Each value must instead be multiplied by its own frequency."
+    },
+    {
+     "text": "Multiply each frequency by itself.",
+     "correct": false,
+     "explanation": "Squaring frequencies does not include the data values and therefore cannot produce the data total. Multiply each value by its corresponding frequency before adding."
+    },
+    {
+     "text": "Multiply each value by the next frequency.",
+     "correct": false,
+     "explanation": "Pairing a value with the next row’s frequency mismatches the data. Each value must be multiplied by the frequency recorded in the same row."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "bc4503b6-b1be-402f-a5be-d49b3ee108a2",
+   "card_type": "cloze",
+   "front": "For exact frequency data, mean = total of [ ___ ] divided by total [ ___ ].",
+   "back": "For exact frequency data, mean = total of value-frequency products divided by total frequency.",
+   "options": [
+    {
+     "text": "For exact frequency data, mean = total of value-frequency products divided by total frequency.",
+     "correct": true,
+     "explanation": "Value-frequency products give the total of all observations, while total frequency gives the number of observations. Dividing the first total by the second gives the mean."
+    },
+    {
+     "text": "For exact frequency data, mean = total of values divided by total frequency.",
+     "correct": false,
+     "explanation": "Adding each listed value once ignores repeated observations. The numerator must be the total of value-frequency products, divided by the total frequency."
+    },
+    {
+     "text": "For exact frequency data, mean = total of value-frequency products divided by total number of rows.",
+     "correct": false,
+     "explanation": "The number of rows counts distinct values, not observations. The total of value-frequency products must be divided by total frequency to calculate the mean."
+    },
+    {
+     "text": "For exact frequency data, mean = total of frequencies divided by total values.",
+     "correct": false,
+     "explanation": "This reverses and omits the required quantities. The mean is the total of value-frequency products divided by the total frequency."
+    }
+   ]
+  },
+  {
+   "id": "3ad33790-b72e-4759-8ed1-8932d69d2c13",
+   "card_type": "basic",
+   "front": "Why is adding the different scores and dividing by the number of rows wrong?",
+   "back": "Frequencies show some scores occurred more often.",
+   "options": [
+    {
+     "text": "Frequencies show some scores occurred more often.",
+     "correct": true,
+     "explanation": "Different frequencies mean that some scores appear more times than others. The mean must account for this by weighting each score using its frequency."
+    },
+    {
+     "text": "Values show some scores are larger than others.",
+     "correct": false,
+     "explanation": "Differences between score sizes do not explain the error. Adding rows once ignores repetition; frequencies show how often each score occurred and must be used as weights."
+    },
+    {
+     "text": "Rows each represent the same number of results.",
+     "correct": false,
+     "explanation": "Rows do not necessarily represent equal numbers of results because their frequencies may differ. The frequencies show that some scores occurred more often than others."
+    },
+    {
+     "text": "Products make every score occur exactly once.",
+     "correct": false,
+     "explanation": "Value-frequency products account for repeated scores rather than making each occur once. Frequencies show how often scores occurred, so simply averaging the listed rows is wrong."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "8b7e1649-91f5-4605-bb28-d09cbb7d4327",
+   "card_type": "basic",
+   "front": "If the product total is 49 and total frequency is 27, what is the mean to 1 decimal place?",
+   "back": "1.8",
+   "options": [
+    {
+     "text": "1.8",
+     "correct": true,
+     "explanation": "The mean is $49\\div27=1.814\\ldots$. The hundredths digit is 1, so rounding to one decimal place gives 1.8."
+    },
+    {
+     "text": "2.0",
+     "correct": false,
+     "explanation": "This rounds $49\\div27=1.814\\ldots$ to the nearest whole number before writing a decimal place. Rounding directly to one decimal place gives 1.8."
+    },
+    {
+     "text": "0.6",
+     "correct": false,
+     "explanation": "This results from reversing the division and calculating $27\\div49$. For a frequency-table mean, divide the product total by total frequency: $49\\div27=1.8$ to one decimal place."
+    },
+    {
+     "text": "1.9",
+     "correct": false,
+     "explanation": "The value $49\\div27$ is $1.814\\ldots$, and the hundredths digit is 1, not 5 or more. It therefore rounds down to 1.8."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "020dea3b-24a1-41d4-88fe-91daef47a64a",
+   "card_type": "cloze",
+   "front": "A row with frequency 0 contributes [ ___ ] to the total.",
+   "back": "A row with frequency 0 contributes nothing to the total.",
+   "options": [
+    {
+     "text": "nothing",
+     "correct": true,
+     "explanation": "A frequency of 0 means that the value occurs no times. Its value-frequency product is therefore 0, so the row adds nothing to the total."
+    },
+    {
+     "text": "its value",
+     "correct": false,
+     "explanation": "The value is not included once when its frequency is 0. Multiplying the value by 0 gives 0, so the row contributes nothing."
+    },
+    {
+     "text": "its frequency",
+     "correct": false,
+     "explanation": "The frequency is used as a multiplier, not added as the row’s contribution. Since the frequency is 0, the value-frequency product contributes nothing."
+    },
+    {
+     "text": "one item",
+     "correct": false,
+     "explanation": "A frequency of 0 means there are no items in that row, not one item. Its value-frequency product is 0, so it contributes nothing."
+    }
+   ]
+  },
+  {
+   "id": "21caa035-4131-45d3-9be9-066cee3ddbf9",
+   "card_type": "basic",
+   "front": "If 2 goals were scored in $x$ matches, what is that row’s goal total?",
+   "back": "$2x$ goals.",
+   "options": [
+    {
+     "text": "$2x$ goals.",
+     "correct": true,
+     "explanation": "Each of the $x$ matches contributes 2 goals, so multiplying frequency by goals per match gives a row total of $2 \\times x=2x$ goals."
+    },
+    {
+     "text": "$2+x$ goals.",
+     "correct": false,
+     "explanation": "Adding the number of goals to the number of matches confuses repeated values with a sum. Two goals in each of $x$ matches gives $2 \\times x=2x$ goals."
+    },
+    {
+     "text": "$\\frac{x}{2}$ goals.",
+     "correct": false,
+     "explanation": "Dividing by 2 would halve the number of matches rather than total the goals. The row total is frequency multiplied by value, so it is $2x$ goals."
+    },
+    {
+     "text": "$x^2$ goals.",
+     "correct": false,
+     "explanation": "Squaring the number of matches does not use the 2 goals scored per match correctly. Multiplying 2 by the frequency $x$ gives $2x$ goals."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "ed9e89e4-c3ae-41b3-b5cd-81960956a696",
+   "card_type": "basic",
+   "front": "Known goal total is 23, total goals are 39, and the unknown row contributes $2x$. What equation finds $x$?",
+   "back": "$23+2x=39$",
+   "options": [
+    {
+     "text": "$23+2x=39$",
+     "correct": true,
+     "explanation": "The known rows contribute 23 goals and the unknown row contributes $2x$ goals. Their sum must equal the overall total of 39 goals."
+    },
+    {
+     "text": "$23+x=39$",
+     "correct": false,
+     "explanation": "This treats $x$ as the row’s goal total, forgetting that each of those matches contributes 2 goals. The unknown contribution is $2x$, giving $23+2x=39$."
+    },
+    {
+     "text": "$23+2x=62$",
+     "correct": false,
+     "explanation": "Adding 23 and 39 to form the right-hand side double-counts the known contribution. The known and unknown contributions together equal 39, so $23+2x=39$."
+    },
+    {
+     "text": "$39+2x=23$",
+     "correct": false,
+     "explanation": "This reverses the total and the known contribution. The smaller known total of 23 is increased by $2x$ to reach 39, so $23+2x=39$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "de4e6b0b-3e88-4179-aa85-10a678c03c98",
+   "card_type": "basic",
+   "front": "Solve $23+2x=39$.",
+   "back": "$x=8$",
+   "options": [
+    {
+     "text": "$x=8$",
+     "correct": true,
+     "explanation": "Subtracting 23 from both sides gives $2x=16$. Dividing both sides by 2 then gives $x=8$."
+    },
+    {
+     "text": "$x=16$",
+     "correct": false,
+     "explanation": "This stops after subtracting 23, when the equation is $2x=16$. Dividing by the coefficient 2 is still required, giving $x=8$."
+    },
+    {
+     "text": "$x=7$",
+     "correct": false,
+     "explanation": "This comes from an incorrect subtraction of 23 from 39. The correct difference is 16, so $2x=16$ and therefore $x=8$."
+    },
+    {
+     "text": "$x=31$",
+     "correct": false,
+     "explanation": "This does not isolate the $2x$ term correctly. Subtract 23 from 39 to obtain 16, then divide by 2 to get $x=8$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "805539b1-74f6-46dc-b558-0c460cccc71c",
+   "card_type": "cloze",
+   "front": "The mode is the value with the [ ___ ].",
+   "back": "The mode is the value with the highest frequency.",
+   "options": [
+    {
+     "text": "highest frequency",
+     "correct": true,
+     "explanation": "The mode is the data value that occurs most often, so it is identified by the highest frequency in a frequency table."
+    },
+    {
+     "text": "lowest frequency",
+     "correct": false,
+     "explanation": "The lowest frequency identifies the value occurring least often, not the mode. The mode is the value with the highest frequency."
+    },
+    {
+     "text": "greatest value",
+     "correct": false,
+     "explanation": "The largest data value is not necessarily the one occurring most often. The mode depends on frequency, so it is the value with the highest frequency."
+    },
+    {
+     "text": "highest cumulative frequency",
+     "correct": false,
+     "explanation": "Cumulative frequency increases towards the total and does not identify the most common value directly. The mode is found using the highest ordinary frequency."
+    }
+   ]
+  },
+  {
+   "id": "03836bfa-76df-4d62-8026-999316242dea",
+   "card_type": "basic",
+   "front": "For 32 values, which positions locate the median?",
+   "back": "The 16th and 17th values.",
+   "options": [
+    {
+     "text": "The 16th and 17th values.",
+     "correct": true,
+     "explanation": "An even-sized set has two central positions. For 32 ordered values, these are positions $32\\div2=16$ and $16+1=17$."
+    },
+    {
+     "text": "The 16th value.",
+     "correct": false,
+     "explanation": "Using only the 16th value applies the odd-data rule incorrectly. Since 32 is even, the median is located using both the 16th and 17th values."
+    },
+    {
+     "text": "The 17th value.",
+     "correct": false,
+     "explanation": "Using only the 17th value ignores the other central position. For 32 ordered values, the middle lies between the 16th and 17th values."
+    },
+    {
+     "text": "The 15th and 16th values.",
+     "correct": false,
+     "explanation": "These positions are shifted one place too low. Half of 32 is 16, so the two central positions are the 16th and 17th values."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "06b4ca5e-e75a-4a27-9459-c680ec22250f",
+   "card_type": "basic",
+   "front": "Why use cumulative frequency to find the median?",
+   "back": "It locates the middle value without writing the list.",
+   "options": [
+    {
+     "text": "It locates the middle value without writing the list.",
+     "correct": true,
+     "explanation": "Cumulative frequency shows which row contains the central position or positions, allowing the median to be found without expanding the frequency table into an ordered list."
+    },
+    {
+     "text": "It locates the most frequent value without writing the list.",
+     "correct": false,
+     "explanation": "The most frequent value is the mode and is found from the largest ordinary frequency. Cumulative frequency is used to locate the middle value for the median."
+    },
+    {
+     "text": "It calculates the exact mean without writing the list.",
+     "correct": false,
+     "explanation": "The mean requires the sum of the values and their frequencies, not cumulative frequency. Cumulative frequency instead locates the middle value needed for the median."
+    },
+    {
+     "text": "It identifies the largest value without writing the list.",
+     "correct": false,
+     "explanation": "The largest value can be read from the final non-zero row and does not require cumulative frequency. Cumulative totals are useful for locating the median’s middle position."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "ec733702-da08-4901-a330-d18682da40e8",
+   "card_type": "basic",
+   "front": "Cumulative frequencies are up to 0 goals = 5 and up to 1 goal = 17. Where are the 16th and 17th values?",
+   "back": "In the 1-goal row.",
+   "options": [
+    {
+     "text": "In the 1-goal row.",
+     "correct": true,
+     "explanation": "Positions 1 to 5 are in the 0-goal row, while positions 6 to 17 are in the 1-goal row. Therefore, both central values are 1."
+    },
+    {
+     "text": "In the 0-goal row.",
+     "correct": false,
+     "explanation": "The 0-goal row contains only positions 1 to 5 because its cumulative frequency is 5. Positions 16 and 17 fall in the 1-goal row."
+    },
+    {
+     "text": "In the 2-goal row.",
+     "correct": false,
+     "explanation": "The cumulative frequency has already reached 17 by the end of the 1-goal row. Therefore, positions 16 and 17 occur before the 2-goal row."
+    },
+    {
+     "text": "Across the 0-goal and 1-goal rows.",
+     "correct": false,
+     "explanation": "The boundary between these rows is after position 5, not between positions 16 and 17. Both positions lie within the 1-goal row."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "0d05ce81-fb93-4a61-a142-5d5aef4b732d",
+   "card_type": "cloze",
+   "front": "For grouped data, the mean is only an [ ___ ] because exact values are [ ___ ].",
+   "back": "For grouped data, the mean is only an estimate because exact values are unknown.",
+   "options": [
+    {
+     "text": "For grouped data, the mean is only an estimate because exact values are unknown.",
+     "correct": true,
+     "explanation": "Grouped data gives intervals rather than individual observations, so calculations normally use class midpoints. Because the original exact values are unknown, the resulting mean is an estimate."
+    },
+    {
+     "text": "For grouped data, the mean is only an exact value because exact values are unknown.",
+     "correct": false,
+     "explanation": "Unknown individual values prevent an exact calculation, even though class midpoints can represent each interval. The resulting mean is therefore an estimate, not an exact value."
+    },
+    {
+     "text": "For grouped data, the mean is only an estimate because exact values are known.",
+     "correct": false,
+     "explanation": "If every exact value were known, the mean could be calculated exactly. Grouped tables provide only intervals, so exact values are unknown and the mean is an estimate."
+    },
+    {
+     "text": "For grouped data, the mean is only an exact value because exact values are known.",
+     "correct": false,
+     "explanation": "This describes ungrouped raw data rather than grouped data. In grouped data the individual values are unknown, so midpoints are used and the mean is only an estimate."
+    }
+   ]
+  },
+  {
+   "id": "1b447e30-0c57-44e2-a163-ed838ea404ce",
+   "card_type": "basic",
+   "front": "How should you find each midpoint in grouped data?",
+   "back": "Use $\\frac{\\text{lower}+\\text{upper}}{2}$ for that interval.",
+   "options": [
+    {
+     "text": "Use $\\frac{\\text{lower}+\\text{upper}}{2}$ for that interval.",
+     "correct": true,
+     "explanation": "The midpoint is halfway between the interval boundaries, so add the lower and upper values and divide their sum by 2."
+    },
+    {
+     "text": "Use $\\frac{\\text{upper}-\\text{lower}}{2}$ for that interval.",
+     "correct": false,
+     "explanation": "Subtracting the boundaries and halving gives half the class width, not its midpoint. Add the lower and upper boundaries, then divide by 2."
+    },
+    {
+     "text": "Use $\\frac{\\text{lower}+\\text{upper}}{\\text{upper}}$ for that interval.",
+     "correct": false,
+     "explanation": "Dividing by the upper boundary does not locate the centre of an interval. The midpoint is the sum of both boundaries divided by 2."
+    },
+    {
+     "text": "Use $\\frac{\\text{lower}+\\text{upper}}{\\text{lower}}$ for that interval.",
+     "correct": false,
+     "explanation": "Dividing by the lower boundary produces a ratio rather than the interval’s central value. Add both boundaries and divide the result by 2."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "eb814eea-3139-4098-98ee-cf263d879122",
+   "card_type": "basic",
+   "front": "What is the midpoint of over 10, up to 15 minutes?",
+   "back": "12.5 minutes.",
+   "options": [
+    {
+     "text": "12.5 minutes.",
+     "correct": true,
+     "explanation": "The midpoint is halfway between 10 and 15, so $(10+15)\\div2=12.5$ minutes."
+    },
+    {
+     "text": "2.5 minutes.",
+     "correct": false,
+     "explanation": "This is half the class width, found from $(15-10)\\div2$, rather than the midpoint. The midpoint is $(10+15)\\div2=12.5$ minutes."
+    },
+    {
+     "text": "10.5 minutes.",
+     "correct": false,
+     "explanation": "Adding $0.5$ to the lower boundary does not find the centre of a five-minute interval. Averaging 10 and 15 gives 12.5 minutes."
+    },
+    {
+     "text": "15.5 minutes.",
+     "correct": false,
+     "explanation": "Adding $0.5$ to the upper boundary places the value outside the interval. The average of the two boundaries is 12.5 minutes."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "e383e6c6-18f9-4419-8bb6-2b415dd47274",
+   "card_type": "cloze",
+   "front": "For grouped data, estimated mean = total of [ ___ ] divided by total [ ___ ].",
+   "back": "For grouped data, estimated mean = total of midpoint-frequency products divided by total frequency.",
+   "options": [
+    {
+     "text": "For grouped data, estimated mean = total of midpoint-frequency products divided by total frequency.",
+     "correct": true,
+     "explanation": "Each class midpoint represents its observations, so multiplying each midpoint by its frequency estimates the total. Dividing the product total by total frequency gives the estimated mean."
+    },
+    {
+     "text": "For grouped data, estimated mean = total of class widths divided by total frequency.",
+     "correct": false,
+     "explanation": "Class widths describe interval sizes, not the estimated total of the data. Use the total of midpoint-frequency products divided by total frequency."
+    },
+    {
+     "text": "For grouped data, estimated mean = total of midpoint-frequency products divided by total class width.",
+     "correct": false,
+     "explanation": "Dividing by total class width ignores how many observations there are. The midpoint-frequency product total must be divided by total frequency."
+    },
+    {
+     "text": "For grouped data, estimated mean = total of midpoints divided by total number of classes.",
+     "correct": false,
+     "explanation": "Averaging the class midpoints gives every class equal importance, even when frequencies differ. Weight each midpoint by frequency, then divide by total frequency."
+    }
+   ]
+  },
+  {
+   "id": "63c90974-9376-4c8b-937a-b3a6a50241c0",
+   "card_type": "basic",
+   "front": "If the grouped-data product total is 430 and total frequency is 20, what is the estimated mean?",
+   "back": "21.5 minutes.",
+   "options": [
+    {
+     "text": "21.5 minutes.",
+     "correct": true,
+     "explanation": "The estimated mean is the midpoint-frequency product total divided by total frequency, so $430\\div20=21.5$ minutes."
+    },
+    {
+     "text": "8.6 minutes.",
+     "correct": false,
+     "explanation": "This results from dividing 430 by an incorrect frequency of 50. Using the stated total frequency gives $430\\div20=21.5$ minutes."
+    },
+    {
+     "text": "21 minutes.",
+     "correct": false,
+     "explanation": "Rounding before completing the calculation loses the required precision. The exact division is $430\\div20=21.5$ minutes."
+    },
+    {
+     "text": "22.5 minutes.",
+     "correct": false,
+     "explanation": "This comes from using 450 as the product total instead of 430. The stated values give $430\\div20=21.5$ minutes."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "e55c6720-eade-4a67-8194-548d25283856",
+   "card_type": "basic",
+   "front": "Cumulative frequencies are up to 10 = 5, up to 20 = 14, up to 30 = 25. For 40 people, what is the median class?",
+   "back": "Over 20, up to 30 minutes.",
+   "options": [
+    {
+     "text": "Over 20, up to 30 minutes.",
+     "correct": true,
+     "explanation": "For 40 people, the median lies around the 20th observation. Cumulative frequency rises from 14 to 25 in this class, so it contains the median."
+    },
+    {
+     "text": "Over 10, up to 20 minutes.",
+     "correct": false,
+     "explanation": "This class contains observations 6 to 14, so it does not contain the 20th observation. The median class is over 20, up to 30 minutes."
+    },
+    {
+     "text": "Over 30, up to 40 minutes.",
+     "correct": false,
+     "explanation": "Choosing a class after cumulative frequency 25 places the median too late in the data. The 20th observation lies over 20, up to 30 minutes."
+    },
+    {
+     "text": "Over 0, up to 10 minutes.",
+     "correct": false,
+     "explanation": "This first class contains only observations 1 to 5, not the middle observation. The 20th observation lies over 20, up to 30 minutes."
+    }
+   ],
+   "points": 1
+  }
+ ],
+ "card_count": 21,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-4-4-18-averages-from-frequency-tables/flashcards",
+ "source_sha256": "9d3f49e3654507b45a087ed76ad3e2616ab5c37ba1618497a4cca7a094aa8f22",
+ "extracted_at": "2026-11-08T17:55:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}

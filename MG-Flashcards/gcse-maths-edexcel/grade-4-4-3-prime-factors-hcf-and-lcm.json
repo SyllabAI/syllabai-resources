@@ -1,0 +1,647 @@
+{
+ "topic": "grade-4-4-3-prime-factors-hcf-and-lcm",
+ "lane": "gcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "title": "Prime Factors, HCF and LCM Flashcards",
+ "cards": [
+  {
+   "id": "b422133e-a062-474c-941c-745b3d0f48bc",
+   "card_type": "basic",
+   "front": "$$42 \\div 6$ gives 7 exactly. What does this show about 6?",
+   "back": "6 is a factor of 42.",
+   "options": [
+    {
+     "text": "6 is a factor of 42.",
+     "correct": true,
+     "explanation": "A factor divides a number exactly with no remainder. Since $42 \\div 6 = 7$, the number 6 is therefore a factor of 42."
+    },
+    {
+     "text": "6 is a multiple of 42.",
+     "correct": false,
+     "explanation": "This reverses the factor-multiple relationship. Since $42 \\div 6$ is an integer, 6 is a factor of 42, while 42 is a multiple of 6."
+    },
+    {
+     "text": "42 is a factor of 6.",
+     "correct": false,
+     "explanation": "This reverses the direction of divisibility: 42 does not divide 6 exactly. The calculation shows that 6 divides 42 exactly, so 6 is a factor of 42."
+    },
+    {
+     "text": "7 is a factor of 6.",
+     "correct": false,
+     "explanation": "The quotient 7 is not automatically a factor of the divisor 6. The exact division $42 \\div 6 = 7$ shows that 6 is a factor of 42."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "55aaa94d-b1de-4ca2-8a95-b342373e6ca9",
+   "card_type": "basic",
+   "front": "Why is 1 not a prime number?",
+   "back": "1 has only one factor.",
+   "options": [
+    {
+     "text": "1 has only one factor.",
+     "correct": true,
+     "explanation": "A prime number must have exactly two distinct positive factors: 1 and itself. For the number 1 these are the same factor, so it has only one."
+    },
+    {
+     "text": "1 has exactly two factors.",
+     "correct": false,
+     "explanation": "Counting 1 twice as both 1 and itself is a common mistake. Distinct factors are counted only once, so 1 has one factor and is not prime."
+    },
+    {
+     "text": "1 has no positive factors.",
+     "correct": false,
+     "explanation": "The number 1 divides itself exactly, so it does have a positive factor. It is not prime because it has only one distinct factor, rather than exactly two."
+    },
+    {
+     "text": "1 is an even number.",
+     "correct": false,
+     "explanation": "Evenness is determined by divisibility by 2, and 1 is odd. Its actual reason for not being prime is that it has only one distinct positive factor."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "f30f1fd8-adaa-463c-9bd2-94f25a6d2855",
+   "card_type": "cloze",
+   "front": "A prime number has exactly [ ___ ] factors: 1 and [ ___ ].",
+   "back": "A prime number has exactly two factors: 1 and itself.",
+   "options": [
+    {
+     "text": "A prime number has exactly two factors: 1 and itself.",
+     "correct": true,
+     "explanation": "By definition, a prime number has exactly two distinct positive factors. These are always 1 and the prime number itself."
+    },
+    {
+     "text": "A prime number has exactly one factors: 1 and itself.",
+     "correct": false,
+     "explanation": "Treating 1 and the number itself as one factor confuses prime numbers with the number 1. A prime has two distinct factors: 1 and itself."
+    },
+    {
+     "text": "A prime number has exactly two factors: 1 and 2.",
+     "correct": false,
+     "explanation": "Only the prime number 2 has 2 as its second factor. In general, every prime has exactly two factors: 1 and itself."
+    },
+    {
+     "text": "A prime number has exactly three factors: 1 and itself.",
+     "correct": false,
+     "explanation": "Having three factors does not satisfy the definition of a prime number. A prime has exactly two distinct positive factors: 1 and itself."
+    }
+   ]
+  },
+  {
+   "id": "a0be39cb-b514-46fa-b0c4-9ae14946fd87",
+   "card_type": "cloze",
+   "front": "A prime factorisation should never include [ ___ ].",
+   "back": "A prime factorisation should never include 1.",
+   "options": [
+    {
+     "text": "1",
+     "correct": true,
+     "explanation": "The number 1 is not prime, so it cannot appear as a prime factor. Including it also adds no useful information because multiplying by 1 changes nothing."
+    },
+    {
+     "text": "0",
+     "correct": false,
+     "explanation": "Although 0 should not appear in a prime factorisation, it is not the intended defining exclusion here. Prime factorisations never include 1 because 1 is not a prime number."
+    },
+    {
+     "text": "2",
+     "correct": false,
+     "explanation": "The number 2 is the smallest prime and is included whenever it divides the original number. It is 1 that must never appear because 1 is not prime."
+    },
+    {
+     "text": "3",
+     "correct": false,
+     "explanation": "The number 3 is a valid prime factor and should be included when it divides the number. A prime factorisation never includes 1 because 1 is not prime."
+    }
+   ]
+  },
+  {
+   "id": "9f6890b4-23de-4a8a-9c87-4983b291beb8",
+   "card_type": "basic",
+   "front": "What does $2^3$ mean in index notation?",
+   "back": "$2 \\times 2 \\times 2$",
+   "options": [
+    {
+     "text": "$2 \\times 2 \\times 2$",
+     "correct": true,
+     "explanation": "An exponent tells you how many times the base is used as a factor. Therefore, $2^3$ means multiplying three factors of 2 together."
+    },
+    {
+     "text": "$2 \\times 3$",
+     "correct": false,
+     "explanation": "Multiplying the base by the exponent is a common index error. The exponent 3 means use 2 as a factor three times, giving $2 \\times 2 \\times 2$."
+    },
+    {
+     "text": "$3 \\times 3 \\times 3$",
+     "correct": false,
+     "explanation": "This incorrectly uses the exponent as the repeated factor. In $2^3$, the base 2 is repeated three times, so it means $2 \\times 2 \\times 2$."
+    },
+    {
+     "text": "$2 + 2 + 2$",
+     "correct": false,
+     "explanation": "An index represents repeated multiplication, not repeated addition. Since the base is 2 and the exponent is 3, the expression means $2 \\times 2 \\times 2$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "70c6459d-c8d2-481f-8792-7a03d3cd2ec9",
+   "card_type": "basic",
+   "front": "Write 84 as a product of prime factors.",
+   "back": "$84 = 2^2 \\times 3 \\times 7$",
+   "options": [
+    {
+     "text": "$84 = 2^2 \\times 3 \\times 7$",
+     "correct": true,
+     "explanation": "Dividing 84 gives $84 = 2 \\times 42 = 2 \\times 2 \\times 21 = 2^2 \\times 3 \\times 7$, and every factor on the right is prime."
+    },
+    {
+     "text": "$84 = 2 \\times 3 \\times 7$",
+     "correct": false,
+     "explanation": "One factor of 2 has been omitted, so the right-hand side equals 42 rather than 84. The complete factorisation is $84 = 2^2 \\times 3 \\times 7$."
+    },
+    {
+     "text": "$84 = 2^2 \\times 3^2 \\times 7$",
+     "correct": false,
+     "explanation": "The exponent on 3 has been increased incorrectly, making the product three times too large. There is only one factor of 3, so the correct power is $3^1$."
+    },
+    {
+     "text": "$84 = 2^3 \\times 3 \\times 7$",
+     "correct": false,
+     "explanation": "This includes one extra factor of 2, so the product is 168 rather than 84. There are exactly two factors of 2, giving $2^2 \\times 3 \\times 7$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "435f02ee-b123-4fe5-a43a-129efb2faae2",
+   "card_type": "basic",
+   "front": "For HCF using prime factors, which primes do you keep?",
+   "back": "Primes that appear in every number.",
+   "options": [
+    {
+     "text": "Primes that appear in every number.",
+     "correct": true,
+     "explanation": "The HCF must divide every number, so only prime factors shared by all the numbers can be included. Any unshared prime would prevent the result dividing at least one number."
+    },
+    {
+     "text": "Primes that appear in any number.",
+     "correct": false,
+     "explanation": "Keeping every prime that appears in at least one number is the method associated with finding the LCM. For the HCF, retain only primes appearing in every number."
+    },
+    {
+     "text": "Primes that appear in one number.",
+     "correct": false,
+     "explanation": "A prime found in only one number cannot be part of a common factor. For the HCF, keep primes that occur in every number being considered."
+    },
+    {
+     "text": "Primes that are below every number.",
+     "correct": false,
+     "explanation": "A prime being smaller than each number does not mean it divides them. The HCF uses only prime factors that appear in every number’s prime factorisation."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "9647e6db-2a7a-41ee-b5bf-0e4bad72d5c7",
+   "card_type": "cloze",
+   "front": "For HCF, choose the [ ___ ] power of each shared prime.",
+   "back": "For HCF, choose the smallest power of each shared prime.",
+   "options": [
+    {
+     "text": "smallest",
+     "correct": true,
+     "explanation": "A common factor cannot contain a prime more times than any number being compared. Therefore, the HCF uses the smallest exponent of each shared prime."
+    },
+    {
+     "text": "largest",
+     "correct": false,
+     "explanation": "Choosing the largest power is the rule used for the LCM, not the HCF. The HCF must divide every number, so it uses the smallest shared power."
+    },
+    {
+     "text": "total",
+     "correct": false,
+     "explanation": "Adding the powers would introduce too many copies of the prime and produce a result that may not divide every number. The HCF uses the smallest shared power."
+    },
+    {
+     "text": "average",
+     "correct": false,
+     "explanation": "Averaging exponents is not part of finding an HCF and could even produce a non-integer exponent. The HCF takes the smallest power of each shared prime."
+    }
+   ]
+  },
+  {
+   "id": "52f2c515-544a-4070-b0eb-0d0141e746d0",
+   "card_type": "basic",
+   "front": "Given $54 = 2 \\times 3^3$ and $126 = 2 \\times 3^2 \\times 7$, find the HCF.",
+   "back": "$18$",
+   "options": [
+    {
+     "text": "$18$",
+     "correct": true,
+     "explanation": "For the HCF, use each common prime at its smallest power: $2^1 \\times 3^2 = 2 \\times 9 = 18$."
+    },
+    {
+     "text": "$6$",
+     "correct": false,
+     "explanation": "This uses only one factor of $3$ instead of the shared $3^2$. Taking the smallest common powers gives $2 \\times 3^2 = 18$."
+    },
+    {
+     "text": "$9$",
+     "correct": false,
+     "explanation": "This omits the factor $2$, even though both numbers contain it. The HCF includes $2^1$ and $3^2$, giving $18$."
+    },
+    {
+     "text": "$54$",
+     "correct": false,
+     "explanation": "This copies the first number, but $3^3$ is not a factor of $126$. The smallest shared powers are $2^1$ and $3^2$, giving $18$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "8a391a7c-3c02-46bb-8573-b14c953875b6",
+   "card_type": "basic",
+   "front": "For LCM using prime factors, which primes do you include?",
+   "back": "Every prime that appears.",
+   "options": [
+    {
+     "text": "Every prime that appears.",
+     "correct": true,
+     "explanation": "The LCM must be divisible by every original number, so it includes every prime appearing in any factorisation, using the greatest required power of each."
+    },
+    {
+     "text": "Every prime shared by all.",
+     "correct": false,
+     "explanation": "Including only shared primes is the method for finding an HCF. An LCM includes every prime that appears in any of the numbers."
+    },
+    {
+     "text": "Every prime in the first number.",
+     "correct": false,
+     "explanation": "Restricting the selection to the first number can omit factors needed for divisibility by the others. The LCM includes every prime that appears."
+    },
+    {
+     "text": "Only the largest prime present.",
+     "correct": false,
+     "explanation": "The numerical size of a prime does not determine whether it is included. The LCM requires every prime appearing in any of the factorisations."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "53198437-caf0-413d-8407-a52924f82b89",
+   "card_type": "cloze",
+   "front": "For LCM, choose the [ ___ ] power of each prime.",
+   "back": "For LCM, choose the largest power of each prime.",
+   "options": [
+    {
+     "text": "largest",
+     "correct": true,
+     "explanation": "The LCM must contain enough of each prime to be divisible by every number, so the largest power of each prime is selected."
+    },
+    {
+     "text": "smallest",
+     "correct": false,
+     "explanation": "Choosing the smallest power is the HCF method because it keeps only factors common to every number. For an LCM, choose the largest power."
+    },
+    {
+     "text": "first",
+     "correct": false,
+     "explanation": "The first power would include each prime only once, which may not provide enough factors. The LCM uses the largest power shown."
+    },
+    {
+     "text": "common",
+     "correct": false,
+     "explanation": "Restricting the choice to a common power confuses LCM with HCF. For the LCM, select the largest power of every prime that appears."
+    }
+   ]
+  },
+  {
+   "id": "2f1058cb-5ab9-4090-af68-9e05ab6741bb",
+   "card_type": "basic",
+   "front": "Given $45 = 3^2 \\times 5$ and $60 = 2^2 \\times 3 \\times 5$, find the LCM.",
+   "back": "$180$",
+   "options": [
+    {
+     "text": "$180$",
+     "correct": true,
+     "explanation": "The LCM uses the largest powers present: $2^2 \\times 3^2 \\times 5 = 4 \\times 9 \\times 5 = 180$."
+    },
+    {
+     "text": "$15$",
+     "correct": false,
+     "explanation": "This is the HCF, found from the shared factors $3 \\times 5$. The LCM uses the greatest powers of all primes, giving $180$."
+    },
+    {
+     "text": "$60$",
+     "correct": false,
+     "explanation": "This keeps only $3^1$, so the result is not divisible by $45$, which contains $3^2$. Using $3^2$ gives an LCM of $180$."
+    },
+    {
+     "text": "$900$",
+     "correct": false,
+     "explanation": "This is obtained by multiplying $45$ and $60$ and then dividing incorrectly. Their shared factors must not be duplicated, so the LCM is $180$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "ade612c7-16d7-4459-b9d1-9df5a9510543",
+   "card_type": "basic",
+   "front": "Two regular events repeat at fixed intervals. What calculation gives the next time together?",
+   "back": "Find the LCM of the intervals.",
+   "options": [
+    {
+     "text": "Find the LCM of the intervals.",
+     "correct": true,
+     "explanation": "Each event occurs at multiples of its interval. The first positive time that is a multiple of both intervals is their lowest common multiple."
+    },
+    {
+     "text": "Find the HCF of the intervals.",
+     "correct": false,
+     "explanation": "The HCF measures the greatest interval that divides both values; it does not give their next shared occurrence. That time is found using the LCM."
+    },
+    {
+     "text": "Add the two intervals together.",
+     "correct": false,
+     "explanation": "Adding the intervals does not generally produce a multiple of each one. The next time both events occur together is given by their LCM."
+    },
+    {
+     "text": "Multiply the two intervals together.",
+     "correct": false,
+     "explanation": "The product is a common multiple but may not be the first one, especially when the intervals share factors. The next meeting uses the LCM."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "3553d10a-9d4e-4710-be69-fd58c3e46156",
+   "card_type": "cloze",
+   "front": "Before using LCM in a time question, put all intervals in [ ___ ].",
+   "back": "Before using LCM in a time question, put all intervals in the same units.",
+   "options": [
+    {
+     "text": "the same units",
+     "correct": true,
+     "explanation": "LCM compares whole-number intervals directly, so all times must first be expressed in one unit, such as converting hours and minutes entirely into minutes."
+    },
+    {
+     "text": "different units",
+     "correct": false,
+     "explanation": "Applying LCM to mixed units compares unlike quantities and gives an invalid result. Convert every interval into the same units before calculating the LCM."
+    },
+    {
+     "text": "the largest units",
+     "correct": false,
+     "explanation": "Choosing the largest unit can introduce fractions and is not the requirement. All intervals must be converted into the same units before finding the LCM."
+    },
+    {
+     "text": "the smallest units",
+     "correct": false,
+     "explanation": "Small units are often convenient, but they are not always necessary. The essential requirement is that every interval is expressed in the same units."
+    }
+   ]
+  },
+  {
+   "id": "10f9f039-5eb9-4326-866d-186dcad4e826",
+   "card_type": "basic",
+   "front": "A tram and coach both arrive at 10:00, then every 9 and 12 minutes. When next together?",
+   "back": "10:36",
+   "options": [
+    {
+     "text": "10:36",
+     "correct": true,
+     "explanation": "The LCM of $9$ and $12$ is $36$, so both services return together $36$ minutes after 10:00, which is 10:36."
+    },
+    {
+     "text": "10:21",
+     "correct": false,
+     "explanation": "This adds the two intervals, but $21$ is not a multiple of either $9$ or $12$. Their LCM is $36$, giving 10:36."
+    },
+    {
+     "text": "10:12",
+     "correct": false,
+     "explanation": "This uses only the coach's interval. After $12$ minutes the tram is not due, since $12$ is not a multiple of $9$; both return at 10:36."
+    },
+    {
+     "text": "11:48",
+     "correct": false,
+     "explanation": "This multiplies the intervals to get $108$ minutes, which is a shared return time but not the next one. The LCM is $36$ minutes, giving 10:36."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "6e569dac-d1c1-44a6-827c-f9a40172ada3",
+   "card_type": "basic",
+   "front": "For $P = 2^3 \\times 3^2 \\times 5$ and $Q = 2^2 \\times 3 \\times 7$, find the HCF.",
+   "back": "$12$",
+   "options": [
+    {
+     "text": "$12$",
+     "correct": true,
+     "explanation": "The common primes are $2$ and $3$. Taking their smallest powers gives $2^2 \\times 3^1 = 4 \\times 3 = 12$."
+    },
+    {
+     "text": "$6$",
+     "correct": false,
+     "explanation": "This incorrectly reduces the shared power of $2$ from $2^2$ to $2^1$. The smallest powers actually present are $2^2$ and $3^1$, giving $12$."
+    },
+    {
+     "text": "$36$",
+     "correct": false,
+     "explanation": "This uses $3^2$ from $P$, but $Q$ contains only $3^1$, so $36$ cannot divide $Q$. Using the smaller powers gives $12$."
+    },
+    {
+     "text": "$84$",
+     "correct": false,
+     "explanation": "This includes the factor $7$, which appears only in $Q$ and is therefore not common. The shared prime powers produce an HCF of $12$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "9f9e3807-949b-4fb2-9154-970b843f3c51",
+   "card_type": "basic",
+   "front": "For $P = 2^3 \\times 3^2 \\times 5$ and $Q = 2^2 \\times 3 \\times 7$, find the LCM.",
+   "back": "$2520$",
+   "options": [
+    {
+     "text": "$2520$",
+     "correct": true,
+     "explanation": "The LCM uses the highest power of each prime present: $2^3 \\times 3^2 \\times 5 \\times 7 = 2520$."
+    },
+    {
+     "text": "$1260$",
+     "correct": false,
+     "explanation": "Using $2^2$ instead of the higher power $2^3$ misses a factor of $2$. The LCM is $2^3 \\times 3^2 \\times 5 \\times 7 = 2520$."
+    },
+    {
+     "text": "$7560$",
+     "correct": false,
+     "explanation": "Multiplying by an unnecessary extra factor of $3$ makes the result three times too large. Using each prime’s highest power gives an LCM of $2520$."
+    },
+    {
+     "text": "$504$",
+     "correct": false,
+     "explanation": "Omitting the factor $5$ gives $504$, but the LCM must contain every prime factor needed by either number. Including $5$ gives $2520$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "3d6f8207-bc99-478f-9a15-34dad4513b5b",
+   "card_type": "basic",
+   "front": "Given $12 = 2^2 \\times 3$, $18 = 2 \\times 3^2$, and $30 = 2 \\times 3 \\times 5$, find the HCF.",
+   "back": "$6$",
+   "options": [
+    {
+     "text": "$6$",
+     "correct": true,
+     "explanation": "The common prime factors with the lowest powers are $2^1$ and $3^1$. Therefore, the HCF is $2 \\times 3 = 6$."
+    },
+    {
+     "text": "$2$",
+     "correct": false,
+     "explanation": "This includes the common factor $2$ but overlooks that all three numbers are also divisible by $3$. Their HCF is therefore $2 \\times 3 = 6$."
+    },
+    {
+     "text": "$3$",
+     "correct": false,
+     "explanation": "This includes the common factor $3$ but overlooks that all three numbers are also divisible by $2$. Their HCF is therefore $2 \\times 3 = 6$."
+    },
+    {
+     "text": "$12$",
+     "correct": false,
+     "explanation": "Taking the highest powers resembles the LCM method and makes the result too large; $12$ does not divide $18$ or $30$. The HCF is $6$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "8acb834d-9475-4452-a156-a28d664d7e61",
+   "card_type": "basic",
+   "front": "Given $12 = 2^2 \\times 3$, $18 = 2 \\times 3^2$, and $30 = 2 \\times 3 \\times 5$, find the LCM.",
+   "back": "$180$",
+   "options": [
+    {
+     "text": "$180$",
+     "correct": true,
+     "explanation": "The LCM uses the highest power of every prime present: $2^2 \\times 3^2 \\times 5 = 180$, which is divisible by all three numbers."
+    },
+    {
+     "text": "$60$",
+     "correct": false,
+     "explanation": "Using only one factor of $3$ overlooks the $3^2$ in $18$, so $60$ is not divisible by $18$. The correct LCM is $180$."
+    },
+    {
+     "text": "$90$",
+     "correct": false,
+     "explanation": "Using only one factor of $2$ overlooks the $2^2$ in $12$, so $90$ is not divisible by $12$. The correct LCM is $180$."
+    },
+    {
+     "text": "$360$",
+     "correct": false,
+     "explanation": "Including an unnecessary extra factor of $2$ doubles the smallest common multiple. The highest required powers give $2^2 \\times 3^2 \\times 5 = 180$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "cddf6bd4-d9ec-43db-9449-4756947ee129",
+   "card_type": "cloze",
+   "front": "Two numbers are coprime if their HCF is [ ___ ].",
+   "back": "Two numbers are coprime if their HCF is 1.",
+   "options": [
+    {
+     "text": "1",
+     "correct": true,
+     "explanation": "Coprime numbers share no prime factors, so their only positive common factor is $1$. Consequently, their highest common factor is $1$."
+    },
+    {
+     "text": "0",
+     "correct": false,
+     "explanation": "An HCF is a positive factor shared by the numbers, and every whole number has $1$ as a factor. Coprime numbers therefore have HCF $1$, not $0$."
+    },
+    {
+     "text": "2",
+     "correct": false,
+     "explanation": "An HCF of $2$ means both numbers are even and share the prime factor $2$, so they are not coprime. Coprime numbers have HCF $1$."
+    },
+    {
+     "text": "-1",
+     "correct": false,
+     "explanation": "At GCSE, the HCF is defined as the greatest positive common factor, so it cannot be negative. For two coprime numbers, the HCF is $1$."
+    }
+   ]
+  },
+  {
+   "id": "eadf73f5-3fda-4443-a606-ea17492ce01f",
+   "card_type": "basic",
+   "front": "Two numbers have HCF 6 and LCM 72. After taking out the HCF, what do the leftover parts multiply to?",
+   "back": "$72 \\div 6 = 12$",
+   "options": [
+    {
+     "text": "$72 \\div 6 = 12$",
+     "correct": true,
+     "explanation": "Writing the numbers as $6a$ and $6b$, where $a$ and $b$ are coprime, gives an LCM of $6ab$. Therefore, $ab = 72 \\div 6 = 12$."
+    },
+    {
+     "text": "$72 \\times 6 = 432$",
+     "correct": false,
+     "explanation": "Multiplying by the HCF counts the common factor again instead of removing it. Dividing the LCM by the HCF gives the leftover product: $72 \\div 6 = 12$."
+    },
+    {
+     "text": "$72 \\div 36 = 2$",
+     "correct": false,
+     "explanation": "Dividing by $6^2$ removes the common factor twice. The LCM contains one shared factor of $6$, so the leftover parts multiply to $72 \\div 6 = 12$."
+    },
+    {
+     "text": "$72 - 6 = 66$",
+     "correct": false,
+     "explanation": "Taking out a common factor requires division, not subtraction. Dividing the LCM by the HCF gives the product of the coprime leftover parts: $72 \\div 6 = 12$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "568d17cb-e61a-4f2c-83ef-21c4856c3165",
+   "card_type": "basic",
+   "front": "Two whole numbers greater than 8 have HCF 6 and LCM 72. Find them.",
+   "back": "18 and 24",
+   "options": [
+    {
+     "text": "18 and 24",
+     "correct": true,
+     "explanation": "The numbers are $6 \\times 3$ and $6 \\times 4$. Since $3$ and $4$ are coprime and multiply to $12$, the HCF is $6$ and LCM is $72$."
+    },
+    {
+     "text": "12 and 36",
+     "correct": false,
+     "explanation": "These numbers have HCF $12$ and LCM $36$, so neither required value is obtained. The pair $18$ and $24$ has HCF $6$ and LCM $72$."
+    },
+    {
+     "text": "12 and 72",
+     "correct": false,
+     "explanation": "Although the LCM is $72$, both numbers are divisible by $12$, making their HCF $12$ rather than $6$. The required numbers are $18$ and $24$."
+    },
+    {
+     "text": "24 and 36",
+     "correct": false,
+     "explanation": "Although the LCM is $72$, these numbers share a factor of $12$, so their HCF is $12$. The pair with HCF $6$ is $18$ and $24$."
+    }
+   ],
+   "points": 3
+  }
+ ],
+ "card_count": 22,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-4-4-3-prime-factors-hcf-and-lcm/flashcards",
+ "source_sha256": "85f72e818469ad96752134aee13f96c17218a70a13cb16fe20e4d1f07f5ef51c",
+ "extracted_at": "2026-11-08T17:55:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}

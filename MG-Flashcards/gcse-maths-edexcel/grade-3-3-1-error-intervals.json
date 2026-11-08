@@ -1,0 +1,567 @@
+{
+ "topic": "grade-3-3-1-error-intervals",
+ "lane": "gcse-maths-edexcel",
+ "grade": "3",
+ "tier": null,
+ "title": "Error Intervals Flashcards",
+ "cards": [
+  {
+   "id": "8b46c226-def6-4f78-80a4-86812eb685e2",
+   "card_type": "basic",
+   "front": "For ordinary rounding, what inequality form is used for an error interval?",
+   "back": "$a \\le x < b$.",
+   "points": 1
+  },
+  {
+   "id": "a801c037-eed4-46f6-93e5-78fe0888e46d",
+   "card_type": "basic",
+   "front": "Why is the upper bound excluded in normal rounding?",
+   "back": "It would round up to the next answer.",
+   "options": [
+    {
+     "text": "It would round up to the next answer.",
+     "correct": true,
+     "explanation": "The upper bound is exactly halfway between consecutive rounded answers. Under ordinary rounding, this value rounds up, so it belongs to the next interval."
+    },
+    {
+     "text": "It would round down to the previous answer.",
+     "correct": false,
+     "explanation": "This confuses the upper and lower boundaries. The upper bound rounds up to the next answer, which is why it is excluded from the interval."
+    },
+    {
+     "text": "It would round back to the same answer.",
+     "correct": false,
+     "explanation": "Treating the upper bound as part of the interval creates overlapping answers. It rounds up to the next answer, so the upper inequality must be strict."
+    },
+    {
+     "text": "It would fall below the lower bound.",
+     "correct": false,
+     "explanation": "The upper bound cannot fall below the lower bound; they are opposite endpoints. It is excluded because it rounds up to the next answer."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "f908c894-139e-4f04-90ac-ae2a6ff111b9",
+   "card_type": "cloze",
+   "front": "For rounding, find bounds by going [ ___ ] and [ ___ ] from the rounded value.",
+   "back": "For rounding, find bounds by going half a step down and half a step up from the rounded value.",
+   "options": [
+    {
+     "text": "For rounding, find bounds by going half a step down and half a step up from the rounded value.",
+     "correct": true,
+     "explanation": "Rounding boundaries lie halfway between consecutive possible rounded values. Therefore, subtract half the rounding step for the lower bound and add half for the upper bound."
+    },
+    {
+     "text": "For rounding, find bounds by going half a step up and half a step down from the rounded value.",
+     "correct": false,
+     "explanation": "This swaps the directions of the bounds, placing the lower bound above the value. Go half a step down first and half a step up second."
+    },
+    {
+     "text": "For rounding, find bounds by going one full step down and one full step up from the rounded value.",
+     "correct": false,
+     "explanation": "Using a full step makes the interval twice as wide as it should be. Rounding boundaries are half a step down and half a step up."
+    },
+    {
+     "text": "For rounding, find bounds by going half a step down and one full step up from the rounded value.",
+     "correct": false,
+     "explanation": "The lower adjustment is correct, but the upper adjustment uses a full step. Both boundaries must be exactly half a rounding step from the rounded value."
+    }
+   ]
+  },
+  {
+   "id": "ddd77cac-9a74-4c94-8e4b-310b6dbbbc33",
+   "card_type": "cloze",
+   "front": "Correct to the nearest kg, cm or m has step size [ ___ ] and half-step [ ___ ].",
+   "back": "Correct to the nearest kg, cm or m has step size 1 whole unit and half-step 0.5 units.",
+   "options": [
+    {
+     "text": "Correct to the nearest kg, cm or m has step size 1 whole unit and half-step 0.5 units.",
+     "correct": true,
+     "explanation": "Consecutive whole-number measurements differ by one unit. The rounding boundaries are halfway between them, so the half-step is $0.5$ units."
+    },
+    {
+     "text": "Correct to the nearest kg, cm or m has step size 0.5 units and half-step 0.25 units.",
+     "correct": false,
+     "explanation": "This incorrectly treats half a unit as the gap between consecutive whole-number answers. The step is $1$ whole unit and its half-step is $0.5$ units."
+    },
+    {
+     "text": "Correct to the nearest kg, cm or m has step size 1 whole unit and half-step 1 whole unit.",
+     "correct": false,
+     "explanation": "The step size is correct, but the half-step has not been divided by two. Half of $1$ whole unit is $0.5$ units."
+    },
+    {
+     "text": "Correct to the nearest kg, cm or m has step size 2 whole units and half-step 1 whole unit.",
+     "correct": false,
+     "explanation": "This doubles the gap between possible rounded measurements. Nearest-unit answers increase by $1$ whole unit, giving a half-step of $0.5$ units."
+    }
+   ]
+  },
+  {
+   "id": "bb0d1e61-88db-4504-a300-00a24d38ecb1",
+   "card_type": "basic",
+   "front": "18 kg correct to the nearest kg: write the error interval for mass $m$.",
+   "back": "$17.5 \\le m < 18.5$.",
+   "options": [
+    {
+     "text": "$17.5 \\le m < 18.5$.",
+     "correct": true,
+     "explanation": "Rounding to the nearest kilogram has a half-step of $0.5$ kg. Subtracting and adding $0.5$ gives bounds of $17.5$ and $18.5$."
+    },
+    {
+     "text": "$17 \\le m < 19$.",
+     "correct": false,
+     "explanation": "This uses a full kilogram on each side rather than half a kilogram. The correct bounds are $17.5 \\le m < 18.5$."
+    },
+    {
+     "text": "$17.5 < m \\le 18.5$.",
+     "correct": false,
+     "explanation": "The endpoint inclusion is reversed. A mass of $17.5$ kg rounds to $18$ kg, while $18.5$ kg rounds to $19$ kg, giving $17.5 \\le m < 18.5$."
+    },
+    {
+     "text": "$18 \\le m < 19$.",
+     "correct": false,
+     "explanation": "This starts at the rounded value instead of half a unit below it. The interval must extend from $17.5$ kg up to, but not including, $18.5$ kg."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "37c8d6af-e3c5-4219-9803-80f91163d9ea",
+   "card_type": "cloze",
+   "front": "Rounded to 1 decimal place: step size [ ___ ], half-step [ ___ ].",
+   "back": "Rounded to 1 decimal place: step size 0.1, half-step 0.05.",
+   "options": [
+    {
+     "text": "Rounded to 1 decimal place: step size 0.1, half-step 0.05.",
+     "correct": true,
+     "explanation": "Adjacent numbers to one decimal place differ by $0.1$. Dividing this rounding step by two gives the half-step, $0.05$."
+    },
+    {
+     "text": "Rounded to 1 decimal place: step size 0.01, half-step 0.005.",
+     "correct": false,
+     "explanation": "These values apply to rounding to two decimal places, not one. For one decimal place, the step is $0.1$ and the half-step is $0.05$."
+    },
+    {
+     "text": "Rounded to 1 decimal place: step size 0.1, half-step 0.1.",
+     "correct": false,
+     "explanation": "The step size is correct, but it has not been halved. Half of $0.1$ is $0.05$, so that is the required half-step."
+    },
+    {
+     "text": "Rounded to 1 decimal place: step size 1, half-step 0.5.",
+     "correct": false,
+     "explanation": "These values apply to rounding to the nearest whole number. One-decimal-place values differ by $0.1$, so their half-step is $0.05$."
+    }
+   ]
+  },
+  {
+   "id": "e0db5b15-498e-4a92-87d5-bba10dc893f1",
+   "card_type": "basic",
+   "front": "A number rounds to 9.6 to 1 decimal place. What is the error interval for $y$?",
+   "back": "$9.55 \\le y < 9.65$.",
+   "options": [
+    {
+     "text": "$9.55 \\le y < 9.65$.",
+     "correct": true,
+     "explanation": "The step for one decimal place is $0.1$, so the half-step is $0.05$. Subtracting and adding $0.05$ to $9.6$ gives the stated interval."
+    },
+    {
+     "text": "$9.5 \\le y < 9.7$.",
+     "correct": false,
+     "explanation": "This uses a full step of $0.1$ on both sides, making the interval twice as wide. The correct half-step is $0.05$, giving $9.55 \\le y < 9.65$."
+    },
+    {
+     "text": "$9.55 < y \\le 9.65$.",
+     "correct": false,
+     "explanation": "This reverses the endpoint inclusion. The lower bound $9.55$ rounds to $9.6$, while the upper bound $9.65$ rounds to $9.7$."
+    },
+    {
+     "text": "$9.595 \\le y < 9.605$.",
+     "correct": false,
+     "explanation": "This uses a half-step of $0.005$, which applies to two decimal places. For one decimal place, use $0.05$, giving $9.55 \\le y < 9.65$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "04807b42-08b6-4ca3-aa78-e316a3134aeb",
+   "card_type": "cloze",
+   "front": "Rounded to 2 decimal places: step size [ ___ ], half-step [ ___ ].",
+   "back": "Rounded to 2 decimal places: step size 0.01, half-step 0.005.",
+   "options": [
+    {
+     "text": "Rounded to 2 decimal places: step size 0.01, half-step 0.005.",
+     "correct": true,
+     "explanation": "Adjacent values to two decimal places differ by one hundredth, or $0.01$. Half of this step is $0.005$."
+    },
+    {
+     "text": "Rounded to 2 decimal places: step size 0.1, half-step 0.05.",
+     "correct": false,
+     "explanation": "These values apply to one decimal place, not two. For two decimal places, the step is $0.01$ and the half-step is $0.005$."
+    },
+    {
+     "text": "Rounded to 2 decimal places: step size 0.01, half-step 0.01.",
+     "correct": false,
+     "explanation": "The step size is right, but it has not been divided by two. Half of $0.01$ is $0.005$, which determines the bounds."
+    },
+    {
+     "text": "Rounded to 2 decimal places: step size 0.001, half-step 0.0005.",
+     "correct": false,
+     "explanation": "These values apply to three decimal places. Two-decimal-place answers increase in steps of $0.01$, so the correct half-step is $0.005$."
+    }
+   ]
+  },
+  {
+   "id": "2c1b1e08-37e6-4650-b3a2-e01e2d09d127",
+   "card_type": "basic",
+   "front": "A number rounds to 1.34 to 2 decimal places. What is the error interval for $x$?",
+   "back": "$1.335 \\le x < 1.345$.",
+   "options": [
+    {
+     "text": "$1.335 \\le x < 1.345$.",
+     "correct": true,
+     "explanation": "Rounding to 2 decimal places uses a half-step of $0.005$. The lower bound is included, while the upper bound is excluded because it rounds to $1.35$."
+    },
+    {
+     "text": "$1.33 \\le x < 1.35$.",
+     "correct": false,
+     "explanation": "This uses a full step of $0.01$ on either side instead of a half-step. The correct bounds are $1.335$ and $1.345$, giving $1.335 \\le x < 1.345$."
+    },
+    {
+     "text": "$1.335 < x \\le 1.345$.",
+     "correct": false,
+     "explanation": "The endpoint signs are reversed. $1.335$ is included because it rounds to $1.34$, but $1.345$ is excluded because it rounds to $1.35$."
+    },
+    {
+     "text": "$1.3395 \\le x < 1.3405$.",
+     "correct": false,
+     "explanation": "This uses a half-step of $0.0005$, appropriate for 3 decimal places. For 2 decimal places the half-step is $0.005$, so the bounds are $1.335$ and $1.345$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "4f1d1937-5a39-4e3c-86bd-5586a1b905a3",
+   "card_type": "basic",
+   "front": "Why is $1.345$ not included for numbers rounding to 1.34 to 2 decimal places?",
+   "back": "$1.345$ rounds to $1.35$, not $1.34$.",
+   "options": [
+    {
+     "text": "$1.345$ rounds to $1.35$, not $1.34$.",
+     "correct": true,
+     "explanation": "The third decimal digit is $5$, so the second decimal digit rounds up. Therefore $1.345$ rounds to $1.35$ and is the excluded upper bound."
+    },
+    {
+     "text": "$1.345$ rounds to $1.34$, not $1.35$.",
+     "correct": false,
+     "explanation": "This incorrectly rounds a final $5$ down. Using the usual GCSE rule, the hundredths digit rounds up, so $1.345$ rounds to $1.35$."
+    },
+    {
+     "text": "$1.345$ rounds to $1.36$, not $1.34$.",
+     "correct": false,
+     "explanation": "Rounding up changes the hundredths digit from $4$ to $5$, not to $6$. Therefore $1.345$ rounds to $1.35$, making it the excluded upper bound."
+    },
+    {
+     "text": "$1.345$ rounds to $1.345$, not $1.34$.",
+     "correct": false,
+     "explanation": "This leaves the number unrounded. To 2 decimal places, the third decimal digit $5$ makes the hundredths digit round up, so the result is $1.35$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "ddc9dc24-06d1-4951-88df-76e52e796e7c",
+   "card_type": "cloze",
+   "front": "Significant figures are counted from the first [ ___ ] digit.",
+   "back": "Significant figures are counted from the first non-zero digit.",
+   "options": [
+    {
+     "text": "non-zero",
+     "correct": true,
+     "explanation": "Leading zeros only locate the decimal point and are not significant. Counting begins at the first digit that is not zero, so the required term is non-zero."
+    },
+    {
+     "text": "zero",
+     "correct": false,
+     "explanation": "Leading zeros are not significant because they only show place value. Significant figures begin at the first non-zero digit, such as the $4$ in $0.00472$."
+    },
+    {
+     "text": "decimal",
+     "correct": false,
+     "explanation": "The decimal point does not determine where significant figures begin. Counting starts at the first non-zero digit, whether the number is greater than or less than one."
+    },
+    {
+     "text": "positive",
+     "correct": false,
+     "explanation": "Digits themselves are not classified as positive for this rule, and the sign of the number is irrelevant. Significant figures are counted from the first non-zero digit."
+    }
+   ]
+  },
+  {
+   "id": "83681aa1-1630-4f55-8c50-eb9ba1fb45d9",
+   "card_type": "basic",
+   "front": "For significant-figure rounding, what decides the half-step?",
+   "back": "Half the place value of the last significant figure.",
+   "options": [
+    {
+     "text": "Half the place value of the last significant figure.",
+     "correct": true,
+     "explanation": "Adjacent rounded values differ by the place value of the last significant figure. Each error bound lies halfway between them, so the half-step is half that place value."
+    },
+    {
+     "text": "The full place value of the last significant figure.",
+     "correct": false,
+     "explanation": "Using the full place value makes the interval twice as wide as it should be. Each boundary is half a rounding unit away, so use half the place value."
+    },
+    {
+     "text": "Twice the place value of the last significant figure.",
+     "correct": false,
+     "explanation": "Doubling the place value greatly overestimates the rounding interval. The boundaries are halfway to the adjacent rounded values, so use half the final significant figure’s place value."
+    },
+    {
+     "text": "Half the rounded value of the last significant figure.",
+     "correct": false,
+     "explanation": "The half-step depends on the position of the last significant figure, not half of its numerical value. It is half the place value of that figure."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "6d27a4cf-fc7a-4aee-9e63-3630429fc940",
+   "card_type": "basic",
+   "front": "0.472 rounded to 3 significant figures: what half-step is used?",
+   "back": "0.0005.",
+   "options": [
+    {
+     "text": "0.0005.",
+     "correct": true,
+     "explanation": "The final significant figure in $0.472$ is in the thousandths place, with place value $0.001$. Half of $0.001$ is $0.0005$."
+    },
+    {
+     "text": "0.005.",
+     "correct": false,
+     "explanation": "This is half of $0.01$, treating the final significant figure as hundredths. It is actually in the thousandths place, so the correct half-step is $0.0005$."
+    },
+    {
+     "text": "0.00005.",
+     "correct": false,
+     "explanation": "This is half of $0.0001$, as though the number had been rounded to 4 significant figures. The final digit is thousandths, so the half-step is $0.0005$."
+    },
+    {
+     "text": "0.001.",
+     "correct": false,
+     "explanation": "This is the full place value of the final significant figure rather than half of it. The thousandths place has value $0.001$, so the half-step is $0.0005$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "be6f9298-2336-49b4-a4d9-236c106f59d9",
+   "card_type": "basic",
+   "front": "0.472 rounded to 3 significant figures: write the error interval for $x$.",
+   "back": "$0.4715 \\le x < 0.4725$.",
+   "options": [
+    {
+     "text": "$0.4715 \\le x < 0.4725$.",
+     "correct": true,
+     "explanation": "The last significant figure is in the thousandths place, so the half-step is $0.0005$. Subtracting and adding this gives the bounds $0.4715$ and $0.4725$."
+    },
+    {
+     "text": "$0.471 \\le x < 0.473$.",
+     "correct": false,
+     "explanation": "This subtracts and adds the full thousandths place value rather than half of it. Using the correct half-step $0.0005$ gives $0.4715 \\le x < 0.4725$."
+    },
+    {
+     "text": "$0.4715 < x \\le 0.4725$.",
+     "correct": false,
+     "explanation": "The endpoint signs are reversed. $0.4715$ rounds up to $0.472$ and is included, while $0.4725$ rounds up to $0.473$ and is excluded."
+    },
+    {
+     "text": "$0.47195 \\le x < 0.47205$.",
+     "correct": false,
+     "explanation": "This uses a half-step of $0.00005$, appropriate when rounding to 4 significant figures. For 3 significant figures the half-step is $0.0005$, giving bounds $0.4715$ and $0.4725$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "de99c44f-f05b-4163-9b8d-bbf116fb95a9",
+   "card_type": "basic",
+   "front": "7000 rounded to 1 significant figure: what column is the 7 in?",
+   "back": "The thousands column.",
+   "options": [
+    {
+     "text": "The thousands column.",
+     "correct": true,
+     "explanation": "In $7000$, the digit $7$ represents seven thousand, so it occupies the thousands column. It is therefore the first and only non-zero significant figure."
+    },
+    {
+     "text": "The hundreds column.",
+     "correct": false,
+     "explanation": "The hundreds column is occupied by the first zero, not the $7$. The digit $7$ represents $7000$, so it is in the thousands column."
+    },
+    {
+     "text": "The tens column.",
+     "correct": false,
+     "explanation": "The tens column is the second zero from the right. The digit $7$ has a value of seven thousand, so it belongs in the thousands column."
+    },
+    {
+     "text": "The units column.",
+     "correct": false,
+     "explanation": "The units column contains the final zero on the right. The digit $7$ represents seven lots of one thousand, placing it in the thousands column."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "cf47480b-2aa9-4a61-a189-8e1604c87a09",
+   "card_type": "basic",
+   "front": "7000 rounded to 1 significant figure: write the error interval for $x$.",
+   "back": "$6500 \\le x < 7500$.",
+   "options": [
+    {
+     "text": "$6500 \\le x < 7500$.",
+     "correct": true,
+     "explanation": "The $7$ is in the thousands column, so the rounding unit is $1000$ and the half-step is $500$. This gives $6500 \\le x < 7500$."
+    },
+    {
+     "text": "$6000 \\le x < 8000$.",
+     "correct": false,
+     "explanation": "This uses the full rounding unit of $1000$ on each side rather than the half-step. Using $500$ gives the correct interval $6500 \\le x < 7500$."
+    },
+    {
+     "text": "$6500 < x \\le 7500$.",
+     "correct": false,
+     "explanation": "The endpoint signs are reversed. $6500$ rounds up to $7000$ and is included, while $7500$ rounds up to $8000$ and must be excluded."
+    },
+    {
+     "text": "$6999.5 \\le x < 7000.5$.",
+     "correct": false,
+     "explanation": "These bounds treat $7000$ as rounded to the nearest whole number. Rounding to 1 significant figure uses a half-step of $500$, giving $6500 \\le x < 7500$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "03d39542-1894-4f4e-80a9-6eb0fec43773",
+   "card_type": "cloze",
+   "front": "Truncation means [ ___ ] extra digits without [ ___ ].",
+   "back": "Truncation means cutting off extra digits without rounding up.",
+   "options": [
+    {
+     "text": "Truncation means cutting off extra digits without rounding up.",
+     "correct": true,
+     "explanation": "Truncation removes all digits beyond the required place value and leaves the final retained digit unchanged, rather than increasing it according to the next digit."
+    },
+    {
+     "text": "Truncation means cutting off extra digits without rounding down.",
+     "correct": false,
+     "explanation": "Truncation is sometimes confused with rounding down, but it simply cuts off extra digits without rounding up or otherwise changing the last retained digit."
+    },
+    {
+     "text": "Truncation means rounding off extra digits without rounding up.",
+     "correct": false,
+     "explanation": "Rounding off requires considering the first discarded digit, whereas truncation means cutting off extra digits without rounding up, regardless of the discarded digits."
+    },
+    {
+     "text": "Truncation means cutting off extra digits without rounding to nearest.",
+     "correct": false,
+     "explanation": "Although truncation does not round to the nearest value, the precise definition is cutting off extra digits without rounding up, leaving the retained digits unchanged."
+    }
+   ]
+  },
+  {
+   "id": "46c845cd-9edc-464b-908c-211252e3ac6b",
+   "card_type": "basic",
+   "front": "For a positive truncated number, where does the error interval start?",
+   "back": "At the displayed truncated value, included.",
+   "options": [
+    {
+     "text": "At the displayed truncated value, included.",
+     "correct": true,
+     "explanation": "For a positive truncated number, the original value can equal the displayed value, so the interval begins there and includes that lower boundary."
+    },
+    {
+     "text": "At the displayed truncated value, not included.",
+     "correct": false,
+     "explanation": "Excluding the displayed value is an endpoint error. The original number may equal its truncated form, so the interval starts at the displayed truncated value, included."
+    },
+    {
+     "text": "At the next possible place value, included.",
+     "correct": false,
+     "explanation": "The next place-value increment is the upper boundary, not the starting point. For a positive number, the interval starts at the displayed truncated value, included."
+    },
+    {
+     "text": "At the halfway rounding value, included.",
+     "correct": false,
+     "explanation": "Using a halfway value confuses truncation with rounding to the nearest value. A positive truncation interval starts at the displayed truncated value itself, included."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "41c2559c-d829-49a4-8171-2328ab1d7b03",
+   "card_type": "basic",
+   "front": "A positive number is truncated to 6.2 to 1 decimal place. What is the upper boundary?",
+   "back": "6.3, not included.",
+   "options": [
+    {
+     "text": "6.3, not included.",
+     "correct": true,
+     "explanation": "Truncating to one decimal place retains values from 6.2 up to, but not including, 6.3; at 6.3 the displayed truncated value would change."
+    },
+    {
+     "text": "6.25, not included.",
+     "correct": false,
+     "explanation": "The value 6.25 is a rounding boundary, obtained by using half of 0.1. Truncation instead has upper boundary 6.3, which is not included."
+    },
+    {
+     "text": "6.3, included.",
+     "correct": false,
+     "explanation": "The numerical boundary is right, but including it is an endpoint error. Exactly 6.3 truncates to 6.3, so the upper boundary is 6.3, not included."
+    },
+    {
+     "text": "6.2, included.",
+     "correct": false,
+     "explanation": "The value 6.2 is the included lower boundary, not the upper boundary. The interval extends to 6.3, which is excluded because it truncates to 6.3."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "62e371ad-fa5f-4aba-9674-57cfa998c497",
+   "card_type": "basic",
+   "front": "A number is truncated to 4.73 to 2 decimal places. What is the error interval for $x$?",
+   "back": "$4.73 \\le x < 4.74$.",
+   "options": [
+    {
+     "text": "$4.73 \\le x < 4.74$.",
+     "correct": true,
+     "explanation": "Truncating to two decimal places keeps every value from 4.73 up to 4.74. The lower boundary is included, while 4.74 is excluded."
+    },
+    {
+     "text": "$4.725 \\le x < 4.735$.",
+     "correct": false,
+     "explanation": "These are the boundaries for rounding 4.73 to two decimal places. Truncation begins at 4.73 and extends to, but does not include, 4.74."
+    },
+    {
+     "text": "$4.73 < x \\le 4.74$.",
+     "correct": false,
+     "explanation": "The endpoint inequalities have been reversed. The value 4.73 can truncate to 4.73, but 4.74 cannot, so $4.73 \\le x < 4.74$."
+    },
+    {
+     "text": "$4.72 \\le x < 4.73$.",
+     "correct": false,
+     "explanation": "This is the interval for values that truncate to 4.72, an off-by-one place-value increment. Values truncating to 4.73 satisfy $4.73 \\le x < 4.74$."
+    }
+   ],
+   "points": 2
+  }
+ ],
+ "card_count": 20,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-3-3-1-error-intervals/flashcards",
+ "source_sha256": "52609d013660a98cabb4af765c0eef25c8f457cffced1f5c7a3847e41940942b",
+ "extracted_at": "2026-11-08T17:55:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}

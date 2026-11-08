@@ -1,0 +1,675 @@
+{
+ "topic": "grade-6-6-2-fractional-and-negative-indices",
+ "lane": "gcse-maths-edexcel",
+ "grade": "6",
+ "tier": null,
+ "title": "Fractional and Negative Indices Flashcards",
+ "cards": [
+  {
+   "id": "9518ba2a-87df-414f-a377-8b8b4d90a55e",
+   "card_type": "basic",
+   "front": "In the term $a^n$, what are the names for $a$ and $n$?",
+   "back": "$a$ is the base$n$ is the index (or power/exponent)",
+   "options": [
+    {
+     "text": "$a$ is the base$n$ is the index (or power/exponent)",
+     "correct": true,
+     "explanation": "The base is the quantity repeatedly multiplied, while the index states how many times the base is used as a factor."
+    },
+    {
+     "text": "$a$ is the index$n$ is the base (or power/exponent)",
+     "correct": false,
+     "explanation": "This reverses the two names. In $a^n$, $a$ is the base, while $n$ is the index, also called the power or exponent."
+    },
+    {
+     "text": "$a$ is the coefficient$n$ is the index (or power/exponent)",
+     "correct": false,
+     "explanation": "A coefficient multiplies a term and is not the name for $a$ here. In $a^n$, $a$ is the base and $n$ is the index."
+    },
+    {
+     "text": "$a$ is the exponent$n$ is the coefficient (or base number)",
+     "correct": false,
+     "explanation": "The letter $a$ is not called the exponent in this notation. It is the base, and the raised value $n$ is the index or exponent."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "19fa1350-252c-4993-b092-e95205e62b7b",
+   "card_type": "cloze",
+   "front": "The law for multiplying powers with the same base is $\\text{[...]}$.",
+   "back": "The law for multiplying powers with the same base is $\\boxed{a^m \\cdot a^n = a^{m+n}}$.",
+   "options": [
+    {
+     "text": "$$a^m \\cdot a^n = a^{m+n}$",
+     "correct": true,
+     "explanation": "When powers with the same base are multiplied, their indices are added because the total number of factors of $a$ is $m+n$."
+    },
+    {
+     "text": "$$a^m \\cdot a^n = a^{mn}$",
+     "correct": false,
+     "explanation": "Multiplying powers does not multiply their indices. For a common base, count all factors by adding the indices, giving $a^m \\cdot a^n = a^{m+n}$."
+    },
+    {
+     "text": "$$a^m \\cdot a^n = a^{m-n}$",
+     "correct": false,
+     "explanation": "Subtracting indices is the rule for division, not multiplication. Multiplying powers with the same base requires adding the indices to obtain $a^{m+n}$."
+    },
+    {
+     "text": "$$a^m \\cdot a^n = a^m$",
+     "correct": false,
+     "explanation": "Keeping only one index ignores the factors contributed by the second power. The indices must be added, so the product is $a^{m+n}$."
+    }
+   ]
+  },
+  {
+   "id": "fc358774-9217-4cbe-9903-9f415218acb9",
+   "card_type": "cloze",
+   "front": "The law for dividing powers with the same base is $\\text{[...]}$.",
+   "back": "The law for dividing powers with the same base is $\\boxed{\\frac{a^m}{a^n} = a^{m-n}}$.",
+   "options": [
+    {
+     "text": "$$\\frac{a^m}{a^n} = a^{m-n}$",
+     "correct": true,
+     "explanation": "Dividing equal bases cancels $n$ factors of $a$ from the numerator, leaving a power whose index is the difference $m-n$."
+    },
+    {
+     "text": "$$\\frac{a^m}{a^n} = a^{m+n}$",
+     "correct": false,
+     "explanation": "Adding indices applies when powers are multiplied. Division cancels factors, so the denominator’s index is subtracted and the correct result is $a^{m-n}$."
+    },
+    {
+     "text": "$$\\frac{a^m}{a^n} = a^{n-m}$",
+     "correct": false,
+     "explanation": "Reversing the subtraction changes the result to its reciprocal. Since the numerator has index $m$, the correct order is $m-n$, giving $a^{m-n}$."
+    },
+    {
+     "text": "$$\\frac{a^m}{a^n} = a^{\\frac{m}{n}}$",
+     "correct": false,
+     "explanation": "Dividing the indices is not an index law. For powers with the same base, division subtracts the denominator’s index, producing $a^{m-n}$."
+    }
+   ]
+  },
+  {
+   "id": "ff1c7734-885b-4c72-8e96-9d45c3767653",
+   "card_type": "cloze",
+   "front": "The law for a power of a power is $\\text{[...]}$.",
+   "back": "The law for a power of a power is $\\boxed{(a^m)^n = a^{mn}}$.",
+   "options": [
+    {
+     "text": "$$(a^m)^n = a^{mn}$",
+     "correct": true,
+     "explanation": "Raising $a^m$ to the power $n$ repeats the factor group $n$ times, so the indices multiply to give $a^{mn}$."
+    },
+    {
+     "text": "$$(a^m)^n = a^{m+n}$",
+     "correct": false,
+     "explanation": "Adding indices is associated with multiplying separate powers of the same base. For a power raised to another power, multiply the indices to obtain $a^{mn}$."
+    },
+    {
+     "text": "$$(a^m)^n = a^{m-n}$",
+     "correct": false,
+     "explanation": "Subtracting indices applies to division of powers with a common base. A power of a power requires multiplication of the indices, giving $a^{mn}$."
+    },
+    {
+     "text": "$$(a^m)^n = a^{m^n}$",
+     "correct": false,
+     "explanation": "Applying the outer power only to the index misinterprets exponent notation. Repeating $a^m$ exactly $n$ times multiplies the indices, producing $a^{mn}$."
+    }
+   ]
+  },
+  {
+   "id": "53802db9-a9be-4de2-98b9-c87f0c4b2c47",
+   "card_type": "basic",
+   "front": "If $x = 2^p$ and $y = 2^q$, how is $2^{p+q}$ expressed in terms of $x$ and $y$?",
+   "back": "$$xy$",
+   "options": [
+    {
+     "text": "$$xy$",
+     "correct": true,
+     "explanation": "Since $2^{p+q}=2^p \\cdot 2^q$, substituting $x=2^p$ and $y=2^q$ gives the product $xy$."
+    },
+    {
+     "text": "$$x+y$",
+     "correct": false,
+     "explanation": "Adding $x$ and $y$ does not use the multiplication law for indices. Because adding indices corresponds to multiplying powers, $2^{p+q}=xy$."
+    },
+    {
+     "text": "$$\\frac{x}{y}$",
+     "correct": false,
+     "explanation": "The quotient $\\frac{x}{y}$ corresponds to $2^{p-q}$ because division subtracts indices. The sum $p+q$ instead gives the product $xy$."
+    },
+    {
+     "text": "$$pq$",
+     "correct": false,
+     "explanation": "The product $pq$ combines the indices themselves rather than the powers they define. Using $2^{p+q}=2^p \\cdot 2^q$ gives $xy$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "2dffaeb1-a04d-4452-9d98-c948e0f31ece",
+   "card_type": "basic",
+   "front": "What does a negative index signify in mathematics?",
+   "back": "The reciprocal (1 divided by the base raised to the positive power).",
+   "options": [
+    {
+     "text": "The reciprocal (1 divided by the base raised to the positive power).",
+     "correct": true,
+     "explanation": "A negative index instructs you to take the reciprocal of the corresponding positive power, so $a^{-n}$ means $1$ divided by $a^n$."
+    },
+    {
+     "text": "The negative value (the base raised to the positive power and multiplied by $-1$).",
+     "correct": false,
+     "explanation": "A negative index does not make the value negative. It produces the reciprocal of the positive power, so $a^{-n}=1/a^n$ for a non-zero base."
+    },
+    {
+     "text": "The opposite base (the negative of the base raised to the positive power).",
+     "correct": false,
+     "explanation": "A negative index does not change the sign of the base. It means take the reciprocal of the positive power, giving $1$ divided by the base raised to that power."
+    },
+    {
+     "text": "The root (the base rooted according to the positive value of the index).",
+     "correct": false,
+     "explanation": "A negative index does not require taking a root; fractional indices perform that role. It signifies the reciprocal of the base raised to the corresponding positive power."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "8db9f5c9-98aa-47f4-a6ff-4b6d33ced8fc",
+   "card_type": "cloze",
+   "front": "The general rule for negative indices is $\\text{[...]}$.",
+   "back": "The general rule for negative indices is $\\boxed{a^{-n} = \\frac{1}{a^n}}$.",
+   "options": [
+    {
+     "text": "$$a^{-n} = \\frac{1}{a^n}$",
+     "correct": true,
+     "explanation": "Changing the sign of an index moves the power across the fraction line, so a negative power equals the reciprocal of the corresponding positive power."
+    },
+    {
+     "text": "$$a^{-n} = -a^n$",
+     "correct": false,
+     "explanation": "A negative index does not make the power’s value negative. It forms the reciprocal, so the correct general rule is $a^{-n}=\\frac{1}{a^n}$."
+    },
+    {
+     "text": "$$a^{-n} = \\frac{1}{an}$",
+     "correct": false,
+     "explanation": "The reciprocal must include the entire positive power in the denominator. Dividing only by the index confuses an exponent with an ordinary numerical factor."
+    },
+    {
+     "text": "$$a^{-n} = (-a)^n$",
+     "correct": false,
+     "explanation": "Negating the base changes its sign behaviour but does not represent a negative index. The required operation is reciprocation, giving $a^{-n}=\\frac{1}{a^n}$."
+    }
+   ]
+  },
+  {
+   "id": "c2fcf51d-045d-4c9f-b9eb-86cfecbfa09c",
+   "card_type": "basic",
+   "front": "What is the value of $\\left(\\frac{3}{7}\\right)^{-1}$?",
+   "back": "$$\\frac{7}{3}$",
+   "options": [
+    {
+     "text": "$$\\frac{7}{3}$",
+     "correct": true,
+     "explanation": "An index of $-1$ means take the reciprocal. Swapping the numerator and denominator of $\\frac{3}{7}$ gives $\\frac{7}{3}$."
+    },
+    {
+     "text": "$$\\frac{3}{7}$",
+     "correct": false,
+     "explanation": "Leaving the fraction unchanged treats the index as positive $1$. The index $-1$ requires the reciprocal, so the value is $\\frac{7}{3}$."
+    },
+    {
+     "text": "$$-\\frac{7}{3}$",
+     "correct": false,
+     "explanation": "A negative index does not make the fraction negative. It instructs you to take the reciprocal, so the positive result is $\\frac{7}{3}$."
+    },
+    {
+     "text": "$$-\\frac{3}{7}$",
+     "correct": false,
+     "explanation": "This adds a negative sign without taking the reciprocal. An index of $-1$ swaps the numerator and denominator, producing the positive fraction $\\frac{7}{3}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "975d02c9-f60e-4ccd-9629-689fdd27006d",
+   "card_type": "basic",
+   "front": "Explain why $6^{-1}$ is not $-6$.",
+   "back": "A negative index represents a reciprocal, not a negative number; $6^{-1} = \\frac{1}{6}$.",
+   "options": [
+    {
+     "text": "A negative index represents a reciprocal, not a negative number; $6^{-1} = \\frac{1}{6}$.",
+     "correct": true,
+     "explanation": "A negative index means take the reciprocal of the base, so $a^{-1}=\\frac{1}{a}$. It does not change the sign of the number."
+    },
+    {
+     "text": "A negative index represents a negative value, not a reciprocal; $6^{-1} = -6$.",
+     "correct": false,
+     "explanation": "This confuses a negative exponent with a negative number. The exponent $-1$ means reciprocal, so the correct value is $6^{-1}=\\frac{1}{6}$."
+    },
+    {
+     "text": "A negative index represents a subtraction, not a reciprocal; $6^{-1} = 6 - 1$.",
+     "correct": false,
+     "explanation": "This treats the index as an instruction to subtract 1 from the base. Indices describe powers, and $6^{-1}$ means the reciprocal $\\frac{1}{6}$."
+    },
+    {
+     "text": "A negative index represents a zero power, not a reciprocal; $6^{-1} = 1$.",
+     "correct": false,
+     "explanation": "This mixes up the negative index rule with the zero index rule. $6^0=1$, but $6^{-1}$ means $\\frac{1}{6}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "f4b03faa-e95c-4ce1-8ca7-f81b96ffa1d8",
+   "card_type": "basic",
+   "front": "Why is $0^{-1}$ undefined?",
+   "back": "It would require division by zero ($1/0$).",
+   "options": [
+    {
+     "text": "It would require division by zero ($1/0$).",
+     "correct": true,
+     "explanation": "A power of $-1$ means taking the reciprocal, so $0^{-1}$ would be $\\frac{1}{0}$. Division by zero is undefined."
+    },
+    {
+     "text": "It would require multiplication by zero ($1 \\times 0$).",
+     "correct": false,
+     "explanation": "The tempting slip is treating the reciprocal as multiplication by the base. A power of $-1$ means $\\frac{1}{0}$, which is division by zero and is undefined."
+    },
+    {
+     "text": "It would require subtracting zero ($1 - 0$).",
+     "correct": false,
+     "explanation": "This treats the negative index as a subtraction instruction. In fact, $0^{-1}$ means the reciprocal of 0, giving $\\frac{1}{0}$, which is undefined."
+    },
+    {
+     "text": "It would require raising zero to zero ($0^0$).",
+     "correct": false,
+     "explanation": "This confuses a negative index with a zero index. The expression $0^{-1}$ means $\\frac{1}{0}$, not $0^0$, so it is undefined because division by zero is not allowed."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "3653a5b1-9976-4405-be65-a18f5ed55ef7",
+   "card_type": "basic",
+   "front": "What root corresponds to the index $\\frac{1}{2}$?",
+   "back": "Square root ($\\sqrt{a}$)",
+   "options": [
+    {
+     "text": "Square root ($\\sqrt{a}$)",
+     "correct": true,
+     "explanation": "An index of $\\frac{1}{2}$ means the denominator 2 gives the root. Therefore $a^{\\frac{1}{2}}=\\sqrt{a}$."
+    },
+    {
+     "text": "Cube root ($\\sqrt[3]{a}$)",
+     "correct": false,
+     "explanation": "This uses denominator 3 instead of denominator 2. The index $\\frac{1}{2}$ corresponds to the square root, so $a^{\\frac{1}{2}}=\\sqrt{a}$."
+    },
+    {
+     "text": "Fourth root ($\\sqrt[4]{a}$)",
+     "correct": false,
+     "explanation": "This mistakes the denominator of the fractional index. A fourth root would come from $\\frac{1}{4}$, whereas $\\frac{1}{2}$ gives the square root."
+    },
+    {
+     "text": "Reciprocal ($\\frac{1}{a}$)",
+     "correct": false,
+     "explanation": "This confuses fractional indices with negative indices. A reciprocal comes from $a^{-1}$, while $a^{\\frac{1}{2}}$ means the square root of $a$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "e53303dc-c222-42d3-942e-cde7f400f916",
+   "card_type": "basic",
+   "front": "What root corresponds to the index $\\frac{1}{3}$?",
+   "back": "Cube root ($\\sqrt[3]{a}$)",
+   "options": [
+    {
+     "text": "Cube root ($\\sqrt[3]{a}$)",
+     "correct": true,
+     "explanation": "An index of $\\frac{1}{3}$ means the denominator 3 gives the root. Therefore $a^{\\frac{1}{3}}=\\sqrt[3]{a}$."
+    },
+    {
+     "text": "Square root ($\\sqrt{a}$)",
+     "correct": false,
+     "explanation": "This uses denominator 2 instead of denominator 3. The index $\\frac{1}{3}$ corresponds to the cube root, so $a^{\\frac{1}{3}}=\\sqrt[3]{a}$."
+    },
+    {
+     "text": "Third power ($a^3$)",
+     "correct": false,
+     "explanation": "This swaps the meaning of a fractional index with an integer power. The fraction $\\frac{1}{3}$ means cube root, not cubing the number."
+    },
+    {
+     "text": "Reciprocal ($\\frac{1}{a}$)",
+     "correct": false,
+     "explanation": "This confuses fractional indices with negative indices. A reciprocal comes from $a^{-1}$, while $a^{\\frac{1}{3}}$ means the cube root of $a$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "e5abab46-95c5-4353-b21a-2932276c78e1",
+   "card_type": "cloze",
+   "front": "For a fractional index $a^{\\frac{m}{n}}$, the denominator $n$ represents the [ ___ ] and the numerator $m$ represents the power.",
+   "back": "For a fractional index $a^{\\frac{m}{n}}$, the denominator $n$ represents the root and the numerator $m$ represents the power.",
+   "options": [
+    {
+     "text": "root",
+     "correct": true,
+     "explanation": "In $a^{\\frac{m}{n}}$, the denominator tells you which root to take. For example, a denominator of 3 means cube root."
+    },
+    {
+     "text": "power",
+     "correct": false,
+     "explanation": "This reverses the roles of the numerator and denominator. In $a^{\\frac{m}{n}}$, $n$ gives the root, while $m$ gives the power."
+    },
+    {
+     "text": "numerator",
+     "correct": false,
+     "explanation": "This names the position in the fraction rather than its meaning. The denominator $n$ represents the root in a fractional index."
+    },
+    {
+     "text": "base",
+     "correct": false,
+     "explanation": "The base is the number being raised to the index, such as $a$. In $a^{\\frac{m}{n}}$, the denominator $n$ represents the root."
+    }
+   ]
+  },
+  {
+   "id": "c8746431-1360-4167-aaf1-94dc38f8daa8",
+   "card_type": "cloze",
+   "front": "For a fractional index $a^{\\frac{m}{n}}$, the denominator $n$ represents the root and the numerator $m$ represents the [ ___ ].",
+   "back": "For a fractional index $a^{\\frac{m}{n}}$, the denominator $n$ represents the root and the numerator $m$ represents the power.",
+   "options": [
+    {
+     "text": "power",
+     "correct": true,
+     "explanation": "In $a^{\\frac{m}{n}}$, the numerator tells you the power to apply. For example, $a^{\\frac{2}{3}}$ means cube root, then square."
+    },
+    {
+     "text": "root",
+     "correct": false,
+     "explanation": "This reverses the roles of the numerator and denominator. In $a^{\\frac{m}{n}}$, the denominator $n$ gives the root, while the numerator $m$ gives the power."
+    },
+    {
+     "text": "denominator",
+     "correct": false,
+     "explanation": "This names the fraction position rather than its meaning. The numerator $m$ represents the power applied after taking the root."
+    },
+    {
+     "text": "base",
+     "correct": false,
+     "explanation": "The base is the quantity being raised to the index, such as $a$. In $a^{\\frac{m}{n}}$, the numerator $m$ represents the power."
+    }
+   ]
+  },
+  {
+   "id": "23d3eff0-c248-454e-bd7b-e452b124ad55",
+   "card_type": "basic",
+   "front": "When evaluating $a^{\\frac{m}{n}}$, why is it usually better to take the root first?",
+   "back": "It keeps the numbers smaller and easier to calculate before applying the power.",
+   "options": [
+    {
+     "text": "It keeps the numbers smaller and easier to calculate before applying the power.",
+     "correct": true,
+     "explanation": "Taking the root first usually reduces the size of the number before the power is applied. For example, $27^{\\frac{2}{3}}$ becomes $3^2$, not $27^2$ first."
+    },
+    {
+     "text": "It keeps the numbers larger and easier to calculate before applying the power.",
+     "correct": false,
+     "explanation": "The point of taking the root first is normally to make the numbers smaller, not larger. Smaller intermediate values reduce the chance of awkward arithmetic."
+    },
+    {
+     "text": "It keeps the indices negative and easier to calculate before applying the power.",
+     "correct": false,
+     "explanation": "This mixes up fractional indices with negative indices. Taking the root first does not make indices negative; it usually makes the base smaller before applying the power."
+    },
+    {
+     "text": "It keeps the powers unchanged and easier to calculate before applying the root.",
+     "correct": false,
+     "explanation": "This reverses the recommended order. For $a^{\\frac{m}{n}}$, taking the root first often gives smaller numbers before raising to the power $m$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "38d6af1a-1886-468c-bdc9-779918f6b139",
+   "card_type": "basic",
+   "front": "Evaluate $27^{\\frac{2}{3}}$.",
+   "back": "$\\sqrt[3]{27} = 3$$3^2 = 9$",
+   "options": [
+    {
+     "text": "$\\sqrt[3]{27} = 3$$3^2 = 9$",
+     "correct": true,
+     "explanation": "The denominator 3 means take the cube root first, giving 3. The numerator 2 then means square it, so the result is 9."
+    },
+    {
+     "text": "$\\sqrt[2]{27} = 3$$3^3 = 27$",
+     "correct": false,
+     "explanation": "This swaps the numerator and denominator and also treats $\\sqrt{27}$ as 3. The denominator is 3, so take $\\sqrt[3]{27}=3$, then square to get 9."
+    },
+    {
+     "text": "$\\sqrt[3]{27} = 3$$3^3 = 27$",
+     "correct": false,
+     "explanation": "The cube root step is right, but the numerator is 2, not 3. After $\\sqrt[3]{27}=3$, you must calculate $3^2=9$."
+    },
+    {
+     "text": "$\\sqrt[3]{27} = 9$$9^2 = 81$",
+     "correct": false,
+     "explanation": "This confuses the cube root of 27 with another factor. Since $3^3=27$, $\\sqrt[3]{27}=3$, and then $3^2=9$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "5b44ea46-c6d6-4bee-8049-478c838d6441",
+   "card_type": "basic",
+   "front": "Outline the 3 steps to evaluate $16^{-\\frac{3}{2}}$.",
+   "back": "Square root: $\\sqrt{16} = 4$Power: $4^3 = 64$Reciprocal: $\\frac{1}{64}$",
+   "options": [
+    {
+     "text": "Square root: $\\sqrt{16} = 4$Power: $4^3 = 64$Reciprocal: $\\frac{1}{64}$",
+     "correct": true,
+     "explanation": "The denominator 2 gives the square root, the numerator 3 gives the cube, and the negative sign means take the reciprocal at the end."
+    },
+    {
+     "text": "Square root: $\\sqrt{16} = 4$Power: $4^3 = 64$Negative: $-64$",
+     "correct": false,
+     "explanation": "This treats the negative index as making the answer negative. A negative index means reciprocal, so after getting 64 the correct result is $\\frac{1}{64}$."
+    },
+    {
+     "text": "Cube root: $\\sqrt[3]{16} = 4$Power: $4^2 = 16$Reciprocal: $\\frac{1}{16}$",
+     "correct": false,
+     "explanation": "This swaps the numerator and denominator, and $\\sqrt[3]{16}$ is not 4. The denominator 2 gives $\\sqrt{16}=4$, then $4^3=64$, then reciprocal."
+    },
+    {
+     "text": "Square root: $\\sqrt{16} = 4$Power: $4^3 = 64$Reciprocal: $64$",
+     "correct": false,
+     "explanation": "The root and power steps are right, but the reciprocal has not actually been taken. Because the index is negative, the final answer must be $\\frac{1}{64}$."
+    }
+   ],
+   "points": 3
+  },
+  {
+   "id": "395b4b8b-cefd-4daa-8954-92e73ec9814d",
+   "card_type": "basic",
+   "front": "How do you evaluate a negative index applied to a fraction, such as $\\left(\\frac{27}{64}\\right)^{-\\frac{2}{3}}$?",
+   "back": "Apply the fractional power to both parts, then flip the fraction (take the reciprocal).",
+   "options": [
+    {
+     "text": "Apply the fractional power to both parts, then flip the fraction (take the reciprocal).",
+     "correct": true,
+     "explanation": "A negative index means take the reciprocal, and the fractional power applies to the numerator and denominator. You can evaluate the fractional power, then flip the fraction."
+    },
+    {
+     "text": "Apply the fractional power to both parts, then change the sign (make it negative).",
+     "correct": false,
+     "explanation": "This confuses a negative exponent with a negative value. The negative index means take the reciprocal, so you flip the fraction rather than making the result negative."
+    },
+    {
+     "text": "Apply the fractional power to the top only, then flip the fraction (take the reciprocal).",
+     "correct": false,
+     "explanation": "A power outside brackets applies to both numerator and denominator. For a fraction in brackets, the fractional power must be applied to both parts before taking the reciprocal."
+    },
+    {
+     "text": "Apply the fractional power to both parts, then square the fraction (take the power).",
+     "correct": false,
+     "explanation": "The extra squaring comes from misreading the negative sign as another power. The negative index tells you to take the reciprocal, so the fraction should be flipped."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "2be4d171-0806-4a6c-8c8b-4fe9ea0b2079",
+   "card_type": "cloze",
+   "front": "When a power is outside brackets containing a product, the rule is $\\text{[...]}$.",
+   "back": "When a power is outside brackets containing a product, the rule is $\\boxed{(ab)^n = a^n b^n}$.",
+   "options": [
+    {
+     "text": "$$(ab)^n = a^n b^n$",
+     "correct": true,
+     "explanation": "A power outside brackets containing a product applies to every factor inside. Therefore both $a$ and $b$ are raised to the power $n$."
+    },
+    {
+     "text": "$$(ab)^n = a^n + b^n$",
+     "correct": false,
+     "explanation": "This incorrectly changes a product into a sum. Powers distribute over multiplication here, so the correct rule is $(ab)^n=a^n b^n$."
+    },
+    {
+     "text": "$$(ab)^n = ab^n$",
+     "correct": false,
+     "explanation": "This applies the outside power only to $b$ and forgets $a$. The power applies to every factor inside the brackets, so $(ab)^n=a^n b^n$."
+    },
+    {
+     "text": "$$(ab)^n = a^{n}b$",
+     "correct": false,
+     "explanation": "This applies the outside power only to $a$ and forgets $b$. For a product in brackets, both factors are raised to the power: $(ab)^n=a^n b^n$."
+    }
+   ]
+  },
+  {
+   "id": "79cad18f-eeb1-41cd-8d27-90079010b4ee",
+   "card_type": "basic",
+   "front": "Evaluate $(27x^6)^{\\frac{2}{3}}$.",
+   "back": "$\\sqrt[3]{27x^6} = 3x^2$$(3x^2)^2 = 9x^4$",
+   "options": [
+    {
+     "text": "$\\sqrt[3]{27x^6} = 3x^2$$(3x^2)^2 = 9x^4$",
+     "correct": true,
+     "explanation": "The denominator 3 means take the cube root: $27$ becomes 3 and $x^6$ becomes $x^2$. Then squaring gives $9x^4$."
+    },
+    {
+     "text": "$\\sqrt[3]{27x^6} = 3x^2$$(3x^2)^2 = 6x^4$",
+     "correct": false,
+     "explanation": "The cube root step is right, but squaring $3x^2$ means squaring both factors. $3^2=9$, not 6, so the result is $9x^4$."
+    },
+    {
+     "text": "$\\sqrt[2]{27x^6} = 3x^3$$(3x^3)^3 = 27x^9$",
+     "correct": false,
+     "explanation": "This swaps the numerator and denominator. The denominator 3 gives a cube root first, so $\\sqrt[3]{27x^6}=3x^2$, then squaring gives $9x^4$."
+    },
+    {
+     "text": "$\\sqrt[3]{27x^6} = 9x^2$$(9x^2)^2 = 81x^4$",
+     "correct": false,
+     "explanation": "This takes the cube root of 27 incorrectly. Since $3^3=27$, the cube root is 3, and the final answer is $(3x^2)^2=9x^4$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "0e9433b6-627b-4db7-8b97-2432dca066de",
+   "card_type": "basic",
+   "front": "Evaluate $\\sqrt[4]{81 \\cdot 10^8}$.",
+   "back": "$\\sqrt[4]{81} = 3$$\\sqrt[4]{10^8} = 10^2$Result: $3 \\cdot 100 = 300$",
+   "options": [
+    {
+     "text": "$\\sqrt[4]{81} = 3$$\\sqrt[4]{10^8} = 10^2$Result: $3 \\cdot 100 = 300$",
+     "correct": true,
+     "explanation": "The fourth root can be taken for each factor. Since $3^4=81$ and $(10^2)^4=10^8$, the result is $3 \\cdot 100=300$."
+    },
+    {
+     "text": "$\\sqrt[4]{81} = 9$$\\sqrt[4]{10^8} = 10^2$Result: $9 \\cdot 100 = 900$",
+     "correct": false,
+     "explanation": "This uses the square root of 81 instead of the fourth root. The fourth root of 81 is 3, so the correct result is $3 \\cdot 100=300$."
+    },
+    {
+     "text": "$\\sqrt[4]{81} = 3$$\\sqrt[4]{10^8} = 10^4$Result: $3 \\cdot 10000 = 30000$",
+     "correct": false,
+     "explanation": "This halves the exponent instead of dividing it by 4. The fourth root of $10^8$ is $10^{8/4}=10^2$, giving 300."
+    },
+    {
+     "text": "$\\sqrt[4]{81} = 3$$\\sqrt[4]{10^8} = 10^2$Result: $3 + 100 = 103$",
+     "correct": false,
+     "explanation": "This adds the two factor results instead of multiplying them. The fourth root of a product gives the product of the fourth roots, so the result is $3 \\cdot 100=300$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "dfb82cb1-bb6b-4b02-8e47-20f2719b8faf",
+   "card_type": "basic",
+   "front": "What is the general strategy for solving an equation with an unknown index, such as $9^n = 27$?",
+   "back": "Rewrite both sides using the same base (e.g., base 3).",
+   "options": [
+    {
+     "text": "Rewrite both sides using the same base (e.g., base 3).",
+     "correct": true,
+     "explanation": "Writing both sides with the same base lets you compare the indices directly. For example, $9^n=27$ becomes $(3^2)^n=3^3$."
+    },
+    {
+     "text": "Rewrite both sides using the same index (e.g., index 3).",
+     "correct": false,
+     "explanation": "The useful comparison comes from matching the bases, not forcing the indices to match. Once both sides have base 3, the powers can be equated."
+    },
+    {
+     "text": "Rewrite both sides using the same coefficient (e.g., coefficient 3).",
+     "correct": false,
+     "explanation": "Coefficients are not the key feature in an exponential equation like $9^n=27$. The standard strategy is to rewrite both sides using the same base."
+    },
+    {
+     "text": "Rewrite both sides using the same fraction (e.g., fraction $\\frac{1}{3}$).",
+     "correct": false,
+     "explanation": "This confuses index equations with fractional-index calculations. For unknown indices, rewrite both sides with a common base, such as base 3."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "569bedf9-5bfa-4c4b-97ae-a75ff6d80d66",
+   "card_type": "basic",
+   "front": "Write $2\\sqrt{8}$ as a single power of 2.",
+   "back": "$8 = 2^3$, so $\\sqrt{8} = 2^{\\frac{3}{2}}$$2^1 \\cdot 2^{\\frac{3}{2}} = 2^{\\frac{5}{2}}$",
+   "options": [
+    {
+     "text": "$8 = 2^3$, so $\\sqrt{8} = 2^{\\frac{3}{2}}$$2^1 \\cdot 2^{\\frac{3}{2}} = 2^{\\frac{5}{2}}$",
+     "correct": true,
+     "explanation": "A square root is equivalent to a power of one half, so $sqrt{2^3}=2^{rac{3}{2}}$. Multiplying powers with the same base adds their indices, giving $2^{1+rac{3}{2}}=2^{rac{5}{2}}$."
+    },
+    {
+     "text": "$8 = 2^3$, so $sqrt{8} = 2^3$$2^1 cdot 2^3 = 2^4$",
+     "correct": false,
+     "explanation": "This fails to apply the square-root power of $rac{1}{2}$, leaving the index unchanged. In fact, $sqrt{2^3}=2^{rac{3}{2}}$, so adding indices gives $2^{rac{5}{2}}$."
+    },
+    {
+     "text": "$8 = 2^3$, so $sqrt{8} = 2^{rac{1}{3}}$$2^1 cdot 2^{rac{1}{3}} = 2^{rac{4}{3}}$",
+     "correct": false,
+     "explanation": "This confuses a square root with a cube root by dividing the index by 3. A square root halves the index, so $sqrt{8}=2^{rac{3}{2}}$ and the product is $2^{rac{5}{2}}$."
+    },
+    {
+     "text": "$8 = 2^3$, so $sqrt{8} = 2^{rac{3}{2}}$$2^1 cdot 2^{rac{3}{2}} = 2^{rac{3}{2}}$",
+     "correct": false,
+     "explanation": "This multiplies the indices when multiplying powers with the same base. The indices must be added instead, so $1+rac{3}{2}=rac{5}{2}$ and the result is $2^{rac{5}{2}}$."
+    }
+   ],
+   "points": 3
+  }
+ ],
+ "card_count": 23,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-6-6-2-fractional-and-negative-indices/flashcards",
+ "source_sha256": "085c808a2b0bf17242492c29492d3526bae55a4a32e203d8ddcf97f17182e37e",
+ "extracted_at": "2026-11-08T17:55:05Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}

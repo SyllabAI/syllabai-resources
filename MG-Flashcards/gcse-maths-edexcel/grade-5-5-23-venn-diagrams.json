@@ -1,0 +1,588 @@
+{
+ "topic": "grade-5-5-23-venn-diagrams",
+ "lane": "gcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "title": "Venn Diagrams Flashcards",
+ "cards": [
+  {
+   "id": "01eced92-a5c2-43ce-bce8-0f9cc0ed0bca",
+   "card_type": "basic",
+   "front": "In frequency notation, what does $n(A)$ represent?",
+   "back": "The number of elements in set $A$.",
+   "options": [
+    {
+     "text": "The number of elements in set $A$.",
+     "correct": true,
+     "explanation": "The notation $n(A)$ gives the cardinality of $A$, meaning the total number of distinct elements contained in that set."
+    },
+    {
+     "text": "The number of elements outside set $A$.",
+     "correct": false,
+     "explanation": "This confuses a set with its complement. Elements outside $A$ are counted by $n(A')$, while $n(A)$ counts the elements inside $A$."
+    },
+    {
+     "text": "The number of subsets formed from set $A$.",
+     "correct": false,
+     "explanation": "The number of subsets of a set with $n(A)$ elements is $2^{n(A)}$. The notation $n(A)$ itself counts the elements in $A$."
+    },
+    {
+     "text": "The probability of selecting set $A$.",
+     "correct": false,
+     "explanation": "Probability is written as $P(A)$, not $n(A)$. The notation $n(A)$ represents the number of elements contained in set $A$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "d1dd35c2-67d3-464e-b86a-578e9ef8bcc3",
+   "card_type": "basic",
+   "front": "What symbol is used for the universal set and how is it represented on a diagram?",
+   "back": "Symbol: $\\mathcal{E}$Representation: The rectangle",
+   "options": [
+    {
+     "text": "Symbol: $\\mathcal{E}$Representation: The rectangle",
+     "correct": true,
+     "explanation": "The universal set is denoted by $\\mathcal{E}$ in this notation and is drawn as the rectangle containing every set and all relevant elements."
+    },
+    {
+     "text": "Symbol: $A$Representation: A circle",
+     "correct": false,
+     "explanation": "A labelled circle represents an individual set such as $A$, not the universal set. The universal set is $\\mathcal{E}$ and is represented by the rectangle."
+    },
+    {
+     "text": "Symbol: $\\varnothing$Representation: An empty circle",
+     "correct": false,
+     "explanation": "The symbol $\\varnothing$ denotes the empty set, which has no elements. The universal set is denoted by $\\mathcal{E}$ and shown as the surrounding rectangle."
+    },
+    {
+     "text": "Symbol: $A \\cap B$Representation: The overlap",
+     "correct": false,
+     "explanation": "The notation $A \\cap B$ and the overlap represent the intersection of two sets. The universal set is $\\mathcal{E}$ and is drawn as the rectangle."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "244e5121-1127-4328-9119-41c41492f26f",
+   "card_type": "cloze",
+   "front": "The complement $A'$ represents all elements in the universal set that are [ ___ ].",
+   "back": "The complement $A'$ represents all elements in the universal set that are not in A.",
+   "options": [
+    {
+     "text": "not in A",
+     "correct": true,
+     "explanation": "The complement of $A$ contains every element belonging to the universal set that does not belong to $A$."
+    },
+    {
+     "text": "in A",
+     "correct": false,
+     "explanation": "This describes $A$ itself rather than its complement. The complement $A'$ consists of elements in the universal set that are not in $A$."
+    },
+    {
+     "text": "in every set",
+     "correct": false,
+     "explanation": "A complement is not defined by membership of every set. The set $A'$ contains precisely the universal-set elements that are not in $A$."
+    },
+    {
+     "text": "outside the universal set",
+     "correct": false,
+     "explanation": "A complement only includes elements within the universal set. Specifically, $A'$ contains those universal-set elements that are not in $A$."
+    }
+   ]
+  },
+  {
+   "id": "28d38618-c076-4030-ba9e-26ca51831e2a",
+   "card_type": "basic",
+   "front": "Define the intersection symbol $\\cap$.",
+   "back": "Items that are in both set A and set B (the overlap).",
+   "options": [
+    {
+     "text": "Items that are in both set A and set B (the overlap).",
+     "correct": true,
+     "explanation": "The intersection $A \\cap B$ consists of elements shared by A and B, so it is represented by the overlapping region of their circles."
+    },
+    {
+     "text": "Items that are in either set A or set B (the union).",
+     "correct": false,
+     "explanation": "This describes the union $A \\cup B$, which includes elements in either set. The intersection $A \\cap B$ contains only elements in both sets."
+    },
+    {
+     "text": "Items that are in only set A and not set B (A-only).",
+     "correct": false,
+     "explanation": "The A-only region excludes the overlap and is written $A \\cap B'$. The intersection $A \\cap B$ is the region belonging to both sets."
+    },
+    {
+     "text": "Items that are in neither set A nor set B (the outside).",
+     "correct": false,
+     "explanation": "The region outside both sets is the complement of their union, $(A \\cup B)'$. The intersection $A \\cap B$ is their shared overlap."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "28eee6ac-cbbc-4505-8067-a585ee758058",
+   "card_type": "basic",
+   "front": "Define the union symbol $\\cup$.",
+   "back": "Items in A or B or both.",
+   "options": [
+    {
+     "text": "Items in A or B or both.",
+     "correct": true,
+     "explanation": "The union $A \\cup B$ contains every element belonging to A, to B, or to both sets, so both circles are included."
+    },
+    {
+     "text": "Items in A and B at once.",
+     "correct": false,
+     "explanation": "This describes the intersection $A \\cap B$, which includes only the overlap. The union $A \\cup B$ includes items in A, B, or both."
+    },
+    {
+     "text": "Items in A but not B at all.",
+     "correct": false,
+     "explanation": "This is the A-only region, written $A \\cap B'$. The union $A \\cup B$ includes all of A and B, including their overlap."
+    },
+    {
+     "text": "Items outside A and B entirely.",
+     "correct": false,
+     "explanation": "This describes elements in neither set, written $(A \\cup B)'$. The union $A \\cup B$ contains elements in A, B, or both."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "6d0bdc5c-5696-4021-9075-a415590a26c2",
+   "card_type": "cloze",
+   "front": "$$$P(A') = \\text{[...]}$$",
+   "back": "$$$P(A') = \\boxed{1 - P(A)}$$",
+   "options": [
+    {
+     "text": "$$$1 - P(A)$$",
+     "correct": true,
+     "explanation": "An event and its complement cover all possible outcomes, so their probabilities total 1. Therefore, $P(A')=1-P(A)$."
+    },
+    {
+     "text": "$$$1 + P(A)$$",
+     "correct": false,
+     "explanation": "Adding produces a value greater than 1 whenever $P(A)>0$, which cannot be a probability. The complement rule is $P(A')=1-P(A)$."
+    },
+    {
+     "text": "$$$P(A)$$",
+     "correct": false,
+     "explanation": "An event and its complement do not generally have equal probabilities; that occurs only when each is 0.5. In general, $P(A')=1-P(A)$."
+    },
+    {
+     "text": "$$$\\frac{1}{P(A)}$$",
+     "correct": false,
+     "explanation": "Taking a reciprocal is not the complement rule and often gives a value above 1. Complementary probabilities sum to 1, so $P(A')=1-P(A)$."
+    }
+   ]
+  },
+  {
+   "id": "8bccb6f6-7a88-4ef8-8222-32043e08dc4c",
+   "card_type": "basic",
+   "front": "If $P(A) = 0.64$, what is $P(A')$?",
+   "back": "$$$1 - 0.64 = 0.36$$",
+   "options": [
+    {
+     "text": "$$$1 - 0.64 = 0.36$$",
+     "correct": true,
+     "explanation": "Complementary probabilities add to 1, so subtracting $0.64$ from 1 gives $P(A')=0.36$."
+    },
+    {
+     "text": "$$$1 - 0.64 = 0.64$$",
+     "correct": false,
+     "explanation": "This leaves the original probability unchanged instead of carrying out the subtraction. The complement is $1-0.64=0.36$."
+    },
+    {
+     "text": "$$$1 - 0.64 = 0.46$$",
+     "correct": false,
+     "explanation": "This reverses the digits in the correct difference. Subtracting carefully gives $1.00-0.64=0.36$, so $P(A')=0.36$."
+    },
+    {
+     "text": "$$$1 + 0.64 = 1.64$$",
+     "correct": false,
+     "explanation": "This adds the probability instead of subtracting it, producing an impossible probability above 1. The complement is $1-0.64=0.36$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "d694c650-655e-4702-b68f-b55278b7e742",
+   "card_type": "basic",
+   "front": "Which region corresponds to the notation $A \\cap B'$?",
+   "back": "The A-only region (in A but not in B).",
+   "options": [
+    {
+     "text": "The A-only region (in A but not in B).",
+     "correct": true,
+     "explanation": "The intersection with $B'$ selects elements that satisfy both conditions: they belong to A and do not belong to B."
+    },
+    {
+     "text": "The B-only region (in B but not in A).",
+     "correct": false,
+     "explanation": "The B-only region is $A' \\cap B$, with the complement applied to A. The notation $A \\cap B'$ instead describes the A-only region."
+    },
+    {
+     "text": "The overlap region (in both A and B).",
+     "correct": false,
+     "explanation": "The overlap is $A \\cap B$. The prime in $B'$ excludes elements in B, so $A \\cap B'$ is the A-only region."
+    },
+    {
+     "text": "The outside region (in neither A nor B).",
+     "correct": false,
+     "explanation": "The region in neither set is $A' \\cap B'$, or $(A \\cup B)'$. The notation $A \\cap B'$ requires membership of A."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "0576e1c2-aa11-449e-88b1-a6a0f78acad8",
+   "card_type": "cloze",
+   "front": "The region for \"neither A nor B\" is represented by $A' \\cap B'$, which is located [ ___ ].",
+   "back": "The region for \"neither A nor B\" is represented by $A' \\cap B'$, which is located outside both circles.",
+   "options": [
+    {
+     "text": "outside both circles",
+     "correct": true,
+     "explanation": "By De Morgan’s law, $A' \\cap B'$ contains elements not in A and not in B, so the required region lies outside both circles."
+    },
+    {
+     "text": "inside both circles",
+     "correct": false,
+     "explanation": "Inside both circles represents $A \\cap B$, where elements belong to both sets. Neither set instead means $A' \\cap B'$, which is outside both circles."
+    },
+    {
+     "text": "inside circle A only",
+     "correct": false,
+     "explanation": "The A-only region contains elements in A but not B, represented by $A \\cap B'$. Neither A nor B lies outside both circles."
+    },
+    {
+     "text": "inside at least one circle",
+     "correct": false,
+     "explanation": "Inside at least one circle represents the union $A \\cup B$. Neither A nor B is the complement of this union, located outside both circles."
+    }
+   ]
+  },
+  {
+   "id": "860cbd32-6063-4dfb-ae23-7684bc7ff55b",
+   "card_type": "basic",
+   "front": "What is the rule for completing a frequency Venn diagram when the overlap is known?",
+   "back": "Fill the overlap first, then subtract it from the circle totals to find the \"only\" regions.",
+   "options": [
+    {
+     "text": "Fill the overlap first, then subtract it from the circle totals to find the \"only\" regions.",
+     "correct": true,
+     "explanation": "The overlap contributes to both circle totals. Entering it first allows it to be subtracted from each total, leaving the correct counts for the two \"only\" regions."
+    },
+    {
+     "text": "Fill the circle totals first, then add the overlap to find the \"only\" regions.",
+     "correct": false,
+     "explanation": "Adding the overlap double-counts elements belonging to both sets. The overlap must be filled first and subtracted from each circle total to obtain the \"only\" regions."
+    },
+    {
+     "text": "Fill the only regions first, then subtract them from the overlap to find the circle totals.",
+     "correct": false,
+     "explanation": "The \"only\" regions cannot be determined directly while the known overlap is unused. Fill the overlap first, then subtract it from each circle total."
+    },
+    {
+     "text": "Fill the outside region first, then subtract it from the circle totals to find the \"only\" regions.",
+     "correct": false,
+     "explanation": "The outside count is not included in either circle total, so subtracting it is inappropriate. Fill the known overlap first and subtract that from the circle totals."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "d0749e2b-27fe-484e-8bd0-e4ec7d04cad0",
+   "card_type": "basic",
+   "front": "How do you find the count of the overlap if given circle totals and the union total?",
+   "back": "Add the two circle totals together and subtract the total count of the union.",
+   "options": [
+    {
+     "text": "Add the two circle totals together and subtract the total count of the union.",
+     "correct": true,
+     "explanation": "Adding the circle totals counts the overlap twice, while the union counts it once. Subtracting the union total therefore leaves one copy of the overlap."
+    },
+    {
+     "text": "Add the two circle totals together and add the total count of the union.",
+     "correct": false,
+     "explanation": "Adding the union creates extensive double-counting rather than isolating the overlap. Add the circle totals, then subtract the union total to leave the overlap count."
+    },
+    {
+     "text": "Subtract the two circle totals from each other and add the total count of the union.",
+     "correct": false,
+     "explanation": "The difference between circle totals does not isolate shared elements. Inclusion-exclusion gives the overlap by adding both circle totals and subtracting the union total."
+    },
+    {
+     "text": "Subtract the total count of the union and subtract the two circle totals together.",
+     "correct": false,
+     "explanation": "Subtracting all the given counts cannot recover the shared portion and may produce a negative result. Add the circle totals, then subtract the union total."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "5f7ba54e-8eff-45a9-bb9a-e4f46214f2e9",
+   "card_type": "basic",
+   "front": "State the order for filling a three-circle Venn diagram from a survey.",
+   "back": "Centre (all three sets)Pair-only overlapsSingle-only regionsOutside region",
+   "options": [
+    {
+     "text": "Centre (all three sets)Pair-only overlapsSingle-only regionsOutside region",
+     "correct": true,
+     "explanation": "The centre affects every pair and circle total, so it is entered first. Successive subtraction then determines pair-only, single-only, and finally outside regions."
+    },
+    {
+     "text": "Single-only regionsPair-only overlapsCentre (all three sets)Outside region",
+     "correct": false,
+     "explanation": "Starting with single-only regions ignores values that must first be removed from circle totals. Begin with the centre, then pair-only overlaps, single-only regions, and outside."
+    },
+    {
+     "text": "Outside regionSingle-only regionsPair-only overlapsCentre (all three sets)",
+     "correct": false,
+     "explanation": "Working from outside inward prevents the necessary subtractions from known intersections. Fill the centre first, followed by pair-only overlaps, single-only regions, and the outside region."
+    },
+    {
+     "text": "Pair-only overlapsCentre (all three sets)Outside regionSingle-only regions",
+     "correct": false,
+     "explanation": "Pair totals normally include the centre, so entering pair-only values before the centre risks overcounting. The correct progression is centre, pair-only, single-only, then outside."
+    }
+   ],
+   "points": 3
+  },
+  {
+   "id": "81dc5aa5-87d7-4e35-a132-a22e9bef5916",
+   "card_type": "cloze",
+   "front": "In a three-circle diagram, a statement like \"18 like rugby and football\" usually includes those who [ ___ ].",
+   "back": "In a three-circle diagram, a statement like \"18 like rugby and football\" usually includes those who also like the third sport.",
+   "options": [
+    {
+     "text": "also like the third sport",
+     "correct": true,
+     "explanation": "An intersection of rugby and football includes everyone who likes both, including people who also like the third sport, unless the wording says \"only\"."
+    },
+    {
+     "text": "do not like the third sport",
+     "correct": false,
+     "explanation": "This incorrectly restricts the count to the rugby-and-football-only region. Without the word \"only\", the count also includes people who like the third sport."
+    },
+    {
+     "text": "like exactly two sports",
+     "correct": false,
+     "explanation": "\"Exactly two\" would exclude the central three-way intersection. A statement that people like rugby and football normally includes those who also like the third sport."
+    },
+    {
+     "text": "like neither of those sports",
+     "correct": false,
+     "explanation": "People who like neither rugby nor football cannot belong to their intersection. The statement describes everyone who likes both, including those who also like the third sport."
+    }
+   ]
+  },
+  {
+   "id": "e4c6c55e-5508-4e92-ad84-a4d2ee244575",
+   "card_type": "basic",
+   "front": "How do you calculate the probability of a region if elements are equally likely?",
+   "back": "$$$\\frac{\\text{Number of elements in the region}}{\\text{Total elements in the universal set}}$$",
+   "options": [
+    {
+     "text": "$$$\\frac{\\text{Number of elements in the region}}{\\text{Total elements in the universal set}}$$",
+     "correct": true,
+     "explanation": "For equally likely elements, probability is favourable outcomes divided by all possible outcomes. The region supplies the favourable count and the universal set supplies the total."
+    },
+    {
+     "text": "$$$\\frac{\\text{Total elements in the universal set}}{\\text{Number of elements in the region}}$$",
+     "correct": false,
+     "explanation": "This reverses the probability fraction and can produce a value greater than 1. Divide the number in the region by the total in the universal set."
+    },
+    {
+     "text": "$$$\\frac{\\text{Number of elements outside the region}}{\\text{Total elements in the universal set}}$$",
+     "correct": false,
+     "explanation": "Using the count outside the region calculates the complementary probability. The requested probability uses the number inside the region over the universal-set total."
+    },
+    {
+     "text": "$$$\\frac{\\text{Number of elements in the region}}{\\text{Total elements outside the region}}$$",
+     "correct": false,
+     "explanation": "The denominator must count every equally likely outcome, not merely those outside the region. Use the total number of elements in the universal set."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "7422e85d-a3a3-4b82-aa81-00d34fe20b6c",
+   "card_type": "cloze",
+   "front": "When shading the union $A \\cup B$, you must include the A-only region, the B-only region, and the [ ___ ].",
+   "back": "When shading the union $A \\cup B$, you must include the A-only region, the B-only region, and the overlap.",
+   "options": [
+    {
+     "text": "overlap",
+     "correct": true,
+     "explanation": "A union contains every element in A or B or both. Therefore, its shading includes both single-set regions and the overlap between the circles."
+    },
+    {
+     "text": "outside region",
+     "correct": false,
+     "explanation": "The outside region contains elements in neither set, so it is excluded from $A \\cup B$. The union includes the A-only, B-only, and overlap regions."
+    },
+    {
+     "text": "A-only region",
+     "correct": false,
+     "explanation": "The A-only region has already been listed and does not replace the shared section. The remaining part needed to complete the union is the overlap."
+    },
+    {
+     "text": "B-only region",
+     "correct": false,
+     "explanation": "The B-only region has already been included, so naming it again omits elements belonging to both sets. The union must also contain the overlap."
+    }
+   ]
+  },
+  {
+   "id": "40ff904c-abf1-41e8-903a-47a41a067d0c",
+   "card_type": "basic",
+   "front": "Describe the region represented by $A' \\cup B$.",
+   "back": "Everything except the A-only region.",
+   "options": [
+    {
+     "text": "Everything except the A-only region.",
+     "correct": true,
+     "explanation": "$$A'$ includes everything outside A, while B restores the overlap because it belongs to B. Only the part in A but not B remains excluded."
+    },
+    {
+     "text": "Everything except the B-only region.",
+     "correct": false,
+     "explanation": "The B-only region belongs to both $A'$ and B, so it must be included. The only excluded area is the A-only region."
+    },
+    {
+     "text": "Everything except the overlap region.",
+     "correct": false,
+     "explanation": "Although the overlap is not in $A'$, it is in B and therefore belongs to the union. Only the A-only region is excluded."
+    },
+    {
+     "text": "Everything except both circle regions.",
+     "correct": false,
+     "explanation": "This describes the area outside both sets and wrongly excludes most of B. $A' \\cup B$ includes all regions except the A-only region."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "8c6e2928-41c1-4c14-b399-2d4c4c7b7458",
+   "card_type": "cloze",
+   "front": "When placing listed elements into a diagram, every element from the universal set must be placed in [ ___ ] region.",
+   "back": "When placing listed elements into a diagram, every element from the universal set must be placed in exactly one region.",
+   "options": [
+    {
+     "text": "exactly one",
+     "correct": true,
+     "explanation": "The regions of a Venn diagram are mutually exclusive areas, so each element in the universal set belongs in exactly one region, including any region outside the circles."
+    },
+    {
+     "text": "one or more",
+     "correct": false,
+     "explanation": "Allowing one or more regions would permit the same element to be recorded repeatedly. Each element must be placed in exactly one mutually exclusive region."
+    },
+    {
+     "text": "exactly two",
+     "correct": false,
+     "explanation": "Placing every element in two regions would double-count it and misrepresent its set membership. Each element belongs in exactly one region of the diagram."
+    },
+    {
+     "text": "every",
+     "correct": false,
+     "explanation": "An element should not appear throughout the diagram, because each region represents a particular combination of set memberships. It must be placed in exactly one region."
+    }
+   ]
+  },
+  {
+   "id": "feef48a7-2ff5-4ae3-8bf8-ad2e025a13f8",
+   "card_type": "cloze",
+   "front": "To find the count for the \"neither\" region, [ ___ ] the total number of elements inside all circles from the universal set total.",
+   "back": "To find the count for the \"neither\" region, subtract the total number of elements inside all circles from the universal set total.",
+   "options": [
+    {
+     "text": "subtract",
+     "correct": true,
+     "explanation": "Everything inside the circles is removed from the universal set total, leaving the number outside all circles. That remaining count represents neither set."
+    },
+    {
+     "text": "estimate",
+     "correct": false,
+     "explanation": "Estimating is unnecessary when the relevant totals are known and may produce an inaccurate count. Subtract the number inside all circles from the universal set total."
+    },
+    {
+     "text": "separate",
+     "correct": false,
+     "explanation": "Separating the two totals does not calculate the number in neither set. Subtract the complete count inside the circles from the universal set total."
+    },
+    {
+     "text": "infer",
+     "correct": false,
+     "explanation": "The neither count cannot be inferred without performing the required arithmetic. Subtract the number inside all circles from the universal set total to find it."
+    }
+   ]
+  },
+  {
+   "id": "926c7ea3-1bac-4be7-bec6-87b249cdb107",
+   "card_type": "basic",
+   "front": "What is the common mistake when shading the union $A \\cup B$?",
+   "back": "Shading only the overlap instead of both circles entirely.",
+   "options": [
+    {
+     "text": "Shading only the overlap instead of both circles entirely.",
+     "correct": true,
+     "explanation": "The union contains everything in A, in B, or in both sets. Shading only their overlap confuses the union with the intersection."
+    },
+    {
+     "text": "Shading both circles entirely instead of only the overlap.",
+     "correct": false,
+     "explanation": "Shading both circles entirely is the correct representation of the union, not the mistake. Shading only the overlap is the usual confusion with the intersection."
+    },
+    {
+     "text": "Shading everything outside both circles instead of both circles entirely.",
+     "correct": false,
+     "explanation": "The area outside both circles represents elements in neither set, not the union. The usual union error is shading only the overlap rather than both circles."
+    },
+    {
+     "text": "Shading only circle A instead of both circles entirely.",
+     "correct": false,
+     "explanation": "Shading only circle A omits elements that belong exclusively to B, but it is not the stated intersection confusion. The common error is shading only the overlap."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "3d9967c4-a4ba-482b-a4ac-36d00b5beeeb",
+   "card_type": "basic",
+   "front": "What must you do to every region to check if a Venn diagram is completed correctly?",
+   "back": "Sum every region (including the outside); it must equal the total number of items in the survey.",
+   "options": [
+    {
+     "text": "Sum every region (including the outside); it must equal the total number of items in the survey.",
+     "correct": true,
+     "explanation": "Every mutually exclusive region, including the area outside the circles, accounts for part of the universal set. Their sum must therefore equal the survey total."
+    },
+    {
+     "text": "Sum every region (excluding the outside); it must equal the total number of items in the survey.",
+     "correct": false,
+     "explanation": "Excluding the outside region omits respondents who belong to neither set. Sum every region, including the outside, and compare the result with the survey total."
+    },
+    {
+     "text": "Multiply every region (including the outside); it must equal the total number of items in the survey.",
+     "correct": false,
+     "explanation": "Region frequencies represent separate groups that must be added, not multiplied. The sum of all regions, including the outside, must equal the survey total."
+    },
+    {
+     "text": "Sum only the circles (excluding the outside); it must equal the total number of items in the survey.",
+     "correct": false,
+     "explanation": "Counting only the circles ignores items belonging to neither set, so it cannot verify the universal total. Every region, including the outside, must be summed."
+    }
+   ],
+   "points": 1
+  }
+ ],
+ "card_count": 20,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-5-5-23-venn-diagrams/flashcards",
+ "source_sha256": "216e4782c140ae8cb06f365ca5941b033328ece215a395b156deb7eebc3ff613",
+ "extracted_at": "2026-11-08T17:55:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}

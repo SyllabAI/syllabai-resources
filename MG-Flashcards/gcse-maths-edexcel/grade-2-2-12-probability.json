@@ -1,0 +1,617 @@
+{
+ "topic": "grade-2-2-12-probability",
+ "lane": "gcse-maths-edexcel",
+ "grade": "2",
+ "tier": null,
+ "title": "Probability Flashcards",
+ "cards": [
+  {
+   "id": "dd991e7c-ec9d-4987-abb3-350eb07a727d",
+   "card_type": "basic",
+   "front": "What interval must every probability lie in?",
+   "back": "From 0 to 1 inclusive.",
+   "options": [
+    {
+     "text": "From 0 to 1 inclusive.",
+     "correct": true,
+     "explanation": "A probability cannot be less than 0 or greater than 1. Probability 0 represents an impossible event, while probability 1 represents a certain event."
+    },
+    {
+     "text": "From -1 to 1 inclusive.",
+     "correct": false,
+     "explanation": "Including negative values confuses probability with scales that permit signed numbers. Every probability lies from 0 to 1 inclusive, because chances cannot be below impossibility."
+    },
+    {
+     "text": "From 0 to 0.5 inclusive.",
+     "correct": false,
+     "explanation": "This excludes probabilities greater than one half, including likely and certain events. The correct interval is from 0 to 1 inclusive."
+    },
+    {
+     "text": "From 0 to 100 inclusive.",
+     "correct": false,
+     "explanation": "Probabilities are not percentages unless converted, so the upper bound is 1 rather than 100. The correct interval is from 0 to 1 inclusive."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "a464ea07-eaae-40f0-8000-662e0288e628",
+   "card_type": "cloze",
+   "front": "Rolling a 5 is an [ ___ ]; rolling an even number is an [ ___ ].",
+   "back": "Rolling a 5 is an outcome; rolling an even number is an event.",
+   "options": [
+    {
+     "text": "Rolling a 5 is an outcome; rolling an even number is an event.",
+     "correct": true,
+     "explanation": "An outcome is one specific possible result, such as rolling 5. An event is a set of outcomes, such as rolling any even number."
+    },
+    {
+     "text": "Rolling a 5 is an event; rolling an even number is an outcome.",
+     "correct": false,
+     "explanation": "This reverses the definitions. Rolling 5 is one specific outcome, whereas rolling an even number describes the event containing outcomes 2, 4 and 6."
+    },
+    {
+     "text": "Rolling a 5 is a trial; rolling an even number is an outcome.",
+     "correct": false,
+     "explanation": "A trial is the action of rolling the die, not the result obtained. Rolling 5 is an outcome, while rolling an even number is an event."
+    },
+    {
+     "text": "Rolling a 5 is a sample space; rolling an even number is a sample space.",
+     "correct": false,
+     "explanation": "A sample space contains all possible results, so neither description is a sample space. Rolling 5 is an outcome, and rolling an even number is an event."
+    }
+   ]
+  },
+  {
+   "id": "f2e23582-0309-4330-8fe4-530c9767111b",
+   "card_type": "cloze",
+   "front": "A result that is not chosen on purpose is [ ___ ].",
+   "back": "A result that is not chosen on purpose is at random.",
+   "options": [
+    {
+     "text": "at random",
+     "correct": true,
+     "explanation": "A result obtained without deliberately selecting it is described as being at random. Random selection is intended to avoid purposeful choice influencing the result."
+    },
+    {
+     "text": "biased",
+     "correct": false,
+     "explanation": "A biased result is affected by an unfair method or unequal chances, not merely unchosen. A result not chosen on purpose is described as being at random."
+    },
+    {
+     "text": "systematic",
+     "correct": false,
+     "explanation": "A systematic result follows a planned rule or pattern, which conflicts with selection without purposeful choice. The required description is at random."
+    },
+    {
+     "text": "certain",
+     "correct": false,
+     "explanation": "A certain result must occur, whereas lack of purposeful selection does not guarantee any particular result. The correct description is at random."
+    }
+   ]
+  },
+  {
+   "id": "9c36a1b3-dfbb-4f18-8c19-e360a430de9b",
+   "card_type": "cloze",
+   "front": "If each outcome has the same chance, the outcomes are [ ___ ].",
+   "back": "If each outcome has the same chance, the outcomes are equally likely.",
+   "options": [
+    {
+     "text": "equally likely",
+     "correct": true,
+     "explanation": "Outcomes are equally likely when every one has the same probability of occurring. For example, each face of a fair six-sided die has probability $\\frac{1}{6}$."
+    },
+    {
+     "text": "unequally likely",
+     "correct": false,
+     "explanation": "Unequally likely means that some outcomes have different probabilities, directly contradicting the condition that each has the same chance. The outcomes are equally likely."
+    },
+    {
+     "text": "certain",
+     "correct": false,
+     "explanation": "Certain means having probability 1, rather than sharing the same chance with other possible outcomes. Outcomes with the same probability are equally likely."
+    },
+    {
+     "text": "impossible",
+     "correct": false,
+     "explanation": "Impossible outcomes each have probability 0 and cannot occur; equal non-zero chances are not described this way. Outcomes with the same chance are equally likely."
+    }
+   ]
+  },
+  {
+   "id": "5198de41-65a4-4ee2-a855-415c4f92eaf2",
+   "card_type": "basic",
+   "front": "For equally likely outcomes, what calculation gives the probability of an event?",
+   "back": "$\\frac{\\text{wanted outcomes}}{\\text{total outcomes}}$",
+   "options": [
+    {
+     "text": "$\\frac{\\text{wanted outcomes}}{\\text{total outcomes}}$",
+     "correct": true,
+     "explanation": "For equally likely outcomes, probability is found by dividing the number of outcomes that satisfy the event by the total number of possible outcomes."
+    },
+    {
+     "text": "$\\frac{\\text{total outcomes}}{\\text{wanted outcomes}}$",
+     "correct": false,
+     "explanation": "Reversing the fraction can produce a value greater than 1, which cannot be a probability. Divide wanted outcomes by total outcomes instead."
+    },
+    {
+     "text": "$\\frac{\\text{unwanted outcomes}}{\\text{total outcomes}}$",
+     "correct": false,
+     "explanation": "This calculates the probability of the complementary event by counting outcomes that are not wanted. The required probability uses wanted outcomes over total outcomes."
+    },
+    {
+     "text": "$\\frac{\\text{wanted outcomes}}{\\text{unwanted outcomes}}$",
+     "correct": false,
+     "explanation": "Comparing wanted outcomes only with unwanted outcomes omits part of the sample space from the denominator. The denominator must be the total number of outcomes."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "7fb3c3a6-c332-4351-8903-f283e005ceb1",
+   "card_type": "basic",
+   "front": "Cards show 2, 4, 4, 5, 7, 8, 9. What is the probability of picking a 4?",
+   "back": "$\\frac{2}{7}$",
+   "options": [
+    {
+     "text": "$\\frac{2}{7}$",
+     "correct": true,
+     "explanation": "There are seven cards in total and two of them show 4. Therefore, the probability of selecting a 4 is $\\frac{2}{7}$."
+    },
+    {
+     "text": "$\\frac{1}{7}$",
+     "correct": false,
+     "explanation": "This counts the value 4 only once because it treats repeated values as a single outcome. Two of the seven cards show 4, giving $\\frac{2}{7}$."
+    },
+    {
+     "text": "$\\frac{2}{6}$",
+     "correct": false,
+     "explanation": "This incorrectly removes one of the two matching cards from the total after counting it. All seven cards remain possible selections, so the probability is $\\frac{2}{7}$."
+    },
+    {
+     "text": "$\\frac{4}{7}$",
+     "correct": false,
+     "explanation": "This uses the number printed on the desired cards as the numerator instead of counting those cards. There are two matching cards out of seven, giving $\\frac{2}{7}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "99999f11-d7de-4794-82fd-5df8ec01ff45",
+   "card_type": "cloze",
+   "front": "On a probability scale, 0 means [ ___ ] and 1 means [ ___ ].",
+   "back": "On a probability scale, 0 means impossible and 1 means certain.",
+   "options": [
+    {
+     "text": "On a probability scale, 0 means impossible and 1 means certain.",
+     "correct": true,
+     "explanation": "Probability 0 represents an event that cannot happen, so it is impossible. Probability 1 represents an event that must happen, so it is certain."
+    },
+    {
+     "text": "On a probability scale, 0 means certain and 1 means impossible.",
+     "correct": false,
+     "explanation": "This reverses the endpoints of the probability scale. Probability 0 means impossible because the event cannot occur, while probability 1 means certain."
+    },
+    {
+     "text": "On a probability scale, 0 means unlikely and 1 means likely.",
+     "correct": false,
+     "explanation": "Unlikely and likely describe probabilities near the endpoints, not exactly at them. Probability 0 means impossible, and probability 1 means certain."
+    },
+    {
+     "text": "On a probability scale, 0 means an even chance and 1 means an even chance.",
+     "correct": false,
+     "explanation": "An even chance corresponds to probability $\\frac{1}{2}$, so it cannot describe either endpoint. At 0 an event is impossible, and at 1 it is certain."
+    }
+   ]
+  },
+  {
+   "id": "bb2acd35-7a44-4bed-8652-ef440232876d",
+   "card_type": "cloze",
+   "front": "On a probability scale, [ ___ ] means an even chance.",
+   "back": "On a probability scale, $\\frac{1}{2}$ means an even chance.",
+   "options": [
+    {
+     "text": "$$\\frac{1}{2}$",
+     "correct": true,
+     "explanation": "An even chance means that an event is equally likely to happen or not happen. Its probability is therefore one half, written $\\frac{1}{2}$."
+    },
+    {
+     "text": "$$0$",
+     "correct": false,
+     "explanation": "A probability of 0 represents an impossible event, not an even chance. An event with an even chance has probability $\\frac{1}{2}$."
+    },
+    {
+     "text": "$$1$",
+     "correct": false,
+     "explanation": "A probability of 1 represents a certain event, not one equally likely to happen or not happen. An even chance is represented by $\\frac{1}{2}$."
+    },
+    {
+     "text": "$$\\frac{1}{4}$",
+     "correct": false,
+     "explanation": "This gives a one-in-four chance, so the event is less likely to happen than not happen. An even chance has probability $\\frac{1}{2}$."
+    }
+   ]
+  },
+  {
+   "id": "34974dd6-27f8-4f5c-9461-934fdae0f36c",
+   "card_type": "basic",
+   "front": "On a probability scale, where is $\\frac{1}{4}$ placed?",
+   "back": "Halfway between 0 and $\\frac{1}{2}$.",
+   "options": [
+    {
+     "text": "Halfway between 0 and $\\frac{1}{2}$.",
+     "correct": true,
+     "explanation": "The midpoint of 0 and $\\frac{1}{2}$ is $\\frac{1}{4}$, because half of $\\frac{1}{2}$ is $\\frac{1}{4}$."
+    },
+    {
+     "text": "Halfway between 0 and 1.",
+     "correct": false,
+     "explanation": "The midpoint of 0 and 1 is $\\frac{1}{2}$, not $\\frac{1}{4}$. The value $\\frac{1}{4}$ is halfway between 0 and $\\frac{1}{2}$."
+    },
+    {
+     "text": "Halfway between $\\frac{1}{4}$ and $\\frac{1}{2}$.",
+     "correct": false,
+     "explanation": "The midpoint of $\\frac{1}{4}$ and $\\frac{1}{2}$ is $\\frac{3}{8}$. The value $\\frac{1}{4}$ is halfway between 0 and $\\frac{1}{2}$."
+    },
+    {
+     "text": "Halfway between 0 and $\\frac{1}{4}$.",
+     "correct": false,
+     "explanation": "The midpoint of 0 and $\\frac{1}{4}$ is $\\frac{1}{8}$, which is too small. The value $\\frac{1}{4}$ lies halfway between 0 and $\\frac{1}{2}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "ccbf5f9f-f6db-4732-b2f8-22d067f58464",
+   "card_type": "basic",
+   "front": "On a probability scale, where is $\\frac{3}{4}$ placed?",
+   "back": "Halfway between $\\frac{1}{2}$ and 1.",
+   "options": [
+    {
+     "text": "Halfway between $\\frac{1}{2}$ and 1.",
+     "correct": true,
+     "explanation": "The gap from $\\frac{1}{2}$ to 1 is $\\frac{1}{2}$, and moving halfway across it gives $\\frac{1}{2}+\\frac{1}{4}=\\frac{3}{4}$."
+    },
+    {
+     "text": "Halfway between 0 and 1.",
+     "correct": false,
+     "explanation": "The midpoint of the full probability scale from 0 to 1 is $\\frac{1}{2}$. The value $\\frac{3}{4}$ is halfway between $\\frac{1}{2}$ and 1."
+    },
+    {
+     "text": "Halfway between 0 and $\\frac{3}{4}$.",
+     "correct": false,
+     "explanation": "The midpoint of 0 and $\\frac{3}{4}$ is $\\frac{3}{8}$, not $\\frac{3}{4}$. The correct endpoints are $\\frac{1}{2}$ and 1."
+    },
+    {
+     "text": "Halfway between $\\frac{3}{4}$ and 1.",
+     "correct": false,
+     "explanation": "The midpoint of $\\frac{3}{4}$ and 1 is $\\frac{7}{8}$, so this places the point too high. $\\frac{3}{4}$ is halfway between $\\frac{1}{2}$ and 1."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "4a72e5d0-b21e-4cad-a707-21c243e06c36",
+   "card_type": "basic",
+   "front": "A fair dice is rolled once. What is the probability of rolling an 8?",
+   "back": "0",
+   "options": [
+    {
+     "text": "0",
+     "correct": true,
+     "explanation": "A standard fair dice has outcomes 1 to 6, so rolling an 8 is impossible. An impossible event has probability 0."
+    },
+    {
+     "text": "$\\frac{1}{6}$",
+     "correct": false,
+     "explanation": "The probability $\\frac{1}{6}$ applies to one possible face, such as rolling a 4. Since 8 is not on a standard dice, its probability is 0."
+    },
+    {
+     "text": "$\\frac{1}{8}$",
+     "correct": false,
+     "explanation": "Using 8 as the denominator mistakes the requested number for the number of possible outcomes. A dice has six outcomes and none is 8, so the probability is 0."
+    },
+    {
+     "text": "1",
+     "correct": false,
+     "explanation": "A probability of 1 describes a certain event, but rolling an 8 on a standard six-sided dice is impossible. Its probability is therefore 0."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "3369a649-e006-4830-afca-04871893f3e3",
+   "card_type": "basic",
+   "front": "A fair dice is rolled once. What is the probability of rolling a number less than 7?",
+   "back": "1",
+   "options": [
+    {
+     "text": "1",
+     "correct": true,
+     "explanation": "Every possible result on a standard dice - 1, 2, 3, 4, 5 or 6 - is less than 7, so the event is certain and has probability 1."
+    },
+    {
+     "text": "$\\frac{5}{6}$",
+     "correct": false,
+     "explanation": "This commonly comes from leaving out 6, but 6 is less than 7 and must be included. All six outcomes qualify, giving $\\frac{6}{6}=1$."
+    },
+    {
+     "text": "$\\frac{6}{7}$",
+     "correct": false,
+     "explanation": "Using 7 as the denominator confuses the comparison value with the number of dice outcomes. All six possible outcomes are less than 7, so the probability is 1."
+    },
+    {
+     "text": "$\\frac{1}{6}$",
+     "correct": false,
+     "explanation": "This counts only one successful outcome, but all six faces are numbered below 7. The event is certain, so its probability is $\\frac{6}{6}=1$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "98e8f879-931d-41e0-933a-2b294769fd3c",
+   "card_type": "basic",
+   "front": "A fair dice is rolled once. What is the probability of rolling a number greater than 3?",
+   "back": "$\\frac{1}{2}$",
+   "options": [
+    {
+     "text": "$\\frac{1}{2}$",
+     "correct": true,
+     "explanation": "The results greater than 3 are 4, 5 and 6. That gives three favourable outcomes out of six, so the probability is $\\frac{3}{6}=\\frac{1}{2}$."
+    },
+    {
+     "text": "$\\frac{1}{3}$",
+     "correct": false,
+     "explanation": "This counts only two successful outcomes, often by overlooking 4. The results greater than 3 are 4, 5 and 6, giving $\\frac{3}{6}=\\frac{1}{2}$."
+    },
+    {
+     "text": "$\\frac{2}{3}$",
+     "correct": false,
+     "explanation": "This usually comes from including 3 among the successful outcomes. Greater than 3 excludes 3, leaving 4, 5 and 6, so the probability is $\\frac{1}{2}$."
+    },
+    {
+     "text": "$\\frac{3}{5}$",
+     "correct": false,
+     "explanation": "The denominator must include all six possible dice outcomes, not only five of them. Three outcomes are greater than 3, so the probability is $\\frac{3}{6}=\\frac{1}{2}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "663b2936-d5af-4740-b010-d80b4babcbf9",
+   "card_type": "cloze",
+   "front": "In probability, less than 3 means 1 and 2, so it [ ___ ].",
+   "back": "In probability, less than 3 means 1 and 2, so it excludes 3.",
+   "options": [
+    {
+     "text": "excludes 3",
+     "correct": true,
+     "explanation": "The phrase “less than 3” includes only values strictly below 3. For whole-number dice outcomes, these are 1 and 2, so 3 itself is excluded."
+    },
+    {
+     "text": "includes 3",
+     "correct": false,
+     "explanation": "Including 3 confuses “less than” with “less than or equal to”. A strict inequality does not include its boundary value, so less than 3 excludes 3."
+    },
+    {
+     "text": "excludes 2",
+     "correct": false,
+     "explanation": "The number 2 is below 3, so it must be included. Less than 3 includes 1 and 2 but excludes the boundary value 3."
+    },
+    {
+     "text": "includes only 3",
+     "correct": false,
+     "explanation": "This confuses values below 3 with the value equal to 3. Less than 3 includes 1 and 2 and excludes 3 itself."
+    }
+   ]
+  },
+  {
+   "id": "9bbc9029-89a3-4aea-ba13-6289e9f4fade",
+   "card_type": "basic",
+   "front": "A box has 25 counters: 9 red, 6 blue and the rest green. How many are green?",
+   "back": "10",
+   "options": [
+    {
+     "text": "10",
+     "correct": true,
+     "explanation": "The red and blue counters total $9+6=15$. Subtracting these from the 25 counters leaves $25-15=10$ green counters."
+    },
+    {
+     "text": "9",
+     "correct": false,
+     "explanation": "This repeats the number of red counters instead of finding the remainder. After accounting for 9 red and 6 blue counters, $25-9-6=10$ are green."
+    },
+    {
+     "text": "15",
+     "correct": false,
+     "explanation": "This is the combined number of red and blue counters, not the number of green counters. Subtracting it from 25 gives $25-15=10$ green counters."
+    },
+    {
+     "text": "16",
+     "correct": false,
+     "explanation": "This comes from subtracting only the 9 red counters and forgetting the 6 blue counters. Both known colours must be removed, giving $25-9-6=10$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "6f49d0cc-3fc0-463f-a1bb-23b5b26d83e7",
+   "card_type": "basic",
+   "front": "A box has 25 counters: 9 red, 6 blue and the rest green. What is the probability of green?",
+   "back": "$\\frac{2}{5}$",
+   "options": [
+    {
+     "text": "$\\frac{2}{5}$",
+     "correct": true,
+     "explanation": "There are $25-9-6=10$ green counters, so the probability is $\\frac{10}{25}$. Dividing numerator and denominator by 5 simplifies this to $\\frac{2}{5}$."
+    },
+    {
+     "text": "$\\frac{3}{5}$",
+     "correct": false,
+     "explanation": "This is the probability of selecting a counter that is not green, since there are 15 red or blue counters. Green has probability $\\frac{10}{25}=\\frac{2}{5}$."
+    },
+    {
+     "text": "$\\frac{2}{3}$",
+     "correct": false,
+     "explanation": "This incorrectly uses the 15 red and blue counters as the total. The denominator must be all 25 counters, so green has probability $\\frac{10}{25}=\\frac{2}{5}$."
+    },
+    {
+     "text": "$\\frac{2}{25}$",
+     "correct": false,
+     "explanation": "This simplifies the numerator from 10 to 2 without also simplifying the denominator. Dividing both parts of $\\frac{10}{25}$ by 5 gives $\\frac{2}{5}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "fc420b1e-fb5e-4709-ac1b-af6bb0d301e4",
+   "card_type": "basic",
+   "front": "A bag has 5 red counters and 1 blue counter. What is the probability of red?",
+   "back": "$\\frac{5}{6}$",
+   "options": [
+    {
+     "text": "$\\frac{5}{6}$",
+     "correct": true,
+     "explanation": "There are 6 counters altogether, and 5 of them are red. Therefore, the probability of selecting red is $\\frac{5}{6}$."
+    },
+    {
+     "text": "$\\frac{1}{6}$",
+     "correct": false,
+     "explanation": "This is the probability of selecting the single blue counter. Red has 5 favourable outcomes out of 6 counters, so its probability is $\\frac{5}{6}$."
+    },
+    {
+     "text": "$\\frac{5}{5}$",
+     "correct": false,
+     "explanation": "This uses only the five red counters as the denominator, incorrectly suggesting that every counter is red. The denominator must be the total of 6, giving $\\frac{5}{6}$."
+    },
+    {
+     "text": "$\\frac{6}{5}$",
+     "correct": false,
+     "explanation": "This reverses the required fraction, placing the total number above the number of favourable outcomes. Probability is favourable outcomes over total outcomes, so it is $\\frac{5}{6}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "ff36b276-ed3a-4368-a06f-18b0e1c4a2f4",
+   "card_type": "cloze",
+   "front": "An event and its complement have probabilities that add to [ ___ ].",
+   "back": "An event and its complement have probabilities that add to 1.",
+   "options": [
+    {
+     "text": "1",
+     "correct": true,
+     "explanation": "An event and its complement cover all possible outcomes without overlapping. Their probabilities must therefore add to 1, representing certainty."
+    },
+    {
+     "text": "0",
+     "correct": false,
+     "explanation": "A total probability of 0 represents an impossible event, not all possible outcomes. An event and its complement together are certain, so their probabilities add to 1."
+    },
+    {
+     "text": "2",
+     "correct": false,
+     "explanation": "Probabilities across all mutually exclusive possible outcomes cannot total 2. An event and its complement exhaust the sample space, so their probabilities add to 1."
+    },
+    {
+     "text": "0.5",
+     "correct": false,
+     "explanation": "A total of 0.5 would represent only half of the total probability. An event and its complement include every outcome, so their probabilities add to 1."
+    }
+   ]
+  },
+  {
+   "id": "e98a6c49-faa0-422f-b75f-4ce663da23d5",
+   "card_type": "basic",
+   "front": "A player has probability 0.7 of winning. What is the probability of not winning?",
+   "back": "0.3",
+   "options": [
+    {
+     "text": "0.3",
+     "correct": true,
+     "explanation": "Winning and not winning are complementary events, so their probabilities add to 1. Therefore, the probability of not winning is $1 - 0.7 = 0.3$."
+    },
+    {
+     "text": "0.7",
+     "correct": false,
+     "explanation": "This repeats the probability of winning rather than finding its complement. Subtracting the winning probability from 1 gives $1 - 0.7 = 0.3$."
+    },
+    {
+     "text": "1.7",
+     "correct": false,
+     "explanation": "This adds the winning probability to 1, producing a value greater than the maximum possible probability. The complement is found by $1 - 0.7 = 0.3$."
+    },
+    {
+     "text": "0.03",
+     "correct": false,
+     "explanation": "This introduces an unnecessary decimal-place shift after finding the complement. The correct subtraction is $1.0 - 0.7 = 0.3$, not 0.03."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "33b13ad6-8c2a-4dbd-b360-7882bf8cd6ec",
+   "card_type": "basic",
+   "front": "A table shows 6 red, 4 blue, 5 yellow and 3 green counters. What is the probability of not blue?",
+   "back": "$\\frac{7}{9}$",
+   "options": [
+    {
+     "text": "$\\frac{7}{9}$",
+     "correct": true,
+     "explanation": "There are 18 counters in total and 14 are not blue. Thus the probability is $\\frac{14}{18}$, which simplifies to $\\frac{7}{9}$."
+    },
+    {
+     "text": "$\\frac{2}{9}$",
+     "correct": false,
+     "explanation": "This is the probability of selecting blue, since 4 of the 18 counters are blue. The complement is $1 - \\frac{2}{9} = \\frac{7}{9}$."
+    },
+    {
+     "text": "$\\frac{7}{18}$",
+     "correct": false,
+     "explanation": "This correctly identifies 14 non-blue counters but incorrectly uses 36 rather than 18 as the total before simplifying. The correct probability is $\\frac{14}{18} = \\frac{7}{9}$."
+    },
+    {
+     "text": "$\\frac{4}{9}$",
+     "correct": false,
+     "explanation": "This uses the 4 blue counters as the numerator while retaining the simplified denominator incorrectly. There are 14 non-blue counters out of 18, giving $\\frac{7}{9}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "4c4b3528-c4ab-464e-bef2-a71cdc70395e",
+   "card_type": "basic",
+   "front": "A probability table has red 0.25, blue 0.15 and yellow 0.40. What is the missing green probability?",
+   "back": "0.20",
+   "options": [
+    {
+     "text": "0.20",
+     "correct": true,
+     "explanation": "The probabilities must total 1. The known probabilities sum to $0.25 + 0.15 + 0.40 = 0.80$, leaving $1 - 0.80 = 0.20$."
+    },
+    {
+     "text": "0.80",
+     "correct": false,
+     "explanation": "This is the sum of the three known probabilities, not the missing probability. Subtracting that sum from 1 gives $1 - 0.80 = 0.20$."
+    },
+    {
+     "text": "0.10",
+     "correct": false,
+     "explanation": "This results from an arithmetic error when subtracting the known total from 1. Since the known probabilities total 0.80, the missing probability is 0.20."
+    },
+    {
+     "text": "0.60",
+     "correct": false,
+     "explanation": "This subtracts only the red and blue probabilities and overlooks yellow. All known probabilities must be included, so $1 - 0.25 - 0.15 - 0.40 = 0.20$."
+    }
+   ],
+   "points": 2
+  }
+ ],
+ "card_count": 21,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-2-2-12-probability/flashcards",
+ "source_sha256": "ed94668012db2a6437fd3ef85b4927e9a18065e0d539a95655cea6685e4e2e4d",
+ "extracted_at": "2026-11-08T17:55:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}

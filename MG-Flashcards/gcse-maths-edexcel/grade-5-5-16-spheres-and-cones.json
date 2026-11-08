@@ -1,0 +1,616 @@
+{
+ "topic": "grade-5-5-16-spheres-and-cones",
+ "lane": "gcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "title": "Spheres and Cones Flashcards",
+ "cards": [
+  {
+   "id": "0128d10a-920f-4e1c-8c67-83c56fe5b57c",
+   "card_type": "basic",
+   "front": "What is the relationship between radius $r$ and diameter $d$?",
+   "back": "$$r = \\frac{d}{2}$",
+   "options": [
+    {
+     "text": "$$r = \\frac{d}{2}$",
+     "correct": true,
+     "explanation": "The radius runs from the centre to the circumference, while the diameter crosses the whole circle through its centre. Therefore, the radius is half the diameter."
+    },
+    {
+     "text": "$$r = 2d$",
+     "correct": false,
+     "explanation": "This reverses and enlarges the relationship. The diameter is twice the radius, so rearranging $d = 2r$ correctly gives $r = \\frac{d}{2}$."
+    },
+    {
+     "text": "$$r = \\frac{d}{4}$",
+     "correct": false,
+     "explanation": "This incorrectly divides the diameter by four. A diameter consists of exactly two radii placed end to end, so the correct relationship is $r = \\frac{d}{2}$."
+    },
+    {
+     "text": "$$r = d$",
+     "correct": false,
+     "explanation": "This treats the radius and diameter as equal lengths. The diameter spans two radii through the centre, so the correct relationship is $r = \\frac{d}{2}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "d5a846f2-4167-4fb1-862f-94355b5d11f3",
+   "card_type": "cloze",
+   "front": "To avoid losing accuracy, rounding should only be performed [ ___ ] of the calculation.",
+   "back": "To avoid losing accuracy, rounding should only be performed at the end of the calculation.",
+   "options": [
+    {
+     "text": "at the end",
+     "correct": true,
+     "explanation": "Keeping full calculator values throughout prevents small rounding errors from accumulating. Rounding only the final result gives the greatest possible accuracy for the required answer."
+    },
+    {
+     "text": "at the start",
+     "correct": false,
+     "explanation": "Rounding at the start introduces an error that affects every later step. Full-precision values should be retained, with rounding performed only at the end of the calculation."
+    },
+    {
+     "text": "at each stage",
+     "correct": false,
+     "explanation": "Repeated rounding allows errors to accumulate across several steps, potentially changing the final answer. Intermediate values should remain unrounded until the calculation is complete."
+    },
+    {
+     "text": "halfway through",
+     "correct": false,
+     "explanation": "Rounding an intermediate result reduces the accuracy of all calculations that follow it. Rounding should be delayed until the end, after the full-precision result has been found."
+    }
+   ]
+  },
+  {
+   "id": "b2f72f79-6549-43cc-bff9-b916c986116b",
+   "card_type": "basic",
+   "front": "Which measurement of a cone is used to calculate its volume?",
+   "back": "The vertical height ($h$).",
+   "options": [
+    {
+     "text": "The vertical height ($h$).",
+     "correct": true,
+     "explanation": "Cone volume uses the perpendicular distance from the base to the vertex. This vertical height appears in $V = \\frac{1}{3}\\pi r^2h$."
+    },
+    {
+     "text": "The slant height ($l$).",
+     "correct": false,
+     "explanation": "The slant height measures along the cone’s curved surface and is used for curved surface area. Volume instead requires the vertical height $h$."
+    },
+    {
+     "text": "The base diameter ($d$).",
+     "correct": false,
+     "explanation": "The standard cone volume formula uses the base radius $r$, not the diameter as its height measurement. The required height is the vertical height $h$."
+    },
+    {
+     "text": "The base circumference ($C$).",
+     "correct": false,
+     "explanation": "Base circumference is not the height used in the cone volume formula. Volume requires the perpendicular vertical height $h$, together with the base radius."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "5ac750cc-1c85-4f9f-9f50-b1b56d4f04b5",
+   "card_type": "basic",
+   "front": "Which measurement of a cone is used to calculate its curved surface area?",
+   "back": "The slant height ($l$).",
+   "options": [
+    {
+     "text": "The slant height ($l$).",
+     "correct": true,
+     "explanation": "The curved surface follows the slope from the base rim to the vertex, so its area uses the slant height in the formula $\\pi rl$."
+    },
+    {
+     "text": "The vertical height ($h$).",
+     "correct": false,
+     "explanation": "Vertical height is used for cone volume because it is perpendicular to the base. Curved surface area follows the slope, so it requires the slant height $l$."
+    },
+    {
+     "text": "The base diameter ($d$).",
+     "correct": false,
+     "explanation": "The base diameter can be converted into a radius, but it is not the cone’s required height measurement. Curved surface area uses the slant height $l$."
+    },
+    {
+     "text": "The base circumference ($C$).",
+     "correct": false,
+     "explanation": "The base circumference does not describe the length of the cone’s curved slope. The required measurement for curved surface area is the slant height $l$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "3f94a89c-b229-4179-9f45-1878ef25afd2",
+   "card_type": "cloze",
+   "front": "The volume of a cone is calculated using the formula $V = \\text{[...]}$.",
+   "back": "The volume of a cone is calculated using the formula $V = \\boxed{\\frac{1}{3}\\pi r^2 h}$.",
+   "options": [
+    {
+     "text": "$$\\frac{1}{3}\\pi r^2 h$",
+     "correct": true,
+     "explanation": "A cone has one-third the volume of a cylinder with the same circular base and vertical height. Therefore, its volume is $\\frac{1}{3}\\pi r^2h$."
+    },
+    {
+     "text": "$$\\pi r^2 h$",
+     "correct": false,
+     "explanation": "This is the volume formula for a cylinder, not a cone. A cone occupies one-third of the corresponding cylinder, giving $V = \\frac{1}{3}\\pi r^2h$."
+    },
+    {
+     "text": "$$\\frac{1}{2}\\pi r^2 h$",
+     "correct": false,
+     "explanation": "Using one-half confuses the cone’s volume factor with formulas involving triangular cross-sections. A cone has one-third of the matching cylinder’s volume, so the factor is $\\frac{1}{3}$."
+    },
+    {
+     "text": "$$\\frac{1}{3}\\pi r h$",
+     "correct": false,
+     "explanation": "This fails to square the radius when finding the circular base area. Since the base area is $\\pi r^2$, the volume is $\\frac{1}{3}\\pi r^2h$."
+    }
+   ]
+  },
+  {
+   "id": "3a226d99-f6fb-4c13-aac8-4f723681c30d",
+   "card_type": "cloze",
+   "front": "The volume of a sphere is calculated using the formula $V = \\text{[...]}$.",
+   "back": "The volume of a sphere is calculated using the formula $V = \\boxed{\\frac{4}{3}\\pi r^3}$.",
+   "options": [
+    {
+     "text": "$$\\frac{4}{3}\\pi r^3$",
+     "correct": true,
+     "explanation": "The volume of a sphere depends on the cube of its radius because volume is three-dimensional. Its exact formula is $V = \\frac{4}{3}\\pi r^3$."
+    },
+    {
+     "text": "$$4\\pi r^2$",
+     "correct": false,
+     "explanation": "This is the surface area of a sphere and uses square units, not cubic units. Sphere volume is calculated using $V = \\frac{4}{3}\\pi r^3$."
+    },
+    {
+     "text": "$$\\frac{2}{3}\\pi r^3$",
+     "correct": false,
+     "explanation": "This gives half the required volume and is the formula for a hemisphere. A complete sphere has volume $V = \\frac{4}{3}\\pi r^3$."
+    },
+    {
+     "text": "$$\\frac{3}{4}\\pi r^3$",
+     "correct": false,
+     "explanation": "This reverses the fraction in the sphere volume formula. The correct coefficient is $\\frac{4}{3}$, so the volume is $V = \\frac{4}{3}\\pi r^3$."
+    }
+   ]
+  },
+  {
+   "id": "305d213b-167f-48e7-b4bd-6dadfbba4e07",
+   "card_type": "basic",
+   "front": "What is the volume of a hemisphere in terms of $r$?",
+   "back": "$$\\frac{2}{3}\\pi r^3$",
+   "options": [
+    {
+     "text": "$$\\frac{2}{3}\\pi r^3$",
+     "correct": true,
+     "explanation": "A hemisphere is exactly half a sphere. Halving the sphere volume $\\frac{4}{3}\\pi r^3$ gives $\\frac{2}{3}\\pi r^3$."
+    },
+    {
+     "text": "$$\\frac{4}{3}\\pi r^3$",
+     "correct": false,
+     "explanation": "This is the volume of a complete sphere. A hemisphere is half of that volume, so its volume is $\\frac{2}{3}\\pi r^3$."
+    },
+    {
+     "text": "$$\\frac{1}{3}\\pi r^3$",
+     "correct": false,
+     "explanation": "This incorrectly quarters the full sphere formula rather than halving it. A hemisphere is half a sphere, giving $\\frac{2}{3}\\pi r^3$."
+    },
+    {
+     "text": "$$2\\pi r^3$",
+     "correct": false,
+     "explanation": "This multiplies the coefficient incorrectly when halving the sphere’s volume. Half of $\\frac{4}{3}$ is $\\frac{2}{3}$, so the result is $\\frac{2}{3}\\pi r^3$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "8c60f254-ed80-44b3-b534-4bae336d7f84",
+   "card_type": "basic",
+   "front": "What does the formula $\\pi rl$ represent for a cone?",
+   "back": "The curved surface area.",
+   "options": [
+    {
+     "text": "The curved surface area.",
+     "correct": true,
+     "explanation": "For a cone, multiplying $\\pi$, the base radius $r$, and the slant height $l$ gives the area of the curved surface only."
+    },
+    {
+     "text": "The total surface area.",
+     "correct": false,
+     "explanation": "Total surface area must also include the circular base area $\\pi r^2$. Therefore, $\\pi rl$ alone represents only the curved surface area."
+    },
+    {
+     "text": "The circular base area.",
+     "correct": false,
+     "explanation": "The circular base has area $\\pi r^2$ and does not involve the slant height. The formula $\\pi rl$ represents the cone’s curved surface area."
+    },
+    {
+     "text": "The volume of the cone.",
+     "correct": false,
+     "explanation": "Volume uses the vertical height and has formula $\\frac{1}{3}\\pi r^2h$. The expression $\\pi rl$ instead calculates the cone’s curved surface area."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "681c8362-35bf-4426-82e4-9e406d5e226c",
+   "card_type": "basic",
+   "front": "How is the total surface area of a solid cone calculated?",
+   "back": "Curved surface area ($\\pi rl$)Base area ($\\pi r^2$)",
+   "options": [
+    {
+     "text": "Curved surface area ($\\pi rl$)Base area ($\\pi r^2$)",
+     "correct": true,
+     "explanation": "A solid cone has a curved surface and a circular base. Adding $\\pi rl$ and $\\pi r^2$ gives its total surface area."
+    },
+    {
+     "text": "Curved surface area ($\\pi r^2$)Base area ($\\pi rl$)",
+     "correct": false,
+     "explanation": "This swaps the two formulae. The curved surface area is $\\pi rl$, while the circular base has area $\\pi r^2$; these must be added."
+    },
+    {
+     "text": "Curved surface area ($2\\pi rl$)Base area ($\\pi r^2$)",
+     "correct": false,
+     "explanation": "The curved surface has been incorrectly doubled. A cone's curved surface area is $\\pi rl$, and adding the base area $\\pi r^2$ gives the total."
+    },
+    {
+     "text": "Curved surface area ($\\pi rl$)Base area ($2\\pi r^2$)",
+     "correct": false,
+     "explanation": "The circular base has been counted twice. There is one base with area $\\pi r^2$, which is added to the curved surface area $\\pi rl$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "8925e289-0200-450f-83ee-03ba73973187",
+   "card_type": "basic",
+   "front": "What is the surface area of a sphere?",
+   "back": "$$4\\pi r^2$",
+   "options": [
+    {
+     "text": "$$4\\pi r^2$",
+     "correct": true,
+     "explanation": "The surface area of a sphere is four times the area of a circle with the same radius, so the formula is $4\\pi r^2$."
+    },
+    {
+     "text": "$$\\pi r^2$",
+     "correct": false,
+     "explanation": "This is the area of a single circle, not the surface area of a sphere. A sphere's complete surface area is $4\\pi r^2$."
+    },
+    {
+     "text": "$$2\\pi r^2$",
+     "correct": false,
+     "explanation": "This is the curved surface area of a hemisphere. A complete sphere has twice that curved area, giving $4\\pi r^2$."
+    },
+    {
+     "text": "$$4\\pi r^3$",
+     "correct": false,
+     "explanation": "Using $r^3$ produces cubic units, which measure volume rather than area. Surface area requires square units, and the correct formula is $4\\pi r^2$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "d64365b0-75a9-4e72-86ee-52e06571ac71",
+   "card_type": "cloze",
+   "front": "The total surface area of a solid hemisphere is $\\text{[...]}$.",
+   "back": "The total surface area of a solid hemisphere is $\\boxed{3\\pi r^2}$.",
+   "options": [
+    {
+     "text": "$$3\\pi r^2$",
+     "correct": true,
+     "explanation": "A solid hemisphere includes curved area $2\\pi r^2$ and a circular base of area $\\pi r^2$. Their sum is $3\\pi r^2$."
+    },
+    {
+     "text": "$$2\\pi r^2$",
+     "correct": false,
+     "explanation": "This includes only the hemisphere's curved surface and omits its flat circular base. Adding the base area $\\pi r^2$ gives $3\\pi r^2$."
+    },
+    {
+     "text": "$$4\\pi r^2$",
+     "correct": false,
+     "explanation": "This is the surface area of a complete sphere. A solid hemisphere has half that curved area plus one circular base, giving $3\\pi r^2$."
+    },
+    {
+     "text": "$$\\frac{4}{3}\\pi r^2$",
+     "correct": false,
+     "explanation": "The coefficient $\\frac{4}{3}$ is associated with the sphere volume formula, not hemisphere surface area. Adding curved and base areas gives $3\\pi r^2$."
+    }
+   ]
+  },
+  {
+   "id": "2f96571f-9c4c-4ecb-8335-b0b47c56087e",
+   "card_type": "basic",
+   "front": "Why does a solid hemisphere have a total surface area of $3\\pi r^2$?",
+   "back": "It combines the curved surface ($2\\pi r^2$) and the flat circular base ($\\pi r^2$).",
+   "options": [
+    {
+     "text": "It combines the curved surface ($2\\pi r^2$) and the flat circular base ($\\pi r^2$).",
+     "correct": true,
+     "explanation": "Half a sphere has curved area $2\\pi r^2$, and its exposed circular base has area $\\pi r^2$. Together these total $3\\pi r^2$."
+    },
+    {
+     "text": "It combines the curved surface ($\\pi r^2$) and the flat circular base ($2\\pi r^2$).",
+     "correct": false,
+     "explanation": "The component areas have been reversed. The curved hemisphere contributes $2\\pi r^2$, while its single flat circular base contributes $\\pi r^2$."
+    },
+    {
+     "text": "It combines the curved surface ($4\\pi r^2$) and the flat circular base ($\\pi r^2$).",
+     "correct": false,
+     "explanation": "The curved area shown is for a complete sphere, not a hemisphere. Halving it gives $2\\pi r^2$, then the base adds $\\pi r^2$."
+    },
+    {
+     "text": "It combines the curved surface ($2\\pi r^2$) and the flat circular base ($2\\pi r^2$).",
+     "correct": false,
+     "explanation": "The flat base has been doubled. It is one circle with area $\\pi r^2$, so adding it to $2\\pi r^2$ gives $3\\pi r^2$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "4a3f0a41-60d2-46fd-b089-e5689a7b013d",
+   "card_type": "cloze",
+   "front": "In a cone, the relationship between slant height ($l$), vertical height ($h$), and radius ($r$) is $\\text{[...]}$.",
+   "back": "In a cone, the relationship between slant height ($l$), vertical height ($h$), and radius ($r$) is $\\boxed{l^2 = h^2 + r^2}$.",
+   "options": [
+    {
+     "text": "$$l^2 = h^2 + r^2$",
+     "correct": true,
+     "explanation": "The vertical height and radius are perpendicular sides of a right-angled triangle, while the slant height is its hypotenuse. Pythagoras therefore gives $l^2=h^2+r^2$."
+    },
+    {
+     "text": "$$h^2 = l^2 + r^2$",
+     "correct": false,
+     "explanation": "This incorrectly treats the vertical height as the hypotenuse. The slant height is opposite the right angle, so the correct relationship is $l^2=h^2+r^2$."
+    },
+    {
+     "text": "$$r^2 = h^2 + l^2$",
+     "correct": false,
+     "explanation": "This incorrectly treats the radius as the hypotenuse. The slant height is the longest side of the right-angled triangle, giving $l^2=h^2+r^2$."
+    },
+    {
+     "text": "$$l = h + r$",
+     "correct": false,
+     "explanation": "Pythagoras requires the squares of the perpendicular sides to be added, not their lengths directly. The correct relationship is $l^2=h^2+r^2$."
+    }
+   ]
+  },
+  {
+   "id": "dbdd4d08-2a38-4930-8065-d6144310bae3",
+   "card_type": "basic",
+   "front": "What theorem is used to find the slant height of a cone if only the vertical height and radius are known?",
+   "back": "Pythagoras' theorem.",
+   "options": [
+    {
+     "text": "Pythagoras' theorem.",
+     "correct": true,
+     "explanation": "A cone's vertical height and radius meet at a right angle, with the slant height forming the hypotenuse. Pythagoras' theorem therefore finds the slant height."
+    },
+    {
+     "text": "Cosine rule.",
+     "correct": false,
+     "explanation": "The cosine rule is mainly needed for non-right-angled triangles or when an included angle is known. Here, the right angle makes Pythagoras' theorem the direct method."
+    },
+    {
+     "text": "Sine rule.",
+     "correct": false,
+     "explanation": "The sine rule requires known angles and opposite sides, which are not provided here. The height and radius are perpendicular, so Pythagoras' theorem applies."
+    },
+    {
+     "text": "Circle theorem.",
+     "correct": false,
+     "explanation": "Circle theorems determine angles in circles and do not relate the three side lengths here. The cone's cross-section forms a right-angled triangle, so use Pythagoras' theorem."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "09434e4c-f110-4dd4-9f62-75af15d7b045",
+   "card_type": "basic",
+   "front": "How do you calculate the total volume of a compound solid?",
+   "back": "Add the volumes of the individual shapes together.",
+   "options": [
+    {
+     "text": "Add the volumes of the individual shapes together.",
+     "correct": true,
+     "explanation": "A compound solid is formed from multiple component solids. Calculate each component's volume using its appropriate formula, then add those volumes to obtain the total."
+    },
+    {
+     "text": "Subtract the volumes of the individual shapes together.",
+     "correct": false,
+     "explanation": "Subtraction is used only when a section is removed or hollowed out. For joined component shapes, add their individual volumes to find the total volume."
+    },
+    {
+     "text": "Multiply the volumes of the individual shapes together.",
+     "correct": false,
+     "explanation": "Multiplying volumes produces incorrect units and does not measure the combined space occupied. The total volume is found by adding the component volumes."
+    },
+    {
+     "text": "Average the volumes of the individual shapes together.",
+     "correct": false,
+     "explanation": "An average gives a typical component volume, not the space occupied by the complete solid. Add all the individual volumes to find the total."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "ada11926-cba6-4476-a71a-330f29024c58",
+   "card_type": "basic",
+   "front": "What does it mean to give an answer \"in terms of $\\pi$\"?",
+   "back": "Leave the symbol $\\pi$ in the final answer instead of converting to a decimal.",
+   "options": [
+    {
+     "text": "Leave the symbol $\\pi$ in the final answer instead of converting to a decimal.",
+     "correct": true,
+     "explanation": "An answer in terms of $\\pi$ keeps $\\pi$ as an exact symbol, usually multiplied by a number, rather than replacing it with a rounded decimal value."
+    },
+    {
+     "text": "Replace the symbol $\\pi$ with $3.14$ and give the final answer as a decimal.",
+     "correct": false,
+     "explanation": "Using $3.14$ creates a decimal approximation and removes $\\pi$. An answer in terms of $\\pi$ must retain the symbol in the final exact answer."
+    },
+    {
+     "text": "Use the symbol $\\pi$ while working, then convert the final answer to a decimal.",
+     "correct": false,
+     "explanation": "Converting at the end still produces a decimal approximation rather than an answer in terms of $\\pi$. The final answer itself must keep the $\\pi$ symbol."
+    },
+    {
+     "text": "Replace the symbol $\\pi$ with the calculator value and round the final answer.",
+     "correct": false,
+     "explanation": "Using the calculator value produces a rounded numerical approximation. To answer in terms of $\\pi$, leave $\\pi$ unchanged in the exact final expression."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "3fb90556-05d1-41fe-ba99-08156e130266",
+   "card_type": "cloze",
+   "front": "When a solid is fully submerged, the rise in water level = $\\text{[...]}$.",
+   "back": "When a solid is fully submerged, the rise in water level = $\\boxed{\\frac{\\text{volume of solid}}{\\text{area of container base}}}$.",
+   "options": [
+    {
+     "text": "$$\\frac{\\text{volume of solid}}{\\text{area of container base}}$",
+     "correct": true,
+     "explanation": "The displaced volume equals the solid’s volume. Since a prism-shaped container has volume equal to base area multiplied by height, the rise is volume divided by base area."
+    },
+    {
+     "text": "$$\\frac{\\text{area of container base}}{\\text{volume of solid}}$",
+     "correct": false,
+     "explanation": "This reverses the required division and does not produce a measurement of length. The rise is the volume of the solid divided by the area of the container base."
+    },
+    {
+     "text": "$$\\frac{\\text{surface area of solid}}{\\text{area of container base}}$",
+     "correct": false,
+     "explanation": "This incorrectly uses the solid’s surface area rather than its displaced volume. The water-level rise equals the volume of the solid divided by the container’s base area."
+    },
+    {
+     "text": "$$\\frac{\\text{volume of solid}}{\\text{perimeter of container base}}$",
+     "correct": false,
+     "explanation": "Dividing by the base perimeter is a common confusion between perimeter and area. The rise is found by dividing the solid’s volume by the container’s base area."
+    }
+   ]
+  },
+  {
+   "id": "37d9d04e-b9ca-4f73-9ef0-8f17662e927c",
+   "card_type": "basic",
+   "front": "How does the volume of a submerged solid relate to the water it displaces?",
+   "back": "The volume of the solid equals the volume of the water displaced.",
+   "options": [
+    {
+     "text": "The volume of the solid equals the volume of the water displaced.",
+     "correct": true,
+     "explanation": "A fully submerged solid takes up space that the water previously occupied, so it displaces a volume of water exactly equal to its own volume."
+    },
+    {
+     "text": "The volume of the solid is twice the volume of the water displaced.",
+     "correct": false,
+     "explanation": "Submersion does not introduce a factor of two. A fully submerged solid displaces a volume of water exactly equal to the volume of the solid."
+    },
+    {
+     "text": "The volume of the solid is half the volume of the water displaced.",
+     "correct": false,
+     "explanation": "Halving the displaced volume confuses full submersion with partial submersion. When the solid is fully submerged, its volume equals the volume of water displaced."
+    },
+    {
+     "text": "The volume of the solid exceeds the volume of the water displaced.",
+     "correct": false,
+     "explanation": "A fully submerged object cannot occupy more volume than the water it displaces. Its entire volume replaces an equal volume of water, regardless of its density."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "781faf28-9c1b-402f-a292-05493330cc72",
+   "card_type": "basic",
+   "front": "What operation is used to find the radius of a sphere if the volume is known?",
+   "back": "A cube root.",
+   "options": [
+    {
+     "text": "A cube root.",
+     "correct": true,
+     "explanation": "The sphere formula contains $r^3$, so after rearranging to isolate $r^3$, taking the cube root gives the radius."
+    },
+    {
+     "text": "A square root.",
+     "correct": false,
+     "explanation": "A square root would undo $r^2$, which appears in area formulas. Sphere volume contains $r^3$, so the radius is found using a cube root."
+    },
+    {
+     "text": "A division by three.",
+     "correct": false,
+     "explanation": "Dividing by three does not undo a power of three. After rearranging the sphere’s volume formula, a cube root is needed to recover the radius."
+    },
+    {
+     "text": "A multiplication by three.",
+     "correct": false,
+     "explanation": "Multiplying by three confuses an exponent with a coefficient. Since the volume formula contains the radius cubed, the final operation is a cube root."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "618f4cb8-8e6c-4d04-8027-d78ee634a261",
+   "card_type": "cloze",
+   "front": "In cone formulas, $l$ represents the [ ___ ] and $h$ represents the vertical height.",
+   "back": "In cone formulas, $l$ represents the slant height and $h$ represents the vertical height.",
+   "options": [
+    {
+     "text": "slant height",
+     "correct": true,
+     "explanation": "In cone formulas, $l$ is the distance along the cone’s sloping surface from the rim to the apex, so it represents the slant height."
+    },
+    {
+     "text": "vertical height",
+     "correct": false,
+     "explanation": "The vertical height is represented by $h$, not $l$. The symbol $l$ denotes the slant height measured along the cone’s sloping side."
+    },
+    {
+     "text": "base radius",
+     "correct": false,
+     "explanation": "The base radius is normally represented by $r$. In cone formulas, $l$ denotes the slant height from the edge of the circular base to the apex."
+    },
+    {
+     "text": "base diameter",
+     "correct": false,
+     "explanation": "The base diameter is twice the radius and is not represented by $l$. The symbol $l$ denotes the cone’s slant height."
+    }
+   ]
+  },
+  {
+   "id": "448ca647-0ec4-4ed7-9dc1-f70b2fd383ca",
+   "card_type": "cloze",
+   "front": "In cone formulas, $l$ represents the slant height and $h$ represents the [ ___ ].",
+   "back": "In cone formulas, $l$ represents the slant height and $h$ represents the vertical height.",
+   "options": [
+    {
+     "text": "vertical height",
+     "correct": true,
+     "explanation": "In cone formulas, $h$ is the perpendicular distance from the centre of the circular base to the apex, so it represents the vertical height."
+    },
+    {
+     "text": "slant height",
+     "correct": false,
+     "explanation": "The slant height is represented by $l$, not $h$. The symbol $h$ denotes the perpendicular vertical height from the base to the apex."
+    },
+    {
+     "text": "base radius",
+     "correct": false,
+     "explanation": "The base radius is represented by $r$, while $h$ denotes the cone’s vertical height measured perpendicularly from the base to the apex."
+    },
+    {
+     "text": "base diameter",
+     "correct": false,
+     "explanation": "The base diameter is twice the radius and is not represented by $h$. In cone formulas, $h$ denotes the perpendicular vertical height."
+    }
+   ]
+  }
+ ],
+ "card_count": 21,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-5-5-16-spheres-and-cones/flashcards",
+ "source_sha256": "4bffd9919cce4f1a53b0c3a2272314aca21b1daca244ec7356207a4aee6efce1",
+ "extracted_at": "2026-11-08T17:55:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}

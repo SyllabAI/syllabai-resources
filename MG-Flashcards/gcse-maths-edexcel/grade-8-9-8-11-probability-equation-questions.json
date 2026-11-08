@@ -1,0 +1,479 @@
+{
+ "topic": "grade-8-9-8-11-probability-equation-questions",
+ "lane": "gcse-maths-edexcel",
+ "grade": "8",
+ "tier": null,
+ "title": "Probability Equation Questions Flashcards",
+ "cards": [
+  {
+   "id": "9edf4eba-7108-405f-be52-5592d59d75d3",
+   "card_type": "basic",
+   "front": "Why do we multiply probabilities when a question asks for \"both counters are blue\"?",
+   "back": "Because the outcome requires the first counter is blue and the second counter is blue.",
+   "options": [
+    {
+     "text": "Because the outcome requires the first counter is blue and the second counter is blue.",
+     "correct": true,
+     "explanation": "Multiplication finds the probability of two events occurring together. The word “and” means both the first and second counter must be blue, so their probabilities are multiplied."
+    },
+    {
+     "text": "Because the outcome requires the first counter is blue or the second counter is blue.",
+     "correct": false,
+     "explanation": "Treating “both” as “or” confuses a joint event with alternative events. Both picks must be blue, so the first-blue and second-blue probabilities are multiplied."
+    },
+    {
+     "text": "Because the outcome requires the first counter is blue minus the second counter is blue.",
+     "correct": false,
+     "explanation": "Subtracting probabilities does not calculate two successive events both occurring. The requirement is first blue and second blue, so the relevant probabilities must be multiplied."
+    },
+    {
+     "text": "Because the outcome requires the first counter is blue added to the second counter is blue.",
+     "correct": false,
+     "explanation": "Adding is associated with mutually exclusive alternative outcomes, not two outcomes occurring together. Since both counters must be blue, multiply the probabilities for the two picks."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "2d192702-5d0a-4d34-b6d5-dd5e05316b4b",
+   "card_type": "basic",
+   "front": "In \"with replacement\" problems, how does the total number of counters change for the second pick?",
+   "back": "It stays the same (the counter is put back).",
+   "options": [
+    {
+     "text": "It stays the same (the counter is put back).",
+     "correct": true,
+     "explanation": "Replacement returns the selected counter to the bag before the second pick. Therefore, the second pick is made from the same total number of counters as the first."
+    },
+    {
+     "text": "It becomes one less (the counter is kept out).",
+     "correct": false,
+     "explanation": "Reducing the total by one describes sampling without replacement. With replacement, the selected counter is returned, so the total stays the same for the second pick."
+    },
+    {
+     "text": "It becomes one more (another counter is put in).",
+     "correct": false,
+     "explanation": "Replacement means returning the counter that was selected, not adding an extra counter. Consequently, the total remains the same rather than increasing by one."
+    },
+    {
+     "text": "It becomes twice as large (the counters are doubled).",
+     "correct": false,
+     "explanation": "Replacement does not duplicate the counters; it simply returns the selected one. The total number available for the second pick is therefore unchanged."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "4ae37d94-17b2-44c7-9253-7b9af78a9ac9",
+   "card_type": "basic",
+   "front": "If a bag has $x$ counters and one is taken without replacement, what is the new total for the second pick?",
+   "back": "$$x - 1$",
+   "options": [
+    {
+     "text": "$$x - 1$",
+     "correct": true,
+     "explanation": "Without replacement, the selected counter remains outside the bag. Starting with $x$ counters therefore leaves $x - 1$ counters available for the second pick."
+    },
+    {
+     "text": "$$x + 1$",
+     "correct": false,
+     "explanation": "Adding one reverses the effect of removing a counter and would incorrectly increase the total. Without replacement, one counter is removed, leaving $x - 1$."
+    },
+    {
+     "text": "$$x$",
+     "correct": false,
+     "explanation": "Keeping the total at $x$ assumes that the selected counter was replaced. Since it is not returned, the total for the second pick is $x - 1$."
+    },
+    {
+     "text": "$$2x$",
+     "correct": false,
+     "explanation": "Doubling the original total has no connection to taking one counter from the bag. Without replacement, exactly one is removed, so the new total is $x - 1$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "f0c188ab-b9c7-41f1-a531-4d1ecb2927b7",
+   "card_type": "basic",
+   "front": "A bag has 3 red and $x$ blue counters. What is the probability that the first pick is blue?",
+   "back": "$$\\frac{x}{x+3}$",
+   "options": [
+    {
+     "text": "$$\\frac{x}{x+3}$",
+     "correct": true,
+     "explanation": "There are $x$ blue counters out of $x+3$ counters altogether. Probability is favourable outcomes divided by total outcomes, giving $\\frac{x}{x+3}$."
+    },
+    {
+     "text": "$$\\frac{3}{x+3}$",
+     "correct": false,
+     "explanation": "Using 3 as the numerator calculates the probability of selecting a red counter. For blue, there are $x$ favourable counters out of $x+3$, giving $\\frac{x}{x+3}$."
+    },
+    {
+     "text": "$$\\frac{x}{3}$",
+     "correct": false,
+     "explanation": "The denominator must be the total number of counters, not the number of red counters. The total is $x+3$, so the blue probability is $\\frac{x}{x+3}$."
+    },
+    {
+     "text": "$$\\frac{x+3}{x}$",
+     "correct": false,
+     "explanation": "This reverses favourable outcomes and total outcomes, producing a value greater than 1 when $x$ is positive. The correct probability is $\\frac{x}{x+3}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "c317b769-cfec-4dab-9df6-713255556e27",
+   "card_type": "basic",
+   "front": "A bag has 3 red and $x$ blue counters. If the first pick was blue and not replaced, what is the probability the second pick is blue?",
+   "back": "$$\\frac{x-1}{x+2}$",
+   "options": [
+    {
+     "text": "$$\\frac{x-1}{x+2}$",
+     "correct": true,
+     "explanation": "After one blue counter is removed, $x-1$ blue counters remain. The total also falls from $x+3$ to $x+2$, so the probability is $\\frac{x-1}{x+2}$."
+    },
+    {
+     "text": "$$\\frac{x}{x+3}$",
+     "correct": false,
+     "explanation": "This incorrectly uses the original numbers as though the first counter were replaced. Without replacement, both the blue count and total decrease by one, giving $\\frac{x-1}{x+2}$."
+    },
+    {
+     "text": "$$\\frac{x-1}{x+3}$",
+     "correct": false,
+     "explanation": "Only reducing the blue numerator overlooks that the total number of counters also decreases. After the first blue pick, the correct denominator is $x+2$, giving $\\frac{x-1}{x+2}$."
+    },
+    {
+     "text": "$$\\frac{x}{x+2}$",
+     "correct": false,
+     "explanation": "Only reducing the denominator overlooks that one blue counter has been removed. The remaining blue count is $x-1$, so the correct probability is $\\frac{x-1}{x+2}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "d4ced2e9-879f-44ee-83ba-8ad9d74da59d",
+   "card_type": "basic",
+   "front": "If the ratio of red to blue counters is $3:1$, how should you represent the counts algebraically using a multiplier $k$?",
+   "back": "Red: $3k$Blue: $k$",
+   "options": [
+    {
+     "text": "Red: $3k$Blue: $k$",
+     "correct": true,
+     "explanation": "A $3:1$ ratio means the red count has three equal parts and the blue count has one. Multiplying each part by $k$ gives $3k$ red and $k$ blue."
+    },
+    {
+     "text": "Red: $k$Blue: $3k$",
+     "correct": false,
+     "explanation": "This reverses the order of the ratio and represents red to blue as $1:3$. For a $3:1$ ratio, the counts must be $3k$ red and $k$ blue."
+    },
+    {
+     "text": "Red: $3+k$Blue: $1+k$",
+     "correct": false,
+     "explanation": "Adding the same number does not generally preserve a $3:1$ ratio. Ratio parts must be scaled by a common multiplier, producing $3k$ red and $k$ blue."
+    },
+    {
+     "text": "Red: $4k$Blue: $k$",
+     "correct": false,
+     "explanation": "Using $4k$ for red confuses the total number of ratio parts with the red count. Red has three parts, so the counts are $3k$ red and $k$ blue."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "00276559-2272-4db2-ae04-289b21643f26",
+   "card_type": "basic",
+   "front": "If the ratio of red to blue counters is $3:1$, what is the algebraic expression for the total number of counters?",
+   "back": "$$4k$",
+   "options": [
+    {
+     "text": "$$4k$",
+     "correct": true,
+     "explanation": "The ratio contains three red parts and one blue part, making four equal parts altogether. Each part represents $k$ counters, so the total is $4k$."
+    },
+    {
+     "text": "$$3k$",
+     "correct": false,
+     "explanation": "This counts only the three red parts and omits the one blue part. Adding all ratio parts gives $3k+k=4k$ counters in total."
+    },
+    {
+     "text": "$$k$",
+     "correct": false,
+     "explanation": "This represents only one ratio part rather than the complete collection. The $3:1$ ratio contains four parts altogether, so the total is $4k$."
+    },
+    {
+     "text": "$$3k^2$",
+     "correct": false,
+     "explanation": "Multiplying the red and blue expressions creates $3k^2$, but totals are found by addition. Adding $3k$ and $k$ gives a total of $4k$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "a6b0d8b6-0bb0-45ba-9be4-071102049835",
+   "card_type": "basic",
+   "front": "Why must you always use the positive square root when solving for numbers of counters or probabilities?",
+   "back": "The number of counters and probabilities cannot be negative.",
+   "options": [
+    {
+     "text": "The number of counters and probabilities cannot be negative.",
+     "correct": true,
+     "explanation": "Counter totals represent physical quantities, while probabilities lie between 0 and 1. A negative root is therefore invalid in this context, leaving only the positive square root."
+    },
+    {
+     "text": "The number of counters and probabilities cannot be positive.",
+     "correct": false,
+     "explanation": "This reverses the relevant restriction: valid counter totals are non-negative, and probabilities range from 0 to 1. Therefore, the positive root is used and the negative root rejected."
+    },
+    {
+     "text": "The number of counters and probabilities must be negative.",
+     "correct": false,
+     "explanation": "Negative values cannot represent a number of counters or a probability. When an equation produces positive and negative roots, only the positive root is meaningful in this setting."
+    },
+    {
+     "text": "The number of counters and probabilities can have either sign.",
+     "correct": false,
+     "explanation": "Although algebraic equations may have roots with either sign, the context restricts possible solutions. Counts and probabilities cannot be negative, so only the positive root is accepted."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "9bd18dac-031e-4580-b128-777629832fa5",
+   "card_type": "basic",
+   "front": "A quadratic for total counters $n$ gives $n = 21$ and $n = 4$. If there are 6 red counters in the bag, why is $n = 4$ rejected?",
+   "back": "The total number of counters cannot be less than the number of red counters already known to be inside.",
+   "options": [
+    {
+     "text": "The total number of counters cannot be less than the number of red counters already known to be inside.",
+     "correct": true,
+     "explanation": "There are already 6 red counters, so the bag must contain at least 6 counters altogether. Since 4 is less than 6, that root is impossible."
+    },
+    {
+     "text": "The total number of counters cannot be greater than the number of red counters already known to be inside.",
+     "correct": false,
+     "explanation": "This reverses the required inequality: the total can exceed the number of red counters. The root 4 is rejected because the total cannot be less than the 6 red counters."
+    },
+    {
+     "text": "The total number of counters cannot be equal to the number of red counters already known to be inside.",
+     "correct": false,
+     "explanation": "A bag could contain only red counters, so equality is possible in principle. Here, 4 is rejected because it is less than the 6 red counters already present."
+    },
+    {
+     "text": "The total number of counters cannot be double the number of red counters already known to be inside.",
+     "correct": false,
+     "explanation": "There is no rule preventing the total from being twice the red count. The relevant restriction is that the total cannot be below the 6 known red counters."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "8521c11c-2c5d-4b95-995a-dddf012c8e18",
+   "card_type": "basic",
+   "front": "In a ratio of red:blue = $3:2$, what is the initial probability of picking a blue counter?",
+   "back": "$$\\frac{2k}{5k}$ (which simplifies to $\\frac{2}{5}$)",
+   "options": [
+    {
+     "text": "$$\\frac{2k}{5k}$ (which simplifies to $\\frac{2}{5}$)",
+     "correct": true,
+     "explanation": "The ratio gives $3k$ red and $2k$ blue counters, making $5k$ counters altogether. Therefore, the probability of blue is $\\frac{2k}{5k}=\\frac{2}{5}$."
+    },
+    {
+     "text": "$$\\frac{3k}{5k}$ (which simplifies to $\\frac{3}{5}$)",
+     "correct": false,
+     "explanation": "This uses the red part of the ratio as the numerator, so it gives the probability of red. Blue accounts for $2k$ of the $5k$ counters, giving $\\frac{2}{5}$."
+    },
+    {
+     "text": "$$\\frac{2k}{3k}$ (which simplifies to $\\frac{2}{3}$)",
+     "correct": false,
+     "explanation": "This divides the number of blue counters by the number of red counters rather than by the total. Probability requires $2k$ over $5k$, giving $\\frac{2}{5}$."
+    },
+    {
+     "text": "$$\\frac{2k}{7k}$ (which simplifies to $\\frac{2}{7}$)",
+     "correct": false,
+     "explanation": "This incorrectly multiplies or combines the ratio parts to produce a total of $7k$. The actual total is $3k+2k=5k$, so the probability is $\\frac{2}{5}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "688acf54-e68e-4542-859f-07ab264a03f2",
+   "card_type": "basic",
+   "front": "In a ratio of red:blue = $3:2$, if one blue counter is removed, what is the probability the second counter is blue?",
+   "back": "$$\\frac{2k-1}{5k-1}$",
+   "options": [
+    {
+     "text": "$$\\frac{2k-1}{5k-1}$",
+     "correct": true,
+     "explanation": "Removing one blue counter leaves $2k-1$ blue counters and reduces the total from $5k$ to $5k-1$. Their ratio gives the second-counter probability."
+    },
+    {
+     "text": "$$\\frac{2k}{5k-1}$",
+     "correct": false,
+     "explanation": "This reduces the total but forgets that the removed counter was blue. Both the blue count and total decrease by 1, so the probability is $\\frac{2k-1}{5k-1}$."
+    },
+    {
+     "text": "$$\\frac{2k-1}{5k}$",
+     "correct": false,
+     "explanation": "This reduces the blue count but incorrectly keeps the original total. Without replacement, one counter has left the bag, so the denominator must also become $5k-1$."
+    },
+    {
+     "text": "$$\\frac{3k}{5k-1}$",
+     "correct": false,
+     "explanation": "This uses the number of red counters as the numerator, confusing the requested colour. After one blue is removed, the blue probability is $\\frac{2k-1}{5k-1}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "d7f013ee-1418-422e-bfa7-99eeda6af6a7",
+   "card_type": "basic",
+   "front": "A bag has $n$ counters. 6 are red and the rest are blue. What is the algebraic expression for the number of blue counters?",
+   "back": "$$n - 6$",
+   "options": [
+    {
+     "text": "$$n - 6$",
+     "correct": true,
+     "explanation": "The total $n$ consists of 6 red counters plus the blue counters. Subtracting the 6 red counters from the total leaves $n-6$ blue counters."
+    },
+    {
+     "text": "$$n + 6$",
+     "correct": false,
+     "explanation": "Adding 6 counts the red counters on top of a total that already includes them. The number of blue counters is found by subtracting: $n-6$."
+    },
+    {
+     "text": "$$6 - n$",
+     "correct": false,
+     "explanation": "This subtraction is reversed and would be negative whenever the bag contains more than 6 counters. Blue counters equal the total minus the red counters, so the expression is $n-6$."
+    },
+    {
+     "text": "$$\\frac{n}{6}$",
+     "correct": false,
+     "explanation": "Dividing by 6 would only be relevant if the counters were split into six equal groups. Here, remove the 6 red counters from the total, giving $n-6$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "6ba41956-20b3-42ef-b554-e751598b230b",
+   "card_type": "basic",
+   "front": "In a \"show that\" question involving a quadratic, what should be your first line of working?",
+   "back": "The probability equation (the product of two fractions equal to the given probability).",
+   "options": [
+    {
+     "text": "The probability equation (the product of two fractions equal to the given probability).",
+     "correct": true,
+     "explanation": "Writing the probability equation first connects the information in the question to the required quadratic. The two event probabilities are multiplied and set equal to the stated probability."
+    },
+    {
+     "text": "The expanded quadratic (the brackets multiplied out and all terms collected together).",
+     "correct": false,
+     "explanation": "Expansion comes only after the probability relationship has been formed and denominators have been removed. The first line should be the product of the two probability fractions."
+    },
+    {
+     "text": "The factorised quadratic (the two linear factors equal to the given probability).",
+     "correct": false,
+     "explanation": "Factorisation is a later algebraic step and may not involve the given probability directly. Start by multiplying the two event probabilities and equating the product to the stated probability."
+    },
+    {
+     "text": "The quadratic formula (the coefficients substituted directly into the standard formula).",
+     "correct": false,
+     "explanation": "The quadratic formula cannot be used until a quadratic equation has been derived. The first line must state the probability equation from which that quadratic follows."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "e99f369c-e442-4ab0-a297-defd1ca750b5",
+   "card_type": "basic",
+   "front": "When solving $\\frac{x}{x+3} \\times \\frac{x-1}{x+2} = \\frac{5}{14}$, what is the standard method to remove the fractions?",
+   "back": "Cross-multiply the numerators and denominators.",
+   "options": [
+    {
+     "text": "Cross-multiply the numerators and denominators.",
+     "correct": true,
+     "explanation": "Treating the left side as one fraction gives $\\frac{x(x-1)}{(x+3)(x+2)}=\\frac{5}{14}$. Cross-multiplication removes the denominators, producing $14x(x-1)=5(x+3)(x+2)$."
+    },
+    {
+     "text": "Cross-add the numerators and denominators.",
+     "correct": false,
+     "explanation": "Cross-addition is not a valid operation for solving an equation of two fractions. Cross-multiplication clears the denominators and gives $14x(x-1)=5(x+3)(x+2)$."
+    },
+    {
+     "text": "Cancel the matching terms in the numerators and denominators.",
+     "correct": false,
+     "explanation": "Terms cannot be cancelled across addition, so $x$ cannot cancel with $x+3$ or $x+2$. Cross-multiplication is needed to remove the fractional denominators correctly."
+    },
+    {
+     "text": "Add the two denominators and then simplify.",
+     "correct": false,
+     "explanation": "Adding denominators is not a valid way to multiply fractions or preserve the equation. Combine each side as a fraction, then cross-multiply to clear the denominators."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "500cdb6d-686c-4eda-b288-f16cd4301251",
+   "card_type": "basic",
+   "front": "A bag has $y$ blue and 6 red counters. Without replacement, what is the probability of picking blue then red?",
+   "back": "$$\\frac{y}{y+6} \\times \\frac{6}{y+5}$",
+   "options": [
+    {
+     "text": "$$\\frac{y}{y+6} \\times \\frac{6}{y+5}$",
+     "correct": true,
+     "explanation": "Initially, $y$ of the $y+6$ counters are blue. After one blue is removed, 6 red counters remain among $y+5$ total counters, so the probabilities multiply."
+    },
+    {
+     "text": "$$\\frac{y}{y+6} \\times \\frac{6}{y+6}$",
+     "correct": false,
+     "explanation": "This keeps the original total for the second pick, as though the first counter were replaced. Without replacement, the second denominator decreases to $y+5$."
+    },
+    {
+     "text": "$$\\frac{6}{y+6} \\times \\frac{y}{y+5}$",
+     "correct": false,
+     "explanation": "This calculates red then blue by reversing the requested order. For blue then red, the first numerator is $y$ and the second is 6."
+    },
+    {
+     "text": "$$\\frac{y}{y+6} \\times \\frac{5}{y+5}$",
+     "correct": false,
+     "explanation": "The first counter removed was blue, so the number of red counters remains 6 rather than decreasing to 5. The second fraction must therefore be $\\frac{6}{y+5}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "1d0cd5cc-4efc-4f80-8607-4d5bbc77a7e5",
+   "card_type": "basic",
+   "front": "Why does the denominator decrease in \"without replacement\" probability even if a different colour is picked second?",
+   "back": "The total number of counters in the bag has decreased by 1.",
+   "options": [
+    {
+     "text": "The total number of counters in the bag has decreased by 1.",
+     "correct": true,
+     "explanation": "Without replacement, the first counter remains outside the bag. Therefore, one fewer counter is available for the second pick, regardless of which colour is required next."
+    },
+    {
+     "text": "The chosen colour of counters in the bag has decreased by 1.",
+     "correct": false,
+     "explanation": "Only the colour selected first decreases, which may differ from the colour wanted second. The denominator represents all counters, so it decreases because the total has fallen by 1."
+    },
+    {
+     "text": "The number of colours represented in the bag has decreased by 1.",
+     "correct": false,
+     "explanation": "Removing one counter does not usually remove an entire colour category from the bag. The denominator decreases because there is one fewer counter in total, not one fewer colour."
+    },
+    {
+     "text": "The second probability must always be smaller than the first.",
+     "correct": false,
+     "explanation": "A second probability can be larger or smaller depending on the composition of the bag. The denominator decreases specifically because one counter has been removed from the total."
+    }
+   ],
+   "points": 1
+  }
+ ],
+ "card_count": 16,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-8-9-8-11-probability-equation-questions/flashcards",
+ "source_sha256": "a757a0c41675be36475be73ed1c7b81ff71ab39e0500a56aa9910609e8f2fd32",
+ "extracted_at": "2026-11-08T17:55:05Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}

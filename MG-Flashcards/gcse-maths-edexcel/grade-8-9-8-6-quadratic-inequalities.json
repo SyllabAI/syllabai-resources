@@ -1,0 +1,618 @@
+{
+ "topic": "grade-8-9-8-6-quadratic-inequalities",
+ "lane": "gcse-maths-edexcel",
+ "grade": "8",
+ "tier": null,
+ "title": "Quadratic Inequalities Flashcards",
+ "cards": [
+  {
+   "id": "5ca357c5-b295-4fa3-84d2-dd4a64db5bde",
+   "card_type": "cloze",
+   "front": "Boundary values are found by setting the quadratic expression equal to [ ___ ].",
+   "back": "Boundary values are found by setting the quadratic expression equal to zero.",
+   "options": [
+    {
+     "text": "zero",
+     "correct": true,
+     "explanation": "Boundary values occur where the quadratic changes sign or touches the axis, so they are found by solving the corresponding quadratic equation with the expression set equal to zero."
+    },
+    {
+     "text": "one",
+     "correct": false,
+     "explanation": "Setting the expression equal to one does not generally identify where its sign may change. The boundary values are found by setting the quadratic expression equal to zero."
+    },
+    {
+     "text": "infinity",
+     "correct": false,
+     "explanation": "Setting the expression equal to infinity cannot produce finite boundary values. Boundaries are the roots of the quadratic, found by setting its expression equal to zero."
+    },
+    {
+     "text": "the discriminant",
+     "correct": false,
+     "explanation": "A quadratic expression is not set equal to its discriminant to locate boundaries. Instead, set the expression equal to zero and solve for its roots."
+    }
+   ]
+  },
+  {
+   "id": "4f8a905e-c0a1-4539-94e3-b22086b9f407",
+   "card_type": "basic",
+   "front": "What do boundary values do to the number line?",
+   "back": "They split it into regions.",
+   "options": [
+    {
+     "text": "They split it into regions.",
+     "correct": true,
+     "explanation": "Each boundary value divides the number line at a possible change of sign, creating separate regions that can be tested to determine where the inequality holds."
+    },
+    {
+     "text": "They mark every solution.",
+     "correct": false,
+     "explanation": "Boundary values are not automatically all solutions; strict inequalities exclude them. Their role is to split the number line into regions whose signs can be tested."
+    },
+    {
+     "text": "They remove the negative regions.",
+     "correct": false,
+     "explanation": "Boundary values do not remove sections of the number line. They split it into regions, allowing one test value to determine the quadratic’s sign in each region."
+    },
+    {
+     "text": "They identify the positive region.",
+     "correct": false,
+     "explanation": "Boundary values alone do not show which region satisfies the inequality. They split the number line into regions, after which signs or test values identify the solutions."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "9a10e995-a4ff-471f-ada2-101b89d78191",
+   "card_type": "basic",
+   "front": "Find the boundary values for $x^2+7x+12\\gt 0$.",
+   "back": "$x=-4$ and $x=-3$.",
+   "options": [
+    {
+     "text": "$x=-4$ and $x=-3$.",
+     "correct": true,
+     "explanation": "Setting the quadratic equal to zero gives $x^2+7x+12=(x+4)(x+3)=0$, so the two boundary values are $x=-4$ and $x=-3$."
+    },
+    {
+     "text": "$x=4$ and $x=3$.",
+     "correct": false,
+     "explanation": "These signs are reversed: $(x+4)(x+3)=0$ requires each bracket to equal zero. Therefore, the boundary values are $x=-4$ and $x=-3$."
+    },
+    {
+     "text": "$x=-4$ and $x=3$.",
+     "correct": false,
+     "explanation": "This mixes the signs when reading roots from the factors. Since the factorisation is $(x+4)(x+3)$, both roots are negative: $x=-4$ and $x=-3$."
+    },
+    {
+     "text": "$x=-6$ and $x=-2$.",
+     "correct": false,
+     "explanation": "These numbers multiply to $12$ but add to $8$, not $7$. The correct factor pair is $4$ and $3$, giving roots $x=-4$ and $x=-3$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "a084c408-e19f-4f19-b97a-d11924d571f0",
+   "card_type": "cloze",
+   "front": "If the coefficient of $x^2$ is positive, the parabola opens [ ___ ].",
+   "back": "If the coefficient of $x^2$ is positive, the parabola opens upwards.",
+   "options": [
+    {
+     "text": "upwards",
+     "correct": true,
+     "explanation": "A positive coefficient of $x^2$ makes the quadratic increase towards positive infinity at both ends, so its graph is a parabola that opens upwards."
+    },
+    {
+     "text": "downwards",
+     "correct": false,
+     "explanation": "A parabola opens downwards only when the coefficient of $x^2$ is negative. A positive coefficient means both arms rise, so it opens upwards."
+    },
+    {
+     "text": "sideways",
+     "correct": false,
+     "explanation": "A vertical parabola does not open sideways; that shape would arise from expressing $x$ in terms of $y^2$. A positive $x^2$ coefficient makes it open upwards."
+    },
+    {
+     "text": "inwards",
+     "correct": false,
+     "explanation": "A parabola cannot open inwards because its two arms separate as they extend. With a positive coefficient of $x^2$, both arms rise and it opens upwards."
+    }
+   ]
+  },
+  {
+   "id": "43eb8ef6-829e-4c46-aff6-628bc28cbf29",
+   "card_type": "basic",
+   "front": "For an upward-opening quadratic, where is it positive relative to its roots?",
+   "back": "Outside the roots.",
+   "options": [
+    {
+     "text": "Outside the roots.",
+     "correct": true,
+     "explanation": "An upward-opening parabola lies above the $x$-axis to the left of the smaller root and to the right of the larger root, so it is positive outside."
+    },
+    {
+     "text": "Between the roots.",
+     "correct": false,
+     "explanation": "Between two distinct roots, an upward-opening parabola lies below the $x$-axis and is negative. It is positive on the two regions outside the roots."
+    },
+    {
+     "text": "At the roots.",
+     "correct": false,
+     "explanation": "At the roots, the quadratic equals zero rather than being positive. For an upward-opening quadratic, positive values occur in the regions outside the roots."
+    },
+    {
+     "text": "To the right of the roots.",
+     "correct": false,
+     "explanation": "Positivity is not confined to the right of both roots. An upward-opening parabola is positive on both outer regions: left of the smaller root and right of the larger."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "9c3b6faf-f248-4337-98c7-25c58a74f673",
+   "card_type": "basic",
+   "front": "For an upward-opening quadratic, where is it negative relative to its roots?",
+   "back": "Between the roots.",
+   "options": [
+    {
+     "text": "Between the roots.",
+     "correct": true,
+     "explanation": "An upward-opening parabola falls below the $x$-axis after crossing the smaller root and rises above it after the larger root, so it is negative between them."
+    },
+    {
+     "text": "Outside the roots.",
+     "correct": false,
+     "explanation": "Outside two distinct roots, an upward-opening parabola lies above the $x$-axis and is positive. Its negative values occur in the region between the roots."
+    },
+    {
+     "text": "At the roots.",
+     "correct": false,
+     "explanation": "At either root, the quadratic’s value is zero, not negative. For an upward-opening quadratic with two roots, negative values occur strictly between those roots."
+    },
+    {
+     "text": "Near the roots.",
+     "correct": false,
+     "explanation": "The quadratic is negative across the whole interval between its roots, not only near one of them. An upward-opening parabola lies below the axis between both roots."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "70658efe-4589-4db8-a98d-01f28ef9ec84",
+   "card_type": "cloze",
+   "front": "$$\\lt$ and $\\gt$ are [ ___ ] inequalities, so boundary values are not included.",
+   "back": "$$\\lt$ and $\\gt$ are strict inequalities, so boundary values are not included.",
+   "options": [
+    {
+     "text": "strict",
+     "correct": true,
+     "explanation": "The symbols $\nlt$ and $\ngt$ require values to be genuinely smaller or larger, not equal. They are therefore strict inequalities and exclude boundary values."
+    },
+    {
+     "text": "inclusive",
+     "correct": false,
+     "explanation": "Inclusive inequalities allow equality and use $\nle$ or $\nge$. The symbols $\nlt$ and $\ngt$ do not permit equality, so they are described as strict inequalities."
+    },
+    {
+     "text": "non-strict",
+     "correct": false,
+     "explanation": "Non-strict inequalities include equality and are written with $\nle$ or $\nge$. Because $\nlt$ and $\ngt$ exclude equality, the correct description is strict."
+    },
+    {
+     "text": "compound",
+     "correct": false,
+     "explanation": "A compound inequality combines two inequality conditions; it does not describe whether endpoints are included. The symbols $\nlt$ and $\ngt$ are strict inequalities."
+    }
+   ]
+  },
+  {
+   "id": "8facb816-71e6-497a-aa44-29e850858bb5",
+   "card_type": "cloze",
+   "front": "$$\\le$ and $\\ge$ are [ ___ ] inequalities, so boundary values are included.",
+   "back": "$$\\le$ and $\\ge$ are inclusive inequalities, so boundary values are included.",
+   "options": [
+    {
+     "text": "inclusive",
+     "correct": true,
+     "explanation": "The symbols $\nle$ and $\nge$ allow equality as well as inequality. Boundary values satisfy the equality case, so these are inclusive inequalities and include them."
+    },
+    {
+     "text": "strict",
+     "correct": false,
+     "explanation": "Strict inequalities use $\nlt$ or $\ngt$ and exclude equality. Since $\nle$ and $\nge$ permit equality at boundary values, they are inclusive inequalities."
+    },
+    {
+     "text": "exclusive",
+     "correct": false,
+     "explanation": "Exclusive would mean the boundary values are left out, as with $\nlt$ and $\ngt$. The symbols $\nle$ and $\nge$ include equality, so they are inclusive."
+    },
+    {
+     "text": "open",
+     "correct": false,
+     "explanation": "Open usually describes intervals whose endpoints are excluded. Because $\nle$ and $\nge$ include equality and therefore include boundary values, these inequalities are inclusive."
+    }
+   ]
+  },
+  {
+   "id": "71216d4e-d094-4225-8bfe-720cd7491990",
+   "card_type": "basic",
+   "front": "On a number line, what endpoint is used for $\\lt$ or $\\gt$?",
+   "back": "An open circle.",
+   "options": [
+    {
+     "text": "An open circle.",
+     "correct": true,
+     "explanation": "A strict inequality excludes the endpoint itself, so an open circle is used to show that the boundary value is not part of the solution."
+    },
+    {
+     "text": "A closed circle.",
+     "correct": false,
+     "explanation": "A closed circle includes the endpoint and is used for $\\le$ or $\\ge$. Since $\\lt$ and $\\gt$ exclude equality, the correct endpoint is an open circle."
+    },
+    {
+     "text": "A square endpoint.",
+     "correct": false,
+     "explanation": "A square endpoint is not the standard notation for inequalities on a number line. Strict inequalities use an open circle because the boundary value is excluded."
+    },
+    {
+     "text": "An arrow endpoint.",
+     "correct": false,
+     "explanation": "An arrow shows that a range continues indefinitely, rather than whether a boundary is included. For $\\lt$ or $\\gt$, the endpoint is an open circle."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "2863dfe9-04a0-48e1-8192-95876b567249",
+   "card_type": "basic",
+   "front": "On a number line, what endpoint is used for $\\le$ or $\\ge$?",
+   "back": "A closed circle.",
+   "options": [
+    {
+     "text": "A closed circle.",
+     "correct": true,
+     "explanation": "The symbols $\\le$ and $\\ge$ include equality, so the endpoint belongs to the solution set and is represented by a closed circle."
+    },
+    {
+     "text": "An open circle.",
+     "correct": false,
+     "explanation": "An open circle excludes the endpoint and is used for strict inequalities. Because $\\le$ and $\\ge$ include equality, the correct endpoint is a closed circle."
+    },
+    {
+     "text": "A square endpoint.",
+     "correct": false,
+     "explanation": "A square endpoint is not standard number-line notation for an inclusive inequality. A closed circle shows that the boundary value is included in the solution."
+    },
+    {
+     "text": "An arrow endpoint.",
+     "correct": false,
+     "explanation": "An arrow indicates that values continue without bound, not that an endpoint is included. For $\\le$ or $\\ge$, inclusion is shown by a closed circle."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "e65033ce-0105-45d1-b928-2d9fe922d249",
+   "card_type": "basic",
+   "front": "For a solution outside two roots, should the ranges be joined by and or or?",
+   "back": "or.",
+   "options": [
+    {
+     "text": "or.",
+     "correct": true,
+     "explanation": "An outside solution consists of two separate ranges, one below the smaller root and one above the larger root. A value can lie in either range, so use “or”."
+    },
+    {
+     "text": "and.",
+     "correct": false,
+     "explanation": "Using “and” would require a number to be below the smaller root and above the larger root simultaneously. Outside ranges are alternatives, so they are joined by “or”."
+    },
+    {
+     "text": "both.",
+     "correct": false,
+     "explanation": "A single value cannot normally lie in both separated outside ranges at once. It may belong to either outside range, so the correct joining word is “or”."
+    },
+    {
+     "text": "neither.",
+     "correct": false,
+     "explanation": "“Neither” would exclude both outside ranges rather than combine them as the solution. Values satisfying an outside inequality lie in one range or the other, so use “or”."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "decc1650-9bf6-4898-9d5e-f7158b1a4ef4",
+   "card_type": "basic",
+   "front": "Solve $x^2+5x+6\\gt 0$.",
+   "back": "$x\\lt -3$ or $x\\gt -2$.",
+   "options": [
+    {
+     "text": "$x\\lt -3$ or $x\\gt -2$.",
+     "correct": true,
+     "explanation": "Factoring gives $(x+3)(x+2)\\gt0$. The product is positive outside the roots $-3$ and $-2$, and strict inequality excludes both endpoints."
+    },
+    {
+     "text": "$-3\\lt x\\lt -2$.",
+     "correct": false,
+     "explanation": "This selects the interval where $(x+3)$ and $(x+2)$ have opposite signs, making their product negative. The positive solution is $x\\lt-3$ or $x\\gt-2$."
+    },
+    {
+     "text": "$x\\le -3$ or $x\\ge -2$.",
+     "correct": false,
+     "explanation": "This correctly identifies the outside regions but mistakenly includes the roots. At $x=-3$ and $x=-2$ the expression equals zero, so strict inequality requires $x\\lt-3$ or $x\\gt-2$."
+    },
+    {
+     "text": "$x\\lt -3$ and $x\\gt -2$.",
+     "correct": false,
+     "explanation": "No value can be less than $-3$ and greater than $-2$ simultaneously. The two separate outside ranges must be joined by “or”: $x\\lt-3$ or $x\\gt-2$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "d3facdac-cddb-49c6-bf48-ce38021c91a8",
+   "card_type": "basic",
+   "front": "Solve $x^2-8x+15\\le 0$.",
+   "back": "$3\\le x\\le 5$.",
+   "options": [
+    {
+     "text": "$3\\le x\\le 5$.",
+     "correct": true,
+     "explanation": "Factoring gives $(x-3)(x-5)\\le0$. The product is non-positive between the roots, and equality means the endpoints $3$ and $5$ are included."
+    },
+    {
+     "text": "$x\\le 3$ or $x\\ge 5$.",
+     "correct": false,
+     "explanation": "This chooses the regions where both factors have the same sign, making the product positive. The non-positive region lies between the roots: $3\\le x\\le5$."
+    },
+    {
+     "text": "$3\\lt x\\lt 5$.",
+     "correct": false,
+     "explanation": "This excludes the roots as though the inequality were strict. Because the expression may equal zero, both roots are included, giving $3\\le x\\le5$."
+    },
+    {
+     "text": "$-5\\le x\\le -3$.",
+     "correct": false,
+     "explanation": "This comes from reversing the signs of the roots. The factors are $(x-3)(x-5)$, so the roots are $3$ and $5$, giving $3\\le x\\le5$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "5cf1f1f6-fd75-4f38-bb44-855b935199dc",
+   "card_type": "basic",
+   "front": "Solve $x^2\\le 64$.",
+   "back": "$-8\\le x\\le 8$.",
+   "options": [
+    {
+     "text": "$-8\\le x\\le 8$.",
+     "correct": true,
+     "explanation": "Since $x^2\\le64$, the magnitude of $x$ is at most $8$. Both positive and negative values are allowed, including the endpoints where $x^2=64$."
+    },
+    {
+     "text": "$x\\le -8$ or $x\\ge 8$.",
+     "correct": false,
+     "explanation": "This describes values whose squares are at least $64$, reversing the required region. For $x^2\\le64$, the solution is the interval $-8\\le x\\le8$."
+    },
+    {
+     "text": "$-8\\lt x\\lt 8$.",
+     "correct": false,
+     "explanation": "This treats the inequality as strict and wrongly excludes $-8$ and $8$. Both endpoints square to $64$, so the correct solution is $-8\\le x\\le8$."
+    },
+    {
+     "text": "$-64\\le x\\le 64$.",
+     "correct": false,
+     "explanation": "This uses $64$ directly as the boundary instead of taking its square root. Since $\\sqrt{64}=8$, the correct interval is $-8\\le x\\le8$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "04ad5f85-1a8c-4bc0-b365-1db510451c7a",
+   "card_type": "basic",
+   "front": "Rearrange $5x+14\\gt x^2$ so one side is zero and the $x^2$ coefficient is positive.",
+   "back": "$x^2-5x-14\\lt 0$.",
+   "options": [
+    {
+     "text": "$x^2-5x-14\\lt 0$.",
+     "correct": true,
+     "explanation": "Moving all terms gives $5x+14-x^2\\gt0$. Multiplying by $-1$ changes every sign and reverses the inequality, producing $x^2-5x-14\\lt0$."
+    },
+    {
+     "text": "$x^2-5x-14\\gt 0$.",
+     "correct": false,
+     "explanation": "This keeps the inequality direction unchanged after multiplying every term by $-1$. Multiplication by a negative reverses the sign, so the result is $x^2-5x-14\\lt0$."
+    },
+    {
+     "text": "$x^2-5x+14\\lt 0$.",
+     "correct": false,
+     "explanation": "The constant sign has not been changed correctly when rearranging. Moving $14$ across, or multiplying by $-1$, makes it $-14$, giving $x^2-5x-14\\lt0$."
+    },
+    {
+     "text": "$x^2+5x-14\\lt 0$.",
+     "correct": false,
+     "explanation": "The sign of the linear term is wrong. Moving $5x$ to the side containing $x^2$ makes it $-5x$, so the correct inequality is $x^2-5x-14\\lt0$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "5cd1cf31-0173-4161-8b11-57687a5ed862",
+   "card_type": "basic",
+   "front": "Solve $5x+14\\gt x^2$.",
+   "back": "$-2\\lt x\\lt 7$.",
+   "options": [
+    {
+     "text": "$-2\\lt x\\lt 7$.",
+     "correct": true,
+     "explanation": "Rearranging gives $x^2-5x-14\\lt0=(x-7)(x+2)\\lt0$. An upward-opening quadratic is negative between its roots, so $-2\\lt x\\lt7$."
+    },
+    {
+     "text": "$x\\lt -2$ or $x\\gt 7$.",
+     "correct": false,
+     "explanation": "This selects where the upward-opening quadratic is positive, outside its roots. The inequality requires it to be negative, so the solution is between the roots: $-2\\lt x\\lt7$."
+    },
+    {
+     "text": "$-2\\le x\\le 7$.",
+     "correct": false,
+     "explanation": "This mistakenly includes the roots, where $5x+14=x^2$ rather than being greater than it. The strict inequality therefore gives $-2\\lt x\\lt7$."
+    },
+    {
+     "text": "$2\\lt x\\lt 7$.",
+     "correct": false,
+     "explanation": "This loses the negative sign when solving $x+2=0$. The lower root is $-2$, not $2$, so the correct interval is $-2\\lt x\\lt7$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "b286b837-c81f-48e7-86e4-5a2ca5fe06b5",
+   "card_type": "basic",
+   "front": "What happens to an inequality sign when you multiply or divide by a negative number?",
+   "back": "It reverses.",
+   "options": [
+    {
+     "text": "It reverses.",
+     "correct": true,
+     "explanation": "Multiplying or dividing both sides by a negative number reverses their order on the number line, so the direction of the inequality sign must reverse."
+    },
+    {
+     "text": "It stays the same.",
+     "correct": false,
+     "explanation": "Keeping the sign unchanged is valid only when multiplying or dividing by a positive number. With a negative number, the inequality sign reverses."
+    },
+    {
+     "text": "It becomes an equals sign.",
+     "correct": false,
+     "explanation": "Multiplication or division cannot turn an inequality into an equation. When the operation uses a negative number, the inequality sign reverses direction."
+    },
+    {
+     "text": "It reverses only when dividing.",
+     "correct": false,
+     "explanation": "The sign reversal is not limited to division. Multiplying or dividing both sides by any negative number reverses the direction of the inequality."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "b454fd27-a24f-4626-a68a-a327f45eec39",
+   "card_type": "cloze",
+   "front": "A non-monic quadratic has a coefficient of $x^2$ that is [ ___ ].",
+   "back": "A non-monic quadratic has a coefficient of $x^2$ that is not one.",
+   "options": [
+    {
+     "text": "not one",
+     "correct": true,
+     "explanation": "A quadratic is monic when the coefficient of $x^2$ is exactly one, so a non-monic quadratic has an $x^2$ coefficient that is not one."
+    },
+    {
+     "text": "one",
+     "correct": false,
+     "explanation": "A coefficient of one makes a quadratic monic, not non-monic. For a quadratic to be non-monic, the coefficient of $x^2$ must be not one."
+    },
+    {
+     "text": "zero",
+     "correct": false,
+     "explanation": "If the coefficient of $x^2$ were zero, the expression would no longer be quadratic. A non-monic quadratic instead has an $x^2$ coefficient that is not one."
+    },
+    {
+     "text": "negative",
+     "correct": false,
+     "explanation": "A non-monic quadratic may have a negative coefficient, but it need not do so. Its defining feature is that the coefficient of $x^2$ is not one."
+    }
+   ]
+  },
+  {
+   "id": "c393586d-8aec-4f2f-bc63-ed056c1056e7",
+   "card_type": "basic",
+   "front": "Solve $6x^2+7x-3\\lt 0$.",
+   "back": "$-\\frac{3}{2}\\lt x\\lt \\frac{1}{3}$.",
+   "options": [
+    {
+     "text": "$-\\frac{3}{2}\\lt x\\lt \\frac{1}{3}$.",
+     "correct": true,
+     "explanation": "Factorising gives $(3x-1)(2x+3)\\lt 0$, with roots $-\\frac{3}{2}$ and $\\frac{1}{3}$. The upward-opening quadratic is negative between these roots."
+    },
+    {
+     "text": "$-\\frac{1}{3}\\lt x\\lt \\frac{3}{2}$.",
+     "correct": false,
+     "explanation": "This results from assigning the root signs incorrectly. Solving the factors gives $x=-\\frac{3}{2}$ and $x=\\frac{1}{3}$, and the required values lie between them."
+    },
+    {
+     "text": "$\\frac{1}{3}\\lt x\\lt \\frac{3}{2}$.",
+     "correct": false,
+     "explanation": "This incorrectly makes both boundary values positive. The factor $2x+3$ gives the negative root $-\\frac{3}{2}$, so the solution is $-\\frac{3}{2}\\lt x\\lt\\frac{1}{3}$."
+    },
+    {
+     "text": "$-\\frac{3}{2}\\lt x\\lt -\\frac{1}{3}$.",
+     "correct": false,
+     "explanation": "The second boundary has the wrong sign: $3x-1=0$ gives $x=\\frac{1}{3}$, not $-\\frac{1}{3}$. The quadratic is negative between the two correct roots."
+    }
+   ],
+   "points": 3
+  },
+  {
+   "id": "11dfbe20-e81c-4288-80c4-125d694beb68",
+   "card_type": "cloze",
+   "front": "If a quadratic does not factorise nicely, use the [ ___ ] to find boundary values.",
+   "back": "If a quadratic does not factorise nicely, use the quadratic formula to find boundary values.",
+   "options": [
+    {
+     "text": "quadratic formula",
+     "correct": true,
+     "explanation": "The quadratic formula finds the roots of any quadratic equation, including those that do not factorise neatly. These roots provide the boundary values for the inequality."
+    },
+    {
+     "text": "linear formula",
+     "correct": false,
+     "explanation": "Linear equations contain no $x^2$ term, so methods for them do not generally find quadratic roots. The quadratic formula gives the required boundary values."
+    },
+    {
+     "text": "gradient formula",
+     "correct": false,
+     "explanation": "The gradient formula calculates the slope between points and does not solve quadratic equations. The quadratic formula should be used to find the boundary values."
+    },
+    {
+     "text": "Pythagoras’ theorem",
+     "correct": false,
+     "explanation": "Pythagoras’ theorem relates the side lengths of right-angled triangles, rather than finding quadratic roots. The quadratic formula gives the inequality’s boundary values."
+    }
+   ]
+  },
+  {
+   "id": "c5746e7b-c599-4e45-b78f-f6c3efa4470c",
+   "card_type": "basic",
+   "front": "What integer values satisfy $x^2-6x+7\\lt 0$?",
+   "back": "2, 3 and 4.",
+   "options": [
+    {
+     "text": "2, 3 and 4.",
+     "correct": true,
+     "explanation": "The roots are $3-\\sqrt{2}$ and $3+\\sqrt{2}$, approximately $1.59$ and $4.41$. The upward-opening quadratic is negative between them, giving integers 2, 3 and 4."
+    },
+    {
+     "text": "1, 2, 3 and 4.",
+     "correct": false,
+     "explanation": "Including 1 comes from rounding the lower root down rather than respecting the strict interval. Since $1$ lies below $3-\\sqrt{2}$, only 2, 3 and 4 qualify."
+    },
+    {
+     "text": "2, 3, 4 and 5.",
+     "correct": false,
+     "explanation": "Including 5 comes from rounding the upper root up rather than checking the strict interval. Since $5$ exceeds $3+\\sqrt{2}$, only 2, 3 and 4 qualify."
+    },
+    {
+     "text": "3 and 4.",
+     "correct": false,
+     "explanation": "This omits 2, although substituting it gives $4-12+7=-1$, which is less than zero. The satisfying integer values are 2, 3 and 4."
+    }
+   ],
+   "points": 3
+  }
+ ],
+ "card_count": 21,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-8-9-8-6-quadratic-inequalities/flashcards",
+ "source_sha256": "ac717cad6ffbdcda20039c38a1c48b616e83ce1e35a460c2da333253b9f2f3fa",
+ "extracted_at": "2026-11-08T17:55:05Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}

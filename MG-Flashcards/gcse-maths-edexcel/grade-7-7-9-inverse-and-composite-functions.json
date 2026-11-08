@@ -1,0 +1,617 @@
+{
+ "topic": "grade-7-7-9-inverse-and-composite-functions",
+ "lane": "gcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "title": "Inverse and Composite Functions Flashcards",
+ "cards": [
+  {
+   "id": "b5796813-02ac-4a17-aeea-424a8c93dea4",
+   "card_type": "cloze",
+   "front": "A function is a rule that takes an input and gives exactly [ ___ ] output.",
+   "back": "A function is a rule that takes an input and gives exactly one output.",
+   "options": [
+    {
+     "text": "one",
+     "correct": true,
+     "explanation": "A function assigns exactly one output to each permitted input. Different inputs may share an output, but a single input cannot have multiple outputs."
+    },
+    {
+     "text": "the same",
+     "correct": false,
+     "explanation": "A function does not have to give the same output for every input. It must give exactly one output for each individual input."
+    },
+    {
+     "text": "a random",
+     "correct": false,
+     "explanation": "Functions are deterministic rules rather than random processes. Each permitted input must be assigned exactly one specific output, so the correct term is one."
+    },
+    {
+     "text": "an unpredictable",
+     "correct": false,
+     "explanation": "An output cannot be left unpredictable while still defining a function. The rule must associate every permitted input with exactly one determined output."
+    }
+   ]
+  },
+  {
+   "id": "7f5edac9-6311-4248-a6fa-34f7064999cf",
+   "card_type": "basic",
+   "front": "How do you evaluate $h(4)$ for the function $h(x) = 2x^2 - 6$?",
+   "back": "Substitute 4 for $x$ in the formula: $2(4)^2 - 6$.",
+   "options": [
+    {
+     "text": "Substitute 4 for $x$ in the formula: $2(4)^2 - 6$.",
+     "correct": true,
+     "explanation": "Evaluating $h(4)$ means replacing every $x$ in $h(x)=2x^2-6$ with 4, giving $2(4)^2-6$ before calculating the result."
+    },
+    {
+     "text": "Substitute $-4$ for $x$ in the formula: $2(-4)^2 - 6$.",
+     "correct": false,
+     "explanation": "This substitutes $-4$, so it evaluates $h(-4)$ rather than $h(4)$. The required substitution is $2(4)^2-6$."
+    },
+    {
+     "text": "Substitute 4 for $x$ in the formula: $(2 \\times 4)^2 - 6$.",
+     "correct": false,
+     "explanation": "This incorrectly squares the product $2\\times4$ instead of squaring only the input. The coefficient remains outside the square, giving $2(4)^2-6$."
+    },
+    {
+     "text": "Substitute 2 for $x$ in the formula: $2(2)^2 - 6$.",
+     "correct": false,
+     "explanation": "This substitutes the coefficient 2 instead of the requested input 4. To evaluate $h(4)$, replace $x$ with 4 to obtain $2(4)^2-6$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "473f7bb3-5d80-41ba-a7da-27d33798bfaf",
+   "card_type": "cloze",
+   "front": "When substituting negative numbers into a function, always use [ ___ ] to avoid calculation errors.",
+   "back": "When substituting negative numbers into a function, always use brackets to avoid calculation errors.",
+   "options": [
+    {
+     "text": "brackets",
+     "correct": true,
+     "explanation": "Brackets keep the negative sign attached to the substituted value. For example, $(-3)^2=9$, whereas writing $-3^2$ is interpreted as $-(3^2)=-9$."
+    },
+    {
+     "text": "a calculator",
+     "correct": false,
+     "explanation": "A calculator does not prevent an incorrectly entered negative substitution. Brackets are needed to keep the negative sign attached to the complete substituted value."
+    },
+    {
+     "text": "fractions",
+     "correct": false,
+     "explanation": "Converting a negative number to a fraction does not resolve sign or order-of-operations errors. Brackets correctly show that the entire negative value is being substituted."
+    },
+    {
+     "text": "decimals",
+     "correct": false,
+     "explanation": "Decimal notation does not keep a negative sign attached during powers or multiplication. Brackets must surround the substituted negative number to preserve the intended calculation."
+    }
+   ]
+  },
+  {
+   "id": "7a9cb8f2-28c3-44a1-aa79-089e41c49ce1",
+   "card_type": "basic",
+   "front": "What does the instruction \"solve $f(x) = 10$\" mean?",
+   "back": "Find the input values that result in an output of 10.",
+   "options": [
+    {
+     "text": "Find the input values that result in an output of 10.",
+     "correct": true,
+     "explanation": "Solving $f(x)=10$ means identifying every input $x$ that the function maps to 10. Depending on the function, there may be one, several, or no such inputs."
+    },
+    {
+     "text": "Find the output values that result from an input of 10.",
+     "correct": false,
+     "explanation": "This reverses the roles of input and output. The output is already specified as 10, so the task is to find the corresponding input values."
+    },
+    {
+     "text": "Find the output value that results from an input of 10.",
+     "correct": false,
+     "explanation": "Setting the input to 10 would evaluate $f(10)$, not solve $f(x)=10$. Solving requires finding inputs whose output is equal to 10."
+    },
+    {
+     "text": "Find the input values that result in an output greater than 10.",
+     "correct": false,
+     "explanation": "The equation asks for inputs producing exactly 10, not outputs greater than 10. The required values satisfy the equality $f(x)=10$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "30312376-eab2-46e3-8fa7-39310234ab9a",
+   "card_type": "basic",
+   "front": "If $x^2 = 9$, why are there two possible solutions for $x$?",
+   "back": "Both positive and negative values give a positive result when squared ($3^2 = 9$ and $(-3)^2 = 9$).",
+   "options": [
+    {
+     "text": "Both positive and negative values give a positive result when squared ($3^2 = 9$ and $(-3)^2 = 9$).",
+     "correct": true,
+     "explanation": "Squaring removes the distinction between opposite signs because the product of two negative numbers is positive. Therefore both $3$ and $-3$ satisfy $x^2=9$."
+    },
+    {
+     "text": "Only the positive value gives a positive result when squared ($3^2 = 9$, so $x = 3$ is the only solution).",
+     "correct": false,
+     "explanation": "This keeps only the principal square root and overlooks the second solution. Since $(-3)^2$ also equals 9, both $x=3$ and $x=-3$ work."
+    },
+    {
+     "text": "The positive value gives 9 and the negative value gives $-9$ when squared ($3^2 = 9$ and $(-3)^2 = -9$).",
+     "correct": false,
+     "explanation": "Squaring a negative number produces a positive result because two negative factors multiply to give a positive product. Thus $(-3)^2=9$, not $-9$."
+    },
+    {
+     "text": "The positive and negative values cancel when squared, so the only possible solution is $x = 0$.",
+     "correct": false,
+     "explanation": "Opposite values do not cancel when each is squared separately. Both $3^2$ and $(-3)^2$ equal 9, giving the two solutions $x=3$ and $x=-3$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "d61e892c-0dc9-475c-a5a5-909ac45cd7bd",
+   "card_type": "basic",
+   "front": "What is the relationship between the outputs of $f(x)$ and $f^{-1}(x)$?",
+   "back": "The inverse function $f^{-1}$ undoes the function $f$ (if $f(a) = b$, then $f^{-1}(b) = a$).",
+   "options": [
+    {
+     "text": "The inverse function $f^{-1}$ undoes the function $f$ (if $f(a) = b$, then $f^{-1}(b) = a$).",
+     "correct": true,
+     "explanation": "An inverse reverses the original mapping: if $f$ sends $a$ to $b$, then $f^{-1}$ sends $b$ back to $a$. Their inputs and outputs exchange roles."
+    },
+    {
+     "text": "The inverse function $f^{-1}$ reciprocates the function $f$ (if $f(a) = b$, then $f^{-1}(a) = \\frac{1}{b}$).",
+     "correct": false,
+     "explanation": "The superscript $-1$ denotes an inverse function, not a reciprocal. If $f(a)=b$, the inverse maps $b$ back to $a$ rather than calculating $1/b$."
+    },
+    {
+     "text": "The inverse function $f^{-1}$ repeats the function $f$ (if $f(a) = b$, then $f^{-1}(a) = b$).",
+     "correct": false,
+     "explanation": "Repeating the same mapping describes applying $f$ again, not applying its inverse. The inverse must reverse the mapping, so $f^{-1}(b)=a$."
+    },
+    {
+     "text": "The inverse function $f^{-1}$ negates the function $f$ (if $f(a) = b$, then $f^{-1}(a) = -b$).",
+     "correct": false,
+     "explanation": "An inverse does not generally change an output’s sign. It reverses the input-output mapping, meaning that $f(a)=b$ leads to $f^{-1}(b)=a$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "015d4405-d6e8-4fe9-ad7f-ab5f3092fd58",
+   "card_type": "basic",
+   "front": "Outline the three steps to find an inverse function $f^{-1}(x)$.",
+   "back": "Set $y = f(x)$Swap $x$ and $y$Rearrange the equation to make $y$ the subject",
+   "options": [
+    {
+     "text": "Set $y = f(x)$Swap $x$ and $y$Rearrange the equation to make $y$ the subject",
+     "correct": true,
+     "explanation": "Writing the function as $y$, exchanging input and output variables, and then solving for $y$ reverses the original mapping and produces the inverse function."
+    },
+    {
+     "text": "Set $y = f(x)$Keep $x$ and $y$ unchangedRearrange the equation to make $y$ the subject",
+     "correct": false,
+     "explanation": "Leaving $x$ and $y$ unchanged does not reverse the input-output relationship, so it merely rearranges the original function. They must be swapped before solving for $y$."
+    },
+    {
+     "text": "Set $y = f(x)$Swap $x$ and $y$Rearrange the equation to make $x$ the subject",
+     "correct": false,
+     "explanation": "After swapping $x$ and $y$, solving for $x$ moves back towards the original function. To express the inverse in function form, rearrange to make $y$ the subject."
+    },
+    {
+     "text": "Set $y = f(x)$Negate $x$ and $y$Rearrange the equation to make $y$ the subject",
+     "correct": false,
+     "explanation": "Negating both variables reflects signs rather than reversing the input-output mapping. The correct process swaps $x$ and $y$, then rearranges to make $y$ the subject."
+    }
+   ],
+   "points": 3
+  },
+  {
+   "id": "3c8e3880-9886-4c88-b56f-f26c29df2688",
+   "card_type": "cloze",
+   "front": "The notation $f^{-1}(x)$ refers to the [ ___ ], not the reciprocal ($\\frac{1}{f(x)}$).",
+   "back": "The notation $f^{-1}(x)$ refers to the inverse function, not the reciprocal ($\\frac{1}{f(x)}$).",
+   "options": [
+    {
+     "text": "inverse function",
+     "correct": true,
+     "explanation": "The superscript $-1$ indicates the function that reverses the mapping performed by $f$. It does not mean taking the reciprocal of the function’s output."
+    },
+    {
+     "text": "reciprocal function",
+     "correct": false,
+     "explanation": "Treating the exponent as an ordinary negative power causes this misconception. The reciprocal is written $\\frac{1}{f(x)}$, while $f^{-1}(x)$ denotes the inverse function."
+    },
+    {
+     "text": "negative function",
+     "correct": false,
+     "explanation": "A negative function would be written $-f(x)$ and changes the signs of outputs. The notation $f^{-1}(x)$ instead represents the inverse function."
+    },
+    {
+     "text": "derivative function",
+     "correct": false,
+     "explanation": "A derivative represents the rate of change and is usually written $f'(x)$. The notation $f^{-1}(x)$ refers specifically to the inverse function."
+    }
+   ]
+  },
+  {
+   "id": "43f86764-376f-4e03-8330-2ce9a849e78b",
+   "card_type": "cloze",
+   "front": "The notation $f^{-1}(x)$ refers to the inverse function, not the [ ___ ] ($\\frac{1}{f(x)}$).",
+   "back": "The notation $f^{-1}(x)$ refers to the inverse function, not the reciprocal ($\\frac{1}{f(x)}$).",
+   "options": [
+    {
+     "text": "reciprocal",
+     "correct": true,
+     "explanation": "The exponent $-1$ attached to a function’s name denotes its inverse, whereas the reciprocal is $\\frac{1}{f(x)}$. These are different operations."
+    },
+    {
+     "text": "negative",
+     "correct": false,
+     "explanation": "A negative function is $-f(x)$, which changes the sign of every output. The expression $\\frac{1}{f(x)}$ is the reciprocal, not the negative."
+    },
+    {
+     "text": "derivative",
+     "correct": false,
+     "explanation": "A derivative describes the rate of change and is usually written $f'(x)$. The expression $\\frac{1}{f(x)}$ is instead called the reciprocal."
+    },
+    {
+     "text": "square",
+     "correct": false,
+     "explanation": "The square of the function would be $[f(x)]^2$, not $\\frac{1}{f(x)}$. Dividing $1$ by the function gives its reciprocal."
+    }
+   ]
+  },
+  {
+   "id": "95cf80e7-9e31-458b-a8b0-0c6e07a2e38d",
+   "card_type": "basic",
+   "front": "What is the inverse of $r(x) = 4x - 3$?",
+   "back": "$$r^{-1}(x) = \\frac{x+3}{4}$",
+   "options": [
+    {
+     "text": "$$r^{-1}(x) = \\frac{x+3}{4}$",
+     "correct": true,
+     "explanation": "Writing $y=4x-3$, swapping $x$ and $y$, and rearranging gives $x=4y-3$, so $y=\\frac{x+3}{4}$."
+    },
+    {
+     "text": "$$r^{-1}(x) = \\frac{x-3}{4}$",
+     "correct": false,
+     "explanation": "This keeps the subtraction rather than reversing it. After swapping variables, adding $3$ to both sides gives $x+3=4y$, so the numerator is $x+3$."
+    },
+    {
+     "text": "$$r^{-1}(x) = 4x+3$",
+     "correct": false,
+     "explanation": "This reverses the subtraction but not the multiplication. Both operations must be undone in reverse order, giving $r^{-1}(x)=\\frac{x+3}{4}$."
+    },
+    {
+     "text": "$$r^{-1}(x) = \\frac{x+4}{3}$",
+     "correct": false,
+     "explanation": "This mistakenly swaps the constants rather than reversing the operations. Add $3$ and then divide by $4$, giving $r^{-1}(x)=\\frac{x+3}{4}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "ca701d60-8a46-4a84-916e-53d8acd3b398",
+   "card_type": "basic",
+   "front": "In the composite function $gf(x)$, which function is applied to $x$ first?",
+   "back": "Function $f$ (the function nearest to $x$).",
+   "options": [
+    {
+     "text": "Function $f$ (the function nearest to $x$).",
+     "correct": true,
+     "explanation": "The notation $gf(x)$ means $g(f(x))$, so $x$ is first input into $f$. The resulting output is then used as the input to $g$."
+    },
+    {
+     "text": "Function $g$ (the function furthest from $x$).",
+     "correct": false,
+     "explanation": "Reading the letters from left to right causes this mistake. Since $gf(x)=g(f(x))$, function $f$, which is nearest to $x$, is applied first."
+    },
+    {
+     "text": "Function $g$ (the function nearest to $x$).",
+     "correct": false,
+     "explanation": "Although $g$ appears first when reading normally, it is not nearest to the input. The notation expands to $g(f(x))$, so $f$ acts first."
+    },
+    {
+     "text": "Function $f$ (the function furthest from $x$).",
+     "correct": false,
+     "explanation": "This identifies the correct letter but gives the wrong positional rule. In $gf(x)$, $f$ is nearest to $x$, which is why it is applied first."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "7a974fef-578a-4ccb-9abe-6a82968c5545",
+   "card_type": "cloze",
+   "front": "Composite functions like $gf(x)$ are read from [ ___ ].",
+   "back": "Composite functions like $gf(x)$ are read from right to left.",
+   "options": [
+    {
+     "text": "right to left",
+     "correct": true,
+     "explanation": "The notation $gf(x)$ represents $g(f(x))$. Therefore, the right-hand function $f$ is applied first, followed by the left-hand function $g$."
+    },
+    {
+     "text": "left to right",
+     "correct": false,
+     "explanation": "Ordinary reading order is tempting, but it reverses the composition. Since $gf(x)=g(f(x))$, the right-hand function $f$ must be applied before $g$."
+    },
+    {
+     "text": "outside to inside",
+     "correct": false,
+     "explanation": "Applying the outside function first reverses the required order. In $g(f(x))$, the inside function $f$ acts on $x$ before the outside function $g$."
+    },
+    {
+     "text": "either way round",
+     "correct": false,
+     "explanation": "Function composition is generally order-dependent, so the direction cannot be chosen freely. The notation $gf(x)$ must be read from right to left as $g(f(x))$."
+    }
+   ]
+  },
+  {
+   "id": "1ec08c8f-1f5c-473f-9eb5-742132cbfbf7",
+   "card_type": "basic",
+   "front": "Why is $fg(x)$ not the same as $f(x) \\times g(x)$?",
+   "back": "Composite notation indicates a chain of operations, not multiplication of the two formulas.",
+   "options": [
+    {
+     "text": "Composite notation indicates a chain of operations, not multiplication of the two formulas.",
+     "correct": true,
+     "explanation": "The notation $fg(x)$ means $f(g(x))$: the output of $g$ becomes the input of $f$. It does not mean the product $f(x)g(x)$."
+    },
+    {
+     "text": "Composite notation indicates a sum of operations, not multiplication of the two formulas.",
+     "correct": false,
+     "explanation": "Composition does not add the functions; that would be written $f(x)+g(x)$. Instead, $fg(x)$ means substituting $g(x)$ into $f$, forming a chain of operations."
+    },
+    {
+     "text": "Composite notation indicates a difference of operations, not multiplication of the two formulas.",
+     "correct": false,
+     "explanation": "Composition is not subtraction, which would be written $f(x)-g(x)$. The notation $fg(x)$ means $f(g(x))$, where one function acts on the other’s output."
+    },
+    {
+     "text": "Composite notation indicates a division of operations, not multiplication of the two formulas.",
+     "correct": false,
+     "explanation": "Composition does not divide the function formulas; a quotient would require a fraction. Instead, $fg(x)=f(g(x))$, so the functions are applied one after the other."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "099cb1b0-07f0-47e3-8c05-366d7051bcb2",
+   "card_type": "basic",
+   "front": "Given $f(x) = 2x + 1$ and $g(x) = x^2$, calculate $fg(x)$.",
+   "back": "$$2x^2 + 1$",
+   "options": [
+    {
+     "text": "$$2x^2 + 1$",
+     "correct": true,
+     "explanation": "The composition $fg(x)$ means $f(g(x))$. Substituting $g(x)=x^2$ into $f(x)=2x+1$ gives $f(x^2)=2x^2+1$."
+    },
+    {
+     "text": "$$(2x + 1)^2$",
+     "correct": false,
+     "explanation": "This calculates $g(f(x))$, so the functions have been applied in the reverse order. For $fg(x)=f(g(x))$, the result is $2x^2+1$."
+    },
+    {
+     "text": "$$4x^2 + 1$",
+     "correct": false,
+     "explanation": "This incorrectly squares the coefficient $2$ when substituting $x^2$ into $f$. Only $x$ is replaced, so $2(x^2)+1=2x^2+1$."
+    },
+    {
+     "text": "$$2x^2 + 2$",
+     "correct": false,
+     "explanation": "This mistakenly changes the constant term when substituting into the function. The $+1$ remains unchanged, so $f(x^2)=2x^2+1$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "2ecad63a-a488-4e8b-84bd-927a24c36528",
+   "card_type": "basic",
+   "front": "Given $f(x) = 2x + 1$ and $g(x) = x^2$, calculate $gf(x)$.",
+   "back": "$$(2x + 1)^2$",
+   "options": [
+    {
+     "text": "$$(2x + 1)^2$",
+     "correct": true,
+     "explanation": "The composition $gf(x)$ means $g(f(x))$. Since $g$ squares its input, substituting $f(x)=2x+1$ gives $g(2x+1)=(2x+1)^2$."
+    },
+    {
+     "text": "$$2x^2 + 1$",
+     "correct": false,
+     "explanation": "This calculates $f(g(x))$, applying the functions in the reverse order. For $gf(x)=g(f(x))$, the whole expression $2x+1$ must be squared."
+    },
+    {
+     "text": "$$4x^2 + 1$",
+     "correct": false,
+     "explanation": "This squares the two terms separately and omits the middle term. The unexpanded answer is $(2x+1)^2$, which expands to $4x^2+4x+1$."
+    },
+    {
+     "text": "$$4x^2 + 2x + 1$",
+     "correct": false,
+     "explanation": "This underestimates the cross term when expanding the square. Since $2(2x)(1)=4x$, $(2x+1)^2$ expands to $4x^2+4x+1$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "0bdff87c-d879-4237-93fa-8c273921c7a4",
+   "card_type": "cloze",
+   "front": "When finding $f(x-3)$, you must substitute the [ ___ ] $(x-3)$ wherever $x$ appears in the original function.",
+   "back": "When finding $f(x-3)$, you must substitute the entire expression $(x-3)$ wherever $x$ appears in the original function.",
+   "options": [
+    {
+     "text": "entire expression",
+     "correct": true,
+     "explanation": "The input to the function is now $x-3$, so every occurrence of the original input $x$ must be replaced by the bracketed expression $(x-3)$."
+    },
+    {
+     "text": "variable only",
+     "correct": false,
+     "explanation": "Substituting only the variable can lose the subtraction or apply it to just one occurrence. The whole input $(x-3)$ must replace every $x$ in the function."
+    },
+    {
+     "text": "constant term",
+     "correct": false,
+     "explanation": "The constant term in the original formula is not the new input. To find $f(x-3)$, replace each occurrence of $x$ with the entire expression $(x-3)$."
+    },
+    {
+     "text": "final term",
+     "correct": false,
+     "explanation": "Changing only the final term confuses substitution with altering part of the formula. The entire expression $(x-3)$ must replace every occurrence of the original variable $x$."
+    }
+   ]
+  },
+  {
+   "id": "a8555f2c-df52-4770-9917-d3037590e639",
+   "card_type": "basic",
+   "front": "How do you solve $(x - 3)^2 = 9$ without expanding the brackets?",
+   "back": "Square root both sides to get $x - 3 = 3$ and $x - 3 = -3$, then solve for $x$.",
+   "options": [
+    {
+     "text": "Square root both sides to get $x - 3 = 3$ and $x - 3 = -3$, then solve for $x$.",
+     "correct": true,
+     "explanation": "A square equal to $9$ can have a base of either $3$ or $-3$. Solving both resulting equations gives the two solutions $x = 6$ and $x = 0$."
+    },
+    {
+     "text": "Square root both sides to get $x - 3 = 3$ only, then solve for $x$.",
+     "correct": false,
+     "explanation": "Taking only the positive square root misses one solution. Since both $3^2$ and $(-3)^2$ equal $9$, you must solve $x - 3 = 3$ and $x - 3 = -3$."
+    },
+    {
+     "text": "Square root both sides to get $x - 3 = 9$ and $x - 3 = -9$, then solve for $x$.",
+     "correct": false,
+     "explanation": "This treats the square root of $9$ as $9$. The square root is $3$, so the required equations are $x - 3 = 3$ and $x - 3 = -3$."
+    },
+    {
+     "text": "Square root both sides to get $x + 3 = 3$ and $x + 3 = -3$, then solve for $x$.",
+     "correct": false,
+     "explanation": "Taking square roots does not change $x - 3$ into $x + 3$. The bracketed expression remains $x - 3$, which must equal either $3$ or $-3$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "d41f9c39-5017-492f-aa18-4ca8dd26230e",
+   "card_type": "basic",
+   "front": "Given $a(x) = 3x - 4$ and $b(x) = kx^2$, how do you find $ab(2)$?",
+   "back": "Calculate $b(2) = 4k$Substitute $4k$ into function $a$: $3(4k) - 4$",
+   "options": [
+    {
+     "text": "Calculate $b(2) = 4k$Substitute $4k$ into function $a$: $3(4k) - 4$",
+     "correct": true,
+     "explanation": "The notation $ab(2)$ means $a(b(2))$, so evaluate the inner function first. Since $b(2)=k(2)^2=4k$, substituting into $a$ gives $3(4k)-4$."
+    },
+    {
+     "text": "Calculate $a(2) = 2$Substitute $2$ into function $b$: $k(2)^2$",
+     "correct": false,
+     "explanation": "This reverses the order of the composite functions and calculates $b(a(2))$. For $ab(2)=a(b(2))$, calculate $b(2)=4k$ first, then substitute $4k$ into $a$."
+    },
+    {
+     "text": "Calculate $b(2) = 2k$Substitute $2k$ into function $a$: $3(2k) - 4$",
+     "correct": false,
+     "explanation": "This forgets to square the input in $b(x)=kx^2$. Substituting $x=2$ gives $b(2)=k(2^2)=4k$, which is then substituted into $a$."
+    },
+    {
+     "text": "Calculate $b(2) = 4k$Substitute $4k$ into function $a$: $3(4k - 4)$",
+     "correct": false,
+     "explanation": "This incorrectly places the subtraction inside the multiplication by $3$. Since $a(x)=3x-4$, substituting $x=4k$ gives $3(4k)-4$, not $3(4k-4)$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "27b2a0ee-a1f1-4b3d-8af1-5bca58d0b8e5",
+   "card_type": "cloze",
+   "front": "In the absence of a restricted domain, the inverse of a quadratic like $f(x) = x^2 - 9$ is often given as the [ ___ ] square root.",
+   "back": "In the absence of a restricted domain, the inverse of a quadratic like $f(x) = x^2 - 9$ is often given as the non-negative square root.",
+   "options": [
+    {
+     "text": "non-negative",
+     "correct": true,
+     "explanation": "The principal square root is defined to produce values greater than or equal to zero. Therefore, the inverse branch of the quadratic is taken as the non-negative square root."
+    },
+    {
+     "text": "positive",
+     "correct": false,
+     "explanation": "The principal square root can equal zero, so describing it as positive is too restrictive. The inverse uses the non-negative square root, allowing outputs greater than or equal to zero."
+    },
+    {
+     "text": "negative",
+     "correct": false,
+     "explanation": "The negative square-root branch would produce values less than or equal to zero. By convention, the inverse is usually given using the principal, non-negative square root."
+    },
+    {
+     "text": "non-positive",
+     "correct": false,
+     "explanation": "Non-positive includes zero and negative values, which describes the lower square-root branch. The usual principal square root is non-negative, giving values greater than or equal to zero."
+    }
+   ]
+  },
+  {
+   "id": "2e35b059-4828-48b8-b286-9a47d1181857",
+   "card_type": "basic",
+   "front": "What does the statement $f(x) = g(x)$ require you to do algebraically?",
+   "back": "Set the formula for function $f$ equal to the formula for function $g$ and solve for $x$.",
+   "options": [
+    {
+     "text": "Set the formula for function $f$ equal to the formula for function $g$ and solve for $x$.",
+     "correct": true,
+     "explanation": "The equation states that both functions have the same output for particular input values. Equating their algebraic formulas and solving identifies every value of $x$ where their graphs intersect."
+    },
+    {
+     "text": "Substitute the formula for function $g$ into the formula for function $f$ and solve for $x$.",
+     "correct": false,
+     "explanation": "Substituting one function into another forms the composite function $f(g(x))$ rather than solving $f(x)=g(x)$. The two original formulas must instead be set equal."
+    },
+    {
+     "text": "Set the formula for function $f$ equal to the negative formula for function $g$ and solve for $x$.",
+     "correct": false,
+     "explanation": "Introducing a negative sign changes the equation to $f(x)=-g(x)$, which represents different output values. For $f(x)=g(x)$, equate the two formulas directly and solve for $x$."
+    },
+    {
+     "text": "Set the inverse formula for function $f$ equal to the formula for function $g$ and solve for $x$.",
+     "correct": false,
+     "explanation": "Using the inverse of $f$ changes the equation and is not required here. Replace $f(x)$ and $g(x)$ with their original formulas, set them equal, and solve for $x$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "2e3b0d2d-0f1e-4088-886e-5d0c1a353518",
+   "card_type": "basic",
+   "front": "If $f(x) = x^2 + 2$, what is the expression for $f(x-3)$?",
+   "back": "$$(x-3)^2 + 2$",
+   "options": [
+    {
+     "text": "$$(x-3)^2 + 2$",
+     "correct": true,
+     "explanation": "Replacing the input $x$ with $x-3$ means substituting $x-3$ everywhere $x$ appears in the function. Therefore, the squared term becomes $(x-3)^2$ while the constant remains $2$."
+    },
+    {
+     "text": "$$x^2 - 3 + 2$",
+     "correct": false,
+     "explanation": "This subtracts $3$ after squaring rather than replacing the function’s input. Substituting $x-3$ for $x$ makes the entire input squared, giving $(x-3)^2+2$."
+    },
+    {
+     "text": "$$(x+3)^2 + 2$",
+     "correct": false,
+     "explanation": "This reverses the sign of the substituted input. The expression requested is $f(x-3)$, so $x$ must be replaced by $x-3$, giving $(x-3)^2+2$."
+    },
+    {
+     "text": "$$(x-3)^2 - 2$",
+     "correct": false,
+     "explanation": "Substituting $x-3$ changes only occurrences of the input variable, not the separate constant term. The $+2$ remains unchanged, so the expression is $(x-3)^2+2$."
+    }
+   ],
+   "points": 2
+  }
+ ],
+ "card_count": 21,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-7-7-9-inverse-and-composite-functions/flashcards",
+ "source_sha256": "bca81eed2a9b63a4e4836041e106200c4ebfd73846cb1aff14be7ad61346a566",
+ "extracted_at": "2026-11-08T17:55:05Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}
