@@ -1,0 +1,153 @@
+{
+ "topic": "grade-5-5-6-changing-the-subject-of-a-formula",
+ "lane": "gcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "title": "Changing the Subject of a Formula",
+ "summary": "Rearranging formulas helps you isolate a chosen letter by undoing operations in the right order.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "e4be6492-65c7-485c-96df-8a88915ad41b",
+     "prompt": "Make $x$ the subject of $y = 5x - 8$.",
+     "options": [
+      {
+       "text": "$x = \\frac{y-8}{5}$",
+       "correct": false
+      },
+      {
+       "text": "$x = \\frac{y+8}{5}$",
+       "correct": true
+      },
+      {
+       "text": "$x = 5y+8$",
+       "correct": false
+      },
+      {
+       "text": "$x = \\frac{y}{5}-8$",
+       "correct": false
+      }
+     ],
+     "explanation": "Add $8$ to both sides to get $y+8=5x$, then divide by $5$. Therefore $x=\\frac{y+8}{5}$."
+    },
+    {
+     "id": "94dc66a5-ec8d-4bec-9827-3f3d25eb3251",
+     "prompt": "Make $b$ the subject of $v = 6(b - 2)$.",
+     "options": [
+      {
+       "text": "$b = \\frac{v}{6}+2$",
+       "correct": true
+      },
+      {
+       "text": "$b = \\frac{v}{6}-2$",
+       "correct": false
+      },
+      {
+       "text": "$b = 6v+2$",
+       "correct": false
+      },
+      {
+       "text": "$b = \\frac{v+2}{6}$",
+       "correct": false
+      }
+     ],
+     "explanation": "Divide both sides by $6$ first, giving $\\frac{v}{6}=b-2$, then add $2$."
+    },
+    {
+     "id": "ef851dc2-e265-4ff3-84f2-03dda6ce36ed",
+     "prompt": "Make $s$ the subject of $k = \\frac{r-5}{s}$, assuming $k \\neq 0$.",
+     "options": [
+      {
+       "text": "$s = \\frac{k}{r-5}$",
+       "correct": false
+      },
+      {
+       "text": "$s = k(r-5)$",
+       "correct": false
+      },
+      {
+       "text": "$s = \\frac{r-5}{k}$",
+       "correct": true
+      },
+      {
+       "text": "$s = \\frac{r+5}{k}$",
+       "correct": false
+      }
+     ],
+     "explanation": "Multiply both sides by $s$ to obtain $ks=r-5$, then divide both sides by $k$."
+    },
+    {
+     "id": "f7defe64-300c-4dad-a56f-b762df622585",
+     "prompt": "Make $p$ the subject of $C = 3q + 4p$.",
+     "options": [
+      {
+       "text": "$p = \\frac{C+3q}{4}$",
+       "correct": false
+      },
+      {
+       "text": "$p = C-\\frac{3q}{4}$",
+       "correct": false
+      },
+      {
+       "text": "$p = 4C-3q$",
+       "correct": false
+      },
+      {
+       "text": "$p = \\frac{C-3q}{4}$",
+       "correct": true
+      }
+     ],
+     "explanation": "Subtract $3q$ from both sides to get $C-3q=4p$, then divide the whole of $C-3q$ by $4$."
+    },
+    {
+     "id": "0a3ba381-015a-466a-841c-a2d38021ca0a",
+     "prompt": "Make $x$ the subject of $p = \\sqrt{\\frac{x^2+5}{2}}$.",
+     "options": [
+      {
+       "text": "$x = \\sqrt{2p^2-5}$",
+       "correct": false
+      },
+      {
+       "text": "$x = \\pm\\sqrt{2p^2-5}$",
+       "correct": true
+      },
+      {
+       "text": "$x = \\pm\\sqrt{\\frac{p^2-5}{2}}$",
+       "correct": false
+      },
+      {
+       "text": "$x = \\pm\\sqrt{2p-5}$",
+       "correct": false
+      }
+     ],
+     "explanation": "Square both sides, multiply by $2$, and subtract $5$ to get $x^2=2p^2-5$. Taking the square root gives both possibilities: $x=\\pm\\sqrt{2p^2-5}$."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/uLDLmsok-38"
+  },
+  {
+   "embed_url": "https://www.youtube.com/embed/ldfTxszHGtg"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-5-5-6-changing-the-subject-of-a-formula/revision-guides",
+ "source_sha256": "86edac576627b259d7bb40dcf8899e9d931fcd011fa77060932ee9eeb2fa73a8",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "06b942d1-681d-455c-8527-54fa09f246f0",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/changing-the-subject1.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207930275,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

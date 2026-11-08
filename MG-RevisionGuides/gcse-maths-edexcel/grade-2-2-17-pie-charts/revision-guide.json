@@ -1,0 +1,419 @@
+{
+ "topic": "grade-2-2-17-pie-charts",
+ "lane": "gcse-maths-edexcel",
+ "grade": "2",
+ "tier": null,
+ "title": "Pie Charts",
+ "summary": "Learn how to read slices, calculate sector angles, and draw clear pie charts for real data.",
+ "blocks": [
+  {
+   "kind": "paragraph",
+   "text": "A pie chart is a way to display data. A circle is split up to show the proportion of each different group."
+  },
+  {
+   "kind": "paragraph",
+   "text": "Here is a pie chart showing how some students traveled to school:"
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/001-pie-chart-1.jpg",
+   "alt": "pie chart 1"
+  },
+  {
+   "kind": "paragraph",
+   "text": "We can see from the pie chart the half of the students walked to school, one quarter cycled and one quarter got the bus.  \nThe pie chart does not tell us how many students are in each group, just the proportion."
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "cb0c7873-188e-4c30-83d9-611bdc6a1b40",
+     "prompt": "A sector in a pie chart has an angle of $90^\\circ$. What fraction of the whole circle does it represent?",
+     "options": [
+      {
+       "text": "$\\frac{1}{4}$",
+       "correct": true
+      },
+      {
+       "text": "$\\frac{1}{3}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{1}{2}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{3}{4}$",
+       "correct": false
+      }
+     ],
+     "explanation": "A full circle is $360^\\circ$, and $90^\\circ$ is one quarter of $360^\\circ$, so the sector represents $\\frac{1}{4}$ of the data."
+    },
+    {
+     "id": "f105e3d3-eac0-4a42-bc78-240ac74af9ce",
+     "prompt": "A pie chart represents 30 students. The sector for cats represents 8 students. What angle should the cats sector have?",
+     "options": [
+      {
+       "text": "$26.7^\\circ$",
+       "correct": false
+      },
+      {
+       "text": "$90^\\circ$",
+       "correct": false
+      },
+      {
+       "text": "$96^\\circ$",
+       "correct": true
+      },
+      {
+       "text": "$108^\\circ$",
+       "correct": false
+      }
+     ],
+     "explanation": "The cats sector is $\\frac{8}{30}$ of the circle, so its angle is $\\frac{8}{30}\\times360=96^\\circ$. The total angle is $360^\\circ$, not $100^\\circ$."
+    }
+   ]
+  },
+  {
+   "kind": "paragraph",
+   "text": "## Drawing Pie Charts"
+  },
+  {
+   "kind": "paragraph",
+   "text": "There are 360° in a circle. To draw a pie chart we split up the 360° between the different groups, how many degrees each group gets depends on the size of the group."
+  },
+  {
+   "kind": "worked-example",
+   "title": "Example 1: Here is a frequency table showing the favourite biscuit of some students",
+   "steps": [
+    {
+     "heading": null,
+     "body": "| Biscuit | Frequency |\n|",
+     "figure_refs": []
+    }
+   ]
+  },
+  {
+   "kind": "paragraph",
+   "text": "|"
+  },
+  {
+   "kind": "paragraph",
+   "text": "|\n| Bourbons | 5 |\n| Chocolate Digestives | 10 |\n| Custard Creams | 6 |\n| Shortbread | 9 |"
+  },
+  {
+   "kind": "heading",
+   "text": "Draw an accurate pie chart for this information"
+  },
+  {
+   "kind": "paragraph",
+   "text": "5 + 10 + 6 + 9 = 30  \nThere are 30 students in total."
+  },
+  {
+   "kind": "paragraph",
+   "text": "There are 360° which need to be shared out between the 30 students  \n360° ÷ 30 = 12°  \nEach student is worth 12° on the pie chart."
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "c1eeabbf-8465-45a9-8009-0bfa824ce832",
+     "prompt": "A class has 32 students. How many degrees should represent 8 students in a pie chart?",
+     "options": [
+      {
+       "text": "$45^\\circ$",
+       "correct": false
+      },
+      {
+       "text": "$90^\\circ$",
+       "correct": true
+      },
+      {
+       "text": "$120^\\circ$",
+       "correct": false
+      },
+      {
+       "text": "$180^\\circ$",
+       "correct": false
+      }
+     ],
+     "explanation": "Each student represents $360\\div32=11.25^\\circ$. Therefore, 8 students represent $8\\times11.25=90^\\circ$."
+    },
+    {
+     "id": "84cb7501-1fa3-494e-a349-40588e6c47f5",
+     "prompt": "In a pie chart, a sector of $120^\\circ$ represents 18 pupils. How many pupils are represented by the whole pie chart?",
+     "options": [
+      {
+       "text": "36",
+       "correct": false
+      },
+      {
+       "text": "48",
+       "correct": false
+      },
+      {
+       "text": "54",
+       "correct": true
+      },
+      {
+       "text": "60",
+       "correct": false
+      }
+     ],
+     "explanation": "Since $120^\\circ$ is one third of $360^\\circ$, 18 pupils are one third of the total. The total is $18\\times3=54$ pupils."
+    },
+    {
+     "id": "b362a593-5ded-4b47-823e-9886ab51fb3e",
+     "prompt": "A group of 40 students is represented by a pie chart. One category contains 10 students. What angle should this sector have?",
+     "options": [
+      {
+       "text": "$90^\\circ$",
+       "correct": true
+      },
+      {
+       "text": "$100^\\circ$",
+       "correct": false
+      },
+      {
+       "text": "$120^\\circ$",
+       "correct": false
+      },
+      {
+       "text": "$40^\\circ$",
+       "correct": false
+      }
+     ],
+     "explanation": "The category is $\\frac{10}{40}=\\frac14$ of the students. One quarter of $360^\\circ$ is $90^\\circ$."
+    }
+   ]
+  },
+  {
+   "kind": "paragraph",
+   "text": "Bourbons will have an angle of 5 × 12° = 60°  \nChocolate Digestives will have an angle of 10 × 12° = 120°  \nCustard Creams will have an angle of 6 × 12° = 72°  \nShortbread will have an angle of 9 × 12° = 108°"
+  },
+  {
+   "kind": "paragraph",
+   "text": "We can check that all the angles add up to 360° before drawing the pie chart:  \n60 + 120 + 72 + 108 = 360"
+  },
+  {
+   "kind": "paragraph",
+   "text": "We can now start to draw the pie chart, to measure the angles we use a protractor:"
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/002-protractor.jpg",
+   "alt": "protractor"
+  },
+  {
+   "kind": "paragraph",
+   "text": "We start with a circle with a radius drawn (a line from the centre of the circle to the circumference of the circle)"
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/003-pie-chart-3.jpg",
+   "alt": "pie chart 3"
+  },
+  {
+   "kind": "paragraph",
+   "text": "From this line we measure the first angle, we place the protractor at the centre of the circle lining up 0° with the radius we have drawn. We we measure around 60° from here and draw a line."
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/004-protractor3.JPG",
+   "alt": "protractor3"
+  },
+  {
+   "kind": "paragraph",
+   "text": "We label this first sector Bourbons.  \nTo measure the next angle we rotate the protractor to line up 0° with the line we have just drawn. We measure 120° and draw a line."
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/005-protractor4.JPG",
+   "alt": "protractor4"
+  },
+  {
+   "kind": "paragraph",
+   "text": "We label this sector Chocolate Digestives."
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/006-pie-chart-5.jpg",
+   "alt": "pie chart 5"
+  },
+  {
+   "kind": "paragraph",
+   "text": "We rotate the protractor again, lining 0° up with the line we have just drawn and measure the next angle of 72°. We label this sector Custard Creams."
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/007-pie-chart-6.jpg",
+   "alt": "pie chart 6"
+  },
+  {
+   "kind": "paragraph",
+   "text": "We can check that the angle left is equal to 108° for the final sector. We label the final sector Shortbread and the Pie Chart is complete."
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "29eab67e-2556-4d5b-848e-3b6dcd589449",
+     "prompt": "A sector of a pie chart measures $72^\\circ$. It represents 50 people. How many people are represented altogether?",
+     "options": [
+      {
+       "text": "180",
+       "correct": false
+      },
+      {
+       "text": "200",
+       "correct": false
+      },
+      {
+       "text": "250",
+       "correct": true
+      },
+      {
+       "text": "360",
+       "correct": false
+      }
+     ],
+     "explanation": "The sector is $\\frac{72}{360}=\\frac15$ of the circle. If $\\frac15$ represents 50 people, the total is $50\\times5=250$ people."
+    },
+    {
+     "id": "2c7573c4-af5f-4b45-b4eb-daed09fda997",
+     "prompt": "Two schools use pie charts to show the number of pupils choosing football. School A has 120 pupils and its football sector is $90^\\circ$. School B has 60 pupils and its football sector is $120^\\circ$. Which statement is true?",
+     "options": [
+      {
+       "text": "School B has 10 more football pupils.",
+       "correct": false
+      },
+      {
+       "text": "They have the same number of football pupils.",
+       "correct": false
+      },
+      {
+       "text": "School A has 10 more football pupils.",
+       "correct": true
+      },
+      {
+       "text": "The numbers cannot be compared.",
+       "correct": false
+      }
+     ],
+     "explanation": "School A has $\\frac{90}{360}\\times120=30$ football pupils. School B has $\\frac{120}{360}\\times60=20$, so School A has 10 more."
+    }
+   ]
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/008-pie-chart-7.jpg",
+   "alt": "pie chart 7"
+  },
+  {
+   "kind": "heading",
+   "text": "Try this:"
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "8518d722-07fd-4e22-beb3-f52ec157b21f",
+     "prompt": "A survey asked 240 students about their favourite sport. 60 students chose football. What angle would represent football on a pie chart?",
+     "options": [
+      {
+       "text": "90 degrees",
+       "correct": true
+      },
+      {
+       "text": "60 degrees",
+       "correct": false
+      },
+      {
+       "text": "45 degrees",
+       "correct": false
+      },
+      {
+       "text": "120 degrees",
+       "correct": false
+      }
+     ],
+     "explanation": null
+    },
+    {
+     "id": "8c69a43e-1412-4b0c-932b-840364b0cb9d",
+     "prompt": "A pie chart shows the results of a survey on favourite colours. The sector for 'red' has an angle of 144 degrees. If 150 people were surveyed in total, how many people chose 'red'?",
+     "options": [
+      {
+       "text": "60 people",
+       "correct": true
+      },
+      {
+       "text": "144 people",
+       "correct": false
+      },
+      {
+       "text": "30 people",
+       "correct": false
+      },
+      {
+       "text": "75 people",
+       "correct": false
+      }
+     ],
+     "explanation": null
+    },
+    {
+     "id": "ee5e4653-d5a6-46e3-a0e8-807dd1faf9d1",
+     "prompt": "In a pie chart representing modes of transport to school, the sector for 'cycling' has an angle of 72 degrees. If 40 students cycle to school, what is the total number of students surveyed?",
+     "options": [
+      {
+       "text": "200 students",
+       "correct": true
+      },
+      {
+       "text": "40 students",
+       "correct": false
+      },
+      {
+       "text": "160 students",
+       "correct": false
+      },
+      {
+       "text": "180 students",
+       "correct": false
+      }
+     ],
+     "explanation": null
+    }
+   ]
+  },
+  {
+   "kind": "paragraph",
+   "text": "70:[\"$\",\"$L87\",null,{\"bundl"
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/bzJpM5S4Um4?ecver=1"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-2-2-17-pie-charts/revision-guides",
+ "source_sha256": "e1e6a28bd0de6a89600564828b80c915d11ebff09f6bd13660c47cf241efc777",
+ "extracted_at": "2026-11-08T17:51:37Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "c5caea57-1eaf-43c3-a3da-7838f118584e",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/pie-charts.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207925147,
+  "figure_count": 8,
+  "block_counts": {
+   "paragraph": 19,
+   "figure": 8,
+   "mcq-set": 4,
+   "worked-example": 1,
+   "heading": 2
+  }
+ }
+}

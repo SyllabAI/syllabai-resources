@@ -1,0 +1,150 @@
+{
+ "topic": "grade-8-9-8-5-the-nth-term-of-a-quadratic-sequence",
+ "lane": "gcse-maths-edexcel",
+ "grade": "8",
+ "tier": null,
+ "title": "The Nth Term of a Quadratic Sequence",
+ "summary": "Learn how second differences lead to the formula for any quadratic sequence.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "59e98806-e9c7-4a17-a6e1-2e7d3e9d04d3",
+     "prompt": "The nth term of a sequence is $2n^2 + 3n - 1$. What is the 5th term?",
+     "options": [
+      {
+       "text": "24",
+       "correct": false
+      },
+      {
+       "text": "43",
+       "correct": false
+      },
+      {
+       "text": "64",
+       "correct": true
+      },
+      {
+       "text": "114",
+       "correct": false
+      }
+     ],
+     "explanation": "Substitute $n=5$, applying the square first: $2(5^2)+3(5)-1=50+15-1=64$."
+    },
+    {
+     "id": "dc14c0b4-5543-43de-a336-3acb2fb575a0",
+     "prompt": "The sequence $6, 14, 26, 42, \\ldots$ is quadratic. What is the coefficient of $n^2$ in its nth term?",
+     "options": [
+      {
+       "text": "4",
+       "correct": false
+      },
+      {
+       "text": "8",
+       "correct": false
+      },
+      {
+       "text": "$-2$",
+       "correct": false
+      },
+      {
+       "text": "2",
+       "correct": true
+      }
+     ],
+     "explanation": "The first differences are $8,12,16$, so the constant second difference is $4$. The coefficient of $n^2$ is half the second difference, so it is $2$."
+    },
+    {
+     "id": "2557190b-03aa-4f34-a399-4709e25f74a9",
+     "prompt": "A quadratic sequence begins $4, 9, 16, 25, \\ldots$. What are the next two terms?",
+     "options": [
+      {
+       "text": "$36, 49$",
+       "correct": true
+      },
+      {
+       "text": "$34, 45$",
+       "correct": false
+      },
+      {
+       "text": "$35, 48$",
+       "correct": false
+      },
+      {
+       "text": "$36, 47$",
+       "correct": false
+      }
+     ],
+     "explanation": "The first differences are $5,7,9$, increasing by $2$ each time. The next differences are therefore $11$ and $13$, giving $25+11=36$ and $36+13=49$."
+    },
+    {
+     "id": "3d313c6a-03e1-4fea-a6e2-987bab17390a",
+     "prompt": "Find the nth term of the quadratic sequence $10, 7, 2, -5, \\ldots$",
+     "options": [
+      {
+       "text": "$n^2+9$",
+       "correct": false
+      },
+      {
+       "text": "$-n^2+11$",
+       "correct": true
+      },
+      {
+       "text": "$-n^2+9$",
+       "correct": false
+      },
+      {
+       "text": "$-n^2-11$",
+       "correct": false
+      }
+     ],
+     "explanation": "The first differences are $-3,-5,-7$, so the second difference is $-2$ and the quadratic part is $-n^2$. Comparing $-1,-4,-9,-16$ with the sequence shows that $11$ must be added, giving $-n^2+11$."
+    },
+    {
+     "id": "b09f3386-1884-4811-aabe-0c489ca958ca",
+     "prompt": "A sequence has nth term $n^2+4n+3$. Which term has value $63$?",
+     "options": [
+      {
+       "text": "The 10th term",
+       "correct": false
+      },
+      {
+       "text": "There is no such term",
+       "correct": false
+      },
+      {
+       "text": "The 6th term",
+       "correct": true
+      },
+      {
+       "text": "The 8th term",
+       "correct": false
+      }
+     ],
+     "explanation": "Set $n^2+4n+3=63$. This gives $n^2+4n-60=0$, which factorises to $(n+10)(n-6)=0$. Since a term number must be positive, $n=6$."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/3oFGZDamTDM"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-8-9-8-5-the-nth-term-of-a-quadratic-sequence/revision-guides",
+ "source_sha256": "87ccd29db403375c4d9fe2899e19a2227fafed7dd5e94c7527fc4569ba624068",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "825d58e5-be73-4900-9fff-25d1fdbed62e",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/quadratic-nth-term.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207933445,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

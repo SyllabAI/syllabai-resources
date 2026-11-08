@@ -1,0 +1,155 @@
+{
+ "topic": "grade-6-6-11-cumulative-frequency",
+ "lane": "gcse-maths-edexcel",
+ "grade": "6",
+ "tier": null,
+ "title": "Cumulative Frequency",
+ "summary": "Turn grouped data into running-total graphs that reveal medians, quartiles and spread.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "8a5a222a-8839-4f8b-a41e-2f91c41d0e01",
+     "prompt": "The frequencies for the intervals 0–10, 10–20, 20–30 and 30–40 are 4, 7, 11 and 6. What is the cumulative frequency up to 30?",
+     "options": [
+      {
+       "text": "11",
+       "correct": false
+      },
+      {
+       "text": "18",
+       "correct": false
+      },
+      {
+       "text": "22",
+       "correct": true
+      },
+      {
+       "text": "28",
+       "correct": false
+      }
+     ],
+     "explanation": "Up to 30 includes the first three intervals, so the cumulative frequency is $4+7+11=22$."
+    },
+    {
+     "id": "d058978a-7e4e-4c7f-94b9-3a8946b67795",
+     "prompt": "The cumulative frequency up to the class interval 30–40 is 29. Which point should be plotted on a cumulative frequency graph?",
+     "options": [
+      {
+       "text": "$(40,29)$",
+       "correct": true
+      },
+      {
+       "text": "$(35,29)$",
+       "correct": false
+      },
+      {
+       "text": "$(30,29)$",
+       "correct": false
+      },
+      {
+       "text": "$(29,40)$",
+       "correct": false
+      }
+     ],
+     "explanation": "A cumulative frequency is plotted against the upper class boundary. The upper boundary is 40, so the point is $(40,29)$."
+    },
+    {
+     "id": "2e51f430-6d44-4a76-ab47-5420c369b968",
+     "prompt": "The cumulative frequency up to 20 minutes is 14 and the cumulative frequency up to 30 minutes is 35. How many values are in the interval 20–30 minutes?",
+     "options": [
+      {
+       "text": "14",
+       "correct": false
+      },
+      {
+       "text": "35",
+       "correct": false
+      },
+      {
+       "text": "49",
+       "correct": false
+      },
+      {
+       "text": "21",
+       "correct": true
+      }
+     ],
+     "explanation": "Subtract consecutive cumulative frequencies to find the class frequency: $35-14=21$."
+    },
+    {
+     "id": "133e87e0-7e70-48dd-b7c1-608fc2ccc0df",
+     "prompt": "A cumulative frequency graph represents 80 values. At which cumulative frequencies should you read off $Q_1$, the median and $Q_3$?",
+     "options": [
+      {
+       "text": "10, 40, 70",
+       "correct": false
+      },
+      {
+       "text": "20, 40, 60",
+       "correct": true
+      },
+      {
+       "text": "20, 60, 80",
+       "correct": false
+      },
+      {
+       "text": "40, 60, 80",
+       "correct": false
+      }
+     ],
+     "explanation": "Use $N/4$, $N/2$ and $3N/4$. For $N=80$, these are 20, 40 and 60."
+    },
+    {
+     "id": "737cc13c-a611-423f-aed7-8f84de654adb",
+     "prompt": "Group A has median 52, $Q_1=38$ and $Q_3=67$. Group B has median 55, $Q_1=44$ and $Q_3=64$. Which comparison is correct?",
+     "options": [
+      {
+       "text": "Group A has the higher median and smaller IQR",
+       "correct": false
+      },
+      {
+       "text": "Group A has the higher median and larger IQR",
+       "correct": false
+      },
+      {
+       "text": "Group B has the higher median and smaller IQR",
+       "correct": true
+      },
+      {
+       "text": "Group B has the higher median and larger IQR",
+       "correct": false
+      }
+     ],
+     "explanation": "Group B has the higher median because $55>52$. Its IQR is $64-44=20$, which is smaller than Group A's IQR of $67-38=29$."
+    }
+   ]
+  },
+  {
+   "kind": "paragraph",
+   "text": "70:[\"$\",\"$L8"
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/bJbJ_GElF80"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-6-6-11-cumulative-frequency/revision-guides",
+ "source_sha256": "92b6e2f1cc4d7e86f3b39f2a858e670b4fa1d7d752c1b7859237437417168f38",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "7ff8f5c2-5a4f-44a9-a92c-24b58fc155cc",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/cumulative.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207930884,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1,
+   "paragraph": 1
+  }
+ }
+}

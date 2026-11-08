@@ -1,0 +1,155 @@
+{
+ "topic": "grade-6-6-8-similar-shapes-area-and-volume",
+ "lane": "gcse-maths-edexcel",
+ "grade": "6",
+ "tier": null,
+ "title": "Similar Shapes (Area and Volume)",
+ "summary": "Learn how length scale factors affect area and volume in similar 3D shapes.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "032d7ed7-28fc-4378-ac3c-79ac2131a72a",
+     "prompt": "Two similar cylinders have radii 3 cm and 7.5 cm. The smaller cylinder has height 8 cm. What is the height of the larger cylinder?",
+     "options": [
+      {
+       "text": "12.5 cm",
+       "correct": false
+      },
+      {
+       "text": "20 cm",
+       "correct": true
+      },
+      {
+       "text": "3.2 cm",
+       "correct": false
+      },
+      {
+       "text": "50 cm",
+       "correct": false
+      }
+     ],
+     "explanation": "The length scale factor is $7.5 \\div 3=2.5$. Corresponding lengths use the same scale factor, so the height is $8\\times2.5=20$ cm."
+    },
+    {
+     "id": "095c1b05-63be-47b4-ba30-edada3fca7c8",
+     "prompt": "A solid is enlarged with length scale factor 3. Its original surface area is 18 cm². What is its enlarged surface area?",
+     "options": [
+      {
+       "text": "54 cm²",
+       "correct": false
+      },
+      {
+       "text": "486 cm²",
+       "correct": false
+      },
+      {
+       "text": "1620 cm²",
+       "correct": false
+      },
+      {
+       "text": "162 cm²",
+       "correct": true
+      }
+     ],
+     "explanation": "The area scale factor is the square of the length scale factor: $3^2=9$. Therefore, the enlarged surface area is $18\\times9=162$ cm²."
+    },
+    {
+     "id": "d118141b-0be0-4854-929d-1f38cd171280",
+     "prompt": "Two similar solids have corresponding lengths of 15 cm and 10 cm. The solid with length 15 cm has a volume of 675 cm³. What is the volume of the solid with length 10 cm?",
+     "options": [
+      {
+       "text": "200 cm³",
+       "correct": true
+      },
+      {
+       "text": "300 cm³",
+       "correct": false
+      },
+      {
+       "text": "450 cm³",
+       "correct": false
+      },
+      {
+       "text": "1012.5 cm³",
+       "correct": false
+      }
+     ],
+     "explanation": "The length scale factor is $10\\div15=\\frac{2}{3}$, so the volume scale factor is $\\left(\\frac{2}{3}\\right)^3=\\frac{8}{27}$. Thus, the volume is $675\\times\\frac{8}{27}=200$ cm³."
+    },
+    {
+     "id": "5423d7f1-07f7-43f3-9df4-9d78a14b572e",
+     "prompt": "Similar solids P and Q have surface areas 64 cm² and 100 cm² respectively. The volume of P is 256 cm³. What is the volume of Q?",
+     "options": [
+      {
+       "text": "400 cm³",
+       "correct": false
+      },
+      {
+       "text": "625 cm³",
+       "correct": false
+      },
+      {
+       "text": "500 cm³",
+       "correct": true
+      },
+      {
+       "text": "800 cm³",
+       "correct": false
+      }
+     ],
+     "explanation": "The area scale factor is $\\frac{100}{64}=\\frac{25}{16}$, so the length scale factor is $\\sqrt{\\frac{25}{16}}=\\frac{5}{4}$. The volume scale factor is $\\left(\\frac{5}{4}\\right)^3=\\frac{125}{64}$, giving $256\\times\\frac{125}{64}=500$ cm³."
+    },
+    {
+     "id": "93df4995-b541-4597-9d29-716559ca578d",
+     "prompt": "A frustum is formed by removing a small cone from a similar large cone. The large cone has height 15 cm and diameter 12 cm. The removed cone has height 5 cm and diameter 4 cm. What is the volume of the frustum?",
+     "options": [
+      {
+       "text": "$160π$ cm³",
+       "correct": false
+      },
+      {
+       "text": "$520π$ cm³",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{160}{3}π$ cm³",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{520}{3}π$ cm³",
+       "correct": true
+      }
+     ],
+     "explanation": "The radii are 6 cm and 2 cm. The cone volumes are $\\frac{1}{3}π(6^2)(15)=180π$ and $\\frac{1}{3}π(2^2)(5)=\\frac{20}{3}π$. Subtracting gives $180π-\\frac{20}{3}π=\\frac{520}{3}π$ cm³."
+    }
+   ]
+  },
+  {
+   "kind": "paragraph",
+   "text": "70:[\"$\",\"$L87\",null,{\"bundle\":{\"topi"
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/jEmnqmc4AWs"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-6-6-8-similar-shapes-area-and-volume/revision-guides",
+ "source_sha256": "76da39897a1af19a6ed918534626b274add4e5f414833fa5dd7522942a042e32",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "a8f584bd-bf3c-4028-aeee-97b407fb6208",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/similar-shapes-area-volume.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207931544,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1,
+   "paragraph": 1
+  }
+ }
+}

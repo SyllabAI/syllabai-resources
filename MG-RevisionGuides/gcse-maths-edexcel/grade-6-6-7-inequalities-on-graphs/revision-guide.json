@@ -1,0 +1,150 @@
+{
+ "topic": "grade-6-6-7-inequalities-on-graphs",
+ "lane": "gcse-maths-edexcel",
+ "grade": "6",
+ "tier": null,
+ "title": "Inequalities on Graphs",
+ "summary": null,
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "b568bd7f-812e-4e84-bb39-e78dcf0c7c2c",
+     "prompt": "A graph has a solid vertical boundary line at $x=3$, with the region to the right shaded. Which inequality does it represent?",
+     "options": [
+      {
+       "text": "$x<3$",
+       "correct": false
+      },
+      {
+       "text": "$x\\leq 3$",
+       "correct": false
+      },
+      {
+       "text": "$x\\geq 3$",
+       "correct": true
+      },
+      {
+       "text": "$x>3$",
+       "correct": false
+      }
+     ],
+     "explanation": "Points to the right have $x$-coordinates greater than $3$. The solid line means points where $x=3$ are included, so the inequality is $x\\geq 3$."
+    },
+    {
+     "id": "a8254336-f730-43fe-a9b8-f81abb1ff423",
+     "prompt": "A graph has a dashed horizontal boundary line at $y=-2$, with the region below the line shaded. Which inequality does it represent?",
+     "options": [
+      {
+       "text": "$y<-2$",
+       "correct": true
+      },
+      {
+       "text": "$y\\leq -2$",
+       "correct": false
+      },
+      {
+       "text": "$y>-2$",
+       "correct": false
+      },
+      {
+       "text": "$y\\geq -2$",
+       "correct": false
+      }
+     ],
+     "explanation": "Points below the line have $y$-coordinates less than $-2$. The dashed line means the boundary is not included, so $y<-2$."
+    },
+    {
+     "id": "48c93c17-f7b3-4801-86b7-855c2716db05",
+     "prompt": "Which point lies in the region represented by $y>2x+1$?",
+     "options": [
+      {
+       "text": "$(0,1)$",
+       "correct": false
+      },
+      {
+       "text": "$(-1,-2)$",
+       "correct": false
+      },
+      {
+       "text": "$(2,5)$",
+       "correct": false
+      },
+      {
+       "text": "$(1,4)$",
+       "correct": true
+      }
+     ],
+     "explanation": "For $(1,4)$, substituting gives $4>2(1)+1$, so $4>3$, which is true. The points $(0,1)$ and $(2,5)$ lie on the boundary and are not included because the inequality is strict."
+    },
+    {
+     "id": "ad4670dd-2256-40f3-b732-345bf56722d5",
+     "prompt": "The solid line $y=3x-2$ is drawn, and the side containing the origin is shaded. Which inequality represents the shaded region?",
+     "options": [
+      {
+       "text": "$y<3x-2$",
+       "correct": false
+      },
+      {
+       "text": "$y\\geq 3x-2$",
+       "correct": true
+      },
+      {
+       "text": "$y>3x-2$",
+       "correct": false
+      },
+      {
+       "text": "$y\\leq 3x-2$",
+       "correct": false
+      }
+     ],
+     "explanation": "Test the origin $(0,0)$: $0\\geq 3(0)-2$ gives $0\\geq -2$, which is true. The line is solid, so equality is included and the inequality is $y\\geq 3x-2$."
+    },
+    {
+     "id": "5c74f765-7f74-48c0-8940-7ec352b366b9",
+     "prompt": "Which point satisfies both $x+y\\leq 6$ and $y>x$?",
+     "options": [
+      {
+       "text": "$(3,3)$",
+       "correct": false
+      },
+      {
+       "text": "$(4,3)$",
+       "correct": false
+      },
+      {
+       "text": "$(2,3)$",
+       "correct": true
+      },
+      {
+       "text": "$(1,6)$",
+       "correct": false
+      }
+     ],
+     "explanation": "For $(2,3)$, $2+3=5\\leq 6$ and $3>2$, so both inequalities are satisfied. Each other point fails at least one of the inequalities."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/yiIcL1-9FUI"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-6-6-7-inequalities-on-graphs/revision-guides",
+ "source_sha256": "2d4c2989d0eeabd2ac7a3e5bb131d03b889ef6a316e9e593574b998155deb0c8",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "8ad608f3-10f8-44d4-95ad-4021c66854ed",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/inequalities-on-graphs.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207931522,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

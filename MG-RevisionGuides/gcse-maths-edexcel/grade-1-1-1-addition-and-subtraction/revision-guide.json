@@ -1,0 +1,536 @@
+{
+ "topic": "grade-1-1-1-addition-and-subtraction",
+ "lane": "gcse-maths-edexcel",
+ "grade": "1",
+ "tier": null,
+ "title": "Addition and Subtraction",
+ "summary": "Learn reliable column methods for whole numbers, decimals and money so your answers stay accurate.",
+ "blocks": [
+  {
+   "kind": "paragraph",
+   "text": "Column addition is a written method we can use to add numbers."
+  },
+  {
+   "kind": "worked-example",
+   "title": "Example 1: 5728 + 345",
+   "steps": [
+    {
+     "heading": "Step 1",
+     "body": "Rewrite the question in columns (one number on top of the other): we need to line up the ones with the ones, the tens with the tens, the hundreds with the hundreds and the thousands with the thousands. It doesn't matter that 345 has no thousands, we can either leave a gap or write a zero.",
+     "figure_refs": [
+      "assets/001-column-addition.jpg"
+     ]
+    },
+    {
+     "heading": "Step 2",
+     "body": "Starting with the smallest column (on the right) we add down the columns.\nThe smallest column is the ones. 8 + 5 = 13\nWe write the 3 in the ones and carry the 1 (which is worth ten) over to the tens column.",
+     "figure_refs": [
+      "assets/002-column-addition2.jpg"
+     ]
+    },
+    {
+     "heading": "Step 3",
+     "body": "As we work from right to left, the next column is the tens.\n2 + 4 + 1 = 7",
+     "figure_refs": [
+      "assets/003-column-addition3.jpg"
+     ]
+    },
+    {
+     "heading": "Step 4",
+     "body": "The next column is the hundreds.\n7 + 3 = 10\nWe write the zero in the hundreds column and carry the 1 over to the next column, the thousands column (The 1 is worth 1000 because we were adding hundreds, 700 + 300 = 1000)",
+     "figure_refs": [
+      "assets/004-column-addition4.jpg"
+     ]
+    },
+    {
+     "heading": "Step 5",
+     "body": "The next column is the thousands. 5 + 1 = 6\n\n\n\n**5728 + 345 = 6073**",
+     "figure_refs": [
+      "assets/005-column-addition5.jpg"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "worked-example",
+   "title": "Example 2: 24.52 + 19.7",
+   "steps": [
+    {
+     "heading": null,
+     "body": "It doesn't matter if we have decimals we are still following the same steps.",
+     "figure_refs": []
+    },
+    {
+     "heading": "Step 1",
+     "body": "Rewrite the question in columns (one number on top of the other). This time we are lining up the tens with tens, the ones with the ones, the decimal point with the decimal point, the tenths with the tenths and the hundredths with the hundredths. It doesn't matter that 19.7 has no hundredths, we can either leave a gap or write a zero.",
+     "figure_refs": [
+      "assets/006-column-addition6.jpg"
+     ]
+    },
+    {
+     "heading": "Step 2",
+     "body": "Starting on the right, we add down the columns.\nThe smallest column is the hundredths.\n2 + 0 = 2",
+     "figure_refs": [
+      "assets/007-column-addition7.jpg"
+     ]
+    },
+    {
+     "heading": "Step 3",
+     "body": "As we work from right to left, the next column is the tenths.\n5 + 7 = 12\nWe write the 2 in the tenths column and we carry the 1 over to the ones column. (The 1 is worth 1 because we actually added 0.5 and 0.7 which is 1.2)\nThe decimal point will stay in the same place.",
+     "figure_refs": [
+      "assets/008-column-addition8.jpg"
+     ]
+    },
+    {
+     "heading": "Step 4",
+     "body": "The next column is the ones. 4 + 9 + 1 = 14\nWe write the 4 in the ones column and carry the 1 over to the next column, the tens column.",
+     "figure_refs": [
+      "assets/009-column-addition9.jpg"
+     ]
+    },
+    {
+     "heading": "Step 5",
+     "body": "The next column is the tens. 2 + 1 + 1 = 4\n\n\n\n**24.52 + 19.7 = 44.22**",
+     "figure_refs": [
+      "assets/010-column-addition10.jpg"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "a920b021-a72d-47d3-afa8-e40fbbfa57c6",
+     "prompt": "Work out $468 + 257$.",
+     "options": [
+      {
+       "text": "715",
+       "correct": false
+      },
+      {
+       "text": "725",
+       "correct": true
+      },
+      {
+       "text": "735",
+       "correct": false
+      },
+      {
+       "text": "815",
+       "correct": false
+      }
+     ],
+     "explanation": "Add the ones first: $8+7=15$, writing 5 and carrying 1. Then $6+5+1=12$, writing 2 and carrying 1, so the answer is $725$."
+    },
+    {
+     "id": "75da92d2-8d20-4847-93c7-6a656fce27b9",
+     "prompt": "Work out $7.08 + 2.6$.",
+     "options": [
+      {
+       "text": "9.14",
+       "correct": false
+      },
+      {
+       "text": "9.58",
+       "correct": false
+      },
+      {
+       "text": "9.68",
+       "correct": true
+      },
+      {
+       "text": "10.68",
+       "correct": false
+      }
+     ],
+     "explanation": "Write $2.6$ as $2.60$ and line up the decimal points. Then $7.08+2.60=9.68$; treating the 6 as hundredths would give the incorrect answer $9.14$."
+    },
+    {
+     "id": "3487c52c-ffda-488d-bec6-c972ecda9823",
+     "prompt": "A book costs £12.50 and a game costs £7.85. You pay with £25. How much change should you receive?",
+     "options": [
+      {
+       "text": "£5.35",
+       "correct": false
+      },
+      {
+       "text": "£19.65",
+       "correct": false
+      },
+      {
+       "text": "£4.35",
+       "correct": false
+      },
+      {
+       "text": "£4.65",
+       "correct": true
+      }
+     ],
+     "explanation": "First add the costs: £12.50 + £7.85 = £20.35. Then subtract this from £25.00: £25.00 − £20.35 = £4.65."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "text": "Try these:"
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "b0ca657a-f430-4ee2-9462-a00e34067dbc",
+     "prompt": "What is the sum of 345 and 678?",
+     "options": [
+      {
+       "text": "913",
+       "correct": false
+      },
+      {
+       "text": "1013",
+       "correct": false
+      },
+      {
+       "text": "1023",
+       "correct": true
+      },
+      {
+       "text": "1024",
+       "correct": false
+      }
+     ],
+     "explanation": null
+    },
+    {
+     "id": "e6d4191a-21b0-4939-be98-94b418c5e83c",
+     "prompt": "Calculate 803 - 247.",
+     "options": [
+      {
+       "text": "556",
+       "correct": true
+      },
+      {
+       "text": "566",
+       "correct": false
+      },
+      {
+       "text": "656",
+       "correct": false
+      },
+      {
+       "text": "546",
+       "correct": false
+      }
+     ],
+     "explanation": null
+    },
+    {
+     "id": "e8890f1b-eb41-4f0d-b16d-4aef62a2c0b3",
+     "prompt": "A shop sold 157 apples on Monday and 238 apples on Tuesday. How many apples were sold in total over the two days?",
+     "options": [
+      {
+       "text": "385",
+       "correct": false
+      },
+      {
+       "text": "395",
+       "correct": true
+      },
+      {
+       "text": "405",
+       "correct": false
+      },
+      {
+       "text": "81",
+       "correct": false
+      }
+     ],
+     "explanation": null
+    }
+   ]
+  },
+  {
+   "kind": "paragraph",
+   "text": "We can also subtract numbers using the column method."
+  },
+  {
+   "kind": "worked-example",
+   "title": "Example 1: 536 - 287",
+   "steps": [
+    {
+     "heading": "Step 1",
+     "body": "Rewrite the question in columns (one number on top of the other): we need to line up the ones with the ones, the tens with the tens and the hundreds with the hundreds. The first number has to be on top, and the number we are taking away must be on the bottom.",
+     "figure_refs": [
+      "assets/011-subtraction1.jpg"
+     ]
+    },
+    {
+     "heading": "Step 2",
+     "body": "Starting with the smallest digits (the column on the right) we subtract the bottom number from the top number.\nThe smallest column is the ones, we have 6 - 7\n6 - 7 would give us a negative answer, to avoid that we can take one of the tens (from the top number) and add it to the ones column (where it is worth 10). Instead of having 500 + 30 + 6 we now have 500 + 20 + 16",
+     "figure_refs": [
+      "assets/012-subtraction2.jpg"
+     ]
+    },
+    {
+     "heading": "Step 3",
+     "body": "We now have 16 - 7 in the ones column. 16 - 7 = 9",
+     "figure_refs": [
+      "assets/013-subtraction3.jpg"
+     ]
+    },
+    {
+     "heading": "Step 4",
+     "body": "The next column is the tens. We now have 2 - 8 which would be negative. Instead we can take one off of the hundreds and add it to the tens.\nWe can change 500 + 20 + 16 to 400 + 120 + 16",
+     "figure_refs": [
+      "assets/014-subtraction4.jpg"
+     ]
+    },
+    {
+     "heading": "Step 5",
+     "body": "We now have 12 - 8 in the tens column. 12 - 8 = 4",
+     "figure_refs": [
+      "assets/015-subtraction5.jpg"
+     ]
+    },
+    {
+     "heading": "Step 6",
+     "body": "We now have 4 - 2 in the hundreds column. 4 - 2 = 2\n\n\n\n**536 - 287 = 249**",
+     "figure_refs": [
+      "assets/016-subtraction6.jpg"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "worked-example",
+   "title": "Example 2: 54.7 - 28.36",
+   "steps": [
+    {
+     "heading": "Step 1",
+     "body": "Rewrite the question in columns (the first number on top of the second number). This time we are lining up the tens with tens, the ones with the ones, the decimal point with the decimal point, the tenths with the tenths and the hundredths with the hundredths. 54.7 has no hundredths so we can write a zero there.",
+     "figure_refs": [
+      "assets/017-subtraction7.jpg"
+     ]
+    },
+    {
+     "heading": "Step 2",
+     "body": "We start with the column on the right (the hundredths) and subtract the bottom number from the top number. In the hundredths column we have 0 - 6, we don't want to do this so we take one from the tenths column and add it to the hundredths column.",
+     "figure_refs": [
+      "assets/018-subtraction8.jpg"
+     ]
+    },
+    {
+     "heading": "Step 3",
+     "body": "We now have 10 - 6 in the hundredths column. 10 - 6 = 4",
+     "figure_refs": [
+      "assets/019-subtraction9.jpg"
+     ]
+    },
+    {
+     "heading": "Step 4",
+     "body": "The next column is the tenths. 6 - 3 = 3",
+     "figure_refs": [
+      "assets/020-subtraction10.jpg"
+     ]
+    },
+    {
+     "heading": "Step 5",
+     "body": "The next column is the ones. We do not want to do 4 - 8. Instead we take one from the tens column and add it to the ones column.",
+     "figure_refs": [
+      "assets/021-subtraction11.jpg"
+     ]
+    },
+    {
+     "heading": "Step 6",
+     "body": "We now have 14 - 8 in the ones column. 14 - 8 = 6",
+     "figure_refs": [
+      "assets/022-subtraction12.jpg"
+     ]
+    },
+    {
+     "heading": "Step 7",
+     "body": "The next column is the tens. 4 - 2 = 2\n\n**54.7 - 28.36 = 26.34**",
+     "figure_refs": []
+    }
+   ]
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "32c23646-4370-46c2-bf0f-721bf38929c3",
+     "prompt": "Work out $702 - 358$.",
+     "options": [
+      {
+       "text": "344",
+       "correct": true
+      },
+      {
+       "text": "354",
+       "correct": false
+      },
+      {
+       "text": "444",
+       "correct": false
+      },
+      {
+       "text": "324",
+       "correct": false
+      }
+     ],
+     "explanation": "Exchange through the zero: $702$ becomes $600+90+12$. Then $12-8=4$, $9-5=4$ and $6-3=3$, giving $344$."
+    },
+    {
+     "id": "ca282ff1-150f-4092-9100-2b52d1e0736f",
+     "prompt": "Work out $63.2 - 17.85$.",
+     "options": [
+      {
+       "text": "45.25",
+       "correct": false
+      },
+      {
+       "text": "46.35",
+       "correct": false
+      },
+      {
+       "text": "45.35",
+       "correct": true
+      },
+      {
+       "text": "46.25",
+       "correct": false
+      }
+     ],
+     "explanation": "Write $63.2$ as $63.20$ so the decimal places line up. Subtracting gives $63.20-17.85=45.35$; the extra zero is needed to subtract hundredths correctly."
+    },
+    {
+     "id": "8db981f5-95b0-4e7e-9365-00f760272ab1",
+     "prompt": "The temperature is $18.5^\\circ\\text{C}$. It falls by $6.75^\\circ\\text{C}$. What is the new temperature?",
+     "options": [
+      {
+       "text": "12.25°C",
+       "correct": false
+      },
+      {
+       "text": "11.75°C",
+       "correct": true
+      },
+      {
+       "text": "11.85°C",
+       "correct": false
+      },
+      {
+       "text": "25.25°C",
+       "correct": false
+      }
+     ],
+     "explanation": "Subtract the fall from the original temperature: $18.50-6.75=11.75$. The temperature is therefore $11.75^\\circ\\text{C}$."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "text": "Try these:"
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "ea7ba6ca-dc91-4fe2-8c9d-6b119ca02be7",
+     "prompt": "Calculate 5728 + 345.",
+     "options": [
+      {
+       "text": "6073",
+       "correct": true
+      },
+      {
+       "text": "5073",
+       "correct": false
+      },
+      {
+       "text": "6063",
+       "correct": false
+      },
+      {
+       "text": "6173",
+       "correct": false
+      }
+     ],
+     "explanation": null
+    },
+    {
+     "id": "486516cd-288d-460c-90db-e5c897bd8c5d",
+     "prompt": "Calculate 800 - 123.",
+     "options": [
+      {
+       "text": "677",
+       "correct": true
+      },
+      {
+       "text": "787",
+       "correct": false
+      },
+      {
+       "text": "687",
+       "correct": false
+      },
+      {
+       "text": "673",
+       "correct": false
+      }
+     ],
+     "explanation": null
+    },
+    {
+     "id": "3a134351-333e-4910-a1be-6aaf1c83683c",
+     "prompt": "A shop had 125 apples. They sold 48 apples and then received a new delivery of 75 apples. How many apples do they have now?",
+     "options": [
+      {
+       "text": "152",
+       "correct": true
+      },
+      {
+       "text": "248",
+       "correct": false
+      },
+      {
+       "text": "98",
+       "correct": false
+      },
+      {
+       "text": "151",
+       "correct": false
+      }
+     ],
+     "explanation": null
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/Ei0QuIQEZFk"
+  },
+  {
+   "embed_url": "https://www.youtube.com/embed/31XN24rZHHI"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-1-1-1-addition-and-subtraction/revision-guides",
+ "source_sha256": "82c3d4357a6f4f239f508165e82903dd60cad2a71a35b0c542b2383676db3130",
+ "extracted_at": "2026-11-08T17:51:37Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "777bc7ec-4942-4e8e-937d-bc9a554d2f33",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/addition-and-subtraction.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207923709,
+  "figure_count": 22,
+  "block_counts": {
+   "paragraph": 2,
+   "worked-example": 4,
+   "mcq-set": 4,
+   "heading": 2
+  }
+ }
+}

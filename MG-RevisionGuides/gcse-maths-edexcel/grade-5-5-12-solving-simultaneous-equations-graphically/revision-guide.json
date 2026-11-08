@@ -1,0 +1,150 @@
+{
+ "topic": "grade-5-5-12-solving-simultaneous-equations-graphically",
+ "lane": "gcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "title": "Solving Simultaneous Equations Graphically",
+ "summary": "Learn how the crossing point of two straight-line graphs gives the values that satisfy both equations.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "6d4dbe1e-5b03-4355-90ec-cb21e5688ef8",
+     "prompt": "To draw the line $y=2x-3$, which points should you plot for $x=0$, $x=1$ and $x=2$?",
+     "options": [
+      {
+       "text": "$(0,3)$, $(1,5)$ and $(2,7)$",
+       "correct": false
+      },
+      {
+       "text": "$(0,-3)$, $(1,-1)$ and $(2,1)$",
+       "correct": true
+      },
+      {
+       "text": "$(0,-3)$, $(1,-2)$ and $(2,-1)$",
+       "correct": false
+      },
+      {
+       "text": "$(-3,0)$, $(-1,1)$ and $(1,2)$",
+       "correct": false
+      }
+     ],
+     "explanation": "Substituting $x=0,1,2$ into $y=2x-3$ gives $y=-3,-1,1$, so the points are $(0,-3)$, $(1,-1)$ and $(2,1)$."
+    },
+    {
+     "id": "7ca47b10-cfa2-4f7f-89b6-d3d7b83c5db6",
+     "prompt": "Which rearrangement of $3y-x=6$ is suitable for drawing its straight-line graph?",
+     "options": [
+      {
+       "text": "$y=3x-6$",
+       "correct": false
+      },
+      {
+       "text": "$y=\\frac{1}{3}x-2$",
+       "correct": false
+      },
+      {
+       "text": "$y=\\frac{1}{3}x+2$",
+       "correct": true
+      },
+      {
+       "text": "$y=x+2$",
+       "correct": false
+      }
+     ],
+     "explanation": "Add $x$ to both sides to get $3y=x+6$, then divide every term by $3$: $y=\\frac{1}{3}x+2$."
+    },
+    {
+     "id": "1b65ddbd-8b3a-443a-a39c-084143b9ff6e",
+     "prompt": "The graphs of $y=x-4$ and $2y+x=-2$ are drawn on the same axes. At which point do they intersect?",
+     "options": [
+      {
+       "text": "$(-2,-6)$",
+       "correct": false
+      },
+      {
+       "text": "$(2,2)$",
+       "correct": false
+      },
+      {
+       "text": "$(-2,2)$",
+       "correct": false
+      },
+      {
+       "text": "$(2,-2)$",
+       "correct": true
+      }
+     ],
+     "explanation": "At $(2,-2)$, the first equation gives $-2=2-4$ and the second gives $2(-2)+2=-2$. As the point lies on both lines, it is their intersection."
+    },
+    {
+     "id": "c5f1339e-72d1-49aa-88f9-cbea058427ec",
+     "prompt": "The graphs of $y=2x+1$ and $y=2x-3$ are drawn on the same axes. How many solutions do the simultaneous equations have?",
+     "options": [
+      {
+       "text": "No solutions",
+       "correct": true
+      },
+      {
+       "text": "Exactly one solution",
+       "correct": false
+      },
+      {
+       "text": "Exactly two solutions",
+       "correct": false
+      },
+      {
+       "text": "Infinitely many solutions",
+       "correct": false
+      }
+     ],
+     "explanation": "Both lines have gradient $2$ but different intercepts, so they are parallel and never intersect. Therefore, there is no solution."
+    },
+    {
+     "id": "5d623d05-8ac9-4706-a80b-61ee8ba5a14d",
+     "prompt": "Two straight-line graphs cross at $(-3,2)$. What is the solution of the corresponding simultaneous equations?",
+     "options": [
+      {
+       "text": "$x=3$, $y=-2$",
+       "correct": false
+      },
+      {
+       "text": "$x=2$, $y=-3$",
+       "correct": false
+      },
+      {
+       "text": "$x=-3$, $y=2$",
+       "correct": true
+      },
+      {
+       "text": "$x=-2$, $y=3$",
+       "correct": false
+      }
+     ],
+     "explanation": "The solution is the coordinate of the intersection, read as $x$ first and then $y$. Therefore, $(-3,2)$ means $x=-3$ and $y=2$."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/DBJ87TADmI0"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-5-5-12-solving-simultaneous-equations-graphically/revision-guides",
+ "source_sha256": "d284a5d5446caeb5766d38f2c3cd9e261a5981cc6832514ccb24a18d136ff99c",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "a37af03e-5281-42a5-bcf4-eccfab566f12",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/simultaneous-graphically.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207929003,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

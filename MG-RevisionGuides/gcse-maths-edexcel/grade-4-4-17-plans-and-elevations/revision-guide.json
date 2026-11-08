@@ -1,0 +1,150 @@
+{
+ "topic": "grade-4-4-17-plans-and-elevations",
+ "lane": "gcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "title": "Plans and Elevations",
+ "summary": "Learn how to turn 3D solids into top, front and side views, and back again using grids and scales.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "9dcee9b3-6916-4fb7-9bb3-bb1770ce2ee5",
+     "prompt": "A square-based pyramid has a base side of $4$ m and a perpendicular height of $2.5$ m. It is drawn using a scale of $2$ cm to $1$ m. Which front elevation should be drawn?",
+     "options": [
+      {
+       "text": "A triangle with base $8$ cm and height $5$ cm",
+       "correct": true
+      },
+      {
+       "text": "A triangle with base $4$ cm and height $2.5$ cm",
+       "correct": false
+      },
+      {
+       "text": "A square measuring $8$ cm by $8$ cm",
+       "correct": false
+      },
+      {
+       "text": "A triangle with base $5$ cm and height $8$ cm",
+       "correct": false
+      }
+     ],
+     "explanation": "The scale multiplies each real measurement by $2$: $4 \\times 2=8$ cm and $2.5 \\times 2=5$ cm. The front elevation of the pyramid is therefore a triangle with base $8$ cm and height $5$ cm."
+    },
+    {
+     "id": "ca239a7b-86f6-4db5-93d9-a1214da8ddd0",
+     "prompt": "A tower of $3$ cubes stands on one grid square. A single cube is placed on the grid square directly to its right. What does the plan show?",
+     "options": [
+      {
+       "text": "One square",
+       "correct": false
+      },
+      {
+       "text": "Three squares in a column",
+       "correct": false
+      },
+      {
+       "text": "Two adjacent squares",
+       "correct": true
+      },
+      {
+       "text": "Four squares in a row",
+       "correct": false
+      }
+     ],
+     "explanation": "A plan is the view from directly above, so it shows only the footprint. The tower occupies one square and the single cube occupies the adjacent square."
+    },
+    {
+     "id": "bba58fde-ceea-4ab7-be74-430361bf7180",
+     "prompt": "A cone has radius $3$ cm and perpendicular height $5$ cm. Which side elevation should be drawn?",
+     "options": [
+      {
+       "text": "A circle with diameter $6$ cm",
+       "correct": false
+      },
+      {
+       "text": "An isosceles triangle with base $6$ cm and height $5$ cm",
+       "correct": true
+      },
+      {
+       "text": "An isosceles triangle with base $3$ cm and height $5$ cm",
+       "correct": false
+      },
+      {
+       "text": "An isosceles triangle with base $6$ cm and height $3$ cm",
+       "correct": false
+      }
+     ],
+     "explanation": "The side elevation of a cone is an isosceles triangle. Its base is the cone's diameter, $2 \\times 3=6$ cm, and its vertical height is $5$ cm."
+    },
+    {
+     "id": "3478fd25-4f29-4e2f-aca4-9d12352192a3",
+     "prompt": "A cuboid is $6$ cm wide, $4$ cm deep and $3$ cm high. Which dimensions are shown by its plan?",
+     "options": [
+      {
+       "text": "$6$ cm wide and $3$ cm high",
+       "correct": false
+      },
+      {
+       "text": "$4$ cm deep and $3$ cm high",
+       "correct": false
+      },
+      {
+       "text": "$3$ cm high and $6$ cm wide",
+       "correct": false
+      },
+      {
+       "text": "$6$ cm wide and $4$ cm deep",
+       "correct": true
+      }
+     ],
+     "explanation": "The plan is the view from above, so it shows the width and depth: $6$ cm by $4$ cm. The height is not visible in the plan."
+    },
+    {
+     "id": "90c0bd3d-faab-4902-87a5-649076cae6d1",
+     "prompt": "A solid made from cubes has stack heights of $1$ at the front-left, $3$ at the front-right, $2$ at the back-left and $1$ at the back-right. Looking from the right, what heights appear from front to back?",
+     "options": [
+      {
+       "text": "Front $3$ high, back $2$ high",
+       "correct": true
+      },
+      {
+       "text": "Front $1$ high, back $2$ high",
+       "correct": false
+      },
+      {
+       "text": "Front $3$ high, back $1$ high",
+       "correct": false
+      },
+      {
+       "text": "Front $2$ high, back $3$ high",
+       "correct": false
+      }
+     ],
+     "explanation": "From the right, the stacks at each depth overlap. The maximum front height is $\\max(1,3)=3$, and the maximum back height is $\\max(2,1)=2$."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/CnVJu1HOg5k"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-4-4-17-plans-and-elevations/revision-guides",
+ "source_sha256": "1091c349999f6952b182b507c31e62744a9cbf8863bebcd535ea29cf47dd495f",
+ "extracted_at": "2026-11-08T17:51:37Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "052571ca-03df-4149-b7a0-c0f2d0471b24",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/plans-and-elevations.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207927743,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

@@ -1,0 +1,156 @@
+{
+ "topic": "grade-8-9-8-10-vectors-proof-questions",
+ "lane": "gcse-maths-edexcel",
+ "grade": "8",
+ "tier": null,
+ "title": "Vectors Proof Questions",
+ "summary": "Learn how ratios and scalar multiples let you prove points are collinear using vectors.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "1c7e7083-45a7-4aea-9bb1-093b7613ee83",
+     "prompt": "The position vectors of A and B are $2a$ and $5b$. What is the directed vector $\\text{AB}$?",
+     "options": [
+      {
+       "text": "$2a-5b$",
+       "correct": false
+      },
+      {
+       "text": "$5b-2a$",
+       "correct": true
+      },
+      {
+       "text": "$2a+5b$",
+       "correct": false
+      },
+      {
+       "text": "$5a-2b$",
+       "correct": false
+      }
+     ],
+     "explanation": "Subtract the position vector of A from the position vector of B: $\\text{AB}=5b-2a$. The vector $2a-5b$ points in the opposite direction."
+    },
+    {
+     "id": "c5c51cf0-8bed-4476-b52e-7167eb9630f6",
+     "prompt": "Point P lies on AB with $\\text{AP}:\\text{PB}=3:2$. The position vectors of A and B are $4a$ and $9b$. What is the position vector of P?",
+     "options": [
+      {
+       "text": "$\\frac{12}{5}a+\\frac{18}{5}b$",
+       "correct": false
+      },
+      {
+       "text": "$-\\frac{12}{5}a+\\frac{27}{5}b$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{32}{5}a-\\frac{27}{5}b$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{8}{5}a+\\frac{27}{5}b$",
+       "correct": true
+      }
+     ],
+     "explanation": "P is $\\frac{3}{5}$ of the way from A to B, so its position vector is $4a+\\frac{3}{5}(9b-4a)=\\frac{8}{5}a+\\frac{27}{5}b$."
+    },
+    {
+     "id": "8d7050df-702c-4fb9-be0a-7a256d59f618",
+     "prompt": "Points A, B and C have position vectors $2a+b$, $5a+7b$ and $3a+3b$ respectively. Which equation proves that A, B and C are collinear?",
+     "options": [
+      {
+       "text": "$\\text{AB}=3\\text{AC}$",
+       "correct": true
+      },
+      {
+       "text": "$\\text{AB}=2\\text{AC}$",
+       "correct": false
+      },
+      {
+       "text": "$\\text{BC}=2\\text{AC}$",
+       "correct": false
+      },
+      {
+       "text": "$\\text{AC}=3\\text{AB}$",
+       "correct": false
+      }
+     ],
+     "explanation": "$\\text{AB}=(5a+7b)-(2a+b)=3a+6b$, while $\\text{AC}=(3a+3b)-(2a+b)=a+2b$. Therefore $\\text{AB}=3\\text{AC}$, proving the vectors are parallel and share point A."
+    },
+    {
+     "id": "c3eabf2f-a2e7-4291-a589-c163bb2c5b6b",
+     "prompt": "OACB is a parallelogram. A and B are adjacent to O, with position vectors $6a$ and $4b$, and C is the opposite corner. M is the midpoint of AB. Which equation proves that O, M and C are collinear?",
+     "options": [
+      {
+       "text": "$\\text{OM}=2\\text{OC}$",
+       "correct": false
+      },
+      {
+       "text": "$\\text{MC}=2\\text{OM}$",
+       "correct": false
+      },
+      {
+       "text": "$\\text{OC}=2\\text{OM}$",
+       "correct": true
+      },
+      {
+       "text": "$\\text{OC}=\\text{OM}+\\text{AB}$",
+       "correct": false
+      }
+     ],
+     "explanation": "For the opposite corner, $\\text{OC}=6a+4b$. Since M is the midpoint of AB, $\\text{OM}=\\frac{1}{2}(6a+4b)=3a+2b$. Hence $\\text{OC}=2\\text{OM}$, so O, M and C are collinear."
+    },
+    {
+     "id": "07f9cc85-8589-4b44-ae7f-b7f9aaa048f0",
+     "prompt": "Vectors $a$ and $b$ are not parallel. In triangle OAB, the position vectors of A and B are $6a$ and $6b$. C lies on OA with $\\text{OC}:\\text{CA}=5:1$, and D lies on AB with $\\text{AD}:\\text{DB}=1:2$. The line OB is extended to E, where C, D and E are collinear. What is the directed vector $\\text{BE}$?",
+     "options": [
+      {
+       "text": "$2b$",
+       "correct": false
+      },
+      {
+       "text": "$4b$",
+       "correct": true
+      },
+      {
+       "text": "$5b$",
+       "correct": false
+      },
+      {
+       "text": "$10b$",
+       "correct": false
+      }
+     ],
+     "explanation": "C has position vector $5a$, and D has position vector $6a+\\frac{1}{3}(6b-6a)=4a+2b$. Thus $\\text{CD}=-a+2b$. To reach OB, the $a$ coefficient must become zero, so $\\text{CE}=5\\text{CD}=-5a+10b$. E therefore has position vector $10b$, giving $\\text{BE}=10b-6b=4b$."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/KJyEQ9ORdk0"
+  },
+  {
+   "embed_url": "https://www.youtube.com/embed/gvTcsbvZEbY"
+  },
+  {
+   "embed_url": "https://www.youtube.com/embed/GMgJwk1QveI"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-8-9-8-10-vectors-proof-questions/revision-guides",
+ "source_sha256": "d200539ce14b1a4e6887a75161db113cafce862f7cc1a8f29c2b55e710996bbb",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "55f1a094-c21c-4cc4-9882-e1bfcf4c7113",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/vectors.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207932968,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

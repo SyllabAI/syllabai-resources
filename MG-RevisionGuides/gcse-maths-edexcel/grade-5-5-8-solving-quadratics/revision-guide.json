@@ -1,0 +1,150 @@
+{
+ "topic": "grade-5-5-8-solving-quadratics",
+ "lane": "gcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "title": "Solving Quadratics",
+ "summary": "Learn how to split quadratics into brackets so you can find the values that make them equal zero.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "8b895ca4-6d5c-4adb-938b-0afcbaf51154",
+     "prompt": "Which factorisation is correct for $x^2+9x+20$?",
+     "options": [
+      {
+       "text": "$(x+2)(x+10)$",
+       "correct": false
+      },
+      {
+       "text": "$(x-4)(x-5)$",
+       "correct": false
+      },
+      {
+       "text": "$(x+4)(x+5)$",
+       "correct": true
+      },
+      {
+       "text": "$(x-2)(x-10)$",
+       "correct": false
+      }
+     ],
+     "explanation": "The two numbers must multiply to $20$ and add to $9$. These numbers are $4$ and $5$, so $x^2+9x+20=(x+4)(x+5)$."
+    },
+    {
+     "id": "a8424a04-ac8b-4aad-b808-7022c578c0e8",
+     "prompt": "Solve $(y-7)(y+3)=0$.",
+     "options": [
+      {
+       "text": "$y=7$ or $y=-3$",
+       "correct": true
+      },
+      {
+       "text": "$y=-7$ or $y=3$",
+       "correct": false
+      },
+      {
+       "text": "$y=7$ or $y=3$",
+       "correct": false
+      },
+      {
+       "text": "$y=-7$ or $y=-3$",
+       "correct": false
+      }
+     ],
+     "explanation": "For the product to equal zero, at least one bracket must equal zero. Therefore $y-7=0$ or $y+3=0$, giving $y=7$ or $y=-3$."
+    },
+    {
+     "id": "ce46ccb3-b0c4-406e-8451-6b116852430d",
+     "prompt": "Solve $t^2-2t-15=0$.",
+     "options": [
+      {
+       "text": "$t=-5$ or $t=3$",
+       "correct": false
+      },
+      {
+       "text": "$t=-3$ or $t=-5$",
+       "correct": false
+      },
+      {
+       "text": "$t=3$ or $t=5$",
+       "correct": false
+      },
+      {
+       "text": "$t=5$ or $t=-3$",
+       "correct": true
+      }
+     ],
+     "explanation": "The quadratic factorises as $(t-5)(t+3)=0$ because $-5\\times3=-15$ and $-5+3=-2$. Setting each bracket to zero gives $t=5$ or $t=-3$."
+    },
+    {
+     "id": "2ed1e3ca-3135-4ec8-a5e1-d3e6fe435759",
+     "prompt": "Solve $x^2+5x=24$.",
+     "options": [
+      {
+       "text": "$x=8$ or $x=-3$",
+       "correct": false
+      },
+      {
+       "text": "$x=-8$ or $x=3$",
+       "correct": true
+      },
+      {
+       "text": "$x=-6$ or $x=4$",
+       "correct": false
+      },
+      {
+       "text": "$x=6$ or $x=-4$",
+       "correct": false
+      }
+     ],
+     "explanation": "First rearrange to get $x^2+5x-24=0$. This factorises as $(x+8)(x-3)=0$, so $x=-8$ or $x=3$."
+    },
+    {
+     "id": "a7db2261-dc15-4028-b9a2-f655b937e2cd",
+     "prompt": "Solve $2x^2+x-6=0$.",
+     "options": [
+      {
+       "text": "$x=-\\frac{3}{2}$ or $x=2$",
+       "correct": false
+      },
+      {
+       "text": "$x=3$ or $x=-2$",
+       "correct": false
+      },
+      {
+       "text": "$x=\\frac{3}{2}$ or $x=-2$",
+       "correct": true
+      },
+      {
+       "text": "$x=-3$ or $x=2$",
+       "correct": false
+      }
+     ],
+     "explanation": "The quadratic factorises as $(2x-3)(x+2)=0$. Therefore $2x-3=0$ gives $x=\\frac{3}{2}$, while $x+2=0$ gives $x=-2$."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/m-qyV6C56ec"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-5-5-8-solving-quadratics/revision-guides",
+ "source_sha256": "288d25104a73612f4e34a7768bd944a70665746a63ef1049a005a2490bf182fa",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "225c03ff-b43e-4fb2-8824-26ac5cfaef91",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/solving-quadratics.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207930286,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

@@ -1,0 +1,150 @@
+{
+ "topic": "grade-5-5-18-similar-shapes-lengths",
+ "lane": "gcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "title": "Similar Shapes (Lengths)",
+ "summary": "Use scale factors to unlock matching lengths in triangles, parallel-line diagrams, ratio problems, and rectangle similarity checks.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "9c9d49e1-3dee-4281-a115-cd2086891f19",
+     "prompt": "Two similar triangles have corresponding sides of $9$ cm and $15$ cm. If another side of the smaller triangle is $12$ cm, what is the corresponding side of the larger triangle?",
+     "options": [
+      {
+       "text": "$7.2$ cm",
+       "correct": false
+      },
+      {
+       "text": "$18$ cm",
+       "correct": false
+      },
+      {
+       "text": "$20$ cm",
+       "correct": true
+      },
+      {
+       "text": "$24$ cm",
+       "correct": false
+      }
+     ],
+     "explanation": "The scale factor from the smaller triangle to the larger triangle is $15\\div9=\\frac{5}{3}$. Therefore, the corresponding length is $12\\times\\frac{5}{3}=20$ cm."
+    },
+    {
+     "id": "31471dcd-fe60-4fe0-bf5c-84d78521b018",
+     "prompt": "In triangle $ACD$, point $B$ lies on $AC$, point $E$ lies on $AD$, and $BE$ is parallel to $CD$. Given $AB=6$ cm, $BC=3$ cm and $AE=8$ cm, find $ED$.",
+     "options": [
+      {
+       "text": "$3$ cm",
+       "correct": false
+      },
+      {
+       "text": "$5.3$ cm",
+       "correct": false
+      },
+      {
+       "text": "$12$ cm",
+       "correct": false
+      },
+      {
+       "text": "$4$ cm",
+       "correct": true
+      }
+     ],
+     "explanation": "The whole length $AC$ is $6+3=9$ cm, so the scale factor from triangle $ABE$ to triangle $ACD$ is $9\\div6=1.5$. Thus $AD=8\\times1.5=12$ cm, giving $ED=12-8=4$ cm."
+    },
+    {
+     "id": "89117003-c279-49dc-a9dd-9b950504c2b6",
+     "prompt": "Triangles $ABC$ and $PQR$ are similar, with $A$ matching $P$, $B$ matching $Q$ and $C$ matching $R$. If $AB=8$ cm, $AC=14$ cm and $PQ=12$ cm, what is $PR$?",
+     "options": [
+      {
+       "text": "$21$ cm",
+       "correct": true
+      },
+      {
+       "text": "$18$ cm",
+       "correct": false
+      },
+      {
+       "text": "$9.3$ cm",
+       "correct": false
+      },
+      {
+       "text": "$24$ cm",
+       "correct": false
+      }
+     ],
+     "explanation": "Since $AB$ corresponds to $PQ$, the scale factor is $12\\div8=1.5$. As $AC$ corresponds to $PR$, $PR=14\\times1.5=21$ cm."
+    },
+    {
+     "id": "85b649b0-4640-4930-acfe-7a019a1db744",
+     "prompt": "The corresponding widths of two similar shapes are $9$ cm and $15$ cm. A length on the smaller shape is $6$ cm. What is the corresponding length on the larger shape?",
+     "options": [
+      {
+       "text": "$3.6$ cm",
+       "correct": false
+      },
+      {
+       "text": "$10$ cm",
+       "correct": true
+      },
+      {
+       "text": "$12$ cm",
+       "correct": false
+      },
+      {
+       "text": "$15$ cm",
+       "correct": false
+      }
+     ],
+     "explanation": "The scale factor from the smaller shape to the larger shape is $15\\div9=\\frac{5}{3}$. The required length is therefore $6\\times\\frac{5}{3}=10$ cm."
+    },
+    {
+     "id": "782d7288-dede-4ff9-ada4-7c7e49b6e703",
+     "prompt": "Rectangle A is $12$ cm long and $5$ cm wide. Rectangle B is $18$ cm long and $8$ cm wide. Which conclusion is correct?",
+     "options": [
+      {
+       "text": "The rectangles are similar because all rectangles have equal corresponding angles.",
+       "correct": false
+      },
+      {
+       "text": "The rectangles are similar because both dimensions have increased.",
+       "correct": false
+      },
+      {
+       "text": "The rectangles are not similar because similar shapes must be the same size.",
+       "correct": false
+      },
+      {
+       "text": "The rectangles are not similar because the corresponding scale factors are different.",
+       "correct": true
+      }
+     ],
+     "explanation": "For the lengths, the scale factor is $18\\div12=1.5$, but for the widths it is $8\\div5=1.6$. Similar shapes require one consistent scale factor for every pair of corresponding lengths."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/n8do1p6GvOY"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-5-5-18-similar-shapes-lengths/revision-guides",
+ "source_sha256": "6fe28d632c44c9e38f1cc26a56dc3759b717127c1ea209ec949c99c1da42b523",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "9410a368-974e-4aa8-8795-2b5f89e18699",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/similar-shapes-length.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207929621,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

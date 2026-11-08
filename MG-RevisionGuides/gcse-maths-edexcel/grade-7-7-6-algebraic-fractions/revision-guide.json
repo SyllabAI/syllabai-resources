@@ -1,0 +1,150 @@
+{
+ "topic": "grade-7-7-6-algebraic-fractions",
+ "lane": "gcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "title": "Algebraic Fractions",
+ "summary": "Learn how to simplify, divide, and solve fractions where the top or bottom contains algebra.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "ba24c709-37b2-4205-8911-7e6362b446a9",
+     "prompt": "Simplify fully $\\frac{x^2+5x}{x^2+7x+10}$.",
+     "options": [
+      {
+       "text": "$\\frac{x}{x+2}$",
+       "correct": true
+      },
+      {
+       "text": "$\\frac{x}{x+7}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{x+5}{x+2}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{x}{x+5}$",
+       "correct": false
+      }
+     ],
+     "explanation": "Factorising gives $\\frac{x(x+5)}{(x+5)(x+2)}$. Cancelling the common factor $x+5$ leaves $\\frac{x}{x+2}$."
+    },
+    {
+     "id": "806b96fb-2209-4a5c-b52b-453bc5f3b17a",
+     "prompt": "Simplify $\\frac{2}{x}+\\frac{3}{x+1}$.",
+     "options": [
+      {
+       "text": "$\\frac{5}{2x+1}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{5x+1}{x(x+1)}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{5x+2}{x(x+1)}$",
+       "correct": true
+      },
+      {
+       "text": "$\\frac{5x+2}{2x+1}$",
+       "correct": false
+      }
+     ],
+     "explanation": "The common denominator is $x(x+1)$. The numerator becomes $2(x+1)+3x=5x+2$, giving $\\frac{5x+2}{x(x+1)}$."
+    },
+    {
+     "id": "a8915ed1-3333-499a-b6b9-03c672fc39fa",
+     "prompt": "Simplify fully $\\frac{x^2-4}{x+5}\\div\\frac{x-2}{2x+10}$.",
+     "options": [
+      {
+       "text": "$x+2$",
+       "correct": false
+      },
+      {
+       "text": "$2(x-2)$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{x+2}{2}$",
+       "correct": false
+      },
+      {
+       "text": "$2(x+2)$",
+       "correct": true
+      }
+     ],
+     "explanation": "Rewrite the division as multiplication by the reciprocal. Using $x^2-4=(x-2)(x+2)$ and $2x+10=2(x+5)$ allows the common factors to cancel, leaving $2(x+2)$."
+    },
+    {
+     "id": "8b8921a9-4ebe-4d4a-a837-3393a9b5705e",
+     "prompt": "Solve $\\frac{3}{x}=\\frac{2}{x+1}$.",
+     "options": [
+      {
+       "text": "$x=3$",
+       "correct": false
+      },
+      {
+       "text": "$x=-3$",
+       "correct": true
+      },
+      {
+       "text": "$x=-1$",
+       "correct": false
+      },
+      {
+       "text": "$x=1$",
+       "correct": false
+      }
+     ],
+     "explanation": "Cross-multiplying gives $3(x+1)=2x$. Therefore $3x+3=2x$, so $x=-3$, which does not make either denominator zero."
+    },
+    {
+     "id": "82537933-cdcf-4336-9f39-543809768d21",
+     "prompt": "Given $x+1:x+3=x+5:2x+6$, what are the possible values of $x$?",
+     "options": [
+      {
+       "text": "$x=3$ only",
+       "correct": true
+      },
+      {
+       "text": "$x=-3$ only",
+       "correct": false
+      },
+      {
+       "text": "$x=3$ and $x=-3$",
+       "correct": false
+      },
+      {
+       "text": "$x=0$ only",
+       "correct": false
+      }
+     ],
+     "explanation": "Writing the ratio as fractions and cross-multiplying gives $x^2-9=0$, so initially $x=3$ or $x=-3$. However, $x=-3$ makes the denominators zero, so only $x=3$ is valid."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/gMojR-U4NDQ"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-7-7-6-algebraic-fractions/revision-guides",
+ "source_sha256": "1b616ce960e185ffb0219ad84e3e7fee3279ca7895404c5b0f90229e482e0aab",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "3a0473a5-ff4b-4e53-b116-b9bf619dc499",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/algebraic-fractions.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207932788,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

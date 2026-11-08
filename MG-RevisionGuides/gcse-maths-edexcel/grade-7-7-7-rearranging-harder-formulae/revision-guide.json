@@ -1,0 +1,150 @@
+{
+ "topic": "grade-7-7-7-rearranging-harder-formulae",
+ "lane": "gcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "title": "Rearranging Harder Formulae",
+ "summary": "Master the balance method for changing the subject when formulae include powers, brackets, fractions and repeated variables.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "0cc4c0d1-4f2b-40b7-ad91-9416916f587e",
+     "prompt": "Make $a$ the subject of $S=ut+\\frac{1}{2}at^2$.",
+     "options": [
+      {
+       "text": "$a=\\frac{2(S-ut)}{t^2}$",
+       "correct": true
+      },
+      {
+       "text": "$a=\\frac{S-ut}{2t^2}$",
+       "correct": false
+      },
+      {
+       "text": "$a=\\frac{2S-ut}{t^2}$",
+       "correct": false
+      },
+      {
+       "text": "$a=\\frac{S-ut}{t^2}$",
+       "correct": false
+      }
+     ],
+     "explanation": "Subtract $ut$ to get $S-ut=\\frac{1}{2}at^2$. Multiplying by $2$ and dividing by $t^2$ gives $a=\\frac{2(S-ut)}{t^2}$."
+    },
+    {
+     "id": "ba814787-17ee-4673-81ad-889abfe82625",
+     "prompt": "Make $x$ the subject of $x(a+3)=b(x-2)$.",
+     "options": [
+      {
+       "text": "$x=\\frac{2b}{a+3-b}$",
+       "correct": false
+      },
+      {
+       "text": "$x=\\frac{-2b}{a+3+b}$",
+       "correct": false
+      },
+      {
+       "text": "$x=\\frac{-2b}{a+3-b}$",
+       "correct": true
+      },
+      {
+       "text": "$x=\\frac{b-2}{a+3-b}$",
+       "correct": false
+      }
+     ],
+     "explanation": "Expand to get $ax+3x=bx-2b$. Collecting the terms containing $x$ gives $x(a+3-b)=-2b$, so $x=\\frac{-2b}{a+3-b}$."
+    },
+    {
+     "id": "2f368b4b-e133-4d9b-9325-af3548f464a8",
+     "prompt": "Make $p$ the subject of $q^2=p^2+6s$, with no information restricting the sign of $p$.",
+     "options": [
+      {
+       "text": "$p=q^2-6s$",
+       "correct": false
+      },
+      {
+       "text": "$p=\\sqrt{q^2+6s}$",
+       "correct": false
+      },
+      {
+       "text": "$p=\\sqrt{q^2-6s}$",
+       "correct": false
+      },
+      {
+       "text": "$p=\\pm\\sqrt{q^2-6s}$",
+       "correct": true
+      }
+     ],
+     "explanation": "First isolate the squared term: $p^2=q^2-6s$. Taking the square root gives both possible signs, so $p=\\pm\\sqrt{q^2-6s}$."
+    },
+    {
+     "id": "fcd601e8-21c6-4423-8b21-2555324b1703",
+     "prompt": "Make $q$ the subject of $\\frac{1}{m}=\\frac{1}{q}-\\frac{1}{s}$.",
+     "options": [
+      {
+       "text": "$q=\\frac{ms}{s-m}$",
+       "correct": false
+      },
+      {
+       "text": "$q=\\frac{ms}{s+m}$",
+       "correct": true
+      },
+      {
+       "text": "$q=\\frac{m+s}{ms}$",
+       "correct": false
+      },
+      {
+       "text": "$q=\\frac{ms}{m-s}$",
+       "correct": false
+      }
+     ],
+     "explanation": "Multiplying by $mqs$ gives $qs=ms-mq$. Collecting the terms containing $q$ gives $q(s+m)=ms$, so $q=\\frac{ms}{s+m}$."
+    },
+    {
+     "id": "96d342d0-a124-4a85-b1bc-814de83f1a7f",
+     "prompt": "Make $r$ the subject of $A=\\frac{pr}{r+q}$.",
+     "options": [
+      {
+       "text": "$r=\\frac{Aq}{p-A}$",
+       "correct": true
+      },
+      {
+       "text": "$r=\\frac{Aq}{A-p}$",
+       "correct": false
+      },
+      {
+       "text": "$r=\\frac{p-A}{Aq}$",
+       "correct": false
+      },
+      {
+       "text": "$r=\\frac{Ap}{q-A}$",
+       "correct": false
+      }
+     ],
+     "explanation": "Multiply by $r+q$ to get $A(r+q)=pr$. Expanding and collecting the $r$ terms gives $Aq=r(p-A)$, so $r=\\frac{Aq}{p-A}$."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/tQb9cF4xVeA"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-7-7-7-rearranging-harder-formulae/revision-guides",
+ "source_sha256": "45b95f6a7584a8875064792b283960389752297914cc4cae777033067878864a",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "2d573235-56b3-4bf1-9574-a9a5e18b4803",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/changing-the-subject2.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207932811,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

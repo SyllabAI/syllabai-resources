@@ -1,0 +1,150 @@
+{
+ "topic": "grade-4-4-12-surface-area",
+ "lane": "gcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "title": "Surface Area",
+ "summary": "Get confident finding the outside area of 3D shapes and choosing enough paint.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "062d82d9-73a0-4cba-a2fb-edade15de6a9",
+     "prompt": "A cuboid measures $5$ cm by $4$ cm by $3$ cm. What is its total surface area?",
+     "options": [
+      {
+       "text": "$47\\text{ cm}^2$",
+       "correct": false
+      },
+      {
+       "text": "$60\\text{ cm}^2$",
+       "correct": false
+      },
+      {
+       "text": "$94\\text{ cm}^2$",
+       "correct": true
+      },
+      {
+       "text": "$118\\text{ cm}^2$",
+       "correct": false
+      }
+     ],
+     "explanation": "The three different face areas are $5\\times4=20$, $5\\times3=15$ and $4\\times3=12$. There are two of each face, so the surface area is $2(20+15+12)=94\\text{ cm}^2$."
+    },
+    {
+     "id": "fc9dfc1b-f95e-4250-ac94-9fb2a123d09c",
+     "prompt": "A trapezium-based prism is $6$ cm long. The trapezium has parallel sides of $11$ cm and $3$ cm, a perpendicular height of $3$ cm, and two other sides of $5$ cm each. What is the total surface area?",
+     "options": [
+      {
+       "text": "$186\\text{ cm}^2$",
+       "correct": true
+      },
+      {
+       "text": "$165\\text{ cm}^2$",
+       "correct": false
+      },
+      {
+       "text": "$228\\text{ cm}^2$",
+       "correct": false
+      },
+      {
+       "text": "$144\\text{ cm}^2$",
+       "correct": false
+      }
+     ],
+     "explanation": "Each trapezium has area $\\frac12(11+3)\\times3=21\\text{ cm}^2$. The trapezium's perimeter is $11+3+5+5=24$ cm, so the rectangular faces total $24\\times6=144\\text{ cm}^2$. Therefore, the total is $2\\times21+144=186\\text{ cm}^2$."
+    },
+    {
+     "id": "a6e8d8ac-5062-4b46-839d-f8ce8e6e8314",
+     "prompt": "A closed cylinder has diameter $8$ cm and height $9$ cm. What is its total surface area in terms of $\\pi$?",
+     "options": [
+      {
+       "text": "$88\\pi\\text{ cm}^2$",
+       "correct": false
+      },
+      {
+       "text": "$72\\pi\\text{ cm}^2$",
+       "correct": false
+      },
+      {
+       "text": "$272\\pi\\text{ cm}^2$",
+       "correct": false
+      },
+      {
+       "text": "$104\\pi\\text{ cm}^2$",
+       "correct": true
+      }
+     ],
+     "explanation": "The radius is $4$ cm. The two circular ends have area $2\\pi r^2=32\\pi$, and the curved surface has area $2\\pi rh=72\\pi$. The total is $104\\pi\\text{ cm}^2$."
+    },
+    {
+     "id": "c8a4cf41-f448-4f04-8100-4b168561f7b9",
+     "prompt": "Six closed boxes each measure $80$ cm by $50$ cm by $30$ cm. One pot of paint covers $4\\text{ m}^2$. How many whole pots are needed to paint all six boxes?",
+     "options": [
+      {
+       "text": "$2$ pots",
+       "correct": false
+      },
+      {
+       "text": "$3$ pots",
+       "correct": true
+      },
+      {
+       "text": "$4$ pots",
+       "correct": false
+      },
+      {
+       "text": "$6$ pots",
+       "correct": false
+      }
+     ],
+     "explanation": "In metres, one box has surface area $2(0.8\\times0.5+0.8\\times0.3+0.5\\times0.3)=1.58\\text{ m}^2$. Six boxes have area $9.48\\text{ m}^2$, and $9.48\\div4=2.37$, so this must be rounded up to $3$ pots."
+    },
+    {
+     "id": "e5f2cbdc-c721-42da-afbf-d2bee5884f30",
+     "prompt": "An L-shaped prism is $4$ cm long. Its end is formed from a $6$ cm by $5$ cm rectangle with a $2$ cm by $3$ cm corner removed. The perimeter of the L-shaped end is $22$ cm. What is the prism's total surface area?",
+     "options": [
+      {
+       "text": "$112\\text{ cm}^2$",
+       "correct": false
+      },
+      {
+       "text": "$116\\text{ cm}^2$",
+       "correct": false
+      },
+      {
+       "text": "$136\\text{ cm}^2$",
+       "correct": true
+      },
+      {
+       "text": "$148\\text{ cm}^2$",
+       "correct": false
+      }
+     ],
+     "explanation": "The area of one L-shaped end is $6\\times5-2\\times3=24\\text{ cm}^2$. The side faces total $22\\times4=88\\text{ cm}^2$, so the total surface area is $2\\times24+88=136\\text{ cm}^2$."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/llrOWOaKsHo"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-4-4-12-surface-area/revision-guides",
+ "source_sha256": "9da8dda3d2db4eff40270b9fcb4508624d647b885ef6dcaee7a97c5ac3946b12",
+ "extracted_at": "2026-11-08T17:51:37Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "abe15dc4-9d78-4fbf-9c8a-c7b5d7f827ab",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/surfacearea.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207927291,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

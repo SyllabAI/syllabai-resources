@@ -1,0 +1,150 @@
+{
+ "topic": "grade-7-7-4-quadratic-formula",
+ "lane": "gcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "title": "Quadratic Formula",
+ "summary": "Learn how to solve any quadratic by substituting carefully into one reliable formula.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "9714f5c3-f9cc-4d56-b368-8715f4e42b90",
+     "prompt": "Before using the quadratic formula to solve $3x^2=2x+8$, what are the values of $a$, $b$ and $c$?",
+     "options": [
+      {
+       "text": "$a=3$, $b=2$, $c=-8$",
+       "correct": false
+      },
+      {
+       "text": "$a=3$, $b=-2$, $c=8$",
+       "correct": false
+      },
+      {
+       "text": "$a=3$, $b=-2$, $c=-8$",
+       "correct": true
+      },
+      {
+       "text": "$a=3$, $b=2$, $c=8$",
+       "correct": false
+      }
+     ],
+     "explanation": "Rearrange the equation into the form $ax^2+bx+c=0$: $3x^2-2x-8=0$. Therefore, $a=3$, $b=-2$ and $c=-8$."
+    },
+    {
+     "id": "0cf94d2e-f7d9-4e6a-a882-0e54de114acb",
+     "prompt": "Which is the correct substitution into the quadratic formula for $2x^2-5x-3=0$?",
+     "options": [
+      {
+       "text": "$x=\\frac{5\\pm\\sqrt{(-5)^2-4(2)(-3)}}{4}$",
+       "correct": true
+      },
+      {
+       "text": "$x=\\frac{-5\\pm\\sqrt{(-5)^2-4(2)(-3)}}{4}$",
+       "correct": false
+      },
+      {
+       "text": "$x=\\frac{5\\pm\\sqrt{(-5)^2-4(2)(3)}}{4}$",
+       "correct": false
+      },
+      {
+       "text": "$x=\\frac{5\\pm\\sqrt{(-5)^2+4(2)(-3)}}{4}$",
+       "correct": false
+      }
+     ],
+     "explanation": "Here $a=2$, $b=-5$ and $c=-3$. In $x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}$, this gives $-b=5$ and $2a=4$."
+    },
+    {
+     "id": "b8cb7a4b-7520-429e-bb90-86055f572670",
+     "prompt": "Solve $x^2-6x+2=0$, giving your answers in exact form.",
+     "options": [
+      {
+       "text": "$x=-3\\pm\\sqrt{7}$",
+       "correct": false
+      },
+      {
+       "text": "$x=3\\pm2\\sqrt{7}$",
+       "correct": false
+      },
+      {
+       "text": "$x=6\\pm2\\sqrt{7}$",
+       "correct": false
+      },
+      {
+       "text": "$x=3\\pm\\sqrt{7}$",
+       "correct": true
+      }
+     ],
+     "explanation": "The formula gives $x=\\frac{6\\pm\\sqrt{36-8}}{2}=\\frac{6\\pm\\sqrt{28}}{2}$. Since $\\sqrt{28}=2\\sqrt{7}$, the solutions simplify to $x=3\\pm\\sqrt{7}$."
+    },
+    {
+     "id": "ebc68a96-119e-41b7-ab80-190b0cccaf10",
+     "prompt": "Solve $x^2+4x-1=0$, giving both solutions to 2 decimal places.",
+     "options": [
+      {
+       "text": "$x=4.24$ or $x=-0.24$",
+       "correct": false
+      },
+      {
+       "text": "$x=0.24$ or $x=-4.24$",
+       "correct": true
+      },
+      {
+       "text": "$x=0.23$ or $x=-4.23$",
+       "correct": false
+      },
+      {
+       "text": "$x=0.47$ or $x=-8.47$",
+       "correct": false
+      }
+     ],
+     "explanation": "Using the formula gives $x=-2\\pm\\sqrt{5}$. These values are approximately $0.236$ and $-4.236$, which round to $0.24$ and $-4.24$."
+    },
+    {
+     "id": "03b9114f-9576-417c-99c2-fafa0054e716",
+     "prompt": "A right-angled triangle has shorter sides $x$ and $x+3$, and hypotenuse $x+5$. What is the valid value of $x$?",
+     "options": [
+      {
+       "text": "$x=2-2\\sqrt{5}$",
+       "correct": false
+      },
+      {
+       "text": "$x=-2+2\\sqrt{5}$",
+       "correct": false
+      },
+      {
+       "text": "$x=2+2\\sqrt{5}$",
+       "correct": true
+      },
+      {
+       "text": "$x=4+4\\sqrt{5}$",
+       "correct": false
+      }
+     ],
+     "explanation": "Pythagoras gives $x^2+(x+3)^2=(x+5)^2$, which simplifies to $x^2-4x-16=0$. The roots are $x=2\\pm2\\sqrt{5}$, but a side length must be positive, so $x=2+2\\sqrt{5}$."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/hoy6dE0plLw"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-7-7-4-quadratic-formula/revision-guides",
+ "source_sha256": "c2d4b1241d1ba81fbffb63b79b9be3bddb1022548a13fe6f59f7de04460f02e1",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "1b415882-4369-4e5f-b8ac-4623be88c362",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/quadratic-formula.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207932754,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

@@ -1,0 +1,150 @@
+{
+ "topic": "grade-6-6-13-capture-recapture",
+ "lane": "gcse-maths-edexcel",
+ "grade": "6",
+ "tier": null,
+ "title": "Capture Recapture",
+ "summary": "Estimate a hidden animal or object population using marked samples, proportional reasoning, and clear assumptions.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "801350bc-1d8c-418e-a239-84b09e9c14ad",
+     "prompt": "A wildlife worker marks 30 birds and releases them. Later, a sample of 20 birds contains 5 marked birds. Estimate the total bird population.",
+     "options": [
+      {
+       "text": "50",
+       "correct": false
+      },
+      {
+       "text": "600",
+       "correct": false
+      },
+      {
+       "text": "120",
+       "correct": true
+      },
+      {
+       "text": "30",
+       "correct": false
+      }
+     ],
+     "explanation": "Use $\\dfrac{30 \\times 20}{5}=120$. The number marked initially is multiplied by the size of the second sample, then divided by the number of marked animals recaptured."
+    },
+    {
+     "id": "dfea7931-26c1-44d8-82cd-ae8be7d61cc9",
+     "prompt": "A researcher marks 80 fish. In a second catch of 45 fish, 9 are marked. Which calculation estimates the total fish population?",
+     "options": [
+      {
+       "text": "$80+45+9$",
+       "correct": false
+      },
+      {
+       "text": "$80 \\times 9 \\div 45$",
+       "correct": false
+      },
+      {
+       "text": "$45 \\times 9 \\div 80$",
+       "correct": false
+      },
+      {
+       "text": "$80 \\times 45 \\div 9$",
+       "correct": true
+      }
+     ],
+     "explanation": "The estimate is $\\dfrac{\\text{number marked initially} \\times \\text{second sample size}}{\\text{number of marked animals recaptured}}$, so the calculation is $80 \\times 45 \\div 9$."
+    },
+    {
+     "id": "68750a5e-afe7-48ca-9f50-d84379e2cbb4",
+     "prompt": "Which assumption helps make a capture-recapture estimate reliable?",
+     "options": [
+      {
+       "text": "The marked animals become easier to catch than unmarked animals.",
+       "correct": false
+      },
+      {
+       "text": "The marked animals mix evenly back into the population.",
+       "correct": true
+      },
+      {
+       "text": "Many animals enter or leave the area between samples.",
+       "correct": false
+      },
+      {
+       "text": "The second sample is taken from just one small part of the habitat.",
+       "correct": false
+      }
+     ],
+     "explanation": "The marked animals must mix evenly so that the second sample is representative of the whole population. Migration, biased sampling or changed catchability can make the estimate unreliable."
+    },
+    {
+     "id": "934af955-7ee2-4d22-8532-cee3c3925bd9",
+     "prompt": "A biologist marks 55 frogs and releases them. Later, a sample of 32 frogs contains 7 marked frogs. Estimate the total population to the nearest whole frog.",
+     "options": [
+      {
+       "text": "251",
+       "correct": true
+      },
+      {
+       "text": "252",
+       "correct": false
+      },
+      {
+       "text": "94",
+       "correct": false
+      },
+      {
+       "text": "224",
+       "correct": false
+      }
+     ],
+     "explanation": "Calculate $\\dfrac{55 \\times 32}{7}=251.428\\ldots$. This rounds to $251$ frogs because the first digit after the decimal point is $4$."
+    },
+    {
+     "id": "618fc815-16bf-4f41-bd10-a76646250e3c",
+     "prompt": "A lake contains an estimated 300 fish, of which 60 have been marked. About how many marked fish would you expect in a representative second sample of 40 fish?",
+     "options": [
+      {
+       "text": "5",
+       "correct": false
+      },
+      {
+       "text": "10",
+       "correct": false
+      },
+      {
+       "text": "8",
+       "correct": true
+      },
+      {
+       "text": "12",
+       "correct": false
+      }
+     ],
+     "explanation": "The marked proportion is $\\dfrac{60}{300}=\\dfrac{1}{5}$. Therefore, the expected number marked is $\\dfrac{1}{5} \\times 40=8$."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/A3zaha9eZ9M"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-6-6-13-capture-recapture/revision-guides",
+ "source_sha256": "b29b1fea467e157e72aa72cb678c1929a89589b1774cf1bfd8c1f767b24c3f81",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "173a6e84-dca1-4df7-8ce1-e09e5530c547",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/capture-recapture.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207930912,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

@@ -1132,3 +1132,24 @@ Past-paper / predicted-paper / mini-test banks remain excluded per the operator 
 of record. Receipt: `MG-QuestionBank/T-MG-QB-3-run-001-RECEIPT.json`; scripts land as
 `scripts/mg_qb3_*.py` (+ the shared `scripts/gh_api.py` helper) with run evidence under
 `scripts/mg_qb3_run001/`.
+---
+
+## Wave 28 — MG-RevisionGuides lands: the MathsGenie GCSE Maths (Edexcel) per-topic revision guides (T-MG-RG-1 run-001; branch `t-mg-rg-1/run-001`)
+
+`T-MG-RG-1/run-001` opens the **MG-RevisionGuides plane**: per-topic revision
+guides for `gcse-maths-edexcel`, the first lane of record in the learn plane.
+Catalog: 134 GCSE Maths (Edexcel) topics (mirror `topics-edexcel.json`,
+cross-checked clean against the site sitemap); **132/132 topics that publish a
+revision guide extracted, 2 recorded `not-offered`** (never manufactured —
+AGENT.md rule 3). Each guide lands as `revision-guide.json` (typed blocks:
+heading / paragraph / formula / worked-example / exam-tip, faithful verbatim
+math) + script-generated `revision-guide.md` + numbered `assets/` figures with
+download provenance; 1,680 blocks total (135 worked examples, 292 embedded
+`<mcq-set>` practice sets, 312 figures), ~6.7 MB, zero PDFs (operator decision
+2026-11-07). Grammar amendments of record (documented in the receipt): `figure`
+and `mcq-set` block kinds. Extraction rides the site's own RSC flight payloads
+(parser: `scripts/rsc.py` + `scripts/envelope.py`); mode-page availability from
+the site sitemap, every page fetched 200. Receipt:
+`MG-RevisionGuides/T-MG-RG-1-run-001-RECEIPT.json`; scripts land as
+`scripts/mg_rg1_*.py` (+ shared `mg_common.py`, `rsc.py`, `envelope.py`) with
+run evidence under `scripts/mg_rg1_run001/`.

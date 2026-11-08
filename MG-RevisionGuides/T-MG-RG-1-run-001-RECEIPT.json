@@ -1,0 +1,57 @@
+{
+ "receipt": "T-MG-RG-1-run-001",
+ "task_id": "T-MG-RG-1",
+ "date": "2026-11-08T17:51:38Z",
+ "actor": "SyllabAI corpus agent",
+ "scope": "MG-RevisionGuides/gcse-maths-edexcel — per-topic revision-guide extraction from MathsGenie (first RG lane of record)",
+ "sources": [
+  "https://www.mathsgenie.co.uk (live, GCSE maths Edexcel revision-guides mode pages)",
+  "SyllabAI/MathsGenie data/gcse-maths/topics-edexcel.json (catalog of record)",
+  "mathsgenie.co.uk/sitemap.xml (mode-page availability)"
+ ],
+ "counts": {
+  "topics_in_catalog": 134,
+  "topics_with_revision_guides": 132,
+  "guides_extracted": 132,
+  "blocks_total": 1680,
+  "worked_examples": 135,
+  "mcq_sets": 292,
+  "figures_downloaded": 312,
+  "files": 577,
+  "bytes": 6670644
+ },
+ "exclusions": [
+  "No past-paper / predicted-paper PDFs anywhere (operator decision 2026-11-07). 0 PDFs stored.",
+  "No media downloads: guide videos stored as YouTube embed links of record only."
+ ],
+ "honest_gaps": [
+  {
+   "topics_without_guides": [
+    "grade-1-1-13-pictograms",
+    "grade-3-3-20-two-way-tables"
+   ],
+   "reason": "not-offered"
+  }
+ ],
+ "grammar_amendments": [
+  "revision-guide.json blocks extended: {'kind':'figure', figure_ref, alt} and {'kind':'mcq-set', items:[{id, prompt, options:[{text, correct}], explanation}]} for MathsGenie's embedded <mcq-set> practice questions."
+ ],
+ "verification": {
+  "json_parse_all": true,
+  "figure_refs_resolved": true,
+  "pdf_files_in_corpus": 0,
+  "extract_gaps": 0
+ },
+ "artifacts": [
+  "MG-RevisionGuides/gcse-maths-edexcel/manifest.json",
+  "MG-RevisionGuides/gcse-maths-edexcel/grade-1-1-1-addition-and-subtraction/revision-guide.json (+ .md, assets/)",
+  "MG-RevisionGuides/gcse-maths-edexcel/grade-1-1-10-bidmas/revision-guide.json (+ .md, assets/)",
+  "MG-RevisionGuides/gcse-maths-edexcel/grade-1-1-11-factors-and-multiples/revision-guide.json (+ .md, assets/)",
+  "… 132 topic folders total"
+ ],
+ "supersedes": null,
+ "related_runs": [
+  "T-MG-QB-1/run-001 (same lane, question bank)",
+  "T-MG-VERIFY-1/run-000 (mode-card probe)"
+ ]
+}

@@ -1,0 +1,150 @@
+{
+ "topic": "grade-7-7-10-iteration",
+ "lane": "gcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "title": "Iteration",
+ "summary": "Turn repeated formula rules into reliable estimates for sequences, populations and equation solutions.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "8739a1ad-1163-4fa2-915d-3fff05bf2ca5",
+     "prompt": "Given $x_0=2$ and $x_{n+1}=3x_n-1$, what is $x_1$?",
+     "options": [
+      {
+       "text": "$6$",
+       "correct": false
+      },
+      {
+       "text": "$5$",
+       "correct": true
+      },
+      {
+       "text": "$4$",
+       "correct": false
+      },
+      {
+       "text": "$2$",
+       "correct": false
+      }
+     ],
+     "explanation": "Substitute $x_0=2$ into the iteration: $x_1=3(2)-1=5$."
+    },
+    {
+     "id": "0e012ebd-d351-4a99-bda0-cf1f374d518f",
+     "prompt": "Starting with $x_0=1$, use $x_{n+1}=\\frac{4}{x_n+1}$ three times. What is $x_3$ to 3 d.p.?",
+     "options": [
+      {
+       "text": "$1.333$",
+       "correct": false
+      },
+      {
+       "text": "$2.000$",
+       "correct": false
+      },
+      {
+       "text": "$1.500$",
+       "correct": false
+      },
+      {
+       "text": "$1.714$",
+       "correct": true
+      }
+     ],
+     "explanation": "The values are $x_1=2$, $x_2=\\frac{4}{3}$ and $x_3=\\frac{4}{\\frac{4}{3}+1}=\\frac{12}{7}\\approx1.714$."
+    },
+    {
+     "id": "7df1fba8-112f-4d91-b1bb-c4387bdeda2f",
+     "prompt": "An iteration is $x_{n+1}=\\frac{7-x_n^2}{3}$. If it converges to a fixed point, which equation does the fixed point solve?",
+     "options": [
+      {
+       "text": "$x^2+3x-7=0$",
+       "correct": true
+      },
+      {
+       "text": "$x^2-3x+7=0$",
+       "correct": false
+      },
+      {
+       "text": "$x^2+3x+7=0$",
+       "correct": false
+      },
+      {
+       "text": "$x^2-3x-7=0$",
+       "correct": false
+      }
+     ],
+     "explanation": "At a fixed point, set $x_{n+1}=x_n=x$. Then $x=\\frac{7-x^2}{3}$, so $3x=7-x^2$ and therefore $x^2+3x-7=0$."
+    },
+    {
+     "id": "70a760f5-ef2c-4f3b-8edd-b4c21a2e151e",
+     "prompt": "Let $f(x)=x^3+x-3$. Which calculation shows that there is a root between $1.2$ and $1.3$?",
+     "options": [
+      {
+       "text": "$f(1.2)=0.072$ and $f(1.3)=0.497$",
+       "correct": false
+      },
+      {
+       "text": "$f(1.2)=-0.072$ and $f(1.3)=-0.497$",
+       "correct": false
+      },
+      {
+       "text": "$f(1.2)=-0.072$ and $f(1.3)=0.497$",
+       "correct": true
+      },
+      {
+       "text": "$f(1.2)=0.072$ and $f(1.3)=-0.497$",
+       "correct": false
+      }
+     ],
+     "explanation": "$f(1.2)=1.2^3+1.2-3=-0.072$ and $f(1.3)=1.3^3+1.3-3=0.497$. The change of sign shows that the graph crosses the $x$-axis between these values."
+    },
+    {
+     "id": "90db6611-b982-4e98-8dea-6dc854393943",
+     "prompt": "Two consecutive values from an iteration are $x_5=1.52136$ and $x_6=1.52138$. What estimate should be given to 3 decimal places?",
+     "options": [
+      {
+       "text": "$1.520$",
+       "correct": false
+      },
+      {
+       "text": "$1.522$",
+       "correct": false
+      },
+      {
+       "text": "$1.5214$",
+       "correct": false
+      },
+      {
+       "text": "$1.521$",
+       "correct": true
+      }
+     ],
+     "explanation": "Both consecutive values round to $1.521$ to 3 decimal places, so this is a suitable estimate for the solution."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/IGDwLH9_ZF8"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-7-7-10-iteration/revision-guides",
+ "source_sha256": "cca325d5258b90159e63acbde82e6bd68f95925590f4b3600414327a2ce3827d",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "27728987-f64f-4897-bbf2-f9e8da388f41",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/iteration.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207931550,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

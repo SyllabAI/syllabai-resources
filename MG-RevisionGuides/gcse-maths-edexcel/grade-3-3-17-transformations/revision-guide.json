@@ -1,0 +1,925 @@
+{
+ "topic": "grade-3-3-17-transformations",
+ "lane": "gcse-maths-edexcel",
+ "grade": "3",
+ "tier": null,
+ "title": "Transformations",
+ "summary": "Learn how shapes move on grids using slides, flips, turns, and enlargements.",
+ "blocks": [
+  {
+   "kind": "paragraph",
+   "text": "**There are 4 types of transformations we need to know:  \n• Translations  \n• Rotations  \n• Reflections  \n• Enlargements**"
+  },
+  {
+   "kind": "paragraph",
+   "text": "A translation moves a shape. All points of the shape must be moved by the same amount."
+  },
+  {
+   "kind": "paragraph",
+   "text": "A translation can be up or down and left or right."
+  },
+  {
+   "kind": "heading",
+   "text": "Example: Describe the transformation that maps shape A onto shape B"
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/001-transformation-1.jpg",
+   "alt": "transformation 1"
+  },
+  {
+   "kind": "paragraph",
+   "text": "We can see that the shape has moved and all points have moved by the same amount. This transformation is called a **translation**"
+  },
+  {
+   "kind": "paragraph",
+   "text": "We also need to know by how much the shape has moved."
+  },
+  {
+   "kind": "paragraph",
+   "text": "We can take any point of shape A and see how far we have to move to get to the same point on shape B."
+  },
+  {
+   "kind": "paragraph",
+   "text": "We need to know how far to move left/right and how far to move up/down."
+  },
+  {
+   "kind": "paragraph",
+   "text": "If we take the bottom right corner of A we have to see how far we have to move the to get to the bottom right corner of B."
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/002-transformations-2.jpg",
+   "alt": "transformations 2"
+  },
+  {
+   "kind": "paragraph",
+   "text": "We start by looking at how far to move left or right. We need to move 4 to the right."
+  },
+  {
+   "kind": "paragraph",
+   "text": "Now we can look at how far up or down to move. We need to go up 3."
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/003-transformations-3.jpg",
+   "alt": "transformations 3"
+  },
+  {
+   "kind": "paragraph",
+   "text": "The transformation that maps shape A onto shape B is a translation 4 right and 3 up."
+  },
+  {
+   "kind": "heading",
+   "text": "We can describe a translation using a vector."
+  },
+  {
+   "kind": "paragraph",
+   "text": "4 right and 3 up can be written as:"
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/004-translation-43.jpg",
+   "alt": "translation 43"
+  },
+  {
+   "kind": "paragraph",
+   "text": "We write the left/right movement on top of the up/down movement. We put a set of brackets around these numbers."
+  },
+  {
+   "kind": "paragraph",
+   "text": "A movement to the right is positive and a movement to the left is negative.  \nA movement up is positive and a movement down is negative."
+  },
+  {
+   "kind": "paragraph",
+   "text": "5 left and 1 up is written as:"
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/005-translation-1.jpg",
+   "alt": "translation 1"
+  },
+  {
+   "kind": "paragraph",
+   "text": "6 right and 2 down is written as:"
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/006-translation-2.jpg",
+   "alt": "translation 2"
+  },
+  {
+   "kind": "paragraph",
+   "text": "3 left and 8 down is written as:"
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/007-translation-3.jpg",
+   "alt": "translation 3"
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "077c0e8f-a417-47f5-bff3-8cff1cdc3c30",
+     "prompt": "A point $(-2,4)$ is translated by the vector $\\begin{pmatrix}5\\\\-3\\end{pmatrix}$. Where does it land?",
+     "options": [
+      {
+       "text": "$(3,1)$",
+       "correct": true
+      },
+      {
+       "text": "$(-7,7)$",
+       "correct": false
+      },
+      {
+       "text": "$(7,1)$",
+       "correct": false
+      },
+      {
+       "text": "$(3,7)$",
+       "correct": false
+      }
+     ],
+     "explanation": "Add the horizontal and vertical components separately: $-2+5=3$ and $4-3=1$. The image is therefore $(3,1)$."
+    },
+    {
+     "id": "d681369d-b35c-4c1e-b3f7-b71d646ae624",
+     "prompt": "A point is translated from $(6,-1)$ to $(2,4)$. What is the translation vector, written as $\\begin{pmatrix}\\text{horizontal movement}\\\\\\text{vertical movement}\\end{pmatrix}$?",
+     "options": [
+      {
+       "text": "$\\begin{pmatrix}4\\\\-5\\end{pmatrix}$",
+       "correct": false
+      },
+      {
+       "text": "$\\begin{pmatrix}-5\\\\4\\end{pmatrix}$",
+       "correct": false
+      },
+      {
+       "text": "$\\begin{pmatrix}-4\\\\5\\end{pmatrix}$",
+       "correct": true
+      },
+      {
+       "text": "$\\begin{pmatrix}5\\\\-4\\end{pmatrix}$",
+       "correct": false
+      }
+     ],
+     "explanation": "Compare the final coordinates with the starting coordinates: $6$ to $2$ is $4$ left, and $-1$ to $4$ is $5$ up. The vector is $\\begin{pmatrix}-4\\\\5\\end{pmatrix}$."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "text": "Example: Describe the transformation that maps shape A onto shape B"
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/008-transformations-4.jpg",
+   "alt": "transformations 4"
+  },
+  {
+   "kind": "paragraph",
+   "text": "We have a **translation**."
+  },
+  {
+   "kind": "paragraph",
+   "text": "To find out how much the shape has moved we need to pick a point on shape A and find the same point on shape B."
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/009-transformations-5.jpg",
+   "alt": "transformations 5"
+  },
+  {
+   "kind": "paragraph",
+   "text": "We can now look at how far we need to move to get from the point on A to the same point on B"
+  },
+  {
+   "kind": "paragraph",
+   "text": "Firstly we look at the left or right direction:  \nWe need to move 6 to the left."
+  },
+  {
+   "kind": "paragraph",
+   "text": "Next we look at how far to move in the up or down direction:  \nWe move 5 up."
+  },
+  {
+   "kind": "paragraph",
+   "text": "We have a translation 6 to the left and 5 up."
+  },
+  {
+   "kind": "paragraph",
+   "text": "We can write 6 left and 5 up as a vector:"
+  },
+  {
+   "kind": "paragraph",
+   "text": "The transformation is a **translation by the vector"
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/010-translation-5.jpg",
+   "alt": "translation 5"
+  },
+  {
+   "kind": "paragraph",
+   "text": "**"
+  },
+  {
+   "kind": "paragraph",
+   "text": "**Example: Translate shape A by the vector"
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/011-translation-6.jpg",
+   "alt": "translation 6"
+  },
+  {
+   "kind": "paragraph",
+   "text": "**"
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/012-transformations-7.jpg",
+   "alt": "transformations 7"
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/011-translation-6.jpg",
+   "alt": "translation 6"
+  },
+  {
+   "kind": "paragraph",
+   "text": "means we need to move the shape 5 right and 2 up"
+  },
+  {
+   "kind": "paragraph",
+   "text": "We can start by picking a point on shape A."
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/013-transformations-8.jpg",
+   "alt": "transformations 8"
+  },
+  {
+   "kind": "paragraph",
+   "text": "We can now move this point 5 right and then 2 up."
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/014-transformations-9.jpg",
+   "alt": "transformations 9"
+  },
+  {
+   "kind": "paragraph",
+   "text": "From this point we need to draw a shape that is the same as shape A."
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "35d62c6b-99ca-4d7a-8bf4-ba618767c3c9",
+     "prompt": "A point $(-3,1)$ is translated $5$ units right and $2$ units up. What is its image?",
+     "options": [
+      {
+       "text": "$(2,1)$",
+       "correct": false
+      },
+      {
+       "text": "$(2,3)$",
+       "correct": true
+      },
+      {
+       "text": "$(-8,3)$",
+       "correct": false
+      },
+      {
+       "text": "$(-5,6)$",
+       "correct": false
+      }
+     ],
+     "explanation": "Moving $5$ right changes the $x$-coordinate from $-3$ to $2$. Moving $2$ up changes the $y$-coordinate from $1$ to $3$, giving $(2,3)$."
+    },
+    {
+     "id": "181e9344-a5b3-49b9-9f34-0ce9e1e19043",
+     "prompt": "A point $(4,-2)$ is translated $3$ units left and $6$ units down. What is its image?",
+     "options": [
+      {
+       "text": "$(7,4)$",
+       "correct": false
+      },
+      {
+       "text": "$(1,4)$",
+       "correct": false
+      },
+      {
+       "text": "$(1,-4)$",
+       "correct": false
+      },
+      {
+       "text": "$(1,-8)$",
+       "correct": true
+      }
+     ],
+     "explanation": "Three units left gives $4-3=1$, and six units down gives $-2-6=-8$. The image is $(1,-8)$."
+    }
+   ]
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/015-transformations-10.jpg",
+   "alt": "transformations 10"
+  },
+  {
+   "kind": "paragraph",
+   "text": "A rotation turns a shape around a fixed point. The fixed point is called the centre of rotation."
+  },
+  {
+   "kind": "heading",
+   "text": "Example: Rotate shape A 180° about centre (1,1)"
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/016-transformations-28.jpg",
+   "alt": "transformations 28"
+  },
+  {
+   "kind": "paragraph",
+   "text": "We can use tracing paper to rotate a shape  \nOn the tracing paper we draw around the shape and mark the centre of rotation  \nWe can also add an arrow pointing up from the centre of rotation"
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/017-transformations-29.jpg",
+   "alt": "transformations 29"
+  },
+  {
+   "kind": "paragraph",
+   "text": "We now need to hold the tracing paper at the centre of rotation (you can hold a pencil on the centre of rotation) and spin the tracing paper around 180°  \nWhen the tracing paper has spun 180° the arrow will be facing down"
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/018-rotation-3.gif",
+   "alt": "rotation 3"
+  },
+  {
+   "kind": "paragraph",
+   "text": "To finish we need to draw the rotated shape on the paper"
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/019-transformations-46.jpg",
+   "alt": "transformations 46"
+  },
+  {
+   "kind": "heading",
+   "text": "Example: Describe the transformation that maps shape A onto shape B."
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/020-transformations-11.jpg",
+   "alt": "transformations 11"
+  },
+  {
+   "kind": "paragraph",
+   "text": "Here the shape has been turned, we have a **rotation**."
+  },
+  {
+   "kind": "paragraph",
+   "text": "To describe the transformation we also need to know the centre of rotation and how far the shape has turned (the angle)  \nWe can use tracing paper to help work this out."
+  },
+  {
+   "kind": "paragraph",
+   "text": "To do this we get a piece of tracing paper and draw around the shape (shape A)."
+  },
+  {
+   "kind": "paragraph",
+   "text": "We then have to work out where to hold the tracing paper (the bit of the paper that is kept in the same position when the paper is rotated).  \nYou can try different positions  \nIf the tracing paper is held at (3,2) shape A should spin onto shape B."
+  },
+  {
+   "kind": "paragraph",
+   "text": "(3,2) is the centre of rotation"
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/021-rotation-1.gif",
+   "alt": "rotation 1"
+  },
+  {
+   "kind": "paragraph",
+   "text": "At (3,2) on the tracing paper we can draw an arrow facing up"
+  },
+  {
+   "kind": "paragraph",
+   "text": "If we hold the tracing paper at (3,2) and rotate the paper we will see that the arrow is facing left when the triangle is on shape B."
+  },
+  {
+   "kind": "paragraph",
+   "text": "This is a 90° anticlockwise rotation."
+  },
+  {
+   "kind": "paragraph",
+   "text": "We have a **rotation, 90° anticlockwise, about the centre (3,2)**"
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "11742fa6-5f92-4c28-a520-9539cda63a6b",
+     "prompt": "A point $(2,-5)$ is rotated $90^\\circ$ anticlockwise about the origin. Where does it land?",
+     "options": [
+      {
+       "text": "$(-5,-2)$",
+       "correct": false
+      },
+      {
+       "text": "$(5,2)$",
+       "correct": true
+      },
+      {
+       "text": "$(-2,5)$",
+       "correct": false
+      },
+      {
+       "text": "$(-5,2)$",
+       "correct": false
+      }
+     ],
+     "explanation": "For a $90^\\circ$ anticlockwise rotation about the origin, $(x,y)$ becomes $(-y,x)$. Thus $(2,-5)$ becomes $(5,2)$."
+    },
+    {
+     "id": "abfc0b28-85b1-4064-a25e-23ff4c87a425",
+     "prompt": "A point $(5,3)$ is rotated $180^\\circ$ about the centre $(1,1)$. What is its image?",
+     "options": [
+      {
+       "text": "$(3,-1)$",
+       "correct": false
+      },
+      {
+       "text": "$(-3,1)$",
+       "correct": false
+      },
+      {
+       "text": "$(-3,-1)$",
+       "correct": true
+      },
+      {
+       "text": "$(7,5)$",
+       "correct": false
+      }
+     ],
+     "explanation": "Relative to $(1,1)$, the point is $4$ right and $2$ up. A $180^\\circ$ rotation makes this $4$ left and $2$ down, giving $(1-4,1-2)=(-3,-1)$."
+    }
+   ]
+  },
+  {
+   "kind": "paragraph",
+   "text": "A reflection is a mirror image of a shape. For a reflection we need a line of reflection (a mirror line). When a shape is reflected it is flipped over the mirror line."
+  },
+  {
+   "kind": "paragraph",
+   "text": "After a shape is reflected each new point is the same distance from the mirror line as the original point."
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/022-transformations-47.jpg",
+   "alt": "transformations 47"
+  },
+  {
+   "kind": "paragraph",
+   "text": "Here we have a shape reflected over a mirror line. The mirror line is shown by the dotted line."
+  },
+  {
+   "kind": "paragraph",
+   "text": "You can see that each point and its corresponding point on the reflected shape are the same distance away from the mirror line."
+  },
+  {
+   "kind": "heading",
+   "text": "Example: Reflect shape A in the line y = 5"
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/023-transformations-48.jpg",
+   "alt": "transformations 48"
+  },
+  {
+   "kind": "paragraph",
+   "text": "The line y = 5 is the line that joins all the points where y is 5. We can draw the mirror line with a dotted line."
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/024-transformations-49.jpg",
+   "alt": "transformations 49"
+  },
+  {
+   "kind": "paragraph",
+   "text": "One corner of the triangle (7,5) is on the mirror line. This point will stay in the same position."
+  },
+  {
+   "kind": "paragraph",
+   "text": "The corner at (6,2) is 3 units away from the mirror line (we always look at the shortest distance/perpendicular distance), it will be 3 units away on the other side of the mirror line."
+  },
+  {
+   "kind": "paragraph",
+   "text": "The corner at (8,2) is 3 units away from the mirror line. It will be 3 units away on the other side of the mirror line."
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/025-transformations-50.jpg",
+   "alt": "transformations 50"
+  },
+  {
+   "kind": "paragraph",
+   "text": "Finally we connect the points to draw the reflected shape."
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/026-transformations-51.jpg",
+   "alt": "transformations 51"
+  },
+  {
+   "kind": "heading",
+   "text": "Example: Describe the single transformation that maps shape A onto shape B."
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/027-transformations-52.jpg",
+   "alt": "transformations 52"
+  },
+  {
+   "kind": "paragraph",
+   "text": "We can see that the shape has been flipped, we have a **reflection**."
+  },
+  {
+   "kind": "paragraph",
+   "text": "We also need to know the mirror line."
+  },
+  {
+   "kind": "paragraph",
+   "text": "The mirror line is half way between each set of corresponding points."
+  },
+  {
+   "kind": "paragraph",
+   "text": "The mirror line is the y axis."
+  },
+  {
+   "kind": "paragraph",
+   "text": "The transformation is **a reflection in the y axis**"
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "811a1675-3813-4c90-979c-81c19b1dd5df",
+     "prompt": "The point $(6,2)$ is reflected in the line $y=5$. What is the image point?",
+     "options": [
+      {
+       "text": "$(6,8)$",
+       "correct": true
+      },
+      {
+       "text": "$(6,3)$",
+       "correct": false
+      },
+      {
+       "text": "$(4,8)$",
+       "correct": false
+      },
+      {
+       "text": "$(-6,2)$",
+       "correct": false
+      }
+     ],
+     "explanation": "The point is $3$ units below $y=5$, so its image is $3$ units above the line. Its $x$-coordinate stays $6$, giving $(6,8)$."
+    },
+    {
+     "id": "0ae69efe-d34d-4ab3-8658-f6509b5b3fb5",
+     "prompt": "The point $(2,-1)$ is reflected in the line $y=x$. What is the image point?",
+     "options": [
+      {
+       "text": "$(2,1)$",
+       "correct": false
+      },
+      {
+       "text": "$(-2,1)$",
+       "correct": false
+      },
+      {
+       "text": "$(-1,2)$",
+       "correct": true
+      },
+      {
+       "text": "$(1,-2)$",
+       "correct": false
+      }
+     ],
+     "explanation": "Reflection in $y=x$ swaps the coordinates. Therefore $(2,-1)$ becomes $(-1,2)$."
+    }
+   ]
+  },
+  {
+   "kind": "paragraph",
+   "text": "The mirror line is not always a horizontal or vertical line."
+  },
+  {
+   "kind": "paragraph",
+   "text": "Here is another reflection."
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/028-transformations-53.jpg",
+   "alt": "transformations 53"
+  },
+  {
+   "kind": "paragraph",
+   "text": "The mirror line is in the diagonal line that goes through (0,0), (1,1), (2,2), (3,3) and so on.  \nThis line is called y = x"
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/029-transformations-54.jpg",
+   "alt": "transformations 54"
+  },
+  {
+   "kind": "paragraph",
+   "text": "It can be easier to see if you rotate the page"
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/030-transformations-55.jpg",
+   "alt": "transformations 55"
+  },
+  {
+   "kind": "paragraph",
+   "text": "An enlargement changes the size of a shape. The shape can get bigger or smaller."
+  },
+  {
+   "kind": "paragraph",
+   "text": "To enlarge a shape we need to know the scale factor and the centre of enlargement.  \nThe scale factor tells us how many times bigger (or smaller) the shape is.  \nThe centre of enlargement is the starting point, the point from which the enlarged."
+  },
+  {
+   "kind": "heading",
+   "text": "Example: Describe the transformation that maps shape A onto shape B."
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/031-transformations-56.jpg",
+   "alt": "transformations 56"
+  },
+  {
+   "kind": "paragraph",
+   "text": "We can see that the shape has changed size. It is an **enlargement**."
+  },
+  {
+   "kind": "paragraph",
+   "text": "Triangle A has base of 3 units and triangle B has a base of 6 units  \nTriangle A has a height of 2 units and triangle B has a height of 4 units  \nThe scale factor is 2. (3 × 2 = 6 and 2 × 2 = 4)"
+  },
+  {
+   "kind": "paragraph",
+   "text": "To find the centre of enlargement we can extend a line through each set of corresponding points:"
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/032-transformations-57.jpg",
+   "alt": "transformations 57"
+  },
+  {
+   "kind": "paragraph",
+   "text": "We can see that all of the lines meet at (2,2). This is the centre of enlargement.  \nThe points on B are twice as far as their corresponding points on A from (2,2)."
+  },
+  {
+   "kind": "paragraph",
+   "text": "The transformation is an **enlargement, scale factor 2 with centre of enlargement (2,2)**"
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "7052a79c-3460-43e9-b4fb-2d7052e60757",
+     "prompt": "A point $(1,-2)$ is enlarged by scale factor $2$ with centre $(0,0)$. Where does it land?",
+     "options": [
+      {
+       "text": "$(1,-4)$",
+       "correct": false
+      },
+      {
+       "text": "$(2,-1)$",
+       "correct": false
+      },
+      {
+       "text": "$(2,-4)$",
+       "correct": true
+      },
+      {
+       "text": "$(-2,4)$",
+       "correct": false
+      }
+     ],
+     "explanation": "With centre $(0,0)$, multiply both coordinates by the scale factor: $(1\\times2,-2\\times2)=(2,-4)$."
+    },
+    {
+     "id": "9d6e3c91-bb26-45fb-8e61-e66cc6d3f8d2",
+     "prompt": "A point $(3,5)$ is enlarged by scale factor $2$ with centre $(2,2)$. What is its image?",
+     "options": [
+      {
+       "text": "$(4,8)$",
+       "correct": true
+      },
+      {
+       "text": "$(6,10)$",
+       "correct": false
+      },
+      {
+       "text": "$(3,6)$",
+       "correct": false
+      },
+      {
+       "text": "$(0,-4)$",
+       "correct": false
+      }
+     ],
+     "explanation": "From the centre $(2,2)$ to $(3,5)$ is $1$ right and $3$ up. Doubling these movements gives $2$ right and $6$ up, so the image is $(4,8)$."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "text": "Example: Enlarge shape A by scale factor 3, centre (2,5)."
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/033-transformations-58.jpg",
+   "alt": "transformations 58"
+  },
+  {
+   "kind": "paragraph",
+   "text": "The centre of enlargement is marked with a cross (x)."
+  },
+  {
+   "kind": "paragraph",
+   "text": "All the points on the new shape will be 3 times as far from the centre of enlargement as their corresponding points on A."
+  },
+  {
+   "kind": "paragraph",
+   "text": "To get from the centre of enlargement to the bottom left corner (the red point) of A we have to go along one and down one."
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/034-transformations-59.jpg",
+   "alt": "transformations 59"
+  },
+  {
+   "kind": "paragraph",
+   "text": "The corresponding point on the new shape will be 3 times as far. To get there we go along 3 and down 3 (from the centre of enlargement)."
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/035-transformations-60.jpg",
+   "alt": "transformations 60"
+  },
+  {
+   "kind": "paragraph",
+   "text": "To get from the centre of enlargement to the bottom right corner (the blue dot) we have to go along 2 and down 1. The point on the new shape will be 3 times as far, it will be along 6 and down 3 from the centre of enlargement."
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/036-transformations-61.jpg",
+   "alt": "transformations 61"
+  },
+  {
+   "kind": "paragraph",
+   "text": "To get from the centre of enlargement to the top of the triangle (yellow dot) we have to go along 1.5 and up 1. We multiply by 3 for the enlarged shape. The new point will be along 4.5 and up 3 from the centre of enlargement."
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/037-transformations-62.jpg",
+   "alt": "transformations 62"
+  },
+  {
+   "kind": "paragraph",
+   "text": "We can now connect the corners to form our transformed shape."
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/038-transformations-63.jpg",
+   "alt": "transformations 63"
+  },
+  {
+   "kind": "heading",
+   "text": "Example: Describe the single transformation that maps shape A onto shape B."
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/039-transformations-64.jpg",
+   "alt": "transformations 64"
+  },
+  {
+   "kind": "paragraph",
+   "text": "We can see that shape B is smaller than shape A. This is an **Enlargement**. (Any change in the size of the shape is called an enlargement.)"
+  },
+  {
+   "kind": "paragraph",
+   "text": "Shape A has a base of 4 units and shape B has a base of 2 units. 2 is half of 4. The scale factor is 0.5. The lengths of shape B are half the lengths of shape A."
+  },
+  {
+   "kind": "paragraph",
+   "text": "To find the centre of enlargement we can extend lines through each corner and the corresponding corner on the other shape."
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/040-transformations-65.jpg",
+   "alt": "transformations 65"
+  },
+  {
+   "kind": "paragraph",
+   "text": "All the lines meet at (8,9). (8,9) is the centre of enlargement."
+  },
+  {
+   "kind": "paragraph",
+   "text": "The transformation is an **enlargement, scale factor 0.5, centre (8,9)**"
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "55c180ea-dd0d-432a-978e-a121d0858d81",
+     "prompt": "A point $(10,13)$ is enlarged by scale factor $0.5$ with centre $(8,9)$. What is its image?",
+     "options": [
+      {
+       "text": "$(9,11)$",
+       "correct": true
+      },
+      {
+       "text": "$(10,11)$",
+       "correct": false
+      },
+      {
+       "text": "$(9,13)$",
+       "correct": false
+      },
+      {
+       "text": "$(12,17)$",
+       "correct": false
+      }
+     ],
+     "explanation": "From $(8,9)$ to $(10,13)$ is $2$ right and $4$ up. Halving these movements gives $1$ right and $2$ up, so the image is $(9,11)$."
+    },
+    {
+     "id": "ebafb257-cdbe-478f-820f-88373d983c6d",
+     "prompt": "A side of a shape is $6$ units long before an enlargement and $9$ units long afterwards. What is the scale factor?",
+     "options": [
+      {
+       "text": "$0.5$",
+       "correct": false
+      },
+      {
+       "text": "$1.5$",
+       "correct": true
+      },
+      {
+       "text": "$2$",
+       "correct": false
+      },
+      {
+       "text": "$3$",
+       "correct": false
+      }
+     ],
+     "explanation": "The scale factor is the image length divided by the original length: $9\\div6=1.5$. The shape has been enlarged by scale factor $1.5$."
+    }
+   ]
+  },
+  {
+   "kind": "paragraph",
+   "text": "70:[\"$\",\"$L87\","
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/leHYLEPe0ZE"
+  },
+  {
+   "embed_url": "https://www.youtube.com/embed/bS9naYK7Nw0"
+  },
+  {
+   "embed_url": "https://www.youtube.com/embed/RAOcTmX7nS4"
+  },
+  {
+   "embed_url": "https://www.youtube.com/embed/UUzhM0hAifA"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-3-3-17-transformations/revision-guides",
+ "source_sha256": "7966ca06933d57f084eff90f48c33afad32323b9a1d2be6567f951b8c1e22438",
+ "extracted_at": "2026-11-08T17:51:37Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "9f3e7175-9530-45e2-b790-28a3491e8fe4",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/transformations.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207926454,
+  "figure_count": 40,
+  "block_counts": {
+   "paragraph": 83,
+   "heading": 10,
+   "figure": 41,
+   "mcq-set": 6
+  }
+ }
+}

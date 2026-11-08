@@ -1,0 +1,150 @@
+{
+ "topic": "grade-5-5-15-equation-of-a-line",
+ "lane": "gcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "title": "Equation of a Line",
+ "summary": "Learn how gradients and intercepts describe straight lines so you can read, rearrange and write line equations confidently.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "62c552e9-7ad0-4b04-9d2a-e204bfcaeef3",
+     "prompt": "What are the gradient and y-intercept of the line $y = 5x - 3$?",
+     "options": [
+      {
+       "text": "Gradient $-3$, y-intercept $5$",
+       "correct": false
+      },
+      {
+       "text": "Gradient $5$, y-intercept $-3$",
+       "correct": true
+      },
+      {
+       "text": "Gradient $-5$, y-intercept $3$",
+       "correct": false
+      },
+      {
+       "text": "Gradient $3$, y-intercept $-5$",
+       "correct": false
+      }
+     ],
+     "explanation": "In the form $y = mx + c$, $m$ is the gradient and $c$ is the y-intercept. Therefore, the gradient is $5$ and the y-intercept is $-3$."
+    },
+    {
+     "id": "aec6a5ef-c4f4-41fb-b76a-1afdaabf3963",
+     "prompt": "A line has gradient $-2$ and crosses the y-axis at $(0, 6)$. Which is its equation?",
+     "options": [
+      {
+       "text": "$y = 6x - 2$",
+       "correct": false
+      },
+      {
+       "text": "$y = 2x + 6$",
+       "correct": false
+      },
+      {
+       "text": "$y = -2x - 6$",
+       "correct": false
+      },
+      {
+       "text": "$y = -2x + 6$",
+       "correct": true
+      }
+     ],
+     "explanation": "Substitute the gradient $m=-2$ and y-intercept $c=6$ into $y=mx+c$. This gives $y=-2x+6$."
+    },
+    {
+     "id": "5225aaae-0116-4b1e-bbf3-1132f1a882ea",
+     "prompt": "A straight line passes through $(2, 7)$ and $(6, -1)$. What is its gradient?",
+     "options": [
+      {
+       "text": "$-2$",
+       "correct": true
+      },
+      {
+       "text": "$2$",
+       "correct": false
+      },
+      {
+       "text": "$-\\frac{1}{2}$",
+       "correct": false
+      },
+      {
+       "text": "$-8$",
+       "correct": false
+      }
+     ],
+     "explanation": "The gradient is change in $y$ divided by change in $x$: $\\frac{-1-7}{6-2}=\\frac{-8}{4}=-2$."
+    },
+    {
+     "id": "b0dc7fa7-d7a1-4514-98bb-fb2d29f30eda",
+     "prompt": "Where does the line $y = 3 - 4x$ cross the y-axis?",
+     "options": [
+      {
+       "text": "$(3,0)$",
+       "correct": false
+      },
+      {
+       "text": "$(0,-4)$",
+       "correct": false
+      },
+      {
+       "text": "$(0,3)$",
+       "correct": true
+      },
+      {
+       "text": "$(-4,0)$",
+       "correct": false
+      }
+     ],
+     "explanation": "At the y-axis, $x=0$. Substituting gives $y=3-4(0)=3$, so the line crosses at $(0,3)$."
+    },
+    {
+     "id": "ee001fdb-53b6-4cab-a8b8-38639232641d",
+     "prompt": "A line is parallel to $2x + 5y = 15$ and crosses the y-axis at $(0,-1)$. Which is its equation?",
+     "options": [
+      {
+       "text": "$y=\\frac{2}{5}x-1$",
+       "correct": false
+      },
+      {
+       "text": "$y=-\\frac{2}{5}x-1$",
+       "correct": true
+      },
+      {
+       "text": "$y=-\\frac{5}{2}x-1$",
+       "correct": false
+      },
+      {
+       "text": "$y=-\\frac{2}{5}x+1$",
+       "correct": false
+      }
+     ],
+     "explanation": "Rearranging gives $5y=-2x+15$, so $y=-\\frac{2}{5}x+3$ and its gradient is $-\\frac{2}{5}$. Parallel lines have the same gradient, and the required y-intercept is $-1$, giving $y=-\\frac{2}{5}x-1$."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/powhADI9SwA"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-5-5-15-equation-of-a-line/revision-guides",
+ "source_sha256": "532f0ff315559e1f10b54304637e00089b166dc6c753db7a84e557e5486e7160",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "b84f7863-a309-47ff-a382-a00e8fb13aee",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/equation-of-a-line.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207929019,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

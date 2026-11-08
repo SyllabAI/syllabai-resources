@@ -1,0 +1,155 @@
+{
+ "topic": "grade-4-4-1-compound-interest-and-depreciation",
+ "lane": "gcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "title": "Compound Interest and Depreciation",
+ "summary": "See how repeated percentage changes affect savings, house prices and cars, and learn reliable calculator methods.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "b1d76bd6-35d1-48e5-9510-83aa5c798fac",
+     "prompt": "A laptop loses $7\\%$ of its value each year. Which multiplier is used to calculate its value after each year?",
+     "options": [
+      {
+       "text": "$0.07$",
+       "correct": false
+      },
+      {
+       "text": "$0.93$",
+       "correct": true
+      },
+      {
+       "text": "$1.07$",
+       "correct": false
+      },
+      {
+       "text": "$1.93$",
+       "correct": false
+      }
+     ],
+     "explanation": "After losing $7\\%$, the laptop keeps $100\\%-7\\%=93\\%$ of its value. As a decimal, $93\\%=0.93$, so the multiplier is $0.93$."
+    },
+    {
+     "id": "56a9564b-7f6b-4b96-b693-bb67b47f6993",
+     "prompt": "Ava invests £800 at $5\\%$ compound interest per year for 3 years. What is the final amount?",
+     "options": [
+      {
+       "text": "£840.00",
+       "correct": false
+      },
+      {
+       "text": "£920.00",
+       "correct": false
+      },
+      {
+       "text": "£926.00",
+       "correct": false
+      },
+      {
+       "text": "£926.10",
+       "correct": true
+      }
+     ],
+     "explanation": "The compound-interest multiplier is $1.05$, so the final amount is $800\\times1.05^3=£926.10$."
+    },
+    {
+     "id": "9e8fd3f5-caa4-4c03-b83a-932a78f0becd",
+     "prompt": "£2500 is invested at $4\\%$ compound interest per year for 2 years. How much interest is earned altogether?",
+     "options": [
+      {
+       "text": "£204",
+       "correct": true
+      },
+      {
+       "text": "£200",
+       "correct": false
+      },
+      {
+       "text": "£2704",
+       "correct": false
+      },
+      {
+       "text": "£104",
+       "correct": false
+      }
+     ],
+     "explanation": "The final amount is $2500\\times1.04^2=£2704$. Subtracting the original £2500 gives total interest of $£2704-£2500=£204$."
+    },
+    {
+     "id": "4c04cf21-7d5e-4251-a2a7-bd032e6bbdff",
+     "prompt": "A car worth £12,000 loses $20\\%$ of its value in the first year and $10\\%$ in the second year. What is it worth after 2 years?",
+     "options": [
+      {
+       "text": "£8400",
+       "correct": false
+      },
+      {
+       "text": "£9600",
+       "correct": false
+      },
+      {
+       "text": "£8640",
+       "correct": true
+      },
+      {
+       "text": "£9720",
+       "correct": false
+      }
+     ],
+     "explanation": "Use a multiplier of $0.80$ for the first year and $0.90$ for the second: $12000\\times0.80\\times0.90=£8640$. The percentage losses should not simply be added."
+    },
+    {
+     "id": "9eab4669-190e-4782-b953-1b0b6604f84a",
+     "prompt": "A saver invests £4000 for 4 years. Bank A pays $3\\%$ compound interest per year, while Bank B pays $3.2\\%$ simple interest per year. Which bank gives more money, and by how much to the nearest penny?",
+     "options": [
+      {
+       "text": "Bank A by £9.96",
+       "correct": false
+      },
+      {
+       "text": "Bank B by £9.96",
+       "correct": true
+      },
+      {
+       "text": "Bank B by £512.00",
+       "correct": false
+      },
+      {
+       "text": "Bank A by £502.04",
+       "correct": false
+      }
+     ],
+     "explanation": "Bank A gives $4000\\times1.03^4=£4502.04$ to the nearest penny. Bank B gives $4000+(4000\\times0.032\\times4)=£4512.00$, so Bank B gives £9.96 more."
+    }
+   ]
+  },
+  {
+   "kind": "paragraph",
+   "text": "70:[\"$\",\"$L87\",null,{\"bundle\":"
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/1C0WUwl2LsU"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-4-4-1-compound-interest-and-depreciation/revision-guides",
+ "source_sha256": "bad1649486da78e5e9fc5ae3877bebce83971f9bfcf155015a3d97dc6dd94fb7",
+ "extracted_at": "2026-11-08T17:51:37Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "6228d9aa-1592-48ad-aaee-998d2fbfaf61",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/compound-interest.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207927923,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1,
+   "paragraph": 1
+  }
+ }
+}

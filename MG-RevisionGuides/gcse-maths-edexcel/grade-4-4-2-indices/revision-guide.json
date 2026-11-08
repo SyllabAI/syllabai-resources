@@ -1,0 +1,150 @@
+{
+ "topic": "grade-4-4-2-indices",
+ "lane": "gcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "title": "Indices",
+ "summary": "Learn the index laws for multiplying, dividing, brackets, zero powers and negative powers so algebra looks much less scary.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "4be5f240-b4d6-4761-9069-eaee908acbe1",
+     "prompt": "Simplify $y^5 \\times y^3$.",
+     "options": [
+      {
+       "text": "$y^{15}$",
+       "correct": false
+      },
+      {
+       "text": "$y^8$",
+       "correct": true
+      },
+      {
+       "text": "$2y^8$",
+       "correct": false
+      },
+      {
+       "text": "$y^2$",
+       "correct": false
+      }
+     ],
+     "explanation": "When multiplying powers with the same base, add the indices: $y^5 \\times y^3=y^{5+3}=y^8$."
+    },
+    {
+     "id": "5b4bd12a-3abf-4dce-bb8f-d7d05bb56877",
+     "prompt": "Simplify $\\left(3a^2b\\right)^2$.",
+     "options": [
+      {
+       "text": "$9a^4b^2$",
+       "correct": true
+      },
+      {
+       "text": "$6a^4b^2$",
+       "correct": false
+      },
+      {
+       "text": "$9a^4b$",
+       "correct": false
+      },
+      {
+       "text": "$9a^2b^2$",
+       "correct": false
+      }
+     ],
+     "explanation": "Square every factor: $3^2=9$, $\\left(a^2\\right)^2=a^4$ and $b^2=b^2$. Therefore the answer is $9a^4b^2$."
+    },
+    {
+     "id": "a89529d7-89ff-4a43-957c-d8e82dd458b3",
+     "prompt": "Simplify $\\frac{20m^7n^3}{5m^2n}$.",
+     "options": [
+      {
+       "text": "$4m^9n^4$",
+       "correct": false
+      },
+      {
+       "text": "$15m^5n^2$",
+       "correct": false
+      },
+      {
+       "text": "$4m^5n^2$",
+       "correct": true
+      },
+      {
+       "text": "$4m^5n^3$",
+       "correct": false
+      }
+     ],
+     "explanation": "Divide the coefficients and subtract indices for matching bases: $20\\div5=4$, $m^{7-2}=m^5$ and $n^{3-1}=n^2$."
+    },
+    {
+     "id": "7b6e6835-197b-4da3-8f6c-78eb1777aab0",
+     "prompt": "Work out $4^0 \\times 2^{-3}$.",
+     "options": [
+      {
+       "text": "$0$",
+       "correct": false
+      },
+      {
+       "text": "$-8$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{1}{2}$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{1}{8}$",
+       "correct": true
+      }
+     ],
+     "explanation": "A non-zero number to the power zero is $1$, and $2^{-3}=\\frac{1}{2^3}=\\frac{1}{8}$. Hence $4^0 \\times 2^{-3}=1\\times\\frac{1}{8}=\\frac{1}{8}$."
+    },
+    {
+     "id": "788af5f1-4a78-44b7-80ea-77f774e88fc7",
+     "prompt": "Given $27 \\times 3^p=3^8$, find $p$.",
+     "options": [
+      {
+       "text": "$11$",
+       "correct": false
+      },
+      {
+       "text": "$5$",
+       "correct": true
+      },
+      {
+       "text": "$6$",
+       "correct": false
+      },
+      {
+       "text": "$24$",
+       "correct": false
+      }
+     ],
+     "explanation": "Rewrite $27$ as $3^3$. Then $3^3\\times3^p=3^{3+p}=3^8$, so $3+p=8$ and $p=5$."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/D_Q2R-I0Q1Y"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-4-4-2-indices/revision-guides",
+ "source_sha256": "49b333596c92b4f839ed493908ad5331ce31876d82ab5b8cf4571522ef134412",
+ "extracted_at": "2026-11-08T17:51:37Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "6711510d-152d-474f-b2e2-0620f4ffe323",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/indices.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207928359,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

@@ -1,0 +1,150 @@
+{
+ "topic": "grade-4-4-15-loci-and-construction",
+ "lane": "gcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "title": "Loci and Construction",
+ "summary": null,
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "52920fac-43b4-4f81-a4a1-866e831411c1",
+     "prompt": "What is the locus of points that are equidistant from two fixed points $A$ and $B$?",
+     "options": [
+      {
+       "text": "A circle with diameter $AB$",
+       "correct": false
+      },
+      {
+       "text": "The perpendicular bisector of $AB$",
+       "correct": true
+      },
+      {
+       "text": "The line segment $AB$",
+       "correct": false
+      },
+      {
+       "text": "A circle centred at $A$ passing through $B$",
+       "correct": false
+      }
+     ],
+     "explanation": "Every point on the perpendicular bisector of $AB$ is the same distance from $A$ as it is from $B$."
+    },
+    {
+     "id": "93c3846a-5e42-46d7-a146-f033f4c44acd",
+     "prompt": "What is the locus of points exactly $3\\text{ cm}$ from a fixed point $P$?",
+     "options": [
+      {
+       "text": "A straight line through $P$",
+       "correct": false
+      },
+      {
+       "text": "A disc of radius $3\\text{ cm}$",
+       "correct": false
+      },
+      {
+       "text": "A perpendicular bisector through $P$",
+       "correct": false
+      },
+      {
+       "text": "A circle centred at $P$ with radius $3\\text{ cm}$",
+       "correct": true
+      }
+     ],
+     "explanation": "A circle is the set of points at a fixed distance from its centre, so the locus is the circumference of a circle with radius $3\\text{ cm}$."
+    },
+    {
+     "id": "ba5433e1-7616-4e37-a593-736a69d8d93b",
+     "prompt": "Which method correctly constructs the perpendicular bisector of a line segment $AB$?",
+     "options": [
+      {
+       "text": "Draw equal-radius arcs, with radius greater than half of $AB$, centred at $A$ and $B$, then join the two arc intersections",
+       "correct": true
+      },
+      {
+       "text": "Measure the midpoint of $AB$ with a ruler and draw any line through it",
+       "correct": false
+      },
+      {
+       "text": "Draw a circle with $AB$ as its radius",
+       "correct": false
+      },
+      {
+       "text": "Draw equal arcs from the midpoint of $AB$ only",
+       "correct": false
+      }
+     ],
+     "explanation": "Equal-radius arcs from $A$ and $B$ meet at points equidistant from both endpoints. Joining these intersections forms the perpendicular bisector."
+    },
+    {
+     "id": "439adf9e-7213-44b9-adb5-4008988e170a",
+     "prompt": "The locus of points exactly $2\\text{ cm}$ from a straight line $\\ell$ consists of:",
+     "options": [
+      {
+       "text": "One line parallel to $\\ell$, $2\\text{ cm}$ away",
+       "correct": false
+      },
+      {
+       "text": "A circle of radius $2\\text{ cm}$",
+       "correct": false
+      },
+      {
+       "text": "Two lines parallel to $\\ell$, each $2\\text{ cm}$ away",
+       "correct": true
+      },
+      {
+       "text": "Two lines perpendicular to $\\ell$",
+       "correct": false
+      }
+     ],
+     "explanation": "Points can lie $2\\text{ cm}$ from $\\ell$ on either side, giving two parallel lines, each $2\\text{ cm}$ from the original line."
+    },
+    {
+     "id": "65b11fd4-5308-43a2-8735-ba05b4518176",
+     "prompt": "To construct a triangle with side lengths $5\\text{ cm}$, $6\\text{ cm}$ and $7\\text{ cm}$, what should you do after drawing the $7\\text{ cm}$ side?",
+     "options": [
+      {
+       "text": "Draw perpendicular lines at both endpoints",
+       "correct": false
+      },
+      {
+       "text": "Draw an arc of radius $5\\text{ cm}$ from one endpoint and an arc of radius $6\\text{ cm}$ from the other; their intersection is the third vertex",
+       "correct": true
+      },
+      {
+       "text": "Mark the midpoint of the $7\\text{ cm}$ side and draw a $6\\text{ cm}$ perpendicular",
+       "correct": false
+      },
+      {
+       "text": "Draw a circle of radius $7\\text{ cm}$ around each endpoint",
+       "correct": false
+      }
+     ],
+     "explanation": "The third vertex must be $5\\text{ cm}$ from one endpoint and $6\\text{ cm}$ from the other, so it lies where those two arcs intersect."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/UHh7YJwws0M"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-4-4-15-loci-and-construction/revision-guides",
+ "source_sha256": "9201791592842c1d1c74b2abef05b2d0d424f5a40febaef51dc83ac18ca8e7bd",
+ "extracted_at": "2026-11-08T17:51:37Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "e535d191-9742-4bfe-ae81-2b30ccbc24a8",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/loci-and-construction.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207927733,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

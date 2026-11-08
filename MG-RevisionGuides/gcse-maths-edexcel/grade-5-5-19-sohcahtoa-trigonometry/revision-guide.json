@@ -1,0 +1,155 @@
+{
+ "topic": "grade-5-5-19-sohcahtoa-trigonometry",
+ "lane": "gcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "title": "SOHCAHTOA (Trigonometry)",
+ "summary": "Master the rules of SOHCAHTOA to calculate missing sides and unknown angles in right-angled triangles.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "76b969aa-826e-4757-b228-b8893dd2f354",
+     "prompt": "In right-angled triangle $ABC$, angle $B$ is $90\\text{°}$ and you are working from angle $A$. Which side is adjacent to angle $A$?",
+     "options": [
+      {
+       "text": "$AB$",
+       "correct": true
+      },
+      {
+       "text": "$AC$",
+       "correct": false
+      },
+      {
+       "text": "$BC$",
+       "correct": false
+      },
+      {
+       "text": "Both $AB$ and $AC$",
+       "correct": false
+      }
+     ],
+     "explanation": "The adjacent side touches angle $A$ but is not the hypotenuse. Therefore, $AB$ is adjacent, $AC$ is the hypotenuse and $BC$ is opposite."
+    },
+    {
+     "id": "c6fefe7e-8a4a-4c2c-beac-818d248cc753",
+     "prompt": "A right-angled triangle has an angle of $28\\text{°}$. The adjacent side is $9$ cm and the hypotenuse is $x$ cm. Which equation should be used?",
+     "options": [
+      {
+       "text": "$\\sin(28\\text{°})=\\frac{9}{x}$",
+       "correct": false
+      },
+      {
+       "text": "$\\tan(28\\text{°})=\\frac{9}{x}$",
+       "correct": false
+      },
+      {
+       "text": "$\\cos(28\\text{°})=\\frac{9}{x}$",
+       "correct": true
+      },
+      {
+       "text": "$\\cos(28\\text{°})=\\frac{x}{9}$",
+       "correct": false
+      }
+     ],
+     "explanation": "Cosine connects the adjacent side and hypotenuse: $\\cos(\\theta)=\\frac{\\text{adjacent}}{\\text{hypotenuse}}$, so $\\cos(28\\text{°})=\\frac{9}{x}$."
+    },
+    {
+     "id": "630f4622-e771-4a95-a167-b66e44becc12",
+     "prompt": "A right-angled triangle has an angle of $36\\text{°}$ and an adjacent side of $18$ cm. What is the length of the opposite side, to 1 decimal place?",
+     "options": [
+      {
+       "text": "$24.8$ cm",
+       "correct": false
+      },
+      {
+       "text": "$13.1$ cm",
+       "correct": true
+      },
+      {
+       "text": "$14.6$ cm",
+       "correct": false
+      },
+      {
+       "text": "$10.6$ cm",
+       "correct": false
+      }
+     ],
+     "explanation": "Tangent connects opposite and adjacent. Using $\\tan(36\\text{°})=\\frac{x}{18}$ gives $x=18\\tan(36\\text{°})\\approx13.1$ cm."
+    },
+    {
+     "id": "ce72b329-8926-438b-b454-8755db63969e",
+     "prompt": "From angle $x$ in a right-angled triangle, the opposite side is $7$ cm and the adjacent side is $12$ cm. Find $x$ to 1 decimal place.",
+     "options": [
+      {
+       "text": "$59.7\\text{°}$",
+       "correct": false
+      },
+      {
+       "text": "$35.7\\text{°}$",
+       "correct": false
+      },
+      {
+       "text": "$54.3\\text{°}$",
+       "correct": false
+      },
+      {
+       "text": "$30.3\\text{°}$",
+       "correct": true
+      }
+     ],
+     "explanation": "Since opposite and adjacent are known, use inverse tangent: $x=\\tan^{-1}\\left(\\frac{7}{12}\\right)\\approx30.3\\text{°}$."
+    },
+    {
+     "id": "46d14a04-4069-40d4-a0fb-5943b3970f71",
+     "prompt": "Triangle $ABC$ has base $AC=20$ cm. A perpendicular height $BD=8$ cm meets $AC$ at $D$, and angle $BAD=35\\text{°}$. What is angle $BCD$ to 1 decimal place?",
+     "options": [
+      {
+       "text": "$21.8\\text{°}$",
+       "correct": false
+      },
+      {
+       "text": "$35.0\\text{°}$",
+       "correct": false
+      },
+      {
+       "text": "$43.0\\text{°}$",
+       "correct": true
+      },
+      {
+       "text": "$29.1\\text{°}$",
+       "correct": false
+      }
+     ],
+     "explanation": "First, $AD=\\frac{8}{\\tan(35\\text{°})}\\approx11.4$ cm, so $DC\\approx20-11.4=8.6$ cm. Then $\\angle BCD=\\tan^{-1}\\left(\\frac{8}{8.6}\\right)\\approx43.0\\text{°}$."
+    }
+   ]
+  },
+  {
+   "kind": "paragraph",
+   "text": "70:[\"$\",\"$L87\",null,{\""
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/Ka7KyDTMuKA"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-5-5-19-sohcahtoa-trigonometry/revision-guides",
+ "source_sha256": "f8dcef961e4766432114d7eb2619f4a90aff96f3f6f77f1534186f1fb22f0b5b",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "580d3a52-c166-4ea0-a505-df864a6fdd5f",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/sohcahtoa.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207929624,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1,
+   "paragraph": 1
+  }
+ }
+}

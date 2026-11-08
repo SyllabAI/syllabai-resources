@@ -1,0 +1,150 @@
+{
+ "topic": "grade-6-6-5-expanding-triple-brackets",
+ "lane": "gcse-maths-edexcel",
+ "grade": "6",
+ "tier": null,
+ "title": "Expanding Triple Brackets",
+ "summary": "Learn a reliable bracket-by-bracket method for turning three multiplied brackets into one simplified cubic expression.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "fe43e136-2717-4de9-883a-7a5bf38367be",
+     "prompt": "Expand and simplify $(x+1)(x+2)(x+3)$.",
+     "options": [
+      {
+       "text": "$x^3+5x^2+11x+6$",
+       "correct": false
+      },
+      {
+       "text": "$x^2+3x+2$",
+       "correct": false
+      },
+      {
+       "text": "$x^3+6x^2+11x+6$",
+       "correct": true
+      },
+      {
+       "text": "$x^3+6x^2+6x+6$",
+       "correct": false
+      }
+     ],
+     "explanation": "First, $(x+1)(x+2)=x^2+3x+2$. Multiplying this by $(x+3)$ gives $x^3+6x^2+11x+6$."
+    },
+    {
+     "id": "147ac527-e081-4e14-b4ac-64b4aa3a260f",
+     "prompt": "When expanding $(x+2)(x+5)(x-1)$, what do the first two brackets simplify to?",
+     "options": [
+      {
+       "text": "$x^2+7x+10$",
+       "correct": true
+      },
+      {
+       "text": "$x^2+10$",
+       "correct": false
+      },
+      {
+       "text": "$x^2+5x+10$",
+       "correct": false
+      },
+      {
+       "text": "$2x^2+7x+10$",
+       "correct": false
+      }
+     ],
+     "explanation": "Expanding $(x+2)(x+5)$ gives $x^2+5x+2x+10=x^2+7x+10$. This can then be multiplied by the third bracket."
+    },
+    {
+     "id": "5c942e56-982d-4446-ba89-eab88f8846e3",
+     "prompt": "Expand and simplify $(x-3)(x+4)(x+2)$.",
+     "options": [
+      {
+       "text": "$x^3+3x^2+10x-24$",
+       "correct": false
+      },
+      {
+       "text": "$x^3+3x^2-10x+24$",
+       "correct": false
+      },
+      {
+       "text": "$x^3+x^2-10x-24$",
+       "correct": false
+      },
+      {
+       "text": "$x^3+3x^2-10x-24$",
+       "correct": true
+      }
+     ],
+     "explanation": "First, $(x-3)(x+4)=x^2+x-12$. Multiplying by $(x+2)$ gives $x^3+3x^2-10x-24$."
+    },
+    {
+     "id": "24b9757c-69da-4172-877a-9eac113e9289",
+     "prompt": "Expand and simplify $(2x-1)(x+3)(x-2)$.",
+     "options": [
+      {
+       "text": "$2x^3+3x^2-11x-6$",
+       "correct": false
+      },
+      {
+       "text": "$2x^3+x^2-13x+6$",
+       "correct": true
+      },
+      {
+       "text": "$2x^3+x^2-11x+6$",
+       "correct": false
+      },
+      {
+       "text": "$x^3+x^2-13x+6$",
+       "correct": false
+      }
+     ],
+     "explanation": "First, $(x+3)(x-2)=x^2+x-6$. Multiplying by $(2x-1)$ and collecting like terms gives $2x^3+x^2-13x+6$."
+    },
+    {
+     "id": "1f204b69-d363-4992-8b17-1345ff34c3b8",
+     "prompt": "Expand and simplify $(x-2)^2(x+3)$.",
+     "options": [
+      {
+       "text": "$x^3+x^2-8x+12$",
+       "correct": false
+      },
+      {
+       "text": "$x^3-x^2+8x+12$",
+       "correct": false
+      },
+      {
+       "text": "$x^3-x^2-8x+12$",
+       "correct": true
+      },
+      {
+       "text": "$x^3-4x^2+4x+12$",
+       "correct": false
+      }
+     ],
+     "explanation": "First, $(x-2)^2=x^2-4x+4$. Multiplying by $(x+3)$ gives $x^3-x^2-8x+12$."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/xQ2z7YuKkAc"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-6-6-5-expanding-triple-brackets/revision-guides",
+ "source_sha256": "ba7ab522be94b84b96b24076df2ac9e5f4e9c4a993ef6cde2442a3bbb8e782c1",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "f45cbb47-e090-4e26-a5a0-ff726ab47915",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/expanding-triple-brackets.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207931488,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

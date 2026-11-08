@@ -1,0 +1,150 @@
+{
+ "topic": "grade-7-7-11-finding-the-area-of-any-triangle",
+ "lane": "gcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "title": "Finding the Area of Any Triangle",
+ "summary": "Learn the sine area formula so you can find triangle areas, missing angles, and unknown side expressions confidently.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "aafee964-df47-4cc6-a579-d62405a0fbd9",
+     "prompt": "A triangle has sides 6 cm and 10 cm, with an included angle of $40°$. Which calculation gives its area?",
+     "options": [
+      {
+       "text": "$6\\times 10\\times \\sin 40°$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{1}{2}\\times 6\\times 40\\times \\sin 10°$",
+       "correct": false
+      },
+      {
+       "text": "$\\frac{1}{2}\\times 6\\times 10\\times \\sin 40°$",
+       "correct": true
+      },
+      {
+       "text": "$\\frac{1}{2}\\times 6\\times 10\\times \\sin 80°$",
+       "correct": false
+      }
+     ],
+     "explanation": "Use $A=\\frac{1}{2}ab\\sin C$, where $C$ is the angle between sides $a$ and $b$. Therefore the calculation is $\\frac{1}{2}\\times 6\\times 10\\times \\sin 40°$."
+    },
+    {
+     "id": "5a04c3bd-70f2-4828-84c9-bff10c8faf61",
+     "prompt": "A triangle has sides 11 cm and 13 cm with an included angle of $40°$. What is its area to 1 decimal place?",
+     "options": [
+      {
+       "text": "$46.0\\text{ cm}^2$",
+       "correct": true
+      },
+      {
+       "text": "$92.0\\text{ cm}^2$",
+       "correct": false
+      },
+      {
+       "text": "$45.9\\text{ cm}^2$",
+       "correct": false
+      },
+      {
+       "text": "$54.8\\text{ cm}^2$",
+       "correct": false
+      }
+     ],
+     "explanation": "$A=\\frac{1}{2}\\times 11\\times 13\\times \\sin 40°=45.959\\ldots$, which rounds to $46.0\\text{ cm}^2$."
+    },
+    {
+     "id": "e0990dd5-9df2-497d-bdd9-2dd94a8440f2",
+     "prompt": "A triangle has sides 10 cm and 16 cm and an area of $40\\text{ cm}^2$. The included angle $x$ is obtuse. What is $x$?",
+     "options": [
+      {
+       "text": "$30°$",
+       "correct": false
+      },
+      {
+       "text": "$60°$",
+       "correct": false
+      },
+      {
+       "text": "$120°$",
+       "correct": false
+      },
+      {
+       "text": "$150°$",
+       "correct": true
+      }
+     ],
+     "explanation": "$40=\\frac{1}{2}\\times 10\\times 16\\times \\sin x$, so $\\sin x=0.5$. The calculator gives $30°$, but the obtuse angle with the same sine is $180°-30°=150°$."
+    },
+    {
+     "id": "a7dcf06a-e330-4bff-9c3b-65bdb26eb617",
+     "prompt": "Two sides of a triangle meet at $30°$. Their lengths are in the ratio $4:3$, and the area is $96\\text{ cm}^2$. What is the shorter side?",
+     "options": [
+      {
+       "text": "$16\\sqrt{2}$ cm",
+       "correct": false
+      },
+      {
+       "text": "$12\\sqrt{2}$ cm",
+       "correct": true
+      },
+      {
+       "text": "$4\\sqrt{2}$ cm",
+       "correct": false
+      },
+      {
+       "text": "12 cm",
+       "correct": false
+      }
+     ],
+     "explanation": "Write the sides as $4k$ and $3k$. Then $96=\\frac{1}{2}(4k)(3k)\\sin 30°=3k^2$, so $k=4\\sqrt{2}$. The shorter side is $3k=12\\sqrt{2}$ cm."
+    },
+    {
+     "id": "0d541800-40d5-4f8c-9bd8-b483f73731eb",
+     "prompt": "A triangle has area $54\\text{ cm}^2$. Two sides enclosing an angle of $30°$ have lengths 9 cm and $x$ cm. Find $x$.",
+     "options": [
+      {
+       "text": "6 cm",
+       "correct": false
+      },
+      {
+       "text": "12 cm",
+       "correct": false
+      },
+      {
+       "text": "24 cm",
+       "correct": true
+      },
+      {
+       "text": "27 cm",
+       "correct": false
+      }
+     ],
+     "explanation": "Using $A=\\frac{1}{2}ab\\sin C$ gives $54=\\frac{1}{2}\\times 9\\times x\\times \\sin 30°=2.25x$. Therefore $x=54\\div 2.25=24$ cm."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/xWIsDBPI0Gg"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-7-7-11-finding-the-area-of-any-triangle/revision-guides",
+ "source_sha256": "4c9d0ccb084c60624258590017e923f6f04cc54d7245c08e38f2f4c883afc763",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "2f694e46-3f52-4e6c-8586-bf079be1e312",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/area-of-any-triangle.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207931665,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

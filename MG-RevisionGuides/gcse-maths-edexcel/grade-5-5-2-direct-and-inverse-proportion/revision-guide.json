@@ -1,0 +1,150 @@
+{
+ "topic": "grade-5-5-2-direct-and-inverse-proportion",
+ "lane": "gcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "title": "Direct and Inverse Proportion",
+ "summary": "Spot when quantities scale together or oppositely, then use unit rates and formulas to answer GCSE proportion questions.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "8c44b1a1-6513-47f5-b78c-a2919b7a189e",
+     "prompt": "A graph of $y$ against $x$ is a straight line through the origin and passes through the point $(2,10)$. Which formula connects $y$ and $x$?",
+     "options": [
+      {
+       "text": "$y=5x$",
+       "correct": true
+      },
+      {
+       "text": "$y=10x$",
+       "correct": false
+      },
+      {
+       "text": "$y=\\frac{10}{x}$",
+       "correct": false
+      },
+      {
+       "text": "$y=5x^2$",
+       "correct": false
+      }
+     ],
+     "explanation": "Since the graph is a straight line through the origin, $y$ is directly proportional to $x$. The constant is $10\\div2=5$, so $y=5x$."
+    },
+    {
+     "id": "b0aec3d3-e936-480a-a20d-a18691e3a0ba",
+     "prompt": "A printer produces 150 leaflets in 5 minutes at a steady rate. How many leaflets will it produce in 12 minutes?",
+     "options": [
+      {
+       "text": "300",
+       "correct": false
+      },
+      {
+       "text": "360",
+       "correct": true
+      },
+      {
+       "text": "375",
+       "correct": false
+      },
+      {
+       "text": "1800",
+       "correct": false
+      }
+     ],
+     "explanation": "The printer produces $150\\div5=30$ leaflets per minute, so in 12 minutes it produces $30\\times12=360$ leaflets."
+    },
+    {
+     "id": "2bd7a2e6-18e1-4306-93aa-cf32ed676b93",
+     "prompt": "$y$ is inversely proportional to $x$. When $x=4$, $y=6$. Find $y$ when $x=8$.",
+     "options": [
+      {
+       "text": "12",
+       "correct": false
+      },
+      {
+       "text": "2",
+       "correct": false
+      },
+      {
+       "text": "3",
+       "correct": true
+      },
+      {
+       "text": "48",
+       "correct": false
+      }
+     ],
+     "explanation": "For inverse proportion, $xy$ is constant. Here $4\\times6=24$, so when $x=8$, $y=24\\div8=3$."
+    },
+    {
+     "id": "cd778300-cd25-4974-a03a-66dd68b9be9c",
+     "prompt": "Six identical machines take 10 hours to complete a job. How long would four machines take to complete the same job?",
+     "options": [
+      {
+       "text": "$6.7$ hours",
+       "correct": false
+      },
+      {
+       "text": "10 hours",
+       "correct": false
+      },
+      {
+       "text": "24 hours",
+       "correct": false
+      },
+      {
+       "text": "15 hours",
+       "correct": true
+      }
+     ],
+     "explanation": "The number of machines and the time are inversely proportional. The job requires $6\\times10=60$ machine-hours, so four machines take $60\\div4=15$ hours."
+    },
+    {
+     "id": "7ae3a4d7-69ca-447e-9ed9-6742d1f10065",
+     "prompt": "A force is given by $F=\\frac{80}{d^2}$. What is $F$ when $d=4$?",
+     "options": [
+      {
+       "text": "5",
+       "correct": true
+      },
+      {
+       "text": "20",
+       "correct": false
+      },
+      {
+       "text": "16",
+       "correct": false
+      },
+      {
+       "text": "320",
+       "correct": false
+      }
+     ],
+     "explanation": "Substitute $d=4$ and square it first: $F=\\frac{80}{4^2}=\\frac{80}{16}=5$."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/-bihxW5YfuQ?ecver=1"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-5-5-2-direct-and-inverse-proportion/revision-guides",
+ "source_sha256": "e2b3322d9436af6aab5b8316b357b82ccd78965289f68beb00901ac21e53527d",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "a8b51704-53e5-4d38-bce1-b7d54bf09e55",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/proportion.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207930220,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

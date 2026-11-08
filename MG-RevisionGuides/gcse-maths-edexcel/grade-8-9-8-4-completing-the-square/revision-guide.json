@@ -1,0 +1,150 @@
+{
+ "topic": "grade-8-9-8-4-completing-the-square",
+ "lane": "gcse-maths-edexcel",
+ "grade": "8",
+ "tier": null,
+ "title": "Completing the Square",
+ "summary": "Turn awkward quadratics into a form that reveals graph points and exact equation solutions.",
+ "blocks": [
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "69b225a9-2e89-43f9-be16-831172bed375",
+     "prompt": "Rewrite $x^2+6x+2$ in completed square form.",
+     "options": [
+      {
+       "text": "$(x+3)^2-7$",
+       "correct": true
+      },
+      {
+       "text": "$(x+3)^2+2$",
+       "correct": false
+      },
+      {
+       "text": "$(x+6)^2-34$",
+       "correct": false
+      },
+      {
+       "text": "$(x-3)^2-7$",
+       "correct": false
+      }
+     ],
+     "explanation": "Halve 6 to get 3. Since $(x+3)^2=x^2+6x+9$, subtract 7 to obtain $(x+3)^2-7$."
+    },
+    {
+     "id": "3a38a028-7405-4d27-9f03-e3e05e49f559",
+     "prompt": "Complete the square for $x^2-5x+1$.",
+     "options": [
+      {
+       "text": "$(x-\\frac{5}{2})^2-\\frac{3}{2}$",
+       "correct": false
+      },
+      {
+       "text": "$(x+\\frac{5}{2})^2-\\frac{21}{4}$",
+       "correct": false
+      },
+      {
+       "text": "$(x-\\frac{5}{2})^2-\\frac{21}{4}$",
+       "correct": true
+      },
+      {
+       "text": "$(x-\\frac{5}{2})^2+\\frac{21}{4}$",
+       "correct": false
+      }
+     ],
+     "explanation": "Halve $-5$ to get $-\\frac{5}{2}$. Expanding the square produces an extra $\\frac{25}{4}$, so the correction gives $(x-\\frac{5}{2})^2-\\frac{21}{4}$."
+    },
+    {
+     "id": "c4d6ca06-6fad-452f-ae54-42bc4dd2e5e9",
+     "prompt": "Rewrite $3x^2-12x+7$ in the form $a(x+b)^2+c$.",
+     "options": [
+      {
+       "text": "$3(x-2)^2+7$",
+       "correct": false
+      },
+      {
+       "text": "$3(x+2)^2-5$",
+       "correct": false
+      },
+      {
+       "text": "$3(x-4)^2-41$",
+       "correct": false
+      },
+      {
+       "text": "$3(x-2)^2-5$",
+       "correct": true
+      }
+     ],
+     "explanation": "Factor out 3 from the quadratic terms: $3(x^2-4x)+7$. Since $x^2-4x=(x-2)^2-4$, the expression becomes $3(x-2)^2-5$."
+    },
+    {
+     "id": "9065b104-1216-4443-a692-162298d06ad4",
+     "prompt": "Solve $x^2+8x+10=0$ exactly by completing the square.",
+     "options": [
+      {
+       "text": "$x=4\\pm\\sqrt{6}$",
+       "correct": false
+      },
+      {
+       "text": "$x=-4\\pm\\sqrt{6}$",
+       "correct": true
+      },
+      {
+       "text": "$x=-4\\pm\\sqrt{26}$",
+       "correct": false
+      },
+      {
+       "text": "$x=-4+\\sqrt{6}$",
+       "correct": false
+      }
+     ],
+     "explanation": "Completing the square gives $(x+4)^2-6=0$, so $(x+4)^2=6$. Taking both square roots gives $x=-4\\pm\\sqrt{6}$."
+    },
+    {
+     "id": "1671ad7c-afe0-4c48-9388-1fdec9ace765",
+     "prompt": "What is the turning point of $y=(x+5)^2-2$?",
+     "options": [
+      {
+       "text": "$(5,-2)$",
+       "correct": false
+      },
+      {
+       "text": "$(-5,2)$",
+       "correct": false
+      },
+      {
+       "text": "$(-5,-2)$",
+       "correct": true
+      },
+      {
+       "text": "$(5,2)$",
+       "correct": false
+      }
+     ],
+     "explanation": "The squared bracket is smallest when $x+5=0$, so $x=-5$. The corresponding value of $y$ is $-2$, giving the turning point $(-5,-2)$."
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/9_2DYOfHxyk"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-8-9-8-4-completing-the-square/revision-guides",
+ "source_sha256": "8afb8c6bb309f0c029e8430dcf74e34d746f7b7220cb0da7a10675f39667f2c0",
+ "extracted_at": "2026-11-08T17:51:38Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "50f4147a-cd75-4470-a038-977abbe8e8e1",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/completing-the-square.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207933445,
+  "figure_count": 0,
+  "block_counts": {
+   "mcq-set": 1
+  }
+ }
+}

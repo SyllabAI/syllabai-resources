@@ -1,0 +1,622 @@
+{
+ "topic": "grade-1-1-12-coordinates",
+ "lane": "gcse-maths-edexcel",
+ "grade": "1",
+ "tier": null,
+ "title": "Coordinates",
+ "summary": "Learn how to read, plot and use coordinates on a grid, including midpoints and straight lines like x equals 3.",
+ "blocks": [
+  {
+   "kind": "paragraph",
+   "text": "## Writing Coordinates"
+  },
+  {
+   "kind": "paragraph",
+   "text": "We use coordinates to describe the position of a point on a grid."
+  },
+  {
+   "kind": "paragraph",
+   "text": "Here we have a grid. On the grid is point A."
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/001-coordinates1.jpg",
+   "alt": "coordinates1"
+  },
+  {
+   "kind": "paragraph",
+   "text": "On the grid we have an x axis (which runs horizontally) and a y axis (which runs vertically)."
+  },
+  {
+   "kind": "paragraph",
+   "text": "We write coordinates in the form (x, y).  \nWe always write the x coordinate before the y coordinate."
+  },
+  {
+   "kind": "paragraph",
+   "text": "The x coordinate of A is 1. It is 1 along the x axis.  \nThe y coordinate of A is 3. It is 3 up the y axis."
+  },
+  {
+   "kind": "paragraph",
+   "text": "The coordinates of A are (1, 3)."
+  },
+  {
+   "kind": "paragraph",
+   "text": "Here we have another grid. On the grid is point B."
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/002-coordinates2.jpg",
+   "alt": "coordinates2"
+  },
+  {
+   "kind": "paragraph",
+   "text": "The x coordinate of B is -3. It is -3 along the x axis.  \nThe y coordinate of B is -2 because it is 2 down the y axis."
+  },
+  {
+   "kind": "paragraph",
+   "text": "The coordinates of B are (-3, -2)."
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "1c21571c-fa98-4d61-9ecd-0e6c9eaa360c",
+     "prompt": "Point $P$ is at $(4,-1)$. Which movement from the origin plots $P$ correctly?",
+     "options": [
+      {
+       "text": "4 right, 1 down",
+       "correct": true
+      },
+      {
+       "text": "4 left, 1 down",
+       "correct": false
+      },
+      {
+       "text": "4 right, 1 up",
+       "correct": false
+      },
+      {
+       "text": "1 right, 4 down",
+       "correct": false
+      }
+     ],
+     "explanation": "The positive x-coordinate means move 4 right, and the negative y-coordinate means move 1 down. The order is horizontal movement first, then vertical movement."
+    },
+    {
+     "id": "7ba708eb-0eee-4409-b7e4-66897fefece7",
+     "prompt": "From the origin, you move 3 squares left and 2 squares up. What are the coordinates of the point?",
+     "options": [
+      {
+       "text": "$(3,2)$",
+       "correct": false
+      },
+      {
+       "text": "$(-3,2)$",
+       "correct": true
+      },
+      {
+       "text": "$(-3,-2)$",
+       "correct": false
+      },
+      {
+       "text": "$(2,-3)$",
+       "correct": false
+      }
+     ],
+     "explanation": "Moving 3 left gives an x-coordinate of $-3$, while moving 2 up gives a y-coordinate of $2$. Coordinates are written $(x,y)$, so the answer is $(-3,2)$."
+    },
+    {
+     "id": "98b8fc3f-9a46-430b-8516-e8caec76de80",
+     "prompt": "In which quadrant is the point $(-4,-2)$ located?",
+     "options": [
+      {
+       "text": "First quadrant",
+       "correct": false
+      },
+      {
+       "text": "Second quadrant",
+       "correct": false
+      },
+      {
+       "text": "Third quadrant",
+       "correct": true
+      },
+      {
+       "text": "Fourth quadrant",
+       "correct": false
+      }
+     ],
+     "explanation": "Both coordinates are negative: the point is left of the y-axis and below the x-axis. This places it in the third quadrant."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "text": "Try these:"
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "80a7b95c-3536-4a9e-9498-068692b9e759",
+     "prompt": "A point is located 3 units to the right of the origin and 2 units up from the origin. What are its coordinates?",
+     "options": [
+      {
+       "text": "(3, 2)",
+       "correct": true
+      },
+      {
+       "text": "(2, 3)",
+       "correct": false
+      },
+      {
+       "text": "(-3, 2)",
+       "correct": false
+      },
+      {
+       "text": "(3, -2)",
+       "correct": false
+      }
+     ],
+     "explanation": null
+    },
+    {
+     "id": "f64b22eb-592a-4dd8-ad1a-3f764d4c04a8",
+     "prompt": "In which quadrant is the point (-5, 2) located?",
+     "options": [
+      {
+       "text": "First quadrant",
+       "correct": false
+      },
+      {
+       "text": "Second quadrant",
+       "correct": true
+      },
+      {
+       "text": "Third quadrant",
+       "correct": false
+      },
+      {
+       "text": "Fourth quadrant",
+       "correct": false
+      }
+     ],
+     "explanation": null
+    },
+    {
+     "id": "d0cb53a9-8a59-471d-bb7a-393d82c750e8",
+     "prompt": "Which of the following points lies on the x-axis?",
+     "options": [
+      {
+       "text": "(0, 7)",
+       "correct": false
+      },
+      {
+       "text": "(-3, 0)",
+       "correct": true
+      },
+      {
+       "text": "(2, -5)",
+       "correct": false
+      },
+      {
+       "text": "(-1, -1)",
+       "correct": false
+      }
+     ],
+     "explanation": null
+    }
+   ]
+  },
+  {
+   "kind": "paragraph",
+   "text": "## Finding the Midpoint of a Line Segment"
+  },
+  {
+   "kind": "paragraph",
+   "text": "On the grid we have a line AB (the line runs from A to B)."
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/003-coordinates4.jpg",
+   "alt": "coordinates4"
+  },
+  {
+   "kind": "paragraph",
+   "text": "We can find the midpoint of the line by counting how far along the x axis and how far down the y axis we need to go to get from A to B."
+  },
+  {
+   "kind": "paragraph",
+   "text": "We need to go 6 along the x axis to get from A to B.  \nWe need to go 4 down the y axis to get from A to B."
+  },
+  {
+   "kind": "paragraph",
+   "text": "From A to B we go 6 along and 4 down.  \nWe can find the midpoint by halving the distance."
+  },
+  {
+   "kind": "paragraph",
+   "text": "6 ÷ 2 = 3 and 4 ÷ 2 = 2  \nThe midpoint is 3 along and 2 down from A."
+  },
+  {
+   "kind": "paragraph",
+   "text": "The midpoint is at (-1, 1)"
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "0d0a2583-7147-457c-adf0-be2386bb87ae",
+     "prompt": "What is the midpoint of $(2,4)$ and $(6,0)$?",
+     "options": [
+      {
+       "text": "$(4,4)$",
+       "correct": false
+      },
+      {
+       "text": "$(2,2)$",
+       "correct": false
+      },
+      {
+       "text": "$(6,2)$",
+       "correct": false
+      },
+      {
+       "text": "$(4,2)$",
+       "correct": true
+      }
+     ],
+     "explanation": "Average the x-coordinates and the y-coordinates separately: $x=(2+6)\\div2=4$ and $y=(4+0)\\div2=2$. Therefore, the midpoint is $(4,2)$."
+    },
+    {
+     "id": "6b6ea4fc-312f-49b8-8682-ff6436b79746",
+     "prompt": "Find the midpoint of the line segment joining $(-3,7)$ and $(5,-1)$.",
+     "options": [
+      {
+       "text": "$(1,3)$",
+       "correct": true
+      },
+      {
+       "text": "$(2,6)$",
+       "correct": false
+      },
+      {
+       "text": "$(-4,8)$",
+       "correct": false
+      },
+      {
+       "text": "$(1,4)$",
+       "correct": false
+      }
+     ],
+     "explanation": "The midpoint has coordinates $((-3+5)\\div2,(7+(-1))\\div2)=(1,3)$. Each coordinate is found by averaging the corresponding coordinates of the endpoints."
+    },
+    {
+     "id": "d92651de-7d81-4345-aedf-a303639253ca",
+     "prompt": "The midpoint of $AB$ is $M(-2,3)$. If $A=(4,1)$, what are the coordinates of $B$?",
+     "options": [
+      {
+       "text": "$(-6,5)$",
+       "correct": false
+      },
+      {
+       "text": "$(-8,5)$",
+       "correct": true
+      },
+      {
+       "text": "$(0,2)$",
+       "correct": false
+      },
+      {
+       "text": "$(8,-5)$",
+       "correct": false
+      }
+     ],
+     "explanation": "The midpoint is halfway between the endpoints, so $B=2M-A$. Thus $B=(-4,6)-(4,1)=(-8,5)$."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "text": "Try this:"
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "9a0496b5-5df2-421e-9739-0084055bb2ae",
+     "prompt": "Find the midpoint of the line segment joining (2, 3) and (8, 9).",
+     "options": [
+      {
+       "text": "(5, 6)",
+       "correct": true
+      },
+      {
+       "text": "(10, 12)",
+       "correct": false
+      },
+      {
+       "text": "(6, 6)",
+       "correct": false
+      },
+      {
+       "text": "(3, 3)",
+       "correct": false
+      }
+     ],
+     "explanation": null
+    },
+    {
+     "id": "a58806d2-e770-49c3-9eaf-e6a56b913c0a",
+     "prompt": "What is the midpoint of the line segment connecting P(-4, 5) and Q(2, -1)?",
+     "options": [
+      {
+       "text": "(-1, 2)",
+       "correct": true
+      },
+      {
+       "text": "(1, 2)",
+       "correct": false
+      },
+      {
+       "text": "(-1, 8)",
+       "correct": false
+      },
+      {
+       "text": "(3, -3)",
+       "correct": false
+      }
+     ],
+     "explanation": null
+    },
+    {
+     "id": "93c70ba2-18b0-4ac9-a9f8-b13f9edeb63b",
+     "prompt": "The midpoint of a line segment AB is M(4, 5). If point A is (1, 2), what are the coordinates of point B?",
+     "options": [
+      {
+       "text": "(7, 8)",
+       "correct": true
+      },
+      {
+       "text": "(2.5, 3.5)",
+       "correct": false
+      },
+      {
+       "text": "(3, 3)",
+       "correct": false
+      },
+      {
+       "text": "(5, 7)",
+       "correct": false
+      }
+     ],
+     "explanation": null
+    }
+   ]
+  },
+  {
+   "kind": "paragraph",
+   "text": "## Vertical and Horizontal Lines"
+  },
+  {
+   "kind": "paragraph",
+   "text": "On the grid we have a line."
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/004-coordinates10.jpg",
+   "alt": "coordinates10"
+  },
+  {
+   "kind": "paragraph",
+   "text": "The line runs along all of the points where y = 2."
+  },
+  {
+   "kind": "paragraph",
+   "text": "Every point on the line has a y coordinate of 2."
+  },
+  {
+   "kind": "paragraph",
+   "text": "The line is called y = 2"
+  },
+  {
+   "kind": "paragraph",
+   "text": "Here is another line"
+  },
+  {
+   "kind": "figure",
+   "figure_ref": "assets/005-coordinates17.jpg",
+   "alt": "coordinates17"
+  },
+  {
+   "kind": "paragraph",
+   "text": "The line runs along all of the points where x = -3"
+  },
+  {
+   "kind": "paragraph",
+   "text": "Every point on the line has a x coordinate of -3"
+  },
+  {
+   "kind": "paragraph",
+   "text": "The equation of the line is x = -3"
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "0f9a9fd6-0ade-4a35-a4a4-955b4490cae5",
+     "prompt": "Which point lies on the vertical line $x=-2$?",
+     "options": [
+      {
+       "text": "$(2,-5)$",
+       "correct": false
+      },
+      {
+       "text": "$(5,-2)$",
+       "correct": false
+      },
+      {
+       "text": "$(-2,5)$",
+       "correct": true
+      },
+      {
+       "text": "$(-5,2)$",
+       "correct": false
+      }
+     ],
+     "explanation": "Every point on the line $x=-2$ must have an x-coordinate of $-2$. The point $(-2,5)$ satisfies this; its y-coordinate can be any value."
+    },
+    {
+     "id": "4e790562-d1ab-4dc3-bc59-c3eeb1068b4b",
+     "prompt": "Which point lies on the horizontal line $y=-4$?",
+     "options": [
+      {
+       "text": "$(3,-4)$",
+       "correct": true
+      },
+      {
+       "text": "$(-4,3)$",
+       "correct": false
+      },
+      {
+       "text": "$(-4,-3)$",
+       "correct": false
+      },
+      {
+       "text": "$(4,3)$",
+       "correct": false
+      }
+     ],
+     "explanation": "Every point on the line $y=-4$ has a y-coordinate of $-4$. The x-coordinate can be any value, so $(3,-4)$ is on the line."
+    },
+    {
+     "id": "bf7fba0c-d699-41bd-a091-27aa15570e34",
+     "prompt": "A vertical line passes through the point $(-5,7)$. What is the equation of the line?",
+     "options": [
+      {
+       "text": "$y=7$",
+       "correct": false
+      },
+      {
+       "text": "$y=-5$",
+       "correct": false
+      },
+      {
+       "text": "$x=7$",
+       "correct": false
+      },
+      {
+       "text": "$x=-5$",
+       "correct": true
+      }
+     ],
+     "explanation": "A vertical line has a constant x-coordinate. Since the point has x-coordinate $-5$, the equation is $x=-5$."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "text": "Try these:"
+  },
+  {
+   "kind": "mcq-set",
+   "items": [
+    {
+     "id": "49a7fa24-1972-4c71-8092-b20a1c0e06a6",
+     "prompt": "A point is located 4 units to the right of the y-axis and 2 units below the x-axis. What are its coordinates?",
+     "options": [
+      {
+       "text": "(4, -2)",
+       "correct": true
+      },
+      {
+       "text": "(-4, -2)",
+       "correct": false
+      },
+      {
+       "text": "(4, 2)",
+       "correct": false
+      },
+      {
+       "text": "(-2, 4)",
+       "correct": false
+      }
+     ],
+     "explanation": null
+    },
+    {
+     "id": "ebd46f9c-d4d9-473f-b834-830e5d53c356",
+     "prompt": "Which of the following points has an x-coordinate of -3 and a y-coordinate of 5?",
+     "options": [
+      {
+       "text": "(-3, 5)",
+       "correct": true
+      },
+      {
+       "text": "(5, -3)",
+       "correct": false
+      },
+      {
+       "text": "(-3, -5)",
+       "correct": false
+      },
+      {
+       "text": "(3, 5)",
+       "correct": false
+      }
+     ],
+     "explanation": null
+    },
+    {
+     "id": "99aaf933-819c-4638-a020-0acae5d553d0",
+     "prompt": "Point P is at (2, -1). If point Q is 3 units to the left of P and 2 units above P, what are the coordinates of Q?",
+     "options": [
+      {
+       "text": "(-1, 1)",
+       "correct": true
+      },
+      {
+       "text": "(5, 1)",
+       "correct": false
+      },
+      {
+       "text": "(-1, -3)",
+       "correct": false
+      },
+      {
+       "text": "(5, -3)",
+       "correct": false
+      }
+     ],
+     "explanation": null
+    }
+   ]
+  },
+  {
+   "kind": "paragraph",
+   "text": "70"
+  }
+ ],
+ "videos": [
+  {
+   "embed_url": "https://www.youtube.com/embed/Sg1nDbJwgv0"
+  }
+ ],
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-1-1-12-coordinates/revision-guides",
+ "source_sha256": "773e1d1fdc92798d2cd8b9f3c7af9fd579dca036f50e78dedbd3ce0dcb2c2f32",
+ "extracted_at": "2026-11-08T17:51:37Z",
+ "extractor": "mg_rg1_extract.py (T-MG-RG-1 run-001)",
+ "task_id": "T-MG-RG-1",
+ "source_meta": {
+  "note_id": "e6efb38f-fb6b-482e-a65f-1ea40a555e6f",
+  "upstream_source_url": "https://www.mathsgenie.co.uk/coordinates.php",
+  "published_at": 1787193197386,
+  "updated_at": 1787207923730,
+  "figure_count": 5,
+  "block_counts": {
+   "paragraph": 27,
+   "figure": 5,
+   "mcq-set": 6,
+   "heading": 3
+  }
+ }
+}
