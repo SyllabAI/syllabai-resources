@@ -100,6 +100,20 @@ def apply_structure(row: dict, entry: dict, structure: dict) -> None:
     s = (structure.get("courses") or {}).get(row["code"])
     if not s:
         return
+    if "tiers" in s:
+        _outer = s
+        # tier-keyed qualification (T-GB-STRUCT-2: 4MA1 F/H): pick the block
+        # matching the built course's tier; a missing tier block is a config
+        # error, not an honest absence
+        tier = (entry.get("tier") or "").strip().lower()
+        pick = s["tiers"].get({"foundation": "Foundation",
+                               "higher": "Higher"}.get(tier))
+        if pick is None:
+            fail(f"structure.json {row['code']}: no tier block for "
+                 f"tier {entry.get('tier')!r}")
+        s = pick
+        if not s.get("sourceIds"):
+            s = {**s, "sourceIds": _outer.get("sourceIds", [])}
     by_id = {src["id"]: src for src in structure.get("sources", [])}
     resolved = [by_id[i] for i in s.get("sourceIds", []) if i in by_id]
     missing = [i for i in s.get("sourceIds", []) if i not in by_id]
@@ -265,6 +279,20 @@ def modular_ial_course_entry(row: dict, docs: dict[str, dict],
                 "cashIn": cashin,
                 "required": agg["units"],
             }
+            # T-GB-STRUCT-3: embed the official modular award law (fixed UMS
+            # grade thresholds, unit UMS maxima, top-grade condition)
+            if agg.get("umsMax"):
+                calculator["umsMax"] = agg["umsMax"]
+            if agg.get("unitUmsMax"):
+                calculator["unitUmsMax"] = agg["unitUmsMax"]
+            if agg.get("gradeThresholds"):
+                calculator["gradeThresholds"] = agg["gradeThresholds"]
+            if agg.get("unitGradeTables"):
+                calculator["unitGradeTables"] = agg["unitGradeTables"]
+            if agg.get("aStar"):
+                calculator["aStar"] = dict(agg["aStar"])
+            if agg.get("resitRule"):
+                calculator["resitRule"] = agg["resitRule"]
     if family == "pearson-ial":
         # unit codes W<XX><n>.. join via subject stem, cash-in by exact code
         m = re.match(r"^Y([A-Z]{2,4}\d+)$", code)

@@ -108,3 +108,106 @@
 - BUNDLE (5d80e1c8f59ffd43): 105 served / 1 roadmap / 106 UNCHANGED; deep-compare vs the committed bundle = the structure block on igcse-maths-b-16 + the two intended string bumps ONLY (assert script scripts/compare_gb_bundle.py in the session workspace); PARITY 8/8, AGGREGATION 29/29, G-STRUCT 1/1 green.
 - MANIFEST DISCLOSURE: raw/MANIFEST.jsonl is committed; the committed copy froze a 144-row operator-local state (Oct 31 era incl. the since-narrowed cie-0625 June 2024 window) that is NOT reproducible from the committed corpus. This run rebuilds it honestly as the current 159-row corpus — every row's url/file/sha256/bytes/fetched_at from the parsed docs, CIE byte counts recovered by sha-verified re-download (sha mismatch = fail-loud), new sha16 a71dad2e318a8046; bundle.source.documents/manifest_sha16 drift accordingly (disclosed, serving content unaffected).
 - V2: schema + the "How this qualification is graded" block + provenance footer land in the v2 PR (referenced from the receipt).
+
+---
+## T-GB-STRUCT-2 run-001 — IGCSE linear family structure audit: 14 qualifications, 20 new blocks (trace c1af7f6f6d837d51)
+
+**What landed.** The qualification-structure layer extends from the 4MB1 pilot
+to the whole Pearson International GCSE linear family served by the hub:
+14 qualifications → 20 more served courses carry embedded `structure` blocks
+(21 of 21 linear courses total, counting run-001's 4MB1). Every value is
+transcribed from the official Pearson specification PDF, each now committed
+under `raw/specs/` and pinned by full sha256 in SOURCES.yaml +
+curated/structure.json (14 new pins).
+
+**Reconciliation with the served boundaries data (the audit's teeth).** Each
+block's graded total was cross-checked against the calculator maxMark the hub
+actually serves — all match: 4MA1 200 (per tier, F 1F+2F, H 1H+2H, 2h/100
+each, 50% each; Issue 2 renamed 3H/4H→1H/2H), 4PM1 200 (01+02, 2h, 100 each),
+4BI1/4CH1/4PH1 180 (Paper 1 110/2h + Paper 2 70/1h15, marks not scaled),
+4SD0 330 (three Paper 1s 4BI1/1B+4CH1/1C+4PH1/1P, 110 each 33.3%, double
+grades 9-9..1-1; papers carry single-science codes per the 4SD1 suite spec
+which documents the 4SD0 co-codes), 4AC1 150 (100/2h 66.6% + 50/1h15 33.3%),
+4BS1 160 (80+80, 1h30), 4EC1 160 (80+80, 1h30), 4ET1 150 (C1 90/2h + C2 60/1h30),
+4EA1 150 (C1 90/2h15 + C2 60/1h30), 4GE1 175 (70/1h10 40% + 105/1h45 60%),
+4HI1 120 (60+60, 1h30), 4IT1 200 (written 100/1h30 + practical 100/3h).
+
+**Schema extensions (additive).** `courses[code].tiers` — tier-keyed blocks
+for the tiered qualification 4MA1; apply_structure picks by the built entry's
+tier and FAILS loud on a missing tier block (config error, never a silent
+stub). Single-tier qualifications keep the existing shape untouched.
+
+**Route choices recorded honestly, arithmetic exact.** 4EA1/4ET1 awardRules
+notes record the spec's Component 2-or-3 choice (exam vs coursework/NEA, both
+60 marks — either route totals 150 with Component 1); the block pins the exam
+route; a future lane can render routes explicitly. 4EA1's optional Spoken
+Language endorsement is noted (ungraded).
+
+**Gate.** validate.py: STRUCTURE 21 blocks checked, 0 errors (arithmetic law
+Σ rawMax×weightFactor == total.maxMark per block, weights sum to 1, full-sha
+pinned sources, awardRules present, calculator cross-check per linear-total
+course). Bundle rebuilt: 4,023,723 bytes, deterministic except `generated`.
+
+**Honest absences / notes.** Availability windows and AO weightings are in
+the specs but not part of the structure schema (not served by the hub page
+law this lane covers); 4MA1/4PM1 regional variants (R-papers) are not recorded
+— the 4MB1 pattern's regionalVariant field exists but no R-paper structure
+differences were extracted this run; roadmap note for a follow-up if the hub
+ever serves R-variant boundaries.
+
+---
+## T-GB-STRUCT-3 run-001 — modular IGCSE award laws: the 16 aggregate-ums courses get their qualification-grade rules (trace 0b3e2a41c9d75f60)
+
+**Correction to the lane title.** The "16 aggregate-ums courses without an
+A* law" are NOT IAL — the 13 IAL unit courses were already covered by the
+run-001-era Y-cash-in aStar laws (YBI11/YCH11/YPH11/YMA01/YFM01). The 16 are
+the Pearson International GCSE (Modular) 2024 suite unit courses (Biology/
+Chemistry/Physics 2 each, Maths A modular F/H 2+2, Science Double Award 6),
+aggregating to cash-ins 4XBI1/4XCH1/4XPH1/4XMAF/4XMAH/4XSD1. Honest audit
+output, stated plainly.
+
+**What landed.** The award law for all six modular cash-ins, transcribed from
+the five official modular specifications (raw/specs/4X?-modular-specification.pdf,
+full sha256 pinned in SOURCES.yaml): 9-1 grading on total UMS with FIXED
+spec-published thresholds — 4XBI1/4XCH1/4XPH1: units 4WB/CH/PH1+2 at 120 UMS
+each, cash-in 240, grade 9 at 216 (90%), 8 at 192 … 1 at 24; 4XMAF (240):
+F grades 5–1 at 120/96/72/48/24; 4XMAH (240): H grades 9–3 at
+216/192/168/144/120/96/84 (grade 3 allowed at 42 per 120-UMS unit — the spec's
+"3 allowed" law); 4XSD1 (480): SEVENTEEN-grade double ladder 9-9..1-1
+(9-9 capped at the full 480, 9-8 432 … 1-1 72), six units 4WSD1..6 at 80 UMS
+each. Per-unit fixed tables recorded too. Shared rules: best of the two most
+recent attempts counts toward aggregation; results held in the unit bank;
+first certification August 2025; unclassified below 24 (240-UMS cash-ins) or
+48 (480-UMS).
+
+**Embedding.** build_hub_import.py now embeds the law into every modular
+course calculator (umsMax, unitUmsMax, gradeThresholds, unitGradeTables,
+aStar.overallMin = top-grade threshold with the 9-1 ladder note, resitRule) —
+16 courses, additive keys only, IAL calculators untouched.
+
+**Gate.** New check_modular_awards: Σ unitUmsMax == umsMax, thresholds
+strictly descending within range, aStar.overallMin == top threshold, and every
+served session's unit UMS max must equal the law. The aggregation check now
+also enforces the law's thresholds against the boundaries the served cash-in
+rows print, session by session — the spec table and the served June 2025 /
+November 2025 / June 2026 cash-in rows agree exactly (216/192/.../24),
+independent documentary confirmation.
+
+**Audit finds served-data truth, not bugs (adapted sessions).** The structure
+cross-check flagged November 2021 (4GE1 160, 4HI1 90) and June 2022
+(4GE1 134, 4HI1 90). Re-checked against the official boundaries documents
+themselves: those totals ARE what Pearson printed — COVID-era (November 2021)
+and advance-information (June 2022) adaptations, with the route rows 4HI1
+Papers 1A+2A / 1B+2B at 90. The parsed and served data is faithful; the
+assumption "every session totals the spec figure" was the wrong part. The four
+sessions are now recorded as adaptedSessions in curated/structure.json
+(evidence: the pinned raw boundaries PDFs) and the gate accepts a session
+total only when it matches the recorded adaptation. Everything else stays
+strict.
+
+**Honest absences.** Modular unit RAW maxima (90 per separate-science unit,
+60 per SDA unit, 100 per maths unit) are served per-session already; the spec
+documents first assessment June 2025 / first certification August 2025 for the
+whole suite. No A* language anywhere: these qualifications top out at grade 9
+(9-9 for the double award) — the aStar field carries the top-grade law with
+that note spelled out.

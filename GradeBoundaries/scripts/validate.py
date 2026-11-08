@@ -263,10 +263,21 @@ def check_aggregation(bundle: dict, docs_by_family: dict[str, list[dict]]) \
                                 f"the selection pool {stray}")
             if a_star and a_star.get("overallMin") is not None:
                 printed_a = cashin["boundaries"].get("A")
-                if printed_a != a_star["overallMin"]:
+                if printed_a is not None and printed_a != a_star["overallMin"]:
                     errs.append(f"{slug} {s['session']}: aStar.overallMin "
                                 f"{a_star['overallMin']} != printed A "
                                 f"boundary {printed_a}")
+            # T-GB-STRUCT-3: 9-1 modular cash-ins have no printed A; the
+            # embedded law's fixed thresholds must equal EVERY grade the
+            # served cash-in row prints, session by session
+            law = calc.get("gradeThresholds") or {}
+            if law:
+                for g, v in law.items():
+                    printed = cashin["boundaries"].get(g)
+                    if printed is not None and printed != v:
+                        errs.append(f"{slug} {s['session']}: law "
+                                    f"grade {g}={v} != printed boundary "
+                                    f"{printed}")
             satisfiable += 1
         if satisfiable == 0:
             errs.append(f"{slug}: NO session can compose the "
@@ -275,6 +286,10 @@ def check_aggregation(bundle: dict, docs_by_family: dict[str, list[dict]]) \
             print(f"  agg {slug}: {satisfiable}/{len(entry['series'])} "
                   f"sessions calculator-eligible")
     return errs, infos
+
+
+CURATED_ADAPTED = json.loads(
+    (CURATED / "structure.json").read_text()).get("adaptedSessions") or {}
 
 
 def check_structure(bundle: dict) -> list[str]:
@@ -339,15 +354,65 @@ def check_structure(bundle: dict) -> list[str]:
                 and calc.get("maxMark") != total["maxMark"]:
             errs.append(f"{head}: calculator.maxMark {calc.get('maxMark')} "
                         f"!= structure total {total['maxMark']}")
+        adapted = (CURATED_ADAPTED.get(entry.get("code") or "")
+                   or {})
         for sr in entry.get("series", []):
             if sr.get("maxMark") is not None \
                     and sr["maxMark"] != total["maxMark"]:
+                rec = adapted.get(sr["session"])
+                if rec and rec.get("servedMaxMark") == sr["maxMark"]:
+                    continue  # official adapted session (recorded, pinned)
                 errs.append(f"{head} {sr['session']}: boundaries maxMark "
                             f"{sr['maxMark']} != structure total "
                             f"{total['maxMark']}")
     print(f"STRUCTURE: {n_struct} structure blocks checked")
     return errs
 
+
+
+def check_modular_awards(bundle: dict) -> list[str]:
+    """T-GB-STRUCT-3: the embedded modular award law (fixed UMS grade
+    thresholds from the official modular specifications) must be internally
+    sound and consistent with the served unit UMS data."""
+    errs: list[str] = []
+    n = 0
+    for slug, entry in bundle["courses"].items():
+        calc = entry.get("calculator") or {}
+        if calc.get("mode") != "aggregate-ums" \
+                or "gradeThresholds" not in calc:
+            continue
+        n += 1
+        head = f"modular-award {slug}"
+        ums_max = calc.get("umsMax")
+        uum = calc.get("unitUmsMax") or {}
+        if not isinstance(ums_max, int) or sum(uum.values()) != ums_max:
+            errs.append(f"{head}: umsMax {ums_max} != \u03a3 unitUmsMax "
+                        f"{sum(uum.values())}")
+        th = calc.get("gradeThresholds") or {}
+        vals = list(th.values())
+        if any(not isinstance(v, int) for v in vals):
+            errs.append(f"{head}: non-integer threshold")
+        elif any(a <= b for a, b in zip(vals, vals[1:])):
+            errs.append(f"{head}: thresholds not strictly descending")
+        if isinstance(ums_max, int) and any(v > ums_max for v in vals):
+            errs.append(f"{head}: threshold above umsMax")
+        a = calc.get("aStar") or {}
+        if vals and a.get("overallMin") != max(vals):
+            errs.append(f"{head}: aStar.overallMin != top threshold")
+        # served-data cross-check: every served session's unit UMS max
+        # must equal the law's unit UMS max
+        ums_seen = {}
+        for s in entry.get("series", []):
+            for u in (s.get("calculatorUnits") or s.get("units", [])):
+                um = (u.get("ums") or {}).get("maxMark")
+                if um:
+                    ums_seen[u["code"]] = um
+        for code, m in uum.items():
+            if code in ums_seen and ums_seen[code] != m:
+                errs.append(f"{head} {code}: served UMS max "
+                            f"{ums_seen[code]} != law {m}")
+    print(f"MODULAR-AWARD: {n} modular award laws checked")
+    return errs
 
 def main() -> None:
     ap = argparse.ArgumentParser()
@@ -462,6 +527,8 @@ def main() -> None:
             print("  info:", i)
         # ---- G-STRUCT: qualification-structure soundness (T-GB-STRUCT-1) ----
         errors += check_structure(bundle)
+        # ---- G-STRUCT-3: modular award law soundness (T-GB-STRUCT-3) ----
+        errors += check_modular_awards(bundle)
     else:
         errors.append(f"bundle missing: {BUNDLE}")
 
