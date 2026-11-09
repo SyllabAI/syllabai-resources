@@ -1,0 +1,133 @@
+{
+ "topic": "as-mechanics-velocity-time-graphs",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What a velocity-time graph shows",
+   "body": "![Velocity-time graph with a rising section for positive acceleration, a horizontal section for constant velocity, a falling section for deceleration, and shaded area labelled as distance travelled](../assets/001-891b1475-7188-40ab-b51a-3979219d5225.jpeg)\nA velocity-time graph plots velocity on the vertical axis against time on the horizontal axis. Its shape tells the story of a journey, such as speeding up, moving steadily, or slowing down.\n\nThe gradient, or slope, gives acceleration because it measures change in velocity per unit time. On any straight section, the acceleration is constant.\n$$a = \\frac{\\Delta v}{\\Delta t}$$\n\nThe area under the graph gives displacement. If the whole graph stays above the time axis, that area is also the total distance travelled.\n$$\\text{displacement} = \\text{area under the velocity-time graph}$$",
+   "figure_refs": [
+    "assets/001-891b1475-7188-40ab-b51a-3979219d5225.jpeg"
+   ]
+  },
+  {
+   "heading": "Using the gradient",
+   "body": "Suppose a tram moves from rest to $18 \\, \\text{m s}^{-1}$ uniformly in $30 \\, \\text{s}$. The phrase \"from rest\" tells you the starting velocity is $0 \\, \\text{m s}^{-1}$.\n\nUse the gradient formula on that rising straight line. You divide the change in velocity by the time taken.\n\n$$$a = \\frac{18 - 0}{30} = 0.6 \\, \\text{m s}^{-2}$$\n\nThe units check out because $\\text{m s}^{-1} \\div \\text{s} = \\text{m s}^{-2}$. If the tram then continues at $18 \\, \\text{m s}^{-1}$ for another $20 \\, \\text{s}$, the graph is horizontal so the acceleration is $0 \\, \\text{m s}^{-2}$."
+  },
+  {
+   "heading": "Using area to find distance",
+   "body": "When the graph stays above the time axis, distance travelled is the total area underneath it. Split the region into simple shapes such as triangles and rectangles before calculating.\n\nA train reaches $22 \\, \\text{m s}^{-1}$ in $25 \\, \\text{s}$, travels at this speed for $40 \\, \\text{s}$, then slows to rest in $15 \\, \\text{s}$. The three sections have calculated areas:\n$$A_1 = \\frac{1}{2} \\times 25 \\times 22 = 275$$\n$$A_2 = 40 \\times 22 = 880$$\n$$A_3 = \\frac{1}{2} \\times 15 \\times 22 = 165$$\n\nEach area value is measured in metres. Add the three areas to get the whole journey distance. This works because $\\text{s} \\times \\text{m s}^{-1} = \\text{m}$.\n$$\\text{distance} = 275 + 880 + 165 = 1320 \\, \\text{m}$$"
+  },
+  {
+   "heading": "Sketching and interpreting carefully",
+   "body": "A sketch does not need perfect scale, but it must show the correct shape and labels. Always mark the axes first, then add key times and key velocities.\n\nIf a car starts from rest, reaches speed $V$ in 8 s, keeps that speed for 12 s, then decelerates to rest in 5 s, the key points are $(0,0)$, $(8,V)$, $(20,V)$, and $(25,0)$. Join these with straight lines because each change is uniform.\n\nIf part of the graph goes below the time axis, the velocity there is negative. Its area counts as negative displacement, so for total distance you add the absolute values instead of letting areas cancel."
+  },
+  {
+   "heading": "Worked example, part 1",
+   "body": "Now combine gradient and area in one problem. A train accelerates at $0.5 \\, \\text{m s}^{-2}$ for $40 \\, \\text{s}$, then travels at constant speed, then decelerates at $0.4 \\, \\text{m s}^{-2}$ to rest, and the stations are $3.1 \\, \\text{km}$ apart.\n\nConvert the distance first so the units match the speeds and accelerations. Since $3.1 \\, \\text{km} = 3100 \\, \\text{m}$, the top speed after the first section is\n\n$$$v = 0 + 0.5 \\times 40 = 20 \\, \\text{m s}^{-1}$$\n\nThe first triangle has area $A_1 = \\frac{1}{2} \\times 40 \\times 20 = 400 \\, \\text{m}$. To brake from $20 \\, \\text{m s}^{-1}$ to rest at $0.4 \\, \\text{m s}^{-2}$ takes\n\n$$$t = \\frac{20}{0.4} = 50 \\, \\text{s}$$"
+  },
+  {
+   "heading": "Worked example, part 2",
+   "body": "The braking section is another triangle, so its area is $$A_3 = \\frac{1}{2} \\times 50 \\times 20 = 500 \\, \\text{m}$$. Subtract the two triangle distances from the total to find the constant-speed distance.\n\nThat leaves $$3100 - 400 - 500 = 2200 \\, \\text{m}$$ for the rectangular section. Because rectangle area is velocity times time, the cruising time is $$t_c = \\frac{2200}{20} = 110 \\, \\text{s}$$.\n\nFinally, add the three times together. The total time is $$40 + 110 + 50 = 200 \\, \\text{s}$$. This is sensible because the constant-speed section is the longest part of the journey."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "On a velocity-time graph, what does a horizontal section above the time axis mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Constant velocity and zero acceleration",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "Velocity is increasing at a constant rate",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "The object is at rest",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Distance travelled is zero",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A horizontal line has zero gradient, so the acceleration is zero, and if it is above the time axis the velocity is constant but not zero. The common wrong choice is C, because students often confuse a horizontal line with the time axis itself, but only a line on the time axis means the object is at rest."
+  },
+  {
+   "id": "card-7",
+   "question": "A car travels at a constant velocity of $15 \\, \\text{m s}^{-1}$ for $12 \\, \\text{s}$. What distance is represented by this section on a velocity-time graph?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$27 \\, \\text{m}$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$90 \\, \\text{m}$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$180 \\, \\text{m}$",
+     "is_correct": true
+    },
+    {
+     "id": "d",
+     "text": "$$15 \\, \\text{m s}^{-2}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A constant-velocity section is a rectangle, so distance is area = base $\\times$ height = $12 \\times 15 = 180 \\, \\text{m}$. The common wrong answer is B, which comes from using the triangle formula by mistake even though the section is rectangular. Hint: Constant velocity means a rectangle, not a triangle."
+  },
+  {
+   "id": "card-13",
+   "question": "A car accelerates from rest to $V \\, \\text{m s}^{-1}$ in 8 s, travels at this speed for 36 s, then brakes to rest. The magnitude of the deceleration is twice the magnitude of the acceleration, and the total distance is 1008 m. What is $V$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "18",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "24",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "28",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "42",
+     "is_correct": false
+    }
+   ],
+   "explanation": "During acceleration, $a = \\frac{V}{8}$, so the braking deceleration magnitude is $\\frac{V}{4}$ and the braking time is $\\frac{V}{V/4} = 4$ s. The total area is $4V + 36V + 2V = 42V = 1008$, so $V = 24$; the common wrong answer 42 comes from finding the coefficient of $V$ but not actually solving for $V$."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/as-mechanics-velocity-time-graphs/lessons",
+ "source_sha256": "111f0008ee9b5f3f83d2d6c82bf1b1b94d46d59cecc20d93d17fa4861a1e35a7",
+ "extracted_at": "2026-11-08T19:01:52Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-3 run-001)",
+ "task_id": "T-MG-LS-3",
+ "source_meta": {
+  "lesson_id": "ed52ce90-a224-4924-fa34-289cc704a8fa",
+  "topic_id": "788d948f-94b2-70fb-a8c7-9d470f99bc8b",
+  "created_at": "2026-05-14T02:32:52.969Z",
+  "updated_at": "2026-05-14T02:37:27.668Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

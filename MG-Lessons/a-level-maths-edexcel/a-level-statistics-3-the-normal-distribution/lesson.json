@@ -1,0 +1,139 @@
+{
+ "topic": "a-level-statistics-3-the-normal-distribution",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Bell curves and normal notation",
+   "body": "![Bell curve with mean mu at the centre, mu minus sigma and mu plus sigma marked, and equal left and right areas showing symmetry](../assets/001-e1c5c87a-5ba8-46ee-9cc1-dd4df49c7066.jpeg)\n\nA normal distribution is a continuous model with a symmetric bell-shaped curve. Probabilities are areas under the curve, so the total area is 1 and the curve is balanced about its centre.\n\nWe write $X \\sim N(\\mu,\\sigma^2)$. Here $\\mu$ is the mean, $\\sigma$ is the standard deviation, and $\\sigma^2$ is the variance, so a larger $\\sigma$ gives a wider, flatter curve.\n\nFor example, if $W \\sim N(120,16)$, then $\\mu=120$ and $\\sigma=\\sqrt{16}=4$. By symmetry, $P(W<120)=0.5$.",
+   "figure_refs": [
+    "assets/001-e1c5c87a-5ba8-46ee-9cc1-dd4df49c7066.jpeg"
+   ]
+  },
+  {
+   "heading": "Standardising to the standard normal",
+   "body": "The standard normal distribution is $Z \\sim N(0,1)$. To convert a value of $X$ to a z-score, use $Z=\\frac{X-\\mu}{\\sigma}$, which tells you how many standard deviations the value is from the mean.\n\nOnce you standardise, normal probabilities become standard normal probabilities. For a continuous variable, $P(X<a)=P(X\\le a)$ because the probability of one exact value is 0.\n\nIf $X \\sim N(250,5^2)$ and $x=257$, then $z=\\frac{257-250}{5}=1.4$. So $P(X>257)=P(Z>1.4)$, and values below the mean give negative z-scores."
+  },
+  {
+   "heading": "Worked example: finding probabilities",
+   "body": "![Normal distribution for cereal box mass with 243, 246, 250, 255 and 257 marked, the right tail beyond 257 shaded, and the interval 246 to 255 shaded](../assets/002-1d03ae9b-a5f6-47b2-a6e7-a392baad758a.jpeg)\nLet $X \\sim N(250,5^2)$ represent the mass of a cereal box in grams. A good first step is to mark the mean 250 and decide which region of the curve you need.\n\nFor the right tail beyond 257 g, standardise the boundary:\n$$\nz=\\frac{257-250}{5}=1.4\n$$\nSo $P(X>257)=P(Z>1.4)\\approx 0.0808$.\n\nFor the left tail below 243 g, standardise again:\n$$\nz=\\frac{243-250}{5}=-1.4\n$$\nSo $P(X<243)=P(Z<-1.4)\\approx 0.0808$, which matches by symmetry.\n\nFor the middle region, standardise both ends:\n$$\n\\frac{246-250}{5}=-0.8,\\qquad \\frac{255-250}{5}=1\n$$\nHence $P(246<X<255)=P(-0.8<Z<1)\\approx 0.629$.",
+   "figure_refs": [
+    "assets/002-1d03ae9b-a5f6-47b2-a6e7-a392baad758a.jpeg"
+   ]
+  },
+  {
+   "heading": "Inverse normal and working backwards",
+   "body": "Sometimes the probability is given and the boundary value is unknown. If $P(Z < z_p) = p$, then the matching value on the original scale is $x = \\mu + \\sigma z_p$.\n\nSuppose $T \\sim N(62, 10^2)$ and you want the time by which 90% of people finish. This is a lower-tail probability of 0.90, so $z_{0.90} \\approx 1.282$ and $t = 62 + 10(1.282) \\approx 74.8$. So the cut-off is about 75 minutes.\n\nThe same idea also finds a missing spread. If $P(H < 154) = 0.12$ with mean 168, then $z \\approx -1.175$ and $154 = 168 - 1.175\\sigma$, so $\\sigma \\approx 11.9$."
+  },
+  {
+   "heading": "Normal hypothesis tests for a mean",
+   "body": "![Sampling distribution of sample mean under H0 with centre 500, observed mean 497.8 marked to the left, and the lower tail shaded for the p-value](../assets/003-4d4f2d42-548a-4542-8ad9-5429de3db781.jpeg)\n\nWhen the population standard deviation is known, the sample mean follows $\\bar X \\sim N\\left(\\mu,\\frac{\\sigma^2}{n}\\right)$. Its standard deviation is the standard error, $\\frac{\\sigma}{\\sqrt{n}}$, which tells you the typical spread of sample means.\n\nA machine should fill bottles with mean 500 ml, and the manager suspects the mean has decreased. With $\\sigma=5.5$, $n=25$, and observed $\\bar x=497.8$, the hypotheses are $H_0:\\mu=500$ and $H_1:\\mu<500$, so under $H_0$ we use $\\bar X \\sim N\\left(500,\\frac{5.5^2}{25}\\right)$.\n\nNow standardise the sample mean:\n\n$$z=\\frac{497.8-500}{5.5/\\sqrt{25}}=-2.00$$\n\nSo the p-value is $P(Z<-2.00)\\approx 0.0228$. Since $0.0228<0.05$, reject $H_0$ and conclude there is evidence that the mean fill has decreased.",
+   "figure_refs": [
+    "assets/003-4d4f2d42-548a-4542-8ad9-5429de3db781.jpeg"
+   ]
+  },
+  {
+   "heading": "Stretch: finding both parameters",
+   "body": "When both $\\mu$ and $\\sigma$ are unknown, one probability statement is not enough. You need two probabilities, and for race times remember that \"faster\" means a smaller time.\n\nSuppose a sprinter is faster than 9.8 s on 12% of attempts and slower than 10.9 s on 25% of attempts. That means $P(T<9.8)=0.12$ and $P(T<10.9)=0.75$, so with $z_1\\approx -1.175$ and $z_2\\approx 0.674$ we get:\n\n$$$9.8=\\mu-1.175\\sigma,\\qquad 10.9=\\mu+0.674\\sigma$$\n\nSubtracting the first equation from the second removes $\\mu$, resulting in $1.1=1.849\\sigma$, which gives $\\sigma\\approx 0.595$. Substituting back, we find $\\mu\\approx 10.5$. This stretch problem requires translating words correctly to solve two linked equations."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "If $X \\sim N(20,25)$, which statement is correct?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Mean 20 and standard deviation 5",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "Mean 25 and standard deviation 20",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "Mean 20 and standard deviation 25",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Mean 5 and variance 20",
+     "is_correct": false
+    }
+   ],
+   "explanation": "In $N(\\mu,\\sigma^2)$, the first number is the mean and the second number is the variance. So $\\mu=20$ and $\\sigma=\\sqrt{25}=5$. The most common wrong answer is C, which treats the variance as if it were the standard deviation."
+  },
+  {
+   "id": "card-6",
+   "question": "If $X \\sim N(250,5^2)$, which is the correct setup for $P(X<243)$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$P(Z<-1.4)$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$P(Z<1.4)$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$P(Z>-1.4)$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$P(Z>1.4)$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Since 243 is 7 below the mean, the z-score is $\\frac{243-250}{5}=-1.4$. The probability is also a lower-tail probability, so the correct setup is $P(Z<-1.4)$. The most common wrong answer is B, which forgets that values below the mean must have negative z-scores."
+  },
+  {
+   "id": "card-12",
+   "question": "In the bottle-filling test, the p-value is 0.0228 at the 5% significance level. What is the correct conclusion?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Reject $H_0$; there is evidence the mean has decreased.",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "Reject $H_0$; there is evidence the mean is exactly 497.8.",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "Fail to reject $H_0$; 0.0228 is too small to matter.",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Fail to reject $H_0$; because 0.0228 is greater than 0.05.",
+     "is_correct": false
+    }
+   ],
+   "explanation": "You reject $H_0$ when the p-value is less than the significance level, and here $0.0228 < 0.05$. That gives evidence for the alternative hypothesis $H_1: \\mu < 500$. The most common wrong answer is D, which reverses the comparison and incorrectly says $0.0228$ is greater than $0.05$."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/a-level-statistics-3-the-normal-distribution/lessons",
+ "source_sha256": "944536f8a3518ab6a45b380c75a094f3c1b9aed68324194fb439bb3587574666",
+ "extracted_at": "2026-11-08T19:01:48Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-3 run-001)",
+ "task_id": "T-MG-LS-3",
+ "source_meta": {
+  "lesson_id": "0a03f191-2b51-4961-b68e-8f8c95bc2a30",
+  "topic_id": "b88e7835-a5ad-47c9-afa8-3551812acc17",
+  "created_at": "2026-05-13T08:07:23.406Z",
+  "updated_at": "2026-05-13T08:18:23.540Z",
+  "figures": 3,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

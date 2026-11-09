@@ -1,0 +1,167 @@
+{
+ "topic": "as-mechanics-1-constant-acceleration",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Motion quantities and signs",
+   "body": "Constant acceleration means the velocity changes by equal amounts in equal time intervals. We usually model the object as a particle, so we only track its motion, not its size or shape.\n\nThe five SUVAT quantities are displacement $s$, initial velocity $u$, final velocity $v$, acceleration $a$, and time $t$. Displacement, velocity, and acceleration can be positive or negative because they depend on your chosen positive direction.\n\nBefore using any formula, convert speeds to m/s and distances to metres. A good habit is to choose the positive direction first and keep that sign convention all the way through."
+  },
+  {
+   "heading": "The SUVAT equations",
+   "body": "The SUVAT equations work only when acceleration is constant. To solve kinematics problems, write down the values you know and then choose an equation containing just one unknown.\n\nThese are the five standard equations used for constant acceleration:\n$$\n\\begin{aligned}\nv &= u+at\\\\\ns &= ut+\\frac{1}{2}at^2\\\\\ns &= vt-\\frac{1}{2}at^2\\\\\ns &= \\frac{u+v}{2}t\\\\\nv^2 &= u^2+2as\n\\end{aligned}\n$$\n\nThe best first choice is usually the equation that avoids an extra unknown. If a speed is given in km/h, divide by 3.6 before substituting into SUVAT. For example, $18$ km/h = $5$ m/s and $54$ km/h = $15$ m/s."
+  },
+  {
+   "heading": "Worked example: find acceleration, then time",
+   "body": "A particle starts from rest, travels 75 m, and reaches a speed of 30 m/s. The known values are $u=0$, $v=30$, and $s=75$.\n\nTime is unknown, so start with the equation that does not contain $t$.\n\n$$\n\\begin{aligned}\nv^2 &= u^2 + 2as\\\\\n30^2 &= 0^2 + 2a(75)\\\\\n900 &= 150a\\\\\na &= 6\n\\end{aligned}\n$$\n\nThis gives the acceleration directly.\n\nNow use $v=u+at$ to find the time.\n\n$$\n\\begin{aligned}\n30 &= 0 + 6t\\\\\nt &= 5\n\\end{aligned}\n$$\n\nThis is quicker than starting with $s=ut+\\frac{1}{2}at^2$, which would introduce two unknowns at once."
+  },
+  {
+   "heading": "Average velocity and the midpoint trap",
+   "body": "When acceleration is constant, the average velocity is halfway between the initial and final velocities. This makes the equation $s=\\frac{u+v}{2}t$ often the quickest way to solve problems without needing to calculate acceleration first.\n\nFor example, if a particle travels 96 m in 6 s and finishes at 20 m/s, we can solve for the initial velocity $u$ using the average velocity formula:\n$$\n\\begin{aligned}\n96 &= \\frac{u+20}{2}\\times 6\\\\\nu &= 12\n\\end{aligned}\n$$\nIn this case, the initial velocity is 12 m/s.\n\nA common mistake is to think the midpoint of the distance happens at half the total time. Under acceleration this is not true, because equal time intervals do not cover equal distances when the velocity is changing.\n\nConsider a car going from 4 m/s to 16 m/s in 6 s, covering 60 m total. Finding the time $t$ to reach the 30 m midpoint involves solving a quadratic equation:\n$$\n\\begin{aligned}\n30 &= 4t + \\frac{1}{2}(2)t^2\\\\\n0 &= t^2+4t-30\\\\\nt &= -2+\\sqrt{34}\\approx 3.83\n\\end{aligned}\n$$\nThe midpoint is reached after about 3.83 s, not at the 3 s mark."
+  },
+  {
+   "heading": "Vertical motion under gravity",
+   "body": "![Ball thrown upward from 3 m above the ground with upward positive direction, launch velocity, top point, and downward gravity labelled](../assets/001-b02b8d2d-f502-4e51-8093-258471bb4b66.jpeg)\n\nIn vertical motion, choose a positive direction before writing any equations. If upwards is positive, gravity acts downward so $a=-g$.\n\nAt the highest point, the velocity is zero for an instant, but the acceleration is still downward. If the motion is freely under gravity, air resistance is ignored and you use $g=9.8$ unless the question states $10$. If you choose downwards as positive instead, then use $a=g$.",
+   "figure_refs": [
+    "assets/001-b02b8d2d-f502-4e51-8093-258471bb4b66.jpeg"
+   ]
+  },
+  {
+   "heading": "Worked example: thrown up from a height",
+   "body": "A ball is thrown vertically upwards at 14 m/s from 3 m above the ground, and take $g=10$. With upwards positive, $u=14$ and $a=-10$.\n\nAt the greatest height, $v=0$, so\n$$\n\\begin{aligned}\n0^2 &= 14^2 + 2(-10)s\\\\\n0 &= 196-20s\\\\\ns &= 9.8\n\\end{aligned}\n$$\nThis is the extra height above the release point, so the greatest height above the ground is 12.8 m.\n\nTo reach the ground, the displacement from the release point is $-3$, so\n$$\n\\begin{aligned}\n-3 &= 14T + \\frac{1}{2}(-10)T^2\\\\\n-3 &= 14T - 5T^2\\\\\n5T^2-14T-3 &= 0\\\\\nT &= 3\n\\end{aligned}\n$$\nTake the positive root because time cannot be negative.\n\nFinally, we calculate the velocity at impact:\n$$\n\\begin{aligned}\nv &= u+at\\\\\nv &= 14-10(3) = -16\n\\end{aligned}\n$$\nThe negative sign means the ball is moving downward, so the impact speed is 16 m/s."
+  },
+  {
+   "heading": "Velocity-time graphs",
+   "body": "![Velocity-time graph with acceleration, constant velocity, deceleration, and shaded area under the graph](../assets/002-cf0a5251-97ff-4861-8f8f-2b193875b390.jpeg)\n\nOn a velocity-time graph, the gradient gives the acceleration. The area under a velocity-time graph gives the displacement. If the graph stays above the time axis, that area is also the total distance travelled.\n\nExample: a train starts from rest and accelerates at $0.6 \\text{ m/s}^{2}$ for $40 \\text{ s}$, so:\n$$\n\\begin{aligned}\nv &= 0 + 0.6(40) = 24\\\\\nt_{\\text{decel}} &= \\frac{24}{0.4} = 60\n\\end{aligned}\n$$\nSo the top speed is $24 \\text{ m/s}$ and the deceleration lasts $60 \\text{ s}$.\n\nThe two triangular areas are $480 \\text{ m}$ and $720 \\text{ m}$, so together they account for $1200 \\text{ m}$. For a total distance of $3 \\text{ km} = 3000 \\text{ m}$, the remaining $1800 \\text{ m}$ is covered at $24 \\text{ m/s}$:\n$$\n\\begin{aligned}\n\\text{middle time} &= \\frac{1800}{24} = 75\\\\\n\\text{total time} &= 40+75+60 = 175\n\\end{aligned}\n$$\nSo the whole journey takes $175 \\text{ s}$.",
+   "figure_refs": [
+    "assets/002-cf0a5251-97ff-4861-8f8f-2b193875b390.jpeg"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Which statement is true for motion in a straight line?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Constant acceleration means constant speed",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "Displacement can be negative",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "Speed is always equal to velocity",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Distance can be negative",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Displacement is measured in a chosen direction, so it can be negative. The common wrong answer A mixes up acceleration with speed: under constant acceleration, the speed usually changes steadily rather than staying constant."
+  },
+  {
+   "id": "card-6",
+   "question": "For the data $u=0$, $v=30$, $s=75$, which equation is the best first choice?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$s=ut+\\frac{1}{2}at^2$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$v=u+at$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$v^2=u^2+2as$",
+     "is_correct": true
+    },
+    {
+     "id": "d",
+     "text": "$$s=\\frac{u+v}{2}t$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$v^2=u^2+2as$ is best because it uses only one unknown, $a$. The common wrong answer B looks familiar, but it contains both $a$ and $t$, so it cannot be solved on its own. Hint: Pick the equation with one unknown, not two."
+  },
+  {
+   "id": "card-11",
+   "question": "A ball is thrown straight up, and upwards is taken as positive. What is true at the highest point?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$v=0$ and $a=0$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$v=0$ and $a=-g$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$v=u$ and $a=0$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$v=-u$ and $a=g$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The ball's velocity is zero only for that instant at the top, but gravity still accelerates it downward, so $a=-g$. The common wrong answer A assumes zero velocity means zero acceleration, which is not true."
+  },
+  {
+   "id": "card-15",
+   "question": "On a velocity-time graph, what does the area under the graph represent?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Acceleration",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "Displacement",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "Final velocity",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Time taken",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Area has units $(\\text{m s}^{-1}) \\times \\text{s} = \\text{m}$, so it represents displacement. The common wrong answer A confuses area with gradient, and it is the gradient that gives acceleration."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/as-mechanics-1-constant-acceleration/lessons",
+ "source_sha256": "1e764dd511033332d22f69e7bb344ff077fb888c89ae8cbcd9b0de6c84ae2f62",
+ "extracted_at": "2026-11-08T19:01:50Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-3 run-001)",
+ "task_id": "T-MG-LS-3",
+ "source_meta": {
+  "lesson_id": "a4a89043-8513-8d84-6e46-68290441b020",
+  "topic_id": "a5e78b63-749c-85b6-9251-2eea23bab428",
+  "created_at": "2026-05-14T03:37:55.239Z",
+  "updated_at": "2026-05-14T03:41:12.158Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

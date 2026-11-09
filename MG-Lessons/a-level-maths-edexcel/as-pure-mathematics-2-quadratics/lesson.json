@@ -1,0 +1,136 @@
+{
+ "topic": "as-pure-mathematics-2-quadratics",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Quadratic form and graphs",
+   "body": "A quadratic expression has the form $ax^2+bx+c$, where $a$, $b$, and $c$ are constants and $a\\neq0$. A quadratic equation is formed by setting this equal to zero, usually as $ax^2+bx+c=0$.\n\nThe graph of $y=ax^2+bx+c$ is a parabola. If $a>0$ it opens upwards, and if $a<0$ it opens downwards; its roots are the $x$-values where the graph meets the $x$-axis.\n\nTo put an equation into standard form, move every term to one side. For example, $3x^2+7=2x$ becomes $3x^2-2x+7=0$, so $a=3$, $b=-2$, and $c=7$."
+  },
+  {
+   "heading": "Using the discriminant",
+   "body": "![Three parabolas showing a curve crossing the x-axis twice, a curve touching it at the vertex, and a curve staying above it, labelled with the three discriminant cases](../assets/001-cc2c17eb-c431-421c-8293-97a4632a1484.jpeg)\n\nThe discriminant of $ax^2+bx+c=0$ is $\\Delta=b^2-4ac$. It tells you how many real roots a quadratic has, but only after the equation is written in standard form.\n\nIf $\\Delta>0$, there are two distinct real roots; if $\\Delta=0$, there is one repeated root; if $\\Delta<0$, there are no real roots. On the graph, that means the parabola crosses the $x$-axis twice, just touches it once, or misses it completely.\n\nA repeated root happens at the turning point, where the curve only touches the axis. Always identify $a$, $b$, and $c$ carefully before substituting, especially the sign of $b$.",
+   "figure_refs": [
+    "assets/001-cc2c17eb-c431-421c-8293-97a4632a1484.jpeg"
+   ]
+  },
+  {
+   "heading": "Completing the square",
+   "body": "![Graph of y = 3(x+2)^2 - 7 with the turning point labelled at (-2,-7) and a dashed vertical axis of symmetry x = -2](../assets/002-a1a64cd6-eeb2-43b9-accd-3d0ccd43850b.jpeg)\n\nCompleting the square rewrites a quadratic as $a(x-h)^2+k$. In this form, the turning point is $(h,k)$, and the sign of $a$ tells you whether it is a minimum or maximum.\n\nTo rewrite $3x^2+12x+5$, first factor 3 from the first two terms:\n\n$$3x^2+12x+5=3(x^2+4x)+5$$\n\nThen complete the square inside the bracket:\n\n$$x^2+4x=(x+2)^2-4$$\n\nSubstitute back and simplify:\n\n$$3\\left((x+2)^2-4\\right)+5=3(x+2)^2-7$$\n\nSo the turning point is $(-2,-7)$ and, because $a=3>0$, it is a minimum. The axis of symmetry is $x=-2$.",
+   "figure_refs": [
+    "assets/002-a1a64cd6-eeb2-43b9-accd-3d0ccd43850b.jpeg"
+   ]
+  },
+  {
+   "heading": "Parameters and edge cases",
+   "body": "When a parameter appears in the coefficient of $x^2$, first check that the equation is still quadratic. If that coefficient becomes 0, the discriminant rules for quadratics no longer apply.\n\nFor $(k+1)x^2+2x+k=0$ to have two distinct real roots, first require $k\\neq-1$ so the equation stays quadratic. Then use $\\Delta>0$:\n$$2^2-4(k+1)k>0$$\nThis simplifies to the quadratic inequality $k^2+k-1<0$.\n\nSolve the boundary equation $k^2+k-1=0$ to find the critical values:\n$$k=\\frac{-1\\pm\\sqrt{5}}{2}$$\nThe quadratic in $k$ is negative between these roots, meaning $k$ must lie within that range.\n\nThe final solution is:\n$$\\frac{-1-\\sqrt{5}}{2}<k<-1 \\quad \\text{or} \\quad -1<k<\\frac{-1+\\sqrt{5}}{2}$$\nThe interval splits at $k=-1$ because that specific value makes the equation linear, not quadratic."
+  },
+  {
+   "heading": "Tangency and repeated roots",
+   "body": "When a line is tangent to a curve, the two graphs meet at one point. After rearranging, the resulting equation in $x$ has a repeated root, so its discriminant is zero.\n\nFor the curve $y=\\frac{3}{x}+k$ and the line $y=-x+4$, set them equal and multiply by $x$ to clear the denominator:\n$$\\frac{3}{x}+k=-x+4 \\Rightarrow 3+kx=-x^2+4x$$\n\nRearranging the equation into a standard quadratic form gives:\n$$x^2+(k-4)x+3=0$$\nNow we can apply the condition for tangency by setting the discriminant $\\Delta = 0$.\n\n$$$(k-4)^2-4(1)(3)=0$$\nSolving for $k$, we get $(k-4)^2=12$, which simplifies to $k=4\\pm2\\sqrt{3}$. These are the two values of $k$ for which the line just touches the curve."
+  },
+  {
+   "heading": "Quadratic models",
+   "body": "In modelling questions, completed-square form makes the maximum or minimum easy to spot. For $P=50-2(x-12)^2$, the square term is always non-negative, so the largest possible value occurs when $(x-12)^2=0$.\n\nThat gives a maximum profit of £50,000 when $x=12$, because $P$ is measured in thousands of pounds. To find when profit is more than £32,000, solve\n\n$$50-2(x-12)^2>32$$\n\nRearranging gives\n\n$$(x-12)^2<9$$\n\nso\n\n$$-3<x-12<3 \\Rightarrow 9<x<15$$\n\nThe endpoints are excluded because the profit must be more than £32,000, not equal to it. In context, $x$ should also be a sensible positive ticket price."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "After rearranging $3x^2+7=2x$ into the form $ax^2+bx+c=0$, what are $a$, $b$, and $c$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$a=3$, $b=-2$, $c=7$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$a=3$, $b=2$, $c=7$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$a=3$, $b=-2$, $c=-7$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$a=2$, $b=3$, $c=7$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A is correct because subtracting $2x$ from both sides gives $3x^2-2x+7=0$. B is the most common wrong answer because the sign of the middle term was not changed when moving $2x$ to the left."
+  },
+  {
+   "id": "card-10",
+   "question": "Which set of values of $k$ gives two distinct real roots for $(k+1)x^2+2x+k=0$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$\\frac{-1-\\sqrt{5}}{2}<k<\\frac{-1+\\sqrt{5}}{2}$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$k<\\frac{-1-\\sqrt{5}}{2}$ or $k>\\frac{-1+\\sqrt{5}}{2}$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$\\frac{-1-\\sqrt{5}}{2}<k<-1$ or $-1<k<\\frac{-1+\\sqrt{5}}{2}$",
+     "is_correct": true
+    },
+    {
+     "id": "d",
+     "text": "$$k=-1$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "C is correct because $\\Delta>0$ gives the interval between the two roots of $k^2+k-1$, but $k=-1$ must be excluded since the equation would no longer be quadratic. A is the most common wrong answer because it forgets to remove that excluded value."
+  },
+  {
+   "id": "card-15",
+   "question": "For $P=50-2(x-12)^2$, which ticket prices give profit more than £32,000?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$9<x<15$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$x\\le9$ or $x\\ge15$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$9\\le x\\le15$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$x=12$ only",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A is correct because solving $50-2(x-12)^2>32$ gives $(x-12)^2<9$, so $9<x<15$. C is the most common wrong answer because it includes $x=9$ and $x=15$, where the profit is exactly £32,000 rather than more than £32,000. Hint: Treat it as an inequality in completed-square form."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/as-pure-mathematics-2-quadratics/lessons",
+ "source_sha256": "8842ef02ffe415056167792573a99829dc6b1923418444c48d8accb00ae7d171",
+ "extracted_at": "2026-11-08T19:02:03Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-3 run-001)",
+ "task_id": "T-MG-LS-3",
+ "source_meta": {
+  "lesson_id": "919bb01a-1cec-66c4-112e-10493d07335d",
+  "topic_id": "a7212ef8-5c35-d3bb-7404-604a81692eca",
+  "created_at": "2026-05-14T02:25:58.119Z",
+  "updated_at": "2026-05-14T02:28:14.927Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

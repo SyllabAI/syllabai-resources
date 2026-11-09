@@ -1,0 +1,132 @@
+{
+ "topic": "as-statistics-box-plots",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What a box plot shows",
+   "body": "![Annotated horizontal box plot showing outliers, whiskers, quartiles, and median](../assets/001-0d8065e7-91ec-4d71-a9f8-7f794e35745c.jpeg)\nA box plot summarises a data set on a number line using the lower quartile $Q_1$, the median, the upper quartile $Q_3$, and the whiskers. The whiskers reach the smallest and largest non-outlier values, while any outliers are plotted separately as crosses.\n\nThe box from $Q_1$ to $Q_3$ contains the middle 50% of the data. Roughly 25% of the values lie in each section: below $Q_1$, between $Q_1$ and the median, between the median and $Q_3$, and above $Q_3$.",
+   "figure_refs": [
+    "assets/001-0d8065e7-91ec-4d71-a9f8-7f794e35745c.jpeg"
+   ]
+  },
+  {
+   "heading": "Finding the median and quartiles",
+   "body": "Always put raw data in ascending order before doing anything else. For the weekly call times 18, 22, 34, 37, 50, 52, 53, 56, 61, 78, 112, the values are already ordered.\n\nThere are 11 values, so the median is the 6th value, which is 52. Because 11 is odd, this middle value is not included again when finding the quartiles.\n\nThe lower half is 18, 22, 34, 37, 50, so $Q_1 = 34$. The upper half is 53, 56, 61, 78, 112, so $Q_3 = 61$."
+  },
+  {
+   "heading": "IQR and outlier fences",
+   "body": "The interquartile range measures the spread of the middle 50% of the data. This range is calculated using the first and third quartiles:\n$$\\text{IQR} = Q_3 - Q_1$$\n\nFor the call-time data, $\\text{IQR} = 61 - 34 = 27$. To test for outliers, we calculate boundaries known as fences.\n\n$$$\\text{lower fence} = Q_1 - 1.5 \\times \\text{IQR}$$\n$$\\text{upper fence} = Q_3 + 1.5 \\times \\text{IQR}$$\nHere $1.5 \\times 27 = 40.5$, so the calculated fences are $-6.5$ and $101.5$.\n\nA value is an outlier only if it is smaller than the lower fence or greater than the upper fence; a value exactly on a fence is not an outlier. Therefore 112 is an outlier, while 78 is still a non-outlier and stays at the end of the whisker."
+  },
+  {
+   "heading": "Drawing the box plot",
+   "body": "![Worked example horizontal box plot for the call-time data with box from 34 to 61, median 52, whiskers at 18 and 78, and an outlier cross at 112](../assets/002-07ac90d9-0ab0-4f40-93a8-a0d61064ed05.jpeg)\n\nFor the call-time data, draw the box from $Q_1 = 34$ to $Q_3 = 61$ and place the median line at 52. The lower whisker goes to 18 because 18 is the smallest non-outlier value.\n\nThe value 112 is not used as the end of the whisker because it is an outlier. The upper whisker stops at 78, which is the largest non-outlier value.\n\nChoose a scale that includes every important value, such as 0 to 120 with equal intervals. Consistent spacing matters just as much as the correct quartiles.",
+   "figure_refs": [
+    "assets/002-07ac90d9-0ab0-4f40-93a8-a0d61064ed05.jpeg"
+   ]
+  },
+  {
+   "heading": "Reading and comparing box plots",
+   "body": "When a question asks for the value by which 75% have finished, it is asking for $Q_3$. For example, if a puzzle-time box plot has $Q_3 = 18$ minutes, then 75% finished by 18 minutes.\n\nWhen comparing two box plots, use the medians for typical value and the IQRs for consistency. If Group A has median 13 and $Q_1 = 10$, $Q_3 = 18$, then its IQR is $18 - 10 = 8$.\n\nIf Group B has median 15 and $Q_1 = 12$, $Q_3 = 17$, then its IQR is $17 - 12 = 5$. Group A is typically faster because its median is lower, but Group B is more consistent because its IQR is smaller. If Group A also has outliers, mention them as unusually slow times in context."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "On a box plot, which value is the point by which 75% of the data lie at or below?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$Q_1$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "the median",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$Q_3$",
+     "is_correct": true
+    },
+    {
+     "id": "d",
+     "text": "the maximum value",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$Q_3$ is the upper quartile, so 75% of the data are at or below it. The most common wrong answer is the median, but the median only marks 50% of the data."
+  },
+  {
+   "id": "card-6",
+   "question": "If $Q_1 = 20$ and $Q_3 = 44$, which value is an outlier?",
+   "options": [
+    {
+     "id": "a",
+     "text": "80",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "81",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "68",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "-16",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The IQR is $44 - 20 = 24$, so the fences are $20 - 1.5 \\times 24 = -16$ and $44 + 1.5 \\times 24 = 80$. A value must be greater than 80 or smaller than -16 to be an outlier, so 81 is the only outlier; 80 is the common wrong answer because it is on the fence, not beyond it."
+  },
+  {
+   "id": "card-12",
+   "question": "Stretch: Group A has median $13$, IQR $8$, and outliers at $28$ and $29$ minutes. Group B has median $15$, IQR $5$, and no outliers. Which is the best comparison?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Group A is typically faster, but Group B is more consistent",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "Group B is typically faster because its IQR is smaller",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "Group A is more consistent because its median is lower",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "The groups have the same spread because both have box plots",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The median compares typical value, so Group A is faster because $13$ is lower than $15$. A smaller IQR shows greater consistency, not a faster typical time."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/as-statistics-box-plots/lessons",
+ "source_sha256": "f39e3ee888b96f09dddcb814765513d9120e18e802dbe612303e8b0a27652814",
+ "extracted_at": "2026-11-08T19:02:16Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-3 run-001)",
+ "task_id": "T-MG-LS-3",
+ "source_meta": {
+  "lesson_id": "f6015973-459c-71fe-96e4-7d4b0956d817",
+  "topic_id": "101a8273-b360-69fc-0c3a-4fcba18a97d7",
+  "created_at": "2026-05-14T02:43:39.996Z",
+  "updated_at": "2026-05-14T02:44:28.017Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

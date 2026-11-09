@@ -1,0 +1,156 @@
+{
+ "topic": "as-statistics-sampling",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Population, sample, and census",
+   "body": "![Diagram showing a large population, a sampling frame list of individual sampling units, a highlighted sample, and a note that a census uses every member](../assets/001-09dd13f4-ed56-47c2-9697-64a7ebf90379.jpeg)\nSampling means collecting data from a smaller group so that we can learn about a larger group. The larger group is the population, and the smaller selected group is the sample.\n\nA census collects data from every member of the population. This can be highly accurate, but it is often slower and more expensive than taking a sample.\n\nA sample should be representative, meaning it reflects the population fairly. Bias is a systematic unfairness that makes some outcomes or groups more likely than others.",
+   "figure_refs": [
+    "assets/001-09dd13f4-ed56-47c2-9697-64a7ebf90379.jpeg"
+   ]
+  },
+  {
+   "heading": "Sampling frame, simple random, and systematic",
+   "body": "The sampling frame is the list or database you choose from, and the sampling units are the individual people or items on that list. A good sampling frame matches the population as closely as possible and is up to date.\n\nIn simple random sampling, every member of the sampling frame has an equal chance of being chosen. It reduces researcher choice, but it needs a complete and accurate sampling frame.\n\nIn systematic sampling, you choose at regular intervals such as every 6th name, usually after a random start. It is quick and spreads the sample across the list, but a hidden pattern in the list can create bias."
+  },
+  {
+   "heading": "Stratified sampling and the formula",
+   "body": "Stratified sampling divides the population into groups called strata, such as year group or gender. You then choose from each group in proportion to its size, so larger groups contribute more to the sample.\n\nUse the formula below whenever the sample must be proportional to group size. This is the key formula you need in AS questions:\n\n$$\\text{number from stratum} = \\frac{\\text{stratum size}}{\\text{population size}} \\times \\text{sample size}$$\n\nWorked example: a school has 640 pupils, including 72 Year 10 girls, and a researcher needs a sample of 50.\n\n$$\\frac{72}{640} \\times 50 = 5.625$$\n\nYou cannot choose 5.625 people, so choose 6 Year 10 girls. Then check the rounded group sizes still add up to the total sample size of 50."
+  },
+  {
+   "heading": "Quota and opportunity sampling",
+   "body": "Quota sampling also uses groups, but the researcher fills fixed numbers from each group, often by asking convenient people. This means groups are included, but the choice within each group is usually not random.\n\nOpportunity sampling chooses whoever is easiest to ask at the time, such as the first 30 people entering a gym on Tuesday morning. It is quick and cheap, but it is often biased and may miss other types of people.\n\nA student who stands near the canteen until there are 20 boys and 20 girls is using quota sampling. A stratified sample would instead calculate proportional numbers for each group and normally use random selection within them."
+  },
+  {
+   "heading": "Sampling frames in context",
+   "body": "Suppose a sports centre wants to measure satisfaction with weekend opening times. The population is all current members, because they are the people whose views matter.\n\nA suitable sampling frame is an up to date membership database of current members, and the sampling units are the individual members on that list. If the list misses some members, the sample can become biased.\n\nAsking only the first 15 people who arrive on Monday morning would be opportunity sampling. That sample may not represent evening or weekend users, so the method and the timing both matter. In an exam, say exactly which users may be missed rather than just writing \"it is biased\"."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "A school asks every Year 12 student about homework. What is the population?",
+   "options": [
+    {
+     "id": "a",
+     "text": "All students in the school",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "Year 12 students in that school",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "Only the students who reply",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "All teenagers in the town",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The population is the exact group the investigation is about, which here is Year 12 students in that school. A common wrong answer is all students in the school, but the question is not about every year group. Hint: Ask yourself, \"Who are we trying to learn about?\""
+  },
+  {
+   "id": "card-5",
+   "question": "A teacher has an alphabetical list of 300 pupils and chooses every 6th name for a questionnaire. Which sampling method is this?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Simple random sampling",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "Systematic sampling",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "Quota sampling",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Stratified sampling",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Choosing every 6th name is systematic sampling because the selection follows a fixed interval. A common wrong answer is simple random sampling, but a fixed pattern is not the same as a random choice."
+  },
+  {
+   "id": "card-10",
+   "question": "A student stands near the canteen and keeps asking pupils until she has 20 boys and 20 girls. Which method is this?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Opportunity sampling",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "Quota sampling",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "Systematic sampling",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Stratified sampling",
+     "is_correct": false
+    }
+   ],
+   "explanation": "This is quota sampling because the student is filling fixed numbers from each group. A common wrong answer is opportunity sampling because the canteen is a convenient place, but the key clue is the target of 20 boys and 20 girls."
+  },
+  {
+   "id": "card-14",
+   "question": "A factory has a staff list arranged as Day, Night, Day, Night, repeated all the way down. The manager selects every 2nd name. What is the main problem?",
+   "options": [
+    {
+     "id": "a",
+     "text": "It becomes stratified, so it is too slow",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "It may be biased because the interval matches a pattern in the list",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "It must be a census because the whole list is used",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Every worker still has an equal chance, so there is no problem",
+     "is_correct": false
+    }
+   ],
+   "explanation": "This is a danger with systematic sampling, because the interval can line up with a repeating pattern and overrepresent one type of worker. A common wrong answer is that every 2nd name sounds fair, but equal spacing does not remove bias when the list itself has structure."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/as-statistics-sampling/lessons",
+ "source_sha256": "da4c7cc8ada7ba78642cdf18173050e03892877a889a2f2dc6d199ba65a889a3",
+ "extracted_at": "2026-11-08T19:02:18Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-3 run-001)",
+ "task_id": "T-MG-LS-3",
+ "source_meta": {
+  "lesson_id": "945b9c0e-e378-77c3-b149-28da02ff97df",
+  "topic_id": "d6fad842-963e-5985-5f08-ef315baaa620",
+  "created_at": "2026-05-14T02:30:15.577Z",
+  "updated_at": "2026-05-14T02:31:05.868Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}
