@@ -1,0 +1,133 @@
+{
+ "topic": "grade-4-4-17-averages-from-frequency-tables",
+ "lane": "igcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What a frequency table tells you",
+   "body": "A frequency table is a compact way to show repeated data. If the value $2$ has a frequency of $5$, that means the number $2$ appears five times in the dataset.\n\nFor an exact frequency table, the mean is a weighted average because some values happen more often than others. Use the formula: $$\\text{mean} = \\frac{\\sum (x \\times f)}{\\sum f}$$ where $x$ is the value and $f$ is the frequency.\n\nThe median is the middle value once the data is in order, and the mode is the most frequent value. Always find the total frequency first, because that tells you how many data values there are in the entire set."
+  },
+  {
+   "heading": "Worked example: mean from an exact table",
+   "body": "A player scored the following points in 50 games. Add a new column for $xf$, which means score times frequency.\n\n| Points $x$ | Frequency $f$ | $xf$ |\n|---|---:|---:|\n| 0 | 8 | 0 |\n| 1 | 12 | 12 |\n| 2 | 17 | 34 |\n| 3 | 8 | 24 |\n| 4 | 4 | 16 |\n| 5 | 1 | 5 |\n\nFirst check the total number of games, because that is the denominator for the mean.\n$$\\sum f = 8+12+17+8+4+1=50$$\n\nNow add the weighted totals and divide.\n$$\\sum xf = 0+12+34+24+16+5=91$$\n$$\\text{mean} = \\frac{91}{50} = 1.82$$\n\nDo not just average 0, 1, 2, 3, 4 and 5 by themselves. The value 2 matters much more than 5 here, because 2 happened 17 times while 5 happened only once."
+  },
+  {
+   "heading": "Median and mode with cumulative frequency",
+   "body": "A team played 38 games. The frequencies were as follows: 0 goals: frequency 6, cumulative frequency 6; 1 goal: frequency 15, cumulative frequency 21; 2 goals: frequency 10, cumulative frequency 31; 3 goals: frequency 7, cumulative frequency 38. For an even total, the median lies between the two middle positions.\n\nWith 38 games, the middle positions are the 19th and 20th values. The cumulative frequency reaches 21 at 1 goal, so both of these values are 1.\n\nSo the median is 1, and the mode is also 1 because 15 is the largest frequency. You can also find the total number of goals by multiplying each score by its frequency and adding: $0 \\times 6 + 1 \\times 15 + 2 \\times 10 + 3 \\times 7 = 56$."
+  },
+  {
+   "heading": "Grouped data and midpoints",
+   "body": "![Number line of plant height class intervals from 140 to 200 with midpoint markers at 145, 155, 165, 175 and 190, showing the last class is wider](../assets/001-e5bf6633-c550-4ff0-ba34-f317637673eb.jpeg)\n\nGrouped tables give intervals such as $140 < h \\le 150$ instead of exact values. To estimate the mean, we pretend every value in a class sits at the midpoint of that interval.\n\nThe midpoint is halfway between the class boundaries. For $180 < h \\le 200$, the midpoint is calculated as:\n\n$$\\frac{180+200}{2}=190$$\n\nNote that the midpoint is 190, not 185, because this specific class is wider than the previous ones.\n\nFor grouped data, use midpoints $m$ instead of exact values. The formula is:\n\n$$\\text{estimated mean} = \\frac{\\sum (m \\times f)}{\\sum f}$$\n\nThis is only an estimate because the exact values inside each class are unknown to us.",
+   "figure_refs": [
+    "assets/001-e5bf6633-c550-4ff0-ba34-f317637673eb.jpeg"
+   ]
+  },
+  {
+   "heading": "Worked example: estimated mean from grouped data",
+   "body": "The heights of 60 plants are grouped below. Add a midpoint column and then multiply each midpoint by its frequency.\n\n| Height | Frequency $f$ | Midpoint $m$ | $mf$ |\n|---|---:|---:|---:|\n| $140 < h \\le 150$ | 5 | 145 | 725 |\n| $150 < h \\le 160$ | 11 | 155 | 1705 |\n| $160 < h \\le 170$ | 16 | 165 | 2640 |\n| $170 < h \\le 180$ | 18 | 175 | 3150 |\n| $180 < h \\le 200$ | 10 | 190 | 1900 |\n\nNow add the two totals. The total frequency is 60, and the total of the $mf$ column is 10120.\n$$\\sum f = 60 \\qquad \\sum mf = 10120$$\n\nDivide to estimate the mean height.\n$$\\text{estimated mean} = \\frac{10120}{60} = 168.666\\ldots \\approx 168.7 \\, \\text{cm}$$\n\nThis answer is an estimate, not an exact mean. The real plant heights could be anywhere inside each class interval."
+  },
+  {
+   "heading": "Median class and percentages",
+   "body": "A travel-time table for 100 people is shown below. For grouped data, the exact median is usually unknown, so we find the median class instead.\n\n| Time (minutes) | Frequency | Cumulative frequency |\n|---|---:|---:|\n| $0 < t \\le 10$ | 12 | 12 |\n| $10 < t \\le 20$ | 18 | 30 |\n| $20 < t \\le 30$ | 24 | 54 |\n| $30 < t \\le 40$ | 28 | 82 |\n| $40 < t \\le 50$ | 13 | 95 |\n| $50 < t \\le 60$ | 5 | 100 |\n\nWith 100 people, the middle positions are the 50th and 51st values. The cumulative frequency reaches 54 in the third class, so the median class is $20 < t \\le 30$.\n\nTo find the percentage who travelled for more than 30 minutes, add the frequencies above 30 minutes:\n$$28+13+5=46$$\n\nBecause the total is 100, the percentage is 46%; if the total were different, divide by the total frequency and multiply by 100."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "When finding the mean from an exact frequency table, what do you divide by?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The total frequency",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "The number of rows",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "The largest frequency",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "The number of different values",
+     "is_correct": false
+    }
+   ],
+   "explanation": "You divide by the total frequency because that is the total number of data values in the set. The most common wrong answer is B, but the number of rows only tells you how many categories are listed, not how many observations there are."
+  },
+  {
+   "id": "card-7",
+   "question": "Scores $0, 1, 2$ and $3$ have frequencies $3, 4, 2$ and $1$. What is the median score?",
+   "options": [
+    {
+     "id": "a",
+     "text": "1",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "1.5",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "2",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "5",
+     "is_correct": false
+    }
+   ],
+   "explanation": "There are $10$ values, so the median is found from the $5^{th}$ and $6^{th}$ values. Both of those values are $1$, so the median is $1$; the most common wrong answer is $1.5$, but $1.5$ would only be correct if the $5^{th}$ and $6^{th}$ values were $1$ and $2$, which they are not."
+  },
+  {
+   "id": "card-12",
+   "question": "A football team scored 54 goals in a season. Goals per game had frequencies 0 goals: 9, 1 goal: 13, 2 goals: $x$, 3 goals: 5, 4 or more goals: 0. What is $x$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "10",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "13",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "15",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "26",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The known goals contribute $0 \\times 9 + 1 \\times 13 + 3 \\times 5 = 28$, so the 2-goal games contribute $54 - 28 = 26$ goals. Since each of those games adds 2 goals, $2x = 26$ and $x = 13$; the open-ended row does not matter because its frequency is 0, and the most common wrong answer is D, which confuses 26 goals with 26 games."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-4-4-17-averages-from-frequency-tables/lessons",
+ "source_sha256": "3eceee409d7c09080b4a7224a6f546a9124797d8792876c5aed313bda4a31bf8",
+ "extracted_at": "2026-11-08T19:00:45Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "ce9b76fa-d0ac-4573-87b4-f336edab59ee",
+  "topic_id": "cdb898f9-390c-4495-ae26-80d64d689680",
+  "created_at": "2026-05-13T12:38:10.100Z",
+  "updated_at": "2026-05-13T12:43:07.585Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

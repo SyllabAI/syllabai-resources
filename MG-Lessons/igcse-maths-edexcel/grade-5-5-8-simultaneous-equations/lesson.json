@@ -1,0 +1,160 @@
+{
+ "topic": "grade-5-5-8-simultaneous-equations",
+ "lane": "igcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What a simultaneous solution means",
+   "body": "![Graph of the lines 2x + y = 7 and x - y = -1 crossing at the solution point (2, 3)](../assets/001-1794111f-10e7-4b2c-a4ce-238347aad9fb.jpeg)\n\nEach linear equation is a straight line, and the simultaneous solution is the point where the lines cross. A solution pair must make both equations true at the same time.\n\nFor the graph shown, the lines $2x + y = 7$ and $x - y = -1$ meet at $(2, 3)$. That means $x = 2$ and $y = 3$ satisfy both equations together.\n\nYou can also check a claimed solution by substitution. If the left side equals the right side in both equations, the pair is correct.",
+   "figure_refs": [
+    "assets/001-1794111f-10e7-4b2c-a4ce-238347aad9fb.jpeg"
+   ]
+  },
+  {
+   "heading": "Elimination by adding",
+   "body": "If the coefficients match and the signs are opposite, add the equations to eliminate that variable. In this example, the $y$ terms are $+3y$ and $-3y$.\n$$\n\\begin{aligned}\n4x+3y&=26 \\quad \\text{(1)}\\\\\nx-3y&=-1 \\quad \\text{(2)}\n\\end{aligned}\n$$\n\nAdd equation (1) and equation (2) term by term. The $y$ terms cancel, leaving one equation in $x$.\n$$\n\\begin{aligned}\n5x&=25\\\\\nx&=5\n\\end{aligned}\n$$\n\nSubstitute $x=5$ into equation (2) to find $y$. Then solve and write the answer as an ordered pair.\n$$\n\\begin{aligned}\n5-3y&=-1\\\\\n-3y&=-6\\\\\ny&=2\n\\end{aligned}\n$$\nSo the solution is $(5,2)$."
+  },
+  {
+   "heading": "Elimination by subtracting",
+   "body": "If the matching terms have the same sign, subtract one equation from the other. Here both equations contain $2x$, so subtracting removes $x$.\n\n$$\n\\begin{aligned}\n2x+5y&=28 \\quad \\text{(1)}\\\\\n2x-y&=4 \\quad \\text{(2)}\n\\end{aligned}\n$$\n\nBe careful with negatives when you subtract. Since $5y-(-y)=6y$, we get the following simplified equation:\n\n$$\n\\begin{aligned}\n(2x+5y)-(2x-y)&=28-4\\\\\n6y&=24\\\\\ny&=4\n\\end{aligned}\n$$\n\nNow substitute $y=4$ into the original equation $2x-y=4$. This calculation gives $2x-4=4$, so $2x=8$ and $x=4$, resulting in the solution $(4,4)$."
+  },
+  {
+   "heading": "Making coefficients match first",
+   "body": "Sometimes no variable cancels straight away, so you first scale an entire equation. For $2x-3y=4$ and $4x-y=18$, doubling the first equation makes the $x$ coefficients equal, and every term must be doubled.\n\n$$$\n\\begin{aligned}\n2x-3y&=4\\\\\n4x-y&=18\\\\\n4x-6y&=8\n\\end{aligned}\n$$\n\nNow subtract $4x-y=18$ from $4x-6y=8$. This gives $-5y=-10$, so $y=2$.\n$$\n\\begin{aligned}\n(4x-6y)-(4x-y)&=8-18\\\\\n-5y&=-10\n\\end{aligned}\n$$\n\nSubstitute $y=2$ into $4x-y=18$. Then $4x-2=18$, so $4x=20$, $x=5$, and the solution is $(5,2)$."
+  },
+  {
+   "heading": "Rearranged equations and decimals",
+   "body": "Not every question starts in standard form. For example, $3x=10+y$ becomes $3x-y=10$ after subtracting $y$ from both sides.\n$$\n3x-y=10\n$$\n\nDecimals do not change the method. If it helps, multiply a whole equation by $10$ to clear one decimal place and make the numbers easier to handle.\n\nIn $6x+5y=6.5$ and $3x-2y=5.5$, doubling the second equation gives $6x-4y=11$. Subtracting then gives $9y=-4.5$, so $y=-0.5$, and substituting back gives $x=1.5$.\n$$\n\\begin{aligned}\n6x-4y&=11\\\\\n9y&=-4.5\n\\end{aligned}\n$$"
+  },
+  {
+   "heading": "Turning words into equations",
+   "body": "In word problems, define the variables before you do any algebra. Let $d$ be the price of one drink in pence and $b$ be the price of one biscuit in pence.\n\nTwo drinks and five biscuits cost £8.90, and one drink and three biscuits cost £4.95. Converting the totals to pence gives the following system of equations:\n\n$$$\n\\begin{aligned}\n2d+5b&=890\\\\\nd+3b&=495\n\\end{aligned}\n$$\n\nDouble the second equation to get $2d+6b=990$, then subtract the first equation to find $b=100$. Next, substitute back to get $d=195$. Because the equations used pence, convert the final answers back to £1.95 and £1.00."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "What does the solution to a pair of simultaneous equations represent?",
+   "options": [
+    {
+     "id": "a",
+     "text": "the pair of values that makes both equations true",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "any pair of values that works in one equation only",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "the $x$-intercept of either line",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "the coefficient of the larger variable",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A solution must satisfy both equations at once. The common wrong answer is B, but a pair that works in only one equation lies on just one line, not at the intersection of both."
+  },
+  {
+   "id": "card-6",
+   "question": "When you simplify $(2x+5y)-(2x-y)$, what is the result?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$6y$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$4y$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$0$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$2y$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Subtracting the second bracket changes its signs, so $5y-(-y)=5y+y=6y$. The common wrong answer is B, which comes from forgetting that subtracting a negative is the same as adding."
+  },
+  {
+   "id": "card-12",
+   "question": "For the equations $6x+5y=6.5$ and $3x-2y=5.5$, which first step makes elimination easiest?",
+   "options": [
+    {
+     "id": "a",
+     "text": "multiply the second equation by $2$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "add the equations immediately",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "multiply only the $3x$ term by $2$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "change $6.5$ to $65$ but leave the rest unchanged",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Doubling the whole second equation gives matching $x$ coefficients, $6x$ and $6x$, so elimination is straightforward. The common wrong answer is C, but you must multiply every term in an equation, not just one term."
+  },
+  {
+   "id": "card-14",
+   "question": "Solve $2x+y=7$ and $3x=1+y$. Which ordered pair is correct?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$(1.6,3.8)$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$(3.8,1.6)$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$(2,3)$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$(1.6,2.2)$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Rearrange $3x=1+y$ to $3x-y=1$, then add it to $2x+y=7$ to get $5x=8$, so $x=1.6$. Substituting back gives $y=3.8$, so the answer is $(1.6,3.8)$. The common wrong answer is B, which simply swaps the order; ordered pairs are written as $(x,y)$, not $(y,x)$."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-5-5-8-simultaneous-equations/lessons",
+ "source_sha256": "7eecffd65ccf5ba1b438a0197bd91e45deab2f18e70c22845f3c1afd6885724c",
+ "extracted_at": "2026-11-08T19:01:02Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "1e5d7548-4b97-49a0-b023-ec2e3ae1ebf9",
+  "topic_id": "b115e98e-72c2-4592-aaa8-07de09996ab9",
+  "created_at": "2026-05-13T12:10:02.890Z",
+  "updated_at": "2026-05-13T12:10:50.852Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

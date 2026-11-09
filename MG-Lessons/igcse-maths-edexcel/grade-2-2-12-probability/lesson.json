@@ -1,0 +1,132 @@
+{
+ "topic": "grade-2-2-12-probability",
+ "lane": "igcse-maths-edexcel",
+ "grade": "2",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Probability on the scale from 0 to 1",
+   "body": "![Probability scale from 0 to 1 labelled impossible, unlikely, even chance, likely and certain, with a cross at one quarter](../assets/001-48bc7cfd-d641-46f9-b776-43b7d9db48e8.jpeg) Probability measures how likely an event is, and every probability must be between 0 and 1. A probability of 0 means impossible, 1 means certain, and $\\frac{1}{2}$ means an even chance.\n\nA value like $\\frac{1}{4}$ sits between 0 and $\\frac{1}{2}$, so it describes an unlikely event. If your answer is less than 0 or greater than 1, something has gone wrong.",
+   "figure_refs": [
+    "assets/001-48bc7cfd-d641-46f9-b776-43b7d9db48e8.jpeg"
+   ]
+  },
+  {
+   "heading": "Counting equally likely outcomes",
+   "body": "![Fair spinner with four equal sections labelled P, Q, R and R, with a note showing P(P) equals one quarter](../assets/002-8de27486-6b2c-49e6-a152-6e1223e082eb.jpeg)\n\nWhen outcomes are equally likely, use $P(\\text{event})=\\frac{\\text{favourable outcomes}}{\\text{total outcomes}}$. The numerator counts the outcomes you want, and the denominator counts all possible outcomes.\n\nWorked example: a fair spinner has 4 equal sections labelled P, Q, R and R. There are 4 sections altogether and only 1 is P, so $P(\\text{P})=\\frac{1}{4}$.\n\nRepeated labels still count more than once. Because R appears on 2 sections, $P(\\text{R})=\\frac{2}{4}=\\frac{1}{2}$, not $\\frac{1}{4}$.",
+   "figure_refs": [
+    "assets/002-8de27486-6b2c-49e6-a152-6e1223e082eb.jpeg"
+   ]
+  },
+  {
+   "heading": "Dice, impossible events and certain events",
+   "body": "A fair six-sided dice has outcomes 1, 2, 3, 4, 5 and 6, and each single number has probability $\\frac{1}{6}$. Because the dice is fair, the outcomes are equally likely.\n\nWorked example: to find the probability of an even number, list the even outcomes 2, 4 and 6. That gives 3 favourable outcomes out of 6, so $P(\\text{even})=\\frac{3}{6}=\\frac{1}{2}$.\n\nSome questions are quicker if you spot impossible or certain events. For an ordinary dice, $P(8)=0$ because 8 is not on the dice, and $P(\\text{number}<7)=1$ because all 6 outcomes are less than 7."
+  },
+  {
+   "heading": "Bags, cards and repeated values",
+   "body": "For bags, boxes and lists of cards, the denominator is the total number of items, not the number of different labels. If a number appears more than once, each copy still counts as a separate item.\n\nWorked example: from the cards 1, 6, 8, 6, 3, 8, 10, the probability of choosing a 6 is $\\frac{2}{7}$. There are 7 cards altogether and 2 of them show 6.\n\nAnother example: a box has 28 pens, with 9 black and 6 green, and the rest are red. First find the red pens by $28-(9+6)=13$, then write $P(\\text{red})=\\frac{13}{28}$."
+  },
+  {
+   "heading": "The probability of \"not\" and missing probabilities",
+   "body": "If an event and its complement cover every possible outcome, their probabilities add to 1. That gives the rule $P(\\text{not }A)=1-P(A)$.\n\nWorked example: if the probability of winning is $\\frac{5}{12}$, then $P(\\text{not winning})=1-\\frac{5}{12}$. Write 1 as $\\frac{12}{12}$, so $\\frac{12}{12}-\\frac{5}{12}=\\frac{7}{12}$.\n\nThis idea also helps with tables of probabilities, as long as the listed outcomes cover every possible result. If red is 0.25, blue is 0.35 and yellow is 0.15, then green is $1-(0.25+0.35+0.15)=1-0.75=0.25$."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-3",
+   "question": "What does a probability of 0.5 tell you about an event?",
+   "options": [
+    {
+     "id": "a",
+     "text": "It is impossible",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "It has an even chance",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "It is likely",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "It is certain",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$0.5=\\frac{1}{2}$, so the event is just as likely to happen as not happen. Option C is the common wrong answer, but \"likely\" means a probability greater than 0.5, not exactly 0.5."
+  },
+  {
+   "id": "card-7",
+   "question": "A fair dice is thrown once. What is the probability of getting a number greater than 4?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$\\frac{1}{3}$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$\\frac{1}{2}$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$\\frac{2}{3}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "0",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The numbers greater than 4 are 5 and 6, so there are 2 favourable outcomes out of 6 and the probability is $\\frac{2}{6}=\\frac{1}{3}$. Option B is the common wrong answer because it counts 4, 5 and 6, but \"greater than 4\" does not include 4."
+  },
+  {
+   "id": "card-13",
+   "question": "A bag contains only red, blue, yellow and green counters. Their probabilities are red 0.18, blue 0.27, yellow 0.35 and green unknown. What is the probability of green?",
+   "options": [
+    {
+     "id": "a",
+     "text": "0.20",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "0.80",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "0.62",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "0.36",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The listed colours cover all possible outcomes, so their probabilities must add to 1. The known probabilities add to 0.80, so green is $1-0.80=0.20$; option B is the common wrong answer because it is the sum of the known probabilities, not the missing one."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-2-2-12-probability/lessons",
+ "source_sha256": "59a982445cd514d13e500fdabea214ef87b5afbaaf18e6c7c3a91aa700c66a76",
+ "extracted_at": "2026-11-08T19:00:21Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "37b00a48-75cb-49c4-b836-ba4e6367053f",
+  "topic_id": "b063bb3d-6678-4cbf-94f7-9fb28e52c96d",
+  "created_at": "2026-05-13T12:24:54.562Z",
+  "updated_at": "2026-05-13T12:26:43.373Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

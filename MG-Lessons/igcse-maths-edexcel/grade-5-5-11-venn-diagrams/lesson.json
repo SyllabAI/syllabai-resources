@@ -1,0 +1,132 @@
+{
+ "topic": "grade-5-5-11-venn-diagrams",
+ "lane": "igcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Sets, regions, and the universal set",
+   "body": "![Two-set Venn diagram inside universal set E with regions A only, A intersection B, B only, and neither labelled.](../assets/001-1802974b-e798-438a-a1a6-24d2fb6271e5.jpeg)\nA Venn diagram sorts members into sets. A set is a collection of items, and the rectangle is the universal set $E$, which contains everything being considered.\n\nIn a two-set diagram there are four main regions: A only, $A \\cap B$, B only, and neither. The overlap $A \\cap B$ belongs to both sets at the same time.\n\nWhen placing items, start with the most specific region first. This helps you avoid double-counting later.",
+   "figure_refs": [
+    "assets/001-1802974b-e798-438a-a1a6-24d2fb6271e5.jpeg"
+   ]
+  },
+  {
+   "heading": "Reading the symbols",
+   "body": "$$A'$ means the complement of A, which is everything in the universal set that is not in A. In probability, this gives the rule $P(A') = 1 - P(A)$.\n\n$$A \\cap B$ means A and B, so shade only the overlap. $A \\cup B$ means A or B or both, so the overlap must be included.\n\nFor example, $A' \\cup B$ means outside A or inside B. The only region left out is A only."
+  },
+  {
+   "heading": "Worked example with two sets",
+   "body": "When totals are given, remember that each circle total already includes the overlap. The key counting rule is:\n\n$$$n(A \\cup B)=n(A)+n(B)-n(A \\cap B)$$\n\nLet $I$ be students who have visited Italy and $G$ be students who have visited Germany. If $n(I)=21$, $n(G)=18$, $n(I \\cap G)=7$, and there are 36 students altogether, put 7 in the overlap first.\n\nThen work out the single-only regions: Italy only is $21-7=14$ and Germany only is $18-7=11$. So the number in at least one set is $14+7+11=32$.\n\nFinally, the number in neither set is $36-32=4$. Check by adding back inside each circle: $14+7=21$ and $11+7=18$, so the diagram is consistent."
+  },
+  {
+   "heading": "Three-set diagrams: centre outwards",
+   "body": "![Three-set Venn diagram labelled A, B, C and E with arrows showing centre first, then pair-only regions, then single-only regions, then outside.](../assets/002-ef4b82b7-4fb9-40f8-957e-3b474475109f.jpeg)\n\nFor three sets, always fill the centre first and then work outwards. The centre $A \\cap B \\cap C$ is included in every pair total and every single-set total, so leaving it until later causes mistakes.\n\nConsider a survey of 60 students: 4 like art, basketball, and choir, 15 like art and basketball, 12 like basketball and choir, 14 like art and choir, 31 like art, 35 like basketball, and 28 like choir. Start by placing 4 in the centre.\n\nThe pair-only overlaps are found by subtracting the centre: art and basketball only is $15-4=11$, basketball and choir only is $12-4=8$, and art and choir only is $14-4=10$. Then the single-only regions are art only $31-11-10-4=6$, basketball only $35-11-8-4=12$, and choir only $28-10-8-4=6$.\n\nAdd the seven inside regions to get $4+11+8+10+6+12+6=57$. So the number who like none of the three activities is $60-57=3$.",
+   "figure_refs": [
+    "assets/002-ef4b82b7-4fb9-40f8-957e-3b474475109f.jpeg"
+   ]
+  },
+  {
+   "heading": "Using Venn diagrams for probability",
+   "body": "Probability is defined as the ratio of favourable outcomes to the total number of possible outcomes:\n$$\n\\frac{\\text{favourable outcomes}}{\\text{total outcomes}}\n$$\nIn a Venn diagram question, the total outcomes are usually represented by the total number of members in the universal set.\n\nSuppose $E=\\{3,6,9,12,15,18,21,24,27,30\\}$, $A=\\{3,6,12,18,24\\}$, and $B=\\{6,15,18,21,30\\}$. The overlap is $A \\cap B=\\{6,18\\}$, so set A only has 3 unique members outside the intersection and B only has 3 unique members outside the intersection, making 8 members in $A \\cup B$.\n\nTo find the probability of the union, we divide the count of elements in the combined region by the count of the universal set:\n$$\nP(A \\cup B)=\\frac{8}{10}=\\frac{4}{5}\n$$\nCount how many members are in the region you want. Do not add the values of the numbers unless the question specifically asks for a sum."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "In a two-set Venn diagram, what does $A \\cap B$ mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "members in both A and B",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "members in A or B or both",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "members not in A",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "members only in B",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$A \\cap B$ is the intersection, so it is the overlap only. The common wrong answer is \"members in A or B or both\", but that is $A \\cup B$, the union."
+  },
+  {
+   "id": "card-7",
+   "question": "50 people are asked whether they have a brother or a sister. 28 have a brother, 24 have a sister, and 6 have neither. How many have both?",
+   "options": [
+    {
+     "id": "a",
+     "text": "8",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "14",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "20",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "44",
+     "is_correct": false
+    }
+   ],
+   "explanation": "First find how many have at least one: $50-6=44$. Then $28+24=52$, which counts the overlap twice, so the overlap is $52-44=8$. The common wrong answer is 44, but that is the number with at least one, not the number with both."
+  },
+  {
+   "id": "card-12",
+   "question": "Stretch: Using the sets in the previous card, what is $P(A' \\cup B)$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$\\frac{7}{10}$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$\\frac{8}{10}$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$\\frac{5}{10}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$\\frac{3}{10}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$A' \\cup B$ means outside A or in B. The only elements excluded are the A-only elements $\\{3,12,24\\}$, so 7 of the 10 elements are included. The common wrong answer is $\\frac{8}{10}$, which is $P(A \\cup B)$, not $P(A' \\cup B)$. Hint: It can be quicker to work out which region is not included."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-5-5-11-venn-diagrams/lessons",
+ "source_sha256": "63bdb17266bbe99988fe456033c02eb31b33994ef1888e9b113a26766c2b4995",
+ "extracted_at": "2026-11-08T19:00:56Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "a0e22084-ccad-40a3-af14-09fc1a7d72d3",
+  "topic_id": "82dc3b17-243f-4d68-89a7-d968e33ed413",
+  "created_at": "2026-05-14T09:00:34.683Z",
+  "updated_at": "2026-05-14T09:01:27.963Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

@@ -1,0 +1,130 @@
+{
+ "topic": "grade-7-7-6-algebraic-fractions",
+ "lane": "igcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Algebraic fractions and excluded values",
+   "body": "An algebraic fraction is a fraction where the numerator, the denominator, or both contain algebraic expressions. It behaves like an ordinary fraction, so the denominator can never be zero.\n\nAny value of $x$ that makes the denominator zero is called an excluded value. To find excluded values, look only at the denominator and factorise it:\n\n$$$x^2-4=(x-2)(x+2)$$\n\nSo $\\frac{x+3}{x^2-4}$ has excluded values $x=2$ and $x=-2$. Even if a factor cancels later, those values still stay excluded because they made the original denominator zero."
+  },
+  {
+   "heading": "Factorise before you cancel",
+   "body": "Use this order every time:\n\n1. Factorise the numerator and denominator fully.\n2. Find any excluded values by setting the original denominator equal to $0$.\n3. Rewrite the fraction in factor form.\n4. Cancel common factors only.\n5. Write the simplified answer.\n\nYou can cancel common factors, but you cannot cancel just the $x$ from a sum such as $x+6$.\n\nHere is a worked example with $\\frac{x^2+6x}{x^2+8x+12}$. First factorise both parts:\n$$x^2+6x=x(x+6)$$\n$$x^2+8x+12=(x+2)(x+6)$$\n\nNow find the excluded values from the original denominator:\n$$(x+2)(x+6)=0$$\nso $x \\neq -2$ and $x \\neq -6$.\n\nThen rewrite the fraction using factors and cancel the common factor:\n$$\\frac{x^2+6x}{x^2+8x+12}=\\frac{x(x+6)}{(x+2)(x+6)}=\\frac{x}{x+2}$$\nThe factor $(x+6)$ cancels because it multiplies both the numerator and the denominator."
+  },
+  {
+   "heading": "Patterns that help you factorise",
+   "body": "One factor pattern appears again and again in algebraic fractions: the difference of two squares. This pattern is expressed by the formula: $$a^2-b^2=(a-b)(a+b)$$ It often creates a bracket that can be used to cancel terms in a fraction.\n\nFor example, we can simplify an expression by factorising the denominator: $$\\frac{x+7}{x^2-49}=\\frac{x+7}{(x-7)(x+7)}=\\frac{1}{x-7}$$ Once we factorise $x^2-49$, the $(x+7)$ term in the numerator and denominator can be removed.\n\nThe excluded values still come from the original denominator, even after simplification. In the example above, $x \\neq 7$ and $x \\neq -7$ are both necessary constraints even though the $(x+7)$ bracket was cancelled.\n\nA classic trap is attempting to simplify $\\frac{x+4}{x+7}$ by crossing out the $x$. You cannot cancel the $x$ because it is part of an addition, not a whole factor multiplied across the top and bottom."
+  },
+  {
+   "heading": "Dividing using a reciprocal",
+   "body": "To divide by a fraction, multiply by its reciprocal. After that, treat the question as a simplification problem: factorise and cancel common factors.\n\nExample: $$\\frac{x+3}{x-5} \\div \\frac{x^2+5x+6}{x^2-5x}=\\frac{x+3}{x-5}\\times\\frac{x^2-5x}{x^2+5x+6}$$ Now factorise the expressions that can be factorised: $x^2-5x=x(x-5)$ and $x^2+5x+6=(x+2)(x+3)$.\n\nSubstitute the factors and cancel: $$\\frac{x+3}{x-5}\\times\\frac{x(x-5)}{(x+2)(x+3)}=\\frac{x}{x+2}$$ Here $x\\neq 5$ and $x\\neq 0$ from the original denominators. Also $x\\neq -2$ and $x\\neq -3$ because the fraction you divide by must not be zero."
+  },
+  {
+   "heading": "Solving equations by clearing denominators",
+   "body": "When an equation contains algebraic fractions, write the excluded values first. Then multiply every term by a common denominator to remove all the fractions.\n\nFor the equation $$\\frac{8}{x+2}+\\frac{6}{x+5}=1$$ the excluded values are $x\\neq -2$ and $x\\neq -5$. Multiplying every term by $(x+2)(x+5)$ clears the denominators: $$8(x+5)+6(x+2)=(x+2)(x+5)$$\n\nExpanding both sides and rearranging gives: $$14x+52=x^2+7x+10$$ $$x^2-7x-42=0$$\n\nThe quadratic $x^2-7x-42=0$ does not factorise over the integers, so use the quadratic formula: $$x=\\frac{-(-7)\\pm\\sqrt{(-7)^2-4(1)(-42)}}{2(1)}=\\frac{7\\pm\\sqrt{217}}{2}$$ So $x=\\frac{7+\\sqrt{217}}{2}$ or $x=\\frac{7-\\sqrt{217}}{2}$. Since neither solution is an excluded value, both answers are valid."
+  },
+  {
+   "heading": "Ratios and proportions",
+   "body": "A ratio statement such as $A:B=C:D$ can be rewritten as $\\frac{A}{B}=\\frac{C}{D}$. Once it is written as a fraction equation, you solve it by cross multiplying.\n\nFor the following proportion:\n$$\\frac{x+2}{2x}=\\frac{x+3}{3x-1}$$\nCross multiplying the terms gives $$(x+2)(3x-1)=2x(x+3)$$\n\nThis turns the ratio into an ordinary quadratic equation when you expand:\n$$3x^2+5x-2=2x^2+6x$$\nRearranging the equation gives $$x^2-x-2=0$$\n\nFinally, factorising gives $(x-2)(x+1)=0$. So $x=2$ or $x=-1$, and both are valid because they do not make the original denominators $2x$ or $3x-1$ equal to zero."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "What are the excluded values of $\\frac{x+5}{x^2-9}$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$x=3$ and $x=-3$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$x=9$ only",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$x=3$ only",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "No excluded values",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The denominator factorises as $x^2-9=(x-3)(x+3)$, so it is zero when $x=3$ or $x=-3$. Option C is the common mistake of solving only one factor and forgetting that both brackets can make the denominator zero."
+  },
+  {
+   "id": "card-7",
+   "question": "Why can $\\frac{x+4}{x+7}$ not be simplified by cancelling $x$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because $x$ is not a factor of the whole numerator and denominator",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "Because only numbers can cancel",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "Because the denominator would become zero",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Because $x$ must stay in the numerator",
+     "is_correct": false
+    }
+   ],
+   "explanation": "You can only cancel factors, and in $\\frac{x+4}{x+7}$ the $x$ is part of a sum, not a separate factor. Option B is the common wrong idea because algebraic factors can cancel too, but only when the whole expression is a factor, such as $(x+3)$. Hint: Ask yourself whether $x$ is multiplying or adding."
+  },
+  {
+   "id": "card-12",
+   "question": "Stretch: After multiplying every term in $\\frac{3}{x}+\\frac{2}{x+1}=1$ by $x(x+1)$, which equation is correct?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$3(x+1)+2x=x(x+1)$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$3+2=1$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$3x+2(x+1)=x+1$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$3(x+1)+2x=1$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Multiplying by $x(x+1)$ clears both denominators on the left and turns the $1$ on the right into $x(x+1)$. Option D is the very common mistake of forgetting to multiply the $1$ by the common denominator as well."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-7-7-6-algebraic-fractions/lessons",
+ "source_sha256": "0cb3244ca6a50933c5b83d4ffbba02a698ecc7310e35f54e56d4137e1c9a016b",
+ "extracted_at": "2026-11-08T19:01:25Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "f183060c-e3e5-4c60-b3d4-579d06368f49",
+  "topic_id": "1371bfe0-0484-4486-ad92-242ec88dc536",
+  "created_at": "2026-05-13T11:50:49.802Z",
+  "updated_at": "2026-05-13T11:56:25.402Z",
+  "figures": 0,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

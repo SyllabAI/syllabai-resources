@@ -1,0 +1,160 @@
+{
+ "topic": "grade-7-7-5-factorising-harder-quadratics",
+ "lane": "igcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Why these quadratics are harder",
+   "body": "Factorising means rewriting an expression as a product of brackets. When the quadratic starts with $x^2$, the first terms in the brackets are usually just $x$ and $x$. Harder quadratics like $2x^2+7x+3$ need a method because the first terms in the brackets are no longer obvious.\n\n![Flow diagram of factorising $3x^2+14x+8$ by finding $ac=24$, choosing 12 and 2, splitting the middle term, grouping, and getting $(3x+2)(x+4)$](../assets/001-6021a7f2-a76b-4c5d-8538-1c97499270f3.jpeg)\n\nFor a quadratic of the form $ax^2+bx+c$, multiply the leading coefficient by the constant term. Then find two numbers that multiply to that result and add to the middle coefficient. Split the middle term using those numbers, factorise in pairs, and look for the repeated bracket.",
+   "figure_refs": [
+    "assets/001-6021a7f2-a76b-4c5d-8538-1c97499270f3.jpeg"
+   ]
+  },
+  {
+   "heading": "Worked example: positive terms",
+   "body": "To factorise $3x^2+14x+8$, identify $a=3$, $b=14$, and $c=8$. Then $ac=24$, so the pair we need is $12$ and $2$ because $12 \\times 2 = 24$ and $12+2=14$.\n\nSplit the middle term first.\n$$\n3x^2+14x+8=3x^2+12x+2x+8\n$$\n\nThen factorise each pair.\n$$\n3x^2+12x+2x+8=3x(x+4)+2(x+4)\n$$\n\nThe repeated bracket is $x+4$, so factorise it out.\n$$\n3x(x+4)+2(x+4)=(3x+2)(x+4)\n$$\nA quick expansion check gives $3x^2+14x+8$, so the factorisation is correct."
+  },
+  {
+   "heading": "Signs with a negative constant",
+   "body": "Signs matter just as much as the product. In $2x^2+x-15$, $ac=-30$, so the split numbers must have opposite signs and add to $1$.\n\nThe correct pair is $6$ and $-5$. Keep each sign attached to its term when you split. $$2x^2+x-15=2x^2+6x-5x-15=2x(x+3)-5(x+3)$$\n\nNow take out the repeated bracket. $$2x(x+3)-5(x+3)=(2x-5)(x+3)$$ Choosing $5$ and $-6$ is the common mistake because they add to $-1$, not $1$."
+  },
+  {
+   "heading": "From factorising to solving",
+   "body": "If the question says solve, you must go beyond brackets and find the roots. For the equation $4x^2+4x-15=0$, we identify that $ac=-60$ and find the useful factor pair $10$ and $-6$.\n\n$$$4x^2+4x-15=4x^2+10x-6x-15=2x(2x+5)-3(2x+5)=(2x-3)(2x+5)$$\n\nNow use the zero product property: if $AB=0$, then $A=0$ or $B=0$. Setting each bracket to zero, $2x-3=0$ or $2x+5=0$, gives the roots $x=\\frac{3}{2}$ or $x=-\\frac{5}{2}$."
+  },
+  {
+   "heading": "Common factor first",
+   "body": "Sometimes the first job is to take out a common factor. In $6x^2-24$, both terms share $6$, so start with\n$$6x^2-24=6(x^2-4)$$\n\nThe bracket still factorises because $x^2-4$ is a difference of two squares. That is the pattern $a^2-b^2=(a-b)(a+b)$.\n$$x^2-4=x^2-2^2=(x-2)(x+2)$$\n\nSo the fully factorised form is\n$$6x^2-24=6(x-2)(x+2)$$\nAlways check whether the bracket can factorise again."
+  },
+  {
+   "heading": "Two-variable quadratics",
+   "body": "The same method works with two variables. In $3x^2-13xy+4y^2$, treat $xy$ like the middle term and use $a=3$, $b=-13$, $c=4$, so $ac=12$.\n\nThe split numbers are $-12$ and $-1$. Splitting the middle term and grouping gives: $$3x^2-13xy+4y^2=3x^2-12xy-xy+4y^2=3x(x-4y)-y(x-4y)$$\n\nThe repeated bracket is $x-4y$, which leads to the final factorised form: $$3x^2-13xy+4y^2=(3x-y)(x-4y)$$ Notice that the brackets must contain $y$ because the last term is $4y^2$."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "For $2x^2+7x+3$, which pair of numbers should you use to split the middle term?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$6$ and $1$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$3$ and $2$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$7$ and $0$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$-6$ and $-1$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Correct because $a \\times c = 2 \\times 3 = 6$, and the numbers must multiply to $6$ and add to $7$. Option B is the common mistake because it multiplies to $6$ but adds to $5$, so it does not recreate the middle term."
+  },
+  {
+   "id": "card-7",
+   "question": "Which pair of numbers should you use to split the middle term in $4x^2-11x-3$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$-12$ and $1$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$-3$ and $4$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$-4$ and $3$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$-6$ and $-2$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Here $ac = 4 \\times (-3) = -12$, so the numbers must multiply to $-12$ and add to $-11$, which only $-12$ and $1$ do. Option B is the common wrong choice because it has the right product but adds to $1$, so the sign of the middle term is wrong."
+  },
+  {
+   "id": "card-12",
+   "question": "Which is the fully factorised form of $6x^2-24$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$6(x-2)(x+2)$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$6(x^2-4)$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$2(3x^2-12)$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$(3x-6)(2x+4)$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The correct answer first takes out the common factor $6$ and then factorises $x^2-4$ as a difference of two squares. Option B is the common wrong answer because it starts correctly but stops too early, so the expression is not fully factorised."
+  },
+  {
+   "id": "card-14",
+   "question": "Which is the correct factorisation of $6x^2+11xy-10y^2$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$(3x-2y)(2x+5y)$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$(3x+2y)(2x-5y)$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$(6x-5y)(x+2y)$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$(3x-5y)(2x+2y)$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Expanding A gives $6x^2+15xy-4xy-10y^2 = 6x^2+11xy-10y^2$, so it matches exactly. Option B is the common wrong one because it gives $6x^2-11xy-10y^2$, so the middle term has the wrong sign."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-7-7-5-factorising-harder-quadratics/lessons",
+ "source_sha256": "6481c8e94bb8c8d6318421898894e8695d048f46e8e9a2509302de56105433f6",
+ "extracted_at": "2026-11-08T19:01:25Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "e359d7bc-0054-47d3-9ada-0e383e5d4682",
+  "topic_id": "fece6c47-2a8f-40c0-88a6-78e7b46df057",
+  "created_at": "2026-05-13T11:53:54.361Z",
+  "updated_at": "2026-05-13T12:00:41.370Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

@@ -1,0 +1,159 @@
+{
+ "topic": "grade-7-7-4-quadratic-formula",
+ "lane": "igcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Recognising a quadratic",
+   "body": "![Parabola on coordinate axes crossing the x-axis at two roots](../assets/001-79bd9315-d08a-44a3-9c6c-707cb47b7078.jpeg)\n\nA quadratic equation has highest power 2, such as $x^2$. Before using the formula, write it in standard form $ax^2+bx+c=0$ with $a \\ne 0$.\n\nThe numbers $a$, $b$, and $c$ are the coefficients, and their signs matter. The roots are the values of $x$ that make the equation true, which are also the points where the parabola crosses the x-axis.",
+   "figure_refs": [
+    "assets/001-79bd9315-d08a-44a3-9c6c-707cb47b7078.jpeg"
+   ]
+  },
+  {
+   "heading": "The quadratic formula and the discriminant",
+   "body": "For any quadratic in standard form, the solutions are given by the quadratic formula.\n$$\nx=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}\n$$\nThe symbol $\\pm$ means you usually get two answers.\n\nThe expression $b^2-4ac$ is called the discriminant. If it is positive, there are two real roots; if it is zero, one repeated root; if it is negative, no real roots.\n\nAlways identify $a$, $b$, and $c$ after rearranging the equation. If $a=0$, the equation is not quadratic, so the formula does not apply. If $b=-4$, then $-b=4$, so brackets help you keep the signs correct."
+  },
+  {
+   "heading": "Worked example to 2 decimal places",
+   "body": "To solve $3x^2+4x-5=0$ to 2 decimal places, we first identify the coefficients. Match them carefully: $a=3$, $b=4$, and $c=-5$.\n$$\nx=\\frac{-4\\pm\\sqrt{4^2-4(3)(-5)}}{2(3)}\n$$\n\nNow simplify the discriminant by calculating the values under the square root. The negative value of $c$ turns the subtraction into addition, so $-4(3)(-5)$ becomes $+60$.\n$$\n4^2-4(3)(-5)=16+60=76,\\qquad x=\\frac{-4\\pm\\sqrt{76}}{6}\n$$\n\nWorking out both cases gives the two decimal roots. Keep full calculator accuracy until you perform the final rounding to 2 decimal places.\n$$\nx=\\frac{-4+\\sqrt{76}}{6}\\approx 0.786,\\qquad x=\\frac{-4-\\sqrt{76}}{6}\\approx -2.120\n$$\nSo to 2 decimal places, $x=0.79$ or $x=-2.12$."
+  },
+  {
+   "heading": "Exact answers in surd form",
+   "body": "Sometimes the question wants exact answers instead of decimals. For the equation $x^2+10x+7=0$, identify the coefficients $a=1$, $b=10$, and $c=7$ to substitute into the quadratic formula.\n$$x=\\frac{-10\\pm\\sqrt{10^2-4(1)(7)}}{2}$$\n\nNext, simplify the discriminant and the surd. You must look for a square factor inside the root to express the value in its simplest form.\n$$10^2-4(1)(7)=100-28=72,\\qquad \\sqrt{72}=\\sqrt{36\\cdot 2}=6\\sqrt{2}$$\n\nSubstitute the simplified surd back into the formula and divide through. This result is in exact form, so do not convert it into decimals unless the question specifically asks.\n$$x=\\frac{-10\\pm 6\\sqrt{2}}{2}=-5\\pm 3\\sqrt{2}$$"
+  },
+  {
+   "heading": "Forming a quadratic from geometry",
+   "body": "![Right-angled triangle with sides labeled x + 3, x + 4, and x + 6](../assets/002-f6a128bc-438d-4fcc-9cdd-506057bd79c8.jpeg)\n\nIn geometry questions, the main job is often to create the quadratic first. For the triangle shown, where $x+6$ is the hypotenuse, Pythagoras gives:\n\n$$ (x+3)^2+(x+4)^2=(x+6)^2 $$\n\nExpand both sides and rearrange to standard form. This process leads us to a quadratic equation that can be solved using the standard formula:\n\n$$ x^2+6x+9+x^2+8x+16=x^2+12x+36 \\Rightarrow x^2+2x-11=0 $$\n\nNow the quadratic formula can be used exactly as before. Note that only $x=-1+2\\sqrt{3}$ is valid, because the other root would make side lengths negative.\n\n$$ x=\\frac{-2\\pm\\sqrt{2^2-4(1)(-11)}}{2}=\\frac{-2\\pm\\sqrt{48}}{2}=-1\\pm 2\\sqrt{3} $$",
+   "figure_refs": [
+    "assets/002-f6a128bc-438d-4fcc-9cdd-506057bd79c8.jpeg"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-3",
+   "question": "After writing $4x^2=7x+2$ in standard form, which coefficients are correct?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$a=4$, $b=-7$, $c=-2$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$a=4$, $b=7$, $c=2$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$a=-4$, $b=7$, $c=2$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$a=7$, $b=2$, $c=4$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Move everything to the left to get $4x^2-7x-2=0$, so $a=4$, $b=-7$, and $c=-2$. Option B is the common mistake of reading the coefficients before rearranging, so the signs of $b$ and $c$ are lost."
+  },
+  {
+   "id": "card-7",
+   "question": "For $3x^2+4x-5=0$, what is the discriminant?",
+   "options": [
+    {
+     "id": "a",
+     "text": "76",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "-44",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "44",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "60",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The discriminant is $b^2-4ac=4^2-4(3)(-5)=16+60=76$. Option B comes from treating $c$ as $5$ instead of $-5$."
+  },
+  {
+   "id": "card-12",
+   "question": "In the triangle example, why is one of the roots rejected?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because it makes one or more side lengths negative",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "Because the quadratic formula only gives one answer",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "Because the discriminant is negative",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Because $x$ must be an integer",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The quadratic formula can give algebraic roots that are not sensible in context. Option A is correct because a negative root would make a side length negative, while option B is wrong because the formula still correctly produces two algebraic solutions."
+  },
+  {
+   "id": "card-14",
+   "question": "Stretch: After expanding and rearranging $(x-2)(2x+3)+5(2x-4)=46$, which quadratic should you solve?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$2x^2+9x-72=0$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$2x^2+9x+72=0$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$2x^2-x-72=0$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$2x^2+9x-26=0$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Expanding gives $2x^2-x-6+10x-20=46$, which simplifies to $2x^2+9x-26=46$. Subtract 46 from both sides to get $2x^2+9x-72=0$, so option D is the common mistake of stopping one step too early."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-7-7-4-quadratic-formula/lessons",
+ "source_sha256": "05e2102554da4f033711a0da4fe7bf6b847fd40a0dceb2fcf7895630804adb03",
+ "extracted_at": "2026-11-08T19:01:24Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "b8814b55-9e2d-43ae-b33e-13970267b25f",
+  "topic_id": "c6b30d74-52c3-4848-a14a-dfe99c51446f",
+  "created_at": "2026-05-13T11:44:16.315Z",
+  "updated_at": "2026-05-13T11:47:40.391Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

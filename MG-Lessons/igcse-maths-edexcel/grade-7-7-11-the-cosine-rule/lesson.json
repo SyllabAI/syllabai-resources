@@ -1,0 +1,163 @@
+{
+ "topic": "grade-7-7-11-the-cosine-rule",
+ "lane": "igcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Included angle and opposite side",
+   "body": "![Triangle labeled A, B and C with sides a, b and c, angle C highlighted as the included angle and side c shown opposite](../assets/001-75003d7d-32a2-46b9-8e3a-784e880f8897.jpeg)\n\nThe Cosine Rule works in any triangle, not only right-angled triangles. It is most useful when you know two sides and the included angle, or all three sides and want an angle.\n\nIn the diagram, angle $C$ lies between sides $a$ and $b$, so it is the included angle. Side $c$ is directly across from angle $C$, so it is the opposite side. To find the side opposite the included angle, use:\n\n$$$c^2 = a^2 + b^2 - 2ab\\cos C$$\n\nIf $C = 90^\\circ$, then $\\cos 90^\\circ = 0$, so the rule reduces to Pythagoras.",
+   "figure_refs": [
+    "assets/001-75003d7d-32a2-46b9-8e3a-784e880f8897.jpeg"
+   ]
+  },
+  {
+   "heading": "Worked example: finding a missing side",
+   "body": "![Triangle with sides 12 cm and 9 cm enclosing a 105 degree angle, with the opposite side labeled x](../assets/002-526e06b6-6769-40b2-b122-e2c2b0d2b641.jpeg)\n\nIn this triangle, the known sides are 12 cm and 9 cm, and the included angle is $105^{\\circ}$. The unknown side $x$ is opposite the $105^{\\circ}$ angle, so we use the side form of the Cosine Rule.\n\nSubstitute the values carefully into the formula:\n$$x^2 = 12^2 + 9^2 - 2 \\times 12 \\times 9 \\times \\cos 105^{\\circ}$$\nThe formula gives $x^2$ first, so do not forget to take the square root at the end of the calculation.\n\nEvaluating the calculation gives:\n$$x^2 \\approx 280.9$$\nTaking the square root gives $x \\approx 16.8 \\, \\text{cm}$ to 1 decimal place. This is sensible because an obtuse angle usually has a relatively long opposite side.",
+   "figure_refs": [
+    "assets/002-526e06b6-6769-40b2-b122-e2c2b0d2b641.jpeg"
+   ]
+  },
+  {
+   "heading": "Finding an angle from three sides",
+   "body": "When all three sides are known, rearrange the Cosine Rule to find an angle. If side $c$ is opposite angle $C$, then\n\n$$$\\cos C = \\frac{a^2 + b^2 - c^2}{2ab}$$\n\nThis version gives a cosine value first, not the angle itself. The side opposite the angle is the one being subtracted in the numerator. After calculating the fraction, use $\\cos^{-1}$ and make sure your calculator is in degrees."
+  },
+  {
+   "heading": "Worked example: finding a missing angle",
+   "body": "In triangle $ABC$, suppose $AB = 6 \\, \\text{m}$, $BC = 8 \\, \\text{m}$ and $AC = 9 \\, \\text{m}$. To find angle $B$, use the two sides touching $B$ and the side opposite $B$.\n\nSubstitute into the rearranged rule:\n$$\\cos B = \\frac{6^2 + 8^2 - 9^2}{2 \\times 6 \\times 8} = \\frac{19}{96} \\approx 0.1979$$\nHere, the 9 m side is subtracted because it is opposite angle $B$.\n\nNow use inverse cosine:\n$$B = \\cos^{-1}(0.1979) \\approx 78.6^{\\circ}$$\nSo angle $B \\approx 79^{\\circ}$ to the nearest degree. If you get a small decimal like 1.37 instead, your calculator is probably in radians."
+  },
+  {
+   "heading": "Cosine Rule with algebra",
+   "body": "Some harder questions use algebraic side lengths, but the structure of the rule stays the same. For sides $x + 1$ and $2x - 1$ with included angle $60^\\circ$ and opposite side $\\sqrt{63}$, start by squaring the opposite side so it becomes 63.\n\nSubstitute these values into the formula:\n$$63 = (x + 1)^2 + (2x - 1)^2 - 2(x + 1)(2x - 1)\\cos 60^\\circ$$\n\nSince $\\cos 60^\\circ = \\frac{1}{2}$, this simplifies to $63 = 3x^2 - 3x + 3$. Rearranging and factoring then gives:\n$$3x^2 - 3x - 60 = 0 \\Rightarrow x^2 - x - 20 = 0 \\Rightarrow (x - 5)(x + 4) = 0$$\n\nSo $x = 5$ or $x = -4$. We must reject $x = -4$ because it would result in negative side lengths; algebra answers in geometry must still describe a real triangle."
+  },
+  {
+   "heading": "Area first, then Cosine Rule",
+   "body": "Sometimes the area formula helps you find the included angle before using the Cosine Rule. If $AB = 18.5 \\, \\text{m}$, $AC = 12.8 \\, \\text{m}$ and the area is $70 \\, \\text{m}^2$, then $$70 = \\frac{1}{2} \\times 18.5 \\times 12.8 \\times \\sin A$$ and so $\\sin A \\approx 0.591$.\n\nBecause the angle at $A$ is acute, take $$A \\approx \\sin^{-1}(0.591) \\approx 36.2^\\circ$$ The word \"acute\" matters, because the same sine value could also match an obtuse angle.\n\nNow use the Cosine Rule for the third side: $$BC^2 = 18.5^2 + 12.8^2 - 2 \\times 18.5 \\times 12.8 \\times \\cos 36.2^\\circ$$ This gives $BC \\approx 11.1 \\, \\text{m}$, so the perimeter is about $42.4 \\, \\text{m}$ to 3 significant figures."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Which situation points straight to the Cosine Rule for finding a side?",
+   "options": [
+    {
+     "id": "a",
+     "text": "You know two sides and the angle between them",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "You know two angles and one side",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "You know two sides and a non-included angle",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "You know one side and one angle in a right-angled triangle",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A is correct because the side formula $c^2 = a^2 + b^2 - 2ab\\cos C$ needs the two sides around the angle and the included angle itself. C is the most common wrong choice, but if the known angle is not between the known sides then the Sine Rule is usually the better starting point."
+  },
+  {
+   "id": "card-7",
+   "question": "In a triangle with $AB = 6 \\, \\text{m}$, $BC = 8 \\, \\text{m}$ and $AC = 9 \\, \\text{m}$, which expression gives $\\cos B$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$\\frac{6^2 + 8^2 - 9^2}{2 \\times 6 \\times 8}$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$\\frac{6^2 + 9^2 - 8^2}{2 \\times 6 \\times 9}$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$\\frac{8^2 + 9^2 - 6^2}{2 \\times 8 \\times 9}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$\\frac{9^2 - 6^2 - 8^2}{2 \\times 6 \\times 8}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A is correct because angle $B$ is between the 6 m and 8 m sides, and the 9 m side is opposite angle $B$, so $9^2$ is the term that gets subtracted. B is the most common wrong choice because it subtracts $8^2$, which treats the wrong side as opposite angle $B$."
+  },
+  {
+   "id": "card-12",
+   "question": "An algebraic Cosine Rule question gives $x = 5$ or $x = -4$. Why is $x = -4$ rejected?",
+   "options": [
+    {
+     "id": "a",
+     "text": "It makes at least one side length negative",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "It changes $\\cos 60^\\circ$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "It means the triangle is right-angled",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Quadratic equations are only allowed one solution",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A is correct because triangle side lengths must be positive. D is the most common wrong idea, but quadratic equations can give two roots and you then reject any value that makes the geometry impossible."
+  },
+  {
+   "id": "card-14",
+   "question": "In the area example, after finding $\\sin A \\approx 0.591$, why is $A \\approx 36.2^\\circ$ chosen rather than the obtuse alternative?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because the question says angle $A$ is acute",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "Because the Cosine Rule cannot be used with obtuse angles",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "Because $\\sin^{-1}$ always gives the larger angle",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Because the perimeter would otherwise be impossible to calculate",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A is correct because one sine value can match two different angles between $0^\\circ$ and $180^\\circ$, so the wording tells you which one fits. B is the most common wrong idea, but the Cosine Rule works for both acute and obtuse triangles."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-7-7-11-the-cosine-rule/lessons",
+ "source_sha256": "14464c0c98ed7efe1b69daf91707f40c71bb4795d7f2432c3be3499db854fe2e",
+ "extracted_at": "2026-11-08T19:01:18Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "b16e9d4f-8f1f-45f3-b2d7-364076fd7aac",
+  "topic_id": "df86feae-07fd-4819-8d0d-c95e3b5a2bf3",
+  "created_at": "2026-05-14T04:38:39.661Z",
+  "updated_at": "2026-05-14T04:39:42.477Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

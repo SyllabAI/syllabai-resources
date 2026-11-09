@@ -1,0 +1,133 @@
+{
+ "topic": "grade-3-3-2-estimating",
+ "lane": "igcse-maths-edexcel",
+ "grade": "3",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What estimating means",
+   "body": "![Three number lines showing 48.7 rounding to 50, 0.196 rounding to 0.2, and 431.1 rounding to 400 to one significant figure](../assets/001-96c43e0f-e7b5-43f2-a52d-e8eeee9071a7.jpeg)\n\nEstimating means giving a sensible answer that is close to the exact value. In IGCSE questions, you usually round awkward numbers first so the arithmetic is quick and mental.\n\nA good default is to round each number to one significant figure. The first significant figure is the first non-zero digit, and the next digit tells you whether to round up or down.\n\nSo $48.7 \\approx 50$, $0.196 \\approx 0.2$, and $431.1 \\approx 400$. Leading zeros are not significant, but zeros between non-zero digits are significant, and zeros at the end of a decimal number are also significant. For example, $10.5$ and $105$ each have 3 significant figures, and $2.30$ has 3 significant figures.",
+   "figure_refs": [
+    "assets/001-96c43e0f-e7b5-43f2-a52d-e8eeee9071a7.jpeg"
+   ]
+  },
+  {
+   "heading": "Estimating multiplication and division",
+   "body": "For a calculation such as $\\frac{a \\times b}{c}$, round first and then substitute the rounded values. The aim is to make the arithmetic easy, not to keep every digit.\n\nFor the expression $\\frac{49.3 \\times 58.7}{9.8}$, we first round each number to one significant figure: $$49.3 \\approx 50,\\quad 58.7 \\approx 60,\\quad 9.8 \\approx 10$$\n\nSubstituting these values into the fraction gives: $$\\frac{49.3 \\times 58.7}{9.8} \\approx \\frac{50 \\times 60}{10}$$ Each rounded number is now a friendly multiple of $10$, which makes the arithmetic much easier.\n\nNow work from the top down. Since $50 \\times 60 = 3000$ and $3000 \\div 10 = 300$, the final estimate for the calculation is $300$."
+  },
+  {
+   "heading": "Addition in the numerator",
+   "body": "If the numerator has addition, still round every awkward number first. Then add the numerator before dividing.\n\nFor $\\frac{7.9 + 22.6}{0.204}$, we round each number: $$7.9 \\approx 8,\\quad 22.6 \\approx 20,\\quad 0.204 \\approx 0.2$$\n\nThen solve the expression, keeping the structure the same after rounding: $$\\frac{7.9 + 22.6}{0.204} \\approx \\frac{8 + 20}{0.2} = \\frac{28}{0.2}$$\n\nDividing by $0.2$ makes the answer bigger because $0.2 = \\frac{1}{5}$. So $28 \\div 0.2 = 28 \\times 5 = 140$, giving an estimate of $140$."
+  },
+  {
+   "heading": "Powers and square roots",
+   "body": "If a calculation includes a power or a root, round to a nearby value that is easy to work with. For example, $97.6$ is close to $100$, so $\\sqrt{97.6}$ is close to $\\sqrt{100} = 10$.\n\nTo estimate the value of $\\frac{19.8 + \\sqrt{97.6}}{0.195}$, we start by rounding each component: $19.8 \\approx 20$, $\\sqrt{97.6} \\approx 10$, and $0.195 \\approx 0.2$. Choosing a nearby square number keeps the root easy to calculate.\n\n$$$\\frac{19.8 + \\sqrt{97.6}}{0.195} \\approx \\frac{20 + 10}{0.2} = \\frac{30}{0.2}$$ Now divide by $0.2$ to find the final result. Since $30 \\div 0.2 = 150$, the estimate for the entire expression is $150$."
+  },
+  {
+   "heading": "Checking calculator answers and tracking size",
+   "body": "An estimate does not need to match the exact answer. It only needs to tell you the rough size, so it is very useful for spotting a calculator mistake.\n\nFor $\\frac{452.8}{15.2 + 4.1^2}$, round the numbers to one significant figure to simplify the expression:\n$$\\frac{500}{20 + 4^2} = \\frac{500}{36}$$\n\nCalculating $500 \\div 36$ gives approximately $14$. This means $14$ is a sensible calculator answer, while a result like $1.4$ is far too small and indicates an error.\n\nTo decide whether an estimate is an overestimate or an underestimate, track each rounding step. In a multiplication, rounding every factor up gives an overestimate, but in a division, a larger denominator makes the final answer smaller."
+  },
+  {
+   "heading": "Estimating in real-life contexts",
+   "body": "Real-life estimating questions often involve money, time, distance, or area. Write the rounded calculation clearly, and keep track of the units.\n\nAs an example, if a phone costs $3.1$ pence per minute for $82$ minutes per day over $31$ days, we can estimate with:\n$$3 \\times 80 \\times 30 = 7200$$\n\nThe total is about 7200 pence, which is £72 after dividing by $100$. For a rectangle $6.18 \\times 4.27$ with a $1.86 \\times 1.86$ square removed, use:\n$$6 \\times 4 - 2^2 = 24 - 4 = 20$$\n\nThe area is about 20 square metres. This is an underestimate because the big rectangle was rounded down and the cut-out square was rounded up."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Round $0.0478$ to one significant figure.",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$0.05$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$0.04$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$0.5$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$0.048$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The first significant figure is 4, because the zeros are only placeholders, and the next digit is 7 so you round up to $0.05$. The common wrong answer $0.04$ comes from ignoring the 7 and rounding down."
+  },
+  {
+   "id": "card-7",
+   "question": "Estimate $\\frac{8.1 + 17.4}{0.19}$.",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$14$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$28$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$140$",
+     "is_correct": true
+    },
+    {
+     "id": "d",
+     "text": "$$280$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Round to $\\frac{8 + 20}{0.2} = \\frac{28}{0.2}$, and dividing by $0.2$ is the same as multiplying by $5$, so the estimate is $140$. The common wrong answer $14$ comes from thinking division by $0.2$ makes the answer smaller, when it actually makes it larger."
+  },
+  {
+   "id": "card-12",
+   "question": "A worker's weekly pay is estimated by rounding £9.82 to £10 and 38 hours to 40, then calculating $10 \\times 40 = 400$. This estimate is...",
+   "options": [
+    {
+     "id": "a",
+     "text": "an overestimate",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "an underestimate",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "exact",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "impossible to tell",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The estimate is an overestimate because both $9.82 \\to 10$ and $38 \\to 40$ were rounded up, so the product becomes larger than the true pay. The common wrong answer \"an underestimate\" often comes from thinking all estimates are smaller, but estimates can be either smaller or larger."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-3-3-2-estimating/lessons",
+ "source_sha256": "3589476b0c107e9ddff0297e64143ce441b8a65beea9c4efbd9a3a9e7f56254c",
+ "extracted_at": "2026-11-08T19:00:32Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "851505cc-bbab-433e-902d-2eda8d97244e",
+  "topic_id": "eda1b498-d70f-43bb-acc2-40e63e2e2923",
+  "created_at": "2026-05-14T03:13:47.386Z",
+  "updated_at": "2026-05-14T03:20:48.224Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

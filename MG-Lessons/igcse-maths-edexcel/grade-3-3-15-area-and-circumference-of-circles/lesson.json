@@ -1,0 +1,136 @@
+{
+ "topic": "grade-3-3-15-area-and-circumference-of-circles",
+ "lane": "igcse-maths-edexcel",
+ "grade": "3",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Parts of a circle",
+   "body": "![Labelled circle showing centre, radius, diameter, circumference, tangent, and a sector](../assets/001-c8944344-55ae-4fdb-9b9e-56b10ce286f3.jpeg)\n\nA circle is a shape where every point on the edge is the same distance from the centre. Before using formulas, make sure you can identify the centre, radius, diameter, circumference, tangent, and sector.\n\nThe diameter is twice the radius, and the radius is half the diameter. Use\n$$d = 2r$$\nand\n$$r = \\frac{d}{2}$$\n\nThe circumference is the distance around the outside, while the area is the space inside the circle. That difference tells you whether a question is really asking for perimeter or for surface coverage.",
+   "figure_refs": [
+    "assets/001-c8944344-55ae-4fdb-9b9e-56b10ce286f3.jpeg"
+   ]
+  },
+  {
+   "heading": "Circumference formulas",
+   "body": "The circumference is the perimeter of a circle. Use $$C = 2\\pi r$$ when you know the radius, and $$C = \\pi d$$ when you know the diameter.\n\nWorked example: if $r = 6.5$ cm, substitute into the radius formula. $$C = 2\\pi × 6.5 = 13\\pi$$ So the exact circumference is $13\\pi$ cm.\n\nIf the question wants a decimal, evaluate only at the end. $$13\\pi \\approx 40.84$$ So the circumference is 40.84 cm to 2 decimal places."
+  },
+  {
+   "heading": "Area formula",
+   "body": "The area is the space inside the circle, so use $$A = \\pi r^2$$ Be careful to square the radius, not the diameter.\n\nWorked example: a circle has diameter 9 m, so first convert to radius. $$r = \\frac{9}{2} = 4.5$$ Then substitute into the area formula.\n\n$$$A = \\pi \\times 4.5^2 = 20.25\\pi \\approx 63.6$$ So the area is $63.6\\text{ m}^2$ to 1 decimal place. If the question asks for an exact answer, stop at $20.25\\pi\\text{ m}^2$."
+  },
+  {
+   "heading": "Semicircles, sectors, and rings",
+   "body": "![Semicircle, 90 degree sector, and annulus with radii and curved edges labelled](../assets/002-9311061a-e248-4c15-8b1b-30fc6fd9c44e.jpeg)\nA semicircle has half the area of a full circle, but its perimeter is not just half the circumference. You must add the straight diameter as well, so:\n\n$$$P_{\\text{semicircle}} = \\pi r + 2r$$\nA sector is a fraction of a circle. For a sector with angle $\\theta$, the properties are calculated by scaling the properties of a full circle based on the angle.\n\n$$$\\text{arc length} = \\frac{\\theta}{360}\\times 2\\pi r$$\nand\n$$\\text{sector area} = \\frac{\\theta}{360}\\times \\pi r^2$$\n\nA ring or annulus is a larger circle with a smaller circle cut out. Its area is determined by finding the difference between the outer and inner areas:\n$$A_{\\text{ring}} = \\pi R^2 - \\pi r^2$$\nwhere $R$ is the outer radius and $r$ is the inner radius.",
+   "figure_refs": [
+    "assets/002-9311061a-e248-4c15-8b1b-30fc6fd9c44e.jpeg"
+   ]
+  },
+  {
+   "heading": "Worked example: area of a ring",
+   "body": "A ring has outer diameter 18 cm and inner radius 7 cm. Start by converting the outer diameter to radius, so $R = 9$ cm.\n\nNow find the areas of the two circles separately. Keep the answers in terms of $\\pi$ until the final step.\n\n$$A_{\\text{large}} = \\pi \\times 9^2 = 81\\pi$$\n$$A_{\\text{small}} = \\pi \\times 7^2 = 49\\pi$$\n\nSubtract the smaller area from the larger area.\n\n$$A_{\\text{ring}} = 81\\pi - 49\\pi = 32\\pi \\approx 100.5$$\n\nSo the exact area is $32\\pi$ cm², or 100.5 cm² to 1 decimal place."
+  },
+  {
+   "heading": "Worked example: square plus semicircle",
+   "body": "A garden is made from a square and a semicircle. The semicircle has radius $5$ m, so its diameter is $10$ m and the square side length is also $10$ m.\n\nFind each area separately. The square area is $10^2 = 100$ m^2 and the semicircle area is calculated as half the area of a full circle:\n\n$$$\\frac{1}{2}\\pi \\times 5^2 \\approx 39.27$$\n\nAdd the areas to get $100 + 39.27 = 139.27$, then divide by the coverage per box ($30$ m^2). Since $139.27 \\div 30 \\approx 4.64$, you must round up, so $5$ boxes are needed."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "A line goes from one side of a circle to the other and passes through the centre. What is it called?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Radius",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "Diameter",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "Tangent",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Sector",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A diameter passes right across the circle through the centre. The most common wrong answer is radius, but a radius only goes from the centre to the edge."
+  },
+  {
+   "id": "card-7",
+   "question": "A circle has diameter 12 cm. What is its area in terms of $\\pi$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$12\\pi$ cm²",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$36\\pi$ cm²",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$144\\pi$ cm²",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$6\\pi$ cm²",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The radius is 6 cm, so $A = \\pi r^2 = \\pi \\times 6^2 = 36\\pi$ cm². The most common wrong answer is $144\\pi$ cm², which comes from squaring the diameter instead of halving it first."
+  },
+  {
+   "id": "card-10",
+   "question": "A three-quarter circle has radius 10 m. What is its perimeter?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$15\\pi$ m",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$15\\pi + 20$ m",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$75\\pi$ m",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$20\\pi$ m",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The curved part is $\\frac{3}{4}$ of the full circumference, calculated as $\\frac{3}{4} \\times 2\\pi \\times 10 = 15\\pi$. Because perimeter means every outside edge, you must also include the two straight radii that enclose the shape ($10 + 10 = 20$ m), resulting in $15\\pi + 20$ m."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-3-3-15-area-and-circumference-of-circles/lessons",
+ "source_sha256": "41d4ce6cf5d632019ae14ec274d8b184b5f89783783b3d62565a335356f7e6ec",
+ "extracted_at": "2026-11-08T19:00:29Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "1ba05a96-b077-4859-9c71-b71bd27b33a2",
+  "topic_id": "a8e44afe-1b4e-4a7a-bd48-87f5bb15c90a",
+  "created_at": "2026-05-14T16:17:07.372Z",
+  "updated_at": "2026-05-14T16:22:28.994Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}
