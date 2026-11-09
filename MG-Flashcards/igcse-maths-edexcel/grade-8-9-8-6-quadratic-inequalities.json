@@ -1,0 +1,589 @@
+{
+ "topic": "grade-8-9-8-6-quadratic-inequalities",
+ "lane": "igcse-maths-edexcel",
+ "grade": "8",
+ "tier": null,
+ "title": "Quadratic Inequalities Flashcards",
+ "cards": [
+  {
+   "id": "8f258d38-673b-4703-99d0-eb9c0435dd75",
+   "card_type": "basic",
+   "front": "What are the roots of a quadratic expression?",
+   "back": "The values of $x$ that make the expression equal to zero.",
+   "options": [
+    {
+     "text": "The values of $x$ that make the expression equal to zero.",
+     "correct": true,
+     "explanation": "A root is an input value for which the quadratic expression equals zero. Solving the corresponding quadratic equation therefore finds all of the expression’s roots."
+    },
+    {
+     "text": "The values of $x$ that make the expression equal to one.",
+     "correct": false,
+     "explanation": "Confusing roots with solutions to an equation whose right-hand side is one changes the problem. Roots specifically make the quadratic expression equal to zero."
+    },
+    {
+     "text": "The values of $x$ that make the expression reach its turning point.",
+     "correct": false,
+     "explanation": "The turning point has one x-coordinate and gives the quadratic’s maximum or minimum, not generally its roots. Roots are the x-values that make the expression zero."
+    },
+    {
+     "text": "The values of $x$ that make the expression equal to its y-intercept.",
+     "correct": false,
+     "explanation": "The y-intercept is the value of the expression when $x=0$, so it does not define the roots. Roots are values of $x$ that make the expression zero."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "edf49886-d077-49a1-abd8-b4f47285356d",
+   "card_type": "basic",
+   "front": "How do the roots of a quadratic relate to its graph?",
+   "back": "They are the points where the curve crosses or touches the x-axis.",
+   "options": [
+    {
+     "text": "They are the points where the curve crosses or touches the x-axis.",
+     "correct": true,
+     "explanation": "Every point on the x-axis has $y=0$. Therefore, the roots occur where the quadratic graph crosses or just touches the x-axis."
+    },
+    {
+     "text": "They are the points where the curve crosses or touches the y-axis.",
+     "correct": false,
+     "explanation": "The graph meets the y-axis when $x=0$, which gives the y-intercept rather than the roots. Roots occur where the curve crosses or touches the x-axis."
+    },
+    {
+     "text": "They are the points where the curve reaches its maximum or minimum.",
+     "correct": false,
+     "explanation": "A maximum or minimum is the parabola’s turning point, not its roots. Roots are found where the curve crosses or touches the x-axis."
+    },
+    {
+     "text": "They are the points where the curve crosses its line of symmetry.",
+     "correct": false,
+     "explanation": "The curve meets its line of symmetry at the turning point, which need not lie on the x-axis. Roots occur where the curve crosses or touches the x-axis."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "5fa5484d-c459-4ff6-beff-6c473e0a42ba",
+   "card_type": "basic",
+   "front": "How do the roots of a quadratic function help solve an inequality?",
+   "back": "They split the number line into regions where the expression is either positive or negative.",
+   "options": [
+    {
+     "text": "They split the number line into regions where the expression is either positive or negative.",
+     "correct": true,
+     "explanation": "The expression can change sign only at its roots. These boundary values divide the number line into regions where the quadratic remains positive or remains negative."
+    },
+    {
+     "text": "They split the number line into regions where the expression is either increasing or decreasing.",
+     "correct": false,
+     "explanation": "Increasing and decreasing behaviour is determined by the turning point, not by both roots. The roots divide the number line into regions where the expression is positive or negative."
+    },
+    {
+     "text": "They split the number line into regions where the expression is either even or odd.",
+     "correct": false,
+     "explanation": "Even and odd describe types of functions or integers, not the sign of a quadratic over intervals. Roots create regions where the expression is positive or negative."
+    },
+    {
+     "text": "They split the number line into regions where the expression is either linear or quadratic.",
+     "correct": false,
+     "explanation": "A quadratic expression remains quadratic throughout its domain; its algebraic type does not change at the roots. The roots instead separate positive and negative regions."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "8909a7ca-196b-4963-96b9-e34ded5d5666",
+   "card_type": "cloze",
+   "front": "A quadratic with a positive leading coefficient forms a U-shaped curve called a [ ___ ].",
+   "back": "A quadratic with a positive leading coefficient forms a U-shaped curve called a parabola.",
+   "options": [
+    {
+     "text": "parabola",
+     "correct": true,
+     "explanation": "The graph of every quadratic function is a parabola. A positive leading coefficient makes its arms rise on both sides, producing a U-shaped curve."
+    },
+    {
+     "text": "hyperbola",
+     "correct": false,
+     "explanation": "A hyperbola is associated with reciprocal-type relationships, not quadratic functions. A quadratic with a positive leading coefficient produces an upward-opening parabola."
+    },
+    {
+     "text": "ellipse",
+     "correct": false,
+     "explanation": "An ellipse is a closed conic section rather than the graph of a quadratic function in this form. The U-shaped quadratic curve is called a parabola."
+    },
+    {
+     "text": "circle",
+     "correct": false,
+     "explanation": "A circle is a closed curve and is not the graph of a quadratic function $y=ax^2+bx+c$. Such a function forms a parabola."
+    }
+   ]
+  },
+  {
+   "id": "d9486159-2654-4d7c-8066-12a16aeca898",
+   "card_type": "basic",
+   "front": "For an upward-opening parabola, where is the quadratic negative ($<0$)?",
+   "back": "Between the two roots.",
+   "options": [
+    {
+     "text": "Between the two roots.",
+     "correct": true,
+     "explanation": "An upward-opening parabola lies below the x-axis between two distinct roots. Since points below the x-axis have negative y-values, the quadratic is negative there."
+    },
+    {
+     "text": "Outside the two roots.",
+     "correct": false,
+     "explanation": "This reverses the sign regions for an upward-opening parabola. The outer tails lie above the x-axis, while the quadratic is negative between the two roots."
+    },
+    {
+     "text": "At the two roots.",
+     "correct": false,
+     "explanation": "At each root, the quadratic equals zero rather than being negative. For an upward-opening parabola with two roots, negative values occur strictly between them."
+    },
+    {
+     "text": "To the right of the two roots.",
+     "correct": false,
+     "explanation": "To the right of both roots, an upward-opening parabola is on its rising outer tail and is positive. It is negative between the two roots."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "e702aa4f-f104-4eb4-8bd7-d03cfb72e518",
+   "card_type": "basic",
+   "front": "For an upward-opening parabola, where is the quadratic positive ($>0$)?",
+   "back": "Outside the two roots (the two separate tails).",
+   "options": [
+    {
+     "text": "Outside the two roots (the two separate tails).",
+     "correct": true,
+     "explanation": "An upward-opening parabola lies above the x-axis on both outer tails. Therefore, the quadratic is positive to the left of the smaller root and right of the larger root."
+    },
+    {
+     "text": "Between the two roots (the single central region).",
+     "correct": false,
+     "explanation": "This reverses the signs for an upward-opening parabola. The curve lies below the x-axis between its roots and above it on the two outer tails."
+    },
+    {
+     "text": "At the two roots (the two boundary points).",
+     "correct": false,
+     "explanation": "At the roots, the quadratic equals zero, so it is not positive under a strict $>0$ inequality. Positive values occur outside the two roots."
+    },
+    {
+     "text": "Inside the two roots (the region around the vertex).",
+     "correct": false,
+     "explanation": "For an upward-opening parabola with two roots, the vertex and central region lie below the x-axis. The quadratic is positive outside the roots, on both tails."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "22dcafd5-c91d-432d-906c-bba81604da89",
+   "card_type": "cloze",
+   "front": "If the inequality sign is $\\le$ or $\\ge$, the final solution must [ ___ ] the boundary roots.",
+   "back": "If the inequality sign is $\\le$ or $\\ge$, the final solution must include the boundary roots.",
+   "options": [
+    {
+     "text": "include",
+     "correct": true,
+     "explanation": "The symbols $le$ and $ge$ allow equality as well as inequality. Because the expression equals zero at each boundary root, those roots must be included."
+    },
+    {
+     "text": "exclude",
+     "correct": false,
+     "explanation": "Excluding the roots is appropriate for strict signs $$, where equality is not allowed. The signs $le$ and $ge$ require the boundary roots to be included."
+    },
+    {
+     "text": "reverse",
+     "correct": false,
+     "explanation": "Reversing boundary roots is not a valid step in solving a quadratic inequality. The equality contained in $le$ or $ge$ means the roots must be included."
+    },
+    {
+     "text": "ignore",
+     "correct": false,
+     "explanation": "The roots cannot be ignored because they mark the boundaries between sign regions. With $le$ or $ge$, equality is allowed, so the roots are included."
+    }
+   ]
+  },
+  {
+   "id": "5dd801c7-a72f-4ba2-9496-c55b8331e3ff",
+   "card_type": "basic",
+   "front": "Why is it incorrect to write $x -2$ as one combined inequality?",
+   "back": "They represent two separate regions on the number line; they must be joined by \"or\".",
+   "options": [
+    {
+     "text": "They represent two separate regions on the number line; they must be joined by \"or\".",
+     "correct": true,
+     "explanation": "The inequalities describe values on opposite outer sides of two boundaries. A value can satisfy either region, so the two conditions are connected using “or”."
+    },
+    {
+     "text": "They represent one continuous region on the number line; they must be joined by \"and\".",
+     "correct": false,
+     "explanation": "This mistakes two outward-pointing inequalities for a single interval. The regions $x-2$ are separate and must be connected using “or”."
+    },
+    {
+     "text": "They represent two separate regions on the number line; they must be joined by \"and\".",
+     "correct": false,
+     "explanation": "Using “and” would require one value to be less than $-5$ and greater than $-2$ simultaneously, which is impossible. Separate alternative regions require “or”."
+    },
+    {
+     "text": "They represent the same single region on the number line; they must be joined by \"or\".",
+     "correct": false,
+     "explanation": "Although “or” is the correct connector, the regions are not the same: one lies below $-5$ and the other above $-2$. They are two separate regions."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "b9de1d2c-f4fc-48e4-b79d-e3826b2615a1",
+   "card_type": "basic",
+   "front": "What must you do to the inequality sign when multiplying or dividing by a negative number?",
+   "back": "Reverse the direction of the sign.",
+   "options": [
+    {
+     "text": "Reverse the direction of the sign.",
+     "correct": true,
+     "explanation": "Multiplication or division by a negative number reverses the order of the two quantities, so the inequality sign must point in the opposite direction."
+    },
+    {
+     "text": "Keep the direction of the sign.",
+     "correct": false,
+     "explanation": "Keeping the sign is appropriate only when multiplying or dividing by a positive number. With a negative multiplier or divisor, the inequality sign must be reversed."
+    },
+    {
+     "text": "Remove the direction of the sign.",
+     "correct": false,
+     "explanation": "An inequality sign cannot be removed during this operation. Multiplying or dividing both sides by a negative number requires reversing the sign’s direction."
+    },
+    {
+     "text": "Square both sides of the sign.",
+     "correct": false,
+     "explanation": "Squaring is not the required rule and can change which values satisfy an inequality. The correct step is to reverse the inequality sign."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "7690cb28-6f99-48a5-86c4-e251a0733d77",
+   "card_type": "cloze",
+   "front": "To solve a quadratic inequality, first rearrange it into [ ___ ] (where one side is zero).",
+   "back": "To solve a quadratic inequality, first rearrange it into standard form (where one side is zero).",
+   "options": [
+    {
+     "text": "standard form",
+     "correct": true,
+     "explanation": "Standard form places all terms on one side, giving an inequality such as $ax^2+bx+c>0$. This allows the roots and sign regions to be identified."
+    },
+    {
+     "text": "linear form",
+     "correct": false,
+     "explanation": "A quadratic expression cannot generally be rewritten as a linear one without losing the $x^2$ term. It should first be rearranged into standard form."
+    },
+    {
+     "text": "factorised form",
+     "correct": false,
+     "explanation": "Factorised form can be useful later, but it is not always available. First rearrange into standard form with zero on one side."
+    },
+    {
+     "text": "completed-square form",
+     "correct": false,
+     "explanation": "Completed-square form is one possible solving method, but it is not the initial required arrangement. The inequality should first be put into standard form."
+    }
+   ]
+  },
+  {
+   "id": "351c3b08-ca02-4880-8ecb-d2c28c18c124",
+   "card_type": "basic",
+   "front": "Solve $x^2 \\le 64$.",
+   "back": "$$-8 \\le x \\le 8$",
+   "options": [
+    {
+     "text": "$$-8 \\le x \\le 8$",
+     "correct": true,
+     "explanation": "The condition $x^2\\le64$ means $|x|\\le8$, so $x$ can be any value from $-8$ to $8$, including both endpoints."
+    },
+    {
+     "text": "$$x \\le -8$ or $x \\ge 8$",
+     "correct": false,
+     "explanation": "This selects values whose squares are at least $64$, reversing the required region. For $x^2\\le64$, the solution lies between the roots: $-8\\le x\\le8$."
+    },
+    {
+     "text": "$$0 \\le x \\le 8$",
+     "correct": false,
+     "explanation": "Restricting the solution to non-negative values ignores numbers such as $-5$, whose square is also below $64$. The full solution is $-8\\le x\\le8$."
+    },
+    {
+     "text": "$$-64 \\le x \\le 64$",
+     "correct": false,
+     "explanation": "This uses $64$ itself as each boundary instead of taking its square roots. Since $\\sqrt{64}=8$, the correct interval is $-8\\le x\\le8$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "8e2cd10a-9c24-4834-bcf6-2eedc1852daa",
+   "card_type": "cloze",
+   "front": "Solving $x^2 \\le 64$ by writing only $x \\le 8$ is a mistake because it ignores [ ___ ] that also square to 64.",
+   "back": "Solving $x^2 \\le 64$ by writing only $x \\le 8$ is a mistake because it ignores negative values that also square to 64.",
+   "options": [
+    {
+     "text": "negative values",
+     "correct": true,
+     "explanation": "Both positive and negative numbers can have the same positive square. Values between $-8$ and $0$ must therefore be included alongside values between $0$ and $8$."
+    },
+    {
+     "text": "fractional values",
+     "correct": false,
+     "explanation": "Fractions are included in the interval, but they are not what the one-sided answer specifically misses. It ignores negative values, which can also square to positive numbers."
+    },
+    {
+     "text": "values above 8",
+     "correct": false,
+     "explanation": "Values above $8$ have squares greater than $64$, so they do not satisfy the inequality. The omitted valid solutions are the negative values down to $-8$."
+    },
+    {
+     "text": "imaginary values",
+     "correct": false,
+     "explanation": "This inequality is being solved over the real numbers, so imaginary values are irrelevant. The mistake is failing to include negative values whose squares are at most $64$."
+    }
+   ]
+  },
+  {
+   "id": "d17554a4-6fc7-4c6d-bee1-dfd609d8e570",
+   "card_type": "basic",
+   "front": "How do you solve a quadratic inequality that cannot be factorised?",
+   "back": "Use the quadratic formula to find the roots.Determine the region (inside/outside).Estimate values if integers are required.",
+   "options": [
+    {
+     "text": "Use the quadratic formula to find the roots.Determine the region (inside/outside).Estimate values if integers are required.",
+     "correct": true,
+     "explanation": "The quadratic formula finds roots even when factorisation is unavailable. The roots divide the number line into sign regions, after which any required integer solutions can be identified."
+    },
+    {
+     "text": "Use the linear formula to find the roots.Determine the region (inside/outside).Estimate values if integers are required.",
+     "correct": false,
+     "explanation": "A linear method cannot account for the $x^2$ term and will not find the quadratic’s roots. Use the quadratic formula, then select the appropriate sign region."
+    },
+    {
+     "text": "Use the discriminant to find the roots.Determine the region (inside/outside).Round every root to the nearest integer.",
+     "correct": false,
+     "explanation": "The discriminant indicates how many real roots exist but does not give their values by itself. Use the quadratic formula, and test integer boundaries rather than simply rounding roots."
+    },
+    {
+     "text": "Use the constant term to find the roots.Select the region between the roots.Include every endpoint automatically.",
+     "correct": false,
+     "explanation": "The constant term alone does not determine the roots. The required region may be inside or outside, and endpoints are included only for non-strict inequality signs."
+    }
+   ],
+   "points": 3
+  },
+  {
+   "id": "ab53365c-b30d-499a-99c9-07039f51bf82",
+   "card_type": "basic",
+   "front": "Which integers satisfy $1.59 < x < 4.41$?",
+   "back": "2, 3, and 4.",
+   "options": [
+    {
+     "text": "2, 3, and 4.",
+     "correct": true,
+     "explanation": "The integers strictly greater than $1.59$ and strictly less than $4.41$ are $2$, $3$, and $4$. Neither decimal boundary is an integer."
+    },
+    {
+     "text": "1, 2, 3, and 4.",
+     "correct": false,
+     "explanation": "Including $1$ comes from rounding the lower boundary down, but $1$ is not greater than $1.59$. The satisfying integers are $2$, $3$, and $4$."
+    },
+    {
+     "text": "2, 3, 4, and 5.",
+     "correct": false,
+     "explanation": "Including $5$ comes from rounding the upper boundary up, but $5$ is not less than $4.41$. Only $2$, $3$, and $4$ satisfy both bounds."
+    },
+    {
+     "text": "2 and 3.",
+     "correct": false,
+     "explanation": "Omitting $4$ incorrectly rounds the upper boundary down and excludes a valid integer. Since $4<4.41$, the solutions are $2$, $3$, and $4$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "e36ad57f-3c50-4be8-a046-42853f9834d8",
+   "card_type": "basic",
+   "front": "What does it mean if a quadratic has no real roots in the context of an inequality?",
+   "back": "The graph never crosses the x-axis; it is either always positive or always negative.",
+   "options": [
+    {
+     "text": "The graph never crosses the x-axis; it is either always positive or always negative.",
+     "correct": true,
+     "explanation": "With no real roots, the quadratic graph has no x-intercepts. Because it is continuous, it remains entirely above or entirely below the x-axis."
+    },
+    {
+     "text": "The graph touches the x-axis once; it changes from positive to negative there.",
+     "correct": false,
+     "explanation": "Touching the x-axis once describes a repeated real root, not no real roots, and the sign does not change there. With no roots, the graph never meets the x-axis."
+    },
+    {
+     "text": "The graph crosses the x-axis twice; it is positive between the two roots.",
+     "correct": false,
+     "explanation": "Crossing twice means the quadratic has two distinct real roots. With no real roots, it never crosses the x-axis and keeps the same sign for all real $x$."
+    },
+    {
+     "text": "The graph never crosses the x-axis; it must always have positive values.",
+     "correct": false,
+     "explanation": "No real roots means the sign is constant, but it does not guarantee that the graph is positive. It may lie entirely above or entirely below the x-axis."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "c90971dd-0f47-43a5-8244-2deefb160a15",
+   "card_type": "basic",
+   "front": "How do you check a quadratic with no roots to see if it satisfies $f(x) > 0$?",
+   "back": "Test a single value (e.g., $x=0$); if it works, the inequality is true for all values of $x$.",
+   "options": [
+    {
+     "text": "Test a single value (e.g., $x=0$); if it works, the inequality is true for all values of $x$.",
+     "correct": true,
+     "explanation": "A quadratic with no real roots cannot change sign because it never crosses the x-axis. If one tested value is positive, every real input gives a positive result."
+    },
+    {
+     "text": "Test a single value (e.g., $x=0$); if it works, the inequality is true for positive values of $x$.",
+     "correct": false,
+     "explanation": "The conclusion is unnecessarily restricted to positive inputs. Since a quadratic with no roots has a constant sign, one positive result establishes $f(x)>0$ for all real $x$."
+    },
+    {
+     "text": "Find both real roots and test between them; if it works, the inequality is true for all values of $x$.",
+     "correct": false,
+     "explanation": "A quadratic described as having no real roots has no real boundaries to find or test between. Test one input; its sign applies for all real values of $x$."
+    },
+    {
+     "text": "Test several values (e.g., $x=0$); if they work, the inequality is true for those values of $x$ only.",
+     "correct": false,
+     "explanation": "Testing several isolated values misses the significance of having no roots. The graph cannot change sign, so one positive test value proves the inequality for all real $x$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "9a467f8d-ffb8-4ed7-a4cc-53ba28e72824",
+   "card_type": "cloze",
+   "front": "An [ ___ ] is a whole number, such as -1, 0, or 1.",
+   "back": "An integer is a whole number, such as -1, 0, or 1.",
+   "options": [
+    {
+     "text": "integer",
+     "correct": true,
+     "explanation": "An integer is a whole number with no fractional or decimal part. Integers include negative whole numbers, zero, and positive whole numbers."
+    },
+    {
+     "text": "equation",
+     "correct": false,
+     "explanation": "An equation is a mathematical statement showing that two expressions are equal, not a type of whole number. The correct term for numbers such as -1, 0, and 1 is integer."
+    },
+    {
+     "text": "exponent",
+     "correct": false,
+     "explanation": "An exponent indicates the power to which a number or variable is raised; it does not classify whole numbers. A whole number that may be negative, zero, or positive is an integer."
+    },
+    {
+     "text": "inequality",
+     "correct": false,
+     "explanation": "An inequality compares expressions using signs such as $$. The mathematical term for a whole number, including negative values and zero, is integer."
+    }
+   ]
+  },
+  {
+   "id": "3d63b4e0-3daa-4774-8add-55478d97aea2",
+   "card_type": "basic",
+   "front": "State the three main steps to solve a quadratic inequality in an exam.",
+   "back": "Rearrange so one side is zero.Find the roots (boundary values).Identify the correct region (inside/outside).",
+   "options": [
+    {
+     "text": "Rearrange so one side is zero.Find the roots (boundary values).Identify the correct region (inside/outside).",
+     "correct": true,
+     "explanation": "The roots divide the number line into regions where the quadratic has different signs. After rearranging to zero, select the region that satisfies the original inequality."
+    },
+    {
+     "text": "Rearrange so one side is zero.Find the turning point of the graph.Identify the correct region (inside/outside).",
+     "correct": false,
+     "explanation": "The turning point does not usually provide the boundary values of the solution. After rearranging to zero, find the roots and then identify which region satisfies the inequality."
+    },
+    {
+     "text": "Rearrange so $x^2$ is positive.Find the roots (boundary values).Always select the inside region.",
+     "correct": false,
+     "explanation": "The solution is not always between the roots; it depends on the inequality sign and leading coefficient. Rearrange to zero, find the roots, then determine the correct inside or outside region."
+    },
+    {
+     "text": "Rearrange so one side is zero.Find the axis of symmetry.Use it as the only boundary.",
+     "correct": false,
+     "explanation": "The axis of symmetry is not generally a boundary of an inequality solution. The roots are the boundary values, and testing the resulting regions identifies the solution."
+    }
+   ],
+   "points": 3
+  },
+  {
+   "id": "8d56c5ba-bf10-4c87-aa82-8895bde968be",
+   "card_type": "basic",
+   "front": "Solve $(x-2)(x-6) < 0$ by testing regions.",
+   "back": "$$2 < x < 6$",
+   "options": [
+    {
+     "text": "$$2 < x < 6$",
+     "correct": true,
+     "explanation": "The factors have opposite signs between the roots 2 and 6, making their product negative. The strict inequality excludes both boundary values."
+    },
+    {
+     "text": "$$x 6$",
+     "correct": false,
+     "explanation": "Outside the roots, both factors have the same sign, so their product is positive. The product is negative only between the roots, giving $2 < x < 6$."
+    },
+    {
+     "text": "$$2 \\le x \\le 6$",
+     "correct": false,
+     "explanation": "Including 2 and 6 treats the inequality as non-strict. At either root the product equals zero, so the strict inequality gives $2 < x < 6$."
+    },
+    {
+     "text": "$$-6 < x < -2$",
+     "correct": false,
+     "explanation": "Negating the roots is a sign error: $(x-2)=0$ gives $x=2$, while $(x-6)=0$ gives $x=6$. The negative region is $2 < x < 6$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "94fa4107-8191-48b9-a980-b684d5aeaafc",
+   "card_type": "cloze",
+   "front": "The coefficient of $x^2$ is called the [ ___ ].",
+   "back": "The coefficient of $x^2$ is called the leading coefficient.",
+   "options": [
+    {
+     "text": "leading coefficient",
+     "correct": true,
+     "explanation": "The leading coefficient is the coefficient of the highest-power term. In a quadratic expression, the highest power is $x^2$, so its coefficient is the leading coefficient."
+    },
+    {
+     "text": "constant term",
+     "correct": false,
+     "explanation": "The constant term is the term containing no variable, not the coefficient of $x^2$. In a quadratic, the coefficient of the highest-power term is the leading coefficient."
+    },
+    {
+     "text": "linear coefficient",
+     "correct": false,
+     "explanation": "The linear coefficient is the coefficient of the $x$ term, whose power is one. The coefficient of the quadratic $x^2$ term is the leading coefficient."
+    },
+    {
+     "text": "independent variable",
+     "correct": false,
+     "explanation": "The independent variable is the input variable, usually $x$, rather than a numerical coefficient. The coefficient multiplying $x^2$ is called the leading coefficient."
+    }
+   ]
+  }
+ ],
+ "card_count": 20,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-8-9-8-6-quadratic-inequalities/flashcards",
+ "source_sha256": "79f11e803a775555412fc5f38850de173581dfc6f4d521ca9f8d790bad26f917",
+ "extracted_at": "2026-11-08T19:00:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-2 run-001)",
+ "task_id": "T-MG-FC-2"
+}

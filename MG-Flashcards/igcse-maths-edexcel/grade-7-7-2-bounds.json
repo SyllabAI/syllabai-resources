@@ -1,0 +1,102 @@
+{
+ "topic": "grade-7-7-2-bounds",
+ "lane": "igcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "title": "Bounds Flashcards",
+ "cards": [
+  {
+   "id": "39c96467-3c92-4e09-a035-6273eecbbdf7",
+   "card_type": "basic",
+   "front": "What is the lower bound of a rounded measurement?",
+   "back": "The smallest possible value the original number could have been before rounding.",
+   "options": [
+    {
+     "text": "The smallest possible value the original number could have been before rounding.",
+     "correct": true,
+     "explanation": "The lower bound is the least value that would round to the stated measurement. It is found by subtracting half the rounding unit from the rounded value."
+    },
+    {
+     "text": "The largest possible value the original number could have been before rounding.",
+     "correct": false,
+     "explanation": "This describes the upper bound rather than the lower bound. The lower bound is the smallest possible original value and is found by subtracting half the rounding unit."
+    },
+    {
+     "text": "The smallest rounded value that can be obtained from the original number.",
+     "correct": false,
+     "explanation": "This reverses the relationship by treating the original number as known. The lower bound is the smallest possible original value that could have produced the given rounded measurement."
+    },
+    {
+     "text": "The exact value the original number had before rounding.",
+     "correct": false,
+     "explanation": "Rounding does not reveal one exact original value; it gives a range of possibilities. The lower bound is the smallest possible value within that range."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "29fa8dbb-eb1a-4022-876f-6b0326ea9eae",
+   "card_type": "basic",
+   "front": "How is the interval for a rounded value $x$ written using the lower bound ($L$) and upper bound ($U$)?",
+   "back": "$$L \\le x < U$",
+   "options": [
+    {
+     "text": "$$L \\le x < U$",
+     "correct": true,
+     "explanation": "The lower bound is included because it rounds to the stated value, while the upper bound is excluded because it rounds to the next value."
+    },
+    {
+     "text": "$$L < x \\le U$",
+     "correct": false,
+     "explanation": "This reverses which endpoint is included. The lower bound is possible but the upper bound is not, so the correct interval is $L \\le x < U$."
+    },
+    {
+     "text": "$$L \\le x \\le U$",
+     "correct": false,
+     "explanation": "Including both endpoints wrongly treats the upper bound as a possible value. The upper bound rounds to the next value, so the correct interval is $L \\le x < U$."
+    },
+    {
+     "text": "$$L < x < U$",
+     "correct": false,
+     "explanation": "Excluding both endpoints wrongly removes the lower bound, even though it rounds to the stated measurement. The correct interval is $L \\le x < U$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "b7c307d4-716f-4f69-8e5e-5f5a930f053f",
+   "card_type": "basic",
+   "front": "What is the general rule for finding the half-unit to calculate bounds?",
+   "back": "Halve the size of the unit used for rounding.",
+   "options": [
+    {
+     "text": "Halve the size of the unit used for rounding.",
+     "correct": true,
+     "explanation": "The rounding boundaries lie halfway between consecutive rounded values. Therefore, half the rounding unit is subtracted for the lower bound and added for the upper bound."
+    },
+    {
+     "text": "Double the size of the unit used for rounding.",
+     "correct": false,
+     "explanation": "Doubling the rounding unit makes the interval far too wide. The boundaries are halfway between consecutive rounded values, so the unit used for rounding must be halved."
+    },
+    {
+     "text": "Square the size of the unit used for rounding.",
+     "correct": false,
+     "explanation": "Squaring the rounding unit is unrelated to the midpoint between rounded values and may also change the units. The correct rule is to halve the rounding unit."
+    },
+    {
+     "text": "Subtract the size of the unit used for rounding.",
+     "correct": false,
+     "explanation": "Subtracting a whole rounding unit does not find the distance to both boundaries. First halve the rounding unit, then subtract it for the lower bound and add it for the upper bound."
+    }
+   ],
+   "points": 1
+  }
+ ],
+ "card_count": 3,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-7-7-2-bounds/flashcards",
+ "source_sha256": "68265b04eaacbee15f47c2537780824910ff4efad5fbeac3371cc41d969af6c9",
+ "extracted_at": "2026-11-08T19:00:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-2 run-001)",
+ "task_id": "T-MG-FC-2"
+}

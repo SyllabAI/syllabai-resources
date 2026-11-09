@@ -1,0 +1,620 @@
+{
+ "topic": "grade-4-4-8-expanding-and-factorising",
+ "lane": "igcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "title": "Expanding and Factorising Flashcards",
+ "cards": [
+  {
+   "id": "968e795f-42c9-4091-a5ab-e7a6d5ced6a7",
+   "card_type": "basic",
+   "front": "In the term $7x$, what is the coefficient?",
+   "back": "7",
+   "options": [
+    {
+     "text": "7",
+     "correct": true,
+     "explanation": "The coefficient is the numerical factor multiplying the variable. Since $7x$ means $7 \\times x$, its coefficient is 7."
+    },
+    {
+     "text": "-7",
+     "correct": false,
+     "explanation": "A negative coefficient would make the term $-7x$, not $7x$. The numerical factor multiplying $x$ here is positive, so the coefficient is 7."
+    },
+    {
+     "text": "1",
+     "correct": false,
+     "explanation": "This confuses the implicit coefficient of $x$ alone with the coefficient in $7x$. The written numerical factor multiplying $x$ is 7."
+    },
+    {
+     "text": "49",
+     "correct": false,
+     "explanation": "This incorrectly squares the numerical factor rather than identifying it. The coefficient is simply the number multiplying $x$, which is 7."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "0c0c7f82-4ea4-4155-b5b2-c2cbc8305f93",
+   "card_type": "basic",
+   "front": "Why are $x$ and $x^2$ not like terms?",
+   "back": "They do not have the exact same variable part ($x^2$ is $x$ multiplied by itself).",
+   "options": [
+    {
+     "text": "They do not have the exact same variable part ($x^2$ is $x$ multiplied by itself).",
+     "correct": true,
+     "explanation": "Like terms must contain identical variables raised to identical powers. Here, $x$ has exponent 1 while $x^2$ has exponent 2, so they cannot be collected."
+    },
+    {
+     "text": "They do not have the exact same coefficient ($x^2$ has a coefficient of $2$).",
+     "correct": false,
+     "explanation": "Both terms have an implicit coefficient of 1, so their coefficients are not different. They are unlike because their variable parts, $x$ and $x^2$, have different powers."
+    },
+    {
+     "text": "They do not contain the exact same variable ($x^2$ uses a different variable).",
+     "correct": false,
+     "explanation": "Both terms use the same variable, $x$. They are not like terms because $x$ and $x^2$ contain different powers of that variable."
+    },
+    {
+     "text": "They do not have a numerical coefficient ($x$ and $x^2$ contain no numbers).",
+     "correct": false,
+     "explanation": "Both terms do have numerical coefficients: each coefficient is implicitly 1. The reason they are unlike is that their variable parts have different exponents."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "bbd91fc1-d3b4-4d96-9724-030995d59871",
+   "card_type": "basic",
+   "front": "Simplify $7x + 5 + 4x - 2 - 3x$ by collecting like terms.",
+   "back": "$$8x + 3$",
+   "options": [
+    {
+     "text": "$$8x + 3$",
+     "correct": true,
+     "explanation": "The variable terms combine to $(7+4-3)x=8x$, while the constants combine to $5-2=3$. Therefore the simplified expression is $8x+3$."
+    },
+    {
+     "text": "$$11x + 3$",
+     "correct": false,
+     "explanation": "This omits the subtraction of $3x$ when collecting variable terms. Including every like term gives $(7+4-3)x=8x$, and the constants give 3."
+    },
+    {
+     "text": "$$8x + 7$",
+     "correct": false,
+     "explanation": "This adds 5 and 2 instead of respecting the negative sign before 2. The constants total $5-2=3$, while the variable terms total $8x$."
+    },
+    {
+     "text": "$$8x - 3$",
+     "correct": false,
+     "explanation": "This reverses the sign of the constant total. Since $5-2=3$, not $-3$, and the variable terms total $8x$, the result is $8x+3$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "e48977fe-02db-4b20-a426-95c2d49c916c",
+   "card_type": "cloze",
+   "front": "The distributive law for expanding brackets is $k(a + b) = $ $\\text{[...]}$.",
+   "back": "The distributive law for expanding brackets is $k(a + b) = $ $\\boxed{ka + kb}$.",
+   "options": [
+    {
+     "text": "$$ka + kb$",
+     "correct": true,
+     "explanation": "The factor $k$ multiplies each term inside the bracket. Multiplying it by both $a$ and $b$ gives $ka+kb$."
+    },
+    {
+     "text": "$$kab$",
+     "correct": false,
+     "explanation": "Multiplying $a$ and $b$ together changes addition into multiplication. Distribution requires multiplying $k$ by each separate term, giving $ka+kb$."
+    },
+    {
+     "text": "$$ka + b$",
+     "correct": false,
+     "explanation": "This distributes $k$ to $a$ but leaves $b$ unchanged. The outside factor must multiply both terms, so the expansion is $ka+kb$."
+    },
+    {
+     "text": "$$k + a + b$",
+     "correct": false,
+     "explanation": "This treats multiplication by $k$ as adding $k$ to the bracket’s terms. Distribution instead multiplies both terms by $k$, producing $ka+kb$."
+    }
+   ]
+  },
+  {
+   "id": "c06bbbd6-5871-4308-8227-fb35eacd3329",
+   "card_type": "basic",
+   "front": "What is the result of expanding $8(4s - 3)$?",
+   "back": "$$32s - 24$",
+   "options": [
+    {
+     "text": "$$32s - 24$",
+     "correct": true,
+     "explanation": "Distribute 8 across both terms: $8\\times4s=32s$ and $8\\times(-3)=-24$. Combining these products gives $32s-24$."
+    },
+    {
+     "text": "$$32s - 3$",
+     "correct": false,
+     "explanation": "This multiplies only the first term by 8 and leaves $-3$ unchanged. The factor 8 must multiply both terms, making the constant $-24$."
+    },
+    {
+     "text": "$$12s - 24$",
+     "correct": false,
+     "explanation": "This adds 8 and 4 instead of multiplying them. The variable product is $8\\times4s=32s$, and distributing to $-3$ gives $-24$."
+    },
+    {
+     "text": "$$32s + 24$",
+     "correct": false,
+     "explanation": "This loses the negative sign when multiplying the second term. A positive 8 multiplied by negative 3 gives $-24$, so the expansion is $32s-24$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "44dfb85a-dffa-4c7b-983d-3622db0210a4",
+   "card_type": "basic",
+   "front": "Expand $5x(3x - 2)$.",
+   "back": "$$15x^2 - 10x$",
+   "options": [
+    {
+     "text": "$$15x^2 - 10x$",
+     "correct": true,
+     "explanation": "Multiply $5x$ by each bracketed term: $5x\\times3x=15x^2$ and $5x\\times(-2)=-10x$. This gives $15x^2-10x$."
+    },
+    {
+     "text": "$$15x^2 - 10$",
+     "correct": false,
+     "explanation": "This drops the factor $x$ when multiplying $5x$ by $-2$. That product is $-10x$, so the complete expansion is $15x^2-10x$."
+    },
+    {
+     "text": "$$15x^2 - 2x$",
+     "correct": false,
+     "explanation": "This fails to multiply the second term by the numerical factor 5. Since $5x\\times(-2)=-10x$, the correct expansion is $15x^2-10x$."
+    },
+    {
+     "text": "$$15x^2 + 10x$",
+     "correct": false,
+     "explanation": "This loses the negative sign from $-2$. Multiplying positive $5x$ by negative 2 gives $-10x$, so the second term must remain negative."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "e16ac0bc-6834-455b-bcc9-3256eedbae1e",
+   "card_type": "basic",
+   "front": "What is a common mistake when expanding a bracket like $8(4s - 3)$?",
+   "back": "Only multiplying the first term (e.g. writing $32s - 3$).",
+   "options": [
+    {
+     "text": "Only multiplying the first term (e.g. writing $32s - 3$).",
+     "correct": true,
+     "explanation": "The factor outside a bracket must multiply every term inside it. Multiplying only $4s$ leaves the constant undistributed; 8 must also multiply $-3$ to give $-24$."
+    },
+    {
+     "text": "Multiplying both the first and second terms (e.g. writing $32s - 24$).",
+     "correct": false,
+     "explanation": "Multiplying both bracketed terms is the required use of the distributive law, not a mistake. It correctly produces $8\\times4s=32s$ and $8\\times(-3)=-24$."
+    },
+    {
+     "text": "Preserving the negative sign (e.g. writing $32s - 24$).",
+     "correct": false,
+     "explanation": "Preserving the negative sign is correct because a positive factor times a negative term remains negative. The actual common mistake is failing to multiply the second term by 8."
+    },
+    {
+     "text": "Calculating both products correctly (e.g. writing $32s - 24$).",
+     "correct": false,
+     "explanation": "Calculating both products accurately is the correct expansion process. The common error is calculating only $8\\times4s$ and leaving the bracket’s second term unchanged."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "80fd29fd-6ef5-4876-b9e7-adc0d914b52d",
+   "card_type": "basic",
+   "front": "Expand and simplify $6(g + 4) + 2(g - 7)$.",
+   "back": "$$8g + 10$",
+   "options": [
+    {
+     "text": "$$8g + 10$",
+     "correct": true,
+     "explanation": "Expanding gives $6g+24+2g-14$. Collecting like terms then produces $8g$, while the constants give $24-14=10$, so the result is $8g+10$."
+    },
+    {
+     "text": "$$8g + 38$",
+     "correct": false,
+     "explanation": "This treats the negative term in $2(g-7)$ as positive, producing $+14$ instead of $-14$. The constants should total $24-14=10$."
+    },
+    {
+     "text": "$$8g + 17$",
+     "correct": false,
+     "explanation": "This fails to multiply $-7$ by the outside factor 2, using $-7$ instead of $-14$. Correct distribution makes the constant total $24-14=10$."
+    },
+    {
+     "text": "$$8g - 10$",
+     "correct": false,
+     "explanation": "This reverses the subtraction when combining the constants. They total $24-14=10$, not $-10$, while the variable terms correctly combine to $8g$."
+    }
+   ],
+   "points": 3
+  },
+  {
+   "id": "60c6d171-bb29-4871-af60-f51b4db46a80",
+   "card_type": "basic",
+   "front": "How does a minus sign before a bracket (e.g. $-2(5y + 1)$) affect the expansion?",
+   "back": "It changes the signs of every term inside the bracket when multiplied.",
+   "options": [
+    {
+     "text": "It changes the signs of every term inside the bracket when multiplied.",
+     "correct": true,
+     "explanation": "The negative multiplier applies to every term in the bracket. For example, $-2(5y + 1) = -10y - 2$, so both terms change sign."
+    },
+    {
+     "text": "It changes the sign of only the first term inside the bracket when multiplied.",
+     "correct": false,
+     "explanation": "Applying the minus sign only to the first term ignores the distributive law. The multiplier acts on every term, so $-2(5y + 1) = -10y - 2$."
+    },
+    {
+     "text": "It keeps the signs of every term inside the bracket when multiplied.",
+     "correct": false,
+     "explanation": "Ignoring the negative sign treats the multiplier as positive. Every term must be multiplied by $-2$, giving $-10y - 2$ rather than positive terms."
+    },
+    {
+     "text": "It changes the operation between the terms inside the bracket when multiplied.",
+     "correct": false,
+     "explanation": "The operation inside the bracket is not changed before multiplication. Instead, the negative multiplier is distributed to both terms, changing each resulting term’s sign."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "c97c317a-8b32-40b4-bec2-cd16990c58cf",
+   "card_type": "basic",
+   "front": "Expand and simplify $4(3y - 5) - 2(5y + 1)$.",
+   "back": "$$2y - 22$",
+   "options": [
+    {
+     "text": "$$2y - 22$",
+     "correct": true,
+     "explanation": "Expanding gives $12y - 20 - 10y - 2$. Collecting like terms then gives $(12y - 10y) + (-20 - 2) = 2y - 22$."
+    },
+    {
+     "text": "$$2y - 18$",
+     "correct": false,
+     "explanation": "This comes from treating $-2 \\times 1$ as $+2$. The negative multiplier gives $-2$, so the constants total $-20 - 2 = -22$."
+    },
+    {
+     "text": "$$22y - 22$",
+     "correct": false,
+     "explanation": "This adds $12y$ and $10y$, overlooking that the second bracket is multiplied by $-2$. The variable terms are $12y - 10y = 2y$."
+    },
+    {
+     "text": "$$2y - 12$",
+     "correct": false,
+     "explanation": "The variable terms have been combined correctly, but the constants have not. Expanding produces $-20$ and $-2$, which combine to $-22$, giving $2y - 22$."
+    }
+   ],
+   "points": 3
+  },
+  {
+   "id": "7f7da1dc-3672-4cac-8134-006a5ec1fcad",
+   "card_type": "cloze",
+   "front": "Factorising is the [ ___ ] of expanding.",
+   "back": "Factorising is the opposite of expanding.",
+   "options": [
+    {
+     "text": "opposite",
+     "correct": true,
+     "explanation": "Factorising rewrites an expression as a product of factors, while expanding multiplies out those factors. The two processes therefore undo one another."
+    },
+    {
+     "text": "result",
+     "correct": false,
+     "explanation": "An expanded expression can be the result of expanding, but factorising itself is not that result. Factorising is the opposite process because it reconstructs a product of factors."
+    },
+    {
+     "text": "purpose",
+     "correct": false,
+     "explanation": "Factorising is not the purpose of expanding. It is the opposite operation: expanding removes brackets, whereas factorising rewrites an expression using brackets and common factors."
+    },
+    {
+     "text": "continuation",
+     "correct": false,
+     "explanation": "Factorising does not continue the process of expanding; it reverses it. Expanding multiplies out brackets, while factorising places an expression back into a product form."
+    }
+   ]
+  },
+  {
+   "id": "5e1bb099-fa9d-4443-93d7-02f7d125dd2e",
+   "card_type": "basic",
+   "front": "What are the two requirements to factorise fully?",
+   "back": "Take out the highest common factor (HCF) of the numbersTake out the HCF of the variables",
+   "options": [
+    {
+     "text": "Take out the highest common factor (HCF) of the numbersTake out the HCF of the variables",
+     "correct": true,
+     "explanation": "A fully factorised expression has the greatest possible numerical factor and every common variable factor outside the bracket. No further common factor should remain inside."
+    },
+    {
+     "text": "Take out the lowest common multiple (LCM) of the numbersTake out the HCF of the variables",
+     "correct": false,
+     "explanation": "The LCM is used to find common multiples, not common factors. Full factorisation requires the HCF of the numerical coefficients and the HCF of the variables."
+    },
+    {
+     "text": "Take out the highest common factor (HCF) of the numbersTake out the highest power of each variable",
+     "correct": false,
+     "explanation": "Taking the highest variable power can introduce factors that are not present in every term. Use only the greatest power common to all terms, alongside the numerical HCF."
+    },
+    {
+     "text": "Take out the smallest coefficient from the numbersTake out every variable in the expression",
+     "correct": false,
+     "explanation": "The smallest coefficient is not necessarily a factor of every coefficient, and not every variable is necessarily common. Full factorisation uses only the numerical and variable HCFs."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "af31cf12-3e75-48f6-bbbb-3dde89986019",
+   "card_type": "basic",
+   "front": "Factorise $20y + 35$.",
+   "back": "$$5(4y + 7)$",
+   "options": [
+    {
+     "text": "$$5(4y + 7)$",
+     "correct": true,
+     "explanation": "The HCF of $20$ and $35$ is $5$. Dividing both terms by $5$ gives $4y$ and $7$, so $20y + 35 = 5(4y + 7)$."
+    },
+    {
+     "text": "$$5(4y + 35)$",
+     "correct": false,
+     "explanation": "Only the first term has been divided by the outside factor. Both terms must be divided by $5$, so $35 \\div 5 = 7$ and the answer is $5(4y + 7)$."
+    },
+    {
+     "text": "$$10(2y + 7)$",
+     "correct": false,
+     "explanation": "Although $20y \\div 10 = 2y$, $35$ is not divisible by $10$. Expanding this gives $20y + 70$, whereas the correct factorisation is $5(4y + 7)$."
+    },
+    {
+     "text": "$$5(4y + 6)$",
+     "correct": false,
+     "explanation": "This uses an incorrect division for the constant term: $35 \\div 5 = 7$, not $6$. Expanding the correct answer $5(4y + 7)$ returns $20y + 35$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "6ea25999-6924-42a0-ae62-bbf28a63059c",
+   "card_type": "basic",
+   "front": "What is the highest common factor of $12m^2n$ and $18mn^2$?",
+   "back": "$$6mn$",
+   "options": [
+    {
+     "text": "$$6mn$",
+     "correct": true,
+     "explanation": "The numerical HCF of $12$ and $18$ is $6$. The lowest powers common to both terms are $m^1$ and $n^1$, giving the HCF $6mn$."
+    },
+    {
+     "text": "$$6m^2n$",
+     "correct": false,
+     "explanation": "This incorrectly takes the higher power of $m$. Since $18mn^2$ contains only one factor of $m$, the common variable factor is $m$, making the HCF $6mn$."
+    },
+    {
+     "text": "$$6mn^2$",
+     "correct": false,
+     "explanation": "This incorrectly takes the higher power of $n$. Since $12m^2n$ contains only one factor of $n$, the greatest variable factor common to both terms is $mn$."
+    },
+    {
+     "text": "$$3mn$",
+     "correct": false,
+     "explanation": "This is a common factor, but it is not the highest one because both coefficients are divisible by $6$. Including the common variables gives the HCF $6mn$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "25175dce-05e7-4085-9d14-a17e8aaf9ab9",
+   "card_type": "basic",
+   "front": "Factorise fully $12m^2n + 18mn^2$.",
+   "back": "$$6mn(2m + 3n)$",
+   "options": [
+    {
+     "text": "$$6mn(2m + 3n)$",
+     "correct": true,
+     "explanation": "The HCF is $6mn$. Dividing $12m^2n$ by it gives $2m$, and dividing $18mn^2$ by it gives $3n$, producing $6mn(2m + 3n)$."
+    },
+    {
+     "text": "$$3mn(4m + 6n)$",
+     "correct": false,
+     "explanation": "This expands to the original expression, but it is not fully factorised because $2$ remains common inside the bracket. Taking it out gives $6mn(2m + 3n)$."
+    },
+    {
+     "text": "$$6m(2mn + 3n^2)$",
+     "correct": false,
+     "explanation": "This is equivalent to the original expression, but it leaves a common factor of $n$ inside the bracket. Taking out the full HCF gives $6mn(2m + 3n)$."
+    },
+    {
+     "text": "$$6mn(2m + 2n)$",
+     "correct": false,
+     "explanation": "The second term has been divided incorrectly: $18mn^2 \\div 6mn = 3n$, not $2n$. The fully factorised expression is therefore $6mn(2m + 3n)$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "667424e0-e5e3-4bba-926f-2991827623eb",
+   "card_type": "basic",
+   "front": "How can you check if your factorisation is correct?",
+   "back": "Expand the brackets; it should return to the original expression.",
+   "options": [
+    {
+     "text": "Expand the brackets; it should return to the original expression.",
+     "correct": true,
+     "explanation": "Factorising and expanding are opposite processes. Multiplying the factors back out should reproduce every term and sign in the original expression exactly."
+    },
+    {
+     "text": "Substitute one value; matching results prove the expressions are identical.",
+     "correct": false,
+     "explanation": "Two different expressions can produce the same result for one chosen value, so this does not prove equivalence. Expanding the brackets must reproduce the original expression term by term."
+    },
+    {
+     "text": "Factorise the brackets again; they should contain no numerical terms.",
+     "correct": false,
+     "explanation": "Factorising again does not directly verify the multiplication, and correctly factorised brackets may contain numbers. The reliable check is to expand and compare with the original expression."
+    },
+    {
+     "text": "Count the terms; there should be the same number in both expressions.",
+     "correct": false,
+     "explanation": "Factorisation usually changes the visible number of terms, so term counting cannot establish equivalence. Expanding the factors should instead return exactly to the original expression."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "b190456e-d164-40cd-9f81-9255145ee98d",
+   "card_type": "basic",
+   "front": "What is the most efficient first step to solve $5(b + 4) = 45$?",
+   "back": "Divide both sides by 5.",
+   "options": [
+    {
+     "text": "Divide both sides by 5.",
+     "correct": true,
+     "explanation": "Dividing by 5 immediately removes the outer multiplication, giving $b + 4 = 9$. Subtracting 4 then gives $b = 5$."
+    },
+    {
+     "text": "Subtract 4 from both sides.",
+     "correct": false,
+     "explanation": "Subtracting 4 does not undo the addition inside the brackets because the entire bracket is multiplied by 5. Divide both sides by 5 first."
+    },
+    {
+     "text": "Divide both sides by 45.",
+     "correct": false,
+     "explanation": "Dividing by 45 does not cancel the coefficient outside the brackets. The efficient first step is to divide both sides by 5, producing $b + 4 = 9$."
+    },
+    {
+     "text": "Multiply both sides by 5.",
+     "correct": false,
+     "explanation": "Multiplying by 5 increases the coefficient rather than cancelling it. Division by 5 is the inverse operation needed to isolate the bracket efficiently."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "97f834ee-37e9-4f0b-a9ca-e1552643afad",
+   "card_type": "basic",
+   "front": "Solve $5(b + 4) = 45$.",
+   "back": "$$b = 5$",
+   "options": [
+    {
+     "text": "$$b = 5$",
+     "correct": true,
+     "explanation": "Dividing both sides by 5 gives $b + 4 = 9$. Subtracting 4 from both sides then gives the solution $b = 5$."
+    },
+    {
+     "text": "$$b = 13$",
+     "correct": false,
+     "explanation": "This results from adding 4 after obtaining $b + 4 = 9$. The correct inverse operation is subtraction, so $b = 9 - 4 = 5$."
+    },
+    {
+     "text": "$$b = 8.2$",
+     "correct": false,
+     "explanation": "This treats $5(b + 4)$ as $5b + 4$, failing to multiply 4 by 5. Dividing first gives $b + 4 = 9$, so $b = 5$."
+    },
+    {
+     "text": "$$b = 41$",
+     "correct": false,
+     "explanation": "This subtracts 4 from 45 but ignores that the whole bracket is multiplied by 5. First divide by 5, then subtract 4 to obtain $b = 5$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "10b7e02c-70db-4bfc-ad1c-b84ea8551e8a",
+   "card_type": "basic",
+   "front": "Solve $4(c - 3) = 18$.",
+   "back": "$$c = 7.5$",
+   "options": [
+    {
+     "text": "$$c = 7.5$",
+     "correct": true,
+     "explanation": "Dividing both sides by $4$ gives $c - 3 = 4.5$. Adding $3$ to both sides then gives $c = 7.5$."
+    },
+    {
+     "text": "$$c = 1.5$",
+     "correct": false,
+     "explanation": "Subtracting $3$ after dividing reverses the required operation. From $c - 3 = 4.5$, add $3$, rather than subtracting it, to obtain $c = 7.5$."
+    },
+    {
+     "text": "$$c = 5.25$",
+     "correct": false,
+     "explanation": "This results from treating $4(c - 3)$ as $4c - 3$. Correct expansion gives $4c - 12 = 18$, so $4c = 30$ and $c = 7.5$."
+    },
+    {
+     "text": "$$c = 18$",
+     "correct": false,
+     "explanation": "This incorrectly treats the bracket as though $4(c - 3)$ meant $(4 - 3)c$. Dividing by $4$ first and then adding $3$ gives $c = 7.5$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "a8b229e3-5680-4882-970f-7cad726e1c67",
+   "card_type": "cloze",
+   "front": "In algebra, a [ ___ ] is a letter that represents a number, while a term is a part of an expression separated by plus or minus signs.",
+   "back": "In algebra, a variable is a letter that represents a number, while a term is a part of an expression separated by plus or minus signs.",
+   "options": [
+    {
+     "text": "variable",
+     "correct": true,
+     "explanation": "A variable is a letter or symbol used to represent a number whose value may be unknown or may change within an algebraic expression."
+    },
+    {
+     "text": "constant",
+     "correct": false,
+     "explanation": "A constant is a fixed numerical value, not a letter representing a number that may vary. The defined algebraic object is a variable."
+    },
+    {
+     "text": "coefficient",
+     "correct": false,
+     "explanation": "A coefficient is the numerical factor multiplying a variable, such as 5 in $5x$. A letter representing a number is called a variable."
+    },
+    {
+     "text": "expression",
+     "correct": false,
+     "explanation": "An expression is a mathematical combination of terms and operations, rather than a single letter representing a number. Such a letter is called a variable."
+    }
+   ]
+  },
+  {
+   "id": "0b94316d-a9dd-4c04-bfd4-deb86d33baa9",
+   "card_type": "cloze",
+   "front": "In algebra, a variable is a letter that represents a number, while a [ ___ ] is a part of an expression separated by plus or minus signs.",
+   "back": "In algebra, a variable is a letter that represents a number, while a term is a part of an expression separated by plus or minus signs.",
+   "options": [
+    {
+     "text": "term",
+     "correct": true,
+     "explanation": "A term is one part of an algebraic expression. Terms are separated from one another by addition or subtraction signs, including their associated signs."
+    },
+    {
+     "text": "expression",
+     "correct": false,
+     "explanation": "An expression consists of one or more terms linked by operations, so it is not an individual part separated by plus or minus signs. That part is a term."
+    },
+    {
+     "text": "equation",
+     "correct": false,
+     "explanation": "An equation states that two expressions are equal and therefore contains an equals sign. A part of an expression separated by plus or minus signs is a term."
+    },
+    {
+     "text": "factor",
+     "correct": false,
+     "explanation": "A factor is a quantity multiplied by another quantity, not a part identified by addition or subtraction boundaries. Such a part of an expression is a term."
+    }
+   ]
+  }
+ ],
+ "card_count": 21,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-4-4-8-expanding-and-factorising/flashcards",
+ "source_sha256": "04d12fcc0153fe9f6fde9d840b1e814b4855c56bf7b4b0e4c7a9589e7b120315",
+ "extracted_at": "2026-11-08T19:00:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-2 run-001)",
+ "task_id": "T-MG-FC-2"
+}

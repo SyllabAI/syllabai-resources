@@ -1,0 +1,647 @@
+{
+ "topic": "grade-2-2-3-systematic-listing",
+ "lane": "igcse-maths-edexcel",
+ "grade": "2",
+ "tier": null,
+ "title": "Systematic Listing Flashcards",
+ "cards": [
+  {
+   "id": "a0d7e601-fe7c-4b57-8a37-9d9088b87202",
+   "card_type": "cloze",
+   "front": "Systematic listing puts outcomes in a clear order so none are [ ___ ] or [ ___ ].",
+   "back": "Systematic listing puts outcomes in a clear order so none are missing or repeated.",
+   "options": [
+    {
+     "text": "Systematic listing puts outcomes in a clear order so none are missing or repeated.",
+     "correct": true,
+     "explanation": "A clear, consistent order ensures every possible outcome appears exactly once, preventing outcomes from being accidentally omitted or counted more than once."
+    },
+    {
+     "text": "Systematic listing puts outcomes in a clear order so none are missing or counted.",
+     "correct": false,
+     "explanation": "Outcomes need to be counted, so counting them is not a problem to avoid. Systematic listing ensures that none are missing or repeated."
+    },
+    {
+     "text": "Systematic listing puts outcomes in a clear order so none are listed or repeated.",
+     "correct": false,
+     "explanation": "Listing outcomes is the purpose of the method, not an error. The ordered approach ensures that no outcomes are missing or repeated."
+    },
+    {
+     "text": "Systematic listing puts outcomes in a clear order so none are included or checked.",
+     "correct": false,
+     "explanation": "Outcomes should be included and checked as part of a complete list. The two errors systematic listing prevents are missing outcomes and repeated outcomes."
+    }
+   ]
+  },
+  {
+   "id": "964b6378-aead-46e7-a379-b2affe8f3692",
+   "card_type": "basic",
+   "front": "What pattern should you use when listing outcomes from two groups?",
+   "back": "Fix the first choice, then pair it with every second choice.",
+   "options": [
+    {
+     "text": "Fix the first choice, then pair it with every second choice.",
+     "correct": true,
+     "explanation": "Keeping the first choice fixed while working through every second choice creates an organised list. Repeating this for each first choice includes every possible pairing once."
+    },
+    {
+     "text": "Alternate between both choices, then remove any repeated pairs.",
+     "correct": false,
+     "explanation": "Alternating choices can produce an unordered list in which combinations are missed or repeated. Fix the first choice, then pair it with every second choice."
+    },
+    {
+     "text": "Fix the second choice, then pair it with one first choice.",
+     "correct": false,
+     "explanation": "Pairing with only one first choice omits valid combinations. The intended pattern is to fix the first choice and pair it with every second choice."
+    },
+    {
+     "text": "Choose the first pair, then reverse it for every new pair.",
+     "correct": false,
+     "explanation": "Reversing pairs does not systematically combine all members of the two groups. Fix each first choice in turn and pair it with every second choice."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "878031b3-00bf-40b0-93e8-0d76cbc50688",
+   "card_type": "basic",
+   "front": "How many meal combinations are there with 4 starters and 3 mains?",
+   "back": "12 combinations.",
+   "options": [
+    {
+     "text": "12 combinations.",
+     "correct": true,
+     "explanation": "Each of the 4 starters can be paired with each of the 3 mains, so the multiplication principle gives $4 \\times 3 = 12$ combinations."
+    },
+    {
+     "text": "7 combinations.",
+     "correct": false,
+     "explanation": "Adding $4+3$ counts the available dishes, not the possible pairings. Each starter pairs with three mains, giving $4 \\times 3 = 12$ combinations."
+    },
+    {
+     "text": "16 combinations.",
+     "correct": false,
+     "explanation": "This treats the meal as if there were 4 choices in both groups. There are only 3 mains, so the total is $4 \\times 3 = 12$."
+    },
+    {
+     "text": "24 combinations.",
+     "correct": false,
+     "explanation": "This double-counts each starter-and-main meal, usually by treating its order as variable. A starter followed by a main gives $4 \\times 3 = 12$ combinations."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "b6413c78-1306-4dd7-a5e1-abceafd64d0f",
+   "card_type": "basic",
+   "front": "Why are HHT and HTH different outcomes?",
+   "back": "The tails is on a different flip.",
+   "options": [
+    {
+     "text": "The tails is on a different flip.",
+     "correct": true,
+     "explanation": "In HHT, the tail occurs on the third flip, while in HTH it occurs on the second flip. Their ordered sequences are therefore different."
+    },
+    {
+     "text": "The tails is on the same flip.",
+     "correct": false,
+     "explanation": "The tail is third in HHT but second in HTH, so it is not on the same flip. Its different position makes the outcomes distinct."
+    },
+    {
+     "text": "The number of tails is different.",
+     "correct": false,
+     "explanation": "Both outcomes contain exactly one tail, so the number of tails does not distinguish them. They differ because the tail occurs on a different flip."
+    },
+    {
+     "text": "The first flip is different in each outcome.",
+     "correct": false,
+     "explanation": "Both HHT and HTH begin with heads, so their first flips are identical. They differ because the tail occurs on the third flip in HHT and the second in HTH."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "cf81c989-c954-467b-a985-679e24a4767b",
+   "card_type": "cloze",
+   "front": "For coin flips, each extra flip [ ___ ] the number of outcomes.",
+   "back": "For coin flips, each extra flip doubles the number of outcomes.",
+   "options": [
+    {
+     "text": "doubles",
+     "correct": true,
+     "explanation": "Each existing sequence can be extended with either heads or tails. This creates two new outcomes from every previous outcome, so the total doubles."
+    },
+    {
+     "text": "triples",
+     "correct": false,
+     "explanation": "Tripling would require three possible results on each extra flip. A coin has only two results, heads and tails, so each extra flip doubles the outcomes."
+    },
+    {
+     "text": "halves",
+     "correct": false,
+     "explanation": "An extra flip creates more possible sequences rather than reducing them. Each existing outcome gains a heads version and a tails version, so the total doubles."
+    },
+    {
+     "text": "squares",
+     "correct": false,
+     "explanation": "The total follows powers of 2 because every flip has two possible results. Adding one flip multiplies the previous number by 2 rather than squaring it."
+    }
+   ]
+  },
+  {
+   "id": "2a9c224e-4c62-48db-8c8b-90d3ba2d422b",
+   "card_type": "basic",
+   "front": "How many outcomes are there when a coin is flipped three times?",
+   "back": "8 outcomes.",
+   "options": [
+    {
+     "text": "8 outcomes.",
+     "correct": true,
+     "explanation": "Each of the three flips has 2 possible results, so the multiplication principle gives $2 \\times 2 \\times 2 = 2^3 = 8$ outcomes."
+    },
+    {
+     "text": "6 outcomes.",
+     "correct": false,
+     "explanation": "Multiplying the 3 flips by 2 ignores that choices combine across every stage. The correct calculation is $2^3=8$ outcomes."
+    },
+    {
+     "text": "9 outcomes.",
+     "correct": false,
+     "explanation": "The calculation $3^2$ reverses the number of flips and the choices per flip. There are 2 choices on each of 3 flips, giving $2^3=8$."
+    },
+    {
+     "text": "16 outcomes.",
+     "correct": false,
+     "explanation": "Sixteen is $2^4$, which is the number of outcomes for four flips. Three flips have $2^3=8$ possible ordered outcomes."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "e69e9814-08c8-4c7e-9376-1595fe0a5a08",
+   "card_type": "cloze",
+   "front": "The [ ___ ] is the complete list of all possible outcomes for an experiment.",
+   "back": "The sample space is the complete list of all possible outcomes for an experiment.",
+   "options": [
+    {
+     "text": "sample space",
+     "correct": true,
+     "explanation": "A sample space contains every possible outcome of an experiment. For example, the sample space for one coin flip is the complete list H and T."
+    },
+    {
+     "text": "outcome",
+     "correct": false,
+     "explanation": "An outcome is one possible result, not the complete collection of results. The list containing all possible outcomes is called the sample space."
+    },
+    {
+     "text": "event",
+     "correct": false,
+     "explanation": "An event is a selected outcome or group of outcomes of interest. The complete list of every possible outcome is the sample space."
+    },
+    {
+     "text": "frequency table",
+     "correct": false,
+     "explanation": "A frequency table records how often observed results occur, rather than defining every possible result. The complete list of possibilities is the sample space."
+    }
+   ]
+  },
+  {
+   "id": "3c57f904-8055-472b-a9e0-cf1753044981",
+   "card_type": "basic",
+   "front": "When can a physical digit card be reused in making numbers?",
+   "back": "Only if the question says reuse is allowed.",
+   "options": [
+    {
+     "text": "Only if the question says reuse is allowed.",
+     "correct": true,
+     "explanation": "A physical card is normally unavailable after it has been selected. It can be selected again only when the question explicitly permits replacement or reuse."
+    },
+    {
+     "text": "Only if the question says digits cannot repeat.",
+     "correct": false,
+     "explanation": "If digits cannot repeat, the same physical digit card cannot be selected again. Reuse is possible only when the question explicitly says reuse is allowed."
+    },
+    {
+     "text": "Only if there are several copies of the card.",
+     "correct": false,
+     "explanation": "Selecting another copy is not reusing the same physical card. A particular card may be selected again only when the question states that reuse is allowed."
+    },
+    {
+     "text": "Whenever the number has more than one digit.",
+     "correct": false,
+     "explanation": "The length of the number does not automatically permit a physical card to be selected twice. Reuse is allowed only when the question explicitly states it."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "906dfa67-aa5a-4186-9b58-306da259dd6c",
+   "card_type": "cloze",
+   "front": "In a two-digit number, the first digit is the [ ___ ] digit and the second is the [ ___ ] digit.",
+   "back": "In a two-digit number, the first digit is the tens digit and the second is the units digit.",
+   "options": [
+    {
+     "text": "In a two-digit number, the first digit is the tens digit and the second is the units digit.",
+     "correct": true,
+     "explanation": "The first digit represents a multiple of ten, while the second represents the remaining individual units. For example, in 47, 4 is tens and 7 is units."
+    },
+    {
+     "text": "In a two-digit number, the first digit is the hundreds digit and the second is the units digit.",
+     "correct": false,
+     "explanation": "A hundreds digit occurs only in numbers with at least three digits. In a two-digit number, the first digit is the tens digit and the second is the units digit."
+    },
+    {
+     "text": "In a two-digit number, the first digit is the tens digit and the second is the hundreds digit.",
+     "correct": false,
+     "explanation": "Place values increase when moving left, not right. In a two-digit number, the first digit is the tens digit and the second is the units digit."
+    },
+    {
+     "text": "In a two-digit number, the first digit is the units digit and the second is the tens digit.",
+     "correct": false,
+     "explanation": "This reverses the place values. Reading from left to right, a two-digit number has its tens digit first and its units digit second."
+    }
+   ]
+  },
+  {
+   "id": "9eaabf2f-9508-4ed7-b32a-24a329920ecf",
+   "card_type": "basic",
+   "front": "Why is 266 not allowed from cards 2, 6 and 8?",
+   "back": "It reuses the 6 card.",
+   "options": [
+    {
+     "text": "It reuses the 6 card.",
+     "correct": true,
+     "explanation": "The number 266 requires two separate 6 digits, but the set contains only one 6 card. Each card can be used only once."
+    },
+    {
+     "text": "It reuses the 2 card.",
+     "correct": false,
+     "explanation": "The digit 2 appears only once in 266, so its card is not reused. The problem is that 266 uses the single 6 card twice."
+    },
+    {
+     "text": "It reuses the 8 card.",
+     "correct": false,
+     "explanation": "The digit 8 does not appear in 266, so its card cannot have been reused. The number is invalid because it requires the 6 card twice."
+    },
+    {
+     "text": "It starts with the 2 card.",
+     "correct": false,
+     "explanation": "Starting with the 2 card is allowed and can produce valid numbers such as 268. The problem with 266 is that it reuses the 6 card."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "22c7e229-5b1b-4991-aebd-83efe1d3414a",
+   "card_type": "basic",
+   "front": "How many three-digit numbers can 3 different digit cards make if all are used?",
+   "back": "6 numbers.",
+   "options": [
+    {
+     "text": "6 numbers.",
+     "correct": true,
+     "explanation": "There are 3 choices for the first digit, then 2 choices for the second and 1 for the third, giving $3 \\times 2 \\times 1 = 6$."
+    },
+    {
+     "text": "3 numbers.",
+     "correct": false,
+     "explanation": "This counts only one arrangement for each choice of first digit. The remaining two cards can be swapped, so there are $3 \\times 2 = 6$ numbers."
+    },
+    {
+     "text": "8 numbers.",
+     "correct": false,
+     "explanation": "This incorrectly treats each position as having two independent choices. Using all three different cards once gives $3! = 3 \\times 2 \\times 1 = 6$ numbers."
+    },
+    {
+     "text": "9 numbers.",
+     "correct": false,
+     "explanation": "This comes from multiplying 3 choices by 3 choices without removing used cards. The choices reduce after each position, giving $3 \\times 2 \\times 1 = 6$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "73fe7bde-490d-43d2-9266-9ba745edca7f",
+   "card_type": "basic",
+   "front": "What is a systematic method for making three-digit numbers from three cards?",
+   "back": "Fix the hundreds digit.Arrange the other two digits both ways.",
+   "options": [
+    {
+     "text": "Fix the hundreds digit.Arrange the other two digits both ways.",
+     "correct": true,
+     "explanation": "Holding one card in the hundreds place and swapping the remaining cards produces both arrangements for that starting digit. Repeating this for each card lists all six numbers."
+    },
+    {
+     "text": "Fix the hundreds digit.Keep the other two digits in one order.",
+     "correct": false,
+     "explanation": "Keeping only one order misses the number formed by swapping the tens and units digits. The other two cards must be arranged both ways for each hundreds digit."
+    },
+    {
+     "text": "Change the hundreds digit randomly.Arrange the other two digits one way.",
+     "correct": false,
+     "explanation": "Random choices can cause repetitions and omissions, while using only one order misses further numbers. Fix each hundreds digit systematically and arrange the other two cards both ways."
+    },
+    {
+     "text": "Fix the hundreds digit.Repeat one of the other two digits.",
+     "correct": false,
+     "explanation": "Repeating a digit uses a card more than once and leaves another card unused. Instead, arrange the two remaining cards both ways without repetition."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "f4d68b53-60d6-4cd1-b7de-e88f705a550a",
+   "card_type": "basic",
+   "front": "Why does swapping two identical digit cards not create a new number?",
+   "back": "The written number looks the same.",
+   "options": [
+    {
+     "text": "The written number looks the same.",
+     "correct": true,
+     "explanation": "Identical digits have the same value and appearance, so exchanging their physical cards does not alter any digit position in the written number or create a new outcome."
+    },
+    {
+     "text": "The written number becomes one greater.",
+     "correct": false,
+     "explanation": "Swapping identical digits does not change the number’s value at all. The written number remains the same, so the swap cannot be counted as a new arrangement."
+    },
+    {
+     "text": "The digits change their values.",
+     "correct": false,
+     "explanation": "Moving identical digit cards cannot change their values because both display the same digit. The written number looks unchanged, so no new number has been produced."
+    },
+    {
+     "text": "The number gains an extra digit.",
+     "correct": false,
+     "explanation": "A swap changes only the positions of existing cards and cannot add another digit. With identical cards, even the written arrangement looks exactly the same."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "afce85af-7737-46f5-a0d2-30495e6eeea7",
+   "card_type": "basic",
+   "front": "How many different four-digit numbers can be made from 1, 4, 4 and 7?",
+   "back": "12 different numbers.",
+   "options": [
+    {
+     "text": "12 different numbers.",
+     "correct": true,
+     "explanation": "Four cards would give $4! = 24$ arrangements, but swapping the two identical 4s creates no new number. Dividing by $2!$ gives $24 \\div 2 = 12$."
+    },
+    {
+     "text": "24 different numbers.",
+     "correct": false,
+     "explanation": "This treats the two 4 cards as distinguishable and counts each written number twice. Dividing $4! = 24$ by $2!$ gives 12 different numbers."
+    },
+    {
+     "text": "6 different numbers.",
+     "correct": false,
+     "explanation": "This divides by too large a factor, as though more than two cards were identical. Only the two 4s are interchangeable, so $24 \\div 2 = 12$."
+    },
+    {
+     "text": "16 different numbers.",
+     "correct": false,
+     "explanation": "This results from using an inappropriate power calculation rather than counting permutations. There are $4!$ arrangements divided by $2!$ for the repeated 4, giving 12."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "0bd05c1b-7df6-4dd2-aef8-129f25500e75",
+   "card_type": "cloze",
+   "front": "For equally likely outcomes, probability = [ ___ ] / [ ___ ].",
+   "back": "For equally likely outcomes, probability = number of successful outcomes / total number of outcomes.",
+   "options": [
+    {
+     "text": "For equally likely outcomes, probability = number of successful outcomes / total number of outcomes.",
+     "correct": true,
+     "explanation": "Probability compares the number of outcomes satisfying the event with the total number of possible equally likely outcomes. This produces a value between 0 and 1."
+    },
+    {
+     "text": "For equally likely outcomes, probability = total number of outcomes / number of successful outcomes.",
+     "correct": false,
+     "explanation": "This reverses the fraction and can produce a value greater than 1. Probability is successful outcomes divided by the total number of equally likely outcomes."
+    },
+    {
+     "text": "For equally likely outcomes, probability = number of unsuccessful outcomes / total number of outcomes.",
+     "correct": false,
+     "explanation": "This calculates the probability of the event not happening, which is the complementary probability. The required probability uses the number of successful outcomes as the numerator."
+    },
+    {
+     "text": "For equally likely outcomes, probability = total number of outcomes / number of unsuccessful outcomes.",
+     "correct": false,
+     "explanation": "This both reverses the required ratio and counts unsuccessful rather than successful outcomes. Probability is the number of successful outcomes divided by the total number of outcomes."
+    }
+   ]
+  },
+  {
+   "id": "3064b5f2-4e2a-44f1-99bf-697a1f0ff5e8",
+   "card_type": "basic",
+   "front": "How many equally likely outcomes are there when two fair dice are rolled?",
+   "back": "36 outcomes.",
+   "options": [
+    {
+     "text": "36 outcomes.",
+     "correct": true,
+     "explanation": "Each die has 6 possible results, and every result on the first die can pair with every result on the second. Therefore, $6 \\times 6 = 36$ outcomes."
+    },
+    {
+     "text": "12 outcomes.",
+     "correct": false,
+     "explanation": "This adds the two sets of 6 results instead of pairing them. Since each first-die result combines with 6 second-die results, there are $6 \\times 6 = 36$ outcomes."
+    },
+    {
+     "text": "11 outcomes.",
+     "correct": false,
+     "explanation": "There are 11 possible totals from 2 to 12, but these totals are not equally likely. Counting ordered pairs of die results gives 36 equally likely outcomes."
+    },
+    {
+     "text": "6 outcomes.",
+     "correct": false,
+     "explanation": "This counts the possible results of only one die. With two dice, each of the 6 first-die results pairs with 6 second-die results, giving 36 outcomes."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "02c66d8b-e0c1-47c0-8e6c-8ed88817947e",
+   "card_type": "basic",
+   "front": "Why are 1 then 5 and 5 then 1 different dice outcomes?",
+   "back": "The first and second dice are distinguishable.",
+   "options": [
+    {
+     "text": "The first and second dice are distinguishable.",
+     "correct": true,
+     "explanation": "The dice occupy different positions, so 1 then 5 records a different ordered outcome from 5 then 1, even though both have the same total."
+    },
+    {
+     "text": "The first and second dice are indistinguishable.",
+     "correct": false,
+     "explanation": "Treating the dice as indistinguishable would make 1 then 5 and 5 then 1 identical, but ordered dice outcomes distinguish the first die from the second. The correct idea is that they are distinguishable."
+    },
+    {
+     "text": "The two dice have different numbers of faces.",
+     "correct": false,
+     "explanation": "Both fair dice have six faces, so different numbers of faces cannot explain the distinction. The outcomes differ because the first and second dice are distinguishable."
+    },
+    {
+     "text": "The total is different in each outcome.",
+     "correct": false,
+     "explanation": "Both outcomes have total 6, so the total does not distinguish them. Their order is different because the first and second dice are distinguishable."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "8c6708af-ba4f-4547-8fbf-ef02681ffd04",
+   "card_type": "basic",
+   "front": "What is the probability that two fair dice have a total greater than 7?",
+   "back": "$\\frac{5}{12}$.",
+   "options": [
+    {
+     "text": "$\\frac{5}{12}$.",
+     "correct": true,
+     "explanation": "Totals greater than 7 are 8, 9, 10, 11 and 12, giving 5 + 4 + 3 + 2 + 1 = 15 outcomes out of 36, which simplifies to $\\frac{5}{12}$."
+    },
+    {
+     "text": "$\\frac{7}{12}$.",
+     "correct": false,
+     "explanation": "This counts totals greater than or equal to 7, including the six outcomes making 7. Excluding 7 leaves 15 favourable outcomes out of 36, giving the correct probability $\\frac{5}{12}$."
+    },
+    {
+     "text": "$\\frac{1}{2}$.",
+     "correct": false,
+     "explanation": "The totals are not equally likely, so simply dividing the possible totals above 7 incorrectly gives one half. Listing ordered outcomes gives 15 favourable outcomes out of 36, or $\\frac{5}{12}$."
+    },
+    {
+     "text": "$\\frac{11}{36}$.",
+     "correct": false,
+     "explanation": "This is one outcome too few: totals 8 to 12 have 5, 4, 3, 2 and 1 outcomes, respectively, totalling 15. The probability is therefore $\\frac{15}{36}=\\frac{5}{12}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "c2ed37d6-d216-4be9-b8e7-463f26c04956",
+   "card_type": "cloze",
+   "front": "A product is odd only when [ ___ ] is multiplied by [ ___ ].",
+   "back": "A product is odd only when odd is multiplied by odd.",
+   "options": [
+    {
+     "text": "A product is odd only when odd is multiplied by odd.",
+     "correct": true,
+     "explanation": "An odd product is formed only by multiplying two odd numbers. Multiplying by an even number always produces an even product, regardless of whether the other factor is odd or even."
+    },
+    {
+     "text": "A product is odd only when even is multiplied by odd.",
+     "correct": false,
+     "explanation": "Any product containing an even factor is even, so even multiplied by odd cannot produce an odd product. Both factors must be odd for the product to be odd."
+    },
+    {
+     "text": "A product is odd only when even is multiplied by even.",
+     "correct": false,
+     "explanation": "Multiplying two even numbers gives an even product because each factor contains a factor of 2. The product is odd only when odd is multiplied by odd."
+    },
+    {
+     "text": "A product is odd only when odd is multiplied by even.",
+     "correct": false,
+     "explanation": "The even factor makes the whole product even, so odd multiplied by even cannot be odd. Both factors must be odd to produce an odd product."
+    }
+   ]
+  },
+  {
+   "id": "a77b8afd-7840-4905-8981-15f41e9beafe",
+   "card_type": "basic",
+   "front": "Box A has 1, 4, 7 and Box B has 3, 6, 9. What is the probability of an odd product?",
+   "back": "$\\frac{4}{9}$.",
+   "options": [
+    {
+     "text": "$\\frac{4}{9}$.",
+     "correct": true,
+     "explanation": "An odd product requires two odd factors. Box A has 2 odd numbers and Box B has 2, so there are $2\\times2=4$ favourable pairs out of $3\\times3=9$."
+    },
+    {
+     "text": "$\\frac{5}{9}$.",
+     "correct": false,
+     "explanation": "This overcounts the favourable pairs, probably by treating the even number in one box as contributing an additional odd-product case. Only odd-odd pairs work, giving $2\\times2=4$ out of 9, or $\\frac{4}{9}$."
+    },
+    {
+     "text": "$\\frac{2}{9}$.",
+     "correct": false,
+     "explanation": "This counts only one set of odd choices and forgets that either odd number in Box A can pair with either odd number in Box B. There are 4 favourable pairs, so the probability is $\\frac{4}{9}$."
+    },
+    {
+     "text": "$\\frac{1}{3}$.",
+     "correct": false,
+     "explanation": "This treats the three possible numbers in one box as equally relevant without counting ordered pairs. Systematic listing gives 4 odd-odd pairs among 9 total pairs, so the correct probability is $\\frac{4}{9}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "5294484d-164c-4017-b353-5eb281df8f47",
+   "card_type": "basic",
+   "front": "In match listings, how should A vs B and B vs A be treated?",
+   "back": "They are the same match, so list once.",
+   "options": [
+    {
+     "text": "They are the same match, so list once.",
+     "correct": true,
+     "explanation": "In a match listing, the pairing is unordered: A playing B is the same fixture as B playing A. Counting both would duplicate the same match."
+    },
+    {
+     "text": "They are different matches, so list twice.",
+     "correct": false,
+     "explanation": "This treats the teams' order as important, but a match listing records the pair of teams rather than an ordered outcome. A vs B and B vs A are the same match, listed once."
+    },
+    {
+     "text": "They are the same match, so list twice.",
+     "correct": false,
+     "explanation": "Although the first part correctly identifies the fixture as the same match, listing it twice duplicates the outcome. It should be listed once."
+    },
+    {
+     "text": "They are different matches, so list once.",
+     "correct": false,
+     "explanation": "A single listing cannot make the fixtures different. A vs B and B vs A describe the same pair of teams, so they are the same match and are listed once."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "e048ece7-5f4a-4cb2-9677-9625579ecbee",
+   "card_type": "basic",
+   "front": "For finishing positions, does order matter?",
+   "back": "Yes - each different order is a different outcome.",
+   "options": [
+    {
+     "text": "Yes - each different order is a different outcome.",
+     "correct": true,
+     "explanation": "Finishing positions are ordered: first, second and third are distinct positions. Therefore, changing which competitor finishes in each position creates a different outcome."
+    },
+    {
+     "text": "No - all orders represent the same outcome.",
+     "correct": false,
+     "explanation": "This confuses finishing positions with an unordered selection. In a race or ranking, positions have different meanings, so each different order is a different outcome."
+    },
+    {
+     "text": "Yes - only the competitors matter, not their positions.",
+     "correct": false,
+     "explanation": "The competitors alone are not enough to describe finishing results. Their positions determine the order, so each different order is a different outcome."
+    },
+    {
+     "text": "No - order matters only when competitors tie.",
+     "correct": false,
+     "explanation": "Order matters whenever competitors are assigned distinct finishing positions, not only when there is a tie. A change in first, second or later positions creates a different outcome."
+    }
+   ],
+   "points": 1
+  }
+ ],
+ "card_count": 22,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-2-2-3-systematic-listing/flashcards",
+ "source_sha256": "6f1a131f249f76d793e1983c9092cd290103abd181694a3b0910b6d3522f7358",
+ "extracted_at": "2026-11-08T19:00:03Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-2 run-001)",
+ "task_id": "T-MG-FC-2"
+}

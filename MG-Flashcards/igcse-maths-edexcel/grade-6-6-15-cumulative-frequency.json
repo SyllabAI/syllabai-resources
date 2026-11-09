@@ -1,0 +1,645 @@
+{
+ "topic": "grade-6-6-15-cumulative-frequency",
+ "lane": "igcse-maths-edexcel",
+ "grade": "6",
+ "tier": null,
+ "title": "Cumulative Frequency Flashcards",
+ "cards": [
+  {
+   "id": "735b19f3-d06c-4f09-8998-b266c4fb3273",
+   "card_type": "basic",
+   "front": "On a cumulative frequency graph, which specific value from a class interval is plotted on the horizontal axis?",
+   "back": "The upper bound.",
+   "options": [
+    {
+     "text": "The upper bound.",
+     "correct": true,
+     "explanation": "Each point shows how many observations lie below a class’s upper boundary, so the upper bound is paired with the cumulative frequency for that class."
+    },
+    {
+     "text": "The lower bound.",
+     "correct": false,
+     "explanation": "The lower bound is used only for the initial zero-frequency point. Each subsequent cumulative frequency is plotted against the corresponding class’s upper bound."
+    },
+    {
+     "text": "The class midpoint.",
+     "correct": false,
+     "explanation": "Class midpoints are commonly used for frequency polygons, not cumulative frequency graphs. A cumulative frequency point is plotted at each class interval’s upper bound."
+    },
+    {
+     "text": "The class width.",
+     "correct": false,
+     "explanation": "Class width measures the size of an interval and is not a horizontal coordinate here. Cumulative frequencies are plotted against the class intervals’ upper bounds."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "0925be66-4ae4-4b17-8aec-33cb43becf7b",
+   "card_type": "cloze",
+   "front": "Cumulative frequency represents a [ ___ ] of the frequencies as you move down a table.",
+   "back": "Cumulative frequency represents a running total of the frequencies as you move down a table.",
+   "options": [
+    {
+     "text": "running total",
+     "correct": true,
+     "explanation": "Each entry adds the current class frequency to all preceding frequencies, producing a running total that increases or remains unchanged down the table."
+    },
+    {
+     "text": "running average",
+     "correct": false,
+     "explanation": "A running average would involve dividing totals by the number of values or groups considered. Cumulative frequency simply forms a running total of frequencies."
+    },
+    {
+     "text": "class frequency",
+     "correct": false,
+     "explanation": "A class frequency counts observations in one interval only. Cumulative frequency adds that count to all earlier class frequencies, forming a running total."
+    },
+    {
+     "text": "frequency density",
+     "correct": false,
+     "explanation": "Frequency density is frequency divided by class width and is used for histograms. Cumulative frequency instead represents a running total of the frequencies."
+    }
+   ]
+  },
+  {
+   "id": "d1e14794-0848-4b5b-85ef-191de3fe88f2",
+   "card_type": "basic",
+   "front": "How can you verify that the last entry in a cumulative frequency table is correct?",
+   "back": "It must equal the total frequency ($n$) of the data set.",
+   "options": [
+    {
+     "text": "It must equal the total frequency ($n$) of the data set.",
+     "correct": true,
+     "explanation": "The final cumulative entry includes every class frequency, so it must count every observation and therefore equal the data set’s total frequency, $n$."
+    },
+    {
+     "text": "It must equal the highest class frequency ($n$) of the data set.",
+     "correct": false,
+     "explanation": "The largest individual class frequency includes only one interval and need not include every observation. The final cumulative entry must equal the total frequency, $n$."
+    },
+    {
+     "text": "It must equal the number of class intervals ($n$) of the data set.",
+     "correct": false,
+     "explanation": "Counting intervals gives the number of groups, not the number of observations. The final cumulative frequency must equal the total frequency, $n$, of the data set."
+    },
+    {
+     "text": "It must equal the largest data value ($n$) of the data set.",
+     "correct": false,
+     "explanation": "The largest data value measures magnitude rather than how many observations there are. The final cumulative entry must equal the total frequency, $n$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "b862e335-e3f9-40b4-83e4-a68cccac5615",
+   "card_type": "basic",
+   "front": "Why must a cumulative frequency curve never slope downwards?",
+   "back": "Cumulative frequency is a running total; since frequencies cannot be negative, the total only increases or stays flat.",
+   "options": [
+    {
+     "text": "Cumulative frequency is a running total; since frequencies cannot be negative, the total only increases or stays flat.",
+     "correct": true,
+     "explanation": "Adding each non-negative class frequency to the previous total can only increase it or leave it unchanged, so a cumulative frequency curve cannot slope downwards."
+    },
+    {
+     "text": "Cumulative frequency is a moving average; since averages cannot be negative, the graph only increases or stays flat.",
+     "correct": false,
+     "explanation": "Averages can rise or fall even when all values are non-negative. The graph cannot slope down because cumulative frequency is a running total of non-negative frequencies."
+    },
+    {
+     "text": "Cumulative frequency records each class frequency; since every class has more values than the previous one, the graph only increases or stays flat.",
+     "correct": false,
+     "explanation": "Successive classes do not necessarily contain increasing numbers of values. The curve is non-decreasing because it displays a running total, not separate class frequencies."
+    },
+    {
+     "text": "Cumulative frequency is a running total; if a class has zero frequency, the total must decrease before increasing.",
+     "correct": false,
+     "explanation": "A zero class frequency adds nothing, so the cumulative total stays flat rather than decreasing. Non-negative frequencies mean the curve can only rise or remain level."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "66921e44-656e-4aeb-b18f-c2777a3358cb",
+   "card_type": "cloze",
+   "front": "When starting a cumulative frequency graph, you should plot a point at the [ ___ ] with a cumulative frequency of 0.",
+   "back": "When starting a cumulative frequency graph, you should plot a point at the lowest boundary with a cumulative frequency of 0.",
+   "options": [
+    {
+     "text": "lowest boundary",
+     "correct": true,
+     "explanation": "Before the first interval begins, no observations have been counted. Plotting zero at the lowest boundary anchors the cumulative frequency curve correctly."
+    },
+    {
+     "text": "upper boundary",
+     "correct": false,
+     "explanation": "The first upper boundary is paired with the cumulative frequency of the first class, not zero. The zero-frequency starting point belongs at the lowest boundary."
+    },
+    {
+     "text": "class midpoint",
+     "correct": false,
+     "explanation": "A midpoint lies inside a class and is used in representations such as frequency polygons. The cumulative frequency curve starts at the lowest boundary."
+    },
+    {
+     "text": "highest boundary",
+     "correct": false,
+     "explanation": "The highest boundary is paired with the final cumulative frequency, which equals the total number of observations. The graph starts at zero at the lowest boundary."
+    }
+   ]
+  },
+  {
+   "id": "8be40053-27d8-463d-a7d7-9a370e13c034",
+   "card_type": "cloze",
+   "front": "When starting a cumulative frequency graph, you should plot a point at the lowest boundary with a cumulative frequency of [ ___ ].",
+   "back": "When starting a cumulative frequency graph, you should plot a point at the lowest boundary with a cumulative frequency of 0.",
+   "options": [
+    {
+     "text": "0",
+     "correct": true,
+     "explanation": "At the lowest boundary, none of the observations has yet been included, so the cumulative frequency is zero and the curve begins at this point."
+    },
+    {
+     "text": "1",
+     "correct": false,
+     "explanation": "This off-by-one error assumes counting begins with the first observation. Below the lowest boundary, no observations have been counted, so the cumulative frequency is 0."
+    },
+    {
+     "text": "-1",
+     "correct": false,
+     "explanation": "Frequencies count observations and cannot be negative. Before the first class interval, the running total contains no observations, so the starting cumulative frequency is 0."
+    },
+    {
+     "text": "$$n$",
+     "correct": false,
+     "explanation": "The total frequency $n$ belongs at the highest class boundary after all observations have been counted. At the lowest boundary, the cumulative frequency is 0."
+    }
+   ]
+  },
+  {
+   "id": "afc8bdce-ff79-445e-ab09-b10f3e307585",
+   "card_type": "basic",
+   "front": "At which cumulative frequency do you find the median if the total frequency is $n$?",
+   "back": "$$\\frac{n}{2}$",
+   "options": [
+    {
+     "text": "$$\\frac{n}{2}$",
+     "correct": true,
+     "explanation": "The median divides the ordered data into two equal halves, so it is located by reading from cumulative frequency $\\frac{n}{2}$ across to the curve."
+    },
+    {
+     "text": "$$\\frac{n}{4}$",
+     "correct": false,
+     "explanation": "This position identifies the lower quartile, not the median. The median is halfway through the ordered data and is found at cumulative frequency $\\frac{n}{2}$."
+    },
+    {
+     "text": "$$\\frac{3n}{4}$",
+     "correct": false,
+     "explanation": "This position identifies the upper quartile, not the median. The median divides the data into two equal halves and is found at cumulative frequency $\\frac{n}{2}$."
+    },
+    {
+     "text": "$$n$",
+     "correct": false,
+     "explanation": "This is the final cumulative frequency and corresponds to the end of the data set. The median is halfway through, at cumulative frequency $\\frac{n}{2}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "39d649df-f525-4d4b-8f5e-c74ad482124e",
+   "card_type": "basic",
+   "front": "For a total frequency $n$, at what cumulative frequency positions are the lower and upper quartiles found?",
+   "back": "Lower Quartile ($Q_1$): $\\frac{n}{4}$Upper Quartile ($Q_3$): $\\frac{3n}{4}$",
+   "options": [
+    {
+     "text": "Lower Quartile ($Q_1$): $\\frac{n}{4}$Upper Quartile ($Q_3$): $\\frac{3n}{4}$",
+     "correct": true,
+     "explanation": "Quartiles divide ordered data into four equal parts. The lower quartile is one-quarter through the data, while the upper quartile is three-quarters through."
+    },
+    {
+     "text": "Lower Quartile ($Q_1$): $\\frac{n}{3}$Upper Quartile ($Q_3$): $\\frac{2n}{3}$",
+     "correct": false,
+     "explanation": "These positions divide the data into thirds rather than quarters. Quartiles are found at cumulative frequencies $\\frac{n}{4}$ and $\\frac{3n}{4}$."
+    },
+    {
+     "text": "Lower Quartile ($Q_1$): $\\frac{3n}{4}$Upper Quartile ($Q_3$): $\\frac{n}{4}$",
+     "correct": false,
+     "explanation": "This reverses the two quartile positions. The lower quartile occurs one-quarter through the ordered data, and the upper quartile occurs three-quarters through."
+    },
+    {
+     "text": "Lower Quartile ($Q_1$): $\\frac{n}{2}$Upper Quartile ($Q_3$): $n$",
+     "correct": false,
+     "explanation": "These are the median and the final cumulative frequency, respectively. The lower and upper quartiles are located at $\\frac{n}{4}$ and $\\frac{3n}{4}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "c0620b7b-80c2-466b-9732-dc239e61b580",
+   "card_type": "basic",
+   "front": "How do you estimate the number of data values greater than a specific value $x$ from a graph?",
+   "back": "Subtract the cumulative frequency at $x$ from the total frequency.",
+   "options": [
+    {
+     "text": "Subtract the cumulative frequency at $x$ from the total frequency.",
+     "correct": true,
+     "explanation": "The cumulative frequency at $x$ counts values up to $x$. Subtracting it from the total frequency therefore estimates how many values are greater than $x$."
+    },
+    {
+     "text": "Add the cumulative frequency at $x$ to the total frequency.",
+     "correct": false,
+     "explanation": "Adding the two frequencies double-counts values up to $x$. The required estimate is found by subtracting the cumulative frequency at $x$ from the total frequency."
+    },
+    {
+     "text": "Subtract the total frequency from the cumulative frequency at $x$.",
+     "correct": false,
+     "explanation": "Reversing the subtraction would usually produce a negative result because cumulative frequency cannot exceed total frequency. Subtract the cumulative frequency at $x$ from the total."
+    },
+    {
+     "text": "Divide the cumulative frequency at $x$ by the total frequency.",
+     "correct": false,
+     "explanation": "Dividing gives a proportion rather than the number of values above $x$. Subtract the cumulative frequency at $x$ from the total frequency to obtain the estimate."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "c18eaf76-f761-4940-b946-b7cabb87d9eb",
+   "card_type": "cloze",
+   "front": "The formula for the interquartile range (IQR) is $IQR = \\text{[...]}$.",
+   "back": "The formula for the interquartile range (IQR) is $IQR = \\boxed{Q_3 - Q_1}$.",
+   "options": [
+    {
+     "text": "$$Q_3 - Q_1$",
+     "correct": true,
+     "explanation": "The interquartile range is the distance between the upper and lower quartiles, so it is calculated by subtracting $Q_1$ from $Q_3$."
+    },
+    {
+     "text": "$$Q_3 + Q_1$",
+     "correct": false,
+     "explanation": "Adding the quartiles does not measure the width of the middle half of the data. The interquartile range is the difference $Q_3 - Q_1$."
+    },
+    {
+     "text": "$$Q_1 - Q_3$",
+     "correct": false,
+     "explanation": "This reverses the subtraction and would make the IQR negative whenever $Q_3>Q_1$. The correct order is upper quartile minus lower quartile: $Q_3-Q_1$."
+    },
+    {
+     "text": "$$Q_3 \\div Q_1$",
+     "correct": false,
+     "explanation": "Dividing the quartiles calculates a ratio, not the spread between them. The interquartile range is found using the difference $Q_3 - Q_1$."
+    }
+   ]
+  },
+  {
+   "id": "ccbeb7de-6a0c-450f-9e78-261c48ae2e04",
+   "card_type": "basic",
+   "front": "Why is the interquartile range (IQR) often used instead of the range to describe spread?",
+   "back": "It measures the middle 50% of data and is less affected by extreme values (outliers).",
+   "options": [
+    {
+     "text": "It measures the middle 50% of data and is less affected by extreme values (outliers).",
+     "correct": true,
+     "explanation": "The IQR ignores the lowest and highest quarters of the ordered data. It therefore describes the central half and is more resistant to unusually extreme observations."
+    },
+    {
+     "text": "It measures the entire 100% of data and is more affected by extreme values (outliers).",
+     "correct": false,
+     "explanation": "The range, not the IQR, uses all data values and is strongly affected by outliers. The IQR measures the middle 50%, making it less sensitive to extremes."
+    },
+    {
+     "text": "It measures the outer 50% of data and is more affected by extreme values (outliers).",
+     "correct": false,
+     "explanation": "The IQR does not focus on the outer quarters, which are precisely where extreme values occur. It measures the middle 50% and is less affected by outliers."
+    },
+    {
+     "text": "It measures the middle 50% of data and is unaffected by all data values (observations).",
+     "correct": false,
+     "explanation": "The IQR is resistant to outliers rather than being unaffected by every data value. Changes within the middle 50% can alter $Q_1$, $Q_3$, and hence the IQR."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "12c0d098-e640-4f55-aadc-96cf30348fca",
+   "card_type": "basic",
+   "front": "Which five values are required to construct a box plot?",
+   "back": "MinimumLower Quartile ($Q_1$)MedianUpper Quartile ($Q_3$)Maximum",
+   "options": [
+    {
+     "text": "MinimumLower Quartile ($Q_1$)MedianUpper Quartile ($Q_3$)Maximum",
+     "correct": true,
+     "explanation": "A box plot displays the five-number summary: the minimum, lower quartile, median, upper quartile and maximum. These determine the whiskers, box and median line."
+    },
+    {
+     "text": "MinimumLower Quartile ($Q_1$)MeanUpper Quartile ($Q_3$)Maximum",
+     "correct": false,
+     "explanation": "The mean is not part of the standard five-number summary, so it cannot replace the median. A box plot requires the minimum, both quartiles, median and maximum."
+    },
+    {
+     "text": "MinimumLower Quartile ($Q_1$)MedianRangeMaximum",
+     "correct": false,
+     "explanation": "The range is calculated from the minimum and maximum rather than plotted as one of the five defining values. The missing required value is the upper quartile."
+    },
+    {
+     "text": "MinimumModeMedianUpper Quartile ($Q_3$)Maximum",
+     "correct": false,
+     "explanation": "The mode is not required to construct a box plot and need not be unique. The lower quartile is required alongside the minimum, median, upper quartile and maximum."
+    }
+   ],
+   "points": 3
+  },
+  {
+   "id": "d5851ba9-f98f-42f7-b538-6b853e594439",
+   "card_type": "cloze",
+   "front": "On a box plot, the middle \"box\" represents the [ ___ ], spanning from $Q_1$ to $Q_3$.",
+   "back": "On a box plot, the middle \"box\" represents the interquartile range, spanning from $Q_1$ to $Q_3$.",
+   "options": [
+    {
+     "text": "interquartile range",
+     "correct": true,
+     "explanation": "The box extends from the lower quartile $Q_1$ to the upper quartile $Q_3$. Its width therefore represents the interquartile range, $Q_3-Q_1$."
+    },
+    {
+     "text": "full data range",
+     "correct": false,
+     "explanation": "The full range extends from the minimum to the maximum and includes both whiskers as well as the box. Only the interquartile range is represented by the box."
+    },
+    {
+     "text": "lower quartile value",
+     "correct": false,
+     "explanation": "The lower quartile is a single boundary at one end of the box, not the whole region from $Q_1$ to $Q_3$. That region represents the interquartile range."
+    },
+    {
+     "text": "upper whisker range",
+     "correct": false,
+     "explanation": "The upper whisker extends from $Q_3$ towards the maximum rather than covering the middle box. The box itself represents the interquartile range."
+    }
+   ]
+  },
+  {
+   "id": "4dcc274f-b6ba-4e4b-b9df-d08aea0c9528",
+   "card_type": "basic",
+   "front": "When comparing two box plots, what does a higher median value indicate?",
+   "back": "The average or typical value of that data set is higher.",
+   "options": [
+    {
+     "text": "The average or typical value of that data set is higher.",
+     "correct": true,
+     "explanation": "The median is the central value when the data are ordered. A higher median therefore indicates a higher typical or average value for that distribution."
+    },
+    {
+     "text": "The spread or variability of that data set is greater.",
+     "correct": false,
+     "explanation": "A higher median concerns the centre, not the spread. The IQR or range must be compared to decide whether the values are more widely dispersed."
+    },
+    {
+     "text": "The maximum or largest value of that data set is higher.",
+     "correct": false,
+     "explanation": "The median does not determine the largest observation, so a distribution can have a higher median but a lower maximum. It indicates that the typical value is higher."
+    },
+    {
+     "text": "The frequency or number of values in that data set is greater.",
+     "correct": false,
+     "explanation": "A higher median does not reveal the sample size because frequency and central value are independent. It indicates that the distribution’s typical value is higher."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "6b4d89ce-6938-4bf8-bec8-e5f307c9cea3",
+   "card_type": "basic",
+   "front": "What does a smaller interquartile range (IQR) indicate when comparing two data distributions?",
+   "back": "The middle 50% of the data is more consistent (less spread out).",
+   "options": [
+    {
+     "text": "The middle 50% of the data is more consistent (less spread out).",
+     "correct": true,
+     "explanation": "The IQR measures the spread of the central half of the ordered data. A smaller IQR means those middle observations occupy a narrower interval and are more consistent."
+    },
+    {
+     "text": "The middle 50% of the data is less consistent (more spread out).",
+     "correct": false,
+     "explanation": "This reverses the interpretation of IQR: a smaller difference between $Q_1$ and $Q_3$ means less spread, so the middle 50% is more consistent."
+    },
+    {
+     "text": "The middle 50% of the data is higher overall (greater in value).",
+     "correct": false,
+     "explanation": "IQR measures spread rather than the level of the data, so it cannot show whether central values are higher. A smaller IQR means the middle 50% is more consistent."
+    },
+    {
+     "text": "The outer 50% of the data is more consistent (less extreme overall).",
+     "correct": false,
+     "explanation": "The IQR describes only the middle half and gives no direct information about how extreme the minimum or maximum is. A smaller IQR indicates greater central consistency."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "c6b2fa5d-2586-45a5-bde1-5cd5d7686dab",
+   "card_type": "cloze",
+   "front": "To compare two distributions in an exam, you must mention both a measure of [ ___ ] (the median) and a measure of spread (the IQR).",
+   "back": "To compare two distributions in an exam, you must mention both a measure of average (the median) and a measure of spread (the IQR).",
+   "options": [
+    {
+     "text": "average",
+     "correct": true,
+     "explanation": "The median describes the centre or typical level of a distribution, so it is used as a measure of average alongside the IQR as a measure of spread."
+    },
+    {
+     "text": "dispersion",
+     "correct": false,
+     "explanation": "Spread describes variability and is measured here by the IQR, not the median. The median supplies the measure of average needed for a complete comparison."
+    },
+    {
+     "text": "frequency",
+     "correct": false,
+     "explanation": "Frequency is the number of observations and is not measured by the median. The median is a measure of average, which should be compared alongside the IQR."
+    },
+    {
+     "text": "skewness",
+     "correct": false,
+     "explanation": "The median alone does not measure asymmetry or skewness. It is being used as a measure of average, while the IQR provides the measure of spread."
+    }
+   ]
+  },
+  {
+   "id": "aae8fc82-03c8-47c2-8858-9fbaec87fc02",
+   "card_type": "cloze",
+   "front": "To compare two distributions in an exam, you must mention both a measure of average (the median) and a measure of [ ___ ] (the IQR).",
+   "back": "To compare two distributions in an exam, you must mention both a measure of average (the median) and a measure of spread (the IQR).",
+   "options": [
+    {
+     "text": "spread",
+     "correct": true,
+     "explanation": "The IQR describes how spread out the middle 50% of the data is, while the median describes its average or central value. Comparing both gives a fuller description of each distribution."
+    },
+    {
+     "text": "frequency",
+     "correct": false,
+     "explanation": "Frequency tells you how often values occur, not how widely the data is distributed. The required second measure is spread, represented here by the IQR."
+    },
+    {
+     "text": "position",
+     "correct": false,
+     "explanation": "Position identifies where a value lies in an ordered data set, but it is not the measure being paired with the median here. The correct term is spread."
+    },
+    {
+     "text": "probability",
+     "correct": false,
+     "explanation": "Probability describes the likelihood of an event rather than the variation within a data set. The IQR is a measure of spread, so spread is the correct term."
+    }
+   ]
+  },
+  {
+   "id": "174a0f6e-bb38-4c35-bc2b-97eefafff7a0",
+   "card_type": "basic",
+   "front": "In the class interval $20 < t \\le 30$, does a value of 20 belong to this group?",
+   "back": "No; the inequality $t > 20$ means the value must be strictly greater than 20.",
+   "options": [
+    {
+     "text": "No; the inequality $t > 20$ means the value must be strictly greater than 20.",
+     "correct": true,
+     "explanation": "The symbol $>$ excludes 20, so only values strictly greater than 20 and up to 30 belong in this interval. A value equal to 20 is not included."
+    },
+    {
+     "text": "Yes; the inequality $t > 20$ means the value may be equal to or greater than 20.",
+     "correct": false,
+     "explanation": "This treats $t > 20$ as though it were $t \\ge 20$. The correct answer is No because the lower bound is strict, excluding a value exactly equal to 20."
+    },
+    {
+     "text": "No; the inequality $t \\le 30$ means the value must be strictly less than 30.",
+     "correct": false,
+     "explanation": "Although the answer No is correct, the explanation gives the wrong reason and misreads the upper bound. The exclusion of 20 comes from $t > 20$, meaning strictly greater than 20."
+    },
+    {
+     "text": "Yes; the interval $20 < t \\le 30$ includes all values from 20 to 30 20.",
+     "correct": false,
+     "explanation": "The lower endpoint is not included in an interval written with $t > 20$. The correct answer is No because the value must be strictly greater than 20."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "65047862-aa4a-4937-9fab-2c0d2db58463",
+   "card_type": "basic",
+   "front": "To find a quartile value from a cumulative frequency graph, do you start on the x-axis or the y-axis?",
+   "back": "The y-axis (the cumulative frequency axis).",
+   "options": [
+    {
+     "text": "The y-axis (the cumulative frequency axis).",
+     "correct": true,
+     "explanation": "Cumulative frequency is read vertically on the y-axis. Start at the required quartile frequency on that axis, move horizontally to the curve, then move down to the x-axis to read the value."
+    },
+    {
+     "text": "The x-axis (the data-value axis).",
+     "correct": false,
+     "explanation": "Starting on the x-axis reverses the graph-reading process. Begin with the quartile's cumulative frequency on the y-axis, then use the curve to find the corresponding data value."
+    },
+    {
+     "text": "The origin (the point where the axes meet).",
+     "correct": false,
+     "explanation": "The origin only represents zero on both axes and does not identify a quartile frequency. Start at the required cumulative frequency on the y-axis instead."
+    },
+    {
+     "text": "The midpoint (the centre of the graph).",
+     "correct": false,
+     "explanation": "A graph's centre has no fixed statistical meaning and will not generally represent a quartile. Use the relevant cumulative frequency on the y-axis to locate the quartile."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "1b30f9f4-0ed8-4b7d-aa80-ee4994a190e6",
+   "card_type": "cloze",
+   "front": "If a data set has a total frequency of 80, the upper quartile ($Q_3$) is found by reading the value at cumulative frequency [ ___ ].",
+   "back": "If a data set has a total frequency of 80, the upper quartile ($Q_3$) is found by reading the value at cumulative frequency 60.",
+   "options": [
+    {
+     "text": "60",
+     "correct": true,
+     "explanation": "The upper quartile is the 75th percentile. Calculating $0.75 \\times 80$ gives 60, so read the data value corresponding to cumulative frequency 60."
+    },
+    {
+     "text": "20",
+     "correct": false,
+     "explanation": "This uses one quarter of the total frequency, $0.25 \\times 80$, which locates the lower quartile $Q_1$. The upper quartile requires three quarters, giving cumulative frequency 60."
+    },
+    {
+     "text": "40",
+     "correct": false,
+     "explanation": "This takes half of the total frequency, identifying the median rather than the upper quartile. For $Q_3$, use 75% of 80, which is cumulative frequency 60."
+    },
+    {
+     "text": "80",
+     "correct": false,
+     "explanation": "Using the full frequency locates the maximum or final cumulative frequency, not the upper quartile. The upper quartile is at 75% of 80, which is 60."
+    }
+   ]
+  },
+  {
+   "id": "c0d544fc-6233-4426-8d0a-f5c6d7d00a1d",
+   "card_type": "basic",
+   "front": "Why are values read from a cumulative frequency graph considered \"estimates\"?",
+   "back": "The curve is a smooth approximation drawn between known data points.",
+   "options": [
+    {
+     "text": "The curve is a smooth approximation drawn between known data points.",
+     "correct": true,
+     "explanation": "Cumulative frequency graphs use a smooth curve to estimate values between the plotted class boundaries. Because the original grouped data is not known exactly within each class, readings are estimates."
+    },
+    {
+     "text": "The curve is an exact record of every individual data value.",
+     "correct": false,
+     "explanation": "Grouped data does not show every individual value, so the curve cannot record them exactly. It is a smooth approximation between known points, making readings estimates."
+    },
+    {
+     "text": "The curve is a straight-line calculation joining the class midpoints.",
+     "correct": false,
+     "explanation": "Cumulative frequency curves are drawn through class boundaries and are usually smooth, not based on joining class midpoints with straight lines. Therefore the readings are smooth-curve estimates."
+    },
+    {
+     "text": "The curve is a bar-chart representation of the original frequencies.",
+     "correct": false,
+     "explanation": "A cumulative frequency graph is not a bar chart of the original class frequencies. Its smooth curve approximates cumulative totals between known points, so values read from it are estimates."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "b83d44fa-1673-4395-a1bc-a70a75e0e5b3",
+   "card_type": "basic",
+   "front": "If classes are written as whole numbers (e.g., 10-19, 20-29), what value should be used as the upper bound for the first group?",
+   "back": "The class boundary, which would be 19.5.",
+   "options": [
+    {
+     "text": "The class boundary, which would be 19.5.",
+     "correct": true,
+     "explanation": "Whole-number classes such as 10-19 and 20-29 have a boundary at 19.5, separating adjacent groups without a gap. This boundary is used for cumulative frequency graphs."
+    },
+    {
+     "text": "The class midpoint, which would be 14.5.",
+     "correct": false,
+     "explanation": "The midpoint is the centre of the class and is not used as its upper bound. For the class 10-19, the upper class boundary is 19.5."
+    },
+    {
+     "text": "The class limit, which would be 20.",
+     "correct": false,
+     "explanation": "Using 20 as the first upper value leaves a discontinuity between whole-number classes when treating the data as continuous. The correct boundary between 10-19 and 20-29 is 19.5."
+    },
+    {
+     "text": "The class width, which would be 10.",
+     "correct": false,
+     "explanation": "Class width measures the size of an interval; it does not give the position of its upper bound. The first group's upper boundary is 19.5, halfway between 19 and 20."
+    }
+   ],
+   "points": 1
+  }
+ ],
+ "card_count": 22,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-6-6-15-cumulative-frequency/flashcards",
+ "source_sha256": "a3a3a5e6d869a5c7abaa8f249985144b41b7705c37880f6175245f174a133735",
+ "extracted_at": "2026-11-08T19:00:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-2 run-001)",
+ "task_id": "T-MG-FC-2"
+}

@@ -1,0 +1,73 @@
+{
+ "topic": "grade-7-7-6-algebraic-fractions",
+ "lane": "igcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "title": "Algebraic Fractions Flashcards",
+ "cards": [
+  {
+   "id": "be0f0c22-450e-493e-9941-f8c8d7d7063d",
+   "card_type": "basic",
+   "front": "What is an excluded value in an algebraic fraction?",
+   "back": "A value of $x$ that makes the denominator zero.",
+   "options": [
+    {
+     "text": "A value of $x$ that makes the denominator zero.",
+     "correct": true,
+     "explanation": "Division by zero is undefined, so any value of $x$ that makes an algebraic fraction’s denominator zero must be excluded from its domain."
+    },
+    {
+     "text": "A value of $x$ that makes the numerator zero.",
+     "correct": false,
+     "explanation": "Making the numerator zero usually makes the whole fraction zero, provided the denominator is non-zero. An excluded value instead makes the denominator zero."
+    },
+    {
+     "text": "A value of $x$ that makes the fraction equal zero.",
+     "correct": false,
+     "explanation": "A fraction can equal zero when its numerator is zero, and that value may be permitted. An excluded value specifically makes the denominator zero."
+    },
+    {
+     "text": "A value of $x$ that makes the denominator equal one.",
+     "correct": false,
+     "explanation": "A denominator of one is valid and simply leaves the numerator unchanged. Values are excluded only when they make the denominator zero, causing undefined division."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "a14bb173-c60e-4a77-82d3-7103fb0d54ff",
+   "card_type": "basic",
+   "front": "How do you find the excluded values of $\\frac{x+3}{x^2-4}$?",
+   "back": "Set the denominator to zero ($x^2-4=0$)Factorise and solve for $x$",
+   "options": [
+    {
+     "text": "Set the denominator to zero ($x^2-4=0$)Factorise and solve for $x$",
+     "correct": true,
+     "explanation": "Excluded values make the denominator zero. Factorising gives $(x-2)(x+2)=0$, so solving the two factors identifies $x=2$ and $x=-2$."
+    },
+    {
+     "text": "Set the numerator to zero ($x+3=0$)Solve the equation for $x$",
+     "correct": false,
+     "explanation": "Setting the numerator to zero finds where the fraction equals zero, not where it is undefined. Set $x^2-4=0$ instead, giving excluded values $x=2$ and $x=-2$."
+    },
+    {
+     "text": "Set the denominator to zero ($x^2-4=0$)Take the square root to get $x=2$",
+     "correct": false,
+     "explanation": "This misses the negative square root, a common error when solving $x^2=4$. Both $x=2$ and $x=-2$ make the denominator zero and are excluded."
+    },
+    {
+     "text": "Set the denominator to one ($x^2-4=1$)Rearrange and solve for $x$",
+     "correct": false,
+     "explanation": "A denominator equal to one is valid, so those solutions are not excluded. Set the denominator equal to zero and solve $x^2-4=0$, obtaining $x=2$ and $x=-2$."
+    }
+   ],
+   "points": 2
+  }
+ ],
+ "card_count": 2,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-7-7-6-algebraic-fractions/flashcards",
+ "source_sha256": "9e78c98d57d7913975c87c0502b9469f218875bc0acdf94cff114500a07b6f91",
+ "extracted_at": "2026-11-08T19:00:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-2 run-001)",
+ "task_id": "T-MG-FC-2"
+}

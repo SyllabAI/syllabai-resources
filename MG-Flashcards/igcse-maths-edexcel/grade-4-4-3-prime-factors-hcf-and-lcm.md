@@ -1,0 +1,241 @@
+# Prime Factors, HCF and LCM Flashcards
+
+_Lane: `igcse-maths-edexcel` · grade 4 · 14 cards (source: MathsGenie flashcards)_
+
+## Card 1 — `basic`
+
+**Front:** What defines a prime number?
+
+**Back:** A number that has exactly two factors: 1 and itself.
+
+**Choices:**
+
+- A number that has exactly two factors: 1 and itself. ✔
+  - _why:_ A prime number is divisible without remainder by exactly two positive integers: 1 and the number itself. Examples include 2, 3, 5 and 7.
+- A number that has exactly one factor: the number itself.
+  - _why:_ This incorrectly omits 1 as a factor of every positive integer. A prime number has exactly two factors: 1 and the number itself.
+- A number that has exactly three factors: 1, itself and one other.
+  - _why:_ Having three factors does not define a prime; for example, 4 has factors 1, 2 and 4. A prime has exactly two factors: 1 and itself.
+- A number that has only odd factors: 1 and itself.
+  - _why:_ This wrongly excludes 2, which is the only even prime number. Primality depends on having exactly two factors, not on whether those factors are odd.
+
+## Card 2 — `basic`
+
+**Front:** Why is the number 1 not classified as prime?
+
+**Back:** It only has one factor (itself), whereas primes must have exactly two.
+
+**Choices:**
+
+- It only has one factor (itself), whereas primes must have exactly two. ✔
+  - _why:_ The only positive factor of 1 is 1 itself. Prime numbers must have two distinct positive factors, namely 1 and themselves, so 1 is not prime.
+- It has two factors (zero and itself), whereas primes must have no other factors.
+  - _why:_ Zero is not a factor of 1 because division by zero is undefined. The number 1 has only one factor, itself, while primes require exactly two.
+- It is an odd number, whereas all prime numbers must be even.
+  - _why:_ This reverses the pattern: 2 is the only even prime, while many primes are odd. One is not prime because it has only one positive factor.
+- It has infinitely many factors, whereas primes must have exactly two.
+  - _why:_ One does not have infinitely many positive integer factors; its only factor is 1. Since prime numbers require exactly two factors, 1 is not prime.
+
+## Card 3 — `basic`
+
+**Front:** Distinguish between a factor and a multiple.
+
+**Back:** A factor divides into a number exactly (no remainder).A multiple is in the number's times table.
+
+**Choices:**
+
+- A factor divides into a number exactly (no remainder).A multiple is in the number's times table. ✔
+  - _why:_ Factors divide a number without leaving a remainder, whereas multiples result from multiplying the number by integers. For example, 3 is a factor of 12 and 12 is a multiple of 3.
+- A factor is in the number's times table.A multiple divides into a number exactly (no remainder).
+  - _why:_ These definitions have been reversed. A factor divides a number exactly, while a multiple is produced by multiplying the number by an integer and appears in its times table.
+- A factor divides into a number with a remainder.A multiple is smaller than the original number.
+  - _why:_ A divisor leaving a remainder is not a factor, and multiples are not defined by being smaller. Factors divide exactly, while multiples occur in the number's times table.
+- A factor is always larger than the number.A multiple always divides the number exactly.
+  - _why:_ Positive factors cannot exceed the number they divide, and a multiple need not divide the original number. Factors divide exactly; multiples are found in the number's times table.
+
+## Card 4 — `basic`
+
+**Front:** What is the Highest Common Factor (HCF)?
+
+**Back:** The biggest number that divides exactly into all given numbers.
+
+**Choices:**
+
+- The biggest number that divides exactly into all given numbers. ✔
+  - _why:_ The HCF is the greatest factor shared by every given number. It must divide each number without a remainder, and no larger common factor can do so.
+- The smallest number that divides exactly into all given numbers.
+  - _why:_ This selects 1 for almost every set of positive integers, confusing lowest with highest. The HCF is the biggest number that divides exactly into every given number.
+- The biggest number that is a multiple of all given numbers.
+  - _why:_ Common multiples continue indefinitely, so there is no biggest one. The HCF concerns division and is the biggest number that divides exactly into all the given numbers.
+- The biggest prime number that divides exactly into all given numbers.
+  - _why:_ The HCF does not have to be prime; for example, the HCF of 12 and 20 is 4. It is the biggest common factor of any kind.
+
+## Card 5 — `basic`
+
+**Front:** How do you find the HCF using prime factorisations?
+
+**Back:** Identify the prime factors shared by all numbers.Multiply the smallest power of each shared prime.
+
+**Choices:**
+
+- Identify the prime factors shared by all numbers.Multiply the smallest power of each shared prime. ✔
+  - _why:_ Only primes present in every factorisation can belong to the HCF. Taking each one's smallest power ensures the result divides all the original numbers exactly.
+- Identify the prime factors shared by all numbers.Multiply the largest power of each shared prime.
+  - _why:_ Choosing the largest powers can produce a number that does not divide every original number. For the HCF, use each shared prime raised to its smallest occurring power.
+- Identify the prime factors appearing in any number.Multiply the largest power of each appearing prime.
+  - _why:_ This is the method for finding the LCM, not the HCF. The HCF uses only primes shared by every number and takes their smallest powers.
+- Identify the prime factors shared by all numbers.Add the smallest power of each shared prime.
+  - _why:_ Prime factors must be multiplied, not added, to reconstruct a factor. The HCF is found by multiplying the smallest powers of all primes shared by every number.
+
+## Card 6 — `basic`
+
+**Front:** What is the Lowest Common Multiple (LCM)?
+
+**Back:** The smallest positive number that is a multiple of all given numbers.
+
+**Choices:**
+
+- The smallest positive number that is a multiple of all given numbers. ✔
+  - _why:_ The LCM is the first positive number appearing in every given number's list of multiples. It is divisible by each original number without a remainder.
+- The largest positive number that is a multiple of all given numbers.
+  - _why:_ There is no largest common multiple because further common multiples can always be produced. The LCM is the smallest positive number that is a multiple of every given number.
+- The smallest positive number that divides exactly into all given numbers.
+  - _why:_ This describes a common factor and would usually give 1, not the LCM. The LCM is the smallest positive number divisible by all the given numbers.
+- The largest positive number that divides exactly into all given numbers.
+  - _why:_ This defines the HCF rather than the LCM. The LCM is the smallest positive common multiple, while the HCF is the greatest common divisor.
+
+## Card 7 — `basic`
+
+**Front:** How do you find the LCM using prime factorisations?
+
+**Back:** Identify every prime factor that appears in any of the numbers.Multiply the largest power of each of those primes.
+
+**Choices:**
+
+- Identify every prime factor that appears in any of the numbers.Multiply the largest power of each of those primes. ✔
+  - _why:_ Including every prime ensures the result contains all required factors. Choosing the largest power present makes the result divisible by each original number while remaining as small as possible.
+- Identify every prime factor that appears in any of the numbers.Multiply the smallest power of each of those primes.
+  - _why:_ Using the smallest powers can omit factors needed for divisibility by the original numbers. The LCM requires the largest power of every prime appearing in any factorisation.
+- Identify only shared prime factors that appear in all of the numbers.Multiply the smallest power of each of those primes.
+  - _why:_ This is the method for finding the HCF, not the LCM. The LCM includes every prime appearing anywhere and uses the largest power of each.
+- Identify every prime factor that appears in any of the numbers.Add the largest power of each of those primes.
+  - _why:_ Prime powers must be multiplied rather than added to construct the common multiple. The LCM uses every appearing prime at its largest power and multiplies these powers together.
+
+## Card 8 — `basic`
+
+**Front:** When solving problems about buses or alarms repeating at different intervals, which mathematical value is required?
+
+**Back:** The Lowest Common Multiple (LCM) of the intervals.
+
+**Choices:**
+
+- The Lowest Common Multiple (LCM) of the intervals. ✔
+  - _why:_ Each event repeats at multiples of its interval. The first time all events occur together again is therefore the lowest positive multiple shared by all the intervals.
+- The Highest Common Factor (HCF) of the intervals.
+  - _why:_ The HCF would identify a common subdivision of the intervals, not when events next coincide. Repeating events occur together again after the LCM of their intervals.
+- The product of all the values of the intervals.
+  - _why:_ Multiplying the intervals may give a common multiple, but it is not necessarily the lowest one because shared factors are counted repeatedly. The required value is the LCM.
+- The smallest individual value of the intervals.
+  - _why:_ The shortest interval gives the next occurrence of only one repeating event, not necessarily all of them together. Their next coincidence is found using the LCM.
+
+## Card 9 — `basic`
+
+**Front:** Find the HCF of $2^4 \times 3$ and $2^3 \times 3^2$.
+
+**Back:** $$2^3 \times 3 = 24$
+
+**Choices:**
+
+- $$2^3 \times 3 = 24$ ✔
+  - _why:_ An HCF uses the lowest power of each shared prime. The minimum powers are $2^3$ and $3^1$, giving $2^3 \times 3 = 24$.
+- $$2^4 \times 3 = 48$
+  - _why:_ Using $2^4$ takes the exponent from the first number rather than the lower shared exponent. The HCF is $2^3 \times 3 = 24$.
+- $$2^3 \times 3^2 = 72$
+  - _why:_ Using $3^2$ takes the exponent from the second number, but the first contains only one factor of 3. The HCF is $2^3 \times 3 = 24$.
+- $$2^4 \times 3^2 = 144$
+  - _why:_ Taking the highest exponent of every prime finds the LCM, not the HCF. The lowest shared powers give $2^3 \times 3 = 24$.
+
+## Card 10 — `basic`
+
+**Front:** Find the LCM of $2^3$ and $2^2 \times 3$.
+
+**Back:** $$2^3 \times 3 = 24$
+
+**Choices:**
+
+- $$2^3 \times 3 = 24$ ✔
+  - _why:_ An LCM uses the highest power of every prime present. These are $2^3$ and $3^1$, so the LCM is $2^3 \times 3 = 24$.
+- $$2^2 = 4$
+  - _why:_ Taking only the lower shared power of 2 gives the HCF rather than the LCM. The required highest powers give $2^3 \times 3 = 24$.
+- $$2^5 \times 3 = 96$
+  - _why:_ Multiplying the two original expressions counts their shared factor $2^2$ twice, making the result unnecessarily large. The LCM is $2^3 \times 3 = 24$.
+- $$2^3 = 8$
+  - _why:_ Omitting 3 gives a number that is not divisible by $2^2 \times 3$. Including every prime at its highest power gives $2^3 \times 3 = 24$.
+
+## Card 11 — `basic`
+
+**Front:** What does it mean for two numbers to be coprime?
+
+**Back:** Their Highest Common Factor (HCF) is 1.
+
+**Choices:**
+
+- Their Highest Common Factor (HCF) is 1. ✔
+  - _why:_ Coprime numbers have no common factor greater than 1. They may each have several prime factors, provided none of those prime factors is shared.
+- Their Lowest Common Multiple (LCM) is 1.
+  - _why:_ An LCM is generally greater than 1 and does not define whether numbers are coprime. Two numbers are coprime when their Highest Common Factor is 1.
+- They have no prime factors at all.
+  - _why:_ Coprime numbers can have prime factors, such as 8 and 15; they simply cannot share any. Their Highest Common Factor must be 1.
+- They are both prime numbers.
+  - _why:_ Two numbers need not both be prime to be coprime; for example, 8 and 15 are composite and coprime. Their Highest Common Factor is 1.
+
+## Card 12 — `basic`
+
+**Front:** When given the HCF and LCM and asked to find the original numbers, what is the first step?
+
+**Back:** Divide the LCM by the HCF.
+
+**Choices:**
+
+- Divide the LCM by the HCF. ✔
+  - _why:_ Dividing the LCM by the HCF gives the product of the remaining coprime factors. Those factors can then be distributed to reconstruct the original numbers.
+- Multiply the LCM by the HCF.
+  - _why:_ Multiplication does not isolate the factors remaining after the shared HCF is removed. First divide the LCM by the HCF to obtain their product.
+- Divide the HCF by the LCM.
+  - _why:_ Reversing the division usually produces a fraction and does not reveal the remaining factors. The correct first step is to divide the LCM by the HCF.
+- Subtract the HCF from the LCM.
+  - _why:_ Subtraction has no useful relationship to the prime factors of the original numbers. First divide the LCM by the HCF to find the remaining factor product.
+
+## Card 13 — `basic`
+
+**Front:** Why is multiplying the original numbers together often an incorrect way to find the LCM?
+
+**Back:** It produces a common multiple, but it is only the lowest if the numbers share no common factors.
+
+**Choices:**
+
+- It produces a common multiple, but it is only the lowest if the numbers share no common factors. ✔
+  - _why:_ The identity $a \times b = \mathrm{HCF} \times \mathrm{LCM}$ shows that the product exceeds the LCM when the HCF exceeds 1. Equality occurs only for coprime numbers.
+- It produces a common multiple, and it is always the lowest because both numbers divide it.
+  - _why:_ Being divisible by both original numbers proves only that the product is a common multiple, not the lowest one. It equals the LCM only when the HCF is 1.
+- It produces a common factor, rather than a multiple, if the numbers share any common factors.
+  - _why:_ The product is always a multiple of both original numbers, never merely a common factor. Shared factors make that product larger than the LCM because they are counted twice.
+- It produces a common multiple, but it is only the lowest if the numbers share at least one common factor.
+  - _why:_ This reverses the condition: shared factors are duplicated when the numbers are multiplied, making the product too large. The product is the LCM when no factors are shared.
+
+## Card 14 — `basic`
+
+**Front:** Find the HCF of $A = 2^2 \times 5$ and $B = 2^3 \times 3$.
+
+**Back:** $$2^2 = 4$
+
+**Choices:**
+
+- $$2^2 = 4$ ✔
+  - _why:_ The only shared prime is 2, and the lower exponent is 2. Therefore the HCF is $2^2 = 4$; neither 3 nor 5 is shared.
+- $$2^3 = 8$
+  - _why:_ Using the higher exponent of 2 is an LCM-style error. Since $A$ contains only $2^2$, the greatest shared power is $2^2 = 4$.
+- $$2^2 \times 3 = 12$
+  - _why:_ Although $2^2$ is shared, 3 appears only in $B$, so 12 is not a factor of $A$. The HCF is $2^2 = 4$.
+- $$2^2 \times 5 = 20$
+  - _why:_ This simply reproduces $A$ and incorrectly includes 5, which is not a factor of $B$. Only $2^2$ is shared, so the HCF is 4.

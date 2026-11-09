@@ -1,0 +1,645 @@
+{
+ "topic": "grade-3-3-2-estimating",
+ "lane": "igcse-maths-edexcel",
+ "grade": "3",
+ "tier": null,
+ "title": "Estimating Flashcards",
+ "cards": [
+  {
+   "id": "3caf9dbb-37ae-4fb7-9aca-01a1d80ecce5",
+   "card_type": "cloze",
+   "front": "For most IGCSE estimating questions, round each number to [ ___ ] before calculating.",
+   "back": "For most IGCSE estimating questions, round each number to one significant figure before calculating.",
+   "options": [
+    {
+     "text": "one significant figure",
+     "correct": true,
+     "explanation": "Rounding each value to one significant figure usually makes the arithmetic simple while keeping the estimate reasonably close to the exact answer."
+    },
+    {
+     "text": "one decimal place",
+     "correct": false,
+     "explanation": "Decimal places count digits after the decimal point, so this method does not simplify numbers consistently. For standard estimates, round each number to one significant figure."
+    },
+    {
+     "text": "two significant figures",
+     "correct": false,
+     "explanation": "Two significant figures may leave unnecessarily difficult arithmetic and is not the usual IGCSE estimation convention. The values should normally be rounded to one significant figure."
+    },
+    {
+     "text": "the nearest integer",
+     "correct": false,
+     "explanation": "Rounding to integers can turn small decimals into zero and make an estimate meaningless. IGCSE estimating questions usually require rounding each value to one significant figure."
+    }
+   ]
+  },
+  {
+   "id": "68049d68-b256-43ff-9ba2-c6f1b0f830f1",
+   "card_type": "cloze",
+   "front": "The first significant figure of a number is the first [ ___ ] digit.",
+   "back": "The first significant figure of a number is the first non-zero digit.",
+   "options": [
+    {
+     "text": "non-zero",
+     "correct": true,
+     "explanation": "Leading zeros only show place value, so the first significant figure is the first digit that is not zero when reading from left to right."
+    },
+    {
+     "text": "decimal",
+     "correct": false,
+     "explanation": "The first digit after a decimal point may be zero and therefore not significant. The first significant figure is the first non-zero digit."
+    },
+    {
+     "text": "left-hand",
+     "correct": false,
+     "explanation": "The leftmost digit can be a leading zero, especially in a decimal less than 1. The first significant figure is specifically the first non-zero digit."
+    },
+    {
+     "text": "even-numbered",
+     "correct": false,
+     "explanation": "Whether a digit is even or odd has no effect on significance. The first significant figure is the first non-zero digit in the number."
+    }
+   ]
+  },
+  {
+   "id": "42b4bfd0-cb75-412e-bfa5-87e82d398133",
+   "card_type": "basic",
+   "front": "What is the result of rounding 0.196 to one significant figure?",
+   "back": "0.2",
+   "options": [
+    {
+     "text": "0.2",
+     "correct": true,
+     "explanation": "The first significant digit is 1, and the next digit is 9, so 1 rounds up to 2. Therefore, 0.196 becomes 0.2."
+    },
+    {
+     "text": "0.1",
+     "correct": false,
+     "explanation": "This truncates the number without using the next digit. Since the second significant digit is 9, the first digit rounds up, giving 0.2."
+    },
+    {
+     "text": "0.02",
+     "correct": false,
+     "explanation": "This shifts the place value of the significant digit and makes the result ten times too small. Rounding 0.196 to one significant figure gives 0.2."
+    },
+    {
+     "text": "0.19",
+     "correct": false,
+     "explanation": "This keeps two significant figures and also fails to round using the following digit. To one significant figure, 0.196 rounds to 0.2."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "f3799dc1-9b3c-4412-a334-d487844a9e9e",
+   "card_type": "basic",
+   "front": "What is the result of rounding 431.1 to one significant figure?",
+   "back": "400",
+   "options": [
+    {
+     "text": "400",
+     "correct": true,
+     "explanation": "The first significant digit is 4, and the next digit is 3. Since 3 is below 5, 431.1 rounds down to 400."
+    },
+    {
+     "text": "430",
+     "correct": false,
+     "explanation": "This is 431.1 rounded to two significant figures, not one. Keeping only the first significant digit gives 400 because the following digit is 3."
+    },
+    {
+     "text": "431",
+     "correct": false,
+     "explanation": "This rounds to the nearest integer and keeps three significant figures. For one significant figure, the 3 does not round the 4 up, so the result is 400."
+    },
+    {
+     "text": "500",
+     "correct": false,
+     "explanation": "This incorrectly rounds up even though the second significant digit is 3. A digit below 5 leaves the first digit unchanged, giving 400."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "359621a6-ad9a-489a-b98e-c11f73de03ce",
+   "card_type": "cloze",
+   "front": "In a number like $0.049$, the zeros before the 4 are only [ ___ ].",
+   "back": "In a number like $0.049$, the zeros before the 4 are only placeholders.",
+   "options": [
+    {
+     "text": "placeholders",
+     "correct": true,
+     "explanation": "The zeros locate the decimal places but do not contribute to the measured precision. The first significant digit in $0.049$ is therefore 4."
+    },
+    {
+     "text": "significant figures",
+     "correct": false,
+     "explanation": "Leading zeros only indicate place value and are not counted as significant figures. In $0.049$, the first significant digit is 4, so the zeros are placeholders."
+    },
+    {
+     "text": "decimal values",
+     "correct": false,
+     "explanation": "The zeros are digits used to position the 4 correctly, rather than separate decimal values. They are placeholders and do not count as significant figures."
+    },
+    {
+     "text": "rounding digits",
+     "correct": false,
+     "explanation": "A rounding digit is the digit inspected after the required accuracy has been chosen. The leading zeros in $0.049$ simply act as placeholders."
+    }
+   ]
+  },
+  {
+   "id": "7eb40153-4d56-46c5-8843-39ff7b2159a0",
+   "card_type": "basic",
+   "front": "When estimating a calculation involving multiple numbers, when should you round the values?",
+   "back": "Before performing any calculations.",
+   "options": [
+    {
+     "text": "Before performing any calculations.",
+     "correct": true,
+     "explanation": "Estimating requires simplifying the original values first and then calculating with those rounded values. This ensures that the resulting answer is genuinely an estimate."
+    },
+    {
+     "text": "After performing all calculations.",
+     "correct": false,
+     "explanation": "Rounding only after calculating produces a rounded exact answer, not an estimate. The values must be rounded before performing any calculations."
+    },
+    {
+     "text": "During each calculation step.",
+     "correct": false,
+     "explanation": "Repeated rounding during the working can introduce extra errors and does not follow the standard estimation method. Round the original values before performing any calculations."
+    },
+    {
+     "text": "Between the calculation steps.",
+     "correct": false,
+     "explanation": "Rounding intermediate results confuses estimation with step-by-step approximation. For a standard estimate, round all given values before carrying out the calculation."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "62e2293c-c285-4882-8879-155de0adfd68",
+   "card_type": "basic",
+   "front": "Estimate the value of $\\frac{49.3 \\times 58.7}{9.8}$.",
+   "back": "Round to $\\frac{50 \\times 60}{10}$$3000 \\div 10 = 300$",
+   "options": [
+    {
+     "text": "Round to $\\frac{50 \\times 60}{10}$$3000 \\div 10 = 300$",
+     "correct": true,
+     "explanation": "Each number rounds to one significant figure: $49.3$ to $50$, $58.7$ to $60$, and $9.8$ to $10$. The resulting estimate is $300$."
+    },
+    {
+     "text": "Round to $\\frac{50 \\times 60}{1}$$3000 \\div 1 = 3000$",
+     "correct": false,
+     "explanation": "Rounding $9.8$ to $1$ loses its place value; to one significant figure it is $10$. The correct simplified calculation gives an estimate of $300$."
+    },
+    {
+     "text": "Round to $\\frac{40 \\times 50}{10}$$2000 \\div 10 = 200$",
+     "correct": false,
+     "explanation": "This rounds both numerator values down rather than to the nearest significant figure. They should become $50$ and $60$, producing the estimate $300$."
+    },
+    {
+     "text": "Round to $\\frac{50 \\times 60}{100}$$3000 \\div 100 = 30$",
+     "correct": false,
+     "explanation": "Rounding $9.8$ to $100$ introduces a place-value error of a factor of ten. It should round to $10$, so the estimate is $300$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "8b23f4e4-d8be-4bf0-96a2-7839e6a7b899",
+   "card_type": "basic",
+   "front": "How does dividing by 0.2 affect the size of a number?",
+   "back": "It makes the number larger (equivalent to multiplying by 5).",
+   "options": [
+    {
+     "text": "It makes the number larger (equivalent to multiplying by 5).",
+     "correct": true,
+     "explanation": "Since $0.2 = \\frac{1}{5}$, dividing by $0.2$ is the same as multiplying by its reciprocal, 5. The original number therefore becomes larger."
+    },
+    {
+     "text": "It makes the number smaller (equivalent to dividing by 5).",
+     "correct": false,
+     "explanation": "This confuses dividing by one fifth with dividing by five. Since $0.2 = \\frac{1}{5}$, division by $0.2$ multiplies the number by 5."
+    },
+    {
+     "text": "It makes the number larger (equivalent to multiplying by 2).",
+     "correct": false,
+     "explanation": "The multiplier must be the reciprocal of $0.2$, which is 5 rather than 2. Dividing by $0.2$ therefore makes the number five times larger."
+    },
+    {
+     "text": "It makes the number smaller (equivalent to multiplying by 0.2).",
+     "correct": false,
+     "explanation": "This treats division by $0.2$ as multiplication by $0.2$. Division uses the reciprocal, so it is equivalent to multiplying by 5 and makes the number larger."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "68bad58f-2889-40bd-9636-ad1408ef557e",
+   "card_type": "basic",
+   "front": "Estimate the value of $\\frac{7.9 + 22.6}{0.204}$.",
+   "back": "Round to $\\frac{8 + 20}{0.2}$$28 \\div 0.2 = 140$",
+   "options": [
+    {
+     "text": "Round to $\\frac{8 + 20}{0.2}$$28 \\div 0.2 = 140$",
+     "correct": true,
+     "explanation": "Rounding each number to one significant figure gives $8$, $20$ and $0.2$. Dividing $28$ by $0.2$ gives the suitable estimate of $140$."
+    },
+    {
+     "text": "Round to $\\frac{8 + 20}{0.02}$$28 \\div 0.02 = 1400$",
+     "correct": false,
+     "explanation": "The denominator has been rounded to the wrong place value: $0.204$ rounds to $0.2$, not $0.02$. The correct estimate is therefore $28 \\div 0.2 = 140$."
+    },
+    {
+     "text": "Round to $\\frac{8 + 20}{2}$$28 \\div 2 = 14$",
+     "correct": false,
+     "explanation": "This loses the decimal place when rounding $0.204$; it should become $0.2$, not $2$. Using the correct denominator gives $28 \\div 0.2 = 140$."
+    },
+    {
+     "text": "Round to $\\frac{8 + 30}{0.2}$$38 \\div 0.2 = 190$",
+     "correct": false,
+     "explanation": "Rounding $22.6$ to one significant figure gives $20$, not $30$. The numerator should be $8 + 20 = 28$, producing an estimate of $140$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "2153e72a-3187-4bc6-b7ce-e9fe9e3853ad",
+   "card_type": "basic",
+   "front": "How should you round a value under a square root (e.g. $\\sqrt{97.6}$) when estimating?",
+   "back": "Round it to the nearest square number (e.g. $\\sqrt{100} = 10$).",
+   "options": [
+    {
+     "text": "Round it to the nearest square number (e.g. $\\sqrt{100} = 10$).",
+     "correct": true,
+     "explanation": "A square number has an integer square root, making the calculation easy without a calculator. Since $97.6$ is close to $100$, its square root is approximately $10$."
+    },
+    {
+     "text": "Round it to the nearest cube number (e.g. $\\sqrt{125} \\approx 11$).",
+     "correct": false,
+     "explanation": "Cube numbers are useful when estimating cube roots, not square roots. For a square root, round to a nearby square number, such as $100$, giving $\\sqrt{100} = 10$."
+    },
+    {
+     "text": "Round it to the nearest whole number (e.g. $\\sqrt{98} \\approx 10$).",
+     "correct": false,
+     "explanation": "A whole number does not necessarily have an easy square root, so this rounding may not simplify the calculation. Use the nearest square number, such as $100$."
+    },
+    {
+     "text": "Round it to the nearest power of two (e.g. $\\sqrt{128} \\approx 11$).",
+     "correct": false,
+     "explanation": "Powers of two are not generally easy to square-root mentally. The useful nearby values are square numbers, so $97.6$ should be rounded to $100$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "922704cb-d12c-490a-a41e-e215451493af",
+   "card_type": "basic",
+   "front": "Why is an estimate useful when using a calculator?",
+   "back": "To check if the calculator answer is a sensible/reasonable size.",
+   "options": [
+    {
+     "text": "To check if the calculator answer is a sensible/reasonable size.",
+     "correct": true,
+     "explanation": "An estimate gives an expected approximate size for the result. Comparing it with the calculator answer helps reveal typing errors, incorrect operations or misplaced decimal points."
+    },
+    {
+     "text": "To check if the calculator answer has the maximum possible accuracy.",
+     "correct": false,
+     "explanation": "Estimation checks the approximate size of an answer, not its accuracy to many decimal places. Its purpose is to confirm that the calculator result is sensible and reasonable."
+    },
+    {
+     "text": "To replace the calculator answer with an exact whole-number result.",
+     "correct": false,
+     "explanation": "An estimate is approximate and does not replace an exact calculator result. It is used to check whether the calculated answer has a sensible or reasonable size."
+    },
+    {
+     "text": "To determine how many digits the calculator should display on its screen.",
+     "correct": false,
+     "explanation": "The number of displayed digits depends on the calculator and required accuracy, not the estimate. Estimation instead checks whether the final answer is a sensible size."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "f9d3a349-0016-4222-9883-7b83aad7363d",
+   "card_type": "basic",
+   "front": "An estimate uses $10 \\times 40$ to calculate $9.82 \\times 38$. Is this an overestimate or underestimate?",
+   "back": "Overestimate because both values were rounded up.",
+   "options": [
+    {
+     "text": "Overestimate because both values were rounded up.",
+     "correct": true,
+     "explanation": "Both factors increase: $9.82$ becomes $10$ and $38$ becomes $40$. Multiplying two larger positive values produces a result greater than the exact product."
+    },
+    {
+     "text": "Underestimate because both values were rounded up.",
+     "correct": false,
+     "explanation": "Rounding both positive factors upwards makes their product larger, not smaller. Therefore $10 \\times 40$ is an overestimate of $9.82 \\times 38$."
+    },
+    {
+     "text": "Underestimate because both values were rounded down.",
+     "correct": false,
+     "explanation": "Neither value was rounded down: $9.82$ increased to $10$ and $38$ increased to $40$. The product is consequently an overestimate."
+    },
+    {
+     "text": "Exact estimate because the rounding errors cancel out.",
+     "correct": false,
+     "explanation": "The rounding errors do not cancel because both values were increased. Their effects reinforce each other, making $10 \\times 40$ an overestimate rather than the exact product."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "f3565f2d-82db-4bcc-a5e7-2624ea7f49db",
+   "card_type": "basic",
+   "front": "If the cost of an item is 3.1 pence, what rounded value should be used to estimate the total cost in pounds?",
+   "back": "3 pence (later divided by 100 to convert to pounds).",
+   "options": [
+    {
+     "text": "3 pence (later divided by 100 to convert to pounds).",
+     "correct": true,
+     "explanation": "Rounding $3.1$ pence to one significant figure gives $3$ pence. Because there are $100$ pence in one pound, the total in pence is divided by $100$."
+    },
+    {
+     "text": "3 pence (later multiplied by 100 to convert to pounds).",
+     "correct": false,
+     "explanation": "Multiplying by $100$ converts pounds to pence, so the conversion direction has been reversed. After estimating with $3$ pence, divide the total by $100$ to obtain pounds."
+    },
+    {
+     "text": "30 pence (later divided by 100 to convert to pounds).",
+     "correct": false,
+     "explanation": "This shifts the decimal point and makes the estimated cost ten times too large. The item should be estimated as $3$ pence, then the total divided by $100$."
+    },
+    {
+     "text": "3.1 pence (later divided by 100 to convert to pounds).",
+     "correct": false,
+     "explanation": "Keeping $3.1$ does not perform the intended rounding for a simple estimate. Use $3$ pence per item, then divide the total number of pence by $100$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "65cff510-1703-44a9-b2de-d270aa9b3d2b",
+   "card_type": "cloze",
+   "front": "In division, making the denominator [ ___ ] makes the final estimate smaller.",
+   "back": "In division, making the denominator bigger makes the final estimate smaller.",
+   "options": [
+    {
+     "text": "bigger",
+     "correct": true,
+     "explanation": "For a fixed positive numerator, dividing by a larger denominator produces a smaller quotient. Therefore making the denominator bigger makes the final estimate smaller."
+    },
+    {
+     "text": "smaller",
+     "correct": false,
+     "explanation": "A smaller denominator makes a positive quotient larger because the numerator is split into fewer denominator-sized parts. The denominator must become bigger to make the estimate smaller."
+    },
+    {
+     "text": "unchanged",
+     "correct": false,
+     "explanation": "Changing only the denominator changes the value of the quotient. To make a positive division result smaller while keeping the numerator fixed, the denominator must be bigger."
+    },
+    {
+     "text": "negative",
+     "correct": false,
+     "explanation": "Making a denominator negative changes the sign rather than simply reducing the estimated magnitude. For positive quantities, a bigger denominator produces the required smaller estimate."
+    }
+   ]
+  },
+  {
+   "id": "7393b485-2acb-4f6c-81ff-d0e41c8d78fe",
+   "card_type": "cloze",
+   "front": "In division, making the denominator bigger makes the final estimate [ ___ ].",
+   "back": "In division, making the denominator bigger makes the final estimate smaller.",
+   "options": [
+    {
+     "text": "smaller",
+     "correct": true,
+     "explanation": "With a fixed positive numerator, increasing the denominator reduces the quotient. The same amount is divided into more or larger parts, so the final estimate becomes smaller."
+    },
+    {
+     "text": "bigger",
+     "correct": false,
+     "explanation": "This reverses the relationship between denominator and quotient. When the positive numerator stays fixed, making the denominator bigger makes the division result smaller, not bigger."
+    },
+    {
+     "text": "unchanged",
+     "correct": false,
+     "explanation": "The quotient remains unchanged only if numerator and denominator are scaled by the same factor. Increasing the denominator alone makes the final estimate smaller."
+    },
+    {
+     "text": "negative",
+     "correct": false,
+     "explanation": "Increasing a positive denominator does not change the sign of the quotient. It reduces the quotient’s size, so the final estimate becomes smaller rather than negative."
+    }
+   ]
+  },
+  {
+   "id": "b4d4046b-51c7-478d-b7c1-b1866288cfa7",
+   "card_type": "basic",
+   "front": "When estimating the area of a circle ($A = \\pi r^2$) without a calculator, what value is typically used for $\\pi$?",
+   "back": "3",
+   "options": [
+    {
+     "text": "3",
+     "correct": true,
+     "explanation": "For a quick calculation without a calculator, $\\pi$ is commonly estimated as $3$. This makes the circle area approximately $3r^2$ and allows straightforward mental arithmetic."
+    },
+    {
+     "text": "4",
+     "correct": false,
+     "explanation": "Using $4$ overestimates $\\pi$ by a substantial amount and makes the estimated area too large. The typical simple value used for $\\pi$ is $3$."
+    },
+    {
+     "text": "2",
+     "correct": false,
+     "explanation": "Using $2$ underestimates $\\pi$ considerably, so the estimated circle area would be much too small. The standard simple estimate for $\\pi$ is $3$."
+    },
+    {
+     "text": "10",
+     "correct": false,
+     "explanation": "Using $10$ confuses rounding with replacing $\\pi$ by a convenient power of ten and greatly overestimates the area. The usual mental estimate is $\\pi \\approx 3$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "72c1e0e7-c6ae-4de0-9171-630332bb261b",
+   "card_type": "cloze",
+   "front": "Rounding the amount being subtracted [ ___ ] results in an underestimate of the final value.",
+   "back": "Rounding the amount being subtracted up results in an underestimate of the final value.",
+   "options": [
+    {
+     "text": "up",
+     "correct": true,
+     "explanation": "Subtracting a larger rounded amount removes too much from the original value, so the resulting estimate is smaller than the exact final value."
+    },
+    {
+     "text": "down",
+     "correct": false,
+     "explanation": "Reducing the amount subtracted removes too little, making the final estimate too large. Rounding the subtracted amount up gives the underestimate because more is taken away."
+    },
+    {
+     "text": "unchanged",
+     "correct": false,
+     "explanation": "Keeping the subtracted amount unchanged does not describe the rounding effect. The estimate becomes too small specifically when the amount being subtracted is rounded up."
+    },
+    {
+     "text": "over",
+     "correct": false,
+     "explanation": "Rounding the subtracted amount upwards makes the subtraction larger, so the final result decreases. The resulting estimate is therefore an underestimate, not an overestimate."
+    }
+   ]
+  },
+  {
+   "id": "d584d62b-60c8-4328-9cfe-ba82f1e86877",
+   "card_type": "cloze",
+   "front": "Rounding the amount being subtracted up results in an [ ___ ] of the final value.",
+   "back": "Rounding the amount being subtracted up results in an underestimate of the final value.",
+   "options": [
+    {
+     "text": "underestimate",
+     "correct": true,
+     "explanation": "Increasing the amount removed from the original value makes the calculated final result smaller than the exact result, so the estimate is an underestimate."
+    },
+    {
+     "text": "overestimate",
+     "correct": false,
+     "explanation": "A larger subtracted amount lowers the final result rather than raising it. Rounding the amount being subtracted up therefore produces an underestimate."
+    },
+    {
+     "text": "equal",
+     "correct": false,
+     "explanation": "Rounding changes the amount removed, so the estimated final value will not generally equal the exact value. Increasing the subtraction makes the result too small."
+    },
+    {
+     "text": "approximation",
+     "correct": false,
+     "explanation": "This describes the general process rather than the direction of the error. Removing too much causes the final estimate to be an underestimate."
+    }
+   ]
+  },
+  {
+   "id": "7308f29e-5038-4aaf-9b67-a7b3f045a823",
+   "card_type": "basic",
+   "front": "Estimate the area of a rectangle ($6.18$ m by $4.27$ m) with a square (side $1.86$ m) removed.",
+   "back": "$(6 \\times 4) - 2^2$$24 - 4 = 20$ m$^2$",
+   "options": [
+    {
+     "text": "$(6 \\times 4) - 2^2$$24 - 4 = 20$ m$^2$",
+     "correct": true,
+     "explanation": "Round the rectangle dimensions to $6$ m and $4$ m, and the removed square’s side to $2$ m. The estimate is $24 - 4 = 20$ m$^2$."
+    },
+    {
+     "text": "$(6 \\times 4) - 1^2$$24 - 1 = 23$ m$^2$",
+     "correct": false,
+     "explanation": "The removed square has side approximately $2$ m, not $1$ m. Using $2^2$ gives an area of $4$ m$^2$, so the estimated remaining area is $20$ m$^2$."
+    },
+    {
+     "text": "$(6 \\times 4) - 3^2$$24 - 9 = 15$ m$^2$",
+     "correct": false,
+     "explanation": "The square’s side rounds to $2$ m at the required level, not $3$ m. Its estimated area is therefore $4$ m$^2$, leaving $20$ m$^2$."
+    },
+    {
+     "text": "$(6 \\times 5) - 2^2$$30 - 4 = 26$ m$^2$",
+     "correct": false,
+     "explanation": "The rectangle’s second dimension, $4.27$ m, rounds to $4$ m rather than $5$ m. Thus the rectangle is estimated as $24$ m$^2$, giving $20$ m$^2$ after removal."
+    }
+   ],
+   "points": 3
+  },
+  {
+   "id": "adc6694f-e980-430b-9706-0f9f9b17abe8",
+   "card_type": "basic",
+   "front": "What approximation is used for the number of days in a year for time-based estimates?",
+   "back": "365 (or 400 if rounding to 1sf).",
+   "options": [
+    {
+     "text": "365 (or 400 if rounding to 1sf).",
+     "correct": true,
+     "explanation": "A year is normally approximated as $365$ days. If values are rounded to $1$ significant figure, $365$ rounds to $400$ days."
+    },
+    {
+     "text": "360 (or 400 if rounding to 1sf).",
+     "correct": false,
+     "explanation": "Using $360$ treats a year as twelve equal thirty-day months, which is a different approximation. The stated estimate uses $365$, or $400$ when rounding to $1$ significant figure."
+    },
+    {
+     "text": "365 (or 300 if rounding to 1sf).",
+     "correct": false,
+     "explanation": "The unrounded approximation is suitable, but $365$ rounds to $400$ to $1$ significant figure because its first digit is followed by a digit of $6$."
+    },
+    {
+     "text": "360 (or 300 if rounding to 1sf).",
+     "correct": false,
+     "explanation": "Both parts use unsuitable approximations for this method. The expected values are $365$ days, or $400$ days when $365$ is rounded to $1$ significant figure."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "be1dcc30-3b40-4862-ac4c-5dfd5b5a0ed2",
+   "card_type": "cloze",
+   "front": "To find how many times an event happens in a year, [ ___ ] the total seconds in a year by the seconds per event.",
+   "back": "To find how many times an event happens in a year, divide the total seconds in a year by the seconds per event.",
+   "options": [
+    {
+     "text": "divide",
+     "correct": true,
+     "explanation": "Dividing the total available seconds by the seconds required for one event gives the number of complete event intervals that fit into the year."
+    },
+    {
+     "text": "multiply",
+     "correct": false,
+     "explanation": "Multiplying combines the two time quantities and produces the wrong scale for a frequency. The number of events is found by dividing total seconds by seconds per event."
+    },
+    {
+     "text": "add",
+     "correct": false,
+     "explanation": "Adding the times does not count how many event intervals fit into the year. Division is needed to compare the total duration with the duration of one event."
+    },
+    {
+     "text": "subtract",
+     "correct": false,
+     "explanation": "Subtracting removes one duration from another but does not determine how many repeated events occur. Dividing the yearly total by the duration of one event gives the count."
+    }
+   ]
+  },
+  {
+   "id": "8167c39d-e0aa-4054-b7ec-ff77b0089faf",
+   "card_type": "basic",
+   "front": "If you round the denominator of a fraction down, does the estimate become an overestimate or underestimate?",
+   "back": "Overestimate (dividing by a smaller number gives a larger result).",
+   "options": [
+    {
+     "text": "Overestimate (dividing by a smaller number gives a larger result).",
+     "correct": true,
+     "explanation": "With a positive numerator, reducing the denominator makes each unit of the denominator represent more of the quotient. Therefore, dividing by a smaller rounded denominator gives an overestimate."
+    },
+    {
+     "text": "Underestimate (dividing by a larger number gives a smaller result).",
+     "correct": false,
+     "explanation": "That reasoning applies when the denominator is rounded up, not down. A smaller positive denominator makes the quotient larger, so the estimate is an overestimate."
+    },
+    {
+     "text": "Neither (rounding the denominator does not affect the estimate).",
+     "correct": false,
+     "explanation": "Changing the denominator changes the quotient, so the estimate is affected. Rounding it down makes the denominator smaller and produces an overestimate."
+    },
+    {
+     "text": "Cannot tell (the denominator has no effect on the quotient).",
+     "correct": false,
+     "explanation": "The denominator directly controls the size of a positive fraction. Making it smaller increases the quotient, so rounding the denominator down gives an overestimate."
+    }
+   ],
+   "points": 2
+  }
+ ],
+ "card_count": 22,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-3-3-2-estimating/flashcards",
+ "source_sha256": "5e948f70de78e38af2204c10c8a53aa57e8e7e4380af79f4aeca8e60e5b170df",
+ "extracted_at": "2026-11-08T19:00:03Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-2 run-001)",
+ "task_id": "T-MG-FC-2"
+}

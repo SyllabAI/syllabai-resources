@@ -1,0 +1,589 @@
+{
+ "topic": "grade-4-4-12-surface-area",
+ "lane": "igcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "title": "Surface Area Flashcards",
+ "cards": [
+  {
+   "id": "52429a35-328e-417f-a5cf-2138198ad2f9",
+   "card_type": "cloze",
+   "front": "Surface area is the total area of [ ___ ] of a 3D shape, measured in [ ___ ].",
+   "back": "Surface area is the total area of all outside faces of a 3D shape, measured in square units.",
+   "options": [
+    {
+     "text": "Surface area is the total area of all outside faces of a 3D shape, measured in square units.",
+     "correct": true,
+     "explanation": "Surface area combines the areas of every exterior face of a 3D shape. Because area is two-dimensional, it is expressed in square units, such as cm²."
+    },
+    {
+     "text": "Surface area is the total area of all visible faces of a 3D shape, measured in square units.",
+     "correct": false,
+     "explanation": "A perspective drawing may hide exterior faces such as the back or bottom. Surface area includes all outside faces, not only visible ones, and is measured in square units."
+    },
+    {
+     "text": "Surface area is the total area of all outside faces of a 3D shape, measured in cubic units.",
+     "correct": false,
+     "explanation": "Cubic units measure volume, which is the space inside a solid. Surface area covers all outside faces and must therefore be measured in square units."
+    },
+    {
+     "text": "Surface area is the total area of all inside faces of a 3D shape, measured in linear units.",
+     "correct": false,
+     "explanation": "This confuses surface area with interior surfaces and length measurement. Surface area totals all outside faces and uses square units because each face has two dimensions."
+    }
+   ]
+  },
+  {
+   "id": "5127a3cb-6601-444e-a362-c144d7f24b94",
+   "card_type": "basic",
+   "front": "What does a net help you do for surface area?",
+   "back": "Add the areas of all outside faces.",
+   "options": [
+    {
+     "text": "Add the areas of all outside faces.",
+     "correct": true,
+     "explanation": "A net lays every exterior face flat, making each face easy to identify and measure. Adding their individual areas gives the total surface area."
+    },
+    {
+     "text": "Add the areas of only visible faces.",
+     "correct": false,
+     "explanation": "Counting only visible faces omits exterior faces hidden in a 3D drawing. A net helps you add the areas of all outside faces."
+    },
+    {
+     "text": "Multiply the areas of all outside faces.",
+     "correct": false,
+     "explanation": "Surface area is a total, so the separate face areas must be added rather than multiplied. A net displays all outside faces for this addition."
+    },
+    {
+     "text": "Add the lengths of all outside edges.",
+     "correct": false,
+     "explanation": "Adding edge lengths calculates a total length, not an area. A net is used to find and add the areas of all outside faces."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "a00018f9-24c7-44a1-9a87-07252321bc10",
+   "card_type": "basic",
+   "front": "For a cuboid, which matching face pairs are included?",
+   "back": "Front/backTop/bottomLeft/right",
+   "options": [
+    {
+     "text": "Front/backTop/bottomLeft/right",
+     "correct": true,
+     "explanation": "Opposite faces of a cuboid are congruent rectangles. The front matches the back, the top matches the bottom, and the left matches the right."
+    },
+    {
+     "text": "Front/topBack/bottomLeft/right",
+     "correct": false,
+     "explanation": "Front and top faces are adjacent and usually have different dimensions, as are back and bottom. The matching pairs are front/back, top/bottom and left/right."
+    },
+    {
+     "text": "Front/leftBack/rightTop/bottom",
+     "correct": false,
+     "explanation": "This pairs adjacent side faces rather than opposite congruent faces. A cuboid’s matching pairs are front/back, top/bottom and left/right."
+    },
+    {
+     "text": "Front/bottomTop/rightBack/left",
+     "correct": false,
+     "explanation": "Each listed pair contains adjacent faces, which do not generally share the same dimensions. Matching cuboid faces are the three opposite pairs: front/back, top/bottom and left/right."
+    }
+   ],
+   "points": 3
+  },
+  {
+   "id": "32346afe-7e44-476d-a58a-b3f5c2fd2a2c",
+   "card_type": "cloze",
+   "front": "For a cuboid, surface area = [ ___ ].",
+   "back": "For a cuboid, surface area = $2(lw+lh+wh)$.",
+   "options": [
+    {
+     "text": "$$2(lw+lh+wh)$",
+     "correct": true,
+     "explanation": "A cuboid has two faces of each rectangular area: $lw$, $lh$ and $wh$. Adding both of every pair gives $2(lw+lh+wh)$."
+    },
+    {
+     "text": "$$lw+lh+wh$",
+     "correct": false,
+     "explanation": "This includes only one face from each matching pair, so it gives half the surface area. Doubling the sum gives $2(lw+lh+wh)$."
+    },
+    {
+     "text": "$$2(l+w+h)$",
+     "correct": false,
+     "explanation": "This adds lengths and resembles a perimeter calculation, so it cannot produce square units. Multiplying dimension pairs gives the correct surface area $2(lw+lh+wh)$."
+    },
+    {
+     "text": "$$lwh$",
+     "correct": false,
+     "explanation": "Multiplying all three dimensions calculates the cuboid’s volume in cubic units. Surface area is found from the six faces using $2(lw+lh+wh)$."
+    }
+   ]
+  },
+  {
+   "id": "e9b78333-f96a-456d-8dd4-91e9a104a06f",
+   "card_type": "basic",
+   "front": "What is missed if you only add the visible faces in a 3D diagram?",
+   "back": "Hidden outside faces, such as the back or bottom.",
+   "options": [
+    {
+     "text": "Hidden outside faces, such as the back or bottom.",
+     "correct": true,
+     "explanation": "A 3D drawing often conceals exterior faces behind or beneath the solid. These hidden outside faces still contribute to the total surface area."
+    },
+    {
+     "text": "Visible outside faces, such as the front or top.",
+     "correct": false,
+     "explanation": "The visible faces are precisely the ones already included by this method. What gets missed are hidden outside faces, commonly the back or bottom."
+    },
+    {
+     "text": "Interior measurements, such as the length or width.",
+     "correct": false,
+     "explanation": "Length and width are dimensions used to calculate face areas, not overlooked faces. Adding only visible faces misses hidden outside faces such as the back or bottom."
+    },
+    {
+     "text": "Hidden inside faces, such as the centre or middle.",
+     "correct": false,
+     "explanation": "An ordinary solid does not have faces at its centre or middle. The omitted parts are hidden outside faces, such as the back or bottom."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "69d4d6ea-8857-4cb9-9be4-0eac02b91566",
+   "card_type": "cloze",
+   "front": "Triangle area = [ ___ ].",
+   "back": "Triangle area = $\\frac{1}{2}\\times \\text{base}\\times \\text{height}$.",
+   "options": [
+    {
+     "text": "$$\\frac{1}{2}\\times \\text{base}\\times \\text{height}$",
+     "correct": true,
+     "explanation": "A triangle with a given base and perpendicular height has half the area of the corresponding rectangle, so its area is $\\frac{1}{2}\\times \\text{base}\\times \\text{height}$."
+    },
+    {
+     "text": "$$\\text{base}\\times \\text{height}$",
+     "correct": false,
+     "explanation": "This calculates the area of the corresponding rectangle and makes the triangle’s area twice too large. The triangle requires the factor $\\frac{1}{2}$."
+    },
+    {
+     "text": "$$\\frac{1}{2}\\times(\\text{base}+\\text{height})$",
+     "correct": false,
+     "explanation": "Adding base and height produces a length rather than an area. The two perpendicular measurements must be multiplied, then halved: $\\frac{1}{2}\\times \\text{base}\\times \\text{height}$."
+    },
+    {
+     "text": "$$\\frac{1}{2}\\times \\text{base}\\times \\text{side}$",
+     "correct": false,
+     "explanation": "Using a sloping side instead of the perpendicular height is a common mistake. Triangle area uses the base and its perpendicular height, multiplied and halved."
+    }
+   ]
+  },
+  {
+   "id": "9e936e4d-d15a-46cf-99f5-74cc30bba4d0",
+   "card_type": "cloze",
+   "front": "Trapezium area = [ ___ ].",
+   "back": "Trapezium area = $\\frac{1}{2}\\times(\\text{sum of parallel sides})\\times \\text{height}$.",
+   "options": [
+    {
+     "text": "$$\\frac{1}{2}\\times(\\text{sum of parallel sides})\\times \\text{height}$",
+     "correct": true,
+     "explanation": "A trapezium’s area equals the average length of its two parallel sides multiplied by the perpendicular height, giving half their sum times the height."
+    },
+    {
+     "text": "$$(\\text{sum of parallel sides})\\times \\text{height}$",
+     "correct": false,
+     "explanation": "This uses the sum rather than the average of the parallel sides, making the area twice too large. The formula needs the factor $\\frac{1}{2}$."
+    },
+    {
+     "text": "$$\\frac{1}{2}\\times(\\text{product of parallel sides})\\times \\text{height}$",
+     "correct": false,
+     "explanation": "The parallel side lengths must be added, not multiplied; multiplying them also gives the wrong dimensions. Halve their sum and multiply by the perpendicular height."
+    },
+    {
+     "text": "$$\\frac{1}{2}\\times(\\text{sum of non-parallel sides})\\times \\text{height}$",
+     "correct": false,
+     "explanation": "The area formula uses the two parallel sides because their average determines the trapezium’s effective width. The non-parallel sides are not used in this formula."
+    }
+   ]
+  },
+  {
+   "id": "66cded8d-129f-4b52-868f-db0332a3ad61",
+   "card_type": "basic",
+   "front": "In a prism, what happens to the cross-section along its length?",
+   "back": "It stays the same all the way through.",
+   "options": [
+    {
+     "text": "It stays the same all the way through.",
+     "correct": true,
+     "explanation": "A prism has a constant cross-section perpendicular to its length. Its cross-section remains the same shape and size at every point along the prism."
+    },
+    {
+     "text": "It gets steadily larger all the way through.",
+     "correct": false,
+     "explanation": "A solid that steadily widens does not have the constant cross-section required of a prism. In a prism, the cross-section stays the same throughout its length."
+    },
+    {
+     "text": "It gets steadily smaller all the way through.",
+     "correct": false,
+     "explanation": "A tapering solid, such as a pyramid or cone, has changing cross-sections and is not a prism. A prism’s cross-section stays the same throughout."
+    },
+    {
+     "text": "It changes shape and size all the way through.",
+     "correct": false,
+     "explanation": "Changing shape or size contradicts the defining property of a prism. Its cross-section must stay the same shape and size all the way through."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "01fdaf62-1065-45b9-9101-b129ac2b95f1",
+   "card_type": "cloze",
+   "front": "For any prism, surface area = [ ___ ], where $P$ is the [ ___ ].",
+   "back": "For any prism, surface area = $2A+PL$, where $P$ is the perimeter of the cross-section.",
+   "options": [
+    {
+     "text": "For any prism, surface area = $2A+PL$, where $P$ is the perimeter of the cross-section.",
+     "correct": true,
+     "explanation": "The two identical cross-sections have total area $2A$. The rectangular side faces have combined area $PL$, because their total width is the cross-section’s perimeter."
+    },
+    {
+     "text": "For any prism, surface area = $A+PL$, where $P$ is the perimeter of the cross-section.",
+     "correct": false,
+     "explanation": "Using $A$ counts only one end face. A prism has two identical cross-sections, so their combined area is $2A$ and the correct formula is $2A+PL$."
+    },
+    {
+     "text": "For any prism, surface area = $2A+PL$, where $P$ is the area of the cross-section.",
+     "correct": false,
+     "explanation": "This confuses perimeter with area. In $PL$, $P$ must be the perimeter of the cross-section so that multiplying it by length gives the total side area."
+    },
+    {
+     "text": "For any prism, surface area = $2A+2PL$, where $P$ is the area of the cross-section.",
+     "correct": false,
+     "explanation": "This both doubles the side area and misidentifies $P$. The side rectangles total $PL$ once, and $P$ represents the perimeter of the cross-section, giving $2A+PL$."
+    }
+   ]
+  },
+  {
+   "id": "6c54e620-c64b-4abd-97a1-3b666db32cbb",
+   "card_type": "basic",
+   "front": "Why does $PL$ give the side-rectangle area of a prism?",
+   "back": "$P$ is the total width around the cross-section.$L$ is the prism length.",
+   "options": [
+    {
+     "text": "$P$ is the total width around the cross-section.$L$ is the prism length.",
+     "correct": true,
+     "explanation": "Unfolding the side faces produces rectangles whose combined width is the cross-section’s perimeter $P$. Their common length is $L$, so their total area is $P\\times L$."
+    },
+    {
+     "text": "$P$ is the total area of the cross-section.$L$ is the prism length.",
+     "correct": false,
+     "explanation": "This confuses perimeter with area. $P$ is the total distance around the cross-section, and multiplying that combined width by the prism length $L$ gives the side area."
+    },
+    {
+     "text": "$P$ is the total width around the cross-section.$L$ is the cross-section area.",
+     "correct": false,
+     "explanation": "This misidentifies $L$ as an area. $L$ is the prism’s length, while $P$ is the total width around its cross-section, so $PL$ measures area."
+    },
+    {
+     "text": "$P$ is the width of one side face.$L$ is the prism length.",
+     "correct": false,
+     "explanation": "Using one face’s width would calculate only that face’s area. $P$ combines all widths around the cross-section, so $PL$ gives the area of every side rectangle."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "cfd3f5ad-4be7-44ed-b503-df345b31d186",
+   "card_type": "basic",
+   "front": "Why does a triangular prism have 3 rectangular side faces?",
+   "back": "Each of the triangle’s 3 sides forms one rectangle.",
+   "options": [
+    {
+     "text": "Each of the triangle’s 3 sides forms one rectangle.",
+     "correct": true,
+     "explanation": "Each side of the triangular cross-section extends along the prism’s length to create one rectangular face. Since a triangle has three sides, there are three rectangles."
+    },
+    {
+     "text": "Each of the triangle’s 2 sides forms one rectangle.",
+     "correct": false,
+     "explanation": "This overlooks one side of the triangular cross-section. All three sides extend along the prism’s length, and each produces one rectangular side face."
+    },
+    {
+     "text": "Each of the triangle’s 3 vertices forms one rectangle.",
+     "correct": false,
+     "explanation": "This confuses vertices with edges. Rectangular faces are formed when the triangle’s three sides extend along the prism’s length, not when its vertices are counted."
+    },
+    {
+     "text": "Each of the triangle’s 2 end faces forms one rectangle.",
+     "correct": false,
+     "explanation": "The two end faces are triangles, not rectangles. The three rectangular side faces come from extending each of the triangle’s three sides along the prism’s length."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "94778d8f-38d2-4548-9e6e-987fd0cb49a5",
+   "card_type": "basic",
+   "front": "In a trapezium prism, what is the trapezium area used for?",
+   "back": "The two identical end faces.",
+   "options": [
+    {
+     "text": "The two identical end faces.",
+     "correct": true,
+     "explanation": "The trapezium is the prism’s constant cross-section, appearing at both ends. Its area is therefore calculated twice when finding the prism’s total surface area."
+    },
+    {
+     "text": "The four rectangular side faces.",
+     "correct": false,
+     "explanation": "The side faces are rectangles formed by extending the trapezium’s sides along the prism. The trapezium area is used for the two identical end faces instead."
+    },
+    {
+     "text": "The perimeter of the cross-section.",
+     "correct": false,
+     "explanation": "Area and perimeter are different measurements. The trapezium area gives the two end-face areas, while its side lengths are added separately to find the cross-section’s perimeter."
+    },
+    {
+     "text": "The length of the prism.",
+     "correct": false,
+     "explanation": "The prism length is a separate linear measurement used to find rectangular side areas. The trapezium area represents each of the two identical end faces."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "eff30e23-c2d5-40a8-a0e5-300dc5575dcd",
+   "card_type": "basic",
+   "front": "In a trapezium, when is the perpendicular height included in perimeter?",
+   "back": "Only if it is an outside side length.",
+   "options": [
+    {
+     "text": "Only if it is an outside side length.",
+     "correct": true,
+     "explanation": "Perimeter includes only lengths forming the outside boundary. A perpendicular height is included only when it is also an actual outside side of the trapezium."
+    },
+    {
+     "text": "Always, because it is an important measurement.",
+     "correct": false,
+     "explanation": "The height is needed for the trapezium’s area formula, but that does not automatically place it on the perimeter. It is included only when it is an outside side length."
+    },
+    {
+     "text": "Only if it is an internal vertical line.",
+     "correct": false,
+     "explanation": "Internal construction lines are not part of a shape’s perimeter. The perpendicular height is counted only when it lies on the trapezium’s outside boundary as a side."
+    },
+    {
+     "text": "Only if it is a parallel side length.",
+     "correct": false,
+     "explanation": "A perpendicular height cannot be one of the trapezium’s parallel sides. It contributes to perimeter only if it is an outside side length, whether vertical or sloping."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "6ba02f60-7bbd-4871-9c57-3836ecbfd79c",
+   "card_type": "basic",
+   "front": "How do you find the area of an L-shaped cross-section?",
+   "back": "Split into rectangles and add their areas.",
+   "options": [
+    {
+     "text": "Split into rectangles and add their areas.",
+     "correct": true,
+     "explanation": "An L-shape can be divided into non-overlapping rectangles. Calculate each rectangle’s area using length multiplied by width, then add the results for the total cross-sectional area."
+    },
+    {
+     "text": "Multiply the perimeter by the prism length.",
+     "correct": false,
+     "explanation": "Perimeter multiplied by prism length gives the area of the prism’s rectangular side faces, not the cross-section. Split the L-shape into rectangles and add their areas."
+    },
+    {
+     "text": "Treat it as one large rectangle without subtraction.",
+     "correct": false,
+     "explanation": "This includes the missing corner and therefore overestimates the area. The L-shape should be split into rectangles and their non-overlapping areas added together."
+    },
+    {
+     "text": "Add all the outside side lengths together.",
+     "correct": false,
+     "explanation": "Adding outside side lengths finds the perimeter, not the area. To find the L-shaped cross-section’s area, split it into rectangles and add their individual areas."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "7fc2ed66-dfbc-43f0-bb85-49bd11bf8517",
+   "card_type": "basic",
+   "front": "For an L-shaped cross-section, which lines are excluded from the perimeter?",
+   "back": "Internal split lines.",
+   "options": [
+    {
+     "text": "Internal split lines.",
+     "correct": true,
+     "explanation": "Split lines are drawn only to divide the L-shape into simpler rectangles. They lie inside the shape, so they are not part of its outside boundary or perimeter."
+    },
+    {
+     "text": "Outside horizontal lines.",
+     "correct": false,
+     "explanation": "Horizontal direction does not exclude a line from the perimeter. Every segment on the outside boundary is counted; only internal split lines used to divide the shape are excluded."
+    },
+    {
+     "text": "Outside vertical lines.",
+     "correct": false,
+     "explanation": "Vertical outside edges still form part of the boundary and must be counted. The lines excluded from the perimeter are internal split lines drawn within the L-shape."
+    },
+    {
+     "text": "The shortest boundary lines.",
+     "correct": false,
+     "explanation": "Boundary length does not determine whether a segment is included. All outside edges, however short, contribute to perimeter; only internal split lines are left out."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "b616781f-7c6e-4ec7-ba79-b3f5086f788b",
+   "card_type": "basic",
+   "front": "To convert cm² to m², divide by what?",
+   "back": "10,000.",
+   "options": [
+    {
+     "text": "10,000.",
+     "correct": true,
+     "explanation": "Since $1\\text{ m}=100\\text{ cm}$, squaring the conversion gives $1\\text{ m}^2=10{,}000\\text{ cm}^2$. Therefore, divide a value in cm² by 10,000."
+    },
+    {
+     "text": "100.",
+     "correct": false,
+     "explanation": "Dividing by 100 uses the linear centimetre-to-metre conversion without squaring it. Area conversion requires $100^2=10{,}000$, so cm² must be divided by 10,000."
+    },
+    {
+     "text": "1,000.",
+     "correct": false,
+     "explanation": "This treats the conversion as three factors of ten, which does not match the area scale. Because $1\\text{ m}=100\\text{ cm}$, divide cm² by $100^2=10{,}000$."
+    },
+    {
+     "text": "1,000,000.",
+     "correct": false,
+     "explanation": "Dividing by 1,000,000 applies the cubic conversion used for cm³ to m³. For square units, square 100, so cm² is divided by 10,000."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "7656a2c8-7c5a-4fc3-8f25-bedd9964fb6f",
+   "card_type": "basic",
+   "front": "A paint calculation gives 1.944 pots. How many pots are needed?",
+   "back": "2 pots.",
+   "options": [
+    {
+     "text": "2 pots.",
+     "correct": true,
+     "explanation": "Pots cannot usually be bought as a fraction, so the calculation must be rounded up. Two pots provide enough paint to cover the required surface area."
+    },
+    {
+     "text": "1 pot.",
+     "correct": false,
+     "explanation": "Rounding down leaves only one pot, which contains less paint than the 1.944 pots required. The answer must be rounded up to 2 pots."
+    },
+    {
+     "text": "3 pots.",
+     "correct": false,
+     "explanation": "Three pots would provide enough paint, but it is more than necessary. Since 1.944 rounds up to the next whole pot, the minimum required is 2 pots."
+    },
+    {
+     "text": "1.944 pots.",
+     "correct": false,
+     "explanation": "Although this is the calculated amount, pots are needed as whole items rather than a fraction. Rounding up gives the minimum practical answer of 2 pots."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "e28e208d-d4dd-4d7b-a2ad-d5a9ff23f8af",
+   "card_type": "basic",
+   "front": "If a cylinder’s diameter is 0.6 m, what radius is used?",
+   "back": "$0.3\\text{ m}$.",
+   "options": [
+    {
+     "text": "$0.3\\text{ m}$.",
+     "correct": true,
+     "explanation": "The radius is half the diameter, so dividing $0.6\\text{ m}$ by $2$ gives $0.3\\text{ m}$."
+    },
+    {
+     "text": "$0.6\\text{ m}$.",
+     "correct": false,
+     "explanation": "This uses the diameter unchanged instead of halving it. The radius is half of $0.6\\text{ m}$, giving $0.3\\text{ m}$."
+    },
+    {
+     "text": "$1.2\\text{ m}$.",
+     "correct": false,
+     "explanation": "This doubles the diameter rather than dividing it by two, confusing the relationship between radius and diameter. The radius should be $0.3\\text{ m}$."
+    },
+    {
+     "text": "$0.15\\text{ m}$.",
+     "correct": false,
+     "explanation": "This halves the diameter twice, instead of halving it once. Since radius equals diameter divided by $2$, the correct value is $0.3\\text{ m}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "f324c0f7-6edd-41fc-b61a-c6a176c1e0f0",
+   "card_type": "cloze",
+   "front": "For a closed cylinder, surface area = [ ___ ].",
+   "back": "For a closed cylinder, surface area = $2\\pi r^2+2\\pi rh$.",
+   "options": [
+    {
+     "text": "$$2\\pi r^2+2\\pi rh$",
+     "correct": true,
+     "explanation": "A closed cylinder has two circular ends, contributing $2\\pi r^2$, and one curved surface, contributing $2\\pi rh$. Adding these gives the total surface area."
+    },
+    {
+     "text": "$$2\\pi r^2+\\pi rh$",
+     "correct": false,
+     "explanation": "The curved surface has circumference $2\\pi r$ multiplied by height $h$, so its area is $2\\pi rh$, not half that amount. The complete formula is $2\\pi r^2+2\\pi rh$."
+    },
+    {
+     "text": "$$\\pi r^2+2\\pi rh$",
+     "correct": false,
+     "explanation": "This counts only one circular end, but a closed cylinder has two. The two ends contribute $2\\pi r^2$, making the full formula $2\\pi r^2+2\\pi rh$."
+    },
+    {
+     "text": "$$2\\pi r^2+2\\pi h$",
+     "correct": false,
+     "explanation": "The curved area must include the radius in the circumference, giving $2\\pi rh$. Omitting $r$ loses a required length factor, so the correct formula is $2\\pi r^2+2\\pi rh$."
+    }
+   ]
+  },
+  {
+   "id": "686e31d7-ca7d-4dae-a35b-f56529e3ec92",
+   "card_type": "basic",
+   "front": "Why is the curved side area of a cylinder $2\\pi rh$?",
+   "back": "Circumference $2\\pi r$ multiplied by height $h$.",
+   "options": [
+    {
+     "text": "Circumference $2\\pi r$ multiplied by height $h$.",
+     "correct": true,
+     "explanation": "Unwrapping the curved surface produces a rectangle. Its width is the cylinder’s circumference, $2\\pi r$, and its height is $h$, so the area is $2\\pi rh$."
+    },
+    {
+     "text": "Diameter $2r$ multiplied by height $h$.",
+     "correct": false,
+     "explanation": "The rectangle formed by unwrapping the curved surface has width equal to the full circumference, not the diameter. Using circumference $2\\pi r$ gives the correct area $2\\pi rh$."
+    },
+    {
+     "text": "Area $\\pi r^2$ multiplied by height $h$.",
+     "correct": false,
+     "explanation": "Multiplying the circular area by height gives a volume-related expression, not the area of the curved surface. The curved side unwraps into a rectangle with width $2\\pi r$ and height $h$."
+    },
+    {
+     "text": "Circumference $2\\pi r$ multiplied by radius $h$.",
+     "correct": false,
+     "explanation": "The second dimension of the unwrapped rectangle is the cylinder’s height, not its radius. Therefore the curved area uses circumference $2\\pi r$ multiplied by height $h$."
+    }
+   ],
+   "points": 2
+  }
+ ],
+ "card_count": 20,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-4-4-12-surface-area/flashcards",
+ "source_sha256": "4b6d402896ed97db7ba13e13edc28185faa198cb5b938a0f22efc78fe3188cb5",
+ "extracted_at": "2026-11-08T19:00:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-2 run-001)",
+ "task_id": "T-MG-FC-2"
+}

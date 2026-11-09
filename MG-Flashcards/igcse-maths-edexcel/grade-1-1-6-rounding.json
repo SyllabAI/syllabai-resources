@@ -1,0 +1,648 @@
+{
+ "topic": "grade-1-1-6-rounding",
+ "lane": "igcse-maths-edexcel",
+ "grade": "1",
+ "tier": null,
+ "title": "Rounding Flashcards",
+ "cards": [
+  {
+   "id": "c53cb0d2-0720-459d-bf9e-60e28e2bb71c",
+   "card_type": "cloze",
+   "front": "To round to a chosen place, keep that digit and look at the digit [ ___ ].",
+   "back": "To round to a chosen place, keep that digit and look at the digit immediately to its right.",
+   "options": [
+    {
+     "text": "immediately to its right",
+     "correct": true,
+     "explanation": "The digit immediately to the right is the deciding digit. Its value determines whether the chosen place-value digit stays the same or increases by 1."
+    },
+    {
+     "text": "immediately to its left",
+     "correct": false,
+     "explanation": "Looking left confuses the deciding digit with a higher place value. The deciding digit is immediately to the right of the digit being kept."
+    },
+    {
+     "text": "two places to its right",
+     "correct": false,
+     "explanation": "This skips over the actual deciding digit and can give the wrong result. You must inspect the digit immediately to the right of the chosen place."
+    },
+    {
+     "text": "furthest to its right",
+     "correct": false,
+     "explanation": "The final digit is not necessarily relevant to the chosen place value. Rounding is determined by the digit immediately to the right of the kept digit."
+    }
+   ]
+  },
+  {
+   "id": "f89d3e0e-f561-4d7f-b60b-0779a3e61179",
+   "card_type": "basic",
+   "front": "If the deciding digit is 5, 6, 7, 8 or 9, what do you do?",
+   "back": "Round up: increase the kept digit by 1.",
+   "options": [
+    {
+     "text": "Round up: increase the kept digit by 1.",
+     "correct": true,
+     "explanation": "A deciding digit from 5 to 9 means the number is at or beyond the halfway point, so the kept digit must increase by 1."
+    },
+    {
+     "text": "Round down: keep the kept digit the same.",
+     "correct": false,
+     "explanation": "Keeping the digit unchanged applies when the deciding digit is from 0 to 4. For 5 to 9, round up by increasing the kept digit by 1."
+    },
+    {
+     "text": "Round up: increase the deciding digit by 1.",
+     "correct": false,
+     "explanation": "The deciding digit is discarded after it has been checked, so increasing it has no effect. Rounding up means increasing the kept digit by 1."
+    },
+    {
+     "text": "Round down: decrease the kept digit by 1.",
+     "correct": false,
+     "explanation": "Rounding down never means subtracting 1 from the kept digit. With a deciding digit from 5 to 9, increase the kept digit by 1."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "abae3a13-8617-4e3f-b9e5-92c477deea34",
+   "card_type": "basic",
+   "front": "If the deciding digit is 0, 1, 2, 3 or 4, what do you do?",
+   "back": "Round down: keep the kept digit the same.",
+   "options": [
+    {
+     "text": "Round down: keep the kept digit the same.",
+     "correct": true,
+     "explanation": "A deciding digit from 0 to 4 lies below the halfway point. The kept digit therefore remains unchanged, while the digits after it are removed or replaced."
+    },
+    {
+     "text": "Round up: increase the kept digit by 1.",
+     "correct": false,
+     "explanation": "Increasing the kept digit is required only when the deciding digit is from 5 to 9. For 0 to 4, keep the kept digit unchanged."
+    },
+    {
+     "text": "Round down: decrease the kept digit by 1.",
+     "correct": false,
+     "explanation": "The phrase round down can misleadingly suggest subtraction, but the kept digit is not decreased. With a deciding digit from 0 to 4, it stays unchanged."
+    },
+    {
+     "text": "Round down: replace the kept digit with 0.",
+     "correct": false,
+     "explanation": "Zeros replace digits to the right when rounding whole numbers, not the kept digit itself. For a deciding digit from 0 to 4, the kept digit remains unchanged."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "92ef2ca3-de7c-4495-9a25-dcaa6568d2e2",
+   "card_type": "basic",
+   "front": "When rounding a whole number, what replaces digits to the right?",
+   "back": "Zeros replace all digits to the right.",
+   "options": [
+    {
+     "text": "Zeros replace all digits to the right.",
+     "correct": true,
+     "explanation": "Zeros preserve the whole number’s place value after rounding. For example, rounding to the nearest hundred requires the tens and units digits to become zero."
+    },
+    {
+     "text": "Nines replace all digits to the right.",
+     "correct": false,
+     "explanation": "Using nines would increase the rounded number and would not preserve the intended place value. All whole-number digits to the right are replaced by zeros."
+    },
+    {
+     "text": "Fives replace all digits to the right.",
+     "correct": false,
+     "explanation": "The deciding digit may be compared with 5, but it is not used as a replacement. Digits to the right are replaced by zeros."
+    },
+    {
+     "text": "Nothing replaces all digits to the right.",
+     "correct": false,
+     "explanation": "Simply deleting the digits would change the number’s place value. When rounding a whole number, zeros must replace every digit to the right of the kept digit."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "97489b49-5bf9-4c31-8b7d-1fd73ec10af6",
+   "card_type": "basic",
+   "front": "Round $468$ to the nearest hundred.",
+   "back": "$500$",
+   "options": [
+    {
+     "text": "$500$",
+     "correct": true,
+     "explanation": "The hundreds digit is 4 and the deciding tens digit is 6. Since 6 is at least 5, the hundreds digit increases to give $500$."
+    },
+    {
+     "text": "$400$",
+     "correct": false,
+     "explanation": "This treats the tens digit 6 as though it were below 5. Since 6 requires rounding up, $468$ rounds to $500$ to the nearest hundred."
+    },
+    {
+     "text": "$470$",
+     "correct": false,
+     "explanation": "This is the result of rounding to the nearest ten rather than the nearest hundred. Using the tens digit 6, the correct hundred is $500$."
+    },
+    {
+     "text": "$460$",
+     "correct": false,
+     "explanation": "This truncates the number at the tens place instead of rounding to the requested place. To the nearest hundred, the deciding digit 6 gives $500$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "b1f72168-996f-4575-8b29-ce75bd2de7f5",
+   "card_type": "basic",
+   "front": "Round $5274$ to the nearest thousand.",
+   "back": "$5000$",
+   "options": [
+    {
+     "text": "$5000$",
+     "correct": true,
+     "explanation": "The thousands digit is 5 and the deciding hundreds digit is 2. Since 2 is below 5, the thousands digit stays unchanged, giving $5000$."
+    },
+    {
+     "text": "$6000$",
+     "correct": false,
+     "explanation": "This rounds up merely because digits follow the thousands digit. The deciding hundreds digit is 2, which is below 5, so the answer is $5000$."
+    },
+    {
+     "text": "$5300$",
+     "correct": false,
+     "explanation": "This rounds $5274$ to the nearest hundred, not the nearest thousand. At the thousands place, the deciding hundreds digit is 2, giving $5000$."
+    },
+    {
+     "text": "$5270$",
+     "correct": false,
+     "explanation": "This rounds to the nearest ten by using the units digit. The question asks for the nearest thousand, so the hundreds digit 2 gives $5000$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "8fdecaa9-cb18-49c0-a091-254213fd928f",
+   "card_type": "basic",
+   "front": "Round $7518$ to the nearest hundred.",
+   "back": "$7500$",
+   "options": [
+    {
+     "text": "$7500$",
+     "correct": true,
+     "explanation": "The hundreds digit is 5 and the deciding tens digit is 1. Since 1 is below 5, the hundreds digit stays unchanged, giving $7500$."
+    },
+    {
+     "text": "$7600$",
+     "correct": false,
+     "explanation": "This incorrectly uses the hundreds digit 5 to decide the rounding. For the nearest hundred, inspect the tens digit 1, so the answer is $7500$."
+    },
+    {
+     "text": "$7520$",
+     "correct": false,
+     "explanation": "This is the result of rounding to the nearest ten rather than the nearest hundred. The deciding tens digit is 1, so the correct answer is $7500$."
+    },
+    {
+     "text": "$7000$",
+     "correct": false,
+     "explanation": "This rounds to the nearest thousand rather than the nearest hundred. For hundreds, the tens digit 1 means the number rounds to $7500$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "7eaab5ed-de8f-4df4-beee-cf133ada70ad",
+   "card_type": "cloze",
+   "front": "The halfway point between 300 and 400 is [ ___ ], so 376 rounds to [ ___ ] to the nearest hundred.",
+   "back": "The halfway point between 300 and 400 is 350, so 376 rounds to 400 to the nearest hundred.",
+   "options": [
+    {
+     "text": "The halfway point between 300 and 400 is 350, so 376 rounds to 400 to the nearest hundred.",
+     "correct": true,
+     "explanation": "The midpoint is $350$. Since $376$ is above this halfway point and closer to $400$ than to $300$, it rounds to $400$."
+    },
+    {
+     "text": "The halfway point between 300 and 400 is 350, so 376 rounds to 300 to the nearest hundred.",
+     "correct": false,
+     "explanation": "Although the halfway point is correctly identified as $350$, the rounding direction is reversed. Since $376$ is above $350$, it rounds up to $400$."
+    },
+    {
+     "text": "The halfway point between 300 and 400 is 400, so 376 rounds to 400 to the nearest hundred.",
+     "correct": false,
+     "explanation": "The rounding result is right, but $400$ is an endpoint rather than the midpoint. Halfway between $300$ and $400$ is $350$, and $376$ rounds to $400$."
+    },
+    {
+     "text": "The halfway point between 300 and 400 is 300, so 376 rounds to 300 to the nearest hundred.",
+     "correct": false,
+     "explanation": "This mistakes an endpoint for the halfway point and then rounds in the wrong direction. The midpoint is $350$, and because $376$ exceeds it, the answer is $400$."
+    }
+   ]
+  },
+  {
+   "id": "e34a5919-4e65-484a-aaef-bd261f6cf2a5",
+   "card_type": "basic",
+   "front": "In $3.847$, which digit is the 2nd decimal place?",
+   "back": "4",
+   "options": [
+    {
+     "text": "4",
+     "correct": true,
+     "explanation": "The first digit after the decimal point is 8, so the second digit is 4. Therefore, 4 occupies the hundredths place."
+    },
+    {
+     "text": "8",
+     "correct": false,
+     "explanation": "The digit 8 is the first digit after the decimal point, so it is in the tenths place. The second decimal place is occupied by 4."
+    },
+    {
+     "text": "7",
+     "correct": false,
+     "explanation": "The digit 7 is the third digit after the decimal point, which is the thousandths place. The second decimal place contains 4."
+    },
+    {
+     "text": "3",
+     "correct": false,
+     "explanation": "The digit 3 is before the decimal point, so it is in the units place. Counting after the decimal point, the second digit is 4."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "bf112cb7-51d4-477a-8748-c0ed6923c830",
+   "card_type": "cloze",
+   "front": "The 1st decimal place is [ ___ ]; the 2nd decimal place is [ ___ ].",
+   "back": "The 1st decimal place is tenths; the 2nd decimal place is hundredths.",
+   "options": [
+    {
+     "text": "The 1st decimal place is tenths; the 2nd decimal place is hundredths.",
+     "correct": true,
+     "explanation": "Decimal place values decrease by powers of ten: the first digit after the point represents tenths, and the second represents hundredths."
+    },
+    {
+     "text": "The 1st decimal place is hundredths; the 2nd decimal place is tenths.",
+     "correct": false,
+     "explanation": "This reverses the order of the first two decimal places. Moving right from the decimal point gives tenths first and then hundredths."
+    },
+    {
+     "text": "The 1st decimal place is units; the 2nd decimal place is hundredths.",
+     "correct": false,
+     "explanation": "Units are immediately before the decimal point, not after it. The first decimal place is tenths, while the second decimal place is hundredths."
+    },
+    {
+     "text": "The 1st decimal place is tenths; the 2nd decimal place is thousandths.",
+     "correct": false,
+     "explanation": "Thousandths are the third decimal place, not the second. The sequence after the decimal point is tenths, hundredths, then thousandths."
+    }
+   ]
+  },
+  {
+   "id": "9d9b6aff-8e26-4181-a5ed-f4729a9dd872",
+   "card_type": "basic",
+   "front": "What must an answer correct to 3 decimal places show?",
+   "back": "Exactly 3 digits after the decimal point.",
+   "options": [
+    {
+     "text": "Exactly 3 digits after the decimal point.",
+     "correct": true,
+     "explanation": "Decimal places count the number of digits written after the decimal point. An answer correct to 3 decimal places must therefore display exactly three such digits."
+    },
+    {
+     "text": "Exactly 2 digits after the decimal point.",
+     "correct": false,
+     "explanation": "Showing two digits would give an answer to 2 decimal places. An answer to 3 decimal places must display exactly three digits after the decimal point."
+    },
+    {
+     "text": "Exactly 4 digits after the decimal point.",
+     "correct": false,
+     "explanation": "Showing four digits would give an answer to 4 decimal places. For 3 decimal places, exactly three digits must appear after the decimal point."
+    },
+    {
+     "text": "At most 3 digits after the decimal point.",
+     "correct": false,
+     "explanation": "The phrase “at most” wrongly allows fewer than three digits. A stated accuracy of 3 decimal places requires exactly three digits, including any necessary trailing zeros."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "88289f16-22ce-4d19-9b89-c1d0930bbb01",
+   "card_type": "basic",
+   "front": "Round $2.83$ to 1 decimal place.",
+   "back": "$2.8$",
+   "options": [
+    {
+     "text": "$2.8$",
+     "correct": true,
+     "explanation": "The tenths digit is 8 and the next digit is 3. Since 3 is less than 5, the tenths digit stays unchanged."
+    },
+    {
+     "text": "$2.9$",
+     "correct": false,
+     "explanation": "This rounds up despite the hundredths digit being 3. Only a next digit of 5 or more would increase the tenths digit, so the answer is $2.8$."
+    },
+    {
+     "text": "$3.0$",
+     "correct": false,
+     "explanation": "This effectively rounds to the nearest whole number rather than to 1 decimal place. Keeping the tenths digit and checking the 3 gives $2.8$."
+    },
+    {
+     "text": "$2.3$",
+     "correct": false,
+     "explanation": "This mistakes the hundredths digit for the required tenths digit. The first digit after the decimal point is 8, and the following 3 leaves it unchanged."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "f236fb16-51c4-409c-b469-0324c0f47166",
+   "card_type": "basic",
+   "front": "Round $23.1681$ to 2 decimal places.",
+   "back": "$23.17$",
+   "options": [
+    {
+     "text": "$23.17$",
+     "correct": true,
+     "explanation": "Keep the hundredths digit, 6, and inspect the next digit, 8. Since 8 is at least 5, the 6 rounds up to 7."
+    },
+    {
+     "text": "$23.16$",
+     "correct": false,
+     "explanation": "This truncates the number instead of rounding it. The third decimal digit is 8, so the hundredths digit must increase from 6 to 7, giving $23.17$."
+    },
+    {
+     "text": "$23.18$",
+     "correct": false,
+     "explanation": "This keeps the third decimal digit rather than using it only as a rounding indicator. The 8 increases the hundredths digit from 6 to 7, giving $23.17$."
+    },
+    {
+     "text": "$23.20$",
+     "correct": false,
+     "explanation": "This rounds the number to 1 decimal place and then adds a zero. For 2 decimal places, retain 16 and use the following 8 to obtain $23.17$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "e28db508-a64a-4d84-acc6-f2ee46c4dcac",
+   "card_type": "basic",
+   "front": "Round $5.4096$ to 3 decimal places.",
+   "back": "$5.410$",
+   "options": [
+    {
+     "text": "$5.410$",
+     "correct": true,
+     "explanation": "The first three decimal digits are 409, and the next digit is 6, so 409 rounds up to 410. The final zero is retained to show 3 decimal places."
+    },
+    {
+     "text": "$5.409$",
+     "correct": false,
+     "explanation": "This simply cuts off the fourth decimal digit. Because that digit is 6, the thousandths digit must round up, carrying through 9 and producing $5.410$."
+    },
+    {
+     "text": "$5.400$",
+     "correct": false,
+     "explanation": "This rounds to 2 decimal places before padding with a zero. At 3 decimal places, 409 is retained first and the following 6 rounds it to 410."
+    },
+    {
+     "text": "$5.500$",
+     "correct": false,
+     "explanation": "This rounds to 1 decimal place before adding two zeros. The question requires three decimal places, so the fourth decimal digit rounds 409 to 410."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "c2139b8d-1c7b-45b1-a086-10fa187eeba0",
+   "card_type": "basic",
+   "front": "Why must $5.410$ keep the final zero for 3 decimal places?",
+   "back": "It shows exactly 3 digits after the decimal point.",
+   "options": [
+    {
+     "text": "It shows exactly 3 digits after the decimal point.",
+     "correct": true,
+     "explanation": "A trailing zero does not change the numerical value, but it records the required accuracy. Writing $5.410$ makes clear that the result is given to 3 decimal places."
+    },
+    {
+     "text": "It shows exactly 3 significant figures in the number.",
+     "correct": false,
+     "explanation": "The number $5.410$ actually has four significant figures because its final zero follows non-zero digits. The zero is needed to show exactly three decimal places."
+    },
+    {
+     "text": "It shows exactly 3 digits before the decimal point.",
+     "correct": false,
+     "explanation": "There is only one digit before the decimal point in $5.410$. The retained zero instead ensures that exactly three digits appear after the decimal point."
+    },
+    {
+     "text": "It makes $5.410$ greater than $5.41$.",
+     "correct": false,
+     "explanation": "Trailing zeros after a decimal do not change a number’s value, so $5.410$ and $5.41$ are equal. The zero communicates accuracy to 3 decimal places."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "eff63ae3-5485-4ba9-b6d6-35cbad1aec6b",
+   "card_type": "cloze",
+   "front": "Significant figures are counted from the first [ ___ ] digit; zeros before it are [ ___ ].",
+   "back": "Significant figures are counted from the first non-zero digit; zeros before it are not significant.",
+   "options": [
+    {
+     "text": "Significant figures are counted from the first non-zero digit; zeros before it are not significant.",
+     "correct": true,
+     "explanation": "Leading zeros only locate the decimal point and do not indicate measured precision. Counting significant figures begins with the first digit from 1 to 9."
+    },
+    {
+     "text": "Significant figures are counted from the first zero digit; zeros before it are significant.",
+     "correct": false,
+     "explanation": "This incorrectly counts leading zeros as measured digits. Significant figures begin at the first non-zero digit, and any zeros before it are not significant."
+    },
+    {
+     "text": "Significant figures are counted from the first non-zero digit; zeros before it are significant.",
+     "correct": false,
+     "explanation": "Although counting starts at the first non-zero digit, the statement then wrongly includes earlier zeros. Those leading zeros only set place value and are not significant."
+    },
+    {
+     "text": "Significant figures are counted from the first decimal digit; zeros before it are not significant.",
+     "correct": false,
+     "explanation": "Significant figures do not necessarily begin after the decimal point; whole-number digits may be significant too. Counting starts at the first non-zero digit."
+    }
+   ]
+  },
+  {
+   "id": "46337e29-9fd8-4d4e-aa22-4fcaa34bebc4",
+   "card_type": "basic",
+   "front": "In $0.00681$, which digit is the first significant figure?",
+   "back": "6",
+   "options": [
+    {
+     "text": "6",
+     "correct": true,
+     "explanation": "Leading zeros are not significant, so the first non-zero digit is 6. It is therefore the first significant figure in $0.00681$."
+    },
+    {
+     "text": "0",
+     "correct": false,
+     "explanation": "The zeros before 6 only locate the decimal value and are not significant. The first non-zero digit, 6, is the first significant figure."
+    },
+    {
+     "text": "8",
+     "correct": false,
+     "explanation": "The digit 8 is the second significant figure because 6 has already appeared. The first significant figure in the number is 6."
+    },
+    {
+     "text": "1",
+     "correct": false,
+     "explanation": "The digit 1 is the third significant figure, not the first. Ignoring the leading zeros, the significant digits begin with 6."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "df83da8a-0b8d-4624-98a8-e4a22e43ada6",
+   "card_type": "basic",
+   "front": "Why does the 0 in $90437$ count as a significant figure?",
+   "back": "It comes after the first non-zero digit.",
+   "options": [
+    {
+     "text": "It comes after the first non-zero digit.",
+     "correct": true,
+     "explanation": "Once the first non-zero digit has appeared, every following digit is significant, including zeros. Since 0 follows 9, it counts as significant."
+    },
+    {
+     "text": "It comes before the first non-zero digit.",
+     "correct": false,
+     "explanation": "Zeros before the first non-zero digit are leading zeros and do not count as significant. Here, the 0 follows 9, so it is significant."
+    },
+    {
+     "text": "It is the final digit in the number.",
+     "correct": false,
+     "explanation": "The 0 is not the final digit, and being final would not automatically make a whole-number zero significant. It counts because it follows the first non-zero digit."
+    },
+    {
+     "text": "It appears to the right of a decimal point.",
+     "correct": false,
+     "explanation": "There is no decimal point in $90437$, so this cannot explain the zero’s significance. The zero counts because it occurs after the first non-zero digit."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "2980bcc6-2040-4d6d-94e0-7ab90942114c",
+   "card_type": "basic",
+   "front": "Round $58.165$ to 1 significant figure.",
+   "back": "$60$",
+   "options": [
+    {
+     "text": "$60$",
+     "correct": true,
+     "explanation": "The first significant digit is 5 and the next digit is 8, so 5 rounds up to 6. Its place value is tens, giving $60$."
+    },
+    {
+     "text": "$50$",
+     "correct": false,
+     "explanation": "Keeping 5 unchanged ignores the following digit 8. Since 8 is at least 5, the tens digit rounds up, giving the correct answer $60$."
+    },
+    {
+     "text": "$58$",
+     "correct": false,
+     "explanation": "This confuses one significant figure with rounding to the nearest whole number. For $58.165$, one significant figure means rounding to the nearest ten, giving $60$."
+    },
+    {
+     "text": "$100$",
+     "correct": false,
+     "explanation": "A two-digit number rounds to the nearest ten when one significant figure is required, not the nearest hundred. Since 58 is nearer 60, the answer is $60$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "4e63a5bb-6e22-4b87-90c3-6522d6c7d876",
+   "card_type": "basic",
+   "front": "Round $0.06849$ to 2 significant figures.",
+   "back": "$0.068$",
+   "options": [
+    {
+     "text": "$0.068$",
+     "correct": true,
+     "explanation": "The first two significant digits are 6 and 8. The following digit is 4, so the 8 remains unchanged and the result is $0.068$."
+    },
+    {
+     "text": "$0.069$",
+     "correct": false,
+     "explanation": "The digit immediately after the first two significant figures is 4, so rounding up is not required. Later digits do not make the 4 round up; the answer is $0.068$."
+    },
+    {
+     "text": "$0.0685$",
+     "correct": false,
+     "explanation": "This result has three significant figures rather than two. Keeping only 6 and 8, then checking the following 4, gives the correct result $0.068$."
+    },
+    {
+     "text": "$0.07$",
+     "correct": false,
+     "explanation": "This gives only one significant figure because the trailing zero has not been shown. To two significant figures, 6 and 8 must be retained, giving $0.068$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "657577cc-06d7-4d63-92b7-f7bfef624742",
+   "card_type": "basic",
+   "front": "Round $90437$ to 2 significant figures.",
+   "back": "$90000$",
+   "options": [
+    {
+     "text": "$90000$",
+     "correct": true,
+     "explanation": "The first two significant digits are 9 and 0 because the zero follows a non-zero digit. The next digit is 4, so the result stays $90000$."
+    },
+    {
+     "text": "$94000$",
+     "correct": false,
+     "explanation": "This incorrectly ignores the zero between 9 and 4. That zero is significant, so the first two significant figures are 9 and 0, giving $90000$."
+    },
+    {
+     "text": "$90400$",
+     "correct": false,
+     "explanation": "This keeps three significant figures: 9, 0 and 4. Rounding to two significant figures requires checking the 4 and replacing it and later digits with zeros, giving $90000$."
+    },
+    {
+     "text": "$91000$",
+     "correct": false,
+     "explanation": "This rounds the second significant digit up even though the following digit is 4. Since 4 is below 5, the zero stays unchanged and the answer is $90000$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "cdad4225-3ead-44a6-b178-da1bc6506c5b",
+   "card_type": "cloze",
+   "front": "The phrase “correct to” means [ ___ ] that level of [ ___ ].",
+   "back": "The phrase “correct to” means round to that level of accuracy.",
+   "options": [
+    {
+     "text": "The phrase “correct to” means round to that level of accuracy.",
+     "correct": true,
+     "explanation": "In rounding questions, “correct to” instructs you to round a value to the stated degree of accuracy, such as a given number of decimal places or significant figures."
+    },
+    {
+     "text": "The phrase “correct to” means round up that level of accuracy.",
+     "correct": false,
+     "explanation": "“Correct to” does not mean always increasing the value; rounding may increase or decrease it. It means to round to the specified level of accuracy."
+    },
+    {
+     "text": "The phrase “correct to” means round to that level of error.",
+     "correct": false,
+     "explanation": "The stated level describes the accuracy required, not the amount of error to introduce. “Correct to” means to round to that level of accuracy."
+    },
+    {
+     "text": "The phrase “correct to” means truncate to that level of uncertainty.",
+     "correct": false,
+     "explanation": "Truncation simply removes later digits and is not the same as rounding, while uncertainty describes a range rather than the requested accuracy. The phrase means to round to that level of accuracy."
+    }
+   ]
+  }
+ ],
+ "card_count": 22,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-1-1-6-rounding/flashcards",
+ "source_sha256": "7b3de42ac571bcba43054dc027d72da3f85f0109aa743a14b78b4f0ea30e6203",
+ "extracted_at": "2026-11-08T19:00:03Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-2 run-001)",
+ "task_id": "T-MG-FC-2"
+}
