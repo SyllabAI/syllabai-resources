@@ -1,0 +1,136 @@
+{
+ "topic": "grade-6-6-13-similar-shapes-area-and-volume",
+ "lane": "igcse-maths-edexcel",
+ "grade": "6",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What changes in similar solids?",
+   "body": "![Two similar solids with matching lengths labelled k, and labels showing area scale factor k squared and volume scale factor k cubed](../assets/001-95937b79-7261-4de0-8aef-4ecaaa75701c.jpeg)\n\nTwo 3D shapes are similar if they have the same shape and all corresponding lengths are in the same ratio. The multiplier between matching lengths is called the linear scale factor, $k$.\n\nLengths scale once, areas scale twice, and volumes scale three times. So:\n$$\n\\text{length scale factor} = k,\\qquad \\text{area scale factor} = k^2,\\qquad \\text{volume scale factor} = k^3\n$$\nThis tells you which multiplier to use.\n\nCorresponding lengths must match like with like, such as radius with radius or height with height. If you are given area and need a length, square root the area scale factor, and if you are given volume and need a length, cube root the volume scale factor. Always check whether you are going from smaller to larger or from larger to smaller.",
+   "figure_refs": [
+    "assets/001-95937b79-7261-4de0-8aef-4ecaaa75701c.jpeg"
+   ]
+  },
+  {
+   "heading": "Worked example: surface area of a larger cone",
+   "body": "Suppose two similar cones have radii 5 cm and 15 cm, and the smaller cone has total surface area 70 cm². We start by identifying the corresponding lengths to find the scale factor.\n\nThe linear scale factor $k$ from the smaller cone to the larger cone is calculated as:\n$$\nk = \\frac{15}{5} = 3\n$$\n\nTo find the surface area, square the linear scale factor to get the area scale factor. Applying this to the smaller area gives us:\n$$\nk^2 = 3^2 = 9, \\qquad 70 \\times 9 = 630\n$$\n\nThe larger cone has a surface area of $630 \\, \\text{cm}^2$. It is important to remember that area does not scale linearly; multiplying by 3 instead of 9 is a common error."
+  },
+  {
+   "heading": "Worked example: volume of a larger cylinder",
+   "body": "Now look at volume, which is 3D, so it scales with the cube of the linear scale factor. Suppose similar cylinders have lengths 4 cm and 6 cm, and the smaller cylinder has volume $80 \\text{ cm}^3$.\n\nThe linear scale factor is $k = \\frac{6}{4} = \\frac{3}{2}$. To find the volume scale factor, we cube this value to account for the three dimensions: $$k^3 = \\left(\\frac{3}{2}\\right)^3 = \\frac{27}{8}$$\n\nNow multiply the smaller volume by $\\frac{27}{8}$: $$80 \\times \\frac{27}{8} = 270$$ The larger cylinder has volume $270 \\, \\text{cm}^3$. Remember that squaring the scale factor is a common error reserved for area."
+  },
+  {
+   "heading": "Working backwards from area to length",
+   "body": "Sometimes the question gives areas but asks for a missing length. In that case, find the area scale factor first, then square root it to recover the linear scale factor.\n\nConsider similar cones with surface areas $30 \\, \\text{cm}^2$ and $120 \\, \\text{cm}^2$. The area scale factor for these shapes is:\n$$\\frac{120}{30} = 4$$\n\nThe linear scale factor is $k = \\sqrt{4} = 2$. If the smaller cone has height 5 cm, the larger cone has a height of $5 \\times 2 = 10$ cm. This demonstrates why moving from area to length requires a square root."
+  },
+  {
+   "heading": "From surface area to volume",
+   "body": "A common exam question gives the surface areas of two similar solids and the volume of one of them. To solve this, the route is to find the area ratio, take the square root to find the linear scale factor $k$, and then cube $k$ for the volume ratio.\n\nSuppose solids X and Y have surface areas $500 \\, \\text{cm}^2$ and $1125 \\, \\text{cm}^2$, and X has volume $1600 \\, \\text{cm}^3$. First find the area scale factor and then the linear scale factor:\n\n$$\\frac{1125}{500} = 2.25,\\qquad k = \\sqrt{2.25} = 1.5$$\n\nNow find the volume scale factor and apply it to find the volume of Y:\n\n$$k^3 = 1.5^3 = 3.375,\\qquad 1600 \\times 3.375 = 5400$$\n\nSo Y has volume $5400 \\, \\text{cm}^3$. Do not cube $2.25$ directly, because $2.25$ is an area scale factor, not a length scale factor."
+  },
+  {
+   "heading": "Frustums by subtraction",
+   "body": "![Large cone, small removed cone, and resulting frustum with heights and diameters labelled to show frustum volume by subtraction](../assets/002-6560e14b-957a-4397-80b6-b8666a6e50ea.jpeg)\nA frustum is what remains when the top of a cone is cut off parallel to the base. Because the cut is parallel to the base, the small cone is similar to the large cone.\n\nIn the example, the large cone has height 9 cm and diameter 12 cm, so its radius is 6 cm. The small cone has height 3 cm and diameter 4 cm, so its radius is 2 cm.\n\nUse $V = \\frac{1}{3}\\pi r^2 h$ for each cone:\n$$\nV_{\\text{large}} = \\frac{1}{3}\\pi \\times 6^2 \\times 9 = 108\\pi,\\qquad V_{\\text{small}} = \\frac{1}{3}\\pi \\times 2^2 \\times 3 = 4\\pi\n$$\nBoth volumes are in cubic centimetres.\n\nNow subtract:\n$$\n108\\pi - 4\\pi = 104\\pi\n$$\nSo the frustum volume is $104\\pi \\, \\text{cm}^3$. Always halve a diameter first, because the formula uses radius.",
+   "figure_refs": [
+    "assets/002-6560e14b-957a-4397-80b6-b8666a6e50ea.jpeg"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "If the linear scale factor is 3, what is the surface area scale factor?",
+   "options": [
+    {
+     "id": "a",
+     "text": "3",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "9",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "6",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "27",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Surface area uses $k^2$, so with $k = 3$ the scale factor is $3^2 = 9$. A common wrong answer is 3, which treats area like a length instead of squaring the scale factor."
+  },
+  {
+   "id": "card-7",
+   "question": "Two similar solids have heights $3\\text{ cm}$ and $6\\text{ cm}$. The smaller solid has volume $50\\text{ cm}^3$. What is the volume of the larger solid?",
+   "options": [
+    {
+     "id": "a",
+     "text": "100 cm³",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "200 cm³",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "400 cm³",
+     "is_correct": true
+    },
+    {
+     "id": "d",
+     "text": "800 cm³",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The linear scale factor is $6 \\div 3 = 2$, so the volume scale factor is $2^3 = 8$. Then $50 \\times 8 = 400$. A common wrong answer is 200, which comes from squaring instead of cubing. Remember: Volume is 3D, so use the cube factor."
+  },
+  {
+   "id": "card-12",
+   "question": "Two similar solids have surface areas in the ratio 9:25. The smaller solid has volume 216 cm³. What is the volume of the larger solid?",
+   "options": [
+    {
+     "id": "a",
+     "text": "600 cm³",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "1000 cm³",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "1500 cm³",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "2160 cm³",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The area ratio 9:25 gives the length ratio 3:5, so the volume ratio is 27:125 and the larger volume is $216 \\times \\frac{125}{27} = 1000$. A common wrong answer is 600, which comes from multiplying by the area ratio $\\frac{25}{9}$ instead of square-rooting first."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-6-6-13-similar-shapes-area-and-volume/lessons",
+ "source_sha256": "7c81bd3878e78feb2294886a290c2057351a1eadc1a28f4093d951f3a68f1839",
+ "extracted_at": "2026-11-08T19:01:06Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "f4f8465d-1c57-42c6-90e0-73973784ff4a",
+  "topic_id": "c8e2fc4b-279e-481c-939f-f524d1e492d0",
+  "created_at": "2026-05-14T04:41:58.372Z",
+  "updated_at": "2026-05-14T04:47:24.402Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

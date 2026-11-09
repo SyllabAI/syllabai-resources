@@ -1,0 +1,133 @@
+{
+ "topic": "grade-6-6-1-recurring-decimals-to-fractions",
+ "lane": "igcse-maths-edexcel",
+ "grade": "6",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Reading recurring decimal notation",
+   "body": "A fraction is another way of writing a division, so some fractions give terminating decimals and others give recurring decimals. A recurring decimal has a digit or block of digits that repeats forever.\n\nA dot over one digit means that digit repeats, so $0.\\dot{7}=0.777\\dots$. Two dots mark the first and last digit of the repeating block, so $0.\\dot{3}\\dot{6}=0.363636\\dots$.\n\nBe careful with mixed decimals like $0.2\\dot{4}\\dot{9}=0.2494949\\dots$. The 2 does not repeat; only the block 49 repeats. In long division, if the same remainder appears again, the decimal will start repeating from that point."
+  },
+  {
+   "heading": "The algebra cancellation trick",
+   "body": "To turn a recurring decimal into a fraction, let the decimal be $x$. Then multiply by powers of 10 until the recurring tails line up exactly.\n\nIf there are $n$ non-recurring digits and the repeating block has length $r$, compare $10^{n+r}x$ with $10^n x$. Subtracting removes the infinite tail because the recurring parts are identical.\n\nFor a pure recurring decimal with a 2-digit block, compare $100x$ and $x$. For a mixed recurring decimal like $0.3\\dot{8}$, compare $100x$ and $10x$ because one digit is non-recurring and one digit recurs."
+  },
+  {
+   "heading": "Worked example: pure recurring decimal",
+   "body": "For a pure recurring decimal, the repeat starts immediately after the decimal point. Let $x=0.666\\ldots$, so $10x=6.666\\ldots$.\n\nSubtract the first equation from the second to eliminate the recurring digits. $$10x-x=6.666\\ldots-0.666\\ldots$$ $$9x=6$$ The matching recurring parts cancel out perfectly.\n\nNow divide by 9 to solve for $x$ and simplify the fraction. $$x=\\frac{6}{9}=\\frac{2}{3}$$ So $0.\\dot{6}=\\frac{2}{3}$."
+  },
+  {
+   "heading": "Worked example: one non-recurring digit",
+   "body": "![Aligned equations for x equals 0.3888 recurring, 10x equals 3.8888 recurring, and 100x equals 38.8888 recurring, with matching recurring tails cancelling to give 90x equals 35](../assets/001-55fb0d5c-a778-4b7b-88bf-ff6127213f91.jpeg)\nNow convert $0.3\\dot{8}$, which means $0.3888\\dots$. Let $x=0.3888\\dots$.\n\nOne digit is non-recurring, so first multiply by 10.\n$$10x=3.8888\\ldots$$\nOne full recurring digit later, multiply by 100.\n$$100x=38.8888\\ldots$$\n\nNow the tails match, so subtract.\n$$100x-10x=38.8888\\ldots-3.8888\\ldots$$\n$$90x=35$$\nUsing $10x$ and $x$ would not make the tails identical.\n\nSolve and simplify.\n$$x=\\frac{35}{90}=\\frac{7}{18}$$\nSo $0.3\\dot{8}=\\frac{7}{18}$.",
+   "figure_refs": [
+    "assets/001-55fb0d5c-a778-4b7b-88bf-ff6127213f91.jpeg"
+   ]
+  },
+  {
+   "heading": "Whole numbers and longer repeats",
+   "body": "A whole number before the decimal point does not change the method. Keep the whole number inside $x$ and work with the entire decimal.\n\nConsider the decimal $3.2\\dot{6}\\dot{3}=3.263636\\ldots$. Since there is 1 non-recurring digit and a 2-digit recurring block, let $x=3.263636\\ldots$ and compare $1000x$ and $10x$.\n\nWrite the two equations to align the decimals: $$1000x=3263.636363\\ldots$$ $$10x=32.636363\\ldots$$ Now the recurring tails match exactly.\n\nSubtract and solve to find the final value: $$990x=3231$$ $$x=\\frac{3231}{990}=\\frac{359}{110}$$ Note that leaving the answer as an improper fraction is perfectly acceptable."
+  },
+  {
+   "heading": "Calculations with recurring decimals",
+   "body": "When a question asks you to multiply or divide recurring decimals, convert each one to a fraction first. This is quicker and avoids messy infinite decimals.\n\nFor $0.4\\dot{2}$, let $x=0.4222\\ldots$.\n$$100x=42.222\\ldots$$\n$$10x=4.222\\ldots$$\nSubtracting these equations gives $90x=38$.\n\nThis result gives $x=\\frac{19}{45}$. Using $0.\\dot{3}=\\frac{1}{3}$, we can now divide using fractions:\n$$0.4\\dot{2}\\div 0.\\dot{3}=\\frac{19}{45}\\div\\frac{1}{3}=\\frac{19}{45}\\times 3=\\frac{19}{15}$$\n\nDividing by a fraction means multiplying by its reciprocal. Always simplify the final answer if you can."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "In $0.2\\dot{4}\\dot{9}$, which part repeats forever?",
+   "options": [
+    {
+     "id": "a",
+     "text": "49",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "249",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "94",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "2",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The dots show the first and last digits of the recurring block, so the repeating part is 49. The common wrong answer 249 includes the non-recurring 2, but only the dotted digits repeat."
+  },
+  {
+   "id": "card-6",
+   "question": "What is $0.\\dot{5}$ as a fraction in simplest form?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$\\frac{5}{9}$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$\\frac{1}{2}$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$\\frac{5}{10}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$\\frac{9}{5}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Since $0.\\dot{5}=0.555\\dots$, letting $x=0.555\\dots$ gives $10x=5.555\\dots$, so subtracting gives $9x=5$ and therefore $x=\\frac{5}{9}$. The common wrong answer $\\frac{1}{2}$ comes from confusing recurring $0.555\\dots$ with terminating $0.5$. Hint: One recurring digit straight after the decimal often leads to ninths."
+  },
+  {
+   "id": "card-11",
+   "question": "If $x=3.263636\\ldots$, which pair should you compare and subtract?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$1000x$ and $10x$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$100x$ and $x$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$1000x$ and $x$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$100x$ and $10x$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "There is 1 non-recurring digit and a 2-digit recurring block, so you need $10^{1+2}x$ and $10^1x$, which are $1000x$ and $10x$. The common wrong choice $100x$ and $10x$ does not line up the full recurring block 63, so the tails will not match exactly."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-6-6-1-recurring-decimals-to-fractions/lessons",
+ "source_sha256": "86c4a9c6a79d2beb7c40f5f111df5e22ed39cbedfd1257479e488150055e8c4a",
+ "extracted_at": "2026-11-08T19:01:02Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "ca21de51-f026-4650-ba9b-1bc3b719bd5e",
+  "topic_id": "0cfcd5c5-df4f-4c16-9f87-47e9a85ff433",
+  "created_at": "2026-05-14T03:15:20.140Z",
+  "updated_at": "2026-05-14T03:17:13.638Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

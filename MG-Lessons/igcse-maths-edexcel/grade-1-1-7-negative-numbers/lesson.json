@@ -1,0 +1,129 @@
+{
+ "topic": "grade-1-1-7-negative-numbers",
+ "lane": "igcse-maths-edexcel",
+ "grade": "1",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Negative numbers on a number line",
+   "body": "![Number line from negative 10 to 10 with arrows showing 4 minus 7 ending at negative 3 and negative 6 plus 8 ending at 2](../assets/001-7914d7f9-d6c9-461c-aed9-6016f0a0d5c3.jpeg)\nNegative numbers are numbers less than $0$. They are used for temperatures below freezing, money owed, and floors below ground level.\n\nOn a number line, numbers get smaller as you move left and bigger as you move right. This means $-8$ is smaller than $-3$, even though $8$ is bigger than $3$.\n\nZero is the boundary between negative and positive numbers. A quick check is to ask which number is further right, because that number is greater.",
+   "figure_refs": [
+    "assets/001-7914d7f9-d6c9-461c-aed9-6016f0a0d5c3.jpeg"
+   ]
+  },
+  {
+   "heading": "Adding and subtracting negative numbers",
+   "body": "Adding a positive number moves you right on the number line, and adding a negative number moves you left. If both numbers are negative, add the sizes and keep the negative sign, so $-5 + (-7) = -12$.\n\nWorked example: $-6 + 8$. Start at $-6$ and move $8$ places right: $-5, -4, -3, -2, -1, 0, 1, 2$. You land on $2$, so $-6 + 8 = 2$.\n\nSubtracting a negative does the opposite, so it is the same as adding a positive. For example, $7 - (-8) = 7 + 8 = 15$, so the answer is bigger than $7$."
+  },
+  {
+   "heading": "Choosing numbers and why order matters",
+   "body": "When you choose numbers to fill boxes, addition can be done in either order but subtraction cannot. That is why you must pay attention to which number comes first.\n\nWorked example: use $-8, -2, 3, 8$ to make one number minus another equal $-10$. Try $-2 - 8$, which gives $-10$, so the numbers are $-2$ and $8$ in that order.\n\nIf you reverse the numbers, $8 - (-2) = 10$, not $-10$. Brackets around the negative number help you see the subtraction clearly."
+  },
+  {
+   "heading": "Multiplying and dividing with negative numbers",
+   "body": "For multiplication and division, use a two-stage method. First ignore the signs and work out the size, then use the sign rule: same signs give a positive answer and different signs give a negative answer.\n\nExample 1: $6 \\times (-5)$. Ignore the signs to get $6 \\times 5 = 30$, then notice the signs are different, so the answer is $-30$. Example 2: $-4 \\times (-7)$ gives $4 \\times 7 = 28$, and the signs are the same, so the answer is $28$.\n\nDivision works the same way, so $-36 \\div 6 = -6$ because the signs are different. If you multiply several numbers, an even number of negative signs gives a positive answer and an odd number gives a negative answer."
+  },
+  {
+   "heading": "Sequences and temperatures",
+   "body": "In a sequence, find the change from one term to the next and keep using it, even when you cross $0$. Negative numbers do not stop the pattern.\n\nExample: $14, 8, 2, \\ldots$ goes down by $6$ each time, so the next two terms are $-4$ and $-10$. Example: $-18, -10, -2, \\ldots$ goes up by $8$ each time, so the next two terms are $6$ and $14$.\n\nTemperature changes work like moves on a number line, and the lowest temperature is the one furthest left. From $-6$ °C to $3$ °C, go $6$ degrees up to $0$ and $3$ more, so the temperature difference is $9$ °C."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Which statement is true?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$-8 > -3$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$-3 > -8$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$-3 = 3$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$0 < -5$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "On a number line, $-3$ is to the right of $-8$, so $-3$ is greater. The common wrong answer A comes from comparing the digits $8$ and $3$ instead of the positions of the numbers."
+  },
+  {
+   "id": "card-7",
+   "question": "Use two of these numbers: $-8, -2, 3, 8$. Which choice makes one number minus another equal to $-10$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "first $-2$, second $8$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "first $8$, second $-2$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "first $-8$, second $3$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "first $3$, second $-8$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Only A gives $-2 - 8 = -10$. The common wrong answer B gives $8 - (-2) = 10$, which shows why the order matters in subtraction."
+  },
+  {
+   "id": "card-12",
+   "question": "Stretch: A temperature starts at $-4$ °C. It rises by $7$ °C and then falls by $10$ °C. What is the final temperature?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$-7$ °C",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$3$ °C",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$-1$ °C",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$13$ °C",
+     "is_correct": false
+    }
+   ],
+   "explanation": "First rise: $-4 + 7 = 3$. Then fall $10$: $3 - 10 = -7$, so A is correct. The common wrong answer B stops after the first change and forgets the temperature then falls by $10$ °C."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-1-1-7-negative-numbers/lessons",
+ "source_sha256": "7afb604d113279044dc36a4e028ad950f8b3c1643803f59bee1b534f02982095",
+ "extracted_at": "2026-11-08T19:00:15Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "3730babb-52ac-4103-819c-d30a1b3b07ff",
+  "topic_id": "0d634165-c607-428c-a408-1c8c07847d25",
+  "created_at": "2026-05-13T12:01:24.140Z",
+  "updated_at": "2026-05-13T12:02:26.084Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

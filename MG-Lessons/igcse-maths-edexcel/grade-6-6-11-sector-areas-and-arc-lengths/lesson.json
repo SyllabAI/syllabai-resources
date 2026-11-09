@@ -1,0 +1,132 @@
+{
+ "topic": "grade-6-6-11-sector-areas-and-arc-lengths",
+ "lane": "igcse-maths-edexcel",
+ "grade": "6",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Parts of a sector",
+   "body": "![Labelled sector with centre O, two radii marked r, central angle theta, arc length L and shaded sector area A](../assets/001-9ddae9cc-79e2-4346-9d57-105b258fb483.jpeg)\n\nA sector is a slice of a circle made by two radii and an arc. If the angle at the centre is $\\theta$, then the sector is the fraction $\\frac{\\theta}{360}$ of the whole circle.\n\nStart from the full circle formulae $C = 2\\pi r$ and $A = \\pi r^2$. Then multiply by the same fraction $\\frac{\\theta}{360}$ to get arc length or sector area.\n\nBe careful with units. Area is in square units such as square centimetres, but arc length and perimeter are in units such as cm.",
+   "figure_refs": [
+    "assets/001-9ddae9cc-79e2-4346-9d57-105b258fb483.jpeg"
+   ]
+  },
+  {
+   "heading": "Area of a sector",
+   "body": "To find the area of a sector, multiply the area of the full circle by the fraction of the circle. In this formula, $r$ is the radius and $\\theta$ is the central angle measured in degrees.\n\n$$$A = \\frac{\\theta}{360}\\times \\pi r^2$$\n\nIf $r = 8$ cm and $\\theta = 150^\\circ$, we calculate the exact area by substituting these values: $$A = \\frac{150}{360}\\times \\pi \\times 8^2 = \\frac{80\\pi}{3}$$\n\nRounding only at the final step, we find $\\frac{80\\pi}{3} \\approx 83.8$ square centimetres to 3 significant figures. This same formula works for major sectors where $\\theta$ is greater than $180^\\circ$."
+  },
+  {
+   "heading": "Arc length and perimeter",
+   "body": "Arc length is a fraction of the full circumference. It is measured in length units such as cm, rather than square units. The general formula is:\n$$L = \\frac{\\theta}{360}\\times 2\\pi r$$\n\nFor example, if $r = 12$ cm and $\\theta = 135^\\circ$, the calculation is:\n$$L = \\frac{135}{360}\\times 2\\pi \\times 12 = \\frac{3}{8}\\times 24\\pi = 9\\pi$$\nThis results in an arc length of $9\\pi$ cm.\n\nThe perimeter of a sector is the sum of the curved arc length plus the two straight radii that bound the shape. Be careful not to forget either radius:\n$$P = L + 2r$$\n\nConsider a sector with $r = 5.4$ cm and $\\theta = 80^\\circ$. First, find the arc length $L = \\frac{80}{360}\\times 2\\pi \\times 5.4 = 2.4\\pi$. Then, calculate the total perimeter $P = 2.4\\pi + 10.8 \\approx 18.3$ cm to 3 significant figures."
+  },
+  {
+   "heading": "Shaded regions by subtraction",
+   "body": "![Composite diagram of a 90 degree sector of radius 10 cm with an internal semicircle of diameter 10 cm and the remaining region shaded](../assets/002-4600c1eb-06a1-4727-9f11-837074f2f871.jpeg)\n\nMany shaded-region questions are really subtraction questions. Find the larger area first, then subtract the smaller shape inside it.\n\nHere the sector area is:\n\n$$A_{\\text{sector}} = \\frac{90}{360} \\times \\pi \\times 10^2 = 25\\pi$$\n\nThe semicircle has a diameter of 10 cm, so its radius is 5 cm and its area is calculated as:\n\n$$A_{\\text{semi}} = \\frac{1}{2} \\times \\pi \\times 5^2 = \\frac{25\\pi}{2}$$\n\nNow subtract to find the remaining region:\n\n$$A_{\\text{shaded}} = 25\\pi - \\frac{25\\pi}{2} = \\frac{25\\pi}{2}$$\n\nThe same idea works with rectangles, semicircles, and sectors: calculate each piece carefully, then combine them.",
+   "figure_refs": [
+    "assets/002-4600c1eb-06a1-4727-9f11-837074f2f871.jpeg"
+   ]
+  },
+  {
+   "heading": "When the angle is missing",
+   "body": "Sometimes the angle is not given, but the radius and arc length are. In these cases, you can find the area using the shortcut:\n\n$$A = \\frac{1}{2}rL$$\n\nwhere $L$ is the arc length.\n\nThis works because area and arc length use the same fraction of the full circle. If you substitute the expression $L = \\frac{\\theta}{360} \\times 2\\pi r$ into the standard area formula, it simplifies directly to this shortcut.\n\nExample: if $r = 8$ cm and $L = 5\\pi$ cm, then:\n\n$$A = \\frac{1}{2} \\times 8 \\times 5\\pi = 20\\pi$$\n\nSo the sector area is $20\\pi$ square centimetres."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "A sector has central angle $135^\\circ$. What fraction of the full circle is the sector?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$\\frac{3}{8}$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$\\frac{3}{4}$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$\\frac{5}{8}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$\\frac{135}{180}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A full circle is $360^\\circ$, so the fraction is $\\frac{135}{360} = \\frac{3}{8}$. The common wrong answer $\\frac{3}{4}$ comes from comparing $135^\\circ$ with $180^\\circ$ instead of with the full $360^\\circ$."
+  },
+  {
+   "id": "card-7",
+   "question": "A sector has radius 5.4 cm and angle $80^\\circ$. What is its perimeter to 3 significant figures?",
+   "options": [
+    {
+     "id": "a",
+     "text": "18.3",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "7.54",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "10.8",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "13.2",
+     "is_correct": false
+    }
+   ],
+   "explanation": "First find the arc length: $L = \\frac{80}{360}\\times 2\\pi \\times 5.4 = 2.4\\pi \\approx 7.54$ cm. Then add the two radii, so $P = 7.54 + 10.8 \\approx 18.3$ cm; the common wrong answer 7.54 is just the arc length with the straight sides forgotten. Hint: Perimeter means every outside edge."
+  },
+  {
+   "id": "card-13",
+   "question": "Stretch: A sector has radius 9 cm and arc length $6\\pi$ cm. What is its area?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$27\\pi$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$54\\pi$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$15\\pi$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$3\\pi$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Hint: The angle is missing, so use the radius and the arc length directly. Use the shortcut $A = \\frac{1}{2}rL = \\frac{1}{2}\\times 9\\times 6\\pi = 27\\pi$ square centimetres. The common wrong answer $54\\pi$ comes from multiplying $9\\times 6\\pi$ but forgetting the factor of $\\frac{1}{2}$."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-6-6-11-sector-areas-and-arc-lengths/lessons",
+ "source_sha256": "a6517d39e05374851874089c14942962ea4db03d61c6ca8fddc82b02c488be32",
+ "extracted_at": "2026-11-08T19:01:05Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "b26bec3e-c64c-4f22-83ea-9c3f051c8569",
+  "topic_id": "851df10b-d44a-4533-aa59-01fe4cb69cab",
+  "created_at": "2026-05-13T12:20:52.424Z",
+  "updated_at": "2026-05-13T12:24:50.919Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

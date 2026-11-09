@@ -1,0 +1,164 @@
+{
+ "topic": "grade-1-1-2-multiplication-and-division",
+ "lane": "igcse-maths-edexcel",
+ "grade": "1",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Multiplication, division, and inverse operations",
+   "body": "Multiplication combines equal groups and division undoes that grouping. If $6 \\times 7 = 42$, then $42 \\div 6 = 7$ and $42 \\div 7 = 6$.\n\nThese are inverse operations, so they are useful for checking answers. In multiplication, the numbers you multiply are factors and the answer is the product; in division, the number you start with is the dividend, you divide by the divisor, and you get the quotient.\n\nEstimate first so you know the size of the answer you expect. For example, $386 \\times 7$ is close to $400 \\times 7 = 2800$, so the exact product should be near 2800."
+  },
+  {
+   "heading": "Short multiplication with carrying",
+   "body": "In short multiplication, work from right to left using place value. If a column total is 10 or more, write the ones digit and carry the tens to the next column.\n\nFor $386 \\times 7$, start with the ones: $6 \\times 7 = 42$, so write 2 and carry 4. Then $8 \\times 7 = 56$, add the carried 4 to get 60, so write 0 and carry 6.\n\nNext, $3 \\times 7 = 21$, and adding the carried 6 gives 27. The completed calculation is shown below:\n\n$$$386 \\times 7 = 2702$$\n\nThe final product of 2702 matches the original estimate of about 2800."
+  },
+  {
+   "heading": "Short division and carried remainders",
+   "body": "In short division, start from the left and divide each place-value column in turn. A remainder is carried into the next column, not thrown away.\n\nFor $756 \\div 6$, 6 goes into 7 once with remainder 1, so the 5 tens become 15 tens. Then 6 goes into 15 twice with remainder 3, so the 6 ones become 36 ones. Finally, 6 goes into 36 six times.\n\nThe completed division is: $$756 \\div 6 = 126$$ Remember that $0 \\div 5 = 0$, but $5 \\div 0$ is not defined."
+  },
+  {
+   "heading": "Long multiplication with a two-digit number",
+   "body": "To multiply by a two-digit number, split it into tens and ones, such as $38 = 30 + 8$. You find two partial products and then add them.\n\nFor $64 \\times 38$, first multiply by the ones: $64 \\times 8 = 512$. Then multiply by the tens: $64 \\times 30 = 1920$, remembering that 30 means three tens.\n\nNow add the partial products to get\n$$512 + 1920 = 2432$$\nSo $64 \\times 38 = 2432$, and an estimate of $60 \\times 40 = 2400$ shows the answer is sensible."
+  },
+  {
+   "heading": "Multiplying decimals",
+   "body": "When you multiply a decimal by a whole number, use the same multiplication method as for whole numbers. Then place the decimal point so the product has the same number of decimal places as the decimal factor.\n\nFor example, multiplying $48.26$ by 3 gives $$48.26 \\times 3 = 144.78$$ This matches the estimate $50 \\times 3 = 150$, so the answer size is reasonable.\n\nWhen both factors are decimals, ignore the decimal points first and multiply as whole numbers. In $9.04 \\times 7.6$, think of $904 \\times 76 = 68704$, then count 3 decimal places in total to get $$9.04 \\times 7.6 = 68.704$$"
+  },
+  {
+   "heading": "Dividing decimals by whole numbers",
+   "body": "For division of a decimal by a whole number, put the decimal point in the quotient directly above the decimal point in the dividend. Then divide column by column as usual.\n\nIn $42.84 \\div 6$, 6 goes into 42 seven times, then the decimal point goes into the answer. Next, 6 goes into 8 tenths once with 2 tenths left, and 6 goes into 24 hundredths four times.\n\n$$$42.84 \\div 6 = 7.14$$\n\nIf you still have a remainder at the end, add a zero after the decimal point without changing the value, so $18.2 \\div 4 = 4.55$."
+  },
+  {
+   "heading": "Dividing by a decimal",
+   "body": "![Diagram showing 71.2 ÷ 0.4 becoming 712 ÷ 4 when both numbers are multiplied by 10, with arrows showing the decimal points moving one place right](../assets/001-9bf7b4d0-65d7-4558-bb9f-6614a8470490.jpeg)\n\nThe picture shows one example of the rule: multiply both numbers by the same power of 10 until the divisor is whole. This gives an equivalent division, so the quotient stays the same.\n\nFor $54.4 \\div 0.8$, multiply both numbers by 10 to get $544 \\div 8$. The equivalent whole-number division is shown below:\n\n$$$54.4 \\div 0.8 = 544 \\div 8 = 68$$\n\nDividing by a number less than 1 can make the answer bigger. That is why 68 is larger than the original value of 54.4 in this calculation.",
+   "figure_refs": [
+    "assets/001-9bf7b4d0-65d7-4558-bb9f-6614a8470490.jpeg"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "The product of 8 and 9 is 72. What is the quotient when 72 is divided by 8?",
+   "options": [
+    {
+     "id": "a",
+     "text": "9",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "8",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "72",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "1",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$72 \\div 8 = 9$, so division returns the missing factor from the multiplication. The most common wrong answer is B, which just repeats the divisor instead of finding how many 8s make 72."
+  },
+  {
+   "id": "card-7",
+   "question": "Which statement is correct?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$5 \\div 0 = 0$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$0 \\div 5 = 5$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$0 \\div 5 = 0$",
+     "is_correct": true
+    },
+    {
+     "id": "d",
+     "text": "A remainder in short division is ignored",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Zero shared into five equal groups gives zero in each group, so $0 \\div 5 = 0$. The most common wrong answer is A, but division by zero is never allowed."
+  },
+  {
+   "id": "card-9",
+   "question": "In $64 \\times 38$, what is the tens partial product?",
+   "options": [
+    {
+     "id": "a",
+     "text": "192",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "1920",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "512",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "2432",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The tens part is $64 \\times 30$, which equals 1920. The most common wrong answer is 192, which forgets that the 3 in 38 means 3 tens, not just 3. Hint: Rewrite 38 as $30 + 8$."
+  },
+  {
+   "id": "card-14",
+   "question": "What is $18.2 \\div 4$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "4.55",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "45.5",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "4.5",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "0.455",
+     "is_correct": false
+    }
+   ],
+   "explanation": "After dividing 18 by 4, you continue into the decimal places, and adding a zero lets you finish the division exactly at the hundredths place. The most common wrong answer is 4.5, which stops too early and forgets to continue with 0 hundredths. Hint: You can write 18.2 as 18.20."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-1-1-2-multiplication-and-division/lessons",
+ "source_sha256": "3ef864923075c029c017c1966ce887c35d728abbdde85ca1b1e650877168bafa",
+ "extracted_at": "2026-11-08T19:00:11Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "59fe6325-fa6e-458c-8083-40f302fabd52",
+  "topic_id": "db15ce70-640c-44c5-8156-21a10c258085",
+  "created_at": "2026-05-14T03:11:00.000Z",
+  "updated_at": "2026-05-14T03:12:15.039Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

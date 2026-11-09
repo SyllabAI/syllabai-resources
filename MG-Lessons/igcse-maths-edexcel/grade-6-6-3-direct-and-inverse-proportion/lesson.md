@@ -1,0 +1,83 @@
+# grade-6-6-3-direct-and-inverse-proportion — lesson
+
+_Lane: `igcse-maths-edexcel` · grade 6 · 5 content steps · 3 check questions (source: MathsGenie lessons)_
+
+## What proportion means
+
+Proportion compares quantities that change together in a multiplicative way. If one quantity is multiplied by a factor, the other follows a predictable rule too.
+
+In direct proportion, the variables move together and follow $y = kx$. In inverse proportion, one increases while the other decreases and follows $y = \frac{k}{x}$.
+
+The number $k$ is the constant of proportionality. The unitary method finds the value for 1 unit first, then scales to the amount you need.
+
+## Direct proportion and the unitary method
+
+In direct proportion, the ratio $\frac{y}{x}$ stays constant. If $x$ doubles, $y$ doubles, and if $x$ is divided by 3, $y$ is divided by 3.
+
+Worked example: 6 oranges cost £1.20, so 1 orange costs $1.20 \div 6 = 0.20$. Then 9 oranges cost $0.20 \times 9 = 1.80$, so the total is £1.80.
+
+You can also write this as $C = 0.20n$, where $C$ is cost in pounds and $n$ is the number of oranges. A quick check helps: 9 oranges is more than 6, so the cost must be more than £1.20.
+
+## Using a direct proportion formula
+
+If a quantity is directly proportional to another, you can write a formula such as $m = kl$. To find $k$, divide a known value of $m$ by the matching value of $l$.
+
+Worked example: a metal rod has mass $m = 24l$. Substitute $m = 180$ to get $180 = 24l$, then divide by 24 so $l = 180 \div 24 = 7.5$.
+
+The rod is 7.5 cm long. The number 24 means 24 grams for each 1 cm, so dividing by 24 is the sensible way to find the length.
+
+## Inverse proportion
+
+In inverse proportion, the product stays constant, so $xy = k$. If one quantity doubles, the other halves.
+
+Worked example: 3 painters take 8 days, so the total work is $3 \times 8 = 24$ painter-days. With 2 painters, the time is $24 \div 2 = 12$ days.
+
+This answer makes sense because fewer painters should take longer. If your answer is less than 8 days, you have probably used direct proportion by mistake.
+
+## Recognising graphs and inverse square proportion
+
+![Four coordinate graphs showing a straight line through the origin, a hyperbola in the first and third quadrants, a parabola through the origin, and two positive branches symmetric about the y-axis](../assets/001-22d0d7d6-b479-4dd5-8ed0-5e1751f1d315.jpeg)
+
+Graphs help you recognise a proportional relationship quickly. A straight line through the origin shows $y \propto x$, while a curve approaching the axes suggests an inverse rule.
+
+For positive $k$, $y \propto \frac{1}{x}$ gives branches in the first and third quadrants, and the axes are asymptotes that the curve never touches. $y \propto x^2$ is a parabola through the origin, while $y \propto \frac{1}{x^2}$ has two branches above the x-axis, symmetric about the y-axis.
+
+Worked example: if $F = \frac{80}{d^2}$ and $d = 4$, square first so $4^2 = 16$. Then $F = \frac{80}{16} = 5$, so the force is 5 units.
+
+## Check yourself
+
+1. Which situation is an example of inverse proportion?
+
+   - If the number of workers doubles, the time for the same job halves. ✔
+
+   - If the number of notebooks doubles, the total cost doubles.
+
+   - If the side length of a square doubles, its area doubles.
+
+   - If $x$ doubles, $y$ increases by 2.
+
+   _Explanation:_ A is inverse proportion because one quantity increases while the other decreases by the same factor, so the product stays constant. The common wrong answer B is direct proportion, because both quantities increase together and the cost per notebook stays constant.
+
+2. A cost $c$ is directly proportional to the number of tickets $n$. If 3 tickets cost £7.50, which formula is correct?
+
+   - $$c = 2.5n$ ✔
+
+   - $$c = \frac{7.5}{n}$
+
+   - $$c = 7.5n$
+
+   - $$c = n + 2.5$
+
+   _Explanation:_ One ticket costs £2.50, so the total cost is number of tickets multiplied by 2.5, giving $c = 2.5n$. The common wrong answer $c = 7.5n$ treats the cost of 3 tickets as if it were the cost of 1 ticket.
+
+3. A force $F$ is inversely proportional to $d^2$. When $d = 2$, $F = 20$. What is $F$ when $d = 5$?
+
+   - 3.2 ✔
+
+   - 8
+
+   - 12.5
+
+   - 50
+
+   _Explanation:_ Since $F = \frac{k}{d^2}$, use $20 = \frac{k}{2^2}$ to get $k = 80$. Then $F = \frac{80}{25} = 3.2$. The common wrong answer 8 comes from treating it like simple inverse proportion and dividing by 2.5 instead of by $2.5^2$.

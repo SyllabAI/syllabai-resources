@@ -1,0 +1,129 @@
+{
+ "topic": "grade-4-4-8-expanding-and-factorising",
+ "lane": "igcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Key ideas",
+   "body": "![Area model of one rectangle with height k and widths a and b split into areas ka and kb to show k(a + b) = ka + kb](../assets/001-2d069416-7dce-4fb8-a9a2-e11bf489e125.jpeg)\n\nExpanding removes brackets by multiplying the outside factor by every term inside. Factorising is the reverse process, where you rewrite a sum as a product with brackets.\n\nIn algebra, a variable is a letter that represents a number, and a term is one part of an expression. A coefficient is the number multiplying the variable, and like terms have exactly the same variable part, so $6x$ and $2x$ can combine but $6x$ and $2y$ cannot.\n\nBe careful with powers. $x$ and $x^2$ are not like terms, so they cannot be collected together.",
+   "figure_refs": [
+    "assets/001-2d069416-7dce-4fb8-a9a2-e11bf489e125.jpeg"
+   ]
+  },
+  {
+   "heading": "Expanding one bracket",
+   "body": "To expand a single bracket, multiply the outside term by every term inside the bracket. The distributive law says $k(a + b) = ka + kb$ and $k(a - b) = ka - kb$.\n\nStart with a numerical example.\n$$8(4s - 3) = 8 \\times 4s + 8 \\times (-3) = 32s - 24$$\nThe 8 affects both terms, not just the first one.\n\nThe same rule works when the outside factor contains a variable.\n$$5x(3x - 2) = 5x \\times 3x + 5x \\times (-2) = 15x^2 - 10x$$\nA common mistake is to multiply only the first term, which leaves the answer incomplete."
+  },
+  {
+   "heading": "Expanding and simplifying",
+   "body": "When there are two brackets, expand each one first and then collect like terms. If there is a minus sign before a bracket, treat it as multiplying by a negative number.\n\nFor $4(3y - 5) - 2(5y + 1)$, expand both parts: $$4(3y - 5) = 12y - 20,\\qquad -2(5y + 1) = -10y - 2$$ The $+1$ became $-2$ because it was multiplied by $-2$.\n\nNow collect like terms: $$12y - 20 - 10y - 2 = 2y - 22$$ If you get $2y - 19$, you have probably forgotten to change the sign of the final 1."
+  },
+  {
+   "heading": "Factorising fully",
+   "body": "Factorising is the reverse of expanding. To factorise fully, find the highest common factor of all the terms and place it outside a bracket.\n\nFor $20y + 35$, the HCF is 5.\n$$20y + 35 = 5(4y + 7)$$\nEach term was divided by 5 to make the bracket.\n\nVariables can also be part of the HCF. In $12m^2n + 18mn^2$, the numerical HCF is 6 and the common variable part is $mn$.\n$$12m^2n \\div 6mn = 2m,\\qquad 18mn^2 \\div 6mn = 3n$$\nSo the fully factorised form is $6mn(2m + 3n)$, which you can check by expanding back."
+  },
+  {
+   "heading": "Solving equations with brackets",
+   "body": "When solving an equation with a bracket, it is often quickest to undo the outside multiplication first. In $5(b + 4) = 45$, divide both sides by 5 to get $b + 4 = 9$. Now undo the addition by subtracting 4 from both sides.\n\n$$$b = 5$$\n\nA quick check gives $5(5 + 4) = 45$, so the solution works. Decimal answers are fine too. For $4(c - 3) = 18$, divide first to get $c - 3 = 4.5$, then add 3 to get $c = 7.5$."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-3",
+   "question": "Which pair are like terms?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$6x$ and $2x$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$6x$ and $2y$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$x$ and $x^2$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$3a$ and $3a^2$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$6x$ and $2x$ are like terms because the variable part is exactly $x$ in both terms, so they can be combined to make $8x$. A very common wrong choice is C, but $x$ and $x^2$ are different because the powers do not match."
+  },
+  {
+   "id": "card-6",
+   "question": "Expand and simplify $4(3y - 5) - 2(5y + 1)$.",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$2y - 22$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$2y - 19$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$22y - 22$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$2y + 22$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The correct expansion is $12y - 20 - 10y - 2$, which simplifies to $2y - 22$. A very common wrong answer is B, which happens when you change $5y$ to $-10y$ but forget that the $+1$ must also become $-2$."
+  },
+  {
+   "id": "card-12",
+   "question": "Solve $5(b + 4) = 45$.",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$b = 9$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$b = 5$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$b = 41$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$b = 1$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Divide both sides by 5 first to get $b + 4 = 9$, then subtract 4 to get $b = 5$. A common wrong answer is A because 9 is only the value of the bracket, not the final value of $b$."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-4-4-8-expanding-and-factorising/lessons",
+ "source_sha256": "7d6ea248ee2c835d2b375b3524075bf0b7dafc29529ae47e55d86f8b9dca3a82",
+ "extracted_at": "2026-11-08T19:00:50Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "b6e1c192-5384-43f2-b0ef-a4c29a5dee05",
+  "topic_id": "8a71ed3f-0611-4b81-b087-5b9d77ae05bb",
+  "created_at": "2026-05-14T04:32:05.230Z",
+  "updated_at": "2026-05-14T04:33:01.661Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

@@ -1,0 +1,163 @@
+{
+ "topic": "grade-3-3-17-area-of-compound-shapes",
+ "lane": "igcse-maths-edexcel",
+ "grade": "3",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Area, formulae, and the correct height",
+   "body": "The key formula for this topic is the trapezium area formula:\n$$A_{\\text{trapezium}} = \\frac{1}{2}(a+b)h$$\nAlso remember $A_{\\text{rectangle}} = bh$ and $A_{\\text{triangle}} = \\frac{1}{2}bh$ when you split a compound shape into simpler parts.\n\nIn a trapezium, $a$ and $b$ are the parallel sides. The height $h$ must be perpendicular to them, so do not use a sloping side unless it makes a right angle.\n\n![Rectangle, triangle, and trapezium with bases, parallel sides, and perpendicular heights labelled](../assets/001-e41ee303-7821-4048-887a-78c25a35e48d.jpeg)\nArea is the flat space inside a 2D shape, measured in square units such as square centimetres or square metres.",
+   "figure_refs": [
+    "assets/001-e41ee303-7821-4048-887a-78c25a35e48d.jpeg"
+   ]
+  },
+  {
+   "heading": "Two main strategies",
+   "body": "![L-shaped compound rectilinear shape split into two rectangles with a dashed line and missing width 7 cm labelled](../assets/002-3d5ef90d-5812-4422-8439-478844475251.jpeg)\n\nMost compound shapes can be handled in one of two ways: split the shape into simple parts and add their areas, or find a large outer shape and subtract the missing part.\n\nRight-angled compound shapes often split neatly into rectangles. If a length is missing, work it out before finding any area. In the L-shape shown, the missing width is $13 - 6 = 7$ cm.\n\nNever measure a diagram that is not accurately drawn. Use the labelled lengths only.",
+   "figure_refs": [
+    "assets/002-3d5ef90d-5812-4422-8439-478844475251.jpeg"
+   ]
+  },
+  {
+   "heading": "Worked example: L-shape made from two rectangles",
+   "body": "Split the L-shape into a left rectangle and a right rectangle. The missing width is $13 - 6 = 7$ cm, so the two rectangles are $6 \\times 8$ and $7 \\times 5$.\n\nFind each area separately. $$6 \\times 8 = 48, \\qquad 7 \\times 5 = 35$$\n\nBoth answers are in square centimetres. Add the two areas to get the total.\n\n$$$48 + 35 = 83$$ So the area of the compound shape is $83$ square centimetres."
+  },
+  {
+   "heading": "Worked example: rectangle plus triangle",
+   "body": "A compound shape can mix different simple shapes, such as a rectangle and a triangle. Find each area separately, using the perpendicular height for the triangle.\n\nFor a rectangle $3$ cm by $10$ cm, the area is $$3 \\times 10 = 30$$\n\nFor a right-angled triangle with base $6$ cm and height $4$ cm, the area is $$\\frac{1}{2}\\times 6 \\times 4 = 12$$ This gives the two parts of the compound shape.\n\nNow add the two parts: $$30 + 12 = 42$$ So the total area is $42$ square centimetres."
+  },
+  {
+   "heading": "Subtracting unshaded parts",
+   "body": "Sometimes the easiest method is whole shape minus hole. This is common in walls with doors, windows, or inner cut-outs.\n\nFor a wall $5$ m by $3$ m, the area is\n$$5 \\times 3 = 15$$\nFor a door $1$ m by $2$ m, the area is\n$$1 \\times 2 = 2$$\nThese are the outer area and the cut-out area.\n\nSubtract the part you do not want.\n$$15 - 2 = 13$$\nSo the painted area is $13$ square metres. If there are several identical cut-outs, find their total area before subtracting."
+  },
+  {
+   "heading": "Stretch: area then money",
+   "body": "In real-life problems, area can be just the first step. Check that the price is given per square metre before you multiply. A field is made from a rectangle $70$ m by $90$ m and a right-angled triangle with base $80$ m and height $65$ m.\n\n$$$70\\times90 = 6300,\\qquad \\frac{1}{2}\\times80\\times65 = 2600$$\n\nNow add the areas together and then apply the price to find the total value. Calculating the total sum first allows you to determine the final valuation accurately.\n\n$$$6300 + 2600 = 8900$$ $$8900\\times4 = 35600$$ So the field sells for £35,600."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "In a trapezium, which measurement should be used as the height in $A = \\frac{1}{2}(a+b)h$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The longest side",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "The sloping side",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "The perpendicular distance between the parallel sides",
+     "is_correct": true
+    },
+    {
+     "id": "d",
+     "text": "The sum of the parallel sides",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The height is the perpendicular distance between the two parallel sides, so that value is $h$. A common mistake is choosing the sloping side, but it is not the height unless it is at $90^\\circ$ to the base."
+  },
+  {
+   "id": "card-6",
+   "question": "Which calculation correctly finds the area of the L-shape with measurements 13 cm, 8 cm, 6 cm, and 5 cm?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$6\\times8 + 7\\times5$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$13\\times8$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$13\\times5 + 6\\times8$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$6\\times5 + 7\\times8$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Splitting the shape gives two rectangles, so you add $6\\times8$ and $7\\times5$. The common wrong answer $13\\times8$ finds the area of the outside rectangle and wrongly includes the missing corner that is not part of the shape."
+  },
+  {
+   "id": "card-12",
+   "question": "A large rectangle measures 11 cm by 8 cm. Inside it are three identical unshaded rectangles, each 3 cm by 2 cm. What is the shaded area?",
+   "options": [
+    {
+     "id": "a",
+     "text": "70 square centimetres",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "82 square centimetres",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "66 square centimetres",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "106 square centimetres",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The large rectangle has area $11\\times8 = 88$. Each small rectangle has area $3\\times2 = 6$, so three of them have total area $18$, and $88 - 18 = 70$. The common wrong answer 82 comes from subtracting only one cut-out instead of all three."
+  },
+  {
+   "id": "card-15",
+   "question": "A field is made from a rectangle $70\\text{ m}$ by $90\\text{ m}$ and a right-angled triangle with base $80\\text{ m}$ and height $65\\text{ m}$. It is sold for $£4$ per square metre. How much money is received?",
+   "options": [
+    {
+     "id": "a",
+     "text": "£8,900",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "£17,800",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "£35,600",
+     "is_correct": true
+    },
+    {
+     "id": "d",
+     "text": "£37,400",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The rectangle area is $6300$, the triangle area is $2600$, so the total area is $8900$ square metres. Multiplying by $£4$ per square metre gives $£35,600$. The common wrong answer $£8,900$ comes from finding the area but forgetting the cost step."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-3-3-17-area-of-compound-shapes/lessons",
+ "source_sha256": "460e74b1a5b881e165b882481b99026a7c11d6225f47ab3306455b7d9154362f",
+ "extracted_at": "2026-11-08T19:00:30Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "7ca93559-a515-4fd8-9853-bd669c607e03",
+  "topic_id": "0b31b976-faaa-4193-8f77-2e7e7a3e6cb8",
+  "created_at": "2026-05-14T04:48:17.680Z",
+  "updated_at": "2026-05-14T04:58:24.110Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

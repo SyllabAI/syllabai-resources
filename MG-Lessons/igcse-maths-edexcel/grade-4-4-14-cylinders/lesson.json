@@ -1,0 +1,163 @@
+{
+ "topic": "grade-4-4-14-cylinders",
+ "lane": "igcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Cylinder basics",
+   "body": "A cylinder is a 3D shape with two equal, parallel circular faces joined by one curved surface. The key measurements are radius $r$, diameter $d$, and height $h$.\n\nIf a question gives the diameter, halve it before using any formula with $r$. For circles, $d = 2r$, area $A = \\pi r^2$, and circumference $C = 2\\pi r$.\n\nThese circle facts feed directly into cylinder formulas. Volume is measured in cubic units such as $cm^3$, while surface area is measured in square units such as $cm^2$."
+  },
+  {
+   "heading": "Volume of a cylinder",
+   "body": "Volume tells you how much space is inside the cylinder. It is the area of the circular base multiplied by the height, using the formula:\n\n$$V = \\pi r^2h$$\n\nFor example, consider a cylinder with a diameter of $8$ cm and a height of $11.5$ cm. First, we calculate the radius by dividing the diameter by two:\n\n$$r = \\frac{8}{2} = 4$$\n\nNow substitute the radius and height into the volume formula:\n\n$$V = \\pi \\times 4^2 \\times 11.5 = 184\\pi$$\n\nIf a decimal is needed, $184\\pi \\approx 578.053$, so the volume is $578.1$ cm³ to 1 decimal place.\n\nIf the question asks for the answer in terms of $\\pi$, stop at $184\\pi$ cm³. Do not turn $\\pi$ into a decimal unless the question specifically asks you to."
+  },
+  {
+   "heading": "Total surface area from the net",
+   "body": "![Net of a closed cylinder showing two circles and a rectangle with width 2πr and height h](../assets/001-56109000-5866-493f-8b8e-7e22c720d9ec.jpeg)\n\nA closed cylinder can be opened into a net with two circles and one rectangle. The rectangle has height $h$ and width equal to the circumference, so its width is $2\\pi r$.\n\nSo the total surface area of a closed cylinder is\n\n$$\\text{TSA} = 2\\pi r^2 + 2\\pi rh$$\n\nThe first part is the two circular ends, and the second part is the curved surface.\n\nExample: if $r = 3$ cm and $h = 9.5$ cm, then\n\n$$\\text{TSA} = 2\\pi \\times 3^2 + 2\\pi \\times 3 \\times 9.5 = 18\\pi + 57\\pi = 75\\pi$$\n\nSo the total surface area is $75\\pi$ cm², which is about $235.6$ cm².\n\nIf the cylinder is open at the top or bottom, leave out that missing circle. Always check whether the shape is closed before choosing the formula.",
+   "figure_refs": [
+    "assets/001-56109000-5866-493f-8b8e-7e22c720d9ec.jpeg"
+   ]
+  },
+  {
+   "heading": "Semi-cylinders and combined solids",
+   "body": "![Semi-cylinder showing half curved surface, flat rectangular face, two semicircular ends, radius r, and length L](../assets/002-1bac3859-ff71-447e-b3c4-7c4f7b7d50cc.jpeg)\n\nA semi-cylinder is half of a cylinder cut lengthways. For volume, take half the full-cylinder formula, so:\n\n$$V = \\frac{1}{2}\\pi r^2L$$\n\nwhere $L$ is the length.\n\nFor surface area, count every exposed face carefully. You need half the curved surface, the flat rectangular face, and two semicircular ends, so:\n\n$$\\text{TSA} = \\pi rL + 2rL + \\pi r^2$$\n\nIf $r = 10$ cm and $L = 40$ cm, then the volume is calculated as:\n\n$$V = \\frac{1}{2}\\pi \\times 10^2 \\times 40 = 2000\\pi$$\n\nThus, the volume is about $6.28 \\times 10^3$ cm³.\n\nFor the same semi-cylinder, the total surface area is:\n\n$$\\text{TSA} = \\pi \\times 10 \\times 40 + 2 \\times 10 \\times 40 + \\pi \\times 10^2 = 500\\pi + 800$$\n\nThis results in a total surface area of about $2.37 \\times 10^3$ cm². For a combined solid, split it into simple parts and add the volumes.",
+   "figure_refs": [
+    "assets/002-1bac3859-ff71-447e-b3c4-7c4f7b7d50cc.jpeg"
+   ]
+  },
+  {
+   "heading": "Working backwards",
+   "body": "Sometimes you are given the volume or surface area and must find a missing radius or height. Write the formula first, substitute the known values, and then solve the equation step by step.\n\nExample: a cylinder has volume $288\\pi$ m³ and height $8$ m. Start with\n$$V = \\pi r^2h$$\nso\n$$288\\pi = \\pi r^2 \\times 8$$\n\nNow divide by $\\pi$ to simplify the equation:\n$$288 = 8r^2$$\nThen divide by $8$ to get $r^2 = 36$.\n\nFinally, take the positive square root:\n$$r = 6$$\nUse the positive value because a radius cannot be negative."
+  },
+  {
+   "heading": "Units, litres, and practical answers",
+   "body": "Practical questions often mix units, so convert before substituting. Two useful facts are $1\\,\\text{m} = 100\\,\\text{cm}$ and $1\\,\\text{L} = 1000\\,\\text{cm}^3$.\n\nExample: a cylindrical tank has radius $10$ cm and height $60$ cm. Its volume is $$V = \\pi \\times 10^2 \\times 60 = 6000\\pi$$ so the tank holds $6000\\pi\\,\\text{cm}^3$.\n\nTo change $\\text{cm}^3$ into litres, use a conversion factor: $$6000\\pi\\,\\text{cm}^3 \\times \\frac{1\\,\\text{L}}{1000\\,\\text{cm}^3} = 6\\pi\\,\\text{L}$$ The $\\text{cm}^3$ units cancel, leaving litres.\n\nAt $1.5$ L per minute, the filling time is $6\\pi \\div 1.5 \\approx 12.6$ minutes. To the nearest minute, the tank fills in $13$ minutes."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "A cylinder has diameter 12 cm. What radius should you use in $V = \\pi r^2h$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "6 cm",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "12 cm",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "24 cm",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "3 cm",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The radius is half the diameter, so $r = 12 \\div 2 = 6$ cm. The most common wrong answer is 12 cm because it uses the diameter directly in a formula that needs the radius."
+  },
+  {
+   "id": "card-8",
+   "question": "A closed cylinder has radius 5 cm and height 13 cm. What is its total surface area in terms of $\\pi$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$180\\pi$ cm²",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$155\\pi$ cm²",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$130\\pi$ cm²",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$50\\pi$ cm²",
+     "is_correct": false
+    }
+   ],
+   "explanation": "For a closed cylinder, $\\text{TSA} = 2\\pi r^2 + 2\\pi rh = 2\\pi \\times 5^2 + 2\\pi \\times 5 \\times 13 = 50\\pi + 130\\pi = 180\\pi$ cm². The most common wrong answer is $155\\pi$ cm² because it includes only one circular end instead of two."
+  },
+  {
+   "id": "card-10",
+   "question": "A solid is made from a cuboid of volume $108$ $m^3$ and a half-cylinder of volume $18\\pi$ $m^3$ on top. What is the total volume to 3 significant figures?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$126$ $m^3$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$165$ $m^3$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$164.5$ $m^3$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$56.5$ $m^3$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Add the two volumes first: $108 + 18\\pi \\approx 164.549$. Rounded to 3 significant figures, this is $165$ $m^3$. The most common wrong answer is $126$ $m^3$ because it treats $18\\pi$ as just 18 and forgets the factor of $\\pi$. Hint: Work with the exact value $108 + 18\\pi$ before rounding."
+  },
+  {
+   "id": "card-15",
+   "question": "Four closed cylindrical tanks each have diameter $50$ cm and height $1.2$ m. One pot of paint covers $3$ m². How many pots are needed?",
+   "options": [
+    {
+     "id": "a",
+     "text": "3",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "4",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "9",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "10",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Convert $50$ cm to $0.5$ m, so the radius is $0.25$ m. One tank has surface area about $2.278$ m², so four tanks need about $9.112$ m². Then $9.112 \\div 3 \\approx 3.037$, so you must buy 4 pots. The most common wrong answer is 3 because practical buying questions must round up, not down."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-4-4-14-cylinders/lessons",
+ "source_sha256": "a6db0970b5c50b283d99106d46069c14eecb2354790ed497e95d87d1d2eaf566",
+ "extracted_at": "2026-11-08T19:00:43Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "4a21f378-4e85-4029-9335-d83e3a487c69",
+  "topic_id": "5886eb1d-0bcc-4ed0-9172-ecfe283d998d",
+  "created_at": "2026-05-20T10:07:15.256Z",
+  "updated_at": "2026-05-20T10:21:49.737Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

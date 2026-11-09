@@ -1,0 +1,133 @@
+{
+ "topic": "grade-6-6-12-parallel-and-perpendicular-lines",
+ "lane": "igcse-maths-edexcel",
+ "grade": "6",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Reading straight lines",
+   "body": "![Coordinate grid with two parallel lines of gradient 2 and a perpendicular line of gradient minus one half, with a right angle marked](../assets/001-bc18b5a5-7380-4ae2-bc8c-e024006c74fa.jpeg)\n\nMost straight-line questions become easier when the equation is written as $y = mx + c$. Here, $m$ is the gradient, which tells you how steep the line is, and $c$ is the $y$-intercept, so the line crosses the $y$-axis at $(0, c)$.\n\nParallel lines have the same gradient, so they run in the same direction and never meet. Perpendicular lines meet at $90^\\circ$, and for non-horizontal lines their gradients are negative reciprocals: if one line has gradient $m$, the perpendicular line has gradient $-\\frac{1}{m}$.\n\nIn the diagram, lines A and B both have gradient $2$, so they are parallel. Line C has gradient $-\\frac{1}{2}$, and since $2 \\times \\left(-\\frac{1}{2}\\right) = -1$, it is perpendicular to them.",
+   "figure_refs": [
+    "assets/001-bc18b5a5-7380-4ae2-bc8c-e024006c74fa.jpeg"
+   ]
+  },
+  {
+   "heading": "Writing parallel lines",
+   "body": "Parallel lines always keep the same gradient. If a line is parallel to $y=\\frac{1}{2}x+6$, start by writing $y=\\frac{1}{2}x+c$.\n\nIf the new line passes through $(0,-3)$, you can read off the intercept immediately because points on the y-axis have $x=0$. So the equation becomes $y=\\frac{1}{2}x-3$.\n\nIf the given point is not on the y-axis, keep the same gradient and then substitute the point to find $c$. A common mistake is changing the gradient, but that would make the new line point in a different direction."
+  },
+  {
+   "heading": "Writing perpendicular lines",
+   "body": "Perpendicular lines meet at a right angle. For non-horizontal lines, their gradients are negative reciprocals, which is the same as saying $m_1m_2=-1$. A horizontal line such as $y=4$ is perpendicular to a vertical line such as $x=2$.\n\nExample: find the line perpendicular to $y=\\frac{1}{4}x-5$ through $(0,6)$. The original gradient is $\\frac{1}{4}$, so the perpendicular gradient is $-4$.\n\nWrite the new equation as $y=-4x+c$. Because the point provided is $(0,6)$, the y-intercept $c$ must be $6$, resulting in the final equation $y=-4x+6$."
+  },
+  {
+   "heading": "Rearranging before comparing",
+   "body": "Some equations do not show the gradient straight away. Before comparing lines, rearrange until the equation is in the form $y=mx+c$.\n\nFor $2x+5y=10$, move $2x$ first and then divide every term by 5. This shows the gradient without guessing.\n\n$$$2x+5y=10 \\Rightarrow 5y=-2x+10 \\Rightarrow y=-\\frac{2}{5}x+2$$\n\nNow you can see that the gradient is $-\\frac{2}{5}$. A line parallel to this one keeps that gradient, while a perpendicular line would have gradient $\\frac{5}{2}$."
+  },
+  {
+   "heading": "Using two points to find the line",
+   "body": "If you are given two points instead of an equation, first find the gradient using $m=\\frac{y_2-y_1}{x_2-x_1}$. This tells you the gradient a parallel line must keep.\n\nExample: Line A passes through $(2,1)$ and $(6,13)$.\n$$m=\\frac{13-1}{6-2}=\\frac{12}{4}=3$$\nSo a parallel line has the form $y=3x+c$.\n\nIf the new line passes through $(3,4)$, substitute that point into the equation.\n$$4=3(3)+c \\Rightarrow c=-5$$\nBecause the point is not on the y-axis, you must calculate $c$ rather than read it off. So the equation is $y=3x-5$."
+  },
+  {
+   "heading": "Missing values and proof questions",
+   "body": "In missing-value questions, write the gradient using the unknown coordinate and then use the rule for parallel or perpendicular lines. In show that questions, calculate both gradients and then finish with a sentence saying why the lines are parallel or perpendicular.\n\nExample: Line A passes through $(2,7)$ and $(5,1)$.\n$$m_A=\\frac{1-7}{5-2}=\\frac{-6}{3}=-2$$\nSo a perpendicular line must have gradient $\\frac{1}{2}$.\n\nIf Line B passes through $(-1,3)$ and $(k,5)$, then\n$$m_B=\\frac{5-3}{k-(-1)}=\\frac{2}{k+1}$$\nand $\\frac{2}{k+1}=\\frac{1}{2}$. Solving gives $4=k+1$, so $k=3$."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "For the line $y=4x-7$, which statement is correct?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Gradient 4 and y-intercept -7",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "Gradient -7 and y-intercept 4",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "Gradient 4 and y-intercept 7",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Gradient -4 and y-intercept -7",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Compare $y=4x-7$ with $y=mx+c$. The number multiplying $x$ is 4, so the gradient is 4, and the constant term is -7, so the y-intercept is -7. The most common wrong answer is C, which ignores the negative sign on the intercept."
+  },
+  {
+   "id": "card-7",
+   "question": "A line is perpendicular to $y=-3x+2$. What is its gradient?",
+   "options": [
+    {
+     "id": "a",
+     "text": "3",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$-\\frac{1}{3}$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$\\frac{1}{3}$",
+     "is_correct": true
+    },
+    {
+     "id": "d",
+     "text": "-3",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The gradient of the given line is $-3$. Its reciprocal is $-\\frac{1}{3}$, and changing the sign gives the negative reciprocal $\\frac{1}{3}$. The most common wrong answer is B, which flips the number but forgets to change the sign."
+  },
+  {
+   "id": "card-12",
+   "question": "Line A passes through $(1,4)$ and $(5,6)$. Line B passes through $(-2,3)$ and $(0,-1)$. How are the lines related?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Parallel",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "Perpendicular",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "The same line",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Neither parallel nor perpendicular",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Line A has gradient $\\frac{6-4}{5-1}=\\frac{1}{2}$. Line B has gradient $\\frac{-1-3}{0-(-2)}=\\frac{-4}{2}=-2$, and $\\frac{1}{2}\\times(-2)=-1$, so the lines are perpendicular. The most common wrong answer is D, which happens when you find both gradients but forget to check the negative reciprocal rule."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-6-6-12-parallel-and-perpendicular-lines/lessons",
+ "source_sha256": "45f8c71e872b2a6fabea8fe2f315a6ecc2baf5ca7c099b76fe941c2949ba03e3",
+ "extracted_at": "2026-11-08T19:01:05Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "0a0a528d-9c16-43d7-9450-7eea966fa4ad",
+  "topic_id": "f80ee1fd-8ae1-4f86-a4e8-a8296113fb74",
+  "created_at": "2026-05-13T12:27:00.086Z",
+  "updated_at": "2026-05-13T12:29:47.477Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

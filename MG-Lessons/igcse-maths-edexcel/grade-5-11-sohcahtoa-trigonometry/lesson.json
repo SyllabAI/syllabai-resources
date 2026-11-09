@@ -1,0 +1,129 @@
+{
+ "topic": "grade-5-11-sohcahtoa-trigonometry",
+ "lane": "igcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Start with the right-angled triangle",
+   "body": "![Right-angled triangle labelled opposite, adjacent and hypotenuse relative to angle theta](../assets/001-8fda46c2-5724-42f5-87c9-c799270a0132.jpeg)\n\nA right-angled triangle has one angle of $90^\\circ$, usually shown by a small square. The longest side, opposite the right angle, is always the hypotenuse.\n\nThe other two side names depend on the angle you choose. Relative to angle $\\theta$, the side across from it is the opposite side, and the side next to it that is not the hypotenuse is the adjacent side.\n\nA common mistake is thinking adjacent means \"the bottom side\". It really means \"next to the chosen angle\", so opposite and adjacent can swap if you use a different angle.",
+   "figure_refs": [
+    "assets/001-8fda46c2-5724-42f5-87c9-c799270a0132.jpeg"
+   ]
+  },
+  {
+   "heading": "SOHCAHTOA and choosing the ratio",
+   "body": "SOHCAHTOA is a memory aid that links an angle in a right-angled triangle to a pair of sides. Write the three ratios like this.\n\n$$$\\sin \\theta = \\frac{\\text{opposite}}{\\text{hypotenuse}}$$\n$$\\cos \\theta = \\frac{\\text{adjacent}}{\\text{hypotenuse}}$$\n$$\\tan \\theta = \\frac{\\text{opposite}}{\\text{adjacent}}$$\n\nChoose the ratio from the two sides you know or need. Opposite and hypotenuse means sine, adjacent and hypotenuse means cosine, and opposite and adjacent means tangent. Do not choose the ratio from where the side sits on the page. Choose it from the labels relative to the angle."
+  },
+  {
+   "heading": "Worked example: finding a missing side",
+   "body": "Example: a right-angled triangle has angle $35^\\circ$, opposite side $20 \\, \\text{cm}$, and hypotenuse $x$. Because we are using opposite and hypotenuse, we choose sine.\n\n$$$\\sin 35^\\circ = \\frac{20}{x}$$ Rearrange carefully by multiplying both sides by $x$, then dividing by $\\sin 35^\\circ$. This gives $$x \\sin 35^\\circ = 20$$\n\n$$$x = \\frac{20}{\\sin 35^\\circ}$$ Now use the calculator in degrees mode. $$x = 34.9 \\, \\text{cm}$$ This result is logical because the hypotenuse should always be longer than the opposite side."
+  },
+  {
+   "heading": "Worked example: finding a missing angle",
+   "body": "When the angle is missing, you still start with SOHCAHTOA. For example, if the adjacent side is $16 \\, \\text{cm}$ and the hypotenuse is $24 \\, \\text{cm}$ for angle $x$, you would identify cosine as the relevant ratio.\n\n$$$\\cos x = \\frac{16}{24}$$ To find the angle, work backwards with the inverse button rather than the ordinary cosine button. Inverse cosine means \"the angle whose cosine is this number\".\n\n$$$x = \\cos^{-1}\\left(\\frac{16}{24}\\right)$$ In degrees mode, $x = 48.2^\\circ$. Keep the full calculator value until the final line, then round for your final answer."
+  },
+  {
+   "heading": "Letters and hidden right triangles",
+   "body": "In diagrams with letters, $AB$ means the side joining points $A$ and $B$. For an angle such as $\\angle ABC$, the middle letter tells you the vertex, so the angle is at point $B$.\n\nHere is a hidden-triangle example without needing a picture. Suppose trapezium $ABCD$ has $A$ at the bottom left, $B$ at the top left, $C$ at the top right, and $D$ at the bottom right. The parallel vertical sides are $AB = 6\\,\\text{m}$ and $CD = 4\\,\\text{m}$, and the bottom side $AD$ is horizontal and $15\\,\\text{m}$ long. The top side $BC$ slopes down from $B$ to $C$. If $E$ is the point on $AB$ that is level with $C$, then triangle $BEC$ is right-angled, with\n$$BE = 6 - 4 = 2\\,\\text{m} \\quad \\text{and} \\quad EC = 15\\,\\text{m}.$$\n\nThe small angle to the horizontal is $\\angle BCE$, because it is the angle between the sloping side $BC$ and the horizontal side $CE$. In right triangle $BEC$,\n$$\\tan(\\angle BCE) = \\frac{BE}{EC} = \\frac{2}{15}$$\nso\n$$\\angle BCE = \\tan^{-1}\\left(\\frac{2}{15}\\right) = 7.6^\\circ.$$\n\nIf the question asks for the angle between the sloping side $BC$ and the vertical side $BA$, that angle is $\\angle ABC$. Because $BA$ is vertical and $CE$ is horizontal, they are perpendicular, so these angles are complementary:\n$$\\angle ABC = 90^\\circ - \\angle BCE = 90^\\circ - 7.6^\\circ = 82.4^\\circ.$$"
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Which side is always opposite the right angle in a right-angled triangle?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The hypotenuse",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "The adjacent side",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "The opposite side",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "The shortest side",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The hypotenuse is always opposite the $90^\\circ$ angle and is always the longest side. The most common wrong answer is C because \"opposite\" sounds like it should mean opposite the right angle, but opposite is named relative to the angle you are focusing on."
+  },
+  {
+   "id": "card-8",
+   "question": "A triangle has angle $35^{\\circ}$, opposite side $20 \\, \\text{cm}$, and hypotenuse $x$. Which calculation finds $x$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$\\frac{20}{\\sin 35^{\\circ}}$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$20 \\sin 35^{\\circ}$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$\\frac{20}{\\cos 35^{\\circ}}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$\\tan^{-1}\\left(\\frac{20}{35}\\right)$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Using opposite and hypotenuse means sine, so $\\sin 35^{\\circ} = \\frac{20}{x}$ and rearranging gives $x = \\frac{20}{\\sin 35^{\\circ}}$. The most common wrong answer is B because students multiply by $\\sin 35^{\\circ}$ instead of dividing, which would make the hypotenuse smaller than 20 cm. Hint: Start from SOH, not from memory of the final formula."
+  },
+  {
+   "id": "card-13",
+   "question": "In the trapezium example, after finding $\\theta = 7.6^\\circ$, what should you do next to get the angle between the sloping top and the longer vertical side?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Calculate $90^\\circ - 7.6^\\circ$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "Calculate $90^\\circ + 7.6^\\circ$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "Calculate $180^\\circ - 7.6^\\circ$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Stop, because $7.6^\\circ$ is already the required angle",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The tangent calculation found the angle to the horizontal dashed line. To get the angle with the longer vertical side, use the complementary angle: $90^\\circ - 7.6^\\circ = 82.4^\\circ$. The shorter vertical side would give the obtuse angle $90^\\circ + 7.6^\\circ = 97.6^\\circ$."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-5-11-sohcahtoa-trigonometry/lessons",
+ "source_sha256": "5287d8d0bfc043923e68e19b2e002065c4fbcec56aa7baf0def660ea9a76ac1d",
+ "extracted_at": "2026-11-08T19:00:52Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "d587a78d-7ce2-4d4f-a68f-3b7edd28c3c2",
+  "topic_id": "c3a73f54-72a9-475c-a240-7b9435772505",
+  "created_at": "2026-05-14T16:17:53.539Z",
+  "updated_at": "2026-05-14T16:24:59.219Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

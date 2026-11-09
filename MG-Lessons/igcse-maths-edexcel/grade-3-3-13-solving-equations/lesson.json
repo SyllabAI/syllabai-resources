@@ -1,0 +1,129 @@
+{
+ "topic": "grade-3-3-13-solving-equations",
+ "lane": "igcse-maths-edexcel",
+ "grade": "3",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Equations stay balanced",
+   "body": "![Balance scale showing $x + 5 = 18$ balanced, then subtracting 5 from both sides to get $x = 13$](../assets/001-f1e94b5c-18ec-4f4d-985f-f89b8168f514.jpeg)\n\nAn equation says two expressions have the same value. Solving it means finding the value of the variable that makes the statement true.\n\nThink of the equals sign as a balance scale, not as \"write the answer next\". If you add, subtract, multiply, or divide both sides by the same amount, the equation stays balanced.\n\nThis is why inverse operations work. Addition is undone by subtraction, subtraction by addition, multiplication by division, and division by multiplication.",
+   "figure_refs": [
+    "assets/001-f1e94b5c-18ec-4f4d-985f-f89b8168f514.jpeg"
+   ]
+  },
+  {
+   "heading": "One-step equations",
+   "body": "For $x + 5 = 18$, 5 has been added to $x$, so subtract 5 from both sides. That leaves the variable on its own.\n$$x + 5 = 18$$\n$$x = 18 - 5$$\n$$x = 13$$\n\nFor $b - 4 = 9$, undo subtracting 4 by adding 4 to both sides. This gives $b = 13$.\n$$b - 4 = 9$$\n$$b = 9 + 4$$\n$$b = 13$$\n\nBe careful when the variable comes after a minus sign. In $6 - n = 14$, subtract 6 from both sides first, so $-n = 8$ and therefore $n = -8$.\n$$6 - n = 14$$\n$$-n = 8$$\n$$n = -8$$"
+  },
+  {
+   "heading": "Multiplication, division, and two-step equations",
+   "body": "A number next to a variable is called a coefficient, and it means multiplication. To solve $8p = 56$, divide both sides by the coefficient, 8.\n\n$$8p = 56$$\n$$p = 56 \\div 8$$\n$$p = 7$$\n\nA fraction bar means division. To solve $\\frac{q}{3} = 7$, multiply both sides by 3.\n\n$$\\frac{q}{3} = 7$$\n$$q = 7 \\times 3$$\n$$q = 21$$\n\nIn a two-step equation, undo operations in reverse order. For $5a - 3 = 27$, add 3 first, then divide by 5.\n\n$$5a - 3 = 27$$\n$$5a = 30$$\n$$a = 6$$"
+  },
+  {
+   "heading": "Brackets and fractions",
+   "body": "If a whole bracket is multiplied, undo that multiplication first. In $3(g - 4) = 21$, divide both sides by 3 before changing anything inside the bracket.\n\n$$$3(g - 4) = 21$$\n$$g - 4 = 7$$\n$$g = 11$$\n\nIf the whole numerator is divided, multiply first. In $\\frac{h + 2}{3} = 8$, multiply both sides by 3 to remove the denominator, then subtract 2.\n\n$$$\\frac{h + 2}{3} = 8$$\n$$h + 2 = 24$$\n$$h = 22$$\n\nA common mistake is expanding only one term in a bracket. For example, $4(x - 3)$ becomes $4x - 12$, not $4x - 3$."
+  },
+  {
+   "heading": "Variables on both sides",
+   "body": "When the variable appears on both sides, collect the variable terms on one side first. A good move is often to subtract the smaller variable term, because it keeps the coefficient positive.\n\nSolve $7x + 5 = 3x + 25$ by moving the $3x$ first, then the constant. Each line shows one balanced step.\n\n$$7x + 5 = 3x + 25$$\n$$4x + 5 = 25$$\n$$4x = 20$$\n$$x = 5$$\n\nNegative signs need extra care. In $12 - 3s = s - 8$, add $3s$ to both sides first, then add 8, and a quick substitution check shows $s = 5$ works.\n\n$$12 - 3s = s - 8$$\n$$12 = 4s - 8$$\n$$20 = 4s$$\n$$s = 5$$"
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "In the equation $x + 6 = 14$, which step starts the solution correctly?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Subtract 6 from both sides",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "Add 6 to both sides",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "Divide both sides by 6",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Write $x = 14$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Subtracting 6 undoes the $+6$ and keeps the equation balanced, so you can isolate $x$. The most common wrong choice is B, but adding 6 would turn the left side into $x + 12$, which moves you further away from the answer."
+  },
+  {
+   "id": "card-7",
+   "question": "What is the first step when solving $4c + 7 = 31$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Subtract 7 from both sides",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "Divide both sides by 4",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "Add 7 to both sides",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Subtract 4 from both sides",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The $+7$ is the last thing done to $c$, so it is the first thing to undo. The most common wrong answer is B, but dividing by 4 first does not remove the $+7$ and makes the equation more awkward."
+  },
+  {
+   "id": "card-13",
+   "question": "Solve $12 - 3s = s - 8$.",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$s = 5$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$s = -5$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$s = 20$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$s = 4$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Adding $3s$ to both sides gives $12 = 4s - 8$, then adding 8 gives $20 = 4s$, so $s = 5$. The most common wrong answer is B, which usually happens when the negative sign on $-3s$ is handled incorrectly. Hint: Move the variable terms first."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-3-3-13-solving-equations/lessons",
+ "source_sha256": "dde7185954b11f5ee1e7b994667e550b4cc2dd3c0c326bdcdf0e748af4b4e628",
+ "extracted_at": "2026-11-08T19:00:28Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "312d6f73-8749-4fa7-b033-5f4097ebe404",
+  "topic_id": "4e58b58c-4b38-4218-9cd3-3b7094bcb76d",
+  "created_at": "2026-05-14T04:41:37.360Z",
+  "updated_at": "2026-05-14T04:42:15.397Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

@@ -1,0 +1,133 @@
+{
+ "topic": "grade-8-9-8-10-probability-equation-questions",
+ "lane": "igcse-maths-edexcel",
+ "grade": "8",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Working backwards from a probability",
+   "body": "![Probability tree for two draws without replacement from $x$ blue and $3$ red counters, highlighting the blue then blue path and the changing fractions on the second draw](../assets/001-aa1fc593-a71c-40aa-a1ed-88ca82a07749.jpeg)\n\nProbability equation questions ask you to work backwards from a known probability to an unknown number of counters. A tree diagram like the one above helps you keep track of what changes after the first draw.\n\nWhen two selections happen in order, multiply the probabilities along the path.\n\nIf the first counter is not put back, there is one fewer counter for the second draw. The denominator is $1$ smaller, and if the first counter was the colour you are following, that numerator is also $1$ smaller.\n\nIf the first counter is put back, the bag returns to its original contents before the second draw, so you use the same fraction again.",
+   "figure_refs": [
+    "assets/001-aa1fc593-a71c-40aa-a1ed-88ca82a07749.jpeg"
+   ]
+  },
+  {
+   "heading": "Build the algebra first",
+   "body": "Start by writing the number of each colour and the total in algebra. For example, 3 red and $x$ blue gives a total of $x + 3$, while a ratio of red to blue of $2:1$ can be written as red $= 2k$, blue $= k$, and total $= 3k$.\n\nThen write the probability of the required path and set it equal to the given value. Two common setups are shown below: $$P(\\text{blue then blue}) = \\frac{x}{x+3} \\times \\frac{x-1}{x+2}$$\n\n$$$P(\\text{red then red}) = \\left(\\frac{4}{y+4}\\right)^2$$ This setup is the bridge from the words to the algebra you solve."
+  },
+  {
+   "heading": "Worked example: with replacement",
+   "body": "A bag contains 4 red counters and $y$ blue counters, so the total is $y+4$. A counter is chosen, replaced, then another is chosen, and the probability of getting two red counters is $\\frac{4}{25}$. Because the counter is replaced, the probability of red is the same on both picks: $\\frac{4}{y+4}$.\n\nSet up the equation and take the positive square root:\n$$\\left(\\frac{4}{y+4}\\right)^2 = \\frac{4}{25}$$\n$$\\frac{4}{y+4} = \\frac{2}{5}$$\nWe use the positive root because a probability cannot be negative.\n\nNow solve by cross-multiplying:\n$$\\begin{aligned} 20 &= 2(y+4) \\\\ 20 &= 2y + 8 \\\\ 12 &= 2y \\\\ y &= 6 \\end{aligned}$$\nSo the bag contains 6 blue counters."
+  },
+  {
+   "heading": "Using ratios to form the equation",
+   "body": "In ratio questions, turn the ratio into algebra before you do any probability calculations. If the ratio of red to blue is $2:1$, represent red as $2k$, blue as $k$, and the total count as $3k$.\n\nFor selecting two reds without replacement, the probability path is:\n$$P(\\text{red then red}) = \\frac{2k}{3k} \\times \\frac{2k-1}{3k-1} = \\frac{2}{3} \\times \\frac{2k-1}{3k-1}$$\nSimplifying the first fraction early by cancelling the $k$ terms makes the resulting equation significantly easier to solve.\n\nIf this probability is given as $\\frac{3}{7}$, we can solve for $k$ using cross-multiplication:\n$$\\begin{aligned} \\frac{2}{3} \\times \\frac{2k-1}{3k-1} &= \\frac{3}{7} \\\\ 14(2k-1) &= 9(3k-1) \\\\ 28k - 14 &= 27k - 9 \\\\ k &= 5 \\end{aligned}$$\nBecause blue was represented by $k$, there are 5 blue counters in the set."
+  },
+  {
+   "heading": "Worked example: when a quadratic appears",
+   "body": "A bag contains 3 red counters and $x$ blue counters. Two counters are chosen without replacement, and the probability of getting two blue counters is $\\frac{5}{14}$. This gives the initial probability equation:\n$$\\frac{x}{x+3} \\times \\frac{x-1}{x+2} = \\frac{5}{14}$$\n\nTo solve, multiply the algebraic fractions first, then cross-multiply to eliminate denominators.\n$$\\frac{x(x-1)}{(x+3)(x+2)} = \\frac{5}{14}$$\n$$14x(x-1) = 5(x+3)(x+2)$$\nNow expand both sides of the equation to prepare for a quadratic setup.\n\nAfter collecting terms on one side, the quadratic equation becomes simpler to solve.\n$$\\begin{aligned} 14x^2 - 14x &= 5x^2 + 25x + 30 \\\\ 9x^2 - 39x - 30 &= 0 \\\\ 3x^2 - 13x - 10 &= 0 \\end{aligned}$$\nFactoring gives $(3x + 2)(x - 5) = 0$, which yields $x = -\\frac{2}{3}$ or $x = 5$.\n\nOnly one of these solutions is valid in the context of the problem. A number of counters cannot be negative or fractional, so the valid answer is $x = 5$."
+  },
+  {
+   "heading": "Exam technique and common checks",
+   "body": "In a \"show that\" question, the method is still the same: write the probability path, form the equation, and then expand until the required quadratic appears. You usually earn method marks for this setup, so do not skip straight to the final line.\n\nBefore you finish, check that your answer is positive, sensible, and large enough for the bag described. If the question is about numbers of counters, a negative answer or a non-integer answer must be rejected."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "A bag has 5 red counters and $x$ blue counters. Two counters are chosen without replacement. Which expression gives $P(\\text{blue then blue})$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$\\frac{x}{x+5} \\times \\frac{x-1}{x+4}$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$\\frac{x}{x+5} \\times \\frac{x}{x+5}$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$\\frac{x}{x+5} \\times \\frac{x-1}{x+5}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$\\frac{x}{x+4} \\times \\frac{x-1}{x+4}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A is correct because the first blue has probability $\\frac{x}{x+5}$, then one blue is gone so the second blue has probability $\\frac{x-1}{x+4}$. B is the most common wrong answer because it treats the question as with replacement and forgets that the bag has changed."
+  },
+  {
+   "id": "card-6",
+   "question": "In the worked example, why do we keep $\\frac{2}{5}$ and not $-\\frac{2}{5}$ after taking square roots?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because probabilities must be non-negative",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "Because replacement makes the denominator stay the same",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "Because cross-multiplying removes negative answers",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Because squared fractions only have one square root",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A is correct because $\\frac{4}{y+4}$ represents a probability, so it cannot be negative. B is the most common wrong idea: replacement affects whether the fraction repeats, but it does not decide the sign of the square root."
+  },
+  {
+   "id": "card-12",
+   "question": "Stretch: A bag has $n$ counters in total, 6 of them red and the rest blue. Solving the probability equation for two blue counters without replacement gives $n = 21$ or $n = 4$. Which value is valid?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$n = 21$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$n = 4$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "Both values are valid",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Neither value is valid",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$n = 21$ is correct because the total number of counters must be at least 6 if there are already 6 red counters. The most common wrong answer is $n = 4$, but a bag cannot contain 6 red counters and only 4 counters altogether."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-8-9-8-10-probability-equation-questions/lessons",
+ "source_sha256": "f550f2f7e658ace090e00b56414d6f4e4c9b84ea10fa49d6b37fdb13476e8582",
+ "extracted_at": "2026-11-08T19:01:27Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "45ef5cff-eb46-45af-bb70-be48cbd1f8e2",
+  "topic_id": "992c90eb-9498-4fde-bc06-d89280932f19",
+  "created_at": "2026-05-13T12:12:19.659Z",
+  "updated_at": "2026-05-13T12:20:01.541Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

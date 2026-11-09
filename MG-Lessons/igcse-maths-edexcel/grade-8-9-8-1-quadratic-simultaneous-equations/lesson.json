@@ -1,0 +1,129 @@
+{
+ "topic": "grade-8-9-8-1-quadratic-simultaneous-equations",
+ "lane": "igcse-maths-edexcel",
+ "grade": "8",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Line meets curve",
+   "body": "![Coordinate graph of a circle centred at the origin and a line crossing it at two points labelled negative 3 comma negative 1 and 1 comma 3](../assets/001-c1ba8341-b0e7-46b6-bd16-008e802f37ee.jpeg)\n\nSimultaneous equations are solved together, so each answer must satisfy both equations. With a quadratic and a line, you are usually finding the points where a straight line meets a curve.\n\nOn a graph, the intersections are the solutions, written as coordinate pairs such as $(x,y)$. A line can cut the curve twice, touch it once, or miss it completely, so quadratic simultaneous equations can have two, one, or no real solutions.",
+   "figure_refs": [
+    "assets/001-c1ba8341-b0e7-46b6-bd16-008e802f37ee.jpeg"
+   ]
+  },
+  {
+   "heading": "The substitution method",
+   "body": "Start by rearranging the linear equation so one variable is the subject, usually $y$ or $x$. Then replace that variable in the quadratic equation with a bracketed expression.\n\nFor example, if $x - y = 3$, write $y = x - 3$ first. Then $x^2 + y^2 = 29$ becomes $x^2 + (x - 3)^2 = 29$, and the brackets matter because the whole expression is squared.\n\nAfter expanding and simplifying, solve the quadratic in one variable. Finally, substitute each root back into the linear equation to find the matching second coordinate and write answers as pairs.\n\nDo not split or combine squares incorrectly. For example, $x^2 + y^2$ is not $(x + y)^2$, so careful substitution and expansion are essential."
+  },
+  {
+   "heading": "Worked example that factorises",
+   "body": "Solve\n\n$$\nx^2 + y^2 = 10\n$$\n\n$$\ny = x + 2\n$$\n\nBecause the second equation already gives $y$, substitute it straight into the quadratic equation.\n\nThis gives\n\n$$\nx^2 + (x + 2)^2 = 10\n$$\n\n$$\nx^2 + x^2 + 4x + 4 = 10\n$$\n\nExpand carefully before collecting like terms. Keep the bracket around $x + 2$ until after it has been squared.\n\nCollect terms and simplify to\n\n$$\n2x^2 + 4x - 6 = 0\n$$\n\n$$\nx^2 + 2x - 3 = 0\n$$\n\nNow factorise the quadratic. This gives\n\n$$\n(x + 3)(x - 1) = 0\n$$\n\nso $x = -3$ or $x = 1$.\n\nUse the line equation to find the matching $y$-values. If $x = -3$, then $y = -1$, and if $x = 1$, then $y = 3$, so the solutions are $(-3,-1)$ and $(1,3)$."
+  },
+  {
+   "heading": "When the quadratic does not factorise nicely",
+   "body": "Solve the following system of equations, giving your answers to 3 significant figures. We have a quadratic circle equation and a linear equation:\n\n$$x^2 + y^2 = 18$$\n\n$$2x + y = 4$$\n\nFirst, rearrange the linear equation to $y = 4 - 2x$. Substitute this expression into the quadratic equation and expand the brackets to simplify into a standard form:\n\n$$x^2 + (4 - 2x)^2 = 18$$\n\n$$x^2 + 16 - 16x + 4x^2 = 18$$\n\n$$5x^2 - 16x - 2 = 0$$\n\nThis equation does not factorise neatly, so we use the quadratic formula with $a = 5$, $b = -16$, and $c = -2$:\n\n$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} = \\frac{16 \\pm \\sqrt{296}}{10}$$\n\nThis yields $x \\approx 3.320465$ or $x \\approx -0.120465$.\n\nSubstitute each $x$ value into $y = 4 - 2x$ to find $y \\approx -2.64093$ or $y \\approx 4.24093$. Rounded to 3 significant figures, the solutions are $(3.32, -2.64)$ and $(-0.120, 4.24)$. Note that the zero in $-0.120$ is significant because it follows a non-zero digit in a decimal."
+  },
+  {
+   "heading": "Stretch example with a minus sign and a fraction",
+   "body": "Not every quadratic simultaneous equation is a circle. Solve the following equations algebraically:\n$$\n2x^2 - y^2 = 1\n$$\n$$\n3x + 2y = 1\n$$\nFirst rearrange the linear equation to get $y = \\frac{1 - 3x}{2}$.\n\nSubstitute this into the quadratic equation. Because of the fraction, multiplying through by 4 makes the algebra cleaner. This gives:\n$$\n2x^2 - \\left(\\frac{1 - 3x}{2}\\right)^2 = 1\n$$\n$$\n8x^2 - (1 - 3x)^2 = 4\n$$\n\nNow expand the square carefully. The minus sign in front applies to the whole bracket:\n$$\n8x^2 - (1 - 6x + 9x^2) = 4\n$$\n$$\n-x^2 + 6x - 1 = 4\n$$\nBring everything to one side and multiply by $-1$ to make the $x^2$ term positive, giving $x^2 - 6x + 5 = 0$.\n\nNow factorise: $(x - 1)(x - 5) = 0$, which gives $x = 1$ or $x = 5$. Substitute back into $y = \\frac{1 - 3x}{2}$ to find $y = -1$ or $y = -7$. The final solutions are $(1,-1)$ and $(5,-7)$."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Why can a quadratic simultaneous equation have two coordinate-pair solutions?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because a line can intersect a quadratic curve at two points",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "Because a quadratic always gives two y-values for every x",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "Because you solve the linear equation first and stop",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Because $x^2 + y^2$ can be rewritten as $(x + y)^2$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A is correct because each solution is an intersection that satisfies both equations, and there can be two intersections. B is the common wrong choice, but it describes the quadratic on its own, not points that also lie on the line."
+  },
+  {
+   "id": "card-9",
+   "question": "If a calculator gives $x \\approx -0.120465$, how should this be written to 3 significant figures?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$-0.12$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$-0.120$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$-0.121$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$-0.100$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "B is correct because the first three significant digits are 1, 2 and 0, so the trailing zero must be kept. A is the common wrong choice because it gives only 2 significant figures, even though it has two decimal places."
+  },
+  {
+   "id": "card-12",
+   "question": "After substitution, which result shows that there are no real coordinate-pair solutions?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The discriminant is negative",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "The discriminant is positive",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "One root is zero",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "The line has been rearranged to make $y$ the subject",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A is correct because a negative discriminant means the quadratic formula would need the square root of a negative number, so there are no real intersection points. B is the common wrong choice, but a positive discriminant actually means two real roots."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-8-9-8-1-quadratic-simultaneous-equations/lessons",
+ "source_sha256": "9f4463d4e8c295f68e190f58a34bc4c856e12d0812519c689c00f541790e6a43",
+ "extracted_at": "2026-11-08T19:01:26Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-2 run-001)",
+ "task_id": "T-MG-LS-2",
+ "source_meta": {
+  "lesson_id": "3b0e6964-6b91-4957-a7dc-decb7d16d623",
+  "topic_id": "6a33b3fd-114f-4e1f-91b1-3645e5ea777e",
+  "created_at": "2026-05-14T03:13:43.135Z",
+  "updated_at": "2026-10-07T02:05:05.096Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}
