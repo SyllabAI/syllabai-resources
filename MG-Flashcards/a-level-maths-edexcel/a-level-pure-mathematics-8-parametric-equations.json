@@ -1,0 +1,646 @@
+{
+ "topic": "a-level-pure-mathematics-8-parametric-equations",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "title": "Parametric Equations Flashcards",
+ "cards": [
+  {
+   "id": "52ef8e92-036d-4648-a3e7-bad31784fd94",
+   "card_type": "basic",
+   "front": "What defines a Cartesian equation compared to parametric equations?",
+   "back": "It connects $x$ and $y$ directly in a single equation without a third variable.",
+   "options": [
+    {
+     "text": "It connects $x$ and $y$ directly in a single equation without a third variable.",
+     "correct": true,
+     "explanation": "A Cartesian equation relates the two coordinates directly, such as $y=x^2$, rather than defining each coordinate separately in terms of a parameter."
+    },
+    {
+     "text": "It defines $x$ and $y$ separately using two equations involving a third variable.",
+     "correct": false,
+     "explanation": "Defining both coordinates using a third variable describes parametric equations. A Cartesian equation instead connects $x$ and $y$ directly in one equation."
+    },
+    {
+     "text": "It connects $x$ and $y$ linearly in a single equation without any squared terms.",
+     "correct": false,
+     "explanation": "Restricting an equation to linear terms is unrelated to whether it is Cartesian. A Cartesian equation directly connects $x$ and $y$ and may be linear or nonlinear."
+    },
+    {
+     "text": "It defines $x$ and $y$ independently using a different variable for each coordinate.",
+     "correct": false,
+     "explanation": "Using separate independent variables does not produce a relation between the coordinates. A Cartesian equation directly connects $x$ and $y$ without introducing a third variable."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "ef8c3eca-8e7e-432e-85b4-ec5b526eda39",
+   "card_type": "cloze",
+   "front": "In parametric equations, the variable used to define $x$ and $y$ (usually $t$ or $\\theta$) is called the [ ___ ].",
+   "back": "In parametric equations, the variable used to define $x$ and $y$ (usually $t$ or $\\theta$) is called the parameter.",
+   "options": [
+    {
+     "text": "parameter",
+     "correct": true,
+     "explanation": "A parameter is the auxiliary variable from which both coordinates are defined. Different permitted parameter values generate the points lying on the parametric curve."
+    },
+    {
+     "text": "coefficient",
+     "correct": false,
+     "explanation": "A coefficient is a fixed multiplier of a variable, not the varying quantity used to define both coordinates. That auxiliary variable is called the parameter."
+    },
+    {
+     "text": "constant",
+     "correct": false,
+     "explanation": "A constant has a fixed value, whereas the defining variable varies to trace the curve. The variable used to define $x$ and $y$ is the parameter."
+    },
+    {
+     "text": "gradient",
+     "correct": false,
+     "explanation": "The gradient measures the slope of a curve or line rather than generating its coordinates. The variable used to define both coordinates is called the parameter."
+    }
+   ]
+  },
+  {
+   "id": "8ccaadf6-31ab-4755-bad3-9b4a0ddf4ffe",
+   "card_type": "basic",
+   "front": "Outline the standard 2-step process for eliminating the parameter $t$.",
+   "back": "Rearrange one equation to make $t$ the subjectSubstitute this expression for $t$ into the other equation",
+   "options": [
+    {
+     "text": "Rearrange one equation to make $t$ the subjectSubstitute this expression for $t$ into the other equation",
+     "correct": true,
+     "explanation": "Expressing $t$ in terms of one coordinate and substituting into the other equation removes $t$, leaving a direct Cartesian relationship between $x$ and $y$."
+    },
+    {
+     "text": "Rearrange one equation to make $x$ the subjectSubstitute this expression for $x$ into the other equation",
+     "correct": false,
+     "explanation": "Making $x$ the subject does not necessarily remove $t$, and substituting for $x$ can simply reproduce the original parametric relationship. Instead, isolate $t$ and substitute its expression."
+    },
+    {
+     "text": "Rearrange both equations to make $x$ and $y$ the subjectsEquate the resulting expressions for $x$ and $y$",
+     "correct": false,
+     "explanation": "Equating the expressions for $x$ and $y$ wrongly treats the two coordinates as equal. The valid method is to isolate $t$ in one equation and substitute into the other."
+    },
+    {
+     "text": "Differentiate both equations with respect to $t$ to find the derivativesDivide the derivative of $y$ by the derivative of $x$",
+     "correct": false,
+     "explanation": "Differentiating changes the equations and is used to find gradients, not to obtain the Cartesian equation. Eliminate $t$ by isolating it and substituting into the other equation."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "c1596eb0-54fb-44df-9f3f-fc0488fb2db1",
+   "card_type": "basic",
+   "front": "How do you find the x-intercepts of a parametric curve?",
+   "back": "Set $y=0$, solve for the parameter, and substitute those values into the equation for $x$.",
+   "options": [
+    {
+     "text": "Set $y=0$, solve for the parameter, and substitute those values into the equation for $x$.",
+     "correct": true,
+     "explanation": "At an x-intercept, the point lies on the x-axis, so its $y$-coordinate is zero. The corresponding parameter values then determine the required $x$-coordinates."
+    },
+    {
+     "text": "Set $x=0$, solve for the parameter, and substitute those values into the equation for $y$.",
+     "correct": false,
+     "explanation": "Setting $x=0$ finds points on the y-axis, so this procedure gives y-intercepts. For x-intercepts, set $y=0$ and calculate the corresponding $x$-values."
+    },
+    {
+     "text": "Set $x=0$ and $y=0$, then solve both equations simultaneously for the parameter.",
+     "correct": false,
+     "explanation": "Setting both coordinates to zero tests only whether the curve passes through the origin and misses other x-intercepts. Set $y=0$, then find the corresponding $x$-values."
+    },
+    {
+     "text": "Set the parameter equal to $0$, and substitute this value into the equations for $x$ and $y$.",
+     "correct": false,
+     "explanation": "Setting the parameter to zero finds one particular point on the curve, not necessarily an intercept. An x-intercept requires $y=0$, followed by calculation of $x$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "7acca33f-1811-4677-b550-81eef2970220",
+   "card_type": "basic",
+   "front": "How do you find the y-intercepts of a parametric curve?",
+   "back": "Set $x=0$, solve for the parameter, and substitute those values into the equation for $y$.",
+   "options": [
+    {
+     "text": "Set $x=0$, solve for the parameter, and substitute those values into the equation for $y$.",
+     "correct": true,
+     "explanation": "At a y-intercept, the point lies on the y-axis, so its $x$-coordinate is zero. The resulting parameter values are substituted into $y$ to obtain the intercepts."
+    },
+    {
+     "text": "Set $y=0$, solve for the parameter, and substitute those values into the equation for $x$.",
+     "correct": false,
+     "explanation": "Setting $y=0$ identifies points on the x-axis and therefore finds x-intercepts. For y-intercepts, set $x=0$ and calculate the corresponding $y$-values."
+    },
+    {
+     "text": "Set $x=0$ and $y=0$, then solve both equations simultaneously for the parameter.",
+     "correct": false,
+     "explanation": "Setting both coordinates to zero checks only for the origin, rather than all y-intercepts. Set $x=0$, solve for the parameter, and then determine $y$."
+    },
+    {
+     "text": "Set the parameter equal to $0$, and substitute this value into the equations for $x$ and $y$.",
+     "correct": false,
+     "explanation": "A zero parameter selects a specific point but does not ensure that point lies on the y-axis. A y-intercept is found by imposing $x=0$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "4774486e-2b3b-46fc-94c4-ee7e478fcbd9",
+   "card_type": "cloze",
+   "front": "For a circle defined by $x=a+r\\cos\\theta$ and $y=b+r\\sin\\theta$, the centre is $\\text{[...]}$ and the radius is $r$.",
+   "back": "For a circle defined by $x=a+r\\cos\\theta$ and $y=b+r\\sin\\theta$, the centre is $\\boxed{(a,b)}$ and the radius is $r$.",
+   "options": [
+    {
+     "text": "$$(a,b)$",
+     "correct": true,
+     "explanation": "The constants $a$ and $b$ translate the standard circle horizontally and vertically, so the centre moves from $(0,0)$ to $(a,b)$."
+    },
+    {
+     "text": "$$(-a,b)$",
+     "correct": false,
+     "explanation": "The horizontal translation has not been reversed: $x=a+r\\cos\\theta$ gives $x-a=r\\cos\\theta$, so the centre’s x-coordinate is $a$, making the centre $(a,b)$."
+    },
+    {
+     "text": "$$(a,-b)$",
+     "correct": false,
+     "explanation": "The vertical translation has not been reversed: $y=b+r\\sin\\theta$ gives $y-b=r\\sin\\theta$, so the centre’s y-coordinate is $b$, making the centre $(a,b)$."
+    },
+    {
+     "text": "$$(r,r)$",
+     "correct": false,
+     "explanation": "The coefficients of sine and cosine determine the radius, not the centre. The translations $a$ and $b$ place the circle’s centre at $(a,b)$."
+    }
+   ]
+  },
+  {
+   "id": "183be262-7caf-4a7a-901a-c894d3ebea68",
+   "card_type": "cloze",
+   "front": "For a circle defined by $x=a+r\\cos\\theta$ and $y=b+r\\sin\\theta$, the centre is $(a,b)$ and the radius is $\\text{[...]}$.",
+   "back": "For a circle defined by $x=a+r\\cos\\theta$ and $y=b+r\\sin\\theta$, the centre is $(a,b)$ and the radius is $\\boxed{r}$.",
+   "options": [
+    {
+     "text": "$$r$",
+     "correct": true,
+     "explanation": "The coefficients of $\\cos\\theta$ and $\\sin\\theta$ give the horizontal and vertical distance from the centre, so their common magnitude $r$ is the radius."
+    },
+    {
+     "text": "$$r^2$",
+     "correct": false,
+     "explanation": "Squaring occurs in the Cartesian equation, where the right-hand side is $r^2$, but the geometric radius itself is $r$, not its square."
+    },
+    {
+     "text": "$$2r$",
+     "correct": false,
+     "explanation": "Doubling the radius gives the diameter, which is the full distance across the circle. The distance from the centre to the circumference is $r$."
+    },
+    {
+     "text": "$$\\sqrt{r}$",
+     "correct": false,
+     "explanation": "Taking a square root confuses the parameter coefficient with the squared radius in the Cartesian form. Since the trigonometric coefficients are $r$, the radius is $r$."
+    }
+   ]
+  },
+  {
+   "id": "360da931-8459-4a97-baca-66c8f98b0d90",
+   "card_type": "basic",
+   "front": "What is the Cartesian equation of a circle with parametric equations $x=a+r\\cos\\theta$ and $y=b+r\\sin\\theta$?",
+   "back": "$$(x-a)^2 + (y-b)^2 = r^2$",
+   "options": [
+    {
+     "text": "$$(x-a)^2 + (y-b)^2 = r^2$",
+     "correct": true,
+     "explanation": "Subtracting the centre coordinates gives $x-a=r\\cos\\theta$ and $y-b=r\\sin\\theta$. Squaring and adding uses $\\cos^2\\theta+\\sin^2\\theta=1$, producing the stated equation."
+    },
+    {
+     "text": "$$(x+a)^2 + (y+b)^2 = r^2$",
+     "correct": false,
+     "explanation": "The signs inside the brackets must be opposite to the centre coordinates. This equation has centre $(-a,-b)$; the given parametrisation instead has centre $(a,b)$."
+    },
+    {
+     "text": "$$(x+a)^2 + (y-b)^2 = r^2$",
+     "correct": false,
+     "explanation": "The $x$ translation is reversed here, giving centre $(-a,b)$. From $x=a+r\\cos\\theta$, the correct horizontal term is $(x-a)^2$."
+    },
+    {
+     "text": "$$(x-a)^2 + (y-b)^2 = r$",
+     "correct": false,
+     "explanation": "Squaring the coordinate differences means the right-hand side is also squared after applying the trigonometric identity. The correct equation therefore has $r^2$, not $r$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "bea04a5f-a6f5-4074-bb24-104514004aa1",
+   "card_type": "basic",
+   "front": "Which trigonometric identity is typically used to eliminate the parameter for circles/ellipses involving $\\sin \\theta$ and $\\cos \\theta$?",
+   "back": "$$\\sin^2 \\theta + \\cos^2 \\theta = 1$",
+   "options": [
+    {
+     "text": "$$\\sin^2 \\theta + \\cos^2 \\theta = 1$",
+     "correct": true,
+     "explanation": "Squaring and adding expressions involving sine and cosine removes the parameter because their squared values always sum to 1."
+    },
+    {
+     "text": "$$\\sin \\theta + \\cos \\theta = 1$",
+     "correct": false,
+     "explanation": "Sine and cosine themselves do not generally sum to 1. The relevant Pythagorean identity is $\\sin^2 \\theta + \\cos^2 \\theta = 1$."
+    },
+    {
+     "text": "$$\\sin^2 \\theta - \\cos^2 \\theta = 1$",
+     "correct": false,
+     "explanation": "Subtracting the squared terms does not produce a constant value. Parameter elimination for these circle or ellipse forms uses $\\sin^2 \\theta + \\cos^2 \\theta = 1$."
+    },
+    {
+     "text": "$$1 + \\tan^2 \\theta = \\sec^2 \\theta$",
+     "correct": false,
+     "explanation": "This identity concerns tangent and secant, so it does not directly combine expressions involving sine and cosine. The required identity is $\\sin^2 \\theta + \\cos^2 \\theta = 1$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "ad490199-da78-4d93-86ab-9a6ddc19a83a",
+   "card_type": "basic",
+   "front": "If $x=t+4$ and $y=t^2+2$, find the Cartesian equation.",
+   "back": "$$y = (x-4)^2 + 2$",
+   "options": [
+    {
+     "text": "$$y = (x-4)^2 + 2$",
+     "correct": true,
+     "explanation": "Rearranging $x=t+4$ gives $t=x-4$. Substituting this into $y=t^2+2$ produces $y=(x-4)^2+2$."
+    },
+    {
+     "text": "$$y = (x+4)^2 + 2$",
+     "correct": false,
+     "explanation": "The sign changes when $x=t+4$ is rearranged: $t=x-4$, not $x+4$. Therefore the Cartesian equation is $y=(x-4)^2+2$."
+    },
+    {
+     "text": "$$y = (x-4)^2 - 2$",
+     "correct": false,
+     "explanation": "Although $t=x-4$ has been substituted correctly, the constant in $y=t^2+2$ must remain positive. The equation is $y=(x-4)^2+2$."
+    },
+    {
+     "text": "$$y = (x-2)^2 + 4$",
+     "correct": false,
+     "explanation": "This incorrectly interchanges the horizontal shift of 4 and vertical shift of 2. Eliminating $t$ using $t=x-4$ gives $y=(x-4)^2+2$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "a7acde2d-29ab-4db0-8bfb-241e828e0cbe",
+   "card_type": "basic",
+   "front": "What defines a line segment in parametric form compared to an infinite straight line?",
+   "back": "The parameter is restricted to a finite interval (e.g., $0 \\le t \\le 4$).",
+   "options": [
+    {
+     "text": "The parameter is restricted to a finite interval (e.g., $0 \\le t \\le 4$).",
+     "correct": true,
+     "explanation": "Restricting the parameter to a continuous finite interval supplies two endpoints and traces only the portion of the line lying between them."
+    },
+    {
+     "text": "The parameter is unrestricted over all real values (e.g., $-\\infty < t < \\infty$).",
+     "correct": false,
+     "explanation": "Allowing every real parameter value traces the straight line indefinitely in both directions. A line segment instead requires the parameter to lie in a finite interval."
+    },
+    {
+     "text": "The parameter is restricted to a finite set (e.g., $t = 0, 1, 2, 3, 4$).",
+     "correct": false,
+     "explanation": "A finite set of parameter values produces separate points rather than a continuous segment. The parameter must vary continuously across a finite interval, such as $0 \\le t \\le 4$."
+    },
+    {
+     "text": "The coordinates are restricted to integer values (e.g., $x, y \\in \\mathbb{Z}$).",
+     "correct": false,
+     "explanation": "Restricting the coordinates to integers would select isolated lattice points and would not define a continuous segment. It is the parameter that must have a finite interval."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "a89dea91-ec71-4f39-9106-3aa5d5543ce1",
+   "card_type": "cloze",
+   "front": "The trigonometric identity used to eliminate the parameter when $x = \\tan t$ is $\\text{[...]}$.",
+   "back": "The trigonometric identity used to eliminate the parameter when $x = \\tan t$ is $\\boxed{\\sec^2 t = 1 + \\tan^2 t}$.",
+   "options": [
+    {
+     "text": "$$\\sec^2 t = 1 + \\tan^2 t$",
+     "correct": true,
+     "explanation": "The Pythagorean tangent identity expresses secant squared in terms of tangent squared, allowing $\\tan t$ and $\\sec^2 t$ to be related when eliminating the parameter."
+    },
+    {
+     "text": "$$\\sec^2 t = 1 - \\tan^2 t$",
+     "correct": false,
+     "explanation": "The tangent term is added, not subtracted, in the Pythagorean identity. The correct relationship is $\\sec^2 t = 1 + \\tan^2 t$."
+    },
+    {
+     "text": "$$\\tan^2 t = 1 + \\sec^2 t$",
+     "correct": false,
+     "explanation": "This reverses the roles of tangent and secant and would imply an impossible negative difference. The identity is $\\sec^2 t = 1 + \\tan^2 t$."
+    },
+    {
+     "text": "$$\\csc^2 t = 1 + \\tan^2 t$",
+     "correct": false,
+     "explanation": "Cosecant belongs to the identity involving cotangent, not tangent. For $x=\\tan t$, the relevant identity is $\\sec^2 t = 1 + \\tan^2 t$."
+    }
+   ]
+  },
+  {
+   "id": "48ca3d7d-8f46-4d4a-8c4d-17e02b5fe0e8",
+   "card_type": "basic",
+   "front": "Calculate the domain of $x$ for the curve $x = 2 + \\cos t$.",
+   "back": "$$1 \\le x \\le 3$ (since $-1 \\le \\cos t \\le 1$)",
+   "options": [
+    {
+     "text": "$$1 \\le x \\le 3$ (since $-1 \\le \\cos t \\le 1$)",
+     "correct": true,
+     "explanation": "Since cosine ranges from $-1$ to $1$, adding 2 translates both endpoints by 2. Thus $x=2+\\cos t$ ranges from 1 to 3."
+    },
+    {
+     "text": "$$-1 \\le x \\le 1$ (since $-1 \\le \\cos t \\le 1$)",
+     "correct": false,
+     "explanation": "This omits the horizontal translation by 2. Adding 2 to the cosine range $[-1,1]$ gives the correct domain $1 \\le x \\le 3$."
+    },
+    {
+     "text": "$$2 \\le x \\le 3$ (since $0 \\le \\cos t \\le 1$)",
+     "correct": false,
+     "explanation": "Cosine can be negative as well as positive, so its minimum is $-1$, not 0. Adding 2 gives the full domain $1 \\le x \\le 3$."
+    },
+    {
+     "text": "$$1 \\le x \\le 2$ (since $-1 \\le \\cos t \\le 0$)",
+     "correct": false,
+     "explanation": "This includes the translated minimum but incorrectly uses 0 as the maximum of cosine. Since cosine reaches 1, the correct upper endpoint is 3."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "cd0413c6-48d6-4023-82d4-2ba0d9c02ca0",
+   "card_type": "basic",
+   "front": "If $x = \\cos t$ and $y = \\cos 2t$, express $y$ in terms of $x$.",
+   "back": "$$y = 2x^2 - 1$",
+   "options": [
+    {
+     "text": "$$y = 2x^2 - 1$",
+     "correct": true,
+     "explanation": "The double-angle identity is $\\cos 2t=2\\cos^2 t-1$. Since $x=\\cos t$, direct substitution gives $y=2x^2-1$."
+    },
+    {
+     "text": "$$y = 2x - 1$",
+     "correct": false,
+     "explanation": "The double-angle formula requires the cosine to be squared. Omitting that square is the common slip; substituting $x=\\cos t$ gives $y=2x^2-1$."
+    },
+    {
+     "text": "$$y = 1 - 2x^2$",
+     "correct": false,
+     "explanation": "This has both terms' signs reversed from the relevant double-angle identity. Since $\\cos 2t=2\\cos^2 t-1$, the correct expression is $y=2x^2-1$."
+    },
+    {
+     "text": "$$y = x^2 - 1$",
+     "correct": false,
+     "explanation": "This misses the coefficient 2 in the cosine double-angle identity. Using $\\cos 2t=2\\cos^2 t-1$ and $x=\\cos t$ gives $y=2x^2-1$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "2c6cfd17-7cca-4004-95a4-00b720fc49cd",
+   "card_type": "cloze",
+   "front": "To find where a parametric curve intersects a circle like $x^2 + y^2 = 13$, you should [ ___ ] for $x$ and $y$ into the circle's equation.",
+   "back": "To find where a parametric curve intersects a circle like $x^2 + y^2 = 13$, you should substitute the parametric expressions for $x$ and $y$ into the circle's equation.",
+   "options": [
+    {
+     "text": "substitute the parametric expressions",
+     "correct": true,
+     "explanation": "Replacing $x$ and $y$ in the circle equation with their parametric formulas creates an equation in the parameter, whose solutions identify the intersection points."
+    },
+    {
+     "text": "substitute the parametric derivatives",
+     "correct": false,
+     "explanation": "Substituting derivatives would test tangent or gradient information rather than whether points lie on the circle. The parametric expressions for $x$ and $y$ themselves must be substituted."
+    },
+    {
+     "text": "substitute arbitrary coordinate values",
+     "correct": false,
+     "explanation": "Arbitrary coordinates do not preserve the relationship defined by the parametric curve. Substitute the parametric expressions for $x$ and $y$, then solve the resulting parameter equation."
+    },
+    {
+     "text": "substitute the Cartesian intercepts",
+     "correct": false,
+     "explanation": "Intercepts describe only particular points and need not include the circle intersections. The correct method substitutes the parametric expressions for $x$ and $y$ into the circle equation."
+    }
+   ]
+  },
+  {
+   "id": "761a5028-5554-4b54-b2a6-a55f4372d584",
+   "card_type": "basic",
+   "front": "Find the vertex of the curve $x=t-5, y=t^2+1$.",
+   "back": "Vertex is at $(-5, 1)$ (where $t=0$).",
+   "options": [
+    {
+     "text": "Vertex is at $(-5, 1)$ (where $t=0$).",
+     "correct": true,
+     "explanation": "The minimum of $y=t^2+1$ occurs at $t=0$. At that parameter value, $x=0-5=-5$ and $y=1$, locating the vertex."
+    },
+    {
+     "text": "Vertex is at $(5, 1)$ (where $t=0$).",
+     "correct": false,
+     "explanation": "The sign of the horizontal translation has been reversed. At the vertex $t=0$, the equation $x=t-5$ gives $x=-5$, so the vertex is $(-5,1)$."
+    },
+    {
+     "text": "Vertex is at $(-5, 0)$ (where $t=0$).",
+     "correct": false,
+     "explanation": "The constant 1 shifts the parabola vertically, so its minimum $y$-value is 1 rather than 0. At $t=0$, the vertex is $(-5,1)$."
+    },
+    {
+     "text": "Vertex is at $(0, 1)$ (where $t=0$).",
+     "correct": false,
+     "explanation": "This mistakes the parameter value for the $x$-coordinate. Although the vertex occurs when $t=0$, substituting into $x=t-5$ gives $x=-5$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "646688c0-c3b7-436e-8a5a-4fd14acc6da7",
+   "card_type": "basic",
+   "front": "When working with rational parametric equations like $x = \\frac{1+6t}{t+1}$, what must you check regarding the denominator?",
+   "back": "Ensure the denominator is not zero within the given parameter interval.",
+   "options": [
+    {
+     "text": "Ensure the denominator is not zero within the given parameter interval.",
+     "correct": true,
+     "explanation": "A zero denominator makes the expression for $x$ undefined. Therefore, any parameter value satisfying $t+1=0$ must be excluded from the stated interval."
+    },
+    {
+     "text": "Ensure the denominator is always positive within the given parameter interval.",
+     "correct": false,
+     "explanation": "Requiring a positive denominator unnecessarily excludes valid negative denominator values. The denominator only needs to be non-zero throughout the permitted parameter interval."
+    },
+    {
+     "text": "Ensure the denominator is not negative within the given parameter interval.",
+     "correct": false,
+     "explanation": "A negative denominator still produces a defined value of $x$. The actual restriction is that the denominator must not equal zero in the parameter interval."
+    },
+    {
+     "text": "Ensure the denominator is equal to zero within the given parameter interval.",
+     "correct": false,
+     "explanation": "Setting the denominator equal to zero identifies an excluded parameter value, not an allowed one. The denominator must be non-zero within the given interval."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "31ab3745-052a-448e-b939-f9dda2d067fb",
+   "card_type": "basic",
+   "front": "How do you find the endpoints of a curve defined for $a \\le t \\le b$?",
+   "back": "Substitute $t=a$ and $t=b$ into the parametric equations for $x$ and $y$.",
+   "options": [
+    {
+     "text": "Substitute $t=a$ and $t=b$ into the parametric equations for $x$ and $y$.",
+     "correct": true,
+     "explanation": "The parameter interval begins at $t=a$ and ends at $t=b$. Substituting both boundary values into both equations gives the coordinates of the curve’s endpoints."
+    },
+    {
+     "text": "Differentiate the parametric equations at $t=a$ and $t=b$ for $x$ and $y$.",
+     "correct": false,
+     "explanation": "Differentiation finds gradients or stationary points rather than the coordinates at the interval boundaries. The endpoints come from substituting $t=a$ and $t=b$ into both parametric equations."
+    },
+    {
+     "text": "Set $x=0$ and $y=0$ in the parametric equations and solve for $t$.",
+     "correct": false,
+     "explanation": "Solving $x=0$ and $y=0$ locates axis intercepts, which need not be endpoints. Endpoints are found by substituting the two boundary parameter values into both equations."
+    },
+    {
+     "text": "Substitute $t=\\frac{a+b}{2}$ into the parametric equations for $x$ and $y$.",
+     "correct": false,
+     "explanation": "Using the midpoint gives one interior point, not the two endpoints. Substitute $t=a$ and $t=b$ separately into the equations for $x$ and $y$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "d5eb1515-edc1-46f3-8b24-0a9225714b30",
+   "card_type": "basic",
+   "front": "If $x = \\ln(t+2)$, why must $t > -2$?",
+   "back": "The argument of a natural logarithm must be greater than zero ($t+2 > 0$).",
+   "options": [
+    {
+     "text": "The argument of a natural logarithm must be greater than zero ($t+2 > 0$).",
+     "correct": true,
+     "explanation": "A real natural logarithm is defined only when its argument is positive. Thus $t+2>0$, which rearranges directly to the restriction $t>-2$."
+    },
+    {
+     "text": "The argument of a natural logarithm must be greater than or equal to zero ($t+2 \\ge 0$).",
+     "correct": false,
+     "explanation": "Including zero is a common boundary error because $\\ln(0)$ is undefined. The argument must be strictly greater than zero, giving $t+2>0$ and hence $t>-2$."
+    },
+    {
+     "text": "The argument of a natural logarithm must be less than zero ($t+2 < 0$).",
+     "correct": false,
+     "explanation": "Negative arguments do not produce real values of the natural logarithm. The required condition is $t+2>0$, which is why the parameter must satisfy $t>-2$."
+    },
+    {
+     "text": "The argument of a natural logarithm must be not equal to zero ($t+2 \\ne 0$).",
+     "correct": false,
+     "explanation": "Being non-zero is sufficient for a denominator but not for a real logarithm, since negative arguments are also invalid. The argument must satisfy $t+2>0$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "014ea600-5f87-413c-97ba-93cefaf6c2eb",
+   "card_type": "cloze",
+   "front": "When sketching a parametric curve after finding its Cartesian form, you must check the [ ___ ] to determine the correct $x$-domain.",
+   "back": "When sketching a parametric curve after finding its Cartesian form, you must check the parameter restrictions to determine the correct $x$-domain.",
+   "options": [
+    {
+     "text": "parameter restrictions",
+     "correct": true,
+     "explanation": "Eliminating the parameter may produce a Cartesian equation containing more points than the original curve. The parameter restrictions identify which $x$-values are genuinely attainable."
+    },
+    {
+     "text": "Cartesian equation",
+     "correct": false,
+     "explanation": "The Cartesian equation describes the curve’s algebraic relationship but may not preserve its permitted extent. The original parameter restrictions must be checked to establish the correct $x$-domain."
+    },
+    {
+     "text": "endpoint coordinates",
+     "correct": false,
+     "explanation": "Endpoint coordinates alone do not always reveal every excluded value or disconnected interval. Checking the parameter restrictions determines exactly which $x$-values the parametrisation permits."
+    },
+    {
+     "text": "gradient function",
+     "correct": false,
+     "explanation": "The gradient function describes direction and stationary points, not the set of attainable $x$-values. The correct $x$-domain must be obtained from the parameter restrictions."
+    }
+   ]
+  },
+  {
+   "id": "62aeabc0-2de0-474c-a6ac-732e32ac990e",
+   "card_type": "cloze",
+   "front": "When sketching a parametric curve after finding its Cartesian form, you must check the parameter restrictions to determine the correct [ ___ ].",
+   "back": "When sketching a parametric curve after finding its Cartesian form, you must check the parameter restrictions to determine the correct $x$-domain.",
+   "options": [
+    {
+     "text": "$$x$-domain",
+     "correct": true,
+     "explanation": "The restrictions on $t$, combined with the equation for $x$, determine which horizontal-coordinate values occur. This gives the $x$-domain of the resulting Cartesian curve."
+    },
+    {
+     "text": "$$y$-domain",
+     "correct": false,
+     "explanation": "The $y$-domain concerns attainable vertical coordinates, whereas the sentence asks for the permitted horizontal coordinates after eliminating the parameter. Parameter restrictions determine the correct $x$-domain."
+    },
+    {
+     "text": "$$t$-domain",
+     "correct": false,
+     "explanation": "The $t$-domain is the original set of allowed parameter values, not the resulting set of horizontal coordinates. Mapping those values through $x(t)$ gives the $x$-domain."
+    },
+    {
+     "text": "gradient range",
+     "correct": false,
+     "explanation": "The gradient range records possible values of $\\frac{dy}{dx}$ rather than possible horizontal positions. Applying the parameter restrictions to $x(t)$ determines the correct $x$-domain."
+    }
+   ]
+  },
+  {
+   "id": "dbd27c17-d2b4-49aa-8e52-b2cefaf81791",
+   "card_type": "basic",
+   "front": "A point on a curve is found by substituting $t=0$ into $x=t+2, y=t^2-1$. What are its coordinates?",
+   "back": "$$(2, -1)$",
+   "options": [
+    {
+     "text": "$$(2, -1)$",
+     "correct": true,
+     "explanation": "Substituting $t=0$ gives $x=0+2=2$ and $y=0^2-1=-1$. Therefore, the corresponding point is $(2,-1)$."
+    },
+    {
+     "text": "$$(2, 1)$",
+     "correct": false,
+     "explanation": "The $x$-coordinate is correct, but treating $0^2-1$ as positive causes a sign error. It equals $-1$, so the point is $(2,-1)$."
+    },
+    {
+     "text": "$$(-1, 2)$",
+     "correct": false,
+     "explanation": "This reverses the coordinates after evaluating them. Since $x=2$ and $y=-1$ when $t=0$, the ordered pair must be $(2,-1)$."
+    },
+    {
+     "text": "$$(0, 0)$",
+     "correct": false,
+     "explanation": "This omits the constant terms and incorrectly treats substitution as producing the origin. At $t=0$, $x=2$ and $y=-1$, giving $(2,-1)$."
+    }
+   ],
+   "points": 1
+  }
+ ],
+ "card_count": 22,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/a-level-pure-mathematics-8-parametric-equations/flashcards",
+ "source_sha256": "ea9b2a0a9f0bf736bccee7113412072ba03c4d452bd3fba488dceaf4fa7247d5",
+ "extracted_at": "2026-11-08T19:00:05Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-3 run-001)",
+ "task_id": "T-MG-FC-3"
+}

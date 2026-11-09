@@ -1,0 +1,644 @@
+{
+ "topic": "a-level-pure-mathematics-1-algebraic-methods",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "title": "Algebraic Methods Flashcards",
+ "cards": [
+  {
+   "id": "0c455228-8594-4f58-9210-edf94d92242c",
+   "card_type": "basic",
+   "front": "What defines an identity compared to a standard equation?",
+   "back": "It is true for all allowed values of the variable, often denoted by $\\equiv$.",
+   "options": [
+    {
+     "text": "It is true for all allowed values of the variable, often denoted by $\\equiv$.",
+     "correct": true,
+     "explanation": "An identity remains true for every value in the domain where both sides are defined. The symbol $\\equiv$ is commonly used to distinguish this from an equation true only for particular values."
+    },
+    {
+     "text": "It is true for one allowed value of the variable, often denoted by $\\equiv$.",
+     "correct": false,
+     "explanation": "A result holding for one value describes a particular solution, not an identity. An identity must hold for every allowed value, and $\\equiv$ signals that universal relationship."
+    },
+    {
+     "text": "It is true for all allowed values of the variable, often denoted by $=$.",
+     "correct": false,
+     "explanation": "The universal condition is correct, but ordinary $=$ does not specifically indicate an identity. The notation $\\equiv$ is used to show that the equality holds for all allowed values."
+    },
+    {
+     "text": "It is true for no allowed values of the variable, often denoted by $\\equiv$.",
+     "correct": false,
+     "explanation": "An identity cannot be false throughout its domain. It is an equality satisfied by every allowed value, whereas an equation may have only selected solutions."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "b7930d48-1e2d-48bc-ab7d-44764a713631",
+   "card_type": "cloze",
+   "front": "In an identity, equating coefficients involves comparing the coefficient of [ ___ ] on both sides.",
+   "back": "In an identity, equating coefficients involves comparing the coefficient of each power of $x$ on both sides.",
+   "options": [
+    {
+     "text": "each power of $x$",
+     "correct": true,
+     "explanation": "For an identity, matching coefficients means comparing the coefficients attached to $1$, $x$, $x^2$, and every other corresponding power appearing on the two sides."
+    },
+    {
+     "text": "each coefficient of $x$",
+     "correct": false,
+     "explanation": "Only comparing coefficients of $x$ ignores the constant term and higher powers. The correct method compares the coefficient belonging to every corresponding power of $x$."
+    },
+    {
+     "text": "the highest power of $x$",
+     "correct": false,
+     "explanation": "The highest-degree term alone cannot establish an identity, because lower-degree terms must also match. Coefficients are compared for every power of $x$ present."
+    },
+    {
+     "text": "the constant term only",
+     "correct": false,
+     "explanation": "The constant term is just the coefficient of $x^0$ and is only one part of the comparison. An identity requires matching coefficients for every power of $x$."
+    }
+   ]
+  },
+  {
+   "id": "7d685000-2196-4a8b-a0f0-13b1520f6904",
+   "card_type": "basic",
+   "front": "State the partial fraction form for $\\frac{P(x)}{(x-a)(x-b)}$ where $P(x)$ is linear.",
+   "back": "$$\\frac{A}{x-a} + \\frac{B}{x-b}$",
+   "options": [
+    {
+     "text": "$$\\frac{A}{x-a} + \\frac{B}{x-b}$",
+     "correct": true,
+     "explanation": "Two distinct linear factors in the denominator require one constant-over-factor term for each factor. Since the numerator is linear, these two constants provide the needed general form."
+    },
+    {
+     "text": "$$\\frac{A}{(x-a)^2} + \\frac{B}{(x-b)^2}$",
+     "correct": false,
+     "explanation": "The denominator contains distinct first-power factors, not repeated squared factors. Squaring the factors introduces the wrong denominator structure; each factor should appear to the first power."
+    },
+    {
+     "text": "$$\\frac{A}{x-a} + \\frac{B}{(x-b)^2}$",
+     "correct": false,
+     "explanation": "Only the first factor has been treated correctly. The second factor is not repeated, so its partial fraction term must have $x-b$, rather than its square, in the denominator."
+    },
+    {
+     "text": "$$\\frac{Ax+B}{(x-a)(x-b)}$",
+     "correct": false,
+     "explanation": "This simply places a general linear numerator over the original denominator, rather than decomposing the fraction. Partial fractions require separate terms associated with the two linear factors."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "4033ad77-8304-4ca2-9aad-b5ce8aeb423e",
+   "card_type": "basic",
+   "front": "When solving for constants in partial fractions, what value of $x$ should be substituted for a factor $(3x - 1)$?",
+   "back": "$$x = \\frac{1}{3}$",
+   "options": [
+    {
+     "text": "$$x = \\frac{1}{3}$",
+     "correct": true,
+     "explanation": "Set the linear factor equal to zero: $3x-1=0$. Solving gives $3x=1$ and therefore $x=\\frac{1}{3}$, which isolates the corresponding partial fraction constant."
+    },
+    {
+     "text": "$$x = 3$",
+     "correct": false,
+     "explanation": "This value comes from using the coefficient of $x$ without solving the factor equation. The factor vanishes when $3x-1=0$, giving $x=\\frac{1}{3}$."
+    },
+    {
+     "text": "$$x = -\\frac{1}{3}$",
+     "correct": false,
+     "explanation": "The negative sign results from treating the constant term as if the factor were $3x+1$. For $3x-1=0$, the required substitution is $x=\\frac{1}{3}$."
+    },
+    {
+     "text": "$$x = 1$",
+     "correct": false,
+     "explanation": "Substituting $x=1$ leaves the factor equal to $2$, so it does not eliminate that denominator term. The correct value makes $3x-1$ equal zero: $x=\\frac{1}{3}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "eadff6c1-0122-45f8-9947-b38d910b204f",
+   "card_type": "cloze",
+   "front": "A rational function is proper if the degree of the [ ___ ] is less than the degree of the denominator.",
+   "back": "A rational function is proper if the degree of the numerator is less than the degree of the denominator.",
+   "options": [
+    {
+     "text": "numerator",
+     "correct": true,
+     "explanation": "A rational function is proper when the polynomial on top has lower degree than the polynomial underneath. This allows it to be decomposed directly into partial fractions."
+    },
+    {
+     "text": "denominator",
+     "correct": false,
+     "explanation": "Reversing the comparison would describe a fraction whose denominator has lower degree, which is not the definition of proper. Properness requires the numerator degree to be smaller."
+    },
+    {
+     "text": "variable",
+     "correct": false,
+     "explanation": "The variable itself does not have the degree being compared in a rational function. The comparison is between the degrees of the numerator and denominator polynomials."
+    },
+    {
+     "text": "constant",
+     "correct": false,
+     "explanation": "A constant has degree zero, but the definition concerns which polynomial appears above the fraction bar. The numerator must have lower degree than the denominator."
+    }
+   ]
+  },
+  {
+   "id": "e1e2d33c-7f8d-4a50-ac49-4118c6d4122d",
+   "card_type": "cloze",
+   "front": "A rational function is proper if the degree of the numerator is less than the degree of the [ ___ ].",
+   "back": "A rational function is proper if the degree of the numerator is less than the degree of the denominator.",
+   "options": [
+    {
+     "text": "denominator",
+     "correct": true,
+     "explanation": "Properness requires the numerator polynomial to have lower degree than the denominator polynomial. This degree comparison determines whether polynomial division is needed first."
+    },
+    {
+     "text": "numerator",
+     "correct": false,
+     "explanation": "Putting the numerator on the right reverses the required degree comparison. A proper rational function has a numerator degree strictly less than the denominator degree."
+    },
+    {
+     "text": "coefficient",
+     "correct": false,
+     "explanation": "Coefficients affect the values of terms but do not provide the polynomial degree being compared here. Properness is defined using the denominator's degree."
+    },
+    {
+     "text": "variable",
+     "correct": false,
+     "explanation": "The degree belongs to a polynomial, not to the variable alone. The numerator degree must be compared with the degree of the denominator."
+    }
+   ]
+  },
+  {
+   "id": "100d09a6-1c11-4fba-af8d-4df0836bc59d",
+   "card_type": "basic",
+   "front": "Which partial fraction terms are required if the denominator contains the repeated factor $(x+2)^2$?",
+   "back": "$\\frac{B}{x+2}$$\\frac{C}{(x+2)^2}$",
+   "options": [
+    {
+     "text": "$\\frac{B}{x+2}$$\\frac{C}{(x+2)^2}$",
+     "correct": true,
+     "explanation": "A repeated linear factor of multiplicity two requires terms for every power from one through two. Both the first-power and squared-denominator terms are therefore needed."
+    },
+    {
+     "text": "$\\frac{B}{x+2}$$\\frac{C}{(x+2)^3}$",
+     "correct": false,
+     "explanation": "The cubic denominator is an off-by-one error: the repeated factor has multiplicity two, so powers must run only from one to two. The squared term is the highest required power."
+    },
+    {
+     "text": "$\\frac{B}{(x+2)^2}$$\\frac{C}{(x+2)^3}$",
+     "correct": false,
+     "explanation": "Starting at the second power omits the essential first-power term and adds an unnecessary cubic term. A squared factor requires all powers from $(x+2)^{-1}$ through $(x+2)^{-2}$."
+    },
+    {
+     "text": "$\\frac{B}{x+2}$$\\frac{C}{x+2}$",
+     "correct": false,
+     "explanation": "Repeating the same first-power term does not represent the two different powers generated by a repeated factor. The second term must use the squared denominator."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "b842677b-2b55-4d0b-9580-2524fb99d316",
+   "card_type": "basic",
+   "front": "A denominator contains $(x+4)^3$. List the required partial fraction terms.",
+   "back": "$\\frac{A}{x+4}$$\\frac{B}{(x+4)^2}$$\\frac{C}{(x+4)^3}$",
+   "options": [
+    {
+     "text": "$\\frac{A}{x+4}$$\\frac{B}{(x+4)^2}$$\\frac{C}{(x+4)^3}$",
+     "correct": true,
+     "explanation": "A factor repeated three times contributes one term for each denominator power from one through three. This accounts for all possible repeated-factor components in the partial fraction decomposition."
+    },
+    {
+     "text": "$\\frac{A}{x+4}$$\\frac{B}{(x+4)^2}$$\\frac{C}{(x+4)^4}$",
+     "correct": false,
+     "explanation": "The fourth power is an off-by-one error because the factor has multiplicity three. The required sequence stops at the cubic denominator after including the first and second powers."
+    },
+    {
+     "text": "$\\frac{A}{(x+4)^2}$$\\frac{B}{(x+4)^3}$$\\frac{C}{(x+4)^4}$",
+     "correct": false,
+     "explanation": "This sequence begins too late and extends too far, omitting the first-power term and adding an unnecessary fourth power. Repeated factors require every power from one to the multiplicity."
+    },
+    {
+     "text": "$\\frac{A}{x+4}$$\\frac{B}{x+4}$$\\frac{C}{(x+4)^2}$",
+     "correct": false,
+     "explanation": "Duplicating the first-power term does not supply the distinct powers required by a cubic repetition. The decomposition must include first, second, and third powers exactly once."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "821c0cd6-eb4f-4f8e-8fa2-02a1fe6d5808",
+   "card_type": "cloze",
+   "front": "If the numerator degree is equal to the denominator degree, the rational function is [ ___ ].",
+   "back": "If the numerator degree is equal to the denominator degree, the rational function is improper.",
+   "options": [
+    {
+     "text": "improper",
+     "correct": true,
+     "explanation": "When the numerator and denominator have equal degree, the fraction does not have a proper numerator degree below the denominator degree, so it is classified as improper."
+    },
+    {
+     "text": "proper",
+     "correct": false,
+     "explanation": "A proper rational function has numerator degree less than denominator degree. Equal degrees instead make the rational function improper, regardless of the leading coefficients."
+    },
+    {
+     "text": "polynomial",
+     "correct": false,
+     "explanation": "Equal numerator and denominator degrees do not make the whole rational function a polynomial. Polynomial division gives a constant polynomial part plus a proper fractional remainder, so it is improper."
+    },
+    {
+     "text": "undefined",
+     "correct": false,
+     "explanation": "Equal degrees do not by themselves make a rational function undefined; undefined values occur where the denominator is zero. The degree relationship makes the function improper."
+    }
+   ]
+  },
+  {
+   "id": "544a518f-61f0-4c1a-9b3c-07967fafea1c",
+   "card_type": "basic",
+   "front": "If an improper fraction has a numerator degree exactly one higher than the denominator, what is the form of the polynomial part?",
+   "back": "$$Ax + B$ (a linear expression).",
+   "options": [
+    {
+     "text": "$$Ax + B$ (a linear expression).",
+     "correct": true,
+     "explanation": "When the numerator degree is exactly one greater than the denominator degree, polynomial division produces a polynomial of degree one, written generally as $Ax + B$."
+    },
+    {
+     "text": "$$A$ (a constant expression).",
+     "correct": false,
+     "explanation": "A constant polynomial part occurs when the numerator and denominator have equal degree. Being one degree higher requires a linear part, $Ax + B$."
+    },
+    {
+     "text": "$$Ax$ (a linear expression).",
+     "correct": false,
+     "explanation": "The polynomial part is generally linear, but division can produce both an $x$ term and a constant term. Therefore the complete form is $Ax + B$."
+    },
+    {
+     "text": "$$Ax^2 + B$ (a quadratic expression).",
+     "correct": false,
+     "explanation": "The polynomial part cannot be quadratic when the numerator exceeds the denominator by only one degree. The degree difference gives a linear expression, $Ax + B$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "090a237b-0410-4c42-84e4-e2a50ff4d105",
+   "card_type": "cloze",
+   "front": "A proof by contradiction begins by assuming the statement to be proved is [ ___ ].",
+   "back": "A proof by contradiction begins by assuming the statement to be proved is false.",
+   "options": [
+    {
+     "text": "false",
+     "correct": true,
+     "explanation": "A proof by contradiction assumes the negation of the statement being proved. Showing that this assumption leads to an impossibility establishes that the original statement is true."
+    },
+    {
+     "text": "true",
+     "correct": false,
+     "explanation": "Assuming the statement is true is not contradiction proof; it is often part of a direct proof. Contradiction instead begins by assuming the statement is false."
+    },
+    {
+     "text": "undecidable",
+     "correct": false,
+     "explanation": "A contradiction proof does not begin by assuming the statement has no known truth value. It assumes the statement is false and derives an impossibility."
+    },
+    {
+     "text": "equivalent",
+     "correct": false,
+     "explanation": "Assuming an equivalent statement does not create the negation needed for contradiction. The required starting assumption is that the statement to be proved is false."
+    }
+   ]
+  },
+  {
+   "id": "ab82b012-d826-404a-8202-d8fb955ad07b",
+   "card_type": "basic",
+   "front": "How do you define a rational number?",
+   "back": "A number that can be written as $\\frac{a}{b}$ where $a$ and $b$ are integers and $b \\neq 0$.",
+   "options": [
+    {
+     "text": "A number that can be written as $\\frac{a}{b}$ where $a$ and $b$ are integers and $b \\neq 0$.",
+     "correct": true,
+     "explanation": "This is the definition of a rational number: it is a quotient of two integers with a non-zero denominator, ensuring the fraction is defined."
+    },
+    {
+     "text": "A number that can be written as $\\frac{a}{b}$ where $a$ and $b$ are natural numbers and $b \\neq 0$.",
+     "correct": false,
+     "explanation": "Restricting both values to natural numbers excludes negative rational numbers, such as $-\\frac{1}{2}$. Rational numbers require integers for $a$ and $b$, with $b \\neq 0$."
+    },
+    {
+     "text": "A number that can be written as $\\frac{a}{b}$ where $a$ and $b$ are integers and $b = 0$.",
+     "correct": false,
+     "explanation": "A zero denominator makes the fraction undefined, so $b$ must not equal zero. Rational numbers are quotients of integers with $b \\neq 0$."
+    },
+    {
+     "text": "A number that can be written as $\\frac{a}{b}$ where $a$ and $b$ are real numbers and $b \\neq 0$.",
+     "correct": false,
+     "explanation": "Allowing arbitrary real values makes every real number expressible as a quotient, so this is not the rational-number definition. Both $a$ and $b$ must be integers."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "63f4485e-e665-46ae-a9c4-b24882b86780",
+   "card_type": "basic",
+   "front": "In the contradiction proof that $\\sqrt{5}$ is irrational, why must the initial fraction $\\frac{a}{b}$ be in lowest terms?",
+   "back": "To establish that $a$ and $b$ are coprime, allowing a contradiction if a common factor is found.",
+   "options": [
+    {
+     "text": "To establish that $a$ and $b$ are coprime, allowing a contradiction if a common factor is found.",
+     "correct": true,
+     "explanation": "Writing $\\frac{a}{b}$ in lowest terms guarantees that $a$ and $b$ have no common factor. The proof then contradicts this when both are shown divisible by 5."
+    },
+    {
+     "text": "To establish that $a$ and $b$ are both odd, allowing a contradiction if an even factor is found.",
+     "correct": false,
+     "explanation": "Lowest terms does not imply that both integers are odd; fractions such as $\\frac{2}{3}$ are already reduced. Its purpose is to establish that $a$ and $b$ are coprime."
+    },
+    {
+     "text": "To establish that $a$ and $b$ are both prime, allowing a contradiction if a composite factor is found.",
+     "correct": false,
+     "explanation": "Numerator and denominator need not be prime in lowest terms. Reduction only guarantees that they are coprime, which is contradicted when both acquire a common factor of 5."
+    },
+    {
+     "text": "To establish that $a$ and $b$ are positive, allowing a contradiction if a negative factor is found.",
+     "correct": false,
+     "explanation": "Lowest terms concerns common factors, not signs; either integer may be negative. The needed consequence is that $a$ and $b$ are coprime, so a shared factor creates the contradiction."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "af4323e9-777e-42fa-b433-d915e6da7a00",
+   "card_type": "cloze",
+   "front": "If $a^2 = 5b^2$, then $a^2$ is a multiple of 5. Because 5 is [ ___ ], this implies $a$ is also a multiple of 5.",
+   "back": "If $a^2 = 5b^2$, then $a^2$ is a multiple of 5. Because 5 is prime, this implies $a$ is also a multiple of 5.",
+   "options": [
+    {
+     "text": "prime",
+     "correct": true,
+     "explanation": "Since 5 is prime, Euclid’s lemma says that if 5 divides $a^2$, then 5 divides $a$. Thus $a$ is a multiple of 5."
+    },
+    {
+     "text": "odd",
+     "correct": false,
+     "explanation": "Being odd does not imply that a divisor of $a^2$ must divide $a$; many odd composite numbers disprove that idea. The key property of 5 is that it is prime."
+    },
+    {
+     "text": "positive",
+     "correct": false,
+     "explanation": "Positivity gives no divisibility result: a positive number need not divide a number merely because it divides its square. The implication relies on 5 being prime."
+    },
+    {
+     "text": "composite",
+     "correct": false,
+     "explanation": "Composite numbers do not generally have the required divisibility property; for example, a composite divisor can divide a square without dividing its base. Here 5 is prime."
+    }
+   ]
+  },
+  {
+   "id": "129d2531-2c79-441a-ba4b-9df8d0a65183",
+   "card_type": "cloze",
+   "front": "If $a^2 = 5b^2$, then $a^2$ is a multiple of 5. Because 5 is prime, this implies $a$ is also a [ ___ ].",
+   "back": "If $a^2 = 5b^2$, then $a^2$ is a multiple of 5. Because 5 is prime, this implies $a$ is also a multiple of 5.",
+   "options": [
+    {
+     "text": "multiple of 5",
+     "correct": true,
+     "explanation": "Because 5 is prime and divides $a^2$, it must divide $a$. Therefore $a$ can be written as $5k$, so it is a multiple of 5."
+    },
+    {
+     "text": "factor of 5",
+     "correct": false,
+     "explanation": "The divisibility argument shows that 5 divides $a$, meaning $a$ is a multiple of 5. It does not show that $a$ divides 5, which would make $a$ a factor of 5."
+    },
+    {
+     "text": "multiple of 25",
+     "correct": false,
+     "explanation": "From 5 dividing $a^2$, the prime-factor argument establishes only that 5 divides $a$, not that 25 does. The correct conclusion is that $a$ is a multiple of 5."
+    },
+    {
+     "text": "divisor of $b^2$",
+     "correct": false,
+     "explanation": "The equation shows that 5 divides $a^2$, but it gives no conclusion that $a$ divides $b^2$. The prime-divisibility result instead makes $a$ a multiple of 5."
+    }
+   ]
+  },
+  {
+   "id": "ff539610-03e6-41a9-b76c-2015e4fe1334",
+   "card_type": "basic",
+   "front": "Outline why $14m + 21n = 5$ has no integer solutions using contradiction.",
+   "back": "Assume solutions exist; factor LHS as $7(2m + 3n)$.LHS is a multiple of 7.This implies 5 is a multiple of 7, which is a contradiction.",
+   "options": [
+    {
+     "text": "Assume solutions exist; factor LHS as $7(2m + 3n)$.LHS is a multiple of 7.This implies 5 is a multiple of 7, which is a contradiction.",
+     "correct": true,
+     "explanation": "Factoring gives $14m + 21n = 7(2m + 3n)$, so the left-hand side must be divisible by 7. It cannot equal 5, producing the contradiction."
+    },
+    {
+     "text": "Assume solutions exist; factor LHS as $5(14m + 21n)$.LHS is a multiple of 5.This implies 7 is a multiple of 5, which is a contradiction.",
+     "correct": false,
+     "explanation": "The common factor of the left-hand side is 7, not 5; $14m + 21n = 7(2m + 3n)$. Therefore the correct contradiction is that 5 would have to be a multiple of 7."
+    },
+    {
+     "text": "Assume solutions exist; factor LHS as $7(2m + 3n)$.LHS is a multiple of 5.This implies 7 is a multiple of 5, which is a contradiction.",
+     "correct": false,
+     "explanation": "Although the factorisation is correct, it shows the left-hand side is divisible by 7, not 5. Since the equation sets it equal to 5, the contradiction concerns 5 being a multiple of 7."
+    },
+    {
+     "text": "Assume solutions exist; factor LHS as $3(2m + 7n)$.LHS is a multiple of 3.This implies 5 is a multiple of 3, which is a contradiction.",
+     "correct": false,
+     "explanation": "The proposed factorisation is invalid because $14m + 21n$ has common factor 7, not 3. The valid factorisation is $7(2m + 3n)$, leading to the multiple-of-7 contradiction."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "121ef265-0948-4e45-b160-7375cd9cbca8",
+   "card_type": "basic",
+   "front": "Prove that the sum of a rational $r$ and an irrational $s$ is irrational.",
+   "back": "Assume $r + s = q$ (where $q$ is rational).Then $s = q - r$.Difference of rationals is rational, so $s$ is rational, contradicting the fact $s$ is irrational.",
+   "options": [
+    {
+     "text": "Assume $r + s = q$ (where $q$ is rational).Then $s = q - r$.Difference of rationals is rational, so $s$ is rational, contradicting the fact $s$ is irrational.",
+     "correct": true,
+     "explanation": "Assuming the sum is rational makes $s$ the difference of two rational numbers, so $s$ would be rational. This contradicts the premise that $s$ is irrational, proving the sum is irrational."
+    },
+    {
+     "text": "Assume $r + s = q$ (where $q$ is irrational).Then $s = q - r$.Difference of irrational and rational is irrational, so $s$ is irrational, confirming the fact $s$ is irrational.",
+     "correct": false,
+     "explanation": "Assuming $q$ is irrational presupposes the conclusion rather than its opposite, so no contradiction is obtained. Instead, assume $q$ is rational; then $s=q-r$ would be rational, contradicting the premise."
+    },
+    {
+     "text": "Assume $r + s = q$ (where $q$ is rational).Then $s = q + r$.Sum of rationals is rational, so $s$ is rational, contradicting the fact $s$ is irrational.",
+     "correct": false,
+     "explanation": "Rearranging $r+s=q$ gives $s=q-r$, not $s=q+r$. The correct rearrangement makes $s$ a difference of rationals and hence rational, contradicting its stated irrationality."
+    },
+    {
+     "text": "Assume $r + s = q$ (where $q$ is rational).Then $r = q - s$.Difference of rationals is rational, so $r$ is rational, confirming the fact $r$ is rational.",
+     "correct": false,
+     "explanation": "The argument wrongly treats $s$ as rational when applying closure under subtraction, and confirming that $r$ is rational produces no contradiction. Correctly rearranging for $s$ yields the required contradiction."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "18b7a58e-7041-46ad-b3cb-0f0c66b3a5bf",
+   "card_type": "cloze",
+   "front": "A prime number is an integer greater than one with exactly [ ___ ] positive factors.",
+   "back": "A prime number is an integer greater than one with exactly two positive factors.",
+   "options": [
+    {
+     "text": "two",
+     "correct": true,
+     "explanation": "A prime number has precisely two positive factors: $1$ and the number itself. Having any additional positive factor would make the number composite."
+    },
+    {
+     "text": "one",
+     "correct": false,
+     "explanation": "An integer greater than one cannot have only one positive factor because both $1$ and the integer itself divide it. A prime therefore has exactly two positive factors."
+    },
+    {
+     "text": "three",
+     "correct": false,
+     "explanation": "Three positive factors do not define a prime; for example, a square of a prime has three. A prime has exactly two positive factors, namely $1$ and itself."
+    },
+    {
+     "text": "infinitely many",
+     "correct": false,
+     "explanation": "Having infinitely many positive factors is impossible for a fixed positive integer, since its factors cannot exceed it. A prime has exactly two positive factors."
+    }
+   ]
+  },
+  {
+   "id": "e1097023-d942-4272-8885-5acba2682959",
+   "card_type": "basic",
+   "front": "In Euclid's proof of infinite primes, how is the test number $N$ constructed from a finite list of primes $p_1, p_2, ..., p_n$?",
+   "back": "$$N = (p_1 p_2 ... p_n) + 1$",
+   "options": [
+    {
+     "text": "$$N = (p_1 p_2 ... p_n) + 1$",
+     "correct": true,
+     "explanation": "Euclid multiplies every prime in the assumed finite list and adds $1$. Consequently, division by any listed prime leaves remainder $1$, forcing an unlisted prime factor."
+    },
+    {
+     "text": "$$N = (p_1 p_2 ... p_n) - 1$",
+     "correct": false,
+     "explanation": "Subtracting $1$ does not guarantee remainder $1$ on division by each listed prime; it gives remainder $-1$. Euclid’s standard test number is the product plus $1$."
+    },
+    {
+     "text": "$$N = (p_1 + p_2 + ... + p_n) + 1$",
+     "correct": false,
+     "explanation": "Adding the primes does not ensure that division by every listed prime leaves remainder $1$. The construction must multiply all listed primes and then add $1$."
+    },
+    {
+     "text": "$$N = p_1 p_2 ... p_n$",
+     "correct": false,
+     "explanation": "The product alone is divisible by every prime in the list and therefore creates no new prime factor. Adding $1$ makes it indivisible by each listed prime."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "83a81783-d130-46e3-96c7-89b636a137d2",
+   "card_type": "basic",
+   "front": "Why does $N = (p_1 p_2 ... p_n) + 1$ lead to a contradiction in the proof of infinite primes?",
+   "back": "$N$ has a prime factor (as $N > 1$).Dividing $N$ by any prime in the finite list leaves remainder 1.Therefore, a prime factor exists outside the list.",
+   "options": [
+    {
+     "text": "$N$ has a prime factor (as $N > 1$).Dividing $N$ by any prime in the finite list leaves remainder 1.Therefore, a prime factor exists outside the list.",
+     "correct": true,
+     "explanation": "Every integer greater than $1$ has a prime factor, but no listed prime divides $N$ because each leaves remainder $1$. Thus at least one prime lies outside the supposedly complete list."
+    },
+    {
+     "text": "$N$ has a prime factor (as $N > 1$).Dividing $N$ by any prime in the finite list leaves remainder 0.Therefore, every prime factor lies inside the list.",
+     "correct": false,
+     "explanation": "The added $1$ means listed primes leave remainder $1$, not $0$, so none divides $N$. This forces a prime factor outside the finite list rather than keeping every factor within it."
+    },
+    {
+     "text": "$N$ is itself prime (as $N > 1$).Dividing $N$ by any prime in the finite list leaves remainder 1.Therefore, $N$ is the only prime outside the list.",
+     "correct": false,
+     "explanation": "Being greater than $1$ guarantees a prime factor, not that $N$ itself is prime; $N$ may be composite. Its prime factors must nevertheless be outside the assumed finite list."
+    },
+    {
+     "text": "$N$ has a prime factor (as $N > 1$).Dividing $N$ by any prime in the finite list leaves remainder 1.Therefore, no prime factor exists outside the list.",
+     "correct": false,
+     "explanation": "A remainder of $1$ shows that no listed prime divides $N$, so the conclusion is reversed. Since $N>1$ has a prime factor, that factor must be outside the list."
+    }
+   ],
+   "points": 3
+  },
+  {
+   "id": "191fa250-0019-4222-97dc-f2b45f7ea2a0",
+   "card_type": "cloze",
+   "front": "If the degree of the numerator is [ ___ ] the degree of the denominator, the fraction must be split into a polynomial part and partial fractions.",
+   "back": "If the degree of the numerator is greater than or equal to the degree of the denominator, the fraction must be split into a polynomial part and partial fractions.",
+   "options": [
+    {
+     "text": "greater than or equal to",
+     "correct": true,
+     "explanation": "A rational expression is improper when the numerator’s degree is at least the denominator’s degree. Polynomial division is then required before decomposing the proper remainder into partial fractions."
+    },
+    {
+     "text": "less than",
+     "correct": false,
+     "explanation": "A lower numerator degree makes the rational expression proper, so polynomial division is unnecessary. Splitting is required when the numerator’s degree is greater than or equal to the denominator’s."
+    },
+    {
+     "text": "strictly greater than",
+     "correct": false,
+     "explanation": "This excludes the equal-degree case, where polynomial division is also necessary because the fraction is improper. The correct condition is greater than or equal to."
+    },
+    {
+     "text": "equal to",
+     "correct": false,
+     "explanation": "Equal degrees do require polynomial division, but so does any case where the numerator has higher degree. The full condition is greater than or equal to."
+    }
+   ]
+  },
+  {
+   "id": "6dc9edaf-9fbb-4e73-a6d1-65dadc0e3f85",
+   "card_type": "basic",
+   "front": "What are the four general steps of a contradiction proof?",
+   "back": "Assume the opposite.Apply algebra/logical facts.Reach a contradiction (impossibility).State the conclusion.",
+   "options": [
+    {
+     "text": "Assume the opposite.Apply algebra/logical facts.Reach a contradiction (impossibility).State the conclusion.",
+     "correct": true,
+     "explanation": "A contradiction proof negates the desired conclusion, reasons validly from that assumption, and derives an impossibility. The negated assumption must therefore be false, establishing the original conclusion."
+    },
+    {
+     "text": "Assume the statement.Apply algebra/logical facts.Reach a confirmation (possibility).State the conclusion.",
+     "correct": false,
+     "explanation": "Beginning by assuming the desired claim does not test whether its negation is impossible and risks circular reasoning. A contradiction proof must assume the opposite before deriving an impossibility."
+    },
+    {
+     "text": "Assume the opposite.Test several numerical examples.Observe a pattern (regularity).State the conclusion.",
+     "correct": false,
+     "explanation": "Checking examples can support a conjecture but cannot establish a universal statement by contradiction. The method requires assuming the opposite, applying valid reasoning, and reaching an impossibility."
+    },
+    {
+     "text": "Assume the opposite.Apply algebra/logical facts.Reach a contradiction (impossibility).State the opposite.",
+     "correct": false,
+     "explanation": "A contradiction shows that the assumed opposite is false, so the original statement must be concluded. Accepting the opposite reverses the final logical implication."
+    }
+   ],
+   "points": 2
+  }
+ ],
+ "card_count": 22,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/a-level-pure-mathematics-1-algebraic-methods/flashcards",
+ "source_sha256": "14e2a525fb92eba75208b3b02bde1360da396ec550ef18ff8e7ad563ba3f84ed",
+ "extracted_at": "2026-11-08T19:00:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-3 run-001)",
+ "task_id": "T-MG-FC-3"
+}

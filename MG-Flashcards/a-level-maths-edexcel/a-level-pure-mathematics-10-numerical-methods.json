@@ -1,0 +1,671 @@
+{
+ "topic": "a-level-pure-mathematics-10-numerical-methods",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "title": "Numerical Methods Flashcards",
+ "cards": [
+  {
+   "id": "011c0622-eb20-4388-b13e-0c34f25fd086",
+   "card_type": "basic",
+   "front": "State the two conditions required for a sign change between $x=a$ and $x=b$ to guarantee at least one root.",
+   "back": "The function $f(x)$ is continuous on $[a,b]$$f(a)$ and $f(b)$ have opposite signs",
+   "options": [
+    {
+     "text": "The function $f(x)$ is continuous on $[a,b]$$f(a)$ and $f(b)$ have opposite signs",
+     "correct": true,
+     "explanation": "The Intermediate Value Theorem applies when the function is continuous on the whole interval and the endpoint values have opposite signs, forcing the graph to cross the x-axis."
+    },
+    {
+     "text": "The function $f(x)$ is discontinuous on $[a,b]$$f(a)$ and $f(b)$ have opposite signs",
+     "correct": false,
+     "explanation": "Opposite endpoint signs alone are insufficient because a discontinuity could jump from positive to negative without crossing the x-axis. Continuity on $[a,b]$ is also required."
+    },
+    {
+     "text": "The function $f(x)$ is continuous on $[a,b]$$f(a)$ and $f(b)$ have the same sign",
+     "correct": false,
+     "explanation": "Continuity is necessary, but equal endpoint signs do not force a crossing. The required endpoint condition is that $f(a)$ and $f(b)$ have opposite signs."
+    },
+    {
+     "text": "The function $f(x)$ is continuous on $(a,b)$$f(a)$ and $f(b)$ are equal",
+     "correct": false,
+     "explanation": "Having equal endpoint values does not guarantee a root, even when the function is continuous. The endpoints must have opposite signs so the graph is forced through zero."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "864393ae-e63b-4d38-bd93-5cc1946918e0",
+   "card_type": "cloze",
+   "front": "The sign-change test can only be used to guarantee a root if the function has no [ ___ ] (it is continuous).",
+   "back": "The sign-change test can only be used to guarantee a root if the function has no jumps or breaks (it is continuous).",
+   "options": [
+    {
+     "text": "jumps or breaks",
+     "correct": true,
+     "explanation": "A sign change guarantees a root only under continuity. Jumps or breaks can let a function move between opposite signs without actually taking the value zero."
+    },
+    {
+     "text": "turning points",
+     "correct": false,
+     "explanation": "Turning points do not necessarily prevent continuity; a continuous curve may have many turning points. Jumps or breaks are the features that invalidate the sign-change guarantee."
+    },
+    {
+     "text": "negative values",
+     "correct": false,
+     "explanation": "Negative values can occur in a continuous function and do not stop the graph crossing zero. The relevant obstruction is a jump or break in the function."
+    },
+    {
+     "text": "vertical asymptotes",
+     "correct": false,
+     "explanation": "A vertical asymptote indicates a discontinuity, but excluding only asymptotes does not exclude all jumps or breaks. Continuity requires no discontinuities throughout the interval."
+    }
+   ]
+  },
+  {
+   "id": "ae2c9a9a-ccb8-495f-a3eb-82b51b1420fc",
+   "card_type": "basic",
+   "front": "Does a lack of sign change between $f(a)$ and $f(b)$ prove that no root exists in the interval $[a,b]$? Why?",
+   "back": "No. The curve could touch the x-axis or cross it an even number of times.",
+   "options": [
+    {
+     "text": "No. The curve could touch the x-axis or cross it an even number of times.",
+     "correct": true,
+     "explanation": "No sign change means the test is inconclusive, not that there is no root. The curve could touch the x-axis or cross it an even number of times."
+    },
+    {
+     "text": "Yes. A root requires $f(a)$ and $f(b)$ to have opposite signs.",
+     "correct": false,
+     "explanation": "A root can exist even without an endpoint sign change, for example when the curve touches the x-axis. The correct answer is no because roots can also occur an even number of times."
+    },
+    {
+     "text": "Yes. The curve stays entirely above or entirely below the x-axis.",
+     "correct": false,
+     "explanation": "The endpoint signs do not determine every possible crossing inside the interval. The correct answer is no because the curve may touch the x-axis or cross it an even number of times."
+    },
+    {
+     "text": "No. The function must be discontinuous somewhere in the interval.",
+     "correct": false,
+     "explanation": "A lack of sign change does not imply the curve is discontinuous. The correct answer is no because a continuous curve can touch the axis or cross it an even number of times."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "96ce6c79-3b7b-4d94-8c2f-91aca967b08c",
+   "card_type": "cloze",
+   "front": "A sign change between $f(a)$ and $f(b)$ proves the existence of at least [ ___ ] in that interval.",
+   "back": "A sign change between $f(a)$ and $f(b)$ proves the existence of at least one root in that interval.",
+   "options": [
+    {
+     "text": "one root",
+     "correct": true,
+     "explanation": "For a continuous function, opposite signs at the endpoints force the graph to pass through $y=0$ at least once, so there is at least one root in the interval."
+    },
+    {
+     "text": "two roots",
+     "correct": false,
+     "explanation": "A sign change guarantees an odd number of crossings, but it does not guarantee at least two roots; the graph may cross the x-axis exactly once."
+    },
+    {
+     "text": "one stationary point",
+     "correct": false,
+     "explanation": "A turning point is not necessarily on the x-axis and is unrelated to the sign-change conclusion. The guaranteed object is at least one root."
+    },
+    {
+     "text": "one maximum value",
+     "correct": false,
+     "explanation": "The Intermediate Value Theorem guarantees that the function reaches zero, not that it reaches a maximum. The correct conclusion is the existence of at least one root."
+    }
+   ]
+  },
+  {
+   "id": "3b382016-0c1f-46be-8cf8-5e83e1e07567",
+   "card_type": "basic",
+   "front": "What is the first step in using a numerical method to find the $x$-coordinate of a stationary point?",
+   "back": "Set the first derivative to zero: $\\frac{dy}{dx} = 0$.",
+   "options": [
+    {
+     "text": "Set the first derivative to zero: $\\frac{dy}{dx} = 0$.",
+     "correct": true,
+     "explanation": "A stationary point has a horizontal tangent, so its gradient is zero. The first step is therefore to differentiate and solve the equation $rac{dy}{dx}=0$."
+    },
+    {
+     "text": "Set the function to zero: $y = 0$.",
+     "correct": false,
+     "explanation": "Setting the function itself to zero finds x-intercepts, not generally stationary points. Stationary points are found by setting the first derivative, $rac{dy}{dx}$, to zero."
+    },
+    {
+     "text": "Set the second derivative to zero: $\\frac{d^2y}{dx^2} = 0$.",
+     "correct": false,
+     "explanation": "The second derivative helps classify a stationary point after it has been found. The initial condition for locating it is $rac{dy}{dx}=0$."
+    },
+    {
+     "text": "Set the first derivative to one: $\\frac{dy}{dx} = 1$.",
+     "correct": false,
+     "explanation": "A stationary point requires zero gradient, not a gradient of one. The equation to solve first is $rac{dy}{dx}=0$, before any classification is attempted."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "8dd6d4b8-9010-4bd9-a531-da59e559b821",
+   "card_type": "cloze",
+   "front": "In fixed-point iteration, the solutions are found at the intersection of the graphs $\\text{[...]}$ and $y = g(x)$.",
+   "back": "In fixed-point iteration, the solutions are found at the intersection of the graphs $\\boxed{y = x}$ and $y = g(x)$.",
+   "options": [
+    {
+     "text": "$$y = x$",
+     "correct": true,
+     "explanation": "Fixed points satisfy $x=g(x)$, so their coordinates lie on both $y=x$ and $y=g(x)$. The solutions are therefore found at the intersections of these graphs."
+    },
+    {
+     "text": "$$y = -x$",
+     "correct": false,
+     "explanation": "The graph $y=-x$ represents reflection in the origin rather than the fixed-point condition. Fixed points require the input and output to be equal, giving $y=x$."
+    },
+    {
+     "text": "$$y = f(x)$",
+     "correct": false,
+     "explanation": "The original function $f(x)$ is not generally the graph used to display the fixed-point iteration. The relevant comparison is between $y=x$ and $y=g(x)$."
+    },
+    {
+     "text": "$$y = x^2$",
+     "correct": false,
+     "explanation": "The parabola $y=x^2$ does not express the fixed-point condition for a general iteration. Fixed points occur where $x=g(x)$, represented by $y=x$."
+    }
+   ]
+  },
+  {
+   "id": "b308315d-5f43-46d4-a656-b2421cb194eb",
+   "card_type": "cloze",
+   "front": "In fixed-point iteration, the solutions are found at the intersection of the graphs $y = x$ and $\\text{[...]}$.",
+   "back": "In fixed-point iteration, the solutions are found at the intersection of the graphs $y = x$ and $\\boxed{y = g(x)}$.",
+   "options": [
+    {
+     "text": "$$y = g(x)$",
+     "correct": true,
+     "explanation": "A fixed point satisfies $x=g(x)$, meaning its y-coordinate equals its x-coordinate. Hence it lies on $y=x$ as well as on the iteration graph $y=g(x)$."
+    },
+    {
+     "text": "$$y = f(x)$",
+     "correct": false,
+     "explanation": "The graph $y=f(x)$ belongs to the original function, not necessarily to the rearranged iteration formula. Fixed-point solutions are found by intersecting $y=x$ with $y=g(x)$."
+    },
+    {
+     "text": "$$y = -g(x)$",
+     "correct": false,
+     "explanation": "The line $y=-g(x)$ reverses the output values and does not represent the iteration formula. The required graph is exactly $y=g(x)$."
+    },
+    {
+     "text": "$$y = x + g(x)$",
+     "correct": false,
+     "explanation": "The graph $y=x+g(x)$ is not the iteration function and would give a different intersection equation. Fixed-point iteration uses the graph $y=g(x)$."
+    }
+   ]
+  },
+  {
+   "id": "dbefe52b-28fe-4c26-b340-0c99ec613ef7",
+   "card_type": "basic",
+   "front": "When using an iteration formula like $x_{n+1}=g(x_n)$, why should you use the calculator's 'ANS' key?",
+   "back": "To maintain full accuracy and avoid rounding errors between steps.",
+   "options": [
+    {
+     "text": "To maintain full accuracy and avoid rounding errors between steps.",
+     "correct": true,
+     "explanation": "The ANS key carries the calculator's unrounded previous result into the next iteration. This preserves full accuracy and prevents rounding errors from accumulating through repeated steps."
+    },
+    {
+     "text": "To round each answer consistently between steps.",
+     "correct": false,
+     "explanation": "Rounding each iterate before using it loses precision and can cause later values to drift. The ANS key is used to retain the previous unrounded result."
+    },
+    {
+     "text": "To guarantee that the iteration converges to a root.",
+     "correct": false,
+     "explanation": "The ANS key does not make the iteration converge; convergence depends on the iteration function and starting value. It mainly prevents intermediate rounding errors."
+    },
+    {
+     "text": "To differentiate the iteration formula automatically between steps.",
+     "correct": false,
+     "explanation": "Using ANS does not calculate the derivative or replace the iteration formula. It transfers the previous full-precision output into the next calculation."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "30669c92-c6c1-4900-a9e9-c34e445b7cb5",
+   "card_type": "basic",
+   "front": "To prove a root is $0.673$ to 3 decimal places, what interval of $x$ values must you test for a sign change?",
+   "back": "$$[0.6725, 0.6735]$",
+   "options": [
+    {
+     "text": "$$[0.6725, 0.6735]$",
+     "correct": true,
+     "explanation": "Rounding to three decimal places gives a half-unit tolerance of $0.0005$. Therefore, the lower and upper rounding bounds are $0.6725$ and $0.6735$."
+    },
+    {
+     "text": "$$[0.672, 0.674]$",
+     "correct": false,
+     "explanation": "Using $0.001$ on either side makes the interval too wide. Three-decimal-place rounding requires half of $0.001$, giving the correct interval $[0.6725, 0.6735]$."
+    },
+    {
+     "text": "$$[0.673, 0.674]$",
+     "correct": false,
+     "explanation": "These are adjacent three-decimal values rather than the rounding bounds. The required endpoints lie halfway between them, so the correct interval is $[0.6725, 0.6735]$."
+    },
+    {
+     "text": "$$[0.6725, 0.6734]$",
+     "correct": false,
+     "explanation": "The upper endpoint has been truncated instead of placed halfway between $0.673$ and $0.674$. The correct upper bound is $0.6735$, giving $[0.6725, 0.6735]$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "ea45d843-c6eb-49cd-a09c-2478ed661aa1",
+   "card_type": "cloze",
+   "front": "To prove a root $\\alpha$ is correct to a given accuracy, you must show a sign change occurs between the [ ___ ] of that rounded value.",
+   "back": "To prove a root $\\alpha$ is correct to a given accuracy, you must show a sign change occurs between the upper and lower bounds of that rounded value.",
+   "options": [
+    {
+     "text": "upper and lower bounds",
+     "correct": true,
+     "explanation": "Every number that rounds to the stated value lies between its upper and lower bounds. Opposite signs at these endpoints prove that a root lies within the required accuracy interval."
+    },
+    {
+     "text": "two nearest integers",
+     "correct": false,
+     "explanation": "The nearest integers are unrelated to the specified rounding accuracy and usually create a much wider interval. The sign change must be shown between the upper and lower bounds."
+    },
+    {
+     "text": "midpoint and upper bound",
+     "correct": false,
+     "explanation": "A midpoint and one bound cover only part of the interval containing all values that round to the result. Both the upper and lower bounds must be tested."
+    },
+    {
+     "text": "rounded value and error",
+     "correct": false,
+     "explanation": "The rounded value and its error do not themselves form the two endpoints of the rounding interval. The required endpoints are the upper and lower bounds."
+    }
+   ]
+  },
+  {
+   "id": "073d4ba8-a9de-4a4a-bcb9-4502f224ddd5",
+   "card_type": "basic",
+   "front": "What condition for the gradient $g'(x)$ usually guarantees that a fixed-point iteration will converge?",
+   "back": "$$|g'(x)| < 1$ near the root.",
+   "options": [
+    {
+     "text": "$$|g'(x)| < 1$ near the root.",
+     "correct": true,
+     "explanation": "When $|g'(x)|<1$, the iteration mapping contracts distances near the fixed point. Successive approximations therefore tend to move closer to the root."
+    },
+    {
+     "text": "$$|g'(x)| > 1$ near the root.",
+     "correct": false,
+     "explanation": "A gradient magnitude greater than one magnifies small errors, so successive iterates generally move away from the fixed point. Convergence usually requires $|g'(x)|<1$ near the root."
+    },
+    {
+     "text": "$$g'(x) < 1$ near the root.",
+     "correct": false,
+     "explanation": "A derivative below one without an absolute value may still have magnitude greater than one, such as $g'(x)=-2$. The required condition is $|g'(x)|<1$."
+    },
+    {
+     "text": "$$g'(x) > 0$ near the root.",
+     "correct": false,
+     "explanation": "A positive gradient alone does not ensure contraction because it could exceed one. The usual convergence condition controls the magnitude: $|g'(x)|<1$ near the root."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "8ea20d1d-8909-4d16-9c06-8c6ed54c2110",
+   "card_type": "cloze",
+   "front": "If $|g'(x)| > 1$ near a root, the fixed-point iteration is likely to [ ___ ].",
+   "back": "If $|g'(x)| > 1$ near a root, the fixed-point iteration is likely to diverge.",
+   "options": [
+    {
+     "text": "diverge",
+     "correct": true,
+     "explanation": "A gradient magnitude greater than one magnifies deviations from the fixed point at each iteration. Consequently, successive approximations are likely to move away rather than approach the root."
+    },
+    {
+     "text": "converge",
+     "correct": false,
+     "explanation": "Convergence is normally expected when $|g'(x)|1$, errors grow, so the iteration is likely to diverge."
+    },
+    {
+     "text": "stabilise",
+     "correct": false,
+     "explanation": "A negative derivative can make iterates alternate, but $|g'(x)|>1$ makes the size of their errors grow rather than stabilise. The iteration is therefore likely to diverge."
+    },
+    {
+     "text": "remain constant",
+     "correct": false,
+     "explanation": "Iterates remain constant only if an iterate is already exactly at a fixed point. In general, $|g'(x)|>1$ amplifies errors and makes the iteration diverge."
+    }
+   ]
+  },
+  {
+   "id": "76feee09-8530-4ddd-98fa-d002a8bd2889",
+   "card_type": "basic",
+   "front": "What are the two types of diagrams used to visualize fixed-point iteration?",
+   "back": "Cobweb diagramsStaircase diagrams",
+   "options": [
+    {
+     "text": "Cobweb diagramsStaircase diagrams",
+     "correct": true,
+     "explanation": "Cobweb diagrams are used when the iteration alternates across the line $y=x$, while staircase diagrams show a step-like approach. Both visualise repeated applications of $x_{n+1}=g(x_n)$."
+    },
+    {
+     "text": "Tangent diagramsNormal diagrams",
+     "correct": false,
+     "explanation": "Tangent and normal lines describe local geometry of curves, not the standard graphical forms of fixed-point iteration. Those forms are cobweb diagrams and staircase diagrams."
+    },
+    {
+     "text": "Trapezium diagramsMidpoint diagrams",
+     "correct": false,
+     "explanation": "Trapezium and midpoint refer to numerical integration rules rather than fixed-point iteration diagrams. Iterative movement between $y=g(x)$ and $y=x$ is shown by cobweb or staircase diagrams."
+    },
+    {
+     "text": "Bisection diagramsInterval diagrams",
+     "correct": false,
+     "explanation": "Bisection and interval methods locate roots using sign-changing intervals, but they are not the two standard fixed-point diagrams. These are cobweb diagrams and staircase diagrams."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "dfad8089-8ef1-42b7-898f-dac00766715b",
+   "card_type": "basic",
+   "front": "State the Newton-Raphson formula for finding a root of $f(x)=0$.",
+   "back": "$$x_{n+1} = x_n - \\frac{f(x_n)}{f'(x_n)}$",
+   "options": [
+    {
+     "text": "$$x_{n+1} = x_n - \\frac{f(x_n)}{f'(x_n)}$",
+     "correct": true,
+     "explanation": "The tangent at $x_n$ has gradient $f'(x_n)$, and its $x$-intercept is obtained by subtracting the correction $rac{f(x_n)}{f'(x_n)}$ from $x_n$."
+    },
+    {
+     "text": "$$x_{n+1} = x_n + \\frac{f(x_n)}{f'(x_n)}$",
+     "correct": false,
+     "explanation": "The tangent’s $x$-intercept requires subtracting the correction, not adding it. Newton-Raphson therefore uses $x_{n+1}=x_n-\\frac{f(x_n)}{f'(x_n)}$."
+    },
+    {
+     "text": "$$x_{n+1} = x_n - \\frac{f'(x_n)}{f(x_n)}$",
+     "correct": false,
+     "explanation": "This reverses the Newton correction fraction. Solving the tangent equation for its $x$-intercept gives the function value divided by the derivative, so $x_{n+1}=x_n-\\frac{f(x_n)}{f'(x_n)}$."
+    },
+    {
+     "text": "$$x_{n+1} = x_n - \\frac{f(x_{n+1})}{f'(x_n)}$",
+     "correct": false,
+     "explanation": "Newton-Raphson evaluates both the function and its derivative at the current approximation $x_n$. Using $f(x_{n+1})$ makes the update implicit rather than the Newton-Raphson formula."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "8ff9fe62-625f-4b94-bb77-ac1ccac72325",
+   "card_type": "cloze",
+   "front": "The Newton-Raphson method works by finding where the [ ___ ] to the curve at $x_n$ intersects the $x$-axis.",
+   "back": "The Newton-Raphson method works by finding where the tangent to the curve at $x_n$ intersects the $x$-axis.",
+   "options": [
+    {
+     "text": "tangent",
+     "correct": true,
+     "explanation": "Newton-Raphson replaces the curve locally with its tangent at the current estimate. The tangent’s intersection with the $x$-axis supplies the next estimate $x_{n+1}$."
+    },
+    {
+     "text": "secant",
+     "correct": false,
+     "explanation": "A secant uses two points and leads to the secant method, not standard Newton-Raphson. Newton-Raphson uses the tangent at the single current estimate $x_n$."
+    },
+    {
+     "text": "normal",
+     "correct": false,
+     "explanation": "The normal is perpendicular to the tangent and does not produce the Newton-Raphson update. The method follows the tangent at $x_n$ to the $x$-axis."
+    },
+    {
+     "text": "chord",
+     "correct": false,
+     "explanation": "A chord joins two points on the curve and is associated with two-point root-finding approaches. Newton-Raphson instead uses the tangent at the current estimate."
+    }
+   ]
+  },
+  {
+   "id": "3bcd78f0-99cb-4f1d-8d03-61beec192ed2",
+   "card_type": "cloze",
+   "front": "The Newton-Raphson method works by finding where the tangent to the curve at $x_n$ intersects the [ ___ ].",
+   "back": "The Newton-Raphson method works by finding where the tangent to the curve at $x_n$ intersects the $x$-axis.",
+   "options": [
+    {
+     "text": "$$x$-axis",
+     "correct": true,
+     "explanation": "A root of $f(x)=0$ lies on the $x$-axis. Newton-Raphson therefore uses the tangent’s $x$-axis intersection as the next approximation to the root."
+    },
+    {
+     "text": "$$y$-axis",
+     "correct": false,
+     "explanation": "The curve’s intersection with the $y$-axis corresponds to $x=0$, not generally to a root. Newton-Raphson takes the tangent’s intersection with the $x$-axis."
+    },
+    {
+     "text": "line $y=x$",
+     "correct": false,
+     "explanation": "The line $y=x$ is used to visualise fixed-point iteration $x_{n+1}=g(x_n)$. Newton-Raphson instead finds where the tangent intersects the $x$-axis."
+    },
+    {
+     "text": "curve $y=f(x)$",
+     "correct": false,
+     "explanation": "The tangent already meets the original curve at $x_n$, so that intersection supplies no new approximation. The next estimate comes from its intersection with the $x$-axis."
+    }
+   ]
+  },
+  {
+   "id": "36457334-f190-418b-952e-50231a332656",
+   "card_type": "basic",
+   "front": "Under what specific condition will the Newton-Raphson method fail numerically?",
+   "back": "When $f'(x_n) = 0$ (the gradient is zero / stationary point).",
+   "options": [
+    {
+     "text": "When $f'(x_n) = 0$ (the gradient is zero / stationary point).",
+     "correct": true,
+     "explanation": "Newton-Raphson divides by $f'(x_n)$ when calculating the next iterate. If the gradient is zero, the formula involves division by zero and cannot produce a numerical value."
+    },
+    {
+     "text": "When $f(x_n) = 0$ (the iterate is already a root).",
+     "correct": false,
+     "explanation": "Having $f(x_n)=0$ means the current iterate is already an exact root, so no further iteration is needed. Failure occurs when $f'(x_n)=0$, because the formula then divides by zero."
+    },
+    {
+     "text": "When $f''(x_n) = 0$ (the curvature is zero / inflection point).",
+     "correct": false,
+     "explanation": "Zero curvature does not itself make the standard Newton-Raphson calculation undefined. Numerical failure occurs when $f'(x_n)=0$, since the derivative appears in the denominator."
+    },
+    {
+     "text": "When $f'(x_n) = 1$ (the gradient is non-zero).",
+     "correct": false,
+     "explanation": "A gradient of one gives a valid, non-zero denominator, so the next iterate can be calculated. The method fails numerically when $f'(x_n)=0$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "5aa780c9-c475-4ed8-8b1b-aa09c94a26d8",
+   "card_type": "basic",
+   "front": "Why does the Newton-Raphson method fail if $f'(x_n) = 0$?",
+   "back": "The formula requires division by the derivative; division by zero is undefined.",
+   "options": [
+    {
+     "text": "The formula requires division by the derivative; division by zero is undefined.",
+     "correct": true,
+     "explanation": "Newton-Raphson uses $x_{n+1}=x_n-f(x_n)/f'(x_n)$. If $f'(x_n)=0$, its quotient has a zero denominator, so the next iterate is undefined."
+    },
+    {
+     "text": "The formula requires multiplication by the derivative; multiplying by zero prevents convergence.",
+     "correct": false,
+     "explanation": "The derivative is used as a divisor, not as a multiplying factor. When $f'(x_n)=0$, division by the derivative is undefined, so no next iterate can be calculated."
+    },
+    {
+     "text": "The formula requires taking the square root of the derivative; square roots of zero are undefined.",
+     "correct": false,
+     "explanation": "Newton-Raphson does not take the square root of the derivative, and the square root of zero is defined. It fails because it divides by the zero derivative."
+    },
+    {
+     "text": "The formula requires division by the function value; division by zero is undefined.",
+     "correct": false,
+     "explanation": "The function value is the numerator, while the derivative is the denominator. A zero derivative therefore causes undefined division, whereas a zero function value indicates a root."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "2d743e6a-5b9c-4cfc-a3fa-971b2d058b5f",
+   "card_type": "cloze",
+   "front": "When using numerical methods involving trigonometry in calculus, the calculator must be in [ ___ ] mode.",
+   "back": "When using numerical methods involving trigonometry in calculus, the calculator must be in radians mode.",
+   "options": [
+    {
+     "text": "radians",
+     "correct": true,
+     "explanation": "Calculus formulas for trigonometric derivatives, such as the derivative of $sin x$ being $cos x$, assume angles are measured in radians. Numerical calculations must therefore use radians mode."
+    },
+    {
+     "text": "degrees",
+     "correct": false,
+     "explanation": "Degrees introduce an additional conversion factor into trigonometric derivatives, so standard calculus formulas do not apply directly. The calculator must be set to radians mode."
+    },
+    {
+     "text": "gradians",
+     "correct": false,
+     "explanation": "Gradians divide a full turn into 400 units and introduce a conversion factor in differentiation. Standard trigonometric calculus and its numerical methods require radians mode."
+    },
+    {
+     "text": "turns",
+     "correct": false,
+     "explanation": "Turns are not the angular unit assumed by standard trigonometric derivative formulas. Those formulas are valid in their usual form only when the calculator uses radians."
+    }
+   ]
+  },
+  {
+   "id": "ec83967a-6d19-4026-a78e-329ec3d23af7",
+   "card_type": "basic",
+   "front": "How is the Newton-Raphson formula modified to find a stationary point of $y=f(x)$?",
+   "back": "$$x_{n+1} = x_n - \\frac{f'(x_n)}{f''(x_n)}$",
+   "options": [
+    {
+     "text": "$$x_{n+1} = x_n - \\frac{f'(x_n)}{f''(x_n)}$",
+     "correct": true,
+     "explanation": "A stationary point satisfies $f'(x)=0$. Applying Newton-Raphson to the function $f'(x)$ gives derivative $f''(x)$ and hence the stated iteration."
+    },
+    {
+     "text": "$$x_{n+1} = x_n - rac{f(x_n)}{f'(x_n)}$",
+     "correct": false,
+     "explanation": "This is the ordinary Newton-Raphson formula for solving $f(x)=0$, so it locates roots of the original function rather than stationary points where $f'(x)=0$."
+    },
+    {
+     "text": "$$x_{n+1} = x_n + rac{f'(x_n)}{f''(x_n)}$",
+     "correct": false,
+     "explanation": "Applying Newton-Raphson to $f'(x)=0$ requires subtracting the correction term. Using addition moves in the opposite direction and does not give the required iteration formula."
+    },
+    {
+     "text": "$$x_{n+1} = x_n - rac{f''(x_n)}{f'(x_n)}$",
+     "correct": false,
+     "explanation": "The Newton-Raphson correction is the target function divided by its derivative. For $f'(x)=0$, that means $f'(x_n)/f''(x_n)$, not the inverted quotient."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "5b9cb6f4-6af4-493d-972c-a6a38e7c695a",
+   "card_type": "basic",
+   "front": "A question asks for a root to 3 decimal places. When can you stop iterating?",
+   "back": "When two successive iterates round to the same value to 3 decimal places.",
+   "options": [
+    {
+     "text": "When two successive iterates round to the same value to 3 decimal places.",
+     "correct": true,
+     "explanation": "Matching rounded values for two consecutive approximations indicates that the iteration has stabilised at the requested precision. Both iterates therefore support the same 3-decimal-place answer."
+    },
+    {
+     "text": "When two successive iterates round to the same value to 3 significant figures.",
+     "correct": false,
+     "explanation": "Three significant figures and three decimal places are different accuracy requirements, especially for values away from one. The successive iterates must agree when rounded to 3 decimal places."
+    },
+    {
+     "text": "When two successive iterates differ by less than 0.001.",
+     "correct": false,
+     "explanation": "A difference below $0.001$ does not guarantee equal rounding to 3 decimal places because the values could lie on opposite sides of a rounding boundary. Their rounded values must match."
+    },
+    {
+     "text": "When the first iterate can be rounded to 3 decimal places.",
+     "correct": false,
+     "explanation": "Every finite calculator value can be rounded, so rounding one iterate alone gives no evidence of convergence. Two successive iterates must round to the same 3-decimal-place value."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "6ed387c1-c87b-40ee-ae40-a143c5ef1c02",
+   "card_type": "cloze",
+   "front": "Polynomials, exponentials, and sines are [ ___ ] everywhere, but logarithms are only continuous on their valid domains ($x > 0$) domain.",
+   "back": "Polynomials, exponentials, and sines are continuous everywhere, but logarithms are only continuous on their valid domains ($x > 0$) domain.",
+   "options": [
+    {
+     "text": "continuous",
+     "correct": true,
+     "explanation": "These functions have no breaks, jumps or gaps for real inputs in their domains. Logarithms are likewise continuous wherever defined, but their real domain requires $x>0$."
+    },
+    {
+     "text": "discontinuous",
+     "correct": false,
+     "explanation": "Polynomials, exponentials and sines are not discontinuous on the real line; they have no breaks there. The required property is continuous, with logarithms restricted to $x>0$."
+    },
+    {
+     "text": "undefined",
+     "correct": false,
+     "explanation": "Polynomials, exponentials and sine functions are defined for every real input, so describing them as undefined everywhere reverses the fact. The missing term is continuous."
+    },
+    {
+     "text": "periodic",
+     "correct": false,
+     "explanation": "Only sine among the listed functions is periodic; general polynomials and exponentials do not repeat at fixed intervals. All three are instead continuous everywhere."
+    }
+   ]
+  },
+  {
+   "id": "65878922-dc3b-4fe2-b43f-dd7b1a2ea0db",
+   "card_type": "cloze",
+   "front": "Polynomials, exponentials, and sines are continuous everywhere, but [ ___ ] are only continuous on their valid domains ($x > 0$) domain.",
+   "back": "Polynomials, exponentials, and sines are continuous everywhere, but logarithms are only continuous on their valid domains ($x > 0$) domain.",
+   "options": [
+    {
+     "text": "logarithms",
+     "correct": true,
+     "explanation": "Real logarithmic functions require a positive argument, so their domain is $x>0$. They are continuous at every point within that valid domain."
+    },
+    {
+     "text": "square roots",
+     "correct": false,
+     "explanation": "Square-root functions are continuous on $xge 0$, including at zero, so $x>0$ is not their complete valid domain. The stated restriction belongs to logarithms."
+    },
+    {
+     "text": "reciprocal functions",
+     "correct": false,
+     "explanation": "A basic reciprocal function is defined and continuous for both positive and negative inputs, excluding zero. The domain $x>0$ instead characterises real logarithms."
+    },
+    {
+     "text": "cosines",
+     "correct": false,
+     "explanation": "Cosine functions are defined and continuous for every real value, just like sine functions. Logarithms are the functions restricted to the positive real domain $x>0$."
+    }
+   ]
+  }
+ ],
+ "card_count": 23,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/a-level-pure-mathematics-10-numerical-methods/flashcards",
+ "source_sha256": "5ac52845e75c39470b4d8952ebe7b50729380c00e1f0928043936279d5fde66b",
+ "extracted_at": "2026-11-08T19:00:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-3 run-001)",
+ "task_id": "T-MG-FC-3"
+}

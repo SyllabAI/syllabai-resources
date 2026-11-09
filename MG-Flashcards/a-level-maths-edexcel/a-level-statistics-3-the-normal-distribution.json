@@ -1,0 +1,617 @@
+{
+ "topic": "a-level-statistics-3-the-normal-distribution",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "title": "The Normal Distribution Flashcards",
+ "cards": [
+  {
+   "id": "17a261f5-f66b-4bb9-8e1d-7754af587e4f",
+   "card_type": "basic",
+   "front": "In the notation $X \\sim N(\\mu, \\sigma^2)$, what do the two parameters represent?",
+   "back": "$\\mu$: the mean$\\sigma^2$: the variance",
+   "options": [
+    {
+     "text": "$\\mu$: the mean$\\sigma^2$: the variance",
+     "correct": true,
+     "explanation": "In $X \\sim N(\\mu, \\sigma^2)$, $\\mu$ gives the centre of the distribution, while $\\sigma^2$ measures its spread as the variance."
+    },
+    {
+     "text": "$\\mu$: the variance$\\sigma^2$: the mean",
+     "correct": false,
+     "explanation": "The parameters have been swapped: $\\mu$ always denotes the mean, while $\\sigma^2$ denotes the variance. Confusing variance with standard deviation is a common notation error."
+    },
+    {
+     "text": "$\\mu$: the standard deviation$\\sigma^2$: the mean",
+     "correct": false,
+     "explanation": "The mean is represented by $\\mu$, not $\\sigma^2$. The symbol $\\sigma$ represents standard deviation, so $\\sigma^2$ represents variance."
+    },
+    {
+     "text": "$\\mu$: the median$\\sigma^2$: the standard deviation",
+     "correct": false,
+     "explanation": "For a normal distribution, $\\mu$ represents the mean, which is also the median, but it is not labelled the median here. The squared parameter $\\sigma^2$ is variance, not standard deviation."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "83422ae2-b4f3-48ed-a341-c81bfb5bffd1",
+   "card_type": "basic",
+   "front": "How does an increase in the standard deviation $\\sigma$ affect the shape of the normal curve?",
+   "back": "The curve becomes wider and flatter.",
+   "options": [
+    {
+     "text": "The curve becomes wider and flatter.",
+     "correct": true,
+     "explanation": "A larger standard deviation spreads values further from the mean. To keep the total area equal to 1, the normal curve becomes wider and its peak becomes flatter."
+    },
+    {
+     "text": "The curve becomes narrower and taller.",
+     "correct": false,
+     "explanation": "This is the effect of decreasing, not increasing, $\\sigma$. A larger standard deviation spreads the distribution out, making it wider and flatter while preserving total area."
+    },
+    {
+     "text": "The curve shifts to the right and becomes flatter.",
+     "correct": false,
+     "explanation": "Changing $\\sigma$ alters the spread but not the centre. The mean controls horizontal position; increasing $\\sigma$ makes the curve wider and flatter without shifting it."
+    },
+    {
+     "text": "The curve becomes wider and taller.",
+     "correct": false,
+     "explanation": "Although increasing $\\sigma$ makes the curve wider, its maximum height must decrease because the total area remains 1. Therefore it becomes wider and flatter."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "9ead7fd0-4eb8-4c16-b684-7d1dbad141a2",
+   "card_type": "cloze",
+   "front": "For any continuous normal variable, the probability of the variable taking exactly one specific value is [ ___ ].",
+   "back": "For any continuous normal variable, the probability of the variable taking exactly one specific value is 0.",
+   "options": [
+    {
+     "text": "0",
+     "correct": true,
+     "explanation": "A normal variable is continuous, so the probability at one exact point has zero area under the curve. Probabilities come from intervals, not individual values."
+    },
+    {
+     "text": "1",
+     "correct": false,
+     "explanation": "A probability of 1 would mean the variable is certain to equal that one value. For a continuous normal variable, one point has zero width and therefore probability 0."
+    },
+    {
+     "text": "0.5",
+     "correct": false,
+     "explanation": "The value 0.5 might describe an interval probability, but not the probability of one exact point in a continuous distribution. The correct point probability is 0."
+    },
+    {
+     "text": "$$\\frac{1}{2}$",
+     "correct": false,
+     "explanation": "An exact value has no interval width, so its probability is zero, not $\\frac{1}{2}$. A non-zero probability applies to a range of values."
+    }
+   ]
+  },
+  {
+   "id": "db596217-9695-4742-b966-b90b2380bd9d",
+   "card_type": "basic",
+   "front": "Why is $P(X < a)$ equal to $P(X \\le a)$ in a normal distribution?",
+   "back": "The probability of $X$ being exactly $a$ is zero.",
+   "options": [
+    {
+     "text": "The probability of $X$ being exactly $a$ is zero.",
+     "correct": true,
+     "explanation": "A normal distribution is continuous, so $P(X=a)=0$. Consequently, including or excluding the single endpoint does not change the probability, giving $P(X<a)=P(X\\le a)$."
+    },
+    {
+     "text": "The probability of $X$ being less than $a$ is zero.",
+     "correct": false,
+     "explanation": "The probability below $a$ is generally a positive area under the curve. Equality holds because the probability of the single endpoint $X=a$ is zero."
+    },
+    {
+     "text": "The probability of $X$ being greater than $a$ is zero.",
+     "correct": false,
+     "explanation": "Values greater than $a$ usually have positive probability in a normal distribution. The relevant fact is that the probability of exactly $a$ is zero."
+    },
+    {
+     "text": "The probability of $X$ being exactly the mean is one.",
+     "correct": false,
+     "explanation": "Even the mean is only one point on a continuous distribution, so its probability is zero, not one. The endpoint equality follows from $P(X=a)=0$ for any $a$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "80e6e9b4-47ce-46b0-89b6-2807e819ea2f",
+   "card_type": "basic",
+   "front": "Identify the mean and standard deviation of $X \\sim N(100, 25)$.",
+   "back": "Mean: 100Standard deviation: 5 ($\\sqrt{25}$)",
+   "options": [
+    {
+     "text": "Mean: 100Standard deviation: 5 ($\\sqrt{25}$)",
+     "correct": true,
+     "explanation": "In $N(100,25)$, the first parameter is the mean and the second is the variance. The standard deviation is $\\sqrt{25}=5$."
+    },
+    {
+     "text": "Mean: 100Standard deviation: 25 ($\\sqrt{625}$)",
+     "correct": false,
+     "explanation": "The second parameter, 25, is the variance rather than the standard deviation. Taking its square root gives the standard deviation, $\\sqrt{25}=5$."
+    },
+    {
+     "text": "Mean: 25Standard deviation: 10 ($\\sqrt{100}$)",
+     "correct": false,
+     "explanation": "The parameters have been reversed and the spread has then been calculated from the wrong value. The mean is 100, and $\\sqrt{25}=5$ is the standard deviation."
+    },
+    {
+     "text": "Mean: 100Standard deviation: 625 ($25^2$)",
+     "correct": false,
+     "explanation": "Squaring the variance increases the spread instead of converting it to standard deviation. The required operation is $\\sqrt{25}$, giving a standard deviation of 5."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "19af8f51-d0b5-4e95-bb91-9af4eadda6c0",
+   "card_type": "cloze",
+   "front": "The standard normal distribution is denoted by $\\text{[...]}$.",
+   "back": "The standard normal distribution is denoted by $\\boxed{Z \\sim N(0, 1)}$.",
+   "options": [
+    {
+     "text": "$$Z \\sim N(0, 1)$",
+     "correct": true,
+     "explanation": "The standard normal distribution has mean 0 and variance 1, so it is written as $Z \\sim N(0,1)$. Its standard deviation is also 1."
+    },
+    {
+     "text": "$$Z \\sim N(1, 0)$",
+     "correct": false,
+     "explanation": "The standard normal has mean 0 and variance 1, not mean 1 and variance 0. A variance of 0 would describe a constant rather than a normal curve."
+    },
+    {
+     "text": "$$Z \\sim N(0, 0)$",
+     "correct": false,
+     "explanation": "The mean is correctly shown as 0, but the variance must be 1. Variance 0 gives no spread, so it cannot represent the standard normal distribution."
+    },
+    {
+     "text": "$$Z \\sim N(1, 1)$",
+     "correct": false,
+     "explanation": "Although the variance is correctly 1, the standard normal mean is 0, not 1. The notation must therefore be $Z \\sim N(0,1)$."
+    }
+   ]
+  },
+  {
+   "id": "d13f8a3c-6c0b-4165-b223-6c1eda32fffe",
+   "card_type": "cloze",
+   "front": "The formula to standardise a value $X$ is $\\text{[...]}$.",
+   "back": "The formula to standardise a value $X$ is $\\boxed{Z = \\frac{X - \\mu}{\\sigma}}$.",
+   "options": [
+    {
+     "text": "$$Z = \\frac{X - \\mu}{\\sigma}$",
+     "correct": true,
+     "explanation": "Subtracting $\\mu$ centres the value relative to the mean, and dividing by $\\sigma$ measures that distance in standard deviations. The result is the standardised value $Z$."
+    },
+    {
+     "text": "$$Z = \\frac{X + \\mu}{\\sigma}$",
+     "correct": false,
+     "explanation": "Adding the mean does not centre $X$; it moves the value further from the reference point. Standardisation requires subtracting $\\mu$ before dividing by $\\sigma$."
+    },
+    {
+     "text": "$$Z = \\frac{X - \\sigma}{\\mu}$",
+     "correct": false,
+     "explanation": "The mean must be subtracted to centre the observation, and the standard deviation must divide to measure standard-deviation units. These roles have been incorrectly exchanged."
+    },
+    {
+     "text": "$$Z = \\frac{X}{\\mu - \\sigma}$",
+     "correct": false,
+     "explanation": "Standardisation is based on the distance from the mean, $X-\\mu$, scaled by the standard deviation $\\sigma$. Combining the parameters as $\\mu-\\sigma$ does not produce a z-value."
+    }
+   ]
+  },
+  {
+   "id": "b85b878e-0391-4702-9fe2-19ef2cf8e4fa",
+   "card_type": "basic",
+   "front": "What does a $z$-value represent in the context of the normal distribution?",
+   "back": "The number of standard deviations a value is from the mean.",
+   "options": [
+    {
+     "text": "The number of standard deviations a value is from the mean.",
+     "correct": true,
+     "explanation": "A z-value measures the signed distance from the mean in standard-deviation units. Positive values lie above the mean and negative values lie below it."
+    },
+    {
+     "text": "The number of variances a value is from the mean.",
+     "correct": false,
+     "explanation": "A z-value uses standard deviation, not variance, as the unit of spread. Dividing by $\\sigma^2$ would give the wrong scale and would not represent standard-deviation units."
+    },
+    {
+     "text": "The probability of a value being from the mean.",
+     "correct": false,
+     "explanation": "A z-value is a standardised distance, not a probability. Probabilities are found from areas under the normal curve after using the z-value."
+    },
+    {
+     "text": "The number of units a value is above the mean.",
+     "correct": false,
+     "explanation": "A z-value can be positive or negative and measures distance in standard deviations, not ordinary units or only upward distance. Values below the mean have negative z-values."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "fb516f44-7ba1-4575-8b99-589d6e4a1a81",
+   "card_type": "basic",
+   "front": "State the symmetry property of $P(X < \\mu)$ for any normal distribution.",
+   "back": "$$P(X < \\mu) = 0.5$",
+   "options": [
+    {
+     "text": "$$P(X < \\mu) = 0.5$",
+     "correct": true,
+     "explanation": "A normal distribution is symmetric about its mean, so exactly half of the probability lies below $\\mu$ and half lies above it."
+    },
+    {
+     "text": "$$P(X < \\mu) = 0.25$",
+     "correct": false,
+     "explanation": "This confuses the mean with a quartile. Symmetry divides the total probability equally at the mean, so $P(X < \\mu) = 0.5$."
+    },
+    {
+     "text": "$$P(X < \\mu) = 0$",
+     "correct": false,
+     "explanation": "The mean is not the distribution’s lower boundary. Half of the probability lies below the mean, giving $P(X < \\mu) = 0.5$."
+    },
+    {
+     "text": "$$P(X < \\mu) = 1$",
+     "correct": false,
+     "explanation": "The mean is not an upper boundary containing the entire distribution. Symmetry places half the probability below it, so $P(X < \\mu) = 0.5$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "707e0ae6-42ba-40b0-a088-240c79eb227c",
+   "card_type": "cloze",
+   "front": "To find a value $x$ from a standard normal $z$-value, use the formula $\\text{[...]}$.",
+   "back": "To find a value $x$ from a standard normal $z$-value, use the formula $\\boxed{x = \\mu + \\sigma z}$.",
+   "options": [
+    {
+     "text": "$$x = \\mu + \\sigma z$",
+     "correct": true,
+     "explanation": "Rearranging $z = \\frac{x-\\mu}{\\sigma}$ gives $x-\\mu=\\sigma z$, and then adding $\\mu$ gives $x=\\mu+\\sigma z$."
+    },
+    {
+     "text": "$$x = \\frac{z-\\mu}{\\sigma}$",
+     "correct": false,
+     "explanation": "This incorrectly applies the standardisation formula to $z$ rather than rearranging it. Solving $z=\\frac{x-\\mu}{\\sigma}$ for $x$ gives $x=\\mu+\\sigma z$."
+    },
+    {
+     "text": "$$x = \\mu - \\sigma z$",
+     "correct": false,
+     "explanation": "The sign has been reversed when rearranging the standardisation formula. Since $x-\\mu=\\sigma z$, the correct result is $x=\\mu+\\sigma z$."
+    },
+    {
+     "text": "$$x = \\mu + \\frac{z}{\\sigma}$",
+     "correct": false,
+     "explanation": "This divides the standard normal value by the standard deviation instead of multiplying it. Rescaling requires $\\sigma z$, so $x=\\mu+\\sigma z$."
+    }
+   ]
+  },
+  {
+   "id": "c7b7444d-e5d8-4cbe-8c52-e599805480bc",
+   "card_type": "basic",
+   "front": "What is the first step required to find a missing $\\mu$ or $\\sigma$ when given a probability?",
+   "back": "Use inverse normal to find the corresponding $z$-value.",
+   "options": [
+    {
+     "text": "Use inverse normal to find the corresponding $z$-value.",
+     "correct": true,
+     "explanation": "A cumulative probability identifies a percentile of the standard normal distribution. Applying inverse normal converts that probability into the corresponding standardised $z$-value."
+    },
+    {
+     "text": "Use normal cumulative distribution to find the corresponding $z$-value.",
+     "correct": false,
+     "explanation": "The cumulative distribution function finds a probability from a known value, reversing the required direction. Use inverse normal to obtain the $z$-value from the probability."
+    },
+    {
+     "text": "Use linear interpolation to find the corresponding $z$-value.",
+     "correct": false,
+     "explanation": "Linear interpolation is not the initial method for converting a normal probability into a standard score. Use inverse normal to find the corresponding $z$-value."
+    },
+    {
+     "text": "Use standardisation to find the corresponding $z$-value.",
+     "correct": false,
+     "explanation": "Standardisation requires the mean and standard deviation already to be known, so it cannot initially resolve a missing parameter. First use inverse normal to find the $z$-value."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "9ec40bbf-ee24-4ae0-8a66-7c25a750fe4e",
+   "card_type": "basic",
+   "front": "How many probability statements are needed to calculate both a missing mean and a missing standard deviation?",
+   "back": "Two (to form two simultaneous equations).",
+   "options": [
+    {
+     "text": "Two (to form two simultaneous equations).",
+     "correct": true,
+     "explanation": "The unknown mean and standard deviation are two separate parameters. Each probability statement provides one equation, so two statements produce two simultaneous equations."
+    },
+    {
+     "text": "One (to form one simultaneous equation).",
+     "correct": false,
+     "explanation": "One probability statement supplies only one equation, which cannot uniquely determine two unknown parameters. Two statements are needed to form two simultaneous equations."
+    },
+    {
+     "text": "Three (to form three simultaneous equations).",
+     "correct": false,
+     "explanation": "A third independent statement is unnecessary because there are only two unknowns, $\\mu$ and $\\sigma$. Two probability statements provide the required simultaneous equations."
+    },
+    {
+     "text": "Four (to form four simultaneous equations).",
+     "correct": false,
+     "explanation": "This incorrectly assumes each parameter needs two separate conditions. There are two unknown parameters, so two probability statements are sufficient to form two simultaneous equations."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "980a5eee-147a-4b6a-8d77-46a8d56b3ca1",
+   "card_type": "basic",
+   "front": "In race times, how should the phrase \"faster than 10 seconds\" be written in probability notation?",
+   "back": "$$P(T < 10)$",
+   "options": [
+    {
+     "text": "$$P(T < 10)$",
+     "correct": true,
+     "explanation": "A faster race time is numerically smaller, so finishing faster than 10 seconds means the recorded time $T$ is less than 10."
+    },
+    {
+     "text": "$$P(T > 10)$",
+     "correct": false,
+     "explanation": "This treats a larger time as faster, reversing the relationship. Faster performances take fewer seconds, so the correct notation is $P(T < 10)$."
+    },
+    {
+     "text": "$$P(T \\leq 10)$",
+     "correct": false,
+     "explanation": "The word “faster” indicates a strict inequality and excludes a time of exactly 10 seconds. The correct notation is therefore $P(T < 10)$."
+    },
+    {
+     "text": "$$P(T \\geq 10)$",
+     "correct": false,
+     "explanation": "This both reverses the direction and includes exactly 10 seconds. Faster times are below 10 seconds, so the correct expression is $P(T < 10)$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "10e43ed3-e58a-4eca-a9b4-4ac4c197e70a",
+   "card_type": "cloze",
+   "front": "The general formula for conditional probability is $P(A|B) = \\frac{\\text{[...]}}{P(B)}$.",
+   "back": "The general formula for conditional probability is $P(A|B) = \\frac{\\boxed{P(A \\cap B)}}{P(B)}$.",
+   "options": [
+    {
+     "text": "$$P(A \\cap B)$",
+     "correct": true,
+     "explanation": "Conditional probability restricts attention to outcomes in $B$. The favourable outcomes are those in both $A$ and $B$, so the numerator is $P(A \\cap B)$."
+    },
+    {
+     "text": "$$P(A \\cup B)$",
+     "correct": false,
+     "explanation": "The union includes outcomes occurring in either event, including those outside the condition $B$. The numerator must be the intersection $P(A \\cap B)$."
+    },
+    {
+     "text": "$$P(A)$",
+     "correct": false,
+     "explanation": "Using all outcomes in $A$ ignores the requirement that $B$ has occurred. The numerator must count outcomes shared by both events, namely $P(A \\cap B)$."
+    },
+    {
+     "text": "$$P(B|A)$",
+     "correct": false,
+     "explanation": "This is a conditional probability in the reverse direction, not the joint probability required in the numerator. The correct numerator is $P(A \\cap B)$."
+    }
+   ]
+  },
+  {
+   "id": "f2bc8067-554c-4259-9074-873f8bad06a1",
+   "card_type": "cloze",
+   "front": "The general formula for conditional probability is $P(A|B) = \\frac{P(A \\cap B)}{\\text{[...]}}$.",
+   "back": "The general formula for conditional probability is $P(A|B) = \\frac{P(A \\cap B)}{\\boxed{P(B)}}$.",
+   "options": [
+    {
+     "text": "$$P(B)$",
+     "correct": true,
+     "explanation": "Conditioning on $B$ restricts the sample space to event $B$, so the joint probability $P(A \\cap B)$ must be divided by $P(B)$."
+    },
+    {
+     "text": "$$P(A)$",
+     "correct": false,
+     "explanation": "Dividing by $P(A)$ would condition on $A$ and produce $P(B|A)$ instead. Since the stated condition is $B$, the denominator is $P(B)$."
+    },
+    {
+     "text": "$$P(A \\cap B)$",
+     "correct": false,
+     "explanation": "Using the intersection as both numerator and denominator would always produce 1 when it is non-zero. Conditional probability instead divides by the conditioning event’s probability, $P(B)$."
+    },
+    {
+     "text": "$$1-P(B)$",
+     "correct": false,
+     "explanation": "This divides by the probability that $B$ does not occur, which contradicts the condition that $B$ has occurred. The correct denominator is $P(B)$."
+    }
+   ]
+  },
+  {
+   "id": "4beb14f3-5108-4354-be97-d8d3494f6186",
+   "card_type": "basic",
+   "front": "If a battery has already lasted 40 hours, how is the probability that it lasts at least another 10 hours expressed?",
+   "back": "$$P(X > 50 | X > 40)$",
+   "options": [
+    {
+     "text": "$$P(X > 50 | X > 40)$",
+     "correct": true,
+     "explanation": "Lasting another 10 hours after already exceeding 40 hours means the total lifetime must exceed 50 hours, conditional on it having exceeded 40 hours."
+    },
+    {
+     "text": "$$P(X > 10 | X > 40)$",
+     "correct": false,
+     "explanation": "This treats “another 10 hours” as a total lifetime of 10 hours. The threshold must be added to 40, giving $P(X > 50 | X > 40)$."
+    },
+    {
+     "text": "$$P(X > 50)$",
+     "correct": false,
+     "explanation": "This ignores the information that the battery has already lasted 40 hours. That information must be included as a condition, giving $P(X > 50 | X > 40)$."
+    },
+    {
+     "text": "$$P(X > 40 | X > 50)$",
+     "correct": false,
+     "explanation": "The condition and target events have been reversed. The known event is survival beyond 40 hours, while the target is survival beyond 50 hours."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "09e0b02d-bea1-41a0-b3c1-c83e71142891",
+   "card_type": "cloze",
+   "front": "For a population $X \\sim N(\\mu, \\sigma^2)$, the distribution of the sample mean is $\\text{[...]}$.",
+   "back": "For a population $X \\sim N(\\mu, \\sigma^2)$, the distribution of the sample mean is $\\boxed{\\bar{X} \\sim N(\\mu, \\frac{\\sigma^2}{n})}$.",
+   "options": [
+    {
+     "text": "$$\\bar{X} \\sim N(\\mu, \\frac{\\sigma^2}{n})$",
+     "correct": true,
+     "explanation": "Averaging $n$ independent observations preserves the population mean $mu$ and divides the variance by $n$, so the sample mean has variance $\\frac{\\sigma^2}{n}$."
+    },
+    {
+     "text": "$$\\bar{X} \\sim N(\\mu, \\frac{\\sigma^2}{\\sqrt{n}})$",
+     "correct": false,
+     "explanation": "Dividing the variance by $\\sqrt{n}$ confuses the variance with the standard deviation. The sample mean has variance $\\frac{\\sigma^2}{n}$, giving $\\bar{X} \\sim N(\\mu, \\frac{\\sigma^2}{n})$."
+    },
+    {
+     "text": "$$\\bar{X} \\sim N(\\mu, n\\sigma^2)$",
+     "correct": false,
+     "explanation": "Multiplying by $n$ incorrectly makes sample means more variable as the sample grows. Averaging reduces variance, so the correct distribution is $\\bar{X} \\sim N(\\mu, \\frac{\\sigma^2}{n})$."
+    },
+    {
+     "text": "$$\\bar{X} \\sim N(n\\mu, \\frac{\\sigma^2}{n})$",
+     "correct": false,
+     "explanation": "The mean of $\\bar{X}$ remains $\\mu$ rather than becoming $n\\mu$; only a sample total has mean $n\\mu$. Its distribution is $N(\\mu, \\frac{\\sigma^2}{n})$."
+    }
+   ]
+  },
+  {
+   "id": "f4c9b97e-1061-41f2-ae84-d23de5bce340",
+   "card_type": "basic",
+   "front": "Define the \"standard error\" of the sample mean.",
+   "back": "The standard deviation of the sampling distribution: $\\frac{\\sigma}{\\sqrt{n}}$.",
+   "options": [
+    {
+     "text": "The standard deviation of the sampling distribution: $\\frac{\\sigma}{\\sqrt{n}}$.",
+     "correct": true,
+     "explanation": "The standard error measures the standard deviation of sample means across repeated samples. Since $\\operatorname{Var}(\\bar{X})=\\frac{\\sigma^2}{n}$, its standard deviation is $\\frac{\\sigma}{\\sqrt{n}}$."
+    },
+    {
+     "text": "The standard deviation of the population distribution: $\\sigma$.",
+     "correct": false,
+     "explanation": "The quantity $\\sigma$ is the standard deviation of individual population values, not of sample means. Averaging $n$ observations reduces the standard deviation to $\\frac{\\sigma}{\\sqrt{n}}$."
+    },
+    {
+     "text": "The variance of the sampling distribution: $\\frac{\\sigma^2}{n}$.",
+     "correct": false,
+     "explanation": "The quantity $\\frac{\\sigma^2}{n}$ is the variance of the sampling distribution, not its standard deviation. Taking its square root gives the standard error $\\frac{\\sigma}{\\sqrt{n}}$."
+    },
+    {
+     "text": "The standard deviation of the sampling distribution: $\\frac{\\sigma}{n}$.",
+     "correct": false,
+     "explanation": "Dividing the standard deviation by $n$ rather than $\\sqrt{n}$ overstates the effect of averaging. The variance divides by $n$, so the standard error is $\\frac{\\sigma}{\\sqrt{n}}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "8cc975c9-922d-4a12-b8fd-397822331627",
+   "card_type": "basic",
+   "front": "State the null and alternative hypotheses for a test where the mean $\\mu$ is suspected to have increased from a value $k$.",
+   "back": "$H_0: \\mu = k$$H_1: \\mu > k$",
+   "options": [
+    {
+     "text": "$H_0: \\mu = k$$H_1: \\mu > k$",
+     "correct": true,
+     "explanation": "The null hypothesis fixes the mean at its original value $k$. Because the suspected change is specifically an increase, the alternative hypothesis is the one-tailed statement $\\mu>k$."
+    },
+    {
+     "text": "$H_0: \\mu = k$$H_1: \\mu",
+     "correct": false,
+     "explanation": "The alternative $\\muk$."
+    },
+    {
+     "text": "$H_0: \\mu = k$$H_1: \\mu \\ne k$",
+     "correct": false,
+     "explanation": "The alternative $\\mu\\ne k$ describes a two-tailed test for any change, not specifically an increase. The correct directional alternative is $H_1: \\mu>k$, with $H_0: \\mu=k$."
+    },
+    {
+     "text": "$H_0: \\mu > k$$H_1: \\mu = k$",
+     "correct": false,
+     "explanation": "Equality belongs in the null hypothesis, which represents the original claimed value. The correct hypotheses are $H_0: \\mu=k$ and $H_1: \\mu>k$ for a suspected increase."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "aa583538-a0af-4e70-87c5-0828bf2cdbc0",
+   "card_type": "basic",
+   "front": "When conducting a hypothesis test, what is the condition to reject the null hypothesis $H_0$ using a p-value?",
+   "back": "Reject $H_0$ if p-value < significance level.",
+   "options": [
+    {
+     "text": "Reject $H_0$ if p-value < significance level.",
+     "correct": true,
+     "explanation": "A small p-value indicates that the observed result would be unlikely if $H_0$ were true. The null hypothesis is rejected when the p-value falls below the chosen significance level."
+    },
+    {
+     "text": "Reject $H_0$ if p-value > significance level.",
+     "correct": false,
+     "explanation": "A p-value greater than the significance level does not provide sufficient evidence against $H_0$. The correct decision rule is to reject $H_0$ when the p-value is below the significance level."
+    },
+    {
+     "text": "Fail to reject $H_0$ if p-value < significance level.",
+     "correct": false,
+     "explanation": "The inequality has been reversed: a p-value below the significance level leads to rejection, whereas a larger p-value means there is insufficient evidence to reject $H_0$."
+    },
+    {
+     "text": "Reject $H_0$ if p-value = significance level.",
+     "correct": false,
+     "explanation": "Equality is not included in the stated strict decision rule. At the significance-level boundary, the usual rule here does not reject $H_0$; rejection requires a smaller p-value."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "1dcde702-9ad1-47c1-b0ca-27b8d0c3f9c3",
+   "card_type": "basic",
+   "front": "How do you estimate the population standard deviation for a large sample if $\\sigma$ is unknown?",
+   "back": "Use the sample standard deviation ($s$).",
+   "options": [
+    {
+     "text": "Use the sample standard deviation ($s$).",
+     "correct": true,
+     "explanation": "For a large sample, the sample standard deviation $s$ provides a suitable estimate of the unknown population standard deviation $\\sigma$, allowing it to be substituted in standard-error calculations."
+    },
+    {
+     "text": "Use the sample variance ($s^2$).",
+     "correct": false,
+     "explanation": "The sample variance $s^2$ estimates the population variance $\\sigma^2$, not the population standard deviation $\\sigma$. The required estimate of standard deviation is $s$."
+    },
+    {
+     "text": "Use the sample standard error ($\\frac{s}{\\sqrt{n}}$).",
+     "correct": false,
+     "explanation": "The standard error $\\frac{s}{\\sqrt{n}}$ estimates the spread of sample means, not the spread of individual population values. The population standard deviation is estimated directly by $s$."
+    },
+    {
+     "text": "Use the sample range ($R$).",
+     "correct": false,
+     "explanation": "The range depends only on the two extreme observations and is not a direct estimate of population standard deviation. For a large sample, use the sample standard deviation $s$."
+    }
+   ],
+   "points": 1
+  }
+ ],
+ "card_count": 21,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/a-level-statistics-3-the-normal-distribution/flashcards",
+ "source_sha256": "81587aac635b46bf26a949ffb398b561efed107933015cb1dcac15bc4845c919",
+ "extracted_at": "2026-11-08T19:00:05Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-3 run-001)",
+ "task_id": "T-MG-FC-3"
+}

@@ -1,0 +1,149 @@
+{
+ "topic": "as-statistics-5-probability",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "title": "Probability Flashcards",
+ "cards": [
+  {
+   "id": "6aa42c28-9331-df2f-cb77-e7910a169d2c",
+   "card_type": "cloze",
+   "front": "The [ ___ ] is the set of all possible outcomes in a probability experiment.",
+   "back": "The sample space is the set of all possible outcomes in a probability experiment."
+  },
+  {
+   "id": "7db08ff7-d409-7c29-ed69-b25962a766ef",
+   "card_type": "basic",
+   "front": "What range of values can a probability $P(A)$ take?",
+   "back": "$$0 \\le P(A) \\le 1$",
+   "points": 1
+  },
+  {
+   "id": "f2fa175f-e68f-4f34-94d0-d20379278b59",
+   "card_type": "cloze",
+   "front": "For any event $A$, the probability of its complement $A'$ is calculated as $P(A') = \\text{[...]}$.",
+   "back": "For any event $A$, the probability of its complement $A'$ is calculated as $P(A') = \\boxed{1 - P(A)}$."
+  },
+  {
+   "id": "925de1c3-c160-3bbe-5324-028487d3e655",
+   "card_type": "basic",
+   "front": "In set notation, what symbol represents the intersection (A and B)?",
+   "back": "$$A \\cap B$",
+   "points": 1
+  },
+  {
+   "id": "d9040010-f76f-3372-7faa-c942c7ff79a7",
+   "card_type": "basic",
+   "front": "In set notation, what symbol represents the union (A or B)?",
+   "back": "$$A \\cup B$",
+   "points": 1
+  },
+  {
+   "id": "cf4f01cb-42c2-0d50-c6c5-aae87e3c932a",
+   "card_type": "basic",
+   "front": "In a Venn diagram, why is $P(A \\cap B)$ subtracted in the formula for $P(A \\cup B)$?",
+   "back": "To avoid double-counting the overlap between the two events.",
+   "points": 2
+  },
+  {
+   "id": "023d10e9-bb9b-924b-a1b0-276447e4fea7",
+   "card_type": "cloze",
+   "front": "The addition rule for the union of two events is $P(A \\cup B) = \\text{[...]}$.",
+   "back": "The addition rule for the union of two events is $P(A \\cup B) = \\boxed{P(A) + P(B) - P(A \\cap B)}$."
+  },
+  {
+   "id": "a98fd263-1edb-be7b-358f-6263c3de8f52",
+   "card_type": "basic",
+   "front": "Define mutually exclusive events.",
+   "back": "Events that cannot happen at the same time.",
+   "points": 1
+  },
+  {
+   "id": "50cef8c9-67d7-799e-df99-c807dc194903",
+   "card_type": "cloze",
+   "front": "If events $A$ and $B$ are mutually exclusive, then $P(A \\cap B) = \\text{[...]}$.",
+   "back": "If events $A$ and $B$ are mutually exclusive, then $P(A \\cap B) = \\boxed{0}$."
+  },
+  {
+   "id": "ff4e8bb5-6020-af35-ef21-4885c72e43e7",
+   "card_type": "basic",
+   "front": "If two events are mutually exclusive and have non-zero probabilities, can they be independent?",
+   "back": "No; knowing one occurs makes the other impossible, so they affect each other.",
+   "points": 2
+  },
+  {
+   "id": "7b4f2ebb-36da-4e3d-4bc7-c0e90fad409c",
+   "card_type": "basic",
+   "front": "What is the first step when filling in a three-set Venn diagram?",
+   "back": "Place the value for the center region (all three events) first.",
+   "points": 1
+  },
+  {
+   "id": "60e02d39-ab8e-4336-ac6b-76e75d674245",
+   "card_type": "basic",
+   "front": "Define independent events.",
+   "back": "The outcome of one event does not affect the probability of the other.",
+   "points": 1
+  },
+  {
+   "id": "ff27cba1-a309-773f-555f-2e404361934e",
+   "card_type": "cloze",
+   "front": "Events $A$ and $B$ are independent if and only if $P(A \\cap B) = \\text{[...]}$.",
+   "back": "Events $A$ and $B$ are independent if and only if $P(A \\cap B) = \\boxed{P(A)P(B)}$."
+  },
+  {
+   "id": "bc581735-0548-1b77-bd9c-fdd348cd9a2f",
+   "card_type": "basic",
+   "front": "When asked to test for independence in an exam, what must your answer include?",
+   "back": "A comparison showing whether $P(A \\cap B)$ equals $P(A)P(B)$.",
+   "points": 2
+  },
+  {
+   "id": "2f480600-082b-2d62-7685-260436e87134",
+   "card_type": "basic",
+   "front": "In a tree diagram, how do you calculate the probability of a specific combined outcome (e.g., A and then B)?",
+   "back": "Multiply the probabilities along the branches.",
+   "points": 1
+  },
+  {
+   "id": "8c339cbb-1dff-ee16-f474-d5d7b5a67975",
+   "card_type": "cloze",
+   "front": "When multiple different routes on a tree diagram satisfy a condition, you [ ___ ] their individual probabilities.碎",
+   "back": "When multiple different routes on a tree diagram satisfy a condition, you add their individual probabilities.碎"
+  },
+  {
+   "id": "3439e08b-eb65-ec10-b46b-6226968e238f",
+   "card_type": "basic",
+   "front": "What does the notation $P(B|A)$ represent?",
+   "back": "The conditional probability of $B$ given that $A$ has occurred.",
+   "points": 1
+  },
+  {
+   "id": "aca3f8ba-8aa7-2ea9-7366-16f8f0766903",
+   "card_type": "basic",
+   "front": "How does \"without replacement\" affect a tree diagram for a second selection?",
+   "back": "The total outcomes and the favourable outcomes must both be updated (decremented).",
+   "points": 2
+  },
+  {
+   "id": "514159d4-19ed-b31a-1bd5-9de43cd6b7b4",
+   "card_type": "basic",
+   "front": "When calculating the probability of picking \"one of each\" type from a tree, which routes must be considered?",
+   "back": "All possible orders (e.g., Red then Blue AND Blue then Red).",
+   "points": 2
+  },
+  {
+   "id": "41dd0396-dbb9-87ee-ff0d-114e332b792a",
+   "card_type": "basic",
+   "front": "How do you find the total probability of an event that can occur via different machines or categories?",
+   "back": "Sum the products of the branches for every route leading to that event.",
+   "points": 2
+  }
+ ],
+ "card_count": 20,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/as-statistics-5-probability/flashcards",
+ "source_sha256": "eb99f4a90a8f93c30ea0e4b7c047baa75253971f635fe48e8dab2d12c7b9e2f4",
+ "extracted_at": "2026-11-08T19:00:05Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-3 run-001)",
+ "task_id": "T-MG-FC-3"
+}

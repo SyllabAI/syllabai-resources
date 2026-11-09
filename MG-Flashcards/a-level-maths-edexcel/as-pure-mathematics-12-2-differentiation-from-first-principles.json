@@ -1,0 +1,149 @@
+{
+ "topic": "as-pure-mathematics-12-2-differentiation-from-first-principles",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "title": "12.2 Differentiation from first principles Flashcards",
+ "cards": [
+  {
+   "id": "f7c9c091-573c-07a5-c2a9-2e672a6b30ce",
+   "card_type": "basic",
+   "front": "How is the average gradient between two points on a curve defined?",
+   "back": "The gradient of the chord (or secant) joining those two points.",
+   "points": 1
+  },
+  {
+   "id": "9e5cf3b1-d79b-e4f7-e17d-4af0b48bdf23",
+   "card_type": "basic",
+   "front": "How is the instantaneous gradient at a specific point on a curve defined?",
+   "back": "The gradient of the tangent at that point.",
+   "points": 1
+  },
+  {
+   "id": "cc5603b8-e8f6-a005-acfe-ab271b7cebb1",
+   "card_type": "cloze",
+   "front": "The derivative from first principles is defined by the formula: $f'(x) = \\lim_{h \\to 0} \\text{[...]}$",
+   "back": "The derivative from first principles is defined by the formula: $f'(x) = \\lim_{h \\to 0} \\boxed{\\frac{f(x+h) - f(x)}{h}}$"
+  },
+  {
+   "id": "e53b1c32-9441-93e9-d86b-8a25030c3062",
+   "card_type": "basic",
+   "front": "What does the symbol $\\lim_{h \\to 0}$ represent in the first principles formula?",
+   "back": "The value the expression approaches as $h$ gets closer and closer to 0.",
+   "points": 1
+  },
+  {
+   "id": "98dfac43-1b46-cfcf-fc08-4e8b34236f95",
+   "card_type": "basic",
+   "front": "Why is it mathematically impossible to substitute $h=0$ into the first principles formula immediately?",
+   "back": "It would result in division by zero.",
+   "points": 1
+  },
+  {
+   "id": "15315904-2b06-1a16-d226-c088fa73f97b",
+   "card_type": "cloze",
+   "front": "When expanding $(x+h)^2$ for a first principles proof, the result is $\\text{[...]}$.",
+   "back": "When expanding $(x+h)^2$ for a first principles proof, the result is $\\boxed{x^2 + 2xh + h^2}$."
+  },
+  {
+   "id": "09988410-bb43-bf1a-2a75-5fc2f9a3acd8",
+   "card_type": "cloze",
+   "front": "The expansion for a cubic term $(x+h)^3$ is $\\text{[...]}$.",
+   "back": "The expansion for a cubic term $(x+h)^3$ is $\\boxed{x^3 + 3x^2h + 3xh^2 + h^3}$."
+  },
+  {
+   "id": "987096b6-2dc4-204c-07c8-5d54f3912122",
+   "card_type": "basic",
+   "front": "In a first principles proof, what must be true of every term remaining in the numerator after subtracting $f(x)$?",
+   "back": "Every term must contain a factor of $h$.",
+   "points": 1
+  },
+  {
+   "id": "eb008394-1fb4-92e3-99b1-0583edc91783",
+   "card_type": "basic",
+   "front": "What algebraic step must occur before letting $h \\to 0$ in a first principles proof?",
+   "back": "Factorising out and cancelling $h$ from the numerator and denominator.",
+   "points": 2
+  },
+  {
+   "id": "3ac07948-4985-36b1-d4b9-23610f6ab282",
+   "card_type": "basic",
+   "front": "When proving the derivative of $3x^2$ from first principles, what is the expression for $f(x+h)$?",
+   "back": "$$3(x+h)^2 = 3x^2 + 6xh + 3h^2$",
+   "points": 2
+  },
+  {
+   "id": "eadf6edb-ece9-0ca0-9a79-47202ac89195",
+   "card_type": "basic",
+   "front": "If an exam question asks to differentiate \"from first principles\", can you just use the power rule?",
+   "back": "No; the full limit definition and algebraic proof must be shown for marks.",
+   "points": 1
+  },
+  {
+   "id": "c891ab25-27f6-4ba9-ed60-4ae5ea582c3d",
+   "card_type": "basic",
+   "front": "What is the common mistake when subtracting $f(x)$ from $f(x+h)$ in complex expressions?",
+   "back": "Forgetting to subtract the whole function (not using brackets), which leads to sign errors.",
+   "points": 1
+  },
+  {
+   "id": "23a78118-5402-23a0-6f39-4aa89be77e83",
+   "card_type": "basic",
+   "front": "How does the constant $a$ behave when differentiating $f(x) = ax^n$ from first principles?",
+   "back": "It remains as a multiplier for every term in the expansion and the final derivative.",
+   "points": 2
+  },
+  {
+   "id": "33f54c49-216c-8e76-f02f-3ca67ccce41b",
+   "card_type": "cloze",
+   "front": "In the context of first principles, $h$ represents a [ ___ ] in $x$.",
+   "back": "In the context of first principles, $h$ represents a small change in $x$."
+  },
+  {
+   "id": "0a2672f7-2f06-4e68-5919-6df292b5edda",
+   "card_type": "basic",
+   "front": "Outline the final three steps of the core method for differentiation from first principles.",
+   "back": "Simplify the numeratorCancel the factor of $h$Let $h \\to 0$",
+   "points": 3
+  },
+  {
+   "id": "0c3ae504-8de6-b0f8-3ea0-4c7cd40ae5e5",
+   "card_type": "basic",
+   "front": "Why is it useful to use the power rule when answering a first principles question?",
+   "back": "To check your final answer is correct.",
+   "points": 1
+  },
+  {
+   "id": "887b9d1a-5ae0-1a34-38fa-b8741afe07d8",
+   "card_type": "cloze",
+   "front": "If $f(x) = 6x$, the simplified numerator $f(x+h) - f(x)$ becomes $\\text{[...]}$.",
+   "back": "If $f(x) = 6x$, the simplified numerator $f(x+h) - f(x)$ becomes $\\boxed{6h}$."
+  },
+  {
+   "id": "6f78809a-2eee-abbd-6566-932026a20b4c",
+   "card_type": "cloze",
+   "front": "If $f(x) = 3x^2$, the simplified numerator $f(x+h) - f(x)$ becomes $\\text{[...]}$.",
+   "back": "If $f(x) = 3x^2$, the simplified numerator $f(x+h) - f(x)$ becomes $\\boxed{6xh + 3h^2}$."
+  },
+  {
+   "id": "3608a582-5e2e-f88b-81ae-60df70f6c1e2",
+   "card_type": "basic",
+   "front": "What does a derivative $f'(x)$ represent on a graph?",
+   "back": "The instantaneous gradient of the curve at any point $x$.",
+   "points": 1
+  },
+  {
+   "id": "2ad17a5f-c2e1-f28e-9cb6-c4d18cd3c771",
+   "card_type": "basic",
+   "front": "What is the simplified form of $\\frac{h(12x^2 + 12xh + 4h^2)}{h}$ before taking the limit?",
+   "back": "$$12x^2 + 12xh + 4h^2$",
+   "points": 1
+  }
+ ],
+ "card_count": 20,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/as-pure-mathematics-12-2-differentiation-from-first-principles/flashcards",
+ "source_sha256": "9ff72c350ec33901b9e3697b78acef1ffcba18392f09cec98b0c050680ddaa19",
+ "extracted_at": "2026-11-08T19:00:05Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-3 run-001)",
+ "task_id": "T-MG-FC-3"
+}

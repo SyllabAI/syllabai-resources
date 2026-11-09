@@ -1,0 +1,675 @@
+{
+ "topic": "a-level-mechanics-1-moments",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "title": "Moments Flashcards",
+ "cards": [
+  {
+   "id": "ef233e43-9402-43d0-9d4c-2034172b389f",
+   "card_type": "basic",
+   "front": "For mass $m$, what force should be used as its weight?",
+   "back": "$W=mg$.",
+   "options": [
+    {
+     "text": "$W=mg$.",
+     "correct": true,
+     "explanation": "Weight is the force caused by gravity, so it equals mass multiplied by gravitational acceleration: $W=mg$. The value of $g$ is approximately $9.8\\,\\text{m s}^{-2}$ near Earth’s surface."
+    },
+    {
+     "text": "$W=ma$.",
+     "correct": false,
+     "explanation": "This uses Newton’s second law for a general resultant force. For weight specifically, the acceleration is gravitational acceleration, so the correct relationship is $W=mg$."
+    },
+    {
+     "text": "$W=mg^2$.",
+     "correct": false,
+     "explanation": "Squaring $g$ gives the wrong dimensions and exaggerates the gravitational effect. Weight is mass multiplied by gravitational acceleration once, so the correct expression is $W=mg$."
+    },
+    {
+     "text": "$W=\\frac{m}{g}$.",
+     "correct": false,
+     "explanation": "Dividing by gravitational acceleration reverses the required relationship and gives the wrong units for force. Weight is found by multiplying mass by $g$, giving $W=mg$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "4aee724a-0b6e-40dd-aef3-eae2b695cb4b",
+   "card_type": "basic",
+   "front": "Where does a uniform rod’s weight act?",
+   "back": "At its midpoint.",
+   "options": [
+    {
+     "text": "At its midpoint.",
+     "correct": true,
+     "explanation": "A uniform rod has its mass distributed evenly, so its centre of mass is halfway along its length. Its weight therefore acts at the midpoint."
+    },
+    {
+     "text": "At its endpoint.",
+     "correct": false,
+     "explanation": "An endpoint would only represent the weight’s position if all the mass were concentrated there. For a uniform rod, the evenly distributed mass acts at the midpoint."
+    },
+    {
+     "text": "At its quarter point.",
+     "correct": false,
+     "explanation": "The quarter point is not the centre of mass of an evenly distributed rod. Equal distribution places the centre of mass halfway along, at the midpoint."
+    },
+    {
+     "text": "At its centre of length.",
+     "correct": false,
+     "explanation": "Although this sounds close, the required location is specifically the midpoint of the rod. Uniform mass distribution means the weight acts halfway along its length."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "e7e68952-458f-4b1d-98fd-3d34491ed2f4",
+   "card_type": "cloze",
+   "front": "A light inextensible string has negligible [ ___ ] and does not [ ___ ].",
+   "back": "A light inextensible string has negligible mass and does not stretch.",
+   "options": [
+    {
+     "text": "A light inextensible string has negligible mass and does not stretch.",
+     "correct": true,
+     "explanation": "‘Light’ means the string has negligible mass, while ‘inextensible’ means its length does not change under tension. These are the two defining ideal-string assumptions."
+    },
+    {
+     "text": "A light inextensible string has negligible mass and does not rotate.",
+     "correct": false,
+     "explanation": "The first property is correct, but inextensibility concerns length rather than rotation. The string does not stretch, so the completed statement should use that term."
+    },
+    {
+     "text": "A light inextensible string has negligible volume and does not stretch.",
+     "correct": false,
+     "explanation": "The second property is correct, but ‘light’ refers to negligible mass, not negligible volume. The correct completed statement combines negligible mass with no stretching."
+    },
+    {
+     "text": "A light inextensible string has negligible tension and does not bend.",
+     "correct": false,
+     "explanation": "A string can carry tension, so light does not mean tensionless, and inextensible does not mean unable to bend. The correct properties are negligible mass and no stretching."
+    }
+   ]
+  },
+  {
+   "id": "47f177e4-7df0-4676-8ead-ca8fd09a5a86",
+   "card_type": "cloze",
+   "front": "For a non-uniform rod, the centre of mass may be [ ___ ].",
+   "back": "For a non-uniform rod, the centre of mass may be anywhere along the rod.",
+   "options": [
+    {
+     "text": "anywhere along the rod",
+     "correct": true,
+     "explanation": "For a non-uniform rod, the mass is not distributed evenly. Its centre of mass can therefore be at any position along the rod, depending on how the mass is distributed."
+    },
+    {
+     "text": "only at the midpoint",
+     "correct": false,
+     "explanation": "The midpoint is guaranteed only for a uniform rod. A non-uniform rod can have more mass concentrated toward one end, moving its centre of mass elsewhere along the rod."
+    },
+    {
+     "text": "only at one endpoint",
+     "correct": false,
+     "explanation": "A centre of mass need not be at an endpoint. Uneven mass distribution can place it at many different positions, so it may be anywhere along the rod."
+    },
+    {
+     "text": "outside the rod in every case",
+     "correct": false,
+     "explanation": "For a straight rod with positive mass distributed along its length, the centre of mass lies within the rod. Non-uniformity changes its position, not necessarily its location outside."
+    }
+   ]
+  },
+  {
+   "id": "5aeb6d30-f03c-4391-af42-f224352f572e",
+   "card_type": "basic",
+   "front": "In a moment calculation, which distance is used?",
+   "back": "The perpendicular distance from pivot to line of action.",
+   "options": [
+    {
+     "text": "The perpendicular distance from pivot to line of action.",
+     "correct": true,
+     "explanation": "Moment equals force multiplied by the shortest distance from the pivot to the force’s line of action. This shortest distance is always perpendicular to the line of action."
+    },
+    {
+     "text": "The parallel distance from pivot to line of action.",
+     "correct": false,
+     "explanation": "A parallel distance does not give the turning effect correctly. Moment uses the shortest separation between pivot and line of action, which is the perpendicular distance."
+    },
+    {
+     "text": "The distance along the rod from pivot to force.",
+     "correct": false,
+     "explanation": "The distance along the rod is usable only when it happens to equal the perpendicular distance. In general, moments require the perpendicular distance to the line of action."
+    },
+    {
+     "text": "The vertical distance from pivot to force.",
+     "correct": false,
+     "explanation": "Vertical distance is relevant only for particular force directions and arrangements. The general rule is to use the perpendicular distance from the pivot to the line of action."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "6fc3665c-3d64-4d49-96e2-604389918f3f",
+   "card_type": "cloze",
+   "front": "The unit of moment is [ ___ ].",
+   "back": "The unit of moment is N m.",
+   "options": [
+    {
+     "text": "N m",
+     "correct": true,
+     "explanation": "A moment is force multiplied by perpendicular distance. Since force is measured in newtons and distance in metres, the unit is newton metres, written N m."
+    },
+    {
+     "text": "N/m",
+     "correct": false,
+     "explanation": "Dividing newtons by metres represents a different quantity and comes from dividing rather than multiplying. Moment uses force multiplied by distance, so its unit is N m."
+    },
+    {
+     "text": "kg m",
+     "correct": false,
+     "explanation": "Mass multiplied by distance does not represent a moment because the force must be measured in newtons. The correct derived unit is N m."
+    },
+    {
+     "text": "N m²",
+     "correct": false,
+     "explanation": "A moment contains one distance factor, not distance squared. Multiplying force by a single perpendicular distance gives the unit N m."
+    }
+   ]
+  },
+  {
+   "id": "4ff95d78-2a24-44be-a6dc-fd94ae0502ea",
+   "card_type": "basic",
+   "front": "For a vertical force on a horizontal rod, how is its moment about a pivot calculated?",
+   "back": "force × distance from the pivot.",
+   "options": [
+    {
+     "text": "force × distance from the pivot.",
+     "correct": true,
+     "explanation": "For a vertical force acting on a horizontal rod, the rod distance from the pivot is perpendicular to the force’s line of action. Therefore moment is force multiplied by that distance."
+    },
+    {
+     "text": "force ÷ distance from the pivot.",
+     "correct": false,
+     "explanation": "Dividing by distance gives the wrong relationship and units. A moment measures turning effect by multiplying the force by its perpendicular distance from the pivot."
+    },
+    {
+     "text": "force × distance along the force.",
+     "correct": false,
+     "explanation": "Distance along the force’s line of action does not create a turning effect about the pivot. The required distance is perpendicular to that line, giving force × distance from the pivot."
+    },
+    {
+     "text": "force × vertical distance from the pivot.",
+     "correct": false,
+     "explanation": "For a vertical force on a horizontal rod, the vertical separation is not the perpendicular lever arm. The horizontal distance from the pivot to the force’s line of action is required."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "beefbb2c-a7d6-45d5-aaa9-1d84b4d58fc6",
+   "card_type": "cloze",
+   "front": "A moment is either [ ___ ] or [ ___ ] about the chosen point.",
+   "back": "A moment is either clockwise or anticlockwise about the chosen point.",
+   "options": [
+    {
+     "text": "A moment is either clockwise or anticlockwise about the chosen point.",
+     "correct": true,
+     "explanation": "A force can tend to rotate an object in one of two directions about a point: clockwise or anticlockwise. The direction depends on the force’s position and sense."
+    },
+    {
+     "text": "A moment is either horizontal or vertical about the chosen point.",
+     "correct": false,
+     "explanation": "Horizontal and vertical describe directions of forces or components, not the rotational sense of a moment. Moments are classified as clockwise or anticlockwise about the chosen point."
+    },
+    {
+     "text": "A moment is either positive or negative about the chosen point.",
+     "correct": false,
+     "explanation": "Positive and negative are sign conventions that may be assigned to rotational directions, but they are not the physical descriptions requested here. The directions are clockwise and anticlockwise."
+    },
+    {
+     "text": "A moment is either upward or downward about the chosen point.",
+     "correct": false,
+     "explanation": "Upward and downward describe translational directions, not the way an object tends to rotate. A moment about a point acts clockwise or anticlockwise."
+    }
+   ]
+  },
+  {
+   "id": "fb71c684-5800-4a7e-ab97-3145b83fcf21",
+   "card_type": "basic",
+   "front": "Why does a force whose line of action passes through the pivot have zero moment?",
+   "back": "Perpendicular distance is zero.",
+   "options": [
+    {
+     "text": "Perpendicular distance is zero.",
+     "correct": true,
+     "explanation": "Moment equals force multiplied by perpendicular distance from the pivot. If the line of action passes through the pivot, that distance is zero, so the moment is zero regardless of the force’s size."
+    },
+    {
+     "text": "Perpendicular distance is maximum.",
+     "correct": false,
+     "explanation": "A line of action through the pivot gives the smallest possible perpendicular distance, not the maximum. The correct answer is that the perpendicular distance is zero, making the moment zero."
+    },
+    {
+     "text": "Force magnitude is zero.",
+     "correct": false,
+     "explanation": "The force itself can be non-zero while producing no moment about this pivot. The correct answer is that the perpendicular distance is zero because the line of action passes through the pivot."
+    },
+    {
+     "text": "Perpendicular force is zero.",
+     "correct": false,
+     "explanation": "The force need not be zero; only its perpendicular distance from the pivot is zero. Therefore, the correct answer is that the perpendicular distance is zero."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "3d70091f-bc6d-4cb3-aded-6cc2c27234de",
+   "card_type": "basic",
+   "front": "What force is the weight of a 30 kg child?",
+   "back": "$30g$ N, not 30 N.",
+   "options": [
+    {
+     "text": "$30g$ N, not 30 N.",
+     "correct": true,
+     "explanation": "Weight is the gravitational force given by mass multiplied by gravitational field strength, $W = mg$. For a 30 kg child, this is $30g$ N, not simply 30 N."
+    },
+    {
+     "text": "$30g^2$ N, not 30 N.",
+     "correct": false,
+     "explanation": "Squaring $g$ is an incorrect extra operation; weight uses one factor of gravitational field strength. The correct force is $30g$ N because $W = mg$."
+    },
+    {
+     "text": "$30/g$ N, not 30 N.",
+     "correct": false,
+     "explanation": "Dividing by $g$ reverses the relationship used for weight and would give an incorrect unit as well. The correct answer is $30g$ N from $W = mg$."
+    },
+    {
+     "text": "$g/30$ N, not 30 N.",
+     "correct": false,
+     "explanation": "The mass must multiply gravitational field strength, rather than divide it or appear in the denominator. Thus the correct weight is $30g$ N."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "025ea100-62a5-4fdb-9514-c3092477c284",
+   "card_type": "basic",
+   "front": "For vertical equilibrium of a horizontal rod, what force equation is used?",
+   "back": "Total upward force equals total downward force.",
+   "options": [
+    {
+     "text": "Total upward force equals total downward force.",
+     "correct": true,
+     "explanation": "Vertical equilibrium means the resultant vertical force is zero. Therefore, the total upward force must equal the total downward force."
+    },
+    {
+     "text": "Total upward force is greater than total downward force.",
+     "correct": false,
+     "explanation": "A greater upward force would produce a resultant upward force and vertical acceleration. Equilibrium requires the total upward force to equal the total downward force."
+    },
+    {
+     "text": "Total upward force is less than total downward force.",
+     "correct": false,
+     "explanation": "A greater downward force would produce a resultant downward force, so the rod would not be in equilibrium. The correct equation sets the two totals equal."
+    },
+    {
+     "text": "Total upward moment equals total downward moment.",
+     "correct": false,
+     "explanation": "This confuses vertical force equilibrium with rotational equilibrium. For vertical equilibrium, the correct equation is total upward force equals total downward force."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "0d1fb0a0-5a45-4b2f-adfd-e02ca2bb680c",
+   "card_type": "cloze",
+   "front": "For rotational equilibrium, total [ ___ ] equals total [ ___ ].",
+   "back": "For rotational equilibrium, total clockwise moment equals total anticlockwise moment.",
+   "options": [
+    {
+     "text": "For rotational equilibrium, total clockwise moment equals total anticlockwise moment.",
+     "correct": true,
+     "explanation": "Rotational equilibrium requires zero resultant moment about any point. Hence the total clockwise moment must equal the total anticlockwise moment."
+    },
+    {
+     "text": "For rotational equilibrium, total clockwise force equals total anticlockwise force.",
+     "correct": false,
+     "explanation": "Forces are not classified as clockwise or anticlockwise; moments are. The correct condition is that total clockwise moment equals total anticlockwise moment."
+    },
+    {
+     "text": "For rotational equilibrium, total upward moment equals total downward moment.",
+     "correct": false,
+     "explanation": "Upward and downward describe force directions, not the rotational direction of moments. The correct equation compares total clockwise moment with total anticlockwise moment."
+    },
+    {
+     "text": "For rotational equilibrium, total clockwise moment equals total clockwise force.",
+     "correct": false,
+     "explanation": "The two sides must compare opposite rotational directions and use moments throughout. The correct statement equates total clockwise moment with total anticlockwise moment."
+    }
+   ]
+  },
+  {
+   "id": "45bc4a1d-8186-45b0-9233-97fa4d9be518",
+   "card_type": "cloze",
+   "front": "At the point of tilting, the reaction at the support losing contact is [ ___ ].",
+   "back": "At the point of tilting, the reaction at the support losing contact is zero.",
+   "options": [
+    {
+     "text": "zero",
+     "correct": true,
+     "explanation": "At the instant a support loses contact, it can no longer exert a supporting force on the rod. Therefore, the reaction at that support is zero."
+    },
+    {
+     "text": "maximum",
+     "correct": false,
+     "explanation": "The reaction at the support losing contact decreases to zero as tilting begins; it does not become maximum. The correct fill-in is zero."
+    },
+    {
+     "text": "constant",
+     "correct": false,
+     "explanation": "A support reaction generally changes as the rod approaches tilting and vanishes when contact is lost. The correct value at that point is zero."
+    },
+    {
+     "text": "negative",
+     "correct": false,
+     "explanation": "A negative calculated reaction indicates that the assumed contact cannot be maintained, rather than describing the actual reaction. At the tilting point, the reaction is zero."
+    }
+   ]
+  },
+  {
+   "id": "7ba0ca12-a0aa-48f2-8cde-a5657de9bfd5",
+   "card_type": "basic",
+   "front": "When a rod is just about to tilt about a support, what is that support used as?",
+   "back": "The pivot.",
+   "options": [
+    {
+     "text": "The pivot.",
+     "correct": true,
+     "explanation": "When the rod is just about to tilt, it rotates about the support that remains in contact. That support is therefore treated as the pivot."
+    },
+    {
+     "text": "The centre of mass.",
+     "correct": false,
+     "explanation": "The centre of mass determines where the resultant weight acts, but it is not normally the point about which the rod starts rotating. The remaining support is the pivot."
+    },
+    {
+     "text": "The reaction force.",
+     "correct": false,
+     "explanation": "A reaction force is a force, not a point or support about which rotation occurs. The support that remains in contact is used as the pivot."
+    },
+    {
+     "text": "The axis of symmetry.",
+     "correct": false,
+     "explanation": "An axis of symmetry is a geometrical property and need not pass through the support controlling the impending rotation. The remaining support is used as the pivot."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "0165a534-f5f1-4d9f-b70f-bb45e836a851",
+   "card_type": "basic",
+   "front": "What does a negative calculated support reaction mean physically?",
+   "back": "The rod would have lifted off that support.",
+   "options": [
+    {
+     "text": "The rod would have lifted off that support.",
+     "correct": true,
+     "explanation": "A negative reaction contradicts the assumed contact force, since a support cannot pull the rod down. Physically, the rod would have lifted off that support."
+    },
+    {
+     "text": "The rod would have pressed harder on that support.",
+     "correct": false,
+     "explanation": "A larger downward contact force would give a positive reaction, not a negative one. A negative result means the assumed contact fails and the rod lifts off that support."
+    },
+    {
+     "text": "The rod would have rotated without moving vertically.",
+     "correct": false,
+     "explanation": "A negative support reaction specifically signals loss of contact, not simply rotation with unchanged vertical position. The correct physical interpretation is that the rod lifted off that support."
+    },
+    {
+     "text": "The rod would have moved towards that support.",
+     "correct": false,
+     "explanation": "A negative reaction does not indicate motion towards the support; it shows that the support would need to pull rather than push. The rod therefore lifts off it."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "4c1219f9-0ffd-440e-bbec-a9951e18ea60",
+   "card_type": "basic",
+   "front": "How is a block placed on a rod included in a moments equation?",
+   "back": "As an extra downward weight at its position.",
+   "options": [
+    {
+     "text": "As an extra downward weight at its position.",
+     "correct": true,
+     "explanation": "The block exerts its weight vertically downward on the rod. In the moments equation, this is included as an additional downward force acting at the block’s position."
+    },
+    {
+     "text": "As an extra upward weight at its position.",
+     "correct": false,
+     "explanation": "Weight always acts vertically downward, so treating it as upward reverses the force direction and gives the wrong moment. It must be added as a downward weight."
+    },
+    {
+     "text": "As an extra downward force at the pivot.",
+     "correct": false,
+     "explanation": "The block’s weight acts at the block’s position, not automatically at the pivot. Moving it to the pivot would incorrectly remove its moment about the pivot."
+    },
+    {
+     "text": "As an extra moment at its position.",
+     "correct": false,
+     "explanation": "The block contributes a force first, namely its downward weight; its moment is then calculated using the perpendicular distance from the pivot. It is not entered directly as a moment."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "978d7ccc-1617-42b6-9a4f-cd041ae52151",
+   "card_type": "cloze",
+   "front": "In moments equations, use cm or m consistently - do not [ ___ ].",
+   "back": "In moments equations, use cm or m consistently - do not mix units.",
+   "options": [
+    {
+     "text": "mix units",
+     "correct": true,
+     "explanation": "Moment calculations remain valid when every perpendicular distance uses the same unit. Mixing centimetres and metres introduces a factor-of-100 error into the products of force and distance."
+    },
+    {
+     "text": "use metres",
+     "correct": false,
+     "explanation": "Metres are perfectly valid provided every distance is expressed in metres. The prohibition is against mixing units, because centimetres and metres differ by a factor of 100."
+    },
+    {
+     "text": "use centimetres",
+     "correct": false,
+     "explanation": "Centimetres may be used consistently throughout a moments equation. The correct instruction is not to mix units, as combining centimetres with metres gives incompatible moment values."
+    },
+    {
+     "text": "convert lengths",
+     "correct": false,
+     "explanation": "Converting lengths is often necessary to make their units consistent. The correct instruction is not to mix units within the equation after any required conversions have been made."
+    }
+   ]
+  },
+  {
+   "id": "3e02a0d5-3454-4929-93d4-e05c2c8020ba",
+   "card_type": "basic",
+   "front": "In the seesaw example, what distance $x$ balances $32g \\times 2$ with $40g \\times x$?",
+   "back": "$x=1.6\\text{ m}$.",
+   "options": [
+    {
+     "text": "$x=1.6\\text{ m}$.",
+     "correct": true,
+     "explanation": "Balancing moments gives $32g\\times2=40g\\times x$. Cancelling $g$ and dividing $64$ by $40$ gives $x=1.6\\text{ m}$."
+    },
+    {
+     "text": "$x=0.8\\text{ m}$.",
+     "correct": false,
+     "explanation": "This results from dividing by an extra factor of 2. The balance equation is $64g=40gx$, so cancelling $g$ gives the correct distance $x=1.6\\text{ m}$."
+    },
+    {
+     "text": "$x=2.0\\text{ m}$.",
+     "correct": false,
+     "explanation": "This simply reuses the first distance instead of allowing for the different forces. Equating moments gives $40x=32\\times2$, hence $x=1.6\\text{ m}$."
+    },
+    {
+     "text": "$x=2.5\\text{ m}$.",
+     "correct": false,
+     "explanation": "This comes from reversing the force ratio and calculating $40\\times2\\div32$. The correct calculation is $32\\times2\\div40$, giving $x=1.6\\text{ m}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "90ba4138-46d9-488d-b084-407593e71868",
+   "card_type": "basic",
+   "front": "In the two-support rod example, what is the reaction at $D$?",
+   "back": "$R_D=3.6g=35.3\\text{ N}$.",
+   "options": [
+    {
+     "text": "$R_D=3.6g=35.3\\text{ N}$.",
+     "correct": true,
+     "explanation": "Taking moments about the other support isolates the reaction at $D$ and gives $R_D=3.6g$. Using $g=9.8\\text{ m s}^{-2}$ gives $35.3\\text{ N}$ to three significant figures."
+    },
+    {
+     "text": "$R_D=2.4g=23.5\\text{ N}$.",
+     "correct": false,
+     "explanation": "This swaps the reactions at the two supports. The moment balance assigns $2.4g$ to $C$, while the reaction at $D$ is $3.6g=35.3\\text{ N}$."
+    },
+    {
+     "text": "$R_D=3g=29.4\\text{ N}$.",
+     "correct": false,
+     "explanation": "This assumes the total load is shared equally, which is only true for a symmetric loading arrangement. Taking moments gives the unequal reaction $R_D=3.6g=35.3\\text{ N}$."
+    },
+    {
+     "text": "$R_D=6g=58.8\\text{ N}$.",
+     "correct": false,
+     "explanation": "This incorrectly assigns the entire downward load to support $D$. Both supports contribute, and the moment equation gives $R_D=3.6g=35.3\\text{ N}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "9e97527e-9be8-4c8b-92da-7d38801d382a",
+   "card_type": "basic",
+   "front": "In the two-support rod example, what is the reaction at $C$?",
+   "back": "$R_C=2.4g=23.5\\text{ N}$.",
+   "options": [
+    {
+     "text": "$R_C=2.4g=23.5\\text{ N}$.",
+     "correct": true,
+     "explanation": "Vertical equilibrium gives $R_C+R_D=6g$. Substituting $R_D=3.6g$ leaves $R_C=2.4g$, which equals $23.5\\text{ N}$ when $g=9.8\\text{ m s}^{-2}$."
+    },
+    {
+     "text": "$R_C=3.6g=35.3\\text{ N}$.",
+     "correct": false,
+     "explanation": "This swaps the support reactions. The moment calculation gives $3.6g$ at $D$, and vertical equilibrium therefore gives $R_C=6g-3.6g=2.4g=23.5\\text{ N}$."
+    },
+    {
+     "text": "$R_C=3g=29.4\\text{ N}$.",
+     "correct": false,
+     "explanation": "This assumes equal sharing of the total weight despite the asymmetric loading. Using moments and vertical equilibrium gives $R_C=2.4g=23.5\\text{ N}$, not half the total."
+    },
+    {
+     "text": "$R_C=6g=58.8\\text{ N}$.",
+     "correct": false,
+     "explanation": "This treats support $C$ as carrying the complete downward load and ignores the upward reaction at $D$. Equilibrium instead gives $R_C=2.4g=23.5\\text{ N}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "24db4636-f09b-40c5-9830-4299ee2e8da1",
+   "card_type": "basic",
+   "front": "In the tilting example about $D$, what block weight at $B$ causes tilting?",
+   "back": "$W=4g=39.2\\text{ N}$.",
+   "options": [
+    {
+     "text": "$W=4g=39.2\\text{ N}$.",
+     "correct": true,
+     "explanation": "At the point of tilting, the other contact reaction is zero and the moments about $D$ balance. Applying that limiting-equilibrium condition gives $W=4g=39.2\\text{ N}$."
+    },
+    {
+     "text": "$W=2g=19.6\\text{ N}$.",
+     "correct": false,
+     "explanation": "This halves the required weight by mishandling the ratio of the perpendicular distances from $D$. Balancing the clockwise and anticlockwise moments gives $W=4g=39.2\\text{ N}$."
+    },
+    {
+     "text": "$W=8g=78.4\\text{ N}$.",
+     "correct": false,
+     "explanation": "This reverses the lever-arm ratio, doubling rather than correctly scaling the required weight. At impending tilt, moments about $D$ give $W=4g=39.2\\text{ N}$."
+    },
+    {
+     "text": "$W=5g=49.0\\text{ N}$.",
+     "correct": false,
+     "explanation": "This treats the block weight as equal to the total supported weight rather than balancing moments about the pivot. The limiting moment equation gives $W=4g=39.2\\text{ N}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "652c9f57-5c87-4134-9214-1343c9f1132b",
+   "card_type": "basic",
+   "front": "In the 5 m non-uniform rod example, where is the centre of mass from $A$?",
+   "back": "$\\frac{4}{3}\\text{ m}$ from $A$.",
+   "options": [
+    {
+     "text": "$\\frac{4}{3}\\text{ m}$ from $A$.",
+     "correct": true,
+     "explanation": "The rod’s weight acts at its unknown centre of mass. Substituting that distance into the equilibrium moment equation and solving places the centre of mass $\\frac{4}{3}\\text{ m}$ from $A$."
+    },
+    {
+     "text": "$\\frac{5}{2}\\text{ m}$ from $A$.",
+     "correct": false,
+     "explanation": "This uses the geometric midpoint, which would locate the centre of mass only for a uniform rod. The rod is non-uniform, and the moment equation gives $\\frac{4}{3}\\text{ m}$ from $A$."
+    },
+    {
+     "text": "$\\frac{11}{3}\\text{ m}$ from $A$.",
+     "correct": false,
+     "explanation": "This measures the correct location from the opposite end: $5-\\frac{4}{3}=\\frac{11}{3}$. The question asks for the distance from $A$, so it is $\\frac{4}{3}\\text{ m}$."
+    },
+    {
+     "text": "$\\frac{3}{4}\\text{ m}$ from $A$.",
+     "correct": false,
+     "explanation": "This inverts the fraction when solving the moment equation. The distance multiplying the rod’s weight is obtained as $\\frac{4}{3}\\text{ m}$ from $A$, not its reciprocal."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "e1fc3527-b73f-4908-b7ad-482ab69dbd12",
+   "card_type": "basic",
+   "front": "In the 180 cm non-uniform rod with an 8 kg block, where is the rod’s centre of mass from $A$?",
+   "back": "115 cm from $A$.",
+   "options": [
+    {
+     "text": "115 cm from $A$.",
+     "correct": true,
+     "explanation": "Taking moments using the rod’s weight at its unknown centre of mass and the 8 kg block at its stated position gives a centre-of-mass distance of 115 cm from $A$."
+    },
+    {
+     "text": "65 cm from $A$.",
+     "correct": false,
+     "explanation": "This is the distance from the opposite end, since $180-115=65$. The requested measurement begins at $A$, so the rod’s centre of mass is 115 cm from $A$."
+    },
+    {
+     "text": "90 cm from $A$.",
+     "correct": false,
+     "explanation": "This assumes the centre of mass lies at the midpoint, as it would for a uniform rod. The rod is non-uniform, and the moment calculation places it 115 cm from $A$."
+    },
+    {
+     "text": "140 cm from $A$.",
+     "correct": false,
+     "explanation": "This double-counts the displacement of the centre of mass from the rod’s 90 cm midpoint. Using the equilibrium moment equation once gives the correct position, 115 cm from $A$."
+    }
+   ],
+   "points": 2
+  }
+ ],
+ "card_count": 23,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/a-level-mechanics-1-moments/flashcards",
+ "source_sha256": "3d4aac221248de8194869080681eac4c292a2385f33ee47f597441480f95046c",
+ "extracted_at": "2026-11-08T19:00:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-3 run-001)",
+ "task_id": "T-MG-FC-3"
+}

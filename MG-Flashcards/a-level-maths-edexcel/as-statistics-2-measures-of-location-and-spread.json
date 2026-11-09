@@ -1,0 +1,151 @@
+{
+ "topic": "as-statistics-2-measures-of-location-and-spread",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "title": "Measures of Location and Spread Flashcards",
+ "cards": [
+  {
+   "id": "59a26ab2-f470-47e6-c194-e2b6ae9f67c3",
+   "card_type": "basic",
+   "front": "Distinguish between a measure of location and a measure of spread.",
+   "back": "Location: describes where the data is centred (e.g. mean).Spread: describes how varied or consistent the data is (e.g. standard deviation).",
+   "points": 2
+  },
+  {
+   "id": "f4f6075e-4936-3e06-c345-dec97b0c3c98",
+   "card_type": "cloze",
+   "front": "The formula for the mean $\\bar{x}$ of $n$ data values is $\\bar{x} = \\text{[...]}$.",
+   "back": "The formula for the mean $\\bar{x}$ of $n$ data values is $\\bar{x} = \\boxed{\\frac{\\sum x}{n}}$."
+  },
+  {
+   "id": "a69c0526-9c79-a99c-484e-3e8e4e245284",
+   "card_type": "basic",
+   "front": "What must be done to raw data before calculating the median or quartiles?",
+   "back": "The data must be placed in ascending order.",
+   "points": 1
+  },
+  {
+   "id": "977725c7-ff3e-017a-a98c-1a3e2088715e",
+   "card_type": "basic",
+   "front": "What does a large standard deviation indicate about a data set?",
+   "back": "The data values are more spread out and less consistent.",
+   "points": 1
+  },
+  {
+   "id": "6a7c0875-0f46-2360-7141-dc5e839294f4",
+   "card_type": "cloze",
+   "front": "Using summary statistics, the formula for standard deviation is $\\text{sd} = \\sqrt{\\frac{\\sum x^2}{n} - \\text{[...]}}$.",
+   "back": "Using summary statistics, the formula for standard deviation is $\\text{sd} = \\sqrt{\\frac{\\sum x^2}{n} - \\boxed{\\bar{x}^2}}$."
+  },
+  {
+   "id": "afa823fd-016a-763e-f65b-1ff4be1e9094",
+   "card_type": "basic",
+   "front": "Define the statistic $S_{xx}$ in terms of $\\sum x^2$, $\\sum x$, and $n$.",
+   "back": "$$S_{xx} = \\sum x^2 - \\frac{(\\sum x)^2}{n}$",
+   "points": 1
+  },
+  {
+   "id": "b1610510-725c-9b20-d01e-0c9c216049cb",
+   "card_type": "cloze",
+   "front": "If the summary statistic $S_{xx}$ is known, the standard deviation is calculated as $\\sqrt{\\text{[...]}}$.",
+   "back": "If the summary statistic $S_{xx}$ is known, the standard deviation is calculated as $\\sqrt{\\boxed{\\frac{S_{xx}}{n}}}$."
+  },
+  {
+   "id": "72d2b8ca-12ae-eb41-41af-ad55d2f0652c",
+   "card_type": "basic",
+   "front": "Why are the mean and standard deviation calculated from frequency tables called estimates?",
+   "back": "The exact original values within the classes are unknown.",
+   "points": 1
+  },
+  {
+   "id": "2dfe6465-f72e-b861-5c5a-9f82b2b427df",
+   "card_type": "basic",
+   "front": "What value is used to represent a class interval when estimating a grouped mean?",
+   "back": "The class midpoint.",
+   "points": 1
+  },
+  {
+   "id": "fbacf836-1084-3b64-904e-f0397ff9c04b",
+   "card_type": "basic",
+   "front": "How is $\\sum fx^2$ calculated for a grouped frequency table?",
+   "back": "Multiply each frequency by the square of its class midpoint, then sum the results.",
+   "points": 1
+  },
+  {
+   "id": "c6b3a53b-aa62-db9e-64ba-45a0a2999eea",
+   "card_type": "basic",
+   "front": "In the interpolation formula $L + \\frac{\\frac{n}{2} - c}{f} \\times w$, what do $c$ and $w$ represent?",
+   "back": "$c$: cumulative frequency before the median class.$w$: class width.",
+   "points": 2
+  },
+  {
+   "id": "6bdf8a7a-748c-f179-0d30-6eb4798591b8",
+   "card_type": "basic",
+   "front": "In the interpolation formula $L + \\frac{\\frac{n}{2} - c}{f} \\times w$, what do $L$ and $f$ represent?",
+   "back": "$L$: lower boundary of the median class.$f$: frequency of the median class.",
+   "points": 2
+  },
+  {
+   "id": "0330e05b-8454-e75b-084a-61ed9b66c07a",
+   "card_type": "basic",
+   "front": "If data is recorded to the nearest whole unit, what are the real class boundaries for the group 20-29?",
+   "back": "19.5 and 29.5.",
+   "points": 1
+  },
+  {
+   "id": "e1aa2865-61f0-11da-2eaa-b7d0d3df21c8",
+   "card_type": "basic",
+   "front": "If data $x$ is coded as $x = \\frac{t - 20}{2}$, how is the original mean $\\bar{t}$ found?",
+   "back": "Rearrange the formula to undo the coding: $\\bar{t} = 2\\bar{x} + 20$.",
+   "points": 1
+  },
+  {
+   "id": "a43b09f7-1f05-7988-2da7-8f89543cf28b",
+   "card_type": "basic",
+   "front": "If data $x$ is coded as $x = \\frac{t - 20}{2}$, how is the original standard deviation $\\sigma_t$ found?",
+   "back": "Multiply by the scale factor only: $\\sigma_t = 2\\sigma_x$.",
+   "points": 2
+  },
+  {
+   "id": "52daeac7-3c98-cb69-94e4-209280d53171",
+   "card_type": "basic",
+   "front": "Why does adding a constant $b$ in the coding $t = ax + b$ not change the standard deviation?",
+   "back": "Adding a constant shifts all values by the same amount, so the spread remains the same.",
+   "points": 2
+  },
+  {
+   "id": "4d8a9d59-463b-967c-d785-57857e837860",
+   "card_type": "basic",
+   "front": "Define the Interquartile Range (IQR).",
+   "back": "$$Q_3 - Q_1$",
+   "points": 1
+  },
+  {
+   "id": "fdd42dc1-2765-9400-5731-f066aa2c1ba3",
+   "card_type": "basic",
+   "front": "What assumption is made about data within a class when using linear interpolation?",
+   "back": "Data values are evenly spread throughout the class.",
+   "points": 1
+  },
+  {
+   "id": "a4c8e3ad-3e77-2382-0702-94441c28af67",
+   "card_type": "basic",
+   "front": "How is the median class identified in a grouped frequency table of $n$ values?",
+   "back": "It is the class that contains the $(\\frac{n}{2})^{th}$ value.",
+   "points": 1
+  },
+  {
+   "id": "0b0b840a-81ea-d8a0-4281-e5eca51d79ee",
+   "card_type": "cloze",
+   "front": "On a calculator, the standard deviation calculated with divisor $n$ is typically labelled $\\text{[...]}$.",
+   "back": "On a calculator, the standard deviation calculated with divisor $n$ is typically labelled $\\boxed{\\sigma_x}$."
+  }
+ ],
+ "card_count": 20,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/as-statistics-2-measures-of-location-and-spread/flashcards",
+ "source_sha256": "a3a126ff2d51950de2fb47628f6dadce338cecdd8aa28d1d13d821fbbdd76cff",
+ "extracted_at": "2026-11-08T19:00:05Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-3 run-001)",
+ "task_id": "T-MG-FC-3"
+}

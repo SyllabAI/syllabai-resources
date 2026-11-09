@@ -1,0 +1,646 @@
+{
+ "topic": "a-level-pure-mathematics-2-functions-and-graphs",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "title": "Functions and Graphs Flashcards",
+ "cards": [
+  {
+   "id": "74182a36-49ed-462a-98fc-dc953dd2580b",
+   "card_type": "basic",
+   "front": "What defines a function compared to a general mapping?",
+   "back": "It gives exactly one output for each allowed input.",
+   "options": [
+    {
+     "text": "It gives exactly one output for each allowed input.",
+     "correct": true,
+     "explanation": "A function assigns every input in its domain to one and only one output, although several different inputs may share the same output."
+    },
+    {
+     "text": "It gives at least one output for each allowed input.",
+     "correct": false,
+     "explanation": "Allowing several outputs for one input describes a one-to-many relation, not a function. A function must give exactly one output for each allowed input."
+    },
+    {
+     "text": "It gives exactly one input for each allowed output.",
+     "correct": false,
+     "explanation": "This reverses the defining condition and instead resembles a one-to-one requirement. A function is defined by giving exactly one output for each allowed input."
+    },
+    {
+     "text": "It gives different outputs for all allowed inputs.",
+     "correct": false,
+     "explanation": "Requiring different outputs would unnecessarily exclude many-to-one functions, such as $f(x)=x^2$. A function only requires exactly one output for each allowed input."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "a30f8067-3bed-454a-ac88-bad1e3905461",
+   "card_type": "basic",
+   "front": "Contrast the domain and range of a function.",
+   "back": "Domain: set of allowed inputs.Range: set of outputs produced.",
+   "options": [
+    {
+     "text": "Domain: set of allowed inputs.Range: set of outputs produced.",
+     "correct": true,
+     "explanation": "The domain contains the inputs for which the function is defined, while the range contains the output values actually produced from those inputs."
+    },
+    {
+     "text": "Domain: set of outputs produced.Range: set of allowed inputs.",
+     "correct": false,
+     "explanation": "This swaps the two definitions. The domain is the set of allowed inputs, whereas the range is the set of outputs the function actually produces."
+    },
+    {
+     "text": "Domain: set of distinct inputs.Range: set of allowed outputs.",
+     "correct": false,
+     "explanation": "The domain is not restricted to inputs that give distinct outputs, since many-to-one functions are valid. It contains all allowed inputs, while the range contains outputs produced."
+    },
+    {
+     "text": "Domain: set of possible outputs.Range: set of excluded inputs.",
+     "correct": false,
+     "explanation": "The range is not the set of excluded inputs; it consists of output values actually attained. The domain is the set of inputs permitted by the function."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "13bae33a-3d2d-4260-a04f-69e9066bfbff",
+   "card_type": "basic",
+   "front": "What is the restriction on the expression $f(x)$ for the function $\\ln(f(x))$ to be valid?",
+   "back": "$$f(x) > 0$",
+   "options": [
+    {
+     "text": "$$f(x) > 0$",
+     "correct": true,
+     "explanation": "The real natural logarithm is defined only for strictly positive arguments, so every permitted input must make $f(x)$ greater than zero."
+    },
+    {
+     "text": "$$f(x) \\ge 0$",
+     "correct": false,
+     "explanation": "Including zero is the common error: $ln 0$ is undefined. The logarithm requires a strictly positive argument, so the condition is $f(x)>0$."
+    },
+    {
+     "text": "$$f(x) < 0$",
+     "correct": false,
+     "explanation": "This is the condition often associated with an unrestricted square root, not a logarithm. For $ln(f(x))$ to be real, the required condition is $f(x)>0$."
+    },
+    {
+     "text": "$$f(x) \\neq 0$",
+     "correct": false,
+     "explanation": "This includes negative arguments, for which the real logarithm is undefined. The argument must be strictly positive, giving the restriction $f(x)>0$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "8629531a-dd66-4a22-9f64-ff666e9f0444",
+   "card_type": "basic",
+   "front": "Why does the expression $f(x)$ in $\\frac{1}{\\sqrt{f(x)}}$ require $f(x) > 0$ rather than $f(x) \\ge 0$?",
+   "back": "The denominator cannot equal zero.",
+   "options": [
+    {
+     "text": "The denominator cannot equal zero.",
+     "correct": true,
+     "explanation": "If $f(x)=0$, then $sqrt{f(x)}=0$ and the fraction would involve division by zero. Therefore $f(x)$ must be strictly positive."
+    },
+    {
+     "text": "The numerator cannot equal zero.",
+     "correct": false,
+     "explanation": "A numerator may equal zero without making a fraction undefined. Here the square root is in the denominator, so $f(x)=0$ must be excluded."
+    },
+    {
+     "text": "The square root cannot equal zero.",
+     "correct": false,
+     "explanation": "A real square root may equal zero, but it cannot do so when used as a denominator. Division by zero is why $f(x)>0$ is required."
+    },
+    {
+     "text": "The fraction cannot equal zero.",
+     "correct": false,
+     "explanation": "The fraction itself is allowed to take positive or negative values where defined. The strict inequality arises because its denominator must not equal zero."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "a9ae1563-6d61-468d-b55d-b66350b405e1",
+   "card_type": "cloze",
+   "front": "For the function $\\arcsin x$, the maximum possible domain is $\\text{[...]}$.",
+   "back": "For the function $\\arcsin x$, the maximum possible domain is $\\boxed{-1 \\le x \\le 1}$.",
+   "options": [
+    {
+     "text": "$$-1 \\le x \\le 1$",
+     "correct": true,
+     "explanation": "The sine function produces values only from $-1$ to $1$, inclusive. Consequently, the real inverse sine function accepts precisely inputs satisfying $-1\\le x\\le1$."
+    },
+    {
+     "text": "$$0 \\le x \\le 1$",
+     "correct": false,
+     "explanation": "This interval omits negative sine values, even though inverse sine is defined for them. The maximum real domain is the full interval $-1\\le x\\le1$."
+    },
+    {
+     "text": "$$-1 < x < 1$",
+     "correct": false,
+     "explanation": "The endpoints are valid because $arcsin(-1)$ and $arcsin(1)$ both exist. The maximum domain therefore includes them: $-1\\le x\\le1$."
+    },
+    {
+     "text": "$$-\\frac{\\pi}{2} \\le x \\le \\frac{\\pi}{2}$",
+     "correct": false,
+     "explanation": "Confusing the domain with the principal range leads to an interval involving angles. The inputs to $arcsin x$ must instead satisfy $-1\\le x\\le1$."
+    }
+   ]
+  },
+  {
+   "id": "c2de183a-36b4-4ac8-a04d-9b080f843e60",
+   "card_type": "basic",
+   "front": "In the composite function $fg(x)$, which function is applied to $x$ first?",
+   "back": "$$g(x)$",
+   "options": [
+    {
+     "text": "$$g(x)$",
+     "correct": true,
+     "explanation": "By convention, $fg(x)$ means $f(g(x))$. The inner function acts first, so $g(x)$ is evaluated before $f$ is applied."
+    },
+    {
+     "text": "$$f(x)$",
+     "correct": false,
+     "explanation": "Choosing $f(x)$ first reverses the order of composition. Since $fg(x)=f(g(x))$, the inner function $g(x)$ is applied to $x$ first."
+    },
+    {
+     "text": "$$x$",
+     "correct": false,
+     "explanation": "The original input is not itself one of the functions being composed. In $fg(x)=f(g(x))$, $g(x)$ is the first function applied."
+    },
+    {
+     "text": "$$fg(x)$",
+     "correct": false,
+     "explanation": "This names the entire composite rather than the function applied first. Reading $fg(x)$ as $f(g(x))$ shows that $g(x)$ acts first."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "e3775bed-8483-4066-8720-bf979aa5b620",
+   "card_type": "cloze",
+   "front": "In general, the relationship between composite functions $fg(x)$ and $gf(x)$ is that $\\text{[...]}$.",
+   "back": "In general, the relationship between composite functions $fg(x)$ and $gf(x)$ is that $\\boxed{fg(x) \\neq gf(x)}$.",
+   "options": [
+    {
+     "text": "$$fg(x) \\neq gf(x)$",
+     "correct": true,
+     "explanation": "Function composition is generally not commutative: applying $g$ and then $f$ usually produces a different result from applying $f$ and then $g$."
+    },
+    {
+     "text": "$$fg(x) = gf(x)$",
+     "correct": false,
+     "explanation": "This incorrectly assumes composition is commutative, as multiplication is. In general, changing the order changes the result, so $fg(x)\\neq gf(x)$."
+    },
+    {
+     "text": "$$fg(x) = -gf(x)$",
+     "correct": false,
+     "explanation": "Reversing composition does not generally negate every output; the two composites can differ in many ways. The valid general statement is $fg(x)\\neq gf(x)$."
+    },
+    {
+     "text": "$$fg(x) = f(x) + g(x)$",
+     "correct": false,
+     "explanation": "Composition is not the same as adding function values. Because order usually matters when functions are composed, the general relationship is $fg(x)\\neq gf(x)$."
+    }
+   ]
+  },
+  {
+   "id": "b7d2aec8-6c3d-48a8-816e-98f99693bebe",
+   "card_type": "basic",
+   "front": "What condition must a function $f(x)$ satisfy for an inverse function $f^{-1}(x)$ to exist?",
+   "back": "It must be one-to-one.",
+   "options": [
+    {
+     "text": "It must be one-to-one.",
+     "correct": true,
+     "explanation": "A one-to-one function assigns distinct outputs to distinct inputs, so each output identifies a unique original input and the inverse is itself a function."
+    },
+    {
+     "text": "It must be many-to-one.",
+     "correct": false,
+     "explanation": "A many-to-one function sends multiple inputs to the same output, so its inverse would assign several outputs to one input. The original function must be one-to-one."
+    },
+    {
+     "text": "It must be strictly decreasing.",
+     "correct": false,
+     "explanation": "An increasing function is one-to-one, but being decreasing is not required because increasing functions also have inverses. The essential condition is that it be one-to-one."
+    },
+    {
+     "text": "It must be continuous.",
+     "correct": false,
+     "explanation": "Continuity alone does not prevent repeated output values, as $f(x)=x^2$ demonstrates on the real numbers. An inverse function requires $f$ to be one-to-one."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "b69b747b-82cc-485f-90c5-09544945ac2a",
+   "card_type": "cloze",
+   "front": "The domain of $f^{-1}$ is the [ ___ ] of $f$, and the range of $f^{-1}$ is the domain of $f$.",
+   "back": "The domain of $f^{-1}$ is the range of $f$, and the range of $f^{-1}$ is the domain of $f$.",
+   "options": [
+    {
+     "text": "range",
+     "correct": true,
+     "explanation": "Taking an inverse swaps the input and output roles, so the allowable inputs of the inverse are exactly the original function’s outputs, namely its range."
+    },
+    {
+     "text": "domain",
+     "correct": false,
+     "explanation": "The domain belongs to the original function’s inputs, not the inverse’s inputs. Inverting swaps domain and range, so the correct term here is range."
+    },
+    {
+     "text": "codomain",
+     "correct": false,
+     "explanation": "The codomain is the declared target set and need not equal the values the function actually produces. The inverse’s domain is the original range."
+    },
+    {
+     "text": "image",
+     "correct": false,
+     "explanation": "The image can describe actual outputs, but it is not the standard term required here. The inverse’s domain is the range of the original function."
+    }
+   ]
+  },
+  {
+   "id": "b739daac-06c0-47e1-baa6-726981aae459",
+   "card_type": "cloze",
+   "front": "The domain of $f^{-1}$ is the range of $f$, and the range of $f^{-1}$ is the [ ___ ] of $f$.",
+   "back": "The domain of $f^{-1}$ is the range of $f$, and the range of $f^{-1}$ is the domain of $f$.",
+   "options": [
+    {
+     "text": "domain",
+     "correct": true,
+     "explanation": "An inverse function swaps the original inputs and outputs. Therefore, the inverse’s range consists of the original function’s allowable inputs, its domain."
+    },
+    {
+     "text": "range",
+     "correct": false,
+     "explanation": "The original range becomes the inverse’s domain, not its range. Swapping input and output sets means the correct term here is domain."
+    },
+    {
+     "text": "codomain",
+     "correct": false,
+     "explanation": "The codomain is the target set specified for the original function and may include values never reached. The inverse’s range is the original domain."
+    },
+    {
+     "text": "image",
+     "correct": false,
+     "explanation": "The image refers to values produced by a function and corresponds to the original range. The inverse’s range instead consists of the original domain."
+    }
+   ]
+  },
+  {
+   "id": "25ae5086-4729-4a3a-bf56-16a1c5d8efa8",
+   "card_type": "cloze",
+   "front": "The graphs of $y=f(x)$ and $y=f^{-1}(x)$ are reflections in the line $\\text{[...]}$.",
+   "back": "The graphs of $y=f(x)$ and $y=f^{-1}(x)$ are reflections in the line $\\boxed{y=x}$.",
+   "options": [
+    {
+     "text": "$$y=x$",
+     "correct": true,
+     "explanation": "Interchanging the coordinates of every point on a function produces its inverse, and reflecting a point $(x,y)$ in $y=x$ gives $(y,x)$."
+    },
+    {
+     "text": "$$y=-x$",
+     "correct": false,
+     "explanation": "Reflection in $y=-x$ changes $(x,y)$ to $(-y,-x)$, introducing sign changes as well as swapping coordinates. Inverse graphs reflect in $y=x$."
+    },
+    {
+     "text": "$$y=0$",
+     "correct": false,
+     "explanation": "Reflection in the $x$-axis changes the sign of the $y$-coordinate but does not interchange input and output. Inverse graphs reflect in $y=x$."
+    },
+    {
+     "text": "$$x=0$",
+     "correct": false,
+     "explanation": "Reflection in the $y$-axis changes the sign of the $x$-coordinate but does not swap coordinates. The correct line of symmetry is $y=x$."
+    }
+   ]
+  },
+  {
+   "id": "92047441-c234-4fee-a7ec-75adb9dbfbac",
+   "card_type": "basic",
+   "front": "How does the function $f^{-1}(x)$ differ from $[f(x)]^{-1}$?",
+   "back": "$f^{-1}(x)$ is the inverse function.$[f(x)]^{-1}$ is the reciprocal ($\\frac{1}{f(x)}$).",
+   "options": [
+    {
+     "text": "$f^{-1}(x)$ is the inverse function.$[f(x)]^{-1}$ is the reciprocal ($\\frac{1}{f(x)}$).",
+     "correct": true,
+     "explanation": "The inverse function reverses the mapping between inputs and outputs, whereas the reciprocal raises the function value to the power $-1$, giving $\\frac{1}{f(x)}$."
+    },
+    {
+     "text": "$f^{-1}(x)$ is the reciprocal ($\\frac{1}{f(x)}$).$[f(x)]^{-1}$ is the inverse function.",
+     "correct": false,
+     "explanation": "This reverses the meanings of the two notations. The inverse function swaps inputs and outputs, while the bracketed power $-1$ means the reciprocal $\\frac{1}{f(x)}$."
+    },
+    {
+     "text": "$f^{-1}(x)$ is the inverse function.$[f(x)]^{-1}$ is the negative function ($-f(x)$).",
+     "correct": false,
+     "explanation": "A power of $-1$ means reciprocal, not multiplication by $-1$. The inverse function reverses the mapping, while $[f(x)]^{-1}=\\frac{1}{f(x)}$."
+    },
+    {
+     "text": "$f^{-1}(x)$ is the reciprocal function ($\\frac{1}{f(x)}$).$[f(x)]^{-1}$ is the inverse function.",
+     "correct": false,
+     "explanation": "This combines a notation error with a reversal of the definitions. The function inverse swaps domain and range; the bracketed expression means the reciprocal $\\frac{1}{f(x)}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "df675edb-9271-424e-9c4c-ea8b05677b96",
+   "card_type": "basic",
+   "front": "Where does the vertex of a modulus graph $y = |f(x)|$ occur?",
+   "back": "Where the expression inside the modulus equals zero ($f(x) = 0$).",
+   "options": [
+    {
+     "text": "Where the expression inside the modulus equals zero ($f(x) = 0$).",
+     "correct": true,
+     "explanation": "The modulus changes the sign of negative values, so a corner or vertex occurs where the inside changes sign, which is where $f(x)=0$."
+    },
+    {
+     "text": "Where the expression inside the modulus is at its maximum ($f(x)$ is largest).",
+     "correct": false,
+     "explanation": "A maximum of $f(x)$ does not generally create the corner of the modulus graph. The vertex occurs where the inside expression crosses zero, so $f(x)=0$."
+    },
+    {
+     "text": "Where the expression inside the modulus equals one ($f(x) = 1$).",
+     "correct": false,
+     "explanation": "The modulus has no special turning point specifically at value one. The key point is where the expression changes from negative to positive, namely $f(x)=0$."
+    },
+    {
+     "text": "Where the expression inside the modulus has a stationary point ($f'(x) = 0$).",
+     "correct": false,
+     "explanation": "A stationary point of $f$ may remain smooth after applying the modulus and need not be a vertex. The modulus vertex occurs where $f(x)=0$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "9a9e137a-eab6-4747-85c2-b4d2d4b54f98",
+   "card_type": "basic",
+   "front": "State the inequality equivalent to $|A| 0$).",
+   "back": "$$-k < A < k$",
+   "options": [
+    {
+     "text": "$$-k < A < k$",
+     "correct": true,
+     "explanation": "The inequality $|A|<k$ means that $A$ is less than $k$ units from zero, placing it strictly between $-k$ and $k$."
+    },
+    {
+     "text": "$$Ak$",
+     "correct": false,
+     "explanation": "This describes values more than $k$ units from zero, which corresponds to $|A|>k$. For $|A|<k$, the correct result is $-k<A<k$."
+    },
+    {
+     "text": "$$-k\\leq A\\leq k$",
+     "correct": false,
+     "explanation": "The non-strict symbols incorrectly include the endpoints. Since the original inequality is strict, the equivalent result is $-k<A<k$."
+    },
+    {
+     "text": "$$k<A<-k$",
+     "correct": false,
+     "explanation": "For positive $k$, this orders the bounds incorrectly and leaves no possible values. The interval centred on zero is $-k<A<k$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "ab325a9f-1b56-41b8-abdf-2fb9563a0c4d",
+   "card_type": "basic",
+   "front": "Describe the transformation $y = f(x + a)$.",
+   "back": "A horizontal shift left by $a$ units.",
+   "options": [
+    {
+     "text": "A horizontal shift left by $a$ units.",
+     "correct": true,
+     "explanation": "Replacing $x$ with $x+a$ means the same output is reached at an input $a$ smaller than before, shifting the graph horizontally left by $a$ units."
+    },
+    {
+     "text": "A horizontal shift right by $a$ units.",
+     "correct": false,
+     "explanation": "A rightward shift is produced by $f(x-a)$, not $f(x+a)$. The positive sign inside the function shifts the graph left by $a$ units."
+    },
+    {
+     "text": "A vertical shift up by $a$ units.",
+     "correct": false,
+     "explanation": "Adding $a$ outside the function, as in $f(x)+a$, produces a vertical shift. Changing the input to $x+a$ causes a horizontal shift left."
+    },
+    {
+     "text": "A vertical stretch with scale factor $a$.",
+     "correct": false,
+     "explanation": "Multiplying the function output by $a$, as in $af(x)$, creates a vertical stretch. Altering the input to $x+a$ shifts the graph left."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "c6e698c3-3f3c-44fb-bf95-59188cc05a17",
+   "card_type": "cloze",
+   "front": "The transformation $y = cf(x)$ is a [ ___ ] with scale factor $c$.",
+   "back": "The transformation $y = cf(x)$ is a vertical stretch with scale factor $c$.",
+   "options": [
+    {
+     "text": "vertical stretch",
+     "correct": true,
+     "explanation": "Multiplying every output by $c$ changes the graph’s vertical coordinates while leaving $x$ unchanged, giving a vertical stretch with scale factor $c$."
+    },
+    {
+     "text": "horizontal stretch",
+     "correct": false,
+     "explanation": "A horizontal stretch is produced by replacing $x$ with $\\frac{x}{c}$, as in $f\\left(\\frac{x}{c}\\right)$. Multiplying the output gives a vertical stretch."
+    },
+    {
+     "text": "vertical translation",
+     "correct": false,
+     "explanation": "A vertical translation adds a constant outside the function, such as $f(x)+c$. Multiplication by $c$ scales the vertical coordinates instead."
+    },
+    {
+     "text": "horizontal translation",
+     "correct": false,
+     "explanation": "A horizontal translation changes the input, using forms such as $f(x+c)$. Multiplying the function value affects vertical scale, not horizontal position."
+    }
+   ]
+  },
+  {
+   "id": "1e4e3c8c-288f-48cb-bc7b-f77bbcca1f29",
+   "card_type": "cloze",
+   "front": "The transformation $y = cf(x)$ is a vertical stretch with scale factor $\\text{[...]}$.",
+   "back": "The transformation $y = cf(x)$ is a vertical stretch with scale factor $\\boxed{c}$.",
+   "options": [
+    {
+     "text": "$$c$",
+     "correct": true,
+     "explanation": "Multiplying $f(x)$ by $c$ multiplies every y-coordinate by $c$, producing a vertical stretch with scale factor $c$."
+    },
+    {
+     "text": "$$\\frac{1}{c}$",
+     "correct": false,
+     "explanation": "The reciprocal scale factor applies to the horizontal transformation $f(cx)$, not the vertical transformation $cf(x)$. Here every y-coordinate is multiplied by $c$, so the scale factor is $c$."
+    },
+    {
+     "text": "$$c^2$",
+     "correct": false,
+     "explanation": "Squaring the multiplier would incorrectly apply the vertical scaling twice. Since the function values are multiplied once by $c$, the vertical scale factor is $c$."
+    },
+    {
+     "text": "$$-c$",
+     "correct": false,
+     "explanation": "A negative multiplier would introduce a reflection in the x-axis as well as changing vertical scale. The stated multiplier is $c$, so the required scale factor is $c$."
+    }
+   ]
+  },
+  {
+   "id": "72b2c79c-05e3-4520-b326-fade5b9957e7",
+   "card_type": "basic",
+   "front": "Describe the transformation $y = f(cx)$.",
+   "back": "A horizontal stretch with scale factor $\\frac{1}{c}$.",
+   "options": [
+    {
+     "text": "A horizontal stretch with scale factor $\\frac{1}{c}$.",
+     "correct": true,
+     "explanation": "Multiplying the input by $c$ means each original x-coordinate must be divided by $c$. Therefore the graph undergoes a horizontal stretch with scale factor $\\frac{1}{c}$."
+    },
+    {
+     "text": "A horizontal stretch with scale factor $c$.",
+     "correct": false,
+     "explanation": "Using $c$ directly as the horizontal scale factor overlooks the inverse effect of transformations inside a function. For $f(cx)$, x-coordinates are divided by $c$, giving scale factor $\\frac{1}{c}$."
+    },
+    {
+     "text": "A vertical stretch with scale factor $c$.",
+     "correct": false,
+     "explanation": "A vertical stretch with scale factor $c$ is produced by $y=cf(x)$, where the output is multiplied. Multiplying the input instead creates a horizontal stretch with scale factor $\\frac{1}{c}$."
+    },
+    {
+     "text": "A vertical stretch with scale factor $\\frac{1}{c}$.",
+     "correct": false,
+     "explanation": "The reciprocal is correct only as a horizontal scale factor. The transformation changes x-coordinates rather than y-coordinates, so it is a horizontal stretch with scale factor $\\frac{1}{c}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "cb83e694-f9e7-40fc-af20-18cc80928bd6",
+   "card_type": "basic",
+   "front": "How is the graph $y = |f(x)|$ formed from $y = f(x)$?",
+   "back": "Reflect all parts of the graph below the x-axis upwards into the positive y-region.",
+   "options": [
+    {
+     "text": "Reflect all parts of the graph below the x-axis upwards into the positive y-region.",
+     "correct": true,
+     "explanation": "Taking the absolute value leaves non-negative function values unchanged and changes negative values to positive ones. Thus only the portions below the x-axis are reflected upwards."
+    },
+    {
+     "text": "Reflect all parts of the graph above the x-axis downwards into the negative y-region.",
+     "correct": false,
+     "explanation": "Reflecting the part above the x-axis would produce non-positive outputs, corresponding to $-|f(x)|$. For $|f(x)|$, the parts below the x-axis are reflected upwards."
+    },
+    {
+     "text": "Reflect all parts of the graph left of the y-axis rightwards into the positive x-region.",
+     "correct": false,
+     "explanation": "This confuses an absolute value applied to the output with one applied to the input. For $|f(x)|$, negative y-values are reflected in the x-axis, not across the y-axis."
+    },
+    {
+     "text": "Reflect all parts of the graph in the x-axis downwards into the opposite y-region.",
+     "correct": false,
+     "explanation": "Reflecting the entire graph would give $y=-f(x)$ rather than $y=|f(x)|$. Non-negative parts remain fixed, while only parts below the x-axis are reflected upwards."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "3b3a08db-10b2-4c9a-b749-5d36cd7cc885",
+   "card_type": "basic",
+   "front": "How is the graph $y = f(|x|)$ formed from $y = f(x)$?",
+   "back": "Discard the left side ($x < 0$) and reflect the right side ($x \\ge 0$) in the y-axis.",
+   "options": [
+    {
+     "text": "Discard the left side ($x < 0$) and reflect the right side ($x \\ge 0$) in the y-axis.",
+     "correct": true,
+     "explanation": "The absolute value makes the inputs $x$ and $-x$ produce the same output. The right-hand half is therefore retained and mirrored across the y-axis."
+    },
+    {
+     "text": "Discard the right side ($x > 0$) and reflect the left side ($x \\le 0$) in the y-axis.",
+     "correct": false,
+     "explanation": "This reverses which half determines the transformed graph. Since $|x|$ is always non-negative, $f(|x|)$ uses the original right side and reflects it into the left side."
+    },
+    {
+     "text": "Discard the left side ($x < 0$) and reflect the right side ($x \\ge 0$) in the x-axis.",
+     "correct": false,
+     "explanation": "The graph must be mirrored in the y-axis because the absolute value affects the input, or x-coordinate. Reflection in the x-axis instead changes output signs and does not produce $f(|x|)$."
+    },
+    {
+     "text": "Discard the lower side ($y < 0$) and reflect the upper side ($y \\ge 0$) in the x-axis.",
+     "correct": false,
+     "explanation": "This describes the effect of $|f(x)|$, where negative outputs are reflected upwards. For $f(|x|)$, the right side is reflected in the y-axis after the left side is discarded."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "1491c1a5-c1e7-4d33-88fc-d2c9685d47b7",
+   "card_type": "basic",
+   "front": "A point $(6, -2)$ is on $y=f(x)$. Find its coordinates on $y=3f(2x)$.",
+   "back": "$$(3, -6)$",
+   "options": [
+    {
+     "text": "$$(3, -6)$",
+     "correct": true,
+     "explanation": "In $f(2x)$, set $2x=6$, giving $x=3$. The outer factor $3$ multiplies the original y-coordinate, giving $3(-2)=-6$, so the point is $(3,-6)$."
+    },
+    {
+     "text": "$$(12, -6)$",
+     "correct": false,
+     "explanation": "Multiplying the original x-coordinate by $2$ ignores the inverse effect of an input transformation. The new x-coordinate is $6\\div2=3$, while the y-coordinate becomes $3(-2)=-6$."
+    },
+    {
+     "text": "$$(3, -\\frac{2}{3})$",
+     "correct": false,
+     "explanation": "The horizontal coordinate is correctly divided by $2$, but the output has been divided by $3$ instead of multiplied. The factor outside the function gives $3(-2)=-6$, so the point is $(3,-6)$."
+    },
+    {
+     "text": "$$(12, -\\frac{2}{3})$",
+     "correct": false,
+     "explanation": "Both transformations have been applied in the wrong directions. The input factor halves the x-coordinate to $3$, while the output factor triples the y-coordinate to $-6$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "e1ea9a81-31a4-40aa-90fb-ac5e2fa5ee59",
+   "card_type": "basic",
+   "front": "Find the range of $f(x) = (x-2)^2 + 2$ for $x \\in \\mathbb{R}$.",
+   "back": "$$f(x) \\ge 2$",
+   "options": [
+    {
+     "text": "$$f(x) \\ge 2$",
+     "correct": true,
+     "explanation": "The squared term $(x-2)^2$ is always non-negative and equals zero when $x=2$. Hence the minimum value of $f(x)$ is $2$, so $f(x)\\ge 2$."
+    },
+    {
+     "text": "$$f(x) \\le 2$",
+     "correct": false,
+     "explanation": "This reverses the inequality and treats the vertex as a maximum. The parabola opens upwards, so $2$ is its minimum value and the range is $f(x)\\ge 2$."
+    },
+    {
+     "text": "$$f(x) \\ge -2$",
+     "correct": false,
+     "explanation": "The sign inside $(x-2)^2$ shifts the graph horizontally and does not make the minimum output negative. The vertex is $(2,2)$, so the range is $f(x)\\ge 2$."
+    },
+    {
+     "text": "$$f(x) > 2$",
+     "correct": false,
+     "explanation": "A strict inequality wrongly excludes the minimum value. At $x=2$, the function equals exactly $2$, so the endpoint is included and the range is $f(x)\\ge 2$."
+    }
+   ],
+   "points": 1
+  }
+ ],
+ "card_count": 22,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/a-level-pure-mathematics-2-functions-and-graphs/flashcards",
+ "source_sha256": "87c8fd43a0b978287092ce982a1ffe627bd84ec9a39b2edb53e0bca6f50089e9",
+ "extracted_at": "2026-11-08T19:00:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-3 run-001)",
+ "task_id": "T-MG-FC-3"
+}

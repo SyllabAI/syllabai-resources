@@ -1,0 +1,168 @@
+{
+ "topic": "as-statistics-6-statistical-distributions",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "title": "Statistical Distributions Flashcards",
+ "cards": [
+  {
+   "id": "c1d6dfe7-a7db-b2c6-4569-3132a10e8ef8",
+   "card_type": "cloze",
+   "front": "For any discrete random variable, the sum of all probabilities is: $\\text{[...]}$.",
+   "back": "For any discrete random variable, the sum of all probabilities is: $\\boxed{\\sum P(X=x)=1}$."
+  },
+  {
+   "id": "c16784fa-64a7-fb72-1d56-df367a1b8d96",
+   "card_type": "basic",
+   "front": "What defines a random variable as discrete?",
+   "back": "It can only take separate, countable values (e.g., 0, 1, 2).",
+   "points": 1
+  },
+  {
+   "id": "060ee8c0-ca83-b607-2837-70d8f17e6317",
+   "card_type": "basic",
+   "front": "If $X$ is a discrete random variable taking integer values, what is the meaning of $P(X > 1.4)$?",
+   "back": "$$P(X \\ge 2)$",
+   "points": 1
+  },
+  {
+   "id": "97f7e450-dd59-ffa6-94cb-949ab15d22a7",
+   "card_type": "basic",
+   "front": "Define the cumulative distribution function $F(x)$ for a random variable $X$.",
+   "back": "The probability that $X$ is less than or equal to $x$: $F(x) = P(X \\le x)$.",
+   "points": 1
+  },
+  {
+   "id": "37264b9d-ea9f-9782-ffa4-a79435069961",
+   "card_type": "cloze",
+   "front": "A cumulative distribution function $F(x)$ must never $\\text{[...]}$ and its final value must be $1$.",
+   "back": "A cumulative distribution function $F(x)$ must never $\\boxed{decrease}$ and its final value must be $1$."
+  },
+  {
+   "id": "e32d842b-01c1-cea5-071f-f4fd1675e233",
+   "card_type": "cloze",
+   "front": "A cumulative distribution function $F(x)$ must never $decrease$ and its final value must be $\\text{[...]}$.",
+   "back": "A cumulative distribution function $F(x)$ must never $decrease$ and its final value must be $\\boxed{1}$."
+  },
+  {
+   "id": "63b92b51-4a74-6ad0-da2e-95a2f73950d8",
+   "card_type": "basic",
+   "front": "What characterizes a discrete uniform distribution with $n$ outcomes?",
+   "back": "Every outcome is equally likely, each with probability $1/n$.",
+   "points": 1
+  },
+  {
+   "id": "473082ae-01e0-c19f-8600-a342c550ecff",
+   "card_type": "basic",
+   "front": "State the four conditions required for a binomial distribution $X \\sim B(n, p)$.",
+   "back": "Fixed number of trials ($n$)Two outcomes: success or failureConstant probability of success ($p$)Trials are independent",
+   "points": 3
+  },
+  {
+   "id": "ae0b89ef-8a8a-92e2-2709-ea185c2d8fb8",
+   "card_type": "basic",
+   "front": "In the notation $X \\sim B(n, p)$, what do $n$ and $p$ represent?",
+   "back": "$n$: number of trials$p$: probability of success",
+   "points": 2
+  },
+  {
+   "id": "6babafd1-2675-c2d8-aae1-0eb93944dcaa",
+   "card_type": "cloze",
+   "front": "The probability of exactly $r$ successes in a binomial distribution is $P(X=r) = \\text{[...]}$.",
+   "back": "The probability of exactly $r$ successes in a binomial distribution is $P(X=r) = \\boxed{\\binom{n}{r}p^r(1-p)^{n-r}}$."
+  },
+  {
+   "id": "bcea6d5b-9526-610f-e6b5-acefe9472879",
+   "card_type": "basic",
+   "front": "How is the binomial inequality $P(X < 3)$ rewritten for calculator entry (using cumulative functions)?",
+   "back": "$$P(X \\le 2)$",
+   "points": 1
+  },
+  {
+   "id": "27b999a4-5f00-273b-190c-7dafb832593c",
+   "card_type": "basic",
+   "front": "How is $P(X \\ge 5)$ calculated using the complement rule in a binomial model?",
+   "back": "$$1 - P(X \\le 4)$",
+   "points": 1
+  },
+  {
+   "id": "9f4b03d8-4816-c0f1-9433-57f7d0c5b8ce",
+   "card_type": "basic",
+   "front": "Why might \"number of goals in a football match\" not be well-modelled by a binomial distribution?",
+   "back": "Events are not independentProbability of scoring is not constant throughout the match",
+   "points": 2
+  },
+  {
+   "id": "5d995d0e-c5b7-8316-616f-6b4ef3d4c1d9",
+   "card_type": "basic",
+   "front": "What is the formula for the expected number of successes if an event with probability $p$ is repeated $N$ times?",
+   "back": "$$Np$",
+   "points": 1
+  },
+  {
+   "id": "d8c55de5-343e-6f65-95a0-970303c8f8f4",
+   "card_type": "cloze",
+   "front": "An expected value $Np$ is a $\\text{[...]}$ and does not have to be a $whole number$.",
+   "back": "An expected value $Np$ is a $\\boxed{long-run average}$ and does not have to be a $whole number$."
+  },
+  {
+   "id": "cc0d4327-edc6-a6cf-5dac-17a6e77b8645",
+   "card_type": "cloze",
+   "front": "An expected value $Np$ is a $long-run average$ and does not have to be a $\\text{[...]}$.",
+   "back": "An expected value $Np$ is a $long-run average$ and does not have to be a $\\boxed{whole number}$."
+  },
+  {
+   "id": "00407555-5cb6-2295-bbd6-aacaa3c8c92d",
+   "card_type": "basic",
+   "front": "If two games are independent, how is the probability of a specific outcome in both games calculated?",
+   "back": "Multiply the individual probabilities of those outcomes.",
+   "points": 1
+  },
+  {
+   "id": "ac0bd396-e713-b222-93f5-4e5f893f16e4",
+   "card_type": "basic",
+   "front": "A player throws balls with success probability 0.4. What is the calculation for the first success being on the 4th throw?",
+   "back": "$$(0.6)^3 \\times 0.4$ (three failures then one success)",
+   "points": 2
+  },
+  {
+   "id": "090b02b2-9413-f6ce-0b3f-37b984015add",
+   "card_type": "basic",
+   "front": "When solving an inequality for a transformation like $Y = 9 - 3X$, what must happen when dividing by $-3$?",
+   "back": "The inequality sign must be reversed.",
+   "points": 1
+  },
+  {
+   "id": "416bed0a-cbe1-a79f-66f8-2427b921a2fc",
+   "card_type": "basic",
+   "front": "What is the primary method for finding a missing constant $k$ in a discrete probability table?",
+   "back": "Set the sum of all probabilities equal to 1 and solve for $k$.",
+   "points": 1
+  },
+  {
+   "id": "e808b9a7-64db-d548-26ac-c6d57f8bb777",
+   "card_type": "cloze",
+   "front": "In a binomial distribution, the probability of failure is often written as $\\text{[...]}$ or represented by the letter $q$.",
+   "back": "In a binomial distribution, the probability of failure is often written as $\\boxed{1-p}$ or represented by the letter $q$."
+  },
+  {
+   "id": "e3bceb65-842d-6779-1b84-e890a09ea0f8",
+   "card_type": "cloze",
+   "front": "In a binomial distribution, the probability of failure is often written as $1-p$ or represented by the letter $\\text{[...]}$.",
+   "back": "In a binomial distribution, the probability of failure is often written as $1-p$ or represented by the letter $\\boxed{q}$."
+  },
+  {
+   "id": "ed642bb1-9c7c-5d30-be5a-a9406ebbf07a",
+   "card_type": "basic",
+   "front": "How do you find the probability of a total score from two independent games?",
+   "back": "List all pairs of scores that reach that totalMultiply probabilities within each pairAdd the results of all pairs",
+   "points": 3
+  }
+ ],
+ "card_count": 23,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/as-statistics-6-statistical-distributions/flashcards",
+ "source_sha256": "4d48da9dca75937d6fc9acdb37e0fac801c1fd52ff3e1771ab160d9663154c5d",
+ "extracted_at": "2026-11-08T19:00:05Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-3 run-001)",
+ "task_id": "T-MG-FC-3"
+}

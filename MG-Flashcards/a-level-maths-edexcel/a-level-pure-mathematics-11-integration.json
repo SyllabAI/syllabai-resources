@@ -1,0 +1,619 @@
+{
+ "topic": "a-level-pure-mathematics-11-integration",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "title": "Integration Flashcards",
+ "cards": [
+  {
+   "id": "4da99e1a-e431-4161-99c1-905cb98f6ea9",
+   "card_type": "basic",
+   "front": "Why must a constant of integration $+c$ be added to indefinite integrals?",
+   "back": "Constants have a derivative of zero, so they are lost during differentiation and must be recovered.",
+   "options": [
+    {
+     "text": "Constants have a derivative of zero, so they are lost during differentiation and must be recovered.",
+     "correct": true,
+     "explanation": "Differentiating any constant gives zero, so different antiderivatives can differ by a constant while having the same derivative. The constant of integration represents this missing family of answers."
+    },
+    {
+     "text": "Constants have a derivative of one, so they are lost during differentiation and must be recovered.",
+     "correct": false,
+     "explanation": "A constant differentiates to zero, not one. Because differentiation removes the constant term entirely, an arbitrary constant must be included when finding the full family of antiderivatives."
+    },
+    {
+     "text": "Constants have a derivative equal to themselves, so they are lost during differentiation and must be recovered.",
+     "correct": false,
+     "explanation": "Constants do not differentiate to their own value; their derivative is zero. This is why differentiation cannot distinguish between antiderivatives that differ only by a constant."
+    },
+    {
+     "text": "Constants have a derivative of zero, so they are lost during integration and must be recovered.",
+     "correct": false,
+     "explanation": "The loss occurs when differentiating, not integrating. Since a constant differentiates to zero, indefinite integration must restore an arbitrary constant to include every possible antiderivative."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "d4b219e6-cccb-46b9-b7fb-d967a9f05fb6",
+   "card_type": "cloze",
+   "front": "For $n \\neq -1$, the general rule for integrating a power of $x$ is: $\\int x^n\\,dx = \\text{[...]} + c$.",
+   "back": "For $n \\neq -1$, the general rule for integrating a power of $x$ is: $\\int x^n\\,dx = \\boxed{\\frac{x^{n+1}}{n+1}} + c$.",
+   "options": [
+    {
+     "text": "$$\\frac{x^{n+1}}{n+1}$",
+     "correct": true,
+     "explanation": "The power rule increases the exponent by one and divides by the new exponent, giving $\\frac{x^{n+1}}{n+1}$ when $n \\neq -1$."
+    },
+    {
+     "text": "$$\\frac{x^n}{n}$",
+     "correct": false,
+     "explanation": "This leaves the exponent unchanged and divides by the original exponent. The power rule instead increases the exponent to $n+1$ and divides by $n+1$."
+    },
+    {
+     "text": "$$\\frac{x^{n-1}}{n-1}$",
+     "correct": false,
+     "explanation": "This applies the differentiation power rule in reverse incorrectly by decreasing the exponent. Integration increases the exponent by one, so the denominator must be $n+1$."
+    },
+    {
+     "text": "$$(n+1)x^n$",
+     "correct": false,
+     "explanation": "Multiplying by the new exponent is the differentiation rule, not the integration rule. Integration requires increasing the exponent and dividing by it, producing $\\frac{x^{n+1}}{n+1}$."
+    }
+   ]
+  },
+  {
+   "id": "ae1745db-e61d-40ed-b179-ae4405517846",
+   "card_type": "basic",
+   "front": "What is the integral of $\\frac{1}{x}$ with respect to $x$?",
+   "back": "$$\\ln|x|+c$",
+   "options": [
+    {
+     "text": "$$\\ln|x|+c$",
+     "correct": true,
+     "explanation": "The derivative of $\\ln|x|$ is $\\frac{1}{x}$ for $x \\neq 0$, so the general integral is $\\ln|x|+c$. The absolute value covers both positive and negative domains."
+    },
+    {
+     "text": "$$\\ln x+c$",
+     "correct": false,
+     "explanation": "This works only for positive $x$ and omits the negative domain. The general antiderivative of $\\frac{1}{x}$ is $\\ln|x|+c$, valid wherever $x \\neq 0$."
+    },
+    {
+     "text": "$$\\frac{1}{x^2}+c$",
+     "correct": false,
+     "explanation": "Differentiating this expression gives $-\\frac{2}{x^3}$, not $\\frac{1}{x}$. The reciprocal function is the exceptional power case whose integral is logarithmic: $\\ln|x|+c$."
+    },
+    {
+     "text": "$$x\\ln|x|+c$",
+     "correct": false,
+     "explanation": "Using the product rule, the derivative is $\\ln|x|+1$, so it does not produce $\\frac{1}{x}$. The required antiderivative is $\\ln|x|+c$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "5379dfd8-97d7-43f1-9d97-94e76741ab53",
+   "card_type": "basic",
+   "front": "When integrating a linear bracket $(ax+b)^n$, what extra step must be taken after applying the power rule?",
+   "back": "Divide by the derivative of the bracket ($a$).",
+   "options": [
+    {
+     "text": "Divide by the derivative of the bracket ($a$).",
+     "correct": true,
+     "explanation": "The substitution $u=ax+b$ gives $du=a\\,dx$, so the integral must be divided by $a$ after applying the power rule to account for the bracket's derivative."
+    },
+    {
+     "text": "Multiply by the derivative of the bracket ($a$).",
+     "correct": false,
+     "explanation": "The substitution introduces a factor of $a\\,dx$, so the result needs division by $a$, not multiplication. Multiplying would make the derivative too large by a factor of $a^2$."
+    },
+    {
+     "text": "Divide by the exponent of the bracket ($n$).",
+     "correct": false,
+     "explanation": "The extra factor comes from differentiating the inside, whose derivative is $a$, not from the exponent. Therefore the result must be divided by $a$ after using the power rule."
+    },
+    {
+     "text": "Subtract the derivative of the bracket ($a$).",
+     "correct": false,
+     "explanation": "A linear inner function creates a multiplicative chain-rule factor, which is corrected by division. Subtracting $a$ does not undo this factor, so division by $a$ is required."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "9d7eec90-847a-4e4a-a6a9-550ab33d49fc",
+   "card_type": "cloze",
+   "front": "To integrate $\\sin^2 x$, it must be replaced using the identity: $\\sin^2 x = \\text{[...]}$.",
+   "back": "To integrate $\\sin^2 x$, it must be replaced using the identity: $\\sin^2 x = \\boxed{\\frac{1-\\cos 2x}{2}}$.",
+   "options": [
+    {
+     "text": "$$\\frac{1-\\cos 2x}{2}$",
+     "correct": true,
+     "explanation": "The double-angle identity gives $\\cos 2x=1-2\\sin^2x$. Rearranging yields $\\sin^2x=\\frac{1-\\cos 2x}{2}$, replacing the squared sine with integrable terms."
+    },
+    {
+     "text": "$$\\frac{1+\\cos 2x}{2}$",
+     "correct": false,
+     "explanation": "The plus form is the identity for $\\cos^2x$, not $\\sin^2x$. Rearranging the cosine double-angle identity gives $\\sin^2x=\\frac{1-\\cos 2x}{2}$."
+    },
+    {
+     "text": "$$1-\\cos^2 2x$",
+     "correct": false,
+     "explanation": "This confuses the half-angle identity with the Pythagorean identity and also uses the wrong angle. The required replacement is $\\frac{1-\\cos 2x}{2}$."
+    },
+    {
+     "text": "$$\\frac{1-\\cos x}{2}$",
+     "correct": false,
+     "explanation": "The half-angle identity contains $\\cos 2x$, not $\\cos x$. Omitting the doubled angle changes the function, so the correct expression is $\\frac{1-\\cos 2x}{2}$."
+    }
+   ]
+  },
+  {
+   "id": "e3e8b737-4c8b-4bff-985c-b313b1c706f0",
+   "card_type": "basic",
+   "front": "What trigonometric identity is used to integrate $\\cos^2 x$?",
+   "back": "$$\\cos^2 x = \\frac{1+\\cos 2x}{2}$",
+   "options": [
+    {
+     "text": "$$\\cos^2 x = \\frac{1+\\cos 2x}{2}$",
+     "correct": true,
+     "explanation": "The double-angle identity $\\cos 2x=2\\cos^2x-1$ rearranges directly to $\\cos^2x=\\frac{1+\\cos 2x}{2}$, making the square suitable for integration."
+    },
+    {
+     "text": "$$\\cos^2 x = \\frac{1-\\cos 2x}{2}$",
+     "correct": false,
+     "explanation": "The minus form is the half-angle identity for $\\sin^2x$. For cosine, rearranging $\\cos 2x=2\\cos^2x-1$ gives the plus sign."
+    },
+    {
+     "text": "$$\\cos^2 x = 1-\\sin^2 2x$",
+     "correct": false,
+     "explanation": "The Pythagorean identity uses the same angle, giving $1-\\sin^2x$, not $1-\\sin^2 2x$. For integration, the relevant half-angle form is $\\frac{1+\\cos 2x}{2}$."
+    },
+    {
+     "text": "$$\\cos^2 x = \\frac{1+\\cos x}{2}$",
+     "correct": false,
+     "explanation": "The double-angle identity requires the angle $2x$ inside the cosine. Replacing it with $x$ produces a different function, so the correct identity contains $\\cos 2x$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "96dd40bb-449a-446e-838f-2077a8f5e214",
+   "card_type": "cloze",
+   "front": "The formula for integration by parts is: $\\int u \\frac{dv}{dx}\\,dx = \\text{[...]} - \\int v \\frac{du}{dx}\\,dx$.",
+   "back": "The formula for integration by parts is: $\\int u \\frac{dv}{dx}\\,dx = \\boxed{uv} - \\int v \\frac{du}{dx}\\,dx$.",
+   "options": [
+    {
+     "text": "$$uv$",
+     "correct": true,
+     "explanation": "Integration by parts follows from the product rule: integrating $u\\frac{dv}{dx}$ gives the product $uv$, then subtracts the integral involving the differentiated $u$."
+    },
+    {
+     "text": "$$u\\frac{du}{dx}$",
+     "correct": false,
+     "explanation": "The product term must combine $u$ with its antiderivative component $v$, not with $\\frac{du}{dx}$. The correct first term is $uv$, followed by the subtraction integral."
+    },
+    {
+     "text": "$$v\\frac{dv}{dx}$",
+     "correct": false,
+     "explanation": "This repeats the differentiated component rather than forming the product of the chosen factors. Applying the product rule shows that the boundary product is $uv$."
+    },
+    {
+     "text": "$$u+v$",
+     "correct": false,
+     "explanation": "Integration by parts comes from the product rule, which creates a product rather than a sum. The first term is therefore $uv$, with the remaining integral subtracted."
+    }
+   ]
+  },
+  {
+   "id": "8ac07c4a-d442-4cc2-a400-0eecf616b563",
+   "card_type": "cloze",
+   "front": "The formula for integration by parts is: $\\int u \\frac{dv}{dx}\\,dx = uv - \\int \\text{[...]}\\,dx$.",
+   "back": "The formula for integration by parts is: $\\int u \\frac{dv}{dx}\\,dx = uv - \\int \\boxed{v \\frac{du}{dx}}\\,dx$.",
+   "options": [
+    {
+     "text": "$$v \\frac{du}{dx}$",
+     "correct": true,
+     "explanation": "This is the remaining factor produced by integration by parts: choose one function as $u$ and integrate the other to obtain $v$, giving $uv - \\int v\\frac{du}{dx}\\,dx$."
+    },
+    {
+     "text": "$$u \\frac{dv}{dx}$",
+     "correct": false,
+     "explanation": "This repeats the original integrand rather than using the differentiated factor after applying the product rule. The required remaining factor is $v\\frac{du}{dx}$."
+    },
+    {
+     "text": "$$\\frac{du}{dx}\\frac{dv}{dx}$",
+     "correct": false,
+     "explanation": "Differentiating both functions introduces an extra derivative and does not follow from the product rule. Integration by parts leaves one integrated factor and one differentiated factor: $v\\frac{du}{dx}$."
+    },
+    {
+     "text": "$$v \\frac{dv}{dx}$",
+     "correct": false,
+     "explanation": "The derivative must be taken of the function originally labelled $u$, not of the integrated function $v$. Therefore the remaining integrand is $v\\frac{du}{dx}$."
+    }
+   ]
+  },
+  {
+   "id": "8e5b01a8-2667-4985-a690-cf378d3722db",
+   "card_type": "basic",
+   "front": "In the integral $\\int x\\sin x\\,dx$, which term should be chosen as $u$ for integration by parts?",
+   "back": "$$u = x$",
+   "options": [
+    {
+     "text": "$$u = x$",
+     "correct": true,
+     "explanation": "Choosing $u=x$ makes $du=dx$, while integrating $sin x$ is straightforward. Integration by parts then reduces the integral to simpler terms."
+    },
+    {
+     "text": "$$u = \\sin x$",
+     "correct": false,
+     "explanation": "Choosing the trigonometric factor as $u$ does not simplify the integral, because differentiating it leaves a product involving $x$. The useful choice is $u=x$, giving $du=dx$."
+    },
+    {
+     "text": "$$u = x\\sin x$",
+     "correct": false,
+     "explanation": "Choosing the entire integrand as $u$ leaves no helpful factor for $dv$ and makes differentiation more complicated. Instead, take $u=x$ so differentiation removes the algebraic factor."
+    },
+    {
+     "text": "$$u = \\cos x$",
+     "correct": false,
+     "explanation": "Cosine is not a factor in the original integrand, so it cannot be selected directly as $u$. The algebraic factor $x$ should be chosen because it differentiates to $1$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "4ac80e7a-466c-4329-bc91-ff586c72d22f",
+   "card_type": "basic",
+   "front": "When performing a definite integral by substitution, what must be done with the limits?",
+   "back": "Convert the $x$ limits into $u$ values using the substitution equation.",
+   "options": [
+    {
+     "text": "Convert the $x$ limits into $u$ values using the substitution equation.",
+     "correct": true,
+     "explanation": "After changing the variable of integration from $x$ to $u$, the bounds must also use $u$. Substituting each original $x$ limit into the substitution equation gives the new limits."
+    },
+    {
+     "text": "Keep the $x$ limits unchanged after applying the substitution equation.",
+     "correct": false,
+     "explanation": "Keeping limits expressed in $x$ while integrating with respect to $u$ mixes variables and is invalid. Each $x$ limit must be converted using the substitution equation."
+    },
+    {
+     "text": "Convert the $u$ limits into $x$ values using the substitution equation.",
+     "correct": false,
+     "explanation": "The substitution equation converts original $x$ bounds into new $u$ bounds, not the reverse. Both limits must be evaluated as $u$ values before applying them."
+    },
+    {
+     "text": "Convert only the upper $x$ limit using the substitution equation.",
+     "correct": false,
+     "explanation": "Changing only one bound leaves the definite integral with limits in different variables. Both the lower and upper $x$ limits must be converted into corresponding $u$ values."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "52acd22e-c9c6-4f71-83cc-89d0401e5a21",
+   "card_type": "basic",
+   "front": "When must algebraic division be performed before using partial fractions for integration?",
+   "back": "When the degree of the numerator is greater than or equal to the degree of the denominator.",
+   "options": [
+    {
+     "text": "When the degree of the numerator is greater than or equal to the degree of the denominator.",
+     "correct": true,
+     "explanation": "Partial fractions require a proper rational expression. If the numerator’s degree is at least the denominator’s degree, division first produces a polynomial plus a proper fraction."
+    },
+    {
+     "text": "When the degree of the numerator is less than the degree of the denominator.",
+     "correct": false,
+     "explanation": "A fraction with a lower-degree numerator is already proper, so algebraic division is unnecessary. Division is required when the numerator’s degree is greater than or equal to the denominator’s."
+    },
+    {
+     "text": "When the degree of the denominator is greater than or equal to the degree of the numerator.",
+     "correct": false,
+     "explanation": "This reverses the condition for an improper rational expression. Algebraic division is needed when the numerator’s degree is greater than or equal to the denominator’s degree."
+    },
+    {
+     "text": "When the degree of the numerator is exactly equal to the degree of the denominator.",
+     "correct": false,
+     "explanation": "Equal degrees do require algebraic division, but the condition is not restricted to equality. Division is also needed whenever the numerator has a higher degree than the denominator."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "df5a9cbb-5f17-425c-a6d9-bd4c206c7715",
+   "card_type": "basic",
+   "front": "Why are modulus signs used in the result $\\ln|x+a|$?",
+   "back": "To ensure the argument of the natural logarithm is positive, as $\\ln$ is undefined for negative numbers.",
+   "options": [
+    {
+     "text": "To ensure the argument of the natural logarithm is positive, as $\\ln$ is undefined for negative numbers.",
+     "correct": true,
+     "explanation": "The real natural logarithm requires a positive argument. The modulus makes both positive and negative values of $x+a$ contribute through their positive magnitude, excluding $x=-a$."
+    },
+    {
+     "text": "To ensure the value of the natural logarithm is positive, as $\\ln$ cannot produce negative numbers.",
+     "correct": false,
+     "explanation": "A natural logarithm can have a negative value when its positive argument lies between $0$ and $1$. The modulus instead ensures that the logarithm’s argument is positive."
+    },
+    {
+     "text": "To ensure the natural logarithm is continuous, as $\\ln$ is undefined at stationary points.",
+     "correct": false,
+     "explanation": "The modulus does not make the antiderivative continuous at $x=-a$; the integrand and logarithm are undefined there. It ensures the logarithm receives a positive argument."
+    },
+    {
+     "text": "To ensure the constant of integration is unnecessary, as $\\ln$ already includes all possible values.",
+     "correct": false,
+     "explanation": "Modulus signs do not remove the arbitrary integration constant, which must still be included in an indefinite integral. Their purpose is to keep the logarithm’s argument positive."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "247f0459-756a-4d9c-9801-63629db49f9b",
+   "card_type": "basic",
+   "front": "How is the area between an upper curve $y_1$ and a lower curve $y_2$ calculated?",
+   "back": "Integrate the difference: $\\int (y_1 - y_2)\\,dx$.",
+   "options": [
+    {
+     "text": "Integrate the difference: $\\int (y_1 - y_2)\\,dx$.",
+     "correct": true,
+     "explanation": "At each $x$-value, the vertical separation is the upper height minus the lower height. Integrating this non-negative difference across the relevant interval gives the enclosed area."
+    },
+    {
+     "text": "Integrate the difference: $\\int (y_2 - y_1)\\,dx$.",
+     "correct": false,
+     "explanation": "Reversing the subtraction makes the integrand negative wherever $y_1$ is above $y_2$, producing the negative of the required area. Subtract the lower curve from the upper curve."
+    },
+    {
+     "text": "Integrate the sum: $\\int (y_1 + y_2)\\,dx$.",
+     "correct": false,
+     "explanation": "Adding the curve heights measures their combined displacement from the axis, not the vertical separation between them. The required integrand is upper curve minus lower curve."
+    },
+    {
+     "text": "Integrate the product: $\\int (y_1y_2)\\,dx$.",
+     "correct": false,
+     "explanation": "Multiplying the two heights does not represent the vertical distance between the curves and gives inappropriate dimensions. Their separation is $y_1-y_2$, which must be integrated."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "838b58a6-144c-429c-a933-893e6217c62a",
+   "card_type": "cloze",
+   "front": "The formula for the area under a parametric curve is $A = \\int \\text{[...]}\\,dt$.",
+   "back": "The formula for the area under a parametric curve is $A = \\int \\boxed{y(t) \\frac{dx}{dt}}\\,dt$.",
+   "options": [
+    {
+     "text": "$$y(t) \\frac{dx}{dt}$",
+     "correct": true,
+     "explanation": "For a parametrisation $x=x(t)$ and $y=y(t)$, substitute $dx=(dx/dt)dt$ into $A=\\int y\\,dx$. This gives the parametric area integrand $y(t)(dx/dt)$."
+    },
+    {
+     "text": "$$y(t) \\frac{dy}{dt}$",
+     "correct": false,
+     "explanation": "Using $dy/dt$ corresponds to integrating $y\\,dy$, not the area expression $\\int y\\,dx$. The required conversion is $dx=(dx/dt)dt$, giving $y(t)(dx/dt)$."
+    },
+    {
+     "text": "$$x(t) \\frac{dx}{dt}$",
+     "correct": false,
+     "explanation": "The area under a curve is based on height $y$ multiplied by a horizontal change $dx$. Replacing the height with $x(t)$ does not represent $\\int y\\,dx$."
+    },
+    {
+     "text": "$$y(t) \\frac{dt}{dx}$",
+     "correct": false,
+     "explanation": "Changing variables uses $dx=(dx/dt)dt$, so the derivative must not be inverted. The reciprocal $dt/dx$ gives the wrong scaling of each parametric interval."
+    }
+   ]
+  },
+  {
+   "id": "ddcf2db0-8dde-4acb-beea-9211aeabd0a1",
+   "card_type": "basic",
+   "front": "What makes a differential equation separable?",
+   "back": "It can be rearranged to isolate all $y$ terms on one side with $dy$ and all $x$ terms on the other with $dx$.",
+   "options": [
+    {
+     "text": "It can be rearranged to isolate all $y$ terms on one side with $dy$ and all $x$ terms on the other with $dx$.",
+     "correct": true,
+     "explanation": "Separation places every factor involving $y$ alongside $dy$ and every factor involving $x$ alongside $dx$. Each side can then be integrated independently in its own variable."
+    },
+    {
+     "text": "It can be rearranged to combine all $x$ and $y$ terms on one side with $dy$ and leave only constants with $dx$.",
+     "correct": false,
+     "explanation": "Having both variables on one side does not permit separate integration and is the opposite of separation. A separable equation must group $y$ terms with $dy$ and $x$ terms with $dx$."
+    },
+    {
+     "text": "It can be rearranged so that the derivative is constant and all $x$ and $y$ terms appear on the same side.",
+     "correct": false,
+     "explanation": "A constant derivative describes a particularly simple differential equation, but it is not the defining condition. Separability depends on rearranging variable factors onto opposite sides with their differentials."
+    },
+    {
+     "text": "It can be rearranged into a linear form with all $y$ terms on one side and the derivative on the other side.",
+     "correct": false,
+     "explanation": "Writing an equation in the standard linear form identifies a first-order linear equation, not necessarily a separable one. Separation specifically groups $y$ terms with $dy$ and $x$ terms with $dx$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "228390f9-05b5-46a3-a525-b3e63c1c3c30",
+   "card_type": "basic",
+   "front": "Why does the trapezium rule produce an overestimate for concave-up curves?",
+   "back": "The straight chords of the trapezia lie above the actual curve.",
+   "options": [
+    {
+     "text": "The straight chords of the trapezia lie above the actual curve.",
+     "correct": true,
+     "explanation": "For a concave-up curve, each secant chord between adjacent points lies above the graph. The trapezia therefore include extra area, making their total an overestimate."
+    },
+    {
+     "text": "The straight chords of the trapezia lie below the actual curve.",
+     "correct": false,
+     "explanation": "Chords of a concave-up curve lie above, not below, the graph. If they lay below, the trapezium rule would underestimate rather than overestimate the area."
+    },
+    {
+     "text": "The straight tangents of the trapezia lie above the actual curve.",
+     "correct": false,
+     "explanation": "The trapezium rule uses secant chords joining endpoint values, not tangent lines. For concave-up curves these chords lie above the graph, creating the overestimate."
+    },
+    {
+     "text": "The straight tangents of the trapezia lie below the actual curve.",
+     "correct": false,
+     "explanation": "Tangent lines are not used to form the trapezia, and tangents to a concave-up curve generally lie below it. The overestimate comes from chords lying above the curve."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "78144a7f-f33d-4b3c-8c0a-b5db457e9ac6",
+   "card_type": "basic",
+   "front": "When does the trapezium rule produce an underestimate of the area?",
+   "back": "When the curve is concave-down.",
+   "options": [
+    {
+     "text": "When the curve is concave-down.",
+     "correct": true,
+     "explanation": "For a concave-down curve, each joining chord lies below the curve, so the trapezia omit some of the region and underestimate the true area."
+    },
+    {
+     "text": "When the curve is concave-up.",
+     "correct": false,
+     "explanation": "For a concave-up curve, the joining chords lie above the curve, producing an overestimate. An underestimate occurs when the curve is concave-down."
+    },
+    {
+     "text": "When the curve is a straight line.",
+     "correct": false,
+     "explanation": "A straight-line graph has no curvature, so the trapezium rule gives its area exactly. An underestimate occurs for a concave-down curve."
+    },
+    {
+     "text": "When the joining chords lie above the curve.",
+     "correct": false,
+     "explanation": "Chords above the curve make the trapezia larger than the true region, giving an overestimate. For an underestimate, the curve must be concave-down."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "bd43a372-cdec-4a00-956d-f850cad148f6",
+   "card_type": "basic",
+   "front": "How should you handle a negative result when calculating area using a parametric integral?",
+   "back": "Take the absolute (positive) value or reverse the limits of integration.",
+   "options": [
+    {
+     "text": "Take the absolute (positive) value or reverse the limits of integration.",
+     "correct": true,
+     "explanation": "A definite integral gives signed area, so a negative result indicates orientation rather than negative geometric area. Taking its absolute value or reversing the limits makes the area positive."
+    },
+    {
+     "text": "Keep the negative value because integration gives a signed area.",
+     "correct": false,
+     "explanation": "A negative integral represents signed area, but geometric area must be non-negative. Take the absolute value of the result or reverse the integration limits."
+    },
+    {
+     "text": "Square the negative result to make the calculated area positive.",
+     "correct": false,
+     "explanation": "Squaring changes the magnitude and gives incorrect units, so it does not convert signed area correctly. Take the absolute value or reverse the limits instead."
+    },
+    {
+     "text": "Change the sign of the parameter but keep the original limits.",
+     "correct": false,
+     "explanation": "Changing the parameter’s sign does not generally reverse the direction in which the curve is traced. Take the absolute value or reverse the integration limits."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "4bf89ef0-a26c-4a80-90f5-06040e0f338d",
+   "card_type": "basic",
+   "front": "What is the integral of $\\sec^2(ax)$ with respect to $x$?",
+   "back": "$$\\frac{1}{a}\\tan(ax)+c$",
+   "options": [
+    {
+     "text": "$$\\frac{1}{a}\\tan(ax)+c$",
+     "correct": true,
+     "explanation": "Since the derivative of $\\tan(ax)$ is $a\\sec^2(ax)$, multiplying by $\\frac{1}{a}$ compensates for the chain-rule factor."
+    },
+    {
+     "text": "$$\\tan(ax)+c$",
+     "correct": false,
+     "explanation": "This misses the reciprocal chain-rule factor. Differentiating $\\tan(ax)$ introduces a factor of $a$, so the integral is $\\frac{1}{a}\\tan(ax)+c$."
+    },
+    {
+     "text": "$$a\\tan(ax)+c$",
+     "correct": false,
+     "explanation": "This multiplies by the inner derivative instead of dividing by it. The reverse chain rule gives $\\frac{1}{a}\\tan(ax)+c$, not an additional factor of $a$."
+    },
+    {
+     "text": "$$\\frac{1}{a}\\sec(ax)+c$",
+     "correct": false,
+     "explanation": "The antiderivative involves tangent because $\\frac{d}{dx}\\tan(ax)=a\\sec^2(ax)$. Therefore the correct result is $\\frac{1}{a}\\tan(ax)+c$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "077ee73c-506f-47a7-823f-6ff330bc80f2",
+   "card_type": "basic",
+   "front": "What are the three components of the trapezium rule formula?",
+   "back": "$\\frac{h}{2}$ (half the strip width)The sum of the first and last ordinatesTwice the sum of the remaining interior ordinates",
+   "options": [
+    {
+     "text": "$\\frac{h}{2}$ (half the strip width)The sum of the first and last ordinatesTwice the sum of the remaining interior ordinates",
+     "correct": true,
+     "explanation": "The trapezium rule multiplies half the common strip width by the two endpoint ordinates plus twice every interior ordinate, matching the areas of adjacent trapezia."
+    },
+    {
+     "text": "$h$ (the full strip width)The sum of the first and last ordinatesTwice the sum of the remaining interior ordinates",
+     "correct": false,
+     "explanation": "Using $h$ instead of $\\frac{h}{2}$ doubles every trapezium’s calculated area. The correct outside factor is half the strip width."
+    },
+    {
+     "text": "$\\frac{h}{2}$ (half the strip width)Twice the sum of the first and last ordinatesThe sum of the remaining interior ordinates",
+     "correct": false,
+     "explanation": "This reverses the endpoint and interior weights. Endpoints occur in one trapezium each, while interior ordinates occur in two, so only the interior sum is doubled."
+    },
+    {
+     "text": "$\\frac{h}{2}$ (half the strip width)The sum of the first and last ordinatesFour times the sum of the remaining interior ordinates",
+     "correct": false,
+     "explanation": "A factor of four is associated with some terms in Simpson’s rule, not the trapezium rule. Every interior ordinate must instead have weight two."
+    }
+   ],
+   "points": 3
+  },
+  {
+   "id": "9c4b5b15-d116-48fc-a655-6c227e490fdc",
+   "card_type": "basic",
+   "front": "What is the derivative of $\\operatorname{cosec}(ax)$?",
+   "back": "$$-a\\operatorname{cosec}(ax)\\cot(ax)$",
+   "options": [
+    {
+     "text": "$$-a\\operatorname{cosec}(ax)\\cot(ax)$",
+     "correct": true,
+     "explanation": "The derivative of $\\operatorname{cosec}(u)$ is $-\\operatorname{cosec}(u)\\cot(u)$. With $u=ax$, the chain rule supplies the additional factor $a$."
+    },
+    {
+     "text": "$$a\\operatorname{cosec}(ax)\\cot(ax)$",
+     "correct": false,
+     "explanation": "The derivative of cosecant has a negative sign. Applying the chain rule gives $-a\\operatorname{cosec}(ax)\\cot(ax)$, including both the minus sign and factor $a$."
+    },
+    {
+     "text": "$$-\\frac{1}{a}\\operatorname{cosec}(ax)\\cot(ax)$",
+     "correct": false,
+     "explanation": "Differentiation multiplies by the inner derivative $a$ rather than dividing by it. The reciprocal factor is a reverse-chain-rule error associated with integration."
+    },
+    {
+     "text": "$$-a\\operatorname{cosec}^2(ax)$",
+     "correct": false,
+     "explanation": "The expression $-a\\operatorname{cosec}^2(ax)$ is the derivative of $\\cot(ax)$. Differentiating cosecant instead gives $-a\\operatorname{cosec}(ax)\\cot(ax)$."
+    }
+   ],
+   "points": 1
+  }
+ ],
+ "card_count": 21,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/a-level-pure-mathematics-11-integration/flashcards",
+ "source_sha256": "cff8b3862c13d348a5ddf3bfa5a23e5595e8176461068cc066c4740e0f6f63f6",
+ "extracted_at": "2026-11-08T19:00:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-3 run-001)",
+ "task_id": "T-MG-FC-3"
+}
