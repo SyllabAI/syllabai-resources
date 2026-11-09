@@ -299,3 +299,36 @@ NMR, rate equations, buffers, capacitors, photoelectric detail, Doppler, SUVAT, 
 therapy/GM food/stats; full lists in `Videos/drafts/review-file-external-p2d.md`).
 
 Review file: `Videos/drafts/review-file-external-p2d.md`. Branch: `videos/p2d-cie-alevel` (off videos/p2c-all-subjects).
+
+## Self-review applied — all four external lanes (2026-11-09, T-VIDEOMAP-P2B/P2C/P2D)
+
+Owner chat: **"For now, approve and review yourself"** — adjudication delegated to the agent. A real row-by-row
+review pass was run over all 579 draft mappings (781 spec-rows) across the four external lanes, using the
+title-only bar: **medium kept when the video title names the spec's distinctive topic; low kept only where the
+partial support is genuine and inline; rejected where the evidence itself concedes the clause is not
+title-evidenced or the hit is keyword-adjacent/wrong-topic.**
+
+| Lane | Course | Mappings reviewed | Approved | Full-row rejects | Spec trims | Shipped specs |
+| --- | --- | --- | --- | --- | --- | --- |
+| P2B | igcse-biology-19 (ext) | 28 | 25 | 3 | 0 | 26/176 (merged map: 162/176) |
+| P2C | igcse-chemistry-19 | 94 | 87 | 7 | 0 | 119/182 |
+| P2C | igcse-physics-19 | 102 | 101 | 1 | 0 | 142/195 |
+| P2C | igcse-maths-a-18-higher | 7 | 5 | 2 | 0 | 5/188 |
+| P2C | cie-igcse-biology-23 | 14 | 13 | 1 | 1 | 13/388 |
+| P2C | cie-igcse-chemistry-23 | 15 | 15 | 0 | 0 | 17/252 |
+| P2C | cie-igcse-physics-23 | 16 | 16 | 0 | 0 | 16/294 |
+| P2D | cie-a-level-biology-25 | 139 | 133 | 6 | 0 | 138/257 |
+| P2D | cie-a-level-chemistry-25 | 103 | 89 | 14 | 3 (17 specs) | 108/356 |
+| P2D | cie-a-level-physics-25 | 61 | 51 | 10 | 0 | 66/303 |
+| **Σ** | **10 courses** | **579** | **555** | **24** | **4 mappings / 19 specs** | — |
+
+Every reject is recorded with a per-row reason in `Videos/drafts/<course>/owner-review-verdicts.json`
+(schema `syllabai.owner-review/1`, default:approve + rejects, same format as the owner's P2 ruling).
+Recurring reject patterns: GCSE videos carrying A-level-only clauses (acyl chlorides, Kp, pH curves, binding
+energy, flux definitions, I=Anvq), generic-title videos bound to specific clauses the title does not name
+("Nervous System"→synapses, "Metals"→metallic bonding), and one wrong-topic hit (Group-2 video → Period-3 spec).
+Spec 4.16 (sewage) stays honestly unmapped — consistent with the owner's own P2 identity reject on that spec.
+
+Hub delivery: `apps/hub/content/video-map/` — 9 new course files + the igcse-biology-19 merge
+(129 rows = 104 site + 25 external; **162/176 specs, 92%**), `registry.json` + `flags.json` videoMap.courses
+now 10 courses. Branch `videos/self-review-applied` (resources) + `hub/video-map-external-sweeps` (hub).
