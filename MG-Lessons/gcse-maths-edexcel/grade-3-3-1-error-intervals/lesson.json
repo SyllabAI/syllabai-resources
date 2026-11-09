@@ -1,0 +1,132 @@
+{
+ "topic": "grade-3-3-1-error-intervals",
+ "lane": "gcse-maths-edexcel",
+ "grade": "3",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "The basic idea",
+   "body": "![Number line showing the error interval for 6.8 to 1 decimal place, with a filled dot at 6.75, an open dot at 6.85, and 6.8 in the centre](../assets/001-c69553b8-d4c8-48f6-baea-1a4f1a9a4ce3.jpeg)\n\nAn error interval shows the range of original values that could have produced a rounded answer. If a number rounds to $6.8$ to 1 decimal place, the actual value could be anywhere from $6.75$ up to, but not including, $6.85$.\n\nThe smallest boundary is the lower bound and the largest boundary is the upper bound. For normal rounding, we write the interval with $\\le$ on the left and $<$ on the right, because the upper boundary would round to the next value.\n\nA quick method is to find the step size, then take half of it. This method works for ordinary rounding, not truncation.\n\n$$$r - \\frac{s}{2} \\le x < r + \\frac{s}{2}$$",
+   "figure_refs": [
+    "assets/001-c69553b8-d4c8-48f6-baea-1a4f1a9a4ce3.jpeg"
+   ]
+  },
+  {
+   "heading": "Correct to the nearest whole unit",
+   "body": "When a measurement is correct to the nearest whole unit, the step size is $1$. That means the half-step is $0.5$.\n\nWorked example: a sack has a mass of 18 kg, correct to the nearest kg. Subtract $0.5$ for the lower bound and add $0.5$ for the upper bound.\n\n$$$18 - 0.5 = 17.5,\\qquad 18 + 0.5 = 18.5$$\n\nIf $m$ is the mass in kg, the error interval is $17.5 \\le m < 18.5$. We do not include $18.5$ because $18.5$ kg rounds to 19 kg."
+  },
+  {
+   "heading": "Rounded to decimal places",
+   "body": "For decimal places, the step size depends on the place value of the last kept digit. To 1 decimal place the step is $0.1$, and to 2 decimal places the step is $0.01$.\n\nWorked example: $x$ rounds to $1.34$ to 2 decimal places. The last kept digit is in the hundredths place, so the half-step is $0.005$.\n\n$$$1.34 - 0.005 = 1.335,\\qquad 1.34 + 0.005 = 1.345$$\n\nSo the error interval is $1.335 \\le x < 1.345$. The most common mistake is writing $\\le$ on both sides, but $1.345$ rounds to $1.35$."
+  },
+  {
+   "heading": "Significant figures",
+   "body": "For significant figures, count from the first non-zero digit, not from the decimal point. After you find the last significant figure, use its place value to get the step size.\n\nExample 1: if a number rounds to $0.472$ to 3 significant figures, the third significant figure is in the thousandths place. The step size is $0.001$, so the half-step is $0.0005$ and the interval is $0.4715 \\le x < 0.4725$.\n\nExample 2: if a number rounds to $7000$ to 1 significant figure, the 7 is in the thousands place. The step size is $1000$, so the half-step is $500$ and the interval is $6500 \\le x < 7500$."
+  },
+  {
+   "heading": "Truncation is different",
+   "body": "![Two number lines comparing rounding and truncation for 4.73 to 2 decimal places, with 4.725 to 4.735 for rounding and 4.73 to 4.74 for truncation](../assets/002-c875123b-8d3a-45bb-9931-1a36be85b5c3.jpeg)\n\nTruncation means cutting digits off without rounding up. So if a positive number is truncated to 2 decimal places and shown as $4.73$, the actual value starts at $4.73$.\n\nThe next possible hundredth after $4.73$ is $4.74$, so the interval is $4.73 \\le x < 4.74$. Do not use a half-step for truncation.\n\nThis is different from rounding to 2 decimal places, which would give $4.725 \\le x < 4.735$. In exams, underline whether the question says rounded, correct to the nearest, or truncated before you calculate.",
+   "figure_refs": [
+    "assets/002-c875123b-8d3a-45bb-9931-1a36be85b5c3.jpeg"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "A number rounds to $6.8$ to 1 decimal place. Which error interval is correct?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$6.75 \\le x < 6.85$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$6.8 \\le x < 6.9$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$6.75 < x \\le 6.85$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$6.7 \\le x < 6.9$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "To 1 decimal place, the step size is $0.1$, so the half-step is $0.05$. That gives $6.75 \\le x < 6.85$; the common wrong answer $6.8 \\le x < 6.9$ treats rounding like truncation and misses values such as $6.76$."
+  },
+  {
+   "id": "card-7",
+   "question": "$$y$ rounds to $9.6$ to 1 decimal place. Which interval is correct?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$9.55 \\le y < 9.65$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$9.5 \\le y < 9.7$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$9.59 \\le y < 9.61$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$9.6 \\le y < 9.7$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "To 1 decimal place, the step size is $0.1$ and the half-step is $0.05$, so the bounds are $9.55$ and $9.65$. The common wrong answer $9.6 \\le y < 9.7$ is a truncation-style interval, not a rounding interval."
+  },
+  {
+   "id": "card-12",
+   "question": "A positive number is truncated to 2 decimal places and the result is $4.73$. Which interval is correct?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$4.73 \\le x < 4.74$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$4.725 \\le x < 4.735$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$4.70 \\le x < 4.76$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$4.73 < x \\le 4.74$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Truncation keeps the given digits and cuts off the rest, so the smallest possible value is exactly $4.73$ and the next hundredth is $4.74$. The common wrong answer $4.725 \\le x < 4.735$ is the interval for rounding to 2 decimal places, not truncating."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-3-3-1-error-intervals/lessons",
+ "source_sha256": "ceb52904c921437be77b4f095a874551e197386cb9eac1838067cc2835774a39",
+ "extracted_at": "2026-11-08T17:58:07Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "f5ac2075-80e6-4afc-a20b-43e40b7b13e9",
+  "topic_id": "b44a4e03-abe3-4706-beac-cbcde82d3cd2",
+  "created_at": "2026-05-13T04:42:58.084Z",
+  "updated_at": "2026-05-13T04:43:59.213Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

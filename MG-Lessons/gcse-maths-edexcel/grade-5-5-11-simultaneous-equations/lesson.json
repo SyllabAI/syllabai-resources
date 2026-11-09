@@ -1,0 +1,133 @@
+{
+ "topic": "grade-5-5-11-simultaneous-equations",
+ "lane": "gcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What a solution means",
+   "body": "![Graph of the lines 3x+2y=18 and 5x-2y=14 intersecting at (4,3) with axes labelled](../assets/001-67d126d4-a25c-44f0-8b32-1309a471aae3.jpeg)\n\nOn a graph, each equation is represented as a line. The solution to simultaneous equations is the point where the two lines intersect, because that point lies on both lines.\n\nA pair of simultaneous equations usually has two unknowns, such as $x$ and $y$. A solution is one pair of values that makes both equations true at the same time.\n\nYou can check a proposed solution by substituting it into each equation. If it works in only one equation, it is not the solution to the system.",
+   "figure_refs": [
+    "assets/001-67d126d4-a25c-44f0-8b32-1309a471aae3.jpeg"
+   ]
+  },
+  {
+   "heading": "Elimination by adding or subtracting",
+   "body": "Elimination removes one variable so you can solve a simpler equation with one unknown. Look at the coefficients, which are the numbers in front of the same variable in each equation.\n\nIf the coefficients are the same size and opposite signs, add the equations. If the coefficients are the same size and the same sign, subtract one equation from the other.\n\nFor example,\n$$\n\\begin{aligned}\n3x+2y&=18 \\\\\n5x-2y&=14\n\\end{aligned}\n$$\nhas $+2y$ and $-2y$, so adding will cancel the $y$ terms. That is exactly what we want."
+  },
+  {
+   "heading": "Worked example: add to eliminate",
+   "body": "Solve this pair of simultaneous equations.\n$$\n\\begin{aligned}\n3x+2y&=18 \\\\\n5x-2y&=14\n\\end{aligned}\n$$\nThe $y$ coefficients are opposites, so add the equations to eliminate $y$.\n\nAdd left sides and right sides carefully. This leaves a one-variable equation.\n$$\n\\begin{aligned}\n3x+2y+5x-2y&=18+14 \\\\\n8x&=32 \\\\\nx&=4\n\\end{aligned}\n$$\n\nNow substitute $x=4$ into one original equation. Solve the result to find $y$.\n$$\n\\begin{aligned}\n3(4)+2y&=18 \\\\\n12+2y&=18 \\\\\n2y&=6 \\\\\ny&=3\n\\end{aligned}\n$$\n\nSo the solution is $x=4,\\ y=3$. A quick check in the second equation gives $5(4)-2(3)=14$, so the pair works in both equations."
+  },
+  {
+   "heading": "If nothing cancels yet, multiply first",
+   "body": "Sometimes no coefficients match, so make a match before eliminating. In\n$$\n\\begin{aligned}\n2x+y&=11 \\\\\n5x+2y&=26\n\\end{aligned}\n$$\nthe $y$ coefficients are 1 and 2, so multiply the first equation by 2.\n\nMultiplying the whole equation by 2 gives\n$$\n\\begin{aligned}\n4x+2y&=22 \\\\\n5x+2y&=26\n\\end{aligned}\n$$\nNow the $y$ terms have the same sign, so subtract the first new equation from the second.\n\nSubtract to solve for $x$, then substitute back. This removes $y$ completely.\n$$\n\\begin{aligned}\n(5x+2y)-(4x+2y)&=26-22 \\\\\nx&=4\n\\end{aligned}\n$$\n\nUsing $2x+y=11$ gives\n$$\n\\begin{aligned}\n2(4)+y&=11 \\\\\n8+y&=11 \\\\\ny&=3\n\\end{aligned}\n$$\nAlways multiply every term, including the number on the right-hand side."
+  },
+  {
+   "heading": "Rearrange first if needed",
+   "body": "Not every pair starts in standard form. For example, consider this system:\n$$\n\\begin{aligned}\n3x&=12+y \\\\\nx+4y&=19\n\\end{aligned}\n$$\nFirst, rearrange the top equation to $3x-y=12$.\n\nAfter rearranging, the system is ready for the elimination method:\n$$\n\\begin{aligned}\n3x-y&=12 \\\\\nx+4y&=19\n\\end{aligned}\n$$\nMultiply the first equation by 4 so the $y$ terms become opposites.\n\nThen add the equations to eliminate the $y$ variable.\n$$\n\\begin{aligned}\n12x-4y&=48 \\\\\nx+4y&=19 \\\\\n13x&=67\n\\end{aligned}\n$$\nSolving this equation gives $x=\\frac{67}{13}$.\n\nSubstitute into $x+4y=19$ to find $y$.\n$$\n\\begin{aligned}\n\\frac{67}{13}+4y&=19 \\\\\n4y&=\\frac{180}{13} \\\\\ny&=\\frac{45}{13}\n\\end{aligned}\n$$\nFractions can be perfectly correct answers in simultaneous equations; do not assume you made a mistake just because the result is not an integer."
+  },
+  {
+   "heading": "Turning words into equations",
+   "body": "In a word problem, choose letters first and keep their meaning fixed. Let $s$ be the price of one sandwich and $d$ be the price of one drink. If two sandwiches and three drinks cost £14.70, and one sandwich and two drinks cost £8.70, we can represent the situation with these equations:\n\n$$$\n\\begin{aligned}\n2s+3d&=14.70 \\\\\ns+2d&=8.70\n\\end{aligned}\n$$\nNow solve the pair just like any other simultaneous equations question. Start by multiplying the second equation by 2 so that the coefficients of $s$ match.\n\n$$$\n\\begin{aligned}\n2s+4d&=17.40 \\\\\n(2s+4d)-(2s+3d)&=17.40-14.70 \\\\\nd&=2.70\n\\end{aligned}\n$$\nOnce you have found $d=2.70$, substitute this value back into the equation $s+2d=8.70$ to find the price of a sandwich.\n\n$$$\n\\begin{aligned}\ns+2(2.70)&=8.70 \\\\\ns+5.40&=8.70 \\\\\ns&=3.30\n\\end{aligned}\n$$\nFinal results show that one sandwich costs £3.30 and one drink costs £2.70. Always ensure your final answer relates back to the original context of the problem."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Which statement best describes a correct solution to simultaneous equations?",
+   "options": [
+    {
+     "id": "a",
+     "text": "It makes both equations true",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "It makes at least one equation true",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "It makes the left sides of the equations equal to each other",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "It always gives whole numbers",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A solution must satisfy every equation in the pair, so both equations become true with the same values. The common wrong answer \"at least one equation\" is not enough, because many pairs work for one equation only."
+  },
+  {
+   "id": "card-9",
+   "question": "When you multiply $2x+y=11$ by 2, which new equation is correct?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$4x+2y=22$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$4x+2y=11$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$2x+2y=22$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$4x+y=22$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Doubling an equation means every term on both sides is doubled, so the correct result is $4x+2y=22$. The common wrong answer $4x+2y=11$ forgets to double the right-hand side."
+  },
+  {
+   "id": "card-13",
+   "question": "Let $a$ be adult ticket price and $c$ be child ticket price. Which equation matches \"3 adults and 2 children cost £28\"?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$3a+2c=28$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$2a+3c=28$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$a+c=28$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$3ac=28$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$3a$ means 3 adult tickets and $2c$ means 2 child tickets, so together they total 28. The common wrong answer $2a+3c=28$ swaps the coefficients, which changes the meaning of the sentence."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-5-5-11-simultaneous-equations/lessons",
+ "source_sha256": "1e1969b587f91f6fc497f816b0f4857a30e1f97aa50d8c377d59cb1d7d0c6331",
+ "extracted_at": "2026-11-08T17:58:34Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "a99d4f99-0c61-448b-9a19-cd546db06352",
+  "topic_id": "8f650416-576c-4020-82c4-fa5367018543",
+  "created_at": "2026-05-13T11:05:27.373Z",
+  "updated_at": "2026-05-13T11:06:07.410Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

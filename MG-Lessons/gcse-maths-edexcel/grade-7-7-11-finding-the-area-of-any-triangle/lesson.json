@@ -1,0 +1,129 @@
+{
+ "topic": "grade-7-7-11-finding-the-area-of-any-triangle",
+ "lane": "gcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "From base and height to sine",
+   "body": "You already know that triangle area can be found with $A = \\frac{1}{2}\\times \\text{base}\\times \\text{height}$. In this sketch, $CQ = a$ is the base and $CP = b$.\n\n```text\n         P\n        /|\n       / |\n    b /  | h\n     /   |\n    /    |\n   C-----D------Q\n   <------ a ------>\n```\n\nAngle $C$ is between sides $a$ and $b$. Dropping a perpendicular from $P$ to the base at $D$ gives the height $PD = h$. In right triangle $CPD$, $\\sin C = \\frac{PD}{CP} = \\frac{h}{b}$, so $h = b\\sin C$. Substituting that into the usual area formula gives\n\n$$$A = \\frac{1}{2}ah = \\frac{1}{2}a(b\\sin C) = \\frac{1}{2}ab\\sin C$$\n\nSo when two sides and their included angle are known, use $A = \\frac{1}{2}ab\\sin C$. More generally, for any two sides $x$ and $y$ with included angle $\\theta$, $A = \\frac{1}{2}xy\\sin\\theta$. The angle in the formula must be the one directly between the two sides you choose. Area answers should be given in squared units such as $\\text{cm}^2$ or $\\text{m}^2$."
+  },
+  {
+   "heading": "Worked example: finding an area",
+   "body": "A triangle has sides $14 \\, \\text{cm}$ and $11 \\, \\text{cm}$ with an included angle of $115^\\circ$. Because the angle is between the given sides, the sine area formula works straight away.\n\nSubstitute into the formula. This simplifies to $A = 77\\sin 115^\\circ$.\n\n$$$A = \\frac{1}{2}\\times 14\\times 11\\times \\sin 115^\\circ$$\n\nIn degree mode, this gives $A = 69.785\\ldots$. Rounded to 1 decimal place, the area is $69.8 \\, \\text{cm}^2$."
+  },
+  {
+   "heading": "Working backwards to find an angle",
+   "body": "![Acute and obtuse triangles with sides 12 cm and 15 cm showing angles 53.1 degrees and 126.9 degrees have the same sine value](../assets/001-f338103a-c159-48ea-9c4a-4cd48dfb5d4f.jpeg)\n\nSometimes the area and two sides are known, but the included angle is missing. Start from the same formula and rearrange until sine is on its own.\n\nThe key rearrangement is below. Once you have the sine value, use inverse sine on the calculator.\n\n$$A = \\frac{1}{2}ab\\sin x$$\n\n$$\\sin x = \\frac{2A}{ab}$$\n\nA positive sine value can match both an acute angle and an obtuse angle because $\\sin x = \\sin(180^\\circ - x)$. If the diagram shows an obtuse angle, use $180^\\circ$ minus the calculator angle.",
+   "figure_refs": [
+    "assets/001-f338103a-c159-48ea-9c4a-4cd48dfb5d4f.jpeg"
+   ]
+  },
+  {
+   "heading": "Worked example: finding an obtuse angle",
+   "body": "The triangle has area $72 \\, \\text{cm}^2$ and sides $12 \\, \\text{cm}$ and $15 \\, \\text{cm}$, with included angle $x$. Start by substituting into the formula.\n\n$$$72 = \\frac{1}{2}\\times 12\\times 15\\times \\sin x$$\n\nSimplify to $72 = 90\\sin x$, then divide by 90 to get $\\sin x = 0.8$. Using inverse sine gives the calculator angle $53.130\\ldots^{\\circ}$.\n\nBecause the diagram says the included angle is obtuse, use $180^{\\circ} - 53.130\\ldots^{\\circ} = 126.869\\ldots^{\\circ}$. So $x = 126.9^{\\circ}$ to 1 decimal place."
+  },
+  {
+   "heading": "Algebraic sides and ratios",
+   "body": "If side lengths contain algebra, use the same area formula and solve the resulting equation. For sides $x$ and $x+2$ with included angle 60° and area 12√3 cm², start with:\n\n$$$12√3 = (1/2) × x(x+2) × sin(60°)$$\n\nUse the exact value of the sine:\n\n$$sin(60°) = √3 / 2$$\n\nThen the equation becomes:\n\n$$12√3 = x(x+2) × √3 / 4$$\n\nSo $x(x+2)=48$ and $x^2+2x-48=0$, giving the positive solution $x=6$.\n\nRatios are handled in the same way. If two sides are in the ratio $3:2$, write them as $3k$ and $2k$, solve for $k$, and then give the actual side length asked for."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "In $A = \\frac{1}{2}ab\\sin C$, what must $C$ be?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The angle directly between sides $a$ and $b$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "Any angle in the triangle",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "The largest angle in the triangle",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "The angle opposite side $a$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$C$ must be the included angle because the formula comes from turning one side into a perpendicular height using sine. The most common wrong answer is \"any angle\", but a non-included angle does not create the correct height directly."
+  },
+  {
+   "id": "card-8",
+   "question": "A calculator gives $x = \\sin^{-1}(0.8)=53.1^{\\circ}$. The triangle's included angle is marked obtuse. What is $x$ to 1 decimal place?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$53.1^{\\circ}$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$126.9^{\\circ}$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$36.9^{\\circ}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$233.1^{\\circ}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The correct answer is $126.9^{\\circ}$ because an obtuse angle with the same sine is found by $180^{\\circ} - 53.1^{\\circ}$. The most common wrong answer is $53.1^{\\circ}$, but that is just the acute angle your calculator gives first. Hint: Supplementary angles have the same sine."
+  },
+  {
+   "id": "card-12",
+   "question": "Two sides of a triangle meet at $30^\\circ$. Their lengths are in the ratio $3:2$, and the area is $54 \\, \\text{cm}^2$. What is the shorter side?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$6 \\, \\text{cm}$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$12 \\, \\text{cm}$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$18 \\, \\text{cm}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$24 \\, \\text{cm}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Let the sides be $3k$ and $2k$. Then $54 = \\frac{1}{2}(3k)(2k)\\sin 30^\\circ = \\frac{3}{2}k^2$, so $k=6$ and the shorter side is $2k=12 \\, \\text{cm}$. The most common wrong answer is $6 \\, \\text{cm}$, but 6 is the value of $k$, not the shorter side itself."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-7-7-11-finding-the-area-of-any-triangle/lessons",
+ "source_sha256": "4be9ac07d189ab26358055bd175d0a4296825df5c51d39abe35088c9bad0d51a",
+ "extracted_at": "2026-11-08T17:58:53Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "f789484a-46fc-4ba8-8c77-ba3fe5b27efd",
+  "topic_id": "32e0fbb8-70ec-44f6-9873-120bb114a298",
+  "created_at": "2026-05-13T11:01:25.010Z",
+  "updated_at": "2026-05-13T11:15:30.580Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

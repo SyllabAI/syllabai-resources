@@ -1,0 +1,163 @@
+{
+ "topic": "grade-2-2-17-pie-charts",
+ "lane": "gcse-maths-edexcel",
+ "grade": "2",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Pie charts show parts of a whole",
+   "body": "![Pie chart of spending with Rent largest and Travel marked as a right angle sector](../assets/001-893a83f3-995a-4695-8168-02313909ada8.jpeg)\n\nA pie chart is a circle split into sectors to show how a whole group is shared between categories. Each sector represents one category, and its size shows the frequency or amount.\n\nThe whole pie chart is always a full circle, so the total angle is $360^\\circ$. A larger sector means a larger share of the total.\n\nA right angle sector is $90^\\circ$, so it is $\\frac{90}{360}=\\frac{1}{4}$ of the circle. This fact is very useful when reading totals from a pie chart.",
+   "figure_refs": [
+    "assets/001-893a83f3-995a-4695-8168-02313909ada8.jpeg"
+   ]
+  },
+  {
+   "heading": "Reading a sector as a fraction",
+   "body": "Suppose Leah's travel sector is a right angle and travel costs £180. Since a right angle is $90^\\circ$, the travel sector is $\\frac{90}{360}=\\frac{1}{4}$ of the whole pie chart.\n\nIf £180 is one quarter of the total, multiply by 4 to find the whole amount. So Leah's total spending is £720.\n\nRead the angle, turn it into a fraction of $360^\\circ$, then scale up to the whole. This is the key method for reading values from a pie chart."
+  },
+  {
+   "heading": "Changing between frequency and angle",
+   "body": "When you start with a table, use the frequency to find each sector angle. When you start with a pie chart, use the sector angle to work back to the frequency.\n\nUse these two rules. To find an angle, use $\\frac{\\text{frequency}}{\\text{total frequency}} \\times 360^\\circ$, and to find a frequency, use $\\frac{\\text{sector angle}}{360^\\circ} \\times \\text{total frequency}$.\n\nExample: Vanilla has frequency 15 and angle $90^\\circ$. Since $90^\\circ$ is one quarter of $360^\\circ$, the total frequency is $15 \\times 4 = 60$.\n\nThen Strawberry is $\\frac{120}{360} \\times 60 = 20$ and Mint is $\\frac{60}{360} \\times 60 = 10$. Chocolate is the remaining $90^\\circ$, so its frequency is 15."
+  },
+  {
+   "heading": "Worked example: drawing the chart",
+   "body": "![Pie chart for biscuits with sectors 90 degrees, 126 degrees and 144 degrees labelled Plain, Cream and Chocolate](../assets/002-8c0ec564-31c4-418b-93e5-be24f44dad3b.jpeg)\n\nFor biscuits with frequencies Plain 10, Cream 14, and Chocolate 16, first add the frequencies to get the total: $10 + 14 + 16 = 40$. Chocolate is the mode because 16 is the largest frequency.\n\nNow convert each frequency into an angle. Plain is $\\frac{10}{40}\\times 360^\\circ = 90^\\circ$, Cream is $\\frac{14}{40}\\times 360^\\circ = 126^\\circ$, and Chocolate is $\\frac{16}{40}\\times 360^\\circ = 144^\\circ$.\n\nAlways check the angles before you draw: $90^\\circ + 126^\\circ + 144^\\circ = 360^\\circ$. Draw one radius, measure the first two angles from the centre with a protractor, and the last sector should finish the circle exactly.",
+   "figure_refs": [
+    "assets/002-8c0ec564-31c4-418b-93e5-be24f44dad3b.jpeg"
+   ]
+  },
+  {
+   "heading": "Fractions and probability",
+   "body": "You can change data into a fraction by writing part over whole and simplifying. For 15 white cars out of 50, the fraction that are white is $\\frac{15}{50}=\\frac{3}{10}$.\n\nIf one car is chosen at random, probability uses the same part-over-whole idea. Since 5 out of 50 cars are blue, the probability of not blue is $\\frac{45}{50}=\\frac{9}{10}$."
+  },
+  {
+   "heading": "Comparing two pie charts safely",
+   "body": "Pie charts are excellent for comparing proportions, which means shares of the whole. A larger sector means a larger share in that chart, but not necessarily a larger number.\n\nFor example, School B might have a larger French sector than School A, but if School B has fewer students overall, it could still have fewer French students. You can only compare actual numbers when the totals are also known."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "What does the whole circle in a pie chart represent?",
+   "options": [
+    {
+     "id": "a",
+     "text": "100 items exactly",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "the whole data set, shown by $360^\\circ$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "the largest category only",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "only the categories with labels",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The full circle always represents the whole data set, and a full turn is $360^\\circ$. A common wrong answer is 100, but 100 is for percentages, not the angle total in a pie chart."
+  },
+  {
+   "id": "card-7",
+   "question": "A pie chart represents 60 pupils. A sector has angle $120^\\circ$. What is its frequency?",
+   "options": [
+    {
+     "id": "a",
+     "text": "15",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "20",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "30",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "40",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$120^\\circ$ is $\\frac{120}{360}=\\frac{1}{3}$ of the circle, and $\\frac{1}{3}$ of 60 is 20. The common wrong answer 30 comes from treating $120^\\circ$ as half a circle, but half a circle is $180^\\circ$."
+  },
+  {
+   "id": "card-12",
+   "question": "In a car park there are 18 black, 12 silver, 15 white and 5 blue cars. If one car is chosen at random, what is the probability that it is not blue?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$\\frac{1}{10}$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$\\frac{3}{10}$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$\\frac{9}{10}$",
+     "is_correct": true
+    },
+    {
+     "id": "d",
+     "text": "$$\\frac{5}{9}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "There are 50 cars in total and 45 are not blue, so the probability is $\\frac{45}{50}=\\frac{9}{10}$. The common wrong answer $\\frac{1}{10}$ is the probability of blue, not not blue."
+  },
+  {
+   "id": "card-14",
+   "question": "Stretch: School A has 48 students studying French. In School B, French is the largest sector on a pie chart, but the total number of students in School B is not given. What can you say?",
+   "options": [
+    {
+     "id": "a",
+     "text": "School B definitely has more than 48 French students",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "School B definitely has fewer than 48 French students",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "You can only say French is the largest proportion in School B",
+     "is_correct": true
+    },
+    {
+     "id": "d",
+     "text": "Both schools have the same number of French students",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The pie chart for School B only tells you the share of French within School B, not the actual number. A common wrong answer is A, but a large proportion of a small school could still be fewer than 48 students."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-2-2-17-pie-charts/lessons",
+ "source_sha256": "5866ee8f83db8d8e1d3f3c4b92800e511673e0aefbac928aa7e1588d9bfbc284",
+ "extracted_at": "2026-11-08T17:58:02Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "a5029d46-eb2c-489e-9cf9-3c1872add619",
+  "topic_id": "c223424d-0e74-487f-a456-e5239c70888c",
+  "created_at": "2026-05-13T07:22:09.654Z",
+  "updated_at": "2026-05-13T07:22:59.453Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

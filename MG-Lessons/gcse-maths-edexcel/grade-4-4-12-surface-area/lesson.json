@@ -1,0 +1,139 @@
+{
+ "topic": "grade-4-4-12-surface-area",
+ "lane": "gcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What surface area means",
+   "body": "Surface area is the total area of all the outside surfaces of a 3D shape. It is measured in square units such as $cm^2$ or $m^2$.\n\nFor flat-faced solids, add the areas of every face. For shapes like cylinders, include the curved surface as well as the flat ends.\n\nThe 2D area facts you need most are rectangle area $lw$, triangle area $A=\\frac{1}{2}bh$, and trapezium area $A=\\frac{1}{2}(a+b)h$. The height in triangle and trapezium formulas must be perpendicular to the base."
+  },
+  {
+   "heading": "Cuboids",
+   "body": "![Cuboid labeled length 9 cm, width 4 cm, height 3 cm, with the three matching face pairs highlighted](../assets/001-4a857c77-a49a-4abf-8176-3656f018c945.jpeg)\nA cuboid has six rectangular faces, but only three different face sizes because opposite faces are equal. That gives the shortcut below.\n\n$$$\\text{SA}=2lw+2lh+2wh$$\n\nFor a cuboid with length $9 \\,\\text{cm}$, width $4 \\,\\text{cm}$ and height $3 \\,\\text{cm}$, the three different face areas are $9\\times4=36$, $9\\times3=27$, and $4\\times3=12$. Each one happens twice. So the total surface area is $2(36)+2(27)+2(12)=150$. The cuboid has surface area $150 \\,\\text{cm}^2$, not $75 \\,\\text{cm}^2$, because you must count both faces in each pair.",
+   "figure_refs": [
+    "assets/001-4a857c77-a49a-4abf-8176-3656f018c945.jpeg"
+   ]
+  },
+  {
+   "heading": "Prisms and cross-sections",
+   "body": "![Right-angled triangular prism with triangular cross-section sides 9 cm, 12 cm, 15 cm and length 7 cm, showing cross-section area and perimeter](../assets/002-ea755f54-8bae-4f94-aa5c-3bb62da42634.jpeg)\nA prism has the same cross-section all the way through. For any prism, use the formula below:\n\n$$$\\begin{aligned}\\text{total surface area} &= 2 \\times \\text{cross-section area} \\\\&{}+ \\text{perimeter} \\times \\text{length}\\end{aligned}$$\n\nIn the triangular prism shown, the area of one triangular end is $\\frac{1}{2}\\times9\\times12=54$, so the two ends have area $108 \\,\\text{cm}^2$. The perimeter of the triangle is $9+12+15=36 \\,\\text{cm}$.\n\nThe rectangular side faces together have area $36\\times7=252 \\,\\text{cm}^2$. Adding the areas of the ends and sides gives a final total of $108+252=360 \\,\\text{cm}^2$.",
+   "figure_refs": [
+    "assets/002-ea755f54-8bae-4f94-aa5c-3bb62da42634.jpeg"
+   ]
+  },
+  {
+   "heading": "Composite prisms and L-shaped ends",
+   "body": "For an L-shaped prism, you still use the same prism formula. The hard part is finding the area and perimeter of the L-shaped cross-section, and you must include the inner step edges when you walk around it.\n\nSuppose the cross-section fits inside an $8 \\,\\text{cm}$ by $7 \\,\\text{cm}$ rectangle with a $3 \\,\\text{cm}$ by $4 \\,\\text{cm}$ corner removed, and the prism is $10 \\,\\text{cm}$ long. The end area is $8 \\times 7 - 3 \\times 4 = 56 - 12 = 44 \\,\\text{cm}^2$, so the two ends contribute $88 \\,\\text{cm}^2$.\n\nWalking around the outline gives perimeter $8 + 3 + 3 + 4 + 5 + 7 = 30 \\,\\text{cm}$. The side faces then have area $30 \\times 10 = 300 \\,\\text{cm}^2$, so the total surface area is $388 \\,\\text{cm}^2$."
+  },
+  {
+   "heading": "Closed cylinders",
+   "body": "![Closed cylinder with radius, diameter, height, two circular faces, and curved surface labeled](../assets/003-d06e0f0c-96e8-4ff4-8e15-40869e602946.jpeg)\n\nA closed cylinder has two equal circular faces and one curved surface. Its total surface area is given by the formula:\n\n$$$\\text{total surface area}=2\\pi r^2+2\\pi rh$$\n\nHere, $r$ is the radius and $h$ is the height. If the diameter is $50 \\,\\text{cm}$ and the height is $1.2 \\,\\text{m}$, convert first so the units match. The diameter is $0.5 \\,\\text{m}$, so the radius is $0.25 \\,\\text{m}$.\n\nThe two circles have area $2\\pi(0.25)^2=0.125\\pi$, and the curved surface has area $2\\pi(0.25)(1.2)=0.6\\pi$. So the total is $0.725\\pi \\approx 2.28$, which means the surface area is about $2.28 \\,\\text{m}^2$.",
+   "figure_refs": [
+    "assets/003-d06e0f0c-96e8-4ff4-8e15-40869e602946.jpeg"
+   ]
+  },
+  {
+   "heading": "Paint coverage questions",
+   "body": "In paint questions, first find the surface area of one object, then multiply by the number of objects. After that, divide by the coverage of one pot and round up to the next whole pot.\n\nIf coverage is in $\\text{m}^2$, convert the lengths to metres before you start, or convert $\\text{cm}^2$ to $\\text{m}^2$ at the end. For one closed box measuring $1.2 \\,\\text{m}$ by $0.5 \\,\\text{m}$ by $0.4 \\,\\text{m}$, the surface area is:\n\n$$$2(1.2\\times0.5)+2(1.2\\times0.4)+2(0.5\\times0.4)=2.56 \\,\\text{m}^2$$\n\nFour boxes need $4\\times2.56=10.24 \\,\\text{m}^2$. If one pot covers $3 \\,\\text{m}^2$, then $10.24\\div3\\approx3.41$, so you must buy 4 pots."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Which statement describes total surface area?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The total area of all the outside surfaces of a 3D shape",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "The distance all the way around one face",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "The area of just the top face",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "The space inside the shape",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A is right because surface area adds every outside face or curved surface. B is the perimeter of a face, C misses the other faces, and D is volume."
+  },
+  {
+   "id": "card-7",
+   "question": "A trapezium prism has cross-section area $36\\text{ cm}^2$, cross-section perimeter $28\\text{ cm}$ and length $8\\text{ cm}$. What is its total surface area?",
+   "options": [
+    {
+     "id": "a",
+     "text": "260 cm²",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "296 cm²",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "224 cm²",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "288 cm²",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The prism formula gives $2\\times36+28\\times8=72+224=296$. A is the common mistake of counting only one trapezium end, while D comes from multiplying area by length instead of using perimeter for the side faces."
+  },
+  {
+   "id": "card-12",
+   "question": "A closed cylinder has radius 3 cm and height 10 cm. What is its total surface area?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$60\\pi \\,\\text{cm}^2$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$78\\pi \\,\\text{cm}^2$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$69\\pi \\,\\text{cm}^2$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$18\\pi \\,\\text{cm}^2$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Use $2\\pi r^2+2\\pi rh=2\\pi(3^2)+2\\pi(3)(10)=18\\pi+60\\pi=78\\pi$. A is the most common wrong answer because it finds only the curved surface and forgets the two circular ends."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-4-4-12-surface-area/lessons",
+ "source_sha256": "040f5116fc0ef02c9430f7b61d1c38f11f5e306abbe73d7f4b3708f41676cbe7",
+ "extracted_at": "2026-11-08T17:58:24Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "7498a7d7-c669-4806-8c93-e8d8d78144e8",
+  "topic_id": "71ef37aa-b034-47c9-be14-02918f0c4239",
+  "created_at": "2026-05-14T04:19:29.441Z",
+  "updated_at": "2026-05-14T04:26:55.912Z",
+  "figures": 3,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

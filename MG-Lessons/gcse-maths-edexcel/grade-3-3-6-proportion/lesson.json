@@ -1,0 +1,132 @@
+{
+ "topic": "grade-3-3-6-proportion",
+ "lane": "gcse-maths-edexcel",
+ "grade": "3",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Proportion and multipliers",
+   "body": "Proportion is about keeping the same balance between quantities. In recipe questions, the ingredients are in direct proportion to the number of items made.\n\nIf the number made changes, every ingredient must be scaled by the same multiplier. You can calculate the multiplier using the following formula:\n$$\\text{multiplier} = \\frac{\\text{new number made}}{\\text{old number made}}$$\n\nOnce the multiplier is found, apply it to the original quantities to find the updated amounts:\n$$\\text{new amount} = \\text{old amount} \\times \\text{multiplier}$$\n\nA multiplier greater than 1 scales up, and a multiplier between 0 and 1 scales down. Keep units with your answers, such as g, ml, kg or number of eggs."
+  },
+  {
+   "heading": "Worked example: scaling a recipe up",
+   "body": "![Flow diagram showing original recipe for 10 oat bars, multiplier 1.5, and new recipe for 15 oat bars with all ingredients scaled](../assets/001-1de4301d-20b5-473a-82df-a3efa4822250.jpeg)\nA recipe makes 10 oat bars using 70 g oats, 50 g butter, 20 ml syrup and 40 g sugar. To make 15 oat bars, first find the multiplier from 10 to 15.\n\n$$$\\text{multiplier} = \\frac{15}{10} = 1.5$$\n\nThis means the new recipe is one and a half times the old recipe. Because the recipe stays in direct proportion, multiply every ingredient by 1.5.\n\nOats: $70 \\times 1.5 = 105$, butter: $50 \\times 1.5 = 75$, syrup: $20 \\times 1.5 = 30$, sugar: $40 \\times 1.5 = 60$. Notice that every ingredient changed by the same factor, not just one of them. So the new recipe is 105 g oats, 75 g butter, 30 ml syrup and 60 g sugar.",
+   "figure_refs": [
+    "assets/001-1de4301d-20b5-473a-82df-a3efa4822250.jpeg"
+   ]
+  },
+  {
+   "heading": "Scaling down and using simple fractions",
+   "body": "Scaling down uses the same method as scaling up, but the multiplier is less than 1. For example, going from 12 cakes to 6 cakes gives the following multiplier:\n\n$$$\\frac{6}{12} = \\frac{1}{2}$$ This result means every ingredient is halved. It is often helpful to simplify the multiplier first because fractions are usually quicker to use for mental math.\n\nWhen going from 30 biscuits to 45 biscuits, the multiplier is: $$\\frac{45}{30} = \\frac{3}{2} = 1.5$$ This indicates you can divide the original amounts by 2 and then multiply by 3.\n\nIf 200 g flour makes 12 cakes, then 6 cakes need $200 \\times \\frac{1}{2} = 100$ g of flour. The core method is exactly the same whether you are scaling up or scaling down."
+  },
+  {
+   "heading": "Finding how many are made",
+   "body": "Sometimes you are told how much of one ingredient was used, and you need the number of items made. Compare the amount used with the recipe amount to get a multiplier.\n\nIf 15 ml of milk makes 12 shortcakes and a baker uses 40 ml, then\n$$\\text{multiplier} = \\frac{40}{15} = \\frac{8}{3}$$\nThis means the baker made $\\frac{8}{3}$ times as many shortcakes as the recipe.\n\nSo the number made is $12 \\times \\frac{8}{3} = 32$ shortcakes. A similar idea works for maximum-number questions, but remember to convert units first and round down to a whole number."
+  },
+  {
+   "heading": "Several ingredients and the limiting ingredient",
+   "body": "![Bar chart comparing how many shortcakes sugar, butter, flour and milk allow, with sugar highlighted as the limiting ingredient](../assets/002-fccf07dc-f453-4b54-93a5-a755d3dfb67d.jpeg)\n\nWhen several ingredients are given, check each one separately. The limiting ingredient is the one that runs out first, so it decides the maximum number you can make.\n\nSuppose 10 shortcakes need 50 g sugar, 200 g butter, 150 g flour and 25 ml milk. If Sam has 180 g sugar, then sugar allows $180 \\div 50 = 3.6$ recipe lots, so $3.6 \\times 10 = 36$ shortcakes. Butter allows $900 \\div 200 = 4.5$ lots, so 45 shortcakes.\n\nIf Sam also has 600 g flour and 120 ml milk, then flour allows $600 \\div 150 = 4$ lots, so 40 shortcakes. Milk allows $120 \\div 25 = 4.8$ lots, so 48 shortcakes. The smallest number is 36, so Sam can make 36 shortcakes and sugar is the limiting ingredient.",
+   "figure_refs": [
+    "assets/002-fccf07dc-f453-4b54-93a5-a755d3dfb67d.jpeg"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-3",
+   "question": "A recipe makes 12 muffins. To change it to 18 muffins, what multiplier should you use?",
+   "options": [
+    {
+     "id": "a",
+     "text": "1.5",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "0.67",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "6",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "30",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The multiplier is new divided by old, so $18 \\div 12 = 1.5$. The common wrong answer $0.67$ comes from doing old divided by new, which would scale the recipe the wrong way."
+  },
+  {
+   "id": "card-8",
+   "question": "A recipe makes 20 scones using 50 g sugar. A baker uses 125 g sugar. How many scones does the baker make?",
+   "options": [
+    {
+     "id": "a",
+     "text": "8",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "40",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "50",
+     "is_correct": true
+    },
+    {
+     "id": "d",
+     "text": "125",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The sugar multiplier is $125 \\div 50 = 2.5$, so the number of scones is $20 \\times 2.5 = 50$. The common wrong answer 8 comes from flipping the multiplier to $50 \\div 125$, which scales down instead of up."
+  },
+  {
+   "id": "card-13",
+   "question": "Stretch: A recipe makes 8 cakes using 180 g flour and 120 ml milk. Ava has 500 g flour and 0.75 litres of milk. What is the greatest number of cakes she can make?",
+   "options": [
+    {
+     "id": "a",
+     "text": "20",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "22",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "24",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "50",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Convert 0.75 litres to 750 ml. Flour allows $500 \\div 180 \\times 8 = 22.2\\dots$, so the greatest whole number is 22, while milk allows $750 \\div 120 \\times 8 = 50$. The common wrong answer 50 comes from checking only the milk and missing that flour is the limiting ingredient."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-3-3-6-proportion/lessons",
+ "source_sha256": "97859707a979f788899c70cb5a1f7e6ef0330737bad10fb721719202a76eb0b9",
+ "extracted_at": "2026-11-08T17:58:19Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "c4b01ffb-3915-45f7-9c02-289bb18cb1f8",
+  "topic_id": "c51f0e93-5b86-4483-ba18-b4baab2d79c4",
+  "created_at": "2026-05-13T06:28:46.453Z",
+  "updated_at": "2026-05-13T06:33:10.877Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

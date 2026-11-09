@@ -1,0 +1,129 @@
+{
+ "topic": "grade-5-5-12-solving-simultaneous-equations-graphically",
+ "lane": "gcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What a graphical solution means",
+   "body": "On a graph, the x-axis is horizontal and the y-axis is vertical. The axes cross at the origin, and a point is written as $(x, y)$ so you always read the x-coordinate first and the y-coordinate second.\n\nEach straight-line graph shows all the points that satisfy one equation. When two lines cross, that point satisfies both equations at the same time.\n\nThat is why the intersection gives the solution to simultaneous equations. If the crossing point is $(2, 3)$, you write the answer as $x = 2$ and $y = 3$."
+  },
+  {
+   "heading": "Drawing a line when y is already isolated",
+   "body": "If an equation already has $y$ on its own, choose some $x$-values and work out the matching $y$-values. Two points are enough for a line, but three points help you spot mistakes.\n\nFor $y = 2x - 1$, choose $x = 0$, $x = 1$, and $x = 2$. The matching values are:\n\n$$$\\begin{aligned} x = 0 &\\Rightarrow y = -1 \\\\ x = 1 &\\Rightarrow y = 1 \\\\ x = 2 &\\Rightarrow y = 3 \\end{aligned}$$\n\nPlot the points $(0, -1)$, $(1, 1)$, and $(2, 3)$. Then join them with a ruler to make the straight-line graph."
+  },
+  {
+   "heading": "Rearranging before you plot",
+   "body": "Some equations are not ready to draw because $y$ is not isolated. Rearrange them so $y$ is on its own before choosing points.\n\nFor $2y - x = 6$, add $x$ to both sides and then divide by 2. This gives:\n\n$$$2y - x = 6 \\Rightarrow 2y = x + 6 \\Rightarrow y = \\frac{1}{2}x + 3$$\n\nNow choose friendly $x$-values such as $0$, $2$, and $4$, because they give whole-number $y$-values. That produces the points $(0, 3)$, $(2, 4)$, and $(4, 5)$."
+  },
+  {
+   "heading": "Worked example: solve by drawing both lines",
+   "body": "![Graph of y = -x + 4 and y = 1/2 x + 1 crossing at (2, 2) on labelled axes](../assets/001-02b8f365-e0d9-4739-a2f3-bf8050953f9e.jpeg)\nTo solve $y = -x + 4$ and $2y - x = 2$ graphically, draw both lines on the same axes and then read where they meet. The graph shows the intersection clearly, but it helps to see how each line was built.\n\nFor the first line, $y = -x + 4$, easy points are $(0, 4)$ and $(4, 0)$. Plot those points and join them with a straight line.\n\nFor the second equation, first rearrange it. This gives:\n$$\n2y - x = 2 \\Rightarrow 2y = x + 2 \\Rightarrow y = \\frac{1}{2}x + 1\n$$\n\nNow use points such as $(0, 1)$, $(2, 2)$, and $(4, 3)$ and draw the second line. The lines intersect at $(2, 2)$, so the solution is $x = 2$ and $y = 2$, and a quick check gives $2 = -2 + 4$ and $2 \\times 2 - 2 = 2$.",
+   "figure_refs": [
+    "assets/001-02b8f365-e0d9-4739-a2f3-bf8050953f9e.jpeg"
+   ]
+  },
+  {
+   "heading": "Negative coordinates and no solution",
+   "body": "Sometimes the intersection is left of the $y$-axis or below the $x$-axis, so one or both coordinates are negative. You still read the coordinate in the same order: $x$ first, then $y$.\n\nIf two lines are parallel, they never meet, so the simultaneous equations have no solution. This happens when the lines have the same slope but different intercepts.\n\nGraphical answers depend on accuracy. Use a ruler, label the lines clearly, and if the crossing is between grid lines, give the best estimate you can."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Two drawn lines intersect at $(2, 3)$. What is the solution of the simultaneous equations?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$x = 2$, $y = 3$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$x = 3$, $y = 2$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$x = 2$, $y = 1$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$x = 3$, $y = 5$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Coordinates are written in the order $(x, y)$, so $(2, 3)$ means $x = 2$ and $y = 3$. The most common wrong answer is B because it swaps the coordinates. Read across for $x$, then up or down for $y$."
+  },
+  {
+   "id": "card-8",
+   "question": "Which is the correct rearrangement of $2y - x = 2$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$y = x + 2$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$y = \\frac{1}{2}x + 1$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$y = 2x + 1$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$y = \\frac{1}{2}x - 1$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Add $x$ to both sides to get $2y = x + 2$, then divide every term by 2 to get $y = \\frac{1}{2}x + 1$. A common wrong answer is A because it forgets to divide the x-term by 2 as well as the constant."
+  },
+  {
+   "id": "card-12",
+   "question": "Stretch: Without drawing, which pair of equations has no solution?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$y = x + 2$ and $y = -x + 2$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$y = 2x - 1$ and $2y = 4x + 6$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$y = \\frac{1}{2}x + 3$ and $x + 2y = 6$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$y = -x + 4$ and $y = x - 2$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Parallel lines never intersect. In B, $2y = 4x + 6$ rearranges to $y = 2x + 3$, so both lines have the same slope 2 but different intercepts. A common wrong answer is A, but those lines have opposite slopes and actually meet at $(0, 2)$."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-5-5-12-solving-simultaneous-equations-graphically/lessons",
+ "source_sha256": "677a5054229732e14f693088406b4daf5faa82fd1dcdc619d01b1ca2c824f52b",
+ "extracted_at": "2026-11-08T17:58:34Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "0ba37e63-e7d7-45a1-8c54-f80d68cdc2e5",
+  "topic_id": "91f6e325-f0ad-469f-bed5-284550859b3d",
+  "created_at": "2026-05-13T11:04:52.320Z",
+  "updated_at": "2026-05-13T11:07:46.573Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

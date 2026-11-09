@@ -1,0 +1,33 @@
+{
+ "receipt": "T-MG-LS-1-run-001",
+ "task_id": "T-MG-LS-1",
+ "date": "2026-11-08T17:59:08Z",
+ "actor": "SyllabAI corpus agent",
+ "scope": "MG-Lessons/gcse-maths-edexcel — per-topic step-by-step lesson cards with MC checks (video links of record only)",
+ "sources": [
+  "https://www.mathsgenie.co.uk (live, per-topic mode pages)",
+  "mathsgenie.co.uk/sitemap.xml (mode-page availability; verified 200 at fetch)",
+  "SyllabAI/MathsGenie catalog (gcse cross-check)"
+ ],
+ "counts": {
+  "steps": 688,
+  "quiz_questions": 398,
+  "figures": 186,
+  "files": 432,
+  "bytes": 23574795,
+  "topics_in_catalog": 134,
+  "topics_with_mode": 122
+ },
+ "exclusions": [
+  "No past-paper / predicted-paper PDFs anywhere (operator decision 2026-11-07). 0 PDFs stored.",
+  "No media downloads: videos stored as embed links of record only."
+ ],
+ "honest_gaps": "none",
+ "verification": {
+  "json_parse_all": true,
+  "pdf_files_in_corpus": 0,
+  "extract_gaps": 0
+ },
+ "supersedes": null,
+ "related_runs": []
+}

@@ -1,0 +1,98 @@
+# grade-7-7-17-conditional-probability — lesson
+
+_Lane: `gcse-maths-edexcel` · grade 7 · 6 content steps · 3 check questions (source: MathsGenie lessons)_
+
+## Tree diagrams and the meaning of "given"
+
+![Probability tree for drawing two counters without replacement from a bag with 5 red and 3 blue counters, showing first and second branch probabilities](../assets/001-aad76bf6-de5b-4564-b55e-454007ddc8ba.jpeg)
+A probability tree shows the possible routes through a sequence of events. In conditional probability, the second probability can depend on what happened first, so the branches after the first split may be different.
+
+Conditional probability is written $P(B \mid A)$, which means "the probability of $B$ given that $A$ has already happened". On any split in a tree, the branch probabilities must add to 1.
+
+Without replacement means the first item is not put back before the second choice. That changes the total number left and may also change how many of each type are available.
+
+## Complements fill the missing branches
+
+If there are only two outcomes from a point on the tree, the missing branch is found by subtracting from 1. This uses the complement of the event.
+
+For example, if $P(\text{blue on Monday})=0.65$, then $P(\text{black on Monday})=1-0.65=0.35$. The same idea works on the second stage of the tree as well.
+
+If Tuesday blue given Monday blue is $0.4$, then Tuesday black given Monday blue is $1-0.4=0.6$. If Tuesday blue given Monday black is $0.7$, then Tuesday black given Monday black is $1-0.7=0.3$.
+
+## Multiply along, then add separate routes
+
+When a question asks for two events in sequence, use the AND rule $$P(A \text{ and } B)=P(A)\times P(B \mid A)$$ and multiply along one route. For without replacement, the second fraction usually changes because the bag has changed.
+
+A bag has 7 red and 5 green counters. The probability of red then red is $$P(\text{red then red})=\frac{7}{12}\times\frac{6}{11}=\frac{42}{132}$$ and the probability of green then green is $$P(\text{green then green})=\frac{5}{12}\times\frac{4}{11}=\frac{20}{132}$$
+
+These routes are mutually exclusive, so we add them to get the probability of the same colour. You only add after finding each full route probability. $$P(\text{same colour})=\frac{42}{132}+\frac{20}{132}=\frac{62}{132}=\frac{31}{66}$$
+
+## Different colours means two possible orders
+
+For "different colours" or "one of each", first list the possible routes. Usually there are two orders, and forgetting one of them loses marks.
+
+Suppose $P(\text{black on Monday})=0.55$, $P(\text{black on Tuesday} \mid \text{black on Monday})=0.3$, and $P(\text{black on Tuesday} \mid \text{not black on Monday})=0.8$. First use complements to find the missing branches: $P(\text{not black on Monday})=1-0.55=0.45$ and $P(\text{not black on Tuesday} \mid \text{black on Monday})=1-0.3=0.7$.
+
+Different colours means black then not black, or not black then black. To find the total probability, we calculate and sum the probabilities of these two mutually exclusive sequences.
+
+$$$P(\text{different})=(0.55\times 0.7)+(0.45\times 0.8)=0.385+0.36=0.745$$
+
+## Venn-style counting before probability
+
+![Three-circle Venn diagram for Tea, Coffee, and Juice with region counts 4 in Tea only, 9 in Coffee only, 2 in Juice only, 5 in Tea and Coffee only, 5 in Tea and Juice only, 3 in Coffee and Juice only, and 12 in all three](../assets/002-1922ff66-9729-48ec-8994-4bae80820b00.jpeg)
+
+In survey questions, first work out how many people are in the group you need. Also watch the wording: "tea and coffee" includes the middle region unless it specifically says "but not juice".
+
+In this completed Venn diagram, the number who like coffee is $9+5+3+12=29$. There are 40 students altogether, so the first student has probability $\frac{29}{40}$ of liking coffee.
+
+For both chosen students to like coffee, we use without replacement. After one coffee-liker is chosen, 39 students remain and 28 of them still like coffee.
+
+$$$P(\text{both like coffee})=\frac{29}{40}\times\frac{28}{39}=\frac{203}{390}$$
+
+## Stretch: more than two categories
+
+With more than two types of outcome, consider each possible first result separately. The second probability changes depending on which card came first.
+
+From the cards $1, 1, 2, 2, 4$, if the first card is $1$ then $3$ of the $4$ remaining cards are greater. If the first card is $2$, only the $4$ is greater, and if the first card is $4$, none are greater.
+
+So the required probability is
+$$\frac{2}{5} \times \frac{3}{4} + \frac{2}{5} \times \frac{1}{4} + \frac{1}{5} \times 0 = \frac{8}{20} = \frac{2}{5}$$
+You add these routes because they are different possible first cards that lead to the event.
+
+## Check yourself
+
+1. What does $P(\text{blue second} \mid \text{red first})$ mean?
+
+   - The probability the second counter is blue, given the first counter was red. ✔
+
+   - The probability the first counter was red, given the second counter is blue.
+
+   - The probability of getting one red and one blue in any order.
+
+   - The probability both counters are red.
+
+   _Explanation:_ The vertical bar means "given that", so the event after the bar has already happened. Option B is the common reversal because it swaps the condition and the outcome, and conditional probabilities are not usually the same when you reverse them.
+
+2. A bag has 7 red and 5 green counters. Two counters are chosen without replacement. What is the probability that they are the same colour?
+
+   - $$\frac{31}{66}$ ✔
+
+   - $$\frac{31}{72}$
+
+   - $$\frac{21}{66}$
+
+   - $$\frac{10}{11}$
+
+   _Explanation:_ Same colour means red then red or green then green, so the probability is $\frac{7}{12}\times\frac{6}{11}+\frac{5}{12}\times\frac{4}{11}=\frac{31}{66}$. Option B is the common mistake of forgetting that there are only 11 counters left on the second draw, not 12.
+
+3. In the survey, 17 students like tea and coffee, and 12 like all three drinks. How many like tea and coffee only?
+
+   - 5 ✔
+
+   - 17
+
+   - 12
+
+   - 29
+
+   _Explanation:_ "Tea and coffee" includes the 12 students in the middle who also like juice, so tea and coffee only is $17-12=5$. Option B is the common mistake because it forgets to remove the all-three group.

@@ -1,0 +1,136 @@
+{
+ "topic": "grade-8-9-8-10-vectors-proof-questions",
+ "lane": "gcse-maths-edexcel",
+ "grade": "8",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Routes and position vectors",
+   "body": "![Triangle with origin O, position vectors OA equals 4a and OB equals 3b, with AB and BA labelled](../assets/001-8e9fab70-eb9e-43f5-8985-e3ecbc1a1f09.jpeg)\n\nVectors proof questions turn a diagram into algebra. The first job is to write important position vectors from the origin, usually in terms of $a$ and $b$.\n\nA side vector is found by subtracting position vectors in the correct order. The key route fact is\n$$\\vec{AB}=\\vec{OB}-\\vec{OA}$$\n\nSo if $\\vec{OA}=4a$ and $\\vec{OB}=3b$, then\n$$\\vec{AB}=3b-4a,\\qquad \\vec{BA}=4a-3b$$\nReversing the direction changes the sign, so order always matters.",
+   "figure_refs": [
+    "assets/001-8e9fab70-eb9e-43f5-8985-e3ecbc1a1f09.jpeg"
+   ]
+  },
+  {
+   "heading": "Points dividing a line in a ratio",
+   "body": "![Line segment AB with point P between them, AP:PB equals 2:1, and position vectors OA, OB and OP shown](../assets/002-cd0b6485-8a19-4a3d-bd2e-08ecde0cca3c.jpeg)\n\nIf P lies on AB with $\\text{AP}:\\text{PB}=m:n$, then P is $\\frac{m}{m+n}$ of the way from A to B. This lets you turn a ratio statement into a vector step along the line.\n\nStarting from A gives\n$$\\vec{OP}=\\vec{OA}+\\frac{m}{m+n}\\vec{AB}$$\nThis is usually the safest method because you can see how far you travel from A.\n\nYou can also use the weighted form\n$$\\vec{OP}=\\frac{n}{m+n}\\vec{OA}+\\frac{m}{m+n}\\vec{OB}$$\nThe opposite weights are easy to mix up, so check which part of the ratio is attached to which end.",
+   "figure_refs": [
+    "assets/002-cd0b6485-8a19-4a3d-bd2e-08ecde0cca3c.jpeg"
+   ]
+  },
+  {
+   "heading": "Worked example: finding $k$",
+   "body": "In triangle OAB, $\\vec{OA}=3a$ and $\\vec{OB}=2b$. Point P lies on AB with the ratio $\\text{AP}:\\text{PB}=2:1$, and we are given that $\\vec{OP}=k(3a+4b)$. Our goal is to determine the value of the scalar $k$.\n\nBecause P is $\\frac{2}{3}$ of the way from A to B, we use the vector addition $\\vec{OP}=\\vec{OA}+\\frac{2}{3}\\vec{AB}$. We first find the vector for the side $\\vec{AB} = \\vec{OB} - \\vec{OA} = 2b-3a$.\n\nSubstitute and simplify the expression for $\\vec{OP}$ carefully:\n$$\n\\begin{aligned}\n\\vec{OP}&=3a+\\frac{2}{3}(2b-3a)\\\\\n&=3a+\\frac{4}{3}b-2a\\\\\n&=a+\\frac{4}{3}b\n\\end{aligned}\n$$\nThis gives us the vector in its simplest linear form.\n\nNow factor to match the given form $k(3a+4b)$:\n$$\n\\vec{OP}=\\frac{1}{3}(3a+4b)\n$$\nComparing terms, we find $k=\\frac{1}{3}$. A common mistake is using $\\frac{1}{3}\\vec{AB}$ instead of $\\frac{2}{3}\\vec{AB}$ when setting up the initial path."
+  },
+  {
+   "heading": "Worked example: proving points are collinear",
+   "body": "In triangle $OAB$, $\\vec{OA}=6a$ and $\\vec{OB}=4b$. Point $C$ lies on $OA$ with $\\text{OC}:\\text{CA}=2:1$, $M$ is the midpoint of $AB$, and $D$ lies on $OB$ extended with $\\text{OB}:\\text{OD}=1:2$. We want to show that $C$, $M$ and $D$ are collinear.\n\nFirst find the position vectors:\n$$\\vec{OC}=4a,\\qquad \\vec{OM}=\\frac{1}{2}(6a+4b)=3a+2b,\\qquad \\vec{OD}=8b$$\nWriting these first makes the rest of the proof much cleaner.\n\nUse $C$ as the common starting point. Then:\n$$\\vec{CM}=\\vec{OM}-\\vec{OC}=(3a+2b)-4a=-a+2b$$\nand\n$$\\vec{CD}=\\vec{OD}-\\vec{OC}=8b-4a=-4a+8b$$\n\nNow compare the two vectors:\n$$\\vec{CD}=4\\vec{CM}$$\nSince they are scalar multiples and both start from $C$, the points $C$, $M$ and $D$ lie on the same straight line."
+  },
+  {
+   "heading": "Shape facts and extension tricks",
+   "body": "Harder proofs often hide extra vector facts inside shapes. In a parallelogram, if $O$ is one corner and $A$ and $B$ are adjacent corners, then the opposite corner $C$ satisfies the following relation:\n\n$$$\\vec{OC}=\\vec{OA}+\\vec{OB}$$\n\nRegular hexagons also give useful shortcuts. Opposite vertices have opposite position vectors, and adjacent vertex relations can often be written using $p$ and $q$, such as $\\vec{OT}=-q$.\n\nIf a point lies on an extension, put the unknown in the known direction. For example, if $E$ lies on $OB$ extended, write $\\vec{BE}=tb$ so $\\vec{OE}=(3+t)b$, then use collinearity and compare coefficients of $a$ and $b$."
+  },
+  {
+   "heading": "Worked example: finding an unknown extension vector",
+   "body": "In triangle OAB, $\\vec{OA}=6a$ and $\\vec{OB}=3b$. Point C lies on OA with $\\text{OC}:\\text{CA}=5:1$, point D lies on AB with $\\text{AD}:\\text{DB}=1:2$, and OB is extended to E. Given that C, D and E are collinear, find $\\vec{BE}$.\n\nFirst find the position vectors for points C and D. Using the given ratios, we calculate:\n$$\\vec{OC}=5a,\\qquad \\vec{OD}=\\frac{2}{3}(6a)+\\frac{1}{3}(3b)=4a+b$$\nNow let $\\vec{BE}=tb$, which implies $\\vec{OE}=(3+t)b$.\n\nForm two vectors starting from point C to represent segments of the line CDE:\n$$\\vec{CD}=\\vec{OD}-\\vec{OC}=(4a+b)-5a=-a+b$$\n$$\\vec{CE}=\\vec{OE}-\\vec{OC}=(3+t)b-5a=-5a+(3+t)b$$\n\nBecause C, D and E are collinear, we write $\\vec{CE}=\\lambda\\vec{CD}$. Comparing coefficients of $a$ gives $-5=-\\lambda$, so $\\lambda=5$. Comparing coefficients of $b$ gives $3+t=5$, so $t=2$ and therefore $\\vec{BE}=2b$."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "In triangle OAB, $\\vec{OA}=6a$ and $\\vec{OB}=2b$. What is $\\vec{AB}$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$2b-6a$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$6a-2b$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$6a+2b$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$4b$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$\\vec{AB}$ means from A to B, so you subtract $\\vec{OA}$ from $\\vec{OB}$. The common wrong answer is $6a-2b$ because that is actually $\\vec{BA}$, the vector in the opposite direction."
+  },
+  {
+   "id": "card-6",
+   "question": "A student writes $\\vec{OP}=\\vec{OA}+\\frac{1}{3}\\vec{AB}$ when $\\text{AP}:\\text{PB}=2:1$. What is the mistake?",
+   "options": [
+    {
+     "id": "a",
+     "text": "They used the fraction from B instead of the fraction from A",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "They should have used $\\vec{OP}=\\vec{OA}+\\frac{3}{2}\\vec{AB}$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "They should have added $\\vec{OA}$ and $\\vec{OB}$ directly",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "There is no mistake",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$2:1$ means P is two out of three equal parts from A, so the step along AB should be $\\frac{2}{3}\\vec{AB}$. The common wrong answer is $\\frac{3}{2}\\vec{AB}$ because that would place P beyond B, not between A and B."
+  },
+  {
+   "id": "card-12",
+   "question": "In triangle OAB, $\\vec{OB}=3b$ and E lies on OB extended beyond B. Which is the best way to represent E?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$\\vec{BE}=tb$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$\\vec{BE}=ta$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$\\vec{OE}=ta+tb$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$\\vec{AE}=tb$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "E stays on the same line and in the same direction as OB, so the unknown vector must be a scalar multiple of $b$. The common wrong answer is $\\vec{OE}=ta+tb$ because that is a general vector and may not lie on line OB at all."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-8-9-8-10-vectors-proof-questions/lessons",
+ "source_sha256": "f1df95a4e9e15af819e1c7dec67141587017d6d1c0d6a61e947dcb3f78da5c6f",
+ "extracted_at": "2026-11-08T17:59:03Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "60fa21ef-ca49-47d6-ab17-b38b8ea1758e",
+  "topic_id": "43076e26-643d-4858-9dc3-b8b12508a39e",
+  "created_at": "2026-05-14T08:51:01.006Z",
+  "updated_at": "2026-05-14T08:54:24.441Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

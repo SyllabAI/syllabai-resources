@@ -1162,3 +1162,12 @@ run evidence under `scripts/mg_rg1_run001/`.
 `MG-Flashcards/T-MG-FC-1-run-001-RECEIPT.json`; scripts land as `scripts/mg_fc1_*.py`
 (+ shared `mg_common.py`, `rsc.py`, `envelope.py`) with run evidence under
 `scripts/mg_fc1_run001/`.
+---
+
+## Wave 30 — MG-Lessons lands: MathsGenie gcse-maths-edexcel step-by-step lessons (T-MG-LS-1 run-001; branch `t-mg-ls-1/run-001`)
+
+`T-MG-LS-1/run-001` opens the **MG-Lessons plane** for `gcse-maths-edexcel`: 122/134 catalog topics carry the lessons mode; gaps recorded as not-offered.
+122/134 mode-publishing topics extracted; 688 lesson steps, 398 MC check questions, 186 inline figure assets; videos stay links-of-record (lessons pages of record embed none). Zero PDFs stored (operator decision 2026-11-07). Receipt:
+`MG-Lessons/T-MG-LS-1-run-001-RECEIPT.json`; scripts land as `scripts/mg_ls1_*.py`
+(+ shared `mg_common.py`, `rsc.py`, `envelope.py`) with run evidence under
+`scripts/mg_ls1_run001/`.

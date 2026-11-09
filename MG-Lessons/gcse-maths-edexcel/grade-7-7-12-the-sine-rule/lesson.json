@@ -1,0 +1,140 @@
+{
+ "topic": "grade-7-7-12-the-sine-rule",
+ "lane": "gcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Opposite pairs",
+   "body": "![Triangle ABC with angles A, B, C and opposite sides BC, AC, AB colour coded to show opposite pairs](../assets/001-002d678d-dd9d-4451-bee2-15c7c34ad14c.jpeg)\nThe sine rule is usually used in non-right-angled triangles and links each angle to the side directly opposite it. Before you substitute anything, identify the matching side-angle pairs.\n\nIn triangle $ABC$, side $BC$ is opposite angle $A$, side $AC$ is opposite angle $B$, and side $AB$ is opposite angle $C$. If two angles are known, find the third first because $A + B + C = 180^\\circ$.",
+   "figure_refs": [
+    "assets/001-002d678d-dd9d-4451-bee2-15c7c34ad14c.jpeg"
+   ]
+  },
+  {
+   "heading": "The formula and when to use it",
+   "body": "Use the sine rule when you know one complete opposite pair and at least one more side or angle from another pair. If the triangle is right-angled and you are working with opposite, adjacent, and hypotenuse, SOHCAHTOA is often the better choice.\n\nFor a missing side, keep the side lengths on top:\n$$\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}$$\n\nFor a missing angle, many students prefer the equivalent form with sines on top:\n$$\\frac{\\sin A}{a} = \\frac{\\sin B}{b} = \\frac{\\sin C}{c}$$\n\nKeep your calculator in degree mode because GCSE triangle questions use degrees unless told otherwise. The most common mistake is pairing an angle with a side that touches it instead of the side across from it."
+  },
+  {
+   "heading": "Worked example: finding a missing side",
+   "body": "In triangle $DEF$, $DE = 14$ cm, angle $F = 101^\\circ$, and angle $E = 37^\\circ$. The complete opposite pair is $DE = 14$ cm with angle $F = 101^\\circ$.\n\nWe want $DF$, which is opposite angle $E$. Let $DF = x$ and apply the Sine Rule ratio: $$\\frac{x}{\\sin 37^\\circ} = \\frac{14}{\\sin 101^\\circ}$$\n\nMultiply by $\\sin 37^\\circ$ to make $x$ the subject: $$x = \\frac{14\\sin 37^\\circ}{\\sin 101^\\circ} \\approx 8.56$$ So $DF \\approx 8.6$ cm to 1 decimal place, and it is best to round only at the end."
+  },
+  {
+   "heading": "Worked example: finding a missing angle",
+   "body": "In triangle $GHI$, $GH = 9.5$ m, $GI = 7.0$ m, and angle $I = 72^\\circ$. The full known pair is $GH = 9.5$ m opposite angle $I = 72^\\circ$.\n\nSide $GI = 7.0$ m is opposite angle $H$, so use the angle form: $$\\frac{\\sin H}{7.0} = \\frac{\\sin 72^\\circ}{9.5}$$ This gives $$\\sin H = \\frac{7.0\\sin 72^\\circ}{9.5} \\approx 0.701$$\n\nNow use inverse sine: $$H = \\sin^{-1}\\left(\\frac{7.0\\sin 72^\\circ}{9.5}\\right) \\approx 44.5^\\circ$$ $\\sin^{-1}$ means \"find the angle\", not \"divide by sine\"."
+  },
+  {
+   "heading": "Using the sine rule for perimeter",
+   "body": "Triangle $ABC$ has $AC = 10.4$ m, angle $B = 112^\\circ$, and angle $C = 39^\\circ$. Perimeter questions usually mean you must find missing sides first, so start with the angle sum to find $A = 29^\\circ$.\n\nThe known pair is $AC = 10.4$ m opposite angle $B = 112^\\circ$. Use this to find the other two side lengths, $AB$ and $BC$: $$AB = \\frac{10.4\\sin 39^\\circ}{\\sin 112^\\circ} \\approx 7.06$$ $$BC = \\frac{10.4\\sin 29^\\circ}{\\sin 112^\\circ} \\approx 5.44$$\n\nNow add all three sides to find the total distance: $$P = 10.4 + 7.06 + 5.44 \\approx 22.9$$ The perimeter is $22.9$ m. Note that rounding intermediate values too early can change the final answer."
+  },
+  {
+   "heading": "Using the sine rule before area",
+   "body": "For any non-right-angled triangle, area can be found with\n$$\\text{Area} = \\frac{1}{2}ab\\sin C$$\nHere, $C$ is the included angle between sides $a$ and $b$.\n\nIn triangle $LMN$, $LM = 12$ m, angle $L = 74^\\circ$, and angle $N = 38^\\circ$. First find $M = 68^\\circ$, then use the known pair $LM = 12$ m opposite angle $N = 38^\\circ$ to get\n$$LN = \\frac{12\\sin 68^\\circ}{\\sin 38^\\circ} \\approx 18.07$$\nSo $LN \\approx 18.07$ m.\n\nNow use sides $LM$ and $LN$ with the included angle $L = 74^\\circ$:\n$$\\text{Area} = \\frac{1}{2} \\times 12 \\times 18.07 \\times \\sin 74^\\circ \\approx 104.2$$\nSo the area is $104.2 \\, \\text{m}^2$, and the sine rule was the bridge to the missing side."
+  },
+  {
+   "heading": "The obtuse angle twist",
+   "body": "![Triangle showing two possible positions for point B when AC is 18 cm, AB is 12 cm and angle C is 32 degrees, giving acute and obtuse values of angle B](../assets/002-1c9ca99a-80f8-42de-99f9-934802e61d6f.jpeg)\nSometimes $\\sin^{-1}$ gives the acute angle first, but a triangle question may need the obtuse one. This happens because $\\sin \\theta = \\sin(180^\\circ - \\theta)$ for angles between $0^\\circ$ and $180^\\circ$.\n\nSuppose $AC = 18$ cm, $AB = 12$ cm, and angle $C = 32^\\circ$, with angle $B$ stated to be obtuse. The sine rule gives\n$$\\frac{\\sin B}{18} = \\frac{\\sin 32^\\circ}{12}$$\nwhich simplifies to\n$$\\sin B = \\frac{18\\sin 32^\\circ}{12} \\approx 0.795$$\n\nThe calculator gives $B \\approx 52.6^\\circ$, but that is the acute possibility. Because the question says $B$ is obtuse, use\n$$B = 180^\\circ - 52.6^\\circ = 127.4^\\circ$$\nso $B \\approx 127^\\circ$ to 3 significant figures.",
+   "figure_refs": [
+    "assets/002-1c9ca99a-80f8-42de-99f9-934802e61d6f.jpeg"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-3",
+   "question": "In triangle $PQR$, $PQ = 9$ cm, angle $P = 47^\\circ$ and angle $R = 68^\\circ$. Which is the complete opposite pair?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$PQ = 9$ cm with angle $R = 68^\\circ$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$PQ = 9$ cm with angle $P = 47^\\circ$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$PQ = 9$ cm with angle $Q = 65^\\circ$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$PR = 9$ cm with angle $R = 68^\\circ$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$PQ$ lies directly across from angle $R$, so $9$ cm pairs with $68^\\circ$. The most common wrong answer is $PQ = 9$ cm with angle $P = 47^\\circ$ because students match the side to the angle at the same vertex, but opposite means across the triangle."
+  },
+  {
+   "id": "card-8",
+   "question": "Which equation correctly sets up the calculation for angle $H$ in the triangle from the worked example?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$\\frac{\\sin H}{7.0} = \\frac{\\sin 72^{\\circ}}{9.5}$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$\\frac{\\sin H}{9.5} = \\frac{\\sin 72^{\\circ}}{7.0}$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$\\frac{7.0}{\\sin 72^{\\circ}} = \\frac{9.5}{\\sin H}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$\\sin H = \\frac{9.5\\sin 72^{\\circ}}{7.0}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The correct setup matches each angle with its opposite side, so angle $H$ must pair with $7.0$ and angle $72^{\\circ}$ must pair with $9.5$. The most common wrong answer is B because it swaps the side-angle pairs, which breaks the opposite matching. Hint: Check which side lies across from each angle."
+  },
+  {
+   "id": "card-15",
+   "question": "Stretch: Triangle $ABC$ has $AC = 18$ cm, $AB = 12$ cm, angle $C = 32^\\circ$, and angle $B$ is obtuse. What is angle $B$ to 3 significant figures?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$52.6^\\circ$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$127^\\circ$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$95.4^\\circ$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$148^\\circ$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The sine rule gives $\\sin B \\approx 0.795$, so inverse sine first gives $52.6^\\circ$. The most common wrong answer is $52.6^\\circ$ because students stop at the calculator display, but the question says angle $B$ is obtuse, so the correct angle is $180^\\circ - 52.6^\\circ = 127.4^\\circ$, which rounds to $127^\\circ$."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-7-7-12-the-sine-rule/lessons",
+ "source_sha256": "c8788a35d93f6bc43caa18549f38185a16615ddc89a246c0784ca405186a1cc5",
+ "extracted_at": "2026-11-08T17:58:54Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "e9f84ccb-a328-4a17-93b1-fdbbb990bae5",
+  "topic_id": "db7a6cae-7133-4fd4-a467-12947f3d2099",
+  "created_at": "2026-05-14T02:58:45.258Z",
+  "updated_at": "2026-05-14T03:07:35.964Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

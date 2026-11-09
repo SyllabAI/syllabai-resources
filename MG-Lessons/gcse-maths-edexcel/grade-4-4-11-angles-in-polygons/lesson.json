@@ -1,0 +1,139 @@
+{
+ "topic": "grade-4-4-11-angles-in-polygons",
+ "lane": "gcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Interior and exterior angles",
+   "body": "![Pentagon with one interior angle inside, one exterior angle outside, and a straight line showing they add to 180°](../assets/001-77b629cc-7aa9-4c51-9331-b4cb62544e20.jpeg)\nA polygon is a flat 2D shape with straight sides, and each corner is called a vertex. The angle inside the shape is an interior angle.\n\nIf you extend one side, the angle outside is an exterior angle. At one vertex, the interior and exterior angles form a straight line, so they add to $180^\\circ$.\n\nYou also need three facts from earlier work: angles on a straight line add to $180^\\circ$, angles around a point add to $360^\\circ$, and angles in a triangle add to $180^\\circ$. These facts are the building blocks for polygon questions.",
+   "figure_refs": [
+    "assets/001-77b629cc-7aa9-4c51-9331-b4cb62544e20.jpeg"
+   ]
+  },
+  {
+   "heading": "Interior angle sum of a polygon",
+   "body": "![Regular hexagon split into four triangles from one vertex to show the interior angle sum formula](../assets/002-8c7f9439-d9c1-4653-8cfc-66f26d590f1b.jpeg)\nYou can find the interior angle sum of a polygon by splitting it into triangles from one vertex. An $n$-sided polygon always splits into $n - 2$ triangles.\n\nEach triangle has an angle sum of $180^\\circ$. Therefore, the total interior angle sum is calculated by multiplying the number of triangles by $180^\\circ$:\n$$\\text{interior angle sum} = (n - 2)\\times 180^\\circ$$\n\nThis formula works for any polygon with $n$ sides. For example, a triangle has $180^\\circ$, a pentagon $540^\\circ$, and a hexagon $720^\\circ$. Note that only quadrilaterals add to $360^\\circ$, so do not use $360^\\circ$ for every polygon.",
+   "figure_refs": [
+    "assets/002-8c7f9439-d9c1-4653-8cfc-66f26d590f1b.jpeg"
+   ]
+  },
+  {
+   "heading": "Worked example with an irregular polygon",
+   "body": "Suppose a hexagon has interior angles $126^\\circ$, $133^\\circ$, $118^\\circ$, $133^\\circ$, $y^\\circ$ and $2y^\\circ$. Because it has 6 sides, its interior angle sum is: $$(6 - 2)\\times 180^\\circ = 720^\\circ$$\n\nThat total is the starting point for the whole question. Add the known angles first: $$126^\\circ + 133^\\circ + 118^\\circ + 133^\\circ = 510^\\circ$$\n\nSo the two missing angles must add to $720^\\circ - 510^\\circ = 210^\\circ$. Now write an equation for the missing angles: $$y + 2y = 210^\\circ$$\n\nSo $3y = 210^\\circ$, which gives $y = 70^\\circ$. The other missing angle is $2y = 140^\\circ$. Do not divide by 6 here, because the polygon is irregular and its angles are not all equal."
+  },
+  {
+   "heading": "Angles in regular polygons",
+   "body": "For any polygon, if you take one exterior angle at each vertex, they add to $360^\\circ$. In a regular polygon, all exterior angles are equal, so each exterior angle is given by the following formula:\n\n$$$\\frac{360^\\circ}{n}$$\n\nAt each vertex, the interior and exterior angles meet to form a straight line. Consequently, each interior angle can be found by subtracting the exterior angle from $180^\\circ$.\n\nFor example, a regular nonagon has an exterior angle of $360^\\circ \\div 9 = 40^\\circ$. Its interior angle is then calculated as $180^\\circ - 40^\\circ = 140^\\circ$."
+  },
+  {
+   "heading": "Worked example: finding the number of sides",
+   "body": "If a regular polygon has interior angle $156^\\circ$, do not divide $360^\\circ$ by 156. First find the exterior angle, because the exterior angles are the ones that add to $360^\\circ$.\n\nWork out the exterior angle: $$180^\\circ - 156^\\circ = 24^\\circ$$ Then use the exterior-angle rule: $$n = \\frac{360^\\circ}{24^\\circ} = 15$$\n\nSo the polygon has 15 sides. This method only works for regular polygons, where every exterior angle is the same."
+  },
+  {
+   "heading": "Regular polygons meeting at a point",
+   "body": "![Square, regular hexagon, and regular 12-sided polygon meeting at a point with angles 90°, 120°, and 150° labelled](../assets/003-e982aab2-538a-4dd9-a23b-790c71ccee16.jpeg)\nWhen regular polygons meet at a point, the angles touching the point are usually interior angles. Since these meet around a central point, those interior angles must add to $360^\\circ$.\n\nIn the diagram, the square contributes $90^\\circ$ and the regular hexagon contributes $120^\\circ$. We can calculate the third interior angle by subtracting the known values from the total:\n$$\n360^\\circ - 90^\\circ - 120^\\circ = 150^\\circ\n$$\n\nNow change that interior angle into an exterior angle using $180^\\circ - 150^\\circ = 30^\\circ$. This allows us to find the number of sides $n$ using the formula for exterior angles:\n$$\nn = \\frac{360^\\circ}{30^\\circ} = 12\n$$\n\nSo the third polygon is a 12-sided polygon. A common mistake is using exterior angles at the shared point, but remember that the angles around the point are actually inside the shapes.",
+   "figure_refs": [
+    "assets/003-e982aab2-538a-4dd9-a23b-790c71ccee16.jpeg"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "At one vertex of a polygon, the interior angle is $128^\\circ$. What is the exterior angle at that same vertex?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$52^\\circ$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$128^\\circ$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$232^\\circ$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$360^\\circ$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The interior and exterior angles at one vertex lie on a straight line, so they add to $180^\\circ$. That gives $180^\\circ - 128^\\circ = 52^\\circ$. A very common wrong answer is $232^\\circ$, which comes from subtracting from $360^\\circ$, but $360^\\circ$ is for angles around a point, not for two adjacent angles on a straight line."
+  },
+  {
+   "id": "card-6",
+   "question": "An irregular pentagon has interior angles $100^\\circ$, $110^\\circ$, $120^\\circ$, $130^\\circ$, and $x^\\circ$. What is $x$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$80^\\circ$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$108^\\circ$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$72^\\circ$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$540^\\circ$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Hint: Find the total for a pentagon, then subtract the known angles. A pentagon has interior angle sum $540^\\circ$. The known angles total $100^\\circ + 110^\\circ + 120^\\circ + 130^\\circ = 460^\\circ$, so $x = 540^\\circ - 460^\\circ = 80^\\circ$. The most common wrong answer is $108^\\circ$, which comes from doing $540^\\circ \\div 5$ as if the pentagon were regular, but the question says it is irregular."
+  },
+  {
+   "id": "card-12",
+   "question": "A regular polygon has interior angle $150^\\circ$. How many sides does it have?",
+   "options": [
+    {
+     "id": "a",
+     "text": "12",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "30",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "6",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "15",
+     "is_correct": false
+    }
+   ],
+   "explanation": "First find the exterior angle: $180^\\circ - 150^\\circ = 30^\\circ$. Then use $n = 360^\\circ \\div 30^\\circ = 12$. The most common wrong answer is 30, but 30 is the exterior angle, not the number of sides."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-4-4-11-angles-in-polygons/lessons",
+ "source_sha256": "de79e6ad4efc7f89b548913f73a14dbd60764f258c4ad8b3ab2febddb9e26344",
+ "extracted_at": "2026-11-08T17:58:23Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "be6f46f8-1683-4be9-80f4-208941829455",
+  "topic_id": "6b12057c-d23d-43f6-a0f8-6de79e41666c",
+  "created_at": "2026-05-13T10:59:31.427Z",
+  "updated_at": "2026-05-13T11:01:37.737Z",
+  "figures": 3,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

@@ -1,0 +1,132 @@
+{
+ "topic": "grade-4-4-16-bearings",
+ "lane": "gcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What a bearing is",
+   "body": "![alt=\"Point A with a north line labelled N, compass directions E S W, and a ray to B making a clockwise 67 degree angle from north\"](../assets/001-11351349-ef73-4c8c-8583-b29c69fc5aaf.jpeg)\nA bearing describes direction using an angle. It is always measured from North, going clockwise, and written with three figures.\n\nA North line is the starting line for every bearing, and clockwise means the same direction as the hands of a clock. So $7^\\circ$ becomes $007^\\circ$, $42^\\circ$ becomes $042^\\circ$, and $115^\\circ$ stays $115^\\circ$.\n\nWhen you read \"the bearing of B from A\", the word from tells you where to start. You measure the angle at A, not at B.",
+   "figure_refs": [
+    "assets/001-11351349-ef73-4c8c-8583-b29c69fc5aaf.jpeg"
+   ]
+  },
+  {
+   "heading": "Reading a bearing from a diagram",
+   "body": "To find the bearing of B from A, start at A and look at the North line drawn there. Turn clockwise until you are pointing along the line from A to B.\n\nIf that angle is $67^\\circ$, write the bearing as $067^\\circ$. The zero is added because a bearing must have three figures.\n\nThis question is \"the bearing of B from A\", so measuring at B would give the wrong direction. The word \"from\" tells you where the angle is measured."
+  },
+  {
+   "heading": "Drawing a bearing",
+   "body": "![alt=\"Point P with a north line, a protractor centred at P, and a ray to Q 5 cm away at 120 degrees clockwise from north\"](../assets/002-1e8e2394-0d0a-4dc1-bc60-9c000e8c308e.jpeg)\nTo draw a bearing, begin with the starting point and draw a North line straight up from it. Then place the centre of the protractor on the point and line up $0^\\circ$ with North.\n\nSuppose Q is 5 cm from P on a bearing of $120^\\circ$. Mark $120^\\circ$ clockwise, draw a ray from P through the mark, then measure 5 cm along the ray.\n\nFinally, label the end of the ray Q. Since $120^\\circ$ is between $90^\\circ$ and $180^\\circ$, the line should point down and to the right, so that is a good sense check.",
+   "figure_refs": [
+    "assets/002-1e8e2394-0d0a-4dc1-bc60-9c000e8c308e.jpeg"
+   ]
+  },
+  {
+   "heading": "When the marked angle is anticlockwise",
+   "body": "Sometimes a diagram shows a small angle on the left side of the North line. That small angle is not the bearing because bearings must be measured clockwise.\n\nIf the line to D is $35^\\circ$ anticlockwise from North at C, use a full turn to find the clockwise angle:\n\n$$$360^\\circ - 35^\\circ = 325^\\circ$$\n\nSo the bearing of D from C is $325^\\circ$. A common mistake is to write $035^\\circ$. That only gives the small angle, but it is measured the wrong way round."
+  },
+  {
+   "heading": "Reverse bearings",
+   "body": "A reverse bearing is the bearing for going back the other way. Opposite directions differ by $180^{\\circ}$, so add or subtract $180^{\\circ}$ to find it.\n\nExample 1: the bearing of T from V is $072^{\\circ}$. This is less than $180^{\\circ}$, so add $180^{\\circ}$:\n$$072^{\\circ} + 180^{\\circ} = 252^{\\circ}$$\nSo the bearing of V from T is $252^{\\circ}$.\n\nExample 2: the bearing of B from A is $230^{\\circ}$. This is greater than $180^{\\circ}$, so subtract $180^{\\circ}$:\n$$230^{\\circ} - 180^{\\circ} = 050^{\\circ}$$\nThe reverse bearing is $050^{\\circ}$, and the leading zero is still needed."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Which statement about bearings is correct?",
+   "options": [
+    {
+     "id": "a",
+     "text": "A bearing is measured clockwise from North and written with three figures.",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "A bearing is measured anticlockwise from North and written with three figures.",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "A bearing is measured clockwise from East and written with three figures.",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "A bearing is measured from North, but it can be written with one or two figures.",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Bearings are always measured from North, always clockwise, and always written with three figures. The most common wrong answer is B because students remember North but forget that the turn must be clockwise, not anticlockwise."
+  },
+  {
+   "id": "card-8",
+   "question": "A question asks for \"the bearing of R from S\". Where should the angle be measured?",
+   "options": [
+    {
+     "id": "a",
+     "text": "At S",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "At R",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "Halfway between S and R",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "At whichever point is closer to North",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The word from tells you the starting point, so the angle is measured at S. The most common wrong answer is B because students swap the points and measure at the destination instead. Hint: Read the phrase carefully and circle the word \"from\"."
+  },
+  {
+   "id": "card-13",
+   "question": "The line from X to Y is $25^\\circ$ anticlockwise from North at X. What is the bearing of X from Y?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$155^\\circ$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$335^\\circ$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$205^\\circ$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$025^\\circ$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "First find the bearing of Y from X: $360^\\circ - 25^\\circ = 335^\\circ$. Then reverse it by subtracting $180^\\circ$, giving $155^\\circ$. The most common wrong answer is B because it finds the first bearing correctly but forgets the question asks for the bearing back from Y to X."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-4-4-16-bearings/lessons",
+ "source_sha256": "0abc2ddae083db1be59a23fb030fa1799dd9837ab6d2c7d8f4e836b4c9375196",
+ "extracted_at": "2026-11-08T17:58:27Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "d9aaf910-f998-42a5-b842-6716ec6b160e",
+  "topic_id": "0dfde3ca-98f7-4ff9-933b-3b81b186ef49",
+  "created_at": "2026-05-13T11:19:38.818Z",
+  "updated_at": "2026-05-13T11:20:19.949Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}
