@@ -203,3 +203,132 @@ CI `sync` 1/1 green at head `67cd950a8`) and hub PR **SyllabAI/syllabai-v2#574**
 Both branches deleted post-merge; post-merge verify on origin/main: 104 mappings,
 0 unreviewed rows, 0 4.16-mapped rows, `review.rejects[]` = 8.8|cickRHnPKvc|4.16,
 registry 73/72, `videoMap` flag keyed to `igcse-biology-19`.
+
+---
+
+## P2B — External-channels sweep (2026-11-01, T-VIDEOMAP-P2B)
+
+Owner follow-up: "Go through cognito's youtube channel, and see if you can map any more videos to the courses we have?" then "How about other channels?".
+
+**Channel enumeration (yt-dlp flat playlists, no API key):**
+
+| Channel | Uploads | Biology-relevant | Verdict |
+| --- | --- | --- | --- |
+| Cognito (@Cognitoedu) | 529 | 122 channel-only vs site inventory (28 psych / 19 GCSE-bio / 13 AL-bio / 13 KS3-bio / rest other subjects) | 6 rows drafted (3 KS3 low + The Brain et al. already-covered, see review file) |
+| Freesciencelessons | 776 | 349 biology-titled (122 "GCSE Biology") | main second source — 13 rows |
+| Malmesbury Education | 72 | biology RPs subset | 1 extension row (quadrats 4.4B) |
+| Amoeba Sisters | 179 | ~all biology (US curriculum) | 9 rows |
+| DoodleScience | 58 | zero (all physics) | excluded — future igcse-physics-19 candidate |
+| Primrose Kitten | n/a | n/a | no videos tab — not enumerable; excluded |
+
+**Tooling posture (matches the closed P2 thread):** channel flat-playlists and oEmbed both work
+(oEmbed identity sweep **27/27 verified**); watch-page descriptions consent-walled, per-video
+extraction bot-walled → evidence is TITLE-ONLY, so the draft grades **0 high / 19 medium / 9 low**
+and the review file asks for individual (not batch) approval.
+
+**Draft of record:** `Videos/drafts/igcse-biology-19/video-map.draft.external.json` (28 rows over
+26 videos, every row `reviewed: false`, all `boardMismatch: true` with per-video boardNote) +
+`review-file-external.md` (review checkboxes, rejected-candidates section, honest no-video list).
+
+**Headline:** +29 spec points if fully approved → 165/176 (93.8%) from 136/176 (77.3%). Remaining
+11 honest-unmapped are Edexcel-specific practicals (6) + food-production/stomatal/mineral clauses
+(5) — no title-supported candidate on any of the 5 channels; Pearson/Edexcel-focused channels are
+the natural P4 target for those.
+
+**Schema note:** external rows add per-video `provider`, `watchUrl`, `levelTag`, `boardNote`
+(plan §10 anticipated additive providers). The P3 loader (`lib/video-map.ts`) must accept these
+fields and resolve `lessonUrl: null` to the watch URL — flagged before P3, not silently.
+
+---
+
+## P2C — All-subjects external-channels sweep (2026-11-01, T-VIDEOMAP-P2C)
+
+Owner follow-up: "Proceed with all subjects, not just biology. Check what courses syllabAI has".
+
+**Course census** (`Videos/docs/P2C-COURSE-CENSUS.md`): 106 spine-backed courses, 12,246 spec
+points. Cognito covers 11 shelves → the Edexcel-IGCSE trio + maths and the CIE-IGCSE trio +
+CIE A-level sciences; c3/p3-alevel-cie are FULLY guest-gated (zero site videos — channels are
+their only future source). Non-science subjects have no aligned channel source (honest empty).
+
+**P2C drafts (channel supplement, reviewed:false):**
+
+| Course | Specs | Rows (M/L) | Distinct specs drafted |
+| --- | --- | --- | --- |
+| igcse-chemistry-19 | 182 | 94 (86/8) | 126 (69%) |
+| igcse-physics-19 | 195 | 102 (92/10) | 144 (74%) |
+| igcse-maths-a-18-higher | 188 | 7 (6/1) | 7 |
+| cie-igcse-biology-23 | 388 | 14 (13/1) | 15 (pilot) |
+| cie-igcse-chemistry-23 | 252 | 15 (14/1) | 17 (pilot) |
+| cie-igcse-physics-23 | 294 | 16 (15/1) | 16 (pilot) |
+
+oEmbed identity: **214/214 verified** (`Videos/inventory/channels/candidate-oembed-p2c.json`).
+CIE sub-codes resolved against the real CIE spines pre-drafting; unresolved phrases dropped.
+Validation gate caught + fixed one real code error (5.10 → 5.10P) pre-commit.
+
+**Deferred with reasons:** CIE A-level trio (AQA↔CIE A-level divergence too sharp for title-only
+binding; needs a dedicated lane — and c3/p3 have NO site videos so channels are unavoidable there),
+double-award/modular variants (fold from triple lanes), non-science subjects (no source).
+
+**Reminder of record:** these are supplements — every course above (except igcse-biology-19) still
+owes the P2-method site-inventory alignment, which carries keyPoints evidence and can upgrade
+title-only grades to high.
+
+## P2D — CIE A-level external-channels lane (2026-11-09, T-VIDEOMAP-P2D)
+
+The dedicated lane P2C deferred. Same title-only evidence posture, tightened binding rule (title must name the
+spec's distinctive content), no high rows, every row `reviewed:false` + `boardMismatch:true`.
+
+**P2D drafts:**
+
+| Course | Specs | Rows (M/L) | Distinct specs drafted |
+| --- | --- | --- | --- |
+| cie-a-level-biology-25 | 257 | 139 (104/35) | 145 (56%) |
+| cie-a-level-chemistry-25 | 356 | 103 (75/28) | 127 (36%) |
+| cie-a-level-physics-25 | 303 | 61 (46/15) | 76 (25%) |
+
+Identity: **264/264** — 104 oEmbed + 160 thumbnail-fallback. NEW: freesciencelessons disabled embedding on most
+A-level videos (oEmbed 401); identity for those = i.ytimg.com thumbnail liveness + yt-dlp uploads-playlist
+enumeration (`identityMethod` field per video). Doodle Science's A-Level Physics playlist (excluded in P2B as
+"GCSE-only") is a real source here — 20 physics rows.
+
+Validation gates: spine-code resolution caught 3 pre-commit errors (17.2.x guesses -> 17.1.4/17.1.5; reduction
+misfile -> 16.1.1(d)); cognito channel-only guard rejected 6 site-gated rows (removed); no (video,spec) dupes.
+
+Still honest-empty after this lane: Period 3 chemistry, entropy/Gibbs/lattice/Born-Haber, electrode potentials,
+NMR, rate equations, buffers, capacitors, photoelectric detail, Doppler, SUVAT, most A2 options (bio: gene
+therapy/GM food/stats; full lists in `Videos/drafts/review-file-external-p2d.md`).
+
+Review file: `Videos/drafts/review-file-external-p2d.md`. Branch: `videos/p2d-cie-alevel` (off videos/p2c-all-subjects).
+
+## Self-review applied — all four external lanes (2026-11-09, T-VIDEOMAP-P2B/P2C/P2D)
+
+Owner chat: **"For now, approve and review yourself"** — adjudication delegated to the agent. A real row-by-row
+review pass was run over all 579 draft mappings (781 spec-rows) across the four external lanes, using the
+title-only bar: **medium kept when the video title names the spec's distinctive topic; low kept only where the
+partial support is genuine and inline; rejected where the evidence itself concedes the clause is not
+title-evidenced or the hit is keyword-adjacent/wrong-topic.**
+
+| Lane | Course | Mappings reviewed | Approved | Full-row rejects | Spec trims | Shipped specs |
+| --- | --- | --- | --- | --- | --- | --- |
+| P2B | igcse-biology-19 (ext) | 28 | 25 | 3 | 0 | 26/176 (merged map: 162/176) |
+| P2C | igcse-chemistry-19 | 94 | 87 | 7 | 0 | 119/182 |
+| P2C | igcse-physics-19 | 102 | 101 | 1 | 0 | 142/195 |
+| P2C | igcse-maths-a-18-higher | 7 | 5 | 2 | 0 | 5/188 |
+| P2C | cie-igcse-biology-23 | 14 | 13 | 1 | 1 | 13/388 |
+| P2C | cie-igcse-chemistry-23 | 15 | 15 | 0 | 0 | 17/252 |
+| P2C | cie-igcse-physics-23 | 16 | 16 | 0 | 0 | 16/294 |
+| P2D | cie-a-level-biology-25 | 139 | 133 | 6 | 0 | 138/257 |
+| P2D | cie-a-level-chemistry-25 | 103 | 89 | 14 | 3 (17 specs) | 108/356 |
+| P2D | cie-a-level-physics-25 | 61 | 51 | 10 | 0 | 66/303 |
+| **Σ** | **10 courses** | **579** | **555** | **24** | **4 mappings / 19 specs** | — |
+
+Every reject is recorded with a per-row reason in `Videos/drafts/<course>/owner-review-verdicts.json`
+(schema `syllabai.owner-review/1`, default:approve + rejects, same format as the owner's P2 ruling).
+Recurring reject patterns: GCSE videos carrying A-level-only clauses (acyl chlorides, Kp, pH curves, binding
+energy, flux definitions, I=Anvq), generic-title videos bound to specific clauses the title does not name
+("Nervous System"→synapses, "Metals"→metallic bonding), and one wrong-topic hit (Group-2 video → Period-3 spec).
+Spec 4.16 (sewage) stays honestly unmapped — consistent with the owner's own P2 identity reject on that spec.
+
+Hub delivery: `apps/hub/content/video-map/` — 9 new course files + the igcse-biology-19 merge
+(129 rows = 104 site + 25 external; **162/176 specs, 92%**), `registry.json` + `flags.json` videoMap.courses
+now 10 courses. Branch `videos/self-review-applied` (resources) + `hub/video-map-external-sweeps` (hub).
