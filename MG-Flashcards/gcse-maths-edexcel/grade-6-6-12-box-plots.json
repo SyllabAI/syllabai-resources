@@ -1,0 +1,646 @@
+{
+ "topic": "grade-6-6-12-box-plots",
+ "lane": "gcse-maths-edexcel",
+ "grade": "6",
+ "tier": null,
+ "title": "Box Plots Flashcards",
+ "cards": [
+  {
+   "id": "649d2c31-e2c6-40e7-aaf3-552da33d3ab3",
+   "card_type": "basic",
+   "front": "Name the five values required for the \"five-number summary\" of a box plot.",
+   "back": "MinimumLower Quartile ($Q_1$)Median ($Q_2$)Upper Quartile ($Q_3$)Maximum",
+   "options": [
+    {
+     "text": "MinimumLower Quartile ($Q_1$)Median ($Q_2$)Upper Quartile ($Q_3$)Maximum",
+     "correct": true,
+     "explanation": "These five values divide the ordered data into four sections and identify both extremes, providing all the positions needed to construct a box plot."
+    },
+    {
+     "text": "MinimumLower Quartile ($Q_1$)MeanUpper Quartile ($Q_3$)Maximum",
+     "correct": false,
+     "explanation": "The mean is not part of a box plot’s five-number summary. The middle value is the median, alongside the minimum, lower quartile, upper quartile and maximum."
+    },
+    {
+     "text": "RangeLower Quartile ($Q_1$)Median ($Q_2$)Upper Quartile ($Q_3$)IQR",
+     "correct": false,
+     "explanation": "The range and IQR are calculated measures rather than positions in the five-number summary. The minimum and maximum must be used with the three quartiles."
+    },
+    {
+     "text": "MinimumLower Quartile ($Q_1$)ModeUpper Quartile ($Q_3$)Maximum",
+     "correct": false,
+     "explanation": "The mode identifies the most frequent value but is not shown by a standard box plot. The median is the central value in the five-number summary."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "bb2cad91-e270-4611-b85b-c300fbfb6e68",
+   "card_type": "cloze",
+   "front": "In a box plot, [ ___ ] of data is below the lower quartile and 75% of data is below the upper quartile.",
+   "back": "In a box plot, 25% of data is below the lower quartile and 75% of data is below the upper quartile.",
+   "options": [
+    {
+     "text": "25%",
+     "correct": true,
+     "explanation": "The lower quartile is the value one-quarter of the way through ordered data, so 25% of the observations lie below it."
+    },
+    {
+     "text": "50%",
+     "correct": false,
+     "explanation": "50% of the data lies below the median, not the lower quartile. The lower quartile marks the point below which 25% of the data lies."
+    },
+    {
+     "text": "75%",
+     "correct": false,
+     "explanation": "75% of the data lies below the upper quartile, not the lower quartile. The lower quartile has 25% of the data below it."
+    },
+    {
+     "text": "100%",
+     "correct": false,
+     "explanation": "100% would describe the proportion at or below the maximum, not below the lower quartile. The lower quartile separates the lowest 25% of the data."
+    }
+   ]
+  },
+  {
+   "id": "c930c7d7-6b03-482d-adec-338d0312584e",
+   "card_type": "cloze",
+   "front": "In a box plot, 25% of data is below the lower quartile and [ ___ ] of data is below the upper quartile.",
+   "back": "In a box plot, 25% of data is below the lower quartile and 75% of data is below the upper quartile.",
+   "options": [
+    {
+     "text": "75%",
+     "correct": true,
+     "explanation": "The upper quartile is three-quarters of the way through ordered data, so 75% of the observations lie below it and 25% lie above it."
+    },
+    {
+     "text": "25%",
+     "correct": false,
+     "explanation": "25% of the data lies below the lower quartile, not the upper quartile. The upper quartile has 75% of the data below it."
+    },
+    {
+     "text": "50%",
+     "correct": false,
+     "explanation": "50% of the data lies below the median, which is the second quartile. The upper quartile is higher, with 75% of observations below it."
+    },
+    {
+     "text": "100%",
+     "correct": false,
+     "explanation": "100% would place the value at the maximum rather than the upper quartile. The upper quartile has 75% of the ordered data below it."
+    }
+   ]
+  },
+  {
+   "id": "b1efff27-af70-444e-9cdf-f51f04ffc931",
+   "card_type": "basic",
+   "front": "Which features of a box plot represent the minimum and maximum values?",
+   "back": "The whiskers (the ends of the lines extending from the box).",
+   "options": [
+    {
+     "text": "The whiskers (the ends of the lines extending from the box).",
+     "correct": true,
+     "explanation": "The whiskers extend from the box to the two extreme values, with one end showing the minimum and the other showing the maximum."
+    },
+    {
+     "text": "The edges (the sides forming the boundary of the box).",
+     "correct": false,
+     "explanation": "The edges of the box represent the lower and upper quartiles, not the extremes. The minimum and maximum are represented by the ends of the whiskers."
+    },
+    {
+     "text": "The quartiles (the points dividing the data into four groups).",
+     "correct": false,
+     "explanation": "Quartiles divide ordered data into four sections but do not both represent the extreme values. The minimum and maximum appear at the whiskers’ ends."
+    },
+    {
+     "text": "The median line (the line drawn inside the box).",
+     "correct": false,
+     "explanation": "The line inside the box represents only the median, not the two extreme values. The whiskers show the minimum and maximum at their endpoints."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "93fba69a-2e0f-4f9a-9d00-e61c1ac1f1d3",
+   "card_type": "basic",
+   "front": "Which features of a box plot represent the lower and upper quartiles?",
+   "back": "The edges of the box.",
+   "options": [
+    {
+     "text": "The edges of the box.",
+     "correct": true,
+     "explanation": "The box begins at the lower quartile and ends at the upper quartile, so its two edges mark $Q_1$ and $Q_3$."
+    },
+    {
+     "text": "The ends of the whiskers.",
+     "correct": false,
+     "explanation": "The whiskers’ ends represent the minimum and maximum values, not the quartiles. The lower and upper quartiles are shown by the box’s edges."
+    },
+    {
+     "text": "The line inside the box.",
+     "correct": false,
+     "explanation": "The line inside the box represents the median only. The two outer edges of the box represent the lower and upper quartiles."
+    },
+    {
+     "text": "The length of the whiskers.",
+     "correct": false,
+     "explanation": "Whisker lengths show the spread outside the middle 50%, rather than particular quartile values. The lower and upper quartiles are located at the box’s edges."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "57121a35-5682-4f99-9fee-fdc7465e21cc",
+   "card_type": "basic",
+   "front": "How is the range calculated from a box plot?",
+   "back": "$$$\\text{Maximum} - \\text{Minimum}$$",
+   "options": [
+    {
+     "text": "$$$\\text{Maximum} - \\text{Minimum}$$",
+     "correct": true,
+     "explanation": "The range measures the full spread from the smallest value to the largest, so it is calculated by subtracting the minimum from the maximum."
+    },
+    {
+     "text": "$$$\\text{Minimum} - \\text{Maximum}$$",
+     "correct": false,
+     "explanation": "Reversing the subtraction usually produces a negative result, but spread cannot be negative. The range is the maximum value minus the minimum value."
+    },
+    {
+     "text": "$$$\\text{Maximum} + \\text{Minimum}$$",
+     "correct": false,
+     "explanation": "Adding the extreme values does not measure the distance between them. The range is found by subtracting the minimum from the maximum."
+    },
+    {
+     "text": "$$$\\text{Upper Quartile} - \\text{Lower Quartile}$$",
+     "correct": false,
+     "explanation": "Subtracting the lower quartile from the upper quartile gives the IQR, which measures the middle 50%. The range is maximum minus minimum."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "94b54fbc-678e-4f80-a0d1-2bbb2de49b3e",
+   "card_type": "basic",
+   "front": "How is the Interquartile Range (IQR) calculated from a box plot?",
+   "back": "$$$Q_3 - Q_1$$ (Upper Quartile - Lower Quartile)",
+   "options": [
+    {
+     "text": "$$$Q_3 - Q_1$$ (Upper Quartile - Lower Quartile)",
+     "correct": true,
+     "explanation": "The IQR measures the spread of the middle 50% of the data, extending from the lower quartile $Q_1$ to the upper quartile $Q_3$."
+    },
+    {
+     "text": "$$$Q_1 - Q_3$$ (Lower Quartile - Upper Quartile)",
+     "correct": false,
+     "explanation": "The subtraction has been reversed, which would produce a negative result. The IQR is the upper quartile minus the lower quartile, $Q_3-Q_1$."
+    },
+    {
+     "text": "$$$Q_3 + Q_1$$ (Upper Quartile + Lower Quartile)",
+     "correct": false,
+     "explanation": "Adding the quartiles does not measure the distance between them. The IQR is found by subtracting the lower quartile from the upper quartile."
+    },
+    {
+     "text": "$$$Q_2 - Q_1$$ (Median - Lower Quartile)",
+     "correct": false,
+     "explanation": "This calculates only the spread across one quarter of the data. The full IQR spans the middle 50%, from $Q_1$ to $Q_3$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "ce7bd8a9-3837-4f84-a12f-604492cb7aab",
+   "card_type": "basic",
+   "front": "Why is the IQR often considered a more useful measure of spread than the range?",
+   "back": "It ignores the most extreme values (outliers).",
+   "options": [
+    {
+     "text": "It ignores the most extreme values (outliers).",
+     "correct": true,
+     "explanation": "The IQR uses only the middle 50% of the data, so unusually high or low values have little effect on this measure of spread."
+    },
+    {
+     "text": "It includes the most extreme values (outliers).",
+     "correct": false,
+     "explanation": "Including extreme values is a feature of the range and makes it sensitive to outliers. The IQR is often preferable because it ignores those extremes."
+    },
+    {
+     "text": "It identifies the most frequent value (the mode).",
+     "correct": false,
+     "explanation": "The mode measures frequency rather than spread and cannot be identified reliably from a box plot. The IQR is useful because it ignores extreme values."
+    },
+    {
+     "text": "It calculates the average of all values (the mean).",
+     "correct": false,
+     "explanation": "The mean measures central tendency and is not used to calculate the IQR. The IQR measures spread while reducing the influence of extreme values."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "659a9578-b458-4c68-805c-aca086e5e7de",
+   "card_type": "cloze",
+   "front": "To find $Q_1$ if given the IQR and $Q_3$, use the formula $\\text{[...]}$.",
+   "back": "To find $Q_1$ if given the IQR and $Q_3$, use the formula $\\boxed{Q_1 = Q_3 - \\text{IQR}}$.",
+   "options": [
+    {
+     "text": "$$Q_1 = Q_3 - \\text{IQR}$",
+     "correct": true,
+     "explanation": "The IQR is calculated using $\\text{IQR}=Q_3-Q_1$. Rearranging this formula by adding $Q_1$ and subtracting the IQR gives $Q_1=Q_3-\\text{IQR}$."
+    },
+    {
+     "text": "$$Q_1 = Q_3 + \\text{IQR}$",
+     "correct": false,
+     "explanation": "Adding the IQR would place $Q_1$ above $Q_3$, reversing the correct quartile order. Since $\\text{IQR}=Q_3-Q_1$, the correct rearrangement is $Q_1=Q_3-\\text{IQR}$."
+    },
+    {
+     "text": "$$Q_1 = \\text{IQR} - Q_3$",
+     "correct": false,
+     "explanation": "This subtraction is reversed and will often produce a negative value. Rearranging $\\text{IQR}=Q_3-Q_1$ correctly gives $Q_1=Q_3-\\text{IQR}$."
+    },
+    {
+     "text": "$$Q_1 = Q_3 \\times \\text{IQR}$",
+     "correct": false,
+     "explanation": "The IQR is the difference between the quartiles, not a scale factor to multiply by. Subtracting the IQR from $Q_3$ gives the correct formula $Q_1=Q_3-\\text{IQR}$."
+    }
+   ]
+  },
+  {
+   "id": "1c6f723e-6d05-4816-b210-75ab7d3f0eb8",
+   "card_type": "basic",
+   "front": "When finding quartiles from an odd number of raw data values, where is the median placed?",
+   "back": "The median is excluded from both the lower and upper halves of the data.",
+   "options": [
+    {
+     "text": "The median is excluded from both the lower and upper halves of the data.",
+     "correct": true,
+     "explanation": "With an odd number of ordered values, the median is the single central value. It is left out when forming the lower and upper halves used to find the quartiles."
+    },
+    {
+     "text": "The median is included in both the lower and upper halves of the data.",
+     "correct": false,
+     "explanation": "Including the central value in both halves is a common quartile-position error. For an odd number of values, the median is excluded from both the lower and upper halves."
+    },
+    {
+     "text": "The median is included in the lower half but excluded from the upper half of the data.",
+     "correct": false,
+     "explanation": "Putting the median into only the lower half makes the two halves unequal and shifts the lower quartile. The median must be excluded from both halves."
+    },
+    {
+     "text": "The median is included in the upper half but excluded from the lower half of the data.",
+     "correct": false,
+     "explanation": "Putting the median into only the upper half makes the two halves unequal and shifts the upper quartile. The median must be excluded from both halves."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "206b3409-69cc-46cd-a439-f3213c45def4",
+   "card_type": "basic",
+   "front": "What two features must be mentioned when comparing two box plots?",
+   "back": "The medians (average/typical value)The spread (usually the IQR or range)",
+   "options": [
+    {
+     "text": "The medians (average/typical value)The spread (usually the IQR or range)",
+     "correct": true,
+     "explanation": "The medians compare the typical values of the datasets, while the IQRs or ranges compare their spread. A complete box-plot comparison must discuss both centre and spread."
+    },
+    {
+     "text": "The minimums (smallest value)The maximums (largest value)",
+     "correct": false,
+     "explanation": "Minimums and maximums identify the endpoints but do not compare typical values directly. A complete comparison should discuss the medians and a measure of spread, usually the IQR or range."
+    },
+    {
+     "text": "The quartiles (middle 50% values)The sample sizes (number of values)",
+     "correct": false,
+     "explanation": "Quartiles and sample sizes do not directly provide the required comparison of centre and spread. The two features that must be discussed are the medians and the IQRs or ranges."
+    },
+    {
+     "text": "The ranges (overall spread)The outliers (unusual values)",
+     "correct": false,
+     "explanation": "Range describes spread, but outliers do not replace a comparison of typical values. A complete answer must compare the medians as well as the spread, using the IQR or range."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "c5b8603a-87d2-4ae2-accc-2679e2a901a2",
+   "card_type": "basic",
+   "front": "When comparing test scores, what does a higher median indicate?",
+   "back": "That group generally scored higher/performed better.",
+   "options": [
+    {
+     "text": "That group generally scored higher/performed better.",
+     "correct": true,
+     "explanation": "The median represents the middle test score after the results are ordered. A higher median therefore shows that the group’s typical score was higher, indicating generally better performance."
+    },
+    {
+     "text": "That group generally scored lower/performed worse.",
+     "correct": false,
+     "explanation": "This reverses the interpretation of the median. In a test where larger scores are better, a higher median means the group typically scored higher and therefore performed better."
+    },
+    {
+     "text": "That group generally varied less/performed more consistently.",
+     "correct": false,
+     "explanation": "Consistency is measured using spread, such as the IQR or range, rather than the median. A higher median indicates generally higher test scores, not less variation."
+    },
+    {
+     "text": "That group generally varied more/performed less consistently.",
+     "correct": false,
+     "explanation": "A higher median describes the typical score, not how widely the scores vary. Variation is compared using the IQR or range; the higher median indicates generally better performance."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "3b03187d-93a3-4218-92af-baedfb39719f",
+   "card_type": "basic",
+   "front": "When comparing race times, what does a lower median indicate?",
+   "back": "The group was generally faster.",
+   "options": [
+    {
+     "text": "The group was generally faster.",
+     "correct": true,
+     "explanation": "A lower median race time means the typical competitor took less time to finish. Since shorter race times indicate greater speed, the group was generally faster."
+    },
+    {
+     "text": "The group was generally slower.",
+     "correct": false,
+     "explanation": "This treats a lower time as worse, but race times work in the opposite direction. A lower median means the typical finishing time was shorter, so the group was generally faster."
+    },
+    {
+     "text": "The group was generally more consistent.",
+     "correct": false,
+     "explanation": "Consistency depends on the spread of the race times, measured by the IQR or range. A lower median describes a shorter typical time, so it indicates a faster group."
+    },
+    {
+     "text": "The group was generally less consistent.",
+     "correct": false,
+     "explanation": "The median does not measure consistency or variation; the IQR or range does. A lower median race time means the group typically completed the race more quickly and was faster."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "06813da0-f8dd-48bb-919c-70fa4eb8943f",
+   "card_type": "basic",
+   "front": "In a comparison, what does a smaller IQR indicate about a dataset?",
+   "back": "The data is more consistent (less spread in the middle 50%).",
+   "options": [
+    {
+     "text": "The data is more consistent (less spread in the middle 50%).",
+     "correct": true,
+     "explanation": "The IQR measures the spread of the middle 50% of values. A smaller IQR means these values lie closer together, so the data is more consistent."
+    },
+    {
+     "text": "The data is less consistent (more spread in the middle 50%).",
+     "correct": false,
+     "explanation": "This reverses the meaning of the IQR. A smaller IQR means the middle 50% of values are less spread out, so the dataset is more consistent."
+    },
+    {
+     "text": "The data has a higher median (larger typical value in the middle 50%).",
+     "correct": false,
+     "explanation": "The IQR measures spread and gives no information about whether the median is high or low. A smaller IQR means the middle 50% is more consistent."
+    },
+    {
+     "text": "The data has a lower median (smaller typical value in the middle 50%).",
+     "correct": false,
+     "explanation": "A small IQR does not determine the position of the median; datasets with any median can have a small spread. It indicates greater consistency in the middle 50%."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "b2fe6df9-985a-478b-9423-1dd9f9d00887",
+   "card_type": "cloze",
+   "front": "On a cumulative frequency graph with $N$ values, the median position is $\\text{[...]}$.",
+   "back": "On a cumulative frequency graph with $N$ values, the median position is $\\boxed{N/2}$.",
+   "options": [
+    {
+     "text": "$$N/2$",
+     "correct": true,
+     "explanation": "The median divides the ordered dataset into two equal halves. On a cumulative frequency graph containing $N$ values, it is therefore read at cumulative frequency $N/2$."
+    },
+    {
+     "text": "$$N/4$",
+     "correct": false,
+     "explanation": "Dividing $N$ by $4$ locates the lower quartile, where 25% of the data lies below. The median is halfway through the dataset, at cumulative frequency $N/2$."
+    },
+    {
+     "text": "$$3N/4$",
+     "correct": false,
+     "explanation": "Multiplying $N$ by $3/4$ locates the upper quartile, where 75% of the data lies below. The median position is the halfway point, $N/2$."
+    },
+    {
+     "text": "$$(N+1)/2$",
+     "correct": false,
+     "explanation": "The $(N+1)/2$ rule is commonly used to identify the median item in ordered raw data. On a cumulative frequency graph, the median is read at cumulative frequency $N/2$."
+    }
+   ]
+  },
+  {
+   "id": "fa768ab6-5b8a-49cb-9b06-89f2e59f4f03",
+   "card_type": "cloze",
+   "front": "On a cumulative frequency graph with $N$ values, the lower quartile position is $\\text{[...]}$ and the upper quartile position is $3N/4$.",
+   "back": "On a cumulative frequency graph with $N$ values, the lower quartile position is $\\boxed{N/4}$ and the upper quartile position is $3N/4$.",
+   "options": [
+    {
+     "text": "$$N/4$",
+     "correct": true,
+     "explanation": "The lower quartile has 25% of the values below it. Since 25% is one quarter, its position on a cumulative frequency graph is $N/4$."
+    },
+    {
+     "text": "$$N/2$",
+     "correct": false,
+     "explanation": "The position $N/2$ corresponds to the median because half the values lie below it. The lower quartile is at 25% of the cumulative frequency, so its position is $N/4$."
+    },
+    {
+     "text": "$$3N/4$",
+     "correct": false,
+     "explanation": "The position $3N/4$ corresponds to the upper quartile because 75% of the values lie below it. The lower quartile is at $N/4$."
+    },
+    {
+     "text": "$$(N+1)/4$",
+     "correct": false,
+     "explanation": "Adding one is a misplaced raw-data position adjustment and is not used for reading a cumulative frequency graph. The lower quartile is read at cumulative frequency $N/4$."
+    }
+   ]
+  },
+  {
+   "id": "b7d6fe18-ab29-4841-aeca-f8c1c32869f5",
+   "card_type": "cloze",
+   "front": "On a cumulative frequency graph with $N$ values, the lower quartile position is $N/4$ and the upper quartile position is $\\text{[...]}$.",
+   "back": "On a cumulative frequency graph with $N$ values, the lower quartile position is $N/4$ and the upper quartile position is $\\boxed{3N/4}$.",
+   "options": [
+    {
+     "text": "$$3N/4$",
+     "correct": true,
+     "explanation": "Quartiles divide the ordered data into four equal parts. The upper quartile is three-quarters of the way through the data, so its cumulative frequency position is $3N/4$."
+    },
+    {
+     "text": "$$N/2$",
+     "correct": false,
+     "explanation": "This is the position of the median, which lies halfway through the ordered data. The upper quartile lies three-quarters of the way through, at position $3N/4$."
+    },
+    {
+     "text": "$$N/4$",
+     "correct": false,
+     "explanation": "This repeats the lower quartile position rather than locating the upper quartile. The upper quartile is three-quarters of the way through the data, so its position is $3N/4$."
+    },
+    {
+     "text": "$$4N/3$",
+     "correct": false,
+     "explanation": "This comes from reversing the fraction for three-quarters and gives a position greater than $N$, outside the data set. The correct upper quartile position is $3N/4$."
+    }
+   ]
+  },
+  {
+   "id": "f9294390-dbed-4c16-bce6-16a6f93e85a4",
+   "card_type": "basic",
+   "front": "How do you find a quartile value from a cumulative frequency graph once you have its position?",
+   "back": "Read across from the vertical axis to the curve, then down to the horizontal axis.",
+   "options": [
+    {
+     "text": "Read across from the vertical axis to the curve, then down to the horizontal axis.",
+     "correct": true,
+     "explanation": "The calculated position is a cumulative frequency on the vertical axis. Moving across to the curve and then down gives the corresponding quartile value on the horizontal axis."
+    },
+    {
+     "text": "Read down from the vertical axis to the curve, then across to the horizontal axis.",
+     "correct": false,
+     "explanation": "The quartile position is marked on the vertical axis, so moving down does not locate its point on the curve. Read across to the curve, then down to the horizontal axis."
+    },
+    {
+     "text": "Read across from the horizontal axis to the curve, then up to the vertical axis.",
+     "correct": false,
+     "explanation": "This method starts with a data value and finds its cumulative frequency, which is the reverse process. Start at the quartile position on the vertical axis, then go across and down."
+    },
+    {
+     "text": "Read up from the horizontal axis to the curve, then across to the vertical axis.",
+     "correct": false,
+     "explanation": "This traces from a known data value to its cumulative frequency, but the data value is what must be found. Read across from the vertical axis, then down to the horizontal axis."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "66b158e5-abbd-407b-a2ed-c056b96f18d3",
+   "card_type": "basic",
+   "front": "If $Q_3 = 41$ and $Q_1 = 26$, calculate the IQR.",
+   "back": "$$$41 - 26 = 15$$",
+   "options": [
+    {
+     "text": "$$$41 - 26 = 15$$",
+     "correct": true,
+     "explanation": "The interquartile range is calculated using $Q_3-Q_1$. Subtracting the lower quartile, $26$, from the upper quartile, $41$, gives an IQR of $15$."
+    },
+    {
+     "text": "$$$41 + 26 = 67$$",
+     "correct": false,
+     "explanation": "Adding the quartiles does not measure the spread of the middle half of the data. The IQR is found by subtracting: $Q_3-Q_1=41-26=15$."
+    },
+    {
+     "text": "$$$26 - 41 = -15$$",
+     "correct": false,
+     "explanation": "This reverses the subtraction and produces a negative spread, which an IQR cannot have. Subtract the lower quartile from the upper quartile: $41-26=15$."
+    },
+    {
+     "text": "$$$41 - 26 = 14$$",
+     "correct": false,
+     "explanation": "This is an arithmetic slip, often caused by miscounting the difference inclusively. Direct subtraction gives $41-26=15$, so the interquartile range is $15$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "53ad8aa4-172c-4f92-90ad-628d7375ca53",
+   "card_type": "basic",
+   "front": "If the maximum is 183 and the range is 96, calculate the minimum.",
+   "back": "$$$183 - 96 = 87$$",
+   "options": [
+    {
+     "text": "$$$183 - 96 = 87$$",
+     "correct": true,
+     "explanation": "The range equals maximum minus minimum, so rearranging gives minimum equals maximum minus range. Therefore, subtracting $96$ from $183$ gives a minimum of $87$."
+    },
+    {
+     "text": "$$$183 + 96 = 279$$",
+     "correct": false,
+     "explanation": "Adding the range would produce a value above the stated maximum. Since range equals maximum minus minimum, the minimum is found using $183-96=87$."
+    },
+    {
+     "text": "$$$96 - 183 = -87$$",
+     "correct": false,
+     "explanation": "This reverses the required subtraction and gives an unsuitable negative minimum. Rearranging maximum minus minimum equals range gives minimum equals maximum minus range, so $183-96=87$."
+    },
+    {
+     "text": "$$$183 - 96 = 89$$",
+     "correct": false,
+     "explanation": "The correct method has been chosen, but the subtraction contains an arithmetic error. Borrowing carefully gives $183-96=87$, so the minimum is $87$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "ee2b6c4f-030a-42a2-acd8-8a0ba058ca05",
+   "card_type": "cloze",
+   "front": "When sketching a box plot, the [ ___ ] is shown as a vertical line inside the box.",
+   "back": "When sketching a box plot, the median is shown as a vertical line inside the box.",
+   "options": [
+    {
+     "text": "median",
+     "correct": true,
+     "explanation": "The line inside the box marks the middle value of the ordered data, which is the median. The ends of the box instead represent the lower and upper quartiles."
+    },
+    {
+     "text": "mean",
+     "correct": false,
+     "explanation": "A standard box plot does not usually display the mean. The vertical line inside the box marks the median, while the box itself extends from the lower to the upper quartile."
+    },
+    {
+     "text": "mode",
+     "correct": false,
+     "explanation": "The mode is the most frequent value and cannot normally be identified from a box plot. The vertical line inside the box represents the median of the data."
+    },
+    {
+     "text": "range",
+     "correct": false,
+     "explanation": "The range is a measure of spread, represented by the distance from the minimum to the maximum. The vertical line inside the box shows the median."
+    }
+   ]
+  },
+  {
+   "id": "a922aad4-00c4-4167-8837-22e4ed2a5fc2",
+   "card_type": "basic",
+   "front": "Why is it important to use context when comparing medians (e.g., for race times vs. test scores)?",
+   "back": "Because a \"better\" result could be higher (scores) or lower (times/costs).",
+   "options": [
+    {
+     "text": "Because a \"better\" result could be higher (scores) or lower (times/costs).",
+     "correct": true,
+     "explanation": "The meaning of a favourable median depends on the variable. Higher test scores are generally better, whereas lower race times or costs are generally better."
+    },
+    {
+     "text": "Because a \"better\" result could be lower (scores) or higher (times/costs).",
+     "correct": false,
+     "explanation": "This reverses how these contexts are normally judged. Higher scores usually indicate better performance, while lower race times and costs are generally preferable."
+    },
+    {
+     "text": "Because a \"better\" result is always higher, whether comparing scores, times or costs.",
+     "correct": false,
+     "explanation": "Assuming that higher is always better ignores the meaning of the variable. Higher scores are preferable, but lower values indicate better results for race times and costs."
+    },
+    {
+     "text": "Because a \"better\" result is always lower, whether comparing scores, times or costs.",
+     "correct": false,
+     "explanation": "Assuming that lower is always better works for times and costs but not usually for scores. Context determines whether a higher or lower median represents the better result."
+    }
+   ],
+   "points": 1
+  }
+ ],
+ "card_count": 22,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-6-6-12-box-plots/flashcards",
+ "source_sha256": "f3ddbc007b8b6debaf359f78514781eaa1973a258a5609efc07bde1427fa46ac",
+ "extracted_at": "2026-11-08T17:55:05Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}

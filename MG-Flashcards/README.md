@@ -1,6 +1,6 @@
 # MG-Flashcards — MathsGenie flashcard decks
 
-**Status:** SCAFFOLD (run-001, organization law of record) — extraction waves follow under `T-MG-FC-*`
+**Status:** LIVE (T-MG-FC-1 run-001) — `gcse-maths-edexcel` lane of record ({'cards': 2514, 'cards_with_mc_options': 2503, 'files': 252, 'bytes': 5640399}); other waves follow under `T-MG-FC-*`
 **Source chain:** `mathsgenie.co.uk` → `SyllabAI/MathsGenie` catalog crawl → this plane
 **Sibling planes:** [`../MG-QuestionBank/`](../MG-QuestionBank/) · [`../MG-RevisionGuides/`](../MG-RevisionGuides/) · [`../MG-Lessons/`](../MG-Lessons/) — identical lane grammar everywhere.
 
@@ -28,10 +28,16 @@ MG-Flashcards/
 {
   "topic": "grade-6-6-3-simultaneous-equations",
   "lane": "gcse-maths-edexcel",
-  "grade": "6", "tier": "higher",
+  "grade": "6", "tier": null,
+  "title": "…",                         // source deck title
   "cards": [
-    {"front": "…", "back": "…", "card_kind": "definition|formula|method|quick-question",
-     "source_ref": {"page": 1, "figure": "assets/001-….png"}}
+    {"id": "…",
+     "card_type": "basic|cloze",          // of record: source cardType (cloze gaps rendered as [ ___ ])
+     "front": "…", "back": "…",
+     "options": [                        // MC amendment of record — multiple-choice cards only
+       {"text": "…", "correct": true, "explanation": "…|null"}
+     ],
+     "points": 1}                        // source points value, when published
   ],
   "card_count": 12,
   "source_url": "https://www.mathsgenie.co.uk/…",
@@ -39,10 +45,12 @@ MG-Flashcards/
 }
 ```
 
+**Grammar amendment (T-MG-FC-1):** MathsGenie flashcards are predominantly **multiple-choice** (source `mcqOptions`): of record each card carries `options[]` with the verbatim `text`, the `correct` flag and the per-option `explanation`. The scaffold-era `card_kind`/`source_ref` fields are superseded by the extracted `card_type` (`basic|cloze`) — no fields are invented.
+
 ## Coverage law — sparse modes are first-class
 
 1. A deck file exists **only** for topics that actually publish flashcards on the source site; the lane's `manifest.json` lists `deck_count` and `topics_without_flashcards[]` with reason.
-2. Of-record expectations: GCSE maths ×6 boards and A-Level maths Edexcel expose `flashcards`; IGCSE / AS lanes are re-verified at run-000 before bulk landing. The ~660 non-maths catalog courses get **no** lane here.
+2. Of record (catalog verified per lane at fetch): GCSE maths Edexcel 125/134 topics publish flashcards, IGCSE maths Edexcel 104/104, A-Level maths Edexcel 57/57. The ~660 non-maths catalog courses get **no** lane here.
 3. Never manufacture coverage for absent types (repo `AGENT.md` rule 3).
 
 ## Provenance & licensing
@@ -54,3 +62,9 @@ MG-Flashcards/
 
 - Task-ID'd runs (`T-MG-FC-1`, …), worklog evidence, `LEDGER.md` wave entry, receipt JSON, gates green; scripts as `mg_*.py` in `../scripts/`.
 - Crosswalk: `igcse-maths-edexcel` ↔ SME lane `igcse-maths-a-18-{foundation,higher}`.
+
+## Coverage of record
+
+| lane | decks | notes |
+|---|---|---|
+| `gcse-maths-edexcel` | 125/134 catalog topics | T-MG-FC-1 run-001 — {"cards": 2514, "cards_with_mc_options": 2503, "files": 252, "bytes": 5640399} |

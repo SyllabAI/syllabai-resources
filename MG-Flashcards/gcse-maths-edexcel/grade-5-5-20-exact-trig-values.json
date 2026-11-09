@@ -1,0 +1,701 @@
+{
+ "topic": "grade-5-5-20-exact-trig-values",
+ "lane": "gcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "title": "Exact trig values Flashcards",
+ "cards": [
+  {
+   "id": "c112677a-6b47-4bcd-b44d-a68237706c19",
+   "card_type": "basic",
+   "front": "What defines an exact value in trigonometry?",
+   "back": "An answer written without rounding, typically as a fraction or a surd.",
+   "options": [
+    {
+     "text": "An answer written without rounding, typically as a fraction or a surd.",
+     "correct": true,
+     "explanation": "An exact value preserves the complete mathematical value without approximation. Fractions and surds, such as $\\frac{1}{2}$ and $\\frac{\\sqrt{3}}{2}$, commonly express exact trigonometric values."
+    },
+    {
+     "text": "An answer written with rounding, typically as a decimal or a percentage.",
+     "correct": false,
+     "explanation": "Rounding produces an approximation rather than an exact value. The right answer is written without rounding, usually as a fraction or surd that preserves the complete value."
+    },
+    {
+     "text": "An answer found using a calculator, typically as a decimal to a stated accuracy.",
+     "correct": false,
+     "explanation": "A calculator decimal given to a stated accuracy is normally approximate. An exact value is written without rounding, typically using a fraction or a surd."
+    },
+    {
+     "text": "An answer written as a whole number, typically after rounding a fraction or a surd.",
+     "correct": false,
+     "explanation": "Rounding a fraction or surd to a whole number loses information, so the result is not exact. Exact values retain the original fraction or surd without rounding."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "d2ad01ec-3ef5-4b09-8f16-39f0f61118de",
+   "card_type": "basic",
+   "front": "Which side of a right-angled triangle is the hypotenuse?",
+   "back": "The longest side, which is always opposite the right angle.",
+   "options": [
+    {
+     "text": "The longest side, which is always opposite the right angle.",
+     "correct": true,
+     "explanation": "In every right-angled triangle, the side facing the $90^\\circ$ angle is the hypotenuse. Pythagoras’ theorem also confirms that it must be the longest side."
+    },
+    {
+     "text": "The shortest side, which is always opposite the smallest angle.",
+     "correct": false,
+     "explanation": "Although the shortest side is opposite the smallest angle, it is not the hypotenuse. The hypotenuse is the longest side and lies opposite the right angle."
+    },
+    {
+     "text": "The longest side, which is always next to the right angle.",
+     "correct": false,
+     "explanation": "This correctly identifies the hypotenuse as longest but places it incorrectly. The two legs form the right angle, while the hypotenuse lies opposite the right angle."
+    },
+    {
+     "text": "The opposite side, which is always opposite the chosen acute angle.",
+     "correct": false,
+     "explanation": "The side opposite a chosen acute angle is one of the triangle’s legs, not the hypotenuse. The hypotenuse is specifically opposite the right angle and is longest."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "5bb8d49f-09c4-4b6b-af29-194ce714daf8",
+   "card_type": "cloze",
+   "front": "The side adjacent to an angle $\\theta$ is the side next to it that is not the [ ___ ].",
+   "back": "The side adjacent to an angle $\\theta$ is the side next to it that is not the hypotenuse.",
+   "options": [
+    {
+     "text": "hypotenuse",
+     "correct": true,
+     "explanation": "For a chosen acute angle, two sides touch the angle: one leg and the hypotenuse. The adjacent side means the touching leg, so the hypotenuse is excluded."
+    },
+    {
+     "text": "opposite",
+     "correct": false,
+     "explanation": "The opposite side lies across from $\\theta$ and does not touch it, so this does not distinguish the adjacent side. The excluded touching side is the hypotenuse."
+    },
+    {
+     "text": "adjacent",
+     "correct": false,
+     "explanation": "Excluding the adjacent side would make the definition circular and leave no named leg. The adjacent side is the leg beside $\\theta$ that is not the hypotenuse."
+    },
+    {
+     "text": "shortest side",
+     "correct": false,
+     "explanation": "The adjacent leg is not necessarily the shortest side; its length depends on the chosen angle and triangle. It is identified by excluding the hypotenuse."
+    }
+   ]
+  },
+  {
+   "id": "e0db7a6b-486a-4117-bce9-9e0f94957407",
+   "card_type": "cloze",
+   "front": "SOHCAHTOA defines the sine ratio as $\\sin\\theta = \\frac{\\text{[...]}}{\\text{hypotenuse}}$.",
+   "back": "SOHCAHTOA defines the sine ratio as $\\sin\\theta = \\frac{\\boxed{\\text{opposite}}}{\\text{hypotenuse}}$.",
+   "options": [
+    {
+     "text": "$$\\text{opposite}$",
+     "correct": true,
+     "explanation": "SOH in SOHCAHTOA means sine equals opposite divided by hypotenuse. Therefore, the side opposite $\\theta$ forms the numerator of the sine ratio."
+    },
+    {
+     "text": "$$\\text{adjacent}$",
+     "correct": false,
+     "explanation": "Using the adjacent side as the numerator confuses sine with cosine. SOH gives $\\sin\\theta=\\frac{\\text{opposite}}{\\text{hypotenuse}}$, so opposite is the required term."
+    },
+    {
+     "text": "$$\\text{hypotenuse}$",
+     "correct": false,
+     "explanation": "Putting the hypotenuse in both numerator and denominator would always give $1$, regardless of the angle. Sine instead uses opposite over hypotenuse."
+    },
+    {
+     "text": "$$\\text{shortest side}$",
+     "correct": false,
+     "explanation": "The numerator is determined by its position relative to $\\theta$, not by its length. SOH specifies the opposite side, which is not necessarily the shortest side."
+    }
+   ]
+  },
+  {
+   "id": "596b4c15-9c78-409c-8847-5ac22736c644",
+   "card_type": "cloze",
+   "front": "SOHCAHTOA defines the sine ratio as $\\sin\\theta = \\frac{\\text{opposite}}{\\text{[...]}}$.",
+   "back": "SOHCAHTOA defines the sine ratio as $\\sin\\theta = \\frac{\\text{opposite}}{\\boxed{\\text{hypotenuse}}}$.",
+   "options": [
+    {
+     "text": "$$\\text{hypotenuse}$",
+     "correct": true,
+     "explanation": "SOH in SOHCAHTOA states that sine is opposite over hypotenuse. The hypotenuse therefore forms the denominator and is always the triangle’s longest side."
+    },
+    {
+     "text": "$$\\text{adjacent}$",
+     "correct": false,
+     "explanation": "Opposite divided by adjacent is the tangent ratio, not the sine ratio. Sine follows SOH, so its denominator must be the hypotenuse."
+    },
+    {
+     "text": "$$\\text{opposite}$",
+     "correct": false,
+     "explanation": "Using opposite in both positions would make the ratio equal to $1$ for every angle. Sine is opposite divided by the hypotenuse."
+    },
+    {
+     "text": "$$\\text{shortest side}$",
+     "correct": false,
+     "explanation": "Sine’s denominator is not selected by comparing side lengths. SOH specifies the hypotenuse, which is always the longest side of a right-angled triangle."
+    }
+   ]
+  },
+  {
+   "id": "15b0a271-c34a-4bf0-985b-ae19fb9143c2",
+   "card_type": "cloze",
+   "front": "SOHCAHTOA defines the cosine ratio as $\\cos\\theta = \\frac{\\text{[...]}}{\\text{hypotenuse}}$.",
+   "back": "SOHCAHTOA defines the cosine ratio as $\\cos\\theta = \\frac{\\boxed{\\text{adjacent}}}{\\text{hypotenuse}}$.",
+   "options": [
+    {
+     "text": "$$\\text{adjacent}$",
+     "correct": true,
+     "explanation": "CAH in SOHCAHTOA means cosine equals adjacent divided by hypotenuse. The adjacent leg, excluding the hypotenuse, therefore forms the numerator."
+    },
+    {
+     "text": "$$\\text{opposite}$",
+     "correct": false,
+     "explanation": "Using opposite over hypotenuse gives sine, not cosine. CAH shows that cosine has the adjacent side as its numerator and the hypotenuse as its denominator."
+    },
+    {
+     "text": "$$\\text{hypotenuse}$",
+     "correct": false,
+     "explanation": "Putting the hypotenuse in both positions would make cosine equal to $1$ for every angle. Cosine instead uses adjacent over hypotenuse."
+    },
+    {
+     "text": "$$\\text{shortest side}$",
+     "correct": false,
+     "explanation": "The numerator is chosen by its position relative to $\\theta$, not by which leg is shortest. For cosine, CAH specifies the adjacent side."
+    }
+   ]
+  },
+  {
+   "id": "301ed0cf-dd1a-4650-9b63-d9691a421e98",
+   "card_type": "cloze",
+   "front": "SOHCAHTOA defines the cosine ratio as $\\cos\\theta = \\frac{\\text{adjacent}}{\\text{[...]}}$.",
+   "back": "SOHCAHTOA defines the cosine ratio as $\\cos\\theta = \\frac{\\text{adjacent}}{\\boxed{\\text{hypotenuse}}}$.",
+   "options": [
+    {
+     "text": "$$\\text{hypotenuse}$",
+     "correct": true,
+     "explanation": "CAH in SOHCAHTOA gives $\\cos\\theta=\\frac{\\text{adjacent}}{\\text{hypotenuse}}$. The hypotenuse is therefore the denominator of the cosine ratio."
+    },
+    {
+     "text": "$$\\text{opposite}$",
+     "correct": false,
+     "explanation": "Adjacent divided by opposite is the reciprocal of tangent, not cosine. CAH states that cosine’s denominator is the hypotenuse."
+    },
+    {
+     "text": "$$\\text{adjacent}$",
+     "correct": false,
+     "explanation": "Using adjacent in both positions would make the ratio equal to $1$ for every angle. Cosine is adjacent divided by the hypotenuse."
+    },
+    {
+     "text": "$$\\text{longest leg}$",
+     "correct": false,
+     "explanation": "The denominator is not whichever leg happens to be longer. CAH specifies the hypotenuse, which is not a leg and is always the triangle’s longest side."
+    }
+   ]
+  },
+  {
+   "id": "56a57e07-e6d0-4310-8473-ef0e45859d2b",
+   "card_type": "cloze",
+   "front": "SOHCAHTOA defines the tangent ratio as $\\tan\\theta = \\frac{\\text{[...]}}{\\text{adjacent}}$.",
+   "back": "SOHCAHTOA defines the tangent ratio as $\\tan\\theta = \\frac{\\boxed{\\text{opposite}}}{\\text{adjacent}}$.",
+   "options": [
+    {
+     "text": "$$\\text{opposite}$",
+     "correct": true,
+     "explanation": "TOA in SOHCAHTOA means tangent equals opposite divided by adjacent. The side opposite $\\theta$ therefore forms the numerator of the tangent ratio."
+    },
+    {
+     "text": "$$\\text{adjacent}$",
+     "correct": false,
+     "explanation": "Using adjacent in both positions would make tangent equal to $1$ for every angle. TOA requires the opposite side in the numerator."
+    },
+    {
+     "text": "$$\\text{hypotenuse}$",
+     "correct": false,
+     "explanation": "Hypotenuse divided by adjacent is related to the reciprocal of cosine, not tangent. Tangent uses opposite over adjacent and does not involve the hypotenuse."
+    },
+    {
+     "text": "$$\\text{shortest side}$",
+     "correct": false,
+     "explanation": "The numerator is determined by its position relative to $\\theta$, not by being the shortest side. TOA identifies it specifically as the opposite side."
+    }
+   ]
+  },
+  {
+   "id": "6464541b-b208-402f-af34-cd7dc7ea2e03",
+   "card_type": "cloze",
+   "front": "SOHCAHTOA defines the tangent ratio as $\\tan\\theta = \\frac{\\text{opposite}}{\\text{[...]}}$.",
+   "back": "SOHCAHTOA defines the tangent ratio as $\\tan\\theta = \\frac{\\text{opposite}}{\\boxed{\\text{adjacent}}}$.",
+   "options": [
+    {
+     "text": "$$\\text{adjacent}$",
+     "correct": true,
+     "explanation": "Tangent compares the side opposite the angle with the adjacent non-hypotenuse side, so SOHCAHTOA gives $\\tan\\theta=rac{\\text{opposite}}{\\text{adjacent}}$."
+    },
+    {
+     "text": "$$\\text{hypotenuse}$",
+     "correct": false,
+     "explanation": "Using the hypotenuse as the denominator gives the sine ratio, not tangent. Tangent is opposite divided by adjacent, so the missing term is $\\text{adjacent}$."
+    },
+    {
+     "text": "$$\\text{opposite}$",
+     "correct": false,
+     "explanation": "Placing opposite in both positions would always give a ratio of 1. Tangent compares two different sides: opposite divided by adjacent, so the term is $\\text{adjacent}$."
+    },
+    {
+     "text": "$$\\text{angle}$",
+     "correct": false,
+     "explanation": "The angle is used to identify the triangle’s sides, but it is not a side length in the ratio. The denominator of tangent is $\\text{adjacent}$."
+    }
+   ]
+  },
+  {
+   "id": "a99e9e63-aea2-44a4-860d-14eb586057ad",
+   "card_type": "basic",
+   "front": "What are the three side lengths of the $45^\\circ$ special triangle?",
+   "back": "Two shorter sides: 1Hypotenuse: $\\sqrt{2}$",
+   "options": [
+    {
+     "text": "Two shorter sides: 1Hypotenuse: $\\sqrt{2}$",
+     "correct": true,
+     "explanation": "A right-angled isosceles triangle can have legs of length 1. Pythagoras then gives the hypotenuse as $\\sqrt{1^2+1^2}=\\sqrt{2}$."
+    },
+    {
+     "text": "Two shorter sides: 1Hypotenuse: 2",
+     "correct": false,
+     "explanation": "A hypotenuse of 2 belongs to the standard $30^\\circ$-$60^\\circ$-$90^\\circ$ triangle. With both shorter sides equal to 1, Pythagoras gives $\\sqrt{2}$."
+    },
+    {
+     "text": "Two shorter sides: 1Hypotenuse: $\\sqrt{3}$",
+     "correct": false,
+     "explanation": "This does not satisfy Pythagoras because $1^2+1^2=2$, not 3. The two shorter sides are 1 and the hypotenuse is $\\sqrt{2}$."
+    },
+    {
+     "text": "Two shorter sides: $1,\\sqrt{2}$Hypotenuse: 2",
+     "correct": false,
+     "explanation": "This incorrectly uses unequal shorter sides, although a $45^\\circ$ right triangle is isosceles. Its standard side lengths are 1, 1 and $\\sqrt{2}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "dd78db56-be16-40d7-b56b-1e83187d2025",
+   "card_type": "basic",
+   "front": "What are the three side lengths of the $30^\\circ$-$60^\\circ$-$90^\\circ$ special triangle?",
+   "back": "Shortest side: 1Middle side: $\\sqrt{3}$Hypotenuse: 2",
+   "options": [
+    {
+     "text": "Shortest side: 1Middle side: $\\sqrt{3}$Hypotenuse: 2",
+     "correct": true,
+     "explanation": "Bisecting an equilateral triangle of side 2 produces a right triangle with hypotenuse 2, shortest side 1 and middle side $\\sqrt{2^2-1^2}=\\sqrt{3}$."
+    },
+    {
+     "text": "Shortest side: 1Middle side: $\\sqrt{2}$Hypotenuse: 2",
+     "correct": false,
+     "explanation": "The value $\\sqrt{2}$ comes from the $45^\\circ$ special triangle. Here Pythagoras gives the middle side as $\\sqrt{2^2-1^2}=\\sqrt{3}$."
+    },
+    {
+     "text": "Shortest side: 1Middle side: 2Hypotenuse: $\\sqrt{3}$",
+     "correct": false,
+     "explanation": "This reverses the roles of the hypotenuse and middle side. The hypotenuse must be longest, giving the ordered lengths 1, $\\sqrt{3}$ and 2."
+    },
+    {
+     "text": "Shortest side: 1Middle side: 1Hypotenuse: $\\sqrt{2}$",
+     "correct": false,
+     "explanation": "Making both perpendicular sides equal describes an isosceles right triangle, not a $30^\\circ$-$60^\\circ$-$90^\\circ$ triangle. The correct lengths are 1, $\\sqrt{3}$ and 2."
+    }
+   ],
+   "points": 3
+  },
+  {
+   "id": "f17e0952-f444-4eb5-9dd9-e9b26cd3b565",
+   "card_type": "basic",
+   "front": "What are the exact values of $\\sin(45^\\circ)$ and $\\cos(45^\\circ)$?",
+   "back": "They are equal: $\\frac{\\sqrt{2}}{2}$.",
+   "options": [
+    {
+     "text": "They are equal: $\\frac{\\sqrt{2}}{2}$.",
+     "correct": true,
+     "explanation": "In a $45^\\circ$ right triangle, the opposite and adjacent sides are equal. Dividing either leg, 1, by the hypotenuse, $\\sqrt{2}$, gives $\\frac{\\sqrt{2}}{2}$."
+    },
+    {
+     "text": "They are equal: $\\frac{1}{2}$.",
+     "correct": false,
+     "explanation": "The value $\\frac{1}{2}$ is $\\sin(30^\\circ)$, not either ratio at $45^\\circ$. Both $\\sin(45^\\circ)$ and $\\cos(45^\\circ)$ equal $\\frac{\\sqrt{2}}{2}$."
+    },
+    {
+     "text": "They are equal: $\\frac{\\sqrt{3}}{2}$.",
+     "correct": false,
+     "explanation": "The value $\\frac{\\sqrt{3}}{2}$ occurs for $\\cos(30^\\circ)$ and $\\sin(60^\\circ)$. At $45^\\circ$, both sine and cosine equal $\\frac{\\sqrt{2}}{2}$."
+    },
+    {
+     "text": "They are equal: $\\sqrt{2}$.",
+     "correct": false,
+     "explanation": "This misses the division by the hypotenuse: $1/\\sqrt{2}$ rationalises to $\\frac{\\sqrt{2}}{2}$, not $\\sqrt{2}$. Both exact values are $\\frac{\\sqrt{2}}{2}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "97044958-bda8-4830-9038-d945a7dd7cbe",
+   "card_type": "basic",
+   "front": "What is the exact value of $\\sin(30^\\circ)$?",
+   "back": "$\\frac{1}{2}$",
+   "options": [
+    {
+     "text": "$\\frac{1}{2}$",
+     "correct": true,
+     "explanation": "In the $30^\\circ$-$60^\\circ$-$90^\\circ$ triangle, the side opposite $30^\\circ$ is 1 and the hypotenuse is 2, so $\\sin(30^\\circ)=\\frac{1}{2}$."
+    },
+    {
+     "text": "$\\frac{\\sqrt{3}}{2}$",
+     "correct": false,
+     "explanation": "The value $\\frac{\\sqrt{3}}{2}$ uses the longer adjacent side and is $\\cos(30^\\circ)$. Sine uses opposite over hypotenuse, giving $\\frac{1}{2}$."
+    },
+    {
+     "text": "$\\frac{\\sqrt{2}}{2}$",
+     "correct": false,
+     "explanation": "The value $\\frac{\\sqrt{2}}{2}$ belongs to sine and cosine at $45^\\circ$. For $30^\\circ$, opposite over hypotenuse is $1/2$."
+    },
+    {
+     "text": "$\\frac{\\sqrt{3}}{3}$",
+     "correct": false,
+     "explanation": "The value $\\frac{\\sqrt{3}}{3}$ is $\\tan(30^\\circ)$, formed from opposite over adjacent. Sine instead uses opposite over hypotenuse and equals $\\frac{1}{2}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "21d46f7f-12da-4050-a770-c7fa66b3a3af",
+   "card_type": "basic",
+   "front": "What is the exact value of $\\cos(30^\\circ)$?",
+   "back": "$\\frac{\\sqrt{3}}{2}$",
+   "options": [
+    {
+     "text": "$\\frac{\\sqrt{3}}{2}$",
+     "correct": true,
+     "explanation": "In the $30^\\circ$-$60^\\circ$-$90^\\circ$ triangle, the side adjacent to $30^\\circ$ is $\\sqrt{3}$ and the hypotenuse is 2, giving $\\cos(30^\\circ)=\\frac{\\sqrt{3}}{2}$."
+    },
+    {
+     "text": "$\\frac{1}{2}$",
+     "correct": false,
+     "explanation": "The value $\\frac{1}{2}$ is obtained from the opposite side and is $\\sin(30^\\circ)$. Cosine uses adjacent over hypotenuse, giving $\\frac{\\sqrt{3}}{2}$."
+    },
+    {
+     "text": "$\\frac{\\sqrt{2}}{2}$",
+     "correct": false,
+     "explanation": "The value $\\frac{\\sqrt{2}}{2}$ belongs to cosine at $45^\\circ$. Using the $30^\\circ$ triangle’s adjacent side and hypotenuse gives $\\frac{\\sqrt{3}}{2}$."
+    },
+    {
+     "text": "$\\frac{\\sqrt{3}}{3}$",
+     "correct": false,
+     "explanation": "The value $\\frac{\\sqrt{3}}{3}$ is associated with $\\tan(30^\\circ)$, not cosine. Adjacent over hypotenuse gives the correct value $\\frac{\\sqrt{3}}{2}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "8cb6948e-d0c3-4a8f-bab2-75bbe49d920d",
+   "card_type": "basic",
+   "front": "What is the exact value of $\\tan(30^\\circ)$?",
+   "back": "$\\frac{\\sqrt{3}}{3}$",
+   "options": [
+    {
+     "text": "$\\frac{\\sqrt{3}}{3}$",
+     "correct": true,
+     "explanation": "For $30^\\circ$, opposite over adjacent is $\\frac{1}{\\sqrt{3}}$. Rationalising the denominator by multiplying by $\\frac{\\sqrt{3}}{\\sqrt{3}}$ gives $\\frac{\\sqrt{3}}{3}$."
+    },
+    {
+     "text": "$\\frac{1}{2}$",
+     "correct": false,
+     "explanation": "The value $\\frac{1}{2}$ is $\\sin(30^\\circ)$ and uses the hypotenuse. Tangent uses opposite over adjacent, so its exact value is $\\frac{\\sqrt{3}}{3}$."
+    },
+    {
+     "text": "$\\frac{\\sqrt{3}}{2}$",
+     "correct": false,
+     "explanation": "The value $\\frac{\\sqrt{3}}{2}$ is $\\cos(30^\\circ)$ and includes the hypotenuse. Tangent is $1/\\sqrt{3}$, which rationalises to $\\frac{\\sqrt{3}}{3}$."
+    },
+    {
+     "text": "$\\sqrt{3}$",
+     "correct": false,
+     "explanation": "This reverses the tangent ratio by calculating adjacent over opposite, which is the cotangent. Opposite over adjacent gives $1/\\sqrt{3}=\\frac{\\sqrt{3}}{3}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "d7c2d3c6-c394-47d8-8d8d-2fc09d67eaf7",
+   "card_type": "basic",
+   "front": "What is the exact value of $\\tan(45^\\circ)$?",
+   "back": "1",
+   "options": [
+    {
+     "text": "1",
+     "correct": true,
+     "explanation": "A $45^\\circ$ right triangle has equal opposite and adjacent sides. Their ratio is therefore $1/1=1$, so $\\tan(45^\\circ)=1$."
+    },
+    {
+     "text": "$\\frac{\\sqrt{2}}{2}$",
+     "correct": false,
+     "explanation": "The value $\\frac{\\sqrt{2}}{2}$ is $\\sin(45^\\circ)$ and $\\cos(45^\\circ)$ because each uses the hypotenuse. Tangent compares the equal legs and equals 1."
+    },
+    {
+     "text": "$\\sqrt{2}$",
+     "correct": false,
+     "explanation": "The value $\\sqrt{2}$ is the hypotenuse in the standard $45^\\circ$ triangle, not its tangent. Opposite and adjacent are both 1, so tangent equals 1."
+    },
+    {
+     "text": "$\\frac{\\sqrt{3}}{3}$",
+     "correct": false,
+     "explanation": "The value $\\frac{\\sqrt{3}}{3}$ is $\\tan(30^\\circ)$. At $45^\\circ$, the opposite and adjacent sides are equal, so their ratio is 1."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "befa9bce-3c67-4c73-a662-69fb51372313",
+   "card_type": "basic",
+   "front": "What is the exact value of $\\sin(60^\\circ)$?",
+   "back": "$\\frac{\\sqrt{3}}{2}$",
+   "options": [
+    {
+     "text": "$\\frac{\\sqrt{3}}{2}$",
+     "correct": true,
+     "explanation": "The exact sine values follow $\\frac{\\sqrt{x}}{2}$ for $x=0,1,2,3,4$. At $60^\\circ$, this gives $\\sin(60^\\circ)=\\frac{\\sqrt{3}}{2}$."
+    },
+    {
+     "text": "$\\frac{1}{2}$",
+     "correct": false,
+     "explanation": "This confuses the sine values for $30^\\circ$ and $60^\\circ$. The correct exact value is $\\sin(60^\\circ)=\\frac{\\sqrt{3}}{2}$."
+    },
+    {
+     "text": "$\\frac{\\sqrt{2}}{2}$",
+     "correct": false,
+     "explanation": "This is the exact value of $\\sin(45^\\circ)$, not $\\sin(60^\\circ)$. For an angle of $60^\\circ$, the correct value is $\\frac{\\sqrt{3}}{2}$."
+    },
+    {
+     "text": "$\\sqrt{3}$",
+     "correct": false,
+     "explanation": "This is the exact value of $\\tan(60^\\circ)$ and is greater than 1, so it cannot be a sine value. The correct answer is $\\frac{\\sqrt{3}}{2}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "63cb1461-c5f9-47f3-b398-368340a127c3",
+   "card_type": "basic",
+   "front": "What is the exact value of $\\cos(60^\\circ)$?",
+   "back": "$\\frac{1}{2}$",
+   "options": [
+    {
+     "text": "$\\frac{1}{2}$",
+     "correct": true,
+     "explanation": "The exact cosine values decrease from 1 to 0 between $0^\\circ$ and $90^\\circ$. At $60^\\circ$, $\\cos(60^\\circ)=\\frac{1}{2}$."
+    },
+    {
+     "text": "$\\frac{\\sqrt{3}}{2}$",
+     "correct": false,
+     "explanation": "This is $\\sin(60^\\circ)$, reflecting a common confusion between sine and cosine. The correct exact value is $\\cos(60^\\circ)=\\frac{1}{2}$."
+    },
+    {
+     "text": "$\\frac{\\sqrt{2}}{2}$",
+     "correct": false,
+     "explanation": "This is the exact cosine value at $45^\\circ$, not $60^\\circ$. The correct value at $60^\\circ$ is $\\frac{1}{2}$."
+    },
+    {
+     "text": "$\\sqrt{3}$",
+     "correct": false,
+     "explanation": "This is $\\tan(60^\\circ)$ and is greater than 1, whereas cosine cannot exceed 1. The correct exact value is $\\frac{1}{2}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "0cb8a9a7-016c-4fb9-8e32-b7245db55be3",
+   "card_type": "basic",
+   "front": "What is the exact value of $\\tan(60^\\circ)$?",
+   "back": "$\\sqrt{3}$",
+   "options": [
+    {
+     "text": "$\\sqrt{3}$",
+     "correct": true,
+     "explanation": "Using $\\tan\\theta=\\frac{\\sin\\theta}{\\cos\\theta}$ gives $\\tan(60^\\circ)=\\frac{\\sqrt{3}/2}{1/2}=\\sqrt{3}$."
+    },
+    {
+     "text": "$\\frac{1}{\\sqrt{3}}$",
+     "correct": false,
+     "explanation": "This is $\\tan(30^\\circ)$, produced by reversing the opposite and adjacent sides for $60^\\circ$. The correct exact value is $\\tan(60^\\circ)=\\sqrt{3}$."
+    },
+    {
+     "text": "$\\frac{\\sqrt{3}}{2}$",
+     "correct": false,
+     "explanation": "This is $\\sin(60^\\circ)$, not the tangent. Dividing sine by cosine gives $\\frac{\\sqrt{3}/2}{1/2}=\\sqrt{3}$."
+    },
+    {
+     "text": "$1$",
+     "correct": false,
+     "explanation": "This is the tangent value at $45^\\circ$, where opposite and adjacent sides are equal. At $60^\\circ$, the correct exact value is $\\sqrt{3}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "aebd50d0-7605-49ee-82e4-ecc35d00b56a",
+   "card_type": "cloze",
+   "front": "At $90^\\circ$, $\\sin(90^\\circ) = \\text{[...]}$ and $\\cos(90^\\circ) = 0$.",
+   "back": "At $90^\\circ$, $\\sin(90^\\circ) = \\boxed{1}$ and $\\cos(90^\\circ) = 0$.",
+   "options": [
+    {
+     "text": "$$1$",
+     "correct": true,
+     "explanation": "Sine is opposite divided by hypotenuse. At $90^\\circ$, the opposite side reaches the full hypotenuse, so their ratio and therefore $\\sin(90^\\circ)$ equal 1."
+    },
+    {
+     "text": "$$0$",
+     "correct": false,
+     "explanation": "This confuses sine with cosine at $90^\\circ$. While $\\cos(90^\\circ)=0$, the sine value reaches its maximum, so $\\sin(90^\\circ)=1$."
+    },
+    {
+     "text": "$$-1$",
+     "correct": false,
+     "explanation": "A sine value of $-1$ occurs at $270^\\circ$, not $90^\\circ$. In the first quadrant sine is positive, and $\\sin(90^\\circ)=1$."
+    },
+    {
+     "text": "$$\\frac{1}{2}$",
+     "correct": false,
+     "explanation": "This is the exact sine value at $30^\\circ$, not $90^\\circ$. Sine increases to its maximum value of 1 at $90^\\circ$."
+    }
+   ]
+  },
+  {
+   "id": "af405b14-728a-421f-ba4b-06768a0e9e41",
+   "card_type": "cloze",
+   "front": "At $90^\\circ$, $\\sin(90^\\circ) = 1$ and $\\cos(90^\\circ) = \\text{[...]}$.",
+   "back": "At $90^\\circ$, $\\sin(90^\\circ) = 1$ and $\\cos(90^\\circ) = \\boxed{0}$.",
+   "options": [
+    {
+     "text": "$$0$",
+     "correct": true,
+     "explanation": "Cosine is adjacent divided by hypotenuse. At $90^\\circ$, the adjacent horizontal component is zero, so $\\cos(90^\\circ)=0$."
+    },
+    {
+     "text": "$$1$",
+     "correct": false,
+     "explanation": "This is $\\cos(0^\\circ)$ and also $\\sin(90^\\circ)$, so it reflects an angle or function mix-up. The correct value is $\\cos(90^\\circ)=0$."
+    },
+    {
+     "text": "$$-1$",
+     "correct": false,
+     "explanation": "A cosine value of $-1$ occurs at $180^\\circ$, not $90^\\circ$. At $90^\\circ$, the horizontal component is zero, so the cosine is 0."
+    },
+    {
+     "text": "$$\\frac{1}{2}$",
+     "correct": false,
+     "explanation": "This is the exact value of $\\cos(60^\\circ)$, not $\\cos(90^\\circ)$. Cosine decreases to 0 as the angle reaches $90^\\circ$."
+    }
+   ]
+  },
+  {
+   "id": "927669da-2bcf-42b9-ac73-9a83bf97aac6",
+   "card_type": "basic",
+   "front": "Why is $\\tan(90^\\circ)$ not defined?",
+   "back": "The adjacent side is zero, and dividing by zero is impossible.",
+   "options": [
+    {
+     "text": "The adjacent side is zero, and dividing by zero is impossible.",
+     "correct": true,
+     "explanation": "Tangent is opposite divided by adjacent. At $90^\\circ$ the adjacent side is zero, so calculating tangent would require division by zero, which is undefined."
+    },
+    {
+     "text": "The opposite side is zero, and dividing by zero is impossible.",
+     "correct": false,
+     "explanation": "This swaps the numerator and denominator in the tangent ratio. At $90^\\circ$ the adjacent side, not the opposite side, is zero, making division by zero unavoidable."
+    },
+    {
+     "text": "The hypotenuse is zero, and dividing by zero is impossible.",
+     "correct": false,
+     "explanation": "The hypotenuse cannot be zero in a non-degenerate right-angled triangle. Tangent is opposite divided by adjacent, and at $90^\\circ$ it is the adjacent side that is zero."
+    },
+    {
+     "text": "The adjacent side is zero, and zero divided by a number is impossible.",
+     "correct": false,
+     "explanation": "Zero divided by a non-zero number is defined and equals zero. The problem is that tangent requires the opposite side to be divided by the zero adjacent side."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "84eca0c1-450c-449d-877b-284d723439af",
+   "card_type": "cloze",
+   "front": "The sine values from $0^\\circ$ to $90^\\circ$ follow the pattern $\\frac{\\sqrt{x}}{2}$, where $x$ values are $\\text{[...]}$.",
+   "back": "The sine values from $0^\\circ$ to $90^\\circ$ follow the pattern $\\frac{\\sqrt{x}}{2}$, where $x$ values are $\\boxed{0, 1, 2, 3, 4}$.",
+   "options": [
+    {
+     "text": "$$0, 1, 2, 3, 4$",
+     "correct": true,
+     "explanation": "For $0^\\circ$, $30^\\circ$, $45^\\circ$, $60^\\circ$ and $90^\\circ$, the sine values are formed by substituting $x=0,1,2,3,4$ into $\\frac{\\sqrt{x}}{2}$."
+    },
+    {
+     "text": "$$0, 1, 4, 9, 16$",
+     "correct": false,
+     "explanation": "These are square numbers, which would cancel the square root and produce values exceeding 1. The required $x$ values are $0,1,2,3,4$."
+    },
+    {
+     "text": "$$4, 3, 2, 1, 0$",
+     "correct": false,
+     "explanation": "This reverses the pattern and would make sine decrease from 1 to 0. Between $0^\\circ$ and $90^\\circ$, sine increases, using $x=0,1,2,3,4$."
+    },
+    {
+     "text": "$$1, 2, 3, 4, 5$",
+     "correct": false,
+     "explanation": "This off-by-one pattern incorrectly gives $\\sin(0^\\circ)=\\frac{1}{2}$ and makes the final value exceed 1. The correct sequence is $0,1,2,3,4$."
+    }
+   ]
+  },
+  {
+   "id": "0fe7ee57-85aa-42a6-a673-9fbd284f452a",
+   "card_type": "basic",
+   "front": "In a triangle with a $30^\\circ$ angle and an opposite side of 18 cm, how do you find the hypotenuse $h$?",
+   "back": "Use $\\sin(30^\\circ) = \\frac{18}{h}$Substitute $\\frac{1}{2} = \\frac{18}{h}$Solve for $h = 36$ cm",
+   "options": [
+    {
+     "text": "Use $\\sin(30^\\circ) = \\frac{18}{h}$Substitute $\\frac{1}{2} = \\frac{18}{h}$Solve for $h = 36$ cm",
+     "correct": true,
+     "explanation": "Sine is opposite divided by hypotenuse, so $\\sin(30^\\circ)=\\frac{18}{h}$. Substituting $\\frac{1}{2}$ and rearranging gives $h=18\\div\\frac{1}{2}=36$ cm."
+    },
+    {
+     "text": "Use $\\cos(30^\\circ) = \\frac{18}{h}$Substitute $\\frac{\\sqrt{3}}{2} = \\frac{18}{h}$Solve for $h = 12\\sqrt{3}$ cm",
+     "correct": false,
+     "explanation": "Cosine uses the adjacent side, but 18 cm is identified as the opposite side. Sine must be used, giving $\\frac{1}{2}=\\frac{18}{h}$ and $h=36$ cm."
+    },
+    {
+     "text": "Use $\\sin(30^\\circ) = \\frac{h}{18}$Substitute $\\frac{1}{2} = \\frac{h}{18}$Solve for $h = 9$ cm",
+     "correct": false,
+     "explanation": "This reverses the sine ratio: sine is opposite divided by hypotenuse, not hypotenuse divided by opposite. The equation should be $\\frac{1}{2}=\\frac{18}{h}$, giving $h=36$ cm."
+    },
+    {
+     "text": "Use $\\sin(60^\\circ) = \\frac{18}{h}$Substitute $\\frac{\\sqrt{3}}{2} = \\frac{18}{h}$Solve for $h = 12\\sqrt{3}$ cm",
+     "correct": false,
+     "explanation": "This uses the complementary angle instead of the stated $30^\\circ$ angle while still treating 18 cm as opposite. Using $\\sin(30^\\circ)=\\frac{18}{h}$ gives $h=36$ cm."
+    }
+   ],
+   "points": 3
+  }
+ ],
+ "card_count": 24,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-5-5-20-exact-trig-values/flashcards",
+ "source_sha256": "9402a5f0637ef8b113e1c05635138307ffce55eeda9620312b7ad9e78474a2d3",
+ "extracted_at": "2026-11-08T17:55:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}

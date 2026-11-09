@@ -1,0 +1,675 @@
+{
+ "topic": "grade-7-7-14-congruent-triangles",
+ "lane": "gcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "title": "Congruent Triangles Flashcards",
+ "cards": [
+  {
+   "id": "96abd1a0-46d1-48be-9d47-10412f51e6be",
+   "card_type": "basic",
+   "front": "After proving two triangles are congruent, what equality fact can you use?",
+   "back": "Corresponding sides and angles are equal.",
+   "options": [
+    {
+     "text": "Corresponding sides and angles are equal.",
+     "correct": true,
+     "explanation": "Congruent triangles have exactly the same size and shape, so every pair of corresponding sides has equal length and every pair of corresponding angles has equal measure."
+    },
+    {
+     "text": "Corresponding sides and angles are proportional.",
+     "correct": false,
+     "explanation": "Proportional measurements are associated with similar triangles and do not necessarily mean the triangles are the same size. For congruent triangles, corresponding sides and angles are equal."
+    },
+    {
+     "text": "Corresponding sides and angles are parallel.",
+     "correct": false,
+     "explanation": "Corresponding parts occupy matching positions but do not have to be parallel. Congruence allows you to conclude that corresponding sides have equal lengths and corresponding angles have equal measures."
+    },
+    {
+     "text": "Corresponding sides and angles are perpendicular.",
+     "correct": false,
+     "explanation": "Perpendicular lines meet at $90^\\circ$, which is unrelated to the general consequence of congruence. Corresponding sides and angles in congruent triangles are equal."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "51109211-2c4e-44b0-ac05-fd6d8203561e",
+   "card_type": "cloze",
+   "front": "In $\\triangle ABC \\cong \\triangle DEF$, the order shows B matches [ ___ ].",
+   "back": "In $\\triangle ABC \\cong \\triangle DEF$, the order shows B matches E.",
+   "options": [
+    {
+     "text": "E",
+     "correct": true,
+     "explanation": "Congruence notation lists corresponding vertices in the same order. Since B is the second vertex of $ABC$, it matches E, the second vertex of $DEF$."
+    },
+    {
+     "text": "D",
+     "correct": false,
+     "explanation": "Matching B with D incorrectly pairs the second vertex of the first triangle with the first vertex of the second. The order shows that B matches E."
+    },
+    {
+     "text": "F",
+     "correct": false,
+     "explanation": "Matching B with F incorrectly pairs the second vertex with the third vertex. Reading both triangle names in order gives $A\\leftrightarrow D$, $B\\leftrightarrow E$, and $C\\leftrightarrow F$."
+    },
+    {
+     "text": "A",
+     "correct": false,
+     "explanation": "A belongs to the first triangle and cannot be B’s corresponding vertex in the second triangle. The notation pairs B, the second vertex, with E."
+    }
+   ]
+  },
+  {
+   "id": "20deae61-8549-4a36-ad69-8b0f0c47823c",
+   "card_type": "basic",
+   "front": "If $\\triangle PQR \\cong \\triangle XZY$, which angle matches $\\angle QPR$?",
+   "back": "$$\\angle QPR$ matches $\\angle ZXY$.",
+   "options": [
+    {
+     "text": "$$\\angle QPR$ matches $\\angle ZXY$.",
+     "correct": true,
+     "explanation": "The order gives $P\\leftrightarrow X$, $Q\\leftrightarrow Z$, and $R\\leftrightarrow Y$. Therefore $Q-P-R$ corresponds to $Z-X-Y$, so the matching angle is $\\angle ZXY$."
+    },
+    {
+     "text": "$$\\angle QPR$ matches $\\angle XZY$.",
+     "correct": false,
+     "explanation": "This places Z at the angle’s vertex, so it corresponds to the angle at Q rather than P. Since $P\\leftrightarrow X$, the correct angle is $\\angle ZXY$."
+    },
+    {
+     "text": "$$\\angle QPR$ matches $\\angle XYZ$.",
+     "correct": false,
+     "explanation": "This angle has Y as its vertex, corresponding to R rather than P. Using $Q\\leftrightarrow Z$, $P\\leftrightarrow X$, and $R\\leftrightarrow Y$ gives $\\angle ZXY$."
+    },
+    {
+     "text": "$$\\angle QPR$ matches $\\angle YZX$.",
+     "correct": false,
+     "explanation": "This choice reverses the correspondence and places Z at the vertex. The middle letter P must match X, so the corresponding angle is $\\angle ZXY$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "e9605a8e-22d2-4d1f-a64c-3002e9093f18",
+   "card_type": "basic",
+   "front": "If $\\triangle PQR \\cong \\triangle XZY$, which side matches $QR$?",
+   "back": "$$QR$ matches $ZY$.",
+   "options": [
+    {
+     "text": "$$QR$ matches $ZY$.",
+     "correct": true,
+     "explanation": "The congruence order pairs Q with Z and R with Y. A side’s endpoints must map to their corresponding endpoints, so $QR$ matches $ZY$."
+    },
+    {
+     "text": "$$QR$ matches $XZ$.",
+     "correct": false,
+     "explanation": "The side $XZ$ joins the vertices corresponding to P and Q, so it matches $PQ$, not $QR$. Since $Q\\leftrightarrow Z$ and $R\\leftrightarrow Y$, $QR$ matches $ZY$."
+    },
+    {
+     "text": "$$QR$ matches $XY$.",
+     "correct": false,
+     "explanation": "The side $XY$ joins the vertices corresponding to P and R, so it matches $PR$. Mapping Q to Z and R to Y shows that $QR$ matches $ZY$."
+    },
+    {
+     "text": "$$QR$ matches $ZX$.",
+     "correct": false,
+     "explanation": "Reversing the letters of a side does not change its endpoints: $ZX$ is the same side as $XZ$, which corresponds to $PQ$. The match for $QR$ is $ZY$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "329f4b3e-b824-46e7-828f-e1316ee3df7d",
+   "card_type": "cloze",
+   "front": "The SSS congruence test needs [ ___ ] equal.",
+   "back": "The SSS congruence test needs three corresponding sides equal.",
+   "options": [
+    {
+     "text": "three corresponding sides",
+     "correct": true,
+     "explanation": "SSS stands for side-side-side. The test proves congruence when all three sides of one triangle are equal to the three corresponding sides of the other triangle."
+    },
+    {
+     "text": "two corresponding sides",
+     "correct": false,
+     "explanation": "Two equal side pairs alone do not fix a triangle’s shape, so different triangles may satisfy this information. SSS requires all three pairs of corresponding sides to be equal."
+    },
+    {
+     "text": "three corresponding angles",
+     "correct": false,
+     "explanation": "Three equal angle pairs establish similarity, not congruence, because the triangles may have different sizes. SSS specifically requires three corresponding sides to be equal."
+    },
+    {
+     "text": "two corresponding angles",
+     "correct": false,
+     "explanation": "Two corresponding angles determine the triangle’s shape but not its scale, so this information alone cannot prove congruence. SSS requires three corresponding sides to be equal."
+    }
+   ]
+  },
+  {
+   "id": "45d64b43-024b-4d1d-abe9-c840bc3a92cb",
+   "card_type": "basic",
+   "front": "For SAS congruence, where must the equal angle be?",
+   "back": "The included angle between the two equal sides.",
+   "options": [
+    {
+     "text": "The included angle between the two equal sides.",
+     "correct": true,
+     "explanation": "For SAS, the angle must be enclosed by the two sides known to be equal. This fixes the triangle uniquely and allows congruence to be established."
+    },
+    {
+     "text": "The non-included angle beside one equal side.",
+     "correct": false,
+     "explanation": "Using a non-included angle gives SSA information, which can produce more than one possible triangle. SAS requires the included angle between the two equal sides."
+    },
+    {
+     "text": "The opposite angle across from both equal sides.",
+     "correct": false,
+     "explanation": "An angle opposite one of the known sides is not enclosed by both sides and gives ambiguous SSA information. The required angle is the included angle between the equal sides."
+    },
+    {
+     "text": "The largest angle inside each of the triangles.",
+     "correct": false,
+     "explanation": "The size ranking of the angle is irrelevant to SAS. It must occupy the specific position between the two corresponding equal sides, making it the included angle."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "f0f341c8-60f5-4bfc-b92e-b8dc23a8e8c2",
+   "card_type": "cloze",
+   "front": "The ASA/AAS test uses two corresponding [ ___ ] and one corresponding side.",
+   "back": "The ASA/AAS test uses two corresponding angles and one corresponding side.",
+   "options": [
+    {
+     "text": "angles",
+     "correct": true,
+     "explanation": "ASA and AAS each use two pairs of equal corresponding angles and one pair of equal corresponding sides. The side’s position distinguishes ASA from AAS."
+    },
+    {
+     "text": "vertices",
+     "correct": false,
+     "explanation": "Vertices are points and are not measured as equal evidence for congruence. ASA and AAS require two corresponding angles and one corresponding side."
+    },
+    {
+     "text": "lengths",
+     "correct": false,
+     "explanation": "Treating the two measurements as lengths would give three side measurements rather than ASA or AAS. These tests use two corresponding angles and one corresponding side."
+    },
+    {
+     "text": "diagonals",
+     "correct": false,
+     "explanation": "A triangle has no diagonals because each pair of non-adjacent vertices is already joined by a side. ASA and AAS use two corresponding angles and one corresponding side."
+    }
+   ]
+  },
+  {
+   "id": "554937c8-7a40-4484-a863-91544efe431c",
+   "card_type": "basic",
+   "front": "For RHS congruence, what angle fact must be true?",
+   "back": "Both triangles are right-angled.",
+   "options": [
+    {
+     "text": "Both triangles are right-angled.",
+     "correct": true,
+     "explanation": "RHS stands for right angle-hypotenuse-side, so each triangle must contain a $90^\\circ$ angle. Equal hypotenuses and one other equal side can then establish congruence."
+    },
+    {
+     "text": "Both triangles are acute-angled.",
+     "correct": false,
+     "explanation": "Acute triangles contain only angles smaller than $90^\\circ$, so the RHS test cannot apply. RHS requires both triangles to be right-angled."
+    },
+    {
+     "text": "Both triangles are obtuse-angled.",
+     "correct": false,
+     "explanation": "An obtuse triangle has an angle greater than $90^\\circ$ and cannot satisfy the right-angle condition in RHS. Both triangles must instead be right-angled."
+    },
+    {
+     "text": "Both triangles are equiangular.",
+     "correct": false,
+     "explanation": "Equiangular triangles have three equal angles and are similar, but they are not necessarily congruent or right-angled. RHS specifically requires both triangles to be right-angled."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "e32c3a1e-e7c1-447e-8265-4500677a0345",
+   "card_type": "basic",
+   "front": "For RHS congruence, which side must be equal as the longest side?",
+   "back": "The hypotenuses are equal.",
+   "options": [
+    {
+     "text": "The hypotenuses are equal.",
+     "correct": true,
+     "explanation": "In right-angled triangles, the hypotenuse is always the longest side. RHS congruence requires the two hypotenuses to have equal lengths."
+    },
+    {
+     "text": "The corresponding bases are equal.",
+     "correct": false,
+     "explanation": "Treating a chosen base as the longest side ignores the defining feature of a right-angled triangle. The hypotenuses must be equal because each is opposite the right angle."
+    },
+    {
+     "text": "The right-angle sides are equal.",
+     "correct": false,
+     "explanation": "The sides forming the right angle are shorter legs, not the longest sides. RHS requires equal hypotenuses, together with one equal pair of corresponding legs."
+    },
+    {
+     "text": "The perpendicular sides are equal.",
+     "correct": false,
+     "explanation": "The perpendicular sides form the right angle and are not hypotenuses. The required longest sides are the hypotenuses, which lie opposite the right angles."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "dadd6492-5a11-4088-88c5-32c57fcee036",
+   "card_type": "basic",
+   "front": "For RHS congruence, what side fact is needed besides equal hypotenuses?",
+   "back": "One other corresponding side is equal.",
+   "options": [
+    {
+     "text": "One other corresponding side is equal.",
+     "correct": true,
+     "explanation": "RHS uses a right angle, equal hypotenuses and one other pair of equal corresponding sides. These three facts fix the triangles’ size and shape."
+    },
+    {
+     "text": "One other non-corresponding side is equal.",
+     "correct": false,
+     "explanation": "Comparing sides that do not occupy matching positions cannot establish RHS congruence. One other pair of corresponding sides must be equal alongside the equal hypotenuses."
+    },
+    {
+     "text": "One other corresponding side is parallel.",
+     "correct": false,
+     "explanation": "Parallel sides describe direction rather than length, so this does not meet the RHS condition. One other pair of corresponding sides must have equal lengths."
+    },
+    {
+     "text": "One other corresponding side is twice as long.",
+     "correct": false,
+     "explanation": "A doubled side length would make the triangles different sizes rather than congruent. RHS requires one other corresponding side to be equal in length."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "ba12ad6e-b51d-4d5a-a3df-290af11b5b6a",
+   "card_type": "basic",
+   "front": "Why do three equal angles not prove congruent triangles?",
+   "back": "AAA gives the same shape, not necessarily the same size.",
+   "options": [
+    {
+     "text": "AAA gives the same shape, not necessarily the same size.",
+     "correct": true,
+     "explanation": "Equal corresponding angles guarantee similarity, so the triangles have the same shape. Their corresponding sides may be scaled, meaning the triangles need not be congruent."
+    },
+    {
+     "text": "AAA gives the same size, but not necessarily the same shape.",
+     "correct": false,
+     "explanation": "This reverses the similarity result. Three equal corresponding angles fix the shape, but side lengths may differ, so the triangles are not necessarily the same size."
+    },
+    {
+     "text": "AAA proves both triangles have equal corresponding side lengths.",
+     "correct": false,
+     "explanation": "Equal angles do not determine absolute side lengths because one triangle may be an enlargement of the other. AAA establishes the same shape, not necessarily the same size."
+    },
+    {
+     "text": "AAA only applies when all three angles are right angles.",
+     "correct": false,
+     "explanation": "A triangle cannot contain three right angles because its angles total 180°. AAA can show similarity for any three matching angles, but it does not prove congruence."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "22415639-3098-4349-9031-4e237c44bbf9",
+   "card_type": "cloze",
+   "front": "A common side is [ ___ ] in both triangles.",
+   "back": "A common side is equal to itself in both triangles.",
+   "options": [
+    {
+     "text": "equal to itself",
+     "correct": true,
+     "explanation": "A common side is the same line segment in both triangles, so its length is equal to itself. This shared length can be used in a congruence proof."
+    },
+    {
+     "text": "different in length",
+     "correct": false,
+     "explanation": "A shared side cannot have two different lengths because it is the same line segment in both triangles. The correct fact is that it is equal to itself."
+    },
+    {
+     "text": "twice as long",
+     "correct": false,
+     "explanation": "This treats the shared segment as though it changes length between the triangles. A common side is identical in both, so it is equal to itself."
+    },
+    {
+     "text": "perpendicular to itself",
+     "correct": false,
+     "explanation": "A side does not form a right angle with itself. The useful congruence fact is about length: the common side is equal to itself in both triangles."
+    }
+   ]
+  },
+  {
+   "id": "09e90b4e-c828-4732-bc05-77cd7f57a991",
+   "card_type": "cloze",
+   "front": "In a parallelogram, opposite sides are [ ___ ].",
+   "back": "In a parallelogram, opposite sides are equal.",
+   "options": [
+    {
+     "text": "equal",
+     "correct": true,
+     "explanation": "A defining property of every parallelogram is that each pair of opposite sides has equal length. This fact can provide corresponding equal sides in a congruence proof."
+    },
+    {
+     "text": "perpendicular",
+     "correct": false,
+     "explanation": "Perpendicular sides meet at 90°, which is not generally true of opposite sides in a parallelogram. Opposite sides are equal in length and parallel."
+    },
+    {
+     "text": "adjacent",
+     "correct": false,
+     "explanation": "Opposite sides lie across from one another rather than sharing a vertex, so they are not adjacent. The required length property is that opposite sides are equal."
+    },
+    {
+     "text": "unequal",
+     "correct": false,
+     "explanation": "This contradicts a defining property of parallelograms. Both pairs of opposite sides have equal lengths, which is often used when proving triangles congruent."
+    }
+   ]
+  },
+  {
+   "id": "cc19d968-a4c2-408b-b2da-22ecd17ae167",
+   "card_type": "basic",
+   "front": "What do diagonals of a parallelogram do to each other?",
+   "back": "They bisect each other - cut each other in half.",
+   "options": [
+    {
+     "text": "They bisect each other - cut each other in half.",
+     "correct": true,
+     "explanation": "The diagonals of every parallelogram meet at their shared midpoint. Therefore, each diagonal divides the other into two segments of equal length."
+    },
+    {
+     "text": "They bisect the angles - cut each corner angle in half.",
+     "correct": false,
+     "explanation": "Confusing parallelograms with rhombuses makes this tempting, but parallelogram diagonals do not generally bisect the corner angles. They bisect each other at their intersection."
+    },
+    {
+     "text": "They meet at right angles - cross at 90°.",
+     "correct": false,
+     "explanation": "Perpendicular diagonals occur in special parallelograms such as rhombuses, but not in every parallelogram. The universal property is that the diagonals bisect each other."
+    },
+    {
+     "text": "They are equal in length - have the same measurement.",
+     "correct": false,
+     "explanation": "Equal diagonals are a property of rectangles, not all parallelograms. In every parallelogram, the diagonals bisect each other, although their total lengths may differ."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "83932172-c398-4887-b122-32150ad589a1",
+   "card_type": "basic",
+   "front": "When two straight lines cross, what angle equality can you use?",
+   "back": "Vertically opposite angles are equal.",
+   "options": [
+    {
+     "text": "Vertically opposite angles are equal.",
+     "correct": true,
+     "explanation": "When two straight lines intersect, the angles directly opposite one another are vertically opposite angles. Each opposite pair always has equal angle measures."
+    },
+    {
+     "text": "Adjacent angles are equal.",
+     "correct": false,
+     "explanation": "Adjacent angles at an intersection usually form a straight line and sum to 180°, rather than being equal. Vertically opposite angles are the equal pairs."
+    },
+    {
+     "text": "Corresponding angles are equal.",
+     "correct": false,
+     "explanation": "Corresponding angles require a transversal crossing parallel lines, not merely two intersecting lines. At a simple intersection, vertically opposite angles are equal."
+    },
+    {
+     "text": "Angles on a straight line are equal.",
+     "correct": false,
+     "explanation": "Angles on a straight line add to 180° but are not generally equal. The equality created whenever two lines cross is between vertically opposite angles."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "9a57f587-2d04-4c82-8d4c-059014483b8c",
+   "card_type": "basic",
+   "front": "On parallel lines, which angle equality can help prove triangles congruent?",
+   "back": "Alternate angles are equal.",
+   "options": [
+    {
+     "text": "Alternate angles are equal.",
+     "correct": true,
+     "explanation": "When a transversal crosses parallel lines, alternate angles lie between the lines on opposite sides of the transversal. These angles are equal and can support congruence proofs."
+    },
+    {
+     "text": "Co-interior angles are equal.",
+     "correct": false,
+     "explanation": "Co-interior angles between parallel lines add to 180° rather than being equal in general. Alternate angles form an equal pair that can be used in congruence proofs."
+    },
+    {
+     "text": "Adjacent angles are equal.",
+     "correct": false,
+     "explanation": "Adjacent angles share a vertex and side but are not automatically equal. With parallel lines, the relevant guaranteed equality here is between alternate angles."
+    },
+    {
+     "text": "Angles on a straight line are equal.",
+     "correct": false,
+     "explanation": "Angles on a straight line sum to 180° and need not have equal measures. Alternate angles formed by a transversal across parallel lines are equal."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "c0d926b5-286d-45bb-8fe5-3e6b3acb9cb3",
+   "card_type": "cloze",
+   "front": "A radius to the point where a tangent touches a circle is [ ___ ] to the tangent.",
+   "back": "A radius to the point where a tangent touches a circle is perpendicular to the tangent.",
+   "options": [
+    {
+     "text": "perpendicular",
+     "correct": true,
+     "explanation": "A tangent meets the radius at the point of contact at a right angle, so the radius is perpendicular to the tangent."
+    },
+    {
+     "text": "parallel",
+     "correct": false,
+     "explanation": "A tangent cannot be parallel to the radius at their point of contact. The radius and tangent meet at a right angle, so the correct term is perpendicular."
+    },
+    {
+     "text": "oblique",
+     "correct": false,
+     "explanation": "An oblique angle is not a right angle. The circle theorem states that a radius to the point of contact is perpendicular to the tangent."
+    },
+    {
+     "text": "inclined at $45^\\circ$",
+     "correct": false,
+     "explanation": "The angle is not specifically $45^\\circ$; it is always $90^\\circ$. Therefore, the radius is perpendicular to the tangent at the point of contact."
+    }
+   ]
+  },
+  {
+   "id": "9768772e-07c5-4efd-b3d1-caf29daab833",
+   "card_type": "basic",
+   "front": "In a circle with centre O, why is $OP=OQ$ for points P and Q on the circle?",
+   "back": "$$OP$ and $OQ$ are radii of the same circle.",
+   "options": [
+    {
+     "text": "$$OP$ and $OQ$ are radii of the same circle.",
+     "correct": true,
+     "explanation": "Both segments run from the centre O to points on the circumference. All radii of the same circle have equal length, so $OP=OQ$."
+    },
+    {
+     "text": "$$OP$ and $OQ$ are equal chords of the same circle.",
+     "correct": false,
+     "explanation": "Chords have both endpoints on the circumference, whereas these segments start at the centre. They are radii of the same circle, so their lengths are equal."
+    },
+    {
+     "text": "$$OP$ and $OQ$ are diameters of the same circle.",
+     "correct": false,
+     "explanation": "A diameter passes through the centre and has two endpoints on the circumference. Each segment has only one radius length, so both are radii of the same circle."
+    },
+    {
+     "text": "$$OP$ and $OQ$ are tangents from the same point.",
+     "correct": false,
+     "explanation": "A tangent touches a circle at one point and does not run from the centre to the circumference. These segments are equal because they are radii of the same circle."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "e5c7751b-14b8-49fb-8cf4-0d48f9fe3e5e",
+   "card_type": "basic",
+   "front": "In the tangent proof with triangles XPO and XQO, which side is the shared hypotenuse?",
+   "back": "$XO$.",
+   "options": [
+    {
+     "text": "$XO$.",
+     "correct": true,
+     "explanation": "Both right-angled triangles contain $XO$, and it lies opposite their right angles at P and Q. It is therefore their shared hypotenuse."
+    },
+    {
+     "text": "$XP$.",
+     "correct": false,
+     "explanation": "$$XP$ is a leg of triangle XPO and does not belong to triangle XQO. The side shared by both triangles, and their hypotenuse, is $XO$."
+    },
+    {
+     "text": "$XQ$.",
+     "correct": false,
+     "explanation": "$$XQ$ is a leg of triangle XQO but is not a side of triangle XPO. The common hypotenuse in both triangles is $XO$."
+    },
+    {
+     "text": "$OP$.",
+     "correct": false,
+     "explanation": "$$OP$ is a radius and a perpendicular leg of triangle XPO, not a shared side. Both triangles instead contain the hypotenuse $XO$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "1f6b300c-4e86-4342-8783-855b956ba980",
+   "card_type": "cloze",
+   "front": "A midpoint cuts a line segment into [ ___ ].",
+   "back": "A midpoint cuts a line segment into two equal parts.",
+   "options": [
+    {
+     "text": "two equal parts",
+     "correct": true,
+     "explanation": "By definition, a midpoint lies halfway along a line segment and divides it into exactly two sections of equal length."
+    },
+    {
+     "text": "two unequal parts",
+     "correct": false,
+     "explanation": "A point that creates unequal sections is not the midpoint. A midpoint is halfway along the segment and therefore cuts it into two equal parts."
+    },
+    {
+     "text": "three equal parts",
+     "correct": false,
+     "explanation": "A single midpoint makes exactly two sections, not three. Dividing a segment into three equal parts requires two trisection points rather than one midpoint."
+    },
+    {
+     "text": "two parts in a $1:2$ ratio",
+     "correct": false,
+     "explanation": "A $1:2$ division places the point away from the centre of the segment. A midpoint divides the segment in a $1:1$ ratio, producing two equal parts."
+    }
+   ]
+  },
+  {
+   "id": "597e4fe2-b0ce-4bc9-86f3-d0b60d46b022",
+   "card_type": "basic",
+   "front": "In the midpoint-parallelogram proof, how do you get $XM=NP$?",
+   "back": "$XM=MZ$ from midpoint M.$MZ=NP$ in parallelogram ZMNP.",
+   "options": [
+    {
+     "text": "$XM=MZ$ from midpoint M.$MZ=NP$ in parallelogram ZMNP.",
+     "correct": true,
+     "explanation": "M is the midpoint of $XZ$, giving $XM=MZ$. Opposite sides of parallelogram ZMNP are equal, giving $MZ=NP$, so $XM=NP$ by transitivity."
+    },
+    {
+     "text": "$XM=MZ$ from midpoint M.$MZ=MN$ in parallelogram ZMNP.",
+     "correct": false,
+     "explanation": "The midpoint equality is valid, but adjacent sides of a parallelogram are not necessarily equal. The required second equality is $MZ=NP$ because these are opposite sides."
+    },
+    {
+     "text": "$XM=XZ$ from midpoint M.$MZ=NP$ in parallelogram ZMNP.",
+     "correct": false,
+     "explanation": "A midpoint makes each half equal, not one half equal to the entire segment. The correct chain is $XM=MZ$ and $MZ=NP$, hence $XM=NP$."
+    },
+    {
+     "text": "$XM=MN$ from midpoint M.$MN=NP$ in parallelogram ZMNP.",
+     "correct": false,
+     "explanation": "The midpoint of $XZ$ relates $XM$ to $MZ$, not to $MN$, while adjacent parallelogram sides need not be equal. Use $XM=MZ=NP$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "de7901e3-f825-44fd-8770-62566bc57a46",
+   "card_type": "basic",
+   "front": "In quadrilateral WXYZ with $WX=WZ$ and $YX=YZ$, which common side completes SSS for triangles WXY and WZY?",
+   "back": "$WY$ is common to both triangles.",
+   "options": [
+    {
+     "text": "$WY$ is common to both triangles.",
+     "correct": true,
+     "explanation": "Both triangles include the diagonal $WY$, so $WY=WY$. Together with the two given pairs of equal sides, this establishes SSS congruence."
+    },
+    {
+     "text": "$WX$ is common to both triangles.",
+     "correct": false,
+     "explanation": "$$WX$ belongs to triangle WXY but not triangle WZY, so it cannot be the common side. Both triangles contain the diagonal $WY$."
+    },
+    {
+     "text": "$WZ$ is common to both triangles.",
+     "correct": false,
+     "explanation": "$$WZ$ is a side of triangle WZY only, rather than a shared side. The diagonal $WY$ appears in both triangles and completes SSS."
+    },
+    {
+     "text": "$XY$ is common to both triangles.",
+     "correct": false,
+     "explanation": "$$XY$ belongs only to triangle WXY; triangle WZY contains $YZ$ instead. The side present in both triangles is $WY$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "adab45e2-2422-49f7-b142-b53d5713c8a6",
+   "card_type": "basic",
+   "front": "Once $\\triangle WXY \\cong \\triangle WZY$, why is $\\angle WXY=\\angle WZY$?",
+   "back": "They are corresponding angles in congruent triangles.",
+   "options": [
+    {
+     "text": "They are corresponding angles in congruent triangles.",
+     "correct": true,
+     "explanation": "The congruence order pairs vertex X in the first triangle with vertex Z in the second. Therefore, the angles at those corresponding vertices are equal."
+    },
+    {
+     "text": "They are vertically opposite angles in congruent triangles.",
+     "correct": false,
+     "explanation": "Vertically opposite angles arise where two straight lines intersect, which is not the reason here. The angles are equal because they correspond in congruent triangles."
+    },
+    {
+     "text": "They are alternate interior angles in congruent triangles.",
+     "correct": false,
+     "explanation": "Alternate interior angles require parallel lines and a transversal, neither of which establishes this equality. Congruence makes the angles equal because they are corresponding angles."
+    },
+    {
+     "text": "They are base angles in congruent triangles.",
+     "correct": false,
+     "explanation": "No single isosceles triangle contains these as its equal base angles. They are equal because vertex X corresponds to vertex Z in the congruent triangles."
+    }
+   ],
+   "points": 1
+  }
+ ],
+ "card_count": 23,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-7-7-14-congruent-triangles/flashcards",
+ "source_sha256": "7b7b71c58a70a23bc07f9da08de1fc52b69e41651e7a68bd52c8d255a19c8bcc",
+ "extracted_at": "2026-11-08T17:55:05Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}

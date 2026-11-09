@@ -1,0 +1,619 @@
+{
+ "topic": "grade-4-4-1-compound-interest-and-depreciation",
+ "lane": "gcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "title": "Compound Interest and Depreciation Flashcards",
+ "cards": [
+  {
+   "id": "9c0d72cd-9e69-48be-be1b-0c8abafc6fe8",
+   "card_type": "basic",
+   "front": "In percentage calculations, what is the multiplier for a 6% increase?",
+   "back": "1.06",
+   "options": [
+    {
+     "text": "1.06",
+     "correct": true,
+     "explanation": "A 6% increase means retaining 100% and adding 6%, giving 106%. Dividing by 100 produces the multiplier 1.06."
+    },
+    {
+     "text": "0.94",
+     "correct": false,
+     "explanation": "Subtracting 0.06 from 1 gives the multiplier for a 6% decrease. For a 6% increase, add 0.06 to 1 to obtain 1.06."
+    },
+    {
+     "text": "1.6",
+     "correct": false,
+     "explanation": "Treating 6% as 0.6 misplaces the decimal point. Since 6% is 0.06, the increase multiplier is $1 + 0.06 = 1.06$."
+    },
+    {
+     "text": "1.006",
+     "correct": false,
+     "explanation": "This treats 6% as 0.006, which represents 0.6%. Converting 6% correctly gives 0.06, so the required multiplier is 1.06."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "9cb81c60-ec56-4686-a6f0-12bc5dc06f48",
+   "card_type": "basic",
+   "front": "In percentage calculations, what is the multiplier for a 6% decrease?",
+   "back": "0.94",
+   "options": [
+    {
+     "text": "0.94",
+     "correct": true,
+     "explanation": "A 6% decrease leaves 94% of the original value. Converting 94% to a decimal gives the multiplier $94 \\div 100 = 0.94$."
+    },
+    {
+     "text": "1.06",
+     "correct": false,
+     "explanation": "Adding 0.06 to 1 gives the multiplier for a 6% increase. A decrease requires subtraction, so $1 - 0.06 = 0.94$."
+    },
+    {
+     "text": "0.6",
+     "correct": false,
+     "explanation": "This incorrectly treats 6% as 0.6 and would leave only 60% of the value. A 6% decrease leaves 94%, giving 0.94."
+    },
+    {
+     "text": "0.994",
+     "correct": false,
+     "explanation": "This corresponds to a decrease of only 0.6%, caused by placing the decimal incorrectly. A 6% decrease uses $1 - 0.06 = 0.94$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "a342f6e6-c401-4ce2-b93a-4ade4a7b4d65",
+   "card_type": "cloze",
+   "front": "In the compound interest formula $A = P(1 + \\frac{r}{100})^n$, the power $n$ represents the [ ___ ].",
+   "back": "In the compound interest formula $A = P(1 + \\frac{r}{100})^n$, the power $n$ represents the number of years.",
+   "options": [
+    {
+     "text": "number of years",
+     "correct": true,
+     "explanation": "The multiplier is applied once for every year that interest is added, so the exponent $n$ records the number of years in the investment period."
+    },
+    {
+     "text": "annual interest rate",
+     "correct": false,
+     "explanation": "The annual interest rate is represented by $r$ inside the multiplier, not by the exponent. The power $n$ gives the number of years."
+    },
+    {
+     "text": "initial investment",
+     "correct": false,
+     "explanation": "The initial investment is represented by $P$, because it is the amount multiplied by the growth factor. The power $n$ represents the number of years."
+    },
+    {
+     "text": "final investment value",
+     "correct": false,
+     "explanation": "The final investment value is represented by $A$ on the left-hand side. The exponent $n$ instead shows how many years the multiplier is applied."
+    }
+   ]
+  },
+  {
+   "id": "e4149721-449a-4dea-8d9a-c05d6c0ebb2d",
+   "card_type": "basic",
+   "front": "What does the term per annum mean?",
+   "back": "Each year",
+   "options": [
+    {
+     "text": "Each year",
+     "correct": true,
+     "explanation": "The Latin expression per annum means for each year. An interest rate of 5% per annum is therefore applied at a rate of 5% each year."
+    },
+    {
+     "text": "Each month",
+     "correct": false,
+     "explanation": "Confusing annual and monthly rates changes how often the percentage applies. Per annum means each year, while per month would describe a monthly rate."
+    },
+    {
+     "text": "Every two years",
+     "correct": false,
+     "explanation": "Per annum describes a rate applying once each year, not once every two years. A two-year period would contain two annual applications."
+    },
+    {
+     "text": "Each week",
+     "correct": false,
+     "explanation": "A weekly rate applies each week, whereas per annum refers specifically to a yearly rate. Therefore, the correct meaning is each year."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "662a0e02-d875-45e5-b0bd-5afabef8c02a",
+   "card_type": "basic",
+   "front": "Explain the core mechanism of compound interest.",
+   "back": "Interest is added to the total, then the next year's interest is calculated on that new, larger amount.",
+   "options": [
+    {
+     "text": "Interest is added to the total, then the next year's interest is calculated on that new, larger amount.",
+     "correct": true,
+     "explanation": "Compound interest adds each period's interest to the balance. Future interest is then calculated on both the original investment and previously earned interest."
+    },
+    {
+     "text": "Interest is calculated from the original total, so every year's interest is based on that same, unchanged amount.",
+     "correct": false,
+     "explanation": "Keeping the amount used to calculate interest unchanged describes simple interest. Compound interest uses the new, larger balance after each year's interest is added."
+    },
+    {
+     "text": "Interest is removed from the total, then the next year's interest is calculated on that new, smaller amount.",
+     "correct": false,
+     "explanation": "Removing a percentage models depreciation rather than compound interest growth. With compound interest, interest is added and the next calculation uses the new, larger amount."
+    },
+    {
+     "text": "Interest is added only at the end, after every year's interest is calculated on the original starting amount.",
+     "correct": false,
+     "explanation": "Calculating every year's interest from the starting amount produces simple interest, even if it is added later. Compound interest recalculates using each new balance."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "a3606b56-8c9e-4f75-91f8-6982edc6000f",
+   "card_type": "basic",
+   "front": "Why is it incorrect to simply add the annual interest rates together for a multi-year investment?",
+   "back": "Each percentage must be calculated from the new value, not the original value.",
+   "options": [
+    {
+     "text": "Each percentage must be calculated from the new value, not the original value.",
+     "correct": true,
+     "explanation": "After each year's percentage change, the base value changes. The next percentage must be applied to that new value, which is why multipliers are compounded."
+    },
+    {
+     "text": "Each percentage must be calculated from the original value, not the new value.",
+     "correct": false,
+     "explanation": "Using the original value every year describes simple interest and makes equal cash amounts each year. Compound interest applies each percentage to the new value."
+    },
+    {
+     "text": "Each percentage must be subtracted from the new value, not added to the original value.",
+     "correct": false,
+     "explanation": "Whether a percentage is added or subtracted depends on growth or depreciation, not on the number of years. The key issue is using the new value each year."
+    },
+    {
+     "text": "Each percentage must be converted into the same units, not combined as annual rates.",
+     "correct": false,
+     "explanation": "Annual rates already use compatible percentage units, so unit conversion is not the problem. Adding them fails because each year's percentage is applied to a new value."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "8b2e568c-0955-4cfc-8402-44ba78b8971a",
+   "card_type": "basic",
+   "front": "State the calculation to find the final amount for £3600 invested for 4 years at 2.5% compound interest.",
+   "back": "$$3600 \\times 1.025^4$",
+   "options": [
+    {
+     "text": "$$3600 \\times 1.025^4$",
+     "correct": true,
+     "explanation": "A 2.5% increase has multiplier $1.025$, and compound interest applies it once in each of four years. Therefore, the multiplier is raised to power 4."
+    },
+    {
+     "text": "$$3600 \\times 1.25^4$",
+     "correct": false,
+     "explanation": "Using 1.25 treats 2.5% as 25%, making the annual increase ten times too large. The correct multiplier is 1.025, giving $3600 \\times 1.025^4$."
+    },
+    {
+     "text": "$$3600 \\times 1.025 \\times 4$",
+     "correct": false,
+     "explanation": "Multiplying the entire amount by 4 does not represent four years of compound growth. The annual multiplier must be applied four times as $3600 \\times 1.025^4$."
+    },
+    {
+     "text": "$$3600 \\times 0.975^4$",
+     "correct": false,
+     "explanation": "The multiplier 0.975 represents a 2.5% decrease, so it models depreciation. Compound interest increases the investment, requiring the multiplier 1.025 for four years."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "5bb7b230-c15a-4a92-8780-e9fe8d7637e4",
+   "card_type": "cloze",
+   "front": "To find the total interest earned, you subtract the [ ___ ] from the final amount.",
+   "back": "To find the total interest earned, you subtract the starting amount from the final amount.",
+   "options": [
+    {
+     "text": "starting amount",
+     "correct": true,
+     "explanation": "The final amount contains both the original investment and the interest earned. Subtracting the starting amount therefore leaves only the total interest."
+    },
+    {
+     "text": "annual interest rate",
+     "correct": false,
+     "explanation": "An interest rate is a percentage, so subtracting it directly from a monetary final amount mixes different quantities. Subtract the starting amount to isolate the interest earned."
+    },
+    {
+     "text": "number of years",
+     "correct": false,
+     "explanation": "The number of years is used when calculating the final amount, but it cannot be subtracted from a monetary value. The starting amount must be subtracted."
+    },
+    {
+     "text": "interest multiplier",
+     "correct": false,
+     "explanation": "The multiplier is used to calculate growth and is not itself a monetary amount. Total interest is found by subtracting the starting amount from the final amount."
+    }
+   ]
+  },
+  {
+   "id": "c689f7ad-1777-46dd-8cf7-211af86269b6",
+   "card_type": "cloze",
+   "front": "To find the total interest earned, you subtract the starting amount from the [ ___ ].",
+   "back": "To find the total interest earned, you subtract the starting amount from the final amount.",
+   "options": [
+    {
+     "text": "final amount",
+     "correct": true,
+     "explanation": "Total interest is the increase from the starting amount to the final amount, so subtracting the starting amount from the final amount gives the interest earned."
+    },
+    {
+     "text": "starting amount",
+     "correct": false,
+     "explanation": "Subtracting the starting amount from itself would give zero. Total interest is found by subtracting the starting amount from the final amount."
+    },
+    {
+     "text": "annual interest rate",
+     "correct": false,
+     "explanation": "The annual interest rate is a percentage used to calculate growth, not the amount from which the starting value is subtracted. The required term is final amount."
+    },
+    {
+     "text": "interest multiplier",
+     "correct": false,
+     "explanation": "The interest multiplier determines growth each year but is not a monetary total. Subtract the starting amount from the final amount to obtain total interest."
+    }
+   ]
+  },
+  {
+   "id": "1203bf0a-5b40-4352-832d-683f11c8333e",
+   "card_type": "basic",
+   "front": "The value of an investment is $V = 6000 \\times 1.018^n$. What is the annual interest rate?",
+   "back": "1.8%",
+   "options": [
+    {
+     "text": "1.8%",
+     "correct": true,
+     "explanation": "The multiplier $1.018$ equals $1 + 0.018$, so the investment increases by $0.018 = 1.8\\%$ each year."
+    },
+    {
+     "text": "18%",
+     "correct": false,
+     "explanation": "This treats the decimal part $0.018$ as $0.18$. Converting $0.018$ to a percentage requires multiplying by 100, giving an annual rate of $1.8\\%$."
+    },
+    {
+     "text": "101.8%",
+     "correct": false,
+     "explanation": "This uses the whole multiplier as the percentage rate. The growth rate is the amount above 1, so $1.018 - 1 = 0.018 = 1.8\\%$."
+    },
+    {
+     "text": "0.18%",
+     "correct": false,
+     "explanation": "This misreads the final digit of the multiplier as the percentage. The decimal increase is $0.018$, which corresponds to an annual interest rate of $1.8\\%$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "55d56f88-fca3-41b1-a2fa-623a618e09ab",
+   "card_type": "basic",
+   "front": "Define depreciation.",
+   "back": "When a value goes down over time.",
+   "options": [
+    {
+     "text": "When a value goes down over time.",
+     "correct": true,
+     "explanation": "Depreciation is the reduction in an asset’s value as time passes, often modelled by multiplying its current value by a multiplier below 1 each year."
+    },
+    {
+     "text": "When a value goes up over time.",
+     "correct": false,
+     "explanation": "A value going up over time describes appreciation or growth, not depreciation. Depreciation means that the value goes down over time."
+    },
+    {
+     "text": "When a value stays constant over time.",
+     "correct": false,
+     "explanation": "A value remaining constant experiences no growth or depreciation. Depreciation specifically occurs when a value goes down over time."
+    },
+    {
+     "text": "When a value goes up and down over time.",
+     "correct": false,
+     "explanation": "Fluctuation includes both increases and decreases, so it does not specifically define depreciation. Depreciation means that a value goes down over time."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "9b32a97d-a95d-44c2-8870-b793e8102c64",
+   "card_type": "basic",
+   "front": "What multiplier is used for a 20% depreciation?",
+   "back": "0.80",
+   "options": [
+    {
+     "text": "0.80",
+     "correct": true,
+     "explanation": "After a $20\\%$ decrease, $80\\%$ of the value remains. Converting $80\\%$ to a decimal gives the depreciation multiplier $0.80$."
+    },
+    {
+     "text": "0.20",
+     "correct": false,
+     "explanation": "This is the proportion lost rather than the proportion remaining. A $20\\%$ depreciation leaves $80\\%$, so the correct multiplier is $0.80$."
+    },
+    {
+     "text": "1.20",
+     "correct": false,
+     "explanation": "This multiplier represents a $20\\%$ increase because it is greater than 1. A $20\\%$ depreciation uses $1 - 0.20 = 0.80$."
+    },
+    {
+     "text": "0.98",
+     "correct": false,
+     "explanation": "This would represent a $2\\%$ depreciation, not a $20\\%$ depreciation. Subtracting $0.20$ from 1 gives the correct multiplier $0.80$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "e8b99df8-9b98-4b79-9289-37fae703735d",
+   "card_type": "cloze",
+   "front": "The formula for the final amount after depreciation is $A = P(1 \\text{[...]} \\frac{r}{100})^n$.",
+   "back": "The formula for the final amount after depreciation is $A = P(1 \\boxed{-} \\frac{r}{100})^n$.",
+   "options": [
+    {
+     "text": "$$-$",
+     "correct": true,
+     "explanation": "Depreciation removes a proportion of the current value each period, so its multiplier is $1 - \\frac{r}{100}$. The missing operation is subtraction."
+    },
+    {
+     "text": "$$+$",
+     "correct": false,
+     "explanation": "Addition produces the compound growth formula and would increase the value each period. Depreciation requires the multiplier $1 - \\frac{r}{100}$, so subtraction is needed."
+    },
+    {
+     "text": "$$\\times$",
+     "correct": false,
+     "explanation": "Multiplication here would not subtract the depreciated percentage from the whole value. The correct multiplier is $1 - \\frac{r}{100}$, requiring a minus sign."
+    },
+    {
+     "text": "$$\\div$",
+     "correct": false,
+     "explanation": "Division does not form the proportion of value remaining after depreciation. That proportion is $1 - \\frac{r}{100}$, so the required operation is subtraction."
+    }
+   ]
+  },
+  {
+   "id": "13f17d93-d212-4fca-847b-535265858963",
+   "card_type": "basic",
+   "front": "An item loses 25% value in Year 1, then 10% in Year 2. What are the two multipliers used?",
+   "back": "Year 1: 0.75Year 2: 0.90",
+   "options": [
+    {
+     "text": "Year 1: 0.75Year 2: 0.90",
+     "correct": true,
+     "explanation": "Losing $25\\%$ leaves $75\\%$, giving $0.75$ in Year 1. Losing $10\\%$ then leaves $90\\%$, giving $0.90$ in Year 2."
+    },
+    {
+     "text": "Year 1: 0.25Year 2: 0.10",
+     "correct": false,
+     "explanation": "These decimals represent the proportions lost rather than those remaining. The correct multipliers are $1 - 0.25 = 0.75$ and $1 - 0.10 = 0.90$."
+    },
+    {
+     "text": "Year 1: 1.25Year 2: 1.10",
+     "correct": false,
+     "explanation": "Multipliers greater than 1 represent increases, so these would model appreciation. Depreciation leaves $75\\%$ and then $90\\%$, requiring multipliers $0.75$ and $0.90$."
+    },
+    {
+     "text": "Year 1: 0.65Year 2: 0.65",
+     "correct": false,
+     "explanation": "This incorrectly combines the two percentage losses before applying them. Each year needs its own multiplier: $0.75$ for Year 1 and $0.90$ for Year 2."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "7935f4a2-34a4-4b66-b8d0-0da8d2f9f2cb",
+   "card_type": "basic",
+   "front": "A value rises by 2% then falls by 4%. State the calculation to find the final value of original amount $X$.",
+   "back": "$$X \\times 1.02 \\times 0.96$",
+   "options": [
+    {
+     "text": "$$X \\times 1.02 \\times 0.96$",
+     "correct": true,
+     "explanation": "A $2\\%$ rise uses multiplier $1.02$, and a subsequent $4\\%$ fall uses multiplier $0.96$. Both multipliers must be applied successively to $X$."
+    },
+    {
+     "text": "$$X \\times 1.02 \\times 1.04$",
+     "correct": false,
+     "explanation": "The multiplier $1.04$ models a $4\\%$ increase rather than a decrease. The fall must use $0.96$, giving $X \\times 1.02 \\times 0.96$."
+    },
+    {
+     "text": "$$X \\times 1.06$",
+     "correct": false,
+     "explanation": "The percentages cannot simply be added to form one growth multiplier because the changes apply successively to different values. Use $X \\times 1.02 \\times 0.96$."
+    },
+    {
+     "text": "$$X \\times 0.98$",
+     "correct": false,
+     "explanation": "Subtracting the percentages gives a net $2\\%$ fall, but this ignores compounding. Applying both changes correctly requires $X \\times 1.02 \\times 0.96$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "b2a59c77-f8e0-4fc7-b6a5-af57f18997fe",
+   "card_type": "basic",
+   "front": "What is the standard method for finding the number of years $n$ if you are given the final amount?",
+   "back": "Try whole-number powers on a calculator until the value matches or passes the target.",
+   "options": [
+    {
+     "text": "Try whole-number powers on a calculator until the value matches or passes the target.",
+     "correct": true,
+     "explanation": "At GCSE, substitute successive whole-number values of $n$ into the compound formula. Continue until the calculated amount matches or first passes the specified target."
+    },
+    {
+     "text": "Divide the final percentage change by the annual rate to find the target.",
+     "correct": false,
+     "explanation": "Using only the percentage change ignores the starting amount and repeated compounding. Instead, test whole-number powers in the full formula until the result reaches the target."
+    },
+    {
+     "text": "Add the first year’s interest repeatedly until the value matches the target.",
+     "correct": false,
+     "explanation": "Repeatedly adding the same interest amount models simple interest, not compound change. Test whole-number powers because each year’s change acts on the updated value."
+    },
+    {
+     "text": "Round the annual multiplier to a whole number and divide by the target.",
+     "correct": false,
+     "explanation": "Rounding the multiplier removes information and cannot determine the elapsed time. Keep the exact multiplier and test whole-number powers until the calculated value reaches the target."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "015f27ec-d41e-4ab5-9a2e-4b8f6c5563d9",
+   "card_type": "basic",
+   "front": "When calculating how many years it takes for an item to be worth less than half its original value, what original value is simplest to use?",
+   "back": "1",
+   "options": [
+    {
+     "text": "1",
+     "correct": true,
+     "explanation": "Using 1 normalises the original value, so half is simply 0.5. Repeated depreciation multipliers can then be applied until the value falls below 0.5."
+    },
+    {
+     "text": "0.5",
+     "correct": false,
+     "explanation": "Using 0.5 makes the comparison threshold 0.25, adding unnecessary decimals. An original value of 1 is simplest because half of it is directly represented by 0.5."
+    },
+    {
+     "text": "0",
+     "correct": false,
+     "explanation": "An original value of 0 cannot model depreciation because every later value would remain 0. Use 1 so the changing value can be compared directly with 0.5."
+    },
+    {
+     "text": "100",
+     "correct": false,
+     "explanation": "Using 100 works mathematically but is not the simplest choice, since it introduces larger values. Using 1 turns the calculation into a direct comparison with 0.5."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "51fe30c2-31c4-4440-90eb-ec894587d98a",
+   "card_type": "basic",
+   "front": "Contrast simple interest and compound interest.",
+   "back": "Simple: calculated only on the original amount.Compound: calculated on the growing amount.",
+   "options": [
+    {
+     "text": "Simple: calculated only on the original amount.Compound: calculated on the growing amount.",
+     "correct": true,
+     "explanation": "Simple interest repeatedly uses the initial principal, whereas compound interest includes previously earned interest. Therefore, the amount used to calculate compound interest grows each period."
+    },
+    {
+     "text": "Simple: calculated on the growing amount.Compound: calculated only on the original amount.",
+     "correct": false,
+     "explanation": "This reverses the two definitions. Simple interest is based only on the original amount, while compound interest is based on the growing amount after earlier interest is added."
+    },
+    {
+     "text": "Simple: calculated only on the original amount.Compound: calculated only on the original amount.",
+     "correct": false,
+     "explanation": "Only the simple-interest statement is accurate. Compound interest is calculated on the growing amount, including interest already added, rather than repeatedly using just the original amount."
+    },
+    {
+     "text": "Simple: calculated on the growing amount.Compound: calculated on the growing amount.",
+     "correct": false,
+     "explanation": "Only the compound-interest statement is accurate. Simple interest is calculated solely from the original amount, so the interest added each period remains constant."
+    }
+   ],
+   "points": 3
+  },
+  {
+   "id": "a595e029-2655-466a-a3fb-9fdd3ec893d2",
+   "card_type": "cloze",
+   "front": "When working with money in compound interest problems, round the final answer to [ ___ ] decimal places.",
+   "back": "When working with money in compound interest problems, round the final answer to 2 decimal places.",
+   "options": [
+    {
+     "text": "2",
+     "correct": true,
+     "explanation": "Money is normally written to the nearest penny, and one pound contains 100 pence. The final answer should therefore be rounded to 2 decimal places."
+    },
+    {
+     "text": "1",
+     "correct": false,
+     "explanation": "Rounding to 1 decimal place gives values only to the nearest ten pence, not the nearest penny. Monetary answers should be rounded to 2 decimal places."
+    },
+    {
+     "text": "3",
+     "correct": false,
+     "explanation": "Three decimal places would represent tenths of a penny, which are not normally used in monetary answers. The final amount should be rounded to 2 decimal places."
+    },
+    {
+     "text": "0",
+     "correct": false,
+     "explanation": "Rounding to 0 decimal places gives the nearest whole pound and discards the pence. Money calculations should normally be rounded to 2 decimal places."
+    }
+   ]
+  },
+  {
+   "id": "be546a49-f53e-4de3-afcc-174193bf1478",
+   "card_type": "basic",
+   "front": "Why should you avoid rounding values during the intermediate steps of a compound interest calculation?",
+   "back": "Rounding too early can change the final penny (accuracy is lost).",
+   "options": [
+    {
+     "text": "Rounding too early can change the final penny (accuracy is lost).",
+     "correct": true,
+     "explanation": "Small rounding errors can be compounded across several calculation stages. Keeping full calculator values until the end preserves accuracy and prevents the final monetary answer changing by a penny."
+    },
+    {
+     "text": "Rounding too early can change the annual interest rate (the rate becomes inaccurate).",
+     "correct": false,
+     "explanation": "Rounding intermediate values does not alter the stated annual interest rate; it alters the calculated balance. Accumulated rounding error can change the final penny, so round only at the end."
+    },
+    {
+     "text": "Rounding too early will always increase the final value (the answer is overestimated).",
+     "correct": false,
+     "explanation": "Rounding can increase or decrease an intermediate value, so it does not always cause an overestimate. The real risk is accumulated inaccuracy changing the final penny."
+    },
+    {
+     "text": "Rounding too early can stop the multiplier being used (the method no longer works).",
+     "correct": false,
+     "explanation": "A multiplier can still be applied to a rounded number, but the resulting value may be inaccurate. Keeping unrounded intermediate values prevents the final penny from changing."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "3aed7c91-2038-4034-a33b-62ef543db6e0",
+   "card_type": "basic",
+   "front": "A car depreciates by 7% per year. What multiplier is used to find its value after $n$ years?",
+   "back": "0.93",
+   "options": [
+    {
+     "text": "0.93",
+     "correct": true,
+     "explanation": "A 7% decrease leaves 93% of the value each year. Converting 93% to a decimal gives the multiplier 0.93, used as $0.93^n$ after $n$ years."
+    },
+    {
+     "text": "0.07",
+     "correct": false,
+     "explanation": "This is the decimal form of the 7% depreciation rate, not the proportion remaining. Subtracting it from 1 gives the correct annual multiplier, $1-0.07=0.93$."
+    },
+    {
+     "text": "1.07",
+     "correct": false,
+     "explanation": "A multiplier greater than 1 represents growth, so this would increase the car’s value by 7% annually. Depreciation requires $1-0.07=0.93$."
+    },
+    {
+     "text": "0.97",
+     "correct": false,
+     "explanation": "This multiplier represents a 3% decrease because it leaves 97% of the value. A 7% decrease leaves 93%, giving the correct multiplier 0.93."
+    }
+   ],
+   "points": 1
+  }
+ ],
+ "card_count": 21,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-4-4-1-compound-interest-and-depreciation/flashcards",
+ "source_sha256": "0d77ea9870f29c5c2ddea7f4e16faf03c91133a3e17a5fe19e1b88019522f59c",
+ "extracted_at": "2026-11-08T17:55:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}

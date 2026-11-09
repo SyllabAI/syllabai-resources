@@ -1,0 +1,647 @@
+{
+ "topic": "grade-5-5-17-sector-areas-and-arc-lengths",
+ "lane": "gcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "title": "Sector Areas and Arc Lengths Flashcards",
+ "cards": [
+  {
+   "id": "f146c8d1-a122-40a0-88c8-fc2510ddf662",
+   "card_type": "basic",
+   "front": "For a circle with radius $r$, what is the area formula?",
+   "back": "$\\pi r^2$",
+   "options": [
+    {
+     "text": "$\\pi r^2$",
+     "correct": true,
+     "explanation": "The area of a circle is found by multiplying $\\pi$ by the square of its radius, giving $A = \\pi r^2$."
+    },
+    {
+     "text": "$2\\pi r$",
+     "correct": false,
+     "explanation": "This is the circumference formula, which measures the distance around the circle. The area formula squares the radius, so the correct answer is $\\pi r^2$."
+    },
+    {
+     "text": "$\\pi r$",
+     "correct": false,
+     "explanation": "This omits the required square on the radius, so it does not calculate a two-dimensional area. The correct area formula is $\\pi r^2$."
+    },
+    {
+     "text": "$\\pi r^3$",
+     "correct": false,
+     "explanation": "Cubing the radius would produce cubic units, which are used for volume rather than area. A circle’s area is calculated using $\\pi r^2$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "fb644ec8-5d1f-4c7a-934b-d0a6645aafbe",
+   "card_type": "basic",
+   "front": "For a circle with radius $r$, what is the circumference formula?",
+   "back": "$2\\pi r$",
+   "options": [
+    {
+     "text": "$2\\pi r$",
+     "correct": true,
+     "explanation": "The circumference is the distance around a circle. Since the diameter is $2r$ and circumference is $\\pi$ times the diameter, the formula is $2\\pi r$."
+    },
+    {
+     "text": "$\\pi r^2$",
+     "correct": false,
+     "explanation": "This calculates the circle’s area rather than the distance around it. Circumference uses the radius without squaring it, giving the correct formula $2\\pi r$."
+    },
+    {
+     "text": "$\\pi r$",
+     "correct": false,
+     "explanation": "This misses the factor of $2$ caused by the diameter being twice the radius. The circumference formula is therefore $2\\pi r$."
+    },
+    {
+     "text": "$2\\pi r^2$",
+     "correct": false,
+     "explanation": "Squaring the radius incorrectly introduces square units, which measure area rather than length. The circumference is a length and is calculated using $2\\pi r$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "b7226cfa-f86c-4490-a664-6b814632cb4e",
+   "card_type": "cloze",
+   "front": "The diameter of a circle is [ ___ ].",
+   "back": "The diameter of a circle is twice the radius.",
+   "options": [
+    {
+     "text": "twice the radius",
+     "correct": true,
+     "explanation": "The radius runs from the centre to the circumference, while the diameter crosses the full circle through the centre. It therefore consists of two radii."
+    },
+    {
+     "text": "half the radius",
+     "correct": false,
+     "explanation": "This reverses the relationship between radius and diameter. The radius is half the diameter, so the diameter is correctly described as twice the radius."
+    },
+    {
+     "text": "equal to the radius",
+     "correct": false,
+     "explanation": "This overlooks that a diameter extends from one side of the circle to the other through the centre. Its length is twice the radius."
+    },
+    {
+     "text": "four times the radius",
+     "correct": false,
+     "explanation": "A diameter contains two radii placed end to end, not four. Therefore, the diameter of a circle is twice the radius."
+    }
+   ]
+  },
+  {
+   "id": "528946a0-35e9-4646-9402-62aeb942a930",
+   "card_type": "cloze",
+   "front": "An arc is part of the [ ___ ] of a circle.",
+   "back": "An arc is part of the circumference of a circle.",
+   "options": [
+    {
+     "text": "circumference",
+     "correct": true,
+     "explanation": "An arc is a curved section of the boundary of a circle. Since that complete boundary is the circumference, an arc forms part of the circumference."
+    },
+    {
+     "text": "radius",
+     "correct": false,
+     "explanation": "A radius is a straight line from the centre to the circumference, whereas an arc is curved. An arc is part of the circle’s circumference."
+    },
+    {
+     "text": "diameter",
+     "correct": false,
+     "explanation": "A diameter is a straight line across the circle through its centre, not part of its curved edge. An arc is part of the circumference."
+    },
+    {
+     "text": "area",
+     "correct": false,
+     "explanation": "Area describes the two-dimensional space inside a circle, while an arc is a length along its boundary. It is therefore part of the circumference."
+    }
+   ]
+  },
+  {
+   "id": "31d36f82-1eb8-4bf8-8598-a9374aae9bbf",
+   "card_type": "basic",
+   "front": "What fraction of a full circle is a sector with angle $\\theta$?",
+   "back": "$\\frac{\\theta}{360}$",
+   "options": [
+    {
+     "text": "$\\frac{\\theta}{360}$",
+     "correct": true,
+     "explanation": "A full circle contains $360^\\circ$, so a sector with angle $\\theta$ occupies the fraction $\\theta$ divided by $360$ of the complete circle."
+    },
+    {
+     "text": "$\\frac{\\theta}{180}$",
+     "correct": false,
+     "explanation": "Dividing by $180$ compares the sector with a semicircle rather than a full circle. Since a full turn is $360^\\circ$, the correct fraction is $\\frac{\\theta}{360}$."
+    },
+    {
+     "text": "$\\frac{360}{\\theta}$",
+     "correct": false,
+     "explanation": "This reverses the required fraction and can produce a value greater than $1$ for a minor sector. The sector’s fraction is $\\frac{\\theta}{360}$."
+    },
+    {
+     "text": "$\\frac{\\theta}{2\\pi}$",
+     "correct": false,
+     "explanation": "The denominator $2\\pi$ applies when the angle is measured in radians. Here $\\theta$ is compared with $360^\\circ$, so the fraction is $\\frac{\\theta}{360}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "b854724c-4013-4da0-9ce6-6f10a471efa8",
+   "card_type": "basic",
+   "front": "What fraction of a full circle is a $120^\\circ$ sector?",
+   "back": "$\\frac{1}{3}$",
+   "options": [
+    {
+     "text": "$\\frac{1}{3}$",
+     "correct": true,
+     "explanation": "A full circle is $360^\\circ$, and $120 \\div 360 = \\frac{1}{3}$. Therefore, a $120^\\circ$ sector occupies one third of the circle."
+    },
+    {
+     "text": "$\\frac{2}{3}$",
+     "correct": false,
+     "explanation": "This is the fraction occupied by the remaining $240^\\circ$ major sector. The $120^\\circ$ sector itself is $\\frac{120}{360} = \\frac{1}{3}$."
+    },
+    {
+     "text": "$\\frac{1}{6}$",
+     "correct": false,
+     "explanation": "This results from incorrectly comparing $120^\\circ$ with $720^\\circ$ or halving the correct fraction. Dividing by $360^\\circ$ gives $\\frac{120}{360} = \\frac{1}{3}$."
+    },
+    {
+     "text": "$\\frac{1}{4}$",
+     "correct": false,
+     "explanation": "One quarter of a circle corresponds to $90^\\circ$, not $120^\\circ$. Since $120 \\div 360 = \\frac{1}{3}$, the sector is one third."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "277e3519-129c-44ac-9f32-bf467702659a",
+   "card_type": "cloze",
+   "front": "A sector is made from two [ ___ ] and the [ ___ ] between them.",
+   "back": "A sector is made from two radii and the arc between them.",
+   "options": [
+    {
+     "text": "A sector is made from two radii and the arc between them.",
+     "correct": true,
+     "explanation": "A sector is the region enclosed by two straight radii extending from the centre and the curved arc of the circumference joining their endpoints."
+    },
+    {
+     "text": "A sector is made from two diameters and the arc between them.",
+     "correct": false,
+     "explanation": "Diameters cross the entire circle and do not form the two sides of a general sector. A sector is bounded by two radii and the arc between them."
+    },
+    {
+     "text": "A sector is made from two radii and the chord between them.",
+     "correct": false,
+     "explanation": "A chord is a straight line joining two points on the circumference and helps bound a segment, not a sector. A sector uses the curved arc."
+    },
+    {
+     "text": "A sector is made from two chords and the circumference between them.",
+     "correct": false,
+     "explanation": "The straight boundaries of a sector must meet at the centre, so they are radii rather than chords. Its curved boundary is the arc between them."
+    }
+   ]
+  },
+  {
+   "id": "4e722a79-32b7-4bd0-b2b0-46b6b41846db",
+   "card_type": "cloze",
+   "front": "A minor sector is [ ___ ]; a major sector is [ ___ ].",
+   "back": "A minor sector is less than half a circle; a major sector is more than half a circle.",
+   "options": [
+    {
+     "text": "A minor sector is less than half a circle; a major sector is more than half a circle.",
+     "correct": true,
+     "explanation": "A minor sector has a central angle below $180^\\circ$, so it occupies less than half the circle. A major sector exceeds $180^\\circ$ and occupies more than half."
+    },
+    {
+     "text": "A minor sector is more than half a circle; a major sector is less than half a circle.",
+     "correct": false,
+     "explanation": "This swaps the definitions of minor and major sectors. A minor sector is less than half a circle, while a major sector is more than half."
+    },
+    {
+     "text": "A minor sector is exactly half a circle; a major sector is more than half a circle.",
+     "correct": false,
+     "explanation": "Exactly half a circle is a semicircular sector with a $180^\\circ$ angle, not a minor sector. A minor sector must be less than half a circle."
+    },
+    {
+     "text": "A minor sector is less than half a circle; a major sector is exactly half a circle.",
+     "correct": false,
+     "explanation": "A sector occupying exactly half the circle has a $180^\\circ$ angle and is semicircular, not major. A major sector must occupy more than half the circle."
+    }
+   ]
+  },
+  {
+   "id": "6c374aa4-218d-4cf4-879b-6519cd9c1b2c",
+   "card_type": "basic",
+   "front": "What formula finds the area of a sector with radius $r$ and angle $\\theta$?",
+   "back": "$\\frac{\\theta}{360}\\times \\pi r^2$",
+   "options": [
+    {
+     "text": "$\\frac{\\theta}{360}\\times \\pi r^2$",
+     "correct": true,
+     "explanation": "A sector occupies the fraction $\\frac{\\theta}{360}$ of a full circle, whose area is $\\pi r^2$, so these quantities are multiplied."
+    },
+    {
+     "text": "$\\frac{\\theta}{180}\\times \\pi r^2$",
+     "correct": false,
+     "explanation": "Using 180 as the denominator incorrectly treats a semicircle as the whole shape. A complete turn is $360^\\circ$, so the area is $\\frac{\\theta}{360}\\times \\pi r^2$."
+    },
+    {
+     "text": "$\\frac{\\theta}{360}\\times 2\\pi r$",
+     "correct": false,
+     "explanation": "The factor $2\\pi r$ is the circumference, so this formula calculates arc length rather than area. Sector area uses $\\frac{\\theta}{360}\\times \\pi r^2$."
+    },
+    {
+     "text": "$\\frac{360}{\\theta}\\times \\pi r^2$",
+     "correct": false,
+     "explanation": "The fraction has been inverted, making smaller angles produce larger areas. The sector’s fraction of the circle is $\\frac{\\theta}{360}$, giving $\\frac{\\theta}{360}\\times \\pi r^2$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "ba88f99a-508d-483e-aea0-8b17c5a14a7e",
+   "card_type": "basic",
+   "front": "What is the area of a sector with radius 8 cm and angle $135^\\circ$?",
+   "back": "$24\\pi\\text{ cm}^2$",
+   "options": [
+    {
+     "text": "$24\\pi\\text{ cm}^2$",
+     "correct": true,
+     "explanation": "The sector is $\\frac{135}{360}=\\frac{3}{8}$ of a circle. Multiplying $\\frac{3}{8}$ by $\\pi(8^2)=64\\pi$ gives $24\\pi\\text{ cm}^2$."
+    },
+    {
+     "text": "$48\\pi\\text{ cm}^2$",
+     "correct": false,
+     "explanation": "This result is twice the correct area, typically from using 180 instead of 360 as the full-turn denominator. Using $\\frac{135}{360}\\times\\pi(8^2)$ gives $24\\pi\\text{ cm}^2$."
+    },
+    {
+     "text": "$19.2\\pi\\text{ cm}^2$",
+     "correct": false,
+     "explanation": "This uses $135/360=3/8$ incorrectly as $3/10$. The correct calculation is $\\frac{3}{8}\\times64\\pi=24\\pi\\text{ cm}^2$."
+    },
+    {
+     "text": "$32\\pi\\text{ cm}^2$",
+     "correct": false,
+     "explanation": "This comes from treating $135^\\circ$ as half a circle. It is actually three-eighths of a full turn, so the area is $\\frac{3}{8}\\times64\\pi=24\\pi\\text{ cm}^2$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "a0b5d631-2fe2-4341-abac-655490724d35",
+   "card_type": "basic",
+   "front": "What is $24\\pi$ to 3 significant figures?",
+   "back": "$75.4$",
+   "options": [
+    {
+     "text": "$75.4$",
+     "correct": true,
+     "explanation": "Calculating $24\\times\\pi$ gives approximately $75.3982$. The first three significant digits are 7, 5 and 3, and the following 9 rounds the result to $75.4$."
+    },
+    {
+     "text": "$75.3$",
+     "correct": false,
+     "explanation": "This truncates the decimal instead of rounding it. Since $24\\pi\\approx75.3982$, the fourth significant digit is 9, so the third digit rounds up to give $75.4$."
+    },
+    {
+     "text": "$7.54$",
+     "correct": false,
+     "explanation": "The decimal point has been shifted one place left, effectively dividing the value by 10. Since $24\\pi\\approx75.3982$, the correct three-significant-figure answer is $75.4$."
+    },
+    {
+     "text": "$754$",
+     "correct": false,
+     "explanation": "The decimal point has been shifted one place right, making the value ten times too large. As $24\\pi\\approx75.3982$, it rounds to $75.4$ to three significant figures."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "61b27e48-c51c-4694-80be-92cd1dba7896",
+   "card_type": "basic",
+   "front": "If a sector angle is $220^\\circ$, what fraction should be used for its area?",
+   "back": "$\\frac{220}{360}$",
+   "options": [
+    {
+     "text": "$\\frac{220}{360}$",
+     "correct": true,
+     "explanation": "A full circle contains $360^\\circ$, so a $220^\\circ$ sector represents $220$ out of $360$ equal angular parts. Its required fraction is therefore $\\frac{220}{360}$."
+    },
+    {
+     "text": "$\\frac{220}{180}$",
+     "correct": false,
+     "explanation": "Using 180 as the denominator compares the sector with a semicircle rather than a full circle. Sector area must use the fraction $\\frac{220}{360}$."
+    },
+    {
+     "text": "$\\frac{140}{360}$",
+     "correct": false,
+     "explanation": "Subtracting $220^\\circ$ from $360^\\circ$ gives the complementary $140^\\circ$ sector, not the stated sector. The required area fraction is $\\frac{220}{360}$."
+    },
+    {
+     "text": "$\\frac{360}{220}$",
+     "correct": false,
+     "explanation": "The fraction has been inverted, producing a value greater than 1 even though the sector is smaller than a circle. The correct fraction is $\\frac{220}{360}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "fd893484-8724-4609-9580-6ff1ded9611b",
+   "card_type": "cloze",
+   "front": "The arc length is the length of the [ ___ ] of a sector.",
+   "back": "The arc length is the length of the curved edge of a sector.",
+   "options": [
+    {
+     "text": "curved edge",
+     "correct": true,
+     "explanation": "An arc is the curved part of a circle’s circumference between the two radii. Therefore, arc length measures the sector’s curved edge rather than either straight side."
+    },
+    {
+     "text": "straight edge",
+     "correct": false,
+     "explanation": "A sector has two straight edges, and each is a radius rather than an arc. Arc length specifically measures the curved edge forming part of the circumference."
+    },
+    {
+     "text": "sector radius",
+     "correct": false,
+     "explanation": "The radius measures the distance from the centre to the circumference, not distance around the circle. Arc length is the length of the sector’s curved edge."
+    },
+    {
+     "text": "whole perimeter",
+     "correct": false,
+     "explanation": "The perimeter also includes both straight radii, so it is not the same as arc length. Arc length measures only the curved edge of the sector."
+    }
+   ]
+  },
+  {
+   "id": "ef37fb0a-7588-4bb8-bd3f-19767cec07ab",
+   "card_type": "basic",
+   "front": "What formula finds arc length for radius $r$ and angle $\\theta$?",
+   "back": "$\\frac{\\theta}{360}\\times 2\\pi r$",
+   "options": [
+    {
+     "text": "$\\frac{\\theta}{360}\\times 2\\pi r$",
+     "correct": true,
+     "explanation": "The circumference of a full circle is $2\\pi r$. A sector with angle $\\theta$ contains the fraction $\\frac{\\theta}{360}$ of that circumference."
+    },
+    {
+     "text": "$\\frac{\\theta}{360}\\times \\pi r^2$",
+     "correct": false,
+     "explanation": "This is the formula for sector area because it uses the circle’s area, $\\pi r^2$. Arc length instead uses the circumference: $\\frac{\\theta}{360}\\times2\\pi r$."
+    },
+    {
+     "text": "$\\frac{\\theta}{360}\\times \\pi r$",
+     "correct": false,
+     "explanation": "The circumference is $2\\pi r$, not $\\pi r$, so omitting the factor of 2 halves every arc length. The correct formula is $\\frac{\\theta}{360}\\times2\\pi r$."
+    },
+    {
+     "text": "$\\frac{360}{\\theta}\\times 2\\pi r$",
+     "correct": false,
+     "explanation": "The angular fraction has been inverted, making shorter sectors produce larger lengths. A sector occupies $\\frac{\\theta}{360}$ of the circumference, giving $\\frac{\\theta}{360}\\times2\\pi r$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "16a21069-8d22-462a-9f26-c4296ded8814",
+   "card_type": "basic",
+   "front": "Find the arc length for radius 10 cm and angle $108^\\circ$.",
+   "back": "$6\\pi\\text{ cm}$",
+   "options": [
+    {
+     "text": "$6\\pi\\text{ cm}$",
+     "correct": true,
+     "explanation": "The sector is $\\frac{108}{360}=\\frac{3}{10}$ of a circle. Its arc is therefore $\\frac{3}{10}\\times2\\pi(10)=6\\pi\\text{ cm}$."
+    },
+    {
+     "text": "$3\\pi\\text{ cm}$",
+     "correct": false,
+     "explanation": "This result omits the factor of 2 from the circumference formula, using $\\pi r$ instead of $2\\pi r$. The correct arc length is $6\\pi\\text{ cm}$."
+    },
+    {
+     "text": "$12\\pi\\text{ cm}$",
+     "correct": false,
+     "explanation": "This doubles the circumference factor, effectively using $4\\pi r$ instead of $2\\pi r$. Applying $\\frac{108}{360}$ to the correct circumference gives $6\\pi\\text{ cm}$."
+    },
+    {
+     "text": "$10\\pi\\text{ cm}$",
+     "correct": false,
+     "explanation": "This treats $108^\\circ$ as half of a full turn. It is actually $\\frac{3}{10}$ of $360^\\circ$, so the arc length is $6\\pi\\text{ cm}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "df16a19a-1fc1-42e3-b98b-08a8da670b3a",
+   "card_type": "basic",
+   "front": "If an answer is required “in terms of $\\pi$”, what should you do?",
+   "back": "Leave $\\pi$ in the answer.",
+   "options": [
+    {
+     "text": "Leave $\\pi$ in the answer.",
+     "correct": true,
+     "explanation": "An exact answer in terms of $\\pi$ retains the symbol rather than replacing it with a decimal approximation. Numerical factors may be simplified, but $\\pi$ remains present."
+    },
+    {
+     "text": "Use $3.14$ in the answer.",
+     "correct": false,
+     "explanation": "Replacing $\\pi$ with 3.14 gives an approximation rather than an exact answer in terms of $\\pi$. The symbol $\\pi$ should remain in the final expression."
+    },
+    {
+     "text": "Round $\\pi$ in the answer.",
+     "correct": false,
+     "explanation": "Rounding $\\pi$ produces an approximate value and removes the requested exact form. An answer in terms of $\\pi$ must leave $\\pi$ unchanged in the result."
+    },
+    {
+     "text": "Replace $\\pi$ with a decimal.",
+     "correct": false,
+     "explanation": "Converting to a decimal removes $\\pi$ and usually introduces rounding error. When the question requests an answer in terms of $\\pi$, retain the $\\pi$ symbol."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "746937d4-3e7d-42d1-910c-cf712d2cafc4",
+   "card_type": "basic",
+   "front": "What formula finds the perimeter of a sector from its radius and arc length?",
+   "back": "$\\text{perimeter}=\\text{arc length}+2r$",
+   "options": [
+    {
+     "text": "$\\text{perimeter}=\\text{arc length}+2r$",
+     "correct": true,
+     "explanation": "A sector’s boundary consists of its curved arc and two straight radii, so its perimeter is the arc length plus $2r$."
+    },
+    {
+     "text": "$\\text{perimeter}=\\text{arc length}+r$",
+     "correct": false,
+     "explanation": "This counts only one of the sector’s two straight radii. The complete boundary includes both radii, so the correct formula is $\\text{perimeter}=\\text{arc length}+2r$."
+    },
+    {
+     "text": "$\\text{perimeter}=\\text{arc length}+2\\pi r$",
+     "correct": false,
+     "explanation": "The term $2\\pi r$ is the circumference of a complete circle, not the sector’s straight edges. Those edges total $2r$, giving $\\text{perimeter}=\\text{arc length}+2r$."
+    },
+    {
+     "text": "$\\text{perimeter}=\\text{arc length}+r^2$",
+     "correct": false,
+     "explanation": "Squaring the radius produces an area quantity, so it cannot be added to an arc length. The two straight sides total $2r$, giving $\\text{perimeter}=\\text{arc length}+2r$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "d050bfc4-7cd5-449d-95bf-9404b50422eb",
+   "card_type": "basic",
+   "front": "A sector has radius 4.8 cm and arc length $2\\pi$ cm. What is its perimeter?",
+   "back": "$2\\pi+9.6\\text{ cm}$",
+   "options": [
+    {
+     "text": "$2\\pi+9.6\\text{ cm}$",
+     "correct": true,
+     "explanation": "The sector perimeter is its arc length plus two radii. Since $2r=2\\times4.8=9.6$ cm, the perimeter is $2\\pi+9.6\\text{ cm}$."
+    },
+    {
+     "text": "$2\\pi+4.8\\text{ cm}$",
+     "correct": false,
+     "explanation": "This adds only one radius to the arc length, missing the sector’s second straight side. Adding $2\\times4.8=9.6$ cm gives $2\\pi+9.6\\text{ cm}$."
+    },
+    {
+     "text": "$4\\pi+9.6\\text{ cm}$",
+     "correct": false,
+     "explanation": "This incorrectly doubles the given arc length from $2\\pi$ to $4\\pi$. Keeping the stated arc and adding both radii gives $2\\pi+9.6\\text{ cm}$."
+    },
+    {
+     "text": "$2\\pi+19.2\\text{ cm}$",
+     "correct": false,
+     "explanation": "This adds four radii rather than the sector’s two radii. The straight edges total only $2\\times4.8=9.6$ cm, so the perimeter is $2\\pi+9.6\\text{ cm}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "49327d51-1ace-4776-9295-bd4bb080ee74",
+   "card_type": "cloze",
+   "front": "For shaded regions, shaded area = [ ___ ].",
+   "back": "For shaded regions, shaded area = total area - unshaded area.",
+   "options": [
+    {
+     "text": "total area - unshaded area",
+     "correct": true,
+     "explanation": "The total region is divided into shaded and unshaded parts. Subtracting the unshaded area from the total therefore leaves exactly the shaded area."
+    },
+    {
+     "text": "total area + unshaded area",
+     "correct": false,
+     "explanation": "Adding the unshaded area counts that region twice because it is already included in the total. The shaded area is found using total area - unshaded area."
+    },
+    {
+     "text": "unshaded area - total area",
+     "correct": false,
+     "explanation": "This reverses the subtraction and would normally produce a negative result. The larger total area must come first: total area - unshaded area."
+    },
+    {
+     "text": "total area ÷ unshaded area",
+     "correct": false,
+     "explanation": "Dividing two areas gives a ratio rather than the area of the shaded region. The required area is found using total area - unshaded area."
+    }
+   ]
+  },
+  {
+   "id": "e1633296-f7bd-4247-9f53-078b61a74e6c",
+   "card_type": "basic",
+   "front": "If a semicircle has diameter 18 cm, what radius should be used?",
+   "back": "9 cm",
+   "options": [
+    {
+     "text": "9 cm",
+     "correct": true,
+     "explanation": "The radius is half the diameter. Dividing the 18 cm diameter by 2 gives the required radius of 9 cm."
+    },
+    {
+     "text": "18 cm",
+     "correct": false,
+     "explanation": "This uses the diameter directly instead of converting it to a radius. The radius is half of 18 cm, so the correct value is 9 cm."
+    },
+    {
+     "text": "36 cm",
+     "correct": false,
+     "explanation": "This doubles the diameter rather than halving it. Since radius equals diameter divided by 2, the radius to use is 9 cm."
+    },
+    {
+     "text": "$9\\pi$ cm",
+     "correct": false,
+     "explanation": "Multiplying by $\\pi$ is associated with circumference calculations, not converting diameter to radius. Halving the 18 cm diameter gives a radius of 9 cm."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "168b86cd-a085-490a-88a4-e9a83a93736f",
+   "card_type": "basic",
+   "front": "What shortcut formula finds sector area when radius $r$ and arc length $L$ are given?",
+   "back": "$A=\\frac{1}{2}rL$",
+   "options": [
+    {
+     "text": "$A=\\frac{1}{2}rL$",
+     "correct": true,
+     "explanation": "A sector’s area can be found directly from its radius and arc length by taking half their product, so $A=\\frac{1}{2}rL$."
+    },
+    {
+     "text": "$A=rL$",
+     "correct": false,
+     "explanation": "This omits the factor of one-half and therefore gives twice the sector’s actual area. The correct shortcut is $A=\\frac{1}{2}rL$."
+    },
+    {
+     "text": "$A=\\frac{1}{2}r^2L$",
+     "correct": false,
+     "explanation": "This incorrectly squares the radius and produces dimensions of cubic length rather than area. Using radius and arc length requires $A=\\frac{1}{2}rL$."
+    },
+    {
+     "text": "$A=2rL$",
+     "correct": false,
+     "explanation": "This multiplies the radius-arc product by 2 instead of halving it, making the result four times too large. The correct formula is $A=\\frac{1}{2}rL$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "451eb475-b7ec-4ff6-a188-57c7ab50ca7b",
+   "card_type": "basic",
+   "front": "Find the sector area when $r=8$ cm and $L=5\\pi$ cm.",
+   "back": "$20\\pi\\text{ cm}^2$",
+   "options": [
+    {
+     "text": "$20\\pi\\text{ cm}^2$",
+     "correct": true,
+     "explanation": "Using $A=\\frac{1}{2}rL$ gives $A=\\frac{1}{2}\\times8\\times5\\pi=20\\pi$. As this is an area, the units are $\\text{cm}^2$."
+    },
+    {
+     "text": "$40\\pi\\text{ cm}^2$",
+     "correct": false,
+     "explanation": "This calculates $rL$ but omits the factor of one-half, doubling the sector area. Halving $8\\times5\\pi=40\\pi$ gives $20\\pi\\text{ cm}^2$."
+    },
+    {
+     "text": "$10\\pi\\text{ cm}^2$",
+     "correct": false,
+     "explanation": "This effectively halves the product twice, making the result half the required area. Applying $A=\\frac{1}{2}rL$ once gives $20\\pi\\text{ cm}^2$."
+    },
+    {
+     "text": "$160\\pi\\text{ cm}^2$",
+     "correct": false,
+     "explanation": "This incorrectly squares the radius when using the radius-arc shortcut. The formula is $A=\\frac{1}{2}rL$, which gives $\\frac{1}{2}\\times8\\times5\\pi=20\\pi\\text{ cm}^2$."
+    }
+   ],
+   "points": 2
+  }
+ ],
+ "card_count": 22,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-5-5-17-sector-areas-and-arc-lengths/flashcards",
+ "source_sha256": "b35816bcf7f1ebff10dfa6c1bfa86da6b8199b46e586f789fdbf3c559a1607d7",
+ "extracted_at": "2026-11-08T17:55:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}

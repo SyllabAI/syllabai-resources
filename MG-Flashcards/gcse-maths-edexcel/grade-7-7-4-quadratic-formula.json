@@ -1,0 +1,590 @@
+{
+ "topic": "grade-7-7-4-quadratic-formula",
+ "lane": "gcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "title": "Quadratic Formula Flashcards",
+ "cards": [
+  {
+   "id": "6a45f2e2-6d0b-43fd-a2c0-684d027de16d",
+   "card_type": "cloze",
+   "front": "The standard form of a quadratic equation is $\\text{[...]}$ where $a \\neq 0$.",
+   "back": "The standard form of a quadratic equation is $\\boxed{ax^2+bx+c=0}$ where $a \\neq 0$.",
+   "options": [
+    {
+     "text": "$$ax^2+bx+c=0$",
+     "correct": true,
+     "explanation": "A quadratic in standard form has all terms on one side, ordered by descending powers of $x$, and equals zero, with $a \\neq 0$."
+    },
+    {
+     "text": "$$ax^2+bx+c=x$",
+     "correct": false,
+     "explanation": "Leaving an $x$ on the right does not give standard form. All terms must be collected on one side to produce $ax^2+bx+c=0$."
+    },
+    {
+     "text": "$$ax^2+bx=c$",
+     "correct": false,
+     "explanation": "This leaves the constant on the right-hand side rather than collecting every term on one side. Standard form is $ax^2+bx+c=0$."
+    },
+    {
+     "text": "$$ax^3+bx+c=0$",
+     "correct": false,
+     "explanation": "Using $x^3$ makes the equation cubic, not quadratic. A quadratic has highest power $2$, so its standard form is $ax^2+bx+c=0$."
+    }
+   ]
+  },
+  {
+   "id": "406d6e8e-ef36-49ce-aac8-458c3455c3c2",
+   "card_type": "basic",
+   "front": "What is the first step required before using the quadratic formula?",
+   "back": "Rearrange the equation into standard form ($ax^2+bx+c=0$).",
+   "options": [
+    {
+     "text": "Rearrange the equation into standard form ($ax^2+bx+c=0$).",
+     "correct": true,
+     "explanation": "The coefficients $a$, $b$, and $c$ can only be identified reliably after every term is collected on one side and the equation equals zero."
+    },
+    {
+     "text": "Rearrange the equation into factorised form ($(ax+b)(cx+d)=0$).",
+     "correct": false,
+     "explanation": "Factorised form is not required and may be difficult or impossible to obtain neatly. The quadratic formula requires standard form, $ax^2+bx+c=0$."
+    },
+    {
+     "text": "Rearrange the equation into completed square form ($a(x+b)^2+c=0$).",
+     "correct": false,
+     "explanation": "Completing the square is a different solving method and is unnecessary before applying the formula. First rearrange the equation into $ax^2+bx+c=0$."
+    },
+    {
+     "text": "Rearrange the equation into linear form ($ax+b=0$).",
+     "correct": false,
+     "explanation": "Removing the squared term changes the equation and loses its quadratic solutions. Instead, retain all terms and rearrange into standard form, $ax^2+bx+c=0$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "2929c533-5e1d-4537-8e94-e647504d9421",
+   "card_type": "basic",
+   "front": "Why is the quadratic formula used instead of factorising?",
+   "back": "It works for any quadratic, including those with decimal or surd answers that do not factorise neatly.",
+   "options": [
+    {
+     "text": "It works for any quadratic, including those with decimal or surd answers that do not factorise neatly.",
+     "correct": true,
+     "explanation": "The quadratic formula applies to every quadratic written in standard form, so it remains effective when integer factorisation is not available and roots are irrational or decimal."
+    },
+    {
+     "text": "It works only for factorisable quadratics, including those with integer answers that can be found using brackets neatly.",
+     "correct": false,
+     "explanation": "Restricting the formula to factorisable quadratics reverses its main advantage. It works for any quadratic, including equations whose decimal or surd roots prevent neat factorisation."
+    },
+    {
+     "text": "It works for linear equations, including those with decimal or fraction answers that do not rearrange neatly.",
+     "correct": false,
+     "explanation": "The quadratic formula is specifically derived for equations containing an $x^2$ term, not linear equations. It solves any quadratic, including ones that do not factorise neatly."
+    },
+    {
+     "text": "It works for some quadratics, including only those with whole-number answers that do not require square roots.",
+     "correct": false,
+     "explanation": "The formula is not limited to whole-number roots. It works for any quadratic and can produce fractions, decimals, surds, or no real solutions."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "549e1665-c485-4b21-b6ef-d64746892f5a",
+   "card_type": "basic",
+   "front": "State the quadratic formula used to solve $ax^2+bx+c=0$.",
+   "back": "$$x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}$",
+   "options": [
+    {
+     "text": "$$x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}$",
+     "correct": true,
+     "explanation": "The formula gives both roots by using plus and minus before the square root of the discriminant, with the entire numerator divided by $2a$."
+    },
+    {
+     "text": "$$x=\\frac{b\\pm\\sqrt{b^2-4ac}}{2a}$",
+     "correct": false,
+     "explanation": "A common sign error is using $b$ instead of its additive inverse. The numerator must begin with $-b$, giving $x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}$."
+    },
+    {
+     "text": "$$x=\\frac{-b\\pm\\sqrt{b^2+4ac}}{2a}$",
+     "correct": false,
+     "explanation": "The discriminant uses subtraction, not addition. The correct expression under the square root is $b^2-4ac$, so the formula is $x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}$."
+    },
+    {
+     "text": "$$x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2}$",
+     "correct": false,
+     "explanation": "Omitting $a$ from the denominator incorrectly changes both roots unless $a=1$. The whole numerator must be divided by $2a$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "9b77f113-ef72-45ad-b9df-c53802e6490c",
+   "card_type": "cloze",
+   "front": "In the quadratic formula, the expression $\\text{[...]}$ is known as the discriminant.",
+   "back": "In the quadratic formula, the expression $\\boxed{b^2-4ac}$ is known as the discriminant.",
+   "options": [
+    {
+     "text": "$$b^2-4ac$",
+     "correct": true,
+     "explanation": "The discriminant is the expression beneath the square root in the quadratic formula. Its value determines the number and type of solutions to the quadratic."
+    },
+    {
+     "text": "$$b^2+4ac$",
+     "correct": false,
+     "explanation": "Confusing subtraction with addition changes the value under the square root. The discriminant is $b^2-4ac$, which determines the number and type of roots."
+    },
+    {
+     "text": "$$b-4ac$",
+     "correct": false,
+     "explanation": "The coefficient $b$ must be squared in the discriminant. Omitting this square is a formula-recall error; the correct expression is $b^2-4ac$."
+    },
+    {
+     "text": "$$b^2-2ac$",
+     "correct": false,
+     "explanation": "Using $2ac$ confuses the denominator $2a$ with the discriminant. The expression under the square root is $b^2-4ac$."
+    }
+   ]
+  },
+  {
+   "id": "40dd1fbc-02fb-4961-b1bd-f0bb5ff421d0",
+   "card_type": "basic",
+   "front": "What are the coefficients $a$, $b$, and $c$ for the equation $5x^2=4x+7$?",
+   "back": "$a=5$$b=-4$$c=-7$",
+   "options": [
+    {
+     "text": "$a=5$$b=-4$$c=-7$",
+     "correct": true,
+     "explanation": "Rearranging gives $5x^2-4x-7=0$. Comparing this with $ax^2+bx+c=0$ shows that $a=5$, $b=-4$, and $c=-7$."
+    },
+    {
+     "text": "$a=5$$b=4$$c=7$",
+     "correct": false,
+     "explanation": "These signs are taken before moving the right-hand terms. Rearranging gives $5x^2-4x-7=0$, so $b=-4$ and $c=-7$."
+    },
+    {
+     "text": "$a=-5$$b=4$$c=7$",
+     "correct": false,
+     "explanation": "Moving $5x^2$ to the right can produce these coefficients, but the equation would then need consistent standard form. Using $5x^2-4x-7=0$ gives $a=5$, $b=-4$, $c=-7$."
+    },
+    {
+     "text": "$a=5$$b=-4$$c=7$",
+     "correct": false,
+     "explanation": "Only changing the sign of the $4x$ term overlooks that both right-hand terms move left. Rearranging gives $5x^2-4x-7=0$, so $c=-7$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "15526ee1-d3ad-489b-81b6-c0e6abc125a7",
+   "card_type": "cloze",
+   "front": "The symbol $\\pm$ in the quadratic formula means [ ___ ], which usually results in two solutions.",
+   "back": "The symbol $\\pm$ in the quadratic formula means plus or minus, which usually results in two solutions.",
+   "options": [
+    {
+     "text": "plus or minus",
+     "correct": true,
+     "explanation": "The symbol instructs you to calculate once using addition and once using subtraction. These two calculations usually produce the two solutions of a quadratic equation."
+    },
+    {
+     "text": "plus then multiply",
+     "correct": false,
+     "explanation": "The second symbol is a minus sign, not an instruction to multiply. The notation means plus or minus, requiring separate calculations for the two possible roots."
+    },
+    {
+     "text": "positive or negative",
+     "correct": false,
+     "explanation": "This confuses the operation with the signs of the resulting answers, which need not be one positive and one negative. The symbol means plus or minus."
+    },
+    {
+     "text": "plus and minus",
+     "correct": false,
+     "explanation": "Treating both operations as simultaneous is misleading. The notation means plus or minus: calculate one solution with addition and another with subtraction."
+    }
+   ]
+  },
+  {
+   "id": "7b7ac676-be15-4d94-a90c-defd4495dcd2",
+   "card_type": "basic",
+   "front": "Why should you write out the substitution step in an exam before using a calculator?",
+   "back": "To ensure you get method marks even if the final calculation is wrong.",
+   "options": [
+    {
+     "text": "To ensure you get method marks even if the final calculation is wrong.",
+     "correct": true,
+     "explanation": "A correct substitution demonstrates that the formula and coefficients were used properly. Examiners can therefore award method marks even when a later calculator or rounding error occurs."
+    },
+    {
+     "text": "To ensure you get accuracy marks even if the formula you selected is wrong.",
+     "correct": false,
+     "explanation": "Accuracy marks require a correct result or valid stage, not merely written substitution into a wrong formula. Showing correct substitution protects method marks if later calculation goes wrong."
+    },
+    {
+     "text": "To ensure you get full marks even if the coefficients you substituted are wrong.",
+     "correct": false,
+     "explanation": "Writing an incorrect substitution cannot guarantee full marks because wrong coefficients undermine the method. Correctly showing the substitution can secure method marks despite a later calculation error."
+    },
+    {
+     "text": "To ensure you get presentation marks even if no final solutions are written down.",
+     "correct": false,
+     "explanation": "GCSE quadratic questions generally reward mathematical method rather than presentation alone. Writing the substitution can earn method marks, but the solutions should still be calculated and stated."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "8c78a4c7-664b-4caa-9dad-96af1eac5b0c",
+   "card_type": "basic",
+   "front": "When solving a quadratic, at what stage should you round your answers?",
+   "back": "Only at the final step (do not round the square root halfway through).",
+   "options": [
+    {
+     "text": "Only at the final step (do not round the square root halfway through).",
+     "correct": true,
+     "explanation": "Keeping the square root and intermediate values exact prevents rounding errors from accumulating. Round only the final solutions to the accuracy requested."
+    },
+    {
+     "text": "At the square root step (round the square root before continuing).",
+     "correct": false,
+     "explanation": "Rounding the square root early introduces an approximation that can affect later calculations. Keep full calculator precision and round only at the final step."
+    },
+    {
+     "text": "After calculating each term (round every value before combining them).",
+     "correct": false,
+     "explanation": "Rounding each term causes several small errors to accumulate in the final solutions. Intermediate values should remain exact or unrounded until the final step."
+    },
+    {
+     "text": "Before using the quadratic formula (round all the coefficients first).",
+     "correct": false,
+     "explanation": "Rounding the coefficients changes the original quadratic and may produce inaccurate roots. Use the given coefficients and round only the final answers."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "444b196c-d050-4f9a-89dc-30bda8145e47",
+   "card_type": "basic",
+   "front": "What is a surd?",
+   "back": "An exact square root that cannot be simplified to a whole number.",
+   "options": [
+    {
+     "text": "An exact square root that cannot be simplified to a whole number.",
+     "correct": true,
+     "explanation": "A surd represents an irrational root exactly rather than as a rounded decimal, such as $\\sqrt{3}$. It cannot be simplified to a whole number."
+    },
+    {
+     "text": "An approximate square root that has been rounded to a decimal number.",
+     "correct": false,
+     "explanation": "A rounded decimal is only an approximation, whereas a surd preserves the exact value. A surd is an exact square root that cannot simplify to a whole number."
+    },
+    {
+     "text": "An exact square root that can be simplified to a whole number.",
+     "correct": false,
+     "explanation": "Roots such as $\\sqrt{25}=5$ simplify to whole numbers and are therefore not surds. A surd cannot be simplified to a whole number."
+    },
+    {
+     "text": "An exact cube root that can always be written as a whole number.",
+     "correct": false,
+     "explanation": "This confuses square roots with cube roots and incorrectly requires a whole-number result. A surd is an exact root that cannot simplify to a rational number."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "ff38c25e-b812-42d9-b0b4-0f04e80760d8",
+   "card_type": "basic",
+   "front": "How do you simplify a surd like $\\sqrt{108}$?",
+   "back": "Find the largest square number that divides into it (e.g., $\\sqrt{36 \\times 3} = 6\\sqrt{3}$).",
+   "options": [
+    {
+     "text": "Find the largest square number that divides into it (e.g., $\\sqrt{36 \\times 3} = 6\\sqrt{3}$).",
+     "correct": true,
+     "explanation": "Factoring out the largest square factor simplifies the surd fully. Since $108=36\\times3$, $\\sqrt{108}=\\sqrt{36}\\sqrt{3}=6\\sqrt{3}$."
+    },
+    {
+     "text": "Find the smallest square number that divides into it (e.g., $\\sqrt{4 \\times 27} = 2\\sqrt{27}$).",
+     "correct": false,
+     "explanation": "Using a smaller square factor may leave another square factor inside the root, so the result is not fully simplified. The largest square factor of $108$ is $36$."
+    },
+    {
+     "text": "Find the largest prime number that divides into it (e.g., $\\sqrt{3 \\times 36} = 3\\sqrt{36}$).",
+     "correct": false,
+     "explanation": "Only square factors can be taken out of a square root directly; a factor of $3$ does not become $3$. Using $36$ gives $\\sqrt{108}=6\\sqrt{3}$."
+    },
+    {
+     "text": "Find the nearest square number to its value (e.g., $\\sqrt{100 + 8} = 10\\sqrt{8}$).",
+     "correct": false,
+     "explanation": "Square roots do not distribute over addition, so $\\sqrt{100+8}$ is not $10\\sqrt{8}$. Factorise using the largest square divisor: $108=36\\times3$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "2944670c-64c8-4d76-bef7-eb1bae991c36",
+   "card_type": "basic",
+   "front": "How do you give an exact answer for a quadratic equation?",
+   "back": "Leave the answer in surd form rather than converting to a decimal.",
+   "options": [
+    {
+     "text": "Leave the answer in surd form rather than converting to a decimal.",
+     "correct": true,
+     "explanation": "Surd form preserves the exact value of an irrational root. Converting it to a terminating calculator decimal would round the value and make it approximate."
+    },
+    {
+     "text": "Give the answer in decimal form rounded to three significant figures.",
+     "correct": false,
+     "explanation": "A rounded decimal is an approximation, even when several significant figures are included. An exact quadratic solution containing an irrational root must remain in surd form."
+    },
+    {
+     "text": "Leave the answer in fraction form after removing every square root.",
+     "correct": false,
+     "explanation": "An irrational solution cannot be represented exactly as an ordinary fraction, so removing every square root is impossible. The exact answer should be left in surd form."
+    },
+    {
+     "text": "Give the answer in integer form by rounding to the nearest whole number.",
+     "correct": false,
+     "explanation": "Rounding an irrational solution to an integer loses accuracy and does not give an exact value. Exact quadratic solutions should remain in surd form."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "fb3f18bc-bafa-49f8-be08-d9a8d4f356c6",
+   "card_type": "basic",
+   "front": "When solving for a length in a geometry problem, why might you reject one of the quadratic roots?",
+   "back": "Lengths cannot be negative; any root that results in a negative side length is invalid in context.",
+   "options": [
+    {
+     "text": "Lengths cannot be negative; any root that results in a negative side length is invalid in context.",
+     "correct": true,
+     "explanation": "A quadratic may produce two algebraic roots, but a physical length must be non-negative. Any root giving a negative side length is rejected in the geometry context."
+    },
+    {
+     "text": "Lengths must be whole numbers; any root that results in a decimal side length is invalid in context.",
+     "correct": false,
+     "explanation": "Lengths may be decimals, fractions or surds, so a non-integer root can still be valid. Only a root producing a negative length must be rejected."
+    },
+    {
+     "text": "Lengths cannot be irrational; any root that results in a surd side length is invalid in context.",
+     "correct": false,
+     "explanation": "Geometric lengths can be irrational, as diagonals often demonstrate, so a surd length may be exact and valid. A root is rejected if it gives a negative length."
+    },
+    {
+     "text": "Lengths must use both roots; any solution that rejects one side length is invalid in context.",
+     "correct": false,
+     "explanation": "Although a quadratic can have two roots, both need not satisfy the physical conditions of the problem. A root producing a negative length must be rejected."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "5dd48e0a-5f55-45b8-831b-ad6e2deaf913",
+   "card_type": "basic",
+   "front": "How is Pythagoras' Theorem used to form a quadratic?",
+   "back": "Substitute side expressions into $a^2+b^2=c^2$ and expand/rearrange into $ax^2+bx+c=0$.",
+   "options": [
+    {
+     "text": "Substitute side expressions into $a^2+b^2=c^2$ and expand/rearrange into $ax^2+bx+c=0$.",
+     "correct": true,
+     "explanation": "Pythagoras’ Theorem relates the squared side lengths of a right-angled triangle. Substituting algebraic expressions, expanding and rearranging can therefore produce a quadratic equation."
+    },
+    {
+     "text": "Substitute side expressions into $a+b=c$ and expand/rearrange into $ax^2+bx+c=0$.",
+     "correct": false,
+     "explanation": "This omits the squares required by Pythagoras’ Theorem. For a right-angled triangle, substitute the side expressions into $a^2+b^2=c^2$, then expand and rearrange."
+    },
+    {
+     "text": "Substitute side expressions into $a^2-b^2=c^2$ and expand/rearrange into $ax^2+bx+c=0$.",
+     "correct": false,
+     "explanation": "This uses subtraction instead of the Pythagorean sum. The correct relationship is $a^2+b^2=c^2$, with $c$ representing the hypotenuse."
+    },
+    {
+     "text": "Substitute side expressions into $2a+2b=c$ and expand/rearrange into $ax^2+bx+c=0$.",
+     "correct": false,
+     "explanation": "This resembles part of a perimeter formula rather than Pythagoras’ Theorem. Use $a^2+b^2=c^2$ for a right-angled triangle, then expand and rearrange."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "c5692c14-a868-4b38-83dc-9d834a0a5b6d",
+   "card_type": "cloze",
+   "front": "To find significant figures, you must start counting from the [ ___ ].",
+   "back": "To find significant figures, you must start counting from the first non-zero digit.",
+   "options": [
+    {
+     "text": "first non-zero digit",
+     "correct": true,
+     "explanation": "Leading zeros only locate the decimal point and are not significant. Counting begins with the first digit that is not zero, wherever it appears."
+    },
+    {
+     "text": "first digit after the decimal point",
+     "correct": false,
+     "explanation": "Decimal places begin immediately after the decimal point, but significant figures may begin before or several places after it. Start at the first non-zero digit."
+    },
+    {
+     "text": "first zero digit",
+     "correct": false,
+     "explanation": "Leading zeros are placeholders and do not count as significant figures. Counting starts from the first non-zero digit, after any leading zeros."
+    },
+    {
+     "text": "last non-zero digit",
+     "correct": false,
+     "explanation": "Starting at the last non-zero digit would omit earlier significant digits and reverse the counting process. Significant figures are counted from the first non-zero digit."
+    }
+   ]
+  },
+  {
+   "id": "ebc5d87b-2469-4e79-b581-ebe0b4df5b17",
+   "card_type": "basic",
+   "front": "If $x=\\frac{-10\\pm6\\sqrt{3}}{2}$, what is the simplified exact form?",
+   "back": "$$x=-5\\pm3\\sqrt{3}$",
+   "options": [
+    {
+     "text": "$$x=-5\\pm3\\sqrt{3}$",
+     "correct": true,
+     "explanation": "Both terms in the numerator are divided by $2$: $-10\\div2=-5$ and $6\\sqrt{3}\\div2=3\\sqrt{3}$, giving the two exact solutions."
+    },
+    {
+     "text": "$$x=-5\\pm6\\sqrt{3}$",
+     "correct": false,
+     "explanation": "This divides $-10$ by $2$ but forgets to divide the surd term. Dividing both numerator terms gives $x=-5\\pm3\\sqrt{3}$."
+    },
+    {
+     "text": "$$x=-10\\pm3\\sqrt{3}$",
+     "correct": false,
+     "explanation": "This divides the surd term by $2$ but leaves the first term unchanged. The denominator divides both terms, giving $x=-5\\pm3\\sqrt{3}$."
+    },
+    {
+     "text": "$$x=5\\pm3\\sqrt{3}$",
+     "correct": false,
+     "explanation": "This loses the negative sign when dividing $-10$ by $2$. Since $-10\\div2=-5$, the simplified exact form is $x=-5\\pm3\\sqrt{3}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "08d22339-e874-4785-9147-1f953f5ef765",
+   "card_type": "basic",
+   "front": "What is the coefficient $b$ in the equation $x^2-x-9=0$?",
+   "back": "$$-1$",
+   "options": [
+    {
+     "text": "$$-1$",
+     "correct": true,
+     "explanation": "In standard form $ax^2+bx+c=0$, $b$ is the coefficient multiplying $x$. Since the middle term is $-x=-1x$, the coefficient is $-1$."
+    },
+    {
+     "text": "$$1$",
+     "correct": false,
+     "explanation": "This ignores the negative sign before $x$. Writing the term as $-1x$ shows that the coefficient $b$ is $-1$, not $1$."
+    },
+    {
+     "text": "$$-9$",
+     "correct": false,
+     "explanation": "This confuses the constant term $c$ with the coefficient $b$. In $x^2-x-9=0$, the coefficient of $x$ is $-1$, while $c=-9$."
+    },
+    {
+     "text": "$$0$",
+     "correct": false,
+     "explanation": "This incorrectly treats the coefficient as missing. The term $-x$ means $-1x$, so the coefficient $b$ is $-1$, not $0$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "b8b54369-f6c7-478f-adcf-2561c982a496",
+   "card_type": "basic",
+   "front": "In a shape problem, if a rectangle has area 40, width $(x-2)$, and height $(2x+3)$, what is the initial equation?",
+   "back": "$$(x-2)(2x+3)=40$",
+   "options": [
+    {
+     "text": "$$(x-2)(2x+3)=40$",
+     "correct": true,
+     "explanation": "A rectangle’s area equals width multiplied by height. Substituting the given expressions and area therefore gives $(x-2)(2x+3)=40$."
+    },
+    {
+     "text": "$$(x-2)+(2x+3)=40$",
+     "correct": false,
+     "explanation": "This adds the side lengths rather than multiplying them, confusing an area calculation with part of a perimeter calculation. Area is width times height, so $(x-2)(2x+3)=40$."
+    },
+    {
+     "text": "$$2(x-2)+2(2x+3)=40$",
+     "correct": false,
+     "explanation": "This forms the rectangle’s perimeter by doubling and adding its side lengths. The given value is the area, so the required equation is $(x-2)(2x+3)=40$."
+    },
+    {
+     "text": "$$(x+2)(2x-3)=40$",
+     "correct": false,
+     "explanation": "This reverses both signs in the given dimensions. The width and height must be copied exactly before multiplying, giving $(x-2)(2x+3)=40$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "7ddf9bd2-2523-417f-8399-1ba7b54cc06e",
+   "card_type": "basic",
+   "front": "What is the difference between rounding to 3 decimal places (DP) and 3 significant figures (SF)?",
+   "back": "3 DP: counts 3 digits after the decimal point.3 SF: counts 3 digits starting from the first non-zero number.",
+   "options": [
+    {
+     "text": "3 DP: counts 3 digits after the decimal point.3 SF: counts 3 digits starting from the first non-zero number.",
+     "correct": true,
+     "explanation": "Decimal places are counted from the decimal point, whereas significant figures begin at the first non-zero digit. Zeros after that first significant digit may also count."
+    },
+    {
+     "text": "3 DP: counts 3 digits starting from the first non-zero number.3 SF: counts 3 digits after the decimal point.",
+     "correct": false,
+     "explanation": "This swaps the two definitions. Decimal places count digits after the decimal point, while significant figures count from the first non-zero digit."
+    },
+    {
+     "text": "3 DP: counts 3 digits before the decimal point.3 SF: counts 3 digits starting from the first non-zero number.",
+     "correct": false,
+     "explanation": "The significant-figures definition is right, but decimal places are not digits before the decimal point. They are counted to the right of the decimal point."
+    },
+    {
+     "text": "3 DP: counts 3 non-zero digits after the decimal point.3 SF: counts 3 digits starting from the decimal point.",
+     "correct": false,
+     "explanation": "Decimal places include zero digits and count positions after the decimal point. Significant figures instead begin at the first non-zero digit, wherever it occurs."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "6cf99e25-a1bd-40f5-ab3a-aae636c86e3f",
+   "card_type": "cloze",
+   "front": "In Pythagoras problems, the side used as $c$ in $a^2+b^2=c^2$ must always be the [ ___ ].",
+   "back": "In Pythagoras problems, the side used as $c$ in $a^2+b^2=c^2$ must always be the hypotenuse.",
+   "options": [
+    {
+     "text": "hypotenuse",
+     "correct": true,
+     "explanation": "The hypotenuse is the longest side of a right-angled triangle and lies opposite the right angle. It is always represented by $c$ in $a^2+b^2=c^2$."
+    },
+    {
+     "text": "shortest side",
+     "correct": false,
+     "explanation": "The shortest side is one of the two perpendicular sides, not necessarily $c$. In Pythagoras’ theorem, $c$ must be the hypotenuse opposite the right angle."
+    },
+    {
+     "text": "adjacent side",
+     "correct": false,
+     "explanation": "The adjacent side depends on which acute angle is being considered and is terminology commonly used in trigonometry. In Pythagoras’ theorem, $c$ is always the hypotenuse."
+    },
+    {
+     "text": "opposite side",
+     "correct": false,
+     "explanation": "The opposite side depends on the chosen acute angle, so it is not automatically $c$. The side opposite the right angle is the hypotenuse and must be used as $c$."
+    }
+   ]
+  }
+ ],
+ "card_count": 20,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-7-7-4-quadratic-formula/flashcards",
+ "source_sha256": "d40c92871ac282bf56e64d1b6682ee454820b6a255bf93edcd3bfafcc803c3ce",
+ "extracted_at": "2026-11-08T17:55:05Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}

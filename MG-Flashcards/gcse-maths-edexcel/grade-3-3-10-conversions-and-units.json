@@ -1,0 +1,589 @@
+{
+ "topic": "grade-3-3-10-conversions-and-units",
+ "lane": "gcse-maths-edexcel",
+ "grade": "3",
+ "tier": null,
+ "title": "Conversions and Units Flashcards",
+ "cards": [
+  {
+   "id": "5402851a-5884-4821-8926-39c011dff78b",
+   "card_type": "cloze",
+   "front": "1 cm = [ ___ ] and 1 m = [ ___ ].",
+   "back": "1 cm = 10 mm and 1 m = 100 cm.",
+   "options": [
+    {
+     "text": "1 cm = 10 mm and 1 m = 100 cm.",
+     "correct": true,
+     "explanation": "There are 10 millimetres in each centimetre and 100 centimetres in each metre, as both conversions move from a larger metric unit to a smaller one."
+    },
+    {
+     "text": "1 cm = 100 mm and 1 m = 100 cm.",
+     "correct": false,
+     "explanation": "The centimetre-to-millimetre conversion has an extra factor of 10. Since 1 cm equals 10 mm, the correct conversions are 1 cm = 10 mm and 1 m = 100 cm."
+    },
+    {
+     "text": "1 cm = 10 mm and 1 m = 1000 cm.",
+     "correct": false,
+     "explanation": "The metre-to-centimetre conversion has an extra zero. A metre contains 100 centimetres, so the correct conversions are 1 cm = 10 mm and 1 m = 100 cm."
+    },
+    {
+     "text": "1 cm = 100 mm and 1 m = 1000 cm.",
+     "correct": false,
+     "explanation": "Both conversions incorrectly multiply by 10 too much. The metric relationships are 1 cm = 10 mm and 1 m = 100 cm."
+    }
+   ]
+  },
+  {
+   "id": "5aaebdf2-c6c6-40ec-a1c9-ee41542018be",
+   "card_type": "cloze",
+   "front": "1 km = [ ___ ] and 1 hour = [ ___ ].",
+   "back": "1 km = 1000 m and 1 hour = 3600 seconds.",
+   "options": [
+    {
+     "text": "1 km = 1000 m and 1 hour = 3600 seconds.",
+     "correct": true,
+     "explanation": "The prefix kilo- means 1000, so 1 km is 1000 m. One hour contains 60 minutes of 60 seconds each, giving 3600 seconds."
+    },
+    {
+     "text": "1 km = 100 m and 1 hour = 3600 seconds.",
+     "correct": false,
+     "explanation": "The kilometre conversion is missing a factor of 10 because kilo- means 1000. The correct relationships are 1 km = 1000 m and 1 hour = 3600 seconds."
+    },
+    {
+     "text": "1 km = 1000 m and 1 hour = 60 seconds.",
+     "correct": false,
+     "explanation": "This confuses the seconds in one minute with the seconds in one hour. Multiplying 60 minutes by 60 seconds gives 3600 seconds, while 1 km equals 1000 m."
+    },
+    {
+     "text": "1 km = 10000 m and 1 hour = 600 seconds.",
+     "correct": false,
+     "explanation": "Both values result from place-value errors. Kilo- represents 1000, and an hour contains 60 times 60 seconds, so the correct values are 1000 m and 3600 seconds."
+    }
+   ]
+  },
+  {
+   "id": "d1c3b536-8dea-4670-b96f-72b536fa433c",
+   "card_type": "basic",
+   "front": "When converting to a smaller unit, which operation is usually used?",
+   "back": "Usually multiply.",
+   "options": [
+    {
+     "text": "Usually multiply.",
+     "correct": true,
+     "explanation": "A smaller unit fits into the same measurement more times, so the numerical value usually increases. For example, metres are converted to centimetres by multiplying by 100."
+    },
+    {
+     "text": "Usually divide.",
+     "correct": false,
+     "explanation": "Dividing is the usual operation when converting to a larger unit. Converting to a smaller unit increases the numerical value, so multiplication is usually required."
+    },
+    {
+     "text": "Usually add.",
+     "correct": false,
+     "explanation": "Unit conversions use scale factors rather than adding a fixed amount. Converting to a smaller unit usually requires multiplication because more of the smaller units represent the same quantity."
+    },
+    {
+     "text": "Usually subtract.",
+     "correct": false,
+     "explanation": "Subtracting a fixed amount does not preserve equivalent measurements across different units. Converting to a smaller unit usually means multiplying by the relevant conversion factor."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "69ff71d4-6ea2-4d5f-9012-253b92b89229",
+   "card_type": "basic",
+   "front": "When converting to a larger unit, which operation is usually used?",
+   "back": "Usually divide.",
+   "options": [
+    {
+     "text": "Usually divide.",
+     "correct": true,
+     "explanation": "A larger unit fits into the same measurement fewer times, so the numerical value usually decreases. For example, centimetres are converted to metres by dividing by 100."
+    },
+    {
+     "text": "Usually multiply.",
+     "correct": false,
+     "explanation": "Multiplication is usually used when converting to a smaller unit, where the numerical value increases. Converting to a larger unit generally requires division by the conversion factor."
+    },
+    {
+     "text": "Usually add.",
+     "correct": false,
+     "explanation": "Adding a fixed amount is not how equivalent units are related. To convert to a larger unit, divide by the appropriate conversion factor so the numerical value decreases."
+    },
+    {
+     "text": "Usually subtract.",
+     "correct": false,
+     "explanation": "Subtracting does not account for the scale relationship between units. Converting to a larger unit usually requires division, such as dividing centimetres by 100 to obtain metres."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "808f4735-bfdd-4654-bc3b-c5aee4c45ca9",
+   "card_type": "basic",
+   "front": "Convert 3.7 m to cm.",
+   "back": "3.7 m = 370 cm.",
+   "options": [
+    {
+     "text": "3.7 m = 370 cm.",
+     "correct": true,
+     "explanation": "Each metre contains 100 centimetres, so converting 3.7 m to centimetres requires multiplying by 100. This moves the decimal point two places right to give 370 cm."
+    },
+    {
+     "text": "3.7 m = 37 cm.",
+     "correct": false,
+     "explanation": "This multiplies by 10 instead of 100, treating metres as though they contained only 10 centimetres. Since 1 m = 100 cm, 3.7 m equals 370 cm."
+    },
+    {
+     "text": "3.7 m = 0.037 cm.",
+     "correct": false,
+     "explanation": "This divides by 100, reversing the required operation. Centimetres are smaller than metres, so the number must increase: multiplying 3.7 by 100 gives 370 cm."
+    },
+    {
+     "text": "3.7 m = 3700 cm.",
+     "correct": false,
+     "explanation": "This multiplies by 1000 and introduces an extra zero. As 1 m contains 100 cm, multiplying 3.7 by 100 gives the correct value of 370 cm."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "abd8fab2-cc4d-47b1-9b6c-ded22505edbf",
+   "card_type": "cloze",
+   "front": "On a graph, the horizontal axis is the [ ___ ] and the vertical axis is the [ ___ ].",
+   "back": "On a graph, the horizontal axis is the x-axis and the vertical axis is the y-axis.",
+   "options": [
+    {
+     "text": "On a graph, the horizontal axis is the x-axis and the vertical axis is the y-axis.",
+     "correct": true,
+     "explanation": "By standard graph convention, the x-axis runs horizontally from left to right, while the y-axis runs vertically from bottom to top."
+    },
+    {
+     "text": "On a graph, the horizontal axis is the y-axis and the vertical axis is the x-axis.",
+     "correct": false,
+     "explanation": "This reverses the standard axis labels. The horizontal axis is the x-axis, while the vertical axis is the y-axis."
+    },
+    {
+     "text": "On a graph, the horizontal axis is the x-axis and the vertical axis is the x-axis.",
+     "correct": false,
+     "explanation": "A graph uses different names for its two perpendicular axes. The horizontal axis is the x-axis, but the vertical axis is the y-axis."
+    },
+    {
+     "text": "On a graph, the horizontal axis is the y-axis and the vertical axis is the y-axis.",
+     "correct": false,
+     "explanation": "This labels both axes as the y-axis and overlooks the horizontal x-axis. Standard graphs use the x-axis horizontally and the y-axis vertically."
+    }
+   ]
+  },
+  {
+   "id": "90d1b91e-c71d-4330-a28c-17daa63f3333",
+   "card_type": "basic",
+   "front": "On a conversion graph, if given an x-axis value, what is the first move to the line?",
+   "back": "Move vertically up to the line.",
+   "options": [
+    {
+     "text": "Move vertically up to the line.",
+     "correct": true,
+     "explanation": "An x-axis value fixes the horizontal coordinate. From that point, travel vertically upward until reaching the conversion line, then move horizontally to read the corresponding y-axis value."
+    },
+    {
+     "text": "Move horizontally across to the line.",
+     "correct": false,
+     "explanation": "Horizontal movement is used first when starting from a y-axis value. From a given x-axis value, move vertically up to the conversion line."
+    },
+    {
+     "text": "Move vertically down to the line.",
+     "correct": false,
+     "explanation": "On a typical first-quadrant conversion graph, the line lies above the x-axis. Starting at the given x-axis value, move vertically up rather than down to meet it."
+    },
+    {
+     "text": "Move diagonally up to the line.",
+     "correct": false,
+     "explanation": "Diagonal movement changes both coordinates at once and does not preserve the given x-value. Move vertically up from the x-axis so the horizontal coordinate remains fixed."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "25b13c87-9f8c-4e95-a0bd-727c4aa0715d",
+   "card_type": "basic",
+   "front": "On a conversion graph, if given a y-axis value, what is the first move to the line?",
+   "back": "Move horizontally across to the line.",
+   "options": [
+    {
+     "text": "Move horizontally across to the line.",
+     "correct": true,
+     "explanation": "A y-axis value fixes the vertical coordinate. From that point, travel horizontally across until reaching the conversion line, then move vertically to read the corresponding x-axis value."
+    },
+    {
+     "text": "Move vertically up to the line.",
+     "correct": false,
+     "explanation": "Vertical movement is used first when starting from an x-axis value. From a given y-axis value, move horizontally across to the conversion line."
+    },
+    {
+     "text": "Move vertically down to the line.",
+     "correct": false,
+     "explanation": "Moving vertically would change the given y-value rather than preserve it. Starting from the y-axis, move horizontally across to meet the conversion line."
+    },
+    {
+     "text": "Move diagonally across to the line.",
+     "correct": false,
+     "explanation": "Diagonal movement changes both the x-coordinate and y-coordinate, so it does not keep the given y-value fixed. Move horizontally across from the y-axis instead."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "40400f1f-056d-4240-b082-05dc86f32fcb",
+   "card_type": "basic",
+   "front": "A graph shows 20 litres ≈ 35 pints. Estimate 12 litres in pints.",
+   "back": "About 21 pints.",
+   "options": [
+    {
+     "text": "About 21 pints.",
+     "correct": true,
+     "explanation": "The conversion is directly proportional: $12 \\times \\frac{35}{20}=21$. Therefore, 12 litres is approximately 21 pints."
+    },
+    {
+     "text": "About 27 pints.",
+     "correct": false,
+     "explanation": "Subtracting 8 pints because the volume falls by 8 litres incorrectly assumes equal numerical units. Using direct proportion gives $12 \\times \\frac{35}{20}=21$ pints."
+    },
+    {
+     "text": "About 14 pints.",
+     "correct": false,
+     "explanation": "This underestimates the result by using an incorrect conversion rate. Since each litre is approximately $\\frac{35}{20}$ pints, 12 litres is about 21 pints."
+    },
+    {
+     "text": "About 42 pints.",
+     "correct": false,
+     "explanation": "This doubles the required result, as though 12 litres were 24 litres. Applying the graph’s conversion ratio gives $12 \\times \\frac{35}{20}=21$ pints."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "99d82197-f56c-4027-b8df-80617af8b514",
+   "card_type": "cloze",
+   "front": "With direct proportion, doubling one measurement [ ___ ] the other.",
+   "back": "With direct proportion, doubling one measurement doubles the other.",
+   "options": [
+    {
+     "text": "doubles",
+     "correct": true,
+     "explanation": "In direct proportion, both quantities change by the same scale factor. Multiplying one measurement by 2 therefore multiplies the other measurement by 2."
+    },
+    {
+     "text": "halves",
+     "correct": false,
+     "explanation": "Halving the other quantity describes an inverse relationship, not direct proportion. With direct proportion, doubling one measurement doubles the other."
+    },
+    {
+     "text": "quadruples",
+     "correct": false,
+     "explanation": "Quadrupling would incorrectly apply the doubling factor twice. In direct proportion, both quantities use the same scale factor, so doubling one doubles the other."
+    },
+    {
+     "text": "triples",
+     "correct": false,
+     "explanation": "Tripling uses a scale factor of 3 rather than matching the given factor of 2. Direct proportion means doubling one measurement doubles the other."
+    }
+   ]
+  },
+  {
+   "id": "1685feba-e56e-4946-b4f1-726e48db6bf1",
+   "card_type": "basic",
+   "front": "If 10 inches ≈ 25.4 cm, estimate 5 inches in cm.",
+   "back": "5 inches ≈ 12.7 cm.",
+   "options": [
+    {
+     "text": "5 inches ≈ 12.7 cm.",
+     "correct": true,
+     "explanation": "Five inches is half of 10 inches, so the corresponding length is half of 25.4 cm. Therefore, $25.4 \\div 2=12.7$ cm."
+    },
+    {
+     "text": "5 inches ≈ 25.4 cm.",
+     "correct": false,
+     "explanation": "This keeps the centimetre measurement unchanged even though the number of inches has halved. Halving 25.4 cm gives the correct estimate of 12.7 cm."
+    },
+    {
+     "text": "5 inches ≈ 50.8 cm.",
+     "correct": false,
+     "explanation": "This doubles 25.4 cm rather than halving it. Since 5 inches is half of 10 inches, the corresponding measurement is 12.7 cm."
+    },
+    {
+     "text": "5 inches ≈ 127 cm.",
+     "correct": false,
+     "explanation": "This decimal-place error makes the result ten times too large. Five inches is half of 10 inches, so it equals approximately 12.7 cm."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "750dee19-bb46-4352-bb74-8d5ceb7e037e",
+   "card_type": "cloze",
+   "front": "For area conversions, [ ___ ] the length conversion factor.",
+   "back": "For area conversions, square the length conversion factor.",
+   "options": [
+    {
+     "text": "square",
+     "correct": true,
+     "explanation": "Area has two dimensions, so the length conversion factor is applied twice. For example, converting centimetres to millimetres uses $10^2=100$ for square units."
+    },
+    {
+     "text": "double",
+     "correct": false,
+     "explanation": "Doubling the conversion factor confuses multiplication by 2 with two-dimensional scaling. Area conversions require the length conversion factor to be squared."
+    },
+    {
+     "text": "cube",
+     "correct": false,
+     "explanation": "Cubing the conversion factor is required for three-dimensional volume, not two-dimensional area. For area conversions, the length conversion factor must be squared."
+    },
+    {
+     "text": "halve",
+     "correct": false,
+     "explanation": "Halving does not account for the two perpendicular lengths that form an area. The length conversion factor must be squared for area conversions."
+    }
+   ]
+  },
+  {
+   "id": "b1b49324-9db5-4906-94ad-78dd56e12da0",
+   "card_type": "basic",
+   "front": "If 1 cm = 10 mm, what is 1 cm² in mm²?",
+   "back": "1 cm² = 100 mm².",
+   "options": [
+    {
+     "text": "1 cm² = 100 mm².",
+     "correct": true,
+     "explanation": "Because $1\\text{ cm}=10\\text{ mm}$, both dimensions are multiplied by 10. Therefore, $1\\text{ cm}^2=10^2\\text{ mm}^2=100\\text{ mm}^2$."
+    },
+    {
+     "text": "1 cm² = 10 mm².",
+     "correct": false,
+     "explanation": "This applies the linear conversion factor only once. Area is two-dimensional, so the factor must be squared: $10^2=100$, giving 100 mm²."
+    },
+    {
+     "text": "1 cm² = 20 mm².",
+     "correct": false,
+     "explanation": "Multiplying the length factor by 2 does not convert an area. The factor of 10 must be squared, so 1 cm² equals 100 mm²."
+    },
+    {
+     "text": "1 cm² = 1000 mm².",
+     "correct": false,
+     "explanation": "This cubes the factor of 10, which is appropriate for volume rather than area. Squaring the factor gives $10^2=100$ mm²."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "6bf05af7-392b-4f56-9491-debac8489948",
+   "card_type": "basic",
+   "front": "Convert 2.8 m² to cm².",
+   "back": "2.8 m² = 28000 cm².",
+   "options": [
+    {
+     "text": "2.8 m² = 28000 cm².",
+     "correct": true,
+     "explanation": "Since $1\\text{ m}=100\\text{ cm}$, the area factor is $100^2=10000$. Multiplying $2.8$ by 10000 gives 28000 cm²."
+    },
+    {
+     "text": "2.8 m² = 280 cm².",
+     "correct": false,
+     "explanation": "This uses the linear factor of 100 without squaring it. Area requires a factor of $10000$, so 2.8 m² equals 28000 cm²."
+    },
+    {
+     "text": "2.8 m² = 2800 cm².",
+     "correct": false,
+     "explanation": "This uses a factor of 1000, leaving the answer ten times too small. Squaring the length factor gives $100^2=10000$, producing 28000 cm²."
+    },
+    {
+     "text": "2.8 m² = 280000 cm².",
+     "correct": false,
+     "explanation": "This introduces an extra factor of 10, making the result ten times too large. The correct area factor is 10000, giving 28000 cm²."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "3f687ff8-2a9a-46af-8517-af2370b94e18",
+   "card_type": "basic",
+   "front": "Convert 450 mm² to cm².",
+   "back": "450 mm² = 4.5 cm².",
+   "options": [
+    {
+     "text": "450 mm² = 4.5 cm².",
+     "correct": true,
+     "explanation": "Since $1\\text{ cm}^2=100\\text{ mm}^2$, converting from mm² to cm² requires division by 100. Thus, $450\\div100=4.5$ cm²."
+    },
+    {
+     "text": "450 mm² = 45 cm².",
+     "correct": false,
+     "explanation": "Dividing by 10 uses the linear conversion factor instead of the area factor. Division by $10^2=100$ gives the correct result of 4.5 cm²."
+    },
+    {
+     "text": "450 mm² = 0.45 cm².",
+     "correct": false,
+     "explanation": "Dividing by 1000 makes the result ten times too small. The squared conversion factor is 100, so $450\\div100=4.5$ cm²."
+    },
+    {
+     "text": "450 mm² = 45000 cm².",
+     "correct": false,
+     "explanation": "This multiplies by 100 instead of dividing, reversing the conversion direction. Larger square units have smaller numerical values, so the result is 4.5 cm²."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "4e1a2960-3b04-41c1-a8e4-554efc7c0f5c",
+   "card_type": "cloze",
+   "front": "For volume conversions, [ ___ ] the length conversion factor.",
+   "back": "For volume conversions, cube the length conversion factor.",
+   "options": [
+    {
+     "text": "cube",
+     "correct": true,
+     "explanation": "Volume has three dimensions, so the length conversion factor is applied three times. For example, a length factor of 10 becomes $10^3=1000$ for volume."
+    },
+    {
+     "text": "square",
+     "correct": false,
+     "explanation": "Squaring the conversion factor accounts for only two dimensions and is used for area. Volume has three dimensions, so the length factor must be cubed."
+    },
+    {
+     "text": "double",
+     "correct": false,
+     "explanation": "Doubling the factor does not represent three-dimensional scaling. A volume includes length, width and height, so the length conversion factor must be cubed."
+    },
+    {
+     "text": "halve",
+     "correct": false,
+     "explanation": "Halving does not account for the three dimensions involved in volume. The length conversion factor is applied to length, width and height, so it must be cubed."
+    }
+   ]
+  },
+  {
+   "id": "ad1d64e5-c8b0-4afe-b4bb-c2316abbdb63",
+   "card_type": "basic",
+   "front": "If 1 cm = 10 mm, what is 1 cm³ in mm³?",
+   "back": "1 cm³ = 1000 mm³.",
+   "options": [
+    {
+     "text": "1 cm³ = 1000 mm³.",
+     "correct": true,
+     "explanation": "All three dimensions are multiplied by 10, so the volume scale factor is $10^3 = 1000$. Therefore, 1 cm³ equals 1000 mm³."
+    },
+    {
+     "text": "1 cm³ = 10 mm³.",
+     "correct": false,
+     "explanation": "Multiplying by 10 converts a length, not a volume. The conversion factor must be cubed, so $10^3 = 1000$ and 1 cm³ equals 1000 mm³."
+    },
+    {
+     "text": "1 cm³ = 100 mm³.",
+     "correct": false,
+     "explanation": "This squares the length conversion as though converting area. Volume has three dimensions, so the factor is $10^3 = 1000$ and 1 cm³ equals 1000 mm³."
+    },
+    {
+     "text": "1 cm³ = 10000 mm³.",
+     "correct": false,
+     "explanation": "This uses an extra factor of 10. Cubing the length conversion gives $10^3 = 1000$, so 1 cm³ equals 1000 mm³."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "b929d737-5484-47c8-8122-8070cc224572",
+   "card_type": "basic",
+   "front": "Convert 24 cm³ to mm³.",
+   "back": "24 cm³ = 24000 mm³.",
+   "options": [
+    {
+     "text": "24 cm³ = 24000 mm³.",
+     "correct": true,
+     "explanation": "Each cubic centimetre contains 1000 cubic millimetres. Multiplying 24 by 1000 gives 24000, so 24 cm³ equals 24000 mm³."
+    },
+    {
+     "text": "24 cm³ = 2400 mm³.",
+     "correct": false,
+     "explanation": "This uses a conversion factor of 100, which applies to square centimetres. Cubic units require $10^3 = 1000$, giving $24 \\times 1000 = 24000$ mm³."
+    },
+    {
+     "text": "24 cm³ = 240 mm³.",
+     "correct": false,
+     "explanation": "This applies the length conversion factor of 10 without cubing it. For volume, multiply by $10^3 = 1000$, giving 24000 mm³."
+    },
+    {
+     "text": "24 cm³ = 240000 mm³.",
+     "correct": false,
+     "explanation": "This includes an extra factor of 10. Since 1 cm³ equals 1000 mm³, the correct calculation is $24 \\times 1000 = 24000$ mm³."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "9c3bd7d2-a62f-4810-aa91-b861004a3ca9",
+   "card_type": "basic",
+   "front": "Convert 72 km/h to m/s.",
+   "back": "72 km/h = 20 m/s.",
+   "options": [
+    {
+     "text": "72 km/h = 20 m/s.",
+     "correct": true,
+     "explanation": "To convert kilometres per hour to metres per second, divide by 3.6. Calculating $72 \\div 3.6$ gives 20 m/s."
+    },
+    {
+     "text": "72 km/h = 2 m/s.",
+     "correct": false,
+     "explanation": "This result is ten times too small, usually from mishandling the kilometre-to-metre factor. Dividing 72 by 3.6 correctly gives 20 m/s."
+    },
+    {
+     "text": "72 km/h = 7.2 m/s.",
+     "correct": false,
+     "explanation": "Dividing by 10 does not account for both kilometres-to-metres and hours-to-seconds. The combined shortcut is division by 3.6, giving 20 m/s."
+    },
+    {
+     "text": "72 km/h = 25 m/s.",
+     "correct": false,
+     "explanation": "This comes from using an incorrect conversion factor. Kilometres per hour are converted to metres per second by dividing by 3.6, so the result is 20 m/s."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "1199213c-0e20-4092-8133-9b2fb4e39e55",
+   "card_type": "basic",
+   "front": "What shortcut converts km/h to m/s?",
+   "back": "Divide by 3.6.",
+   "options": [
+    {
+     "text": "Divide by 3.6.",
+     "correct": true,
+     "explanation": "Converting kilometres to metres multiplies by 1000, while converting hours to seconds divides by 3600. Together, this is equivalent to dividing the speed by 3.6."
+    },
+    {
+     "text": "Multiply by 3.6.",
+     "correct": false,
+     "explanation": "Multiplying by 3.6 performs the reverse conversion from m/s to km/h. To convert km/h to m/s, divide by 3.6."
+    },
+    {
+     "text": "Divide by 1.6.",
+     "correct": false,
+     "explanation": "The factor 1.6 is associated approximately with converting miles and kilometres, not speed units involving hours and seconds. For km/h to m/s, divide by 3.6."
+    },
+    {
+     "text": "Divide by 1000.",
+     "correct": false,
+     "explanation": "Dividing by 1000 considers only the kilometre-to-metre relationship and ignores the conversion from hours to seconds. The combined conversion requires division by 3.6."
+    }
+   ],
+   "points": 1
+  }
+ ],
+ "card_count": 20,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-3-3-10-conversions-and-units/flashcards",
+ "source_sha256": "a8b8cdf3b036ab251359bbcb6e4fa20e560f0e790a864045117ad98a720279bd",
+ "extracted_at": "2026-11-08T17:55:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}

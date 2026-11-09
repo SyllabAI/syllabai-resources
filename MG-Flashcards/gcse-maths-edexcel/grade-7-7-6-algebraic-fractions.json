@@ -1,0 +1,672 @@
+{
+ "topic": "grade-7-7-6-algebraic-fractions",
+ "lane": "gcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "title": "Algebraic Fractions Flashcards",
+ "cards": [
+  {
+   "id": "014a4370-c8b4-497f-8057-fc72beb18b9f",
+   "card_type": "basic",
+   "front": "What specific part of an algebraic fraction is the only part allowed to be cancelled?",
+   "back": "Common factors (expressions that multiply the whole numerator/denominator).",
+   "options": [
+    {
+     "text": "Common factors (expressions that multiply the whole numerator/denominator).",
+     "correct": true,
+     "explanation": "Cancellation divides the numerator and denominator by the same expression. Therefore, only factors multiplying the whole numerator and denominator can be cancelled."
+    },
+    {
+     "text": "Common terms (expressions that are added or subtracted in the numerator/denominator).",
+     "correct": false,
+     "explanation": "Terms within a sum or difference cannot be cancelled individually. The numerator and denominator must first be factorised, because only common factors multiplying the whole expressions can cancel."
+    },
+    {
+     "text": "Common variables (letters that appear anywhere in both numerator/denominator).",
+     "correct": false,
+     "explanation": "A shared variable cannot be cancelled merely because it appears in both expressions. It must be a factor multiplying the whole numerator and denominator."
+    },
+    {
+     "text": "Common coefficients (numbers attached to terms in both numerator/denominator).",
+     "correct": false,
+     "explanation": "Coefficients attached to separate terms cannot automatically be cancelled. Only a common factor of the entire numerator and entire denominator may be divided out."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "7aecf411-4407-4d2a-94ed-74a4467c9915",
+   "card_type": "cloze",
+   "front": "In algebra, a [ ___ ] is something being multiplied, whereas a term is part of a sum or difference.",
+   "back": "In algebra, a factor is something being multiplied, whereas a term is part of a sum or difference.",
+   "options": [
+    {
+     "text": "factor",
+     "correct": true,
+     "explanation": "A factor is an expression or quantity involved in multiplication. For example, $x$ and $x+2$ are the two factors in $x(x+2)$."
+    },
+    {
+     "text": "term",
+     "correct": false,
+     "explanation": "A term is a component separated by addition or subtraction, rather than something necessarily being multiplied. The required word is factor."
+    },
+    {
+     "text": "coefficient",
+     "correct": false,
+     "explanation": "A coefficient is the numerical multiplier of a variable, such as $3$ in $3x$. The general name for something being multiplied is a factor."
+    },
+    {
+     "text": "variable",
+     "correct": false,
+     "explanation": "A variable is a letter representing a value, such as $x$. Something involved in multiplication is called a factor, whether or not it contains a variable."
+    }
+   ]
+  },
+  {
+   "id": "6b5b0862-1aaf-4317-8725-9e8b04c58de6",
+   "card_type": "cloze",
+   "front": "In algebra, a factor is something being multiplied, whereas a [ ___ ] is part of a sum or difference.",
+   "back": "In algebra, a factor is something being multiplied, whereas a term is part of a sum or difference.",
+   "options": [
+    {
+     "text": "term",
+     "correct": true,
+     "explanation": "A term is one part of an expression separated from other parts by addition or subtraction, such as $3x$ and $4$ in $3x+4$."
+    },
+    {
+     "text": "factor",
+     "correct": false,
+     "explanation": "A factor is something being multiplied, not a part separated by addition or subtraction. A component of a sum or difference is called a term."
+    },
+    {
+     "text": "coefficient",
+     "correct": false,
+     "explanation": "A coefficient is the number multiplying a variable within a term, such as $3$ in $3x$. The whole component of a sum is a term."
+    },
+    {
+     "text": "expression",
+     "correct": false,
+     "explanation": "An expression can contain several terms and operations, so it is not specifically one part of a sum or difference. That individual part is called a term."
+    }
+   ]
+  },
+  {
+   "id": "eeb5c1f1-8295-4288-a489-92f80cfc6164",
+   "card_type": "basic",
+   "front": "Why is it incorrect to cancel the $x$ in the expression $\\frac{x+4}{x^2-16}$?",
+   "back": "The $x$ is a term in a sum, not a factor multiplying the whole numerator.",
+   "options": [
+    {
+     "text": "The $x$ is a term in a sum, not a factor multiplying the whole numerator.",
+     "correct": true,
+     "explanation": "In $x+4$, the $x$ is joined to $4$ by addition and does not multiply the whole numerator. Only common factors of complete expressions may cancel."
+    },
+    {
+     "text": "The $x$ is a factor in the numerator, but does not appear anywhere in the denominator.",
+     "correct": false,
+     "explanation": "The denominator does contain $x$, but mere appearance in both parts is insufficient. In the numerator, $x$ is a term in the sum $x+4$, not a factor of the whole numerator."
+    },
+    {
+     "text": "The $x$ can only be cancelled when it has a coefficient of $1$ in both parts.",
+     "correct": false,
+     "explanation": "Cancellation does not depend on coefficients being $1$. It fails here because $x$ is a term in $x+4$, rather than a factor multiplying the entire numerator."
+    },
+    {
+     "text": "The $x$ is part of a quadratic, and quadratic expressions can never have factors cancelled.",
+     "correct": false,
+     "explanation": "Quadratic expressions can have factors cancelled after factorisation. The problem here is that $x$ is a term in the numerator’s sum, not a factor of the complete numerator."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "3dff86be-c5c4-41cf-9ccf-c7d565eb6c27",
+   "card_type": "cloze",
+   "front": "To simplify an algebraic fraction, you must [ ___ ] the numerator and denominator before cancelling common factors.",
+   "back": "To simplify an algebraic fraction, you must factorise the numerator and denominator before cancelling common factors.",
+   "options": [
+    {
+     "text": "factorise",
+     "correct": true,
+     "explanation": "Factorising rewrites sums or differences as products, revealing factors shared by the numerator and denominator. Those common factors can then be cancelled."
+    },
+    {
+     "text": "expand",
+     "correct": false,
+     "explanation": "Expanding turns products into sums and can hide common factors rather than reveal them. The numerator and denominator should be factorised before cancellation."
+    },
+    {
+     "text": "calculate",
+     "correct": false,
+     "explanation": "An algebraic fraction containing variables usually cannot simply be calculated to one number. It must be factorised to identify common factors that can cancel."
+    },
+    {
+     "text": "rearrange",
+     "correct": false,
+     "explanation": "Rearranging terms does not convert a sum into a product or expose cancellable factors. The required process is to factorise the numerator and denominator."
+    }
+   ]
+  },
+  {
+   "id": "180af324-a6a0-4d84-982e-b4eeb58b8126",
+   "card_type": "cloze",
+   "front": "To simplify an algebraic fraction, you must factorise the numerator and denominator before [ ___ ] common factors.",
+   "back": "To simplify an algebraic fraction, you must factorise the numerator and denominator before cancelling common factors.",
+   "options": [
+    {
+     "text": "cancelling",
+     "correct": true,
+     "explanation": "Once both expressions are factorised, any identical factor multiplying the whole numerator and denominator can be cancelled by dividing both by that factor."
+    },
+    {
+     "text": "expanding",
+     "correct": false,
+     "explanation": "Expanding common factors would turn products back into sums and prevent direct cancellation. After factorising, the next step is cancelling identical factors."
+    },
+    {
+     "text": "adding",
+     "correct": false,
+     "explanation": "Common factors are not combined by addition. They are cancelled because dividing both the numerator and denominator by the same non-zero factor preserves the fraction’s value."
+    },
+    {
+     "text": "subtracting",
+     "correct": false,
+     "explanation": "Subtracting common factors would change the value of the fraction. After factorisation, shared factors are cancelled by division from the numerator and denominator."
+    }
+   ]
+  },
+  {
+   "id": "54ece75e-7cb6-4156-b5d8-a6291af8f86c",
+   "card_type": "basic",
+   "front": "What is the general factorisation for a difference of two squares $a^2 - b^2$?",
+   "back": "$$(a - b)(a + b)$",
+   "options": [
+    {
+     "text": "$$(a - b)(a + b)$",
+     "correct": true,
+     "explanation": "Multiplying the conjugate factors gives $a^2+ab-ab-b^2=a^2-b^2$, because the two middle terms cancel."
+    },
+    {
+     "text": "$$(a - b)^2$",
+     "correct": false,
+     "explanation": "Squaring a difference produces $a^2-2ab+b^2$, which includes a middle term and has a positive $b^2$. The correct factorisation is $(a-b)(a+b)$."
+    },
+    {
+     "text": "$$(a + b)^2$",
+     "correct": false,
+     "explanation": "Squaring a sum produces $a^2+2ab+b^2$, not a difference of two squares. The required conjugate factors are $(a-b)(a+b)$."
+    },
+    {
+     "text": "$$(a + b)(b - a)$",
+     "correct": false,
+     "explanation": "Reversing the subtraction in the second factor changes the sign: this product equals $b^2-a^2$. The correct order is $(a-b)(a+b)$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "8826b692-695a-4720-849a-ba4bd9ee23a0",
+   "card_type": "basic",
+   "front": "Factorise the denominator of $\\frac{4x^2+16x}{x^2-16}$ using the difference of two squares.",
+   "back": "$$(x - 4)(x + 4)$",
+   "options": [
+    {
+     "text": "$$(x - 4)(x + 4)$",
+     "correct": true,
+     "explanation": "The denominator is $x^2-4^2$, a difference of two squares. Applying $a^2-b^2=(a-b)(a+b)$ gives $(x-4)(x+4)$."
+    },
+    {
+     "text": "$$(x - 4)^2$",
+     "correct": false,
+     "explanation": "This treats the expression as a squared difference and expands to $x^2-8x+16$. The difference of squares $x^2-16$ factorises as $(x-4)(x+4)$."
+    },
+    {
+     "text": "$$(x + 4)^2$",
+     "correct": false,
+     "explanation": "This treats the expression as a squared sum and expands to $x^2+8x+16$. Using conjugate factors instead gives $(x-4)(x+4)$."
+    },
+    {
+     "text": "$$(x - 8)(x + 2)$",
+     "correct": false,
+     "explanation": "Although the constants multiply to $-16$, these factors produce an unwanted $-6x$ term. Opposite constants cancel the middle terms, giving $(x-4)(x+4)$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "70cdc45e-bc82-4ca2-be4c-a327f9bc4df0",
+   "card_type": "cloze",
+   "front": "The [ ___ ] of a fraction is the fraction turned upside down, such as $\\frac{x-3}{x+1}$ for $\\frac{x+1}{x-3}$.",
+   "back": "The reciprocal of a fraction is the fraction turned upside down, such as $\\frac{x-3}{x+1}$ for $\\frac{x+1}{x-3}$.",
+   "options": [
+    {
+     "text": "reciprocal",
+     "correct": true,
+     "explanation": "The reciprocal is formed by interchanging a fraction’s numerator and denominator, so the reciprocal of $\\frac{x+1}{x-3}$ is $\\frac{x-3}{x+1}$."
+    },
+    {
+     "text": "denominator",
+     "correct": false,
+     "explanation": "The denominator is only the expression below the fraction bar, not the result of turning a fraction upside down. The required term is reciprocal."
+    },
+    {
+     "text": "numerator",
+     "correct": false,
+     "explanation": "The numerator is the expression above the fraction bar and does not describe swapping the two parts. A fraction turned upside down is its reciprocal."
+    },
+    {
+     "text": "quotient",
+     "correct": false,
+     "explanation": "A quotient is the result of division, rather than a fraction with its numerator and denominator interchanged. The correct mathematical term is reciprocal."
+    }
+   ]
+  },
+  {
+   "id": "b528e1f1-79f6-4878-b1c7-47ce0a4c440f",
+   "card_type": "basic",
+   "front": "Outline the 3-step process for dividing algebraic fractions.",
+   "back": "Keep the first fractionChange division to multiplicationFlip the second fraction (reciprocal)",
+   "options": [
+    {
+     "text": "Keep the first fractionChange division to multiplicationFlip the second fraction (reciprocal)",
+     "correct": true,
+     "explanation": "Dividing by a fraction is equivalent to multiplying by its reciprocal. Therefore, keep the first fraction, replace division with multiplication, and flip only the second fraction."
+    },
+    {
+     "text": "Flip the first fractionChange division to multiplicationKeep the second fraction unchanged",
+     "correct": false,
+     "explanation": "Flipping the first fraction changes the dividend rather than converting the divisor into its reciprocal. Keep the first fraction unchanged and flip only the second fraction."
+    },
+    {
+     "text": "Keep the first fractionChange multiplication to divisionFlip the second fraction (reciprocal)",
+     "correct": false,
+     "explanation": "Changing multiplication to division reverses the required procedure. For fraction division, keep the first fraction, change division to multiplication, and flip the second fraction."
+    },
+    {
+     "text": "Keep the first fractionChange division to multiplicationKeep the second fraction unchanged",
+     "correct": false,
+     "explanation": "Replacing division with multiplication without taking the reciprocal gives a different value. The second fraction must be flipped after the operation is changed to multiplication."
+    }
+   ],
+   "points": 3
+  },
+  {
+   "id": "1586e028-a4e6-43f4-9d00-d2c4d029d028",
+   "card_type": "basic",
+   "front": "When simplifying a division problem like $\\frac{A}{B} \\div \\frac{C}{D}$, which fraction is flipped?",
+   "back": "The second fraction ($\\frac{C}{D}$) only.",
+   "options": [
+    {
+     "text": "The second fraction ($\\frac{C}{D}$) only.",
+     "correct": true,
+     "explanation": "To divide by a fraction, multiply by its reciprocal. Thus $\\frac{A}{B}$ remains unchanged, while the divisor $\\frac{C}{D}$ becomes $\\frac{D}{C}$."
+    },
+    {
+     "text": "The first fraction ($\\frac{A}{B}$) only.",
+     "correct": false,
+     "explanation": "The first fraction is the dividend and must remain unchanged. It is the second fraction, $\\frac{C}{D}$, that is flipped to form its reciprocal."
+    },
+    {
+     "text": "The first and second fractions ($\\frac{A}{B}$ and $\\frac{C}{D}$).",
+     "correct": false,
+     "explanation": "Flipping both fractions alters the dividend as well as the divisor, producing the wrong expression. Only the second fraction, $\\frac{C}{D}$, is flipped."
+    },
+    {
+     "text": "The neither fraction; both remain unchanged.",
+     "correct": false,
+     "explanation": "Neither fraction remains unflipped: division is converted into multiplication by taking the reciprocal of the divisor. Therefore, only the second fraction is flipped."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "18f915f0-4336-48b5-9270-f68aa62af0c5",
+   "card_type": "cloze",
+   "front": "When solving an equation with algebraic fractions, the primary goal is to [ ___ ] by multiplying every term by the common denominator.",
+   "back": "When solving an equation with algebraic fractions, the primary goal is to remove the denominators by multiplying every term by the common denominator.",
+   "options": [
+    {
+     "text": "remove the denominators",
+     "correct": true,
+     "explanation": "Multiplying every term by a common denominator cancels each fractional denominator, converting the equation into one without algebraic fractions and making it easier to solve."
+    },
+    {
+     "text": "expand the numerators",
+     "correct": false,
+     "explanation": "Multiplication by a common denominator cancels denominators rather than expanding numerators. The primary goal is to remove the denominators and obtain an equation without fractions."
+    },
+    {
+     "text": "factor the numerators",
+     "correct": false,
+     "explanation": "Factoring numerators may help with later simplification, but it is not achieved simply by multiplying every term by the common denominator. The goal is to remove the denominators."
+    },
+    {
+     "text": "cross-multiply the fractions",
+     "correct": false,
+     "explanation": "Cross-multiplication applies directly to an equation containing one fraction on each side, not generally to every term. Multiplying by the common denominator removes the denominators."
+    }
+   ]
+  },
+  {
+   "id": "f08b774a-6674-4416-ace3-e20daaf0c8c8",
+   "card_type": "cloze",
+   "front": "When solving an equation with algebraic fractions, the primary goal is to remove the denominators by multiplying every term by the [ ___ ].",
+   "back": "When solving an equation with algebraic fractions, the primary goal is to remove the denominators by multiplying every term by the common denominator.",
+   "options": [
+    {
+     "text": "common denominator",
+     "correct": true,
+     "explanation": "A common denominator contains all denominator factors required to cancel the fractions. Multiplying every term by it produces an equivalent equation with no fractional denominators."
+    },
+    {
+     "text": "greatest common factor",
+     "correct": false,
+     "explanation": "A greatest common factor identifies shared factors but may not contain everything needed to cancel each denominator. Every term must instead be multiplied by the common denominator."
+    },
+    {
+     "text": "common numerator",
+     "correct": false,
+     "explanation": "Numerators do not determine which multiplier clears the fractions. The required multiplier is the common denominator, which contains the necessary factors from all original denominators."
+    },
+    {
+     "text": "largest denominator",
+     "correct": false,
+     "explanation": "Choosing whichever denominator appears largest does not guarantee that all denominator factors will cancel. The multiplier must be a common denominator of every fraction."
+    }
+   ]
+  },
+  {
+   "id": "a931f9a1-51c7-4f1f-9e31-345931cd03a5",
+   "card_type": "basic",
+   "front": "If solving $\\frac{3}{x+2} + \\frac{4}{x+7} = 1$, what is the common denominator used to clear the fractions?",
+   "back": "$$(x+2)(x+7)$",
+   "options": [
+    {
+     "text": "$$(x+2)(x+7)$",
+     "correct": true,
+     "explanation": "The denominators $x+2$ and $x+7$ have no common algebraic factor, so their product $(x+2)(x+7)$ is the common denominator used to clear both fractions."
+    },
+    {
+     "text": "$$(x+2)+(x+7)$",
+     "correct": false,
+     "explanation": "Adding the denominators is a common slip, but $2x+9$ is not divisible by either original denominator. The required common denominator is $(x+2)(x+7)$."
+    },
+    {
+     "text": "$$(x+2)(x-7)$",
+     "correct": false,
+     "explanation": "Changing $x+7$ to $x-7$ introduces a sign error and would not cancel the original denominator. The common denominator is $(x+2)(x+7)$."
+    },
+    {
+     "text": "$$x+9$",
+     "correct": false,
+     "explanation": "Adding only the constants ignores the variable terms and does not produce a multiple of either denominator. The common denominator needed is $(x+2)(x+7)$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "9624b99c-ffad-4080-89f4-5415bac59cc4",
+   "card_type": "basic",
+   "front": "Why must you identify excluded values (e.g., $x \\neq -2$) before solving an algebraic fraction equation?",
+   "back": "To ensure the final solution does not make any original denominator equal to zero.",
+   "options": [
+    {
+     "text": "To ensure the final solution does not make any original denominator equal to zero.",
+     "correct": true,
+     "explanation": "Division by zero is undefined, so any value that makes an original denominator zero cannot be a solution, even if it appears after the equation is rearranged."
+    },
+    {
+     "text": "To ensure the final solution does not make any original numerator equal to zero.",
+     "correct": false,
+     "explanation": "A numerator may equal zero without making a fraction undefined; it usually makes the fraction equal zero. Exclusions prevent an original denominator from equalling zero."
+    },
+    {
+     "text": "To ensure the final solution does not make any original denominator equal to one.",
+     "correct": false,
+     "explanation": "Denominators are allowed to equal one, since division by one is defined. Excluded values specifically prevent any original denominator from becoming zero."
+    },
+    {
+     "text": "To ensure the final solution does not make every original denominator have the same value.",
+     "correct": false,
+     "explanation": "Different denominators may take the same value without making the equation undefined. Excluded values are identified because no original denominator is permitted to equal zero."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "af2ef845-6b2f-43c9-a356-81deabb5c4c3",
+   "card_type": "cloze",
+   "front": "In an equation with three terms like $\\frac{5}{x-1} + \\frac{2}{x+3} = 1$, you must multiply [ ___ ] (including the 1) by the common denominator.",
+   "back": "In an equation with three terms like $\\frac{5}{x-1} + \\frac{2}{x+3} = 1$, you must multiply every term (including the 1) by the common denominator.",
+   "options": [
+    {
+     "text": "every term",
+     "correct": true,
+     "explanation": "Multiplying every term preserves the equation’s balance and allows all fractional denominators to cancel. This includes the constant $1$ on the right-hand side."
+    },
+    {
+     "text": "only the fractional terms",
+     "correct": false,
+     "explanation": "Multiplying only the fractions changes one side without applying the same operation to the constant $1$. Every term in the equation must be multiplied by the common denominator."
+    },
+    {
+     "text": "only the left-hand side",
+     "correct": false,
+     "explanation": "Applying the multiplier only to the left-hand side breaks the equality because the right-hand side is unchanged. Every term, including $1$, must receive the multiplier."
+    },
+    {
+     "text": "only the denominators",
+     "correct": false,
+     "explanation": "Multiplying denominators in isolation changes the fractions rather than performing an equivalent operation on the equation. The common denominator must multiply every complete term."
+    }
+   ]
+  },
+  {
+   "id": "c01bcfee-444c-4403-adb8-4dab9fdce5b0",
+   "card_type": "basic",
+   "front": "How do you convert the ratio statement $A:B = C:D$ into an equation?",
+   "back": "$$\\frac{A}{B} = \\frac{C}{D}$",
+   "options": [
+    {
+     "text": "$$\\frac{A}{B} = \\frac{C}{D}$",
+     "correct": true,
+     "explanation": "A ratio $A:B$ is written as the fraction $\\frac{A}{B}$, while $C:D$ becomes $\\frac{C}{D}$. Since the ratios are equal, the fractions are equal."
+    },
+    {
+     "text": "$$\\frac{A}{B} = \\frac{D}{C}$",
+     "correct": false,
+     "explanation": "This reverses the second ratio, changing $C:D$ into $D:C$. The order of each ratio must be preserved, giving $\\frac{A}{B} = \\frac{C}{D}$."
+    },
+    {
+     "text": "$$\\frac{B}{A} = \\frac{C}{D}$",
+     "correct": false,
+     "explanation": "This reverses only the first ratio, treating $A:B$ as $B:A$. Keeping both quantities in their original order gives $\\frac{A}{B} = \\frac{C}{D}$."
+    },
+    {
+     "text": "$$\\frac{A}{D} = \\frac{C}{B}$",
+     "correct": false,
+     "explanation": "This incorrectly pairs terms from different ratios as numerators and denominators. Each ratio is converted separately, so the equation is $\\frac{A}{B} = \\frac{C}{D}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "5e07a512-abcb-43e2-ae5a-10e8ca106681",
+   "card_type": "basic",
+   "front": "What is the technique of \"cross-multiplication\" when solving $\\frac{A}{B} = \\frac{C}{D}$?",
+   "back": "Multiplying each numerator by the opposite denominator ($AD = BC$).",
+   "options": [
+    {
+     "text": "Multiplying each numerator by the opposite denominator ($AD = BC$).",
+     "correct": true,
+     "explanation": "Cross-multiplication forms diagonal products across the equals sign: $A$ multiplies $D$, and $C$ multiplies $B$. This produces the equivalent equation $AD = BC$."
+    },
+    {
+     "text": "Multiplying each numerator by its own denominator ($AB = CD$).",
+     "correct": false,
+     "explanation": "This multiplies vertically within each fraction rather than diagonally across the equation. Cross-multiplication uses the opposite denominators, so the resulting equation is $AD = BC$."
+    },
+    {
+     "text": "Multiplying both numerators and both denominators together ($AC = BD$).",
+     "correct": false,
+     "explanation": "This groups like positions instead of forming diagonal products. Cross-multiplication pairs each numerator with the denominator on the other side, producing $AD = BC$."
+    },
+    {
+     "text": "Dividing each numerator by the opposite denominator ($A \\div D = C \\div B$).",
+     "correct": false,
+     "explanation": "The word “cross” describes the diagonal pairing, but the operation is multiplication rather than division. The two diagonal products are equated to give $AD = BC$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "5f1ce4e3-2feb-4fad-8730-16970713f0f8",
+   "card_type": "cloze",
+   "front": "If an answer must be in the form $\\frac{ax+b}{x+c}$, the letters $a$, $b$, and $c$ represent [ ___ ] (whole numbers).",
+   "back": "If an answer must be in the form $\\frac{ax+b}{x+c}$, the letters $a$, $b$, and $c$ represent integers (whole numbers).",
+   "options": [
+    {
+     "text": "integers",
+     "correct": true,
+     "explanation": "Integers are numbers with no fractional or decimal part, including positive numbers, negative numbers and zero. They are the required type of coefficients and constants here."
+    },
+    {
+     "text": "fractions",
+     "correct": false,
+     "explanation": "Fractions can represent non-whole values, whereas the stated restriction requires whole-number values. The letters $a$, $b$ and $c$ therefore represent integers."
+    },
+    {
+     "text": "irrationals",
+     "correct": false,
+     "explanation": "Irrational numbers cannot be written as exact fractions and include values such as $\\sqrt{2}$. The form instead specifies that $a$, $b$ and $c$ are integers."
+    },
+    {
+     "text": "variables",
+     "correct": false,
+     "explanation": "Although letters often denote variables, here $a$, $b$ and $c$ are fixed numerical coefficients or constants. The stated whole-number condition means they represent integers."
+    }
+   ]
+  },
+  {
+   "id": "7fe02c19-bdcf-4158-8d03-3819560c51f9",
+   "card_type": "basic",
+   "front": "How can you verify your factorisation is correct before cancelling factors in a fraction?",
+   "back": "Quickly expand the brackets to see if they return to the original expression.",
+   "options": [
+    {
+     "text": "Quickly expand the brackets to see if they return to the original expression.",
+     "correct": true,
+     "explanation": "Expanding reverses factorisation. If multiplying out the brackets reproduces every term of the original expression with the correct coefficients and signs, the factorisation is correct."
+    },
+    {
+     "text": "Quickly add the brackets to see if they return to the original expression.",
+     "correct": false,
+     "explanation": "Bracketed factors are multiplied, not added, so adding them cannot reverse factorisation. Expanding the brackets correctly checks whether their product returns to the original expression."
+    },
+    {
+     "text": "Quickly cancel the brackets to see if they return to the original expression.",
+     "correct": false,
+     "explanation": "Cancelling before checking risks removing factors based on an incorrect factorisation. The brackets should first be expanded to confirm that their product matches the original expression."
+    },
+    {
+     "text": "Quickly differentiate the brackets to see if they return to the original expression.",
+     "correct": false,
+     "explanation": "Differentiation changes an expression and is not the reverse of factorisation. Expanding multiplies the factors back together, allowing direct comparison with the original expression."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "bb25ba5a-f790-4f0a-80c0-26cd98a94e89",
+   "card_type": "basic",
+   "front": "Factorise $2x^2 + 11x + 5$.",
+   "back": "$$(2x + 1)(x + 5)$",
+   "options": [
+    {
+     "text": "$$(2x + 1)(x + 5)$",
+     "correct": true,
+     "explanation": "Expanding gives $2x^2 + 10x + x + 5 = 2x^2 + 11x + 5$. Therefore these brackets factorise the quadratic exactly."
+    },
+    {
+     "text": "$$(2x + 5)(x + 1)$",
+     "correct": false,
+     "explanation": "These brackets expand to $2x^2 + 7x + 5$, so the middle coefficient is too small. The correct factorisation is $(2x + 1)(x + 5)$."
+    },
+    {
+     "text": "$$(2x - 1)(x - 5)$",
+     "correct": false,
+     "explanation": "Using two negative signs keeps the constant positive but produces a negative middle term: $2x^2 - 11x + 5$. The required factors are $(2x + 1)(x + 5)$."
+    },
+    {
+     "text": "$$(2x + 1)(x + 11)$",
+     "correct": false,
+     "explanation": "This treats the middle coefficient as a bracket constant and expands to $2x^2 + 23x + 11$. The correct factor pair gives $(2x + 1)(x + 5)$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "48e0cc96-7ca9-4a02-9355-6c0c224746ca",
+   "card_type": "cloze",
+   "front": "Factorising $3x^2 + 9x$ by taking out a common factor results in $\\text{[...]}$.",
+   "back": "Factorising $3x^2 + 9x$ by taking out a common factor results in $\\boxed{3x(x+3)}$.",
+   "options": [
+    {
+     "text": "$$3x(x+3)$",
+     "correct": true,
+     "explanation": "Both terms share the greatest common factor $3x$. Dividing $3x^2$ and $9x$ by $3x$ leaves $x$ and $3$, giving $3x(x+3)$."
+    },
+    {
+     "text": "$$3x(x+6)$",
+     "correct": false,
+     "explanation": "Dividing $9x$ by the common factor $3x$ gives $3$, not $6$. Taking out $3x$ correctly produces $3x(x+3)$."
+    },
+    {
+     "text": "$$3(x+3)$",
+     "correct": false,
+     "explanation": "This loses a factor of $x$ and expands to $3x+9$, not the original quadratic expression. The greatest common factor is $3x$, giving $3x(x+3)$."
+    },
+    {
+     "text": "$$x(3x+3)$",
+     "correct": false,
+     "explanation": "The second term inside the brackets should be $9$ if only $x$ is extracted, so this expands incorrectly. Fully extracting $3x$ gives $3x(x+3)$."
+    }
+   ]
+  },
+  {
+   "id": "d404994f-d67c-48f7-8cc0-44a6e535cafb",
+   "card_type": "basic",
+   "front": "What quadratic factors are found when simplifying $\\frac{x^2+6x}{x^2+8x+12}$?",
+   "back": "Numerator: $x(x+6)$Denominator: $(x+2)(x+6)$",
+   "options": [
+    {
+     "text": "Numerator: $x(x+6)$Denominator: $(x+2)(x+6)$",
+     "correct": true,
+     "explanation": "The numerator has common factor $x$, while two numbers adding to $8$ and multiplying to $12$ are $2$ and $6$. This reveals the common factor $(x+6)$."
+    },
+    {
+     "text": "Numerator: $x(x+6)$Denominator: $(x+3)(x+4)$",
+     "correct": false,
+     "explanation": "Although $3$ and $4$ multiply to $12$, they add to $7$, not $8$. The denominator factors as $(x+2)(x+6)$, while the numerator is $x(x+6)$."
+    },
+    {
+     "text": "Numerator: $x(x+3)$Denominator: $(x+2)(x+6)$",
+     "correct": false,
+     "explanation": "Taking $x$ out of $x^2+6x$ leaves $x+6$, not $x+3$. The correct numerator is $x(x+6)$ and the denominator is $(x+2)(x+6)$."
+    },
+    {
+     "text": "Numerator: $(x+2)(x+3)$Denominator: $(x+2)(x+6)$",
+     "correct": false,
+     "explanation": "The numerator has no constant term, so it must contain a factor of $x$; these brackets produce a constant of $6$. Its correct factorisation is $x(x+6)$."
+    }
+   ],
+   "points": 2
+  }
+ ],
+ "card_count": 23,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-7-7-6-algebraic-fractions/flashcards",
+ "source_sha256": "18dc32926d5d2fc2752ea40c376cea343c0a38da6d5c964a5f2209afcb26dc33",
+ "extracted_at": "2026-11-08T17:55:05Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}

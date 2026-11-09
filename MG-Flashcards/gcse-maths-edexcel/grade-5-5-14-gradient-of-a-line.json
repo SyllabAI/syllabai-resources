@@ -1,0 +1,728 @@
+{
+ "topic": "grade-5-5-14-gradient-of-a-line",
+ "lane": "gcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "title": "Gradient of a Line Flashcards",
+ "cards": [
+  {
+   "id": "3c6e746d-9069-41cb-8821-685b1f6c10d7",
+   "card_type": "basic",
+   "front": "What does the gradient of a straight line represent?",
+   "back": "The steepness of the line (how much it goes up or down for every 1 unit across).",
+   "options": [
+    {
+     "text": "The steepness of the line (how much it goes up or down for every 1 unit across).",
+     "correct": true,
+     "explanation": "Gradient measures the line’s vertical change for each unit of horizontal change, so it describes both how steep the line is and its direction."
+    },
+    {
+     "text": "The length of the line (how far it travels between its two endpoints).",
+     "correct": false,
+     "explanation": "Length measures the distance between two points, not the rate at which the line rises or falls. Gradient represents steepness: the vertical change per 1 unit across."
+    },
+    {
+     "text": "The intercept of the line (where it crosses the horizontal or vertical axis).",
+     "correct": false,
+     "explanation": "An intercept gives a point where the line crosses an axis, rather than its steepness. Gradient measures how much the line rises or falls per unit across."
+    },
+    {
+     "text": "The position of the line (how far it is from the coordinate axes).",
+     "correct": false,
+     "explanation": "A line’s position does not determine its gradient because parallel lines can have different positions but equal gradients. Gradient represents vertical change for every 1 unit across."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "7bca0709-8c5d-4c89-b3a0-fcc996537051",
+   "card_type": "cloze",
+   "front": "A line with a positive gradient slopes [ ___ ] from left to right, while a negative gradient slopes downwards.",
+   "back": "A line with a positive gradient slopes upwards from left to right, while a negative gradient slopes downwards.",
+   "options": [
+    {
+     "text": "upwards",
+     "correct": true,
+     "explanation": "A positive gradient means $y$ increases as $x$ increases, so the line slopes upwards when read from left to right."
+    },
+    {
+     "text": "downwards",
+     "correct": false,
+     "explanation": "This reverses the signs of gradients. A line sloping downwards from left to right has a negative gradient; a positive gradient slopes upwards."
+    },
+    {
+     "text": "horizontally",
+     "correct": false,
+     "explanation": "A horizontal line has no vertical change, so its gradient is zero rather than positive. A positive-gradient line slopes upwards from left to right."
+    },
+    {
+     "text": "vertically",
+     "correct": false,
+     "explanation": "A vertical line has zero horizontal change, making its gradient undefined rather than positive. A line with a positive gradient slopes upwards from left to right."
+    }
+   ]
+  },
+  {
+   "id": "99c06b21-5a04-4df7-a19c-a53ce2d1b06c",
+   "card_type": "cloze",
+   "front": "A line with a positive gradient slopes upwards from left to right, while a negative gradient slopes [ ___ ].",
+   "back": "A line with a positive gradient slopes upwards from left to right, while a negative gradient slopes downwards.",
+   "options": [
+    {
+     "text": "downwards",
+     "correct": true,
+     "explanation": "A negative gradient means $y$ decreases as $x$ increases, so the line slopes downwards when read from left to right."
+    },
+    {
+     "text": "upwards",
+     "correct": false,
+     "explanation": "This confuses negative and positive gradients. An upward slope from left to right has a positive gradient, while a negative gradient slopes downwards."
+    },
+    {
+     "text": "horizontally",
+     "correct": false,
+     "explanation": "A horizontal line has zero vertical change and therefore a gradient of zero, not a negative gradient. A negative-gradient line slopes downwards."
+    },
+    {
+     "text": "vertically",
+     "correct": false,
+     "explanation": "A vertical line has an undefined gradient because its horizontal change is zero. A line with a negative gradient slopes downwards from left to right."
+    }
+   ]
+  },
+  {
+   "id": "f9026f49-89ce-4e4f-b1f8-ae6845a086c0",
+   "card_type": "basic",
+   "front": "What is the rise over run formula for gradient?",
+   "back": "$$$\\text{gradient} = \\frac{\\text{change in } y}{\\text{change in } x}$$",
+   "options": [
+    {
+     "text": "$$$\\text{gradient} = \\frac{\\text{change in } y}{\\text{change in } x}$$",
+     "correct": true,
+     "explanation": "Gradient is rise over run: divide the vertical change, represented by the change in $y$, by the horizontal change, represented by the change in $x$."
+    },
+    {
+     "text": "$$$\\text{gradient} = \\frac{\\text{change in } x}{\\text{change in } y}$$",
+     "correct": false,
+     "explanation": "This reverses rise over run and produces the reciprocal of the gradient. The correct formula divides the change in $y$ by the change in $x$."
+    },
+    {
+     "text": "$$$\\text{gradient} = \\frac{\\text{change in } y}{\\text{change in } x + \\text{change in } y}$$",
+     "correct": false,
+     "explanation": "Adding the two changes in the denominator does not calculate steepness. Gradient is rise over run, so it is the change in $y$ divided by the change in $x$."
+    },
+    {
+     "text": "$$$\\text{gradient} = \\frac{\\text{change in } x + \\text{change in } y}{\\text{change in } x}$$",
+     "correct": false,
+     "explanation": "This incorrectly includes the horizontal change in the numerator. Gradient compares vertical change alone with horizontal change, using change in $y$ divided by change in $x$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "f3b88173-b9c7-4a77-b260-c3c68eff0b44",
+   "card_type": "basic",
+   "front": "In the coordinate pair $(x, y)$, which value determines the vertical position?",
+   "back": "The y-coordinate (the second number).",
+   "options": [
+    {
+     "text": "The y-coordinate (the second number).",
+     "correct": true,
+     "explanation": "In an ordered pair $(x, y)$, the second value is the $y$-coordinate. It gives the point’s vertical position, measured up or down."
+    },
+    {
+     "text": "The x-coordinate (the first number).",
+     "correct": false,
+     "explanation": "The first number is the $x$-coordinate, which determines horizontal position rather than vertical position. The second number, the $y$-coordinate, determines vertical position."
+    },
+    {
+     "text": "The origin (the point $(0, 0)$).",
+     "correct": false,
+     "explanation": "The origin is the fixed point $(0, 0)$ and does not determine another point’s vertical position. That position is given by the second number, the $y$-coordinate."
+    },
+    {
+     "text": "The gradient (the rate of change).",
+     "correct": false,
+     "explanation": "Gradient describes a line’s steepness, not the vertical position of an individual point. In $(x, y)$, vertical position is determined by the second value, the $y$-coordinate."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "5e2bab48-2842-4aa8-9b07-6e3529f94180",
+   "card_type": "cloze",
+   "front": "When using a grid to find gradient, the run refers to the [ ___ ] change and the rise refers to the vertical change.",
+   "back": "When using a grid to find gradient, the run refers to the horizontal change and the rise refers to the vertical change.",
+   "options": [
+    {
+     "text": "horizontal",
+     "correct": true,
+     "explanation": "The run is the horizontal change between two points, corresponding to the change in $x$. It forms the denominator in the rise-over-run gradient calculation."
+    },
+    {
+     "text": "vertical",
+     "correct": false,
+     "explanation": "This swaps rise and run. Vertical change is the rise and corresponds to the change in $y$; the run is the horizontal change in $x$."
+    },
+    {
+     "text": "diagonal",
+     "correct": false,
+     "explanation": "The diagonal distance between two points is not used as the run. Run specifically means horizontal change, while rise means vertical change."
+    },
+    {
+     "text": "total",
+     "correct": false,
+     "explanation": "Run does not mean the total distance travelled between two points. It is specifically the horizontal change, or change in $x$, used in the gradient formula."
+    }
+   ]
+  },
+  {
+   "id": "93635a5c-0580-4c25-a75e-abadef0d5703",
+   "card_type": "cloze",
+   "front": "When using a grid to find gradient, the run refers to the horizontal change and the rise refers to the [ ___ ] change.",
+   "back": "When using a grid to find gradient, the run refers to the horizontal change and the rise refers to the vertical change.",
+   "options": [
+    {
+     "text": "vertical",
+     "correct": true,
+     "explanation": "The rise is the vertical change between two points, corresponding to the change in $y$. It forms the numerator in the rise-over-run gradient calculation."
+    },
+    {
+     "text": "horizontal",
+     "correct": false,
+     "explanation": "This swaps rise and run. Horizontal change is the run and corresponds to the change in $x$; the rise is the vertical change in $y$."
+    },
+    {
+     "text": "diagonal",
+     "correct": false,
+     "explanation": "Rise is not the diagonal distance between the points. It specifically means the vertical change, or change in $y$, while run is the horizontal change."
+    },
+    {
+     "text": "sideways",
+     "correct": false,
+     "explanation": "A sideways change is horizontal and describes the run, not the rise. The rise is the vertical change between the two selected points."
+    }
+   ]
+  },
+  {
+   "id": "e9e77747-ad70-4a4f-afba-bd6d0362d5ad",
+   "card_type": "basic",
+   "front": "A line passes through $(0, 0)$ and $(2, 6)$. Calculate its gradient.",
+   "back": "3 (calculated as $\\frac{6}{2}$)",
+   "options": [
+    {
+     "text": "3 (calculated as $\\frac{6}{2}$)",
+     "correct": true,
+     "explanation": "The vertical change is $6-0=6$ and the horizontal change is $2-0=2$. Dividing rise by run gives the gradient $\\frac{6}{2}=3$."
+    },
+    {
+     "text": "$\\frac{1}{3}$ (calculated as $\\frac{2}{6}$)",
+     "correct": false,
+     "explanation": "This divides run by rise, giving the reciprocal of the gradient. Gradient is rise over run, so the correct calculation is $\\frac{6}{2}=3$."
+    },
+    {
+     "text": "4 (calculated as $6-2$)",
+     "correct": false,
+     "explanation": "Subtracting the coordinates from each other does not compare vertical and horizontal changes. Gradient is rise divided by run, so $\\frac{6}{2}=3$."
+    },
+    {
+     "text": "8 (calculated as $6+2$)",
+     "correct": false,
+     "explanation": "Adding the coordinate values does not calculate a gradient. The vertical change must be divided by the horizontal change, giving $\\frac{6}{2}=3$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "0e72b00a-ee21-4ec6-a423-9a027c30a3f8",
+   "card_type": "basic",
+   "front": "A line passes through $(0, 4)$ and $(2, -2)$. Why is the gradient negative?",
+   "back": "Because the line moves downwards (the change in $y$ is $-6$) as it moves to the right.",
+   "options": [
+    {
+     "text": "Because the line moves downwards (the change in $y$ is $-6$) as it moves to the right.",
+     "correct": true,
+     "explanation": "As $x$ increases from 0 to 2, $y$ decreases from 4 to $-2$, so the vertical change is $-6$. A downward movement to the right gives a negative gradient."
+    },
+    {
+     "text": "Because the line moves upwards (the change in $y$ is $6$) as it moves to the right.",
+     "correct": false,
+     "explanation": "This reverses the direction of the vertical change. From 4 to $-2$, $y$ goes down by 6, so the change in $y$ is $-6$ and the gradient is negative."
+    },
+    {
+     "text": "Because the line moves downwards (the change in $x$ is $-6$) as it moves to the right.",
+     "correct": false,
+     "explanation": "This confuses the vertical change with the horizontal change. The $-6$ is the change in $y$, while the change in $x$ is $2$, so the line slopes downwards to the right."
+    },
+    {
+     "text": "Because the line moves downwards (the change in $y$ is $-2$) as it moves to the right.",
+     "correct": false,
+     "explanation": "This uses the final $y$-coordinate instead of the change in $y$. The change is $-2 - 4 = -6$, so the downward movement to the right gives a negative gradient."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "3ec5f890-f840-46be-a533-4c7161206643",
+   "card_type": "basic",
+   "front": "What is the formal coordinate formula for gradient $m$ using points $(x_1, y_1)$ and $(x_2, y_2)$?",
+   "back": "$$$m = \\frac{y_2 - y_1}{x_2 - x_1}$$",
+   "options": [
+    {
+     "text": "$$$m = \\frac{y_2 - y_1}{x_2 - x_1}$$",
+     "correct": true,
+     "explanation": "Gradient is vertical change divided by horizontal change. Using the labelled coordinates, that is the difference in $y$-values over the matching difference in $x$-values."
+    },
+    {
+     "text": "$$$m = \\frac{x_2 - x_1}{y_2 - y_1}$$",
+     "correct": false,
+     "explanation": "This swaps the numerator and denominator, giving the reciprocal of the gradient. The correct formula puts the change in $y$ on top and the change in $x$ underneath."
+    },
+    {
+     "text": "$$$m = \\frac{y_2 + y_1}{x_2 + x_1}$$",
+     "correct": false,
+     "explanation": "This adds coordinates instead of finding their differences. Gradient measures change, so the correct formula is $m = \\frac{y_2 - y_1}{x_2 - x_1}$."
+    },
+    {
+     "text": "$$$m = \\frac{y_1 - y_2}{x_2 - x_1}$$",
+     "correct": false,
+     "explanation": "This reverses only the $y$-subtraction, which changes the sign of the gradient. If you reverse the order on top, you must also reverse it on the bottom."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "9cc3517d-a69f-477e-889d-ffa6da68f8c7",
+   "card_type": "cloze",
+   "front": "When using the gradient formula, the [ ___ ] must always be on the top of the fraction and the x-values on the bottom.",
+   "back": "When using the gradient formula, the y-values must always be on the top of the fraction and the x-values on the bottom.",
+   "options": [
+    {
+     "text": "y-values",
+     "correct": true,
+     "explanation": "The numerator of the gradient formula is the vertical change, so it uses the $y$-values. The denominator uses the $x$-values for the horizontal change."
+    },
+    {
+     "text": "x-values",
+     "correct": false,
+     "explanation": "Putting the $x$-values on top swaps horizontal and vertical change, giving the reciprocal gradient. The correct numerator is the change in the y-values."
+    },
+    {
+     "text": "$$x$-coordinates",
+     "correct": false,
+     "explanation": "This is the same swap as putting horizontal change in the numerator. In the gradient formula, the top must use the y-values, not the x-coordinates."
+    },
+    {
+     "text": "points",
+     "correct": false,
+     "explanation": "The formula does not put whole points on top of the fraction. It uses the difference between the y-values on top and the difference between the x-values underneath."
+    }
+   ]
+  },
+  {
+   "id": "5c2343e5-3d80-42ef-9e48-cdc268fcbfbb",
+   "card_type": "cloze",
+   "front": "When using the gradient formula, the y-values must always be on the top of the fraction and the [ ___ ] on the bottom.",
+   "back": "When using the gradient formula, the y-values must always be on the top of the fraction and the x-values on the bottom.",
+   "options": [
+    {
+     "text": "x-values",
+     "correct": true,
+     "explanation": "The denominator of the gradient formula is the horizontal change, so it uses the $x$-values. The $y$-values stay on top as the vertical change."
+    },
+    {
+     "text": "y-values",
+     "correct": false,
+     "explanation": "Putting the y-values on the bottom repeats the vertical change in the wrong place. The denominator must be the change in x-values, because gradient is rise over run."
+    },
+    {
+     "text": "$$y$-coordinates",
+     "correct": false,
+     "explanation": "This confuses the denominator with the numerator. The y-coordinates give the vertical change on top, while the x-values give the horizontal change on the bottom."
+    },
+    {
+     "text": "gradients",
+     "correct": false,
+     "explanation": "The bottom of the formula is not another gradient. It is the change in the x-values, which measures the horizontal distance between the two points."
+    }
+   ]
+  },
+  {
+   "id": "3569a41b-c55a-4518-b70a-b24760f936ca",
+   "card_type": "basic",
+   "front": "Calculate the gradient of the line passing through $(3, 2)$ and $(7, 10)$.",
+   "back": "$$$m = \\frac{10 - 2}{7 - 3} = \\frac{8}{4} = 2$$",
+   "options": [
+    {
+     "text": "$$$m = \\frac{10 - 2}{7 - 3} = \\frac{8}{4} = 2$$",
+     "correct": true,
+     "explanation": "The change in $y$ is $10 - 2 = 8$ and the change in $x$ is $7 - 3 = 4$. Dividing gives $m = 2$."
+    },
+    {
+     "text": "$$$m = \\frac{7 - 3}{10 - 2} = \\frac{4}{8} = \\frac{1}{2}$$",
+     "correct": false,
+     "explanation": "This swaps the change in $x$ and the change in $y$, giving the reciprocal. Gradient is vertical change over horizontal change, so the answer is $2$."
+    },
+    {
+     "text": "$$$m = \\frac{10 - 2}{7 + 3} = \\frac{8}{10} = \\frac{4}{5}$$",
+     "correct": false,
+     "explanation": "This adds the x-coordinates instead of subtracting them. The horizontal change is $7 - 3 = 4$, so the correct gradient is $\\frac{8}{4} = 2$."
+    },
+    {
+     "text": "$$$m = \\frac{2 - 10}{7 - 3} = \\frac{-8}{4} = -2$$",
+     "correct": false,
+     "explanation": "This reverses the y-values but not the x-values, causing a sign error. The order must match, so $\\frac{10 - 2}{7 - 3} = 2$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "0e6483b1-f219-40be-9d9e-804bc0e2d928",
+   "card_type": "cloze",
+   "front": "The gradient of a vertical line is [ ___ ] because the change in $x$ is 0.",
+   "back": "The gradient of a vertical line is undefined because the change in $x$ is 0.",
+   "options": [
+    {
+     "text": "undefined",
+     "correct": true,
+     "explanation": "A vertical line has no horizontal change, so the denominator in the gradient formula is 0. Division by 0 is undefined, so the gradient is undefined."
+    },
+    {
+     "text": "zero",
+     "correct": false,
+     "explanation": "Zero gradient belongs to a horizontal line, where the change in $y$ is 0. A vertical line has change in $x$ equal to 0, making the gradient undefined."
+    },
+    {
+     "text": "positive",
+     "correct": false,
+     "explanation": "A positive gradient means the line rises as it moves to the right. A vertical line has no run at all, so its gradient is undefined rather than positive."
+    },
+    {
+     "text": "negative",
+     "correct": false,
+     "explanation": "A negative gradient means the line falls as it moves to the right. A vertical line has zero horizontal change, so division by 0 makes its gradient undefined."
+    }
+   ]
+  },
+  {
+   "id": "c4410e92-8b23-447a-baf5-91cddd0d20d6",
+   "card_type": "cloze",
+   "front": "The gradient of a vertical line is undefined because the change in $x$ is [ ___ ].",
+   "back": "The gradient of a vertical line is undefined because the change in $x$ is 0.",
+   "options": [
+    {
+     "text": "0",
+     "correct": true,
+     "explanation": "On a vertical line, all points have the same $x$-coordinate. That means the change in $x$ is 0, so the gradient formula would involve division by 0."
+    },
+    {
+     "text": "1",
+     "correct": false,
+     "explanation": "This assumes there is one unit of horizontal movement, but a vertical line has no horizontal movement. Its change in $x$ is 0, which makes the gradient undefined."
+    },
+    {
+     "text": "-1",
+     "correct": false,
+     "explanation": "A negative change in $x$ would mean moving left between the points. On a vertical line the $x$-coordinate does not change, so the change in $x$ is 0."
+    },
+    {
+     "text": "2",
+     "correct": false,
+     "explanation": "This treats the vertical line as if it has horizontal run. For any two points on a vertical line, the $x$-coordinates are equal, so the change in $x$ is 0."
+    }
+   ]
+  },
+  {
+   "id": "4ba623fa-4e59-4b6b-bd12-b848681324a9",
+   "card_type": "basic",
+   "front": "What is a common mistake when substituting negative coordinates into the gradient formula?",
+   "back": "Forgetting that subtracting a negative becomes addition (e.g., $2 - (-4) = 6$).",
+   "options": [
+    {
+     "text": "Forgetting that subtracting a negative becomes addition (e.g., $2 - (-4) = 6$).",
+     "correct": true,
+     "explanation": "When a negative coordinate is subtracted, the two minus signs combine to make addition. This is why $2 - (-4)$ equals $6$, not $-2$."
+    },
+    {
+     "text": "Forgetting that adding a negative becomes subtraction (e.g., $2 + (-4) = -2$).",
+     "correct": false,
+     "explanation": "This statement is a correct rule for adding a negative, not the key substitution mistake here. The common gradient slip is missing that subtracting a negative becomes addition."
+    },
+    {
+     "text": "Forgetting that subtracting a positive becomes addition (e.g., $2 - 4 = 6$).",
+     "correct": false,
+     "explanation": "Subtracting a positive does not become addition; $2 - 4 = -2$. The relevant mistake is with negative coordinates, where $2 - (-4)$ should become $2 + 4$."
+    },
+    {
+     "text": "Forgetting that multiplying a negative becomes addition (e.g., $2 \\times (-4) = 6$).",
+     "correct": false,
+     "explanation": "This mixes up multiplication with subtraction in the gradient formula. The common issue is subtracting a negative coordinate, where the operation becomes addition, such as $2 - (-4) = 6$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "9b008fca-c486-4d76-9984-267ebe496abd",
+   "card_type": "basic",
+   "front": "When using the formula $m = \\frac{y_2 - y_1}{x_2 - x_1}$, does it matter which point is $(x_1, y_1)$?",
+   "back": "No, as long as the subtraction order is consistent for both $x$ and $y$.",
+   "options": [
+    {
+     "text": "No, as long as the subtraction order is consistent for both $x$ and $y$.",
+     "correct": true,
+     "explanation": "Changing which point is labelled first reverses the signs of both the numerator and denominator. The two negatives cancel, so the gradient remains unchanged."
+    },
+    {
+     "text": "Yes, the point with the larger coordinates must be labelled first for both $x$ and $y$.",
+     "correct": false,
+     "explanation": "A common misconception is that the larger coordinates must come first. Either point can be labelled first, provided the subtraction order is consistent for both $x$ and $y$."
+    },
+    {
+     "text": "Yes, the left-hand point must always be labelled first for both $x$ and $y$.",
+     "correct": false,
+     "explanation": "Labelling the left-hand point first is convenient but not compulsory. Either point can be $(x_1,y_1)$ because reversing both subtractions leaves the gradient unchanged."
+    },
+    {
+     "text": "No, as long as the subtraction order is opposite for $x$ and $y$.",
+     "correct": false,
+     "explanation": "Using opposite subtraction orders changes the sign of only one difference, producing the negative of the correct gradient. The order must be consistent for $x$ and $y$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "76e47c04-fe45-4004-98eb-1a8e4a541894",
+   "card_type": "cloze",
+   "front": "To find the gradient between $(-4, 1)$ and $(2, 4)$, the calculation is $$\\text{[...]}$$ resulting in a gradient of $$\\frac{1}{2}$$.",
+   "back": "To find the gradient between $(-4, 1)$ and $(2, 4)$, the calculation is $$\\boxed{m = \\frac{4 - 1}{2 - (-4)}}$$ resulting in a gradient of $$\\frac{1}{2}$$.",
+   "options": [
+    {
+     "text": "$$$m = \\frac{4 - 1}{2 - (-4)}$$",
+     "correct": true,
+     "explanation": "Gradient is the change in $y$ divided by the change in $x$. Here, $4-1=3$ and $2-(-4)=6$, giving $m=\\frac{3}{6}=\\frac{1}{2}$."
+    },
+    {
+     "text": "$$$m = \\frac{2 - (-4)}{4 - 1}$$",
+     "correct": false,
+     "explanation": "This swaps the changes in $x$ and $y$, producing the reciprocal gradient. The correct calculation is $m=\\frac{4-1}{2-(-4)}=\\frac{1}{2}$."
+    },
+    {
+     "text": "$$$m = \\frac{4 - 1}{2 - 4}$$",
+     "correct": false,
+     "explanation": "This incorrectly uses $4$ instead of the first point’s $x$-coordinate, $-4$. The denominator should be $2-(-4)=6$, so the gradient is $\\frac{1}{2}$."
+    },
+    {
+     "text": "$$$m = \\frac{4 - (-1)}{2 - (-4)}$$",
+     "correct": false,
+     "explanation": "This changes the first point’s $y$-coordinate from $1$ to $-1$. The numerator should be $4-1=3$, giving the correct gradient $\\frac{3}{6}=\\frac{1}{2}$."
+    }
+   ]
+  },
+  {
+   "id": "102fe736-b853-49fc-be3a-cd5edfbfd09d",
+   "card_type": "cloze",
+   "front": "To find the gradient between $(-4, 1)$ and $(2, 4)$, the calculation is $$m = \\frac{4 - 1}{2 - (-4)}$$ resulting in a gradient of $$\\text{[...]}$$.",
+   "back": "To find the gradient between $(-4, 1)$ and $(2, 4)$, the calculation is $$m = \\frac{4 - 1}{2 - (-4)}$$ resulting in a gradient of $$\\boxed{\\frac{1}{2}}$$.",
+   "options": [
+    {
+     "text": "$$$\\frac{1}{2}$$",
+     "correct": true,
+     "explanation": "The change in $y$ is $4-1=3$ and the change in $x$ is $2-(-4)=6$. Therefore, the gradient is $\\frac{3}{6}=\\frac{1}{2}$."
+    },
+    {
+     "text": "$$$2$$",
+     "correct": false,
+     "explanation": "This is the reciprocal of the gradient, caused by dividing the change in $x$ by the change in $y$. The correct calculation gives $\\frac{3}{6}=\\frac{1}{2}$."
+    },
+    {
+     "text": "$$$-\\frac{1}{2}$$",
+     "correct": false,
+     "explanation": "This sign error usually comes from treating $2-(-4)$ as negative. Subtracting a negative gives $2+4=6$, so the gradient is positive: $\\frac{1}{2}$."
+    },
+    {
+     "text": "$$$\\frac{1}{6}$$",
+     "correct": false,
+     "explanation": "This result overlooks that the numerator is $4-1=3$, not $1$. The fraction is $\\frac{3}{6}$, which simplifies to $\\frac{1}{2}$."
+    }
+   ]
+  },
+  {
+   "id": "379f1b48-61de-45af-9605-b90330507270",
+   "card_type": "basic",
+   "front": "A line with gradient 3 passes through $(1, -2)$ and $(5, k)$. Outline the first step to find $k$.",
+   "back": "Set up the equation using the formula: $$3 = \\frac{k - (-2)}{5 - 1}$$",
+   "options": [
+    {
+     "text": "Set up the equation using the formula: $$3 = \\frac{k - (-2)}{5 - 1}$$",
+     "correct": true,
+     "explanation": "The gradient equals change in $y$ divided by change in $x$. Using the points in the same order gives $3=\\frac{k-(-2)}{5-1}$."
+    },
+    {
+     "text": "Set up the equation using the formula: $$3 = \\frac{5 - 1}{k - (-2)}$$",
+     "correct": false,
+     "explanation": "This reverses the gradient formula by placing the change in $x$ above the change in $y$. The correct setup is $3=\\frac{k-(-2)}{5-1}$."
+    },
+    {
+     "text": "Set up the equation using the formula: $$3 = \\frac{k - 2}{5 - 1}$$",
+     "correct": false,
+     "explanation": "The first $y$-coordinate is $-2$, so subtracting it gives $k-(-2)$, not $k-2$. The correct equation is $3=\\frac{k-(-2)}{5-1}$."
+    },
+    {
+     "text": "Set up the equation using the formula: $$3 = \\frac{k - (-2)}{5 + 1}$$",
+     "correct": false,
+     "explanation": "The change in $x$ is found by subtraction, so it is $5-1=4$, not $5+1$. The correct setup is $3=\\frac{k-(-2)}{5-1}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "a02930a4-a470-431f-a0a2-6a2ba4460152",
+   "card_type": "basic",
+   "front": "A line has a gradient of 4 and passes through $(-2, 3)$ and $(k, 15)$. Solve for $k$.",
+   "back": "Set up: $4 = \\frac{15 - 3}{k + 2}$Simplify: $4 = \\frac{12}{k + 2}$Solve: $k = 1$",
+   "options": [
+    {
+     "text": "Set up: $4 = \\frac{15 - 3}{k + 2}$Simplify: $4 = \\frac{12}{k + 2}$Solve: $k = 1$",
+     "correct": true,
+     "explanation": "The coordinate differences are $15-3=12$ and $k-(-2)=k+2$. Solving $4=\\frac{12}{k+2}$ gives $4(k+2)=12$, so $k=1$."
+    },
+    {
+     "text": "Set up: $4 = \\frac{15 - 3}{k - 2}$Simplify: $4 = \\frac{12}{k - 2}$Solve: $k = 5$",
+     "correct": false,
+     "explanation": "This treats subtracting the negative coordinate $-2$ as subtracting $2$. The denominator should be $k-(-2)=k+2$, leading to $k=1$."
+    },
+    {
+     "text": "Set up: $4 = \\frac{k + 2}{15 - 3}$Simplify: $4 = \\frac{k + 2}{12}$Solve: $k = 46$",
+     "correct": false,
+     "explanation": "This swaps the changes in $x$ and $y$, using the reciprocal of the gradient formula. The correct equation is $4=\\frac{12}{k+2}$, which gives $k=1$."
+    },
+    {
+     "text": "Set up: $4 = \\frac{15 + 3}{k + 2}$Simplify: $4 = \\frac{18}{k + 2}$Solve: $k = \\frac{5}{2}$",
+     "correct": false,
+     "explanation": "The change in $y$ requires subtraction, $15-3=12$, rather than addition. Using $4=\\frac{12}{k+2}$ and solving gives the correct value $k=1$."
+    }
+   ],
+   "points": 3
+  },
+  {
+   "id": "17e5a246-bc76-41f0-8183-6b01648daad2",
+   "card_type": "cloze",
+   "front": "On a coordinate grid, you should choose points where the line passes exactly through [ ___ ] to avoid estimating values.",
+   "back": "On a coordinate grid, you should choose points where the line passes exactly through grid intersections to avoid estimating values.",
+   "options": [
+    {
+     "text": "grid intersections",
+     "correct": true,
+     "explanation": "Grid intersections provide points whose $x$- and $y$-coordinates can both be read exactly. Using these points makes the gradient calculation more accurate and reliable."
+    },
+    {
+     "text": "axis crossings",
+     "correct": false,
+     "explanation": "A line may have only two axis crossings, and they are not always clearly readable. Grid intersections provide exact coordinate pairs and are the best points to choose."
+    },
+    {
+     "text": "coordinate labels",
+     "correct": false,
+     "explanation": "Coordinate labels identify values on the axes rather than points through which the line passes. The useful points are grid intersections, where both coordinates can be read exactly."
+    },
+    {
+     "text": "square centres",
+     "correct": false,
+     "explanation": "The centres of grid squares are difficult to identify precisely and may require estimating half-units. Grid intersections give exact, clearly readable coordinate pairs instead."
+    }
+   ]
+  },
+  {
+   "id": "705d826b-3dab-4d40-b1e5-72c097f6ef79",
+   "card_type": "cloze",
+   "front": "On a coordinate grid, you should choose points where the line passes exactly through grid intersections to avoid [ ___ ] values.",
+   "back": "On a coordinate grid, you should choose points where the line passes exactly through grid intersections to avoid estimating values.",
+   "options": [
+    {
+     "text": "estimating",
+     "correct": true,
+     "explanation": "At a grid intersection, both coordinates can be read directly from the grid. This avoids estimating coordinates between marked values and reduces errors in the calculated gradient."
+    },
+    {
+     "text": "plotting",
+     "correct": false,
+     "explanation": "Choosing grid intersections does not avoid plotting values; plotting is the process of placing points. It avoids estimating coordinates because the values can be read exactly."
+    },
+    {
+     "text": "labelling",
+     "correct": false,
+     "explanation": "Grid intersections do not remove the need to label coordinates or axes. Their advantage is that they avoid estimating values between grid markings."
+    },
+    {
+     "text": "calculating",
+     "correct": false,
+     "explanation": "A gradient calculation is still required after choosing the points. Grid intersections specifically avoid estimating coordinate values, making that calculation more accurate."
+    }
+   ]
+  },
+  {
+   "id": "a4e068c0-8630-406e-9cee-43df93e1d9a6",
+   "card_type": "basic",
+   "front": "What does it mean if you find the reciprocal of the gradient by mistake?",
+   "back": "You accidentally swapped the x and y values in the formula (put $x$ on top).",
+   "options": [
+    {
+     "text": "You accidentally swapped the x and y values in the formula (put $x$ on top).",
+     "correct": true,
+     "explanation": "Gradient is change in $y$ divided by change in $x$. Putting the $x$-difference on top instead gives the reciprocal of the correct gradient."
+    },
+    {
+     "text": "You accidentally reversed both subtraction orders in the formula (used the second point first).",
+     "correct": false,
+     "explanation": "Reversing both subtraction orders multiplies the numerator and denominator by $-1$, so the gradient is unchanged. A reciprocal comes from swapping the $x$- and $y$-differences."
+    },
+    {
+     "text": "You accidentally changed the sign of the gradient in the formula (made $m$ negative).",
+     "correct": false,
+     "explanation": "Changing the sign produces the negative of the gradient, not its reciprocal. A reciprocal results from putting the change in $x$ above the change in $y$."
+    },
+    {
+     "text": "You accidentally added the coordinate values in the formula (used sums instead).",
+     "correct": false,
+     "explanation": "Adding coordinates gives unrelated differences and does not systematically produce a reciprocal. The reciprocal occurs when the $x$-difference and $y$-difference are swapped in the fraction."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "b60f4fd5-ac88-4f7d-9bc4-c1d033448685",
+   "card_type": "basic",
+   "front": "Describe the movement between $(1, 2)$ and $(4, 8)$ in terms of $x$ and $y$ changes.",
+   "back": "$x$ change: 3 units right$y$ change: 6 units up",
+   "options": [
+    {
+     "text": "$x$ change: 3 units right$y$ change: 6 units up",
+     "correct": true,
+     "explanation": "Subtract the starting coordinates from the ending coordinates: $4-1=3$ and $8-2=6$. Both differences are positive, giving 3 units right and 6 units up."
+    },
+    {
+     "text": "$x$ change: 4 units right$y$ change: 8 units up",
+     "correct": false,
+     "explanation": "This uses the ending coordinates as the changes instead of subtracting the starting coordinates. The actual changes are $4-1=3$ units right and $8-2=6$ units up."
+    },
+    {
+     "text": "$x$ change: 3 units right$y$ change: 6 units down",
+     "correct": false,
+     "explanation": "The $y$-coordinate increases from 2 to 8, so the movement is upwards, not downwards. The correct movement is 3 units right and 6 units up."
+    },
+    {
+     "text": "$x$ change: 6 units right$y$ change: 3 units up",
+     "correct": false,
+     "explanation": "This swaps the horizontal and vertical changes. The $x$-difference is $4-1=3$, while the $y$-difference is $8-2=6$, so the movement is 3 units right and 6 units up."
+    }
+   ],
+   "points": 2
+  }
+ ],
+ "card_count": 25,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-5-5-14-gradient-of-a-line/flashcards",
+ "source_sha256": "3e91f8b1ecf28f2cd99ab0264b8f98f70dcb12b20eaa385f874eadf6b285adf5",
+ "extracted_at": "2026-11-08T17:55:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}

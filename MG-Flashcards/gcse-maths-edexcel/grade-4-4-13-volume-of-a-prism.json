@@ -1,0 +1,703 @@
+{
+ "topic": "grade-4-4-13-volume-of-a-prism",
+ "lane": "gcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "title": "Volume of a Prism Flashcards",
+ "cards": [
+  {
+   "id": "87e98f90-7727-442a-9ec0-c196bd744bfe",
+   "card_type": "basic",
+   "front": "Given cross-section area $A$ and prism length $L$, what is the prism volume?",
+   "back": "$V = A \\times L$",
+   "options": [
+    {
+     "text": "$V = A \\times L$",
+     "correct": true,
+     "explanation": "A prism has the same cross-section throughout its length, so multiplying the cross-sectional area by the prism length gives its volume in cubic units."
+    },
+    {
+     "text": "$V = A + L$",
+     "correct": false,
+     "explanation": "Adding area and length combines incompatible square and linear units. The correct relationship is $V = A \\times L$, which produces cubic units."
+    },
+    {
+     "text": "$V = A \\div L$",
+     "correct": false,
+     "explanation": "Dividing the cross-sectional area by the length does not calculate the space occupied. A prism’s volume is found using $V = A \\times L$."
+    },
+    {
+     "text": "$V = L \\div A$",
+     "correct": false,
+     "explanation": "Dividing length by area gives inappropriate units and reverses the required operation. The volume is the cross-sectional area multiplied by the length: $V = A \\times L$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "1a1f92b4-99f6-463b-b85f-6cf4e3931090",
+   "card_type": "cloze",
+   "front": "In a prism, the [ ___ ] is the repeated 2D shape; the [ ___ ] is how far it is stretched.",
+   "back": "In a prism, the cross-section is the repeated 2D shape; the length/depth is how far it is stretched.",
+   "options": [
+    {
+     "text": "In a prism, the cross-section is the repeated 2D shape; the length/depth is how far it is stretched.",
+     "correct": true,
+     "explanation": "The cross-section is the constant 2D end shape of a prism, while the length or depth measures the distance through which that shape extends."
+    },
+    {
+     "text": "In a prism, the volume is the repeated 2D shape; the length/depth is how far it is stretched.",
+     "correct": false,
+     "explanation": "Volume describes the total 3D space occupied, not the repeated 2D shape. That shape is the cross-section, while length or depth measures its extension."
+    },
+    {
+     "text": "In a prism, the cross-section is the repeated 2D shape; the area is how far it is stretched.",
+     "correct": false,
+     "explanation": "Area measures the size of the 2D cross-section rather than how far the prism extends. The stretching distance is called its length or depth."
+    },
+    {
+     "text": "In a prism, the length is the repeated 2D shape; the cross-section is how far it is stretched.",
+     "correct": false,
+     "explanation": "Length is a distance, not the repeated 2D shape, and the cross-section is a shape rather than the stretching distance. The correct terms are cross-section and length/depth respectively."
+    }
+   ]
+  },
+  {
+   "id": "b178cd47-3add-4795-b337-e96e7ee43094",
+   "card_type": "cloze",
+   "front": "[ ___ ] uses cubic units such as cm³; [ ___ ] uses square units such as cm².",
+   "back": "Volume uses cubic units such as cm³; area uses square units such as cm².",
+   "options": [
+    {
+     "text": "Volume uses cubic units such as cm³; area uses square units such as cm².",
+     "correct": true,
+     "explanation": "Volume measures three-dimensional space and therefore uses cubic units. Area measures two-dimensional surface or region size and therefore uses square units."
+    },
+    {
+     "text": "Area uses cubic units such as cm³; area uses square units such as cm².",
+     "correct": false,
+     "explanation": "Area is two-dimensional, so it uses square units rather than cubic units. Volume is three-dimensional and uses cubic units, while area uses square units."
+    },
+    {
+     "text": "Volume uses cubic units such as cm³; length uses square units such as cm².",
+     "correct": false,
+     "explanation": "Length is one-dimensional and uses units such as cm, not square units. Volume uses cubic units, whereas area uses square units such as cm²."
+    },
+    {
+     "text": "Mass uses cubic units such as cm³; perimeter uses square units such as cm².",
+     "correct": false,
+     "explanation": "Mass is measured in units such as grams, while perimeter uses linear units. Cubic units measure volume and square units measure area."
+    }
+   ]
+  },
+  {
+   "id": "9322eea1-3ec5-468d-944a-ef2bd6bfca0f",
+   "card_type": "basic",
+   "front": "A rectangular cross-section is 6 cm by 5 cm, and the prism is 8 cm long. What is the volume?",
+   "back": "240 cm³",
+   "options": [
+    {
+     "text": "240 cm³",
+     "correct": true,
+     "explanation": "The cross-sectional area is $6 \\times 5 = 30$ cm². Multiplying by the 8 cm length gives $30 \\times 8 = 240$ cm³."
+    },
+    {
+     "text": "120 cm³",
+     "correct": false,
+     "explanation": "This halves the cross-sectional area as though the rectangle were a triangle. Its area is $30$ cm², so the volume is $30 \\times 8 = 240$ cm³."
+    },
+    {
+     "text": "480 cm³",
+     "correct": false,
+     "explanation": "This doubles the correct result, likely by counting the prism length twice. The calculation is $6 \\times 5 \\times 8 = 240$ cm³."
+    },
+    {
+     "text": "19 cm³",
+     "correct": false,
+     "explanation": "This comes from adding the three dimensions, $6 + 5 + 8$, instead of multiplying. Volume requires $6 \\times 5 \\times 8 = 240$ cm³."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "05125bd7-384e-4fc7-b281-bd067b757469",
+   "card_type": "basic",
+   "front": "Why multiply, not add, cross-section area and prism length?",
+   "back": "cm² × cm = cm³; adding gives mismatched units.",
+   "options": [
+    {
+     "text": "cm² × cm = cm³; adding gives mismatched units.",
+     "correct": true,
+     "explanation": "Multiplying square centimetres by centimetres combines two cross-sectional dimensions with the prism’s length, producing the three-dimensional unit cm³ required for volume."
+    },
+    {
+     "text": "cm² + cm = cm³; multiplying gives mismatched units.",
+     "correct": false,
+     "explanation": "Square centimetres and centimetres cannot be added to form cubic centimetres because they measure different dimensions. Multiplication is required: cm² × cm = cm³."
+    },
+    {
+     "text": "cm² × cm = cm²; adding gives cm³.",
+     "correct": false,
+     "explanation": "Multiplying cm² by cm adds the unit powers, giving cm³ rather than cm². Addition cannot produce cm³ because area and length have incompatible units."
+    },
+    {
+     "text": "cm² ÷ cm = cm³; multiplying gives mismatched units.",
+     "correct": false,
+     "explanation": "Dividing cm² by cm gives cm, not cm³, so it removes a dimension. Multiplying area by length correctly gives cm² × cm = cm³."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "3ae6adce-4399-4bb6-8752-256380b06422",
+   "card_type": "basic",
+   "front": "How do you find the area of an L-shaped cross-section after splitting it into rectangles?",
+   "back": "Find each rectangle area.Add the areas.",
+   "options": [
+    {
+     "text": "Find each rectangle area.Add the areas.",
+     "correct": true,
+     "explanation": "Splitting the L-shape creates non-overlapping rectangles. Calculate each rectangle’s area using length × width, then add those areas to recover the complete cross-sectional area."
+    },
+    {
+     "text": "Find each rectangle perimeter.Add the perimeters.",
+     "correct": false,
+     "explanation": "Perimeter measures boundary length rather than enclosed area, so adding perimeters cannot give the cross-sectional area. Find each rectangle’s area and add the areas."
+    },
+    {
+     "text": "Find each rectangle area.Multiply the areas.",
+     "correct": false,
+     "explanation": "Multiplying the separate rectangle areas produces units to the fourth power and does not combine the regions. Their non-overlapping areas must be added together."
+    },
+    {
+     "text": "Find each rectangle area.Subtract the areas.",
+     "correct": false,
+     "explanation": "Subtracting would remove one of the rectangles even though both form the L-shape. After splitting into non-overlapping rectangles, find and add their areas."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "cd5dc84e-352c-468f-bdfa-a03f69d57bc1",
+   "card_type": "basic",
+   "front": "An L-shaped cross-section is split into areas 10 cm² and 12 cm². What is the total cross-section area?",
+   "back": "22 cm²",
+   "options": [
+    {
+     "text": "22 cm²",
+     "correct": true,
+     "explanation": "The two rectangles are non-overlapping parts of the same L-shape, so their areas are added: $10 + 12 = 22$ cm²."
+    },
+    {
+     "text": "2 cm²",
+     "correct": false,
+     "explanation": "This subtracts the smaller rectangle from the larger one, but both regions belong to the L-shape. Their areas must be added to give $22$ cm²."
+    },
+    {
+     "text": "120 cm²",
+     "correct": false,
+     "explanation": "This multiplies the two areas, producing inappropriate fourth-power units rather than a total area. Add the separate regions: $10 + 12 = 22$ cm²."
+    },
+    {
+     "text": "32 cm²",
+     "correct": false,
+     "explanation": "This likely counts the 10 cm² section twice. Each rectangle is included once, so the total is $10 + 12 = 22$ cm²."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "ab80a878-30c1-4a46-ab8e-93df91b7b4a0",
+   "card_type": "basic",
+   "front": "An L-shaped prism has cross-section area 22 cm² and depth 10 cm. What is its volume?",
+   "back": "220 cm³",
+   "options": [
+    {
+     "text": "220 cm³",
+     "correct": true,
+     "explanation": "Multiply the cross-sectional area by the prism depth: $22 \\times 10 = 220$. The resulting units are cm² × cm = cm³."
+    },
+    {
+     "text": "32 cm³",
+     "correct": false,
+     "explanation": "This adds the area and depth, even though their units are incompatible. Volume requires multiplication, giving $22 \\times 10 = 220$ cm³."
+    },
+    {
+     "text": "22 cm³",
+     "correct": false,
+     "explanation": "This leaves the numerical cross-sectional area unchanged and therefore ignores the 10 cm depth. Multiplying $22$ cm² by $10$ cm gives $220$ cm³."
+    },
+    {
+     "text": "2200 cm³",
+     "correct": false,
+     "explanation": "This introduces an extra factor of 10, effectively multiplying by 100 rather than the stated depth of 10. The correct volume is $22 \\times 10 = 220$ cm³."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "395bba69-1405-4573-8ed9-21c77ad12806",
+   "card_type": "cloze",
+   "front": "For a triangle, the area formula is [ ___ ]; $h$ is the [ ___ ].",
+   "back": "For a triangle, the area formula is $A = \\frac{1}{2}bh$; $h$ is the perpendicular height.",
+   "options": [
+    {
+     "text": "For a triangle, the area formula is $A = \\frac{1}{2}bh$; $h$ is the perpendicular height.",
+     "correct": true,
+     "explanation": "A triangle occupies half the corresponding rectangle, giving $A = \\frac{1}{2}bh$. The height must be measured perpendicular to the chosen base."
+    },
+    {
+     "text": "For a triangle, the area formula is $A = bh$; $h$ is the perpendicular height.",
+     "correct": false,
+     "explanation": "This omits the factor of $\\frac{1}{2}$ and therefore calculates the area of a corresponding rectangle. A triangle’s area is $A = \\frac{1}{2}bh$, using the perpendicular height."
+    },
+    {
+     "text": "For a triangle, the area formula is $A = \\frac{1}{2}bh$; $h$ is the hypotenuse.",
+     "correct": false,
+     "explanation": "The hypotenuse is not automatically the height because it may not be perpendicular to the chosen base. In $A = \\frac{1}{2}bh$, $h$ is the perpendicular height."
+    },
+    {
+     "text": "For a triangle, the area formula is $A = \\frac{1}{2}(a+b)h$; $h$ is the sloping height.",
+     "correct": false,
+     "explanation": "This confuses the triangle formula with the trapezium formula and uses a non-perpendicular measurement. A triangle uses $A = \\frac{1}{2}bh$, where $h$ is the perpendicular height."
+    }
+   ]
+  },
+  {
+   "id": "b38321b3-60e6-4e31-935a-dc03b2a15cba",
+   "card_type": "basic",
+   "front": "A right-angled triangular cross-section has perpendicular sides 6 cm and 8 cm, and prism length 9 cm. What is the volume?",
+   "back": "216 cm³",
+   "options": [
+    {
+     "text": "216 cm³",
+     "correct": true,
+     "explanation": "The triangular cross-sectional area is $\\frac{1}{2} \\times 6 \\times 8 = 24$ cm². Multiplying by the prism length gives $24 \\times 9 = 216$ cm³."
+    },
+    {
+     "text": "432 cm³",
+     "correct": false,
+     "explanation": "This uses $6 \\times 8$ for the triangular area, omitting the factor of $\\frac{1}{2}$. The correct volume is $\\frac{1}{2} \\times 6 \\times 8 \\times 9 = 216$ cm³."
+    },
+    {
+     "text": "108 cm³",
+     "correct": false,
+     "explanation": "This halves the triangular cross-sectional area twice. It should be halved once, so the volume is $\\frac{1}{2} \\times 6 \\times 8 \\times 9 = 216$ cm³."
+    },
+    {
+     "text": "24 cm³",
+     "correct": false,
+     "explanation": "This finds only the numerical value of the triangular cross-sectional area and fails to multiply by the prism length. The volume is $24 \\times 9 = 216$ cm³."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "83341a50-9899-4144-8b1d-8440a5f22d39",
+   "card_type": "basic",
+   "front": "When is the hypotenuse usable in a triangle area calculation?",
+   "back": "Only when paired with a perpendicular height.",
+   "options": [
+    {
+     "text": "Only when paired with a perpendicular height.",
+     "correct": true,
+     "explanation": "Any side, including the hypotenuse, can serve as the triangle’s base, but the corresponding height must meet that chosen side at a right angle."
+    },
+    {
+     "text": "Whenever it is the triangle’s longest side.",
+     "correct": false,
+     "explanation": "Being the longest side does not make the hypotenuse a valid height or guarantee a suitable pairing. It is usable only as a base paired with a perpendicular height."
+    },
+    {
+     "text": "Only when paired with another sloping side.",
+     "correct": false,
+     "explanation": "Two sloping side lengths do not directly provide base and perpendicular height. The hypotenuse is usable only when it is paired with a height perpendicular to it."
+    },
+    {
+     "text": "Whenever the triangle contains a right angle.",
+     "correct": false,
+     "explanation": "A right angle identifies the hypotenuse but does not make it the perpendicular height. It is usable in the area formula only with its corresponding perpendicular height."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "e3b27785-5a7e-4834-8783-5dae30c3ed8a",
+   "card_type": "cloze",
+   "front": "A trapezium has one pair of [ ___ ]; its area formula is [ ___ ].",
+   "back": "A trapezium has one pair of parallel sides; its area formula is $A = \\frac{1}{2}(a+b)h$.",
+   "options": [
+    {
+     "text": "A trapezium has one pair of parallel sides; its area formula is $A = \\frac{1}{2}(a+b)h$.",
+     "correct": true,
+     "explanation": "The lengths $a$ and $b$ are the parallel sides. Their mean length is $\\frac{1}{2}(a+b)$, which is multiplied by the perpendicular height $h$."
+    },
+    {
+     "text": "A trapezium has one pair of equal sides; its area formula is $A = \\frac{1}{2}(a+b)h$.",
+     "correct": false,
+     "explanation": "A trapezium is identified by its pair of parallel sides, not necessarily equal sides. Its area is $A = \\frac{1}{2}(a+b)h$, where $a$ and $b$ are parallel."
+    },
+    {
+     "text": "A trapezium has one pair of parallel sides; its area formula is $A = (a+b)h$.",
+     "correct": false,
+     "explanation": "This adds the parallel sides but fails to average them, doubling the area. The correct formula is $A = \\frac{1}{2}(a+b)h$."
+    },
+    {
+     "text": "A trapezium has one pair of perpendicular sides; its area formula is $A = ab$.",
+     "correct": false,
+     "explanation": "This confuses a trapezium with shapes whose area comes from multiplying perpendicular dimensions. A trapezium has parallel sides and uses $A = \\frac{1}{2}(a+b)h$."
+    }
+   ]
+  },
+  {
+   "id": "96e5f769-3093-4f69-a2ee-d8d63b44845d",
+   "card_type": "basic",
+   "front": "In $A = \\frac{1}{2}(a+b)h$ for a trapezium, what does $h$ measure?",
+   "back": "The perpendicular height between the parallel sides.",
+   "options": [
+    {
+     "text": "The perpendicular height between the parallel sides.",
+     "correct": true,
+     "explanation": "The height is the shortest distance between the two parallel sides, measured at a right angle. This perpendicular distance is multiplied by their mean length."
+    },
+    {
+     "text": "The sloping distance between the parallel sides.",
+     "correct": false,
+     "explanation": "A sloping measurement is longer than the true height and would overestimate the area. The formula requires the perpendicular height between the parallel sides."
+    },
+    {
+     "text": "The horizontal length of the longer parallel side.",
+     "correct": false,
+     "explanation": "The parallel side lengths are represented by $a$ and $b$, not $h$. The value $h$ is the perpendicular distance separating those two sides."
+    },
+    {
+     "text": "The difference in length between the parallel sides.",
+     "correct": false,
+     "explanation": "Subtracting the parallel side lengths may describe their horizontal offset, but it is not the height. The value $h$ measures the perpendicular distance between them."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "7ceb7933-cc82-425e-b9ca-c5be61a29d8c",
+   "card_type": "basic",
+   "front": "A trapezium cross-section has parallel sides 6 cm and 10 cm, perpendicular height 5 cm, and prism length 11 cm. What is the volume?",
+   "back": "440 cm³",
+   "options": [
+    {
+     "text": "440 cm³",
+     "correct": true,
+     "explanation": "The trapezium’s area is $\\frac{1}{2}(6+10) \\times 5 = 40$ cm². Multiplying by the prism length gives $40 \\times 11 = 440$ cm³."
+    },
+    {
+     "text": "880 cm³",
+     "correct": false,
+     "explanation": "This omits the factor of $\\frac{1}{2}$ in the trapezium area formula, doubling the result. The correct volume is $\\frac{1}{2}(6+10) \\times 5 \\times 11 = 440$ cm³."
+    },
+    {
+     "text": "220 cm³",
+     "correct": false,
+     "explanation": "This applies the factor of $\\frac{1}{2}$ twice, making the result half the correct volume. It should be applied once, giving $440$ cm³."
+    },
+    {
+     "text": "110 cm³",
+     "correct": false,
+     "explanation": "This subtracts the parallel sides instead of adding them in the trapezium formula. Using their sum gives $\\frac{1}{2}(6+10) \\times 5 \\times 11 = 440$ cm³."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "263a3028-61cf-4e5e-9e94-442b7f121195",
+   "card_type": "basic",
+   "front": "A triangular prism has cross-section base 7 cm, height $x$ cm, length 12 cm and volume 252 cm³. What equation finds $x$?",
+   "back": "$\\frac{1}{2} \\times 7 \\times x \\times 12 = 252$",
+   "options": [
+    {
+     "text": "$\\frac{1}{2} \\times 7 \\times x \\times 12 = 252$",
+     "correct": true,
+     "explanation": "The triangular cross-section has area $\\frac{1}{2} \\times 7 \\times x$. Multiplying this by the prism length $12$ and equating to the volume gives the correct equation."
+    },
+    {
+     "text": "$7 \\times x \\times 12 = 252$",
+     "correct": false,
+     "explanation": "This treats the triangular cross-section as a rectangle by omitting the factor of $\\frac{1}{2}$. The correct equation is $\\frac{1}{2} \\times 7 \\times x \\times 12 = 252$."
+    },
+    {
+     "text": "$\\frac{1}{2} \\times 7 \\times x = 252$",
+     "correct": false,
+     "explanation": "This calculates only the triangular cross-sectional area and omits the prism length. Multiplying by $12$ gives $\\frac{1}{2} \\times 7 \\times x \\times 12 = 252$."
+    },
+    {
+     "text": "$\\frac{1}{2} \\times 7 \\times 12 \\times 12 = 252$",
+     "correct": false,
+     "explanation": "This incorrectly uses the prism length as both the triangle’s height and the prism length. The unknown height must remain $x$, giving $\\frac{1}{2} \\times 7 \\times x \\times 12 = 252$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "aafe3075-41a0-4f17-a6c1-18f97ecc441c",
+   "card_type": "basic",
+   "front": "If $42x = 252$, what is $x$?",
+   "back": "6",
+   "options": [
+    {
+     "text": "6",
+     "correct": true,
+     "explanation": "Dividing both sides of $42x = 252$ by $42$ isolates $x$. Since $252 \\div 42 = 6$, the solution is $x = 6$."
+    },
+    {
+     "text": "5",
+     "correct": false,
+     "explanation": "This is an underestimation because $42 \\times 5 = 210$, not $252$. Dividing $252$ by $42$ gives the correct value $x = 6$."
+    },
+    {
+     "text": "7",
+     "correct": false,
+     "explanation": "This is an overestimation because $42 \\times 7 = 294$, not $252$. The required division is $252 \\div 42$, which gives $x = 6$."
+    },
+    {
+     "text": "42",
+     "correct": false,
+     "explanation": "This mistakes the coefficient of $x$ for the solution. To isolate $x$, divide $252$ by the coefficient $42$, giving $x = 6$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "39f90918-64e0-4a18-a1ca-a770b5d3ebd3",
+   "card_type": "cloze",
+   "front": "[ ___ ] = 1 cm³, and [ ___ ] = 1000 cm³.",
+   "back": "1 ml = 1 cm³, and 1 litre = 1000 cm³.",
+   "options": [
+    {
+     "text": "1 ml = 1 cm³, and 1 litre = 1000 cm³.",
+     "correct": true,
+     "explanation": "A millilitre is exactly one cubic centimetre. Since a litre contains 1000 millilitres, one litre is equivalent to 1000 cubic centimetres."
+    },
+    {
+     "text": "1 litre = 1 cm³, and 1 ml = 1000 cm³.",
+     "correct": false,
+     "explanation": "This reverses the two capacity conversions. The correct equivalences are 1 ml = 1 cm³ and 1 litre = 1000 cm³."
+    },
+    {
+     "text": "1 cl = 1 cm³, and 1 litre = 1000 cm³.",
+     "correct": false,
+     "explanation": "A centilitre contains 10 millilitres, so it equals 10 cm³ rather than 1 cm³. It is 1 ml that equals 1 cm³."
+    },
+    {
+     "text": "1 ml = 1 cm³, and 1 ml = 1000 cm³.",
+     "correct": false,
+     "explanation": "The second conversion confuses millilitres with litres. One millilitre equals 1 cm³, while one litre equals 1000 cm³."
+    }
+   ]
+  },
+  {
+   "id": "f5add4ee-84f8-4b14-92ef-4d3bd40bf789",
+   "card_type": "basic",
+   "front": "Convert 140000 cm³ to litres.",
+   "back": "140 litres",
+   "options": [
+    {
+     "text": "140 litres",
+     "correct": true,
+     "explanation": "There are 1000 cm³ in one litre, so dividing 140000 by 1000 gives 140 litres."
+    },
+    {
+     "text": "14 litres",
+     "correct": false,
+     "explanation": "This divides by 10000 rather than 1000, removing one too many place-value factors. Dividing 140000 cm³ by 1000 gives 140 litres."
+    },
+    {
+     "text": "1400 litres",
+     "correct": false,
+     "explanation": "This divides by only 100, making the result ten times too large. Since 1000 cm³ equals one litre, the answer is 140 litres."
+    },
+    {
+     "text": "0.14 litres",
+     "correct": false,
+     "explanation": "This effectively divides by 1000000, confusing cubic centimetres with cubic metres. Dividing by 1000 converts 140000 cm³ to 140 litres."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "834b5503-b157-4201-bbea-8bc21043e612",
+   "card_type": "cloze",
+   "front": "When filling a container, round [ ___ ]; when counting cups that can be completely filled, round [ ___ ].",
+   "back": "When filling a container, round up; when counting cups that can be completely filled, round down.",
+   "options": [
+    {
+     "text": "When filling a container, round up; when counting cups that can be completely filled, round down.",
+     "correct": true,
+     "explanation": "Filling a container requires enough whole units, so the result is rounded up. Only complete cups count, so that result must be rounded down."
+    },
+    {
+     "text": "When filling a container, round down; when counting cups that can be completely filled, round down.",
+     "correct": false,
+     "explanation": "Rounding down when filling would leave the container short. Filling requires rounding up, whereas counting completely filled cups requires rounding down."
+    },
+    {
+     "text": "When filling a container, round up; when counting cups that can be completely filled, round up.",
+     "correct": false,
+     "explanation": "Rounding up the number of cups includes a cup that cannot be completely filled. Containers require rounding up, but complete cups require rounding down."
+    },
+    {
+     "text": "When filling a container, round down; when counting cups that can be completely filled, round up.",
+     "correct": false,
+     "explanation": "This reverses both rules. Round up to ensure there is enough to fill a container, and round down to count only cups filled completely."
+    }
+   ]
+  },
+  {
+   "id": "a1fc052f-a188-411d-a4d5-2acace848129",
+   "card_type": "basic",
+   "front": "A container needs 140 litres and each bucket holds 12 litres. How many buckets are needed?",
+   "back": "12 buckets",
+   "options": [
+    {
+     "text": "12 buckets",
+     "correct": true,
+     "explanation": "Dividing 140 litres by 12 litres gives about 11.67. A partial bucket cannot supply the remaining water, so 12 whole buckets are needed."
+    },
+    {
+     "text": "11 buckets",
+     "correct": false,
+     "explanation": "This rounds down, but 11 buckets hold only 132 litres, which is not enough. The result 11.67 must be rounded up to 12 buckets."
+    },
+    {
+     "text": "11.67 buckets",
+     "correct": false,
+     "explanation": "This leaves the division result as a decimal even though buckets must be counted as whole objects. Rounding up gives 12 buckets."
+    },
+    {
+     "text": "13 buckets",
+     "correct": false,
+     "explanation": "Rounding 11.67 up already gives 12, so adding another bucket is unnecessary. Twelve buckets can hold 144 litres, enough for the required 140 litres."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "9698f691-1602-4e1b-8e65-eb380be20f23",
+   "card_type": "cloze",
+   "front": "For packing boxes into a larger cuboid, check how many fit along each [ ___ ], then [ ___ ] the counts.",
+   "back": "For packing boxes into a larger cuboid, check how many fit along each direction, then multiply the counts.",
+   "options": [
+    {
+     "text": "For packing boxes into a larger cuboid, check how many fit along each direction, then multiply the counts.",
+     "correct": true,
+     "explanation": "The numbers fitting along the length, width and height are independent dimensions. Multiplying these three counts gives the total number of boxes."
+    },
+    {
+     "text": "For packing boxes into a larger cuboid, check how many fit along each direction, then add the counts.",
+     "correct": false,
+     "explanation": "Adding counts only combines separate rows rather than forming all three-dimensional arrangements. The counts along each direction must be multiplied."
+    },
+    {
+     "text": "For packing boxes into a larger cuboid, check how many fit along each face, then multiply the counts.",
+     "correct": false,
+     "explanation": "Boxes are counted along the three perpendicular directions, not along every face. Multiplying the length, width and height counts gives the total."
+    },
+    {
+     "text": "For packing boxes into a larger cuboid, check how many fit along each edge, then add the counts.",
+     "correct": false,
+     "explanation": "Counting all edges duplicates parallel measurements, and adding does not model a three-dimensional arrangement. Use each direction once, then multiply the three counts."
+    }
+   ]
+  },
+  {
+   "id": "ae09b892-1d80-43f4-a373-1aea4369f89a",
+   "card_type": "basic",
+   "front": "If 4 boxes fit along the length, 5 along the width and 3 along the height, how many boxes fit?",
+   "back": "60 boxes",
+   "options": [
+    {
+     "text": "60 boxes",
+     "correct": true,
+     "explanation": "Multiply the numbers fitting in the three perpendicular directions: $4 \\times 5 \\times 3 = 60$. Therefore, 60 boxes fit."
+    },
+    {
+     "text": "12 boxes",
+     "correct": false,
+     "explanation": "This adds the three counts, $4 + 5 + 3$, instead of combining all arrangements. Multiplication gives $4 \\times 5 \\times 3 = 60$ boxes."
+    },
+    {
+     "text": "20 boxes",
+     "correct": false,
+     "explanation": "This multiplies only the length and width, so it counts one layer. Including all three layers gives $4 \\times 5 \\times 3 = 60$ boxes."
+    },
+    {
+     "text": "180 boxes",
+     "correct": false,
+     "explanation": "This effectively includes the height factor twice, making the answer three times too large. Each direction is used once, giving 60 boxes."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "78a7abbe-0b1b-483a-8e38-b321fa5d9f85",
+   "card_type": "cloze",
+   "front": "A cube has [ ___ ] identical [ ___ ] faces.",
+   "back": "A cube has 6 identical square faces.",
+   "options": [
+    {
+     "text": "A cube has 6 identical square faces.",
+     "correct": true,
+     "explanation": "A cube is enclosed by six congruent faces, and every face is a square with the same side length."
+    },
+    {
+     "text": "A cube has 8 identical square faces.",
+     "correct": false,
+     "explanation": "Eight is the number of vertices on a cube, not the number of faces. A cube has 6 identical square faces."
+    },
+    {
+     "text": "A cube has 6 identical triangular faces.",
+     "correct": false,
+     "explanation": "This uses the correct number of faces but the wrong shape. Each of a cube’s 6 faces is a square, not a triangle."
+    },
+    {
+     "text": "A cube has 4 identical square faces.",
+     "correct": false,
+     "explanation": "Four may come from counting only the side faces and omitting the top and bottom. Including them gives 6 identical square faces."
+    }
+   ]
+  },
+  {
+   "id": "ba0e47b8-c7e8-42b3-8fee-83551ca22585",
+   "card_type": "basic",
+   "front": "A cube has total surface area 294 cm². What is its volume?",
+   "back": "One face: 49 cm².Side length: 7 cm.Volume: 343 cm³.",
+   "options": [
+    {
+     "text": "One face: 49 cm².Side length: 7 cm.Volume: 343 cm³.",
+     "correct": true,
+     "explanation": "A cube has six equal faces, so each has area $294 \\div 6 = 49$ cm². The side is $\\sqrt{49}=7$ cm, giving volume $7^3=343$ cm³."
+    },
+    {
+     "text": "One face: 49 cm².Side length: 7 cm.Volume: 49 cm³.",
+     "correct": false,
+     "explanation": "The final step squares the side instead of cubing it, producing a face area rather than a volume. The volume is $7^3=343$ cm³."
+    },
+    {
+     "text": "One face: 49 cm².Side length: 49 cm.Volume: 117649 cm³.",
+     "correct": false,
+     "explanation": "This treats the area of one square face as its side length. Taking $\\sqrt{49}$ gives a 7 cm side and a volume of 343 cm³."
+    },
+    {
+     "text": "One face: 49 cm².Side length: 7 cm.Volume: 294 cm³.",
+     "correct": false,
+     "explanation": "This reuses the numerical value of the surface area as the volume. Volume must be calculated from the side length: $7^3=343$ cm³."
+    }
+   ],
+   "points": 3
+  }
+ ],
+ "card_count": 24,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-4-4-13-volume-of-a-prism/flashcards",
+ "source_sha256": "f700d644c0da38ecea5c23a19c469920cc4062aa4af6080efb8d85145f044949",
+ "extracted_at": "2026-11-08T17:55:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}

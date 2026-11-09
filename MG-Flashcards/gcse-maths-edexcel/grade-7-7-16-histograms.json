@@ -1,0 +1,647 @@
+{
+ "topic": "grade-7-7-16-histograms",
+ "lane": "gcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "title": "Histograms Flashcards",
+ "cards": [
+  {
+   "id": "5fa8a16d-b8c7-4d20-a159-be59cc3f0179",
+   "card_type": "basic",
+   "front": "In a histogram, what does the area of a bar represent?",
+   "back": "Frequency.",
+   "options": [
+    {
+     "text": "Frequency.",
+     "correct": true,
+     "explanation": "A bar’s area represents frequency because area equals class width multiplied by frequency density. This ensures that larger bar areas correspond to more observations."
+    },
+    {
+     "text": "Frequency density.",
+     "correct": false,
+     "explanation": "Frequency density determines the bar’s height, not its area. The area represents frequency because multiplying frequency density by class width gives the frequency."
+    },
+    {
+     "text": "Class width.",
+     "correct": false,
+     "explanation": "Class width is represented by the bar’s horizontal width, not its area. The area of the bar represents the frequency in that class interval."
+    },
+    {
+     "text": "Class boundary.",
+     "correct": false,
+     "explanation": "Class boundaries mark the endpoints of each interval and do not correspond to bar area. The area of a histogram bar represents the class frequency."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "eaf4013c-93e7-4d5f-ab99-c88c0444c35d",
+   "card_type": "cloze",
+   "front": "A histogram is used for grouped [ ___ ].",
+   "back": "A histogram is used for grouped continuous data.",
+   "options": [
+    {
+     "text": "continuous data",
+     "correct": true,
+     "explanation": "Histograms display grouped continuous data because values can occur anywhere within each class interval, and the bars therefore touch to show this continuity."
+    },
+    {
+     "text": "discrete data",
+     "correct": false,
+     "explanation": "Discrete data consists of separate countable values and is usually shown using a bar chart. A histogram is used for grouped continuous data."
+    },
+    {
+     "text": "categorical data",
+     "correct": false,
+     "explanation": "Categorical data is divided into named groups and is normally displayed with a bar chart. Histograms are designed for grouped continuous data."
+    },
+    {
+     "text": "nominal data",
+     "correct": false,
+     "explanation": "Nominal data consists of unordered categories rather than numerical intervals, so a bar chart is appropriate. A histogram is used for grouped continuous data."
+    }
+   ]
+  },
+  {
+   "id": "3f38470d-2351-48a5-9767-a4c4b2585fed",
+   "card_type": "basic",
+   "front": "In the class interval $0 \\le t < 5$, where does a value of exactly 5 go?",
+   "back": "The next class.",
+   "options": [
+    {
+     "text": "The next class.",
+     "correct": true,
+     "explanation": "The inequality $t < 5$ excludes 5 from this interval. Therefore, exactly 5 belongs in the next class, whose lower boundary is 5."
+    },
+    {
+     "text": "The previous class.",
+     "correct": false,
+     "explanation": "Treating the upper boundary as included ignores the strict inequality $t < 5$. Exactly 5 is excluded and must be placed in the next class."
+    },
+    {
+     "text": "The current class.",
+     "correct": false,
+     "explanation": "The current class contains values from 0 up to, but not including, 5. Therefore, exactly 5 must be placed in the next class."
+    },
+    {
+     "text": "The nearest class.",
+     "correct": false,
+     "explanation": "Class placement is determined by the inequalities, not by which interval seems nearest. Since $t < 5$ excludes 5, it belongs in the next class."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "f44305b2-6dc6-4283-b77f-3800815a4de4",
+   "card_type": "basic",
+   "front": "Find the class width of $7 \\le t < 15$.",
+   "back": "8.",
+   "options": [
+    {
+     "text": "8.",
+     "correct": true,
+     "explanation": "Class width is found by subtracting the lower boundary from the upper boundary. Here, $15 - 7 = 8$, so the class width is 8."
+    },
+    {
+     "text": "7.",
+     "correct": false,
+     "explanation": "Subtracting an extra 1 incorrectly treats class width as a count of selected integer positions. Using the boundaries gives $15 - 7 = 8$."
+    },
+    {
+     "text": "9.",
+     "correct": false,
+     "explanation": "Counting both endpoints produces an off-by-one error and ignores that 15 is excluded. Class width is the boundary difference, $15 - 7 = 8$."
+    },
+    {
+     "text": "22.",
+     "correct": false,
+     "explanation": "Adding the two boundaries does not calculate the size of the interval. Class width is found by subtraction, giving $15 - 7 = 8$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "d226efb5-6cd7-4881-919a-ca2ed2d79c54",
+   "card_type": "cloze",
+   "front": "Class width = [ ___ ] - [ ___ ].",
+   "back": "Class width = upper boundary - lower boundary.",
+   "options": [
+    {
+     "text": "Class width = upper boundary - lower boundary.",
+     "correct": true,
+     "explanation": "Class width measures the distance between the interval’s boundaries, so it is calculated by subtracting the lower boundary from the upper boundary."
+    },
+    {
+     "text": "Class width = lower boundary - upper boundary.",
+     "correct": false,
+     "explanation": "Reversing the subtraction usually gives a negative result, although class width must be positive. Subtract the lower boundary from the upper boundary instead."
+    },
+    {
+     "text": "Class width = class midpoint - lower boundary.",
+     "correct": false,
+     "explanation": "The distance from the lower boundary to the midpoint is only half the class width. The full width is upper boundary minus lower boundary."
+    },
+    {
+     "text": "Class width = upper boundary - class midpoint.",
+     "correct": false,
+     "explanation": "The distance from the midpoint to the upper boundary is only half the interval. Class width is calculated as upper boundary minus lower boundary."
+    }
+   ]
+  },
+  {
+   "id": "e4a9300f-9870-4c0b-a0f5-7dc875dea1dd",
+   "card_type": "basic",
+   "front": "Find the class width of $14 \\le t < 24$.",
+   "back": "10.",
+   "options": [
+    {
+     "text": "10.",
+     "correct": true,
+     "explanation": "Subtracting the lower boundary from the upper boundary gives the class width: $24 - 14 = 10$. The excluded upper endpoint does not alter this distance."
+    },
+    {
+     "text": "9.",
+     "correct": false,
+     "explanation": "Subtracting an additional 1 creates an off-by-one error. Class width is the difference between the boundaries, so $24 - 14 = 10$."
+    },
+    {
+     "text": "11.",
+     "correct": false,
+     "explanation": "Counting both endpoints as separate integer values is not how interval width is calculated. Subtracting the boundaries gives $24 - 14 = 10$."
+    },
+    {
+     "text": "38.",
+     "correct": false,
+     "explanation": "Adding the boundaries finds neither the width nor the number of values in the class. The correct calculation is $24 - 14 = 10$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "7ec52f2f-ee5e-44ca-b4a4-bc62def83c86",
+   "card_type": "basic",
+   "front": "What is the height of a histogram bar called?",
+   "back": "Frequency density.",
+   "options": [
+    {
+     "text": "Frequency density.",
+     "correct": true,
+     "explanation": "The vertical height of each histogram bar is frequency density. Multiplying this height by the class width gives the frequency represented by the bar’s area."
+    },
+    {
+     "text": "Frequency.",
+     "correct": false,
+     "explanation": "Frequency is represented by the bar’s area, not necessarily its height, because histogram classes may have unequal widths. The height is called frequency density."
+    },
+    {
+     "text": "Class width.",
+     "correct": false,
+     "explanation": "Class width is shown horizontally along the axis and determines the bar’s width. The vertical height of a histogram bar is called frequency density."
+    },
+    {
+     "text": "Class boundary.",
+     "correct": false,
+     "explanation": "Class boundaries are the endpoints marked along the horizontal axis, not vertical measurements. The height of a histogram bar is called frequency density."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "cf3256e4-9dc0-4c14-befb-7cef926545ea",
+   "card_type": "cloze",
+   "front": "Frequency density is often shortened to [ ___ ].",
+   "back": "Frequency density is often shortened to f.d..",
+   "options": [
+    {
+     "text": "f.d.",
+     "correct": true,
+     "explanation": "The standard abbreviation for frequency density is f.d., using the initial letters of the two words. It commonly labels the vertical axis of a histogram."
+    },
+    {
+     "text": "f.",
+     "correct": false,
+     "explanation": "The abbreviation f. refers to frequency rather than frequency density. Frequency density is shortened to f.d. and represents the height of a histogram bar."
+    },
+    {
+     "text": "c.w.",
+     "correct": false,
+     "explanation": "The abbreviation c.w. stands for class width, which is shown horizontally. Frequency density, the height of a histogram bar, is shortened to f.d."
+    },
+    {
+     "text": "c.f.",
+     "correct": false,
+     "explanation": "The abbreviation c.f. stands for cumulative frequency, a running total used in cumulative frequency graphs. Frequency density is shortened to f.d."
+    }
+   ]
+  },
+  {
+   "id": "ff428e9f-208a-456e-a1d8-ba3251197e45",
+   "card_type": "basic",
+   "front": "How do you calculate frequency density from frequency and class width?",
+   "back": "Frequency density $= \\frac{\\text{frequency}}{\\text{class width}}$.",
+   "options": [
+    {
+     "text": "Frequency density $= \\frac{\\text{frequency}}{\\text{class width}}$.",
+     "correct": true,
+     "explanation": "Dividing the frequency by the class width accounts for unequal class intervals. The resulting frequency density determines the height of the corresponding histogram bar."
+    },
+    {
+     "text": "Frequency density $= \\frac{\\text{class width}}{\\text{frequency}}$.",
+     "correct": false,
+     "explanation": "This reverses the required division. Frequency density is calculated by dividing frequency by class width, not class width by frequency."
+    },
+    {
+     "text": "Frequency density $= \\text{frequency} \\times \\text{class width}$.",
+     "correct": false,
+     "explanation": "Multiplication is used to recover frequency from frequency density and class width. To find frequency density, divide the frequency by the class width."
+    },
+    {
+     "text": "Frequency density $= \\frac{\\text{frequency}}{\\text{class midpoint}}$.",
+     "correct": false,
+     "explanation": "The class midpoint identifies the centre of an interval but is not used to calculate bar height. Frequency density is frequency divided by class width."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "7a8f28bf-ec84-4c69-a6b2-d49c16793df3",
+   "card_type": "basic",
+   "front": "A class has frequency 18 and width 6. Find its frequency density.",
+   "back": "3.",
+   "options": [
+    {
+     "text": "3.",
+     "correct": true,
+     "explanation": "Frequency density equals frequency divided by class width, so $18 \\div 6 = 3$. This would also be the height of the histogram bar."
+    },
+    {
+     "text": "12.",
+     "correct": false,
+     "explanation": "This comes from subtracting the class width from the frequency. Frequency density requires division, giving $18 \\div 6 = 3$."
+    },
+    {
+     "text": "24.",
+     "correct": false,
+     "explanation": "This comes from adding frequency and class width, which is not the frequency density formula. Dividing gives $18 \\div 6 = 3$."
+    },
+    {
+     "text": "108.",
+     "correct": false,
+     "explanation": "This multiplies frequency by class width instead of dividing. Frequency density is calculated as $18 \\div 6$, which equals $3$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "ceddbf62-44aa-4785-a19e-9980a4f11d99",
+   "card_type": "basic",
+   "front": "For $2 \\le t < 8$ with frequency 18, what height should the histogram bar have?",
+   "back": "3.",
+   "options": [
+    {
+     "text": "3.",
+     "correct": true,
+     "explanation": "The class width is $8 - 2 = 6$, so the frequency density and bar height are $18 \\div 6 = 3$."
+    },
+    {
+     "text": "6.",
+     "correct": false,
+     "explanation": "This is the class width, found from $8 - 2$, rather than the bar height. The height is frequency density: $18 \\div 6 = 3$."
+    },
+    {
+     "text": "18.",
+     "correct": false,
+     "explanation": "This uses the frequency directly as the height, which only works when class widths are equal and scaled appropriately. Here the height is $18 \\div 6 = 3$."
+    },
+    {
+     "text": "108.",
+     "correct": false,
+     "explanation": "This multiplies the frequency by the class width. Histogram height is frequency density, so the correct calculation is $18 \\div 6 = 3$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "d27fad20-02d9-4eb2-bd59-6829686249ce",
+   "card_type": "cloze",
+   "front": "In a histogram, frequency is represented by bar [ ___ ], not just height.",
+   "back": "In a histogram, frequency is represented by bar area, not just height.",
+   "options": [
+    {
+     "text": "area",
+     "correct": true,
+     "explanation": "A histogram represents frequency through bar area because area equals class width multiplied by frequency density. Bar height alone represents frequency density."
+    },
+    {
+     "text": "height",
+     "correct": false,
+     "explanation": "Height represents frequency density, not frequency itself. Frequency is represented by bar area because multiplying frequency density by class width gives the frequency."
+    },
+    {
+     "text": "width",
+     "correct": false,
+     "explanation": "Width represents the size of the class interval, not its frequency. Frequency is represented by bar area, combining class width with frequency density."
+    },
+    {
+     "text": "perimeter",
+     "correct": false,
+     "explanation": "Perimeter has no statistical meaning in a histogram. Frequency is represented by bar area, calculated from class width multiplied by frequency density."
+    }
+   ]
+  },
+  {
+   "id": "6c07bb60-a51a-49c4-8b80-ddb1c30002ea",
+   "card_type": "basic",
+   "front": "How do you calculate frequency from class width and frequency density?",
+   "back": "Frequency $= \\text{class width} \\times \\text{frequency density}$.",
+   "options": [
+    {
+     "text": "Frequency $= \\text{class width} \\times \\text{frequency density}$.",
+     "correct": true,
+     "explanation": "A histogram bar’s area represents frequency. Since its width is the class width and its height is the frequency density, multiplying them gives the frequency."
+    },
+    {
+     "text": "Frequency $= \\frac{\\text{class width}}{\\text{frequency density}}$.",
+     "correct": false,
+     "explanation": "Dividing class width by frequency density does not give bar area. Frequency is found by multiplying class width by frequency density."
+    },
+    {
+     "text": "Frequency $= \\frac{\\text{frequency density}}{\\text{class width}}$.",
+     "correct": false,
+     "explanation": "This divides the bar height by its width rather than calculating its area. Frequency equals class width multiplied by frequency density."
+    },
+    {
+     "text": "Frequency $= \\text{class width} + \\text{frequency density}$.",
+     "correct": false,
+     "explanation": "Adding width and height does not calculate a histogram bar’s area. Frequency is found by multiplying class width by frequency density."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "eca1a7cb-e7d0-4ca7-8f3a-94f6dd64a152",
+   "card_type": "basic",
+   "front": "A bar has width 8 and frequency density 1.75. Find the frequency.",
+   "back": "14.",
+   "options": [
+    {
+     "text": "14.",
+     "correct": true,
+     "explanation": "Frequency is class width multiplied by frequency density. Therefore, $8 \\times 1.75 = 14$, which is the area represented by the bar."
+    },
+    {
+     "text": "4.57.",
+     "correct": false,
+     "explanation": "This comes from dividing $8$ by $1.75$ rather than finding the bar’s area. Multiplying gives the frequency: $8 \\times 1.75 = 14$."
+    },
+    {
+     "text": "9.75.",
+     "correct": false,
+     "explanation": "This adds the width and frequency density, but frequency corresponds to bar area. The correct calculation is $8 \\times 1.75 = 14$."
+    },
+    {
+     "text": "6.25.",
+     "correct": false,
+     "explanation": "This subtracts the frequency density from the class width, which does not calculate frequency. Multiplying $8$ by $1.75$ gives $14$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "a433d1ad-5ec2-42c3-a261-ce16405cef2d",
+   "card_type": "basic",
+   "front": "For $8 \\le t < 16$ with frequency density 1.75, find the frequency.",
+   "back": "14.",
+   "options": [
+    {
+     "text": "14.",
+     "correct": true,
+     "explanation": "The class width is $16 - 8 = 8$. Multiplying this by the frequency density gives the frequency: $8 \\times 1.75 = 14$."
+    },
+    {
+     "text": "8.",
+     "correct": false,
+     "explanation": "This is only the class width, calculated as $16 - 8$. Frequency is width multiplied by frequency density, so $8 \\times 1.75 = 14$."
+    },
+    {
+     "text": "9.75.",
+     "correct": false,
+     "explanation": "This adds the class width and frequency density instead of finding the bar’s area. The frequency is $8 \\times 1.75 = 14$."
+    },
+    {
+     "text": "28.",
+     "correct": false,
+     "explanation": "This commonly results from treating $1.75$ as $3.5$, doubling the density. Using the given density gives $8 \\times 1.75 = 14$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "54921194-6dcf-4ac6-89f4-e7b6f2cbb36a",
+   "card_type": "cloze",
+   "front": "To find frequency density, divide [ ___ ] by [ ___ ].",
+   "back": "To find frequency density, divide frequency by class width.",
+   "options": [
+    {
+     "text": "To find frequency density, divide frequency by class width.",
+     "correct": true,
+     "explanation": "Frequency density is the frequency per unit of class width. Dividing frequency by class width gives the correct height for a histogram bar."
+    },
+    {
+     "text": "To find frequency density, divide class width by frequency.",
+     "correct": false,
+     "explanation": "This reverses the numerator and denominator. Frequency density measures frequency per unit width, so frequency must be divided by class width."
+    },
+    {
+     "text": "To find frequency density, divide frequency by class midpoint.",
+     "correct": false,
+     "explanation": "The midpoint locates the centre of a class but does not determine histogram height. Frequency density is frequency divided by class width."
+    },
+    {
+     "text": "To find frequency density, divide class width by frequency density.",
+     "correct": false,
+     "explanation": "This uses frequency density within its own calculation and divides in the wrong direction. The required calculation is frequency divided by class width."
+    }
+   ]
+  },
+  {
+   "id": "0d8f6712-cfe5-4337-bca1-92a5cc656034",
+   "card_type": "basic",
+   "front": "A class $0 \\le t < 4$ has frequency 10. Find the frequency density.",
+   "back": "2.5.",
+   "options": [
+    {
+     "text": "2.5.",
+     "correct": true,
+     "explanation": "Frequency density equals frequency divided by class width. The class width is $4 - 0 = 4$, so the density is $10 \\div 4 = 2.5$."
+    },
+    {
+     "text": "40.",
+     "correct": false,
+     "explanation": "Multiplying frequency by class width reverses the required operation. Frequency density is frequency divided by width, so $10 \\div 4 = 2.5$."
+    },
+    {
+     "text": "6.",
+     "correct": false,
+     "explanation": "Subtracting the class width from the frequency does not calculate density. Divide the frequency by the width: $10 \\div 4 = 2.5$."
+    },
+    {
+     "text": "0.4.",
+     "correct": false,
+     "explanation": "Dividing class width by frequency gives the reciprocal of the required density. The correct calculation is $10 \\div 4$, giving a frequency density of $2.5$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "8cd6de90-cd2f-4333-ba31-45819d9ef7a6",
+   "card_type": "basic",
+   "front": "A class $4 \\le t < 9$ has frequency density 1.4. Find the frequency.",
+   "back": "7.",
+   "options": [
+    {
+     "text": "7.",
+     "correct": true,
+     "explanation": "Frequency equals frequency density multiplied by class width. The width is $9 - 4 = 5$, so the frequency is $1.4 \\times 5 = 7$."
+    },
+    {
+     "text": "0.28.",
+     "correct": false,
+     "explanation": "Dividing the density by the class width uses the operations in the wrong direction. Frequency is density multiplied by width, so $1.4 \\times 5 = 7$."
+    },
+    {
+     "text": "5.6.",
+     "correct": false,
+     "explanation": "Using the lower class boundary as the width gives $1.4 \\times 4$, but the width is $9 - 4 = 5$. Therefore, the frequency is $7$."
+    },
+    {
+     "text": "12.6.",
+     "correct": false,
+     "explanation": "Using the upper class boundary as the width gives $1.4 \\times 9$. The actual class width is $9 - 4 = 5$, so the frequency is $7$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "a2f8d2f7-ca5f-4224-8356-83ae369bd41b",
+   "card_type": "basic",
+   "front": "When drawing a histogram, should the bars touch?",
+   "back": "Yes - bars touch for continuous grouped data.",
+   "options": [
+    {
+     "text": "Yes - bars touch for continuous grouped data.",
+     "correct": true,
+     "explanation": "A histogram represents continuous grouped data, so adjacent class intervals meet without gaps. Therefore, the corresponding bars touch unless an interval has zero frequency."
+    },
+    {
+     "text": "No - bars have gaps for continuous grouped data.",
+     "correct": false,
+     "explanation": "Gaps are normally used in bar charts for separate categories or discrete values. Histograms represent continuous grouped intervals, so adjacent bars should touch."
+    },
+    {
+     "text": "No - bars touch only for discrete ungrouped data.",
+     "correct": false,
+     "explanation": "This reverses the usual distinction between chart types. Histogram bars touch because the grouped intervals form a continuous scale, while discrete bar charts normally have gaps."
+    },
+    {
+     "text": "No - bars must be separated when class widths differ.",
+     "correct": false,
+     "explanation": "Unequal class widths change the widths and frequency densities of the bars, not whether they touch. Adjacent continuous class intervals are still drawn without gaps."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "fc395192-8582-4b67-b12b-574cb38f2878",
+   "card_type": "basic",
+   "front": "Why must a class from 15 to 25 be drawn wider than a class from 4 to 9?",
+   "back": "It has a larger class width.",
+   "options": [
+    {
+     "text": "It has a larger class width.",
+     "correct": true,
+     "explanation": "Histogram bar widths represent class widths on the horizontal axis. The interval from 15 to 25 has width 10, while the interval from 4 to 9 has width 5."
+    },
+    {
+     "text": "It has a larger frequency.",
+     "correct": false,
+     "explanation": "Frequency determines a bar’s area, not its horizontal width. The interval from 15 to 25 is wider because its class width is 10 rather than 5."
+    },
+    {
+     "text": "It has a larger frequency density.",
+     "correct": false,
+     "explanation": "Frequency density determines a histogram bar’s height, not its width. The bar is wider because $25 - 15 = 10$, whereas $9 - 4 = 5$."
+    },
+    {
+     "text": "It has a larger upper boundary.",
+     "correct": false,
+     "explanation": "A larger upper boundary alone does not determine bar width; the lower boundary must also be considered. The class widths are 10 and 5, respectively."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "bb4766a5-fc60-42a7-a2ac-6bc444d252f9",
+   "card_type": "cloze",
+   "front": "Partial-bar estimates assume the data is [ ___ ] within the class interval.",
+   "back": "Partial-bar estimates assume the data is evenly spread within the class interval.",
+   "options": [
+    {
+     "text": "evenly spread",
+     "correct": true,
+     "explanation": "Estimating part of a histogram bar assumes observations are distributed uniformly throughout that class. The required proportion of the class width can then be applied to its frequency."
+    },
+    {
+     "text": "concentrated centrally",
+     "correct": false,
+     "explanation": "A partial-bar estimate cannot assume values are gathered near the class midpoint. It assumes the data is evenly spread, allowing frequency to be estimated in proportion to width."
+    },
+    {
+     "text": "clustered at the lower end",
+     "correct": false,
+     "explanation": "Clustering near the lower boundary would make proportional estimates unreliable. The method assumes the data is evenly spread throughout the whole class interval."
+    },
+    {
+     "text": "clustered at the upper end",
+     "correct": false,
+     "explanation": "Clustering near the upper boundary is not the assumption used for partial bars. The estimate treats the data as evenly spread across the class interval."
+    }
+   ]
+  },
+  {
+   "id": "40bbfbe4-d3e0-43dc-afc6-31c7c6947253",
+   "card_type": "basic",
+   "front": "A bar covers $10 \\le t < 20$ with frequency density 2.5. Estimate the frequency for $12 \\le t < 18$.",
+   "back": "15.",
+   "options": [
+    {
+     "text": "15.",
+     "correct": true,
+     "explanation": "The requested interval has width $18 - 12 = 6$. Multiplying this by the frequency density gives the estimated frequency: $6 \\times 2.5 = 15$."
+    },
+    {
+     "text": "25.",
+     "correct": false,
+     "explanation": "This uses the full class width of 10 and therefore finds the frequency for the entire bar. The requested width is 6, so the estimate is $6 \\times 2.5 = 15$."
+    },
+    {
+     "text": "12.",
+     "correct": false,
+     "explanation": "This effectively uses a density of 2 instead of the given 2.5. The interval width is 6, so the correct estimate is $6 \\times 2.5 = 15$."
+    },
+    {
+     "text": "6.",
+     "correct": false,
+     "explanation": "This gives only the width of the requested interval and ignores the frequency density. Multiply the width 6 by 2.5 to obtain an estimated frequency of 15."
+    }
+   ],
+   "points": 2
+  }
+ ],
+ "card_count": 22,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-7-7-16-histograms/flashcards",
+ "source_sha256": "ca66dcf6d0ee95c6093242f01971cb568e28626f4f4ea9a6e838ad2cbe9c8425",
+ "extracted_at": "2026-11-08T17:55:05Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}

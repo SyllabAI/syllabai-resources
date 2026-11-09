@@ -1,0 +1,588 @@
+{
+ "topic": "grade-5-5-9-drawing-quadratic-graphs",
+ "lane": "gcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "title": "Drawing Quadratic Graphs Flashcards",
+ "cards": [
+  {
+   "id": "ef56d04e-cdaa-45da-9b64-9bf90c809826",
+   "card_type": "basic",
+   "front": "When substituting $x = -3$ into $y = x^2$, what is the resulting value of $y$?",
+   "back": "$$9$",
+   "options": [
+    {
+     "text": "$$9$",
+     "correct": true,
+     "explanation": "Substituting gives $y = (-3)^2 = (-3) \\times (-3) = 9$. The product of two negative numbers is positive."
+    },
+    {
+     "text": "$$-9$",
+     "correct": false,
+     "explanation": "This comes from applying the square only to $3$ and then retaining the negative sign. The whole value $-3$ is squared, so $(-3)^2 = 9$."
+    },
+    {
+     "text": "$$6$",
+     "correct": false,
+     "explanation": "This treats squaring as multiplying the number by $2$. Squaring means multiplying the number by itself, so $(-3) \\times (-3) = 9$."
+    },
+    {
+     "text": "$$-6$",
+     "correct": false,
+     "explanation": "This combines doubling with incorrectly retaining the negative sign. The operation is squaring, not doubling, and $(-3)^2$ equals $9$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "a446e8d4-85e5-4322-9088-d685f76b1ada",
+   "card_type": "cloze",
+   "front": "When squaring a negative number, always use [ ___ ] to ensure the result is positive.",
+   "back": "When squaring a negative number, always use brackets to ensure the result is positive.",
+   "options": [
+    {
+     "text": "brackets",
+     "correct": true,
+     "explanation": "Brackets show that the negative sign is part of the number being squared. For example, $(-3)^2 = (-3) \\times (-3) = 9$."
+    },
+    {
+     "text": "minus signs",
+     "correct": false,
+     "explanation": "A minus sign alone does not ensure the entire negative number is squared. Brackets are required: $(-3)^2 = 9$, whereas $-3^2$ is interpreted as $-(3^2)$."
+    },
+    {
+     "text": "square roots",
+     "correct": false,
+     "explanation": "Square roots reverse squaring rather than showing that a negative number is being squared. Brackets enclose the whole negative number, as in $(-3)^2 = 9$."
+    },
+    {
+     "text": "decimal points",
+     "correct": false,
+     "explanation": "Decimal points indicate place value and do not control which parts of an expression are squared. Brackets correctly group the negative number, giving $(-3)^2 = 9$."
+    }
+   ]
+  },
+  {
+   "id": "4751018c-31b3-4bc2-aec0-0f069b2626b4",
+   "card_type": "basic",
+   "front": "What is the specific name for the smooth curve formed by a quadratic graph?",
+   "back": "Parabola",
+   "options": [
+    {
+     "text": "Parabola",
+     "correct": true,
+     "explanation": "The graph of a quadratic function is called a parabola. It is a smooth, symmetrical curve that may open upwards or downwards."
+    },
+    {
+     "text": "Hyperbola",
+     "correct": false,
+     "explanation": "A hyperbola is associated with relationships such as inverse proportion, not ordinary quadratic functions. The smooth curve formed by a quadratic graph is called a parabola."
+    },
+    {
+     "text": "Ellipse",
+     "correct": false,
+     "explanation": "An ellipse is a closed oval-shaped curve and is not the graph of a quadratic function in the form $y = ax^2 + bx + c$. That graph is a parabola."
+    },
+    {
+     "text": "Straight line",
+     "correct": false,
+     "explanation": "A straight-line graph represents a linear relationship with no $x^2$ term. A quadratic relationship produces a curved graph specifically called a parabola."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "9fa3efa9-06bb-4d73-9711-7de4300ff3c8",
+   "card_type": "cloze",
+   "front": "A quadratic graph opens upwards (like a smile) if the $x^2$ coefficient is [ ___ ].",
+   "back": "A quadratic graph opens upwards (like a smile) if the $x^2$ coefficient is positive.",
+   "options": [
+    {
+     "text": "positive",
+     "correct": true,
+     "explanation": "When the coefficient of $x^2$ is positive, increasing $|x|$ makes the quadratic term positive, so the parabola opens upwards like a smile."
+    },
+    {
+     "text": "negative",
+     "correct": false,
+     "explanation": "This reverses the relationship between the coefficient’s sign and the graph’s direction. A negative $x^2$ coefficient makes the parabola open downwards; a positive coefficient makes it open upwards."
+    },
+    {
+     "text": "zero",
+     "correct": false,
+     "explanation": "If the $x^2$ coefficient is zero, the expression is not quadratic and does not form a parabola. An upward-opening quadratic requires a positive $x^2$ coefficient."
+    },
+    {
+     "text": "squared",
+     "correct": false,
+     "explanation": "The variable $x$ is squared, but the coefficient itself need not be a square number. Its sign determines direction: a positive coefficient makes the graph open upwards."
+    }
+   ]
+  },
+  {
+   "id": "398f22b9-469f-4728-a65e-414b732b4681",
+   "card_type": "cloze",
+   "front": "A quadratic graph opens downwards (like a frown) if the $x^2$ coefficient is [ ___ ].",
+   "back": "A quadratic graph opens downwards (like a frown) if the $x^2$ coefficient is negative.",
+   "options": [
+    {
+     "text": "negative",
+     "correct": true,
+     "explanation": "A negative coefficient of $x^2$ makes the quadratic term decrease as $|x|$ increases, so the parabola opens downwards like a frown."
+    },
+    {
+     "text": "positive",
+     "correct": false,
+     "explanation": "This reverses the rule governing the parabola’s direction. A positive $x^2$ coefficient produces an upward-opening graph, while a negative coefficient produces a downward-opening graph."
+    },
+    {
+     "text": "zero",
+     "correct": false,
+     "explanation": "A zero $x^2$ coefficient removes the quadratic term, so the graph is no longer a parabola. A downward-opening quadratic must have a negative $x^2$ coefficient."
+    },
+    {
+     "text": "squared",
+     "correct": false,
+     "explanation": "The fact that $x$ is squared does not decide whether the graph opens upwards or downwards. The coefficient must specifically be negative for it to open downwards."
+    }
+   ]
+  },
+  {
+   "id": "9822f839-2843-413a-a2fc-be793105be65",
+   "card_type": "basic",
+   "front": "How should you join the plotted points when drawing a quadratic graph?",
+   "back": "With one smooth curve (do not use a ruler).",
+   "options": [
+    {
+     "text": "With one smooth curve (do not use a ruler).",
+     "correct": true,
+     "explanation": "A quadratic changes gradient continuously, so its plotted points should be connected by one smooth curve. Straight ruler segments would incorrectly introduce sharp changes in gradient."
+    },
+    {
+     "text": "With one straight line (use a ruler).",
+     "correct": false,
+     "explanation": "A straight line represents a linear relationship and cannot show the changing gradient of a quadratic. The points should be joined with one smooth curve without using a ruler."
+    },
+    {
+     "text": "With separate unjoined points (do not draw a curve).",
+     "correct": false,
+     "explanation": "The plotted points are samples from a continuous quadratic relationship, so leaving them unjoined does not show the complete graph. They should be connected with one smooth curve."
+    },
+    {
+     "text": "With several sharp corners (join each point exactly).",
+     "correct": false,
+     "explanation": "Joining points with sharp corners creates piecewise straight sections and sudden gradient changes that a quadratic does not have. The correct graph uses one continuous smooth curve."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "c63e36de-95c7-4feb-b8f0-84fac0aea060",
+   "card_type": "basic",
+   "front": "What is the \"turning point\" of a quadratic graph?",
+   "back": "The lowest or highest point of the parabola.",
+   "options": [
+    {
+     "text": "The lowest or highest point of the parabola.",
+     "correct": true,
+     "explanation": "The turning point is where the parabola changes direction. It is the minimum point for an upward-opening parabola or the maximum point for a downward-opening parabola."
+    },
+    {
+     "text": "The leftmost or rightmost point of the parabola.",
+     "correct": false,
+     "explanation": "A standard quadratic parabola continues indefinitely to the left and right, so it has no leftmost or rightmost point. Its turning point is its lowest or highest point."
+    },
+    {
+     "text": "The first or second crossing of the x-axis.",
+     "correct": false,
+     "explanation": "Crossings of the x-axis are roots, not turning points. The turning point is where the parabola changes direction and reaches its lowest or highest value."
+    },
+    {
+     "text": "The lowest or highest crossing of the y-axis.",
+     "correct": false,
+     "explanation": "A quadratic crosses the y-axis only once, and that intercept is not generally an extreme value. The turning point is the parabola’s lowest or highest point."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "0e5cc334-afc3-4786-991e-bcbb4bda39a2",
+   "card_type": "basic",
+   "front": "How are the \"roots\" of a quadratic identified from its graph?",
+   "back": "They are the $x$-values where the curve crosses the x-axis.",
+   "options": [
+    {
+     "text": "They are the $x$-values where the curve crosses the x-axis.",
+     "correct": true,
+     "explanation": "On the x-axis, $y = 0$, so the corresponding $x$-coordinates solve the quadratic equation. These x-axis intersections are therefore the roots of the quadratic."
+    },
+    {
+     "text": "They are the $y$-values where the curve crosses the x-axis.",
+     "correct": false,
+     "explanation": "Every point on the x-axis has $y = 0$, so the y-values do not distinguish the roots. The roots are the corresponding $x$-values where the curve crosses the x-axis."
+    },
+    {
+     "text": "They are the $x$-values where the curve crosses the y-axis.",
+     "correct": false,
+     "explanation": "The y-axis has $x = 0$, so its intersection gives the y-intercept rather than the roots. Roots are the $x$-values where the curve crosses the x-axis."
+    },
+    {
+     "text": "They are the $x$-values where the curve reaches its turning point.",
+     "correct": false,
+     "explanation": "The turning point identifies the parabola’s maximum or minimum, not generally where $y = 0$. Roots are the $x$-values at which the graph crosses the x-axis."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "f0409810-5152-4f85-9e52-097b470fcb98",
+   "card_type": "basic",
+   "front": "At any root on a quadratic graph, what is the value of $y$?",
+   "back": "$$0$",
+   "options": [
+    {
+     "text": "$$0$",
+     "correct": true,
+     "explanation": "A root is where the quadratic curve crosses or touches the $x$-axis. Every point on the $x$-axis has a $y$-coordinate of $0$."
+    },
+    {
+     "text": "$$1$",
+     "correct": false,
+     "explanation": "This confuses a root with a point one unit above the $x$-axis. At a root, the curve lies on the $x$-axis, so $y=0$."
+    },
+    {
+     "text": "$$-1$",
+     "correct": false,
+     "explanation": "A negative $y$-value places the point below the $x$-axis rather than at a root. Roots occur where the curve has $y=0$."
+    },
+    {
+     "text": "$$x$",
+     "correct": false,
+     "explanation": "This confuses the variable coordinate with its value at an intercept. A root can have various $x$-coordinates, but its $y$-coordinate is always $0$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "ef3aeea5-783e-4906-b56d-e726b2f1788d",
+   "card_type": "cloze",
+   "front": "In a table of values for a quadratic, the $y$-values usually form a [ ___ ] or a consistent curve.",
+   "back": "In a table of values for a quadratic, the $y$-values usually form a symmetrical pattern or a consistent curve.",
+   "options": [
+    {
+     "text": "symmetrical pattern",
+     "correct": true,
+     "explanation": "Quadratic graphs are symmetrical about their vertical axis, so equally spaced $x$-values on opposite sides of that axis produce matching $y$-values."
+    },
+    {
+     "text": "linear pattern",
+     "correct": false,
+     "explanation": "A linear pattern has constant first differences and represents a straight line. Quadratic values instead show symmetry and usually have constant second differences."
+    },
+    {
+     "text": "random pattern",
+     "correct": false,
+     "explanation": "Quadratic values are determined by a fixed equation, so they are not random. They form a symmetrical pattern around the graph’s vertical axis."
+    },
+    {
+     "text": "alternating pattern",
+     "correct": false,
+     "explanation": "Alternating values repeatedly switch according to position, which is not a general property of quadratics. Their $y$-values form a symmetrical pattern around the axis."
+    }
+   ]
+  },
+  {
+   "id": "7c9d656e-5f35-40cb-98fa-60ab96a7672a",
+   "card_type": "basic",
+   "front": "How do you solve $x^2 - x - 4 = -2$ using the graph of $y = x^2 - x - 4$?",
+   "back": "Find the $x$-coordinates where the curve intersects the horizontal line $y = -2$.",
+   "options": [
+    {
+     "text": "Find the $x$-coordinates where the curve intersects the horizontal line $y = -2$.",
+     "correct": true,
+     "explanation": "The curve represents $y=x^2-x-4$, so solutions to the expression equalling $-2$ occur where the curve reaches $y=-2$."
+    },
+    {
+     "text": "Find the $x$-coordinates where the curve intersects the horizontal line $y = 0$.",
+     "correct": false,
+     "explanation": "Using $y=0$ would find the roots of $x^2-x-4=0$. Here the expression equals $-2$, so the required horizontal line is $y=-2$."
+    },
+    {
+     "text": "Find the $x$-coordinates where the curve intersects the horizontal line $y = 2$.",
+     "correct": false,
+     "explanation": "This loses the negative sign on the right-hand side and would solve $x^2-x-4=2$. The given equation requires intersections with $y=-2$."
+    },
+    {
+     "text": "Find the $x$-coordinates where the curve intersects the vertical line $x = -2$.",
+     "correct": false,
+     "explanation": "A vertical line fixes an $x$-value rather than locating where the quadratic has a specified output. Draw the horizontal line $y=-2$ and read the intersection $x$-coordinates."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "9abf122b-a23f-42fa-8abb-1458350cce23",
+   "card_type": "basic",
+   "front": "What must be done to the equation $x^2 = 3x + 4$ before solving it using the roots of a graph?",
+   "back": "Rearrange it to $x^2 - 3x - 4 = 0$ so one side equals zero.",
+   "options": [
+    {
+     "text": "Rearrange it to $x^2 - 3x - 4 = 0$ so one side equals zero.",
+     "correct": true,
+     "explanation": "Subtracting $3x+4$ from both sides gives $x^2-3x-4=0$. The graph’s roots then provide the solutions because roots occur when $y=0$."
+    },
+    {
+     "text": "Rearrange it to $x^2 - 3x + 4 = 0$ so one side equals zero.",
+     "correct": false,
+     "explanation": "The constant changes incorrectly here. Subtracting $4$ from both sides produces $-4$, so the correct rearrangement is $x^2-3x-4=0$."
+    },
+    {
+     "text": "Rearrange it to $x^2 + 3x - 4 = 0$ so one side equals zero.",
+     "correct": false,
+     "explanation": "Moving $3x$ from the right to the left changes its sign to negative, not positive. The required equation is $x^2-3x-4=0$."
+    },
+    {
+     "text": "Rearrange it to $x^2 - 3x - 3 = 0$ so one side equals zero.",
+     "correct": false,
+     "explanation": "This introduces an off-by-one error in the constant term. Subtracting the original $4$ gives $x^2-3x-4=0$, whose roots solve the equation."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "dfa411e7-a169-442d-82ba-2338b6461b81",
+   "card_type": "cloze",
+   "front": "To solve an equation where the quadratic expression equals a number, you must draw or imagine a [ ___ ] at that $y$-value.",
+   "back": "To solve an equation where the quadratic expression equals a number, you must draw or imagine a horizontal line at that $y$-value.",
+   "options": [
+    {
+     "text": "horizontal line",
+     "correct": true,
+     "explanation": "A fixed $y$-value is represented by a horizontal line. Its intersections with the quadratic identify the $x$-values for which the expression equals that number."
+    },
+    {
+     "text": "vertical line",
+     "correct": false,
+     "explanation": "A vertical line represents a fixed $x$-value, not a fixed output. To solve where the expression equals a number, use a horizontal line at that $y$-value."
+    },
+    {
+     "text": "tangent line",
+     "correct": false,
+     "explanation": "A tangent only touches the curve locally and is not generally used to represent a specified output. A fixed $y$-value requires a horizontal line."
+    },
+    {
+     "text": "diagonal line",
+     "correct": false,
+     "explanation": "A diagonal line makes $y$ vary with $x$, so it does not represent one fixed value. The correct construction is a horizontal line at the required $y$-value."
+    }
+   ]
+  },
+  {
+   "id": "8ab171e4-985c-4ec0-be9f-21fe8103c0ad",
+   "card_type": "basic",
+   "front": "For the graph $y = x^2 - 2x - 1$, calculate $y$ when $x = -1$.",
+   "back": "$$2$ (calculated as $1 + 2 - 1$)",
+   "options": [
+    {
+     "text": "$$2$ (calculated as $1 + 2 - 1$)",
+     "correct": true,
+     "explanation": "Substituting $x=-1$ gives $(-1)^2=1$ and $-2(-1)=2$. Therefore, $1+2-1=2$."
+    },
+    {
+     "text": "$$-2$ (calculated as $1 - 2 - 1$)",
+     "correct": false,
+     "explanation": "This misses that multiplying two negative values gives a positive value: $-2(-1)=2$, not $-2$. The correct calculation is $1+2-1=2$."
+    },
+    {
+     "text": "$$4$ (calculated as $1 + 2 + 1$)",
+     "correct": false,
+     "explanation": "This changes the final constant from $-1$ to $+1$. Keeping its original sign gives $1+2-1=2$."
+    },
+    {
+     "text": "$$-4$ (calculated as $-1 - 2 - 1$)",
+     "correct": false,
+     "explanation": "This mishandles both $(-1)^2$, which equals $1$, and $-2(-1)$, which equals $2$. The correct result is $1+2-1=2$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "c982f2ae-85a4-434d-b919-5ac67f2b35eb",
+   "card_type": "basic",
+   "front": "What is the coordinate of the turning point for $y = x^2 - 4x + 3$ if the lowest point is at $x = 2$ and $y = -1$?",
+   "back": "$$(2, -1)$",
+   "options": [
+    {
+     "text": "$$(2, -1)$",
+     "correct": true,
+     "explanation": "Coordinates are written in the order $(x,y)$. With the lowest point at $x=2$ and $y=-1$, the turning point is $(2,-1)$."
+    },
+    {
+     "text": "$$(-1, 2)$",
+     "correct": false,
+     "explanation": "This reverses the coordinate order. Since $x=2$ and $y=-1$ at the turning point, the coordinate must be written as $(2,-1)$."
+    },
+    {
+     "text": "$$(2, 1)$",
+     "correct": false,
+     "explanation": "This loses the negative sign of the turning point’s $y$-value. The stated lowest point has $x=2$ and $y=-1$, giving $(2,-1)$."
+    },
+    {
+     "text": "$$(-2, -1)$",
+     "correct": false,
+     "explanation": "This incorrectly changes the sign of the $x$-coordinate. The turning point is stated to occur at $x=2$, so its coordinate is $(2,-1)$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "ef427035-4b13-4b18-874d-071f094dc2d6",
+   "card_type": "cloze",
+   "front": "If a quadratic graph has a negative $x^2$ term, the turning point will be the [ ___ ] point on the curve.",
+   "back": "If a quadratic graph has a negative $x^2$ term, the turning point will be the highest point on the curve.",
+   "options": [
+    {
+     "text": "highest",
+     "correct": true,
+     "explanation": "A negative coefficient of $x^2$ makes the parabola open downwards. Its turning point is therefore a maximum, meaning it is the highest point on the curve."
+    },
+    {
+     "text": "lowest",
+     "correct": false,
+     "explanation": "The lowest turning point occurs when the parabola opens upwards, usually with a positive $x^2$ coefficient. A negative coefficient makes the turning point the highest point."
+    },
+    {
+     "text": "leftmost",
+     "correct": false,
+     "explanation": "The sign of the $x^2$ coefficient controls whether the curve opens upwards or downwards, not its horizontal extreme. A negative coefficient gives a highest point."
+    },
+    {
+     "text": "rightmost",
+     "correct": false,
+     "explanation": "A standard vertical parabola continues indefinitely in horizontal directions, so its turning point is not a rightmost point. With a negative $x^2$ coefficient, it is the highest point."
+    }
+   ]
+  },
+  {
+   "id": "deb7c5c0-301e-4638-a251-7d8c8d26f55b",
+   "card_type": "basic",
+   "front": "In the coordinate $(x, y)$, which direction does the $x$ value represent?",
+   "back": "The horizontal position (across).",
+   "options": [
+    {
+     "text": "The horizontal position (across).",
+     "correct": true,
+     "explanation": "The $x$-coordinate shows how far left or right a point lies from the origin, so it represents the horizontal position."
+    },
+    {
+     "text": "The vertical position (upwards).",
+     "correct": false,
+     "explanation": "This confuses the two coordinate axes. The $y$-coordinate gives the vertical position, while the $x$-coordinate gives the horizontal position across the graph."
+    },
+    {
+     "text": "The diagonal position (across).",
+     "correct": false,
+     "explanation": "Coordinates do not directly specify a diagonal position. The $x$ value represents horizontal movement across the graph, while the $y$ value represents vertical movement."
+    },
+    {
+     "text": "The vertical position (downwards).",
+     "correct": false,
+     "explanation": "The direction of the $y$-axis has been confused with the role of the $x$-axis. The $x$ value represents the horizontal position across the graph."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "dc27bf91-6912-4b69-a573-760495914005",
+   "card_type": "cloze",
+   "front": "If a value in your table of values looks wildly out of place compared to the curve, you should [ ___ ] it.",
+   "back": "If a value in your table of values looks wildly out of place compared to the curve, you should recalculate it.",
+   "options": [
+    {
+     "text": "recalculate",
+     "correct": true,
+     "explanation": "An isolated value that does not follow the curve may result from an arithmetic or substitution error, so calculating it again checks and corrects the result."
+    },
+    {
+     "text": "estimate",
+     "correct": false,
+     "explanation": "Replacing the value with an estimate could hide the original calculation error. You should recalculate it carefully using the corresponding $x$ value and the quadratic equation."
+    },
+    {
+     "text": "ignore",
+     "correct": false,
+     "explanation": "Ignoring an unusual result may leave an incorrect point in the table or graph. You should recalculate it to check for a substitution or arithmetic error."
+    },
+    {
+     "text": "plot",
+     "correct": false,
+     "explanation": "Plotting the suspicious value without checking it may distort the quadratic curve. You should recalculate it first to confirm whether the table entry is accurate."
+    }
+   ]
+  },
+  {
+   "id": "0f5c83ea-c8cc-435a-bc7a-98de4a29d7f5",
+   "card_type": "basic",
+   "front": "What are the two solutions to $x^2 - x - 4 = 2$ if the graph crosses $y = 2$ at $x = -2$ and $x = 3$?",
+   "back": "$x = -2$$x = 3$",
+   "options": [
+    {
+     "text": "$x = -2$$x = 3$",
+     "correct": true,
+     "explanation": "Solutions at a specified $y$ value are the $x$-coordinates of the intersections. The graph meets $y=2$ at $x=-2$ and $x=3$."
+    },
+    {
+     "text": "$x = -3$$x = 2$",
+     "correct": false,
+     "explanation": "This reverses the signs associated with the two factors. Solving $x^2-x-6=0$ gives $(x-3)(x+2)=0$, so $x=-2$ and $x=3$."
+    },
+    {
+     "text": "$x = -2$$x = 2$",
+     "correct": false,
+     "explanation": "This assumes the intersections are symmetrical about the $y$-axis. The quadratic’s axis of symmetry is $x=0.5$, so the solutions are $x=-2$ and $x=3$."
+    },
+    {
+     "text": "$x = 2$$x = 3$",
+     "correct": false,
+     "explanation": "This mistakes the horizontal line’s value, $y=2$, for one of the $x$-coordinates. The actual intersection coordinates give $x=-2$ and $x=3$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "05f03259-3992-40c9-b44f-d72ff09cef14",
+   "card_type": "basic",
+   "front": "Why is $y = 7x - x^2$ a \"frown\" shaped graph?",
+   "back": "The coefficient of the $x^2$ term is negative.",
+   "options": [
+    {
+     "text": "The coefficient of the $x^2$ term is negative.",
+     "correct": true,
+     "explanation": "A negative coefficient of $x^2$ makes a quadratic open downwards, producing an upside-down U or “frown” shape with a maximum point."
+    },
+    {
+     "text": "The coefficient of the $x^2$ term is positive.",
+     "correct": false,
+     "explanation": "A positive coefficient would make the parabola open upwards in a “smile” shape. Here the coefficient is $-1$, so the graph opens downwards."
+    },
+    {
+     "text": "The coefficient of the $x^2$ term is zero.",
+     "correct": false,
+     "explanation": "A zero coefficient would remove the quadratic term entirely, producing a straight-line equation. The coefficient is $-1$, which makes the parabola open downwards."
+    },
+    {
+     "text": "The coefficient of the $x^2$ term is 7.",
+     "correct": false,
+     "explanation": "This confuses the coefficient of $x$ with the coefficient of $x^2$. The quadratic coefficient is $-1$, and its negative sign creates the frown shape."
+    }
+   ],
+   "points": 1
+  }
+ ],
+ "card_count": 20,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-5-5-9-drawing-quadratic-graphs/flashcards",
+ "source_sha256": "148f805fe88c859b754fd26eb1a2b43b11e4bd8ca6b3b6d0fceb2938efdae1fb",
+ "extracted_at": "2026-11-08T17:55:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}

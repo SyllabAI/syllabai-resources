@@ -1,0 +1,618 @@
+{
+ "topic": "grade-8-9-8-8-proof-of-the-circle-theorems",
+ "lane": "gcse-maths-edexcel",
+ "grade": "8",
+ "tier": null,
+ "title": "Proof of the Circle Theorems Flashcards",
+ "cards": [
+  {
+   "id": "a2ee80be-68ed-42bb-8aae-a8b5ce718e5c",
+   "card_type": "cloze",
+   "front": "All radii of the same circle are [ ___ ], so a triangle made from two radii is [ ___ ].",
+   "back": "All radii of the same circle are equal, so a triangle made from two radii is isosceles.",
+   "options": [
+    {
+     "text": "All radii of the same circle are equal, so a triangle made from two radii is isosceles.",
+     "correct": true,
+     "explanation": "Radii from the centre to the circumference have the same length. Therefore, a triangle containing two radii has two equal sides and is isosceles."
+    },
+    {
+     "text": "All radii of the same circle are equal, so a triangle made from two radii is equilateral.",
+     "correct": false,
+     "explanation": "Two radii provide only two known equal sides; the chord joining their endpoints need not have the same length. The triangle is therefore isosceles, not necessarily equilateral."
+    },
+    {
+     "text": "All radii of the same circle are unequal, so a triangle made from two radii is scalene.",
+     "correct": false,
+     "explanation": "This reverses the defining property of a circle: every radius of one circle has equal length. The two equal radii therefore form an isosceles triangle."
+    },
+    {
+     "text": "All radii of the same circle are perpendicular, so a triangle made from two radii is right-angled.",
+     "correct": false,
+     "explanation": "Radii are equal in length, but they are not generally perpendicular to one another. Their equality makes the triangle isosceles; the central angle can have many values."
+    }
+   ]
+  },
+  {
+   "id": "bcc8b2a5-76ef-4725-8a35-e5491dd11f0a",
+   "card_type": "basic",
+   "front": "In triangle $AOB$ where $OA=OB$, what angle equality follows?",
+   "back": "$\\angle OAB=\\angle ABO$.",
+   "options": [
+    {
+     "text": "$\\angle OAB=\\angle ABO$.",
+     "correct": true,
+     "explanation": "Since $OA=OB$, triangle $AOB$ is isosceles with base $AB$. The angles opposite those equal sides, $\\angle OAB$ and $\\angle ABO$, are equal."
+    },
+    {
+     "text": "$\\angle AOB=\\angle OAB$.",
+     "correct": false,
+     "explanation": "This incorrectly equates the vertex angle with a base angle. Since $OA=OB$, the equal opposite angles are $\\angle OAB$ and $\\angle ABO$."
+    },
+    {
+     "text": "$\\angle AOB=\\angle ABO$.",
+     "correct": false,
+     "explanation": "Equal sides produce equal angles opposite them, not an equality involving the included angle at $O$. Therefore $\\angle OAB=\\angle ABO$."
+    },
+    {
+     "text": "$\\angle OAB=\\angle AOB$.",
+     "correct": false,
+     "explanation": "This would require $OB=AB$, which is not given. The stated equality $OA=OB$ makes their opposite angles equal, so $\\angle OAB=\\angle ABO$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "d528e218-5a85-4512-8c33-fd0156c8465c",
+   "card_type": "cloze",
+   "front": "The angle at the centre is [ ___ ] the angle at the circumference when both stand on the [ ___ ].",
+   "back": "The angle at the centre is twice the angle at the circumference when both stand on the same arc.",
+   "options": [
+    {
+     "text": "The angle at the centre is twice the angle at the circumference when both stand on the same arc.",
+     "correct": true,
+     "explanation": "The centre-angle theorem states that angles subtended by the same arc satisfy this $2:1$ relationship: the central angle is twice the corresponding circumference angle."
+    },
+    {
+     "text": "The angle at the centre is equal to the angle at the circumference when both stand on the same arc.",
+     "correct": false,
+     "explanation": "This confuses the theorem with equal angles in the same segment. For the same arc, the angle at the centre is twice the angle at the circumference."
+    },
+    {
+     "text": "The angle at the centre is three times the angle at the circumference when both stand on the same arc.",
+     "correct": false,
+     "explanation": "The multiplier is incorrectly taken as three. Splitting the proof into isosceles triangles shows that the central angle is exactly twice the circumference angle."
+    },
+    {
+     "text": "The angle at the centre is twice the angle at the circumference when both stand on the different arcs.",
+     "correct": false,
+     "explanation": "The $2:1$ relationship applies only when both angles are subtended by the same arc. Angles standing on different arcs do not generally have this relationship."
+    }
+   ]
+  },
+  {
+   "id": "ef3183a4-9898-4549-97af-3fcb4a9c9b74",
+   "card_type": "basic",
+   "front": "In the centre-angle proof, if $\\angle PQO=x$, why is $\\angle OPQ=x$?",
+   "back": "$OP=OQ$, so triangle $OPQ$ is isosceles.",
+   "options": [
+    {
+     "text": "$OP=OQ$, so triangle $OPQ$ is isosceles.",
+     "correct": true,
+     "explanation": "Both $OP$ and $OQ$ are radii of the same circle, so they are equal. Their opposite base angles, $\\angle PQO$ and $\\angle OPQ$, are therefore equal."
+    },
+    {
+     "text": "$OP=PQ$, so triangle $OPQ$ is isosceles.",
+     "correct": false,
+     "explanation": "This selects the wrong pair of equal sides and would equate different opposite angles. The radii are $OP$ and $OQ$, so $OP=OQ$ gives the required base-angle equality."
+    },
+    {
+     "text": "$OQ=PQ$, so triangle $OPQ$ is isosceles.",
+     "correct": false,
+     "explanation": "The chord $PQ$ is not generally equal to the radius $OQ$. The known equal sides are the radii $OP$ and $OQ$, making the angles at $P$ and $Q$ equal."
+    },
+    {
+     "text": "$OP\\perp OQ$, so triangle $OPQ$ is right-angled.",
+     "correct": false,
+     "explanation": "The radii need not meet at a right angle, and right-angled triangles do not automatically have equal acute angles. The equality follows from $OP=OQ$ and the isosceles triangle theorem."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "29a85e08-b6e4-44f5-a938-d7cb5f872a0c",
+   "card_type": "basic",
+   "front": "In triangle $OPQ$, if the base angles are both $x$, what is $\\angle POQ$?",
+   "back": "$180^\\circ-2x$.",
+   "options": [
+    {
+     "text": "$180^\\circ-2x$.",
+     "correct": true,
+     "explanation": "The angles in a triangle total $180^\\circ$. Subtracting the two base angles, $x+x=2x$, leaves $\\angle POQ=180^\\circ-2x$."
+    },
+    {
+     "text": "$180^\\circ-x$.",
+     "correct": false,
+     "explanation": "This subtracts only one of the two base angles. Since both base angles equal $x$, their total is $2x$, giving $\\angle POQ=180^\\circ-2x$."
+    },
+    {
+     "text": "$360^\\circ-2x$.",
+     "correct": false,
+     "explanation": "This incorrectly uses the $360^\\circ$ total around a point instead of the $180^\\circ$ angle sum of a triangle. The correct angle is $180^\\circ-2x$."
+    },
+    {
+     "text": "$90^\\circ-x$.",
+     "correct": false,
+     "explanation": "This incorrectly assumes the triangle’s angles total $90^\\circ$. A triangle’s interior angles total $180^\\circ$, so subtracting both base angles gives $180^\\circ-2x$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "06313807-c992-447e-810e-2d1587f8b3bc",
+   "card_type": "basic",
+   "front": "In the centre-angle proof, what central angle is obtained after subtracting $180^\\circ-2x$ and $180^\\circ-2y$ from $360^\\circ$?",
+   "back": "$2x+2y$.",
+   "options": [
+    {
+     "text": "$2x+2y$.",
+     "correct": true,
+     "explanation": "The required central angle is $360^\\circ-(180^\\circ-2x)-(180^\\circ-2y)$. The constant terms cancel, leaving $2x+2y$."
+    },
+    {
+     "text": "$x+y$.",
+     "correct": false,
+     "explanation": "This loses the factors of two when simplifying the two isosceles-triangle angles. Subtracting both expressions from $360^\\circ$ gives $2x+2y$, twice the circumference angle."
+    },
+    {
+     "text": "$360^\\circ-2x-2y$.",
+     "correct": false,
+     "explanation": "This subtracts the variable terms instead of subtracting each entire bracket. Expanding the subtraction changes their signs, so the result simplifies to $2x+2y$."
+    },
+    {
+     "text": "$180^\\circ-2x-2y$.",
+     "correct": false,
+     "explanation": "This uses $180^\\circ$ rather than the full $360^\\circ$ around the centre and mishandles the bracket signs. Correct subtraction gives the central angle $2x+2y$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "f38cf858-aae5-4020-938a-ab6b30369f0f",
+   "card_type": "basic",
+   "front": "If $\\angle PQO=x$ and $\\angle OQR=y$, what is $\\angle PQR$?",
+   "back": "$x+y$.",
+   "options": [
+    {
+     "text": "$x+y$.",
+     "correct": true,
+     "explanation": "The ray $QO$ divides $\\angle PQR$ into the adjacent angles $\\angle PQO=x$ and $\\angle OQR=y$. Adding them gives $\\angle PQR=x+y$."
+    },
+    {
+     "text": "$x-y$.",
+     "correct": false,
+     "explanation": "Adjacent parts of the same larger angle must be added, not subtracted. Since $QO$ splits $\\angle PQR$ into angles $x$ and $y$, the total is $x+y$."
+    },
+    {
+     "text": "$2x+2y$.",
+     "correct": false,
+     "explanation": "This mistakenly applies the centre-angle doubling rule to the circumference angle itself. The two adjacent components at $Q$ simply add, so $\\angle PQR=x+y$."
+    },
+    {
+     "text": "$180^\\circ-x-y$.",
+     "correct": false,
+     "explanation": "This treats the three angles as though they formed a triangle angle sum. Here $x$ and $y$ are adjacent parts of $\\angle PQR$, so the angle is $x+y$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "398e7bdd-49c2-4e64-bae0-6a02c2f5378c",
+   "card_type": "cloze",
+   "front": "If a line passes through [ ___ ] and both ends lie on the circle, it is a [ ___ ].",
+   "back": "If a line passes through the centre and both ends lie on the circle, it is a diameter.",
+   "options": [
+    {
+     "text": "If a line passes through the centre and both ends lie on the circle, it is a diameter.",
+     "correct": true,
+     "explanation": "A chord whose endpoints lie on the circumference and which passes through the circle’s centre is a diameter. It is also the longest possible chord."
+    },
+    {
+     "text": "If a line passes through the centre and both ends lie on the circle, it is a radius.",
+     "correct": false,
+     "explanation": "A radius has only one endpoint on the circumference and ends at the centre. With both endpoints on the circle and the centre between them, the line is a diameter."
+    },
+    {
+     "text": "If a line passes through a point inside and both ends lie on the circle, it is a diameter.",
+     "correct": false,
+     "explanation": "Passing through any interior point is insufficient; many ordinary chords do this. The line is specifically a diameter only when it passes through the centre."
+    },
+    {
+     "text": "If a line passes through the centre and both ends lie on the circle, it is a tangent.",
+     "correct": false,
+     "explanation": "A tangent touches the circle at exactly one point and does not have two endpoints on the circumference. A chord through the centre is a diameter."
+    }
+   ]
+  },
+  {
+   "id": "0bebc2b9-4c13-4e2b-a6b6-9184b15dbeb3",
+   "card_type": "basic",
+   "front": "In the semicircle proof, why does $\\angle AOB+\\angle BOC=180^\\circ$?",
+   "back": "$AOC$ is a straight line.",
+   "options": [
+    {
+     "text": "$AOC$ is a straight line.",
+     "correct": true,
+     "explanation": "Points $A$, $O$ and $C$ are collinear because $AC$ is a diameter. Therefore the adjacent central angles $ngle AOB$ and $ngle BOC$ form a straight angle of $180^\\circ$."
+    },
+    {
+     "text": "$AB$ is a straight line.",
+     "correct": false,
+     "explanation": "The chord $AB$ does not generally pass through the centre, so it is not necessarily a straight line through $O$. The angles total $180^\\circ$ because $AOC$ is a straight line."
+    },
+    {
+     "text": "$AOB$ is an isosceles triangle.",
+     "correct": false,
+     "explanation": "The radii $OA$ and $OB$ make triangle $AOB$ isosceles, but this does not make the two central angles supplementary. Their sum is $180^\\circ$ because $AOC$ is a straight line."
+    },
+    {
+     "text": "$OA$ and $OC$ are equal radii.",
+     "correct": false,
+     "explanation": "Equal radii make $OA=OC$, but equality of lengths does not establish a sum of angles. The adjacent angles total $180^\\circ$ because $AOC$ is a straight line."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "895d6063-5492-4514-ab8f-5164cde1613e",
+   "card_type": "basic",
+   "front": "What does $(180^\\circ-2x)+(180^\\circ-2y)=180^\\circ$ give for $x+y$?",
+   "back": "$x+y=90^\\circ$.",
+   "options": [
+    {
+     "text": "$x+y=90^\\circ$.",
+     "correct": true,
+     "explanation": "Expanding and simplifying gives $360^\\circ-2x-2y=180^\\circ$, so $2x+2y=180^\\circ$. Dividing every term by $2$ gives $x+y=90^\\circ$."
+    },
+    {
+     "text": "$x+y=180^\\circ$.",
+     "correct": false,
+     "explanation": "This misses the final division by $2$. Simplification gives $2x+2y=180^\\circ$, and dividing both sides by $2$ gives the correct result $x+y=90^\\circ$."
+    },
+    {
+     "text": "$x+y=360^\\circ$.",
+     "correct": false,
+     "explanation": "This treats the original $180^\\circ$ total as though it were $360^\\circ$. Correctly collecting terms gives $2x+2y=180^\\circ$, hence $x+y=90^\\circ$."
+    },
+    {
+     "text": "$x+y=45^\\circ$.",
+     "correct": false,
+     "explanation": "This incorrectly halves the result twice. Once $2x+2y=180^\\circ$ has been obtained, a single division by $2$ gives $x+y=90^\\circ$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "2d60a4a2-9d77-4d0d-b677-4a146cc39e06",
+   "card_type": "cloze",
+   "front": "In a semicircle, the angle on the circumference opposite the diameter is [ ___ ].",
+   "back": "In a semicircle, the angle on the circumference opposite the diameter is $90^\\circ$.",
+   "options": [
+    {
+     "text": "$$90^\\circ$",
+     "correct": true,
+     "explanation": "The angle in a semicircle theorem states that an angle subtended by a diameter at any point on the remaining circumference is a right angle, so it equals $90^\\circ$."
+    },
+    {
+     "text": "$$180^\\circ$",
+     "correct": false,
+     "explanation": "A diameter subtends $180^\\circ$ at the centre, not at the circumference. The corresponding angle on the circumference is half the central angle, so it is $90^\\circ$."
+    },
+    {
+     "text": "$$45^\\circ$",
+     "correct": false,
+     "explanation": "This results from halving the circumference angle rather than the central angle. The diameter subtends $180^\\circ$ at the centre, so the circumference angle is $90^\\circ$."
+    },
+    {
+     "text": "$$60^\\circ$",
+     "correct": false,
+     "explanation": "This confuses the semicircle theorem with an equilateral-triangle angle. A diameter subtends a right angle at the circumference, so the required angle is $90^\\circ$."
+    }
+   ]
+  },
+  {
+   "id": "4d22a0c0-6dc2-4819-9e36-6d61bf1103f7",
+   "card_type": "basic",
+   "front": "What can you conclude about two angles standing on the same chord on the same side of it?",
+   "back": "They are equal.",
+   "options": [
+    {
+     "text": "They are equal.",
+     "correct": true,
+     "explanation": "Angles subtended by the same chord in the same segment are equal. Both angles intercept the same endpoints and lie on the same side of the chord."
+    },
+    {
+     "text": "They are supplementary.",
+     "correct": false,
+     "explanation": "Supplementary angles arise as opposite angles of a cyclic quadrilateral, not as angles in the same segment. Angles standing on the same chord on the same side are equal."
+    },
+    {
+     "text": "They are complementary.",
+     "correct": false,
+     "explanation": "Complementary angles sum to $90^\\circ$, which is associated with an angle in a semicircle. Angles standing on the same chord in the same segment are instead equal."
+    },
+    {
+     "text": "They are perpendicular.",
+     "correct": false,
+     "explanation": "Perpendicular describes lines meeting at $90^\\circ$, not a relationship between two angle sizes. Angles standing on the same chord on the same side are equal."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "fffef07e-cf99-4308-80b4-944daebb2c84",
+   "card_type": "basic",
+   "front": "Why are $\\angle ABD$ and $\\angle ACD$ equal when both stand on chord $AD$?",
+   "back": "Both are half of the same central angle, $\\angle AOD$.",
+   "options": [
+    {
+     "text": "Both are half of the same central angle, $\\angle AOD$.",
+     "correct": true,
+     "explanation": "Each circumference angle standing on chord $AD$ is half the central angle subtended by that chord. Since both are half of $ngle AOD$, they are equal."
+    },
+    {
+     "text": "Both are twice the same central angle, $ngle AOD$.",
+     "correct": false,
+     "explanation": "The central angle theorem has the relationship reversed here: the central angle is twice each circumference angle. Therefore both circumference angles are half of the same central angle, $ngle AOD$."
+    },
+    {
+     "text": "Both are equal to the same central angle, $ngle AOD$.",
+     "correct": false,
+     "explanation": "A circumference angle is not equal to the central angle subtended by the same chord. Each is half of the same central angle, $ngle AOD$, which proves they are equal."
+    },
+    {
+     "text": "Both are half of the same central angle, $ngle BOC$.",
+     "correct": false,
+     "explanation": "Chord $AD$ subtends the central angle $ngle AOD$, not $ngle BOC$. Both circumference angles are equal because each is half of $ngle AOD$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "39e5c9b2-de70-4d96-ba48-b06168926564",
+   "card_type": "cloze",
+   "front": "A cyclic quadrilateral has all four vertices on the [ ___ ] of a circle.",
+   "back": "A cyclic quadrilateral has all four vertices on the circumference of a circle.",
+   "options": [
+    {
+     "text": "circumference",
+     "correct": true,
+     "explanation": "A quadrilateral is cyclic precisely when each of its four vertices lies on one circle’s circumference. Its sides are chords joining pairs of those points."
+    },
+    {
+     "text": "centre",
+     "correct": false,
+     "explanation": "The centre is a single point and cannot contain four distinct vertices of a quadrilateral. In a cyclic quadrilateral, all four vertices lie on the circle’s circumference."
+    },
+    {
+     "text": "diameter",
+     "correct": false,
+     "explanation": "The diameter is one particular chord through the centre, so four vertices cannot all lie on it and form a quadrilateral. They must lie on the circumference."
+    },
+    {
+     "text": "radius",
+     "correct": false,
+     "explanation": "The radius is a line segment from the centre to the circumference, not the boundary containing all four vertices. A cyclic quadrilateral’s vertices lie on the circumference."
+    }
+   ]
+  },
+  {
+   "id": "c055671d-285d-4698-84cd-5a010ba8282d",
+   "card_type": "basic",
+   "front": "In cyclic quadrilateral $ABCD$, what is $\\angle ABC+\\angle ADC$?",
+   "back": "$180^\\circ$.",
+   "options": [
+    {
+     "text": "$180^\\circ$.",
+     "correct": true,
+     "explanation": "Opposite angles in a cyclic quadrilateral are supplementary because the arcs subtending them together form the complete circle. Therefore, their angle sum is $180^\\circ$."
+    },
+    {
+     "text": "$90^\\circ$.",
+     "correct": false,
+     "explanation": "This confuses supplementary opposite angles with complementary angles. In a cyclic quadrilateral, opposite angles subtend arcs totalling $360^\\circ$, so their angles sum to $180^\\circ$."
+    },
+    {
+     "text": "$360^\\circ$.",
+     "correct": false,
+     "explanation": "This uses the angle sum around a point rather than the cyclic quadrilateral theorem. Opposite angles in a cyclic quadrilateral are supplementary, so the required sum is $180^\\circ$."
+    },
+    {
+     "text": "$270^\\circ$.",
+     "correct": false,
+     "explanation": "This incorrectly subtracts a right angle from a full turn. The opposite angles of any cyclic quadrilateral are supplementary, meaning their sum is exactly $180^\\circ$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "cd095f9f-0c36-4dca-890b-c5ffa2cc532a",
+   "card_type": "basic",
+   "front": "Why do opposite angles in a cyclic quadrilateral add to $180^\\circ$?",
+   "back": "Their central angles add to $360^\\circ$, and circumference angles are half.",
+   "options": [
+    {
+     "text": "Their central angles add to $360^\\circ$, and circumference angles are half.",
+     "correct": true,
+     "explanation": "The central angles corresponding to the two opposite circumference angles make one full turn, totalling $360^\\circ$. Each circumference angle is half its central angle, so their sum is $180^\\circ$."
+    },
+    {
+     "text": "Their central angles add to $180^\\circ$, and circumference angles are half.",
+     "correct": false,
+     "explanation": "The two relevant central angles complete a full turn, not a straight angle, so they total $360^\\circ$. Halving that total gives the opposite circumference angles’ sum of $180^\\circ$."
+    },
+    {
+     "text": "Their central angles add to $360^\\circ$, and circumference angles are double.",
+     "correct": false,
+     "explanation": "The central angle is twice the angle at the circumference, so the relationship has been reversed. The central angles total $360^\\circ$, and their half-sized circumference angles total $180^\\circ$."
+    },
+    {
+     "text": "Their central angles add to $180^\\circ$, and circumference angles are double.",
+     "correct": false,
+     "explanation": "Both relationships are reversed: the relevant central angles make a full $360^\\circ$ turn, and circumference angles are half the corresponding central angles, producing a sum of $180^\\circ$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "cc60f431-4657-4d09-bad3-f49a859aa0e3",
+   "card_type": "basic",
+   "front": "What angle does a radius make with a tangent at the point of contact?",
+   "back": "$90^\\circ$.",
+   "options": [
+    {
+     "text": "$90^\\circ$.",
+     "correct": true,
+     "explanation": "A radius is perpendicular to a tangent where the tangent touches the circle. Therefore, the angle between them at the point of contact is $90^\\circ$."
+    },
+    {
+     "text": "$45^\\circ$.",
+     "correct": false,
+     "explanation": "Confusing the radius-tangent angle with an angle from an isosceles triangle can suggest $45^\\circ$. A radius and tangent are perpendicular, so the correct angle is $90^\\circ$."
+    },
+    {
+     "text": "$180^\\circ$.",
+     "correct": false,
+     "explanation": "An angle of $180^\\circ$ forms a straight line, but a tangent does not continue along the radius. The radius meets the tangent perpendicularly at $90^\\circ$."
+    },
+    {
+     "text": "$0^\\circ$.",
+     "correct": false,
+     "explanation": "An angle of $0^\\circ$ would make the radius and tangent parallel or coincident. They are perpendicular at the point of contact, giving an angle of $90^\\circ$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "af79a403-f40f-4367-88a8-0b6b7590d07f",
+   "card_type": "cloze",
+   "front": "The tangent-chord theorem is also called the [ ___ ].",
+   "back": "The tangent-chord theorem is also called the alternate segment theorem.",
+   "options": [
+    {
+     "text": "alternate segment theorem",
+     "correct": true,
+     "explanation": "The alternate segment theorem states that the angle between a tangent and chord equals the angle subtended by that chord in the opposite segment."
+    },
+    {
+     "text": "same segment theorem",
+     "correct": false,
+     "explanation": "The angle in the same segment theorem compares two angles subtended by the same chord. The tangent-chord result is instead called the alternate segment theorem."
+    },
+    {
+     "text": "cyclic quadrilateral theorem",
+     "correct": false,
+     "explanation": "The cyclic quadrilateral theorem concerns opposite angles adding to $180^\\circ$, not an angle between a tangent and chord. The required name is the alternate segment theorem."
+    },
+    {
+     "text": "angle at the centre theorem",
+     "correct": false,
+     "explanation": "The angle at the centre theorem compares central and circumferential angles subtended by one arc. The tangent-chord theorem is also called the alternate segment theorem."
+    }
+   ]
+  },
+  {
+   "id": "1d880420-779f-47ef-96b9-5a6972feb677",
+   "card_type": "basic",
+   "front": "What does the tangent-chord theorem say?",
+   "back": "The tangent-chord angle equals the angle in the opposite segment.",
+   "options": [
+    {
+     "text": "The tangent-chord angle equals the angle in the opposite segment.",
+     "correct": true,
+     "explanation": "For a chord through the point of contact, the angle between that chord and the tangent equals the angle subtended by the chord in the opposite segment."
+    },
+    {
+     "text": "The tangent-chord angle equals the angle at the centre.",
+     "correct": false,
+     "explanation": "The angle at the centre is generally twice the corresponding angle at the circumference, so it does not equal the tangent-chord angle. The opposite-segment angle does."
+    },
+    {
+     "text": "The tangent-chord angle equals twice the angle in the opposite segment.",
+     "correct": false,
+     "explanation": "The factor of two belongs to the angle at the centre theorem, not the tangent-chord theorem. The tangent-chord angle equals, rather than doubles, the opposite-segment angle."
+    },
+    {
+     "text": "The tangent-chord angle equals half the angle in the opposite segment.",
+     "correct": false,
+     "explanation": "Halving is used when deriving a circumference angle from the corresponding central angle. The tangent-chord angle directly equals the angle in the opposite segment."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "6afbc1dc-2598-4f64-8bf5-c3da2319931c",
+   "card_type": "basic",
+   "front": "Why is the tangent-chord angle $90^\\circ-y$ when $\\angle OCB=y$?",
+   "back": "$$OC$ is perpendicular to the tangent, leaving $90^\\circ-y$.",
+   "options": [
+    {
+     "text": "$$OC$ is perpendicular to the tangent, leaving $90^\\circ-y$.",
+     "correct": true,
+     "explanation": "A radius meets a tangent perpendicularly, making a total angle of $90^\\circ$. Since $\\angle OCB=y$ occupies part of it, the remaining tangent-chord angle is $90^\\circ-y$."
+    },
+    {
+     "text": "$$OC$ is perpendicular to the tangent, leaving $180^\\circ-y$.",
+     "correct": false,
+     "explanation": "Perpendicular lines form $90^\\circ$, not $180^\\circ$. Subtracting $y$ from the right angle means the tangent-chord angle is $90^\\circ-y$, rather than $180^\\circ-y$."
+    },
+    {
+     "text": "$$OC$ is parallel to the tangent, leaving $90^\\circ-y$.",
+     "correct": false,
+     "explanation": "A radius to the point of contact is perpendicular, not parallel, to the tangent. The right angle is split into $y$ and the remaining angle $90^\\circ-y$."
+    },
+    {
+     "text": "$$OC$ is perpendicular to the tangent, leaving $90^\\circ+y$.",
+     "correct": false,
+     "explanation": "The two adjacent angles must total $90^\\circ$, so $y$ must be subtracted rather than added. Consequently, the tangent-chord angle is $90^\\circ-y$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "18a32661-9448-4a18-bb0d-bfea8a6f45d1",
+   "card_type": "basic",
+   "front": "In the tangent proof, why is $\\angle BAC=90^\\circ-y$?",
+   "back": "It is half of $\\angle BOC$, where $\\angle BOC=180^\\circ-2y$.",
+   "options": [
+    {
+     "text": "It is half of $\\angle BOC$, where $\\angle BOC=180^\\circ-2y$.",
+     "correct": true,
+     "explanation": "The angle at the centre is twice the angle at the circumference subtended by the same chord. Halving $180^\\circ-2y$ gives $\\angle BAC=90^\\circ-y$."
+    },
+    {
+     "text": "It is half of $\\angle BOC$, where $\\angle BOC=180^\\circ-y$.",
+     "correct": false,
+     "explanation": "This omits the factor of $2$ multiplying $y$ in the central angle. Since $\\angle BOC=180^\\circ-2y$, halving it correctly gives $\\angle BAC=90^\\circ-y$."
+    },
+    {
+     "text": "It is equal to $\\angle BOC$, where $\\angle BOC=180^\\circ-2y$.",
+     "correct": false,
+     "explanation": "An angle at the circumference is half, not equal to, the angle at the centre subtended by the same chord. Therefore, half of $180^\\circ-2y$ gives $90^\\circ-y$."
+    },
+    {
+     "text": "It is half of $\\angle BOC$, where $\\angle BOC=360^\\circ-2y$.",
+     "correct": false,
+     "explanation": "Using $360^\\circ$ incorrectly treats the relevant central angle as reflex. The interior central angle is $180^\\circ-2y$, whose half is $90^\\circ-y$."
+    }
+   ],
+   "points": 2
+  }
+ ],
+ "card_count": 21,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-8-9-8-8-proof-of-the-circle-theorems/flashcards",
+ "source_sha256": "e135ffc4c46d4cc31651c424fbd580c821ad6fea440ae9b07f9f45dc6afbe5da",
+ "extracted_at": "2026-11-08T17:55:05Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}

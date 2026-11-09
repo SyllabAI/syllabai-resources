@@ -1,0 +1,589 @@
+{
+ "topic": "grade-2-2-14-averages",
+ "lane": "gcse-maths-edexcel",
+ "grade": "2",
+ "tier": null,
+ "title": "Averages Flashcards",
+ "cards": [
+  {
+   "id": "8f43d4d7-e184-4a32-beac-2ac5b1b2a9fc",
+   "card_type": "cloze",
+   "front": "The [ ___ ] is the middle value after the data are in [ ___ ].",
+   "back": "The median is the middle value after the data are in order.",
+   "options": [
+    {
+     "text": "The median is the middle value after the data are in order.",
+     "correct": true,
+     "explanation": "The median is found by arranging the data in order and identifying the middle value, or the two middle values when the data set has even size."
+    },
+    {
+     "text": "The mean is the middle value after the data are in order.",
+     "correct": false,
+     "explanation": "This confuses the median with the mean. The median is the middle value after the data have been placed in order."
+    },
+    {
+     "text": "The median is the middle value after the data are in groups.",
+     "correct": false,
+     "explanation": "Grouping the data does not reliably reveal its middle value. The median is found after the values have been arranged in order."
+    },
+    {
+     "text": "The mode is the middle value after the data are in frequency order.",
+     "correct": false,
+     "explanation": "This mixes up the mode and median. The mode is based on frequency, while the median is the middle value after ordering the data."
+    }
+   ]
+  },
+  {
+   "id": "2b19578a-7f6b-47b3-861e-8060aaf8514d",
+   "card_type": "basic",
+   "front": "Why is the middle of the original list unsafe for the median?",
+   "back": "The list may not be in order.",
+   "options": [
+    {
+     "text": "The list may not be in order.",
+     "correct": true,
+     "explanation": "Position alone is meaningful only after sorting. In an unordered original list, the central written entry may not be the median value."
+    },
+    {
+     "text": "The list may contain repeated values.",
+     "correct": false,
+     "explanation": "Repeated values do not make the median unsafe. The problem is that the original list may not be in order, so its written middle can be misleading."
+    },
+    {
+     "text": "The list may have an odd length.",
+     "correct": false,
+     "explanation": "An odd number of values actually gives one middle position after sorting. The original list is unsafe because it may not be in order."
+    },
+    {
+     "text": "The list may include negative values.",
+     "correct": false,
+     "explanation": "Negative values can be ordered and included normally when finding a median. The danger is using the middle position before putting the list in order."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "c5673dfc-7cfb-4060-a894-f6622bd2f6cd",
+   "card_type": "cloze",
+   "front": "The [ ___ ] is the value that appears [ ___ ].",
+   "back": "The mode is the value that appears most often.",
+   "options": [
+    {
+     "text": "The mode is the value that appears most often.",
+     "correct": true,
+     "explanation": "The mode is determined by frequency: it is the value occurring most often in the data set, not a measure based on position or calculation."
+    },
+    {
+     "text": "The median is the value that appears most often.",
+     "correct": false,
+     "explanation": "This confuses the median with the mode. The median concerns the middle position, whereas the mode is the value that appears most often."
+    },
+    {
+     "text": "The mode is the value that appears least often.",
+     "correct": false,
+     "explanation": "The least frequent value is not the mode. The mode is the value with the greatest frequency, meaning it appears most often."
+    },
+    {
+     "text": "The mean is the value that appears least often.",
+     "correct": false,
+     "explanation": "The mean is calculated by dividing the total by the number of values, not by counting the least frequent value. The mode appears most often."
+    }
+   ]
+  },
+  {
+   "id": "96e69d52-c0c7-4092-be16-696806c6456c",
+   "card_type": "basic",
+   "front": "What is the mode of 5, 8, 8, 9, 10, 8, 11?",
+   "back": "8",
+   "options": [
+    {
+     "text": "8",
+     "correct": true,
+     "explanation": "The value 8 occurs three times, while every other value occurs once. It therefore has the greatest frequency and is the mode."
+    },
+    {
+     "text": "9",
+     "correct": false,
+     "explanation": "Choosing 9 may come from inspecting the centre of the written list rather than counting frequencies. The value 8 appears three times, so the mode is 8."
+    },
+    {
+     "text": "11",
+     "correct": false,
+     "explanation": "Choosing 11 confuses the mode with the maximum value. The mode is determined by frequency, and 8 occurs three times, more than any other value."
+    },
+    {
+     "text": "5",
+     "correct": false,
+     "explanation": "Choosing 5 confuses the mode with the minimum value. The value occurring most often is 8, which appears three times in the list."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "195dd0cc-05de-464b-924d-373e5558619f",
+   "card_type": "basic",
+   "front": "If no value repeats, what is the mode?",
+   "back": "There is no mode.",
+   "options": [
+    {
+     "text": "There is no mode.",
+     "correct": true,
+     "explanation": "A mode must have a greater frequency than the other values. If every value occurs only once, no value is most frequent, so there is no mode."
+    },
+    {
+     "text": "There is a mode.",
+     "correct": false,
+     "explanation": "Equal frequencies do not make every value a mode in this GCSE context. If no value repeats, none occurs most often, so there is no mode."
+    },
+    {
+     "text": "The first value is the mode.",
+     "correct": false,
+     "explanation": "The first value's position does not make it the mode. The mode depends on frequency, and with no repeated values there is no mode."
+    },
+    {
+     "text": "The largest value is the mode.",
+     "correct": false,
+     "explanation": "The largest value is the maximum, not automatically the mode. Since no value repeats, none has the greatest frequency and there is no mode."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "bc5435e0-50b7-4dd2-b25c-32180a199891",
+   "card_type": "cloze",
+   "front": "The range is [ ___ ] minus [ ___ ].",
+   "back": "The range is largest value minus smallest value.",
+   "options": [
+    {
+     "text": "The range is largest value minus smallest value.",
+     "correct": true,
+     "explanation": "The range measures the total spread of the data, so it is calculated by subtracting the smallest value from the largest value."
+    },
+    {
+     "text": "The range is smallest value minus largest value.",
+     "correct": false,
+     "explanation": "Reversing the subtraction usually produces a negative result. The range is non-negative and is found using largest value minus smallest value."
+    },
+    {
+     "text": "The range is largest value minus second smallest value.",
+     "correct": false,
+     "explanation": "Using the second smallest value ignores part of the data's spread. The range must use both extremes: largest value minus smallest value."
+    },
+    {
+     "text": "The range is highest frequency minus smallest value.",
+     "correct": false,
+     "explanation": "Frequency determines the mode, not the range. To measure the spread, subtract the smallest value in the data set from the largest value."
+    }
+   ]
+  },
+  {
+   "id": "8eddc2e9-838d-4cb2-ae5b-8e2e9306a4cd",
+   "card_type": "basic",
+   "front": "What is the range of 152 cm, 168 cm, 160 cm, 174 cm, 152 cm, 181 cm?",
+   "back": "29 cm",
+   "options": [
+    {
+     "text": "29 cm",
+     "correct": true,
+     "explanation": "The largest measurement is 181 cm and the smallest is 152 cm. Subtracting them gives a range of $181-152=29$ cm."
+    },
+    {
+     "text": "28 cm",
+     "correct": false,
+     "explanation": "This off-by-one result can come from counting whole centimetres between the endpoints. The range uses direct subtraction: $181-152=29$ cm."
+    },
+    {
+     "text": "21 cm",
+     "correct": false,
+     "explanation": "This uses 160 cm as the minimum and overlooks the two 152 cm values. The correct extremes give $181-152=29$ cm."
+    },
+    {
+     "text": "333 cm",
+     "correct": false,
+     "explanation": "This adds the largest and smallest measurements instead of subtracting them. The range is the difference, so $181-152=29$ cm."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "ca874c0d-f932-4904-ad53-f63f0da24eae",
+   "card_type": "cloze",
+   "front": "With an [ ___ ] number of values, the median uses the [ ___ ].",
+   "back": "With an even number of values, the median uses the two middle values.",
+   "options": [
+    {
+     "text": "With an even number of values, the median uses the two middle values.",
+     "correct": true,
+     "explanation": "An even-sized ordered data set has no single central position. Its median is therefore found from the two middle values, usually by calculating their mean."
+    },
+    {
+     "text": "With an odd number of values, the median uses the two middle values.",
+     "correct": false,
+     "explanation": "An odd number of values has one middle value after ordering, not two. The median uses two middle values when the number of values is even."
+    },
+    {
+     "text": "With an even number of values, the median uses the middle value.",
+     "correct": false,
+     "explanation": "An even-sized data set has two central positions, so choosing only one would be arbitrary. The median must use the two middle values."
+    },
+    {
+     "text": "With an odd number of values, the median uses the middle value.",
+     "correct": false,
+     "explanation": "This states the rule for an odd-sized data set. When the number of values is even, the median uses the two middle values instead."
+    }
+   ]
+  },
+  {
+   "id": "f09f37fa-edf9-4394-97fc-07a110f54af1",
+   "card_type": "basic",
+   "front": "What is the median of 118 g, 124 g, 126 g, 132 g, 140 g, 150 g?",
+   "back": "129 g",
+   "options": [
+    {
+     "text": "129 g",
+     "correct": true,
+     "explanation": "With six ordered values, the median is the mean of the two middle values. The middle values are 126 g and 132 g, giving $(126+132)\\div2=129$ g."
+    },
+    {
+     "text": "126 g",
+     "correct": false,
+     "explanation": "This selects the lower middle value instead of averaging both middle values. For six values, average 126 g and 132 g to obtain the median of 129 g."
+    },
+    {
+     "text": "132 g",
+     "correct": false,
+     "explanation": "This selects the upper middle value instead of averaging both middle values. Because there are six values, the median is $(126+132)\\div2=129$ g."
+    },
+    {
+     "text": "131 g",
+     "correct": false,
+     "explanation": "This results from averaging the wrong pair of values. The two middle values are 126 g and 132 g, whose mean is 129 g."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "f02f6073-9c71-4d0a-84db-2e382dac845c",
+   "card_type": "cloze",
+   "front": "For the mean, divide the [ ___ ] by the [ ___ ].",
+   "back": "For the mean, divide the total of values by the number of values.",
+   "options": [
+    {
+     "text": "For the mean, divide the total of values by the number of values.",
+     "correct": true,
+     "explanation": "The mean is calculated by adding all the values to find their total, then dividing that total by how many values there are."
+    },
+    {
+     "text": "For the mean, divide the number of values by the total of values.",
+     "correct": false,
+     "explanation": "This reverses the mean calculation. The total of the values must be divided by the number of values, not the number divided by the total."
+    },
+    {
+     "text": "For the mean, divide the total of values by the range of values.",
+     "correct": false,
+     "explanation": "The range measures spread and is not the divisor when finding a mean. Divide the total of the values by the number of values."
+    },
+    {
+     "text": "For the mean, divide the highest value by the number of values.",
+     "correct": false,
+     "explanation": "Using only the highest value ignores the other data values. The mean requires the total of all values to be divided by the number of values."
+    }
+   ]
+  },
+  {
+   "id": "53ba45de-04ea-4e0b-b4d6-79027e3e03ac",
+   "card_type": "basic",
+   "front": "What is the mean of 14, 6, 10, 6, 12, 18?",
+   "back": "11",
+   "options": [
+    {
+     "text": "11",
+     "correct": true,
+     "explanation": "The six values total $14+6+10+6+12+18=66$. Dividing this total by 6 gives a mean of $66\\div6=11$."
+    },
+    {
+     "text": "10",
+     "correct": false,
+     "explanation": "This is the median, found from the middle pair after ordering, rather than the mean. The total is 66, so the mean is $66\\div6=11$."
+    },
+    {
+     "text": "12",
+     "correct": false,
+     "explanation": "This can result from an addition or division slip. The values total 66, and dividing by all six values gives $66\\div6=11$, not 12."
+    },
+    {
+     "text": "66",
+     "correct": false,
+     "explanation": "This is the total of the values rather than their mean. The total of 66 must be divided by the six values, giving a mean of 11."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "b9f5bcde-b61b-46ba-a8a5-7878681d622e",
+   "card_type": "cloze",
+   "front": "To work backwards from a mean: [ ___ ] = [ ___ ].",
+   "back": "To work backwards from a mean: total = mean × number of values.",
+   "options": [
+    {
+     "text": "To work backwards from a mean: total = mean × number of values.",
+     "correct": true,
+     "explanation": "Since mean equals total divided by the number of values, reversing the division gives total equals mean multiplied by the number of values."
+    },
+    {
+     "text": "To work backwards from a mean: mean = total × number of values.",
+     "correct": false,
+     "explanation": "This incorrectly multiplies the total by the number of values. To reconstruct the total, multiply the mean by the number of values."
+    },
+    {
+     "text": "To work backwards from a mean: total = mean ÷ number of values.",
+     "correct": false,
+     "explanation": "Dividing the mean by the number of values makes the result too small. The total is found by multiplying the mean by the number of values."
+    },
+    {
+     "text": "To work backwards from a mean: number of values = total × mean.",
+     "correct": false,
+     "explanation": "This uses multiplication while making the number of values the subject incorrectly. The required relationship is total equals mean multiplied by number of values."
+    }
+   ]
+  },
+  {
+   "id": "71a7653e-1345-4d67-89a5-a550c59c95c6",
+   "card_type": "basic",
+   "front": "If 6 numbers have mean 10, what total must they have?",
+   "back": "60",
+   "options": [
+    {
+     "text": "60",
+     "correct": true,
+     "explanation": "The total is found by multiplying the mean by the number of values. Therefore, the required total is $10\\times6=60$."
+    },
+    {
+     "text": "16",
+     "correct": false,
+     "explanation": "This adds the mean and number of values instead of multiplying them. A mean of 10 across 6 numbers requires a total of $10\\times6=60$."
+    },
+    {
+     "text": "50",
+     "correct": false,
+     "explanation": "This effectively accounts for only five values at the stated mean. All six numbers must total $6\\times10=60$, not 50."
+    },
+    {
+     "text": "70",
+     "correct": false,
+     "explanation": "This effectively includes one extra value at the stated mean. For six numbers, multiply $6\\times10$ to obtain the required total of 60."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "b1f7fc28-0312-4864-a634-e8832a8f3f4b",
+   "card_type": "basic",
+   "front": "Seven values have mean 9. What total is needed?",
+   "back": "63",
+   "options": [
+    {
+     "text": "63",
+     "correct": true,
+     "explanation": "The total equals the mean multiplied by the number of values. With seven values of mean 9, the required total is $7\\times9=63$."
+    },
+    {
+     "text": "16",
+     "correct": false,
+     "explanation": "This adds 7 and 9 rather than multiplying them. The total needed for seven values with mean 9 is $7\\times9=63$."
+    },
+    {
+     "text": "56",
+     "correct": false,
+     "explanation": "This uses 8 as the number of values, producing $8\\times7=56$. There are seven values with mean 9, so the total is 63."
+    },
+    {
+     "text": "72",
+     "correct": false,
+     "explanation": "This treats the data as if there were eight values of mean 9. There are only seven, so the required total is $7\\times9=63$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "0c20d7d4-7f4b-4364-8553-10e1f03ff601",
+   "card_type": "basic",
+   "front": "12, 5, 9, 10, 8, 11, ? have mean 9. What is ?",
+   "back": "8",
+   "options": [
+    {
+     "text": "8",
+     "correct": true,
+     "explanation": "Seven values with mean 9 must total $7\\times9=63$. The six known values total 55, so the missing value is $63-55=8$."
+    },
+    {
+     "text": "7",
+     "correct": false,
+     "explanation": "This may come from misadding the known values as 56. Their actual total is 55, so the missing value is $63-55=8$."
+    },
+    {
+     "text": "9",
+     "correct": false,
+     "explanation": "This assumes the missing value must equal the mean. The known values total 55, so 8 is needed to reach the required total of 63."
+    },
+    {
+     "text": "18",
+     "correct": false,
+     "explanation": "This confuses the required adjustment with a much larger value. The target total is 63 and the known total is 55, leaving only 8."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "138d46c1-74c3-4e31-9765-e92bd30de2f6",
+   "card_type": "basic",
+   "front": "2, 4, ?, 7, 5, ? have mean 5. What must the hidden numbers add to?",
+   "back": "12",
+   "options": [
+    {
+     "text": "12",
+     "correct": true,
+     "explanation": "Six values with mean 5 need a total of $6\\times5=30$. The known values total 18, so the hidden numbers must add to $30-18=12$."
+    },
+    {
+     "text": "30",
+     "correct": false,
+     "explanation": "This is the required total of all six values, not the sum of the hidden numbers. Subtracting the known total of 18 leaves 12."
+    },
+    {
+     "text": "18",
+     "correct": false,
+     "explanation": "This is the sum of the four visible numbers rather than the hidden numbers. The full total must be 30, so the hidden sum is $30-18=12$."
+    },
+    {
+     "text": "10",
+     "correct": false,
+     "explanation": "This assumes both hidden numbers must individually equal the mean. They only need to balance the data, and their combined total must be $30-18=12$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "d55d9601-14d1-423f-85f2-74206cf78c05",
+   "card_type": "basic",
+   "front": "For 2, 4, ?, 7, 5, ? with mode 4, what must one hidden number be?",
+   "back": "4",
+   "options": [
+    {
+     "text": "4",
+     "correct": true,
+     "explanation": "The list currently contains only one 4, so at least one hidden number must also be 4 for 4 to occur most often and be the mode."
+    },
+    {
+     "text": "2",
+     "correct": false,
+     "explanation": "Choosing 2 would only repeat the 2 and could make it the mode instead. At least one hidden number must be 4 so that 4 occurs most often."
+    },
+    {
+     "text": "5",
+     "correct": false,
+     "explanation": "Choosing 5 would repeat the 5 rather than ensure that 4 is the mode. One of the hidden numbers must be 4 to increase its frequency."
+    },
+    {
+     "text": "7",
+     "correct": false,
+     "explanation": "Choosing 7 would repeat the 7, so it would not ensure that 4 becomes the mode. At least one hidden number must be 4."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "2720ec7b-37fa-4056-89cb-52a6309321a5",
+   "card_type": "basic",
+   "front": "If two hidden numbers add to 12 and one is 4, what is the other?",
+   "back": "8",
+   "options": [
+    {
+     "text": "8",
+     "correct": true,
+     "explanation": "The hidden numbers have a total of 12, so subtract the known number: $12-4=8$. Therefore, the other hidden number is 8."
+    },
+    {
+     "text": "6",
+     "correct": false,
+     "explanation": "Halving 12 assumes that the two hidden numbers are equal, but one is already known to be 4. Subtracting gives $12-4=8$."
+    },
+    {
+     "text": "16",
+     "correct": false,
+     "explanation": "Adding 12 and 4 finds a total larger than the stated combined value. The other number is found by subtraction: $12-4=8$."
+    },
+    {
+     "text": "3",
+     "correct": false,
+     "explanation": "Dividing 12 by 4 confuses the known number with a number of equal groups. Since the two numbers total 12, the other is $12-4=8$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "2adbd3cc-9dd9-41ac-92fb-0d28dba8fe97",
+   "card_type": "basic",
+   "front": "When adding a new value, what should you do to the old mean first?",
+   "back": "Turn it back into a total.",
+   "options": [
+    {
+     "text": "Turn it back into a total.",
+     "correct": true,
+     "explanation": "A mean does not preserve the full sum by itself. Multiply the old mean by the old number of values to recover the total before adding the new value."
+    },
+    {
+     "text": "Turn it back into a median.",
+     "correct": false,
+     "explanation": "The median is the middle ordered value and cannot be recovered from the mean alone. Instead, multiply the old mean by the number of values to obtain the total."
+    },
+    {
+     "text": "Turn it back into a range.",
+     "correct": false,
+     "explanation": "The range is the difference between the greatest and least values, not a step in updating a mean. First convert the old mean into a total."
+    },
+    {
+     "text": "Turn it back into a frequency.",
+     "correct": false,
+     "explanation": "A frequency records how often a value occurs, so it cannot be obtained by converting the mean. Multiply the old mean by the number of values to recover the total."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "5b899378-bf2f-45b7-97eb-9bfa9f6ec3ee",
+   "card_type": "basic",
+   "front": "Mean of 6 numbers is 20. Mean of 2 is 14. What is the mean of the other 4?",
+   "back": "23",
+   "options": [
+    {
+     "text": "23",
+     "correct": true,
+     "explanation": "The total of all six numbers is $6\\times20=120$, while the two numbers total $2\\times14=28$. The remaining mean is $(120-28)\\div4=23$."
+    },
+    {
+     "text": "26",
+     "correct": false,
+     "explanation": "This treats the two subgroup means as equally weighted and solves $(14+x)\\div2=20$. The groups have different sizes; using their totals gives $(120-28)\\div4=23$."
+    },
+    {
+     "text": "26.5",
+     "correct": false,
+     "explanation": "This subtracts the subgroup mean 14 only once from the total, giving $(120-14)\\div4=26.5$. Its two values actually total 28, so the answer is 23."
+    },
+    {
+     "text": "22",
+     "correct": false,
+     "explanation": "This results from the subtraction error $120-28=88$. The correct remaining total is 92, and dividing it by the four remaining numbers gives 23."
+    }
+   ],
+   "points": 3
+  }
+ ],
+ "card_count": 20,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-2-2-14-averages/flashcards",
+ "source_sha256": "cfc14d1cabf63f7ce154f46f3cfddeab79bce9753e7a5144d694bd480b9fce25",
+ "extracted_at": "2026-11-08T17:55:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-1 run-001)",
+ "task_id": "T-MG-FC-1"
+}
