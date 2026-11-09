@@ -1,0 +1,869 @@
+{
+ "format": "guided-lesson/0.6",
+ "noteRef": {
+  "noteId": "rn_Hm9hzsXmd3k7p72w",
+  "corpusVersion": "sme-revision-notes-igcse-physics-19-2026-09-17",
+  "topicTitle": "7. Radioactivity and Particles",
+  "subtopicTitle": "Properties of Radiation",
+  "sourceUrl": "https://www.savemyexams.com/igcse/physics/edexcel/19/revision-notes/7-radioactivity-and-particles/7-1-properties-of-radiation/7-1-4-core-practical-investigating-radiation"
+ },
+ "specPoints": [
+  {
+   "code": "7.6",
+   "text": "practical: investigate the penetration powers of different types of radiation using either radioactive sources or simulations"
+  }
+ ],
+ "primer": {
+  "text": "How do we know which radiations a source emits? Place absorbers in its path and watch the count rate. This core practical measures penetration: paper, aluminium and lead act as the three filters, with background subtraction and safe handling doing the quiet science.",
+  "prerequisiteSubtopic": "Properties of Radiation"
+ },
+ "lessons": [
+  {
+   "title": "Aim, variables and equipment",
+   "sourceHeadings": [
+    "Aim of the experiment",
+    "Equipment List"
+   ],
+   "specRefs": [
+    "7.6"
+   ],
+   "opening": "The experiment investigates the penetration powers of alpha, beta and gamma radiation by placing absorbers between a source and a Geiger-Müller tube. The absorber material is changed, the count rate is measured, and the source, distance and location are controlled.",
+   "keyPoints": [
+    "The independent variable is the absorber material placed between source and detector.",
+    "The dependent variable is the count rate recorded by the Geiger-Müller tube.",
+    "Control variables include the source itself, the source-to-tube distance and the location’s background level.",
+    "The absorber set spans paper, aluminium of increasing thickness, and lead.",
+    "Repeating each measurement and averaging tames the random flicker of decay.",
+    "Sources are stored in lead-lined containers and handled with tongs."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Fix the source 3 cm from the tube. Slide in paper, then aluminium sheets, then lead plates, and watch the counter after each change.",
+     "analogy": "It is a set of sieves of different weave: whichever sieve cuts the flow tells you the size of what is flowing.",
+     "examPointer": "Name all three variable types explicitly — practical questions award marks for each correct identification."
+    },
+    "medium": {
+     "restatement": "Only the absorber may vary with the count rate; holding the source, geometry and background constant makes the count-rate change attributable to absorption alone. Repeating readings averages the random flicker of radioactive emission.",
+     "analogy": "Testing three swimmer types against pool lanes of increasing length — same pool, same starting block, only the lane length changes.",
+     "examPointer": "If asked why repetitions matter, answer: radioactive decay is random, so repeats and averages tame the fluctuation."
+    }
+   },
+   "check": [
+    {
+     "stem": "In this core practical, what is the independent variable?",
+     "misconceptionClass": "variables recall",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "the absorber material between source and detector",
+       "correct": true,
+       "explanation": "The absorber is deliberately changed to test penetration.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "the count rate",
+       "correct": false,
+       "explanation": "Count rate is measured, so it is the dependent variable.",
+       "misconception": "variable swap"
+      },
+      {
+       "key": "C",
+       "text": "the source-to-tube distance",
+       "correct": false,
+       "explanation": "Distance is held fixed — a control variable.",
+       "misconception": "control confusion"
+      },
+      {
+       "key": "D",
+       "text": "the temperature of the room",
+       "correct": false,
+       "explanation": "Temperature is irrelevant here.",
+       "misconception": "irrelevant variable"
+      }
+     ]
+    },
+    {
+     "stem": "Which quantity is the dependent variable?",
+     "misconceptionClass": "variables recall",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "the count rate",
+       "correct": true,
+       "explanation": "The count rate responds to the absorber change.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "the absorber thickness list",
+       "correct": false,
+       "explanation": "Absorbers are chosen by the experimenter.",
+       "misconception": "variable swap"
+      },
+      {
+       "key": "C",
+       "text": "the identity of the source",
+       "correct": false,
+       "explanation": "The source is controlled, not measured.",
+       "misconception": "control confusion"
+      },
+      {
+       "key": "D",
+       "text": "the time of day",
+       "correct": false,
+       "explanation": "Not a variable of this experiment.",
+       "misconception": "irrelevant variable"
+      }
+     ]
+    },
+    {
+     "stem": "Why is the source kept at a fixed distance from the tube?",
+     "misconceptionClass": "method reasoning",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "so that count-rate changes can only be due to the absorber",
+       "correct": true,
+       "explanation": "Holding geometry constant isolates the absorber’s effect.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "to make the source decay faster",
+       "correct": false,
+       "explanation": "Distance does not change decay behaviour.",
+       "misconception": "decay speed myth"
+      },
+      {
+       "key": "C",
+       "text": "because the tube only works at 3 cm",
+       "correct": false,
+       "explanation": "The tube works at any reasonable distance.",
+       "misconception": "equipment myth"
+      },
+      {
+       "key": "D",
+       "text": "to save absorber material",
+       "correct": false,
+       "explanation": "Absorber use is unrelated to distance.",
+       "misconception": "resource reason"
+      }
+     ]
+    },
+    {
+     "stem": "Which absorber set matches the investigation?",
+     "misconceptionClass": "equipment recall",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "paper, aluminium of several thicknesses, lead",
+       "correct": true,
+       "explanation": "The three absorbers separate alpha, beta and gamma.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "paper and water only",
+       "correct": false,
+       "explanation": "Water is not part of this absorber set.",
+       "misconception": "water confusion"
+      },
+      {
+       "key": "C",
+       "text": "aluminium only",
+       "correct": false,
+       "explanation": "Aluminium alone cannot separate all three radiations.",
+       "misconception": "single absorber"
+      },
+      {
+       "key": "D",
+       "text": "plastic sheets of different colours",
+       "correct": false,
+       "explanation": "Colour is irrelevant; material and thickness matter.",
+       "misconception": "colour confusion"
+      }
+     ]
+    },
+    {
+     "stem": "Sources are stored in lead-lined containers when not in use because…",
+     "misconceptionClass": "safety reasoning",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "lead shielding keeps emissions contained between measurements",
+       "correct": true,
+       "explanation": "Storage shielding protects people when no measurement is running.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "lead makes the source more active",
+       "correct": false,
+       "explanation": "Shielding never changes the source’s activity.",
+       "misconception": "activation myth"
+      },
+      {
+       "key": "C",
+       "text": "lead stops the source decaying",
+       "correct": false,
+       "explanation": "Nothing stops radioactive decay.",
+       "misconception": "decay stop myth"
+      },
+      {
+       "key": "D",
+       "text": "the counter needs lead to work",
+       "correct": false,
+       "explanation": "The counter is independent of storage shielding.",
+       "misconception": "equipment confusion"
+      }
+     ]
+    },
+    {
+     "stem": "Name the instrument used to measure the count rate in this experiment.",
+     "misconceptionClass": "equipment recall",
+     "kind": "recall",
+     "modelAnswer": "A Geiger-Müller tube connected to a counter measures the count rate.",
+     "keywords": [
+      "geiger",
+      "tube",
+      "count",
+      "rate"
+     ]
+    },
+    {
+     "stem": "State one control variable and one safety precaution for this experiment.",
+     "misconceptionClass": "practical recall",
+     "kind": "recall",
+     "modelAnswer": "Control: keep the same source (or the same source-to-tube distance, or the same location). Safety: handle sources with tongs and store them in lead-lined containers.",
+     "keywords": [
+      "source",
+      "distance",
+      "tongs",
+      "lead"
+     ]
+    },
+    {
+     "stem": "Explain why readings are repeated and averaged in this investigation.",
+     "misconceptionClass": "method reasoning",
+     "kind": "explain-why",
+     "modelAnswer": "Radioactive decay is random, so single readings fluctuate; repeating each measurement and averaging reduces the effect of those fluctuations.",
+     "keywords": [
+      "random",
+      "readings",
+      "averaging",
+      "fluctuate"
+     ]
+    },
+    {
+     "stem": "A student measures with no absorber, then paper, then aluminium. The count rates are 850, 848 and 210. What does this suggest about the emission, and why?",
+     "misconceptionClass": "penetration application",
+     "kind": "application",
+     "modelAnswer": "Paper leaves the rate almost unchanged (850 → 848), so alpha is absent; aluminium cuts it sharply (848 → 210), so beta is being absorbed — the source emits beta.",
+     "keywords": [
+      "paper",
+      "aluminium",
+      "count",
+      "beta"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Method and analysis of results",
+   "sourceHeadings": [
+    "Method",
+    "Analysis of results"
+   ],
+   "specRefs": [
+    "7.6"
+   ],
+   "opening": "First measure the background count with no source present and subtract it from every later reading. Then, source fixed at 3 cm, insert each absorber in turn and record a one-minute count. Where the corrected rate collapses identifies the radiation the absorber stopped.",
+   "keyPoints": [
+    "Measure background first and subtract it to get corrected count rates.",
+    "A corrected rate near background means the radiation has been fully absorbed.",
+    "A drop at paper reveals alpha; a drop at a few millimetres of aluminium reveals beta.",
+    "Radiation still passing a few millimetres of lead indicates gamma.",
+    "Some sources emit more than one type of radiation."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Reading with no source: say 24 per minute. With the source and paper: 800. With aluminium: 20 — back at background. Paper did nothing, aluminium killed it: beta.",
+     "analogy": "Weigh luggage with and without the case, then subtract the case weight — the corrected rate is the true payload.",
+     "examPointer": "Always say \"corrected count rate\" when background has been subtracted — the phrase itself earns credit."
+    },
+    "medium": {
+     "restatement": "Absorption edges classify the emission: the absorber that produces a step down to background is the one matching the radiation’s range. Residual counts above background after lead signal a gamma component, since gamma is only attenuated, never fully stopped by modest shields.",
+     "analogy": "Three locks in a row; the lock that finally stops the intruder identifies how determined the intruder was.",
+     "examPointer": "Mixed sources are real: quote \"the source emits beta and gamma\" style answers when two distinct drops appear."
+    }
+   },
+   "check": [
+    {
+     "stem": "Why is the background count measured before any source is used?",
+     "misconceptionClass": "background reasoning",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "to subtract it from later readings for corrected count rates",
+       "correct": true,
+       "explanation": "Background subtraction isolates the source’s contribution.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "to check the source is working",
+       "correct": false,
+       "explanation": "The source is not present during the background measurement.",
+       "misconception": "source check"
+      },
+      {
+       "key": "C",
+       "text": "to calibrate the absorbers",
+       "correct": false,
+       "explanation": "Absorbers need no calibration by background.",
+       "misconception": "calibration confusion"
+      },
+      {
+       "key": "D",
+       "text": "to make the source decay slower",
+       "correct": false,
+       "explanation": "Nothing about the source changes.",
+       "misconception": "decay myth"
+      }
+     ]
+    },
+    {
+     "stem": "The corrected count rate falls to background level behind paper. Which radiation was emitted?",
+     "misconceptionClass": "analysis reasoning",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "alpha",
+       "correct": true,
+       "explanation": "Only alpha is stopped by paper.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "beta",
+       "correct": false,
+       "explanation": "Beta penetrates paper.",
+       "misconception": "beta misread"
+      },
+      {
+       "key": "C",
+       "text": "gamma",
+       "correct": false,
+       "explanation": "Gamma penetrates paper easily.",
+       "misconception": "gamma misread"
+      },
+      {
+       "key": "D",
+       "text": "no radiation",
+       "correct": false,
+       "explanation": "The drop to background shows radiation was present and then absorbed.",
+       "misconception": "no radiation"
+      }
+     ]
+    },
+    {
+     "stem": "After a few millimetres of lead, some counts above background remain. What does that indicate?",
+     "misconceptionClass": "analysis reasoning",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "a gamma component is still penetrating",
+       "correct": true,
+       "explanation": "Only gamma survives modest lead shielding.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "the lead has become radioactive",
+       "correct": false,
+       "explanation": "Irradiation does not make the lead a source.",
+       "misconception": "activation myth"
+      },
+      {
+       "key": "C",
+       "text": "the GM tube is faulty",
+       "correct": false,
+       "explanation": "Residual gamma, not fault, explains the counts.",
+       "misconception": "faulty tube"
+      },
+      {
+       "key": "D",
+       "text": "alpha is passing through",
+       "correct": false,
+       "explanation": "Alpha cannot pass anything, let alone lead.",
+       "misconception": "alpha leak"
+      }
+     ]
+    },
+    {
+     "stem": "What does a corrected count rate close to zero tell you about the absorber used?",
+     "misconceptionClass": "analysis reasoning",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "it fully absorbed the emitted radiation",
+       "correct": true,
+       "explanation": "Counts at background mean the source contributes nothing through that absorber.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "the absorber emits its own radiation",
+       "correct": false,
+       "explanation": "Absorbers do not emit.",
+       "misconception": "absorber emission"
+      },
+      {
+       "key": "C",
+       "text": "the source has decayed away completely",
+       "correct": false,
+       "explanation": "Decay takes far longer than a measurement session.",
+       "misconception": "decay myth"
+      },
+      {
+       "key": "D",
+       "text": "background was measured wrongly",
+       "correct": false,
+       "explanation": "The comparison itself is the method working as intended.",
+       "misconception": "method doubt"
+      }
+     ]
+    },
+    {
+     "stem": "A source shows a drop at paper AND a further drop at aluminium, with a residual behind lead. What is emitted?",
+     "misconceptionClass": "mixed source reasoning",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "alpha and beta, with some gamma",
+       "correct": true,
+       "explanation": "Two absorption steps identify two components; the lead residual adds gamma.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "alpha only",
+       "correct": false,
+       "explanation": "Alpha alone would show only the paper drop.",
+       "misconception": "single component"
+      },
+      {
+       "key": "C",
+       "text": "beta only",
+       "correct": false,
+       "explanation": "Beta alone would pass paper unchanged.",
+       "misconception": "single component"
+      },
+      {
+       "key": "D",
+       "text": "gamma only",
+       "correct": false,
+       "explanation": "Gamma alone would show no paper or aluminium step.",
+       "misconception": "single component"
+      }
+     ]
+    },
+    {
+     "stem": "Describe how to measure the background count rate.",
+     "misconceptionClass": "background recall",
+     "kind": "recall",
+     "modelAnswer": "Record the count for one minute with no source present, repeat and average; the result is the background count rate to subtract later.",
+     "keywords": [
+      "background",
+      "count",
+      "minute",
+      "source"
+     ]
+    },
+    {
+     "stem": "State what count-rate change reveals a beta emitter in this experiment.",
+     "misconceptionClass": "analysis recall",
+     "kind": "recall",
+     "modelAnswer": "A sharp fall in corrected count rate when a few millimetres of aluminium are inserted identifies beta emission.",
+     "keywords": [
+      "aluminium",
+      "count",
+      "fall",
+      "beta"
+     ]
+    },
+    {
+     "stem": "Explain why the absorbers are tested one at a time rather than all together.",
+     "misconceptionClass": "method reasoning",
+     "kind": "explain-why",
+     "modelAnswer": "Stacking absorbers would hide which one caused the change; testing one at a time attributes each count-rate drop to a single absorber, so each radiation is identified cleanly.",
+     "keywords": [
+      "absorber",
+      "count",
+      "drop",
+      "identified"
+     ]
+    },
+    {
+     "stem": "Corrected rates are: no absorber 600, paper 595, aluminium 60, lead 55. Identify the emission(s) and state what the lead residual shows.",
+     "misconceptionClass": "penetration application",
+     "kind": "application",
+     "modelAnswer": "Paper changes nothing (no alpha); aluminium drops the rate to near background (beta present); the small lead residual of 55 suggests a weak gamma component above background.",
+     "keywords": [
+      "paper",
+      "aluminium",
+      "beta",
+      "gamma",
+      "residual"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Errors and safety",
+   "sourceHeadings": [
+    "Evaluating the experiment",
+    "Safety considerations"
+   ],
+   "specRefs": [
+    "7.6"
+   ],
+   "opening": "Systematic error creeps in when a stray source sits near the counter or the background shifts between locations, so sources stay far away and the site never changes. Random error is tamed with long-lived, active sources; safety runs on distance, tongs and shielding.",
+   "keyPoints": [
+    "Keep sources well away from the counter between runs to avoid systematic error.",
+    "Conduct all runs in the same location so background stays consistent.",
+    "Reliable sources have long half-lives and activities well above background.",
+    "Handle sources with tongs, pointing them away from the body.",
+    "Minimise exposure time and maximise distance when a source is in use."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Store the source on the far bench, do every trial in the same corner of the lab, lift it with tongs, and put it back in its lead box the moment you finish.",
+     "analogy": "Treat the source like a very smelly bin: keep your distance, gloves on, brief trips, and a sealed lid when done.",
+     "examPointer": "Safety marks come in lists: distance, time, shielding, tongs — give several, not one."
+    },
+    "medium": {
+     "restatement": "A nearby source biases every reading upward by the same amount (systematic), while counting noise scatters readings (random). The design counters both: fixed location and remote storage for the former, repeats over a longer interval with an adequately active, long-half-life source for the latter.",
+     "analogy": "A systematic error is a watch running five minutes fast — every reading wrong the same way; random error is a jittery hand — wrong in every direction.",
+     "examPointer": "Long half-life matters because a rapidly fading source changes the count during the experiment itself."
+    }
+   },
+   "check": [
+    {
+     "stem": "Which is a systematic error to avoid in this experiment?",
+     "misconceptionClass": "error identification",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "a spare source sitting near the counter",
+       "correct": true,
+       "explanation": "A stray source lifts every reading the same way.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "a single unusually high count",
+       "correct": false,
+       "explanation": "Single high counts are random fluctuation.",
+       "misconception": "random confusion"
+      },
+      {
+       "key": "C",
+       "text": "choosing lead as an absorber",
+       "correct": false,
+       "explanation": "Absorber choice is the design, not an error.",
+       "misconception": "design confusion"
+      },
+      {
+       "key": "D",
+       "text": "averaging repeated readings",
+       "correct": false,
+       "explanation": "Averaging reduces error; it is not an error.",
+       "misconception": "practice confusion"
+      }
+     ]
+    },
+    {
+     "stem": "Why should every run take place in the same location?",
+     "misconceptionClass": "error reasoning",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "background radiation varies from place to place",
+       "correct": true,
+       "explanation": "Moving changes the baseline being subtracted.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "the tube only works in one place",
+       "correct": false,
+       "explanation": "The tube works anywhere.",
+       "misconception": "equipment myth"
+      },
+      {
+       "key": "C",
+       "text": "sources decay faster elsewhere",
+       "correct": false,
+       "explanation": "Location does not change decay.",
+       "misconception": "decay myth"
+      },
+      {
+       "key": "D",
+       "text": "absorbers work differently in different rooms",
+       "correct": false,
+       "explanation": "Absorption physics is location-independent.",
+       "misconception": "absorber myth"
+      }
+     ]
+    },
+    {
+     "stem": "Why is a source with a long half-life preferred here?",
+     "misconceptionClass": "design reasoning",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "its activity stays steady during the whole experiment",
+       "correct": true,
+       "explanation": "A fading source would corrupt comparisons between absorbers.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "it is less dangerous",
+       "correct": false,
+       "explanation": "Long half-life does not imply low danger.",
+       "misconception": "safety myth"
+      },
+      {
+       "key": "C",
+       "text": "it is cheaper",
+       "correct": false,
+       "explanation": "Cost is not the stated reason.",
+       "misconception": "cost reason"
+      },
+      {
+       "key": "D",
+       "text": "it emits only gamma",
+       "correct": false,
+       "explanation": "Half-life says nothing about the radiation type.",
+       "misconception": "type confusion"
+      }
+     ]
+    },
+    {
+     "stem": "Which practice best reduces exposure while a source is in use?",
+     "misconceptionClass": "safety recall",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "keep it at arm’s length with tongs for the shortest time needed",
+       "correct": true,
+       "explanation": "Distance plus tongs plus minimal time is the standard trio.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "hold it close to keep control of it",
+       "correct": false,
+       "explanation": "Closeness increases dose.",
+       "misconception": "distance inversion"
+      },
+      {
+       "key": "C",
+       "text": "look directly at it to monitor it",
+       "correct": false,
+       "explanation": "Looking has no effect and eye exposure matters.",
+       "misconception": "supervision myth"
+      },
+      {
+       "key": "D",
+       "text": "warm it to room temperature first",
+       "correct": false,
+       "explanation": "Temperature is irrelevant.",
+       "misconception": "irrelevant step"
+      }
+     ]
+    },
+    {
+     "stem": "A student leaves the source on the bench next to the tube for ten minutes between runs. What effect does this have?",
+     "misconceptionClass": "error reasoning",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "every subsequent reading is biased upward",
+       "correct": true,
+       "explanation": "The nearby source adds counts to all later measurements — systematic.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "no effect, storage position does not matter",
+       "correct": false,
+       "explanation": "Storage position absolutely matters.",
+       "misconception": "no effect myth"
+      },
+      {
+       "key": "C",
+       "text": "only the first reading is affected",
+       "correct": false,
+       "explanation": "The bias persists while the source sits there.",
+       "misconception": "single reading myth"
+      },
+      {
+       "key": "D",
+       "text": "the source decays twice as fast",
+       "correct": false,
+       "explanation": "Decay rate is unaffected by position.",
+       "misconception": "decay myth"
+      }
+     ]
+    },
+    {
+     "stem": "State three safety precautions for handling a radioactive source.",
+     "misconceptionClass": "safety recall",
+     "kind": "recall",
+     "modelAnswer": "Keep the source in a lead-lined container when not in use, handle it with tongs, and stay at a good distance while minimising the time it is out.",
+     "keywords": [
+      "lead",
+      "container",
+      "tongs",
+      "distance",
+      "time"
+     ]
+    },
+    {
+     "stem": "Distinguish a systematic error from a random error in this experiment.",
+     "misconceptionClass": "error recall",
+     "kind": "recall",
+     "modelAnswer": "A systematic error shifts all readings the same way (such as a stray source nearby), while a random error scatters readings unpredictably (such as counting noise from decay randomness).",
+     "keywords": [
+      "systematic",
+      "random",
+      "readings",
+      "source"
+     ]
+    },
+    {
+     "stem": "Explain why tongs, rather than gloves alone, are used to move the source.",
+     "misconceptionClass": "safety reasoning",
+     "kind": "explain-why",
+     "modelAnswer": "Tongs hold the source at a distance, and dose falls sharply with separation; gloves alone would keep the source against the hand at zero distance.",
+     "keywords": [
+      "tongs",
+      "distance",
+      "dose",
+      "source"
+     ]
+    },
+    {
+     "stem": "During the experiment the lab’s background rises because a colleague unboxes a different source across the room. Explain the effect on your corrected rates and one fix.",
+     "misconceptionClass": "error application",
+     "kind": "application",
+     "modelAnswer": "The raised background is still subtracted if re-measured, but a fixed old subtraction over-corrects or under-corrects every rate; the fix is to re-measure the background in the changed conditions (and keep all sources far from the counter).",
+     "keywords": [
+      "background",
+      "subtract",
+      "corrected",
+      "source"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "independent variable",
+    "definition": "The quantity deliberately changed by the experimenter — here, the absorber material.",
+    "firstLesson": 1
+   },
+   {
+    "term": "dependent variable",
+    "definition": "The quantity measured in response — here, the count rate.",
+    "firstLesson": 1
+   },
+   {
+    "term": "corrected count rate",
+    "definition": "The measured count rate with the background count rate subtracted.",
+    "firstLesson": 2
+   },
+   {
+    "term": "background radiation",
+    "definition": "The ionising radiation present all around us from natural and artificial sources.",
+    "firstLesson": 2
+   }
+  ],
+  "workedExample": null
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/3833b82a4b12-7-1-4-investigating-radiation-apparatus.png",
+   "alt": "Investigating Radiation Apparatus, downloadable IGCSE & GCSE Physics revision notes",
+   "sourceHeading": "Method",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "Apparatus for investigating the penetrating powers of different types of radiation"
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/dc0ab3585790-8-1-3-radiation-stopping-distances.png",
+   "alt": "Radiation Stopping Distances, downloadable AS & A Level Physics revision notes",
+   "sourceHeading": "Analysis of results",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "Penetrating power of alpha, beta and gamma radiation"
+  }
+ ]
+}

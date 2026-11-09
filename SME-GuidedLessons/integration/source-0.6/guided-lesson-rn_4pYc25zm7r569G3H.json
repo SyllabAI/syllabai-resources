@@ -1,0 +1,888 @@
+{
+ "format": "guided-lesson/0.6",
+ "noteRef": {
+  "noteId": "rn_4pYc25zm7r569G3H",
+  "corpusVersion": "sme-revision-notes-igcse-physics-19-2026-09-17",
+  "topicTitle": "7. Radioactivity and Particles",
+  "subtopicTitle": "Properties of Radiation",
+  "sourceUrl": "https://www.savemyexams.com/igcse/physics/edexcel/19/revision-notes/7-radioactivity-and-particles/7-1-properties-of-radiation/7-1-5-decay-equations"
+ },
+ "specPoints": [
+  {
+   "code": "7.7",
+   "text": "describe the effects on the atomic and mass numbers of a nucleus of the emission of each of the four main types of radiation (alpha, beta, gamma and neutron radiation)"
+  },
+  {
+   "code": "7.8",
+   "text": "understand how to balance nuclear equations in terms of mass and charge"
+  }
+ ],
+ "primer": {
+  "text": "Every emission rewrites the nucleus in a predictable way: alpha removes two protons and two neutrons, beta promotes a neutron to a proton, gamma changes nothing but energy, and neutron emission trims one nucleon. Balance mass and charge either side and any decay equation yields.",
+  "prerequisiteSubtopic": "Properties of Radiation"
+ },
+ "lessons": [
+  {
+   "title": "Alpha and beta decay",
+   "sourceHeadings": [
+    "Alpha decay",
+    "Beta decay"
+   ],
+   "specRefs": [
+    "7.7"
+   ],
+   "opening": "In alpha decay the nucleus ejects a helium nucleus, cutting its mass number by 4 and its atomic number by 2 — a new element forms. In beta decay a neutron turns into a proton and an emitted electron, so the mass number holds while the atomic number rises by 1.",
+   "keyPoints": [
+    "Alpha emission lowers the mass number by 4 and the atomic number by 2.",
+    "An alpha particle is a helium nucleus, so the daughter element is a different element.",
+    "Beta decay changes a neutron into a proton plus an emitted electron.",
+    "In beta decay the mass number is unchanged and the atomic number increases by 1.",
+    "A beta particle has mass number 0 and atomic number −1 in nuclear notation."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Alpha: subtract 4 from the top number and 2 from the bottom. Beta: top number stays, bottom number climbs by 1.",
+     "analogy": "Alpha is throwing a four-person lifeboat off a ship (two oarsmen, two passengers gone); beta is a crew member switching uniforms but staying aboard.",
+     "examPointer": "Write the two number changes per emission as a mini-table — examiners award the arithmetic even if element names are unknown."
+    },
+    "medium": {
+     "restatement": "The emitted alpha carries A = 4, Z = 2, so nucleon and proton conservation fix the daughter. In beta decay charge conservation requires Z to rise by 1 because the emitted electron carries charge −1 while the nucleon total stays constant.",
+     "analogy": "The nuclear ledger never lies: whatever leaves the nucleus is deducted from its accounts, and both the mass and the charge columns must still balance.",
+     "examPointer": "Element names are never required — only the balanced numbers. Do not waste time memorising daughters."
+    }
+   },
+   "check": [
+    {
+     "stem": "What happens to the mass number of a nucleus that emits an alpha particle?",
+     "misconceptionClass": "alpha recall",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "it decreases by 4",
+       "correct": true,
+       "explanation": "The alpha removes two protons and two neutrons.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "it decreases by 2",
+       "correct": false,
+       "explanation": "Two is the atomic-number change.",
+       "misconception": "number swap"
+      },
+      {
+       "key": "C",
+       "text": "it stays the same",
+       "correct": false,
+       "explanation": "Beta leaves the mass number; alpha does not.",
+       "misconception": "beta confusion"
+      },
+      {
+       "key": "D",
+       "text": "it increases by 4",
+       "correct": false,
+       "explanation": "Emission removes, never adds, nucleons.",
+       "misconception": "direction error"
+      }
+     ]
+    },
+    {
+     "stem": "In beta decay, the atomic number of the daughter nucleus…",
+     "misconceptionClass": "beta recall",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "increases by 1",
+       "correct": true,
+       "explanation": "The neutron-to-proton conversion adds one proton.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "decreases by 1",
+       "correct": false,
+       "explanation": "That would need a proton-to-neutron change.",
+       "misconception": "direction error"
+      },
+      {
+       "key": "C",
+       "text": "stays the same",
+       "correct": false,
+       "explanation": "Gamma or neutron emission leaves Z; beta does not.",
+       "misconception": "gamma confusion"
+      },
+      {
+       "key": "D",
+       "text": "doubles",
+       "correct": false,
+       "explanation": "Nothing in beta decay scales by two.",
+       "misconception": "scale myth"
+      }
+     ]
+    },
+    {
+     "stem": "A beta particle is best described as…",
+     "misconceptionClass": "nature recall",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "an electron emitted from the nucleus",
+       "correct": true,
+       "explanation": "Beta-minus is a nuclear electron.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "a helium nucleus",
+       "correct": false,
+       "explanation": "That is alpha.",
+       "misconception": "alpha confusion"
+      },
+      {
+       "key": "C",
+       "text": "an electromagnetic wave",
+       "correct": false,
+       "explanation": "That is gamma.",
+       "misconception": "gamma confusion"
+      },
+      {
+       "key": "D",
+       "text": "a free neutron",
+       "correct": false,
+       "explanation": "Neutron emission is a separate mode.",
+       "misconception": "neutron confusion"
+      }
+     ]
+    },
+    {
+     "stem": "Why does a nucleus that emits an alpha particle become a different element?",
+     "misconceptionClass": "transmutation reasoning",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "because its atomic number falls by 2, and the proton count defines the element",
+       "correct": true,
+       "explanation": "Identity follows the proton count.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "because its mass number fell",
+       "correct": false,
+       "explanation": "Mass change alone would leave the element (an isotope).",
+       "misconception": "isotope confusion"
+      },
+      {
+       "key": "C",
+       "text": "because it lost electrons",
+       "correct": false,
+       "explanation": "Electrons are irrelevant to element identity.",
+       "misconception": "electron confusion"
+      },
+      {
+       "key": "D",
+       "text": "because alpha is radioactive",
+       "correct": false,
+       "explanation": "The identity change is arithmetic, not a label.",
+       "misconception": "labelling myth"
+      }
+     ]
+    },
+    {
+     "stem": "Which emission leaves both the mass number and the atomic number unchanged?",
+     "misconceptionClass": "emission comparison",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "gamma",
+       "correct": true,
+       "explanation": "Gamma carries energy but no nucleons or charge.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "alpha",
+       "correct": false,
+       "explanation": "Alpha changes both numbers.",
+       "misconception": "alpha confusion"
+      },
+      {
+       "key": "C",
+       "text": "beta",
+       "correct": false,
+       "explanation": "Beta changes the atomic number.",
+       "misconception": "beta confusion"
+      },
+      {
+       "key": "D",
+       "text": "neutron emission",
+       "correct": false,
+       "explanation": "It lowers the mass number by 1.",
+       "misconception": "neutron confusion"
+      }
+     ]
+    },
+    {
+     "stem": "State the changes in mass number and atomic number when a nucleus emits an alpha particle.",
+     "misconceptionClass": "alpha recall",
+     "kind": "recall",
+     "modelAnswer": "The mass number decreases by 4 and the atomic number decreases by 2.",
+     "keywords": [
+      "mass",
+      "atomic",
+      "alpha",
+      "decrease"
+     ]
+    },
+    {
+     "stem": "Describe what happens to a neutron during beta decay.",
+     "misconceptionClass": "beta recall",
+     "kind": "recall",
+     "modelAnswer": "The neutron changes into a proton, which stays in the nucleus, and an electron, which is emitted as the beta particle.",
+     "keywords": [
+      "neutron",
+      "proton",
+      "electron",
+      "beta"
+     ]
+    },
+    {
+     "stem": "Explain why the mass number is unchanged in beta decay but the atomic number rises by 1.",
+     "misconceptionClass": "beta reasoning",
+     "kind": "explain-why",
+     "modelAnswer": "A neutron becomes a proton: the total nucleon count is unchanged, so the mass number stays; the proton count rises by one, so the atomic number increases by 1.",
+     "keywords": [
+      "neutron",
+      "proton",
+      "mass",
+      "atomic"
+     ]
+    },
+    {
+     "stem": "A nucleus of atomic number 88 and mass number 226 emits an alpha particle. State the atomic and mass numbers of the daughter nucleus.",
+     "misconceptionClass": "alpha application",
+     "kind": "application",
+     "modelAnswer": "Alpha decay: atomic number 88 − 2 = 86, mass number 226 − 4 = 222.",
+     "keywords": [
+      "atomic",
+      "mass",
+      "alpha",
+      "decay"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Gamma decay and neutron emission",
+   "sourceHeadings": [
+    "Gamma decay",
+    "Neutron emission"
+   ],
+   "specRefs": [
+    "7.7"
+   ],
+   "opening": "Gamma decay lets an excited nucleus shed pure energy: no protons or neutrons leave, so both numbers stay the same. Neutron emission instead trims one nucleon — the mass number falls by 1 while the atomic number holds, producing another isotope of the same element.",
+   "keyPoints": [
+    "Gamma emission carries away energy but no mass or charge.",
+    "After gamma decay the mass and atomic numbers are exactly as before.",
+    "Neutron emission lowers the mass number by 1 and leaves the atomic number unchanged.",
+    "Neutron emission turns a nucleus into another isotope of the same element."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Gamma: same element, same numbers, less energy. Neutron emission: top number down by 1, bottom number unchanged — same element, lighter isotope.",
+     "analogy": "Gamma is a hot pan cooling without losing any ingredients; neutron emission is tipping one marble out of a jar — same marbles, one fewer.",
+     "examPointer": "Neutron emission is the odd one out: know its A − 1, Z rule alongside the other three."
+    },
+    "medium": {
+     "restatement": "Because gamma carries neither nucleon number nor charge, conservation leaves the nucleus identity and both counts intact — only its energy state drops. Neutron emission removes a neutral nucleon, so charge is conserved trivially and the proton count, hence the element, is fixed.",
+     "analogy": "Gamma decay is venting steam from a kettle (nothing material leaves); neutron emission is dropping one coin from a purse of mixed coins — the denominations (elements) are unchanged, the total (mass) falls.",
+     "examPointer": "Isotope questions: \"same element, different mass\" points to neutron emission as the decay route."
+    }
+   },
+   "check": [
+    {
+     "stem": "What does a gamma ray carry away from a nucleus?",
+     "misconceptionClass": "gamma recall",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "energy only",
+       "correct": true,
+       "explanation": "Gamma has no mass and no charge — pure energy.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "two protons and two neutrons",
+       "correct": false,
+       "explanation": "That is alpha’s cargo.",
+       "misconception": "alpha confusion"
+      },
+      {
+       "key": "C",
+       "text": "one neutron",
+       "correct": false,
+       "explanation": "That is neutron emission.",
+       "misconception": "neutron confusion"
+      },
+      {
+       "key": "D",
+       "text": "one electron",
+       "correct": false,
+       "explanation": "That is beta’s cargo.",
+       "misconception": "beta confusion"
+      }
+     ]
+    },
+    {
+     "stem": "After neutron emission, the daughter nucleus is…",
+     "misconceptionClass": "neutron emission recall",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "another isotope of the same element",
+       "correct": true,
+       "explanation": "Proton count unchanged, mass number down by one.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "a different element entirely",
+       "correct": false,
+       "explanation": "The atomic number did not change.",
+       "misconception": "element change"
+      },
+      {
+       "key": "C",
+       "text": "unchanged in every way",
+       "correct": false,
+       "explanation": "The mass number fell by 1.",
+       "misconception": "no change"
+      },
+      {
+       "key": "D",
+       "text": "a helium nucleus",
+       "correct": false,
+       "explanation": "Nothing helium-like is involved.",
+       "misconception": "alpha confusion"
+      }
+     ]
+    },
+    {
+     "stem": "How do the mass and atomic numbers change in gamma decay?",
+     "misconceptionClass": "gamma recall",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "both stay the same",
+       "correct": true,
+       "explanation": "Gamma changes neither count.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "mass down 1, atomic same",
+       "correct": false,
+       "explanation": "That is neutron emission.",
+       "misconception": "neutron confusion"
+      },
+      {
+       "key": "C",
+       "text": "mass down 4, atomic down 2",
+       "correct": false,
+       "explanation": "That is alpha decay.",
+       "misconception": "alpha confusion"
+      },
+      {
+       "key": "D",
+       "text": "mass same, atomic up 1",
+       "correct": false,
+       "explanation": "That is beta decay.",
+       "misconception": "beta confusion"
+      }
+     ]
+    },
+    {
+     "stem": "A nucleus emits a neutron. Its new mass number is…",
+     "misconceptionClass": "neutron emission recall",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "one less than before",
+       "correct": true,
+       "explanation": "One nucleon left the nucleus.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "one more than before",
+       "correct": false,
+       "explanation": "Emission reduces the count.",
+       "misconception": "direction error"
+      },
+      {
+       "key": "C",
+       "text": "four less than before",
+       "correct": false,
+       "explanation": "Four is the alpha loss.",
+       "misconception": "alpha confusion"
+      },
+      {
+       "key": "D",
+       "text": "unchanged",
+       "correct": false,
+       "explanation": "Only gamma leaves the mass number alone.",
+       "misconception": "gamma confusion"
+      }
+     ]
+    },
+    {
+     "stem": "Why does neutron emission not change the chemical identity of the atom?",
+     "misconceptionClass": "identity reasoning",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "because the proton count, which defines the element, is untouched",
+       "correct": true,
+       "explanation": "Neutrons carry no charge and no proton number.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "because neutrons decide the element",
+       "correct": false,
+       "explanation": "Protons decide the element.",
+       "misconception": "neutron identity"
+      },
+      {
+       "key": "C",
+       "text": "because the emitted neutron takes a proton with it",
+       "correct": false,
+       "explanation": "It leaves alone.",
+       "misconception": "cargo myth"
+      },
+      {
+       "key": "D",
+       "text": "because the electron count rises",
+       "correct": false,
+       "explanation": "The electron count is not what identity rests on.",
+       "misconception": "electron confusion"
+      }
+     ]
+    },
+    {
+     "stem": "State the effect of gamma emission on the mass number and atomic number.",
+     "misconceptionClass": "gamma recall",
+     "kind": "recall",
+     "modelAnswer": "Both the mass number and the atomic number remain the same, because gamma carries no protons, neutrons or charge.",
+     "keywords": [
+      "gamma",
+      "mass",
+      "atomic",
+      "same"
+     ]
+    },
+    {
+     "stem": "State the changes caused by neutron emission.",
+     "misconceptionClass": "neutron emission recall",
+     "kind": "recall",
+     "modelAnswer": "The mass number decreases by 1 and the atomic number stays the same, forming another isotope of the same element.",
+     "keywords": [
+      "mass",
+      "atomic",
+      "neutron",
+      "isotope"
+     ]
+    },
+    {
+     "stem": "Explain why gamma decay can leave a nucleus with identical numbers yet a different state.",
+     "misconceptionClass": "gamma reasoning",
+     "kind": "explain-why",
+     "modelAnswer": "Gamma carries only energy, so no protons or neutrons leave; the nucleus keeps its composition but loses surplus energy, settling into a lower-energy state.",
+     "keywords": [
+      "gamma",
+      "energy",
+      "nucleus",
+      "state"
+     ]
+    },
+    {
+     "stem": "A nucleus has mass number 9 and atomic number 4 and emits a neutron. Give the daughter’s numbers and say what relation it bears to the original.",
+     "misconceptionClass": "neutron emission application",
+     "kind": "application",
+     "modelAnswer": "The daughter has mass number 9 − 1 = 8 and atomic number 4; with the same proton count it is another isotope of the same element.",
+     "keywords": [
+      "mass",
+      "atomic",
+      "neutron",
+      "isotope"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Balancing nuclear equations",
+   "sourceHeadings": [
+    "Decay equations",
+    "Nuclear decay equations"
+   ],
+   "specRefs": [
+    "7.8"
+   ],
+   "opening": "A decay equation must balance in both mass number and atomic number: the totals before the arrow equal the totals after. Check any equation by adding top numbers and bottom numbers separately — polonium-212 decaying to lead-208 plus an alpha is the model case.",
+   "keyPoints": [
+    "Particles before the decay sit before the arrow; products sit after it.",
+    "The sum of mass numbers is equal on both sides of a balanced equation.",
+    "The sum of atomic numbers is equal on both sides as well.",
+    "Polonium-212 → lead-208 + alpha balances: 212 = 208 + 4 and 84 = 82 + 2.",
+    "You never need the daughter’s element name — only its balanced numbers."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Add the top numbers each side; they must match. Add the bottom numbers each side; they must match. If either pair differs, the equation is wrong.",
+     "analogy": "It is a till receipt: whatever leaves the till (nucleus) must appear itemised on the customer’s side.",
+     "examPointer": "Show both checks explicitly (mass, then charge) — the working is worth as much as the answer."
+    },
+    "medium": {
+     "restatement": "Conservation of nucleon number and of charge underwrites the two balances. Unknown daughters are solved algebraically: write A, Z for the missing particle and equate sums, which recovers alpha (4, 2), beta (0, −1), gamma (0, 0) or neutron (1, 0) emissions from the arithmetic alone.",
+     "analogy": "Two accounting columns that must reconcile — the missing entry is whatever makes the columns add up.",
+     "examPointer": "For \"find the missing particle\" questions, compute ΔA and ΔZ first; the pair (4,2), (0,−1), (0,0), (1,0) names the emission."
+    }
+   },
+   "check": [
+    {
+     "stem": "In the decay of polonium-212 (Z = 84) to lead-208 plus alpha, which balance holds?",
+     "misconceptionClass": "balance recall",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "212 = 208 + 4 and 84 = 82 + 2",
+       "correct": true,
+       "explanation": "Both the mass and the atomic columns balance exactly.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "212 = 208 + 2 and 84 = 82 + 4",
+       "correct": false,
+       "explanation": "The 4 belongs with mass, the 2 with atomic number.",
+       "misconception": "column swap"
+      },
+      {
+       "key": "C",
+       "text": "212 = 208 + 4 and 84 = 82 + 1",
+       "correct": false,
+       "explanation": "The atomic balance needs 2, the alpha’s protons.",
+       "misconception": "atomic mismatch"
+      },
+      {
+       "key": "D",
+       "text": "212 = 206 + 4 and 84 = 82 + 2",
+       "correct": false,
+       "explanation": "The daughter mass is 208, not 206.",
+       "misconception": "daughter error"
+      }
+     ]
+    },
+    {
+     "stem": "A decay equation for beta emission must show the beta particle with…",
+     "misconceptionClass": "beta notation recall",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "mass number 0 and atomic number −1",
+       "correct": true,
+       "explanation": "The electron carries charge −1 and negligible mass.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "mass number 4 and atomic number 2",
+       "correct": false,
+       "explanation": "Those are alpha’s numbers.",
+       "misconception": "alpha confusion"
+      },
+      {
+       "key": "C",
+       "text": "mass number 1 and atomic number 0",
+       "correct": false,
+       "explanation": "Those are a neutron’s numbers.",
+       "misconception": "neutron confusion"
+      },
+      {
+       "key": "D",
+       "text": "mass number 0 and atomic number +1",
+       "correct": false,
+       "explanation": "A positive electron is not beta-minus.",
+       "misconception": "charge sign error"
+      }
+     ]
+    },
+    {
+     "stem": "An unknown emission leaves ΔA = 0 and ΔZ = 0 for the nucleus. The missing particle is…",
+     "misconceptionClass": "balance reasoning",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "a gamma ray",
+       "correct": true,
+       "explanation": "Zero mass and zero charge change is gamma.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "an alpha particle",
+       "correct": false,
+       "explanation": "Alpha gives ΔA = 4, ΔZ = 2.",
+       "misconception": "alpha confusion"
+      },
+      {
+       "key": "C",
+       "text": "a beta particle",
+       "correct": false,
+       "explanation": "Beta gives ΔZ = 1.",
+       "misconception": "beta confusion"
+      },
+      {
+       "key": "D",
+       "text": "a neutron",
+       "correct": false,
+       "explanation": "Neutron emission gives ΔA = 1.",
+       "misconception": "neutron confusion"
+      }
+     ]
+    },
+    {
+     "stem": "The nucleus with atomic number 11 and mass number 24 undergoes beta decay. The daughter has…",
+     "misconceptionClass": "balance application",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "atomic number 12, mass number 24",
+       "correct": true,
+       "explanation": "Z rises to 12; A stays at 24.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "atomic number 12, mass number 23",
+       "correct": false,
+       "explanation": "Beta leaves the mass number unchanged.",
+       "misconception": "mass change myth"
+      },
+      {
+       "key": "C",
+       "text": "atomic number 10, mass number 24",
+       "correct": false,
+       "explanation": "The atomic number rises, not falls, in beta-minus.",
+       "misconception": "direction error"
+      },
+      {
+       "key": "D",
+       "text": "atomic number 11, mass number 23",
+       "correct": false,
+       "explanation": "Neither number falls in beta decay.",
+       "misconception": "gamma confusion"
+      }
+     ]
+    },
+    {
+     "stem": "Why can the daughter element’s name be skipped when balancing decay equations?",
+     "misconceptionClass": "method reasoning",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "because the balanced atomic and mass numbers identify the nucleus completely",
+       "correct": true,
+       "explanation": "The two numbers plus the symbol pattern are what equations require.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "because names are secret",
+       "correct": false,
+       "explanation": "Names are simply unnecessary for the marks.",
+       "misconception": "nonsense reason"
+      },
+      {
+       "key": "C",
+       "text": "because all daughters are lead",
+       "correct": false,
+       "explanation": "Daughters vary with the parent.",
+       "misconception": "lead myth"
+      },
+      {
+       "key": "D",
+       "text": "because the daughter is always an isotope of the parent",
+       "correct": false,
+       "explanation": "Alpha and beta change the element.",
+       "misconception": "isotope myth"
+      }
+     ]
+    },
+    {
+     "stem": "State the two balances that must hold in any nuclear decay equation.",
+     "misconceptionClass": "balance recall",
+     "kind": "recall",
+     "modelAnswer": "The total mass numbers before and after must be equal, and the total atomic numbers before and after must be equal.",
+     "keywords": [
+      "mass",
+      "atomic",
+      "equal",
+      "balance"
+     ]
+    },
+    {
+     "stem": "Write the decay equation in words for polonium-212 emitting an alpha particle.",
+     "misconceptionClass": "balance recall",
+     "kind": "recall",
+     "modelAnswer": "Polonium-212 decays to lead-208 with the emission of an alpha particle, balancing as 212 = 208 + 4 and 84 = 82 + 2.",
+     "keywords": [
+      "polonium",
+      "lead",
+      "alpha",
+      "balance"
+     ]
+    },
+    {
+     "stem": "Explain why the atomic numbers must balance on either side of a decay equation.",
+     "misconceptionClass": "charge conservation",
+     "kind": "explain-why",
+     "modelAnswer": "Charge is conserved in the decay: the bottom numbers count charge, so the charge carried by the parent must reappear as the daughter plus the emission.",
+     "keywords": [
+      "charge",
+      "atomic",
+      "conserved",
+      "balance"
+     ]
+    },
+    {
+     "stem": "A nucleus contains 84 protons and 126 neutrons and alpha-decays to lead (symbol Pb). Give the daughter’s mass and atomic numbers.",
+     "misconceptionClass": "alpha application",
+     "kind": "application",
+     "modelAnswer": "Parent mass = 84 + 126 = 210; daughter: atomic number 84 − 2 = 82, mass number 210 − 4 = 206.",
+     "keywords": [
+      "protons",
+      "neutrons",
+      "mass",
+      "atomic"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "alpha decay",
+    "definition": "Emission of a helium nucleus, lowering the mass number by 4 and the atomic number by 2.",
+    "firstLesson": 1
+   },
+   {
+    "term": "beta decay",
+    "definition": "Conversion of a neutron into a proton with emission of an electron; A unchanged, Z + 1.",
+    "firstLesson": 1
+   },
+   {
+    "term": "gamma decay",
+    "definition": "Emission of a gamma ray that lowers the nucleus’s energy without changing either number.",
+    "firstLesson": 2
+   },
+   {
+    "term": "neutron emission",
+    "definition": "Ejection of a neutron: mass number − 1, atomic number unchanged.",
+    "firstLesson": 2
+   }
+  ],
+  "workedExample": {
+   "prompt": "A nucleus with 84 protons and 126 neutrons undergoes alpha decay and forms lead. Which isotope of lead forms?",
+   "steps": [
+    "Mass number of the parent: 84 + 126 = 210.",
+    "Alpha decay removes 2 protons: atomic number 84 − 2 = 82.",
+    "Alpha decay removes 4 nucleons: mass number 210 − 4 = 206."
+   ],
+   "finalAnswer": "The daughter is lead-206, with atomic number 82 and mass number 206."
+  }
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/6df6a122e5c2-11-1-11-alpha-decay-diagram.png",
+   "alt": "Alpha decay diagram, downloadable AS & A Level Physics revision notes",
+   "sourceHeading": "Alpha decay",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "Alpha decay lowers both the mass and the charge of a large unstable nucleus"
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/8e2e57da3c1c-6-2-5-beta-minus-decay-gcse-1.png",
+   "alt": "Beta minus decay GCSE, downloadable IGCSE & GCSE Physics revision notes",
+   "sourceHeading": "Beta decay",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "Beta decay keeps the mass number but raises the atomic number by one"
+  },
+  {
+   "id": "fig-03",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/b657ba67fc82-4-2-6-gamma-decay-1.png",
+   "alt": "Gamma decay, downloadable IGCSE & GCSE Physics revision notes",
+   "sourceHeading": "Gamma decay",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "Gamma decay reduces the nucleus’s energy but changes neither number"
+  }
+ ]
+}
