@@ -1,0 +1,167 @@
+{
+ "topic": "as-pure-mathematics-14-exponentials-and-logarithms",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Exponentials and inverse logs",
+   "body": "![Graphs of y = e^x and y = ln x with the line y = x showing the inverse relationship](../assets/001-8f2b869e-e6ed-4392-855c-4c43458c3411.jpeg)\n\nAn exponential function has the variable in the power, like $y=3^x$ or $y=e^x$. For AS Maths the base is positive and not equal to 1.\n\nA logarithm undoes an exponential: $\\log_a b=c$ means $a^c=b$. That is why $y=e^x$ and $y=\\ln x$ are inverse functions, reflected in the line $y=x$.\n\nIf you can rewrite both sides of an equation with the same base, you can solve by equating powers. For example, $2^{x+1}=64$ becomes $2^{x+1}=2^6$. Then $x+1=6$, so $x=5$.",
+   "figure_refs": [
+    "assets/001-8f2b869e-e6ed-4392-855c-4c43458c3411.jpeg"
+   ]
+  },
+  {
+   "heading": "Solving when bases do not match",
+   "body": "When bases do not match, use logarithms. The natural logarithm is $\\ln x=\\log_e x$, where $e\\approx 2.718$.\n\nTo solve $5^x=18$, take natural logs of both sides and use the power law. This brings the unknown down from the exponent: $$\\ln(5^x)=\\ln 18 \\Rightarrow x\\ln 5=\\ln 18$$\n\nThen divide by $\\ln 5$ and evaluate: $$x=\\frac{\\ln 18}{\\ln 5}\\approx 1.80$$ A common mistake is to write $\\ln(18 \\div 5)$, but logs do not work like that."
+  },
+  {
+   "heading": "Using the log laws",
+   "body": "The three fundamental log laws are:\n$$\n\\log_a(MN)=\\log_a M+\\log_a N,\\quad \\log_a\\left(\\frac{M}{N}\\right)=\\log_a M-\\log_a N,\\quad \\log_a(M^p)=p\\log_a M\n$$\nThese laws apply to multiplication, division, and powers, but they do not apply to addition or subtraction inside the logarithm's argument.\n\nUsing these rules, the expression $2\\log_a(x+3)-\\log_a 7$ can be condensed into a single logarithm:\n$$\n\\log_a\\left(\\frac{(x+3)^2}{7}\\right)\n$$\nIt is important to remember that the argument of a log must be positive, so in this case, we require $x > -3$.\n\nTo solve $2\\log_2 x-\\log_2 5=3$, we first combine the logs and then convert the equation to exponential form:\n$$\n\\log_2\\left(\\frac{x^2}{5}\\right)=3 \\Rightarrow \\frac{x^2}{5}=2^3\n$$\nThis simplifies to $x^2=40$, giving $x=2\\sqrt{10}$. We reject the negative root $x=-2\\sqrt{10}$ because the original equation requires $x>0$."
+  },
+  {
+   "heading": "Natural log equations",
+   "body": "For any logarithm, the argument must be positive. When solving an equation involving $\\ln(3x-2)$, we must first recognize that $3x-2 > 0$ for the expression to be defined.\n\nTo solve $\\ln(3x-2)=1$, exponentiate both sides with base $e$. This operation undoes the natural logarithm: $$3x-2=e$$\n\nIsolating $x$ provides the final answer: $$x=\\frac{e+2}{3}$$ This solution is valid because substituting it back into the original log function results in $3x-2=e$, and since $e > 0$, the domain requirement is satisfied."
+  },
+  {
+   "heading": "Substitution with exponential terms",
+   "body": "Some equations contain both $e^y$ and $e^{-y}$. To solve these, we can let $u=e^y$, noting that $u>0$ and $e^{-y}=\\frac{1}{u}$.\n\nFor the equation $3e^y+10e^{-y}=11$, we substitute $u$ and multiply through by $u$. This process turns the expression into a quadratic equation:\n\n$$$3u+\\frac{10}{u}=11 \\Rightarrow 3u^2-11u+10=0$$\n\nFactorising the quadratic gives $(3u-5)(u-2)=0$, so $u=\\frac{5}{3}$ or $u=2$. Converting back to the original variable gives $y=\\ln\\left(\\frac{5}{3}\\right)$ or $y=\\ln 2$."
+  },
+  {
+   "heading": "Growth models",
+   "body": "Models of the form $P=Ae^{kt}$ have initial value $A$ because $P(0)=A$. The sign of $k$ tells you whether the model grows or decays.\n\nConsider the model $P=60e^{0.07t}$ where $t$ is in weeks. The initial population is 60 and the rate of growth is given by the derivative: $$\\frac{dP}{dt}=4.2e^{0.07t}$$\n\nAt $t=10$, the rate is $4.2e^{0.7}\\approx 8.46$ plants per week. This value represents the instantaneous rate of change of the population at that specific time.\n\nTo find when the population exceeds 300, solve $60e^{0.07t}>300$, which simplifies to $e^{0.07t}>5$. Taking logs gives $t>\\frac{\\ln 5}{0.07}\\approx 22.99$, and you would round up to 23 if a whole number of weeks is required."
+  },
+  {
+   "heading": "Graphs, range, and tangents",
+   "body": "![Graph of $y = e^{x+2} - 4$ showing asymptote, intercepts, and tangent at the y-intercept](../assets/002-2c70753a-1e4d-45a9-9780-224273e1d9de.jpeg)\n\nThe graph of $y=e^{x+2}-4$ is the curve $y=e^x$ shifted left 2 units and down 4 units. Its horizontal asymptote is $y=-4$, meaning the range of the function is $y>-4$.\n\nThe $y$-intercept is found by setting $x=0$, giving the point $A(0, e^2-4)$. To find the $x$-intercept, we set $e^{x+2}=4$, which leads to $x+2 = \\ln 4$, resulting in the coordinate $B(\\ln 4-2, 0)$.\n\nBy differentiating, we find $f'(x)=e^{x+2}$, so the gradient at the intercept $A$ is $e^2$. Using the point-gradient form, the equation of the tangent at $A$ is:\n\n$$y-(e^2-4)=e^2x$$",
+   "figure_refs": [
+    "assets/002-2c70753a-1e4d-45a9-9780-224273e1d9de.jpeg"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Solve $2^{x+1}=64$.",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$5$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$6$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$32$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$64$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Because $64=2^6$, the bases match and you equate powers to get $x+1=6$. The common wrong answer $6$ comes from spotting the exponent on 64 but forgetting to subtract 1."
+  },
+  {
+   "id": "card-7",
+   "question": "Which expression is equivalent to $2\\log_a(x+3)-\\log_a 7$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$\\log_a\\left(\\frac{(x+3)^2}{7}\\right)$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$\\log_a\\left((x+3)^2-7\\right)$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$\\log_a\\left(\\frac{x+6}{7}\\right)$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$2\\log_a\\left(\\frac{x+3}{7}\\right)$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A is correct because the power law squares the whole argument and the subtraction law turns subtraction of logs into division. The common wrong answer B treats subtraction of logs as subtraction inside the argument, but $\\log A-\\log B=\\log\\left(\\frac{A}{B}\\right)$, not $\\log(A-B)$."
+  },
+  {
+   "id": "card-12",
+   "question": "Which is the exact solution set of $3e^y+10e^{-y}=11$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$y=\\ln\\left(\\frac{5}{3}\\right)$ or $y=\\ln 2$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$y=\\frac{5}{3}$ or $y=2$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$y=\\ln\\left(\\frac{3}{5}\\right)$ or $y=-\\ln 2$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$y=\\ln\\left(\\frac{5}{3}\\right)$ only",
+     "is_correct": false
+    }
+   ],
+   "explanation": "After the substitution $u=e^y$, you solve for $u$ first and then return to $y$ by taking logs, so the answers are $y=\\ln\\left(\\frac{5}{3}\\right)$ and $y=\\ln 2$. The common wrong answer B forgets to undo the substitution and leaves the values of $u$ instead of the values of $y$."
+  },
+  {
+   "id": "card-17",
+   "question": "Which statement about $f(x)=e^{x+2}-4$ is correct?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The range is $y>-4$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "The horizontal asymptote is $y=4$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "The y-intercept is $(0,e^2+4)$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "The x-intercept is $(2-\\ln 4,0)$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A is correct because $e^{x+2}$ is always positive, so $e^{x+2}-4$ is always greater than $-4$. The common wrong answer D comes from rearranging $x+2=\\ln 4$ incorrectly: the correct step is $x=\\ln 4-2$."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/as-pure-mathematics-14-exponentials-and-logarithms/lessons",
+ "source_sha256": "cc3d2f34091b03eaf018487d516ee063df072565f78d84f83f405f8431c28817",
+ "extracted_at": "2026-11-08T19:02:00Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-3 run-001)",
+ "task_id": "T-MG-LS-3",
+ "source_meta": {
+  "lesson_id": "588d38eb-d742-41a4-33f6-2cba8cdfdad1",
+  "topic_id": "c1163ef0-9f94-ec55-d543-6ee688ac4778",
+  "created_at": "2026-05-14T02:45:35.462Z",
+  "updated_at": "2026-05-14T02:48:18.090Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

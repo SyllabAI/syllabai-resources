@@ -1,0 +1,136 @@
+{
+ "topic": "as-pure-mathematics-2-4-the-discriminant",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What the discriminant tells you",
+   "body": "![Three side-by-side parabolas showing two roots, one repeated root, and no real roots](../assets/001-6c4bf37b-314c-4e06-8c25-caeda6e6f512.jpeg)\nThe quadratic formula is shown below:\n\n$$$x=\\frac{-b\\pm\\sqrt{b^{2}-4ac}}{2a}$$\n\nThe expression under the square root is called the discriminant. For a quadratic written as $ax^{2}+bx+c=0$, the discriminant is $\\Delta=b^{2}-4ac$. Its sign tells you the number of real roots without solving the equation fully.\n\nIf $\\Delta>0$ there are two distinct real roots, if $\\Delta=0$ there is one repeated root, and if $\\Delta<0$ there are no real roots. On a graph, that means the parabola crosses the x-axis twice, touches it once, or misses it completely.",
+   "figure_refs": [
+    "assets/001-6c4bf37b-314c-4e06-8c25-caeda6e6f512.jpeg"
+   ]
+  },
+  {
+   "heading": "Reading off $a$, $b$, and $c$",
+   "body": "A discriminant question only works once the equation is written in standard form $ax^2+bx+c=0$. Then you can read off $a$, $b$, and $c$ carefully, including any minus signs.\n\nFor $5x^2+(k-3)x-2=0$, the coefficients are $a=5$, $b=k-3$, and $c=-2$. The minus sign belongs to the constant term, so $c$ is not $2$."
+  },
+  {
+   "heading": "Worked example: number of real roots",
+   "body": "You do not need to solve a quadratic fully if the question only asks for the number of real roots. For $2x^2-5x+7=0$, identify the coefficients $a=2$, $b=-5$, and $c=7$.\n\nThen calculate the discriminant: $$\\Delta=(-5)^2-4(2)(7)=25-56=-31$$ This resulting value is negative.\n\nSince $\\Delta < 0$, the equation has no real roots. A common slip is to treat $(-5)^2$ as $-25$, but the correct value is $25$."
+  },
+  {
+   "heading": "Worked example: equal roots",
+   "body": "Equal roots occur when the discriminant is exactly zero. For the equation $kx^2+7x+k=0$, we identify the coefficients as $a=k$, $b=7$, and $c=k$.\n\n$$$49-4k^2=0$$\n\nSolving this equation gives $4k^2=49$, so $k=\\pm\\frac{7}{2}$. Since the problem specifies that $k>0$, the only valid value is $k=\\frac{7}{2}$."
+  },
+  {
+   "heading": "When the equation might stop being quadratic",
+   "body": "If the coefficient of $x^2$ contains a parameter, you must first ensure the equation remains quadratic by checking that the coefficient is not zero. In the case of $(r+2)x^2+5x+r=0$, the equation is quadratic only when $r+2\\neq 0$, meaning $r\\neq -2$.\n\nTo find the values for two distinct real roots, we set the discriminant $\\Delta > 0$. By substituting the coefficients into the formula $b^2 - 4ac$, we arrive at an inequality that must be solved for the parameter $r$.\n\n$$$25-4(r+2)r>0\\quad\\Rightarrow\\quad 4r^2+8r-25<0$$\n\nThe boundary values are $r=\\frac{-2\\pm\\sqrt{29}}{2}$. Because the quadratic in $r$ is negative between its roots and we must exclude the value where the equation ceases to be quadratic ($r=-2$), the final range is $\\frac{-2-\\sqrt{29}}{2}<r<-2$ or $-2<r<\\frac{-2+\\sqrt{29}}{2}$."
+  },
+  {
+   "heading": "Intersections and tangents",
+   "body": "![Circle centred at the origin with two symmetric tangent lines touching it and crossing the y-axis at 3](../assets/002-a0e2ca27-815e-45d8-95a9-57c2a89756d7.jpeg)\n\nWhen a curve and a line intersect, they have the same $y$-value, so you set their equations equal. After rearranging to a quadratic in $x$, the discriminant tells you whether there are two intersections, one tangent point, or no intersection.\n\nA tangent means the graphs meet at exactly one point, so the quadratic in $x$ has a repeated root and $\\Delta=0$. For $y=mx+3$ and $x^2+y^2=5$, substitute the line into the circle:\n\n$$x^2+(mx+3)^2=5$$\n\nExpanding and rearranging gives $(1+m^2)x^2+6mx+4=0$. Using $\\Delta=0$ gives $(6m)^2-4(1+m^2)(4)=0$, so $20m^2=16$ and $m=\\pm\\frac{2\\sqrt{5}}{5}$.",
+   "figure_refs": [
+    "assets/002-a0e2ca27-815e-45d8-95a9-57c2a89756d7.jpeg"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "For a quadratic equation, what does $\\Delta<0$ tell you?",
+   "options": [
+    {
+     "id": "a",
+     "text": "It has two distinct real roots",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "It has one repeated real root",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "It has no real roots",
+     "is_correct": true
+    },
+    {
+     "id": "d",
+     "text": "It is not quadratic",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A negative discriminant means the square root part of the quadratic formula would be the square root of a negative number, so there are no real solutions. The common wrong answer B is wrong because one repeated root happens when $\\Delta=0$, not when $\\Delta<0$."
+  },
+  {
+   "id": "card-7",
+   "question": "The equation $x^2+kx+6=0$ has no real roots. Which condition on $k$ is correct?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$-2\\sqrt{6}<k<2\\sqrt{6}$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$k<-2\\sqrt{6}$ or $k>2\\sqrt{6}$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$k=\\pm 2\\sqrt{6}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$k>24$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "No real roots means $\\Delta<0$, so $k^2-4(1)(6)<0$, which gives $k^2<24$ and therefore $-2\\sqrt{6}<k<2\\sqrt{6}$. The common wrong answer B comes from solving $k^2>24$, but that would give two distinct real roots, not no real roots."
+  },
+  {
+   "id": "card-12",
+   "question": "The equation $(r+2)x^2+5x+r=0$ has two distinct real roots. Which set of values of $r$ is correct?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$\\frac{-2-\\sqrt{29}}{2}<r<\\frac{-2+\\sqrt{29}}{2}$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$\\frac{-2-\\sqrt{29}}{2}<r<-2$ or $-2<r<\\frac{-2+\\sqrt{29}}{2}$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$r<\\frac{-2-\\sqrt{29}}{2}$ or $r>\\frac{-2+\\sqrt{29}}{2}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "All real $r$ except $-2$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Solving $4r^2+8r-25<0$ gives values between the two boundary roots. The common wrong answer A forgets that $r=-2$ makes the coefficient of $x^2$ zero, so the equation becomes linear and must be excluded."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/as-pure-mathematics-2-4-the-discriminant/lessons",
+ "source_sha256": "46539b7684ba21c0c54036908e3e95fd165730c03c96f9117501706036585990",
+ "extracted_at": "2026-11-08T19:02:01Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-3 run-001)",
+ "task_id": "T-MG-LS-3",
+ "source_meta": {
+  "lesson_id": "d4f6a18c-7ee9-1c0c-476f-849a15a4f52d",
+  "topic_id": "7096672c-e892-15b9-6da4-c0d2fd60a4eb",
+  "created_at": "2026-05-14T02:37:08.405Z",
+  "updated_at": "2026-05-14T02:43:32.300Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

@@ -1,0 +1,163 @@
+{
+ "topic": "a-level-pure-mathematics-1-algebraic-methods",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Identities and choosing a method",
+   "body": "![Flowchart showing how to choose a partial fraction form by checking whether a fraction is proper, whether factors are distinct or repeated, and when to add a polynomial part](../assets/001-db9cca3e-a54a-4d81-8674-df65c881cc2c.jpeg)\n\nAlgebraic methods often turn one expression into another form that is easier to use. A key idea is an identity, written with $\\equiv$, which is true for every allowed value of $x$, so you can compare coefficients or substitute convenient values.\n\nFor partial fractions, first decide whether the rational function is proper. Then match the denominator: distinct linear factors need one constant numerator each, such as $\\frac{A}{x-a}+\\frac{B}{x-b}$, while repeated factors need every power, such as $\\frac{B}{x-a}+\\frac{C}{(x-a)^2}$.\n\nIf the fraction is top-heavy, add a polynomial part before decomposing the rest. This decision at the start prevents the most common setup errors.",
+   "figure_refs": [
+    "assets/001-db9cca3e-a54a-4d81-8674-df65c881cc2c.jpeg"
+   ]
+  },
+  {
+   "heading": "Distinct linear factors",
+   "body": "For $\\frac{3x+11}{(x+2)(x+5)}$, the denominator has two distinct linear factors. To begin the partial fraction decomposition, we set up the following identity:\n$$\\frac{3x+11}{(x+2)(x+5)} \\equiv \\frac{A}{x+2}+\\frac{B}{x+5}.$$\n\nMultiply through by the full denominator $(x+2)(x+5)$ to clear the fractions. This results in a linear identity which we can use to solve for the unknown constants:\n$$3x+11 \\equiv A(x+5)+B(x+2).$$\n\nChoose values of $x$ that make one term disappear to solve for the coefficients. Putting $x=-2$ gives $5=3A$, so $A=\\frac{5}{3}$, and putting $x=-5$ gives $-4=-3B$, so $B=\\frac{4}{3}$.\n\nFinally, write the simplified form by substituting these constants back into the partial fraction structure. Recombining these terms gives back the original numerator $3x+11$:\n$$\\frac{3x+11}{(x+2)(x+5)} \\equiv \\frac{5}{3(x+2)}+\\frac{4}{3(x+5)}.$$"
+  },
+  {
+   "heading": "Repeated factors need every power",
+   "body": "A repeated factor means you must include every power that appears in the partial fraction setup. For the fraction below, we provide terms for both $(x+2)$ and $(x+2)^2$:\n$$\\frac{4x+1}{(x-1)(x+2)^2} \\equiv \\frac{A}{x-1}+\\frac{B}{x+2}+\\frac{C}{(x+2)^2}$$\n\nAfter multiplying through, you get the identity $4x+1 \\equiv A(x+2)^2+B(x-1)(x+2)+C(x-1)$. Substituting $x=1$ gives $5=9A$ ($A=\\frac{5}{9}$), and substituting $x=-2$ gives $-7=-3C$ ($C=\\frac{7}{3}$).\n\nUse any other convenient value, like $x=0$, to find the remaining constant. This gives $1=4A-2B-C = \\frac{20}{9}-2B-\\frac{7}{3}$, so $B=-\\frac{5}{9}$ and the result is:\n$$\\frac{4x+1}{(x-1)(x+2)^2} \\equiv \\frac{5}{9(x-1)}-\\frac{5}{9(x+2)}+\\frac{7}{3(x+2)^2}$$"
+  },
+  {
+   "heading": "Top-heavy fractions",
+   "body": "A rational function is improper if the numerator degree is greater than or equal to the denominator degree. For the following example, we use a linear polynomial part because the numerator is one degree higher than the denominator:\n$$\\frac{2x^3+7x^2+3x+4}{(x+1)(x+3)} \\equiv Ax+B+\\frac{C}{x+1}+\\frac{D}{x+3}.$$\n\nTo solve, multiply through by the denominator $(x+1)(x+3) = x^2+4x+3$:\n$$2x^3+7x^2+3x+4 \\equiv (Ax+B)(x+1)(x+3)+C(x+3)+D(x+1).$$\nComparing the coefficients of the highest powers gives $A=2$ and $4A+B=7$, which simplifies to $B=-1$.\n\nNow substitute values to remove terms. At $x=-1$, $6=2C$ so $C=3$, and at $x=-3$, $4=-2D$ so $D=-2$. The final identity is:\n$$\\frac{2x^3+7x^2+3x+4}{(x+1)(x+3)} \\equiv 2x-1+\\frac{3}{x+1}-\\frac{2}{x+3}.$$"
+  },
+  {
+   "heading": "Proof by contradiction",
+   "body": "![Flow diagram showing proof by contradiction as assume the opposite, use algebra or number facts, reach an impossible statement, and conclude the original claim is true](../assets/002-9066582f-4fc1-42bd-beac-71cc8241bc5b.jpeg) Proof by contradiction starts by assuming the statement you want is false. You then use algebra or number facts until the assumption forces something impossible, so the original statement must be true.\n\nTo show there are no integers $m$ and $n$ with $14m+21n=5$, assume such integers exist. Then $$14m+21n=7(2m+3n),$$ so the left-hand side is a multiple of 7 because $2m+3n$ is an integer.\n\nThe equation would then say that 5 is a multiple of 7, which is impossible. That contradiction proves no such integers $m$ and $n$ exist.",
+   "figure_refs": [
+    "assets/002-9066582f-4fc1-42bd-beac-71cc8241bc5b.jpeg"
+   ]
+  },
+  {
+   "heading": "Irrationality by contradiction",
+   "body": "To prove $\\sqrt{5}$ is irrational, assume the opposite and write it in lowest terms as $$\\sqrt{5}=\\frac{a}{b},$$ where $a$ and $b$ are coprime integers and $b\\neq0$. Squaring gives $$a^2=5b^2.$$\n\nBecause 5 divides $a^2$, it divides $a$, so let $a=5k$ for some integer $k$. Substituting gives $$25k^2=5b^2 \\Rightarrow b^2=5k^2,$$ so 5 divides $b$ as well.\n\nNow both $a$ and $b$ are divisible by 5, which contradicts the fact that they were coprime. Lowest terms matters because the contradiction is exactly that the numerator and denominator share a common factor.\n\nA similar idea proves that rational plus irrational is irrational. If $r+s$ were rational, then subtracting the rational number $r$ would make $s$ rational, which is impossible."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Which statement is an identity?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$x^2-1 \\equiv (x-1)(x+1)$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$2x+3=11$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$x+4>0$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$3x=3x+1$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Option A is true for every value of $x$, making it an identity. In contrast, option B is an equation that is only true when $x=4$, and option D is a contradiction that is never true. An identity must hold for every allowed value of the variable."
+  },
+  {
+   "id": "card-7",
+   "question": "Which is the correct starting form for $\\frac{4x+1}{(x-1)(x+2)^2}$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$\\frac{A}{x-1}+\\frac{B}{(x+2)^2}$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$\\frac{A}{x-1}+\\frac{B}{x+2}+\\frac{C}{(x+2)^2}$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$\\frac{Ax+B}{(x-1)(x+2)^2}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$\\frac{A}{x-1}+\\frac{Bx+C}{x+2}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A repeated factor needs a term for every power, so both $\\frac{B}{x+2}$ and $\\frac{C}{(x+2)^2}$ are required. The common wrong choice A misses the $\\frac{B}{x+2}$ term, so it cannot produce all possible numerators after recombining."
+  },
+  {
+   "id": "card-12",
+   "question": "In the contradiction proof for $14m+21n=5$, what is the impossible statement?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$m=n$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$5$ is a multiple of 7",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$2m+3n=0$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$14m+21n$ is odd",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Factoring gives $14m+21n=7(2m+3n)$, so the left-hand side must be divisible by 7. The common wrong choice C is not forced by the algebra; the contradiction is specifically that 5 would have to be divisible by 7."
+  },
+  {
+   "id": "card-14",
+   "question": "Stretch: Let $r$ be rational and $s$ be irrational. If you assume $r+s$ is rational, what gives the contradiction?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$(r+s)-r=s$ would be rational",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$(r+s)+r$ must be irrational",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$rs$ must be rational",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$r$ must be irrational",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The difference of two rational numbers is rational, so from the assumption that $r+s$ is rational, subtracting $r$ would force $s$ to be rational. The common wrong choice C talks about a product, but the argument uses subtraction, not multiplication."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/a-level-pure-mathematics-1-algebraic-methods/lessons",
+ "source_sha256": "7e93758737c5829ef48330db2f81cbaf17d8c4c509b535c6554cb385466571d0",
+ "extracted_at": "2026-11-08T19:01:37Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-3 run-001)",
+ "task_id": "T-MG-LS-3",
+ "source_meta": {
+  "lesson_id": "b6628cd8-ded8-439e-8a91-ccb5c3fff27c",
+  "topic_id": "235915e1-5eff-44fa-98e2-c8a7d9899e96",
+  "created_at": "2026-05-13T02:35:53.994Z",
+  "updated_at": "2026-05-13T02:39:44.867Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

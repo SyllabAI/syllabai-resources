@@ -1,0 +1,140 @@
+{
+ "topic": "as-pure-mathematics-3-equations-and-inequalities",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "steps": [
+  {
+   "heading": "The basic language",
+   "body": "An equation says two expressions are equal, so you usually look for exact value or values that make both sides match. An inequality compares size using $<$, $>$, $\\le$, or $\\ge$, so the answer is often a range of values.\n\nA solution is any value that makes the statement true. The solution set is the full collection of such values, and set notation writes this compactly as $\\{x:x>3\\}$, meaning all values of $x$ greater than 3."
+  },
+  {
+   "heading": "Solving linear inequalities safely",
+   "body": "To solve a linear inequality, collect like terms and isolate the variable just as you would in a linear equation. The one extra rule is that if you multiply or divide both sides by a negative number, the inequality sign must reverse.\n\nFor example, solve $20-x < 4x+5$ by moving the constants first and then the $x$ terms. Because the final division is by positive 5, the sign stays the same.\n\n$$$15-x < 4x$$\n$$15 < 5x$$\n$$x > 3$$\n\nIf you had $-2x > 6$, dividing by $-2$ would give $x < -3$. This sign change is one of the easiest exam slips to make, so always check the sign of the number you divide by."
+  },
+  {
+   "heading": "Quadratic inequalities and sign intervals",
+   "body": "![Graph of the parabola y=(x+8)(x-2) crossing the x-axis at -8 and 2, with positive sign outside the roots and negative sign between them](../assets/001-76412970-4a59-47d8-b10a-4486c8629b7e.jpeg)\n\nFor a quadratic inequality, first rearrange so one side is zero. The roots of the matching quadratic equation are the boundary values that split the number line into intervals.\n\nIf the coefficient of $x^2$ is positive, the parabola opens upwards, so the quadratic is positive outside the roots and negative between them. If the coefficient is negative, that pattern reverses.\n\nIf you are unsure which interval to choose, test an easy value such as $x=0$. A quick sign check confirms whether you want the middle interval or the outside intervals.",
+   "figure_refs": [
+    "assets/001-76412970-4a59-47d8-b10a-4486c8629b7e.jpeg"
+   ]
+  },
+  {
+   "heading": "Worked example with a quadratic inequality",
+   "body": "Start by comparing the quadratic with zero, then factorise. For $x^2+6x>16$, this gives\n\n$$$x^2+6x-16>0$$\n$$(x+8)(x-2)>0$$\n\nThe roots are $x=-8$ and $x=2$, so these values split the number line into three intervals. Because the quadratic opens upwards, it is greater than zero outside the roots.\n\n$$$\\{x:x<-8 \\text{ or } x>2\\}$$\n\nFor a non-strict inequality, include the boundary values if equality is allowed. So $x(x+2)\\le15$ becomes $(x+5)(x-3)\\le0$, giving $-5\\le x\\le3$."
+  },
+  {
+   "heading": "Combining inequalities",
+   "body": "When two inequalities must both be true, solve them separately first. Then keep only the overlap, not every value from either set.\n\nFor $x^2+3x-18<0$, factorising gives $(x+6)(x-3)<0$, so $-6<x<3$. For $15+3x\\le17+x$, rearranging gives $2x\\le2$, so $x\\le1$.\n\nThe shared solution is the part common to both results. So the final answer is $$\\lbrace x:-6<x\\le1 \\rbrace$$"
+  },
+  {
+   "heading": "Simultaneous equations as intersections",
+   "body": "![Coordinate graph showing the parabola y=x^2-4x+6 and the line y=6-x crossing at the points (0,6) and (3,3)](../assets/002-63cc0952-a00b-4606-838f-ee4d3d607246.jpeg)\n\nA simultaneous solution must satisfy both equations at the same time. On a graph, that means the coordinates of the intersection points.\n\nFor the curve $y=x^2-4x+6$ and the line $x+y=6$, first rearrange the line to $y=6-x$ and substitute into the curve equation. This gives:\n\n$$$6-x=x^2-4x+6$$\n$$x^2-3x=0$$\n$$x(x-3)=0$$\n\nSo $x=0$ or $x=3$. Substituting these values into $y=6-x$ gives the intersection points $(0,6)$ and $(3,3)$.",
+   "figure_refs": [
+    "assets/002-63cc0952-a00b-4606-838f-ee4d3d607246.jpeg"
+   ]
+  },
+  {
+   "heading": "Using the discriminant",
+   "body": "After substitution, a line and a curve often lead to a quadratic equation in one variable. The discriminant $b^2-4ac$ tells you how many real intersections there are: positive gives two, zero gives one repeated point, and negative gives none.\n\nFor $y=px^2-2px-2p$ and $y=x-3$, substitution gives $$px^2-(2p+1)x+(3-2p)=0$$\n\nNo real intersections means the discriminant is negative, so $$(2p+1)^2-4p(3-2p)<0$$\n\nSimplifying gives $12p^2-8p+1<0$, which factorises to $(6p-1)(2p-1)<0$. Because this quadratic in $p$ opens upwards, it is negative between the roots, so $\\frac{1}{6}<p<\\frac{1}{2}$."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "What does the set notation $\\{x:x>3\\}$ mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The set of all values of $x$ greater than 3",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "Only the value $x=3$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "The set of all values of $x$ less than 3",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "No values of $x$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A is correct because the colon means \"such that\", so the set contains every value satisfying $x>3$. B is the most common wrong answer because students confuse the boundary with the whole solution set."
+  },
+  {
+   "id": "card-9",
+   "question": "Solve $x(x+2)\\le15$.",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$-5\\le x\\le3$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$x\\le-5$ or $x\\ge3$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$-3\\le x\\le5$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$x<-5$ or $x>3$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Hint: Move everything to one side before deciding which interval works. Rearranging the expression gives $x^2+2x-15\\le0$, which factors to $(x+5)(x-3)\\le0$. This quadratic is negative or zero between the roots $-5$ and $3$, including the roots themselves. B is a common wrong answer because it describes the region where the upward-opening parabola is positive, rather than less than or equal to zero."
+  },
+  {
+   "id": "card-15",
+   "question": "For the line $y=x-3$ and the curve $y=px^2-2px-2p$, which values of $p$ give no real intersections?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$p<\\frac{1}{6}$ or $p>\\frac{1}{2}$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$\\frac{1}{6}<p<\\frac{1}{2}$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$p=\\frac{1}{6}$ or $p=\\frac{1}{2}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "All real values of $p$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "B is correct because no real intersections means the discriminant is less than zero, which simplifies to $(6p-1)(2p-1)<0$ and therefore values between the roots. A is the most common wrong answer because students remember that an upward quadratic is positive outside the roots, but here we need the quadratic in $p$ to be negative."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/as-pure-mathematics-3-equations-and-inequalities/lessons",
+ "source_sha256": "4e37ac726a7223a6c3e79c087f8bd0822876508a6ccc015f2b947cdf744c26dd",
+ "extracted_at": "2026-11-08T19:02:04Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-3 run-001)",
+ "task_id": "T-MG-LS-3",
+ "source_meta": {
+  "lesson_id": "59f9b865-b15d-dba4-4e99-9fd32670a844",
+  "topic_id": "a32508d6-bd2b-5e81-42d1-8d3f063a194f",
+  "created_at": "2026-05-14T02:27:00.879Z",
+  "updated_at": "2026-05-14T02:33:01.145Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}
