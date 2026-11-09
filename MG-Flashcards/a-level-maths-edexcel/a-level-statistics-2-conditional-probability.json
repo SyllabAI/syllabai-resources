@@ -1,0 +1,618 @@
+{
+ "topic": "a-level-statistics-2-conditional-probability",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "title": "Conditional Probability Flashcards",
+ "cards": [
+  {
+   "id": "4d9599e3-7052-4ab3-9ad2-b43f8e888c67",
+   "card_type": "basic",
+   "front": "What event is represented by the notation $A \\cap B$?",
+   "back": "The intersection (both $A$ and $B$ happen).",
+   "options": [
+    {
+     "text": "The intersection (both $A$ and $B$ happen).",
+     "correct": true,
+     "explanation": "An intersection contains outcomes belonging to both events simultaneously. Therefore, $A \\cap B$ occurs precisely when $A$ and $B$ both happen."
+    },
+    {
+     "text": "The union (at least one of $A$ or $B$ happens).",
+     "correct": false,
+     "explanation": "A union is represented by $A \\cup B$, not $A \\cap B$. The intersection $A \\cap B$ means that both $A$ and $B$ happen."
+    },
+    {
+     "text": "The complement (neither $A$ nor $B$ happens).",
+     "correct": false,
+     "explanation": "The complement of $A$ is written $A'$ and contains outcomes outside $A$. The notation $A \\cap B$ instead represents both events happening."
+    },
+    {
+     "text": "The symmetric difference (exactly one of $A$ or $B$ happens).",
+     "correct": false,
+     "explanation": "Exactly one event happening describes the symmetric difference, not the intersection. The event $A \\cap B$ consists of outcomes where both $A$ and $B$ happen."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "e756bd01-2962-4e4c-8277-57961a9f7ae6",
+   "card_type": "basic",
+   "front": "What event is represented by the notation $A \\cup B$?",
+   "back": "The union (at least one of $A$ or $B$ happens).",
+   "options": [
+    {
+     "text": "The union (at least one of $A$ or $B$ happens).",
+     "correct": true,
+     "explanation": "A union includes every outcome in either event, including outcomes in their overlap. Thus, $A \\cup B$ occurs when at least one of $A$ or $B$ happens."
+    },
+    {
+     "text": "The intersection (both $A$ and $B$ happen).",
+     "correct": false,
+     "explanation": "An intersection is written $A \\cap B$ and requires both events to happen. The notation $A \\cup B$ is the union, meaning at least one event happens."
+    },
+    {
+     "text": "The symmetric difference (exactly one of $A$ or $B$ happens).",
+     "correct": false,
+     "explanation": "Restricting the event to exactly one outcome wrongly excludes the overlap where both events happen. The union includes outcomes in $A$, in $B$, or in both."
+    },
+    {
+     "text": "The complement (neither $A$ nor $B$ happens).",
+     "correct": false,
+     "explanation": "Neither event happening is the complement of the union, written $(A \\cup B)'$. The event $A \\cup B$ means at least one of the events happens."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "79609596-fdcc-4431-bfd1-28a15bbf3d0e",
+   "card_type": "cloze",
+   "front": "The general formula for the union of two events is $\\text{[...]}$.",
+   "back": "The general formula for the union of two events is $\\boxed{P(A \\cup B) = P(A) + P(B) - P(A \\cap B)}$.",
+   "options": [
+    {
+     "text": "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$",
+     "correct": true,
+     "explanation": "Adding $P(A)$ and $P(B)$ counts their intersection twice, so subtracting $P(A \\cap B)$ once gives the probability of every outcome in the union exactly once."
+    },
+    {
+     "text": "$$P(A \\cup B) = P(A) + P(B)$",
+     "correct": false,
+     "explanation": "Simply adding the two probabilities double-counts outcomes in the intersection. The general formula must subtract the overlap: $P(A \\cup B)=P(A)+P(B)-P(A \\cap B)$."
+    },
+    {
+     "text": "$$P(A \\cup B) = P(A) + P(B) + P(A \\cap B)$",
+     "correct": false,
+     "explanation": "Adding the intersection counts overlapping outcomes three times rather than once. The overlap must be subtracted, giving $P(A \\cup B)=P(A)+P(B)-P(A \\cap B)$."
+    },
+    {
+     "text": "$$P(A \\cup B) = P(A) + P(B) - P(A)P(B)$",
+     "correct": false,
+     "explanation": "Subtracting $P(A)P(B)$ assumes that the overlap equals the product, which is only guaranteed for independent events. The general formula subtracts $P(A \\cap B)$ itself."
+    }
+   ]
+  },
+  {
+   "id": "89143b74-3069-4667-b2c8-843386522c00",
+   "card_type": "basic",
+   "front": "Why must $P(A \\cap B)$ be subtracted when calculating $P(A \\cup B)$?",
+   "back": "The overlap is counted twice when adding $P(A)$ and $P(B)$.",
+   "options": [
+    {
+     "text": "The overlap is counted twice when adding $P(A)$ and $P(B)$.",
+     "correct": true,
+     "explanation": "Every outcome in the intersection appears once within $P(A)$ and once within $P(B)$. Subtracting the overlap once ensures that these outcomes contribute only once to the union."
+    },
+    {
+     "text": "The exterior is counted twice when adding $P(A)$ and $P(B)$.",
+     "correct": false,
+     "explanation": "Outcomes outside both events are not included when $P(A)$ and $P(B)$ are added. The subtraction is needed because the overlap is counted twice, not because the exterior is counted."
+    },
+    {
+     "text": "The non-overlap is counted twice when adding $P(A)$ and $P(B)$.",
+     "correct": false,
+     "explanation": "The non-overlapping parts each appear only once in $P(A)+P(B)$. It is the overlapping part $A \\cap B$ that appears twice and must be subtracted once."
+    },
+    {
+     "text": "The overlap is not counted when adding $P(A)$ and $P(B)$.",
+     "correct": false,
+     "explanation": "If the overlap were omitted, it would need to be added rather than subtracted. In fact, it is included in both probabilities and therefore counted twice."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "eb19414f-f728-44ef-9203-46e8b17bf5b1",
+   "card_type": "basic",
+   "front": "How can $P(A' \\cap B')$ be calculated using $P(A \\cup B)$?",
+   "back": "$$1 - P(A \\cup B)$",
+   "options": [
+    {
+     "text": "$$1 - P(A \\cup B)$",
+     "correct": true,
+     "explanation": "By De Morgan’s law, $A' \\cap B'$ is the complement of $A \\cup B$. Complementary probabilities sum to $1$, so its probability is $1-P(A \\cup B)$."
+    },
+    {
+     "text": "$$1 - P(A \\cap B)$",
+     "correct": false,
+     "explanation": "This calculates the complement of both events happening, which is $P(A' \\cup B')$. For neither event to happen, use the complement of the union: $1-P(A \\cup B)$."
+    },
+    {
+     "text": "$$P(A \\cup B)$",
+     "correct": false,
+     "explanation": "The union is the event that at least one of $A$ or $B$ happens. The required event is neither happening, so its probability is $1-P(A \\cup B)$."
+    },
+    {
+     "text": "$$P(A') + P(B')$",
+     "correct": false,
+     "explanation": "Adding the two complement probabilities can double-count outcomes outside both events and may exceed $1$. De Morgan’s law gives $P(A' \\cap B')=1-P(A \\cup B)$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "ff9cc8f6-2bc3-4b62-8a31-558d46f6c905",
+   "card_type": "cloze",
+   "front": "The formula for conditional probability is $P(A|B) = $ $\\text{[...]}$.",
+   "back": "The formula for conditional probability is $P(A|B) = $ $\\boxed{\\frac{P(A \\cap B)}{P(B)}}$.",
+   "options": [
+    {
+     "text": "$$\\frac{P(A \\cap B)}{P(B)}$",
+     "correct": true,
+     "explanation": "Conditioning on $B$ restricts the sample space to outcomes in $B$. The favourable outcomes are those in both events, so divide $P(A \\cap B)$ by $P(B)$."
+    },
+    {
+     "text": "$$\\frac{P(A \\cap B)}{P(A)}$",
+     "correct": false,
+     "explanation": "Dividing by $P(A)$ conditions on $A$, producing $P(B|A)$ rather than $P(A|B)$. Conditioning on $B$ requires the denominator $P(B)$."
+    },
+    {
+     "text": "$$\\frac{P(A \\cup B)}{P(B)}$",
+     "correct": false,
+     "explanation": "Using the union includes outcomes where only one event happens, but conditional probability requires outcomes where both happen. The numerator must be $P(A \\cap B)$."
+    },
+    {
+     "text": "$$P(A \\cap B)P(B)$",
+     "correct": false,
+     "explanation": "Conditional probability is formed by dividing the intersection by the probability of the conditioning event, not multiplying them. The correct expression is $P(A \\cap B)/P(B)$."
+    }
+   ]
+  },
+  {
+   "id": "94c085f7-3cac-46e9-a2d9-27427dfb5899",
+   "card_type": "basic",
+   "front": "When calculating $P(B|A)$, which probability is used as the denominator?",
+   "back": "$$P(A)$",
+   "options": [
+    {
+     "text": "$$P(A)$",
+     "correct": true,
+     "explanation": "The event after the conditioning bar defines the restricted sample space. Since $P(B|A)$ means the probability of $B$ given $A$, the denominator is $P(A)$."
+    },
+    {
+     "text": "$$P(B)$",
+     "correct": false,
+     "explanation": "Using $P(B)$ as the denominator reverses the conditioning and corresponds to $P(A|B)$. For $P(B|A)$, the given event is $A$, so use $P(A)$."
+    },
+    {
+     "text": "$$P(A \\cap B)$",
+     "correct": false,
+     "explanation": "The intersection belongs in the numerator because it represents outcomes satisfying both events. The denominator is the probability of the given event, which is $P(A)$."
+    },
+    {
+     "text": "$$1 - P(A)$",
+     "correct": false,
+     "explanation": "This uses the probability that $A$ does not happen, so it conditions on $A'$ rather than $A$. The denominator for $P(B|A)$ is $P(A)$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "acf78948-c570-42c3-999d-9da72cef9602",
+   "card_type": "basic",
+   "front": "How is the intersection $P(A \\cap B)$ calculated using a conditional probability?",
+   "back": "$$P(A|B) \\times P(B)$",
+   "options": [
+    {
+     "text": "$$P(A|B) \\times P(B)$",
+     "correct": true,
+     "explanation": "Rearranging $P(A|B)=P(A \\cap B)/P(B)$ gives $P(A \\cap B)=P(A|B)P(B)$. This multiplies the conditional probability by the probability of its conditioning event."
+    },
+    {
+     "text": "$$P(A|B) \\times P(A)$",
+     "correct": false,
+     "explanation": "The multiplier must be the probability of the conditioning event $B$, not the target event $A$. Therefore, the intersection is $P(A|B)P(B)$."
+    },
+    {
+     "text": "$$P(A|B) \\div P(B)$",
+     "correct": false,
+     "explanation": "Multiplying by $P(B)$ gives the intersection, whereas dividing by $P(B)$ moves in the wrong direction when rearranging the conditional probability formula."
+    },
+    {
+     "text": "$$P(A|B) + P(B)$",
+     "correct": false,
+     "explanation": "Adding probabilities is not the multiplication rule for an intersection and can even produce a value above $1$. The correct calculation is $P(A|B)P(B)$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "a025cd38-e470-4813-b770-d0084bbcebc1",
+   "card_type": "cloze",
+   "front": "Two events $A$ and $B$ are independent if $\\text{[...]}$.",
+   "back": "Two events $A$ and $B$ are independent if $\\boxed{P(A \\cap B) = P(A)P(B)}$.",
+   "options": [
+    {
+     "text": "$$P(A \\cap B) = P(A)P(B)$",
+     "correct": true,
+     "explanation": "Independence means that the occurrence of either event does not affect the other. Therefore, the probability that both occur equals the product of their individual probabilities."
+    },
+    {
+     "text": "$$P(A \\cap B) = P(A)+P(B)$",
+     "correct": false,
+     "explanation": "Adding probabilities is associated with unions, not intersections of independent events. For independent events, the multiplication rule gives $P(A \\cap B)=P(A)P(B)$."
+    },
+    {
+     "text": "$$P(A \\cap B) = P(A \\cup B)$",
+     "correct": false,
+     "explanation": "Equating the intersection with the union confuses “both events” with “at least one event”. Independence requires $P(A \\cap B)=P(A)P(B)$."
+    },
+    {
+     "text": "$$P(A \\cap B) = P(A)-P(A)P(B)$",
+     "correct": false,
+     "explanation": "Subtracting the product appears in the general addition rule for a union. The defining relationship for independent events is instead $P(A \\cap B)=P(A)P(B)$."
+    }
+   ]
+  },
+  {
+   "id": "b7b7f58a-1b4e-4012-8f17-d99ed3308597",
+   "card_type": "basic",
+   "front": "What is the value of $P(A \\cap B)$ if events $A$ and $B$ are mutually exclusive?",
+   "back": "0",
+   "options": [
+    {
+     "text": "0",
+     "correct": true,
+     "explanation": "Mutually exclusive events cannot occur together, so their intersection is empty. Consequently, the probability of both $A$ and $B$ occurring is 0."
+    },
+    {
+     "text": "1",
+     "correct": false,
+     "explanation": "A probability of 1 would mean the two events always occur together, contradicting mutual exclusivity. Since they cannot occur together, $P(A \\cap B)=0$."
+    },
+    {
+     "text": "$$P(A)$",
+     "correct": false,
+     "explanation": "The probability of the intersection is not generally the probability of $A$ alone. Mutual exclusivity means the events cannot occur together, so $P(A \\cap B)=0$."
+    },
+    {
+     "text": "$$P(B)$",
+     "correct": false,
+     "explanation": "The probability of the intersection is not generally the probability of $B$ alone. Mutually exclusive events have no shared outcomes, so $P(A \\cap B)=0$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "1c6383d5-343a-4743-ba0d-01ae64e18181",
+   "card_type": "basic",
+   "front": "If $A$ and $B$ are independent, what is the relationship between $P(A|B)$ and $P(A)$?",
+   "back": "$$P(A|B) = P(A)$",
+   "options": [
+    {
+     "text": "$$P(A|B) = P(A)$",
+     "correct": true,
+     "explanation": "Independence means that learning $B$ has occurred provides no information that changes the probability of $A$. Thus the conditional and unconditional probabilities are equal."
+    },
+    {
+     "text": "$$P(A|B) = P(B)$",
+     "correct": false,
+     "explanation": "Equating the conditional probability with $P(B)$ swaps the roles of the events. Independence means conditioning on $B$ leaves $A$ unchanged, so $P(A|B)=P(A)$."
+    },
+    {
+     "text": "$$P(A|B) = P(A)P(B)$",
+     "correct": false,
+     "explanation": "Multiplying by $P(B)$ gives the intersection probability for independent events, not the conditional probability. Dividing that intersection by $P(B)$ gives $P(A|B)=P(A)$."
+    },
+    {
+     "text": "$$P(A|B) = P(A)+P(B)$",
+     "correct": false,
+     "explanation": "A conditional probability is not found by adding the individual probabilities. If $A$ and $B$ are independent, knowledge of $B$ changes nothing, so $P(A|B)=P(A)$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "94235cce-e6b6-46dc-8398-bdfa2070c320",
+   "card_type": "basic",
+   "front": "If events have non-zero probabilities and are mutually exclusive, why can they not be independent?",
+   "back": "Knowing one happens makes the probability of the other zero (it changes the probability).",
+   "options": [
+    {
+     "text": "Knowing one happens makes the probability of the other zero (it changes the probability).",
+     "correct": true,
+     "explanation": "Mutual exclusivity means that once one event occurs, the other is impossible, so its conditional probability becomes zero. This differs from its original non-zero probability, contradicting independence."
+    },
+    {
+     "text": "Knowing one happens leaves the probability of the other unchanged (it keeps the same probability).",
+     "correct": false,
+     "explanation": "Leaving the other event’s probability unchanged is precisely the condition for independence. Mutual exclusivity instead makes its conditional probability zero, which differs from its non-zero original probability."
+    },
+    {
+     "text": "Knowing one happens makes the probability of the other one (it changes the probability).",
+     "correct": false,
+     "explanation": "Mutual exclusivity does not make the other event certain; it makes that event impossible. Its conditional probability becomes zero rather than one, so the events cannot be independent."
+    },
+    {
+     "text": "Knowing one happens makes the probability of the other smaller (it reduces the probability).",
+     "correct": false,
+     "explanation": "Mutually exclusive events cannot occur simultaneously, so observing one does not merely reduce the other’s probability. It makes the other event’s conditional probability exactly zero."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "4bf87438-d4dc-4659-8807-3774379772ff",
+   "card_type": "basic",
+   "front": "In a tree diagram, what operation is used to find the probability of a specific path?",
+   "back": "Multiplication along the branches.",
+   "options": [
+    {
+     "text": "Multiplication along the branches.",
+     "correct": true,
+     "explanation": "A path represents a sequence of events occurring together. The multiplication rule combines the successive branch probabilities to give the probability of that complete path."
+    },
+    {
+     "text": "Addition along the branches.",
+     "correct": false,
+     "explanation": "Adding is used to combine probabilities from separate alternative paths, not successive branches on one path. A specific path’s probability is found by multiplication along its branches."
+    },
+    {
+     "text": "Division along the branches.",
+     "correct": false,
+     "explanation": "Division is used when forming a conditional probability from a joint probability, not when following a tree path. Probabilities along a specific path are multiplied."
+    },
+    {
+     "text": "Subtraction along the branches.",
+     "correct": false,
+     "explanation": "Subtraction may find a complementary probability, but it does not combine successive stages of a path. The probability of a specific tree path is found using multiplication."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "90e479c0-91fa-46fe-a6a9-89cfc251d001",
+   "card_type": "basic",
+   "front": "In a tree diagram, how do you find the total probability of an outcome that occurs on multiple separate paths?",
+   "back": "Add the probabilities of those paths.",
+   "options": [
+    {
+     "text": "Add the probabilities of those paths.",
+     "correct": true,
+     "explanation": "Separate paths represent mutually exclusive ways for the outcome to occur. After calculating each path probability, add them to obtain the outcome’s total probability."
+    },
+    {
+     "text": "Multiply the probabilities of those paths.",
+     "correct": false,
+     "explanation": "Multiplication combines probabilities along successive branches within one path. When the same outcome occurs on separate alternative paths, their completed path probabilities must be added."
+    },
+    {
+     "text": "Subtract the probabilities of those paths.",
+     "correct": false,
+     "explanation": "Subtracting path probabilities would remove one possible way the outcome can occur. Because the paths are separate alternatives, their probabilities should be added to find the total."
+    },
+    {
+     "text": "Average the probabilities of those paths.",
+     "correct": false,
+     "explanation": "Averaging treats the paths as repeated measurements rather than distinct ways an outcome can happen. The total probability is found by adding all relevant path probabilities."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "a239b269-a1d0-45cc-8f74-4e173f381afe",
+   "card_type": "cloze",
+   "front": "To calculate $P(\\text{Machine } C|\\text{Faulty})$ from a tree diagram, you divide $\\text{[...]}$ by the total $P(\\text{Faulty})$.",
+   "back": "To calculate $P(\\text{Machine } C|\\text{Faulty})$ from a tree diagram, you divide $\\boxed{P(\\text{Machine } C \\cap \\text{Faulty})}$ by the total $P(\\text{Faulty})$.",
+   "options": [
+    {
+     "text": "$$P(\\text{Machine } C \\cap \\text{Faulty})$",
+     "correct": true,
+     "explanation": "Conditional probability uses the joint event in the numerator. Here, the relevant joint event is that the item came from Machine $C$ and is faulty."
+    },
+    {
+     "text": "$$P(\\text{Machine } C)$",
+     "correct": false,
+     "explanation": "Using $P(\\text{Machine } C)$ includes both faulty and non-faulty items from Machine $C$. The numerator must count only items satisfying both conditions: $P(\\text{Machine } C \\cap \\text{Faulty})$."
+    },
+    {
+     "text": "$$P(\\text{Faulty})$",
+     "correct": false,
+     "explanation": "Using $P(\\text{Faulty})$ in both numerator and denominator would give 1. The numerator must be the joint probability $P(\\text{Machine } C \\cap \\text{Faulty})$."
+    },
+    {
+     "text": "$$P(\\text{Machine } C \\cup \\text{Faulty})$",
+     "correct": false,
+     "explanation": "The union includes items that came from Machine $C$ or are faulty, including those meeting only one condition. Conditional probability requires the intersection in the numerator."
+    }
+   ]
+  },
+  {
+   "id": "f3607ddb-3e5a-45cd-bd5c-8a18ff943c55",
+   "card_type": "cloze",
+   "front": "To calculate $P(\\text{Machine } C|\\text{Faulty})$ from a tree diagram, you divide $P(\\text{Machine } C \\cap \\text{Faulty})$ by the [ ___ ].",
+   "back": "To calculate $P(\\text{Machine } C|\\text{Faulty})$ from a tree diagram, you divide $P(\\text{Machine } C \\cap \\text{Faulty})$ by the total $P(\\text{Faulty})$.",
+   "options": [
+    {
+     "text": "total $P(\\text{Faulty})$",
+     "correct": true,
+     "explanation": "Conditioning on an item being faulty restricts the sample space to all faulty items. Therefore, the joint probability is divided by the total probability of being faulty."
+    },
+    {
+     "text": "total $P(\\text{Machine } C)$",
+     "correct": false,
+     "explanation": "Dividing by the probability of Machine $C$ would calculate $P(\\text{Faulty}|\\text{Machine } C)$, reversing the condition. The required denominator is the total $P(\\text{Faulty})$."
+    },
+    {
+     "text": "total $P(\\text{Machine } C \\cap \\text{Faulty})$",
+     "correct": false,
+     "explanation": "Dividing the joint probability by itself would always give 1. The denominator must represent the conditioning event, so it is the total $P(\\text{Faulty})$."
+    },
+    {
+     "text": "total $P(\\text{not Faulty})$",
+     "correct": false,
+     "explanation": "Using the probability of not being faulty conditions on the opposite event. Since the question assumes the item is faulty, divide by the total $P(\\text{Faulty})$."
+    }
+   ]
+  },
+  {
+   "id": "99e252f1-0b5c-4f06-9aa0-182b517e43e4",
+   "card_type": "basic",
+   "front": "How do probabilities change on branches if a selection is made without replacement?",
+   "back": "Both the favourable outcomes and the total outcomes decrease for the second selection.",
+   "options": [
+    {
+     "text": "Both the favourable outcomes and the total outcomes decrease for the second selection.",
+     "correct": true,
+     "explanation": "Without replacement, the selected item is not returned. Consequently, one favourable item and one item overall are removed before the probability for the second selection is calculated."
+    },
+    {
+     "text": "Both the favourable outcomes and the total outcomes remain unchanged for the second selection.",
+     "correct": false,
+     "explanation": "Keeping both counts unchanged incorrectly models selection with replacement. Without replacement, the selected favourable item is removed, reducing both the favourable count and the total count."
+    },
+    {
+     "text": "Both the favourable outcomes and the total outcomes increase for the second selection.",
+     "correct": false,
+     "explanation": "Removing an item cannot increase either count. Without replacement, the selected favourable item is removed, so both the favourable outcomes and total outcomes decrease."
+    },
+    {
+     "text": "The favourable outcomes decrease but the total outcomes increase for the second selection.",
+     "correct": false,
+     "explanation": "The total cannot increase because an item has been removed rather than added. Both the favourable count and the overall total decrease before the second selection."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "54867798-c8f6-499a-9ce5-d1fbd52f6318",
+   "card_type": "basic",
+   "front": "When filling a three-event Venn diagram, which region should be filled first?",
+   "back": "The centre overlap (where all three events happen).",
+   "options": [
+    {
+     "text": "The centre overlap (where all three events happen).",
+     "correct": true,
+     "explanation": "The centre belongs to all three events and contributes to every pairwise overlap. Filling it first prevents its members from being counted repeatedly in surrounding regions."
+    },
+    {
+     "text": "The single-event regions (where only one event happens).",
+     "correct": false,
+     "explanation": "Starting with single-event regions ignores the contributions from overlapping sets and can lead to incorrect subtraction. The centre shared by all three events should be filled first."
+    },
+    {
+     "text": "The pairwise overlaps (where exactly two events happen).",
+     "correct": false,
+     "explanation": "Each pairwise total may include the central three-way overlap, so entering these regions first risks double-counting it. The centre overlap should therefore be filled first."
+    },
+    {
+     "text": "The outside region (where none of the events happen).",
+     "correct": false,
+     "explanation": "The number outside all events is normally found after the event regions have been completed. Begin with the centre overlap, which affects all three sets."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "3e5fb492-b16b-4781-929f-7e8ffa8a7036",
+   "card_type": "basic",
+   "front": "A Venn diagram shows 14 people watch Football and Golf. 6 people watch Football, Golf, and Hockey. How many watch only Football and Golf?",
+   "back": "8 ($14 - 6$).",
+   "options": [
+    {
+     "text": "8 ($14 - 6$).",
+     "correct": true,
+     "explanation": "The 14-person Football-and-Golf intersection includes the six people who also watch Hockey. Removing that centre overlap leaves $14-6=8$ who watch only Football and Golf."
+    },
+    {
+     "text": "14 ($14$).",
+     "correct": false,
+     "explanation": "This retains the entire Football-and-Golf intersection and fails to remove the six people also watching Hockey. Subtracting the three-way overlap gives $14-6=8$."
+    },
+    {
+     "text": "20 ($14 + 6$).",
+     "correct": false,
+     "explanation": "Adding the three-way overlap double-counts people who are already included among the 14 watching Football and Golf. It must be subtracted, giving $14-6=8$."
+    },
+    {
+     "text": "6 ($6$).",
+     "correct": false,
+     "explanation": "Six is the number in the three-way overlap, not the number watching only Football and Golf. Removing those six from the total of 14 leaves eight."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "16fb3fe3-7ea2-4dca-87b5-df714018faab",
+   "card_type": "cloze",
+   "front": "The event $A' \\cup B'$ is equivalent to not having [ ___ ] ($P(A' \\cup B') = 1 - P(A \\cap B)$).",
+   "back": "The event $A' \\cup B'$ is equivalent to not having both $A$ and $B$ ($P(A' \\cup B') = 1 - P(A \\cap B)$).",
+   "options": [
+    {
+     "text": "both $A$ and $B$",
+     "correct": true,
+     "explanation": "By De Morgan’s law, $A'\\cup B'=(A\\cap B)'$. Thus the union of the complements means that $A$ and $B$ do not both occur."
+    },
+    {
+     "text": "exactly one of $A$ and $B$",
+     "correct": false,
+     "explanation": "Not having exactly one includes cases where both events occur, so it cannot describe $A'\\cup B'$. By De Morgan’s law, the missing term is both $A$ and $B$."
+    },
+    {
+     "text": "at least one of $A$ and $B$",
+     "correct": false,
+     "explanation": "Not having at least one of the events means neither event occurs, which is $A'\\cap B'$. The required complement is instead not having both $A$ and $B$."
+    },
+    {
+     "text": "both $A'$ and $B'$",
+     "correct": false,
+     "explanation": "Not having both complements is $(A'\\cap B')'=A\\cup B$, which reverses the required relationship. $A'\\cup B'$ means not having both $A$ and $B$."
+    }
+   ]
+  },
+  {
+   "id": "3f87b8e2-e652-47d4-a450-fed52ea84945",
+   "card_type": "basic",
+   "front": "What is the most efficient way to calculate the probability of \"at least one\" event occurring?",
+   "back": "$$1 - P(\\text{none})$",
+   "options": [
+    {
+     "text": "$$1 - P(\\text{none})$",
+     "correct": true,
+     "explanation": "At least one occurring is the complement of none occurring. Complementary probabilities sum to one, so subtracting $P(\\text{none})$ from one is usually most efficient."
+    },
+    {
+     "text": "$$P(\\text{none})$",
+     "correct": false,
+     "explanation": "This calculates the probability that no events occur, which is the complement of the required outcome. At least one therefore has probability $1-P(\\text{none})$."
+    },
+    {
+     "text": "$$1 - P(\\text{all})$",
+     "correct": false,
+     "explanation": "The complement of all events occurring includes many outcomes, not specifically those where at least one occurs. The useful complementary event is none occurring, giving $1-P(\\text{none})$."
+    },
+    {
+     "text": "$$P(\\text{all})$",
+     "correct": false,
+     "explanation": "The probability that all events occur counts only their common outcome and omits cases where some but not all occur. Use the complement formula $1-P(\\text{none})$."
+    }
+   ],
+   "points": 1
+  }
+ ],
+ "card_count": 21,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/a-level-statistics-2-conditional-probability/flashcards",
+ "source_sha256": "d05a6081210164adc0158a7f6550d8eeb47dafb2576959ecdd26832ec8443c6a",
+ "extracted_at": "2026-11-08T19:00:05Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-3 run-001)",
+ "task_id": "T-MG-FC-3"
+}

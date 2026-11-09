@@ -1,0 +1,166 @@
+{
+ "topic": "as-pure-mathematics-13-integration",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "title": "Integration Flashcards",
+ "cards": [
+  {
+   "id": "aef6e9a9-0a01-6793-a368-825ee3d634af",
+   "card_type": "basic",
+   "front": "What is the relationship between integration and differentiation?",
+   "back": "Integration is reverse differentiation (finding the antiderivative).",
+   "points": 1
+  },
+  {
+   "id": "a550cf27-fc8c-4317-a008-c6fea0ede4c2",
+   "card_type": "cloze",
+   "front": "To integrate a power of $x$ using the reverse power rule: [ ___ ], then divide by the new power.",
+   "back": "To integrate a power of $x$ using the reverse power rule: increase the power by 1, then divide by the new power."
+  },
+  {
+   "id": "5db7a360-bba4-b8c3-20d4-5d6a4babd971",
+   "card_type": "cloze",
+   "front": "To integrate a power of $x$ using the reverse power rule: increase the power by 1, then [ ___ ].",
+   "back": "To integrate a power of $x$ using the reverse power rule: increase the power by 1, then divide by the new power."
+  },
+  {
+   "id": "de336ed6-fa05-3fd0-ebf2-0e2738b0ff96",
+   "card_type": "basic",
+   "front": "State the general rule for $\\int ax^n \\, dx$ where $n \\neq -1$.",
+   "back": "$$$\\frac{a}{n+1}x^{n+1}+C$$",
+   "points": 1
+  },
+  {
+   "id": "eee85c5a-3e4c-f051-8ba6-760ae14aea4d",
+   "card_type": "basic",
+   "front": "Why must a constant of integration ($C$) be added to indefinite integrals?",
+   "back": "Differentiating any constant results in zero, so the original constant cannot be known from the gradient function alone.",
+   "points": 2
+  },
+  {
+   "id": "595661e5-e28e-f4aa-9695-b8fe85f6b3bb",
+   "card_type": "basic",
+   "front": "How do you verify if an integration result is correct?",
+   "back": "Differentiate the answer; it should return the original expression.",
+   "points": 1
+  },
+  {
+   "id": "408e8699-d0a2-ecbd-611a-ab24b0915133",
+   "card_type": "cloze",
+   "front": "When integrating an expression like $(x+5)(x-2)$, you must [ ___ ] before applying the power rule.",
+   "back": "When integrating an expression like $(x+5)(x-2)$, you must expand the brackets before applying the power rule."
+  },
+  {
+   "id": "090d7708-12fc-e6e2-42df-9c763bae8969",
+   "card_type": "basic",
+   "front": "How is a constant term $k$ integrated with respect to $x$?",
+   "back": "It becomes a multiple of $x$: $kx + C$.",
+   "points": 1
+  },
+  {
+   "id": "085f08a1-6e34-607d-4ff7-2e4cc7d46d97",
+   "card_type": "cloze",
+   "front": "To integrate roots or fractions, rewrite them as powers: $\\sqrt{x} = $ $\\text{[...]}$$\\frac{1}{x^n} = $ $x^{-n}$",
+   "back": "To integrate roots or fractions, rewrite them as powers: $\\sqrt{x} = $ $\\boxed{x^{\\frac{1}{2}}}$$\\frac{1}{x^n} = $ $x^{-n}$"
+  },
+  {
+   "id": "eec78131-76c4-b948-380c-39bdaa2605c0",
+   "card_type": "cloze",
+   "front": "To integrate roots or fractions, rewrite them as powers: $\\sqrt{x} = $ $x^{\\frac{1}{2}}$$\\frac{1}{x^n} = $ $\\text{[...]}$",
+   "back": "To integrate roots or fractions, rewrite them as powers: $\\sqrt{x} = $ $x^{\\frac{1}{2}}$$\\frac{1}{x^n} = $ $\\boxed{x^{-n}}$"
+  },
+  {
+   "id": "994c6f19-c1a8-52be-3603-4d3485e2581f",
+   "card_type": "basic",
+   "front": "What specific power of $x$ cannot be integrated using the reverse power rule?",
+   "back": "$$x^{-1}$ (or $\\frac{1}{x}$)",
+   "points": 1
+  },
+  {
+   "id": "b3ffed8a-77f0-aa5b-db9a-bde82ce359c7",
+   "card_type": "basic",
+   "front": "Outline the steps to find the specific constant of integration $C$.",
+   "back": "Integrate the derivative to find the general solution.Substitute the coordinates of a known point $(x, y)$.Solve the resulting equation for $C$.",
+   "points": 3
+  },
+  {
+   "id": "ebb66544-aad6-5af1-425f-cb127bae9890",
+   "card_type": "basic",
+   "front": "What is the primary difference between the output of an indefinite integral and a definite integral?",
+   "back": "Indefinite: A function (family of curves).Definite: A number (often representing area).",
+   "points": 2
+  },
+  {
+   "id": "955df306-6c96-f533-2f07-732d2478cc7f",
+   "card_type": "cloze",
+   "front": "The notation $[F(x)]_a^b$ indicates the calculation $\\text{[...]}$.",
+   "back": "The notation $[F(x)]_a^b$ indicates the calculation $\\boxed{F(b) - F(a)}$."
+  },
+  {
+   "id": "9699d332-5394-fc9c-be32-cb5b9c36a9d3",
+   "card_type": "basic",
+   "front": "Geometrically, what does the definite integral $\\int_a^b f(x) \\, dx$ represent if the curve is above the $x$-axis?",
+   "back": "The area under the curve between $x=a$ and $x=b$.",
+   "points": 1
+  },
+  {
+   "id": "baa2b137-ef2e-6176-85e9-83bb0d183e79",
+   "card_type": "basic",
+   "front": "How do you determine the limits of integration for the area enclosed between two curves?",
+   "back": "Find the $x$-coordinates of the intersection points by setting the two equations equal to each other.",
+   "points": 2
+  },
+  {
+   "id": "1ceea68e-ff22-b203-768b-695be90603fb",
+   "card_type": "basic",
+   "front": "State the formula for the area between two curves where $f(x)$ is above $g(x)$ between $a$ and $b$.",
+   "back": "$$$\\text{Area} = \\int_a^b (f(x) - g(x)) \\, dx$$",
+   "points": 1
+  },
+  {
+   "id": "c9d993c6-03c6-93f7-182d-8aa08f0573ea",
+   "card_type": "cloze",
+   "front": "If a curve crosses the $x$-axis, you must [ ___ ] at the roots and treat the area below the axis as positive.",
+   "back": "If a curve crosses the $x$-axis, you must split the integral at the roots and treat the area below the axis as positive."
+  },
+  {
+   "id": "e95d40e4-4b4c-dba6-75ea-94c0bf5d6d02",
+   "card_type": "cloze",
+   "front": "If a curve crosses the $x$-axis, you must split the integral at the roots and treat the area [ ___ ] as positive.",
+   "back": "If a curve crosses the $x$-axis, you must split the integral at the roots and treat the area below the axis as positive."
+  },
+  {
+   "id": "782646ee-fa41-5051-ac14-3e7580f5b893",
+   "card_type": "basic",
+   "front": "What does the $dx$ in the symbol $\\int f(x) \\, dx$ signify?",
+   "back": "The variable you are integrating with respect to.",
+   "points": 1
+  },
+  {
+   "id": "628a6882-e867-ca4e-16b7-ab9508cc26e7",
+   "card_type": "cloze",
+   "front": "Before integrating $\\frac{4}{x^2}$, you should rewrite it as $\\text{[...]}$.",
+   "back": "Before integrating $\\frac{4}{x^2}$, you should rewrite it as $\\boxed{4x^{-2}}$."
+  },
+  {
+   "id": "f9bde5ee-52a7-08cf-8ac9-40cd1c21dc87",
+   "card_type": "basic",
+   "front": "In a definite integral calculation, when is the constant of integration $C$ omitted?",
+   "back": "Always; it cancels out during the subtraction $F(b) - F(a)$.",
+   "points": 1
+  },
+  {
+   "id": "05046699-05f8-794e-d646-20684ef38f0b",
+   "card_type": "cloze",
+   "front": "To decide which curve is \"top\" for an area calculation, [ ___ ] between the limits into both functions and compare the $y$-values.",
+   "back": "To decide which curve is \"top\" for an area calculation, substitute an x-value between the limits into both functions and compare the $y$-values."
+  }
+ ],
+ "card_count": 23,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/as-pure-mathematics-13-integration/flashcards",
+ "source_sha256": "6da3424bec2809bc40d32d2add76cfced95a13019a1fe15ef0ddd90cd051495a",
+ "extracted_at": "2026-11-08T19:00:05Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-3 run-001)",
+ "task_id": "T-MG-FC-3"
+}

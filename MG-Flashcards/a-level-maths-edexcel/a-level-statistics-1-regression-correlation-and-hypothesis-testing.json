@@ -1,0 +1,645 @@
+{
+ "topic": "a-level-statistics-1-regression-correlation-and-hypothesis-testing",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "title": "Regression, Correlation and Hypothesis Testing Flashcards",
+ "cards": [
+  {
+   "id": "f59bcc97-fb56-44cf-b0f8-cd7654aa987e",
+   "card_type": "basic",
+   "front": "In bivariate data, what is the difference between the explanatory and response variables?",
+   "back": "The explanatory variable is used to predict the other variable ($x$-axis).The response variable is the variable being predicted ($y$-axis).",
+   "options": [
+    {
+     "text": "The explanatory variable is used to predict the other variable ($x$-axis).The response variable is the variable being predicted ($y$-axis).",
+     "correct": true,
+     "explanation": "The explanatory variable is treated as the predictor and plotted horizontally, while the response variable is the measured outcome and plotted vertically."
+    },
+    {
+     "text": "The explanatory variable is the variable being predicted ($y$-axis).The response variable is used to predict the other variable ($x$-axis).",
+     "correct": false,
+     "explanation": "This reverses the two roles. The explanatory variable is the predictor on the $x$-axis, while the response variable is the predicted outcome on the $y$-axis."
+    },
+    {
+     "text": "The explanatory variable is used to predict the other variable ($y$-axis).The response variable is the variable being predicted ($x$-axis).",
+     "correct": false,
+     "explanation": "The axis assignments have been swapped. By convention, the explanatory variable is plotted on the $x$-axis and the response variable on the $y$-axis."
+    },
+    {
+     "text": "The explanatory variable is the variable being predicted ($x$-axis).The response variable is also the variable being predicted ($y$-axis).",
+     "correct": false,
+     "explanation": "The variables do not both perform the same role. The explanatory variable predicts or explains changes, whereas the response variable is the outcome being predicted."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "15ac381d-eff9-46f1-a84b-75c231eb5381",
+   "card_type": "cloze",
+   "front": "The product moment correlation coefficient ($r$) must always be between [ ___ ] and 1.",
+   "back": "The product moment correlation coefficient ($r$) must always be between -1 and 1.",
+   "options": [
+    {
+     "text": "-1",
+     "correct": true,
+     "explanation": "A correlation coefficient lies in the closed interval from $-1$ to $1$. The value $-1$ represents a perfect negative linear correlation."
+    },
+    {
+     "text": "0",
+     "correct": false,
+     "explanation": "Using $0$ as the lower bound wrongly excludes negative correlations. The PMCC ranges from $-1$ to $1$, with negative values representing negative linear correlation."
+    },
+    {
+     "text": "-0.5",
+     "correct": false,
+     "explanation": "The value $-0.5$ is a possible coefficient, not the minimum. The lower bound is $-1$, which represents perfect negative linear correlation."
+    },
+    {
+     "text": "1",
+     "correct": false,
+     "explanation": "Using $1$ for both bounds would allow only perfect positive correlation. The PMCC can take any value from $-1$ to $1$."
+    }
+   ]
+  },
+  {
+   "id": "e776060d-9559-46e1-9cbd-2ce516c42876",
+   "card_type": "cloze",
+   "front": "The product moment correlation coefficient ($r$) must always be between -1 and [ ___ ].",
+   "back": "The product moment correlation coefficient ($r$) must always be between -1 and 1.",
+   "options": [
+    {
+     "text": "1",
+     "correct": true,
+     "explanation": "A correlation coefficient lies in the closed interval from $-1$ to $1$. The value $1$ represents a perfect positive linear correlation."
+    },
+    {
+     "text": "0",
+     "correct": false,
+     "explanation": "Using $0$ as the upper bound wrongly excludes positive correlations. The PMCC ranges from $-1$ to $1$, with positive values representing positive linear correlation."
+    },
+    {
+     "text": "0.5",
+     "correct": false,
+     "explanation": "The value $0.5$ is a possible coefficient, not the maximum. The upper bound is $1$, representing perfect positive linear correlation."
+    },
+    {
+     "text": "2",
+     "correct": false,
+     "explanation": "A PMCC cannot exceed $1$. The value $2$ lies outside the permitted interval, whose upper endpoint is $1$."
+    }
+   ]
+  },
+  {
+   "id": "d4ff457d-b193-4aab-a5be-2a4ea79e09db",
+   "card_type": "basic",
+   "front": "How do the sign and size of the PMCC ($r$) describe a relationship?",
+   "back": "The sign (+/-) indicates the direction.The size ($|r|$) indicates the strength of linear correlation.",
+   "options": [
+    {
+     "text": "The sign (+/-) indicates the direction.The size ($|r|$) indicates the strength of linear correlation.",
+     "correct": true,
+     "explanation": "The sign shows whether the variables tend to increase together or move oppositely. The magnitude $|r|$ measures how closely the points follow a linear pattern."
+    },
+    {
+     "text": "The sign (+/-) indicates the strength.The size ($|r|$) indicates the direction of linear correlation.",
+     "correct": false,
+     "explanation": "This reverses the interpretations. The sign determines the direction of the association, while the magnitude $|r|$ determines the strength of its linear correlation."
+    },
+    {
+     "text": "The sign (+/-) indicates the direction.The size ($|r|$) indicates the causation of linear correlation.",
+     "correct": false,
+     "explanation": "The sign does indicate direction, but magnitude does not establish causation. The value of $|r|$ measures the strength of linear correlation only."
+    },
+    {
+     "text": "The sign (+/-) indicates the strength.The size ($|r|$) indicates the causation of linear correlation.",
+     "correct": false,
+     "explanation": "The sign does not measure strength, and $|r|$ cannot show which variable causes the other. Sign gives direction, while magnitude gives linear strength."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "51094859-7f09-494a-9bb4-da6445464242",
+   "card_type": "basic",
+   "front": "What happens to the PMCC if the explanatory and response variables are swapped?",
+   "back": "The value of the PMCC remains the same.",
+   "options": [
+    {
+     "text": "The value of the PMCC remains the same.",
+     "correct": true,
+     "explanation": "The PMCC formula is symmetric in the two variables, so interchanging $x$ and $y$ does not alter either its sign or magnitude."
+    },
+    {
+     "text": "The value of the PMCC changes its sign.",
+     "correct": false,
+     "explanation": "Swapping the variables does not reverse the direction of association. The PMCC formula treats both variables symmetrically, so its value remains the same."
+    },
+    {
+     "text": "The value of the PMCC becomes its reciprocal.",
+     "correct": false,
+     "explanation": "Taking a reciprocal is not part of swapping the variables; that misconception comes from gradients. Correlation is symmetric, so the PMCC remains unchanged."
+    },
+    {
+     "text": "The value of the PMCC becomes equal to zero.",
+     "correct": false,
+     "explanation": "Swapping variables does not destroy their association. Because correlation is symmetric in the two variables, the PMCC retains exactly the same value."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "a430d6e0-70e5-4709-9b3c-b407a8ea334b",
+   "card_type": "basic",
+   "front": "What is the unit of measurement for the PMCC?",
+   "back": "The PMCC is dimensionless (it has no units).",
+   "options": [
+    {
+     "text": "The PMCC is dimensionless (it has no units).",
+     "correct": true,
+     "explanation": "The PMCC standardises covariance using both variables’ standard deviations. Their units cancel completely, leaving a pure number with no units."
+    },
+    {
+     "text": "The PMCC is measured in units of the response variable.",
+     "correct": false,
+     "explanation": "The PMCC does not inherit the response variable’s units. Standardisation cancels the units of both variables, so the coefficient is dimensionless."
+    },
+    {
+     "text": "The PMCC is measured in the product of both variables’ units.",
+     "correct": false,
+     "explanation": "Multiplying the variables’ units describes the units of covariance, not correlation. Dividing by both standard deviations makes the PMCC dimensionless."
+    },
+    {
+     "text": "The PMCC is measured in percentage points.",
+     "correct": false,
+     "explanation": "A percentage is sometimes used informally for proportions, but the PMCC is reported as a unitless number from $-1$ to $1$, not as a percentage."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "29c9a51a-3f28-41c4-b75a-9621c5aa10de",
+   "card_type": "cloze",
+   "front": "The existence of correlation does not necessarily imply [ ___ ].",
+   "back": "The existence of correlation does not necessarily imply causation.",
+   "options": [
+    {
+     "text": "causation",
+     "correct": true,
+     "explanation": "A correlation may arise from coincidence, a lurking variable or reverse causality. It therefore shows association but does not by itself establish a causal link."
+    },
+    {
+     "text": "association",
+     "correct": false,
+     "explanation": "Correlation is itself a measure of association, so observed correlation does imply association. What it does not necessarily imply is causation between the variables."
+    },
+    {
+     "text": "dependence",
+     "correct": false,
+     "explanation": "A non-zero correlation indicates statistical dependence, although dependence can also exist without linear correlation. The unsupported conclusion from correlation is causation."
+    },
+    {
+     "text": "covariance",
+     "correct": false,
+     "explanation": "For variables with defined non-zero standard deviations, a non-zero PMCC corresponds to non-zero covariance. The conclusion that correlation cannot establish is causation."
+    }
+   ]
+  },
+  {
+   "id": "8359af6e-0015-4086-a0ae-6bca4188aae4",
+   "card_type": "basic",
+   "front": "What does $r \\approx 0$ indicate about the relationship between two variables?",
+   "back": "There is no linear correlation (though a non-linear relationship may still exist).",
+   "options": [
+    {
+     "text": "There is no linear correlation (though a non-linear relationship may still exist).",
+     "correct": true,
+     "explanation": "A PMCC near zero means there is little or no linear association. Curved or other non-linear patterns can nevertheless produce a coefficient near zero."
+    },
+    {
+     "text": "There is no relationship of any kind (so the variables must be independent).",
+     "correct": false,
+     "explanation": "A coefficient near zero rules out strong linear correlation, not every possible relationship. The variables may still follow a clear non-linear pattern."
+    },
+    {
+     "text": "There is strong positive correlation (so both variables usually increase together).",
+     "correct": false,
+     "explanation": "Strong positive linear correlation would require $r$ to be close to $1$. A value near zero instead indicates little or no linear correlation."
+    },
+    {
+     "text": "There is strong negative correlation (so one variable decreases as the other increases).",
+     "correct": false,
+     "explanation": "Strong negative linear correlation would require $r$ to be close to $-1$. A value near zero instead indicates little or no linear correlation."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "30c2b08d-8a2c-49e8-8550-7570e6f158f4",
+   "card_type": "basic",
+   "front": "Interpret the gradient $b$ in the regression line $y = a + bx$.",
+   "back": "The predicted change in $y$ for every one-unit increase in $x$.",
+   "options": [
+    {
+     "text": "The predicted change in $y$ for every one-unit increase in $x$.",
+     "correct": true,
+     "explanation": "The gradient measures the expected change in the response variable $y$ when the explanatory variable $x$ increases by one unit."
+    },
+    {
+     "text": "The predicted value of $y$ when the value of $x$ is zero.",
+     "correct": false,
+     "explanation": "This describes the intercept rather than the gradient. The gradient $b$ is the predicted change in $y$ associated with a one-unit increase in $x$."
+    },
+    {
+     "text": "The predicted change in $x$ for every one-unit increase in $y$.",
+     "correct": false,
+     "explanation": "This reverses the roles of the variables. In the regression of $y$ on $x$, $b$ predicts the change in $y$ for each one-unit increase in $x$."
+    },
+    {
+     "text": "The predicted value of $y$ when the value of $x$ is one.",
+     "correct": false,
+     "explanation": "This confuses the gradient with a predicted coordinate. The gradient represents a change in $y$, not the predicted value of $y$ at $x=1$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "c7f573ca-fe35-4850-aa4a-174449c20f38",
+   "card_type": "basic",
+   "front": "When is the intercept $a$ in $y = a + bx$ considered a meaningful prediction?",
+   "back": "Only if a value of $x=0$ is within or near the range of the observed data and makes sense in context.",
+   "options": [
+    {
+     "text": "Only if a value of $x=0$ is within or near the range of the observed data and makes sense in context.",
+     "correct": true,
+     "explanation": "The intercept predicts $y$ at $x=0$, so it is meaningful only when zero is a realistic value supported by, or close to, the observed data."
+    },
+    {
+     "text": "Only if the value of the intercept is positive and the fitted regression line has a positive gradient.",
+     "correct": false,
+     "explanation": "A positive intercept does not automatically have a meaningful interpretation. Its relevance depends on whether $x=0$ is realistic and lies within or near the observed range."
+    },
+    {
+     "text": "Only if the value of the PMCC is near $1$ and the observed data show strong correlation.",
+     "correct": false,
+     "explanation": "A strong correlation does not make the intercept meaningful. The intercept predicts $y$ at $x=0$, so zero must be realistic and within or near the data range."
+    },
+    {
+     "text": "Only if a value of $x=\\bar{x}$ is within the range of the observed data and makes sense in context.",
+     "correct": false,
+     "explanation": "The mean of $x$ is generally not zero and does not determine the intercept’s meaning. The relevant issue is whether $x=0$ is realistic and supported by the data."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "68655bf8-734d-48f7-96bd-8cda8eb3820b",
+   "card_type": "basic",
+   "front": "Why are predictions made via extrapolation considered unreliable?",
+   "back": "They use the model outside the range of the original data, where the trend may not continue.",
+   "options": [
+    {
+     "text": "They use the model outside the range of the original data, where the trend may not continue.",
+     "correct": true,
+     "explanation": "Extrapolation applies the fitted relationship beyond the observed values of the explanatory variable, where there is no evidence that the same pattern remains valid."
+    },
+    {
+     "text": "They use the model inside the range of the original data, where the trend may not continue.",
+     "correct": false,
+     "explanation": "Using the model within the observed range is interpolation, which is generally more reliable. Extrapolation is risky because it predicts outside that range, where the trend may change."
+    },
+    {
+     "text": "They use a model that misses some points in the original data, so the trend cannot continue.",
+     "correct": false,
+     "explanation": "Regression does not require every point to lie exactly on the line. Extrapolation is unreliable specifically because it extends the model beyond the observed data range."
+    },
+    {
+     "text": "They use a model based on too few values in the original data, so the trend may not continue.",
+     "correct": false,
+     "explanation": "A small sample can affect reliability, but it does not define extrapolation. Extrapolation means using the model outside the observed range, where its trend is unsupported."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "ab8db24f-9aab-4246-9d4f-f72fc32c4ca9",
+   "card_type": "cloze",
+   "front": "In hypothesis testing for correlation, the symbol $\\text{[...]}$ represents the population correlation coefficient, while $r$ represents the sample correlation coefficient.",
+   "back": "In hypothesis testing for correlation, the symbol $\\boxed{\\rho}$ represents the population correlation coefficient, while $r$ represents the sample correlation coefficient.",
+   "options": [
+    {
+     "text": "$$\\rho$",
+     "correct": true,
+     "explanation": "The Greek letter $\\rho$ denotes the correlation coefficient for the entire population; it is the unknown parameter tested using evidence from a sample."
+    },
+    {
+     "text": "$$r$",
+     "correct": false,
+     "explanation": "The symbol $r$ denotes the PMCC calculated from sample data, not the population parameter. The population correlation coefficient is represented by $\\rho$."
+    },
+    {
+     "text": "$$\\sigma$",
+     "correct": false,
+     "explanation": "The symbol $\\sigma$ conventionally denotes a population standard deviation, not correlation. The population correlation coefficient is represented by $\\rho$."
+    },
+    {
+     "text": "$$\\mu$",
+     "correct": false,
+     "explanation": "The symbol $\\mu$ conventionally denotes a population mean, not correlation. The population correlation coefficient used in the hypotheses is $\\rho$."
+    }
+   ]
+  },
+  {
+   "id": "a7aabc5b-cc84-4442-81cc-f67893c080bf",
+   "card_type": "cloze",
+   "front": "In hypothesis testing for correlation, the symbol $\\rho$ represents the population correlation coefficient, while $\\text{[...]}$ represents the sample correlation coefficient.",
+   "back": "In hypothesis testing for correlation, the symbol $\\rho$ represents the population correlation coefficient, while $\\boxed{r}$ represents the sample correlation coefficient.",
+   "options": [
+    {
+     "text": "$$r$",
+     "correct": true,
+     "explanation": "The letter $r$ denotes the product moment correlation coefficient calculated from the sample and is used as evidence about the population coefficient $\\rho$."
+    },
+    {
+     "text": "$$\\rho$",
+     "correct": false,
+     "explanation": "The symbol $\\rho$ denotes the population correlation coefficient, not the value calculated from a sample. The sample correlation coefficient is represented by $r$."
+    },
+    {
+     "text": "$$r^2$",
+     "correct": false,
+     "explanation": "The quantity $r^2$ is the coefficient of determination, not the sample correlation coefficient itself. The sample PMCC is represented by $r$."
+    },
+    {
+     "text": "$$b$",
+     "correct": false,
+     "explanation": "The symbol $b$ denotes the estimated gradient of a regression line, not the sample correlation coefficient. The sample PMCC is represented by $r$."
+    }
+   ]
+  },
+  {
+   "id": "d973f466-cdb0-4212-94ab-4fe6be23b81d",
+   "card_type": "basic",
+   "front": "State the null and alternative hypotheses for a two-tailed PMCC test at the population level.",
+   "back": "$H_0: \\rho = 0$$H_1: \\rho \\neq 0$",
+   "options": [
+    {
+     "text": "$H_0: \\rho = 0$$H_1: \\rho \\neq 0$",
+     "correct": true,
+     "explanation": "The null hypothesis states that the population has no linear correlation, while the two-tailed alternative allows either a positive or a negative population correlation."
+    },
+    {
+     "text": "$H_0: r = 0$$H_1: r \\neq 0$",
+     "correct": false,
+     "explanation": "Hypotheses must concern the population parameter $\\rho$, not the observed sample statistic $r$. A two-tailed PMCC test uses $H_0: \\rho=0$ and $H_1: \\rho\\neq0$."
+    },
+    {
+     "text": "$H_0: \\rho = 1$$H_1: \\rho \\neq 1$",
+     "correct": false,
+     "explanation": "Zero, rather than one, represents no population correlation. The standard test therefore uses $H_0: \\rho=0$, with the two-tailed alternative $H_1: \\rho\\neq0$."
+    },
+    {
+     "text": "$H_0: \\rho = 0$$H_1: \\rho > 0$",
+     "correct": false,
+     "explanation": "The alternative $\\rho>0$ defines a one-tailed test for positive correlation. A two-tailed test must allow both directions, so its alternative is $\\rho\\neq0$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "211a1b7d-a95c-4815-8ea2-8fbe1f587a63",
+   "card_type": "cloze",
+   "front": "To test for a negative correlation, the alternative hypothesis is $\\text{[...]}$.",
+   "back": "To test for a negative correlation, the alternative hypothesis is $\\boxed{H_1: \\rho < 0}$.",
+   "options": [
+    {
+     "text": "$$H_1: \\rho < 0$",
+     "correct": true,
+     "explanation": "A negative population correlation means the population coefficient lies below zero, so the appropriate one-tailed alternative hypothesis is $H_1: \\rho<0$."
+    },
+    {
+     "text": "$$H_1: \\rho > 0$",
+     "correct": false,
+     "explanation": "The inequality $\\rho>0$ tests for a positive correlation, reversing the required direction. A test for negative correlation uses $H_1: \\rho<0$."
+    },
+    {
+     "text": "$$H_1: \\rho \\neq 0$",
+     "correct": false,
+     "explanation": "The condition $\\rho\\neq0$ tests for correlation in either direction and is therefore two-tailed. A specifically negative alternative is $H_1: \\rho<0$."
+    },
+    {
+     "text": "$$H_0: \\rho < 0$",
+     "correct": false,
+     "explanation": "The direction is suitable, but it has been assigned to the null hypothesis. The claim being tested for belongs in the alternative: $H_1: \\rho<0$."
+    }
+   ]
+  },
+  {
+   "id": "80cb921e-ffb7-4598-90ce-960485cdd34d",
+   "card_type": "basic",
+   "front": "How do you determine if a sample PMCC ($r$) is significant enough to reject $H_0$?",
+   "back": "Compare $r$ to the critical value from the table; reject $H_0$ if $r$ is in the critical region.",
+   "options": [
+    {
+     "text": "Compare $r$ to the critical value from the table; reject $H_0$ if $r$ is in the critical region.",
+     "correct": true,
+     "explanation": "Critical values define the outcomes sufficiently extreme under $H_0$. If the observed $r$ lies in that critical region, there is enough evidence to reject $H_0$."
+    },
+    {
+     "text": "Compare $r$ to the critical value from the table; reject $H_0$ if $r$ is outside the critical region.",
+     "correct": false,
+     "explanation": "This reverses the decision rule. Values outside the critical region are not sufficiently extreme, so $H_0$ is rejected only when $r$ lies inside the critical region."
+    },
+    {
+     "text": "Compare $r$ to the significance level for the test; reject $H_0$ if $r$ is below the significance level.",
+     "correct": false,
+     "explanation": "This confuses a correlation coefficient with a probability. The numerical significance level determines the table’s critical value; the observed $r$ is then compared with that critical value."
+    },
+    {
+     "text": "Compare $\\rho$ to the critical value from the table; reject $H_0$ if $\\rho$ is in the critical region.",
+     "correct": false,
+     "explanation": "The population coefficient $\\rho$ is unknown, so it cannot be compared directly with the table. The sample statistic $r$ is compared with the critical value."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "4307f6fd-dc0c-457f-9337-2f5e9179b61b",
+   "card_type": "basic",
+   "front": "When should a two-tailed test be used for correlation?",
+   "back": "When the question asks to test for any correlation without specifying a direction (positive or negative).",
+   "options": [
+    {
+     "text": "When the question asks to test for any correlation without specifying a direction (positive or negative).",
+     "correct": true,
+     "explanation": "A two-tailed test is appropriate when the alternative hypothesis allows correlation in either direction, so both sufficiently positive and sufficiently negative sample correlations can provide evidence against $H_0$."
+    },
+    {
+     "text": "When the question asks to test for positive correlation and rules out a negative relationship.",
+     "correct": false,
+     "explanation": "Specifying positive correlation gives the directional alternative $H_1: \\rho > 0$, which requires a one-tailed test. A two-tailed test is used when either positive or negative correlation would count."
+    },
+    {
+     "text": "When the question asks to test for negative correlation and rules out a positive relationship.",
+     "correct": false,
+     "explanation": "Specifying negative correlation gives the directional alternative $H_1: \\rho < 0$, so a one-tailed test is appropriate. A two-tailed test instead tests for correlation in either direction."
+    },
+    {
+     "text": "When the question gives a small sample size without specifying the expected strength of correlation.",
+     "correct": false,
+     "explanation": "The sample size affects the critical value, not whether the test has one or two tails. A two-tailed test is chosen when no direction of correlation is specified."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "213822ce-b909-4a8f-8c23-42491923d21a",
+   "card_type": "cloze",
+   "front": "Taking logarithms of the exponential model $y = ab^x$ results in the linear form $$\\text{[...]}$$.",
+   "back": "Taking logarithms of the exponential model $y = ab^x$ results in the linear form $$\\boxed{\\log y = \\log a + x \\log b}$$.",
+   "options": [
+    {
+     "text": "$$$\\log y = \\log a + x \\log b$$",
+     "correct": true,
+     "explanation": "Using $\\log(ab^x)=\\log a+\\log(b^x)$ and the power rule $\\log(b^x)=x\\log b$ produces a linear equation with gradient $\\log b$."
+    },
+    {
+     "text": "$$$\\log y = \\log a + b \\log x$$",
+     "correct": false,
+     "explanation": "This is the linearisation of the power model $y=ax^b$, not the exponential model $y=ab^x$. For $y=ab^x$, the variable term is $x\\log b$."
+    },
+    {
+     "text": "$$$\\log y = a + x \\log b$$",
+     "correct": false,
+     "explanation": "The logarithm must be applied to the multiplicative constant as well as the exponential term. Since $\\log a$ is the intercept, the correct form is $\\log y=\\log a+x\\log b$."
+    },
+    {
+     "text": "$$$\\log y = \\log a + xb$$",
+     "correct": false,
+     "explanation": "This fails to apply the logarithm to the base $b$. The power rule gives $\\log(b^x)=x\\log b$, so the correct variable term is $x\\log b$."
+    }
+   ]
+  },
+  {
+   "id": "4e97d134-bf15-44ac-8325-a113063b2a05",
+   "card_type": "cloze",
+   "front": "Taking logarithms of the power model $y = ax^b$ results in the linear form $$\\text{[...]}$$.",
+   "back": "Taking logarithms of the power model $y = ax^b$ results in the linear form $$\\boxed{\\log y = \\log a + b \\log x}$$.",
+   "options": [
+    {
+     "text": "$$$\\log y = \\log a + b \\log x$$",
+     "correct": true,
+     "explanation": "Taking logs gives $\\log y=\\log a+\\log(x^b)$, and the power rule changes $\\log(x^b)$ to $b\\log x$. This is linear in $\\log x$."
+    },
+    {
+     "text": "$$$\\log y = \\log a + x \\log b$$",
+     "correct": false,
+     "explanation": "This form belongs to the exponential model $y=ab^x$, where $x$ is the exponent. For the power model, $\\log(x^b)=b\\log x$."
+    },
+    {
+     "text": "$$$\\log y = a + b \\log x$$",
+     "correct": false,
+     "explanation": "The constant multiplier $a$ must also be transformed when logarithms are taken. Its contribution is $\\log a$, making the correct intercept $\\log a$ rather than $a$."
+    },
+    {
+     "text": "$$$\\log y = \\log a + bx$$",
+     "correct": false,
+     "explanation": "The power rule does not remove the logarithm from $x$: $\\log(x^b)=b\\log x$, not $bx$. The correct linear variable is therefore $\\log x$."
+    }
+   ]
+  },
+  {
+   "id": "44c29faa-cb43-46d2-9281-454cac53d1f9",
+   "card_type": "basic",
+   "front": "If the regression line for transformed data is $\\log_{10} y = A + Bx$, how are the constants $a$ and $b$ for the model $y = ab^x$ calculated?",
+   "back": "$a = 10^A$$b = 10^B$",
+   "options": [
+    {
+     "text": "$a = 10^A$$b = 10^B$",
+     "correct": true,
+     "explanation": "Comparing $\\log_{10}y=\\log_{10}a+x\\log_{10}b$ with $A+Bx$ gives $A=\\log_{10}a$ and $B=\\log_{10}b$. Applying inverse logs yields these values."
+    },
+    {
+     "text": "$a = A$$b = B$",
+     "correct": false,
+     "explanation": "The regression coefficients are logarithms of the model constants, not the constants themselves. Taking inverse base-10 logarithms gives $a=10^A$ and $b=10^B$."
+    },
+    {
+     "text": "$a = 10^B$$b = 10^A$",
+     "correct": false,
+     "explanation": "This interchanges the intercept and gradient. The intercept $A$ corresponds to $\\log_{10}a$, while the gradient $B$ corresponds to $\\log_{10}b$."
+    },
+    {
+     "text": "$a = A^{10}$$b = B^{10}$",
+     "correct": false,
+     "explanation": "Raising each coefficient to the tenth power confuses exponentiation with the inverse of a base-10 logarithm. The inverse transformation is $10^A$ and $10^B$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "56a0a5df-078c-40c6-8aeb-1aaef54a68a4",
+   "card_type": "basic",
+   "front": "To test if a power model ($y = ax^b$) fits a dataset, what variables should be plotted on a scatter diagram to look for a straight line?",
+   "back": "$\\log x$ and $\\log y$.",
+   "options": [
+    {
+     "text": "$\\log x$ and $\\log y$.",
+     "correct": true,
+     "explanation": "Taking logarithms of $y=ax^b$ gives $\\log y=\\log a+b\\log x$, which is linear with dependent variable $\\log y$ and explanatory variable $\\log x$."
+    },
+    {
+     "text": "$x$ and $\\log y$.",
+     "correct": false,
+     "explanation": "Plotting $x$ against $\\log y$ tests an exponential model because $\\log y$ is then linear in $x$. A power model requires both variables to be logarithmically transformed."
+    },
+    {
+     "text": "$\\log x$ and $y$.",
+     "correct": false,
+     "explanation": "Transforming only $x$ would test whether $y$ is linear in $\\log x$, not whether $y=ax^b$. The power model becomes linear only after logging both variables."
+    },
+    {
+     "text": "$x$ and $y$.",
+     "correct": false,
+     "explanation": "A straight-line plot of the original variables supports a linear model rather than specifically a power model. Testing $y=ax^b$ requires plotting $\\log x$ against $\\log y$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "7d934de2-ff79-4c0d-b9c4-88dc2c468238",
+   "card_type": "basic",
+   "front": "What is the first step in a correlation hypothesis test?",
+   "back": "State the null hypothesis ($H_0: \\rho = 0$) and the alternative hypothesis ($H_1$).",
+   "options": [
+    {
+     "text": "State the null hypothesis ($H_0: \\rho = 0$) and the alternative hypothesis ($H_1$).",
+     "correct": true,
+     "explanation": "The hypotheses must be stated before calculations, using the population correlation coefficient $\\rho$. The null asserts no population correlation, while $H_1$ reflects the direction specified by the question."
+    },
+    {
+     "text": "Calculate the sample correlation coefficient ($r$) and compare it with the critical value.",
+     "correct": false,
+     "explanation": "The sample coefficient is calculated only after the hypotheses have been defined. The first step is to state $H_0: \\rho=0$ and the appropriate alternative hypothesis."
+    },
+    {
+     "text": "State the null hypothesis ($H_0: r = 0$) and the alternative hypothesis ($H_1$).",
+     "correct": false,
+     "explanation": "Hypotheses concern the unknown population coefficient $\\rho$, not the observed sample statistic $r$. The first step is to state $H_0: \\rho=0$ and the appropriate $H_1$."
+    },
+    {
+     "text": "Look up the critical value using the sample size and the significance level.",
+     "correct": false,
+     "explanation": "A critical value cannot be selected until the alternative hypothesis establishes whether the test is one-tailed or two-tailed. The hypotheses, beginning with $H_0: \\rho=0$, must come first."
+    }
+   ],
+   "points": 1
+  }
+ ],
+ "card_count": 22,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/a-level-statistics-1-regression-correlation-and-hypothesis-testing/flashcards",
+ "source_sha256": "2e9ed874793cf46de332b097f11935d19c1ba72667db00557c857465c18ea79b",
+ "extracted_at": "2026-11-08T19:00:05Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-3 run-001)",
+ "task_id": "T-MG-FC-3"
+}

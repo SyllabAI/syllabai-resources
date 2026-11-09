@@ -1,0 +1,703 @@
+{
+ "topic": "a-level-mechanics-5-further-kinematics",
+ "lane": "a-level-maths-edexcel",
+ "grade": null,
+ "tier": null,
+ "title": "Further Kinematics Flashcards",
+ "cards": [
+  {
+   "id": "aef624ea-f08f-4358-b016-3d0766bf81c9",
+   "card_type": "cloze",
+   "front": "In the usual convention, \\(\\mathbf{i}\\) is often due [ ___ ] and \\(\\mathbf{j}\\) is often due [ ___ ].",
+   "back": "In the usual convention, \\(\\mathbf{i}\\) is often due east and \\(\\mathbf{j}\\) is often due north.",
+   "options": [
+    {
+     "text": "In the usual convention, \\(\\mathbf{i}\\) is often due east and \\(\\mathbf{j}\\) is often due north.",
+     "correct": true,
+     "explanation": "In the standard Cartesian convention, the unit vector \\(\\mathbf{i}\\) points horizontally east and \\(\\mathbf{j}\\) points vertically north."
+    },
+    {
+     "text": "In the usual convention, \\(\\mathbf{i}\\) is often due north and \\(\\mathbf{j}\\) is often due east.",
+     "correct": false,
+     "explanation": "The directions have been reversed. By convention, \\(\\mathbf{i}\\) represents east and \\(\\mathbf{j}\\) represents north, so this completion assigns both unit vectors incorrectly."
+    },
+    {
+     "text": "In the usual convention, \\(\\mathbf{i}\\) is often due east and \\(\\mathbf{j}\\) is often due south.",
+     "correct": false,
+     "explanation": "The first direction is correct, but the second is not. The standard convention uses \\(\\mathbf{j}\\) for north, not south, so this confuses positive and negative vertical directions."
+    },
+    {
+     "text": "In the usual convention, \\(\\mathbf{i}\\) is often due west and \\(\\mathbf{j}\\) is often due north.",
+     "correct": false,
+     "explanation": "The second direction is correct, but \\(\\mathbf{i}\\) points east rather than west. West is the negative \\(\\mathbf{i}\\) direction, so this reverses the horizontal axis."
+    }
+   ]
+  },
+  {
+   "id": "e1a0515c-de91-45fa-af4a-f2c938385e69",
+   "card_type": "basic",
+   "front": "What does \\(3\\mathbf{i}-4\\mathbf{j}\\) say about its components?",
+   "back": "3 units in the \\(\\mathbf{i}\\) direction4 units in the negative \\(\\mathbf{j}\\) direction",
+   "options": [
+    {
+     "text": "3 units in the \\(\\mathbf{i}\\) direction4 units in the negative \\(\\mathbf{j}\\) direction",
+     "correct": true,
+     "explanation": "The coefficient of \\(\\mathbf{i}\\) gives 3 units in the positive \\(\\mathbf{i}\\) direction, while the negative coefficient of \\(\\mathbf{j}\\) gives 4 units opposite to \\(\\mathbf{j}\\)."
+    },
+    {
+     "text": "3 units in the \\(\\mathbf{i}\\) direction4 units in the \\(\\mathbf{j}\\) direction",
+     "correct": false,
+     "explanation": "The sign of the \\(\\mathbf{i}\\) coefficient is positive, so the first component is correct, but the second coefficient is negative. The \\(\\mathbf{j}\\) component therefore points negatively, not positively."
+    },
+    {
+     "text": "3 units in the negative \\(\\mathbf{i}\\) direction4 units in the \\(\\mathbf{j}\\) direction",
+     "correct": false,
+     "explanation": "The negative sign applies to the \\(\\mathbf{j}\\) component, not the \\(\\mathbf{i}\\) component. The correct interpretation is 3 units in \\(\\mathbf{i}\\) and 4 units in negative \\(\\mathbf{j}\\)."
+    },
+    {
+     "text": "4 units in the \\(\\mathbf{i}\\) direction3 units in the negative \\(\\mathbf{j}\\) direction",
+     "correct": false,
+     "explanation": "Both the signs and directions have been misread. The coefficients are 3 for positive \\(\\mathbf{i}\\) and -4 for \\(\\mathbf{j}\\), giving 3 units positive and 4 units negative."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "08aadbd2-60a6-4b52-8024-5f777a5e58ec",
+   "card_type": "basic",
+   "front": "How do you find displacement from initial and final position vectors?",
+   "back": "Displacement = final position - initial position.",
+   "options": [
+    {
+     "text": "Displacement = final position - initial position.",
+     "correct": true,
+     "explanation": "Displacement describes the change in position, so it is obtained by subtracting the initial position vector from the final position vector."
+    },
+    {
+     "text": "Displacement = initial position - final position.",
+     "correct": false,
+     "explanation": "This reverses the subtraction order. Initial position minus final position gives the negative of the displacement, which points in the opposite direction."
+    },
+    {
+     "text": "Displacement = final position + initial position.",
+     "correct": false,
+     "explanation": "Adding the two position vectors does not measure the change between them. Displacement requires final position minus initial position so the starting point is removed."
+    },
+    {
+     "text": "Displacement = final position.",
+     "correct": false,
+     "explanation": "This uses only the final position and ignores where the particle started. Displacement must compare both positions using final minus initial."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "f5e49e2a-4e86-43d3-8b3d-fbf1d6e804dd",
+   "card_type": "cloze",
+   "front": "The speed of a particle is the [ ___ ] of its velocity vector.",
+   "back": "The speed of a particle is the magnitude of its velocity vector.",
+   "options": [
+    {
+     "text": "magnitude",
+     "correct": true,
+     "explanation": "Velocity is a vector containing both speed and direction. Its magnitude removes the directional information and leaves the particle’s scalar speed."
+    },
+    {
+     "text": "direction",
+     "correct": false,
+     "explanation": "Direction is part of velocity but not speed. Speed is the magnitude of the velocity vector, so it has no directional component."
+    },
+    {
+     "text": "component",
+     "correct": false,
+     "explanation": "A component is only one projection of a vector and may be positive, negative, or zero. Speed uses the complete vector’s magnitude instead."
+    },
+    {
+     "text": "scalar",
+     "correct": false,
+     "explanation": "Velocity is a vector, whereas speed is a scalar. Calling speed the scalar of velocity is imprecise; the required operation is taking its magnitude."
+    }
+   ]
+  },
+  {
+   "id": "0674b36e-aae0-4169-9c68-d586c5a33143",
+   "card_type": "basic",
+   "front": "For constant velocity, what is the position vector at time \\(t\\)?",
+   "back": "\\(\\mathbf{r}=\\mathbf{r}_0+\\mathbf{v}t\\).",
+   "options": [
+    {
+     "text": "\\(\\mathbf{r}=\\mathbf{r}_0+\\mathbf{v}t\\).",
+     "correct": true,
+     "explanation": "With constant velocity, displacement from the initial position is \\(\\mathbf{v}t\\). Adding this to \\(\\mathbf{r}_0\\) gives the position at time \\(t\\)."
+    },
+    {
+     "text": "\\(\\mathbf{r}=\\mathbf{r}_0-\\mathbf{v}t\\).",
+     "correct": false,
+     "explanation": "The velocity term must be added because it represents displacement from the initial position. Subtracting it reverses the direction of motion."
+    },
+    {
+     "text": "\\(\\mathbf{r}=\\mathbf{v}t\\).",
+     "correct": false,
+     "explanation": "This omits the initial position, so it assumes the particle starts at the origin. The general expression must include \\(\\mathbf{r}_0\\)."
+    },
+    {
+     "text": "\\(\\mathbf{r}=\\mathbf{r}_0+\\dfrac{\\mathbf{v}}{t}\\).",
+     "correct": false,
+     "explanation": "Time multiplies velocity to produce displacement; it does not divide it. The correct constant-velocity relation adds \\(\\mathbf{v}t\\) to the initial position."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "d9608e98-3d9f-45c6-ba38-18d533b86559",
+   "card_type": "basic",
+   "front": "Given positions \\(\\mathbf{r}_1\\) and \\(\\mathbf{r}_2\\) separated by time \\(\\Delta t\\), how do you find constant velocity?",
+   "back": "\\(\\mathbf{v}=\\dfrac{\\mathbf{r}_2-\\mathbf{r}_1}{\\Delta t}\\).",
+   "options": [
+    {
+     "text": "\\(\\mathbf{v}=\\dfrac{\\mathbf{r}_2-\\mathbf{r}_1}{\\Delta t}\\).",
+     "correct": true,
+     "explanation": "Constant velocity equals displacement divided by the elapsed time. The displacement from the first position to the second is \\(\\mathbf{r}_2-\\mathbf{r}_1\\)."
+    },
+    {
+     "text": "\\(\\mathbf{v}=\\dfrac{\\mathbf{r}_1-\\mathbf{r}_2}{\\Delta t}\\).",
+     "correct": false,
+     "explanation": "This reverses the displacement, producing the velocity in the opposite direction. The correct order is final position minus initial position: \\(\\mathbf{r}_2-\\mathbf{r}_1\\)."
+    },
+    {
+     "text": "\\(\\mathbf{v}=\\dfrac{\\mathbf{r}_2+\\mathbf{r}_1}{\\Delta t}\\).",
+     "correct": false,
+     "explanation": "Adding positions does not give the displacement between them. Velocity requires their difference, divided by the elapsed time."
+    },
+    {
+     "text": "\\(\\mathbf{v}=\\left(\\mathbf{r}_2-\\mathbf{r}_1\\right)\\Delta t\\).",
+     "correct": false,
+     "explanation": "Multiplying by time gives a displacement, not a velocity. To obtain velocity, divide the displacement \\(\\mathbf{r}_2-\\mathbf{r}_1\\) by \\(\\Delta t\\)."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "ff80eccd-37fe-4f37-a73a-c9b5149590d8",
+   "card_type": "cloze",
+   "front": "A bearing is measured [ ___ ] from [ ___ ].",
+   "back": "A bearing is measured clockwise from north.",
+   "options": [
+    {
+     "text": "A bearing is measured clockwise from north.",
+     "correct": true,
+     "explanation": "A bearing is defined as a clockwise angle measured from north. This convention gives a unique three-figure direction for navigation and vector problems."
+    },
+    {
+     "text": "A bearing is measured anticlockwise from north.",
+     "correct": false,
+     "explanation": "Bearings are measured clockwise, not anticlockwise. Reversing the sense of rotation would give the opposite angular convention."
+    },
+    {
+     "text": "A bearing is measured clockwise from east.",
+     "correct": false,
+     "explanation": "The rotation is clockwise, but the reference direction is wrong. Bearings start from north, whereas east is associated with an angle of 090°."
+    },
+    {
+     "text": "A bearing is measured anticlockwise from east.",
+     "correct": false,
+     "explanation": "Both parts use the wrong convention. A bearing starts at north and is measured clockwise, rather than anticlockwise from east."
+    }
+   ]
+  },
+  {
+   "id": "47c91d5b-8783-484e-beb9-bca53f6013fd",
+   "card_type": "basic",
+   "front": "What is the bearing of velocity \\(-4\\mathbf{i}+5\\mathbf{j}\\), to the nearest degree?",
+   "back": "\\(321^\\circ\\) approximately.",
+   "options": [
+    {
+     "text": "\\(321^\\circ\\) approximately.",
+     "correct": true,
+     "explanation": "The vector points 4 units west and 5 units north. Its angle west of north is \\(\\tan^{-1}(4/5)\\approx38.7^\\circ\\), giving bearing \\(360^\\circ-38.7^\\circ\\approx321^\\circ\\)."
+    },
+    {
+     "text": "\\(39^\\circ\\) approximately.",
+     "correct": false,
+     "explanation": "This is approximately the angle measured from the east-west axis, not a bearing from north. Bearings require clockwise measurement from north, giving \\(321^\\circ\\)."
+    },
+    {
+     "text": "\\(309^\\circ\\) approximately.",
+     "correct": false,
+     "explanation": "Using \\(\\tan^{-1}(5/4)\\) instead of \\(\\tan^{-1}(4/5)\\) measures the wrong acute angle. The correct bearing is \\(360^\\circ-\\tan^{-1}(4/5)\\approx321^\\circ\\)."
+    },
+    {
+     "text": "\\(141^\\circ\\) approximately.",
+     "correct": false,
+     "explanation": "This places the vector in the south-east quadrant, as though the signs of both components had been mishandled. The vector is north-west, with bearing approximately \\(321^\\circ\\)."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "9ce115ce-de15-4f9d-a0e3-21aec8fde890",
+   "card_type": "basic",
+   "front": "With constant acceleration, what vector equation links \\(\\mathbf{v}\\), \\(\\mathbf{u}\\), \\(\\mathbf{a}\\) and \\(t\\)?",
+   "back": "\\(\\mathbf{v}=\\mathbf{u}+\\mathbf{a}t\\).",
+   "options": [
+    {
+     "text": "\\(\\mathbf{v}=\\mathbf{u}+\\mathbf{a}t\\).",
+     "correct": true,
+     "explanation": "Under constant acceleration, the change in velocity after time $t$ is $\\mathbf{a}t$. Adding this change to the initial velocity $\\mathbf{u}$ gives the final velocity $\\mathbf{v}$."
+    },
+    {
+     "text": "\\(\\mathbf{v}=\\mathbf{u}-\\mathbf{a}t\\).",
+     "correct": false,
+     "explanation": "Subtracting $\\mathbf{a}t$ reverses the effect of acceleration. With the acceleration vector defined in its actual direction, the velocity change is added: $\\mathbf{v}=\\mathbf{u}+\\mathbf{a}t$."
+    },
+    {
+     "text": "\\(\\mathbf{v}=\\mathbf{u}+\\frac{1}{2}\\mathbf{a}t\\).",
+     "correct": false,
+     "explanation": "The factor $\\frac{1}{2}$ belongs to the displacement term for constant acceleration, not the velocity equation. Integrating constant acceleration once gives $\\mathbf{v}=\\mathbf{u}+\\mathbf{a}t$."
+    },
+    {
+     "text": "\\(\\mathbf{v}=\\mathbf{u}+\\mathbf{a}t^2\\).",
+     "correct": false,
+     "explanation": "Acceleration contributes a velocity change proportional to $t$, not $t^2$. The squared-time term appears when velocity is integrated to obtain position, so $\\mathbf{v}=\\mathbf{u}+\\mathbf{a}t$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "51de1656-c156-419c-8a2e-22f057dd798c",
+   "card_type": "basic",
+   "front": "With constant acceleration, what is the position vector at time \\(t\\)?",
+   "back": "\\(\\mathbf{r}=\\mathbf{r}_0+\\mathbf{u}t+\\frac{1}{2}\\mathbf{a}t^2\\).",
+   "options": [
+    {
+     "text": "\\(\\mathbf{r}=\\mathbf{r}_0+\\mathbf{u}t+\\frac{1}{2}\\mathbf{a}t^2\\).",
+     "correct": true,
+     "explanation": "Integrating $\\mathbf{v}=\\mathbf{u}+\\mathbf{a}t$ gives displacement $\\mathbf{u}t+\\frac{1}{2}\\mathbf{a}t^2$. Adding the initial position $\\mathbf{r}_0$ gives the position vector at time $t$."
+    },
+    {
+     "text": "\\(\\mathbf{r}=\\mathbf{r}_0+\\mathbf{u}t+\\mathbf{a}t^2\\).",
+     "correct": false,
+     "explanation": "The factor $\\frac{1}{2}$ is lost if the acceleration term is not integrated correctly. Since $\\int \\mathbf{a}t\\,dt=\\frac{1}{2}\\mathbf{a}t^2$, the correct coefficient is one half."
+    },
+    {
+     "text": "\\(\\mathbf{r}=\\mathbf{r}_0+\\mathbf{u}t-\\frac{1}{2}\\mathbf{a}t^2\\).",
+     "correct": false,
+     "explanation": "The sign of the acceleration vector should not be changed arbitrarily. Integrating the given acceleration produces $+\\frac{1}{2}\\mathbf{a}t^2$; any direction is already encoded in $\\mathbf{a}$."
+    },
+    {
+     "text": "\\(\\mathbf{r}=\\mathbf{r}_0+\\mathbf{u}t^2+\\frac{1}{2}\\mathbf{a}t\\).",
+     "correct": false,
+     "explanation": "Initial velocity contributes displacement proportional to $t$, whereas constant acceleration contributes displacement proportional to $t^2$. The correct position is $\\mathbf{r}_0+\\mathbf{u}t+\\frac{1}{2}\\mathbf{a}t^2$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "bd954215-aef2-4a30-9852-4fb16497ff5c",
+   "card_type": "cloze",
+   "front": "A direction vector gives the [ ___ ], not necessarily the velocity itself.",
+   "back": "A direction vector gives the ratio of components, not necessarily the velocity itself.",
+   "options": [
+    {
+     "text": "ratio of components",
+     "correct": true,
+     "explanation": "Parallel vectors are scalar multiples, so their corresponding components remain in a fixed proportion. A direction vector specifies this proportion without fixing the vector’s magnitude."
+    },
+    {
+     "text": "magnitude of velocity",
+     "correct": false,
+     "explanation": "A direction vector does not determine how large the velocity is; the speed is needed for that. It specifies the ratio between corresponding components of the velocity."
+    },
+    {
+     "text": "unit vector",
+     "correct": false,
+     "explanation": "A direction vector need not have magnitude one, so it is not automatically a unit vector. Its essential information is the ratio of its components."
+    },
+    {
+     "text": "acceleration components",
+     "correct": false,
+     "explanation": "Acceleration describes the rate of change of velocity and cannot be inferred from a direction vector alone. The direction vector instead determines the ratio of velocity components."
+    }
+   ]
+  },
+  {
+   "id": "af04a688-c72b-4b1f-ab5b-40754cb7dd02",
+   "card_type": "basic",
+   "front": "How do you convert speed \\(s\\) in direction vector \\(\\mathbf{d}\\) into velocity?",
+   "back": "\\(\\mathbf{v}=s\\dfrac{\\mathbf{d}}{|\\mathbf{d}|}\\).",
+   "options": [
+    {
+     "text": "\\(\\mathbf{v}=s\\dfrac{\\mathbf{d}}{|\\mathbf{d}|}\\).",
+     "correct": true,
+     "explanation": "Dividing $\\mathbf{d}$ by its magnitude produces a unit vector in the required direction. Multiplying that unit vector by $s$ gives a velocity whose magnitude is exactly $s$."
+    },
+    {
+     "text": "\\(\\mathbf{v}=s\\mathbf{d}\\).",
+     "correct": false,
+     "explanation": "Multiplying directly by $\\mathbf{d}$ gives magnitude $s|\\mathbf{d}|$, not $s$, unless $\\mathbf{d}$ is already a unit vector. The direction vector must first be divided by $|\\mathbf{d}|$."
+    },
+    {
+     "text": "\\(\\mathbf{v}=s|\\mathbf{d}|\\mathbf{d}\\).",
+     "correct": false,
+     "explanation": "Multiplying by $|\\mathbf{d}|$ increases the magnitude rather than normalising the direction. The required unit direction is $\\mathbf{d}/|\\mathbf{d}|$, which is then multiplied by $s$."
+    },
+    {
+     "text": "\\(\\mathbf{v}=\\dfrac{\\mathbf{d}}{s|\\mathbf{d}|}\\).",
+     "correct": false,
+     "explanation": "Dividing by the speed does not produce a velocity of magnitude $s$; it gives magnitude $|\\mathbf{d}|/s$. Normalise $\\mathbf{d}$ and then multiply by $s$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "00c30525-20cf-466e-8120-1fd2525ffc13",
+   "card_type": "basic",
+   "front": "Given \\(\\mathbf{u}=12\\mathbf{i}+16\\mathbf{j}\\) and \\(\\mathbf{v}=-5\\mathbf{i}+18\\mathbf{j}\\) after 5 s, what is \\(\\mathbf{a}\\)?",
+   "back": "\\(-\\frac{17}{5}\\mathbf{i}+\\frac{2}{5}\\mathbf{j}\\text{ m s}^{-2}\\).",
+   "options": [
+    {
+     "text": "\\(-\\frac{17}{5}\\mathbf{i}+\\frac{2}{5}\\mathbf{j}\\text{ m s}^{-2}\\).",
+     "correct": true,
+     "explanation": "Constant acceleration is the velocity change divided by time. Here $\\mathbf{v}-\\mathbf{u}=-17\\mathbf{i}+2\\mathbf{j}$, and dividing both components by $5$ gives the stated acceleration."
+    },
+    {
+     "text": "\\(\\frac{17}{5}\\mathbf{i}-\\frac{2}{5}\\mathbf{j}\\text{ m s}^{-2}\\).",
+     "correct": false,
+     "explanation": "This reverses the velocity subtraction by calculating $\\mathbf{u}-\\mathbf{v}$. Acceleration uses $(\\mathbf{v}-\\mathbf{u})/5$, giving $-\\frac{17}{5}\\mathbf{i}+\\frac{2}{5}\\mathbf{j}\\text{ m s}^{-2}$."
+    },
+    {
+     "text": "\\(-17\\mathbf{i}+2\\mathbf{j}\\text{ m s}^{-2}\\).",
+     "correct": false,
+     "explanation": "This gives the change in velocity but omits division by the elapsed $5$ seconds. Dividing $-17\\mathbf{i}+2\\mathbf{j}$ by $5$ gives the correct acceleration."
+    },
+    {
+     "text": "\\(\\frac{7}{5}\\mathbf{i}+\\frac{34}{5}\\mathbf{j}\\text{ m s}^{-2}\\).",
+     "correct": false,
+     "explanation": "Adding the initial and final velocities is not how acceleration is found. Subtract the initial velocity from the final velocity, then divide by $5$, obtaining $-\\frac{17}{5}\\mathbf{i}+\\frac{2}{5}\\mathbf{j}\\text{ m s}^{-2}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "a27df05f-fb88-4f0a-993b-f8af0d8bf9ce",
+   "card_type": "cloze",
+   "front": "A vector perpendicular to \\(\\mathbf{i}\\) has \\(\\mathbf{i}\\)-component [ ___ ].",
+   "back": "A vector perpendicular to \\(\\mathbf{i}\\) has \\(\\mathbf{i}\\)-component zero.",
+   "options": [
+    {
+     "text": "zero",
+     "correct": true,
+     "explanation": "Perpendicular vectors have zero scalar product. Since $\\mathbf{i}\\boldsymbol{\\cdot}(a\\mathbf{i}+b\\mathbf{j})=a$, perpendicularity to $\\mathbf{i}$ requires the coefficient $a$ to vanish."
+    },
+    {
+     "text": "one",
+     "correct": false,
+     "explanation": "A component of one would give a non-zero scalar product with $\\mathbf{i}$, so the vectors would not be perpendicular. The $\\mathbf{i}$-component must be zero."
+    },
+    {
+     "text": "non-zero",
+     "correct": false,
+     "explanation": "Any non-zero $\\mathbf{i}$-component creates a component parallel to $\\mathbf{i}$ and a non-zero scalar product. Perpendicularity therefore requires an $\\mathbf{i}$-component of zero."
+    },
+    {
+     "text": "undefined",
+     "correct": false,
+     "explanation": "The component is fully determined by the perpendicularity condition rather than being undefined. A zero scalar product with $\\mathbf{i}$ forces the $\\mathbf{i}$-component to be zero."
+    }
+   ]
+  },
+  {
+   "id": "5c32da0f-b3c2-440b-98d8-ba88b24c1300",
+   "card_type": "basic",
+   "front": "For motion in the direction \\(\\mathbf{i}+2\\mathbf{j}\\), what relation must the velocity components satisfy?",
+   "back": "\\(\\mathbf{j}\\text{-component}=2\\times\\mathbf{i}\\text{-component}\\).",
+   "options": [
+    {
+     "text": "\\(\\mathbf{j}\\text{-component}=2\\times\\mathbf{i}\\text{-component}\\).",
+     "correct": true,
+     "explanation": "Any velocity in direction $\\mathbf{i}+2\\mathbf{j}$ is a scalar multiple $\\lambda\\mathbf{i}+2\\lambda\\mathbf{j}$. Its $\\mathbf{j}$-component must therefore be twice its $\\mathbf{i}$-component."
+    },
+    {
+     "text": "\\(\\mathbf{i}\\text{-component}=2\\times\\mathbf{j}\\text{-component}\\).",
+     "correct": false,
+     "explanation": "This reverses the component ratio. The direction $\\mathbf{i}+2\\mathbf{j}$ has component ratio $1:2$, so the $\\mathbf{j}$-component is twice the $\\mathbf{i}$-component."
+    },
+    {
+     "text": "\\(\\mathbf{j}\\text{-component}=\\mathbf{i}\\text{-component}\\).",
+     "correct": false,
+     "explanation": "Equal components describe a direction parallel to $\\mathbf{i}+\\mathbf{j}$, not $\\mathbf{i}+2\\mathbf{j}$. The required component ratio is $1:2$."
+    },
+    {
+     "text": "\\(\\mathbf{j}\\text{-component}=\\mathbf{i}\\text{-component}+2\\).",
+     "correct": false,
+     "explanation": "The components must be proportional, not differ by a fixed additive amount. For direction $\\mathbf{i}+2\\mathbf{j}$, the second component equals twice the first."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "1de96780-8f60-4fe6-96bd-7f9f542b4420",
+   "card_type": "basic",
+   "front": "For \\(\\mathbf{v}=(4t-8)\\mathbf{i}+(3t+1)\\mathbf{j}\\), when is motion in direction \\(\\mathbf{i}+2\\mathbf{j}\\)?",
+   "back": "\\(t=\\frac{17}{5}\\).",
+   "options": [
+    {
+     "text": "\\(t=\\frac{17}{5}\\).",
+     "correct": true,
+     "explanation": "The required direction has $\\mathbf{j}$-component twice the $\\mathbf{i}$-component. Solving $3t+1=2(4t-8)$ gives $3t+1=8t-16$, hence $t=17/5$."
+    },
+    {
+     "text": "\\(t=\\frac{19}{2}\\).",
+     "correct": false,
+     "explanation": "This results from reversing the required component relationship. The correct equation is $3t+1=2(4t-8)$, because the $\\mathbf{j}$-component must be twice the $\\mathbf{i}$-component, giving $t=17/5$."
+    },
+    {
+     "text": "\\(t=3\\).",
+     "correct": false,
+     "explanation": "This comes from mishandling the constant when expanding $2(4t-8)$. The expansion is $8t-16$, so solving $3t+1=8t-16$ gives $t=17/5$."
+    },
+    {
+     "text": "\\(t=9\\).",
+     "correct": false,
+     "explanation": "This treats the two velocity components as equal, which would give direction $\\mathbf{i}+\\mathbf{j}$. The required ratio is $1:2$, so $3t+1=2(4t-8)$ and $t=17/5$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "2fa1c453-e297-4305-9f76-bbeb82e628b9",
+   "card_type": "cloze",
+   "front": "To find a minimum speed, minimise [ ___ ] to avoid square roots.",
+   "back": "To find a minimum speed, minimise the square of the speed to avoid square roots.",
+   "options": [
+    {
+     "text": "the square of the speed",
+     "correct": true,
+     "explanation": "Minimising the square of the speed gives the same minimum time as minimising speed because speed is non-negative, while avoiding differentiation of a square-root expression."
+    },
+    {
+     "text": "the velocity of the particle",
+     "correct": false,
+     "explanation": "Minimising velocity treats a vector as though it were a scalar and does not define minimum speed. The square of the speed should be minimised because it is scalar and avoids square roots."
+    },
+    {
+     "text": "the magnitude of acceleration",
+     "correct": false,
+     "explanation": "Minimising acceleration does not generally locate the minimum speed, especially when acceleration is constant. Instead, minimise the square of the speed, which has the same minimum as speed itself."
+    },
+    {
+     "text": "the reciprocal of the speed",
+     "correct": false,
+     "explanation": "Minimising the reciprocal reverses the optimisation: a smaller reciprocal corresponds to a larger non-zero speed. Minimise the square of the speed to preserve the required minimum without square roots."
+    }
+   ]
+  },
+  {
+   "id": "c469fbb4-ed47-48c8-9ec2-e32b6ef8ea7f",
+   "card_type": "basic",
+   "front": "For \\(V^2=25t^2-58t+65\\), when is speed minimum?",
+   "back": "\\(t=\\frac{29}{25}\\).",
+   "options": [
+    {
+     "text": "\\(t=\\frac{29}{25}\\).",
+     "correct": true,
+     "explanation": "The quadratic reaches its minimum at its vertex, where $t=-b/(2a)=58/(2\\times25)=29/25$. Since the coefficient of $t^2$ is positive, this is a minimum."
+    },
+    {
+     "text": "\\(t=\\frac{29}{50}\\).",
+     "correct": false,
+     "explanation": "This results from dividing $58$ by $2$ twice when applying the vertex formula. Using $t=-b/(2a)$ gives $t=58/50=29/25$."
+    },
+    {
+     "text": "\\(t=\\frac{58}{25}\\).",
+     "correct": false,
+     "explanation": "This omits the factor of $2$ in the denominator of the quadratic vertex formula. The correct calculation is $t=58/(2\\times25)=29/25$."
+    },
+    {
+     "text": "\\(t=-\\frac{29}{25}\\).",
+     "correct": false,
+     "explanation": "The sign has been mishandled in $t=-b/(2a)$. Here $b=-58$, so $-b$ is positive and the minimum occurs at $t=29/25$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "c1e7c05e-fa92-40cb-af6d-1ba41d6e56eb",
+   "card_type": "cloze",
+   "front": "With constant acceleration, minimum speed occurs when velocity is [ ___ ] to acceleration, if the time is allowed.",
+   "back": "With constant acceleration, minimum speed occurs when velocity is perpendicular to acceleration, if the time is allowed.",
+   "options": [
+    {
+     "text": "perpendicular",
+     "correct": true,
+     "explanation": "Since $\\frac{d}{dt}(|\\mathbf{v}|^2)=2\\mathbf{v}\\mathbin{\\boldsymbol{\\cdot}}\\mathbf{a}$, stationary speed occurs when the dot product is zero, meaning velocity and acceleration are perpendicular."
+    },
+    {
+     "text": "parallel",
+     "correct": false,
+     "explanation": "Parallel velocity and acceleration have a non-zero dot product, so the speed is changing rather than stationary. Minimum speed occurs when velocity is perpendicular to acceleration, provided that time is permitted."
+    },
+    {
+     "text": "opposite",
+     "correct": false,
+     "explanation": "Opposite velocity and acceleration mean the particle is slowing down, but speed has not yet necessarily reached its minimum. The minimum occurs when velocity becomes perpendicular to acceleration."
+    },
+    {
+     "text": "equal",
+     "correct": false,
+     "explanation": "Equal velocity and acceleration is dimensionally inappropriate because they have different units, and it does not identify a speed minimum. The required geometric condition is that they are perpendicular."
+    }
+   ]
+  },
+  {
+   "id": "ffa0db36-5a2e-4def-9ecd-1756ccfd1f9c",
+   "card_type": "basic",
+   "front": "How do you find the position of \\(B\\) relative to \\(A\\)?",
+   "back": "\\(\\mathbf{r}_{B/A}=\\mathbf{r}_B-\\mathbf{r}_A\\).",
+   "options": [
+    {
+     "text": "\\(\\mathbf{r}_{B/A}=\\mathbf{r}_B-\\mathbf{r}_A\\).",
+     "correct": true,
+     "explanation": "Subtracting the position vector of \\(A\\) from that of \\(B\\) gives the displacement from \\(A\\) to \\(B\\), which is the position of \\(B\\) relative to \\(A\\)."
+    },
+    {
+     "text": "\\(\\mathbf{r}_{B/A}=\\mathbf{r}_A-\\mathbf{r}_B\\).",
+     "correct": false,
+     "explanation": "Reversing the subtraction gives the position of \\(A\\) relative to \\(B\\), pointing in the opposite direction. For \\(B\\) relative to \\(A\\), use \\(\\mathbf{r}_{B/A}=\\mathbf{r}_B-\\mathbf{r}_A\\)."
+    },
+    {
+     "text": "\\(\\mathbf{r}_{B/A}=\\mathbf{r}_B+\\mathbf{r}_A\\).",
+     "correct": false,
+     "explanation": "Adding the position vectors does not produce a displacement between the particles. Relative position is found by subtracting the reference position: \\(\\mathbf{r}_{B/A}=\\mathbf{r}_B-\\mathbf{r}_A\\)."
+    },
+    {
+     "text": "\\(\\mathbf{r}_{B/A}=\\mathbf{r}_B-\\mathbf{r}_B\\).",
+     "correct": false,
+     "explanation": "Subtracting \\(B\\)'s position from itself always gives the zero vector, regardless of \\(A\\). The required displacement from \\(A\\) to \\(B\\) is \\(\\mathbf{r}_B-\\mathbf{r}_A\\)."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "81d40b86-7f87-4070-8f7a-bc733a935a5d",
+   "card_type": "basic",
+   "front": "What condition must hold for two objects to collide in 2D?",
+   "back": "Both components of \\(\\mathbf{r}_{B/A}\\) are zero at the same time.",
+   "options": [
+    {
+     "text": "Both components of \\(\\mathbf{r}_{B/A}\\) are zero at the same time.",
+     "correct": true,
+     "explanation": "A collision requires the objects to occupy the same horizontal and vertical coordinates simultaneously. Therefore, both components of their relative position vector must equal zero at one common time."
+    },
+    {
+     "text": "Either component of \\(\\mathbf{r}_{B/A}\\) is zero at any time.",
+     "correct": false,
+     "explanation": "One zero component only shows that the objects share one coordinate, so they may still be separated in the other direction. Both relative-position components must be zero simultaneously."
+    },
+    {
+     "text": "Both components of \\(\\mathbf{r}_{B/A}\\) are zero at different times.",
+     "correct": false,
+     "explanation": "The components becoming zero at different times means the objects separately share each coordinate, but never necessarily share one position. Both components must be zero at the same time."
+    },
+    {
+     "text": "Both components of \\(\\mathbf{r}_{B/A}\\) are equal at the same time.",
+     "correct": false,
+     "explanation": "Equal relative-position components can both be non-zero, leaving a definite separation between the objects. For a collision, both components of the relative position must equal zero simultaneously."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "53288761-2d39-47c6-89f4-b32ca488be0a",
+   "card_type": "cloze",
+   "front": "In variable vector kinematics, [ ___ ]{dt}\\)}} and [ ___ ]{dt}\\)}}.",
+   "back": "In variable vector kinematics, \\(\\mathbf{v}=\\frac{d\\mathbf{r{dt}\\)}} and \\(\\mathbf{a}=\\frac{d\\mathbf{v{dt}\\)}}.",
+   "options": [
+    {
+     "text": "In variable vector kinematics, \\(\\mathbf{v}=\\frac{d\\mathbf{r{dt}\\)}} and \\(\\mathbf{a}=\\frac{d\\mathbf{v{dt}\\)}}.",
+     "correct": true,
+     "explanation": "Velocity is the time derivative of position, and acceleration is the time derivative of velocity. These vector derivative relationships apply component by component in variable kinematics."
+    },
+    {
+     "text": "In variable vector kinematics, \\(\\mathbf{r}=\\frac{d\\mathbf{v{dt}\\)}} and \\(\\mathbf{v}=\\frac{d\\mathbf{a{dt}\\)}}.",
+     "correct": false,
+     "explanation": "This reverses both derivative relationships. Differentiating position gives velocity and differentiating velocity gives acceleration, rather than obtaining position and velocity by differentiating later quantities."
+    },
+    {
+     "text": "In variable vector kinematics, \\(\\mathbf{v}=\\frac{d\\mathbf{r{dt}\\)}} and \\(\\mathbf{v}=\\frac{d\\mathbf{a{dt}\\)}}.",
+     "correct": false,
+     "explanation": "The first relationship is correct, but differentiating acceleration gives jerk rather than velocity. Acceleration is found by differentiating velocity: $\\mathbf{a}=d\\mathbf{v}/dt$."
+    },
+    {
+     "text": "In variable vector kinematics, \\(\\mathbf{a}=\\frac{d\\mathbf{r{dt}\\)}} and \\(\\mathbf{v}=\\frac{d\\mathbf{a{dt}\\)}}.",
+     "correct": false,
+     "explanation": "Acceleration is not the time derivative of position; that derivative is velocity. The correct chain is $\\mathbf{v}=d\\mathbf{r}/dt$ followed by $\\mathbf{a}=d\\mathbf{v}/dt$."
+    }
+   ]
+  },
+  {
+   "id": "b23c084e-e65e-47a3-a696-7e646ef00d75",
+   "card_type": "basic",
+   "front": "When integrating in vector kinematics, how are the constants found?",
+   "back": "Use the given conditions.",
+   "options": [
+    {
+     "text": "Use the given conditions.",
+     "correct": true,
+     "explanation": "Integration introduces a constant vector, or a constant for each component. Substituting the stated initial or boundary conditions determines these constants uniquely."
+    },
+    {
+     "text": "Set the constants to zero.",
+     "correct": false,
+     "explanation": "Setting every constant to zero silently assumes zero initial values, which may not be given. The constants must instead be determined by substituting the given conditions."
+    },
+    {
+     "text": "Use the derived equations.",
+     "correct": false,
+     "explanation": "Differentiating can check an antiderivative but eliminates constants, so it cannot determine their values. The values come from applying the given initial or boundary conditions."
+    },
+    {
+     "text": "Equate the vector components.",
+     "correct": false,
+     "explanation": "Comparing vector components is part of the calculation but does not supply missing initial information. Integration constants are found by substituting the given conditions into the integrated expression."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "29ca5c5f-a7f5-4e66-b69e-8b452aeac6ec",
+   "card_type": "basic",
+   "front": "If given \\(\\mathbf{v}(t)\\) and asked for distance between two positions, what is the method?",
+   "back": "Integrate velocity to get displacement.Take the magnitude of displacement.",
+   "options": [
+    {
+     "text": "Integrate velocity to get displacement.Take the magnitude of displacement.",
+     "correct": true,
+     "explanation": "Integrating the velocity vector over the interval gives the displacement vector between the positions. Its magnitude is the straight-line distance separating those two positions."
+    },
+    {
+     "text": "Differentiate velocity to get acceleration.Take the magnitude of acceleration.",
+     "correct": false,
+     "explanation": "Differentiating velocity gives acceleration, whose magnitude does not measure the separation of two positions. Instead, integrate velocity to obtain displacement and then take its magnitude."
+    },
+    {
+     "text": "Integrate velocity to get displacement.Take the sum of its components.",
+     "correct": false,
+     "explanation": "Adding displacement components does not give a vector’s magnitude and can cause cancellation. After integrating velocity, use the resultant magnitude, such as $\\sqrt{x^2+y^2}$ in two dimensions."
+    },
+    {
+     "text": "Take the magnitude of velocity.Integrate it over the interval.",
+     "correct": false,
+     "explanation": "Integrating speed gives total path length, which may exceed the straight-line distance between the two positions. Integrate velocity first, then take the magnitude of the resulting displacement."
+    }
+   ],
+   "points": 2
+  }
+ ],
+ "card_count": 24,
+ "source_url": "https://www.mathsgenie.co.uk/a-level/maths/edexcel/a-level-mechanics-5-further-kinematics/flashcards",
+ "source_sha256": "0611f051ff59aa91a880260ca84d9801ee2f5d5aa8631463c20af44e5ea3dd0b",
+ "extracted_at": "2026-11-08T19:00:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-3 run-001)",
+ "task_id": "T-MG-FC-3"
+}
