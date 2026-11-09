@@ -1,0 +1,44 @@
+{
+ "topic": "grade-4-4-11-angles-in-polygons",
+ "lane": "igcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "title": "Angles in Polygons Flashcards",
+ "cards": [
+  {
+   "id": "0fcc6aca-8d3a-41f9-95dc-dce56586f776",
+   "card_type": "basic",
+   "front": "State the formula for the sum of interior angles in a polygon with $n$ sides.",
+   "back": "$$(n - 2) \\times 180^\\circ$",
+   "options": [
+    {
+     "text": "$$(n - 2) \\times 180^\\circ$",
+     "correct": true,
+     "explanation": "A polygon can be divided into $n - 2$ triangles from one vertex. Each triangle has angle sum $180^\\circ$, so multiplying gives the total interior angle sum."
+    },
+    {
+     "text": "$$(n - 1) \\times 180^\\circ$",
+     "correct": false,
+     "explanation": "This counts one triangle too many when dividing the polygon from a single vertex. The correct relationship uses $n - 2$ triangles, each contributing $180^\\circ$."
+    },
+    {
+     "text": "$$n \\times 180^\\circ$",
+     "correct": false,
+     "explanation": "Multiplying the number of sides directly by $180^\\circ$ ignores the two fewer triangles formed inside the polygon. The correct formula is based on $n - 2$ triangles."
+    },
+    {
+     "text": "$$(n - 2) \\times 360^\\circ$",
+     "correct": false,
+     "explanation": "The triangle angle sum has been incorrectly replaced by a full turn. Each of the $n - 2$ triangles contributes $180^\\circ$, not $360^\\circ$."
+    }
+   ],
+   "points": 1
+  }
+ ],
+ "card_count": 1,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-4-4-11-angles-in-polygons/flashcards",
+ "source_sha256": "2fd550c816ac6e8efade76819894e3f0c4c05a9e74ff38ce21b0eec9ec82e5f0",
+ "extracted_at": "2026-11-08T19:00:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-2 run-001)",
+ "task_id": "T-MG-FC-2"
+}

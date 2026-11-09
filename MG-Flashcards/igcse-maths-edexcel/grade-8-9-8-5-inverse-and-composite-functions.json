@@ -1,0 +1,617 @@
+{
+ "topic": "grade-8-9-8-5-inverse-and-composite-functions",
+ "lane": "igcse-maths-edexcel",
+ "grade": "8",
+ "tier": null,
+ "title": "Inverse and Composite Functions Flashcards",
+ "cards": [
+  {
+   "id": "25b8fb1d-4767-43a5-b638-14b7e9af1a22",
+   "card_type": "basic",
+   "front": "What is the difference between the domain and the range of a function?",
+   "back": "Domain: set of allowed input valuesRange: set of possible output values",
+   "options": [
+    {
+     "text": "Domain: set of allowed input valuesRange: set of possible output values",
+     "correct": true,
+     "explanation": "The domain contains every permitted input to the function, while the range contains every output that the function can produce from those inputs."
+    },
+    {
+     "text": "Domain: set of possible output valuesRange: set of allowed input values",
+     "correct": false,
+     "explanation": "This reverses the two definitions. The domain is the set of allowed input values, while the range is the set of possible output values."
+    },
+    {
+     "text": "Domain: set of excluded input valuesRange: set of impossible output values",
+     "correct": false,
+     "explanation": "Domain and range describe values that are allowed or possible, not values that are excluded or impossible. They refer to permitted inputs and resulting outputs respectively."
+    },
+    {
+     "text": "Domain: set of possible input valuesRange: set of possible input values",
+     "correct": false,
+     "explanation": "This treats both sets as inputs. The domain contains allowed input values, but the range contains the possible output values produced by the function."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "9f1a11cd-d764-4d94-9a04-b51e25c0bb96",
+   "card_type": "cloze",
+   "front": "To find excluded values for a fraction, set the denominator to $\\text{[...]}$.",
+   "back": "To find excluded values for a fraction, set the denominator to $\\boxed{\\neq 0}$.",
+   "options": [
+    {
+     "text": "$$\\neq 0$",
+     "correct": true,
+     "explanation": "A fraction is defined only when its denominator is non-zero. Values making the denominator zero are therefore excluded from the function’s domain."
+    },
+    {
+     "text": "$$=0$",
+     "correct": false,
+     "explanation": "Setting the denominator equal to zero identifies the values that must be excluded, but the required condition for an allowed denominator is $\\neq 0$."
+    },
+    {
+     "text": "$$>0$",
+     "correct": false,
+     "explanation": "A denominator may be positive or negative; it only cannot equal zero. The correct condition for permitted values is therefore $\\neq 0$."
+    },
+    {
+     "text": "$$\\neq 1$",
+     "correct": false,
+     "explanation": "There is no general restriction preventing a denominator from equalling one. Division fails only when the denominator is zero, so the condition is $\\neq 0$."
+    }
+   ]
+  },
+  {
+   "id": "3a3a3a99-29e1-4831-91fa-08caad7f1a89",
+   "card_type": "basic",
+   "front": "What mathematical condition must be met for values to be included in the domain of $f(x) = \\sqrt{x}$?",
+   "back": "The expression inside the square root must be non-negative ($x \\ge 0$).",
+   "options": [
+    {
+     "text": "The expression inside the square root must be non-negative ($x \\ge 0$).",
+     "correct": true,
+     "explanation": "For a real-valued square root, the expression under the root cannot be negative. Therefore $\\sqrt{x}$ is defined for real $x$ only when $x \\ge 0$."
+    },
+    {
+     "text": "The expression inside the square root must be positive ($x > 0$).",
+     "correct": false,
+     "explanation": "This unnecessarily excludes zero. Since $\\sqrt{0}=0$ is defined, the expression may equal zero, so the correct condition is $x \\ge 0$."
+    },
+    {
+     "text": "The expression inside the square root must be non-positive ($x \\le 0$).",
+     "correct": false,
+     "explanation": "This reverses the inequality and includes negative values, whose square roots are not real. The expression must instead be non-negative, giving $x \\ge 0$."
+    },
+    {
+     "text": "The expression inside the square root must be negative ($x < 0$).",
+     "correct": false,
+     "explanation": "Negative inputs do not have real square roots, so this condition describes values outside the real domain. The required condition is $x \\ge 0$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "618aa3c3-6270-41d2-ac34-029c17d79f30",
+   "card_type": "basic",
+   "front": "What value must be excluded from the domain of $p(x) = \\frac{6}{x-3}$?",
+   "back": "$$x = 3$ (because the denominator cannot be zero).",
+   "options": [
+    {
+     "text": "$$x = 3$ (because the denominator cannot be zero).",
+     "correct": true,
+     "explanation": "Substituting $x=3$ makes the denominator $x-3$ equal to zero. Division by zero is undefined, so this value must be excluded."
+    },
+    {
+     "text": "$$x = -3$ (because the denominator cannot be zero).",
+     "correct": false,
+     "explanation": "This sign error comes from solving $x-3=0$ incorrectly. Adding 3 to both sides gives $x=3$, which is the excluded value."
+    },
+    {
+     "text": "$$x = 0$ (because the denominator cannot be zero).",
+     "correct": false,
+     "explanation": "Substituting zero gives a denominator of $-3$, so the fraction remains defined. The denominator becomes zero when $x=3$, which must be excluded."
+    },
+    {
+     "text": "$$x = 6$ (because the denominator cannot be zero).",
+     "correct": false,
+     "explanation": "The numerator does not determine the excluded input. At $x=6$ the denominator is 3; it becomes zero only at $x=3$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "7e8ebcc9-ad8a-4891-98c6-b0472ce324a1",
+   "card_type": "cloze",
+   "front": "The graph of an inverse function is a reflection of the original function in the line $\\text{[...]}$.",
+   "back": "The graph of an inverse function is a reflection of the original function in the line $\\boxed{y=x}$.",
+   "options": [
+    {
+     "text": "$$y=x$",
+     "correct": true,
+     "explanation": "Finding an inverse swaps every point’s coordinates from $(x,y)$ to $(y,x)$. Geometrically, this is precisely a reflection in the line $y=x$."
+    },
+    {
+     "text": "$$y=-x$",
+     "correct": false,
+     "explanation": "Reflection in $y=-x$ does not simply swap the input and output coordinates. An inverse graph is obtained by reflection in $y=x$."
+    },
+    {
+     "text": "$$x=0$",
+     "correct": false,
+     "explanation": "Reflection in $x=0$, the $y$-axis, changes the sign of each input rather than swapping inputs and outputs. Inverse graphs reflect in $y=x$."
+    },
+    {
+     "text": "$$y=0$",
+     "correct": false,
+     "explanation": "Reflection in $y=0$, the $x$-axis, changes the sign of each output rather than interchanging coordinates. The correct mirror line is $y=x$."
+    }
+   ]
+  },
+  {
+   "id": "9458b711-2494-4add-97e7-1f96737c1901",
+   "card_type": "basic",
+   "front": "How do the domain and range of $f$ relate to the domain and range of $f^{-1}$?",
+   "back": "The domain of $f$ becomes the range of $f^{-1}$.The range of $f$ becomes the domain of $f^{-1}$.",
+   "options": [
+    {
+     "text": "The domain of $f$ becomes the range of $f^{-1}$.The range of $f$ becomes the domain of $f^{-1}$.",
+     "correct": true,
+     "explanation": "An inverse function reverses the original mapping, so the original inputs become inverse outputs and the original outputs become inverse inputs."
+    },
+    {
+     "text": "The domain of $f$ becomes the domain of $f^{-1}$.The range of $f$ becomes the range of $f^{-1}$.",
+     "correct": false,
+     "explanation": "This incorrectly leaves the sets unchanged. Because an inverse swaps inputs and outputs, the domain and range of the original function exchange roles."
+    },
+    {
+     "text": "The domain of $f$ becomes the domain of $f^{-1}$.The range of $f$ becomes the domain of $f^{-1}$.",
+     "correct": false,
+     "explanation": "This assigns both original sets to the inverse domain. Instead, the range of $f$ becomes the inverse domain, while the domain of $f$ becomes the inverse range."
+    },
+    {
+     "text": "The domain of $f$ becomes the range of $f^{-1}$.The range of $f$ becomes the range of $f^{-1}$.",
+     "correct": false,
+     "explanation": "This assigns both original sets to the inverse range. Only the domain of $f$ becomes the inverse range; the range of $f$ becomes the inverse domain."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "4a6a5459-028d-4e49-8eda-24f7c770e2a9",
+   "card_type": "basic",
+   "front": "What is the common mistake regarding the notation $f^{-1}(x)$?",
+   "back": "Assuming $f^{-1}(x) = \\frac{1}{f(x)}$; it is the inverse function, not the reciprocal.",
+   "options": [
+    {
+     "text": "Assuming $f^{-1}(x) = \\frac{1}{f(x)}$; it is the inverse function, not the reciprocal.",
+     "correct": true,
+     "explanation": "The superscript $-1$ in function notation means the function that reverses $f$. A reciprocal is written $\\frac{1}{f(x)}$ and is generally different."
+    },
+    {
+     "text": "Assuming $f^{-1}(x) = -f(x)$; it is the inverse function, not the negative.",
+     "correct": false,
+     "explanation": "Although the superscript may be mistaken for a negative operation, the classic error is interpreting it as a reciprocal. It denotes the inverse function, not $\\frac{1}{f(x)}$."
+    },
+    {
+     "text": "Assuming $f^{-1}(x) = f(-x)$; it is the inverse function, not the reflection.",
+     "correct": false,
+     "explanation": "Replacing $x$ by $-x$ reflects a graph in the $y$-axis and does not find its inverse. The common misconception is treating $f^{-1}(x)$ as $\\frac{1}{f(x)}$."
+    },
+    {
+     "text": "Assuming $f^{-1}(x) = f(x-1)$; it is the inverse function, not the translation.",
+     "correct": false,
+     "explanation": "Subtracting one from the input translates the graph and is unrelated to inverse notation. The common mistake is confusing $f^{-1}(x)$ with the reciprocal $\\frac{1}{f(x)}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "01030d79-7033-41cc-8597-afba9944f689",
+   "card_type": "basic",
+   "front": "What are the algebraic steps to find an inverse function?",
+   "back": "Set $y = f(x)$Swap $x$ and $y$Rearrange to make $y$ the subjectReplace $y$ with $f^{-1}(x)$",
+   "options": [
+    {
+     "text": "Set $y = f(x)$Swap $x$ and $y$Rearrange to make $y$ the subjectReplace $y$ with $f^{-1}(x)$",
+     "correct": true,
+     "explanation": "An inverse reverses inputs and outputs, so $x$ and $y$ are swapped. Solving for the new output and renaming it gives the inverse function."
+    },
+    {
+     "text": "Set $y = f(x)$Swap $x$ and $y$Rearrange to make $x$ the subjectReplace $x$ with $f^{-1}(x)$",
+     "correct": false,
+     "explanation": "After swapping the variables, the new output is $y$, so $y$ must be isolated. It is then replaced with $f^{-1}(x)$, not $x$."
+    },
+    {
+     "text": "Set $y = f(x)$Replace $y$ with $\\frac{1}{y}$Rearrange to make $y$ the subjectReplace $y$ with $f^{-1}(x)$",
+     "correct": false,
+     "explanation": "Taking a reciprocal does not reverse a function’s input-output mapping. The correct process swaps $x$ and $y$, then rearranges to make $y$ the subject."
+    },
+    {
+     "text": "Set $y = f(x)$Swap $x$ and $y$Rearrange to make $x$ the subjectReplace $y$ with $f^{-1}(x)$",
+     "correct": false,
+     "explanation": "This isolates the wrong variable after the swap. To express the inverse as a function of $x$, rearrange for $y$ and then write $f^{-1}(x)$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "68e4064a-3458-45d1-bcce-d515d7150d30",
+   "card_type": "basic",
+   "front": "Define a one-to-one function.",
+   "back": "A function where each output comes from exactly one input.",
+   "options": [
+    {
+     "text": "A function where each output comes from exactly one input.",
+     "correct": true,
+     "explanation": "This is one-to-one because no two different inputs produce the same output. Consequently, each output in the range can be traced back to exactly one input."
+    },
+    {
+     "text": "A function where each input maps to exactly one output.",
+     "correct": false,
+     "explanation": "This states the general definition of a function, since every function assigns one output to each input. One-to-one additionally requires each output to come from exactly one input."
+    },
+    {
+     "text": "A function where every possible output has at least one input.",
+     "correct": false,
+     "explanation": "This describes an onto function, where every value in the codomain is reached. A one-to-one function instead requires each output in its range to come from exactly one input."
+    },
+    {
+     "text": "A function where each output can come from several different inputs.",
+     "correct": false,
+     "explanation": "This describes a many-to-one function, which is the opposite of one-to-one. In a one-to-one function, different inputs must always produce different outputs."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "22aad180-c338-46bd-920e-485e4b0f27ec",
+   "card_type": "cloze",
+   "front": "A function must be [ ___ ] on its domain for its inverse to be a function.",
+   "back": "A function must be one-to-one on its domain for its inverse to be a function.",
+   "options": [
+    {
+     "text": "one-to-one",
+     "correct": true,
+     "explanation": "A one-to-one function gives different outputs for different inputs, so reversing the mapping assigns exactly one output to every input of the inverse."
+    },
+    {
+     "text": "many-to-one",
+     "correct": false,
+     "explanation": "A many-to-one function sends different inputs to the same output, so its inverse would send one input to several outputs. The original function must be one-to-one."
+    },
+    {
+     "text": "onto",
+     "correct": false,
+     "explanation": "Being onto concerns whether every codomain value is reached, not whether outputs are repeated. The condition needed for the inverse to be a function is one-to-one."
+    },
+    {
+     "text": "continuous",
+     "correct": false,
+     "explanation": "Continuity does not prevent two different inputs from having the same output. An inverse is a function only when the original function is one-to-one on its domain."
+    }
+   ]
+  },
+  {
+   "id": "64a4abfe-d240-443b-8b63-98128d8b412c",
+   "card_type": "basic",
+   "front": "Why do quadratic functions usually need a restricted domain to have an inverse?",
+   "back": "Without restriction, they are many-to-one (different inputs can give the same output).",
+   "options": [
+    {
+     "text": "Without restriction, they are many-to-one (different inputs can give the same output).",
+     "correct": true,
+     "explanation": "A full quadratic graph is symmetric about its turning point, so pairs of different inputs can produce the same output. Restricting the domain removes one branch and makes it one-to-one."
+    },
+    {
+     "text": "Without restriction, they are one-to-many (one input can give several different outputs).",
+     "correct": false,
+     "explanation": "A quadratic is still a function, so each input gives only one output; it is not one-to-many. The problem is that different inputs can share an output, making it many-to-one."
+    },
+    {
+     "text": "Without restriction, they are undefined at the turning point (the minimum or maximum has no output).",
+     "correct": false,
+     "explanation": "A quadratic is defined at its turning point, which gives its minimum or maximum value. Restriction is needed because symmetry makes the unrestricted quadratic many-to-one."
+    },
+    {
+     "text": "Without restriction, they are always decreasing (larger inputs always give smaller outputs).",
+     "correct": false,
+     "explanation": "A quadratic generally decreases on one side of its turning point and increases on the other. This creates repeated outputs, so a restricted domain is needed to make it one-to-one."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "5613e042-9ff3-49e1-841b-2da71f3a02b4",
+   "card_type": "cloze",
+   "front": "To find the inverse of a quadratic function, you should first [ ___ ].",
+   "back": "To find the inverse of a quadratic function, you should first complete the square.",
+   "options": [
+    {
+     "text": "complete the square",
+     "correct": true,
+     "explanation": "Completing the square rewrites the quadratic in turning-point form. This makes it straightforward to swap variables, isolate the squared expression and select the correct square-root branch."
+    },
+    {
+     "text": "differentiate the function",
+     "correct": false,
+     "explanation": "Differentiation can locate the turning point, but it does not rearrange the function into a form suitable for inversion. You should first complete the square."
+    },
+    {
+     "text": "factorise the expression",
+     "correct": false,
+     "explanation": "Factorising is useful for finding roots but usually does not make the inverse easy to isolate. Completing the square exposes the squared term and turning point directly."
+    },
+    {
+     "text": "expand the brackets",
+     "correct": false,
+     "explanation": "Expanding produces standard quadratic form, which hides the structure needed when taking square roots. Completing the square is the useful first step for finding the inverse."
+    }
+   ]
+  },
+  {
+   "id": "321323c3-d74f-48dc-87f8-82d663546ccb",
+   "card_type": "basic",
+   "front": "If $g(x) = x^2 + 10x + 7$ with domain $x \\ge -5$, what is the range of $g^{-1}(x)$?",
+   "back": "The range is $x \\ge -5$ (identical to the domain of the original function).",
+   "options": [
+    {
+     "text": "The range is $x \\ge -5$ (identical to the domain of the original function).",
+     "correct": true,
+     "explanation": "The inverse swaps input and output roles, so its range equals the original function’s domain. Since $g$ is restricted to $x \\ge -5$, so is the range of $g^{-1}$."
+    },
+    {
+     "text": "The range is $x \\ge -18$ (identical to the range of the original function).",
+     "correct": false,
+     "explanation": "Completing the square gives $g(x)=(x+5)^2-18$, so $x \\ge -18$ is the domain of the inverse, not its range. Its range is $x \\ge -5$."
+    },
+    {
+     "text": "The range is $x \\le -5$ (the opposite inequality to the original domain).",
+     "correct": false,
+     "explanation": "This chooses the branch opposite to the stated restriction. The inverse’s range must reproduce the original domain exactly, so the correct inequality is $x \\ge -5$."
+    },
+    {
+     "text": "The range is $x \\ge 5$ (using the positive value of the turning-point input).",
+     "correct": false,
+     "explanation": "This loses the negative sign in the turning-point input, which is $-5$, not $5$. The inverse’s range equals the original domain, giving $x \\ge -5$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "72448acf-f91e-4452-9e8d-b895b0de133a",
+   "card_type": "basic",
+   "front": "How do you decide between the positive or negative square root branch when finding a quadratic inverse?",
+   "back": "Check the restricted domain of the original function.",
+   "options": [
+    {
+     "text": "Check the restricted domain of the original function.",
+     "correct": true,
+     "explanation": "The restricted domain identifies which side of the quadratic’s turning point is retained. That determines whether the inverse uses the positive or negative square-root branch."
+    },
+    {
+     "text": "Always choose the positive square root for the inverse function.",
+     "correct": false,
+     "explanation": "The positive branch is not automatic; it is used only when it reproduces values in the original restricted domain. The domain determines which square-root sign is valid."
+    },
+    {
+     "text": "Check the sign of the quadratic coefficient in the original function.",
+     "correct": false,
+     "explanation": "The quadratic coefficient determines whether the graph opens upwards or downwards, but not which side is retained. The positive or negative branch is chosen from the restricted domain."
+    },
+    {
+     "text": "Check the sign of the constant term in the original function.",
+     "correct": false,
+     "explanation": "The constant term affects the graph’s vertical position but does not identify the permitted inverse branch. The branch must match the original function’s restricted domain."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "5dde4d96-9d5e-4e0f-88cf-10390d93a7f2",
+   "card_type": "basic",
+   "front": "What does the composite function $fg(x)$ represent?",
+   "back": "$$f(g(x))$; applying $g$ first, then applying $f$ to the result.",
+   "options": [
+    {
+     "text": "$$f(g(x))$; applying $g$ first, then applying $f$ to the result.",
+     "correct": true,
+     "explanation": "Composition is evaluated from the inside out. The input first enters $g$, and the output produced by $g$ then becomes the input of $f$."
+    },
+    {
+     "text": "$$g(f(x))$; applying $f$ first, then applying $g$ to the result.",
+     "correct": false,
+     "explanation": "This reverses the order and represents $gf(x)$ rather than $fg(x)$. For $fg(x)$, apply $g$ first and then apply $f$ to its output."
+    },
+    {
+     "text": "$$f(x)g(x)$; multiplying the outputs of $f$ and $g$ for the same input.",
+     "correct": false,
+     "explanation": "This is the product of two function values, not a composite function. In $fg(x)$, the output of $g$ is substituted into $f$, giving $f(g(x))$."
+    },
+    {
+     "text": "$$f(x)+g(x)$; adding the outputs of $f$ and $g$ for the same input.",
+     "correct": false,
+     "explanation": "This is the sum of two function values rather than composition. The notation $fg(x)$ here means substitute $g(x)$ into $f$, producing $f(g(x))$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "d2741fb6-a31b-4ab1-bcdb-208bb32160a3",
+   "card_type": "cloze",
+   "front": "When calculating a composite function value like $fg(2)$, you work from [ ___ ].",
+   "back": "When calculating a composite function value like $fg(2)$, you work from right to left.",
+   "options": [
+    {
+     "text": "right to left",
+     "correct": true,
+     "explanation": "In $fg(2)=f(g(2))$, the right-hand function $g$ acts on $2$ first. Its result is then used as the input to the left-hand function $f$."
+    },
+    {
+     "text": "left to right",
+     "correct": false,
+     "explanation": "This reverses the order of composition and would apply $f$ before $g$. For $fg(2)=f(g(2))$, evaluate $g(2)$ first, so work from right to left."
+    },
+    {
+     "text": "outside to inside",
+     "correct": false,
+     "explanation": "Starting with the outer function is impossible until its input has been found. Composite functions are evaluated inside first, which means working from right to left."
+    },
+    {
+     "text": "the left-hand function first",
+     "correct": false,
+     "explanation": "The left-hand function receives the result of the right-hand function, so it cannot be evaluated first. For $fg(2)$, calculate $g(2)$ before applying $f$."
+    }
+   ]
+  },
+  {
+   "id": "b0388e7b-8557-4bb0-a5e8-b3720fb66daf",
+   "card_type": "basic",
+   "front": "Given $f(x) = \\frac{3}{x-2}$ and $g(x) = x+5$, find $fg(1)$.",
+   "back": "$g(1) = 6$$f(6) = \\frac{3}{6-2} = \\mathbf{\\frac{3}{4}}$",
+   "options": [
+    {
+     "text": "$g(1) = 6$$f(6) = \\frac{3}{6-2} = \\mathbf{\\frac{3}{4}}$",
+     "correct": true,
+     "explanation": "Composition applies $g$ first, giving $g(1)=6$. Substituting this output into $f$ gives $f(6)=3/(6-2)=3/4$."
+    },
+    {
+     "text": "$f(1) = -3$$g(-3) = -3+5 = \\mathbf{2}$",
+     "correct": false,
+     "explanation": "This reverses the order and calculates $gf(1)$ instead of $fg(1)$. Applying $g$ first gives 6, then $f(6)=3/4$."
+    },
+    {
+     "text": "$g(1) = 6$$f(6) = \\frac{3}{6+2} = \\mathbf{\\frac{3}{8}}$",
+     "correct": false,
+     "explanation": "This changes the denominator from $x-2$ to $x+2$. Since $g(1)=6$, the correct substitution is $f(6)=3/(6-2)=3/4$."
+    },
+    {
+     "text": "$g(1) = 6$$f(6) = \\frac{3}{6}-2 = \\mathbf{-\\frac{3}{2}}$",
+     "correct": false,
+     "explanation": "This treats the denominator brackets incorrectly, reading $3/(x-2)$ as $3/x-2$. The entire expression $6-2$ is the denominator, giving $3/4$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "6ce13d6d-9de5-4596-9a07-4d069f2e2c1d",
+   "card_type": "basic",
+   "front": "Is $fg(x)$ always equal to $gf(x)$?",
+   "back": "No, the order usually changes the result.",
+   "options": [
+    {
+     "text": "No, the order usually changes the result.",
+     "correct": true,
+     "explanation": "Function composition is not generally commutative: $fg(x)$ means $f(g(x))$, whereas $gf(x)$ means $g(f(x))$. Applying the functions in a different order usually changes the result."
+    },
+    {
+     "text": "Yes, the order never changes the result.",
+     "correct": false,
+     "explanation": "Function composition is not generally commutative. Since $fg(x)=f(g(x))$ and $gf(x)=g(f(x))$, changing the order usually changes the result."
+    },
+    {
+     "text": "Yes, the same input guarantees the same result.",
+     "correct": false,
+     "explanation": "Using the same starting input does not guarantee the same final output because the intermediate values can differ. The order of composition usually changes the result."
+    },
+    {
+     "text": "Yes, the notation shows the functions are interchangeable.",
+     "correct": false,
+     "explanation": "The notation indicates which function is applied first; it does not make the functions interchangeable. In general, $f(g(x))$ and $g(f(x))$ produce different results."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "e3b36dbc-58de-4e88-8855-3836f4f35f82",
+   "card_type": "cloze",
+   "front": "In $fg(8)$, the input 8 goes into the function $\\text{[...]}$ first, then the output goes into $f$.",
+   "back": "In $fg(8)$, the input 8 goes into the function $\\boxed{g}$ first, then the output goes into $f$.",
+   "options": [
+    {
+     "text": "$$g$",
+     "correct": true,
+     "explanation": "In $fg(8)=f(g(8))$, the inside function is applied first. Therefore, 8 is first substituted into $g$, and its output is then substituted into $f$."
+    },
+    {
+     "text": "$$f$",
+     "correct": false,
+     "explanation": "Reading the function letters from left to right reverses the composition. Since $fg(8)$ means $f(g(8))$, the input must go into $g$ first."
+    },
+    {
+     "text": "$$f^{-1}$",
+     "correct": false,
+     "explanation": "An inverse function is not introduced merely by composing two functions. The notation $fg(8)$ means $f(g(8))$, so the input goes into $g$ first."
+    },
+    {
+     "text": "$$g^{-1}$",
+     "correct": false,
+     "explanation": "Composition does not require undoing $g$. The notation $fg(8)=f(g(8))$ requires applying $g$ itself first, followed by $f$."
+    }
+   ]
+  },
+  {
+   "id": "3c8618fe-7887-434f-95e9-b773825cf869",
+   "card_type": "cloze",
+   "front": "In $fg(8)$, the input 8 goes into the function $g$ first, then the output goes into $\\text{[...]}$.",
+   "back": "In $fg(8)$, the input 8 goes into the function $g$ first, then the output goes into $\\boxed{f}$.",
+   "options": [
+    {
+     "text": "$$f$",
+     "correct": true,
+     "explanation": "The notation $fg(8)$ means $f(g(8))$. After 8 is substituted into $g$, the resulting output becomes the input of $f$."
+    },
+    {
+     "text": "$$g$",
+     "correct": false,
+     "explanation": "Applying $g$ again would calculate $g(g(8))$, not $fg(8)$. After $g$ acts on 8, its output must be substituted into $f$."
+    },
+    {
+     "text": "$$f^{-1}$",
+     "correct": false,
+     "explanation": "An inverse is not implied by function composition. In $fg(8)=f(g(8))$, the output from $g$ goes directly into $f$, not into $f^{-1}$."
+    },
+    {
+     "text": "$$g^{-1}$",
+     "correct": false,
+     "explanation": "This would attempt to undo the first function rather than complete the stated composition. After applying $g$, its output must be substituted into $f$."
+    }
+   ]
+  },
+  {
+   "id": "59168455-5c4e-4b00-b6fb-ae9535da2e12",
+   "card_type": "basic",
+   "front": "What is the inverse of $f(x) = \\frac{4x-7}{3}$?",
+   "back": "$$f^{-1}(x) = \\frac{3x+7}{4}$",
+   "options": [
+    {
+     "text": "$$f^{-1}(x) = \\frac{3x+7}{4}$",
+     "correct": true,
+     "explanation": "Writing $y=(4x-7)/3$ and rearranging gives $3y=4x-7$, then $x=(3y+7)/4$. Swapping variables produces the stated inverse."
+    },
+    {
+     "text": "$$f^{-1}(x) = \\frac{3x-7}{4}$",
+     "correct": false,
+     "explanation": "The sign is not changed correctly when rearranging: adding 7 to both sides gives $4x=3y+7$, not $3y-7$. Therefore the inverse is $(3x+7)/4$."
+    },
+    {
+     "text": "$$f^{-1}(x) = \\frac{4x+7}{3}$",
+     "correct": false,
+     "explanation": "Changing only the sign of the constant does not reverse the function’s operations. Rearranging $y=(4x-7)/3$ correctly gives the inverse $(3x+7)/4$."
+    },
+    {
+     "text": "$$f^{-1}(x) = \\frac{3x+7}{3}$",
+     "correct": false,
+     "explanation": "This divides by the original outer denominator instead of the coefficient of the original input. Rearrangement gives $4x=3y+7$, so the inverse is $(3x+7)/4$."
+    }
+   ],
+   "points": 2
+  }
+ ],
+ "card_count": 21,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-8-9-8-5-inverse-and-composite-functions/flashcards",
+ "source_sha256": "5b1297ed4cbe1e636b5ef3d0e1d323904469b1fa20eca32c3129b94e9d3b3efd",
+ "extracted_at": "2026-11-08T19:00:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-2 run-001)",
+ "task_id": "T-MG-FC-2"
+}

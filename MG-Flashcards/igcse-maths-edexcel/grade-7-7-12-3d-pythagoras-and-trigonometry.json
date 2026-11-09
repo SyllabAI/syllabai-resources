@@ -1,0 +1,644 @@
+{
+ "topic": "grade-7-7-12-3d-pythagoras-and-trigonometry",
+ "lane": "igcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "title": "3d Pythagoras and Trigonometry Flashcards",
+ "cards": [
+  {
+   "id": "ded0c4ca-1b71-4363-bf14-62a910ac11c6",
+   "card_type": "basic",
+   "front": "In the Pythagoras theorem $a^2 + b^2 = c^2$, which side must be $c$?",
+   "back": "The hypotenuse (the longest side opposite the right angle).",
+   "options": [
+    {
+     "text": "The hypotenuse (the longest side opposite the right angle).",
+     "correct": true,
+     "explanation": "In a right-angled triangle, $c$ is the hypotenuse because it lies opposite the right angle and is always the triangle’s longest side."
+    },
+    {
+     "text": "The adjacent side (the side next to the right angle).",
+     "correct": false,
+     "explanation": "The adjacent side depends on which acute angle is being considered, so it is not necessarily $c$. In Pythagoras, $c$ must be the hypotenuse opposite the right angle."
+    },
+    {
+     "text": "The shortest side (the side next to the right angle).",
+     "correct": false,
+     "explanation": "Choosing the shortest side confuses the fixed role of $c$ with relative side lengths. The correct side is the hypotenuse, which is opposite the right angle and longest."
+    },
+    {
+     "text": "The opposite side (the side opposite an acute angle).",
+     "correct": false,
+     "explanation": "The opposite side in trigonometry changes according to the chosen acute angle. In Pythagoras, $c$ specifically represents the hypotenuse opposite the right angle."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "bdea9465-8500-4119-b3a2-9e4d63cdd092",
+   "card_type": "cloze",
+   "front": "A [ ___ ] joins two opposite corners of a 3D shape, passing through the inside of the solid.",
+   "back": "A space diagonal joins two opposite corners of a 3D shape, passing through the inside of the solid.",
+   "options": [
+    {
+     "text": "space diagonal",
+     "correct": true,
+     "explanation": "A space diagonal connects opposite vertices while travelling through the interior of a three-dimensional solid, rather than remaining on one of its faces."
+    },
+    {
+     "text": "face diagonal",
+     "correct": false,
+     "explanation": "A face diagonal joins opposite corners of one two-dimensional face and stays on the solid’s surface. A diagonal passing through the interior is a space diagonal."
+    },
+    {
+     "text": "slant height",
+     "correct": false,
+     "explanation": "A slant height measures a sloping surface length, commonly on a cone or pyramid; it does not generally connect opposite vertices. The required term is space diagonal."
+    },
+    {
+     "text": "base edge",
+     "correct": false,
+     "explanation": "A base edge joins two neighbouring vertices and lies along the boundary of the base. A line joining opposite corners through the solid is a space diagonal."
+    }
+   ]
+  },
+  {
+   "id": "174b45ce-3520-4fc3-b781-73624efd8245",
+   "card_type": "basic",
+   "front": "What is the 2-step strategy for finding a cuboid's space diagonal without using the shortcut formula?",
+   "back": "Find the face/base diagonal using Pythagoras.Use that diagonal and the height in a second Pythagoras calculation.",
+   "options": [
+    {
+     "text": "Find the face/base diagonal using Pythagoras.Use that diagonal and the height in a second Pythagoras calculation.",
+     "correct": true,
+     "explanation": "The base diagonal forms the first right-angled triangle. It then becomes one perpendicular side of a second right-angled triangle whose hypotenuse is the cuboid’s space diagonal."
+    },
+    {
+     "text": "Find the face/base diagonal by adding length and width.Use that diagonal and the height in a Pythagoras calculation.",
+     "correct": false,
+     "explanation": "Adding length and width does not give the base diagonal; that mistake ignores the first right-angled triangle. Use Pythagoras for the base diagonal, then use Pythagoras again with the height."
+    },
+    {
+     "text": "Find the face/base perimeter using the side lengths.Use half that perimeter and the height in Pythagoras.",
+     "correct": false,
+     "explanation": "Half the base perimeter is not a straight-line distance across the base. First calculate the base diagonal using Pythagoras, then combine it with the height using Pythagoras again."
+    },
+    {
+     "text": "Choose one base edge as the horizontal distance.Use that edge and the height in a Pythagoras calculation.",
+     "correct": false,
+     "explanation": "One base edge omits the cuboid’s other horizontal dimension, so the result is only a face diagonal. Use the base diagonal with the height to obtain the space diagonal."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "b33983bb-c836-4990-9821-bb3e8a526e20",
+   "card_type": "basic",
+   "front": "What is the shortcut formula for the space diagonal $d$ of a cuboid with length $l$, width $w$, and height $h$?",
+   "back": "$$d^2 = l^2 + w^2 + h^2$",
+   "options": [
+    {
+     "text": "$$d^2 = l^2 + w^2 + h^2$",
+     "correct": true,
+     "explanation": "Applying Pythagoras across the base and then through the cuboid gives the sum of all three squared perpendicular dimensions, so $d^2=l^2+w^2+h^2$."
+    },
+    {
+     "text": "$$d^2 = l + w + h$",
+     "correct": false,
+     "explanation": "This adds unsquared lengths, which is incompatible with Pythagoras and even gives mismatched units on the two sides. The correct formula is $d^2=l^2+w^2+h^2$."
+    },
+    {
+     "text": "$$d = l^2 + w^2 + h^2$",
+     "correct": false,
+     "explanation": "This forgets that the sum of the squares equals $d^2$, not $d$, producing a dimensional mismatch. The correct relationship is $d^2=l^2+w^2+h^2$."
+    },
+    {
+     "text": "$$d^2 = (l + w + h)^2$",
+     "correct": false,
+     "explanation": "Squaring the total introduces extra cross-terms such as $2lw$, which Pythagoras does not include. The three dimensions must be squared separately: $d^2=l^2+w^2+h^2$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "1b6a409d-6077-4056-a0c2-46da3f03fb29",
+   "card_type": "cloze",
+   "front": "To find a missing depth $x$ in a cuboid where the space diagonal $d$, width $w$, and height $h$ are known, the formula is $x^2 = \\text{[...]}$.",
+   "back": "To find a missing depth $x$ in a cuboid where the space diagonal $d$, width $w$, and height $h$ are known, the formula is $x^2 = \\boxed{d^2 - w^2 - h^2}$.",
+   "options": [
+    {
+     "text": "$$d^2 - w^2 - h^2$",
+     "correct": true,
+     "explanation": "Starting from $d^2=x^2+w^2+h^2$, subtracting both known squared dimensions isolates the missing depth: $x^2=d^2-w^2-h^2$."
+    },
+    {
+     "text": "$$d^2 + w^2 + h^2$",
+     "correct": false,
+     "explanation": "Adding the known squares again makes the missing depth larger than the space diagonal. Rearranging requires subtraction, giving $x^2=d^2-w^2-h^2$."
+    },
+    {
+     "text": "$$d^2 - w^2 + h^2$",
+     "correct": false,
+     "explanation": "This changes the sign of only one known dimension, so the height remains on the wrong side of the equation. Both known squares must be subtracted from $d^2$."
+    },
+    {
+     "text": "$$d^2 - (w + h)^2$",
+     "correct": false,
+     "explanation": "Adding width and height before squaring creates an unwanted $2wh$ term. Pythagoras uses separate squares, so the correct expression is $d^2-w^2-h^2$."
+    }
+   ]
+  },
+  {
+   "id": "87d75b75-32f9-4cd3-9b61-7ac126747fd6",
+   "card_type": "cloze",
+   "front": "Common mistake: calculating $d = l + w + h$ for a cuboid is wrong because Pythagoras works with squares of lengths, not [ ___ ].",
+   "back": "Common mistake: calculating $d = l + w + h$ for a cuboid is wrong because Pythagoras works with squares of lengths, not lengths added directly.",
+   "options": [
+    {
+     "text": "lengths added directly",
+     "correct": true,
+     "explanation": "Pythagoras adds squared perpendicular lengths, as in $d^2=l^2+w^2+h^2$. Simply adding the original lengths measures a route along edges rather than the straight diagonal."
+    },
+    {
+     "text": "lengths multiplied directly",
+     "correct": false,
+     "explanation": "Multiplication is not the specific mistake in $d=l+w+h$; that expression adds unsquared lengths. Pythagoras instead adds their squares, so the missing phrase is lengths added directly."
+    },
+    {
+     "text": "lengths subtracted directly",
+     "correct": false,
+     "explanation": "Subtraction is not being performed in $d=l+w+h$; the misconception is adding the three unsquared dimensions. The correct contrast is with lengths added directly."
+    },
+    {
+     "text": "angles added directly",
+     "correct": false,
+     "explanation": "The formula $d=l+w+h$ contains lengths rather than angles, so angle addition is unrelated. Its error is treating the diagonal as lengths added directly instead of using squared lengths."
+    }
+   ]
+  },
+  {
+   "id": "26ccd6d4-2e76-4d40-a51e-619e94000a74",
+   "card_type": "basic",
+   "front": "When finding the angle between a cuboid's diagonal and its base, what must be used as the adjacent side?",
+   "back": "The base diagonal (not just one edge of the base).",
+   "options": [
+    {
+     "text": "The base diagonal (not just one edge of the base).",
+     "correct": true,
+     "explanation": "The space diagonal’s projection onto the horizontal base runs between opposite base corners, so the adjacent side of the relevant right-angled triangle is the base diagonal."
+    },
+    {
+     "text": "The length edge (not the diagonal across the base).",
+     "correct": false,
+     "explanation": "Using only the length ignores the base’s width and forms the wrong triangle. The adjacent side must be the base diagonal, which is the space diagonal’s horizontal projection."
+    },
+    {
+     "text": "The vertical height (not a side across the base).",
+     "correct": false,
+     "explanation": "For an angle measured from the base, the vertical height is the opposite side, not the adjacent side. The adjacent side is the diagonal across the base."
+    },
+    {
+     "text": "The space diagonal (not a side lying on the base).",
+     "correct": false,
+     "explanation": "The space diagonal is the hypotenuse of the right-angled triangle, so it cannot also be the adjacent side. The adjacent side is its projection, the base diagonal."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "1a262f96-e531-4d7d-aae8-7b098e029290",
+   "card_type": "cloze",
+   "front": "The [ ___ ] of a line onto a plane is like its shadow on that plane.",
+   "back": "The projection of a line onto a plane is like its shadow on that plane.",
+   "options": [
+    {
+     "text": "projection",
+     "correct": true,
+     "explanation": "A projection represents where a line would fall on a plane, like a shadow cast onto that surface. It is used to form the appropriate two-dimensional triangle."
+    },
+    {
+     "text": "intersection",
+     "correct": false,
+     "explanation": "An intersection is the point or set of points where objects meet, not the line’s shadow on a plane. The shadow-like representation is called a projection."
+    },
+    {
+     "text": "inclination",
+     "correct": false,
+     "explanation": "Inclination describes the angle a line makes with a reference line or plane. The shadow-like line formed on the plane is instead called its projection."
+    },
+    {
+     "text": "reflection",
+     "correct": false,
+     "explanation": "A reflection produces a mirror image across a line or plane rather than a shadow onto it. The line’s shadow-like image on the plane is its projection."
+    }
+   ]
+  },
+  {
+   "id": "892c9721-5ccf-428e-a4bd-f592b3c6c7c6",
+   "card_type": "cloze",
+   "front": "The projection of a line onto a plane is like its [ ___ ] on that plane.",
+   "back": "The projection of a line onto a plane is like its shadow on that plane.",
+   "options": [
+    {
+     "text": "shadow",
+     "correct": true,
+     "explanation": "A projection shows where the line would appear on the plane when mapped directly onto it, like the shadow cast by the line onto that surface."
+    },
+    {
+     "text": "reflection",
+     "correct": false,
+     "explanation": "A reflection is a mirror image produced across a line or plane. The correct term is shadow because a projection represents the line’s mapped position on the plane."
+    },
+    {
+     "text": "rotation",
+     "correct": false,
+     "explanation": "A rotation turns an object about a fixed point or axis. The correct term is shadow because a projection shows the line mapped onto the plane."
+    },
+    {
+     "text": "intersection",
+     "correct": false,
+     "explanation": "An intersection is where geometric objects meet, which may be only one point. The correct term is shadow because the whole line is projected onto the plane."
+    }
+   ]
+  },
+  {
+   "id": "c8cf2adf-4f40-456c-8f7b-7305a52e25e6",
+   "card_type": "basic",
+   "front": "How is the angle between a line and a plane defined?",
+   "back": "The angle between the line and its projection on the plane.",
+   "options": [
+    {
+     "text": "The angle between the line and its projection on the plane.",
+     "correct": true,
+     "explanation": "The projection represents the line’s direction along the plane, so the angle between the original line and this projection is defined as the line-plane angle."
+    },
+    {
+     "text": "The angle between the line and the normal to the plane.",
+     "correct": false,
+     "explanation": "The angle with the normal is complementary to the angle with the plane. The required angle is between the line and its projection on the plane."
+    },
+    {
+     "text": "The angle between the projection and a perpendicular to the line.",
+     "correct": false,
+     "explanation": "Using an arbitrary perpendicular to the line does not define the line-plane angle. It is measured between the line and its projection on the plane."
+    },
+    {
+     "text": "The angle between the plane and a vertical line through the plane.",
+     "correct": false,
+     "explanation": "A vertical line is not necessarily related to the given line and may depend on the diagram’s orientation. The angle uses the line and its projection."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "cbc9874a-c667-43ee-a7be-048da2261069",
+   "card_type": "basic",
+   "front": "How do you find the projection of a point onto a plane?",
+   "back": "Drop a perpendicular line from the point down to the plane.",
+   "options": [
+    {
+     "text": "Drop a perpendicular line from the point down to the plane.",
+     "correct": true,
+     "explanation": "The perpendicular gives the shortest route from the point to the plane. Where it meets the plane is the point’s orthogonal projection."
+    },
+    {
+     "text": "Draw a parallel line from the point across to the plane.",
+     "correct": false,
+     "explanation": "A line parallel to the plane will not meet it, so it cannot locate the projection. A perpendicular must be dropped from the point to the plane."
+    },
+    {
+     "text": "Draw a horizontal line from the point across to the plane.",
+     "correct": false,
+     "explanation": "Horizontal depends on the diagram’s orientation and does not guarantee a 90-degree angle with the plane. The projection is found using a perpendicular line."
+    },
+    {
+     "text": "Join a diagonal line from the point to a corner of the plane.",
+     "correct": false,
+     "explanation": "Joining the point to a chosen corner gives a sloping segment, not its projection. The correct construction drops a perpendicular line to the plane."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "bb4b80f8-7cf5-4fbf-a3c7-dad353993cc8",
+   "card_type": "cloze",
+   "front": "In a symmetrical square-based pyramid, the vertical height meets the base at the [ ___ ] of the square.",
+   "back": "In a symmetrical square-based pyramid, the vertical height meets the base at the centre of the square.",
+   "options": [
+    {
+     "text": "centre",
+     "correct": true,
+     "explanation": "Symmetry places the apex directly above the centre of the square base, so the perpendicular vertical height meets the base at that central point."
+    },
+    {
+     "text": "corner",
+     "correct": false,
+     "explanation": "A line from the apex to a corner is a sloping edge, not the vertical height. In a symmetrical pyramid, the vertical height meets the centre."
+    },
+    {
+     "text": "perimeter",
+     "correct": false,
+     "explanation": "The perimeter is the boundary of the square rather than the point directly below the apex. The vertical height meets the base at its centre."
+    },
+    {
+     "text": "edge",
+     "correct": false,
+     "explanation": "An edge lies on the boundary of the base, so meeting it would place the apex off-centre. Symmetry requires the height to meet the centre."
+    }
+   ]
+  },
+  {
+   "id": "d3726a65-b803-48eb-af3f-34460b80aed1",
+   "card_type": "basic",
+   "front": "In a pyramid, what is the difference between vertical height and a sloping edge?",
+   "back": "Vertical height goes straight from apex to base at 90 degrees.Sloping edge connects the apex to a corner of the base.",
+   "options": [
+    {
+     "text": "Vertical height goes straight from apex to base at 90 degrees.Sloping edge connects the apex to a corner of the base.",
+     "correct": true,
+     "explanation": "Vertical height is perpendicular to the base and measures the pyramid’s true height. A sloping edge instead joins the apex to a base vertex."
+    },
+    {
+     "text": "Vertical height connects the apex to a corner of the base.Sloping edge goes straight from apex to base at 90 degrees.",
+     "correct": false,
+     "explanation": "This reverses the two definitions. The vertical height is perpendicular to the base, while a sloping edge joins the apex to a corner of the base."
+    },
+    {
+     "text": "Vertical height runs along the base from corner to corner.Sloping edge connects two corners of the base.",
+     "correct": false,
+     "explanation": "Both descriptions refer to lines within the base rather than lines from the apex. The height is perpendicular to the base, while a sloping edge reaches a base corner."
+    },
+    {
+     "text": "Vertical height follows a triangular face down to its base.Sloping edge connects the apex to the centre of the base.",
+     "correct": false,
+     "explanation": "This confuses face height, vertical height and sloping edge. Vertical height reaches the base perpendicularly, while a sloping edge joins the apex to a base corner."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "ed75936b-b4df-4100-b9fe-31995b924e04",
+   "card_type": "basic",
+   "front": "In a square-based pyramid, what is the relationship between the distance from corner to centre ($AO$) and the base diagonal ($AC$)?",
+   "back": "$$AO = \\frac{1}{2} AC$",
+   "options": [
+    {
+     "text": "$$AO = \\frac{1}{2} AC$",
+     "correct": true,
+     "explanation": "The diagonals of a square bisect each other at the centre. Therefore, the distance from a corner to the centre is half the full diagonal."
+    },
+    {
+     "text": "$$AO = AC$",
+     "correct": false,
+     "explanation": "This treats the corner-to-centre distance as the whole diagonal. Since the centre bisects the diagonal, the correct relationship is $AO = \\frac{1}{2}AC$."
+    },
+    {
+     "text": "$$AO = 2AC$",
+     "correct": false,
+     "explanation": "This reverses and doubles the relationship, making a segment larger than the full diagonal containing it. In fact, $AO = \\frac{1}{2}AC$."
+    },
+    {
+     "text": "$$AO = \\frac{1}{\\sqrt{2}} AC$",
+     "correct": false,
+     "explanation": "The factor $\\frac{1}{\\sqrt{2}}$ relates a square’s side to its diagonal, not half a diagonal. Since $O$ is the midpoint, $AO = \\frac{1}{2}AC$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "400e075a-79b6-48af-8a49-53b14c87374b",
+   "card_type": "basic",
+   "front": "If a square base has side length $s$, what is the formula for the full base diagonal $d$?",
+   "back": "$$d = \\sqrt{s^2 + s^2}$ or $d = s\\sqrt{2}$",
+   "options": [
+    {
+     "text": "$$d = \\sqrt{s^2 + s^2}$ or $d = s\\sqrt{2}$",
+     "correct": true,
+     "explanation": "The diagonal is the hypotenuse of a right-angled triangle with two sides of length $s$. Pythagoras gives $d^2=s^2+s^2$, so $d=s\\sqrt{2}$."
+    },
+    {
+     "text": "$$d = s + s$ or $d = 2s$",
+     "correct": false,
+     "explanation": "Adding the side lengths calculates a two-side path around the square, not the direct diagonal. Pythagoras gives $d=\\sqrt{s^2+s^2}=s\\sqrt{2}$."
+    },
+    {
+     "text": "$$d = \\sqrt{s^2 - s^2}$ or $d = 0$",
+     "correct": false,
+     "explanation": "This subtracts the squares instead of adding them, giving an impossible zero diagonal. Pythagoras requires $d=\\sqrt{s^2+s^2}=s\\sqrt{2}$."
+    },
+    {
+     "text": "$$d = \\frac{s}{\\sqrt{2}}$ or $d = \\frac{\\sqrt{2}}{2}s$",
+     "correct": false,
+     "explanation": "This gives half the square’s diagonal, which is the corner-to-centre distance. The full diagonal is $d=\\sqrt{s^2+s^2}=s\\sqrt{2}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "4f09cc5d-4333-41aa-8e0a-7494471d0de0",
+   "card_type": "cloze",
+   "front": "The volume of a pyramid is found using the formula $V = \\text{[...]} \\times \\text{base area} \\times \\text{vertical height}$.",
+   "back": "The volume of a pyramid is found using the formula $V = \\boxed{\\frac{1}{3}} \\times \\text{base area} \\times \\text{vertical height}$.",
+   "options": [
+    {
+     "text": "$$\\frac{1}{3}$",
+     "correct": true,
+     "explanation": "A pyramid with a given base area and perpendicular height has one-third the volume of the corresponding prism, so the required multiplier is $\\frac{1}{3}$."
+    },
+    {
+     "text": "$$\\frac{1}{2}$",
+     "correct": false,
+     "explanation": "The factor $\\frac{1}{2}$ is used for triangular area, not pyramid volume. A pyramid occupies one-third of the corresponding prism, so the multiplier is $\\frac{1}{3}$."
+    },
+    {
+     "text": "$$1$",
+     "correct": false,
+     "explanation": "Using a multiplier of $1$ calculates the volume of a prism with the same base and height. A pyramid has one-third that volume, requiring $\\frac{1}{3}$."
+    },
+    {
+     "text": "$$\\frac{1}{4}$",
+     "correct": false,
+     "explanation": "Dividing by four is not the pyramid volume relationship and usually comes from confusing the number of triangular faces with volume. The correct multiplier is $\\frac{1}{3}$."
+    }
+   ]
+  },
+  {
+   "id": "e98e22b1-2538-4b8e-b3ff-11e01145f765",
+   "card_type": "basic",
+   "front": "What trigonometry ratio is typically used to find the height ($O$pposite) of a pyramid when given the angle and the base projection ($A$djacent)?",
+   "back": "Tangent ($\\tan\\theta = \\frac{\\text{opp}}{\\text{adj}}$)",
+   "options": [
+    {
+     "text": "Tangent ($\\tan\\theta = \\frac{\\text{opp}}{\\text{adj}}$)",
+     "correct": true,
+     "explanation": "Tangent directly relates the opposite and adjacent sides. The pyramid’s perpendicular height is opposite the angle, while the relevant base projection is adjacent to it."
+    },
+    {
+     "text": "Sine ($\\sin\\theta = \\frac{\\text{opp}}{\\text{hyp}}$)",
+     "correct": false,
+     "explanation": "Sine relates the opposite side to the hypotenuse, not to the adjacent side. With the height and base projection involved, tangent is required because $\\tan\\theta=\\frac{\\text{opp}}{\\text{adj}}$."
+    },
+    {
+     "text": "Cosine ($\\cos\\theta = \\frac{\\text{adj}}{\\text{hyp}}$)",
+     "correct": false,
+     "explanation": "Cosine relates the adjacent side to the hypotenuse, so it does not directly connect the given base projection to the required height. Tangent links opposite and adjacent."
+    },
+    {
+     "text": "Cotangent ($\\cot\\theta = \\frac{\\text{adj}}{\\text{opp}}$)",
+     "correct": false,
+     "explanation": "Cotangent uses the required sides in the reversed order, which can lead to solving the relationship incorrectly. The standard ratio here is tangent, $\\tan\\theta=\\frac{\\text{opp}}{\\text{adj}}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "4bec2427-880b-4143-9c5a-a9200ff10df2",
+   "card_type": "basic",
+   "front": "State the formula for $\\cos\\theta$ in a right-angled triangle.",
+   "back": "$$\\cos\\theta = \\frac{\\text{adjacent}}{\\text{hypotenuse}}$",
+   "options": [
+    {
+     "text": "$$\\cos\\theta = \\frac{\\text{adjacent}}{\\text{hypotenuse}}$",
+     "correct": true,
+     "explanation": "Cosine is the ratio of the side adjacent to the chosen angle to the hypotenuse. This is the CAH part of the mnemonic SOHCAHTOA."
+    },
+    {
+     "text": "$$\\cos\\theta = \\frac{\\text{hypotenuse}}{\\text{adjacent}}$",
+     "correct": false,
+     "explanation": "Reversing the fraction gives the reciprocal of cosine, called secant. Cosine itself is adjacent divided by hypotenuse, following the CAH part of SOHCAHTOA."
+    },
+    {
+     "text": "$$\\cos\\theta = \\frac{\\text{opposite}}{\\text{hypotenuse}}$",
+     "correct": false,
+     "explanation": "Using the opposite side confuses cosine with sine. Cosine compares the adjacent side with the hypotenuse, so the correct formula is $\\cos\\theta=\\frac{\\text{adjacent}}{\\text{hypotenuse}}$."
+    },
+    {
+     "text": "$$\\cos\\theta = \\frac{\\text{adjacent}}{\\text{opposite}}$",
+     "correct": false,
+     "explanation": "Dividing adjacent by opposite is the reciprocal of tangent, not cosine. Cosine must use the hypotenuse as the denominator: $\\cos\\theta=\\frac{\\text{adjacent}}{\\text{hypotenuse}}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "3de549ce-bbc2-44ba-bad2-7427496ca8d0",
+   "card_type": "basic",
+   "front": "State the formula for $\\sin\\theta$ in a right-angled triangle.",
+   "back": "$$\\sin\\theta = \\frac{\\text{opposite}}{\\text{hypotenuse}}$",
+   "options": [
+    {
+     "text": "$$\\sin\\theta = \\frac{\\text{opposite}}{\\text{hypotenuse}}$",
+     "correct": true,
+     "explanation": "Sine compares the side opposite the chosen angle with the hypotenuse. This is the SOH part of the mnemonic SOHCAHTOA."
+    },
+    {
+     "text": "$$\\sin\\theta = \\frac{\\text{hypotenuse}}{\\text{opposite}}$",
+     "correct": false,
+     "explanation": "Reversing the fraction gives the reciprocal of sine, called cosecant. Sine itself is opposite divided by hypotenuse, following the SOH part of SOHCAHTOA."
+    },
+    {
+     "text": "$$\\sin\\theta = \\frac{\\text{adjacent}}{\\text{hypotenuse}}$",
+     "correct": false,
+     "explanation": "Using the adjacent side confuses sine with cosine. Sine compares the opposite side with the hypotenuse, so the correct formula is $\\sin\\theta=\\frac{\\text{opposite}}{\\text{hypotenuse}}$."
+    },
+    {
+     "text": "$$\\sin\\theta = \\frac{\\text{opposite}}{\\text{adjacent}}$",
+     "correct": false,
+     "explanation": "Opposite divided by adjacent is tangent, not sine. Sine uses the hypotenuse as its denominator, giving $\\sin\\theta=\\frac{\\text{opposite}}{\\text{hypotenuse}}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "32a1794a-31bf-477f-b750-8b439511e5bf",
+   "card_type": "cloze",
+   "front": "To maintain accuracy, you should keep [ ___ ] during working and only round the final answer.",
+   "back": "To maintain accuracy, you should keep extra decimal places during working and only round the final answer.",
+   "options": [
+    {
+     "text": "extra decimal places",
+     "correct": true,
+     "explanation": "Retaining extra decimal places prevents small rounding errors from accumulating across several calculations. Rounding should be postponed until the final answer is obtained."
+    },
+    {
+     "text": "rounded intermediate values",
+     "correct": false,
+     "explanation": "Keeping rounded intermediate values introduces premature rounding errors, which can affect the final result. Extra decimal places should be retained throughout the working instead."
+    },
+    {
+     "text": "whole-number approximations",
+     "correct": false,
+     "explanation": "Whole-number approximations discard too much precision during working and can substantially alter the final answer. Extra decimal places should be kept until the calculation is complete."
+    },
+    {
+     "text": "fewer decimal places",
+     "correct": false,
+     "explanation": "Using fewer decimal places increases the loss of precision at each stage. Extra decimal places should be retained during working, with rounding performed only at the end."
+    }
+   ]
+  },
+  {
+   "id": "3fc10c99-cd8b-4598-ad08-2234361e4b43",
+   "card_type": "cloze",
+   "front": "To maintain accuracy, you should keep extra decimal places during working and only [ ___ ].",
+   "back": "To maintain accuracy, you should keep extra decimal places during working and only round the final answer.",
+   "options": [
+    {
+     "text": "round the final answer",
+     "correct": true,
+     "explanation": "Rounding only the final answer preserves accuracy throughout the calculation while allowing the result to be presented to the precision requested by the question."
+    },
+    {
+     "text": "round every intermediate answer",
+     "correct": false,
+     "explanation": "Rounding every intermediate answer allows small errors to accumulate, particularly in multi-step 3D calculations. Keep extra decimal places during working and round only the final answer."
+    },
+    {
+     "text": "truncate the final answer",
+     "correct": false,
+     "explanation": "Truncation simply removes later digits rather than rounding according to the next digit, creating a biased result. The final answer should be rounded to the requested accuracy."
+    },
+    {
+     "text": "round at each calculation step",
+     "correct": false,
+     "explanation": "Rounding after each calculation step repeatedly reduces precision and may change the final result. Retain extra digits at every stage and round only the final answer."
+    }
+   ]
+  },
+  {
+   "id": "75a3e03e-fd6b-41c7-b112-69d99cefe245",
+   "card_type": "basic",
+   "front": "What is the first step recommended when solving 3D geometry problems in an exam?",
+   "back": "Mark the right angle and identify the specific 2D triangle being used.",
+   "options": [
+    {
+     "text": "Mark the right angle and identify the specific 2D triangle being used.",
+     "correct": true,
+     "explanation": "Marking the right angle and isolating the relevant 2D cross-section reveals which sides form a right-angled triangle, allowing Pythagoras or trigonometry to be applied correctly."
+    },
+    {
+     "text": "Choose a trigonometric ratio and substitute all the values shown in the diagram.",
+     "correct": false,
+     "explanation": "Choosing a trigonometric ratio before identifying the triangle risks labelling the wrong sides as opposite, adjacent or hypotenuse. First mark the right angle and isolate the relevant 2D triangle."
+    },
+    {
+     "text": "Calculate the longest edge and use it as the hypotenuse of the triangle.",
+     "correct": false,
+     "explanation": "Calculating the longest visible edge first may use an irrelevant triangle and wastes working. The reliable first step is to mark the right angle and identify the required 2D triangle."
+    },
+    {
+     "text": "Sketch the whole solid and treat its outer edges as a single triangle.",
+     "correct": false,
+     "explanation": "Treating the whole solid as one triangle ignores that trigonometric methods apply to a particular 2D cross-section. First mark the right angle and identify that specific triangle."
+    }
+   ],
+   "points": 1
+  }
+ ],
+ "card_count": 22,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-7-7-12-3d-pythagoras-and-trigonometry/flashcards",
+ "source_sha256": "0c4725e37c1973610f76699f184655da7c9095ddc24f52356531417757058351",
+ "extracted_at": "2026-11-08T19:00:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-2 run-001)",
+ "task_id": "T-MG-FC-2"
+}

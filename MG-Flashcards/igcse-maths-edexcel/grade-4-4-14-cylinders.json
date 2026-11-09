@@ -1,0 +1,701 @@
+{
+ "topic": "grade-4-4-14-cylinders",
+ "lane": "igcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "title": "Cylinders Flashcards",
+ "cards": [
+  {
+   "id": "38a422dd-6bc5-4aaa-ac15-d273f2caea91",
+   "card_type": "basic",
+   "front": "How is the radius ($r$) calculated if you are given the diameter ($d$)?",
+   "back": "$$r = \\frac{d}{2}$ (half the diameter)",
+   "options": [
+    {
+     "text": "$$r = \\frac{d}{2}$ (half the diameter)",
+     "correct": true,
+     "explanation": "The diameter spans the full width of the circle through its centre, while the radius spans half that distance. Therefore, dividing the diameter by 2 gives the radius."
+    },
+    {
+     "text": "$$r = 2d$ (double the diameter)",
+     "correct": false,
+     "explanation": "This reverses and exaggerates the relationship between radius and diameter. The diameter is twice the radius, so the correct calculation is $r = \\frac{d}{2}$."
+    },
+    {
+     "text": "$$r = d$ (equal to the diameter)",
+     "correct": false,
+     "explanation": "This treats the radius and diameter as the same measurement. A radius extends only from the centre to the circumference, so it is half the diameter: $r = \\frac{d}{2}$."
+    },
+    {
+     "text": "$$r = \\frac{d}{4}$ (quarter the diameter)",
+     "correct": false,
+     "explanation": "This divides by 2 twice, making the radius too small. The diameter contains exactly two radii, so the correct relationship is $r = \\frac{d}{2}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "d640fcf0-8bbb-4f0f-8ad4-92b71c542952",
+   "card_type": "basic",
+   "front": "What is the formula for the area of the circular end of a cylinder?",
+   "back": "$$A = \\pi r^2$",
+   "options": [
+    {
+     "text": "$$A = \\pi r^2$",
+     "correct": true,
+     "explanation": "A cylinder’s circular end is a circle of radius $r$. The area of any circle is found by multiplying $\\pi$ by the square of its radius."
+    },
+    {
+     "text": "$$A = 2\\pi r$",
+     "correct": false,
+     "explanation": "This is the formula for a circle’s circumference, not its area. The area of the circular end is found by squaring the radius: $A = \\pi r^2$."
+    },
+    {
+     "text": "$$A = \\pi r$",
+     "correct": false,
+     "explanation": "This omits the required square on the radius and therefore does not produce square units. The area of a circle is $A = \\pi r^2$."
+    },
+    {
+     "text": "$$A = 2\\pi r^2$",
+     "correct": false,
+     "explanation": "This incorrectly doubles the area, often by counting both circular ends. The question asks for one circular end, whose area is $A = \\pi r^2$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "4ddbb30f-d6a6-47d1-9d33-7e1badf6688a",
+   "card_type": "basic",
+   "front": "What is the formula for the volume of a cylinder?",
+   "back": "$$V = \\pi r^2h$",
+   "options": [
+    {
+     "text": "$$V = \\pi r^2h$",
+     "correct": true,
+     "explanation": "A cylinder’s volume equals its circular cross-sectional area, $\\pi r^2$, multiplied by its perpendicular height, $h$. This gives $V = \\pi r^2h$."
+    },
+    {
+     "text": "$$V = 2\\pi rh$",
+     "correct": false,
+     "explanation": "This calculates the curved surface area by multiplying the circumference by the height. Volume instead uses the base area, so the correct formula is $V = \\pi r^2h$."
+    },
+    {
+     "text": "$$V = \\pi rh^2$",
+     "correct": false,
+     "explanation": "This squares the height instead of the radius. The circular base has area $\\pi r^2$, which must be multiplied by $h$, giving $V = \\pi r^2h$."
+    },
+    {
+     "text": "$$V = 2\\pi r^2h$",
+     "correct": false,
+     "explanation": "This incorrectly doubles the cylinder’s volume, often by counting both circular ends. Only one base area is multiplied by the height, giving $V = \\pi r^2h$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "e7430efd-3ca9-4ea0-8c11-4180badb4efe",
+   "card_type": "cloze",
+   "front": "The volume of a cylinder is found by multiplying the [ ___ ] by the height.",
+   "back": "The volume of a cylinder is found by multiplying the area of the circular base by the height.",
+   "options": [
+    {
+     "text": "area of the circular base",
+     "correct": true,
+     "explanation": "A cylinder is a prism with a constant circular cross-section. Multiplying the area of that circular base by the perpendicular height gives the cylinder’s volume."
+    },
+    {
+     "text": "circumference of the circular base",
+     "correct": false,
+     "explanation": "Multiplying the circumference by the height gives the curved surface area, not the volume. Volume is found by multiplying the area of the circular base by the height."
+    },
+    {
+     "text": "diameter of the circular base",
+     "correct": false,
+     "explanation": "The diameter is a length, so multiplying it by height would produce square units rather than cubic units. Volume requires the area of the circular base multiplied by height."
+    },
+    {
+     "text": "area of the curved surface",
+     "correct": false,
+     "explanation": "The curved surface area describes the cylinder’s outside covering and is not its cross-section. Volume is calculated using the area of the circular base multiplied by height."
+    }
+   ]
+  },
+  {
+   "id": "f4378d7c-9fbf-4ccd-960f-6da581d1d7f3",
+   "card_type": "cloze",
+   "front": "The volume of a cylinder is found by multiplying the area of the circular base by the [ ___ ].",
+   "back": "The volume of a cylinder is found by multiplying the area of the circular base by the height.",
+   "options": [
+    {
+     "text": "height",
+     "correct": true,
+     "explanation": "The circular base area gives the cross-sectional area of the cylinder. Multiplying it by the perpendicular height extends that area through the cylinder to calculate its volume."
+    },
+    {
+     "text": "radius",
+     "correct": false,
+     "explanation": "The radius is already used to calculate the circular base area as $\\pi r^2$. That base area must then be multiplied by the cylinder’s height."
+    },
+    {
+     "text": "diameter",
+     "correct": false,
+     "explanation": "The diameter determines the radius but does not represent the cylinder’s length between its bases. Volume is the circular base area multiplied by the perpendicular height."
+    },
+    {
+     "text": "circumference",
+     "correct": false,
+     "explanation": "The circumference is used when finding the cylinder’s curved surface area. To calculate volume, the area of the circular base must instead be multiplied by the height."
+    }
+   ]
+  },
+  {
+   "id": "728192eb-9a2f-4888-a48f-246cf339f243",
+   "card_type": "basic",
+   "front": "What does it mean to give an answer in terms of $\\pi$?",
+   "back": "Leave $\\pi$ in the final expression without converting to a decimal.",
+   "options": [
+    {
+     "text": "Leave $\\pi$ in the final expression without converting to a decimal.",
+     "correct": true,
+     "explanation": "An answer in terms of $\\pi$ keeps the symbol $\\pi$ exactly, producing an exact value. Replacing it with a decimal would give only an approximation."
+    },
+    {
+     "text": "Replace $\\pi$ in the final expression with its decimal value.",
+     "correct": false,
+     "explanation": "Replacing $\\pi$ with a decimal produces an approximate numerical answer rather than one in terms of $\\pi$. The symbol $\\pi$ must remain in the final expression."
+    },
+    {
+     "text": "Round $\\pi$ to $3.14$ in the final expression before calculating.",
+     "correct": false,
+     "explanation": "Using $3.14$ approximates $\\pi$ and introduces rounding error. An answer in terms of $\\pi$ leaves the symbol $\\pi$ unchanged in the final expression."
+    },
+    {
+     "text": "Remove $\\pi$ from the final expression by simplifying completely.",
+     "correct": false,
+     "explanation": "The instruction specifically requires $\\pi$ to remain in the answer, unless it cancels algebraically. Converting or removing it would not give the requested exact form."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "405e0aad-c030-46cb-aa06-6b90cf99c956",
+   "card_type": "basic",
+   "front": "Which three shapes make up the net of a closed cylinder?",
+   "back": "Two circles (top and bottom)One rectangle (curved surface)",
+   "options": [
+    {
+     "text": "Two circles (top and bottom)One rectangle (curved surface)",
+     "correct": true,
+     "explanation": "The two circles form the cylinder’s parallel ends. When the curved surface is cut and unfolded flat, it forms one rectangle, completing the closed cylinder’s net."
+    },
+    {
+     "text": "Two semicircles (top and bottom)One rectangle (curved surface)",
+     "correct": false,
+     "explanation": "Each end of a closed cylinder is a complete circle, not a semicircle. Its net consists of two circles for the ends and one rectangle for the curved surface."
+    },
+    {
+     "text": "Two circles (top and bottom)One square (curved surface)",
+     "correct": false,
+     "explanation": "The curved surface unfolds into a rectangle whose dimensions are the cylinder’s height and circumference. It is only a square in a special case, so the general shape is a rectangle."
+    },
+    {
+     "text": "Two circles (top and bottom)One triangle (curved surface)",
+     "correct": false,
+     "explanation": "A triangle cannot wrap evenly around a cylinder to form its curved surface. Unrolling that surface produces a rectangle, alongside the two circular ends."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "01aa57d3-80a3-45e4-a01a-e0747a93b10b",
+   "card_type": "basic",
+   "front": "When a cylinder is unfolded, what circle measurement is equal to the width of the curved surface rectangle?",
+   "back": "The circumference ($2\\pi r$ or $\\pi d$)",
+   "options": [
+    {
+     "text": "The circumference ($2\\pi r$ or $\\pi d$)",
+     "correct": true,
+     "explanation": "The rectangle wraps exactly once around the circular end of the cylinder. Its width therefore equals the circle’s circumference, calculated as $2\\pi r$ or $\\pi d$."
+    },
+    {
+     "text": "The diameter ($2r$ or $\\frac{C}{\\pi}$)",
+     "correct": false,
+     "explanation": "The diameter measures straight across the circle, not the distance around it. The rectangle must wrap around the complete circle, so its width equals the circumference."
+    },
+    {
+     "text": "The radius ($r$ or $\\frac{d}{2}$)",
+     "correct": false,
+     "explanation": "The radius measures from the centre to the circle’s edge and is much shorter than the distance around it. The rectangle’s width equals the full circumference."
+    },
+    {
+     "text": "The area ($\\pi r^2$ or $\\frac{\\pi d^2}{4}$)",
+     "correct": false,
+     "explanation": "Area is measured in square units and describes the circular end’s surface, whereas the rectangle’s width is a length. That length equals the circle’s circumference."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "9e0bff34-502e-4d1b-9422-d0720e51eb2f",
+   "card_type": "basic",
+   "front": "What is the formula for the curved surface area (CSA) of a cylinder?",
+   "back": "$$\\text{CSA} = 2\\pi rh$",
+   "options": [
+    {
+     "text": "$$\\text{CSA} = 2\\pi rh$",
+     "correct": true,
+     "explanation": "Unrolling the curved surface produces a rectangle with width equal to the circumference $2\\pi r$ and height $h$, so its area is $2\\pi rh$."
+    },
+    {
+     "text": "$$\\text{CSA} = \\pi r^2$",
+     "correct": false,
+     "explanation": "This uses the area of one circular end, not the curved surface. The curved surface unrolls to a rectangle, giving $\\text{CSA} = 2\\pi rh$."
+    },
+    {
+     "text": "$$\\text{CSA} = \\pi rh$",
+     "correct": false,
+     "explanation": "This omits the factor of $2$ from the circumference of the circular base. Since the circumference is $2\\pi r$, the correct formula is $\\text{CSA} = 2\\pi rh$."
+    },
+    {
+     "text": "$$\\text{CSA} = 2\\pi h^2$",
+     "correct": false,
+     "explanation": "This incorrectly squares the height rather than multiplying the base circumference by the height. The unrolled rectangle has area $2\\pi r \\times h = 2\\pi rh$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "dbd836e8-3cf6-472c-aa2a-10045dd06c2d",
+   "card_type": "basic",
+   "front": "What is the formula for the total surface area (TSA) of a closed cylinder?",
+   "back": "$$\\text{TSA} = 2\\pi r^2 + 2\\pi rh$",
+   "options": [
+    {
+     "text": "$$\\text{TSA} = 2\\pi r^2 + 2\\pi rh$",
+     "correct": true,
+     "explanation": "A closed cylinder has two circular ends with combined area $2\\pi r^2$ and a curved surface of area $2\\pi rh$, so these terms are added."
+    },
+    {
+     "text": "$$\\text{TSA} = \\pi r^2 + 2\\pi rh$",
+     "correct": false,
+     "explanation": "This includes only one circular end, as for a cylinder open at one end. A closed cylinder has two ends, so the correct formula is $2\\pi r^2 + 2\\pi rh$."
+    },
+    {
+     "text": "$$\\text{TSA} = 2\\pi rh$",
+     "correct": false,
+     "explanation": "This omits both circular ends and gives only the curved surface area. A closed cylinder also contributes $2\\pi r^2$, making the total $2\\pi r^2 + 2\\pi rh$."
+    },
+    {
+     "text": "$$\\text{TSA} = 2\\pi r^2 + 4\\pi rh$",
+     "correct": false,
+     "explanation": "This doubles the curved surface term even though the cylinder has only one curved outer surface. The correct total is $2\\pi r^2 + 2\\pi rh$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "9bc2686a-e58b-4af3-9cc7-e64048547127",
+   "card_type": "cloze",
+   "front": "If a cylindrical tank is open at the top, the surface area formula changes because it only includes [ ___ ] instead of two.",
+   "back": "If a cylindrical tank is open at the top, the surface area formula changes because it only includes one circular face instead of two.",
+   "options": [
+    {
+     "text": "one circular face",
+     "correct": true,
+     "explanation": "An open-topped tank has a circular base but no circular top, so its surface area contains one circular face together with the curved surface."
+    },
+    {
+     "text": "two circular faces",
+     "correct": false,
+     "explanation": "Counting two circular faces treats the tank as closed at both ends. An open-topped cylindrical tank has only its circular base, so the correct fill is one circular face."
+    },
+    {
+     "text": "one semi-circular face",
+     "correct": false,
+     "explanation": "A semi-circular face belongs to a cut semi-cylinder, not an open-topped full cylinder. The tank retains one complete circular base, so the correct fill is one circular face."
+    },
+    {
+     "text": "one rectangular face",
+     "correct": false,
+     "explanation": "The base of a cylindrical tank is circular rather than rectangular. Removing the top leaves the curved side and one circular face, which is the base."
+    }
+   ]
+  },
+  {
+   "id": "36c0d582-2644-4518-9380-78dbb2ce2bbd",
+   "card_type": "cloze",
+   "front": "If a cylindrical tank is open at the top, the surface area formula changes because it only includes one circular face instead of [ ___ ].",
+   "back": "If a cylindrical tank is open at the top, the surface area formula changes because it only includes one circular face instead of two.",
+   "options": [
+    {
+     "text": "two",
+     "correct": true,
+     "explanation": "A closed cylinder has two circular faces, but removing the top leaves only one. Therefore, the open tank includes one circular face instead of two."
+    },
+    {
+     "text": "one",
+     "correct": false,
+     "explanation": "Using one fails to distinguish the open tank from the closed cylinder. The open tank has one circular face, whereas the corresponding closed cylinder has two."
+    },
+    {
+     "text": "three",
+     "correct": false,
+     "explanation": "Three incorrectly counts the curved surface as another circular face. A closed cylinder has exactly two circular faces, its top and base, so the correct fill is two."
+    },
+    {
+     "text": "four",
+     "correct": false,
+     "explanation": "Four double-counts both circular ends of the cylinder. There is one top and one base on a closed cylinder, so the open tank has one instead of two."
+    }
+   ]
+  },
+  {
+   "id": "a28c977a-ce70-41c6-a8f6-3f745c2b596c",
+   "card_type": "basic",
+   "front": "What is the formula for the volume of a semi-cylinder with length $L$?",
+   "back": "$$V = \\frac{1}{2}\\pi r^2L$",
+   "options": [
+    {
+     "text": "$$V = \\frac{1}{2}\\pi r^2L$",
+     "correct": true,
+     "explanation": "A full cylinder has volume $\\pi r^2L$. A semi-cylinder is half of that solid, so its volume is $V = \\frac{1}{2}\\pi r^2L$."
+    },
+    {
+     "text": "$$V = \\pi r^2L$",
+     "correct": false,
+     "explanation": "This is the volume of a complete cylinder and does not account for the solid being cut in half. The semi-cylinder’s volume is $\\frac{1}{2}\\pi r^2L$."
+    },
+    {
+     "text": "$$V = \\frac{1}{4}\\pi r^2L$",
+     "correct": false,
+     "explanation": "This incorrectly halves the radius before squaring, making the volume one quarter of a full cylinder rather than one half. The correct formula is $\\frac{1}{2}\\pi r^2L$."
+    },
+    {
+     "text": "$$V = \\frac{1}{2}\\pi rL$",
+     "correct": false,
+     "explanation": "This uses $rL$ and omits the squared radius needed for the area of the semi-circular cross-section. The correct volume is $\\frac{1}{2}\\pi r^2L$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "30cca29d-e37b-4425-aaf8-270673f95d22",
+   "card_type": "basic",
+   "front": "Identify the three distinct surfaces that contribute to the total surface area of a semi-cylinder.",
+   "back": "Half the curved surface ($\\pi rL$)Two semi-circular ends (making one circle $\\pi r^2$)One flat rectangle ($2rL$)",
+   "options": [
+    {
+     "text": "Half the curved surface ($\\pi rL$)Two semi-circular ends (making one circle $\\pi r^2$)One flat rectangle ($2rL$)",
+     "correct": true,
+     "explanation": "Cutting a cylinder lengthways creates half its curved surface, retains two semi-circular ends whose areas form one circle, and introduces one rectangular cut face of dimensions $2r$ by $L$."
+    },
+    {
+     "text": "The full curved surface ($2\\pi rL$)Two semi-circular ends (making one circle $\\pi r^2$)One flat rectangle ($2rL$)",
+     "correct": false,
+     "explanation": "The curved surface has been counted as though the cylinder were complete. A semi-cylinder has only half the curved surface, with area $\\pi rL$, alongside its ends and rectangular face."
+    },
+    {
+     "text": "Half the curved surface ($\\pi rL$)One semi-circular end (making half a circle $\\frac{1}{2}\\pi r^2$)One flat rectangle ($2rL$)",
+     "correct": false,
+     "explanation": "This omits one end of the semi-cylinder. There are two semi-circular ends, and together their areas equal one full circle of area $\\pi r^2$."
+    },
+    {
+     "text": "Half the curved surface ($\\pi rL$)Two semi-circular ends (making one circle $\\pi r^2$)Two flat rectangles ($4rL$)",
+     "correct": false,
+     "explanation": "A single lengthways cut creates only one flat rectangular face, not two. Its width is the diameter $2r$, so its area is $2rL$."
+    }
+   ],
+   "points": 3
+  },
+  {
+   "id": "81d8cdca-b5c6-415d-ac9b-a5533c09455f",
+   "card_type": "cloze",
+   "front": "The formula for the total surface area of a semi-cylinder is $\\text{TSA} = \\text{[...]} + 2rL + \\pi r^2$.",
+   "back": "The formula for the total surface area of a semi-cylinder is $\\text{TSA} = \\boxed{\\pi rL} + 2rL + \\pi r^2$.",
+   "options": [
+    {
+     "text": "$$\\pi rL$",
+     "correct": true,
+     "explanation": "The first term represents half the curved surface of a full cylinder. Halving $2\\pi rL$ gives $\\pi rL$, so this is the required term."
+    },
+    {
+     "text": "$$2\\pi rL$",
+     "correct": false,
+     "explanation": "This is the curved surface area of a complete cylinder and does not account for the lengthways cut. Halving it gives the correct term $\\pi rL$."
+    },
+    {
+     "text": "$$\\frac{1}{2}\\pi rL$",
+     "correct": false,
+     "explanation": "This halves the full curved area twice, leaving only one quarter of the original cylinder’s curved surface. A semi-cylinder has curved area $\\pi rL$."
+    },
+    {
+     "text": "$$\\pi r^2$",
+     "correct": false,
+     "explanation": "This is the area of the two semi-circular ends, not the curved surface. The missing curved-surface term is $\\pi rL$."
+    }
+   ]
+  },
+  {
+   "id": "54eab283-1b81-4f44-bba6-daa7389874ad",
+   "card_type": "cloze",
+   "front": "The formula for the total surface area of a semi-cylinder is $\\text{TSA} = \\pi rL + \\text{[...]} + \\pi r^2$.",
+   "back": "The formula for the total surface area of a semi-cylinder is $\\text{TSA} = \\pi rL + \\boxed{2rL} + \\pi r^2$.",
+   "options": [
+    {
+     "text": "$$2rL$",
+     "correct": true,
+     "explanation": "The flat cut face is a rectangle whose width is the diameter $2r$ and whose length is $L$. Its area is therefore $2r \\times L = 2rL$."
+    },
+    {
+     "text": "$$rL$",
+     "correct": false,
+     "explanation": "This uses the radius as the rectangle’s width, making its area half the required value. The width is the diameter $2r$, so the correct term is $2rL$."
+    },
+    {
+     "text": "$$\\pi rL$",
+     "correct": false,
+     "explanation": "This confuses the flat rectangular face with the half-cylinder’s curved surface. The rectangle has dimensions $2r$ and $L$, so its area is $2rL$."
+    },
+    {
+     "text": "$$2\\pi rL$",
+     "correct": false,
+     "explanation": "This uses the full cylinder’s curved surface formula rather than the area of the flat cut face. The rectangular face has area $2rL$, with no factor of $\\pi$."
+    }
+   ]
+  },
+  {
+   "id": "4dad69d7-9e70-4f86-a4cc-306b335f3881",
+   "card_type": "cloze",
+   "front": "The formula for the total surface area of a semi-cylinder is $\\text{TSA} = \\pi rL + 2rL + \\text{[...]}$.",
+   "back": "The formula for the total surface area of a semi-cylinder is $\\text{TSA} = \\pi rL + 2rL + \\boxed{\\pi r^2}$.",
+   "options": [
+    {
+     "text": "$$\\pi r^2$",
+     "correct": true,
+     "explanation": "The two semicircular ends combine to form one complete circle, so their total area is $\\pi r^2$. The other terms account for the curved and rectangular surfaces."
+    },
+    {
+     "text": "$$2\\pi r^2$",
+     "correct": false,
+     "explanation": "This counts the two semicircular ends as two complete circles, doubling their area. Together, the two ends make one circle, so the correct term is $\\pi r^2$."
+    },
+    {
+     "text": "$$\\frac{1}{2}\\pi r^2$",
+     "correct": false,
+     "explanation": "This includes only one semicircular end. A semi-cylinder has two such ends, which combine to give a total area of $\\pi r^2$."
+    },
+    {
+     "text": "$$\\pi r$",
+     "correct": false,
+     "explanation": "This uses the semicircle’s arc-length expression rather than an area expression. The two semicircular ends have a combined area of $\\pi r^2$."
+    }
+   ]
+  },
+  {
+   "id": "55017bdc-25b3-4c24-9eae-7a2d18b9320e",
+   "card_type": "basic",
+   "front": "A cylinder has height $8$ m and volume $288\\pi$ m³. Outline the steps to find the radius.",
+   "back": "Divide $288\\pi$ by $8\\pi$ to get $r^2 = 36$Square root $36$ to get $r = 6$",
+   "options": [
+    {
+     "text": "Divide $288\\pi$ by $8\\pi$ to get $r^2 = 36$Square root $36$ to get $r = 6$",
+     "correct": true,
+     "explanation": "Using $V=\\pi r^2h$ and dividing by $8\\pi$ gives $r^2=36$. Taking the positive square root gives the physical radius $r=6$ m."
+    },
+    {
+     "text": "Divide $288\\pi$ by $8$ to get $r^2 = 36\\pi$Square root $36\\pi$ to get $r = 6\\sqrt{\\pi}$",
+     "correct": false,
+     "explanation": "Dividing by the height alone fails to cancel the factor of $\\pi$. The calculation requires division by $8\\pi$, giving $r^2=36$ and then $r=6$."
+    },
+    {
+     "text": "Divide $288\\pi$ by $8\\pi$ to get $r^2 = 36$Divide $36$ by $2$ to get $r = 18$",
+     "correct": false,
+     "explanation": "The first step correctly finds $r^2$, but dividing by two does not undo squaring. Taking the square root of $36$ gives the correct radius, $r=6$."
+    },
+    {
+     "text": "Divide $288\\pi$ by $\\pi$ to get $r^2 = 288$Square root $288$ to get $r = 12\\sqrt{2}$",
+     "correct": false,
+     "explanation": "The volume must be divided by $\\pi h$, not merely by $\\pi$. Including the height gives $r^2=36$, whose positive square root is $r=6$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "93ceeab3-6809-43e9-8fad-0e834ff697df",
+   "card_type": "basic",
+   "front": "How many cubic centimetres (cm³) are in 1 litre?",
+   "back": "$$1000$ cm³",
+   "options": [
+    {
+     "text": "$$1000$ cm³",
+     "correct": true,
+     "explanation": "One litre is defined as one cubic decimetre. Since $1$ dm equals $10$ cm, cubing the conversion gives $10^3=1000$ cm³."
+    },
+    {
+     "text": "$$10$ cm³",
+     "correct": false,
+     "explanation": "This applies the linear conversion from decimetres to centimetres without cubing it. Volume scales in three dimensions, so $1$ litre equals $1000$ cm³."
+    },
+    {
+     "text": "$$100$ cm³",
+     "correct": false,
+     "explanation": "This squares the factor of $10$, as though converting area. A volume conversion requires cubing the factor, so $1$ litre equals $1000$ cm³."
+    },
+    {
+     "text": "$$10,000$ cm³",
+     "correct": false,
+     "explanation": "This is ten times too large and commonly results from adding an extra zero. Cubing $10$ gives $1000$, so one litre contains $1000$ cm³."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "625733a0-48dc-4f4d-95f7-869d63e92ff0",
+   "card_type": "cloze",
+   "front": "To convert area from m² to cm², you must multiply by [ ___ ] (which is $100^2$).",
+   "back": "To convert area from m² to cm², you must multiply by 10,000 (which is $100^2$).",
+   "options": [
+    {
+     "text": "10,000",
+     "correct": true,
+     "explanation": "Because $1$ m equals $100$ cm, each of the two area dimensions is multiplied by $100$. Therefore, the area scale factor is $100^2=10,000$."
+    },
+    {
+     "text": "100",
+     "correct": false,
+     "explanation": "This uses only the linear conversion factor between metres and centimetres. Area has two dimensions, so the factor must be squared, giving $100^2=10,000$."
+    },
+    {
+     "text": "1,000,000",
+     "correct": false,
+     "explanation": "This cubes the conversion factor and is appropriate for volume, not area. Squaring $100$ gives the correct area conversion factor of $10,000$."
+    },
+    {
+     "text": "1,000",
+     "correct": false,
+     "explanation": "This incorrectly uses $10^3$ rather than squaring the metre-to-centimetre factor of $100$. The correct area multiplier is $100^2=10,000$."
+    }
+   ]
+  },
+  {
+   "id": "4bf34ab1-b46e-4724-a251-87f240f9acff",
+   "card_type": "cloze",
+   "front": "To convert volume from m³ to cm², you must multiply by [ ___ ] (which is $100^3$).",
+   "back": "To convert volume from m³ to cm², you must multiply by 1,000,000 (which is $100^3$).",
+   "options": [
+    {
+     "text": "1,000,000",
+     "correct": true,
+     "explanation": "A cubic measure has three dimensions, and each metre contributes a factor of $100$ centimetres. Thus the conversion multiplier is $100^3=1,000,000$."
+    },
+    {
+     "text": "100",
+     "correct": false,
+     "explanation": "This uses the linear metre-to-centimetre factor without accounting for three dimensions. Cubing $100$ gives the required volume multiplier of $1,000,000$."
+    },
+    {
+     "text": "10,000",
+     "correct": false,
+     "explanation": "This squares the conversion factor, which is appropriate for area rather than volume. A cubic conversion uses $100^3$, producing a multiplier of $1,000,000$."
+    },
+    {
+     "text": "100,000,000",
+     "correct": false,
+     "explanation": "This introduces one extra factor of $100$, effectively treating the measure as four-dimensional. Cubing $100$ gives the correct multiplier of $1,000,000$."
+    }
+   ]
+  },
+  {
+   "id": "4069696e-d8d3-4d43-a97a-1e41f7380fca",
+   "card_type": "basic",
+   "front": "In practical problems (e.g., buying paint pots for a calculated area), how should you round the number of items needed?",
+   "back": "Always round up to the next whole number.",
+   "options": [
+    {
+     "text": "Always round up to the next whole number.",
+     "correct": true,
+     "explanation": "A fractional result means that another whole item is required to meet the calculated need. Rounding up ensures enough paint pots or other indivisible items are purchased."
+    },
+    {
+     "text": "Always round down to the previous whole number.",
+     "correct": false,
+     "explanation": "Rounding down would leave the required quantity unmet whenever the calculation has a fractional part. Practical quantities such as paint pots must instead be rounded up."
+    },
+    {
+     "text": "Always round normally to the nearest whole number.",
+     "correct": false,
+     "explanation": "Rounding to the nearest integer can round a fractional requirement down, leaving too few items. The number needed must always be rounded up to the next whole number."
+    },
+    {
+     "text": "Always leave the answer as a decimal number.",
+     "correct": false,
+     "explanation": "Leaving a decimal answer is unsuitable when items can only be purchased whole. The result must be rounded up so the purchased amount meets the requirement."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "0ed46ebe-c3d3-424a-a829-e5c507787940",
+   "card_type": "cloze",
+   "front": "When solving practical cylinder problems, you must ensure all measurements are in the [ ___ ] before substituting into a formula.",
+   "back": "When solving practical cylinder problems, you must ensure all measurements are in the same units before substituting into a formula.",
+   "options": [
+    {
+     "text": "same units",
+     "correct": true,
+     "explanation": "Cylinder formulae combine measurements algebraically, so inconsistent units would produce a meaningless result. Converting every measurement to the same units ensures a valid area or volume calculation."
+    },
+    {
+     "text": "original units",
+     "correct": false,
+     "explanation": "Keeping the original units is unsafe when the measurements use different scales, such as metres and centimetres. They must first be converted into the same units."
+    },
+    {
+     "text": "largest units",
+     "correct": false,
+     "explanation": "Choosing the largest units does not by itself make all measurements consistent. Every measurement must be expressed in the same units before using the formula."
+    },
+    {
+     "text": "different units",
+     "correct": false,
+     "explanation": "Substituting measurements expressed in different units mixes incompatible numerical scales and gives an incorrect result. All measurements must first be converted to the same units."
+    }
+   ]
+  },
+  {
+   "id": "bd83094a-c1c2-4ffe-8ac4-5789f55aa14b",
+   "card_type": "basic",
+   "front": "Define a cylinder in terms of its faces.",
+   "back": "A 3D solid with two equal parallel circular faces joined by one curved surface.",
+   "options": [
+    {
+     "text": "A 3D solid with two equal parallel circular faces joined by one curved surface.",
+     "correct": true,
+     "explanation": "A cylinder has two congruent circular bases lying in parallel planes. Its remaining face is the single curved surface connecting the circumferences of those circles."
+    },
+    {
+     "text": "A 3D solid with one circular face and one vertex joined by one curved surface.",
+     "correct": false,
+     "explanation": "A solid with only one circular face and a curved surface tapering to a point is a cone. A cylinder has two equal parallel circular faces."
+    },
+    {
+     "text": "A 3D solid with two unequal parallel circular faces joined by one curved surface.",
+     "correct": false,
+     "explanation": "Unequal circular faces describe a tapered frustum rather than a cylinder. A cylinder’s two circular faces must be equal and parallel, joined by one curved surface."
+    },
+    {
+     "text": "A 3D solid with two equal perpendicular circular faces joined by one curved surface.",
+     "correct": false,
+     "explanation": "Circular faces cannot be perpendicular and still form the two bases of a cylinder. The two equal circular faces must lie in parallel planes."
+    }
+   ],
+   "points": 1
+  }
+ ],
+ "card_count": 24,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-4-4-14-cylinders/flashcards",
+ "source_sha256": "ad0873bcbbf64a2f15bcd0e3779a64d466ccb1dbb3b74dc8640b156a7af03c99",
+ "extracted_at": "2026-11-08T19:00:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-2 run-001)",
+ "task_id": "T-MG-FC-2"
+}

@@ -1,0 +1,618 @@
+{
+ "topic": "grade-5-5-5-expanding-and-factorising-quadratics",
+ "lane": "igcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "title": "Expanding and Factorising Quadratics Flashcards",
+ "cards": [
+  {
+   "id": "5ddae4cb-51a5-4754-b43c-205c50b02a55",
+   "card_type": "basic",
+   "front": "What is the correct result of multiplying $x$ by $x$?",
+   "back": "$$x^2$",
+   "options": [
+    {
+     "text": "$$x^2$",
+     "correct": true,
+     "explanation": "Multiplying $x$ by itself gives $x \\times x = x^2$. The exponent 2 shows that $x$ appears as a factor twice."
+    },
+    {
+     "text": "$$2x$",
+     "correct": false,
+     "explanation": "This confuses multiplication with addition: $x + x = 2x$, but $x \\times x = x^2$ because the two powers of $x$ combine."
+    },
+    {
+     "text": "$$x$",
+     "correct": false,
+     "explanation": "This incorrectly leaves the variable unchanged. Since two factors of $x$ are being multiplied, their exponents add, giving $x^1 \\times x^1 = x^2$."
+    },
+    {
+     "text": "$$x^3$",
+     "correct": false,
+     "explanation": "This counts one factor too many. The product contains two factors of $x$, not three, so $x \\times x = x^2$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "f2ab7c90-6fb6-4771-93d8-b820d5f60fdf",
+   "card_type": "cloze",
+   "front": "A [ ___ ] is the number multiplying a variable, such as the 7 in $7x$.",
+   "back": "A coefficient is the number multiplying a variable, such as the 7 in $7x$.",
+   "options": [
+    {
+     "text": "coefficient",
+     "correct": true,
+     "explanation": "A coefficient is the numerical factor multiplying a variable. In $7x$, the variable is $x$ and its coefficient is 7."
+    },
+    {
+     "text": "constant",
+     "correct": false,
+     "explanation": "A constant is a term without a variable, so 7 would be a constant in $7x + 7$. In $7x$, 7 is the coefficient."
+    },
+    {
+     "text": "variable",
+     "correct": false,
+     "explanation": "A variable is the letter representing an unknown or changeable value. In $7x$, $x$ is the variable, while 7 is the coefficient."
+    },
+    {
+     "text": "exponent",
+     "correct": false,
+     "explanation": "An exponent indicates a power, such as the 2 in $x^2$. The number multiplying a variable, such as 7 in $7x$, is its coefficient."
+    }
+   ]
+  },
+  {
+   "id": "94224e4f-a9ad-49be-af9a-3e48cad23c79",
+   "card_type": "basic",
+   "front": "Simplify the term $-3x \\cdot 5x$.",
+   "back": "$$-15x^2$",
+   "options": [
+    {
+     "text": "$$-15x^2$",
+     "correct": true,
+     "explanation": "The coefficients multiply to $-3 \\times 5 = -15$, and $x \\times x = x^2$. Therefore, the simplified product is $-15x^2$."
+    },
+    {
+     "text": "$$-15x$",
+     "correct": false,
+     "explanation": "The coefficients have been multiplied correctly, but one factor of $x$ has been lost. Since $x \\times x = x^2$, the correct result is $-15x^2$."
+    },
+    {
+     "text": "$$15x^2$",
+     "correct": false,
+     "explanation": "This loses the negative sign. A negative coefficient multiplied by a positive coefficient gives a negative product, so the correct result is $-15x^2$."
+    },
+    {
+     "text": "$$-8x^2$",
+     "correct": false,
+     "explanation": "This adds the coefficients instead of multiplying them. The calculation requires $-3 \\times 5 = -15$ and $x \\times x = x^2$, giving $-15x^2$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "01f3bc73-ea2f-42a6-ab52-eb35a514d677",
+   "card_type": "basic",
+   "front": "What does it mean to expand an expression?",
+   "back": "To remove brackets by multiplying out every term.",
+   "options": [
+    {
+     "text": "To remove brackets by multiplying out every term.",
+     "correct": true,
+     "explanation": "Expanding removes brackets by multiplying each relevant term across the bracket or brackets. The resulting products are then collected and simplified where possible."
+    },
+    {
+     "text": "To remove brackets by adding together every term.",
+     "correct": false,
+     "explanation": "Brackets cannot generally be removed merely by adding terms. Expanding requires multiplying every relevant term correctly, then collecting any like terms in the result."
+    },
+    {
+     "text": "To insert brackets by factorising every term.",
+     "correct": false,
+     "explanation": "Factorising is the reverse process: it rewrites an expression as a product involving brackets. Expanding instead removes brackets by multiplying out every term."
+    },
+    {
+     "text": "To remove powers by dividing every term.",
+     "correct": false,
+     "explanation": "Expanding does not mean removing powers or dividing terms. It means removing brackets by multiplying out all required products and then simplifying the expression."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "1cf36a8c-0a50-4022-ba86-832878b912e8",
+   "card_type": "cloze",
+   "front": "When expanding two brackets, you should produce [ ___ ] initial products before simplifying.",
+   "back": "When expanding two brackets, you should produce four initial products before simplifying.",
+   "options": [
+    {
+     "text": "four",
+     "correct": true,
+     "explanation": "Each of the two terms in the first bracket multiplies each of the two terms in the second bracket, producing $2 \\times 2 = 4$ initial products."
+    },
+    {
+     "text": "two",
+     "correct": false,
+     "explanation": "This counts only one product for each term in a bracket. Each of two terms must multiply both terms in the other bracket, producing four initial products."
+    },
+    {
+     "text": "three",
+     "correct": false,
+     "explanation": "This usually results from missing one cross-product. Two terms multiplied by two terms produce four initial products before any like terms are collected."
+    },
+    {
+     "text": "six",
+     "correct": false,
+     "explanation": "This overcounts the required pairings. With two terms in each bracket, there are $2 \\times 2 = 4$ initial products, not six."
+    }
+   ]
+  },
+  {
+   "id": "97b49594-b5f5-4a25-8b0c-f0eb1d8252fe",
+   "card_type": "basic",
+   "front": "Expand and simplify $(x + 5)(x - 2)$.",
+   "back": "$$x^2 + 3x - 10$",
+   "options": [
+    {
+     "text": "$$x^2 + 3x - 10$",
+     "correct": true,
+     "explanation": "Multiplying gives $x^2 - 2x + 5x - 10$. Collecting the middle terms, $-2x + 5x = 3x$, produces $x^2 + 3x - 10$."
+    },
+    {
+     "text": "$$x^2 + 7x - 10$",
+     "correct": false,
+     "explanation": "This treats the middle coefficients as 5 and 2 without preserving the negative sign. The middle terms are $-2x$ and $5x$, which combine to $3x$."
+    },
+    {
+     "text": "$$x^2 + 3x + 10$",
+     "correct": false,
+     "explanation": "The middle term is correct, but the constant sign is not. Multiplying $5$ by $-2$ gives $-10$, so the result is $x^2 + 3x - 10$."
+    },
+    {
+     "text": "$$x^2 - 3x - 10$",
+     "correct": false,
+     "explanation": "The middle terms have been combined in the wrong order. Since $-2x + 5x = 3x$, the correct expansion is $x^2 + 3x - 10$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "fc2f28f9-f57e-4c15-b1ed-1ef8662c5ad4",
+   "card_type": "basic",
+   "front": "Expand and simplify $(3p - 4)(p - 6)$.",
+   "back": "$$3p^2 - 22p + 24$",
+   "options": [
+    {
+     "text": "$$3p^2 - 22p + 24$",
+     "correct": true,
+     "explanation": "The four products are $3p^2$, $-18p$, $-4p$ and $24$. Combining the middle terms gives $-22p$, so the expansion is $3p^2 - 22p + 24$."
+    },
+    {
+     "text": "$$3p^2 - 14p + 24$",
+     "correct": false,
+     "explanation": "This treats $-4p$ as positive when combining the middle terms. Both cross-products are negative, so $-18p - 4p = -22p$."
+    },
+    {
+     "text": "$$3p^2 - 22p - 24$",
+     "correct": false,
+     "explanation": "The constant sign is incorrect. Multiplying the two negative constants gives $(-4)(-6) = 24$, so the correct expansion ends with $+24$."
+    },
+    {
+     "text": "$$p^2 - 22p + 24$",
+     "correct": false,
+     "explanation": "This drops the coefficient 3 from the leading product. Multiplying $3p$ by $p$ gives $3p^2$, so the correct result is $3p^2 - 22p + 24$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "b6e891e7-3fd1-443a-9e27-9039ff3bddbb",
+   "card_type": "cloze",
+   "front": "The expression $(a - 5)^2$ is equivalent to the expanded form $\\text{[...]}$.",
+   "back": "The expression $(a - 5)^2$ is equivalent to the expanded form $\\boxed{(a - 5)(a - 5)}$.",
+   "options": [
+    {
+     "text": "$$(a - 5)(a - 5)$",
+     "correct": true,
+     "explanation": "Squaring an expression means multiplying the entire expression by itself. Therefore, $(a - 5)^2$ is exactly equivalent to $(a - 5)(a - 5)$."
+    },
+    {
+     "text": "$$(a - 5)(a + 5)$",
+     "correct": false,
+     "explanation": "This changes one factor and creates a difference of two squares, $a^2 - 25$. Squaring requires two identical factors, so the correct form is $(a - 5)(a - 5)$."
+    },
+    {
+     "text": "$$(a - 5)(a - 2)$",
+     "correct": false,
+     "explanation": "The exponent 2 does not replace the 5 in one factor. It means the entire bracket is repeated as a factor, giving $(a - 5)(a - 5)$."
+    },
+    {
+     "text": "$$(a + 5)(a + 5)$",
+     "correct": false,
+     "explanation": "This changes both subtraction signs to addition signs, representing $(a + 5)^2$. The original bracket must be repeated unchanged as $(a - 5)(a - 5)$."
+    }
+   ]
+  },
+  {
+   "id": "fd4c12df-b835-4673-9337-3103f9143932",
+   "card_type": "basic",
+   "front": "Expand and simplify $(y - 8)^2$.",
+   "back": "$$y^2 - 16y + 64$",
+   "options": [
+    {
+     "text": "$$y^2 - 16y + 64$",
+     "correct": true,
+     "explanation": "Squaring means multiplying $(y-8)$ by itself. Expanding gives $y^2-8y-8y+64$, and combining the two middle terms produces $y^2-16y+64$."
+    },
+    {
+     "text": "$$y^2 + 64$",
+     "correct": false,
+     "explanation": "The middle term has been omitted. Multiplying both brackets gives two products of $-8y$, so the correct expansion is $y^2-16y+64$."
+    },
+    {
+     "text": "$$y^2 - 8y + 64$",
+     "correct": false,
+     "explanation": "This uses only one of the two $-8y$ products. Squaring the bracket produces $-8y-8y=-16y$, so the correct expansion is $y^2-16y+64$."
+    },
+    {
+     "text": "$$y^2 + 16y + 64$",
+     "correct": false,
+     "explanation": "The sign of the middle term has been reversed. Both cross-products are $-8y$, so they combine to $-16y$ and give $y^2-16y+64$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "cb9ff9c1-00b7-4a1f-a9f8-e9633896858c",
+   "card_type": "basic",
+   "front": "Why is $(y - 8)^2$ not simply $y^2 + 64$?",
+   "back": "The expansion produces a middle term ($-16y$) because every term in the first bracket multiplies every term in the second.",
+   "options": [
+    {
+     "text": "The expansion produces a middle term ($-16y$) because every term in the first bracket multiplies every term in the second.",
+     "correct": true,
+     "explanation": "Squaring a bracket means multiplying it by itself. The two cross-products are both $-8y$, so they combine to form the required middle term $-16y$."
+    },
+    {
+     "text": "The expansion contains only squared terms because each term in the first bracket is squared separately from the second.",
+     "correct": false,
+     "explanation": "Squaring each term separately ignores the cross-products. In $(y-8)(y-8)$, each $y$ also multiplies a $-8$, producing the middle term $-16y$."
+    },
+    {
+     "text": "The expansion produces cancelling terms ($-8y$ and $+8y$) because the brackets contain terms with opposite signs.",
+     "correct": false,
+     "explanation": "The cross-products do not cancel because they are both negative: $y(-8)=-8y$ and $(-8)y=-8y$. Their sum is $-16y$, not zero."
+    },
+    {
+     "text": "The expansion produces a constant term ($64$) because only the two numerical terms need to be multiplied together.",
+     "correct": false,
+     "explanation": "The constant term is indeed $64$, but that does not account for the cross-products. Multiplying every term gives the additional middle term $-16y$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "d6f65e42-ef9d-4578-8a32-4d206b78f40e",
+   "card_type": "basic",
+   "front": "When factorising $x^2 + bx + c$, what two requirements must the numbers in the brackets meet?",
+   "back": "Multiply to give $c$Add to give $b$",
+   "options": [
+    {
+     "text": "Multiply to give $c$Add to give $b$",
+     "correct": true,
+     "explanation": "For $(x+m)(x+n)$, expansion gives $x^2+(m+n)x+mn$. Therefore, the two selected numbers must have product $c$ and sum $b$."
+    },
+    {
+     "text": "Multiply to give $b$Add to give $c$",
+     "correct": false,
+     "explanation": "This reverses the roles of the coefficients. The constants multiply to form $c$, while their sum forms the coefficient $b$ of the middle term."
+    },
+    {
+     "text": "Add to give $c$Subtract to give $b$",
+     "correct": false,
+     "explanation": "The constant term comes from multiplying the bracket constants, not adding them. Their sum must equal $b$, while their product must equal $c$."
+    },
+    {
+     "text": "Square to give $c$Multiply to give $b$",
+     "correct": false,
+     "explanation": "Squaring the selected numbers is not part of the expansion rule. The bracket constants must multiply to $c$ and add to $b$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "820b1895-b775-428c-a814-3d5e9ba44f26",
+   "card_type": "basic",
+   "front": "Factorise $x^2 + 11x + 24$.",
+   "back": "$$(x + 3)(x + 8)$",
+   "options": [
+    {
+     "text": "$$(x + 3)(x + 8)$",
+     "correct": true,
+     "explanation": "The numbers $3$ and $8$ multiply to $24$ and add to $11$. Expanding the brackets therefore reproduces $x^2+11x+24$."
+    },
+    {
+     "text": "$$(x + 4)(x + 6)$",
+     "correct": false,
+     "explanation": "Although $4+6=10$ is close to the middle coefficient, it is not $11$. The required pair is $3$ and $8$, giving $(x+3)(x+8)$."
+    },
+    {
+     "text": "$$(x + 2)(x + 12)$",
+     "correct": false,
+     "explanation": "The constants multiply to $24$, but their sum is $14$, so these brackets produce $x^2+14x+24$. The correct factors use $3$ and $8$."
+    },
+    {
+     "text": "$$(x - 3)(x - 8)$",
+     "correct": false,
+     "explanation": "Using two negative signs makes the middle coefficient negative. These brackets expand to $x^2-11x+24$, whereas the correct factorisation is $(x+3)(x+8)$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "3c12b89a-4871-41f0-83bb-424014bb82ac",
+   "card_type": "cloze",
+   "front": "If a quadratic has a positive final number and a negative middle term, the signs in the brackets are [ ___ ].",
+   "back": "If a quadratic has a positive final number and a negative middle term, the signs in the brackets are both negative.",
+   "options": [
+    {
+     "text": "both negative",
+     "correct": true,
+     "explanation": "A positive constant requires matching signs, while a negative middle coefficient requires their sum to be negative. Therefore, both bracket constants must be negative."
+    },
+    {
+     "text": "both positive",
+     "correct": false,
+     "explanation": "Two positive constants would produce a positive middle coefficient when added. A positive final number with a negative middle term requires both signs to be negative."
+    },
+    {
+     "text": "opposite signs",
+     "correct": false,
+     "explanation": "Opposite signs produce a negative constant because their product is negative. Since the final number is positive and the middle term negative, both signs must be negative."
+    },
+    {
+     "text": "both zero",
+     "correct": false,
+     "explanation": "A zero bracket constant would make the final number zero, not positive. Matching negative signs give a positive product and a negative sum, so both signs are negative."
+    }
+   ]
+  },
+  {
+   "id": "e2f9435c-dc0f-4e09-8954-a29ef68a4613",
+   "card_type": "cloze",
+   "front": "If a quadratic has a [ ___ ] final number, the signs in the brackets must be different (one positive, one negative).",
+   "back": "If a quadratic has a negative final number, the signs in the brackets must be different (one positive, one negative).",
+   "options": [
+    {
+     "text": "negative",
+     "correct": true,
+     "explanation": "The final number is the product of the two bracket constants. A negative product requires opposite signs, so one constant is positive and the other is negative."
+    },
+    {
+     "text": "positive",
+     "correct": false,
+     "explanation": "A positive product normally comes from two constants with matching signs, not different signs. Opposite signs are required when the final number is negative."
+    },
+    {
+     "text": "zero",
+     "correct": false,
+     "explanation": "A zero final number means at least one bracket constant is zero, so it does not require one positive and one negative sign. The required description is negative."
+    },
+    {
+     "text": "non-negative",
+     "correct": false,
+     "explanation": "A non-negative final number may be positive or zero, neither of which forces opposite signs. It is specifically a negative final number that requires different signs."
+    }
+   ]
+  },
+  {
+   "id": "4db8bef1-d281-4858-9df8-3050224f8512",
+   "card_type": "basic",
+   "front": "Factorise $x^2 - 9x + 20$.",
+   "back": "$$(x - 4)(x - 5)$",
+   "options": [
+    {
+     "text": "$$(x - 4)(x - 5)$",
+     "correct": true,
+     "explanation": "The numbers $-4$ and $-5$ multiply to $20$ and add to $-9$. Expanding the brackets therefore gives $x^2-9x+20$."
+    },
+    {
+     "text": "$$(x - 2)(x - 10)$",
+     "correct": false,
+     "explanation": "The numbers $-2$ and $-10$ multiply to $20$, but add to $-12$, producing $x^2-12x+20$. The required constants are $-4$ and $-5$."
+    },
+    {
+     "text": "$$(x + 4)(x + 5)$",
+     "correct": false,
+     "explanation": "Two positive constants give a positive middle coefficient, so these brackets expand to $x^2+9x+20$. Both constants must instead be negative."
+    },
+    {
+     "text": "$$(x + 4)(x - 5)$",
+     "correct": false,
+     "explanation": "Opposite signs produce a negative constant, so these brackets expand to $x^2-x-20$. The positive constant and negative middle term require $-4$ and $-5$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "28a90d5c-264d-4487-9ab4-19a331c9d638",
+   "card_type": "basic",
+   "front": "Factorise $x^2 + 2x - 35$.",
+   "back": "$$(x + 7)(x - 5)$",
+   "options": [
+    {
+     "text": "$$(x + 7)(x - 5)$",
+     "correct": true,
+     "explanation": "The constants $7$ and $-5$ multiply to $-35$ and add to $2$. Thus, expanding the brackets gives exactly $x^2+2x-35$."
+    },
+    {
+     "text": "$$(x - 7)(x + 5)$",
+     "correct": false,
+     "explanation": "These constants multiply to $-35$, but they add to $-2$, producing $x^2-2x-35$. Reversing the signs gives the required middle term."
+    },
+    {
+     "text": "$$(x + 7)(x + 5)$",
+     "correct": false,
+     "explanation": "Although the constants add to $12$, their product is $35$, so these brackets produce $x^2+12x+35$. The correct pair is $7$ and $-5$."
+    },
+    {
+     "text": "$$(x + 8)(x - 3)$",
+     "correct": false,
+     "explanation": "The constants add to $2$, but their product is $-35$ only when they are $7$ and $-5$. This pair instead produces a constant of $-24$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "7e77951a-a3fe-4429-83a3-e2a752a74f78",
+   "card_type": "basic",
+   "front": "State the general factorised form for the difference of two squares, $x^2 - a^2$.",
+   "back": "$$(x + a)(x - a)$",
+   "options": [
+    {
+     "text": "$$(x + a)(x - a)$",
+     "correct": true,
+     "explanation": "Expanding gives $x^2-ax+ax-a^2=x^2-a^2$. The two middle terms cancel, producing the difference of two squares."
+    },
+    {
+     "text": "$$(x + a)(x + a)$",
+     "correct": false,
+     "explanation": "Repeating the positive bracket produces $x^2+2ax+a^2$, a perfect square trinomial. Opposite signs are needed, so the correct factorisation is $(x+a)(x-a)$."
+    },
+    {
+     "text": "$$(x - a)(x - a)$",
+     "correct": false,
+     "explanation": "Repeating the negative bracket produces $x^2-2ax+a^2$, not a difference of squares. The correct factors have opposite signs: $(x+a)(x-a)$."
+    },
+    {
+     "text": "$$(a + x)(a - x)$",
+     "correct": false,
+     "explanation": "Multiplying these brackets gives $a^2-x^2$, the negative of the required expression. Reversing the subtraction correctly gives $(x+a)(x-a)$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "df974ecf-2c94-41f7-8886-3546e619a02f",
+   "card_type": "basic",
+   "front": "Factorise $x^2 - 64$.",
+   "back": "$$(x + 8)(x - 8)$",
+   "options": [
+    {
+     "text": "$$(x + 8)(x - 8)$",
+     "correct": true,
+     "explanation": "Since $64=8^2$, this is a difference of two squares. The opposite-sign factors expand to $x^2-64$ because the middle terms cancel."
+    },
+    {
+     "text": "$$(x + 8)(x + 8)$",
+     "correct": false,
+     "explanation": "Using two positive brackets gives $x^2+16x+64$, introducing a middle term and a positive constant. The correct opposite-sign factors are $(x+8)(x-8)$."
+    },
+    {
+     "text": "$$(x - 8)(x - 8)$",
+     "correct": false,
+     "explanation": "Using two negative brackets gives $x^2-16x+64$, not $x^2-64$. The difference of squares requires opposite signs: $(x+8)(x-8)$."
+    },
+    {
+     "text": "$$(x + 4)(x - 16)$",
+     "correct": false,
+     "explanation": "Although $4\\times16=64$, these unequal numbers create a middle term, giving $x^2-12x-64$. The correct factors are $(x+8)(x-8)$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "190f50df-928d-4622-ad1f-bb810b50e165",
+   "card_type": "cloze",
+   "front": "The \"difference of two squares\" rule [ ___ ] apply to expressions with an addition sign, such as $x^2 + 64$.",
+   "back": "The \"difference of two squares\" rule does not apply to expressions with an addition sign, such as $x^2 + 64$.",
+   "options": [
+    {
+     "text": "does not",
+     "correct": true,
+     "explanation": "The rule applies only to subtraction of two square terms, in the form $a^2-b^2$. A sum such as $x^2+64$ cannot be factorised this way."
+    },
+    {
+     "text": "does",
+     "correct": false,
+     "explanation": "Applying the rule to a sum is a common sign error: $(x+8)(x-8)$ expands to $x^2-64$. Therefore, the rule does not apply to $x^2+64$."
+    },
+    {
+     "text": "can",
+     "correct": false,
+     "explanation": "Over the real numbers, a sum of two squares cannot use opposite-sign conjugate factors. The sentence requires does not because the rule is restricted to a difference."
+    },
+    {
+     "text": "will",
+     "correct": false,
+     "explanation": "The addition sign prevents the middle terms from cancelling into the required positive constant using real linear factors. The rule does not apply to $x^2+64$."
+    }
+   ]
+  },
+  {
+   "id": "94f7bcfe-f8b2-49af-8a3a-00f0d861d501",
+   "card_type": "basic",
+   "front": "Factorise $x^2 + 14x + 49$.",
+   "back": "$$(x + 7)^2$ or $(x + 7)(x + 7)$",
+   "options": [
+    {
+     "text": "$$(x + 7)^2$ or $(x + 7)(x + 7)$",
+     "correct": true,
+     "explanation": "This is a perfect square trinomial: $49=7^2$ and the middle term is $2\\times7\\times x=14x$. Expanding either form returns $x^2+14x+49$."
+    },
+    {
+     "text": "$$(x - 7)^2$ or $(x - 7)(x - 7)$",
+     "correct": false,
+     "explanation": "Choosing negative sevens produces a negative middle term, since this expands to $x^2-14x+49$. Positive sevens are required: $(x+7)^2$."
+    },
+    {
+     "text": "$$(x + 14)^2$ or $(x + 14)(x + 14)$",
+     "correct": false,
+     "explanation": "Using the middle-term coefficient directly gives $x^2+28x+196$. Half of $14$ is $7$, so the correct repeated factor is $(x+7)^2$."
+    },
+    {
+     "text": "$$(x + 1)(x + 49)$ or $(x + 49)(x + 1)$",
+     "correct": false,
+     "explanation": "Although $1\\times49=49$, these numbers add to $50$, producing $x^2+50x+49$. The required numbers both equal $7$, giving $(x+7)^2$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "ddb5d653-9549-4b8a-8289-4e5ecb52b187",
+   "card_type": "basic",
+   "front": "How can you verify that a factorisation is correct?",
+   "back": "Expand the brackets to see if you return to the original expression.",
+   "options": [
+    {
+     "text": "Expand the brackets to see if you return to the original expression.",
+     "correct": true,
+     "explanation": "Expansion reverses factorisation. If multiplying out and collecting like terms reproduces every term of the original expression, the factorisation has been verified."
+    },
+    {
+     "text": "Add the terms inside the brackets to see if they match the original expression.",
+     "correct": false,
+     "explanation": "Factors must be multiplied, not added, so adding their terms does not reverse factorisation. Expand the brackets fully and check that the original expression is recovered."
+    },
+    {
+     "text": "Substitute $x = 0$ into both forms to see if the constant terms match.",
+     "correct": false,
+     "explanation": "Checking only $x=0$ compares the constant terms but can miss incorrect coefficients elsewhere. Expand the brackets to verify that the entire original expression is recovered."
+    },
+    {
+     "text": "Differentiate both forms to see if their gradients are equal.",
+     "correct": false,
+     "explanation": "Equal derivatives can still belong to expressions differing by a constant, so this does not fully verify equality. Expanding the factors should reproduce the complete original expression."
+    }
+   ],
+   "points": 1
+  }
+ ],
+ "card_count": 21,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-5-5-5-expanding-and-factorising-quadratics/flashcards",
+ "source_sha256": "226176dcd47416e0e6f30f439e212c2441d738e94d7f09b0bb21996949549558",
+ "extracted_at": "2026-11-08T19:00:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-2 run-001)",
+ "task_id": "T-MG-FC-2"
+}

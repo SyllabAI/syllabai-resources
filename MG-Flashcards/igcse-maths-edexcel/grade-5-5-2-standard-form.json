@@ -1,0 +1,44 @@
+{
+ "topic": "grade-5-5-2-standard-form",
+ "lane": "igcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "title": "Standard Form Flashcards",
+ "cards": [
+  {
+   "id": "c62c1e68-aa1a-4fdd-bd5f-7d8c32b60eba",
+   "card_type": "basic",
+   "front": "What are the two constraints on $a$ and $n$ for the expression $a \\times 10^n$ to be in standard form?",
+   "back": "$1 \\le a $n$ is an integer",
+   "options": [
+    {
+     "text": "$1 \\le a $n$ is an integer",
+     "correct": true,
+     "explanation": "Standard form requires the coefficient $a$ to be at least $1$ but less than $10$. The exponent $n$ must be an integer, including zero or a negative integer."
+    },
+    {
+     "text": "$0 $n$ is an integer",
+     "correct": false,
+     "explanation": "This reverses the endpoint restrictions: coefficients below $1$ and a coefficient of $10$ are not permitted. The correct constraint is $1 \\le a < 10$, with integer $n$."
+    },
+    {
+     "text": "$1 \\le a $n$ is a positive integer",
+     "correct": false,
+     "explanation": "Restricting $n$ to positive integers excludes zero and negative powers, which are valid in standard form. The correct requirements are $1 \\le a < 10$ and integer $n$."
+    },
+    {
+     "text": "$1 $n$ is a whole number",
+     "correct": false,
+     "explanation": "This wrongly excludes $a=1$, allows $a=10$, and prevents negative exponents by requiring a whole number. Standard form needs $1 \\le a < 10$ and integer $n$."
+    }
+   ],
+   "points": 2
+  }
+ ],
+ "card_count": 1,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-5-5-2-standard-form/flashcards",
+ "source_sha256": "089fd8982534b8a9beacdeefe11c197bf78f0ba1c4ae9ef3e435521e23b5f144",
+ "extracted_at": "2026-11-08T19:00:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-2 run-001)",
+ "task_id": "T-MG-FC-2"
+}

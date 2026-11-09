@@ -1,0 +1,619 @@
+{
+ "topic": "grade-7-7-13-the-magnitude-of-a-vector",
+ "lane": "igcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "title": "The Magnitude of a Vector Flashcards",
+ "cards": [
+  {
+   "id": "3c8ccc5d-35ab-4d08-937e-140d88fecd8e",
+   "card_type": "basic",
+   "front": "What does the notation $|\\vec{v}|$ represent?",
+   "back": "The magnitude (or length) of vector $\\vec{v}$.",
+   "options": [
+    {
+     "text": "The magnitude (or length) of vector $\\vec{v}$.",
+     "correct": true,
+     "explanation": "The modulus bars around a vector denote its magnitude, found from its components using Pythagoras. This gives the vector’s non-negative geometric length."
+    },
+    {
+     "text": "The direction (or angle) of vector $\\vec{v}$.",
+     "correct": false,
+     "explanation": "A vector’s direction describes the angle in which it points, not the meaning of the modulus notation. $|\\vec{v}|$ represents the vector’s magnitude or length."
+    },
+    {
+     "text": "The unit vector in the direction of vector $\\vec{v}$.",
+     "correct": false,
+     "explanation": "A unit vector is obtained by dividing a non-zero vector by its magnitude. The notation $|\\vec{v}|$ gives the magnitude or length itself."
+    },
+    {
+     "text": "The horizontal component (or width) of vector $\\vec{v}$.",
+     "correct": false,
+     "explanation": "The horizontal component is only one coordinate of the vector and does not account for vertical displacement. $|\\vec{v}|$ represents the vector’s overall magnitude or length."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "4d528106-0b30-4a92-9309-8aea596b8f67",
+   "card_type": "basic",
+   "front": "In the column vector $\\begin{pmatrix} x \\\\ y \\end{pmatrix}$, what do the numbers represent?",
+   "back": "$x$: horizontal component$y$: vertical component",
+   "options": [
+    {
+     "text": "$x$: horizontal component$y$: vertical component",
+     "correct": true,
+     "explanation": "In a two-dimensional column vector, the top number measures horizontal displacement and the bottom number measures vertical displacement, with their signs indicating direction."
+    },
+    {
+     "text": "$x$: vertical component$y$: horizontal component",
+     "correct": false,
+     "explanation": "This reverses the standard coordinate order. The top entry $x$ is the horizontal component, while the bottom entry $y$ is the vertical component."
+    },
+    {
+     "text": "$x$: magnitude component$y$: direction component",
+     "correct": false,
+     "explanation": "The entries are perpendicular displacement components, not magnitude and direction. The $x$ entry is horizontal and the $y$ entry is vertical."
+    },
+    {
+     "text": "$x$: starting component$y$: finishing component",
+     "correct": false,
+     "explanation": "A column vector does not list the starting and finishing coordinates of a journey. Its $x$ and $y$ entries represent horizontal and vertical components respectively."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "fc86e841-d9ef-4674-88f0-6761f44a9e8c",
+   "card_type": "basic",
+   "front": "If $\\vec{AB} = \\begin{pmatrix} 5 \\\\ -2 \\end{pmatrix}$, what is $\\vec{BA}$?",
+   "back": "$$\\begin{pmatrix} -5 \\\\ 2 \\end{pmatrix}$",
+   "options": [
+    {
+     "text": "$$\\begin{pmatrix} -5 \\\\ 2 \\end{pmatrix}$",
+     "correct": true,
+     "explanation": "Reversing a vector negates every component because the displacement has the same length but the opposite direction. Thus $5$ becomes $-5$ and $-2$ becomes $2$."
+    },
+    {
+     "text": "$$\\begin{pmatrix} 5 \\\\ -2 \\end{pmatrix}$",
+     "correct": false,
+     "explanation": "Keeping both components unchanged gives $\\vec{AB}$ again rather than the reverse journey. For $\\vec{BA}$, both component signs must change, giving $\\begin{pmatrix}-5\\\\2\\end{pmatrix}$."
+    },
+    {
+     "text": "$$\\begin{pmatrix} -5 \\\\ -2 \\end{pmatrix}$",
+     "correct": false,
+     "explanation": "Only negating the horizontal component does not reverse the vector completely. Both components must change sign, so the vertical component should be $2$."
+    },
+    {
+     "text": "$$\\begin{pmatrix} 5 \\\\ 2 \\end{pmatrix}$",
+     "correct": false,
+     "explanation": "Only negating the vertical component leaves the horizontal direction unchanged. Reversing the entire vector also changes $5$ to $-5$, producing $\\begin{pmatrix}-5\\\\2\\end{pmatrix}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "2e37c016-6f8b-461c-a557-3299e2e88c2d",
+   "card_type": "cloze",
+   "front": "The magnitude of a vector $\\vec{v} = \\begin{pmatrix} x \\\\ y \\end{pmatrix}$ is calculated using the formula $|\\vec{v}| = \\text{[...]}$.",
+   "back": "The magnitude of a vector $\\vec{v} = \\begin{pmatrix} x \\\\ y \\end{pmatrix}$ is calculated using the formula $|\\vec{v}| = \\boxed{\\sqrt{x^2+y^2}}$.",
+   "options": [
+    {
+     "text": "$$\\sqrt{x^2+y^2}$",
+     "correct": true,
+     "explanation": "The horizontal and vertical components form perpendicular sides of a right-angled triangle. Pythagoras therefore gives the vector’s length as the square root of the sum of their squares."
+    },
+    {
+     "text": "$$\\sqrt{x+y}$",
+     "correct": false,
+     "explanation": "Adding the components before taking a square root does not apply Pythagoras and can even produce a negative radicand. The components must first be squared and then added."
+    },
+    {
+     "text": "$$x^2+y^2$",
+     "correct": false,
+     "explanation": "The sum of the squares is the magnitude squared, not the magnitude. Taking its square root gives the required length, $\\sqrt{x^2+y^2}$."
+    },
+    {
+     "text": "$$\\sqrt{x^2-y^2}$",
+     "correct": false,
+     "explanation": "Pythagoras adds the squares of perpendicular components; it does not subtract them. Subtraction can also make the radicand negative, whereas a real vector’s magnitude is non-negative."
+    }
+   ]
+  },
+  {
+   "id": "0a5310bc-3ee2-46af-8c6b-f639d77ce053",
+   "card_type": "basic",
+   "front": "Why is the magnitude of a vector always positive, even if components are negative?",
+   "back": "Negative components square to positives: $(-x)^2 = x^2$.",
+   "options": [
+    {
+     "text": "Negative components square to positives: $(-x)^2 = x^2$.",
+     "correct": true,
+     "explanation": "Squaring removes the signs of the components, so each squared value is non-negative. Their sum and its principal square root are therefore also non-negative."
+    },
+    {
+     "text": "Negative components cancel with positives: $-x+x=0$.",
+     "correct": false,
+     "explanation": "Components are not cancelled against one another when calculating magnitude. Each component is squared, the squares are added, and the non-negative square root is taken."
+    },
+    {
+     "text": "Negative components are simply ignored: only positive components are used.",
+     "correct": false,
+     "explanation": "Negative components still affect the vector’s length and cannot be discarded. Their signs disappear because squaring makes their contributions non-negative before the square root is taken."
+    },
+    {
+     "text": "Negative components become positive when added: $-x+(-y)=x+y$.",
+     "correct": false,
+     "explanation": "Adding negative components does not automatically make them positive, and the stated equality is generally false. Magnitude is non-negative because each component is squared before addition."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "c1ed8f93-2bd4-45e0-87c5-4f97492ba63e",
+   "card_type": "cloze",
+   "front": "To reverse a vector, you must change the [ ___ ] of both components.",
+   "back": "To reverse a vector, you must change the signs of both components.",
+   "options": [
+    {
+     "text": "signs",
+     "correct": true,
+     "explanation": "A reversed vector has the same magnitude but points in the opposite direction. Multiplying by $-1$ changes the signs of both components without changing their absolute sizes."
+    },
+    {
+     "text": "magnitudes",
+     "correct": false,
+     "explanation": "Changing component magnitudes would generally alter the vector’s length rather than merely reverse it. Reversal requires changing both signs while keeping the absolute values unchanged."
+    },
+    {
+     "text": "positions",
+     "correct": false,
+     "explanation": "Swapping the positions of the components exchanges the horizontal and vertical displacements and does not produce the opposite vector. Both component signs must instead be changed."
+    },
+    {
+     "text": "squares",
+     "correct": false,
+     "explanation": "The squares of opposite components are identical, so changing or considering squares cannot distinguish a vector from its reverse. The signs of both original components must change."
+    }
+   ]
+  },
+  {
+   "id": "1a27c7a4-c9ef-40aa-b2ca-2ce61dd130ce",
+   "card_type": "basic",
+   "front": "State a vector path to find $\\vec{AC}$ using the point $B$.",
+   "back": "$$\\vec{AC} = \\vec{AB} + \\vec{BC}$",
+   "options": [
+    {
+     "text": "$$\\vec{AC} = \\vec{AB} + \\vec{BC}$",
+     "correct": true,
+     "explanation": "Travelling from $A$ to $B$ and then from $B$ to $C$ gives the same overall displacement as travelling directly from $A$ to $C$."
+    },
+    {
+     "text": "$$\\vec{AC} = \\vec{AB} - \\vec{BC}$",
+     "correct": false,
+     "explanation": "The path from $A$ through $B$ to $C$ combines the two consecutive displacements by addition, not subtraction. Therefore $\\vec{AC}=\\vec{AB}+\\vec{BC}$."
+    },
+    {
+     "text": "$$\\vec{AC} = \\vec{BA} + \\vec{BC}$",
+     "correct": false,
+     "explanation": "The first leg must travel from $A$ to $B$, but $\\vec{BA}$ points in the opposite direction. The valid path is $\\vec{AB}+\\vec{BC}$."
+    },
+    {
+     "text": "$$\\vec{AC} = \\vec{AB} + \\vec{CB}$",
+     "correct": false,
+     "explanation": "The second leg must travel from $B$ to $C$, whereas $\\vec{CB}$ points backwards. The correct route is $\\vec{AB}+\\vec{BC}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "7ffc9d6a-bb08-47a9-85f5-76fd595dad85",
+   "card_type": "basic",
+   "front": "How is $\\vec{BC}$ expressed in terms of $\\vec{AC}$ and $\\vec{AB}$?",
+   "back": "$$\\vec{BC} = \\vec{AC} - \\vec{AB}$",
+   "options": [
+    {
+     "text": "$$\\vec{BC} = \\vec{AC} - \\vec{AB}$",
+     "correct": true,
+     "explanation": "Starting from $\\vec{AC}=\\vec{AB}+\\vec{BC}$, subtracting $\\vec{AB}$ from both sides isolates the required vector and gives $\\vec{BC}=\\vec{AC}-\\vec{AB}$."
+    },
+    {
+     "text": "$$\\vec{BC} = \\vec{AC} + \\vec{AB}$",
+     "correct": false,
+     "explanation": "Adding $\\vec{AB}$ fails to rearrange the path equation correctly. From $\\vec{AC}=\\vec{AB}+\\vec{BC}$, subtracting $\\vec{AB}$ gives $\\vec{BC}=\\vec{AC}-\\vec{AB}$."
+    },
+    {
+     "text": "$$\\vec{BC} = \\vec{AB} - \\vec{AC}$",
+     "correct": false,
+     "explanation": "Reversing the subtraction gives $\\vec{CB}$ rather than $\\vec{BC}$. The required displacement is found by subtracting $\\vec{AB}$ from $\\vec{AC}$."
+    },
+    {
+     "text": "$$\\vec{BC} = \\vec{AB} + \\vec{CA}$",
+     "correct": false,
+     "explanation": "Since $\\vec{CA}=-\\vec{AC}$, this expression equals $\\vec{AB}-\\vec{AC}$ and points from $C$ to $B$. The required vector is $\\vec{AC}-\\vec{AB}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "7872b4ce-568a-44e1-9c10-6216b2a8e00b",
+   "card_type": "basic",
+   "front": "Calculate the magnitude of $\\vec{v} = \\begin{pmatrix} -8 \\\\ 15 \\end{pmatrix}$.",
+   "back": "17",
+   "options": [
+    {
+     "text": "17",
+     "correct": true,
+     "explanation": "The magnitude is $\\sqrt{(-8)^2+15^2}=\\sqrt{64+225}=\\sqrt{289}=17$, using Pythagoras on the horizontal and vertical components."
+    },
+    {
+     "text": "23",
+     "correct": false,
+     "explanation": "This comes from adding the absolute component values, $8+15$, rather than using Pythagoras. The correct magnitude is $\\sqrt{(-8)^2+15^2}=17$."
+    },
+    {
+     "text": "7",
+     "correct": false,
+     "explanation": "This comes from combining the components by subtraction instead of squaring and adding them. Using $\\sqrt{(-8)^2+15^2}$ gives the correct magnitude of $17$."
+    },
+    {
+     "text": "289",
+     "correct": false,
+     "explanation": "This is the squared magnitude, $(-8)^2+15^2$, but the required magnitude is its square root. Therefore, the correct answer is $\\sqrt{289}=17$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "06633ca2-323c-4f4c-ac45-fb4640e69810",
+   "card_type": "basic",
+   "front": "What defines an exact magnitude in vector geometry?",
+   "back": "An answer that has not been rounded, typically written as a surd.",
+   "options": [
+    {
+     "text": "An answer that has not been rounded, typically written as a surd.",
+     "correct": true,
+     "explanation": "An exact magnitude preserves the complete value without decimal approximation. When the square root is irrational, it is normally left in simplified surd form."
+    },
+    {
+     "text": "An answer that has been rounded, typically written as a decimal.",
+     "correct": false,
+     "explanation": "Rounding produces an approximate magnitude because some precision is lost. An exact magnitude has not been rounded and is typically retained as a simplified surd."
+    },
+    {
+     "text": "An answer that has been estimated, typically written as an integer.",
+     "correct": false,
+     "explanation": "Estimating to an integer gives an approximation rather than an exact value. The exact magnitude remains unrounded, usually in simplified surd form when necessary."
+    },
+    {
+     "text": "An answer that has been truncated, typically written as a decimal.",
+     "correct": false,
+     "explanation": "Truncation removes digits and therefore changes the value into an approximation. An exact magnitude is unrounded and is commonly expressed as a simplified surd."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "d8d36c26-3647-4f88-aec8-2b17b735627f",
+   "card_type": "cloze",
+   "front": "To simplify a magnitude like $\\sqrt{116}$, you should identify and factor out [ ___ ] (e.g., 4, 9, 16).",
+   "back": "To simplify a magnitude like $\\sqrt{116}$, you should identify and factor out square factors (e.g., 4, 9, 16).",
+   "options": [
+    {
+     "text": "square factors",
+     "correct": true,
+     "explanation": "A square factor has an integer square root, so it can be taken outside the radical. For example, $\\sqrt{116}=\\sqrt{4\\times29}=2\\sqrt{29}$."
+    },
+    {
+     "text": "prime factors",
+     "correct": false,
+     "explanation": "Prime factorisation may help reveal a square factor, but individual prime factors cannot automatically be taken outside a square root. The required factors are square factors."
+    },
+    {
+     "text": "cube factors",
+     "correct": false,
+     "explanation": "Cube factors are relevant when simplifying cube roots, not square roots. To simplify $\\sqrt{116}$, identify and factor out square factors such as $4$."
+    },
+    {
+     "text": "common factors",
+     "correct": false,
+     "explanation": "A common factor need not have an integer square root, so it may not simplify the radical. The useful factors are square factors, such as $4$ in $116$."
+    }
+   ]
+  },
+  {
+   "id": "5cf3d69d-0f07-401e-8c1c-b9c33ce3083d",
+   "card_type": "basic",
+   "front": "Simplify the magnitude $\\sqrt{116}$ into a simplified surd.",
+   "back": "$$2\\sqrt{29}$",
+   "options": [
+    {
+     "text": "$$2\\sqrt{29}$",
+     "correct": true,
+     "explanation": "Since $116=4\\times29$, the square factor $4$ can be removed from the radical: $\\sqrt{116}=\\sqrt{4}\\sqrt{29}=2\\sqrt{29}$."
+    },
+    {
+     "text": "$$4\\sqrt{29}$",
+     "correct": false,
+     "explanation": "This takes $4$ outside the square root without first finding its square root. Since $\\sqrt{4}=2$, the correct simplified surd is $2\\sqrt{29}$."
+    },
+    {
+     "text": "$$2\\sqrt{58}$",
+     "correct": false,
+     "explanation": "This does not preserve the original value, since squaring $2\\sqrt{58}$ gives $232$. Factoring $116$ as $4\\times29$ gives $2\\sqrt{29}$."
+    },
+    {
+     "text": "$$4\\sqrt{7}$",
+     "correct": false,
+     "explanation": "This corresponds to $\\sqrt{112}$ because $(4\\sqrt{7})^2=112$, not $116$. Using the square factor $4$ gives the correct result $2\\sqrt{29}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "0f3d726b-48c5-484b-84c7-73c9b58f85d9",
+   "card_type": "basic",
+   "front": "If $\\vec{AB} = \\begin{pmatrix} 3 \\\\ 4 \\end{pmatrix}$ and $\\vec{DC} = 3\\vec{AB}$, find the column vector for $\\vec{DC}$.",
+   "back": "$$\\begin{pmatrix} 9 \\\\ 12 \\end{pmatrix}$",
+   "options": [
+    {
+     "text": "$$\\begin{pmatrix} 9 \\\\ 12 \\end{pmatrix}$",
+     "correct": true,
+     "explanation": "Multiplying a vector by $3$ means multiplying both components by $3$. Thus $3\\begin{pmatrix}3\\\\4\\end{pmatrix}=\\begin{pmatrix}9\\\\12\\end{pmatrix}$."
+    },
+    {
+     "text": "$$\\begin{pmatrix} 6 \\\\ 7 \\end{pmatrix}$",
+     "correct": false,
+     "explanation": "This adds $3$ to each component instead of multiplying each component by $3$. Scalar multiplication gives $\\begin{pmatrix}3\\times3\\\\3\\times4\\end{pmatrix}=\\begin{pmatrix}9\\\\12\\end{pmatrix}$."
+    },
+    {
+     "text": "$$\\begin{pmatrix} 9 \\\\ 4 \\end{pmatrix}$",
+     "correct": false,
+     "explanation": "This multiplies only the first component by $3$. A scalar must multiply every component, so the correct vector is $\\begin{pmatrix}9\\\\12\\end{pmatrix}$."
+    },
+    {
+     "text": "$$\\begin{pmatrix} 3 \\\\ 12 \\end{pmatrix}$",
+     "correct": false,
+     "explanation": "This multiplies only the second component by $3$. Both components must be scaled, giving $\\begin{pmatrix}3\\times3\\\\4\\times3\\end{pmatrix}=\\begin{pmatrix}9\\\\12\\end{pmatrix}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "9c96f8ba-15de-4ec5-a063-d56c0f1ddf21",
+   "card_type": "basic",
+   "front": "In a parallelogram $ABCD$, describe the vector path for the diagonal $\\vec{AC}$.",
+   "back": "$$\\vec{AC} = \\vec{AB} + \\vec{BC}$",
+   "options": [
+    {
+     "text": "$$\\vec{AC} = \\vec{AB} + \\vec{BC}$",
+     "correct": true,
+     "explanation": "Travelling from $A$ to $C$ via $B$ consists of the consecutive vectors $\\vec{AB}$ and $\\vec{BC}$. Therefore, vector addition gives $\\vec{AC}=\\vec{AB}+\\vec{BC}$."
+    },
+    {
+     "text": "$$\\vec{AC} = \\vec{AB} + \\vec{DC}$",
+     "correct": false,
+     "explanation": "In a parallelogram, $\\vec{DC}$ equals $\\vec{AB}$, so this sum does not follow a connected path from $A$ to $C$. The path is $\\vec{AB}+\\vec{BC}$."
+    },
+    {
+     "text": "$$\\vec{AC} = \\vec{AB} - \\vec{BC}$",
+     "correct": false,
+     "explanation": "Subtracting $\\vec{BC}$ reverses its direction, creating $\\vec{CB}$ rather than the required journey from $B$ to $C$. The correct path is $\\vec{AB}+\\vec{BC}$."
+    },
+    {
+     "text": "$$\\vec{AC} = \\vec{BA} + \\vec{BC}$",
+     "correct": false,
+     "explanation": "The vector $\\vec{BA}$ points towards $A$, so it does not begin the route from $A$ through $B$. The connected path is $\\vec{AB}+\\vec{BC}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "799f7a7a-fbc7-4342-9b8d-039074fa0458",
+   "card_type": "basic",
+   "front": "Find the magnitude of $\\vec{v} = \\begin{pmatrix} 3 \\\\ 2 \\end{pmatrix}$.",
+   "back": "$$\\sqrt{13}$",
+   "options": [
+    {
+     "text": "$$\\sqrt{13}$",
+     "correct": true,
+     "explanation": "Using Pythagoras, the magnitude is $\\sqrt{3^2+2^2}=\\sqrt{9+4}=\\sqrt{13}$. This surd is already in its simplest exact form."
+    },
+    {
+     "text": "$$5$",
+     "correct": false,
+     "explanation": "This adds the components directly, but vector magnitude requires the square root of the sum of their squares. Therefore, the answer is $\\sqrt{3^2+2^2}=\\sqrt{13}$."
+    },
+    {
+     "text": "$$13$",
+     "correct": false,
+     "explanation": "This is the squared magnitude, $3^2+2^2$, rather than the magnitude itself. Taking the square root gives the correct answer, $\\sqrt{13}$."
+    },
+    {
+     "text": "$$\\sqrt{5}$",
+     "correct": false,
+     "explanation": "This comes from adding the components before taking a square root. The components must first be squared, so the correct magnitude is $\\sqrt{9+4}=\\sqrt{13}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "edf34346-4303-4fbd-a879-ecccde027742",
+   "card_type": "basic",
+   "front": "Outline the two-stage method for finding the magnitude of a hidden vector in geometry.",
+   "back": "1. Find the column vector using a path.2. Apply the Pythagoras formula $\\sqrt{x^2+y^2}$.",
+   "options": [
+    {
+     "text": "1. Find the column vector using a path.2. Apply the Pythagoras formula $\\sqrt{x^2+y^2}$.",
+     "correct": true,
+     "explanation": "A vector path first reveals the horizontal and vertical components of the hidden vector. Pythagoras then converts those components into its magnitude using $\\sqrt{x^2+y^2}$."
+    },
+    {
+     "text": "1. Find the column vector using a path.2. Apply the addition formula $x+y$.",
+     "correct": false,
+     "explanation": "Adding the components does not calculate the length of a vector. After finding the column vector from a path, use Pythagoras: $\\sqrt{x^2+y^2}$."
+    },
+    {
+     "text": "1. Find the scalar length using a path.2. Apply the Pythagoras formula $\\sqrt{x^2+y^2}$.",
+     "correct": false,
+     "explanation": "A path combines directed vectors to find the hidden column vector, not a scalar length. Once its components are known, apply $\\sqrt{x^2+y^2}$ to find the magnitude."
+    },
+    {
+     "text": "1. Find the column vector using a path.2. Apply the Pythagoras formula $x^2+y^2$.",
+     "correct": false,
+     "explanation": "The expression $x^2+y^2$ gives the squared magnitude because the final square root is missing. The correct magnitude formula is $\\sqrt{x^2+y^2}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "2c9f64c6-86ee-41c0-82a7-226c114a6bfa",
+   "card_type": "cloze",
+   "front": "A [ ___ ] is a vector multiplied by a number, which changes its length but keeps its direction (or reverses it if negative).",
+   "back": "A scalar multiple is a vector multiplied by a number, which changes its length but keeps its direction (or reverses it if negative).",
+   "options": [
+    {
+     "text": "scalar multiple",
+     "correct": true,
+     "explanation": "Multiplying a vector by a scalar changes its magnitude by that factor while preserving its direction for positive scalars and reversing it for negative scalars."
+    },
+    {
+     "text": "resultant vector",
+     "correct": false,
+     "explanation": "A resultant vector is the combined effect of two or more vectors. The correct term is scalar multiple because it describes a vector multiplied by a number."
+    },
+    {
+     "text": "unit vector",
+     "correct": false,
+     "explanation": "A unit vector has magnitude 1 and usually represents direction. The correct term is scalar multiple because multiplying by a number scales a vector’s length."
+    },
+    {
+     "text": "position vector",
+     "correct": false,
+     "explanation": "A position vector describes a point’s displacement from the origin. The correct term is scalar multiple because the definition involves multiplying a vector by a number."
+    }
+   ]
+  },
+  {
+   "id": "404babaf-43a7-4f63-a4e4-698deed20425",
+   "card_type": "cloze",
+   "front": "A scalar multiple is a vector multiplied by a number, which changes its [ ___ ] but keeps its direction (or reverses it if negative).",
+   "back": "A scalar multiple is a vector multiplied by a number, which changes its length but keeps its direction (or reverses it if negative).",
+   "options": [
+    {
+     "text": "length",
+     "correct": true,
+     "explanation": "A scalar changes a vector’s length by multiplying its magnitude by the scalar’s absolute value. A negative scalar additionally reverses the vector’s direction."
+    },
+    {
+     "text": "gradient",
+     "correct": false,
+     "explanation": "Gradient describes slope rather than vector size. The correct word is length because scalar multiplication scales the vector’s magnitude while preserving or reversing its direction."
+    },
+    {
+     "text": "origin",
+     "correct": false,
+     "explanation": "The origin is a fixed point in a coordinate system and is not altered by scalar multiplication. The correct word is length, meaning the vector’s magnitude."
+    },
+    {
+     "text": "dimension",
+     "correct": false,
+     "explanation": "Scalar multiplication does not change whether a vector is two-dimensional or three-dimensional. It changes the vector’s length and may reverse its direction."
+    }
+   ]
+  },
+  {
+   "id": "3c4e39e9-adb1-49bc-b6e4-00ebfa18ba17",
+   "card_type": "basic",
+   "front": "Given $\\vec{AC} = \\begin{pmatrix} 6 \\\\ -9 \\end{pmatrix}$, find the exact magnitude $|\\vec{AC}|$.",
+   "back": "$$\\sqrt{117}$",
+   "options": [
+    {
+     "text": "$$\\sqrt{117}$",
+     "correct": true,
+     "explanation": "Using Pythagoras, the magnitude is $\\sqrt{6^2+(-9)^2}=\\sqrt{36+81}=\\sqrt{117}$. Squaring makes both component contributions positive."
+    },
+    {
+     "text": "$$\\sqrt{45}$",
+     "correct": false,
+     "explanation": "This comes from treating $(-9)^2$ as $-81$ and calculating $36-81$ incorrectly. Both squared components are positive, giving $\\sqrt{117}$."
+    },
+    {
+     "text": "$$\\sqrt{27}$",
+     "correct": false,
+     "explanation": "This results from subtracting the component squares in the wrong order: $81-36=45$, not 27. Magnitude requires addition, giving $\\sqrt{117}$."
+    },
+    {
+     "text": "$$\\sqrt{90}$",
+     "correct": false,
+     "explanation": "This adds the absolute component values before applying a square root, rather than adding their squares. The correct calculation is $\\sqrt{36+81}=\\sqrt{117}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "2c43692a-53d5-4045-803a-e037776c8888",
+   "card_type": "basic",
+   "front": "If $\\vec{CB} = \\begin{pmatrix} -1 \\\\ 4 \\end{pmatrix}$, what is $\\vec{BC}$?",
+   "back": "$$\\begin{pmatrix} 1 \\\\ -4 \\end{pmatrix}$",
+   "options": [
+    {
+     "text": "$$\\begin{pmatrix} 1 \\\\ -4 \\end{pmatrix}$",
+     "correct": true,
+     "explanation": "Reversing a vector negates every component. Since $\\vec{BC}=-\\vec{CB}$, negating $(-1,4)$ gives $(1,-4)$."
+    },
+    {
+     "text": "$$\\begin{pmatrix} -1 \\\\ 4 \\end{pmatrix}$",
+     "correct": false,
+     "explanation": "This leaves the vector unchanged, but reversing its endpoints reverses its direction. Both components must be negated, so $\\vec{BC}=(1,-4)$."
+    },
+    {
+     "text": "$$\\begin{pmatrix} 1 \\\\ 4 \\end{pmatrix}$",
+     "correct": false,
+     "explanation": "Only the first component has been negated. Reversing a vector requires changing the sign of every component, so $\\vec{BC}=(1,-4)$."
+    },
+    {
+     "text": "$$\\begin{pmatrix} -1 \\\\ -4 \\end{pmatrix}$",
+     "correct": false,
+     "explanation": "Only the second component has been negated. Both signs must change when reversing the vector, giving $\\vec{BC}=(1,-4)$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "681abd61-f093-4740-aeb4-653db37c9bc8",
+   "card_type": "basic",
+   "front": "Calculate the magnitude of a vector with components $x=8$ and $y=-6$.",
+   "back": "10",
+   "options": [
+    {
+     "text": "10",
+     "correct": true,
+     "explanation": "The magnitude is found using Pythagoras: $\\sqrt{8^2+(-6)^2}=\\sqrt{64+36}=\\sqrt{100}=10$."
+    },
+    {
+     "text": "14",
+     "correct": false,
+     "explanation": "This adds the absolute component values, $8+6$, which gives Manhattan distance rather than vector magnitude. Pythagoras gives $\\sqrt{64+36}=10$."
+    },
+    {
+     "text": "2",
+     "correct": false,
+     "explanation": "This subtracts the absolute component values, $8-6$, instead of using Pythagoras. The magnitude is $\\sqrt{8^2+(-6)^2}=10$."
+    },
+    {
+     "text": "100",
+     "correct": false,
+     "explanation": "This is the squared magnitude, found from $8^2+(-6)^2$. Taking the square root is still required, so the vector’s magnitude is 10."
+    }
+   ],
+   "points": 2
+  }
+ ],
+ "card_count": 21,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-7-7-13-the-magnitude-of-a-vector/flashcards",
+ "source_sha256": "451f4668e93fb3818332dd5e9ccbb48c382e281cb711054d667f49ce59f5028d",
+ "extracted_at": "2026-11-08T19:00:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-2 run-001)",
+ "task_id": "T-MG-FC-2"
+}

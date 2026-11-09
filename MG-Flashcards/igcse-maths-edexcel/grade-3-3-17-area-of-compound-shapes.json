@@ -1,0 +1,618 @@
+{
+ "topic": "grade-3-3-17-area-of-compound-shapes",
+ "lane": "igcse-maths-edexcel",
+ "grade": "3",
+ "tier": null,
+ "title": "Area of Compound Shapes Flashcards",
+ "cards": [
+  {
+   "id": "75b9629a-0b46-401e-9fd5-0c48287c35eb",
+   "card_type": "cloze",
+   "front": "Area is measured in [ ___ ], such as cm², m² or mm².",
+   "back": "Area is measured in square units, such as cm², m² or mm².",
+   "options": [
+    {
+     "text": "square units",
+     "correct": true,
+     "explanation": "Area describes the amount of two-dimensional space inside a shape, so it is measured in square units such as cm², m² or mm²."
+    },
+    {
+     "text": "linear units",
+     "correct": false,
+     "explanation": "Linear units measure one-dimensional quantities such as length or perimeter. Area measures two-dimensional space, so the correct term is square units."
+    },
+    {
+     "text": "cubic units",
+     "correct": false,
+     "explanation": "Cubic units measure three-dimensional volume rather than area. Because area covers a two-dimensional surface, it is measured in square units."
+    },
+    {
+     "text": "standard units",
+     "correct": false,
+     "explanation": "Standard units is too general and does not identify the required dimension. Area is specifically measured in square units, as shown by cm² and m²."
+    }
+   ]
+  },
+  {
+   "id": "13c0c858-f3d7-40dc-8b66-f8c3adcd5e33",
+   "card_type": "basic",
+   "front": "What is the area formula for a rectangle with base $b$ and height $h$?",
+   "back": "$A=bh$",
+   "options": [
+    {
+     "text": "$A=bh$",
+     "correct": true,
+     "explanation": "A rectangle contains $b$ rows of height $h$, or equivalently has area equal to its base multiplied by its perpendicular height."
+    },
+    {
+     "text": "$A=b+h$",
+     "correct": false,
+     "explanation": "Adding the base and height does not calculate the space inside the rectangle. Its area is found by multiplying these dimensions, giving $A=bh$."
+    },
+    {
+     "text": "$A=\\frac{1}{2}bh$",
+     "correct": false,
+     "explanation": "The factor of one-half belongs to the triangle formula, since a triangle is half a corresponding rectangle. A rectangle’s area is $A=bh$."
+    },
+    {
+     "text": "$A=b^2h^2$",
+     "correct": false,
+     "explanation": "Squaring both dimensions incorrectly multiplies the rectangle’s true area by another factor of $bh$. The correct formula is simply $A=bh$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "8dff76dd-5c12-4b04-b1d3-ddb61dd1964c",
+   "card_type": "basic",
+   "front": "What is the area formula for a triangle with base $b$ and height $h$?",
+   "back": "$A=\\frac{1}{2}bh$",
+   "options": [
+    {
+     "text": "$A=\\frac{1}{2}bh$",
+     "correct": true,
+     "explanation": "A triangle occupies half the area of a rectangle or parallelogram with the same base and perpendicular height, so its area is $A=\\frac{1}{2}bh$."
+    },
+    {
+     "text": "$A=bh$",
+     "correct": false,
+     "explanation": "Multiplying base by height gives the area of the corresponding rectangle or parallelogram. A triangle occupies half that area, so $A=\\frac{1}{2}bh$."
+    },
+    {
+     "text": "$A=\\frac{1}{2}(b+h)$",
+     "correct": false,
+     "explanation": "Adding base and height does not measure the triangle’s two-dimensional area. Multiply the base by the perpendicular height and halve the result: $A=\\frac{1}{2}bh$."
+    },
+    {
+     "text": "$A=\\frac{1}{4}bh$",
+     "correct": false,
+     "explanation": "Halving both dimensions introduces a factor of one-quarter instead of one-half. Only the product $bh$ is halved, giving $A=\\frac{1}{2}bh$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "e67aad80-ebdf-4003-8df5-205118157c73",
+   "card_type": "basic",
+   "front": "What is the area formula for a trapezium with parallel sides $a$, $b$ and height $h$?",
+   "back": "$A=\\frac{1}{2}(a+b)h$",
+   "options": [
+    {
+     "text": "$A=\\frac{1}{2}(a+b)h$",
+     "correct": true,
+     "explanation": "The mean length of the two parallel sides is $\\frac{a+b}{2}$. Multiplying this by the perpendicular height gives $A=\\frac{1}{2}(a+b)h$."
+    },
+    {
+     "text": "$A=\\frac{1}{2}(a-b)h$",
+     "correct": false,
+     "explanation": "This uses the difference between the parallel sides rather than their mean total. A trapezium’s area is $A=\\frac{1}{2}(a+b)h$."
+    },
+    {
+     "text": "$A=(a+b)h$",
+     "correct": false,
+     "explanation": "Omitting the factor of one-half doubles the area by using the sum rather than the mean of the parallel sides. The correct formula is $A=\\frac{1}{2}(a+b)h$."
+    },
+    {
+     "text": "$A=\\frac{1}{2}abh$",
+     "correct": false,
+     "explanation": "Multiplying the parallel sides together treats them as perpendicular dimensions and gives incorrect units after also multiplying by height. Use $A=\\frac{1}{2}(a+b)h$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "a277dc68-03cd-4ce1-b735-c01f1faee42b",
+   "card_type": "cloze",
+   "front": "For triangles and trapezia, the height must be [ ___ ] to the [ ___ ].",
+   "back": "For triangles and trapezia, the height must be perpendicular to the base.",
+   "options": [
+    {
+     "text": "For triangles and trapezia, the height must be perpendicular to the base.",
+     "correct": true,
+     "explanation": "Area formulas require the shortest separation from the base to the opposite vertex or parallel side. This distance meets the chosen base at a right angle."
+    },
+    {
+     "text": "For triangles and trapezia, the height must be parallel to the base.",
+     "correct": false,
+     "explanation": "A line parallel to the base does not measure the separation from it. The height must be perpendicular to the base, meeting it at a right angle."
+    },
+    {
+     "text": "For triangles and trapezia, the height must be perpendicular to the sloping side.",
+     "correct": false,
+     "explanation": "The height is not generally measured perpendicular to a sloping side. It must be perpendicular to whichever side is being used as the base."
+    },
+    {
+     "text": "For triangles and trapezia, the height must be parallel to the sloping side.",
+     "correct": false,
+     "explanation": "Neither condition identifies the perpendicular distance required by the area formulas. The height must be perpendicular to the base, not parallel to a sloping side."
+    }
+   ]
+  },
+  {
+   "id": "2ea0bb6d-1125-4076-b381-e4225cf52433",
+   "card_type": "basic",
+   "front": "When can a sloping side be used as the height of a triangle or trapezium?",
+   "back": "Only if it is perpendicular to the base.",
+   "options": [
+    {
+     "text": "Only if it is perpendicular to the base.",
+     "correct": true,
+     "explanation": "A height is the perpendicular distance from the base to the opposite vertex or parallel side. Therefore, a sloping side counts only when it meets the base at $90°$."
+    },
+    {
+     "text": "Only if it is parallel to the base.",
+     "correct": false,
+     "explanation": "Being parallel to the base prevents a side from measuring the required separation from it. The sloping side is a height only if it is perpendicular to the base."
+    },
+    {
+     "text": "Only if it is the longest side.",
+     "correct": false,
+     "explanation": "A side’s length does not determine whether it is a height. A sloping side can be used only when it is perpendicular to the chosen base."
+    },
+    {
+     "text": "Only if it is labelled on the diagram.",
+     "correct": false,
+     "explanation": "A side being labelled does not make it a perpendicular height. It can be used in the area formula only if it is perpendicular to the base."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "e953ad51-d69e-42ff-8c9d-ffd8bc534d3d",
+   "card_type": "cloze",
+   "front": "Parallel lines stay [ ___ ] and [ ___ ].",
+   "back": "Parallel lines stay the same distance apart and never meet.",
+   "options": [
+    {
+     "text": "Parallel lines stay the same distance apart and never meet.",
+     "correct": true,
+     "explanation": "Parallel lines have the same direction and constant perpendicular separation. Consequently, they remain the same distance apart and do not intersect, however far they are extended."
+    },
+    {
+     "text": "Parallel lines stay further and further apart and never meet.",
+     "correct": false,
+     "explanation": "Lines whose separation continually increases are diverging rather than parallel. Parallel lines remain the same distance apart and never meet when extended."
+    },
+    {
+     "text": "Parallel lines stay the same distance apart and eventually meet.",
+     "correct": false,
+     "explanation": "Lines that eventually meet are not parallel, even if they appear nearly parallel in a short diagram. Parallel lines stay the same distance apart and never meet."
+    },
+    {
+     "text": "Parallel lines stay closer and closer together and eventually meet.",
+     "correct": false,
+     "explanation": "Lines that approach and meet are converging, not parallel. True parallel lines maintain a constant distance between them and never intersect."
+    }
+   ]
+  },
+  {
+   "id": "50a7fd04-2c71-420d-9370-e59f1b562610",
+   "card_type": "basic",
+   "front": "If a diagram is labelled not accurately drawn, what should you use to find lengths?",
+   "back": "Use the labelled lengths only.",
+   "options": [
+    {
+     "text": "Use the labelled lengths only.",
+     "correct": true,
+     "explanation": "A diagram marked not accurately drawn may have misleading proportions or angles. Calculations must therefore use the stated measurements rather than lengths estimated from the picture."
+    },
+    {
+     "text": "Use the visual proportions only.",
+     "correct": false,
+     "explanation": "The picture’s proportions may be deliberately inaccurate, so visual estimates are unreliable. Use the labelled lengths only when calculating missing lengths or areas."
+    },
+    {
+     "text": "Use the measured lengths only.",
+     "correct": false,
+     "explanation": "Measuring the printed diagram assumes it has been drawn to scale, which the warning explicitly denies. Calculations should use the labelled lengths only."
+    },
+    {
+     "text": "Use the grid square counts only.",
+     "correct": false,
+     "explanation": "Counting grid squares is valid only when an accurate grid and scale are provided. For a diagram not accurately drawn, use the labelled lengths only."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "c313b960-ef3b-4838-944c-c4ddea33b079",
+   "card_type": "basic",
+   "front": "For a compound shape made of joined pieces, what is the area strategy?",
+   "back": "Split into simpler shapes.Find each area separately.Add the areas.",
+   "options": [
+    {
+     "text": "Split into simpler shapes.Find each area separately.Add the areas.",
+     "correct": true,
+     "explanation": "Splitting a compound shape into familiar shapes allows each area to be calculated using a standard formula. Because the pieces are joined without overlapping, their areas are then added."
+    },
+    {
+     "text": "Split into simpler shapes.Find each perimeter separately.Add the perimeters.",
+     "correct": false,
+     "explanation": "This confuses area with perimeter. The correct strategy is to split the compound shape, find the area of each simpler shape separately, and then add those areas."
+    },
+    {
+     "text": "Split into simpler shapes.Find each area separately.Multiply the areas.",
+     "correct": false,
+     "explanation": "Multiplying the separate areas does not give the area of the combined shape. After splitting and finding each piece’s area, the areas must be added together."
+    },
+    {
+     "text": "Measure the outside edges.Find their total length.Square the result.",
+     "correct": false,
+     "explanation": "Adding outside edges calculates perimeter, and squaring that result does not calculate area. Instead, split the shape into simpler pieces, calculate their areas, and add them."
+    }
+   ],
+   "points": 3
+  },
+  {
+   "id": "273de04e-9ddd-401d-82e1-fb05b58c626f",
+   "card_type": "cloze",
+   "front": "For right-angled compound shapes, splitting along a [ ___ ] or [ ___ ] line usually creates rectangles.",
+   "back": "For right-angled compound shapes, splitting along a horizontal or vertical line usually creates rectangles.",
+   "options": [
+    {
+     "text": "For right-angled compound shapes, splitting along a horizontal or vertical line usually creates rectangles.",
+     "correct": true,
+     "explanation": "Horizontal and vertical splitting lines follow the directions of the perpendicular sides. Extending these lines across a right-angled compound shape usually divides it into rectangles."
+    },
+    {
+     "text": "For right-angled compound shapes, splitting along a diagonal or vertical line usually creates rectangles.",
+     "correct": false,
+     "explanation": "A diagonal split generally creates triangles or other non-rectangular pieces. Horizontal or vertical lines align with the right-angled sides and usually create rectangles."
+    },
+    {
+     "text": "For right-angled compound shapes, splitting along a horizontal or diagonal line usually creates rectangles.",
+     "correct": false,
+     "explanation": "The diagonal line is the misconception here because it cuts across the perpendicular grid of the shape. Horizontal and vertical splits are the pair that usually create rectangles."
+    },
+    {
+     "text": "For right-angled compound shapes, splitting along a diagonal or curved line usually creates rectangles.",
+     "correct": false,
+     "explanation": "Diagonal and curved lines do not normally produce rectangles, whose sides must meet at right angles. Horizontal and vertical splitting lines follow the shape’s perpendicular edges."
+    }
+   ]
+  },
+  {
+   "id": "48f944f8-767a-4009-897d-e2e040cccaa2",
+   "card_type": "basic",
+   "front": "Why should you not multiply total width by total height for an L-shape?",
+   "back": "It includes space not in the shape.",
+   "options": [
+    {
+     "text": "It includes space not in the shape.",
+     "correct": true,
+     "explanation": "Total width multiplied by total height gives the area of the complete surrounding rectangle. An L-shape has a missing section, so this calculation includes space outside the shape."
+    },
+    {
+     "text": "It excludes space inside the shape.",
+     "correct": false,
+     "explanation": "The bounding rectangle does not exclude part of the L-shape; it includes too much. Total width times total height counts the missing corner, which is not in the shape."
+    },
+    {
+     "text": "It measures the perimeter of the shape.",
+     "correct": false,
+     "explanation": "Multiplying width by height calculates rectangular area, not perimeter. The problem is that the resulting rectangle includes the L-shape’s missing section, so its area is too large."
+    },
+    {
+     "text": "It counts the missing space twice.",
+     "correct": false,
+     "explanation": "The missing section is included once, not counted twice, when total width is multiplied by total height. The correct approach splits the L-shape or subtracts the missing area."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "f46f5fe5-0dae-4f51-a383-1765644e44b4",
+   "card_type": "basic",
+   "front": "In the L-shape example, the bottom length is 13 cm and the top length is 6 cm. What is the missing right width?",
+   "back": "$13-6=7$ cm",
+   "options": [
+    {
+     "text": "$13-6=7$ cm",
+     "correct": true,
+     "explanation": "The full bottom length consists of the 6 cm top section and the missing right width. Subtracting gives $13-6=7$, so the missing width is 7 cm."
+    },
+    {
+     "text": "$13+6=19$ cm",
+     "correct": false,
+     "explanation": "Adding treats the two given lengths as separate adjoining sections, but 6 cm is already part of the total 13 cm. Subtraction gives $13-6=7$ cm."
+    },
+    {
+     "text": "$13-6=8$ cm",
+     "correct": false,
+     "explanation": "The correct operation has been chosen, but the subtraction contains an arithmetic error. Since $13-6=7$, the missing right width is 7 cm, not 8 cm."
+    },
+    {
+     "text": "$13-6=6$ cm",
+     "correct": false,
+     "explanation": "This repeats the known top length instead of calculating the difference. The missing section completes 6 cm to 13 cm, so its width is $13-6=7$ cm."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "4e005f1b-6e78-49a7-b6ae-20c88fb199b9",
+   "card_type": "basic",
+   "front": "An L-shape is split into rectangles $6\\text{ cm}\\times8\\text{ cm}$ and $7\\text{ cm}\\times5\\text{ cm}$. What is its total area?",
+   "back": "83 cm²",
+   "options": [
+    {
+     "text": "83 cm²",
+     "correct": true,
+     "explanation": "The rectangle areas are $6\\times8=48$ cm² and $7\\times5=35$ cm². Adding the non-overlapping pieces gives $48+35=83$ cm²."
+    },
+    {
+     "text": "65 cm²",
+     "correct": false,
+     "explanation": "This can result from using 5 cm as the height of both rectangles: $6\\times5+7\\times5=65$. The correct areas are 48 cm² and 35 cm², totalling 83 cm²."
+    },
+    {
+     "text": "90 cm²",
+     "correct": false,
+     "explanation": "This can result from incorrectly using 6 cm as the second rectangle’s height. Its height is 5 cm, so the total is $6\\times8+7\\times5=83$ cm²."
+    },
+    {
+     "text": "104 cm²",
+     "correct": false,
+     "explanation": "This is the area of a $13\\text{ cm}\\times8\\text{ cm}$ bounding rectangle, which includes the missing part of the L-shape. Adding the two given rectangles gives 83 cm²."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "b855b6a4-3434-41bf-9c15-3fb7d06c4467",
+   "card_type": "basic",
+   "front": "In a right-angled triangle, which two sides are the base and height?",
+   "back": "The two sides that meet at the right angle.",
+   "options": [
+    {
+     "text": "The two sides that meet at the right angle.",
+     "correct": true,
+     "explanation": "The base and perpendicular height must meet at 90°. In a right-angled triangle, the two sides forming the right angle therefore provide the base and height."
+    },
+    {
+     "text": "The two sides that are equal in length.",
+     "correct": false,
+     "explanation": "Equal sides identify an isosceles triangle but do not necessarily give a perpendicular base and height. In a right-angled triangle, use the two sides meeting at the right angle."
+    },
+    {
+     "text": "The two sides that meet at an acute angle.",
+     "correct": false,
+     "explanation": "Sides meeting at an acute angle are not perpendicular, so they cannot directly serve as base and height. Use the two sides that meet at the 90° angle."
+    },
+    {
+     "text": "The two sides that include the hypotenuse.",
+     "correct": false,
+     "explanation": "The hypotenuse does not meet either adjacent side at 90°, so a perpendicular height would need to be constructed. The simpler base and height meet at the right angle."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "6234f3c8-dd25-4967-ac11-654a222f43d2",
+   "card_type": "basic",
+   "front": "A compound shape has a $3\\text{ cm}\\times10\\text{ cm}$ rectangle and a triangle with base 6 cm and height 4 cm. What is the total area?",
+   "back": "42 cm²",
+   "options": [
+    {
+     "text": "42 cm²",
+     "correct": true,
+     "explanation": "The rectangle has area $3\\times10=30$ cm². The triangle has area $\\frac{1}{2}\\times6\\times4=12$ cm², giving a total of $30+12=42$ cm²."
+    },
+    {
+     "text": "54 cm²",
+     "correct": false,
+     "explanation": "This uses $6\\times4=24$ cm² for the triangle and forgets to halve it. The triangle is 12 cm², so the total area is $30+12=42$ cm²."
+    },
+    {
+     "text": "36 cm²",
+     "correct": false,
+     "explanation": "This can result from dividing the triangle’s base-height product by 4 rather than 2. Its area is 12 cm², which added to 30 cm² gives 42 cm²."
+    },
+    {
+     "text": "12 cm²",
+     "correct": false,
+     "explanation": "This is only the triangle’s area, so the rectangle has been omitted. Adding the rectangle’s 30 cm² to the triangle’s 12 cm² gives 42 cm²."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "080101f2-aff7-434f-9b8d-9f21e10ad747",
+   "card_type": "basic",
+   "front": "For a shaded region with a hole, what area calculation is used?",
+   "back": "Whole area - unshaded area",
+   "options": [
+    {
+     "text": "Whole area - unshaded area",
+     "correct": true,
+     "explanation": "The whole area includes both the shaded region and the hole. Subtracting the unshaded hole from the whole area leaves exactly the required shaded area."
+    },
+    {
+     "text": "Whole area + unshaded area",
+     "correct": false,
+     "explanation": "Adding the unshaded area counts the hole twice rather than removing it. The shaded region is found by subtracting the unshaded hole from the whole area."
+    },
+    {
+     "text": "Whole area × unshaded area",
+     "correct": false,
+     "explanation": "Multiplying two areas produces inappropriate squared-area units and does not remove the hole. The required calculation is whole area minus unshaded area."
+    },
+    {
+     "text": "Whole area ÷ unshaded area",
+     "correct": false,
+     "explanation": "Dividing the areas gives a ratio rather than the shaded area. Because the hole lies inside the whole shape, its unshaded area must be subtracted."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "63e7193a-a0f7-4c33-9dac-9a9379a17033",
+   "card_type": "cloze",
+   "front": "If there are several identical holes, subtract [ ___ ] of them, not just [ ___ ].",
+   "back": "If there are several identical holes, subtract all of them, not just one.",
+   "options": [
+    {
+     "text": "If there are several identical holes, subtract all of them, not just one.",
+     "correct": true,
+     "explanation": "Every hole removes area from the compound shape. For identical holes, calculate one hole’s area, multiply by the number of holes, and subtract the resulting total."
+    },
+    {
+     "text": "If there are several identical holes, subtract one of them, not just all.",
+     "correct": false,
+     "explanation": "This reverses the required instruction. Every hole reduces the total area, so the area of all the holes must be subtracted, rather than the area of only one."
+    },
+    {
+     "text": "If there are several identical holes, subtract half of them, not just one.",
+     "correct": false,
+     "explanation": "Subtracting only half the holes leaves some removed regions included in the answer. The correct method is to subtract the combined area of all the holes."
+    },
+    {
+     "text": "If there are several identical holes, subtract none of them, not just one.",
+     "correct": false,
+     "explanation": "Ignoring the holes gives the area of the complete outer shape rather than the remaining material. The areas of all the holes must be subtracted."
+    }
+   ]
+  },
+  {
+   "id": "b635179b-bf2d-4e7f-ad1d-8962f416974d",
+   "card_type": "basic",
+   "front": "A wall is $5\\text{ m}\\times3\\text{ m}$ and a door is $1\\text{ m}\\times2\\text{ m}$. What is the painted area?",
+   "back": "13 m²",
+   "options": [
+    {
+     "text": "13 m²",
+     "correct": true,
+     "explanation": "The wall has area 5 × 3 = 15 m² and the door has area 1 × 2 = 2 m². Therefore, the painted area is 15 - 2 = 13 m²."
+    },
+    {
+     "text": "17 m²",
+     "correct": false,
+     "explanation": "This comes from adding the door’s 2 m² area to the wall’s 15 m² area. The door is unpainted, so its area must be subtracted, giving 13 m²."
+    },
+    {
+     "text": "14 m²",
+     "correct": false,
+     "explanation": "This subtracts only 1 m², using one door dimension instead of its area. The door covers 1 × 2 = 2 m², so the painted area is 13 m²."
+    },
+    {
+     "text": "12 m²",
+     "correct": false,
+     "explanation": "This treats the door’s dimensions as an area by adding 1 + 2 and subtracting 3 m². Area requires multiplication, so subtracting 2 m² gives 13 m²."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "2fba455c-9793-4c0f-8266-6a7b954d3197",
+   "card_type": "basic",
+   "front": "A triangle has base 14 cm and height 10 cm. A $4\\text{ cm}\\times3\\text{ cm}$ rectangle is removed. What is the shaded area?",
+   "back": "58 cm²",
+   "options": [
+    {
+     "text": "58 cm²",
+     "correct": true,
+     "explanation": "The triangle’s area is ½ × 14 × 10 = 70 cm². The removed rectangle has area 4 × 3 = 12 cm², leaving 70 - 12 = 58 cm²."
+    },
+    {
+     "text": "82 cm²",
+     "correct": false,
+     "explanation": "This adds the rectangle’s 12 cm² area to the triangle’s 70 cm² area. Because the rectangle is removed, its area must be subtracted, giving 58 cm²."
+    },
+    {
+     "text": "66 cm²",
+     "correct": false,
+     "explanation": "This subtracts the rectangle’s width of 4 cm as though it were an area. The rectangle’s area is 4 × 3 = 12 cm², so the shaded area is 58 cm²."
+    },
+    {
+     "text": "128 cm²",
+     "correct": false,
+     "explanation": "This calculates the triangle as 14 × 10, forgetting the factor of ½. The triangle’s area is 70 cm², and subtracting 12 cm² leaves 58 cm²."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "656c7b7d-20c8-4fd4-91c2-11601c70af56",
+   "card_type": "cloze",
+   "front": "If a price is given per square metre, the area must be in [ ___ ] before multiplying by the price.",
+   "back": "If a price is given per square metre, the area must be in m² before multiplying by the price.",
+   "options": [
+    {
+     "text": "m²",
+     "correct": true,
+     "explanation": "A price per square metre applies to an area measured in square metres. Converting the area to m² before multiplying ensures that the units match the given rate."
+    },
+    {
+     "text": "cm²",
+     "correct": false,
+     "explanation": "Square centimetres do not match a price quoted per square metre. The area must first be converted to m², otherwise the calculated cost will be incorrectly scaled."
+    },
+    {
+     "text": "m",
+     "correct": false,
+     "explanation": "Metres measure length rather than area, so they cannot be multiplied directly by a price per square metre. The required area unit is m²."
+    },
+    {
+     "text": "m³",
+     "correct": false,
+     "explanation": "Cubic metres measure volume, not area. A rate per square metre must be multiplied by an area expressed in m² to produce the correct price."
+    }
+   ]
+  },
+  {
+   "id": "e2002087-f9ce-4f93-9aad-95d77b52e7e9",
+   "card_type": "basic",
+   "front": "A field is a $70\\text{ m}\\times90\\text{ m}$ rectangle plus a triangle with base 80 m and height 65 m. It sells for £4 per m². What is received?",
+   "back": "£35,600",
+   "options": [
+    {
+     "text": "£35,600",
+     "correct": true,
+     "explanation": "The rectangle’s area is 70 × 90 = 6,300 m² and the triangle’s area is ½ × 80 × 65 = 2,600 m². Multiplying 8,900 m² by £4 gives £35,600."
+    },
+    {
+     "text": "£25,200",
+     "correct": false,
+     "explanation": "This uses only the rectangle’s 6,300 m² area and omits the triangular section. Including the triangle gives 8,900 m², which sells for £35,600."
+    },
+    {
+     "text": "£46,000",
+     "correct": false,
+     "explanation": "This calculates the triangular area as 80 × 65, forgetting to divide by 2. Using 2,600 m² for the triangle gives a total sale price of £35,600."
+    },
+    {
+     "text": "£8,900",
+     "correct": false,
+     "explanation": "This is the field’s total area in square metres, not the amount received. Multiplying 8,900 m² by the price of £4 per m² gives £35,600."
+    }
+   ],
+   "points": 3
+  }
+ ],
+ "card_count": 21,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-3-3-17-area-of-compound-shapes/flashcards",
+ "source_sha256": "084cfe2a821b29f240090cbe7d3d50b8378e150205a68394363a45e185a93759",
+ "extracted_at": "2026-11-08T19:00:03Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-2 run-001)",
+ "task_id": "T-MG-FC-2"
+}

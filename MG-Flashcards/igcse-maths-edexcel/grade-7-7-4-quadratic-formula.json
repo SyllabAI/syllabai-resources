@@ -1,0 +1,589 @@
+{
+ "topic": "grade-7-7-4-quadratic-formula",
+ "lane": "igcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "title": "Quadratic Formula Flashcards",
+ "cards": [
+  {
+   "id": "c021cb8d-e6d4-415a-85cb-b16cc0d05061",
+   "card_type": "basic",
+   "front": "What is the standard form of a quadratic equation?",
+   "back": "$$ax^2 + bx + c = 0$",
+   "options": [
+    {
+     "text": "$$ax^2 + bx + c = 0$",
+     "correct": true,
+     "explanation": "Standard quadratic form places all terms on one side in descending powers of $x$ and sets the resulting quadratic expression equal to zero."
+    },
+    {
+     "text": "$$ax^2 + bx + c = 1$",
+     "correct": false,
+     "explanation": "Setting the expression equal to one does not give the standard form. All terms must be collected so the equation is $ax^2 + bx + c = 0$."
+    },
+    {
+     "text": "$$ax^2 + bx = c$",
+     "correct": false,
+     "explanation": "Leaving the constant on the right means the equation has not been written in standard form. It should be rearranged to $ax^2 + bx + c = 0$."
+    },
+    {
+     "text": "$$ax^3 + bx^2 + c = 0$",
+     "correct": false,
+     "explanation": "A highest power of three makes this a cubic equation. A quadratic has highest power two and standard form $ax^2 + bx + c = 0$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "056063f8-6295-4321-92e6-1c16328974fd",
+   "card_type": "basic",
+   "front": "Why must the coefficient $a$ be non-zero ($a \\neq 0$) in a quadratic equation?",
+   "back": "If $a=0$, there is no $x^2$ term, making the equation linear rather than quadratic.",
+   "options": [
+    {
+     "text": "If $a=0$, there is no $x^2$ term, making the equation linear rather than quadratic.",
+     "correct": true,
+     "explanation": "The non-zero coefficient of $x^2$ is what makes the equation quadratic. Setting $a=0$ removes that term, leaving an equation of degree at most one."
+    },
+    {
+     "text": "If $a=0$, there is no $x$ term, making the equation constant rather than quadratic.",
+     "correct": false,
+     "explanation": "The coefficient $a$ multiplies $x^2$, not $x$. If $a=0$, the quadratic term disappears and the equation becomes linear rather than constant."
+    },
+    {
+     "text": "If $a=0$, the coefficient of $x^2$ becomes $1$, making the equation monic rather than quadratic.",
+     "correct": false,
+     "explanation": "Setting a coefficient to zero removes its term; it does not turn the coefficient into one. With no $x^2$ term, the equation is linear rather than monic."
+    },
+    {
+     "text": "If $a=0$, there is no $x^3$ term, making the equation cubic rather than quadratic.",
+     "correct": false,
+     "explanation": "A cubic equation requires a non-zero $x^3$ term, which is not created by setting $a=0$. Instead, the $x^2$ term vanishes and the equation becomes linear."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "11a6ef03-e17a-48c2-87c3-7cd4fa633f83",
+   "card_type": "basic",
+   "front": "Where are the roots of a quadratic equation found on its graph?",
+   "back": "Where the parabola crosses the x-axis.",
+   "options": [
+    {
+     "text": "Where the parabola crosses the x-axis.",
+     "correct": true,
+     "explanation": "At an x-intercept, the graph has $y=0$. Therefore, the corresponding x-coordinates satisfy the quadratic equation and are its roots."
+    },
+    {
+     "text": "Where the parabola crosses the y-axis.",
+     "correct": false,
+     "explanation": "The y-intercept is found by setting $x=0$ and usually represents the constant term. Roots occur where $y=0$, so they lie on the x-axis."
+    },
+    {
+     "text": "Where the parabola reaches its turning point.",
+     "correct": false,
+     "explanation": "The turning point gives the maximum or minimum value of the quadratic, not generally its roots. Roots are located where the parabola crosses the x-axis."
+    },
+    {
+     "text": "Where the parabola crosses its axis of symmetry.",
+     "correct": false,
+     "explanation": "The axis of symmetry passes through the turning point and may lie between two roots, but it does not locate them. Roots occur at the x-axis intersections."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "219bcc18-03c5-492d-a42e-2609744e99e4",
+   "card_type": "cloze",
+   "front": "Before identifying the coefficients $a$, $b$, and $c$, the equation must be rearranged so that one side equals [ ___ ].",
+   "back": "Before identifying the coefficients $a$, $b$, and $c$, the equation must be rearranged so that one side equals 0.",
+   "options": [
+    {
+     "text": "0",
+     "correct": true,
+     "explanation": "Standard quadratic form is $ax^2+bx+c=0$, so all terms must be collected on one side and the other side set equal to zero."
+    },
+    {
+     "text": "1",
+     "correct": false,
+     "explanation": "Setting one side equal to one does not produce standard quadratic form. The equation must be rearranged so that one side equals zero."
+    },
+    {
+     "text": "$$x$",
+     "correct": false,
+     "explanation": "The variable $x$ is the unknown being solved for, not the required value of one side. Standard form sets one side equal to zero."
+    },
+    {
+     "text": "$$c$",
+     "correct": false,
+     "explanation": "The symbol $c$ is the constant coefficient within the quadratic expression. Standard form requires the entire expression to be set equal to zero."
+    }
+   ]
+  },
+  {
+   "id": "ee6b6519-ee62-4487-a0e7-722c012c5ae2",
+   "card_type": "basic",
+   "front": "Identify the coefficients $a$, $b$, and $c$ for the equation $4x^2 = 7x + 2$.",
+   "back": "$a = 4$$b = -7$$c = -2$",
+   "options": [
+    {
+     "text": "$a = 4$$b = -7$$c = -2$",
+     "correct": true,
+     "explanation": "Rearranging gives $4x^2-7x-2=0$. Comparing this with $ax^2+bx+c=0$ gives coefficients $a=4$, $b=-7$, and $c=-2$."
+    },
+    {
+     "text": "$a = 4$$b = 7$$c = 2$",
+     "correct": false,
+     "explanation": "These signs come from reading the unrearranged equation directly. Moving $7x$ and $2$ to the left changes both signs, giving $b=-7$ and $c=-2$."
+    },
+    {
+     "text": "$a = 4$$b = -7$$c = 2$",
+     "correct": false,
+     "explanation": "Only the $7x$ term has been given the sign change caused by moving it left. The constant also moves left, so $c=-2$, not $2$."
+    },
+    {
+     "text": "$a = 4$$b = 7$$c = -2$",
+     "correct": false,
+     "explanation": "Only the constant has been given the sign change caused by moving it left. The $7x$ term also moves left, so $b=-7$, not $7$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "3907f621-ccb1-452a-9132-23964f7fc5c8",
+   "card_type": "basic",
+   "front": "State the quadratic formula used to solve $ax^2 + bx + c = 0$.",
+   "back": "$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$",
+   "options": [
+    {
+     "text": "$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$",
+     "correct": true,
+     "explanation": "This formula gives the solutions of any quadratic in standard form. The two signs before the square root account for the two possible roots."
+    },
+    {
+     "text": "$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2}$",
+     "correct": false,
+     "explanation": "Omitting $a$ from the denominator changes the scale of both solutions. The complete denominator in the quadratic formula is $2a$, not merely $2$."
+    },
+    {
+     "text": "$$x = \\frac{-b \\pm \\sqrt{b^2 + 4ac}}{2a}$",
+     "correct": false,
+     "explanation": "The discriminant uses subtraction because completing the square produces $b^2-4ac$. Replacing it with $b^2+4ac$ generally gives different, incorrect roots."
+    },
+    {
+     "text": "$$x = \\frac{b \\pm \\sqrt{b^2 - 4ac}}{2a}$",
+     "correct": false,
+     "explanation": "The linear coefficient must be negated before applying the plus-or-minus operation. Using $b$ instead of $-b$ changes both calculated roots."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "375197cb-b0b9-468f-b45e-121dd64e9afd",
+   "card_type": "cloze",
+   "front": "In the quadratic formula, the symbol $\\pm$ indicates that there are usually [ ___ ] distinct solutions.",
+   "back": "In the quadratic formula, the symbol $\\pm$ indicates that there are usually two distinct solutions.",
+   "options": [
+    {
+     "text": "two",
+     "correct": true,
+     "explanation": "The plus sign gives one value and the minus sign gives another. When the discriminant is positive, these produce two distinct real solutions."
+    },
+    {
+     "text": "one",
+     "correct": false,
+     "explanation": "One solution occurs only when the discriminant is zero, causing the plus and minus calculations to coincide. Usually, $b1$ produces two distinct solutions."
+    },
+    {
+     "text": "three",
+     "correct": false,
+     "explanation": "The symbol provides only two calculations: one using addition and one using subtraction. It therefore usually produces two distinct solutions, not three."
+    },
+    {
+     "text": "four",
+     "correct": false,
+     "explanation": "The plus-or-minus symbol represents two sign choices, not every combination of four operations. Consequently, a quadratic usually has two distinct solutions."
+    }
+   ]
+  },
+  {
+   "id": "0376ac72-7d02-4f2b-aaab-3d354a4ff007",
+   "card_type": "basic",
+   "front": "What is the discriminant?",
+   "back": "The expression $b^2 - 4ac$ found under the square root in the quadratic formula.",
+   "options": [
+    {
+     "text": "The expression $b^2 - 4ac$ found under the square root in the quadratic formula.",
+     "correct": true,
+     "explanation": "The discriminant is the quantity beneath the square root. Its sign determines whether a quadratic has two real roots, one repeated root, or no real roots."
+    },
+    {
+     "text": "The expression $b^2 + 4ac$ found under the square root in the quadratic formula.",
+     "correct": false,
+     "explanation": "The sign before $4ac$ has been reversed. The discriminant is $b^2-4ac$, and its value determines the number and type of roots."
+    },
+    {
+     "text": "The expression $2a$ found under the fraction line in the quadratic formula.",
+     "correct": false,
+     "explanation": "The denominator scales the result but does not determine the nature of the roots. The discriminant is $b^2-4ac$, found beneath the square root."
+    },
+    {
+     "text": "The expression $-b \\pm \\sqrt{b^2 - 4ac}$ found above the fraction line in the quadratic formula.",
+     "correct": false,
+     "explanation": "This is the whole numerator rather than the discriminant alone. The discriminant is specifically $b^2-4ac$, the expression inside the square root."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "284340f6-700c-4abe-9db4-b4f10fc399a2",
+   "card_type": "cloze",
+   "front": "If the discriminant $b^2 - 4ac$ is [ ___ ], there are two real roots.",
+   "back": "If the discriminant $b^2 - 4ac$ is positive, there are two real roots.",
+   "options": [
+    {
+     "text": "positive",
+     "correct": true,
+     "explanation": "A positive discriminant has a positive square root, so the plus and minus cases in the quadratic formula produce two distinct real roots."
+    },
+    {
+     "text": "zero",
+     "correct": false,
+     "explanation": "A zero discriminant makes the square-root term vanish, producing one repeated root. Two distinct real roots occur when the discriminant is positive."
+    },
+    {
+     "text": "negative",
+     "correct": false,
+     "explanation": "A negative discriminant has no real square root, so it produces no real roots. Two real roots require a positive discriminant."
+    },
+    {
+     "text": "non-positive",
+     "correct": false,
+     "explanation": "A non-positive discriminant includes both zero and negative values, which give one repeated root or no real roots. It must be positive for two real roots."
+    }
+   ]
+  },
+  {
+   "id": "a770532a-e19b-49c5-a8ad-51a771a8bbf6",
+   "card_type": "cloze",
+   "front": "If the discriminant $b^2 - 4ac$ is [ ___ ], there is one repeated root.",
+   "back": "If the discriminant $b^2 - 4ac$ is zero, there is one repeated root.",
+   "options": [
+    {
+     "text": "zero",
+     "correct": true,
+     "explanation": "When the discriminant equals zero, its square root is zero, so the plus and minus versions of the quadratic formula give the same repeated root."
+    },
+    {
+     "text": "positive",
+     "correct": false,
+     "explanation": "A positive discriminant has a non-zero real square root, so the quadratic formula gives two distinct real roots. One repeated root occurs when it is zero."
+    },
+    {
+     "text": "negative",
+     "correct": false,
+     "explanation": "A negative discriminant has no real square root, so there are no real roots. A repeated real root requires the discriminant to equal zero."
+    },
+    {
+     "text": "non-zero",
+     "correct": false,
+     "explanation": "A non-zero discriminant may be positive or negative, producing either two real roots or no real roots. Exactly zero produces one repeated root."
+    }
+   ]
+  },
+  {
+   "id": "eb1a7b0c-b0c3-41cd-87e0-3439b6be079f",
+   "card_type": "cloze",
+   "front": "If the discriminant $b^2 - 4ac$ is [ ___ ], there are no real roots.",
+   "back": "If the discriminant $b^2 - 4ac$ is negative, there are no real roots.",
+   "options": [
+    {
+     "text": "negative",
+     "correct": true,
+     "explanation": "A negative discriminant has no real square root, so the quadratic formula cannot produce real values of $x$. Therefore, the equation has no real roots."
+    },
+    {
+     "text": "positive",
+     "correct": false,
+     "explanation": "A positive discriminant has a positive real square root, giving two distinct real roots. No real roots occur when the discriminant is negative."
+    },
+    {
+     "text": "zero",
+     "correct": false,
+     "explanation": "A zero discriminant makes the square-root term zero and gives one repeated real root. No real roots occur only when the discriminant is negative."
+    },
+    {
+     "text": "non-negative",
+     "correct": false,
+     "explanation": "A non-negative discriminant includes zero and positive values, which produce one or two real roots. No real roots require a negative discriminant."
+    }
+   ]
+  },
+  {
+   "id": "7fa1b695-b334-432e-aafb-59b56405be05",
+   "card_type": "basic",
+   "front": "Why should you use brackets for the numerator when typing the quadratic formula into a calculator?",
+   "back": "To ensure the entire numerator is divided by $2a$, rather than just the square root term.",
+   "options": [
+    {
+     "text": "To ensure the entire numerator is divided by $2a$, rather than just the square root term.",
+     "correct": true,
+     "explanation": "The quadratic formula divides the complete expression $-b \\pm \\sqrt{b^2-4ac}$ by $2a$. Brackets ensure the calculator applies the division to both numerator terms."
+    },
+    {
+     "text": "To ensure only $-b$ is divided by $2a$, rather than the square root term.",
+     "correct": false,
+     "explanation": "Dividing only $-b$ by $2a$ changes the quadratic formula and gives incorrect roots. Brackets make both $-b$ and the square-root term part of the numerator."
+    },
+    {
+     "text": "To ensure the discriminant is divided by $2a$ before taking its square root.",
+     "correct": false,
+     "explanation": "The discriminant must be evaluated inside the square root before the numerator is divided. Brackets around the numerator do not divide the discriminant by $2a$ first."
+    },
+    {
+     "text": "To ensure just the square root term is divided by $2a$, rather than the entire numerator.",
+     "correct": false,
+     "explanation": "The square-root term is not the only part divided by $2a$. The common calculator slip is omitting brackets and leaving $-b$ outside the division."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "dc3c6e62-309a-4254-b2d7-64c563d8fd2d",
+   "card_type": "basic",
+   "front": "Contrast rounding to decimal places vs significant figures.",
+   "back": "Decimal places: count digits after the decimal point.Significant figures: count starting from the first non-zero digit.",
+   "options": [
+    {
+     "text": "Decimal places: count digits after the decimal point.Significant figures: count starting from the first non-zero digit.",
+     "correct": true,
+     "explanation": "Decimal places are determined by position relative to the decimal point, whereas significant figures begin at the first digit that contributes to the number’s value."
+    },
+    {
+     "text": "Decimal places: count starting from the first non-zero digit.Significant figures: count digits after the decimal point.",
+     "correct": false,
+     "explanation": "This reverses the two definitions. Decimal places count digits after the decimal point, while significant figures start at the first non-zero digit."
+    },
+    {
+     "text": "Decimal places: count digits from the first digit shown.Significant figures: count digits after the decimal point.",
+     "correct": false,
+     "explanation": "Decimal places are not counted from the first digit of the whole number. They count digits after the decimal point, while significant figures start at the first non-zero digit."
+    },
+    {
+     "text": "Decimal places: count all non-zero digits shown.Significant figures: count starting after the decimal point.",
+     "correct": false,
+     "explanation": "Significant figures do not begin automatically after the decimal point, and leading zeros are not significant. Decimal places count after the point; significant figures begin at the first non-zero digit."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "d4f07edb-6130-4491-aac3-688351cac520",
+   "card_type": "basic",
+   "front": "What is a surd?",
+   "back": "An irrational root left in exact form, such as $\\sqrt{2}$.",
+   "options": [
+    {
+     "text": "An irrational root left in exact form, such as $\\sqrt{2}$.",
+     "correct": true,
+     "explanation": "A surd represents an irrational root exactly rather than replacing it with a rounded decimal. For example, $\\sqrt{2}$ is exact and cannot be written as a rational number."
+    },
+    {
+     "text": "A terminating decimal written in approximate form, such as $1.414$.",
+     "correct": false,
+     "explanation": "A terminating decimal is rational, whereas a surd is an irrational root kept in exact form. For example, $\\sqrt{2}$ is a surd rather than a decimal approximation."
+    },
+    {
+     "text": "A rational root simplified to an integer, such as $\\sqrt{4}$.",
+     "correct": false,
+     "explanation": "Roots that simplify to integers are not surds because they are rational. A surd is an irrational root left exactly, such as $\\sqrt{2}$."
+    },
+    {
+     "text": "An irrational root rounded to a decimal, such as $1.41$.",
+     "correct": false,
+     "explanation": "A rounded irrational decimal is only an approximation, not a surd. The surd keeps the irrational root in exact form, such as $\\sqrt{2}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "9a81b55c-33aa-4da1-928f-3c2bf8b4ac31",
+   "card_type": "basic",
+   "front": "Simplify the surd $\\sqrt{72}$ by extracting the largest square factor.",
+   "back": "$$\\sqrt{36 \\times 2} = 6\\sqrt{2}$",
+   "options": [
+    {
+     "text": "$$\\sqrt{36 \\times 2} = 6\\sqrt{2}$",
+     "correct": true,
+     "explanation": "The largest square factor of $72$ is $36$. Since $\\sqrt{36}=6$, separating the factors gives $\\sqrt{72}=\\sqrt{36}\\sqrt{2}=6\\sqrt{2}$."
+    },
+    {
+     "text": "$$\\sqrt{36 \\times 2} = 36\\sqrt{2}$",
+     "correct": false,
+     "explanation": "This treats $\\sqrt{36}$ as $36$ instead of $6$. Extracting the square factor correctly gives $\\sqrt{36 \\times 2}=6\\sqrt{2}$."
+    },
+    {
+     "text": "$$\\sqrt{9 \\times 8} = 3\\sqrt{2}$",
+     "correct": false,
+     "explanation": "Although $72=9\\times8$, simplifying only $\\sqrt{9}$ and replacing $\\sqrt{8}$ by $\\sqrt{2}$ loses a factor of $2$. The result is $6\\sqrt{2}$."
+    },
+    {
+     "text": "$$\\sqrt{4 \\times 18} = 4\\sqrt{18}$",
+     "correct": false,
+     "explanation": "This incorrectly treats $\\sqrt{4}$ as $4$ rather than $2$. Fully extracting square factors from $\\sqrt{72}$ gives $6\\sqrt{2}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "00fbb1c8-6025-4739-a5f5-b336737a4ea6",
+   "card_type": "basic",
+   "front": "Simplify the expression $x = \\frac{-10 \\pm 6\\sqrt{2}}{2}$.",
+   "back": "$$x = -5 \\pm 3\\sqrt{2}$",
+   "options": [
+    {
+     "text": "$$x = -5 \\pm 3\\sqrt{2}$",
+     "correct": true,
+     "explanation": "Both terms in the numerator must be divided by $2$. Thus $-10\\div2=-5$ and $6\\sqrt{2}\\div2=3\\sqrt{2}$, giving the stated expression."
+    },
+    {
+     "text": "$$x = -5 \\pm 6\\sqrt{2}$",
+     "correct": false,
+     "explanation": "This divides $-10$ by $2$ but leaves the surd term unchanged. The entire numerator is divided, so $6\\sqrt{2}\\div2=3\\sqrt{2}$."
+    },
+    {
+     "text": "$$x = -10 \\pm 3\\sqrt{2}$",
+     "correct": false,
+     "explanation": "This divides the surd term by $2$ but leaves $-10$ unchanged. Both numerator terms must be divided, giving $-5 \\pm 3\\sqrt{2}$."
+    },
+    {
+     "text": "$$x = -2 \\pm 3\\sqrt{2}$",
+     "correct": false,
+     "explanation": "The constant term comes from $-10\\div2$, which equals $-5$, not $-2$. Dividing the whole numerator gives $x=-5\\pm3\\sqrt{2}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "db4b28c0-5409-46f1-9930-987d37c31e9b",
+   "card_type": "basic",
+   "front": "In a geometry problem (e.g., finding area), why might you reject a mathematically correct solution from the formula?",
+   "back": "Physical lengths must be positive; a solution is rejected if it results in a negative side length.",
+   "options": [
+    {
+     "text": "Physical lengths must be positive; a solution is rejected if it results in a negative side length.",
+     "correct": true,
+     "explanation": "Side lengths represent physical distances, so they cannot be negative. An algebraically valid root must therefore be rejected when it gives a negative length."
+    },
+    {
+     "text": "Physical lengths must be whole numbers; a solution is rejected if it results in a decimal side length.",
+     "correct": false,
+     "explanation": "Lengths can be decimals, fractions or irrational values, so being non-integer does not invalidate a solution. The root should instead be rejected if it produces a negative length."
+    },
+    {
+     "text": "Physical lengths must be less than the area; a solution is rejected if its value is greater than the area.",
+     "correct": false,
+     "explanation": "Length and area have different units, so their numerical values cannot be compared this way. A solution is rejected when it gives a negative physical length."
+    },
+    {
+     "text": "Physical lengths must be equal; a solution is rejected if it results in two different side lengths.",
+     "correct": false,
+     "explanation": "Different side lengths are valid for shapes such as rectangles, so equality is not a general requirement. The relevant restriction is that every physical length must be positive."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "7472c852-589e-477f-815e-5a09835aa6c1",
+   "card_type": "basic",
+   "front": "How is Pythagoras' Theorem used to form a quadratic equation?",
+   "back": "By substituting algebraic side lengths into $a^2 + b^2 = c^2$ and expanding the brackets.",
+   "options": [
+    {
+     "text": "By substituting algebraic side lengths into $a^2 + b^2 = c^2$ and expanding the brackets.",
+     "correct": true,
+     "explanation": "For a right-angled triangle, substituting expressions for the side lengths into Pythagoras' Theorem and expanding their squares commonly produces a quadratic equation."
+    },
+    {
+     "text": "By substituting algebraic side lengths into $a + b = c$ and expanding the brackets.",
+     "correct": false,
+     "explanation": "This omits the squares and incorrectly treats the hypotenuse as the sum of the shorter sides. Pythagoras' Theorem requires substitution into $a^2 + b^2 = c^2$."
+    },
+    {
+     "text": "By substituting algebraic side lengths into $2a + 2b = c$ and expanding the brackets.",
+     "correct": false,
+     "explanation": "The expression $2a + 2b$ resembles a rectangle's perimeter and is not Pythagoras' Theorem. The side expressions must be substituted into $a^2 + b^2 = c^2$."
+    },
+    {
+     "text": "By substituting algebraic side lengths into $ab = c^2$ and expanding the brackets.",
+     "correct": false,
+     "explanation": "Multiplying two side lengths confuses an area calculation with Pythagoras' Theorem. The squares of the shorter sides must be added using $a^2 + b^2 = c^2$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "c516c667-0513-4ebc-916d-2ea51f132f3a",
+   "card_type": "cloze",
+   "front": "To avoid inaccuracies, you should not [ ___ ] the square root value until the final step of the calculation.",
+   "back": "To avoid inaccuracies, you should not round the square root value until the final step of the calculation.",
+   "options": [
+    {
+     "text": "round",
+     "correct": true,
+     "explanation": "Keeping the square root in exact form during intermediate steps prevents rounding errors from accumulating. It should be rounded only when the final answer is required."
+    },
+    {
+     "text": "keep",
+     "correct": false,
+     "explanation": "The square root should be kept in exact form during the calculation, not avoided. Only the final numerical answer should be rounded to the required accuracy."
+    },
+    {
+     "text": "use",
+     "correct": false,
+     "explanation": "An exact square root value can and should be used in subsequent steps. The operation that must be delayed until the final step is rounding."
+    },
+    {
+     "text": "simplify",
+     "correct": false,
+     "explanation": "Simplifying a square root exactly does not reduce accuracy and can make later work easier. It is rounding to a decimal that should wait until the final step."
+    }
+   ]
+  },
+  {
+   "id": "12a2352f-feb3-4bc8-b410-b54c80424e03",
+   "card_type": "basic",
+   "front": "What is the first step to solve a problem involving the area of a compound shape with algebraic sides?",
+   "back": "Write an equation for the total area (e.g., sum of individual rectangle areas) and set it equal to the given value.",
+   "options": [
+    {
+     "text": "Write an equation for the total area (e.g., sum of individual rectangle areas) and set it equal to the given value.",
+     "correct": true,
+     "explanation": "Expressing each component's area algebraically and equating their total to the given area creates the equation that can then be rearranged into quadratic form."
+    },
+    {
+     "text": "Write an equation for the total perimeter (e.g., sum of all exterior side lengths) and set it equal to the given value.",
+     "correct": false,
+     "explanation": "This confuses area with perimeter and would model a different measurement. The component areas must be added and their total set equal to the given area."
+    },
+    {
+     "text": "Multiply all the side lengths of the compound shape and set the product equal to the given value.",
+     "correct": false,
+     "explanation": "Multiplying every side length does not give the area of a compound shape. Divide it into simpler shapes, add their area expressions and equate the total to the given area."
+    },
+    {
+     "text": "Apply the quadratic formula to the algebraic side lengths before forming an equation for the total area.",
+     "correct": false,
+     "explanation": "The quadratic formula cannot be used until a quadratic equation has been formed. First create an area equation from the individual parts and the given total."
+    }
+   ],
+   "points": 2
+  }
+ ],
+ "card_count": 20,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-7-7-4-quadratic-formula/flashcards",
+ "source_sha256": "99e114666169d8aa0998ca42a701d846c9df7ccc269b3d6841cd89f7148614ce",
+ "extracted_at": "2026-11-08T19:00:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-2 run-001)",
+ "task_id": "T-MG-FC-2"
+}

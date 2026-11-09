@@ -1,0 +1,589 @@
+{
+ "topic": "grade-6-6-10-spheres-and-cones",
+ "lane": "igcse-maths-edexcel",
+ "grade": "6",
+ "tier": null,
+ "title": "Spheres and Cones Flashcards",
+ "cards": [
+  {
+   "id": "71129c94-9490-4682-b675-57463d67662e",
+   "card_type": "basic",
+   "front": "What step must be taken first if a 3D geometry question provides a diameter but the formula requires $r$?",
+   "back": "Halve the diameter to find the radius ($r = \\frac{d}{2}$).",
+   "options": [
+    {
+     "text": "Halve the diameter to find the radius ($r = \\frac{d}{2}$).",
+     "correct": true,
+     "explanation": "The radius is half the diameter, so dividing the given diameter by 2 produces the value of $r$ required by sphere and cone formulae."
+    },
+    {
+     "text": "Double the diameter to find the radius ($r = 2d$).",
+     "correct": false,
+     "explanation": "Doubling confuses the relationship between radius and diameter. The diameter is twice the radius, so the diameter must be halved: $r = \\frac{d}{2}$."
+    },
+    {
+     "text": "Square the diameter to find the radius ($r = d^2$).",
+     "correct": false,
+     "explanation": "Squaring the diameter does not convert it into a radius and gives incompatible dimensions. The correct first step is to halve the diameter using $r = \\frac{d}{2}$."
+    },
+    {
+     "text": "Divide the diameter by $\\pi$ to find the radius ($r = \\frac{d}{\\pi}$).",
+     "correct": false,
+     "explanation": "Dividing by $\\pi$ is associated with rearranging some circumference formulae, not converting diameter to radius. The radius is found by halving: $r = \\frac{d}{2}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "ba9f399b-f73d-4b4f-8659-6154ae633e24",
+   "card_type": "basic",
+   "front": "State the formula for the volume of a cone.",
+   "back": "$$V = \\frac{1}{3}\\pi r^2h$",
+   "options": [
+    {
+     "text": "$$V = \\frac{1}{3}\\pi r^2h$",
+     "correct": true,
+     "explanation": "A cone occupies one third of the volume of a cylinder with the same radius and perpendicular height, giving $V = \\frac{1}{3}\\pi r^2h$."
+    },
+    {
+     "text": "$$V = \\pi r^2h$",
+     "correct": false,
+     "explanation": "This is the volume of the corresponding cylinder because it omits the cone’s factor of one third. The cone’s volume is $V = \\frac{1}{3}\\pi r^2h$."
+    },
+    {
+     "text": "$$V = \\frac{1}{3}\\pi rh^2$",
+     "correct": false,
+     "explanation": "The radius must be squared because the circular base has area $\\pi r^2$; the height is not squared. The correct formula is $V = \\frac{1}{3}\\pi r^2h$."
+    },
+    {
+     "text": "$$V = \\frac{4}{3}\\pi r^3$",
+     "correct": false,
+     "explanation": "The factor $\\frac{4}{3}$ and the power $r^3$ belong to the volume of a sphere. A cone has volume $V = \\frac{1}{3}\\pi r^2h$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "5d350d1a-7a50-471d-9b33-72e904ed5851",
+   "card_type": "basic",
+   "front": "State the formula for the curved surface area of a cone.",
+   "back": "$$A = \\pi rl$",
+   "options": [
+    {
+     "text": "$$A = \\pi rl$",
+     "correct": true,
+     "explanation": "The curved surface of a cone unwraps into a sector whose area simplifies to the product of $\\pi$, the base radius $r$, and slant height $l$."
+    },
+    {
+     "text": "$$A = \\pi r^2$",
+     "correct": false,
+     "explanation": "This calculates the area of the cone’s circular base, not its curved surface. The curved surface area uses the slant height and is $A = \\pi rl$."
+    },
+    {
+     "text": "$$A = 2\\pi rh$",
+     "correct": false,
+     "explanation": "This resembles the curved surface area of a cylinder and incorrectly uses vertical height $h$. For a cone, use slant height $l$: $A = \\pi rl$."
+    },
+    {
+     "text": "$$A = \\pi r(r + l)$",
+     "correct": false,
+     "explanation": "This includes both $\\pi rl$ and $\\pi r^2$, so it gives the cone’s total surface area. The curved surface alone has area $A = \\pi rl$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "caafb946-175b-44f4-a068-17b944b15e59",
+   "card_type": "cloze",
+   "front": "In the formula for the curved surface area of a cone ($\\pi rl$), the symbol $l$ represents the [ ___ ].",
+   "back": "In the formula for the curved surface area of a cone ($\\pi rl$), the symbol $l$ represents the slant height.",
+   "options": [
+    {
+     "text": "slant height",
+     "correct": true,
+     "explanation": "The symbol $l$ measures the distance from the edge of the circular base to the apex along the cone’s sloping outer surface."
+    },
+    {
+     "text": "vertical height",
+     "correct": false,
+     "explanation": "The vertical height is the perpendicular distance from the base centre to the apex and is usually labelled $h$. In $\\pi rl$, $l$ represents the slant height."
+    },
+    {
+     "text": "base radius",
+     "correct": false,
+     "explanation": "The base radius is the distance from the base centre to its circumference and is represented by $r$. The symbol $l$ represents the cone’s slant height."
+    },
+    {
+     "text": "base diameter",
+     "correct": false,
+     "explanation": "The base diameter is twice the radius and is usually represented by $d$. In the curved surface area formula, $l$ instead represents the slant height."
+    }
+   ]
+  },
+  {
+   "id": "a5d3d449-0540-4412-9e77-a96899b24ff7",
+   "card_type": "basic",
+   "front": "How do you calculate the slant height ($l$) of a cone if you only know the vertical height ($h$) and radius ($r$)?",
+   "back": "Use Pythagoras' Theorem: $l^2 = r^2 + h^2$.",
+   "options": [
+    {
+     "text": "Use Pythagoras' Theorem: $l^2 = r^2 + h^2$.",
+     "correct": true,
+     "explanation": "The radius and vertical height form the perpendicular sides of a right-angled triangle, while the slant height is its hypotenuse, so $l^2 = r^2 + h^2$."
+    },
+    {
+     "text": "Use Pythagoras' Theorem: $l^2 = h^2 - r^2$.",
+     "correct": false,
+     "explanation": "Subtracting is used when a shorter side is unknown, but the slant height is the hypotenuse. Its square equals the sum: $l^2 = r^2 + h^2$."
+    },
+    {
+     "text": "Use Pythagoras' Theorem: $l = r + h$.",
+     "correct": false,
+     "explanation": "Pythagoras requires the squares of the perpendicular lengths to be added, not the lengths themselves. The correct relationship is $l^2 = r^2 + h^2$."
+    },
+    {
+     "text": "Use Pythagoras' Theorem: $l^2 = (r + h)^2$.",
+     "correct": false,
+     "explanation": "Squaring the sum introduces an extra $2rh$ term, so it does not apply to the right-angled cross-section. The correct relationship is $l^2 = r^2 + h^2$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "f386b1f7-0a24-42ea-b667-c6dce4fd7951",
+   "card_type": "basic",
+   "front": "What is the total surface area of a solid cone?",
+   "back": "Curved surface area ($\\pi rl$)Base area ($\\pi r^2$)",
+   "options": [
+    {
+     "text": "Curved surface area ($\\pi rl$)Base area ($\\pi r^2$)",
+     "correct": true,
+     "explanation": "A solid cone has a curved outer surface and one circular base. Adding their areas gives total surface area $\\pi rl + \\pi r^2$."
+    },
+    {
+     "text": "Curved surface area ($2\\pi rh$)Base area ($\\pi r^2$)",
+     "correct": false,
+     "explanation": "The expression $2\\pi rh$ is the curved surface area of a cylinder, not a cone. A cone requires $\\pi rl$ plus its base area $\\pi r^2$."
+    },
+    {
+     "text": "Curved surface area ($\\pi rl$)Base area ($2\\pi r^2$)",
+     "correct": false,
+     "explanation": "The curved area is correct, but $2\\pi r^2$ counts two circular bases. A cone has only one base, so the total is $\\pi rl + \\pi r^2$."
+    },
+    {
+     "text": "Curved surface area ($\\pi rh$)Base area ($\\pi r$)",
+     "correct": false,
+     "explanation": "Using $h$ instead of $l$ ignores the slope of the cone, while $\\pi r$ is only half a circumference, not an area. Use $\\pi rl + \\pi r^2$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "ffd65808-9869-4888-910f-76f94352f6e9",
+   "card_type": "basic",
+   "front": "Identify the difference between the vertical height and slant height of a cone.",
+   "back": "Vertical height: distance from base centre to apexSlant height: distance along the outside edge to apex",
+   "options": [
+    {
+     "text": "Vertical height: distance from base centre to apexSlant height: distance along the outside edge to apex",
+     "correct": true,
+     "explanation": "Vertical height is measured perpendicularly through the cone’s interior from the base centre, whereas slant height follows the sloping outer surface from the base edge."
+    },
+    {
+     "text": "Vertical height: distance along the outside edge to apexSlant height: distance from base centre to apex",
+     "correct": false,
+     "explanation": "These descriptions have been reversed. Vertical height runs from the base centre to the apex, while slant height runs along the outside edge to the apex."
+    },
+    {
+     "text": "Vertical height: distance from base centre to circumferenceSlant height: distance from base centre to apex",
+     "correct": false,
+     "explanation": "The radius ends at the base circumference and does not reach the apex. Vertical height joins the base centre to the apex, while slant height follows the outside edge."
+    },
+    {
+     "text": "Vertical height: distance across the circular baseSlant height: distance around the circular base",
+     "correct": false,
+     "explanation": "The diameter crosses the circular base and the circumference goes around it; neither describes the cone’s heights. The two heights run to the apex through the centre or along the edge."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "9f89f11a-6a9c-4046-8020-56824cfc1342",
+   "card_type": "cloze",
+   "front": "The formula for the volume of a sphere is $V = \\frac{4}{3}\\pi \\text{[...]}$.",
+   "back": "The formula for the volume of a sphere is $V = \\frac{4}{3}\\pi \\boxed{r^3}$.",
+   "options": [
+    {
+     "text": "$$r^3$",
+     "correct": true,
+     "explanation": "A sphere’s volume depends on three dimensions, so its radius is cubed. The complete formula is $V = \\frac{4}{3}\\pi r^3$."
+    },
+    {
+     "text": "$$r^2$",
+     "correct": false,
+     "explanation": "Squaring the radius produces an area-like quantity rather than a volume. A sphere’s volume is three-dimensional, so the missing term must be $r^3$."
+    },
+    {
+     "text": "$$2r^3$",
+     "correct": false,
+     "explanation": "Multiplying the cubed radius by 2 would make the calculated volume twice the correct value. The coefficient is already $\\frac{4}{3}\\pi$, so the term is $r^3$."
+    },
+    {
+     "text": "$$d^3$",
+     "correct": false,
+     "explanation": "Substituting the diameter directly without changing the coefficient makes the result eight times too large because $d^3 = 8r^3$. The required term is $r^3$."
+    }
+   ]
+  },
+  {
+   "id": "a169841b-9dd3-40c0-8094-85217869e811",
+   "card_type": "basic",
+   "front": "State the formula for the surface area of a sphere.",
+   "back": "$$A = 4\\pi r^2$",
+   "options": [
+    {
+     "text": "$$A = 4\\pi r^2$",
+     "correct": true,
+     "explanation": "A sphere’s surface area is four times the area of a circle with the same radius, so the formula is $A = 4\\pi r^2$."
+    },
+    {
+     "text": "$$A = \\pi r^2$",
+     "correct": false,
+     "explanation": "This is the area of one circle, not the curved surface of a sphere. A sphere has surface area $A = 4\\pi r^2$."
+    },
+    {
+     "text": "$$A = 2\\pi r^2$",
+     "correct": false,
+     "explanation": "This is the curved surface area of a hemisphere, so it accounts for only half a sphere. A complete sphere has area $A = 4\\pi r^2$."
+    },
+    {
+     "text": "$$A = \\frac{4}{3}\\pi r^3$",
+     "correct": false,
+     "explanation": "This confuses surface area with the volume of a sphere and incorrectly uses cubic units. The surface area formula is $A = 4\\pi r^2$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "874ae7a8-8f50-422a-b94f-b0e513a15bb3",
+   "card_type": "cloze",
+   "front": "A solid hemisphere has a total surface area of [ ___ ].",
+   "back": "A solid hemisphere has a total surface area of $3\\pi r^2$.",
+   "options": [
+    {
+     "text": "$$3\\pi r^2$",
+     "correct": true,
+     "explanation": "A solid hemisphere includes curved area $2\\pi r^2$ and a circular base of area $\\pi r^2$, giving a total of $3\\pi r^2$."
+    },
+    {
+     "text": "$$2\\pi r^2$",
+     "correct": false,
+     "explanation": "This includes only the hemisphere’s curved surface and omits its flat circular base. Adding the base area $\\pi r^2$ gives $3\\pi r^2$."
+    },
+    {
+     "text": "$$4\\pi r^2$",
+     "correct": false,
+     "explanation": "This is the surface area of a complete sphere, not a solid hemisphere. Including the hemisphere’s curved surface and base gives $3\\pi r^2$."
+    },
+    {
+     "text": "$$\\pi r^2$",
+     "correct": false,
+     "explanation": "This gives only the area of the flat circular base and omits the curved surface. The total surface area is therefore $3\\pi r^2$."
+    }
+   ]
+  },
+  {
+   "id": "c5bb4837-0681-4c69-8538-ef31aba4fb7a",
+   "card_type": "basic",
+   "front": "What is the formula for the volume of a hemisphere?",
+   "back": "$$V = \\frac{2}{3}\\pi r^3$",
+   "options": [
+    {
+     "text": "$$V = \\frac{2}{3}\\pi r^3$",
+     "correct": true,
+     "explanation": "A hemisphere is half a sphere, so halving the sphere’s volume $\\frac{4}{3}\\pi r^3$ gives $V = \\frac{2}{3}\\pi r^3$."
+    },
+    {
+     "text": "$$V = \\frac{4}{3}\\pi r^3$",
+     "correct": false,
+     "explanation": "This is the volume of a complete sphere, so it has not been halved. A hemisphere’s volume is $V = \\frac{2}{3}\\pi r^3$."
+    },
+    {
+     "text": "$$V = \\frac{1}{3}\\pi r^3$",
+     "correct": false,
+     "explanation": "The factor $\\frac{1}{3}$ is associated with cones and does not give half a sphere. A hemisphere’s volume is $V = \\frac{2}{3}\\pi r^3$."
+    },
+    {
+     "text": "$$V = \\frac{2}{3}\\pi r^2$",
+     "correct": false,
+     "explanation": "Using $r^2$ produces square units, which measure area rather than volume. Volume requires $r^3$, giving $V = \\frac{2}{3}\\pi r^3$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "879b2024-b805-4cec-83b3-016588ffa77f",
+   "card_type": "basic",
+   "front": "Why is the total surface area of a solid hemisphere $3\\pi r^2$ rather than $2\\pi r^2$?",
+   "back": "It includes the curved surface ($2\\pi r^2$) plus the flat circular base ($\\pi r^2$).",
+   "options": [
+    {
+     "text": "It includes the curved surface ($2\\pi r^2$) plus the flat circular base ($\\pi r^2$).",
+     "correct": true,
+     "explanation": "A solid hemisphere has an exposed curved surface and an exposed circular base. Their areas add to $2\\pi r^2 + \\pi r^2 = 3\\pi r^2$."
+    },
+    {
+     "text": "It includes the curved surface ($2\\pi r^2$) but excludes the flat circular base ($\\pi r^2$).",
+     "correct": false,
+     "explanation": "Excluding the base gives only $2\\pi r^2$, which is the curved surface area. A solid hemisphere includes the base, making the total $3\\pi r^2$."
+    },
+    {
+     "text": "It includes the curved surface ($\\pi r^2$) plus the flat circular base ($\\pi r^2$).",
+     "correct": false,
+     "explanation": "The curved surface has been incorrectly treated as one circular area. It is $2\\pi r^2$, and adding the base $\\pi r^2$ gives $3\\pi r^2$."
+    },
+    {
+     "text": "It includes the curved surface ($2\\pi r^2$) plus the flat circular base ($2\\pi r^2$).",
+     "correct": false,
+     "explanation": "The circular base has been doubled: its area is $\\pi r^2$, not $2\\pi r^2$. The correct total is therefore $3\\pi r^2$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "940c81a0-4fd6-4481-872c-96556945be5a",
+   "card_type": "basic",
+   "front": "When calculating the volume of a compound solid, what is the general rule?",
+   "back": "Add the volumes of the individual parts together.",
+   "options": [
+    {
+     "text": "Add the volumes of the individual parts together.",
+     "correct": true,
+     "explanation": "A compound solid is divided into non-overlapping familiar solids. Calculating each part’s volume and adding them gives the volume occupied by the complete solid."
+    },
+    {
+     "text": "Subtract the volumes of the individual parts from each other.",
+     "correct": false,
+     "explanation": "Subtraction is used only when a section has been removed to form a hollow or cut-out shape. Joined solid parts normally have their volumes added."
+    },
+    {
+     "text": "Multiply the volumes of the individual parts together.",
+     "correct": false,
+     "explanation": "Multiplying volumes produces inappropriate higher-powered units and does not represent combined space. The volumes of the non-overlapping individual parts should be added together."
+    },
+    {
+     "text": "Use the volume of the largest individual part only.",
+     "correct": false,
+     "explanation": "Ignoring the smaller parts underestimates the space occupied by the compound solid. The correct method is to calculate and add every individual part’s volume."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "8dcd16a2-183a-4c55-8127-c03fe5480c9c",
+   "card_type": "basic",
+   "front": "When calculating the surface area of a compound solid, which faces are excluded?",
+   "back": "Joined faces (internal faces) are not counted; only outside faces are included.",
+   "options": [
+    {
+     "text": "Joined faces (internal faces) are not counted; only outside faces are included.",
+     "correct": true,
+     "explanation": "Joined faces lie inside the compound solid and are not exposed. Surface area measures only the faces forming the solid’s external boundary."
+    },
+    {
+     "text": "Outside faces (external faces) are not counted; only joined faces are included.",
+     "correct": false,
+     "explanation": "This reverses the rule: surface area measures exposed external faces, while joined faces are hidden inside the solid and must be excluded."
+    },
+    {
+     "text": "Joined faces (internal faces) are counted twice; all outside faces are also included.",
+     "correct": false,
+     "explanation": "Counting each joined face twice treats both contact surfaces as exposed, causing an overestimate. Internal joined faces are excluded, and only outside faces are counted."
+    },
+    {
+     "text": "Curved faces (rounded faces) are not counted; only flat faces are included.",
+     "correct": false,
+     "explanation": "Curved surfaces contribute to surface area whenever they are exposed. The distinction is between outside and internal faces, not between curved and flat faces."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "b0800123-a1ca-495a-b2fa-7e354492c828",
+   "card_type": "basic",
+   "front": "How should you handle rounding in multi-step calculations for cones and spheres?",
+   "back": "Round only at the final answer to avoid inaccuracy; keep the full calculator value until then.",
+   "options": [
+    {
+     "text": "Round only at the final answer to avoid inaccuracy; keep the full calculator value until then.",
+     "correct": true,
+     "explanation": "Retaining full calculator values prevents small rounding errors from accumulating through later operations. Round once, to the required accuracy, after completing the calculation."
+    },
+    {
+     "text": "Round after every calculation step to keep values simple; use each rounded result in the next step.",
+     "correct": false,
+     "explanation": "Repeated intermediate rounding introduces errors that can accumulate and alter the final answer. Keep full calculator values and round only the final result."
+    },
+    {
+     "text": "Round all intermediate values to 1 decimal place to ensure consistency; use these values in later steps.",
+     "correct": false,
+     "explanation": "Consistent rounding is still premature rounding and can reduce the final answer’s accuracy. Intermediate values should remain unrounded until the calculation is complete."
+    },
+    {
+     "text": "Round the given measurements before calculating to simplify the arithmetic; then keep the final value unchanged.",
+     "correct": false,
+     "explanation": "Rounding the original measurements discards accuracy before the calculation begins, while leaving the final result unrounded ignores the requested precision. Round only at the end."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "2a6bca46-c0cb-42a6-ad76-2b5a286c103c",
+   "card_type": "basic",
+   "front": "What does it mean to give an answer in terms of $\\pi$?",
+   "back": "Leave $\\pi$ in the final expression instead of converting it to a decimal.",
+   "options": [
+    {
+     "text": "Leave $\\pi$ in the final expression instead of converting it to a decimal.",
+     "correct": true,
+     "explanation": "An exact answer in terms of $\\pi$ retains the symbol, such as $36\\pi$, rather than replacing it with an approximate decimal value."
+    },
+    {
+     "text": "Replace $\\pi$ with 3.14 in the final expression and give the resulting decimal.",
+     "correct": false,
+     "explanation": "Using 3.14 creates an approximate decimal answer rather than an exact answer in terms of $\\pi$. The symbol $\\pi$ must remain in the expression."
+    },
+    {
+     "text": "Replace $\\pi$ with $\\frac{22}{7}$ in the final expression instead of using a decimal.",
+     "correct": false,
+     "explanation": "Although $\\frac{22}{7}$ is a common approximation, it is not exactly $\\pi$. An answer in terms of $\\pi$ must retain the symbol itself."
+    },
+    {
+     "text": "Remove $\\pi$ from the final expression and leave only its numerical coefficient.",
+     "correct": false,
+     "explanation": "Removing $\\pi$ changes the value of the expression rather than preserving an exact form. The final answer must include $\\pi$ alongside its coefficient."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "4e849a20-0723-4cd7-a704-139f0ae003ca",
+   "card_type": "cloze",
+   "front": "When finding the radius of a sphere from its volume, you must use a [ ___ ] to undo the $r^3$ term.",
+   "back": "When finding the radius of a sphere from its volume, you must use a cube root to undo the $r^3$ term.",
+   "options": [
+    {
+     "text": "cube root",
+     "correct": true,
+     "explanation": "The sphere-volume formula contains $r^3$, so applying a cube root reverses the cubing operation and isolates the radius."
+    },
+    {
+     "text": "square root",
+     "correct": false,
+     "explanation": "A square root reverses squaring, not cubing. Since the sphere-volume formula contains $r^3$, the correct inverse operation is a cube root."
+    },
+    {
+     "text": "cube",
+     "correct": false,
+     "explanation": "Cubing would raise the expression to another power rather than isolate $r$. A cube root is required to undo the existing $r^3$ term."
+    },
+    {
+     "text": "reciprocal",
+     "correct": false,
+     "explanation": "Taking a reciprocal changes a quantity to its multiplicative inverse and does not undo a power of three. A cube root correctly isolates $r$."
+    }
+   ]
+  },
+  {
+   "id": "f319d128-f34f-4d90-8abb-411482de21e1",
+   "card_type": "cloze",
+   "front": "An object submerged in water displaces a volume of water equal to its [ ___ ].",
+   "back": "An object submerged in water displaces a volume of water equal to its own volume.",
+   "options": [
+    {
+     "text": "own volume",
+     "correct": true,
+     "explanation": "A fully submerged object occupies space that water can no longer occupy, so it displaces an amount of water equal to its own volume."
+    },
+    {
+     "text": "own mass",
+     "correct": false,
+     "explanation": "Mass measures the amount of matter, not the space occupied. A fully submerged object displaces water equal to its own volume."
+    },
+    {
+     "text": "own weight",
+     "correct": false,
+     "explanation": "Weight is a force and cannot equal a displaced volume. The volume of water displaced by a fully submerged object equals its own volume."
+    },
+    {
+     "text": "surface area",
+     "correct": false,
+     "explanation": "Surface area measures the exterior covering rather than the space occupied. Water displacement for a fully submerged object equals the object’s own volume."
+    }
+   ]
+  },
+  {
+   "id": "ed4e270e-81a5-4ec1-83e3-b9e095d51f80",
+   "card_type": "basic",
+   "front": "State the formula for the rise in water level in a rectangular container when an object is submerged.",
+   "back": "$$\\text{rise} = \\frac{\\text{volume displaced}}{\\text{base area of container}}$",
+   "options": [
+    {
+     "text": "$$\\text{rise} = \\frac{\\text{volume displaced}}{\\text{base area of container}}$",
+     "correct": true,
+     "explanation": "The displaced volume forms an additional rectangular prism. Since volume equals base area multiplied by height, dividing by the container’s base area gives the rise."
+    },
+    {
+     "text": "$$\\text{rise} = \\text{volume displaced} \\times \\text{base area of container}$",
+     "correct": false,
+     "explanation": "Multiplying volume by area does not produce a length and confuses rearrangement of the prism formula. The displaced volume must be divided by the container’s base area."
+    },
+    {
+     "text": "$$\\text{rise} = \\frac{\\text{base area of container}}{\\text{volume displaced}}$",
+     "correct": false,
+     "explanation": "Reversing the fraction gives units of inverse length rather than a height. The rise is the displaced volume divided by the container’s base area."
+    },
+    {
+     "text": "$$\\text{rise} = \\frac{\\text{volume displaced}}{\\text{side area of container}}$",
+     "correct": false,
+     "explanation": "The water rises across the horizontal base, not a vertical side. Therefore, divide the displaced volume by the base area of the container."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "363f160d-5d99-4d79-bcbb-957fc804b675",
+   "card_type": "cloze",
+   "front": "The base area of a rectangular container is calculated as [ ___ ].",
+   "back": "The base area of a rectangular container is calculated as length $\\times$ width.",
+   "options": [
+    {
+     "text": "length $\\times$ width",
+     "correct": true,
+     "explanation": "The base is a rectangle, and a rectangle’s area is found by multiplying its two perpendicular base dimensions: length and width."
+    },
+    {
+     "text": "length $+$ width",
+     "correct": false,
+     "explanation": "Adding the length and width does not calculate area; doubling that sum would calculate perimeter. The rectangular base area is length multiplied by width."
+    },
+    {
+     "text": "length $\\times$ height",
+     "correct": false,
+     "explanation": "Multiplying length by height gives the area of a vertical side, not the horizontal base. The base area is length multiplied by width."
+    },
+    {
+     "text": "width $\\times$ height",
+     "correct": false,
+     "explanation": "Multiplying width by height gives the area of another vertical side. The rectangular container’s base uses its length and width dimensions."
+    }
+   ]
+  }
+ ],
+ "card_count": 20,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-6-6-10-spheres-and-cones/flashcards",
+ "source_sha256": "05e65206e63ff624f48f0552ce3c748f9f74c33cf6435c5c5c5599860d1bc71d",
+ "extracted_at": "2026-11-08T19:00:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-2 run-001)",
+ "task_id": "T-MG-FC-2"
+}

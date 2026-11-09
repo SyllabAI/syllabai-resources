@@ -1,0 +1,479 @@
+{
+ "topic": "grade-6-6-8-equation-of-a-line",
+ "lane": "igcse-maths-edexcel",
+ "grade": "6",
+ "tier": null,
+ "title": "Equation of a Line Flashcards",
+ "cards": [
+  {
+   "id": "655a072b-6e92-4014-9222-7cd2e2766100",
+   "card_type": "basic",
+   "front": "What are the coordinates of the origin?",
+   "back": "$$(0,0)$",
+   "options": [
+    {
+     "text": "$$(0,0)$",
+     "correct": true,
+     "explanation": "The origin is the point where the x-axis and y-axis intersect, so both its x-coordinate and y-coordinate are zero."
+    },
+    {
+     "text": "$$(1,0)$",
+     "correct": false,
+     "explanation": "This point lies one unit to the right of the origin on the x-axis. The origin has both coordinates equal to zero, so it is $(0,0)$."
+    },
+    {
+     "text": "$$(0,1)$",
+     "correct": false,
+     "explanation": "This point lies one unit above the origin on the y-axis. At the origin, both coordinate values are zero, giving $(0,0)$."
+    },
+    {
+     "text": "$$(1,1)$",
+     "correct": false,
+     "explanation": "This confuses the origin with a point one unit along both axes. The two axes intersect where $x=0$ and $y=0$, at $(0,0)$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "8b77cf2f-5493-41a5-8971-5bdddb2cbb6f",
+   "card_type": "basic",
+   "front": "In the straight-line equation $y=mx+c$, what does $m$ represent?",
+   "back": "The gradient (steepness and direction).",
+   "options": [
+    {
+     "text": "The gradient (steepness and direction).",
+     "correct": true,
+     "explanation": "In $y=mx+c$, $m$ gives the change in $y$ for each unit change in $x$. Its sign and magnitude determine the line’s direction and steepness."
+    },
+    {
+     "text": "The y-intercept (where the line crosses the y-axis).",
+     "correct": false,
+     "explanation": "The y-intercept is represented by $c$, not $m$. In $y=mx+c$, $m$ is the gradient, which describes the line’s steepness and direction."
+    },
+    {
+     "text": "The x-intercept (where the line crosses the x-axis).",
+     "correct": false,
+     "explanation": "The x-intercept must be found by setting $y=0$ and is not represented directly by $m$. The value of $m$ represents the gradient."
+    },
+    {
+     "text": "The constant term (the value independent of x).",
+     "correct": false,
+     "explanation": "The constant term is $c$, whereas $m$ is the coefficient of $x$. Therefore, $m$ represents the gradient of the straight line."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "fdbc68d2-9896-45cd-8e27-2b6b3bc8b566",
+   "card_type": "basic",
+   "front": "In the straight-line equation $y=mx+c$, what does $c$ represent?",
+   "back": "The y-intercept (where the line crosses the y-axis).",
+   "options": [
+    {
+     "text": "The y-intercept (where the line crosses the y-axis).",
+     "correct": true,
+     "explanation": "When $x=0$, the equation becomes $y=c$. Therefore, $c$ gives the y-coordinate where the straight line crosses the y-axis."
+    },
+    {
+     "text": "The gradient (steepness and direction).",
+     "correct": false,
+     "explanation": "The gradient is represented by $m$, not $c$. The constant $c$ gives the y-intercept because the line has $y=c$ when $x=0$."
+    },
+    {
+     "text": "The x-intercept (where the line crosses the x-axis).",
+     "correct": false,
+     "explanation": "The x-intercept is found by setting $y=0$ and solving for $x$. The value $c$ instead identifies where the line crosses the y-axis."
+    },
+    {
+     "text": "The origin (where the two axes intersect).",
+     "correct": false,
+     "explanation": "The origin is always $(0,0)$ and is not generally represented by $c$. In $y=mx+c$, $c$ represents the line’s y-intercept."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "1dd39706-88a8-4504-b1f4-b2efbecd3281",
+   "card_type": "basic",
+   "front": "What is the gradient of the line $y=5-x$?",
+   "back": "$$-1$",
+   "options": [
+    {
+     "text": "$$-1$",
+     "correct": true,
+     "explanation": "Rewriting the equation as $y=-x+5$ shows that the coefficient of $x$ is $-1$. Therefore, the line’s gradient is $-1$."
+    },
+    {
+     "text": "$$1$",
+     "correct": false,
+     "explanation": "This ignores the negative sign before $x$. Since $y=5-x$ can be written as $y=-x+5$, its gradient is $-1$, not $1$."
+    },
+    {
+     "text": "$$5$",
+     "correct": false,
+     "explanation": "This mistakes the constant term for the gradient. The number $5$ is the y-intercept, while the coefficient of $x$ is $-1$."
+    },
+    {
+     "text": "$$-5$",
+     "correct": false,
+     "explanation": "This incorrectly attaches the negative sign to the constant rather than reading the coefficient of $x$. In $y=-x+5$, the gradient is $-1$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "79393b1c-e3a9-42d3-89a4-d27c4a40d320",
+   "card_type": "basic",
+   "front": "What is the coordinate of the y-intercept for the line $y=4x-6$?",
+   "back": "$$(0,-6)$",
+   "options": [
+    {
+     "text": "$$(0,-6)$",
+     "correct": true,
+     "explanation": "A y-intercept occurs where $x=0$. Substituting $x=0$ into $y=4x-6$ gives $y=-6$, so the coordinate is $(0,-6)$."
+    },
+    {
+     "text": "$$(-6,0)$",
+     "correct": false,
+     "explanation": "This reverses the coordinate order. At a y-intercept, the x-coordinate must be zero, so the correct coordinate is $(0,-6)$ rather than $(-6,0)$."
+    },
+    {
+     "text": "$$(0,6)$",
+     "correct": false,
+     "explanation": "This loses the negative sign on the constant term. Setting $x=0$ gives $y=-6$, so the y-intercept is $(0,-6)$."
+    },
+    {
+     "text": "$$(4,-6)$",
+     "correct": false,
+     "explanation": "This uses the gradient as the x-coordinate. Every y-intercept has $x=0$; substituting this into the equation gives the point $(0,-6)$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "da730c85-8821-444b-ac38-8b2259724b29",
+   "card_type": "basic",
+   "front": "When rearranging an equation into the form $y=mx+c$, what must you do when dividing by the coefficient of $y$?",
+   "back": "Divide every term on the other side of the equation.",
+   "options": [
+    {
+     "text": "Divide every term on the other side of the equation.",
+     "correct": true,
+     "explanation": "Division must preserve equality by applying to the entire expression on the other side. Dividing every term produces the correct gradient and intercept in $y=mx+c$ form."
+    },
+    {
+     "text": "Divide only the x-term on the other side of the equation.",
+     "correct": false,
+     "explanation": "Dividing only the term containing $x$ changes the equation because the constant remains unscaled. Every term on the other side must be divided by the coefficient of $y$."
+    },
+    {
+     "text": "Divide only the constant term on the other side of the equation.",
+     "correct": false,
+     "explanation": "Dividing only the constant leaves the coefficient of $x$ incorrect and does not preserve the original equation. The coefficient must divide every term on the other side."
+    },
+    {
+     "text": "Multiply every term on the other side of the equation.",
+     "correct": false,
+     "explanation": "Multiplication is the inverse operation needed when a fraction multiplies $y$, not when $y$ has a numerical coefficient. Here, every term must be divided by that coefficient."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "189aab52-96ed-48c5-b1c8-a6395886913d",
+   "card_type": "basic",
+   "front": "What is the gradient of a line with equation $3y = 12x + 9$?",
+   "back": "$$4$ (divide both sides by 3).",
+   "options": [
+    {
+     "text": "$$4$ (divide both sides by 3).",
+     "correct": true,
+     "explanation": "Dividing every term in $3y=12x+9$ by $3$ gives $y=4x+3$. The coefficient of $x$, and therefore the gradient, is $4$."
+    },
+    {
+     "text": "$$12$ (use the coefficient of x).",
+     "correct": false,
+     "explanation": "This reads the coefficient of $x$ before isolating $y$. Dividing the entire equation by $3$ gives $y=4x+3$, so the gradient is $4$."
+    },
+    {
+     "text": "$$3$ (divide the constant by 3).",
+     "correct": false,
+     "explanation": "This mistakes the new constant term for the gradient. After division by $3$, the equation is $y=4x+3$, where $4$ is the gradient."
+    },
+    {
+     "text": "$$rac{1}{4}$ (divide 3 by 12).",
+     "correct": false,
+     "explanation": "This divides $3$ by $12$, reversing the required ratio. Isolating $y$ divides $12$ by $3$, so the gradient is $4$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "d52ea23c-1681-43bf-940c-77637fc98aaa",
+   "card_type": "basic",
+   "front": "If a line passes through $(0,2)$ and $(3,8)$, what is the y-intercept ($c$)?",
+   "back": "$$2$",
+   "options": [
+    {
+     "text": "$$2$",
+     "correct": true,
+     "explanation": "The y-intercept is the y-value where $x=0$. Since the given point $(0,2)$ lies on the line, the y-intercept $c$ is $2$."
+    },
+    {
+     "text": "$$8$",
+     "correct": false,
+     "explanation": "This uses the y-coordinate of the second point, where $x=3$, rather than the y-intercept. At $x=0$, the given y-value is $2$."
+    },
+    {
+     "text": "$$3$",
+     "correct": false,
+     "explanation": "This uses the second point’s x-coordinate as the intercept. The y-intercept is read from the point with $x=0$, namely $(0,2)$, so $c=2$."
+    },
+    {
+     "text": "$$6$",
+     "correct": false,
+     "explanation": "This takes the change in y, $8-2=6$, which is not the intercept. The point $(0,2)$ directly shows that $c=2$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "6d345edb-08a7-42dd-a3aa-312571e1571d",
+   "card_type": "basic",
+   "front": "How can you tell if two lines are parallel from their equations?",
+   "back": "They have the same gradient ($m$).",
+   "options": [
+    {
+     "text": "They have the same gradient ($m$).",
+     "correct": true,
+     "explanation": "Parallel lines have equal gradients, so their equations contain the same value of $m$. Their intercepts must differ unless the equations represent the same line."
+    },
+    {
+     "text": "They have the same y-intercept ($c$).",
+     "correct": false,
+     "explanation": "Sharing a y-intercept means the lines meet at the y-axis, not that they are parallel. Parallel lines have the same gradient ($m$)."
+    },
+    {
+     "text": "They have opposite gradients ($m$).",
+     "correct": false,
+     "explanation": "Opposite gradients generally produce lines sloping in different directions and do not make them parallel. Parallel lines have the same gradient ($m$)."
+    },
+    {
+     "text": "Their gradients have a product of -1.",
+     "correct": false,
+     "explanation": "Gradients with a product of $-1$ identify perpendicular lines, not parallel ones. Parallel lines instead have the same gradient ($m$)."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "620076e6-6a78-4fb3-b1bf-1a258aecc2f8",
+   "card_type": "basic",
+   "front": "Write the equation of a line parallel to $y=-3x+4$ that passes through $(0,7)$.",
+   "back": "$$y=-3x+7$",
+   "options": [
+    {
+     "text": "$$y=-3x+7$",
+     "correct": true,
+     "explanation": "A parallel line keeps the gradient $-3$. Since passing through $(0,7)$ gives a y-intercept of $7$, its equation is $y=-3x+7$."
+    },
+    {
+     "text": "$$y=3x+7$",
+     "correct": false,
+     "explanation": "Changing the gradient from $-3$ to $3$ reverses the slope, so the line is not parallel. The required equation is $y=-3x+7$."
+    },
+    {
+     "text": "$$y=-3x+4$",
+     "correct": false,
+     "explanation": "This retains the original y-intercept, so it describes the given line and does not pass through $(0,7)$. The required equation is $y=-3x+7$."
+    },
+    {
+     "text": "$$y=-3x-7$",
+     "correct": false,
+     "explanation": "The gradient is correctly retained, but substituting $x=0$ gives $y=-7$, not $7$. The correct y-intercept produces $y=-3x+7$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "70b47b5a-d2fc-48aa-9e27-6bdd8ba83775",
+   "card_type": "basic",
+   "front": "What is the general equation for a horizontal line?",
+   "back": "$$y=c$ (where $c$ is a constant).",
+   "options": [
+    {
+     "text": "$$y=c$ (where $c$ is a constant).",
+     "correct": true,
+     "explanation": "Every point on a horizontal line has the same y-coordinate. Therefore its equation is $y=c$, where the constant $c$ gives the line’s fixed height."
+    },
+    {
+     "text": "$$x=c$ (where $c$ is a constant).",
+     "correct": false,
+     "explanation": "Fixing the x-coordinate creates a vertical line rather than a horizontal one. A horizontal line fixes the y-coordinate, giving $y=c$ where $c$ is constant."
+    },
+    {
+     "text": "$$y=cx$ (where $c$ is a constant).",
+     "correct": false,
+     "explanation": "The equation $y=cx$ generally has gradient $c$ and passes through the origin. A horizontal line has fixed y-coordinate, so its equation is $y=c$."
+    },
+    {
+     "text": "$$x+y=c$ (where $c$ is a constant).",
+     "correct": false,
+     "explanation": "Rearranging this gives $y=-x+c$, which has gradient $-1$ rather than $0$. A horizontal line has the form $y=c$, with constant height."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "0e572fe5-ef49-4516-957c-c9d8252ba201",
+   "card_type": "basic",
+   "front": "Identify the gradient and y-intercept for the line $y=7-2x$.",
+   "back": "Gradient: -2y-intercept: 7",
+   "options": [
+    {
+     "text": "Gradient: -2y-intercept: 7",
+     "correct": true,
+     "explanation": "Writing the equation as $y=-2x+7$ shows that the coefficient of $x$ is the gradient, $-2$, while the constant is the y-intercept, $7$."
+    },
+    {
+     "text": "Gradient: 7y-intercept: -2",
+     "correct": false,
+     "explanation": "The coefficient and constant have been confused. In $y=-2x+7$, the coefficient of $x$ gives gradient $-2$, and the constant gives y-intercept $7$."
+    },
+    {
+     "text": "Gradient: 2y-intercept: 7",
+     "correct": false,
+     "explanation": "Reordering $7-2x$ as $-2x+7$ does not change the negative sign on the $x$ coefficient. The gradient is $-2$ and the y-intercept is $7$."
+    },
+    {
+     "text": "Gradient: -2y-intercept: -7",
+     "correct": false,
+     "explanation": "The gradient is read correctly, but the constant term is positive $7$, not negative. Thus the line crosses the y-axis at $7$ and has gradient $-2$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "7932c1e7-4c9a-4747-a44a-e4ced39d5f5a",
+   "card_type": "basic",
+   "front": "What is the gradient of a line that slopes downwards from left to right?",
+   "back": "A negative gradient.",
+   "options": [
+    {
+     "text": "A negative gradient.",
+     "correct": true,
+     "explanation": "As $x$ increases from left to right, a downward-sloping line’s $y$-value decreases. Therefore the change in $y$ and its gradient are negative."
+    },
+    {
+     "text": "A positive gradient.",
+     "correct": false,
+     "explanation": "A positive gradient means $y$ increases as $x$ increases, producing an upward slope from left to right. A downward-sloping line has a negative gradient."
+    },
+    {
+     "text": "A zero gradient.",
+     "correct": false,
+     "explanation": "A zero gradient describes a horizontal line whose y-value does not change. If the line slopes downwards from left to right, its gradient is negative."
+    },
+    {
+     "text": "An undefined gradient.",
+     "correct": false,
+     "explanation": "An undefined gradient belongs to a vertical line because its horizontal change is zero. A line sloping downwards from left to right has a negative gradient."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "e4d93baa-326d-457a-997d-489355adae5e",
+   "card_type": "basic",
+   "front": "What are the two most important clues to look for when matching a graph to an equation?",
+   "back": "The direction of the slope (positive or negative)The y-intercept value",
+   "options": [
+    {
+     "text": "The direction of the slope (positive or negative)The y-intercept value",
+     "correct": true,
+     "explanation": "The slope’s direction reveals whether the gradient is positive or negative, while the point where the graph crosses the y-axis gives the equation’s y-intercept."
+    },
+    {
+     "text": "The steepness of the slope (large or small)The x-intercept value",
+     "correct": false,
+     "explanation": "Steepness helps estimate the gradient’s magnitude, but the x-intercept is not the constant in $y=mx+c$. First identify the slope’s direction and the y-intercept."
+    },
+    {
+     "text": "The length of the line (long or short)The midpoint value",
+     "correct": false,
+     "explanation": "A drawn segment’s length and midpoint can change with the viewing window without changing its equation. Match using the slope’s direction and the y-intercept value."
+    },
+    {
+     "text": "The scale of the axes (large or small)The x-intercept value",
+     "correct": false,
+     "explanation": "Axis scales affect how steep a graph appears, and the x-intercept is not directly the constant term. The key clues are slope direction and y-intercept value."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "c01e0d3f-8fd3-401a-832b-a2d782ca053b",
+   "card_type": "basic",
+   "front": "Calculate the gradient of a line passing through $(0,5)$ and $(2,-1)$.",
+   "back": "$$-3$ (Calculation: $\\frac{-1-5}{2-0} = \\frac{-6}{2}$)",
+   "options": [
+    {
+     "text": "$$-3$ (Calculation: $\\frac{-1-5}{2-0} = \\frac{-6}{2}$)",
+     "correct": true,
+     "explanation": "Gradient is change in $y$ divided by change in $x$. Here the changes are $-1-5=-6$ and $2-0=2$, so the gradient is $-3$."
+    },
+    {
+     "text": "$$3$ (Calculation: $\\frac{5-(-1)}{2-0} = \\frac{6}{2}$)",
+     "correct": false,
+     "explanation": "The numerator and denominator must use the same point order. Reversing only the y-subtraction loses the negative sign; correctly, $(-1-5)/(2-0)=-3$."
+    },
+    {
+     "text": "$$-2$ (Calculation: $\\frac{-1+5}{2-0} = \\frac{4}{2}$)",
+     "correct": false,
+     "explanation": "Subtracting the y-coordinates incorrectly gives $-4$ instead of $-6$. The vertical change is $-1-5=-6$, so dividing by $2$ gives $-3$."
+    },
+    {
+     "text": "$$-\\frac{1}{3}$ (Calculation: $\\frac{2-0}{-1-5} = \\frac{2}{-6}$)",
+     "correct": false,
+     "explanation": "This divides the horizontal change by the vertical change, calculating the reciprocal of the gradient. Gradient is change in $y$ over change in $x$, giving $-3$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "e5eebc3c-f48c-4d55-b3bd-67a4e29ccb06",
+   "card_type": "basic",
+   "front": "Rearrange $x+4y=12$ to make $y$ the subject.",
+   "back": "$$y = -\\frac{1}{4}x + 3$",
+   "options": [
+    {
+     "text": "$$y = -\\frac{1}{4}x + 3$",
+     "correct": true,
+     "explanation": "Subtracting $x$ gives $4y=12-x$, then dividing every term by $4$ gives $y=3-\\frac{1}{4}x$, equivalent to the stated equation."
+    },
+    {
+     "text": "$$y = \\frac{1}{4}x + 3$",
+     "correct": false,
+     "explanation": "The $x$ term becomes negative when moved to the other side: $4y=12-x$. Dividing by $4$ therefore gives $y=-\\frac{1}{4}x+3$."
+    },
+    {
+     "text": "$$y = -\\frac{1}{4}x + 12$",
+     "correct": false,
+     "explanation": "Dividing $4y=12-x$ by $4$ must divide both terms on the right. The constant becomes $12/4=3$, so $y=-\\frac{1}{4}x+3$."
+    },
+    {
+     "text": "$$y = -4x + 3$",
+     "correct": false,
+     "explanation": "The coefficient of $x$ must also be divided by $4$ after rearranging. From $4y=12-x$, the correct result is $y=-\\frac{1}{4}x+3$."
+    }
+   ],
+   "points": 2
+  }
+ ],
+ "card_count": 16,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-6-6-8-equation-of-a-line/flashcards",
+ "source_sha256": "2b8c65aa4565afcf97df197fda1ae4a969700f6dd25ef6a563f8334c53f39d04",
+ "extracted_at": "2026-11-08T19:00:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-2 run-001)",
+ "task_id": "T-MG-FC-2"
+}

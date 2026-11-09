@@ -1,0 +1,646 @@
+{
+ "topic": "grade-6-6-17-probability-trees",
+ "lane": "igcse-maths-edexcel",
+ "grade": "6",
+ "tier": null,
+ "title": "Probability Trees Flashcards",
+ "cards": [
+  {
+   "id": "e5ad130e-d64d-48ce-9572-6a49300288ad",
+   "card_type": "basic",
+   "front": "What must the probabilities on all branches originating from a single point (split) add up to?",
+   "back": "1",
+   "options": [
+    {
+     "text": "1",
+     "correct": true,
+     "explanation": "The branches represent every possible outcome after that split, so their probabilities must total 1, corresponding to certainty that one of those outcomes occurs."
+    },
+    {
+     "text": "0",
+     "correct": false,
+     "explanation": "A total of 0 would mean that none of the possible outcomes can occur. Since the branches cover all outcomes at the split, their probabilities must add to 1."
+    },
+    {
+     "text": "0.5",
+     "correct": false,
+     "explanation": "The total is not automatically 0.5 when there are two branches; individual probabilities may vary. All branches from a single split must add to 1."
+    },
+    {
+     "text": "100",
+     "correct": false,
+     "explanation": "This confuses a probability with a percentage value. Probabilities written as decimals or fractions add to 1, while probabilities written as percentages add to 100%."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "38829a75-9080-4ba2-a683-eb8d1823a90b",
+   "card_type": "basic",
+   "front": "If the probability of an event happening is $p$, what is the probability of the event not happening?",
+   "back": "$$1 - p$",
+   "options": [
+    {
+     "text": "$$1 - p$",
+     "correct": true,
+     "explanation": "An event and its complement cover all possible outcomes, so their probabilities add to 1. Therefore, the probability that the event does not happen is $1-p$."
+    },
+    {
+     "text": "$$1 + p$",
+     "correct": false,
+     "explanation": "Adding $p$ can produce a value greater than 1, which is impossible for a probability. The complementary probability is found by subtracting $p$ from 1."
+    },
+    {
+     "text": "$$p - 1$",
+     "correct": false,
+     "explanation": "Reversing the subtraction usually produces a negative value, which cannot be a probability. The probability of the event not happening is $1-p$."
+    },
+    {
+     "text": "$$rac{1}{p}$",
+     "correct": false,
+     "explanation": "Taking the reciprocal does not find a complementary probability and may give a result greater than 1. The event and its complement must sum to 1, giving $1-p$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "98f4958d-ea8c-4fbb-9e4f-81bea2a1d912",
+   "card_type": "cloze",
+   "front": "The general formula for the probability of an event is: $\\text{[...]}$",
+   "back": "The general formula for the probability of an event is: $\\boxed{\\frac{\\text{number of successful outcomes}}{\\text{total number of outcomes}}}$",
+   "options": [
+    {
+     "text": "$$\\frac{\\text{number of successful outcomes}}{\\text{total number of outcomes}}$",
+     "correct": true,
+     "explanation": "For equally likely outcomes, probability is calculated by dividing the number of outcomes that satisfy the event by the total number of possible outcomes."
+    },
+    {
+     "text": "$$\\frac{\\text{total number of outcomes}}{\\text{number of successful outcomes}}$",
+     "correct": false,
+     "explanation": "This reverses the fraction and can produce a value greater than 1. Probability is successful outcomes divided by the total number of outcomes."
+    },
+    {
+     "text": "$$\\frac{\\text{number of unsuccessful outcomes}}{\\text{total number of outcomes}}$",
+     "correct": false,
+     "explanation": "This calculates the probability of the event not occurring by counting unsuccessful outcomes. The required probability uses the number of successful outcomes as the numerator."
+    },
+    {
+     "text": "$$\\frac{\\text{number of successful outcomes}}{\\text{number of unsuccessful outcomes}}$",
+     "correct": false,
+     "explanation": "This compares successful outcomes only with unsuccessful ones, rather than with every possible outcome. The denominator must be the total number of outcomes."
+    }
+   ]
+  },
+  {
+   "id": "faf5c64e-1c77-43d5-b97e-6472b5e0b08e",
+   "card_type": "basic",
+   "front": "When is a probability tree diagram preferred over a simple probability calculation?",
+   "back": "When there is a sequence of events or more than one stage.",
+   "options": [
+    {
+     "text": "When there is a sequence of events or more than one stage.",
+     "correct": true,
+     "explanation": "A probability tree clearly represents successive stages and shows how each event branches into later possibilities, making multi-stage probability calculations easier to organise."
+    },
+    {
+     "text": "When there is a single event or only one possible outcome.",
+     "correct": false,
+     "explanation": "A single event or one possible outcome does not usually need a branching diagram. Probability trees are preferred for a sequence of events or more than one stage."
+    },
+    {
+     "text": "When there are equally likely outcomes or no later stages.",
+     "correct": false,
+     "explanation": "Equally likely outcomes alone do not require a tree, especially when there are no subsequent stages. Trees are useful when events occur in sequence across multiple stages."
+    },
+    {
+     "text": "When there is a single calculation or only one stage.",
+     "correct": false,
+     "explanation": "A one-stage calculation can normally be completed directly without a tree. A probability tree is preferred when there is a sequence of events or more than one stage."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "ddf0cc65-badf-419f-b002-fb0f8865423b",
+   "card_type": "basic",
+   "front": "How do you calculate the probability of a single complete path through a probability tree?",
+   "back": "Multiply the probabilities along the branches of that path.",
+   "options": [
+    {
+     "text": "Multiply the probabilities along the branches of that path.",
+     "correct": true,
+     "explanation": "A complete path represents events occurring together in sequence, so the multiplication rule is used to find the probability of following every branch on that path."
+    },
+    {
+     "text": "Add the probabilities along the branches of that path.",
+     "correct": false,
+     "explanation": "Adding is used to combine probabilities from separate alternative paths, not branches within one path. For a single complete path, multiply the branch probabilities."
+    },
+    {
+     "text": "Subtract the probabilities along the branches of that path.",
+     "correct": false,
+     "explanation": "Subtraction is associated with complements, such as finding a probability from 1. A complete path represents successive events, so its branch probabilities are multiplied."
+    },
+    {
+     "text": "Divide the probabilities along the branches of that path.",
+     "correct": false,
+     "explanation": "Division does not combine the successive events represented by a path. To find the probability that all stages on that path occur, multiply their branch probabilities."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "60aea8a3-6de8-4308-8123-04a61a4067a1",
+   "card_type": "basic",
+   "front": "What defines two events as being independent?",
+   "back": "The outcome of the first event does not change the probabilities of the second event.",
+   "options": [
+    {
+     "text": "The outcome of the first event does not change the probabilities of the second event.",
+     "correct": true,
+     "explanation": "Independent events do not influence one another, so knowing the outcome of the first event leaves the probabilities at the second stage unchanged."
+    },
+    {
+     "text": "The outcome of the first event does change the probabilities of the second event.",
+     "correct": false,
+     "explanation": "This describes dependent events, where the first result affects later probabilities. For independent events, the first outcome does not change the probabilities of the second event."
+    },
+    {
+     "text": "The outcome of the first event determines exactly the outcome of the second event.",
+     "correct": false,
+     "explanation": "If the first outcome fixes the second, the events are strongly dependent rather than independent. Independence means the first event does not change second-event probabilities."
+    },
+    {
+     "text": "The outcome of the first event must match the outcome of the second event.",
+     "correct": false,
+     "explanation": "Matching outcomes are not a requirement for independence and may indicate a relationship between events. Independent events are defined by one outcome not changing the other’s probabilities."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "92a16435-22df-462d-802d-acd157de65aa",
+   "card_type": "cloze",
+   "front": "If an item is taken from a bag and not replaced, the probabilities for the next stage of the tree will [ ___ ].",
+   "back": "If an item is taken from a bag and not replaced, the probabilities for the next stage of the tree will change.",
+   "options": [
+    {
+     "text": "change",
+     "correct": true,
+     "explanation": "Without replacement, the bag’s contents and total number of items are altered. This changes the fractions used for the probabilities at the next stage."
+    },
+    {
+     "text": "stay constant",
+     "correct": false,
+     "explanation": "Probabilities stay constant when replacement restores the original contents. Without replacement, both the available outcomes and total number of items change, so the next probabilities change."
+    },
+    {
+     "text": "remain equal",
+     "correct": false,
+     "explanation": "The next-stage probabilities are not necessarily equal because one item has been removed. Without replacement, the composition of the bag changes, so the probabilities change."
+    },
+    {
+     "text": "return to zero",
+     "correct": false,
+     "explanation": "Removing an item does not make all later outcomes impossible. The remaining items still have positive probabilities, but those probabilities change because the bag’s contents have changed."
+    }
+   ]
+  },
+  {
+   "id": "d3546ece-a9d1-4211-9020-8a90fb99b3e7",
+   "card_type": "basic",
+   "front": "If a question asks for the probability of \"different colours\" over two stages, how do you combine the relevant paths?",
+   "back": "Add the individual path probabilities together.",
+   "options": [
+    {
+     "text": "Add the individual path probabilities together.",
+     "correct": true,
+     "explanation": "Different colours can occur through alternative complete paths, such as red then blue or blue then red. Add these mutually exclusive path probabilities to obtain the overall probability."
+    },
+    {
+     "text": "Multiply the individual path probabilities together.",
+     "correct": false,
+     "explanation": "Multiplication finds the probability along each individual path, not the total across alternative paths. After calculating each different-colour path, add their probabilities together."
+    },
+    {
+     "text": "Subtract the individual path probabilities from one another.",
+     "correct": false,
+     "explanation": "The relevant paths are alternative ways to obtain different colours, so neither should be removed from the other. Calculate each path probability and add them together."
+    },
+    {
+     "text": "Divide the individual path probabilities by one another.",
+     "correct": false,
+     "explanation": "Division does not combine alternative outcomes on a probability tree. Different-colour paths are separate mutually exclusive possibilities, so their individual probabilities must be added together."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "bec9274c-f1d6-4347-9a28-24496a3799f0",
+   "card_type": "basic",
+   "front": "What is the most efficient way to calculate the probability of at least one success over multiple trials?",
+   "back": "Calculate $1 - P(\\text{none})$.",
+   "options": [
+    {
+     "text": "Calculate $1 - P(\\text{none})$.",
+     "correct": true,
+     "explanation": "The event “at least one success” is the complement of no successes. Therefore, subtracting the probability of no successes from 1 gives the required probability."
+    },
+    {
+     "text": "Calculate $P(\\text{none})$.",
+     "correct": false,
+     "explanation": "This finds the probability of no successes, not at least one success. The required complementary probability is calculated using $1 - P(\\text{none})$."
+    },
+    {
+     "text": "Calculate $1 - P(\\text{exactly one})$.",
+     "correct": false,
+     "explanation": "Exactly one success is not the complement of at least one success, because two or more successes are also included. The complement is no successes, so use $1 - P(\\text{none})$."
+    },
+    {
+     "text": "Add the probability of success on every trial.",
+     "correct": false,
+     "explanation": "Simply adding individual success probabilities can double-count outcomes and may produce a value above 1. The efficient method is to calculate $1 - P(\\text{none})$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "7b658fbc-cf6e-4dad-91ac-2c123bac881f",
+   "card_type": "cloze",
+   "front": "The [ ___ ] of an event refers to the probability that the event does not happen.",
+   "back": "The complement of an event refers to the probability that the event does not happen.",
+   "options": [
+    {
+     "text": "complement",
+     "correct": true,
+     "explanation": "An event and its complement cover all possible outcomes without overlapping. Their probabilities therefore add to 1, so the complement represents the event not happening."
+    },
+    {
+     "text": "intersection",
+     "correct": false,
+     "explanation": "An intersection describes two or more events occurring together, usually represented by AND. The probability that an event does not happen is called its complement."
+    },
+    {
+     "text": "union",
+     "correct": false,
+     "explanation": "A union describes outcomes belonging to either of two events and is associated with OR. The probability that a particular event does not happen is its complement."
+    },
+    {
+     "text": "sample space",
+     "correct": false,
+     "explanation": "The sample space is the set of all possible outcomes, rather than the probability of an event not occurring. That non-occurrence is represented by the complement."
+    }
+   ]
+  },
+  {
+   "id": "c8414048-5ef9-4c39-a295-73ba13c3d3b2",
+   "card_type": "cloze",
+   "front": "The complement of an event refers to the probability that the event [ ___ ].",
+   "back": "The complement of an event refers to the probability that the event does not happen.",
+   "options": [
+    {
+     "text": "does not happen",
+     "correct": true,
+     "explanation": "The complement contains every outcome outside the original event. It therefore represents the probability that the specified event does not occur."
+    },
+    {
+     "text": "does happen",
+     "correct": false,
+     "explanation": "This describes the original event rather than its complement. The complement refers to all outcomes for which the event does not happen."
+    },
+    {
+     "text": "must happen",
+     "correct": false,
+     "explanation": "An event that must happen is a certain event with probability 1, not a general complement. A complement describes the event not happening."
+    },
+    {
+     "text": "cannot happen",
+     "correct": false,
+     "explanation": "An event that cannot happen is an impossible event with probability 0. A complement instead gives the probability that the original event does not happen."
+    }
+   ]
+  },
+  {
+   "id": "5721cc74-7aae-41ae-94b1-980290e7882b",
+   "card_type": "basic",
+   "front": "A bag contains 5 red and 3 blue counters. Why is the probability of picking red $\\frac{5}{8}$ and not $\\frac{5}{3}$?",
+   "back": "Probabilities must be calculated using the total number of outcomes ($5 + 3 = 8$).",
+   "options": [
+    {
+     "text": "Probabilities must be calculated using the total number of outcomes ($5 + 3 = 8$).",
+     "correct": true,
+     "explanation": "There are eight counters altogether, and five of these are red. Probability is favourable outcomes divided by total outcomes, giving $P(\\text{red})=\\frac{5}{8}$."
+    },
+    {
+     "text": "Probabilities must be calculated using the number of blue outcomes ($3$).",
+     "correct": false,
+     "explanation": "Using only the three blue counters as the denominator confuses unfavourable outcomes with total outcomes. The denominator must be all eight counters, giving $\\frac{5}{8}$."
+    },
+    {
+     "text": "Probabilities must be calculated using the number of red outcomes ($5$).",
+     "correct": false,
+     "explanation": "Using the five red counters as both numerator and denominator would incorrectly give probability 1. The denominator is the total of eight counters, so the probability is $\\frac{5}{8}$."
+    },
+    {
+     "text": "Probabilities must be calculated using the product of the outcomes ($5 \\times 3 = 15$).",
+     "correct": false,
+     "explanation": "Multiplying the red and blue counts does not give the number of possible single-counter outcomes. Add the counts to get eight, making the probability $\\frac{5}{8}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "de278e02-2095-4e50-afe6-f5d0c99df2fe",
+   "card_type": "basic",
+   "front": "Calculate the probability of picking two blue counters if Bag A has $P(\\text{blue}) = \\frac{2}{5}$ and Bag B has $P(\\text{blue}) = \\frac{3}{5}$.",
+   "back": "$$\\frac{2}{5} \\times \\frac{3}{5} = \\frac{6}{25}$",
+   "options": [
+    {
+     "text": "$$\\frac{2}{5} \\times \\frac{3}{5} = \\frac{6}{25}$",
+     "correct": true,
+     "explanation": "Both blue selections must occur, so the probabilities along the relevant tree path are multiplied. Thus $\\frac{2}{5}\\times\\frac{3}{5}=\\frac{6}{25}$."
+    },
+    {
+     "text": "$$\\frac{2}{5} + \\frac{3}{5} = 1$",
+     "correct": false,
+     "explanation": "Adding is used to combine alternative paths, not two events that must both occur. For blue from A and blue from B, multiply to obtain $\\frac{6}{25}$."
+    },
+    {
+     "text": "$$\\frac{2}{5} \\times \\frac{3}{5} = \\frac{6}{10}$",
+     "correct": false,
+     "explanation": "The numerators have been multiplied but the denominators have been added. Multiplying fractions requires multiplying both parts, so the denominator is $5\\times5=25$ and the answer is $\\frac{6}{25}$."
+    },
+    {
+     "text": "$$\\frac{2}{5} \\times \\frac{2}{5} = \\frac{4}{25}$",
+     "correct": false,
+     "explanation": "This incorrectly uses Bag A’s blue probability for both selections. Bag B has blue probability $\\frac{3}{5}$, so the correct product is $\\frac{2}{5}\\times\\frac{3}{5}=\\frac{6}{25}$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "b3b6eb1c-cb08-4fdc-ba70-371f957869a4",
+   "card_type": "cloze",
+   "front": "In probability tree problems, AND situations usually require [ ___ ] while OR situations require addition.",
+   "back": "In probability tree problems, AND situations usually require multiplication while OR situations require addition.",
+   "options": [
+    {
+     "text": "multiplication",
+     "correct": true,
+     "explanation": "An AND situation follows a complete path through the probability tree. Multiplying the branch probabilities gives the joint probability that every event on that path occurs."
+    },
+    {
+     "text": "addition",
+     "correct": false,
+     "explanation": "Addition usually combines alternative, mutually exclusive paths associated with OR. When events on one path must both happen, their branch probabilities are combined by multiplication."
+    },
+    {
+     "text": "subtraction",
+     "correct": false,
+     "explanation": "Subtracting probabilities is generally used for complements or differences, not for events that must occur together. AND probabilities along a tree path are found by multiplication."
+    },
+    {
+     "text": "division",
+     "correct": false,
+     "explanation": "Division can be relevant when finding conditional probabilities from known values, but it does not combine branches along a path. AND situations normally require multiplication."
+    }
+   ]
+  },
+  {
+   "id": "b4670be7-a2f2-4258-a64f-abef1133f084",
+   "card_type": "cloze",
+   "front": "In probability tree problems, AND situations usually require multiplication while OR situations require [ ___ ].",
+   "back": "In probability tree problems, AND situations usually require multiplication while OR situations require addition.",
+   "options": [
+    {
+     "text": "addition",
+     "correct": true,
+     "explanation": "An OR situation combines alternative outcomes or complete paths. When those alternatives are mutually exclusive, their probabilities are added to find the overall probability."
+    },
+    {
+     "text": "multiplication",
+     "correct": false,
+     "explanation": "Multiplication combines successive events along one path and therefore represents AND. Alternative mutually exclusive paths representing OR are combined using addition."
+    },
+    {
+     "text": "subtraction",
+     "correct": false,
+     "explanation": "Subtraction is useful for complements, such as finding $1-P(A)$, but it does not combine alternative successful paths. OR situations normally require addition."
+    },
+    {
+     "text": "division",
+     "correct": false,
+     "explanation": "Division is not the standard operation for combining alternative outcomes in a probability tree. The probabilities of mutually exclusive OR paths are added together."
+    }
+   ]
+  },
+  {
+   "id": "a8c70a90-97c4-4a6a-8d38-c6b4fe59a47e",
+   "card_type": "basic",
+   "front": "If $P(\\text{Win}) = 0.5$ and $P(\\text{Draw}) = 0.2$ for a game, what is the probability of losing?",
+   "back": "$$1 - 0.5 - 0.2 = 0.3$",
+   "options": [
+    {
+     "text": "$$1 - 0.5 - 0.2 = 0.3$",
+     "correct": true,
+     "explanation": "Winning, drawing and losing are mutually exclusive and exhaustive, so their probabilities total 1. Subtracting $0.5$ and $0.2$ leaves a losing probability of $0.3$."
+    },
+    {
+     "text": "$$0.5 + 0.2 = 0.7$",
+     "correct": false,
+     "explanation": "Adding $0.5$ and $0.2$ gives the probability of winning or drawing, not losing. Losing is the complement, so its probability is $1-0.7=0.3$."
+    },
+    {
+     "text": "$$1 - 0.5 = 0.5$",
+     "correct": false,
+     "explanation": "This subtracts only the winning probability and incorrectly includes draws with losses. Both winning and drawing must be removed from 1, leaving $0.3$."
+    },
+    {
+     "text": "$$1 - 0.2 = 0.8$",
+     "correct": false,
+     "explanation": "This subtracts only the drawing probability and incorrectly includes wins with losses. Subtract both $0.5$ and $0.2$ from 1 to obtain $0.3$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "93e3c581-1f37-4e3f-bc0d-aa4398d12b3a",
+   "card_type": "basic",
+   "front": "The probability of a train being late is 0.3. Calculate the probability it is late on at least one of two days.",
+   "back": "$P(\\text{not late}) = 0.7$$P(\\text{never late}) = 0.7 \\times 0.7 = 0.49$$1 - 0.49 = 0.51$",
+   "options": [
+    {
+     "text": "$P(\\text{not late}) = 0.7$$P(\\text{never late}) = 0.7 \\times 0.7 = 0.49$$1 - 0.49 = 0.51$",
+     "correct": true,
+     "explanation": "The complement of being late at least once is never being late. Assuming the days are independent, this has probability $0.7^2=0.49$, so the required probability is $1-0.49=0.51$."
+    },
+    {
+     "text": "$P(\\text{late}) = 0.3$$P(\\text{late twice}) = 0.3 \\times 0.3 = 0.09$$P(\\text{at least once}) = 0.09$",
+     "correct": false,
+     "explanation": "Multiplying $0.3$ by $0.3$ finds the probability that the train is late on both days, not at least one day. Using the complement gives $1-0.7^2=0.51$."
+    },
+    {
+     "text": "$P(\\text{late}) = 0.3$$P(\\text{late on either day}) = 0.3 + 0.3 = 0.6$$P(\\text{at least once}) = 0.6$",
+     "correct": false,
+     "explanation": "Adding the two daily probabilities double-counts the outcome in which the train is late on both days. The complement method avoids this overlap and gives $1-0.7^2=0.51$."
+    },
+    {
+     "text": "$P(\\text{late}) = 0.3$$P(\\text{late twice}) = 0.3 \\times 0.3 = 0.09$$1 - 0.09 = 0.91$",
+     "correct": false,
+     "explanation": "Subtracting the probability of two late days finds the probability that the train is not late on both days. The required complement is never late, so the answer is $1-0.7^2=0.51$."
+    }
+   ],
+   "points": 3
+  },
+  {
+   "id": "82603cb9-ce79-4cde-a0de-3b4328e4f6a6",
+   "card_type": "basic",
+   "front": "What should you check at every \"split\" in a probability tree before starting calculations?",
+   "back": "Check that the probabilities of the branches coming out add to 1.",
+   "options": [
+    {
+     "text": "Check that the probabilities of the branches coming out add to 1.",
+     "correct": true,
+     "explanation": "Branches leaving the same split represent all mutually exclusive possible outcomes. Their probabilities must therefore total 1, allowing a missing branch probability to be found by subtraction."
+    },
+    {
+     "text": "Check that the probabilities of the branches coming out multiply to 1.",
+     "correct": false,
+     "explanation": "Multiplication is used along a path through successive events, not between branches at one split. Probabilities leaving any single split must add to 1 because they cover all outcomes."
+    },
+    {
+     "text": "Check that the probabilities of the branches coming out add to 0.",
+     "correct": false,
+     "explanation": "A total of 0 would mean that none of the outcomes can occur. Since the branches represent every possible outcome at that split, their probabilities must add to 1."
+    },
+    {
+     "text": "Check that the probabilities of the branches coming out are all equal.",
+     "correct": false,
+     "explanation": "Branches are equal only when the outcomes are equally likely, which is not generally true. The universal check is that all probabilities leaving the same split add to 1."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "ed4b8921-774d-4235-ae37-98df78d18d50",
+   "card_type": "cloze",
+   "front": "For two trials, the opposite (complement) of \"at least one success\" is [ ___ ].",
+   "back": "For two trials, the opposite (complement) of \"at least one success\" is no successes.",
+   "options": [
+    {
+     "text": "no successes",
+     "correct": true,
+     "explanation": "The event “at least one success” includes exactly one success and two successes. Its complement contains the only remaining possibility, which is obtaining no successes in the two trials."
+    },
+    {
+     "text": "two successes",
+     "correct": false,
+     "explanation": "Two successes is included within “at least one success”, so it cannot be its complement. The opposite event must exclude every success outcome and is therefore no successes."
+    },
+    {
+     "text": "one success",
+     "correct": false,
+     "explanation": "Exactly one success is one of the outcomes covered by “at least one success”, rather than its opposite. The complement is no successes across the two trials."
+    },
+    {
+     "text": "at least one failure",
+     "correct": false,
+     "explanation": "At least one failure can occur alongside one success, so it overlaps with “at least one success”. The true complement contains no overlap and is no successes."
+    }
+   ]
+  },
+  {
+   "id": "052ddf15-9253-4d24-b5b3-051ea99aa12a",
+   "card_type": "basic",
+   "front": "Sofia wears a blue scarf with $P = \\frac{3}{7}$ or a white scarf. Calculate the probability she wears different colours on Monday and Tuesday.",
+   "back": "$P(\\text{Blue, White}) = \\frac{3}{7} \\times \\frac{4}{7} = \\frac{12}{49}$$P(\\text{White, Blue}) = \\frac{4}{7} \\times \\frac{3}{7} = \\frac{12}{49}$$\\frac{12}{49} + \\frac{12}{49} = \\frac{24}{49}$",
+   "options": [
+    {
+     "text": "$P(\\text{Blue, White}) = \\frac{3}{7} \\times \\frac{4}{7} = \\frac{12}{49}$$P(\\text{White, Blue}) = \\frac{4}{7} \\times \\frac{3}{7} = \\frac{12}{49}$$\\frac{12}{49} + \\frac{12}{49} = \\frac{24}{49}$",
+     "correct": true,
+     "explanation": "Different colours can occur in two mutually exclusive orders: blue then white, or white then blue. Each has probability $\\frac{12}{49}$, so adding them gives $\\frac{24}{49}$."
+    },
+    {
+     "text": "$P(\\text{Blue, Blue}) = \\frac{3}{7} \\times \\frac{3}{7} = \\frac{9}{49}$$P(\\text{White, White}) = \\frac{4}{7} \\times \\frac{4}{7} = \\frac{16}{49}$$\\frac{9}{49} + \\frac{16}{49} = \\frac{25}{49}$",
+     "correct": false,
+     "explanation": "These paths describe wearing the same colour on both days, the complement of the required event. The two different-colour paths total $\\frac{12}{49}+\\frac{12}{49}=\\frac{24}{49}$."
+    },
+    {
+     "text": "$P(\\text{Blue, White}) = \\frac{3}{7} \\times \\frac{4}{7} = \\frac{12}{49}$$P(\\text{White, Blue}) = \\frac{4}{7} \\times \\frac{3}{7} = \\frac{12}{49}$$\\frac{12}{49} \\times \\frac{12}{49} = \\frac{144}{2401}$",
+     "correct": false,
+     "explanation": "Multiplication is used along each path, but alternative mutually exclusive paths must be added. Adding blue-white and white-blue gives $\\frac{12}{49}+\\frac{12}{49}=\\frac{24}{49}$."
+    },
+    {
+     "text": "$P(\\text{Blue, White}) = \\frac{3}{7} \\times \\frac{4}{6} = \\frac{2}{7}$$P(\\text{White, Blue}) = \\frac{4}{7} \\times \\frac{3}{6} = \\frac{2}{7}$$\\frac{2}{7} + \\frac{2}{7} = \\frac{4}{7}$",
+     "correct": false,
+     "explanation": "Changing the denominator to 6 incorrectly treats the scarf choice as sampling without replacement. The daily probabilities remain $\\frac{3}{7}$ and $\\frac{4}{7}$, giving $\\frac{24}{49}$ overall."
+    }
+   ],
+   "points": 3
+  },
+  {
+   "id": "9f2b683e-f327-476c-8f5c-0d7a4cb0e39d",
+   "card_type": "basic",
+   "front": "What do probabilities of 0 and 1 represent respectively?",
+   "back": "0 = impossible1 = certain",
+   "options": [
+    {
+     "text": "0 = impossible1 = certain",
+     "correct": true,
+     "explanation": "Probability 0 means an event cannot occur, while probability 1 means it must occur. All probabilities lie between these endpoints, inclusive."
+    },
+    {
+     "text": "0 = certain1 = impossible",
+     "correct": false,
+     "explanation": "This reverses the probability scale. A probability of 0 represents an impossible event, whereas a probability of 1 represents an event that is certain to occur."
+    },
+    {
+     "text": "0 = unlikely1 = likely",
+     "correct": false,
+     "explanation": "“Unlikely” and “likely” describe probabilities near the endpoints, not the endpoints themselves. Exactly 0 means impossible, and exactly 1 means certain."
+    },
+    {
+     "text": "0 = even chance1 = certain",
+     "correct": false,
+     "explanation": "An even chance has probability $0.5$, not 0. Probability 0 means impossible, while probability 1 correctly represents certainty."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "06996e2b-e02a-4b60-9c7a-818f6554a6b8",
+   "card_type": "basic",
+   "front": "Amir wins table tennis with $P = 0.6$ and darts with $P = 0.75$. Calculate the probability he wins both games.",
+   "back": "$$0.6 \\times 0.75 = 0.45$",
+   "options": [
+    {
+     "text": "$$0.6 \\times 0.75 = 0.45$",
+     "correct": true,
+     "explanation": "Winning both games means following the win branch for table tennis and the win branch for darts. Multiplying the independent probabilities gives $0.6\\times0.75=0.45$."
+    },
+    {
+     "text": "$$0.6 + 0.75 = 1.35$",
+     "correct": false,
+     "explanation": "Adding the probabilities does not find the chance of both events and produces a value above 1, which is impossible for a probability. Multiply instead to obtain $0.45$."
+    },
+    {
+     "text": "$$0.6 \\times 0.75 = 0.045$",
+     "correct": false,
+     "explanation": "The multiplication has a decimal-place error: $6\\times75=450$, with three decimal places in total, giving $0.450$. Therefore, the probability is $0.45$."
+    },
+    {
+     "text": "$$1 - (0.4 \\times 0.25) = 0.9$",
+     "correct": false,
+     "explanation": "This subtracts the probability of losing both games, so it finds winning at least one game. Winning both requires multiplying the two win probabilities, giving $0.6\\times0.75=0.45$."
+    }
+   ],
+   "points": 2
+  }
+ ],
+ "card_count": 22,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-6-6-17-probability-trees/flashcards",
+ "source_sha256": "9af77aecede1a794eced11d67a1bb96bbfc1d8d8d71b7688f84b7cb3d5fe1b06",
+ "extracted_at": "2026-11-08T19:00:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-2 run-001)",
+ "task_id": "T-MG-FC-2"
+}

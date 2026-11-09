@@ -1,0 +1,620 @@
+{
+ "topic": "grade-8-9-8-8-differentiation",
+ "lane": "igcse-maths-edexcel",
+ "grade": "8",
+ "tier": null,
+ "title": "Differentiation Flashcards",
+ "cards": [
+  {
+   "id": "8b7f383f-e28f-4d1b-a255-ab4ad40d0a37",
+   "card_type": "basic",
+   "front": "What does the derivative $\\frac{dy}{dx}$ represent on a curve?",
+   "back": "The gradient function (the gradient at any point).",
+   "options": [
+    {
+     "text": "The gradient function (the gradient at any point).",
+     "correct": true,
+     "explanation": "The derivative gives the gradient of the curve as a function of $x$, so substituting a particular $x$-value gives the curve’s gradient at that point."
+    },
+    {
+     "text": "The equation of the curve (the value of $y$ at any point).",
+     "correct": false,
+     "explanation": "This confuses the original function with its derivative. The derivative is the gradient function, which gives the gradient of the curve at any chosen point."
+    },
+    {
+     "text": "The area function (the area beneath any point).",
+     "correct": false,
+     "explanation": "Area beneath a curve is associated with integration, not differentiation. The derivative represents the gradient function, giving the curve’s gradient at any point."
+    },
+    {
+     "text": "The coordinate function (the coordinates of every point).",
+     "correct": false,
+     "explanation": "The original equation determines coordinates on the curve. Its derivative instead gives the gradient function, which specifies the gradient at each point."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "f694d793-4a1c-4e88-8942-e9671e86a5e3",
+   "card_type": "basic",
+   "front": "State the power rule for differentiating $y=ax^n$.",
+   "back": "$$\\frac{dy}{dx} = anx^{n-1}$",
+   "options": [
+    {
+     "text": "$$\\frac{dy}{dx} = anx^{n-1}$",
+     "correct": true,
+     "explanation": "The power rule multiplies the coefficient by the original power and then reduces the power by one, giving $\\frac{dy}{dx}=anx^{n-1}$."
+    },
+    {
+     "text": "$$\\frac{dy}{dx} = ax^{n-1}$",
+     "correct": false,
+     "explanation": "This reduces the power correctly but forgets to multiply the coefficient by $n$. The full power rule is $\\frac{dy}{dx}=anx^{n-1}$."
+    },
+    {
+     "text": "$$\\frac{dy}{dx} = anx^n$",
+     "correct": false,
+     "explanation": "This multiplies by the power but fails to reduce the exponent by one. Applying both steps gives $\\frac{dy}{dx}=anx^{n-1}$."
+    },
+    {
+     "text": "$$\\frac{dy}{dx} = (n-1)ax^{n-1}$",
+     "correct": false,
+     "explanation": "This incorrectly multiplies by the new exponent $n-1$. The coefficient must be multiplied by the original exponent $n$, giving $\\frac{dy}{dx}=anx^{n-1}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "c6895fdb-13a9-4bb7-b441-777b3cd8f6b3",
+   "card_type": "basic",
+   "front": "What is the derivative of a constant (e.g., 11)?",
+   "back": "Zero",
+   "options": [
+    {
+     "text": "Zero",
+     "correct": true,
+     "explanation": "A constant does not change as $x$ changes, so its rate of change and therefore its derivative are both zero."
+    },
+    {
+     "text": "One",
+     "correct": false,
+     "explanation": "One is the derivative of $x$, not of a constant. Since a constant has no change as $x$ varies, its derivative is zero."
+    },
+    {
+     "text": "Eleven",
+     "correct": false,
+     "explanation": "This leaves the example constant unchanged instead of differentiating it. A constant such as $11$ has no rate of change, so its derivative is zero."
+    },
+    {
+     "text": "Undefined",
+     "correct": false,
+     "explanation": "A constant function has a well-defined horizontal graph with gradient zero everywhere. Therefore, its derivative is zero rather than undefined."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "8f30fc7d-d0bd-454e-95b8-05292ff9d476",
+   "card_type": "basic",
+   "front": "What is the derivative of a linear term such as $7x$?",
+   "back": "$$7$",
+   "options": [
+    {
+     "text": "$$7$",
+     "correct": true,
+     "explanation": "Using the power rule, $7x$ is $7x^1$, so its derivative is $7\\times1x^0=7$."
+    },
+    {
+     "text": "$$7x$",
+     "correct": false,
+     "explanation": "This leaves the term unchanged. Differentiating $7x=7x^1$ reduces the exponent to zero, so the derivative is the constant $7$."
+    },
+    {
+     "text": "$$x$",
+     "correct": false,
+     "explanation": "This incorrectly removes the coefficient rather than the variable. The gradient of $y=7x$ is constant and equal to $7$, so its derivative is $7$."
+    },
+    {
+     "text": "$$0$",
+     "correct": false,
+     "explanation": "Zero is the derivative of a constant term, but $7x$ changes with $x$. Its constant gradient is $7$, so the derivative is $7$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "6e8e98bc-efa5-47a7-9f3d-7bf258476bbd",
+   "card_type": "cloze",
+   "front": "To differentiate a term like $\\frac{1}{x}$, first rewrite it as $\\text{[...]}$.",
+   "back": "To differentiate a term like $\\frac{1}{x}$, first rewrite it as $\\boxed{x^{-1}}$.",
+   "options": [
+    {
+     "text": "$$x^{-1}$",
+     "correct": true,
+     "explanation": "A reciprocal can be written using a negative exponent: $\\frac{1}{x}=x^{-1}$. This form allows the power rule to be applied directly."
+    },
+    {
+     "text": "$$x^1$",
+     "correct": false,
+     "explanation": "A positive exponent gives $x^1=x$, not its reciprocal. Since moving $x$ from the denominator changes the exponent’s sign, $\\frac{1}{x}=x^{-1}$."
+    },
+    {
+     "text": "$$x^{-2}$",
+     "correct": false,
+     "explanation": "The exponent $-2$ represents $\\frac{1}{x^2}$, not $\\frac{1}{x}$. A single factor of $x$ in the denominator becomes $x^{-1}$."
+    },
+    {
+     "text": "$$-x^{-1}$",
+     "correct": false,
+     "explanation": "Moving $x$ from the denominator creates a negative exponent, not a negative coefficient. Therefore $\\frac{1}{x}$ is rewritten as $x^{-1}$."
+    }
+   ]
+  },
+  {
+   "id": "157a65a4-feb9-41c4-aff2-f7e5367cf41c",
+   "card_type": "basic",
+   "front": "Differentiate the term $x^{-1}$.",
+   "back": "$$-x^{-2}$ (or $-\\frac{1}{x^2}$)",
+   "options": [
+    {
+     "text": "$$-x^{-2}$ (or $-\\frac{1}{x^2}$)",
+     "correct": true,
+     "explanation": "The power rule multiplies by the exponent $-1$ and subtracts one from it, so $\\frac{d}{dx}(x^{-1})=-x^{-2}$."
+    },
+    {
+     "text": "$$x^{-2}$ (or $\\frac{1}{x^2}$)",
+     "correct": false,
+     "explanation": "This reduces the exponent correctly but loses the negative multiplier from the original power. The derivative is $-x^{-2}$, equivalent to $-\\frac{1}{x^2}$."
+    },
+    {
+     "text": "$$-x^{-1}$ (or $-\\frac{1}{x}$)",
+     "correct": false,
+     "explanation": "This multiplies by $-1$ but fails to subtract one from the exponent. The new exponent is $-2$, giving $-x^{-2}$."
+    },
+    {
+     "text": "$$-2x^{-3}$ (or $-\\frac{2}{x^3}$)",
+     "correct": false,
+     "explanation": "This applies the power rule as though the original term were $x^{-2}$. Starting from exponent $-1$ gives coefficient $-1$ and exponent $-2$, so the derivative is $-x^{-2}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "7dff4cce-505b-4fad-a7d5-46cdfcd750dd",
+   "card_type": "basic",
+   "front": "What is the required condition for a stationary point?",
+   "back": "$$\\frac{dy}{dx} = 0$",
+   "options": [
+    {
+     "text": "$$\\frac{dy}{dx} = 0$",
+     "correct": true,
+     "explanation": "At a stationary point, the tangent is horizontal, so its gradient is zero. Since the derivative gives the tangent’s gradient, $\\frac{dy}{dx}=0$."
+    },
+    {
+     "text": "$$\\frac{dy}{dx} = 1$",
+     "correct": false,
+     "explanation": "A derivative of $1$ describes a tangent rising with gradient one, not a stationary point. Stationary points require a horizontal tangent, so $\\frac{dy}{dx}=0$."
+    },
+    {
+     "text": "$$\\frac{dy}{dx} = y$",
+     "correct": false,
+     "explanation": "This incorrectly equates the gradient with the curve’s vertical coordinate. A stationary point is identified by a zero tangent gradient, so $\\frac{dy}{dx}=0$."
+    },
+    {
+     "text": "$$\\frac{d^2y}{dx^2} = 0$",
+     "correct": false,
+     "explanation": "The second derivative can help classify curvature but does not give the required stationary-point condition. The first derivative must equal zero: $\\frac{dy}{dx}=0$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "7d009d91-d75e-41c0-b283-6ed401bd8f74",
+   "card_type": "basic",
+   "front": "Describe the tangent at a stationary point.",
+   "back": "It is horizontal (gradient is zero).",
+   "options": [
+    {
+     "text": "It is horizontal (gradient is zero).",
+     "correct": true,
+     "explanation": "A stationary point occurs where the derivative is zero. Since the derivative is the tangent’s gradient, the tangent at that point must be horizontal."
+    },
+    {
+     "text": "It is vertical (gradient is undefined).",
+     "correct": false,
+     "explanation": "A vertical tangent has an undefined gradient and is not the defining feature of a stationary point. At a stationary point, the tangent is horizontal with gradient zero."
+    },
+    {
+     "text": "It is diagonal (gradient is one).",
+     "correct": false,
+     "explanation": "A gradient of one means the curve is increasing, so the point is not stationary. A stationary point has a horizontal tangent with gradient zero."
+    },
+    {
+     "text": "It is horizontal (gradient is undefined).",
+     "correct": false,
+     "explanation": "This correctly identifies the tangent’s direction but gives the wrong gradient. A horizontal tangent has gradient zero, while an undefined gradient describes a vertical tangent."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "e2eee804-c4ba-41bd-873e-2b19d5965053",
+   "card_type": "basic",
+   "front": "How do you find the $y$-coordinate of a stationary point once you have the $x$-coordinate?",
+   "back": "Substitute the $x$-value into the original equation for $y$.",
+   "options": [
+    {
+     "text": "Substitute the $x$-value into the original equation for $y$.",
+     "correct": true,
+     "explanation": "The original equation links each $x$-coordinate to its corresponding $y$-coordinate, so substituting the stationary point’s $x$-value gives its exact $y$-coordinate."
+    },
+    {
+     "text": "Substitute the $x$-value into the differentiated equation for $y$.",
+     "correct": false,
+     "explanation": "The differentiated equation gives the gradient, not the curve’s $y$-coordinate. Substitute the known $x$-value into the original equation for $y$ instead."
+    },
+    {
+     "text": "Substitute the $x$-value into the second derivative for $y$.",
+     "correct": false,
+     "explanation": "The second derivative helps determine the nature of a stationary point, but it does not give its $y$-coordinate. Use the original equation for $y$."
+    },
+    {
+     "text": "Substitute zero into the original equation for $y$.",
+     "correct": false,
+     "explanation": "Setting the derivative equal to zero finds the stationary point’s $x$-coordinate; it does not mean $x=0$. Substitute the calculated $x$-value into the original equation."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "f7510955-47a4-472e-a4b7-90ef2d231b01",
+   "card_type": "basic",
+   "front": "What inequality is used to find where a curve has a negative gradient?",
+   "back": "$$\\frac{dy}{dx} < 0$",
+   "options": [
+    {
+     "text": "$$\\frac{dy}{dx} < 0$",
+     "correct": true,
+     "explanation": "A negative gradient means the derivative is less than zero. Solving $\\frac{dy}{dx}<0$ therefore identifies the $x$-values for which the curve is decreasing."
+    },
+    {
+     "text": "$$\\frac{dy}{dx} > 0$",
+     "correct": false,
+     "explanation": "A derivative greater than zero represents a positive gradient, so the curve is increasing. A negative gradient is found using $\\frac{dy}{dx}<0$."
+    },
+    {
+     "text": "$$\\frac{dy}{dx} = 0$",
+     "correct": false,
+     "explanation": "Setting the derivative equal to zero finds stationary points, where the gradient is neither positive nor negative. Negative gradients satisfy $\\frac{dy}{dx}<0$."
+    },
+    {
+     "text": "$$\\frac{dy}{dx} \\leq 0$",
+     "correct": false,
+     "explanation": "Using a non-strict inequality incorrectly includes points where the gradient is zero. For a genuinely negative gradient, the required inequality is $\\frac{dy}{dx}<0$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "f79104be-c813-4880-afa2-725fed2bcc94",
+   "card_type": "basic",
+   "front": "Why are strict inequalities used when finding a range for negative gradients?",
+   "back": "At the endpoints, the gradient is zero, not negative.",
+   "options": [
+    {
+     "text": "At the endpoints, the gradient is zero, not negative.",
+     "correct": true,
+     "explanation": "The endpoints are roots of the derivative, so the gradient equals zero there. They must be excluded because the question requires a negative, rather than non-positive, gradient."
+    },
+    {
+     "text": "At the endpoints, the gradient is positive, not negative.",
+     "correct": false,
+     "explanation": "The endpoints occur where the derivative crosses or touches the $x$-axis, so the gradient is zero there, not positive. This is why strict inequalities exclude them."
+    },
+    {
+     "text": "At the endpoints, the gradient is undefined, not negative.",
+     "correct": false,
+     "explanation": "For a differentiable curve, the gradient remains defined at these endpoints and equals zero. Strict inequalities are used because zero is not a negative value."
+    },
+    {
+     "text": "At the endpoints, the gradient is constant, not negative.",
+     "correct": false,
+     "explanation": "The key issue is not that the gradient is constant, but that it equals zero at the endpoints. Therefore, the endpoints are excluded using strict inequalities."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "29bb2aae-4236-4f40-8eb2-a0599a9e4e6d",
+   "card_type": "basic",
+   "front": "If $\\frac{dy}{dx}$ is an upward-opening quadratic, where is the gradient negative?",
+   "back": "Between the two roots.",
+   "options": [
+    {
+     "text": "Between the two roots.",
+     "correct": true,
+     "explanation": "An upward-opening quadratic lies below the $x$-axis between its two distinct roots. Therefore, $\\frac{dy}{dx}<0$ between those roots, giving a negative gradient."
+    },
+    {
+     "text": "Outside the two roots.",
+     "correct": false,
+     "explanation": "Outside the roots, an upward-opening derivative is above the $x$-axis, so the gradient is positive. It is negative between the two roots."
+    },
+    {
+     "text": "At the two roots.",
+     "correct": false,
+     "explanation": "At the roots of $\\frac{dy}{dx}$, the derivative equals zero, so these are stationary points. The gradient is negative between the roots, not at them."
+    },
+    {
+     "text": "Beyond the larger root.",
+     "correct": false,
+     "explanation": "Beyond the larger root, an upward-opening quadratic derivative is positive. Its negative values occur below the $x$-axis, between the two roots."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "248a0f99-eadc-4b89-9a1c-b066b53e590d",
+   "card_type": "basic",
+   "front": "In particle motion, how is velocity ($v$) calculated from displacement ($s$)?",
+   "back": "$$v = \\frac{ds}{dt}$",
+   "options": [
+    {
+     "text": "$$v = \\frac{ds}{dt}$",
+     "correct": true,
+     "explanation": "Velocity is the rate of change of displacement with respect to time. Differentiating $s$ with respect to $t$ therefore gives $v=\\frac{ds}{dt}$."
+    },
+    {
+     "text": "$$v = \\frac{dt}{ds}$",
+     "correct": false,
+     "explanation": "This reverses the derivative and gives time change per unit displacement, not velocity. Velocity is displacement change per unit time, so $v=\\frac{ds}{dt}$."
+    },
+    {
+     "text": "$$v = \\frac{d^2s}{dt^2}$",
+     "correct": false,
+     "explanation": "Differentiating displacement twice gives acceleration, not velocity. Velocity is obtained after one differentiation with respect to time: $v=\\frac{ds}{dt}$."
+    },
+    {
+     "text": "$$v = \\frac{dv}{dt}$",
+     "correct": false,
+     "explanation": "The derivative of velocity with respect to time is acceleration. To calculate velocity from displacement, differentiate $s$ once: $v=\\frac{ds}{dt}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "d998709f-b285-48be-ac33-3fce68b790a6",
+   "card_type": "basic",
+   "front": "In particle motion, how is acceleration ($a$) calculated from velocity ($v$)?",
+   "back": "$$a = \\frac{dv}{dt}$",
+   "options": [
+    {
+     "text": "$$a = \\frac{dv}{dt}$",
+     "correct": true,
+     "explanation": "Acceleration is the rate of change of velocity with respect to time. Differentiating the velocity function therefore gives $a=\\frac{dv}{dt}$."
+    },
+    {
+     "text": "$$a = \\frac{dt}{dv}$",
+     "correct": false,
+     "explanation": "This reverses the derivative and measures time change per unit velocity. Acceleration is velocity change per unit time, so $a=\\frac{dv}{dt}$."
+    },
+    {
+     "text": "$$a = \\frac{ds}{dt}$",
+     "correct": false,
+     "explanation": "The derivative of displacement with respect to time is velocity, not acceleration. Acceleration is found by differentiating velocity: $a=\\frac{dv}{dt}$."
+    },
+    {
+     "text": "$$a = \\frac{d^2v}{dt^2}$",
+     "correct": false,
+     "explanation": "Differentiating velocity twice gives the rate of change of acceleration, sometimes called jerk. Acceleration requires only one differentiation: $a=\\frac{dv}{dt}$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "bcd94474-d853-40a1-94d8-3207d354df7a",
+   "card_type": "basic",
+   "front": "What is the physical condition for a particle to be instantaneously at rest?",
+   "back": "Velocity is zero ($v=0$).",
+   "options": [
+    {
+     "text": "Velocity is zero ($v=0$).",
+     "correct": true,
+     "explanation": "A particle is instantaneously at rest when its instantaneous velocity is zero. Its acceleration may still be non-zero, so it may begin moving again immediately."
+    },
+    {
+     "text": "Acceleration is zero ($a=0$).",
+     "correct": false,
+     "explanation": "Zero acceleration means velocity is not changing at that instant, but the particle could still be moving at constant velocity. Rest requires velocity to be zero."
+    },
+    {
+     "text": "Displacement is zero ($s=0$).",
+     "correct": false,
+     "explanation": "Zero displacement only means the particle is at the chosen origin; it may be passing through that point at speed. Instantaneous rest requires $v=0$."
+    },
+    {
+     "text": "Time is zero ($t=0$).",
+     "correct": false,
+     "explanation": "The value $t=0$ marks the chosen starting time and says nothing by itself about motion. A particle is instantaneously at rest when $v=0$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "deb88988-2f73-4e9b-99d1-a02a7657dd78",
+   "card_type": "basic",
+   "front": "How do you find acceleration from a displacement equation?",
+   "back": "Differentiate twice with respect to $t$.",
+   "options": [
+    {
+     "text": "Differentiate twice with respect to $t$.",
+     "correct": true,
+     "explanation": "Differentiating displacement once with respect to time gives velocity, and differentiating again gives acceleration. Thus, $a=\\frac{d^2s}{dt^2}$."
+    },
+    {
+     "text": "Differentiate once with respect to $t$.",
+     "correct": false,
+     "explanation": "One differentiation of displacement gives velocity rather than acceleration. Differentiate a second time with respect to $t$ to obtain $a=\\frac{d^2s}{dt^2}$."
+    },
+    {
+     "text": "Integrate twice with respect to $t$.",
+     "correct": false,
+     "explanation": "Integration moves from acceleration towards velocity and displacement, so it is the reverse process. To find acceleration from displacement, differentiate twice with respect to $t$."
+    },
+    {
+     "text": "Integrate once with respect to $t$.",
+     "correct": false,
+     "explanation": "Integrating displacement does not produce acceleration. Acceleration is the second derivative of displacement, so the displacement equation must be differentiated twice with respect to $t$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "aa8ec16b-e187-4519-a3ae-3667ecb12a1f",
+   "card_type": "cloze",
+   "front": "A [ ___ ] is a straight line that touches a curve at one point and has the same direction as the curve at that point.",
+   "back": "A tangent is a straight line that touches a curve at one point and has the same direction as the curve at that point.",
+   "options": [
+    {
+     "text": "tangent",
+     "correct": true,
+     "explanation": "A tangent touches a curve at a particular point and follows the curve’s direction there, so it has the same gradient at the point of contact."
+    },
+    {
+     "text": "normal",
+     "correct": false,
+     "explanation": "A normal also meets the curve at a point, but it is perpendicular to the tangent there. The line with the same direction as the curve is the tangent."
+    },
+    {
+     "text": "secant",
+     "correct": false,
+     "explanation": "A secant passes through two points on a curve rather than matching its direction at one point. The line described is a tangent."
+    },
+    {
+     "text": "chord",
+     "correct": false,
+     "explanation": "A chord is a line segment joining two points on a curve. A straight line touching at one point and sharing the curve’s direction is a tangent."
+    }
+   ]
+  },
+  {
+   "id": "442083ea-6d10-40b0-b870-35fbc674aac7",
+   "card_type": "cloze",
+   "front": "A tangent is a straight line that touches a curve at one point and has the same [ ___ ] as the curve at that point.",
+   "back": "A tangent is a straight line that touches a curve at one point and has the same direction as the curve at that point.",
+   "options": [
+    {
+     "text": "direction",
+     "correct": true,
+     "explanation": "At the point of contact, a tangent points in the same direction as the curve. Equivalently, the tangent and curve have the same gradient there."
+    },
+    {
+     "text": "position",
+     "correct": false,
+     "explanation": "A tangent shares the curve’s direction at the point of contact, not its position as a general property. Its gradient matches the curve’s gradient there."
+    },
+    {
+     "text": "curvature",
+     "correct": false,
+     "explanation": "The tangent is straight, so its curvature does not match that of a curved graph. It instead has the same direction as the curve at the contact point."
+    },
+    {
+     "text": "length",
+     "correct": false,
+     "explanation": "Length is not the defining shared property and a tangent line may extend indefinitely. It is the direction, or gradient, that matches at the contact point."
+    }
+   ]
+  },
+  {
+   "id": "f82d708e-6c59-4299-8997-69f082c01466",
+   "card_type": "cloze",
+   "front": "A negative power like $x^{-2}$ means the term belongs in the [ ___ ].",
+   "back": "A negative power like $x^{-2}$ means the term belongs in the denominator.",
+   "options": [
+    {
+     "text": "denominator",
+     "correct": true,
+     "explanation": "The negative-index rule gives $x^{-n}=\\frac{1}{x^n}$. Therefore, $x^{-2}=\\frac{1}{x^2}$, placing the corresponding positive power in the denominator."
+    },
+    {
+     "text": "numerator",
+     "correct": false,
+     "explanation": "Placing $x^2$ in the numerator would represent $x^2$, not $x^{-2}$. By the negative-index rule, $x^{-2}=\\frac{1}{x^2}$, so it belongs in the denominator."
+    },
+    {
+     "text": "coefficient",
+     "correct": false,
+     "explanation": "A coefficient is a numerical multiplier and does not determine whether a power is above or below a fraction bar. A negative power places the term in the denominator."
+    },
+    {
+     "text": "index",
+     "correct": false,
+     "explanation": "The index is the power itself, such as $-2$, rather than a part of a fraction. Rewriting with a positive index places $x^2$ in the denominator."
+    }
+   ]
+  },
+  {
+   "id": "65697809-c352-465b-86d9-6c628085ff10",
+   "card_type": "basic",
+   "front": "Differentiate $y = 5x^4 - 3x^2$.",
+   "back": "$$\\frac{dy}{dx} = 20x^3 - 6x$",
+   "options": [
+    {
+     "text": "$$\\frac{dy}{dx} = 20x^3 - 6x$",
+     "correct": true,
+     "explanation": "Using $\\frac{d}{dx}(ax^n)=anx^{n-1}$ gives $\\frac{d}{dx}(5x^4)=20x^3$ and $\\frac{d}{dx}(-3x^2)=-6x$, producing the stated derivative."
+    },
+    {
+     "text": "$$\\frac{dy}{dx} = 5x^3 - 3x$",
+     "correct": false,
+     "explanation": "This reduces each power but fails to multiply each coefficient by the original power. Applying the power rule correctly gives $\\frac{dy}{dx}=20x^3-6x$."
+    },
+    {
+     "text": "$$\\frac{dy}{dx} = 20x^4 - 6x^2$",
+     "correct": false,
+     "explanation": "This multiplies the coefficients by the powers but fails to reduce each power by one. The power rule gives $\\frac{dy}{dx}=20x^3-6x$."
+    },
+    {
+     "text": "$$\\frac{dy}{dx} = 20x^3 - 3x$",
+     "correct": false,
+     "explanation": "The first term is differentiated correctly, but differentiating $-3x^2$ requires multiplying $-3$ by $2$. The correct second term is $-6x$, giving $20x^3-6x$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "206db3c4-2c57-4c5d-943c-edc008e44a2d",
+   "card_type": "basic",
+   "front": "In motion questions, why might you reject a solution like $t = -3$?",
+   "back": "Time $t$ must be greater than or equal to zero ($t \\geq 0$).",
+   "options": [
+    {
+     "text": "Time $t$ must be greater than or equal to zero ($t \\geq 0$).",
+     "correct": true,
+     "explanation": "If $t$ measures elapsed time from the start of the model, it cannot be negative. Valid solutions therefore satisfy $t\\geq0$, so $t=-3$ is rejected."
+    },
+    {
+     "text": "Time $t$ must be less than or equal to zero ($t \\leq 0$).",
+     "correct": false,
+     "explanation": "This reverses the valid domain for elapsed time. Time measured from the start must satisfy $t\\geq0$, which is why the negative solution $t=-3$ is rejected."
+    },
+    {
+     "text": "Time $t$ must be equal to zero ($t = 0$).",
+     "correct": false,
+     "explanation": "Time need not equal zero; positive values can also represent valid moments after the motion begins. The required condition is $t\\geq0$, so $t=-3$ is invalid."
+    },
+    {
+     "text": "Time $t$ must be greater than or equal to negative three ($t \\geq -3$).",
+     "correct": false,
+     "explanation": "This bound would incorrectly allow $t=-3$, even though it represents a time before the model begins. Elapsed time must instead satisfy $t\\geq0$."
+    }
+   ],
+   "points": 1
+  }
+ ],
+ "card_count": 21,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-8-9-8-8-differentiation/flashcards",
+ "source_sha256": "4400b3d8430f27a25f26bf65af5c9c8a3e5d0cbed4faac8918c73cfa2afb22cc",
+ "extracted_at": "2026-11-08T19:00:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-2 run-001)",
+ "task_id": "T-MG-FC-2"
+}

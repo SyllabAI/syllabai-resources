@@ -1,0 +1,673 @@
+{
+ "topic": "grade-8-9-8-10-probability-equation-questions",
+ "lane": "igcse-maths-edexcel",
+ "grade": "8",
+ "tier": null,
+ "title": "Probability Equation Questions Flashcards",
+ "cards": [
+  {
+   "id": "3e1cea52-abcd-4b78-b05c-8dfd8c2cc46f",
+   "card_type": "basic",
+   "front": "What calculation is used to find the probability of two sequential outcomes along a specific path?",
+   "back": "Multiply the probabilities of the individual outcomes together.",
+   "options": [
+    {
+     "text": "Multiply the probabilities of the individual outcomes together.",
+     "correct": true,
+     "explanation": "Following one specific path means both sequential outcomes must occur. The multiplication rule therefore combines their individual probabilities to find the probability of the complete path."
+    },
+    {
+     "text": "Add the probabilities of the individual outcomes together.",
+     "correct": false,
+     "explanation": "Adding probabilities is used for mutually exclusive alternative outcomes, not successive events on one path. For two sequential outcomes, multiply the individual probabilities together."
+    },
+    {
+     "text": "Subtract the probabilities of the individual outcomes.",
+     "correct": false,
+     "explanation": "Subtraction may be used when finding a complement, but it does not combine sequential events. Along a specific path, multiply the probabilities of the individual outcomes together."
+    },
+    {
+     "text": "Divide the probabilities of the individual outcomes.",
+     "correct": false,
+     "explanation": "Division can arise in conditional probability calculations, but it is not the path rule. The probability of successive outcomes along one path is found by multiplying."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "54dc1ad4-d6b7-4df7-a5e8-a67d60bbeda9",
+   "card_type": "cloze",
+   "front": "In without replacement questions, the denominator for the second pick is usually [ ___ ] than the first denominator.",
+   "back": "In without replacement questions, the denominator for the second pick is usually one less than the first denominator.",
+   "options": [
+    {
+     "text": "one less",
+     "correct": true,
+     "explanation": "Without replacement, the first selected item is not returned, so the total number of available items decreases by one before the second pick."
+    },
+    {
+     "text": "one greater",
+     "correct": false,
+     "explanation": "This incorrectly treats the first pick as adding an item to the bag. Without replacement, one item is removed, so the second denominator is one less."
+    },
+    {
+     "text": "the same",
+     "correct": false,
+     "explanation": "Keeping the denominator unchanged is appropriate with replacement. Without replacement, the first item remains removed, making the denominator for the second pick one less."
+    },
+    {
+     "text": "two less",
+     "correct": false,
+     "explanation": "Only one item has been selected before the second pick, so reducing the denominator by two is an off-by-one error. It should be one less."
+    }
+   ]
+  },
+  {
+   "id": "f37306ba-6689-4b1b-ab4b-99b01bd92e43",
+   "card_type": "basic",
+   "front": "A bag contains $x$ blue counters and 5 red counters. What is the total number of counters?",
+   "back": "$$x + 5$",
+   "options": [
+    {
+     "text": "$$x + 5$",
+     "correct": true,
+     "explanation": "The total is found by adding the numbers of each colour. There are $x$ blue counters and 5 red counters, giving $x + 5$ altogether."
+    },
+    {
+     "text": "$$x - 5$",
+     "correct": false,
+     "explanation": "Subtracting would find a difference between the numbers of counters, not the total. Adding the $x$ blue and 5 red counters gives $x + 5$."
+    },
+    {
+     "text": "$$5x$",
+     "correct": false,
+     "explanation": "Multiplication would mean there are five groups of $x$ counters, which is not stated. The two separate quantities must be added, giving $x + 5$."
+    },
+    {
+     "text": "$$rac{x}{5}$",
+     "correct": false,
+     "explanation": "Dividing compares the number of blue counters with the number of red counters rather than finding the total. The total number is $x + 5$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "1ea29bae-f9d9-4a58-999e-5f1909038f61",
+   "card_type": "cloze",
+   "front": "In with replacement questions, the probabilities for the second pick [ ___ ] as the first pick.",
+   "back": "In with replacement questions, the probabilities for the second pick stay the same as the first pick.",
+   "options": [
+    {
+     "text": "stay the same",
+     "correct": true,
+     "explanation": "With replacement, the selected item is returned before the second pick. The bag’s composition is restored, so all probabilities remain unchanged."
+    },
+    {
+     "text": "decrease by one",
+     "correct": false,
+     "explanation": "This confuses the number of items with the probability and ignores replacement. Returning the selected item restores the original composition, so the probabilities stay the same."
+    },
+    {
+     "text": "always increase",
+     "correct": false,
+     "explanation": "Replacement does not increase the number or proportion of any type of item. It restores the original contents, so the second-pick probabilities stay the same."
+    },
+    {
+     "text": "always decrease",
+     "correct": false,
+     "explanation": "Probabilities decrease only in some without-replacement situations, depending on the first outcome. With replacement, the original contents are restored and the probabilities stay the same."
+    }
+   ]
+  },
+  {
+   "id": "65fbbf5e-bd38-4c15-9065-6680602505e0",
+   "card_type": "basic",
+   "front": "How should you represent the number of red and blue counters if their ratio is 3:1?",
+   "back": "Red: $3k$Blue: $k$",
+   "options": [
+    {
+     "text": "Red: $3k$Blue: $k$",
+     "correct": true,
+     "explanation": "A ratio of 3:1 means the number of red counters is three equal parts and the number of blue counters is one part, represented by $3k$ and $k$."
+    },
+    {
+     "text": "Red: $k$Blue: $3k$",
+     "correct": false,
+     "explanation": "This reverses the order of the ratio and represents red to blue as 1:3. For 3:1, red must be $3k$ and blue must be $k$."
+    },
+    {
+     "text": "Red: $3k$Blue: $2k$",
+     "correct": false,
+     "explanation": "These expressions give a red-to-blue ratio of 3:2 rather than 3:1. The blue quantity must be one equal part, so it should be $k$."
+    },
+    {
+     "text": "Red: $4k$Blue: $k$",
+     "correct": false,
+     "explanation": "These expressions represent a ratio of 4:1, adding an extra part to the red quantity. A 3:1 ratio is represented by $3k$ and $k$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "934f0c17-3b53-4ee8-9d83-b1744c2cfbf3",
+   "card_type": "basic",
+   "front": "A bag has $x$ blue counters. If one blue counter is removed and not replaced, what is the new number of blue counters?",
+   "back": "$$x - 1$",
+   "options": [
+    {
+     "text": "$$x - 1$",
+     "correct": true,
+     "explanation": "Removing one of the $x$ blue counters reduces the number of blue counters by exactly one. Because it is not replaced, the new number is $x - 1$."
+    },
+    {
+     "text": "$$x + 1$",
+     "correct": false,
+     "explanation": "Adding one would represent a blue counter being put into the bag rather than removed. Removing one without replacement leaves $x - 1$ blue counters."
+    },
+    {
+     "text": "$$x$",
+     "correct": false,
+     "explanation": "The number would remain $x$ only if the removed blue counter were replaced. Since it is not returned, the new number is $x - 1$."
+    },
+    {
+     "text": "$$x - 2$",
+     "correct": false,
+     "explanation": "Subtracting two assumes that two blue counters were removed. Only one blue counter is removed and not replaced, so the new number is $x - 1$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "0067c1ec-ba8b-4112-a358-72bafaa69573",
+   "card_type": "cloze",
+   "front": "A probability equation is formed by setting an [ ___ ] equal to a given probability value.",
+   "back": "A probability equation is formed by setting an algebraic probability equal to a given probability value.",
+   "options": [
+    {
+     "text": "algebraic probability",
+     "correct": true,
+     "explanation": "An algebraic probability expresses the probability using an unknown, often derived from numbers of outcomes. Equating it to the stated probability creates an equation that can be solved."
+    },
+    {
+     "text": "experimental frequency",
+     "correct": false,
+     "explanation": "An experimental frequency is a count from observed trials, not the unknown probability expression used to form the equation. The required quantity is an algebraic probability."
+    },
+    {
+     "text": "sample space",
+     "correct": false,
+     "explanation": "A sample space lists possible outcomes rather than providing an expression to equate to a probability value. A probability equation begins with an algebraic probability."
+    },
+    {
+     "text": "outcome total",
+     "correct": false,
+     "explanation": "The total number of outcomes may form part of a probability fraction, but it is not the complete expression being equated. The equation uses an algebraic probability."
+    }
+   ]
+  },
+  {
+   "id": "e5f28e9b-a0cc-4c83-98c9-0dc483281fda",
+   "card_type": "cloze",
+   "front": "A probability equation is formed by setting an algebraic probability equal to a [ ___ ] value.",
+   "back": "A probability equation is formed by setting an algebraic probability equal to a given probability value.",
+   "options": [
+    {
+     "text": "given probability",
+     "correct": true,
+     "explanation": "The algebraic expression models the required event’s probability. Setting it equal to the probability supplied in the question produces an equation that can be solved for the unknown."
+    },
+    {
+     "text": "total frequency",
+     "correct": false,
+     "explanation": "A total frequency is a number of observations, not necessarily a probability between 0 and 1. The algebraic probability must equal the given probability value."
+    },
+    {
+     "text": "sample-space size",
+     "correct": false,
+     "explanation": "The sample-space size counts possible outcomes and may be used as a denominator, but it is not the stated probability value. The equation uses the given probability."
+    },
+    {
+     "text": "expected frequency",
+     "correct": false,
+     "explanation": "Expected frequency is found by multiplying probability by the number of trials, so it is not itself the required probability value. The expression is set equal to the given probability."
+    }
+   ]
+  },
+  {
+   "id": "c4c5170a-c089-4e5d-a089-6565db54a2db",
+   "card_type": "basic",
+   "front": "If the ratio of red to blue counters is 2:1, what is the algebraic expression for the total number of counters?",
+   "back": "$$3k$ (where red is $2k$ and blue is $k$).",
+   "options": [
+    {
+     "text": "$$3k$ (where red is $2k$ and blue is $k$).",
+     "correct": true,
+     "explanation": "The ratio 2:1 has 3 equal parts altogether, so the counters can be represented by $2k$ red and $k$ blue, giving a total of $3k$."
+    },
+    {
+     "text": "$$2k$ (where red is $k$ and blue is $k$).",
+     "correct": false,
+     "explanation": "This treats the two ratio parts as equal and therefore loses the 2:1 relationship. The total must contain three parts, so the correct expression is $3k$."
+    },
+    {
+     "text": "$$k$ (where red is $2k$ and blue is $k$).",
+     "correct": false,
+     "explanation": "This gives only the blue portion rather than adding both colours. Since red contributes $2k$ and blue contributes $k$, the total is $3k$."
+    },
+    {
+     "text": "$$4k$ (where red is $2k$ and blue is $2k$).",
+     "correct": false,
+     "explanation": "This changes the ratio to 1:1 by making both colours $2k$. The ratio 2:1 requires $2k$ red and $k$ blue, producing a total of $3k$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "71863e6d-5db2-4c6a-8202-8ec55918216e",
+   "card_type": "basic",
+   "front": "When solving $\\left(\\frac{4}{y+4}\\right)^2 = \\frac{4}{25}$, why is only the positive square root used?",
+   "back": "Probabilities cannot be negative.The number of counters must be positive.",
+   "options": [
+    {
+     "text": "Probabilities cannot be negative.The number of counters must be positive.",
+     "correct": true,
+     "explanation": "A probability cannot be negative, and a bag containing counters must have a positive number of counters. Therefore, only the positive square-root result is valid."
+    },
+    {
+     "text": "Probabilities must be negative.The number of counters may be zero.",
+     "correct": false,
+     "explanation": "Probabilities are never negative, and a bag described as containing counters cannot have zero counters. The valid result is selected because probabilities are non-negative and the counter count is positive."
+    },
+    {
+     "text": "Probabilities must be greater than one.The number of counters must be even.",
+     "correct": false,
+     "explanation": "Probabilities range from 0 to 1, not above 1, and there is no requirement that the number of counters be even. The positive root is chosen for the stated probability and count restrictions."
+    },
+    {
+     "text": "Probabilities can be negative.The number of counters must be positive.",
+     "correct": false,
+     "explanation": "Although a counter total must be positive, probabilities cannot be negative. The negative square-root result must therefore be rejected, leaving only the positive root."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "db01d8e7-8dfb-4770-b0c1-4c1329b04738",
+   "card_type": "cloze",
+   "front": "When a probability equation results in a quadratic, you must [ ___ ] any solutions that are negative or non-integers.",
+   "back": "When a probability equation results in a quadratic, you must reject any solutions that are negative or non-integers.",
+   "options": [
+    {
+     "text": "reject",
+     "correct": true,
+     "explanation": "A quadratic may produce algebraic solutions that are negative or non-integers, but these cannot represent valid counter counts. Such solutions must be rejected."
+    },
+    {
+     "text": "accept",
+     "correct": false,
+     "explanation": "Accepting every quadratic solution could include negative or fractional counter counts, which are impossible in a probability model. These invalid solutions must be rejected."
+    },
+    {
+     "text": "round",
+     "correct": false,
+     "explanation": "Rounding an invalid solution can change the equation and create a value that was not actually obtained. Negative or non-integer solutions should be rejected rather than rounded."
+    },
+    {
+     "text": "double",
+     "correct": false,
+     "explanation": "Changing the size of a solution does not test whether it represents a valid number of counters. Negative or non-integer solutions must be rejected altogether."
+    }
+   ]
+  },
+  {
+   "id": "4b4fe540-1620-4e29-9f7d-e886887ab17c",
+   "card_type": "cloze",
+   "front": "When a probability equation results in a quadratic, you must reject any solutions that are [ ___ ] or non-integers.",
+   "back": "When a probability equation results in a quadratic, you must reject any solutions that are negative or non-integers.",
+   "options": [
+    {
+     "text": "negative",
+     "correct": true,
+     "explanation": "A number of counters cannot be negative, so any negative quadratic solution is impossible in this context. Non-integer solutions must also be rejected because counters are counted in whole numbers."
+    },
+    {
+     "text": "positive",
+     "correct": false,
+     "explanation": "Positive solutions are usually the possible ones for a counter count, so they should not automatically be rejected. The invalid category here is negative solutions, along with non-integers."
+    },
+    {
+     "text": "zero",
+     "correct": false,
+     "explanation": "Zero is not generally the category that must be rejected; it can sometimes be a valid boundary value depending on the model. Negative values are impossible for numbers of counters."
+    },
+    {
+     "text": "fractional",
+     "correct": false,
+     "explanation": "Fractional values are already covered by non-integers, so this does not identify the separate impossible category. The missing category is negative solutions, which cannot represent counters."
+    }
+   ]
+  },
+  {
+   "id": "d87f2866-608e-40e1-a63a-1a9c69dd8b55",
+   "card_type": "basic",
+   "front": "A bag has $n$ counters; 6 are red and the rest are blue. What is the expression for the number of blue counters?",
+   "back": "$$n - 6$",
+   "options": [
+    {
+     "text": "$$n - 6$",
+     "correct": true,
+     "explanation": "The total number of counters is $n$, and 6 of them are red. Subtracting the red counters from the total leaves $n - 6$ blue counters."
+    },
+    {
+     "text": "$$n + 6$",
+     "correct": false,
+     "explanation": "Adding the red counters to the total double-counts them rather than removing them. The blue counters are what remains after subtracting 6 from $n$, giving $n - 6$."
+    },
+    {
+     "text": "$$6 - n$",
+     "correct": false,
+     "explanation": "Reversing the subtraction usually gives a negative value when the total exceeds 6, which cannot represent blue counters. The correct remainder is found with $n - 6$."
+    },
+    {
+     "text": "$$\\frac{n}{6}$",
+     "correct": false,
+     "explanation": "Dividing by 6 does not separate the red counters from the total; it changes the scale instead. Removing the 6 red counters requires subtraction, so the expression is $n - 6$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "52d00342-23b2-4896-823f-d1b2beb18673",
+   "card_type": "basic",
+   "front": "The ratio of red:blue is 2:1. Two counters are picked without replacement. Write the expression for $P(\\text{red then red})$.",
+   "back": "$$$\\frac{2k}{3k} \\times \\frac{2k - 1}{3k - 1}$$",
+   "options": [
+    {
+     "text": "$$$\\frac{2k}{3k} \\times \\frac{2k - 1}{3k - 1}$$",
+     "correct": true,
+     "explanation": "Initially, the probability of red is $\\frac{2k}{3k}$. After one red is removed, $2k-1$ red counters remain out of $3k-1$ total counters, giving the product shown."
+    },
+    {
+     "text": "$$$\\frac{2k}{3k} \\times \\frac{2k}{3k - 1}$$",
+     "correct": false,
+     "explanation": "This forgets that the first red counter has been removed, so the second red count should decrease as well as the total. The correct second factor is $\\frac{2k-1}{3k-1}$."
+    },
+    {
+     "text": "$$$\\frac{2k}{3k} \\times \\frac{2k - 1}{3k}$$",
+     "correct": false,
+     "explanation": "Without replacement, the total number of counters decreases after the first pick, so the second denominator cannot remain $3k$. It must become $3k-1$, giving the stated product."
+    },
+    {
+     "text": "$$$\\frac{k}{3k} \\times \\frac{k - 1}{3k - 1}$$",
+     "correct": false,
+     "explanation": "This uses the blue count $k$ instead of the red count $2k$, calculating the probability of blue then blue. Red then red requires $2k$ red counters initially."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "7272f4da-7365-4fe9-b421-56c37ab5a768",
+   "card_type": "basic",
+   "front": "Why might a solution like $n = 4$ be rejected if a bag is known to contain 6 red counters?",
+   "back": "The total number of counters ($n$) cannot be less than the number of red counters already in the bag.",
+   "options": [
+    {
+     "text": "The total number of counters ($n$) cannot be less than the number of red counters already in the bag.",
+     "correct": true,
+     "explanation": "The total includes all 6 red counters, so it must be at least 6. Since 4 is less than 6, it cannot be a possible value for $n$."
+    },
+    {
+     "text": "The total number of counters ($n$) cannot be greater than the number of red counters already in the bag.",
+     "correct": false,
+     "explanation": "A bag may contain blue counters as well as the 6 red counters, so its total can be greater than 6. The total cannot be less than the number of red counters."
+    },
+    {
+     "text": "The total number of counters ($n$) must be equal to the number of red counters already in the bag.",
+     "correct": false,
+     "explanation": "This would incorrectly assume that the bag contains no blue counters. The total may exceed 6, but it cannot be below 6 because all red counters are included in the total."
+    },
+    {
+     "text": "The total number of counters ($n$) cannot be less than or equal to the number of red counters already in the bag.",
+     "correct": false,
+     "explanation": "A total of exactly 6 is possible if every counter is red, so equality is not forbidden. Only totals below 6 are impossible because the bag already contains 6 red counters."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "d64380ed-c74e-4d4c-808b-aba88ff7b2f8",
+   "card_type": "cloze",
+   "front": "To solve $\\frac{x(x - 1)}{(x + 3)(x + 2)} = \\frac{5}{14}$, the first step is to [ ___ ] the fractions.",
+   "back": "To solve $\\frac{x(x - 1)}{(x + 3)(x + 2)} = \\frac{5}{14}$, the first step is to cross-multiply the fractions.",
+   "options": [
+    {
+     "text": "cross-multiply",
+     "correct": true,
+     "explanation": "Cross-multiplication removes the two denominators by multiplying opposite numerator and denominator terms, producing an equation that can then be expanded and rearranged into a quadratic."
+    },
+    {
+     "text": "factor",
+     "correct": false,
+     "explanation": "Factoring is normally used after the equation has been rearranged into a suitable polynomial form. The first step here is to remove the fractions by cross-multiplying."
+    },
+    {
+     "text": "simplify",
+     "correct": false,
+     "explanation": "The fractions cannot be cancelled directly because their factors are not common across the equality. Cross-multiplication is the initial operation used to eliminate the denominators."
+    },
+    {
+     "text": "add",
+     "correct": false,
+     "explanation": "Adding the fractions would not correctly preserve the equation or remove the denominators. Multiplying opposite sides across the equality is the required first step."
+    }
+   ]
+  },
+  {
+   "id": "a6f58302-8552-4059-82fb-4e586880bdeb",
+   "card_type": "basic",
+   "front": "If the first pick has a probability of $\\frac{x}{x+3}$, what is the probability of picking the same item again without replacement?",
+   "back": "$$$\\frac{x - 1}{x + 2}$$",
+   "options": [
+    {
+     "text": "$$$\\frac{x - 1}{x + 2}$$",
+     "correct": true,
+     "explanation": "After the first item is selected, one matching item and one total item have been removed. The second probability is therefore $(x-1)/(x+2)$."
+    },
+    {
+     "text": "$$$\\frac{x}{x + 2}$$",
+     "correct": false,
+     "explanation": "This reduces the total number of items but not the number of matching items. Without replacement, both quantities decrease by one, giving $(x-1)/(x+2)$."
+    },
+    {
+     "text": "$$$\\frac{x - 1}{x + 3}$$",
+     "correct": false,
+     "explanation": "This reduces the number of matching items but leaves the original total unchanged. One item has also left the bag, so the denominator must become $x+2$."
+    },
+    {
+     "text": "$$$\\frac{x}{x + 3}$$",
+     "correct": false,
+     "explanation": "This simply repeats the first-pick probability and treats the selection as though replacement occurred. Without replacement, the second probability is $(x-1)/(x+2)$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "874724b4-5195-4851-ac0f-96673b9d4d1f",
+   "card_type": "cloze",
+   "front": "In a \"show that\" question, you must begin with the [ ___ ] and expand it until it matches the required quadratic equation.",
+   "back": "In a \"show that\" question, you must begin with the probability statement and expand it until it matches the required quadratic equation.",
+   "options": [
+    {
+     "text": "probability statement",
+     "correct": true,
+     "explanation": "The probability statement expresses the given event algebraically. Expanding and rearranging this statement then produces the quadratic equation that the question asks you to show."
+    },
+    {
+     "text": "quadratic equation",
+     "correct": false,
+     "explanation": "The quadratic equation is the result that must be reached, not the starting point. Begin with the probability statement, then expand and rearrange it."
+    },
+    {
+     "text": "final answer",
+     "correct": false,
+     "explanation": "The final answer cannot serve as the derivation in a “show that” question. The working must start from the probability statement and lead to the required equation."
+    },
+    {
+     "text": "given information",
+     "correct": false,
+     "explanation": "The given information helps construct the model, but the algebraic demonstration starts from the resulting probability statement, which can then be expanded and rearranged."
+    }
+   ]
+  },
+  {
+   "id": "2858242f-51d3-44dd-9412-2d921f276f4e",
+   "card_type": "cloze",
+   "front": "In a \"show that\" question, you must begin with the probability statement and expand it until it matches the required [ ___ ].",
+   "back": "In a \"show that\" question, you must begin with the probability statement and expand it until it matches the required quadratic equation.",
+   "options": [
+    {
+     "text": "quadratic equation",
+     "correct": true,
+     "explanation": "Expanding products of algebraic probabilities commonly creates a squared term. Rearranging the resulting probability statement therefore produces the required quadratic equation."
+    },
+    {
+     "text": "linear equation",
+     "correct": false,
+     "explanation": "A linear equation has no squared variable term, whereas multiplying algebraic probabilities generally produces one. The expression must be rearranged to match the required quadratic equation."
+    },
+    {
+     "text": "probability tree",
+     "correct": false,
+     "explanation": "A probability tree organises possible outcomes but is not the algebraic result requested. The probability statement must be expanded until it matches the required quadratic equation."
+    },
+    {
+     "text": "numerical answer",
+     "correct": false,
+     "explanation": "A numerical answer may follow after solving, but the “show that” stage requires a specific algebraic form. Here, the expanded statement must match the quadratic equation."
+    }
+   ]
+  },
+  {
+   "id": "60f8f16c-3cbc-46fc-8ca7-961cf07c26c6",
+   "card_type": "basic",
+   "front": "A bag contains 5 red and 3 blue counters. Find $P(\\text{blue then blue})$ without replacement.",
+   "back": "$$$\\frac{3}{8} \\times \\frac{2}{7} = \\frac{6}{56}$$ (or $\\frac{3}{28}$)",
+   "options": [
+    {
+     "text": "$$$\\frac{3}{8} \\times \\frac{2}{7} = \\frac{6}{56}$$ (or $\\frac{3}{28}$)",
+     "correct": true,
+     "explanation": "The first blue probability is $3/8$. Without replacement, two blue counters remain among seven counters, so multiplication gives $6/56=3/28$."
+    },
+    {
+     "text": "$$$\\frac{3}{8} \\times \\frac{3}{8} = \\frac{9}{64}$$ (or $\\frac{9}{64}$)",
+     "correct": false,
+     "explanation": "Using $3/8$ for both picks incorrectly assumes replacement. Without replacement, the second probability is $2/7$, so the required result is $6/56=3/28$."
+    },
+    {
+     "text": "$$$\\frac{3}{8} \\times \\frac{2}{8} = \\frac{6}{64}$$ (or $\\frac{3}{32}$)",
+     "correct": false,
+     "explanation": "The blue numerator has decreased correctly, but the denominator must also decrease because only seven counters remain. The correct product is $3/8\\times2/7=3/28$."
+    },
+    {
+     "text": "$$$\\frac{3}{8} \\times \\frac{3}{7} = \\frac{9}{56}$$ (or $\\frac{9}{56}$)",
+     "correct": false,
+     "explanation": "The denominator reflects the removal, but the numerator incorrectly leaves three blue counters available. Only two remain, giving $3/8\\times2/7=3/28$."
+    }
+   ],
+   "points": 2
+  },
+  {
+   "id": "19dc7fe0-c0d7-4063-b667-55bf702849eb",
+   "card_type": "basic",
+   "front": "Simplify the algebraic fraction $\\frac{2k}{3k}$ before solving a probability equation.",
+   "back": "$$$\\frac{2}{3}$$",
+   "options": [
+    {
+     "text": "$$$\\frac{2}{3}$$",
+     "correct": true,
+     "explanation": "The common non-zero factor $k$ cancels from the numerator and denominator: $2k/(3k)=2/3$. This simplifies the later probability equation."
+    },
+    {
+     "text": "$$$\\frac{2k}{3}$$",
+     "correct": false,
+     "explanation": "This cancels $k$ from only the denominator rather than from both parts of the fraction. Cancelling the common factor completely gives $2/3$."
+    },
+    {
+     "text": "$$$\\frac{2}{3k}$$",
+     "correct": false,
+     "explanation": "This removes $k$ from the numerator but incorrectly retains it in the denominator. The same factor must cancel from both, leaving $2/3$."
+    },
+    {
+     "text": "$$$\\frac{k}{3}$$",
+     "correct": false,
+     "explanation": "Cancelling the coefficients instead of the shared factor $k$ changes the fraction’s value. Only $k$ cancels, so the simplified fraction is $2/3$."
+    }
+   ],
+   "points": 1
+  },
+  {
+   "id": "158dea65-389f-4ab8-ac98-d241fb8dd657",
+   "card_type": "basic",
+   "front": "What three algebraic values should you define first for a ratio question (e.g., Red:Blue is 3:1)?",
+   "back": "Red counters ($3k$)Blue counters ($k$)Total counters ($4k$)",
+   "options": [
+    {
+     "text": "Red counters ($3k$)Blue counters ($k$)Total counters ($4k$)",
+     "correct": true,
+     "explanation": "The ratio $3:1$ gives $3k$ red counters and $k$ blue counters. Adding both parts gives the total number of counters as $4k$."
+    },
+    {
+     "text": "Red counters ($3k$)Blue counters ($k$)Total counters ($2k$)",
+     "correct": false,
+     "explanation": "The red and blue expressions match the ratio, but the total is found by addition, not subtraction. It must be $3k+k=4k$."
+    },
+    {
+     "text": "Red counters ($k$)Blue counters ($3k$)Total counters ($4k$)",
+     "correct": false,
+     "explanation": "This reverses the two parts of the stated Red:Blue ratio. A ratio of $3:1$ requires $3k$ red, $k$ blue and $4k$ altogether."
+    },
+    {
+     "text": "Red counters ($k + 3$)Blue counters ($k + 1$)Total counters ($2k + 4$)",
+     "correct": false,
+     "explanation": "The ratio numbers represent multiples of the same scale factor, not fixed counter values added to $k$. The correct expressions are $3k$, $k$ and $4k$."
+    }
+   ],
+   "points": 3
+  },
+  {
+   "id": "34c843b0-6a1e-4b9e-ace1-cf1635cc3d61",
+   "card_type": "basic",
+   "front": "A bag has 4 red and $y$ blue counters. Two are picked with replacement. Write the expression for $P(\\text{red then red})$.",
+   "back": "$$$\\left(\\frac{4}{y + 4}\\right)^2$$",
+   "options": [
+    {
+     "text": "$$$\\left(\\frac{4}{y + 4}\\right)^2$$",
+     "correct": true,
+     "explanation": "There are four red counters among $y+4$ counters. Replacement leaves the probability unchanged for the second pick, so the probability is the square of $4/(y+4)$."
+    },
+    {
+     "text": "$$$\\frac{4}{y + 4} \\times \\frac{3}{y + 3}$$",
+     "correct": false,
+     "explanation": "This uses the without-replacement probabilities by reducing both counts after the first pick. With replacement, both red-pick probabilities remain $4/(y+4)$."
+    },
+    {
+     "text": "$$$\\left(\\frac{y}{y + 4}\\right)^2$$",
+     "correct": false,
+     "explanation": "This calculates the probability of two blue counters rather than two red counters. For red then red, the repeated probability is $4/(y+4)$."
+    },
+    {
+     "text": "$$$\\frac{16}{y + 4}$$",
+     "correct": false,
+     "explanation": "Squaring a fraction requires squaring both its numerator and denominator. The denominator must be $(y+4)^2$, giving $(4/(y+4))^2$."
+    }
+   ],
+   "points": 2
+  }
+ ],
+ "card_count": 23,
+ "source_url": "https://www.mathsgenie.co.uk/igcse/maths/edexcel/grade-8-9-8-10-probability-equation-questions/flashcards",
+ "source_sha256": "85d21e3f05365e39bc168aaccac5d904a74a66b63277081ee794f19429aa7957",
+ "extracted_at": "2026-11-08T19:00:04Z",
+ "extractor": "mg_fc1_extract.py (T-MG-FC-2 run-001)",
+ "task_id": "T-MG-FC-2"
+}
