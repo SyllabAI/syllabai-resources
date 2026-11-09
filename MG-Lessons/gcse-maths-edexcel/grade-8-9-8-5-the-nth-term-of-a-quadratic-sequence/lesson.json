@@ -1,0 +1,133 @@
+{
+ "topic": "grade-8-9-8-5-the-nth-term-of-a-quadratic-sequence",
+ "lane": "gcse-maths-edexcel",
+ "grade": "8",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Spotting a quadratic sequence",
+   "body": "![Difference table for the sequence 7, 15, 27, 43 showing first differences +8, +12, +16 and constant second differences +4, +4](../assets/001-d1b7884b-b35b-4ad2-9ef8-88262f8190a6.jpeg)\n\nA sequence is a list of numbers following a rule, and the position of each term is called the term number $n$. The nth term is a formula that gives the value of a term for any chosen position.\n\nLinear sequences have constant first differences, but quadratic sequences have constant second differences. In the diagram, the gaps between the gaps stay the same, so the sequence is quadratic.",
+   "figure_refs": [
+    "assets/001-d1b7884b-b35b-4ad2-9ef8-88262f8190a6.jpeg"
+   ]
+  },
+  {
+   "heading": "The $2a$ rule",
+   "body": "Quadratic nth terms usually have the form $an^2 + bn + c$. The constant second difference is $2a$, so halving the second difference gives the coefficient of $n^2$.\n\nIf the second difference is 6, the formula starts with $3n^2$. If the second difference is -4, it starts with $-2n^2$, so the sign matters as well."
+  },
+  {
+   "heading": "Extending the pattern",
+   "body": "The sequence $3, 8, 15, 24$ has first differences $5, 7, 9$, so the second difference is 2. Because that second difference is constant, keep increasing the first differences by 2.\n\n$$$5,\\quad 7,\\quad 9,\\quad 11,\\quad 13$$\n\nAdd the new differences to the last term: $24 + 11 = 35$ and $35 + 13 = 48$. So the next two terms are 35 and 48."
+  },
+  {
+   "heading": "Worked example: finding the nth term",
+   "body": "For the sequence $7, 15, 27, 43$, the first differences are $8, 12, 16$ and the second differences are $4, 4$. Since $4 = 2a$, the coefficient of $n^2$ is $a = 2$.\n\nStart with $2n^2$ and list its first four values.\n$$2,\\quad 8,\\quad 18,\\quad 32$$\nThese are the values to subtract from the original terms.\n\nSubtracting gives the leftover sequence below.\n$$7 - 2 = 5,\\quad 15 - 8 = 7,\\quad 27 - 18 = 9,\\quad 43 - 32 = 11$$\nThis leftover sequence increases by 2 each time, so its nth term is $2n + 3$.\n\nCombine the quadratic and linear parts to get $2n^2 + 2n + 3$. A quick check gives 7 when $n = 1$ and 15 when $n = 2$, so the formula is consistent."
+  },
+  {
+   "heading": "When the second difference is negative",
+   "body": "The sequence $18, 15, 10, 3$ has first differences $-3, -5, -7$ and constant second differences of $-2$. Halving this second difference gives $a = -1$, which indicates the nth term formula begins with $-n^2$.\n\nThe first four values of the sequence $-n^2$ are shown below:\n$$-1,\\quad -4,\\quad -9,\\quad -16$$\nSubtracting these from the original sequence terms leaves a constant result:\n$$19,\\quad 19,\\quad 19,\\quad 19$$\n\nSince this leftover value is constant, it contributes a simple $+19$ to the expression. The final nth term is $-n^2 + 19$. A common mistake is writing $n^2 + 19$, but that would result in a positive second difference rather than a negative one."
+  },
+  {
+   "heading": "Finding the term number",
+   "body": "Sometimes you know the nth term and want the position of a particular value. Set the formula equal to that value and rearrange so one side is 0.\n\nFor $n^2 + 2n + 5 = 85$, move 85 across to get $n^2 + 2n - 80 = 0$. Then factorise:\n\n$$$(n + 10)(n - 8) = 0$$\n\nSo $n = -10$ or $n = 8$. Only positive whole numbers can be term numbers, so the value 85 is the 8th term."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Why is the sequence $6, 10, 16, 24$ quadratic?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The first differences are constant",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "The second differences are constant",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "Every term is even",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "The terms are increasing",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The first differences are $4, 6, 8$, so they are not constant. The second differences are $2, 2$, which is the key sign of a quadratic sequence. A common wrong answer is A, but constant first differences would mean the sequence is linear, not quadratic."
+  },
+  {
+   "id": "card-6",
+   "question": "The sequence $4, 11, 22, 37, \\dots$ is quadratic. What is the next term?",
+   "options": [
+    {
+     "id": "a",
+     "text": "52",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "54",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "56",
+     "is_correct": true
+    },
+    {
+     "id": "d",
+     "text": "60",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The first differences are $7, 11, 15$, so the second difference is 4. The next first difference is $19$, so the next term is $37 + 19 = 56$. A common wrong answer is A, which repeats the difference of 15 instead of increasing it by 4."
+  },
+  {
+   "id": "card-12",
+   "question": "What is the nth term of the sequence $18, 15, 10, 3$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$n^2 + 19$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$-n^2 + 19$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$-n^2 - 19$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$n^2 - 19$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The first differences are $-3, -5, -7$, so the second difference is $-2$ and therefore $a = -1$. Using $-n^2$ leaves a constant 19, so the full formula is $-n^2 + 19$. A common wrong answer is A, but $n^2 + 19$ would have second difference $+2$, not $-2$."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-8-9-8-5-the-nth-term-of-a-quadratic-sequence/lessons",
+ "source_sha256": "8917e3be137697abdd1a557b4932b0bc97745e758f682344dc58049db06be32b",
+ "extracted_at": "2026-11-08T17:59:06Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "ee8096fa-1479-4351-81c7-dcd655e40a44",
+  "topic_id": "6c65f1a4-c65d-4123-b2e7-d7a3f6f359e7",
+  "created_at": "2026-05-13T06:29:18.242Z",
+  "updated_at": "2026-05-13T06:30:05.452Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

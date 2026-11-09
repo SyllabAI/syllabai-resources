@@ -1,0 +1,133 @@
+{
+ "topic": "grade-7-7-7-rearranging-harder-formulae",
+ "lane": "gcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "The basic strategy",
+   "body": "![Flowchart for rearranging harder formulae showing: choose the subject letter, undo operations from the outside in, and if the letter appears twice then collect terms, factorise and divide](../assets/001-6de3ed67-5e8e-4ad4-869f-f5c4e384d014.jpeg)\n\nRearranging a formula means making one chosen letter the subject. All the other letters are treated like fixed numbers while you use the balance rule to isolate your variable.\n\nFor harder formulae, look at what is happening to the subject and undo those operations from the outside in. If the subject appears more than once, collect those terms together before you try to factorise and divide.",
+   "figure_refs": [
+    "assets/001-6de3ed67-5e8e-4ad4-869f-f5c4e384d014.jpeg"
+   ]
+  },
+  {
+   "heading": "Worked example with a coefficient",
+   "body": "Harder formulae often hide the subject inside a term like $\\frac{1}{2}kt^2$. Start by isolating the whole term containing the subject, not just the letter.\n\n$$D = nt + \\frac{1}{2}kt^2$$\n\n$$D - nt = \\frac{1}{2}kt^2$$\n\nNow remove the coefficient of $k$. Multiply both sides by $2$, then divide by $t^2$.\n\n$$2(D - nt) = kt^2$$\n\n$$k = \\frac{2(D - nt)}{t^2}$$\n\nThe whole coefficient of $k$ is $\\frac{1}{2}t^2$. A common mistake is to forget one part of that coefficient and stop at $2(D - nt) = k$."
+  },
+  {
+   "heading": "Squares and roots",
+   "body": "If the subject is squared, first isolate the squared term. Only then use a square root.\n\n$$q^2 = p^2 + 5rs$$\n\n$$q^2 - 5rs = p^2$$\n\nSquare rooting both sides gives the subject. In pure algebra, remember that both positive and negative values can square to the same answer.\n\n$$p = \\pm\\sqrt{q^2 - 5rs}$$\n\nIf the formula describes a length or speed, context may tell you to keep only the positive root. Without that context, missing the $\\pm$ loses half the solution."
+  },
+  {
+   "heading": "When the subject appears twice",
+   "body": "When the subject appears on both sides, you cannot isolate it until you collect those terms together. This usually means expand, move the subject terms to one side, and then factorise.\n\n$$$y(4 + c) = d(y + 5)$$\n\nExpand the brackets and collect the $y$ terms. This creates one equation with all the $y$ terms together.\n\n$$4y + cy = dy + 5d$$\n\n$$4y + cy - dy = 5d$$\n\nFactorise out $y$, then divide by the bracket multiplying it. You cannot cancel $y$ at the start because the right-hand side is a sum, not a single factor.\n\n$$y(4 + c - d) = 5d$$\n\n$$y = \\frac{5d}{4 + c - d}$$"
+  },
+  {
+   "heading": "Clearing algebraic fractions",
+   "body": "To clear an algebraic fraction, multiply both sides by the entire denominator. This turns the problem back into normal collecting and factorising.\n\n$$a = \\frac{5 + 3cy}{3y - 2}$$\n\n$$a(3y - 2) = 5 + 3cy$$\n\nExpand and then collect the $y$ terms on one side of the equation. Keep the whole denominator together until you multiply it through to avoid common errors.\n\n$$3ay - 2a = 5 + 3cy$$\n\n$$3ay - 3cy = 5 + 2a$$\n\nFactorise and divide to isolate $y$. Also remember that the original denominator cannot be zero, so $3y - 2 \\neq 0$.\n\n$$y(3a - 3c) = 5 + 2a$$\n\n$$y = \\frac{5 + 2a}{3a - 3c}$$"
+  },
+  {
+   "heading": "Reciprocal formulae",
+   "body": "Reciprocal formulae look messy because every term is a fraction. A reliable method is to multiply every term by the product of all the denominators, assuming those denominators are non-zero.\n\n$$$\\frac{1}{p} = \\frac{1}{q} + \\frac{1}{r}$$\n\nMultiply by $pqr$ to clear all the fractions in one step. This avoids dealing with separate fractions one at a time.\n\n$$$qr = pr + pq$$\n$$qr - pq = pr$$\n\nFactorise and divide. Be careful with the order in $r - p$ because swapping it changes the sign of the answer.\n\n$$$q(r - p) = pr$$\n$$q = \\frac{pr}{r - p}$$"
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "To make $k$ the subject of $w = r + kt$, what should you do first?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Divide both sides by $t$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "Subtract $r$ from both sides",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "Add $r$ to both sides",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Multiply both sides by $k$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "You must first isolate the term containing $k$, so subtract $r$ to get $w - r = kt$. The common wrong answer A divides too early and leaves the added term $r$ mixed in with $k$."
+  },
+  {
+   "id": "card-7",
+   "question": "Make $p$ the subject of $q^2 = p^2 + 5rs$.",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$p = \\sqrt{q^2 - 5rs}$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$p = \\pm\\sqrt{q^2 - 5rs}$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$p = q^2 - 5rs$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$p = \\frac{q^2}{5rs}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "First isolate $p^2$ to get $q^2 - 5rs = p^2$, then square root both sides, which gives two possible values. The common wrong answer A forgets the negative root, which matters unless context says $p$ must be positive."
+  },
+  {
+   "id": "card-12",
+   "question": "Which is the correct rearrangement of $a = \\frac{5 + 3cy}{3y - 2}$ to make $y$ the subject?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$y = \\frac{5 + 2a}{3a - 3c}$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$y = \\frac{5 - 2a}{3a - 3c}$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$y = \\frac{5 + 2a}{3a + 3c}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$y = \\frac{a(3y - 2) - 5}{3c}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "To make $y$ the subject, first clear the fraction: $a(3y - 2) = 5 + 3cy$. Expand the brackets: $3ay - 2a = 5 + 3cy$. Collect all terms involving $y$ on one side and constant terms on the other: $3ay - 3cy = 5 + 2a$. Factorise $y$ out: $y(3a - 3c) = 5 + 2a$. Finally, divide: $y = \\frac{5 + 2a}{3a - 3c}$."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-7-7-7-rearranging-harder-formulae/lessons",
+ "source_sha256": "c7adbe5b56464ed3a0a25a07f76a189b52faf2f6b4e8503cf8ef26731e8e32ba",
+ "extracted_at": "2026-11-08T17:59:02Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "a374c945-1900-4ed2-ac07-fa982fb85c6b",
+  "topic_id": "20bcccef-c52d-4528-b3b7-06ce35fba7e7",
+  "created_at": "2026-05-14T02:57:00.922Z",
+  "updated_at": "2026-05-14T03:07:00.287Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

@@ -1,0 +1,129 @@
+{
+ "topic": "grade-7-7-1-surds",
+ "lane": "gcse-maths-edexcel",
+ "grade": "7",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What is a surd?",
+   "body": "A surd is an irrational root left in exact form, such as $\\sqrt{2}$ or $\\sqrt{5}$. A square root like $\\sqrt{36}$ is not a surd because it simplifies exactly to $6$.\n\nWhen simplifying, look for the largest square number factor inside the root. You may split multiplication, so $\\sqrt{ab} = \\sqrt{a}\\sqrt{b}$ for positive numbers, but you must not split addition, so $\\sqrt{9+16} \\ne \\sqrt{9}+\\sqrt{16}$."
+  },
+  {
+   "heading": "Simplifying square roots",
+   "body": "To simplify a square root, factor out the largest square number inside it. This keeps the answer in exact form and gets to the simplest surd quickly.\n\nFor $\\sqrt{72}$, use $72 = 36 \\times 2$, so $\\sqrt{72} = \\sqrt{36}\\sqrt{2} = 6\\sqrt{2}$. If there is a coefficient, simplify the root first, so $5\\sqrt{45} = 5\\sqrt{9 \\times 5} = 5 \\times 3\\sqrt{5} = 15\\sqrt{5}$.\n\nYou may split multiplication inside a root, but not addition. That is why $\\sqrt{9+16} \\ne \\sqrt{9}+\\sqrt{16}$."
+  },
+  {
+   "heading": "Expanding and squaring",
+   "body": "When expanding brackets with surds, treat them like algebra terms, and remember that $\\sqrt{a}\\times\\sqrt{a} = a$. Like surds can be added or subtracted only when the root part is the same.\n\nFor $(3+\\sqrt{2})(2-\\sqrt{2})$, write all four products: $6 - 3\\sqrt{2} + 2\\sqrt{2} - 2$. Then collect the integers and the like surds to get $4 - \\sqrt{2}$.\n\nFor a squared bracket, write it as two identical brackets before expanding. So $(5-\\sqrt{3})^2 = (5-\\sqrt{3})(5-\\sqrt{3}) = 25 - 5\\sqrt{3} - 5\\sqrt{3} + 3 = 28 - 10\\sqrt{3}$."
+  },
+  {
+   "heading": "Rationalising denominators",
+   "body": "![Flowchart showing 72 split into 36 times 2 to simplify square root 72 to 6 square root 2, and showing rationalising 1 over 2 plus square root 3 with the conjugate 2 minus square root 3](../assets/001-4780670d-c68f-4151-a162-7ec34695fbb5.jpeg)\n\nRationalising the denominator means rewriting a fraction so that no surd is left on the bottom. This process removes irrational values from the denominator to simplify the expression.\n\nIf the denominator is a single surd, multiply the top and bottom of the fraction by that same surd. For example: $$\\frac{4+\\sqrt{8}}{\\sqrt{2}} \\times \\frac{\\sqrt{2}}{\\sqrt{2}} = \\frac{4\\sqrt{2}+\\sqrt{16}}{2} = 2\\sqrt{2}+2$$ The denominator becomes rational because $\\sqrt{2} \\times \\sqrt{2} = 2$.\n\nIf the denominator has two terms, multiply by its conjugate, changing only the sign in the middle. This uses the difference of two squares to eliminate surds: $$\\frac{4+\\sqrt{3}}{2+\\sqrt{3}} \\times \\frac{2-\\sqrt{3}}{2-\\sqrt{3}} = \\frac{8-4\\sqrt{3}+2\\sqrt{3}-3}{1} = 5-2\\sqrt{3}$$ This works because the denominator calculation is $(2+\\sqrt{3})(2-\\sqrt{3}) = 4-3 = 1$.",
+   "figure_refs": [
+    "assets/001-4780670d-c68f-4151-a162-7ec34695fbb5.jpeg"
+   ]
+  },
+  {
+   "heading": "Algebraic surds",
+   "body": "The same rules work with letters, as long as the expressions under the square roots are non-negative in GCSE real-number questions. Conjugates still cancel the surd part because $(\\sqrt{m}+\\sqrt{n})(\\sqrt{m}-\\sqrt{n}) = m-n$.\n\nSquared brackets still need the middle term, as shown in the expansion of this algebraic expression:\n\n$$$(3p+\\sqrt{q})^2 = (3p+\\sqrt{q})(3p+\\sqrt{q}) = 9p^2 + 3p\\sqrt{q} + 3p\\sqrt{q} + q = 9p^2 + 6p\\sqrt{q} + q$$\n\nAlways keep answers exact, and only collect surd terms when the root part matches."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-3",
+   "question": "Which expression is not a surd?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$\\sqrt{2}$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$\\sqrt{45}$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$\\sqrt{36}$",
+     "is_correct": true
+    },
+    {
+     "id": "d",
+     "text": "$$\\sqrt{7}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$\\sqrt{36} = 6$, so it is rational and not a surd. A common wrong choice is $\\sqrt{45}$, but although it is not in simplest form, it is still a surd because it simplifies to $3\\sqrt{5}$, which is irrational."
+  },
+  {
+   "id": "card-7",
+   "question": "Which expression is equal to $(5-\\sqrt{3})^2$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$28-10\\sqrt{3}$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$25+3$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$28+10\\sqrt{3}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$22-5\\sqrt{3}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The correct expansion is $25 - 5\\sqrt{3} - 5\\sqrt{3} + 3 = 28 - 10\\sqrt{3}$. The most common wrong answer is $25+3$ because it squares the two terms separately and forgets the two middle terms."
+  },
+  {
+   "id": "card-12",
+   "question": "Which expression is equal to $\\frac{1}{\\sqrt{5}-1}$ after rationalising the denominator?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$\\sqrt{5}+1$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$\\frac{\\sqrt{5}+1}{4}$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$\\frac{\\sqrt{5}-1}{4}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$\\frac{1}{4}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Multiply by the conjugate: $\\frac{1}{\\sqrt{5}-1} \\times \\frac{\\sqrt{5}+1}{\\sqrt{5}+1} = \\frac{\\sqrt{5}+1}{5-1} = \\frac{\\sqrt{5}+1}{4}$. A common wrong answer is $\\sqrt{5}+1$ because it forgets that the new denominator is $4$, not $1$."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-7-7-1-surds/lessons",
+ "source_sha256": "cbe712bd95afd9c57b5020844351459480e98d9e9e08c79a1f5982bc76f09b18",
+ "extracted_at": "2026-11-08T17:58:52Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "b231bf17-6303-4e1c-bb0a-315f40c7c282",
+  "topic_id": "e50927bf-16d2-4ae8-b648-eaf3527c48ac",
+  "created_at": "2026-05-14T03:53:11.350Z",
+  "updated_at": "2026-05-14T03:59:39.467Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

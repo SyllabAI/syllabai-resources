@@ -1,0 +1,85 @@
+# grade-2-2-7-writing-an-expression — lesson
+
+_Lane: `gcse-maths-edexcel` · grade 2 · 5 content steps · 3 check questions (source: MathsGenie lessons)_
+
+## Letters, expressions and formulas
+
+![Word clue chart showing more than to plus, less than to minus, twice to 2x, half to x over 2, each or per to multiplication, and total to adding parts](../assets/001-19ff0f1a-484c-4270-a106-3358ba7bfa81.jpeg)
+
+A variable is a letter that stands for a number we do not know yet or that can change. An expression is a mathematical phrase made from numbers, variables and operations, so it does not have an equals sign.
+
+If a question says "write an expression in terms of $x$", your answer should still contain $x$. You are writing the rule, not working out one final number.
+
+A formula is like an expression with a name for the total, so it does use an equals sign, such as $C = 3x + 5$. Spotting whether you need an expression or a formula will help you avoid a very common exam mistake.
+
+## Clue words for adding and subtracting
+
+Words like "more than", "older than" and "longer than" usually mean add. For instance, 7 more than $m$ is written as $m + 7$.
+
+Words like "less than", "fewer than", "younger than", "eats" and "gives away" usually mean subtract. In this context, 5 fewer than $n$ is represented as $n - 5$.
+
+When writing these expressions, start with the original amount first, then apply the change described. That is why "13 years younger than $n$" is $n - 13$, not $13 - n$.
+
+## Multiplying and dividing from words
+
+Words like "each", "per" and "times" often mean multiply, while "half" means divide by 2. So twice an age $a$ is $2a$, and half a price $p$ is $\frac{p}{2}$.
+
+If a worker earns $w$ pounds per hour for 16 hours, the total pay is $16w$. In algebra, we usually write multiplication without the sign, so $16w$ is the neat final form.
+
+If tickets cost £5 each and the total money collected is $R$ pounds, the number of tickets sold is $\frac{R}{5}$. When you know the total and want the number of items, dividing by the cost of one item often makes sense.
+
+## Totals and named totals
+
+A total means all the parts together, so work out each part first and then add them. If 4 juices cost $j$ pounds each and 3 hot chocolates cost $h$ pounds each, the two parts are $4j$ and $3h$.
+
+Add the parts to get the expression $4j + 3h$. If the question names the total cost as $C$, write the formula as an equation: $C = 4j + 3h$.
+
+Always check what is being counted. For example, $s + b$ counts the total number of packs, but $4s + 10b$ counts the total number of pens inside those small and big packs.
+
+## Combining expressions and simplifying
+
+Sometimes you need a total made from several small expressions, such as three people's ages. Like terms have the same variable part, so $n + n + n = 3n$.
+
+Example: Ben is $n$ years old, Cara is $n + 9$, and Dan is $n - 4$. Add the three ages together to find the total simplified expression:
+
+$$$n + (n + 9) + (n - 4) = 3n + 5$$
+
+The variable terms make $3n$ and the constant terms make $5$. Translate each part correctly before you simplify. Since Dan is younger, the 4 is subtracted rather than added.
+
+## Check yourself
+
+1. Which of these is an expression, not a formula?
+
+   - $$3x + 5$ ✔
+
+   - $$C = 3x + 5$
+
+   - $$x = 5$
+
+   - $$3 + 5 = 8$
+
+   _Explanation:_ $$3x + 5$ is just a mathematical phrase, so it is an expression. A common wrong answer is $C = 3x + 5$, but that is a formula because the equals sign names what $C$ is equal to.
+
+2. A club sells badges for £4 each and takes $R$ pounds altogether. Which expression gives the number of badges sold?
+
+   - $$4R$
+
+   - $$R + 4$
+
+   - $$\frac{R}{4}$ ✔
+
+   - $$\frac{4}{R}$
+
+   _Explanation:_ To find the number of badges, divide the total money by the cost of one badge, so the expression is $\frac{R}{4}$. A common wrong answer is $4R$, but multiplying by 4 would make the total larger instead of telling you how many badges were sold.
+
+3. Ben is $n$ years old, Cara is 9 years older than Ben, and Dan is 4 years younger than Ben. What is the total of their ages?
+
+   - $$3n + 5$ ✔
+
+   - $$3n + 13$
+
+   - $$n + 5$
+
+   - $$3n - 5$
+
+   _Explanation:_ Hint: Build the three ages before you simplify. Write each age first: Ben is $n$, Cara is $n + 9$, and Dan is $n - 4$, so the total is $n + (n + 9) + (n - 4) = 3n + 5$. A common wrong answer is $3n + 13$, which comes from adding both 9 and 4 even though Dan is younger, so the 4 must be subtracted.

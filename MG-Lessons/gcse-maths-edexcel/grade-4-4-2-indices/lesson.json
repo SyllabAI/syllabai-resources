@@ -1,0 +1,106 @@
+{
+ "topic": "grade-4-4-2-indices",
+ "lane": "gcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What an index means",
+   "body": "![Annotated summary showing 5 cubed with base and index labelled and boxes for the multiply, divide and power of a power index laws](../assets/001-7e998024-1b1f-42ed-90c7-696764d4a65b.jpeg)\n\nAn index tells you how many times a base is multiplied by itself. In $5^3$, the 5 is the base and the 3 is the index.\n\n$$5^3 = 5 \\times 5 \\times 5 = 125$, so a power is a quick way to write repeated multiplication. The summary diagram also previews the three laws you will use most often.",
+   "figure_refs": [
+    "assets/001-7e998024-1b1f-42ed-90c7-696764d4a65b.jpeg"
+   ]
+  },
+  {
+   "heading": "The core laws for same bases",
+   "body": "Most index questions start by checking whether the bases are the same. If the base matches, the base itself stays the same and only the indices change.\n\nFor multiplication, add the indices, and for division, subtract them.\n\n$$a^m \\times a^n = a^{m+n} \\qquad \\frac{a^m}{a^n} = a^{m-n}$$\n\nThese rules work because repeated factors either combine or cancel. A single letter has an invisible power of 1, meaning $d^{10} \\div d^6 = d^4$ and $m^3 \\times m = m^4$."
+  },
+  {
+   "heading": "Worked example with coefficients and letters",
+   "body": "When numbers and letters are mixed, deal with the coefficient first and then each variable separately. Simplify $4m^3n^2 \\times 6mn^5$.\n\nMultiply the coefficients to get $4 \\times 6 = 24$. For the $m$ terms, remember $m = m^1$, so $m^3 \\times m = m^{3+1} = m^4$.\n\nNow add the indices on the $n$ terms: $n^2 \\times n^5 = n^7$. So the final answer is $24m^4n^7$."
+  },
+  {
+   "heading": "Powers outside brackets",
+   "body": "When a power is outside brackets, it applies to every factor inside. For a single base, $(a^m)^n = a^{mn}$, so you multiply the indices.\n\nNow simplify $(3a^2b)^3$. First cube the coefficient to get $3^3 = 27$, then multiply the index on $a$ so $(a^2)^3 = a^6$.\n\nFinally, $b$ has an invisible index of 1, so $(b^1)^3 = b^3$. Therefore $(3a^2b)^3 = 27a^6b^3$, and the coefficient must be powered as well."
+  },
+  {
+   "heading": "Zero powers and negative powers",
+   "body": "Any non-zero base to the power of 0 equals 1. So $7^0 = 1$ and $x^0 = 1$ as long as the base is not 0.\n\nA negative index means take the reciprocal. The rule is: \n\n$$a^{-n} = \\frac{1}{a^n}$$\n\nFor example, $2^{-4} = \\frac{1}{2^4} = \\frac{1}{16}$. If you need a final value, rewrite the answer with positive indices."
+  },
+  {
+   "heading": "Missing indices and matching bases",
+   "body": "Sometimes you simplify first and then match the indices. In $y^3 \\times y^a = y^8$, same-base multiplication gives $y^{3+a} = y^8$.\n\nSo $3 + a = 8$, which means $a = 5$. A missing index can even turn out to be negative after you solve the equation.\n\nIf numbers are involved, rewrite them using the same base before applying a law. For example, $16 \\times 4^6 = 4^2 \\times 4^6 = 4^8$ because $16 = 4^2$."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-3",
+   "question": "Simplify $d^{10} \\div d^6$.",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$d^4$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$d^{16}$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$d^{60}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$d^{-4}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The bases are both $d$, so for division you subtract the indices: $10 - 6 = 4$. A common wrong answer is $d^{16}$, but adding the indices only works for multiplication. Hint: Same base and division means subtract."
+  },
+  {
+   "id": "card-12",
+   "question": "Given $\\frac{x^5}{x^a} = x^7$, what is $a$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "2",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "-2",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "12",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "-12",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Dividing same-base powers means subtract the indices, so the left side becomes $x^{5-a}$. Matching powers gives $5 - a = 7$, so $a = -2$; a common wrong answer is 2 from solving the equation with the wrong sign."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-4-4-2-indices/lessons",
+ "source_sha256": "a7ab0e15d23ff0a09cc10d2b48f6f280423eb060d4d7fe36ca16e9aebe82a719",
+ "extracted_at": "2026-11-08T17:58:29Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "2a5f2c9e-e822-4a76-b9f3-a8067b6b1666",
+  "topic_id": "fb7fdf39-9629-4125-aecd-e75d32cde6de",
+  "created_at": "2026-05-14T03:57:34.898Z",
+  "updated_at": "2026-05-14T04:01:42.251Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

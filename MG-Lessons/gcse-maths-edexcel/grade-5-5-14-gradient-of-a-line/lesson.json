@@ -1,0 +1,129 @@
+{
+ "topic": "grade-5-5-14-gradient-of-a-line",
+ "lane": "gcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What gradient means",
+   "body": "![Coordinate grids showing a positive line with rise 6 and run 2 and a negative line with fall 6 and run 2](../assets/001-76fa7564-799d-471d-a2e5-b51b25831469.jpeg)\n\nGradient tells you how steep a straight line is. It compares how much the line goes up or down with how much it goes across.\n\nFrom left to right, a line that goes up has a positive gradient and a line that goes down has a negative gradient. The bigger the size of the gradient, the steeper the line.\n\nThe key idea is rise over run. $$m=\\frac{\\text{change in }y}{\\text{change in }x}$$ Here $m$ means gradient, with the change in $y$ on top and the change in $x$ on the bottom.",
+   "figure_refs": [
+    "assets/001-76fa7564-799d-471d-a2e5-b51b25831469.jpeg"
+   ]
+  },
+  {
+   "heading": "Finding gradient from a grid",
+   "body": "On a coordinate grid, choose two exact points where the line crosses grid intersections. Then count the run, which is the change in $x$, and the rise, which is the change in $y$.\n\nFor the line through $(0,0)$ and $(2,6)$, the run is $2$ and the rise is $6$. So $$m=\\frac{6}{2}=3$$\n\nFor the line through $(0,4)$ and $(2,-2)$, the run is $2$ but the rise is $-6$ because the line goes down. So $$m=\\frac{-6}{2}=-3$$"
+  },
+  {
+   "heading": "Using the formula with two coordinates",
+   "body": "If you know two coordinates, you do not need a graph. Use the formula below and keep the subtraction order consistent on the top and bottom: $$m=\\frac{y_2-y_1}{x_2-x_1}$$\n\nFor $(3,2)$ and $(7,10)$, substitute carefully: $$m=\\frac{10-2}{7-3}=\\frac{8}{4}=2$$ The line goes up $2$ for every $1$ across.\n\nNegative coordinates need extra care. For $(-4,1)$ and $(2,4)$, the bottom calculation is $2-(-4)=6$, not $-2$. You can start with either point, but do not swap the order halfway through."
+  },
+  {
+   "heading": "Finding a missing coordinate",
+   "body": "Sometimes the gradient is given and one coordinate contains a letter. Use the same gradient formula, then solve the equation you create.\n\nExample: the line through $(1,-2)$ and $(5,k)$ has gradient $3$. Start by substituting these values into the gradient formula: $$3=\\frac{k-(-2)}{5-1}$$\n\nSimplify the fraction first to get $$3=\\frac{k+2}{4}$$ Next, multiply both sides by $4$ to get $12=k+2$.\n\nSubtract $2$ from both sides, so $k=10$. This is still a gradient problem, but the final step is just solving an equation."
+  },
+  {
+   "heading": "Special cases and quick checks",
+   "body": "A horizontal line has gradient $0$ because the $y$-values are equal, so the change in $y$ is $0$. For example, using $(1,4)$ and $(6,4)$ gives\n\n$$$m=\\frac{0}{5}=0$$\n\nA vertical line has undefined gradient because the $x$-values are equal, so the change in $x$ is $0$. Division by $0$ is not allowed, so a line like $x=3$ has no numerical gradient.\n\nIn an exam, do three quick checks at the end. Did you put the $y$-change on top, keep the subtraction order consistent, and choose the correct sign?"
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "A line slopes down as you move from left to right. What must be true about its gradient?",
+   "options": [
+    {
+     "id": "a",
+     "text": "It is positive",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "It is negative",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "It is zero",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "It is undefined",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The gradient is negative because $x$ increases while $y$ decreases, so the change in $y$ is negative. The common wrong answer C confuses a downward line with a flat line, but gradient $0$ only happens when the line does not go up or down at all."
+  },
+  {
+   "id": "card-7",
+   "question": "What is the gradient of the line through $(-4,1)$ and $(2,4)$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$\\frac{1}{2}$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$2$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$-\\frac{1}{2}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$6$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Using $m=\\frac{y_2-y_1}{x_2-x_1}$ gives $m=\\frac{4-1}{2-(-4)}=\\frac{3}{6}=\\frac{1}{2}$. The common wrong answer B comes from swapping the changes and calculating $\\frac{6}{3}$, but gradient is change in $y$ over change in $x$, not the other way round. Hint: Put the $y$-change on top."
+  },
+  {
+   "id": "card-12",
+   "question": "Which line has an undefined gradient?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$y=-2$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$x=4$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "The line through $(0,0)$ and $(4,2)$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "The line through $(1,5)$ and $(3,5)$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$x=4$ is a vertical line, so the change in $x$ is $0$ and the gradient is undefined. The common wrong answer A is horizontal, which has gradient $0$ because the change in $y$ is $0$ instead."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-5-5-14-gradient-of-a-line/lessons",
+ "source_sha256": "4394fd736ff4ae209b7e09c1803ed8be99c2a741878afe9ec15906734040372f",
+ "extracted_at": "2026-11-08T17:58:35Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "400ddd19-03b7-4138-a9de-d6fcc527d8c0",
+  "topic_id": "c610fe89-0754-40f4-aa85-bc7d99517a88",
+  "created_at": "2026-05-13T07:11:26.169Z",
+  "updated_at": "2026-05-13T07:18:50.206Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

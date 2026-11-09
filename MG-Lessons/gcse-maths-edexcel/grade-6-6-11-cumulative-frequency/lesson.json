@@ -1,0 +1,132 @@
+{
+ "topic": "grade-6-6-11-cumulative-frequency",
+ "lane": "gcse-maths-edexcel",
+ "grade": "6",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What cumulative frequency means",
+   "body": "Frequency tells you how many values are in one class interval, such as $5 < t \\le 10$. Cumulative frequency is the running total as you move through the classes from smallest to largest.\n\nIf the frequencies are $7$, $11$ and $13$, the cumulative frequencies are $7$, $18$ and $31$. A quick check is that the final cumulative frequency should equal the total number of data values."
+  },
+  {
+   "heading": "Worked example: making a cumulative frequency table",
+   "body": "Suppose 42 people have times in seconds with class frequencies $7$, $11$, $13$, $8$ and $3$ for the intervals $0 < t \\le 5$, $5 < t \\le 10$, $10 < t \\le 15$, $15 < t \\le 20$ and $20 < t \\le 25$. Start the cumulative frequency with the first frequency, so the first total is $7$.\n\nKeep adding each new frequency to the total so far. Each value includes all the classes before it.\n$$\n7,\\quad 7+11=18,\\quad 18+13=31,\\quad 31+8=39,\\quad 39+3=42\n$$\n\nSo the cumulative frequencies are up to $5$: $7$, up to $10$: $18$, up to $15$: $31$, up to $20$: $39$, and up to $25$: $42$. The last value is $42$, which matches the total number of people, so the additions are consistent."
+  },
+  {
+   "heading": "Plotting a cumulative frequency graph",
+   "body": "![Cumulative frequency graph of time in seconds for 42 people with points at 0,0; 5,7; 10,18; 15,31; 20,39; 25,42 and a smooth increasing curve](../assets/001-17f96729-2465-4d22-9889-5b4326b33f02.jpeg)\n\nTo draw a cumulative frequency graph, put the variable on the horizontal axis and cumulative frequency on the vertical axis. Plot each upper boundary against its cumulative frequency, not the midpoint of the class.\n\nAlso include the starting point at the lowest boundary with cumulative frequency 0. For the example table, the plotted points are $(0,0)$, $(5,7)$, $(10,18)$, $(15,31)$, $(20,39)$ and $(25,42)$.\n\nJoin the points with a smooth increasing curve. The graph cannot go down because cumulative frequency never decreases.",
+   "figure_refs": [
+    "assets/001-17f96729-2465-4d22-9889-5b4326b33f02.jpeg"
+   ]
+  },
+  {
+   "heading": "Estimating the median and quartiles",
+   "body": "![Cumulative frequency graph for 60 batteries with dashed guide lines from 15, 30 and 45 on the cumulative frequency axis to estimates 22, 31 and 41 on the lifetime axis](../assets/002-4e4252fe-767e-493d-a60c-ffd25a01331e.jpeg)\n\nIf the total frequency is $N$, read the lower quartile at $N/4$, the median at $N/2$ and the upper quartile at $3N/4$. Start on the cumulative frequency axis at these values, move across to the curve, then drop down to the horizontal axis.\n\nFor $N=60$, the positions are $$Q_1: \\frac{60}{4}=15,\\qquad \\text{median}: \\frac{60}{2}=30,\\qquad Q_3: \\frac{3\\times 60}{4}=45$$ These are positions in the data, not values on the horizontal axis yet.\n\nFrom the graph, you might estimate $22$, $31$ and $41$ minutes for $Q_1$, the median and $Q_3$. Then the interquartile range is $$\\text{IQR}=41-22=19$$ Because the data is grouped and the curve is drawn, these readings are estimates.",
+   "figure_refs": [
+    "assets/002-4e4252fe-767e-493d-a60c-ffd25a01331e.jpeg"
+   ]
+  },
+  {
+   "heading": "From cumulative frequency to box plots",
+   "body": "A box plot uses five values: minimum, $Q_1$, median, $Q_3$ and maximum. Once you have estimated these from a cumulative frequency graph, you can plot them on a number line.\n\nFor example, if the five-number summary is $4$, $10$, $14$, $21$, $30$, draw a box from 10 to 21. Draw a median line at 14, and remember it does not have to sit in the middle of the box. Then draw whiskers from 4 to 10 and from 21 to 30.\n\nWhen comparing two box plots, a higher median means a higher typical value. A smaller IQR means the middle 50% is less spread out, so the data is more consistent."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Which statement best describes cumulative frequency?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The running total of the frequencies",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "The number in one class interval",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "The middle value of a class interval",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "The width of a class interval",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Cumulative frequency is a running total, so A is correct. The most common wrong answer is B, but that is just the ordinary frequency for one class, not the total built up so far."
+  },
+  {
+   "id": "card-7",
+   "question": "For the example above, which point should not be plotted?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$(10,18)$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$(12.5,18)$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$(25,42)$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$(0,0)$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "B is correct because $12.5$ is the midpoint of the class $10 < t \\le 15$, and cumulative frequency graphs use upper boundaries instead. A common wrong answer is D, but $(0,0)$ should be included as the starting point at the lowest boundary."
+  },
+  {
+   "id": "card-13",
+   "question": "Class A has median $46$ and IQR $18$. Class B has median $52$ and IQR $9$. Which comparison is correct?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Class B generally scored higher and was more consistent",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "Class A generally scored higher and was more consistent",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "Class B generally scored higher but was less consistent",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Both classes had the same typical score",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Class B has the higher median, so its typical value is higher. It also has the smaller IQR, so its middle $50\\%$ is less spread out. The most common wrong answer is C, which forgets that a smaller IQR means more consistency, not less."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-6-6-11-cumulative-frequency/lessons",
+ "source_sha256": "638a32f99e64e88f2ae17e5580aa683cfd49eed6ce3cf38e085894835f3577a9",
+ "extracted_at": "2026-11-08T17:58:46Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "8b0fa22d-745a-45fd-b798-6a61b65f759e",
+  "topic_id": "21eb095f-5075-4d1d-897e-4b5ed2965ee0",
+  "created_at": "2026-05-13T06:54:41.593Z",
+  "updated_at": "2026-05-13T06:55:31.858Z",
+  "figures": 2,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

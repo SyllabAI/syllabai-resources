@@ -1,0 +1,129 @@
+{
+ "topic": "grade-1-1-10-bidmas",
+ "lane": "gcse-maths-edexcel",
+ "grade": "1",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What BIDMAS means",
+   "body": "![Flowchart showing BIDMAS order from Brackets to Indices to Division and Multiplication to Addition and Subtraction, with example 5 plus 4 times 2 cubed worked to 37](../assets/001-5a6fd705-aa41-45f4-b3dd-870175e54b7c.jpeg)\n\nBIDMAS tells you the order for working through an expression with more than one operation. It helps everyone get the same answer instead of just going from left to right too early.\n\nThe letters stand for Brackets, Indices, Division and Multiplication, Addition and Subtraction. If an expression has only one operation, you can just do that operation normally.\n\nDivision and multiplication are a tie, and addition and subtraction are a tie. Inside each tied pair, work from left to right.",
+   "figure_refs": [
+    "assets/001-5a6fd705-aa41-45f4-b3dd-870175e54b7c.jpeg"
+   ]
+  },
+  {
+   "heading": "Brackets first, then indices",
+   "body": "Brackets tell you what to do first. In $(9 - 4) \\times 3$, work out the bracket before the multiplication, so $(9 - 4) \\times 3 = 5 \\times 3 = 15$.\n\nIndices are next, so powers such as $4^2$ or $2^3$ are done before multiplying or adding. In $7 + 4^2$, square first to get $16$, then add to get $23$.\n\nIf the whole bracket is squared, finish the bracket before squaring. That is why $(6 + 2)^2 = 8^2 = 64$, not $6 + 2^2 = 10$."
+  },
+  {
+   "heading": "Ties are done left to right",
+   "body": "Multiplication and division have equal priority, so work through them from left to right. In $4 + 8 \\times 3 \\div 6$, do $8 \\times 3 = 24$, then $24 \\div 6 = 4$, then add to get $8$.\n\nAddition and subtraction are also a tie, so $10 - 6 + 3$ becomes $4 + 3 = 7$. A common mistake is to do the later addition first, but BIDMAS only tells you the priority group, not to jump around inside a tie."
+  },
+  {
+   "heading": "A full BIDMAS worked example",
+   "body": "A full BIDMAS question can use several rules at once, so simplify one layer at a time. In $5 + 4 \\times 2^3$, there are no brackets, so start with the index and get $2^3 = 8$.\n\nNow replace the index part and do the multiplication. The expression becomes $5 + 4 \\times 8$, so $4 \\times 8 = 32$.\n\nFinally do the addition and write the completed chain clearly. You should get $5 + 4 \\times 2^3 = 5 + 4 \\times 8 = 5 + 32 = 37$."
+  },
+  {
+   "heading": "Adding brackets to change the answer",
+   "body": "Brackets can change the value because they force a part of the expression to happen earlier. A good first step is to try the calculation without brackets, so $5 \\times 4 + 2 = 22$ before any extra grouping.\n\nTo make the answer $30$, group the addition first. Then $5 \\times (4 + 2) = 5 \\times 6 = 30$.\n\nFor harder questions, look for useful totals that could then be multiplied. For example, $(3 + 2) \\times (4 + 5) = 5 \\times 9 = 45$, and you should always check the final statement matches the target."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Work out $3 + 6 \\times 4$.",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$24$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$27$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$36$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$18$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Multiplication comes before addition, so do $6 \\times 4 = 24$ and then $3 + 24 = 27$. The common wrong answer $36$ comes from adding first to get $9 \\times 4$, which ignores BIDMAS. Hint: Multiply before you add."
+  },
+  {
+   "id": "card-7",
+   "question": "Work out $16 \\div 4 \\times 2$.",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$8$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$2$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$6$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$32$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Division and multiplication are equal priority, so go left to right: $16 \\div 4 = 4$, then $4 \\times 2 = 8$. The common wrong answer $2$ comes from doing $4 \\times 2$ first, as if multiplication always beats division."
+  },
+  {
+   "id": "card-12",
+   "question": "Which placement of brackets makes $3 + 2 \\times 4 + 5 = 45$ true?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$(3 + 2) \\times (4 + 5)$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$3 + (2 \\times 4) + 5$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$(3 + 2 \\times 4) + 5$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$3 + 2 \\times (4 + 5)$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$(3 + 2) \\times (4 + 5) = 5 \\times 9 = 45$, so A is the only arrangement that reaches the target. The common wrong choice D gives $3 + 2 \\times 9 = 21$ because only the second addition is forced early."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-1-1-10-bidmas/lessons",
+ "source_sha256": "da9193a9e7c2cc390628cd6708ec6dd98ee10c925ac76401ae10a9cf5702e0cf",
+ "extracted_at": "2026-11-08T17:57:49Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "9d6efaf0-7010-4d64-b847-41f207ab71c7",
+  "topic_id": "47107ec1-4fb7-4814-8fdc-b5a75532122b",
+  "created_at": "2026-05-13T06:52:02.125Z",
+  "updated_at": "2026-05-13T06:53:05.047Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

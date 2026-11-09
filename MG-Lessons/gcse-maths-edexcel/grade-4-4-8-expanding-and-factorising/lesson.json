@@ -1,0 +1,129 @@
+{
+ "topic": "grade-4-4-8-expanding-and-factorising",
+ "lane": "gcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Brackets mean multiply",
+   "body": "![Two-panel algebra diagram showing 3 multiplied by x and 2 to expand 3(x+2), and 8r+20 rewritten as 4(2r+5) by taking out common factor 4](../assets/001-5c2e2368-bce3-4fc3-9b81-ebf7092fb3f6.jpeg)\nBrackets show multiplication. In $3(x+2)$, the 3 multiplies both $x$ and $2$, so expanding means removing brackets by multiplying.\n\nFactorising is the reverse process. You look for something every term shares, called a common factor, and put it outside a bracket.\n\nAn expression has no equals sign, while an equation does. Like terms have the same variable part, so $5x$ and $2x$ combine but $5x$ and $2x^2$ do not.",
+   "figure_refs": [
+    "assets/001-5c2e2368-bce3-4fc3-9b81-ebf7092fb3f6.jpeg"
+   ]
+  },
+  {
+   "heading": "Worked examples: expanding one bracket",
+   "body": "To expand one bracket, multiply the outside factor by every term inside. For the expression $6(3x+4)$, we begin by writing out the individual products:\n$$6(3x+4)=6\\times 3x + 6\\times 4$$\n\nEvaluating these multiplications gives the final expression. A common mistake is $18x+4$, which occurs if you forget to multiply the constant term by 6.\n$$6(3x+4)=18x+24$$\n\nIf the outside factor includes a letter, it still multiplies every term. For the example $3p(p-5)$, we calculate the products for both the variable and constant:\n$$3p \\times p = 3p^2,\\qquad 3p \\times (-5)=-15p$$\nThis results in the expanded form $3p(p-5)=3p^2-15p$."
+  },
+  {
+   "heading": "Factorising by taking out the HCF",
+   "body": "To factorise, find the highest common factor (HCF) of all the terms and place it outside a bracket. It is the reverse of expanding, so you can check by expanding your answer.\n\nFor $8r+20$, the HCF is 4. Rewrite the expression as\n$$8r+20=4(2r)+4(5)=4(2r+5)$$\n\nFor $14a^2b+21ab^2$, the number HCF is 7 and both terms contain $ab$. Since\n$$14a^2b \\div 7ab = 2a,\\qquad 21ab^2 \\div 7ab = 3b$$\n\nThe fully factorised form is\n$$7ab(2a+3b)$$\nThis is fully factorised because nothing else is common inside the bracket."
+  },
+  {
+   "heading": "Expand, then simplify",
+   "body": "When there is more than one bracket, expand each bracket first and then collect like terms. A minus sign before a bracket changes the sign of every term inside that bracket.\n\nFor example, consider an expression with subtraction:\n$$4(2y-3)-3(y+5)=8y-12-3y-15$$\nThen collect like terms to find the final result:\n$$8y-3y-12-15=5y-27$$\n\nYou can apply the same method to expressions with addition:\n$$5(s+3)+2(s-4)=5s+15+2s-8=7s+7$$\nAlways follow the order: expand first, simplify second."
+  },
+  {
+   "heading": "Solving equations with brackets",
+   "body": "When solving an equation with brackets, think about inverse operations. If the whole bracket is multiplied by a number, dividing both sides first is usually quicker than expanding the brackets.\n\nFor $6(d+2)=48$, divide both sides by 6 to get\n$$d+2=8$$\nThen subtract 2 from both sides to find the solution:\n$$d=6$$\n\nFor $2(v-6)=15$, divide by 2 to get\n$$v-6=7.5$$\nThen add 6 to both sides to get $v=13.5$. You should always check your final answer by substituting it back into the original equation."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Which expansion is correct for $4(x+3)$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$4x+3$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$4x+12$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$7x$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$12x$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$4$ multiplies both terms, so $4\\times x=4x$ and $4\\times 3=12$. The common wrong answer $4x+3$ forgets to multiply the constant by 4."
+  },
+  {
+   "id": "card-7",
+   "question": "Which is the fully factorised form of $15x^2y - 20xy^2$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$5xy(3x-4y)$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$5x(3xy-4y^2)$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$5y(3x^2-4xy)$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$5(3x^2y-4xy^2)$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Both terms share $5xy$, so taking out the full common factor leaves $3x-4y$. The common wrong answer $5x(3xy-4y^2)$ only takes out $5x$, so it is not fully factorised because a $y$ is still common inside the bracket."
+  },
+  {
+   "id": "card-12",
+   "question": "What is the best first step to solve $3(k-4)=21$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Subtract 4 from both sides",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "Divide both sides by 3",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "Expand to $3k-12=21$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Add 4 to both sides",
+     "is_correct": false
+    }
+   ],
+   "explanation": "The whole bracket is multiplied by 3, so dividing both sides by 3 isolates the bracket straight away. The common wrong answer \"subtract 4\" is wrong because the 4 is inside the bracket and has not been separated from the multiplication yet."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-4-4-8-expanding-and-factorising/lessons",
+ "source_sha256": "36b5b3b40bb2515717924d1ef44fe8afb5a9f78effea97f15626a66f9bf9f337",
+ "extracted_at": "2026-11-08T17:58:32Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "cf4b9e64-eebc-42a5-a1cc-7d20f46233dc",
+  "topic_id": "81e31f20-c639-41b0-9d81-cb948583c9eb",
+  "created_at": "2026-05-13T06:33:29.416Z",
+  "updated_at": "2026-05-13T06:34:14.149Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

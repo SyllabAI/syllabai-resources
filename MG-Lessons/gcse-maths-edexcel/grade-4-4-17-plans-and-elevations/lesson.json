@@ -1,0 +1,135 @@
+{
+ "topic": "grade-4-4-17-plans-and-elevations",
+ "lane": "gcse-maths-edexcel",
+ "grade": "4",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Seeing a 3D solid in 2D",
+   "body": "![Cuboid with width, depth and height labelled, alongside plan, front elevation and side elevation showing shared measurements](../assets/001-65d4749f-46a4-4703-b5d1-f17f601e0bff.jpeg)\n\nPlans and elevations are flat, 2D orthographic views of a 3D solid, so there is no perspective. A plan is the view from directly above, a front elevation is from the front, and a side elevation is from the side.\n\nA solid has width, depth and height. The plan and front elevation share width, the plan and side elevation share depth, and the front and side elevation share height.",
+   "figure_refs": [
+    "assets/001-65d4749f-46a4-4703-b5d1-f17f601e0bff.jpeg"
+   ]
+  },
+  {
+   "heading": "Worked example: rebuilding a solid from its views",
+   "body": "Suppose the plan is a rectangle $5$ cm wide and $2$ cm deep. That tells you the solid covers a rectangular footprint of $5$ cm by $2$ cm.\n\nNow look at the front elevation: it is a trapezium with bottom width $5$ cm, top width $3$ cm and height $2$ cm. So the front face slopes inwards as it goes up.\n\nThe side elevation is a rectangle $2$ cm deep and $2$ cm high, which confirms the depth and height. Because the trapezium front face stays the same through the depth, the solid is a trapezium-shaped prism."
+  },
+  {
+   "heading": "Cube solids, footprints and side views",
+   "body": "![Five-cube solid with arrows for top and right views, plus its plan and right side elevation on a grid](../assets/002-ac0f5640-00a7-4389-8c3c-87c45b8d813a.jpeg)\n\nFor cube solids, the plan shows the footprint only. Stacked cubes do not make the plan larger, they only change the heights seen in an elevation.\n\nIn this example, the front row has 3 occupied squares and there is 1 more square behind the left-hand cube. So the plan has 4 squares altogether.\n\nFor the right side elevation, width is compressed and you compare depth against height. The front depth position is 2 cubes high because of the stack, and the back depth position is 1 cube high.",
+   "figure_refs": [
+    "assets/002-ac0f5640-00a7-4389-8c3c-87c45b8d813a.jpeg"
+   ]
+  },
+  {
+   "heading": "Cones and pyramids in plan and elevation",
+   "body": "![Cone and square-based pyramid with their plans and elevations, including diameters, base lengths and heights](../assets/003-ac2fd3f5-faa6-442d-b1c8-9f62e08057a9.jpeg)\nCurved and pointed solids still follow the same view rules. A cylinder has a circular plan and rectangular elevations, while a cone has a circular plan and triangular elevations.\n\nA cone with radius $2$ cm has diameter $4$ cm, so its plan is a circle $4$ cm across. Its side elevation is an isosceles triangle with base $4$ cm.\n\nIf the perpendicular height is $5$ cm, the apex sits $5$ cm above the midpoint of the base. Use the perpendicular height, not the sloping edge, unless the question says otherwise.",
+   "figure_refs": [
+    "assets/003-ac2fd3f5-faa6-442d-b1c8-9f62e08057a9.jpeg"
+   ]
+  },
+  {
+   "heading": "Using a scale correctly",
+   "body": "A scale of $2\\text{ cm}$ to $1\\text{ m}$ means every real metre is drawn as $2\\text{ cm}$. First convert any centimetres into metres so the scale matches.\n\nFor a square-based pyramid, $250\\text{ cm}$ is $2.5\\text{ m}$, so the base side becomes $5\\text{ cm}$ on the drawing. Also, $350\\text{ cm}$ is $3.5\\text{ m}$, so the perpendicular height becomes $7\\text{ cm}$.\n\nThe plan is a $5\\text{ cm}$ by $5\\text{ cm}$ square, and you can join the centre to the corners to show the pyramid faces. The front elevation is an isosceles triangle with base $5\\text{ cm}$ and height $7\\text{ cm}$."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Which two views both show the height of a solid?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Plan and front elevation",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "Plan and side elevation",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "Front elevation and side elevation",
+     "is_correct": true
+    },
+    {
+     "id": "d",
+     "text": "All three views",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Height is shown in the elevations, so both the front elevation and the side elevation include height. The most common wrong answer is B because the side elevation does show height, but the plan is a top view, so it shows width and depth, not height."
+  },
+  {
+   "id": "card-6",
+   "question": "For the five-cube solid in the diagram, what should the right side elevation show?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Two depth columns, front 2 high and back 1 high",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "Two depth columns, front 1 high and back 2 high",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "Three columns, each 1 high",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "One column, 5 high",
+     "is_correct": false
+    }
+   ],
+   "explanation": "From the right, you only see depth and height, so you group cubes by depth and take the greatest height in each group. The most common wrong answer is C because students keep the three separate width positions, but a side elevation does not show the full left-to-right width. Hint: From the right, separate by depth, not by width."
+  },
+  {
+   "id": "card-12",
+   "question": "Stretch: A square-based pyramid has base side $3\\text{ m}$ and perpendicular height $4.5\\text{ m}$. At a scale of $2\\text{ cm}$ to $1\\text{ m}$, which front elevation should you draw?",
+   "options": [
+    {
+     "id": "a",
+     "text": "A triangle with base $6\\text{ cm}$ and height $9\\text{ cm}$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "A triangle with base $3\\text{ cm}$ and height $4.5\\text{ cm}$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "A triangle with base $6\\text{ cm}$ and height $4.5\\text{ cm}$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "A triangle with base $9\\text{ cm}$ and height $6\\text{ cm}$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "At $2\\text{ cm}$ to $1\\text{ m}$, multiply each real measurement in metres by $2$. So $3\\text{ m}$ becomes $6\\text{ cm}$ and $4.5\\text{ m}$ becomes $9\\text{ cm}$. The most common wrong answer is B because it ignores the scale and copies the metre values straight into centimetres."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-4-4-17-plans-and-elevations/lessons",
+ "source_sha256": "b19be52fdb4616e9d9b4eefe8f4479ea5c3949c1dbd4f1462b60de32281fc022",
+ "extracted_at": "2026-11-08T17:58:28Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "9d4e0e8e-7230-4d84-9cbd-a687a51e5ec3",
+  "topic_id": "c0f5e67e-300d-4771-8dbc-25c9a322c321",
+  "created_at": "2026-05-13T07:28:29.967Z",
+  "updated_at": "2026-05-13T07:29:40.177Z",
+  "figures": 3,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

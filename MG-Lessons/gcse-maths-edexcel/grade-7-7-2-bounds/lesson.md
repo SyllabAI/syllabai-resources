@@ -1,0 +1,102 @@
+# grade-7-7-2-bounds — lesson
+
+_Lane: `gcse-maths-edexcel` · grade 7 · 6 content steps · 3 check questions (source: MathsGenie lessons)_
+
+## What bounds mean
+
+![Number line showing that 28 cm to the nearest cm represents values from 27.5 inclusive to 28.5 exclusive.](../assets/001-50110c0a-ffcd-42a6-a276-2f70af0d245e.jpeg)
+
+When a measurement has been rounded, the true value is not exactly the number written. Bounds tell us the smallest and largest values the measurement could be.
+
+The lower bound is the smallest possible value, and the upper bound is the boundary before the value would round up. For a length of 28 cm to the nearest cm, the interval is $27.5 \le l < 28.5$.
+
+To find bounds, work out the rounding gap and halve it. Nearest cm gives a half-gap of $0.5$, nearest 5 m gives $2.5$, and correct to 2 decimal places gives $0.005$.
+
+## Working from the rounding clue
+
+A measurement of 7.6 cm correct to the nearest mm is rounded to the nearest $0.1$ cm, because 1 mm is $0.1$ cm. So the half-gap is $0.05$ cm.
+
+That gives $7.55 \le w < 7.65$. A common mistake is to use $0.5$ cm, which is the half-gap for nearest cm, not nearest mm.
+
+For 58.0 cm correct to the nearest mm, the bounds are $57.95 \le l < 58.05$. For a number correct to 2 decimal places, the half-gap is $0.005$.
+
+## Bounds in geometry
+
+When all measurements are positive, addition and multiplication follow a simple pattern. Use lower values to make a perimeter or area smaller, and upper values to make them larger.
+
+For a rectangle with $l=19$ cm to the nearest cm and $w=6.4$ cm to the nearest mm, first write $18.5 \le l < 19.5$ and $6.35 \le w < 6.45$. Then $P_{\text{upper}}=2(19.5+6.45)=51.9 \, \text{cm}$ and $A_{\text{lower}}=18.5 \times 6.35=117.475 \, \text{cm}^2$.
+
+For circles, the radius controls everything: $C=2\pi r$ and $A=\pi r^2$. If $r=7.2$ cm correct to 1 d.p., then $7.15 \le r < 7.25$, so $C_{\text{lower}}=14.3\pi$ and $A_{\text{upper}}=52.5625\pi$.
+
+## Products and fractions
+
+When a formula uses positive quantities, think about how the operation changes the answer. Products are largest with upper times upper, but fractions are largest with the upper numerator divided by the lower denominator.
+
+Suppose $s=6.48$ m and $t=2.37$ s, both correct to 2 d.p. Then $6.475 \le s < 6.485$ and $2.365 \le t < 2.375$. It is important to write these bounds clearly before substituting them into a formula.
+
+To maximise the speed $v=\frac{s}{t}$, you should use the largest possible distance and the smallest possible time. This combination produces the largest possible quotient.
+
+$$$v_{\text{upper}}=\frac{6.485}{2.365}=2.742071\ldots$$ So the upper bound is $2.742 \, \text{m/s}$ to 3 d.p. The unit stays metres per second because distance is divided by time.
+
+## Bounds with Pythagoras
+
+![Right-angled triangle with sides a, b and hypotenuse c labelled, showing c opposite the right angle and formulas c^2 = a^2 + b^2 and b = sqrt(c^2 - a^2).](../assets/002-b286b831-6325-41d9-a5de-3f4e6aa2f696.jpeg)
+
+In a right-angled triangle, the hypotenuse $c$ is opposite the right angle and is the longest side. If the hypotenuse is unknown, a lower bound comes from the lower bounds of the two shorter sides because $c=\sqrt{a^2+b^2}$.
+
+Suppose $a=4.6$ cm correct to the nearest mm and $c=10$ cm correct to the nearest cm. Then $4.55 \le a < 4.65$ and $9.5 \le c < 10.5$.
+
+If a shorter side is unknown, rearrange first so the subtraction is clear: $b=\sqrt{c^2-a^2}$. To make $b$ as small as possible, use the lower bound of $c$ and the upper bound of $a$.
+
+$$$b_{\text{lower}}=\sqrt{9.5^2-4.65^2}=\sqrt{68.6275}=8.284\ldots$$
+
+So the lower bound is $8.3 \, \text{cm}$ to 1 d.p., and this is a classic stretch question because subtraction changes the choice of bounds.
+
+## Choosing a suitable degree of accuracy
+
+Sometimes you are asked for a value to a suitable degree of accuracy. This means every possible true answer between the final lower and upper bounds must round to the same stated value.
+
+For $p=\frac{F}{A}$ with $F=30.42$ correct to 2 d.p. and $A=5.67$ correct to 3 s.f., use $30.415 \le F < 30.425$ and $5.665 \le A < 5.675$. Then calculate the final bounds.
+
+$$$p_{\text{lower}}=\frac{30.415}{5.675}\approx 5.359$$
+$$p_{\text{upper}}=\frac{30.425}{5.665}\approx 5.371$$
+
+To 2 d.p., these give $5.36$ and $5.37$, so 2 d.p. is not guaranteed. To 2 s.f., they both round to $5.4$, so $5.4$ to 2 s.f. is a suitable answer.
+
+## Check yourself
+
+1. A length is 28 cm to the nearest cm. Which interval is correct?
+
+   - $$27.5 \le l < 28.5$ ✔
+
+   - $$27 < l < 29$
+
+   - $$27.5 < l \le 28.5$
+
+   - $$28 \le l < 29$
+
+   _Explanation:_ A is correct because the half-gap is $0.5$, so the true length is from $27.5$ up to but not including $28.5$. The most common wrong answer is C, but $27.5$ does round to 28 and should be included, while $28.5$ rounds up to 29 so it must be excluded. Hint: Halve the rounding interval, then check which end is excluded.
+
+2. A circle has radius 7.2 cm correct to 1 decimal place. Which expression gives the upper bound for its area?
+
+   - $$\pi(7.25)^2$ ✔
+
+   - $$\pi(7.15)^2$
+
+   - $$2\pi(7.25)$
+
+   - $$\pi(7.2)^2$
+
+   _Explanation:_ A is correct because the upper bound of the radius is $7.25$ and area uses $A=\pi r^2$. The most common wrong answer is D, but $7.2$ is only the rounded value, not the largest possible true radius.
+
+3. In a right-angled triangle, $a=3.2$ cm correct to the nearest mm and $c=8$ cm correct to the nearest cm. Which calculation gives the lower bound of $b$, where $c$ is the hypotenuse?
+
+   - $$\sqrt{7.5^2-3.25^2}$ ✔
+
+   - $$\sqrt{8.5^2-3.15^2}$
+
+   - $$\sqrt{7.5^2-3.15^2}$
+
+   - $$\sqrt{8.5^2-3.25^2}$
+
+   _Explanation:_ The lower bound of $b=\sqrt{c^2-a^2}$ uses the smallest possible $c$ and the largest possible $a$, so A is correct. The most common wrong answer is C, but using the lower bound of $a$ makes $a^2$ smaller, so the subtraction is larger and $b$ is not as small as possible.

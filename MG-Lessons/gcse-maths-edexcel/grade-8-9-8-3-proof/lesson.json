@@ -1,0 +1,133 @@
+{
+ "topic": "grade-8-9-8-3-proof",
+ "lane": "gcse-maths-edexcel",
+ "grade": "8",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What proof means",
+   "body": "![Flowchart of algebraic proof with boxes labelled define n, write even odd and consecutive forms, substitute and simplify, factorise into target forms, and conclude](../assets/001-04e11e40-8db1-4f46-82c2-7f6159044d5a.jpeg)\n\nIn proof, checking a few examples is not enough. We use a letter such as $n$ to stand for any allowed integer, so the argument works for every case.\n\nStandard forms matter. Even numbers are $2n$, odd numbers are $2n+1$, and consecutive integers can be written as $n$ and $n+1$.\n\nBefore you start, decide the target form you want to reach, such as $2k+1$, $6k$, $k^2$, or $8k+2$. A good proof follows a clear chain: define the general number, substitute, simplify, factorise if needed, and conclude. The last sentence must explain why the remaining part is an integer.",
+   "figure_refs": [
+    "assets/001-04e11e40-8db1-4f46-82c2-7f6159044d5a.jpeg"
+   ]
+  },
+  {
+   "heading": "Worked example: consecutive integers",
+   "body": "To prove a result about two consecutive integers, let the smaller integer be $n$. Then the next integer is $n+1$, which keeps the proof general. Add the two expressions and simplify.\n\n$$$n+(n+1)=2n+1$$\n\nThe result is now in the form $2k+1$. Since $2n$ is even for every integer $n$, $2n+1$ is always odd. Therefore, the sum of two consecutive integers is always odd."
+  },
+  {
+   "heading": "Worked example: three consecutive even integers",
+   "body": "For consecutive even integers, start with an even number on purpose. A safe general form is $2n$, $2n+2$, and $2n+4$.\n\nAdd the three expressions and collect like terms.\n$$\n2n+(2n+2)+(2n+4)=6n+6\n$$\nNow the common factor of 6 is visible.\n\nFactorise completely.\n$$\n6n+6=6(n+1)\n$$\nSince $n+1$ is an integer, the sum is always a multiple of 6. Therefore, three consecutive even integers always add to a number divisible by 6."
+  },
+  {
+   "heading": "Expand, simplify, then factorise",
+   "body": "Some proof questions use brackets and powers to hide the answer. The safest method is to expand first, simplify second, and then factorise last. For $(4n+3)^2-(4n-3)^2$, you should expand each square individually before you subtract.\n\n$$$\n(4n+3)^2=16n^2+24n+9\n$$\n$$\n(4n-3)^2=16n^2-24n+9\n$$\n\nExpanding separately avoids losing the minus sign in front of the second bracket. If the question asks for a multiple of 12, your final line should look like $12k$. After subtraction, we want a factor of 12 to appear clearly."
+  },
+  {
+   "heading": "Finishing the divisibility proof",
+   "body": "Now subtract carefully.\n$$\n(16n^2+24n+9)-(16n^2-24n+9)=48n\n$$\nThe $16n^2$ terms cancel, and the outside minus turns $-24n$ into $+24n$.\n\nNext factorise the result.\n$$\n48n=12(4n)\n$$\nSince $4n$ is an integer, the expression is always a multiple of 12. Therefore, $(4n+3)^2-(4n-3)^2$ is always divisible by 12.\n\nA quick check is\n$$\n(a+b)^2-(a-b)^2=4ab\n$$\nHere $a=4n$ and $b=3$, so\n$$\n4ab=4 \\times 4n \\times 3=48n\n$$\nwhich matches the full proof."
+  },
+  {
+   "heading": "Worked example: proving a square number",
+   "body": "If the target is a square number, do not stop at an expanded expression like $n^2+10n+25$. You want a single bracket squared, because that shows the value is $k^2$ for some integer $k$.\n\nConsider $(n+5)(n+4)+(n+5)$. Both terms contain $n+5$, so factorise that common factor first. $$(n+5)(n+4)+(n+5)=(n+5)(n+4+1)$$\n\nNow simplify inside the bracket and rewrite the product as a square. $$(n+5)(n+4+1)=(n+5)(n+5)=(n+5)^2$$ Since $n+5$ is an integer, the expression is always a square number."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Which algebraic form always represents an odd integer?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$2n+1$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$2n$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$n+1$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$n+2$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$2n+1$ is one more than an even number, so it is always odd. The common wrong answer is $n+1$, but if $n=3$ then $n+1=4$, which is even."
+  },
+  {
+   "id": "card-7",
+   "question": "Why is $n$, $n+2$, $n+4$ not a safe starting point for proving something about three consecutive even integers?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The numbers are not 2 apart",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "The numbers might not all be even",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "You must always use a different letter for each number",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "Factorising will no longer work",
+     "is_correct": false
+    }
+   ],
+   "explanation": "$$n$, $n+2$, $n+4$ are 2 apart, but they are only guaranteed to be even if $n$ is even. The common wrong answer is A, but the spacing is fine; the problem is the missing guarantee that the numbers are even."
+  },
+  {
+   "id": "card-13",
+   "question": "The sum $(2n+1)^2+(2n+3)^2$ simplifies to $8n^2+16n+10$. Which line completes the proof that it is 2 more than a multiple of 8?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$8(n^2+2n+1)+2$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$8(n^2+2n+1)$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$2(4n^2+8n+5)$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$(2n+2)^2+6$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "To prove “2 more than a multiple of 8”, the expression must be written as $8k+2$, and A does exactly that with $k=n^2+2n+1$. The common wrong answer is B because it shows a multiple of 8, but it misses the extra 2 that the question asks for."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-8-9-8-3-proof/lessons",
+ "source_sha256": "24b773fa6b91fb3f2f82d626b3cdd74b423d0f3b7a494feb6ec63a1b727b6e17",
+ "extracted_at": "2026-11-08T17:59:05Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "1f7c7f7b-dae6-40a0-a6f0-2b1fe2350b1b",
+  "topic_id": "5734cfec-0c52-4976-b946-bee65f2cc7e3",
+  "created_at": "2026-05-13T06:09:05.549Z",
+  "updated_at": "2026-05-13T06:12:23.433Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

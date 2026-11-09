@@ -1,0 +1,135 @@
+{
+ "topic": "grade-3-3-17-transformations",
+ "lane": "gcse-maths-edexcel",
+ "grade": "3",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What transformations do",
+   "body": "![Four coordinate grids showing the same triangle translated, reflected in the line x = 1, rotated 90 degrees anticlockwise about O, and enlarged by scale factor 2 from O](../assets/001-5db078b2-b732-4e1b-9f46-32b7a6160258.jpeg)\n\nA transformation moves or changes a shape on a coordinate grid. The original shape is called the object, the new one is the image, and matching corners are corresponding vertices.\n\nA point is written as $(x,y)$, where $x$ tells you how far across and $y$ tells you how far up or down. The origin is specifically the point $O=(0,0)$.\n\nThere are four main transformations: translation, reflection, rotation, and enlargement. To describe one fully, you must name the type and provide its specific extra detail.",
+   "figure_refs": [
+    "assets/001-5db078b2-b732-4e1b-9f46-32b7a6160258.jpeg"
+   ]
+  },
+  {
+   "heading": "Translations and vectors",
+   "body": "![Coordinate grid showing a triangle translated from A(-2,-1), B(0,-1), C(-1,1) to A'(4,2), B'(6,2), C'(5,4) with a movement arrow labelled vector 6 over 3](../assets/002-4c6f94c7-10b2-4b73-8dc3-79cbbe9aa822.jpeg)\n\nA translation slides a shape without turning or flipping it. Every vertex moves the same distance, so the image has the same size and orientation as the object.\n\nIn the diagram, $A(-2,-1)$ moves to $A'(4,2)$. The $x$-coordinate increases by $6$, so the movement is 6 right, and the $y$-coordinate increases by $3$, so the movement is 3 up.\n\nWe write this as\n$$\n\\begin{pmatrix} 6 \\\\ 3 \\end{pmatrix}\n$$\nThe top number is the horizontal movement and the bottom number is the vertical movement. That vector is the full description of the translation.",
+   "figure_refs": [
+    "assets/002-4c6f94c7-10b2-4b73-8dc3-79cbbe9aa822.jpeg"
+   ]
+  },
+  {
+   "heading": "Reflections and rotations",
+   "body": "![Coordinate grid comparing a shape reflected in the line y = x, a shape rotated 90 degrees anticlockwise about O, and a triangle enlarged by scale factor 3 from O](../assets/003-b4090e9d-4a72-467c-9a48-3e1bad6bc1cc.jpeg)\n\nThe diagram compares three non-translation transformations. A reflection flips a shape in a mirror line, a rotation turns it about a centre, and an enlargement changes its size from a centre.\n\nFor reflections, corresponding vertices stay the same distance from the mirror line on opposite sides. In the $x$-axis, $(x,y)\\to(x,-y)$, in the $y$-axis, $(x,y)\\to(-x,y)$, and in the line $y=x$, $(x,y)\\to(y,x)$.\n\nFor rotations about $O$, a $90^\\circ$ anticlockwise turn uses $(x,y)\\to(-y,x)$ and a $180^\\circ$ turn uses $(x,y)\\to(-x,-y)$. A full description of a rotation must include the angle, direction, and centre.",
+   "figure_refs": [
+    "assets/003-b4090e9d-4a72-467c-9a48-3e1bad6bc1cc.jpeg"
+   ]
+  },
+  {
+   "heading": "Enlargements from the origin",
+   "body": "An enlargement changes size but keeps shape. The scale factor tells you how many times each distance from the centre changes, and the centre of enlargement is the fixed point it grows from.\n\nIf the centre is $O$, multiply each coordinate by the scale factor. With scale factor $3$, $(1,0)\\to(3,0)$, $(2,0)\\to(6,0)$, and $(2,2)\\to(6,6)$.\n\nSo the triangle with vertices $(1,0)$, $(2,0)$, and $(2,2)$ becomes a triangle with vertices $(3,0)$, $(6,0)$, and $(6,6)$. This quick multiplication rule only works when the centre of enlargement is $O$."
+  },
+  {
+   "heading": "Combined transformations",
+   "body": "When a question gives two transformations, do them in the order written. 'Reflect then translate' can give a different result from 'translate then reflect.'\n\nExample: start with the point $(2,3)$ and reflect it in the $x$-axis to get $(2,-3)$. Now compare $(2,-3)$ with the final point $(-1,-4)$.\n\nThe movement is 3 left and 1 down, so the translation vector is\n$$\\begin{pmatrix} -3 \\\\ -1 \\end{pmatrix}$$\n\nWorking one step at a time is the safest method. It also helps you spot if you have used the wrong pair of points."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Which transformation can change the size of a shape?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Translation",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "Reflection",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "Enlargement",
+     "is_correct": true
+    },
+    {
+     "id": "d",
+     "text": "Rotation",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Enlargement is correct because it changes the size of the shape. Rotation is the most common wrong answer because the shape turns, but it stays the same size."
+  },
+  {
+   "id": "card-7",
+   "question": "A point at $(4,-2)$ is reflected in the line $y=x$. What are the coordinates of the image?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$(-2,4)$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$(4,2)$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$(2,-4)$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$(-4,2)$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "Reflecting in $y=x$ swaps the coordinates, so $(4,-2)$ becomes $(-2,4)$. Option B is the common wrong answer because it only changes the sign of $y$, which is reflection in the $x$-axis, not in $y=x$."
+  },
+  {
+   "id": "card-13",
+   "question": "A point starts at $(2,1)$. It is translated by the vector $\\begin{pmatrix} 3 \\\\ -2 \\end{pmatrix}$ and then reflected in the $x$-axis. Where is the final point?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$(5,1)$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$(5,-1)$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$(5,-3)$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$(-5,1)$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "First translate: $(2,1)\\to(5,-1)$. Then reflect in the $x$-axis, which changes the sign of the $y$-coordinate, so $(5,-1)\\to(5,1)$. Option B is the common wrong answer because it stops after the translation, and option C is a common wrong answer because it does the reflection first."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-3-3-17-transformations/lessons",
+ "source_sha256": "2455e3435fe36dd049322a7d70040be984c8dbb4567923081e8315353b50861f",
+ "extracted_at": "2026-11-08T17:58:14Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "afad6787-daec-4eb1-9c23-addf8898113d",
+  "topic_id": "7f08439e-e900-44f9-8c84-e6ca19099126",
+  "created_at": "2026-05-13T07:22:29.676Z",
+  "updated_at": "2026-10-06T15:35:23.181Z",
+  "figures": 3,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

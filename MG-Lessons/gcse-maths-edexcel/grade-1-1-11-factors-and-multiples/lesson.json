@@ -1,0 +1,133 @@
+{
+ "topic": "grade-1-1-11-factors-and-multiples",
+ "lane": "gcse-maths-edexcel",
+ "grade": "1",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "Factors and multiples",
+   "body": "![Factor pairs pointing into 12 and multiples of 12 extending outward on a number line](../assets/001-0b37ca26-8d33-42ca-aa6a-9ffeb1f9988f.jpeg)\nA factor goes into a number exactly, with no remainder. A multiple is a number in that number's times table.\n\nFor 12, the factors are 1, 2, 3, 4, 6 and 12 because each divides 12 exactly. The multiples start 12, 24, 36 and 48 because they come from $12 \\times 1$, $12 \\times 2$, $12 \\times 3$ and $12 \\times 4$.",
+   "figure_refs": [
+    "assets/001-0b37ca26-8d33-42ca-aa6a-9ffeb1f9988f.jpeg"
+   ]
+  },
+  {
+   "heading": "Finding multiples",
+   "body": "A multiple is found by counting in equal jumps. Multiples of $6$ are $6, 12, 18, 24, 30, 36$, and they keep going forever.\n\nTo find a multiple of $6$ between $25$ and $35$, count in $6$s until you pass the gap. $30$ is inside the gap, while $24$ is too small and $36$ is too big.\n\nFor the first even multiple of $7$, start at $7$ itself: $7, 14, 21, 28$. $14$ is the first one ending in an even digit, so it is the first even multiple."
+  },
+  {
+   "heading": "Finding all factors",
+   "body": "Factors often come in pairs. To list all the factors of 12, start with 1 and 12 because $1 \\times 12 = 12$.\n\nNext test small numbers in order. Since $12 \\div 2 = 6$ and $12 \\div 3 = 4$, the pairs 2 and 6, and 3 and 4, are factors.\n\nNow write every factor once in ascending order: 1, 2, 3, 4, 6, 12. A common mistake is to include 24, but 24 is a multiple of 12, not a factor of 12."
+  },
+  {
+   "heading": "Prime numbers",
+   "body": "A prime number is a number greater than $1$ with exactly two factors: $1$ and itself. That is why $1$ is not prime, because it has only one factor.\n\nThe number $2$ is the only even prime. Every other even number has $2$ as a factor, so it cannot be prime.\n\nTo find the primes between $30$ and $40$, test $31$ to $39$. Remove $32, 34, 36$ and $38$ because they are even, then remove $33$ and $39$ because they divide by $3$, and $35$ because it divides by $5$. The numbers left are $31$ and $37$, so these are the primes."
+  },
+  {
+   "heading": "Square numbers and lists",
+   "body": "A square number is made by multiplying a whole number by itself. The small square numbers are 1, 4, 9, 16, 25, 36 and 49.\n\nFrom the list 18, 20, 22, 25, 28, 30, the square number is 25 because $5 \\times 5 = 25$. If a question says \"from the list\", every answer must be one of the given numbers."
+  },
+  {
+   "heading": "Combining clues",
+   "body": "When a question gives several clues, keep only the numbers that match every clue. For \"odd, factor of 30, and multiple of 5\", start with the factors of 30: 1, 2, 3, 5, 6, 10, 15, 30.\n\nKeep the odd factors: 1, 3, 5, 15. Then keep the multiples of 5, leaving 5 and 15.\n\nFor an odd total made from two prime numbers, try 2 first because it is the only even prime. If the sum is 21, then $21 - 2 = 19$, so one pair is 2 and 19."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Which statement about 12 is correct?",
+   "options": [
+    {
+     "id": "a",
+     "text": "3 is a factor of 12",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "3 is a multiple of 12",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "24 is a factor of 12",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "12 is prime",
+     "is_correct": false
+    }
+   ],
+   "explanation": "3 is a factor because $12 \\div 3 = 4$ exactly. The common wrong answer is B, but 3 is not a multiple of 12; instead 12 is a multiple of 3."
+  },
+  {
+   "id": "card-8",
+   "question": "Which list shows all the factors of $18$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$1, 2, 3, 6, 9, 18$",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "$$1, 2, 3, 4, 6, 9, 18$",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "$$2, 3, 6, 9, 18$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$1, 3, 6, 18, 36$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A is correct because each number divides $18$ exactly and no factor is missing. The common wrong answer is C, but $1$ is a factor of every whole number, so it must be included. Hint: Check each number by division, not by guesswork."
+  },
+  {
+   "id": "card-12",
+   "question": "From the numbers 4, 11, 12, 15, 18, 25 and 29, which pair gives a factor of 20 and a prime number?",
+   "options": [
+    {
+     "id": "a",
+     "text": "4 and 29",
+     "is_correct": true
+    },
+    {
+     "id": "b",
+     "text": "4 and 25",
+     "is_correct": false
+    },
+    {
+     "id": "c",
+     "text": "12 and 29",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "15 and 11",
+     "is_correct": false
+    }
+   ],
+   "explanation": "A works because 4 is a factor of 20 and 29 is prime, and both numbers come from the list. The common wrong answer is B because 25 is not prime: $25 = 5 \\times 5$. Hint: Check one clue at a time, and keep every answer inside the list."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-1-1-11-factors-and-multiples/lessons",
+ "source_sha256": "d21965fcb4fbd037a88c55b9759da20704c9d2fbbb81e3a0fef57d9fea941b25",
+ "extracted_at": "2026-11-08T17:57:50Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "61321830-37d7-451a-bd9e-def7df73339a",
+  "topic_id": "76132422-25f9-46e9-bfa8-8e6ed96d4657",
+  "created_at": "2026-05-13T11:06:39.416Z",
+  "updated_at": "2026-05-13T11:09:45.599Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}

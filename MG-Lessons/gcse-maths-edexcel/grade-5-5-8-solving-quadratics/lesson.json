@@ -1,0 +1,129 @@
+{
+ "topic": "grade-5-5-8-solving-quadratics",
+ "lane": "gcse-maths-edexcel",
+ "grade": "5",
+ "tier": null,
+ "steps": [
+  {
+   "heading": "What makes an equation quadratic?",
+   "body": "![Graph of the quadratic y=(x+2)(x-3) crossing the x-axis at -2 and 3, with roots labelled](../assets/001-d80e0322-905c-45a9-b23b-20e024079e13.jpeg)\n\nA quadratic equation has a squared term as its highest power, such as $x^2-x-6=0$. The graph above is of $y=(x+2)(x-3)=x^2-x-6$, so its roots are $x=-2$ and $x=3$. In this lesson, we focus on equations of the form $x^2+bx+c=0$, where the coefficient of $x^2$ is 1.\n\nWhen we solve a quadratic, we are finding the values of the variable that make the equation true. On a graph, these values are the roots, where the curve crosses the x-axis.\n\nA common GCSE method is factorising, which rewrites the quadratic as a product of two brackets. Then the zero product rule lets us solve each bracket.",
+   "figure_refs": [
+    "assets/001-d80e0322-905c-45a9-b23b-20e024079e13.jpeg"
+   ]
+  },
+  {
+   "heading": "Factorising reverses expanding",
+   "body": "To factorise $x^2+bx+c$, find two numbers that multiply to $c$ and add to $b$. Those numbers go into two brackets, each starting with $x$.\n\nFor $x^2+6x+8$, the numbers are 2 and 4 because $2 \\times 4 = 8$ and $2+4=6$. So\n\n$$$x^2+6x+8=(x+2)(x+4)$$\n\nAlways check the middle term by a quick expansion. Here the outside and inside terms are $4x$ and $2x$, which combine to make $6x$."
+  },
+  {
+   "heading": "Choosing the signs in the brackets",
+   "body": "If the constant term is positive, the bracket signs are the same. A positive middle term means both signs are positive, and a negative middle term means both signs are negative.\n\nIf the constant term is negative, the bracket signs are different. The larger number takes the sign that makes the middle term correct.\n\nFor $y^2+y-30$, we need two numbers that multiply to $-30$ and add to $1$, so they are $6$ and $-5$. Therefore:\n\n$$$y^2+y-30=(y+6)(y-5)$$ A quick check gives $-5y+6y=y$, so the middle term is right."
+  },
+  {
+   "heading": "Worked example: factorise, then solve",
+   "body": "Solve $n^2+n-42=0$. We need two numbers that multiply to $-42$ and add to 1, so the pair is 7 and -6.\n\nThat gives the factorisation below. The equation then becomes a product equal to zero.\n\n$$n^2+n-42=(n+7)(n-6)$$\n\n$$(n+7)(n-6)=0$$\n\nUsing the zero product rule, either $n+7=0$ or $n-6=0$. So the solutions are:\n\n$$n=-7 \\quad \\text{or} \\quad n=6$$\n\nDo not stop after solving for one bracket, because a quadratic usually has two roots. Ensure you calculate the value for both factors to provide a complete answer."
+  },
+  {
+   "heading": "Stretch: solve after rearranging",
+   "body": "Sometimes the quadratic is not equal to zero at first. Before factorising, move everything to one side so the equation becomes $x^2+bx+c=0$.\n\nFor $x^2+5x=14$, subtract 14 from both sides to get:\n$$x^2+5x-14=0$$\n\nNow find two numbers that multiply to $-14$ and add to 5, which are 7 and -2. So the factorised equation is:\n$$(x+7)(x-2)=0$$\n\nThe final solutions are:\n$$x=-7 \\quad \\text{or} \\quad x=2$$\nA common mistake is to forget the rearranging step and use the wrong constant term."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "card-2",
+   "question": "Which of these is a quadratic equation?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$x^2+5x+6$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$x^2+5x+6=0$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$x+5=0$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$x^3+5x+6=0$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "B is correct because it is an equation and the highest power of $x$ is 2. The common wrong answer A is only a quadratic expression, because it is not set equal to anything."
+  },
+  {
+   "id": "card-7",
+   "question": "Which factorisation is correct for $a^2-9a+18$?",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$(a+3)(a+6)$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$(a-3)(a-6)$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$(a-2)(a-9)$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$(a+2)(a-9)$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "B is correct because 3 and 6 multiply to 18, and both signs must be negative to make the middle term $-9a$. The common wrong answer A uses the right numbers but gives $+9a$, not $-9a$."
+  },
+  {
+   "id": "card-12",
+   "question": "Solve $x^2+5x=14$.",
+   "options": [
+    {
+     "id": "a",
+     "text": "$$x=7$ or $x=-2$",
+     "is_correct": false
+    },
+    {
+     "id": "b",
+     "text": "$$x=-7$ or $x=2$",
+     "is_correct": true
+    },
+    {
+     "id": "c",
+     "text": "$$x=14$ or $x=1$",
+     "is_correct": false
+    },
+    {
+     "id": "d",
+     "text": "$$x=-14$ or $x=-1$",
+     "is_correct": false
+    }
+   ],
+   "explanation": "B is correct because you must first rearrange to $x^2+5x-14=0$, then factorise to $(x+7)(x-2)=0$. The common wrong answer A comes from solving $x+7=0$ incorrectly and forgetting that it gives $x=-7$."
+  }
+ ],
+ "videos": [],
+ "is_published": true,
+ "source_url": "https://www.mathsgenie.co.uk/gcse/maths/edexcel/grade-5-5-8-solving-quadratics/lessons",
+ "source_sha256": "bf15f50a8baa4c4b8b04333578b6c2741a727a7b9f5b1e683761bf87250f3b77",
+ "extracted_at": "2026-11-08T17:58:43Z",
+ "extractor": "mg_ls1_extract.py (T-MG-LS-1 run-001)",
+ "task_id": "T-MG-LS-1",
+ "source_meta": {
+  "lesson_id": "ed51e609-d680-4c16-b6e8-17ecedc05603",
+  "topic_id": "479ba595-544e-417e-a0f1-f8fedeb46144",
+  "created_at": "2026-05-13T06:39:47.005Z",
+  "updated_at": "2026-05-13T06:42:37.001Z",
+  "figures": 1,
+  "grammar_note": "quiz[] is a documented amendment; steps[].figure_refs may list multiple figures"
+ }
+}
