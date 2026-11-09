@@ -272,3 +272,30 @@ double-award/modular variants (fold from triple lanes), non-science subjects (no
 **Reminder of record:** these are supplements — every course above (except igcse-biology-19) still
 owes the P2-method site-inventory alignment, which carries keyPoints evidence and can upgrade
 title-only grades to high.
+
+## P2D — CIE A-level external-channels lane (2026-11-09, T-VIDEOMAP-P2D)
+
+The dedicated lane P2C deferred. Same title-only evidence posture, tightened binding rule (title must name the
+spec's distinctive content), no high rows, every row `reviewed:false` + `boardMismatch:true`.
+
+**P2D drafts:**
+
+| Course | Specs | Rows (M/L) | Distinct specs drafted |
+| --- | --- | --- | --- |
+| cie-a-level-biology-25 | 257 | 139 (104/35) | 145 (56%) |
+| cie-a-level-chemistry-25 | 356 | 103 (75/28) | 127 (36%) |
+| cie-a-level-physics-25 | 303 | 61 (46/15) | 76 (25%) |
+
+Identity: **264/264** — 104 oEmbed + 160 thumbnail-fallback. NEW: freesciencelessons disabled embedding on most
+A-level videos (oEmbed 401); identity for those = i.ytimg.com thumbnail liveness + yt-dlp uploads-playlist
+enumeration (`identityMethod` field per video). Doodle Science's A-Level Physics playlist (excluded in P2B as
+"GCSE-only") is a real source here — 20 physics rows.
+
+Validation gates: spine-code resolution caught 3 pre-commit errors (17.2.x guesses -> 17.1.4/17.1.5; reduction
+misfile -> 16.1.1(d)); cognito channel-only guard rejected 6 site-gated rows (removed); no (video,spec) dupes.
+
+Still honest-empty after this lane: Period 3 chemistry, entropy/Gibbs/lattice/Born-Haber, electrode potentials,
+NMR, rate equations, buffers, capacitors, photoelectric detail, Doppler, SUVAT, most A2 options (bio: gene
+therapy/GM food/stats; full lists in `Videos/drafts/review-file-external-p2d.md`).
+
+Review file: `Videos/drafts/review-file-external-p2d.md`. Branch: `videos/p2d-cie-alevel` (off videos/p2c-all-subjects).

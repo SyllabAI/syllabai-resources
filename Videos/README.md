@@ -42,6 +42,7 @@ Videos/
 | **P2 — First course map (igcse-biology-19)** | ✅ **MERGED** — owner ruling "approve all except 4.16" (104/105 rows) | hub `apps/hub/content/video-map/igcse-biology-19.json` @ `51ec8fffe` (PR #574); closure PR #265 |
 | **P2B — External-channels sweep: biology (owner ask)** | 🟡 **draft built — owner review pending** | `drafts/igcse-biology-19/video-map.draft.external.json` + `review-file-external.md` (28 rows: 19 medium / 9 low, all `reviewed: false`, oEmbed 27/27); census 165/176 if fully approved |
 | **P2C — All-subjects sweep (owner ask)** | 🟡 **drafts built — owner review pending** | 6 per-course drafts (`drafts/<course>/video-map.draft.external.json`) + `drafts/review-file-external-p2c.md` + `docs/P2C-COURSE-CENSUS.md`; 248 rows (chem 94 / phys 102 / maths 7 / CIE trio 45 pilots), oEmbed 214/214 |
+| **P2D — CIE A-level trio lane (owner ask)** | 🟡 **drafts built — owner review pending** | 3 per-course drafts (`drafts/cie-a-level-{biology,chemistry,physics}-25/`) + `drafts/review-file-external-p2d.md`; 303 rows (bio 104M/35L, chem 75M/28L, phys 46M/15L), identity 264/264 (104 oEmbed + 160 FSL 401 → thumbnail-fallback), all `reviewed: false` + `boardMismatch: true` |
 | P3 — Hub surface | pending | plan §6 |
 | P4 — Scale | pending | plan §9 |
 
