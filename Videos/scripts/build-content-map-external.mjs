@@ -160,16 +160,21 @@ for (const course of [...FRESH, ...MERGE]) {
   // ------------------------------------------------ review provenance
   let review;
   if (siteMeta) {
-    const siteRejects = (siteMeta.review.rejects || []).map((r) => ({ ...r, lane: siteMeta.review.task }));
+    // Post-merge re-runs read the MERGED file from origin/main: the site lane then
+    // lives in review.lanes[0] and the top-level rows/rejects are the previous
+    // UNION — using them as "site" would absorb the external lane and double-count
+    // its rejects. Derive the site lane from lanes[0] when present.
+    const siteReview = siteMeta.review.lanes ? siteMeta.review.lanes[0] : siteMeta.review;
+    const siteRejects = (siteReview.rejects || []).map((r) => ({ ...r, lane: siteReview.task }));
     const extRejects = REJECTS_OF(verdicts, verdicts.task);
     review = {
       ...siteMeta.review,
       lanes: [
         {
-          lane: "site (cognito pages)", task: siteMeta.review.task,
-          ruling: siteMeta.review.ruling, reviewer: siteMeta.review.reviewer,
-          ruledUtc: siteMeta.review.ruledUtc, evidenceBasis: siteMeta.review.evidenceBasis,
-          rowsApproved: siteMeta.review.rowsApproved, rowsRejected: siteMeta.review.rowsRejected,
+          lane: "site (cognito pages)", task: siteReview.task,
+          ruling: siteReview.ruling, reviewer: siteReview.reviewer,
+          ruledUtc: siteReview.ruledUtc, evidenceBasis: siteReview.evidenceBasis,
+          rowsApproved: siteReview.rowsApproved, rowsRejected: siteReview.rowsRejected,
           rejects: siteRejects,
         },
         {
@@ -182,7 +187,7 @@ for (const course of [...FRESH, ...MERGE]) {
         },
       ],
       rowsApproved: rows.length,
-      rowsRejected: siteMeta.review.rowsRejected + extRejects.length,
+      rowsRejected: siteReview.rowsRejected + extRejects.length,
       rejects: [...siteRejects, ...extRejects],
       selfReviewNote:
         "External lane adjudicated by delegated self-review per owner chat 2026-11-09 "
@@ -261,16 +266,27 @@ writeFileSync(registryPath, JSON.stringify(registry, null, 1) + "\n");
 console.log(`wrote ${registryPath}`);
 
 // ------------------------------------------------ flags.json videoMap.courses
+// Skip-if-current: once P3 landed (PR #906) the status text is live; rewriting
+// it on every emit would churn flags.json (and fight the file's \uXXXX escaping).
 const flagsPath = join(HUB, "apps/hub/content/flags.json");
 const flags = JSON.parse(readFileSync(flagsPath, "utf8"));
 const want = ["igcse-biology-19", ...FRESH];
 const have = new Set(flags.flags.videoMap.courses);
-for (const c of want) if (!have.has(c)) flags.flags.videoMap.courses.push(c);
-flags.flags.videoMap.courses.sort();
-flags.flags.videoMap.status =
-  "flagged-ahead (F189 Step 5 + P2B/P2C/P2D): reviewed data committed for 10 courses "
-  + "(igcse-biology-19 site+external; 9 external-channels courses incl. the CIE A-level trio); "
-  + "the lane surface itself is P3 — lib/video-map.ts absent = OFF, flagged course with no loader "
-  + "renders its honest empty state. External rows resolve via watchUrl (lessonUrl:null) when P3 lands.";
-writeFileSync(flagsPath, JSON.stringify(flags, null, 1) + "\n");
-console.log(`wrote ${flagsPath} (videoMap.courses now ${flags.flags.videoMap.courses.length} courses)`);
+const coursesCurrent = want.every((c) => have.has(c)) && flags.flags.videoMap.courses.length === want.length;
+const statusCurrent = typeof flags.flags.videoMap.status === "string"
+  && flags.flags.videoMap.status.startsWith("live (T-VIDEOMAP-P3)");
+if (coursesCurrent && statusCurrent) {
+  console.log(`flags.json already current (videoMap.courses = ${have.size} courses, status live) — left untouched`);
+} else {
+  for (const c of want) if (!have.has(c)) flags.flags.videoMap.courses.push(c);
+  flags.flags.videoMap.courses.sort();
+  flags.flags.videoMap.status =
+    "live (T-VIDEOMAP-P3): lib/video-map.ts loader + /courses/[course]/videos lane shipped for the "
+    + "courses below (igcse-biology-19 site+external; 9 external-channels courses incl. the CIE A-level trio). "
+    + "Links resolve lessonUrl (site lane, Cognito) then watchUrl (external lane, YouTube). Rows are "
+    + "owner-reviewed (title-only evidence, confidence + boardMismatch disclosed per row); the loader "
+    + "re-filters reviewed:true as defense in depth. One-flip kill unchanged: remove the slug (per-course) "
+    + "or the videoMap key (global).";
+  writeFileSync(flagsPath, JSON.stringify(flags, null, 1) + "\n");
+  console.log(`wrote ${flagsPath} (videoMap.courses now ${flags.flags.videoMap.courses.length} courses)`);
+}
