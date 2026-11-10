@@ -46,6 +46,9 @@ const FRESH = [
   "cie-a-level-biology-25", "cie-a-level-chemistry-25", "cie-a-level-physics-25",
 ];
 const MERGE = ["igcse-biology-19"];
+// P2E: a SECOND external lane (PhysicsOnline) for the three physics courses —
+// draft + verdicts live in video-map.draft.external-p2e.json / owner-review-verdicts.p2e.json
+const P2E = ["cie-a-level-physics-25", "cie-igcse-physics-23", "igcse-physics-19"];
 
 const errors = [];
 const registryPath = join(MAPDIR, "registry.json");
@@ -60,6 +63,11 @@ for (const course of [...FRESH, ...MERGE]) {
   // the external-lane verdicts live in owner-review-verdicts.external.json there.
   const vname = MERGE.includes(course) ? "owner-review-verdicts.external.json" : "owner-review-verdicts.json";
   const verdicts = JSON.parse(readFileSync(join(D, vname), "utf8"));
+  let p2eDraft = null, p2eVerdicts = null;
+  if (P2E.includes(course)) {
+    p2eDraft = JSON.parse(readFileSync(join(D, "video-map.draft.external-p2e.json"), "utf8"));
+    p2eVerdicts = JSON.parse(readFileSync(join(D, "owner-review-verdicts.p2e.json"), "utf8"));
+  }
   const spine = JSON.parse(readFileSync(join(SPINES, `${course}.json`), "utf8"));
   const specByCode = new Map(
     spine.curriculum.nodes.filter((n) => n.family === "SPEC_POINT").map((n) => [n.code, n])
@@ -67,8 +75,10 @@ for (const course of [...FRESH, ...MERGE]) {
 
   if (draft.reviewState !== "owner-reviewed-external")
     throw new Error(`${course}: reviewState is "${draft.reviewState}" — apply review first`);
+  if (p2eDraft && p2eDraft.reviewState !== "owner-reviewed-external")
+    throw new Error(`${course}: p2e reviewState is "${p2eDraft.reviewState}" — apply review first`);
 
-  let rows = draft.mappings; // extended with site rows in merge mode
+  let rows = draft.mappings; // extended with site rows (merge mode) and p2e rows below
 
   // ------------------------------------------------ videos assembly
   let videos, siteMeta = null;
@@ -96,6 +106,15 @@ for (const course of [...FRESH, ...MERGE]) {
     for (const v of videos)
       if (!v.provider || !v.watchUrl) errors.push(`${course}: external video ${v.id} missing provider/watchUrl`);
   }
+  if (p2eDraft) {
+    // second external lane: union videos by id (primary lane's entry wins), append its rows
+    const have = new Set(videos.map((v) => v.id));
+    for (const v of p2eDraft.videos) {
+      if (!have.has(v.id)) { videos.push(v); have.add(v.id); }
+      if (!v.provider || !v.watchUrl) errors.push(`${course}: p2e video ${v.id} missing provider/watchUrl`);
+    }
+    rows = [...rows, ...p2eDraft.mappings];
+  }
 
   // ------------------------------------------------ review-law + integrity gates
   for (const m of rows) {
@@ -114,6 +133,19 @@ for (const course of [...FRESH, ...MERGE]) {
     if (!/^[\w-]{11}$/.test(m.video)) errors.push(`${course}: bad video id ${m.video}`);
     for (const code of m.specs)
       if (!specByCode.has(code)) errors.push(`${course}: spec ${code} not in spine (${m.video})`);
+  }
+  if (p2eDraft) {
+    for (const m of p2eDraft.mappings) {
+      if (m.reviewed !== true || !m.reviewer || !m.reviewedUtc)
+        errors.push(`${course}: unreviewed p2e row leaking into content (${m.video})`);
+      if (m.method !== "llm-draft-external")
+        errors.push(`${course}: p2e row missing method (${m.video})`);
+      if (m.boardMismatch !== true)
+        errors.push(`${course}: p2e row must carry boardMismatch:true (${m.video})`);
+      if (!/^[\w-]{11}$/.test(m.video)) errors.push(`${course}: bad p2e video id ${m.video}`);
+      for (const code of m.specs)
+        if (!specByCode.has(code)) errors.push(`${course}: p2e spec ${code} not in spine (${m.video})`);
+    }
   }
   if (errors.length) break;
 
@@ -150,11 +182,16 @@ for (const course of [...FRESH, ...MERGE]) {
   };
   const dc = draft.coverage;
   {
-    // external-only census check (merge course: draft census is external-only)
-    const extRows = MERGE.includes(course) ? draft.mappings : rows;
+    // primary-lane census check (both modes: draft.mappings is the external-only primary lane)
+    const extRows = draft.mappings;
     const extSpecs = new Set(extRows.flatMap((m) => m.specs));
     if (extSpecs.size !== dc.specPointsDraftedHere || extRows.length !== dc.rows)
       throw new Error(`${course}: census mismatch between draft.coverage and recomputed external rows`);
+    if (p2eDraft) {
+      const p2eSpecs = new Set(p2eDraft.mappings.flatMap((m) => m.specs));
+      if (p2eSpecs.size !== p2eDraft.coverage.specPointsDraftedHere || p2eDraft.mappings.length !== p2eDraft.coverage.rows)
+        throw new Error(`${course}: census mismatch between p2e draft.coverage and recomputed rows`);
+    }
   }
 
   // ------------------------------------------------ review provenance
@@ -194,6 +231,7 @@ for (const course of [...FRESH, ...MERGE]) {
         + "('For now, approve and review yourself'); site-lane rulings unchanged from the owner's P2 chat ruling.",
     };
   } else {
+    const primaryRejects = (verdicts.rejects || []).map(({ lessonRef, video, spec, reason }) => ({ lessonRef, video, spec, reason }));
     review = {
       task: verdicts.task,
       ruledUtc: verdicts.ruledUtc,
@@ -201,9 +239,31 @@ for (const course of [...FRESH, ...MERGE]) {
       reviewer: verdicts.reviewer,
       evidenceBasis: verdicts.evidenceBasis,
       rowsApproved: rows.length,
-      rowsRejected: (verdicts.rejects || []).length,
-      rejects: (verdicts.rejects || []).map(({ lessonRef, video, spec, reason }) => ({ lessonRef, video, spec, reason })),
+      rowsRejected: primaryRejects.length + (p2eVerdicts ? (p2eVerdicts.rejects || []).length : 0),
+      rejects: p2eVerdicts ? [...primaryRejects, ...REJECTS_OF(p2eVerdicts, p2eVerdicts.task)] : primaryRejects,
     };
+    if (p2eVerdicts) {
+      review.lanes = [
+        {
+          lane: "external-channels (P2B/P2C/P2D)", task: verdicts.task,
+          ruling: verdicts.source, reviewer: verdicts.reviewer, ruledUtc: verdicts.ruledUtc,
+          evidenceBasis: verdicts.evidenceBasis,
+          rowsApproved: draft.mappings.length, rowsRejected: primaryRejects.length,
+          rejects: primaryRejects,
+        },
+        {
+          lane: "external-channels-p2e (physics-online)", task: p2eVerdicts.task,
+          ruling: p2eVerdicts.source, reviewer: p2eVerdicts.reviewer, ruledUtc: p2eVerdicts.ruledUtc,
+          evidenceBasis: p2eVerdicts.evidenceBasis,
+          rowsApproved: p2eDraft.mappings.length, rowsRejected: (p2eVerdicts.rejects || []).length,
+          rejects: REJECTS_OF(p2eVerdicts, p2eVerdicts.task),
+        },
+      ];
+      review.selfReviewNote =
+        "Both external lanes adjudicated by delegated self-review per owner chat 2026-11-09 "
+        + "('For now, approve and review yourself'); the P2E lane adds PhysicsOnline "
+        + "(gcsephysicsonline.com + alevelphysicsonline.com) under the same tightened binding rule.";
+    }
   }
 
   const source = siteMeta
@@ -221,6 +281,13 @@ for (const course of [...FRESH, ...MERGE]) {
         method: draft.source.method,
         enumeratedUtc: draft.source.enumeratedUtc,
       };
+  if (p2eDraft) {
+    source.p2e = {
+      provider: p2eDraft.source.provider,
+      method: p2eDraft.source.method,
+      enumeratedUtc: p2eDraft.source.enumeratedUtc,
+    };
+  }
 
   const content = {
     schema: "hub.video-map/1",
@@ -239,6 +306,14 @@ for (const course of [...FRESH, ...MERGE]) {
         task: verdicts.task,
         reviewAppliedUtc: verdicts.ruledUtc,
       },
+      ...(p2eDraft ? {
+        p2e: {
+          repo: "SyllabAI/syllabai-resources",
+          path: `Videos/drafts/${course}/video-map.draft.external-p2e.json`,
+          task: p2eVerdicts.task,
+          reviewAppliedUtc: p2eVerdicts.ruledUtc,
+        },
+      } : {}),
     },
     generatedUtc: new Date().toISOString(),
   };

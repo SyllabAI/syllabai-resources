@@ -332,3 +332,28 @@ Spec 4.16 (sewage) stays honestly unmapped — consistent with the owner's own P
 Hub delivery: `apps/hub/content/video-map/` — 9 new course files + the igcse-biology-19 merge
 (129 rows = 104 site + 25 external; **162/176 specs, 92%**), `registry.json` + `flags.json` videoMap.courses
 now 10 courses. Branch `videos/self-review-applied` (resources) + `hub/video-map-external-sweeps` (hub).
+
+## P2E — PhysicsOnline lane for the physics trio (2026-11-10, T-VIDEOMAP-P2E)
+
+Second external lane for `cie-a-level-physics-25`, `cie-igcse-physics-23`, `igcse-physics-19` from
+**@PhysicsOnline** (the one channel behind gcsephysicsonline.com + alevelphysicsonline.com, Lewis
+Matheson / Physics Online Ltd). Enumeration 1,080 uploads — **100% net-new** vs all three courses'
+existing external lanes. oEmbed identity **229/229**. Title-only posture, tightened binding rule,
+sewage filter (promo/exam-news/paper-walkthroughs/worksheet-answers excluded).
+
+| Course | Drafted | Approved | Full-row rejects | Spec trims | Lane specs | Course coverage |
+| --- | --- | --- | --- | --- | --- | --- |
+| cie-a-level-physics-25 | 138 | 126 | 12 | 2 | 92/303 | 66 -> **131/303** |
+| cie-igcse-physics-23 | 87 | 87 | 0 | 1 | 68/294 | 16 -> **76/294** |
+| igcse-physics-19 | 78 | 78 | 0 | 0 | 60/195 | 142 -> **146/195** |
+| **Σ** | **303** | **291** | **12** | **3** | — | 459 union rows |
+
+Rejects follow the P2B patterns (demonstration/teaching-ideas pieces, generic surveys, wording
+mismatches, level-mismatched sources); every reject reasoned in
+`Videos/drafts/<course>/owner-review-verdicts.p2e.json`. Review file:
+`Videos/drafts/review-file-external-p2e.md`.
+
+Builder extended (`build-content-map-external.mjs`): P2E lane list, per-lane census asserts,
+`review.lanes` array for two-external-lane courses, `source.p2e` + `inputs.p2e` provenance,
+flags skip-if-current (no churn), merge-mode review block now post-merge-idempotent (PR #335).
+Hub emit: union rows 179 / 103 / 177 + registry refresh; review blocks carry both lanes.
