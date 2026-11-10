@@ -1,0 +1,632 @@
+{
+ "format": "guided-lesson/0.6",
+ "noteRef": {
+  "noteId": "rn_NNfV9RDRtDq4fKCm",
+  "corpusVersion": "sme-revision-notes-igcse-physics-19-2026-09-17",
+  "topicTitle": "8. Astrophysics",
+  "subtopicTitle": "Cosmology",
+  "sourceUrl": "https://www.savemyexams.com/igcse/physics/edexcel/19/revision-notes/8-astrophysics/8-3-cosmology/8-3-3-galactic-red-shift"
+ },
+ "specPoints": [
+  {
+   "code": "8.17P",
+   "text": "describe the red-shift in light received from galaxies at different distances away from the Earth"
+  },
+  {
+   "code": "8.18P",
+   "text": "explain why the red-shift of galaxies provides evidence for the expansion of the universe"
+  }
+ ],
+ "primer": {
+  "text": "The Doppler effect works on light too: a receding source's wavelengths stretch towards the red end (redshift), an approaching one's squeeze towards the blue (blueshift). Distant galaxies show bigger redshifts than nearby ones — the further the galaxy, the faster it flees — and that pattern is the expansion of the universe written in light.",
+  "prerequisiteSubtopic": "Cosmology"
+ },
+ "lessons": [
+  {
+   "title": "Redshift and blueshift",
+   "sourceHeadings": [
+    "Galactic redshift"
+   ],
+   "specRefs": [
+    "8.17P"
+   ],
+   "opening": "Light obeys the Doppler effect like every other wave. When a source moves away, its light's wavelength increases towards the red end of the spectrum — redshift — and its frequency falls; when it approaches, the wavelength shortens towards blue — blueshift — and the frequency rises.",
+   "keyPoints": [
+    "When a light source moves away, its wavelength increases — redshift.",
+    "When a light source approaches, its wavelength decreases — blueshift.",
+    "An increase in wavelength is a decrease in frequency, and the reverse.",
+    "In visible light, red carries the longest wavelength and the smallest frequency.",
+    "The motorbike pitch analogy: receding sound drops in frequency, exactly like redshifted light."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Away = stretched = redder = lower frequency; towards = squeezed = bluer = higher frequency.",
+     "analogy": "Duck ripples again, but in light: the bow-wave bunches blue, the wake trails red.",
+     "examPointer": "In the visible spectrum, red = longest wavelength and lowest frequency — quote the pair."
+    },
+    "medium": {
+     "restatement": "One wave law does the work: fixed light speed forces the wavelength-frequency trade.",
+     "analogy": "A fixed-budget shopping trip: if each item (wavelength) costs more, fewer items (cycles per second) fit.",
+     "examPointer": "Tie the motorbike-pitch analogy to light explicitly when explaining."
+    }
+   },
+   "check": [
+    {
+     "stem": "A galaxy moves away from Earth. The light we receive shows…",
+     "misconceptionClass": "redshift definition",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "redshift — its wavelength has increased",
+       "correct": true,
+       "explanation": "Recession stretches the light towards red.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "blueshift — its wavelength has decreased",
+       "correct": false,
+       "explanation": "That belongs to approaching sources.",
+       "misconception": "direction swap"
+      },
+      {
+       "key": "C",
+       "text": "no change, light is too fast",
+       "correct": false,
+       "explanation": "Light shows the Doppler effect like any wave.",
+       "misconception": "immunity myth"
+      },
+      {
+       "key": "D",
+       "text": "gamma-ray brightening",
+       "correct": false,
+       "explanation": "Nothing turns light into gamma rays here.",
+       "misconception": "nonsense option"
+      }
+     ]
+    },
+    {
+     "stem": "Blueshift happens when a source…",
+     "misconceptionClass": "blueshift definition",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "moves towards the observer, shortening the wavelength",
+       "correct": true,
+       "explanation": "Approach compresses the light towards blue.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "moves away, stretching the wavelength",
+       "correct": false,
+       "explanation": "That is redshift.",
+       "misconception": "direction swap"
+      },
+      {
+       "key": "C",
+       "text": "stops emitting entirely",
+       "correct": false,
+       "explanation": "No emission, no shift to observe.",
+       "misconception": "nonsense option"
+      },
+      {
+       "key": "D",
+       "text": "changes colour artificially",
+       "correct": false,
+       "explanation": "The shift is physics, not paint.",
+       "misconception": "nonsense option"
+      }
+     ]
+    },
+    {
+     "stem": "In the visible spectrum, red light compared with blue light has…",
+     "misconceptionClass": "spectrum ordering",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "a longer wavelength and a smaller frequency",
+       "correct": true,
+       "explanation": "Red anchors the long-wavelength, low-frequency end.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "a shorter wavelength and a higher frequency",
+       "correct": false,
+       "explanation": "That describes blue.",
+       "misconception": "end swap"
+      },
+      {
+       "key": "C",
+       "text": "the same wavelength as blue",
+       "correct": false,
+       "explanation": "The ends of the spectrum differ.",
+       "misconception": "equality myth"
+      },
+      {
+       "key": "D",
+       "text": "no wavelength at all",
+       "correct": false,
+       "explanation": "Every light wave has one.",
+       "misconception": "nonsense option"
+      }
+     ]
+    },
+    {
+     "stem": "When wavelength increases, frequency…",
+     "misconceptionClass": "frequency pairing",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "decreases",
+       "correct": true,
+       "explanation": "The two quantities move oppositely.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "increases",
+       "correct": false,
+       "explanation": "That pair belongs to decreasing wavelength.",
+       "misconception": "direction error"
+      },
+      {
+       "key": "C",
+       "text": "stays constant",
+       "correct": false,
+       "explanation": "For a fixed speed, wavelength and frequency trade.",
+       "misconception": "constancy myth"
+      },
+      {
+       "key": "D",
+       "text": "becomes negative",
+       "correct": false,
+       "explanation": "Frequencies are positive.",
+       "misconception": "nonsense option"
+      }
+     ]
+    },
+    {
+     "stem": "A motorbike passing you drops in pitch as it recedes. This models…",
+     "misconceptionClass": "analogy reasoning",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "receding sources lowering frequency, as redshift does for light",
+       "correct": true,
+       "explanation": "The pitch fall mirrors the wavelength stretch.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "approaching sources raising wavelength",
+       "correct": false,
+       "explanation": "Approach raises frequency, shortens wavelength.",
+       "misconception": "analogy error"
+      },
+      {
+       "key": "C",
+       "text": "light slowing down in air",
+       "correct": false,
+       "explanation": "The analogy is about frequency, not speed.",
+       "misconception": "mechanism error"
+      },
+      {
+       "key": "D",
+       "text": "blueshift of a departing star",
+       "correct": false,
+       "explanation": "Departure gives redshift.",
+       "misconception": "direction swap"
+      }
+     ]
+    },
+    {
+     "stem": "Define redshift.",
+     "misconceptionClass": "redshift definition",
+     "kind": "recall",
+     "modelAnswer": "Redshift: the stretching of a light wave's wavelength as its source recedes from the observer.",
+     "keywords": [
+      "redshift",
+      "wavelength",
+      "stretching",
+      "source"
+     ]
+    },
+    {
+     "stem": "State the wavelength and frequency changes for blueshift.",
+     "misconceptionClass": "blueshift definition",
+     "kind": "recall",
+     "modelAnswer": "Blueshift shortens the wavelength and raises the frequency as the source approaches.",
+     "keywords": [
+      "blueshift",
+      "wavelength",
+      "decreases",
+      "frequency"
+     ]
+    },
+    {
+     "stem": "Explain why redshifted light has a lower frequency.",
+     "misconceptionClass": "frequency pairing",
+     "kind": "explain-why",
+     "modelAnswer": "Light travels at a fixed speed, so wavelength and frequency trade against each other; a stretched wavelength must come with a reduced frequency.",
+     "keywords": [
+      "wavelength",
+      "frequency",
+      "stretched",
+      "reduced"
+     ]
+    },
+    {
+     "stem": "A star's spectral lines sit at shorter wavelengths than the reference. State the star's motion.",
+     "misconceptionClass": "blueshift definition",
+     "kind": "application",
+     "modelAnswer": "Shorter wavelengths mean blueshift, so the star is moving towards the observer.",
+     "keywords": [
+      "wavelengths",
+      "blueshift",
+      "moving",
+      "towards"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Redshift and the expanding universe",
+   "sourceHeadings": [
+    "The expanding Universe",
+    "Redshift diagram for a light spectrum"
+   ],
+   "specRefs": [
+    "8.18P"
+   ],
+   "opening": "Comparing the Sun's spectrum with a distant galaxy's shows the galaxy's spectral lines shifted towards red: the expansion of the universe stretches the light waves as they travel. Distant galaxies redshift more than nearby ones, so the greater the distance, the faster the galaxy flees — evidence that the universe is expanding and supports the Big Bang.",
+   "keyPoints": [
+    "Spectral lines from distant galaxies are shifted towards the red end of the spectrum.",
+    "The expansion of the universe stretches light waves, increasing their wavelength.",
+    "Distant galaxies show more redshift than nearby galaxies.",
+    "Greater distance goes with greater redshift — the most distant galaxies flee fastest.",
+    "This redshift-distance pattern supports the Big Bang theory and the expanding universe."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Distant lines shifted red → galaxies receding → further means faster → expanding universe.",
+     "analogy": "Ambulance siren for light: the whole sky's ambulances are driving away, and the far ones are speeding most.",
+     "examPointer": "Chain the logic: redshift → recession → distance-speed pattern → expansion → Big Bang support."
+    },
+    "medium": {
+     "restatement": "Expansion stretches light in flight, so the spectrum itself is the expansion's ruler.",
+     "analogy": "A tape measure being stretched while you read it: the markings (spectral lines) slide apart as the tape (space) lengthens.",
+     "examPointer": "Say the wavelengths increase because the universe's expansion stretches the light waves."
+    }
+   },
+   "check": [
+    {
+     "stem": "Comparing the Sun's spectrum with a distant galaxy's spectrum shows…",
+     "misconceptionClass": "spectral comparison",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "the galaxy's spectral lines shifted towards the red end",
+       "correct": true,
+       "explanation": "The distant galaxy's lines sit further red than the Sun's.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "the galaxy's lines shifted towards blue",
+       "correct": false,
+       "explanation": "Recession shifts red.",
+       "misconception": "direction swap"
+      },
+      {
+       "key": "C",
+       "text": "identical line positions",
+       "correct": false,
+       "explanation": "The shift is the whole observation.",
+       "misconception": "equality myth"
+      },
+      {
+       "key": "D",
+       "text": "missing spectral lines",
+       "correct": false,
+       "explanation": "The lines persist, displaced.",
+       "misconception": "nonsense option"
+      }
+     ]
+    },
+    {
+     "stem": "Redshifted spectral lines indicate that galaxies are…",
+     "misconceptionClass": "expansion evidence",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "moving away from us",
+       "correct": true,
+       "explanation": "Recession is what stretches the light.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "approaching us",
+       "correct": false,
+       "explanation": "Approach would blue-shift.",
+       "misconception": "direction swap"
+      },
+      {
+       "key": "C",
+       "text": "standing still",
+       "correct": false,
+       "explanation": "Stillness leaves the lines unmoved.",
+       "misconception": "fixity myth"
+      },
+      {
+       "key": "D",
+       "text": "spinning rapidly",
+       "correct": false,
+       "explanation": "Spin is not the explanation here.",
+       "misconception": "mechanism error"
+      }
+     ]
+    },
+    {
+     "stem": "Light from the most distant galaxies is…",
+     "misconceptionClass": "distance redshift law",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "redshifted more than light from nearby galaxies",
+       "correct": true,
+       "explanation": "More distance, more stretch, more redshift.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "blueshifted more than nearby galaxies",
+       "correct": false,
+       "explanation": "Distant galaxies recede.",
+       "misconception": "direction swap"
+      },
+      {
+       "key": "C",
+       "text": "redshifted less than nearby galaxies",
+       "correct": false,
+       "explanation": "The pattern is the reverse.",
+       "misconception": "direction error"
+      },
+      {
+       "key": "D",
+       "text": "unchanged in wavelength",
+       "correct": false,
+       "explanation": "Expansion stretches all of it.",
+       "misconception": "immunity myth"
+      }
+     ]
+    },
+    {
+     "stem": "The redshift–distance pattern tells us that…",
+     "misconceptionClass": "expansion evidence",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "the universe is expanding, supporting the Big Bang theory",
+       "correct": true,
+       "explanation": "Recession growing with distance is the expansion signature.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "the universe is shrinking",
+       "correct": false,
+       "explanation": "Shrinking would blue-shift.",
+       "misconception": "direction error"
+      },
+      {
+       "key": "C",
+       "text": "the Sun is the universe's centre",
+       "correct": false,
+       "explanation": "No centre is implied.",
+       "misconception": "nonsense option"
+      },
+      {
+       "key": "D",
+       "text": "light slows down in space",
+       "correct": false,
+       "explanation": "Light speed is constant; wavelength stretches.",
+       "misconception": "physics error"
+      }
+     ]
+    },
+    {
+     "stem": "Why do light waves from distant galaxies stretch?",
+     "misconceptionClass": "stretching mechanism",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "the expansion of the universe stretches the space the light travels through",
+       "correct": true,
+       "explanation": "Metric expansion drags the wavelengths with it.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "galaxies brake the light with gravity",
+       "correct": false,
+       "explanation": "Gravity is not the cited stretching cause.",
+       "misconception": "mechanism error"
+      },
+      {
+       "key": "C",
+       "text": "dust clouds filter the light",
+       "correct": false,
+       "explanation": "Filtering dims, it does not stretch.",
+       "misconception": "mechanism error"
+      },
+      {
+       "key": "D",
+       "text": "telescopes distort the spectrum",
+       "correct": false,
+       "explanation": "Instrument distortion is not the cause.",
+       "misconception": "mechanism error"
+      }
+     ]
+    },
+    {
+     "stem": "State what redshift provides evidence for.",
+     "misconceptionClass": "expansion evidence",
+     "kind": "recall",
+     "modelAnswer": "Redshift provides evidence that the universe is expanding and supports the Big Bang theory.",
+     "keywords": [
+      "redshift",
+      "evidence",
+      "expanding",
+      "big"
+     ]
+    },
+    {
+     "stem": "State the relationship between a galaxy's distance and its speed away from us.",
+     "misconceptionClass": "distance redshift law",
+     "kind": "recall",
+     "modelAnswer": "The further away the galaxy, the faster it moves away from the Earth.",
+     "keywords": [
+      "further",
+      "galaxy",
+      "faster",
+      "away"
+     ]
+    },
+    {
+     "stem": "Explain why redshift supports the idea of an expanding universe.",
+     "misconceptionClass": "expansion evidence",
+     "kind": "explain-why",
+     "modelAnswer": "The spectral lines of distant galaxies are stretched towards red because the universe's expansion stretches the light waves, showing the galaxies are moving away — and the more distant the galaxy, the greater the shift and the faster the retreat.",
+     "keywords": [
+      "spectral",
+      "stretched",
+      "expansion",
+      "moving"
+     ]
+    },
+    {
+     "stem": "Galaxy P shows a small redshift; galaxy Q, further away, shows a large one. Compare their speeds.",
+     "misconceptionClass": "distance redshift law",
+     "kind": "application",
+     "modelAnswer": "Galaxy Q recedes faster: greater distance goes with greater redshift and therefore a greater speed away from Earth.",
+     "keywords": [
+      "galaxy",
+      "redshift",
+      "distance",
+      "faster"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "redshift",
+    "definition": "The increase in observed wavelength when a light source moves away from the observer.",
+    "firstLesson": 1
+   },
+   {
+    "term": "blueshift",
+    "definition": "The decrease in observed wavelength when a light source approaches the observer.",
+    "firstLesson": 1
+   },
+   {
+    "term": "spectral lines",
+    "definition": "The dark or bright lines in a spectrum whose displacement reveals redshift.",
+    "firstLesson": 2
+   }
+  ],
+  "workedExample": null
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/9596878ce3ad-red-blue-shift.png",
+   "alt": "red-&-blue-shift, IGCSE & GCSE Physics revision notes",
+   "sourceHeading": "Galactic redshift",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "Approaching stars blue-shift; receding stars red-shift"
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/712fbef243d2-8-4-1-light-doppler-shift.png",
+   "alt": "Light Doppler Shift, downloadable AS & A Level Physics revision notes",
+   "sourceHeading": "Galactic redshift",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "The forward observer sees blueshift, the trailing observer redshift"
+  },
+  {
+   "id": "fig-03",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/5aa6926f28af-wavelength-of-spectrum.png",
+   "alt": "Wavelength of spectrum, IGCSE & GCSE Physics revision notes",
+   "sourceHeading": "Galactic redshift",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "Red carries the longest visible wavelength, blue the shortest"
+  },
+  {
+   "id": "fig-04",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/8699663fe9d0-8-2-1-comparing-the-light-spectrum-produced-from.png",
+   "alt": "Comparing the light spectrum produced from the Sun and a distant galaxy, downloadable IGCSE & GCSE Physics revision notes",
+   "sourceHeading": "Redshift diagram for a light spectrum",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "The distant galaxy's spectral lines sit redward of the Sun's"
+  },
+  {
+   "id": "fig-05",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/db279cf0ee08-hubbles-law.png",
+   "alt": "Hubbles-law, IGCSE & GCSE Physics revision notes",
+   "sourceHeading": "The expanding Universe",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "Greater distance, greater redshift"
+  }
+ ]
+}

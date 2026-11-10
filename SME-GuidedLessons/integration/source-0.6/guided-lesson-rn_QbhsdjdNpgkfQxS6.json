@@ -1,0 +1,632 @@
+{
+ "format": "guided-lesson/0.6",
+ "noteRef": {
+  "noteId": "rn_QbhsdjdNpgkfQxS6",
+  "corpusVersion": "sme-revision-notes-igcse-physics-19-2026-09-17",
+  "topicTitle": "8. Astrophysics",
+  "subtopicTitle": "Cosmology",
+  "sourceUrl": "https://www.savemyexams.com/igcse/physics/edexcel/19/revision-notes/8-astrophysics/8-3-cosmology/8-3-1-the-big-bang-theory"
+ },
+ "specPoints": [
+  {
+   "code": "8.13P",
+   "text": "describe the past evolution of the universe and the main arguments in favour of the Big Bang theory"
+  },
+  {
+   "code": "8.14P",
+   "text": "describe evidence that supports the Big Bang theory (red-shift and cosmic microwave background - CMB - radiation)"
+  }
+ ],
+ "primer": {
+  "text": "Around 14 billion years ago the universe burst from a tiny, scorching, dense point and has been expanding ever since — galaxies race apart, the fastest at the greatest distances. Two observations anchor the theory: galactic red-shift, and the cosmic microwave background, the cooled echo of the early universe's heat.",
+  "prerequisiteSubtopic": "Cosmology"
+ },
+ "lessons": [
+  {
+   "title": "The Big Bang and the expanding universe",
+   "sourceHeadings": [
+    "The Big Bang theory"
+   ],
+   "specRefs": [
+    "8.13P"
+   ],
+   "opening": "The universe began about 14 billion years ago from a very small, extremely hot and dense region, then exploded — the Big Bang — and has expanded and cooled ever since. Every point moves away from the others, like dots on an inflating balloon, so galaxy density falls as space itself stretches.",
+   "keyPoints": [
+    "The universe began around 14 billion years ago from a very small, extremely hot and dense region.",
+    "The giant explosion that started the expansion is the Big Bang.",
+    "The universe keeps expanding and cooling from that initial explosion.",
+    "Each point moves away from the others; more distant galaxies recede faster.",
+    "Like dots on an inflating balloon, the space between galaxies itself stretches."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Tiny, hot, dense start → explosion → 14 billion years of cooling, stretching space.",
+     "analogy": "Raisin bread rising: the dough (space) swells and every raisin (galaxy) drifts from the others.",
+     "examPointer": "Quote 14 billion years and the hot-dense-small start in the same breath."
+    },
+    "medium": {
+     "restatement": "Expansion is metric: separations grow everywhere at once, so recession speed scales with distance and density falls.",
+     "analogy": "A spreadsheet zoom: magnify the sheet and every cell's gap widens — no cell is 'the middle'.",
+     "examPointer": "Say 'space itself expands' — galaxies are carried, not fired like bullets."
+    }
+   },
+   "check": [
+    {
+     "stem": "According to the Big Bang theory, the universe began…",
+     "misconceptionClass": "big bang recall",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "about 14 billion years ago from a very small, hot, dense region",
+       "correct": true,
+       "explanation": "Hot, dense and tiny — then it exploded outward.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "about 14 million years ago",
+       "correct": false,
+       "explanation": "A thousand times too recent.",
+       "misconception": "scale error"
+      },
+      {
+       "key": "C",
+       "text": "from a large, cold, empty cloud",
+       "correct": false,
+       "explanation": "The start was small, hot and dense.",
+       "misconception": "description error"
+      },
+      {
+       "key": "D",
+       "text": "at a fixed moment with no beginning at all",
+       "correct": false,
+       "explanation": "The theory is built on a beginning.",
+       "misconception": "nonsense option"
+      }
+     ]
+    },
+    {
+     "stem": "As the universe expands, galaxies…",
+     "misconceptionClass": "expansion recall",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "move away from each other, the distant ones faster",
+       "correct": true,
+       "explanation": "Every point recedes from every other; distance speeds the retreat.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "move towards each other",
+       "correct": false,
+       "explanation": "That is contraction, the opposite.",
+       "misconception": "direction error"
+      },
+      {
+       "key": "C",
+       "text": "stay fixed while only light moves",
+       "correct": false,
+       "explanation": "The recession of galaxies is the core observation.",
+       "misconception": "physics error"
+      },
+      {
+       "key": "D",
+       "text": "orbit a central point",
+       "correct": false,
+       "explanation": "There is no centre to orbit in the expansion.",
+       "misconception": "geometry error"
+      }
+     ]
+    },
+    {
+     "stem": "The balloon analogy shows that…",
+     "misconceptionClass": "balloon analogy",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "the space between galaxies stretches, moving the dots apart",
+       "correct": true,
+       "explanation": "The rubber is space itself, not the galaxies travelling through it.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "galaxies are glued to a fixed sky",
+       "correct": false,
+       "explanation": "The dots move as the balloon inflates.",
+       "misconception": "fixity myth"
+      },
+      {
+       "key": "C",
+       "text": "galaxies shrink as they recede",
+       "correct": false,
+       "explanation": "The dots stay the same size; spacing grows.",
+       "misconception": "scale error"
+      },
+      {
+       "key": "D",
+       "text": "explosion debris flies through air",
+       "correct": false,
+       "explanation": "The analogy is about stretching space, not debris.",
+       "misconception": "analogy error"
+      }
+     ]
+    },
+    {
+     "stem": "As the universe expands, the density of galaxies…",
+     "misconceptionClass": "density consequence",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "falls, because the same galaxies occupy more space",
+       "correct": true,
+       "explanation": "Fixed count, growing volume — density drops.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "rises as galaxies form",
+       "correct": false,
+       "explanation": "The density of galaxies falls.",
+       "misconception": "direction error"
+      },
+      {
+       "key": "C",
+       "text": "stays exactly constant",
+       "correct": false,
+       "explanation": "Spacing grows, so density cannot hold still.",
+       "misconception": "constancy myth"
+      },
+      {
+       "key": "D",
+       "text": "becomes zero at the edges",
+       "correct": false,
+       "explanation": "There are no edges in this model.",
+       "misconception": "geometry error"
+      }
+     ]
+    },
+    {
+     "stem": "Tracing the expansion backwards in time leads to…",
+     "misconceptionClass": "backwards reasoning",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "galaxies crowding closer until everything was a single point",
+       "correct": true,
+       "explanation": "Run the film backwards and the universe contracts to a point.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "galaxies drifting even further apart",
+       "correct": false,
+       "explanation": "Backwards means closer together.",
+       "misconception": "direction error"
+      },
+      {
+       "key": "C",
+       "text": "a steady, unchanging universe",
+       "correct": false,
+       "explanation": "The past is denser, not steady.",
+       "misconception": "model error"
+      },
+      {
+       "key": "D",
+       "text": "the galaxies merging into the Sun",
+       "correct": false,
+       "explanation": "No single-body merger is implied.",
+       "misconception": "nonsense option"
+      }
+     ]
+    },
+    {
+     "stem": "Describe the start of the universe according to the Big Bang theory.",
+     "misconceptionClass": "big bang recall",
+     "kind": "recall",
+     "modelAnswer": "Roughly 14 billion years have passed since the universe burst outward from a tiny region that was extremely hot and dense.",
+     "keywords": [
+      "billion",
+      "years",
+      "universe",
+      "dense"
+     ]
+    },
+    {
+     "stem": "State what happens to the distances between galaxies as the universe expands.",
+     "misconceptionClass": "expansion recall",
+     "kind": "recall",
+     "modelAnswer": "The distances grow: each point moves away from the others as space stretches.",
+     "keywords": [
+      "distances",
+      "galaxies",
+      "expand",
+      "space"
+     ]
+    },
+    {
+     "stem": "Explain why more distant galaxies recede faster in an expanding universe.",
+     "misconceptionClass": "expansion recall",
+     "kind": "explain-why",
+     "modelAnswer": "Expansion stretches the space between every pair of points, so the more space lies between two galaxies, the faster the gap grows — distant galaxies recede faster, just as far-apart balloon dots separate quickest.",
+     "keywords": [
+      "expansion",
+      "galaxies",
+      "distant",
+      "faster"
+     ]
+    },
+    {
+     "stem": "Galaxy A sits twice as far from us as galaxy B. In the same expansion period, compare how far each galaxy's distance from us grows.",
+     "misconceptionClass": "expansion recall",
+     "kind": "application",
+     "modelAnswer": "Galaxy A's distance grows by about twice as much as galaxy B's, because the stretch of space is proportional to the separation.",
+     "keywords": [
+      "galaxy",
+      "distance",
+      "twice",
+      "expansion"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Evidence: red-shift and the CMB",
+   "sourceHeadings": [
+    "Evidence from galactic red-shift",
+    "Evidence from CMB radiation"
+   ],
+   "specRefs": [
+    "8.14P"
+   ],
+   "opening": "Two observations back the Big Bang. Galactic red-shift shows distant galaxies receding — exactly what an explosion of densely packed matter predicts. And the cosmic microwave background, microwave radiation at about 2.73 K arriving from all directions, is the stretched remnant of the early universe's own hot glow.",
+   "keyPoints": [
+    "Galactic red-shift shows distant galaxies receding, as expected after an explosion.",
+    "Light from distant galaxies is red-shifted, evidence that the universe is expanding.",
+    "The CMB is microwave radiation, wavelength around 1 mm, from every direction at about 2.73 K.",
+    "The CMB is the red-shifted remnant of the early universe's high-energy thermal radiation.",
+    "The CMB's uniform profile matches a hot body that has cooled for a very long time."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Red-shift = galaxies receding; CMB = the universe's cooled baby-photo in microwaves.",
+     "analogy": "An echo in a cathedral: the original shout (hot gamma-era glow) is long gone, but the stretched, faded echo fills every corner.",
+     "examPointer": "Both evidence names must appear together in 'describe the evidence' answers — red-shift AND CMB."
+    },
+    "medium": {
+     "restatement": "CMB numbers to hold: ~1 mm wavelength, 2.73 K, all-sky uniformity, found in 1964 once telescopes cleared the atmosphere.",
+     "analogy": "Fading graffiti on a stretching wall: what began as sharp bright paint is now a faint red wash spread across the whole surface.",
+     "examPointer": "Link the microwave wavelength to red-shifted early-universe radiation — the causal chain is the mark."
+    }
+   },
+   "check": [
+    {
+     "stem": "Which two pieces of evidence support the Big Bang theory?",
+     "misconceptionClass": "evidence recall",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "galactic red-shift and cosmic microwave background radiation",
+       "correct": true,
+       "explanation": "The two named pillars of the evidence case.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "galactic blue-shift and solar wind",
+       "correct": false,
+       "explanation": "Neither is the cited evidence.",
+       "misconception": "evidence swap"
+      },
+      {
+       "key": "C",
+       "text": "comet showers and asteroid belts",
+       "correct": false,
+       "explanation": "Not cosmological evidence at this level.",
+       "misconception": "evidence error"
+      },
+      {
+       "key": "D",
+       "text": "the Moon's craters and tides",
+       "correct": false,
+       "explanation": "Local features, not universe-scale evidence.",
+       "misconception": "evidence error"
+      }
+     ]
+    },
+    {
+     "stem": "The cosmic microwave background arrives from…",
+     "misconceptionClass": "cmb recall",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "all directions, at a generally uniform temperature",
+       "correct": true,
+       "explanation": "Uniformity is the striking property.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "one bright patch of sky only",
+       "correct": false,
+       "explanation": "It comes from everywhere.",
+       "misconception": "direction error"
+      },
+      {
+       "key": "C",
+       "text": "the Sun specifically",
+       "correct": false,
+       "explanation": "The Sun's glow masks it, but is not its source.",
+       "misconception": "source error"
+      },
+      {
+       "key": "D",
+       "text": "moving radio stations on Earth",
+       "correct": false,
+       "explanation": "It is cosmic, not terrestrial.",
+       "misconception": "source error"
+      }
+     ]
+    },
+    {
+     "stem": "Why is the early universe's radiation now microwave?",
+     "misconceptionClass": "cmb redshift",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "the expansion stretched its wavelength over about 14 billion years",
+       "correct": true,
+       "explanation": "High-energy gamma-era light lengthened into microwaves.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "the radiation was always microwave",
+       "correct": false,
+       "explanation": "It started far higher in energy.",
+       "misconception": "timeline error"
+      },
+      {
+       "key": "C",
+       "text": "galaxies absorbed the shorter waves",
+       "correct": false,
+       "explanation": "Stretching, not absorption, did it.",
+       "misconception": "mechanism error"
+      },
+      {
+       "key": "D",
+       "text": "the radiation cooled by colliding with dust",
+       "correct": false,
+       "explanation": "The wavelength grew with the expansion.",
+       "misconception": "mechanism error"
+      }
+     ]
+    },
+    {
+     "stem": "The CMB's temperature is about…",
+     "misconceptionClass": "cmb value",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "2.73 K",
+       "correct": true,
+       "explanation": "The measured background temperature.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "273 K",
+       "correct": false,
+       "explanation": "A hundred times too warm — that is 0 °C.",
+       "misconception": "value error"
+      },
+      {
+       "key": "C",
+       "text": "2.73 million K",
+       "correct": false,
+       "explanation": "Millions of times too warm.",
+       "misconception": "value error"
+      },
+      {
+       "key": "D",
+       "text": "0 K exactly",
+       "correct": false,
+       "explanation": "The background is slightly above absolute zero.",
+       "misconception": "value error"
+      }
+     ]
+    },
+    {
+     "stem": "Why did the microwave evidence stay hidden until telescopes reached orbit?",
+     "misconceptionClass": "cmb history",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "the atmosphere absorbs microwaves, and space flight later lifted telescopes above it",
+       "correct": true,
+       "explanation": "Atmospheric absorption hid the background until orbiting telescopes flew.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "telescopes were not invented yet",
+       "correct": false,
+       "explanation": "Telescopes existed for centuries.",
+       "misconception": "history error"
+      },
+      {
+       "key": "C",
+       "text": "the CMB had not yet reached Earth",
+       "correct": false,
+       "explanation": "It fills the sky constantly.",
+       "misconception": "physics error"
+      },
+      {
+       "key": "D",
+       "text": "no one had thought of the Big Bang",
+       "correct": false,
+       "explanation": "The theory preceded the discovery.",
+       "misconception": "history error"
+      }
+     ]
+    },
+    {
+     "stem": "Name the two main pieces of evidence for the Big Bang.",
+     "misconceptionClass": "evidence recall",
+     "kind": "recall",
+     "modelAnswer": "Two pillars: the red-shift of galaxies and the cosmic microwave background — the CMB.",
+     "keywords": [
+      "red-shift",
+      "galaxies",
+      "microwave",
+      "background"
+     ]
+    },
+    {
+     "stem": "State the wavelength region and approximate value of the CMB.",
+     "misconceptionClass": "cmb recall",
+     "kind": "recall",
+     "modelAnswer": "Microwaves, with a wavelength of around 1 mm.",
+     "keywords": [
+      "microwave",
+      "wavelength",
+      "1",
+      "mm"
+     ]
+    },
+    {
+     "stem": "Explain why the CMB supports the Big Bang theory.",
+     "misconceptionClass": "cmb redshift",
+     "kind": "explain-why",
+     "modelAnswer": "The early universe was extremely hot and dense, so it must have emitted thermal radiation; the expansion red-shifted that glow over 14 billion years into microwaves arriving uniformly from all directions — a profile exactly like a hot body that has cooled, which rival theories cannot explain.",
+     "keywords": [
+      "thermal",
+      "radiation",
+      "red-shifted",
+      "microwave"
+     ]
+    },
+    {
+     "stem": "A map of the CMB shows warm patches and cool patches differing by about 0.00001 K. State what the warm patches indicate.",
+     "misconceptionClass": "cmb map",
+     "kind": "application",
+     "modelAnswer": "The warmer regions mark a higher density of galaxies, stars and planets.",
+     "keywords": [
+      "warm",
+      "regions",
+      "density",
+      "galaxies"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "big bang",
+    "definition": "The explosion about 14 billion years ago from which the universe expanded.",
+    "firstLesson": 1
+   },
+   {
+    "term": "cosmic microwave background",
+    "definition": "Microwave radiation, around 1 mm wavelength and 2.73 K, arriving uniformly from all directions — the cooled remnant of the early universe.",
+    "firstLesson": 2
+   },
+   {
+    "term": "galactic red-shift",
+    "definition": "The stretching of light from receding galaxies, evidence the universe is expanding.",
+    "firstLesson": 2
+   }
+  ],
+  "workedExample": null
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/b4eec1a23d9a-universe-expansion.png",
+   "alt": "universe-expansion, IGCSE & GCSE Physics revision notes",
+   "sourceHeading": "The Big Bang theory",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "All galaxies move apart as the universe expands"
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/4d0386a30e36-7-2-1-big-bang-balloon-analogy.png",
+   "alt": "Big Bang Balloon Analogy, downloadable IGCSE & GCSE Physics revision notes",
+   "sourceHeading": "The Big Bang theory",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "An inflating balloon stretches the space between the dots"
+  },
+  {
+   "id": "fig-03",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/7719bed9c73e-25-2-big-bang.png",
+   "alt": "Big Bang, downloadable AS & A Level Physics revision notes",
+   "sourceHeading": "Evidence from galactic red-shift",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "Tracing expansion backwards leads to the Big Bang idea"
+  },
+  {
+   "id": "fig-04",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/9499abc6ef65-7-2-4-cmb-red-shift.png",
+   "alt": "CMB Red Shift, downloadable IGCSE & GCSE Physics revision notes",
+   "sourceHeading": "Evidence from CMB radiation",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "High-energy radiation stretched into microwaves over billions of years"
+  },
+  {
+   "id": "fig-05",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/636bd1f27454-7-2-4-cmb.png",
+   "alt": "CMB, downloadable IGCSE & GCSE Physics revision notes",
+   "sourceHeading": "Evidence from CMB radiation",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "The CMB map: warm patches mark higher galaxy density"
+  }
+ ]
+}

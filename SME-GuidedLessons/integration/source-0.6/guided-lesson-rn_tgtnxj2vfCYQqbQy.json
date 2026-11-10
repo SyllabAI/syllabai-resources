@@ -1,0 +1,916 @@
+{
+ "format": "guided-lesson/0.6",
+ "noteRef": {
+  "noteId": "rn_tgtnxj2vfCYQqbQy",
+  "corpusVersion": "sme-revision-notes-igcse-physics-19-2026-09-17",
+  "topicTitle": "7. Radioactivity and Particles",
+  "subtopicTitle": "Fission and Fusion",
+  "sourceUrl": "https://www.savemyexams.com/igcse/physics/edexcel/19/revision-notes/7-radioactivity-and-particles/7-3-fission-and-fusion/7-3-3-nuclear-reactors"
+ },
+ "specPoints": [
+  {
+   "code": "7.20",
+   "text": "describe how a chain reaction can be set up if the neutrons produced by one fission strike other U-235 nuclei"
+  },
+  {
+   "code": "7.21",
+   "text": "describe the role played by the control rods and moderator in the fission process"
+  },
+  {
+   "code": "7.22",
+   "text": "understand the role of shielding around a nuclear reactor"
+  }
+ ],
+ "primer": {
+  "text": "A reactor is fission kept on a leash: neutrons from each split find fresh U-235 nuclei and the chain keeps turning, control rods meter how many neutrons survive, the moderator slows them to the speed that splits uranium efficiently, and thick steel-and-concrete shielding soaks up the radiation so workers outside stay safe.",
+  "prerequisiteSubtopic": "Fission and Fusion"
+ },
+ "lessons": [
+  {
+   "title": "Chain reactions",
+   "sourceHeadings": [
+    "Chain reactions",
+    "Nuclear chain reactions"
+   ],
+   "specRefs": [
+    "7.20"
+   ],
+   "opening": "One neutron induces a fission, and that fission releases two or three neutrons — each free to strike another U-235 nucleus and split it in turn. That self-feeding sequence is a chain reaction, and if the fissile material exceeds its critical mass the reaction accelerates into an uncontrolled release.",
+   "keyPoints": [
+    "Neutrons from one fission can strike other U-235 nuclei and trigger more fissions.",
+    "A chain reaction continues because each split hands neutrons on to the next generation.",
+    "One induced fission needs a single neutron but releases two or three.",
+    "Above the critical mass of fissile material the reaction rate accelerates uncontrollably."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "One neutron in, two-or-three out: the surplus neutrons feed the next splits.",
+     "analogy": "Popcorn popping: each bursting kernel flicks others hot enough to burst, and the pan goes from one pop to many in seconds.",
+     "examPointer": "Chain-reaction diagrams want neutrons drawn striking further U-235 nuclei — clarity beats artwork."
+    },
+    "medium": {
+     "restatement": "The neutron census grows 1 → 2–3 → 4–9 → …, so above the critical mass the fission rate compounds without bound.",
+     "analogy": "A rumour where every listener retells it to two friends — the audience doubles each round until the whole school has heard it.",
+     "examPointer": "Generation-counting questions are just powers of two — write the sequence out rather than jumping to the answer."
+    }
+   },
+   "check": [
+    {
+     "stem": "A chain reaction keeps going because neutrons from one fission…",
+     "misconceptionClass": "chain reaction",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "strike other uranium-235 nuclei and split them in turn",
+       "correct": true,
+       "explanation": "Each emitted neutron can seed the next fission.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "are all absorbed by the moderator",
+       "correct": false,
+       "explanation": "The moderator slows neutrons; it does not end the chain.",
+       "misconception": "moderator confusion"
+      },
+      {
+       "key": "C",
+       "text": "fuse with each other into helium",
+       "correct": false,
+       "explanation": "Fusion of neutrons does not happen here.",
+       "misconception": "fusion confusion"
+      },
+      {
+       "key": "D",
+       "text": "escape the core and vanish",
+       "correct": false,
+       "explanation": "Escaping neutrons end chains locally; they do not sustain them.",
+       "misconception": "escape error"
+      }
+     ]
+    },
+    {
+     "stem": "How many neutrons enter one induced fission, and how many leave?",
+     "misconceptionClass": "neutron balance",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "one enters and two or three leave",
+       "correct": true,
+       "explanation": "The split needs a single neutron and releases two or three.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "two enter and one leaves",
+       "correct": false,
+       "explanation": "The neutron count grows at each split, not shrinks.",
+       "misconception": "direction error"
+      },
+      {
+       "key": "C",
+       "text": "none enter and three leave",
+       "correct": false,
+       "explanation": "Something must induce the split.",
+       "misconception": "induction error"
+      },
+      {
+       "key": "D",
+       "text": "three enter and three leave",
+       "correct": false,
+       "explanation": "Only one neutron is needed to induce each fission.",
+       "misconception": "count error"
+      }
+     ]
+    },
+    {
+     "stem": "The critical mass is…",
+     "misconceptionClass": "critical mass",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "the minimum amount of fissile material that keeps a chain reaction going",
+       "correct": true,
+       "explanation": "Below it the chain dies out; above it the reaction accelerates.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "the mass of the control rods",
+       "correct": false,
+       "explanation": "Control-rod mass has nothing to do with the definition.",
+       "misconception": "rod confusion"
+      },
+      {
+       "key": "C",
+       "text": "the mass of uranium that always explodes",
+       "correct": false,
+       "explanation": "Above critical mass the rate can run away — but the term means the threshold.",
+       "misconception": "definition error"
+      },
+      {
+       "key": "D",
+       "text": "the mass of the shielding wall",
+       "correct": false,
+       "explanation": "Shielding mass is a separate design quantity.",
+       "misconception": "category error"
+      }
+     ]
+    },
+    {
+     "stem": "If the fissile material exceeds the critical mass, the reaction…",
+     "misconceptionClass": "critical mass",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "accelerates and can release energy in an uncontrolled explosion",
+       "correct": true,
+       "explanation": "More material means more neutrons find targets faster.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "slows down and stops",
+       "correct": false,
+       "explanation": "That is what happens below the threshold.",
+       "misconception": "direction error"
+      },
+      {
+       "key": "C",
+       "text": "stays steady forever without control",
+       "correct": false,
+       "explanation": "Unchecked, the rate grows rather than holding steady.",
+       "misconception": "stability myth"
+      },
+      {
+       "key": "D",
+       "text": "turns into fusion",
+       "correct": false,
+       "explanation": "Fission chains do not turn into fusion.",
+       "misconception": "process swap"
+      }
+     ]
+    },
+    {
+     "stem": "Why do reactor designers control the chain reaction?",
+     "misconceptionClass": "control reasoning",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "to hold the fission rate at the level that produces energy safely",
+       "correct": true,
+       "explanation": "Controlled rate means steady power without runaway growth.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "to stop every neutron from moving",
+       "correct": false,
+       "explanation": "Neutrons must keep moving to sustain power.",
+       "misconception": "absolutism error"
+      },
+      {
+       "key": "C",
+       "text": "to make the reaction grow explosively",
+       "correct": false,
+       "explanation": "Explosive growth is exactly what control prevents.",
+       "misconception": "opposite error"
+      },
+      {
+       "key": "D",
+       "text": "to convert the reactor into a weapon",
+       "correct": false,
+       "explanation": "Civil reactors are designed to avoid that regime.",
+       "misconception": "weapons myth"
+      }
+     ]
+    },
+    {
+     "stem": "Describe how one fission leads to another in uranium.",
+     "misconceptionClass": "chain reaction",
+     "kind": "recall",
+     "modelAnswer": "Each fission releases two or three neutrons, and one of these can strike another U-235 nucleus and split it in its turn.",
+     "keywords": [
+      "neutrons",
+      "fission",
+      "uranium",
+      "nucleus"
+     ]
+    },
+    {
+     "stem": "State what happens when the fissile mass exceeds the critical mass.",
+     "misconceptionClass": "critical mass",
+     "kind": "recall",
+     "modelAnswer": "The rate of fission accelerates, and the energy release can become an uncontrolled explosion.",
+     "keywords": [
+      "critical",
+      "mass",
+      "rate",
+      "accelerates"
+     ]
+    },
+    {
+     "stem": "Explain why a chain reaction can grow so quickly once started.",
+     "misconceptionClass": "chain reaction",
+     "kind": "explain-why",
+     "modelAnswer": "Every split multiplies the neutron supply: one fission emits two or three neutrons, each able to trigger another split, so the number of reactions can double and double again — one split becomes two, then four, then eight.",
+     "keywords": [
+      "neutrons",
+      "fission",
+      "double",
+      "reactions"
+     ]
+    },
+    {
+     "stem": "Starting from one induced fission, how many neutrons are released by the third generation if each split releases exactly two and every neutron finds a target?",
+     "misconceptionClass": "chain arithmetic",
+     "kind": "application",
+     "modelAnswer": "Generation 1: 1 split → 2 neutrons. Generation 2: 2 splits → 4 neutrons. Generation 3: 4 splits → 8 neutrons. The splits so far number 1 + 2 + 4 = 7.",
+     "keywords": [
+      "generation",
+      "neutrons",
+      "splits",
+      "third"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Control rods and the moderator",
+   "sourceHeadings": [
+    "Control rods & moderators",
+    "Nuclear reactor diagram"
+   ],
+   "specRefs": [
+    "7.21"
+   ],
+   "opening": "A running reactor must hold both the number of free neutrons and their energy in check. Control rods made of neutron-absorbing material are lowered or raised to set the fission rate, while the moderator slows fast neutrons into thermal neutrons that react efficiently with the uranium fuel; in normal running exactly one neutron from each fission goes on to cause the next.",
+   "keyPoints": [
+    "Control rods absorb neutrons so the chain reaction runs at a steady, chosen rate.",
+    "Lowering the rods absorbs more neutrons and slows fission; raising them lets fission speed up.",
+    "The moderator slows fast neutrons into thermal neutrons that split uranium efficiently.",
+    "In normal running, exactly one neutron from each fission causes the next fission.",
+    "For an emergency shutdown the rods drop fully in and the reactions stop."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Rods ration the neutrons; the moderator slows them so each one counts.",
+     "analogy": "A turnstile and a walking pace: the rods admit only so many visitors per minute, and the moderator makes sure each walks slowly enough to buy a ticket.",
+     "examPointer": "Two-component questions want both roles named — rods absorb, moderator slows. Mixing them loses the marks."
+    },
+    "medium": {
+     "restatement": "Steady power means one neutron per fission seeds the next; rods trim the surplus and the moderator tunes the speed for efficient capture.",
+     "analogy": "Cruise control: the rods are the brake pedal, the moderator the gear that keeps the engine in its efficient band.",
+     "examPointer": "Shutdown = rods fully in; rate-up = rods raised; rate-down = rods lowered. Learn the three rod positions."
+    }
+   },
+   "check": [
+    {
+     "stem": "The job of the control rods is to…",
+     "misconceptionClass": "control rods",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "absorb neutrons to regulate the fission rate",
+       "correct": true,
+       "explanation": "Rod depth sets how many neutrons survive to cause fissions.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "slow neutrons down",
+       "correct": false,
+       "explanation": "Slowing neutrons is the moderator's job.",
+       "misconception": "rod swap"
+      },
+      {
+       "key": "C",
+       "text": "absorb radiation outside the core",
+       "correct": false,
+       "explanation": "That is the shielding's job.",
+       "misconception": "shielding confusion"
+      },
+      {
+       "key": "D",
+       "text": "heat the coolant directly",
+       "correct": false,
+       "explanation": "Heat comes from fission; rods do not heat anything.",
+       "misconception": "function error"
+      }
+     ]
+    },
+    {
+     "stem": "Raising the control rods makes fission…",
+     "misconceptionClass": "control rods",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "faster, because fewer neutrons are absorbed",
+       "correct": true,
+       "explanation": "Less rod in the core means more free neutrons.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "slower, because more neutrons are absorbed",
+       "correct": false,
+       "explanation": "That is what lowering does.",
+       "misconception": "direction error"
+      },
+      {
+       "key": "C",
+       "text": "unchanged",
+       "correct": false,
+       "explanation": "Rod depth is the rate control.",
+       "misconception": "no effect myth"
+      },
+      {
+       "key": "D",
+       "text": "impossible",
+       "correct": false,
+       "explanation": "Fission continues; only full insertion stops it.",
+       "misconception": "absolutism error"
+      }
+     ]
+    },
+    {
+     "stem": "What is the job of the moderator?",
+     "misconceptionClass": "moderator",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "slow neutrons until they react efficiently with the uranium fuel",
+       "correct": true,
+       "explanation": "Thermal neutrons are far better at inducing fission.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "absorb stray neutrons",
+       "correct": false,
+       "explanation": "Absorption is the control rods' role.",
+       "misconception": "rod swap"
+      },
+      {
+       "key": "C",
+       "text": "absorb gamma rays",
+       "correct": false,
+       "explanation": "Gamma absorption belongs to shielding.",
+       "misconception": "shielding confusion"
+      },
+      {
+       "key": "D",
+       "text": "spin the electricity turbine",
+       "correct": false,
+       "explanation": "Turbines are driven by coolant, not the moderator.",
+       "misconception": "function error"
+      }
+     ]
+    },
+    {
+     "stem": "Thermal neutrons are neutrons that…",
+     "misconceptionClass": "moderator",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "have slowed to the moderator's temperature and react efficiently with U-235",
+       "correct": true,
+       "explanation": "Collisions with moderator molecules bleed off their momentum.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "carry extra heat to the coolant",
+       "correct": false,
+       "explanation": "Heat transport is the coolant's job.",
+       "misconception": "function error"
+      },
+      {
+       "key": "C",
+       "text": "are absorbed by the steel wall",
+       "correct": false,
+       "explanation": "Steel shielding is outside the core.",
+       "misconception": "shielding confusion"
+      },
+      {
+       "key": "D",
+       "text": "cannot cause fission at all",
+       "correct": false,
+       "explanation": "Thermal neutrons are precisely the efficient fission-causers.",
+       "misconception": "opposite error"
+      }
+     ]
+    },
+    {
+     "stem": "How is a reactor shut down in an emergency?",
+     "misconceptionClass": "shutdown",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "the control rods drop fully in and absorb enough neutrons to stop the chain",
+       "correct": true,
+       "explanation": "Full insertion removes the neutrons the chain needs.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "the moderator is drained away",
+       "correct": false,
+       "explanation": "Shutdown is done with the rods, not by draining the moderator.",
+       "misconception": "method error"
+      },
+      {
+       "key": "C",
+       "text": "the shielding is opened to let radiation out",
+       "correct": false,
+       "explanation": "Shielding never opens during operation.",
+       "misconception": "nonsense method"
+      },
+      {
+       "key": "D",
+       "text": "the fuel rods are cooled faster",
+       "correct": false,
+       "explanation": "Cooling changes temperature, not the chain rate.",
+       "misconception": "cause error"
+      }
+     ]
+    },
+    {
+     "stem": "State the purpose of the control rods.",
+     "misconceptionClass": "control rods",
+     "kind": "recall",
+     "modelAnswer": "Control rods absorb neutrons, and their depth in the core sets how fast the chain reaction runs.",
+     "keywords": [
+      "control",
+      "rods",
+      "neutrons",
+      "absorb"
+     ]
+    },
+    {
+     "stem": "State the purpose of the moderator.",
+     "misconceptionClass": "moderator",
+     "kind": "recall",
+     "modelAnswer": "The moderator slows the fast fission neutrons so they can split uranium nuclei efficiently.",
+     "keywords": [
+      "moderator",
+      "slows",
+      "neutrons",
+      "uranium"
+     ]
+    },
+    {
+     "stem": "Explain why slowing neutrons helps a reactor keep fission going.",
+     "misconceptionClass": "moderator",
+     "kind": "explain-why",
+     "modelAnswer": "Fast fission neutrons tend to pass uranium nuclei without splitting them; slowed to thermal speeds they interact far more readily, so each neutron is much more likely to be absorbed and induce the next fission.",
+     "keywords": [
+      "neutrons",
+      "thermal",
+      "uranium",
+      "absorbed"
+     ]
+    },
+    {
+     "stem": "A reactor is producing too much power. Should operators raise or lower the control rods, and why?",
+     "misconceptionClass": "control rods",
+     "kind": "application",
+     "modelAnswer": "They lower the rods: deeper rods absorb more neutrons, so fewer fissions occur each second and the power output falls.",
+     "keywords": [
+      "lower",
+      "rods",
+      "neutrons",
+      "absorb"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Shielding the reactor",
+   "sourceHeadings": [
+    "Shielding in a nuclear reactor"
+   ],
+   "specRefs": [
+    "7.22"
+   ],
+   "opening": "Everything that leaves a fission is hazardous: the daughter nuclei and the emitted neutrons are radioactive. So the entire reactor is wrapped in shielding — a steel and concrete wall nearly two metres thick that absorbs the emissions and keeps the environment around the reactor safe for workers.",
+   "keyPoints": [
+    "Shielding surrounds the whole reactor and absorbs its hazardous radiation.",
+    "The daughter nuclei formed in fission, and the neutrons emitted, are radioactive.",
+    "A steel and concrete wall close to two metres thick keeps the surroundings safe for workers."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Thick steel and concrete soak up the reactor's radiation so nobody outside is exposed.",
+     "analogy": "A lead-lined apron at the dentist, scaled up to a wall that wraps the whole machine.",
+     "examPointer": "Quote the thickness as 'nearly two metres' and the materials as steel and concrete — both attract marks."
+    },
+    "medium": {
+     "restatement": "Fission products stay radioactive after the split, so the absorbing wall is the last line between the core and the workforce.",
+     "analogy": "A soundproofed rehearsal room: the noise (radiation) stays inside because the walls (steel and concrete) absorb it before it reaches the corridor.",
+     "examPointer": "Tie shielding to the radioactivity of daughters and neutrons — the causal chain earns the explanation mark."
+    }
+   },
+   "check": [
+    {
+     "stem": "Shielding around a reactor exists to…",
+     "misconceptionClass": "shielding",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "absorb hazardous radiation so the area outside stays safe",
+       "correct": true,
+       "explanation": "The wall soaks up the reactor's emissions.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "slow neutrons for the chain reaction",
+       "correct": false,
+       "explanation": "That is the moderator's role inside the core.",
+       "misconception": "rod swap"
+      },
+      {
+       "key": "C",
+       "text": "absorb neutrons to control the rate",
+       "correct": false,
+       "explanation": "That is the control rods' role.",
+       "misconception": "rod swap"
+      },
+      {
+       "key": "D",
+       "text": "cool the fuel rods",
+       "correct": false,
+       "explanation": "Cooling is the coolant's job.",
+       "misconception": "function error"
+      }
+     ]
+    },
+    {
+     "stem": "Which materials form the shielding wall?",
+     "misconceptionClass": "shielding",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "steel and concrete",
+       "correct": true,
+       "explanation": "The of-record shielding combination is steel plus concrete.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "wood and plastic",
+       "correct": false,
+       "explanation": "Neither is dense enough for reactor shielding.",
+       "misconception": "material error"
+      },
+      {
+       "key": "C",
+       "text": "copper and rubber",
+       "correct": false,
+       "explanation": "Not the materials used for reactor shielding.",
+       "misconception": "material error"
+      },
+      {
+       "key": "D",
+       "text": "water and glass",
+       "correct": false,
+       "explanation": "Neither forms the surrounding wall.",
+       "misconception": "material error"
+      }
+     ]
+    },
+    {
+     "stem": "Why are the fission daughter nuclei a hazard inside the core?",
+     "misconceptionClass": "shielding",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "they are radioactive and keep emitting radiation",
+       "correct": true,
+       "explanation": "Radioactive daughters would irradiate the surroundings unshielded.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "they are strongly magnetic",
+       "correct": false,
+       "explanation": "Magnetism is not the hazard.",
+       "misconception": "nonsense reason"
+      },
+      {
+       "key": "C",
+       "text": "they are extremely light",
+       "correct": false,
+       "explanation": "Mass is irrelevant to the radiological hazard.",
+       "misconception": "nonsense reason"
+      },
+      {
+       "key": "D",
+       "text": "they disappear immediately",
+       "correct": false,
+       "explanation": "They persist and keep decaying.",
+       "misconception": "lifetime myth"
+      }
+     ]
+    },
+    {
+     "stem": "The steel-and-concrete shielding wall can be nearly…",
+     "misconceptionClass": "shielding thickness",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "2 metres thick",
+       "correct": true,
+       "explanation": "The of-record thickness is close to two metres.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "2 centimetres thick",
+       "correct": false,
+       "explanation": "Two centimetres would barely slow the radiation.",
+       "misconception": "scale error"
+      },
+      {
+       "key": "C",
+       "text": "20 centimetres thick",
+       "correct": false,
+       "explanation": "An order of magnitude too thin.",
+       "misconception": "scale error"
+      },
+      {
+       "key": "D",
+       "text": "20 metres thick",
+       "correct": false,
+       "explanation": "That overstates the design by ten times.",
+       "misconception": "scale error"
+      }
+     ]
+    },
+    {
+     "stem": "Who is directly protected by the shielding?",
+     "misconceptionClass": "shielding",
+     "kind": "mcq",
+     "options": [
+      {
+       "key": "A",
+       "text": "workers around the reactor",
+       "correct": true,
+       "explanation": "The wall keeps the environment safe for people outside it.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "the fuel rods",
+       "correct": false,
+       "explanation": "Shielding protects people, not the fuel.",
+       "misconception": "object swap"
+      },
+      {
+       "key": "C",
+       "text": "the control rods",
+       "correct": false,
+       "explanation": "Rods are inside the core, not protected by the wall.",
+       "misconception": "object swap"
+      },
+      {
+       "key": "D",
+       "text": "the turbine hall machinery",
+       "correct": false,
+       "explanation": "The shielding's stated purpose is worker safety around the reactor.",
+       "misconception": "object error"
+      }
+     ]
+    },
+    {
+     "stem": "State the purpose of shielding around a nuclear reactor.",
+     "misconceptionClass": "shielding",
+     "kind": "recall",
+     "modelAnswer": "Shielding absorbs the hazardous radiation from the reactor so the environment around it is safe for workers.",
+     "keywords": [
+      "shielding",
+      "absorbs",
+      "radiation",
+      "safe"
+     ]
+    },
+    {
+     "stem": "Name the two materials that make up reactor shielding.",
+     "misconceptionClass": "shielding",
+     "kind": "recall",
+     "modelAnswer": "Steel and concrete, in a wall nearly two metres thick.",
+     "keywords": [
+      "steel",
+      "concrete",
+      "wall",
+      "thick"
+     ]
+    },
+    {
+     "stem": "Explain why shielding must surround the reactor even though the fuel sits inside the core.",
+     "misconceptionClass": "shielding",
+     "kind": "explain-why",
+     "modelAnswer": "The fission daughters and emitted neutrons are radioactive, so without a thick absorbing wall their radiation would reach people outside; the steel-and-concrete shielding absorbs those emissions instead.",
+     "keywords": [
+      "radiation",
+      "radioactive",
+      "shielding",
+      "absorbs"
+     ]
+    },
+    {
+     "stem": "A trainee proposes building the shielding from a 5 cm steel sheet. Give two reasons the plan fails.",
+     "misconceptionClass": "shielding thickness",
+     "kind": "application",
+     "modelAnswer": "The of-record wall is steel plus concrete close to two metres thick; 5 cm (0.05 m) is far too thin and single-material, so far too much radiation would pass through to keep workers safe.",
+     "keywords": [
+      "shielding",
+      "thick",
+      "steel",
+      "radiation"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "chain reaction",
+    "definition": "A self-feeding sequence in which neutrons from each fission trigger further fissions.",
+    "firstLesson": 1
+   },
+   {
+    "term": "critical mass",
+    "definition": "The minimum amount of fissile material needed to sustain a chain reaction.",
+    "firstLesson": 1
+   },
+   {
+    "term": "control rods",
+    "definition": "Neutron-absorbing rods whose depth in the core sets the fission rate.",
+    "firstLesson": 2
+   },
+   {
+    "term": "moderator",
+    "definition": "Material that slows fast neutrons into thermal neutrons that split uranium efficiently.",
+    "firstLesson": 2
+   },
+   {
+    "term": "shielding",
+    "definition": "Steel-and-concrete wall, nearly two metres thick, that absorbs the reactor's hazardous radiation.",
+    "firstLesson": 3
+   }
+  ],
+  "workedExample": {
+   "prompt": "Complete the chain-reaction diagram for uranium-235: how does the drawing show the reaction spreading?",
+   "steps": [
+    "Draw the released neutrons striking further U-235 nuclei — it is the neutron strikes that cause the next fissions.",
+    "Show each struck nucleus splitting and releasing two or more neutrons of its own.",
+    "With each generation the neutron count rises, so more and more fissions follow."
+   ],
+   "finalAnswer": "The chain spreads generation by generation: each fission needs one neutron and releases two or more, so the number of reactions keeps growing."
+  }
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/71e41d900cde-4-4-2-chain-reaction-analogy.png",
+   "alt": "Chain reaction analogy, downloadable IGCSE & GCSE Physics revision notes",
+   "sourceHeading": "Nuclear chain reactions",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "Each fission's neutrons can trigger further fissions, like links in a chain"
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/fdeae314d2b3-4-4-3-chain-reaction-worked-example.png",
+   "alt": "Chain Reaction Worked Example, downloadable IGCSE & GCSE Physics revision notes",
+   "sourceHeading": "Nuclear chain reactions",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "A chain-reaction diagram task for uranium-235"
+  },
+  {
+   "id": "fig-03",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/998b27022364-chain-reaction.png",
+   "alt": "chain-reaction, IGCSE & GCSE Physics revision notes",
+   "sourceHeading": "Nuclear chain reactions",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "Completed chain: neutron count rises with every generation"
+  },
+  {
+   "id": "fig-04",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/7d0158adf74f-8-4-6-nuclear-reactor-components.png",
+   "alt": "Nuclear Reactor Components, downloadable AS & A Level Physics revision notes",
+   "sourceHeading": "Nuclear reactor diagram",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "The reactor controls the chain and collects the heat to generate electricity"
+  },
+  {
+   "id": "fig-05",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-physics-19/assets/6be0956add3f-7-3-3-shielding.png",
+   "alt": "Shielding, downloadable IGCSE & GCSE Physics revision notes",
+   "sourceHeading": "Shielding in a nuclear reactor",
+   "moduleIds": [
+    "L3"
+   ],
+   "binding": "heading-unique",
+   "caption": "Shielding absorbs the harmful radiation before it reaches workers"
+  }
+ ]
+}
