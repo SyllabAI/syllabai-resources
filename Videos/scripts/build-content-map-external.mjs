@@ -36,9 +36,43 @@ const VIDEOS = resolve(__dirname, "..");
 const HUB = resolve(process.argv[2] || ".");
 const MAPDIR = join(HUB, "apps/hub/content/video-map");
 const SPINES = join(HUB, "apps/hub/spines");
+const CONTENT = join(HUB, "apps/hub/content");
 
 const sha256 = (p) => createHash("sha256").update(readFileSync(p)).digest("hex");
 const REJECTS_OF = (v, task) => (v.rejects || []).map((r) => ({ ...r, lane: task }));
+
+/**
+ * Mirror-drift gate: apps/hub/spines/<course>.json is the emit-time
+ * validation reference, apps/hub/content/<course>/curriculum.json is the
+ * RENDER plane of record. When the two drift, rows pass every gate here and
+ * still join nothing at render time — the exact igcse-chemistry-19 failure
+ * (87 rows validated against the stale bare-code mirror while the render
+ * spine carried the canonical 4CH1- register: join 0, badge 119/182, every
+ * lesson row invisible since the P4 pass). Spec codes were re-issued
+ * canonically by the subject-identity lanes; the mirrors must follow. This
+ * gate makes any future re-issue a build-time break instead of a silent
+ * render void. (igcse-geography-19 drifted the same way; it has no video
+ * rows yet, so only the mirror itself was repaired.)
+ */
+function assertSpineMirror(course, spine) {
+  const cf = join(CONTENT, course, "curriculum.json");
+  if (!existsSync(cf)) return; // no content-plane curriculum — other gates own that
+  const cs = new Set(
+    JSON.parse(readFileSync(cf, "utf8")).nodes
+      .filter((n) => n.family === "SPEC_POINT").map((n) => n.code)
+  );
+  const ss = new Set(
+    spine.curriculum.nodes.filter((n) => n.family === "SPEC_POINT").map((n) => n.code)
+  );
+  const offenders = [...ss].filter((c) => !cs.has(c));
+  if (offenders.length || cs.size !== ss.size)
+    errors.push(
+      `${course}: SPINE MIRROR DRIFT — apps/hub/spines/${course}.json SPEC_POINT codes differ from ` +
+      `apps/hub/content/${course}/curriculum.json (the render plane of record); first offenders: ` +
+      `${offenders.slice(0, 3).join(", ")}. Re-sync the spines/ mirror before emitting — rows would ` +
+      `pass emit validation and join nothing at render time.`
+    );
+}
 
 const FRESH = [
   "igcse-chemistry-19", "igcse-physics-19", "igcse-maths-a-18-higher",
@@ -84,6 +118,7 @@ for (const course of [...FRESH, ...MERGE, ...P4_FRESH]) {
   const specByCode = new Map(
     spine.curriculum.nodes.filter((n) => n.family === "SPEC_POINT").map((n) => [n.code, n])
   );
+  assertSpineMirror(course, spine);
 
   if (draft.reviewState !== "owner-reviewed-external")
     throw new Error(`${course}: reviewState is "${draft.reviewState}" — apply review first`);
@@ -373,6 +408,7 @@ for (const [child, entry] of Object.entries(inhMap.parents)) {
   const specByCode = new Map(
     spine.curriculum.nodes.filter((n) => n.family === "SPEC_POINT").map((n) => [n.code, n])
   );
+  assertSpineMirror(child, spine);
   for (const cspec of Object.keys(entry.specMap))
     if (!specByCode.has(cspec)) errors.push(`p4-inherit ${child}: specMap code ${cspec} not in child spine`);
   if (errors.length) break;
@@ -505,6 +541,7 @@ for (const course of P2F) {
   const spine = JSON.parse(readFileSync(join(SPINES, `${course}.json`), "utf8"));
   const nodeByCode = new Map(spine.curriculum.nodes.map((n) => [n.code, n]));
   const specTotal = spine.curriculum.nodes.filter((n) => n.family === "SPEC_POINT").length;
+  assertSpineMirror(course, spine);
   const content = JSON.parse(readFileSync(join(MAPDIR, `${course}.json`), "utf8"));
 
   for (const m of draft.mappings) {
