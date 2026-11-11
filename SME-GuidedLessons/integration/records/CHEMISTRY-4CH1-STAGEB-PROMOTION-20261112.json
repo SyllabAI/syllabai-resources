@@ -5,7 +5,7 @@
     "ignition": "1a1cbe5f60023dd5",
     "execution": "1a1cbe5f60023dd5"
   },
-  "generated_at_utc": "2026-11-11T19:40:44Z",
+  "generated_at_utc": "2026-11-11T19:56:39Z",
   "commit_a": {
     "sha": "0ef5c2ccaa86167c30d6bc4446d64415230d4310",
     "contents": "112 upgraded source-0.6 notes (the declared-delta stage-B generation) + integration/tooling/chem-stageb-pipeline.js (the pipeline of record, derived from the wave-12 landed pipeline)",
@@ -47,10 +47,11 @@
   },
   "manifest": {
     "version": 32,
-    "artifacts_total": 478,
-    "prior_re_pinned": 254,
-    "first_issues": 224,
-    "legacy_generation_conserved": 224
+    "artifacts_total": 224,
+    "scope": "chemistry pack of record (the per-course manifest convention of the global v-series)",
+    "physics_prior_re_pinned_vs_v31": 254,
+    "chemistry_legacy_conserved_vs_v17": 224,
+    "first_issues": 224
   },
   "outputs": [
     "SME-GuidedLessons/integration/hub-import-1.5/rn_2VnK66PqbvFKdKYt.hub-lesson-import.json",
@@ -977,9 +978,9 @@
     },
     {
       "stage": "P0",
-      "name": "resources main tip sits exactly at the commit-A pin (wave-12 sequence: A landed, then the pipeline runs, then C lands)",
+      "name": "resources main tip sits at the commit-A pin (first landing) or the corrective base bd28c978 (corrective re-landing)",
       "ok": true,
-      "detail": "tip=0ef5c2ccaa86"
+      "detail": "tip=bd28c97824df"
     },
     {
       "stage": "A0",
@@ -178613,7 +178614,7 @@
     },
     {
       "stage": "C-6",
-      "name": "physics prior pack present on tree (127 sources / 127 lessons / 127 packages)",
+      "name": "physics prior pack present on tree, counted by the v31 noteIds (127 sources / 127 lessons / 127 packages)",
       "ok": true,
       "detail": "127/127/127"
     },
@@ -182027,7 +182028,7 @@
     },
     {
       "stage": "G-E",
-      "name": "INT-3 rows = 239 (127 physics prior + 112 chemistry stage-B)",
+      "name": "G-E walk rows = 239 (127 physics prior re-proven + 112 chemistry stage-B); the emitted INT-3 of record carries the 112 chemistry rows",
       "ok": true,
       "detail": "239"
     },
@@ -182042,10 +182043,16 @@
       "name": "stage-B stream chars total = 1684549",
       "ok": true,
       "detail": "1684549 chars"
+    },
+    {
+      "stage": "G-E",
+      "name": "chemistry-scope conservation carries exactly one wave key",
+      "ok": true,
+      "detail": "wave-chem-stageb"
     }
   ],
-  "gates_total": 30294,
-  "gates_passed": 30294,
+  "gates_total": 30295,
+  "gates_passed": 30295,
   "verdict": "GREEN",
   "disclosures": [
     "spec texts carried verbatim from the curriculum graph SPEC_POINT nodes (no spec text invented); spec codes pinned to the notes.json register rows 110..126 (0-based) — the seventeen 7-3-fission-and-fusion + 8-astrophysics notes of the frozen partition, the final remainder that completes the 127-note register",
