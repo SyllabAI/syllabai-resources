@@ -33,6 +33,13 @@ Note how this reuses Lesson u1:c01: melting point and boiling point are the
 same numbers you used to predict the state of a substance — but here they
 become evidence about **what is dissolved in it**.
 
+
+:::plain-words
+Melting point is the cheapest purity test in the lab: a pure sample melts sharp, an impure one
+smears across a range that starts below the textbook number. Gritters exploit the same physics
+in reverse — dissolved salt pushes water's [[melting-point]] down to about −0.6 °C. So when data
+hands you both a range and a depressed value, the two clues point the same way: impure.
+:::
 :::key-point
 Pure substance → **fixed** melting and boiling point. Mixture → melts and
 boils over a **range**. Impurities **lower** the melting point and
@@ -61,7 +68,7 @@ Explain which is the pure substance" (2–3 marks): name **X**, then give the
 reason in mark-scheme language — a pure substance has a **fixed/sharp
 melting point**, while Y melts **over a range of temperatures**, so Y
 contains an impurity. Both halves are needed: the verdict *and* the
-fixed-vs-range rule.
+fixed-vs-range rule. Real mark scheme of record (4CH1/1C JUN 2023 Q9(b)(iii), testing the liquid collected from heated hydrated sodium sulfate): M1 "heat (the water) / measure the boiling point"; M2 "(if it) boils at 100 °C (it is pure water) / boiling point is 100 °C" — ALLOW "freezes/melts at 0 °C", REJECT an evaporation answer.
 :::
 
 :::quick-check

@@ -1,0 +1,45 @@
+stage: S4
+date: "2026-11-12"
+agent: "CourseLessons lane (zai-web session web-d40d45c9-ca42-4b9a-9427-b2c180cb268b, chat 8f9333f0-e4f6-476c-8e21-2eac0b18ad39, trace 1a1cc29379e81cf5)"
+prompt_version: "lesson-prose@2.0.0 + lesson-plain-words@1.0.0 (registered c01 lane, PR #340)"
+lane: "c02 thin-layer retrofit r0 — replication of the c01 pilot pattern (PR #340, head 9034a8ac) per receipt next_agent: plain-words box x10 + verbatim-true MS vocab x4 (operator order 'start the c02/c05', zai-web; pattern acceptance per c01 structured answers: c01 pilot / PR lane / curated per-chapter MS sets / plain-words box)"
+trace_id: "1a1cc29379e81cf5"
+summary: >-
+  Thin-layer retrofit of c02, replicating the c01 pilot (f-0040 feature-gap +
+  f-0041 ms-vocab-better system changes, FEATURE-SPEC §2 row 16 + row 11 as
+  amended by f-0042): (a) a plain-words box (student register, 2-5 sentences,
+  chemistry-true, placed directly under the section prose before the first
+  box) authored into EVERY section s01-s10; (b) four exam-hint boxes
+  (s02/s07/s09/s10) enriched with VERBATIM-TRUE mark-scheme lines + paper/
+  question refs of record, all fetched first-hand this session from the
+  syllabai-pastpapers corpus of record (ms.pdf + qp.pdf -> pdftotext):
+  4CH1/1C JUN 2022 Q7(a)(i) (isotope definition, REJECT electron-count);
+  4CH1/1C JUN 2023 Q9(b)(iii) (purity test: boils at 100 °C = pure water,
+  ALLOW freezes/melts at 0 °C, REJECT evaporate); 4CH1/1C JUN 2021 Q5(b)(i)-(ii)
+  ((simple) distillation with REJECT fractional; condenser = cools + condenses);
+  4CH1/1C JUN 2019 Q14(e) (crystallisation chain M1-M5, REJECT hot oven);
+  4CH1/1C JUN 2021 Q4(b) (Rf = 37-41mm / 59-61mm ≈ 0.67, dye G); 4CH1/1C JUN
+  2019 Q4(a) (chromatography mistakes: ink baseline, water above spots).
+  Zero prose bytes changed elsewhere; substance-unchanged law held. qp.pdf
+  context verified first-hand for every ref (f-0042 law).
+artifact_plane: >-
+  qa/lessonPackV1.json mirrored in lockstep (37072B -> 43367B, +6295B
+  thin layers; 10/10 sections carry plain-words). Status field untouched:
+  pack was PUBLISHED at base main 69154ecb and remains PUBLISHED (no law-7
+  flip event this lane; the standing merge+flip authorization trace
+  1a1658a2da08e5bd covers flips of draft packs — none needed here).
+  Gate suite of record (scripts/lane_gates.py): 10/10 boxes 2-5 sentences before first exam-hint; no pipe-form chips (law-6); all 38 chips resolve in glossary; banned phrases/OCR/page-deflection clean; pack JSON valid, status published, 10/10 markdowns carry the box; all verbatim MS fragments present (whitespace-tolerant); all 4 refs of record present.
+kept_disclosed:
+  - 'MS lines are verbatim-true QUOTES with refs; QP context read first-hand for
+    every ref per f-0042 (verification-coverage gap found and closed on PR #340)'
+  - 'plain-words renders on the hub TODAY via the generic box chrome (BOX_STYLES
+    fallback) — styled chrome + allowlist row remain a platform-side lane,
+    proposed not built here'
+  - 'a suspected broken chip ([ixture]]) in c02 s01 was investigated and
+    RETRACTED pre-filing: ordinal byte probes show [[mixture]] well-formed;
+    the sighting was the IM-transport bracket-eating artifact (second
+    independent confirmation after the c01 session sighting) — numeric/ordinal
+    probes only for bracket verification'
+  - 'TRACKER row 2 + header stamped; lesson.yaml receipts appended; no new
+    findings filed (this lane consumes f-0040/f-0041/f-0042, it does not open
+    new gaps)'
