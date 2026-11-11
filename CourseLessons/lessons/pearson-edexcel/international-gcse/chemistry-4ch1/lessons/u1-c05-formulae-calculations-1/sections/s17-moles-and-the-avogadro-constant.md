@@ -33,6 +33,13 @@ molecules go over Niagara Falls *every second* in summer — 100 million
 million million million million molecules. Against that, 6 × 10²³ is a
 small, weighable, laboratory-sized crowd.
 
+
+:::plain-words
+1 mole of anything carries about 6 × 10²³ particles — the [[avogadro-constant]] — whether
+magnesium atoms or water molecules. That is why the mole exists: count moles and you have
+counted particles, without counting. 0.5 mol of magnesium holds 3 × 10²³ atoms yet still weighs
+only 12 g.
+:::
 :::key-point
 Equal moles = equal numbers of particles, regardless of substance. 1 mol
 of Mg and 1 mol of H₂O both carry 6 × 10²³ particles — the masses differ

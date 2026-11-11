@@ -31,12 +31,19 @@ The three-step skeleton those problems share:
    substance you are interested in.
 3. **Convert the number of moles to a mass.**
 
+
+:::plain-words
+Every reacting-mass problem is the same three-step skeleton: mass → moles, walk the equation's
+ratio, moles → mass. The equation itself is given at this level — the skill being tested is the
+pipeline, not recall. And keep the words flowing: “a lot of words with a few numbers between
+them” is what a full-mark calculation looks like.
+:::
 :::exam-hint
 "When you have finished a chemistry calculation, the impression should
 nearly always be that there are a lot of words with a few numbers between
 them, not vice versa" — that is the description of a full-mark answer.
 Show the equation-reading and the unit changes as words and lines, not as
-a bare arithmetic stream: the words are where the method marks are parked.
+a bare arithmetic stream: the words are where the method marks are parked. Real mark scheme of record (4CH1/1C JUN 2023 Q6(c), minimum mass of chlorine for 26.7 g of aluminium chloride, 2Al + 3Cl₂ → 2AlCl₃): M1 “(amount of AlCl₃ =) 26.7 ÷ 133.5 OR 0.2(00) (mol)”, M2 “(amount of Cl₂ =) 0.2(00) × 3 OR 0.3(00) (mol)” with “ALLOW ECF on M1”, M3 “(mass of Cl₂ =) 0.3(00) × 71 = 21.3 (g)” with “ALLOW ECF on M2” — the exact mass → moles → ratio → mass pipeline this section teaches.
 :::
 
 :::misconception

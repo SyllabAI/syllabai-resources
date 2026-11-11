@@ -42,6 +42,13 @@ Two hydrogen atoms to every oxygen atom — the experiment lands on the
 formula you have written since Chapter 1, but now you have *derived* it
 from masses.
 
+
+:::plain-words
+The water experiment splits one measurement cleverly: the dish tells you the oxygen that left
+the oxide (0.64 g), the U-tube tells you the whole water (0.72 g), so the hydrogen must be the
+difference (0.08 g). The mole table then votes 2 : 1 — H₂O, derived rather than assumed. Saying
+which mass came from which measurement is where the marks sit.
+:::
 :::exam-hint
 The whole experiment hinges on one conservation sentence worth quoting
 in answers: **all the oxygen lost from the copper(II) oxide ends up in

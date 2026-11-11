@@ -28,6 +28,12 @@ Then **double everything** to remove the fraction:
 
 2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O
 
+
+:::plain-words
+Odd oxygens are the classic wall: ethane needs 7 of them, and O₂ only sells them in pairs. The
+escape is legal and temporary — write 3½O₂, then double the whole equation to 2C₂H₆ + 7O₂ → 4CO₂
++ 6H₂O. Halves are scaffolding; the final answer is always whole-numbered.
+:::
 :::key-point
 Halving (then doubling the whole equation) is the standard escape from an
 odd number of oxygens. You might reasonably object that half an O₂

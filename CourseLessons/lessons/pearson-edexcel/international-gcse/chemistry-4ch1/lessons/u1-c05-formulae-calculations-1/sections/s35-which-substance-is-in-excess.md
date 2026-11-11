@@ -39,6 +39,13 @@ reacts**, and HCl controls the product:
 
 mass of H₂ = 0.1 × 2 = **0.2 g** — the correct answer.
 
+
+:::plain-words
+Excess is a ratio property, not a size property — 0.3 mol of HCl still runs out against 0.2 mol
+of Mg, because the equation demands 2 : 1. The test is mechanical: run each [[reagent]]'s moles
+through the equation and see which one runs out first. The one that runs out feeds the product
+calculation; the [[excess-reagent]] just watches.
+:::
 :::key-point
 You **always have to use the chemical equation** to determine which
 substance is in excess — "more of it" is not the test. Variant: 0.2 mol
@@ -54,7 +61,7 @@ in excess, try both numbers of moles in the chemical equation and
 compare**. Run each reagent's moles through the ratio and see which one
 runs out first — the one that runs out (HCl here) is the limiting
 reagent, and *it* — never the excess one — feeds the product
-calculation.
+calculation. Real mark scheme of record (4CH1/1C JUN 2023 Q10(a)(i), 1.3 g of zinc with 0.0036 mol HCl): either route scores — M1 “0.0036 moles of HCl react with 0.0018 moles of Zn” then M2 “mass of Zn that reacts is 0.0018 × 65 = 0.117 (g) (which is less than 1.3 g, so zinc is in excess)”, or M1 “moles of zinc that can react with 0.0036 moles of HCl = 0.0036 / 2 = 0.0018 (mol)” then M2 “moles of Zn present = 1.3 ÷ 65 = 0.02 (mol) (which is more than 0.0018, so zinc is in excess)” — both routes end by comparing amounts through the equation.
 :::
 
 :::misconception

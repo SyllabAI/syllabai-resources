@@ -29,6 +29,13 @@ much extra information the state symbols carry — the same balanced
 equation *without* them would not tell you that the potassium hydroxide
 ends up dissolved, or that the hydrogen leaves as a gas.
 
+
+:::plain-words
+The four [[state-symbol]]s are small but heavily policed: (s), (l), (g) and [[aqueous]] for
+dissolved in water. The classic trap is water itself — H₂O(l) in the beaker, but NaCl(aq) once
+something is dissolved in it. A perfectly balanced equation can still drop a mark for a missing
+or wrong state symbol.
+:::
 :::exam-hint
 The two symbols candidates mix up are **(l)** and **(aq)**. Water in a
 beaker is H₂O(**l**); salt *dissolved in* that water is NaCl(**aq**).
