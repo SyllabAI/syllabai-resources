@@ -481,3 +481,20 @@ ids (73 on this shelf) while `mappings[]` carries a row **per lesson binding**
 (the many-to-many law of §4.2 in its first real exercise). Per-mapping
 `lessonRef`/`lessonUrl` fields (draft schema only) keep shared-video rows
 unambiguous for review.
+
+### A8 — 2026-11-10 · P4 executed — scale pass to the full 106-course spine census
+
+Owner ask "P4 scale pass". The §9 P4 gate ("all direct-match courses mapped or honestly
+empty") was scaled to every spine-backed course via a decision matrix — mapped 10 /
+inherit 35 / shelf-direct 4 / mechanics 4 / honest-empty 53. New lanes: 4 Cognito
+shelf-direct maths drafts (oEmbed 128/128); 4 mechanics cross-subject drafts (owner-approved
+physics rows re-bound to maths specs at a higher title-only bar, `crossSubject` disclosed);
+35 inherit courses derived at build time from a committed containment map
+(`drafts/_p4/inheritance-map.json`, ≥0.55 + ≥3 informative tokens) applied to the
+owner-approved parent rows — no new LLM mapping decisions; the derivation itself was
+spot-checked after the sample caught three degenerate 1.0-containment matches on trivially
+short spec titles (token guard added, map regenerated, one would-be wrong row eliminated).
+15 spec-level rejects + 8 full-row drops applied across the 8 new drafts (delegated
+self-review). Hub: registry + flags now 53 courses, status `live (T-VIDEOMAP-P3+P4)`.
+Review file `drafts/review-file-external-p4.md` · report `docs/P4-SCALE-REPORT.md` ·
+tracker `trackers/P4-SCALE-TRACKER.md`.
