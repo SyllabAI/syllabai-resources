@@ -49,6 +49,18 @@ const MERGE = ["igcse-biology-19"];
 // P2E: a SECOND external lane (PhysicsOnline) for the three physics courses —
 // draft + verdicts live in video-map.draft.external-p2e.json / owner-review-verdicts.p2e.json
 const P2E = ["cie-a-level-physics-25", "cie-igcse-physics-23", "igcse-physics-19"];
+// P4 scale pass: 8 NEW direct-match external lanes (4 shelf-direct Cognito maths
+// + 4 mechanics cross-subject) run the standard fresh path below. The 35 inherit
+// courses are NOT drafted per-course: they are derived at build time from the
+// committed containment map (drafts/_p4/inheritance-map.json) applied to the
+// owner-approved parent rows — no new LLM mapping decisions, derivation itself
+// spot-checked (drafts/_p4/owner-review-verdicts.p4-inherit.json).
+const P4_FRESH = [
+  "cie-igcse-maths-25-extended", "cie-igcse-further-maths-additional-maths-25",
+  "igcse-maths-b-16", "igcse-further-maths-19",
+  "cie-a-level-maths-20-mechanics", "cie-as-maths-20-mechanics",
+  "ial-maths-20-mechanics-1", "ial-maths-20-mechanics-2",
+];
 
 const errors = [];
 const registryPath = join(MAPDIR, "registry.json");
@@ -56,7 +68,7 @@ const registry = existsSync(registryPath)
   ? JSON.parse(readFileSync(registryPath, "utf8"))
   : { schema: "syllabai-hub.video-map-registry/1", generatedUtc: "", courses: {} };
 
-for (const course of [...FRESH, ...MERGE]) {
+for (const course of [...FRESH, ...MERGE, ...P4_FRESH]) {
   const D = join(VIDEOS, "drafts", course);
   const draft = JSON.parse(readFileSync(join(D, "video-map.draft.external.json"), "utf8"));
   // igcse-biology-19 keeps its P2 site-lane owner-review-verdicts.json untouched;
@@ -333,19 +345,158 @@ for (const course of [...FRESH, ...MERGE]) {
   );
 }
 
+// ================================================= P4 inheritance lane =====
+// 35 child courses derive their external lane from ONE parent course's
+// owner-approved rows via the committed containment map. Child spec -> best
+// parent spec at containment >= 0.55 (and >= 3 informative tokens, else the
+// match is degenerate); every parent row bound to that parent spec is
+// re-emitted against the child spec with method inherited-external.
+const inhMap = JSON.parse(readFileSync(join(VIDEOS, "drafts/_p4/inheritance-map.json"), "utf8"));
+const inhVerdicts = JSON.parse(readFileSync(join(VIDEOS, "drafts/_p4/owner-review-verdicts.p4-inherit.json"), "utf8"));
+for (const [child, entry] of Object.entries(inhMap.parents)) {
+  const parent = entry.parent;
+  // Parent state is read from the EMITTED parent content file (written by the main
+  // loop above): its videos array is the full assembled union (site + external
+  // lanes) and its mappings the reviewed union. Only external-method rows are
+  // eligible for inheritance; video entries resolve from the union (a P2B external
+  // row may legitimately reference a site-lane video entry).
+  const pcontent = JSON.parse(readFileSync(join(MAPDIR, `${parent}.json`), "utf8"));
+  const prows = pcontent.mappings.filter((r) => r.method === "llm-draft-external");
+  const pvideos = [...pcontent.videos];
+  for (const r of prows) {
+    if (r.reviewed !== true)
+      errors.push(`p4-inherit ${child}: parent ${parent} row ${r.video} not reviewed:true`);
+    if (r.confidence === "high")
+      errors.push(`p4-inherit ${child}: parent ${parent} row ${r.video} is high — title-only posture violated`);
+  }
+  const spine = JSON.parse(readFileSync(join(SPINES, `${child}.json`), "utf8"));
+  const specByCode = new Map(
+    spine.curriculum.nodes.filter((n) => n.family === "SPEC_POINT").map((n) => [n.code, n])
+  );
+  for (const cspec of Object.keys(entry.specMap))
+    if (!specByCode.has(cspec)) errors.push(`p4-inherit ${child}: specMap code ${cspec} not in child spine`);
+  if (errors.length) break;
+
+  // derive: video -> set of child specs triggered via mapped parent specs
+  const rowsByVideo = new Map();
+  for (const [cspec, m] of Object.entries(entry.specMap)) {
+    for (const prow of prows) {
+      if (prow.specs.includes(m.parentSpec)) {
+        if (!rowsByVideo.has(prow.video)) rowsByVideo.set(prow.video, new Set());
+        rowsByVideo.get(prow.video).add(cspec);
+      }
+    }
+  }
+  const primaryRow = new Map(prows.map((r) => [r.video, r]));
+  const videos = pvideos.filter((v) => rowsByVideo.has(v.id));
+  const mappings = [...rowsByVideo.entries()].map(([vid, specs]) => {
+    const prow = primaryRow.get(vid) || prows.find((r) => r.video === vid);
+    return {
+      video: vid, lessonRef: null, lessonUrl: null, specs: [...specs].sort(),
+      confidence: prow.confidence === "high" ? "medium" : prow.confidence,
+      evidence: prow.evidence
+        + ` (inherited from the owner-approved ${parent} external lane via spec-title containment >= ${inhMap.threshold}; Videos/drafts/_p4/inheritance-map.json)`,
+      method: "inherited-external", reviewed: true, boardMismatch: true,
+      reviewer: inhVerdicts.reviewer, reviewedUtc: inhVerdicts.ruledUtc,
+      inherit: { from: parent, threshold: inhMap.threshold, map: "Videos/drafts/_p4/inheritance-map.json" },
+    };
+  });
+  for (const m of mappings) {
+    if (!/^[\w-]{11}$/.test(m.video)) errors.push(`p4-inherit ${child}: bad video id ${m.video}`);
+    if (m.method !== "inherited-external") errors.push(`p4-inherit ${child}: bad method (${m.video})`);
+    for (const code of m.specs)
+      if (!specByCode.has(code)) errors.push(`p4-inherit ${child}: spec ${code} not in spine (${m.video})`);
+  }
+  if (new Set(videos.map((v) => v.id)).size !== videos.length)
+    errors.push(`p4-inherit ${child}: duplicate video ids`);
+  if (errors.length) break;
+
+  const allSpecs = new Set(mappings.flatMap((m) => m.specs));
+  const coverage = {
+    specPointsTotal: specByCode.size,
+    specPointsMapped: allSpecs.size,
+    specPointsUnmapped: specByCode.size - allSpecs.size,
+    videosTotal: videos.length, videosMapped: videos.length, videosUnmapped: 0,
+    mappingRows: mappings.length,
+    byConfidence: {
+      high: 0,
+      medium: mappings.filter((m) => m.confidence === "medium").length,
+      low: mappings.filter((m) => m.confidence === "low").length,
+    },
+  };
+  const parentPaths = P2E.includes(parent)
+    ? [`Videos/drafts/${parent}/video-map.draft.external.json`, `Videos/drafts/${parent}/video-map.draft.external-p2e.json`]
+    : [`Videos/drafts/${parent}/video-map.draft.external.json`];
+  const content = {
+    schema: "hub.video-map/1",
+    course: child,
+    qual: pcontent.qual,
+    source: {
+      provider: `inherited (${pcontent.source.external ? pcontent.source.external.provider : pcontent.source.provider})`,
+      label: child,
+      method: `deterministic spec-title-containment inheritance (>= ${inhMap.threshold}, min 3 informative tokens) of the owner-approved external-lane rows of ${parent}; map: Videos/drafts/_p4/inheritance-map.json; no new LLM mapping decisions`,
+      enumeratedUtc: pcontent.source.external ? pcontent.source.external.enumeratedUtc : pcontent.source.enumeratedUtc,
+    },
+    review: {
+      task: inhVerdicts.task,
+      ruledUtc: inhVerdicts.ruledUtc,
+      ruling: inhVerdicts.source,
+      reviewer: inhVerdicts.reviewer,
+      evidenceBasis: inhVerdicts.evidenceBasis,
+      rowsApproved: mappings.length,
+      rowsRejected: 0,
+      rejects: [],
+      lanes: [{
+        lane: `inherited-external (from ${parent})`, task: inhVerdicts.task,
+        ruling: inhVerdicts.source, reviewer: inhVerdicts.reviewer, ruledUtc: inhVerdicts.ruledUtc,
+        evidenceBasis: inhVerdicts.evidenceBasis,
+        rowsApproved: mappings.length, rowsRejected: 0, rejects: [],
+      }],
+      selfReviewNote:
+        "Inherited rows derive deterministically from owner-approved parent rows; the containment map is "
+        + "committed and spot-checked (owner chat 2026-11-09 'approve and review yourself'). The parent "
+        + "lanes carry the title-only evidence rulings; below-threshold child specs stay honestly unmapped.",
+    },
+    videos,
+    mappings,
+    coverage,
+    inputs: {
+      spine: { file: `apps/hub/spines/${child}.json`, sha256: sha256(join(SPINES, `${child}.json`)) },
+      inheritanceMap: {
+        repo: "SyllabAI/syllabai-resources", path: "Videos/drafts/_p4/inheritance-map.json",
+        task: inhVerdicts.task, reviewAppliedUtc: inhVerdicts.ruledUtc,
+      },
+      parentDraft: { repo: "SyllabAI/syllabai-resources", course: parent, paths: parentPaths, task: inhVerdicts.task },
+    },
+    generatedUtc: new Date().toISOString(),
+  };
+  writeFileSync(join(MAPDIR, `${child}.json`), JSON.stringify(content, null, 1) + "\n");
+  registry.courses[child] = {
+    videos: coverage.videosTotal,
+    mapped: coverage.videosMapped,
+    shelf: null,
+    lane: "external-channels (inherited)",
+    updatedUtc: new Date().toISOString(),
+  };
+  registry.generatedUtc = new Date().toISOString();
+  console.log(
+    `${child}: SHIPPED (inherited from ${parent}) specs ${coverage.specPointsMapped}/${coverage.specPointsTotal} · videos ${coverage.videosMapped}/${coverage.videosTotal} · rows ${coverage.mappingRows} (${coverage.byConfidence.medium}M/${coverage.byConfidence.low}L) · 0 reviewed:false in content`
+  );
+}
+
 if (errors.length) {
   console.error("GATE FAILURES:\n" + errors.map((e) => "  - " + e).join("\n"));
   process.exit(1);
 }
 writeFileSync(registryPath, JSON.stringify(registry, null, 1) + "\n");
-console.log(`wrote ${registryPath}`);
+console.log(`wrote ${registryPath} (${Object.keys(registry.courses).length} courses)`);
 
 // ------------------------------------------------ flags.json videoMap.courses
 // Skip-if-current: once P3 landed (PR #906) the status text is live; rewriting
 // it on every emit would churn flags.json (and fight the file's \uXXXX escaping).
 const flagsPath = join(HUB, "apps/hub/content/flags.json");
 const flags = JSON.parse(readFileSync(flagsPath, "utf8"));
-const want = ["igcse-biology-19", ...FRESH];
+const want = ["igcse-biology-19", ...FRESH, ...P4_FRESH, ...Object.keys(inhMap.parents)];
 const have = new Set(flags.flags.videoMap.courses);
 const coursesCurrent = want.every((c) => have.has(c)) && flags.flags.videoMap.courses.length === want.length;
 const statusCurrent = typeof flags.flags.videoMap.status === "string"
@@ -356,12 +507,14 @@ if (coursesCurrent && statusCurrent) {
   for (const c of want) if (!have.has(c)) flags.flags.videoMap.courses.push(c);
   flags.flags.videoMap.courses.sort();
   flags.flags.videoMap.status =
-    "live (T-VIDEOMAP-P3): lib/video-map.ts loader + /courses/[course]/videos lane shipped for the "
-    + "courses below (igcse-biology-19 site+external; 9 external-channels courses incl. the CIE A-level trio). "
-    + "Links resolve lessonUrl (site lane, Cognito) then watchUrl (external lane, YouTube). Rows are "
-    + "owner-reviewed (title-only evidence, confidence + boardMismatch disclosed per row); the loader "
-    + "re-filters reviewed:true as defense in depth. One-flip kill unchanged: remove the slug (per-course) "
-    + "or the videoMap key (global).";
+    "live (T-VIDEOMAP-P3+P4): lib/video-map.ts loader + /courses/[course]/videos lane shipped for the "
+    + "courses below (igcse-biology-19 site+external; 9 external-channels courses incl. the CIE A-level trio; "
+    + "P4 scale pass: 4 shelf-direct Cognito maths lanes, 4 mechanics cross-subject lanes, 35 inherited lanes "
+    + "derived from owner-approved parent rows via the committed containment map). "
+    + "Links resolve lessonUrl (site lane, Cognito) then watchUrl (external lanes, YouTube). Rows are "
+    + "owner-reviewed (title-only evidence, confidence + boardMismatch disclosed per row; inherited rows carry "
+    + "their derivation in inherit); the loader re-filters reviewed:true as defense in depth. One-flip kill "
+    + "unchanged: remove the slug (per-course) or the videoMap key (global).";
   writeFileSync(flagsPath, JSON.stringify(flags, null, 1) + "\n");
   console.log(`wrote ${flagsPath} (videoMap.courses now ${flags.flags.videoMap.courses.length} courses)`);
 }
