@@ -35,6 +35,13 @@ mass (Mᵣ) and **attach the units, grams**. Three worked out:
   56 + 32 + 64 + 126 = **278**, so 1 mol has a mass of **278 g** — the
   hydrated-crystal method from section 12, reused without ceremony.
 
+
+:::plain-words
+The [[mole]] turns “amount” into something you can weigh: 1 mole of any substance has a mass
+equal to its Mᵣ in grams — 18 g of water, 32 g of sulfur, 40 g of magnesium oxide. Same number
+of particles, different bag weight. That single sentence powers every calculation in the rest of
+the chapter.
+:::
 :::key-point
 Mass of 1 mole = Mᵣ expressed in grams. This is the [[molar-mass]] idea —
 the next section adds the terminology and its one fine-print distinction.

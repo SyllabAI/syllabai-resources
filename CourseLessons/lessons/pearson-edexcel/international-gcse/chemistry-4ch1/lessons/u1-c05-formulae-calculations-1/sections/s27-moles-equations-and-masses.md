@@ -32,6 +32,13 @@ heating to calcium oxide (quicklime) and carbon dioxide — a **thermal
 decomposition** with Mᵣ(CaCO₃) = 100 and Mᵣ(CaO) = 56, the two numbers
 you will need.
 
+
+:::plain-words
+Attach masses to the mole recipe and conservation becomes visible: 16 g of methane burns with 64
+g of oxygen to make 44 g plus 36 g — 80 g on both sides. Each mass is just moles ×
+[[molar-mass]], straight from the equation's big numbers. The equation is the recipe; Mᵣ
+converts each line to grams.
+:::
 :::key-point
 The mass scale of any reaction comes from its mole recipe: multiply each
 mole count by the substance's mass of 1 mole. Conservation is the built-in

@@ -28,6 +28,13 @@ there are 3 oxygens in the formula, so the total mass of oxygen is
 whole method: count the element's atoms, total their mass, divide by the
 compound's Mᵣ.
 
+
+:::plain-words
+Sodium carbonate runs the same division with a subscript twist: 3 oxygens contribute 3 × 16 = 48
+of the total 106, so oxygen is about 45.3% by mass. Dividing by just one oxygen's 16 is the
+classic slip here. Multiply first, divide last, and the three element percentages check each
+other to 100%.
+:::
 :::exam-hint
 Carry the "total mass of the element" as its own named step (3 × 16 = 48)
 before dividing by 106. That presentation is also self-checking: the three element percentages (Na, C, O) must sum

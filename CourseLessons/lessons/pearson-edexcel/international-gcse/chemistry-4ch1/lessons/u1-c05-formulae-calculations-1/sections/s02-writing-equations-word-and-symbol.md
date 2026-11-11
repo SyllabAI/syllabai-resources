@@ -22,6 +22,13 @@ it asserts that atoms can appear or disappear. The next four sections
 build the balancing skill step by step, and the exam-hint below flags the
 single most common way candidates throw marks away.
 
+
+:::plain-words
+If a question says “write an equation”, it wants the [[chemical-equation]] — formulae, not
+words. [[Word-equation]]s are only worth writing when the question asks for one, and they
+describe exactly the same reaction. The symbol version is the one that can be balanced, which is
+why it is the one that scores.
+:::
 :::exam-hint
 Read the instruction precisely: *you should only write a word equation
 if you are specifically asked to*. If a question says "write an

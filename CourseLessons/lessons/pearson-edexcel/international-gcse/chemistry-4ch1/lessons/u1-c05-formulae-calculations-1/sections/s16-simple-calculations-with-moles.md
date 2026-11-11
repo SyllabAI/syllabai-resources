@@ -34,6 +34,13 @@ Two worked cases, both with the Mᵣ found first:
 - Mᵣ(H₂O) = (2 × 1) + 16 = **18**, so 1 mol has a mass of 18 g
 - 54 g of water is 54 / 18 = **3 mol**
 
+
+:::plain-words
+One line runs the whole section: moles = mass ÷ [[molar-mass]], and its rearrangement mass =
+moles × mass of 1 mole. Show the Mᵣ construction first (CaCO₃ = 100, H₂O = 18) and the numbers
+stay checkable. If a division ever feels upside down, ask which quantity is “per one mole” —
+only that one sits underneath.
+:::
 :::key-point
 Number of moles = mass in grams ÷ mass of 1 mole in grams. Every
 remaining calculation in this chapter — reacting masses, yields, excess —

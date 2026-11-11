@@ -24,6 +24,13 @@ and the bound water is *part of the formula*: there are always 5 water
 molecules per CuSO₄ unit, and salts carrying it are **hydrated**. (Other
 examples: Na₂CO₃·10H₂O and MgCl₂·6H₂O.)
 
+
+:::plain-words
+[[Relative-formula-mass]] is pure bookkeeping: add the Aᵣ values of every atom in the formula,
+brackets and all. The dot in CuSO₄·5H₂O is not decoration — five whole waters ride along as
+[[water-of-crystallisation]], so the count is 10 H and 5 O, never 10 H and 1 O. And take Aᵣ
+values from the bigger Periodic Table number, not the atomic number.
+:::
 :::key-point
 Relative atomic masses are **always given** in the exam — in the question
 or on the Periodic Table. You never calculate Aᵣ yourself; but if you use

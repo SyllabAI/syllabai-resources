@@ -44,6 +44,13 @@ of Fe you multiply moles of Fe by 56 — a common mistake is to multiply
 by the mass of **2Fe** (112 g), but the '2' has *already been used* when
 the moles of Fe were worked out from the equation.
 
+
+:::plain-words
+25 g of limestone walks the skeleton: 25/100 = 0.25 mol, the equation's 1 : 1 ratio keeps the
+moles unchanged, and 0.25 × 56 = 14 g of quicklime. The ratio shortcut (100 g → 56 g) is a fine
+checking tool. Watch the half-factor trap: multiply moles of iron by 56, never by the mass of
+2Fe — that 2 was already used when the moles were found.
+:::
 :::key-point
 The Aᵣ of Fe is 56; the Mᵣ of Fe₂O₃ = (2 × 56) + (3 × 16) = 160. These
 are the two numbers the next problem runs on — assembled exactly as

@@ -29,6 +29,13 @@ always going to be the same, whatever the units": 478 tonnes PbS produces
 414 tonnes Pb. Proportion: 1 tonne gives 414/478 = **0.866 tonne** — the
 same answer as section 31, with no gram-conversion at all.
 
+
+:::plain-words
+Theoretical yield is what the equation promises; what you actually bottle is always less —
+spills, transfer losses, side reactions. Organic chemistry is notorious for low yields, and that
+is chemistry, not carelessness. The ratio insight from the lead problem carries over:
+proportions work in any unit, so 478 tonnes : 414 tonnes divides exactly like grams.
+:::
 :::key-point
 A proportion's ratio is unit-independent: 478 g : 414 g and
 478 tonnes : 414 tonnes are the same 414/478. This is why the ratio

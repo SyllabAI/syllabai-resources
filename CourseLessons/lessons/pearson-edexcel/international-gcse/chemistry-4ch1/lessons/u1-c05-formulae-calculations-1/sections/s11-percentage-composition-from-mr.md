@@ -31,6 +31,13 @@ element follows: that element's total contribution divided by the whole,
 × 100. The next two sections work that division through two complete
 examples.
 
+
+:::plain-words
+[[Percentage-composition]] is one division dressed up: the element's total mass contribution
+over the Mᵣ, times 100. Write the Aᵣ values down before starting, and multiply before adding (3
+× 16 = 48 as its own step). The three element percentages of a compound must sum to 100 — a free
+self-check on every such answer.
+:::
 :::exam-hint
 Two habits are worth copying in the exam. First, **write the Aᵣ values
 down before starting** — list them ("Relative atomic masses: C = 12,

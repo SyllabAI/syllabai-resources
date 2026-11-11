@@ -39,6 +39,14 @@ The empirical-formula table (Aᵣ: Mg = 24, O = 16):
 | ÷ smaller       | 1         | 1         |
 | empirical formula | **MgO** |           |
 
+
+:::plain-words
+Both metal-oxide practicals are the same table in different clothes: [[combustion]] makes the
+crucible heavier (oxygen gained), [[reduction]] makes it lighter (oxygen carried off as water
+vapour). Magnesium's lid lifts to let oxygen in; the hydrogen stream must fill the whole tube
+before any flame. “Heat to constant mass” is the standard answer for “how do you know it is
+finished?”
+:::
 :::safety
 Wear eye protection and take care not to get burned when raising the
 crucible lid with tongs. The crucible will stay very hot for some time.
