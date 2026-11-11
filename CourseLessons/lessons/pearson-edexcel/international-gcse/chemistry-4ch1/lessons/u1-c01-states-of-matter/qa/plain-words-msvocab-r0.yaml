@@ -42,3 +42,18 @@ kept_disclosed:
     RETRACTED pre-filing: in-sandbox byte reads show all chips well-formed;
     the sighting was a transport artifact of the authoring session, not
     source content — no false finding filed'
+amendments:
+  - rev: r0.1
+    date: "2026-11-12"
+    kind: "factual fix + process finding (f-0042)"
+    change: >-
+      s13 exam-hint paper-context framing corrected: 4CH1/2C JUN 2021 Q4 is a
+      potassium nitrate (KNO₃) curve ONLY (first-hand qp.pdf read, P66057A) —
+      the r0 framing 'KNO₃/NaNO₃ curve' named a compound absent from the paper.
+      All verbatim-true MS mark lines unchanged. lessonPackV1.json re-mirrored
+      in lockstep (law-7 flipped size 49042B -> 49055B, +13 bytes).
+      Finding f-0042 filed (verification-coverage gap: MS quotes were gated
+      against ms.pdf but QP-context framing was not gated against qp.pdf).
+      FEATURE-SPEC §2 row 11 amended (f-0042 clause). Gates re-run at r0.1:
+      lint 0 errors / 0 warnings; tracker_check exit 0.
+    verified: "ms.pdf x4 + qp.pdf x1 first-hand this session; byte-level quote check re-run"

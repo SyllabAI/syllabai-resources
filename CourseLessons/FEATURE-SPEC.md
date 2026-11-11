@@ -31,7 +31,7 @@ plus additive boxes, plus interactivity:
 | 8 | **Glossary chips** inline — hover card: definition + `ms_accepts`/`ms_avoids` + "hear it" [P2+ TTS] | `glossary.yaml` per lesson |
 | 9 | **Figures page-true** — bbox-anchored to the PDF of record | figure sidecar at ingest |
 | 10 | **Interactive blocks** interleaved by page: MCQ, sort-match, table-fill, eq-builder, drag-label, num-stepper, sim-embed (PhET) | VALIDATED blocks (`book_blocks`) — reused, not rewritten |
-| 11 | **Worked example** — stepwise, with the mark-scheme mark lines shown as an examiner would award them (amended f-0041: carries ≥1 **verbatim-true** MS line with paper/question ref, or `qa-note: ms-verify`) | `num-stepper` blocks + MS corpus |
+| 11 | **Worked example** — stepwise, with the mark-scheme mark lines shown as an examiner would award them (amended f-0041: carries ≥1 **verbatim-true** MS line with paper/question ref, or `qa-note: ms-verify`; amended f-0042: paper-context framing (compound, session, question) verified against the corpus qp.pdf, never from memory) | `num-stepper` blocks + MS corpus |
 | 12 | **Quick check** — 2–5 bank questions filtered by the section's specRefs | question bank (derived) |
 | 13 | **Section summary** — "In one page" recall card | authored ≤120 words |
 | 14 | **"Can you…?"** self-assessment checklist — each item keyed to a spec point | authored |

@@ -69,14 +69,15 @@ nitrate's rises steeply). A line of best fit can be a curve.
 Graph questions: draw dashed construction lines from the axis to the
 curve and quote values to the precision the grid allows. Mark schemes
 accept read-off tolerance — but a missing temperature or unit ("per 100 g
-of water") loses marks. Real mark scheme of record (4CH1/2C JUN 2021 Q4, the same skill set on a
-KNO₃/NaNO₃ curve): plotting = "all points plotted correctly to the
-nearest grid line" (1); read-offs = "correct mass read from graph to
-the nearest grid line" with the expected answer published as a range
-("around 39 to 40 g"); extrapolation = "M1 curve extended to 75 °C ... 0
-marks if curve not extended"; scaling = "mass from graph multiplied by
-4" with "ALLOW ECF from incorrect plotting". Quote the unit ("per 100 g
-of water") and never leave the graph blank — ECF can still pay out.
+of water") loses marks. Real mark scheme of record (4CH1/2C JUN 2021
+Q4, the same skill set on a potassium nitrate (KNO₃) curve): plotting
+= "all points plotted correctly to the nearest grid line" (1);
+read-offs = "correct mass read from graph to the nearest grid line"
+with the expected answer published as a range ("around 39 to 40 g");
+extrapolation = "M1 curve extended to 75 °C ... 0 marks if curve not
+extended"; scaling = "mass from graph multiplied by 4" with "ALLOW ECF
+from incorrect plotting". Quote the unit ("per 100 g of water") and
+never leave the graph blank — ECF can still pay out.
 :::
 
 :::quick-check
