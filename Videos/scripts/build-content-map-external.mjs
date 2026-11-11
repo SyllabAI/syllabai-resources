@@ -484,6 +484,123 @@ for (const [child, entry] of Object.entries(inhMap.parents)) {
   );
 }
 
+// ================================================= P2F Edexcel-native lane =====
+// 4 courses gain ANCHOR rows (docs/ANCHOR-GRANULARITY.md): course-level
+// past-paper walkthroughs bound by machine-verified Edexcel paper codes
+// (method "paper-code", confidence high, boardMismatch false — same-board) and
+// topic-level rows by idf containment (tier 1 >= 3 tokens >= 0.55 medium;
+// tier 2 >= 2 idf-distinctive tokens low). Anchor rows carry specs:[] and
+// lessonRef:null — ZERO spec weight (accounting rule §4): coverage numerators
+// stay lesson-level-only. Appends onto the file the sections above just wrote
+// (main loop for igcse-chemistry-19, P4 inherit section for the IAL trio);
+// upstream sections always rewrite fresh, so a full re-run stays idempotent.
+const P2F = ["ial-biology-18", "ial-chemistry-17", "ial-physics-19", "igcse-chemistry-19"];
+const ANCHOR_LEVELS = new Set(["course", "topic", "subtopic", "subject"]);
+for (const course of P2F) {
+  const D = join(VIDEOS, "drafts", course);
+  const draft = JSON.parse(readFileSync(join(D, "video-map.draft.external-p2f.json"), "utf8"));
+  const verdicts = JSON.parse(readFileSync(join(D, "owner-review-verdicts.p2f.json"), "utf8"));
+  if (draft.reviewState !== "owner-reviewed-external")
+    throw new Error(`${course}: p2f reviewState is "${draft.reviewState}" — apply review first`);
+  const spine = JSON.parse(readFileSync(join(SPINES, `${course}.json`), "utf8"));
+  const nodeByCode = new Map(spine.curriculum.nodes.map((n) => [n.code, n]));
+  const specTotal = spine.curriculum.nodes.filter((n) => n.family === "SPEC_POINT").length;
+  const content = JSON.parse(readFileSync(join(MAPDIR, `${course}.json`), "utf8"));
+
+  for (const m of draft.mappings) {
+    if (m.reviewed !== true || !m.reviewer || !m.reviewedUtc)
+      errors.push(`${course}: unreviewed p2f row leaking into content (${m.video})`);
+    if (m.method !== "llm-draft-external" && m.method !== "paper-code")
+      errors.push(`${course}: p2f row has unexpected method (${m.video})`);
+    if (typeof m.boardMismatch !== "boolean")
+      errors.push(`${course}: p2f row must carry boardMismatch — same-board paper-code rows are legitimately false (${m.video})`);
+    if (!/^[\w-]{11}$/.test(m.video)) errors.push(`${course}: bad p2f video id ${m.video}`);
+    const a = m.anchor;
+    if (!a || !ANCHOR_LEVELS.has(a.level))
+      errors.push(`${course}: p2f row must carry anchor.level in course|topic|subtopic|subject (${m.video})`);
+    else if (a.level === "course" && a.ref !== course)
+      errors.push(`${course}: p2f course anchor ref must be the course itself (${m.video})`);
+    else if (a.level === "topic" || a.level === "subtopic") {
+      const n = nodeByCode.get(a.ref);
+      if (!n || n.family !== a.level.toUpperCase())
+        errors.push(`${course}: p2f anchor ${a.ref} is not a ${a.level.toUpperCase()} node in the spine (${m.video})`);
+      if (m.specs.length !== 0 || m.lessonRef != null)
+        errors.push(`${course}: p2f anchor rows carry specs:[] and lessonRef:null (${m.video})`);
+    }
+  }
+  const haveKeys = new Set(content.mappings.map((m) => m.video + "|" + JSON.stringify(m.specs)));
+  for (const m of draft.mappings) {
+    const k = m.video + "|" + JSON.stringify(m.specs);
+    if (haveKeys.has(k)) errors.push(`${course}: duplicate p2f row across union ${k}`);
+    haveKeys.add(k);
+  }
+  const haveVids = new Set(content.videos.map((v) => v.id));
+  for (const v of draft.videos) {
+    if (!haveVids.has(v.id)) content.videos.push(v);
+    if (!v.provider || !v.watchUrl) errors.push(`${course}: p2f video ${v.id} missing provider/watchUrl`);
+  }
+  if (errors.length) break;
+
+  content.mappings = [...content.mappings, ...draft.mappings];
+  const allSpecs = new Set(content.mappings.flatMap((m) => m.specs));
+  const mappedVids = new Set(content.mappings.map((m) => m.video));
+  content.coverage = {
+    specPointsTotal: specTotal,
+    specPointsMapped: allSpecs.size,
+    specPointsUnmapped: specTotal - allSpecs.size,
+    videosTotal: content.videos.length,
+    videosMapped: mappedVids.size,
+    videosUnmapped: content.videos.length - mappedVids.size,
+    mappingRows: content.mappings.length,
+    byConfidence: {
+      high: content.mappings.filter((m) => m.confidence === "high").length,
+      medium: content.mappings.filter((m) => m.confidence === "medium").length,
+      low: content.mappings.filter((m) => m.confidence === "low").length,
+    },
+  };
+  const p2fLane = {
+    lane: "external-channels-p2f (edexcel-native anchors)", task: verdicts.task,
+    ruling: verdicts.source, reviewer: verdicts.reviewer, ruledUtc: verdicts.ruledUtc,
+    evidenceBasis: verdicts.evidenceBasis,
+    rowsApproved: draft.mappings.length, rowsRejected: (verdicts.rejects || []).length,
+    rejects: REJECTS_OF(verdicts, verdicts.task),
+  };
+  content.review.lanes = [
+    ...(content.review.lanes || [{
+      lane: "external-channels (primary)", task: content.review.task,
+      ruling: content.review.ruling, reviewer: content.review.reviewer,
+      ruledUtc: content.review.ruledUtc, evidenceBasis: content.review.evidenceBasis,
+      rowsApproved: content.review.rowsApproved, rowsRejected: content.review.rowsRejected,
+      rejects: content.review.rejects || [],
+    }]),
+    p2fLane,
+  ];
+  content.review.rowsApproved = content.mappings.length;
+  content.source.p2f = {
+    provider: draft.source.provider, method: draft.source.method,
+    enumeratedUtc: draft.source.enumeratedUtc,
+  };
+  content.inputs.p2f = {
+    repo: "SyllabAI/syllabai-resources",
+    path: `Videos/drafts/${course}/video-map.draft.external-p2f.json`,
+    task: verdicts.task, reviewAppliedUtc: verdicts.ruledUtc,
+  };
+  content.generatedUtc = new Date().toISOString();
+  writeFileSync(join(MAPDIR, `${course}.json`), JSON.stringify(content, null, 1) + "\n");
+  const baseLane = registry.courses[course]?.lane || "external-channels";
+  registry.courses[course] = {
+    videos: content.videos.length,
+    mapped: content.coverage.videosMapped,
+    shelf: registry.courses[course]?.shelf ?? null,
+    lane: baseLane.includes("ednative-p2f") ? baseLane : baseLane + " + ednative-p2f",
+    updatedUtc: new Date().toISOString(),
+  };
+  registry.generatedUtc = new Date().toISOString();
+  console.log(
+    `${course}: SHIPPED +p2f specs ${content.coverage.specPointsMapped}/${content.coverage.specPointsTotal} · videos ${content.coverage.videosMapped}/${content.coverage.videosTotal} · rows ${content.coverage.mappingRows} (+${draft.mappings.length} anchor rows, zero spec weight) · 0 reviewed:false in content`
+  );
+}
+
 if (errors.length) {
   console.error("GATE FAILURES:\n" + errors.map((e) => "  - " + e).join("\n"));
   process.exit(1);
