@@ -44,6 +44,13 @@ separate sheets are fine too, as long as paper type and solvent match.
 
 This lesson's practice is wired to the question bank below.
 
+
+:::plain-words
+An [[rf-value]] is a division with a built-in lie detector: spot distance on top, solvent-front
+distance underneath, and the answer must land between 0 and 1 — if it does not, you divided
+upside down. Quote it bare (0.56), never with units. And match dyes by Rf value, not by colour
+alone, because two different dyes can wear the same colour.
+:::
 :::key-point
 Rf value = distance moved by spot ÷ distance moved by solvent front,
 measured to the centre of each spot. Rf always lies between **0 and 1**,
@@ -88,7 +95,7 @@ Chromatogram questions have three stock mark lines: (1) same dye ⇔ same
 colour **and** same distance/Rf; (2) a "minimum of N dyes" answer — count
 the spots, but note two dyes could coincide in one spot (re-run with a
 different solvent to check); (3) always measure to the **centre of the
-spot**. And keep Rf unitless — writing "0.81 cm" throws the mark away.
+spot**. And keep Rf unitless — writing "0.81 cm" throws the mark away. Real mark scheme of record (4CH1/1C JUN 2021 Q4(b), dyes E–H on one paper): full marks needed M1 "distance moved by solvent = 59-61mm and distance moved by the dye = 37-41mm", M2 "distance moved by the dye ÷ distance moved by the solvent ≈ 0.67" and M3 "(the dye in food colouring) G" — measure on the printed paper, divide, then name the dye. Mistake-spotting earns linked pairs too (4CH1/1C JUN 2019 Q4(a)): "baseline has been drawn in ink" so "it will interfere with /contaminate the results", and "the water level is above the ink spots" so "the inks will mix with the water" / "dissolve in the water".
 :::
 
 :::quick-check

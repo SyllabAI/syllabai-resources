@@ -25,6 +25,14 @@ The precise statement is that all the atoms in an element have the same
 **[[atomic-number]]**. Diagrams and models usually ignore the
 difference between isotopes; they get their full treatment in Chapter 3.
 
+
+:::plain-words
+If a diagram shows atoms that are all the same colour, that is an [[element]] — even when the
+atoms pair up into molecules like O₂ or N₂. The examiner-safe definition is that all the atoms
+have the same [[atomic-number]], not that there is only one atom, because [[isotope]]s make most
+elements a blend of slightly different masses. That wrinkle gets its full treatment in Chapter
+3, but the phrase is yours to use right now.
+:::
 :::key-point
 The safe definition: all the atoms in an element have the **same atomic
 number**. "Only one type of atom" is almost right, but isotopes mean most
@@ -44,7 +52,7 @@ element; the same is true of nitrogen, hydrogen and chlorine gases.
 "a substance that cannot be broken down into anything simpler by chemical
 means" or "contains only one type of atom / atoms with the same atomic
 number". Avoid circular answers like "an element is a substance made of
-elements".
+elements". Real mark scheme of record (4CH1/1C JUN 2022 Q7(a)(i), on copper's two isotopes): "atoms of the same element / atoms with the same number of protons /atoms with the same atomic number" plus "(with a) different number of neutrons / different mass number" — and the REJECT column strikes "different number of electrons", so electron count is irrelevant to isotope identity.
 :::
 
 :::quick-check

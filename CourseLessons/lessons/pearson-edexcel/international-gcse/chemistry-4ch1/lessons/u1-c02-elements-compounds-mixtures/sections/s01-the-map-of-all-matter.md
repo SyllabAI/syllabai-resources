@@ -32,6 +32,13 @@ of this lesson you will be able to:
 - use a **chromatogram** and **Rf values** to work out what a mixture
   contains.
 
+
+:::plain-words
+When an exam hands you an unknown substance, run the two-question test before anything else.
+Could this be one single entry on the periodic table? If not, ask whether its atoms are bonded
+together in a fixed ratio — bonded means a [[compound]], merely mixed means a [[mixture]]. Every
+classification question in this chapter is that test wearing a different costume.
+:::
 :::key-point
 Every substance is an element, a compound or a mixture. Elements and
 compounds are **pure**; mixtures are not, and their components can be
