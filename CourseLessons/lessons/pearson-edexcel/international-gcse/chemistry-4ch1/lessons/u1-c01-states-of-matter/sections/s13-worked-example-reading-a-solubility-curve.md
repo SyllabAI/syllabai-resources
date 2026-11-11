@@ -41,6 +41,10 @@ read the 10 °C value from the graph as well — for example, cooling to
 
 This lesson's practice is wired to the question bank below.
 
+:::plain-words
+Everything on this page is one skill wearing four disguises: **read the curve honestly, scale to the water you actually have, and ask when the solution becomes full.** Plot points exactly on grid crossings, take readings with a ruled line, and remember the "per 100 g of water" tag — every solubility number is meaningless without it.
+:::
+
 :::worked-example
 The three readings above — 42.5 g per 100 g at 50 °C; 20 g in 50 g of
 water at 40 °C; crystals first below 80 °C for a 51.0 g solution — are
@@ -65,7 +69,15 @@ nitrate's rises steeply). A line of best fit can be a curve.
 Graph questions: draw dashed construction lines from the axis to the
 curve and quote values to the precision the grid allows. Mark schemes
 accept read-off tolerance — but a missing temperature or unit ("per 100 g
-of water") loses marks.
+of water") loses marks. Real mark scheme of record (4CH1/2C JUN 2021
+Q4, the same skill set on a potassium nitrate (KNO₃) curve): plotting
+= "all points plotted correctly to the nearest grid line" (1);
+read-offs = "correct mass read from graph to the nearest grid line"
+with the expected answer published as a range ("around 39 to 40 g");
+extrapolation = "M1 curve extended to 75 °C ... 0 marks if curve not
+extended"; scaling = "mass from graph multiplied by 4" with "ALLOW ECF
+from incorrect plotting". Quote the unit ("per 100 g of water") and
+never leave the graph blank — ECF can still pay out.
 :::
 
 :::quick-check

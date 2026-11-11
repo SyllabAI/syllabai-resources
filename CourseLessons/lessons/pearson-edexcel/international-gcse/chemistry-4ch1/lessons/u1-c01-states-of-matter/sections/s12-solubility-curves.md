@@ -28,6 +28,10 @@ virtually a straight line, but that will not always be the case — if you
 are asked to draw a line of best fit, it can be either a straight line or
 a curve.
 
+:::plain-words
+A solubility curve is a "how full can the water get?" graph: temperature along the bottom, maximum dissolved mass up the side. Most solids climb as it gets hotter. The exam trick is cooling: a solution that is full at 90 °C is badly over-full at 30 °C, so the excess must leave the solution as crystals — read both ends off the curve and subtract.
+:::
+
 :::key-point
 Mass of crystals formed on cooling = difference between the solubility
 values at the starting and finishing temperatures (for the same mass of

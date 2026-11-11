@@ -23,6 +23,10 @@ temperature, so oxygen is a gas at room temperature. Lithium's melting
 point sits *above* room temperature, so lithium is a solid. Bromine, as
 the worked example below shows, is a liquid.
 
+:::plain-words
+Here is the shortcut for any "what state is X at 25 °C?" question. Draw a number line, mark the melting point and the boiling point on it, and drop the temperature in: **below the melting point** the substance is solid, **between the two** it is liquid, **above the boiling point** it is gas. Bromine melts at −7 °C and boils at 59 °C, and room temperature sits between them — so bromine is a liquid. No memory needed, just the two fixed points.
+:::
+
 :::worked-example
 **Bromine from −100 °C to 100 °C** (melting point −7 °C, boiling point 59
 °C):

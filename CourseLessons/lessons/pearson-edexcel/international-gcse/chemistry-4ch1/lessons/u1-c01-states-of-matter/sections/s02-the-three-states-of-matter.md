@@ -20,6 +20,10 @@ particles are arranged, how far apart they are, and how they move. That is
 exactly what §s04 puts on the table, so if you want the full particle
 pictures, read on and we will build them properly there.
 
+:::plain-words
+Solid, liquid, gas — that is the complete list, and every substance you will ever meet is on it. Water is the easiest one to picture: ice, tap water and steam are the **same particles** arranged and moving in three different ways. Which state you get is not a guess — it is decided by the arrangement, the spacing and the motion of the particles, and the next few sections build that picture exactly.
+:::
+
 :::key-point
 The three states of matter are **solid, liquid and gas**. Every substance
 you will meet is one of the three (or changing between two
