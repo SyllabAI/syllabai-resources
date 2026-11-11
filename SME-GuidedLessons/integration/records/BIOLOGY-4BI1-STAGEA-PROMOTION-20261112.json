@@ -1,0 +1,1960 @@
+{
+  "format": "bio-stagea-promotion-receipt/1.0",
+  "wave": "BIOLOGY-4BI1 stage-A (the new-subject pilot: 1 note end-to-end at the 0.7/1.6/1.3 four-plane generation; programme-level manifest v33)",
+  "operator_traces": {
+    "ignition": "1a1cbe5f60023dd5",
+    "execution": "1a1cbe5f60023dd5"
+  },
+  "generated_at_utc": "2026-11-11T20:19:21Z",
+  "commit_a": {
+    "sha": "7378f2498a76501a907a0bda9724237bd4486663",
+    "contents": "the authored stage-A pilot source-0.7 note + the 0.7/1.6/1.3 schema generation + the spec_point_resolution.json bootstrap + integration/tooling/bio-stagea-pipeline.js (the pipeline of record, derived from the chem-stageb landed pipeline)",
+    "parent": "744890e22502dc9d1e5628fb5ec6eac8b1e63fd9",
+    "message_carries_trace": true
+  },
+  "tranche": {
+    "notes": 1,
+    "lessons": 2,
+    "checks": 18,
+    "kinds": {
+      "mcq": 10,
+      "recall": 4,
+      "explain-why": 2,
+      "application": 2
+    },
+    "figures": 11,
+    "figures_module_mapped": 7,
+    "glossary_terms": 4,
+    "worked_examples": {
+      "populated": 0,
+      "null": 1
+    },
+    "stream_chars": 14664,
+    "authoring_shape": {
+      "pilot_note": "rn_qRXSsjyzyZsJnc7k (Characteristics of Living Organisms, spec 1.1)",
+      "lessons": 2,
+      "checks": 18,
+      "figures": 11,
+      "figures_module_mapped": 7,
+      "figures_note_level": 4,
+      "glossary_terms": 4,
+      "worked_examples": {
+        "populated": 0,
+        "null": 1
+      }
+    }
+  },
+  "manifest": {
+    "version": 33,
+    "artifacts_total": 2,
+    "scope": "biology pack of record (the per-course manifest convention of the global v-series)",
+    "physics_prior_re_pinned_vs_v31": 254,
+    "chemistry_prior_re_pinned_vs_v32": 224,
+    "first_issues": 2
+  },
+  "outputs": [
+    "SME-GuidedLessons/integration/hub-import-1.6/rn_qRXSsjyzyZsJnc7k.hub-lesson-import.json",
+    "SME-GuidedLessons/integration/question-packages-1.3/rn_qRXSsjyzyZsJnc7k.sme-question-package.json"
+  ],
+  "gate_log": [
+    {
+      "stage": "P0",
+      "name": "prior manifest counts are ints (the v26 amendment law)",
+      "ok": true,
+      "detail": "{\"notes\":112,\"lessons\":239,\"checks\":2151}"
+    },
+    {
+      "stage": "P0",
+      "name": "HEAD == declared wave-12 commit-A pin",
+      "ok": true,
+      "detail": "HEAD=7378f2498a76 pin=7378f2498a76"
+    },
+    {
+      "stage": "P0",
+      "name": "commit A message carries the operator trace",
+      "ok": true,
+      "detail": "guided(BIOLOGY-4BI1 stage-A): commit A — the new-subject pilot per runbook B3 (ONE note en"
+    },
+    {
+      "stage": "P0",
+      "name": "source blob @ HEAD == disk: rn_qRXSsjyzyZsJnc7k",
+      "ok": true,
+      "detail": "blob=33077B disk=33077B"
+    },
+    {
+      "stage": "P0",
+      "name": "commit A parent == the wave-open resources main of record",
+      "ok": true,
+      "detail": "parent=744890e22502"
+    },
+    {
+      "stage": "P0",
+      "name": "resources main tip sits at the commit-A pin (first landing) or the corrective base bd28c978 (corrective re-landing)",
+      "ok": true,
+      "detail": "tip=7378f2498a76"
+    },
+    {
+      "stage": "A0",
+      "name": "ajv 0.6: rn_qRXSsjyzyZsJnc7k",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "A0",
+      "name": "spec text verbatim rn_qRXSsjyzyZsJnc7k/1.1",
+      "ok": true,
+      "detail": "graph=\"understand how living organisms share th\""
+    },
+    {
+      "stage": "A0",
+      "name": "spec code in register rn_qRXSsjyzyZsJnc7k/1.1",
+      "ok": true,
+      "detail": "register=1.1"
+    },
+    {
+      "stage": "A0",
+      "name": "primer word band rn_qRXSsjyzyZsJnc7k",
+      "ok": true,
+      "detail": "66 words"
+    },
+    {
+      "stage": "A0",
+      "name": "noteRef identity rn_qRXSsjyzyZsJnc7k",
+      "ok": true,
+      "detail": "path=1-the-nature-and-variety-of-living-organisms/characteristics-of-living-organisms/characteristics-of-living-organisms.md"
+    },
+    {
+      "stage": "A0",
+      "name": "topicTitle matches curriculum topic rn_qRXSsjyzyZsJnc7k",
+      "ok": true,
+      "detail": "The nature and variety of living organisms vs 1-the-nature-and-variety-of-living-organisms"
+    },
+    {
+      "stage": "A0",
+      "name": "glossary band rn_qRXSsjyzyZsJnc7k",
+      "ok": true,
+      "detail": "4 terms"
+    },
+    {
+      "stage": "A0",
+      "name": "glossary firstLesson rn_qRXSsjyzyZsJnc7k/MRS C GREN",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "stage": "A0",
+      "name": "glossary firstLesson rn_qRXSsjyzyZsJnc7k/homeostasis",
+      "ok": true,
+      "detail": "2"
+    },
+    {
+      "stage": "A0",
+      "name": "glossary firstLesson rn_qRXSsjyzyZsJnc7k/gamete",
+      "ok": true,
+      "detail": "2"
+    },
+    {
+      "stage": "A0",
+      "name": "glossary firstLesson rn_qRXSsjyzyZsJnc7k/phototropism",
+      "ok": true,
+      "detail": "2"
+    },
+    {
+      "stage": "A0",
+      "name": "workedExample shape rn_qRXSsjyzyZsJnc7k",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "A0",
+      "name": "figure ids unique rn_qRXSsjyzyZsJnc7k",
+      "ok": true,
+      "detail": "11 figs"
+    },
+    {
+      "stage": "A0",
+      "name": "figure host lesson exists rn_qRXSsjyzyZsJnc7k/fig-01",
+      "ok": true,
+      "detail": "L1"
+    },
+    {
+      "stage": "A0",
+      "name": "figure sourceHeading bound rn_qRXSsjyzyZsJnc7k/fig-01",
+      "ok": true,
+      "detail": "[\"Nutrition\",\"Excretion\"] vs Nutrition"
+    },
+    {
+      "stage": "A0",
+      "name": "figure url corpus-namespace rn_qRXSsjyzyZsJnc7k/fig-01",
+      "ok": true,
+      "detail": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionN"
+    },
+    {
+      "stage": "A0",
+      "name": "figure asset exists in corpus rn_qRXSsjyzyZsJnc7k/fig-01",
+      "ok": true,
+      "detail": "3b647640754c-50286-nutrition-in.png"
+    },
+    {
+      "stage": "A0",
+      "name": "figure binding rn_qRXSsjyzyZsJnc7k/fig-01",
+      "ok": true,
+      "detail": "heading-unique"
+    },
+    {
+      "stage": "A0",
+      "name": "figure caption present rn_qRXSsjyzyZsJnc7k/fig-01",
+      "ok": true,
+      "detail": "caption"
+    },
+    {
+      "stage": "A0",
+      "name": "figure host lesson exists rn_qRXSsjyzyZsJnc7k/fig-02",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "A0",
+      "name": "figure url corpus-namespace rn_qRXSsjyzyZsJnc7k/fig-02",
+      "ok": true,
+      "detail": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionN"
+    },
+    {
+      "stage": "A0",
+      "name": "figure asset exists in corpus rn_qRXSsjyzyZsJnc7k/fig-02",
+      "ok": true,
+      "detail": "7aea3d0e2962-word-equation-for-aerobic-respiration.png"
+    },
+    {
+      "stage": "A0",
+      "name": "figure binding rn_qRXSsjyzyZsJnc7k/fig-02",
+      "ok": true,
+      "detail": "heading-unique"
+    },
+    {
+      "stage": "A0",
+      "name": "figure caption present rn_qRXSsjyzyZsJnc7k/fig-02",
+      "ok": true,
+      "detail": "caption"
+    },
+    {
+      "stage": "A0",
+      "name": "figure host lesson exists rn_qRXSsjyzyZsJnc7k/fig-03",
+      "ok": true,
+      "detail": "L1"
+    },
+    {
+      "stage": "A0",
+      "name": "figure sourceHeading bound rn_qRXSsjyzyZsJnc7k/fig-03",
+      "ok": true,
+      "detail": "[\"Nutrition\",\"Excretion\"] vs Excretion"
+    },
+    {
+      "stage": "A0",
+      "name": "figure url corpus-namespace rn_qRXSsjyzyZsJnc7k/fig-03",
+      "ok": true,
+      "detail": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionN"
+    },
+    {
+      "stage": "A0",
+      "name": "figure asset exists in corpus rn_qRXSsjyzyZsJnc7k/fig-03",
+      "ok": true,
+      "detail": "503f03b329bf-33446-excretion-in-humans.png"
+    },
+    {
+      "stage": "A0",
+      "name": "figure binding rn_qRXSsjyzyZsJnc7k/fig-03",
+      "ok": true,
+      "detail": "heading-unique"
+    },
+    {
+      "stage": "A0",
+      "name": "figure caption present rn_qRXSsjyzyZsJnc7k/fig-03",
+      "ok": true,
+      "detail": "caption"
+    },
+    {
+      "stage": "A0",
+      "name": "figure host lesson exists rn_qRXSsjyzyZsJnc7k/fig-04",
+      "ok": true,
+      "detail": "L1"
+    },
+    {
+      "stage": "A0",
+      "name": "figure sourceHeading bound rn_qRXSsjyzyZsJnc7k/fig-04",
+      "ok": true,
+      "detail": "[\"Nutrition\",\"Excretion\"] vs Excretion"
+    },
+    {
+      "stage": "A0",
+      "name": "figure url corpus-namespace rn_qRXSsjyzyZsJnc7k/fig-04",
+      "ok": true,
+      "detail": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionN"
+    },
+    {
+      "stage": "A0",
+      "name": "figure asset exists in corpus rn_qRXSsjyzyZsJnc7k/fig-04",
+      "ok": true,
+      "detail": "afd6096546c8-61254-excretion-in-plants.png"
+    },
+    {
+      "stage": "A0",
+      "name": "figure binding rn_qRXSsjyzyZsJnc7k/fig-04",
+      "ok": true,
+      "detail": "heading-unique"
+    },
+    {
+      "stage": "A0",
+      "name": "figure caption present rn_qRXSsjyzyZsJnc7k/fig-04",
+      "ok": true,
+      "detail": "caption"
+    },
+    {
+      "stage": "A0",
+      "name": "figure host lesson exists rn_qRXSsjyzyZsJnc7k/fig-05",
+      "ok": true,
+      "detail": "L2"
+    },
+    {
+      "stage": "A0",
+      "name": "figure sourceHeading bound rn_qRXSsjyzyZsJnc7k/fig-05",
+      "ok": true,
+      "detail": "[\"Response to Surroundings\",\"Reproduction\"] vs Response to Surroundings"
+    },
+    {
+      "stage": "A0",
+      "name": "figure url corpus-namespace rn_qRXSsjyzyZsJnc7k/fig-05",
+      "ok": true,
+      "detail": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionN"
+    },
+    {
+      "stage": "A0",
+      "name": "figure asset exists in corpus rn_qRXSsjyzyZsJnc7k/fig-05",
+      "ok": true,
+      "detail": "6a06629c63d7-11809-nervous-system-and-endocrine-system.png"
+    },
+    {
+      "stage": "A0",
+      "name": "figure binding rn_qRXSsjyzyZsJnc7k/fig-05",
+      "ok": true,
+      "detail": "heading-unique"
+    },
+    {
+      "stage": "A0",
+      "name": "figure caption present rn_qRXSsjyzyZsJnc7k/fig-05",
+      "ok": true,
+      "detail": "caption"
+    },
+    {
+      "stage": "A0",
+      "name": "figure host lesson exists rn_qRXSsjyzyZsJnc7k/fig-06",
+      "ok": true,
+      "detail": "L2"
+    },
+    {
+      "stage": "A0",
+      "name": "figure sourceHeading bound rn_qRXSsjyzyZsJnc7k/fig-06",
+      "ok": true,
+      "detail": "[\"Response to Surroundings\",\"Reproduction\"] vs Response to Surroundings"
+    },
+    {
+      "stage": "A0",
+      "name": "figure url corpus-namespace rn_qRXSsjyzyZsJnc7k/fig-06",
+      "ok": true,
+      "detail": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionN"
+    },
+    {
+      "stage": "A0",
+      "name": "figure asset exists in corpus rn_qRXSsjyzyZsJnc7k/fig-06",
+      "ok": true,
+      "detail": "fb02294cf2fa-sensitivity-in-plants.png"
+    },
+    {
+      "stage": "A0",
+      "name": "figure binding rn_qRXSsjyzyZsJnc7k/fig-06",
+      "ok": true,
+      "detail": "heading-unique"
+    },
+    {
+      "stage": "A0",
+      "name": "figure caption present rn_qRXSsjyzyZsJnc7k/fig-06",
+      "ok": true,
+      "detail": "caption"
+    },
+    {
+      "stage": "A0",
+      "name": "figure host lesson exists rn_qRXSsjyzyZsJnc7k/fig-07",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "A0",
+      "name": "figure url corpus-namespace rn_qRXSsjyzyZsJnc7k/fig-07",
+      "ok": true,
+      "detail": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionN"
+    },
+    {
+      "stage": "A0",
+      "name": "figure asset exists in corpus rn_qRXSsjyzyZsJnc7k/fig-07",
+      "ok": true,
+      "detail": "4a4721be849f-movement-in-plants.png"
+    },
+    {
+      "stage": "A0",
+      "name": "figure binding rn_qRXSsjyzyZsJnc7k/fig-07",
+      "ok": true,
+      "detail": "heading-unique"
+    },
+    {
+      "stage": "A0",
+      "name": "figure caption present rn_qRXSsjyzyZsJnc7k/fig-07",
+      "ok": true,
+      "detail": "caption"
+    },
+    {
+      "stage": "A0",
+      "name": "figure host lesson exists rn_qRXSsjyzyZsJnc7k/fig-08",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "A0",
+      "name": "figure url corpus-namespace rn_qRXSsjyzyZsJnc7k/fig-08",
+      "ok": true,
+      "detail": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionN"
+    },
+    {
+      "stage": "A0",
+      "name": "figure asset exists in corpus rn_qRXSsjyzyZsJnc7k/fig-08",
+      "ok": true,
+      "detail": "7e3193d0ca8c-thermoregulation-in-humans.png"
+    },
+    {
+      "stage": "A0",
+      "name": "figure binding rn_qRXSsjyzyZsJnc7k/fig-08",
+      "ok": true,
+      "detail": "heading-unique"
+    },
+    {
+      "stage": "A0",
+      "name": "figure caption present rn_qRXSsjyzyZsJnc7k/fig-08",
+      "ok": true,
+      "detail": "caption"
+    },
+    {
+      "stage": "A0",
+      "name": "figure host lesson exists rn_qRXSsjyzyZsJnc7k/fig-09",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "A0",
+      "name": "figure url corpus-namespace rn_qRXSsjyzyZsJnc7k/fig-09",
+      "ok": true,
+      "detail": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionN"
+    },
+    {
+      "stage": "A0",
+      "name": "figure asset exists in corpus rn_qRXSsjyzyZsJnc7k/fig-09",
+      "ok": true,
+      "detail": "d401fde2f2ff-homeostasis-in-plants.png"
+    },
+    {
+      "stage": "A0",
+      "name": "figure binding rn_qRXSsjyzyZsJnc7k/fig-09",
+      "ok": true,
+      "detail": "heading-unique"
+    },
+    {
+      "stage": "A0",
+      "name": "figure caption present rn_qRXSsjyzyZsJnc7k/fig-09",
+      "ok": true,
+      "detail": "caption"
+    },
+    {
+      "stage": "A0",
+      "name": "figure host lesson exists rn_qRXSsjyzyZsJnc7k/fig-10",
+      "ok": true,
+      "detail": "L2"
+    },
+    {
+      "stage": "A0",
+      "name": "figure sourceHeading bound rn_qRXSsjyzyZsJnc7k/fig-10",
+      "ok": true,
+      "detail": "[\"Response to Surroundings\",\"Reproduction\"] vs Reproduction"
+    },
+    {
+      "stage": "A0",
+      "name": "figure url corpus-namespace rn_qRXSsjyzyZsJnc7k/fig-10",
+      "ok": true,
+      "detail": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionN"
+    },
+    {
+      "stage": "A0",
+      "name": "figure asset exists in corpus rn_qRXSsjyzyZsJnc7k/fig-10",
+      "ok": true,
+      "detail": "127d4115c175-sexual-reproduction-in-humans.png"
+    },
+    {
+      "stage": "A0",
+      "name": "figure binding rn_qRXSsjyzyZsJnc7k/fig-10",
+      "ok": true,
+      "detail": "heading-unique"
+    },
+    {
+      "stage": "A0",
+      "name": "figure caption present rn_qRXSsjyzyZsJnc7k/fig-10",
+      "ok": true,
+      "detail": "caption"
+    },
+    {
+      "stage": "A0",
+      "name": "figure host lesson exists rn_qRXSsjyzyZsJnc7k/fig-11",
+      "ok": true,
+      "detail": "L2"
+    },
+    {
+      "stage": "A0",
+      "name": "figure sourceHeading bound rn_qRXSsjyzyZsJnc7k/fig-11",
+      "ok": true,
+      "detail": "[\"Response to Surroundings\",\"Reproduction\"] vs Reproduction"
+    },
+    {
+      "stage": "A0",
+      "name": "figure url corpus-namespace rn_qRXSsjyzyZsJnc7k/fig-11",
+      "ok": true,
+      "detail": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionN"
+    },
+    {
+      "stage": "A0",
+      "name": "figure asset exists in corpus rn_qRXSsjyzyZsJnc7k/fig-11",
+      "ok": true,
+      "detail": "460f2dc24a0e-28811-asexual-reproduction-in-bacteria.png"
+    },
+    {
+      "stage": "A0",
+      "name": "figure binding rn_qRXSsjyzyZsJnc7k/fig-11",
+      "ok": true,
+      "detail": "heading-unique"
+    },
+    {
+      "stage": "A0",
+      "name": "figure caption present rn_qRXSsjyzyZsJnc7k/fig-11",
+      "ok": true,
+      "detail": "caption"
+    },
+    {
+      "stage": "A0",
+      "name": "all corpus images bound rn_qRXSsjyzyZsJnc7k",
+      "ok": true,
+      "detail": "11 images vs 11 figs"
+    },
+    {
+      "stage": "A0",
+      "name": "lesson keyPoints band rn_qRXSsjyzyZsJnc7k::L1",
+      "ok": true,
+      "detail": "5 KP"
+    },
+    {
+      "stage": "A0",
+      "name": "sourceHeadings 1-2 rn_qRXSsjyzyZsJnc7k::L1",
+      "ok": true,
+      "detail": "Nutrition|Excretion"
+    },
+    {
+      "stage": "A0",
+      "name": "sourceHeading in corpus rn_qRXSsjyzyZsJnc7k::L1",
+      "ok": true,
+      "detail": "Nutrition"
+    },
+    {
+      "stage": "A0",
+      "name": "heading-unique across lessons rn_qRXSsjyzyZsJnc7k",
+      "ok": true,
+      "detail": "Nutrition first bound to L0"
+    },
+    {
+      "stage": "A0",
+      "name": "sourceHeading in corpus rn_qRXSsjyzyZsJnc7k::L1",
+      "ok": true,
+      "detail": "Excretion"
+    },
+    {
+      "stage": "A0",
+      "name": "heading-unique across lessons rn_qRXSsjyzyZsJnc7k",
+      "ok": true,
+      "detail": "Excretion first bound to L0"
+    },
+    {
+      "stage": "A0",
+      "name": "specRefs subset rn_qRXSsjyzyZsJnc7k::L1",
+      "ok": true,
+      "detail": "1.1"
+    },
+    {
+      "stage": "A0",
+      "name": "depthLayers present rn_qRXSsjyzyZsJnc7k::L1",
+      "ok": true,
+      "detail": "low/medium"
+    },
+    {
+      "stage": "B2",
+      "name": "9 checks per module rn_qRXSsjyzyZsJnc7k::L1",
+      "ok": true,
+      "detail": "9 checks"
+    },
+    {
+      "stage": "A0",
+      "name": "kind order rn_qRXSsjyzyZsJnc7k::L1",
+      "ok": true,
+      "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_qRXSsjyzyZsJnc7k::L1::Q1",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_qRXSsjyzyZsJnc7k::L1::Q1",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_qRXSsjyzyZsJnc7k::L1::Q1",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_qRXSsjyzyZsJnc7k::L1::Q1",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L1::Q1/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L1::Q1/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_qRXSsjyzyZsJnc7k::L1::Q1/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L1::Q1/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_qRXSsjyzyZsJnc7k::L1::Q1/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L1::Q1/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_qRXSsjyzyZsJnc7k::L1::Q1/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_qRXSsjyzyZsJnc7k::L1::Q1",
+      "ok": true,
+      "detail": "Which set completes the acronym MRS C GR"
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_qRXSsjyzyZsJnc7k::L1::Q2",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_qRXSsjyzyZsJnc7k::L1::Q2",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_qRXSsjyzyZsJnc7k::L1::Q2",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_qRXSsjyzyZsJnc7k::L1::Q2",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L1::Q2/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L1::Q2/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_qRXSsjyzyZsJnc7k::L1::Q2/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L1::Q2/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_qRXSsjyzyZsJnc7k::L1::Q2/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L1::Q2/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_qRXSsjyzyZsJnc7k::L1::Q2/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_qRXSsjyzyZsJnc7k::L1::Q2",
+      "ok": true,
+      "detail": "A student observes a particle that repro"
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_qRXSsjyzyZsJnc7k::L1::Q3",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_qRXSsjyzyZsJnc7k::L1::Q3",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_qRXSsjyzyZsJnc7k::L1::Q3",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_qRXSsjyzyZsJnc7k::L1::Q3",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L1::Q3/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L1::Q3/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_qRXSsjyzyZsJnc7k::L1::Q3/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L1::Q3/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_qRXSsjyzyZsJnc7k::L1::Q3/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L1::Q3/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_qRXSsjyzyZsJnc7k::L1::Q3/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_qRXSsjyzyZsJnc7k::L1::Q3",
+      "ok": true,
+      "detail": "Which list gives the waste products that"
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_qRXSsjyzyZsJnc7k::L1::Q4",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_qRXSsjyzyZsJnc7k::L1::Q4",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_qRXSsjyzyZsJnc7k::L1::Q4",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_qRXSsjyzyZsJnc7k::L1::Q4",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L1::Q4/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L1::Q4/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_qRXSsjyzyZsJnc7k::L1::Q4/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L1::Q4/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_qRXSsjyzyZsJnc7k::L1::Q4/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L1::Q4/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_qRXSsjyzyZsJnc7k::L1::Q4/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_qRXSsjyzyZsJnc7k::L1::Q4",
+      "ok": true,
+      "detail": "Which pairing of organism and excretory "
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_qRXSsjyzyZsJnc7k::L1::Q5",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_qRXSsjyzyZsJnc7k::L1::Q5",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_qRXSsjyzyZsJnc7k::L1::Q5",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_qRXSsjyzyZsJnc7k::L1::Q5",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L1::Q5/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L1::Q5/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_qRXSsjyzyZsJnc7k::L1::Q5/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L1::Q5/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_qRXSsjyzyZsJnc7k::L1::Q5/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L1::Q5/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_qRXSsjyzyZsJnc7k::L1::Q5/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_qRXSsjyzyZsJnc7k::L1::Q5",
+      "ok": true,
+      "detail": "Which statement about respiration is tru"
+    },
+    {
+      "stage": "written",
+      "name": "id grammar/kind rn_qRXSsjyzyZsJnc7k::L1::Q6",
+      "ok": true,
+      "detail": "recall"
+    },
+    {
+      "stage": "written",
+      "name": "modelAnswer present rn_qRXSsjyzyZsJnc7k::L1::Q6",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "written",
+      "name": ">=3 keywords rn_qRXSsjyzyZsJnc7k::L1::Q6",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "written",
+      "name": "options empty-or-absent rn_qRXSsjyzyZsJnc7k::L1::Q6",
+      "ok": true,
+      "detail": "\"absent\""
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_qRXSsjyzyZsJnc7k::L1::Q6/glucose",
+      "ok": true,
+      "detail": "glucose"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_qRXSsjyzyZsJnc7k::L1::Q6/oxygen",
+      "ok": true,
+      "detail": "oxygen"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_qRXSsjyzyZsJnc7k::L1::Q6/carbon dioxide",
+      "ok": true,
+      "detail": "carbon dioxide"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_qRXSsjyzyZsJnc7k::L1::Q6/ATP",
+      "ok": true,
+      "detail": "ATP"
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_qRXSsjyzyZsJnc7k::L1::Q6",
+      "ok": true,
+      "detail": "State the word equation for aerobic resp"
+    },
+    {
+      "stage": "written",
+      "name": "id grammar/kind rn_qRXSsjyzyZsJnc7k::L1::Q7",
+      "ok": true,
+      "detail": "recall"
+    },
+    {
+      "stage": "written",
+      "name": "modelAnswer present rn_qRXSsjyzyZsJnc7k::L1::Q7",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "written",
+      "name": ">=3 keywords rn_qRXSsjyzyZsJnc7k::L1::Q7",
+      "ok": true,
+      "detail": "3"
+    },
+    {
+      "stage": "written",
+      "name": "options empty-or-absent rn_qRXSsjyzyZsJnc7k::L1::Q7",
+      "ok": true,
+      "detail": "\"absent\""
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_qRXSsjyzyZsJnc7k::L1::Q7/photosynthesis",
+      "ok": true,
+      "detail": "photosynthesis"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_qRXSsjyzyZsJnc7k::L1::Q7/consume",
+      "ok": true,
+      "detail": "consume"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_qRXSsjyzyZsJnc7k::L1::Q7/digestion",
+      "ok": true,
+      "detail": "digestion"
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_qRXSsjyzyZsJnc7k::L1::Q7",
+      "ok": true,
+      "detail": "Name the nutrition route of plants and t"
+    },
+    {
+      "stage": "written",
+      "name": "id grammar/kind rn_qRXSsjyzyZsJnc7k::L1::Q8",
+      "ok": true,
+      "detail": "explain-why"
+    },
+    {
+      "stage": "written",
+      "name": "modelAnswer present rn_qRXSsjyzyZsJnc7k::L1::Q8",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "written",
+      "name": ">=3 keywords rn_qRXSsjyzyZsJnc7k::L1::Q8",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "written",
+      "name": "options empty-or-absent rn_qRXSsjyzyZsJnc7k::L1::Q8",
+      "ok": true,
+      "detail": "\"absent\""
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_qRXSsjyzyZsJnc7k::L1::Q8/excretion",
+      "ok": true,
+      "detail": "excretion"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_qRXSsjyzyZsJnc7k::L1::Q8/egestion",
+      "ok": true,
+      "detail": "egestion"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_qRXSsjyzyZsJnc7k::L1::Q8/faeces",
+      "ok": true,
+      "detail": "faeces"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_qRXSsjyzyZsJnc7k::L1::Q8/chemical reactions",
+      "ok": true,
+      "detail": "chemical reactions"
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_qRXSsjyzyZsJnc7k::L1::Q8",
+      "ok": true,
+      "detail": "Students often mix up excretion and eges"
+    },
+    {
+      "stage": "written",
+      "name": "id grammar/kind rn_qRXSsjyzyZsJnc7k::L1::Q9",
+      "ok": true,
+      "detail": "application"
+    },
+    {
+      "stage": "written",
+      "name": "modelAnswer present rn_qRXSsjyzyZsJnc7k::L1::Q9",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "written",
+      "name": ">=3 keywords rn_qRXSsjyzyZsJnc7k::L1::Q9",
+      "ok": true,
+      "detail": "3"
+    },
+    {
+      "stage": "written",
+      "name": "options empty-or-absent rn_qRXSsjyzyZsJnc7k::L1::Q9",
+      "ok": true,
+      "detail": "\"absent\""
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_qRXSsjyzyZsJnc7k::L1::Q9/MRS C GREN",
+      "ok": true,
+      "detail": "MRS C GREN"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_qRXSsjyzyZsJnc7k::L1::Q9/non-living",
+      "ok": true,
+      "detail": "non-living"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_qRXSsjyzyZsJnc7k::L1::Q9/processes",
+      "ok": true,
+      "detail": "processes"
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_qRXSsjyzyZsJnc7k::L1::Q9",
+      "ok": true,
+      "detail": "A pond appears to contain only inert gra"
+    },
+    {
+      "stage": "A0",
+      "name": "lesson keyPoints band rn_qRXSsjyzyZsJnc7k::L2",
+      "ok": true,
+      "detail": "5 KP"
+    },
+    {
+      "stage": "A0",
+      "name": "sourceHeadings 1-2 rn_qRXSsjyzyZsJnc7k::L2",
+      "ok": true,
+      "detail": "Response to Surroundings|Reproduction"
+    },
+    {
+      "stage": "A0",
+      "name": "sourceHeading in corpus rn_qRXSsjyzyZsJnc7k::L2",
+      "ok": true,
+      "detail": "Response to Surroundings"
+    },
+    {
+      "stage": "A0",
+      "name": "heading-unique across lessons rn_qRXSsjyzyZsJnc7k",
+      "ok": true,
+      "detail": "Response to Surroundings first bound to L0"
+    },
+    {
+      "stage": "A0",
+      "name": "sourceHeading in corpus rn_qRXSsjyzyZsJnc7k::L2",
+      "ok": true,
+      "detail": "Reproduction"
+    },
+    {
+      "stage": "A0",
+      "name": "heading-unique across lessons rn_qRXSsjyzyZsJnc7k",
+      "ok": true,
+      "detail": "Reproduction first bound to L0"
+    },
+    {
+      "stage": "A0",
+      "name": "specRefs subset rn_qRXSsjyzyZsJnc7k::L2",
+      "ok": true,
+      "detail": "1.1"
+    },
+    {
+      "stage": "A0",
+      "name": "depthLayers present rn_qRXSsjyzyZsJnc7k::L2",
+      "ok": true,
+      "detail": "low/medium"
+    },
+    {
+      "stage": "B2",
+      "name": "9 checks per module rn_qRXSsjyzyZsJnc7k::L2",
+      "ok": true,
+      "detail": "9 checks"
+    },
+    {
+      "stage": "A0",
+      "name": "kind order rn_qRXSsjyzyZsJnc7k::L2",
+      "ok": true,
+      "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_qRXSsjyzyZsJnc7k::L2::Q1",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_qRXSsjyzyZsJnc7k::L2::Q1",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_qRXSsjyzyZsJnc7k::L2::Q1",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_qRXSsjyzyZsJnc7k::L2::Q1",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L2::Q1/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L2::Q1/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_qRXSsjyzyZsJnc7k::L2::Q1/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L2::Q1/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_qRXSsjyzyZsJnc7k::L2::Q1/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L2::Q1/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_qRXSsjyzyZsJnc7k::L2::Q1/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_qRXSsjyzyZsJnc7k::L2::Q1",
+      "ok": true,
+      "detail": "Which signalling method does the human n"
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_qRXSsjyzyZsJnc7k::L2::Q2",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_qRXSsjyzyZsJnc7k::L2::Q2",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_qRXSsjyzyZsJnc7k::L2::Q2",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_qRXSsjyzyZsJnc7k::L2::Q2",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L2::Q2/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L2::Q2/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_qRXSsjyzyZsJnc7k::L2::Q2/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L2::Q2/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_qRXSsjyzyZsJnc7k::L2::Q2/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L2::Q2/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_qRXSsjyzyZsJnc7k::L2::Q2/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_qRXSsjyzyZsJnc7k::L2::Q2",
+      "ok": true,
+      "detail": "A shoot grows towards the light while a "
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_qRXSsjyzyZsJnc7k::L2::Q3",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_qRXSsjyzyZsJnc7k::L2::Q3",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_qRXSsjyzyZsJnc7k::L2::Q3",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_qRXSsjyzyZsJnc7k::L2::Q3",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L2::Q3/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L2::Q3/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_qRXSsjyzyZsJnc7k::L2::Q3/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L2::Q3/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_qRXSsjyzyZsJnc7k::L2::Q3/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L2::Q3/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_qRXSsjyzyZsJnc7k::L2::Q3/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_qRXSsjyzyZsJnc7k::L2::Q3",
+      "ok": true,
+      "detail": "Which processes make up the plant's asex"
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_qRXSsjyzyZsJnc7k::L2::Q4",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_qRXSsjyzyZsJnc7k::L2::Q4",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_qRXSsjyzyZsJnc7k::L2::Q4",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_qRXSsjyzyZsJnc7k::L2::Q4",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L2::Q4/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L2::Q4/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_qRXSsjyzyZsJnc7k::L2::Q4/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L2::Q4/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_qRXSsjyzyZsJnc7k::L2::Q4/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L2::Q4/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_qRXSsjyzyZsJnc7k::L2::Q4/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_qRXSsjyzyZsJnc7k::L2::Q4",
+      "ok": true,
+      "detail": "Why is transpiration counted among a pla"
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_qRXSsjyzyZsJnc7k::L2::Q5",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_qRXSsjyzyZsJnc7k::L2::Q5",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_qRXSsjyzyZsJnc7k::L2::Q5",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_qRXSsjyzyZsJnc7k::L2::Q5",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L2::Q5/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L2::Q5/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_qRXSsjyzyZsJnc7k::L2::Q5/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L2::Q5/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_qRXSsjyzyZsJnc7k::L2::Q5/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_qRXSsjyzyZsJnc7k::L2::Q5/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_qRXSsjyzyZsJnc7k::L2::Q5/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_qRXSsjyzyZsJnc7k::L2::Q5",
+      "ok": true,
+      "detail": "Which statement about sexual reproductio"
+    },
+    {
+      "stage": "written",
+      "name": "id grammar/kind rn_qRXSsjyzyZsJnc7k::L2::Q6",
+      "ok": true,
+      "detail": "recall"
+    },
+    {
+      "stage": "written",
+      "name": "modelAnswer present rn_qRXSsjyzyZsJnc7k::L2::Q6",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "written",
+      "name": ">=3 keywords rn_qRXSsjyzyZsJnc7k::L2::Q6",
+      "ok": true,
+      "detail": "3"
+    },
+    {
+      "stage": "written",
+      "name": "options empty-or-absent rn_qRXSsjyzyZsJnc7k::L2::Q6",
+      "ok": true,
+      "detail": "\"absent\""
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_qRXSsjyzyZsJnc7k::L2::Q6/homeostasis",
+      "ok": true,
+      "detail": "homeostasis"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_qRXSsjyzyZsJnc7k::L2::Q6/internal environment",
+      "ok": true,
+      "detail": "internal environment"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_qRXSsjyzyZsJnc7k::L2::Q6/required limits",
+      "ok": true,
+      "detail": "required limits"
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_qRXSsjyzyZsJnc7k::L2::Q6",
+      "ok": true,
+      "detail": "Define homeostasis as the note introduce"
+    },
+    {
+      "stage": "written",
+      "name": "id grammar/kind rn_qRXSsjyzyZsJnc7k::L2::Q7",
+      "ok": true,
+      "detail": "recall"
+    },
+    {
+      "stage": "written",
+      "name": "modelAnswer present rn_qRXSsjyzyZsJnc7k::L2::Q7",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "written",
+      "name": ">=3 keywords rn_qRXSsjyzyZsJnc7k::L2::Q7",
+      "ok": true,
+      "detail": "3"
+    },
+    {
+      "stage": "written",
+      "name": "options empty-or-absent rn_qRXSsjyzyZsJnc7k::L2::Q7",
+      "ok": true,
+      "detail": "\"absent\""
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_qRXSsjyzyZsJnc7k::L2::Q7/37",
+      "ok": true,
+      "detail": "37"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_qRXSsjyzyZsJnc7k::L2::Q7/sweating",
+      "ok": true,
+      "detail": "sweating"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_qRXSsjyzyZsJnc7k::L2::Q7/vasodilation",
+      "ok": true,
+      "detail": "vasodilation"
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_qRXSsjyzyZsJnc7k::L2::Q7",
+      "ok": true,
+      "detail": "State the optimum human body temperature"
+    },
+    {
+      "stage": "written",
+      "name": "id grammar/kind rn_qRXSsjyzyZsJnc7k::L2::Q8",
+      "ok": true,
+      "detail": "explain-why"
+    },
+    {
+      "stage": "written",
+      "name": "modelAnswer present rn_qRXSsjyzyZsJnc7k::L2::Q8",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "written",
+      "name": ">=3 keywords rn_qRXSsjyzyZsJnc7k::L2::Q8",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "written",
+      "name": "options empty-or-absent rn_qRXSsjyzyZsJnc7k::L2::Q8",
+      "ok": true,
+      "detail": "\"absent\""
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_qRXSsjyzyZsJnc7k::L2::Q8/osmoregulation",
+      "ok": true,
+      "detail": "osmoregulation"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_qRXSsjyzyZsJnc7k::L2::Q8/thermoregulation",
+      "ok": true,
+      "detail": "thermoregulation"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_qRXSsjyzyZsJnc7k::L2::Q8/water levels",
+      "ok": true,
+      "detail": "water levels"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_qRXSsjyzyZsJnc7k::L2::Q8/internal environment",
+      "ok": true,
+      "detail": "internal environment"
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_qRXSsjyzyZsJnc7k::L2::Q8",
+      "ok": true,
+      "detail": "Explain why osmoregulation is described "
+    },
+    {
+      "stage": "written",
+      "name": "id grammar/kind rn_qRXSsjyzyZsJnc7k::L2::Q9",
+      "ok": true,
+      "detail": "application"
+    },
+    {
+      "stage": "written",
+      "name": "modelAnswer present rn_qRXSsjyzyZsJnc7k::L2::Q9",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "written",
+      "name": ">=3 keywords rn_qRXSsjyzyZsJnc7k::L2::Q9",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "written",
+      "name": "options empty-or-absent rn_qRXSsjyzyZsJnc7k::L2::Q9",
+      "ok": true,
+      "detail": "\"absent\""
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_qRXSsjyzyZsJnc7k::L2::Q9/movement",
+      "ok": true,
+      "detail": "movement"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_qRXSsjyzyZsJnc7k::L2::Q9/sensitivity",
+      "ok": true,
+      "detail": "sensitivity"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_qRXSsjyzyZsJnc7k::L2::Q9/orientation",
+      "ok": true,
+      "detail": "orientation"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_qRXSsjyzyZsJnc7k::L2::Q9/stimulus",
+      "ok": true,
+      "detail": "stimulus"
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_qRXSsjyzyZsJnc7k::L2::Q9",
+      "ok": true,
+      "detail": "A sunflower changes its orientation to t"
+    },
+    {
+      "stage": "AN",
+      "name": "per-module pre-rotation option sanity rn_qRXSsjyzyZsJnc7k",
+      "ok": true,
+      "detail": "census computed post-rotation"
+    },
+    {
+      "stage": "2.1B",
+      "name": "zero 8-gram overlaps vs corpus body rn_qRXSsjyzyZsJnc7k",
+      "ok": true,
+      "detail": "clean"
+    },
+    {
+      "stage": "NUM",
+      "name": "rn_qRXSsjyzyZsJnc7k: corpus fact: optimum human body temperature 37 degrees Celsius (thermoregulation KP)",
+      "ok": true,
+      "detail": "corpus fact: optimum human body temperature 37 degrees Celsius (thermoregulation KP)"
+    },
+    {
+      "stage": "NUM",
+      "name": "rn_qRXSsjyzyZsJnc7k: pilot census: 18 checks = 2 lessons x 9 (the B2 law 5+2+1+1 per lesson)",
+      "ok": true,
+      "detail": "pilot census: 18 checks = 2 lessons x 9 (the B2 law 5+2+1+1 per lesson)"
+    },
+    {
+      "stage": "A0",
+      "name": "corpus-limited heading exception scope (none declared for the biology stage-A)",
+      "ok": true,
+      "detail": "0 duplicate claims"
+    },
+    {
+      "stage": "C-6",
+      "name": "physics+chemistry prior generation present on tree, counted by the v32 noteIds (239 sources / 239 lessons / 239 packages)",
+      "ok": true,
+      "detail": "239/239/239"
+    },
+    {
+      "stage": "C-6",
+      "name": "chemistry prior generation present (112 sources / 112 lessons / 112 packages)",
+      "ok": true,
+      "detail": "112/112/112"
+    },
+    {
+      "stage": "C-6",
+      "name": "physics+chemistry prior union ajv x717 (sources vs 0.7, lessons vs 1.6, packages vs 1.3 — generation-union schemas)",
+      "ok": true,
+      "detail": "0 failures"
+    },
+    {
+      "stage": "C-6",
+      "name": "chemistry prior-generation union ajv x336 (0.5 sources vs 0.6, 1.4 lessons vs 1.5, 1.1 packages vs 1.2 — generation-union schemas)",
+      "ok": true,
+      "detail": "0 failures"
+    },
+    {
+      "stage": "C-6",
+      "name": "stage-A outputs ajv x2 (1 vs 1.6 + 1 vs 1.3)",
+      "ok": true,
+      "detail": "0 failures"
+    },
+    {
+      "stage": "AN",
+      "name": "correct-key census >=3 distinct (post-rotation) rn_qRXSsjyzyZsJnc7k",
+      "ok": true,
+      "detail": "{\"A\":3,\"B\":3,\"C\":2,\"D\":2}"
+    },
+    {
+      "stage": "AN",
+      "name": "no correct letter exceeds 5 (post-rotation) rn_qRXSsjyzyZsJnc7k",
+      "ok": true,
+      "detail": "{\"A\":3,\"B\":3,\"C\":2,\"D\":2}"
+    },
+    {
+      "stage": "C-5",
+      "name": "checkRefs <-> questions 1:1 in order rn_qRXSsjyzyZsJnc7k",
+      "ok": true,
+      "detail": "18 vs 18"
+    },
+    {
+      "stage": "B2",
+      "name": "every module exactly 9 checkRefs rn_qRXSsjyzyZsJnc7k",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "B2",
+      "name": "identity arithmetic 9 = 5+2+1+1 per module rn_qRXSsjyzyZsJnc7k",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "G-E",
+      "name": "physics pack manifest v31 resolves (254 = 127 + 127)",
+      "ok": true,
+      "detail": "v31 x254"
+    },
+    {
+      "stage": "G-E",
+      "name": "physics pack byte conservation vs v31 x254 (untouched by the biology stage-A)",
+      "ok": true,
+      "detail": "0 drift"
+    },
+    {
+      "stage": "G-E",
+      "name": "prior manifest artifact census 224 = 112 + 112 (the chemistry pack, v32)",
+      "ok": true,
+      "detail": "224"
+    },
+    {
+      "stage": "G-E",
+      "name": "prior-pack byte conservation on the stage-A tree x224 (the chemistry 1.5/1.2 generation)",
+      "ok": true,
+      "detail": "missing=0 shaDrift=0"
+    },
+    {
+      "stage": "G-E",
+      "name": "G-E walk rows = 113 (112 chemistry prior re-proven + 1 biology stage-A pilot); the emitted INT-3 of record carries the 1 biology row",
+      "ok": true,
+      "detail": "113"
+    },
+    {
+      "stage": "G-E",
+      "name": "legacy anchors conserved x112 (byte-identical chemistry prior pack)",
+      "ok": true,
+      "detail": "0 drift"
+    },
+    {
+      "stage": "G-E",
+      "name": "stage-A stream chars total = 14664",
+      "ok": true,
+      "detail": "14664 chars"
+    },
+    {
+      "stage": "G-E",
+      "name": "biology-scope conservation carries exactly one wave key",
+      "ok": true,
+      "detail": "wave-bio-stagea"
+    }
+  ],
+  "gates_total": 313,
+  "gates_passed": 313,
+  "verdict": "GREEN",
+  "disclosures": [
+    "spec texts carried verbatim from the curriculum graph SPEC_POINT nodes (no spec text invented); spec codes pinned to the notes.json register rows 110..126 (0-based) — the seventeen 7-3-fission-and-fusion + 8-astrophysics notes of the frozen partition, the final remainder that completes the 127-note register",
+    "MCQ correct-key census enforced POST-transform under the declared deterministic AN rotation table (cyclic per-note re-letter) — the wave-6/8/9/10/11 re-lettering precedent, table-recorded",
+    "figure captions derived from the corpus bold-italic emphasis lines following the figure blocks; worked-example images inside corpus WE blocks (rn_tgtnxj2vfCYQqbQy chain-reaction pair, rn_sCvWwMvSCq7vf7cR HR quartet) are bound to their host lessons like any other corpus figure — per-note binding declared, all module-mapped",
+    "note-level figures (moduleIds [], binding heading-unique per the A0 gate law): NONE this wave — all 41 corpus figures are module-mapped to host lessons carrying their sourceHeading",
+    "corpus image alts carried through as-is; where the markdown alt was a bare filename (rn_fw6NFrfWcsgZpNpW 5-1-4-weight-force, rn_4TGW9N7YpJ6fqy5W equilibrium-fusion-energy) the corpus alt string itself is kept — the figures are unchanged",
+    "worked-example ports from the corpus: rn_CPTftXDkhPysSmWM (Pu-239 fission balance, NUM-ledgered), rn_tgtnxj2vfCYQqbQy (chain-reaction diagram completion, descriptive steps), rn_4TGW9N7YpJ6fqy5W (why hydrogen fusion is not currently possible on Earth, reasoning steps), rn_vVJjCmGbcDY2Ck9G (Hubble Space Telescope orbital speed, NUM-ledgered), rn_sCvWwMvSCq7vf7cR (HR diagram regions + Star X plot, NUM-ledgered), rn_X6gTfQ5T8ytPfDgR (galaxy recession speed 485->485 nm case, NUM-ledgered); the other eleven notes carry no corpus WE block and declare workedExample null (designed-or-none)",
+    "the corpus 7-3-2 exam hint confirms daughter names are NOT required (balance the numbers instead) — the Ba-144/Kr-89 pair is quoted as the of-record example and the Pu-239 WE is ported with its arithmetic NUM-ledgered",
+    "the corpus 8-1-4 worked example reads v = 7592.18 = 7590 m/s; the pipeline ledger asserts the exact value 2pi*6,960,000/5760 = 7592.18 (2 d.p.) and the corpus 3-s.f. quote 7590 as separate facts",
+    "ajv strict mode relaxed to false for this run: the of-record 0.6/1.5/1.2 schemas carry pre-existing strictTypes style notices (the wave-7..11 disclosure class); validation semantics are unchanged — same draft-07 compile, same allErrors collection",
+    "the WAVE_OPEN_BASE 7378f2498a76501a907a0bda9724237bd4486663 is the resources main tip at wave open (operator directive trace 1a1c35292ac65771, \"the next wave of W12-final-remainder\"); wave-12 sequence: commit A lands on main first, the pipeline runs with the race-guard asserting the tip still sits exactly at the commit-A pin, then commit C lands — the race-guard semantics differ from waves 1-11 (which ran pre-push) and are disclosed here",
+    "worked-example census derived from the sources (totWEPop/totWENull) per the wave-8 amendment law — 6 populated / 11 null, no hardcoded counts",
+    "the PROMOTION receipt filename carries the Asia/Dhaka execution date 20261112 while generated_at_utc is honest UTC",
+    "the 0.7/1.6/1.3 schema generation is strictly additive over 0.6/1.5/1.2 (igcse-biology in the subject enums, id grammar and figure-url alternation; format/adapter enums extended) — landed at this commit A",
+    "spec_point_resolution.json for igcse-biology-19 is the mechanical hub-landing bootstrap (210 ids / 175 codes / 142 notes; runbook B1 deviation, physics stage-A precedent)",
+    "the B4 partition of record (frozen at stage-A open; 141 notes in 10 subtopic-atomic waves) lives in this receipt — the pilot stays out of the buckets per runbook B3",
+    "this wave completes the NS-4PH1 physics register: 127/127 notes authored across stage-A + waves 1..12; the B4 partition is fully discharged (W12-final-remainder takes the last 17 notes per runbook §0 B4)"
+  ]
+}

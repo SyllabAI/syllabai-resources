@@ -1,0 +1,72 @@
+{
+  "format": "hub-import-manifest/1.0",
+  "manifest_version": 33,
+  "course_id": "igcse-biology-19",
+  "b6_manifest_continuity": {
+    "decision": "continue-global",
+    "selected": "biology stage-A = manifest v33 (the programme-level v-series continues across subjects: chemistry v1..v17 + v32, physics v18..v31, now v33 — the first biology tranche, on the 0.7/1.6/1.3 generation minted for this subject)",
+    "rejected": "per-course series (biology v1 restart) — would fork the programme-level integration ledger and break the single load-scope lineage of record",
+    "recorded_by": "runbook B6 (the B6 decision of record is continue-global; the physics stage-A, chemistry stage-B and wave-12 receipts re-record it); this receipt records it for the biology stage-A"
+  },
+  "generated_at_utc": "2026-11-11T20:19:21Z",
+  "operator_trace": "1a1cbe5f60023dd5",
+  "supersedes": "hub-import-manifest-v32.json in the GLOBAL v-series (the chemistry stage-B tranche: 224 chemistry artifacts @ corrective commit C2 e5bac0bd) — this v33 manifest carries the biology pack of record only (2 artifacts: the pilot note at the 0.7/1.6/1.3 generation); the physics v31 pack (254) and chemistry v32 pack (224) are untouched on disk and conserved by the pipeline's dedicated G-E gates, zero mutation anywhere",
+  "checks_layer": {
+    "wave": "BIOLOGY-4BI1 stage-A (the new-subject pilot: 1 note end-to-end per runbook B3, ahead of the stage-B register waves)",
+    "derivation": "18 authored pilot checks (10 MCQ + 4 recall + 2 explain-why + 2 application — the B2 law: 9 checks per lesson = 5 MCQ + 2 recall + 1 explain-why + 1 application), graded by the runner's keyword law",
+    "declared_revision": "the FIRST biology tranche on the newly minted 0.7/1.6/1.3 generation (strictly additive over 0.6/1.5/1.2: igcse-biology in the subject enums, id grammar and figure-url alternation); the pilot stays out of the wave buckets (B3); physics + chemistry pack bytes untouched",
+    "grading_law": "case-insensitive whole-token match of the learner text against the keyword set (stem-tolerant), fail-closed on written items without modelAnswer",
+    "fail_closed": "written item without modelAnswer renders reveal-only, never gradeable; the runner refuses any feed whose manifest fails G-A..G-E"
+  },
+  "source_generation": {
+    "format": "guided-lesson/0.7",
+    "namespace": "SME-GuidedLessons/integration/source-0.7/",
+    "pin": "7378f2498a76501a907a0bda9724237bd4486663",
+    "prior_generation_pins": "{'physics pack': 'v18..v31 commit-A pins (v31 manifest)', 'chemistry pack': 'v32 chemistry stage-B @ commit A 0ef5c2cc'} — the biology pilot is authored fresh against the corpus of record at the 0.7 generation",
+    "int0_lineage": "(new subject — no INT-0 ancestry; the biology 0.7 sources are authored directly against the corpus of record)"
+  },
+  "load_scope": {
+    "adapter": "guided-lesson-0.7--hub-lesson-import-1.6",
+    "target_schemas": [
+      "hub/lesson-import/1.6",
+      "sme-question-package/1.3"
+    ]
+  },
+  "counts": {
+    "notes": 1,
+    "lessons": 2,
+    "checks": 18,
+    "keyPoints": 10,
+    "distractors": 30,
+    "glossaryTerms": 4,
+    "figures": 11,
+    "figures_module_mapped": 7,
+    "figures_note_level": 4,
+    "workedExamples_populated": 0,
+    "workedExamples_null": 1,
+    "authored_chars_conserved": 14664
+  },
+  "conservation": {
+    "authored_stream_sha256": "3e7cb027b176b803da6e0e9f5553cb5ad660ddc6dc515225e949ee4f56598306",
+    "authored_chars": "14664",
+    "wave_stream_sha256": {
+      "wave-bio-stagea": "3e7cb027b176b803da6e0e9f5553cb5ad660ddc6dc515225e949ee4f56598306"
+    }
+  },
+  "artifacts": [
+    {
+      "kind": "hub-lesson-import-1.5",
+      "noteId": "rn_qRXSsjyzyZsJnc7k",
+      "path": "SME-GuidedLessons/integration/hub-import-1.5/rn_qRXSsjyzyZsJnc7k.hub-lesson-import.json",
+      "sha256": "fc3b6a518c93baa278a37ab1a974d73b715639ecd34faed2783d4a836a8592c3",
+      "bytes": 15178
+    },
+    {
+      "kind": "sme-question-package",
+      "noteId": "rn_qRXSsjyzyZsJnc7k",
+      "path": "SME-GuidedLessons/integration/question-packages-1.2/rn_qRXSsjyzyZsJnc7k.sme-question-package.json",
+      "sha256": "566aa604d7862ad405ae043eff3efe1cada1531d0c3a25311bdf64ecb4cf3bef",
+      "bytes": 20024
+    }
+  ]
+}
