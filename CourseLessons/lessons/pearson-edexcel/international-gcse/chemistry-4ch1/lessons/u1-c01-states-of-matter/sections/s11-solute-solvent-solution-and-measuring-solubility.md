@@ -48,6 +48,10 @@ five times as much dissolves in 100 g — the solubility of potassium
 nitrate at 40 °C is **61.4 g per 100 g of water**. In general:
 **solubility (g per 100 g) = (mass of solute ÷ mass of solvent) × 100**.
 
+:::plain-words
+Dissolving has three words and they always come as a set: the **[[solute]]** (the solid), goes into the **[[solvent]]** (the liquid), and you get a **[[solution]]**. A solution is **[[saturated-solution]]** when it is holding all it can at that temperature — the undissolved solid sitting at the bottom is the proof. Warm it up and the "full up" mark moves: hot water usually dissolves more.
+:::
+
 :::key-point
 A saturated solution contains the maximum mass of dissolved solid at that
 temperature, with undissolved solid present. Solubility is always quoted
@@ -72,7 +76,10 @@ always be quoted alongside the value.
 would lose solid and give a solubility reading **lower** than the true
 value. "Why heat to constant mass?" — to confirm all the water has
 evaporated. Mark schemes accept "mass no longer changes / all water
-removed".
+removed". Real mark scheme of record (4CH1/1C JUN 2022 Q2(a)(iii)): crystallisation
+method marks include "ALLOW until the solution is saturated" —
+"saturated" is the examiner's own word for "full up at this
+temperature", so use it in explanations.
 :::
 
 :::safety

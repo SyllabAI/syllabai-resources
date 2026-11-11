@@ -1,0 +1,44 @@
+stage: S4
+date: "2026-11-12"
+agent: "CourseLessons lane (zai-web session web-d40d45c9-ca42-4b9a-9427-b2c180cb268b, chat 8f9333f0-e4f6-476c-8e21-2eac0b18ad39, trace 1a1cbd250a45f30d)"
+prompt_version: "lesson-prose@2.0.0 + lesson-plain-words@1.0.0 (new registry entry, this lane)"
+lane: "c01 thin-layer retrofit r0 — plain-words box x13 + verbatim-true MS vocab (operator order 'Originate the thin layers. also update the self-improving docs', zai-web; operator structured answers: c01 pilot / PR lane / curated per-chapter MS sets / plain-words box; standing merge+flip authorization trace 1a1658a2da08e5bd cited per T-BOOK-064 r3 / T-BOOK-066 precedent)"
+trace_id: "1a1cbd250a45f30d"
+summary: >-
+  Thin-layer retrofit of c01: (a) a plain-words box (new authored box type,
+  operator-accepted via feature-gap finding f-0040) authored into EVERY section
+  s01-s13 — 2-5 sentences, student register, chemistry-true, placed directly
+  under the section prose; (b) four exam-hint boxes (s09/s10/s11/s13) enriched
+  with VERBATIM-TRUE mark-scheme lines + paper/question refs of record, fetched
+  first-hand this lane from the syllabai-pastpapers corpus of record
+  (ms.pdf -> pdftotext): 4CH1/1C JUN 2021 Q3(a)(i) (diffusion, 1-mark answer);
+  4CH1/1C JUN 2019 Q1(b)(i) (observation vs mechanism); 4CH1/1C JUN 2022
+  Q2(a)(iii) (ALLOW until the solution is saturated); 4CH1/2C JUN 2021 Q4
+  (a)(i)-(d) (plot/read-off/extrapolate/scale mark lines + ECF). Zero prose
+  bytes changed elsewhere; substance-unchanged law held. Findings f-0040 +
+  f-0041 filed; FEATURE-SPEC §2 row 16 + row 11 amendment + DoD bullet added;
+  prompts/lesson-plain-words@1.0.0.md registered. Platform follow-up proposed
+  (open, not blocking): hub BOX_STYLES entry for plain-words (renderer
+  currently renders it with the generic chrome fallback — first-hand read of
+  lesson-view.tsx Box()).
+artifact_plane: >-
+  qa/lessonPackV1.json re-emitted (42095B -> 49038B at emit, +6943B thin
+  layers; 13/13 sections carry plain-words) then law-7 flip single-field
+  byte-precise (49038 -> 49042, +4 exactly-1 held). Lint of record: 0 errors,
+  0 warnings (first-try after one chip-form repair: pipe-form chip
+  [[saturated-solution|saturated]] -> plain form per corpus lint grammar).
+  Tracker tx receipt-anchored; tracker_check.py exit 0 at close.
+kept_disclosed:
+  - 'the in-lane law-7 flip to published follows the standing merge+flip
+    authorization (trace 1a1658a2da08e5bd) cited by T-BOOK-064 r3 and
+    T-BOOK-066 on this same pack; the PR is review-gated (no self-merge) and
+    the R0 desk can revert with one command'
+  - 'plain-words renders on the hub TODAY via the generic box chrome
+    (BOX_STYLES fallback) — the styled chrome + any allowlist row are a
+    platform-side lane, proposed not built here'
+  - 'MS lines are verbatim-true QUOTES with refs; no mark scheme is
+    paraphrased without the qa-note escape (none needed — all four fetched)'
+  - 'a suspected broken-chip defect ([[m]-eaten class) was investigated and
+    RETRACTED pre-filing: in-sandbox byte reads show all chips well-formed;
+    the sighting was a transport artifact of the authoring session, not
+    source content — no false finding filed'

@@ -31,11 +31,12 @@ plus additive boxes, plus interactivity:
 | 8 | **Glossary chips** inline — hover card: definition + `ms_accepts`/`ms_avoids` + "hear it" [P2+ TTS] | `glossary.yaml` per lesson |
 | 9 | **Figures page-true** — bbox-anchored to the PDF of record | figure sidecar at ingest |
 | 10 | **Interactive blocks** interleaved by page: MCQ, sort-match, table-fill, eq-builder, drag-label, num-stepper, sim-embed (PhET) | VALIDATED blocks (`book_blocks`) — reused, not rewritten |
-| 11 | **Worked example** — stepwise, with the mark-scheme mark lines shown as an examiner would award them | `num-stepper` blocks + MS corpus |
+| 11 | **Worked example** — stepwise, with the mark-scheme mark lines shown as an examiner would award them (amended f-0041: carries ≥1 **verbatim-true** MS line with paper/question ref, or `qa-note: ms-verify`) | `num-stepper` blocks + MS corpus |
 | 12 | **Quick check** — 2–5 bank questions filtered by the section's specRefs | question bank (derived) |
 | 13 | **Section summary** — "In one page" recall card | authored ≤120 words |
 | 14 | **"Can you…?"** self-assessment checklist — each item keyed to a spec point | authored |
 | 15 | **Page anchor** — "see p.42 in the student book" → PDF slice drill-in | bookPage |
+| 16 | **`:::plain-words`** — plain-language restatement of the section prose (student register, 2–5 sentences, chemistry-true, additive; sits FIRST after the prose; chips plain-form only). Pilot: c01 all sections (f-0040; prompts/lesson-plain-words@1.0.0) | authored (allowed block: `plain-words`) |
 
 ## 3. Lesson-closing layer
 
@@ -71,6 +72,7 @@ plus additive boxes, plus interactivity:
 - [ ] Glossary: every technical term at first use is a chip; entries carry `ms_accepts`/`ms_avoids`.
 - [ ] specRefs subset law + page-anchor monotonicity hold.
 - [ ] Lint clean (`scripts/lessonctl.py lint`), receipt written, tracker updated.
+- [ ] `:::plain-words` present in every section (pilot scope: c01; fleet rollout is the operator's per-chapter call).
 - [ ] Honest-absent audit: any missing mapping omitted, not faked.
 
 ## 6. Feature additions — how to propose

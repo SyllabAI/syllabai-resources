@@ -43,6 +43,10 @@ Why the inverted commas around 'particle'? Potassium manganate(VII) is an
 **ionic compound**, so it contains more than one sort of particle — you
 will find out what that means in Chapter 7.
 
+:::plain-words
+Do the same experiment in a liquid and everything slows down: particles in a liquid move slower and are packed tighter, so a purple crystal can take days to colour a still jar of water. The dilution estimate then does something remarkable — it proves the colouring particles are so unbelievably tiny that even one drop of a 1-in-a-million dilution still carries millions of them.
+:::
+
 :::key-point
 Diffusion in a still liquid is slow because liquid particles move slowly
 and are close together. The visibility of a dilute colour proves that a
@@ -74,7 +78,11 @@ colour at all.
 "Suggest what this experiment tells us about the size of particles" (2
 marks): the particles must be **extremely small** — a very large number of
 them fit into a tiny mass. Mark schemes accept "particles are very small";
-avoid "particles are invisible" (no evidence) or "particles disappear".
+avoid "particles are invisible" (no evidence) or "particles disappear". Real mark scheme of record (4CH1/1C JUN 2019 Q1(b)(i)): the mark wanted
+the observation "all of the liquid is purple"; options describing the
+mechanism ("particles will have diffused throughout the whole of the
+liquid") scored nothing. Answer the question asked, not the one you
+know most about.
 :::
 
 :::cross-curricular

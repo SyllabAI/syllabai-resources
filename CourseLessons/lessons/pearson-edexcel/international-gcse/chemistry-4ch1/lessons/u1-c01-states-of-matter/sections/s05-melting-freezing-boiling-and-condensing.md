@@ -37,6 +37,10 @@ Evaporation occurs at **any** temperature; boiling occurs only at the
 temperatures well below 5 °C — the water certainly is not boiling; it is
 evaporating. Water evaporates at, say, 5 °C but boils only at 100 °C.
 
+:::plain-words
+Melting is a contest between heat energy and the forces holding particles in place. Heat a solid and its particles vibrate harder and harder, until the vibrations win and the particles break out of their fixed spots — the spaces between particles grow, never the particles themselves. Freeze the liquid again and the particles slow down until the forces catch them back into place. Same temperature, two names: melting point **is** freezing point.
+:::
+
 :::key-point
 Melting point = freezing point (same temperature, different direction).
 Boiling happens only at the boiling point; evaporation happens at any

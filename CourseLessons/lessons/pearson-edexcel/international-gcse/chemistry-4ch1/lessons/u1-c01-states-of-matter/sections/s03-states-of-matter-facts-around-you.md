@@ -30,6 +30,10 @@ particles, which is why most liquids are slightly less dense than their
 solids; when a liquid boils, the particles separate hugely, which is why
 5 cm³ of water makes a bucketful of steam.
 
+:::plain-words
+Three everyday experiences, one explanation. A brick wall stops you because its particles are locked in place by strong attractions. Water lets you wade through because its particles can be pushed aside. Air barely notices you because its particles are far apart with almost nothing holding them together. And the steam fact — five spoonfuls of water filling a bucket — is just particles spreading far, far apart.
+:::
+
 :::key-point
 - You can't walk through a brick wall because of the strong forces of
   attraction between the particles — they can't move out of your way.
