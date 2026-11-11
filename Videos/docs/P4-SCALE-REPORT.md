@@ -98,3 +98,12 @@ No enumerated channel (Cognito, Freesciencelessons, Doodle, Amoeba Sisters, Malm
 ## 5. Exit gate
 
 Every one of the 106 spine-backed courses is now **classified, and either shipped (53), inheriting (35), cross-served (4), or honestly empty with the reason recorded (53)** — no course is silently absent, and no row exists anywhere on weaker than title-only evidence. Gate met.
+
+## 6. Post-pass correction (2026-11-12) — the spec-code mirror drift
+
+Found during the P2F render pass (hub PR #934's prerender verification): **igcse-chemistry-19's 87 lesson rows joined 0 spec points** — the P4 emit validated row specs against `apps/hub/spines/igcse-chemistry-19.json` (seed-era bare register, `1.1`), while the render joins `apps/hub/content/igcse-chemistry-19/curriculum.json` (canonical `4CH1-1.1` re-issue from the subject-identity lanes). The 119/182 badge was true of the file and false of the page: every lesson row had been invisible since the P4 pass. Census: exactly 2 of 106 mirrors drifted (igcse-chemistry-19, igcse-geography-19 — the latter has no video rows yet; both repaired to the content plane of record, positional within family with title equality asserted).
+
+Fixes, representation-only (no review ruling changes):
+- **Drafts re-keyed** onto the canonical register: igcse-chemistry-19 external draft (87 rows, 119 codes) + verdicts (8 rejects); `_p4/inheritance-map.json` parentSpec entries for the 5 chemistry-children lanes (the re-emit exposed this: bare parentSpecs silently dropped 38-row chem-u1 to 0).
+- **Emitter hardening**: `assertSpineMirror` gate at all three spine-load sites (main loop, P4 inherit, P2F) — a spines/ vs content/ SPEC_POINT drift is now a build-time break, not a silent render void.
+- **Hub re-ship**: 2 mirror spines + igcse-chemistry-19 video-map (specs now join 119/119) + registry; per-course row/spec counts verified byte-equal to the pre-fix values on all 6 chemistry-lineage courses. Hub PR: `hub/spec-code-mirror`; resources PR: `videos/spec-code-mirror`.
