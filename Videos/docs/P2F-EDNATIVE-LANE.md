@@ -48,3 +48,12 @@ Sample titles (evidence for paper-code binding):
 ## 5. Exit gate
 
 Every thin IAL science course gains either paper-walkthrough course rows, topic-level rows, or a recorded honest reason; no row anywhere sits below its evidence-ladder level; coverage numerators remain lesson-level-only.
+
+## 6. Execution record (2026-11-12) — GATE MET
+
+- **Drafts**: 4 × `video-map.draft.external-p2f.json` — **90 rows**: 73 course-anchor (`method: "paper-code"`, confidence high, `boardMismatch: false`) + 17 topic-anchor (6 medium tier-1 / 11 low tier-2, idf containment; board/wording mismatch disclosed per row). Videos **90/90 oEmbed-verified** with author-vs-provider cross-check. Delegated self-review: **0 rejects**, verdicts per course; review record `drafts/review-file-external-p2f.md`.
+- Per course: ial-biology-18 **16** (course only) · ial-chemistry-17 **34** (17 course + 17 topic) · ial-physics-19 **32** (course only) · igcse-chemistry-19 **8** (course only — the owner's 4CH1 ask).
+- Honest notes: 4BI1×10 / 4PH1×4 pool rows skipped (non-target courses, available later); bio/physics topic lanes honestly empty at the containment bar (channels title by unit/paper, subject names stopworded); 4 borderline low rows kept with disclosed partial overlap, listed in the review file.
+- **Builder v2**: P2F section after the P4 inherit loop; anchor validation against spine node families; method set `{llm-draft-external, paper-code}`; `boardMismatch` boolean (not forced true — same-board rows legitimate); full re-run idempotent (byte-identical modulo `generatedUtc`).
+- **Emitted** (hub branch `hub/p2f-ednative`): 4 files appended (+16/+34/+32/+8 rows), registry lanes `…+ ednative-p2f`, flags unchanged (53 courses, live). Coverage numerators unchanged by design: ial-biology-18 5/170 · ial-chemistry-17 6/319 · ial-physics-19 6/171 (spec, lesson/inherited-level) · igcse-chemistry-19 119/182 + 8 course-anchor rows.
+- PRs: resources `videos/p2f-ednative-exec`; hub data `hub/p2f-ednative` (filed alongside). Hub UI shelf (lib zod `anchor`/`kind` passthrough + past-papers section) = follow-up.
