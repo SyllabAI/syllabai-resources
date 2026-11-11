@@ -102,8 +102,8 @@ try { mainTipLive = execSync((process.env.RESOURCES_REMOTE_URL || 'git ls-remote
 // corrective-sequence semantics: the first commit C (bd28c978) carried a programme-scope manifest
 // caught at the hub-chain review; this corrective run re-emits the chemistry-scope manifest on top
 // of it — the sources remain pinned to commit A (HEAD == PIN) while main sits at the corrective base
-const CORRECTIVE_BASE = 'bd28c97824df54a3949a80d52218d978734d195c';
-check('P0', 'resources main tip sits at the commit-A pin (first landing) or the corrective base bd28c978 (corrective re-landing)', mainTipLive === PIN || mainTipLive === CORRECTIVE_BASE, 'tip=' + mainTipLive.slice(0, 12));
+const CORRECTIVE_BASE = '6dd46755ce41b4249a61e7d299cef094f23073d1';
+check('P0', 'resources main tip sits at the commit-A pin (first landing) or the stage-A corrective base 6dd46755 (the manifest re-landing)', mainTipLive === PIN || mainTipLive === CORRECTIVE_BASE, 'tip=' + mainTipLive.slice(0, 12));
 
 // ── helpers ──────────────────────────────────────────────────────────────────
 const STOP = new Set(('a an the of to in on for and or is are be by with as at from that this it its into than then so such ' +
@@ -556,8 +556,8 @@ for (const [w, h] of Object.entries(waveHashes)) waveOut[w] = h.digest('hex');
 check('G-E', 'biology-scope conservation carries exactly one wave key', Object.keys(waveOut).join(',') === 'wave-bio-stagea', Object.keys(waveOut).join(','));
 const newArtifacts = [];
 for (const id of NOTES_W12) {
-  newArtifacts.push({ kind: 'hub-lesson-import-1.5', noteId: id, path: 'SME-GuidedLessons/integration/hub-import-1.5/' + id + '.hub-lesson-import.json', sha256: sha256(outBufs[id].hub), bytes: outBufs[id].hub.length });
-  newArtifacts.push({ kind: 'sme-question-package', noteId: id, path: 'SME-GuidedLessons/integration/question-packages-1.2/' + id + '.sme-question-package.json', sha256: sha256(outBufs[id].pkg), bytes: outBufs[id].pkg.length });
+  newArtifacts.push({ kind: 'hub-lesson-import-1.6', noteId: id, path: 'SME-GuidedLessons/integration/hub-import-1.6/' + id + '.hub-lesson-import.json', sha256: sha256(outBufs[id].hub), bytes: outBufs[id].hub.length });
+  newArtifacts.push({ kind: 'sme-question-package', noteId: id, path: 'SME-GuidedLessons/integration/question-packages-1.3/' + id + '.sme-question-package.json', sha256: sha256(outBufs[id].pkg), bytes: outBufs[id].pkg.length });
 }
 const idChecks = NOTES_W12.reduce((t, i) => t + streamChars[i].checks, 0);
 const idLessons = NOTES_W12.reduce((t, i) => t + streamChars[i].lessons, 0);
@@ -921,6 +921,7 @@ const receipt = {
     'the 0.7/1.6/1.3 schema generation is strictly additive over 0.6/1.5/1.2 (igcse-biology in the subject enums, id grammar and figure-url alternation; format/adapter enums extended) — landed at this commit A',
     'spec_point_resolution.json for igcse-biology-19 is the mechanical hub-landing bootstrap (210 ids / 175 codes / 142 notes; runbook B1 deviation, physics stage-A precedent)',
     'the B4 partition of record (frozen at stage-A open; 141 notes in 10 subtopic-atomic waves) lives in this receipt — the pilot stays out of the buckets per runbook B3',
+    'the first commit C (6dd46755) carried manifest v33 with the artifact kinds/paths still at the 1.5/1.2 generation labels while the outputs sat in hub-import-1.6/ + question-packages-1.3/ — caught at the hub-chain G-A/G-B review (404 on the 1.5 paths) BEFORE any hub landing; this corrective run re-emits the manifest/INT-3/receipt with the 1.6/1.3 labels (the 2 output artifacts byte-identical, deterministic re-derivation at the same commit-A pin); force-back is rule-blocked so the corrective rides on top',
     'this wave completes the NS-4PH1 physics register: 127/127 notes authored across stage-A + waves 1..12; the B4 partition is fully discharged (W12-final-remainder takes the last 17 notes per runbook §0 B4)',
   ],
 };
