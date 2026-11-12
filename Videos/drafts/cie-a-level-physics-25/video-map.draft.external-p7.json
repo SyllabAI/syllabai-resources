@@ -1,0 +1,92 @@
+{
+ "schema": "syllabai.video-map-draft/1",
+ "draftOf": "hub.video-map/1 cie-a-level-physics-25",
+ "task": "T-VIDEOMAP-P7 (remaining external channel pools: amoeba-sisters / freesciencelessons / malmesbury-education / doodlescience)",
+ "course": "cie-a-level-physics-25",
+ "qual": "A Level (CIE)",
+ "reviewState": "owner-reviewed-external",
+ "draftLaw": "second-lane draft (P7): rows enter content/ only through owner-review-verdicts.p7.json + the apply step; a video may map into several courses; rejected videos stay out of the shipped videos[] and live in the verdicts ledger",
+ "source": {
+  "provider": "multi (doodlescience, malmesbury-education)",
+  "method": "the unmapped remainder of four previously-mined channel pools (P2B/P2C/P2D precedents), re-enumerated fresh before the lane (0 deltas: 179/776/72/58) + union-exclusion against the current corpus + subject-marker routing with idf best-of across the 12 science parent spines + oEmbed identity sweep with the P2D thumb-fallback for FSL embedding-disabled A-level videos (250/250 verified) + deterministic binding pre-pass + agent judgment pass under the tightened binding rule; evidence is TITLE-ONLY",
+  "enumeratedUtc": "2026-11-12T18:15:29Z"
+ },
+ "videos": [
+  {
+   "id": "50idS8d0rHk",
+   "title": "Heat and Thermodynamics | A-Level Physics | Doodle Science",
+   "provider": "doodlescience",
+   "watchUrl": "https://www.youtube.com/watch?v=50idS8d0rHk",
+   "lessonRef": null,
+   "lessonUrl": null,
+   "levelTag": "a-level",
+   "boardNote": "Doodle Science UK GCSE/A-level science; board-agnostic teaching content bound on topic",
+   "durationS": 295,
+   "guestVisible": null,
+   "subelementOfPrimary": false,
+   "oembedAuthor": "DoodleScience",
+   "oembedVerifiedUtc": "2026-11-12T18:15:29Z"
+  },
+  {
+   "id": "Eqjfw56tV1Q",
+   "title": "Young Modulus - Physics A-level Required Practical",
+   "provider": "malmesbury-education",
+   "watchUrl": "https://www.youtube.com/watch?v=Eqjfw56tV1Q",
+   "lessonRef": null,
+   "lessonUrl": null,
+   "levelTag": "a-level",
+   "boardNote": "Malmesbury Education GCSE/A-level science required-practical channel; AQA practical framing bound on topic against the UK spines",
+   "durationS": 447,
+   "guestVisible": null,
+   "subelementOfPrimary": false,
+   "oembedAuthor": "Malmesbury Education",
+   "oembedVerifiedUtc": "2026-11-12T18:15:29Z"
+  }
+ ],
+ "mappings": [
+  {
+   "video": "50idS8d0rHk",
+   "lessonRef": null,
+   "lessonUrl": null,
+   "specs": [
+    "14.3.2",
+    "14.3.1"
+   ],
+   "confidence": "low",
+   "evidence": "title 'Heat and Thermodynamics | A-Level Physics | Doodle Science' -> 14.3.2 '\u0007define and use specific latent heat and disti' via distinctive token(s) heat; 14.3.1 'define and use specific heat capacity' via distinctive token(s) heat",
+   "method": "llm-draft-external",
+   "reviewed": true,
+   "reviewer": "delegated self-review (agent, per owner chat 2026-11-09: 'approve and review yourself'; lane authorized 2026-11-13: 'Proceed with remaining channel pools')",
+   "reviewedUtc": "2026-11-12T18:15:29Z",
+   "boardMismatch": true
+  },
+  {
+   "video": "Eqjfw56tV1Q",
+   "lessonRef": null,
+   "lessonUrl": null,
+   "specs": [
+    "6.1.6",
+    "6.1.5"
+   ],
+   "confidence": "medium",
+   "evidence": "title 'Young Modulus - Physics A-level Required Practical' -> 6.1.6 'describe an experiment to determine the Young ' via distinctive token(s) modulu, young; 6.1.5 'define and use the terms stress, strain and th' via distinctive token(s) modulu, young",
+   "method": "llm-draft-external",
+   "reviewed": true,
+   "reviewer": "delegated self-review (agent, per owner chat 2026-11-09: 'approve and review yourself'; lane authorized 2026-11-13: 'Proceed with remaining channel pools')",
+   "reviewedUtc": "2026-11-12T18:15:29Z",
+   "boardMismatch": true
+  }
+ ],
+ "coverage": {
+  "specPointsTotal": 303,
+  "specPointsDraftedHere": 4,
+  "rows": 2,
+  "byConfidence": {
+   "high": 0,
+   "medium": 1,
+   "low": 1
+  }
+ },
+ "generatedUtc": "2026-11-12T18:15:29Z",
+ "reviewedUtc": "2026-11-12T18:15:29Z"
+}
