@@ -489,6 +489,115 @@ for (const course of P5) {
   );
 }
 
+// ================================================= P6 PhysicsOnline completion lane =====
+// The unmapped remainder of the PhysicsOnline channel pool (113 owner-reviewed
+// rows) appended onto the three physics parent courses whose children inherit
+// below. Runs BEFORE the P4 inherit section so child courses cascade through
+// the committed containment map with the enriched parent rows (P6 rows are
+// medium/low — the title-only posture the inherit gate requires). Second-lane
+// shape mirrors P5: upstream sections rewrite fresh, this section appends,
+// a full re-run stays idempotent. Rejected videos stay out of videos[] and
+// live in the verdicts ledger (owner-review-verdicts.p6.json).
+const P6 = ["cie-a-level-physics-25", "cie-igcse-physics-23", "igcse-physics-19"];
+for (const course of P6) {
+  const D = join(VIDEOS, "drafts", course);
+  const draft = JSON.parse(readFileSync(join(D, "video-map.draft.external-p6.json"), "utf8"));
+  const verdicts = JSON.parse(readFileSync(join(D, "owner-review-verdicts.p6.json"), "utf8"));
+  if (draft.reviewState !== "owner-reviewed-external")
+    throw new Error(`${course}: p6 reviewState is "${draft.reviewState}" — apply review first`);
+  const spine = JSON.parse(readFileSync(join(SPINES, `${course}.json`), "utf8"));
+  const specByCode = new Map(
+    spine.curriculum.nodes.filter((n) => n.family === "SPEC_POINT").map((n) => [n.code, n])
+  );
+  assertSpineMirror(course, spine);
+  const content = JSON.parse(readFileSync(join(MAPDIR, `${course}.json`), "utf8"));
+
+  for (const m of draft.mappings) {
+    if (m.reviewed !== true || !m.reviewer || !m.reviewedUtc)
+      errors.push(`${course}: unreviewed p6 row leaking into content (${m.video})`);
+    if (m.method !== "llm-draft-external")
+      errors.push(`${course}: p6 row missing method (${m.video})`);
+    if (m.boardMismatch !== true)
+      errors.push(`${course}: p6 row must carry boardMismatch:true (${m.video})`);
+    if (!m.specs || m.specs.length === 0)
+      errors.push(`${course}: p6 rows are spec rows — specs must be non-empty (${m.video})`);
+    if (!/^[\w-]{11}$/.test(m.video)) errors.push(`${course}: bad p6 video id ${m.video}`);
+    for (const code of m.specs || [])
+      if (!specByCode.has(code)) errors.push(`${course}: p6 spec ${code} not in spine (${m.video})`);
+  }
+  const haveKeysP6 = new Set(content.mappings.map((m) => m.video + "|" + JSON.stringify(m.specs)));
+  for (const m of draft.mappings) {
+    const k = m.video + "|" + JSON.stringify(m.specs);
+    if (haveKeysP6.has(k)) errors.push(`${course}: duplicate p6 row across union ${k}`);
+    haveKeysP6.add(k);
+  }
+  const haveVidsP6 = new Set(content.videos.map((v) => v.id));
+  for (const v of draft.videos) {
+    if (!haveVidsP6.has(v.id)) content.videos.push(v);
+    if (!v.provider || !v.watchUrl) errors.push(`${course}: p6 video ${v.id} missing provider/watchUrl`);
+  }
+  if (errors.length) break;
+
+  content.mappings = [...content.mappings, ...draft.mappings];
+  const allSpecsP6 = new Set(content.mappings.flatMap((m) => m.specs));
+  const mappedVidsP6 = new Set(content.mappings.map((m) => m.video));
+  content.coverage = {
+    specPointsTotal: specByCode.size,
+    specPointsMapped: allSpecsP6.size,
+    specPointsUnmapped: specByCode.size - allSpecsP6.size,
+    videosTotal: content.videos.length,
+    videosMapped: mappedVidsP6.size,
+    videosUnmapped: content.videos.length - mappedVidsP6.size,
+    mappingRows: content.mappings.length,
+    byConfidence: {
+      high: content.mappings.filter((m) => m.confidence === "high").length,
+      medium: content.mappings.filter((m) => m.confidence === "medium").length,
+      low: content.mappings.filter((m) => m.confidence === "low").length,
+    },
+  };
+  const p6Lane = {
+    lane: "external-channels-p6 (physicsonline completion)", task: verdicts.task,
+    ruling: verdicts.source, reviewer: verdicts.reviewer, ruledUtc: verdicts.ruledUtc,
+    evidenceBasis: verdicts.evidenceBasis,
+    rowsApproved: draft.mappings.length, rowsRejected: (verdicts.rejects || []).length,
+    rejects: REJECTS_OF(verdicts, verdicts.task),
+  };
+  content.review.lanes = [
+    ...(content.review.lanes || [{
+      lane: "external-channels (primary)", task: content.review.task,
+      ruling: content.review.ruling, reviewer: content.review.reviewer,
+      ruledUtc: content.review.ruledUtc, evidenceBasis: content.review.evidenceBasis,
+      rowsApproved: content.review.rowsApproved, rowsRejected: content.review.rowsRejected,
+      rejects: content.review.rejects || [],
+    }]),
+    p6Lane,
+  ];
+  content.review.rowsApproved = content.mappings.length;
+  content.source.p6 = {
+    provider: draft.source.provider, method: draft.source.method,
+    enumeratedUtc: draft.source.enumeratedUtc,
+  };
+  content.inputs.p6 = {
+    repo: "SyllabAI/syllabai-resources",
+    path: `Videos/drafts/${course}/video-map.draft.external-p6.json`,
+    task: verdicts.task, reviewAppliedUtc: verdicts.ruledUtc,
+  };
+  content.generatedUtc = new Date().toISOString();
+  writeFileSync(join(MAPDIR, `${course}.json`), JSON.stringify(content, null, 1) + "\n");
+  const baseLaneP6 = registry.courses[course]?.lane || "external-channels";
+  registry.courses[course] = {
+    videos: content.videos.length,
+    mapped: content.coverage.videosMapped,
+    shelf: registry.courses[course]?.shelf ?? null,
+    lane: baseLaneP6.includes("p6-physicsonline") ? baseLaneP6 : baseLaneP6 + " + p6-physicsonline",
+    updatedUtc: new Date().toISOString(),
+  };
+  registry.generatedUtc = new Date().toISOString();
+  console.log(
+    `${course}: SHIPPED +p6 specs ${content.coverage.specPointsMapped}/${content.coverage.specPointsTotal} · videos ${content.coverage.videosMapped}/${content.coverage.videosTotal} · rows ${content.coverage.mappingRows} (+${draft.mappings.length} physicsonline completion rows) · 0 reviewed:false in content`
+  );
+}
+
 // ================================================= P4 inheritance lane =====
 // 35 child courses derive their external lane from ONE parent course's
 // owner-approved rows via the committed containment map. Child spec -> best
