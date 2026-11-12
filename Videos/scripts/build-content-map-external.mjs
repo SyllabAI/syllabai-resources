@@ -864,8 +864,11 @@ writeFileSync(registryPath, JSON.stringify(registry, null, 1) + "\n");
 console.log(`wrote ${registryPath} (${Object.keys(registry.courses).length} courses)`);
 
 // ------------------------------------------------ flags.json videoMap.courses
-// Skip-if-current: once P3 landed (PR #906) the status text is live; rewriting
+// Skip-if-current: once P3 landed (PR #906) the lane surface is live; rewriting
 // it on every emit would churn flags.json (and fight the file's \uXXXX escaping).
+// The status template carries the full lane history (P3+P4+P5+P6) since the P6
+// receipt-sync lane: the P6 emit's skip-if-current had silently left the status
+// string at its P4-era text while the P6 commit message claimed P3+P4+P5+P6.
 const flagsPath = join(HUB, "apps/hub/content/flags.json");
 const flags = JSON.parse(readFileSync(flagsPath, "utf8"));
 const want = ["igcse-biology-19", ...FRESH, ...P4_FRESH, ...Object.keys(inhMap.parents)];
@@ -879,10 +882,13 @@ if (coursesCurrent && statusCurrent) {
   for (const c of want) if (!have.has(c)) flags.flags.videoMap.courses.push(c);
   flags.flags.videoMap.courses.sort();
   flags.flags.videoMap.status =
-    "live (T-VIDEOMAP-P3+P4): lib/video-map.ts loader + /courses/[course]/videos lane shipped for the "
+    "live (T-VIDEOMAP-P3+P4+P5+P6): lib/video-map.ts loader + /courses/[course]/videos lane shipped for the "
     + "courses below (igcse-biology-19 site+external; 9 external-channels courses incl. the CIE A-level trio; "
     + "P4 scale pass: 4 shelf-direct Cognito maths lanes, 4 mechanics cross-subject lanes, 35 inherited lanes "
-    + "derived from owner-approved parent rows via the committed containment map). "
+    + "derived from owner-approved parent rows via the committed containment map; "
+    + "P5 Cognito completion: 208 owner-reviewed rows onto 5 parents, cascaded to 9 children via the same "
+    + "containment map; P6 PhysicsOnline completion: 113 owner-reviewed rows onto the 3 physics parents, "
+    + "cascaded to 8 children - ial-physics-19 honestly cascades 0; course set unchanged at 53 throughout). "
     + "Links resolve lessonUrl (site lane, Cognito) then watchUrl (external lanes, YouTube). Rows are "
     + "owner-reviewed (title-only evidence, confidence + boardMismatch disclosed per row; inherited rows carry "
     + "their derivation in inherit); the loader re-filters reviewed:true as defense in depth. One-flip kill "
