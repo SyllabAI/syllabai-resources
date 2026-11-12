@@ -97,3 +97,28 @@ Total lane footprint: **280 P6-origin rows across 12 courses** (113 parent + 167
   **143 cards**.
 
 Hub data re-ship: SyllabAI/syllabai-v2 `hub/p6-physicsonline-completion`.
+
+## Post-merge verification receipt (2026-11-12, receipt-sync lane)
+
+The landed state was re-verified at merged HEAD (resources #345, hub #956) before any
+further work was filed on top of it:
+
+- Gates re-run green: hub video-map tests **16/16 (1055 expects)**; independent spec-join
+  census **100%** (53 courses, 3,629 rows, 0 violations — every mapping spec string joins
+  its render-plane spine, checked with a board-aware exact-string joiner).
+- Per-file grew census of the hub commit (per-file row-count diff): **11 courses grew by
+  row count** — 3 parents + 8 children — carrying all **280** P6-origin rows; 42 files
+  generatedUtc churn only; registry.json recomputed. The "12 courses / 9 children" wording
+  in the commit message and in §Emit+cascade above uses the lane-footprint convention (it
+  counts ial-physics-19, which honestly cascades +0 — the per-row state of record is the
+  11-course census; the table above already discloses the ial +0 line and the
+  da-mod-u2 +3-rows-no-new-specs line).
+- Flags receipt discrepancy found and fixed: the P6 hub commit message claimed "flags
+  status live (T-VIDEOMAP-P3+P4+P5+P6)" but the emit's skip-if-current gate
+  (`statusCurrent = startsWith "live (T-VIDEOMAP-P3)"`) silently left the status string at
+  its P4-era text — file state contradicting the of-record message. Fixed by hub PR
+  **#957** (the status string now carries the full P3+P4+P5+P6 lane history; video-map
+  tests re-run green on the shipped tree) plus the paired emitter template sync in this
+  repo (`videos/p6-receipt-sync`): the emitter's status template literal is machine-verified
+  byte-identical to the shipped hub status, and skip-if-current is unaffected, so future
+  emits neither regress the string nor fight the hand-shipped file.
