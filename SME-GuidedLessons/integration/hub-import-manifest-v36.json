@@ -1,0 +1,452 @@
+{
+  "format": "hub-import-manifest/1.0",
+  "manifest_version": 36,
+  "course_id": "igcse-biology-19",
+  "b6_manifest_continuity": {
+    "decision": "continue-global",
+    "selected": "biology stage-B wave 2 CUMULATIVE = manifest v36 (the programme-level v-series continues: chemistry v1..v17 + v32, physics v18..v31, biology v33..v36)",
+    "rejected": "per-course series (biology v1 restart) — would fork the programme-level integration ledger and break the single load-scope lineage of record",
+    "recorded_by": "runbook B6 (the B6 decision of record is continue-global; the physics, chemistry and biology receipts re-record it); this receipt records it for the biology stage-B wave 2"
+  },
+  "generated_at_utc": "2026-11-12T10:38:36Z",
+  "operator_trace": "1a1cf153da1c3e61",
+  "supersedes": "hub-import-manifest-v35.json (the wave-1 CUMULATIVE corrective: 30 artifacts) — this v36 CUMULATIVE manifest re-pins all 30 prior pack artifacts byte-identical (2 stage-A pilot @ the v33 landed shas + 28 wave-1 @ the v34/v35 landed shas) and adds the wave-2 tranche (26 artifacts: the 13 co-ordination-and-response register notes at the 0.7/1.6/1.3 generation); the physics v31 pack (254), chemistry v32 pack (224) and all prior biology artifacts are untouched on disk and conserved by the pipeline's dedicated G-E gates, zero mutation anywhere",
+  "checks_layer": {
+    "wave": "BIOLOGY-4BI1 stage-B wave 2 (the second register bucket of the frozen B4 partition: 13 co-ordination-and-response notes end-to-end per runbook B4; cumulative pack 28 notes / 55 lessons / 495 checks)",
+    "derivation": "225 authored checks this wave (125 MCQ + 50 recall + 25 explain-why + 25 application — the B2 law: 9 checks per lesson = 5 MCQ + 2 recall + 1 explain-why + 1 application), graded by the runner's keyword law",
+    "declared_revision": "ADDITIVE first issues (26 artifacts) — the wave-2 notes are new guided planes; all prior pack artifacts byte-untouched",
+    "grading_law": "case-insensitive whole-token match of the learner text against the keyword set (stem-tolerant), fail-closed on written items without modelAnswer",
+    "fail_closed": "written item without modelAnswer renders reveal-only, never gradeable; the runner refuses any feed whose manifest fails G-A..G-E"
+  },
+  "source_generation": {
+    "format": "guided-lesson/0.7",
+    "namespace": "SME-GuidedLessons/integration/source-0.7/",
+    "pin": "832d0f08d887d4e2bded6023709cf6a130a6a740",
+    "prior_generation_pins": "{'physics pack': 'v18..v31 commit-A pins (v31 manifest)', 'chemistry pack': 'v32 chemistry stage-B @ commit A 0ef5c2cc', 'biology stage-A': 'v33 @ commit A 7378f249', 'biology wave 1': 'v34/v35 @ commit A dfbcf872'} — the wave-2 notes are authored fresh against the corpus of record at the 0.7 generation",
+    "int0_lineage": "(new subject — no INT-0 ancestry; the biology 0.7 sources are authored directly against the corpus of record)"
+  },
+  "load_scope": {
+    "adapter": "guided-lesson-0.7--hub-lesson-import-1.6",
+    "target_schemas": [
+      "hub/lesson-import/1.6",
+      "sme-question-package/1.3"
+    ]
+  },
+  "counts": {
+    "notes": 28,
+    "lessons": 55,
+    "checks": 495,
+    "keyPoints": 248,
+    "distractors": 825,
+    "glossaryTerms": 101,
+    "figures": 68,
+    "figures_module_mapped": 64,
+    "figures_note_level": 4,
+    "workedExamples_populated": 1,
+    "workedExamples_null": 27,
+    "authored_chars_conserved": 299924
+  },
+  "conservation": {
+    "authored_stream_sha256": "94a8dc9de724f07a030378c21a3e5b2f4d842ebe453a33a119eda4fe509a2179",
+    "authored_chars": "299924",
+    "wave_stream_sha256": {
+      "wave-bio-stagea": "3e7cb027b176b803da6e0e9f5553cb5ad660ddc6dc515225e949ee4f56598306",
+      "wave-bio-stageb1": "64ddcb4ccbf29c36a86dcbbf56b7638983a9e961eb74c0fc61fb99afba173602",
+      "wave-bio-stageb2": "8330a92fddfdfa73f40e31108e11c5bf93454052e138b15768c6878fec9e74ae"
+    }
+  },
+  "artifacts": [
+    {
+      "kind": "hub-lesson-import-1.6",
+      "noteId": "rn_qRXSsjyzyZsJnc7k",
+      "path": "SME-GuidedLessons/integration/hub-import-1.6/rn_qRXSsjyzyZsJnc7k.hub-lesson-import.json",
+      "sha256": "fc3b6a518c93baa278a37ab1a974d73b715639ecd34faed2783d4a836a8592c3",
+      "bytes": 15178
+    },
+    {
+      "kind": "sme-question-package",
+      "noteId": "rn_qRXSsjyzyZsJnc7k",
+      "path": "SME-GuidedLessons/integration/question-packages-1.3/rn_qRXSsjyzyZsJnc7k.sme-question-package.json",
+      "sha256": "566aa604d7862ad405ae043eff3efe1cada1531d0c3a25311bdf64ecb4cf3bef",
+      "bytes": 20024
+    },
+    {
+      "kind": "hub-lesson-import-1.6",
+      "noteId": "rn_CGsRy4NGjCQRGgXs",
+      "path": "SME-GuidedLessons/integration/hub-import-1.6/rn_CGsRy4NGjCQRGgXs.hub-lesson-import.json",
+      "sha256": "50de1f63c4db498433138d315f397b51d61270126c85f1a68e24f1c4e37af141",
+      "bytes": 16338
+    },
+    {
+      "kind": "sme-question-package",
+      "noteId": "rn_CGsRy4NGjCQRGgXs",
+      "path": "SME-GuidedLessons/integration/question-packages-1.3/rn_CGsRy4NGjCQRGgXs.sme-question-package.json",
+      "sha256": "084f65c892e6ce23648f594a17f23d6cfb49d2a4cc50953b4c638e405891417a",
+      "bytes": 28397
+    },
+    {
+      "kind": "hub-lesson-import-1.6",
+      "noteId": "rn_sCQKxCPZqCRshTsZ",
+      "path": "SME-GuidedLessons/integration/hub-import-1.6/rn_sCQKxCPZqCRshTsZ.hub-lesson-import.json",
+      "sha256": "2926932692aecf8a587b641f4292e0d6eea5cdee7e59b4a4c456a81f698f32af",
+      "bytes": 6118
+    },
+    {
+      "kind": "sme-question-package",
+      "noteId": "rn_sCQKxCPZqCRshTsZ",
+      "path": "SME-GuidedLessons/integration/question-packages-1.3/rn_sCQKxCPZqCRshTsZ.sme-question-package.json",
+      "sha256": "8e4967f46acfc18034e5097081de8cfb32fab6a5d8eef4fb96306729c445480c",
+      "bytes": 9015
+    },
+    {
+      "kind": "hub-lesson-import-1.6",
+      "noteId": "rn_x2cfFnFT6j99Q25F",
+      "path": "SME-GuidedLessons/integration/hub-import-1.6/rn_x2cfFnFT6j99Q25F.hub-lesson-import.json",
+      "sha256": "18113be72a733df8cb5711d09ea24ef1c431f61b8190873d2d82be4be094b094",
+      "bytes": 8954
+    },
+    {
+      "kind": "sme-question-package",
+      "noteId": "rn_x2cfFnFT6j99Q25F",
+      "path": "SME-GuidedLessons/integration/question-packages-1.3/rn_x2cfFnFT6j99Q25F.sme-question-package.json",
+      "sha256": "64635550d90279dbcd7c2dd0e8c3c504415303347d1f4dd2cadcaf09ad6e1bf7",
+      "bytes": 17776
+    },
+    {
+      "kind": "hub-lesson-import-1.6",
+      "noteId": "rn_NZDqQdFYGgTTBGjz",
+      "path": "SME-GuidedLessons/integration/hub-import-1.6/rn_NZDqQdFYGgTTBGjz.hub-lesson-import.json",
+      "sha256": "9e02f991a35138fc4c6a0424712a120a0bdc7ca672e9922fc80d73c661e3a756",
+      "bytes": 5981
+    },
+    {
+      "kind": "sme-question-package",
+      "noteId": "rn_NZDqQdFYGgTTBGjz",
+      "path": "SME-GuidedLessons/integration/question-packages-1.3/rn_NZDqQdFYGgTTBGjz.sme-question-package.json",
+      "sha256": "22963d8e37b14ff13dd749528e42ced704ad2c48bb8dbc52f23ffd039f2f3d46",
+      "bytes": 8954
+    },
+    {
+      "kind": "hub-lesson-import-1.6",
+      "noteId": "rn_6nfRDC4jtDHbdbqZ",
+      "path": "SME-GuidedLessons/integration/hub-import-1.6/rn_6nfRDC4jtDHbdbqZ.hub-lesson-import.json",
+      "sha256": "a9551d79eeb607769237781f026e6568f3bf56867cf75811c5e0d5c7fe3b260f",
+      "bytes": 15091
+    },
+    {
+      "kind": "sme-question-package",
+      "noteId": "rn_6nfRDC4jtDHbdbqZ",
+      "path": "SME-GuidedLessons/integration/question-packages-1.3/rn_6nfRDC4jtDHbdbqZ.sme-question-package.json",
+      "sha256": "c64c53d2956017d51652b4aed85e447e43f6060430bd48653b29413d3e2090b7",
+      "bytes": 24813
+    },
+    {
+      "kind": "hub-lesson-import-1.6",
+      "noteId": "rn_kwZSCXKYc7tWwWsK",
+      "path": "SME-GuidedLessons/integration/hub-import-1.6/rn_kwZSCXKYc7tWwWsK.hub-lesson-import.json",
+      "sha256": "cb8c8c06475a566567579b09541e64c4e5ee1d23d0a836366cfe7c922e8306a8",
+      "bytes": 9524
+    },
+    {
+      "kind": "sme-question-package",
+      "noteId": "rn_kwZSCXKYc7tWwWsK",
+      "path": "SME-GuidedLessons/integration/question-packages-1.3/rn_kwZSCXKYc7tWwWsK.sme-question-package.json",
+      "sha256": "2d0e7ce136c9965f5edaed656004bf0772e42a8b4a1501c323aaf91746546590",
+      "bytes": 16984
+    },
+    {
+      "kind": "hub-lesson-import-1.6",
+      "noteId": "rn_MkbHy3WPzVJVYhy4",
+      "path": "SME-GuidedLessons/integration/hub-import-1.6/rn_MkbHy3WPzVJVYhy4.hub-lesson-import.json",
+      "sha256": "fa0c4bef33d2d237825a55a0d9cf31047855ada00236aecedd3678092bb7d44e",
+      "bytes": 9296
+    },
+    {
+      "kind": "sme-question-package",
+      "noteId": "rn_MkbHy3WPzVJVYhy4",
+      "path": "SME-GuidedLessons/integration/question-packages-1.3/rn_MkbHy3WPzVJVYhy4.sme-question-package.json",
+      "sha256": "33a01340375735056a601edbf526615ba36ca5044b8368df387cfd1b3a38b91c",
+      "bytes": 16991
+    },
+    {
+      "kind": "hub-lesson-import-1.6",
+      "noteId": "rn_2rJ8QxCk32vxKTN3",
+      "path": "SME-GuidedLessons/integration/hub-import-1.6/rn_2rJ8QxCk32vxKTN3.hub-lesson-import.json",
+      "sha256": "80d244e9058779dd6ae6f5d45ecc8011e4d2e03486ee0535cbd3079f05347b6a",
+      "bytes": 5817
+    },
+    {
+      "kind": "sme-question-package",
+      "noteId": "rn_2rJ8QxCk32vxKTN3",
+      "path": "SME-GuidedLessons/integration/question-packages-1.3/rn_2rJ8QxCk32vxKTN3.sme-question-package.json",
+      "sha256": "58255251fc505308ec5f674ae0119bf9b8d41fd81a7ae7a2ec40b9692577a7ea",
+      "bytes": 9040
+    },
+    {
+      "kind": "hub-lesson-import-1.6",
+      "noteId": "rn_27dbWmcwsCf9k5JW",
+      "path": "SME-GuidedLessons/integration/hub-import-1.6/rn_27dbWmcwsCf9k5JW.hub-lesson-import.json",
+      "sha256": "f49fb14947c444afee4c1f0b45b9e2729c91fd7c0edf481427b0744aea03bd9e",
+      "bytes": 10062
+    },
+    {
+      "kind": "sme-question-package",
+      "noteId": "rn_27dbWmcwsCf9k5JW",
+      "path": "SME-GuidedLessons/integration/question-packages-1.3/rn_27dbWmcwsCf9k5JW.sme-question-package.json",
+      "sha256": "9aeee29f852608e1c6d36c4fc4c96fa53a660fde1d837d44ae8d540b462fb7a2",
+      "bytes": 17240
+    },
+    {
+      "kind": "hub-lesson-import-1.6",
+      "noteId": "rn_6jFtNNZ6G5q86Wbk",
+      "path": "SME-GuidedLessons/integration/hub-import-1.6/rn_6jFtNNZ6G5q86Wbk.hub-lesson-import.json",
+      "sha256": "90718b1f8bb04430403af4257c07c55e113564c934406255140000a8542d4141",
+      "bytes": 6249
+    },
+    {
+      "kind": "sme-question-package",
+      "noteId": "rn_6jFtNNZ6G5q86Wbk",
+      "path": "SME-GuidedLessons/integration/question-packages-1.3/rn_6jFtNNZ6G5q86Wbk.sme-question-package.json",
+      "sha256": "81b87001661037df13a42c539a574b8c1b0cae5cb81d913a8f55dc9cbf0cb6fa",
+      "bytes": 9036
+    },
+    {
+      "kind": "hub-lesson-import-1.6",
+      "noteId": "rn_NPzyvfByCy3bwH6f",
+      "path": "SME-GuidedLessons/integration/hub-import-1.6/rn_NPzyvfByCy3bwH6f.hub-lesson-import.json",
+      "sha256": "d3021d92bcd21fdf0d908bdb4bcedceda1050f73ae96988dd67106da6eb4cbbb",
+      "bytes": 8664
+    },
+    {
+      "kind": "sme-question-package",
+      "noteId": "rn_NPzyvfByCy3bwH6f",
+      "path": "SME-GuidedLessons/integration/question-packages-1.3/rn_NPzyvfByCy3bwH6f.sme-question-package.json",
+      "sha256": "7b0a9d754cf3dd5b257a5ebb4ebf6acb1349de56efe0b01f241dd222e811e88d",
+      "bytes": 16705
+    },
+    {
+      "kind": "hub-lesson-import-1.6",
+      "noteId": "rn_7txVGXxCfkcpWhNg",
+      "path": "SME-GuidedLessons/integration/hub-import-1.6/rn_7txVGXxCfkcpWhNg.hub-lesson-import.json",
+      "sha256": "9c31365a219e3bd3cf13fd89acb18de929c826db44b5c329e19fc535cb8153bf",
+      "bytes": 9155
+    },
+    {
+      "kind": "sme-question-package",
+      "noteId": "rn_7txVGXxCfkcpWhNg",
+      "path": "SME-GuidedLessons/integration/question-packages-1.3/rn_7txVGXxCfkcpWhNg.sme-question-package.json",
+      "sha256": "097a4a994d8bc96f5379bd9b2ab474c347fe7eb0f459fbcdfc7d870a55ee1ab2",
+      "bytes": 16271
+    },
+    {
+      "kind": "hub-lesson-import-1.6",
+      "noteId": "rn_34xmznRtwfxFVBrv",
+      "path": "SME-GuidedLessons/integration/hub-import-1.6/rn_34xmznRtwfxFVBrv.hub-lesson-import.json",
+      "sha256": "bbea4ab20c14e361dbb75f130961ad46bc4697b7d0fabe39865a8f9a24db5d4e",
+      "bytes": 16666
+    },
+    {
+      "kind": "sme-question-package",
+      "noteId": "rn_34xmznRtwfxFVBrv",
+      "path": "SME-GuidedLessons/integration/question-packages-1.3/rn_34xmznRtwfxFVBrv.sme-question-package.json",
+      "sha256": "6b840b2993add2eda089337f972693eec695714d1948df69291dc9c845743f69",
+      "bytes": 32086
+    },
+    {
+      "kind": "hub-lesson-import-1.6",
+      "noteId": "rn_3BY6d33PGXMGkgP7",
+      "path": "SME-GuidedLessons/integration/hub-import-1.6/rn_3BY6d33PGXMGkgP7.hub-lesson-import.json",
+      "sha256": "481245b8e3c3d2a7e291c2234c0891ccd64939f10048a9a1fe96d6c76b8cd6d2",
+      "bytes": 8581
+    },
+    {
+      "kind": "sme-question-package",
+      "noteId": "rn_3BY6d33PGXMGkgP7",
+      "path": "SME-GuidedLessons/integration/question-packages-1.3/rn_3BY6d33PGXMGkgP7.sme-question-package.json",
+      "sha256": "d68872c5ad7273cb2fe6d523fb65f69a3f3e79d2841d084af32345754da8334b",
+      "bytes": 17012
+    },
+    {
+      "kind": "hub-lesson-import-1.6",
+      "noteId": "rn_fc4RtMw8kkGWFTrq",
+      "path": "SME-GuidedLessons/integration/hub-import-1.6/rn_fc4RtMw8kkGWFTrq.hub-lesson-import.json",
+      "sha256": "2872bdf49de6d3df924459fcca4a7e031211be8073bdecb26c1046cf504404f4",
+      "bytes": 6048
+    },
+    {
+      "kind": "sme-question-package",
+      "noteId": "rn_fc4RtMw8kkGWFTrq",
+      "path": "SME-GuidedLessons/integration/question-packages-1.3/rn_fc4RtMw8kkGWFTrq.sme-question-package.json",
+      "sha256": "b26d9ec9eb35e67f044c94bfc666acaacdbb0668eabcb6b976aff7ca82ee22df",
+      "bytes": 9252
+    },
+    {
+      "kind": "hub-lesson-import-1.6",
+      "noteId": "rn_6mmXMQzgwqHvN6yg",
+      "path": "SME-GuidedLessons/integration/hub-import-1.6/rn_6mmXMQzgwqHvN6yg.hub-lesson-import.json",
+      "sha256": "ef009473a7d132bff3eac8ff95d24e86b48059f78ac054ca690b38912dbcf665",
+      "bytes": 8100
+    },
+    {
+      "kind": "sme-question-package",
+      "noteId": "rn_6mmXMQzgwqHvN6yg",
+      "path": "SME-GuidedLessons/integration/question-packages-1.3/rn_6mmXMQzgwqHvN6yg.sme-question-package.json",
+      "sha256": "77713086f565e84057500211df73eec8b5c6b5e0e9f4b62c266f48cdddd4eeb7",
+      "bytes": 17689
+    },
+    {
+      "kind": "hub-lesson-import-1.6",
+      "noteId": "rn_xyy6KxPcBNZs8fYX",
+      "path": "SME-GuidedLessons/integration/hub-import-1.6/rn_xyy6KxPcBNZs8fYX.hub-lesson-import.json",
+      "sha256": "cbeca1c4582daf011ca6bf6f7220830e79867009631ff6cf005d9e23809827bb",
+      "bytes": 8873
+    },
+    {
+      "kind": "sme-question-package",
+      "noteId": "rn_xyy6KxPcBNZs8fYX",
+      "path": "SME-GuidedLessons/integration/question-packages-1.3/rn_xyy6KxPcBNZs8fYX.sme-question-package.json",
+      "sha256": "8ca8f2f276dd77548bfeb50d5add2b752ae93c3e03d922880ee7698cb15e1c2b",
+      "bytes": 17451
+    },
+    {
+      "kind": "hub-lesson-import-1.6",
+      "noteId": "rn_2dRQSWp7xJJJ7MBj",
+      "path": "SME-GuidedLessons/integration/hub-import-1.6/rn_2dRQSWp7xJJJ7MBj.hub-lesson-import.json",
+      "sha256": "9f02288162e6642d457e7adb608c311912116cdd8d12df8b508c1114188c9fa7",
+      "bytes": 8237
+    },
+    {
+      "kind": "sme-question-package",
+      "noteId": "rn_2dRQSWp7xJJJ7MBj",
+      "path": "SME-GuidedLessons/integration/question-packages-1.3/rn_2dRQSWp7xJJJ7MBj.sme-question-package.json",
+      "sha256": "c240dae2cab95cd6acafaadc035918b2f6adf2f96b22d7568c1d03a5602477eb",
+      "bytes": 17393
+    },
+    {
+      "kind": "hub-lesson-import-1.6",
+      "noteId": "rn_ZpkRF2B94q6dBpfN",
+      "path": "SME-GuidedLessons/integration/hub-import-1.6/rn_ZpkRF2B94q6dBpfN.hub-lesson-import.json",
+      "sha256": "702e0c6b77de75fe72ac9aabb0a2da1be6300eb4f73194400e31fda1c7c3cf70",
+      "bytes": 4907
+    },
+    {
+      "kind": "sme-question-package",
+      "noteId": "rn_ZpkRF2B94q6dBpfN",
+      "path": "SME-GuidedLessons/integration/question-packages-1.3/rn_ZpkRF2B94q6dBpfN.sme-question-package.json",
+      "sha256": "715fa65f07fbffacf39d40b5b975b8ebb5812f57370e35881a3458c9575a46ed",
+      "bytes": 8929
+    },
+    {
+      "kind": "hub-lesson-import-1.6",
+      "noteId": "rn_MhjqBYqSPhvcDJHg",
+      "path": "SME-GuidedLessons/integration/hub-import-1.6/rn_MhjqBYqSPhvcDJHg.hub-lesson-import.json",
+      "sha256": "ec7502a2f7e856fabadb81d3c3b36bab988a197dda6cb4d84a2304bec86a5369",
+      "bytes": 9121
+    },
+    {
+      "kind": "sme-question-package",
+      "noteId": "rn_MhjqBYqSPhvcDJHg",
+      "path": "SME-GuidedLessons/integration/question-packages-1.3/rn_MhjqBYqSPhvcDJHg.sme-question-package.json",
+      "sha256": "d65f0443486ae06406ff4a4db3d0f3a22e1e2ef6d4451ab0a27c127a7e0ec5aa",
+      "bytes": 17362
+    },
+    {
+      "kind": "hub-lesson-import-1.6",
+      "noteId": "rn_53R93WRgQZvbj4Xj",
+      "path": "SME-GuidedLessons/integration/hub-import-1.6/rn_53R93WRgQZvbj4Xj.hub-lesson-import.json",
+      "sha256": "8d224d576bc9f6e62462df642f04baf33bee8f315aa9ceb26b29cb1c1ad4a8dc",
+      "bytes": 5183
+    },
+    {
+      "kind": "sme-question-package",
+      "noteId": "rn_53R93WRgQZvbj4Xj",
+      "path": "SME-GuidedLessons/integration/question-packages-1.3/rn_53R93WRgQZvbj4Xj.sme-question-package.json",
+      "sha256": "29f37245828dbfceeb5c39a68b63e925d3d8ecf444d4a01334f4005d808be718",
+      "bytes": 9049
+    },
+    {
+      "kind": "hub-lesson-import-1.6",
+      "noteId": "rn_zFt2dHy9krWbkSKb",
+      "path": "SME-GuidedLessons/integration/hub-import-1.6/rn_zFt2dHy9krWbkSKb.hub-lesson-import.json",
+      "sha256": "9ae2762e97d249173d36e534e0188a4de0ff5d883be5b0e7cf68599c3aabd0bf",
+      "bytes": 8332
+    },
+    {
+      "kind": "sme-question-package",
+      "noteId": "rn_zFt2dHy9krWbkSKb",
+      "path": "SME-GuidedLessons/integration/question-packages-1.3/rn_zFt2dHy9krWbkSKb.sme-question-package.json",
+      "sha256": "b954c69ea6cb6047e3860089022d689582fdf9285b4d358862ec61e1bf86ebc2",
+      "bytes": 17238
+    },
+    {
+      "kind": "hub-lesson-import-1.6",
+      "noteId": "rn_PJm6gGXDSFg2j4DJ",
+      "path": "SME-GuidedLessons/integration/hub-import-1.6/rn_PJm6gGXDSFg2j4DJ.hub-lesson-import.json",
+      "sha256": "1c148b787df84b232d4eee90af72c632c8ccba692fa91176ffa5fa67aa965029",
+      "bytes": 10376
+    },
+    {
+      "kind": "sme-question-package",
+      "noteId": "rn_PJm6gGXDSFg2j4DJ",
+      "path": "SME-GuidedLessons/integration/question-packages-1.3/rn_PJm6gGXDSFg2j4DJ.sme-question-package.json",
+      "sha256": "eff8243794fee94f93d2c51d33e3f5a8d868df2a15bd0a3c6b37a4dc568fce19",
+      "bytes": 17243
+    },
+    {
+      "kind": "hub-lesson-import-1.6",
+      "noteId": "rn_crVHckMJcJw7d56s",
+      "path": "SME-GuidedLessons/integration/hub-import-1.6/rn_crVHckMJcJw7d56s.hub-lesson-import.json",
+      "sha256": "5c03bdaca0784c24f97fe0ef4035845ef0eb604d2ba2ae3c9cf616a3b4403cab",
+      "bytes": 8232
+    },
+    {
+      "kind": "sme-question-package",
+      "noteId": "rn_crVHckMJcJw7d56s",
+      "path": "SME-GuidedLessons/integration/question-packages-1.3/rn_crVHckMJcJw7d56s.sme-question-package.json",
+      "sha256": "446b75ddeb37d04cc0a707b4b5e731a5425ebc46ce61e8b43f0222161913ab60",
+      "bytes": 16148
+    },
+    {
+      "kind": "hub-lesson-import-1.6",
+      "noteId": "rn_Kv6WmJssTtqT56Pj",
+      "path": "SME-GuidedLessons/integration/hub-import-1.6/rn_Kv6WmJssTtqT56Pj.hub-lesson-import.json",
+      "sha256": "2227dbd859cd65dc02d6ba29b18fb25d54c843deea0136ad764da7a95e9c08fd",
+      "bytes": 9117
+    },
+    {
+      "kind": "sme-question-package",
+      "noteId": "rn_Kv6WmJssTtqT56Pj",
+      "path": "SME-GuidedLessons/integration/question-packages-1.3/rn_Kv6WmJssTtqT56Pj.sme-question-package.json",
+      "sha256": "7602bfbdd688abad5640df102bdae081ec02ddf4eb3d8f97aebc42585af21e12",
+      "bytes": 16522
+    },
+    {
+      "kind": "hub-lesson-import-1.6",
+      "noteId": "rn_N2VFzZptQZMnYvDp",
+      "path": "SME-GuidedLessons/integration/hub-import-1.6/rn_N2VFzZptQZMnYvDp.hub-lesson-import.json",
+      "sha256": "be4c26267a6f787bd8618ee5ec8b01b4001f74838fc85d026e612f31e64ecec4",
+      "bytes": 11270
+    },
+    {
+      "kind": "sme-question-package",
+      "noteId": "rn_N2VFzZptQZMnYvDp",
+      "path": "SME-GuidedLessons/integration/question-packages-1.3/rn_N2VFzZptQZMnYvDp.sme-question-package.json",
+      "sha256": "bcbd9f2b4675610407b3a5bc965bbae2524622d5568ce42cf4990e0088376f2e",
+      "bytes": 24692
+    },
+    {
+      "kind": "hub-lesson-import-1.6",
+      "noteId": "rn_Hy9CCn3FFsxHWdp3",
+      "path": "SME-GuidedLessons/integration/hub-import-1.6/rn_Hy9CCn3FFsxHWdp3.hub-lesson-import.json",
+      "sha256": "7c0283a5fc31fde4d6ea4351dbd8e9eb02d7f62b665b0a72143a60630523c2c1",
+      "bytes": 13215
+    },
+    {
+      "kind": "sme-question-package",
+      "noteId": "rn_Hy9CCn3FFsxHWdp3",
+      "path": "SME-GuidedLessons/integration/question-packages-1.3/rn_Hy9CCn3FFsxHWdp3.sme-question-package.json",
+      "sha256": "e448ac0dbf15517e16334a5a0a421cfc2433ecc9a6443c5acf6dd115492e573a",
+      "bytes": 25431
+    }
+  ]
+}
