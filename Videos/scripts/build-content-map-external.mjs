@@ -714,6 +714,115 @@ for (const course of P7) {
   );
 }
 
+// ================================================= P8 physics-trio honest-empty fill =====
+// Owner anchor (chat 2026-11-13): "the ~50 specs still honest-empty on the physics
+// trio". A re-adjudication micro-lane: the full 1,136-video pool remainder surfaced
+// against the trio EMPTY spec points only (prior lanes adjudicated videos under
+// per-course routing where empty-spec targets that lost the routing race were never
+// individually dispositioned). 8 owner-reviewed rows fill 6 distinct specs; the
+// 610-entry honest reject ledger lives in owner-review-verdicts.p8.json x3. The
+// section appends BEFORE the P4 inherit loop (the P5/P6/P7 shape) so the trio's
+// children cascade through the committed containment map.
+const P8 = ["cie-a-level-physics-25", "cie-igcse-physics-23", "igcse-physics-19"];
+for (const course of P8) {
+  const D = join(VIDEOS, "drafts", course);
+  const draft = JSON.parse(readFileSync(join(D, "video-map.draft.external-p8.json"), "utf8"));
+  const verdicts = JSON.parse(readFileSync(join(D, "owner-review-verdicts.p8.json"), "utf8"));
+  if (draft.reviewState !== "owner-reviewed-external")
+    throw new Error(`${course}: p8 reviewState is "${draft.reviewState}" — apply review first`);
+  const spine = JSON.parse(readFileSync(join(SPINES, `${course}.json`), "utf8"));
+  const specByCode = new Map(
+    spine.curriculum.nodes.filter((n) => n.family === "SPEC_POINT").map((n) => [n.code, n])
+  );
+  assertSpineMirror(course, spine);
+  const content = JSON.parse(readFileSync(join(MAPDIR, `${course}.json`), "utf8"));
+
+  for (const m of draft.mappings) {
+    if (m.reviewed !== true || !m.reviewer || !m.reviewedUtc)
+      errors.push(`${course}: unreviewed p8 row leaking into content (${m.video})`);
+    if (m.method !== "llm-draft-external")
+      errors.push(`${course}: p8 row missing method (${m.video})`);
+    if (m.boardMismatch !== true)
+      errors.push(`${course}: p8 row must carry boardMismatch:true (${m.video})`);
+    if (!m.specs || m.specs.length === 0)
+      errors.push(`${course}: p8 rows are spec rows — specs must be non-empty (${m.video})`);
+    if (!/^[\w-]{11}$/.test(m.video)) errors.push(`${course}: bad p8 video id ${m.video}`);
+    for (const code of m.specs || [])
+      if (!specByCode.has(code)) errors.push(`${course}: p8 spec ${code} not in spine (${m.video})`);
+  }
+  const haveKeysP8 = new Set(content.mappings.map((m) => m.video + "|" + JSON.stringify(m.specs)));
+  for (const m of draft.mappings) {
+    const k = m.video + "|" + JSON.stringify(m.specs);
+    if (haveKeysP8.has(k)) errors.push(`${course}: duplicate p8 row across union ${k}`);
+    haveKeysP8.add(k);
+  }
+  const haveVidsP8 = new Set(content.videos.map((v) => v.id));
+  for (const v of draft.videos) {
+    if (!haveVidsP8.has(v.id)) content.videos.push(v);
+    if (!v.provider || !v.watchUrl) errors.push(`${course}: p8 video ${v.id} missing provider/watchUrl`);
+  }
+  if (errors.length) break;
+
+  content.mappings = [...content.mappings, ...draft.mappings];
+  const allSpecsP8 = new Set(content.mappings.flatMap((m) => m.specs));
+  const mappedVidsP8 = new Set(content.mappings.map((m) => m.video));
+  content.coverage = {
+    specPointsTotal: specByCode.size,
+    specPointsMapped: allSpecsP8.size,
+    specPointsUnmapped: specByCode.size - allSpecsP8.size,
+    videosTotal: content.videos.length,
+    videosMapped: mappedVidsP8.size,
+    videosUnmapped: content.videos.length - mappedVidsP8.size,
+    mappingRows: content.mappings.length,
+    byConfidence: {
+      high: content.mappings.filter((m) => m.confidence === "high").length,
+      medium: content.mappings.filter((m) => m.confidence === "medium").length,
+      low: content.mappings.filter((m) => m.confidence === "low").length,
+    },
+  };
+  const p8Lane = {
+    lane: "external-channels-p8 (physics-trio honest-empty fill)", task: verdicts.task,
+    ruling: verdicts.source, reviewer: verdicts.reviewer, ruledUtc: verdicts.ruledUtc,
+    evidenceBasis: verdicts.evidenceBasis,
+    rowsApproved: draft.mappings.length, rowsRejected: (verdicts.rejects || []).length,
+    rejects: REJECTS_OF(verdicts, verdicts.task),
+  };
+  content.review.lanes = [
+    ...(content.review.lanes || [{
+      lane: "external-channels (primary)", task: content.review.task,
+      ruling: content.review.ruling, reviewer: content.review.reviewer,
+      ruledUtc: content.review.ruledUtc, evidenceBasis: content.review.evidenceBasis,
+      rowsApproved: content.review.rowsApproved, rowsRejected: content.review.rowsRejected,
+      rejects: content.review.rejects || [],
+    }]),
+    p8Lane,
+  ];
+  content.review.rowsApproved = content.mappings.length;
+  content.source.p8 = {
+    provider: draft.source.provider, method: draft.source.method,
+    enumeratedUtc: draft.source.enumeratedUtc,
+  };
+  content.inputs.p8 = {
+    repo: "SyllabAI/syllabai-resources",
+    path: `Videos/drafts/${course}/video-map.draft.external-p8.json`,
+    task: verdicts.task, reviewAppliedUtc: verdicts.ruledUtc,
+  };
+  content.generatedUtc = new Date().toISOString();
+  writeFileSync(join(MAPDIR, `${course}.json`), JSON.stringify(content, null, 1) + "\n");
+  const baseLaneP8 = registry.courses[course]?.lane || "external-channels";
+  registry.courses[course] = {
+    videos: content.videos.length,
+    mapped: content.coverage.videosMapped,
+    shelf: registry.courses[course]?.shelf ?? null,
+    lane: baseLaneP8.includes("p8-trio-fill") ? baseLaneP8 : baseLaneP8 + " + p8-trio-fill",
+    updatedUtc: new Date().toISOString(),
+  };
+  registry.generatedUtc = new Date().toISOString();
+  console.log(
+    `${course}: SHIPPED +p8 specs ${content.coverage.specPointsMapped}/${content.coverage.specPointsTotal} · videos ${content.coverage.videosMapped}/${content.coverage.videosTotal} · rows ${content.coverage.mappingRows} (+${draft.mappings.length} physics-trio-fill rows) · 0 reviewed:false in content`
+  );
+}
+
 // ================================================= P4 inheritance lane =====
 // 35 child courses derive their external lane from ONE parent course's
 // owner-approved rows via the committed containment map. Child spec -> best
@@ -1103,13 +1212,16 @@ if (coursesCurrent && statusCurrent) {
   for (const c of want) if (!have.has(c)) flags.flags.videoMap.courses.push(c);
   flags.flags.videoMap.courses.sort();
   flags.flags.videoMap.status =
-    "live (T-VIDEOMAP-P3+P4+P5+P6+P7): lib/video-map.ts loader + /courses/[course]/videos lane shipped for the "
+    "live (T-VIDEOMAP-P3+P4+P5+P6+P7+P8): lib/video-map.ts loader + /courses/[course]/videos lane shipped for the "
     + "courses below (igcse-biology-19 site+external; 9 external-channels courses incl. the CIE A-level trio; "
     + "P4 scale pass: 4 shelf-direct Cognito maths lanes, 4 mechanics cross-subject lanes, 35 inherited lanes "
     + "derived from owner-approved parent rows via the committed containment map; "
     + "P5 Cognito completion: 208 owner-reviewed rows onto 5 parents, cascaded to 9 children via the same "
     + "containment map; P6 PhysicsOnline completion: 113 owner-reviewed rows onto the 3 physics parents, "
-    + "cascaded to 8 children - ial-physics-19 honestly cascades 0; course set unchanged at 53 throughout). "
+    + "cascaded to 8 children - ial-physics-19 honestly cascades 0; "
+    + "P7 remaining channel pools: 277 owner-reviewed rows onto the 12 science parents, cascaded to 24 children; "
+    + "P8 physics-trio honest-empty fill: 8 owner-reviewed rows fill 6 of the trio's 323 empty spec points "
+    + "(1,136-video pool remainder re-adjudicated, 610-entry honest reject ledger); course set unchanged at 53 throughout). "
     + "Links resolve lessonUrl (site lane, Cognito) then watchUrl (external lanes, YouTube). Rows are "
     + "owner-reviewed (title-only evidence, confidence + boardMismatch disclosed per row; inherited rows carry "
     + "their derivation in inherit); the loader re-filters reviewed:true as defense in depth. One-flip kill "
