@@ -111,7 +111,7 @@ for (const id of NOTES_W12) {
   check('P0', 'source blob @ HEAD == disk: ' + id, blob.equals(sources[id].raw), 'blob=' + blob.length + 'B disk=' + sources[id].raw.length + 'B');
 }
 const parent = execSync('git rev-parse HEAD~1', { cwd: REPO }).toString().trim();
-const WAVE_OPEN_BASE = '744890e22502dc9d1e5628fb5ec6eac8b1e63fd9';
+const WAVE_OPEN_BASE = 'e7ce875d8b67ca8b921ffd447f9a7b143ff490ad';
 check('P0', 'commit A parent == the wave-open resources main of record', parent === WAVE_OPEN_BASE, 'parent=' + parent.slice(0, 12));
 let mainTipLive = '';
 try { mainTipLive = execSync((process.env.RESOURCES_REMOTE_URL || 'git ls-remote https://github.com/SyllabAI/syllabai-resources.git') + ' refs/heads/main', { cwd: REPO, shell: '/bin/bash' }).toString().split('\t')[0].trim(); } catch (e) { mainTipLive = 'ERR ' + e.message.slice(0, 60); }
@@ -287,7 +287,9 @@ check('A0', 'corpus-limited heading exception scope (none declared for the biolo
 function dirFiles(d, suffix) {
   try { return fs.readdirSync(d).filter((f) => f.endsWith(suffix)).sort(); } catch (e) { return []; }
 }
-const priorIds = new Set([...priorMan.artifacts, ...priorChemMan.artifacts, ...priorPhysMan.artifacts].map((a) => a.noteId));
+const priorChemManEarly = JSON.parse(fs.readFileSync(args.priorChemManifest, 'utf8'));
+const priorPhysManEarly = JSON.parse(fs.readFileSync(args.priorPhysManifest, 'utf8'));
+const priorIds = new Set([...priorMan.artifacts, ...priorChemManEarly.artifacts, ...priorPhysManEarly.artifacts].map((a) => a.noteId));
 const physSrc = dirFiles(path.join(INT, 'source-0.6'), '.json').filter((f) => { const nid = f.replace('guided-lesson-', '').replace('.json', ''); return priorIds.has(nid) && !NOTES_W12.includes(nid); });
 const bioPriorSrc = dirFiles(path.join(INT, 'source-0.7'), '.json').filter((f) => { const nid = f.replace('guided-lesson-', '').replace('.json', ''); return priorIds.has(nid) && !NOTES_W12.includes(nid); });
 const physHub = dirFiles(path.join(INT, 'hub-import-1.5'), '.json').filter((f) => priorIds.has(f.replace('.hub-lesson-import.json', '')));
@@ -312,13 +314,6 @@ for (const f of chemOldSrc) { if (!vSrc(JSON.parse(fs.readFileSync(path.join(INT
 for (const f of chemOldHub) { if (!vHub(JSON.parse(fs.readFileSync(path.join(INT, 'hub-import-1.4', f), 'utf8')))) oldFails++; }
 for (const f of chemOldPkg) { if (!vPkg(JSON.parse(fs.readFileSync(path.join(INT, 'question-packages-1.1', f), 'utf8')))) oldFails++; }
 check('C-6', `chemistry prior-generation union ajv x${chemOldSrc.length + chemOldHub.length + chemOldPkg.length} (0.5 sources vs 0.6, 1.4 lessons vs 1.5, 1.1 packages vs 1.2 — generation-union schemas)`, oldFails === 0, oldFails + ' failures');
-let newOutFails = 0;
-for (const id of NOTES_W12) {
-  if (!vSrc(JSON.parse(sources[id].raw.toString('utf8')))) newOutFails++;
-  if (!vHub(outputs[id].hub)) newOutFails++;
-  if (!vPkg(outputs[id].pkg)) newOutFails++;
-}
-check('C-6', `stage-B wave-1 outputs ajv x${NOTES_W12.length * 3} (14 sources vs 0.7 + 14 lessons vs 1.6 + 14 packages vs 1.3)`, newOutFails === 0, newOutFails + ' failures');
 
 // ── transform (the full derivation) ──────────────────────────────────────────
 const outputs = {};
@@ -399,6 +394,13 @@ for (const id of NOTES_W12) {
   if (!vPkg(outputs[id].pkg)) { outFails++; console.error('pkg ajv fail', id, ajv.errorsText(vPkg.errors)); }
 }
 check('C-6', `stage-A outputs ajv x2 (1 vs 1.6 + 1 vs 1.3)`, outFails === 0, outFails + ' failures');
+let newOutFails = 0;
+for (const id of NOTES_W12) {
+  if (!vSrc(JSON.parse(sources[id].raw.toString('utf8')))) newOutFails++;
+  if (!vHub(outputs[id].hub)) newOutFails++;
+  if (!vPkg(outputs[id].pkg)) newOutFails++;
+}
+check('C-6', `stage-B wave-1 outputs ajv x${NOTES_W12.length * 3} (14 sources vs 0.7 + 14 lessons vs 1.6 + 14 packages vs 1.3)`, newOutFails === 0, newOutFails + ' failures');
 
 // AN census POST-rotation on the emitted packages (wave-6 declared-rotation precedent)
 const ROT = {};
@@ -442,7 +444,6 @@ const priorPhysMan = JSON.parse(fs.readFileSync(args.priorPhysManifest, 'utf8'))
 check('G-E', 'physics pack manifest v31 resolves (254 = 127 + 127)', priorPhysMan.manifest_version === 31 && priorPhysMan.artifacts.length === 254, `v${priorPhysMan.manifest_version} x${priorPhysMan.artifacts.length}`);
 let chem17Bad = 0;
 for (const a of priorPhysMan.artifacts) {
-  byNoteArt.set(a.kind + '|' + a.noteId, path.join(REPO, a.path));
   const p = path.join(REPO, a.path);
   if (!fs.existsSync(p)) { chem17Bad++; continue; }
   const b = fs.readFileSync(p);
@@ -959,7 +960,7 @@ const receipt = {
     'the corpus 7-3-2 exam hint confirms daughter names are NOT required (balance the numbers instead) — the Ba-144/Kr-89 pair is quoted as the of-record example and the Pu-239 WE is ported with its arithmetic NUM-ledgered',
     'the corpus 8-1-4 worked example reads v = 7592.18 = 7590 m/s; the pipeline ledger asserts the exact value 2pi*6,960,000/5760 = 7592.18 (2 d.p.) and the corpus 3-s.f. quote 7590 as separate facts',
     'ajv strict mode relaxed to false for this run: the of-record 0.6/1.5/1.2 schemas carry pre-existing strictTypes style notices (the wave-7..11 disclosure class); validation semantics are unchanged — same draft-07 compile, same allErrors collection',
-    `the WAVE_OPEN_BASE ${PIN} is the resources main tip at wave open (operator directive trace 1a1c35292ac65771, "the next wave of W12-final-remainder"); wave-12 sequence: commit A lands on main first, the pipeline runs with the race-guard asserting the tip still sits exactly at the commit-A pin, then commit C lands — the race-guard semantics differ from waves 1-11 (which ran pre-push) and are disclosed here`,
+    `the WAVE_OPEN_BASE ${PIN} is the resources main tip at wave open (the operator directive of record: "the same four-plane treatment for the remaining Reasoning subjects (Chemistry 4CH1 stage-B authoring, Biology)," continuing under "Continue, why did you stop?"); stage-B wave-1 sequence: commit A lands on main first, the pipeline runs with the race-guard asserting the tip still sits exactly at the commit-A pin, then commit C lands — the race-guard semantics differ from waves 1-11 (which ran pre-push) and are disclosed here`,
     'worked-example census derived from the sources (totWEPop/totWENull) per the wave-8 amendment law — 6 populated / 11 null, no hardcoded counts',
     'the PROMOTION receipt filename carries the Asia/Dhaka execution date 20261112 while generated_at_utc is honest UTC',
     'the 0.7/1.6/1.3 schema generation is strictly additive over 0.6/1.5/1.2 (igcse-biology in the subject enums, id grammar and figure-url alternation; format/adapter enums extended) — landed at this commit A',
