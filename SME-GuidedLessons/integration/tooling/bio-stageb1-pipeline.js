@@ -112,7 +112,8 @@ for (const id of NOTES_W12) {
 }
 const parent = execSync('git rev-parse HEAD~1', { cwd: REPO }).toString().trim();
 const WAVE_OPEN_BASE = 'e7ce875d8b67ca8b921ffd447f9a7b143ff490ad';
-check('P0', 'commit A parent == the wave-open resources main of record', parent === WAVE_OPEN_BASE, 'parent=' + parent.slice(0, 12));
+const CORRECTIVE_BASE_W1 = 'dfbcf87275bea50873e6b21a046a677cc5a47786';
+check('P0', 'commit A parent == the wave-open resources main of record (or the disclosed corrective base dfbcf872, force-back rule-blocked)', parent === WAVE_OPEN_BASE || parent === CORRECTIVE_BASE_W1, 'parent=' + parent.slice(0, 12));
 let mainTipLive = '';
 try { mainTipLive = execSync((process.env.RESOURCES_REMOTE_URL || 'git ls-remote https://github.com/SyllabAI/syllabai-resources.git') + ' refs/heads/main', { cwd: REPO, shell: '/bin/bash' }).toString().split('\t')[0].trim(); } catch (e) { mainTipLive = 'ERR ' + e.message.slice(0, 60); }
 // corrective-sequence semantics: the first commit C (bd28c978) carried a programme-scope manifest
@@ -648,7 +649,7 @@ const manifest = {
     figures: NOTES_W12.reduce((t, i) => t + ((JSON.parse(fs.readFileSync(path.join(INT, 'source-0.7/guided-lesson-' + i + '.json'), 'utf8')).figures) || []).length, 0),
     figures_module_mapped: totFigMapped,
     figures_note_level: NOTES_W12.reduce((t, i) => t + (((JSON.parse(fs.readFileSync(path.join(INT, 'source-0.7/guided-lesson-' + i + '.json'), 'utf8')).figures) || []).filter((f) => !f.moduleIds || f.moduleIds.length === 0)).length, 0),
-    workedExamples_populated: 0,
+    workedExamples_populated: totWEPop,
     workedExamples_null: NOTES_W12.reduce((t, i) => t + (!JSON.parse(fs.readFileSync(path.join(INT, 'source-0.7/guided-lesson-' + i + '.json'), 'utf8')).noteAssets.workedExample ? 1 : 0), 0),
     authored_chars_conserved: chemChars,
   },
@@ -961,7 +962,7 @@ const receipt = {
     'the corpus 8-1-4 worked example reads v = 7592.18 = 7590 m/s; the pipeline ledger asserts the exact value 2pi*6,960,000/5760 = 7592.18 (2 d.p.) and the corpus 3-s.f. quote 7590 as separate facts',
     'ajv strict mode relaxed to false for this run: the of-record 0.6/1.5/1.2 schemas carry pre-existing strictTypes style notices (the wave-7..11 disclosure class); validation semantics are unchanged — same draft-07 compile, same allErrors collection',
     `the WAVE_OPEN_BASE ${PIN} is the resources main tip at wave open (the operator directive of record: "the same four-plane treatment for the remaining Reasoning subjects (Chemistry 4CH1 stage-B authoring, Biology)," continuing under "Continue, why did you stop?"); stage-B wave-1 sequence: commit A lands on main first, the pipeline runs with the race-guard asserting the tip still sits exactly at the commit-A pin, then commit C lands — the race-guard semantics differ from waves 1-11 (which ran pre-push) and are disclosed here`,
-    'worked-example census derived from the sources (totWEPop/totWENull) per the wave-8 amendment law — 6 populated / 11 null, no hardcoded counts',
+    'worked-example census derived from the sources (totWEPop/totWENull) per the wave-8 amendment law — 1 populated (the food-tests port) / 13 designed nulls, no hardcoded counts',
     'the PROMOTION receipt filename carries the Asia/Dhaka execution date 20261112 while generated_at_utc is honest UTC',
     'the 0.7/1.6/1.3 schema generation is strictly additive over 0.6/1.5/1.2 (igcse-biology in the subject enums, id grammar and figure-url alternation; format/adapter enums extended) — landed at this commit A',
     'spec_point_resolution.json for igcse-biology-19 is the mechanical hub-landing bootstrap (210 ids / 175 codes / 142 notes; runbook B1 deviation, physics stage-A precedent)',
@@ -976,8 +977,8 @@ const rb = Buffer.from(JSON.stringify(receipt, null, 2) + '\n');
 fs.writeFileSync(path.join(INT, 'records/BIOLOGY-4BI1-STAGEB1-PROMOTION-20261112.json'), rb);
 
 console.log(`GATES: ${LOG.filter((l) => l.ok).length}/${LOG.length} GREEN, 0 failures`);
-console.log(`EMITTED: 2 outputs + manifest v33 (${mb.length}B) + INT-3 (${ib.length}B) + promotion receipt (${rb.length}B)`);
-console.log(`Stage-A tranche: 1 note / ${idLessons} lessons / ${idChecks} checks (${streamCharsArr().mcq} MCQ + ${streamCharsArr().rec} recall + ${streamCharsArr().exp} explain-why + ${streamCharsArr().app} application) / ${totFig} figures`);
-console.log(`CUMULATIVE v32: ${manifest.counts.notes} notes / ${manifest.counts.lessons} lessons / ${manifest.counts.checks} checks; grand stream ${manifest.conservation.authored_chars} chars`);
+console.log(`EMITTED: ${NOTES_W12.length * 2} outputs + manifest v34 (${mb.length}B) + INT-3 (${ib.length}B) + promotion receipt (${rb.length}B)`);
+console.log(`Wave-1 tranche: ${NOTES_W12.length} notes / ${idLessons} lessons / ${idChecks} checks (${streamCharsArr().mcq} MCQ + ${streamCharsArr().rec} recall + ${streamCharsArr().exp} explain-why + ${streamCharsArr().app} application) / ${totFig} figures`);
+console.log(`WAVE-1 v34 counts: ${manifest.counts.notes} notes / ${manifest.counts.lessons} lessons / ${manifest.counts.checks} checks; grand stream ${manifest.conservation.authored_chars} chars`);
 console.log(`GRAND: ${manifest.conservation.authored_stream_sha256}`);
-console.log(`STAGE-A SUBTOTAL: ${waveOut['wave-bio-stagea']}`);
+console.log(`WAVE-1 SUBTOTAL: ${waveOut['wave-bio-stageb1']}`);
