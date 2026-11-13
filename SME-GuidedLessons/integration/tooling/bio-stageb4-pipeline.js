@@ -19,7 +19,7 @@
  *
  * Wave-4 authoring of record (census 2026-11-13, trace 1a1d33d324cf5a15): 16 notes / 29 lessons /
  * 261 checks = 145 MCQ + 58 recall + 29 explain-why + 29 application (the B2 law 5+2+1+1 per lesson);
- * 43 corpus figures bound heading-unique, all module-mapped; glossary 49 terms in the 3..5 band;
+ * 44 corpus figures bound heading-unique, all module-mapped; glossary 49 terms in the 3..5 band;
  * learner-surface authored fresh per the 2.1B 8-gram law; deterministic AN rotation applied at emit.
  */
 const fs = require('fs');
@@ -696,7 +696,7 @@ const int3 = {
   biology_stageb4_of_record: {
     basis: 'the stage-B wave 4 bucket per runbook B4: the fourth 16 register notes of the frozen B4 partition (the levels-of-organisation + movement-of-substances-into-and-out-of-cells + nutrition subtopics, register rows 44..59 0-based) authored end-to-end through the full chain, 29 lessons x 9 checks, riding the 0.7/1.6/1.3 generation',
     bootstrap: 'spec_point_resolution.json derived mechanically from hub notes.json smeSpecPointIds (210 ids / 175 codes / 142 notes; the runbook B1 deviation, physics stage-A precedent, disclosed at stage-A)',
-    figure_law: '43 corpus figures: all 43 module-mapped heading-unique to host lessons carrying their sourceHeading; no note-level figures this wave',
+    figure_law: '44 corpus figures: all 44 module-mapped heading-unique to host lessons carrying their sourceHeading; no note-level figures this wave',
     b4_partition: [
   {
     "wave": "W1",
@@ -973,7 +973,7 @@ const receipt = {
     'spec texts carried verbatim from the curriculum graph SPEC_POINT nodes (no spec text invented); spec codes pinned to the notes.json register rows 44..59 (0-based) — the sixteen levels-of-organisation + movement-of-substances + nutrition notes of the frozen B4 partition (wave 4 of 10; W5..W10, 82 notes, remain)',
     'MCQ correct-key census enforced POST-transform under the declared deterministic AN rotation table (cyclic per-note re-letter) — the wave-6..12 and bio-wave-1 re-lettering precedent, table-recorded',
     'figure alt strings carried verbatim from the corpus markdown per the 0.7 schema alt description; where a corpus alt is a bare filename (rn_y3ZgBFFJ5wZKHTRR osmosis-in-plant-cells) the slugified filename stands in, declared as the slug-fallback matchMode; captions declared absent where no explanatory emphasis line exists',
-    'note-level figures (moduleIds [], binding heading-unique per the A0 gate law): NONE this wave — all 43 corpus figures are module-mapped to host lessons carrying their sourceHeading',
+    'note-level figures (moduleIds [], binding heading-unique per the A0 gate law): NONE this wave — all 44 corpus figures are module-mapped to host lessons carrying their sourceHeading',
     'corpus image URLs carried through onto the /main/ raw.githubusercontent namespace per the 0.7 schema url pattern; the corpus alt strings are kept verbatim where non-empty',
     'worked-example census derived from the sources (totWEPop/totWENull) per the wave-8 amendment law — 1 populated / 15 designed nulls: rn_tFhjR4N3rFNHsdcP ports the corpus worked-example block (the three-label levels-of-organisation diagram, final answer B), the only corpus WE block in the W4 bucket; no hardcoded counts',
     'ajv strict mode relaxed to false for this run: the of-record schema set carries pre-existing strictTypes style notices (the wave-7..11 disclosure class); validation semantics unchanged — same draft-07 compile, same allErrors collection',
