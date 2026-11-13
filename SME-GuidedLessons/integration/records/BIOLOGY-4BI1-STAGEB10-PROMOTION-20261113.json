@@ -1,0 +1,2998 @@
+{
+  "format": "bio-stageb10-promotion-receipt/1.0",
+  "wave": "BIOLOGY-4BI1 stage-B wave 10 (the tenth and closing register bucket: 2 selective-breeding notes end-to-end at the 0.7/1.6/1.3 four-plane generation; CUMULATIVE biology-pack manifest v44 — the biology register is COMPLETE)",
+  "operator_traces": {
+    "ignition": "1a1d544cd50a7f81",
+    "execution": "1a1d544cd50a7f81"
+  },
+  "generated_at_utc": "2026-11-13T14:34:30Z",
+  "commit_a": {
+    "sha": "fd002c60aa3ae26d2c380b1c180ae7e8ca3ed0ad",
+    "contents": "the 2 authored wave-10 source-0.7 notes + integration/tooling/bio-stageb10-pipeline.js (the pipeline of record, derived from the bio-stageb9 landed pipeline)",
+    "parent": "d527ceddff041a8dd37789392ba7b06a06018b80",
+    "message_carries_trace": true
+  },
+  "tranche": {
+    "notes": 2,
+    "lessons": 4,
+    "checks": 36,
+    "kinds": {
+      "mcq": 20,
+      "recall": 8,
+      "explain-why": 4,
+      "application": 4
+    },
+    "figures": 2,
+    "figures_module_mapped": 2,
+    "glossary_terms": 9,
+    "worked_examples": {
+      "populated": 0,
+      "null": 2
+    },
+    "stream_chars": 25438,
+    "authoring_shape": {
+      "bucket": "selective-breeding (register rows 140..141 0-based of the frozen B4 partition, wave 10 of 10 — the closing wave; the biology register is COMPLETE)",
+      "lessons": 4,
+      "checks": 36,
+      "figures": 2,
+      "figures_module_mapped": 2,
+      "figures_note_level": 0,
+      "glossary_terms": 9,
+      "worked_examples": {
+        "populated": 0,
+        "null": 2
+      }
+    }
+  },
+  "manifest": {
+    "version": 44,
+    "artifacts_total": 284,
+    "scope": "biology pack of record (CUMULATIVE: stage-A pilot + wave-1 + wave-2 + wave-3 + wave-4 + wave-5 + wave-6 + wave-7 + wave-8 + wave-9 + wave-10 — REGISTER COMPLETE)",
+    "physics_prior_re_pinned_vs_v31": 254,
+    "chemistry_prior_re_pinned_vs_v32": 224,
+    "prior_biology_re_pinned_vs_v43": 280,
+    "first_issues": 4
+  },
+  "outputs": [
+    "SME-GuidedLessons/integration/hub-import-1.6/rn_xBYWN9JGPSnmJVY7.hub-lesson-import.json",
+    "SME-GuidedLessons/integration/question-packages-1.3/rn_xBYWN9JGPSnmJVY7.sme-question-package.json",
+    "SME-GuidedLessons/integration/hub-import-1.6/rn_hybmmF3JNk7kxzJZ.hub-lesson-import.json",
+    "SME-GuidedLessons/integration/question-packages-1.3/rn_hybmmF3JNk7kxzJZ.sme-question-package.json"
+  ],
+  "gate_log": [
+    {
+      "stage": "P0",
+      "name": "prior manifest counts are ints (the v26 amendment law)",
+      "ok": true,
+      "detail": "{\"notes\":140,\"lessons\":270,\"checks\":2430}"
+    },
+    {
+      "stage": "P0",
+      "name": "HEAD == declared wave-10 commit-A pin",
+      "ok": true,
+      "detail": "HEAD=fd002c60aa3a pin=fd002c60aa3a"
+    },
+    {
+      "stage": "P0",
+      "name": "commit A message carries the operator trace",
+      "ok": true,
+      "detail": "guided(BIOLOGY-4BI1 stage-B wave 10): commit A — 2 authored source-0.7 notes (the frozen B"
+    },
+    {
+      "stage": "P0",
+      "name": "source blob @ HEAD == disk: rn_xBYWN9JGPSnmJVY7",
+      "ok": true,
+      "detail": "blob=26764B disk=26764B"
+    },
+    {
+      "stage": "P0",
+      "name": "source blob @ HEAD == disk: rn_hybmmF3JNk7kxzJZ",
+      "ok": true,
+      "detail": "blob=25038B disk=25038B"
+    },
+    {
+      "stage": "P0",
+      "name": "commit A parent == the wave-open main tip d527ceddff04, a commit-A-chain member of wave 10 (the stage-A corrective precedent), or a mid-flight merge descendant of the wave-open base (ancestry-verified)",
+      "ok": true,
+      "detail": "parent=d527ceddff04"
+    },
+    {
+      "stage": "P0",
+      "name": "resources main tip sits at the commit-A pin, the corrective base riding on it (first wave-10 landing), or a mid-flight merge descendant of the commit-A pin (ancestry-verified)",
+      "ok": true,
+      "detail": "tip=fd002c60aa3a head=fd002c60aa3a"
+    },
+    {
+      "stage": "A0",
+      "name": "ajv 0.7: rn_xBYWN9JGPSnmJVY7",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "A0",
+      "name": "spec text verbatim rn_xBYWN9JGPSnmJVY7/5.11",
+      "ok": true,
+      "detail": "graph=\"understand how selective breeding can de\""
+    },
+    {
+      "stage": "A0",
+      "name": "spec code in register rn_xBYWN9JGPSnmJVY7/5.11",
+      "ok": true,
+      "detail": "register=5.11"
+    },
+    {
+      "stage": "A0",
+      "name": "primer word band rn_xBYWN9JGPSnmJVY7",
+      "ok": true,
+      "detail": "59 words"
+    },
+    {
+      "stage": "A0",
+      "name": "noteRef identity rn_xBYWN9JGPSnmJVY7",
+      "ok": true,
+      "detail": "path=5-use-of-biological-resources/selective-breeding/selective-breeding-in-animals.md"
+    },
+    {
+      "stage": "A0",
+      "name": "topicTitle matches curriculum topic rn_xBYWN9JGPSnmJVY7",
+      "ok": true,
+      "detail": "Use of biological resources vs 5-use-of-biological-resources"
+    },
+    {
+      "stage": "A0",
+      "name": "glossary band rn_xBYWN9JGPSnmJVY7",
+      "ok": true,
+      "detail": "4 terms"
+    },
+    {
+      "stage": "A0",
+      "name": "glossary firstLesson rn_xBYWN9JGPSnmJVY7/selective breeding",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "stage": "A0",
+      "name": "glossary firstLesson rn_xBYWN9JGPSnmJVY7/artificial selection",
+      "ok": true,
+      "detail": "2"
+    },
+    {
+      "stage": "A0",
+      "name": "glossary firstLesson rn_xBYWN9JGPSnmJVY7/breed",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "stage": "A0",
+      "name": "glossary firstLesson rn_xBYWN9JGPSnmJVY7/trait",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "stage": "A0",
+      "name": "workedExample shape rn_xBYWN9JGPSnmJVY7",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "A0",
+      "name": "figure ids unique rn_xBYWN9JGPSnmJVY7",
+      "ok": true,
+      "detail": "1 figs"
+    },
+    {
+      "stage": "A0",
+      "name": "figure host lesson exists rn_xBYWN9JGPSnmJVY7/fig-01",
+      "ok": true,
+      "detail": "L1"
+    },
+    {
+      "stage": "A0",
+      "name": "figure sourceHeading bound rn_xBYWN9JGPSnmJVY7/fig-01",
+      "ok": true,
+      "detail": "[\"Selective Breeding in Animals\"] vs Selective Breeding in Animals"
+    },
+    {
+      "stage": "A0",
+      "name": "figure url corpus-namespace rn_xBYWN9JGPSnmJVY7/fig-01",
+      "ok": true,
+      "detail": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionN"
+    },
+    {
+      "stage": "A0",
+      "name": "figure asset exists in corpus rn_xBYWN9JGPSnmJVY7/fig-01",
+      "ok": true,
+      "detail": "1f5f8be3c8c3-selective-breeding-dogs.png"
+    },
+    {
+      "stage": "A0",
+      "name": "figure binding rn_xBYWN9JGPSnmJVY7/fig-01",
+      "ok": true,
+      "detail": "heading-unique"
+    },
+    {
+      "stage": "A0",
+      "name": "figure caption present rn_xBYWN9JGPSnmJVY7/fig-01",
+      "ok": true,
+      "detail": "caption"
+    },
+    {
+      "stage": "A0",
+      "name": "all corpus images bound rn_xBYWN9JGPSnmJVY7",
+      "ok": true,
+      "detail": "1 images vs 1 figs"
+    },
+    {
+      "stage": "A0",
+      "name": "lesson keyPoints band rn_xBYWN9JGPSnmJVY7::L1",
+      "ok": true,
+      "detail": "5 KP"
+    },
+    {
+      "stage": "A0",
+      "name": "sourceHeadings 1-2 rn_xBYWN9JGPSnmJVY7::L1",
+      "ok": true,
+      "detail": "Selective Breeding in Animals"
+    },
+    {
+      "stage": "A0",
+      "name": "sourceHeading in corpus rn_xBYWN9JGPSnmJVY7::L1",
+      "ok": true,
+      "detail": "Selective Breeding in Animals"
+    },
+    {
+      "stage": "A0",
+      "name": "heading-unique across lessons rn_xBYWN9JGPSnmJVY7",
+      "ok": true,
+      "detail": "Selective Breeding in Animals first bound to L0"
+    },
+    {
+      "stage": "A0",
+      "name": "specRefs subset rn_xBYWN9JGPSnmJVY7::L1",
+      "ok": true,
+      "detail": "5.11"
+    },
+    {
+      "stage": "A0",
+      "name": "depthLayers present rn_xBYWN9JGPSnmJVY7::L1",
+      "ok": true,
+      "detail": "low/medium"
+    },
+    {
+      "stage": "B2",
+      "name": "9 checks per module rn_xBYWN9JGPSnmJVY7::L1",
+      "ok": true,
+      "detail": "9 checks"
+    },
+    {
+      "stage": "A0",
+      "name": "kind order rn_xBYWN9JGPSnmJVY7::L1",
+      "ok": true,
+      "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_xBYWN9JGPSnmJVY7::L1::Q1",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_xBYWN9JGPSnmJVY7::L1::Q1",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_xBYWN9JGPSnmJVY7::L1::Q1",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_xBYWN9JGPSnmJVY7::L1::Q1",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L1::Q1/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L1::Q1/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_xBYWN9JGPSnmJVY7::L1::Q1/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L1::Q1/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_xBYWN9JGPSnmJVY7::L1::Q1/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L1::Q1/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_xBYWN9JGPSnmJVY7::L1::Q1/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_xBYWN9JGPSnmJVY7::L1::Q1",
+      "ok": true,
+      "detail": "What is the first step in the animal bre"
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_xBYWN9JGPSnmJVY7::L1::Q2",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_xBYWN9JGPSnmJVY7::L1::Q2",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_xBYWN9JGPSnmJVY7::L1::Q2",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_xBYWN9JGPSnmJVY7::L1::Q2",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L1::Q2/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L1::Q2/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_xBYWN9JGPSnmJVY7::L1::Q2/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L1::Q2/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_xBYWN9JGPSnmJVY7::L1::Q2/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L1::Q2/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_xBYWN9JGPSnmJVY7::L1::Q2/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_xBYWN9JGPSnmJVY7::L1::Q2",
+      "ok": true,
+      "detail": "Why might a breeder pick several differe"
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_xBYWN9JGPSnmJVY7::L1::Q3",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_xBYWN9JGPSnmJVY7::L1::Q3",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_xBYWN9JGPSnmJVY7::L1::Q3",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_xBYWN9JGPSnmJVY7::L1::Q3",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L1::Q3/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L1::Q3/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_xBYWN9JGPSnmJVY7::L1::Q3/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L1::Q3/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_xBYWN9JGPSnmJVY7::L1::Q3/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L1::Q3/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_xBYWN9JGPSnmJVY7::L1::Q3/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_xBYWN9JGPSnmJVY7::L1::Q3",
+      "ok": true,
+      "detail": "Which pairing goal belongs to selective "
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_xBYWN9JGPSnmJVY7::L1::Q4",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_xBYWN9JGPSnmJVY7::L1::Q4",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_xBYWN9JGPSnmJVY7::L1::Q4",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_xBYWN9JGPSnmJVY7::L1::Q4",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L1::Q4/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L1::Q4/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_xBYWN9JGPSnmJVY7::L1::Q4/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L1::Q4/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_xBYWN9JGPSnmJVY7::L1::Q4/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L1::Q4/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_xBYWN9JGPSnmJVY7::L1::Q4/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_xBYWN9JGPSnmJVY7::L1::Q4",
+      "ok": true,
+      "detail": "The domestic dog descended from wolves i"
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_xBYWN9JGPSnmJVY7::L1::Q5",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_xBYWN9JGPSnmJVY7::L1::Q5",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_xBYWN9JGPSnmJVY7::L1::Q5",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_xBYWN9JGPSnmJVY7::L1::Q5",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L1::Q5/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L1::Q5/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_xBYWN9JGPSnmJVY7::L1::Q5/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L1::Q5/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_xBYWN9JGPSnmJVY7::L1::Q5/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L1::Q5/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_xBYWN9JGPSnmJVY7::L1::Q5/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_xBYWN9JGPSnmJVY7::L1::Q5",
+      "ok": true,
+      "detail": "How long must the selection loop run bef"
+    },
+    {
+      "stage": "written",
+      "name": "id grammar/kind rn_xBYWN9JGPSnmJVY7::L1::Q6",
+      "ok": true,
+      "detail": "recall"
+    },
+    {
+      "stage": "written",
+      "name": "modelAnswer present rn_xBYWN9JGPSnmJVY7::L1::Q6",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "written",
+      "name": ">=3 keywords rn_xBYWN9JGPSnmJVY7::L1::Q6",
+      "ok": true,
+      "detail": "3"
+    },
+    {
+      "stage": "written",
+      "name": "options empty-or-absent rn_xBYWN9JGPSnmJVY7::L1::Q6",
+      "ok": true,
+      "detail": "\"absent\""
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_xBYWN9JGPSnmJVY7::L1::Q6/young",
+      "ok": true,
+      "detail": "young"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_xBYWN9JGPSnmJVY7::L1::Q6/express",
+      "ok": true,
+      "detail": "express"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_xBYWN9JGPSnmJVY7::L1::Q6/desired",
+      "ok": true,
+      "detail": "desired"
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_xBYWN9JGPSnmJVY7::L1::Q6",
+      "ok": true,
+      "detail": "State which young are kept as breeding s"
+    },
+    {
+      "stage": "written",
+      "name": "id grammar/kind rn_xBYWN9JGPSnmJVY7::L1::Q7",
+      "ok": true,
+      "detail": "recall"
+    },
+    {
+      "stage": "written",
+      "name": "modelAnswer present rn_xBYWN9JGPSnmJVY7::L1::Q7",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "written",
+      "name": ">=3 keywords rn_xBYWN9JGPSnmJVY7::L1::Q7",
+      "ok": true,
+      "detail": "3"
+    },
+    {
+      "stage": "written",
+      "name": "options empty-or-absent rn_xBYWN9JGPSnmJVY7::L1::Q7",
+      "ok": true,
+      "detail": "\"absent\""
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_xBYWN9JGPSnmJVY7::L1::Q7/milk",
+      "ok": true,
+      "detail": "milk"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_xBYWN9JGPSnmJVY7::L1::Q7/eggs",
+      "ok": true,
+      "detail": "eggs"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_xBYWN9JGPSnmJVY7::L1::Q7/wool",
+      "ok": true,
+      "detail": "wool"
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_xBYWN9JGPSnmJVY7::L1::Q7",
+      "ok": true,
+      "detail": "List three livestock traits farmers comm"
+    },
+    {
+      "stage": "written",
+      "name": "id grammar/kind rn_xBYWN9JGPSnmJVY7::L1::Q8",
+      "ok": true,
+      "detail": "explain-why"
+    },
+    {
+      "stage": "written",
+      "name": "modelAnswer present rn_xBYWN9JGPSnmJVY7::L1::Q8",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "written",
+      "name": ">=3 keywords rn_xBYWN9JGPSnmJVY7::L1::Q8",
+      "ok": true,
+      "detail": "3"
+    },
+    {
+      "stage": "written",
+      "name": "options empty-or-absent rn_xBYWN9JGPSnmJVY7::L1::Q8",
+      "ok": true,
+      "detail": "\"absent\""
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_xBYWN9JGPSnmJVY7::L1::Q8/repeated",
+      "ok": true,
+      "detail": "repeated"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_xBYWN9JGPSnmJVY7::L1::Q8/generations",
+      "ok": true,
+      "detail": "generations"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_xBYWN9JGPSnmJVY7::L1::Q8/reliably",
+      "ok": true,
+      "detail": "reliably"
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_xBYWN9JGPSnmJVY7::L1::Q8",
+      "ok": true,
+      "detail": "Explain why the breeding loop must be re"
+    },
+    {
+      "stage": "written",
+      "name": "id grammar/kind rn_xBYWN9JGPSnmJVY7::L1::Q9",
+      "ok": true,
+      "detail": "application"
+    },
+    {
+      "stage": "written",
+      "name": "modelAnswer present rn_xBYWN9JGPSnmJVY7::L1::Q9",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "written",
+      "name": ">=3 keywords rn_xBYWN9JGPSnmJVY7::L1::Q9",
+      "ok": true,
+      "detail": "3"
+    },
+    {
+      "stage": "written",
+      "name": "options empty-or-absent rn_xBYWN9JGPSnmJVY7::L1::Q9",
+      "ok": true,
+      "detail": "\"absent\""
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_xBYWN9JGPSnmJVY7::L1::Q9/sheep",
+      "ok": true,
+      "detail": "sheep"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_xBYWN9JGPSnmJVY7::L1::Q9/fleece",
+      "ok": true,
+      "detail": "fleece"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_xBYWN9JGPSnmJVY7::L1::Q9/generations",
+      "ok": true,
+      "detail": "generations"
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_xBYWN9JGPSnmJVY7::L1::Q9",
+      "ok": true,
+      "detail": "A farmer wants a flock that clips more w"
+    },
+    {
+      "stage": "A0",
+      "name": "lesson keyPoints band rn_xBYWN9JGPSnmJVY7::L2",
+      "ok": true,
+      "detail": "4 KP"
+    },
+    {
+      "stage": "A0",
+      "name": "sourceHeadings 1-2 rn_xBYWN9JGPSnmJVY7::L2",
+      "ok": true,
+      "detail": "Natural selection vs artificial selection table"
+    },
+    {
+      "stage": "A0",
+      "name": "sourceHeading in corpus rn_xBYWN9JGPSnmJVY7::L2",
+      "ok": true,
+      "detail": "Natural selection vs artificial selection table"
+    },
+    {
+      "stage": "A0",
+      "name": "heading-unique across lessons rn_xBYWN9JGPSnmJVY7",
+      "ok": true,
+      "detail": "Natural selection vs artificial selection table first bound to L0"
+    },
+    {
+      "stage": "A0",
+      "name": "specRefs subset rn_xBYWN9JGPSnmJVY7::L2",
+      "ok": true,
+      "detail": "5.11"
+    },
+    {
+      "stage": "A0",
+      "name": "depthLayers present rn_xBYWN9JGPSnmJVY7::L2",
+      "ok": true,
+      "detail": "low/medium"
+    },
+    {
+      "stage": "B2",
+      "name": "9 checks per module rn_xBYWN9JGPSnmJVY7::L2",
+      "ok": true,
+      "detail": "9 checks"
+    },
+    {
+      "stage": "A0",
+      "name": "kind order rn_xBYWN9JGPSnmJVY7::L2",
+      "ok": true,
+      "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_xBYWN9JGPSnmJVY7::L2::Q1",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_xBYWN9JGPSnmJVY7::L2::Q1",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_xBYWN9JGPSnmJVY7::L2::Q1",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_xBYWN9JGPSnmJVY7::L2::Q1",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L2::Q1/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L2::Q1/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_xBYWN9JGPSnmJVY7::L2::Q1/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L2::Q1/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_xBYWN9JGPSnmJVY7::L2::Q1/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L2::Q1/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_xBYWN9JGPSnmJVY7::L2::Q1/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_xBYWN9JGPSnmJVY7::L2::Q1",
+      "ok": true,
+      "detail": "Which statement separates artificial fro"
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_xBYWN9JGPSnmJVY7::L2::Q2",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_xBYWN9JGPSnmJVY7::L2::Q2",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_xBYWN9JGPSnmJVY7::L2::Q2",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_xBYWN9JGPSnmJVY7::L2::Q2",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L2::Q2/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L2::Q2/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_xBYWN9JGPSnmJVY7::L2::Q2/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L2::Q2/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_xBYWN9JGPSnmJVY7::L2::Q2/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L2::Q2/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_xBYWN9JGPSnmJVY7::L2::Q2/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_xBYWN9JGPSnmJVY7::L2::Q2",
+      "ok": true,
+      "detail": "A feature bred for human benefit may red"
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_xBYWN9JGPSnmJVY7::L2::Q3",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_xBYWN9JGPSnmJVY7::L2::Q3",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_xBYWN9JGPSnmJVY7::L2::Q3",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_xBYWN9JGPSnmJVY7::L2::Q3",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L2::Q3/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L2::Q3/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_xBYWN9JGPSnmJVY7::L2::Q3/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L2::Q3/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_xBYWN9JGPSnmJVY7::L2::Q3/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L2::Q3/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_xBYWN9JGPSnmJVY7::L2::Q3/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_xBYWN9JGPSnmJVY7::L2::Q3",
+      "ok": true,
+      "detail": "Why does artificial selection usually mo"
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_xBYWN9JGPSnmJVY7::L2::Q4",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_xBYWN9JGPSnmJVY7::L2::Q4",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_xBYWN9JGPSnmJVY7::L2::Q4",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_xBYWN9JGPSnmJVY7::L2::Q4",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L2::Q4/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L2::Q4/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_xBYWN9JGPSnmJVY7::L2::Q4/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L2::Q4/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_xBYWN9JGPSnmJVY7::L2::Q4/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L2::Q4/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_xBYWN9JGPSnmJVY7::L2::Q4/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_xBYWN9JGPSnmJVY7::L2::Q4",
+      "ok": true,
+      "detail": "Which outcome belongs to natural selecti"
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_xBYWN9JGPSnmJVY7::L2::Q5",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_xBYWN9JGPSnmJVY7::L2::Q5",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_xBYWN9JGPSnmJVY7::L2::Q5",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_xBYWN9JGPSnmJVY7::L2::Q5",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L2::Q5/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L2::Q5/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_xBYWN9JGPSnmJVY7::L2::Q5/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L2::Q5/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_xBYWN9JGPSnmJVY7::L2::Q5/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_xBYWN9JGPSnmJVY7::L2::Q5/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_xBYWN9JGPSnmJVY7::L2::Q5/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_xBYWN9JGPSnmJVY7::L2::Q5",
+      "ok": true,
+      "detail": "What must an exam answer about creating "
+    },
+    {
+      "stage": "written",
+      "name": "id grammar/kind rn_xBYWN9JGPSnmJVY7::L2::Q6",
+      "ok": true,
+      "detail": "recall"
+    },
+    {
+      "stage": "written",
+      "name": "modelAnswer present rn_xBYWN9JGPSnmJVY7::L2::Q6",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "written",
+      "name": ">=3 keywords rn_xBYWN9JGPSnmJVY7::L2::Q6",
+      "ok": true,
+      "detail": "3"
+    },
+    {
+      "stage": "written",
+      "name": "options empty-or-absent rn_xBYWN9JGPSnmJVY7::L2::Q6",
+      "ok": true,
+      "detail": "\"absent\""
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_xBYWN9JGPSnmJVY7::L2::Q6/natural",
+      "ok": true,
+      "detail": "natural"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_xBYWN9JGPSnmJVY7::L2::Q6/artificial",
+      "ok": true,
+      "detail": "artificial"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_xBYWN9JGPSnmJVY7::L2::Q6/humans",
+      "ok": true,
+      "detail": "humans"
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_xBYWN9JGPSnmJVY7::L2::Q6",
+      "ok": true,
+      "detail": "State the two forces compared when descr"
+    },
+    {
+      "stage": "written",
+      "name": "id grammar/kind rn_xBYWN9JGPSnmJVY7::L2::Q7",
+      "ok": true,
+      "detail": "recall"
+    },
+    {
+      "stage": "written",
+      "name": "modelAnswer present rn_xBYWN9JGPSnmJVY7::L2::Q7",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "written",
+      "name": ">=3 keywords rn_xBYWN9JGPSnmJVY7::L2::Q7",
+      "ok": true,
+      "detail": "3"
+    },
+    {
+      "stage": "written",
+      "name": "options empty-or-absent rn_xBYWN9JGPSnmJVY7::L2::Q7",
+      "ok": true,
+      "detail": "\"absent\""
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_xBYWN9JGPSnmJVY7::L2::Q7/valued",
+      "ok": true,
+      "detail": "valued"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_xBYWN9JGPSnmJVY7::L2::Q7/people",
+      "ok": true,
+      "detail": "people"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_xBYWN9JGPSnmJVY7::L2::Q7/survival",
+      "ok": true,
+      "detail": "survival"
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_xBYWN9JGPSnmJVY7::L2::Q7",
+      "ok": true,
+      "detail": "State what artificial selection produces"
+    },
+    {
+      "stage": "written",
+      "name": "id grammar/kind rn_xBYWN9JGPSnmJVY7::L2::Q8",
+      "ok": true,
+      "detail": "explain-why"
+    },
+    {
+      "stage": "written",
+      "name": "modelAnswer present rn_xBYWN9JGPSnmJVY7::L2::Q8",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "written",
+      "name": ">=3 keywords rn_xBYWN9JGPSnmJVY7::L2::Q8",
+      "ok": true,
+      "detail": "3"
+    },
+    {
+      "stage": "written",
+      "name": "options empty-or-absent rn_xBYWN9JGPSnmJVY7::L2::Q8",
+      "ok": true,
+      "detail": "\"absent\""
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_xBYWN9JGPSnmJVY7::L2::Q8/humans",
+      "ok": true,
+      "detail": "humans"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_xBYWN9JGPSnmJVY7::L2::Q8/breed",
+      "ok": true,
+      "detail": "breed"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_xBYWN9JGPSnmJVY7::L2::Q8/survival",
+      "ok": true,
+      "detail": "survival"
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_xBYWN9JGPSnmJVY7::L2::Q8",
+      "ok": true,
+      "detail": "Explain why a feature favoured by breede"
+    },
+    {
+      "stage": "written",
+      "name": "id grammar/kind rn_xBYWN9JGPSnmJVY7::L2::Q9",
+      "ok": true,
+      "detail": "application"
+    },
+    {
+      "stage": "written",
+      "name": "modelAnswer present rn_xBYWN9JGPSnmJVY7::L2::Q9",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "written",
+      "name": ">=3 keywords rn_xBYWN9JGPSnmJVY7::L2::Q9",
+      "ok": true,
+      "detail": "3"
+    },
+    {
+      "stage": "written",
+      "name": "options empty-or-absent rn_xBYWN9JGPSnmJVY7::L2::Q9",
+      "ok": true,
+      "detail": "\"absent\""
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_xBYWN9JGPSnmJVY7::L2::Q9/offspring",
+      "ok": true,
+      "detail": "offspring"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_xBYWN9JGPSnmJVY7::L2::Q9/repeating",
+      "ok": true,
+      "detail": "repeating"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_xBYWN9JGPSnmJVY7::L2::Q9/generations",
+      "ok": true,
+      "detail": "generations"
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_xBYWN9JGPSnmJVY7::L2::Q9",
+      "ok": true,
+      "detail": "A breeder claims one mating between two "
+    },
+    {
+      "stage": "AN",
+      "name": "per-module pre-rotation option sanity rn_xBYWN9JGPSnmJVY7",
+      "ok": true,
+      "detail": "census computed post-rotation"
+    },
+    {
+      "stage": "2.1B",
+      "name": "zero 8-gram overlaps vs corpus body rn_xBYWN9JGPSnmJVY7",
+      "ok": true,
+      "detail": "clean"
+    },
+    {
+      "stage": "NUM",
+      "name": "rn_xBYWN9JGPSnmJVY7: corpus fact: the natural-versus-artificial comparison table contrasts the two selection processes across three rows - occurrence, outcome and timescale - so 1 + 1 + 1 = 3",
+      "ok": true,
+      "detail": "corpus fact: the natural-versus-artificial comparison table contrasts the two selection processes across three rows - occurrence, outcome and timescale - so 1 + 1 + 1 = 3"
+    },
+    {
+      "stage": "A0",
+      "name": "ajv 0.7: rn_hybmmF3JNk7kxzJZ",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "A0",
+      "name": "spec text verbatim rn_hybmmF3JNk7kxzJZ/5.10",
+      "ok": true,
+      "detail": "graph=\"understand how selective breeding can de\""
+    },
+    {
+      "stage": "A0",
+      "name": "spec code in register rn_hybmmF3JNk7kxzJZ/5.10",
+      "ok": true,
+      "detail": "register=5.10"
+    },
+    {
+      "stage": "A0",
+      "name": "primer word band rn_hybmmF3JNk7kxzJZ",
+      "ok": true,
+      "detail": "52 words"
+    },
+    {
+      "stage": "A0",
+      "name": "noteRef identity rn_hybmmF3JNk7kxzJZ",
+      "ok": true,
+      "detail": "path=5-use-of-biological-resources/selective-breeding/selective-breeding-in-plants.md"
+    },
+    {
+      "stage": "A0",
+      "name": "topicTitle matches curriculum topic rn_hybmmF3JNk7kxzJZ",
+      "ok": true,
+      "detail": "Use of biological resources vs 5-use-of-biological-resources"
+    },
+    {
+      "stage": "A0",
+      "name": "glossary band rn_hybmmF3JNk7kxzJZ",
+      "ok": true,
+      "detail": "5 terms"
+    },
+    {
+      "stage": "A0",
+      "name": "glossary firstLesson rn_hybmmF3JNk7kxzJZ/artificial selection",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "stage": "A0",
+      "name": "glossary firstLesson rn_hybmmF3JNk7kxzJZ/variety",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "stage": "A0",
+      "name": "glossary firstLesson rn_hybmmF3JNk7kxzJZ/gene pool",
+      "ok": true,
+      "detail": "2"
+    },
+    {
+      "stage": "A0",
+      "name": "glossary firstLesson rn_hybmmF3JNk7kxzJZ/allele",
+      "ok": true,
+      "detail": "2"
+    },
+    {
+      "stage": "A0",
+      "name": "glossary firstLesson rn_hybmmF3JNk7kxzJZ/inbreeding",
+      "ok": true,
+      "detail": "2"
+    },
+    {
+      "stage": "A0",
+      "name": "workedExample shape rn_hybmmF3JNk7kxzJZ",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "A0",
+      "name": "figure ids unique rn_hybmmF3JNk7kxzJZ",
+      "ok": true,
+      "detail": "1 figs"
+    },
+    {
+      "stage": "A0",
+      "name": "figure host lesson exists rn_hybmmF3JNk7kxzJZ/fig-01",
+      "ok": true,
+      "detail": "L1"
+    },
+    {
+      "stage": "A0",
+      "name": "figure sourceHeading bound rn_hybmmF3JNk7kxzJZ/fig-01",
+      "ok": true,
+      "detail": "[\"Selective breeding definition\",\"Selective breeding in plants\"] vs Selective breeding in plants"
+    },
+    {
+      "stage": "A0",
+      "name": "figure url corpus-namespace rn_hybmmF3JNk7kxzJZ/fig-01",
+      "ok": true,
+      "detail": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionN"
+    },
+    {
+      "stage": "A0",
+      "name": "figure asset exists in corpus rn_hybmmF3JNk7kxzJZ/fig-01",
+      "ok": true,
+      "detail": "31659b68b481-selective-breeding-plants.png"
+    },
+    {
+      "stage": "A0",
+      "name": "figure binding rn_hybmmF3JNk7kxzJZ/fig-01",
+      "ok": true,
+      "detail": "heading-unique"
+    },
+    {
+      "stage": "A0",
+      "name": "figure caption present rn_hybmmF3JNk7kxzJZ/fig-01",
+      "ok": true,
+      "detail": "caption"
+    },
+    {
+      "stage": "A0",
+      "name": "all corpus images bound rn_hybmmF3JNk7kxzJZ",
+      "ok": true,
+      "detail": "1 images vs 1 figs"
+    },
+    {
+      "stage": "A0",
+      "name": "lesson keyPoints band rn_hybmmF3JNk7kxzJZ::L1",
+      "ok": true,
+      "detail": "5 KP"
+    },
+    {
+      "stage": "A0",
+      "name": "sourceHeadings 1-2 rn_hybmmF3JNk7kxzJZ::L1",
+      "ok": true,
+      "detail": "Selective breeding definition|Selective breeding in plants"
+    },
+    {
+      "stage": "A0",
+      "name": "sourceHeading in corpus rn_hybmmF3JNk7kxzJZ::L1",
+      "ok": true,
+      "detail": "Selective breeding definition"
+    },
+    {
+      "stage": "A0",
+      "name": "heading-unique across lessons rn_hybmmF3JNk7kxzJZ",
+      "ok": true,
+      "detail": "Selective breeding definition first bound to L0"
+    },
+    {
+      "stage": "A0",
+      "name": "sourceHeading in corpus rn_hybmmF3JNk7kxzJZ::L1",
+      "ok": true,
+      "detail": "Selective breeding in plants"
+    },
+    {
+      "stage": "A0",
+      "name": "heading-unique across lessons rn_hybmmF3JNk7kxzJZ",
+      "ok": true,
+      "detail": "Selective breeding in plants first bound to L0"
+    },
+    {
+      "stage": "A0",
+      "name": "specRefs subset rn_hybmmF3JNk7kxzJZ::L1",
+      "ok": true,
+      "detail": "5.10"
+    },
+    {
+      "stage": "A0",
+      "name": "depthLayers present rn_hybmmF3JNk7kxzJZ::L1",
+      "ok": true,
+      "detail": "low/medium"
+    },
+    {
+      "stage": "B2",
+      "name": "9 checks per module rn_hybmmF3JNk7kxzJZ::L1",
+      "ok": true,
+      "detail": "9 checks"
+    },
+    {
+      "stage": "A0",
+      "name": "kind order rn_hybmmF3JNk7kxzJZ::L1",
+      "ok": true,
+      "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_hybmmF3JNk7kxzJZ::L1::Q1",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_hybmmF3JNk7kxzJZ::L1::Q1",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_hybmmF3JNk7kxzJZ::L1::Q1",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_hybmmF3JNk7kxzJZ::L1::Q1",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L1::Q1/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L1::Q1/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_hybmmF3JNk7kxzJZ::L1::Q1/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L1::Q1/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_hybmmF3JNk7kxzJZ::L1::Q1/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L1::Q1/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_hybmmF3JNk7kxzJZ::L1::Q1/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_hybmmF3JNk7kxzJZ::L1::Q1",
+      "ok": true,
+      "detail": "What does artificial selection in plants"
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_hybmmF3JNk7kxzJZ::L1::Q2",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_hybmmF3JNk7kxzJZ::L1::Q2",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_hybmmF3JNk7kxzJZ::L1::Q2",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_hybmmF3JNk7kxzJZ::L1::Q2",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L1::Q2/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L1::Q2/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_hybmmF3JNk7kxzJZ::L1::Q2/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L1::Q2/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_hybmmF3JNk7kxzJZ::L1::Q2/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L1::Q2/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_hybmmF3JNk7kxzJZ::L1::Q2/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_hybmmF3JNk7kxzJZ::L1::Q2",
+      "ok": true,
+      "detail": "Why is the crossing repeated after the f"
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_hybmmF3JNk7kxzJZ::L1::Q3",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_hybmmF3JNk7kxzJZ::L1::Q3",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_hybmmF3JNk7kxzJZ::L1::Q3",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_hybmmF3JNk7kxzJZ::L1::Q3",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L1::Q3/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L1::Q3/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_hybmmF3JNk7kxzJZ::L1::Q3/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L1::Q3/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_hybmmF3JNk7kxzJZ::L1::Q3/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L1::Q3/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_hybmmF3JNk7kxzJZ::L1::Q3/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_hybmmF3JNk7kxzJZ::L1::Q3",
+      "ok": true,
+      "detail": "Which target belongs to plant rather tha"
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_hybmmF3JNk7kxzJZ::L1::Q4",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_hybmmF3JNk7kxzJZ::L1::Q4",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_hybmmF3JNk7kxzJZ::L1::Q4",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_hybmmF3JNk7kxzJZ::L1::Q4",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L1::Q4/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L1::Q4/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_hybmmF3JNk7kxzJZ::L1::Q4/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L1::Q4/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_hybmmF3JNk7kxzJZ::L1::Q4/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L1::Q4/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_hybmmF3JNk7kxzJZ::L1::Q4/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_hybmmF3JNk7kxzJZ::L1::Q4",
+      "ok": true,
+      "detail": "Six familiar vegetables were all moulded"
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_hybmmF3JNk7kxzJZ::L1::Q5",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_hybmmF3JNk7kxzJZ::L1::Q5",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_hybmmF3JNk7kxzJZ::L1::Q5",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_hybmmF3JNk7kxzJZ::L1::Q5",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L1::Q5/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L1::Q5/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_hybmmF3JNk7kxzJZ::L1::Q5/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L1::Q5/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_hybmmF3JNk7kxzJZ::L1::Q5/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L1::Q5/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_hybmmF3JNk7kxzJZ::L1::Q5/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_hybmmF3JNk7kxzJZ::L1::Q5",
+      "ok": true,
+      "detail": "How soon can a grower claim a reliable n"
+    },
+    {
+      "stage": "written",
+      "name": "id grammar/kind rn_hybmmF3JNk7kxzJZ::L1::Q6",
+      "ok": true,
+      "detail": "recall"
+    },
+    {
+      "stage": "written",
+      "name": "modelAnswer present rn_hybmmF3JNk7kxzJZ::L1::Q6",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "written",
+      "name": ">=3 keywords rn_hybmmF3JNk7kxzJZ::L1::Q6",
+      "ok": true,
+      "detail": "3"
+    },
+    {
+      "stage": "written",
+      "name": "options empty-or-absent rn_hybmmF3JNk7kxzJZ::L1::Q6",
+      "ok": true,
+      "detail": "\"absent\""
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_hybmmF3JNk7kxzJZ::L1::Q6/disease",
+      "ok": true,
+      "detail": "disease"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_hybmmF3JNk7kxzJZ::L1::Q6/resistance",
+      "ok": true,
+      "detail": "resistance"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_hybmmF3JNk7kxzJZ::L1::Q6/harvest",
+      "ok": true,
+      "detail": "harvest"
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_hybmmF3JNk7kxzJZ::L1::Q6",
+      "ok": true,
+      "detail": "State two features growers select for in"
+    },
+    {
+      "stage": "written",
+      "name": "id grammar/kind rn_hybmmF3JNk7kxzJZ::L1::Q7",
+      "ok": true,
+      "detail": "recall"
+    },
+    {
+      "stage": "written",
+      "name": "modelAnswer present rn_hybmmF3JNk7kxzJZ::L1::Q7",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "written",
+      "name": ">=3 keywords rn_hybmmF3JNk7kxzJZ::L1::Q7",
+      "ok": true,
+      "detail": "3"
+    },
+    {
+      "stage": "written",
+      "name": "options empty-or-absent rn_hybmmF3JNk7kxzJZ::L1::Q7",
+      "ok": true,
+      "detail": "\"absent\""
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_hybmmF3JNk7kxzJZ::L1::Q7/human",
+      "ok": true,
+      "detail": "human"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_hybmmF3JNk7kxzJZ::L1::Q7/grower",
+      "ok": true,
+      "detail": "grower"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_hybmmF3JNk7kxzJZ::L1::Q7/cross",
+      "ok": true,
+      "detail": "cross"
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_hybmmF3JNk7kxzJZ::L1::Q7",
+      "ok": true,
+      "detail": "State the selector in artificial selecti"
+    },
+    {
+      "stage": "written",
+      "name": "id grammar/kind rn_hybmmF3JNk7kxzJZ::L1::Q8",
+      "ok": true,
+      "detail": "explain-why"
+    },
+    {
+      "stage": "written",
+      "name": "modelAnswer present rn_hybmmF3JNk7kxzJZ::L1::Q8",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "written",
+      "name": ">=3 keywords rn_hybmmF3JNk7kxzJZ::L1::Q8",
+      "ok": true,
+      "detail": "3"
+    },
+    {
+      "stage": "written",
+      "name": "options empty-or-absent rn_hybmmF3JNk7kxzJZ::L1::Q8",
+      "ok": true,
+      "detail": "\"absent\""
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_hybmmF3JNk7kxzJZ::L1::Q8/seedling",
+      "ok": true,
+      "detail": "seedling"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_hybmmF3JNk7kxzJZ::L1::Q8/select",
+      "ok": true,
+      "detail": "select"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_hybmmF3JNk7kxzJZ::L1::Q8/offspring",
+      "ok": true,
+      "detail": "offspring"
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_hybmmF3JNk7kxzJZ::L1::Q8",
+      "ok": true,
+      "detail": "Explain why offspring screening matters "
+    },
+    {
+      "stage": "written",
+      "name": "id grammar/kind rn_hybmmF3JNk7kxzJZ::L1::Q9",
+      "ok": true,
+      "detail": "application"
+    },
+    {
+      "stage": "written",
+      "name": "modelAnswer present rn_hybmmF3JNk7kxzJZ::L1::Q9",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "written",
+      "name": ">=3 keywords rn_hybmmF3JNk7kxzJZ::L1::Q9",
+      "ok": true,
+      "detail": "3"
+    },
+    {
+      "stage": "written",
+      "name": "options empty-or-absent rn_hybmmF3JNk7kxzJZ::L1::Q9",
+      "ok": true,
+      "detail": "\"absent\""
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_hybmmF3JNk7kxzJZ::L1::Q9/drought",
+      "ok": true,
+      "detail": "drought"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_hybmmF3JNk7kxzJZ::L1::Q9/re-cross",
+      "ok": true,
+      "detail": "re-cross"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_hybmmF3JNk7kxzJZ::L1::Q9/generations",
+      "ok": true,
+      "detail": "generations"
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_hybmmF3JNk7kxzJZ::L1::Q9",
+      "ok": true,
+      "detail": "A region needs a wheat line that survive"
+    },
+    {
+      "stage": "A0",
+      "name": "lesson keyPoints band rn_hybmmF3JNk7kxzJZ::L2",
+      "ok": true,
+      "detail": "4 KP"
+    },
+    {
+      "stage": "A0",
+      "name": "sourceHeadings 1-2 rn_hybmmF3JNk7kxzJZ::L2",
+      "ok": true,
+      "detail": "Problems with selective breeding"
+    },
+    {
+      "stage": "A0",
+      "name": "sourceHeading in corpus rn_hybmmF3JNk7kxzJZ::L2",
+      "ok": true,
+      "detail": "Problems with selective breeding"
+    },
+    {
+      "stage": "A0",
+      "name": "heading-unique across lessons rn_hybmmF3JNk7kxzJZ",
+      "ok": true,
+      "detail": "Problems with selective breeding first bound to L0"
+    },
+    {
+      "stage": "A0",
+      "name": "specRefs subset rn_hybmmF3JNk7kxzJZ::L2",
+      "ok": true,
+      "detail": "5.10"
+    },
+    {
+      "stage": "A0",
+      "name": "depthLayers present rn_hybmmF3JNk7kxzJZ::L2",
+      "ok": true,
+      "detail": "low/medium"
+    },
+    {
+      "stage": "B2",
+      "name": "9 checks per module rn_hybmmF3JNk7kxzJZ::L2",
+      "ok": true,
+      "detail": "9 checks"
+    },
+    {
+      "stage": "A0",
+      "name": "kind order rn_hybmmF3JNk7kxzJZ::L2",
+      "ok": true,
+      "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_hybmmF3JNk7kxzJZ::L2::Q1",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_hybmmF3JNk7kxzJZ::L2::Q1",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_hybmmF3JNk7kxzJZ::L2::Q1",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_hybmmF3JNk7kxzJZ::L2::Q1",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L2::Q1/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L2::Q1/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_hybmmF3JNk7kxzJZ::L2::Q1/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L2::Q1/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_hybmmF3JNk7kxzJZ::L2::Q1/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L2::Q1/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_hybmmF3JNk7kxzJZ::L2::Q1/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_hybmmF3JNk7kxzJZ::L2::Q1",
+      "ok": true,
+      "detail": "What is inbreeding?"
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_hybmmF3JNk7kxzJZ::L2::Q2",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_hybmmF3JNk7kxzJZ::L2::Q2",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_hybmmF3JNk7kxzJZ::L2::Q2",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_hybmmF3JNk7kxzJZ::L2::Q2",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L2::Q2/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L2::Q2/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_hybmmF3JNk7kxzJZ::L2::Q2/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L2::Q2/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_hybmmF3JNk7kxzJZ::L2::Q2/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L2::Q2/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_hybmmF3JNk7kxzJZ::L2::Q2/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_hybmmF3JNk7kxzJZ::L2::Q2",
+      "ok": true,
+      "detail": "What happens to the gene pool under repe"
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_hybmmF3JNk7kxzJZ::L2::Q3",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_hybmmF3JNk7kxzJZ::L2::Q3",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_hybmmF3JNk7kxzJZ::L2::Q3",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_hybmmF3JNk7kxzJZ::L2::Q3",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L2::Q3/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L2::Q3/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_hybmmF3JNk7kxzJZ::L2::Q3/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L2::Q3/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_hybmmF3JNk7kxzJZ::L2::Q3/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L2::Q3/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_hybmmF3JNk7kxzJZ::L2::Q3/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_hybmmF3JNk7kxzJZ::L2::Q3",
+      "ok": true,
+      "detail": "Why does a narrowed gene pool raise dise"
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_hybmmF3JNk7kxzJZ::L2::Q4",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_hybmmF3JNk7kxzJZ::L2::Q4",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_hybmmF3JNk7kxzJZ::L2::Q4",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_hybmmF3JNk7kxzJZ::L2::Q4",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L2::Q4/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L2::Q4/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_hybmmF3JNk7kxzJZ::L2::Q4/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L2::Q4/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_hybmmF3JNk7kxzJZ::L2::Q4/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L2::Q4/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_hybmmF3JNk7kxzJZ::L2::Q4/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_hybmmF3JNk7kxzJZ::L2::Q4",
+      "ok": true,
+      "detail": "Which is a documented consequence of a r"
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_hybmmF3JNk7kxzJZ::L2::Q5",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_hybmmF3JNk7kxzJZ::L2::Q5",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_hybmmF3JNk7kxzJZ::L2::Q5",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_hybmmF3JNk7kxzJZ::L2::Q5",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L2::Q5/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L2::Q5/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_hybmmF3JNk7kxzJZ::L2::Q5/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L2::Q5/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_hybmmF3JNk7kxzJZ::L2::Q5/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_hybmmF3JNk7kxzJZ::L2::Q5/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_hybmmF3JNk7kxzJZ::L2::Q5/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_hybmmF3JNk7kxzJZ::L2::Q5",
+      "ok": true,
+      "detail": "Inbreeding across generations trades whi"
+    },
+    {
+      "stage": "written",
+      "name": "id grammar/kind rn_hybmmF3JNk7kxzJZ::L2::Q6",
+      "ok": true,
+      "detail": "recall"
+    },
+    {
+      "stage": "written",
+      "name": "modelAnswer present rn_hybmmF3JNk7kxzJZ::L2::Q6",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "written",
+      "name": ">=3 keywords rn_hybmmF3JNk7kxzJZ::L2::Q6",
+      "ok": true,
+      "detail": "3"
+    },
+    {
+      "stage": "written",
+      "name": "options empty-or-absent rn_hybmmF3JNk7kxzJZ::L2::Q6",
+      "ok": true,
+      "detail": "\"absent\""
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_hybmmF3JNk7kxzJZ::L2::Q6/gene pool",
+      "ok": true,
+      "detail": "gene pool"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_hybmmF3JNk7kxzJZ::L2::Q6/alleles",
+      "ok": true,
+      "detail": "alleles"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_hybmmF3JNk7kxzJZ::L2::Q6/population",
+      "ok": true,
+      "detail": "population"
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_hybmmF3JNk7kxzJZ::L2::Q6",
+      "ok": true,
+      "detail": "State the term for all the allele versio"
+    },
+    {
+      "stage": "written",
+      "name": "id grammar/kind rn_hybmmF3JNk7kxzJZ::L2::Q7",
+      "ok": true,
+      "detail": "recall"
+    },
+    {
+      "stage": "written",
+      "name": "modelAnswer present rn_hybmmF3JNk7kxzJZ::L2::Q7",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "written",
+      "name": ">=3 keywords rn_hybmmF3JNk7kxzJZ::L2::Q7",
+      "ok": true,
+      "detail": "3"
+    },
+    {
+      "stage": "written",
+      "name": "options empty-or-absent rn_hybmmF3JNk7kxzJZ::L2::Q7",
+      "ok": true,
+      "detail": "\"absent\""
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_hybmmF3JNk7kxzJZ::L2::Q7/defects",
+      "ok": true,
+      "detail": "defects"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_hybmmF3JNk7kxzJZ::L2::Q7/vulnerable",
+      "ok": true,
+      "detail": "vulnerable"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_hybmmF3JNk7kxzJZ::L2::Q7/diseases",
+      "ok": true,
+      "detail": "diseases"
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_hybmmF3JNk7kxzJZ::L2::Q7",
+      "ok": true,
+      "detail": "State two risks that rise as the gene po"
+    },
+    {
+      "stage": "written",
+      "name": "id grammar/kind rn_hybmmF3JNk7kxzJZ::L2::Q8",
+      "ok": true,
+      "detail": "explain-why"
+    },
+    {
+      "stage": "written",
+      "name": "modelAnswer present rn_hybmmF3JNk7kxzJZ::L2::Q8",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "written",
+      "name": ">=3 keywords rn_hybmmF3JNk7kxzJZ::L2::Q8",
+      "ok": true,
+      "detail": "3"
+    },
+    {
+      "stage": "written",
+      "name": "options empty-or-absent rn_hybmmF3JNk7kxzJZ::L2::Q8",
+      "ok": true,
+      "detail": "\"absent\""
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_hybmmF3JNk7kxzJZ::L2::Q8/closely",
+      "ok": true,
+      "detail": "closely"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_hybmmF3JNk7kxzJZ::L2::Q8/related",
+      "ok": true,
+      "detail": "related"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_hybmmF3JNk7kxzJZ::L2::Q8/pool",
+      "ok": true,
+      "detail": "pool"
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_hybmmF3JNk7kxzJZ::L2::Q8",
+      "ok": true,
+      "detail": "Explain why breeders' 'best only' rule c"
+    },
+    {
+      "stage": "written",
+      "name": "id grammar/kind rn_hybmmF3JNk7kxzJZ::L2::Q9",
+      "ok": true,
+      "detail": "application"
+    },
+    {
+      "stage": "written",
+      "name": "modelAnswer present rn_hybmmF3JNk7kxzJZ::L2::Q9",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "written",
+      "name": ">=3 keywords rn_hybmmF3JNk7kxzJZ::L2::Q9",
+      "ok": true,
+      "detail": "3"
+    },
+    {
+      "stage": "written",
+      "name": "options empty-or-absent rn_hybmmF3JNk7kxzJZ::L2::Q9",
+      "ok": true,
+      "detail": "\"absent\""
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_hybmmF3JNk7kxzJZ::L2::Q9/gene pool",
+      "ok": true,
+      "detail": "gene pool"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_hybmmF3JNk7kxzJZ::L2::Q9/defects",
+      "ok": true,
+      "detail": "defects"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_hybmmF3JNk7kxzJZ::L2::Q9/resistant",
+      "ok": true,
+      "detail": "resistant"
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_hybmmF3JNk7kxzJZ::L2::Q9",
+      "ok": true,
+      "detail": "A rare wheat variety shows shrinking yie"
+    },
+    {
+      "stage": "AN",
+      "name": "per-module pre-rotation option sanity rn_hybmmF3JNk7kxzJZ",
+      "ok": true,
+      "detail": "census computed post-rotation"
+    },
+    {
+      "stage": "2.1B",
+      "name": "zero 8-gram overlaps vs corpus body rn_hybmmF3JNk7kxzJZ",
+      "ok": true,
+      "detail": "clean"
+    },
+    {
+      "stage": "NUM",
+      "name": "rn_hybmmF3JNk7kxzJZ: corpus fact: inbreeding raises two documented risks - inheriting harmful genetic defects and vulnerability to new diseases - so 1 + 1 = 2",
+      "ok": true,
+      "detail": "corpus fact: inbreeding raises two documented risks - inheriting harmful genetic defects and vulnerability to new diseases - so 1 + 1 = 2"
+    },
+    {
+      "stage": "NUM",
+      "name": "rn_hybmmF3JNk7kxzJZ: corpus fact: wild brassica gave rise to six named crops - cauliflower, cabbage, broccoli, Brussels sprouts, kale and kohlrabi - so the named crop count is 6",
+      "ok": true,
+      "detail": "corpus fact: wild brassica gave rise to six named crops - cauliflower, cabbage, broccoli, Brussels sprouts, kale and kohlrabi - so the named crop count is 6"
+    },
+    {
+      "stage": "A0",
+      "name": "corpus-limited heading exception scope (none declared for the biology stage-B wave 9)",
+      "ok": true,
+      "detail": "0 duplicate claims"
+    },
+    {
+      "stage": "C-6",
+      "name": "physics+chemistry+bio prior generation present on tree (379 per-namespace = 239 at 0.6/1.5/1.2 + 140 prior biology at 0.7/1.6/1.3)",
+      "ok": true,
+      "detail": "239+140/239+140/239+140"
+    },
+    {
+      "stage": "C-6",
+      "name": "chemistry prior generation present (112 sources / 112 lessons / 112 packages)",
+      "ok": true,
+      "detail": "112/112/112"
+    },
+    {
+      "stage": "C-6",
+      "name": "physics+chemistry+bio-stageA prior union ajv x1137 (generation-union schemas)",
+      "ok": true,
+      "detail": "0 failures"
+    },
+    {
+      "stage": "C-6",
+      "name": "chemistry prior-generation union ajv x336 (0.5 sources vs 0.6, 1.4 lessons vs 1.5, 1.1 packages vs 1.2 — generation-union schemas)",
+      "ok": true,
+      "detail": "0 failures"
+    },
+    {
+      "stage": "C-6",
+      "name": "stage-B wave-10 outputs ajv x4 (2 vs 1.6 + 2 vs 1.3)",
+      "ok": true,
+      "detail": "0 failures"
+    },
+    {
+      "stage": "C-6",
+      "name": "stage-B wave-10 outputs ajv x6 (2 sources vs 0.7 + 2 lessons vs 1.6 + 2 packages vs 1.3)",
+      "ok": true,
+      "detail": "0 failures"
+    },
+    {
+      "stage": "AN",
+      "name": "correct-key census >=3 distinct (post-rotation) rn_xBYWN9JGPSnmJVY7",
+      "ok": true,
+      "detail": "{\"A\":3,\"B\":3,\"C\":2,\"D\":2}"
+    },
+    {
+      "stage": "AN",
+      "name": "no correct letter exceeds 5 (post-rotation) rn_xBYWN9JGPSnmJVY7",
+      "ok": true,
+      "detail": "{\"A\":3,\"B\":3,\"C\":2,\"D\":2}"
+    },
+    {
+      "stage": "AN",
+      "name": "correct-key census >=3 distinct (post-rotation) rn_hybmmF3JNk7kxzJZ",
+      "ok": true,
+      "detail": "{\"A\":3,\"B\":3,\"C\":2,\"D\":2}"
+    },
+    {
+      "stage": "AN",
+      "name": "no correct letter exceeds 5 (post-rotation) rn_hybmmF3JNk7kxzJZ",
+      "ok": true,
+      "detail": "{\"A\":3,\"B\":3,\"C\":2,\"D\":2}"
+    },
+    {
+      "stage": "C-5",
+      "name": "checkRefs <-> questions 1:1 in order rn_xBYWN9JGPSnmJVY7",
+      "ok": true,
+      "detail": "18 vs 18"
+    },
+    {
+      "stage": "B2",
+      "name": "every module exactly 9 checkRefs rn_xBYWN9JGPSnmJVY7",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "B2",
+      "name": "identity arithmetic 9 = 5+2+1+1 per module rn_xBYWN9JGPSnmJVY7",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "C-5",
+      "name": "checkRefs <-> questions 1:1 in order rn_hybmmF3JNk7kxzJZ",
+      "ok": true,
+      "detail": "18 vs 18"
+    },
+    {
+      "stage": "B2",
+      "name": "every module exactly 9 checkRefs rn_hybmmF3JNk7kxzJZ",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "B2",
+      "name": "identity arithmetic 9 = 5+2+1+1 per module rn_hybmmF3JNk7kxzJZ",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "G-E",
+      "name": "physics pack manifest v31 resolves (254 = 127 + 127)",
+      "ok": true,
+      "detail": "v31 x254"
+    },
+    {
+      "stage": "G-E",
+      "name": "physics pack byte conservation vs v31 x254 (untouched by biology stage-B wave 10)",
+      "ok": true,
+      "detail": "0 drift"
+    },
+    {
+      "stage": "G-E",
+      "name": "prior manifest artifact census 280 = 140 + 140 (the biology cumulative pack through wave 9, v43)",
+      "ok": true,
+      "detail": "280"
+    },
+    {
+      "stage": "G-E",
+      "name": "prior-pack byte conservation on the wave tree x280 (the biology cumulative pack through wave 9: pilot + wave-1 + wave-2 + wave-3 + wave-4 + wave-5 + wave-6 + wave-7 + wave-8 + wave-9 artifacts)",
+      "ok": true,
+      "detail": "missing=0 shaDrift=0"
+    },
+    {
+      "stage": "G-E",
+      "name": "chemistry pack manifest v32 resolves (224 = 112 + 112)",
+      "ok": true,
+      "detail": "v32 x224"
+    },
+    {
+      "stage": "G-E",
+      "name": "chemistry pack byte conservation vs v32 x224 (untouched by biology stage-B wave 10)",
+      "ok": true,
+      "detail": "0 drift"
+    },
+    {
+      "stage": "G-E",
+      "name": "G-E walk rows = 254 (112 chemistry stage-B re-proven + 140 prior biology rows re-proven + 2 stage-B wave-10 notes); the emitted INT-3 of record carries the 142 biology rows",
+      "ok": true,
+      "detail": "254"
+    },
+    {
+      "stage": "G-E",
+      "name": "legacy anchors conserved x252 (112 chemistry stage-B + 140 prior biology rows, byte-equivalent)",
+      "ok": true,
+      "detail": "0 drift"
+    },
+    {
+      "stage": "G-E",
+      "name": "wave-10 stream chars total = 25438",
+      "ok": true,
+      "detail": "25438 chars"
+    },
+    {
+      "stage": "G-E",
+      "name": "biology-scope conservation carries exactly eleven wave keys (stagea + stageb1..stageb10; per-key subtotal comparison in the order-independent physics wave-10..12 convention, since lexicographic sort interleaves stageb10 after stageb1)",
+      "ok": true,
+      "detail": "wave-bio-stagea,wave-bio-stageb1,wave-bio-stageb2,wave-bio-stageb3,wave-bio-stageb4,wave-bio-stageb5,wave-bio-stageb6,wave-bio-stageb7,wave-bio-stageb8,wave-bio-stageb9,wave-bio-stageb10"
+    },
+    {
+      "stage": "G-E",
+      "name": "prior wave subtotals conserved vs v43 (stagea + stageb1 + stageb2 + stageb3 + stageb4 + stageb5 + stageb6 + stageb7 + stageb8 + stageb9 byte-equivalent)",
+      "ok": true,
+      "detail": "v43 continuity"
+    },
+    {
+      "stage": "G-E",
+      "name": "biology cumulative chars conserved (v43 authored_chars + wave-10 chars = bio walk chars)",
+      "ok": true,
+      "detail": "1381107 vs 1381107"
+    }
+  ],
+  "gates_total": 486,
+  "gates_passed": 486,
+  "verdict": "GREEN",
+  "disclosures": [
+    "spec texts carried verbatim from the curriculum graph SPEC_POINT nodes (no spec text invented); spec codes pinned to the notes.json register rows 140..141 (0-based) — the two selective-breeding notes of the frozen B4 partition (wave 10 of 10; with this bucket the partition is fully discharged and the 142-note register is COMPLETE)",
+    "MCQ correct-key census enforced POST-transform under the declared deterministic AN rotation table (cyclic per-note re-letter) — the wave-6..12 and bio-wave-1 re-lettering precedent, table-recorded",
+    "figure alt strings carried per the 0.7 schema alt description: both of the 2 corpus alts are non-empty and kept verbatim; captions carried where the corpus carries an explanatory emphasis line (the domestic-dog breeds line and the plants example line), so both figures carry a caption this wave",
+    "note-level figures (moduleIds [], binding heading-unique per the A0 gate law): NONE this wave — both corpus figures are module-mapped to host lessons carrying their sourceHeading",
+    "corpus image URLs carried through onto the /main/ raw.githubusercontent namespace per the 0.7 schema url pattern; the corpus alt strings are kept verbatim where non-empty",
+    "worked-example census derived from the sources (totWEPop/totWENull) per the wave-8 amendment law — 0 populated / 2 designed nulls (the W10 selective-breeding bucket carries no corpus worked-example block; the natural-versus-artificial table is reference material, not a worked problem); no hardcoded counts",
+    "ajv strict mode relaxed to false for this run: the of-record schema set carries pre-existing strictTypes style notices (the wave-7..11 disclosure class); validation semantics unchanged — same draft-07 compile, same allErrors collection",
+    "the WAVE_OPEN_BASE d527ceddff041a8dd37789392ba7b06a06018b80 is the resources main tip commit A rides on — the post-wave-9 head after biology stage-B wave 9 landed (commit C d527cedd); the wave opened at that tip with no mid-flight race disclosed at open (operator directive trace 1a1d544cd50a7f81, \"Proceed\", continuing the four-plane directive chain trace 1a1d147b95e4b899 through \"ignite the next wave\" 1a1d33d324cf5a15, \"go\" 1a1d3694dd529292, \"wave 6 now\" 1a1d3ab985cf1b31, \"wave 7\" 1a1d496a5dcdc3d5, \"Open wave 8\" 1a1d4c98377cda1a, wave-9 execution 1a1d50e2f06cd141 and the \"Open it\" summary round); stage-B wave-10 sequence: commit A lands on main first, the pipeline runs with the race-guard asserting the tip still sits exactly at the commit-A pin, then commit C lands",
+    "the pipeline of record landed at commit A with every per-wave constant computed from the authored content before landing (the wave-4 corrective lesson applied): the census strings cite 2 figures / 4 lessons / 36 checks, matching the dynamic gate law; the P0 parent race-guard accepts any commit-A-chain member of wave 10 or an ancestry-verified mid-flight descendant of the wave-open base from the start (the wave-6/7/8/9 corrective precedent); a local Python mirror of the JS battery (bio10_assemble.py, 449 checks) ran fail-closed green over the authored notes before commit A — zero 8-gram echoes, zero thin SG anchors, zero under-sized keypoint lists, so the first JS run is expected green with zero corrective",
+    "the PROMOTION receipt filename carries the Asia/Dhaka execution date 20261113 while generated_at_utc is honest UTC",
+    "the B4 partition of record (frozen at stage-A open; 141 notes in 10 subtopic-atomic waves) is embedded in the INT-3 of record; wave 10 discharges the selective-breeding bucket — the FINAL bucket — and the pilot stays out of the buckets per runbook B3; with this wave the biology register is COMPLETE of record: 142/142 notes landed, no wave 11 exists to open",
+    "this v44 manifest is CUMULATIVE over the biology pack (284 artifacts = 280 prior re-pinned byte-identical + 4 wave-10 first issues), continuing the v35/v36 corrective convention that keeps the runner-owned guided-import.json index complete",
+    "NUM spot ledgers: rn_xBYWN9JGPSnmJVY7 asserts the three-row natural-versus-artificial comparison table as 1 + 1 + 1 = 3; rn_hybmmF3JNk7kxzJZ asserts the two documented inbreeding risks as 1 + 1 = 2 and the six named brassica crops as a count of 6"
+  ]
+}
