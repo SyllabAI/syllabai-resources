@@ -1,0 +1,120 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_QP6TGMDzBFP9HRvQ",
+    "corpusVersion": "sme-revision-notes-igcse-biology-19-2026-09-17",
+    "sourceLayerSha256": "dbbf0ca34521061c1581e01276fffd9321663816adf39f0ed5ee733b5a8ed11e",
+    "pinnedRef": "848c66c0538bea1ca766f246263bca123fd46814"
+  },
+  "lesson": {
+    "id": "igcse-biology::rn_QP6TGMDzBFP9HRvQ",
+    "topicTitle": "Reproduction and inheritance",
+    "subtopicTitle": "Inheritance",
+    "sourceUrl": "https://www.savemyexams.com/igcse/biology/edexcel/19/revision-notes/3-reproduction-and-inheritance/inheritance/dna-structure",
+    "specAnchors": [
+      {
+        "code": "3.16B",
+        "text": "describe a DNA molecule as two strands coiled to form a double helix, the strands being linked by a series of paired bases: adenine (A) with thymine (T), and cytosine (C) with guanine (G)"
+      }
+    ],
+    "primer": {
+      "text": "Before you can talk mutations or protein synthesis you need the shape of the molecule itself. This note assembles DNA from its parts — two strands, a sugar-phosphate backbone, four bases — and locks in the pairing rule, adenine with thymine and cytosine with guanine, that makes the double helix copyable as a template.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_QP6TGMDzBFP9HRvQ::L1",
+        "title": "The Double Helix and Its Pairing Rule",
+        "sourceHeadings": [
+          "The Structure of DNA"
+        ],
+        "specRefs": [
+          "3.16B"
+        ],
+        "opening": "DNA is the cell's genetic material, a two-stranded polymer wound into a double helix, whose sugar-phosphate backbones are bridged by paired bases obeying one rule: adenine always faces thymine, and cytosine always faces guanine.",
+        "keyPoints": [
+          "DNA stands for deoxyribonucleic acid and sits in the nucleus.",
+          "Two strands coil around each other to form the double helix.",
+          "Each strand is a sugar-phosphate backbone carrying the bases A, T, G and C.",
+          "Complementary pairing links A with T and G with C.",
+          "Each half helix acts as a template when copying is needed."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "DNA is a two-stranded molecule whose bases click together in fixed couples.",
+            "analogy": "A spiral ladder where each rung is a matching pair: only certain rungs fit.",
+            "examPointer": "Use full base names in written answers, not just the letters."
+          },
+          "medium": {
+            "restatement": "The pairing rule is what makes the helix a copying machine: either strand determines its partner exactly.",
+            "analogy": "A zip whose teeth only close in one combination, so one half predicts the other.",
+            "examPointer": "Link the template idea to both cell division and protein synthesis."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_QP6TGMDzBFP9HRvQ::L1::Q1",
+          "rn_QP6TGMDzBFP9HRvQ::L1::Q2",
+          "rn_QP6TGMDzBFP9HRvQ::L1::Q3",
+          "rn_QP6TGMDzBFP9HRvQ::L1::Q4",
+          "rn_QP6TGMDzBFP9HRvQ::L1::Q5",
+          "rn_QP6TGMDzBFP9HRvQ::L1::Q6",
+          "rn_QP6TGMDzBFP9HRvQ::L1::Q7",
+          "rn_QP6TGMDzBFP9HRvQ::L1::Q8",
+          "rn_QP6TGMDzBFP9HRvQ::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "DNA",
+          "definition": "Deoxyribonucleic acid, the genetic material held in the nucleus.",
+          "firstLesson": 1
+        },
+        {
+          "term": "double helix",
+          "definition": "The two-stranded coil formed by the DNA molecule.",
+          "firstLesson": 1
+        },
+        {
+          "term": "complementary base pairing",
+          "definition": "The fixed rule that adenine pairs with thymine and cytosine pairs with guanine.",
+          "firstLesson": 1
+        },
+        {
+          "term": "template",
+          "definition": "A strand whose bases dictate exactly which bases join to rebuild its partner.",
+          "firstLesson": 1
+        }
+      ],
+      "workedExample": null
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-biology-19/assets/d2c9bb672557-27-dna-double-helix-formation.png",
+        "alt": "DNA double helix formation, downloadable AS & A Level Biology revision notes",
+        "sourceHeading": "The Structure of DNA",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique"
+      }
+    ]
+  }
+}

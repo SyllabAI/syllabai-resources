@@ -1,0 +1,120 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_HYXczh6D6WKTwtPr",
+    "corpusVersion": "sme-revision-notes-igcse-biology-19-2026-09-17",
+    "sourceLayerSha256": "eb90dab9d3756b70b667cfb9dcee7fd3de33bd3c57a4fc8ee6a70d3a8182a864",
+    "pinnedRef": "848c66c0538bea1ca766f246263bca123fd46814"
+  },
+  "lesson": {
+    "id": "igcse-biology::rn_HYXczh6D6WKTwtPr",
+    "topicTitle": "Reproduction and inheritance",
+    "subtopicTitle": "Inheritance",
+    "sourceUrl": "https://www.savemyexams.com/igcse/biology/edexcel/19/revision-notes/3-reproduction-and-inheritance/inheritance/antibiotic-resistance",
+    "specAnchors": [
+      {
+        "code": "3.39",
+        "text": "understand how resistance to antibiotics can increase in bacterial populations, and appreciate how such an increase can lead to infections being difficult to control"
+      }
+    ],
+    "primer": {
+      "text": "When doctors reach for an antibiotic, they are running a live selection experiment. This note follows a single random mutation that shields one bacterium from a drug, and shows how treatment itself promotes the descendants of that lucky cell until a resistant strain dominates and combination therapy becomes the only option left.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_HYXczh6D6WKTwtPr::L1",
+        "title": "How Resistance Rises in a Population",
+        "sourceHeadings": [
+          "Antibiotic Resistance"
+        ],
+        "specRefs": [
+          "3.39"
+        ],
+        "opening": "A random mutation can hand a bacterium an allele that shields it from an antibiotic; once the drug is applied, only the carriers survive, reproduce and spread that shield, so the resistance version grows more common generation after generation until the whole strain shrugs the drug off.",
+        "keyPoints": [
+          "Mutations arise at random and can create an allele conferring antibiotic resistance.",
+          "Exposure to the drug kills bacteria without the resistance allele.",
+          "Survivors reproduce, handing the protective allele to their offspring.",
+          "Over generations the resistance allele rises in frequency, producing a resistant strain.",
+          "Resistant infections may need a different antibiotic, or several at once."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "The drug wipes out the undefended bacteria, and the defended ones multiply in the space left behind.",
+            "analogy": "A flood that only strong swimmers survive: the next generation is built entirely from strong swimmers.",
+            "examPointer": "Always include the four stages: variation, survival, reproduction, rising allele frequency."
+          },
+          "medium": {
+            "restatement": "Selection does not create the allele; it filters the population, so the pre-existing resistant version dominates after treatment.",
+            "analogy": "The antibiotic is a sieve, not a sculptor: it chooses among existing variants rather than designing new ones.",
+            "examPointer": "If asked why resistance spreads, say carriers reproduce more, not that bacteria learn or adapt on purpose."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_HYXczh6D6WKTwtPr::L1::Q1",
+          "rn_HYXczh6D6WKTwtPr::L1::Q2",
+          "rn_HYXczh6D6WKTwtPr::L1::Q3",
+          "rn_HYXczh6D6WKTwtPr::L1::Q4",
+          "rn_HYXczh6D6WKTwtPr::L1::Q5",
+          "rn_HYXczh6D6WKTwtPr::L1::Q6",
+          "rn_HYXczh6D6WKTwtPr::L1::Q7",
+          "rn_HYXczh6D6WKTwtPr::L1::Q8",
+          "rn_HYXczh6D6WKTwtPr::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "antibiotic",
+          "definition": "A drug that kills bacteria or stops them growing.",
+          "firstLesson": 1
+        },
+        {
+          "term": "resistance allele",
+          "definition": "A gene version that lets a bacterium survive an antibiotic.",
+          "firstLesson": 1
+        },
+        {
+          "term": "natural selection",
+          "definition": "The process in which better-suited individuals survive and breed more.",
+          "firstLesson": 1
+        },
+        {
+          "term": "strain",
+          "definition": "A bacterial population descended from one type, here a drug-resistant one.",
+          "firstLesson": 1
+        }
+      ],
+      "workedExample": null
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-biology-19/assets/828798fcaa8b-62018-antibiotic-resistance.png",
+        "alt": "Diagram illustrating antibiotic resistance development, showing mutation, survival of resistant bacteria, and increase in resistance frequency.",
+        "sourceHeading": "Antibiotic Resistance",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique"
+      }
+    ]
+  }
+}

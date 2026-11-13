@@ -1,0 +1,115 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_RhF48MHzPjsWspQW",
+    "corpusVersion": "sme-revision-notes-igcse-biology-19-2026-09-17",
+    "sourceLayerSha256": "f7eb199cbdad7c9862bee2fc65ec90341b524dedf80b712135c928666efd954e",
+    "pinnedRef": "848c66c0538bea1ca766f246263bca123fd46814"
+  },
+  "lesson": {
+    "id": "igcse-biology::rn_RhF48MHzPjsWspQW",
+    "topicTitle": "Reproduction and inheritance",
+    "subtopicTitle": "Inheritance",
+    "sourceUrl": "https://www.savemyexams.com/igcse/biology/edexcel/19/revision-notes/3-reproduction-and-inheritance/inheritance/family-pedigrees",
+    "specAnchors": [
+      {
+        "code": "3.24",
+        "text": "understand how to interpret family pedigrees"
+      }
+    ],
+    "primer": {
+      "text": "A pedigree is inheritance written as a family portrait. This note teaches the symbol code — squares, circles, shading, marriage lines — and shows how counsellors read the chart to trace a characteristic through the generations and estimate who is likely to carry it next.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_RhF48MHzPjsWspQW::L1",
+        "title": "Reading the Family Chart",
+        "sourceHeadings": [
+          "Family Pedigrees",
+          "Interpreting a family pedigrees"
+        ],
+        "specRefs": [
+          "3.24"
+        ],
+        "opening": "A family pedigree maps a trait, usually a disorder, across the generations of one family, and reading the symbols lets you judge who carries the characteristic and estimate the probability that a particular relative has inherited it.",
+        "keyPoints": [
+          "Squares mark males and circles mark females.",
+          "Red shading marks affected individuals; blue marks the unaffected.",
+          "A horizontal line between a couple records children they produced.",
+          "Pedigrees trace inheritance patterns through many generations at once."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "The chart shows who has the trait, who might pass it on, and how it travelled down the family.",
+            "analogy": "A family tree where the fruit you are studying is coloured in.",
+            "examPointer": "Memorise the symbol code; questions usually start with a straight symbol read."
+          },
+          "medium": {
+            "restatement": "Shading plus lines reveal which branch carries the disorder and let you infer hidden genotypes.",
+            "analogy": "Reading a metro map: the stations are people, the lines are descent, the highlighted stations show the trait.",
+            "examPointer": "Support any probability answer by citing the genotypes the chart implies."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_RhF48MHzPjsWspQW::L1::Q1",
+          "rn_RhF48MHzPjsWspQW::L1::Q2",
+          "rn_RhF48MHzPjsWspQW::L1::Q3",
+          "rn_RhF48MHzPjsWspQW::L1::Q4",
+          "rn_RhF48MHzPjsWspQW::L1::Q5",
+          "rn_RhF48MHzPjsWspQW::L1::Q6",
+          "rn_RhF48MHzPjsWspQW::L1::Q7",
+          "rn_RhF48MHzPjsWspQW::L1::Q8",
+          "rn_RhF48MHzPjsWspQW::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "pedigree",
+          "definition": "A diagram tracing one characteristic through the generations of a family.",
+          "firstLesson": 1
+        },
+        {
+          "term": "affected",
+          "definition": "An individual showing the characteristic being traced, drawn shaded red here.",
+          "firstLesson": 1
+        },
+        {
+          "term": "carrier",
+          "definition": "An individual who holds an allele without showing its characteristic.",
+          "firstLesson": 1
+        }
+      ],
+      "workedExample": null
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-biology-19/assets/f993545e2f93-family-pedigree-chart.png",
+        "alt": "Family pedigree chart, IGCSE & GCSE Biology revision notes",
+        "sourceHeading": "Interpreting a family pedigrees",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique"
+      }
+    ]
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_YMyNmRNPyrTJZPHs",
+    "corpusVersion": "sme-revision-notes-igcse-biology-19-2026-09-17",
+    "sourceLayerSha256": "66493b95652ddea5aad13f6e111a1294187bed0a6a5bfb43bddc74fdbf6d095e",
+    "pinnedRef": "848c66c0538bea1ca766f246263bca123fd46814"
+  },
+  "lesson": {
+    "id": "igcse-biology::rn_YMyNmRNPyrTJZPHs",
+    "topicTitle": "Reproduction and inheritance",
+    "subtopicTitle": "Inheritance",
+    "sourceUrl": "https://www.savemyexams.com/igcse/biology/edexcel/19/revision-notes/3-reproduction-and-inheritance/inheritance/mutation-advanced",
+    "specAnchors": [
+      {
+        "code": "3.35B",
+        "text": "understand how a change in DNA can affect the phenotype by altering the sequence of amino acids in a protein"
+      },
+      {
+        "code": "3.36B",
+        "text": "understand how most genetic mutations have no effect on the phenotype, some have a small effect and rarely do they have a significant effect"
+      },
+      {
+        "code": "3.37B",
+        "text": "understand that the incidence of mutations can be increased by exposure to ionising radiation (for example, gamma rays, x-rays and ultraviolet rays) and some chemical mutagens (for example, chemicals in tobacco)"
+      }
+    ],
+    "primer": {
+      "text": "This is the advanced mutation note: how a changed base sequence reaches the phenotype through the amino acid sequence, why insertions and deletions wreck everything downstream while substitutions stay local, what distribution of effects mutations show, and which exposures — ionising radiation and tobacco chemicals — push the mutation rate, and with it cancer risk, upward.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_YMyNmRNPyrTJZPHs::L1",
+        "title": "From Base Change to Phenotype",
+        "sourceHeadings": [
+          "Changes in DNA can Affect the Phenotype",
+          "Insertions"
+        ],
+        "specRefs": [
+          "3.35B"
+        ],
+        "opening": "A change in the DNA base sequence can rewrite the protein built from that gene, and therefore the phenotype; insertions drop a fresh base into the sequence, shifting every following group of three and changing the amino acid message downstream.",
+        "keyPoints": [
+          "Phenotype changes when a DNA change alters the amino acid sequence of a protein.",
+          "Mutations take three forms: insertion, deletion and substitution of bases.",
+          "An insertion adds a new base at a random point in the sequence.",
+          "Every group of three bases after the insertion is regrouped, altering later amino acids."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Change the DNA letters and the protein recipe changes with them.",
+            "analogy": "A sentence where adding one letter garbles every word that follows.",
+            "examPointer": "Remember codons are triplets; frame logic flows from that."
+          },
+          "medium": {
+            "restatement": "The cell reads triplets from a fixed starting point, so any base-count change re-sorts the whole downstream message.",
+            "analogy": "Reading a book in three-word chunks: insert a word and every later chunk is misread.",
+            "examPointer": "Name all three mutation kinds and their scope in one line each."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_YMyNmRNPyrTJZPHs::L1::Q1",
+          "rn_YMyNmRNPyrTJZPHs::L1::Q2",
+          "rn_YMyNmRNPyrTJZPHs::L1::Q3",
+          "rn_YMyNmRNPyrTJZPHs::L1::Q4",
+          "rn_YMyNmRNPyrTJZPHs::L1::Q5",
+          "rn_YMyNmRNPyrTJZPHs::L1::Q6",
+          "rn_YMyNmRNPyrTJZPHs::L1::Q7",
+          "rn_YMyNmRNPyrTJZPHs::L1::Q8",
+          "rn_YMyNmRNPyrTJZPHs::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01"
+        ]
+      },
+      {
+        "id": "rn_YMyNmRNPyrTJZPHs::L2",
+        "title": "Deletion and Substitution Compared",
+        "sourceHeadings": [
+          "Deletions",
+          "Substitutions"
+        ],
+        "specRefs": [
+          "3.35B"
+        ],
+        "opening": "Deletion mirrors insertion: a base vanishes and the downstream triplets regroup; substitution behaves differently, swapping one base for another and disturbing only the triplet it sits in.",
+        "keyPoints": [
+          "A deletion removes a base, regrouping every following triplet.",
+          "Like insertion, deletion changes the amino acids downstream of the fault.",
+          "A substitution swaps one base for a different one.",
+          "Substitution only affects the single triplet containing the swap."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Losing a base scrambles the rest; swapping a base touches only its own spot.",
+            "analogy": "Removing one domino topples the line; replacing one domino leaves the line standing.",
+            "examPointer": "Contrast the two scopes explicitly when explaining."
+          },
+          "medium": {
+            "restatement": "Base count determines frame: deletions and insertions alter the count, substitutions do not.",
+            "analogy": "Insertions and deletions change the queue length; substitutions only repaint a face in place.",
+            "examPointer": "Expect a question asking which mutation lacks the knock-on effect: it is substitution."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_YMyNmRNPyrTJZPHs::L2::Q1",
+          "rn_YMyNmRNPyrTJZPHs::L2::Q2",
+          "rn_YMyNmRNPyrTJZPHs::L2::Q3",
+          "rn_YMyNmRNPyrTJZPHs::L2::Q4",
+          "rn_YMyNmRNPyrTJZPHs::L2::Q5",
+          "rn_YMyNmRNPyrTJZPHs::L2::Q6",
+          "rn_YMyNmRNPyrTJZPHs::L2::Q7",
+          "rn_YMyNmRNPyrTJZPHs::L2::Q8",
+          "rn_YMyNmRNPyrTJZPHs::L2::Q9"
+        ],
+        "figureIds": [
+          "fig-02"
+        ]
+      },
+      {
+        "id": "rn_YMyNmRNPyrTJZPHs::L3",
+        "title": "Weighing the Effects",
+        "sourceHeadings": [
+          "The Effects of Mutations"
+        ],
+        "specRefs": [
+          "3.36B"
+        ],
+        "opening": "Most mutations leave the protein untouched or barely nudged, so the phenotype is unmoved; some bend a protein slightly, and only rarely does one reshape it enough to matter, as a changed active site shows.",
+        "keyPoints": [
+          "Most mutations leave the phenotype untouched.",
+          "Some mutations slightly alter a protein's shape, causing a minor effect.",
+          "Rarely, a changed protein shape disrupts its function significantly.",
+          "An altered enzyme active site may no longer bind its substrate.",
+          "A helpful new phenotype can spread; harmful ones include sickle cell anaemia."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Nothing, a nudge, or rarely a jolt: that is the effect ladder.",
+            "analogy": "Most typos leave a sentence readable; a few scramble it.",
+            "examPointer": "Quote the three levels in order when the question says usually, sometimes, rarely."
+          },
+          "medium": {
+            "restatement": "Function follows shape, so effect size tracks how much the protein's shape moved.",
+            "analogy": "A dent in a car door versus a bent key that no longer fits its lock.",
+            "examPointer": "The active site example is the go-to mechanism for the significant case."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_YMyNmRNPyrTJZPHs::L3::Q1",
+          "rn_YMyNmRNPyrTJZPHs::L3::Q2",
+          "rn_YMyNmRNPyrTJZPHs::L3::Q3",
+          "rn_YMyNmRNPyrTJZPHs::L3::Q4",
+          "rn_YMyNmRNPyrTJZPHs::L3::Q5",
+          "rn_YMyNmRNPyrTJZPHs::L3::Q6",
+          "rn_YMyNmRNPyrTJZPHs::L3::Q7",
+          "rn_YMyNmRNPyrTJZPHs::L3::Q8",
+          "rn_YMyNmRNPyrTJZPHs::L3::Q9"
+        ],
+        "figureIds": []
+      },
+      {
+        "id": "rn_YMyNmRNPyrTJZPHs::L4",
+        "title": "What Raises the Mutation Rate",
+        "sourceHeadings": [
+          "The Causes of Mutations"
+        ],
+        "specRefs": [
+          "3.37B"
+        ],
+        "opening": "Mutations arise spontaneously all the time, but certain exposures raise the rate: ionising radiation such as gamma rays, x-rays and ultraviolet rays breaks bonds and rewrites bases, while chemical mutagens like tobacco tar do their own damage, and both routes push cells toward cancer.",
+        "keyPoints": [
+          "Mutations happen spontaneously and continuously without any exposure.",
+          "Gamma rays, x-rays and ultraviolet rays are ionising radiation that raises the mutation rate.",
+          "Chemical mutagens include the chemicals found in tobacco.",
+          "Increased mutation rates are linked to cells becoming cancerous."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Radiation and certain chemicals add extra mutations on top of the spontaneous background.",
+            "analogy": "Rain falls anyway; a leaking roof makes the floor far wetter.",
+            "examPointer": "List all three radiation types and the tobacco example."
+          },
+          "medium": {
+            "restatement": "Damaged bonds mean scrambled base sequences, and scrambled sequences in body cells raise cancer risk.",
+            "analogy": "A typist making more typos per page: the longer the exposure, the more pages marred.",
+            "examPointer": "Tie mutagens to cancer prevention advice when asked why they matter."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_YMyNmRNPyrTJZPHs::L4::Q1",
+          "rn_YMyNmRNPyrTJZPHs::L4::Q2",
+          "rn_YMyNmRNPyrTJZPHs::L4::Q3",
+          "rn_YMyNmRNPyrTJZPHs::L4::Q4",
+          "rn_YMyNmRNPyrTJZPHs::L4::Q5",
+          "rn_YMyNmRNPyrTJZPHs::L4::Q6",
+          "rn_YMyNmRNPyrTJZPHs::L4::Q7",
+          "rn_YMyNmRNPyrTJZPHs::L4::Q8",
+          "rn_YMyNmRNPyrTJZPHs::L4::Q9"
+        ],
+        "figureIds": []
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "insertion",
+          "definition": "A mutation adding a new base, shifting every later triplet.",
+          "firstLesson": 1
+        },
+        {
+          "term": "deletion",
+          "definition": "A mutation removing a base, shifting every later triplet.",
+          "firstLesson": 2
+        },
+        {
+          "term": "substitution",
+          "definition": "A mutation swapping one base for another, affecting only its own triplet.",
+          "firstLesson": 2
+        },
+        {
+          "term": "mutagen",
+          "definition": "An agent, such as ionising radiation or tobacco chemicals, that raises the mutation rate.",
+          "firstLesson": 4
+        },
+        {
+          "term": "ionising radiation",
+          "definition": "Radiation such as gamma rays, x-rays and ultraviolet rays that damages DNA.",
+          "firstLesson": 4
+        }
+      ],
+      "workedExample": null
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-biology-19/assets/628c12614e28-insertion-mutation-1.png",
+        "alt": "Insertion mutation, downloadable IGCSE & GCSE Biology revision notes",
+        "sourceHeading": "Insertions",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-02",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-biology-19/assets/ba6ce0c78fca-substitution-mutation-1.png",
+        "alt": "Substitution mutation, downloadable IGCSE & GCSE Biology revision notes",
+        "sourceHeading": "Substitutions",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique"
+      }
+    ]
+  }
+}

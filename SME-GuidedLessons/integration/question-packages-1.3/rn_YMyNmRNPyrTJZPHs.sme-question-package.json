@@ -1,0 +1,971 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_YMyNmRNPyrTJZPHs",
+    "corpusVersion": "sme-revision-notes-igcse-biology-19-2026-09-17",
+    "sourceLayerSha256": "66493b95652ddea5aad13f6e111a1294187bed0a6a5bfb43bddc74fdbf6d095e",
+    "pinnedRef": "848c66c0538bea1ca766f246263bca123fd46814"
+  },
+  "packageId": "igcse-biology::rn_YMyNmRNPyrTJZPHs",
+  "subject": "igcse-biology",
+  "questions": [
+    {
+      "id": "rn_YMyNmRNPyrTJZPHs::L1::Q1",
+      "moduleId": "rn_YMyNmRNPyrTJZPHs::L1",
+      "stem": "How does a DNA change reach the phenotype?",
+      "misconceptionClass": "causal chain",
+      "options": [
+        {
+          "key": "A",
+          "text": "By altering the amino acid sequence of the protein the gene codes for",
+          "correct": true,
+          "explanation": "Correct — this follows directly from the definition.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "By changing blood flow to the tissue",
+          "correct": false,
+          "explanation": "Blood flow is not the taught route.",
+          "misconception": "close but wrong"
+        },
+        {
+          "key": "C",
+          "text": "By strengthening cell membranes",
+          "correct": false,
+          "explanation": "Membranes are not altered by gene changes.",
+          "misconception": "category slip"
+        },
+        {
+          "key": "D",
+          "text": "By cooling the cell",
+          "correct": false,
+          "explanation": "Temperature plays no part in the chain.",
+          "misconception": "invented role"
+        }
+      ]
+    },
+    {
+      "id": "rn_YMyNmRNPyrTJZPHs::L1::Q2",
+      "moduleId": "rn_YMyNmRNPyrTJZPHs::L1",
+      "stem": "What are the three ways a base sequence can change?",
+      "misconceptionClass": "mutation kinds",
+      "options": [
+        {
+          "key": "A",
+          "text": "Growth, repair, cloning",
+          "correct": false,
+          "explanation": "Those are mitosis contexts.",
+          "misconception": "invented role"
+        },
+        {
+          "key": "B",
+          "text": "Insertion, deletion and substitution",
+          "correct": true,
+          "explanation": "Yes — the mechanism works exactly this way.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Replication, transcription, translation",
+          "correct": false,
+          "explanation": "Those are normal cell processes, not mutations.",
+          "misconception": "close but wrong"
+        },
+        {
+          "key": "D",
+          "text": "Fusion, pairing, crossing",
+          "correct": false,
+          "explanation": "None of these is the taught mutation list.",
+          "misconception": "category slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_YMyNmRNPyrTJZPHs::L1::Q3",
+      "moduleId": "rn_YMyNmRNPyrTJZPHs::L1",
+      "stem": "In an insertion, what happens to the groups of three bases downstream?",
+      "misconceptionClass": "knock-on effect",
+      "options": [
+        {
+          "key": "A",
+          "text": "They delete themselves",
+          "correct": false,
+          "explanation": "Deletion is a separate mutation kind.",
+          "misconception": "category slip"
+        },
+        {
+          "key": "B",
+          "text": "They reverse their order only",
+          "correct": false,
+          "explanation": "Regrouping, not simple reversal, is the effect.",
+          "misconception": "invented role"
+        },
+        {
+          "key": "C",
+          "text": "They are regrouped, so the amino acids they code for change",
+          "correct": true,
+          "explanation": "Right — the other options each misplace a concept.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "They stay intact",
+          "correct": false,
+          "explanation": "The frame shift touches every later triplet.",
+          "misconception": "close but wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_YMyNmRNPyrTJZPHs::L1::Q4",
+      "moduleId": "rn_YMyNmRNPyrTJZPHs::L1",
+      "stem": "How many bases does one codon contain?",
+      "misconceptionClass": "codon size",
+      "options": [
+        {
+          "key": "A",
+          "text": "Two",
+          "correct": false,
+          "explanation": "Two bases cannot specify twenty amino acids.",
+          "misconception": "close but wrong"
+        },
+        {
+          "key": "B",
+          "text": "Four",
+          "correct": false,
+          "explanation": "The reading frame uses triplets.",
+          "misconception": "category slip"
+        },
+        {
+          "key": "C",
+          "text": "Twenty-three",
+          "correct": false,
+          "explanation": "That number belongs to chromosome pairs.",
+          "misconception": "invented role"
+        },
+        {
+          "key": "D",
+          "text": "Three",
+          "correct": true,
+          "explanation": "Correct — this follows directly from the definition.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_YMyNmRNPyrTJZPHs::L1::Q5",
+      "moduleId": "rn_YMyNmRNPyrTJZPHs::L1",
+      "stem": "Why does one inserted base damage more than one amino acid position?",
+      "misconceptionClass": "frame shift",
+      "options": [
+        {
+          "key": "A",
+          "text": "The reading frame shifts, so every later triplet is read differently",
+          "correct": true,
+          "explanation": "Correct — this matches the account taught above.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Inserted bases vanish afterwards",
+          "correct": false,
+          "explanation": "The inserted base persists.",
+          "misconception": "close but wrong"
+        },
+        {
+          "key": "C",
+          "text": "Only that codon changes",
+          "correct": false,
+          "explanation": "That describes substitution, not insertion.",
+          "misconception": "category slip"
+        },
+        {
+          "key": "D",
+          "text": "The cell repairs the rest instantly",
+          "correct": false,
+          "explanation": "No instant repair is part of the account.",
+          "misconception": "invented role"
+        }
+      ]
+    },
+    {
+      "id": "rn_YMyNmRNPyrTJZPHs::L1::Q6",
+      "moduleId": "rn_YMyNmRNPyrTJZPHs::L1",
+      "stem": "Define an insertion mutation.",
+      "misconceptionClass": "recall of the taught account",
+      "kind": "recall",
+      "modelAnswer": "A fresh base lands at a random spot in the DNA string, changing the amino acid coded there and regrouping every triplet after it.",
+      "keywords": [
+        "insertion",
+        "base",
+        "sequence",
+        "amino acid"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_YMyNmRNPyrTJZPHs::L1::Q7",
+      "moduleId": "rn_YMyNmRNPyrTJZPHs::L1",
+      "stem": "State the link between codons and amino acids.",
+      "misconceptionClass": "recall of the taught account",
+      "kind": "recall",
+      "modelAnswer": "Each group of three bases, one codon, codes for one amino acid in the protein.",
+      "keywords": [
+        "codon",
+        "three",
+        "amino acid"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_YMyNmRNPyrTJZPHs::L1::Q8",
+      "moduleId": "rn_YMyNmRNPyrTJZPHs::L1",
+      "stem": "Explain why a single inserted base alters several amino acids, not just one.",
+      "misconceptionClass": "mechanism reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "The cell reads the sequence in consecutive triplets, so inserting one base pushes every later base across a boundary and regroups all following codons.",
+      "keywords": [
+        "triplets",
+        "codons",
+        "inserted",
+        "amino acids"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_YMyNmRNPyrTJZPHs::L1::Q9",
+      "moduleId": "rn_YMyNmRNPyrTJZPHs::L1",
+      "stem": "A mutation adds one base near the start of a gene that is 300 bases long. Describe the extent of the protein damage you would expect.",
+      "misconceptionClass": "scenario application",
+      "kind": "application",
+      "modelAnswer": "The reading frame shifts from the insertion onward, so nearly every codon after that point is regrouped and most of the downstream amino acid sequence changes.",
+      "keywords": [
+        "frame",
+        "codon",
+        "amino acid",
+        "insertion"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_YMyNmRNPyrTJZPHs::L2::Q1",
+      "moduleId": "rn_YMyNmRNPyrTJZPHs::L2",
+      "stem": "What does a deletion mutation remove?",
+      "misconceptionClass": "definition",
+      "options": [
+        {
+          "key": "A",
+          "text": "A phosphate group",
+          "correct": false,
+          "explanation": "The mutation targets bases, not backbone parts.",
+          "misconception": "invented role"
+        },
+        {
+          "key": "B",
+          "text": "A base from the DNA sequence",
+          "correct": true,
+          "explanation": "Yes — the mechanism works exactly this way.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "A whole chromosome",
+          "correct": false,
+          "explanation": "Chromosome loss is not the taught deletion.",
+          "misconception": "close but wrong"
+        },
+        {
+          "key": "D",
+          "text": "An amino acid",
+          "correct": false,
+          "explanation": "Amino acids are consequences, not what is removed.",
+          "misconception": "category slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_YMyNmRNPyrTJZPHs::L2::Q2",
+      "moduleId": "rn_YMyNmRNPyrTJZPHs::L2",
+      "stem": "Which mutation type changes only the amino acid of its own triplet?",
+      "misconceptionClass": "scope contrast",
+      "options": [
+        {
+          "key": "A",
+          "text": "Deletion",
+          "correct": false,
+          "explanation": "Deletions shift every later triplet.",
+          "misconception": "category slip"
+        },
+        {
+          "key": "B",
+          "text": "Both insertion and deletion",
+          "correct": false,
+          "explanation": "Neither keeps the frame intact.",
+          "misconception": "invented role"
+        },
+        {
+          "key": "C",
+          "text": "Substitution",
+          "correct": true,
+          "explanation": "Right — the other options each misplace a concept.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Insertion",
+          "correct": false,
+          "explanation": "Insertions shift every later triplet.",
+          "misconception": "close but wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_YMyNmRNPyrTJZPHs::L2::Q3",
+      "moduleId": "rn_YMyNmRNPyrTJZPHs::L2",
+      "stem": "Why do insertion and deletion share the knock-on effect?",
+      "misconceptionClass": "shared mechanism",
+      "options": [
+        {
+          "key": "A",
+          "text": "Both add material",
+          "correct": false,
+          "explanation": "Deletion removes material.",
+          "misconception": "close but wrong"
+        },
+        {
+          "key": "B",
+          "text": "Both delete codons",
+          "correct": false,
+          "explanation": "Neither deletes whole codons directly.",
+          "misconception": "category slip"
+        },
+        {
+          "key": "C",
+          "text": "Neither touches triplets",
+          "correct": false,
+          "explanation": "Triplets are exactly what they disturb.",
+          "misconception": "invented role"
+        },
+        {
+          "key": "D",
+          "text": "Both shift the grouping of every later triplet",
+          "correct": true,
+          "explanation": "Right — this is the account the lesson teaches.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_YMyNmRNPyrTJZPHs::L2::Q4",
+      "moduleId": "rn_YMyNmRNPyrTJZPHs::L2",
+      "stem": "A substitution swaps A for G inside one codon. How many amino acids change at most?",
+      "misconceptionClass": "bounded effect",
+      "options": [
+        {
+          "key": "A",
+          "text": "One, the amino acid that codon specifies",
+          "correct": true,
+          "explanation": "Right — the other options each misplace a concept.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "All downstream amino acids",
+          "correct": false,
+          "explanation": "The frame survives a substitution.",
+          "misconception": "close but wrong"
+        },
+        {
+          "key": "C",
+          "text": "None, ever",
+          "correct": false,
+          "explanation": "The swapped codon may code differently.",
+          "misconception": "category slip"
+        },
+        {
+          "key": "D",
+          "text": "Three at once",
+          "correct": false,
+          "explanation": "Only the affected triplet is read differently.",
+          "misconception": "invented role"
+        }
+      ]
+    },
+    {
+      "id": "rn_YMyNmRNPyrTJZPHs::L2::Q5",
+      "moduleId": "rn_YMyNmRNPyrTJZPHs::L2",
+      "stem": "Which mutated sequence type keeps every later triplet aligned?",
+      "misconceptionClass": "frame logic",
+      "options": [
+        {
+          "key": "A",
+          "text": "Both frame-shifting types",
+          "correct": false,
+          "explanation": "Neither preserves the grouping.",
+          "misconception": "invented role"
+        },
+        {
+          "key": "B",
+          "text": "A substitution, since the base count is unchanged",
+          "correct": true,
+          "explanation": "Correct — this matches the account taught above.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Insertion",
+          "correct": false,
+          "explanation": "The count grows, so alignment breaks.",
+          "misconception": "close but wrong"
+        },
+        {
+          "key": "D",
+          "text": "Deletion",
+          "correct": false,
+          "explanation": "The count drops, so alignment breaks.",
+          "misconception": "category slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_YMyNmRNPyrTJZPHs::L2::Q6",
+      "moduleId": "rn_YMyNmRNPyrTJZPHs::L2",
+      "stem": "Define a substitution mutation.",
+      "misconceptionClass": "recall of the taught account",
+      "kind": "recall",
+      "modelAnswer": "A base is randomly swapped for a different base, changing at most the amino acid of the triplet containing it.",
+      "keywords": [
+        "substitution",
+        "base",
+        "swapped",
+        "triplet"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_YMyNmRNPyrTJZPHs::L2::Q7",
+      "moduleId": "rn_YMyNmRNPyrTJZPHs::L2",
+      "stem": "State the effect shared by insertion and deletion mutations.",
+      "misconceptionClass": "recall of the taught account",
+      "kind": "recall",
+      "modelAnswer": "Both regroup the triplets downstream, changing the amino acids those codons specify.",
+      "keywords": [
+        "insertion",
+        "deletion",
+        "triplets",
+        "amino acids"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_YMyNmRNPyrTJZPHs::L2::Q8",
+      "moduleId": "rn_YMyNmRNPyrTJZPHs::L2",
+      "stem": "Explain why substitution lacks the knock-on effect that insertion causes.",
+      "misconceptionClass": "mechanism reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "Substitution replaces one base with another and leaves the base count intact, so the triplet boundaries downstream stay exactly where they were.",
+      "keywords": [
+        "substitution",
+        "count",
+        "triplet",
+        "downstream"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_YMyNmRNPyrTJZPHs::L2::Q9",
+      "moduleId": "rn_YMyNmRNPyrTJZPHs::L2",
+      "stem": "Two mutations hit the same gene: one deletes a base early on, another swaps one base near the end. State which mutation is likely to damage more of the protein and why.",
+      "misconceptionClass": "scenario application",
+      "kind": "application",
+      "modelAnswer": "The deletion damages more, because removing a base regroups every later triplet, whereas the substitution only risks the single amino acid of its own codon.",
+      "keywords": [
+        "deletion",
+        "substitution",
+        "triplet",
+        "amino acid"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_YMyNmRNPyrTJZPHs::L3::Q1",
+      "moduleId": "rn_YMyNmRNPyrTJZPHs::L3",
+      "stem": "What is the most common effect of a genetic mutation on the phenotype?",
+      "misconceptionClass": "distribution",
+      "options": [
+        {
+          "key": "A",
+          "text": "Always visible",
+          "correct": false,
+          "explanation": "Most mutations leave the phenotype unchanged.",
+          "misconception": "category slip"
+        },
+        {
+          "key": "B",
+          "text": "Always beneficial",
+          "correct": false,
+          "explanation": "Benefit is even rarer than harm.",
+          "misconception": "invented role"
+        },
+        {
+          "key": "C",
+          "text": "No effect at all",
+          "correct": true,
+          "explanation": "Yes — the mechanism works exactly this way.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Always fatal",
+          "correct": false,
+          "explanation": "Lethality is rare, not the common case.",
+          "misconception": "close but wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_YMyNmRNPyrTJZPHs::L3::Q2",
+      "moduleId": "rn_YMyNmRNPyrTJZPHs::L3",
+      "stem": "Why can a mutation be significant for an enzyme?",
+      "misconceptionClass": "enzyme logic",
+      "options": [
+        {
+          "key": "A",
+          "text": "Enzymes never change",
+          "correct": false,
+          "explanation": "Mutations can alter any protein, enzymes included.",
+          "misconception": "close but wrong"
+        },
+        {
+          "key": "B",
+          "text": "Substrates mutate instead",
+          "correct": false,
+          "explanation": "Substrates are chemicals, not genes.",
+          "misconception": "category slip"
+        },
+        {
+          "key": "C",
+          "text": "All mutations help enzymes",
+          "correct": false,
+          "explanation": "Most do nothing; some harm.",
+          "misconception": "invented role"
+        },
+        {
+          "key": "D",
+          "text": "A reshaped active site may fail to bind its substrate",
+          "correct": true,
+          "explanation": "Correct — this matches the account taught above.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_YMyNmRNPyrTJZPHs::L3::Q3",
+      "moduleId": "rn_YMyNmRNPyrTJZPHs::L3",
+      "stem": "Which condition is given as an example of a harmful mutation?",
+      "misconceptionClass": "example recall",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sickle cell anaemia",
+          "correct": true,
+          "explanation": "Yes — the mechanism works exactly this way.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Antibiotic resistance in this context",
+          "correct": false,
+          "explanation": "That is a bacterial advantage, taught elsewhere.",
+          "misconception": "close but wrong"
+        },
+        {
+          "key": "C",
+          "text": "Smallpox",
+          "correct": false,
+          "explanation": "Smallpox was a viral disease.",
+          "misconception": "category slip"
+        },
+        {
+          "key": "D",
+          "text": "Scurvy",
+          "correct": false,
+          "explanation": "Scurvy is a vitamin deficiency, not a mutation.",
+          "misconception": "invented role"
+        }
+      ]
+    },
+    {
+      "id": "rn_YMyNmRNPyrTJZPHs::L3::Q4",
+      "moduleId": "rn_YMyNmRNPyrTJZPHs::L3",
+      "stem": "When can a new phenotype spread through a population?",
+      "misconceptionClass": "spread condition",
+      "options": [
+        {
+          "key": "A",
+          "text": "Never, under any condition",
+          "correct": false,
+          "explanation": "Advantageous phenotypes do spread.",
+          "misconception": "invented role"
+        },
+        {
+          "key": "B",
+          "text": "When it grants a survival or reproductive advantage",
+          "correct": true,
+          "explanation": "Right — this is the account the lesson teaches.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Whenever it appears",
+          "correct": false,
+          "explanation": "Neutral or harmful changes do not spread by selection.",
+          "misconception": "close but wrong"
+        },
+        {
+          "key": "D",
+          "text": "Only in plants",
+          "correct": false,
+          "explanation": "The rule covers animals too.",
+          "misconception": "category slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_YMyNmRNPyrTJZPHs::L3::Q5",
+      "moduleId": "rn_YMyNmRNPyrTJZPHs::L3",
+      "stem": "A mutation makes a bird's feathers more attractive to mates. What follows?",
+      "misconceptionClass": "scenario",
+      "options": [
+        {
+          "key": "A",
+          "text": "The allele disappears immediately",
+          "correct": false,
+          "explanation": "Advantage keeps alleles in play.",
+          "misconception": "category slip"
+        },
+        {
+          "key": "B",
+          "text": "All birds adopt it instantly",
+          "correct": false,
+          "explanation": "Spread takes generations.",
+          "misconception": "invented role"
+        },
+        {
+          "key": "C",
+          "text": "That allele is more likely to be passed to future generations",
+          "correct": true,
+          "explanation": "Right — the other options each misplace a concept.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "The bird must change its own DNA again",
+          "correct": false,
+          "explanation": "The allele is already there.",
+          "misconception": "close but wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_YMyNmRNPyrTJZPHs::L3::Q6",
+      "moduleId": "rn_YMyNmRNPyrTJZPHs::L3",
+      "stem": "Summarise the three levels of mutation effect on phenotype.",
+      "misconceptionClass": "recall of the taught account",
+      "kind": "recall",
+      "modelAnswer": "Most mutations have no effect, some have a small effect, and rarely a mutation has a significant effect.",
+      "keywords": [
+        "no effect",
+        "small effect",
+        "significant effect"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_YMyNmRNPyrTJZPHs::L3::Q7",
+      "moduleId": "rn_YMyNmRNPyrTJZPHs::L3",
+      "stem": "Give the example of a significant harmful mutation taught here.",
+      "misconceptionClass": "recall of the taught account",
+      "kind": "recall",
+      "modelAnswer": "Sickle cell anaemia, from a mutated haemoglobin gene.",
+      "keywords": [
+        "sickle cell anaemia",
+        "haemoglobin",
+        "mutation"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_YMyNmRNPyrTJZPHs::L3::Q8",
+      "moduleId": "rn_YMyNmRNPyrTJZPHs::L3",
+      "stem": "Explain why most mutations are silent at the phenotype level.",
+      "misconceptionClass": "mechanism reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "The altered protein usually keeps its shape and function, so the organism's observable characteristics barely change and the mutation passes unnoticed.",
+      "keywords": [
+        "protein",
+        "shape",
+        "function",
+        "phenotype"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_YMyNmRNPyrTJZPHs::L3::Q9",
+      "moduleId": "rn_YMyNmRNPyrTJZPHs::L3",
+      "stem": "A mutation slightly alters an enzyme without abolishing its activity. Classify this outcome on the taught effect ladder.",
+      "misconceptionClass": "scenario application",
+      "kind": "application",
+      "modelAnswer": "It sits in the band where some mutations have a small effect, since the protein shape is mildly changed and its function is only slightly affected.",
+      "keywords": [
+        "small effect",
+        "protein",
+        "function",
+        "shape"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_YMyNmRNPyrTJZPHs::L4::Q1",
+      "moduleId": "rn_YMyNmRNPyrTJZPHs::L4",
+      "stem": "Do mutations need a cause like radiation to occur?",
+      "misconceptionClass": "spontaneity",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes, only radiation creates them",
+          "correct": false,
+          "explanation": "Spontaneous mutation happens without radiation.",
+          "misconception": "close but wrong"
+        },
+        {
+          "key": "B",
+          "text": "Yes, only chemicals create them",
+          "correct": false,
+          "explanation": "Chemicals raise the rate; they are not required.",
+          "misconception": "category slip"
+        },
+        {
+          "key": "C",
+          "text": "No, they never occur naturally",
+          "correct": false,
+          "explanation": "Spontaneous occurrence is the baseline.",
+          "misconception": "invented role"
+        },
+        {
+          "key": "D",
+          "text": "No, they arise spontaneously and continuously anyway",
+          "correct": true,
+          "explanation": "Right — this is the account the lesson teaches.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_YMyNmRNPyrTJZPHs::L4::Q2",
+      "moduleId": "rn_YMyNmRNPyrTJZPHs::L4",
+      "stem": "Which of these is ionising radiation?",
+      "misconceptionClass": "radiation list",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ultraviolet rays",
+          "correct": true,
+          "explanation": "Correct — this matches the account taught above.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Tobacco tar",
+          "correct": false,
+          "explanation": "That is a chemical mutagen.",
+          "misconception": "close but wrong"
+        },
+        {
+          "key": "C",
+          "text": "Sound waves",
+          "correct": false,
+          "explanation": "Sound does not ionise.",
+          "misconception": "category slip"
+        },
+        {
+          "key": "D",
+          "text": "Sugar",
+          "correct": false,
+          "explanation": "Sugar is not radiation at all.",
+          "misconception": "invented role"
+        }
+      ]
+    },
+    {
+      "id": "rn_YMyNmRNPyrTJZPHs::L4::Q3",
+      "moduleId": "rn_YMyNmRNPyrTJZPHs::L4",
+      "stem": "How does ionising radiation raise the mutation rate?",
+      "misconceptionClass": "mechanism",
+      "options": [
+        {
+          "key": "A",
+          "text": "It removes whole chromosomes",
+          "correct": false,
+          "explanation": "Base-level damage is the taught route.",
+          "misconception": "invented role"
+        },
+        {
+          "key": "B",
+          "text": "It damages bonds and changes base sequences",
+          "correct": true,
+          "explanation": "Yes — the mechanism works exactly this way.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "It melts the DNA",
+          "correct": false,
+          "explanation": "Melting is not the taught mechanism.",
+          "misconception": "close but wrong"
+        },
+        {
+          "key": "D",
+          "text": "It adds protein to genes",
+          "correct": false,
+          "explanation": "Protein is not added by radiation.",
+          "misconception": "category slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_YMyNmRNPyrTJZPHs::L4::Q4",
+      "moduleId": "rn_YMyNmRNPyrTJZPHs::L4",
+      "stem": "Which everyday exposure is named as a chemical mutagen source?",
+      "misconceptionClass": "mutagen example",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cooked carrots",
+          "correct": false,
+          "explanation": "No such example is taught.",
+          "misconception": "category slip"
+        },
+        {
+          "key": "B",
+          "text": "Clean water",
+          "correct": false,
+          "explanation": "Water is not a mutagen here.",
+          "misconception": "invented role"
+        },
+        {
+          "key": "C",
+          "text": "Chemicals in tobacco",
+          "correct": true,
+          "explanation": "Right — the other options each misplace a concept.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Sunlight alone",
+          "correct": false,
+          "explanation": "Sunlight is the radiation case.",
+          "misconception": "close but wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_YMyNmRNPyrTJZPHs::L4::Q5",
+      "moduleId": "rn_YMyNmRNPyrTJZPHs::L4",
+      "stem": "Why are mutagens linked to cancer?",
+      "misconceptionClass": "cancer link",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mutagens cure cells",
+          "correct": false,
+          "explanation": "They damage cells.",
+          "misconception": "close but wrong"
+        },
+        {
+          "key": "B",
+          "text": "Cancer needs no mutation",
+          "correct": false,
+          "explanation": "The taught link runs through mutations.",
+          "misconception": "category slip"
+        },
+        {
+          "key": "C",
+          "text": "Mutagens only affect bacteria",
+          "correct": false,
+          "explanation": "Body cells are affected too.",
+          "misconception": "invented role"
+        },
+        {
+          "key": "D",
+          "text": "Higher mutation rates can push cells into uncontrolled division",
+          "correct": true,
+          "explanation": "Correct — this follows directly from the definition.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_YMyNmRNPyrTJZPHs::L4::Q6",
+      "moduleId": "rn_YMyNmRNPyrTJZPHs::L4",
+      "stem": "List the mutagenic exposures taught in this note.",
+      "misconceptionClass": "recall of the taught account",
+      "kind": "recall",
+      "modelAnswer": "Gamma rays, x-rays, ultraviolet rays, and chemical mutagens such as the chemicals in tobacco.",
+      "keywords": [
+        "gamma",
+        "x-rays",
+        "ultraviolet",
+        "tobacco"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_YMyNmRNPyrTJZPHs::L4::Q7",
+      "moduleId": "rn_YMyNmRNPyrTJZPHs::L4",
+      "stem": "State what ionising radiation does to DNA.",
+      "misconceptionClass": "recall of the taught account",
+      "kind": "recall",
+      "modelAnswer": "It damages bonds and causes changes in base sequences.",
+      "keywords": [
+        "ionising radiation",
+        "bonds",
+        "base sequences"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_YMyNmRNPyrTJZPHs::L4::Q8",
+      "moduleId": "rn_YMyNmRNPyrTJZPHs::L4",
+      "stem": "Explain why the same mutagens appear in cancer-prevention advice.",
+      "misconceptionClass": "mechanism reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "By raising the mutation rate in body cells, ionising radiation and chemical mutagens increase the chance of the mutations that make cells cancerous, so limiting exposure lowers that risk.",
+      "keywords": [
+        "mutation rate",
+        "cancerous",
+        "exposure",
+        "cells"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_YMyNmRNPyrTJZPHs::L4::Q9",
+      "moduleId": "rn_YMyNmRNPyrTJZPHs::L4",
+      "stem": "A worker moves from an office job to outdoor fieldwork with strong sunshine. State which mutagen exposure rises and what cellular risk increases with it.",
+      "misconceptionClass": "scenario application",
+      "kind": "application",
+      "modelAnswer": "Ultraviolet exposure from sunshine rises, and with a higher mutation rate in skin cells the risk of mutations that lead to cancer increases too.",
+      "keywords": [
+        "ultraviolet",
+        "mutation rate",
+        "skin cells",
+        "cancer"
+      ],
+      "options": []
+    }
+  ]
+}

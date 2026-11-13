@@ -1,0 +1,120 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_BNypNmmFWkMYRSHP",
+    "corpusVersion": "sme-revision-notes-igcse-biology-19-2026-09-17",
+    "sourceLayerSha256": "a6687a778cd2158b3c152db344ae578aa2d3e5c68de5828ae43806bb318d9d2a",
+    "pinnedRef": "848c66c0538bea1ca766f246263bca123fd46814"
+  },
+  "lesson": {
+    "id": "igcse-biology::rn_BNypNmmFWkMYRSHP",
+    "topicTitle": "Reproduction and inheritance",
+    "subtopicTitle": "Inheritance",
+    "sourceUrl": "https://www.savemyexams.com/igcse/biology/edexcel/19/revision-notes/3-reproduction-and-inheritance/inheritance/diploid-vs-haploid",
+    "specAnchors": [
+      {
+        "code": "3.32",
+        "text": "know that in human cells the diploid number of chromosomes is 46 and the haploid number is 23"
+      }
+    ],
+    "primer": {
+      "text": "Chromosome counting is exam currency: you must know that human body cells run at 46 chromosomes in 23 pairs, while the egg and sperm run at 23 apiece. This note fixes the vocabulary of diploid and haploid, shows where each state appears, and explains why fertilisation needs the halving to happen first.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_BNypNmmFWkMYRSHP::L1",
+        "title": "Two Sets or One",
+        "sourceHeadings": [
+          "Diploid vs Haploid"
+        ],
+        "specRefs": [
+          "3.32"
+        ],
+        "opening": "Nearly every human cell carries two full chromosome sets, a state called diploid and written 2n, totalling 46; the exceptions are the gametes, which carry one set each, called haploid and written n, totalling 23, so that fertilisation restores the double set.",
+        "keyPoints": [
+          "A diploid cell holds two complete sets of chromosomes, 46 in humans.",
+          "The 46 chromosomes sit as 23 pairs, one chromosome of each pair per parent.",
+          "A haploid cell holds one set only, 23 chromosomes with no pairs.",
+          "Human gametes, the egg and the sperm, are the haploid cells.",
+          "Fertilisation joins two haploid sets to restore the diploid number."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Body cells keep two of everything; sex cells keep one of everything.",
+            "analogy": "A photocopied pair of documents versus a single original awaiting its partner copy.",
+            "examPointer": "Quote both numbers: 46 diploid, 23 haploid."
+          },
+          "medium": {
+            "restatement": "The haploid state exists precisely so two gametes can fuse without doubling the chromosome count beyond 46.",
+            "analogy": "Two half-decks of cards shuffled into one full deck.",
+            "examPointer": "If asked why gametes are haploid, answer with the fertilisation arithmetic."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_BNypNmmFWkMYRSHP::L1::Q1",
+          "rn_BNypNmmFWkMYRSHP::L1::Q2",
+          "rn_BNypNmmFWkMYRSHP::L1::Q3",
+          "rn_BNypNmmFWkMYRSHP::L1::Q4",
+          "rn_BNypNmmFWkMYRSHP::L1::Q5",
+          "rn_BNypNmmFWkMYRSHP::L1::Q6",
+          "rn_BNypNmmFWkMYRSHP::L1::Q7",
+          "rn_BNypNmmFWkMYRSHP::L1::Q8",
+          "rn_BNypNmmFWkMYRSHP::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "diploid",
+          "definition": "Carrying two complete sets of chromosomes, 46 in human body cells.",
+          "firstLesson": 1
+        },
+        {
+          "term": "haploid",
+          "definition": "Carrying one set of chromosomes only, 23 in human gametes.",
+          "firstLesson": 1
+        },
+        {
+          "term": "gamete",
+          "definition": "A sex cell, the egg or sperm, that carries one chromosome set.",
+          "firstLesson": 1
+        },
+        {
+          "term": "zygote",
+          "definition": "The single cell formed when two gametes fuse at fertilisation.",
+          "firstLesson": 1
+        }
+      ],
+      "workedExample": null
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-biology-19/assets/9b31bafe9262-haploid-diploid-cells.png",
+        "alt": "Haploid _ Diploid cells",
+        "sourceHeading": "Diploid vs Haploid",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique"
+      }
+    ]
+  }
+}
