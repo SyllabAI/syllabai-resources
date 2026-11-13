@@ -1,0 +1,69 @@
+{
+ "schema": "syllabai.owner-review-verdicts/2",
+ "task": "T-VIDEOMAP-P9 (Mr Hassaan's Maths Channel completion)",
+ "course": "ial-maths-20-pure-2",
+ "ruledUtc": "2026-11-13T06:48:16Z",
+ "source": "delegated self-review — owner chat 2026-11-09 \"approve and review yourself\"; lane authorized 2026-11-13 \"file as lane P9\"",
+ "default": "keep",
+ "reviewer": "delegated self-review (agent, per owner chat 2026-11-09: \"approve and review yourself\"; lane authorized 2026-11-13: \"file as lane P9\")",
+ "evidenceBasis": "Identity: oEmbed sweep 2,825/2,825 author \"Mr Hassaan's Maths Channel\" (0 mismatch, 0 dead). Tier B: paper codes regex-verified in titles, 0 sewage found (the pool has no promo/community content; full-paper walkthroughs with worked explanations pass per ANCHOR-GRANULARITY §8). Tier A: deterministic distinctive-token pre-pass (df<=3) then class decision tables over EVERY distinctive-candidate row; rebinds validated against the target spine; degenerate token binds (paper-part labels) and cross-board routes dropped.",
+ "rejects": [
+  {
+   "video": "cVgw5XE3uTs",
+   "reason": "no-binding (routed-but-unmapped): no distinctive token overlap at the tightened bar (df<=3) — routed-but-unmapped, honest"
+  },
+  {
+   "video": "-KPh07hpoeE",
+   "reason": "no-binding (routed-but-unmapped): no distinctive token overlap at the tightened bar (df<=3) — routed-but-unmapped, honest"
+  },
+  {
+   "video": "tgm7QFjw4Dk",
+   "reason": "full-row drop: no class rule matched; best distinctive candidate 7.1 'Applications of differentiation to maxima and mi' bound only on vocabulary not named by the title (['function', 'sketching'])"
+  },
+  {
+   "video": "UvTd0A4es3Y",
+   "reason": "no-binding (routed-but-unmapped): no distinctive token overlap at the tightened bar (df<=3) — routed-but-unmapped, honest"
+  },
+  {
+   "video": "VCKtE_nLTcY",
+   "reason": "no-binding (routed-but-unmapped): no distinctive token overlap at the tightened bar (df<=3) — routed-but-unmapped, honest"
+  },
+  {
+   "video": "TjhSJSm_4j4",
+   "reason": "no-binding (routed-but-unmapped): no distinctive token overlap at the tightened bar (df<=3) — routed-but-unmapped, honest"
+  },
+  {
+   "video": "lAH0HYKnJYo",
+   "reason": "no-binding (routed-but-unmapped): no distinctive token overlap at the tightened bar (df<=3) — routed-but-unmapped, honest"
+  },
+  {
+   "video": "OWJIiowxdrY",
+   "reason": "no-binding (routed-but-unmapped): no distinctive token overlap at the tightened bar (df<=3) — routed-but-unmapped, honest"
+  },
+  {
+   "video": "j2sWGdprtkE",
+   "reason": "no-binding (routed-but-unmapped): no distinctive token overlap at the tightened bar (df<=3) — routed-but-unmapped, honest"
+  },
+  {
+   "video": "-GPOpMnO9A0",
+   "reason": "no-binding (routed-but-unmapped): no distinctive token overlap at the tightened bar (df<=3) — routed-but-unmapped, honest"
+  },
+  {
+   "video": "RP33XZcvJaU",
+   "reason": "no-binding (routed-but-unmapped): no distinctive token overlap at the tightened bar (df<=3) — routed-but-unmapped, honest"
+  },
+  {
+   "video": "DvGZenhgKzM",
+   "reason": "no-binding (routed-but-unmapped): no distinctive token overlap at the tightened bar (df<=3) — routed-but-unmapped, honest"
+  },
+  {
+   "video": "XmXXCeLAtM8",
+   "reason": "no-binding (routed-but-unmapped): no distinctive token overlap at the tightened bar (df<=3) — routed-but-unmapped, honest"
+  }
+ ],
+ "applied": {
+  "rowsApproved": 377,
+  "rowsRejected": 13,
+  "appliedUtc": "2026-11-13T06:48:16Z"
+ }
+}

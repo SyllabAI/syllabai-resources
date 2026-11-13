@@ -1,0 +1,65 @@
+{
+ "schema": "syllabai.owner-review-verdicts/2",
+ "task": "T-VIDEOMAP-P9 (Mr Hassaan's Maths Channel completion)",
+ "course": "ial-maths-20-pure-3",
+ "ruledUtc": "2026-11-13T06:48:16Z",
+ "source": "delegated self-review — owner chat 2026-11-09 \"approve and review yourself\"; lane authorized 2026-11-13 \"file as lane P9\"",
+ "default": "keep",
+ "reviewer": "delegated self-review (agent, per owner chat 2026-11-09: \"approve and review yourself\"; lane authorized 2026-11-13: \"file as lane P9\")",
+ "evidenceBasis": "Identity: oEmbed sweep 2,825/2,825 author \"Mr Hassaan's Maths Channel\" (0 mismatch, 0 dead). Tier B: paper codes regex-verified in titles, 0 sewage found (the pool has no promo/community content; full-paper walkthroughs with worked explanations pass per ANCHOR-GRANULARITY §8). Tier A: deterministic distinctive-token pre-pass (df<=3) then class decision tables over EVERY distinctive-candidate row; rebinds validated against the target spine; degenerate token binds (paper-part labels) and cross-board routes dropped.",
+ "rejects": [
+  {
+   "video": "F9N3V9_0bKI",
+   "reason": "no-binding (routed-but-unmapped): no distinctive token overlap at the tightened bar (df<=3) — routed-but-unmapped, honest"
+  },
+  {
+   "video": "svz5vWV01vw",
+   "reason": "no-binding (routed-but-unmapped): no distinctive token overlap at the tightened bar (df<=3) — routed-but-unmapped, honest"
+  },
+  {
+   "video": "8zfPMap6250",
+   "reason": "no-binding (routed-but-unmapped): no distinctive token overlap at the tightened bar (df<=3) — routed-but-unmapped, honest"
+  },
+  {
+   "video": "ucO1u0ecd3U",
+   "reason": "no-binding (routed-but-unmapped): no distinctive token overlap at the tightened bar (df<=3) — routed-but-unmapped, honest"
+  },
+  {
+   "video": "eHUpXXu0KVE",
+   "reason": "no-binding (routed-but-unmapped): no distinctive token overlap at the tightened bar (df<=3) — routed-but-unmapped, honest"
+  },
+  {
+   "video": "UbvUaOORRRg",
+   "reason": "no-binding (routed-but-unmapped): no distinctive token overlap at the tightened bar (df<=3) — routed-but-unmapped, honest"
+  },
+  {
+   "video": "zgj_HtTZ5Kc",
+   "reason": "no-binding (routed-but-unmapped): no distinctive token overlap at the tightened bar (df<=3) — routed-but-unmapped, honest"
+  },
+  {
+   "video": "ypLhi8Np6dE",
+   "reason": "no-binding (routed-but-unmapped): no distinctive token overlap at the tightened bar (df<=3) — routed-but-unmapped, honest"
+  },
+  {
+   "video": "q0db62bqOpI",
+   "reason": "no-binding (routed-but-unmapped): no distinctive token overlap at the tightened bar (df<=3) — routed-but-unmapped, honest"
+  },
+  {
+   "video": "qs7AoN_WNjE",
+   "reason": "no-binding (routed-but-unmapped): no distinctive token overlap at the tightened bar (df<=3) — routed-but-unmapped, honest"
+  },
+  {
+   "video": "13_sB3IVC48",
+   "reason": "no-binding (routed-but-unmapped): no distinctive token overlap at the tightened bar (df<=3) — routed-but-unmapped, honest"
+  },
+  {
+   "video": "nSmQI06k108",
+   "reason": "full-row drop: no class rule matched; best distinctive candidate 1.1 'Simplification of rational Denominators of ratio' bound only on vocabulary not named by the title (['factorising'])"
+  }
+ ],
+ "applied": {
+  "rowsApproved": 341,
+  "rowsRejected": 12,
+  "appliedUtc": "2026-11-13T06:48:16Z"
+ }
+}
