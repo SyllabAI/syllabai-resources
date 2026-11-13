@@ -1,0 +1,120 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_CPYy2hBVqZGFYMk7",
+    "corpusVersion": "sme-revision-notes-igcse-biology-19-2026-09-17",
+    "sourceLayerSha256": "f99edc43ad15e5faf76b7b309e40fc19bbd5b79ba3c3a5cd8013ec1b4775281d",
+    "pinnedRef": "e364a127170c177b264e39f75e497d591c3d35d3"
+  },
+  "lesson": {
+    "id": "igcse-biology::rn_CPYy2hBVqZGFYMk7",
+    "topicTitle": "Reproduction and inheritance",
+    "subtopicTitle": "Reproduction",
+    "sourceUrl": "https://www.savemyexams.com/igcse/biology/edexcel/19/revision-notes/3-reproduction-and-inheritance/reproduction/roles-of-fsh-and-lh-in-the-menstrual-cycle",
+    "specAnchors": [
+      {
+        "code": "3.10B",
+        "text": "understand the roles of FSH and LH in the menstrual cycle"
+      }
+    ],
+    "primer": {
+      "text": "Oestrogen and progesterone get the headlines, but two brain signals run the cycle's opening act. FSH wakes an egg follicle and switches on oestrogen; once oestrogen peaks, LH fires and ovulation follows, handing the ovary its progesterone job. This note tracks both pituitary hormones and the eight-step relay they drive.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_CPYy2hBVqZGFYMk7::L1",
+        "title": "Pituitary Signals and the Ovarian Relay",
+        "sourceHeadings": [
+          "Roles of FSH & LH in the Menstrual Cycle"
+        ],
+        "specRefs": [
+          "3.10B"
+        ],
+        "opening": "FSH and LH leave the pituitary gland in sequence: FSH matures an egg follicle and starts oestrogen release, and once oestrogen peaks, LH triggers ovulation and the follicle's conversion into the progesterone-producing corpus luteum.",
+        "keyPoints": [
+          "FSH and LH are hormones made by the pituitary gland, which sits in the brain.",
+          "FSH starts an egg maturing inside the ovary and switches on oestrogen release.",
+          "LH is released when oestrogen peaks, causing ovulation to occur.",
+          "LH then pushes the ovary into its progesterone-producing phase.",
+          "The follicle becomes the corpus luteum, whose progesterone holds the lining until the placenta can take over."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "FSH ripens the egg and raises oestrogen; LH then bursts the follicle and starts progesterone.",
+            "analogy": "A two-button launch: button one fuels the rocket (FSH), button two opens the pad gates (LH).",
+            "examPointer": "Anchor each hormone to its two effects — FSH matures plus stimulates oestrogen; LH ovulates plus starts progesterone."
+          },
+          "medium": {
+            "restatement": "The relay is feedback-driven: rising oestrogen first suppresses FSH, then at peak levels it triggers the LH surge, so the pituitary and ovary trade control of the cycle in strict order until pregnancy, when the placenta maintains progesterone production itself.",
+            "analogy": "A thermostat hand-off: one signal heats the room until a threshold flips control to a second system.",
+            "examPointer": "Link high oestrogen to the LH release — the trigger order is the discriminating fact."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_CPYy2hBVqZGFYMk7::L1::Q1",
+          "rn_CPYy2hBVqZGFYMk7::L1::Q2",
+          "rn_CPYy2hBVqZGFYMk7::L1::Q3",
+          "rn_CPYy2hBVqZGFYMk7::L1::Q4",
+          "rn_CPYy2hBVqZGFYMk7::L1::Q5",
+          "rn_CPYy2hBVqZGFYMk7::L1::Q6",
+          "rn_CPYy2hBVqZGFYMk7::L1::Q7",
+          "rn_CPYy2hBVqZGFYMk7::L1::Q8",
+          "rn_CPYy2hBVqZGFYMk7::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "FSH",
+          "definition": "Follicle-stimulating hormone from the pituitary gland that starts egg maturing and oestrogen release.",
+          "firstLesson": 1
+        },
+        {
+          "term": "LH",
+          "definition": "Luteinising hormone from the pituitary gland that triggers ovulation and progesterone production.",
+          "firstLesson": 1
+        },
+        {
+          "term": "pituitary gland",
+          "definition": "The brain gland that releases FSH and LH.",
+          "firstLesson": 1
+        },
+        {
+          "term": "follicle",
+          "definition": "The ovarian structure that holds the maturing egg and produces oestrogen.",
+          "firstLesson": 1
+        }
+      ],
+      "workedExample": null
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-biology-19/assets/1c33e74708dd-pituitary-hormones-1.png",
+        "alt": "pituitary hormones 1",
+        "sourceHeading": "Roles of FSH & LH in the Menstrual Cycle",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique"
+      }
+    ]
+  }
+}
