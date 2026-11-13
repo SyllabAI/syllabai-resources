@@ -1,0 +1,128 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_FbRdhwTCpc7DWjnm",
+    "corpusVersion": "sme-revision-notes-igcse-biology-19-2026-09-17",
+    "sourceLayerSha256": "33dc1d0497219da573c89f451aaf8cb339f45c0f04f7b3f461d303e6fc8b6d87",
+    "pinnedRef": "16deb4ac30061245e49391edd23239bcce496e31"
+  },
+  "lesson": {
+    "id": "igcse-biology::rn_FbRdhwTCpc7DWjnm",
+    "topicTitle": "Structure and functions in living organisms",
+    "subtopicTitle": "Nutrition",
+    "sourceUrl": "https://www.savemyexams.com/igcse/biology/edexcel/19/revision-notes/2-structure-and-function-in-living-organisms/nutrition/plants-and-mineral-ions",
+    "specAnchors": [
+      {
+        "code": "2.22",
+        "text": "understand that plants require mineral ions for growth, and that magnesium ions are needed for chlorophyll and nitrate ions are needed for amino acids"
+      }
+    ],
+    "primer": {
+      "text": "You know photosynthesis makes glucose, but a plant needs proteins and DNA too — molecules that glucose alone cannot supply. This lesson names the two mineral ions that fill the gap, where the root hair cells get them, and the visible deficiency symptoms that appear when either runs out.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_FbRdhwTCpc7DWjnm::L1",
+        "title": "Mineral Ions: Nitrates and Magnesium",
+        "sourceHeadings": [
+          "Mineral Ions",
+          "Mineral ion function and deficiencies in plants table"
+        ],
+        "specRefs": [
+          "2.22"
+        ],
+        "opening": "Photosynthesis supplies carbohydrates, but proteins and nucleic acids demand extra elements, notably nitrogen. Plants build them from mineral ions that root hair cells actively pull in from the soil. Two ions matter most: nitrate for amino acids and proteins, and magnesium for the chlorophyll that keeps photosynthesis running.",
+        "keyPoints": [
+          "Plants make their own proteins, lipids and nucleic acids rather than eating them.",
+          "Proteins contain nitrogen, which carbohydrate lacks.",
+          "Root hair cells take mineral ions up from the soil by active transport.",
+          "Magnesium ions are required to build chlorophyll.",
+          "Nitrate ions are required to make amino acids.",
+          "Short of either ion, plants cannot grow or photosynthesise properly."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Nitrate builds protein; magnesium builds chlorophyll; roots fetch both.",
+            "analogy": "Two specialist ingredients delivered by the root's supply line.",
+            "examPointer": "Attach each ion to its deficiency symptom as the table shows."
+          },
+          "medium": {
+            "restatement": "Element arithmetic: glucose gives carbon, hydrogen and oxygen; anything more needs soil ions.",
+            "analogy": "A bakery that must order its salt and yeast because flour alone cannot provide them.",
+            "examPointer": "Quote the active-uptake phrase from the lesson when explaining how ions enter."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_FbRdhwTCpc7DWjnm::L1::Q1",
+          "rn_FbRdhwTCpc7DWjnm::L1::Q2",
+          "rn_FbRdhwTCpc7DWjnm::L1::Q3",
+          "rn_FbRdhwTCpc7DWjnm::L1::Q4",
+          "rn_FbRdhwTCpc7DWjnm::L1::Q5",
+          "rn_FbRdhwTCpc7DWjnm::L1::Q6",
+          "rn_FbRdhwTCpc7DWjnm::L1::Q7",
+          "rn_FbRdhwTCpc7DWjnm::L1::Q8",
+          "rn_FbRdhwTCpc7DWjnm::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01",
+          "fig-02"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "nitrate ion",
+          "definition": "The soil ion plants actively absorb to obtain nitrogen for amino acids.",
+          "firstLesson": 1
+        },
+        {
+          "term": "magnesium ion",
+          "definition": "The ion required for building chlorophyll molecules.",
+          "firstLesson": 1
+        },
+        {
+          "term": "root hair cell",
+          "definition": "The absorptive root cell that takes mineral ions up from the soil by active transport.",
+          "firstLesson": 1
+        }
+      ],
+      "workedExample": null
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-biology-19/assets/74d979353c54-mineral-requirements-table.png",
+        "alt": "Mineral Requirements table",
+        "sourceHeading": "Mineral ion function and deficiencies in plants table",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-02",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-biology-19/assets/db61ffcedad6-mineral-deficiencies-in-plants.png",
+        "alt": "Mineral deficiencies in plants",
+        "sourceHeading": "Mineral ion function and deficiencies in plants table",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique"
+      }
+    ]
+  }
+}

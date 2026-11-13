@@ -1,0 +1,117 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_36VMwrJj4RZdKzNW",
+    "corpusVersion": "sme-revision-notes-igcse-biology-19-2026-09-17",
+    "sourceLayerSha256": "eab3487a9973a2047e39c019ec2b6178363baace63b4220500aa135af7806e73",
+    "pinnedRef": "16deb4ac30061245e49391edd23239bcce496e31"
+  },
+  "lesson": {
+    "id": "igcse-biology::rn_36VMwrJj4RZdKzNW",
+    "topicTitle": "Structure and functions in living organisms",
+    "subtopicTitle": "Nutrition",
+    "sourceUrl": "https://www.savemyexams.com/igcse/biology/edexcel/19/revision-notes/2-structure-and-function-in-living-organisms/nutrition/practical-energy-content-of-a-food-sample",
+    "specAnchors": [
+      {
+        "code": "2.33B",
+        "text": "practical: investigate the energy content in a food sample"
+      }
+    ],
+    "primer": {
+      "text": "You know food stores energy and that burning releases it. This practical measures that release directly: burn a weighed food sample under a known mass of water, read the temperature rise, and convert it into joules per gram — then judge how much of the heat the simple setup actually lost.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_36VMwrJj4RZdKzNW::L1",
+        "title": "Burning Food to Measure Energy",
+        "sourceHeadings": [
+          "Practical: Energy Content of a Food Sample",
+          "Investigating the energy content of food samples diagram"
+        ],
+        "specRefs": [
+          "2.33B"
+        ],
+        "opening": "A simple calorimetry experiment compares the energy stored in foods. Twenty-five cubic centimetres of water sit in a boiling tube, a weighed food sample burns beneath it, and the temperature rise tells you the energy transferred. Dividing by the sample's mass turns the reading into joules per gram, comparable across popcorn, walnuts or crisps.",
+        "keyPoints": [
+          "Twenty-five cubic centimetres of water are measured into the boiling tube.",
+          "The starting temperature of the water is recorded before burning.",
+          "The food sample is weighed, burned completely, and held two centimetres from the tube.",
+          "The final water temperature is recorded after the sample stops burning.",
+          "Energy per gram equals mass of water times temperature rise times four point two, divided by sample mass.",
+          "Incomplete burning and heat loss both make the calculated values underestimates."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Burn food under water; bigger temperature rise, more energy.",
+            "analogy": "Boiling a kettle on a campfire: the fire's heat shows up on the thermometer.",
+            "examPointer": "Quote the equation with all four variables when calculating."
+          },
+          "medium": {
+            "restatement": "The method is a crude calorimeter: every joule the water misses went to the air or stayed unburnt.",
+            "analogy": "Measuring a shower's heat from the bathwater alone.",
+            "examPointer": "Explain both limitations and their fixes — relight and shield with foil."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_36VMwrJj4RZdKzNW::L1::Q1",
+          "rn_36VMwrJj4RZdKzNW::L1::Q2",
+          "rn_36VMwrJj4RZdKzNW::L1::Q3",
+          "rn_36VMwrJj4RZdKzNW::L1::Q4",
+          "rn_36VMwrJj4RZdKzNW::L1::Q5",
+          "rn_36VMwrJj4RZdKzNW::L1::Q6",
+          "rn_36VMwrJj4RZdKzNW::L1::Q7",
+          "rn_36VMwrJj4RZdKzNW::L1::Q8",
+          "rn_36VMwrJj4RZdKzNW::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "calorimetry",
+          "definition": "Measuring energy by the temperature change it produces in a known mass of water.",
+          "firstLesson": 1
+        },
+        {
+          "term": "specific heat capacity",
+          "definition": "The energy needed to raise one kilogram of water by one degree Celsius; 4.2 kJ for water.",
+          "firstLesson": 1
+        },
+        {
+          "term": "incomplete burning",
+          "definition": "Combustion that fails to release all the sample's stored energy, skewing results low.",
+          "firstLesson": 1
+        }
+      ],
+      "workedExample": null
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-biology-19/assets/c75d56e14751-the-energy-content-of-food.png",
+        "alt": "The energy content of food",
+        "sourceHeading": "Investigating the energy content of food samples diagram",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique"
+      }
+    ]
+  }
+}
