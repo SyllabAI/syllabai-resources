@@ -1,0 +1,603 @@
+{
+  "format": "guided-lesson/0.8",
+  "noteRef": {
+    "noteId": "rn_QbY5FrkKC3TK5vJS",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "topicTitle": "1. Structure, Bonding & Introduction to Organic Chemistry",
+    "subtopicTitle": "Formulae & Mass",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/1-structure-bonding-and-introduction-to-organic-chemistry/1-1-formulae-and-equations/1-1-1-formulae-and-mass"
+  },
+  "specPoints": [
+    {
+      "code": "1.1",
+      "text": "know the terms ‘atom', 'element', 'ion', 'molecule', 'compound', 'empirical formula' and 'molecular formula’"
+    },
+    {
+      "code": "1.4",
+      "text": "understand the terms: i ‘relative atomic mass’ based on the 12 C scale ii ‘relative molecular mass’ and ‘relative formula mass’, including calculating these values from relative atomic masses The term ‘relative formula mass’ should be used for compounds with giant structures. iii ‘molar mass’ as the mass per mole of a substance in g mol -1 iv parts per million (ppm), including gases in the atmosphere"
+    }
+  ],
+  "primer": {
+    "text": "Before atoms can be counted or reactions measured, chemistry needs a shared vocabulary and a shared scale of mass. This note fixes the seven terms that describe what matter is made of - atom, element, ion, molecule, compound and the two formula types - then builds the carbon-12 mass scale that turns those terms into numbers: the relative isotopic, atomic and formula masses you will use in every calculation that follows.",
+    "prerequisiteSubtopic": null
+  },
+  "lessons": [
+    {
+      "title": "The seven terms that describe matter",
+      "sourceHeadings": [
+        "Formulae - Definitions"
+      ],
+      "specRefs": [
+        "1.1"
+      ],
+      "opening": "Chemistry begins as a vocabulary exercise: seven terms decide whether you can describe matter at all. An atom is the smallest reacting particle; element, molecule, ion and compound say what is built from atoms; and the two formula types record ratios or counts. This lesson pins each word to a one-line definition you can reproduce under exam pressure.",
+      "keyPoints": [
+        "An atom is a single particle - the smallest piece of an element that can take part in a reaction.",
+        "An element contains atoms of one type only, whether those atoms are bonded or not.",
+        "An ion is an atom, or a bonded cluster of atoms, that has lost or gained electrons and so carries a charge.",
+        "A molecule is a cluster of two or more atoms held together by chemical bonds.",
+        "A compound contains two or more different elements bonded together in one substance.",
+        "An empirical formula gives the simplest whole-number ratio of each element; a molecular formula gives the actual count."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Everything in chemistry is built from atoms; the seven words just say how many kinds of atom are present and whether they carry a charge.",
+          "analogy": "Think of atoms as bricks: an element is a pile of identical bricks, a molecule is a small glued cluster, and a compound is a wall built from at least two kinds of brick.",
+          "examPointer": "Definitions are one-mark gimmes here: learn all seven so that any 'state the meaning of' prompt costs you nothing."
+        },
+        "medium": {
+          "restatement": "The terms form a ladder: atoms of one type give an element; bonded clusters give molecules; charged species give ions; two or more different elements bonded give compounds, whose formulae record either the ratio or the count.",
+          "analogy": "A compound is a recipe, not a blend: sodium and chlorine react into a new substance, the way flour and egg bake into a cake rather than sitting side by side.",
+          "examPointer": "Watch for diatomic elements: a molecule of oxygen is not a compound, because compounds need two different elements joined together."
+        }
+      },
+      "check": [
+        {
+          "kind": "mcq",
+          "stem": "Which term names a substance made of only one kind of atom, whether those atoms are bonded to each other or not?",
+          "misconceptionClass": "element vs compound confusion",
+          "options": [
+            {
+              "key": "A",
+              "text": "Element",
+              "correct": true,
+              "explanation": "An element is atoms of one type only, bonded or unbonded.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Compound",
+              "correct": false,
+              "explanation": "A compound needs two or more different elements joined together.",
+              "misconception": "any named substance assumed to be a compound"
+            },
+            {
+              "key": "C",
+              "text": "Molecule",
+              "correct": false,
+              "explanation": "Molecule describes a bonded cluster, not its purity; a molecule of an element is still an element.",
+              "misconception": "bonded cluster equated with compound"
+            },
+            {
+              "key": "D",
+              "text": "Ion",
+              "correct": false,
+              "explanation": "Ion describes charge, not the single-kind-of-atom criterion.",
+              "misconception": "charge confused with purity"
+            }
+          ]
+        },
+        {
+          "kind": "mcq",
+          "stem": "An atom of magnesium has lost two electrons. What is the species now called, and what has it become?",
+          "misconceptionClass": "ion formation",
+          "options": [
+            {
+              "key": "A",
+              "text": "An ion that carries an overall 2+ charge",
+              "correct": true,
+              "explanation": "Losing electrons leaves more protons than electrons, so the charged species is an ion.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "A molecule that carries an overall 2- charge",
+              "correct": false,
+              "explanation": "A single atom is not a molecule, and losing electrons makes the charge positive, not negative.",
+              "misconception": "charge sign reversed"
+            },
+            {
+              "key": "C",
+              "text": "An isotope that carries an overall 2+ charge",
+              "correct": false,
+              "explanation": "Isotopes differ in neutrons, not electrons; electron loss makes an ion.",
+              "misconception": "isotope confused with ion"
+            },
+            {
+              "key": "D",
+              "text": "A neutral atom that has gained mass",
+              "correct": false,
+              "explanation": "Electron loss changes charge first; the species is no longer neutral.",
+              "misconception": "electron loss seen as mass change"
+            }
+          ]
+        },
+        {
+          "kind": "mcq",
+          "stem": "Ethanoic acid has formula C2H4O2, and a ratio calculation reduces it to CH2O. Which statement names the two formulae correctly?",
+          "misconceptionClass": "empirical vs molecular formula",
+          "options": [
+            {
+              "key": "A",
+              "text": "CH2O is the empirical formula and C2H4O2 is the molecular formula",
+              "correct": true,
+              "explanation": "The reduced ratio is the empirical formula; the actual atom count per molecule is the molecular formula.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Both are empirical formulae of the same substance",
+              "correct": false,
+              "explanation": "Only the reduced ratio is empirical; C2H4O2 shows the true count of atoms.",
+              "misconception": "both formulae assumed equivalent"
+            },
+            {
+              "key": "C",
+              "text": "CH2O is the molecular formula and C2H4O2 is the empirical formula",
+              "correct": false,
+              "explanation": "This reverses the two: the unreduced count is molecular, not empirical.",
+              "misconception": "roles of the two formulae swapped"
+            },
+            {
+              "key": "D",
+              "text": "The two formulae describe different substances",
+              "correct": false,
+              "explanation": "They describe one substance at two levels of detail - ratio versus count.",
+              "misconception": "formulae read as separate substances"
+            }
+          ]
+        },
+        {
+          "kind": "mcq",
+          "stem": "Which statement about a compound is correct?",
+          "misconceptionClass": "compound definition",
+          "options": [
+            {
+              "key": "A",
+              "text": "Two or more different elements are bonded together in it",
+              "correct": true,
+              "explanation": "This is the compound definition: different elements joined into one substance.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "All its atoms are of one type",
+              "correct": false,
+              "explanation": "One-type-only describes an element, the opposite of a compound.",
+              "misconception": "compound and element definitions swapped"
+            },
+            {
+              "key": "C",
+              "text": "It can be split into simpler substances without any chemical change",
+              "correct": false,
+              "explanation": "Splitting a compound needs chemical reactions; the note's definitions place compounds as chemically bonded substances.",
+              "misconception": "mixtures and compounds confused"
+            },
+            {
+              "key": "D",
+              "text": "It must contain charged particles",
+              "correct": false,
+              "explanation": "Compounds may be molecular and uncharged; charge is the ion idea, not the compound idea.",
+              "misconception": "compound assumed ionic"
+            }
+          ]
+        },
+        {
+          "kind": "mcq",
+          "stem": "Oxygen gas, O2, and methane, CH4, are both molecular. Which sentence places them correctly?",
+          "misconceptionClass": "molecule vs compound",
+          "options": [
+            {
+              "key": "A",
+              "text": "O2 is a molecule but not a compound; CH4 is both a molecule and a compound",
+              "correct": true,
+              "explanation": "O2 has one element only, so it is an element that is molecular; methane joins two different elements.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Both are compounds because both contain bonds",
+              "correct": false,
+              "explanation": "Bonds alone do not make a compound; two different elements are needed.",
+              "misconception": "bonding equated with compound formation"
+            },
+            {
+              "key": "C",
+              "text": "O2 is a compound because its molecule holds two atoms",
+              "correct": false,
+              "explanation": "Both its atoms are oxygen, so it fails the different-elements test.",
+              "misconception": "atom count equated with compound"
+            },
+            {
+              "key": "D",
+              "text": "CH4 is a molecule but not a compound",
+              "correct": false,
+              "explanation": "Methane joins carbon and hydrogen - two different elements - so it is a compound too.",
+              "misconception": "molecular substances denied compound status"
+            }
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "State what an ion is, in terms of electrons gained or lost.",
+          "misconceptionClass": "ion definition recall",
+          "modelAnswer": "An ion is an atom, or a bonded cluster of atoms, that has lost or gained electrons, so it carries an overall electric charge.",
+          "keywords": [
+            "gained",
+            "lost",
+            "electrons",
+            "charge"
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "State the difference between an empirical formula and a molecular formula.",
+          "misconceptionClass": "formula pair recall",
+          "modelAnswer": "The empirical formula gives the simplest whole-number ratio of the atoms of each element, while the molecular formula gives the actual count of each kind of atom in one molecule.",
+          "keywords": [
+            "simplest",
+            "ratio",
+            "actual",
+            "count",
+            "molecule"
+          ]
+        },
+        {
+          "kind": "explain-why",
+          "stem": "A student claims every substance built from molecules must be a compound. Explain why molecular oxygen disproves the claim.",
+          "misconceptionClass": "molecular element exception",
+          "modelAnswer": "A compound needs two or more different elements bonded together, but molecular oxygen contains only oxygen atoms, so it is an element that happens to be molecular, not a compound.",
+          "keywords": [
+            "compound",
+            "different",
+            "elements",
+            "oxygen"
+          ]
+        },
+        {
+          "kind": "application",
+          "stem": "A laboratory bottle is labelled copper sulfate, formula CuSO4. Using this lesson's terms, classify the substance and justify the label.",
+          "misconceptionClass": "classification applied",
+          "modelAnswer": "Copper sulfate is a compound: its formula carries three different elements - copper, sulfur and oxygen - bonded together, which satisfies the compound definition rather than element, molecule-of-one-element, or free ion.",
+          "keywords": [
+            "compound",
+            "elements",
+            "bonded",
+            "formula"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Relative mass on the carbon-12 scale",
+      "sourceHeadings": [
+        "Mass - Definitions",
+        "Relative Formula Mass Calculations Table"
+      ],
+      "specRefs": [
+        "1.4"
+      ],
+      "opening": "Actual atomic masses are unusable in sums, so chemistry replaces them with ratios measured against carbon-12. From the isotopic mass of one isotope, the lesson scales up to the weighted atomic mass of an element and then to the total for a whole formula unit, closing with the potassium-carbonate arithmetic that anchors the method.",
+      "keyPoints": [
+        "The carbon-12 isotope is the international standard, and one such atom is defined as exactly 12 atomic mass units.",
+        "Relative isotopic mass compares one isotope with a twelfth of one carbon-12 atom, and A Level values round to one decimal place.",
+        "Relative atomic mass is the weighted mean mass of an atom of the element, averaged over its natural isotopic mixture.",
+        "Relative formula mass totals the relative atomic masses of every atom in the formula unit; the name suits giant ionic structures best.",
+        "Use the Periodic Table's one-decimal Ar values in every Mr sum, as the potassium-carbonate example shows."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Chemists compare every atom with a twelfth of a carbon-12 atom; isotopic, atomic and formula masses are all ratios on that one scale.",
+          "analogy": "It is like pricing gold against a standard kilogram weight: nobody weighs single atoms, everybody reports the ratio.",
+          "examPointer": "Quote relative masses to one decimal place, exactly as the Periodic Table does."
+        },
+        "medium": {
+          "restatement": "Relative isotopic mass describes one isotope; relative atomic mass is the weighted mean across the isotope mixture; relative formula mass totals the Ar values in the unit and is the safe name for giant structures.",
+          "analogy": "A class's average height depends on how many tall and short pupils it holds, exactly as an element's Ar depends on the abundance of each isotope.",
+          "examPointer": "Relative molecular mass and relative formula mass give the same number for molecular substances, but the formula-mass name is the one the exam hint prefers everywhere."
+        }
+      },
+      "check": [
+        {
+          "kind": "mcq",
+          "stem": "What single standard fixes the relative mass scale used throughout chemistry?",
+          "misconceptionClass": "carbon-12 standard recall",
+          "options": [
+            {
+              "key": "A",
+              "text": "One-twelfth of the mass of a single carbon-12 atom",
+              "correct": true,
+              "explanation": "The carbon-12 isotope is the international standard; its twelfth defines the scale.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "The mass of one proton",
+              "correct": false,
+              "explanation": "Proton-based scales were abandoned; the agreed standard is the carbon-12 isotope.",
+              "misconception": "hydrogen-scale intuition carried forward"
+            },
+            {
+              "key": "C",
+              "text": "The mass of one mole of carbon-12",
+              "correct": false,
+              "explanation": "The mole counts particles; the mass scale compares single atoms.",
+              "misconception": "mole and relative mass confused"
+            },
+            {
+              "key": "D",
+              "text": "The average mass of every carbon isotope",
+              "correct": false,
+              "explanation": "That describes a relative atomic mass of carbon, not the fixed standard itself.",
+              "misconception": "weighted mean confused with the standard"
+            }
+          ]
+        },
+        {
+          "kind": "mcq",
+          "stem": "Chlorine's Periodic Table value is 35.5. What does that number represent?",
+          "misconceptionClass": "relative atomic mass meaning",
+          "options": [
+            {
+              "key": "A",
+              "text": "The weighted mean mass of chlorine atoms on the carbon-12 scale, averaged over its isotopes",
+              "correct": true,
+              "explanation": "No single chlorine atom weighs 35.5; the value is the isotope-mixture average.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "The mass of one chlorine molecule",
+              "correct": false,
+              "explanation": "A Cl2 molecule would be near twice that figure; Ar values describe atoms.",
+              "misconception": "atomic and molecular masses swapped"
+            },
+            {
+              "key": "C",
+              "text": "The mass number of chlorine's rarest isotope",
+              "correct": false,
+              "explanation": "Mass numbers are whole counts of nucleons, and the value reflects abundance, not rarity.",
+              "misconception": "isotope abundance ignored"
+            },
+            {
+              "key": "D",
+              "text": "The charge carried by a chlorine ion",
+              "correct": false,
+              "explanation": "Chloride ions carry 1-; the 35.5 figure is a mass ratio, not a charge.",
+              "misconception": "mass and charge ideas mixed"
+            }
+          ]
+        },
+        {
+          "kind": "mcq",
+          "stem": "Which name should you give to the mass value you calculate for sodium chloride, a giant ionic structure?",
+          "misconceptionClass": "formula mass naming law",
+          "options": [
+            {
+              "key": "A",
+              "text": "Relative formula mass",
+              "correct": true,
+              "explanation": "Giant ionic compounds take the formula-mass name; the exam hint prefers it for every compound.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Relative molecular mass",
+              "correct": false,
+              "explanation": "The molecular name belongs to molecular substances, not giant structures.",
+              "misconception": "molecular name applied everywhere"
+            },
+            {
+              "key": "C",
+              "text": "Relative isotopic mass",
+              "correct": false,
+              "explanation": "Isotopic mass describes one isotope of one atom, not a whole compound.",
+              "misconception": "isotopic scale over-applied"
+            },
+            {
+              "key": "D",
+              "text": "Atomic number",
+              "correct": false,
+              "explanation": "Atomic number counts protons; the question asks for a mass total.",
+              "misconception": "mass and atomic number confused"
+            }
+          ]
+        },
+        {
+          "kind": "mcq",
+          "stem": "Using Ar(P) = 31.0 and Ar(O) = 16.0, what is the relative formula mass of P4O10?",
+          "misconceptionClass": "Mr calculation",
+          "options": [
+            {
+              "key": "A",
+              "text": "284.0",
+              "correct": true,
+              "explanation": "4 x 31.0 = 124.0 and 10 x 16.0 = 160.0; 124.0 + 160.0 = 284.0.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "47.0",
+              "correct": false,
+              "explanation": "That adds one P and one O only - the subscripts 4 and 10 were ignored.",
+              "misconception": "subscripts ignored"
+            },
+            {
+              "key": "C",
+              "text": "138.0",
+              "correct": false,
+              "explanation": "That counts some but not all of the oxygen atoms; all ten must be included.",
+              "misconception": "partial subscript counting"
+            },
+            {
+              "key": "D",
+              "text": "620.0",
+              "correct": false,
+              "explanation": "That multiplies Ar values together before adding - Mr sums are adds of Ar values, never products.",
+              "misconception": "multiplied instead of added"
+            }
+          ]
+        },
+        {
+          "kind": "mcq",
+          "stem": "The accurate relative isotopic mass of nitrogen-14 is 14.00307401. How is it quoted for A Level work?",
+          "misconceptionClass": "one-decimal rounding",
+          "options": [
+            {
+              "key": "A",
+              "text": "14.0, rounded to one decimal place",
+              "correct": true,
+              "explanation": "The note's rounding convention matches the Periodic Table's one-decimal style.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "14, rounded to a whole number",
+              "correct": false,
+              "explanation": "The convention keeps one decimal, so the 0 after the point matters.",
+              "misconception": "over-rounding to integers"
+            },
+            {
+              "key": "C",
+              "text": "14.00307401, because rounding loses accuracy",
+              "correct": false,
+              "explanation": "Relative masses are ratios for sums; the convention is one decimal place.",
+              "misconception": "refusal to round"
+            },
+            {
+              "key": "D",
+              "text": "7.0, using the atomic number instead",
+              "correct": false,
+              "explanation": "Seven is the proton count; the question asks for mass.",
+              "misconception": "mass replaced by atomic number"
+            }
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "Define relative atomic mass.",
+          "misconceptionClass": "Ar definition recall",
+          "modelAnswer": "Relative atomic mass is the weighted mean mass of an atom of the element, compared with a twelfth of one carbon-12 atom and averaged over the element's natural isotopic mixture.",
+          "keywords": [
+            "weighted",
+            "mean",
+            "carbon-12",
+            "isotopic"
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "State the relative formula mass calculation for potassium carbonate, K2CO3, using Ar(K) = 39.1, Ar(C) = 12.0 and Ar(O) = 16.0.",
+          "misconceptionClass": "Mr method recall",
+          "modelAnswer": "Mr adds the Ar values: two potassium atoms contribute 2 x 39.1 = 78.2, the single carbon contributes 12.0, and three oxygen atoms contribute 3 x 16.0 = 48.0, so the total for K2CO3 is 78.2 + 12.0 + 48.0 = 138.2.",
+          "keywords": [
+            "potassium",
+            "carbon",
+            "oxygen",
+            "138.2"
+          ]
+        },
+        {
+          "kind": "explain-why",
+          "stem": "Explain why chemists compare atoms with carbon-12 instead of quoting each atom's true mass in kilograms.",
+          "misconceptionClass": "why a relative scale",
+          "modelAnswer": "An atom's true mass is an inconveniently tiny number of kilograms, so chemists compare every atom against a standard atom - carbon-12 - and work with convenient ratios; the accepted mass of one carbon-12 atom fixes that standard at exactly 12 atomic mass units.",
+          "keywords": [
+            "tiny",
+            "standard",
+            "carbon-12",
+            "ratios"
+          ]
+        },
+        {
+          "kind": "application",
+          "stem": "A student works out the relative formula mass of magnesium nitrate, Mg(NO3)2, as 24.3 + 2 x 14.0 + 3 x 16.0 = 100.3, and the answer is marked wrong. Identify the error and give the correct value.",
+          "misconceptionClass": "bracket distribution applied",
+          "modelAnswer": "The bracket doubles the whole nitrate group, so the formula carries two nitrogen atoms and six oxygen atoms: 24.3 + (2 x 14.0) + (6 x 16.0) = 24.3 + 28.0 + 96.0 = 148.3.",
+          "keywords": [
+            "bracket",
+            "nitrogen",
+            "oxygen",
+            "148.3"
+          ]
+        }
+      ]
+    }
+  ],
+  "noteAssets": {
+    "glossary": [
+      {
+        "term": "relative isotopic mass",
+        "definition": "The mass of one isotope compared with a twelfth of one carbon-12 atom, quoted to one decimal place at this level.",
+        "firstLesson": 2
+      },
+      {
+        "term": "relative atomic mass",
+        "definition": "The weighted mean mass of an atom of an element on the carbon-12 scale, covering the element's natural isotope mixture.",
+        "firstLesson": 2
+      },
+      {
+        "term": "relative formula mass",
+        "definition": "The total of the relative atomic masses in a formula unit; the term of choice for giant ionic compounds.",
+        "firstLesson": 2
+      },
+      {
+        "term": "empirical formula",
+        "definition": "The formula reduced to the simplest whole-number ratio of the atoms of each element.",
+        "firstLesson": 1
+      }
+    ],
+    "workedExample": {
+      "prompt": "Using relative atomic masses from the Periodic Table, calculate the relative formula mass of potassium carbonate, K2CO3, and state which mass term the answer uses.",
+      "steps": [
+        "Count the atoms the formula carries: two potassium, one carbon, three oxygen.",
+        "The two potassium atoms contribute 2 x 39.1 = 78.2.",
+        "The single carbon contributes 12.0, and the three oxygen atoms contribute 3 x 16.0 = 48.0.",
+        "Add the parts: 78.2 + 12.0 + 48.0 = 138.2."
+      ],
+      "finalAnswer": "Mr(K2CO3) = 138.2; potassium carbonate is an ionic compound with a giant structure, so the relative formula mass is the correct term for it."
+    }
+  },
+  "figures": [
+    {
+      "id": "fig-01",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/5d77f88905e5-3-1-2-relative-formula-mass-calculations-table.png",
+      "alt": "Relative Formula Mass Calculations Table, downloadable IGCSE & GCSE Chemistry revision notes",
+      "sourceHeading": "Relative Formula Mass Calculations Table",
+      "binding": "heading-unique",
+      "moduleIds": [
+        "L2"
+      ]
+    }
+  ]
+}
