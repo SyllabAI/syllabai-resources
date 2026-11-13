@@ -1,0 +1,581 @@
+{
+ "format": "guided-lesson/0.7",
+ "noteRef": {
+  "noteId": "rn_VQ22xc5QKWXJhxnJ",
+  "corpusVersion": "sme-revision-notes-igcse-biology-19-2026-09-17",
+  "topicTitle": "Structure and functions in living organisms",
+  "subtopicTitle": "Transport Systems",
+  "sourceUrl": "https://www.savemyexams.com/igcse/biology/edexcel/19/revision-notes/2-structure-and-function-in-living-organisms/transport-systems/structure-and-function-of-the-heart"
+ },
+ "specPoints": [
+  {
+   "code": "2.65",
+   "text": "describe the structure of the heart and how it functions"
+  }
+ ],
+ "primer": {
+  "text": "Four chambers, four valves, one wall between sides, and a muscle layer thicker on the left than the right — every feature of the heart answers a pressure question. This note builds the double pump, then walks the blood's full route through it.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "The Double Pump and Its Muscle Wall",
+   "sourceHeadings": [
+    "Structure & Function of the Heart"
+   ],
+   "specRefs": [
+    "2.65"
+   ],
+   "opening": "The heart works as a double pump: the right side sends deoxygenated blood to the lungs at lower pressure while the thicker-walled left side drives oxygenated blood around the whole body, with the septum keeping the two streams apart.",
+   "keyPoints": [
+    "The right side pumps deoxygenated blood to the lungs.",
+    "The left side pumps oxygenated blood around the body.",
+    "The left ventricle's wall is thicker than the right's.",
+    "The septum is the muscle wall dividing the two sides.",
+    "Valves prevent blood flowing backwards; coronary arteries feed the muscle."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Right side to lungs, left side to body; the left pushes harder, so its wall is thicker.",
+     "analogy": "Two water pistols: a garden sprayer for the near job, a pressure washer for the far one.",
+     "examPointer": "Label diagrams as if viewed in the chest — the drawing's left is the patient's right."
+    },
+    "medium": {
+     "restatement": "Pressure gradients set the wall thickness: the systemic circuit spans the whole body, so the left ventricle pumps at higher pressure than the pulmonary circuit needs.",
+     "analogy": "A postman cycling across town needs stronger legs than one crossing the street.",
+     "examPointer": "Pair each chamber with its circuit — left with systemic, right with pulmonary — when explaining."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Which side of the heart receives oxygenated blood from the lungs?",
+     "misconceptionClass": "side recall",
+     "options": [
+      {
+       "key": "A",
+       "text": "The left side",
+       "correct": true,
+       "explanation": "Correct — this follows directly from the definition.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The right side",
+       "correct": false,
+       "explanation": "The right side receives deoxygenated blood from the body.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "Both sides equally",
+       "correct": false,
+       "explanation": "Oxygenated blood enters only the left atrium.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "Neither; the lungs keep it",
+       "correct": false,
+       "explanation": "The blood returns to the heart via the pulmonary vein.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why is the left ventricle's wall thicker than the right's?",
+     "misconceptionClass": "structure-function",
+     "options": [
+      {
+       "key": "A",
+       "text": "It drives blood at high pressure around the whole body",
+       "correct": true,
+       "explanation": "Yes — the mechanism works exactly this way.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "It holds more blood",
+       "correct": false,
+       "explanation": "Volume is similar; pressure is the difference.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "It beats more often",
+       "correct": false,
+       "explanation": "Both ventricles beat together.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "It needs no valves",
+       "correct": false,
+       "explanation": "Valves sit on both sides alike.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What does the septum do?",
+     "misconceptionClass": "septum role",
+     "options": [
+      {
+       "key": "A",
+       "text": "Separates the right and left sides of the heart",
+       "correct": true,
+       "explanation": "Right — the other options each misplace a concept.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Pumps blood into the aorta",
+       "correct": false,
+       "explanation": "Pumping is ventricular work.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "Holds the coronary arteries",
+       "correct": false,
+       "explanation": "Coronary vessels run on the surface.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "Opens during exercise",
+       "correct": false,
+       "explanation": "The septum never opens.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which vessels supply the heart muscle itself?",
+     "misconceptionClass": "supply recall",
+     "options": [
+      {
+       "key": "A",
+       "text": "The coronary arteries",
+       "correct": true,
+       "explanation": "Correct — this matches the account taught above.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The pulmonary vein",
+       "correct": false,
+       "explanation": "It delivers blood into the left atrium.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "The vena cava",
+       "correct": false,
+       "explanation": "It returns blood to the right atrium.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "The aorta's distant branches",
+       "correct": false,
+       "explanation": "The coronaries arise from the aorta's base but supply the muscle locally.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What is the collective job of the heart's valves?",
+     "misconceptionClass": "valve function",
+     "options": [
+      {
+       "key": "A",
+       "text": "To prevent blood flowing backwards through the chambers",
+       "correct": true,
+       "explanation": "Yes — the mechanism works exactly this way.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "To speed the blood up",
+       "correct": false,
+       "explanation": "Valves direct; momentum does the moving.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "To filter oxygen into the muscle",
+       "correct": false,
+       "explanation": "No filtering or extraction happens at valves.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "To separate the atria only",
+       "correct": false,
+       "explanation": "Valves lie between chambers and at the exits.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the two circuits the double pump serves.",
+     "misconceptionClass": "recall of the taught account",
+     "modelAnswer": "The right side serves the pulmonary circuit to the lungs and the left side serves the systemic circuit around the body.",
+     "keywords": [
+      "pulmonary",
+      "systemic",
+      "lungs",
+      "body"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Name the wall that divides the heart's sides.",
+     "misconceptionClass": "recall of the taught account",
+     "modelAnswer": "The septum is the muscle wall dividing the heart's two sides.",
+     "keywords": [
+      "septum",
+      "dividing",
+      "sides"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why the heart needs its own coronary supply despite being full of blood.",
+     "misconceptionClass": "mechanism reasoning",
+     "modelAnswer": "Because the blood inside the chambers passes too quickly and at the wrong pressures to nourish the muscle, so dedicated coronary arteries deliver oxygen and glucose directly.",
+     "keywords": [
+      "coronary",
+      "oxygen",
+      "muscle"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A diagram shows the heart's left side on the viewer's right. Explain the labelling convention.",
+     "misconceptionClass": "scenario application",
+     "modelAnswer": "Diagrams label the heart as it sits in the chest, so the viewer's right shows the patient's left side and vice versa.",
+     "keywords": [
+      "diagram",
+      "chest",
+      "label"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Blood's Journey Through the Heart",
+   "sourceHeadings": [
+    "The pathway of blood through the heart"
+   ],
+   "specRefs": [
+    "2.65"
+   ],
+   "opening": "Deoxygenated blood arrives by the vena cava, crosses the right atrium and ventricle, and leaves for the lungs by the pulmonary artery; it returns oxygenated by the pulmonary vein, crosses the left side, and exits by the aorta.",
+   "keyPoints": [
+    "Vena cava delivers deoxygenated blood to the right atrium.",
+    "The tricuspid valve leads into the right ventricle.",
+    "The semilunar valve opens into the pulmonary artery.",
+    "Gas exchange happens in the lung capillaries beside the alveoli.",
+    "The bicuspid valve leads into the left ventricle, then out through the aorta."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "In by vena cava, across the right side, out to the lungs; back by pulmonary vein, across the left side, out by aorta.",
+     "analogy": "A car wash: entry lane, rinse bay, exit lane, then a second pass for the polish.",
+     "examPointer": "Say the valves by name — tricuspid, semilunar, bicuspid — route questions check them."
+    },
+    "medium": {
+     "restatement": "Right-side pressure stays low to spare the delicate lung capillaries, while the left ventricle's thick wall generates the systemic pressure.",
+     "analogy": "A gentle drip-feed for seedlings, a fire hose for the field.",
+     "examPointer": "Remember both atria contract together, then both ventricles — the pathway is described one side at a time only for clarity."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Through which vessel does deoxygenated blood enter the heart?",
+     "misconceptionClass": "entry recall",
+     "options": [
+      {
+       "key": "A",
+       "text": "The vena cava, into the right atrium",
+       "correct": true,
+       "explanation": "Correct — this follows directly from the definition.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The pulmonary vein, into the left atrium",
+       "correct": false,
+       "explanation": "That is the oxygenated return.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "The aorta, into the left ventricle",
+       "correct": false,
+       "explanation": "The aorta exits, not enters.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "The pulmonary artery, into the right ventricle",
+       "correct": false,
+       "explanation": "The artery exits toward the lungs.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which valve lies between the right atrium and right ventricle?",
+     "misconceptionClass": "valve location",
+     "options": [
+      {
+       "key": "A",
+       "text": "The tricuspid valve",
+       "correct": true,
+       "explanation": "Yes — the mechanism works exactly this way.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The bicuspid valve",
+       "correct": false,
+       "explanation": "The bicuspid sits on the left side.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "The semilunar valve",
+       "correct": false,
+       "explanation": "Semilunar valves sit at the artery exits.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "No valve exists there",
+       "correct": false,
+       "explanation": "An atrioventricular valve guards each side.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Where does the blood go after leaving the right ventricle?",
+     "misconceptionClass": "route ordering",
+     "options": [
+      {
+       "key": "A",
+       "text": "Via the semilunar valve, out toward the lungs",
+       "correct": true,
+       "explanation": "Yes — the mechanism works exactly this way.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Into the aorta toward the body",
+       "correct": false,
+       "explanation": "The aorta is the left ventricle's exit.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "Back into the right atrium",
+       "correct": false,
+       "explanation": "Valves block that reverse step.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "Into the left atrium directly",
+       "correct": false,
+       "explanation": "The left atrium receives blood only via the pulmonary vein.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why is blood pressure kept low on the right side?",
+     "misconceptionClass": "pressure reasoning",
+     "options": [
+      {
+       "key": "A",
+       "text": "To avoid damaging the delicate capillaries in the lungs",
+       "correct": true,
+       "explanation": "Right — this is the account the lesson teaches.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Because the lungs need no oxygen",
+       "correct": false,
+       "explanation": "The lungs' capillaries need steady, gentle flow.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "To make the blood move faster",
+       "correct": false,
+       "explanation": "Lower pressure does not speed flow.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "To spare the septum",
+       "correct": false,
+       "explanation": "The septum is muscle, not capillary wall.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Through which valve and vessel does blood leave the left ventricle?",
+     "misconceptionClass": "exit recall",
+     "options": [
+      {
+       "key": "A",
+       "text": "Through the semilunar valve into the aorta",
+       "correct": true,
+       "explanation": "Right — the other options each misplace a concept.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Through the bicuspid into the aorta",
+       "correct": false,
+       "explanation": "The bicuspid leads atrium-to-ventricle, not ventricle-to-artery.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "Through the tricuspid into the pulmonary artery",
+       "correct": false,
+       "explanation": "Both names belong to the right side.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "Through the pulmonary vein into the left atrium",
+       "correct": false,
+       "explanation": "That is an arrival, not a departure.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "List the structures blood passes through on the right side, in order.",
+     "misconceptionClass": "recall of the taught account",
+     "modelAnswer": "Vena cava, right atrium, tricuspid valve, right ventricle, semilunar valve, pulmonary artery.",
+     "keywords": [
+      "vena cava",
+      "tricuspid",
+      "right ventricle",
+      "pulmonary artery"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Name the valve and vessel pair on the left exit.",
+     "misconceptionClass": "recall of the taught account",
+     "modelAnswer": "The semilunar valve opens into the aorta.",
+     "keywords": [
+      "semilunar",
+      "aorta",
+      "left"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why both atria and both ventricles contract together in the real heart, although the taught pathway follows one side at a time.",
+     "misconceptionClass": "mechanism reasoning",
+     "modelAnswer": "Because the sides work as one coordinated pump; the one-side-at-a-time account is only a teaching simplification, while in reality paired chambers contract together.",
+     "keywords": [
+      "coordinated",
+      "atria",
+      "together"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A drop of dye enters the vena cava. List its first four stops.",
+     "misconceptionClass": "scenario application",
+     "modelAnswer": "Right atrium, across the tricuspid valve into the right ventricle, then out via the semilunar valve toward the lungs.",
+     "keywords": [
+      "right atrium",
+      "tricuspid",
+      "pulmonary artery"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "septum",
+    "definition": "The muscle wall separating the heart's right and left sides.",
+    "firstLesson": 1
+   },
+   {
+    "term": "tricuspid valve",
+    "definition": "The right-side atrioventricular valve.",
+    "firstLesson": 2
+   },
+   {
+    "term": "bicuspid valve",
+    "definition": "The left-side atrioventricular valve.",
+    "firstLesson": 2
+   },
+   {
+    "term": "coronary arteries",
+    "definition": "The vessels supplying the cardiac muscle itself.",
+    "firstLesson": 1
+   }
+  ],
+  "workedExample": null
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-biology-19/assets/72d61014d0de-cross-section-of-a-human-heart-from-the-side.png",
+   "alt": "cross-section-of-a-human-heart-from-the-side",
+   "sourceHeading": "Structure & Function of the Heart",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique"
+  }
+ ]
+}

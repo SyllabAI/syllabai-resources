@@ -1,0 +1,592 @@
+{
+ "format": "guided-lesson/0.7",
+ "noteRef": {
+  "noteId": "rn_V4Y92rRKJVRS6xsP",
+  "corpusVersion": "sme-revision-notes-igcse-biology-19-2026-09-17",
+  "topicTitle": "Reproduction and inheritance",
+  "subtopicTitle": "Inheritance",
+  "sourceUrl": "https://www.savemyexams.com/igcse/biology/edexcel/19/revision-notes/3-reproduction-and-inheritance/inheritance/codominance"
+ },
+ "specPoints": [
+  {
+   "code": "3.21B",
+   "text": "understand the meaning of the term codominance"
+  }
+ ],
+ "primer": {
+  "text": "Codominance breaks the habit of one allele bossing the other. This note shows what happens when both members of a genotype are expressed, using the ABO blood groups, three alleles strong, as the classic case, and then walks a genetic diagram that predicts when two ordinary parents can surprise everyone with a group O child.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "Both Alleles Expressed",
+   "sourceHeadings": [
+    "Codominance",
+    "Codominance in blood types table"
+   ],
+   "specRefs": [
+    "3.21B"
+   ],
+   "opening": "Codominance breaks the usual dominant-versus-recessive pattern: when the two alleles of a genotype are both expressed, the phenotype shows the contribution of each, and the ABO blood groups supply the classic illustration with three alleles instead of two.",
+   "keyPoints": [
+    "Codominance means both alleles of a genotype show their effect in the organism's traits.",
+    "The ABO gene carries three alleles, written with superscripts A, B and O.",
+    "Allele IA yields antigen A, allele IB yields antigen B, and allele IO yields no antigens.",
+    "IA and IB are codominant with each other, and both are dominant over IO."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Neither allele hides the other; both leave their mark on the observable characteristic.",
+     "analogy": "Two authors who both sign the book, rather than one editor overwriting the other.",
+     "examPointer": "Learn the antigen map: IA gives A, IB gives B, IO gives neither."
+    },
+    "medium": {
+     "restatement": "Three alleles expand the genotype menu beyond the usual two-version gene, so phenotype combinations multiply.",
+     "analogy": "A dial with three settings instead of a simple on-off switch.",
+     "examPointer": "State the dominance order precisely: codominance between IA and IB, both dominant to IO."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "What does codominance mean for the two alleles in a genotype?",
+     "misconceptionClass": "definition",
+     "options": [
+      {
+       "key": "A",
+       "text": "Both are expressed in the phenotype",
+       "correct": true,
+       "explanation": "Correct — this follows directly from the definition.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The stronger one masks the weaker",
+       "correct": false,
+       "explanation": "Masking describes dominance, the pattern codominance replaces.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "They blend into an intermediate average",
+       "correct": false,
+       "explanation": "Blending is a common misconception; both products appear instead.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "They cancel each other out",
+       "correct": false,
+       "explanation": "Cancellation would leave no expression at all.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "How many alleles does the ABO blood group gene have?",
+     "misconceptionClass": "allele count",
+     "options": [
+      {
+       "key": "A",
+       "text": "Three",
+       "correct": true,
+       "explanation": "Yes — the mechanism works exactly this way.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Two",
+       "correct": false,
+       "explanation": "Two is the usual count; this gene carries three.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "Four",
+       "correct": false,
+       "explanation": "No fourth allele exists in the taught system.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "Twenty-three",
+       "correct": false,
+       "explanation": "That number belongs to chromosome pairs, not alleles here.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which allele produces no antigens on the blood cells?",
+     "misconceptionClass": "antigen mapping",
+     "options": [
+      {
+       "key": "A",
+       "text": "IO",
+       "correct": true,
+       "explanation": "Correct — this matches the account taught above.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "IA",
+       "correct": false,
+       "explanation": "That allele produces antigen A.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "IB",
+       "correct": false,
+       "explanation": "That allele produces antigen B.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "Every allele produces an antigen",
+       "correct": false,
+       "explanation": "IO produces none, which is why group O exists.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What is the relationship between IA and IB, given that they are codominant?",
+     "misconceptionClass": "dominance relation",
+     "options": [
+      {
+       "key": "A",
+       "text": "They are codominant with each other",
+       "correct": true,
+       "explanation": "Right — this is the account the lesson teaches.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "IA dominates IB",
+       "correct": false,
+       "explanation": "Neither masks the other; both are expressed.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "IB dominates IA",
+       "correct": false,
+       "explanation": "The taught order is codominance, not one-way dominance.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "Both are recessive to IO",
+       "correct": false,
+       "explanation": "Both are dominant to IO, the reverse.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which statement about the O blood group is right?",
+     "misconceptionClass": "genotype-phenotype",
+     "options": [
+      {
+       "key": "A",
+       "text": "A person with genotype IOIO makes no A or B antigens",
+       "correct": true,
+       "explanation": "Right — the other options each misplace a concept.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Group O carries antigen A quietly",
+       "correct": false,
+       "explanation": "Antigen A requires the IA allele.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "Group O carries both antigens",
+       "correct": false,
+       "explanation": "Both antigens require IA and IB together.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "Group O depends on a fourth allele",
+       "correct": false,
+       "explanation": "Only the three taught alleles exist.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Name the antigen produced by each of the three ABO alleles.",
+     "misconceptionClass": "recall of the taught account",
+     "modelAnswer": "IA produces antigen A, IB produces antigen B, and IO produces no antigens.",
+     "keywords": [
+      "antigen",
+      "ia",
+      "ib",
+      "io"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Define codominance in one sentence.",
+     "misconceptionClass": "recall of the taught account",
+     "modelAnswer": "Codominance describes a genotype whose two alleles each leave a visible mark on the organism's traits.",
+     "keywords": [
+      "codominance",
+      "alleles",
+      "traits"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why a child of group O can be born to a group A parent and a group B parent.",
+     "misconceptionClass": "mechanism reasoning",
+     "modelAnswer": "Each parent can carry the IO allele alongside their main allele, so the child can inherit IO from both and, with no antigen A or antigen B made, belongs to group O.",
+     "keywords": [
+      "io",
+      "allele",
+      "group"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A blood-group A parent and a blood-group B parent have a group O child. What genotypes must the parents carry, and what chance does another child have of group O?",
+     "misconceptionClass": "scenario application",
+     "modelAnswer": "Each parent is heterozygous, carrying IO with their codominant partner allele, so each pregnancy has a one-in-four, or 25 percent, chance of a group O child.",
+     "keywords": [
+      "heterozygous",
+      "io",
+      "25 percent"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Reading the Codominance Diagram",
+   "sourceHeadings": [
+    "Genetic diagrams for codominance",
+    "Interpreting the genetic diagram"
+   ],
+   "specRefs": [
+    "3.21B"
+   ],
+   "opening": "Genetic diagrams handle codominance exactly like any other cross: write the parental genotypes, split the alleles around the square, and read the offspring combinations, keeping in mind that heterozygous A and B parents can each hand on the O allele.",
+   "keyPoints": [
+    "Parental genotypes are written first, then alleles are placed around the square.",
+    "A group A parent in this example carries IAIO, and the group B parent carries IBIO.",
+    "An O child proves each parent handed on an IO allele.",
+    "Parents of these types have a one-in-four chance of another group O child."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "The square pairs one allele from each parent in every cell, giving four combinations.",
+     "analogy": "A menu where you pick one item from each of two columns and every pairing is a possible meal.",
+     "examPointer": "Say one-in-four, or 25 percent, whenever the O outcome is asked as a chance."
+    },
+    "medium": {
+     "restatement": "Each parent produces two gamete types, IA and IO or IB and IO, so the grid fills with four pairings.",
+     "analogy": "Two coin tosses at once: the four faces of the square mirror the four pairings.",
+     "examPointer": "Quote gamete types, not phenotype guesses, when justifying the square."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "In the worked diagram, why must the group A parent be IAIO rather than IAIA?",
+     "misconceptionClass": "genotype inference",
+     "options": [
+      {
+       "key": "A",
+       "text": "Only a hidden IO allele lets a group O child be produced",
+       "correct": true,
+       "explanation": "Correct — this matches the account taught above.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "IAIA would weaken the parent's blood",
+       "correct": false,
+       "explanation": "Homozygous IA has no such effect.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "The diagram needs a shorter label",
+       "correct": false,
+       "explanation": "Genotypes are chosen by genetics, not typography.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "Group A cannot exist with two alleles",
+       "correct": false,
+       "explanation": "Group A commonly appears as either IAIA or IAIO.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What fraction of the offspring from IAIO crossed with IBIO is expected to be group O?",
+     "misconceptionClass": "probability",
+     "options": [
+      {
+       "key": "A",
+       "text": "One quarter",
+       "correct": true,
+       "explanation": "Yes — the mechanism works exactly this way.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "One half",
+       "correct": false,
+       "explanation": "Only one of the four cells gives IOIO.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "Three quarters",
+       "correct": false,
+       "explanation": "Three cells produce groups A, B or AB instead.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "None",
+       "correct": false,
+       "explanation": "The IOIO cell exists whenever both parents carry IO.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which offspring genotype carries both antigen A and antigen B?",
+     "misconceptionClass": "genotype reading",
+     "options": [
+      {
+       "key": "A",
+       "text": "IAIB",
+       "correct": true,
+       "explanation": "Right — the other options each misplace a concept.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "IAIO",
+       "correct": false,
+       "explanation": "That genotype produces antigen A only.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "IBIO",
+       "correct": false,
+       "explanation": "That genotype produces antigen B only.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "IOIO",
+       "correct": false,
+       "explanation": "That genotype produces no antigens at all.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What does the diagram assume about how the two parents' alleles combine?",
+     "misconceptionClass": "mechanism",
+     "options": [
+      {
+       "key": "A",
+       "text": "Each gamete carries one allele, and fertilisation pairs them at random",
+       "correct": true,
+       "explanation": "Right — this is the account the lesson teaches.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Gametes carry pairs of alleles",
+       "correct": false,
+       "explanation": "Gametes hold one allele of each gene.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "Alleles are chosen to fit the phenotype",
+       "correct": false,
+       "explanation": "The pairing is random, not chosen.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "Only dominant alleles enter gametes",
+       "correct": false,
+       "explanation": "Every allele, including IO, appears in gametes.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "A group AB child is produced from this cross. Which parent contributed what?",
+     "misconceptionClass": "offspring interpretation",
+     "options": [
+      {
+       "key": "A",
+       "text": "The A parent gave IA and the B parent gave IB",
+       "correct": true,
+       "explanation": "Yes — the mechanism works exactly this way.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Both parents gave IO",
+       "correct": false,
+       "explanation": "IOIO offspring are group O, not AB.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "The O allele produced the AB group",
+       "correct": false,
+       "explanation": "IO produces no antigen, so it cannot create AB.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "Both alleles came from the mother",
+       "correct": false,
+       "explanation": "Each parent contributes one allele of the pair.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "List the four offspring genotypes shown by the IAIO by IBIO square.",
+     "misconceptionClass": "recall of the taught account",
+     "modelAnswer": "The combinations are IAIB, IAIO, IBIO and IOIO, each occupying one cell of the diagram.",
+     "keywords": [
+      "iaib",
+      "iaio",
+      "ibio",
+      "ioio"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the probability that this particular cross yields a group O child.",
+     "misconceptionClass": "recall of the taught account",
+     "modelAnswer": "The chance is one cell out of four, so 25 percent.",
+     "keywords": [
+      "cell",
+      "four",
+      "25 percent"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why knowing a child's blood group can reveal hidden parental genotypes.",
+     "misconceptionClass": "mechanism reasoning",
+     "modelAnswer": "A group O child must have received an IO allele from each parent, so each parent must carry IO even if their own phenotype is A or B.",
+     "keywords": [
+      "io",
+      "parent",
+      "phenotype"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "Two parents, both IAIO, plan a family. Predict the possible offspring blood groups and the chance of group O.",
+     "misconceptionClass": "scenario application",
+     "modelAnswer": "The square gives IAIA, IAIO and IOIO outcomes, so children may be group A or group O, with a 25 percent chance for group O.",
+     "keywords": [
+      "iaia",
+      "iaio",
+      "ioio",
+      "25 percent"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "codominance",
+    "definition": "Both alleles of the genotype leave their mark on the observable traits.",
+    "firstLesson": 1
+   },
+   {
+    "term": "antigen",
+    "definition": "A marker molecule on a cell surface; blood antigens A and B are coded by the IA and IB alleles.",
+    "firstLesson": 1
+   },
+   {
+    "term": "Punnett square",
+    "definition": "A grid diagram that pairs parental alleles to list every possible offspring genotype.",
+    "firstLesson": 2
+   },
+   {
+    "term": "heterozygous",
+    "definition": "Carrying two different alleles for one gene.",
+    "firstLesson": 2
+   }
+  ],
+  "workedExample": null
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-biology-19/assets/b3818ecd0ffd-17-6-inheritance-of-blood-group-table.png",
+   "alt": "Inheritance of Blood Group table, IGCSE & GCSE Biology revision notes",
+   "sourceHeading": "Codominance in blood types table",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique"
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-biology-19/assets/dc21a5092281-blood-group-inheritance.png",
+   "alt": "Blood group inheritance, IGCSE & GCSE Biology revision notes",
+   "sourceHeading": "Genetic diagrams for codominance",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique"
+  }
+ ]
+}

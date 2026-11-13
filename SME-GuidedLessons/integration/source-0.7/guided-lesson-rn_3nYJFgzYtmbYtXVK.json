@@ -1,0 +1,610 @@
+{
+ "format": "guided-lesson/0.7",
+ "noteRef": {
+  "noteId": "rn_3nYJFgzYtmbYtXVK",
+  "corpusVersion": "sme-revision-notes-igcse-biology-19-2026-09-17",
+  "topicTitle": "Reproduction and inheritance",
+  "subtopicTitle": "Inheritance",
+  "sourceUrl": "https://www.savemyexams.com/igcse/biology/edexcel/19/revision-notes/3-reproduction-and-inheritance/inheritance/sex-chromosomes"
+ },
+ "specPoints": [
+  {
+   "code": "3.26",
+   "text": "understand how the sex of a person is controlled by one pair of chromosomes, XX in a female and XY in a male"
+  },
+  {
+   "code": "3.27",
+   "text": "describe the determination of the sex of offspring at fertilisation, using a genetic diagram"
+  }
+ ],
+ "primer": {
+  "text": "Sex is the one characteristic decided by a whole chromosome pair rather than scattered genes. This note fixes the karyotypes — XX female, XY male — explains why the father's sperm settles the question, and draws the sex Punnett square whose fifty-fifty split keeps the population balanced.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "One Pair Decides",
+   "sourceHeadings": [
+    "Sex Chromosomes"
+   ],
+   "specRefs": [
+    "3.26"
+   ],
+   "opening": "One chromosome pair decides biological sex: females carry two X chromosomes, males carry one X and one Y, and because only a father can donate a Y chromosome, the sperm cell he contributes settles the question.",
+   "keyPoints": [
+    "Sex is determined by one chromosome pair rather than scattered genes.",
+    "Females have two X chromosomes; males have an X and a Y.",
+    "Only the father can pass on a Y chromosome.",
+    "The karyogram pictures the sex chromosomes of each sex."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Two X chromosomes make a female; an X plus a Y makes a male.",
+     "analogy": "One seat is always filled by the mother's X; the second seat is where the father plays his card.",
+     "examPointer": "The father determines sex because he alone donates Y."
+    },
+    "medium": {
+     "restatement": "The decisive feature is chromosomal scale: one whole pair, not a gene or two, controls the trait.",
+     "analogy": "A switch the size of a control panel rather than a single button.",
+     "examPointer": "Contrast this with other characteristics decided by one or a few genes."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Which chromosome combination marks a biological female?",
+     "misconceptionClass": "karyotype",
+     "options": [
+      {
+       "key": "A",
+       "text": "XX",
+       "correct": true,
+       "explanation": "Correct — this matches the account taught above.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "XY",
+       "correct": false,
+       "explanation": "That combination marks a male.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "XO",
+       "correct": false,
+       "explanation": "That karyotype is not part of the taught account.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "YY",
+       "correct": false,
+       "explanation": "A Y alone never forms a viable combination here.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which parent, father or mother, determines the sex of a child?",
+     "misconceptionClass": "determination",
+     "options": [
+      {
+       "key": "A",
+       "text": "The father",
+       "correct": true,
+       "explanation": "Correct — this matches the account taught above.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The mother",
+       "correct": false,
+       "explanation": "She can only pass on an X chromosome.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "Both parents equally",
+       "correct": false,
+       "explanation": "Only the father can contribute a Y.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "Neither, the egg chooses freely",
+       "correct": false,
+       "explanation": "Eggs carry no Y to choose.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What can a mother contribute to the sex chromosome pair?",
+     "misconceptionClass": "gamete content",
+     "options": [
+      {
+       "key": "A",
+       "text": "An X chromosome only",
+       "correct": true,
+       "explanation": "Correct — this follows directly from the definition.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "An X or a Y",
+       "correct": false,
+       "explanation": "Only the father produces Y-bearing gametes.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "A Y only",
+       "correct": false,
+       "explanation": "The mother has no Y chromosome.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "Nothing at all",
+       "correct": false,
+       "explanation": "The egg always contributes an X.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "How does sex determination differ from characteristics controlled by ordinary genes?",
+     "misconceptionClass": "contrast",
+     "options": [
+      {
+       "key": "A",
+       "text": "An entire chromosome pair controls it, not one or a few genes",
+       "correct": true,
+       "explanation": "Yes — the mechanism works exactly this way.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Several genes scattered around",
+       "correct": false,
+       "explanation": "That describes ordinary characteristics.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "The environment decides it",
+       "correct": false,
+       "explanation": "Sex is chromosomal at fertilisation.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "Nothing unusual exists",
+       "correct": false,
+       "explanation": "The chromosomal scale is the taught contrast.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What does the karyogram figure display?",
+     "misconceptionClass": "figure",
+     "options": [
+      {
+       "key": "A",
+       "text": "The sex chromosomes possessed by a biological female and a biological male",
+       "correct": true,
+       "explanation": "Correct — this matches the account taught above.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The full 46 chromosomes in detail",
+       "correct": false,
+       "explanation": "The figure highlights the sex chromosomes.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "A family pedigree",
+       "correct": false,
+       "explanation": "Pedigrees belong to a different note.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "A Punnett square of eye colour",
+       "correct": false,
+       "explanation": "Eye colour is unrelated here.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the sex chromosome pair for each sex.",
+     "misconceptionClass": "recall of the taught account",
+     "modelAnswer": "Females carry XX and males carry XY.",
+     "keywords": [
+      "females",
+      "males",
+      "xx",
+      "xy"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Why is the father said to determine sex?",
+     "misconceptionClass": "recall of the taught account",
+     "modelAnswer": "Only he can pass on a Y chromosome, so his sperm decides whether the child is XX or XY.",
+     "keywords": [
+      "father",
+      "y chromosome",
+      "sperm",
+      "xx"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why the mother cannot determine the sex of her child.",
+     "misconceptionClass": "mechanism reasoning",
+     "modelAnswer": "Her eggs carry only X chromosomes, so whichever egg is fertilised, the sex-deciding Y, when present, must come from the father.",
+     "keywords": [
+      "eggs",
+      "x chromosomes",
+      "father",
+      "y"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A son inherits his Y chromosome from one parent only. Name that parent and state the chromosome the other parent contributed.",
+     "misconceptionClass": "scenario application",
+     "modelAnswer": "The Y came from his father, and his mother contributed the X chromosome of the pair.",
+     "keywords": [
+      "father",
+      "mother",
+      "x chromosome",
+      "pair"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Drawing the Sex Cross",
+   "sourceHeadings": [
+    "Inheritance of Sex",
+    "Genetic diagrams showing determination of sex"
+   ],
+   "specRefs": [
+    "3.27"
+   ],
+   "opening": "Draw the sex cross like any other Punnett square, with X and Y taking the allele seats: the mother's X meets the father's X or Y, the grid splits half XX and half XY, and each pregnancy stands at fifty-fifty.",
+   "keyPoints": [
+    "The mother contributes X to every egg.",
+    "The father contributes either X or Y to each sperm.",
+    "The square shows XX and XY outcomes in equal numbers.",
+    "X from both parents gives a female; Y from the father gives a male.",
+    "The X and Y chromosomes replace alleles in the diagram boxes."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Every pregnancy is a fresh coin toss between XX and XY.",
+     "analogy": "A two-door raffle where both doors are equally likely each time.",
+     "examPointer": "Answer fifty percent, or one half, for any single pregnancy."
+    },
+    "medium": {
+     "restatement": "Equal X and Y sperm production plus random fertilisation yields the balanced sex ratio across populations.",
+     "analogy": "Two equal queues at a gate, entered at random, keep the numbers even.",
+     "examPointer": "Stress that family history does not shift the next pregnancy's odds."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "What fills the boxes of a sex-determination Punnett square?",
+     "misconceptionClass": "diagram mechanics",
+     "options": [
+      {
+       "key": "A",
+       "text": "The X and Y chromosomes themselves",
+       "correct": true,
+       "explanation": "Right — the other options each misplace a concept.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Height alleles",
+       "correct": false,
+       "explanation": "Height genes play no part here.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "Blood group alleles",
+       "correct": false,
+       "explanation": "Blood group belongs to another gene.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "Plain numbers",
+       "correct": false,
+       "explanation": "The boxes hold chromosomes, standing in for alleles.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What ratio of sexes does the XX crossed with XY grid predict?",
+     "misconceptionClass": "ratio",
+     "options": [
+      {
+       "key": "A",
+       "text": "One female to one male, so fifty-fifty",
+       "correct": true,
+       "explanation": "Correct — this matches the account taught above.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "All female",
+       "correct": false,
+       "explanation": "Half the sperm carry Y.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "Three males to one female",
+       "correct": false,
+       "explanation": "No three-to-one skew exists in this cross.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "Two to one",
+       "correct": false,
+       "explanation": "The four boxes split evenly.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which pairing of chromosomes gives the male outcome?",
+     "misconceptionClass": "combination",
+     "options": [
+      {
+       "key": "A",
+       "text": "X from the mother and Y from the father",
+       "correct": true,
+       "explanation": "Correct — this matches the account taught above.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "X from both parents",
+       "correct": false,
+       "explanation": "That pairing gives XX, a female.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "Y from the mother and X from the father",
+       "correct": false,
+       "explanation": "The mother never donates Y.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "Y from both parents",
+       "correct": false,
+       "explanation": "The mother has no Y to give.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "A couple has four sons already. What does the sex square predict for their next pregnancy?",
+     "misconceptionClass": "independence",
+     "options": [
+      {
+       "key": "A",
+       "text": "Still a fifty percent chance of a girl, since each fertilisation is independent",
+       "correct": true,
+       "explanation": "Right — the other options each misplace a concept.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "A girl is now certain",
+       "correct": false,
+       "explanation": "Past outcomes do not force the next one.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "Boys are now certain",
+       "correct": false,
+       "explanation": "Independence cuts both ways.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "The chance dropped to a quarter",
+       "correct": false,
+       "explanation": "No cumulative penalty applies.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why is the diagram's outcome called random?",
+     "misconceptionClass": "randomness",
+     "options": [
+      {
+       "key": "A",
+       "text": "Which sperm fertilises the egg is a matter of chance",
+       "correct": true,
+       "explanation": "Correct — this follows directly from the definition.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The egg selects its chromosome",
+       "correct": false,
+       "explanation": "No selection occurs.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "The parents choose the outcome",
+       "correct": false,
+       "explanation": "Parents cannot choose.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "The grid forces a pattern",
+       "correct": false,
+       "explanation": "The grid only lists equal possibilities.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Complete the sex cross: mother XX, father XY. State the offspring outcomes.",
+     "misconceptionClass": "recall of the taught account",
+     "modelAnswer": "Eggs all carry X; sperm carry X or Y; offspring are half XX female and half XY male.",
+     "keywords": [
+      "eggs",
+      "sperm",
+      "xx",
+      "xy"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the probability that any one pregnancy yields a male.",
+     "misconceptionClass": "recall of the taught account",
+     "modelAnswer": "The probability is one half, or 50 percent.",
+     "keywords": [
+      "probability",
+      "50 percent",
+      "male"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why the sex ratio stays balanced across whole populations.",
+     "misconceptionClass": "mechanism reasoning",
+     "modelAnswer": "Each father produces X and Y sperm in equal numbers and fertilisation is random, so the two outcomes pair off evenly in the long run.",
+     "keywords": [
+      "sperm",
+      "fertilisation",
+      "random",
+      "outcomes"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A couple with three daughters hopes for a son. Using the taught diagram, state the chance their next child is a boy.",
+     "misconceptionClass": "scenario application",
+     "modelAnswer": "The chance is 50 percent, because every pregnancy draws independently between the father's X-bearing and Y-bearing sperm.",
+     "keywords": [
+      "50 percent",
+      "sperm",
+      "pregnancy",
+      "independent"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "sex chromosomes",
+    "definition": "The chromosome pair, X and Y, that determines biological sex.",
+    "firstLesson": 1
+   },
+   {
+    "term": "X chromosome",
+    "definition": "The chromosome carried by all gametes; two copies give a female.",
+    "firstLesson": 1
+   },
+   {
+    "term": "Y chromosome",
+    "definition": "The chromosome only males carry, donated solely by the father.",
+    "firstLesson": 1
+   },
+   {
+    "term": "Punnett square",
+    "definition": "A grid diagram reused here with chromosomes in place of alleles.",
+    "firstLesson": 2
+   }
+  ],
+  "workedExample": null
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-biology-19/assets/d79dfe2ea6a4-karyograms.png",
+   "alt": "Karyograms",
+   "sourceHeading": "Sex Chromosomes",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique"
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-biology-19/assets/bbeb98db8524-sex-chromosomes.png",
+   "alt": "Sex chromosomes, IGCSE & GCSE Biology revision notes",
+   "sourceHeading": "Inheritance of Sex",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique"
+  },
+  {
+   "id": "fig-03",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-biology-19/assets/a81204ca6f12-inheritance-of-sex.png",
+   "alt": "Inheritance of sex, IGCSE & GCSE Biology revision notes",
+   "sourceHeading": "Genetic diagrams showing determination of sex",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique"
+  }
+ ]
+}
