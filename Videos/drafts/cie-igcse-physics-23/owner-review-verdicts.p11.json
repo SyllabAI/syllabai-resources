@@ -1,0 +1,21 @@
+{
+ "schema": "syllabai.owner-review-verdicts/2",
+ "task": "T-VIDEOMAP-P11 (multi-cluster uncovered-course lane: fourteen channel pools)",
+ "course": "cie-igcse-physics-23",
+ "ruledUtc": "2026-11-13T13:23:03Z",
+ "source": "delegated self-review — owner chat 2026-11-09 \"approve and review yourself\"; lane authorized 2026-11-13 \"lane P11\"",
+ "default": "keep",
+ "reviewer": "delegated self-review (agent, per owner chat 2026-11-09: \"approve and review yourself\"; lane authorized 2026-11-13: \"lane P11\")",
+ "evidenceBasis": "Identity: oEmbed sweep 439/439 author==channel-of-record (0 mismatch, 0 dead, 0 thumb-fallbacks needed). Tier B: syllabus/paper codes regex-verified in titles (9708/41, 0455/0620 session papers, WDM11, WMA11-14, 4MA1). Tier A: deterministic distinctive-token pre-pass (df<=3) then explicit-code class tables, section-marker narrowing (CIE chapter series) and Chapter-N narrowing (verified syllabus-structured igcse-online series) over EVERY routed pair; cross-register rows carry boardMismatch:true; degenerate vocabulary binds (single-token catches incl. teacher-guidance spine specs) dropped on review; three courses re-adjudicated course-level to honest unmapped (igcse-history-17, cie-igcse-history-18, igcse-economics-17).",
+ "rejects": [
+  {
+   "video": "LHsQL-VXe4w",
+   "reason": "no-binding (routed-but-unmapped): topic tokens (['equation', 'know', 'physic']) overlap the spine only above the tightened bar — routed-but-unmapped, honest"
+  }
+ ],
+ "applied": {
+  "rowsApproved": 2,
+  "rowsRejected": 1,
+  "appliedUtc": "2026-11-13T13:23:03Z"
+ }
+}

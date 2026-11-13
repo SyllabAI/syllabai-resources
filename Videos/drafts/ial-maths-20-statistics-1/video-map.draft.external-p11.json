@@ -1,0 +1,57 @@
+{
+ "schema": "syllabai.video-map-draft/2",
+ "draftOf": "ial-maths-20-statistics-1",
+ "task": "T-VIDEOMAP-P11 (multi-cluster uncovered-course lane: fourteen channel pools)",
+ "course": "ial-maths-20-statistics-1",
+ "qual": "IAL MATHS (EDEXCEL)",
+ "reviewState": "owner-reviewed-external",
+ "draftLaw": "P11 lane: Tier B course anchors by machine-checkable syllabus/paper codes (method paper-code, confidence high, boardMismatch false — same qualification; ANCHOR-GRANULARITY §5/§8) + Tier A spec rows by the distinctive-token binding rule (df<=3), with CIE chapter-structured marker rows permitted the disclosed higher title-only bar (section-marker narrowing; confidence low, disclosed per row) and direct class-table binds for skill-structure courses (CIE 0500 English, 4EA1 paper sections, IAL D1 chapters). Cross-register rows (Yi CP1 -> IAL FP1; Mindful UK-register -> IAL; CIE-content -> Edexcel IGCSE ICT/Business/Geography) carry boardMismatch:true. Degenerate vocabulary binds were re-adjudicated to honest drops/unmapped on review; teacher-guidance spine specs are excluded as bind targets. Rejected videos stay out of videos[] and live in the verdicts ledger.",
+ "source": {
+  "provider": "Mindful Maths (@MindfulMaths — Edexcel IAL D1 WDM11 chapter course + WMA11-14/4MA1 paper walkthroughs)",
+  "label": "ial-maths-20-statistics-1",
+  "method": "Mindful Maths (@MindfulMaths — Edexcel IAL D1 WDM11 chapter course + WMA11-14/4MA1 paper walkthroughs) flat-enumerated 2026-11-13T12:53:08Z; routing: syllabus/paper-code Tier B anchors + chapter-marker/keyword Tier A with class-table judgment, section-marker narrowing and per-row re-adjudication over every routed row",
+  "enumeratedUtc": "2026-11-13T13:23:03Z"
+ },
+ "videos": [
+  {
+   "id": "oxY2puEL5LU",
+   "title": "The whole of A Level Statistics 1 Mathematics in 25 mins",
+   "provider": "mindful-maths",
+   "watchUrl": "https://www.youtube.com/watch?v=oxY2puEL5LU",
+   "lessonRef": null,
+   "lessonUrl": null,
+   "levelTag": "ial",
+   "boardNote": "Mindful Maths (@MindfulMaths — Edexcel IAL D1 WDM11 chapter course + WMA11-14/4MA1 paper walkthroughs) (oEmbed author verified per video)",
+   "identityMethod": "oembed"
+  }
+ ],
+ "mappings": [
+  {
+   "video": "oxY2puEL5LU",
+   "lessonRef": null,
+   "lessonUrl": null,
+   "specs": [
+    "1.1"
+   ],
+   "confidence": "medium",
+   "evidence": "title names 1.1 'The basic ideas of mathematical modelling as applied in ' via token(s) ['statistic'] (df 1); title-only posture, distinctive-token binding rule (df<=3) or the disclosed higher title-only bar for marker rows",
+   "method": "llm-draft-external",
+   "boardMismatch": true,
+   "reviewed": true,
+   "reviewer": "delegated self-review (agent, per owner chat 2026-11-09: \"approve and review yourself\"; lane authorized 2026-11-13: \"lane P11\")",
+   "reviewedUtc": "2026-11-13T13:23:03Z"
+  }
+ ],
+ "coverage": {
+  "specPointsTotal": 16,
+  "specPointsDraftedHere": 1,
+  "rows": 1,
+  "byConfidence": {
+   "high": 0,
+   "medium": 1,
+   "low": 0
+  }
+ },
+ "generatedUtc": "2026-11-13T13:23:03Z",
+ "reviewedUtc": "2026-11-13T13:23:03Z"
+}
