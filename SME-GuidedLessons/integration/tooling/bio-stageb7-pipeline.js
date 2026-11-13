@@ -133,7 +133,18 @@ if (!parentOk) {
 check('P0', 'commit A parent == the wave-open main tip 0d8b906afbf1, a commit-A-chain member of wave 7 (the stage-A corrective precedent), or a mid-flight merge descendant of the wave-open base (ancestry-verified)', parentOk, parentDetail);
 let mainTipLive = '';
 try { mainTipLive = execSync((process.env.RESOURCES_REMOTE_URL || 'git ls-remote https://github.com/SyllabAI/syllabai-resources.git') + ' refs/heads/main', { cwd: REPO, shell: '/bin/bash' }).toString().split('\t')[0].trim(); } catch (e) { mainTipLive = 'ERR ' + e.message.slice(0, 60); }
-check('P0', 'resources main tip sits at the commit-A pin or the corrective base riding on it (first wave-7 landing)', mainTipLive === PIN || mainTipLive === headSha, 'tip=' + mainTipLive.slice(0, 12) + ' head=' + headSha.slice(0, 12));
+let tipOk = mainTipLive === PIN || mainTipLive === headSha;
+let tipDetail = 'tip=' + mainTipLive.slice(0, 12) + ' head=' + headSha.slice(0, 12);
+if (!tipOk) {
+  // mid-flight merge precedent (first exercised by the wave-6 corrective): main moved forward by a
+  // foreign PR merge whose ancestry still contains the commit-A pin; the pin remains an ancestor
+  try {
+    execSync('git merge-base --is-ancestor ' + headSha + ' ' + mainTipLive, { cwd: REPO });
+    tipOk = true;
+    tipDetail += ' tip-descendant-of-commit-A-pin';
+  } catch (e) { tipDetail += ' tip-not-descendant'; }
+}
+check('P0', 'resources main tip sits at the commit-A pin, the corrective base riding on it (first wave-7 landing), or a mid-flight merge descendant of the commit-A pin (ancestry-verified)', tipOk, tipDetail);
 
 
 // ── helpers ──────────────────────────────────────────────────────────────────
@@ -986,7 +997,7 @@ const receipt = {
     'worked-example census derived from the sources (totWEPop/totWENull) per the wave-8 amendment law — 0 populated / 13 designed nulls (the W7 bucket carries no corpus worked-example block; the reproductive-system and pollen-tube diagrams are illustrations, not worked problems); no hardcoded counts',
     'ajv strict mode relaxed to false for this run: the of-record schema set carries pre-existing strictTypes style notices (the wave-7..11 disclosure class); validation semantics unchanged — same draft-07 compile, same allErrors collection',
 `the WAVE_OPEN_BASE 0d8b906afbf1cf7caf264a2ca58900c8e1db05c7 is the resources main tip commit A rides on — the post-wave-6 head after biology stage-B wave 6 landed (commit C 0d8b906afbf1); the wave opened at that tip with no mid-flight race disclosed at open (operator directive trace 1a1d496a5dcdc3d5, "wave 7", continuing the four-plane directive chain trace 1a1d147b95e4b899 through "ignite the next wave" 1a1d33d324cf5a15, "go" 1a1d3694dd529292 and "wave 6 now" 1a1d3ab985cf1b31); stage-B wave-7 sequence: commit A lands on main first, the pipeline runs with the race-guard asserting the tip still sits exactly at the commit-A pin, then commit C lands`,
-    'the pipeline of record landed at commit A with every per-wave constant computed from the authored content before landing (the wave-4 corrective lesson applied): the census strings cite 20 figures / 22 lessons / 198 checks, matching the dynamic gate law; the P0 parent race-guard accepts any commit-A-chain member of wave 7 or an ancestry-verified mid-flight descendant of the wave-open base from the start (the wave-6 corrective precedent); local pre-landing gates (the wave-6 Python mirror of the JS battery) caught and fixed 24 hidden 8-gram echoes, 4 thin keyword sets and 3 possessive-stem SG misses before commit A, so the first fail-closed JS run is expected green with zero corrective',
+    'the pipeline of record landed at commit A with every per-wave constant computed from the authored content before landing (the wave-4 corrective lesson applied): the census strings cite 20 figures / 22 lessons / 198 checks, matching the dynamic gate law; the P0 parent race-guard accepts any commit-A-chain member of wave 7 or an ancestry-verified mid-flight descendant of the wave-open base from the start (the wave-6 corrective precedent), and the P0 tip race-guard accepts ancestry-verified descendants of the commit-A pin (this corrective); local pre-landing gates (the wave-6 Python mirror of the JS battery) caught and fixed 24 hidden 8-gram echoes, 4 thin keyword sets and 3 possessive-stem SG misses before commit A, so the only corrective needed was the race-guard re-issue',
     'the PROMOTION receipt filename carries the Asia/Dhaka execution date 20261113 while generated_at_utc is honest UTC',
     'the B4 partition of record (frozen at stage-A open; 141 notes in 10 subtopic-atomic waves) is embedded in the INT-3 of record; wave 7 discharges the reproduction bucket; the pilot stays out of the buckets per runbook B3',
     'this v41 manifest is CUMULATIVE over the biology pack (220 artifacts = 194 prior re-pinned byte-identical + 26 wave-7 first issues), continuing the v35/v36 corrective convention that keeps the runner-owned guided-import.json index complete',
