@@ -823,6 +823,191 @@ for (const course of P8) {
   );
 }
 
+// ================================================= P9 Mr Hassaan's Maths Channel completion lane =====
+// Owner chat 2026-11-13: "There is this channel call Mr Hassan's maths" -> recon ->
+// "file as lane P9". The Mr Hassaan's Maths Channel pool (3,150 public uploads,
+// 0 overlap with the shipped union) is paper-code native, so the lane runs the
+// ANCHOR-GRANULARITY two-tier shape: Tier B course anchors bound by machine-checkable
+// paper codes in titles (WMA11-14 -> ial pure 1-4, WME01/WST01, old-register WMA01/02
+// C12/C34 spanning two units with one row per anchored course, CIE 9709 session codes
+// and textual Paper-NN forms, CIE 0580 extended papers, Edexcel 4MA1/4MB/4PM) with
+// method paper-code / confidence high / boardMismatch false / specs [] (zero spec
+// weight, §4); Tier A spec rows for the uncoded teaching/tutorial pool under the
+// tightened distinctive-token binding rule with a class-table judgment pass over
+// every distinctive-candidate row (method llm-draft-external, medium/low,
+// boardMismatch true). Honest skips: Edexcel GCE/9MA0 and OCR/AQA/MEI papers (§6 —
+// a GCE paper is evidence about the GCE qualification, no such course in the spine),
+// CIE O-Level 4037, no-vocabulary misc. This fills the honest-empty maths spine
+// courses (ial-maths-20-pure-1..4, statistics-1, the CIE pure/p&s courses) that went
+// empty at P4 precisely because no maths channel pool existed. NEW courses (no
+// video-map file yet) are created fresh here; existing courses append (the P5 shape).
+// Runs BEFORE the P4 inherit loop so 25-extended / a-18-higher children cascade.
+// The two inherit-CHILD courses with P9 rows (cie-igcse-maths-25-core,
+// igcse-maths-a-modular-24-higher-unit-1) append AFTER the loop in P9B below.
+// ial-further-maths-18-further-pure-1 honestly takes 0 rows (all four routed videos
+// were IGCSE-textbook misroutes, dropped in judgment — verdicts ledger is the record).
+const P9 = [
+  "ial-maths-20-pure-1", "ial-maths-20-pure-2", "ial-maths-20-pure-3", "ial-maths-20-pure-4",
+  "ial-maths-20-statistics-1", "ial-maths-20-mechanics-1",
+  "cie-a-level-maths-20-pure-1", "cie-a-level-maths-20-pure-2", "cie-a-level-maths-20-pure-3",
+  "cie-as-maths-20-pure-1", "cie-as-maths-20-pure-2",
+  "cie-a-level-maths-20-mechanics", "cie-as-maths-20-mechanics",
+  "cie-a-level-maths-20-probability-and-statistics-1", "cie-a-level-maths-20-probability-and-statistics-2",
+  "cie-as-maths-20-probability-and-statistics-1",
+  "cie-igcse-maths-25-extended", "igcse-maths-a-18-higher", "igcse-maths-b-16", "igcse-further-maths-19",
+];
+const P9B = ["cie-igcse-maths-25-core", "igcse-maths-a-modular-24-higher-unit-1"];
+for (const course of P9) {
+  const D = join(VIDEOS, "drafts", course);
+  const draft = JSON.parse(readFileSync(join(D, "video-map.draft.external-p9.json"), "utf8"));
+  const verdicts = JSON.parse(readFileSync(join(D, "owner-review-verdicts.p9.json"), "utf8"));
+  if (draft.reviewState !== "owner-reviewed-external")
+    throw new Error(`${course}: p9 reviewState is "${draft.reviewState}" — apply review first`);
+  const spine = JSON.parse(readFileSync(join(SPINES, `${course}.json`), "utf8"));
+  const specByCode = new Map(
+    spine.curriculum.nodes.filter((n) => n.family === "SPEC_POINT").map((n) => [n.code, n])
+  );
+  assertSpineMirror(course, spine);
+  const contentPath = join(MAPDIR, `${course}.json`);
+  let content;
+  if (existsSync(contentPath)) {
+    content = JSON.parse(readFileSync(contentPath, "utf8"));
+    if (!content.review) errors.push(`${course}: existing content file has no review block`);
+    if (!content.inputs) errors.push(`${course}: existing content file has no inputs block`);
+    if (errors.length) break;
+  } else {
+    content = {
+      schema: "hub.video-map/1",
+      course,
+      qual: draft.qual,
+      source: {
+        provider: draft.source.provider,
+        label: course,
+        method: draft.source.method,
+        enumeratedUtc: draft.source.enumeratedUtc,
+      },
+      review: {
+        task: verdicts.task,
+        ruledUtc: verdicts.ruledUtc,
+        ruling: verdicts.source,
+        reviewer: verdicts.reviewer,
+        evidenceBasis: verdicts.evidenceBasis,
+        rowsApproved: 0,
+        rowsRejected: (verdicts.rejects || []).length,
+        rejects: REJECTS_OF(verdicts, verdicts.task),
+      },
+      videos: [],
+      mappings: [],
+      coverage: null,
+      inputs: {
+        spine: { file: `apps/hub/spines/${course}.json`, sha256: sha256(join(SPINES, `${course}.json`)) },
+      },
+      generatedUtc: new Date().toISOString(),
+    };
+  }
+
+  for (const m of draft.mappings) {
+    if (m.reviewed !== true || !m.reviewer || !m.reviewedUtc)
+      errors.push(`${course}: unreviewed p9 row leaking into content (${m.video})`);
+    if (!/^[\w-]{11}$/.test(m.video)) errors.push(`${course}: bad p9 video id ${m.video}`);
+    if (m.method === "paper-code") {
+      if (!m.anchor || m.anchor.level !== "course" || m.anchor.ref !== course)
+        errors.push(`${course}: p9 paper-code row must carry anchor{level:course, ref:course} (${m.video})`);
+      if (!m.specs || m.specs.length !== 0)
+        errors.push(`${course}: p9 anchor rows carry specs:[] — zero spec weight (§4) (${m.video})`);
+      if (m.confidence !== "high")
+        errors.push(`${course}: p9 paper-code anchor must be high confidence (${m.video})`);
+      if (m.boardMismatch !== false)
+        errors.push(`${course}: p9 paper-code anchor is same-qualification — boardMismatch must be false (${m.video})`);
+      if (m.kind !== "past-paper-walkthrough")
+        errors.push(`${course}: p9 anchor row must carry kind past-paper-walkthrough (${m.video})`);
+    } else if (m.method === "llm-draft-external") {
+      if (!m.specs || m.specs.length === 0)
+        errors.push(`${course}: p9 spec rows must carry non-empty specs (${m.video})`);
+      if (m.boardMismatch !== true)
+        errors.push(`${course}: p9 spec rows carry the title-only posture — boardMismatch must be true (${m.video})`);
+      if (m.confidence !== "medium" && m.confidence !== "low")
+        errors.push(`${course}: p9 spec rows are medium/low — high would violate the inherit posture (${m.video})`);
+      for (const code of m.specs || [])
+        if (!specByCode.has(code)) errors.push(`${course}: p9 spec ${code} not in spine (${m.video})`);
+    } else {
+      errors.push(`${course}: p9 row has unexpected method ${m.method} (${m.video})`);
+    }
+  }
+  const haveKeysP9 = new Set(content.mappings.map((m) => m.video + "|" + JSON.stringify(m.specs)));
+  for (const m of draft.mappings) {
+    const k = m.video + "|" + JSON.stringify(m.specs);
+    if (haveKeysP9.has(k)) errors.push(`${course}: duplicate p9 row across union ${k}`);
+    haveKeysP9.add(k);
+  }
+  const haveVidsP9 = new Set(content.videos.map((v) => v.id));
+  for (const v of draft.videos) {
+    if (!haveVidsP9.has(v.id)) content.videos.push(v);
+    if (!v.provider || !v.watchUrl) errors.push(`${course}: p9 video ${v.id} missing provider/watchUrl`);
+    if (!v.identityMethod) errors.push(`${course}: p9 video ${v.id} missing identityMethod`);
+  }
+  if (errors.length) break;
+
+  content.mappings = [...content.mappings, ...draft.mappings];
+  const allSpecsP9 = new Set(content.mappings.flatMap((m) => m.specs));
+  const mappedVidsP9 = new Set(content.mappings.map((m) => m.video));
+  content.coverage = {
+    specPointsTotal: specByCode.size,
+    specPointsMapped: allSpecsP9.size,
+    specPointsUnmapped: specByCode.size - allSpecsP9.size,
+    videosTotal: content.videos.length,
+    videosMapped: mappedVidsP9.size,
+    videosUnmapped: content.videos.length - mappedVidsP9.size,
+    mappingRows: content.mappings.length,
+    byConfidence: {
+      high: content.mappings.filter((m) => m.confidence === "high").length,
+      medium: content.mappings.filter((m) => m.confidence === "medium").length,
+      low: content.mappings.filter((m) => m.confidence === "low").length,
+    },
+  };
+  const p9Lane = {
+    lane: "external-channels-p9 (mr-hassaans-maths completion)", task: verdicts.task,
+    ruling: verdicts.source, reviewer: verdicts.reviewer, ruledUtc: verdicts.ruledUtc,
+    evidenceBasis: verdicts.evidenceBasis,
+    rowsApproved: draft.mappings.length, rowsRejected: (verdicts.rejects || []).length,
+    rejects: REJECTS_OF(verdicts, verdicts.task),
+  };
+  content.review.lanes = [
+    ...(content.review.lanes || [{
+      lane: "external-channels (primary)", task: content.review.task,
+      ruling: content.review.ruling, reviewer: content.review.reviewer,
+      ruledUtc: content.review.ruledUtc, evidenceBasis: content.review.evidenceBasis,
+      rowsApproved: content.review.rowsApproved, rowsRejected: content.review.rowsRejected,
+      rejects: content.review.rejects || [],
+    }]),
+    p9Lane,
+  ];
+  content.review.rowsApproved = content.mappings.length;
+  content.source.p9 = {
+    provider: draft.source.provider, method: draft.source.method,
+    enumeratedUtc: draft.source.enumeratedUtc,
+  };
+  content.inputs.p9 = {
+    repo: "SyllabAI/syllabai-resources",
+    path: `Videos/drafts/${course}/video-map.draft.external-p9.json`,
+    task: verdicts.task, reviewAppliedUtc: verdicts.ruledUtc,
+  };
+  content.generatedUtc = new Date().toISOString();
+  writeFileSync(contentPath, JSON.stringify(content, null, 1) + "\n");
+  const baseLaneP9 = registry.courses[course]?.lane || "external-channels";
+  registry.courses[course] = {
+    videos: content.videos.length,
+    mapped: content.coverage.videosMapped,
+    shelf: registry.courses[course]?.shelf ?? null,
+    lane: baseLaneP9.includes("p9-mrhassans") ? baseLaneP9 : baseLaneP9 + " + p9-mrhassans",
+    updatedUtc: new Date().toISOString(),
+  };
+  registry.generatedUtc = new Date().toISOString();
+  console.log(
+    `${course}: SHIPPED +p9 specs ${content.coverage.specPointsMapped}/${content.coverage.specPointsTotal} · videos ${content.coverage.videosMapped}/${content.coverage.videosTotal} · rows ${content.coverage.mappingRows} (+${draft.mappings.length} mr-hassaans-maths rows) · 0 reviewed:false in content`
+  );
+}
+
 // ================================================= P4 inheritance lane =====
 // 35 child courses derive their external lane from ONE parent course's
 // owner-approved rows via the committed containment map. Child spec -> best
@@ -1066,6 +1251,114 @@ for (const course of P7B) {
   );
 }
 
+// ================================================= P9B — inherit-child append-after-inherit =====
+// The two inherit-CHILD courses that carry P9 rows (cie-igcse-maths-25-core from
+// bare-0580-derived Tier A rows routed onto the core spine, and
+// igcse-maths-a-modular-24-higher-unit-1 from 4XMA modular-sample walkthroughs)
+// are rebuilt fresh by the inherit section above — their P9 rows cannot be
+// appended before it. Same lane, same drafts, the P7B shape.
+for (const course of P9B) {
+  const D = join(VIDEOS, "drafts", course);
+  const draft = JSON.parse(readFileSync(join(D, "video-map.draft.external-p9.json"), "utf8"));
+  const verdicts = JSON.parse(readFileSync(join(D, "owner-review-verdicts.p9.json"), "utf8"));
+  if (draft.reviewState !== "owner-reviewed-external")
+    throw new Error(`${course}: p9 reviewState is "${draft.reviewState}" — apply review first`);
+  const spine = JSON.parse(readFileSync(join(SPINES, `${course}.json`), "utf8"));
+  const specByCode = new Map(
+    spine.curriculum.nodes.filter((n) => n.family === "SPEC_POINT").map((n) => [n.code, n])
+  );
+  assertSpineMirror(course, spine);
+  const content = JSON.parse(readFileSync(join(MAPDIR, `${course}.json`), "utf8"));
+
+  for (const m of draft.mappings) {
+    if (m.reviewed !== true || !m.reviewer || !m.reviewedUtc)
+      errors.push(`${course}: unreviewed p9 row leaking into content (${m.video})`);
+    if (m.method !== "llm-draft-external")
+      errors.push(`${course}: p9b rows are spec rows — unexpected method (${m.video})`);
+    if (m.boardMismatch !== true)
+      errors.push(`${course}: p9b row must carry boardMismatch:true (${m.video})`);
+    if (!m.specs || m.specs.length === 0)
+      errors.push(`${course}: p9b rows are spec rows — specs must be non-empty (${m.video})`);
+    if (m.confidence !== "medium" && m.confidence !== "low")
+      errors.push(`${course}: p9b rows are medium/low (${m.video})`);
+    if (!/^[\w-]{11}$/.test(m.video)) errors.push(`${course}: bad p9 video id ${m.video}`);
+    for (const code of m.specs || [])
+      if (!specByCode.has(code)) errors.push(`${course}: p9 spec ${code} not in spine (${m.video})`);
+  }
+  const haveKeysP9b = new Set(content.mappings.map((m) => m.video + "|" + JSON.stringify(m.specs)));
+  for (const m of draft.mappings) {
+    const k = m.video + "|" + JSON.stringify(m.specs);
+    if (haveKeysP9b.has(k)) errors.push(`${course}: duplicate p9 row across union ${k}`);
+    haveKeysP9b.add(k);
+  }
+  const haveVidsP9b = new Set(content.videos.map((v) => v.id));
+  for (const v of draft.videos) {
+    if (!haveVidsP9b.has(v.id)) content.videos.push(v);
+    if (!v.provider || !v.watchUrl) errors.push(`${course}: p9 video ${v.id} missing provider/watchUrl`);
+    if (!v.identityMethod) errors.push(`${course}: p9 video ${v.id} missing identityMethod`);
+  }
+  if (errors.length) break;
+
+  content.mappings = [...content.mappings, ...draft.mappings];
+  const allSpecsP9b = new Set(content.mappings.flatMap((m) => m.specs));
+  const mappedVidsP9b = new Set(content.mappings.map((m) => m.video));
+  content.coverage = {
+    specPointsTotal: specByCode.size,
+    specPointsMapped: allSpecsP9b.size,
+    specPointsUnmapped: specByCode.size - allSpecsP9b.size,
+    videosTotal: content.videos.length,
+    videosMapped: mappedVidsP9b.size,
+    videosUnmapped: content.videos.length - mappedVidsP9b.size,
+    mappingRows: content.mappings.length,
+    byConfidence: {
+      high: content.mappings.filter((m) => m.confidence === "high").length,
+      medium: content.mappings.filter((m) => m.confidence === "medium").length,
+      low: content.mappings.filter((m) => m.confidence === "low").length,
+    },
+  };
+  const p9bLane = {
+    lane: "external-channels-p9 (mr-hassaans-maths completion)", task: verdicts.task,
+    ruling: verdicts.source, reviewer: verdicts.reviewer, ruledUtc: verdicts.ruledUtc,
+    evidenceBasis: verdicts.evidenceBasis,
+    rowsApproved: draft.mappings.length, rowsRejected: (verdicts.rejects || []).length,
+    rejects: REJECTS_OF(verdicts, verdicts.task),
+  };
+  content.review.lanes = [
+    ...(content.review.lanes || [{
+      lane: "external-channels (primary)", task: content.review.task,
+      ruling: content.review.ruling, reviewer: content.review.reviewer,
+      ruledUtc: content.review.ruledUtc, evidenceBasis: content.review.evidenceBasis,
+      rowsApproved: content.review.rowsApproved, rowsRejected: content.review.rowsRejected,
+      rejects: content.review.rejects || [],
+    }]),
+    p9bLane,
+  ];
+  content.review.rowsApproved = content.mappings.length;
+  content.source.p9 = {
+    provider: draft.source.provider, method: draft.source.method,
+    enumeratedUtc: draft.source.enumeratedUtc,
+  };
+  content.inputs.p9 = {
+    repo: "SyllabAI/syllabai-resources",
+    path: `Videos/drafts/${course}/video-map.draft.external-p9.json`,
+    task: verdicts.task, reviewAppliedUtc: verdicts.ruledUtc,
+  };
+  content.generatedUtc = new Date().toISOString();
+  writeFileSync(join(MAPDIR, `${course}.json`), JSON.stringify(content, null, 1) + "\n");
+  const baseLaneP9b = registry.courses[course]?.lane || "external-channels";
+  registry.courses[course] = {
+    videos: content.videos.length,
+    mapped: content.coverage.videosMapped,
+    shelf: registry.courses[course]?.shelf ?? null,
+    lane: baseLaneP9b.includes("p9-mrhassans") ? baseLaneP9b : baseLaneP9b + " + p9-mrhassans",
+    updatedUtc: new Date().toISOString(),
+  };
+  registry.generatedUtc = new Date().toISOString();
+  console.log(
+    `${course}: SHIPPED +p9 specs ${content.coverage.specPointsMapped}/${content.coverage.specPointsTotal} · videos ${content.coverage.videosMapped}/${content.coverage.videosTotal} · rows ${content.coverage.mappingRows} (+${draft.mappings.length} mr-hassaans-maths rows, post-inherit) · 0 reviewed:false in content`
+  );
+}
+
 // ================================================= P2F Edexcel-native lane =====
 // 4 courses gain ANCHOR rows (docs/ANCHOR-GRANULARITY.md): course-level
 // past-paper walkthroughs bound by machine-verified Edexcel paper codes
@@ -1201,7 +1494,7 @@ console.log(`wrote ${registryPath} (${Object.keys(registry.courses).length} cour
 // must be hand-synced in the lane PR to match this template.
 const flagsPath = join(HUB, "apps/hub/content/flags.json");
 const flags = JSON.parse(readFileSync(flagsPath, "utf8"));
-const want = ["igcse-biology-19", ...FRESH, ...P4_FRESH, ...Object.keys(inhMap.parents)];
+const want = ["igcse-biology-19", ...FRESH, ...P4_FRESH, ...P9, ...P9B, ...Object.keys(inhMap.parents)];
 const have = new Set(flags.flags.videoMap.courses);
 const coursesCurrent = want.every((c) => have.has(c)) && flags.flags.videoMap.courses.length === want.length;
 const statusCurrent = typeof flags.flags.videoMap.status === "string"
@@ -1212,7 +1505,7 @@ if (coursesCurrent && statusCurrent) {
   for (const c of want) if (!have.has(c)) flags.flags.videoMap.courses.push(c);
   flags.flags.videoMap.courses.sort();
   flags.flags.videoMap.status =
-    "live (T-VIDEOMAP-P3+P4+P5+P6+P7+P8): lib/video-map.ts loader + /courses/[course]/videos lane shipped for the "
+    "live (T-VIDEOMAP-P3+P4+P5+P6+P7+P8+P9): lib/video-map.ts loader + /courses/[course]/videos lane shipped for the "
     + "courses below (igcse-biology-19 site+external; 9 external-channels courses incl. the CIE A-level trio; "
     + "P4 scale pass: 4 shelf-direct Cognito maths lanes, 4 mechanics cross-subject lanes, 35 inherited lanes "
     + "derived from owner-approved parent rows via the committed containment map; "
@@ -1221,7 +1514,15 @@ if (coursesCurrent && statusCurrent) {
     + "cascaded to 8 children - ial-physics-19 honestly cascades 0; "
     + "P7 remaining channel pools: 277 owner-reviewed rows onto the 12 science parents, cascaded to 24 children; "
     + "P8 physics-trio honest-empty fill: 8 owner-reviewed rows fill 6 of the trio's 323 empty spec points "
-    + "(1,136-video pool remainder re-adjudicated, 610-entry honest reject ledger); course set unchanged at 53 throughout). "
+    + "(1,136-video pool remainder re-adjudicated, 610-entry honest reject ledger); "
+    + "P9 Mr Hassaan's Maths Channel completion: 3,380 owner-reviewed rows onto 22 maths courses - 2,988 "
+    + "course anchors bound by machine-checkable paper codes (zero spec weight, ANCHOR-GRANULARITY sections 4/5/8; "
+    + "the channel is paper-code native: IAL WMA/WME/WST + old-register C12/C34, CIE 9709 session codes, CIE 0580 "
+    + "extended papers, Edexcel 4MA1/4MB/4PM) + 392 spec rows from the uncoded teaching pool under the tightened "
+    + "distinctive-token rule; 13 maths courses leave the honest-empty set (ial pure 1-4, statistics-1, CIE pure "
+    + "1-3 and p&s-1/2 at a-level and as; 25-core stays honest-empty - the channel walks extended papers only; "
+    + "ial-further-maths-18-further-pure-1 honestly takes 0 rows); GCE/9MA0 and OCR/AQA papers honestly skipped "
+    + "per ANCHOR-GRANULARITY section 6; P9 rows on 25-extended and a-18-higher cascade to their inherit children). "
     + "Links resolve lessonUrl (site lane, Cognito) then watchUrl (external lanes, YouTube). Rows are "
     + "owner-reviewed (title-only evidence, confidence + boardMismatch disclosed per row; inherited rows carry "
     + "their derivation in inherit); the loader re-filters reviewed:true as defense in depth. One-flip kill "
