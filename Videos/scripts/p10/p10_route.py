@@ -97,6 +97,13 @@ for v in ARN['videos']:
         skips.append({'id': vid, 'title': t, 'class': 'no-target (legacy Edexcel GCSE linear 1MA0 paper — qualification not in the spine; GCSE-shape courses are Edexcel IGCSE 4MA1/4MB0/4PM1; §6)'})
         cclass['arn skip 1MA0-paper'] += 1
         continue
+    if re.search(r'Core\s*Maths\s*:', t, re.I):
+        # the channel's "Core Maths:" series is the legacy Edexcel GCE pure-core
+        # (C1-C4) module teaching series — A-Level register, module unnumbered
+        # in the title, no GCE course in the spine: honest no-target (§6)
+        skips.append({'id': vid, 'title': t, 'class': 'no-target (legacy Edexcel GCE pure-core module tutorial ("Core Maths" series) — A-Level register with no numbered module in the title, no GCE course in the spine; §6)'})
+        cclass['arn skip core-maths-series'] += 1
+        continue
     ms_tut = re.search(r'Edexcel\s+S([12])\s+Tutorial', t, re.I)
     if ms_tut:
         # legacy GCE-register module TUTORIAL (no session, topic teaching not a
@@ -104,7 +111,7 @@ for v in ARN['videos']:
         # course at the title-only bar (boardMismatch true, disclosed)
         poolA.append({'id': vid, 'title': t, 'duration': v.get('duration'),
                       'course': f'ial-maths-20-statistics-{ms_tut.group(1)}', 'tier': 'A',
-                      'provider': 'mrarnoldsmaths', 'marker': False,
+                      'provider': 'mrarnoldsmaths', 'marker': False, 'moduleNamed': True,
                       'watchUrl': f'https://www.youtube.com/watch?v={vid}'})
         cclass['arn A s' + ms_tut.group(1) + '-tutorial'] += 1
         continue
@@ -130,6 +137,7 @@ MD_UNIT = {'P1': 'ial-maths-20-pure-1', 'P2': 'ial-maths-20-pure-2',
            'S1': 'ial-maths-20-statistics-1', 'S2': 'ial-maths-20-statistics-2',
            'FP1': 'ial-further-maths-18-further-pure-1'}
 MD_PAPER_P = re.compile(r'(?:IAL\s+P([1-4])[^.]{0,40}?Exam\s*Paper|Practise\s*Paper\s*([1-4])\s*\(Edexcel IAL|Edexcel style\s*P([1-4])\s*Practise|hardest\s*questions?\s*(?:on|from)\s*(?:Edexcel\s*IAL\s*)?P([1-4])\b|hardest\s*questions?\s*P([1-4])\b)', re.I)
+MD_PAPER_SM = re.compile(r'hardest\s*questions?\s*from\s*(?:Edexcel\s*IAL\s*)?(S[12]|M[12])\b', re.I)
 MD_PAPER_M = re.compile(r'IAL\s+M([12])\s+[^.]{0,40}?Exam\s*Paper', re.I)
 MD_PAPER_S = re.compile(r'IAL\s+S([12])\s+[^.]{0,40}?Exam\s*Paper', re.I)
 DROP = re.compile(r'Hasnain Ali|Casio|answer to|request\b', re.I)
@@ -175,6 +183,16 @@ for v in MD['videos']:
                       'code': f'IAL-S{n}', 'board': 'ial', 'provider': 'mathsdeity',
                       'watchUrl': f'https://www.youtube.com/watch?v={vid}'})
         cclass['md B stats-' + n] += 1
+        continue
+    msm = MD_PAPER_SM.search(t)
+    if msm:
+        u = msm.group(1).upper()
+        course = MD_UNIT[u]
+        poolB.append({'id': vid, 'title': t, 'duration': v.get('duration'),
+                      'courses': [course], 'tier': 'B', 'code': 'IAL-' + u,
+                      'board': 'ial', 'provider': 'mathsdeity',
+                      'watchUrl': f'https://www.youtube.com/watch?v={vid}'})
+        cclass['md B ' + course] += 1
         continue
     # ---- FP2: honest no-target (no FP2 course in the spine, disclosed)
     if re.search(r'\bFP2\b', t):

@@ -1,0 +1,33 @@
+{
+ "schema": "syllabai.owner-review-verdicts/2",
+ "task": "T-VIDEOMAP-P10 (two-pool maths completion: MrArnoldsMaths + Maths Deity)",
+ "course": "ial-maths-20-pure-2",
+ "ruledUtc": "2026-11-13T11:04:04Z",
+ "source": "delegated self-review — owner chat 2026-11-09 \"approve and review yourself\"; lane authorized 2026-11-13 \"lane P10\"",
+ "default": "keep",
+ "reviewer": "delegated self-review (agent, per owner chat 2026-11-09: \"approve and review yourself\"; lane authorized 2026-11-13: \"lane P10\")",
+ "evidenceBasis": "Identity: oEmbed sweep 358/358 author==channel-of-record (0 mismatch, 0 dead, 0 thumb-fallbacks needed). Tier B: IAL module codes regex-verified in titles. Tier A: deterministic distinctive-token pre-pass (df<=3) then explicit-code class tables over EVERY routed row; module-structured rows (unit.section marker / module-named title) permitted the disclosed higher title-only bar at low confidence; rebinds validated against the target spine; degenerate vocabulary binds (factor formulae -> P1 radian) dropped.",
+ "rejects": [
+  {
+   "video": "FABQ7obdysI",
+   "reason": "full-row drop: no class rule matched; best distinctive candidate 3.1 'Coordinate geometry of the circle using the equa' bound only on vocabulary not named by the title (['chord', 'propertie', 'tangent'])"
+  },
+  {
+   "video": "_4D72onEiYM",
+   "reason": "full-row drop: no class rule matched; best distinctive candidate 3.1 'Coordinate geometry of the circle using the equa' bound only on vocabulary not named by the title (['perpendicular'])"
+  },
+  {
+   "video": "FCnZpUbmfUQ",
+   "reason": "full-row drop: no class rule matched; best distinctive candidate 2.1 'Simple algebraic division; use of the Factor The' bound only on vocabulary not named by the title (['algebraic'])"
+  },
+  {
+   "video": "314GYOiIUG0",
+   "reason": "route misbind re-adjudicated: addition formulae sin(A±B)/cos(A±B) are named by the pure-3 2.3 spec text; the pure-2 4.4 pre-pass bind was a series-vocabulary adjacency"
+  }
+ ],
+ "applied": {
+  "rowsApproved": 49,
+  "rowsRejected": 4,
+  "appliedUtc": "2026-11-13T11:04:04Z"
+ }
+}
