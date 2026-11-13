@@ -17,8 +17,8 @@
  * Gates of record (the physics-wave battery, re-run over the full corpus): P0 / A0 / AN / JC / SG / KW /
  * 2.1B / NUM / C-6 / written / C-5 / B2 / G-E. Fail-closed: any failure exits 1 before emit.
  *
- * Wave-6 authoring of record (census 2026-11-13, trace 1a1d3ab985cf1b31): 20 notes / 37 lessons /
- * 333 checks = 185 MCQ + 74 recall + 37 explain-why + 37 application (the B2 law 5+2+1+1 per lesson);
+ * Wave-6 authoring of record (census 2026-11-13, trace 1a1d3ab985cf1b31): 20 notes / 36 lessons /
+ * 324 checks = 180 MCQ + 72 recall + 36 explain-why + 36 application (the B2 law 5+2+1+1 per lesson);
  * 25 corpus figures bound heading-unique, all module-mapped; glossary 82 terms in the 3..5 band;
  * learner-surface authored fresh per the 2.1B 8-gram law; deterministic AN rotation applied at emit.
  */
@@ -128,7 +128,16 @@ if (!parentOk) {
     parentDetail += ' parentMsg=' + pm.slice(0, 40).replace(/\n/g, ' ');
   } catch (e) { parentDetail += ' parent-lookup-fail'; }
 }
-check('P0', 'commit A parent == the wave-open main tip 407ba8e48622 or a commit-A-chain member of wave 6 (the stage-A corrective precedent)', parentOk, parentDetail);
+if (!parentOk) {
+  // mid-flight merge precedent (first exercised by the wave-6 corrective): main moved forward by a
+  // foreign PR merge whose ancestry still contains the wave-open base; commit A remains an ancestor
+  try {
+    execSync('git merge-base --is-ancestor ' + WAVE_OPEN_BASE + ' ' + parent, { cwd: REPO });
+    parentOk = true;
+    parentDetail += ' merge-ancestor-of-wave-open-base';
+  } catch (e) { parentDetail += ' not-ancestor'; }
+}
+check('P0', 'commit A parent == the wave-open main tip 407ba8e48622, a commit-A-chain member of wave 6 (the stage-A corrective precedent), or a mid-flight merge descendant of the wave-open base (ancestry-verified)', parentOk, parentDetail);
 let mainTipLive = '';
 try { mainTipLive = execSync((process.env.RESOURCES_REMOTE_URL || 'git ls-remote https://github.com/SyllabAI/syllabai-resources.git') + ' refs/heads/main', { cwd: REPO, shell: '/bin/bash' }).toString().split('\t')[0].trim(); } catch (e) { mainTipLive = 'ERR ' + e.message.slice(0, 60); }
 check('P0', 'resources main tip sits at the commit-A pin or the corrective base riding on it (first wave-6 landing)', mainTipLive === PIN || mainTipLive === headSha, 'tip=' + mainTipLive.slice(0, 12) + ' head=' + headSha.slice(0, 12));
@@ -657,7 +666,7 @@ const manifest = {
   operator_trace: TRACE,
   supersedes: `hub-import-manifest-v39.json (the wave-5 CUMULATIVE: 154 artifacts) — this v40 CUMULATIVE manifest re-pins all 154 prior pack artifacts byte-identical (2 stage-A pilot @ the v33 landed shas + 28 wave-1 @ the v34/v35 landed shas + 26 wave-2 @ the v36 landed shas + 32 wave-3 @ the v37 landed shas + 32 wave-4 @ the v38 landed shas + 34 wave-5 @ the v39 landed shas) and adds the wave-6 tranche (40 artifacts: the 20 inheritance register notes at the 0.7/1.6/1.3 generation); the physics v31 pack (254), chemistry v32 pack (224) and all prior biology artifacts are untouched on disk and conserved by the pipeline's dedicated G-E gates, zero mutation anywhere`,
   checks_layer: {
-    wave: 'BIOLOGY-4BI1 stage-B wave 6 (the sixth register bucket of the frozen B4 partition: 20 inheritance notes end-to-end per runbook B4; cumulative pack 97 notes / 189 lessons / 1,701 checks)',
+    wave: 'BIOLOGY-4BI1 stage-B wave 6 (the sixth register bucket of the frozen B4 partition: 20 inheritance notes end-to-end per runbook B4; cumulative pack 97 notes / 188 lessons / 1,692 checks)',
     derivation: `${idChecks} authored checks this wave (${streamCharsArr().mcq} MCQ + ${streamCharsArr().rec} recall + ${streamCharsArr().exp} explain-why + ${streamCharsArr().app} application — the B2 law: 9 checks per lesson = 5 MCQ + 2 recall + 1 explain-why + 1 application), graded by the runner's keyword law`,
     declared_revision: 'ADDITIVE first issues (40 artifacts) — the wave-6 notes are new guided planes; all prior pack artifacts byte-untouched',
     grading_law: 'case-insensitive whole-token match of the learner text against the keyword set (stem-tolerant), fail-closed on written items without modelAnswer',
@@ -700,7 +709,7 @@ fs.writeFileSync(path.join(INT, 'hub-import-manifest-v40.json'), mb);
 
 // INT-3 stage-B wave-6 record (CUMULATIVE, 97 rows)
 const int3 = {
-  stage: 'BIOLOGY-4BI1 stage-B wave 6 CUMULATIVE (the 20-note inheritance bucket + the 77 prior rows: 97 notes / 189 lessons / 1,701 checks at the 0.7/1.6/1.3 generation)',
+  stage: 'BIOLOGY-4BI1 stage-B wave 6 CUMULATIVE (the 20-note inheritance bucket + the 77 prior rows: 97 notes / 188 lessons / 1,692 checks at the 0.7/1.6/1.3 generation)',
   title: 'INT-3 transform record — biology stage-B wave 6 CUMULATIVE (guided-lesson/0.7 -> hub/lesson-import/1.6 + sme-question-package/1.3), the 97-row pack anchor table of record (the stage-A pilot row + the 14 wave-1 rows + the 13 wave-2 rows + the 16 wave-3 rows + the 16 wave-4 rows + the 17 wave-5 rows carried byte-equivalent from INT-3-transform-record-bio-stageb5-v39.json; the 112 chemistry stage-B anchors stay in INT-3-transform-record-chem-stageb.json, re-proven on this tree by the G-E gates)',
   generated_at_utc: new Date().toISOString().replace(/\.\d+Z$/, 'Z'),
   operator_traces: { ignition: TRACE, execution: TRACE },
@@ -709,7 +718,7 @@ const int3 = {
   supersedes_int3: 'records/INT-3-transform-record-bio-stageb5-v39.json (the 77-row cumulative wave-5 table; its rows carried byte-equivalent here plus the 20 wave-6 rows)',
   b6_manifest_continuity: { decision: 'continue-global', selected: 'manifest v40 supersedes v39 (cumulative)' },
   biology_stageb6_of_record: {
-    basis: 'the stage-B wave 6 bucket per runbook B4: the sixth 20 register notes of the frozen B4 partition (the inheritance subtopic, register rows 77..96 0-based) authored end-to-end through the full chain, 37 lessons x 9 checks, riding the 0.7/1.6/1.3 generation',
+    basis: 'the stage-B wave 6 bucket per runbook B4: the sixth 20 register notes of the frozen B4 partition (the inheritance subtopic, register rows 77..96 0-based) authored end-to-end through the full chain, 36 lessons x 9 checks, riding the 0.7/1.6/1.3 generation',
     bootstrap: 'spec_point_resolution.json derived mechanically from hub notes.json smeSpecPointIds (210 ids / 175 codes / 142 notes; the runbook B1 deviation, physics stage-A precedent, disclosed at stage-A)',
     figure_law: '25 corpus figures: all 25 module-mapped heading-unique to host lessons carrying their sourceHeading; no note-level figures this wave',
     b4_partition: [
@@ -932,16 +941,16 @@ const int3 = {
   wave_stream_sha256: waveOut,
   battery: {
     names: ['P0', 'A0', 'AN', 'JC', 'SG', 'KW', '2.1B', 'NUM', 'C-6', 'written', 'C-5', 'B2', 'G-E'],
-    a0: 'ajv x20 sources vs guided-lesson.0.7 + kind order x37 lessons + B2 sizing + spec text provenance (curriculum graph verbatim) + figure closure both ways x20 + corpus image coverage x20 + glossary band x20 + primer band x20 + noteRef identity x20',
-    an: 'exactly-one-correct x185; correct-key census >=3 distinct per note (post-rotation); distinct option texts; four options',
+    a0: 'ajv x20 sources vs guided-lesson.0.7 + kind order x36 lessons + B2 sizing + spec text provenance (curriculum graph verbatim) + figure closure both ways x20 + corpus image coverage x20 + glossary band x20 + primer band x20 + noteRef identity x20',
+    an: 'exactly-one-correct x180; correct-key census >=3 distinct per note (post-rotation); distinct option texts; four options',
     sg: 'lesson specRefs subset of file specPoints; every check KP-anchored (content-token overlap)',
-    kw: '>=3 grounded keywords per written item x148 (74 recall + 37 explain-why + 37 application)',
+    kw: '>=3 grounded keywords per written item x144 (72 recall + 36 explain-why + 36 application)',
     jc: 'every option explained; distractors name misconceptions; correct-option misconception null',
     '2.1b': 'zero 8-gram overlaps of learner-surface text vs the corpus note body x20 (learner surfaces authored fresh this wave)',
     num: 'spot ledgers on the cited figures: rn_BNypNmmFWkMYRSHP asserts the diploid 46 / haploid 23 counts and the 23 * 2 = 46 arithmetic; rn_qnHfMCqJR5qgzS3S asserts the 23-pairs-times-two-equals-46 census; rn_V4Y92rRKJVRS6xsP asserts the IAIO x IBIO 4-cell square with 1 group-O cell = 25 percent; rn_F5NPqjwnFSn7wFPz asserts the Tt x Tt 3:1 ratio (75/25 percent) and the 1:1 test cross; rn_3nYJFgzYtmbYtXVK asserts the XX x XY square 2:2 = 50 percent',
     c6: 'physics+chemistry prior generation union ajv (239 at 0.6/1.5/1.2 per namespace + the 112-note chemistry legacy 0.5/1.4/1.1 generation) + prior biology pack ajv x231 (77 at 0.7/1.6/1.3) + wave-6 outputs ajv x60',
     c5: 'checkRefs <-> questions bidirectional 1:1 in order x20',
-    b2: '9 checkRefs per module x37; identity arithmetic 9 = 5+2+1+1 x37',
+    b2: '9 checkRefs per module x36; identity arithmetic 9 = 5+2+1+1 x36',
     ge: 'biology stream anchors x97 (the emitted cumulative INT-3 of record) + the 112 chemistry anchors re-proven on this tree (byte-identical prior pack) + physics legacy generation byte conservation vs v31 x254 + chemistry legacy generation byte conservation vs v32 x224 + prior biology pack byte conservation vs v39 x154 + biology cumulative grand single-finalization',
   },
   biology_census: {
@@ -993,7 +1002,7 @@ const receipt = {
     'worked-example census derived from the sources (totWEPop/totWENull) per the wave-8 amendment law — 0 populated / 20 designed nulls (the W6 bucket carries no corpus worked-example block; the blood-group and Punnett diagrams are illustrations, not worked problems); no hardcoded counts',
     'ajv strict mode relaxed to false for this run: the of-record schema set carries pre-existing strictTypes style notices (the wave-7..11 disclosure class); validation semantics unchanged — same draft-07 compile, same allErrors collection',
 `the WAVE_OPEN_BASE 407ba8e48622b11cc554368b730f9a576a8e3b60 is the resources main tip commit A rides on — the post-wave-5 head after biology stage-B wave 5 landed (commit C 407ba8e48622); the wave opened at that tip with no mid-flight race disclosed at open (operator directive trace 1a1d3ab985cf1b31, "wave 6 now", continuing the four-plane directive chain trace 1a1d147b95e4b899 through "ignite the next wave" 1a1d33d324cf5a15 and "go" 1a1d3694dd529292); stage-B wave-6 sequence: commit A lands on main first, the pipeline runs with the race-guard asserting the tip still sits exactly at the commit-A pin, then commit C lands`,
-    'the pipeline of record landed at commit A with every per-wave constant computed from the authored content before landing (the wave-4 corrective lesson applied): the census strings cite 25 figures / 37 lessons / 333 checks, matching the dynamic gate law; the P0 parent race-guard accepts any commit-A-chain member of wave 6 from the start',
+    'the pipeline of record landed at commit A with every per-wave constant computed from the authored content before landing (the wave-4 corrective lesson applied): the census strings cite 25 figures / 36 lessons / 324 checks, matching the dynamic gate law; the P0 parent race-guard accepts any commit-A-chain member of wave 6 from the start; the first fail-closed run caught rn_F5NPqjwnFSn7wFPz at AN (25 MCQs force A:7 under the cyclic re-letter), and the corrective merged its two genetic-diagram lessons into one 9-check lesson (36 lessons / 324 checks of record, the other 19 notes blob-identical to commit A); a second mid-flight race saw the Videos P9 lane merge (PR #349, 46 files, all under Videos/, zero guided-namespace overlap) land on main between commit A and the corrective, and the corrective re-issues the pipeline with the parent race-guard accepting ancestry-verified descendants of the wave-open base, disclosed here',
     'the PROMOTION receipt filename carries the Asia/Dhaka execution date 20261113 while generated_at_utc is honest UTC',
     'the B4 partition of record (frozen at stage-A open; 141 notes in 10 subtopic-atomic waves) is embedded in the INT-3 of record; wave 6 discharges the inheritance bucket; the pilot stays out of the buckets per runbook B3',
     'this v40 manifest is CUMULATIVE over the biology pack (194 artifacts = 154 prior re-pinned byte-identical + 40 wave-6 first issues), continuing the v35/v36 corrective convention that keeps the runner-owned guided-import.json index complete',

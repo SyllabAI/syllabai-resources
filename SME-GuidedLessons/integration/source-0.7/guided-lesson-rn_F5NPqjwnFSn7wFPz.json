@@ -106,7 +106,7 @@
        "key": "A",
        "text": "Bb, because the capital and lowercase forms are clearly different",
        "correct": true,
-       "explanation": "Right — the other options each misplace a concept.",
+       "explanation": "Correct — this follows directly from the definition.",
        "misconception": null
       },
       {
@@ -141,7 +141,7 @@
        "key": "A",
        "text": "Every allele combination the offspring could inherit",
        "correct": true,
-       "explanation": "Right — this is the account the lesson teaches.",
+       "explanation": "Right — the other options each misplace a concept.",
        "misconception": null
       },
       {
@@ -176,7 +176,7 @@
        "key": "A",
        "text": "From counting the genotype combinations in the filled grid",
        "correct": true,
-       "explanation": "Right — this is the account the lesson teaches.",
+       "explanation": "Correct — this matches the account taught above.",
        "misconception": null
       },
       {
@@ -211,7 +211,7 @@
        "key": "A",
        "text": "The square splits whatever alleles the parents actually carry, so an error there ruins every cell",
        "correct": true,
-       "explanation": "Right — this is the account the lesson teaches.",
+       "explanation": "Yes — the mechanism works exactly this way.",
        "misconception": null
       },
       {
@@ -334,7 +334,7 @@
        "key": "A",
        "text": "TT and tt",
        "correct": true,
-       "explanation": "Correct — this matches the account taught above.",
+       "explanation": "Yes — the mechanism works exactly this way.",
        "misconception": null
       },
       {
@@ -369,7 +369,7 @@
        "key": "A",
        "text": "All tall",
        "correct": true,
-       "explanation": "Correct — this follows directly from the definition.",
+       "explanation": "Right — the other options each misplace a concept.",
        "misconception": null
       },
       {
@@ -404,7 +404,7 @@
        "key": "A",
        "text": "A homozygous recessive plant can pass on nothing else",
        "correct": true,
-       "explanation": "Correct — this follows directly from the definition.",
+       "explanation": "Yes — the mechanism works exactly this way.",
        "misconception": null
       },
       {
@@ -439,7 +439,7 @@
        "key": "A",
        "text": "The dominant T, while the t stays hidden",
        "correct": true,
-       "explanation": "Yes — the mechanism works exactly this way.",
+       "explanation": "Correct — this follows directly from the definition.",
        "misconception": null
       },
       {
@@ -550,19 +550,21 @@
    ]
   },
   {
-   "title": "Second Cross: the F2 Ratio",
+   "title": "The F2 Ratio and the Test Cross",
    "sourceHeadings": [
-    "Crossing the offspring from the first cross"
+    "Crossing the offspring from the first cross",
+    "Crossing a heterozygous plant with a short plant"
    ],
    "specRefs": [
     "3.23"
    ],
-   "opening": "Interbreeding the Tt offspring of the first cross opens the second act: their alleles split evenly in the gametes, so the grid fills with TT, Tt and tt in the familiar one-two-one pattern, read as three tall to every one short.",
+   "opening": "Interbreeding the Tt offspring fills the grid with TT, Tt and tt in a one-two-one pattern — three tall to every one short — while pairing a heterozygous plant with a genuine short plant splits one-to-one, exposing whatever the tall parent hides.",
    "keyPoints": [
     "Each Tt parent produces T and t gametes in equal numbers.",
-    "The grid yields TT, Tt and tt genotypes in a 1:2:1 count.",
-    "Grouped by phenotype the ratio is three tall to one short.",
-    "The F2 generation is what this second cross produces."
+    "The F2 grid yields TT, Tt and tt in a 1:2:1 count, giving the 3:1 ratio of three tall to one short.",
+    "The short parent in the test cross must be the recessive tt pair, so it donates t only.",
+    "The test cross therefore splits one-to-one between tall and short offspring.",
+    "A tall test-cross offspring must be Tt, the only tall genotype its grid offers."
    ],
    "confidenceGate": {
     "ratings": [
@@ -576,14 +578,14 @@
    },
    "depthLayers": {
     "low": {
-     "restatement": "Tall times tall now gives three tall and one short among every four offspring.",
-     "analogy": "Two coin-tossers meeting: three of the four pairings look tall, one looks short.",
-     "examPointer": "Quote the ratio as 3:1 and the genotype count as 1:2:1."
+     "restatement": "Two tall hybrids breed to give three tall and one short; a tall hybrid against a true short gives half and half.",
+     "analogy": "Two shuffled decks versus one shuffled deck against a stack of identical cards.",
+     "examPointer": "Quote the 3:1 F2 ratio and the 1:1 test-cross split as two separate results."
     },
     "medium": {
-     "restatement": "Equal gamete production plus random pairing makes the 1:2:1 genotype pattern, and dominance compresses it visually to 3:1.",
-     "analogy": "Two lottery drums, each holding equal tickets; the draw table fills predictably.",
-     "examPointer": "The F2 is where the recessive trait resurfaces; say so explicitly."
+     "restatement": "Equal gametes plus random pairing give the 1:2:1 genotype pattern, and a uniform tt partner exposes the hidden allele of the other parent.",
+     "analogy": "A census, then a lie-detector: the F2 counts the classes; the test cross names the genotype.",
+     "examPointer": "Name the F2 generation explicitly and call the second pairing a test cross."
     }
    },
    "check": [
@@ -596,7 +598,7 @@
        "key": "A",
        "text": "TT, Tt and tt",
        "correct": true,
-       "explanation": "Correct — this matches the account taught above.",
+       "explanation": "Right — this is the account the lesson teaches.",
        "misconception": null
       },
       {
@@ -624,49 +626,14 @@
     },
     {
      "kind": "mcq",
-     "stem": "How many of the four cells hold a heterozygous genotype?",
-     "misconceptionClass": "grid counting",
-     "options": [
-      {
-       "key": "A",
-       "text": "Two",
-       "correct": true,
-       "explanation": "Correct — this matches the account taught above.",
-       "misconception": null
-      },
-      {
-       "key": "B",
-       "text": "One",
-       "correct": false,
-       "explanation": "Tt occupies two diagonal cells.",
-       "misconception": "close but wrong"
-      },
-      {
-       "key": "C",
-       "text": "Three",
-       "correct": false,
-       "explanation": "Only two cells are mixed.",
-       "misconception": "category slip"
-      },
-      {
-       "key": "D",
-       "text": "Four",
-       "correct": false,
-       "explanation": "TT and tt are homozygous.",
-       "misconception": "invented role"
-      }
-     ]
-    },
-    {
-     "kind": "mcq",
-     "stem": "What phenotype ratio marks the F2 generation here?",
+     "stem": "What phenotype ratio marks the F2 generation of tall and short offspring?",
      "misconceptionClass": "ratio",
      "options": [
       {
        "key": "A",
        "text": "Three tall to one short",
        "correct": true,
-       "explanation": "Right — this is the account the lesson teaches.",
+       "explanation": "Correct — this matches the account taught above.",
        "misconception": null
       },
       {
@@ -694,171 +661,14 @@
     },
     {
      "kind": "mcq",
-     "stem": "Which genotype guarantees a short plant?",
-     "misconceptionClass": "genotype-phenotype",
-     "options": [
-      {
-       "key": "A",
-       "text": "tt, the homozygous recessive pair",
-       "correct": true,
-       "explanation": "Correct — this matches the account taught above.",
-       "misconception": null
-      },
-      {
-       "key": "B",
-       "text": "TT",
-       "correct": false,
-       "explanation": "That is the tall homozygote.",
-       "misconception": "close but wrong"
-      },
-      {
-       "key": "C",
-       "text": "Tt",
-       "correct": false,
-       "explanation": "The dominant allele masks the short form.",
-       "misconception": "category slip"
-      },
-      {
-       "key": "D",
-       "text": "Any mix of the two letters",
-       "correct": false,
-       "explanation": "Presence of T decides tallness.",
-       "misconception": "invented role"
-      }
-     ]
-    },
-    {
-     "kind": "mcq",
-     "stem": "An F2 short plant is bred on. What is its genotype, and why are you sure?",
-     "misconceptionClass": "inference",
-     "options": [
-      {
-       "key": "A",
-       "text": "tt, because shortness requires two recessive alleles",
-       "correct": true,
-       "explanation": "Right — this is the account the lesson teaches.",
-       "misconception": null
-      },
-      {
-       "key": "B",
-       "text": "Tt, because ratios demand it",
-       "correct": false,
-       "explanation": "A Tt plant is tall.",
-       "misconception": "close but wrong"
-      },
-      {
-       "key": "C",
-       "text": "TT, because tallness skips generations",
-       "correct": false,
-       "explanation": "Tallness never skips through tt.",
-       "misconception": "category slip"
-      },
-      {
-       "key": "D",
-       "text": "Either TT or Tt",
-       "correct": false,
-       "explanation": "Neither carries two recessive copies.",
-       "misconception": "invented role"
-      }
-     ]
-    },
-    {
-     "kind": "recall",
-     "stem": "Derive the 3:1 ratio from the Tt by Tt grid.",
-     "misconceptionClass": "recall of the taught account",
-     "modelAnswer": "The grid gives one TT, two Tt and one tt, and since Tt plants are tall, three cells are tall to every one short cell.",
-     "keywords": [
-      "tt",
-      "tall",
-      "short",
-      "ratio"
-     ]
-    },
-    {
-     "kind": "recall",
-     "stem": "Name the generation produced by interbreeding the F1 plants.",
-     "misconceptionClass": "recall of the taught account",
-     "modelAnswer": "It is called the F2 generation.",
-     "keywords": [
-      "f2",
-      "generation",
-      "f1"
-     ]
-    },
-    {
-     "kind": "explain-why",
-     "stem": "Explain why the recessive characteristic resurfaces in the F2 after hiding in the F1.",
-     "misconceptionClass": "mechanism reasoning",
-     "modelAnswer": "The F1 plants each carry a hidden t allele, so when two of them breed, some offspring receive t from both parents and express the recessive short form.",
-     "keywords": [
-      "recessive",
-      "f1",
-      "f2",
-      "offspring"
-     ]
-    },
-    {
-     "kind": "application",
-     "stem": "A seed merchant allows the tall F1 plants from the first cross to self-fertilise freely. Predict the ratio of heights among the resulting F2 seedlings.",
-     "misconceptionClass": "scenario application",
-     "modelAnswer": "The F2 seedlings show three tall to every one short, following the 1:2:1 genotype pattern with the dominant phenotype on top.",
-     "keywords": [
-      "f2",
-      "tall",
-      "short",
-      "ratio"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "The Test Cross Against a Short Plant",
-   "sourceHeadings": [
-    "Crossing a heterozygous plant with a short plant"
-   ],
-   "specRefs": [
-    "3.23"
-   ],
-   "opening": "Pairing a heterozygous tall plant with a genuine short plant changes the odds: the short parent can donate only t, so half the grid fills with Tt tall offspring and half with tt short offspring.",
-   "keyPoints": [
-    "The heterozygous parent is Tt and the short parent must be tt.",
-    "Gametes from the first parent carry T or t in equal share.",
-    "Gametes from the short parent carry t only.",
-    "The grid therefore splits one-to-one between tall and short offspring."
-   ],
-   "confidenceGate": {
-    "ratings": [
-     "low",
-     "medium",
-     "high"
-    ],
-    "continueDisabledUntilChoice": true,
-    "resumeWithoutReRate": true,
-    "postCheckRecalibration": true
-   },
-   "depthLayers": {
-    "low": {
-     "restatement": "Tall mixed with short gives half tall and half short offspring.",
-     "analogy": "One shuffled deck against a deck of identical cards: half the pairs differ, half match.",
-     "examPointer": "The short parent's genotype is tt, always, in this cross."
-    },
-    "medium": {
-     "restatement": "Because one parent offers a single allele type, the cross exposes the hidden allele of the other parent, which is why it is called a test cross.",
-     "analogy": "A lie-detector for genotype: the uniform partner reveals whatever the tested parent hides.",
-     "examPointer": "If a tall plant crossed with a short one yields short offspring, the tall parent must be Tt."
-    }
-   },
-   "check": [
-    {
-     "kind": "mcq",
-     "stem": "Why must the short parent in this cross be tt?",
+     "stem": "Why must the short parent in the test cross be tt?",
      "misconceptionClass": "genotype inference",
      "options": [
       {
        "key": "A",
        "text": "Shortness is recessive, so both alleles must be the recessive form",
        "correct": true,
-       "explanation": "Correct — this follows directly from the definition.",
+       "explanation": "Right — this is the account the lesson teaches.",
        "misconception": null
       },
       {
@@ -886,14 +696,14 @@
     },
     {
      "kind": "mcq",
-     "stem": "What offspring ratio does Tt crossed with tt give?",
+     "stem": "What offspring ratio does the test cross give?",
      "misconceptionClass": "ratio",
      "options": [
       {
        "key": "A",
        "text": "One tall to one short",
        "correct": true,
-       "explanation": "Right — the other options each misplace a concept.",
+       "explanation": "Correct — this follows directly from the definition.",
        "misconception": null
       },
       {
@@ -921,49 +731,14 @@
     },
     {
      "kind": "mcq",
-     "stem": "Which parental gametes decide the offspring's height here?",
-     "misconceptionClass": "determinant",
-     "options": [
-      {
-       "key": "A",
-       "text": "The heterozygous parent's T or t gametes decide it",
-       "correct": true,
-       "explanation": "Yes — the mechanism works exactly this way.",
-       "misconception": null
-      },
-      {
-       "key": "B",
-       "text": "The short parent's varied gametes",
-       "correct": false,
-       "explanation": "The short parent offers only t.",
-       "misconception": "close but wrong"
-      },
-      {
-       "key": "C",
-       "text": "The environment during growth",
-       "correct": false,
-       "explanation": "The grid is about alleles.",
-       "misconception": "category slip"
-      },
-      {
-       "key": "D",
-       "text": "Chance mutations in the seeds",
-       "correct": false,
-       "explanation": "No mutation is involved.",
-       "misconception": "invented role"
-      }
-     ]
-    },
-    {
-     "kind": "mcq",
-     "stem": "A tall offspring appears from this cross. What is its genotype?",
+     "stem": "A tall offspring appears from the test cross. What is its genotype?",
      "misconceptionClass": "genotype narrowing",
      "options": [
       {
        "key": "A",
-       "text": "Tt, the only tall genotype available in this grid",
+       "text": "Tt, the only tall genotype available in that grid",
        "correct": true,
-       "explanation": "Correct — this follows directly from the definition.",
+       "explanation": "Right — the other options each misplace a concept.",
        "misconception": null
       },
       {
@@ -990,50 +765,15 @@
      ]
     },
     {
-     "kind": "mcq",
-     "stem": "This pairing is often called a test cross. What is it testing?",
-     "misconceptionClass": "test cross logic",
-     "options": [
-      {
-       "key": "A",
-       "text": "Whether the tall parent carries a hidden t allele",
-       "correct": true,
-       "explanation": "Yes — the mechanism works exactly this way.",
-       "misconception": null
-      },
-      {
-       "key": "B",
-       "text": "The shortness of the other parent",
-       "correct": false,
-       "explanation": "The short parent's genotype is already certain.",
-       "misconception": "close but wrong"
-      },
-      {
-       "key": "C",
-       "text": "Soil quality across the field",
-       "correct": false,
-       "explanation": "The cross is genetic, not agricultural.",
-       "misconception": "category slip"
-      },
-      {
-       "key": "D",
-       "text": "Flower colour ratios",
-       "correct": false,
-       "explanation": "Height is the trait under test.",
-       "misconception": "invented role"
-      }
-     ]
-    },
-    {
      "kind": "recall",
-     "stem": "Set out the Tt by tt cross in words.",
+     "stem": "Derive the 3:1 ratio from the Tt by Tt grid.",
      "misconceptionClass": "recall of the taught account",
-     "modelAnswer": "The heterozygous parent gives T or t, the short parent gives t only, so the offspring are half Tt tall and half tt short.",
+     "modelAnswer": "The grid gives one TT, two Tt and one tt, and since Tt plants are tall, three cells are tall to every one short cell.",
      "keywords": [
-      "heterozygous",
+      "tt",
       "tall",
       "short",
-      "offspring"
+      "ratio"
      ]
     },
     {
@@ -1049,14 +789,14 @@
     },
     {
      "kind": "explain-why",
-     "stem": "Explain why no TT offspring can appear in this cross.",
+     "stem": "Explain why the recessive characteristic resurfaces in the F2 after hiding in the F1.",
      "misconceptionClass": "mechanism reasoning",
-     "modelAnswer": "The short parent carries no T allele to donate, so every offspring must receive t from that side and the dominant homozygote is impossible.",
+     "modelAnswer": "The F1 plants each carry a hidden t allele, so when two of them breed, some offspring receive t from both parents and express the recessive short form.",
      "keywords": [
-      "tt",
-      "allele",
-      "offspring",
-      "dominant"
+      "recessive",
+      "f1",
+      "f2",
+      "offspring"
      ]
     },
     {
@@ -1121,7 +861,7 @@
        "key": "A",
        "text": "75 percent",
        "correct": true,
-       "explanation": "Correct — this matches the account taught above.",
+       "explanation": "Correct — this follows directly from the definition.",
        "misconception": null
       },
       {
@@ -1156,7 +896,7 @@
        "key": "A",
        "text": "Three of the four grid cells show the tall phenotype",
        "correct": true,
-       "explanation": "Correct — this matches the account taught above.",
+       "explanation": "Yes — the mechanism works exactly this way.",
        "misconception": null
       },
       {
@@ -1191,7 +931,7 @@
        "key": "A",
        "text": "No, each offspring is an independent 75 percent event",
        "correct": true,
-       "explanation": "Correct — this matches the account taught above.",
+       "explanation": "Right — this is the account the lesson teaches.",
        "misconception": null
       },
       {
@@ -1226,7 +966,7 @@
        "key": "A",
        "text": "25 percent",
        "correct": true,
-       "explanation": "Correct — this follows directly from the definition.",
+       "explanation": "Correct — this matches the account taught above.",
        "misconception": null
       },
       {
@@ -1261,7 +1001,7 @@
        "key": "A",
        "text": "Check whether the parents are TT or Tt, since TT crossed with TT guarantees tall while Tt crossed with Tt risks short",
        "correct": true,
-       "explanation": "Right — the other options each misplace a concept.",
+       "explanation": "Correct — this matches the account taught above.",
        "misconception": null
       },
       {
@@ -1395,7 +1135,7 @@
    "alt": "Heterozygous pure recessive cross, IGCSE & GCSE Biology revision notes",
    "sourceHeading": "Crossing a heterozygous plant with a short plant",
    "moduleIds": [
-    "L4"
+    "L3"
    ],
    "binding": "heading-unique"
   }
