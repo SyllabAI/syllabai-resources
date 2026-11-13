@@ -1,0 +1,604 @@
+{
+ "format": "guided-lesson/0.7",
+ "noteRef": {
+  "noteId": "rn_f7zgq5kpGx3HMnHs",
+  "corpusVersion": "sme-revision-notes-igcse-biology-19-2026-09-17",
+  "topicTitle": "Reproduction and inheritance",
+  "subtopicTitle": "Inheritance",
+  "sourceUrl": "https://www.savemyexams.com/igcse/biology/edexcel/19/revision-notes/3-reproduction-and-inheritance/inheritance/meiosis"
+ },
+ "specPoints": [
+  {
+   "code": "3.30",
+   "text": "understand how division of a cell by meiosis produces four cells, each with half the number of chromosomes, and that this results in the formation of genetically different haploid gametes"
+  }
+ ],
+ "primer": {
+  "text": "Sex cells need half a chromosome set each, and building them takes two divisions. This note walks meiosis from chromosome doubling through both splits to four genetically different haploid daughters, then sets the comparison table beside mitosis so you can quote the differences the examiner asks for.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "Two Divisions, Four Different Daughters",
+   "sourceHeadings": [
+    "Meiosis",
+    "The process of meiosis"
+   ],
+   "specRefs": [
+    "3.30"
+   ],
+   "opening": "Meiosis is the division that builds gametes: the chromosomes double first, two rounds of division follow, and four daughter cells emerge, each carrying half the starting number and each genetically distinct from its siblings.",
+   "keyPoints": [
+    "Meiosis is a nuclear division producing cells that are genetically different.",
+    "Chromosomes double before the divisions, as they do before mitosis.",
+    "The first division separates chromosome pairs; the second separates the copies.",
+    "Four haploid daughter cells result, each with one chromosome of each pair.",
+    "Halving matters because fertilisation would otherwise double the chromosome count."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "The cell divides twice and ends up with four cells, each holding half the chromosomes.",
+     "analogy": "A library lending half its collection to four branches, no two branches identical.",
+     "examPointer": "The count is four, the content is half, and the products differ."
+    },
+    "medium": {
+     "restatement": "Pairing then separation in two rounds guarantees the halving and reshuffles the genetic material.",
+     "analogy": "Two sorting rounds at a mail depot: first the pairs are split, then the copies.",
+     "examPointer": "Attach a reason to the halving: fertilisation restores the full set."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "How many daughter cells does meiosis produce?",
+     "misconceptionClass": "product count",
+     "options": [
+      {
+       "key": "A",
+       "text": "Four",
+       "correct": true,
+       "explanation": "Correct — this follows directly from the definition.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Two",
+       "correct": false,
+       "explanation": "Two is the mitosis count; meiosis divides twice.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "Six",
+       "correct": false,
+       "explanation": "No taught stage yields six cells.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "Eight",
+       "correct": false,
+       "explanation": "Eight would need a third division.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What is the chromosome content of each meiotic daughter cell?",
+     "misconceptionClass": "ploidy",
+     "options": [
+      {
+       "key": "A",
+       "text": "Half the original number, so haploid",
+       "correct": true,
+       "explanation": "Right — the other options each misplace a concept.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Identical diploid sets",
+       "correct": false,
+       "explanation": "That describes mitosis products.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "Doubled chromosome sets",
+       "correct": false,
+       "explanation": "The number halves, it never doubles in the products.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "No chromosomes at all",
+       "correct": false,
+       "explanation": "Each daughter keeps one of each pair.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What happens during the first meiotic division?",
+     "misconceptionClass": "stage detail",
+     "options": [
+      {
+       "key": "A",
+       "text": "Chromosome pairs are pulled to opposite ends of the dividing cells",
+       "correct": true,
+       "explanation": "Correct — this matches the account taught above.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Single copies separate",
+       "correct": false,
+       "explanation": "The second division handles the copies.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "Nothing separates yet",
+       "correct": false,
+       "explanation": "The first division does real sorting.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "Only the cytoplasm splits",
+       "correct": false,
+       "explanation": "Nuclear division is the essence of meiosis.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why are the four products genetically different from one another?",
+     "misconceptionClass": "variation mechanism",
+     "options": [
+      {
+       "key": "A",
+       "text": "Each receives a different mix of the starting genetic material",
+       "correct": true,
+       "explanation": "Yes — the mechanism works exactly this way.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "They are exact clones",
+       "correct": false,
+       "explanation": "Cloning describes mitosis, the opposite.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "Mutation deletes different genes",
+       "correct": false,
+       "explanation": "Deletion is not the taught mechanism here.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "Only two of the four differ",
+       "correct": false,
+       "explanation": "All four can differ from one another.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which cells in the body are made by meiosis?",
+     "misconceptionClass": "cell targets",
+     "options": [
+      {
+       "key": "A",
+       "text": "The gametes, such as sperm, egg, pollen and ovum",
+       "correct": true,
+       "explanation": "Correct — this matches the account taught above.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Skin cells",
+       "correct": false,
+       "explanation": "Skin renews by mitosis.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "Red blood cells",
+       "correct": false,
+       "explanation": "They are replaced through mitosis of precursor cells.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "Muscle cells",
+       "correct": false,
+       "explanation": "Muscle growth uses mitosis, not meiosis.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the two reasons meiosis is important.",
+     "misconceptionClass": "recall of the taught account",
+     "modelAnswer": "It produces the gametes for sexual reproduction and it increases the genetic variation of offspring.",
+     "keywords": [
+      "gametes",
+      "variation",
+      "offspring",
+      "reproduction"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Describe how the number of divisions in meiosis compares with mitosis.",
+     "misconceptionClass": "recall of the taught account",
+     "modelAnswer": "Meiosis divides twice, so four haploid cells form, while mitosis divides once and yields two diploid cells.",
+     "keywords": [
+      "twice",
+      "four",
+      "haploid",
+      "mitosis"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why the chromosome number must halve during gamete formation.",
+     "misconceptionClass": "mechanism reasoning",
+     "modelAnswer": "Two gametes fuse at fertilisation, so each must carry half a set; otherwise the zygote would hold double the normal chromosome number every generation.",
+     "keywords": [
+      "fertilisation",
+      "zygote",
+      "chromosome",
+      "half"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A pollen grain counts 12 chromosomes and the plant's body cells count 24. Which process made the pollen grain, and how many chromosomes did its parent cell start with?",
+     "misconceptionClass": "scenario application",
+     "modelAnswer": "Meiosis made the haploid pollen grain, and its diploid parent cell started from 24 chromosomes before the halving.",
+     "keywords": [
+      "meiosis",
+      "haploid",
+      "24",
+      "chromosomes"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Mitosis and Meiosis Side by Side",
+   "sourceHeadings": [
+    "Comparing Mitosis & Meiosis",
+    "Comparing Mitosis & Meiosis Table"
+   ],
+   "specRefs": [
+    "3.30"
+   ],
+   "opening": "The comparison table sets the two divisions side by side, and exams love the differences, so anchor on the ones the table stresses: daughter cell number, chromosome content, genetic identity of products, and the jobs each division does.",
+   "keyPoints": [
+    "Mitosis yields two identical diploid cells; meiosis yields four different haploid cells.",
+    "Mitosis drives growth and repair; meiosis builds gametes for reproduction.",
+    "Only meiosis runs two divisions; mitosis runs one.",
+    "Examiners reward specific differences, so quote numbers and outcomes."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "One division clones for maintenance; two divisions halve for reproduction.",
+     "analogy": "A photocopier versus a card dealer: one duplicates exactly, the other deals varied hands.",
+     "examPointer": "Give two or three differences and be specific, as the table demands."
+    },
+    "medium": {
+     "restatement": "Number, ploidy and identity move together: two divisions are what allow the halving and the variation.",
+     "analogy": "Two taps drain a tank lower than one; the extra division is what halves the set.",
+     "examPointer": "Know the reason behind each difference, not just the difference."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Which division produces daughter cells with identical chromosome sets?",
+     "misconceptionClass": "identity contrast",
+     "options": [
+      {
+       "key": "A",
+       "text": "Mitosis",
+       "correct": true,
+       "explanation": "Right — this is the account the lesson teaches.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Meiosis",
+       "correct": false,
+       "explanation": "Meiotic products are genetically different.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "Both divisions",
+       "correct": false,
+       "explanation": "Only mitosis guarantees identity.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "Neither division",
+       "correct": false,
+       "explanation": "Mitosis is defined by identity.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "How many divisions does meiosis complete?",
+     "misconceptionClass": "division count",
+     "options": [
+      {
+       "key": "A",
+       "text": "Two",
+       "correct": true,
+       "explanation": "Right — the other options each misplace a concept.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "One",
+       "correct": false,
+       "explanation": "One division is the mitosis pattern.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "Three",
+       "correct": false,
+       "explanation": "No third division occurs.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "Four",
+       "correct": false,
+       "explanation": "Four counts the products, not the divisions.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "A question asks for one difference between the two divisions. Which answer scores?",
+     "misconceptionClass": "exam answer",
+     "options": [
+      {
+       "key": "A",
+       "text": "Mitosis makes two cells, meiosis makes four",
+       "correct": true,
+       "explanation": "Right — the other options each misplace a concept.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Both make gametes",
+       "correct": false,
+       "explanation": "Only meiosis makes gametes.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "Both halve the chromosomes",
+       "correct": false,
+       "explanation": "Only meiosis halves; mitosis preserves the set.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "Neither matters for variation",
+       "correct": false,
+       "explanation": "Meiosis is central to variation.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which process maintains the chromosome number during ordinary growth?",
+     "misconceptionClass": "function match",
+     "options": [
+      {
+       "key": "A",
+       "text": "Mitosis",
+       "correct": true,
+       "explanation": "Yes — the mechanism works exactly this way.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Meiosis",
+       "correct": false,
+       "explanation": "Meiosis halves the number for gametes.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "Fertilisation",
+       "correct": false,
+       "explanation": "Fertilisation restores the number after the halving.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "Mutation",
+       "correct": false,
+       "explanation": "Mutation changes base sequences, not chromosome counts.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why should reasons be attached when naming the division a tissue uses?",
+     "misconceptionClass": "exam technique",
+     "options": [
+      {
+       "key": "A",
+       "text": "The exam rewards knowing why that division suits the job",
+       "correct": true,
+       "explanation": "Correct — this matches the account taught above.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Reasons earn no marks",
+       "correct": false,
+       "explanation": "The taught hint says reasons matter.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "Either name passes",
+       "correct": false,
+       "explanation": "The divisions differ, so the name matters.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "The table forbids reasons",
+       "correct": false,
+       "explanation": "Nothing forbids justification; it is demanded.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State two differences between mitosis and meiosis.",
+     "misconceptionClass": "recall of the taught account",
+     "modelAnswer": "Mitosis produces two genetically identical diploid cells for growth and repair, while meiosis produces four genetically different haploid gametes.",
+     "keywords": [
+      "two",
+      "four",
+      "diploid",
+      "haploid",
+      "identical"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Name the products of each division.",
+     "misconceptionClass": "recall of the taught account",
+     "modelAnswer": "Mitosis gives identical body cells and meiosis gives haploid gametes.",
+     "keywords": [
+      "mitosis",
+      "meiosis",
+      "gametes",
+      "body cells"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why confusing the two divisions loses marks so readily.",
+     "misconceptionClass": "mechanism reasoning",
+     "modelAnswer": "Their outputs differ in number, ploidy and genetic identity all at once, so an answer naming the wrong division contradicts every feature the mark scheme checks.",
+     "keywords": [
+      "number",
+      "ploidy",
+      "genetic",
+      "mark scheme"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A root tip grows longer and a pollen grain forms in the same plant. Match each event to its division and give one reason for each.",
+     "misconceptionClass": "scenario application",
+     "modelAnswer": "Root growth uses mitosis because new identical diploid cells extend the tissue, and pollen formation uses meiosis because gametes must be haploid and genetically different.",
+     "keywords": [
+      "mitosis",
+      "meiosis",
+      "diploid",
+      "haploid"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "meiosis",
+    "definition": "The two-stage division that produces four genetically different haploid cells.",
+    "firstLesson": 1
+   },
+   {
+    "term": "gamete",
+    "definition": "A haploid sex cell produced by meiosis, such as sperm or egg.",
+    "firstLesson": 1
+   },
+   {
+    "term": "haploid",
+    "definition": "Carrying half the normal chromosome number.",
+    "firstLesson": 1
+   },
+   {
+    "term": "diploid",
+    "definition": "Carrying the full double chromosome set.",
+    "firstLesson": 1
+   },
+   {
+    "term": "mitosis",
+    "definition": "The single division that produces identical diploid cells.",
+    "firstLesson": 2
+   }
+  ],
+  "workedExample": null
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-biology-19/assets/7f74181d05da-meiosis.png",
+   "alt": "Meiosis, IGCSE & GCSE Biology revision notes",
+   "sourceHeading": "The process of meiosis",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique"
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-biology-19/assets/44f3ffe3b871-17-4-differences-between-mitosis-and-meiosis-tab.png",
+   "alt": "17 4 differences between mitosis and meiosis tab",
+   "sourceHeading": "Comparing Mitosis & Meiosis Table",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique"
+  }
+ ]
+}

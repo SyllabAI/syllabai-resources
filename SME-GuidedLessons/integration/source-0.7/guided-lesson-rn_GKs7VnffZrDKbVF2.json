@@ -1,0 +1,602 @@
+{
+ "format": "guided-lesson/0.7",
+ "noteRef": {
+  "noteId": "rn_GKs7VnffZrDKbVF2",
+  "corpusVersion": "sme-revision-notes-igcse-biology-19-2026-09-17",
+  "topicTitle": "Reproduction and inheritance",
+  "subtopicTitle": "Inheritance",
+  "sourceUrl": "https://www.savemyexams.com/igcse/biology/edexcel/19/revision-notes/3-reproduction-and-inheritance/inheritance/stages-of-protein-synthesis"
+ },
+ "specPoints": [
+  {
+   "code": "3.18B",
+   "text": "describe the stages of protein synthesis including transcription and translation, including the role of mRNA, ribosomes, tRNA, codons and anticodons"
+  }
+ ],
+ "primer": {
+  "text": "One gene, one protein, two stages between them. This note walks transcription inside the nucleus — unwind, expose, bind, join, exit — and translation on the ribosome — dock, match, bond, stop — naming the roles of mRNA, tRNA, codons and anticodons that the mark scheme rewards.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "Transcription in the Nucleus",
+   "sourceHeadings": [
+    "Transcription & Translation",
+    "Transcription"
+   ],
+   "specRefs": [
+    "3.18B"
+   ],
+   "opening": "Protein synthesis runs in two stages: transcription in the nucleus copies a gene into single-stranded mRNA, and translation in the cytoplasm reads that message into a chain of amino acids on the ribosome.",
+   "keyPoints": [
+    "Transcription happens in the nucleus and produces a strand of mRNA.",
+    "Hydrogen bonds break so the DNA unwinds and exposes the template strand.",
+    "Free mRNA nucleotides bind their complementary partners on the template.",
+    "The finished mRNA leaves the nucleus through a pore."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "The nucleus photocopies the gene's instructions onto an mRNA strand.",
+     "analogy": "Copying one recipe page in the library and sending the copy to the kitchen.",
+     "examPointer": "Keep the order of the five steps firm; sequence questions are common."
+    },
+    "medium": {
+     "restatement": "Complementary binding is what preserves the message: each template base dictates its partner.",
+     "analogy": "A lock-and-key pass along the template, one base at a time.",
+     "examPointer": "Say complementary copy, not identical copy; the pairing rule matters."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Where does transcription occur?",
+     "misconceptionClass": "site",
+     "options": [
+      {
+       "key": "A",
+       "text": "In the nucleus",
+       "correct": true,
+       "explanation": "Right — the other options each misplace a concept.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "In the cytoplasm",
+       "correct": false,
+       "explanation": "The cytoplasm hosts translation, not transcription.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "On the ribosome",
+       "correct": false,
+       "explanation": "Ribosomes receive the mRNA after transcription.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "In the mitochondrion",
+       "correct": false,
+       "explanation": "Mitochondria are not part of this account.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What molecule does transcription produce?",
+     "misconceptionClass": "product",
+     "options": [
+      {
+       "key": "A",
+       "text": "Single-stranded mRNA",
+       "correct": true,
+       "explanation": "Right — this is the account the lesson teaches.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "tRNA",
+       "correct": false,
+       "explanation": "tRNA is a separate working type.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "A protein",
+       "correct": false,
+       "explanation": "Protein is the end product of translation.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "A new DNA double helix",
+       "correct": false,
+       "explanation": "Transcription copies, it does not replicate DNA.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What exposes the template strand?",
+     "misconceptionClass": "mechanism",
+     "options": [
+      {
+       "key": "A",
+       "text": "Hydrogen bonds break and the DNA unwinds",
+       "correct": true,
+       "explanation": "Yes — the mechanism works exactly this way.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The membrane opens",
+       "correct": false,
+       "explanation": "The nuclear membrane plays no such role.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "The ribosome pulls it apart",
+       "correct": false,
+       "explanation": "Ribosomes are not present yet.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "Bases are cut out",
+       "correct": false,
+       "explanation": "No bases are removed at this stage.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "How does the mRNA strand relate to the template?",
+     "misconceptionClass": "copy relation",
+     "options": [
+      {
+       "key": "A",
+       "text": "Its bases mirror the template strand, base for complementary base",
+       "correct": true,
+       "explanation": "Correct — this matches the account taught above.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "An identical clone of the template",
+       "correct": false,
+       "explanation": "Pairing makes it complementary, not identical.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "A scrambled version",
+       "correct": false,
+       "explanation": "The copy preserves the sequence faithfully.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "A reversed sequence",
+       "correct": false,
+       "explanation": "Nothing reverses during transcription.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "How does the mRNA reach the cytoplasm?",
+     "misconceptionClass": "transport",
+     "options": [
+      {
+       "key": "A",
+       "text": "Through a pore in the nuclear envelope",
+       "correct": true,
+       "explanation": "Yes — the mechanism works exactly this way.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "It dissolves and reforms outside",
+       "correct": false,
+       "explanation": "The molecule travels intact.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "The nucleus contracts around it",
+       "correct": false,
+       "explanation": "No such mechanism is taught.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "tRNA ferries it out",
+       "correct": false,
+       "explanation": "tRNA works later, in translation.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "List the five transcription steps in order.",
+     "misconceptionClass": "recall of the taught account",
+     "modelAnswer": "The DNA unwinds, the template strand is exposed, free mRNA nucleotides bind, the nucleotides join into a single strand, and the mRNA leaves through a pore.",
+     "keywords": [
+      "unwinds",
+      "template",
+      "nucleotides",
+      "pore"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Define transcription in one sentence.",
+     "misconceptionClass": "recall of the taught account",
+     "modelAnswer": "Transcription is the nuclear stage that copies a section of DNA into a strand of mRNA.",
+     "keywords": [
+      "transcription",
+      "nucleus",
+      "dna",
+      "mrna"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why the mRNA must leave the nucleus for the next stage.",
+     "misconceptionClass": "mechanism reasoning",
+     "modelAnswer": "Ribosomes sit in the cytoplasm, so the message has to travel out of the nucleus before translation can begin.",
+     "keywords": [
+      "ribosomes",
+      "cytoplasm",
+      "nucleus",
+      "translation"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A poison blocks the pores in the nuclear envelope of a cell. Describe the effect on protein synthesis.",
+     "misconceptionClass": "scenario application",
+     "modelAnswer": "mRNA can no longer leave the nucleus, so it never reaches the ribosomes in the cytoplasm and translation cannot start.",
+     "keywords": [
+      "mrna",
+      "nucleus",
+      "ribosomes",
+      "translation"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Translation on the Ribosome",
+   "sourceHeadings": [
+    "Translation"
+   ],
+   "specRefs": [
+    "3.18B"
+   ],
+   "opening": "Translation converts the message into protein: the mRNA docks on a ribosome, tRNA molecules match their anticodons to the codons, amino acids link by peptide bonds, and a stop codon releases the finished chain for folding.",
+   "keyPoints": [
+    "Translation occurs in the cytoplasm on ribosomes.",
+    "Each tRNA carries an anticodon at one end and an amino acid at the other.",
+    "Anticodons pair with complementary codons on the mRNA.",
+    "Peptide bonds join neighbouring amino acids as the chain grows.",
+    "A stop codon ends translation and the chain folds into its protein."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "The message is read three bases at a time, and each matching tRNA drops off its amino acid.",
+     "analogy": "A bead stringer reads the instruction card and collects matching beads one by one.",
+     "examPointer": "Pair the terms: codon on mRNA, anticodon on tRNA."
+    },
+    "medium": {
+     "restatement": "The fixed anticodon-codon correspondence is what keeps the protein faithful to the gene.",
+     "analogy": "A bilingual dictionary where each word maps to exactly one translation.",
+     "examPointer": "Name the stop codon as the signal that releases the finished chain."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Where does translation happen?",
+     "misconceptionClass": "site",
+     "options": [
+      {
+       "key": "A",
+       "text": "In the cytoplasm, on ribosomes",
+       "correct": true,
+       "explanation": "Correct — this matches the account taught above.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "In the nucleus",
+       "correct": false,
+       "explanation": "The nucleus hosts transcription only.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "Inside the nuclear pore",
+       "correct": false,
+       "explanation": "The pore is a doorway, not a workshop.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "On the cell membrane",
+       "correct": false,
+       "explanation": "The membrane is not a translation site.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What does each tRNA molecule carry?",
+     "misconceptionClass": "trna structure",
+     "options": [
+      {
+       "key": "A",
+       "text": "An anticodon triplet and its specific amino acid",
+       "correct": true,
+       "explanation": "Right — this is the account the lesson teaches.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "A complete gene",
+       "correct": false,
+       "explanation": "tRNA carries one amino acid, not a gene.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "A double helix",
+       "correct": false,
+       "explanation": "tRNA is a single-stranded molecule.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "Nothing but water",
+       "correct": false,
+       "explanation": "The amino acid is the cargo.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What pairs with a codon on the mRNA?",
+     "misconceptionClass": "pairing",
+     "options": [
+      {
+       "key": "A",
+       "text": "The complementary anticodon of a tRNA",
+       "correct": true,
+       "explanation": "Correct — this follows directly from the definition.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Another codon",
+       "correct": false,
+       "explanation": "Codons pair with anticodons, not each other.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "A base from DNA",
+       "correct": false,
+       "explanation": "DNA stays in the nucleus.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "A peptide bond",
+       "correct": false,
+       "explanation": "Bonds join amino acids; they do not pair with codons.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What joins the amino acids together?",
+     "misconceptionClass": "bonding",
+     "options": [
+      {
+       "key": "A",
+       "text": "Peptide bonds between neighbouring amino acids",
+       "correct": true,
+       "explanation": "Correct — this follows directly from the definition.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Hydrogen bonds",
+       "correct": false,
+       "explanation": "Those held the DNA strands, not the protein chain.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "Phosphate bonds",
+       "correct": false,
+       "explanation": "Phosphates belong to the nucleic acid backbone.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "Cell fibres",
+       "correct": false,
+       "explanation": "Fibres pull chromosomes, not amino acids.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What signals the end of translation?",
+     "misconceptionClass": "termination",
+     "options": [
+      {
+       "key": "A",
+       "text": "A stop codon on the mRNA",
+       "correct": true,
+       "explanation": "Right — this is the account the lesson teaches.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The tRNA running out",
+       "correct": false,
+       "explanation": "Depletion is not the taught signal.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "The ribosome wearing out",
+       "correct": false,
+       "explanation": "Ribosomes are not the signal source.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "The nucleus calling the chain back",
+       "correct": false,
+       "explanation": "The nucleus is not involved here.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Define translation and its location.",
+     "misconceptionClass": "recall of the taught account",
+     "modelAnswer": "Translation is the cytoplasm stage where the mRNA is read on ribosomes and an amino acid chain is produced.",
+     "keywords": [
+      "translation",
+      "cytoplasm",
+      "ribosomes",
+      "amino acid chain"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the roles of codon and anticodon.",
+     "misconceptionClass": "recall of the taught account",
+     "modelAnswer": "The codon is the mRNA triplet and the anticodon is the matching tRNA triplet that brings the specified amino acid.",
+     "keywords": [
+      "codon",
+      "anticodon",
+      "mrna",
+      "trna"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why each anticodon corresponds to exactly one amino acid.",
+     "misconceptionClass": "mechanism reasoning",
+     "modelAnswer": "The matching rule between anticodon and codon is fixed, so each tRNA delivers the same amino acid every time, keeping the protein sequence faithful to the gene.",
+     "keywords": [
+      "anticodon",
+      "codon",
+      "amino acid",
+      "trna"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A mutation changes a codon on an mRNA into a stop codon. Predict the effect on the protein produced.",
+     "misconceptionClass": "scenario application",
+     "modelAnswer": "Translation halts at that codon, so the amino acid chain is cut short and the finished protein is incomplete.",
+     "keywords": [
+      "stop codon",
+      "translation",
+      "amino acid chain",
+      "incomplete"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "transcription",
+    "definition": "The nuclear stage copying a gene into a strand of mRNA.",
+    "firstLesson": 1
+   },
+   {
+    "term": "translation",
+    "definition": "The cytoplasm stage reading mRNA on ribosomes into an amino acid chain.",
+    "firstLesson": 1
+   },
+   {
+    "term": "codon",
+    "definition": "A triplet of bases on mRNA that specifies one amino acid.",
+    "firstLesson": 1
+   },
+   {
+    "term": "anticodon",
+    "definition": "The matching triplet on tRNA that pairs with a codon.",
+    "firstLesson": 2
+   },
+   {
+    "term": "peptide bond",
+    "definition": "The link joining neighbouring amino acids during translation.",
+    "firstLesson": 2
+   }
+  ],
+  "workedExample": null
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-biology-19/assets/8591be45b935-transcription-in-the-nucleus.png",
+   "alt": "Transcription in the nucleus",
+   "sourceHeading": "Transcription",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique"
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-biology-19/assets/c14d6e6d5acc-translation-1.png",
+   "alt": "Translation (1)",
+   "sourceHeading": "Translation",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique"
+  }
+ ]
+}
