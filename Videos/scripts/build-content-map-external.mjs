@@ -906,6 +906,14 @@ for (const course of P9) {
     };
   }
 
+  // idempotency (the P2B law, video-keyed): the draft is the only source for
+  // p9 rows — drop prior p9-lane rows (by video id) and the prior p9 lane
+  // entry before re-appending, so a re-emit from post-p9 state is a no-op.
+  const p9Vids = new Set(draft.videos.map((v) => v.id));
+  content.mappings = content.mappings.filter((m) => !p9Vids.has(m.video));
+  content.review.lanes = (content.review.lanes || []).filter(
+    (l) => !String(l.lane || "").includes("mr-hassaans-maths completion")
+  );
   for (const m of draft.mappings) {
     if (m.reviewed !== true || !m.reviewer || !m.reviewedUtc)
       errors.push(`${course}: unreviewed p9 row leaking into content (${m.video})`);
@@ -1005,6 +1013,196 @@ for (const course of P9) {
   registry.generatedUtc = new Date().toISOString();
   console.log(
     `${course}: SHIPPED +p9 specs ${content.coverage.specPointsMapped}/${content.coverage.specPointsTotal} · videos ${content.coverage.videosMapped}/${content.coverage.videosTotal} · rows ${content.coverage.mappingRows} (+${draft.mappings.length} mr-hassaans-maths rows) · 0 reviewed:false in content`
+  );
+}
+
+
+// ================================================= P10 two-pool maths completion lane =====
+// Owner chat 2026-11-13: recon of two maths channels -> "lane P10".
+//   MrArnoldsMaths (UCwa84m5RqSJEkP9pYdeDYnw, 437 uploads) + Maths Deity
+//   (UCODyYjai6abd1N5KGc1KacQ, 353 uploads), 0 overlap with the shipped union.
+// Maths Deity is IAL module-native: Tier B course anchors by machine-checkable
+// module codes in titles ("Edexcel IAL P1..P4 <session> Exam Paper", "Practise
+// Paper n", "Edexcel style Pn Practise paper", "hardest questions (on|from)
+// (Edexcel IAL) Pn/Mn/Sn") with method paper-code / confidence high /
+// boardMismatch false / specs [] (zero spec weight, §4); Tier A spec rows from
+// the unit.section marker tutorials routed P1-P4 -> pure-1..4, M1/M2 ->
+// mechanics-1/2, S1/S2 -> statistics-1/2, FP1 -> further-pure-1, bound by
+// explicit-code class tables over the distinctive-token pre-pass; module-
+// structured rows may bind at the disclosed higher title-only bar (confidence
+// low, P4 cross-subject-style) where the small dense module spines make df<=3
+// structurally unable to discriminate. MrArnoldsMaths is a legacy Edexcel
+// GCSE/GCE channel: its GCSE-paper and GCE-core pools are honest no-target
+// skips (§6 — qualifications not in the spine); its 22 GCSE topic tutorials
+// bind Tier A onto igcse-maths-a-18-higher (inherit PARENT — five children
+// cascade at build time). Honest no-targets recorded in the route ledger:
+// 260 legacy 1MA0 papers, 44 "Core Maths" GCE core-series tutorials, 26 GCE
+// C1-C4/applied, 10 other-board, 27 FP2 (no further-pure-2 course in the
+// spine, disclosed). NEW courses (statistics-2, further-pure-1) are created
+// fresh here; existing courses append (the P5 shape). Runs BEFORE the P4
+// inherit loop so a-18-higher children cascade.
+const P10 = [
+  "ial-maths-20-pure-1", "ial-maths-20-pure-2", "ial-maths-20-pure-3", "ial-maths-20-pure-4",
+  "ial-maths-20-mechanics-1", "ial-maths-20-mechanics-2",
+  "ial-maths-20-statistics-1", "ial-maths-20-statistics-2",
+  "ial-further-maths-18-further-pure-1", "igcse-maths-a-18-higher",
+];
+for (const course of P10) {
+  const D = join(VIDEOS, "drafts", course);
+  const draft = JSON.parse(readFileSync(join(D, "video-map.draft.external-p10.json"), "utf8"));
+  const verdicts = JSON.parse(readFileSync(join(D, "owner-review-verdicts.p10.json"), "utf8"));
+  if (draft.reviewState !== "owner-reviewed-external")
+    throw new Error(`${course}: p10 reviewState is "${draft.reviewState}" — apply review first`);
+  const spine = JSON.parse(readFileSync(join(SPINES, `${course}.json`), "utf8"));
+  const specByCode = new Map(
+    spine.curriculum.nodes.filter((n) => n.family === "SPEC_POINT").map((n) => [n.code, n])
+  );
+  assertSpineMirror(course, spine);
+  const contentPath = join(MAPDIR, `${course}.json`);
+  let content;
+  if (existsSync(contentPath)) {
+    content = JSON.parse(readFileSync(contentPath, "utf8"));
+    if (!content.review) errors.push(`${course}: existing content file has no review block`);
+    if (!content.inputs) errors.push(`${course}: existing content file has no inputs block`);
+    if (errors.length) break;
+  } else {
+    content = {
+      schema: "hub.video-map/1",
+      course,
+      qual: draft.qual,
+      source: {
+        provider: draft.source.provider,
+        label: course,
+        method: draft.source.method,
+        enumeratedUtc: draft.source.enumeratedUtc,
+      },
+      review: {
+        task: verdicts.task,
+        ruledUtc: verdicts.ruledUtc,
+        ruling: verdicts.source,
+        reviewer: verdicts.reviewer,
+        evidenceBasis: verdicts.evidenceBasis,
+        rowsApproved: 0,
+        rowsRejected: (verdicts.rejects || []).length,
+        rejects: REJECTS_OF(verdicts, verdicts.task),
+      },
+      videos: [],
+      mappings: [],
+      coverage: null,
+      inputs: {
+        spine: { file: `apps/hub/spines/${course}.json`, sha256: sha256(join(SPINES, `${course}.json`)) },
+      },
+      generatedUtc: new Date().toISOString(),
+    };
+  }
+
+  // idempotency (the P2B law, video-keyed): the draft is the only source for
+  // p10 rows — drop prior p10-lane rows (by video id) and the prior p10 lane
+  // entry before re-appending, so a re-emit from post-p10 state is a no-op.
+  const p10Vids = new Set(draft.videos.map((v) => v.id));
+  content.mappings = content.mappings.filter((m) => !p10Vids.has(m.video));
+  content.review.lanes = (content.review.lanes || []).filter(
+    (l) => !String(l.lane || "").includes("two-pool maths completion")
+  );
+  for (const m of draft.mappings) {
+    if (m.reviewed !== true || !m.reviewer || !m.reviewedUtc)
+      errors.push(`${course}: unreviewed p10 row leaking into content (${m.video})`);
+    if (!/^[\w-]{11}$/.test(m.video)) errors.push(`${course}: bad p10 video id ${m.video}`);
+    if (m.method === "paper-code") {
+      if (!m.anchor || m.anchor.level !== "course" || m.anchor.ref !== course)
+        errors.push(`${course}: p10 paper-code row must carry anchor{level:course, ref:course} (${m.video})`);
+      if (!m.specs || m.specs.length !== 0)
+        errors.push(`${course}: p10 anchor rows carry specs:[] — zero spec weight (§4) (${m.video})`);
+      if (m.confidence !== "high")
+        errors.push(`${course}: p10 paper-code anchor must be high confidence (${m.video})`);
+      if (m.boardMismatch !== false)
+        errors.push(`${course}: p10 paper-code anchor is same-qualification — boardMismatch must be false (${m.video})`);
+      if (m.kind !== "past-paper-walkthrough")
+        errors.push(`${course}: p10 anchor row must carry kind past-paper-walkthrough (${m.video})`);
+    } else if (m.method === "llm-draft-external") {
+      if (!m.specs || m.specs.length === 0)
+        errors.push(`${course}: p10 spec rows must carry non-empty specs (${m.video})`);
+      if (m.boardMismatch !== true)
+        errors.push(`${course}: p10 spec rows carry the title-only posture — boardMismatch must be true (${m.video})`);
+      if (m.confidence !== "medium" && m.confidence !== "low")
+        errors.push(`${course}: p10 spec rows are medium/low — high would violate the inherit posture (${m.video})`);
+      for (const code of m.specs || [])
+        if (!specByCode.has(code)) errors.push(`${course}: p10 spec ${code} not in spine (${m.video})`);
+    } else {
+      errors.push(`${course}: p10 row has unexpected method ${m.method} (${m.video})`);
+    }
+  }
+  const haveKeysP10 = new Set(content.mappings.map((m) => m.video + "|" + JSON.stringify(m.specs)));
+  for (const m of draft.mappings) {
+    const k = m.video + "|" + JSON.stringify(m.specs);
+    if (haveKeysP10.has(k)) errors.push(`${course}: duplicate p10 row across union ${k}`);
+    haveKeysP10.add(k);
+  }
+  const haveVidsP10 = new Set(content.videos.map((v) => v.id));
+  for (const v of draft.videos) {
+    if (!haveVidsP10.has(v.id)) content.videos.push(v);
+    if (!v.provider || !v.watchUrl) errors.push(`${course}: p10 video ${v.id} missing provider/watchUrl`);
+    if (!v.identityMethod) errors.push(`${course}: p10 video ${v.id} missing identityMethod`);
+  }
+  if (errors.length) break;
+
+  content.mappings = [...content.mappings, ...draft.mappings];
+  const allSpecsP10 = new Set(content.mappings.flatMap((m) => m.specs));
+  const mappedVidsP10 = new Set(content.mappings.map((m) => m.video));
+  content.coverage = {
+    specPointsTotal: specByCode.size,
+    specPointsMapped: allSpecsP10.size,
+    specPointsUnmapped: specByCode.size - allSpecsP10.size,
+    videosTotal: content.videos.length,
+    videosMapped: mappedVidsP10.size,
+    videosUnmapped: content.videos.length - mappedVidsP10.size,
+    mappingRows: content.mappings.length,
+    byConfidence: {
+      high: content.mappings.filter((m) => m.confidence === "high").length,
+      medium: content.mappings.filter((m) => m.confidence === "medium").length,
+      low: content.mappings.filter((m) => m.confidence === "low").length,
+    },
+  };
+  const p10Lane = {
+    lane: "external-channels-p10 (two-pool maths completion: mrarnoldsmaths + mathsdeity)", task: verdicts.task,
+    ruling: verdicts.source, reviewer: verdicts.reviewer, ruledUtc: verdicts.ruledUtc,
+    evidenceBasis: verdicts.evidenceBasis,
+    rowsApproved: draft.mappings.length, rowsRejected: (verdicts.rejects || []).length,
+    rejects: REJECTS_OF(verdicts, verdicts.task),
+  };
+  content.review.lanes = [
+    ...(content.review.lanes || [{
+      lane: "external-channels (primary)", task: content.review.task,
+      ruling: content.review.ruling, reviewer: content.review.reviewer,
+      ruledUtc: content.review.ruledUtc, evidenceBasis: content.review.evidenceBasis,
+      rowsApproved: content.review.rowsApproved, rowsRejected: content.review.rowsRejected,
+      rejects: content.review.rejects || [],
+    }]),
+    p10Lane,
+  ];
+  content.review.rowsApproved = content.mappings.length;
+  content.source.p10 = {
+    provider: draft.source.provider, method: draft.source.method,
+    enumeratedUtc: draft.source.enumeratedUtc,
+  };
+  content.inputs.p10 = {
+    repo: "SyllabAI/syllabai-resources",
+    path: `Videos/drafts/${course}/video-map.draft.external-p10.json`,
+    task: verdicts.task, reviewAppliedUtc: verdicts.ruledUtc,
+  };
+  content.generatedUtc = new Date().toISOString();
+  writeFileSync(contentPath, JSON.stringify(content, null, 1) + "\n");
+  const baseLaneP10 = registry.courses[course]?.lane || "external-channels";
+  registry.courses[course] = {
+    videos: content.videos.length,
+    mapped: content.coverage.videosMapped,
+    shelf: registry.courses[course]?.shelf ?? null,
+    lane: baseLaneP10.includes("p10-two-pools") ? baseLaneP10 : baseLaneP10 + " + p10-two-pools",
+    updatedUtc: new Date().toISOString(),
+  };
+  registry.generatedUtc = new Date().toISOString();
+  console.log(
+    `${course}: SHIPPED +p10 specs ${content.coverage.specPointsMapped}/${content.coverage.specPointsTotal} · videos ${content.coverage.videosMapped}/${content.coverage.videosTotal} · rows ${content.coverage.mappingRows} (+${draft.mappings.length} two-pool rows) · 0 reviewed:false in content`
   );
 }
 
@@ -1494,7 +1692,7 @@ console.log(`wrote ${registryPath} (${Object.keys(registry.courses).length} cour
 // must be hand-synced in the lane PR to match this template.
 const flagsPath = join(HUB, "apps/hub/content/flags.json");
 const flags = JSON.parse(readFileSync(flagsPath, "utf8"));
-const want = ["igcse-biology-19", ...FRESH, ...P4_FRESH, ...P9, ...P9B, ...Object.keys(inhMap.parents)];
+const want = ["igcse-biology-19", ...FRESH, ...P4_FRESH, ...P9, ...P9B, ...P10, ...Object.keys(inhMap.parents)];
 const have = new Set(flags.flags.videoMap.courses);
 const coursesCurrent = want.every((c) => have.has(c)) && flags.flags.videoMap.courses.length === want.length;
 const statusCurrent = typeof flags.flags.videoMap.status === "string"
@@ -1505,7 +1703,7 @@ if (coursesCurrent && statusCurrent) {
   for (const c of want) if (!have.has(c)) flags.flags.videoMap.courses.push(c);
   flags.flags.videoMap.courses.sort();
   flags.flags.videoMap.status =
-    "live (T-VIDEOMAP-P3+P4+P5+P6+P7+P8+P9): lib/video-map.ts loader + /courses/[course]/videos lane shipped for the "
+    "live (T-VIDEOMAP-P3+P4+P5+P6+P7+P8+P9+P10): lib/video-map.ts loader + /courses/[course]/videos lane shipped for the "
     + "courses below (igcse-biology-19 site+external; 9 external-channels courses incl. the CIE A-level trio; "
     + "P4 scale pass: 4 shelf-direct Cognito maths lanes, 4 mechanics cross-subject lanes, 35 inherited lanes "
     + "derived from owner-approved parent rows via the committed containment map; "
