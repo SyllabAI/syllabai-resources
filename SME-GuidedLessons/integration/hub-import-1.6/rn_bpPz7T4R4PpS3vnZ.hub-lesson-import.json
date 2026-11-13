@@ -1,0 +1,188 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_bpPz7T4R4PpS3vnZ",
+    "corpusVersion": "sme-revision-notes-igcse-biology-19-2026-09-17",
+    "sourceLayerSha256": "7912a5419e58c31eee4c03f6bb56fbbbc88d3d0e7976ca793e1bd185e6456769",
+    "pinnedRef": "42fa82b46736b5e1948b6784e48bf5eb308d9da3"
+  },
+  "lesson": {
+    "id": "igcse-biology::rn_bpPz7T4R4PpS3vnZ",
+    "topicTitle": "Use of biological resources",
+    "subtopicTitle": "Genetic Modification (Genetic Engineering)",
+    "sourceUrl": "https://www.savemyexams.com/igcse/biology/edexcel/19/revision-notes/5-use-of-biological-resources/genetic-modification-genetic-engineering/the-process-of-genetic-modification",
+    "specAnchors": [
+      {
+        "code": "5.12",
+        "text": "understand how restriction enzymes are used to cut DNA at specific sites and ligase enzymes are used to join pieces of DNA together"
+      },
+      {
+        "code": "5.13",
+        "text": "understand how plasmids and viruses can act as vectors, which take up pieces of DNA, and then insert this recombinant DNA into other cells"
+      }
+    ],
+    "primer": {
+      "text": "Genetic modification is molecular carpentry: restriction enzymes saw DNA at chosen sequences, sticky ends align the join, ligase glues it, and plasmid or virus vectors carry the recombinant cargo into bacteria, yeast or human cells. This note details the cutting and the delivery.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_bpPz7T4R4PpS3vnZ::L1",
+        "title": "Molecular Scissors and Sticky Ends",
+        "sourceHeadings": [
+          "Restriction Enzymes"
+        ],
+        "specRefs": [
+          "5.12"
+        ],
+        "opening": "Genetic modification begins with surgery on DNA. Restriction enzymes each recognise particular base sequences and cut there, leaving short single-stranded sticky ends; cutting a plasmid with the same enzyme gives complementary overhangs that pair, and DNA ligase seals the fragments into one molecule.",
+        "keyPoints": [
+          "Genetic modification moves a chosen gene across into a different organism's DNA.",
+          "Different restriction enzymes target different DNA sequences, so specific enzymes cut out the wanted gene.",
+          "Cutting with restriction enzymes leaves sticky ends, short single-stranded sections that pair with complementary overhangs.",
+          "A bacterial plasmid cut by the same restriction enzyme presents matching sticky ends.",
+          "DNA ligase joins gene and plasmid into a single unbroken DNA molecule."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Scissors find the right word in the sentence, cut, and leave jagged edges that only fit one partner; glue seals the join.",
+            "analogy": "Zipper tape cut so its teeth only mesh with one matching strand.",
+            "examPointer": "Picture restriction enzymes as scissors and ligase as glue — the pairing image earns the explanation."
+          },
+          "medium": {
+            "restatement": "Restriction enzymes cut DNA at sequence-specific sites, generating sticky ends of single-stranded DNA; the plasmid cut with the same enzyme offers complementary overhangs that anneal, and DNA ligase covalently joins the fragments into one unbroken recombinant molecule.",
+            "analogy": "A lock and key cut from the same blank — only one key fits one lock.",
+            "examPointer": "Always tie the same-enzyme rule to complementary sticky ends; that causal link is the mark."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_bpPz7T4R4PpS3vnZ::L1::Q1",
+          "rn_bpPz7T4R4PpS3vnZ::L1::Q2",
+          "rn_bpPz7T4R4PpS3vnZ::L1::Q3",
+          "rn_bpPz7T4R4PpS3vnZ::L1::Q4",
+          "rn_bpPz7T4R4PpS3vnZ::L1::Q5",
+          "rn_bpPz7T4R4PpS3vnZ::L1::Q6",
+          "rn_bpPz7T4R4PpS3vnZ::L1::Q7",
+          "rn_bpPz7T4R4PpS3vnZ::L1::Q8",
+          "rn_bpPz7T4R4PpS3vnZ::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01"
+        ]
+      },
+      {
+        "id": "rn_bpPz7T4R4PpS3vnZ::L2",
+        "title": "Vectors That Deliver the Cargo",
+        "sourceHeadings": [
+          "Vectors & Recombinant DNA"
+        ],
+        "specRefs": [
+          "5.13"
+        ],
+        "opening": "Recombinant DNA needs a courier. Plasmids ferry genes into bacteria and yeast, viruses deliver into human cells or bacteria, and once inside a bacterial host the plasmid rides cell division, spreading the gene through the growing population in a fermenter.",
+        "keyPoints": [
+          "Plasmids and viruses act as vectors that take up DNA pieces and insert recombinant DNA into other cells.",
+          "Viruses deliver DNA into human cells or into bacteria.",
+          "Plasmids transfer DNA into bacteria or yeast.",
+          "Bacteria carrying the recombinant plasmid copy it at every division, spreading the gene as they multiply.",
+          "Engineered bacteria reproduce quickly inside a fermenter, and controlled conditions let the vessel yield large protein quantities."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "A delivery van (plasmid or virus) carries the new gene into a cell; bacteria then photocopy the gene every time they divide.",
+            "analogy": "A courier service with two vehicle types: vans for business parks (bacteria and yeast), motorbikes for city flats (human cells).",
+            "examPointer": "Match vector to destination — viruses reach human cells or bacteria, plasmids reach bacteria or yeast."
+          },
+          "medium": {
+            "restatement": "Vectors are plasmids or viruses that accept DNA fragments and deliver recombinant DNA into recipient cells, with viruses serving human cells or bacteria and plasmids serving bacteria or yeast; inside multiplying bacteria the plasmid is copied at each division, and fermenter growth yields large protein quantities.",
+            "analogy": "Postal workers with fixed delivery zones: each vector class delivers only to its assigned addresses.",
+            "examPointer": "Use the word vector explicitly, then name both vector types with their destinations for full credit."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_bpPz7T4R4PpS3vnZ::L2::Q1",
+          "rn_bpPz7T4R4PpS3vnZ::L2::Q2",
+          "rn_bpPz7T4R4PpS3vnZ::L2::Q3",
+          "rn_bpPz7T4R4PpS3vnZ::L2::Q4",
+          "rn_bpPz7T4R4PpS3vnZ::L2::Q5",
+          "rn_bpPz7T4R4PpS3vnZ::L2::Q6",
+          "rn_bpPz7T4R4PpS3vnZ::L2::Q7",
+          "rn_bpPz7T4R4PpS3vnZ::L2::Q8",
+          "rn_bpPz7T4R4PpS3vnZ::L2::Q9"
+        ],
+        "figureIds": [
+          "fig-02"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "restriction enzyme",
+          "definition": "An enzyme that cuts DNA at particular base sequences.",
+          "firstLesson": 1
+        },
+        {
+          "term": "vector",
+          "definition": "A plasmid or virus that carries DNA into another cell.",
+          "firstLesson": 2
+        },
+        {
+          "term": "recombinant dna",
+          "definition": "DNA combined from pieces of different origin molecules.",
+          "firstLesson": 2
+        },
+        {
+          "term": "plasmid",
+          "definition": "A circular DNA molecule in bacteria used as a gene carrier.",
+          "firstLesson": 2
+        }
+      ],
+      "workedExample": null
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-biology-19/assets/81433896be39-restriction-enzymes.png",
+        "alt": "Restriction enzymes cutting the DNA to form sticky ends",
+        "sourceHeading": "Restriction Enzymes",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-02",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-biology-19/assets/c54200870141-recombinant-plasmids.png",
+        "alt": "Recombinant plasmids",
+        "sourceHeading": "Vectors & Recombinant DNA",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique"
+      }
+    ]
+  }
+}
