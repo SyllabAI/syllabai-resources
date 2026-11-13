@@ -1,0 +1,2042 @@
+{
+  "format": "ialchem-stagea-promotion-receipt/1.0",
+  "wave": "IAL-CHEMISTRY (WCH1) stage-A (the new-subject pilot: 1 note end-to-end at the 0.8/1.7/1.4 four-plane generation; programme-level manifest v45)",
+  "operator_traces": {
+    "ignition": "1a1d5dedd8ea3e45",
+    "execution": "1a1d5dedd8ea3e45"
+  },
+  "generated_at_utc": "2026-11-13T17:52:57Z",
+  "commit_a": {
+    "sha": "62bcd8158e990685a6a9e84b07f1380d2977399c",
+    "contents": "the authored stage-A pilot source-0.8 note + the 0.8/1.7/1.4 schema generation + the spec_point_resolution.json bootstrap + integration/tooling/ialchem-stagea-pipeline.js (the pipeline of record, derived from the bio-stagea landed pipeline)",
+    "parent": "de832c5fac7d2e0b21bce266c5c3674581254827",
+    "message_carries_trace": true
+  },
+  "tranche": {
+    "notes": 1,
+    "lessons": 2,
+    "checks": 18,
+    "kinds": {
+      "mcq": 10,
+      "recall": 4,
+      "explain-why": 2,
+      "application": 2
+    },
+    "figures": 1,
+    "figures_module_mapped": 1,
+    "glossary_terms": 4,
+    "worked_examples": {
+      "populated": 1,
+      "null": 0
+    },
+    "stream_chars": 15410,
+    "authoring_shape": {
+      "pilot_note": "rn_QbY5FrkKC3TK5vJS (Formulae & Mass, specs 1.1 + 1.4)",
+      "lessons": 2,
+      "checks": 18,
+      "figures": 1,
+      "figures_module_mapped": 1,
+      "figures_note_level": 0,
+      "glossary_terms": 4,
+      "worked_examples": {
+        "populated": 1,
+        "null": 0
+      }
+    }
+  },
+  "manifest": {
+    "version": 45,
+    "artifacts_total": 2,
+    "scope": "IAL chemistry pack of record (the per-course manifest convention of the global v-series)",
+    "biology_prior_re_pinned_vs_v44": 284,
+    "chemistry_prior_re_pinned_vs_v32": 224,
+    "physics_prior_re_pinned_vs_v31": 254,
+    "first_issues": 2
+  },
+  "outputs": [
+    "SME-GuidedLessons/integration/hub-import-1.7/rn_QbY5FrkKC3TK5vJS.hub-lesson-import.json",
+    "SME-GuidedLessons/integration/question-packages-1.4/rn_QbY5FrkKC3TK5vJS.sme-question-package.json"
+  ],
+  "gate_log": [
+    {
+      "stage": "P0",
+      "name": "prior manifest counts are ints (the v26 amendment law)",
+      "ok": true,
+      "detail": "{\"notes\":142,\"lessons\":274,\"checks\":2466}"
+    },
+    {
+      "stage": "P0",
+      "name": "HEAD == declared stage-A commit-A pin",
+      "ok": true,
+      "detail": "HEAD=62bcd8158e99 pin=62bcd8158e99"
+    },
+    {
+      "stage": "P0",
+      "name": "commit A message carries the operator trace",
+      "ok": true,
+      "detail": "guided(IAL-CHEMISTRY WCH1 stage-A): commit A — the new-subject pilot per runbook B3 (ONE n"
+    },
+    {
+      "stage": "P0",
+      "name": "source blob @ HEAD == disk: rn_QbY5FrkKC3TK5vJS",
+      "ok": true,
+      "detail": "blob=28885B disk=28885B"
+    },
+    {
+      "stage": "P0",
+      "name": "commit A parent == the wave-open resources main of record",
+      "ok": true,
+      "detail": "parent=de832c5fac7d"
+    },
+    {
+      "stage": "P0",
+      "name": "resources main tip sits at the commit-A pin (first landing, race-guard)",
+      "ok": true,
+      "detail": "tip=62bcd8158e99"
+    },
+    {
+      "stage": "A0",
+      "name": "ajv 0.8: rn_QbY5FrkKC3TK5vJS",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "A0",
+      "name": "spec text verbatim rn_QbY5FrkKC3TK5vJS/1.1",
+      "ok": true,
+      "detail": "graph=\"know the terms ‘atom', 'element', 'ion',\""
+    },
+    {
+      "stage": "A0",
+      "name": "spec code in register rn_QbY5FrkKC3TK5vJS/1.1",
+      "ok": true,
+      "detail": "register=1.1,1.4"
+    },
+    {
+      "stage": "A0",
+      "name": "spec text verbatim rn_QbY5FrkKC3TK5vJS/1.4",
+      "ok": true,
+      "detail": "graph=\"understand the terms: i ‘relative atomic\""
+    },
+    {
+      "stage": "A0",
+      "name": "spec code in register rn_QbY5FrkKC3TK5vJS/1.4",
+      "ok": true,
+      "detail": "register=1.1,1.4"
+    },
+    {
+      "stage": "A0",
+      "name": "primer word band rn_QbY5FrkKC3TK5vJS",
+      "ok": true,
+      "detail": "70 words"
+    },
+    {
+      "stage": "A0",
+      "name": "noteRef identity rn_QbY5FrkKC3TK5vJS",
+      "ok": true,
+      "detail": "path=1-structure-bonding-and-introduction-to-organic-chemistry/1-1-formulae-and-equations/1-1-1-formulae-and-mass.md"
+    },
+    {
+      "stage": "A0",
+      "name": "topicTitle matches curriculum section rn_QbY5FrkKC3TK5vJS",
+      "ok": true,
+      "detail": "1. Structure, Bonding & Introduction to Organic Chemistry vs 1-structure-bonding-and-introduction-to-organic-chemistry"
+    },
+    {
+      "stage": "A0",
+      "name": "glossary band rn_QbY5FrkKC3TK5vJS",
+      "ok": true,
+      "detail": "4 terms"
+    },
+    {
+      "stage": "A0",
+      "name": "glossary firstLesson rn_QbY5FrkKC3TK5vJS/relative isotopic mass",
+      "ok": true,
+      "detail": "2"
+    },
+    {
+      "stage": "A0",
+      "name": "glossary firstLesson rn_QbY5FrkKC3TK5vJS/relative atomic mass",
+      "ok": true,
+      "detail": "2"
+    },
+    {
+      "stage": "A0",
+      "name": "glossary firstLesson rn_QbY5FrkKC3TK5vJS/relative formula mass",
+      "ok": true,
+      "detail": "2"
+    },
+    {
+      "stage": "A0",
+      "name": "glossary firstLesson rn_QbY5FrkKC3TK5vJS/empirical formula",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "stage": "A0",
+      "name": "workedExample shape rn_QbY5FrkKC3TK5vJS",
+      "ok": true,
+      "detail": "finalAnswer,prompt,steps"
+    },
+    {
+      "stage": "A0",
+      "name": "figure ids unique rn_QbY5FrkKC3TK5vJS",
+      "ok": true,
+      "detail": "1 figs"
+    },
+    {
+      "stage": "A0",
+      "name": "figure host lesson exists rn_QbY5FrkKC3TK5vJS/fig-01",
+      "ok": true,
+      "detail": "L2"
+    },
+    {
+      "stage": "A0",
+      "name": "figure sourceHeading bound rn_QbY5FrkKC3TK5vJS/fig-01",
+      "ok": true,
+      "detail": "[\"Mass - Definitions\",\"Relative Formula Mass Calculations Table\"] vs Relative Formula Mass Calculations Table"
+    },
+    {
+      "stage": "A0",
+      "name": "figure url corpus-namespace rn_QbY5FrkKC3TK5vJS/fig-01",
+      "ok": true,
+      "detail": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionN"
+    },
+    {
+      "stage": "A0",
+      "name": "figure asset exists in corpus rn_QbY5FrkKC3TK5vJS/fig-01",
+      "ok": true,
+      "detail": "5d77f88905e5-3-1-2-relative-formula-mass-calculations-table.png"
+    },
+    {
+      "stage": "A0",
+      "name": "figure binding rn_QbY5FrkKC3TK5vJS/fig-01",
+      "ok": true,
+      "detail": "heading-unique"
+    },
+    {
+      "stage": "A0",
+      "name": "figure caption absent (declared) rn_QbY5FrkKC3TK5vJS/fig-01",
+      "ok": true,
+      "detail": "declared-absent"
+    },
+    {
+      "stage": "A0",
+      "name": "all corpus images bound rn_QbY5FrkKC3TK5vJS",
+      "ok": true,
+      "detail": "1 images vs 1 figs"
+    },
+    {
+      "stage": "A0",
+      "name": "lesson keyPoints band rn_QbY5FrkKC3TK5vJS::L1",
+      "ok": true,
+      "detail": "6 KP"
+    },
+    {
+      "stage": "A0",
+      "name": "sourceHeadings 1-2 rn_QbY5FrkKC3TK5vJS::L1",
+      "ok": true,
+      "detail": "Formulae - Definitions"
+    },
+    {
+      "stage": "A0",
+      "name": "sourceHeading in corpus rn_QbY5FrkKC3TK5vJS::L1",
+      "ok": true,
+      "detail": "Formulae - Definitions"
+    },
+    {
+      "stage": "A0",
+      "name": "heading-unique across lessons rn_QbY5FrkKC3TK5vJS",
+      "ok": true,
+      "detail": "Formulae - Definitions first bound to L0"
+    },
+    {
+      "stage": "A0",
+      "name": "specRefs subset rn_QbY5FrkKC3TK5vJS::L1",
+      "ok": true,
+      "detail": "1.1"
+    },
+    {
+      "stage": "A0",
+      "name": "depthLayers present rn_QbY5FrkKC3TK5vJS::L1",
+      "ok": true,
+      "detail": "low/medium"
+    },
+    {
+      "stage": "B2",
+      "name": "9 checks per module rn_QbY5FrkKC3TK5vJS::L1",
+      "ok": true,
+      "detail": "9 checks"
+    },
+    {
+      "stage": "A0",
+      "name": "kind order rn_QbY5FrkKC3TK5vJS::L1",
+      "ok": true,
+      "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_QbY5FrkKC3TK5vJS::L1::Q1",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_QbY5FrkKC3TK5vJS::L1::Q1",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_QbY5FrkKC3TK5vJS::L1::Q1",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L1::Q1/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_QbY5FrkKC3TK5vJS::L1::Q1/A",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L1::Q1/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_QbY5FrkKC3TK5vJS::L1::Q1/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L1::Q1/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_QbY5FrkKC3TK5vJS::L1::Q1/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L1::Q1/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_QbY5FrkKC3TK5vJS::L1::Q1/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_QbY5FrkKC3TK5vJS::L1::Q1",
+      "ok": true,
+      "detail": "Which term names a substance made of onl"
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_QbY5FrkKC3TK5vJS::L1::Q2",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_QbY5FrkKC3TK5vJS::L1::Q2",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_QbY5FrkKC3TK5vJS::L1::Q2",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L1::Q2/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_QbY5FrkKC3TK5vJS::L1::Q2/A",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L1::Q2/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_QbY5FrkKC3TK5vJS::L1::Q2/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L1::Q2/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_QbY5FrkKC3TK5vJS::L1::Q2/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L1::Q2/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_QbY5FrkKC3TK5vJS::L1::Q2/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_QbY5FrkKC3TK5vJS::L1::Q2",
+      "ok": true,
+      "detail": "An atom of magnesium has lost two electr"
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_QbY5FrkKC3TK5vJS::L1::Q3",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_QbY5FrkKC3TK5vJS::L1::Q3",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_QbY5FrkKC3TK5vJS::L1::Q3",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L1::Q3/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_QbY5FrkKC3TK5vJS::L1::Q3/A",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L1::Q3/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_QbY5FrkKC3TK5vJS::L1::Q3/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L1::Q3/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_QbY5FrkKC3TK5vJS::L1::Q3/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L1::Q3/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_QbY5FrkKC3TK5vJS::L1::Q3/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_QbY5FrkKC3TK5vJS::L1::Q3",
+      "ok": true,
+      "detail": "Ethanoic acid has formula C2H4O2, and a "
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_QbY5FrkKC3TK5vJS::L1::Q4",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_QbY5FrkKC3TK5vJS::L1::Q4",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_QbY5FrkKC3TK5vJS::L1::Q4",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L1::Q4/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_QbY5FrkKC3TK5vJS::L1::Q4/A",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L1::Q4/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_QbY5FrkKC3TK5vJS::L1::Q4/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L1::Q4/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_QbY5FrkKC3TK5vJS::L1::Q4/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L1::Q4/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_QbY5FrkKC3TK5vJS::L1::Q4/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_QbY5FrkKC3TK5vJS::L1::Q4",
+      "ok": true,
+      "detail": "Which statement about a compound is corr"
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_QbY5FrkKC3TK5vJS::L1::Q5",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_QbY5FrkKC3TK5vJS::L1::Q5",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_QbY5FrkKC3TK5vJS::L1::Q5",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L1::Q5/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_QbY5FrkKC3TK5vJS::L1::Q5/A",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L1::Q5/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_QbY5FrkKC3TK5vJS::L1::Q5/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L1::Q5/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_QbY5FrkKC3TK5vJS::L1::Q5/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L1::Q5/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_QbY5FrkKC3TK5vJS::L1::Q5/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_QbY5FrkKC3TK5vJS::L1::Q5",
+      "ok": true,
+      "detail": "Oxygen gas, O2, and methane, CH4, are bo"
+    },
+    {
+      "stage": "written",
+      "name": "id grammar/kind rn_QbY5FrkKC3TK5vJS::L1::Q6",
+      "ok": true,
+      "detail": "recall"
+    },
+    {
+      "stage": "written",
+      "name": "modelAnswer present rn_QbY5FrkKC3TK5vJS::L1::Q6",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "written",
+      "name": ">=3 keywords rn_QbY5FrkKC3TK5vJS::L1::Q6",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "written",
+      "name": "options empty-or-absent rn_QbY5FrkKC3TK5vJS::L1::Q6",
+      "ok": true,
+      "detail": "\"absent\""
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_QbY5FrkKC3TK5vJS::L1::Q6/gained",
+      "ok": true,
+      "detail": "gained"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_QbY5FrkKC3TK5vJS::L1::Q6/lost",
+      "ok": true,
+      "detail": "lost"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_QbY5FrkKC3TK5vJS::L1::Q6/electrons",
+      "ok": true,
+      "detail": "electrons"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_QbY5FrkKC3TK5vJS::L1::Q6/charge",
+      "ok": true,
+      "detail": "charge"
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_QbY5FrkKC3TK5vJS::L1::Q6",
+      "ok": true,
+      "detail": "State what an ion is, in terms of electr"
+    },
+    {
+      "stage": "written",
+      "name": "id grammar/kind rn_QbY5FrkKC3TK5vJS::L1::Q7",
+      "ok": true,
+      "detail": "recall"
+    },
+    {
+      "stage": "written",
+      "name": "modelAnswer present rn_QbY5FrkKC3TK5vJS::L1::Q7",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "written",
+      "name": ">=3 keywords rn_QbY5FrkKC3TK5vJS::L1::Q7",
+      "ok": true,
+      "detail": "5"
+    },
+    {
+      "stage": "written",
+      "name": "options empty-or-absent rn_QbY5FrkKC3TK5vJS::L1::Q7",
+      "ok": true,
+      "detail": "\"absent\""
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_QbY5FrkKC3TK5vJS::L1::Q7/simplest",
+      "ok": true,
+      "detail": "simplest"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_QbY5FrkKC3TK5vJS::L1::Q7/ratio",
+      "ok": true,
+      "detail": "ratio"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_QbY5FrkKC3TK5vJS::L1::Q7/actual",
+      "ok": true,
+      "detail": "actual"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_QbY5FrkKC3TK5vJS::L1::Q7/count",
+      "ok": true,
+      "detail": "count"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_QbY5FrkKC3TK5vJS::L1::Q7/molecule",
+      "ok": true,
+      "detail": "molecule"
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_QbY5FrkKC3TK5vJS::L1::Q7",
+      "ok": true,
+      "detail": "State the difference between an empirica"
+    },
+    {
+      "stage": "written",
+      "name": "id grammar/kind rn_QbY5FrkKC3TK5vJS::L1::Q8",
+      "ok": true,
+      "detail": "explain-why"
+    },
+    {
+      "stage": "written",
+      "name": "modelAnswer present rn_QbY5FrkKC3TK5vJS::L1::Q8",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "written",
+      "name": ">=3 keywords rn_QbY5FrkKC3TK5vJS::L1::Q8",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "written",
+      "name": "options empty-or-absent rn_QbY5FrkKC3TK5vJS::L1::Q8",
+      "ok": true,
+      "detail": "\"absent\""
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_QbY5FrkKC3TK5vJS::L1::Q8/compound",
+      "ok": true,
+      "detail": "compound"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_QbY5FrkKC3TK5vJS::L1::Q8/different",
+      "ok": true,
+      "detail": "different"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_QbY5FrkKC3TK5vJS::L1::Q8/elements",
+      "ok": true,
+      "detail": "elements"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_QbY5FrkKC3TK5vJS::L1::Q8/oxygen",
+      "ok": true,
+      "detail": "oxygen"
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_QbY5FrkKC3TK5vJS::L1::Q8",
+      "ok": true,
+      "detail": "A student claims every substance built f"
+    },
+    {
+      "stage": "written",
+      "name": "id grammar/kind rn_QbY5FrkKC3TK5vJS::L1::Q9",
+      "ok": true,
+      "detail": "application"
+    },
+    {
+      "stage": "written",
+      "name": "modelAnswer present rn_QbY5FrkKC3TK5vJS::L1::Q9",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "written",
+      "name": ">=3 keywords rn_QbY5FrkKC3TK5vJS::L1::Q9",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "written",
+      "name": "options empty-or-absent rn_QbY5FrkKC3TK5vJS::L1::Q9",
+      "ok": true,
+      "detail": "\"absent\""
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_QbY5FrkKC3TK5vJS::L1::Q9/compound",
+      "ok": true,
+      "detail": "compound"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_QbY5FrkKC3TK5vJS::L1::Q9/elements",
+      "ok": true,
+      "detail": "elements"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_QbY5FrkKC3TK5vJS::L1::Q9/bonded",
+      "ok": true,
+      "detail": "bonded"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_QbY5FrkKC3TK5vJS::L1::Q9/formula",
+      "ok": true,
+      "detail": "formula"
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_QbY5FrkKC3TK5vJS::L1::Q9",
+      "ok": true,
+      "detail": "A laboratory bottle is labelled copper s"
+    },
+    {
+      "stage": "A0",
+      "name": "lesson keyPoints band rn_QbY5FrkKC3TK5vJS::L2",
+      "ok": true,
+      "detail": "5 KP"
+    },
+    {
+      "stage": "A0",
+      "name": "sourceHeadings 1-2 rn_QbY5FrkKC3TK5vJS::L2",
+      "ok": true,
+      "detail": "Mass - Definitions|Relative Formula Mass Calculations Table"
+    },
+    {
+      "stage": "A0",
+      "name": "sourceHeading in corpus rn_QbY5FrkKC3TK5vJS::L2",
+      "ok": true,
+      "detail": "Mass - Definitions"
+    },
+    {
+      "stage": "A0",
+      "name": "heading-unique across lessons rn_QbY5FrkKC3TK5vJS",
+      "ok": true,
+      "detail": "Mass - Definitions first bound to L0"
+    },
+    {
+      "stage": "A0",
+      "name": "sourceHeading in corpus rn_QbY5FrkKC3TK5vJS::L2",
+      "ok": true,
+      "detail": "Relative Formula Mass Calculations Table"
+    },
+    {
+      "stage": "A0",
+      "name": "heading-unique across lessons rn_QbY5FrkKC3TK5vJS",
+      "ok": true,
+      "detail": "Relative Formula Mass Calculations Table first bound to L0"
+    },
+    {
+      "stage": "A0",
+      "name": "specRefs subset rn_QbY5FrkKC3TK5vJS::L2",
+      "ok": true,
+      "detail": "1.4"
+    },
+    {
+      "stage": "A0",
+      "name": "depthLayers present rn_QbY5FrkKC3TK5vJS::L2",
+      "ok": true,
+      "detail": "low/medium"
+    },
+    {
+      "stage": "B2",
+      "name": "9 checks per module rn_QbY5FrkKC3TK5vJS::L2",
+      "ok": true,
+      "detail": "9 checks"
+    },
+    {
+      "stage": "A0",
+      "name": "kind order rn_QbY5FrkKC3TK5vJS::L2",
+      "ok": true,
+      "detail": "mcq,mcq,mcq,mcq,mcq,recall,recall,explain-why,application"
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_QbY5FrkKC3TK5vJS::L2::Q1",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_QbY5FrkKC3TK5vJS::L2::Q1",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_QbY5FrkKC3TK5vJS::L2::Q1",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L2::Q1/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_QbY5FrkKC3TK5vJS::L2::Q1/A",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L2::Q1/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_QbY5FrkKC3TK5vJS::L2::Q1/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L2::Q1/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_QbY5FrkKC3TK5vJS::L2::Q1/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L2::Q1/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_QbY5FrkKC3TK5vJS::L2::Q1/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_QbY5FrkKC3TK5vJS::L2::Q1",
+      "ok": true,
+      "detail": "What single standard fixes the relative "
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_QbY5FrkKC3TK5vJS::L2::Q2",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_QbY5FrkKC3TK5vJS::L2::Q2",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_QbY5FrkKC3TK5vJS::L2::Q2",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L2::Q2/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_QbY5FrkKC3TK5vJS::L2::Q2/A",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L2::Q2/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_QbY5FrkKC3TK5vJS::L2::Q2/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L2::Q2/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_QbY5FrkKC3TK5vJS::L2::Q2/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L2::Q2/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_QbY5FrkKC3TK5vJS::L2::Q2/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_QbY5FrkKC3TK5vJS::L2::Q2",
+      "ok": true,
+      "detail": "Chlorine's Periodic Table value is 35.5."
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_QbY5FrkKC3TK5vJS::L2::Q3",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_QbY5FrkKC3TK5vJS::L2::Q3",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_QbY5FrkKC3TK5vJS::L2::Q3",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L2::Q3/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_QbY5FrkKC3TK5vJS::L2::Q3/A",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L2::Q3/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_QbY5FrkKC3TK5vJS::L2::Q3/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L2::Q3/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_QbY5FrkKC3TK5vJS::L2::Q3/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L2::Q3/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_QbY5FrkKC3TK5vJS::L2::Q3/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_QbY5FrkKC3TK5vJS::L2::Q3",
+      "ok": true,
+      "detail": "Which name should you give to the mass v"
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_QbY5FrkKC3TK5vJS::L2::Q4",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_QbY5FrkKC3TK5vJS::L2::Q4",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_QbY5FrkKC3TK5vJS::L2::Q4",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L2::Q4/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_QbY5FrkKC3TK5vJS::L2::Q4/A",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L2::Q4/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_QbY5FrkKC3TK5vJS::L2::Q4/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L2::Q4/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_QbY5FrkKC3TK5vJS::L2::Q4/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L2::Q4/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_QbY5FrkKC3TK5vJS::L2::Q4/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_QbY5FrkKC3TK5vJS::L2::Q4",
+      "ok": true,
+      "detail": "Using Ar(P) = 31.0 and Ar(O) = 16.0, wha"
+    },
+    {
+      "stage": "AN",
+      "name": "exactly-one-correct rn_QbY5FrkKC3TK5vJS::L2::Q5",
+      "ok": true,
+      "detail": "1 correct"
+    },
+    {
+      "stage": "AN",
+      "name": "four options rn_QbY5FrkKC3TK5vJS::L2::Q5",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "AN",
+      "name": "distinct option texts rn_QbY5FrkKC3TK5vJS::L2::Q5",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L2::Q5/A",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "correct misconception null rn_QbY5FrkKC3TK5vJS::L2::Q5/A",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L2::Q5/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_QbY5FrkKC3TK5vJS::L2::Q5/B",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L2::Q5/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_QbY5FrkKC3TK5vJS::L2::Q5/C",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "option explained rn_QbY5FrkKC3TK5vJS::L2::Q5/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "JC",
+      "name": "distractor names misconception rn_QbY5FrkKC3TK5vJS::L2::Q5/D",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_QbY5FrkKC3TK5vJS::L2::Q5",
+      "ok": true,
+      "detail": "The accurate relative isotopic mass of n"
+    },
+    {
+      "stage": "written",
+      "name": "id grammar/kind rn_QbY5FrkKC3TK5vJS::L2::Q6",
+      "ok": true,
+      "detail": "recall"
+    },
+    {
+      "stage": "written",
+      "name": "modelAnswer present rn_QbY5FrkKC3TK5vJS::L2::Q6",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "written",
+      "name": ">=3 keywords rn_QbY5FrkKC3TK5vJS::L2::Q6",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "written",
+      "name": "options empty-or-absent rn_QbY5FrkKC3TK5vJS::L2::Q6",
+      "ok": true,
+      "detail": "\"absent\""
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_QbY5FrkKC3TK5vJS::L2::Q6/weighted",
+      "ok": true,
+      "detail": "weighted"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_QbY5FrkKC3TK5vJS::L2::Q6/mean",
+      "ok": true,
+      "detail": "mean"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_QbY5FrkKC3TK5vJS::L2::Q6/carbon-12",
+      "ok": true,
+      "detail": "carbon-12"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_QbY5FrkKC3TK5vJS::L2::Q6/isotopic",
+      "ok": true,
+      "detail": "isotopic"
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_QbY5FrkKC3TK5vJS::L2::Q6",
+      "ok": true,
+      "detail": "Define relative atomic mass."
+    },
+    {
+      "stage": "written",
+      "name": "id grammar/kind rn_QbY5FrkKC3TK5vJS::L2::Q7",
+      "ok": true,
+      "detail": "recall"
+    },
+    {
+      "stage": "written",
+      "name": "modelAnswer present rn_QbY5FrkKC3TK5vJS::L2::Q7",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "written",
+      "name": ">=3 keywords rn_QbY5FrkKC3TK5vJS::L2::Q7",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "written",
+      "name": "options empty-or-absent rn_QbY5FrkKC3TK5vJS::L2::Q7",
+      "ok": true,
+      "detail": "\"absent\""
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_QbY5FrkKC3TK5vJS::L2::Q7/potassium",
+      "ok": true,
+      "detail": "potassium"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_QbY5FrkKC3TK5vJS::L2::Q7/carbon",
+      "ok": true,
+      "detail": "carbon"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_QbY5FrkKC3TK5vJS::L2::Q7/oxygen",
+      "ok": true,
+      "detail": "oxygen"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_QbY5FrkKC3TK5vJS::L2::Q7/138.2",
+      "ok": true,
+      "detail": "138.2"
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_QbY5FrkKC3TK5vJS::L2::Q7",
+      "ok": true,
+      "detail": "State the relative formula mass calculat"
+    },
+    {
+      "stage": "written",
+      "name": "id grammar/kind rn_QbY5FrkKC3TK5vJS::L2::Q8",
+      "ok": true,
+      "detail": "explain-why"
+    },
+    {
+      "stage": "written",
+      "name": "modelAnswer present rn_QbY5FrkKC3TK5vJS::L2::Q8",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "written",
+      "name": ">=3 keywords rn_QbY5FrkKC3TK5vJS::L2::Q8",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "written",
+      "name": "options empty-or-absent rn_QbY5FrkKC3TK5vJS::L2::Q8",
+      "ok": true,
+      "detail": "\"absent\""
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_QbY5FrkKC3TK5vJS::L2::Q8/tiny",
+      "ok": true,
+      "detail": "tiny"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_QbY5FrkKC3TK5vJS::L2::Q8/standard",
+      "ok": true,
+      "detail": "standard"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_QbY5FrkKC3TK5vJS::L2::Q8/carbon-12",
+      "ok": true,
+      "detail": "carbon-12"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_QbY5FrkKC3TK5vJS::L2::Q8/ratios",
+      "ok": true,
+      "detail": "ratios"
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_QbY5FrkKC3TK5vJS::L2::Q8",
+      "ok": true,
+      "detail": "Explain why chemists compare atoms with "
+    },
+    {
+      "stage": "written",
+      "name": "id grammar/kind rn_QbY5FrkKC3TK5vJS::L2::Q9",
+      "ok": true,
+      "detail": "application"
+    },
+    {
+      "stage": "written",
+      "name": "modelAnswer present rn_QbY5FrkKC3TK5vJS::L2::Q9",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "written",
+      "name": ">=3 keywords rn_QbY5FrkKC3TK5vJS::L2::Q9",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "stage": "written",
+      "name": "options empty-or-absent rn_QbY5FrkKC3TK5vJS::L2::Q9",
+      "ok": true,
+      "detail": "\"absent\""
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_QbY5FrkKC3TK5vJS::L2::Q9/bracket",
+      "ok": true,
+      "detail": "bracket"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_QbY5FrkKC3TK5vJS::L2::Q9/nitrogen",
+      "ok": true,
+      "detail": "nitrogen"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_QbY5FrkKC3TK5vJS::L2::Q9/oxygen",
+      "ok": true,
+      "detail": "oxygen"
+    },
+    {
+      "stage": "KW",
+      "name": "keyword grounded rn_QbY5FrkKC3TK5vJS::L2::Q9/148.3",
+      "ok": true,
+      "detail": "148.3"
+    },
+    {
+      "stage": "SG",
+      "name": "KP-anchored rn_QbY5FrkKC3TK5vJS::L2::Q9",
+      "ok": true,
+      "detail": "A student works out the relative formula"
+    },
+    {
+      "stage": "AN",
+      "name": "per-module pre-rotation option sanity rn_QbY5FrkKC3TK5vJS",
+      "ok": true,
+      "detail": "census computed post-rotation"
+    },
+    {
+      "stage": "2.1B",
+      "name": "zero 8-gram overlaps vs corpus body rn_QbY5FrkKC3TK5vJS",
+      "ok": true,
+      "detail": "clean"
+    },
+    {
+      "stage": "NUM",
+      "name": "rn_QbY5FrkKC3TK5vJS: corpus exam-hint arithmetic: potassium carbonate Mr = (2 x 39.1) + 12.0 + (3 x 16.0) = 138.2 (WE port + L2 recall answer)",
+      "ok": true,
+      "detail": "corpus exam-hint arithmetic: potassium carbonate Mr = (2 x 39.1) + 12.0 + (3 x 16.0) = 138.2 (WE port + L2 recall answer)"
+    },
+    {
+      "stage": "NUM",
+      "name": "rn_QbY5FrkKC3TK5vJS: check arithmetic: P4O10 Mr = 4 x 31.0 + 10 x 16.0 = 284.0 (the MCQ correct option)",
+      "ok": true,
+      "detail": "check arithmetic: P4O10 Mr = 4 x 31.0 + 10 x 16.0 = 284.0 (the MCQ correct option)"
+    },
+    {
+      "stage": "NUM",
+      "name": "rn_QbY5FrkKC3TK5vJS: check arithmetic: Mg(NO3)2 correct = 24.3 + 2 x 14.0 + 6 x 16.0 = 148.3; the quoted wrong attempt 24.3 + 2 x 14.0 + 3 x 16.0 = 100.3",
+      "ok": true,
+      "detail": "check arithmetic: Mg(NO3)2 correct = 24.3 + 2 x 14.0 + 6 x 16.0 = 148.3; the quoted wrong attempt 24.3 + 2 x 14.0 + 3 x 16.0 = 100.3"
+    },
+    {
+      "stage": "NUM",
+      "name": "rn_QbY5FrkKC3TK5vJS: stage-A census: 18 checks = 2 lessons x 9 (the B2 law 5+2+1+1 per lesson)",
+      "ok": true,
+      "detail": "stage-A census: 18 checks = 2 lessons x 9 (the B2 law 5+2+1+1 per lesson)"
+    },
+    {
+      "stage": "A0",
+      "name": "corpus-limited heading exception scope (none declared for the IAL chemistry stage-A)",
+      "ok": true,
+      "detail": "0 duplicate claims"
+    },
+    {
+      "stage": "C-6",
+      "name": "prior packs noteIds union = 381 (142 biology v44 + 112 chemistry v32 + 127 physics v31)",
+      "ok": true,
+      "detail": "381"
+    },
+    {
+      "stage": "C-6",
+      "name": "physics+chemistry prior generation present on tree, counted by the v31+v32 noteIds (239 sources / 239 lessons / 239 packages)",
+      "ok": true,
+      "detail": "239/239/239"
+    },
+    {
+      "stage": "C-6",
+      "name": "biology prior generation present on tree, counted by the v44 noteIds (142 sources / 142 lessons / 142 packages)",
+      "ok": true,
+      "detail": "142/142/142"
+    },
+    {
+      "stage": "C-6",
+      "name": "chemistry prior generation present (112 sources / 112 lessons / 112 packages)",
+      "ok": true,
+      "detail": "112/112/112"
+    },
+    {
+      "stage": "C-6",
+      "name": "physics+chemistry+bio prior union ajv x1143 (sources vs 0.8, lessons vs 1.7, packages vs 1.4 — generation-union schemas)",
+      "ok": true,
+      "detail": "0 failures"
+    },
+    {
+      "stage": "C-6",
+      "name": "chemistry prior-generation union ajv x336 (0.5 sources vs 0.6, 1.4 lessons vs 1.5, 1.1 packages vs 1.2 — generation-union schemas)",
+      "ok": true,
+      "detail": "0 failures"
+    },
+    {
+      "stage": "C-6",
+      "name": "stage-A outputs ajv x2 (1 vs 1.7 + 1 vs 1.4)",
+      "ok": true,
+      "detail": "0 failures"
+    },
+    {
+      "stage": "AN",
+      "name": "correct-key census >=3 distinct (post-rotation) rn_QbY5FrkKC3TK5vJS",
+      "ok": true,
+      "detail": "{\"A\":3,\"B\":3,\"C\":2,\"D\":2}"
+    },
+    {
+      "stage": "AN",
+      "name": "no correct letter exceeds 5 (post-rotation) rn_QbY5FrkKC3TK5vJS",
+      "ok": true,
+      "detail": "{\"A\":3,\"B\":3,\"C\":2,\"D\":2}"
+    },
+    {
+      "stage": "C-5",
+      "name": "checkRefs <-> questions 1:1 in order rn_QbY5FrkKC3TK5vJS",
+      "ok": true,
+      "detail": "18 vs 18"
+    },
+    {
+      "stage": "B2",
+      "name": "every module exactly 9 checkRefs rn_QbY5FrkKC3TK5vJS",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "B2",
+      "name": "identity arithmetic 9 = 5+2+1+1 per module rn_QbY5FrkKC3TK5vJS",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "stage": "G-E",
+      "name": "biology pack manifest v44 resolves (284 = 142 + 142)",
+      "ok": true,
+      "detail": "v44 x284"
+    },
+    {
+      "stage": "G-E",
+      "name": "chemistry pack manifest v32 resolves (224 = 112 + 112)",
+      "ok": true,
+      "detail": "v32 x224"
+    },
+    {
+      "stage": "G-E",
+      "name": "physics pack manifest v31 resolves (254 = 127 + 127)",
+      "ok": true,
+      "detail": "v31 x254"
+    },
+    {
+      "stage": "G-E",
+      "name": "biology pack byte conservation vs v44 x284 (untouched by the IAL chemistry stage-A)",
+      "ok": true,
+      "detail": "0 drift"
+    },
+    {
+      "stage": "G-E",
+      "name": "chemistry pack byte conservation vs v32 x224 (untouched by the IAL chemistry stage-A)",
+      "ok": true,
+      "detail": "0 drift"
+    },
+    {
+      "stage": "G-E",
+      "name": "physics pack byte conservation vs v31 x254 (untouched by the IAL chemistry stage-A)",
+      "ok": true,
+      "detail": "0 drift"
+    },
+    {
+      "stage": "G-E",
+      "name": "prior (biology v44) artifact census 284 = 142 hub + 142 pkg",
+      "ok": true,
+      "detail": "284"
+    },
+    {
+      "stage": "G-E",
+      "name": "G-E walk rows = 143 (142 biology prior re-proven + 1 IAL chemistry stage-A pilot); the emitted INT-3 of record carries the 1 IAL chemistry row",
+      "ok": true,
+      "detail": "143"
+    },
+    {
+      "stage": "G-E",
+      "name": "legacy anchors conserved x142 (byte-identical biology prior pack)",
+      "ok": true,
+      "detail": "0 drift"
+    },
+    {
+      "stage": "G-E",
+      "name": "stage-A stream chars total = 15410",
+      "ok": true,
+      "detail": "15410 chars"
+    },
+    {
+      "stage": "G-E",
+      "name": "IAL-chemistry-scope conservation carries exactly one wave key",
+      "ok": true,
+      "detail": "wave-ialchem-stagea"
+    }
+  ],
+  "gates_total": 269,
+  "gates_passed": 269,
+  "verdict": "GREEN",
+  "b4_partition_of_record": [
+    {
+      "wave": "W1",
+      "buckets": [
+        {
+          "section": "1-structure-bonding-and-introduction-to-organic-chemistry",
+          "subtopic": "1-1-formulae-and-equations",
+          "notes": 3,
+          "first": "rn_FF4b9zVQ2CPvRg3P",
+          "last": "rn_gjCK5FPvbNdc5JvM"
+        },
+        {
+          "section": "1-structure-bonding-and-introduction-to-organic-chemistry",
+          "subtopic": "1-2-amount-of-substance",
+          "notes": 4,
+          "first": "rn_S66bzh2vB25qCwFw",
+          "last": "rn_bzggqrP8CF2WwQsn"
+        },
+        {
+          "section": "1-structure-bonding-and-introduction-to-organic-chemistry",
+          "subtopic": "1-3-atomic-structure",
+          "notes": 2,
+          "first": "rn_8gw9rXz8TsHPHxfM",
+          "last": "rn_dBkZMnT5gts475yh"
+        },
+        {
+          "section": "1-structure-bonding-and-introduction-to-organic-chemistry",
+          "subtopic": "1-4-electrons-and-ions",
+          "notes": 4,
+          "first": "rn_jQGpjkctcYZWRDKs",
+          "last": "rn_yxwRzb6QX37KWHcZ"
+        }
+      ],
+      "notes": 13
+    },
+    {
+      "wave": "W2",
+      "buckets": [
+        {
+          "section": "1-structure-bonding-and-introduction-to-organic-chemistry",
+          "subtopic": "1-5-the-periodic-table",
+          "notes": 2,
+          "first": "rn_r9yg5NK7H7pjjv3G",
+          "last": "rn_DQqQ3V8hZWfhxXhp"
+        },
+        {
+          "section": "1-structure-bonding-and-introduction-to-organic-chemistry",
+          "subtopic": "1-6-ionic-and-metallic-bonding-and-structure",
+          "notes": 5,
+          "first": "rn_9sTJ7fXRPXZdpPSM",
+          "last": "rn_zfXNFKpN9Nsbhn8r"
+        },
+        {
+          "section": "1-structure-bonding-and-introduction-to-organic-chemistry",
+          "subtopic": "1-7-covalent-bonding-and-structure",
+          "notes": 6,
+          "first": "rn_VbDV8f6KVPNYqTW8",
+          "last": "rn_vBQd2YP2PXQdTq9M"
+        },
+        {
+          "section": "1-structure-bonding-and-introduction-to-organic-chemistry",
+          "subtopic": "1-8-introductory-organic-chemistry",
+          "notes": 4,
+          "first": "rn_kgfRYTmGs4XkbtjZ",
+          "last": "rn_XVWxCbPYwyZjNKFD"
+        }
+      ],
+      "notes": 17
+    },
+    {
+      "wave": "W3",
+      "buckets": [
+        {
+          "section": "1-structure-bonding-and-introduction-to-organic-chemistry",
+          "subtopic": "1-9-alkanes",
+          "notes": 6,
+          "first": "rn_FPqjsfZgWKgDT5dW",
+          "last": "rn_6Z2bnGMQxXhv947z"
+        },
+        {
+          "section": "1-structure-bonding-and-introduction-to-organic-chemistry",
+          "subtopic": "1-10-alkenes",
+          "notes": 7,
+          "first": "rn_D7xTxVcGcvVNP264",
+          "last": "rn_dyFwqRzcJB9bjs3C"
+        },
+        {
+          "section": "2-energetics-group-chemistry-halogenoalkanes-and-alcohols",
+          "subtopic": "2-1-energetics",
+          "notes": 5,
+          "first": "rn_vx7rKMChwzKHSm2g",
+          "last": "rn_GpHSrcx5SvbCXDG3"
+        }
+      ],
+      "notes": 18
+    },
+    {
+      "wave": "W4",
+      "buckets": [
+        {
+          "section": "2-energetics-group-chemistry-halogenoalkanes-and-alcohols",
+          "subtopic": "2-2-intermolecular-forces",
+          "notes": 4,
+          "first": "rn_DsKdJTFpqmHq75HQ",
+          "last": "rn_3Z86sdg5JjsZPPWh"
+        },
+        {
+          "section": "2-energetics-group-chemistry-halogenoalkanes-and-alcohols",
+          "subtopic": "2-3-redox-chemistry-and-acid-base-titrations",
+          "notes": 5,
+          "first": "rn_svspNW5swxrpzHdc",
+          "last": "rn_pFbTNkFtjSJCVGqP"
+        },
+        {
+          "section": "2-energetics-group-chemistry-halogenoalkanes-and-alcohols",
+          "subtopic": "2-4-groups-1-and-2",
+          "notes": 7,
+          "first": "rn_kmFRZRhprvZ6CZDM",
+          "last": "rn_P6XpWdvmHTZC6ShV"
+        }
+      ],
+      "notes": 16
+    },
+    {
+      "wave": "W5",
+      "buckets": [
+        {
+          "section": "2-energetics-group-chemistry-halogenoalkanes-and-alcohols",
+          "subtopic": "2-5-group-7",
+          "notes": 4,
+          "first": "rn_QGcXBCncVFkQkQDC",
+          "last": "rn_8BbVv6gG4nWnkXMq"
+        },
+        {
+          "section": "2-energetics-group-chemistry-halogenoalkanes-and-alcohols",
+          "subtopic": "2-6-introduction-to-kinetics-and-equilibria",
+          "notes": 7,
+          "first": "rn_Pfz4j7YZkCqrZDsr",
+          "last": "rn_SsdjB2PTSDhv4YGf"
+        },
+        {
+          "section": "2-energetics-group-chemistry-halogenoalkanes-and-alcohols",
+          "subtopic": "2-7-organic-chemistry-introduction",
+          "notes": 2,
+          "first": "rn_gWsWTfZwwv5w8ZSs",
+          "last": "rn_bKyHRfWYmd4XsZ5J"
+        },
+        {
+          "section": "2-energetics-group-chemistry-halogenoalkanes-and-alcohols",
+          "subtopic": "2-8-organic-chemistry-halogenoalkanes",
+          "notes": 5,
+          "first": "rn_y3k4g9TctNyd49HS",
+          "last": "rn_tTZBf3DqkDV2FMsW"
+        }
+      ],
+      "notes": 18
+    },
+    {
+      "wave": "W6",
+      "buckets": [
+        {
+          "section": "2-energetics-group-chemistry-halogenoalkanes-and-alcohols",
+          "subtopic": "2-9-organic-chemistry-alcohols",
+          "notes": 3,
+          "first": "rn_dmSBvtfQfkNYhG5H",
+          "last": "rn_Q92JNwd5nVm6HSwH"
+        },
+        {
+          "section": "2-energetics-group-chemistry-halogenoalkanes-and-alcohols",
+          "subtopic": "2-10-organic-chemistry-techniques-and-spectra",
+          "notes": 3,
+          "first": "rn_kcvVdJVmnCxQY8mb",
+          "last": "rn_8WgRjQjgZJ9XHcW9"
+        },
+        {
+          "section": "3-practical-skills-in-chemistry-i",
+          "subtopic": "3-1-physical-chemistry-core-practicals",
+          "notes": 4,
+          "first": "rn_54NSGV38f2Nsytk7",
+          "last": "rn_4xFqNmQ2gFyzcx9k"
+        },
+        {
+          "section": "3-practical-skills-in-chemistry-i",
+          "subtopic": "3-2-inorganic-and-organic-chemistry-core-practicals",
+          "notes": 4,
+          "first": "rn_P9KqXJBnSX6zxJMx",
+          "last": "rn_82rWKQyPC2BVFsF8"
+        }
+      ],
+      "notes": 14
+    },
+    {
+      "wave": "W7",
+      "buckets": [
+        {
+          "section": "4-rates-equilibria-and-further-organic-chemistry",
+          "subtopic": "4-1-kinetics",
+          "notes": 10,
+          "first": "rn_kHqFB88ZfWqBcDCR",
+          "last": "rn_wvmNNH9Xfs5ksZrK"
+        },
+        {
+          "section": "4-rates-equilibria-and-further-organic-chemistry",
+          "subtopic": "4-2-entropy",
+          "notes": 4,
+          "first": "rn_N3WJTz2YD2Z3FCVw",
+          "last": "rn_jGfhpCD8dM2bt6fm"
+        },
+        {
+          "section": "4-rates-equilibria-and-further-organic-chemistry",
+          "subtopic": "4-3-energetics",
+          "notes": 6,
+          "first": "rn_bprdyWN3qzZ8fzWf",
+          "last": "rn_XygGmKmp6k2sgpBq"
+        }
+      ],
+      "notes": 20
+    },
+    {
+      "wave": "W8",
+      "buckets": [
+        {
+          "section": "4-rates-equilibria-and-further-organic-chemistry",
+          "subtopic": "4-4-chemical-equilibria",
+          "notes": 5,
+          "first": "rn_MPtZgFt88j5dXRX2",
+          "last": "rn_yjx9y8Z3wcX5Ydyd"
+        },
+        {
+          "section": "4-rates-equilibria-and-further-organic-chemistry",
+          "subtopic": "4-5-acid-base-equilibria",
+          "notes": 9,
+          "first": "rn_wmk8q8Tp8zwpvSRJ",
+          "last": "rn_985wJCW5wRBP897m"
+        },
+        {
+          "section": "4-rates-equilibria-and-further-organic-chemistry",
+          "subtopic": "4-6-organic-chemistry-chirality",
+          "notes": 3,
+          "first": "rn_jr5sXvDNVmW6TQMy",
+          "last": "rn_kYZy2BKgvm4wj2sC"
+        }
+      ],
+      "notes": 17
+    },
+    {
+      "wave": "W9",
+      "buckets": [
+        {
+          "section": "4-rates-equilibria-and-further-organic-chemistry",
+          "subtopic": "4-7-organic-chemistry-carbonyls",
+          "notes": 2,
+          "first": "rn_s2DpS64ZmnNQVVFs",
+          "last": "rn_qvfyG36p3VbZNhtp"
+        },
+        {
+          "section": "4-rates-equilibria-and-further-organic-chemistry",
+          "subtopic": "4-8-organic-chemistry-carboxylic-acids",
+          "notes": 6,
+          "first": "rn_9nVYzRt3h4CdzxpM",
+          "last": "rn_2SR7rSskJ3Dzrsx4"
+        },
+        {
+          "section": "4-rates-equilibria-and-further-organic-chemistry",
+          "subtopic": "4-9-organic-analytical-techniques",
+          "notes": 6,
+          "first": "rn_hfvpBJYD9J7xkj5r",
+          "last": "rn_mDzhzWx5kJtr5Xq6"
+        }
+      ],
+      "notes": 14
+    },
+    {
+      "wave": "W10",
+      "buckets": [
+        {
+          "section": "5-transition-metals-and-organic-nitrogen-chemistry",
+          "subtopic": "5-1-redox-equilibria",
+          "notes": 7,
+          "first": "rn_CmnT7VkccPPKyDdj",
+          "last": "rn_9PMyN2tNbHdBRPpV"
+        },
+        {
+          "section": "5-transition-metals-and-organic-nitrogen-chemistry",
+          "subtopic": "5-2-transition-metals-and-complexes",
+          "notes": 8,
+          "first": "rn_2twxdZyWNBVv362S",
+          "last": "rn_H3mMYVdScNHf5RTR"
+        }
+      ],
+      "notes": 15
+    },
+    {
+      "wave": "W11",
+      "buckets": [
+        {
+          "section": "5-transition-metals-and-organic-nitrogen-chemistry",
+          "subtopic": "5-3-transition-metal-reactions",
+          "notes": 6,
+          "first": "rn_B9RK3yfqp2BXpdJC",
+          "last": "rn_9PZFkDBMTms7NqGb"
+        },
+        {
+          "section": "5-transition-metals-and-organic-nitrogen-chemistry",
+          "subtopic": "5-4-organic-chemistry-arenes",
+          "notes": 4,
+          "first": "rn_J3HGzRQSfx4Hfxx3",
+          "last": "rn_2XNnkRFdCbFCzymC"
+        },
+        {
+          "section": "5-transition-metals-and-organic-nitrogen-chemistry",
+          "subtopic": "5-5-organic-chemistry-nitrogen-compounds",
+          "notes": 7,
+          "first": "rn_K7Fj3HRHBQHHN9Bx",
+          "last": "rn_PXFRtQ2NNmDPVnRW"
+        }
+      ],
+      "notes": 17
+    },
+    {
+      "wave": "W12",
+      "buckets": [
+        {
+          "section": "5-transition-metals-and-organic-nitrogen-chemistry",
+          "subtopic": "5-6-organic-synthesis",
+          "notes": 6,
+          "first": "rn_Ms35H3WSzk9b7G3h",
+          "last": "rn_pf2kpfNwPMgHsJjP"
+        },
+        {
+          "section": "6-practical-skills-in-chemistry-ii",
+          "subtopic": "6-1-advanced-physical-chemistry-core-practicals",
+          "notes": 5,
+          "first": "rn_3cRM6Znc26PDGZZV",
+          "last": "rn_stJFPrf2BBjMfGvP"
+        },
+        {
+          "section": "6-practical-skills-in-chemistry-ii",
+          "subtopic": "6-2-advanced-inorganic-and-organic-chemistry-core-practicals",
+          "notes": 5,
+          "first": "rn_DhGRVF5DhqRcQpbd",
+          "last": "rn_cNCJ3PFkvXYcGWk3"
+        }
+      ],
+      "notes": 16
+    }
+  ],
+  "disclosures": [
+    "spec texts carried verbatim from the curriculum graph SPEC_POINT nodes (no spec text invented); spec codes pinned to the notes.json register row 0 (0-based) — the pilot note Formulae & Mass, specs 1.1 + 1.4",
+    "corpusVersion pinned as sme-revision-notes-ial-chemistry-17-2026-08-05 — the register rows’ most recent content update (max updatedAt 2026-08-05), the mechanical register-version pin of record for this new subject",
+    "the 0.8/1.7/1.4 schema generation is strictly additive over 0.7/1.6/1.3 (ial-chemistry in the subject enums, id grammar and figure-url alternation; format/adapter enums extended; sourceFormat enums extended) — landed at this commit A",
+    "spec_point_resolution.json for ial-chemistry-17 is the mechanical hub-landing bootstrap (262 ids: 254 resolved + 8 unresolved-surplus where the row carries more smeSpecPointIds than specPointCodes — no pairing invented, runbook B1 deviation, physics stage-A precedent, disclosed; 234 distinct codes; 196 notes)",
+    "the B4 partition of record (frozen at stage-A open; 195 notes in 12 subtopic-atomic waves W1..W12) lives in this receipt as b4_partition_of_record — the pilot stays out of the buckets per runbook B3",
+    "worked-example port from the corpus: the note’s own exam hint (potassium carbonate = (2 x 39.1) + 12.0 + (3 x 16.0) = 138.2) is ported verbatim in substance as the populated workedExample, arithmetic NUM-ledgered (the designed-or-none posture satisfied by the port, the chemistry stage-B populated precedent)",
+    "the corpus figure’s alt text carries the source site’s own words (\"downloadable IGCSE & GCSE Chemistry revision notes\") — carried through verbatim per the figure law; the alt is the parent note’s own asset metadata, not learner surface",
+    "figure caption declared absent: no bold-italic explanatory line follows the figure block in the source note (the blockquote exam hint is a hint, not a caption line)",
+    "MCQ correct-key census enforced POST-transform under the declared deterministic AN rotation table (cyclic per-note re-letter) — the wave-6/8/9/10/11 + stage-A re-lettering precedent, table-recorded",
+    "the topicTitle of record is the hub curriculum graph’s SME-S1 node title (\"1. Structure, Bonding & Introduction to Organic Chemistry\"), the section grouping the register’s sectionSlug denotes",
+    "the WAVE_OPEN_BASE de832c5fac7d2e0b21bce266c5c3674581254827 is the resources main tip at wave open (operator directive trace 1a1d5dedd8ea3e45); stage-A sequence: commit A lands on main first, the pipeline runs with the race-guard asserting the tip still sits exactly at the commit-A pin, then commit C lands — the race-guard semantics disclosed",
+    "the PROMOTION receipt filename carries the Asia/Dhaka execution date 20261114 while generated_at_utc is honest UTC",
+    "the emitted hub/question-package artifacts carry the run_import.mjs legacy identity strings (hub/lesson-import/1.5 + guided-lesson-0.6--hub-lesson-import-1.5 + sourceFormat guided-lesson/0.6) byte-conserved exactly as every prior pack; the RECORD layer (this receipt, the INT-3, the manifest load_scope) declares the true 0.8/1.7/1.4 generation — the conservation law of record",
+    "this receipt’s B4 partition was computed mechanically from the hub register’s contiguous (sectionSlug, topicSlug) groups: subtopic-atomic packing, max 20 notes per wave, register order preserved; W7 tops at 20 (4-1 kinetics 10 + 4-2 entropy 4 + 4-3 energetics 6)"
+  ]
+}

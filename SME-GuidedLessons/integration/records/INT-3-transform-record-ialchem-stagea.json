@@ -1,0 +1,121 @@
+{
+  "stage": "IAL-CHEMISTRY (WCH1) stage-A (the new-subject pilot: 1 note end-to-end at the 0.8/1.7/1.4 generation)",
+  "title": "INT-3 transform record — IAL chemistry stage-A (guided-lesson/0.8 -> hub/lesson-import/1.7 + sme-question-package/1.4), the 1-row IAL chemistry anchor table of record (the 142 biology anchors of record stay in INT-3-transform-record-bio-stageb10-v44.json, re-proven on this tree by the G-E gates; the 112 chemistry + 127 physics anchors stay in their own records, re-proven by the C-6 ajv unions and the pack byte-conservation gates)",
+  "generated_at_utc": "2026-11-13T17:52:57Z",
+  "operator_traces": {
+    "ignition": "1a1d5dedd8ea3e45",
+    "execution": "1a1d5dedd8ea3e45"
+  },
+  "adapter": "guided-lesson-0.8--hub-lesson-import-1.7",
+  "course_id": "ial-chemistry-17",
+  "supersedes_int3": "records/INT-3-transform-record-bio-stageb10-v44.json (the 142-row cumulative biology anchor table; its rows stay of record there and are re-proven byte-identical on this tree by the G-E walk)",
+  "b6_manifest_continuity": {
+    "decision": "continue-global",
+    "selected": "manifest v45 supersedes v44"
+  },
+  "ialchem_stagea_of_record": {
+    "basis": "the new-subject pilot per runbook B3: ONE note (rn_QbY5FrkKC3TK5vJS, Formulae & Mass, specs 1.1 + 1.4) authored end-to-end through the full chain, 2 lessons x 9 checks, riding the 0.8/1.7/1.4 generation minted for this subject",
+    "bootstrap": "spec_point_resolution.json derived mechanically from hub notes.json smeSpecPointIds (262 ids / 254 resolved / 8 unresolved-surplus / 234 codes / 196 notes; runbook B1 deviation, physics stage-A precedent, disclosed)",
+    "figure_law": "1 corpus figure: module-mapped heading-unique to its host lesson (the relative-formula-mass table image, bound to L2 by its verbatim h4 heading); caption declared absent (no explanatory line exists in the source)",
+    "b4_partition": null,
+    "b4_partition_note": "the B4 partition of record is frozen at stage-A open and lives in the promotion receipt: 195 notes in 12 subtopic-atomic waves (W1..W12), the pilot excluded per runbook B3",
+    "worked_example_law": "workedExample POPULATED: the corpus exam-hint arithmetic (potassium carbonate Mr = 138.2) ported verbatim in substance, NUM-ledgered; the designed-or-none posture is satisfied by the port"
+  },
+  "source_pin": {
+    "commitA": "62bcd8158e990685a6a9e84b07f1380d2977399c",
+    "namespace": "SME-GuidedLessons/integration/source-0.8/",
+    "files": [
+      "guided-lesson-rn_QbY5FrkKC3TK5vJS.json"
+    ]
+  },
+  "registry_pin": {
+    "file": "apps/hub/content/ial-chemistry-17/notes.json",
+    "rows": "196",
+    "stagea_rows": "row 0 (the pilot) — the pilot stays out of the wave buckets per runbook B3"
+  },
+  "source_08_generation_pin": "62bcd8158e990685a6a9e84b07f1380d2977399c",
+  "conservation_law": {
+    "law": "adapter spec 0.8 §7 walk (byte-identical to run_import.mjs targetTokens): specAnchors -> primer -> modules (title/headings/specRefs/opening/keyPoints/depthLayers) -> glossary -> workedExample -> questions (stem/class/options + modelAnswer/keywords on written kinds); per-note sha256 of the \"\\n\"-joined stream",
+    "wave_subtotals": {
+      "wave-ialchem-stagea": "aecdd95ccecbef775addd2a347cafa0cc06a0a630c9aaeb1adac38aae59762ba"
+    }
+  },
+  "grand_stream": {
+    "chars": 15410,
+    "sha256": "aecdd95ccecbef775addd2a347cafa0cc06a0a630c9aaeb1adac38aae59762ba"
+  },
+  "wave_stream_sha256": {
+    "wave-ialchem-stagea": "aecdd95ccecbef775addd2a347cafa0cc06a0a630c9aaeb1adac38aae59762ba"
+  },
+  "battery": {
+    "names": [
+      "P0",
+      "A0",
+      "AN",
+      "JC",
+      "SG",
+      "KW",
+      "2.1B",
+      "NUM",
+      "C-6",
+      "written",
+      "C-5",
+      "B2",
+      "G-E"
+    ],
+    "a0": "ajv 0.8 source x1 + kind order x2 lessons + B2 sizing + spec text provenance (curriculum graph verbatim x2) + figure closure both ways x1 + corpus image coverage + glossary band + primer band + noteRef identity + section-title map",
+    "an": "exactly-one-correct x10; correct-key census >=3 distinct per note (post-rotation); distinct option texts; four options",
+    "sg": "lesson specRefs subset of file specPoints; every check KP-anchored (content-token overlap)",
+    "kw": ">=3 grounded keywords per written item x8",
+    "jc": "every option explained; distractors name misconceptions; correct-option misconception null",
+    "2.1b": "zero 8-gram overlaps of learner-surface text vs the corpus note body x1",
+    "num": "stage-A spot ledgers on the authored arithmetic (K2CO3 138.2; P4O10 284.0; Mg(NO3)2 148.3 vs wrong 100.3; B2 census 18 = 2x9)",
+    "c6": "physics+chemistry+bio prior union ajv x762 + chemistry prior-generation union ajv x336 + stage-A outputs ajv x2",
+    "c5": "checkRefs <-> questions bidirectional 1:1 in order x1",
+    "b2": "9 checkRefs per module x2; identity arithmetic 9 = 5+2+1+1 x2",
+    "ge": "IAL chemistry stream anchor x1 (the emitted INT-3 of record) + the 142 biology anchors re-proven on this tree (byte-identical prior pack) + biology v44 pack byte conservation x284 + chemistry v32 pack byte conservation x224 + physics v31 pack byte conservation x254 + IAL chemistry grand stream single-finalization"
+  },
+  "ialchem_census": {
+    "notes_total_register": 196,
+    "notes_landed": 1,
+    "lessons_total": 2,
+    "checks_total": 18,
+    "stagea_figures": 1,
+    "corpus_images_bound": 1,
+    "worked_examples_populated": 1,
+    "worked_examples_null": 0
+  },
+  "prior_census": {
+    "biology": {
+      "notes_total": 142,
+      "lessons_total": 274,
+      "checks_total": 2466,
+      "note": "carried byte-identical from v44; anchors re-proven on the stage-A tree"
+    },
+    "chemistry": {
+      "notes_total": 112,
+      "lessons_total": 239,
+      "checks_total": 2151,
+      "note": "carried byte-identical from v32"
+    },
+    "physics": {
+      "notes_total": 127,
+      "lessons_total": 271,
+      "checks_total": 2439,
+      "note": "carried byte-identical from v31"
+    }
+  },
+  "notes": [
+    {
+      "noteId": "rn_QbY5FrkKC3TK5vJS",
+      "wave": "ialchem-stagea",
+      "sourceLayerSha256": "9d7b2849cd27e2962c11174c49fd0cbe5c1035316551e7c82ef9e21e648f96a3",
+      "hubSha256": "1545a36706bf9c0d8ba0740e16d8823dd114258e26ce60285bbbc663313f54fb",
+      "pkgSha256": "8e2965150452dbb76f3f6ec2f77c76dcb54bb24e0dd8dfed59a34efd8127c3d3",
+      "stream": {
+        "sha256": "aecdd95ccecbef775addd2a347cafa0cc06a0a630c9aaeb1adac38aae59762ba",
+        "chars": 15410
+      }
+    }
+  ]
+}
