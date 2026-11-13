@@ -1,0 +1,114 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_WWp5PCZWwdbfgqkG",
+    "corpusVersion": "sme-revision-notes-igcse-biology-19-2026-09-17",
+    "sourceLayerSha256": "3a00c38d1a103ef4c0158b0c5c178f992dc492d05a03f26f2a71702f956d76fc",
+    "pinnedRef": "f11b01054335c2e7428cbb0dfd4805a06cb91199"
+  },
+  "lesson": {
+    "id": "igcse-biology::rn_WWp5PCZWwdbfgqkG",
+    "topicTitle": "Ecology and the environment",
+    "subtopicTitle": "Feeding Relationships",
+    "sourceUrl": "https://www.savemyexams.com/igcse/biology/edexcel/19/revision-notes/4-ecology-and-the-environment/feeding-relationships/trophic-levels",
+    "specAnchors": [
+      {
+        "code": "4.6",
+        "text": "understand the names given to different trophic levels, including producers, primary, secondary and tertiary consumers and decomposers"
+      }
+    ],
+    "primer": {
+      "text": "Every organism holds a feeding position called its trophic level. This note names each level from producers through primary, secondary and tertiary consumers, explains how one organism can hold different levels inside a food web, and introduces the decomposers that recycle whatever dies.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_WWp5PCZWwdbfgqkG::L1",
+        "title": "Naming the Levels",
+        "sourceHeadings": [
+          "Trophic Levels"
+        ],
+        "specRefs": [
+          "4.6"
+        ],
+        "opening": "Every organism in a food chain holds a position called its trophic level, from producers capturing sunlight through successive consumer tiers down to the decomposers recycling whatever dies.",
+        "keyPoints": [
+          "The trophic level is where an organism sits within a food chain.",
+          "Producers sit at the first trophic level, primary consumers second, secondary consumers third and tertiary consumers fourth.",
+          "Within a food web, one organism can hold a different trophic level in each chain it joins.",
+          "Decomposers, namely bacteria and fungi, break down dead material and waste, recycling nutrients into the ecosystem."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Count the feeding steps from the plant outward — that number is the trophic level.",
+            "analogy": "Floors of a building: the producer runs the ground floor, and each diner occupies the next floor up.",
+            "examPointer": "Learn the ladder: producer, primary, secondary, tertiary — and remember decomposers feed on every floor."
+          },
+          "medium": {
+            "restatement": "The level is defined by feeding position, so a rabbit eating grass is a primary consumer at level two, while within a food web the same organism may occupy several levels at once because it joins several chains; decomposers stand outside the ladder, recycling energy from waste and corpses.",
+            "analogy": "A person who is a customer in one shop, staff in another and manager in a third — position depends on the relationship, not the person.",
+            "examPointer": "Tie each level name to what that organism eats; the diet fixes the label."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_WWp5PCZWwdbfgqkG::L1::Q1",
+          "rn_WWp5PCZWwdbfgqkG::L1::Q2",
+          "rn_WWp5PCZWwdbfgqkG::L1::Q3",
+          "rn_WWp5PCZWwdbfgqkG::L1::Q4",
+          "rn_WWp5PCZWwdbfgqkG::L1::Q5",
+          "rn_WWp5PCZWwdbfgqkG::L1::Q6",
+          "rn_WWp5PCZWwdbfgqkG::L1::Q7",
+          "rn_WWp5PCZWwdbfgqkG::L1::Q8",
+          "rn_WWp5PCZWwdbfgqkG::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "producer",
+          "definition": "An organism at the first trophic level that converts light energy into chemical energy.",
+          "firstLesson": 1
+        },
+        {
+          "term": "primary consumer",
+          "definition": "The organism at the second trophic level that eats producers.",
+          "firstLesson": 1
+        },
+        {
+          "term": "decomposer",
+          "definition": "A bacterium or fungus that breaks down dead organisms and waste, recycling nutrients.",
+          "firstLesson": 1
+        }
+      ],
+      "workedExample": null
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-biology-19/assets/9b2225022013-food-chain-showing-trophic-levels.png",
+        "alt": "A food chain starting with grass, then showing a grasshopper, a frog, a snake and an eagle a ",
+        "sourceHeading": "Trophic Levels",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique"
+      }
+    ]
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_wwx5WjCNZ7f8t9hC",
+    "corpusVersion": "sme-revision-notes-igcse-biology-19-2026-09-17",
+    "sourceLayerSha256": "91f2ee64a6924c66ab7de9ed467bd676f215e5fda42107af03bd1afc71462b4d",
+    "pinnedRef": "f11b01054335c2e7428cbb0dfd4805a06cb91199"
+  },
+  "lesson": {
+    "id": "igcse-biology::rn_wwx5WjCNZ7f8t9hC",
+    "topicTitle": "Ecology and the environment",
+    "subtopicTitle": "The Organism in the Environment",
+    "sourceUrl": "https://www.savemyexams.com/igcse/biology/edexcel/19/revision-notes/4-ecology-and-the-environment/the-organism-in-the-environment/practical-investigating-the-distribution-of-organisms",
+    "specAnchors": [
+      {
+        "code": "4.4B",
+        "text": "practical: investigate the distribution of organisms in their habitats and measure biodiversity using quadrats"
+      }
+    ],
+    "primer": {
+      "text": "Measuring biodiversity uses the same quadrat toolkit with a different question: how many different species live here? This note walks the ten-quadrat method across two survey areas, then applies the CORMS checklist to evaluate change, organism, repeats, measurements and standards.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_wwx5WjCNZ7f8t9hC::L1",
+        "title": "Measuring Biodiversity in the Field",
+        "sourceHeadings": [
+          "Practical: Measuring Biodiversity",
+          "Apparatus"
+        ],
+        "specRefs": [
+          "4.4B"
+        ],
+        "opening": "Measuring biodiversity reuses the quadrat toolkit: tape measures frame each survey area, a random number generator places the quadrats, and the count this time is of different species, not individuals of one species.",
+        "keyPoints": [
+          "The apparatus list holds two tape measures, a quadrat, a random number generator and a species key.",
+          "Tape measures lay out the first survey area, for example 10 metres by 10 metres.",
+          "Random coordinates place each quadrat, and the count records different species inside.",
+          "Ten quadrats are sampled in the first area before repeating the process in the second."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Same frame, same tapes, but this time the tally is species, not individuals.",
+            "analogy": "A birdwatcher counting how many species visit a feeder rather than how many of one bird arrive.",
+            "examPointer": "Flag the switch: population size counts individuals of one species; biodiversity counts different species."
+          },
+          "medium": {
+            "restatement": "The design mirrors the abundance investigation — laid-out area, random coordinates, keyed identification — but the recorded variable becomes the number of different species per quadrat, sampled ten times per area so the comparison reflects biodiversity rather than population size.",
+            "analogy": "The same fishing net, now used to list the catch variety instead of weighing one fish type.",
+            "examPointer": "Quote the ten-quadrat minimum per area; representativeness is the reason."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_wwx5WjCNZ7f8t9hC::L1::Q1",
+          "rn_wwx5WjCNZ7f8t9hC::L1::Q2",
+          "rn_wwx5WjCNZ7f8t9hC::L1::Q3",
+          "rn_wwx5WjCNZ7f8t9hC::L1::Q4",
+          "rn_wwx5WjCNZ7f8t9hC::L1::Q5",
+          "rn_wwx5WjCNZ7f8t9hC::L1::Q6",
+          "rn_wwx5WjCNZ7f8t9hC::L1::Q7",
+          "rn_wwx5WjCNZ7f8t9hC::L1::Q8",
+          "rn_wwx5WjCNZ7f8t9hC::L1::Q9"
+        ],
+        "figureIds": []
+      },
+      {
+        "id": "rn_wwx5WjCNZ7f8t9hC::L2",
+        "title": "Placing Quadrats and Counting Species",
+        "sourceHeadings": [
+          "Method",
+          "Results"
+        ],
+        "specRefs": [
+          "4.4B"
+        ],
+        "opening": "The method is a loop: draw random coordinates, place the quadrat, count the species inside, and repeat until ten quadrats are done, then compare the average species count between the two areas as the biodiversity indicator.",
+        "keyPoints": [
+          "Random coordinates, for example 4,5, place the quadrat four metres along one axis and five along the other.",
+          "The number of different species is counted within each quadrat.",
+          "The process repeats until data from ten quadrats is collected, then the second area follows.",
+          "A higher average count of different species indicates higher biodiversity in that area.",
+          "The count alone does not reveal distribution or population size in either area."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Random spot, count the species, ten times over, then compare the averages.",
+            "analogy": "Rolling dice on a treasure map and logging the loot at each landing point.",
+            "examPointer": "Remember the blind spot: this method gives biodiversity, not distribution or population size."
+          },
+          "medium": {
+            "restatement": "Each iteration fixes the position by coordinates, tallies the species present and adds one replicate; ten replicates stabilise the average, and the between-area comparison of averages is the biodiversity indicator, while distribution and population size need different records entirely.",
+            "analogy": "Ten random sips from two teapots to judge which brew holds more flavours — knowing the sips tell nothing about how strong each flavour is.",
+            "examPointer": "For what the method misses, name both gaps: distribution and population size."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_wwx5WjCNZ7f8t9hC::L2::Q1",
+          "rn_wwx5WjCNZ7f8t9hC::L2::Q2",
+          "rn_wwx5WjCNZ7f8t9hC::L2::Q3",
+          "rn_wwx5WjCNZ7f8t9hC::L2::Q4",
+          "rn_wwx5WjCNZ7f8t9hC::L2::Q5",
+          "rn_wwx5WjCNZ7f8t9hC::L2::Q6",
+          "rn_wwx5WjCNZ7f8t9hC::L2::Q7",
+          "rn_wwx5WjCNZ7f8t9hC::L2::Q8",
+          "rn_wwx5WjCNZ7f8t9hC::L2::Q9"
+        ],
+        "figureIds": []
+      },
+      {
+        "id": "rn_wwx5WjCNZ7f8t9hC::L3",
+        "title": "Judging the Method with CORMS",
+        "sourceHeadings": [
+          "Limitations",
+          "Applying CORMS to practical work"
+        ],
+        "specRefs": [
+          "4.4B"
+        ],
+        "opening": "Every practical deserves a fair verdict: the same missed-organism and identification limitations apply, and the CORMS check runs through what is Changed, the Organism counted, Repetition, the Measurements and the Standards held constant.",
+        "keyPoints": [
+          "Individuals are easily missed under leaves, so a pencil or stick lifts them clear before counting.",
+          "A species key settles tricky identification or the distinction between species.",
+          "CORMS runs through Change, Organism, Repeats, Measurements and Standards for the evaluation.",
+          "Here the change is the study area, the organism is plant species, repeats give reliability, and quadrat size and random placement are controlled."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Fix missed finds with a stick, fix names with a key, then judge the design letter by letter through CORMS.",
+            "analogy": "A referee checklist after a match: what changed, who played, how many matches, what counted, what stayed fair.",
+            "examPointer": "Apply CORMS to this practical: C is study area, O is plant species, R is repeats, M is the species count, S is quadrat size and random placement."
+          },
+          "medium": {
+            "restatement": "The evaluation mirrors the design: the only changed variable is the study area, only plant species are counted, several repeats secure reliability, one measurement — the species count — is recorded, and standards such as quadrat size, random placement and collection day are controlled; limitations still include hidden individuals and hard identifications.",
+            "analogy": "An auditor walking the same floor plan in two branches, noting what changed, what was counted and what rules stayed fixed.",
+            "examPointer": "In evaluation questions, give the CORMS letter with its specific content — generic answers earn nothing."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_wwx5WjCNZ7f8t9hC::L3::Q1",
+          "rn_wwx5WjCNZ7f8t9hC::L3::Q2",
+          "rn_wwx5WjCNZ7f8t9hC::L3::Q3",
+          "rn_wwx5WjCNZ7f8t9hC::L3::Q4",
+          "rn_wwx5WjCNZ7f8t9hC::L3::Q5",
+          "rn_wwx5WjCNZ7f8t9hC::L3::Q6",
+          "rn_wwx5WjCNZ7f8t9hC::L3::Q7",
+          "rn_wwx5WjCNZ7f8t9hC::L3::Q8",
+          "rn_wwx5WjCNZ7f8t9hC::L3::Q9"
+        ],
+        "figureIds": [
+          "fig-01"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "biodiversity",
+          "definition": "The range and variety of different species of organisms in an area.",
+          "firstLesson": 1
+        },
+        {
+          "term": "random sampling",
+          "definition": "Placing quadrats by randomly generated coordinates so the sample represents the area.",
+          "firstLesson": 1
+        },
+        {
+          "term": "CORMS",
+          "definition": "The evaluation checklist covering Change, Organism, Repeats, Measurements and Standards.",
+          "firstLesson": 3
+        },
+        {
+          "term": "species key",
+          "definition": "A guide used to identify and distinguish the species found within a quadrat.",
+          "firstLesson": 3
+        }
+      ],
+      "workedExample": null
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-biology-19/assets/22e800f5b889-corms-evaluation.png",
+        "alt": "CORMS evaluation, downloadable AS & A Level Biology revision notes",
+        "sourceHeading": "Applying CORMS to practical work",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique"
+      }
+    ]
+  }
+}
