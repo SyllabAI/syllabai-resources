@@ -1,0 +1,578 @@
+{
+ "format": "guided-lesson/0.7",
+ "noteRef": {
+  "noteId": "rn_V9tRSQ44j8cPFfHM",
+  "corpusVersion": "sme-revision-notes-igcse-biology-19-2026-09-17",
+  "topicTitle": "Structure and functions in living organisms",
+  "subtopicTitle": "Respiration",
+  "sourceUrl": "https://www.savemyexams.com/igcse/biology/edexcel/19/revision-notes/2-structure-and-function-in-living-organisms/respiration/process-of-respiration"
+ },
+ "specPoints": [
+  {
+   "code": "2.34",
+   "text": "understand how the process of respiration produces ATP in living organisms"
+  },
+  {
+   "code": "2.35",
+   "text": "know that ATP provides energy for cells"
+  }
+ ],
+ "primer": {
+  "text": "Respiration happens in every living cell, quietly and constantly. This note pins down what the process actually is — a chemical reaction, not the breathing that feeds it — and follows the energy it frees into ATP, the currency every cell spends on movement, growth and warmth.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "Respiration Is a Chemical Reaction",
+   "sourceHeadings": [
+    "Respiration"
+   ],
+   "specRefs": [
+    "2.34"
+   ],
+   "opening": "Respiration is the chemical reaction run by all living organisms that breaks down glucose — with oxygen when available, without it when not — releasing energy that is transferred into ATP.",
+   "keyPoints": [
+    "Every living organism carries out respiration.",
+    "Glucose is the fuel broken down in the reaction.",
+    "Oxygen marks the aerobic version; its absence marks the anaerobic one.",
+    "Carbon dioxide and water are the usual waste products.",
+    "The released energy is transferred as ATP."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "All cells break down glucose and bank the released energy as ATP.",
+     "analogy": "A power plant burning fuel to send electricity down the line — the line here is ATP.",
+     "examPointer": "Keep respiration and gas exchange separate: one moves gases, the other spends glucose."
+    },
+    "medium": {
+     "restatement": "Whether oxygen joins or not decides the pathway, but both versions transfer energy, and the aerobic one also yields carbon dioxide and water.",
+     "analogy": "Two routes up the same mountain: one needs gear, one does not, and both get you higher.",
+     "examPointer": "If a question says energy is 'produced', correct it: energy is released or transferred, never made."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Which organisms carry out respiration?",
+     "misconceptionClass": "universality",
+     "options": [
+      {
+       "key": "A",
+       "text": "All living organisms",
+       "correct": true,
+       "explanation": "Yes — the mechanism works exactly this way.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Animals only",
+       "correct": false,
+       "explanation": "Plants, fungi and microbes respire too.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "Only cells with mitochondria",
+       "correct": false,
+       "explanation": "Even cells lacking mitochondria run respiration.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "Only active ones by day",
+       "correct": false,
+       "explanation": "Respiration runs day and night in every living cell.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which molecule is the fuel that respiration breaks down?",
+     "misconceptionClass": "fuel recall",
+     "options": [
+      {
+       "key": "A",
+       "text": "Glucose",
+       "correct": true,
+       "explanation": "Correct — this follows directly from the definition.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Oxygen",
+       "correct": false,
+       "explanation": "Oxygen supports the aerobic route; it is not the fuel.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "Starch",
+       "correct": false,
+       "explanation": "Starch is storage; glucose is the molecule actually broken down.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "ATP",
+       "correct": false,
+       "explanation": "ATP is the carrier produced, not the fuel consumed.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "How is respiration different from gas exchange?",
+     "misconceptionClass": "concept separation",
+     "options": [
+      {
+       "key": "A",
+       "text": "Gas exchange moves gases in and out, while respiration uses them to release energy from glucose",
+       "correct": true,
+       "explanation": "Correct — this matches the account taught above.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "They are two names for one process",
+       "correct": false,
+       "explanation": "The distinction is a standard exam trap.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "Gas exchange produces ATP",
+       "correct": false,
+       "explanation": "No ATP comes from exchange alone.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "Respiration only happens in the lungs",
+       "correct": false,
+       "explanation": "Respiration happens in cells throughout the body.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "In which form does respiration hand over its released energy?",
+     "misconceptionClass": "currency recall",
+     "options": [
+      {
+       "key": "A",
+       "text": "ATP",
+       "correct": true,
+       "explanation": "Yes — the mechanism works exactly this way.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Glucose",
+       "correct": false,
+       "explanation": "Glucose is spent, not handed over.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "Heat only",
+       "correct": false,
+       "explanation": "Heat is one use of the energy, not the transfer molecule.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "ADP",
+       "correct": false,
+       "explanation": "ADP gains a phosphate to become ATP during the process.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which statement about the wastes of aerobic respiration is right?",
+     "misconceptionClass": "waste recall",
+     "options": [
+      {
+       "key": "A",
+       "text": "Carbon dioxide and water leave as waste products",
+       "correct": true,
+       "explanation": "Correct — this matches the account taught above.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Oxygen leaves as waste",
+       "correct": false,
+       "explanation": "Oxygen is consumed, not released.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "Lactic acid always forms",
+       "correct": false,
+       "explanation": "Lactic acid marks the oxygen-free animal route.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "Nothing is wasted",
+       "correct": false,
+       "explanation": "The reaction does produce wastes despite releasing energy.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Define respiration in one sentence.",
+     "misconceptionClass": "recall of the taught account",
+     "modelAnswer": "Respiration is the chemical reaction in all living organisms that breaks down glucose to release energy transferred as ATP.",
+     "keywords": [
+      "chemical reaction",
+      "glucose",
+      "ATP"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Name the two waste products of the aerobic pathway.",
+     "misconceptionClass": "recall of the taught account",
+     "modelAnswer": "Carbon dioxide and water are the wastes of aerobic respiration.",
+     "keywords": [
+      "carbon dioxide",
+      "water",
+      "aerobic"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why energy is described as transferred rather than produced in respiration.",
+     "misconceptionClass": "mechanism reasoning",
+     "modelAnswer": "Because the energy already exists in the glucose bonds; the reaction releases it from storage into ATP rather than creating anything new.",
+     "keywords": [
+      "glucose",
+      "releases",
+      "ATP"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A poster claims 'Mitochondria make energy'. Rewrite it accurately.",
+     "misconceptionClass": "scenario application",
+     "modelAnswer": "Mitochondria release energy from glucose during aerobic respiration, transferring it into ATP.",
+     "keywords": [
+      "mitochondria",
+      "glucose",
+      "ATP"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "ATP, the Spent Currency",
+   "sourceHeadings": [
+    "ATP"
+   ],
+   "specRefs": [
+    "2.35"
+   ],
+   "opening": "ATP molecules forged during respiration are broken down again wherever work is needed, paying for reactions that build larger molecules, for every muscle contraction and for the warmth that keeps enzymes working well.",
+   "keyPoints": [
+    "Cells produce several ATP molecules as glucose is broken down.",
+    "Breaking ATP down releases energy for living processes.",
+    "Building larger molecules from smaller ones consumes ATP.",
+    "Muscle contraction draws on ATP for movement.",
+    "Keeping warm protects enzyme-friendly temperatures."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Respiration fills ATP wallets; cell work empties them.",
+     "analogy": "Rechargeable batteries: charged by respiration, drained by every job the cell does.",
+     "examPointer": "List the three classic uses: building molecules, contracting muscle, keeping warm."
+    },
+    "medium": {
+     "restatement": "The link runs both ways: respiration charges ATP, and splitting it powers the energy-demanding reactions that would otherwise stall.",
+     "analogy": "A household budget: income from work pays the rent, the food and the heating.",
+     "examPointer": "Match each ATP use to an example — protein building, a bicep contracting, shivering — for full marks."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "What does a cell do with ATP to obtain energy?",
+     "misconceptionClass": "mechanism",
+     "options": [
+      {
+       "key": "A",
+       "text": "It breaks ATP molecules down",
+       "correct": true,
+       "explanation": "Yes — the mechanism works exactly this way.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "It stores ATP for years",
+       "correct": false,
+       "explanation": "ATP turns over constantly; it is not stockpiled.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "It breathes ATP in",
+       "correct": false,
+       "explanation": "ATP is made and used inside, never inhaled.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "It converts ATP into glucose",
+       "correct": false,
+       "explanation": "Glucose makes ATP, not the reverse.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which building work is funded by ATP as a cell grows?",
+     "misconceptionClass": "use mapping",
+     "options": [
+      {
+       "key": "A",
+       "text": "Chemical reactions that build larger molecules from smaller ones",
+       "correct": true,
+       "explanation": "Correct — this matches the account taught above.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Diffusion of oxygen",
+       "correct": false,
+       "explanation": "Diffusion needs no ATP payment.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "Storage of wastes",
+       "correct": false,
+       "explanation": "Waste handling is not the cited growth step.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "Copying carbon dioxide",
+       "correct": false,
+       "explanation": "Carbon dioxide is a waste, not a building block.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why does shivering help defend body temperature on a cold day?",
+     "misconceptionClass": "warmth link",
+     "options": [
+      {
+       "key": "A",
+       "text": "Contraction uses ATP, and the respiration behind it releases heat that warms the body",
+       "correct": true,
+       "explanation": "Yes — the mechanism works exactly this way.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Shivering burns oxygen directly",
+       "correct": false,
+       "explanation": "Oxygen is used by respiration, not by shaking itself.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "Shivering stores energy as fat",
+       "correct": false,
+       "explanation": "No fat is stored during shivering.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "Shivering blocks heat loss",
+       "correct": false,
+       "explanation": "It generates heat rather than blocking loss.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "During muscle contraction, what is the immediate energy source?",
+     "misconceptionClass": "contraction link",
+     "options": [
+      {
+       "key": "A",
+       "text": "ATP released from its breakdown",
+       "correct": true,
+       "explanation": "Correct — this follows directly from the definition.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Glucose directly",
+       "correct": false,
+       "explanation": "Glucose must be respired first; ATP is the immediate payer.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "Lactic acid",
+       "correct": false,
+       "explanation": "Lactic acid is a waste product, not a payer.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "Adrenaline",
+       "correct": false,
+       "explanation": "Adrenaline signals; it does not pay.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why is a steady internal temperature useful to an organism?",
+     "misconceptionClass": "enzyme link",
+     "options": [
+      {
+       "key": "A",
+       "text": "Enzymes work best in a narrow range, and warmth from respiration helps maintain it",
+       "correct": true,
+       "explanation": "Right — the other options each misplace a concept.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Enzymes work at any temperature",
+       "correct": false,
+       "explanation": "Extremes denature or slow them.",
+       "misconception": "close but wrong"
+      },
+      {
+       "key": "C",
+       "text": "Warmth destroys wastes faster",
+       "correct": false,
+       "explanation": "Waste removal is not the cited reason.",
+       "misconception": "category slip"
+      },
+      {
+       "key": "D",
+       "text": "ATP melts above room temperature",
+       "correct": false,
+       "explanation": "ATP is not the temperature concern; enzymes are.",
+       "misconception": "invented role"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the full name of the molecule abbreviated ATP.",
+     "misconceptionClass": "recall of the taught account",
+     "modelAnswer": "ATP stands for adenosine triphosphate.",
+     "keywords": [
+      "adenosine triphosphate",
+      "ATP",
+      "stands"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "List three processes funded by ATP.",
+     "misconceptionClass": "recall of the taught account",
+     "modelAnswer": "Building larger molecules, muscle contraction and keeping warm.",
+     "keywords": [
+      "building",
+      "muscle",
+      "warm"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why respiration and ATP use form a cycle.",
+     "misconceptionClass": "mechanism reasoning",
+     "modelAnswer": "Respiration forges ATP from glucose breakdown, and spending ATP on cell work returns it to a lower-energy form that the next round of respiration recharges.",
+     "keywords": [
+      "respiration",
+      "ATP",
+      "cycle"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A hiker climbs all day then shivers at night. Identify the ATP uses involved.",
+     "misconceptionClass": "scenario application",
+     "modelAnswer": "Contraction powered the climbing, respiration released heat during the effort, and the night-time shivering contracts muscles again to defend body temperature.",
+     "keywords": [
+      "contraction",
+      "heat",
+      "temperature"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "respiration",
+    "definition": "The chemical reaction in all living cells that breaks down glucose and transfers energy into ATP.",
+    "firstLesson": 1
+   },
+   {
+    "term": "ATP",
+    "definition": "Adenosine triphosphate, the molecule cells break down to fund their work.",
+    "firstLesson": 2
+   },
+   {
+    "term": "gas exchange",
+    "definition": "The movement of oxygen in and carbon dioxide out — distinct from respiration itself.",
+    "firstLesson": 1
+   }
+  ],
+  "workedExample": null
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-biology-19/assets/53dfd2127da0-uses-of-energy-in-the-human-body-igcse-and-gcse-.png",
+   "alt": "uses-of-energy-in-the-human-body-igcse-and-gcse-chemistry-revision-notesuses-of-energy-in-the-human-body-igcse-and-gcse-chemistry-revision-notes",
+   "sourceHeading": "ATP",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique"
+  }
+ ]
+}
