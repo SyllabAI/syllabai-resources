@@ -1,0 +1,876 @@
+{
+  "format": "guided-lesson/0.7",
+  "noteRef": {
+    "noteId": "rn_HHDYJFzpqCC4FGKs",
+    "corpusVersion": "sme-revision-notes-igcse-biology-19-2026-09-17",
+    "topicTitle": "Ecology and the environment",
+    "subtopicTitle": "Feeding Relationships",
+    "sourceUrl": "https://www.savemyexams.com/igcse/biology/edexcel/19/revision-notes/4-ecology-and-the-environment/feeding-relationships/transfers-along-a-food-chain"
+  },
+  "specPoints": [
+    {
+      "code": "4.8",
+      "text": "understand the transfer of substances and energy along a food chain"
+    },
+    {
+      "code": "4.9",
+      "text": "understand why only about 10% of energy is transferred from one trophic level to the next"
+    }
+  ],
+  "primer": {
+    "text": "Sunlight enters ecosystems once, at the producer level, and shrinks at every feeding step afterwards. This note explains how energy and substances travel along a food chain, why only about ten percent survives each jump, and how to calculate transfer efficiency from biomass figures.",
+    "prerequisiteSubtopic": null
+  },
+  "lessons": [
+    {
+      "title": "How Energy and Substances Travel",
+      "sourceHeadings": [
+        "Transfer of Energy"
+      ],
+      "specRefs": [
+        "4.8"
+      ],
+      "opening": "Sunlight enters the living world at a single door: producers turn light energy into chemical energy stored in carbon compounds, and from there both energy and substances pass along the chain as consumers eat and rebuild their own biomass.",
+      "keyPoints": [
+        "Producers convert light energy from the sun into chemical energy stored in carbon-containing compounds within their biomass.",
+        "Primary consumers eat producers and use the digested energy and substances to build new biomass in their own tissues.",
+        "Secondary consumers eat primary consumers, and the transfer repeats at every trophic level.",
+        "Some energy and substances leak out to the surroundings between trophic levels."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Light becomes food energy in plants, and every diner afterwards rebuilds that energy into its own body.",
+          "analogy": "A candle lighting the next candle, with a little wax spilling at every lighting.",
+          "examPointer": "Name the storage form — carbon compounds in biomass — when describing the first transfer."
+        },
+        "medium": {
+          "restatement": "The transfer runs on digestion: a consumer breaks down the carbon compounds in the biomass it eats and reassembles the energy and substances into its own tissues, while losses to the environment leak away at each link in the chain.",
+          "analogy": "A builder demolishing a shed to reuse every brick in a new wall, dropping a few bricks on the way.",
+          "examPointer": "Pair substances with energy in answers — both transfer together when organisms feed."
+        }
+      },
+      "check": [
+        {
+          "kind": "mcq",
+          "stem": "Where does energy first enter a food chain?",
+          "misconceptionClass": "location",
+          "options": [
+            {
+              "key": "A",
+              "text": "When producers turn light energy into chemical energy",
+              "correct": true,
+              "explanation": "Correct — this follows directly from the definition.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "When a top predator finally feeds",
+              "correct": false,
+              "explanation": "Top predators receive energy last; entry happens at producers.",
+              "misconception": "close but wrong"
+            },
+            {
+              "key": "C",
+              "text": "When decomposers break down leaves",
+              "correct": false,
+              "explanation": "Decomposers recycle leftovers; entry happens at producers.",
+              "misconception": "category slip"
+            },
+            {
+              "key": "D",
+              "text": "When rain washes minerals to roots",
+              "correct": false,
+              "explanation": "Minerals are substances, not the energy entry step.",
+              "misconception": "invented role"
+            }
+          ]
+        },
+        {
+          "kind": "mcq",
+          "stem": "In what form is light energy stored after producers capture it?",
+          "misconceptionClass": "recall",
+          "options": [
+            {
+              "key": "A",
+              "text": "As chemical energy in carbon-containing compounds within their biomass",
+              "correct": true,
+              "explanation": "Yes — the mechanism works exactly this way.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "As heat inside the leaves",
+              "correct": false,
+              "explanation": "Heat is a loss pathway, not the storage form.",
+              "misconception": "close but wrong"
+            },
+            {
+              "key": "C",
+              "text": "As sunlight trapped in chlorophyll",
+              "correct": false,
+              "explanation": "Chlorophyll captures light; storage lands in carbon compounds.",
+              "misconception": "category slip"
+            },
+            {
+              "key": "D",
+              "text": "As electric charge in roots",
+              "correct": false,
+              "explanation": "Roots store no electric charge for the chain.",
+              "misconception": "invented role"
+            }
+          ]
+        },
+        {
+          "kind": "mcq",
+          "stem": "What does a primary consumer do with the carbon compounds in plant biomass?",
+          "misconceptionClass": "mechanism",
+          "options": [
+            {
+              "key": "A",
+              "text": "It breaks them down and uses the energy and substances to build its own biomass",
+              "correct": true,
+              "explanation": "Correct — this matches the account taught above.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "It stores them untouched forever",
+              "correct": false,
+              "explanation": "Digested compounds are rebuilt into consumer tissue, not shelved.",
+              "misconception": "close but wrong"
+            },
+            {
+              "key": "C",
+              "text": "It converts them back into light",
+              "correct": false,
+              "explanation": "Consumers never turn food back into light.",
+              "misconception": "category slip"
+            },
+            {
+              "key": "D",
+              "text": "It releases them all as oxygen",
+              "correct": false,
+              "explanation": "Oxygen is not released from food this way.",
+              "misconception": "invented role"
+            }
+          ]
+        },
+        {
+          "kind": "mcq",
+          "stem": "Which statement about substances along a food chain is correct?",
+          "misconceptionClass": "reasoning",
+          "options": [
+            {
+              "key": "A",
+              "text": "Chemical substances are transferred between trophic levels as organisms feed",
+              "correct": true,
+              "explanation": "Right — this is the account the lesson teaches.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Substances vanish completely at each level",
+              "correct": false,
+              "explanation": "Some are lost, but many transfer onward.",
+              "misconception": "close but wrong"
+            },
+            {
+              "key": "C",
+              "text": "Substances travel only through water",
+              "correct": false,
+              "explanation": "Feeding, not water alone, moves them along the chain.",
+              "misconception": "category slip"
+            },
+            {
+              "key": "D",
+              "text": "Substances stay locked in the producer",
+              "correct": false,
+              "explanation": "Feeding releases them to consumers.",
+              "misconception": "invented role"
+            }
+          ]
+        },
+        {
+          "kind": "mcq",
+          "stem": "An owl eats a mouse that ate grass seeds. Trace the energy.",
+          "misconceptionClass": "scenario",
+          "options": [
+            {
+              "key": "A",
+              "text": "Light to grass, chemical energy into the mouse, then into the owl",
+              "correct": true,
+              "explanation": "Right — the other options each misplace a concept.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Owl gains light directly from the sun",
+              "correct": false,
+              "explanation": "Owls do not photosynthesise; energy arrives through prey.",
+              "misconception": "close but wrong"
+            },
+            {
+              "key": "C",
+              "text": "Mouse gains energy from the owl",
+              "correct": false,
+              "explanation": "The arrow runs the other way.",
+              "misconception": "category slip"
+            },
+            {
+              "key": "D",
+              "text": "Grass takes energy from the mouse",
+              "correct": false,
+              "explanation": "Grass is the source, not a receiver.",
+              "misconception": "invented role"
+            }
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "State the original energy source for every food chain.",
+          "misconceptionClass": "recall reasoning",
+          "modelAnswer": "The sun is the original source, with light energy converted to chemical energy by producers.",
+          "keywords": [
+            "sun",
+            "light energy",
+            "producers"
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "Name the compounds within producer biomass that store the captured energy.",
+          "misconceptionClass": "recall reasoning",
+          "modelAnswer": "Carbon compounds held within the biomass of producers store the captured light energy.",
+          "keywords": [
+            "carbon",
+            "compounds",
+            "biomass"
+          ]
+        },
+        {
+          "kind": "explain-why",
+          "stem": "Explain why the transfer of energy along a food chain is described as a flow.",
+          "misconceptionClass": "explain-why reasoning",
+          "modelAnswer": "The transfer is a flow because energy moves in one direction, from producers through each consumer level, and never returns to be reused by the level below.",
+          "keywords": [
+            "energy",
+            "flow",
+            "consumers"
+          ]
+        },
+        {
+          "kind": "application",
+          "stem": "A farmer grows cattle on pasture. Explain how solar energy reaches the beef.",
+          "misconceptionClass": "application reasoning",
+          "modelAnswer": "Grass captures light energy into chemical energy in its biomass, and the cattle eat the grass and rebuild that energy into their own tissues.",
+          "keywords": [
+            "grass",
+            "energy",
+            "cattle"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Why 10 Percent Gets Through",
+      "sourceHeadings": [
+        "Energy Loss Between Trophic Levels",
+        "Explaining energy loss from food chains"
+      ],
+      "specRefs": [
+        "4.9"
+      ],
+      "opening": "Only about a tenth of the energy stored at one trophic level ever becomes biomass at the next, because whole body parts go uneaten, some food passes out as faeces, and respiration, excretion and death keep draining energy into the environment.",
+      "keyPoints": [
+        "Only around 10 percent of the energy reaching one trophic level becomes biomass at the next level.",
+        "Consumers rarely eat every part of their prey, so energy in bones, fur or claws never transfers.",
+        "Some ingested material is not digested and is egested as faeces.",
+        "Respiration releases energy as heat, and excretion and decomposition remove further energy.",
+        "Short food chains exist because energy eventually shrinks too far to support another level."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Nine parts in ten are lost to leftovers, droppings, heat and decay; one part builds the next level.",
+          "analogy": "A pay cheque that loses most of its value to taxes, travel and bills before any saving remains.",
+          "examPointer": "List the loss routes in pairs: uneaten parts and faeces first, then heat from respiration, excretion and death."
+        },
+        "medium": {
+          "restatement": "The 10 percent figure follows from three drains: parts of prey never eaten keep their energy, indigestible material leaves as faeces, and whatever is absorbed leaks away through the heat of respiration, excretion of urea and death followed by decomposition.",
+          "analogy": "A bucket carried through a hot desert — holes in the base (faeces), leaks at the seams (heat) and splashes over the rim (excretion).",
+          "examPointer": "For why chains are short, link the shrinking energy to the point where no level can be supported."
+        }
+      },
+      "check": [
+        {
+          "kind": "mcq",
+          "stem": "Roughly what fraction of energy reaches the trophic level above?",
+          "misconceptionClass": "recall",
+          "options": [
+            {
+              "key": "A",
+              "text": "About 10 percent",
+              "correct": true,
+              "explanation": "Correct — this follows directly from the definition.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "About 50 percent",
+              "correct": false,
+              "explanation": "Half is far too generous; the figure is near a tenth.",
+              "misconception": "close but wrong"
+            },
+            {
+              "key": "C",
+              "text": "About 90 percent",
+              "correct": false,
+              "explanation": "90 percent is what is lost, not transferred.",
+              "misconception": "category slip"
+            },
+            {
+              "key": "D",
+              "text": "100 percent",
+              "correct": false,
+              "explanation": "Nothing transfers completely; losses always occur.",
+              "misconception": "invented role"
+            }
+          ]
+        },
+        {
+          "kind": "mcq",
+          "stem": "Why does energy in bones and fur never reach the predator?",
+          "misconceptionClass": "mechanism",
+          "options": [
+            {
+              "key": "A",
+              "text": "Because predators rarely eat every part of their prey, so uneaten parts keep their energy",
+              "correct": true,
+              "explanation": "Yes — the mechanism works exactly this way.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Because bones store no energy at all",
+              "correct": false,
+              "explanation": "Bones do store energy; it is simply never eaten.",
+              "misconception": "close but wrong"
+            },
+            {
+              "key": "C",
+              "text": "Because fur digests too quickly",
+              "correct": false,
+              "explanation": "Fur is not digested at all by most predators.",
+              "misconception": "category slip"
+            },
+            {
+              "key": "D",
+              "text": "Because prey hide their bones",
+              "correct": false,
+              "explanation": "Hiding is not the mechanism; non-consumption is.",
+              "misconception": "invented role"
+            }
+          ]
+        },
+        {
+          "kind": "mcq",
+          "stem": "Which route removes energy from a herbivore as heat?",
+          "misconceptionClass": "process identification",
+          "options": [
+            {
+              "key": "A",
+              "text": "Respiration during movement and life processes",
+              "correct": true,
+              "explanation": "Correct — this matches the account taught above.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Egestion of faeces",
+              "correct": false,
+              "explanation": "Faeces remove undigested material, not heat from respiration.",
+              "misconception": "close but wrong"
+            },
+            {
+              "key": "C",
+              "text": "Growth of new muscle",
+              "correct": false,
+              "explanation": "Growth stores energy in biomass rather than losing it.",
+              "misconception": "category slip"
+            },
+            {
+              "key": "D",
+              "text": "Photosynthesis in gut bacteria",
+              "correct": false,
+              "explanation": "Gut bacteria do not photosynthesise.",
+              "misconception": "invented role"
+            }
+          ]
+        },
+        {
+          "kind": "mcq",
+          "stem": "What happens to plant material a herbivore cannot digest?",
+          "misconceptionClass": "mechanism",
+          "options": [
+            {
+              "key": "A",
+              "text": "It is egested as faeces, taking its energy out of the chain",
+              "correct": true,
+              "explanation": "Right — this is the account the lesson teaches.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "It is fully absorbed into blood",
+              "correct": false,
+              "explanation": "Indigestible material is not absorbed.",
+              "misconception": "close but wrong"
+            },
+            {
+              "key": "C",
+              "text": "It turns into muscle protein",
+              "correct": false,
+              "explanation": "Only digested material can build tissue.",
+              "misconception": "category slip"
+            },
+            {
+              "key": "D",
+              "text": "It evaporates as water vapour",
+              "correct": false,
+              "explanation": "Faeces are solid waste, not vapour.",
+              "misconception": "invented role"
+            }
+          ]
+        },
+        {
+          "kind": "mcq",
+          "stem": "Why do food chains rarely exceed four or five levels?",
+          "misconceptionClass": "reasoning",
+          "options": [
+            {
+              "key": "A",
+              "text": "Because the remaining energy shrinks too far to support another trophic level",
+              "correct": true,
+              "explanation": "Right — the other options each misplace a concept.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Because predators refuse to eat each other",
+              "correct": false,
+              "explanation": "Predation continues; the energy limit decides.",
+              "misconception": "close but wrong"
+            },
+            {
+              "key": "C",
+              "text": "Because producers run out of light at level four",
+              "correct": false,
+              "explanation": "Light reaches producers only, but the limit is energy shrinkage up the chain.",
+              "misconception": "category slip"
+            },
+            {
+              "key": "D",
+              "text": "Because consumers grow too heavy to move",
+              "correct": false,
+              "explanation": "Weight is irrelevant; energy scarcity ends the chain.",
+              "misconception": "invented role"
+            }
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "State the approximate percentage of energy transferred between trophic levels.",
+          "misconceptionClass": "recall reasoning",
+          "modelAnswer": "Only about 10 percent of the energy reaching one trophic level turns into biomass at the next.",
+          "keywords": [
+            "10 percent",
+            "energy",
+            "trophic level"
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "Name the process that releases energy from food as heat inside consumers.",
+          "misconceptionClass": "recall reasoning",
+          "modelAnswer": "Respiration releases energy from digested food, much of it as heat, inside consumers.",
+          "keywords": [
+            "respiration",
+            "heat",
+            "consumers"
+          ]
+        },
+        {
+          "kind": "explain-why",
+          "stem": "Explain why excretion counts as an energy loss from a food chain.",
+          "misconceptionClass": "explain-why reasoning",
+          "modelAnswer": "Excretion counts as an energy loss because urea and other metabolic wastes carry energy that was absorbed but never converted into biomass.",
+          "keywords": [
+            "excretion",
+            "energy",
+            "waste"
+          ]
+        },
+        {
+          "kind": "application",
+          "stem": "A carnivore eats 1000 kJ of prey tissue and only 100 kJ builds its biomass. Give two reasons.",
+          "misconceptionClass": "application reasoning",
+          "modelAnswer": "Roughly 900 kJ is lost because some prey parts were uneaten or undigested and egested, and respiration released much of the rest as heat.",
+          "keywords": [
+            "respiration",
+            "heat",
+            "egested"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Measuring Transfer Efficiency",
+      "sourceHeadings": [
+        "Calculating the efficiency of energy or biomass transfer"
+      ],
+      "specRefs": [
+        "4.9"
+      ],
+      "opening": "Transfer efficiency is a simple percentage: divide the biomass at the higher trophic level by the biomass at the lower one, multiply by 100, and the answer tells you how much of the lower level became the higher.",
+      "keyPoints": [
+        "Efficiency of biomass transfer equals biomass in the higher trophic level divided by biomass in the lower trophic level, times 100.",
+        "Energy transfer efficiency is calculated the same way as biomass transfer efficiency.",
+        "Losing energy means losing biomass at each trophic level, since energy is stored within biomass."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Higher level over lower level, times 100 — that is the whole formula.",
+          "analogy": "A refund rate: what arrived divided by what was sent, expressed as a percentage.",
+          "examPointer": "Give the answer to the significant figures requested, usually three."
+        },
+        "medium": {
+          "restatement": "Because energy is stored within biomass, the same ratio serves both currencies: dividing the biomass at the higher trophic level by that at the lower and scaling by 100 yields the percentage efficiency, and any loss of energy shows up as lost biomass too.",
+          "analogy": "Converting between two currencies at a fixed rate — the same sum works for both.",
+          "examPointer": "Write the equation first in calculations; method marks follow the setup as much as the answer."
+        }
+      },
+      "check": [
+        {
+          "kind": "mcq",
+          "stem": "Which two values divide in the efficiency equation?",
+          "misconceptionClass": "recall",
+          "options": [
+            {
+              "key": "A",
+              "text": "Biomass in the higher trophic level over biomass in the lower trophic level",
+              "correct": true,
+              "explanation": "Correct — this follows directly from the definition.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Biomass in the lower level over the higher",
+              "correct": false,
+              "explanation": "That inverts the answer above 100 percent.",
+              "misconception": "close but wrong"
+            },
+            {
+              "key": "C",
+              "text": "Energy over time",
+              "correct": false,
+              "explanation": "Time is not part of the transfer equation.",
+              "misconception": "category slip"
+            },
+            {
+              "key": "D",
+              "text": "Number of organisms over number of species",
+              "correct": false,
+              "explanation": "Counts and species belong to other measures.",
+              "misconception": "invented role"
+            }
+          ]
+        },
+        {
+          "kind": "mcq",
+          "stem": "Clover holds 1450 kg of biomass and snails hold 138 kg. What is the transfer efficiency to three significant figures?",
+          "misconceptionClass": "calculation",
+          "options": [
+            {
+              "key": "A",
+              "text": "9.52 percent",
+              "correct": true,
+              "explanation": "Yes — the mechanism works exactly this way.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "95.2 percent",
+              "correct": false,
+              "explanation": "The decimal sits one place too high; 138 over 1450 times 100 is 9.52.",
+              "misconception": "close but wrong"
+            },
+            {
+              "key": "C",
+              "text": "105 percent",
+              "correct": false,
+              "explanation": "The higher level never exceeds the lower; check the division order.",
+              "misconception": "category slip"
+            },
+            {
+              "key": "D",
+              "text": "0.095 percent",
+              "correct": false,
+              "explanation": "The multiplication by 100 was skipped.",
+              "misconception": "invented role"
+            }
+          ]
+        },
+        {
+          "kind": "mcq",
+          "stem": "Why can energy efficiency reuse the biomass equation?",
+          "misconceptionClass": "reasoning",
+          "options": [
+            {
+              "key": "A",
+              "text": "Because energy is stored within biomass, so the ratio behaves the same way",
+              "correct": true,
+              "explanation": "Correct — this matches the account taught above.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Because energy and biomass are unrelated",
+              "correct": false,
+              "explanation": "They are closely related; energy sits inside biomass.",
+              "misconception": "close but wrong"
+            },
+            {
+              "key": "C",
+              "text": "Because biomass is always measured in Joules",
+              "correct": false,
+              "explanation": "Biomass is measured in mass units, not Joules.",
+              "misconception": "category slip"
+            },
+            {
+              "key": "D",
+              "text": "Because the exam board says so",
+              "correct": false,
+              "explanation": "The reason is physical, not administrative.",
+              "misconception": "invented role"
+            }
+          ]
+        },
+        {
+          "kind": "mcq",
+          "stem": "A level transfers 15 percent of its energy. What happens to the rest?",
+          "misconceptionClass": "reasoning",
+          "options": [
+            {
+              "key": "A",
+              "text": "It is lost to the environment through uneaten parts, egestion, heat and excretion",
+              "correct": true,
+              "explanation": "Right — this is the account the lesson teaches.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "It is stored for the next year",
+              "correct": false,
+              "explanation": "No storage bank holds lost energy for later.",
+              "misconception": "close but wrong"
+            },
+            {
+              "key": "C",
+              "text": "It becomes extra biomass",
+              "correct": false,
+              "explanation": "Only the transferred fraction builds biomass.",
+              "misconception": "category slip"
+            },
+            {
+              "key": "D",
+              "text": "It returns to the sun",
+              "correct": false,
+              "explanation": "Energy radiates away as heat, not back to the sun.",
+              "misconception": "invented role"
+            }
+          ]
+        },
+        {
+          "kind": "mcq",
+          "stem": "Thrushes hold 14.1 kg above snails at 138 kg. Which calculation gives their efficiency?",
+          "misconceptionClass": "calculation",
+          "options": [
+            {
+              "key": "A",
+              "text": "14.1 divided by 138, times 100, giving about 10.2 percent",
+              "correct": true,
+              "explanation": "Right — the other options each misplace a concept.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "138 divided by 14.1, times 100",
+              "correct": false,
+              "explanation": "That inverts the ratio and exceeds 100 percent.",
+              "misconception": "close but wrong"
+            },
+            {
+              "key": "C",
+              "text": "14.1 times 138",
+              "correct": false,
+              "explanation": "Multiplication never yields a percentage.",
+              "misconception": "category slip"
+            },
+            {
+              "key": "D",
+              "text": "14.1 minus 138, times 100",
+              "correct": false,
+              "explanation": "Subtraction is not the efficiency formula.",
+              "misconception": "invented role"
+            }
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "State the equation for the efficiency of biomass transfer.",
+          "misconceptionClass": "recall reasoning",
+          "modelAnswer": "Efficiency equals the biomass in the higher trophic level divided by the biomass in the lower trophic level, multiplied by 100.",
+          "keywords": [
+            "biomass",
+            "higher trophic level",
+            "100"
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "State the link between energy loss and biomass loss between trophic levels.",
+          "misconceptionClass": "recall reasoning",
+          "modelAnswer": "Energy is stored within biomass, so any loss of energy between trophic levels appears as a loss of biomass too.",
+          "keywords": [
+            "energy",
+            "biomass",
+            "loss"
+          ]
+        },
+        {
+          "kind": "explain-why",
+          "stem": "Explain why the efficiency figure is always below 100 percent.",
+          "misconceptionClass": "explain-why reasoning",
+          "modelAnswer": "The efficiency figure stays below 100 percent because losses from uneaten parts, egestion, heat and excretion always remove some energy or biomass before the next level.",
+          "keywords": [
+            "efficiency",
+            "losses",
+            "energy"
+          ]
+        },
+        {
+          "kind": "application",
+          "stem": "A farmer wants more beef from the same pasture. Explain the limit.",
+          "misconceptionClass": "application reasoning",
+          "modelAnswer": "Only about 10 percent of the grass biomass becomes cattle biomass, so the pasture cannot yield unlimited beef however well it is managed.",
+          "keywords": [
+            "10 percent",
+            "biomass",
+            "cattle"
+          ]
+        }
+      ]
+    }
+  ],
+  "noteAssets": {
+    "glossary": [
+      {
+        "term": "producer",
+        "definition": "An organism that converts light energy into chemical energy stored in its biomass.",
+        "firstLesson": 1
+      },
+      {
+        "term": "faeces",
+        "definition": "The undigested material egested by a consumer, carrying energy out of the chain.",
+        "firstLesson": 2
+      },
+      {
+        "term": "respiration",
+        "definition": "The process that releases energy from food, much of it as heat, inside living organisms.",
+        "firstLesson": 2
+      },
+      {
+        "term": "biomass",
+        "definition": "The mass of living matter in which energy is stored at each trophic level.",
+        "firstLesson": 3
+      },
+      {
+        "term": "efficiency",
+        "definition": "The percentage of biomass or energy that passes from one trophic level to the next.",
+        "firstLesson": 3
+      }
+    ],
+    "workedExample": null
+  },
+  "figures": [
+    {
+      "id": "fig-01",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-biology-19/assets/7b682b2bc045-40016-food-chain.png",
+      "alt": "Illustration of a food chain showing sun, grass, a mouse eating grass, and an owl facing the mouse. Arrows indicate energy flow from grass to owl.",
+      "sourceHeading": "Transfer of Energy",
+      "moduleIds": [
+        "L1"
+      ],
+      "binding": "heading-unique"
+    },
+    {
+      "id": "fig-02",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-biology-19/assets/2361b36969b3-energy-losses.png",
+      "alt": "Energy losses take place between each trophic level of a food chain",
+      "sourceHeading": "Energy Loss Between Trophic Levels",
+      "moduleIds": [
+        "L2"
+      ],
+      "binding": "heading-unique"
+    },
+    {
+      "id": "fig-03",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-biology-19/assets/be4e46897c5e-food-chain-energy-transfer-efficiency.png",
+      "alt": "food chain containing 1450 kg clover, 138 kg snails, 14.1 kg thrushes and 1.18 kg sparrowhawks and ",
+      "sourceHeading": "Calculating the efficiency of energy or biomass transfer",
+      "moduleIds": [
+        "L3"
+      ],
+      "binding": "heading-unique"
+    },
+    {
+      "id": "fig-04",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-biology-19/assets/a8c61eca643c-new-we-calculating-efficiency-of-biomass-transfe.png",
+      "alt": "New WE - calculating-efficiency-of-biomass-transfers_2, downloadable IGCSE & GCSE Biology revision notes",
+      "sourceHeading": "Calculating the efficiency of energy or biomass transfer",
+      "moduleIds": [
+        "L3"
+      ],
+      "binding": "heading-unique"
+    }
+  ]
+}

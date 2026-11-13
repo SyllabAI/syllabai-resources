@@ -1,0 +1,868 @@
+{
+  "format": "guided-lesson/0.7",
+  "noteRef": {
+    "noteId": "rn_DF5N8HknMC9NC39t",
+    "corpusVersion": "sme-revision-notes-igcse-biology-19-2026-09-17",
+    "topicTitle": "Ecology and the environment",
+    "subtopicTitle": "The Organism in the Environment",
+    "sourceUrl": "https://www.savemyexams.com/igcse/biology/edexcel/19/revision-notes/4-ecology-and-the-environment/the-organism-in-the-environment/practical-investigating-population-size"
+  },
+  "specPoints": [
+    {
+      "code": "4.2",
+      "text": "practical: investigate the population size of an organism in two different areas using quadrats"
+    }
+  ],
+  "primer": {
+    "text": "Counting every organism in a field is impossible, so ecologists sample with quadrats. This note introduces the square frame, the three abundance records it supports, and the full two-area investigation, from random placement through counting to the limitations that need care.",
+    "prerequisiteSubtopic": null
+  },
+  "lessons": [
+    {
+      "title": "The Quadrat Toolkit",
+      "sourceHeadings": [
+        "Quadrats"
+      ],
+      "specRefs": [
+        "4.2"
+      ],
+      "opening": "A quadrat is a square frame of wood or wire, in sizes like 0.25 or 1 square metre, and dropping it on the ground lets ecologists record the plants inside it by counting individuals, listing species or estimating percentage cover.",
+      "keyPoints": [
+        "Quadrats are square frames placed on the ground so the organisms inside can be recorded.",
+        "Common quadrat sizes include 0.25 square metres and 1 square metre.",
+        "Abundance can be measured by counting individuals of one species or by species richness.",
+        "Percentage cover estimates the share of quadrat area a species occupies when counting is impractical."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Drop a square frame, record what lives inside it, and repeat.",
+          "analogy": "A hula hoop thrown onto a lawn — count whatever sits inside the ring.",
+          "examPointer": "Quote the three records: individual counts, species richness, percentage cover — and match cover to grass or moss."
+        },
+        "medium": {
+          "restatement": "The frame standardises the sampled area, which is why sizes are quoted in square metres; the record chosen depends on the species, with individual counts for distinct plants, species richness for diversity questions and percentage cover where individuals cannot be separated.",
+          "analogy": "A photographer choosing lens settings: same scene, three different measurement styles depending on the subject.",
+          "examPointer": "Spelling earns marks: quadrat, not quadrant."
+        }
+      },
+      "check": [
+        {
+          "kind": "mcq",
+          "stem": "What is a quadrat?",
+          "misconceptionClass": "definition",
+          "options": [
+            {
+              "key": "A",
+              "text": "A square frame placed on the ground to record the organisms within it",
+              "correct": true,
+              "explanation": "Correct — this follows directly from the definition.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "A net for catching insects",
+              "correct": false,
+              "explanation": "Nets trap animals; quadrats frame an area for counting.",
+              "misconception": "close but wrong"
+            },
+            {
+              "key": "C",
+              "text": "A microscope slide for soil",
+              "correct": false,
+              "explanation": "Soil slides are a different tool.",
+              "misconception": "category slip"
+            },
+            {
+              "key": "D",
+              "text": "A tape for measuring height",
+              "correct": false,
+              "explanation": "Tape measures length; a quadrat frames area.",
+              "misconception": "invented role"
+            }
+          ]
+        },
+        {
+          "kind": "mcq",
+          "stem": "Which record suits grass or moss, where counting individuals is impractical?",
+          "misconceptionClass": "application",
+          "options": [
+            {
+              "key": "A",
+              "text": "Percentage cover, estimating the quadrat area the species occupies",
+              "correct": true,
+              "explanation": "Yes — the mechanism works exactly this way.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Counting every individual blade",
+              "correct": false,
+              "explanation": "Counting is impractical for grass, hence cover estimates.",
+              "misconception": "close but wrong"
+            },
+            {
+              "key": "C",
+              "text": "Measuring root depth",
+              "correct": false,
+              "explanation": "Root depth is not a quadrat record.",
+              "misconception": "category slip"
+            },
+            {
+              "key": "D",
+              "text": "Weighing the whole quadrat",
+              "correct": false,
+              "explanation": "Weight is not the standard abundance measure here.",
+              "misconception": "invented role"
+            }
+          ]
+        },
+        {
+          "kind": "mcq",
+          "stem": "Which abundance record counts different species rather than individuals?",
+          "misconceptionClass": "contrast",
+          "options": [
+            {
+              "key": "A",
+              "text": "Species richness",
+              "correct": true,
+              "explanation": "Correct — this matches the account taught above.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Individual counts of buttercups",
+              "correct": false,
+              "explanation": "That counts one species, not richness.",
+              "misconception": "close but wrong"
+            },
+            {
+              "key": "C",
+              "text": "Percentage cover of moss",
+              "correct": false,
+              "explanation": "Cover tracks area, not species counts.",
+              "misconception": "category slip"
+            },
+            {
+              "key": "D",
+              "text": "Quadrat weight in grams",
+              "correct": false,
+              "explanation": "Weight measures none of these.",
+              "misconception": "invented role"
+            }
+          ]
+        },
+        {
+          "kind": "mcq",
+          "stem": "Why are plants the usual subjects of quadrat studies?",
+          "misconceptionClass": "reasoning",
+          "options": [
+            {
+              "key": "A",
+              "text": "Because plants stay still, so the frame records their abundance reliably",
+              "correct": true,
+              "explanation": "Right — this is the account the lesson teaches.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Because animals refuse to enter frames",
+              "correct": false,
+              "explanation": "Animals move through quadrats; plants simply stay put.",
+              "misconception": "close but wrong"
+            },
+            {
+              "key": "C",
+              "text": "Because plants are always rare",
+              "correct": false,
+              "explanation": "Plants are often abundant; stillness is the point.",
+              "misconception": "category slip"
+            },
+            {
+              "key": "D",
+              "text": "Because quadrats only work underwater",
+              "correct": false,
+              "explanation": "Quadrats work on land and in water.",
+              "misconception": "invented role"
+            }
+          ]
+        },
+        {
+          "kind": "mcq",
+          "stem": "A student must compare plant abundance in two fields. Which tool set fits?",
+          "misconceptionClass": "application",
+          "options": [
+            {
+              "key": "A",
+              "text": "Quadrats with a random number generator and tape measures",
+              "correct": true,
+              "explanation": "Right — the other options each misplace a concept.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "A thermometer and rain gauge",
+              "correct": false,
+              "explanation": "Those measure weather, not abundance.",
+              "misconception": "close but wrong"
+            },
+            {
+              "key": "C",
+              "text": "A pitfall trap and torch",
+              "correct": false,
+              "explanation": "Pitfall traps sample moving animals, not framed plant counts.",
+              "misconception": "category slip"
+            },
+            {
+              "key": "D",
+              "text": "A quadrat with no placement plan",
+              "correct": false,
+              "explanation": "Random placement is required for fair sampling.",
+              "misconception": "invented role"
+            }
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "State what a quadrat is used for.",
+          "misconceptionClass": "recall reasoning",
+          "modelAnswer": "A quadrat frames an area of ground so the organisms inside can be recorded to estimate population size or abundance.",
+          "keywords": [
+            "quadrat",
+            "organisms",
+            "abundance"
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "Name the abundance method used when it is hard to count individual plants.",
+          "misconceptionClass": "recall reasoning",
+          "modelAnswer": "Percentage cover estimates the share of the quadrat area occupied by a species when counting individuals is impractical.",
+          "keywords": [
+            "percentage cover",
+            "quadrat",
+            "species"
+          ]
+        },
+        {
+          "kind": "explain-why",
+          "stem": "Explain why quadrat sizes are quoted in square metres.",
+          "misconceptionClass": "explain-why reasoning",
+          "modelAnswer": "Quadrat sizes are quoted in square metres because the frame encloses an area, and abundance is compared per unit area, not per length.",
+          "keywords": [
+            "quadrat",
+            "area",
+            "square metres"
+          ]
+        },
+        {
+          "kind": "application",
+          "stem": "A moss patch spreads unevenly across a quadrat. Which record fits best?",
+          "misconceptionClass": "application reasoning",
+          "modelAnswer": "Percentage cover fits best, since moss individuals are hard to separate, so the student estimates the fraction of quadrat area the moss occupies.",
+          "keywords": [
+            "percentage cover",
+            "moss",
+            "quadrat"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Comparing Two Areas",
+      "sourceHeadings": [
+        "Investigating population size in two different areas using quadrats",
+        "Apparatus"
+      ],
+      "specRefs": [
+        "4.2"
+      ],
+      "opening": "To compare population size in two areas, lay out each survey area with two tape measures, then use a random number generator to choose coordinates, so the quadrat lands where chance, not preference, sends it.",
+      "keyPoints": [
+        "The apparatus list holds two tape measures, a quadrat, a random number generator and a species key.",
+        "Two tape measures lay out the survey area as a grid.",
+        "Random coordinates decide where each quadrat is placed.",
+        "A species key helps identify the species found inside each quadrat."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Frame the field with tapes, let random numbers pick the spots, and key out whatever you find.",
+          "analogy": "A lottery for the quadrat: chance, not the student, chooses every plot.",
+          "examPointer": "Learn the four-item apparatus list — two tape measures, one quadrat, one random number generator, one species key."
+        },
+        "medium": {
+          "restatement": "The design exists to kill bias: the tapes turn the area into coordinates, the generator draws positions at random, and the species key removes naming errors, so the only differences left between the two areas are real ecological ones.",
+          "analogy": "A blind tasting: identical cups, random order, so only the flavour can differ.",
+          "examPointer": "If asked why random, answer representativeness — the sample must stand for the whole area."
+        }
+      },
+      "check": [
+        {
+          "kind": "mcq",
+          "stem": "Why must quadrat placement be random?",
+          "misconceptionClass": "reasoning",
+          "options": [
+            {
+              "key": "A",
+              "text": "Random placement makes the sample representative of the survey area",
+              "correct": true,
+              "explanation": "Correct — this follows directly from the definition.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Because students enjoy dice games",
+              "correct": false,
+              "explanation": "The point is fair sampling, not fun.",
+              "misconception": "close but wrong"
+            },
+            {
+              "key": "C",
+              "text": "Because quadrats break otherwise",
+              "correct": false,
+              "explanation": "Randomness protects the data, not the frame.",
+              "misconception": "category slip"
+            },
+            {
+              "key": "D",
+              "text": "Because plants grow better randomly",
+              "correct": false,
+              "explanation": "Plant growth is unaffected; sampling bias is the issue.",
+              "misconception": "invented role"
+            }
+          ]
+        },
+        {
+          "kind": "mcq",
+          "stem": "Which item converts coordinates into a position on the ground?",
+          "misconceptionClass": "technique",
+          "options": [
+            {
+              "key": "A",
+              "text": "The two tape measures laid out as axes",
+              "correct": true,
+              "explanation": "Yes — the mechanism works exactly this way.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "The species key",
+              "correct": false,
+              "explanation": "The key identifies species, it does not position frames.",
+              "misconception": "close but wrong"
+            },
+            {
+              "key": "C",
+              "text": "The random number generator alone",
+              "correct": false,
+              "explanation": "It makes numbers; the tapes map them to ground.",
+              "misconception": "category slip"
+            },
+            {
+              "key": "D",
+              "text": "The pencil for notes",
+              "correct": false,
+              "explanation": "A pencil records results, not positions.",
+              "misconception": "invented role"
+            }
+          ]
+        },
+        {
+          "kind": "mcq",
+          "stem": "What does a species key add to the investigation?",
+          "misconceptionClass": "recall",
+          "options": [
+            {
+              "key": "A",
+              "text": "Reliable identification of the species found in each quadrat",
+              "correct": true,
+              "explanation": "Correct — this matches the account taught above.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Random coordinates for placement",
+              "correct": false,
+              "explanation": "The generator handles coordinates.",
+              "misconception": "close but wrong"
+            },
+            {
+              "key": "C",
+              "text": "Extra quadrat frames",
+              "correct": false,
+              "explanation": "The key identifies, it does not frame.",
+              "misconception": "category slip"
+            },
+            {
+              "key": "D",
+              "text": "Weather readings",
+              "correct": false,
+              "explanation": "Weather is not part of the key.",
+              "misconception": "invented role"
+            }
+          ]
+        },
+        {
+          "kind": "mcq",
+          "stem": "Coordinates 4,5 are drawn for a 10 by 10 metre area. Where does the quadrat land?",
+          "misconceptionClass": "application",
+          "options": [
+            {
+              "key": "A",
+              "text": "Four metres along one axis and five metres along the other",
+              "correct": true,
+              "explanation": "Right — this is the account the lesson teaches.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "At the centre of the area",
+              "correct": false,
+              "explanation": "The centre would be 5,5, not 4,5.",
+              "misconception": "close but wrong"
+            },
+            {
+              "key": "C",
+              "text": "Four steps from any edge chosen freely",
+              "correct": false,
+              "explanation": "The axes fix the position precisely.",
+              "misconception": "category slip"
+            },
+            {
+              "key": "D",
+              "text": "Anywhere the student prefers",
+              "correct": false,
+              "explanation": "Preference defeats random sampling.",
+              "misconception": "invented role"
+            }
+          ]
+        },
+        {
+          "kind": "mcq",
+          "stem": "Which apparatus item guards against missing species you cannot name?",
+          "misconceptionClass": "technique",
+          "options": [
+            {
+              "key": "A",
+              "text": "The species key",
+              "correct": true,
+              "explanation": "Right — the other options each misplace a concept.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "The second tape measure",
+              "correct": false,
+              "explanation": "Tapes frame the area; keys name the species.",
+              "misconception": "close but wrong"
+            },
+            {
+              "key": "C",
+              "text": "The quadrat itself",
+              "correct": false,
+              "explanation": "The frame samples; identification needs the key.",
+              "misconception": "category slip"
+            },
+            {
+              "key": "D",
+              "text": "The random number generator",
+              "correct": false,
+              "explanation": "It picks coordinates, not names.",
+              "misconception": "invented role"
+            }
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "List the apparatus for a two-area quadrat comparison.",
+          "misconceptionClass": "recall reasoning",
+          "modelAnswer": "Two tape measures, a quadrat, a random number generator and a species key make up the apparatus list.",
+          "keywords": [
+            "tape measures",
+            "quadrat",
+            "species key"
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "State how the first quadrat position is chosen.",
+          "misconceptionClass": "recall reasoning",
+          "modelAnswer": "A random number generator produces coordinates, and the quadrat is placed at that point within the laid-out survey area.",
+          "keywords": [
+            "random number generator",
+            "coordinates",
+            "quadrat"
+          ]
+        },
+        {
+          "kind": "explain-why",
+          "stem": "Explain why bias enters when students pick quadrat spots by eye.",
+          "misconceptionClass": "explain-why reasoning",
+          "modelAnswer": "Choosing spots by eye biases the sample towards whatever looks interesting, so random coordinates keep the estimate honest for the whole survey area.",
+          "keywords": [
+            "bias",
+            "random",
+            "survey area"
+          ]
+        },
+        {
+          "kind": "application",
+          "stem": "A student drops every quadrat on the path edge. Judge the sample.",
+          "misconceptionClass": "application reasoning",
+          "modelAnswer": "The sample is biased, since path edges differ from the rest of the area, so the population estimate will not represent the survey area fairly.",
+          "keywords": [
+            "biased",
+            "sample",
+            "survey area"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "From Counts to Conclusions",
+      "sourceHeadings": [
+        "Method",
+        "Results"
+      ],
+      "specRefs": [
+        "4.2"
+      ],
+      "opening": "Once counts are averaged, the two areas can be compared, and any difference in abundance traces back to biotic pressures such as competition or to abiotic conditions such as light, minerals, water, pH, temperature and salinity.",
+      "keyPoints": [
+        "Averaged results allow the abundance of a species to be compared between the two survey areas.",
+        "Biotic influences on abundance include competition and predator-prey relationships.",
+        "Abiotic influences include light, mineral supply, water supply, pH, temperature and salinity.",
+        "Individuals can be missed under leaves, so a pencil or stick lifts them clear, and a species key settles identification."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Average the counts, compare the areas, and explain differences through biotic and abiotic factors.",
+          "analogy": "Two school test papers compared after marking — then the teacher asks why the scores differ.",
+          "examPointer": "Split your explanation in two: living pressures (competition, predation) and non-living conditions (light, water, pH)."
+        },
+        "medium": {
+          "restatement": "The analysis inherits the limitations: missed individuals hide under other species and get lifted clear with a pencil, and uncertain identification is settled with a species key; valid averages then differ because of biotic or abiotic differences between the areas.",
+          "analogy": "A referee reviewing match footage before declaring the winner — fix the errors, then explain the gap.",
+          "examPointer": "For limitations, always give the solution alongside the problem; both halves carry marks."
+        }
+      },
+      "check": [
+        {
+          "kind": "mcq",
+          "stem": "Why average the quadrat counts before comparing areas?",
+          "misconceptionClass": "reasoning",
+          "options": [
+            {
+              "key": "A",
+              "text": "Averaging smooths quadrat-to-quadrat variation into one fair estimate",
+              "correct": true,
+              "explanation": "Correct — this follows directly from the definition.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Because single counts are always wrong",
+              "correct": false,
+              "explanation": "Single counts are valid data; averaging reduces variability.",
+              "misconception": "close but wrong"
+            },
+            {
+              "key": "C",
+              "text": "Because examiners dislike tables",
+              "correct": false,
+              "explanation": "The method is statistical, not cosmetic.",
+              "misconception": "category slip"
+            },
+            {
+              "key": "D",
+              "text": "Because areas must match exactly",
+              "correct": false,
+              "explanation": "Averaging enables comparison; it does not force equality.",
+              "misconception": "invented role"
+            }
+          ]
+        },
+        {
+          "kind": "mcq",
+          "stem": "A quadrat count misses seedlings hidden by bracken. Which limitation is this?",
+          "misconceptionClass": "limitation",
+          "options": [
+            {
+              "key": "A",
+              "text": "Easy-to-miss individuals hidden by another species",
+              "correct": true,
+              "explanation": "Yes — the mechanism works exactly this way.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Faulty apparatus",
+              "correct": false,
+              "explanation": "The frame is fine; the counting technique slipped.",
+              "misconception": "close but wrong"
+            },
+            {
+              "key": "C",
+              "text": "Weather interference",
+              "correct": false,
+              "explanation": "Weather is not the named limitation.",
+              "misconception": "category slip"
+            },
+            {
+              "key": "D",
+              "text": "Species key failure",
+              "correct": false,
+              "explanation": "Identification is not the issue; visibility is.",
+              "misconception": "invented role"
+            }
+          ]
+        },
+        {
+          "kind": "mcq",
+          "stem": "Which fix suits seedlings hidden under leaves in a quadrat?",
+          "misconceptionClass": "technique",
+          "options": [
+            {
+              "key": "A",
+              "text": "Lift leaves gently with a pencil or stick to check underneath",
+              "correct": true,
+              "explanation": "Correct — this matches the account taught above.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Count faster next time",
+              "correct": false,
+              "explanation": "Speed worsens misses; checking underneath fixes them.",
+              "misconception": "close but wrong"
+            },
+            {
+              "key": "C",
+              "text": "Skip the quadrat entirely",
+              "correct": false,
+              "explanation": "Skipping loses data instead of revealing it.",
+              "misconception": "category slip"
+            },
+            {
+              "key": "D",
+              "text": "Guess the number hidden",
+              "correct": false,
+              "explanation": "Guessing defeats the estimate.",
+              "misconception": "invented role"
+            }
+          ]
+        },
+        {
+          "kind": "mcq",
+          "stem": "Which abiotic factor list fits a plant abundance comparison?",
+          "misconceptionClass": "classification",
+          "options": [
+            {
+              "key": "A",
+              "text": "Light, minerals, water, pH, temperature and salinity",
+              "correct": true,
+              "explanation": "Right — this is the account the lesson teaches.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Competition and predation",
+              "correct": false,
+              "explanation": "Those are biotic factors, not abiotic.",
+              "misconception": "close but wrong"
+            },
+            {
+              "key": "C",
+              "text": "Species key quality",
+              "correct": false,
+              "explanation": "The key is apparatus, not an environmental factor.",
+              "misconception": "category slip"
+            },
+            {
+              "key": "D",
+              "text": "Quadrat colour",
+              "correct": false,
+              "explanation": "Frame colour changes nothing ecological.",
+              "misconception": "invented role"
+            }
+          ]
+        },
+        {
+          "kind": "mcq",
+          "stem": "Area A holds double the abundance of area B. What explains it?",
+          "misconceptionClass": "reasoning",
+          "options": [
+            {
+              "key": "A",
+              "text": "Differences in biotic pressures or abiotic conditions between the areas",
+              "correct": true,
+              "explanation": "Right — the other options each misplace a concept.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Area A is simply larger",
+              "correct": false,
+              "explanation": "Quadrats standardise area, so size cancels out.",
+              "misconception": "close but wrong"
+            },
+            {
+              "key": "C",
+              "text": "Counting errors doubled the number",
+              "correct": false,
+              "explanation": "Assuming error without cause is weak; factors explain it.",
+              "misconception": "category slip"
+            },
+            {
+              "key": "D",
+              "text": "The species moved overnight",
+              "correct": false,
+              "explanation": "Plants stay put; conditions differ instead.",
+              "misconception": "invented role"
+            }
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "State one biotic factor that influences plant abundance between two areas.",
+          "misconceptionClass": "recall reasoning",
+          "modelAnswer": "Competition is a biotic factor that influences the abundance recorded in each survey area.",
+          "keywords": [
+            "competition",
+            "abundance",
+            "survey area"
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "State one limitation of counting organisms in a quadrat and its solution.",
+          "misconceptionClass": "recall reasoning",
+          "modelAnswer": "Individuals are easily missed under other species, so a pencil or stick lifts the leaves to check underneath.",
+          "keywords": [
+            "missed",
+            "leaves",
+            "pencil"
+          ]
+        },
+        {
+          "kind": "explain-why",
+          "stem": "Explain why both biotic and abiotic factors must be considered when comparing areas.",
+          "misconceptionClass": "explain-why reasoning",
+          "modelAnswer": "Both must be considered because abundance responds to living pressures such as competition and to non-living conditions such as light and water, so either could explain a difference.",
+          "keywords": [
+            "biotic",
+            "abiotic",
+            "abundance"
+          ]
+        },
+        {
+          "kind": "application",
+          "stem": "A shady area yields half the count of a sunny one. Explain using factors.",
+          "misconceptionClass": "application reasoning",
+          "modelAnswer": "Light intensity differs between the areas, so photosynthesis and growth differ, making the abiotic difference the likely driver of the lower abundance.",
+          "keywords": [
+            "light intensity",
+            "abiotic",
+            "abundance"
+          ]
+        }
+      ]
+    }
+  ],
+  "noteAssets": {
+    "glossary": [
+      {
+        "term": "quadrat",
+        "definition": "A square frame of wood or wire placed on the ground so the organisms inside can be recorded.",
+        "firstLesson": 1
+      },
+      {
+        "term": "abundance",
+        "definition": "A measure of how many organisms of a species are present in an area.",
+        "firstLesson": 1
+      },
+      {
+        "term": "percentage cover",
+        "definition": "The approximate share of the quadrat area in which a species is found.",
+        "firstLesson": 1
+      },
+      {
+        "term": "species key",
+        "definition": "A guide used to identify the species found within a quadrat.",
+        "firstLesson": 3
+      }
+    ],
+    "workedExample": null
+  },
+  "figures": [
+    {
+      "id": "fig-01",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-biology-19/assets/9db06fbe8066-quadrat-in-use.png",
+      "alt": "Quadrat in use, downloadable IGCSE & GCSE Biology revision notes",
+      "sourceHeading": "Quadrats",
+      "moduleIds": [
+        "L1"
+      ],
+      "binding": "heading-unique"
+    },
+    {
+      "id": "fig-02",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-biology-19/assets/46c41033dca3-estimating-percentage-cover-of-one-or-more-speci.png",
+      "alt": "Estimating percentage cover of one or more species, downloadable IGCSE & GCSE Biology revision notes",
+      "sourceHeading": "Quadrats",
+      "moduleIds": [
+        "L1"
+      ],
+      "binding": "heading-unique"
+    },
+    {
+      "id": "fig-03",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-biology-19/assets/4fb947cd5144-rp-ecosystems-estimating-population-size-method-.png",
+      "alt": "RP Ecosystems_ Estimating Population Size Method (1)_1, downloadable IGCSE & GCSE Biology revision notes",
+      "sourceHeading": "Method",
+      "moduleIds": [
+        "L3"
+      ],
+      "binding": "heading-unique"
+    },
+    {
+      "id": "fig-04",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-biology-19/assets/170a7bb2a80f-comparing-population-sizes-across-2-different-st.png",
+      "alt": "Comparing population sizes across 2 different study areas 2, downloadable IGCSE & GCSE Biology revision notes",
+      "sourceHeading": "Method",
+      "moduleIds": [
+        "L3"
+      ],
+      "binding": "heading-unique"
+    }
+  ]
+}
