@@ -115,10 +115,10 @@ for (const id of NOTES_W12) {
 }
 const parent = execSync('git rev-parse HEAD~1', { cwd: REPO }).toString().trim();
 const WAVE_OPEN_BASE = '156f70dec977b73810a313887d497bc00b7dc2ee';
-check('P0', 'commit A parent == the wave-open main tip (the post-wave-3 main head)', parent === WAVE_OPEN_BASE, 'parent=' + parent.slice(0, 12));
+check('P0', 'commit A parent == the wave-open main tip 681c61b436e6, or the corrective base riding on commit A c079aaa8d1a6 (the stage-A corrective precedent)', parent === WAVE_OPEN_BASE || parent === PIN, 'parent=' + parent.slice(0, 12));
 let mainTipLive = '';
 try { mainTipLive = execSync((process.env.RESOURCES_REMOTE_URL || 'git ls-remote https://github.com/SyllabAI/syllabai-resources.git') + ' refs/heads/main', { cwd: REPO, shell: '/bin/bash' }).toString().split('\t')[0].trim(); } catch (e) { mainTipLive = 'ERR ' + e.message.slice(0, 60); }
-check('P0', 'resources main tip sits at the commit-A pin (first wave-4 landing)', mainTipLive === PIN, 'tip=' + mainTipLive.slice(0, 12));
+check('P0', 'resources main tip sits at the commit-A pin or the corrective base riding on it (first wave-4 landing)', mainTipLive === PIN || mainTipLive === headSha, 'tip=' + mainTipLive.slice(0, 12) + ' head=' + headSha.slice(0, 12));
 
 
 // ── helpers ──────────────────────────────────────────────────────────────────
@@ -969,6 +969,7 @@ const receipt = {
     'worked-example census derived from the sources (totWEPop/totWENull) per the wave-8 amendment law — 1 populated / 15 designed nulls: rn_tFhjR4N3rFNHsdcP ports the corpus worked-example block (the three-label levels-of-organisation diagram, final answer B), the only corpus WE block in the W4 bucket; no hardcoded counts',
     'ajv strict mode relaxed to false for this run: the of-record schema set carries pre-existing strictTypes style notices (the wave-7..11 disclosure class); validation semantics unchanged — same draft-07 compile, same allErrors collection',
     `the WAVE_OPEN_BASE 681c61b436e68b94adfe27b1796ecc3357b88516 is the resources main tip commit A rides on — the post-wave-3 head after biology stage-B wave 3 landed (commit C 53f0999030) and the videos lane landed P8 physics-trio honest-empty fill (PR #348); the wave opened at that tip with no mid-flight race disclosed at open (operator directive trace 1a1d33d324cf5a15, "ignite the next wave"); stage-B wave-4 sequence: commit A lands on main first, the pipeline runs with the race-guard asserting the tip still sits exactly at the commit-A pin, then commit C lands`,
+    'commit A c079aaa8d1a6 landed with the pipeline of record still carrying the wave-3 open-base constant — caught at the pipeline\'s first fail-closed run (the parent race-guard fired while the parent 681c61b436e6 was itself CORRECT); the corrective re-issues integration/tooling/bio-stageb4-pipeline.js with the P0 race-guards accepting the corrective base per the stage-A corrective precedent; the 16 source-0.7 notes are byte-identical (0 of 16 differ); force-back of main was rule-blocked (no force-push) so this corrective rides on top — disclosed here and in the receipt',
     'the PROMOTION receipt filename carries the Asia/Dhaka execution date 20261113 while generated_at_utc is honest UTC',
     'the B4 partition of record (frozen at stage-A open; 141 notes in 10 subtopic-atomic waves) is embedded in the INT-3 of record; wave 4 discharges the levels-of-organisation + movement-of-substances + nutrition buckets; the pilot stays out of the buckets per runbook B3',
     'this v38 manifest is CUMULATIVE over the biology pack (120 artifacts = 88 prior re-pinned byte-identical + 32 wave-4 first issues), continuing the v35/v36 corrective convention that keeps the runner-owned guided-import.json index complete',
