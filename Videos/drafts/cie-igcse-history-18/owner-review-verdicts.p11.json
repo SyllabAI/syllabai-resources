@@ -1,0 +1,93 @@
+{
+ "schema": "syllabai.owner-review-verdicts/2",
+ "task": "T-VIDEOMAP-P11 (multi-cluster uncovered-course lane: fourteen channel pools)",
+ "course": "cie-igcse-history-18",
+ "ruledUtc": "2026-11-13T13:23:03Z",
+ "source": "delegated self-review — owner chat 2026-11-09 \"approve and review yourself\"; lane authorized 2026-11-13 \"lane P11\"",
+ "default": "keep",
+ "reviewer": "delegated self-review (agent, per owner chat 2026-11-09: \"approve and review yourself\"; lane authorized 2026-11-13: \"lane P11\")",
+ "evidenceBasis": "Identity: oEmbed sweep 439/439 author==channel-of-record (0 mismatch, 0 dead, 0 thumb-fallbacks needed). Tier B: syllabus/paper codes regex-verified in titles (9708/41, 0455/0620 session papers, WDM11, WMA11-14, 4MA1). Tier A: deterministic distinctive-token pre-pass (df<=3) then explicit-code class tables, section-marker narrowing (CIE chapter series) and Chapter-N narrowing (verified syllabus-structured igcse-online series) over EVERY routed pair; cross-register rows carry boardMismatch:true; degenerate vocabulary binds (single-token catches incl. teacher-guidance spine specs) dropped on review; three courses re-adjudicated course-level to honest unmapped (igcse-history-17, cie-igcse-history-18, igcse-economics-17).",
+ "rejects": [
+  {
+   "video": "bH9YotX1auM",
+   "reason": "no-binding (routed-but-unmapped): zero token overlap with the spine in the pre-pass — routed-but-unmapped, honest"
+  },
+  {
+   "video": "HsAhD59lsSo",
+   "reason": "no-binding (routed-but-unmapped): topic tokens (['war', 'world']) overlap the spine only above the tightened bar — routed-but-unmapped, honest"
+  },
+  {
+   "video": "HT41Vv_ZCFs",
+   "reason": "no-binding (routed-but-unmapped): topic tokens (['war', 'world']) overlap the spine only above the tightened bar — routed-but-unmapped, honest"
+  },
+  {
+   "video": "_nwl2k6Hnf4",
+   "reason": "no-binding (routed-but-unmapped): zero token overlap with the spine in the pre-pass — routed-but-unmapped, honest"
+  },
+  {
+   "video": "n52HncaDxtQ",
+   "reason": "no-binding (routed-but-unmapped): drop on review: degenerate bind ('russia' df3) onto a WW1 Eastern-Front spec — the USSR depth study has no matching spec in this 19th-century-core spine; honest drop"
+  },
+  {
+   "video": "OdkzA06Mqx4",
+   "reason": "no-binding (routed-but-unmapped): topic tokens (['germany', 'study']) overlap the spine only above the tightened bar — routed-but-unmapped, honest"
+  },
+  {
+   "video": "F0aAOrhwRMU",
+   "reason": "no-binding (routed-but-unmapped): drop on review: degenerate bind ('behind') onto an imperialism spec; teacher-resource video, honest drop"
+  },
+  {
+   "video": "hxgrogHeRls",
+   "reason": "no-binding (routed-but-unmapped): drop on review: degenerate bind ('debate') onto a US-imperialism-debate spec; teacher-resource video, honest drop"
+  },
+  {
+   "video": "1UNlZ_k-UHg",
+   "reason": "no-binding (routed-but-unmapped): zero token overlap with the spine in the pre-pass — routed-but-unmapped, honest"
+  },
+  {
+   "video": "jcwBJKes43o",
+   "reason": "no-binding (routed-but-unmapped): drop on review: degenerate bind ('have') onto a 1929-crash spec; teacher-resource video, honest drop"
+  },
+  {
+   "video": "w1WDLCpCvj4",
+   "reason": "no-binding (routed-but-unmapped): drop on review: degenerate bind ('time') onto a Versailles-justification spec; exam-technique video, honest drop"
+  },
+  {
+   "video": "s2PkD9C6FPE",
+   "reason": "no-binding (routed-but-unmapped): drop on review: degenerate bind ('big') onto the Big Three at Versailles spec; exam-technique video, honest drop"
+  },
+  {
+   "video": "KY5s5ZhMpzs",
+   "reason": "no-binding (routed-but-unmapped): zero token overlap with the spine in the pre-pass — routed-but-unmapped, honest"
+  },
+  {
+   "video": "koJMOJKqnug",
+   "reason": "no-binding (routed-but-unmapped): drop on review: degenerate bind ('get') onto a victors-aims spec; exam-technique video, honest drop"
+  },
+  {
+   "video": "QK4NkojYwEc",
+   "reason": "no-binding (routed-but-unmapped): drop on review: degenerate bind ('big') onto the Big Three at Versailles spec; exam-technique video, honest drop"
+  },
+  {
+   "video": "6EqGkI67tq8",
+   "reason": "no-binding (routed-but-unmapped): zero token overlap with the spine in the pre-pass — routed-but-unmapped, honest"
+  },
+  {
+   "video": "jqXNDuD0x00",
+   "reason": "no-binding (routed-but-unmapped): zero token overlap with the spine in the pre-pass — routed-but-unmapped, honest"
+  },
+  {
+   "video": "CMlrGrpdIyo",
+   "reason": "no-binding (routed-but-unmapped): zero token overlap with the spine in the pre-pass — routed-but-unmapped, honest"
+  },
+  {
+   "video": "-wbVDN58X5U",
+   "reason": "no-binding (routed-but-unmapped): zero token overlap with the spine in the pre-pass — routed-but-unmapped, honest"
+  }
+ ],
+ "applied": {
+  "rowsApproved": 0,
+  "rowsRejected": 19,
+  "appliedUtc": "2026-11-13T13:23:03Z"
+ }
+}

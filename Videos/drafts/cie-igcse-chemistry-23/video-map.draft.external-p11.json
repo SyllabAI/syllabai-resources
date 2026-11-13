@@ -1,0 +1,139 @@
+{
+ "schema": "syllabai.video-map-draft/2",
+ "draftOf": "cie-igcse-chemistry-23",
+ "task": "T-VIDEOMAP-P11 (multi-cluster uncovered-course lane: fourteen channel pools)",
+ "course": "cie-igcse-chemistry-23",
+ "qual": "CAMBRIDGE IGCSE CHEMISTRY",
+ "reviewState": "owner-reviewed-external",
+ "draftLaw": "P11 lane: Tier B course anchors by machine-checkable syllabus/paper codes (method paper-code, confidence high, boardMismatch false — same qualification; ANCHOR-GRANULARITY §5/§8) + Tier A spec rows by the distinctive-token binding rule (df<=3), with CIE chapter-structured marker rows permitted the disclosed higher title-only bar (section-marker narrowing; confidence low, disclosed per row) and direct class-table binds for skill-structure courses (CIE 0500 English, 4EA1 paper sections, IAL D1 chapters). Cross-register rows (Yi CP1 -> IAL FP1; Mindful UK-register -> IAL; CIE-content -> Edexcel IGCSE ICT/Business/Geography) carry boardMismatch:true. Degenerate vocabulary binds were re-adjudicated to honest drops/unmapped on review; teacher-guidance spine specs are excluded as bind targets. Rejected videos stay out of videos[] and live in the verdicts ledger.",
+ "source": {
+  "provider": "IGCSE Online (CIE IGCSE multi-subject: 0455 econ, 0478 CS, 0620 physics, 0620 chem, 0580 maths chapter series)",
+  "label": "cie-igcse-chemistry-23",
+  "method": "IGCSE Online (CIE IGCSE multi-subject: 0455 econ, 0478 CS, 0620 physics, 0620 chem, 0580 maths chapter series) flat-enumerated 2026-11-13T12:53:01Z; routing: syllabus/paper-code Tier B anchors + chapter-marker/keyword Tier A with class-table judgment, section-marker narrowing and per-row re-adjudication over every routed row",
+  "enumeratedUtc": "2026-11-13T13:23:03Z"
+ },
+ "videos": [
+  {
+   "id": "8X8Bv0gO5vI",
+   "title": "IGCSE Chemistry 0620 | Chapter 1 - The particulate nature of matter",
+   "provider": "igcse-online",
+   "watchUrl": "https://www.youtube.com/watch?v=8X8Bv0gO5vI",
+   "lessonRef": null,
+   "lessonUrl": null,
+   "levelTag": "igcse",
+   "boardNote": "IGCSE Online (CIE IGCSE multi-subject: 0455 econ, 0478 CS, 0620 physics, 0620 chem, 0580 maths chapter series) (oEmbed author verified per video)",
+   "identityMethod": "oembed"
+  },
+  {
+   "id": "BQbR9LwCq8c",
+   "title": "IGCSE Chemistry Tutorial: Chapter 1-The particulate nature of matter",
+   "provider": "igcse-online",
+   "watchUrl": "https://www.youtube.com/watch?v=BQbR9LwCq8c",
+   "lessonRef": null,
+   "lessonUrl": null,
+   "levelTag": "igcse",
+   "boardNote": "IGCSE Online (CIE IGCSE multi-subject: 0455 econ, 0478 CS, 0620 physics, 0620 chem, 0580 maths chapter series) (oEmbed author verified per video)",
+   "identityMethod": "oembed"
+  },
+  {
+   "id": "gJ15LzTnD-M",
+   "title": "IGCSE Chemistry 0620 Feb/March 2018 paper 2 walkthrough",
+   "provider": "igcse-online",
+   "watchUrl": "https://www.youtube.com/watch?v=gJ15LzTnD-M",
+   "lessonRef": null,
+   "lessonUrl": null,
+   "levelTag": "igcse",
+   "boardNote": "IGCSE Online (CIE IGCSE multi-subject: 0455 econ, 0478 CS, 0620 physics, 0620 chem, 0580 maths chapter series) (oEmbed author verified per video)",
+   "identityMethod": "oembed"
+  },
+  {
+   "id": "kYXrJ4Tv7tk",
+   "title": "IGCSE Chemistry 0620 | Chapter 5 - Electricity and Chemistry",
+   "provider": "igcse-online",
+   "watchUrl": "https://www.youtube.com/watch?v=kYXrJ4Tv7tk",
+   "lessonRef": null,
+   "lessonUrl": null,
+   "levelTag": "igcse",
+   "boardNote": "IGCSE Online (CIE IGCSE multi-subject: 0455 econ, 0478 CS, 0620 physics, 0620 chem, 0580 maths chapter series) (oEmbed author verified per video)",
+   "identityMethod": "oembed"
+  }
+ ],
+ "mappings": [
+  {
+   "anchor": {
+    "level": "course",
+    "ref": "cie-igcse-chemistry-23"
+   },
+   "kind": "past-paper-walkthrough",
+   "video": "gJ15LzTnD-M",
+   "lessonRef": null,
+   "lessonUrl": null,
+   "specs": [],
+   "unitScope": null,
+   "confidence": "high",
+   "method": "paper-code",
+   "boardMismatch": false,
+   "reviewed": true,
+   "reviewer": "delegated self-review (agent, per owner chat 2026-11-09: \"approve and review yourself\"; lane authorized 2026-11-13: \"lane P11\")",
+   "reviewedUtc": "2026-11-13T13:23:03Z",
+   "evidence": "title: \"IGCSE Chemistry 0620 Feb/March 2018 paper 2 walkthrough\"; syllabus/paper code 0620/2 in the title — machine-checkable course anchor (ANCHOR-GRANULARITY §5); oEmbed author verified"
+  },
+  {
+   "video": "kYXrJ4Tv7tk",
+   "lessonRef": null,
+   "lessonUrl": null,
+   "specs": [
+    "4.2.1"
+   ],
+   "confidence": "medium",
+   "evidence": "title names 4.2.1 'State that a hydrogen–oxygen fuel cell uses hydrogen and' via token(s) ['electricity'] (df 1); title-only posture, distinctive-token binding rule (df<=3) or the disclosed higher title-only bar for marker rows",
+   "method": "llm-draft-external",
+   "boardMismatch": true,
+   "reviewed": true,
+   "reviewer": "delegated self-review (agent, per owner chat 2026-11-09: \"approve and review yourself\"; lane authorized 2026-11-13: \"lane P11\")",
+   "reviewedUtc": "2026-11-13T13:23:03Z"
+  },
+  {
+   "video": "8X8Bv0gO5vI",
+   "lessonRef": null,
+   "lessonUrl": null,
+   "specs": [
+    "1.2.2"
+   ],
+   "confidence": "low",
+   "evidence": "Chapter 1 marker of a syllabus-structured series narrows the pool to section 1 specs; title binds 1.2.2 'Describe and explain the effect of relative molecular ma' via token(s) ['matter'] (df 8); bound at the disclosed higher title-only bar, confidence low; title-only posture, distinctive-token binding rule (df<=3) or the disclosed higher title-only bar for marker rows",
+   "method": "llm-draft-external",
+   "boardMismatch": true,
+   "reviewed": true,
+   "reviewer": "delegated self-review (agent, per owner chat 2026-11-09: \"approve and review yourself\"; lane authorized 2026-11-13: \"lane P11\")",
+   "reviewedUtc": "2026-11-13T13:23:03Z"
+  },
+  {
+   "video": "BQbR9LwCq8c",
+   "lessonRef": null,
+   "lessonUrl": null,
+   "specs": [
+    "1.2.2"
+   ],
+   "confidence": "low",
+   "evidence": "Chapter 1 marker of a syllabus-structured series narrows the pool to section 1 specs; title binds 1.2.2 'Describe and explain the effect of relative molecular ma' via token(s) ['matter'] (df 8); bound at the disclosed higher title-only bar, confidence low; title-only posture, distinctive-token binding rule (df<=3) or the disclosed higher title-only bar for marker rows",
+   "method": "llm-draft-external",
+   "boardMismatch": true,
+   "reviewed": true,
+   "reviewer": "delegated self-review (agent, per owner chat 2026-11-09: \"approve and review yourself\"; lane authorized 2026-11-13: \"lane P11\")",
+   "reviewedUtc": "2026-11-13T13:23:03Z"
+  }
+ ],
+ "coverage": {
+  "specPointsTotal": 252,
+  "specPointsDraftedHere": 2,
+  "rows": 4,
+  "byConfidence": {
+   "high": 1,
+   "medium": 1,
+   "low": 2
+  }
+ },
+ "generatedUtc": "2026-11-13T13:23:03Z",
+ "reviewedUtc": "2026-11-13T13:23:03Z"
+}
