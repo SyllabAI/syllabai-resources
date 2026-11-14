@@ -18,7 +18,7 @@ generated: '2026-09-19'
 counts:
   spec_points: 170
   topics: 9
-  subsections: 4
+  subsections: 0
   practicals: 0
 qualification_units:
 - unit: '1'
@@ -60,46 +60,6 @@ qualification_units:
 excluded_points_note: 1 non-spec points excluded (appendix/notation region captured as points by the parse
   stage; see structure.json validation.gaps)
 edges:
-- from: XBI11/YBI11-SUB1
-  relation: PART_OF
-  to: XBI11/YBI11-S2
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: topic-tree derivation
-    pdf_page: 27
-- from: XBI11/YBI11-SUB2
-  relation: PART_OF
-  to: XBI11/YBI11-S3
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: topic-tree derivation
-    pdf_page: 29
-- from: XBI11/YBI11-SUB3
-  relation: PART_OF
-  to: XBI11/YBI11-S9
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: topic-tree derivation
-    pdf_page: 70
-- from: XBI11/YBI11-SUB4
-  relation: PART_OF
-  to: XBI11/YBI11-S9
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: topic-tree derivation
-    pdf_page: 74
 - from: IAL_BIOLOGY:Biology-1.1
   relation: PART_OF
   to: XBI11/YBI11-S1

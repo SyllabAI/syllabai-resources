@@ -1,6 +1,6 @@
 {
  "qual": "ial-biology",
- "generated_utc": "2026-09-20",
+ "generated_utc": "2026-11-13",
  "files": [
   "International-A-Level-Biology-Spec.parsed.json"
  ],
@@ -33,8 +33,8 @@
   "note": "SME index for this qual is name-only (no definitions); verbatim crossref not applicable -> mapping-stage name bridging"
  },
  "canonical_bundle": {
-  "builder": "canonical-builder-2.0",
-  "generated": "2026-09-17",
+  "builder": "canonical-builder-2.0 + W-F2-T2 targeted transform (trace 1a1d487cf2adebad)",
+  "generated": "2026-11-13",
   "files": [
    "spec_points.json",
    "topics.json",
@@ -47,7 +47,7 @@
    "spec_points": 171,
    "practicals": 0,
    "topics": 9,
-   "subsections": 4,
+   "subsections": 0,
    "equation_entries": 0,
    "equations": 0,
    "ao_statements": 0,
@@ -55,6 +55,31 @@
   },
   "flags": [
    "ao-descriptors-not-printed-in-source"
-  ]
+  ],
+  "sub_item_fleet": {
+   "printed_markers": 78,
+   "runs": 35,
+   "owner_statements": 35,
+   "note_fragments_excluded": 3,
+   "note_fragments": [
+    "β -glucose and cellulose are not required in this topic.",
+    "Structures of specific amino acids are not required.",
+    "Names of specific enzymes are not required."
+   ],
+   "cp_box_attachment_vacated": "4.6 (3 items; classification guard)"
+  }
+ },
+ "wf2t2_transform": {
+  "task": "W-F2-T2 (Stage R, ial-biology)",
+  "origin_trace": "1a1d3a1e9ec185d9",
+  "trace_id": "1a1d487cf2adebad",
+  "method": "zero-invention splice: printed paren-roman marker map (deterministic PyMuPDF, 78/78 multiset match vs W-F2-T1 fleet of record) + of-record text slices at marker boundaries; notes excluded from sub_items, kept in text (unchanged); no parser re-run (sandbox pymupdf drift vs of-record v1 parse proven by 40-field repro diff — see receipts/W-F2/W-F2-T2-ial-biology.json method note)",
+  "delta": {
+   "sub_items_added": 78,
+   "statements_with_sub_items": 35,
+   "cp_box_items_vacated": 3,
+   "subsection_refs_vacated": 28,
+   "subsections_rows_vacated": 4
+  }
  }
 }
