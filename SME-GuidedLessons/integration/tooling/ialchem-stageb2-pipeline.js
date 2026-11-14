@@ -473,7 +473,8 @@ for (const id of NOTES_W2) {
 }
 const parent = execSync('git rev-parse HEAD~1', { cwd: REPO }).toString().trim();
 const WAVE_OPEN_BASE_W2 = 'f80920be4c1c3277aea33ae391efae427114a77e';
-check('P0', 'commit A parent == the wave-open resources main of record (the post-PR-353 + lane-B tip)', parent === WAVE_OPEN_BASE_W2, 'parent=' + parent.slice(0, 12));
+const CORRECTIVE_BASE_W2 = 'd3c6a1d664354427bd8b07b7267969ed8d3a977e';
+check('P0', 'commit A parent == the wave-open resources main of record (or the disclosed first-issue base d3c6a1d, force-back rule-blocked)', parent === WAVE_OPEN_BASE_W2 || parent === CORRECTIVE_BASE_W2, 'parent=' + parent.slice(0, 12));
 let mainTipLive = '';
 try { mainTipLive = execSync('git ls-remote ' + (process.env.RESOURCES_REMOTE_URL || 'https://github.com/SyllabAI/syllabai-resources.git') + ' refs/heads/main', { cwd: REPO, shell: '/bin/bash' }).toString().split('\t')[0].trim(); } catch (e) { mainTipLive = 'ERR ' + e.message.slice(0, 60); }
 check('P0', 'resources main tip sits at the commit-A pin (first landing, race-guard)', mainTipLive === PIN, 'tip=' + mainTipLive.slice(0, 12));
@@ -747,8 +748,8 @@ for (const f of chemOldHub) { if (!vHub(JSON.parse(fs.readFileSync(path.join(INT
 for (const f of chemOldPkg) { if (!vPkg(JSON.parse(fs.readFileSync(path.join(INT, 'question-packages-1.1', f), 'utf8')))) oldFails++; }
 check('C-6', `chemistry prior-generation union ajv x${chemOldSrc.length + chemOldHub.length + chemOldPkg.length} (0.5 sources vs 0.6, 1.4 lessons vs 1.5, 1.1 packages vs 1.2 — generation-union schemas)`, oldFails === 0, oldFails + ' failures');
 // the IAL chemistry prior generation (stage-A pilot + stage-B wave 1) re-proven on this tree
-const ialPriorIds = [...new Set(priorMan.artifacts.map((a) => a.noteId))];
-check('C-6', 'IAL chemistry prior generation counted by the v46 noteIds (14 = 1 stage-A pilot + 13 wave 1)', ialPriorIds.length === 14, ialPriorIds.length);
+const ialPriorIds = new Set(priorMan.artifacts.map((a) => a.noteId));
+check('C-6', 'IAL chemistry prior generation counted by the v46 noteIds (14 = 1 stage-A pilot + 13 wave 1)', ialPriorIds.size === 14, ialPriorIds.size);
 const ialSrc8 = dirFiles(path.join(INT, 'source-0.8'), '.json').filter((f) => ialPriorIds.has(f.replace('guided-lesson-', '').replace('.json', '')) && !NOTES_W2.includes(f.replace('guided-lesson-', '').replace('.json', '')));
 const ialHub17 = dirFiles(path.join(INT, 'hub-import-1.7'), '.json').filter((f) => ialPriorIds.has(f.replace('.hub-lesson-import.json', '')));
 const ialPkg14 = dirFiles(path.join(INT, 'question-packages-1.4'), '.json').filter((f) => ialPriorIds.has(f.replace('.sme-question-package.json', '')));
@@ -1156,7 +1157,7 @@ const receipt = {
   wave: 'IAL-CHEMISTRY (WCH1) stage-B wave 2 (the second register bucket: 17 notes end-to-end at the 0.8/1.7/1.4 four-plane generation; CUMULATIVE programme-level manifest v47)',
   operator_traces: { ignition: TRACE, execution: TRACE },
   generated_at_utc: new Date().toISOString().replace(/\.\d+Z$/, 'Z'),
-  commit_a: { sha: PIN, contents: '17 authored stage-B wave-2 source-0.8 notes (the second register bucket of the frozen B4 partition) + integration/tooling/ialchem-stageb2-pipeline.js (the pipeline of record, derived from the ialchem-stageb1 landed pipeline; the 0.8/1.7/1.4 schema generation and the spec_point_resolution.json bootstrap already landed at the stage-A commit A)', parent: parent, message_carries_trace: headMsg.includes(TRACE) },
+  commit_a: { sha: PIN, contents: 'corrective commit A2: integration/tooling/ialchem-stageb2-pipeline.js re-issued with the Set-typed noteId census fix + the disclosed first-issue parent check; the 17 authored stage-B wave-2 source-0.8 notes (the second register bucket of the frozen B4 partition) stay byte-identical from the first issue d3c6a1d664354427bd8b07b7267969ed8d3a977e (the pipeline of record derived from the ialchem-stageb1 landed pipeline; the 0.8/1.7/1.4 schema generation and the spec_point_resolution.json bootstrap already landed at the stage-A commit A)', parent: parent, message_carries_trace: headMsg.includes(TRACE) },
   tranche: {
     notes: 17, lessons: idLessons, checks: idChecks,
     kinds: { mcq: streamCharsArr().mcq, recall: streamCharsArr().rec, 'explain-why': streamCharsArr().exp, application: streamCharsArr().app },
@@ -1188,7 +1189,7 @@ const receipt = {
     'figure captions carried verbatim where the corpus prints an explanatory line after the figure block (' + figCaptionCount + ' figures); the other ' + (totFig - figCaptionCount) + ' captions are declared absent (no such line exists in the source)',
     'MCQ correct-key census enforced POST-transform under the declared deterministic AN rotation table (cyclic per-note re-letter) — the wave-6/8/9/10/11 + stage-A + wave-1 re-lettering precedent, table-recorded',
     'the topicTitle of record is the hub curriculum graph SME-S1 node title ("1. Structure, Bonding & Introduction to Organic Chemistry"), the section grouping the register sectionSlug denotes; all 17 wave-2 notes sit in that one section',
-    'the WAVE_OPEN_BASE_W2 ' + WAVE_OPEN_BASE_W2 + ' is the resources main tip at wave open (the post-PR-353 tip carrying the unrelated Lane B book-layer commits); stage-B wave-2 sequence: commit A lands on main first, the pipeline runs with the race-guard asserting the tip still sits exactly at the commit-A pin, then commit C lands — the race-guard semantics disclosed',
+    'the WAVE_OPEN_BASE_W2 ' + WAVE_OPEN_BASE_W2 + ' is the resources main tip at wave open (the post-PR-353 tip carrying the unrelated Lane B book-layer commits); stage-B wave-2 sequence: first commit-A issue d3c6a1d landed the 17 source notes byte-final + a pipeline carrying one runtime defect (an Array where the noteId census needed a Set, crashing before any gate ran); corrective commit A2 re-issues ONLY the corrected tooling (Set-typed census + the disclosed first-issue base accepted by the P0 parent check), the notes stay byte-identical from d3c6a1d, the pipeline re-runs at the A2 pin with the race-guard asserting the tip, then commit C lands — the race-guard semantics disclosed',
     'the PROMOTION receipt filename carries the Asia/Dhaka execution date while generated_at_utc is honest UTC (the stage-A receipt corrective clarified the token follows the executor clock)',
     'the emitted hub/question-package artifacts carry the run_import.mjs legacy identity strings (hub/lesson-import/1.5 + guided-lesson-0.6--hub-lesson-import-1.5 + sourceFormat guided-lesson/0.6) byte-conserved exactly as every prior pack; the RECORD layer (this receipt, the INT-3, the manifest load_scope) declares the true 0.8/1.7/1.4 generation — the conservation law of record',
     'the manifest v47 is CUMULATIVE over the IAL chemistry pack (62 artifacts = the 28 v46 artifacts re-pinned byte-identical @ the v46 landed shas + 34 wave-2 first issues), continuing the v35/v36 corrective convention that keeps the runner-owned guided-import.json index complete',
