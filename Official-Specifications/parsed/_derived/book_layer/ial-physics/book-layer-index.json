@@ -1,0 +1,51 @@
+{
+ "schema": "syllabai.book-layer-index/1.0",
+ "qual": "ial-physics",
+ "books": [
+  {
+   "key": "yph11-sb1",
+   "structure_file": "book-structure--yph11-sb1.json",
+   "corpus_blob": "7aac7234acc23ec35410e8bf9427c7e3d571cefb",
+   "n_chunks": 881,
+   "topics_scope": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "key": "yph11-sb2",
+   "structure_file": "book-structure--yph11-sb2.json",
+   "corpus_blob": "484f8e4abadff15c13bb64f14e4f1a041a5403e1",
+   "n_chunks": 826,
+   "topics_scope": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ]
+  }
+ ],
+ "no_book_units": [
+  {
+   "unit": 3,
+   "kind": "practical",
+   "book_state": "NO_BOOK_PRACTICAL_UNIT",
+   "evidence": "CATALOG §4.2 'Units 3/6 are practicals, no SB' @ blob 725e21e4"
+  },
+  {
+   "unit": 6,
+   "kind": "practical",
+   "book_state": "NO_BOOK_PRACTICAL_UNIT",
+   "evidence": "CATALOG §4.2 'Units 3/6 are practicals, no SB' @ blob 725e21e4"
+  }
+ ],
+ "design_ref": "receipts/W-F4/W-F4-T1-book-join-design.md §7 (multi-book law)",
+ "generated_utc": "2026-11-13T14:54:01Z",
+ "generator": "agent:scripts/wf4t2_build.py (W-F4-T2 staged build; repo-side scripts/book_layer/ generator proposed, not installed)",
+ "inputs": []
+}

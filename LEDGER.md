@@ -1207,3 +1207,26 @@ run evidence under `scripts/mg_rg1_run001/`.
 `MG-Lessons/T-MG-LS-3-run-001-RECEIPT.json`; scripts land as `scripts/mg_ls3_*.py`
 (+ shared `mg_common.py`, `rsc.py`, `envelope.py`) with run evidence under
 `scripts/mg_ls3_run001/`.
+---
+
+## Wave 35 — W-F2-T2 Stage R swap lands: ial-biology statement sub-item layer (trace 1a1d487cf2adebad; committed under operator order trace 1a1db5ef53184e2d)
+
+`W-F2-T2` lands the ial-biology Stage R swap: sub_items 3->78 (35 runs / 35 owner statements, printed paren-roman layer, notes excluded), 4.6 CP attachment vacated (classification guard), 28 junk subsection refs + 4 subsection rows vacated, graph -4 SUB edges (byte-minimal), parse_report G1-G4 ALL_PASS, gates G-F2-R1..R6 ALL_PASS. 9 paths, one revertible commit `c95a31b5d1f418b1a410184c3626368f3e0b5922`; receipts of record live in the operator workspace (`download/receipts/W-F2/`).
+
+---
+
+## Wave 36 — W-F2-T2 Stage R swap lands: ial-chemistry statement sub-item layer (trace 1a1d4cf6673be939; committed under operator order trace 1a1db5ef53184e2d)
+
+sub_items 3->223 (71 runs / 71 statements, printed bare-roman layer, markers kept; 63 practical-suggestion markers guarded to the practicals lane), 10.17 malformed capture rebuilt, 2 junk subsection rows vacated, graph -2 SUB edges (321->319), parse_report G1-G4 ALL_PASS. 9 paths, one revertible commit `a8b3251db0842e28ac085aea3e8675eeae20db98`; `_summary.json` carries the merged single-field update of record (bio row subsections 0 from Wave 35 + chem row 0 — the two staged copies each carried only their own qual's row; deviation recorded under exec trace 1a1db5ef53184e2d).
+
+---
+
+## Wave 37 — W-F4-T2 Lane B book_layer lands (trace 1a1d555367f5b4f1; committed under operator order trace 1a1db5ef53184e2d)
+
+13 NEW files under `Official-Specifications/parsed/_derived/book_layer/` (ial-physics 4, igcse-chemistry 2, igcse-biology 2, igcse-physics 2, ial-chemistry 3; schemas syllabai.book-structure/1.0 + syllabai.book-spec-join/1.0 + syllabai.book-layer-index/1.0). Gates G-F4-B1..B6 PASS; ial-chemistry book-join honestly deferred (BUILT_NOT_JOINED — the spec side landed via Waves 35-36; the V-lane corroboration join awaits its own order). Census 0.4 stays agent-side (repo does not track the census file). One revertible commit `238c3033ad3f2c4fa2006cccb1a7b72930126351`; receipts agent-side (`download/receipts/W-F4/`).
+
+---
+
+## Wave 38 — W-F3-T1 records land: Lane C design of record (trace 1a1da5cb34cb05e1; committed under operator order trace 1a1db5ef53184e2d)
+
+First `tasks/` + `receipts/` records in the repo: `tasks/W-F3-cie-lane-c-canonicalization.md` + `receipts/W-F3/` (design of record + JSON receipt + worklog block; this commit). W-F3-T1 = Lane C design of record: 34 CIE quals audited (6 families, 6,920 spec points, parse gates G1-G4 34/34), per-family canonical emitter rules, census 0.5 rider PROPOSED (not executed), build gates G-F3-C1..C6 fixed; W-F3-T2 pending operator order. W-F1/W-F2/W-F4 receipts remain agent-side (not committed).

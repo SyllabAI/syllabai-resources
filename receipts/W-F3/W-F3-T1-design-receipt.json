@@ -1,0 +1,104 @@
+{
+ "schema": "syllabai.task-receipt/1",
+ "task_id": "W-F3-T1",
+ "task": "Lane C design of record — CIE canonical bundles: full-34 SOURCE audit, per-family emitter rules against the 13-field contract of record, honest bundle-shape law, flag adjudication classes, census 0.5 rider proposal, build gates G-F3-C1..C6",
+ "wave": "W-F3",
+ "qual": null,
+ "origin_trace": "1a1da5cb34cb05e1",
+ "trace_id": "1a1da5cb34cb05e1",
+ "trace_note": "fired by the bare operator order 'new wave' (trace 1a1da5cb34cb05e1); interpreted as W-F3 — the unique un-fired wave of the repair map of record (tasks/W-F1-validation-and-status-check.md: 'repairs belong to W-F2 (reparse), W-F3 (CIE), W-F4 (book layer)'; tasks/W-F2-ial-reparse-probe.md non-goal: 'No CIE canonicalization (W-F3, Lane C)'). Correction point recorded in the task file; nothing repo-side touched.",
+ "operator": "SyllabAI operator (zai-web 1a1da5cb34cb05e1)",
+ "date_utc": "2026-11-14T14:14:22Z",
+ "method": "lane-c-design-audit-only",
+ "verdict": "DESIGN_OF_RECORD",
+ "verdict_meaning": "design of record filed (receipts/W-F3/W-F3-T1-design-of-record.md) + task file created (tasks/W-F3-cie-lane-c-canonicalization.md, NEW) + full-34 audit cached (cache/w-f3/full-34-audit.json); zero bundle emission, zero repo writes, zero census writes (0.5 rider PROPOSED, not executed); W-F3-T2 PENDING OPERATOR ORDER",
+ "inputs": [
+  {
+   "path": "syllabai-resources @ HEAD",
+   "sha1": "d2902fcc064f62f8c9ae03ec2b012f49a8ff8922",
+   "note": "cached git tree, read-only; all reads via git cat-file with pinned blob verification"
+  },
+  {
+   "path": "Official-Specifications/parsed/cie-*/*.parsed.json + parse_report.json (34 quals, 68 files)",
+   "note": "SOURCE parses by cie-spec-parser-1.0 (29) / +spec-reparse-1.0 (5); parse gates G1-G4 PASS 34/34; duplicate_ids [] 34/34; audited per-qual (family, counts, flags, gates, scopes, tiers) at the pinned blobs"
+  },
+  {
+   "path": "Official-Specifications/parsed/SCHEMA.md",
+   "sha1": "9567f8910422887ead63b32967e5a5c0e8f7f6b7",
+   "sha1_note": "full blob sha verified at HEAD d2902fcc via git rev-parse this wave (W-F4-T1 inputs cite the same blob by its 9567f891… prefix); carries NO CIE rows in its ID-scheme/family tables — rider candidate (design §6)"
+  },
+  {
+   "path": "download/w-f2-swap/ial-chemistry/.../spec_points.json + topics.json (staged W-F2-T2 output)",
+   "note": "the canonical 13-field row contract of record: applicability, flags, id, leading_verb, official_code, ordering, practical, provenance, scope, sub_items, subsection, text, topic; topics.json twin with code/number/title/ordering/provenance"
+  },
+  {
+   "path": "scripts/build_canonical.py @ d2902fcc",
+   "note": "canonical-builder-2.0 of record (1093 lines, zero-LLM); Pearson-configured only (FAMILY registry, EQ_SECTIONS, COVER_CODE, MODULAR_UNIT_MAPS) — no CIE rows; CIE extension = agent-side emitter honoring its row shapes (design §3/§6)"
+  },
+  {
+   "path": "download/spec-fineness-census.json (0.4)",
+   "sha256": "8483d2827b8fec07678a9de5ea20b291e21746e0c12feb13cc478c954255995b",
+   "note": "34 CIE rows: canonical_bundle false x34, derived_graph false x34; per-row remedy_lanes prescribe 'C: canonical bundle (canonical-builder-2.0)' + 'C: blanket-flag adjudication' + 'V: book alignment'"
+  },
+  {
+   "path": "books/CATALOG.md",
+   "sha1": "725e21e462e199ffaad8b61ba2800d7cf9315c1d",
+   "note": "section 4.3 CIE rollout rows: 9701/9702/9700/0625/0610/0620 state S (SOURCE_ONLY coursebooks), 9709/0580/0607/0606/0452/0450/0455 rows state —; books/cambridge-international/{ial,igcse} 34 files, parsed/=0"
+  },
+  {
+   "path": "receipts/W-F4/W-F4-T1-book-join-design.md",
+   "note": "CIE books registered SOURCE_ONLY; Lane B follow-on explicitly out of W-F4 — V: book alignment stays a recorded dependency, not W-F3 work"
+  }
+ ],
+ "audit": {
+  "evidence": "cache/w-f3/full-34-audit.json",
+  "quals": 34,
+  "parse_gates_pass": "34/34",
+  "families": {"nmk_outcomes": 8, "int_statements": 13, "heading_bullets": 5, "tier_columns": 5, "ce_codes": 2, "lettered_items": 1},
+  "totals": {"spec_points": 6920, "topic_rows": 598, "subsection_rows": 1646, "practicals_true": 0},
+  "flag_kinds_by_qual_count": {"code-assembled": 14, "synthesized-ordinal": 13, "bullet-row": 8, "synthesized-id": 5, "reparse-1.0": 4, "possible-superscript-loss": 3, "control-glyph-stripped": 1, "edge-whitespace-stripped": 1},
+  "tiers": {"Core": 7, "Supplement": 5, "Extended": 2},
+  "heading_bullets_subsections": "0 subsections on all 5 heading_bullets quals (the 4 F4 CIE quals + general paper) — canonical rows carry subsection null"
+ },
+ "gates": {
+  "G-F3-D1": "PASS — every emitter rule, bundle-shape law and rider spec cites a real artifact of record (pinned blobs, staged W-F2-T2 files, audit JSON, CATALOG blob); the dedup / tier->applicability / leading_verb-by-family rules are derivations from audited shapes, each stated with its evidence; no invented shapes",
+  "G-F3-D2": "PASS — 34/34 CIE quals audited from the pinned blobs (cache/w-f3/full-34-audit.json is the evidence of record); honest-empty rows (AO / command_words / equations / practicals) name their evidence (SOURCE parses carry no such arrays; CIE practical-endorsement documents not in tree)",
+  "G-F3-D3": "PASS — writes this wave: tasks/W-F3-cie-lane-c-canonicalization.md (NEW) + receipts/W-F3/ (this receipt, design doc, worklog entry) + cache/w-f3/ recon caches (parse-dir-inventory, book-lanes, full-34-audit) + worklog append; zero repo writes, zero census writes (census stays 0.4; 0.5 rider PROPOSED, not executed), zero spec-parse writes, zero book-lane writes"
+ },
+ "design_decisions_of_record": [
+  "ids ride verbatim from SOURCE (no re-keying); G2 uniqueness already proven by the SOURCE parse reports 34/34",
+  "tier (Core/Supplement/Extended) rides the applicability field (13-field contract has no tier field) — never dropped",
+  "leading_verb derived only for the verb-led families (int_statements, tier_columns, ce_codes, lettered_items); null for nmk_outcomes and heading_bullets — family-classified, deterministic, zero-LLM",
+  "duplicate (number,title) topic rows (ce_codes maths '1/Number' x3, lettered_items RS '1/Worship' x2) deduplicate to one topics.json node with all SOURCE spans in provenance; source_topic_rows count kept alongside for the audit trail",
+  "bundle shape = 2 files per qual (spec_points.json + topics.json); assessment_objectives/command_words/equations/practicals honestly absent for all 34 (igcse-history 2-file bundle precedent); no practicals.json anywhere (practicals_true = 0 across 6,920 rows)",
+  "flags carried verbatim, never cleared; per-qual superscript/subscript adjudication classes recorded in the bundle manifest (census remedy item stays open)",
+  "census 0.5 rider = 34 row amendments (canonical_bundle true + canonical_bundle_files + canonical_parser + remedy_lanes annotation) + changelog seq 7 with before/after values; deep-compare additivity law (fine_class, v1_counts, lane_b byte-untouched)"
+ ],
+ "findings_recorded_not_repaired": [
+  "census family field vs audit: census rows carry a single 'family' value sourced from parse_report; the audit confirms it per qual (nmk_outcomes 8 / int_statements 13 / heading_bullets 5 / tier_columns 5 / ce_codes 2 / lettered_items 1) — no discrepancy found",
+  "5 CIE SOURCE parses carry the spec-reparse-1.0 parser marker (reparse-1.0 flag) — the W-F2-era reparse touched some CIE SOURCE parses already; their canonical emission follows the same rules (no special-casing beyond verbatim ride-through)",
+  "SCHEMA.md of record has no CIE rows in its ID-scheme/family tables while cie-spec-parser-1.0 emits G4-valid CIE prefixes — schema doc lag recorded; rider staged in T2 (design §6)",
+  "books/cambridge-international: 6 SOURCE_ONLY coursebooks (state S in CATALOG 4.3) + 1 chunks jsonl (9701, the drift finding of W-F4-T1) + 5 book_structure_*.py modules; parsed/=0 — V: book alignment stays blocked on the books lane, out of W-F3"
+ ],
+ "outputs": [
+  "download/tasks/W-F3-cie-lane-c-canonicalization.md (task file, NEW — order_note + scope + gates G-F3-C1..C6 + definition of done)",
+  "download/receipts/W-F3/W-F3-T1-design-of-record.md (design of record)",
+  "download/receipts/W-F3/W-F3-T1-design-receipt.json (this receipt)",
+  "download/receipts/W-F3/W-F3-worklog-entry.md (append-ready worklog block)",
+  "cache/w-f3/parse-dir-inventory.json + book-lanes.json + full-34-audit.json (recon evidence)"
+ ],
+ "honest_empty": false,
+ "honest_empty_notes": [
+  "CIE practicals: practicals_true = 0 across all 34 SOURCE parses; CIE practical-endorsement content lives in separate documents not in the tree — no practicals.json will be emitted in T2, recorded as honest-empty",
+  "CIE AO/command_words/equations: SOURCE parses carry no such arrays — no corresponding bundle files in T2, recorded as honest-empty",
+  "10 NO_BOOK F4 quals and the CIE SOURCE_ONLY coursebooks remain rollout-queue blocked (unchanged, operator-side)"
+ ],
+ "non_goals_respected": [
+  "no bundle emission anywhere (W-F3-T2 pending operator order)",
+  "no CIE graph YAMLs (derived_graph follow-on)",
+  "no repo script edits (build_canonical.py CIE config = optional staged proposal in T2)",
+  "no flag clearing (adjudication classes recorded, never repaired away)",
+  "no census amendment (0.5 rider proposed, not executed)",
+  "no book acquisition and no LLM anywhere"
+ ]
+}

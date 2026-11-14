@@ -1,0 +1,738 @@
+{
+ "schema": "syllabai.book-spec-join/1.0",
+ "qual": "ial-physics",
+ "spec_side": {
+  "topics_ref": "Official-Specifications/parsed/ial-physics/topics.json (blob e8a956824381c706d60c53ac6048ea504558b58c)",
+  "points_ref": "Official-Specifications/parsed/ial-physics/spec_points.json (blob 4367df364245a371605d323f156f79c8bd796bbd)",
+  "point_count": 171,
+  "topic_count": 11,
+  "subsection_count": 0,
+  "id_scheme": "IAL_PHYSICS:<int> (bare_int, no official codes)"
+ },
+ "join_keys": {
+  "J1_PRINTED_CODE_LIST": "n/a — spec is bare_int (no official codes exist to print)",
+  "J2_LO_CODE_CHIPS": "probed (P-F4-2): LO chunks print NO spec codes",
+  "J3_BODY_CODE_CHIPS": "probed: only incidental question cross-refs (e.g. '2.4.67(a)' inside chapter-question numbering) — not admissible keys (L-2)",
+  "J4_LO_TEXT_EQUALITY": "probed (P-F4-2): 0/99 LO chunks exact-match a spec statement under the normalisation of record",
+  "J5_TITLE_ADJUDICATED": "ACTIVE — manifest unit title == spec topic title, 11/11 verbatim (P-F4-1 pin)",
+  "J6_PAGE_SPAN_ADJACENCY": "NOT_APPLICABLE — chapter page frames (book PDFs) and spec topic provenance pages (spec PDF) are different documents; no admissible comparison"
+ },
+ "rows": [
+  {
+   "chapter_key": "u1:c1",
+   "book_key": "yph11-sb1",
+   "chapter_title": "Motion",
+   "spec_refs": [
+    {
+     "topic": "XPH11/YPH11-T1",
+     "spec_number": "1.3",
+     "spec_title": "Mechanics"
+    }
+   ],
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "unit_label": "Topic 1 — Mechanics",
+    "basis": "manifest unit title == spec topic title, whitespace/case normalised equality (P-F4-1 pin, 11/11 verbatim)",
+    "chunk_ids": [
+     "yph1_v1_u1_c1_pdf019_0091",
+     "yph1_v1_u1_c1_pdf019_0092"
+    ],
+    "printed_codes": [],
+    "pages": [
+     19,
+     44
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u1:c2",
+   "book_key": "yph11-sb1",
+   "chapter_title": "Energy",
+   "spec_refs": [
+    {
+     "topic": "XPH11/YPH11-T1",
+     "spec_number": "1.3",
+     "spec_title": "Mechanics"
+    }
+   ],
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "unit_label": "Topic 1 — Mechanics",
+    "basis": "manifest unit title == spec topic title, whitespace/case normalised equality (P-F4-1 pin, 11/11 verbatim)",
+    "chunk_ids": [
+     "yph1_v1_u1_c2_pdf045_0209",
+     "yph1_v1_u1_c2_pdf045_0210"
+    ],
+    "printed_codes": [],
+    "pages": [
+     45,
+     56
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u1:c3",
+   "book_key": "yph11-sb1",
+   "chapter_title": "Momentum",
+   "spec_refs": [
+    {
+     "topic": "XPH11/YPH11-T1",
+     "spec_number": "1.3",
+     "spec_title": "Mechanics"
+    }
+   ],
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "unit_label": "Topic 1 — Mechanics",
+    "basis": "manifest unit title == spec topic title, whitespace/case normalised equality (P-F4-1 pin, 11/11 verbatim)",
+    "chunk_ids": [
+     "yph1_v1_u1_c3_pdf057_0249",
+     "yph1_v1_u1_c3_pdf057_0250"
+    ],
+    "printed_codes": [],
+    "pages": [
+     57,
+     68
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u2:c4",
+   "book_key": "yph11-sb1",
+   "chapter_title": "Fluids",
+   "spec_refs": [
+    {
+     "topic": "XPH11/YPH11-T2",
+     "spec_number": "1.4",
+     "spec_title": "Materials"
+    }
+   ],
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "unit_label": "Topic 2 — Materials",
+    "basis": "manifest unit title == spec topic title, whitespace/case normalised equality (P-F4-1 pin, 11/11 verbatim)",
+    "chunk_ids": [
+     "yph1_v1_u2_c4_pdf069_0290",
+     "yph1_v1_u2_c4_pdf069_0291"
+    ],
+    "printed_codes": [],
+    "pages": [
+     69,
+     84
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u2:c5",
+   "book_key": "yph11-sb1",
+   "chapter_title": "Solid material properties",
+   "spec_refs": [
+    {
+     "topic": "XPH11/YPH11-T2",
+     "spec_number": "1.4",
+     "spec_title": "Materials"
+    }
+   ],
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "unit_label": "Topic 2 — Materials",
+    "basis": "manifest unit title == spec topic title, whitespace/case normalised equality (P-F4-1 pin, 11/11 verbatim)",
+    "chunk_ids": [
+     "yph1_v1_u2_c5_pdf085_0362",
+     "yph1_v1_u2_c5_pdf085_0363"
+    ],
+    "printed_codes": [],
+    "pages": [
+     85,
+     98
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u3:c6",
+   "book_key": "yph11-sb1",
+   "chapter_title": "Basic waves",
+   "spec_refs": [
+    {
+     "topic": "XPH11/YPH11-T3",
+     "spec_number": "2.3",
+     "spec_title": "Waves and Particle Nature of Light"
+    }
+   ],
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "unit_label": "Topic 3 — Waves and Particle Nature of Light",
+    "basis": "manifest unit title == spec topic title, whitespace/case normalised equality (P-F4-1 pin, 11/11 verbatim)",
+    "chunk_ids": [
+     "yph1_v1_u3_c6_pdf099_0426",
+     "yph1_v1_u3_c6_pdf099_0427"
+    ],
+    "printed_codes": [],
+    "pages": [
+     99,
+     110
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u3:c7",
+   "book_key": "yph11-sb1",
+   "chapter_title": "The behaviour of waves",
+   "spec_refs": [
+    {
+     "topic": "XPH11/YPH11-T3",
+     "spec_number": "2.3",
+     "spec_title": "Waves and Particle Nature of Light"
+    }
+   ],
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "unit_label": "Topic 3 — Waves and Particle Nature of Light",
+    "basis": "manifest unit title == spec topic title, whitespace/case normalised equality (P-F4-1 pin, 11/11 verbatim)",
+    "chunk_ids": [
+     "yph1_v1_u3_c7_pdf111_0473",
+     "yph1_v1_u3_c7_pdf111_0474"
+    ],
+    "printed_codes": [],
+    "pages": [
+     111,
+     128
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u3:c8",
+   "book_key": "yph11-sb1",
+   "chapter_title": "More wave properties of light",
+   "spec_refs": [
+    {
+     "topic": "XPH11/YPH11-T3",
+     "spec_number": "2.3",
+     "spec_title": "Waves and Particle Nature of Light"
+    }
+   ],
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "unit_label": "Topic 3 — Waves and Particle Nature of Light",
+    "basis": "manifest unit title == spec topic title, whitespace/case normalised equality (P-F4-1 pin, 11/11 verbatim)",
+    "chunk_ids": [
+     "yph1_v1_u3_c8_pdf129_0541",
+     "yph1_v1_u3_c8_pdf129_0542"
+    ],
+    "printed_codes": [],
+    "pages": [
+     129,
+     140
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u3:c9",
+   "book_key": "yph11-sb1",
+   "chapter_title": "Quantum physics",
+   "spec_refs": [
+    {
+     "topic": "XPH11/YPH11-T3",
+     "spec_number": "2.3",
+     "spec_title": "Waves and Particle Nature of Light"
+    }
+   ],
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "unit_label": "Topic 3 — Waves and Particle Nature of Light",
+    "basis": "manifest unit title == spec topic title, whitespace/case normalised equality (P-F4-1 pin, 11/11 verbatim)",
+    "chunk_ids": [
+     "yph1_v1_u3_c9_pdf141_0594",
+     "yph1_v1_u3_c9_pdf141_0595"
+    ],
+    "printed_codes": [],
+    "pages": [
+     141,
+     158
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u4:c10",
+   "book_key": "yph11-sb1",
+   "chapter_title": "Electrical quantities",
+   "spec_refs": [
+    {
+     "topic": "XPH11/YPH11-T4",
+     "spec_number": "2.4",
+     "spec_title": "Electric Circuits"
+    }
+   ],
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "unit_label": "Topic 4 — Electric Circuits",
+    "basis": "manifest unit title == spec topic title, whitespace/case normalised equality (P-F4-1 pin, 11/11 verbatim)",
+    "chunk_ids": [
+     "yph1_v1_u4_c10_pdf159_0678",
+     "yph1_v1_u4_c10_pdf159_0679"
+    ],
+    "printed_codes": [],
+    "pages": [
+     159,
+     182
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u4:c11",
+   "book_key": "yph11-sb1",
+   "chapter_title": "Complete electrical circuits",
+   "spec_refs": [
+    {
+     "topic": "XPH11/YPH11-T4",
+     "spec_number": "2.4",
+     "spec_title": "Electric Circuits"
+    }
+   ],
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "unit_label": "Topic 4 — Electric Circuits",
+    "basis": "manifest unit title == spec topic title, whitespace/case normalised equality (P-F4-1 pin, 11/11 verbatim)",
+    "chunk_ids": [
+     "yph1_v1_u4_c11_pdf183_0779",
+     "yph1_v1_u4_c11_pdf183_0780"
+    ],
+    "printed_codes": [],
+    "pages": [
+     183,
+     204
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u5:c1",
+   "book_key": "yph11-sb2",
+   "chapter_title": "5A Further Momentum",
+   "spec_refs": [
+    {
+     "topic": "XPH11/YPH11-T5",
+     "spec_number": "4.3",
+     "spec_title": "Further Mechanics"
+    }
+   ],
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "unit_label": "Topic 5 — Further Mechanics",
+    "basis": "manifest unit title == spec topic title, whitespace/case normalised equality (P-F4-1 pin, 11/11 verbatim)",
+    "chunk_ids": [
+     "yph2_v1_u5_c1_pdf012_0054",
+     "yph2_v1_u5_c1_pdf012_0055"
+    ],
+    "printed_codes": [],
+    "pages": [
+     12,
+     23
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u5:c2",
+   "book_key": "yph11-sb2",
+   "chapter_title": "5B Circular Motion",
+   "spec_refs": [
+    {
+     "topic": "XPH11/YPH11-T5",
+     "spec_number": "4.3",
+     "spec_title": "Further Mechanics"
+    }
+   ],
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "unit_label": "Topic 5 — Further Mechanics",
+    "basis": "manifest unit title == spec topic title, whitespace/case normalised equality (P-F4-1 pin, 11/11 verbatim)",
+    "chunk_ids": [
+     "yph2_v1_u5_c2_pdf024_0099",
+     "yph2_v1_u5_c2_pdf024_0100"
+    ],
+    "printed_codes": [],
+    "pages": [
+     24,
+     35
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u6:c3",
+   "book_key": "yph11-sb2",
+   "chapter_title": "6A Electric Fields",
+   "spec_refs": [
+    {
+     "topic": "XPH11/YPH11-T6",
+     "spec_number": "4.4",
+     "spec_title": "Electric and Magnetic Fields"
+    }
+   ],
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "unit_label": "Topic 6 — Electric and Magnetic Fields",
+    "basis": "manifest unit title == spec topic title, whitespace/case normalised equality (P-F4-1 pin, 11/11 verbatim)",
+    "chunk_ids": [
+     "yph2_v1_u6_c3_pdf036_0148",
+     "yph2_v1_u6_c3_pdf036_0149"
+    ],
+    "printed_codes": [],
+    "pages": [
+     36,
+     51
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u6:c4",
+   "book_key": "yph11-sb2",
+   "chapter_title": "6B Capacitors",
+   "spec_refs": [
+    {
+     "topic": "XPH11/YPH11-T6",
+     "spec_number": "4.4",
+     "spec_title": "Electric and Magnetic Fields"
+    }
+   ],
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "unit_label": "Topic 6 — Electric and Magnetic Fields",
+    "basis": "manifest unit title == spec topic title, whitespace/case normalised equality (P-F4-1 pin, 11/11 verbatim)",
+    "chunk_ids": [
+     "yph2_v1_u6_c4_pdf052_0211",
+     "yph2_v1_u6_c4_pdf052_0212"
+    ],
+    "printed_codes": [],
+    "pages": [
+     52,
+     65
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u6:c5",
+   "book_key": "yph11-sb2",
+   "chapter_title": "6C Electromagnetic Effects",
+   "spec_refs": [
+    {
+     "topic": "XPH11/YPH11-T6",
+     "spec_number": "4.4",
+     "spec_title": "Electric and Magnetic Fields"
+    }
+   ],
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "unit_label": "Topic 6 — Electric and Magnetic Fields",
+    "basis": "manifest unit title == spec topic title, whitespace/case normalised equality (P-F4-1 pin, 11/11 verbatim)",
+    "chunk_ids": [
+     "yph2_v1_u6_c5_pdf066_0274",
+     "yph2_v1_u6_c5_pdf066_0275"
+    ],
+    "printed_codes": [],
+    "pages": [
+     66,
+     81
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u7:c6",
+   "book_key": "yph11-sb2",
+   "chapter_title": "7A Probing Matter",
+   "spec_refs": [
+    {
+     "topic": "XPH11/YPH11-T7",
+     "spec_number": "4.5",
+     "spec_title": "Nuclear and Particle Physics"
+    }
+   ],
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "unit_label": "Topic 7 — Nuclear and Particle Physics",
+    "basis": "manifest unit title == spec topic title, whitespace/case normalised equality (P-F4-1 pin, 11/11 verbatim)",
+    "chunk_ids": [
+     "yph2_v1_u7_c6_pdf082_0331",
+     "yph2_v1_u7_c6_pdf082_0332"
+    ],
+    "printed_codes": [],
+    "pages": [
+     82,
+     93
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u7:c7",
+   "book_key": "yph11-sb2",
+   "chapter_title": "7B Particle Accelerators and Detectors",
+   "spec_refs": [
+    {
+     "topic": "XPH11/YPH11-T7",
+     "spec_number": "4.5",
+     "spec_title": "Nuclear and Particle Physics"
+    }
+   ],
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "unit_label": "Topic 7 — Nuclear and Particle Physics",
+    "basis": "manifest unit title == spec topic title, whitespace/case normalised equality (P-F4-1 pin, 11/11 verbatim)",
+    "chunk_ids": [
+     "yph2_v1_u7_c7_pdf094_0378",
+     "yph2_v1_u7_c7_pdf094_0379"
+    ],
+    "printed_codes": [],
+    "pages": [
+     94,
+     109
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u7:c8",
+   "book_key": "yph11-sb2",
+   "chapter_title": "7C The Particle Zoo",
+   "spec_refs": [
+    {
+     "topic": "XPH11/YPH11-T7",
+     "spec_number": "4.5",
+     "spec_title": "Nuclear and Particle Physics"
+    }
+   ],
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "unit_label": "Topic 7 — Nuclear and Particle Physics",
+    "basis": "manifest unit title == spec topic title, whitespace/case normalised equality (P-F4-1 pin, 11/11 verbatim)",
+    "chunk_ids": [
+     "yph2_v1_u7_c8_pdf110_0436",
+     "yph2_v1_u7_c8_pdf110_0437"
+    ],
+    "printed_codes": [],
+    "pages": [
+     110,
+     125
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u8:c9",
+   "book_key": "yph11-sb2",
+   "chapter_title": "8A Heat and Temperature",
+   "spec_refs": [
+    {
+     "topic": "XPH11/YPH11-T8",
+     "spec_number": "5.3",
+     "spec_title": "Thermodynamics"
+    }
+   ],
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "unit_label": "Topic 8 — Thermodynamics",
+    "basis": "manifest unit title == spec topic title, whitespace/case normalised equality (P-F4-1 pin, 11/11 verbatim)",
+    "chunk_ids": [
+     "yph2_v1_u8_c9_pdf126_0515",
+     "yph2_v1_u8_c9_pdf126_0516"
+    ],
+    "printed_codes": [],
+    "pages": [
+     126,
+     141
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u9:c10",
+   "book_key": "yph11-sb2",
+   "chapter_title": "9A Radioactivity",
+   "spec_refs": [
+    {
+     "topic": "XPH11/YPH11-T9",
+     "spec_number": "5.4",
+     "spec_title": "Nuclear Decay"
+    }
+   ],
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "unit_label": "Topic 9 — Nuclear Decay",
+    "basis": "manifest unit title == spec topic title, whitespace/case normalised equality (P-F4-1 pin, 11/11 verbatim)",
+    "chunk_ids": [
+     "yph2_v1_u9_c10_pdf142_0594",
+     "yph2_v1_u9_c10_pdf142_0595"
+    ],
+    "printed_codes": [],
+    "pages": [
+     142,
+     159
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u10:c11",
+   "book_key": "yph11-sb2",
+   "chapter_title": "10A Oscillations",
+   "spec_refs": [
+    {
+     "topic": "XPH11/YPH11-T10",
+     "spec_number": "5.5",
+     "spec_title": "Oscillations"
+    }
+   ],
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "unit_label": "Topic 10 — Oscillations",
+    "basis": "manifest unit title == spec topic title, whitespace/case normalised equality (P-F4-1 pin, 11/11 verbatim)",
+    "chunk_ids": [
+     "yph2_v1_u10_c11_pdf160_0666",
+     "yph2_v1_u10_c11_pdf160_0667"
+    ],
+    "printed_codes": [],
+    "pages": [
+     160,
+     177
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u11:c12",
+   "book_key": "yph11-sb2",
+   "chapter_title": "11A Gravitational Fields",
+   "spec_refs": [
+    {
+     "topic": "XPH11/YPH11-T11",
+     "spec_number": "5.6",
+     "spec_title": "Astrophysics and Cosmology"
+    }
+   ],
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "unit_label": "Topic 11 — Astrophysics and Cosmology",
+    "basis": "manifest unit title == spec topic title, whitespace/case normalised equality (P-F4-1 pin, 11/11 verbatim)",
+    "chunk_ids": [
+     "yph2_v1_u11_c12_pdf178_0732",
+     "yph2_v1_u11_c12_pdf178_0733"
+    ],
+    "printed_codes": [],
+    "pages": [
+     178,
+     187
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u11:c13",
+   "book_key": "yph11-sb2",
+   "chapter_title": "11B Space",
+   "spec_refs": [
+    {
+     "topic": "XPH11/YPH11-T11",
+     "spec_number": "5.6",
+     "spec_title": "Astrophysics and Cosmology"
+    }
+   ],
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "unit_label": "Topic 11 — Astrophysics and Cosmology",
+    "basis": "manifest unit title == spec topic title, whitespace/case normalised equality (P-F4-1 pin, 11/11 verbatim)",
+    "chunk_ids": [
+     "yph2_v1_u11_c13_pdf188_0779",
+     "yph2_v1_u11_c13_pdf188_0780"
+    ],
+    "printed_codes": [],
+    "pages": [
+     188,
+     213
+    ]
+   },
+   "flags": []
+  }
+ ],
+ "coverage": {
+  "chapters_total": 24,
+  "chapters_joined": 24,
+  "chapters_unjoined": [],
+  "topics_total": 11,
+  "topics_covered": [
+   "XPH11/YPH11-T1",
+   "XPH11/YPH11-T2",
+   "XPH11/YPH11-T3",
+   "XPH11/YPH11-T4",
+   "XPH11/YPH11-T5",
+   "XPH11/YPH11-T6",
+   "XPH11/YPH11-T7",
+   "XPH11/YPH11-T8",
+   "XPH11/YPH11-T9",
+   "XPH11/YPH11-T10",
+   "XPH11/YPH11-T11"
+  ],
+  "topics_uncovered": [],
+  "points_total": 171,
+  "points_keyed": 0,
+  "points_topic_only": 171,
+  "points_uncovered": [],
+  "uncovered_reasons": {},
+  "point_keying": {
+   "route_tried": {
+    "J1": "n/a — bare_int spec prints no official codes",
+    "J2": "P-F4-2: 99 LO chunks (46 SB1 + 53 SB2) scanned; zero printed spec codes (none exist to print)",
+    "J3": "incidental question cross-refs only; not admissible per L-2",
+    "J4": "0/99 LO chunks exact-match spec statement text (book paraphrases: e.g. book 'Derive and use the equation for the kinetic energy of a non-relativistic particle' vs spec 'be able to derive and use the equation ...'); OCR space-join artifacts in book text noted",
+    "J6": "cross-document; N/A"
+   },
+   "result": "points stay topic-level only; honest UNJOINED at point level is a result, not a failure (L-2)",
+   "reason_of_record": "no_printed_key"
+  }
+ },
+ "generated_utc": "2026-11-13T14:54:01Z",
+ "generator": "agent:scripts/wf4t2_build.py (W-F4-T2 staged build; repo-side scripts/book_layer/ generator proposed, not installed)",
+ "inputs": [
+  "e8a956824381c706d60c53ac6048ea504558b58c",
+  "4367df364245a371605d323f156f79c8bd796bbd",
+  "ed2f0f20e9368d6c03a4e9286e43fc02c662814d",
+  "5ffaab39575b1796d6d5232a41e815b155da44cc"
+ ]
+}

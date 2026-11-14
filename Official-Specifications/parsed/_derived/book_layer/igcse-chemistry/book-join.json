@@ -1,0 +1,1483 @@
+{
+ "schema": "syllabai.book-spec-join/1.0",
+ "qual": "igcse-chemistry",
+ "reference": "REFERENCE_RATIFIED — the book-slices-manifest-v2 of this lane is the ratified serving registration (CATALOG LIVE); this artifact is the reference implementation of the family per W-F4-T1 §8.2",
+ "spec_side": {
+  "topics_ref": "Official-Specifications/parsed/igcse-chemistry/topics.json (blob 0802ad0dbe480785b040942d9e09b91e72b83075)",
+  "points_ref": "Official-Specifications/parsed/igcse-chemistry/spec_points.json (blob 102d765d8282084f8341123416f41add2027a2b7)",
+  "point_count": 182,
+  "topic_count": 8,
+  "subsection_count": 28,
+  "id_scheme": "IGCSE chemistry official codes N.N[...] (C-suffix = chemistry-route extensions)"
+ },
+ "join_keys": {
+  "J1_PRINTED_CODE_LIST": "not harvested this wave (4CH1 ToC transcription not of record in a W-F receipt; LO chips are)",
+  "J2_LO_CODE_CHIPS": "ACTIVE — printed spec codes in learning-objectives chunks, attributed to chapters by pdf_page_start within manifest slice ranges",
+  "J3_BODY_CODE_CHIPS": "not applied (J2 sufficient for the harvested rows)",
+  "J4_LO_TEXT_EQUALITY": "not applied (code_column family)",
+  "J5_TITLE_ADJUDICATED": "ACTIVE — chapter title == spec subsection title (normalised equality)",
+  "J6_PAGE_SPAN_ADJACENCY": "not applied (topic-level evidence only)"
+ },
+ "rows": [
+  {
+   "chapter_key": "u1:c1",
+   "book_key": "4ch1-student-book",
+   "chapter_title": "States of matter",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4CH1-SUB1",
+      "title": "States of matter",
+      "basis": "J5_EQUAL"
+     }
+    ],
+    "points": [
+     {
+      "printed": "1.2",
+      "resolution": "exact",
+      "point_id": "IGCSE_CHEMISTRY:1.2"
+     }
+    ]
+   },
+   "join_key": "J2_LO_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "lo_chunk_ids": [
+     "edex-igcse-chem-0015",
+     "edex-igcse-chem-0016"
+    ],
+    "n_lo_chunks": 2,
+    "printed_codes": [
+     "1.2"
+    ],
+    "pages": [
+     11,
+     22
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u1:c2",
+   "book_key": "4ch1-student-book",
+   "chapter_title": "Elements, compounds and mixtures",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4CH1-SUB2",
+      "title": "Elements, compounds and mixtures",
+      "basis": "J5_EQUAL"
+     }
+    ],
+    "points": [
+     {
+      "printed": "2.1",
+      "resolution": "exact",
+      "point_id": "IGCSE_CHEMISTRY:2.1"
+     },
+     {
+      "printed": "2.2",
+      "resolution": "exact",
+      "point_id": "IGCSE_CHEMISTRY:2.2"
+     },
+     {
+      "printed": "2.3",
+      "resolution": "exact",
+      "point_id": "IGCSE_CHEMISTRY:2.3"
+     }
+    ]
+   },
+   "join_key": "J2_LO_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "lo_chunk_ids": [
+     "edex-igcse-chem-0035",
+     "edex-igcse-chem-0036"
+    ],
+    "n_lo_chunks": 2,
+    "printed_codes": [
+     "2.1",
+     "2.2",
+     "2.3"
+    ],
+    "pages": [
+     23,
+     32
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u1:c3",
+   "book_key": "4ch1-student-book",
+   "chapter_title": "Atomic structure",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4CH1-SUB3",
+      "title": "Atomic structure",
+      "basis": "J5_EQUAL"
+     }
+    ],
+    "points": [
+     {
+      "printed": "3.1",
+      "resolution": "exact",
+      "point_id": "IGCSE_CHEMISTRY:3.1"
+     },
+     {
+      "printed": "3.3",
+      "resolution": "exact",
+      "point_id": "IGCSE_CHEMISTRY:3.3"
+     }
+    ]
+   },
+   "join_key": "J2_LO_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "lo_chunk_ids": [
+     "edex-igcse-chem-0049",
+     "edex-igcse-chem-0050"
+    ],
+    "n_lo_chunks": 2,
+    "printed_codes": [
+     "3.1",
+     "3.3"
+    ],
+    "pages": [
+     33,
+     38
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u1:c4",
+   "book_key": "4ch1-student-book",
+   "chapter_title": "The periodic table",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4CH1-SUB4",
+      "title": "The Periodic Table",
+      "basis": "J5_EQUAL"
+     }
+    ],
+    "points": [
+     {
+      "printed": "4.1",
+      "resolution": "exact",
+      "point_id": "IGCSE_CHEMISTRY:4.1"
+     }
+    ]
+   },
+   "join_key": "J2_LO_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "lo_chunk_ids": [
+     "edex-igcse-chem-0059",
+     "edex-igcse-chem-0060"
+    ],
+    "n_lo_chunks": 2,
+    "printed_codes": [
+     "4.1"
+    ],
+    "pages": [
+     39,
+     46
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u1:c5",
+   "book_key": "4ch1-student-book",
+   "chapter_title": "Chemical formulae, equations and calculations - part 1 (chemistry only)",
+   "spec_refs": {
+    "subsections": [],
+    "points": [
+     {
+      "printed": "5.1",
+      "resolution": "unresolved",
+      "candidates": []
+     },
+     {
+      "printed": "5.2",
+      "resolution": "unresolved",
+      "candidates": []
+     },
+     {
+      "printed": "5.3",
+      "resolution": "unresolved",
+      "candidates": []
+     }
+    ]
+   },
+   "join_key": "J2_LO_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "lo_chunk_ids": [
+     "edex-igcse-chem-0072",
+     "edex-igcse-chem-0073"
+    ],
+    "n_lo_chunks": 2,
+    "printed_codes": [
+     "5.1",
+     "5.2",
+     "5.3"
+    ],
+    "pages": [
+     47,
+     72
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u1:c6",
+   "book_key": "4ch1-student-book",
+   "chapter_title": "Chemical formulae, equations and calculations - part 2",
+   "spec_refs": {
+    "subsections": [],
+    "points": [
+     {
+      "printed": "6.1",
+      "resolution": "unresolved",
+      "candidates": []
+     }
+    ]
+   },
+   "join_key": "J2_LO_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "lo_chunk_ids": [
+     "edex-igcse-chem-0115",
+     "edex-igcse-chem-0116"
+    ],
+    "n_lo_chunks": 2,
+    "printed_codes": [
+     "6.1"
+    ],
+    "pages": [
+     73,
+     83
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u1:c7",
+   "book_key": "4ch1-student-book",
+   "chapter_title": "Ionic bonding",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4CH1-SUB6",
+      "title": "Ionic bonding",
+      "basis": "J5_EQUAL"
+     }
+    ],
+    "points": [
+     {
+      "printed": "7.1",
+      "resolution": "unresolved",
+      "candidates": []
+     },
+     {
+      "printed": "7.3",
+      "resolution": "unresolved",
+      "candidates": []
+     }
+    ]
+   },
+   "join_key": "J2_LO_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "lo_chunk_ids": [
+     "edex-igcse-chem-0134",
+     "edex-igcse-chem-0135"
+    ],
+    "n_lo_chunks": 2,
+    "printed_codes": [
+     "7.1",
+     "7.3"
+    ],
+    "pages": [
+     84,
+     93
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u1:c8",
+   "book_key": "4ch1-student-book",
+   "chapter_title": "Covalent bonding",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4CH1-SUB7",
+      "title": "Covalent bonding",
+      "basis": "J5_EQUAL"
+     }
+    ],
+    "points": [
+     {
+      "printed": "8.1",
+      "resolution": "unresolved",
+      "candidates": []
+     },
+     {
+      "printed": "8.2",
+      "resolution": "unresolved",
+      "candidates": []
+     }
+    ]
+   },
+   "join_key": "J2_LO_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "lo_chunk_ids": [
+     "edex-igcse-chem-0149",
+     "edex-igcse-chem-0150"
+    ],
+    "n_lo_chunks": 2,
+    "printed_codes": [
+     "8.1",
+     "8.2"
+    ],
+    "pages": [
+     94,
+     106
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u1:c9",
+   "book_key": "4ch1-student-book",
+   "chapter_title": "Metallic bonding (chemistry only)",
+   "spec_refs": {
+    "subsections": [],
+    "points": [
+     {
+      "printed": "9.1",
+      "resolution": "unresolved",
+      "candidates": []
+     },
+     {
+      "printed": "9.2",
+      "resolution": "unresolved",
+      "candidates": []
+     },
+     {
+      "printed": "9.3",
+      "resolution": "unresolved",
+      "candidates": []
+     },
+     {
+      "printed": "0.0",
+      "resolution": "unresolved",
+      "candidates": []
+     }
+    ]
+   },
+   "join_key": "J2_LO_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "lo_chunk_ids": [
+     "edex-igcse-chem-0173"
+    ],
+    "n_lo_chunks": 1,
+    "printed_codes": [
+     "9.1",
+     "9.2",
+     "9.3",
+     "0.0"
+    ],
+    "pages": [
+     107,
+     109
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u1:c10",
+   "book_key": "4ch1-student-book",
+   "chapter_title": "Electrolysis (chemistry only)",
+   "spec_refs": {
+    "subsections": [],
+    "points": [
+     {
+      "printed": "10.1",
+      "resolution": "unresolved",
+      "candidates": []
+     }
+    ]
+   },
+   "join_key": "J2_LO_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "lo_chunk_ids": [
+     "edex-igcse-chem-0179",
+     "edex-igcse-chem-0180"
+    ],
+    "n_lo_chunks": 2,
+    "printed_codes": [
+     "10.1"
+    ],
+    "pages": [
+     110,
+     122
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u2:c11",
+   "book_key": "4ch1-student-book",
+   "chapter_title": "The alkali metals",
+   "spec_refs": {
+    "subsections": [],
+    "points": [
+     {
+      "printed": "11.2",
+      "resolution": "unresolved",
+      "candidates": []
+     },
+     {
+      "printed": "0.53",
+      "resolution": "unresolved",
+      "candidates": []
+     },
+     {
+      "printed": "11.3",
+      "resolution": "unresolved",
+      "candidates": []
+     }
+    ]
+   },
+   "join_key": "J2_LO_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "lo_chunk_ids": [
+     "edex-igcse-chem-0214"
+    ],
+    "n_lo_chunks": 1,
+    "printed_codes": [
+     "11.2",
+     "0.53",
+     "11.3"
+    ],
+    "pages": [
+     131,
+     138
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u2:c12",
+   "book_key": "4ch1-student-book",
+   "chapter_title": "The halogens",
+   "spec_refs": {
+    "subsections": [],
+    "points": [
+     {
+      "printed": "12.1",
+      "resolution": "unresolved",
+      "candidates": []
+     },
+     {
+      "printed": "12.2",
+      "resolution": "unresolved",
+      "candidates": []
+     },
+     {
+      "printed": "12.3",
+      "resolution": "unresolved",
+      "candidates": []
+     }
+    ]
+   },
+   "join_key": "J2_LO_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "lo_chunk_ids": [
+     "edex-igcse-chem-0225",
+     "edex-igcse-chem-0226"
+    ],
+    "n_lo_chunks": 2,
+    "printed_codes": [
+     "12.1",
+     "12.2",
+     "12.3"
+    ],
+    "pages": [
+     139,
+     145
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u2:c13",
+   "book_key": "4ch1-student-book",
+   "chapter_title": "Gases in the atmosphere",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4CH1-SUB12",
+      "title": "Gases in the atmosphere",
+      "basis": "J5_EQUAL"
+     }
+    ],
+    "points": [
+     {
+      "printed": "13.1",
+      "resolution": "unresolved",
+      "candidates": []
+     },
+     {
+      "printed": "21.0",
+      "resolution": "unresolved",
+      "candidates": []
+     },
+     {
+      "printed": "0.9",
+      "resolution": "unresolved",
+      "candidates": []
+     },
+     {
+      "printed": "0.04",
+      "resolution": "unresolved",
+      "candidates": []
+     }
+    ]
+   },
+   "join_key": "J2_LO_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "lo_chunk_ids": [
+     "edex-igcse-chem-0238",
+     "edex-igcse-chem-0239"
+    ],
+    "n_lo_chunks": 2,
+    "printed_codes": [
+     "13.1",
+     "21.0",
+     "0.9",
+     "0.04"
+    ],
+    "pages": [
+     146,
+     153
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u2:c14",
+   "book_key": "4ch1-student-book",
+   "chapter_title": "Reactivity series",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4CH1-SUB13",
+      "title": "Reactivity series",
+      "basis": "J5_EQUAL"
+     }
+    ],
+    "points": [
+     {
+      "printed": "14.1",
+      "resolution": "unresolved",
+      "candidates": []
+     },
+     {
+      "printed": "14.2",
+      "resolution": "unresolved",
+      "candidates": []
+     }
+    ]
+   },
+   "join_key": "J2_LO_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "lo_chunk_ids": [
+     "edex-igcse-chem-0251"
+    ],
+    "n_lo_chunks": 1,
+    "printed_codes": [
+     "14.1",
+     "14.2"
+    ],
+    "pages": [
+     154,
+     168
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u2:c15",
+   "book_key": "4ch1-student-book",
+   "chapter_title": "Extraction and uses of metals (chemistry only)",
+   "spec_refs": {
+    "subsections": [],
+    "points": [
+     {
+      "printed": "15.2",
+      "resolution": "unresolved",
+      "candidates": []
+     },
+     {
+      "printed": "15.1",
+      "resolution": "unresolved",
+      "candidates": []
+     }
+    ]
+   },
+   "join_key": "J2_LO_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "lo_chunk_ids": [
+     "edex-igcse-chem-0279",
+     "edex-igcse-chem-0280"
+    ],
+    "n_lo_chunks": 2,
+    "printed_codes": [
+     "15.2",
+     "15.1"
+    ],
+    "pages": [
+     169,
+     175
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u2:c16",
+   "book_key": "4ch1-student-book",
+   "chapter_title": "Acids, alkalis and titrations",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4CH1-SUB15",
+      "title": "Acids, alkalis and titrations",
+      "basis": "J5_EQUAL"
+     }
+    ],
+    "points": [
+     {
+      "printed": "16.1",
+      "resolution": "unresolved",
+      "candidates": []
+     },
+     {
+      "printed": "16.2",
+      "resolution": "unresolved",
+      "candidates": []
+     },
+     {
+      "printed": "16.3",
+      "resolution": "unresolved",
+      "candidates": []
+     },
+     {
+      "printed": "16.4",
+      "resolution": "unresolved",
+      "candidates": []
+     },
+     {
+      "printed": "16.5",
+      "resolution": "unresolved",
+      "candidates": []
+     }
+    ]
+   },
+   "join_key": "J2_LO_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "lo_chunk_ids": [
+     "edex-igcse-chem-0289",
+     "edex-igcse-chem-0290",
+     "edex-igcse-chem-0291"
+    ],
+    "n_lo_chunks": 4,
+    "printed_codes": [
+     "16.1",
+     "16.2",
+     "16.3",
+     "16.4",
+     "16.5"
+    ],
+    "pages": [
+     176,
+     181
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u2:c17",
+   "book_key": "4ch1-student-book",
+   "chapter_title": "Acids, bases and salt preparations",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4CH1-SUB16",
+      "title": "Acids, bases and salt preparations",
+      "basis": "J5_EQUAL"
+     }
+    ],
+    "points": [
+     {
+      "printed": "17.1",
+      "resolution": "unresolved",
+      "candidates": []
+     }
+    ]
+   },
+   "join_key": "J2_LO_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "lo_chunk_ids": [
+     "edex-igcse-chem-0298",
+     "edex-igcse-chem-0299"
+    ],
+    "n_lo_chunks": 2,
+    "printed_codes": [
+     "17.1"
+    ],
+    "pages": [
+     182,
+     198
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u2:c18",
+   "book_key": "4ch1-student-book",
+   "chapter_title": "Chemical tests",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4CH1-SUB17",
+      "title": "Chemical tests",
+      "basis": "J5_EQUAL"
+     }
+    ],
+    "points": [
+     {
+      "printed": "18.1",
+      "resolution": "unresolved",
+      "candidates": []
+     }
+    ]
+   },
+   "join_key": "J2_LO_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "lo_chunk_ids": [
+     "edex-igcse-chem-0323"
+    ],
+    "n_lo_chunks": 1,
+    "printed_codes": [
+     "18.1"
+    ],
+    "pages": [
+     199,
+     206
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u3:c19",
+   "book_key": "4ch1-student-book",
+   "chapter_title": "Energetics",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4CH1-SUB18",
+      "title": "Energetics",
+      "basis": "J5_EQUAL"
+     }
+    ],
+    "points": [
+     {
+      "printed": "19.2",
+      "resolution": "unresolved",
+      "candidates": []
+     },
+     {
+      "printed": "19.3",
+      "resolution": "unresolved",
+      "candidates": []
+     },
+     {
+      "printed": "19.4",
+      "resolution": "unresolved",
+      "candidates": []
+     }
+    ]
+   },
+   "join_key": "J2_LO_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "lo_chunk_ids": [
+     "edex-igcse-chem-0346",
+     "edex-igcse-chem-0347"
+    ],
+    "n_lo_chunks": 2,
+    "printed_codes": [
+     "19.2",
+     "19.3",
+     "19.4"
+    ],
+    "pages": [
+     215,
+     235
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u3:c20",
+   "book_key": "4ch1-student-book",
+   "chapter_title": "Rates of reaction",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4CH1-SUB19",
+      "title": "Rates of reaction",
+      "basis": "J5_EQUAL"
+     }
+    ],
+    "points": [
+     {
+      "printed": "20.1",
+      "resolution": "unresolved",
+      "candidates": []
+     },
+     {
+      "printed": "20.2",
+      "resolution": "unresolved",
+      "candidates": []
+     },
+     {
+      "printed": "20.3",
+      "resolution": "unresolved",
+      "candidates": []
+     },
+     {
+      "printed": "20.4",
+      "resolution": "unresolved",
+      "candidates": []
+     }
+    ]
+   },
+   "join_key": "J2_LO_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "lo_chunk_ids": [
+     "edex-igcse-chem-0378",
+     "edex-igcse-chem-0379"
+    ],
+    "n_lo_chunks": 2,
+    "printed_codes": [
+     "20.1",
+     "20.2",
+     "20.3",
+     "20.4"
+    ],
+    "pages": [
+     236,
+     248
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u3:c21",
+   "book_key": "4ch1-student-book",
+   "chapter_title": "Reversible reactions and equilibria",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4CH1-SUB20",
+      "title": "Reversible reactions and equilibria",
+      "basis": "J5_EQUAL"
+     }
+    ],
+    "points": [
+     {
+      "printed": "18.3",
+      "resolution": "unresolved",
+      "candidates": []
+     },
+     {
+      "printed": "21.1",
+      "resolution": "unresolved",
+      "candidates": []
+     },
+     {
+      "printed": "11.11",
+      "resolution": "unresolved",
+      "candidates": []
+     },
+     {
+      "printed": "21.2",
+      "resolution": "unresolved",
+      "candidates": []
+     }
+    ]
+   },
+   "join_key": "J2_LO_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "lo_chunk_ids": [
+     "edex-igcse-chem-0399",
+     "edex-igcse-chem-0400",
+     "edex-igcse-chem-0401"
+    ],
+    "n_lo_chunks": 3,
+    "printed_codes": [
+     "18.3",
+     "21.1",
+     "11.11",
+     "21.2"
+    ],
+    "pages": [
+     249,
+     256
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u4:c22",
+   "book_key": "4ch1-student-book",
+   "chapter_title": "Introduction to organic chemistry",
+   "spec_refs": {
+    "subsections": [],
+    "points": [
+     {
+      "printed": "22.2",
+      "resolution": "unresolved",
+      "candidates": []
+     },
+     {
+      "printed": "22.3",
+      "resolution": "unresolved",
+      "candidates": []
+     }
+    ]
+   },
+   "join_key": "J2_LO_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "lo_chunk_ids": [
+     "edex-igcse-chem-0422",
+     "edex-igcse-chem-0423"
+    ],
+    "n_lo_chunks": 2,
+    "printed_codes": [
+     "22.2",
+     "22.3"
+    ],
+    "pages": [
+     263,
+     276
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u4:c23",
+   "book_key": "4ch1-student-book",
+   "chapter_title": "Crude oil",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4CH1-SUB22",
+      "title": "Crude oil",
+      "basis": "J5_EQUAL"
+     }
+    ],
+    "points": [
+     {
+      "printed": "23.1",
+      "resolution": "unresolved",
+      "candidates": []
+     }
+    ]
+   },
+   "join_key": "J2_LO_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "lo_chunk_ids": [
+     "edex-igcse-chem-0444"
+    ],
+    "n_lo_chunks": 1,
+    "printed_codes": [
+     "23.1"
+    ],
+    "pages": [
+     277,
+     285
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u4:c24",
+   "book_key": "4ch1-student-book",
+   "chapter_title": "Alkanes",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4CH1-SUB23",
+      "title": "Alkanes",
+      "basis": "J5_EQUAL"
+     }
+    ],
+    "points": [
+     {
+      "printed": "24.1",
+      "resolution": "unresolved",
+      "candidates": []
+     }
+    ]
+   },
+   "join_key": "J2_LO_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "lo_chunk_ids": [
+     "edex-igcse-chem-0457",
+     "edex-igcse-chem-0458"
+    ],
+    "n_lo_chunks": 2,
+    "printed_codes": [
+     "24.1"
+    ],
+    "pages": [
+     286,
+     290
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u4:c25",
+   "book_key": "4ch1-student-book",
+   "chapter_title": "Alkenes",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4CH1-SUB24",
+      "title": "Alkenes",
+      "basis": "J5_EQUAL"
+     }
+    ],
+    "points": [
+     {
+      "printed": "25.1",
+      "resolution": "unresolved",
+      "candidates": []
+     }
+    ]
+   },
+   "join_key": "J2_LO_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "lo_chunk_ids": [
+     "edex-igcse-chem-0465"
+    ],
+    "n_lo_chunks": 1,
+    "printed_codes": [
+     "25.1"
+    ],
+    "pages": [
+     291,
+     295
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u4:c26",
+   "book_key": "4ch1-student-book",
+   "chapter_title": "Alcohols (chemistry only)",
+   "spec_refs": {
+    "subsections": [],
+    "points": [
+     {
+      "printed": "26.1",
+      "resolution": "unresolved",
+      "candidates": []
+     }
+    ]
+   },
+   "join_key": "J2_LO_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "lo_chunk_ids": [
+     "edex-igcse-chem-0473"
+    ],
+    "n_lo_chunks": 1,
+    "printed_codes": [
+     "26.1"
+    ],
+    "pages": [
+     296,
+     301
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u4:c27",
+   "book_key": "4ch1-student-book",
+   "chapter_title": "Carboxylic acids (chemistry only)",
+   "spec_refs": {
+    "subsections": [],
+    "points": [
+     {
+      "printed": "27.2",
+      "resolution": "unresolved",
+      "candidates": []
+     }
+    ]
+   },
+   "join_key": "J2_LO_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "lo_chunk_ids": [
+     "edex-igcse-chem-0482"
+    ],
+    "n_lo_chunks": 1,
+    "printed_codes": [
+     "27.2"
+    ],
+    "pages": [
+     302,
+     305
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u4:c28",
+   "book_key": "4ch1-student-book",
+   "chapter_title": "Esters (chemistry only)",
+   "spec_refs": {
+    "subsections": [],
+    "points": [
+     {
+      "printed": "28.1",
+      "resolution": "unresolved",
+      "candidates": []
+     }
+    ]
+   },
+   "join_key": "J2_LO_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "lo_chunk_ids": [
+     "edex-igcse-chem-0488"
+    ],
+    "n_lo_chunks": 1,
+    "printed_codes": [
+     "28.1"
+    ],
+    "pages": [
+     306,
+     310
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u4:c29",
+   "book_key": "4ch1-student-book",
+   "chapter_title": "Synthetic polymers",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4CH1-SUB28",
+      "title": "Synthetic polymers",
+      "basis": "J5_EQUAL"
+     }
+    ],
+    "points": [
+     {
+      "printed": "29.1",
+      "resolution": "unresolved",
+      "candidates": []
+     },
+     {
+      "printed": "29.2",
+      "resolution": "unresolved",
+      "candidates": []
+     }
+    ]
+   },
+   "join_key": "J2_LO_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "lo_chunk_ids": [
+     "edex-igcse-chem-0495",
+     "edex-igcse-chem-0496"
+    ],
+    "n_lo_chunks": 2,
+    "printed_codes": [
+     "29.1",
+     "29.2"
+    ],
+    "pages": [
+     311,
+     321
+    ]
+   },
+   "flags": []
+  }
+ ],
+ "coverage": {
+  "chapters_total": 29,
+  "chapters_joined": 29,
+  "chapters_unjoined": [],
+  "topics_total": 8,
+  "topics_covered": null,
+  "topics_note": "coverage grain for IGCSE code_column quals is the subsection layer (spec topic row 1 = 'About this specification' front matter); see subsections_covered",
+  "subsections_total": 28,
+  "subsections_covered": [
+   "4CH1-SUB1",
+   "4CH1-SUB12",
+   "4CH1-SUB13",
+   "4CH1-SUB15",
+   "4CH1-SUB16",
+   "4CH1-SUB17",
+   "4CH1-SUB18",
+   "4CH1-SUB19",
+   "4CH1-SUB2",
+   "4CH1-SUB20",
+   "4CH1-SUB22",
+   "4CH1-SUB23",
+   "4CH1-SUB24",
+   "4CH1-SUB28",
+   "4CH1-SUB3",
+   "4CH1-SUB4",
+   "4CH1-SUB6",
+   "4CH1-SUB7"
+  ],
+  "subsections_uncovered": [
+   "4CH1-SUB10",
+   "4CH1-SUB11",
+   "4CH1-SUB14",
+   "4CH1-SUB21",
+   "4CH1-SUB25",
+   "4CH1-SUB26",
+   "4CH1-SUB27",
+   "4CH1-SUB5",
+   "4CH1-SUB8",
+   "4CH1-SUB9"
+  ],
+  "topics_uncovered": [],
+  "points_total": 182,
+  "points_keyed": 7,
+  "points_topic_only": 0,
+  "points_uncovered": [
+   "IGCSE_CHEMISTRY:1.1",
+   "IGCSE_CHEMISTRY:1.10",
+   "IGCSE_CHEMISTRY:1.11",
+   "IGCSE_CHEMISTRY:1.12",
+   "IGCSE_CHEMISTRY:1.13",
+   "IGCSE_CHEMISTRY:1.14",
+   "IGCSE_CHEMISTRY:1.15",
+   "IGCSE_CHEMISTRY:1.16",
+   "IGCSE_CHEMISTRY:1.17",
+   "IGCSE_CHEMISTRY:1.18",
+   "IGCSE_CHEMISTRY:1.19",
+   "IGCSE_CHEMISTRY:1.20",
+   "IGCSE_CHEMISTRY:1.21",
+   "IGCSE_CHEMISTRY:1.22",
+   "IGCSE_CHEMISTRY:1.23",
+   "IGCSE_CHEMISTRY:1.24",
+   "IGCSE_CHEMISTRY:1.25",
+   "IGCSE_CHEMISTRY:1.26",
+   "IGCSE_CHEMISTRY:1.27",
+   "IGCSE_CHEMISTRY:1.28",
+   "IGCSE_CHEMISTRY:1.29",
+   "IGCSE_CHEMISTRY:1.3",
+   "IGCSE_CHEMISTRY:1.30",
+   "IGCSE_CHEMISTRY:1.31",
+   "IGCSE_CHEMISTRY:1.32",
+   "IGCSE_CHEMISTRY:1.33",
+   "IGCSE_CHEMISTRY:1.34C",
+   "IGCSE_CHEMISTRY:1.35C",
+   "IGCSE_CHEMISTRY:1.36",
+   "IGCSE_CHEMISTRY:1.37",
+   "IGCSE_CHEMISTRY:1.38",
+   "IGCSE_CHEMISTRY:1.39",
+   "IGCSE_CHEMISTRY:1.4",
+   "IGCSE_CHEMISTRY:1.40",
+   "IGCSE_CHEMISTRY:1.41",
+   "IGCSE_CHEMISTRY:1.42",
+   "IGCSE_CHEMISTRY:1.43",
+   "IGCSE_CHEMISTRY:1.44",
+   "IGCSE_CHEMISTRY:1.45",
+   "IGCSE_CHEMISTRY:1.46",
+   "IGCSE_CHEMISTRY:1.47",
+   "IGCSE_CHEMISTRY:1.48",
+   "IGCSE_CHEMISTRY:1.49",
+   "IGCSE_CHEMISTRY:1.50",
+   "IGCSE_CHEMISTRY:1.51",
+   "IGCSE_CHEMISTRY:1.52C",
+   "IGCSE_CHEMISTRY:1.53C",
+   "IGCSE_CHEMISTRY:1.54C",
+   "IGCSE_CHEMISTRY:1.55C",
+   "IGCSE_CHEMISTRY:1.56C",
+   "IGCSE_CHEMISTRY:1.57C",
+   "IGCSE_CHEMISTRY:1.58C",
+   "IGCSE_CHEMISTRY:1.59C",
+   "IGCSE_CHEMISTRY:1.5C",
+   "IGCSE_CHEMISTRY:1.60C",
+   "IGCSE_CHEMISTRY:1.6C",
+   "IGCSE_CHEMISTRY:1.7C",
+   "IGCSE_CHEMISTRY:1.8",
+   "IGCSE_CHEMISTRY:1.9",
+   "IGCSE_CHEMISTRY:2.10",
+   "IGCSE_CHEMISTRY:2.11",
+   "IGCSE_CHEMISTRY:2.12",
+   "IGCSE_CHEMISTRY:2.13",
+   "IGCSE_CHEMISTRY:2.14",
+   "IGCSE_CHEMISTRY:2.15",
+   "IGCSE_CHEMISTRY:2.16",
+   "IGCSE_CHEMISTRY:2.17",
+   "IGCSE_CHEMISTRY:2.18",
+   "IGCSE_CHEMISTRY:2.19",
+   "IGCSE_CHEMISTRY:2.20",
+   "IGCSE_CHEMISTRY:2.21",
+   "IGCSE_CHEMISTRY:2.22C",
+   "IGCSE_CHEMISTRY:2.23C",
+   "IGCSE_CHEMISTRY:2.24C",
+   "IGCSE_CHEMISTRY:2.25C",
+   "IGCSE_CHEMISTRY:2.26C",
+   "IGCSE_CHEMISTRY:2.27C",
+   "IGCSE_CHEMISTRY:2.28",
+   "IGCSE_CHEMISTRY:2.29",
+   "IGCSE_CHEMISTRY:2.30",
+   "IGCSE_CHEMISTRY:2.31",
+   "IGCSE_CHEMISTRY:2.32",
+   "IGCSE_CHEMISTRY:2.33C",
+   "IGCSE_CHEMISTRY:2.34",
+   "IGCSE_CHEMISTRY:2.35",
+   "IGCSE_CHEMISTRY:2.36",
+   "IGCSE_CHEMISTRY:2.37",
+   "IGCSE_CHEMISTRY:2.38",
+   "IGCSE_CHEMISTRY:2.39",
+   "IGCSE_CHEMISTRY:2.40C",
+   "IGCSE_CHEMISTRY:2.41C",
+   "IGCSE_CHEMISTRY:2.42",
+   "IGCSE_CHEMISTRY:2.43C",
+   "IGCSE_CHEMISTRY:2.44",
+   "IGCSE_CHEMISTRY:2.45",
+   "IGCSE_CHEMISTRY:2.46",
+   "IGCSE_CHEMISTRY:2.47",
+   "IGCSE_CHEMISTRY:2.48",
+   "IGCSE_CHEMISTRY:2.49",
+   "IGCSE_CHEMISTRY:2.4C",
+   "IGCSE_CHEMISTRY:2.5",
+   "IGCSE_CHEMISTRY:2.50",
+   "IGCSE_CHEMISTRY:2.6",
+   "IGCSE_CHEMISTRY:2.7",
+   "IGCSE_CHEMISTRY:2.8C",
+   "IGCSE_CHEMISTRY:2.9",
+   "IGCSE_CHEMISTRY:3.10",
+   "IGCSE_CHEMISTRY:3.11",
+   "IGCSE_CHEMISTRY:3.12",
+   "IGCSE_CHEMISTRY:3.13",
+   "IGCSE_CHEMISTRY:3.14C",
+   "IGCSE_CHEMISTRY:3.15",
+   "IGCSE_CHEMISTRY:3.16",
+   "IGCSE_CHEMISTRY:3.17",
+   "IGCSE_CHEMISTRY:3.18",
+   "IGCSE_CHEMISTRY:3.19C",
+   "IGCSE_CHEMISTRY:3.2",
+   "IGCSE_CHEMISTRY:3.20C",
+   "IGCSE_CHEMISTRY:3.21C",
+   "IGCSE_CHEMISTRY:3.22C",
+   "IGCSE_CHEMISTRY:3.4",
+   "IGCSE_CHEMISTRY:3.5C",
+   "IGCSE_CHEMISTRY:3.6C",
+   "IGCSE_CHEMISTRY:3.7C",
+   "IGCSE_CHEMISTRY:3.8",
+   "IGCSE_CHEMISTRY:3.9",
+   "IGCSE_CHEMISTRY:4.10",
+   "IGCSE_CHEMISTRY:4.11",
+   "IGCSE_CHEMISTRY:4.12",
+   "IGCSE_CHEMISTRY:4.13",
+   "IGCSE_CHEMISTRY:4.14",
+   "IGCSE_CHEMISTRY:4.15",
+   "IGCSE_CHEMISTRY:4.16",
+   "IGCSE_CHEMISTRY:4.17",
+   "IGCSE_CHEMISTRY:4.18",
+   "IGCSE_CHEMISTRY:4.19",
+   "IGCSE_CHEMISTRY:4.2",
+   "IGCSE_CHEMISTRY:4.20",
+   "IGCSE_CHEMISTRY:4.21",
+   "IGCSE_CHEMISTRY:4.22",
+   "IGCSE_CHEMISTRY:4.23",
+   "IGCSE_CHEMISTRY:4.24",
+   "IGCSE_CHEMISTRY:4.25",
+   "IGCSE_CHEMISTRY:4.26",
+   "IGCSE_CHEMISTRY:4.27",
+   "IGCSE_CHEMISTRY:4.28",
+   "IGCSE_CHEMISTRY:4.29C",
+   "IGCSE_CHEMISTRY:4.3",
+   "IGCSE_CHEMISTRY:4.30C",
+   "IGCSE_CHEMISTRY:4.31C",
+   "IGCSE_CHEMISTRY:4.32C",
+   "IGCSE_CHEMISTRY:4.33C",
+   "IGCSE_CHEMISTRY:4.34C",
+   "IGCSE_CHEMISTRY:4.35C",
+   "IGCSE_CHEMISTRY:4.36C",
+   "IGCSE_CHEMISTRY:4.37C",
+   "IGCSE_CHEMISTRY:4.38C",
+   "IGCSE_CHEMISTRY:4.39C",
+   "IGCSE_CHEMISTRY:4.4",
+   "IGCSE_CHEMISTRY:4.40C",
+   "IGCSE_CHEMISTRY:4.41C",
+   "IGCSE_CHEMISTRY:4.42C",
+   "IGCSE_CHEMISTRY:4.43C",
+   "IGCSE_CHEMISTRY:4.44",
+   "IGCSE_CHEMISTRY:4.45",
+   "IGCSE_CHEMISTRY:4.46",
+   "IGCSE_CHEMISTRY:4.47",
+   "IGCSE_CHEMISTRY:4.48C",
+   "IGCSE_CHEMISTRY:4.49C",
+   "IGCSE_CHEMISTRY:4.5",
+   "IGCSE_CHEMISTRY:4.50C",
+   "IGCSE_CHEMISTRY:4.6",
+   "IGCSE_CHEMISTRY:4.7",
+   "IGCSE_CHEMISTRY:4.8",
+   "IGCSE_CHEMISTRY:4.9"
+  ],
+  "uncovered_reasons": {
+   "points": "no_printed_key — code not printed in any harvested LO chunk this wave",
+   "note": "unique_candidate_attributed points: 0"
+  }
+ },
+ "generated_utc": "2026-11-13T14:54:01Z",
+ "generator": "agent:scripts/wf4t2_build.py (W-F4-T2 staged build; repo-side scripts/book_layer/ generator proposed, not installed)",
+ "inputs": [
+  "0802ad0dbe480785b040942d9e09b91e72b83075",
+  "102d765d8282084f8341123416f41add2027a2b7",
+  "787067518ab9fbe568a6257347c4621d1b1f4fe9"
+ ]
+}

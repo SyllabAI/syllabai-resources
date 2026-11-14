@@ -1,0 +1,60 @@
+{
+ "schema": "syllabai.book-layer-index/1.0",
+ "qual": "ial-chemistry",
+ "books": [
+  {
+   "key": "ych11-sb1",
+   "structure_file": "book-structure--ych11-sb1.json",
+   "corpus_blob": "5924f3d9dfa857bb9def2da2f7ad56ee0f847583",
+   "n_chunks": 1571,
+   "topics_scope": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ]
+  },
+  {
+   "key": "ych12-sb2",
+   "structure_file": "book-structure--ych12-sb2.json",
+   "corpus_blob": "7a22b6b94444e9e37f9656c33f9f030a870262f5",
+   "n_chunks": 1406,
+   "topics_scope": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ]
+  }
+ ],
+ "no_book_units": [
+  {
+   "unit": 3,
+   "kind": "practical",
+   "book_state": "NO_BOOK_PRACTICAL_UNIT",
+   "evidence": "CATALOG §4.2 'Units 3/6 are practicals, no SB' @ blob 725e21e4"
+  },
+  {
+   "unit": 6,
+   "kind": "practical",
+   "book_state": "NO_BOOK_PRACTICAL_UNIT",
+   "evidence": "CATALOG §4.2 'Units 3/6 are practicals, no SB' @ blob 725e21e4"
+  }
+ ],
+ "join_status": "BUILT_NOT_JOINED — book-join.json deferred: spec side mid-swap (W-F2-T2 staged swap pending operator commit) + J2 probe ≈ empty (IAL books print no spec-code chips)",
+ "generated_utc": "2026-11-13T14:54:01Z",
+ "generator": "agent:scripts/wf4t2_build.py (W-F4-T2 staged build; repo-side scripts/book_layer/ generator proposed, not installed)",
+ "inputs": []
+}

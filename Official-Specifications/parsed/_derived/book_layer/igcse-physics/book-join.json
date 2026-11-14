@@ -1,0 +1,1207 @@
+{
+ "schema": "syllabai.book-spec-join/1.0",
+ "qual": "igcse-physics",
+ "spec_side": {
+  "topics_ref": "Official-Specifications/parsed/igcse-physics/topics.json (blob 80ff9420e4334b29e3078187ec81767e330c21fe)",
+  "points_ref": "Official-Specifications/parsed/igcse-physics/spec_points.json (blob 314b61f50e23ad47b63a4c2d724b16cd66819af1)",
+  "point_count": 195,
+  "topic_count": 13,
+  "subsection_count": 30,
+  "id_scheme": "IGCSE physics official codes N.N[P] (P-suffix = physics-only)"
+ },
+ "join_keys": {
+  "J1_PRINTED_CODE_LIST": "n/a — 4PH1 ToC prints no per-chapter codes (W-F1-T1 printed_per_chapter_spec_code_list=false)",
+  "J2_LO_CODE_CHIPS": "ACTIVE — printed spec codes in learning-objectives chunks (W-F1-T1 w_f4_pointer); sparse: 14/28 chapters carry chips, 20 tokens",
+  "J3_BODY_CODE_CHIPS": "not applied",
+  "J4_LO_TEXT_EQUALITY": "not applied (code_column family)",
+  "J5_TITLE_ADJUDICATED": "ACTIVE — W-F1-T1 chapter_rows bases adopted unchanged (exact_title / split_part / merge / superset_title / partial_title), page-cited",
+  "J6_PAGE_SPAN_ADJACENCY": "not applied"
+ },
+ "rows": [
+  {
+   "chapter_key": "u1:c1",
+   "book_key": "4ph1-student-book",
+   "chapter_title": "Movement and position",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4PH1-SUB2",
+      "title": "Movement and position",
+      "letter": "b",
+      "basis_adopted": "exact_title"
+     }
+    ],
+    "points": [
+     {
+      "printed": "1.2",
+      "resolution": "unique_candidate_attributed",
+      "candidates": [
+       "1.2P"
+      ],
+      "point_id": "IGCSE_PHYSICS:1.2P"
+     }
+    ]
+   },
+   "join_key": "J2_LO_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "toc_cite": "book pp. iv-vi (PDF pp. 5-7/308); units table book p. iv (PDF 5), chapters book pp. iv-vi (PDF 6-7)",
+    "basis_adopted_from": "receipts/W-F1/W-F1-T1-igcse-physics.json chapter_rows (deterministic title/structure adjudication of record)",
+    "chunk_ids": [
+     "phys_v1_u1_c1_pdf013_0028",
+     "phys_v1_u1_c1_pdf013_0029"
+    ],
+    "pages": [
+     3,
+     17
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u1:c2",
+   "book_key": "4ph1-student-book",
+   "chapter_title": "Forces and shape",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4PH1-SUB3",
+      "title": "Forces, movement, shape and momentum",
+      "letter": "c",
+      "basis_adopted": "split_part (1->4 with ch3, ch4, ch5)"
+     }
+    ],
+    "points": [
+     {
+      "printed": "2.1",
+      "resolution": "exact",
+      "point_id": "IGCSE_PHYSICS:2.1"
+     },
+     {
+      "printed": "2.2",
+      "resolution": "exact",
+      "point_id": "IGCSE_PHYSICS:2.2"
+     }
+    ]
+   },
+   "join_key": "J2_LO_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "toc_cite": "book pp. iv-vi (PDF pp. 5-7/308); units table book p. iv (PDF 5), chapters book pp. iv-vi (PDF 6-7)",
+    "basis_adopted_from": "receipts/W-F1/W-F1-T1-igcse-physics.json chapter_rows (deterministic title/structure adjudication of record)",
+    "chunk_ids": [
+     "phys_v1_u1_c2_pdf028_0057",
+     "phys_v1_u1_c2_pdf028_0058"
+    ],
+    "pages": [
+     18,
+     27
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u1:c3",
+   "book_key": "4ph1-student-book",
+   "chapter_title": "Forces and movement",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4PH1-SUB3",
+      "title": "Forces, movement, shape and momentum",
+      "letter": "c",
+      "basis_adopted": "split_part"
+     }
+    ],
+    "points": [
+     {
+      "printed": "3.1",
+      "resolution": "exact",
+      "point_id": "IGCSE_PHYSICS:3.1"
+     }
+    ]
+   },
+   "join_key": "J2_LO_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "toc_cite": "book pp. iv-vi (PDF pp. 5-7/308); units table book p. iv (PDF 5), chapters book pp. iv-vi (PDF 6-7)",
+    "basis_adopted_from": "receipts/W-F1/W-F1-T1-igcse-physics.json chapter_rows (deterministic title/structure adjudication of record)",
+    "chunk_ids": [
+     "phys_v1_u1_c3_pdf038_0078",
+     "phys_v1_u1_c3_pdf038_0079"
+    ],
+    "pages": [
+     28,
+     39
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u1:c4",
+   "book_key": "4ph1-student-book",
+   "chapter_title": "Momentum",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4PH1-SUB3",
+      "title": "Forces, movement, shape and momentum",
+      "letter": "c",
+      "basis_adopted": "split_part (physics_only chip)"
+     }
+    ],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_SUBSECTION",
+   "evidence": {
+    "toc_cite": "book pp. iv-vi (PDF pp. 5-7/308); units table book p. iv (PDF 5), chapters book pp. iv-vi (PDF 6-7)",
+    "basis_adopted_from": "receipts/W-F1/W-F1-T1-igcse-physics.json chapter_rows (deterministic title/structure adjudication of record)",
+    "chunk_ids": [
+     "phys_v1_u1_c4_pdf050_0102",
+     "phys_v1_u1_c4_pdf050_0103"
+    ],
+    "pages": [
+     40,
+     47
+    ]
+   },
+   "flags": [
+    "physics_only"
+   ]
+  },
+  {
+   "chapter_key": "u1:c5",
+   "book_key": "4ph1-student-book",
+   "chapter_title": "The turning effect of forces",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4PH1-SUB3",
+      "title": "Forces, movement, shape and momentum",
+      "letter": "c",
+      "basis_adopted": "split_part (physics_only chip)"
+     }
+    ],
+    "points": [
+     {
+      "printed": "5.6",
+      "resolution": "exact",
+      "point_id": "IGCSE_PHYSICS:5.6"
+     }
+    ]
+   },
+   "join_key": "J2_LO_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "toc_cite": "book pp. iv-vi (PDF pp. 5-7/308); units table book p. iv (PDF 5), chapters book pp. iv-vi (PDF 6-7)",
+    "basis_adopted_from": "receipts/W-F1/W-F1-T1-igcse-physics.json chapter_rows (deterministic title/structure adjudication of record)",
+    "chunk_ids": [
+     "phys_v1_u1_c5_pdf058_0121",
+     "phys_v1_u1_c5_pdf058_0122"
+    ],
+    "pages": [
+     48,
+     58
+    ]
+   },
+   "flags": [
+    "physics_only"
+   ]
+  },
+  {
+   "chapter_key": "u2:c6",
+   "book_key": "4ph1-student-book",
+   "chapter_title": "Mains electricity",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4PH1-SUB5",
+      "title": "Mains electricity",
+      "letter": "b",
+      "basis_adopted": "exact_title"
+     }
+    ],
+    "points": [
+     {
+      "printed": "6.1",
+      "resolution": "exact",
+      "point_id": "IGCSE_PHYSICS:6.1"
+     },
+     {
+      "printed": "6.2",
+      "resolution": "exact",
+      "point_id": "IGCSE_PHYSICS:6.2"
+     }
+    ]
+   },
+   "join_key": "J2_LO_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "toc_cite": "book pp. iv-vi (PDF pp. 5-7/308); units table book p. iv (PDF 5), chapters book pp. iv-vi (PDF 6-7)",
+    "basis_adopted_from": "receipts/W-F1/W-F1-T1-igcse-physics.json chapter_rows (deterministic title/structure adjudication of record)",
+    "chunk_ids": [
+     "phys_v1_u2_c6_pdf069_0140",
+     "phys_v1_u2_c6_pdf069_0141"
+    ],
+    "pages": [
+     59,
+     66
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u2:c7",
+   "book_key": "4ph1-student-book",
+   "chapter_title": "Current and voltage in circuits",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4PH1-SUB6",
+      "title": "Energy and voltage in circuits",
+      "letter": "c",
+      "basis_adopted": "partial_title (book narrows 'energy and voltage in circuits')"
+     }
+    ],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_SUBSECTION",
+   "evidence": {
+    "toc_cite": "book pp. iv-vi (PDF pp. 5-7/308); units table book p. iv (PDF 5), chapters book pp. iv-vi (PDF 6-7)",
+    "basis_adopted_from": "receipts/W-F1/W-F1-T1-igcse-physics.json chapter_rows (deterministic title/structure adjudication of record)",
+    "chunk_ids": [
+     "phys_v1_u2_c7_pdf077_0158",
+     "phys_v1_u2_c7_pdf077_0159"
+    ],
+    "pages": [
+     67,
+     74
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u2:c8",
+   "book_key": "4ph1-student-book",
+   "chapter_title": "Electrical resistance",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4PH1-SUB6",
+      "title": "Energy and voltage in circuits",
+      "letter": "c",
+      "basis_adopted": "split_part (1->2 with ch7)"
+     }
+    ],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_SUBSECTION",
+   "evidence": {
+    "toc_cite": "book pp. iv-vi (PDF pp. 5-7/308); units table book p. iv (PDF 5), chapters book pp. iv-vi (PDF 6-7)",
+    "basis_adopted_from": "receipts/W-F1/W-F1-T1-igcse-physics.json chapter_rows (deterministic title/structure adjudication of record)",
+    "chunk_ids": [
+     "phys_v1_u2_c8_pdf085_0181",
+     "phys_v1_u2_c8_pdf085_0182"
+    ],
+    "pages": [
+     75,
+     83
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u2:c9",
+   "book_key": "4ph1-student-book",
+   "chapter_title": "Electric charge",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4PH1-SUB7",
+      "title": "Electric charge",
+      "letter": "d",
+      "basis_adopted": "exact_title (physics_only chip)"
+     }
+    ],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_SUBSECTION",
+   "evidence": {
+    "toc_cite": "book pp. iv-vi (PDF pp. 5-7/308); units table book p. iv (PDF 5), chapters book pp. iv-vi (PDF 6-7)",
+    "basis_adopted_from": "receipts/W-F1/W-F1-T1-igcse-physics.json chapter_rows (deterministic title/structure adjudication of record)",
+    "chunk_ids": [
+     "phys_v1_u2_c9_pdf094_0205",
+     "phys_v1_u2_c9_pdf094_0206"
+    ],
+    "pages": [
+     84,
+     96
+    ]
+   },
+   "flags": [
+    "physics_only"
+   ]
+  },
+  {
+   "chapter_key": "u3:c10",
+   "book_key": "4ph1-student-book",
+   "chapter_title": "Properties of waves",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4PH1-SUB9",
+      "title": "Properties of waves",
+      "letter": "b",
+      "basis_adopted": "exact_title"
+     }
+    ],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_SUBSECTION",
+   "evidence": {
+    "toc_cite": "book pp. iv-vi (PDF pp. 5-7/308); units table book p. iv (PDF 5), chapters book pp. iv-vi (PDF 6-7)",
+    "basis_adopted_from": "receipts/W-F1/W-F1-T1-igcse-physics.json chapter_rows (deterministic title/structure adjudication of record)",
+    "chunk_ids": [
+     "phys_v1_u3_c10_pdf107_0235",
+     "phys_v1_u3_c10_pdf107_0236"
+    ],
+    "pages": [
+     97,
+     105
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u3:c11",
+   "book_key": "4ph1-student-book",
+   "chapter_title": "The electromagnetic spectrum",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4PH1-SUB10",
+      "title": "The electromagnetic spectrum",
+      "letter": "c",
+      "basis_adopted": "exact_title"
+     }
+    ],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_SUBSECTION",
+   "evidence": {
+    "toc_cite": "book pp. iv-vi (PDF pp. 5-7/308); units table book p. iv (PDF 5), chapters book pp. iv-vi (PDF 6-7)",
+    "basis_adopted_from": "receipts/W-F1/W-F1-T1-igcse-physics.json chapter_rows (deterministic title/structure adjudication of record)",
+    "chunk_ids": [
+     "phys_v1_u3_c11_pdf116_0256",
+     "phys_v1_u3_c11_pdf116_0257"
+    ],
+    "pages": [
+     106,
+     112
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u3:c12",
+   "book_key": "4ph1-student-book",
+   "chapter_title": "Light waves",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4PH1-SUB11",
+      "title": "Light and sound",
+      "letter": "d",
+      "basis_adopted": "split_part (1->2 with ch13)"
+     }
+    ],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_SUBSECTION",
+   "evidence": {
+    "toc_cite": "book pp. iv-vi (PDF pp. 5-7/308); units table book p. iv (PDF 5), chapters book pp. iv-vi (PDF 6-7)",
+    "basis_adopted_from": "receipts/W-F1/W-F1-T1-igcse-physics.json chapter_rows (deterministic title/structure adjudication of record)",
+    "chunk_ids": [
+     "phys_v1_u3_c12_pdf123_0269",
+     "phys_v1_u3_c12_pdf123_0270"
+    ],
+    "pages": [
+     113,
+     122
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u3:c13",
+   "book_key": "4ph1-student-book",
+   "chapter_title": "Sound",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4PH1-SUB11",
+      "title": "Light and sound",
+      "letter": "d",
+      "basis_adopted": "split_part"
+     }
+    ],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_SUBSECTION",
+   "evidence": {
+    "toc_cite": "book pp. iv-vi (PDF pp. 5-7/308); units table book p. iv (PDF 5), chapters book pp. iv-vi (PDF 6-7)",
+    "basis_adopted_from": "receipts/W-F1/W-F1-T1-igcse-physics.json chapter_rows (deterministic title/structure adjudication of record)",
+    "chunk_ids": [
+     "phys_v1_u3_c13_pdf133_0291",
+     "phys_v1_u3_c13_pdf133_0292"
+    ],
+    "pages": [
+     123,
+     132
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u4:c14",
+   "book_key": "4ph1-student-book",
+   "chapter_title": "Energy transfers",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4PH1-SUB13",
+      "title": "Energy transfers",
+      "letter": "b",
+      "basis_adopted": "exact_title"
+     }
+    ],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_SUBSECTION",
+   "evidence": {
+    "toc_cite": "book pp. iv-vi (PDF pp. 5-7/308); units table book p. iv (PDF 5), chapters book pp. iv-vi (PDF 6-7)",
+    "basis_adopted_from": "receipts/W-F1/W-F1-T1-igcse-physics.json chapter_rows (deterministic title/structure adjudication of record)",
+    "chunk_ids": [
+     "phys_v1_u4_c14_pdf143_0319",
+     "phys_v1_u4_c14_pdf143_0320"
+    ],
+    "pages": [
+     133,
+     138
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u4:c15",
+   "book_key": "4ph1-student-book",
+   "chapter_title": "Thermal energy",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4PH1-SUB13",
+      "title": "Energy transfers",
+      "letter": "b",
+      "basis_adopted": "split_part (1->2 with ch14)"
+     }
+    ],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_SUBSECTION",
+   "evidence": {
+    "toc_cite": "book pp. iv-vi (PDF pp. 5-7/308); units table book p. iv (PDF 5), chapters book pp. iv-vi (PDF 6-7)",
+    "basis_adopted_from": "receipts/W-F1/W-F1-T1-igcse-physics.json chapter_rows (deterministic title/structure adjudication of record)",
+    "chunk_ids": [
+     "phys_v1_u4_c15_pdf149_0333",
+     "phys_v1_u4_c15_pdf149_0334"
+    ],
+    "pages": [
+     139,
+     149
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u4:c16",
+   "book_key": "4ph1-student-book",
+   "chapter_title": "Work and power",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4PH1-SUB14",
+      "title": "Work and power",
+      "letter": "c",
+      "basis_adopted": "exact_title"
+     }
+    ],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_SUBSECTION",
+   "evidence": {
+    "toc_cite": "book pp. iv-vi (PDF pp. 5-7/308); units table book p. iv (PDF 5), chapters book pp. iv-vi (PDF 6-7)",
+    "basis_adopted_from": "receipts/W-F1/W-F1-T1-igcse-physics.json chapter_rows (deterministic title/structure adjudication of record)",
+    "chunk_ids": [
+     "phys_v1_u4_c16_pdf160_0359",
+     "phys_v1_u4_c16_pdf160_0360"
+    ],
+    "pages": [
+     150,
+     157
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u4:c17",
+   "book_key": "4ph1-student-book",
+   "chapter_title": "Energy resources and electricity generation",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4PH1-SUB15",
+      "title": "Energy resources and electricity generation",
+      "letter": "d",
+      "basis_adopted": "exact_title (physics_only chip)"
+     }
+    ],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_SUBSECTION",
+   "evidence": {
+    "toc_cite": "book pp. iv-vi (PDF pp. 5-7/308); units table book p. iv (PDF 5), chapters book pp. iv-vi (PDF 6-7)",
+    "basis_adopted_from": "receipts/W-F1/W-F1-T1-igcse-physics.json chapter_rows (deterministic title/structure adjudication of record)",
+    "chunk_ids": [
+     "phys_v1_u4_c17_pdf168_0375",
+     "phys_v1_u4_c17_pdf168_0376"
+    ],
+    "pages": [
+     158,
+     172
+    ]
+   },
+   "flags": [
+    "physics_only"
+   ]
+  },
+  {
+   "chapter_key": "u5:c18",
+   "book_key": "4ph1-student-book",
+   "chapter_title": "Density and pressure",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4PH1-SUB17",
+      "title": "Density and pressure",
+      "letter": "b",
+      "basis_adopted": "exact_title"
+     }
+    ],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_SUBSECTION",
+   "evidence": {
+    "toc_cite": "book pp. iv-vi (PDF pp. 5-7/308); units table book p. iv (PDF 5), chapters book pp. iv-vi (PDF 6-7)",
+    "basis_adopted_from": "receipts/W-F1/W-F1-T1-igcse-physics.json chapter_rows (deterministic title/structure adjudication of record)",
+    "chunk_ids": [
+     "phys_v1_u5_c18_pdf183_0402",
+     "phys_v1_u5_c18_pdf183_0403"
+    ],
+    "pages": [
+     173,
+     180
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u5:c19",
+   "book_key": "4ph1-student-book",
+   "chapter_title": "Solids, liquids and gases",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4PH1-SUB18",
+      "title": "Change of state",
+      "letter": "c",
+      "basis_adopted": "merge (1->2: change of state + ideal gas molecules)"
+     },
+     {
+      "subsection": "4PH1-SUB19",
+      "title": "Ideal gas molecules",
+      "letter": "d",
+      "basis_adopted": "merge (1->2: change of state + ideal gas molecules)"
+     }
+    ],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_SUBSECTION",
+   "evidence": {
+    "toc_cite": "book pp. iv-vi (PDF pp. 5-7/308); units table book p. iv (PDF 5), chapters book pp. iv-vi (PDF 6-7)",
+    "basis_adopted_from": "receipts/W-F1/W-F1-T1-igcse-physics.json chapter_rows (deterministic title/structure adjudication of record)",
+    "chunk_ids": [
+     "phys_v1_u5_c19_pdf191_0426",
+     "phys_v1_u5_c19_pdf191_0427"
+    ],
+    "pages": [
+     181,
+     196
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u6:c20",
+   "book_key": "4ph1-student-book",
+   "chapter_title": "Magnetism and electromagnetism",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4PH1-SUB21",
+      "title": "Magnetism",
+      "letter": "b",
+      "basis_adopted": "merge (1->2: magnetism + electromagnetism)"
+     },
+     {
+      "subsection": "4PH1-SUB22",
+      "title": "Electromagnetism",
+      "letter": "c",
+      "basis_adopted": "merge (1->2: magnetism + electromagnetism)"
+     }
+    ],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_SUBSECTION",
+   "evidence": {
+    "toc_cite": "book pp. iv-vi (PDF pp. 5-7/308); units table book p. iv (PDF 5), chapters book pp. iv-vi (PDF 6-7)",
+    "basis_adopted_from": "receipts/W-F1/W-F1-T1-igcse-physics.json chapter_rows (deterministic title/structure adjudication of record)",
+    "chunk_ids": [
+     "phys_v1_u6_c20_pdf207_0463",
+     "phys_v1_u6_c20_pdf207_0464"
+    ],
+    "pages": [
+     197,
+     205
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u6:c21",
+   "book_key": "4ph1-student-book",
+   "chapter_title": "Electric motors and electromagnetic induction",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4PH1-SUB23",
+      "title": "Electromagnetic induction",
+      "letter": "d",
+      "basis_adopted": "superset_title (book adds electric motors)"
+     }
+    ],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_SUBSECTION",
+   "evidence": {
+    "toc_cite": "book pp. iv-vi (PDF pp. 5-7/308); units table book p. iv (PDF 5), chapters book pp. iv-vi (PDF 6-7)",
+    "basis_adopted_from": "receipts/W-F1/W-F1-T1-igcse-physics.json chapter_rows (deterministic title/structure adjudication of record)",
+    "chunk_ids": [
+     "phys_v1_u6_c21_pdf216_0485",
+     "phys_v1_u6_c21_pdf216_0486"
+    ],
+    "pages": [
+     206,
+     220
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u7:c22",
+   "book_key": "4ph1-student-book",
+   "chapter_title": "Atoms and radioactivity",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4PH1-SUB25",
+      "title": "Radioactivity",
+      "letter": "b",
+      "basis_adopted": "split_part (1->3 with ch23, ch24)"
+     }
+    ],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_SUBSECTION",
+   "evidence": {
+    "toc_cite": "book pp. iv-vi (PDF pp. 5-7/308); units table book p. iv (PDF 5), chapters book pp. iv-vi (PDF 6-7)",
+    "basis_adopted_from": "receipts/W-F1/W-F1-T1-igcse-physics.json chapter_rows (deterministic title/structure adjudication of record)",
+    "chunk_ids": [
+     "phys_v1_u7_c22_pdf231_0516",
+     "phys_v1_u7_c22_pdf231_0517"
+    ],
+    "pages": [
+     221,
+     232
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u7:c23",
+   "book_key": "4ph1-student-book",
+   "chapter_title": "Radiation and half-life",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4PH1-SUB25",
+      "title": "Radioactivity",
+      "letter": "b",
+      "basis_adopted": "split_part"
+     }
+    ],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_SUBSECTION",
+   "evidence": {
+    "toc_cite": "book pp. iv-vi (PDF pp. 5-7/308); units table book p. iv (PDF 5), chapters book pp. iv-vi (PDF 6-7)",
+    "basis_adopted_from": "receipts/W-F1/W-F1-T1-igcse-physics.json chapter_rows (deterministic title/structure adjudication of record)",
+    "chunk_ids": [
+     "phys_v1_u7_c23_pdf243_0554",
+     "phys_v1_u7_c23_pdf243_0555"
+    ],
+    "pages": [
+     233,
+     240
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u7:c24",
+   "book_key": "4ph1-student-book",
+   "chapter_title": "Applications of radioactivity",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4PH1-SUB25",
+      "title": "Radioactivity",
+      "letter": "b",
+      "basis_adopted": "split_part"
+     }
+    ],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_SUBSECTION",
+   "evidence": {
+    "toc_cite": "book pp. iv-vi (PDF pp. 5-7/308); units table book p. iv (PDF 5), chapters book pp. iv-vi (PDF 6-7)",
+    "basis_adopted_from": "receipts/W-F1/W-F1-T1-igcse-physics.json chapter_rows (deterministic title/structure adjudication of record)",
+    "chunk_ids": [
+     "phys_v1_u7_c24_pdf251_0575",
+     "phys_v1_u7_c24_pdf251_0576"
+    ],
+    "pages": [
+     241,
+     249
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u7:c25",
+   "book_key": "4ph1-student-book",
+   "chapter_title": "Fission and fusion",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4PH1-SUB26",
+      "title": "Fission and fusion",
+      "letter": "c",
+      "basis_adopted": "exact_title"
+     }
+    ],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_SUBSECTION",
+   "evidence": {
+    "toc_cite": "book pp. iv-vi (PDF pp. 5-7/308); units table book p. iv (PDF 5), chapters book pp. iv-vi (PDF 6-7)",
+    "basis_adopted_from": "receipts/W-F1/W-F1-T1-igcse-physics.json chapter_rows (deterministic title/structure adjudication of record)",
+    "chunk_ids": [
+     "phys_v1_u7_c25_pdf260_0598",
+     "phys_v1_u7_c25_pdf260_0599"
+    ],
+    "pages": [
+     250,
+     258
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u8:c26",
+   "book_key": "4ph1-student-book",
+   "chapter_title": "Motion in the universe",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4PH1-SUB28",
+      "title": "Motion in the universe",
+      "letter": "b",
+      "basis_adopted": "exact_title"
+     }
+    ],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_SUBSECTION",
+   "evidence": {
+    "toc_cite": "book pp. iv-vi (PDF pp. 5-7/308); units table book p. iv (PDF 5), chapters book pp. iv-vi (PDF 6-7)",
+    "basis_adopted_from": "receipts/W-F1/W-F1-T1-igcse-physics.json chapter_rows (deterministic title/structure adjudication of record)",
+    "chunk_ids": [
+     "phys_v1_u8_c26_pdf269_0612",
+     "phys_v1_u8_c26_pdf269_0613"
+    ],
+    "pages": [
+     259,
+     264
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u8:c27",
+   "book_key": "4ph1-student-book",
+   "chapter_title": "Stellar evolution",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4PH1-SUB29",
+      "title": "Stellar evolution",
+      "letter": "c",
+      "basis_adopted": "exact_title"
+     }
+    ],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_SUBSECTION",
+   "evidence": {
+    "toc_cite": "book pp. iv-vi (PDF pp. 5-7/308); units table book p. iv (PDF 5), chapters book pp. iv-vi (PDF 6-7)",
+    "basis_adopted_from": "receipts/W-F1/W-F1-T1-igcse-physics.json chapter_rows (deterministic title/structure adjudication of record)",
+    "chunk_ids": [
+     "phys_v1_u8_c27_pdf275_0631",
+     "phys_v1_u8_c27_pdf275_0632"
+    ],
+    "pages": [
+     265,
+     270
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u8:c28",
+   "book_key": "4ph1-student-book",
+   "chapter_title": "Cosmology",
+   "spec_refs": {
+    "subsections": [
+     {
+      "subsection": "4PH1-SUB30",
+      "title": "Cosmology",
+      "letter": "d",
+      "basis_adopted": "exact_title"
+     }
+    ],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_SUBSECTION",
+   "evidence": {
+    "toc_cite": "book pp. iv-vi (PDF pp. 5-7/308); units table book p. iv (PDF 5), chapters book pp. iv-vi (PDF 6-7)",
+    "basis_adopted_from": "receipts/W-F1/W-F1-T1-igcse-physics.json chapter_rows (deterministic title/structure adjudication of record)",
+    "chunk_ids": [
+     "phys_v1_u8_c28_pdf281_0645",
+     "phys_v1_u8_c28_pdf281_0646"
+    ],
+    "pages": [
+     271,
+     276
+    ]
+   },
+   "flags": []
+  }
+ ],
+ "coverage": {
+  "chapters_total": 28,
+  "chapters_joined": 28,
+  "chapters_unjoined": [],
+  "topics_total": 13,
+  "topics_covered": null,
+  "topics_note": "coverage grain for IGCSE code_column quals is the subsection layer; see subsections_covered",
+  "subsections_total": 30,
+  "subsections_covered": [
+   "4PH1-SUB10",
+   "4PH1-SUB11",
+   "4PH1-SUB13",
+   "4PH1-SUB14",
+   "4PH1-SUB15",
+   "4PH1-SUB17",
+   "4PH1-SUB18",
+   "4PH1-SUB19",
+   "4PH1-SUB2",
+   "4PH1-SUB21",
+   "4PH1-SUB22",
+   "4PH1-SUB23",
+   "4PH1-SUB25",
+   "4PH1-SUB26",
+   "4PH1-SUB28",
+   "4PH1-SUB29",
+   "4PH1-SUB3",
+   "4PH1-SUB30",
+   "4PH1-SUB5",
+   "4PH1-SUB6",
+   "4PH1-SUB7",
+   "4PH1-SUB9"
+  ],
+  "subsections_uncovered": [
+   "4PH1-SUB1",
+   "4PH1-SUB12",
+   "4PH1-SUB16",
+   "4PH1-SUB20",
+   "4PH1-SUB24",
+   "4PH1-SUB27",
+   "4PH1-SUB4",
+   "4PH1-SUB8"
+  ],
+  "points_total": 195,
+  "points_keyed": 7,
+  "points_topic_only": 0,
+  "points_uncovered": [
+   "IGCSE_PHYSICS:1.1",
+   "IGCSE_PHYSICS:1.10",
+   "IGCSE_PHYSICS:1.11",
+   "IGCSE_PHYSICS:1.12",
+   "IGCSE_PHYSICS:1.13",
+   "IGCSE_PHYSICS:1.14",
+   "IGCSE_PHYSICS:1.15",
+   "IGCSE_PHYSICS:1.16",
+   "IGCSE_PHYSICS:1.17",
+   "IGCSE_PHYSICS:1.18",
+   "IGCSE_PHYSICS:1.19",
+   "IGCSE_PHYSICS:1.20",
+   "IGCSE_PHYSICS:1.21",
+   "IGCSE_PHYSICS:1.22",
+   "IGCSE_PHYSICS:1.23",
+   "IGCSE_PHYSICS:1.24",
+   "IGCSE_PHYSICS:1.25P",
+   "IGCSE_PHYSICS:1.26P",
+   "IGCSE_PHYSICS:1.27P",
+   "IGCSE_PHYSICS:1.28P",
+   "IGCSE_PHYSICS:1.29P",
+   "IGCSE_PHYSICS:1.3",
+   "IGCSE_PHYSICS:1.30P",
+   "IGCSE_PHYSICS:1.31P",
+   "IGCSE_PHYSICS:1.32P",
+   "IGCSE_PHYSICS:1.33P",
+   "IGCSE_PHYSICS:1.4",
+   "IGCSE_PHYSICS:1.5",
+   "IGCSE_PHYSICS:1.6",
+   "IGCSE_PHYSICS:1.7",
+   "IGCSE_PHYSICS:1.8",
+   "IGCSE_PHYSICS:1.9",
+   "IGCSE_PHYSICS:2.10",
+   "IGCSE_PHYSICS:2.11",
+   "IGCSE_PHYSICS:2.12",
+   "IGCSE_PHYSICS:2.13",
+   "IGCSE_PHYSICS:2.14",
+   "IGCSE_PHYSICS:2.15",
+   "IGCSE_PHYSICS:2.16",
+   "IGCSE_PHYSICS:2.17",
+   "IGCSE_PHYSICS:2.18",
+   "IGCSE_PHYSICS:2.19",
+   "IGCSE_PHYSICS:2.20",
+   "IGCSE_PHYSICS:2.21",
+   "IGCSE_PHYSICS:2.22P",
+   "IGCSE_PHYSICS:2.23P",
+   "IGCSE_PHYSICS:2.24P",
+   "IGCSE_PHYSICS:2.25P",
+   "IGCSE_PHYSICS:2.26P",
+   "IGCSE_PHYSICS:2.27P",
+   "IGCSE_PHYSICS:2.28P",
+   "IGCSE_PHYSICS:2.3",
+   "IGCSE_PHYSICS:2.4",
+   "IGCSE_PHYSICS:2.5",
+   "IGCSE_PHYSICS:2.6",
+   "IGCSE_PHYSICS:2.7",
+   "IGCSE_PHYSICS:2.8",
+   "IGCSE_PHYSICS:2.9",
+   "IGCSE_PHYSICS:3.10",
+   "IGCSE_PHYSICS:3.11",
+   "IGCSE_PHYSICS:3.12",
+   "IGCSE_PHYSICS:3.13",
+   "IGCSE_PHYSICS:3.14",
+   "IGCSE_PHYSICS:3.15",
+   "IGCSE_PHYSICS:3.16",
+   "IGCSE_PHYSICS:3.17",
+   "IGCSE_PHYSICS:3.18",
+   "IGCSE_PHYSICS:3.19",
+   "IGCSE_PHYSICS:3.2",
+   "IGCSE_PHYSICS:3.20",
+   "IGCSE_PHYSICS:3.21",
+   "IGCSE_PHYSICS:3.22",
+   "IGCSE_PHYSICS:3.23",
+   "IGCSE_PHYSICS:3.24P",
+   "IGCSE_PHYSICS:3.25P",
+   "IGCSE_PHYSICS:3.26P",
+   "IGCSE_PHYSICS:3.27P",
+   "IGCSE_PHYSICS:3.28P",
+   "IGCSE_PHYSICS:3.29P",
+   "IGCSE_PHYSICS:3.3",
+   "IGCSE_PHYSICS:3.4",
+   "IGCSE_PHYSICS:3.5",
+   "IGCSE_PHYSICS:3.6",
+   "IGCSE_PHYSICS:3.7",
+   "IGCSE_PHYSICS:3.8",
+   "IGCSE_PHYSICS:3.9",
+   "IGCSE_PHYSICS:4.1",
+   "IGCSE_PHYSICS:4.10",
+   "IGCSE_PHYSICS:4.11",
+   "IGCSE_PHYSICS:4.12",
+   "IGCSE_PHYSICS:4.13",
+   "IGCSE_PHYSICS:4.14",
+   "IGCSE_PHYSICS:4.15",
+   "IGCSE_PHYSICS:4.16",
+   "IGCSE_PHYSICS:4.17",
+   "IGCSE_PHYSICS:4.18P",
+   "IGCSE_PHYSICS:4.19P",
+   "IGCSE_PHYSICS:4.2",
+   "IGCSE_PHYSICS:4.3",
+   "IGCSE_PHYSICS:4.4",
+   "IGCSE_PHYSICS:4.5",
+   "IGCSE_PHYSICS:4.6",
+   "IGCSE_PHYSICS:4.7",
+   "IGCSE_PHYSICS:4.8",
+   "IGCSE_PHYSICS:4.9",
+   "IGCSE_PHYSICS:5.1",
+   "IGCSE_PHYSICS:5.10P",
+   "IGCSE_PHYSICS:5.11P",
+   "IGCSE_PHYSICS:5.12P",
+   "IGCSE_PHYSICS:5.13P",
+   "IGCSE_PHYSICS:5.14P",
+   "IGCSE_PHYSICS:5.15",
+   "IGCSE_PHYSICS:5.16",
+   "IGCSE_PHYSICS:5.17",
+   "IGCSE_PHYSICS:5.18",
+   "IGCSE_PHYSICS:5.19",
+   "IGCSE_PHYSICS:5.20",
+   "IGCSE_PHYSICS:5.21",
+   "IGCSE_PHYSICS:5.22",
+   "IGCSE_PHYSICS:5.2P",
+   "IGCSE_PHYSICS:5.3",
+   "IGCSE_PHYSICS:5.4",
+   "IGCSE_PHYSICS:5.5",
+   "IGCSE_PHYSICS:5.7",
+   "IGCSE_PHYSICS:5.8P",
+   "IGCSE_PHYSICS:5.9P",
+   "IGCSE_PHYSICS:6.10P",
+   "IGCSE_PHYSICS:6.11P",
+   "IGCSE_PHYSICS:6.12",
+   "IGCSE_PHYSICS:6.13",
+   "IGCSE_PHYSICS:6.14",
+   "IGCSE_PHYSICS:6.15",
+   "IGCSE_PHYSICS:6.16",
+   "IGCSE_PHYSICS:6.17P",
+   "IGCSE_PHYSICS:6.18P",
+   "IGCSE_PHYSICS:6.19P",
+   "IGCSE_PHYSICS:6.20P",
+   "IGCSE_PHYSICS:6.3",
+   "IGCSE_PHYSICS:6.4",
+   "IGCSE_PHYSICS:6.5",
+   "IGCSE_PHYSICS:6.6",
+   "IGCSE_PHYSICS:6.7",
+   "IGCSE_PHYSICS:6.8",
+   "IGCSE_PHYSICS:6.9P",
+   "IGCSE_PHYSICS:7.1",
+   "IGCSE_PHYSICS:7.10",
+   "IGCSE_PHYSICS:7.11",
+   "IGCSE_PHYSICS:7.12",
+   "IGCSE_PHYSICS:7.13",
+   "IGCSE_PHYSICS:7.14",
+   "IGCSE_PHYSICS:7.15",
+   "IGCSE_PHYSICS:7.16",
+   "IGCSE_PHYSICS:7.17",
+   "IGCSE_PHYSICS:7.18",
+   "IGCSE_PHYSICS:7.19",
+   "IGCSE_PHYSICS:7.2",
+   "IGCSE_PHYSICS:7.20",
+   "IGCSE_PHYSICS:7.21",
+   "IGCSE_PHYSICS:7.22",
+   "IGCSE_PHYSICS:7.23",
+   "IGCSE_PHYSICS:7.24",
+   "IGCSE_PHYSICS:7.25",
+   "IGCSE_PHYSICS:7.26",
+   "IGCSE_PHYSICS:7.3",
+   "IGCSE_PHYSICS:7.4",
+   "IGCSE_PHYSICS:7.5",
+   "IGCSE_PHYSICS:7.6",
+   "IGCSE_PHYSICS:7.7",
+   "IGCSE_PHYSICS:7.8",
+   "IGCSE_PHYSICS:7.9",
+   "IGCSE_PHYSICS:8.1",
+   "IGCSE_PHYSICS:8.10",
+   "IGCSE_PHYSICS:8.11P",
+   "IGCSE_PHYSICS:8.12P",
+   "IGCSE_PHYSICS:8.13P",
+   "IGCSE_PHYSICS:8.14P",
+   "IGCSE_PHYSICS:8.15P",
+   "IGCSE_PHYSICS:8.16P",
+   "IGCSE_PHYSICS:8.17P",
+   "IGCSE_PHYSICS:8.18P",
+   "IGCSE_PHYSICS:8.2",
+   "IGCSE_PHYSICS:8.3",
+   "IGCSE_PHYSICS:8.4",
+   "IGCSE_PHYSICS:8.5",
+   "IGCSE_PHYSICS:8.6",
+   "IGCSE_PHYSICS:8.7",
+   "IGCSE_PHYSICS:8.8",
+   "IGCSE_PHYSICS:8.9"
+  ],
+  "uncovered_reasons": {
+   "subsections": "units rows ('a) Units') carry no dedicated book chapter — units content folds into chapter openers (W-F1-T1 parity delta account)",
+   "points": "no_printed_key — only 20 printed chip tokens exist across 53 LO chunks (6 exact + unique-candidate attributions incl. 1.2->1.2P)"
+  },
+  "physics_only_flags": [
+   4,
+   5,
+   9,
+   17
+  ]
+ },
+ "generated_utc": "2026-11-13T14:54:01Z",
+ "generator": "agent:scripts/wf4t2_build.py (W-F4-T2 staged build; repo-side scripts/book_layer/ generator proposed, not installed)",
+ "inputs": [
+  "80ff9420e4334b29e3078187ec81767e330c21fe",
+  "314b61f50e23ad47b63a4c2d724b16cd66819af1",
+  "56a8203af736e158ce4451ebfcb6e8b5ae1a56e2",
+  "receipts/W-F1/W-F1-T1-igcse-physics.json (local sha256 2051c4fc88fe12baa998eb6d303dfc73ea31f00790422763d8e333761ccdd7cf)"
+ ]
+}

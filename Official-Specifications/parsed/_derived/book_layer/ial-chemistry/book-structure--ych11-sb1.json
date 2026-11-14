@@ -1,0 +1,1146 @@
+{
+ "schema": "syllabai.book-structure/1.0",
+ "qual": "ial-chemistry",
+ "book": {
+  "key": "ych11-sb1",
+  "lane": "books/pearson-edexcel/international-a-level/chemistry/ych11",
+  "title": "Pearson Edexcel International AS/A Level Chemistry Student Book 1",
+  "authors_printed": [
+   "Cliff Curtis, Jason Murgatroyd, David Scott"
+  ],
+  "source_pdf": "books/pearson-edexcel/international-a-level/chemistry/ych11/student-book-1.pdf",
+  "sha256": "b17ea91fb7f4e50ed2ddd9aa02f682118680ce351970b74ad8d475d8a3917927",
+  "pdf_pages": 329,
+  "page_law": "book = pdf - 13 (lane book_structure module of record)",
+  "corpus": {
+   "chunks_jsonl": "books/pearson-edexcel/international-a-level/chemistry/ych11/parsed/edexcel_ial_chemistry_ych11_sb1_chunks_v1.jsonl",
+   "blob": "5924f3d9dfa857bb9def2da2f7ad56ee0f847583",
+   "n_chunks": 1571,
+   "prefix_id_law": "ych1_v1_u{t}_c{n}_pdf{page}_{pos}"
+  },
+  "slices_manifest": "books/pearson-edexcel/international-a-level/chemistry/ych11/ych11/manifest.json",
+  "manifest_blob": "e83c083d4f1bc8050ea40ea72d0a179b948851b4",
+  "structure_module": "books/pearson-edexcel/international-a-level/chemistry/ych11/pipeline/scripts/book_structure_ych1.py (blob 069d245bfbbc11804cf7ef58a877de7751b06303) — MODULE_DERIVED precedent",
+  "catalog_rows": [
+   "CATALOG §2 #5",
+   "CATALOG §3.5",
+   "CATALOG §4.2"
+  ],
+  "serving_state": "PARSED (CATALOG §3.5)"
+ },
+ "provenance_tiers": {
+  "TOC_PRINTED": "row read off the book's printed COURSE STRUCTURE / ToC pages",
+  "BODY_PRINTED": "row read off a printed chapter opener / running header",
+  "MANIFEST_REGISTERED": "row carried by book-slices-manifest-v2 (serving registration)",
+  "MODULE_DERIVED": "row derived from the lane's book_structure_*.py module",
+  "TITLE_ADJUDICATED": "row position/title adjudicated, page-cited, no printed label"
+ },
+ "units": [
+  {
+   "index": 1,
+   "label": "Topic 1: Formulae, Equations and Amount of Substance",
+   "title": "Topic 1: Formulae, Equations and Amount of Substance",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": null,
+   "spec_topic_title_equality": false
+  },
+  {
+   "index": 2,
+   "label": "Topic 2: Atomic Structure and the Periodic Table",
+   "title": "Topic 2: Atomic Structure and the Periodic Table",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": null,
+   "spec_topic_title_equality": false
+  },
+  {
+   "index": 3,
+   "label": "Topic 3: Bonding and Structure",
+   "title": "Topic 3: Bonding and Structure",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": null,
+   "spec_topic_title_equality": false
+  },
+  {
+   "index": 4,
+   "label": "Topic 4: Introductory Organic Chemistry and Alkanes",
+   "title": "Topic 4: Introductory Organic Chemistry and Alkanes",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": null,
+   "spec_topic_title_equality": false
+  },
+  {
+   "index": 5,
+   "label": "Topic 5: Alkenes",
+   "title": "Topic 5: Alkenes",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": null,
+   "spec_topic_title_equality": false
+  },
+  {
+   "index": 6,
+   "label": "Topic 6: Energetics",
+   "title": "Topic 6: Energetics",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": null,
+   "spec_topic_title_equality": false
+  },
+  {
+   "index": 7,
+   "label": "Topic 7: Intermolecular Forces",
+   "title": "Topic 7: Intermolecular Forces",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": null,
+   "spec_topic_title_equality": false
+  },
+  {
+   "index": 8,
+   "label": "Topic 8: Redox Chemistry and Groups 1, 2 and 7",
+   "title": "Topic 8: Redox Chemistry and Groups 1, 2 and 7",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": null,
+   "spec_topic_title_equality": false
+  },
+  {
+   "index": 9,
+   "label": "Topic 9: Introduction to Kinetics and Equilibria",
+   "title": "Topic 9: Introduction to Kinetics and Equilibria",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": null,
+   "spec_topic_title_equality": false
+  },
+  {
+   "index": 10,
+   "label": "Topic 10: Organic Chemistry: Halogenoalkanes, Alcohols and Spectra",
+   "title": "Topic 10: Organic Chemistry: Halogenoalkanes, Alcohols and Spectra",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": null,
+   "spec_topic_title_equality": false
+  }
+ ],
+ "chapters": [
+  {
+   "key": "u1:c1",
+   "title": "1A Atoms, elements and molecules",
+   "unit_index": 1,
+   "page_range_pdf": [
+    17,
+    18
+   ],
+   "page_range_book": [
+    4,
+    5
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych11.py chapter table (MODULE_DERIVED precedent, blob 069d245bfbbc11804cf7ef58a877de7751b06303)",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u1_c1_pdf017_0103",
+     "ych1_v1_u1_c1_pdf017_0104"
+    ],
+    "n_chunks": 13,
+    "opener_page": 17
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-10D"
+  },
+  {
+   "key": "u1:c2",
+   "title": "1B Equations and reaction types",
+   "unit_index": 1,
+   "page_range_pdf": [
+    19,
+    28
+   ],
+   "page_range_book": [
+    6,
+    15
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych11.py chapter table (MODULE_DERIVED precedent, blob 069d245bfbbc11804cf7ef58a877de7751b06303)",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u1_c2_pdf019_0116",
+     "ych1_v1_u1_c2_pdf019_0117"
+    ],
+    "n_chunks": 44,
+    "opener_page": 19
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-10D"
+  },
+  {
+   "key": "u1:c3",
+   "title": "1C Energy",
+   "unit_index": 1,
+   "page_range_pdf": [
+    29,
+    38
+   ],
+   "page_range_book": [
+    16,
+    25
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych11.py chapter table (MODULE_DERIVED precedent, blob 069d245bfbbc11804cf7ef58a877de7751b06303)",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u1_c3_pdf029_0160",
+     "ych1_v1_u1_c3_pdf029_0161"
+    ],
+    "n_chunks": 62,
+    "opener_page": 29
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-10D"
+  },
+  {
+   "key": "u1:c4",
+   "title": "1D Empirical and molecular formulae",
+   "unit_index": 1,
+   "page_range_pdf": [
+    39,
+    42
+   ],
+   "page_range_book": [
+    26,
+    29
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych11.py chapter table (MODULE_DERIVED precedent, blob 069d245bfbbc11804cf7ef58a877de7751b06303)",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u1_c4_pdf039_0233",
+     "ych1_v1_u1_c4_pdf039_0234"
+    ],
+    "n_chunks": 34,
+    "opener_page": 39
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-10D"
+  },
+  {
+   "key": "u1:c5",
+   "title": "1E Calculations with solutions and gases",
+   "unit_index": 1,
+   "page_range_pdf": [
+    43,
+    48
+   ],
+   "page_range_book": [
+    30,
+    35
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych11.py chapter table (MODULE_DERIVED precedent, blob 069d245bfbbc11804cf7ef58a877de7751b06303)",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u1_c5_pdf043_0270",
+     "ych1_v1_u1_c5_pdf043_0271"
+    ],
+    "n_chunks": 38,
+    "opener_page": 43
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-10D"
+  },
+  {
+   "key": "u2:c6",
+   "title": "2A Atomic structure",
+   "unit_index": 2,
+   "page_range_pdf": [
+    55,
+    68
+   ],
+   "page_range_book": [
+    42,
+    55
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych11.py chapter table (MODULE_DERIVED precedent, blob 069d245bfbbc11804cf7ef58a877de7751b06303)",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u2_c6_pdf055_0336",
+     "ych1_v1_u2_c6_pdf055_0337"
+    ],
+    "n_chunks": 76,
+    "opener_page": 55
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-10D"
+  },
+  {
+   "key": "u2:c7",
+   "title": "2B The periodic table",
+   "unit_index": 2,
+   "page_range_pdf": [
+    69,
+    72
+   ],
+   "page_range_book": [
+    56,
+    59
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych11.py chapter table (MODULE_DERIVED precedent, blob 069d245bfbbc11804cf7ef58a877de7751b06303)",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u2_c7_pdf069_0417",
+     "ych1_v1_u2_c7_pdf069_0418"
+    ],
+    "n_chunks": 26,
+    "opener_page": 69
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-10D"
+  },
+  {
+   "key": "u3:c8",
+   "title": "3A Ionic bonding",
+   "unit_index": 3,
+   "page_range_pdf": [
+    79,
+    84
+   ],
+   "page_range_book": [
+    66,
+    71
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych11.py chapter table (MODULE_DERIVED precedent, blob 069d245bfbbc11804cf7ef58a877de7751b06303)",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u3_c8_pdf079_0474",
+     "ych1_v1_u3_c8_pdf079_0475"
+    ],
+    "n_chunks": 38,
+    "opener_page": 79
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-10D"
+  },
+  {
+   "key": "u3:c9",
+   "title": "3B Covalent bonding",
+   "unit_index": 3,
+   "page_range_pdf": [
+    85,
+    94
+   ],
+   "page_range_book": [
+    72,
+    81
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych11.py chapter table (MODULE_DERIVED precedent, blob 069d245bfbbc11804cf7ef58a877de7751b06303)",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u3_c9_pdf085_0512",
+     "ych1_v1_u3_c9_pdf085_0513"
+    ],
+    "n_chunks": 43,
+    "opener_page": 85
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-10D"
+  },
+  {
+   "key": "u3:c10",
+   "title": "3C Shapes of molecules",
+   "unit_index": 3,
+   "page_range_pdf": [
+    95,
+    98
+   ],
+   "page_range_book": [
+    82,
+    85
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych11.py chapter table (MODULE_DERIVED precedent, blob 069d245bfbbc11804cf7ef58a877de7751b06303)",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u3_c10_pdf095_0557",
+     "ych1_v1_u3_c10_pdf095_0558"
+    ],
+    "n_chunks": 17,
+    "opener_page": 95
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-10D"
+  },
+  {
+   "key": "u3:c11",
+   "title": "3D Metallic bonding",
+   "unit_index": 3,
+   "page_range_pdf": [
+    99,
+    100
+   ],
+   "page_range_book": [
+    86,
+    87
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych11.py chapter table (MODULE_DERIVED precedent, blob 069d245bfbbc11804cf7ef58a877de7751b06303)",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u3_c11_pdf099_0582",
+     "ych1_v1_u3_c11_pdf099_0583"
+    ],
+    "n_chunks": 9,
+    "opener_page": 99
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-10D"
+  },
+  {
+   "key": "u3:c12",
+   "title": "3E Solid lattices",
+   "unit_index": 3,
+   "page_range_pdf": [
+    101,
+    106
+   ],
+   "page_range_book": [
+    88,
+    93
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych11.py chapter table (MODULE_DERIVED precedent, blob 069d245bfbbc11804cf7ef58a877de7751b06303)",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u3_c12_pdf101_0592",
+     "ych1_v1_u3_c12_pdf101_0593"
+    ],
+    "n_chunks": 24,
+    "opener_page": 101
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-10D"
+  },
+  {
+   "key": "u4:c13",
+   "title": "4A Introduction to organic chemistry",
+   "unit_index": 4,
+   "page_range_pdf": [
+    113,
+    128
+   ],
+   "page_range_book": [
+    100,
+    115
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych11.py chapter table (MODULE_DERIVED precedent, blob 069d245bfbbc11804cf7ef58a877de7751b06303)",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u4_c13_pdf113_0641",
+     "ych1_v1_u4_c13_pdf113_0642"
+    ],
+    "n_chunks": 89,
+    "opener_page": 113
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-10D"
+  },
+  {
+   "key": "u4:c14",
+   "title": "4B Alkanes",
+   "unit_index": 4,
+   "page_range_pdf": [
+    129,
+    136
+   ],
+   "page_range_book": [
+    116,
+    123
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych11.py chapter table (MODULE_DERIVED precedent, blob 069d245bfbbc11804cf7ef58a877de7751b06303)",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u4_c14_pdf129_0739",
+     "ych1_v1_u4_c14_pdf129_0740"
+    ],
+    "n_chunks": 49,
+    "opener_page": 129
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-10D"
+  },
+  {
+   "key": "u5:c15",
+   "title": "5A Alkenes",
+   "unit_index": 5,
+   "page_range_pdf": [
+    143,
+    152
+   ],
+   "page_range_book": [
+    130,
+    139
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych11.py chapter table (MODULE_DERIVED precedent, blob 069d245bfbbc11804cf7ef58a877de7751b06303)",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u5_c15_pdf143_0812",
+     "ych1_v1_u5_c15_pdf143_0813"
+    ],
+    "n_chunks": 47,
+    "opener_page": 143
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-10D"
+  },
+  {
+   "key": "u5:c16",
+   "title": "5B Addition polymers",
+   "unit_index": 5,
+   "page_range_pdf": [
+    153,
+    156
+   ],
+   "page_range_book": [
+    140,
+    143
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych11.py chapter table (MODULE_DERIVED precedent, blob 069d245bfbbc11804cf7ef58a877de7751b06303)",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u5_c16_pdf153_0863",
+     "ych1_v1_u5_c16_pdf153_0864"
+    ],
+    "n_chunks": 19,
+    "opener_page": 153
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-10D"
+  },
+  {
+   "key": "u6:c17",
+   "title": "6A Introducing enthalpy and enthalpy change",
+   "unit_index": 6,
+   "page_range_pdf": [
+    163,
+    164
+   ],
+   "page_range_book": [
+    150,
+    151
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych11.py chapter table (MODULE_DERIVED precedent, blob 069d245bfbbc11804cf7ef58a877de7751b06303)",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u6_c17_pdf163_0904",
+     "ych1_v1_u6_c17_pdf163_0905"
+    ],
+    "n_chunks": 18,
+    "opener_page": 163
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-10D"
+  },
+  {
+   "key": "u6:c18",
+   "title": "6B Enthalpy level diagrams",
+   "unit_index": 6,
+   "page_range_pdf": [
+    165,
+    166
+   ],
+   "page_range_book": [
+    152,
+    153
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych11.py chapter table (MODULE_DERIVED precedent, blob 069d245bfbbc11804cf7ef58a877de7751b06303)",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u6_c18_pdf165_0922",
+     "ych1_v1_u6_c18_pdf165_0923"
+    ],
+    "n_chunks": 6,
+    "opener_page": 165
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-10D"
+  },
+  {
+   "key": "u6:c19",
+   "title": "6C Standard enthalpy change of combustion",
+   "unit_index": 6,
+   "page_range_pdf": [
+    167,
+    168
+   ],
+   "page_range_book": [
+    154,
+    155
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych11.py chapter table (MODULE_DERIVED precedent, blob 069d245bfbbc11804cf7ef58a877de7751b06303)",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u6_c19_pdf167_0928",
+     "ych1_v1_u6_c19_pdf167_0929"
+    ],
+    "n_chunks": 10,
+    "opener_page": 167
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-10D"
+  },
+  {
+   "key": "u6:c20",
+   "title": "6D Standard enthalpy change of neutralisation",
+   "unit_index": 6,
+   "page_range_pdf": [
+    169,
+    170
+   ],
+   "page_range_book": [
+    156,
+    157
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych11.py chapter table (MODULE_DERIVED precedent, blob 069d245bfbbc11804cf7ef58a877de7751b06303)",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u6_c20_pdf169_0938",
+     "ych1_v1_u6_c20_pdf169_0939"
+    ],
+    "n_chunks": 12,
+    "opener_page": 169
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-10D"
+  },
+  {
+   "key": "u6:c21",
+   "title": "6E Standard enthalpy change of formation and Hess's law",
+   "unit_index": 6,
+   "page_range_pdf": [
+    171,
+    172
+   ],
+   "page_range_book": [
+    158,
+    159
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych11.py chapter table (MODULE_DERIVED precedent, blob 069d245bfbbc11804cf7ef58a877de7751b06303)",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u6_c21_pdf171_0950",
+     "ych1_v1_u6_c21_pdf171_0951"
+    ],
+    "n_chunks": 14,
+    "opener_page": 171
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-10D"
+  },
+  {
+   "key": "u6:c22",
+   "title": "6F Bond enthalpy and mean bond enthalpy",
+   "unit_index": 6,
+   "page_range_pdf": [
+    173,
+    173
+   ],
+   "page_range_book": [
+    160,
+    160
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych11.py chapter table (MODULE_DERIVED precedent, blob 069d245bfbbc11804cf7ef58a877de7751b06303)",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u6_c22_pdf173_0964",
+     "ych1_v1_u6_c22_pdf173_0965"
+    ],
+    "n_chunks": 7,
+    "opener_page": 173
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-10D"
+  },
+  {
+   "key": "u6:c23",
+   "title": "6G Using mean bond enthalpies",
+   "unit_index": 6,
+   "page_range_pdf": [
+    174,
+    176
+   ],
+   "page_range_book": [
+    161,
+    163
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych11.py chapter table (MODULE_DERIVED precedent, blob 069d245bfbbc11804cf7ef58a877de7751b06303)",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u6_c23_pdf174_0971",
+     "ych1_v1_u6_c23_pdf174_0972"
+    ],
+    "n_chunks": 21,
+    "opener_page": 174
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-10D"
+  },
+  {
+   "key": "u7:c24",
+   "title": "7A Intermolecular interactions",
+   "unit_index": 7,
+   "page_range_pdf": [
+    183,
+    186
+   ],
+   "page_range_book": [
+    170,
+    173
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych11.py chapter table (MODULE_DERIVED precedent, blob 069d245bfbbc11804cf7ef58a877de7751b06303)",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u7_c24_pdf183_1017",
+     "ych1_v1_u7_c24_pdf183_1018"
+    ],
+    "n_chunks": 25,
+    "opener_page": 183
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-10D"
+  },
+  {
+   "key": "u7:c25",
+   "title": "7B Intermolecular interactions and physical properties",
+   "unit_index": 7,
+   "page_range_pdf": [
+    187,
+    192
+   ],
+   "page_range_book": [
+    174,
+    179
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych11.py chapter table (MODULE_DERIVED precedent, blob 069d245bfbbc11804cf7ef58a877de7751b06303)",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u7_c25_pdf187_1042",
+     "ych1_v1_u7_c25_pdf187_1043"
+    ],
+    "n_chunks": 30,
+    "opener_page": 187
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-10D"
+  },
+  {
+   "key": "u8:c26",
+   "title": "8A Redox chemistry",
+   "unit_index": 8,
+   "page_range_pdf": [
+    199,
+    208
+   ],
+   "page_range_book": [
+    186,
+    195
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych11.py chapter table (MODULE_DERIVED precedent, blob 069d245bfbbc11804cf7ef58a877de7751b06303)",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u8_c26_pdf199_1095",
+     "ych1_v1_u8_c26_pdf199_1096"
+    ],
+    "n_chunks": 46,
+    "opener_page": 199
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-10D"
+  },
+  {
+   "key": "u8:c27",
+   "title": "8B The elements of Groups 1 and 2",
+   "unit_index": 8,
+   "page_range_pdf": [
+    209,
+    220
+   ],
+   "page_range_book": [
+    196,
+    207
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych11.py chapter table (MODULE_DERIVED precedent, blob 069d245bfbbc11804cf7ef58a877de7751b06303)",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u8_c27_pdf209_1146",
+     "ych1_v1_u8_c27_pdf209_1147"
+    ],
+    "n_chunks": 72,
+    "opener_page": 209
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-10D"
+  },
+  {
+   "key": "u8:c28",
+   "title": "8C Inorganic chemistry of Group 7",
+   "unit_index": 8,
+   "page_range_pdf": [
+    221,
+    230
+   ],
+   "page_range_book": [
+    208,
+    217
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych11.py chapter table (MODULE_DERIVED precedent, blob 069d245bfbbc11804cf7ef58a877de7751b06303)",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u8_c28_pdf221_1219",
+     "ych1_v1_u8_c28_pdf221_1220"
+    ],
+    "n_chunks": 47,
+    "opener_page": 221
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-10D"
+  },
+  {
+   "key": "u8:c29",
+   "title": "8D Quantitative chemistry",
+   "unit_index": 8,
+   "page_range_pdf": [
+    231,
+    242
+   ],
+   "page_range_book": [
+    218,
+    229
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych11.py chapter table (MODULE_DERIVED precedent, blob 069d245bfbbc11804cf7ef58a877de7751b06303)",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u8_c29_pdf231_1270",
+     "ych1_v1_u8_c29_pdf231_1271"
+    ],
+    "n_chunks": 73,
+    "opener_page": 231
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-10D"
+  },
+  {
+   "key": "u9:c30",
+   "title": "9A Kinetics",
+   "unit_index": 9,
+   "page_range_pdf": [
+    249,
+    258
+   ],
+   "page_range_book": [
+    236,
+    245
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych11.py chapter table (MODULE_DERIVED precedent, blob 069d245bfbbc11804cf7ef58a877de7751b06303)",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u9_c30_pdf249_1374",
+     "ych1_v1_u9_c30_pdf249_1375"
+    ],
+    "n_chunks": 41,
+    "opener_page": 249
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-10D"
+  },
+  {
+   "key": "u9:c31",
+   "title": "9B Equilibria",
+   "unit_index": 9,
+   "page_range_pdf": [
+    259,
+    266
+   ],
+   "page_range_book": [
+    246,
+    253
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych11.py chapter table (MODULE_DERIVED precedent, blob 069d245bfbbc11804cf7ef58a877de7751b06303)",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u9_c31_pdf259_1416",
+     "ych1_v1_u9_c31_pdf259_1417"
+    ],
+    "n_chunks": 33,
+    "opener_page": 259
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-10D"
+  },
+  {
+   "key": "u10:c32",
+   "title": "10A General principles in organic chemistry",
+   "unit_index": 10,
+   "page_range_pdf": [
+    275,
+    276
+   ],
+   "page_range_book": [
+    262,
+    263
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych11.py chapter table (MODULE_DERIVED precedent, blob 069d245bfbbc11804cf7ef58a877de7751b06303)",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u10_c32_pdf275_1476",
+     "ych1_v1_u10_c32_pdf275_1477"
+    ],
+    "n_chunks": 17,
+    "opener_page": 275
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-10D"
+  },
+  {
+   "key": "u10:c33",
+   "title": "10B Halogenoalkanes",
+   "unit_index": 10,
+   "page_range_pdf": [
+    277,
+    282
+   ],
+   "page_range_book": [
+    264,
+    269
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych11.py chapter table (MODULE_DERIVED precedent, blob 069d245bfbbc11804cf7ef58a877de7751b06303)",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u10_c33_pdf277_1493",
+     "ych1_v1_u10_c33_pdf277_1494"
+    ],
+    "n_chunks": 38,
+    "opener_page": 277
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-10D"
+  },
+  {
+   "key": "u10:c34",
+   "title": "10C Alcohols",
+   "unit_index": 10,
+   "page_range_pdf": [
+    283,
+    290
+   ],
+   "page_range_book": [
+    270,
+    277
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych11.py chapter table (MODULE_DERIVED precedent, blob 069d245bfbbc11804cf7ef58a877de7751b06303)",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u10_c34_pdf283_1536",
+     "ych1_v1_u10_c34_pdf283_1537"
+    ],
+    "n_chunks": 35,
+    "opener_page": 283
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-10D"
+  },
+  {
+   "key": "u10:c35",
+   "title": "10D Mass spectra and IR",
+   "unit_index": 10,
+   "page_range_pdf": [
+    291,
+    298
+   ],
+   "page_range_book": [
+    278,
+    285
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych11.py chapter table (MODULE_DERIVED precedent, blob 069d245bfbbc11804cf7ef58a877de7751b06303)",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u10_c35_pdf291_1575",
+     "ych1_v1_u10_c35_pdf291_1576"
+    ],
+    "n_chunks": 49,
+    "opener_page": 291
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-10D"
+  }
+ ],
+ "non_lesson_sections": [
+  {
+   "kind": "unit_exam_bank",
+   "title": "Unit 1 exam prep (as registered)",
+   "unit_index": 1,
+   "tier": "MANIFEST_REGISTERED",
+   "page_range_pdf": [
+    51,
+    52
+   ]
+  },
+  {
+   "kind": "unit_exam_bank",
+   "title": "Unit 2 exam prep (as registered)",
+   "unit_index": 2,
+   "tier": "MANIFEST_REGISTERED",
+   "page_range_pdf": [
+    75,
+    76
+   ]
+  },
+  {
+   "kind": "unit_exam_bank",
+   "title": "Unit 3 exam prep (as registered)",
+   "unit_index": 3,
+   "tier": "MANIFEST_REGISTERED",
+   "page_range_pdf": [
+    109,
+    110
+   ]
+  },
+  {
+   "kind": "unit_exam_bank",
+   "title": "Unit 4 exam prep (as registered)",
+   "unit_index": 4,
+   "tier": "MANIFEST_REGISTERED",
+   "page_range_pdf": [
+    139,
+    140
+   ]
+  },
+  {
+   "kind": "unit_exam_bank",
+   "title": "Unit 5 exam prep (as registered)",
+   "unit_index": 5,
+   "tier": "MANIFEST_REGISTERED",
+   "page_range_pdf": [
+    159,
+    160
+   ]
+  },
+  {
+   "kind": "unit_exam_bank",
+   "title": "Unit 6 exam prep (as registered)",
+   "unit_index": 6,
+   "tier": "MANIFEST_REGISTERED",
+   "page_range_pdf": [
+    179,
+    180
+   ]
+  },
+  {
+   "kind": "unit_exam_bank",
+   "title": "Unit 7 exam prep (as registered)",
+   "unit_index": 7,
+   "tier": "MANIFEST_REGISTERED",
+   "page_range_pdf": [
+    195,
+    196
+   ]
+  },
+  {
+   "kind": "unit_exam_bank",
+   "title": "Unit 8 exam prep (as registered)",
+   "unit_index": 8,
+   "tier": "MANIFEST_REGISTERED",
+   "page_range_pdf": [
+    245,
+    246
+   ]
+  },
+  {
+   "kind": "unit_exam_bank",
+   "title": "Unit 9 exam prep (as registered)",
+   "unit_index": 9,
+   "tier": "MANIFEST_REGISTERED",
+   "page_range_pdf": [
+    269,
+    272
+   ]
+  },
+  {
+   "kind": "unit_exam_bank",
+   "title": "Unit 10 exam prep (as registered)",
+   "unit_index": 10,
+   "tier": "MANIFEST_REGISTERED",
+   "page_range_pdf": [
+    301,
+    302
+   ]
+  }
+ ],
+ "notes": [
+  "structure rows MANIFEST_REGISTERED with MODULE_DERIVED cross-reference to the lane's book_structure module (single source of truth for the chunker) — the module itself is untouched (books-lane write surface closed)",
+  "63 practical-suggestion markers + CP chips route to the practicals lane via practicals_lane coverage reasons at join time (W-F2-T2 routing adopted)"
+ ],
+ "generated_utc": "2026-11-13T14:54:01Z",
+ "generator": "agent:scripts/wf4t2_build.py (W-F4-T2 staged build; repo-side scripts/book_layer/ generator proposed, not installed)",
+ "inputs": [
+  "e83c083d4f1bc8050ea40ea72d0a179b948851b4",
+  "5924f3d9dfa857bb9def2da2f7ad56ee0f847583",
+  "069d245bfbbc11804cf7ef58a877de7751b06303",
+  "e0de4c458610d2ff302e3513b73a501832570bfc"
+ ]
+}
