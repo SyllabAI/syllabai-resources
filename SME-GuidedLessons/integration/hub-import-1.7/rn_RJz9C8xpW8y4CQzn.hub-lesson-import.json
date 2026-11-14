@@ -1,0 +1,299 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_RJz9C8xpW8y4CQzn",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "4df5ec9f85214d9ccef7e6a9e57ab7e9f8ed1b8e467b62e9edaca72d537a84f6",
+    "pinnedRef": "276971edf1296c856345d856b2cbdf6140db0d94"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_RJz9C8xpW8y4CQzn",
+    "topicTitle": "1. Structure, Bonding & Introduction to Organic Chemistry",
+    "subtopicTitle": "Full & Ionic Equations",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/1-structure-bonding-and-introduction-to-organic-chemistry/1-1-formulae-and-equations/1-1-3-full-and-ionic-equations",
+    "specAnchors": [
+      {
+        "code": "1.3",
+        "text": "write balanced full and ionic equations, including state symbols, for chemical reactions"
+      },
+      {
+        "code": "1.12",
+        "text": "be able to relate ionic and full equations, with state symbols, to observations from simple test-tube experiments, to include: i displacement reactions ii typical reactions of acids iii precipitation reactions"
+      }
+    ],
+    "primer": {
+      "text": "Reactions are written contracts: full equations name every species, ionic equations keep only the participants. This note balances equations with state symbols, builds ionic formulae by charge cancellation, cancels spectator ions into ionic equations, and closes with the reaction types a test-tube reveals - displacement, neutralisation and precipitation.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_RJz9C8xpW8y4CQzn::L1",
+        "title": "Balancing with state symbols",
+        "sourceHeadings": [
+          "Balancing equations"
+        ],
+        "specRefs": [
+          "1.3"
+        ],
+        "opening": "A balanced equation is the accountant's ledger of a reaction: atoms can be neither created nor destroyed, so every element must tally on both sides. This lesson walks the balancing routine from formulae to coefficients to state symbols, using magnesium burning in oxygen as the spine.",
+        "keyPoints": [
+          "Balancing never changes a formula; coefficients go in front of formulae only.",
+          "Atoms tally: the count of each element must match on both sides of the arrow.",
+          "For organic combustion, balance carbon first, then hydrogen, then oxygen.",
+          "State symbols (s), (l), (g) and (aq) record the physical state of every species."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Count each kind of atom on both sides and add whole-number coefficients until the counts match.",
+            "analogy": "Balancing is like packing two crates so each carries exactly the same mix of items - you may add more boxes, never reshape an item.",
+            "examPointer": "The classic slip is tweaking a formula to make the counts fit; examiners penalise that instantly."
+          },
+          "medium": {
+            "restatement": "Coefficients scale whole formula units, so each multiplication hits every atom in that formula; state symbols then label each species solid, liquid, gas or aqueous.",
+            "analogy": "Coefficients work like scaling a recipe: doubling the batch doubles every ingredient, while the recipe card itself stays untouched.",
+            "examPointer": "2Mg + O2 -> 2MgO shows 2 mol Mg reacting with 1 mol O2; examiners ask for that mole interpretation directly."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_RJz9C8xpW8y4CQzn::L1::Q1",
+          "rn_RJz9C8xpW8y4CQzn::L1::Q2",
+          "rn_RJz9C8xpW8y4CQzn::L1::Q3",
+          "rn_RJz9C8xpW8y4CQzn::L1::Q4",
+          "rn_RJz9C8xpW8y4CQzn::L1::Q5",
+          "rn_RJz9C8xpW8y4CQzn::L1::Q6",
+          "rn_RJz9C8xpW8y4CQzn::L1::Q7",
+          "rn_RJz9C8xpW8y4CQzn::L1::Q8",
+          "rn_RJz9C8xpW8y4CQzn::L1::Q9"
+        ],
+        "figureIds": []
+      },
+      {
+        "id": "rn_RJz9C8xpW8y4CQzn::L2",
+        "title": "Building ionic formulae",
+        "sourceHeadings": [
+          "Formulae for Ionic Compounds"
+        ],
+        "specRefs": [
+          "1.3"
+        ],
+        "opening": "Ionic formulae are charge ledgers: positive and negative charges must cancel to zero. This lesson uses the common-ion charge table to assemble correct formulae, from sodium chloride up to aluminium sulfate, and shows the swap-the-numbers shortcut.",
+        "keyPoints": [
+          "Ionic compounds form when the total positive charge cancels the total negative charge.",
+          "Each ion is multiplied until the charge sum equals zero.",
+          "Aluminium ions (3+) need three sulfate ions (2-) to balance: Al2(SO4)3.",
+          "The charge numbers can be swapped to become the multipliers in the formula."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Write each ion with its charge, then scale the counts until the charges cancel to zero.",
+            "analogy": "It is a see-saw: 3+ on one side needs three 1- weights, or two 2- weights, to sit level.",
+            "examPointer": "Bracket the polyatomic ion before adding the subscript: sulfate arrives as (SO4)3, never SO43."
+          },
+          "medium": {
+            "restatement": "The lowest common multiple of the two charge magnitudes sets the ion counts; dividing that LCM by each charge gives each subscript.",
+            "analogy": "Matching 3p and 2p coins to make 6p works the same way: two threes or three twos - the LCM decides the mix.",
+            "examPointer": "Swap-the-numbers is a legitimate shortcut: charges 3+ and 2- swap into the subscripts 2 and 3 of Al2(SO4)3."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_RJz9C8xpW8y4CQzn::L2::Q1",
+          "rn_RJz9C8xpW8y4CQzn::L2::Q2",
+          "rn_RJz9C8xpW8y4CQzn::L2::Q3",
+          "rn_RJz9C8xpW8y4CQzn::L2::Q4",
+          "rn_RJz9C8xpW8y4CQzn::L2::Q5",
+          "rn_RJz9C8xpW8y4CQzn::L2::Q6",
+          "rn_RJz9C8xpW8y4CQzn::L2::Q7",
+          "rn_RJz9C8xpW8y4CQzn::L2::Q8",
+          "rn_RJz9C8xpW8y4CQzn::L2::Q9"
+        ],
+        "figureIds": [
+          "fig-01",
+          "fig-02"
+        ]
+      },
+      {
+        "id": "rn_RJz9C8xpW8y4CQzn::L3",
+        "title": "Ionic equations and spectators",
+        "sourceHeadings": [
+          "Ionic equations"
+        ],
+        "specRefs": [
+          "1.3"
+        ],
+        "opening": "In solution many ions just watch the reaction happen. This lesson separates the players from the spectators, cancels the watchers, and lands on the compact ionic equation for zinc displacing copper from its sulfate.",
+        "keyPoints": [
+          "Aqueous ionic compounds dissociate into their ions before anything reacts.",
+          "Spectator ions are present on both sides unchanged and take no part in the reaction.",
+          "An ionic equation keeps only the reacting particles and cancels the spectators.",
+          "Zn + Cu2+ -> Zn2+ + Cu is the ionic heart of the zinc and copper(II) sulfate reaction."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Split dissolved compounds into ions, delete any ion appearing unchanged on both sides, and what remains is the ionic equation.",
+            "analogy": "Like trimming a group photo to the people actually shaking hands - the bystanders are cropped out.",
+            "examPointer": "Only (aq) species split; solids and gases stay whole on both sides of the cancellation."
+          },
+          "medium": {
+            "restatement": "Dissociation turns Zn + CuSO4 into Zn + Cu2+ + SO42- on one side and Zn2+ + SO42- + Cu on the other; the sulfate appears on both sides and cancels, leaving the electron-transfer skeleton.",
+            "analogy": "Cancelling spectators is like simplifying a fraction - the common factor drops from top and bottom and the essential ratio remains.",
+            "examPointer": "Charges must balance in an ionic equation too: +2 on each side of Zn + Cu2+ -> Zn2+ + Cu."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_RJz9C8xpW8y4CQzn::L3::Q1",
+          "rn_RJz9C8xpW8y4CQzn::L3::Q2",
+          "rn_RJz9C8xpW8y4CQzn::L3::Q3",
+          "rn_RJz9C8xpW8y4CQzn::L3::Q4",
+          "rn_RJz9C8xpW8y4CQzn::L3::Q5",
+          "rn_RJz9C8xpW8y4CQzn::L3::Q6",
+          "rn_RJz9C8xpW8y4CQzn::L3::Q7",
+          "rn_RJz9C8xpW8y4CQzn::L3::Q8",
+          "rn_RJz9C8xpW8y4CQzn::L3::Q9"
+        ],
+        "figureIds": [
+          "fig-03"
+        ]
+      },
+      {
+        "id": "rn_RJz9C8xpW8y4CQzn::L4",
+        "title": "Reading reactions from observations",
+        "sourceHeadings": [
+          "Types of reaction"
+        ],
+        "specRefs": [
+          "1.12"
+        ],
+        "opening": "Test-tube observations - a colour change, a gas bubble, a silvery deposit - are the raw data a chemical equation must explain. This lesson matches displacement, neutralisation and precipitation patterns to their equations and to the hazards each implies.",
+        "keyPoints": [
+          "Displacement equations show a more reactive element taking an ion's place.",
+          "Neutralisation pairs an acid with a base, giving salt and water, sometimes carbon dioxide with carbonates.",
+          "Precipitation occurs when two aqueous solutions react to form a solid product.",
+          "Ionic equations expose the reacting pair, and the reagents reveal hazards such as toxic bromine needing a fume cupboard."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Spot the pattern - swap, neutralise or precipitate - then match it to the equation that produces what you actually see.",
+            "analogy": "Observations are the fingerprints; the equation is the suspect line-up that identifies the match.",
+            "examPointer": "Name the observation and the equation together: deposit of copper plus Zn + Cu2+ -> Zn2+ + Cu scores both marks."
+          },
+          "medium": {
+            "restatement": "Each reaction type has an ionic signature: displacement swaps electrons between element and ion; neutralisation is H+ + OH- -> H2O; precipitation pairs two dissolved ions into one insoluble solid.",
+            "analogy": "The three types are different dance formations: a partner swap, a merger into one couple, and two soloists leaving the floor together.",
+            "examPointer": "Hazard questions reward equation-based reasoning: aqueous bromine is toxic and corrosive, so name the fume cupboard and nitrile gloves."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_RJz9C8xpW8y4CQzn::L4::Q1",
+          "rn_RJz9C8xpW8y4CQzn::L4::Q2",
+          "rn_RJz9C8xpW8y4CQzn::L4::Q3",
+          "rn_RJz9C8xpW8y4CQzn::L4::Q4",
+          "rn_RJz9C8xpW8y4CQzn::L4::Q5",
+          "rn_RJz9C8xpW8y4CQzn::L4::Q6",
+          "rn_RJz9C8xpW8y4CQzn::L4::Q7",
+          "rn_RJz9C8xpW8y4CQzn::L4::Q8",
+          "rn_RJz9C8xpW8y4CQzn::L4::Q9"
+        ],
+        "figureIds": []
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "spectator ion",
+          "definition": "An ion present unchanged on both sides of an equation that takes no part in the reaction.",
+          "firstLesson": 3
+        },
+        {
+          "term": "ionic equation",
+          "definition": "An equation showing only the reacting particles, with spectator ions cancelled.",
+          "firstLesson": 3
+        },
+        {
+          "term": "precipitate",
+          "definition": "The insoluble solid formed when two aqueous solutions react.",
+          "firstLesson": 4
+        },
+        {
+          "term": "state symbol",
+          "definition": "The bracketed label (s), (l), (g) or (aq) recording a species' physical state.",
+          "firstLesson": 1
+        }
+      ],
+      "workedExample": null
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/8538d31c0ef5-ion-formula-and-charge-table-1.png",
+        "alt": "Common Ions & Their Charges Table",
+        "sourceHeading": "Formulae for Ionic Compounds",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-02",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/51cf4dcaa71d-1-2-atoms-molecules-stoichiometry-worked-example.png",
+        "alt": "Atoms, Molecules & Stoichiometry Worked example - Balancing equations table, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Formulae for Ionic Compounds",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-03",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/529e3acd9ad0-1-2-atoms-molecules-stoichiometry-worked-example.png",
+        "alt": "Atoms, Molecules & Stoichiometry Worked example - Equations (balancing & ionic) table, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Ionic equations",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique"
+      }
+    ]
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_kwFcrgXsQYYnwSsV",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "79cac100faf41ded1b0849215741cb56c6564fbcb073f805b7d274620e4a7bd9",
+    "pinnedRef": "276971edf1296c856345d856b2cbdf6140db0d94"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_kwFcrgXsQYYnwSsV",
+    "topicTitle": "1. Structure, Bonding & Introduction to Organic Chemistry",
+    "subtopicTitle": "Reacting Volume Calculations",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/1-structure-bonding-and-introduction-to-organic-chemistry/1-2-amount-of-substance/1-2-3-reacting-volume-calculations",
+    "specAnchors": [
+      {
+        "code": "1.8",
+        "text": "be able to use chemical equations to calculate volumes of gases and vice versa, using: i the concepts of amount of substance ii the molar volume of gases iii the expression pV = n RT for gases and volatile liquids"
+      }
+    ],
+    "primer": {
+      "text": "Gases are the forgiving state: any mole of any gas claims the same volume. This note fixes the 24.0 dm3 room-condition and 22.4 dm3 standard-condition values, chains gas volumes through equation ratios, then extends to any conditions with the ideal gas expression pV = nRT and its SI unit discipline.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_kwFcrgXsQYYnwSsV::L1",
+        "title": "Molar gas volumes",
+        "sourceHeadings": [
+          "Reacting Volume Calculations"
+        ],
+        "specRefs": [
+          "1.8"
+        ],
+        "opening": "Under the same conditions, one mole of any gas claims the same volume. This lesson pins the 24.0 dm^3 r.t.p. and 22.4 dm^3 s.t.p. values, converts volumes to moles and back, and chains gas volumes through equation ratios.",
+        "keyPoints": [
+          "At r.t.p. (293 K, 101.3 kPa) the molar gas volume is 24.0 dm^3; at s.t.p. (273 K) it is 22.4 dm^3.",
+          "Moles of gas = volume in dm^3 / molar gas volume.",
+          "Gas volumes scale with equation ratios: 6.50 dm^3 of propane yields 45.5 dm^3 of total gaseous products.",
+          "Volume foresight sizes the equipment for gas-evolving experiments."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Divide the gas volume by 24.0 (room conditions) to get moles, or multiply moles by 24.0 to predict the volume.",
+            "analogy": "Every gas fills a same-sized apartment at room conditions; moles count apartments occupied.",
+            "examPointer": "State which conditions you are using - the 24.0 vs 22.4 choice is itself a mark."
+          },
+          "medium": {
+            "restatement": "Because equal volumes hold equal numbers of gas particles (Avogadro's law), the equation's mole ratio applies directly to volumes at fixed temperature and pressure, even between different gases.",
+            "analogy": "Gas volumes behave like identical train carriages: the ratio of carriages needed is the ratio written in the equation.",
+            "examPointer": "For propane C3H8 + 5O2 -> 3CO2 + 4H2O (steam), each 1 volume of propane gives 7 volumes of gaseous product - 6.50 x 7 = 45.5 dm^3."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_kwFcrgXsQYYnwSsV::L1::Q1",
+          "rn_kwFcrgXsQYYnwSsV::L1::Q2",
+          "rn_kwFcrgXsQYYnwSsV::L1::Q3",
+          "rn_kwFcrgXsQYYnwSsV::L1::Q4",
+          "rn_kwFcrgXsQYYnwSsV::L1::Q5",
+          "rn_kwFcrgXsQYYnwSsV::L1::Q6",
+          "rn_kwFcrgXsQYYnwSsV::L1::Q7",
+          "rn_kwFcrgXsQYYnwSsV::L1::Q8",
+          "rn_kwFcrgXsQYYnwSsV::L1::Q9"
+        ],
+        "figureIds": []
+      },
+      {
+        "id": "rn_kwFcrgXsQYYnwSsV::L2",
+        "title": "The ideal gas expression",
+        "sourceHeadings": [
+          "The Ideal Gas Expression"
+        ],
+        "specRefs": [
+          "1.8"
+        ],
+        "opening": "Away from room conditions, pV = nRT takes over. This lesson states the kinetic theory assumptions behind 'ideal', fixes the SI unit discipline (Pa, m^3, K), and extracts both volumes and molar masses from the expression.",
+        "keyPoints": [
+          "Ideal gases follow kinetic theory: fast random motion, negligible particle volume, no intermolecular forces, elastic collisions.",
+          "pV = nRT uses pressure in Pa, volume in m^3, temperature in K, and R = 8.31 J K^-1 mol^-1.",
+          "Rearranging gives volumes (V = nRT/p) or moles (n = pV/RT) or molar masses.",
+          "kPa multiply by 1000 for Pa; cm^3 divide by 10^6 for m^3; Celsius add 273 for K."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Pressure times volume equals moles times gas constant times temperature; three of the four quantities decide the fourth.",
+            "analogy": "It is a four-way seesaw: squeeze the volume and the pressure rises; heat it and either pressure or volume must grow.",
+            "examPointer": "The Data Booklet supplies R; your job is the SI conversions and the rearrangement."
+          },
+          "medium": {
+            "restatement": "The expression derives from kinetic theory: particle impacts create pressure, so pV scales with the particle count n and their average kinetic energy, which temperature measures.",
+            "analogy": "Pressure is the drumbeat of molecules on the walls - more molecules (n) or faster ones (T) beat louder (p).",
+            "examPointer": "Real gases only approximate ideal behaviour; exam data are chosen so the deviation is negligible."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_kwFcrgXsQYYnwSsV::L2::Q1",
+          "rn_kwFcrgXsQYYnwSsV::L2::Q2",
+          "rn_kwFcrgXsQYYnwSsV::L2::Q3",
+          "rn_kwFcrgXsQYYnwSsV::L2::Q4",
+          "rn_kwFcrgXsQYYnwSsV::L2::Q5",
+          "rn_kwFcrgXsQYYnwSsV::L2::Q6",
+          "rn_kwFcrgXsQYYnwSsV::L2::Q7",
+          "rn_kwFcrgXsQYYnwSsV::L2::Q8",
+          "rn_kwFcrgXsQYYnwSsV::L2::Q9"
+        ],
+        "figureIds": []
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "molar gas volume",
+          "definition": "The volume one mole of any gas occupies at stated conditions: 24.0 dm^3 at r.t.p., 22.4 dm^3 at s.t.p.",
+          "firstLesson": 1
+        },
+        {
+          "term": "ideal gas",
+          "definition": "A gas obeying the kinetic theory assumptions and pV = nRT exactly.",
+          "firstLesson": 2
+        },
+        {
+          "term": "kinetic theory of gases",
+          "definition": "The model of fast, randomly moving, volume-less particles colliding elastically, with temperature measuring average kinetic energy.",
+          "firstLesson": 2
+        }
+      ],
+      "workedExample": {
+        "prompt": "Find the volume that 0.781 mol of oxygen claims at 220 kPa and 21 degrees C.",
+        "steps": [
+          "Rearrange: V = nRT / p.",
+          "Convert: 220 kPa = 220000 Pa; 21 degrees C = 294 K.",
+          "V = (0.781 x 8.31 x 294) / 220000 = 0.00867 m^3."
+        ],
+        "finalAnswer": "0.00867 m^3, which is 8.67 dm^3."
+      }
+    }
+  }
+}

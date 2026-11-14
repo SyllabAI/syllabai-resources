@@ -1,0 +1,495 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_S66bzh2vB25qCwFw",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "064b680c4b5d8e6ac9254df9e0e6ad2f47dbfac196897d3bd34047e00bdd83b1",
+    "pinnedRef": "276971edf1296c856345d856b2cbdf6140db0d94"
+  },
+  "packageId": "ial-chemistry::rn_S66bzh2vB25qCwFw",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_S66bzh2vB25qCwFw::L1::Q1",
+      "moduleId": "rn_S66bzh2vB25qCwFw::L1",
+      "stem": "6.34 g of NaCl are dissolved to a final volume of 0.250 dm^3. What is the mass concentration?",
+      "misconceptionClass": "mass concentration compute",
+      "options": [
+        {
+          "key": "A",
+          "text": "25.4 g dm^-3",
+          "correct": true,
+          "explanation": "Dividing 6.34 by 0.250 gives 25.4 g dm^-3 (3 s.f.).",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "1.59 g dm^-3",
+          "correct": false,
+          "explanation": "That multiplies instead of dividing.",
+          "misconception": "operation inverted"
+        },
+        {
+          "key": "C",
+          "text": "0.0394 g dm^-3",
+          "correct": false,
+          "explanation": "That inverts the fraction.",
+          "misconception": "fraction inverted"
+        },
+        {
+          "key": "D",
+          "text": "25.4 mol dm^-3",
+          "correct": false,
+          "explanation": "The arithmetic is right but the units are wrong - no moles were computed.",
+          "misconception": "unit mismatch"
+        }
+      ]
+    },
+    {
+      "id": "rn_S66bzh2vB25qCwFw::L1::Q2",
+      "moduleId": "rn_S66bzh2vB25qCwFw::L1",
+      "stem": "Which expression converts a mass concentration into a molar concentration?",
+      "misconceptionClass": "currency conversion",
+      "options": [
+        {
+          "key": "A",
+          "text": "Multiply by Avogadro's constant",
+          "correct": false,
+          "explanation": "The particle count plays no role in concentration units here.",
+          "misconception": "constant misapplied"
+        },
+        {
+          "key": "B",
+          "text": "Divide by the molar mass",
+          "correct": true,
+          "explanation": "g dm^-3 divided by g mol^-1 leaves mol dm^-3.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Multiply by the molar mass",
+          "correct": false,
+          "explanation": "Multiplication would give g^2 mol^-1 dm^-3 - meaningless.",
+          "misconception": "operation inverted"
+        },
+        {
+          "key": "D",
+          "text": "Divide by 1000",
+          "correct": false,
+          "explanation": "The 1000 factor converts cm^3 to dm^3, unrelated to mass-to-mole conversion.",
+          "misconception": "conversion misapplied"
+        }
+      ]
+    },
+    {
+      "id": "rn_S66bzh2vB25qCwFw::L1::Q3",
+      "moduleId": "rn_S66bzh2vB25qCwFw::L1",
+      "stem": "26.7 g dm^-3 of sodium bromide is the mass concentration. What mass sits in 500 cm^3?",
+      "misconceptionClass": "mass from concentration",
+      "options": [
+        {
+          "key": "A",
+          "text": "0.0134 g",
+          "correct": false,
+          "explanation": "That divides instead of multiplying.",
+          "misconception": "operation inverted"
+        },
+        {
+          "key": "B",
+          "text": "26.7 g",
+          "correct": false,
+          "explanation": "That ignores the volume entirely.",
+          "misconception": "volume ignored"
+        },
+        {
+          "key": "C",
+          "text": "13.4 g",
+          "correct": true,
+          "explanation": "26.7 x 0.500 = 13.4 g; the cm^3 were converted first.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "13350 g",
+          "correct": false,
+          "explanation": "That forgot the cm^3-to-dm^3 division.",
+          "misconception": "unit dropped"
+        }
+      ]
+    },
+    {
+      "id": "rn_S66bzh2vB25qCwFw::L1::Q4",
+      "moduleId": "rn_S66bzh2vB25qCwFw::L1",
+      "stem": "If 6.34 g of NaCl (Mr 58.5) end up in 250 cm^3 of solution, what molar concentration results?",
+      "misconceptionClass": "molar concentration compute",
+      "options": [
+        {
+          "key": "A",
+          "text": "25.4 mol dm^-3",
+          "correct": false,
+          "explanation": "That is the mass concentration wearing wrong units.",
+          "misconception": "unit mismatch"
+        },
+        {
+          "key": "B",
+          "text": "0.109 mol dm^-3",
+          "correct": false,
+          "explanation": "That stops at moles without dividing by volume.",
+          "misconception": "volume dropped"
+        },
+        {
+          "key": "C",
+          "text": "1.74 mol dm^-3",
+          "correct": false,
+          "explanation": "The volume was divided by 1000 twice.",
+          "misconception": "double conversion"
+        },
+        {
+          "key": "D",
+          "text": "0.434 mol dm^-3",
+          "correct": true,
+          "explanation": "n = 6.34/58.5 gives 0.1084 mol; dividing by the 0.250 dm^3 volume gives 0.434 mol dm^-3.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_S66bzh2vB25qCwFw::L1::Q5",
+      "moduleId": "rn_S66bzh2vB25qCwFw::L1",
+      "stem": "A 1.25 mol dm^-3 sodium carbonate solution is needed using 250 g of solute (Mr = 106.0). What volume results?",
+      "misconceptionClass": "volume from molar",
+      "options": [
+        {
+          "key": "A",
+          "text": "1.89 dm^3",
+          "correct": true,
+          "explanation": "n = 250/106.0 = 2.358 mol; V = 2.358/1.25 = 1.89 dm^3.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "200 cm^3",
+          "correct": false,
+          "explanation": "That is an order of magnitude short.",
+          "misconception": "volume understated"
+        },
+        {
+          "key": "C",
+          "text": "312 dm^3",
+          "correct": false,
+          "explanation": "The moles were divided wrongly.",
+          "misconception": "arithmetic slip"
+        },
+        {
+          "key": "D",
+          "text": "0.0189 dm^3",
+          "correct": false,
+          "explanation": "That misplaces the decimal by two places.",
+          "misconception": "decimal slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_S66bzh2vB25qCwFw::L1::Q6",
+      "moduleId": "rn_S66bzh2vB25qCwFw::L1",
+      "stem": "State the equation for molar concentration.",
+      "misconceptionClass": "molar concentration recall",
+      "kind": "recall",
+      "modelAnswer": "Molar concentration in mol dm^-3 = number of moles of solute / volume of solution in dm^3.",
+      "keywords": [
+        "moles",
+        "volume",
+        "dm^3",
+        "concentration"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_S66bzh2vB25qCwFw::L1::Q7",
+      "moduleId": "rn_S66bzh2vB25qCwFw::L1",
+      "stem": "State the conversion between cm^3 and dm^3 used in concentration work.",
+      "misconceptionClass": "unit conversion recall",
+      "kind": "recall",
+      "modelAnswer": "1 dm^3 = 1000 cm^3, so a volume in cm^3 is divided by 1000 to enter concentration equations in dm^3.",
+      "keywords": [
+        "1000",
+        "cm^3",
+        "dm^3",
+        "divide"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_S66bzh2vB25qCwFw::L1::Q8",
+      "moduleId": "rn_S66bzh2vB25qCwFw::L1",
+      "stem": "Explain why mixing up g dm^-3 and mol dm^-3 produces answers that are wrong by the molar-mass factor.",
+      "misconceptionClass": "unit confusion cost",
+      "kind": "explain-why",
+      "modelAnswer": "A mass concentration already contains grams per volume, while a molar concentration contains moles per volume; skipping the n = mass / molar mass step leaves the grams unconverted, so the numeric answer stays larger by exactly the molar mass in g mol^-1 while the units silently mismatch.",
+      "keywords": [
+        "grams",
+        "moles",
+        "molar mass",
+        "factor"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_S66bzh2vB25qCwFw::L1::Q9",
+      "moduleId": "rn_S66bzh2vB25qCwFw::L1",
+      "stem": "6.34 g of NaCl end up dissolved in 250 cm^3 of solution. Calculate the molar concentration, using Mr(NaCl) = 58.5, to 3 s.f.",
+      "misconceptionClass": "molar concentration application",
+      "kind": "application",
+      "modelAnswer": "n = 6.34 / 58.5 gives 0.1084 mol; volume = 0.250 dm^3; c = 0.1084 mol over 0.250 dm^3 lands at 0.434 mol dm^-3.",
+      "keywords": [
+        "0.1084",
+        "0.250",
+        "0.434",
+        "mol dm^-3"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_S66bzh2vB25qCwFw::L2::Q1",
+      "moduleId": "rn_S66bzh2vB25qCwFw::L2",
+      "stem": "What mass of solute defines 1 ppm in 1 dm^3 of water?",
+      "misconceptionClass": "ppm definition",
+      "options": [
+        {
+          "key": "A",
+          "text": "1 kg",
+          "correct": false,
+          "explanation": "That is not a trace amount at all.",
+          "misconception": "scale absurd"
+        },
+        {
+          "key": "B",
+          "text": "1 mg",
+          "correct": true,
+          "explanation": "One milligram in one cubic decimetre is the working definition.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "1 g",
+          "correct": false,
+          "explanation": "A gram would be a thousand times too concentrated.",
+          "misconception": "scale understated"
+        },
+        {
+          "key": "D",
+          "text": "1 microgram",
+          "correct": false,
+          "explanation": "That is a thousand times too dilute.",
+          "misconception": "scale overstated"
+        }
+      ]
+    },
+    {
+      "id": "rn_S66bzh2vB25qCwFw::L2::Q2",
+      "moduleId": "rn_S66bzh2vB25qCwFw::L2",
+      "stem": "A pool holds 2.5 million litres and chlorine should stay at or below 3 ppm. What maximum chlorine mass does that allow?",
+      "misconceptionClass": "pool chlorine mass",
+      "options": [
+        {
+          "key": "A",
+          "text": "750 kg",
+          "correct": false,
+          "explanation": "The mg-to-kg conversion overshot by 100x.",
+          "misconception": "conversion slipped"
+        },
+        {
+          "key": "B",
+          "text": "0.075 kg",
+          "correct": false,
+          "explanation": "That is a factor of 100 low.",
+          "misconception": "conversion slipped"
+        },
+        {
+          "key": "C",
+          "text": "7.5 kg",
+          "correct": true,
+          "explanation": "3 x 2.5 x 10^6 mg = 7.5 x 10^6 mg = 7.5 kg.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "7.5 g",
+          "correct": false,
+          "explanation": "The mg-to-kg conversion was missed.",
+          "misconception": "conversion dropped"
+        }
+      ]
+    },
+    {
+      "id": "rn_S66bzh2vB25qCwFw::L2::Q3",
+      "moduleId": "rn_S66bzh2vB25qCwFw::L2",
+      "stem": "Which expression combines a gas volume with an air volume to yield ppm?",
+      "misconceptionClass": "gas ppm equation",
+      "options": [
+        {
+          "key": "A",
+          "text": "volume of gas / volume of air",
+          "correct": false,
+          "explanation": "That gives a tiny fraction, not ppm.",
+          "misconception": "scaling dropped"
+        },
+        {
+          "key": "B",
+          "text": "(mass of gas x 10^6) / volume of air",
+          "correct": false,
+          "explanation": "Gas ppmv compares volumes, not masses.",
+          "misconception": "basis misread"
+        },
+        {
+          "key": "C",
+          "text": "volume of air x 10^6 / volume of gas",
+          "correct": false,
+          "explanation": "The fraction is inverted.",
+          "misconception": "fraction inverted"
+        },
+        {
+          "key": "D",
+          "text": "(volume of gas x 10^6) / volume of air",
+          "correct": true,
+          "explanation": "Volumes in the same units scale the ratio up by a million.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_S66bzh2vB25qCwFw::L2::Q4",
+      "moduleId": "rn_S66bzh2vB25qCwFw::L2",
+      "stem": "152 cm^3 of ozone in 112 dm^3 of air: why must both volumes enter the ppm equation in matching units?",
+      "misconceptionClass": "unit matching",
+      "options": [
+        {
+          "key": "A",
+          "text": "The two volumes carry different units, so 152 cm^3 becomes 0.152 dm^3 before the ratio",
+          "correct": true,
+          "explanation": "ppm arithmetic requires matching units on top and bottom.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Ozone must be converted to oxygen first",
+          "correct": false,
+          "explanation": "The gas identity plays no role.",
+          "misconception": "gas misblamed"
+        },
+        {
+          "key": "C",
+          "text": "dm^3 values are never usable in ppm work",
+          "correct": false,
+          "explanation": "Any units work if both sides match.",
+          "misconception": "units forbidden wrongly"
+        },
+        {
+          "key": "D",
+          "text": "The 10^6 factor already handles the conversion",
+          "correct": false,
+          "explanation": "The factor scales the ratio; it does not convert units.",
+          "misconception": "factor misread"
+        }
+      ]
+    },
+    {
+      "id": "rn_S66bzh2vB25qCwFw::L2::Q5",
+      "moduleId": "rn_S66bzh2vB25qCwFw::L2",
+      "stem": "2.5 dm^3 of carbon dioxide dispersed in 10000 dm^3 of air: what ppm do the volumes give?",
+      "misconceptionClass": "co2 ppm compute",
+      "options": [
+        {
+          "key": "A",
+          "text": "0.00025 ppm",
+          "correct": false,
+          "explanation": "That is the raw fraction, unscaled.",
+          "misconception": "scaling dropped"
+        },
+        {
+          "key": "B",
+          "text": "250 ppm",
+          "correct": true,
+          "explanation": "2.5 x 10^6 / 10000 = 250 ppm.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "25 ppm",
+          "correct": false,
+          "explanation": "A decimal slipped in the scaling.",
+          "misconception": "arithmetic slip"
+        },
+        {
+          "key": "D",
+          "text": "2500 ppm",
+          "correct": false,
+          "explanation": "The division by 10000 lost a zero.",
+          "misconception": "arithmetic slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_S66bzh2vB25qCwFw::L2::Q6",
+      "moduleId": "rn_S66bzh2vB25qCwFw::L2",
+      "stem": "Define 1 ppm in terms of mass and volume for aqueous solutions.",
+      "misconceptionClass": "ppm recall",
+      "kind": "recall",
+      "modelAnswer": "1 ppm corresponds to 1 milligram dissolved in one cubic decimetre of water - equivalently 1 mg per kilogram, since that volume of water weighs a kilogram.",
+      "keywords": [
+        "1 mg",
+        "dm^3",
+        "kilogram",
+        "million"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_S66bzh2vB25qCwFw::L2::Q7",
+      "moduleId": "rn_S66bzh2vB25qCwFw::L2",
+      "stem": "State what the v in ppmv denotes and the volume pair it compares.",
+      "misconceptionClass": "ppmv recall",
+      "kind": "recall",
+      "modelAnswer": "The v marks concentration by volume: 1 ppmv means 1 cm^3 of the gas in 1 x 10^6 cm^3 (1000 dm^3) of air.",
+      "keywords": [
+        "volume",
+        "1 cm^3",
+        "10^6",
+        "air"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_S66bzh2vB25qCwFw::L2::Q8",
+      "moduleId": "rn_S66bzh2vB25qCwFw::L2",
+      "stem": "Explain why the identity of the gas is irrelevant when calculating an atmospheric concentration in ppm.",
+      "misconceptionClass": "gas identity irrelevant",
+      "kind": "explain-why",
+      "modelAnswer": "The ppm formula uses only the volume of the gas and the volume of the air, so the ratio depends on how much space the gas occupies, not on what the molecules are; the same 2.5 dm^3 in 10000 dm^3 of air is 250 ppm whether the gas is carbon dioxide or sulfur dioxide.",
+      "keywords": [
+        "volume",
+        "ratio",
+        "identity",
+        "occupies"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_S66bzh2vB25qCwFw::L2::Q9",
+      "moduleId": "rn_S66bzh2vB25qCwFw::L2",
+      "stem": "Calculate, in ppm, the gas concentration when 2.5 dm^3 of sulfur dioxide spreads through 4000 dm^3 of air, using the volume ratio.",
+      "misconceptionClass": "so2 ppm application",
+      "kind": "application",
+      "modelAnswer": "ppm = (2.5 x 10^6) / 4000 = 625 ppm - the gas identity never enters the arithmetic.",
+      "keywords": [
+        "2.5",
+        "4000",
+        "625",
+        "volume"
+      ],
+      "options": []
+    }
+  ]
+}

@@ -1,0 +1,735 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_yxwRzb6QX37KWHcZ",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "a75c99c2903fcbc5c4da8b08fb0217f77c26f2ff46ebb155389cd95c7cb20e37",
+    "pinnedRef": "276971edf1296c856345d856b2cbdf6140db0d94"
+  },
+  "packageId": "ial-chemistry::rn_yxwRzb6QX37KWHcZ",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_yxwRzb6QX37KWHcZ::L1::Q1",
+      "moduleId": "rn_yxwRzb6QX37KWHcZ::L1",
+      "stem": "Which orbital fills first, 4s or 3d?",
+      "misconceptionClass": "fill order",
+      "options": [
+        {
+          "key": "A",
+          "text": "4s, because it sits slightly lower in energy than 3d",
+          "correct": true,
+          "explanation": "Energy, not index, sets the queue.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "3d, because 3 is less than 4",
+          "correct": false,
+          "explanation": "Numeric order misleads here - this is the classic exception.",
+          "misconception": "numeric trap"
+        },
+        {
+          "key": "C",
+          "text": "They fill simultaneously",
+          "correct": false,
+          "explanation": "Filling is sequential.",
+          "misconception": "order denied"
+        },
+        {
+          "key": "D",
+          "text": "3d, because d holds more electrons",
+          "correct": false,
+          "explanation": "Capacity never sets the order.",
+          "misconception": "capacity misattributed"
+        }
+      ]
+    },
+    {
+      "id": "rn_yxwRzb6QX37KWHcZ::L1::Q2",
+      "moduleId": "rn_yxwRzb6QX37KWHcZ::L1",
+      "stem": "An element has its outermost electron in a p orbital. Which block does it occupy?",
+      "misconceptionClass": "block naming",
+      "options": [
+        {
+          "key": "A",
+          "text": "The f block",
+          "correct": false,
+          "explanation": "That requires an f-orbital outermost electron.",
+          "misconception": "block confused"
+        },
+        {
+          "key": "B",
+          "text": "The p block",
+          "correct": true,
+          "explanation": "Blocks are named for the outermost electron's sub-shell.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "The s block",
+          "correct": false,
+          "explanation": "That requires an outermost s electron.",
+          "misconception": "block confused"
+        },
+        {
+          "key": "D",
+          "text": "The d block",
+          "correct": false,
+          "explanation": "That requires a d-orbital outermost electron.",
+          "misconception": "block confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_yxwRzb6QX37KWHcZ::L1::Q3",
+      "moduleId": "rn_yxwRzb6QX37KWHcZ::L1",
+      "stem": "What does degenerate mean for the px, py and pz orbitals?",
+      "misconceptionClass": "degeneracy meaning",
+      "options": [
+        {
+          "key": "A",
+          "text": "They have different energies",
+          "correct": false,
+          "explanation": "Degenerate means equal energy.",
+          "misconception": "meaning inverted"
+        },
+        {
+          "key": "B",
+          "text": "They overlap in space completely",
+          "correct": false,
+          "explanation": "They point along different axes.",
+          "misconception": "geometry wrong"
+        },
+        {
+          "key": "C",
+          "text": "They share exactly the same energy within the sub-shell",
+          "correct": true,
+          "explanation": "Degeneracy is equal energy, which is why they fill singly first.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "They share the same shape",
+          "correct": false,
+          "explanation": "They do share shape, but that is not the term's meaning.",
+          "misconception": "shape misattributed"
+        }
+      ]
+    },
+    {
+      "id": "rn_yxwRzb6QX37KWHcZ::L1::Q4",
+      "moduleId": "rn_yxwRzb6QX37KWHcZ::L1",
+      "stem": "Potassium (Z = 19) queues nineteen electrons. Which full configuration results?",
+      "misconceptionClass": "potassium configuration",
+      "options": [
+        {
+          "key": "A",
+          "text": "1s2 2s2 2p6 3s2 3p6 3d1",
+          "correct": false,
+          "explanation": "The 4s-first rule overrides.",
+          "misconception": "order violated"
+        },
+        {
+          "key": "B",
+          "text": "1s2 2s2 2p6 3s2 3p5 4s2",
+          "correct": false,
+          "explanation": "That breaks argon's 3p6 completion.",
+          "misconception": "core broken"
+        },
+        {
+          "key": "C",
+          "text": "1s2 2s2 2p6 3s2 3p6 4s2",
+          "correct": false,
+          "explanation": "That is calcium's count (20).",
+          "misconception": "count overstated"
+        },
+        {
+          "key": "D",
+          "text": "1s2 2s2 2p6 3s2 3p6 4s1",
+          "correct": true,
+          "explanation": "Eighteen electrons fill to argon; the nineteenth enters 4s, not 3d.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_yxwRzb6QX37KWHcZ::L1::Q5",
+      "moduleId": "rn_yxwRzb6QX37KWHcZ::L1",
+      "stem": "For elements from gallium onward with electrons in 3d, how is the FULL configuration conventionally written?",
+      "misconceptionClass": "written order",
+      "options": [
+        {
+          "key": "A",
+          "text": "In numerical order: 3d10 before 4s2",
+          "correct": true,
+          "explanation": "Once 3d is occupied, the written form lists sub-shells numerically.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "In filling order: 4s2 before 3d10",
+          "correct": false,
+          "explanation": "That is the FILLING order; writing follows numbers.",
+          "misconception": "convention confused"
+        },
+        {
+          "key": "C",
+          "text": "3d omitted for clarity",
+          "correct": false,
+          "explanation": "The d electrons are always listed.",
+          "misconception": "omission invented"
+        },
+        {
+          "key": "D",
+          "text": "4s first always, regardless",
+          "correct": false,
+          "explanation": "The written convention switches once 3d holds electrons.",
+          "misconception": "convention misread"
+        }
+      ]
+    },
+    {
+      "id": "rn_yxwRzb6QX37KWHcZ::L1::Q6",
+      "moduleId": "rn_yxwRzb6QX37KWHcZ::L1",
+      "stem": "State the energy order in which sub-shells fill from 1s through 4s.",
+      "misconceptionClass": "fill order recall",
+      "kind": "recall",
+      "modelAnswer": "1s, 2s, 2p, 3s, 3p, 4s, then 3d - the 4s-before-3d exception applies.",
+      "keywords": [
+        "1s",
+        "2p",
+        "4s",
+        "3d"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_yxwRzb6QX37KWHcZ::L1::Q7",
+      "moduleId": "rn_yxwRzb6QX37KWHcZ::L1",
+      "stem": "State the four Periodic Table blocks and the criterion that assigns an element to one.",
+      "misconceptionClass": "block recall",
+      "kind": "recall",
+      "modelAnswer": "The s block, p block, d block and f block - named for the sub-shell holding the element's outermost electron.",
+      "keywords": [
+        "s block",
+        "p block",
+        "d block",
+        "f block"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_yxwRzb6QX37KWHcZ::L1::Q8",
+      "moduleId": "rn_yxwRzb6QX37KWHcZ::L1",
+      "stem": "Explain why the 4s-before-3d exception is described as energy-based rather than numeric.",
+      "misconceptionClass": "exception reason",
+      "kind": "explain-why",
+      "modelAnswer": "The filling order tracks orbital energies: 3d's energy rises slightly above 4s once the third shell fills, so electrons settle into 4s first; if numbers governed the queue, 3d would precede 4s, but the observed configurations of potassium and calcium prove energy rules.",
+      "keywords": [
+        "energy",
+        "queue",
+        "potassium",
+        "configurations"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_yxwRzb6QX37KWHcZ::L1::Q9",
+      "moduleId": "rn_yxwRzb6QX37KWHcZ::L1",
+      "stem": "Predict the full configuration of an element with 19 electrons and name the block it occupies.",
+      "misconceptionClass": "prediction application",
+      "kind": "application",
+      "modelAnswer": "1s2 2s2 2p6 3s2 3p6 4s1: the outermost electron sits in an s orbital, so the element (potassium) belongs to the s block.",
+      "keywords": [
+        "4s1",
+        "s orbital",
+        "s block",
+        "potassium"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_yxwRzb6QX37KWHcZ::L2::Q1",
+      "moduleId": "rn_yxwRzb6QX37KWHcZ::L2",
+      "stem": "What is potassium's shorthand configuration?",
+      "misconceptionClass": "shorthand recall",
+      "options": [
+        {
+          "key": "A",
+          "text": "[Ar] 3d1",
+          "correct": false,
+          "explanation": "The nineteenth electron enters 4s.",
+          "misconception": "orbital wrong"
+        },
+        {
+          "key": "B",
+          "text": "[Ar] 4s1",
+          "correct": true,
+          "explanation": "Argon accounts for 18 of the 19 electrons.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "[Ne] 4s1",
+          "correct": false,
+          "explanation": "Neon accounts for only 10 electrons.",
+          "misconception": "core too short"
+        },
+        {
+          "key": "D",
+          "text": "[Kr] 4s1",
+          "correct": false,
+          "explanation": "Krypton comes AFTER potassium.",
+          "misconception": "core too long"
+        }
+      ]
+    },
+    {
+      "id": "rn_yxwRzb6QX37KWHcZ::L2::Q2",
+      "moduleId": "rn_yxwRzb6QX37KWHcZ::L2",
+      "stem": "Calcium's shorthand configuration is which?",
+      "misconceptionClass": "calcium shorthand",
+      "options": [
+        {
+          "key": "A",
+          "text": "[Ar] 4s1",
+          "correct": false,
+          "explanation": "That is potassium's count.",
+          "misconception": "count short"
+        },
+        {
+          "key": "B",
+          "text": "[Ne] 4s2",
+          "correct": false,
+          "explanation": "Neon's core misses eight electrons.",
+          "misconception": "core too short"
+        },
+        {
+          "key": "C",
+          "text": "[Ar] 4s2",
+          "correct": true,
+          "explanation": "Two electrons beyond argon fill 4s.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "[Ar] 3d2",
+          "correct": false,
+          "explanation": "4s fills before 3d.",
+          "misconception": "order violated"
+        }
+      ]
+    },
+    {
+      "id": "rn_yxwRzb6QX37KWHcZ::L2::Q3",
+      "moduleId": "rn_yxwRzb6QX37KWHcZ::L2",
+      "stem": "When calcium forms Ca2+, which electrons leave?",
+      "misconceptionClass": "calcium ion formation",
+      "options": [
+        {
+          "key": "A",
+          "text": "Two 3p electrons",
+          "correct": false,
+          "explanation": "3p lies below 4s in the outer shell.",
+          "misconception": "orbital wrong"
+        },
+        {
+          "key": "B",
+          "text": "One 4s and one 3p",
+          "correct": false,
+          "explanation": "Ionisation strips the outer sub-shell pair.",
+          "misconception": "mixture wrong"
+        },
+        {
+          "key": "C",
+          "text": "The 1s pair",
+          "correct": false,
+          "explanation": "Core electrons never leave in ordinary chemistry.",
+          "misconception": "core wrong"
+        },
+        {
+          "key": "D",
+          "text": "The two 4s electrons, giving a configuration identical to argon",
+          "correct": true,
+          "explanation": "Outer-shell electrons leave first.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_yxwRzb6QX37KWHcZ::L2::Q4",
+      "moduleId": "rn_yxwRzb6QX37KWHcZ::L2",
+      "stem": "Why is chromium's configuration [Ar] 3d5 4s1 and not [Ar] 3d4 4s2?",
+      "misconceptionClass": "chromium exception",
+      "options": [
+        {
+          "key": "A",
+          "text": "A half-filled 3d5 sub-shell is energetically stable, so one 4s electron promotes",
+          "correct": true,
+          "explanation": "The exchange stability of half-full 3d wins.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Because 4s cannot hold two electrons",
+          "correct": false,
+          "explanation": "It can; the promotion is energetic, not a capacity issue.",
+          "misconception": "capacity misattributed"
+        },
+        {
+          "key": "C",
+          "text": "Because chromium has only 23 electrons",
+          "correct": false,
+          "explanation": "It does; the promotion still applies to the 24th... which chromium lacks - the point is the 5-1 split of its 5 valence electrons.",
+          "misconception": "count muddled"
+        },
+        {
+          "key": "D",
+          "text": "Because 3d fills before 4s",
+          "correct": false,
+          "explanation": "Filling order still runs 4s first.",
+          "misconception": "order misread"
+        }
+      ]
+    },
+    {
+      "id": "rn_yxwRzb6QX37KWHcZ::L2::Q5",
+      "moduleId": "rn_yxwRzb6QX37KWHcZ::L2",
+      "stem": "Transition metals fill 4s before 3d but ionise 4s first. Why?",
+      "misconceptionClass": "ionisation order",
+      "options": [
+        {
+          "key": "A",
+          "text": "Because examiners prefer it",
+          "correct": false,
+          "explanation": "It is an experimental fact.",
+          "misconception": "authority misattributed"
+        },
+        {
+          "key": "B",
+          "text": "Once 3d is occupied, the 4s electrons are the outermost and easiest to remove",
+          "correct": true,
+          "explanation": "Filling order and removal order differ.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Because 4s electrons are heavier",
+          "correct": false,
+          "explanation": "Mass is irrelevant.",
+          "misconception": "property misattributed"
+        },
+        {
+          "key": "D",
+          "text": "Because 3d electrons are unremovable",
+          "correct": false,
+          "explanation": "They are removed at higher ionisations.",
+          "misconception": "claim false"
+        }
+      ]
+    },
+    {
+      "id": "rn_yxwRzb6QX37KWHcZ::L2::Q6",
+      "moduleId": "rn_yxwRzb6QX37KWHcZ::L2",
+      "stem": "State the shorthand configuration of calcium and of the Ca2+ ion.",
+      "misconceptionClass": "shorthand ion recall",
+      "kind": "recall",
+      "modelAnswer": "Calcium: [Ar] 4s2. Ca2+: [Ar] - after losing both 4s electrons the ion is identical to argon, matching it exactly.",
+      "keywords": [
+        "[Ar] 4s2",
+        "Ca2+",
+        "[Ar]",
+        "identical"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_yxwRzb6QX37KWHcZ::L2::Q7",
+      "moduleId": "rn_yxwRzb6QX37KWHcZ::L2",
+      "stem": "State the anomalous configurations of chromium and copper.",
+      "misconceptionClass": "exceptions recall",
+      "kind": "recall",
+      "modelAnswer": "Cr is [Ar] 3d5 4s1 (not 3d4 4s2) and Cu is [Ar] 3d10 4s1 (not 3d9 4s2) - both stabilise a half- or fully-filled 3d sub-shell.",
+      "keywords": [
+        "Cr",
+        "3d5",
+        "Cu",
+        "3d10"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_yxwRzb6QX37KWHcZ::L2::Q8",
+      "moduleId": "rn_yxwRzb6QX37KWHcZ::L2",
+      "stem": "Explain why writing the full configuration of gallium places 3d10 before 4s2 even though 4s filled first.",
+      "misconceptionClass": "written order reason",
+      "kind": "explain-why",
+      "modelAnswer": "The full configuration lists sub-shells in numerical order for readability once 3d is occupied: 1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p1; the filling ORDER (4s first) describes how electrons arrived, not how the address is written.",
+      "keywords": [
+        "numerical order",
+        "filling",
+        "gallium",
+        "readability"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_yxwRzb6QX37KWHcZ::L2::Q9",
+      "moduleId": "rn_yxwRzb6QX37KWHcZ::L2",
+      "stem": "Write the full configuration of the Ca2+ ion and state which neutral atom shares it.",
+      "misconceptionClass": "ion configuration application",
+      "kind": "application",
+      "modelAnswer": "Ca2+ is 1s2 2s2 2p6 3s2 3p6 - exactly argon's configuration, identical to the noble gas, since both 4s electrons departed.",
+      "keywords": [
+        "1s2",
+        "3p6",
+        "argon",
+        "identical"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_yxwRzb6QX37KWHcZ::L3::Q1",
+      "moduleId": "rn_yxwRzb6QX37KWHcZ::L3",
+      "stem": "What do all elements in the same group share?",
+      "misconceptionClass": "group commonality",
+      "options": [
+        {
+          "key": "A",
+          "text": "The same atomic number",
+          "correct": false,
+          "explanation": "That would make them identical elements.",
+          "misconception": "identity confused"
+        },
+        {
+          "key": "B",
+          "text": "The same mass number",
+          "correct": false,
+          "explanation": "Mass varies across any group.",
+          "misconception": "mass confused"
+        },
+        {
+          "key": "C",
+          "text": "The same number of outer-shell electrons",
+          "correct": true,
+          "explanation": "Group membership IS outer electron count.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "The same number of shells",
+          "correct": false,
+          "explanation": "That defines the period.",
+          "misconception": "row confused with column"
+        }
+      ]
+    },
+    {
+      "id": "rn_yxwRzb6QX37KWHcZ::L3::Q2",
+      "moduleId": "rn_yxwRzb6QX37KWHcZ::L3",
+      "stem": "Why do helium, neon and argon rarely react?",
+      "misconceptionClass": "noble gas inertness",
+      "options": [
+        {
+          "key": "A",
+          "text": "Because they are radioactive",
+          "correct": false,
+          "explanation": "None of the three is.",
+          "misconception": "property invented"
+        },
+        {
+          "key": "B",
+          "text": "Because they are monatomic gases with low mass",
+          "correct": false,
+          "explanation": "Mass and state do not decide reactivity.",
+          "misconception": "property misattributed"
+        },
+        {
+          "key": "C",
+          "text": "Because they have no electrons",
+          "correct": false,
+          "explanation": "They hold full complement.",
+          "misconception": "count denied"
+        },
+        {
+          "key": "D",
+          "text": "Their electronic structures hold full sub-shells, and their high ionisation energies confirm the stability",
+          "correct": true,
+          "explanation": "Complete shells leave no easy electron to trade.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_yxwRzb6QX37KWHcZ::L3::Q3",
+      "moduleId": "rn_yxwRzb6QX37KWHcZ::L3",
+      "stem": "An element's configuration ends 3s2 3p5. What does the configuration predict?",
+      "misconceptionClass": "halogen prediction",
+      "options": [
+        {
+          "key": "A",
+          "text": "Seven outer electrons - group 7 behaviour, one electron short of a full p sub-shell",
+          "correct": true,
+          "explanation": "The outer count is 2 + 5 = 7.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Group 5 behaviour",
+          "correct": false,
+          "explanation": "The group follows the TOTAL outer count, not the last sub-shell alone.",
+          "misconception": "count truncated"
+        },
+        {
+          "key": "C",
+          "text": "Noble-gas inertness",
+          "correct": false,
+          "explanation": "The p sub-shell is one short of full.",
+          "misconception": "stability misread"
+        },
+        {
+          "key": "D",
+          "text": "Transition-metal behaviour",
+          "correct": false,
+          "explanation": "No incomplete d sub-shell exists here.",
+          "misconception": "block misread"
+        }
+      ]
+    },
+    {
+      "id": "rn_yxwRzb6QX37KWHcZ::L3::Q4",
+      "moduleId": "rn_yxwRzb6QX37KWHcZ::L3",
+      "stem": "How does electronic configuration explain periodic trends in properties?",
+      "misconceptionClass": "trend explanation",
+      "options": [
+        {
+          "key": "A",
+          "text": "Trends are coincidental",
+          "correct": false,
+          "explanation": "They follow directly from configuration.",
+          "misconception": "causality denied"
+        },
+        {
+          "key": "B",
+          "text": "Properties are a function of atomic number, whose configuration consequences repeat group by group and period by period",
+          "correct": true,
+          "explanation": "The repeating outer-shell pattern drives the repeating properties.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Because masses repeat periodically",
+          "correct": false,
+          "explanation": "Masses rise continuously.",
+          "misconception": "trend misattributed"
+        },
+        {
+          "key": "D",
+          "text": "Because densities repeat",
+          "correct": false,
+          "explanation": "Density is not configuration-driven.",
+          "misconception": "trend misattributed"
+        }
+      ]
+    },
+    {
+      "id": "rn_yxwRzb6QX37KWHcZ::L3::Q5",
+      "moduleId": "rn_yxwRzb6QX37KWHcZ::L3",
+      "stem": "Using configuration, which pair shares chemical similarity most strongly?",
+      "misconceptionClass": "similarity prediction",
+      "options": [
+        {
+          "key": "A",
+          "text": "Neon and sodium",
+          "correct": false,
+          "explanation": "Full shell vs lone s1.",
+          "misconception": "count differs"
+        },
+        {
+          "key": "B",
+          "text": "Argon and potassium",
+          "correct": false,
+          "explanation": "Full shell vs lone s1.",
+          "misconception": "count differs"
+        },
+        {
+          "key": "C",
+          "text": "Sodium and potassium, both ending in s1",
+          "correct": true,
+          "explanation": "One outer s electron each - same group handshake.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Sodium and magnesium",
+          "correct": false,
+          "explanation": "s1 vs s2 differ.",
+          "misconception": "count differs"
+        }
+      ]
+    },
+    {
+      "id": "rn_yxwRzb6QX37KWHcZ::L3::Q6",
+      "moduleId": "rn_yxwRzb6QX37KWHcZ::L3",
+      "stem": "State what members of the same period share.",
+      "misconceptionClass": "period recall",
+      "kind": "recall",
+      "modelAnswer": "The same number of occupied shells - the same principal quantum number for their outer electrons.",
+      "keywords": [
+        "shells",
+        "period",
+        "principal",
+        "outer"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_yxwRzb6QX37KWHcZ::L3::Q7",
+      "moduleId": "rn_yxwRzb6QX37KWHcZ::L3",
+      "stem": "State the two configuration features that make noble gases stable.",
+      "misconceptionClass": "noble stability recall",
+      "kind": "recall",
+      "modelAnswer": "Full sub-shells in their electronic structures and correspondingly high ionisation energies.",
+      "keywords": [
+        "full sub-shells",
+        "high",
+        "ionisation energies",
+        "stable"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_yxwRzb6QX37KWHcZ::L3::Q8",
+      "moduleId": "rn_yxwRzb6QX37KWHcZ::L3",
+      "stem": "Explain why knowing an element's block helps predict its chemistry.",
+      "misconceptionClass": "block value",
+      "kind": "explain-why",
+      "modelAnswer": "The block names the sub-shell receiving the outermost electron, which fixes how many electrons the element typically gives, takes or shares: s-block elements lose one or two, p-block elements complete their p set, so the block is a one-glance reactivity summary.",
+      "keywords": [
+        "block",
+        "outermost",
+        "lose",
+        "share"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_yxwRzb6QX37KWHcZ::L3::Q9",
+      "moduleId": "rn_yxwRzb6QX37KWHcZ::L3",
+      "stem": "Helium, neon and argon share full sub-shells. Use their configurations to explain why they appear at the end of each period.",
+      "misconceptionClass": "noble placement application",
+      "kind": "application",
+      "modelAnswer": "Each closes its period with a complete sub-shell set - He ends 1s2, Ne ends 2p6, Ar ends 3p6 - so nothing further fits at that energy level and the next element must open a new shell, marking the period boundary.",
+      "keywords": [
+        "full",
+        "sub-shell",
+        "period",
+        "boundary"
+      ],
+      "options": []
+    }
+  ]
+}

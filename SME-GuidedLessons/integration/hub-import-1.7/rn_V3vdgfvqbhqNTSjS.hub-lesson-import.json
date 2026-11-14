@@ -1,0 +1,160 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_V3vdgfvqbhqNTSjS",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "aca6b18e9193c3d27794f09efbf3fc97ca38f79394de120637e38f745ca02b6f",
+    "pinnedRef": "276971edf1296c856345d856b2cbdf6140db0d94"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_V3vdgfvqbhqNTSjS",
+    "topicTitle": "1. Structure, Bonding & Introduction to Organic Chemistry",
+    "subtopicTitle": "Reacting Mass Calculations",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/1-structure-bonding-and-introduction-to-organic-chemistry/1-2-amount-of-substance/1-2-2-reacting-mass-calculations",
+    "specAnchors": [
+      {
+        "code": "1.7",
+        "text": "be able to use chemical equations to calculate reacting masses and vice versa, using the concepts of amount of substance and molar mass"
+      }
+    ],
+    "primer": {
+      "text": "A balanced equation is a mole contract between reactants and products. This note runs masses across that contract - divide by molar mass, apply the coefficient ratio, multiply back out - and reverses the whole chain to reconstruct an unknown equation from nothing but experimental masses.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_V3vdgfvqbhqNTSjS::L1",
+        "title": "Mass through the mole bridge",
+        "sourceHeadings": [
+          "Reacting Mass Calculations"
+        ],
+        "specRefs": [
+          "1.7"
+        ],
+        "opening": "A balanced equation is a mole contract, and masses must enter it through the mole bridge. This lesson runs the standard five-step chain - equation, Mr values, moles, ratio, mass back out - on magnesium burning to magnesium oxide.",
+        "keyPoints": [
+          "Convert the given mass to moles with n = m / Mr before touching the equation.",
+          "The balanced equation's coefficients give the mole ratio between the substances.",
+          "Convert the answer moles back to mass with m = n x Mr.",
+          "7.5 g of magnesium (0.3086 mol) gives 0.3086 mol MgO, which is 12.4 g."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Grams go in, moles cross the ratio, grams come out: divide, scale, multiply.",
+            "analogy": "The mole is the customs office between mass country and ratio country - nothing crosses without declaring its moles.",
+            "examPointer": "Write the balanced equation first; the ratio marks follow from it, and examiners award them line by line."
+          },
+          "medium": {
+            "restatement": "Because coefficients count formula units, masses only acquire meaning after conversion to moles; the ratio then rescales the moles, and the product's Mr converts back to grams.",
+            "analogy": "It is a currency exchange with a fixed exchange rate: pounds to moles, apply the contract's rate, moles back to pounds.",
+            "examPointer": "Any mass unit works - grams or tonnes - as long as both sides use it consistently; the proportionality is unit-agnostic."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_V3vdgfvqbhqNTSjS::L1::Q1",
+          "rn_V3vdgfvqbhqNTSjS::L1::Q2",
+          "rn_V3vdgfvqbhqNTSjS::L1::Q3",
+          "rn_V3vdgfvqbhqNTSjS::L1::Q4",
+          "rn_V3vdgfvqbhqNTSjS::L1::Q5",
+          "rn_V3vdgfvqbhqNTSjS::L1::Q6",
+          "rn_V3vdgfvqbhqNTSjS::L1::Q7",
+          "rn_V3vdgfvqbhqNTSjS::L1::Q8",
+          "rn_V3vdgfvqbhqNTSjS::L1::Q9"
+        ],
+        "figureIds": []
+      },
+      {
+        "id": "rn_V3vdgfvqbhqNTSjS::L2",
+        "title": "Balancing backwards from masses",
+        "sourceHeadings": [
+          "Balancing Equations using Reacting Masses"
+        ],
+        "specRefs": [
+          "1.7"
+        ],
+        "opening": "Experimental masses can reconstruct an unknown equation. This lesson reverses the chain: masses to moles, moles to the smallest-integer ratio, ratio to coefficients - using carbon reducing zinc oxide to metallic zinc.",
+        "keyPoints": [
+          "Known masses of every substance convert to moles with n = m / Mr.",
+          "Dividing all mole values by the smallest gives the coefficient set.",
+          "1.2 g carbon with 16.2 g zinc oxide yields 0.1 : 0.2, so C + 2ZnO -> 2Zn + CO2.",
+          "The molar ratio from a balanced equation is the ratio of amounts reacting, not of masses."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Turn each measured mass into moles, divide by the smallest, and the whole numbers become the coefficients.",
+            "analogy": "It is the empirical-formula routine wearing an equation's clothes: same divide-by-smallest trick, different destination.",
+            "examPointer": "Check conservation: the coefficients you derive must leave atom counts equal on both sides."
+          },
+          "medium": {
+            "restatement": "Because moles count formula units, the mole quotients ARE the relative formula-unit counts; simplifying them to integers recovers the smallest equation that reproduces the experiment.",
+            "analogy": "Like reconstructing a recipe from what the kitchen scale read: weigh each ingredient, divide by portion size, and the recipe ratios fall out.",
+            "examPointer": "State the ratio step explicitly (divide by 0.1 here); skipping it looks like the coefficients were guessed."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_V3vdgfvqbhqNTSjS::L2::Q1",
+          "rn_V3vdgfvqbhqNTSjS::L2::Q2",
+          "rn_V3vdgfvqbhqNTSjS::L2::Q3",
+          "rn_V3vdgfvqbhqNTSjS::L2::Q4",
+          "rn_V3vdgfvqbhqNTSjS::L2::Q5",
+          "rn_V3vdgfvqbhqNTSjS::L2::Q6",
+          "rn_V3vdgfvqbhqNTSjS::L2::Q7",
+          "rn_V3vdgfvqbhqNTSjS::L2::Q8",
+          "rn_V3vdgfvqbhqNTSjS::L2::Q9"
+        ],
+        "figureIds": []
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "mole ratio",
+          "definition": "The fixed proportion of amounts, in moles, fixed by a balanced equation's coefficients.",
+          "firstLesson": 1
+        },
+        {
+          "term": "theoretical yield",
+          "definition": "The maximum product mass predicted by a reacting-mass calculation, before real-world losses.",
+          "firstLesson": 1
+        },
+        {
+          "term": "stoichiometry",
+          "definition": "The mole-bookkeeping that connects amounts of reactants and products through a balanced equation's coefficients.",
+          "firstLesson": 1
+        }
+      ],
+      "workedExample": {
+        "prompt": "7.5 g of magnesium burns completely in oxygen. Calculate the maximum mass of magnesium oxide formed. (Ar: Mg 24.3, O 16.0)",
+        "steps": [
+          "Balanced equation: 2Mg (s) + O2 (g) -> 2MgO (s).",
+          "Moles of magnesium: 7.5 / 24.3 = 0.3086 mol.",
+          "Ratio 2Mg : 2MgO is 1:1, so n(MgO) = 0.3086 mol.",
+          "Mass of MgO: 0.3086 x 40.3 = 12.4 g (3 s.f.)."
+        ],
+        "finalAnswer": "12.4 g of magnesium oxide - the theoretical yield from 7.5 g of magnesium."
+      }
+    }
+  }
+}

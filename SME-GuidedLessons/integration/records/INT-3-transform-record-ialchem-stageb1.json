@@ -1,0 +1,315 @@
+{
+  "stage": "IAL-CHEMISTRY (WCH1) stage-B wave 1 CUMULATIVE (the 13-note first register bucket + the stage-A pilot row: 14 notes / 33 lessons / 297 checks at the 0.8/1.7/1.4 generation)",
+  "title": "INT-3 transform record — IAL chemistry stage-B wave 1 CUMULATIVE (guided-lesson/0.8 -> hub/lesson-import/1.7 + sme-question-package/1.4), the 14-row IAL chemistry pack anchor table of record (the stage-A pilot row carried byte-equivalent from INT-3-transform-record-ialchem-stagea.json plus the 13 wave-1 rows; the 142 biology anchors stay in INT-3-transform-record-bio-stageb10-v44.json, re-proven on this tree by the G-E gates; the 112 chemistry + 127 physics anchors stay in their own records, re-proven by the C-6 ajv unions and the pack byte-conservation gates)",
+  "generated_at_utc": "2026-11-14T15:23:15Z",
+  "operator_traces": {
+    "ignition": "1a1da776a6f9eaad",
+    "execution": "1a1da776a6f9eaad"
+  },
+  "adapter": "guided-lesson-0.8--hub-lesson-import-1.7",
+  "course_id": "ial-chemistry-17",
+  "supersedes_int3": "records/INT-3-transform-record-ialchem-stagea.json (the 1-row stage-A anchor table; its row carried byte-equivalent here plus the 13 wave-1 rows)",
+  "b6_manifest_continuity": {
+    "decision": "continue-global",
+    "selected": "manifest v46 supersedes v45 (cumulative)"
+  },
+  "ialchem_stageb1_of_record": {
+    "basis": "the first register bucket per runbook B4: 13 notes (1-1 formulae-and-equations x3 with the stage-A pilot excluded, 1-2 amount-of-substance x4, 1-3 atomic-structure x2, 1-4 electrons-and-ions x4) authored end-to-end through the full chain, 31 lessons x 9 checks, riding the 0.8/1.7/1.4 generation",
+    "bootstrap": "the stage-A spec_point_resolution.json bootstrap (262 ids / 254 resolved / 8 unresolved-surplus / 234 codes / 196 notes) carries over unchanged; wave-1 spec codes all resolve in the curriculum graph",
+    "figure_law": "31 corpus figures bound heading-unique and module-mapped to their host lessons by verbatim corpus headings; captions carried verbatim where the corpus prints a bold-italic explanatory line after the figure block, declared absent otherwise (10 captions carried, 21 declared absent)",
+    "b4_partition": {
+      "wave": "W1",
+      "buckets": [
+        {
+          "section": "1-structure-bonding-and-introduction-to-organic-chemistry",
+          "subtopic": "1-1-formulae-and-equations",
+          "notes": 3,
+          "first": "rn_FF4b9zVQ2CPvRg3P",
+          "last": "rn_gjCK5FPvbNdc5JvM"
+        },
+        {
+          "section": "1-structure-bonding-and-introduction-to-organic-chemistry",
+          "subtopic": "1-2-amount-of-substance",
+          "notes": 4,
+          "first": "rn_S66bzh2vB25qCwFw",
+          "last": "rn_bzggqrP8CF2WwQsn"
+        },
+        {
+          "section": "1-structure-bonding-and-introduction-to-organic-chemistry",
+          "subtopic": "1-3-atomic-structure",
+          "notes": 2,
+          "first": "rn_8gw9rXz8TsHPHxfM",
+          "last": "rn_dBkZMnT5gts475yh"
+        },
+        {
+          "section": "1-structure-bonding-and-introduction-to-organic-chemistry",
+          "subtopic": "1-4-electrons-and-ions",
+          "notes": 4,
+          "first": "rn_jQGpjkctcYZWRDKs",
+          "last": "rn_yxwRzb6QX37KWHcZ"
+        }
+      ],
+      "notes": 13
+    },
+    "b4_partition_note": "wave W1 of the B4 partition frozen at stage-A open (the full 12-wave partition lives in the stage-A promotion receipt b4_partition_of_record); the pilot stays out of the wave buckets per runbook B3",
+    "worked_example_law": "8 worked-example ports (designed-or-none posture satisfied by ports of the notes own corpus exam-hint arithmetic, all NUM-ledgered) + 5 designed nulls where the corpus offers no arithmetic to port"
+  },
+  "source_pin": {
+    "commitA": "276971edf1296c856345d856b2cbdf6140db0d94",
+    "namespace": "SME-GuidedLessons/integration/source-0.8/",
+    "files": [
+      "guided-lesson-rn_FF4b9zVQ2CPvRg3P.json",
+      "guided-lesson-rn_RJz9C8xpW8y4CQzn.json",
+      "guided-lesson-rn_gjCK5FPvbNdc5JvM.json",
+      "guided-lesson-rn_S66bzh2vB25qCwFw.json",
+      "guided-lesson-rn_V3vdgfvqbhqNTSjS.json",
+      "guided-lesson-rn_kwFcrgXsQYYnwSsV.json",
+      "guided-lesson-rn_bzggqrP8CF2WwQsn.json",
+      "guided-lesson-rn_8gw9rXz8TsHPHxfM.json",
+      "guided-lesson-rn_dBkZMnT5gts475yh.json",
+      "guided-lesson-rn_jQGpjkctcYZWRDKs.json",
+      "guided-lesson-rn_7ttZm7G8Qg7V8pmv.json",
+      "guided-lesson-rn_YXZBtqvvgTHppc4Q.json",
+      "guided-lesson-rn_yxwRzb6QX37KWHcZ.json"
+    ]
+  },
+  "registry_pin": {
+    "file": "apps/hub/content/ial-chemistry-17/notes.json",
+    "rows": "196",
+    "stageb1_rows": "the 13 wave-1 register notes (bucket first/last anchors per the frozen B4 partition, register order preserved); the stage-A pilot row 0 stays out of the wave buckets per runbook B3"
+  },
+  "source_08_generation_pin": "276971edf1296c856345d856b2cbdf6140db0d94",
+  "conservation_law": {
+    "law": "adapter spec 0.8 §7 walk (byte-identical to run_import.mjs targetTokens): specAnchors -> primer -> modules (title/headings/specRefs/opening/keyPoints/depthLayers) -> glossary -> workedExample -> questions (stem/class/options + modelAnswer/keywords on written kinds); per-note sha256 of the \"\\n\"-joined stream",
+    "wave_subtotals": {
+      "wave-ialchem-stageb1": "8ba2af94c7918f800a1a920ca0c63c110cedaa23c6911f498449bca95a6a7f5b"
+    }
+  },
+  "grand_stream": {
+    "chars": 180604,
+    "sha256": "3ec626bbe4cbcf38d59c3c1668d3139eaf8ebf5c815b87d764f725db7a683244"
+  },
+  "wave_stream_sha256": {
+    "wave-ialchem-stageb1": "8ba2af94c7918f800a1a920ca0c63c110cedaa23c6911f498449bca95a6a7f5b"
+  },
+  "battery": {
+    "names": [
+      "P0",
+      "A0",
+      "AN",
+      "JC",
+      "SG",
+      "KW",
+      "2.1B",
+      "NUM",
+      "C-6",
+      "written",
+      "C-5",
+      "B2",
+      "G-E"
+    ],
+    "a0": "ajv 0.8 source x13 + kind order x31 lessons + B2 sizing + spec text provenance (curriculum graph verbatim x20 spec points) + figure closure both ways x31 + corpus image coverage + glossary band + primer band + noteRef identity + section-title map",
+    "an": "exactly-one-correct x155; correct-key census >=3 distinct per note (post-rotation); distinct option texts; four options",
+    "sg": "lesson specRefs subset of file specPoints; every check KP-anchored (content-token overlap)",
+    "kw": ">=3 grounded keywords per written item x124",
+    "jc": "every option explained; distractors name misconceptions; correct-option misconception null",
+    "2.1b": "zero 8-gram overlaps of learner-surface text vs the corpus note body x13",
+    "num": "spot ledgers on the authored arithmetic (18 ledger entries across 8 notes: the WE ports + the MCQ/application answers)",
+    "c6": "physics+chemistry+bio prior union ajv x762 + chemistry prior-generation union ajv x336 + wave-1 outputs ajv x26",
+    "c5": "checkRefs <-> questions bidirectional 1:1 in order x13",
+    "b2": "9 checkRefs per module x31; identity arithmetic 9 = 5+2+1+1 x31",
+    "ge": "IAL chemistry stream anchors x14 (the emitted cumulative INT-3 of record) + the stage-A pilot anchor re-proven on this tree (byte-identical prior pack row) + IAL chemistry stage-A pack byte conservation vs v45 x2 + biology v44 pack byte conservation x284 + chemistry v32 pack byte conservation x224 + physics v31 pack byte conservation x254 + IAL chemistry grand stream single-finalization"
+  },
+  "ialchem_census": {
+    "notes_total_register": 196,
+    "notes_landed": 14,
+    "lessons_total": 33,
+    "checks_total": 297,
+    "stageb1_figures": 31,
+    "corpus_images_bound": 31,
+    "worked_examples_populated": 8,
+    "worked_examples_null": 5
+  },
+  "prior_census": {
+    "biology": {
+      "notes_total": 142,
+      "lessons_total": 274,
+      "checks_total": 2466,
+      "note": "carried byte-identical from v44; anchors re-proven on the wave tree"
+    },
+    "chemistry": {
+      "notes_total": 112,
+      "lessons_total": 239,
+      "checks_total": 2151,
+      "note": "carried byte-identical from v32"
+    },
+    "physics": {
+      "notes_total": 127,
+      "lessons_total": 271,
+      "checks_total": 2439,
+      "note": "carried byte-identical from v31"
+    },
+    "ialchem_stagea": {
+      "notes_total": 1,
+      "lessons_total": 2,
+      "checks_total": 18,
+      "note": "the stage-A pilot row carried byte-equivalent from records/INT-3-transform-record-ialchem-stagea.json; pack bytes re-pinned vs v45"
+    }
+  },
+  "notes": [
+    {
+      "noteId": "rn_QbY5FrkKC3TK5vJS",
+      "wave": "ialchem-stagea",
+      "sourceLayerSha256": "9d7b2849cd27e2962c11174c49fd0cbe5c1035316551e7c82ef9e21e648f96a3",
+      "hubSha256": "1545a36706bf9c0d8ba0740e16d8823dd114258e26ce60285bbbc663313f54fb",
+      "pkgSha256": "8e2965150452dbb76f3f6ec2f77c76dcb54bb24e0dd8dfed59a34efd8127c3d3",
+      "stream": {
+        "sha256": "aecdd95ccecbef775addd2a347cafa0cc06a0a630c9aaeb1adac38aae59762ba",
+        "chars": 15410
+      }
+    },
+    {
+      "noteId": "rn_FF4b9zVQ2CPvRg3P",
+      "wave": "ialchem-stageb1",
+      "sourceLayerSha256": "c6e6d296e545dc3c3d4fcb4f9b919b93abaf7fb8d3f72d38721cfaf86a301b8a",
+      "hubSha256": "0c790b0c967df80758a7ff86d1998a52be385dd3418cc5c8e88866a4b7dab795",
+      "pkgSha256": "d41d5fe44c38e6678cc16abd597b98551b4a8309b024fbb8c145aa84112a3323",
+      "stream": {
+        "sha256": "0723c57f48f5ad73ab766d91b416a59d67b8a2d1710010a70c21b9b79b5df990",
+        "chars": 11403
+      }
+    },
+    {
+      "noteId": "rn_RJz9C8xpW8y4CQzn",
+      "wave": "ialchem-stageb1",
+      "sourceLayerSha256": "4df5ec9f85214d9ccef7e6a9e57ab7e9f8ed1b8e467b62e9edaca72d537a84f6",
+      "hubSha256": "00726b13cb35d9c8d75613ee7cf976be1adeecf31324cc93bb8bcc73d2117b0d",
+      "pkgSha256": "902b09c4ed144a042b64ee1bbf37ff3c46211d1d8c3159ed3bd9a22b8535b6f9",
+      "stream": {
+        "sha256": "7f8e2c5f7188e20795159af25a0fa878a58e7db2b8a50f0c173794edb95bd264",
+        "chars": 21862
+      }
+    },
+    {
+      "noteId": "rn_gjCK5FPvbNdc5JvM",
+      "wave": "ialchem-stageb1",
+      "sourceLayerSha256": "72faa17dcea59923d2ad1ada9f840f626bdd288fc88aef7bca61d4416bcc0913",
+      "hubSha256": "123a7bbc866ce80377d89b0d979ee67993a6623151acb701b2318f07aeebfe1a",
+      "pkgSha256": "94668c030b2864c5d2f88ffcf4cbe2a201d55bcbf7f3c20d86e0ad1744b18e94",
+      "stream": {
+        "sha256": "eb003281a91196762b54ba6f6505d523793832eecb8856776e130ff1a75373b7",
+        "chars": 16291
+      }
+    },
+    {
+      "noteId": "rn_S66bzh2vB25qCwFw",
+      "wave": "ialchem-stageb1",
+      "sourceLayerSha256": "064b680c4b5d8e6ac9254df9e0e6ad2f47dbfac196897d3bd34047e00bdd83b1",
+      "hubSha256": "6472449389eef111cd15d3d8d3ec64d3103381a7b793a96a5f840a1fd8928af4",
+      "pkgSha256": "54e32c8775513865db56d10a06fb5610390a744dd718395ba65620effa16996e",
+      "stream": {
+        "sha256": "16e92ea886ac49e2ef169b3b454838b09d3d1f49c1d19af60029b4812a6ce9b8",
+        "chars": 10143
+      }
+    },
+    {
+      "noteId": "rn_V3vdgfvqbhqNTSjS",
+      "wave": "ialchem-stageb1",
+      "sourceLayerSha256": "aca6b18e9193c3d27794f09efbf3fc97ca38f79394de120637e38f745ca02b6f",
+      "hubSha256": "52241952b5e3ef6355d1da732e9c2e15929cee95eb804a7652a0447c4c015d96",
+      "pkgSha256": "11a3f0d2ad73c2c144e8c6b8d262db4f869d35359b0254407322fdcc51b41d2b",
+      "stream": {
+        "sha256": "0213b2ac7217a6a418a11169f478d46222943854bdd6913d8f7c4ee05e846279",
+        "chars": 10215
+      }
+    },
+    {
+      "noteId": "rn_kwFcrgXsQYYnwSsV",
+      "wave": "ialchem-stageb1",
+      "sourceLayerSha256": "79cac100faf41ded1b0849215741cb56c6564fbcb073f805b7d274620e4a7bd9",
+      "hubSha256": "efc4ba8f20292b4aa202fe62e6717aed51a0772f4f1ce00a7f5a4a411f165a78",
+      "pkgSha256": "10b437f7fce21407a6dbd092995e838a67e40d5e6cca2546055fb19418713ae6",
+      "stream": {
+        "sha256": "8fdd3a1f602d8e5abe84c3a11b49d5434764d7bd1b86f9cc170cc677392388d5",
+        "chars": 10482
+      }
+    },
+    {
+      "noteId": "rn_bzggqrP8CF2WwQsn",
+      "wave": "ialchem-stageb1",
+      "sourceLayerSha256": "1d98d6fcbb2dcbcc69edb212e054213978e02eb7a4647c9dcfc8494b8e1c135c",
+      "hubSha256": "1701fdf96273a750bc1dce92e99f3f349aea3783a71b01f76854865a4d92dd85",
+      "pkgSha256": "ecf7663c68df90fa86ca1f91b5c080b9ce53a8268ac5ed6b0c46657c0cf7a715",
+      "stream": {
+        "sha256": "1c9ab8df8fa6562a6866cd96b9a79973d745209ffd45727e855090ac718624f3",
+        "chars": 11206
+      }
+    },
+    {
+      "noteId": "rn_8gw9rXz8TsHPHxfM",
+      "wave": "ialchem-stageb1",
+      "sourceLayerSha256": "458baa898c79bc60bd155de44f25cedb3b706c9faba128d580b911f85edc55a6",
+      "hubSha256": "42bd78eb62a869e28ad5886cb890847781bdf85999274e362839a2d63b329adc",
+      "pkgSha256": "e964d2fe1227d550b57a192fe053b038264fa9e6ea8bb7857c99a9a5a8671e6f",
+      "stream": {
+        "sha256": "9884fc17dcefb1ba2e1bdcf78da22b54202901e0fe007183e9818579a7b67148",
+        "chars": 10533
+      }
+    },
+    {
+      "noteId": "rn_dBkZMnT5gts475yh",
+      "wave": "ialchem-stageb1",
+      "sourceLayerSha256": "1c2170a1b2d1968fc2f25175e9748bee5eec88cb2e9adcb86a1f2563d981e6cb",
+      "hubSha256": "829685f38b13f14d82ee0b364b7db58cafbc90e87ce84b3cffa55158ec342f4b",
+      "pkgSha256": "081e50d2a243a4c5d232e8e308edcd373aa46e0bd571f69eea72f4e437610fbf",
+      "stream": {
+        "sha256": "1c36cad9331d4bdc8ecfc713108e2d9216200e3cb7c570b785fe63150bc5ce0f",
+        "chars": 16411
+      }
+    },
+    {
+      "noteId": "rn_jQGpjkctcYZWRDKs",
+      "wave": "ialchem-stageb1",
+      "sourceLayerSha256": "3e9d67f5ba1225ef402d2ce288dbf3e1781bb9a5195090a006421e67b4d4917c",
+      "hubSha256": "9de9e190bf9bf32338504645c284fef3cf1f6d2a26c17539dece7c4b1fa6ca92",
+      "pkgSha256": "00daac3c2c378a01058e20cf9d1e13d69928f8072700028a36f5bf126c36f3d5",
+      "stream": {
+        "sha256": "d5d0ea59af42596fbe9030d93a0632e17810798437ac1d88e90a782528c3824a",
+        "chars": 10875
+      }
+    },
+    {
+      "noteId": "rn_7ttZm7G8Qg7V8pmv",
+      "wave": "ialchem-stageb1",
+      "sourceLayerSha256": "146fcb251856a7d7ed17e82d436bf06110bed514f541a245aebde5287ce3af8d",
+      "hubSha256": "240db30856079002cb679d76f4bbf5968b8e87764edb155accacf8c4df6c9e76",
+      "pkgSha256": "ca9347a890d53559ddb2432b07b0cb36f38ecdbdfc488bbcec032b7b03859a17",
+      "stream": {
+        "sha256": "78ba41dfd7a65b2c6c8fe5ecb968ba4d5e1c245d46f20adcb3783117364c04a9",
+        "chars": 10987
+      }
+    },
+    {
+      "noteId": "rn_YXZBtqvvgTHppc4Q",
+      "wave": "ialchem-stageb1",
+      "sourceLayerSha256": "c439435e2272d7824b50dc455c6c3a3c068d1440085664f210307de531a23acc",
+      "hubSha256": "85d61b3f30ae4ba273db9937726ccb8551f792e98fb26ec3f7cd6d7d98383372",
+      "pkgSha256": "470ac106b1f9a40e147fc7a3e86e860f3c341cc204ceed27ea9ef014758346e2",
+      "stream": {
+        "sha256": "56f7bb25a905a4f557f4b9ac4156098cc47584afae7ca04e28113c001acd0931",
+        "chars": 10031
+      }
+    },
+    {
+      "noteId": "rn_yxwRzb6QX37KWHcZ",
+      "wave": "ialchem-stageb1",
+      "sourceLayerSha256": "a75c99c2903fcbc5c4da8b08fb0217f77c26f2ff46ebb155389cd95c7cb20e37",
+      "hubSha256": "6c81ece171fb423bbdb6f88c863f2e40c47c6025bbd54b0ba3b861818d7431b9",
+      "pkgSha256": "4ab85673716f2f744c07a1005f69b7fbcc673d5cf03a23e10156b79594ced405",
+      "stream": {
+        "sha256": "483119c1b13816cd3d6f602deeeb1c2d6b66ec7c01ebb1daa94ddd597e1e7742",
+        "chars": 14755
+      }
+    }
+  ]
+}

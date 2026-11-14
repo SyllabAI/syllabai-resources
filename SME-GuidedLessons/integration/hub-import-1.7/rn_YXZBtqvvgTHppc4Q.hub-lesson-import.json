@@ -1,0 +1,208 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_YXZBtqvvgTHppc4Q",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "c439435e2272d7824b50dc455c6c3a3c068d1440085664f210307de531a23acc",
+    "pinnedRef": "276971edf1296c856345d856b2cbdf6140db0d94"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_YXZBtqvvgTHppc4Q",
+    "topicTitle": "1. Structure, Bonding & Introduction to Organic Chemistry",
+    "subtopicTitle": "Shapes of Orbitals",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/1-structure-bonding-and-introduction-to-organic-chemistry/1-4-electrons-and-ions/1-4-3-shapes-of-orbitals",
+    "specAnchors": [
+      {
+        "code": "2.12",
+        "text": "be able to describe the shapes of s and p orbitals"
+      },
+      {
+        "code": "2.13",
+        "text": "know that orbitals in sub-shells: i each take a single electron before pairing up ii pair up with two electrons of opposite spin"
+      }
+    ],
+    "primer": {
+      "text": "Electron homes have shapes and filling rules. This note draws the spherical s orbitals and perpendicular dumbbell p orbitals, sizes both by shell number, then applies Hund's rule and the Pauli exclusion principle to populate sub-shells singly with parallel spins before any pairing begins.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_YXZBtqvvgTHppc4Q::L1",
+        "title": "Drawing s and p shapes",
+        "sourceHeadings": [
+          "s orbital shape",
+          "p orbital shape"
+        ],
+        "specRefs": [
+          "2.12"
+        ],
+        "opening": "Orbitals are probability maps, and the map has shapes: s orbitals are spheres, p orbitals are dumbbells on the axes. This lesson sizes and orients both, and fixes what d orbitals are NOT required to look like.",
+        "keyPoints": [
+          "s orbitals are spherical and grow larger with each successive shell.",
+          "p orbitals are dumbbell-shaped, in sets of three along x, y and z, mutually perpendicular.",
+          "Every shell from n = 2 upward carries three p orbitals; the first shell has none.",
+          "The d orbital shape is explicitly not required."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Draw s as a circle around the nucleus and p as two lobes pointing along an axis.",
+            "analogy": "An s orbital is a beach ball centred on the nucleus; a p orbital is two balloons tied at the nucleus, pointing one way.",
+            "examPointer": "Say 'dumbbell' and 'perpendicular' - the two keywords examiners scan for."
+          },
+          "medium": {
+            "restatement": "The shape encodes where the electron is likely to be found: s probability is angle-independent, while p probability splits into two lobes either side of a nodal plane at the nucleus, one set per axis.",
+            "analogy": "The s orbital is a fog cloud with no preferred direction; a p orbital is fog split into two lobes with a clear gap at the nucleus.",
+            "examPointer": "Lobes lengthen as n rises - mention size growth for both s and p when describing shell effects."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_YXZBtqvvgTHppc4Q::L1::Q1",
+          "rn_YXZBtqvvgTHppc4Q::L1::Q2",
+          "rn_YXZBtqvvgTHppc4Q::L1::Q3",
+          "rn_YXZBtqvvgTHppc4Q::L1::Q4",
+          "rn_YXZBtqvvgTHppc4Q::L1::Q5",
+          "rn_YXZBtqvvgTHppc4Q::L1::Q6",
+          "rn_YXZBtqvvgTHppc4Q::L1::Q7",
+          "rn_YXZBtqvvgTHppc4Q::L1::Q8",
+          "rn_YXZBtqvvgTHppc4Q::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01",
+          "fig-02"
+        ]
+      },
+      {
+        "id": "rn_YXZBtqvvgTHppc4Q::L2",
+        "title": "Filling rules: Hund and Pauli",
+        "sourceHeadings": [
+          "Populating Orbitals"
+        ],
+        "specRefs": [
+          "2.13"
+        ],
+        "opening": "Two rules govern how electrons settle into orbitals: single occupancy first with parallel spins (Hund), then pairing with opposite spins inside full orbitals (Pauli). This lesson shows both in p-sub-shell diagrams and explains the energy logic behind them.",
+        "keyPoints": [
+          "Electrons occupy separate orbitals in a sub-shell singly before any pairing begins.",
+          "Paired electrons carry opposite spins, as the Pauli exclusion principle demands.",
+          "Spin-pair repulsion drives the single-first strategy.",
+          "A 2p electron's energy corresponds to its principal quantum number n = 2."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Fill empty boxes one electron each first, arrows same way; only then double up, arrows opposing.",
+            "analogy": "Bus seating: passengers take empty seats first and sit in the same direction; only a full bus forces sharing - and co-riders face opposite ways.",
+            "examPointer": "Arrows up/down in box diagrams ARE the spin notation - keep them consistent."
+          },
+          "medium": {
+            "restatement": "Hund's rule minimises repulsion by maximising single occupancy with parallel spins; Pauli's principle forbids two identical electrons, forcing opposite spins once an orbital must be shared, because the extra pairing energy is still cheaper than climbing to the next empty orbital.",
+            "analogy": "Room-mate economics: nobody doubles up while single rooms remain; when a room must be shared, the two occupants settle into opposite routines.",
+            "examPointer": "Three electrons in a p sub-shell: one in each of px, py, pz - the diagram shows three up-arrows, no pairs."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_YXZBtqvvgTHppc4Q::L2::Q1",
+          "rn_YXZBtqvvgTHppc4Q::L2::Q2",
+          "rn_YXZBtqvvgTHppc4Q::L2::Q3",
+          "rn_YXZBtqvvgTHppc4Q::L2::Q4",
+          "rn_YXZBtqvvgTHppc4Q::L2::Q5",
+          "rn_YXZBtqvvgTHppc4Q::L2::Q6",
+          "rn_YXZBtqvvgTHppc4Q::L2::Q7",
+          "rn_YXZBtqvvgTHppc4Q::L2::Q8",
+          "rn_YXZBtqvvgTHppc4Q::L2::Q9"
+        ],
+        "figureIds": [
+          "fig-03",
+          "fig-04"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "orbital",
+          "definition": "A region of space around the nucleus where an electron is likely to be found; each holds at most two electrons of opposite spin.",
+          "firstLesson": 1
+        },
+        {
+          "term": "Hund's rule",
+          "definition": "Electrons fill a sub-shell's orbitals singly with parallel spins before pairing begins.",
+          "firstLesson": 2
+        },
+        {
+          "term": "Pauli exclusion principle",
+          "definition": "No orbital may hold two electrons with the same spin; paired electrons run opposite.",
+          "firstLesson": 2
+        }
+      ],
+      "workedExample": null
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/f8d25a4b8db6-1-1-atomic-structure-orbitals.png",
+        "alt": "Atomic Structure Orbitals, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "p orbital shape",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "Representation of orbitals (the dot represents the nucleus of the atom) showing spherical s orbitals (a), p orbitals containing 'lobes' along the x, y and z axis"
+      },
+      {
+        "id": "fig-02",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/1ac94d4c10b9-1-1-atomic-structure-summary.png",
+        "alt": "Atomic Structure Summary, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "p orbital shape",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "An overview of the shells, subshells and orbitals in an atom"
+      },
+      {
+        "id": "fig-03",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/267bb7851223-1-1-atomic-structure-electron-spin.png",
+        "alt": "Atomic Structure Electron Spin, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Populating Orbitals",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique",
+        "caption": "Electrons can spin either in a clockwise or anticlockwise direction around their own axis"
+      },
+      {
+        "id": "fig-04",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/a822cad350ef-1-1-atomic-structure-electron-configuration-1.png",
+        "alt": "Atomic Structure Electron Configuration 1, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Populating Orbitals",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique",
+        "caption": "Electron configuration: three electrons in a p subshell"
+      }
+    ]
+  }
+}

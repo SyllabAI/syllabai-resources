@@ -1,0 +1,249 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_gjCK5FPvbNdc5JvM",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "72faa17dcea59923d2ad1ada9f840f626bdd288fc88aef7bca61d4416bcc0913",
+    "pinnedRef": "276971edf1296c856345d856b2cbdf6140db0d94"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_gjCK5FPvbNdc5JvM",
+    "topicTitle": "1. Structure, Bonding & Introduction to Organic Chemistry",
+    "subtopicTitle": "Calculating Formulae",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/1-structure-bonding-and-introduction-to-organic-chemistry/1-1-formulae-and-equations/1-1-4-calculating-formulae",
+    "specAnchors": [
+      {
+        "code": "1.6",
+        "text": "be able to use experimental data to calculate empirical and molecular formulae"
+      }
+    ],
+    "primer": {
+      "text": "Experimental data knows percentages and masses, not formulae. This note converts composition into empirical formulae by divide-by-smallest arithmetic, upgrades them to molecular formulae through the relative mass ratio, weighs elements inside compounds as percentages, and computes water of crystallisation from the mass a hydrate loses on heating.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_gjCK5FPvbNdc5JvM::L1",
+        "title": "Empirical to molecular",
+        "sourceHeadings": [
+          "Empirical formula",
+          "Molecular formula"
+        ],
+        "specRefs": [
+          "1.6"
+        ],
+        "opening": "Experimental masses or percentages are the raw material of formula work. This lesson builds the two-step routine - divide by atomic masses, then scale by the smallest ratio - and then upgrades the empirical formula to the molecular one using the relative formula mass.",
+        "keyPoints": [
+          "The empirical formula gives the simplest whole-number ratio of each element.",
+          "Divide each element's mass (or % mass) by its relative atomic mass, then divide every answer by the smallest to force whole numbers.",
+          "The molecular formula is the empirical formula multiplied by an integer n.",
+          "n = Mr(molecular) / Mr(empirical); for C4H10S with Mr 180.2, n = 180.2 / 90.1 = 2."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Turn masses into moles, divide by the smallest, and the whole numbers that fall out are the subscripts.",
+            "analogy": "It is like simplifying 6:9 to 2:3 - the recipe stays recognisable but the counts shrink to the simplest form.",
+            "examPointer": "Table your working in columns: mass, Ar, moles, ratio. Method marks live in that table."
+          },
+          "medium": {
+            "restatement": "Mass-to-moles division measures each element in the same unit (moles), so their quotient is the atom ratio; multiplying the empirical unit by n inflates it to the real molecule whose relative mass matches experiment.",
+            "analogy": "The empirical formula is the scale drawing; the molecular formula is the full-size build, n times larger in every dimension.",
+            "examPointer": "If the ratio lands near 1.5, double it to 3 - experimental rounding, not a new element, explains the fraction."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_gjCK5FPvbNdc5JvM::L1::Q1",
+          "rn_gjCK5FPvbNdc5JvM::L1::Q2",
+          "rn_gjCK5FPvbNdc5JvM::L1::Q3",
+          "rn_gjCK5FPvbNdc5JvM::L1::Q4",
+          "rn_gjCK5FPvbNdc5JvM::L1::Q5",
+          "rn_gjCK5FPvbNdc5JvM::L1::Q6",
+          "rn_gjCK5FPvbNdc5JvM::L1::Q7",
+          "rn_gjCK5FPvbNdc5JvM::L1::Q8",
+          "rn_gjCK5FPvbNdc5JvM::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01",
+          "fig-02"
+        ]
+      },
+      {
+        "id": "rn_gjCK5FPvbNdc5JvM::L2",
+        "title": "Weighing an element inside a compound",
+        "sourceHeadings": [
+          "Percentage Composition by Mass"
+        ],
+        "specRefs": [
+          "1.6"
+        ],
+        "opening": "Percentage composition runs the formula routine backwards: given the formula, what fraction of the mass belongs to each element? This lesson installs the % mass equation and works calcium carbonate end to end.",
+        "keyPoints": [
+          "% mass of an element = (Ar x atom count) / Mr(compound) x 100.",
+          "The numerator counts every atom of that element in the formula unit.",
+          "For CaCO3, calcium's share is 40.1 / 100.1 x 100, about 40.1%.",
+          "Percentage composition data can also be read in reverse to feed empirical formula work."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Take the element's total mass in one formula unit, divide by the formula's total mass, and multiply by 100.",
+            "analogy": "Like working out what fraction of a cake's cost is the butter: one ingredient's bill over the whole shopping list.",
+            "examPointer": "Multiply by the atom count BEFORE dividing - forgetting the count is the common mark-loss."
+          },
+          "medium": {
+            "restatement": "The ratio (Ar x n)/Mr is dimensionless because both numerator and denominator carry the same relative-mass units, so multiplying by 100 gives a clean percentage.",
+            "analogy": "It is a pie chart in equation form: each element's slice of the formula's total mass.",
+            "examPointer": "All percentages in one compound must sum to 100 (within rounding) - a quick self-check."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_gjCK5FPvbNdc5JvM::L2::Q1",
+          "rn_gjCK5FPvbNdc5JvM::L2::Q2",
+          "rn_gjCK5FPvbNdc5JvM::L2::Q3",
+          "rn_gjCK5FPvbNdc5JvM::L2::Q4",
+          "rn_gjCK5FPvbNdc5JvM::L2::Q5",
+          "rn_gjCK5FPvbNdc5JvM::L2::Q6",
+          "rn_gjCK5FPvbNdc5JvM::L2::Q7",
+          "rn_gjCK5FPvbNdc5JvM::L2::Q8",
+          "rn_gjCK5FPvbNdc5JvM::L2::Q9"
+        ],
+        "figureIds": [
+          "fig-03"
+        ]
+      },
+      {
+        "id": "rn_gjCK5FPvbNdc5JvM::L3",
+        "title": "Water of crystallisation",
+        "sourceHeadings": [
+          "Water of Crystallisation"
+        ],
+        "specRefs": [
+          "1.6"
+        ],
+        "opening": "Some crystals smuggle water into their structure as part of the formula. This lesson reads dot formulae like CuSO4.5H2O, contrasts hydrated with anhydrous salts, and computes the degree of hydration from a heating experiment.",
+        "keyPoints": [
+          "Water of crystallisation is water built into a crystal's structure as part of the formula, written after a dot.",
+          "A hydrated compound carries that water; an anhydrous one does not.",
+          "Heating drives the water off reversibly: CuSO4.5H2O equilibrates with CuSO4 + 5H2O.",
+          "Mass loss on heating to constant mass, divided by water's Mr, gives the moles of water per formula unit."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "The dot formula counts water molecules per formula unit; heating removes them and the mass drops.",
+            "analogy": "Like a sponge whose soaked-in water is part of its shipped weight - dry it and the weight loss is the water's share.",
+            "examPointer": "Quote the constant-mass requirement: heating stops only when two successive weighings agree."
+          },
+          "medium": {
+            "restatement": "The mass lost on heating is the mass of xH2O; dividing that by 18.0 gives moles of water, and dividing the residue mass by the anhydrous Mr gives moles of salt - their ratio is x.",
+            "analogy": "It is the same divide-by-smallest logic as empirical formulae, with water as one 'element' and the salt as the other.",
+            "examPointer": "For 10.0 g hydrated copper(II) sulfate leaving 5.59 g residue: water = 4.41 g = 0.245 mol; salt = 5.59/159.6 = 0.035 mol; ratio 7, so CuSO4.7H2O."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_gjCK5FPvbNdc5JvM::L3::Q1",
+          "rn_gjCK5FPvbNdc5JvM::L3::Q2",
+          "rn_gjCK5FPvbNdc5JvM::L3::Q3",
+          "rn_gjCK5FPvbNdc5JvM::L3::Q4",
+          "rn_gjCK5FPvbNdc5JvM::L3::Q5",
+          "rn_gjCK5FPvbNdc5JvM::L3::Q6",
+          "rn_gjCK5FPvbNdc5JvM::L3::Q7",
+          "rn_gjCK5FPvbNdc5JvM::L3::Q8",
+          "rn_gjCK5FPvbNdc5JvM::L3::Q9"
+        ],
+        "figureIds": []
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "empirical formula",
+          "definition": "The simplest whole-number ratio of the atoms of each element in a compound.",
+          "firstLesson": 1
+        },
+        {
+          "term": "molecular formula",
+          "definition": "The exact count of each element's atoms in one molecule, equal to the empirical formula scaled by n.",
+          "firstLesson": 1
+        },
+        {
+          "term": "water of crystallisation",
+          "definition": "Water molecules built into a crystal lattice and written after a dot in the formula.",
+          "firstLesson": 3
+        }
+      ],
+      "workedExample": {
+        "prompt": "10.0 g of hydrated copper(II) sulfate, heated to constant mass, leaves 5.59 g of anhydrous solid. Determine the formula of the hydrate. (Mr: CuSO4 = 159.6, H2O = 18.0)",
+        "steps": [
+          "Mass of water lost: 10.0 - 5.59 = 4.41 g.",
+          "Moles of water: 4.41 / 18.0 = 0.245 mol.",
+          "Moles of anhydrous salt: 5.59 / 159.6 = 0.035 mol.",
+          "Divide by the smaller: water 0.245 / 0.035 = 7, salt 1."
+        ],
+        "finalAnswer": "The hydrate is CuSO4.7H2O - seven waters of crystallisation per formula unit."
+      }
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/ca970bae1c86-we-atoms-molecules-stoichiometry-empirical-formu.png",
+        "alt": "Empirical formula from mass worked example table",
+        "sourceHeading": "Empirical formula",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-02",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/73db9b9813d4-we-atoms-molecules-stoichiometry-empirical-formu.png",
+        "alt": "Empirical formula from percentage composition worked example table",
+        "sourceHeading": "Empirical formula",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-03",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/fbfccd1b8da2-3-1-2-calculate-mass-of-an-element-in-a-compound.png",
+        "alt": "Calculate % Mass of an Element in a Compound WE, downloadable IGCSE & GCSE Chemistry revision notes",
+        "sourceHeading": "Percentage Composition by Mass",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique"
+      }
+    ]
+  }
+}

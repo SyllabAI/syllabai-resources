@@ -1,0 +1,495 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_V3vdgfvqbhqNTSjS",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "aca6b18e9193c3d27794f09efbf3fc97ca38f79394de120637e38f745ca02b6f",
+    "pinnedRef": "276971edf1296c856345d856b2cbdf6140db0d94"
+  },
+  "packageId": "ial-chemistry::rn_V3vdgfvqbhqNTSjS",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_V3vdgfvqbhqNTSjS::L1::Q1",
+      "moduleId": "rn_V3vdgfvqbhqNTSjS::L1",
+      "stem": "What is written down first in every reacting-mass chain?",
+      "misconceptionClass": "first step",
+      "options": [
+        {
+          "key": "A",
+          "text": "Write the balanced chemical equation",
+          "correct": true,
+          "explanation": "The ratio lives in the balance, so it must exist before moles are scaled.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Divide the given mass by its Mr",
+          "correct": false,
+          "explanation": "That comes second - the equation sets the stage.",
+          "misconception": "order swapped"
+        },
+        {
+          "key": "C",
+          "text": "Multiply moles by the product's Mr",
+          "correct": false,
+          "explanation": "That is the final step.",
+          "misconception": "order swapped"
+        },
+        {
+          "key": "D",
+          "text": "Convert tonnes to grams",
+          "correct": false,
+          "explanation": "Unit consistency matters, but the equation comes first.",
+          "misconception": "order swapped"
+        }
+      ]
+    },
+    {
+      "id": "rn_V3vdgfvqbhqNTSjS::L1::Q2",
+      "moduleId": "rn_V3vdgfvqbhqNTSjS::L1",
+      "stem": "7.5 g of magnesium (Ar 24.3) burns completely. How many moles of MgO form?",
+      "misconceptionClass": "ratio application",
+      "options": [
+        {
+          "key": "A",
+          "text": "0.3086 mol of MgO and Mg together",
+          "correct": false,
+          "explanation": "Moles are counted per substance.",
+          "misconception": "substances merged"
+        },
+        {
+          "key": "B",
+          "text": "0.3086 mol, because the Mg-to-MgO ratio is 1:1",
+          "correct": true,
+          "explanation": "2Mg + O2 -> 2MgO gives a 1:1 mole ratio for Mg to MgO.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "0.1543 mol, because the equation starts with 2Mg",
+          "correct": false,
+          "explanation": "The 2:2 coefficients simplify to 1:1.",
+          "misconception": "ratio unsimplified"
+        },
+        {
+          "key": "D",
+          "text": "0.6172 mol",
+          "correct": false,
+          "explanation": "That doubles the moles wrongly.",
+          "misconception": "ratio doubled"
+        }
+      ]
+    },
+    {
+      "id": "rn_V3vdgfvqbhqNTSjS::L1::Q3",
+      "moduleId": "rn_V3vdgfvqbhqNTSjS::L1",
+      "stem": "Convert 0.3086 mol of MgO back into grams (Mr 40.3): what value results?",
+      "misconceptionClass": "moles to product mass",
+      "options": [
+        {
+          "key": "A",
+          "text": "24.4 g",
+          "correct": false,
+          "explanation": "The multiplication was doubled.",
+          "misconception": "factor slipped"
+        },
+        {
+          "key": "B",
+          "text": "40.3 g",
+          "correct": false,
+          "explanation": "That would be one mole.",
+          "misconception": "mole confused with sample"
+        },
+        {
+          "key": "C",
+          "text": "12.4 g",
+          "correct": true,
+          "explanation": "0.3086 x 40.3 = 12.4 g (3 s.f.).",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "7.5 g",
+          "correct": false,
+          "explanation": "That is the input mass, not the output.",
+          "misconception": "input reused"
+        }
+      ]
+    },
+    {
+      "id": "rn_V3vdgfvqbhqNTSjS::L1::Q4",
+      "moduleId": "rn_V3vdgfvqbhqNTSjS::L1",
+      "stem": "51 tonnes of aluminium oxide (Mr 102.0) yield how many moles of it?",
+      "misconceptionClass": "tonnes to moles",
+      "options": [
+        {
+          "key": "A",
+          "text": "0.5 mol",
+          "correct": false,
+          "explanation": "The tonne-to-gram conversion was dropped.",
+          "misconception": "conversion dropped"
+        },
+        {
+          "key": "B",
+          "text": "500 mol",
+          "correct": false,
+          "explanation": "Three zeros were lost.",
+          "misconception": "zeros lost"
+        },
+        {
+          "key": "C",
+          "text": "2 mol",
+          "correct": false,
+          "explanation": "That divides by 51 instead of 102.",
+          "misconception": "Mr misread"
+        },
+        {
+          "key": "D",
+          "text": "500000 mol",
+          "correct": true,
+          "explanation": "51 x 10^6 g / 102.0 g mol^-1 = 500000 mol.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_V3vdgfvqbhqNTSjS::L1::Q5",
+      "moduleId": "rn_V3vdgfvqbhqNTSjS::L1",
+      "stem": "In 2Al2O3 -> 4Al + 3O2, 500000 mol of oxide produces what amount of aluminium?",
+      "misconceptionClass": "ratio scaling",
+      "options": [
+        {
+          "key": "A",
+          "text": "1000000 mol, from the 1:2 ratio",
+          "correct": true,
+          "explanation": "Two oxide units release four aluminium units.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "250000 mol",
+          "correct": false,
+          "explanation": "The ratio was halved, not doubled.",
+          "misconception": "ratio inverted"
+        },
+        {
+          "key": "C",
+          "text": "500000 mol",
+          "correct": false,
+          "explanation": "That ignores the coefficient change.",
+          "misconception": "ratio ignored"
+        },
+        {
+          "key": "D",
+          "text": "1500000 mol",
+          "correct": false,
+          "explanation": "That used the oxygen coefficient.",
+          "misconception": "coefficient misread"
+        }
+      ]
+    },
+    {
+      "id": "rn_V3vdgfvqbhqNTSjS::L1::Q6",
+      "moduleId": "rn_V3vdgfvqbhqNTSjS::L1",
+      "stem": "State the three conversions in the reacting-mass chain, in order.",
+      "misconceptionClass": "chain recall",
+      "kind": "recall",
+      "modelAnswer": "Mass to moles with n = m / Mr, moles to moles via the equation's ratio, then moles to mass with m = n x Mr.",
+      "keywords": [
+        "mass",
+        "moles",
+        "ratio",
+        "equation"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_V3vdgfvqbhqNTSjS::L1::Q7",
+      "moduleId": "rn_V3vdgfvqbhqNTSjS::L1",
+      "stem": "State the mole ratio between aluminium oxide and aluminium in 2Al2O3 -> 4Al + 3O2.",
+      "misconceptionClass": "alumina ratio recall",
+      "kind": "recall",
+      "modelAnswer": "The ratio is 2:4, which simplifies to 1:2 - each oxide formula unit releases two aluminium atoms.",
+      "keywords": [
+        "2:4",
+        "1:2",
+        "aluminium",
+        "oxide"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_V3vdgfvqbhqNTSjS::L1::Q8",
+      "moduleId": "rn_V3vdgfvqbhqNTSjS::L1",
+      "stem": "Explain why the mass of product cannot be read directly from the mass of reactant without the mole step.",
+      "misconceptionClass": "mole step necessity",
+      "kind": "explain-why",
+      "modelAnswer": "A balanced equation relates formula units, not grams: 24.3 g of magnesium and 40.3 g of magnesium oxide do not correspond one-to-one, because their molar masses differ; only after converting each mass to moles does the coefficient ratio apply, and only then can the answer convert back to grams.",
+      "keywords": [
+        "formula units",
+        "molar masses",
+        "convert",
+        "ratio"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_V3vdgfvqbhqNTSjS::L1::Q9",
+      "moduleId": "rn_V3vdgfvqbhqNTSjS::L1",
+      "stem": "Calculate the maximum mass of magnesium oxide (Mr 40.3) from burning 7.5 g of magnesium (Ar 24.3), showing the mole step.",
+      "misconceptionClass": "magnesium burn application",
+      "kind": "application",
+      "modelAnswer": "n(Mg) = 7.5 / 24.3 = 0.3086 mol; ratio 1:1 gives n(MgO) = 0.3086 mol; m = 0.3086 x 40.3 = 12.4 g.",
+      "keywords": [
+        "0.3086",
+        "40.3",
+        "12.4",
+        "ratio"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_V3vdgfvqbhqNTSjS::L2::Q1",
+      "moduleId": "rn_V3vdgfvqbhqNTSjS::L2",
+      "stem": "What does dividing every mole value by the smallest achieve?",
+      "misconceptionClass": "simplification purpose",
+      "options": [
+        {
+          "key": "A",
+          "text": "It proves conservation of mass",
+          "correct": false,
+          "explanation": "Conservation is a consequence, not the purpose of the division.",
+          "misconception": "purpose misattributed"
+        },
+        {
+          "key": "B",
+          "text": "It produces the smallest whole-number coefficient set",
+          "correct": true,
+          "explanation": "The least abundant substance defines 1, and the others scale to integers.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "It converts grams into moles",
+          "correct": false,
+          "explanation": "That division happens with Mr first.",
+          "misconception": "step confused"
+        },
+        {
+          "key": "D",
+          "text": "It balances the charges",
+          "correct": false,
+          "explanation": "Charges are irrelevant in this redox bookkeeping by moles.",
+          "misconception": "goal misstated"
+        }
+      ]
+    },
+    {
+      "id": "rn_V3vdgfvqbhqNTSjS::L2::Q2",
+      "moduleId": "rn_V3vdgfvqbhqNTSjS::L2",
+      "stem": "1.2 g of carbon (Ar 12.0) reacts completely. How many moles is that?",
+      "misconceptionClass": "carbon moles",
+      "options": [
+        {
+          "key": "A",
+          "text": "0.01 mol",
+          "correct": false,
+          "explanation": "A decimal slipped.",
+          "misconception": "arithmetic slip"
+        },
+        {
+          "key": "B",
+          "text": "12 mol",
+          "correct": false,
+          "explanation": "Mass and Ar were swapped in the division.",
+          "misconception": "fraction inverted"
+        },
+        {
+          "key": "C",
+          "text": "0.1 mol",
+          "correct": true,
+          "explanation": "1.2 / 12.0 = 0.1 mol.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "1.2 mol",
+          "correct": false,
+          "explanation": "The Mr division was skipped.",
+          "misconception": "Mr skipped"
+        }
+      ]
+    },
+    {
+      "id": "rn_V3vdgfvqbhqNTSjS::L2::Q3",
+      "moduleId": "rn_V3vdgfvqbhqNTSjS::L2",
+      "stem": "16.2 g of zinc oxide (Mr 81.4) gives 0.2 mol. What coefficient does ZnO take when carbon's 0.1 mol defines 1?",
+      "misconceptionClass": "zinc oxide coefficient",
+      "options": [
+        {
+          "key": "A",
+          "text": "1",
+          "correct": false,
+          "explanation": "That would leave the oxide at carbon's count.",
+          "misconception": "ratio unscaled"
+        },
+        {
+          "key": "B",
+          "text": "0.5",
+          "correct": false,
+          "explanation": "Coefficients are whole numbers.",
+          "misconception": "fractional coefficient"
+        },
+        {
+          "key": "C",
+          "text": "81.4",
+          "correct": false,
+          "explanation": "The Mr is not a coefficient.",
+          "misconception": "Mr misused"
+        },
+        {
+          "key": "D",
+          "text": "2",
+          "correct": true,
+          "explanation": "0.2 / 0.1 = 2, so the equation carries 2ZnO.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_V3vdgfvqbhqNTSjS::L2::Q4",
+      "moduleId": "rn_V3vdgfvqbhqNTSjS::L2",
+      "stem": "Which balanced equation matches 1.2 g C, 16.2 g ZnO, 13.0 g Zn, 4.4 g CO2?",
+      "misconceptionClass": "equation reconstruction",
+      "options": [
+        {
+          "key": "A",
+          "text": "C + 2ZnO -> 2Zn + CO2",
+          "correct": true,
+          "explanation": "Moles run 0.1 : 0.2 : 0.2 : 0.1, dividing to 1 : 2 : 2 : 1.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "2C + ZnO -> Zn + 2CO2",
+          "correct": false,
+          "explanation": "That doubles carbon and carbon dioxide instead.",
+          "misconception": "coefficients swapped"
+        },
+        {
+          "key": "C",
+          "text": "C + ZnO -> Zn + CO2",
+          "correct": false,
+          "explanation": "That ignores the 2:1 oxide-to-carbon mole ratio.",
+          "misconception": "ratio ignored"
+        },
+        {
+          "key": "D",
+          "text": "C + ZnO -> 2Zn + CO2",
+          "correct": false,
+          "explanation": "That breaks zinc conservation.",
+          "misconception": "conservation broken"
+        }
+      ]
+    },
+    {
+      "id": "rn_V3vdgfvqbhqNTSjS::L2::Q5",
+      "moduleId": "rn_V3vdgfvqbhqNTSjS::L2",
+      "stem": "Why must the mole ratio - not the mass ratio - fix the coefficients?",
+      "misconceptionClass": "mole ratio primacy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Because ratios of masses never simplify",
+          "correct": false,
+          "explanation": "Mass ratios simplify fine; they just do not mean formula units.",
+          "misconception": "claim invented"
+        },
+        {
+          "key": "B",
+          "text": "Coefficients count formula units, which is exactly what moles count",
+          "correct": true,
+          "explanation": "The equation's arithmetic runs in particles; masses only relate through Mr.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Because masses are less precise measurements",
+          "correct": false,
+          "explanation": "Precision is irrelevant to the bookkeeping.",
+          "misconception": "precision misblamed"
+        },
+        {
+          "key": "D",
+          "text": "Because mass is not conserved",
+          "correct": false,
+          "explanation": "Mass IS conserved; the point is what the coefficients count.",
+          "misconception": "law misstated"
+        }
+      ]
+    },
+    {
+      "id": "rn_V3vdgfvqbhqNTSjS::L2::Q6",
+      "moduleId": "rn_V3vdgfvqbhqNTSjS::L2",
+      "stem": "State the routine for deducing a balanced equation from experimental masses.",
+      "misconceptionClass": "routine recall",
+      "kind": "recall",
+      "modelAnswer": "Convert each mass to moles by dividing by its Mr, divide all mole values by the smallest, and use the resulting whole numbers as coefficients.",
+      "keywords": [
+        "mass",
+        "moles",
+        "smallest",
+        "coefficients"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_V3vdgfvqbhqNTSjS::L2::Q7",
+      "moduleId": "rn_V3vdgfvqbhqNTSjS::L2",
+      "stem": "State the coefficients obtained when C : ZnO : Zn : CO2 run 0.1 : 0.2 : 0.2 : 0.1.",
+      "misconceptionClass": "coefficient set recall",
+      "kind": "recall",
+      "modelAnswer": "Dividing by 0.1 gives 1 : 2 : 2 : 1, so the equation is C + 2ZnO -> 2Zn + CO2.",
+      "keywords": [
+        "1",
+        "2",
+        "C + 2ZnO",
+        "2Zn"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_V3vdgfvqbhqNTSjS::L2::Q8",
+      "moduleId": "rn_V3vdgfvqbhqNTSjS::L2",
+      "stem": "Explain why organising the working in a table makes these problems easier than they first appear.",
+      "misconceptionClass": "organisation value",
+      "kind": "explain-why",
+      "modelAnswer": "The routine is only four mechanical steps - list, divide by Mr, divide by the smallest, apply as coefficients - and a table holds each substance's mass, Mr and moles in one row, so no step is skipped and the final ratio can be read straight across.",
+      "keywords": [
+        "steps",
+        "table",
+        "ratio",
+        "read"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_V3vdgfvqbhqNTSjS::L2::Q9",
+      "moduleId": "rn_V3vdgfvqbhqNTSjS::L2",
+      "stem": "A reaction consumes 1.2 g of carbon and 16.2 g of zinc oxide, producing 13.0 g of zinc and 4.4 g of carbon dioxide. Deduce the balanced equation (Ar: C 12.0, Zn 65.4, O 16.0).",
+      "misconceptionClass": "backwards balance application",
+      "kind": "application",
+      "modelAnswer": "Moles: C 0.1, ZnO 0.2, Zn 0.2, CO2 0.1; divide by 0.1 to get 1 : 2 : 2 : 1, so C + 2ZnO -> 2Zn + CO2.",
+      "keywords": [
+        "0.1",
+        "0.2",
+        "1 : 2 : 2 : 1",
+        "C + 2ZnO"
+      ],
+      "options": []
+    }
+  ]
+}

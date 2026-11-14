@@ -1,0 +1,495 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_jQGpjkctcYZWRDKs",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "3e9d67f5ba1225ef402d2ce288dbf3e1781bb9a5195090a006421e67b4d4917c",
+    "pinnedRef": "276971edf1296c856345d856b2cbdf6140db0d94"
+  },
+  "packageId": "ial-chemistry::rn_jQGpjkctcYZWRDKs",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_jQGpjkctcYZWRDKs::L1::Q1",
+      "moduleId": "rn_jQGpjkctcYZWRDKs::L1",
+      "stem": "What does the first ionisation energy remove?",
+      "misconceptionClass": "IE1 definition",
+      "options": [
+        {
+          "key": "A",
+          "text": "A mole of electrons leaving a mole of gaseous atoms, which become gaseous 1+ ions",
+          "correct": true,
+          "explanation": "The full definition names the amounts and the gaseous states.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "One electron from the nucleus",
+          "correct": false,
+          "explanation": "Electrons are removed from orbitals, never the nucleus.",
+          "misconception": "site misplaced"
+        },
+        {
+          "key": "C",
+          "text": "One mole of electrons from solid atoms",
+          "correct": false,
+          "explanation": "The definition requires the gaseous state.",
+          "misconception": "state violated"
+        },
+        {
+          "key": "D",
+          "text": "Two moles of electrons per mole of atoms",
+          "correct": false,
+          "explanation": "IE1 removes exactly one electron per atom.",
+          "misconception": "count doubled"
+        }
+      ]
+    },
+    {
+      "id": "rn_jQGpjkctcYZWRDKs::L1::Q2",
+      "moduleId": "rn_jQGpjkctcYZWRDKs::L1",
+      "stem": "Why are all ionisation energies endothermic?",
+      "misconceptionClass": "endothermic necessity",
+      "options": [
+        {
+          "key": "A",
+          "text": "Because ions are heavier than atoms",
+          "correct": false,
+          "explanation": "Removing electrons makes ions lighter.",
+          "misconception": "mass claim false"
+        },
+        {
+          "key": "B",
+          "text": "Energy must be supplied to pull electrons away from the nucleus's attraction",
+          "correct": true,
+          "explanation": "Separation against attraction always absorbs energy.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Because electrons release energy when leaving",
+          "correct": false,
+          "explanation": "Leaving costs energy; falling in releases it.",
+          "misconception": "sign reversed"
+        },
+        {
+          "key": "D",
+          "text": "Because the process happens at high temperature",
+          "correct": false,
+          "explanation": "The measurement conditions do not fix the sign.",
+          "misconception": "conditions conflated"
+        }
+      ]
+    },
+    {
+      "id": "rn_jQGpjkctcYZWRDKs::L1::Q3",
+      "moduleId": "rn_jQGpjkctcYZWRDKs::L1",
+      "stem": "Calcium's IE2 is defined by which equation?",
+      "misconceptionClass": "IE2 equation",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ca2+ (g) -> Ca3+ (g) + e-",
+          "correct": false,
+          "explanation": "That is the third.",
+          "misconception": "stage confused"
+        },
+        {
+          "key": "B",
+          "text": "Ca (s) -> Ca+ (aq) + e-",
+          "correct": false,
+          "explanation": "Wrong state on both counts.",
+          "misconception": "states wrong"
+        },
+        {
+          "key": "C",
+          "text": "Ca+ (g) -> Ca2+ (g) + e-, IE2 = +1145 kJ mol^-1",
+          "correct": true,
+          "explanation": "The second electron leaves the gaseous 1+ ion.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Ca (g) -> Ca+ (g) + e-",
+          "correct": false,
+          "explanation": "That is the first ionisation energy.",
+          "misconception": "stage confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_jQGpjkctcYZWRDKs::L1::Q4",
+      "moduleId": "rn_jQGpjkctcYZWRDKs::L1",
+      "stem": "Why is calcium's IE3 (+4912) far larger than its IE2 (+1145)?",
+      "misconceptionClass": "IE3 jump",
+      "options": [
+        {
+          "key": "A",
+          "text": "Because calcium's nucleus gains a proton",
+          "correct": false,
+          "explanation": "The nucleus is unchanged during ionisation.",
+          "misconception": "nucleus changed claim"
+        },
+        {
+          "key": "B",
+          "text": "Because the ion becomes gaseous",
+          "correct": false,
+          "explanation": "It was gaseous already.",
+          "misconception": "state misattributed"
+        },
+        {
+          "key": "C",
+          "text": "Because electrons repel the incoming energy",
+          "correct": false,
+          "explanation": "Repulsion plays no such role.",
+          "misconception": "mechanism invented"
+        },
+        {
+          "key": "D",
+          "text": "The third electron comes from a principal shell closer to the nucleus (3p vs 4s)",
+          "correct": true,
+          "explanation": "The shell drop raises the attraction sharply.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_jQGpjkctcYZWRDKs::L1::Q5",
+      "moduleId": "rn_jQGpjkctcYZWRDKs::L1",
+      "stem": "Under which standard conditions are ionisation energies measured?",
+      "misconceptionClass": "standard conditions",
+      "options": [
+        {
+          "key": "A",
+          "text": "298 K and 101 kPa, on gaseous atoms",
+          "correct": true,
+          "explanation": "The definition pins temperature and pressure.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "0 degrees C and 1 atmosphere",
+          "correct": false,
+          "explanation": "Those are s.t.p. conditions, not the IE standard.",
+          "misconception": "conditions confused"
+        },
+        {
+          "key": "C",
+          "text": "293 K and 101.3 kPa",
+          "correct": false,
+          "explanation": "That is r.t.p., used for gas volumes.",
+          "misconception": "conditions confused"
+        },
+        {
+          "key": "D",
+          "text": "Whatever temperature the experiment uses",
+          "correct": false,
+          "explanation": "The standard set is part of the definition.",
+          "misconception": "standard denied"
+        }
+      ]
+    },
+    {
+      "id": "rn_jQGpjkctcYZWRDKs::L1::Q6",
+      "moduleId": "rn_jQGpjkctcYZWRDKs::L1",
+      "stem": "Define the second ionisation energy.",
+      "misconceptionClass": "IE2 recall",
+      "kind": "recall",
+      "modelAnswer": "It is the energy that strips a mole of electrons from a mole of gaseous 1+ ions, converting those ions into gaseous 2+ ions.",
+      "keywords": [
+        "energy",
+        "mole",
+        "gaseous 1+ ions",
+        "2+ ions"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_jQGpjkctcYZWRDKs::L1::Q7",
+      "moduleId": "rn_jQGpjkctcYZWRDKs::L1",
+      "stem": "State calcium's first, second and third ionisation energies.",
+      "misconceptionClass": "calcium IE values",
+      "kind": "recall",
+      "modelAnswer": "IE1 = +590 kJ mol^-1, IE2 = +1145 kJ mol^-1 and IE3 = +4912 kJ mol^-1, all endothermic.",
+      "keywords": [
+        "590",
+        "1145",
+        "4912",
+        "endothermic"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_jQGpjkctcYZWRDKs::L1::Q8",
+      "moduleId": "rn_jQGpjkctcYZWRDKs::L1",
+      "stem": "Explain why the ionisation energy sequence for one element always rises.",
+      "misconceptionClass": "successive rise reason",
+      "kind": "explain-why",
+      "modelAnswer": "Each removal leaves fewer electrons shielding a same-sized nucleus and increases the ion's positive charge, so the remaining electrons feel a stronger pull; the energy bill therefore climbs with every electron removed, with jumps at shell boundaries.",
+      "keywords": [
+        "shielding",
+        "charge",
+        "stronger",
+        "climbs"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_jQGpjkctcYZWRDKs::L1::Q9",
+      "moduleId": "rn_jQGpjkctcYZWRDKs::L1",
+      "stem": "Write the equation, with state symbols, for calcium's first ionisation energy and quote its value.",
+      "misconceptionClass": "IE1 equation application",
+      "kind": "application",
+      "modelAnswer": "Ca (g) -> Ca+ (g) + e- , IE1 = +590 kJ mol^-1; the gaseous states are part of the definition.",
+      "keywords": [
+        "Ca (g)",
+        "Ca+ (g)",
+        "e-",
+        "590"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_jQGpjkctcYZWRDKs::L2::Q1",
+      "moduleId": "rn_jQGpjkctcYZWRDKs::L2",
+      "stem": "How many orbitals does a p sub-shell contain, and what total does that permit?",
+      "misconceptionClass": "p capacity",
+      "options": [
+        {
+          "key": "A",
+          "text": "Three orbitals holding three",
+          "correct": false,
+          "explanation": "Each orbital holds TWO electrons.",
+          "misconception": "capacity halved"
+        },
+        {
+          "key": "B",
+          "text": "Three orbitals, holding six electrons in total",
+          "correct": true,
+          "explanation": "Each orbital takes two electrons of opposite spin: 3 x 2 = 6.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "One orbital holding two electrons",
+          "correct": false,
+          "explanation": "That describes an s sub-shell.",
+          "misconception": "sub-shell confused"
+        },
+        {
+          "key": "D",
+          "text": "Five orbitals holding ten",
+          "correct": false,
+          "explanation": "That describes a d sub-shell.",
+          "misconception": "sub-shell confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_jQGpjkctcYZWRDKs::L2::Q2",
+      "moduleId": "rn_jQGpjkctcYZWRDKs::L2",
+      "stem": "Increasing nuclear charge across a period has what effect on first ionisation energy?",
+      "misconceptionClass": "nuclear charge effect",
+      "options": [
+        {
+          "key": "A",
+          "text": "It has no effect until a shell fills",
+          "correct": false,
+          "explanation": "The effect is continuous across the period.",
+          "misconception": "effect denied"
+        },
+        {
+          "key": "B",
+          "text": "It first raises then lowers IE",
+          "correct": false,
+          "explanation": "The general trend rises across a period.",
+          "misconception": "trend inverted"
+        },
+        {
+          "key": "C",
+          "text": "It raises IE, because more protons attract the outer electrons more strongly",
+          "correct": true,
+          "explanation": "The pull grows with the proton count.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "It lowers IE, because atoms get heavier",
+          "correct": false,
+          "explanation": "Mass does not set the pull.",
+          "misconception": "mass misattributed"
+        }
+      ]
+    },
+    {
+      "id": "rn_jQGpjkctcYZWRDKs::L2::Q3",
+      "moduleId": "rn_jQGpjkctcYZWRDKs::L2",
+      "stem": "Why does increased shielding make the outer electron easier to remove?",
+      "misconceptionClass": "shielding effect",
+      "options": [
+        {
+          "key": "A",
+          "text": "Because shielding adds protons",
+          "correct": false,
+          "explanation": "Shielding adds no protons.",
+          "misconception": "charge misattributed"
+        },
+        {
+          "key": "B",
+          "text": "Because the outer electron pairs up",
+          "correct": false,
+          "explanation": "Pairing is a separate factor.",
+          "misconception": "factor conflated"
+        },
+        {
+          "key": "C",
+          "text": "Because shields reduce distance",
+          "correct": false,
+          "explanation": "Shielding acts between distance and charge.",
+          "misconception": "mechanism muddled"
+        },
+        {
+          "key": "D",
+          "text": "Inner-shell electrons screen the outer electron from the nucleus's full attraction",
+          "correct": true,
+          "explanation": "The net pull the outer electron feels is reduced.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_jQGpjkctcYZWRDKs::L2::Q4",
+      "moduleId": "rn_jQGpjkctcYZWRDKs::L2",
+      "stem": "What is spin-pair repulsion and what does it cause?",
+      "misconceptionClass": "spin-pair repulsion",
+      "options": [
+        {
+          "key": "A",
+          "text": "Two electrons sharing an orbital repel slightly, so paired electrons are removed more easily",
+          "correct": true,
+          "explanation": "The pairing offsets nuclear attraction.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Opposite spins attract, stabilising pairs",
+          "correct": false,
+          "explanation": "Repulsion, not attraction, characterises the pair.",
+          "misconception": "sign reversed"
+        },
+        {
+          "key": "C",
+          "text": "It only affects noble gases",
+          "correct": false,
+          "explanation": "It operates wherever electrons pair.",
+          "misconception": "scope narrowed"
+        },
+        {
+          "key": "D",
+          "text": "It raises ionisation energy for pairs",
+          "correct": false,
+          "explanation": "It LOWERS the energy needed.",
+          "misconception": "direction reversed"
+        }
+      ]
+    },
+    {
+      "id": "rn_jQGpjkctcYZWRDKs::L2::Q5",
+      "moduleId": "rn_jQGpjkctcYZWRDKs::L2",
+      "stem": "Why do noble gases show very high ionisation energies while group 1 metals show low ones?",
+      "misconceptionClass": "group contrast",
+      "options": [
+        {
+          "key": "A",
+          "text": "Because noble gases carry charge",
+          "correct": false,
+          "explanation": "They are neutral atoms.",
+          "misconception": "charge invented"
+        },
+        {
+          "key": "B",
+          "text": "Noble gases hold full sub-shells with strong, unshielded nuclear pull on outer electrons; group 1 metals have a single, shielded, easily lost electron",
+          "correct": true,
+          "explanation": "Configuration decides the bill.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Because noble gases are heavier",
+          "correct": false,
+          "explanation": "Mass is not the driver.",
+          "misconception": "mass misattributed"
+        },
+        {
+          "key": "D",
+          "text": "Because group 1 metals are gases",
+          "correct": false,
+          "explanation": "They are metals.",
+          "misconception": "state wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_jQGpjkctcYZWRDKs::L2::Q6",
+      "moduleId": "rn_jQGpjkctcYZWRDKs::L2",
+      "stem": "State the orbital count and electron capacity of s, p and d sub-shells.",
+      "misconceptionClass": "capacity recall",
+      "kind": "recall",
+      "modelAnswer": "s holds one orbital (2 electrons), p holds three orbitals (6 electrons) and d holds five orbitals (10 electrons).",
+      "keywords": [
+        "s",
+        "p",
+        "d",
+        "orbital"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_jQGpjkctcYZWRDKs::L2::Q7",
+      "moduleId": "rn_jQGpjkctcYZWRDKs::L2",
+      "stem": "State the four factors affecting the size of a first ionisation energy.",
+      "misconceptionClass": "factor list recall",
+      "kind": "recall",
+      "modelAnswer": "Nuclear charge, distance of the outer electrons from the nucleus, shielding by inner electrons, and spin-pair repulsion.",
+      "keywords": [
+        "nuclear charge",
+        "distance",
+        "shielding",
+        "spin-pair"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_jQGpjkctcYZWRDKs::L2::Q8",
+      "moduleId": "rn_jQGpjkctcYZWRDKs::L2",
+      "stem": "Explain why attraction falls off rapidly with distance and why that matters for large atoms.",
+      "misconceptionClass": "distance attenuation",
+      "kind": "explain-why",
+      "modelAnswer": "Electrostatic attraction weakens steeply as separation grows, so an outer electron two shells further out feels dramatically less pull; that is why large atoms with many inner shells lose their outer electrons at low energies compared with compact atoms of the same group.",
+      "keywords": [
+        "separation",
+        "pull",
+        "shells",
+        "energies"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_jQGpjkctcYZWRDKs::L2::Q9",
+      "moduleId": "rn_jQGpjkctcYZWRDKs::L2",
+      "stem": "Predict, with reasons, which loses an electron more easily: a lithium 2s electron or a helium 1s electron.",
+      "misconceptionClass": "IE comparison application",
+      "kind": "application",
+      "modelAnswer": "Lithium's 2s electron: it sits farther from the nucleus and is shielded by the 1s pair, so it is removed far more easily than helium's unshielded, close-in 1s electron.",
+      "keywords": [
+        "2s",
+        "shielded",
+        "1s",
+        "easily"
+      ],
+      "options": []
+    }
+  ]
+}

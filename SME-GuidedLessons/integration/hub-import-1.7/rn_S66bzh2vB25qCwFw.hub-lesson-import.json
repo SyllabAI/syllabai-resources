@@ -1,0 +1,160 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_S66bzh2vB25qCwFw",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "064b680c4b5d8e6ac9254df9e0e6ad2f47dbfac196897d3bd34047e00bdd83b1",
+    "pinnedRef": "276971edf1296c856345d856b2cbdf6140db0d94"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_S66bzh2vB25qCwFw",
+    "topicTitle": "1. Structure, Bonding & Introduction to Organic Chemistry",
+    "subtopicTitle": "Concentration Calculations",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/1-structure-bonding-and-introduction-to-organic-chemistry/1-2-amount-of-substance/1-2-1-concentration-calculations",
+    "specAnchors": [
+      {
+        "code": "1.5",
+        "text": "calculate the concentration of a solution in mol dm −3 and g dm −3 Titration calculations are not required at this stage."
+      }
+    ],
+    "primer": {
+      "text": "How much solute sits in how much solution? This note answers in both currencies - mass concentration in g dm-3 and molar concentration in mol dm-3 - converts cm3 to dm3, then stretches the ruler for trace amounts: parts per million for solutions and volume-based ppmv for atmospheric gases.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_S66bzh2vB25qCwFw::L1",
+        "title": "Two currencies of concentration",
+        "sourceHeadings": [
+          "Concentration calculations"
+        ],
+        "specRefs": [
+          "1.5"
+        ],
+        "opening": "Concentration states how much solute sits in how much solution, and it speaks two currencies: mass per volume (g dm^-3) and moles per volume (mol dm^-3). This lesson converts between them through n = m/M and drills the dm^3 and cm^3 unit conversions.",
+        "keyPoints": [
+          "Mass concentration in g dm^-3 = mass of solute / volume of solution in dm^3.",
+          "Molar concentration in mol dm^-3 = moles of solute / volume of solution in dm^3.",
+          "The two currencies connect through moles: n = mass / molar mass.",
+          "500 cm^3 must be converted to 0.500 dm^3 before any concentration division."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Divide the amount (grams or moles) by the volume in dm^3 to get the concentration; multiply concentration by volume to go back.",
+            "analogy": "It is a density for dissolved stuff: how tightly the solute is packed into every litre of solution.",
+            "examPointer": "Concentration triangles survive exams: amount on top, volume underneath."
+          },
+          "medium": {
+            "restatement": "Because 1 dm^3 = 1000 cm^3, a cm^3 volume divides by 1000 before entering the equation; molar concentration then reuses the mass-to-moles bridge n = m / M that all stoichiometry shares.",
+            "analogy": "The two concentration units are like mph and km/h for the same journey - different dials, one underlying speed, converted through the molar mass gearbox.",
+            "examPointer": "State units at every line: g dm^-3 vs mol dm^-3 is a one-mark discriminator examiners love."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_S66bzh2vB25qCwFw::L1::Q1",
+          "rn_S66bzh2vB25qCwFw::L1::Q2",
+          "rn_S66bzh2vB25qCwFw::L1::Q3",
+          "rn_S66bzh2vB25qCwFw::L1::Q4",
+          "rn_S66bzh2vB25qCwFw::L1::Q5",
+          "rn_S66bzh2vB25qCwFw::L1::Q6",
+          "rn_S66bzh2vB25qCwFw::L1::Q7",
+          "rn_S66bzh2vB25qCwFw::L1::Q8",
+          "rn_S66bzh2vB25qCwFw::L1::Q9"
+        ],
+        "figureIds": []
+      },
+      {
+        "id": "rn_S66bzh2vB25qCwFw::L2",
+        "title": "Parts per million",
+        "sourceHeadings": [
+          "Parts per million",
+          "Atmospheric gas concentration"
+        ],
+        "specRefs": [
+          "1.5"
+        ],
+        "opening": "Trace amounts need a bigger ruler: parts per million. This lesson defines 1 ppm as 1 mg in 1 dm^3, applies it to pool dosing, and converts to the volume-based ppmv used for atmospheric gases.",
+        "keyPoints": [
+          "1 ppm means 1 mg of solute in 1 dm^3 of water, a 1-in-10^6 ratio.",
+          "Pool chlorine at 3 ppm in 2.5 million litres works out at 7.5 kg maximum.",
+          "For gases, ppmv compares volumes: 1 cm^3 of gas in 1 x 10^6 cm^3 of air.",
+          "ppm (gas) = volume of gas x 10^6 / volume of air, in matching units."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "One ppm is one milligram dissolved in one cubic decimetre - a millionth by mass; for gases it is one cubic centimetre in a million.",
+            "analogy": "One ppm is one second in eleven and a half days - too dilute to spot directly, too important to ignore.",
+            "examPointer": "Quote the definition in mg dm^-3 terms; 'very small' alone earns nothing."
+          },
+          "medium": {
+            "restatement": "Because 1 dm^3 of water weighs 1 kg, 1 mg per dm^3 is 10^-3 g in 10^3 g, exactly 1 in 10^6; the same ratio in volume units is the ppmv convention for air.",
+            "analogy": "The ppm scale is a zoom lens: it stretches tiny ratios onto numbers you can hold, the way a microscope magnifies slides.",
+            "examPointer": "The gas identity never enters the ppm arithmetic - only volumes do; examiners use that as a trick-check."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_S66bzh2vB25qCwFw::L2::Q1",
+          "rn_S66bzh2vB25qCwFw::L2::Q2",
+          "rn_S66bzh2vB25qCwFw::L2::Q3",
+          "rn_S66bzh2vB25qCwFw::L2::Q4",
+          "rn_S66bzh2vB25qCwFw::L2::Q5",
+          "rn_S66bzh2vB25qCwFw::L2::Q6",
+          "rn_S66bzh2vB25qCwFw::L2::Q7",
+          "rn_S66bzh2vB25qCwFw::L2::Q8",
+          "rn_S66bzh2vB25qCwFw::L2::Q9"
+        ],
+        "figureIds": []
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "mass concentration",
+          "definition": "The mass of solute per cubic decimetre of solution, quoted in g dm^-3.",
+          "firstLesson": 1
+        },
+        {
+          "term": "molar concentration",
+          "definition": "The moles of solute per cubic decimetre of solution, quoted in mol dm^-3.",
+          "firstLesson": 1
+        },
+        {
+          "term": "parts per million",
+          "definition": "A trace-concentration unit: 1 mg per dm^3 of water, or by volume 1 cm^3 of gas per 10^6 cm^3 of air.",
+          "firstLesson": 2
+        }
+      ],
+      "workedExample": {
+        "prompt": "What molar concentration results when 6.34 g of sodium chloride dissolves into 250 cm^3 of solution? (Mr of NaCl = 58.5)",
+        "steps": [
+          "Convert the volume: 250 cm^3 makes 0.250 dm^3.",
+          "Moles of NaCl: dividing 6.34 by 58.5 leaves 0.1084 mol.",
+          "Molar concentration: 0.1084 mol spread over 0.250 dm^3 is 0.434 mol dm^-3."
+        ],
+        "finalAnswer": "0.434 mol dm^-3 (3 s.f.)."
+      }
+    }
+  }
+}

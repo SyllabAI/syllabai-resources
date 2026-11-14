@@ -1,0 +1,221 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_8gw9rXz8TsHPHxfM",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "458baa898c79bc60bd155de44f25cedb3b706c9faba128d580b911f85edc55a6",
+    "pinnedRef": "276971edf1296c856345d856b2cbdf6140db0d94"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_8gw9rXz8TsHPHxfM",
+    "topicTitle": "1. Structure, Bonding & Introduction to Organic Chemistry",
+    "subtopicTitle": "Sub-Atomic Particles",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/1-structure-bonding-and-introduction-to-organic-chemistry/1-3-atomic-structure/1-3-1-sub-atomic-particles",
+    "specAnchors": [
+      {
+        "code": "2.1",
+        "text": "know the structure of an atom in terms of electrons, protons and neutrons"
+      },
+      {
+        "code": "2.3",
+        "text": "know what is meant by the terms ‘atomic (proton) number’ and ‘mass number’"
+      }
+    ],
+    "primer": {
+      "text": "Atoms are mostly empty space around a dense positive core. This note assigns relative masses and charges to protons, neutrons and electrons, reads the atomic and mass numbers off nuclear notation, subtracts for neutrons, adjusts electrons for ionic charge, and introduces isotopes as neutron-only variants of one element.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_8gw9rXz8TsHPHxfM::L1",
+        "title": "Inside the atom",
+        "sourceHeadings": [
+          "Sub-Atomic Particles",
+          "Relative Mass & Charge of Subatomic Particles Table"
+        ],
+        "specRefs": [
+          "2.1"
+        ],
+        "opening": "An atom is mostly empty space arranged around a tiny dense core. This lesson maps the three subatomic particles onto their relative masses and charges, and explains why electrons weigh almost nothing yet do almost all the chemistry.",
+        "keyPoints": [
+          "Protons and neutrons sit in the nucleus; electrons occupy orbitals in the empty space around it.",
+          "Relative masses: proton 1, neutron 1, electron almost negligible (1/1836).",
+          "Relative charges: proton +1, neutron 0, electron -1.",
+          "The nucleus is positive overall because neutrons carry no charge."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Two heavy particles huddle in the middle - one positive, one neutral - and tiny negative electrons swarm outside.",
+            "analogy": "Like a stadium: the pitch (nucleus) is packed at the centre and the stands of empty space hold a few spectators (electrons).",
+            "examPointer": "Quote the electron's relative mass as 'negligible' or 1/1836 - the exact coulomb charge is not required at this level."
+          },
+          "medium": {
+            "restatement": "Conventional units are hopeless for particle-scale masses and charges, so each is stated relative to the others: the proton sets the mass unit and the electron sets the charge unit.",
+            "analogy": "Weighing a bee against an elephant makes the elephant '1 mass unit' and the bee 'negligible' - exactly how the particle table reads.",
+            "examPointer": "The single electron's charge is -1.602 x 10^-19 C, but relative to the proton it is simply -1."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_8gw9rXz8TsHPHxfM::L1::Q1",
+          "rn_8gw9rXz8TsHPHxfM::L1::Q2",
+          "rn_8gw9rXz8TsHPHxfM::L1::Q3",
+          "rn_8gw9rXz8TsHPHxfM::L1::Q4",
+          "rn_8gw9rXz8TsHPHxfM::L1::Q5",
+          "rn_8gw9rXz8TsHPHxfM::L1::Q6",
+          "rn_8gw9rXz8TsHPHxfM::L1::Q7",
+          "rn_8gw9rXz8TsHPHxfM::L1::Q8",
+          "rn_8gw9rXz8TsHPHxfM::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01",
+          "fig-02"
+        ]
+      },
+      {
+        "id": "rn_8gw9rXz8TsHPHxfM::L2",
+        "title": "Atomic numbers, mass numbers and ions",
+        "sourceHeadings": [
+          "Chemical Elements",
+          "Isotopes"
+        ],
+        "specRefs": [
+          "2.3"
+        ],
+        "opening": "Two numbers fingerprint any atom: the proton count and the nucleon count. This lesson reads nuclear notation, computes neutrons by subtraction, tracks electrons in ions, and introduces isotopes as neutron-only variants.",
+        "keyPoints": [
+          "The atomic (proton) number Z counts protons and defines the element.",
+          "The mass (nucleon) number A counts protons plus neutrons; neutrons = A - Z.",
+          "A neutral atom's electron count equals Z; ions gain or lose electrons by charge.",
+          "Isotopes share Z but differ in neutrons: carbon-12 and carbon-14 hold 6 and 8."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Bottom-left number = protons; top-left = protons plus neutrons; subtract to find neutrons; adjust electrons for charge.",
+            "analogy": "Nuclear notation is an ID card: the element name is the face, Z the identity number, A the total headcount on board.",
+            "examPointer": "For Mg2+: 12 protons stay, electrons drop 12 to 10, neutrons never move."
+          },
+          "medium": {
+            "restatement": "Because Z identifies the element, all atoms and ions of one element share it; charge is an electron-bookkeeping delta and mass number differences create isotopes whose chemistry matches but whose mass differs.",
+            "analogy": "Same face (element), different backpack weight (neutrons), and a changed pocket count (electrons) is the charge - the identity card never changes.",
+            "examPointer": "Unknown-element problems run backwards: protons = A - neutrons, as in 63 - 34 = 29, which identifies copper."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_8gw9rXz8TsHPHxfM::L2::Q1",
+          "rn_8gw9rXz8TsHPHxfM::L2::Q2",
+          "rn_8gw9rXz8TsHPHxfM::L2::Q3",
+          "rn_8gw9rXz8TsHPHxfM::L2::Q4",
+          "rn_8gw9rXz8TsHPHxfM::L2::Q5",
+          "rn_8gw9rXz8TsHPHxfM::L2::Q6",
+          "rn_8gw9rXz8TsHPHxfM::L2::Q7",
+          "rn_8gw9rXz8TsHPHxfM::L2::Q8",
+          "rn_8gw9rXz8TsHPHxfM::L2::Q9"
+        ],
+        "figureIds": [
+          "fig-03",
+          "fig-04"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "nucleon",
+          "definition": "A collective name for the protons and neutrons inside the nucleus.",
+          "firstLesson": 2
+        },
+        {
+          "term": "atomic (proton) number",
+          "definition": "The number of protons in a nucleus, symbol Z, which fixes the element's identity.",
+          "firstLesson": 2
+        },
+        {
+          "term": "mass (nucleon) number",
+          "definition": "The total count of protons and neutrons, symbol A; neutrons follow as A - Z.",
+          "firstLesson": 2
+        },
+        {
+          "term": "isotope",
+          "definition": "Atoms of the same element with equal protons but different neutron counts.",
+          "firstLesson": 2
+        }
+      ],
+      "workedExample": {
+        "prompt": "An unknown atom of element X has mass number 63 and contains 34 neutrons. Determine its proton and electron counts and identify the element.",
+        "steps": [
+          "Protons = mass number - neutrons = 63 - 34 = 29.",
+          "The atom is neutral, so electrons = protons = 29.",
+          "Proton number 29 belongs to copper on the Periodic Table."
+        ],
+        "finalAnswer": "29 protons, 29 electrons - the element is copper."
+      }
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/5777fc59479b-carbon-atom-structure-e1616074599399.png",
+        "alt": "Carbon atom structure, IGCSE & GCSE, AS & A Level Chemistry revision notes",
+        "sourceHeading": "Sub-Atomic Particles",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "The basic structure of an atom (not to scale)"
+      },
+      {
+        "id": "fig-02",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/b8d00322500f-1-1-atomic-structure-table-subatomic-particles.png",
+        "alt": "Atomic Structure Table_Subatomic Particles, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Relative Mass & Charge of Subatomic Particles Table",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-03",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/83b8caf2504e-atomic-structure-notation.png",
+        "alt": "Atomic structure notation, IGCSE & GCSE AS & A Level Chemistry revision notes",
+        "sourceHeading": "Chemical Elements",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique",
+        "caption": "The mass (nucleon) and atomic (proton) number are given for each element in the Periodic Table"
+      },
+      {
+        "id": "fig-04",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/9a4e01c9516c-1-1-atomic-structure-hydrogen-isotopes.png",
+        "alt": "Atomic Structure Hydrogen Isotopes, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Isotopes",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique",
+        "caption": "The atomic structure and symbols of the three isotopes of hydrogen"
+      }
+    ]
+  }
+}

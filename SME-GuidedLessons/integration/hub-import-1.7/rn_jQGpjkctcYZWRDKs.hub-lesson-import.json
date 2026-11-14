@@ -1,0 +1,156 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_jQGpjkctcYZWRDKs",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "3e9d67f5ba1225ef402d2ce288dbf3e1781bb9a5195090a006421e67b4d4917c",
+    "pinnedRef": "276971edf1296c856345d856b2cbdf6140db0d94"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_jQGpjkctcYZWRDKs",
+    "topicTitle": "1. Structure, Bonding & Introduction to Organic Chemistry",
+    "subtopicTitle": "Endothermic Ionisation Energy",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/1-structure-bonding-and-introduction-to-organic-chemistry/1-4-electrons-and-ions/1-4-1-endothermic-ionisation-energy",
+    "specAnchors": [
+      {
+        "code": "2.8",
+        "text": "be able to define first, second and third ionisation energies and understand that all ionisation energies are endothermic"
+      },
+      {
+        "code": "2.10",
+        "text": "understand how ionisation energies are influenced by the number of protons in the nucleus, the electron shielding and the sub-shell from which the electron is removed"
+      }
+    ],
+    "primer": {
+      "text": "Removing an electron is never free. This note defines first, second and third ionisation energies on gaseous species with calcium's 590, 1145 and 4912 kJ mol-1 ladder, then bends the curve through its four factors: nuclear charge, distance, shielding and spin-pair repulsion.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_jQGpjkctcYZWRDKs::L1",
+        "title": "Defining the ionisation ladder",
+        "sourceHeadings": [
+          "Ionisation Energy - Definitions"
+        ],
+        "specRefs": [
+          "2.8"
+        ],
+        "opening": "Every ionisation energy is an invoice for ripping one more electron from an ever more positive ion, and every invoice is paid in endothermic kJ mol^-1. This lesson defines first, second and third ionisation energies through calcium's 590, 1145 and 4912 values.",
+        "keyPoints": [
+          "The first ionisation energy strips a mole of electrons from a mole of gaseous atoms, leaving gaseous 1+ ions.",
+          "Successive ionisation energies strip further electrons from ever more positive gaseous ions.",
+          "All ionisation energies are endothermic - energy must be supplied.",
+          "Calcium's IE1, IE2 and IE3 are +590, +1145 and +4912 kJ mol^-1."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "IE1 strips the first electron from neutral gas atoms; IE2 and IE3 keep going, each costing more than the last.",
+            "analogy": "It is peeling an onion while it grips tighter with every layer - each pull costs more effort.",
+            "examPointer": "The gas-phase condition (g) is part of the definition - write it into equations like Ca (g) -> Ca+ (g) + e-."
+          },
+          "medium": {
+            "restatement": "The definition counts one mole of each species under standard conditions (298 K, 101 kPa); the endothermic sign reflects overcoming nuclear attraction, which grows as ion charge rises.",
+            "analogy": "Removing electrons is like escaping gravity: each escape from a more positively charged body costs more fuel.",
+            "examPointer": "Quote the equation AND the value for calcium: Ca (g) -> Ca+ (g) + e-, IE1 = +590 kJ mol^-1."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_jQGpjkctcYZWRDKs::L1::Q1",
+          "rn_jQGpjkctcYZWRDKs::L1::Q2",
+          "rn_jQGpjkctcYZWRDKs::L1::Q3",
+          "rn_jQGpjkctcYZWRDKs::L1::Q4",
+          "rn_jQGpjkctcYZWRDKs::L1::Q5",
+          "rn_jQGpjkctcYZWRDKs::L1::Q6",
+          "rn_jQGpjkctcYZWRDKs::L1::Q7",
+          "rn_jQGpjkctcYZWRDKs::L1::Q8",
+          "rn_jQGpjkctcYZWRDKs::L1::Q9"
+        ],
+        "figureIds": []
+      },
+      {
+        "id": "rn_jQGpjkctcYZWRDKs::L2",
+        "title": "What bends the ionisation curve",
+        "sourceHeadings": [
+          "Ionisation Energy - Considerations",
+          "Orbitals"
+        ],
+        "specRefs": [
+          "2.10"
+        ],
+        "opening": "Ionisation energies are not arbitrary - four factors bend them: nuclear charge, distance, shielding and spin-pair repulsion. This lesson also fixes orbital capacities, so the sub-shell an electron leaves is part of the explanation.",
+        "keyPoints": [
+          "Sub-shell capacities: s holds 2 electrons (1 orbital), p holds 6 (3 orbitals), d holds 10 (5), f holds 14 (7).",
+          "Bigger nuclear charge pulls electrons harder and raises IE.",
+          "Outer electrons farther away, or shielded by inner shells, are removed more easily.",
+          "Spin-pair repulsion makes paired electrons easier to remove than unpaired ones."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "More protons raise the energy bill; more distance or more intervening shells lower it; paired electrons leave more willingly.",
+            "analogy": "Pulling a magnet off a fridge: stronger magnet (charge), thicker cardboard (shielding) or greater reach (distance) all change the effort.",
+            "examPointer": "Name all four factors when a question asks for influences - three of four is a standard partial mark."
+          },
+          "medium": {
+            "restatement": "The four factors interact: nuclear charge sets the pull, distance attenuates it rapidly, inner shells screen it, and within a sub-shell an already-paired electron repels its partner - which is why group 1 metals ionise easily and noble gases resist.",
+            "analogy": "The outer electron is an audience member deciding whether to leave a concert: the band's pull (charge), seat row (distance), the crowd in between (shielding) and an elbowing neighbour (pair repulsion) all tip the decision.",
+            "examPointer": "Link periodicity: low IE for group 1, very high for noble gases - evidence of the configuration dependence."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_jQGpjkctcYZWRDKs::L2::Q1",
+          "rn_jQGpjkctcYZWRDKs::L2::Q2",
+          "rn_jQGpjkctcYZWRDKs::L2::Q3",
+          "rn_jQGpjkctcYZWRDKs::L2::Q4",
+          "rn_jQGpjkctcYZWRDKs::L2::Q5",
+          "rn_jQGpjkctcYZWRDKs::L2::Q6",
+          "rn_jQGpjkctcYZWRDKs::L2::Q7",
+          "rn_jQGpjkctcYZWRDKs::L2::Q8",
+          "rn_jQGpjkctcYZWRDKs::L2::Q9"
+        ],
+        "figureIds": []
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "first ionisation energy",
+          "definition": "The energy that converts a mole of gaseous atoms into gaseous 1+ ions by stripping a mole of electrons.",
+          "firstLesson": 1
+        },
+        {
+          "term": "spin-pair repulsion",
+          "definition": "The slight repulsion between two electrons sharing an orbital, making paired electrons easier to remove.",
+          "firstLesson": 2
+        },
+        {
+          "term": "shielding",
+          "definition": "The screening of nuclear attraction experienced by outer electrons due to inner-shell electrons.",
+          "firstLesson": 2
+        }
+      ],
+      "workedExample": null
+    }
+  }
+}

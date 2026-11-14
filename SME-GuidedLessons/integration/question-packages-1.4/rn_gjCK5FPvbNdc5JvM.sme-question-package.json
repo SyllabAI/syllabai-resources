@@ -1,0 +1,735 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_gjCK5FPvbNdc5JvM",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "72faa17dcea59923d2ad1ada9f840f626bdd288fc88aef7bca61d4416bcc0913",
+    "pinnedRef": "276971edf1296c856345d856b2cbdf6140db0d94"
+  },
+  "packageId": "ial-chemistry::rn_gjCK5FPvbNdc5JvM",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_gjCK5FPvbNdc5JvM::L1::Q1",
+      "moduleId": "rn_gjCK5FPvbNdc5JvM::L1",
+      "stem": "What does an empirical formula state?",
+      "misconceptionClass": "empirical meaning",
+      "options": [
+        {
+          "key": "A",
+          "text": "The simplest whole-number ratio of the atoms of each element",
+          "correct": true,
+          "explanation": "Ratios are reduced to the smallest whole numbers.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "The exact atom count in one molecule",
+          "correct": false,
+          "explanation": "That is the molecular formula.",
+          "misconception": "formula pair swapped"
+        },
+        {
+          "key": "C",
+          "text": "The charge balance inside the compound",
+          "correct": false,
+          "explanation": "Formulae record atom ratios, not charges here.",
+          "misconception": "charge mislinked"
+        },
+        {
+          "key": "D",
+          "text": "The mass fraction of each element",
+          "correct": false,
+          "explanation": "Mass fractions are the input data, not the formula output.",
+          "misconception": "input mistaken for output"
+        }
+      ]
+    },
+    {
+      "id": "rn_gjCK5FPvbNdc5JvM::L1::Q2",
+      "moduleId": "rn_gjCK5FPvbNdc5JvM::L1",
+      "stem": "A sample is made of 10 g hydrogen mixed with 80 g oxygen. After dividing by Ar values (H = 1.0, O = 16.0), the mole counts are 10 and 5. What is the empirical formula?",
+      "misconceptionClass": "empirical from masses",
+      "options": [
+        {
+          "key": "A",
+          "text": "H10O5",
+          "correct": false,
+          "explanation": "Empirical formulae are reduced, not carried forward.",
+          "misconception": "ratio left unscaled"
+        },
+        {
+          "key": "B",
+          "text": "H2O",
+          "correct": true,
+          "explanation": "Dividing by the smallest (5) leaves H:2 and O:1.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "HO",
+          "correct": false,
+          "explanation": "The ratio 10:5 reduces to 2:1, not 1:1.",
+          "misconception": "ratio unsimplified"
+        },
+        {
+          "key": "D",
+          "text": "H2O2",
+          "correct": false,
+          "explanation": "That would need equal mole counts.",
+          "misconception": "ratio inverted"
+        }
+      ]
+    },
+    {
+      "id": "rn_gjCK5FPvbNdc5JvM::L1::Q3",
+      "moduleId": "rn_gjCK5FPvbNdc5JvM::L1",
+      "stem": "The empirical formula of X is C4H10S and its relative molecular mass is 180.2. What is n, given the empirical mass works out at 90.1 from carbon 12.0, hydrogen 1.0 and sulfur 32.1?",
+      "misconceptionClass": "scaling factor",
+      "options": [
+        {
+          "key": "A",
+          "text": "4",
+          "correct": false,
+          "explanation": "That would need Mr near 360.",
+          "misconception": "factor inflated"
+        },
+        {
+          "key": "B",
+          "text": "0.5",
+          "correct": false,
+          "explanation": "n must be a whole number of units.",
+          "misconception": "fractional factor"
+        },
+        {
+          "key": "C",
+          "text": "2",
+          "correct": true,
+          "explanation": "180.2 / 90.1 = 2, so the molecule is two empirical units.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "1",
+          "correct": false,
+          "explanation": "A factor of 1 would make Mr equal 90.1.",
+          "misconception": "factor understated"
+        }
+      ]
+    },
+    {
+      "id": "rn_gjCK5FPvbNdc5JvM::L1::Q4",
+      "moduleId": "rn_gjCK5FPvbNdc5JvM::L1",
+      "stem": "Why can the empirical formula and the molecular formula coincide?",
+      "misconceptionClass": "coincidence condition",
+      "options": [
+        {
+          "key": "A",
+          "text": "When the compound is ionic",
+          "correct": false,
+          "explanation": "Ionic formula units are ratios anyway, but coincidence is about n, not bonding type.",
+          "misconception": "bonding mislinked"
+        },
+        {
+          "key": "B",
+          "text": "When percentages are used instead of masses",
+          "correct": false,
+          "explanation": "The data source does not decide the outcome.",
+          "misconception": "data mislinked"
+        },
+        {
+          "key": "C",
+          "text": "Never - they always differ",
+          "correct": false,
+          "explanation": "Water, ammonia and methane all have identical empirical and molecular formulae.",
+          "misconception": "denial"
+        },
+        {
+          "key": "D",
+          "text": "When the molecular formula is already in its simplest whole-number ratio",
+          "correct": true,
+          "explanation": "If n = 1, the two formulae are identical, as for water.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_gjCK5FPvbNdc5JvM::L1::Q5",
+      "moduleId": "rn_gjCK5FPvbNdc5JvM::L1",
+      "stem": "A ratio calculation gives C:1.5, H:3, O:1. What should you do?",
+      "misconceptionClass": "fractional ratio handling",
+      "options": [
+        {
+          "key": "A",
+          "text": "Double all values to reach whole numbers: C2H6O",
+          "correct": true,
+          "explanation": "Half-values signal a doubling step, not a fractional atom.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Round 1.5 down to 1",
+          "correct": false,
+          "explanation": "Rounding distorts the ratio; scale instead.",
+          "misconception": "rounding misuse"
+        },
+        {
+          "key": "C",
+          "text": "Report the empirical formula with decimals",
+          "correct": false,
+          "explanation": "Empirical formulae are whole-number ratios by definition.",
+          "misconception": "definition broken"
+        },
+        {
+          "key": "D",
+          "text": "Redo the experiment",
+          "correct": false,
+          "explanation": "The data may be fine; the ratio needs scaling.",
+          "misconception": "data blamed"
+        }
+      ]
+    },
+    {
+      "id": "rn_gjCK5FPvbNdc5JvM::L1::Q6",
+      "moduleId": "rn_gjCK5FPvbNdc5JvM::L1",
+      "stem": "State the two-step routine that turns percentage composition into an empirical formula.",
+      "misconceptionClass": "routine recall",
+      "kind": "recall",
+      "modelAnswer": "Divide each percentage by the element's relative atomic mass to get mole proportions, then divide every proportion by the smallest to obtain the whole-number ratio.",
+      "keywords": [
+        "percentage",
+        "relative atomic mass",
+        "divide",
+        "smallest"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_gjCK5FPvbNdc5JvM::L1::Q7",
+      "moduleId": "rn_gjCK5FPvbNdc5JvM::L1",
+      "stem": "State how a molecular formula follows from an empirical formula.",
+      "misconceptionClass": "molecular from empirical",
+      "kind": "recall",
+      "modelAnswer": "Compute n = Mr(molecular) / Mr(empirical) and multiply every subscript in the empirical formula by n.",
+      "keywords": [
+        "Mr",
+        "divide",
+        "multiply",
+        "subscript"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_gjCK5FPvbNdc5JvM::L1::Q8",
+      "moduleId": "rn_gjCK5FPvbNdc5JvM::L1",
+      "stem": "Explain why dividing every mole count by the smallest count is the step that produces the empirical formula.",
+      "misconceptionClass": "smallest division reason",
+      "kind": "explain-why",
+      "modelAnswer": "Dividing by the smallest mole count forces the least abundant element to 1, and since all counts are divided by the same number, the ratio is unchanged but expressed in the smallest whole-number terms - the definition of the empirical formula.",
+      "keywords": [
+        "ratio",
+        "unchanged",
+        "smallest",
+        "definition"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_gjCK5FPvbNdc5JvM::L1::Q9",
+      "moduleId": "rn_gjCK5FPvbNdc5JvM::L1",
+      "stem": "Determine the molecular formula of X whose empirical formula is C4H10S and whose relative molecular mass is 180.2, using Ar values: carbon 12.0, hydrogen 1.0 and sulfur 32.1.",
+      "misconceptionClass": "full formula determination",
+      "kind": "application",
+      "modelAnswer": "Empirical mass = (4 x 12.0) + (10 x 1.0) + 32.1, giving 90.1; n = 180.2 / 90.1 = 2; molecular formula = C8H20S2.",
+      "keywords": [
+        "90.1",
+        "180.2",
+        "C8H20S2",
+        "molecular"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_gjCK5FPvbNdc5JvM::L2::Q1",
+      "moduleId": "rn_gjCK5FPvbNdc5JvM::L2",
+      "stem": "Which expression gives the percentage by mass of element E in a compound?",
+      "misconceptionClass": "percentage equation",
+      "options": [
+        {
+          "key": "A",
+          "text": "atoms of E / total atoms x 100",
+          "correct": false,
+          "explanation": "Atom counts are not mass fractions.",
+          "misconception": "count mistaken for mass"
+        },
+        {
+          "key": "B",
+          "text": "(Ar(E) x atoms of E) / Mr x 100",
+          "correct": true,
+          "explanation": "The element's total relative mass over the formula mass, scaled to 100.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Ar(E) / Mr x 100",
+          "correct": false,
+          "explanation": "Omitting the atom count undercounts elements appearing multiply.",
+          "misconception": "count dropped"
+        },
+        {
+          "key": "D",
+          "text": "Mr / Ar(E) x 100",
+          "correct": false,
+          "explanation": "That inverts the fraction and exceeds 100 for most elements.",
+          "misconception": "fraction inverted"
+        }
+      ]
+    },
+    {
+      "id": "rn_gjCK5FPvbNdc5JvM::L2::Q2",
+      "moduleId": "rn_gjCK5FPvbNdc5JvM::L2",
+      "stem": "What share of calcium carbonate's mass belongs to calcium? (Ar: Ca 40.1, C 12.0, O 16.0; Mr = 100.1)",
+      "misconceptionClass": "calcium carbonate percentage",
+      "options": [
+        {
+          "key": "A",
+          "text": "12.0%",
+          "correct": false,
+          "explanation": "That is carbon's share.",
+          "misconception": "element mixed up"
+        },
+        {
+          "key": "B",
+          "text": "20.0%",
+          "correct": false,
+          "explanation": "Half the true value; the numerator was halved.",
+          "misconception": "numerator understated"
+        },
+        {
+          "key": "C",
+          "text": "40.1%",
+          "correct": true,
+          "explanation": "40.1 / 100.1 x 100 = 40.1% to 3 s.f.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "48.0%",
+          "correct": false,
+          "explanation": "That is oxygen's share (3 x 16.0 = 48.0).",
+          "misconception": "element mixed up"
+        }
+      ]
+    },
+    {
+      "id": "rn_gjCK5FPvbNdc5JvM::L2::Q3",
+      "moduleId": "rn_gjCK5FPvbNdc5JvM::L2",
+      "stem": "Why must the atom count of the element appear in the % mass numerator?",
+      "misconceptionClass": "count role",
+      "options": [
+        {
+          "key": "A",
+          "text": "Because Ar values are percentages already",
+          "correct": false,
+          "explanation": "Ar values are relative masses, not percentages.",
+          "misconception": "meaning misread"
+        },
+        {
+          "key": "B",
+          "text": "To convert grams into moles",
+          "correct": false,
+          "explanation": "The equation stays in mass terms throughout.",
+          "misconception": "conversion misattributed"
+        },
+        {
+          "key": "C",
+          "text": "Only for elements with isotopes",
+          "correct": false,
+          "explanation": "Ar already averages isotopes; the count is a separate factor.",
+          "misconception": "isotopes misblamed"
+        },
+        {
+          "key": "D",
+          "text": "Each atom of the element contributes its Ar to the compound's total mass",
+          "correct": true,
+          "explanation": "Two oxygens contribute 2 x 16.0, so the count multiplies the Ar.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_gjCK5FPvbNdc5JvM::L2::Q4",
+      "moduleId": "rn_gjCK5FPvbNdc5JvM::L2",
+      "stem": "A compound's percentages sum to 99.7% after rounding. What does that tell you?",
+      "misconceptionClass": "percentage sum check",
+      "options": [
+        {
+          "key": "A",
+          "text": "The data are consistent within rounding; the sum should approach 100%",
+          "correct": true,
+          "explanation": "Rounding at 3 s.f. can leave a small residue below 100.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "An element is definitely missing from the analysis",
+          "correct": false,
+          "explanation": "A 0.3% residue is normal rounding, not a missing element.",
+          "misconception": "alarm overblown"
+        },
+        {
+          "key": "C",
+          "text": "The formula must be wrong",
+          "correct": false,
+          "explanation": "Percentage sums do not validate formulae by themselves.",
+          "misconception": "test misapplied"
+        },
+        {
+          "key": "D",
+          "text": "The Mr must be doubled",
+          "correct": false,
+          "explanation": "Nothing about the sum implies a scaling error.",
+          "misconception": "conclusion invented"
+        }
+      ]
+    },
+    {
+      "id": "rn_gjCK5FPvbNdc5JvM::L2::Q5",
+      "moduleId": "rn_gjCK5FPvbNdc5JvM::L2",
+      "stem": "Which compound has the HIGHER percentage by mass of oxygen: H2O (Mr 18.0) or CO2 (Mr 44.0)? (Ar of O = 16.0)",
+      "misconceptionClass": "oxygen share comparison",
+      "options": [
+        {
+          "key": "A",
+          "text": "CO2, at about 72.7%",
+          "correct": false,
+          "explanation": "CO2 carries 32.0/44.0; water carries 16.0/18.0 = 88.9%... careful - water's share is higher, so check: 16/18 = 88.9% beats 32/44 = 72.7%, so the correct answer is H2O.",
+          "misconception": "comparison trap"
+        },
+        {
+          "key": "B",
+          "text": "H2O, at about 88.9%",
+          "correct": true,
+          "explanation": "Water: 16.0/18.0 x 100 = 88.9%; CO2: 32.0/44.0 x 100 = 72.7%. Water wins.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Both are 50%",
+          "correct": false,
+          "explanation": "The shares differ by 16 percentage points.",
+          "misconception": "assumption invented"
+        },
+        {
+          "key": "D",
+          "text": "CO2, because it holds two oxygens",
+          "correct": false,
+          "explanation": "The extra oxygen still divides by a bigger total mass.",
+          "misconception": "count overweighted"
+        }
+      ]
+    },
+    {
+      "id": "rn_gjCK5FPvbNdc5JvM::L2::Q6",
+      "moduleId": "rn_gjCK5FPvbNdc5JvM::L2",
+      "stem": "State the equation used to compute an element's percentage share of a compound's mass.",
+      "misconceptionClass": "percentage recall",
+      "kind": "recall",
+      "modelAnswer": "% mass = (relative atomic mass of the element x number of its atoms) / relative formula mass of the compound x 100.",
+      "keywords": [
+        "relative atomic mass",
+        "number",
+        "relative formula mass",
+        "100"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_gjCK5FPvbNdc5JvM::L2::Q7",
+      "moduleId": "rn_gjCK5FPvbNdc5JvM::L2",
+      "stem": "State the percentage by mass of oxygen in water (Ar of O = 16.0, Mr = 18.0).",
+      "misconceptionClass": "oxygen in water",
+      "kind": "recall",
+      "modelAnswer": "16.0 / 18.0 x 100 = 88.9% (3 s.f.), the largest share of the molecule's mass.",
+      "keywords": [
+        "16.0",
+        "18.0",
+        "88.9",
+        "share"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_gjCK5FPvbNdc5JvM::L2::Q8",
+      "moduleId": "rn_gjCK5FPvbNdc5JvM::L2",
+      "stem": "Explain why percentage by mass and percentage by atom count give different rankings for the same compound.",
+      "misconceptionClass": "mass vs count rankings",
+      "kind": "explain-why",
+      "modelAnswer": "Mass percentages weight each element by its relative atomic mass, so a heavy atom counts more than its population suggests, while atom-count percentages treat every atom equally; hydrogen in water is 2 of 3 atoms but only 11% of the mass because each hydrogen atom is so light.",
+      "keywords": [
+        "weight",
+        "relative atomic mass",
+        "population",
+        "light"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_gjCK5FPvbNdc5JvM::L2::Q9",
+      "moduleId": "rn_gjCK5FPvbNdc5JvM::L2",
+      "stem": "Calculate the percentage by mass of sulfur in sulfuric acid, H2SO4 (Ar: H 1.0, S 32.1, O 16.0; Mr = 98.1).",
+      "misconceptionClass": "sulfuric acid percentage",
+      "kind": "application",
+      "modelAnswer": "Sulfur contributes 32.1 of the 98.1 total: % = 32.1 / 98.1 x 100 = 32.7% (3 s.f.).",
+      "keywords": [
+        "32.1",
+        "98.1",
+        "32.7",
+        "sulfur"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_gjCK5FPvbNdc5JvM::L3::Q1",
+      "moduleId": "rn_gjCK5FPvbNdc5JvM::L3",
+      "stem": "What does the formula CuSO4.5H2O state?",
+      "misconceptionClass": "dot formula reading",
+      "options": [
+        {
+          "key": "A",
+          "text": "Five copper atoms are present",
+          "correct": false,
+          "explanation": "The subscript applies to water, not copper.",
+          "misconception": "subscript misread"
+        },
+        {
+          "key": "B",
+          "text": "The salt contains exactly five water molecules as impurity",
+          "correct": false,
+          "explanation": "The water is structural, not contamination.",
+          "misconception": "impurity misreading"
+        },
+        {
+          "key": "C",
+          "text": "Each formula unit of copper(II) sulfate carries five waters of crystallisation",
+          "correct": true,
+          "explanation": "The dot formula counts five water molecules per copper sulfate unit.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "The compound is a mixture of CuSO4 and H2O in a beaker",
+          "correct": false,
+          "explanation": "The water is bonded into the crystal lattice, not mixed in.",
+          "misconception": "mixture misreading"
+        }
+      ]
+    },
+    {
+      "id": "rn_gjCK5FPvbNdc5JvM::L3::Q2",
+      "moduleId": "rn_gjCK5FPvbNdc5JvM::L3",
+      "stem": "Which term describes CuSO4 after all its water of crystallisation has been removed?",
+      "misconceptionClass": "anhydrous naming",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hydrated",
+          "correct": false,
+          "explanation": "Hydrated describes the salt WITH its water.",
+          "misconception": "term inverted"
+        },
+        {
+          "key": "B",
+          "text": "Dissolved",
+          "correct": false,
+          "explanation": "Dissolving is unrelated to lattice water.",
+          "misconception": "term confused"
+        },
+        {
+          "key": "C",
+          "text": "Aqueous",
+          "correct": false,
+          "explanation": "Aqueous means dissolved in water, a different state entirely.",
+          "misconception": "term confused"
+        },
+        {
+          "key": "D",
+          "text": "Anhydrous",
+          "correct": true,
+          "explanation": "The anhydrous salt is the water-free residue CuSO4.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_gjCK5FPvbNdc5JvM::L3::Q3",
+      "moduleId": "rn_gjCK5FPvbNdc5JvM::L3",
+      "stem": "In the hydration equilibrium CuSO4.5H2O <=> CuSO4 + 5H2O, what drives the forward shift when a hydrated salt is heated?",
+      "misconceptionClass": "heating direction",
+      "options": [
+        {
+          "key": "A",
+          "text": "Heat supplies the energy that expels water vapour from the crystal",
+          "correct": true,
+          "explanation": "Heating pushes water out of the lattice, shifting toward the anhydrous side.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Cooling condenses the water inside the crystal",
+          "correct": false,
+          "explanation": "Cooling favours hydration, the reverse shift.",
+          "misconception": "direction reversed"
+        },
+        {
+          "key": "C",
+          "text": "The salt decomposes into copper and sulfur",
+          "correct": false,
+          "explanation": "No decomposition occurs; only water is lost.",
+          "misconception": "chemistry invented"
+        },
+        {
+          "key": "D",
+          "text": "Oxygen is absorbed from the air",
+          "correct": false,
+          "explanation": "Air plays no part in this equilibrium.",
+          "misconception": "reactant invented"
+        }
+      ]
+    },
+    {
+      "id": "rn_gjCK5FPvbNdc5JvM::L3::Q4",
+      "moduleId": "rn_gjCK5FPvbNdc5JvM::L3",
+      "stem": "Why must a hydrated salt be heated to CONSTANT mass before the calculation?",
+      "misconceptionClass": "constant mass rationale",
+      "options": [
+        {
+          "key": "A",
+          "text": "Because the balance drifts otherwise",
+          "correct": false,
+          "explanation": "The requirement concerns the sample, not the balance.",
+          "misconception": "instrument misblamed"
+        },
+        {
+          "key": "B",
+          "text": "To ensure all the water of crystallisation has been driven off",
+          "correct": true,
+          "explanation": "Two agreeing successive weighings certify complete dehydration.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "To make the salt melt evenly",
+          "correct": false,
+          "explanation": "Melting is not involved.",
+          "misconception": "process invented"
+        },
+        {
+          "key": "D",
+          "text": "To remove all impurities",
+          "correct": false,
+          "explanation": "Constant mass certifies water loss, not purity.",
+          "misconception": "goal misstated"
+        }
+      ]
+    },
+    {
+      "id": "rn_gjCK5FPvbNdc5JvM::L3::Q5",
+      "moduleId": "rn_gjCK5FPvbNdc5JvM::L3",
+      "stem": "10.0 g of hydrated copper(II) sulfate leaves 5.59 g of anhydrous solid. What is the mass of water lost?",
+      "misconceptionClass": "water mass loss",
+      "options": [
+        {
+          "key": "A",
+          "text": "15.59 g",
+          "correct": false,
+          "explanation": "Masses subtract, not add.",
+          "misconception": "operation inverted"
+        },
+        {
+          "key": "B",
+          "text": "2.41 g",
+          "correct": false,
+          "explanation": "The subtraction is wrong; 10.0 - 5.59 = 4.41.",
+          "misconception": "arithmetic slip"
+        },
+        {
+          "key": "C",
+          "text": "4.41 g",
+          "correct": true,
+          "explanation": "10.0 - 5.59 = 4.41 g of water driven off.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "5.59 g",
+          "correct": false,
+          "explanation": "That is the residue, not the loss.",
+          "misconception": "residue mistaken"
+        }
+      ]
+    },
+    {
+      "id": "rn_gjCK5FPvbNdc5JvM::L3::Q6",
+      "moduleId": "rn_gjCK5FPvbNdc5JvM::L3",
+      "stem": "Define water of crystallisation.",
+      "misconceptionClass": "water definition recall",
+      "kind": "recall",
+      "modelAnswer": "Water molecules that form part of a crystal's structure, written into the formula after a dot, as in CuSO4.5H2O.",
+      "keywords": [
+        "crystal",
+        "formula",
+        "dot",
+        "water"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_gjCK5FPvbNdc5JvM::L3::Q7",
+      "moduleId": "rn_gjCK5FPvbNdc5JvM::L3",
+      "stem": "State the masses and moles needed to find x in CuSO4.xH2O from a heating experiment.",
+      "misconceptionClass": "hydration data recall",
+      "kind": "recall",
+      "modelAnswer": "You need the mass lost (divided by 18.0 to give moles of water) and the residue mass (divided by 159.6 to give moles of CuSO4); the mole ratio is x.",
+      "keywords": [
+        "mass lost",
+        "18.0",
+        "residue",
+        "ratio"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_gjCK5FPvbNdc5JvM::L3::Q8",
+      "moduleId": "rn_gjCK5FPvbNdc5JvM::L3",
+      "stem": "Explain why the degree of hydration can differ for the same salt, citing cobalt(II) chloride.",
+      "misconceptionClass": "multiple hydration degrees",
+      "kind": "explain-why",
+      "modelAnswer": "Crystal lattices can host different numbers of water molecules depending on how the structure packs, so cobalt(II) chloride exists as CoCl2.6H2O and CoCl2.2H2O - both are legitimate hydrated forms with different dot counts.",
+      "keywords": [
+        "lattice",
+        "water",
+        "cobalt",
+        "forms"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_gjCK5FPvbNdc5JvM::L3::Q9",
+      "moduleId": "rn_gjCK5FPvbNdc5JvM::L3",
+      "stem": "10.0 g of hydrated copper(II) sulfate is heated to constant mass, leaving 5.59 g. Determine the formula of the hydrate (Mr: CuSO4 159.6, H2O 18.0).",
+      "misconceptionClass": "hydration formula build",
+      "kind": "application",
+      "modelAnswer": "Water lost = 4.41 g = 0.245 mol; salt = 5.59 / 159.6 = 0.035 mol; ratio 0.245 / 0.035 = 7, so the hydrate is CuSO4.7H2O.",
+      "keywords": [
+        "4.41",
+        "0.245",
+        "0.035",
+        "CuSO4.7H2O"
+      ],
+      "options": []
+    }
+  ]
+}

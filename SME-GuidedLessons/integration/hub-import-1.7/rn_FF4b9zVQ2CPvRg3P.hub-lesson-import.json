@@ -1,0 +1,159 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_FF4b9zVQ2CPvRg3P",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "c6e6d296e545dc3c3d4fcb4f9b919b93abaf7fb8d3f72d38721cfaf86a301b8a",
+    "pinnedRef": "276971edf1296c856345d856b2cbdf6140db0d94"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_FF4b9zVQ2CPvRg3P",
+    "topicTitle": "1. Structure, Bonding & Introduction to Organic Chemistry",
+    "subtopicTitle": "Avogadro & the Mole",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/1-structure-bonding-and-introduction-to-organic-chemistry/1-1-formulae-and-equations/1-1-2-avogadro-and-the-mole",
+    "specAnchors": [
+      {
+        "code": "1.2",
+        "text": "know that the mole (mol) is the unit for the amount of a substance and be able to perform calculations using the Avogadro constant L (6.02 x 1023 mol-1)"
+      }
+    ],
+    "primer": {
+      "text": "Chemists cannot tally atoms one by one, so the mole bundles particles into a countable package of exactly 6.02 x 10^23. This note fixes the Avogadro constant, defines the mole against the carbon-12 benchmark, and builds the two conversions - mass to moles, moles to particles - that every later calculation reuses.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_FF4b9zVQ2CPvRg3P::L1",
+        "title": "What the mole counts",
+        "sourceHeadings": [
+          "Avogadro & the Mole"
+        ],
+        "specRefs": [
+          "1.2"
+        ],
+        "opening": "Chemists cannot tally atoms one by one, so the mole bundles particles into a countable package of exactly 6.02 x 10^23. This lesson defines the Avogadro constant, shows why the same number works for atoms, molecules, ions and electrons, and fixes what one mole of any substance weighs.",
+        "keyPoints": [
+          "The Avogadro constant L is 6.02 x 10^23 mol^-1, the number of particles in one mole.",
+          "The constant applies equally to atoms, molecules, ions and electrons.",
+          "A mole is the amount of substance that contains this number of fundamental units.",
+          "One mole of an element weighs, in grams, the value of its relative atomic mass.",
+          "The molar mass links a mole of particles to the 12.00 g of carbon-12 benchmark."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "A mole is just a gigantic counting unit: pick 6.02 x 10^23 of anything chemical and you are holding one mole of it.",
+            "analogy": "The mole plays the part of a dozen in baking - a fixed tally that converts between what you count and what you can weigh out on a balance.",
+            "examPointer": "Learn the constant's value and unit exactly: 6.02 x 10^23 mol^-1 earns the mark; 6.02 x 10^23 alone does not."
+          },
+          "medium": {
+            "restatement": "The Avogadro constant is the bridge between a countable amount and a mass: one mole of particles has a mass in grams numerically equal to the relative mass of one particle.",
+            "analogy": "Imagine scaling a single sweet up to a sack: the relative atomic mass is the label on one sweet, and a mole is the sack whose weight in grams matches that label.",
+            "examPointer": "When a question says 'exactly 12.00 g of carbon-12', it is anchoring the mole definition - quote that anchor when asked to define amount of substance."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_FF4b9zVQ2CPvRg3P::L1::Q1",
+          "rn_FF4b9zVQ2CPvRg3P::L1::Q2",
+          "rn_FF4b9zVQ2CPvRg3P::L1::Q3",
+          "rn_FF4b9zVQ2CPvRg3P::L1::Q4",
+          "rn_FF4b9zVQ2CPvRg3P::L1::Q5",
+          "rn_FF4b9zVQ2CPvRg3P::L1::Q6",
+          "rn_FF4b9zVQ2CPvRg3P::L1::Q7",
+          "rn_FF4b9zVQ2CPvRg3P::L1::Q8",
+          "rn_FF4b9zVQ2CPvRg3P::L1::Q9"
+        ],
+        "figureIds": []
+      },
+      {
+        "id": "rn_FF4b9zVQ2CPvRg3P::L2",
+        "title": "Working the mole ladder",
+        "sourceHeadings": [
+          "The Mole & Avogadro Calculations"
+        ],
+        "specRefs": [
+          "1.2"
+        ],
+        "opening": "Every stoichiometry chain runs through the same ladder: mass to moles with n = m/M, then moles to particles with the Avogadro constant. This lesson drills that ladder in both directions, including the very large and very small answers the constant naturally produces.",
+        "keyPoints": [
+          "The linking equation is n = m / M for mass in grams and molar mass in g mol^-1.",
+          "Particles divide by the Avogadro constant to give moles, and moles multiply by it to give particles.",
+          "Answers after using the constant are often very large or very small by nature.",
+          "One mole of water weighs 18.0 g because two hydrogen atoms and one oxygen atom make up each molecule."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "To get moles, divide mass by molar mass or divide particles by the big constant; to leave moles, do the opposite.",
+            "analogy": "Think of two doors into the same room: the mass door and the particle door both lead to the mole counter in the middle.",
+            "examPointer": "Show the ladder in your working - method marks survive even when an arithmetic slip lands."
+          },
+          "medium": {
+            "restatement": "The molar mass converts grams to moles, and the Avogadro constant converts moles to a particle census; chaining both maps a weighable sample onto the atoms inside it.",
+            "analogy": "Currency exchange works the same way: pounds to a currency-neutral amount, then to another currency - here grams to moles, then to particles.",
+            "examPointer": "Do not round the mole value before multiplying by the constant; carry at least 3 s.f. through the chain."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_FF4b9zVQ2CPvRg3P::L2::Q1",
+          "rn_FF4b9zVQ2CPvRg3P::L2::Q2",
+          "rn_FF4b9zVQ2CPvRg3P::L2::Q3",
+          "rn_FF4b9zVQ2CPvRg3P::L2::Q4",
+          "rn_FF4b9zVQ2CPvRg3P::L2::Q5",
+          "rn_FF4b9zVQ2CPvRg3P::L2::Q6",
+          "rn_FF4b9zVQ2CPvRg3P::L2::Q7",
+          "rn_FF4b9zVQ2CPvRg3P::L2::Q8",
+          "rn_FF4b9zVQ2CPvRg3P::L2::Q9"
+        ],
+        "figureIds": []
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "mole",
+          "definition": "The amount of substance containing 6.02 x 10^23 fundamental units, the same particle count as exactly 12.00 g of carbon-12.",
+          "firstLesson": 1
+        },
+        {
+          "term": "molar mass",
+          "definition": "The mass of one mole of a substance, quoted in g mol^-1.",
+          "firstLesson": 2
+        },
+        {
+          "term": "Avogadro constant",
+          "definition": "The particle count per mole, 6.02 x 10^23 mol^-1, applied to atoms, molecules, ions and electrons.",
+          "firstLesson": 1
+        }
+      ],
+      "workedExample": {
+        "prompt": "How many moles and how many molecules are present in 100 g of water? (Mr = 18.0)",
+        "steps": [
+          "Convert mass to moles: n = m / M = 100 / 18.0 = 5.56 mol (3 s.f.).",
+          "Convert moles to molecules: 5.56 x 6.02 x 10^23 = 3.35 x 10^24 molecules."
+        ],
+        "finalAnswer": "5.56 mol, which is 3.35 x 10^24 molecules of water."
+      }
+    }
+  }
+}

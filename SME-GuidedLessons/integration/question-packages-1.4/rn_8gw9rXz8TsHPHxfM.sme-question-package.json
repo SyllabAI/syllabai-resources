@@ -1,0 +1,495 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_8gw9rXz8TsHPHxfM",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "458baa898c79bc60bd155de44f25cedb3b706c9faba128d580b911f85edc55a6",
+    "pinnedRef": "276971edf1296c856345d856b2cbdf6140db0d94"
+  },
+  "packageId": "ial-chemistry::rn_8gw9rXz8TsHPHxfM",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_8gw9rXz8TsHPHxfM::L1::Q1",
+      "moduleId": "rn_8gw9rXz8TsHPHxfM::L1",
+      "stem": "Where are protons and neutrons located in an atom?",
+      "misconceptionClass": "nucleus location",
+      "options": [
+        {
+          "key": "A",
+          "text": "In the small, dense, positively charged nucleus at the centre",
+          "correct": true,
+          "explanation": "Both nucleons sit in the core; the electrons stay outside.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "In orbitals around the nucleus",
+          "correct": false,
+          "explanation": "Electrons, not nucleons, occupy the orbitals.",
+          "misconception": "particle misplaced"
+        },
+        {
+          "key": "C",
+          "text": "Spread evenly through the atom's volume",
+          "correct": false,
+          "explanation": "The nucleus concentrates them at the centre.",
+          "misconception": "distribution misread"
+        },
+        {
+          "key": "D",
+          "text": "In the empty space between electrons",
+          "correct": false,
+          "explanation": "The space is where electrons live, not nucleons.",
+          "misconception": "region swapped"
+        }
+      ]
+    },
+    {
+      "id": "rn_8gw9rXz8TsHPHxfM::L1::Q2",
+      "moduleId": "rn_8gw9rXz8TsHPHxfM::L1",
+      "stem": "What is the relative mass of an electron compared with a proton?",
+      "misconceptionClass": "electron mass",
+      "options": [
+        {
+          "key": "A",
+          "text": "1836 times heavier than a proton",
+          "correct": false,
+          "explanation": "The ratio runs the other way.",
+          "misconception": "ratio inverted"
+        },
+        {
+          "key": "B",
+          "text": "Almost negligible - about 1/1836 of a proton's mass",
+          "correct": true,
+          "explanation": "Electron mass is treated as effectively zero in relative terms.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Exactly 1, like the proton",
+          "correct": false,
+          "explanation": "That is the neutron and proton value.",
+          "misconception": "value confused"
+        },
+        {
+          "key": "D",
+          "text": "-1, matching its charge",
+          "correct": false,
+          "explanation": "Mass is never negative; the charge is -1.",
+          "misconception": "charge misread as mass"
+        }
+      ]
+    },
+    {
+      "id": "rn_8gw9rXz8TsHPHxfM::L1::Q3",
+      "moduleId": "rn_8gw9rXz8TsHPHxfM::L1",
+      "stem": "Why does the nucleus carry an overall positive charge?",
+      "misconceptionClass": "nuclear charge",
+      "options": [
+        {
+          "key": "A",
+          "text": "Neutrons carry a small positive charge",
+          "correct": false,
+          "explanation": "Neutrons are neutral by definition.",
+          "misconception": "charge misassigned"
+        },
+        {
+          "key": "B",
+          "text": "The nucleus gains charge from orbiting electrons",
+          "correct": false,
+          "explanation": "Orbiting electrons balance, not create, nuclear charge.",
+          "misconception": "direction reversed"
+        },
+        {
+          "key": "C",
+          "text": "Protons contribute +1 each and neutrons contribute nothing",
+          "correct": true,
+          "explanation": "The neutron's zero charge leaves the protons' positives uncancelled.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Electrons inside the nucleus are negative",
+          "correct": false,
+          "explanation": "Electrons are never inside the nucleus.",
+          "misconception": "particle misplaced"
+        }
+      ]
+    },
+    {
+      "id": "rn_8gw9rXz8TsHPHxfM::L1::Q4",
+      "moduleId": "rn_8gw9rXz8TsHPHxfM::L1",
+      "stem": "Why are relative masses and charges used instead of grams and coulombs?",
+      "misconceptionClass": "relative scale reason",
+      "options": [
+        {
+          "key": "A",
+          "text": "Because grams and coulombs are outdated units",
+          "correct": false,
+          "explanation": "The units are fine; the magnitudes are the problem.",
+          "misconception": "units blamed"
+        },
+        {
+          "key": "B",
+          "text": "Because the particles' masses change constantly",
+          "correct": false,
+          "explanation": "Particle properties are fixed.",
+          "misconception": "instability invented"
+        },
+        {
+          "key": "C",
+          "text": "Because electrons repel measuring devices",
+          "correct": false,
+          "explanation": "No such instrument effect exists.",
+          "misconception": "mechanism invented"
+        },
+        {
+          "key": "D",
+          "text": "The particles' actual masses and charges are far too small for conventional units to express conveniently",
+          "correct": true,
+          "explanation": "Relative scales compare particles to each other instead.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_8gw9rXz8TsHPHxfM::L1::Q5",
+      "moduleId": "rn_8gw9rXz8TsHPHxfM::L1",
+      "stem": "An atom's electrons determine which property most directly?",
+      "misconceptionClass": "electron role",
+      "options": [
+        {
+          "key": "A",
+          "text": "The chemistry the atom displays in reactions",
+          "correct": true,
+          "explanation": "Electrons take part in chemical reactions and so set the chemical behaviour.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "The atom's overall mass",
+          "correct": false,
+          "explanation": "Nucleons carry essentially all the mass.",
+          "misconception": "mass misattributed"
+        },
+        {
+          "key": "C",
+          "text": "The nuclear charge",
+          "correct": false,
+          "explanation": "Protons fix nuclear charge.",
+          "misconception": "charge misattributed"
+        },
+        {
+          "key": "D",
+          "text": "The atom's radioactivity",
+          "correct": false,
+          "explanation": "Nuclear composition governs that.",
+          "misconception": "property misattributed"
+        }
+      ]
+    },
+    {
+      "id": "rn_8gw9rXz8TsHPHxfM::L1::Q6",
+      "moduleId": "rn_8gw9rXz8TsHPHxfM::L1",
+      "stem": "State the relative masses of the proton, neutron and electron.",
+      "misconceptionClass": "relative mass recall",
+      "kind": "recall",
+      "modelAnswer": "Proton 1, neutron 1, electron almost negligible at about 1/1836 of a proton's mass.",
+      "keywords": [
+        "proton",
+        "neutron",
+        "negligible",
+        "1/1836"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_8gw9rXz8TsHPHxfM::L1::Q7",
+      "moduleId": "rn_8gw9rXz8TsHPHxfM::L1",
+      "stem": "State the relative charges of the three subatomic particles.",
+      "misconceptionClass": "relative charge recall",
+      "kind": "recall",
+      "modelAnswer": "Proton +1, neutron 0 (neutral) and electron -1.",
+      "keywords": [
+        "+1",
+        "0",
+        "-1",
+        "neutral"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_8gw9rXz8TsHPHxfM::L1::Q8",
+      "moduleId": "rn_8gw9rXz8TsHPHxfM::L1",
+      "stem": "Explain why the electron's negligible mass does not make it chemically unimportant.",
+      "misconceptionClass": "electron importance",
+      "kind": "explain-why",
+      "modelAnswer": "Mass and chemical role are different ledgers: although an electron weighs 1/1836 of a proton, electrons sit in the outer orbitals where reactions happen - they are gained, lost and shared, so they decide bonding and charge while the heavy nucleus watches.",
+      "keywords": [
+        "mass",
+        "orbitals",
+        "reactions",
+        "bonding"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_8gw9rXz8TsHPHxfM::L1::Q9",
+      "moduleId": "rn_8gw9rXz8TsHPHxfM::L1",
+      "stem": "An electron's actual charge is -1.602 x 10^-19 coulombs. State its relative charge and explain the conversion idea in one sentence.",
+      "misconceptionClass": "relative charge application",
+      "kind": "application",
+      "modelAnswer": "The relative charge is -1: the electron's own charge is divided by the same 1.602 x 10^-19 C that normalises the proton to +1, producing a dimensionless comparison scale.",
+      "keywords": [
+        "-1",
+        "normalise",
+        "proton",
+        "dimensionless"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_8gw9rXz8TsHPHxfM::L2::Q1",
+      "moduleId": "rn_8gw9rXz8TsHPHxfM::L2",
+      "stem": "What does the atomic (proton) number determine?",
+      "misconceptionClass": "proton number role",
+      "options": [
+        {
+          "key": "A",
+          "text": "Whether the atom is an ion",
+          "correct": false,
+          "explanation": "Ion status depends on electrons.",
+          "misconception": "charge misattributed"
+        },
+        {
+          "key": "B",
+          "text": "Which element the atom is",
+          "correct": true,
+          "explanation": "The proton count is the element's identity.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "How many neutrons are present",
+          "correct": false,
+          "explanation": "Neutrons follow from A - Z, not from Z alone.",
+          "misconception": "role overstated"
+        },
+        {
+          "key": "D",
+          "text": "The atom's mass entirely",
+          "correct": false,
+          "explanation": "Neutrons contribute half the story.",
+          "misconception": "mass misattributed"
+        }
+      ]
+    },
+    {
+      "id": "rn_8gw9rXz8TsHPHxfM::L2::Q2",
+      "moduleId": "rn_8gw9rXz8TsHPHxfM::L2",
+      "stem": "An atom has mass number 63 and 34 neutrons. How many protons does it hold?",
+      "misconceptionClass": "protons by subtraction",
+      "options": [
+        {
+          "key": "A",
+          "text": "34",
+          "correct": false,
+          "explanation": "That is the neutron count.",
+          "misconception": "value swapped"
+        },
+        {
+          "key": "B",
+          "text": "63",
+          "correct": false,
+          "explanation": "That is the mass number.",
+          "misconception": "value misread"
+        },
+        {
+          "key": "C",
+          "text": "29",
+          "correct": true,
+          "explanation": "63 - 34 = 29 protons; the element is copper.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "97",
+          "correct": false,
+          "explanation": "That adds instead of subtracting.",
+          "misconception": "operation inverted"
+        }
+      ]
+    },
+    {
+      "id": "rn_8gw9rXz8TsHPHxfM::L2::Q3",
+      "moduleId": "rn_8gw9rXz8TsHPHxfM::L2",
+      "stem": "How many electrons does the Mg2+ ion carry?",
+      "misconceptionClass": "ion electrons",
+      "options": [
+        {
+          "key": "A",
+          "text": "12",
+          "correct": false,
+          "explanation": "That is the neutral atom count.",
+          "misconception": "charge ignored"
+        },
+        {
+          "key": "B",
+          "text": "14",
+          "correct": false,
+          "explanation": "That treats the charge as gained electrons.",
+          "misconception": "direction reversed"
+        },
+        {
+          "key": "C",
+          "text": "2",
+          "correct": false,
+          "explanation": "That reads the charge as the electron count.",
+          "misconception": "charge misread"
+        },
+        {
+          "key": "D",
+          "text": "10",
+          "correct": true,
+          "explanation": "Magnesium starts at 12 electrons; the 2+ charge means two were lost.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_8gw9rXz8TsHPHxfM::L2::Q4",
+      "moduleId": "rn_8gw9rXz8TsHPHxfM::L2",
+      "stem": "Carbon-12 and carbon-14 differ in what way?",
+      "misconceptionClass": "isotope difference",
+      "options": [
+        {
+          "key": "A",
+          "text": "They hold 6 and 8 neutrons respectively, same 6 protons",
+          "correct": true,
+          "explanation": "Mass number changes, proton number stays.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "They hold different numbers of protons",
+          "correct": false,
+          "explanation": "Same element means same protons.",
+          "misconception": "identity broken"
+        },
+        {
+          "key": "C",
+          "text": "They carry different charges",
+          "correct": false,
+          "explanation": "Neutral isotopes are both neutral.",
+          "misconception": "charge invented"
+        },
+        {
+          "key": "D",
+          "text": "They have different electron counts",
+          "correct": false,
+          "explanation": "Neutral atoms match protons with electrons.",
+          "misconception": "electrons miscounted"
+        }
+      ]
+    },
+    {
+      "id": "rn_8gw9rXz8TsHPHxfM::L2::Q5",
+      "moduleId": "rn_8gw9rXz8TsHPHxfM::L2",
+      "stem": "Why do isotopes of one element share their chemical properties?",
+      "misconceptionClass": "isotope chemistry",
+      "options": [
+        {
+          "key": "A",
+          "text": "Because the nucleus exchanges neutrons in reactions",
+          "correct": false,
+          "explanation": "Chemical reactions leave nuclei untouched.",
+          "misconception": "mechanism invented"
+        },
+        {
+          "key": "B",
+          "text": "They have identical electron arrangements in their outer shells",
+          "correct": true,
+          "explanation": "Chemistry rides on electrons, which isotope identity never changes.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Because neutrons drive reactions",
+          "correct": false,
+          "explanation": "Neutrons are chemically silent.",
+          "misconception": "particle misattributed"
+        },
+        {
+          "key": "D",
+          "text": "Because their masses are identical",
+          "correct": false,
+          "explanation": "The masses differ - that is the definition.",
+          "misconception": "property contradicted"
+        }
+      ]
+    },
+    {
+      "id": "rn_8gw9rXz8TsHPHxfM::L2::Q6",
+      "moduleId": "rn_8gw9rXz8TsHPHxfM::L2",
+      "stem": "Define the mass (nucleon) number.",
+      "misconceptionClass": "mass number recall",
+      "kind": "recall",
+      "modelAnswer": "The total number of protons and neutrons - the nucleons - in the nucleus, given the symbol A.",
+      "keywords": [
+        "protons",
+        "neutrons",
+        "nucleons",
+        "A"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_8gw9rXz8TsHPHxfM::L2::Q7",
+      "moduleId": "rn_8gw9rXz8TsHPHxfM::L2",
+      "stem": "State the particle counts for the Mg2+ ion (A = 24, Z = 12).",
+      "misconceptionClass": "magnesium ion recall",
+      "kind": "recall",
+      "modelAnswer": "12 protons, 10 electrons (12 minus the 2 lost) and 12 neutrons (24 - 12).",
+      "keywords": [
+        "12",
+        "10",
+        "12 neutrons",
+        "Mg2+"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_8gw9rXz8TsHPHxfM::L2::Q8",
+      "moduleId": "rn_8gw9rXz8TsHPHxfM::L2",
+      "stem": "Explain why isotopes show different physical properties but the same chemical ones.",
+      "misconceptionClass": "isotope property split",
+      "kind": "explain-why",
+      "modelAnswer": "The only difference between isotopes is extra neutrons, which are neutral particles adding mass but no charge or electron change; mass and density shift (physical), while the outer-electron chemistry - which reactions obey - stays identical (chemical).",
+      "keywords": [
+        "neutrons",
+        "mass",
+        "electrons",
+        "chemistry"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_8gw9rXz8TsHPHxfM::L2::Q9",
+      "moduleId": "rn_8gw9rXz8TsHPHxfM::L2",
+      "stem": "An unknown atom of element X has mass number 63 and 34 neutrons. Identify the proton and electron counts, and name the element.",
+      "misconceptionClass": "unknown element application",
+      "kind": "application",
+      "modelAnswer": "Protons = 63 - 34 = 29; the neutral atom therefore holds 29 electrons; proton number 29 identifies copper.",
+      "keywords": [
+        "63",
+        "34",
+        "29",
+        "copper"
+      ],
+      "options": []
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_yxwRzb6QX37KWHcZ",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "a75c99c2903fcbc5c4da8b08fb0217f77c26f2ff46ebb155389cd95c7cb20e37",
+    "pinnedRef": "276971edf1296c856345d856b2cbdf6140db0d94"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_yxwRzb6QX37KWHcZ",
+    "topicTitle": "1. Structure, Bonding & Introduction to Organic Chemistry",
+    "subtopicTitle": "Electronic Configurations & Chemical Properties",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/1-structure-bonding-and-introduction-to-organic-chemistry/1-4-electrons-and-ions/1-4-4-electronic-configurations-and-chemical-properties",
+    "specAnchors": [
+      {
+        "code": "2.14",
+        "text": "be able to predict the electronic configuration of atoms of the elements from hydrogen to krypton inclusive and their ions, using s, p, d notation and electron-in- boxes notation"
+      },
+      {
+        "code": "2.15",
+        "text": "understand that electronic configuration determines the chemical properties of an element"
+      }
+    ],
+    "primer": {
+      "text": "An atom's electron arrangement is its chemical destiny. This note orders sub-shells by energy with the 4s-before-3d exception, writes configurations in full, shorthand, ionic and box forms, explains chromium and copper's anomalies, and converts configuration - groups, periods, blocks, full sub-shells - into chemical behaviour.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_yxwRzb6QX37KWHcZ::L1",
+        "title": "Filling order and block structure",
+        "sourceHeadings": [
+          "Predicting Electronic Configurations"
+        ],
+        "specRefs": [
+          "2.14"
+        ],
+        "opening": "Electrons queue by energy: shells rise with n, sub-shells order s-p-d-f, and 4s queues ahead of 3d. This lesson turns that order into a prediction engine and maps the Periodic Table's four blocks.",
+        "keyPoints": [
+          "Principal shells rise in energy with n; sub-shells order s, p, d, f within a shell.",
+          "The 4s orbital fills before 3d, the one standard exception to numeric order.",
+          "All orbitals in a sub-shell are degenerate - px, py and pz share one energy.",
+          "The Periodic Table's blocks are named for the sub-shell holding each element's outermost electron."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Fill 1s, 2s, 2p, 3s, 3p, then 4s BEFORE 3d - the queue is by energy, not by number.",
+            "analogy": "It is a canteen queue: the 4s window opens before the 3d window despite its smaller number.",
+            "examPointer": "Krypton (Z = 36) is the ceiling for prediction at this level."
+          },
+          "medium": {
+            "restatement": "Energy, not arithmetic, orders the queue: 4s sits slightly below 3d, so potassium and calcium end there; from gallium onward the written configuration lists 3d before 4s in numerical order.",
+            "analogy": "Bookshelves stacked by weight, not by label: the heavier 3d books wait on the lower shelf even though their index number is smaller.",
+            "examPointer": "Degeneracy of px, py, pz justifies Hund's rule drawings in the box notation."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_yxwRzb6QX37KWHcZ::L1::Q1",
+          "rn_yxwRzb6QX37KWHcZ::L1::Q2",
+          "rn_yxwRzb6QX37KWHcZ::L1::Q3",
+          "rn_yxwRzb6QX37KWHcZ::L1::Q4",
+          "rn_yxwRzb6QX37KWHcZ::L1::Q5",
+          "rn_yxwRzb6QX37KWHcZ::L1::Q6",
+          "rn_yxwRzb6QX37KWHcZ::L1::Q7",
+          "rn_yxwRzb6QX37KWHcZ::L1::Q8",
+          "rn_yxwRzb6QX37KWHcZ::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01",
+          "fig-02",
+          "fig-03"
+        ]
+      },
+      {
+        "id": "rn_yxwRzb6QX37KWHcZ::L2",
+        "title": "Presenting configurations and their exceptions",
+        "sourceHeadings": [
+          "Presenting the Electron Configuration",
+          "Box Notation"
+        ],
+        "specRefs": [
+          "2.14"
+        ],
+        "opening": "Configurations come in full and shorthand dressings, ions adjust the outermost electrons, chromium and copper break the pattern, and box notation draws the spins. This lesson covers all four presentations plus the transition-metal electron exit rule.",
+        "keyPoints": [
+          "Shorthand notation brackets the nearest preceding noble gas: [Ar] 4s1 for potassium.",
+          "Negative ions add electrons to the outer sub-shell; positive ions remove them from it.",
+          "Transition metals fill 4s first but LOSE from 4s first when ionising.",
+          "Chromium ([Ar] 3d5 4s1) and copper ([Ar] 3d10 4s1) trade one 4s electron for a stabilised half- or full 3d sub-shell."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Write everything out for the full form; swap the noble-gas core for its symbol in the shorthand; ions adjust the ends; boxes draw the spins.",
+            "analogy": "Full form is the complete address; shorthand is 'the Argon building, room 4s1'.",
+            "examPointer": "Ca2+ ends as [Ar] - identical to argon's configuration."
+          },
+          "medium": {
+            "restatement": "Ionisation order matters because 4s, though filled first, sits farthest out once 3d is occupied: cations strip 4s before 3d, which is why Fe2+ is [Ar] 3d6 4s0, not 3d4 4s2.",
+            "analogy": "The 4s electrons moved into the house first but live nearest the front door - when guests must leave, they exit first.",
+            "examPointer": "Titanium's box notation keeps both 4s electrons because 3d is neither half-full nor full - no promotion occurs."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_yxwRzb6QX37KWHcZ::L2::Q1",
+          "rn_yxwRzb6QX37KWHcZ::L2::Q2",
+          "rn_yxwRzb6QX37KWHcZ::L2::Q3",
+          "rn_yxwRzb6QX37KWHcZ::L2::Q4",
+          "rn_yxwRzb6QX37KWHcZ::L2::Q5",
+          "rn_yxwRzb6QX37KWHcZ::L2::Q6",
+          "rn_yxwRzb6QX37KWHcZ::L2::Q7",
+          "rn_yxwRzb6QX37KWHcZ::L2::Q8",
+          "rn_yxwRzb6QX37KWHcZ::L2::Q9"
+        ],
+        "figureIds": [
+          "fig-04",
+          "fig-05",
+          "fig-06"
+        ]
+      },
+      {
+        "id": "rn_yxwRzb6QX37KWHcZ::L3",
+        "title": "Configuration decides chemistry",
+        "sourceHeadings": [
+          "Chemical Properties"
+        ],
+        "specRefs": [
+          "2.15"
+        ],
+        "opening": "The electron arrangement is destiny: groups share outer-electron counts, periods share shell counts, and noble gases' full sub-shells explain their aloofness. This lesson converts configuration into chemical prediction.",
+        "keyPoints": [
+          "Elements in the same group share the same number of outer electrons.",
+          "Elements in the same period share the same number of occupied shells.",
+          "Full sub-shells plus high ionisation energies make noble gases chemically inert.",
+          "Configuration therefore predicts how an element is likely to react."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Read the outer electrons off the configuration: that count predicts the bonding behaviour.",
+            "analogy": "The outer shell is a shop's display window - what reactions see and trade with.",
+            "examPointer": "Helium, neon and argon all end in full sub-shells - quote that trio when explaining inertness."
+          },
+          "medium": {
+            "restatement": "Chemistry is electron exchange, so identical outer-electron counts give identical valency patterns down a group, while shell count fixes the period; the stability of complete sub-shells shows up as high ionisation energies and reluctance to react.",
+            "analogy": "Groups are families with the same handshake; periods are generations wearing the same number of coats.",
+            "examPointer": "Relate reactivity to configuration explicitly - it is the 2.15 discriminator."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_yxwRzb6QX37KWHcZ::L3::Q1",
+          "rn_yxwRzb6QX37KWHcZ::L3::Q2",
+          "rn_yxwRzb6QX37KWHcZ::L3::Q3",
+          "rn_yxwRzb6QX37KWHcZ::L3::Q4",
+          "rn_yxwRzb6QX37KWHcZ::L3::Q5",
+          "rn_yxwRzb6QX37KWHcZ::L3::Q6",
+          "rn_yxwRzb6QX37KWHcZ::L3::Q7",
+          "rn_yxwRzb6QX37KWHcZ::L3::Q8",
+          "rn_yxwRzb6QX37KWHcZ::L3::Q9"
+        ],
+        "figureIds": []
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "electron configuration",
+          "definition": "The statement of how an atom's electrons occupy shells, sub-shells and orbitals, in full or shorthand form.",
+          "firstLesson": 1
+        },
+        {
+          "term": "shorthand configuration",
+          "definition": "Configuration written with the nearest preceding noble gas in brackets, as [Ar] 4s1 for potassium.",
+          "firstLesson": 2
+        },
+        {
+          "term": "electron-in-boxes notation",
+          "definition": "Box notation drawing each orbital as a box with arrows denoting electron spins.",
+          "firstLesson": 2
+        },
+        {
+          "term": "degenerate",
+          "definition": "Sharing exactly the same energy, as the three p orbitals of one shell do.",
+          "firstLesson": 1
+        }
+      ],
+      "workedExample": null
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/c50d96887018-1-1-atomic-structure-electronic-configuration-pe.png",
+        "alt": "Atomic Structure Electronic Configuration & Periodicity, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Predicting Electronic Configurations",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-02",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/fbebddef721e-1-1-atomic-structure-energy-levels.png",
+        "alt": "Atomic Structure Energy Levels, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Predicting Electronic Configurations",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "Relative energies of the shells and subshells"
+      },
+      {
+        "id": "fig-03",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/7af15cb5adce-1-1-atomic-structure-notation-electron-configura.png",
+        "alt": "Atomic Structure Notation Electron Configuration, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Predicting Electronic Configurations",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "The electron configuration shows the number of electrons occupying a subshell in a specific shell"
+      },
+      {
+        "id": "fig-04",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/a822cad350ef-1-1-atomic-structure-electron-configuration-1.png",
+        "alt": "Atomic Structure Electron Configuration 1, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Presenting the Electron Configuration",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique",
+        "caption": "Electron configuration: three electrons in a p subshell"
+      },
+      {
+        "id": "fig-05",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/0d4466b29f83-1-1-atomic-structure-electron-configuration-2.png",
+        "alt": "Atomic Structure Electron Configuration 2, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Presenting the Electron Configuration",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique",
+        "caption": "Electron configuration: four electrons in a p subshell"
+      },
+      {
+        "id": "fig-06",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/b1788f997ca8-1-1-atomic-structure-electron-in-box-notation.png",
+        "alt": "Atomic Structure Electron in Box Notation, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Box Notation",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique",
+        "caption": "The electrons in titanium are arranged in their orbitals as shown. Electrons occupy the lowest energy levels first before filling those with higher energy"
+      }
+    ]
+  }
+}

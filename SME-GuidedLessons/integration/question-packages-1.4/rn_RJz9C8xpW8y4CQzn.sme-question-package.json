@@ -1,0 +1,975 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_RJz9C8xpW8y4CQzn",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "4df5ec9f85214d9ccef7e6a9e57ab7e9f8ed1b8e467b62e9edaca72d537a84f6",
+    "pinnedRef": "276971edf1296c856345d856b2cbdf6140db0d94"
+  },
+  "packageId": "ial-chemistry::rn_RJz9C8xpW8y4CQzn",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_RJz9C8xpW8y4CQzn::L1::Q1",
+      "moduleId": "rn_RJz9C8xpW8y4CQzn::L1",
+      "stem": "What must never be altered when balancing an equation?",
+      "misconceptionClass": "balancing invariant",
+      "options": [
+        {
+          "key": "A",
+          "text": "The formulae of the reactants and products",
+          "correct": true,
+          "explanation": "Formulae are fixed; only the coefficients in front of them may change.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "The coefficients in front of each formula",
+          "correct": false,
+          "explanation": "Coefficients are precisely what gets adjusted.",
+          "misconception": "variable frozen instead"
+        },
+        {
+          "key": "C",
+          "text": "The number of atoms on each side",
+          "correct": false,
+          "explanation": "Equal atom counts are the goal of balancing.",
+          "misconception": "goal treated as taboo"
+        },
+        {
+          "key": "D",
+          "text": "The direction of the arrow",
+          "correct": false,
+          "explanation": "The arrow stays, but that is not what balancing adjusts.",
+          "misconception": "irrelevant feature frozen"
+        }
+      ]
+    },
+    {
+      "id": "rn_RJz9C8xpW8y4CQzn::L1::Q2",
+      "moduleId": "rn_RJz9C8xpW8y4CQzn::L1",
+      "stem": "In the balanced equation 2Mg + O2 -> 2MgO, what does the coefficient 2 in front of MgO tell you?",
+      "misconceptionClass": "coefficient meaning",
+      "options": [
+        {
+          "key": "A",
+          "text": "Two grams of product form",
+          "correct": false,
+          "explanation": "Coefficients count formula units, not grams.",
+          "misconception": "mass read from coefficient"
+        },
+        {
+          "key": "B",
+          "text": "Two formula units of magnesium oxide form per reacting unit of the equation",
+          "correct": true,
+          "explanation": "The coefficient counts formula units; with the other coefficients it fixes the mole ratios 2:1:2.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Magnesium oxide contains two atoms of magnesium",
+          "correct": false,
+          "explanation": "The subscript, not the coefficient, counts atoms inside a formula.",
+          "misconception": "coefficient read as subscript"
+        },
+        {
+          "key": "D",
+          "text": "The reaction happens twice as fast",
+          "correct": false,
+          "explanation": "Coefficients carry no rate information.",
+          "misconception": "kinetics attributed"
+        }
+      ]
+    },
+    {
+      "id": "rn_RJz9C8xpW8y4CQzn::L1::Q3",
+      "moduleId": "rn_RJz9C8xpW8y4CQzn::L1",
+      "stem": "Which state symbol marks a substance dissolved in water?",
+      "misconceptionClass": "state symbols",
+      "options": [
+        {
+          "key": "A",
+          "text": "(g)",
+          "correct": false,
+          "explanation": "(g) marks a gas.",
+          "misconception": "gas misassigned"
+        },
+        {
+          "key": "B",
+          "text": "(s)",
+          "correct": false,
+          "explanation": "(s) marks a solid.",
+          "misconception": "solid misassigned"
+        },
+        {
+          "key": "C",
+          "text": "(aq)",
+          "correct": true,
+          "explanation": "Aqueous means dissolved in water.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "(l)",
+          "correct": false,
+          "explanation": "(l) marks a pure liquid, not a solution.",
+          "misconception": "liquid confused with aqueous"
+        }
+      ]
+    },
+    {
+      "id": "rn_RJz9C8xpW8y4CQzn::L1::Q4",
+      "moduleId": "rn_RJz9C8xpW8y4CQzn::L1",
+      "stem": "In combustion of an organic compound, which order of balancing does the convention recommend?",
+      "misconceptionClass": "combustion order",
+      "options": [
+        {
+          "key": "A",
+          "text": "Oxygen, then carbon, then hydrogen",
+          "correct": false,
+          "explanation": "Fixing oxygen first forces endless rework of the others.",
+          "misconception": "order inverted"
+        },
+        {
+          "key": "B",
+          "text": "Hydrogen, then oxygen, then carbon",
+          "correct": false,
+          "explanation": "Hydrogen first is workable but not the convention taught.",
+          "misconception": "order swapped"
+        },
+        {
+          "key": "C",
+          "text": "Any order, since the result is identical",
+          "correct": false,
+          "explanation": "Any order reaches the same coefficients, but the taught convention keeps working tidy.",
+          "misconception": "convention dismissed"
+        },
+        {
+          "key": "D",
+          "text": "Carbon, then hydrogen, then oxygen",
+          "correct": true,
+          "explanation": "The standard routine settles C and H first and lets oxygen absorb the final totals.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_RJz9C8xpW8y4CQzn::L1::Q5",
+      "moduleId": "rn_RJz9C8xpW8y4CQzn::L1",
+      "stem": "A student writes Mg + O2 -> MgO as 'balanced' after writing O as O2 inside the product. What is wrong?",
+      "misconceptionClass": "formula tampering",
+      "options": [
+        {
+          "key": "A",
+          "text": "The product formula was changed; oxygen's diatomic formula was broken to fit the balance",
+          "correct": true,
+          "explanation": "Balancing must keep MgO intact and adjust coefficients instead.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Nothing - the atom counts match",
+          "correct": false,
+          "explanation": "The atom counts may tally but the species written is no longer magnesium oxide.",
+          "misconception": "tampering accepted"
+        },
+        {
+          "key": "C",
+          "text": "The arrow should be an equals sign",
+          "correct": false,
+          "explanation": "Reaction arrows are standard; the fault is the altered formula.",
+          "misconception": "misdiagnosis"
+        },
+        {
+          "key": "D",
+          "text": "State symbols are missing",
+          "correct": false,
+          "explanation": "State symbols come last; the fault is deeper.",
+          "misconception": "symptom misread"
+        }
+      ]
+    },
+    {
+      "id": "rn_RJz9C8xpW8y4CQzn::L1::Q6",
+      "moduleId": "rn_RJz9C8xpW8y4CQzn::L1",
+      "stem": "State the four state symbols and what each denotes.",
+      "misconceptionClass": "state symbol recall",
+      "kind": "recall",
+      "modelAnswer": "(s) denotes solid, (l) liquid, (g) gas and (aq) a substance dissolved in water as an aqueous solution.",
+      "keywords": [
+        "solid",
+        "liquid",
+        "gas",
+        "aqueous"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_RJz9C8xpW8y4CQzn::L1::Q7",
+      "moduleId": "rn_RJz9C8xpW8y4CQzn::L1",
+      "stem": "List the four steps for writing a balanced equation with state symbols.",
+      "misconceptionClass": "balancing routine recall",
+      "kind": "recall",
+      "modelAnswer": "Write the formulae of reactants and products, count the atoms of each element on both sides, balance the atoms one at a time with coefficients, then add the appropriate state symbols.",
+      "keywords": [
+        "formulae",
+        "count",
+        "balance",
+        "state symbols"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_RJz9C8xpW8y4CQzn::L1::Q8",
+      "moduleId": "rn_RJz9C8xpW8y4CQzn::L1",
+      "stem": "Explain why changing a product's formula to force a balance is always wrong, even when the atom counts then agree.",
+      "misconceptionClass": "formula integrity",
+      "kind": "explain-why",
+      "modelAnswer": "The formula identifies which substance reacts and forms; altering it describes a different reaction entirely, so a balance achieved by tampering documents chemistry that does not exist, while coefficients scale intact formula units without changing any identity.",
+      "keywords": [
+        "substance",
+        "identity",
+        "coefficients",
+        "reaction"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_RJz9C8xpW8y4CQzn::L1::Q9",
+      "moduleId": "rn_RJz9C8xpW8y4CQzn::L1",
+      "stem": "Magnesium burns in oxygen to give magnesium oxide. Write the fully balanced equation with state symbols, given Mg and MgO are solids and oxygen is a gas.",
+      "misconceptionClass": "balance with states",
+      "kind": "application",
+      "modelAnswer": "2Mg (s) + O2 (g) -> 2MgO (s); the coefficient pair 2:2 keeps the 1:1 Mg-to-MgO ratio while supplying one intact O2 molecule.",
+      "keywords": [
+        "2Mg",
+        "O2",
+        "2MgO",
+        "state symbols"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_RJz9C8xpW8y4CQzn::L2::Q1",
+      "moduleId": "rn_RJz9C8xpW8y4CQzn::L2",
+      "stem": "What is the formula of aluminium sulfate, built from Al3+ and SO42-?",
+      "misconceptionClass": "aluminium sulfate formula",
+      "options": [
+        {
+          "key": "A",
+          "text": "Al2SO4",
+          "correct": false,
+          "explanation": "The polyatomic ion needs brackets before its subscript.",
+          "misconception": "brackets omitted"
+        },
+        {
+          "key": "B",
+          "text": "Al2(SO4)3",
+          "correct": true,
+          "explanation": "Two 3+ ions give +6 and three 2- ions give -6: balanced.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Al3(SO4)2",
+          "correct": false,
+          "explanation": "That swaps the subscripts; charges would be +9 and -4.",
+          "misconception": "subscripts swapped"
+        },
+        {
+          "key": "D",
+          "text": "AlSO4",
+          "correct": false,
+          "explanation": "One of each leaves +3 against -2, unbalanced.",
+          "misconception": "charges uncancelled"
+        }
+      ]
+    },
+    {
+      "id": "rn_RJz9C8xpW8y4CQzn::L2::Q2",
+      "moduleId": "rn_RJz9C8xpW8y4CQzn::L2",
+      "stem": "Why does an ionic formula need brackets around a polyatomic ion that carries a subscript greater than 1?",
+      "misconceptionClass": "brackets purpose",
+      "options": [
+        {
+          "key": "A",
+          "text": "Brackets show the ion is charged",
+          "correct": false,
+          "explanation": "The charge is shown as a superscript on the ion itself.",
+          "misconception": "charge misattributed"
+        },
+        {
+          "key": "B",
+          "text": "Brackets are only needed for gases",
+          "correct": false,
+          "explanation": "Polyatomic ions appear in every state.",
+          "misconception": "state mislinked"
+        },
+        {
+          "key": "C",
+          "text": "The subscript must multiply every atom inside the group, not just the last one",
+          "correct": true,
+          "explanation": "Al2(SO4)3 means two aluminium plus three complete sulfate groups; without brackets the 3 would read on the oxygen alone.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Brackets make the formula look tidy",
+          "correct": false,
+          "explanation": "The brackets carry mathematical meaning.",
+          "misconception": "decorative reading"
+        }
+      ]
+    },
+    {
+      "id": "rn_RJz9C8xpW8y4CQzn::L2::Q3",
+      "moduleId": "rn_RJz9C8xpW8y4CQzn::L2",
+      "stem": "Which pair of ions combines to give the formula Ca3(PO4)2?",
+      "misconceptionClass": "calcium phosphate ions",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ca+ and PO43-",
+          "correct": false,
+          "explanation": "Calcium does not form single-charge ions here.",
+          "misconception": "charge misread"
+        },
+        {
+          "key": "B",
+          "text": "Ca2+ and PO4-... wait, that would need six phosphates",
+          "correct": false,
+          "explanation": "That mix never cancels at six.",
+          "misconception": "ratio invented"
+        },
+        {
+          "key": "C",
+          "text": "Ca2+ and PO42-",
+          "correct": false,
+          "explanation": "Phosphate is 3-, not 2-; sulfate is the 2- ion.",
+          "misconception": "ion confused with sulfate"
+        },
+        {
+          "key": "D",
+          "text": "Ca2+ and PO43-",
+          "correct": true,
+          "explanation": "Three 2+ ions give +6 and two 3- ions give -6.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_RJz9C8xpW8y4CQzn::L2::Q4",
+      "moduleId": "rn_RJz9C8xpW8y4CQzn::L2",
+      "stem": "Iron(III) oxide contains Fe3+ and O2-. What is its formula?",
+      "misconceptionClass": "iron oxide formula",
+      "options": [
+        {
+          "key": "A",
+          "text": "Fe2O3",
+          "correct": true,
+          "explanation": "Two 3+ and three 2- cancel at 6.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Fe3O2",
+          "correct": false,
+          "explanation": "The subscripts are swapped relative to the charges.",
+          "misconception": "subscripts swapped"
+        },
+        {
+          "key": "C",
+          "text": "FeO3",
+          "correct": false,
+          "explanation": "Charges would run +3 against -6.",
+          "misconception": "charges uncancelled"
+        },
+        {
+          "key": "D",
+          "text": "Fe2O",
+          "correct": false,
+          "explanation": "Charges would run +6 against -2.",
+          "misconception": "charges uncancelled"
+        }
+      ]
+    },
+    {
+      "id": "rn_RJz9C8xpW8y4CQzn::L2::Q5",
+      "moduleId": "rn_RJz9C8xpW8y4CQzn::L2",
+      "stem": "A student writes the formula of sodium sulfate as Na(SO4)2 from Na+ and SO42-. What single correction fixes it?",
+      "misconceptionClass": "sodium sulfate fix",
+      "options": [
+        {
+          "key": "A",
+          "text": "Remove the sulfate charge instead",
+          "correct": false,
+          "explanation": "The formula shows no charges anyway; the ion counts are the issue.",
+          "misconception": "misdiagnosis"
+        },
+        {
+          "key": "B",
+          "text": "Drop the subscript to give Na2SO4 - two 1+ ions cancel one 2- ion",
+          "correct": true,
+          "explanation": "Sodium needs a subscript 2 on itself, and the sulfate needs no subscript.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Add brackets and a 2 on sulfate",
+          "correct": false,
+          "explanation": "Sulfate must stay single; the sodium count is the error.",
+          "misconception": "fix misapplied"
+        },
+        {
+          "key": "D",
+          "text": "Change sodium's charge to 2+",
+          "correct": false,
+          "explanation": "Sodium is always 1+.",
+          "misconception": "charge invented"
+        }
+      ]
+    },
+    {
+      "id": "rn_RJz9C8xpW8y4CQzn::L2::Q6",
+      "moduleId": "rn_RJz9C8xpW8y4CQzn::L2",
+      "stem": "State the rule for assembling an ionic formula from the two ion charges.",
+      "misconceptionClass": "charge cancellation rule",
+      "kind": "recall",
+      "modelAnswer": "Multiply each ion until the positive and negative charges sum to zero, then write the resulting counts as subscripts, bracketing polyatomic ions.",
+      "keywords": [
+        "multiply",
+        "charge",
+        "zero",
+        "subscripts"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_RJz9C8xpW8y4CQzn::L2::Q7",
+      "moduleId": "rn_RJz9C8xpW8y4CQzn::L2",
+      "stem": "Recall the charges of the sulfate, nitrate, hydroxide and ammonium ions.",
+      "misconceptionClass": "common ion charges",
+      "kind": "recall",
+      "modelAnswer": "Sulfate is 2-, nitrate is 1-, hydroxide is 1- and ammonium is 1+, so sulfate is the only one of the four carrying a double negative charge.",
+      "keywords": [
+        "sulfate",
+        "nitrate",
+        "hydroxide",
+        "ammonium"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_RJz9C8xpW8y4CQzn::L2::Q8",
+      "moduleId": "rn_RJz9C8xpW8y4CQzn::L2",
+      "stem": "Explain why swapping the two charge numbers gives the same subscripts as the lowest-common-multiple method.",
+      "misconceptionClass": "swap shortcut justification",
+      "kind": "explain-why",
+      "modelAnswer": "If the charges are m+ and n-, the LCM of m and n is m x n for a coprime pair, and dividing by each charge gives n copies of the m+ ion and m copies of the n- ion - exactly the swapped numbers, as in charges 3 and 2 giving Al2(SO4)3.",
+      "keywords": [
+        "charges",
+        "copies",
+        "swapped",
+        "lowest"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_RJz9C8xpW8y4CQzn::L2::Q9",
+      "moduleId": "rn_RJz9C8xpW8y4CQzn::L2",
+      "stem": "Write the formula of calcium hydroxide, formed from Ca2+ and OH-, and state the charge balance explicitly.",
+      "misconceptionClass": "hydroxide formula build",
+      "kind": "application",
+      "modelAnswer": "Ca(OH)2: one Ca2+ supplies +2 and two OH- ions supply -2, so the charges cancel to zero with brackets preserving the hydroxide group.",
+      "keywords": [
+        "Ca(OH)2",
+        "charge",
+        "brackets",
+        "hydroxide"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_RJz9C8xpW8y4CQzn::L3::Q1",
+      "moduleId": "rn_RJz9C8xpW8y4CQzn::L3",
+      "stem": "What is a spectator ion?",
+      "misconceptionClass": "spectator definition",
+      "options": [
+        {
+          "key": "A",
+          "text": "An ion that makes the solution neutral",
+          "correct": false,
+          "explanation": "Neutrality is a bulk property, not the spectator criterion.",
+          "misconception": "pH mislinked"
+        },
+        {
+          "key": "B",
+          "text": "A solid that precipitates out of solution",
+          "correct": false,
+          "explanation": "The precipitate is usually the product, the opposite of a spectator.",
+          "misconception": "product mislabelled"
+        },
+        {
+          "key": "C",
+          "text": "An ion present in the mixture that takes no part in the reaction",
+          "correct": true,
+          "explanation": "Spectators appear unchanged on both sides and cancel in the ionic equation.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "An ion that changes oxidation state during the reaction",
+          "correct": false,
+          "explanation": "Ions that react change state; spectators do not.",
+          "misconception": "reactant mislabelled"
+        }
+      ]
+    },
+    {
+      "id": "rn_RJz9C8xpW8y4CQzn::L3::Q2",
+      "moduleId": "rn_RJz9C8xpW8y4CQzn::L3",
+      "stem": "Which species are cancelled when Zn (s) + CuSO4 (aq) -> ZnSO4 (aq) + Cu (s) is converted to an ionic equation?",
+      "misconceptionClass": "zinc copper cancellation",
+      "options": [
+        {
+          "key": "A",
+          "text": "The zinc atoms",
+          "correct": false,
+          "explanation": "Zinc is a solid metal that reacts.",
+          "misconception": "reactant cancelled"
+        },
+        {
+          "key": "B",
+          "text": "The copper atoms",
+          "correct": false,
+          "explanation": "Copper is the deposited product.",
+          "misconception": "product cancelled"
+        },
+        {
+          "key": "C",
+          "text": "Nothing can be cancelled here",
+          "correct": false,
+          "explanation": "The sulfate appears on both sides, so cancellation applies.",
+          "misconception": "missed cancellation"
+        },
+        {
+          "key": "D",
+          "text": "The sulfate ions, SO42-",
+          "correct": true,
+          "explanation": "Sulfate sits dissolved on both sides unchanged.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_RJz9C8xpW8y4CQzn::L3::Q3",
+      "moduleId": "rn_RJz9C8xpW8y4CQzn::L3",
+      "stem": "Which is the correct ionic equation for the zinc and copper(II) sulfate reaction?",
+      "misconceptionClass": "ionic equation selection",
+      "options": [
+        {
+          "key": "A",
+          "text": "Zn (s) + Cu2+ (aq) -> Zn2+ (aq) + Cu (s)",
+          "correct": true,
+          "explanation": "Zinc atoms transfer two electrons to copper ions; sulfate is the spectator.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Zn2+ (aq) + Cu (s) -> Zn (s) + Cu2+ (aq)",
+          "correct": false,
+          "explanation": "That runs the reaction backwards.",
+          "misconception": "direction reversed"
+        },
+        {
+          "key": "C",
+          "text": "Zn (s) + SO42- (aq) -> ZnSO4 (aq)",
+          "correct": false,
+          "explanation": "Sulfate is the spectator, not the reactant.",
+          "misconception": "spectator promoted"
+        },
+        {
+          "key": "D",
+          "text": "Zn2+ + Cu2+ -> Zn + Cu",
+          "correct": false,
+          "explanation": "Charges and species are mismatched on both sides.",
+          "misconception": "species scrambled"
+        }
+      ]
+    },
+    {
+      "id": "rn_RJz9C8xpW8y4CQzn::L3::Q4",
+      "moduleId": "rn_RJz9C8xpW8y4CQzn::L3",
+      "stem": "In an ionic equation, which particles may appear unsplit?",
+      "misconceptionClass": "unsplit species",
+      "options": [
+        {
+          "key": "A",
+          "text": "Only charged species may appear at all",
+          "correct": false,
+          "explanation": "Neutral atoms like Zn (s) and Cu (s) belong in the equation.",
+          "misconception": "neutrality excluded"
+        },
+        {
+          "key": "B",
+          "text": "Solids, liquids and gases - only aqueous species dissociate into ions",
+          "correct": true,
+          "explanation": "Dissociation applies to dissolved ionic compounds; intact phases stay whole.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Every species must be split into ions",
+          "correct": false,
+          "explanation": "Metals and gases carry no ions to split.",
+          "misconception": "over-splitting"
+        },
+        {
+          "key": "D",
+          "text": "Only the products may stay whole",
+          "correct": false,
+          "explanation": "Splitting depends on state, not on which side the species sits.",
+          "misconception": "side-based rule invented"
+        }
+      ]
+    },
+    {
+      "id": "rn_RJz9C8xpW8y4CQzn::L3::Q5",
+      "moduleId": "rn_RJz9C8xpW8y4CQzn::L3",
+      "stem": "Why must charge balance as strictly as atom counts in an ionic equation?",
+      "misconceptionClass": "charge balance law",
+      "options": [
+        {
+          "key": "A",
+          "text": "Because examiners deduct style marks otherwise",
+          "correct": false,
+          "explanation": "The requirement is physical conservation, not presentation.",
+          "misconception": "cosmetic reading"
+        },
+        {
+          "key": "B",
+          "text": "It does not - atoms alone must balance",
+          "correct": false,
+          "explanation": "An unbalanced charge would violate electron conservation.",
+          "misconception": "law denied"
+        },
+        {
+          "key": "C",
+          "text": "Charge is conserved: electrons lost by one species are gained by another",
+          "correct": true,
+          "explanation": "The electron transfer leaves the total charge unchanged from side to side.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Charge balance only matters for precipitation reactions",
+          "correct": false,
+          "explanation": "Every ionic equation obeys charge conservation.",
+          "misconception": "scope narrowed"
+        }
+      ]
+    },
+    {
+      "id": "rn_RJz9C8xpW8y4CQzn::L3::Q6",
+      "moduleId": "rn_RJz9C8xpW8y4CQzn::L3",
+      "stem": "State what happens to ionic compounds when they dissolve in aqueous solution.",
+      "misconceptionClass": "dissociation recall",
+      "kind": "recall",
+      "modelAnswer": "Aqueous ionic compounds dissociate into their separate positive and negative ions, which move freely through the solution.",
+      "keywords": [
+        "dissociate",
+        "ions",
+        "aqueous",
+        "solution"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_RJz9C8xpW8y4CQzn::L3::Q7",
+      "moduleId": "rn_RJz9C8xpW8y4CQzn::L3",
+      "stem": "Outline how to derive an ionic equation from a full balanced equation.",
+      "misconceptionClass": "derivation routine",
+      "kind": "recall",
+      "modelAnswer": "Split the aqueous compounds into their ions, keep solids, liquids and gases intact, then cancel the spectator ions that appear unchanged on both sides.",
+      "keywords": [
+        "split",
+        "ions",
+        "cancel",
+        "spectator"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_RJz9C8xpW8y4CQzn::L3::Q8",
+      "moduleId": "rn_RJz9C8xpW8y4CQzn::L3",
+      "stem": "Explain why the sulfate ion is a spectator in the zinc and copper(II) sulfate reaction.",
+      "misconceptionClass": "sulfate spectator reason",
+      "kind": "explain-why",
+      "modelAnswer": "The sulfate ion exists dissolved before the reaction and remains dissolved after zinc has displaced copper, appearing identically on both sides, so it transfers no electrons and takes no part in the chemical change.",
+      "keywords": [
+        "dissolved",
+        "unchanged",
+        "electrons",
+        "identically"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_RJz9C8xpW8y4CQzn::L3::Q9",
+      "moduleId": "rn_RJz9C8xpW8y4CQzn::L3",
+      "stem": "Bromine water displaces iodine from potassium iodide: Br2 + 2KI -> I2 + 2KBr. Write the ionic equation and name the spectator.",
+      "misconceptionClass": "halogen displacement ionic",
+      "kind": "application",
+      "modelAnswer": "Br2 (aq) + 2I- (aq) -> I2 (aq) + 2Br- (aq); the potassium ion is the spectator that cancels from both sides.",
+      "keywords": [
+        "Br2",
+        "I-",
+        "spectator",
+        "potassium"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_RJz9C8xpW8y4CQzn::L4::Q1",
+      "moduleId": "rn_RJz9C8xpW8y4CQzn::L4",
+      "stem": "Br2 (aq) + 2KI (aq) -> I2 (aq) + 2KBr (aq): which reaction does this displacement equation show?",
+      "misconceptionClass": "displacement identification",
+      "options": [
+        {
+          "key": "A",
+          "text": "Neutralisation, because a salt forms",
+          "correct": false,
+          "explanation": "Salt formation alone does not make a neutralisation; an acid and base must react.",
+          "misconception": "pattern mismatched"
+        },
+        {
+          "key": "B",
+          "text": "Precipitation, because the solution darkens",
+          "correct": false,
+          "explanation": "Colour change here is iodine in solution, not a solid precipitate.",
+          "misconception": "observation misread"
+        },
+        {
+          "key": "C",
+          "text": "Combustion, because bromine is an oxidant",
+          "correct": false,
+          "explanation": "No oxide forms; the pattern is displacement.",
+          "misconception": "type invented"
+        },
+        {
+          "key": "D",
+          "text": "Displacement, because bromine takes iodide's place",
+          "correct": true,
+          "explanation": "The more reactive halogen displaces the less reactive one from its salt.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_RJz9C8xpW8y4CQzn::L4::Q2",
+      "moduleId": "rn_RJz9C8xpW8y4CQzn::L4",
+      "stem": "Which ionic equation is the signature of an acid-base neutralisation?",
+      "misconceptionClass": "neutralisation signature",
+      "options": [
+        {
+          "key": "A",
+          "text": "H+ (aq) + OH- (aq) -> H2O (l)",
+          "correct": true,
+          "explanation": "The proton meets the hydroxide to form water.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "2H+ + CO32- -> H2O + CO2",
+          "correct": false,
+          "explanation": "That is the carbonate variant, which additionally releases carbon dioxide.",
+          "misconception": "variant confused"
+        },
+        {
+          "key": "C",
+          "text": "Ba2+ + SO42- -> BaSO4",
+          "correct": false,
+          "explanation": "That is a precipitation signature.",
+          "misconception": "type confused"
+        },
+        {
+          "key": "D",
+          "text": "Zn + Cu2+ -> Zn2+ + Cu",
+          "correct": false,
+          "explanation": "That is metal displacement.",
+          "misconception": "type confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_RJz9C8xpW8y4CQzn::L4::Q3",
+      "moduleId": "rn_RJz9C8xpW8y4CQzn::L4",
+      "stem": "BaCl2 (aq) + Na2SO4 (aq) -> BaSO4 (s) + 2NaCl (aq) shows which observation?",
+      "misconceptionClass": "precipitation observation",
+      "options": [
+        {
+          "key": "A",
+          "text": "The solutions simply mixing with no change",
+          "correct": false,
+          "explanation": "The insoluble product is the whole point.",
+          "misconception": "change denied"
+        },
+        {
+          "key": "B",
+          "text": "A white solid forming as barium sulfate settles out",
+          "correct": true,
+          "explanation": "Two clear solutions react to give an insoluble white precipitate.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Effervescence of a colourless gas",
+          "correct": false,
+          "explanation": "No gas is produced in this equation.",
+          "misconception": "gas invented"
+        },
+        {
+          "key": "D",
+          "text": "A solution changing from blue to colourless",
+          "correct": false,
+          "explanation": "No coloured species participates here.",
+          "misconception": "colour invented"
+        }
+      ]
+    },
+    {
+      "id": "rn_RJz9C8xpW8y4CQzn::L4::Q4",
+      "moduleId": "rn_RJz9C8xpW8y4CQzn::L4",
+      "stem": "Why does aqueous bromine demand a fume cupboard and nitrile gloves in a displacement experiment?",
+      "misconceptionClass": "hazard linkage",
+      "options": [
+        {
+          "key": "A",
+          "text": "Because the reaction releases hydrogen gas",
+          "correct": false,
+          "explanation": "No hydrogen forms in halogen displacement.",
+          "misconception": "gas invented"
+        },
+        {
+          "key": "B",
+          "text": "Because all aqueous solutions are corrosive",
+          "correct": false,
+          "explanation": "Hazard depends on the specific reagent and concentration.",
+          "misconception": "blanket misstatement"
+        },
+        {
+          "key": "C",
+          "text": "Bromine itself is classified toxic, corrosive and environmentally harmful, and even bromine water is corrosive above 0.2 mol dm^-3",
+          "correct": true,
+          "explanation": "The reagent's hazard profile, read from the equation's species, drives the precautions.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Because potassium iodide is explosive",
+          "correct": false,
+          "explanation": "KI is low hazard; the bromine is the risk.",
+          "misconception": "hazard misplaced"
+        }
+      ]
+    },
+    {
+      "id": "rn_RJz9C8xpW8y4CQzn::L4::Q5",
+      "moduleId": "rn_RJz9C8xpW8y4CQzn::L4",
+      "stem": "A student adds sodium carbonate to nitric acid and sees bubbling. Which ionic equation explains the gas?",
+      "misconceptionClass": "carbonate effervescence",
+      "options": [
+        {
+          "key": "A",
+          "text": "H+ + OH- -> H2O",
+          "correct": false,
+          "explanation": "That produces water silently, no bubbles.",
+          "misconception": "signature mismatched"
+        },
+        {
+          "key": "B",
+          "text": "Na+ + NO3- -> NaNO3",
+          "correct": false,
+          "explanation": "Sodium nitrate stays dissolved; nothing bubbles.",
+          "misconception": "spectator promoted"
+        },
+        {
+          "key": "C",
+          "text": "CO32- -> C + O2",
+          "correct": false,
+          "explanation": "Carbonates do not decompose that way in acid.",
+          "misconception": "chemistry invented"
+        },
+        {
+          "key": "D",
+          "text": "2H+ (aq) + CO32- (aq) -> H2O (l) + CO2 (g)",
+          "correct": true,
+          "explanation": "The carbonate meets protons, releasing carbon dioxide gas.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_RJz9C8xpW8y4CQzn::L4::Q6",
+      "moduleId": "rn_RJz9C8xpW8y4CQzn::L4",
+      "stem": "State the defining observation of a precipitation reaction.",
+      "misconceptionClass": "precipitation recall",
+      "kind": "recall",
+      "modelAnswer": "Two aqueous solutions react and one product is an insoluble solid, seen as a precipitate that clouds or settles from the mixture.",
+      "keywords": [
+        "aqueous",
+        "insoluble",
+        "solid",
+        "precipitate"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_RJz9C8xpW8y4CQzn::L4::Q7",
+      "moduleId": "rn_RJz9C8xpW8y4CQzn::L4",
+      "stem": "State the ionic equation for the neutralisation of any strong acid by any alkali.",
+      "misconceptionClass": "neutralisation recall",
+      "kind": "recall",
+      "modelAnswer": "H+ (aq) + OH- (aq) -> H2O (l); the acid supplies the proton and the alkali supplies the hydroxide.",
+      "keywords": [
+        "H+",
+        "OH-",
+        "H2O",
+        "proton"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_RJz9C8xpW8y4CQzn::L4::Q8",
+      "moduleId": "rn_RJz9C8xpW8y4CQzn::L4",
+      "stem": "Explain why the ionic equation is the clearer view of a precipitation reaction than the full equation.",
+      "misconceptionClass": "ionic clarity",
+      "kind": "explain-why",
+      "modelAnswer": "The full equation lists four dissolved species, but only the barium and sulfate ions actually combine into the insoluble solid; the sodium and chloride ions cancel as spectators, so the ionic equation Ba2+ + SO42- -> BaSO4 shows the chemical change alone.",
+      "keywords": [
+        "spectators",
+        "cancel",
+        "insoluble",
+        "combine"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_RJz9C8xpW8y4CQzn::L4::Q9",
+      "moduleId": "rn_RJz9C8xpW8y4CQzn::L4",
+      "stem": "A planchet of zinc is dropped into copper(II) sulfate solution and a reddish deposit forms. Write the full equation with state symbols and the matching ionic equation, and name the observation each explains.",
+      "misconceptionClass": "observation to equation chain",
+      "kind": "application",
+      "modelAnswer": "Full: Zn (s) + CuSO4 (aq) -> ZnSO4 (aq) + Cu (s); ionic: Zn + Cu2+ -> Zn2+ + Cu; the reddish deposit is the copper product and the blue colour fading tracks the Cu2+ ions being consumed.",
+      "keywords": [
+        "Zn",
+        "Cu2+",
+        "deposit",
+        "copper"
+      ],
+      "options": []
+    }
+  ]
+}

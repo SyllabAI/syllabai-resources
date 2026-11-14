@@ -1,0 +1,159 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_bzggqrP8CF2WwQsn",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "1d98d6fcbb2dcbcc69edb212e054213978e02eb7a4647c9dcfc8494b8e1c135c",
+    "pinnedRef": "276971edf1296c856345d856b2cbdf6140db0d94"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_bzggqrP8CF2WwQsn",
+    "topicTitle": "1. Structure, Bonding & Introduction to Organic Chemistry",
+    "subtopicTitle": "Calculations of Product",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/1-structure-bonding-and-introduction-to-organic-chemistry/1-2-amount-of-substance/1-2-4-calculations-of-product",
+    "specAnchors": [
+      {
+        "code": "1.9",
+        "text": "be able to calculate percentage yields and percentage atom economies (by mass) in laboratory and industrial processes, using chemical equations and experimental results Atom economy = molar mass of the desired product × 100% sum of the molar masses of all products"
+      }
+    ],
+    "primer": {
+      "text": "Two scores grade a product: how much you got, and how well atoms were used. This note computes percentage yield against the theoretical ceiling from a reacting-mass calculation, then reads atom economy straight from the balanced equation - 100% for addition routes, 45.8% for the blast furnace.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_bzggqrP8CF2WwQsn::L1",
+        "title": "Percentage yield",
+        "sourceHeadings": [
+          "Percentage yield"
+        ],
+        "specRefs": [
+          "1.9"
+        ],
+        "opening": "Theory promises a maximum; the lab delivers less. This lesson defines percentage yield as actual over theoretical times 100, walks the copper displacement calculation, and explains the loss mechanisms and the over-100 anomaly.",
+        "keyPoints": [
+          "Percentage yield = (actual yield / theoretical yield) x 100.",
+          "The actual yield is measured experimentally; the theoretical yield comes from a reacting-mass calculation.",
+          "Yields fall below 100% through side reactions, incomplete reaction, and losses during separation.",
+          "6.5 g of zinc gives 6.4 g of copper theoretically; recovering 4.8 g is a 75% yield."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Compare what you actually got with what the equation promised, as a percentage.",
+            "analogy": "It is a school test score: your marks (actual) over the full marks (theoretical), times 100.",
+            "examPointer": "The theoretical yield always needs the mole ratio step - do not reuse the reactant mass."
+          },
+          "medium": {
+            "restatement": "The theoretical yield is the stoichiometric ceiling fixed by the limiting reactant; every side reaction, equilibrium shortfall and transfer loss shaves the measured mass below it.",
+            "analogy": "The equation draws the perfect-bake cake; the kitchen eats the difference - crumb loss, stuck batter, tasting spoon.",
+            "examPointer": "Above 100% means wet crystals, impurities, or a weighing error such as the filter paper included."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_bzggqrP8CF2WwQsn::L1::Q1",
+          "rn_bzggqrP8CF2WwQsn::L1::Q2",
+          "rn_bzggqrP8CF2WwQsn::L1::Q3",
+          "rn_bzggqrP8CF2WwQsn::L1::Q4",
+          "rn_bzggqrP8CF2WwQsn::L1::Q5",
+          "rn_bzggqrP8CF2WwQsn::L1::Q6",
+          "rn_bzggqrP8CF2WwQsn::L1::Q7",
+          "rn_bzggqrP8CF2WwQsn::L1::Q8",
+          "rn_bzggqrP8CF2WwQsn::L1::Q9"
+        ],
+        "figureIds": []
+      },
+      {
+        "id": "rn_bzggqrP8CF2WwQsn::L2",
+        "title": "Atom economy",
+        "sourceHeadings": [
+          "Atom economy"
+        ],
+        "specRefs": [
+          "1.9"
+        ],
+        "opening": "Yield measures success; atom economy measures design. This lesson installs the atom economy equation from the balanced equation alone, contrasts addition (100%) with substitution routes, and computes the blast-furnace value.",
+        "keyPoints": [
+          "Atom economy = (Mr of desired product / total Mr of ALL reactants) x 100.",
+          "It is read straight from the balanced equation - no experimental data involved.",
+          "Addition reactions and single-product reactions run at 100% economy.",
+          "For Fe2O3 + 3CO -> 2Fe + 3CO2, the economy is 111.6 / 243.6 x 100 = 45.8%."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Work out what fraction of ALL the reactant mass ends up inside the product you actually want.",
+            "analogy": "Like asking what portion of every ingredient you bought ends up in the dish served, with the trimmings as waste.",
+            "examPointer": "Show the working even for the obvious 100% cases - examiners demand it."
+          },
+          "medium": {
+            "restatement": "The numerator collects the desired product's formula mass per equation unit; the denominator collects every reactant's mass, coefficients included, because their atoms must all go somewhere.",
+            "analogy": "It is a shipping efficiency: desired cargo over total freight, where unwanted by-products are the dead weight.",
+            "examPointer": "For Fe2O3 + 3CO -> 2Fe + 3CO2: (2 x 55.8) / (159.6 + 3 x 28.0) x 100 = 45.8%."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_bzggqrP8CF2WwQsn::L2::Q1",
+          "rn_bzggqrP8CF2WwQsn::L2::Q2",
+          "rn_bzggqrP8CF2WwQsn::L2::Q3",
+          "rn_bzggqrP8CF2WwQsn::L2::Q4",
+          "rn_bzggqrP8CF2WwQsn::L2::Q5",
+          "rn_bzggqrP8CF2WwQsn::L2::Q6",
+          "rn_bzggqrP8CF2WwQsn::L2::Q7",
+          "rn_bzggqrP8CF2WwQsn::L2::Q8",
+          "rn_bzggqrP8CF2WwQsn::L2::Q9"
+        ],
+        "figureIds": []
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "percentage yield",
+          "definition": "Actual yield as a percentage of the theoretical yield predicted by the reacting-mass calculation.",
+          "firstLesson": 1
+        },
+        {
+          "term": "atom economy",
+          "definition": "The percentage of all reactant mass that ends up in the desired product, read from the balanced equation.",
+          "firstLesson": 2
+        },
+        {
+          "term": "actual yield",
+          "definition": "The mass or moles of product actually recovered in the experiment and measured on the balance.",
+          "firstLesson": 1
+        }
+      ],
+      "workedExample": {
+        "prompt": "The blast furnace reduces iron(III) oxide with carbon monoxide: Fe2O3 + 3CO -> 2Fe + 3CO2. Calculate the atom economy for iron as the desired product. (Mr values: Fe 55.8, CO 28.0, Fe2O3 159.6)",
+        "steps": [
+          "Desired product mass per equation unit: 2 x 55.8 = 111.6.",
+          "Total reactant mass: 159.6 + (3 x 28.0) = 159.6 + 84.0 = 243.6.",
+          "Atom economy = (111.6 / 243.6) x 100 = 45.81%, quoted as 45.8%."
+        ],
+        "finalAnswer": "45.8% of the reactant mass ends up in metallic iron; the rest exits as carbon dioxide."
+      }
+    }
+  }
+}
