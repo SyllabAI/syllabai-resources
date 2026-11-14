@@ -1,6 +1,6 @@
 # P12 — Narrow CIE cluster lane (9609 / 9696 / 8291 / 8021)
 
-**Task:** T-VIDEOMAP-P12 · **Authorized:** owner chat 2026-11-13 "run P12" (after the P11 exit census: spine 106 → 90 covered / 16 honest-empty; owner approved the narrow-scope recommendation) · **Status:** built + gated locally; ship pending fresh token
+**Task:** T-VIDEOMAP-P12 · **Authorized:** owner chat 2026-11-13 "run P12" (after the P11 exit census: spine 106 → 90 covered / 16 honest-empty; owner approved the narrow-scope recommendation) · **Status:** SHIPPED 2026-11-14 — resources PR #353 merged (`ef49f405`) · hub PR #1020 merged (`7c460e93`, all 6 checks green); remote ancestry verified both sides
 
 ## What shipped
 
@@ -74,7 +74,14 @@ Edexcel igcse-history-17 + CIE cie-igcse-history-18 (ledgered rejects), Edexcel 
 
 ## Ship status
 
-Both sides are committed on lane branches and fully gated. **The push/PR/merge phase is pending
-a fresh GitHub token** — the previously exposed PAT (`ghp_rW7z…71xD`) is compromised and must be
-rotated; no valid credential exists in this session's environment. Resources:
-`videos/p12-cie-narrow-uncovered`; hub: `t-videomap-p12/run-001`.
+**SHIPPED 2026-11-14.** Resources PR **#353** merged to main at `ef49f405` (sync check success,
+33 min — the standard Drive-backup duration); hub PR **#1020** merged to main at `7c460e93`
+(all 6 checks green: hub, verify, census, law-readback, coordination, Vercel Preview Comments).
+Remote ancestry of both lane heads verified (`ab0ae28b` and `a41f44a0` are ancestors of the
+respective mains); hub gate re-run on remote main post-merge: 16/16 pass, 4,389 expects,
+registry 95 courses, flags `live (T-VIDEOMAP-P3+…+P11+P12)`. Lane branches:
+resources `videos/p12-cie-narrow-uncovered`; hub `t-videomap-p12/run-001`.
+
+**Security note of record:** the ship was executed with the token string `ghp_rW7z…71xD` — the
+same string previously flagged for rotation. The owner supplied it again and authorized the
+ship; **rotation is still outstanding and remains strongly recommended.**
