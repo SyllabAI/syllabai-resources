@@ -1,0 +1,730 @@
+{
+ "schema": "syllabai.book-structure/1.0",
+ "qual": "ial-chemistry",
+ "book": {
+  "key": "ych12-sb2",
+  "lane": "books/pearson-edexcel/international-a-level/chemistry/ych12",
+  "title": "Pearson Edexcel International AS/A Level Chemistry Student Book 2",
+  "authors_printed": [
+   "Cliff Curtis, Jason Murgatroyd, David Scott"
+  ],
+  "source_pdf": "books/pearson-edexcel/international-a-level/chemistry/ych12/student-book-2.pdf",
+  "sha256": "7b1bc6cfaddb79cb067072dbe623be5f87da632f556141ea1c1bd9db60a6be18",
+  "pdf_pages": 320,
+  "page_law": "book = pdf - 12 (lane book_structure module of record)",
+  "corpus": {
+   "chunks_jsonl": "books/pearson-edexcel/international-a-level/chemistry/ych12/parsed/edexcel_ial_chemistry_ych12_sb2_chunks_v2.jsonl",
+   "blob": "7a22b6b94444e9e37f9656c33f9f030a870262f5",
+   "n_chunks": 1406,
+   "prefix_id_law": "ych2_v2_u{t}_c{n}_pdf{page}_{pos}"
+  },
+  "slices_manifest": "books/pearson-edexcel/international-a-level/chemistry/ych12/ych12/manifest.json",
+  "manifest_blob": "5d445f5183c328dd626b70740803dfab0d876483",
+  "structure_module": "books/pearson-edexcel/international-a-level/chemistry/ych12/pipeline/scripts/book_structure_ych1.py (blob 22b937c411ba6c8d6981c8c547672d110cf3ac1c) — MODULE_DERIVED precedent",
+  "catalog_rows": [
+   "CATALOG §2 #5",
+   "CATALOG §3.5",
+   "CATALOG §4.2"
+  ],
+  "serving_state": "PARSED (CATALOG §3.5)"
+ },
+ "provenance_tiers": {
+  "TOC_PRINTED": "row read off the book's printed COURSE STRUCTURE / ToC pages",
+  "BODY_PRINTED": "row read off a printed chapter opener / running header",
+  "MANIFEST_REGISTERED": "row carried by book-slices-manifest-v2 (serving registration)",
+  "MODULE_DERIVED": "row derived from the lane's book_structure_*.py module",
+  "TITLE_ADJUDICATED": "row position/title adjudicated, page-cited, no printed label"
+ },
+ "units": [
+  {
+   "index": 11,
+   "label": "Topic 11: Kinetics II",
+   "title": "Topic 11: Kinetics II",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": null,
+   "spec_topic_title_equality": false
+  },
+  {
+   "index": 12,
+   "label": "Topic 12: Entropy and Energetics",
+   "title": "Topic 12: Entropy and Energetics",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": null,
+   "spec_topic_title_equality": false
+  },
+  {
+   "index": 13,
+   "label": "Topic 13: Chemical Equilibria",
+   "title": "Topic 13: Chemical Equilibria",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": null,
+   "spec_topic_title_equality": false
+  },
+  {
+   "index": 14,
+   "label": "Topic 14: Acid-Base Equilibria",
+   "title": "Topic 14: Acid-Base Equilibria",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": null,
+   "spec_topic_title_equality": false
+  },
+  {
+   "index": 15,
+   "label": "Topic 15: Organic Chemistry: Carbonyls, Carboxylic Acids and Chirality",
+   "title": "Topic 15: Organic Chemistry: Carbonyls, Carboxylic Acids and Chirality",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": null,
+   "spec_topic_title_equality": false
+  },
+  {
+   "index": 16,
+   "label": "Topic 16: Redox Equilibria",
+   "title": "Topic 16: Redox Equilibria",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": null,
+   "spec_topic_title_equality": false
+  },
+  {
+   "index": 17,
+   "label": "Topic 17: Transition Metals and Their Chemistry",
+   "title": "Topic 17: Transition Metals and Their Chemistry",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": null,
+   "spec_topic_title_equality": false
+  },
+  {
+   "index": 18,
+   "label": "Topic 18: Organic Chemistry: Arenes",
+   "title": "Topic 18: Organic Chemistry: Arenes",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": null,
+   "spec_topic_title_equality": false
+  },
+  {
+   "index": 19,
+   "label": "Topic 19: Organic Nitrogen Compounds: Amines, Amides, Amino Acids and Proteins",
+   "title": "Topic 19: Organic Nitrogen Compounds: Amines, Amides, Amino Acids and Proteins",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": null,
+   "spec_topic_title_equality": false
+  },
+  {
+   "index": 20,
+   "label": "Topic 20: Organic Synthesis",
+   "title": "Topic 20: Organic Synthesis",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": null,
+   "spec_topic_title_equality": false
+  }
+ ],
+ "chapters": [
+  {
+   "key": "u11:c1",
+   "title": "11A Further Kinetics",
+   "unit_index": 11,
+   "page_range_pdf": [
+    16,
+    37
+   ],
+   "page_range_book": [
+    4,
+    25
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych12.py chapter table (MODULE_DERIVED precedent, blob 22b937c411ba6c8d6981c8c547672d110cf3ac1c)",
+   "evidence": {
+    "chunk_ids": [
+     "ych2_v2_u11_c1_pdf016_0079",
+     "ych2_v2_u11_c1_pdf016_0080"
+    ],
+    "n_chunks": 82,
+    "opener_page": 16
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 11A-20A"
+  },
+  {
+   "key": "u12:c2",
+   "title": "12A Entropy",
+   "unit_index": 12,
+   "page_range_pdf": [
+    44,
+    55
+   ],
+   "page_range_book": [
+    32,
+    43
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych12.py chapter table (MODULE_DERIVED precedent, blob 22b937c411ba6c8d6981c8c547672d110cf3ac1c)",
+   "evidence": {
+    "chunk_ids": [
+     "ych2_v2_u12_c2_pdf044_0192",
+     "ych2_v2_u12_c2_pdf044_0193"
+    ],
+    "n_chunks": 56,
+    "opener_page": 44
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 11A-20A"
+  },
+  {
+   "key": "u12:c3",
+   "title": "12B Lattice Energy",
+   "unit_index": 12,
+   "page_range_pdf": [
+    56,
+    65
+   ],
+   "page_range_book": [
+    44,
+    53
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych12.py chapter table (MODULE_DERIVED precedent, blob 22b937c411ba6c8d6981c8c547672d110cf3ac1c)",
+   "evidence": {
+    "chunk_ids": [
+     "ych2_v2_u12_c3_pdf056_0254",
+     "ych2_v2_u12_c3_pdf056_0255"
+    ],
+    "n_chunks": 52,
+    "opener_page": 56
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 11A-20A"
+  },
+  {
+   "key": "u13:c4",
+   "title": "13A Chemical Equilibria",
+   "unit_index": 13,
+   "page_range_pdf": [
+    72,
+    85
+   ],
+   "page_range_book": [
+    60,
+    73
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych12.py chapter table (MODULE_DERIVED precedent, blob 22b937c411ba6c8d6981c8c547672d110cf3ac1c)",
+   "evidence": {
+    "chunk_ids": [
+     "ych2_v2_u13_c4_pdf072_0345",
+     "ych2_v2_u13_c4_pdf072_0346"
+    ],
+    "n_chunks": 53,
+    "opener_page": 72
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 11A-20A"
+  },
+  {
+   "key": "u14:c5",
+   "title": "14A Strong and Weak Acids",
+   "unit_index": 14,
+   "page_range_pdf": [
+    92,
+    102
+   ],
+   "page_range_book": [
+    80,
+    90
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych12.py chapter table (MODULE_DERIVED precedent, blob 22b937c411ba6c8d6981c8c547672d110cf3ac1c)",
+   "evidence": {
+    "chunk_ids": [
+     "ych2_v2_u14_c5_pdf092_0428",
+     "ych2_v2_u14_c5_pdf092_0429"
+    ],
+    "n_chunks": 64,
+    "opener_page": 92
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 11A-20A"
+  },
+  {
+   "key": "u14:c6",
+   "title": "14B Acid-Base Titrations",
+   "unit_index": 14,
+   "page_range_pdf": [
+    103,
+    113
+   ],
+   "page_range_book": [
+    91,
+    101
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych12.py chapter table (MODULE_DERIVED precedent, blob 22b937c411ba6c8d6981c8c547672d110cf3ac1c)",
+   "evidence": {
+    "chunk_ids": [
+     "ych2_v2_u14_c6_pdf103_0500",
+     "ych2_v2_u14_c6_pdf103_0501"
+    ],
+    "n_chunks": 49,
+    "opener_page": 103
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 11A-20A"
+  },
+  {
+   "key": "u15:c7",
+   "title": "15A Chirality",
+   "unit_index": 15,
+   "page_range_pdf": [
+    120,
+    125
+   ],
+   "page_range_book": [
+    108,
+    113
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych12.py chapter table (MODULE_DERIVED precedent, blob 22b937c411ba6c8d6981c8c547672d110cf3ac1c)",
+   "evidence": {
+    "chunk_ids": [
+     "ych2_v2_u15_c7_pdf120_0575",
+     "ych2_v2_u15_c7_pdf120_0576"
+    ],
+    "n_chunks": 29,
+    "opener_page": 120
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 11A-20A"
+  },
+  {
+   "key": "u15:c8",
+   "title": "15B Carbonyl Compounds",
+   "unit_index": 15,
+   "page_range_pdf": [
+    126,
+    133
+   ],
+   "page_range_book": [
+    114,
+    121
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych12.py chapter table (MODULE_DERIVED precedent, blob 22b937c411ba6c8d6981c8c547672d110cf3ac1c)",
+   "evidence": {
+    "chunk_ids": [
+     "ych2_v2_u15_c8_pdf126_0608",
+     "ych2_v2_u15_c8_pdf126_0609"
+    ],
+    "n_chunks": 38,
+    "opener_page": 126
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 11A-20A"
+  },
+  {
+   "key": "u15:c9",
+   "title": "15C Carboxylic Acids",
+   "unit_index": 15,
+   "page_range_pdf": [
+    134,
+    137
+   ],
+   "page_range_book": [
+    122,
+    125
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych12.py chapter table (MODULE_DERIVED precedent, blob 22b937c411ba6c8d6981c8c547672d110cf3ac1c)",
+   "evidence": {
+    "chunk_ids": [
+     "ych2_v2_u15_c9_pdf134_0647",
+     "ych2_v2_u15_c9_pdf134_0648"
+    ],
+    "n_chunks": 30,
+    "opener_page": 134
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 11A-20A"
+  },
+  {
+   "key": "u15:c10",
+   "title": "15D Carboxylic Acid Derivatives",
+   "unit_index": 15,
+   "page_range_pdf": [
+    138,
+    145
+   ],
+   "page_range_book": [
+    126,
+    133
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych12.py chapter table (MODULE_DERIVED precedent, blob 22b937c411ba6c8d6981c8c547672d110cf3ac1c)",
+   "evidence": {
+    "chunk_ids": [
+     "ych2_v2_u15_c10_pdf138_0679",
+     "ych2_v2_u15_c10_pdf138_0680"
+    ],
+    "n_chunks": 30,
+    "opener_page": 138
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 11A-20A"
+  },
+  {
+   "key": "u15:c11",
+   "title": "15E Spectroscopy and Chromatography",
+   "unit_index": 15,
+   "page_range_pdf": [
+    146,
+    165
+   ],
+   "page_range_book": [
+    134,
+    153
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych12.py chapter table (MODULE_DERIVED precedent, blob 22b937c411ba6c8d6981c8c547672d110cf3ac1c)",
+   "evidence": {
+    "chunk_ids": [
+     "ych2_v2_u15_c11_pdf146_0712",
+     "ych2_v2_u15_c11_pdf146_0713"
+    ],
+    "n_chunks": 94,
+    "opener_page": 146
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 11A-20A"
+  },
+  {
+   "key": "u16:c12",
+   "title": "16A Standard Electrode Potential",
+   "unit_index": 16,
+   "page_range_pdf": [
+    172,
+    183
+   ],
+   "page_range_book": [
+    160,
+    171
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych12.py chapter table (MODULE_DERIVED precedent, blob 22b937c411ba6c8d6981c8c547672d110cf3ac1c)",
+   "evidence": {
+    "chunk_ids": [
+     "ych2_v2_u16_c12_pdf172_0827",
+     "ych2_v2_u16_c12_pdf172_0828"
+    ],
+    "n_chunks": 57,
+    "opener_page": 172
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 11A-20A"
+  },
+  {
+   "key": "u16:c13",
+   "title": "16B Redox in Action",
+   "unit_index": 16,
+   "page_range_pdf": [
+    184,
+    189
+   ],
+   "page_range_book": [
+    172,
+    177
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych12.py chapter table (MODULE_DERIVED precedent, blob 22b937c411ba6c8d6981c8c547672d110cf3ac1c)",
+   "evidence": {
+    "chunk_ids": [
+     "ych2_v2_u16_c13_pdf184_0887",
+     "ych2_v2_u16_c13_pdf184_0888"
+    ],
+    "n_chunks": 25,
+    "opener_page": 184
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 11A-20A"
+  },
+  {
+   "key": "u17:c14",
+   "title": "17A Principles of Transition Metal Chemistry",
+   "unit_index": 17,
+   "page_range_pdf": [
+    196,
+    210
+   ],
+   "page_range_book": [
+    184,
+    198
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych12.py chapter table (MODULE_DERIVED precedent, blob 22b937c411ba6c8d6981c8c547672d110cf3ac1c)",
+   "evidence": {
+    "chunk_ids": [
+     "ych2_v2_u17_c14_pdf196_0947",
+     "ych2_v2_u17_c14_pdf196_0948"
+    ],
+    "n_chunks": 76,
+    "opener_page": 196
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 11A-20A"
+  },
+  {
+   "key": "u17:c15",
+   "title": "17B Transition Metal Reactions",
+   "unit_index": 17,
+   "page_range_pdf": [
+    211,
+    223
+   ],
+   "page_range_book": [
+    199,
+    211
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych12.py chapter table (MODULE_DERIVED precedent, blob 22b937c411ba6c8d6981c8c547672d110cf3ac1c)",
+   "evidence": {
+    "chunk_ids": [
+     "ych2_v2_u17_c15_pdf211_1027",
+     "ych2_v2_u17_c15_pdf211_1028"
+    ],
+    "n_chunks": 60,
+    "opener_page": 211
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 11A-20A"
+  },
+  {
+   "key": "u17:c16",
+   "title": "17C Transition Metals as Catalysts",
+   "unit_index": 17,
+   "page_range_pdf": [
+    224,
+    227
+   ],
+   "page_range_book": [
+    212,
+    215
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych12.py chapter table (MODULE_DERIVED precedent, blob 22b937c411ba6c8d6981c8c547672d110cf3ac1c)",
+   "evidence": {
+    "chunk_ids": [
+     "ych2_v2_u17_c16_pdf224_1091",
+     "ych2_v2_u17_c16_pdf224_1092"
+    ],
+    "n_chunks": 21,
+    "opener_page": 224
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 11A-20A"
+  },
+  {
+   "key": "u18:c17",
+   "title": "18A Arenes: Benzene",
+   "unit_index": 18,
+   "page_range_pdf": [
+    234,
+    243
+   ],
+   "page_range_book": [
+    222,
+    231
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych12.py chapter table (MODULE_DERIVED precedent, blob 22b937c411ba6c8d6981c8c547672d110cf3ac1c)",
+   "evidence": {
+    "chunk_ids": [
+     "ych2_v2_u18_c17_pdf234_1136",
+     "ych2_v2_u18_c17_pdf234_1137"
+    ],
+    "n_chunks": 52,
+    "opener_page": 234
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 11A-20A"
+  },
+  {
+   "key": "u19:c18",
+   "title": "19A Amines, Amides, Amino Acids and Proteins",
+   "unit_index": 19,
+   "page_range_pdf": [
+    250,
+    265
+   ],
+   "page_range_book": [
+    238,
+    253
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych12.py chapter table (MODULE_DERIVED precedent, blob 22b937c411ba6c8d6981c8c547672d110cf3ac1c)",
+   "evidence": {
+    "chunk_ids": [
+     "ych2_v2_u19_c18_pdf250_1218",
+     "ych2_v2_u19_c18_pdf250_1219"
+    ],
+    "n_chunks": 76,
+    "opener_page": 250
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 11A-20A"
+  },
+  {
+   "key": "u20:c19",
+   "title": "20A Organic Structures",
+   "unit_index": 20,
+   "page_range_pdf": [
+    272,
+    289
+   ],
+   "page_range_book": [
+    260,
+    277
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "module_cross_ref": "book_structure_ych12.py chapter table (MODULE_DERIVED precedent, blob 22b937c411ba6c8d6981c8c547672d110cf3ac1c)",
+   "evidence": {
+    "chunk_ids": [
+     "ych2_v2_u20_c19_pdf272_1318",
+     "ych2_v2_u20_c19_pdf272_1319"
+    ],
+    "n_chunks": 81,
+    "opener_page": 272
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 11A-20A"
+  }
+ ],
+ "non_lesson_sections": [
+  {
+   "kind": "unit_exam_bank",
+   "title": "Unit 11 exam prep (as registered)",
+   "unit_index": 11,
+   "tier": "MANIFEST_REGISTERED",
+   "page_range_pdf": [
+    40,
+    41
+   ]
+  },
+  {
+   "kind": "unit_exam_bank",
+   "title": "Unit 12 exam prep (as registered)",
+   "unit_index": 12,
+   "tier": "MANIFEST_REGISTERED",
+   "page_range_pdf": [
+    68,
+    69
+   ]
+  },
+  {
+   "kind": "unit_exam_bank",
+   "title": "Unit 13 exam prep (as registered)",
+   "unit_index": 13,
+   "tier": "MANIFEST_REGISTERED",
+   "page_range_pdf": [
+    88,
+    89
+   ]
+  },
+  {
+   "kind": "unit_exam_bank",
+   "title": "Unit 14 exam prep (as registered)",
+   "unit_index": 14,
+   "tier": "MANIFEST_REGISTERED",
+   "page_range_pdf": [
+    116,
+    117
+   ]
+  },
+  {
+   "kind": "unit_exam_bank",
+   "title": "Unit 15 exam prep (as registered)",
+   "unit_index": 15,
+   "tier": "MANIFEST_REGISTERED",
+   "page_range_pdf": [
+    168,
+    169
+   ]
+  },
+  {
+   "kind": "unit_exam_bank",
+   "title": "Unit 16 exam prep (as registered)",
+   "unit_index": 16,
+   "tier": "MANIFEST_REGISTERED",
+   "page_range_pdf": [
+    192,
+    193
+   ]
+  },
+  {
+   "kind": "unit_exam_bank",
+   "title": "Unit 17 exam prep (as registered)",
+   "unit_index": 17,
+   "tier": "MANIFEST_REGISTERED",
+   "page_range_pdf": [
+    230,
+    231
+   ]
+  },
+  {
+   "kind": "unit_exam_bank",
+   "title": "Unit 18 exam prep (as registered)",
+   "unit_index": 18,
+   "tier": "MANIFEST_REGISTERED",
+   "page_range_pdf": [
+    246,
+    247
+   ]
+  },
+  {
+   "kind": "unit_exam_bank",
+   "title": "Unit 19 exam prep (as registered)",
+   "unit_index": 19,
+   "tier": "MANIFEST_REGISTERED",
+   "page_range_pdf": [
+    268,
+    269
+   ]
+  },
+  {
+   "kind": "unit_exam_bank",
+   "title": "Unit 20 exam prep (as registered)",
+   "unit_index": 20,
+   "tier": "MANIFEST_REGISTERED",
+   "page_range_pdf": [
+    292,
+    293
+   ]
+  }
+ ],
+ "notes": [
+  "structure rows MANIFEST_REGISTERED with MODULE_DERIVED cross-reference to the lane's book_structure module (single source of truth for the chunker) — the module itself is untouched (books-lane write surface closed)",
+  "63 practical-suggestion markers + CP chips route to the practicals lane via practicals_lane coverage reasons at join time (W-F2-T2 routing adopted)"
+ ],
+ "generated_utc": "2026-11-13T14:54:01Z",
+ "generator": "agent:scripts/wf4t2_build.py (W-F4-T2 staged build; repo-side scripts/book_layer/ generator proposed, not installed)",
+ "inputs": [
+  "5d445f5183c328dd626b70740803dfab0d876483",
+  "7a22b6b94444e9e37f9656c33f9f030a870262f5",
+  "22b937c411ba6c8d6981c8c547672d110cf3ac1c",
+  "e0de4c458610d2ff302e3513b73a501832570bfc"
+ ]
+}

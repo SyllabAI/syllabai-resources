@@ -1,0 +1,1887 @@
+{
+ "schema": "syllabai.book-spec-join/1.0",
+ "qual": "igcse-biology",
+ "join_keys": {
+  "J1_PRINTED_CODE_LIST": "ACTIVE — the printed per-chapter spec-code lists of the COURSE STRUCTURE spread (W-F1-T1 ToC transcription of record, page-cited)",
+  "J2_LO_CODE_CHIPS": "corroborated sparsely (4/21 LO chunks carry incidental chips) — not needed",
+  "J3_BODY_CODE_CHIPS": "not applied",
+  "J4_LO_TEXT_EQUALITY": "not applied (code_column family)",
+  "J5_TITLE_ADJUDICATED": "not applied as key (J1 stronger; the 22-chapter re-partition is expressed as J1 rows per W-F4-T1 §8.2)",
+  "J6_PAGE_SPAN_ADJACENCY": "not applied"
+ },
+ "rows": [
+  {
+   "chapter_key": "u1:c1",
+   "book_key": "4bi1-student-book",
+   "chapter_title": "Life processes",
+   "spec_refs": {
+    "printed_code_list": [
+     {
+      "printed": "1.1",
+      "subsection": "4BI1-SUB1",
+      "subsection_title": "Characteristics of living organisms",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:1.1"
+     },
+     {
+      "printed": "2.1",
+      "subsection": "4BI1-SUB3",
+      "subsection_title": "Level of organisation",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.1"
+     },
+     {
+      "printed": "2.2",
+      "subsection": "4BI1-SUB4",
+      "subsection_title": "Cell structure",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.2"
+     },
+     {
+      "printed": "2.3",
+      "subsection": "4BI1-SUB4",
+      "subsection_title": "Cell structure",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.3"
+     },
+     {
+      "printed": "2.4",
+      "subsection": "4BI1-SUB4",
+      "subsection_title": "Cell structure",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.4"
+     },
+     {
+      "printed": "2.5B",
+      "subsection": "4BI1-SUB4",
+      "subsection_title": "Cell structure",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.5B"
+     },
+     {
+      "printed": "2.6B",
+      "subsection": "4BI1-SUB4",
+      "subsection_title": "Cell structure",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.6B"
+     },
+     {
+      "printed": "2.11",
+      "subsection": "4BI1-SUB5",
+      "subsection_title": "Biological molecules",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.11"
+     },
+     {
+      "printed": "2.13",
+      "subsection": "4BI1-SUB5",
+      "subsection_title": "Biological molecules",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.13"
+     },
+     {
+      "printed": "2.12",
+      "subsection": "4BI1-SUB5",
+      "subsection_title": "Biological molecules",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.12"
+     },
+     {
+      "printed": "2.14B",
+      "subsection": "4BI1-SUB5",
+      "subsection_title": "Biological molecules",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.14B"
+     },
+     {
+      "printed": "2.15",
+      "subsection": "4BI1-SUB6",
+      "subsection_title": "Movement of substances into and out of cells",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.15"
+     },
+     {
+      "printed": "2.16",
+      "subsection": "4BI1-SUB6",
+      "subsection_title": "Movement of substances into and out of cells",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.16"
+     },
+     {
+      "printed": "2.17",
+      "subsection": "4BI1-SUB6",
+      "subsection_title": "Movement of substances into and out of cells",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.17"
+     },
+     {
+      "printed": "2.36",
+      "subsection": "4BI1-SUB8",
+      "subsection_title": "Respiration",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.36"
+     },
+     {
+      "printed": "2.34",
+      "subsection": "4BI1-SUB8",
+      "subsection_title": "Respiration",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.34"
+     },
+     {
+      "printed": "2.35",
+      "subsection": "4BI1-SUB8",
+      "subsection_title": "Respiration",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.35"
+     },
+     {
+      "printed": "2.37",
+      "subsection": "4BI1-SUB8",
+      "subsection_title": "Respiration",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.37"
+     },
+     {
+      "printed": "2.39",
+      "subsection": "4BI1-SUB8",
+      "subsection_title": "Respiration",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.39"
+     }
+    ]
+   },
+   "join_key": "J1_PRINTED_CODE_LIST",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "toc_cite": "book pp. iv-v (PDF spread 3/179); unit starts from CONTENTS p. iii (PDF spread 2)",
+    "codes_printed_n": 19,
+    "chunk_ids": [
+     "bio_v1_u1_c1_pdf006_0059",
+     "bio_v1_u1_c1_pdf006_0060"
+    ],
+    "pages": [
+     3,
+     24
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u1:c2",
+   "book_key": "4bi1-student-book",
+   "chapter_title": "The variety of living organisms",
+   "spec_refs": {
+    "printed_code_list": [
+     {
+      "printed": "1.2",
+      "subsection": "4BI1-SUB2",
+      "subsection_title": "Variety of living organisms",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:1.2"
+     },
+     {
+      "printed": "1.3",
+      "subsection": "4BI1-SUB2",
+      "subsection_title": "Variety of living organisms",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:1.3"
+     },
+     {
+      "printed": "1.4",
+      "subsection": "4BI1-SUB2",
+      "subsection_title": "Variety of living organisms",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:1.4"
+     }
+    ]
+   },
+   "join_key": "J1_PRINTED_CODE_LIST",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "toc_cite": "book pp. iv-v (PDF spread 3/179); unit starts from CONTENTS p. iii (PDF spread 2)",
+    "codes_printed_n": 3,
+    "chunk_ids": [
+     "bio_v1_u1_c2_pdf017_0127",
+     "bio_v1_u1_c2_pdf017_0128"
+    ],
+    "pages": [
+     25,
+     38
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u2:c3",
+   "book_key": "4bi1-student-book",
+   "chapter_title": "Breathing and gas exchange",
+   "spec_refs": {
+    "printed_code_list": [
+     {
+      "printed": "2.46",
+      "subsection": "4BI1-SUB9",
+      "subsection_title": "Gas exchange",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.46"
+     },
+     {
+      "printed": "2.47",
+      "subsection": "4BI1-SUB9",
+      "subsection_title": "Gas exchange",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.47"
+     },
+     {
+      "printed": "2.48",
+      "subsection": "4BI1-SUB9",
+      "subsection_title": "Gas exchange",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.48"
+     },
+     {
+      "printed": "2.50",
+      "subsection": "4BI1-SUB9",
+      "subsection_title": "Gas exchange",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.50"
+     },
+     {
+      "printed": "2.49",
+      "subsection": "4BI1-SUB9",
+      "subsection_title": "Gas exchange",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.49"
+     }
+    ]
+   },
+   "join_key": "J1_PRINTED_CODE_LIST",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "toc_cite": "book pp. iv-v (PDF spread 3/179); unit starts from CONTENTS p. iii (PDF spread 2)",
+    "codes_printed_n": 5,
+    "chunk_ids": [
+     "bio_v1_u2_c3_pdf024_0169",
+     "bio_v1_u2_c3_pdf024_0170"
+    ],
+    "pages": [
+     39,
+     51
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u2:c4",
+   "book_key": "4bi1-student-book",
+   "chapter_title": "Food and digestion",
+   "spec_refs": {
+    "printed_code_list": [
+     {
+      "printed": "2.7",
+      "subsection": "4BI1-SUB5",
+      "subsection_title": "Biological molecules",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.7"
+     },
+     {
+      "printed": "2.8",
+      "subsection": "4BI1-SUB5",
+      "subsection_title": "Biological molecules",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.8"
+     },
+     {
+      "printed": "2.9",
+      "subsection": "4BI1-SUB5",
+      "subsection_title": "Biological molecules",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.9"
+     },
+     {
+      "printed": "2.24",
+      "subsection": "4BI1-SUB7",
+      "subsection_title": "Nutrition",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.24"
+     },
+     {
+      "printed": "2.25",
+      "subsection": "4BI1-SUB7",
+      "subsection_title": "Nutrition",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.25"
+     },
+     {
+      "printed": "2.26",
+      "subsection": "4BI1-SUB7",
+      "subsection_title": "Nutrition",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.26"
+     },
+     {
+      "printed": "2.27",
+      "subsection": "4BI1-SUB7",
+      "subsection_title": "Nutrition",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.27"
+     },
+     {
+      "printed": "2.28",
+      "subsection": "4BI1-SUB7",
+      "subsection_title": "Nutrition",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.28"
+     },
+     {
+      "printed": "2.29",
+      "subsection": "4BI1-SUB7",
+      "subsection_title": "Nutrition",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.29"
+     },
+     {
+      "printed": "2.30",
+      "subsection": "4BI1-SUB7",
+      "subsection_title": "Nutrition",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.30"
+     },
+     {
+      "printed": "2.31",
+      "subsection": "4BI1-SUB7",
+      "subsection_title": "Nutrition",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.31"
+     },
+     {
+      "printed": "2.32",
+      "subsection": "4BI1-SUB7",
+      "subsection_title": "Nutrition",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.32"
+     },
+     {
+      "printed": "2.33B",
+      "subsection": "4BI1-SUB7",
+      "subsection_title": "Nutrition",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.33B"
+     }
+    ]
+   },
+   "join_key": "J1_PRINTED_CODE_LIST",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "toc_cite": "book pp. iv-v (PDF spread 3/179); unit starts from CONTENTS p. iii (PDF spread 2)",
+    "codes_printed_n": 13,
+    "chunk_ids": [
+     "bio_v1_u2_c4_pdf031_0206",
+     "bio_v1_u2_c4_pdf031_0207"
+    ],
+    "pages": [
+     52,
+     69
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u2:c5",
+   "book_key": "4bi1-student-book",
+   "chapter_title": "Blood and circulation",
+   "spec_refs": {
+    "printed_code_list": [
+     {
+      "printed": "2.51",
+      "subsection": "4BI1-SUB10",
+      "subsection_title": "Transport",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.51"
+     },
+     {
+      "printed": "2.52",
+      "subsection": "4BI1-SUB10",
+      "subsection_title": "Transport",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.52"
+     },
+     {
+      "printed": "2.69",
+      "subsection": "4BI1-SUB10",
+      "subsection_title": "Transport",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.69"
+     },
+     {
+      "printed": "2.65",
+      "subsection": "4BI1-SUB10",
+      "subsection_title": "Transport",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.65"
+     },
+     {
+      "printed": "2.67",
+      "subsection": "4BI1-SUB10",
+      "subsection_title": "Transport",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.67"
+     },
+     {
+      "printed": "2.66",
+      "subsection": "4BI1-SUB10",
+      "subsection_title": "Transport",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.66"
+     },
+     {
+      "printed": "2.68",
+      "subsection": "4BI1-SUB10",
+      "subsection_title": "Transport",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.68"
+     },
+     {
+      "printed": "2.59",
+      "subsection": "4BI1-SUB10",
+      "subsection_title": "Transport",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.59"
+     },
+     {
+      "printed": "2.60",
+      "subsection": "4BI1-SUB10",
+      "subsection_title": "Transport",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.60"
+     },
+     {
+      "printed": "2.61",
+      "subsection": "4BI1-SUB10",
+      "subsection_title": "Transport",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.61"
+     },
+     {
+      "printed": "2.62",
+      "subsection": "4BI1-SUB10",
+      "subsection_title": "Transport",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.62"
+     },
+     {
+      "printed": "2.63B",
+      "subsection": "4BI1-SUB10",
+      "subsection_title": "Transport",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.63B"
+     },
+     {
+      "printed": "2.64B",
+      "subsection": "4BI1-SUB10",
+      "subsection_title": "Transport",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.64B"
+     }
+    ]
+   },
+   "join_key": "J1_PRINTED_CODE_LIST",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "toc_cite": "book pp. iv-v (PDF spread 3/179); unit starts from CONTENTS p. iii (PDF spread 2)",
+    "codes_printed_n": 13,
+    "chunk_ids": [
+     "bio_v1_u2_c5_pdf040_0269",
+     "bio_v1_u2_c5_pdf040_0270"
+    ],
+    "pages": [
+     70,
+     83
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u2:c6",
+   "book_key": "4bi1-student-book",
+   "chapter_title": "Coordination",
+   "spec_refs": {
+    "printed_code_list": [
+     {
+      "printed": "2.80",
+      "subsection": "4BI1-SUB12",
+      "subsection_title": "Co-ordination and response",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.80"
+     },
+     {
+      "printed": "2.82",
+      "subsection": "4BI1-SUB12",
+      "subsection_title": "Co-ordination and response",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.82"
+     },
+     {
+      "printed": "2.87",
+      "subsection": "4BI1-SUB12",
+      "subsection_title": "Co-ordination and response",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.87"
+     },
+     {
+      "printed": "2.86",
+      "subsection": "4BI1-SUB12",
+      "subsection_title": "Co-ordination and response",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.86"
+     },
+     {
+      "printed": "2.88",
+      "subsection": "4BI1-SUB12",
+      "subsection_title": "Co-ordination and response",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.88"
+     },
+     {
+      "printed": "2.91",
+      "subsection": "4BI1-SUB12",
+      "subsection_title": "Co-ordination and response",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.91"
+     },
+     {
+      "printed": "2.92",
+      "subsection": "4BI1-SUB12",
+      "subsection_title": "Co-ordination and response",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.92"
+     },
+     {
+      "printed": "2.90",
+      "subsection": "4BI1-SUB12",
+      "subsection_title": "Co-ordination and response",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.90"
+     },
+     {
+      "printed": "2.89",
+      "subsection": "4BI1-SUB12",
+      "subsection_title": "Co-ordination and response",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.89"
+     }
+    ]
+   },
+   "join_key": "J1_PRINTED_CODE_LIST",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "toc_cite": "book pp. iv-v (PDF spread 3/179); unit starts from CONTENTS p. iii (PDF spread 2)",
+    "codes_printed_n": 9,
+    "chunk_ids": [
+     "bio_v1_u2_c6_pdf047_0306",
+     "bio_v1_u2_c6_pdf047_0307"
+    ],
+    "pages": [
+     84,
+     97
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u2:c7",
+   "book_key": "4bi1-student-book",
+   "chapter_title": "Chemical coordination",
+   "spec_refs": {
+    "printed_code_list": [
+     {
+      "printed": "2.86",
+      "subsection": "4BI1-SUB12",
+      "subsection_title": "Co-ordination and response",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.86"
+     },
+     {
+      "printed": "2.94",
+      "subsection": "4BI1-SUB12",
+      "subsection_title": "Co-ordination and response",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.94"
+     },
+     {
+      "printed": "2.95B",
+      "subsection": "4BI1-SUB12",
+      "subsection_title": "Co-ordination and response",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.95B"
+     }
+    ]
+   },
+   "join_key": "J1_PRINTED_CODE_LIST",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "toc_cite": "book pp. iv-v (PDF spread 3/179); unit starts from CONTENTS p. iii (PDF spread 2)",
+    "codes_printed_n": 3,
+    "chunk_ids": [
+     "bio_v1_u2_c7_pdf054_0351",
+     "bio_v1_u2_c7_pdf054_0352"
+    ],
+    "pages": [
+     98,
+     103
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u2:c8",
+   "book_key": "4bi1-student-book",
+   "chapter_title": "Homeostasis and excretion",
+   "spec_refs": {
+    "printed_code_list": [
+     {
+      "printed": "2.71",
+      "subsection": "4BI1-SUB11",
+      "subsection_title": "Excretion",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.71"
+     },
+     {
+      "printed": "2.70",
+      "subsection": "4BI1-SUB11",
+      "subsection_title": "Excretion",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.70"
+     },
+     {
+      "printed": "2.79B",
+      "subsection": "4BI1-SUB11",
+      "subsection_title": "Excretion",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.79B"
+     },
+     {
+      "printed": "2.72B",
+      "subsection": "4BI1-SUB11",
+      "subsection_title": "Excretion",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.72B"
+     },
+     {
+      "printed": "2.73B",
+      "subsection": "4BI1-SUB11",
+      "subsection_title": "Excretion",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.73B"
+     },
+     {
+      "printed": "2.74B",
+      "subsection": "4BI1-SUB11",
+      "subsection_title": "Excretion",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.74B"
+     },
+     {
+      "printed": "2.75B",
+      "subsection": "4BI1-SUB11",
+      "subsection_title": "Excretion",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.75B"
+     },
+     {
+      "printed": "2.77B",
+      "subsection": "4BI1-SUB11",
+      "subsection_title": "Excretion",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.77B"
+     },
+     {
+      "printed": "2.76B",
+      "subsection": "4BI1-SUB11",
+      "subsection_title": "Excretion",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.76B"
+     },
+     {
+      "printed": "2.78B",
+      "subsection": "4BI1-SUB11",
+      "subsection_title": "Excretion",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.78B"
+     },
+     {
+      "printed": "2.81",
+      "subsection": "4BI1-SUB12",
+      "subsection_title": "Co-ordination and response",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.81"
+     },
+     {
+      "printed": "2.93",
+      "subsection": "4BI1-SUB12",
+      "subsection_title": "Co-ordination and response",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.93"
+     }
+    ]
+   },
+   "join_key": "J1_PRINTED_CODE_LIST",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "toc_cite": "book pp. iv-v (PDF spread 3/179); unit starts from CONTENTS p. iii (PDF spread 2)",
+    "codes_printed_n": 12,
+    "chunk_ids": [
+     "bio_v1_u2_c8_pdf057_0371",
+     "bio_v1_u2_c8_pdf057_0372"
+    ],
+    "pages": [
+     104,
+     117
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u2:c9",
+   "book_key": "4bi1-student-book",
+   "chapter_title": "Reproduction in humans",
+   "spec_refs": {
+    "printed_code_list": [
+     {
+      "printed": "3.1",
+      "subsection": "4BI1-SUB13",
+      "subsection_title": "Reproduction",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.1"
+     },
+     {
+      "printed": "3.2",
+      "subsection": "4BI1-SUB13",
+      "subsection_title": "Reproduction",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.2"
+     },
+     {
+      "printed": "3.8",
+      "subsection": "4BI1-SUB13",
+      "subsection_title": "Reproduction",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.8"
+     },
+     {
+      "printed": "3.11",
+      "subsection": "4BI1-SUB13",
+      "subsection_title": "Reproduction",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.11"
+     },
+     {
+      "printed": "3.12",
+      "subsection": "4BI1-SUB13",
+      "subsection_title": "Reproduction",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.12"
+     },
+     {
+      "printed": "3.13",
+      "subsection": "4BI1-SUB13",
+      "subsection_title": "Reproduction",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.13"
+     },
+     {
+      "printed": "3.9",
+      "subsection": "4BI1-SUB13",
+      "subsection_title": "Reproduction",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.9"
+     },
+     {
+      "printed": "3.10B",
+      "subsection": "4BI1-SUB13",
+      "subsection_title": "Reproduction",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.10B"
+     }
+    ]
+   },
+   "join_key": "J1_PRINTED_CODE_LIST",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "toc_cite": "book pp. iv-v (PDF spread 3/179); unit starts from CONTENTS p. iii (PDF spread 2)",
+    "codes_printed_n": 8,
+    "chunk_ids": [
+     "bio_v1_u2_c9_pdf064_0421",
+     "bio_v1_u2_c9_pdf064_0422"
+    ],
+    "pages": [
+     118,
+     134
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u3:c10",
+   "book_key": "4bi1-student-book",
+   "chapter_title": "Plants and food",
+   "spec_refs": {
+    "printed_code_list": [
+     {
+      "printed": "2.23",
+      "subsection": "4BI1-SUB7",
+      "subsection_title": "Nutrition",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.23"
+     },
+     {
+      "printed": "2.18",
+      "subsection": "4BI1-SUB7",
+      "subsection_title": "Nutrition",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.18"
+     },
+     {
+      "printed": "2.19",
+      "subsection": "4BI1-SUB7",
+      "subsection_title": "Nutrition",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.19"
+     },
+     {
+      "printed": "2.21",
+      "subsection": "4BI1-SUB7",
+      "subsection_title": "Nutrition",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.21"
+     },
+     {
+      "printed": "2.20",
+      "subsection": "4BI1-SUB7",
+      "subsection_title": "Nutrition",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.20"
+     },
+     {
+      "printed": "2.22",
+      "subsection": "4BI1-SUB7",
+      "subsection_title": "Nutrition",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.22"
+     },
+     {
+      "printed": "2.42B",
+      "subsection": "4BI1-SUB9",
+      "subsection_title": "Gas exchange",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.42B"
+     },
+     {
+      "printed": "2.41B",
+      "subsection": "4BI1-SUB9",
+      "subsection_title": "Gas exchange",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.41B"
+     },
+     {
+      "printed": "2.44B",
+      "subsection": "4BI1-SUB9",
+      "subsection_title": "Gas exchange",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.44B"
+     },
+     {
+      "printed": "2.45B",
+      "subsection": "4BI1-SUB9",
+      "subsection_title": "Gas exchange",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.45B"
+     }
+    ]
+   },
+   "join_key": "J1_PRINTED_CODE_LIST",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "toc_cite": "book pp. iv-v (PDF spread 3/179); unit starts from CONTENTS p. iii (PDF spread 2)",
+    "codes_printed_n": 10,
+    "chunk_ids": [
+     "bio_v1_u3_c10_pdf072_0465",
+     "bio_v1_u3_c10_pdf072_0466"
+    ],
+    "pages": [
+     135,
+     151
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u3:c11",
+   "book_key": "4bi1-student-book",
+   "chapter_title": "Transport in plants",
+   "spec_refs": {
+    "printed_code_list": [
+     {
+      "printed": "2.55B",
+      "subsection": "4BI1-SUB10",
+      "subsection_title": "Transport",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.55B"
+     },
+     {
+      "printed": "2.56B",
+      "subsection": "4BI1-SUB10",
+      "subsection_title": "Transport",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.56B"
+     },
+     {
+      "printed": "2.54",
+      "subsection": "4BI1-SUB10",
+      "subsection_title": "Transport",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.54"
+     },
+     {
+      "printed": "2.53",
+      "subsection": "4BI1-SUB10",
+      "subsection_title": "Transport",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.53"
+     },
+     {
+      "printed": "2.57",
+      "subsection": "4BI1-SUB10",
+      "subsection_title": "Transport",
+      "resolution": "unique_candidate_attributed",
+      "candidates": [
+       "2.57B"
+      ],
+      "point_id": "IGCSE_BIOLOGY:2.57B",
+      "flag": "as_printed_kept_attribution_recorded"
+     },
+     {
+      "printed": "2.58B",
+      "subsection": "4BI1-SUB10",
+      "subsection_title": "Transport",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.58B"
+     },
+     {
+      "printed": "2.70",
+      "subsection": "4BI1-SUB11",
+      "subsection_title": "Excretion",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.70"
+     },
+     {
+      "printed": "2.15",
+      "subsection": "4BI1-SUB6",
+      "subsection_title": "Movement of substances into and out of cells",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.15"
+     },
+     {
+      "printed": "2.17",
+      "subsection": "4BI1-SUB6",
+      "subsection_title": "Movement of substances into and out of cells",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.17"
+     }
+    ]
+   },
+   "join_key": "J1_PRINTED_CODE_LIST",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "toc_cite": "book pp. iv-v (PDF spread 3/179); unit starts from CONTENTS p. iii (PDF spread 2)",
+    "codes_printed_n": 9,
+    "chunk_ids": [
+     "bio_v1_u3_c11_pdf081_0511",
+     "bio_v1_u3_c11_pdf081_0512"
+    ],
+    "pages": [
+     152,
+     167
+    ]
+   },
+   "flags": [
+    "ch11 '2.57' as-printed -> 2.57B attributed (W-F1-T1 code_attribution_notes; 150-dpi page image confirms the print)"
+   ]
+  },
+  {
+   "chapter_key": "u3:c12",
+   "book_key": "4bi1-student-book",
+   "chapter_title": "Chemical coordination in plants",
+   "spec_refs": {
+    "printed_code_list": [
+     {
+      "printed": "2.83",
+      "subsection": "4BI1-SUB12",
+      "subsection_title": "Co-ordination and response",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.83"
+     },
+     {
+      "printed": "2.84",
+      "subsection": "4BI1-SUB12",
+      "subsection_title": "Co-ordination and response",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.84"
+     },
+     {
+      "printed": "2.85",
+      "subsection": "4BI1-SUB12",
+      "subsection_title": "Co-ordination and response",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:2.85"
+     }
+    ]
+   },
+   "join_key": "J1_PRINTED_CODE_LIST",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "toc_cite": "book pp. iv-v (PDF spread 3/179); unit starts from CONTENTS p. iii (PDF spread 2)",
+    "codes_printed_n": 3,
+    "chunk_ids": [
+     "bio_v1_u3_c12_pdf089_0569",
+     "bio_v1_u3_c12_pdf089_0570"
+    ],
+    "pages": [
+     168,
+     173
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u3:c13",
+   "book_key": "4bi1-student-book",
+   "chapter_title": "Reproduction in plants",
+   "spec_refs": {
+    "printed_code_list": [
+     {
+      "printed": "3.1",
+      "subsection": "4BI1-SUB13",
+      "subsection_title": "Reproduction",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.1"
+     },
+     {
+      "printed": "3.7",
+      "subsection": "4BI1-SUB13",
+      "subsection_title": "Reproduction",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.7"
+     },
+     {
+      "printed": "3.3",
+      "subsection": "4BI1-SUB13",
+      "subsection_title": "Reproduction",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.3"
+     },
+     {
+      "printed": "3.4",
+      "subsection": "4BI1-SUB13",
+      "subsection_title": "Reproduction",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.4"
+     },
+     {
+      "printed": "3.6",
+      "subsection": "4BI1-SUB13",
+      "subsection_title": "Reproduction",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.6"
+     },
+     {
+      "printed": "3.5",
+      "subsection": "4BI1-SUB13",
+      "subsection_title": "Reproduction",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.5"
+     }
+    ]
+   },
+   "join_key": "J1_PRINTED_CODE_LIST",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "toc_cite": "book pp. iv-v (PDF spread 3/179); unit starts from CONTENTS p. iii (PDF spread 2)",
+    "codes_printed_n": 6,
+    "chunk_ids": [
+     "bio_v1_u3_c13_pdf092_0592",
+     "bio_v1_u3_c13_pdf092_0593"
+    ],
+    "pages": [
+     174,
+     186
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u4:c14",
+   "book_key": "4bi1-student-book",
+   "chapter_title": "Ecosystems",
+   "spec_refs": {
+    "printed_code_list": [
+     {
+      "printed": "4.1",
+      "subsection": "4BI1-SUB15",
+      "subsection_title": "The organism in the environment",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:4.1"
+     },
+     {
+      "printed": "4.2",
+      "subsection": "4BI1-SUB15",
+      "subsection_title": "The organism in the environment",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:4.2"
+     },
+     {
+      "printed": "4.3B",
+      "subsection": "4BI1-SUB15",
+      "subsection_title": "The organism in the environment",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:4.3B"
+     },
+     {
+      "printed": "4.4B",
+      "subsection": "4BI1-SUB15",
+      "subsection_title": "The organism in the environment",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:4.4B"
+     },
+     {
+      "printed": "4.5",
+      "subsection": "4BI1-SUB15",
+      "subsection_title": "The organism in the environment",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:4.5"
+     },
+     {
+      "printed": "4.6",
+      "subsection": "4BI1-SUB16",
+      "subsection_title": "Feeding relationships",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:4.6"
+     },
+     {
+      "printed": "4.7",
+      "subsection": "4BI1-SUB16",
+      "subsection_title": "Feeding relationships",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:4.7"
+     },
+     {
+      "printed": "4.8",
+      "subsection": "4BI1-SUB16",
+      "subsection_title": "Feeding relationships",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:4.8"
+     },
+     {
+      "printed": "4.9",
+      "subsection": "4BI1-SUB16",
+      "subsection_title": "Feeding relationships",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:4.9"
+     },
+     {
+      "printed": "4.10",
+      "subsection": "4BI1-SUB17",
+      "subsection_title": "Cycles within ecosystems",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:4.10"
+     },
+     {
+      "printed": "4.11B",
+      "subsection": "4BI1-SUB17",
+      "subsection_title": "Cycles within ecosystems",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:4.11B"
+     }
+    ]
+   },
+   "join_key": "J1_PRINTED_CODE_LIST",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "toc_cite": "book pp. iv-v (PDF spread 3/179); unit starts from CONTENTS p. iii (PDF spread 2)",
+    "codes_printed_n": 11,
+    "chunk_ids": [
+     "bio_v1_u4_c14_pdf098_0632",
+     "bio_v1_u4_c14_pdf099_0633"
+    ],
+    "pages": [
+     187,
+     203
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u4:c15",
+   "book_key": "4bi1-student-book",
+   "chapter_title": "Human influences on the environment",
+   "spec_refs": {
+    "printed_code_list": [
+     {
+      "printed": "4.13",
+      "subsection": "4BI1-SUB18",
+      "subsection_title": "Human influences on the environment",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:4.13"
+     },
+     {
+      "printed": "4.14",
+      "subsection": "4BI1-SUB18",
+      "subsection_title": "Human influences on the environment",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:4.14"
+     },
+     {
+      "printed": "4.15",
+      "subsection": "4BI1-SUB18",
+      "subsection_title": "Human influences on the environment",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:4.15"
+     },
+     {
+      "printed": "4.12",
+      "subsection": "4BI1-SUB18",
+      "subsection_title": "Human influences on the environment",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:4.12"
+     },
+     {
+      "printed": "4.18B",
+      "subsection": "4BI1-SUB18",
+      "subsection_title": "Human influences on the environment",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:4.18B"
+     },
+     {
+      "printed": "4.16",
+      "subsection": "4BI1-SUB18",
+      "subsection_title": "Human influences on the environment",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:4.16"
+     },
+     {
+      "printed": "4.17",
+      "subsection": "4BI1-SUB18",
+      "subsection_title": "Human influences on the environment",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:4.17"
+     },
+     {
+      "printed": "5.1",
+      "subsection": "4BI1-SUB19",
+      "subsection_title": "Food production",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:5.1"
+     },
+     {
+      "printed": "5.2",
+      "subsection": "4BI1-SUB19",
+      "subsection_title": "Food production",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:5.2"
+     },
+     {
+      "printed": "5.3",
+      "subsection": "4BI1-SUB19",
+      "subsection_title": "Food production",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:5.3"
+     },
+     {
+      "printed": "5.4",
+      "subsection": "4BI1-SUB19",
+      "subsection_title": "Food production",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:5.4"
+     },
+     {
+      "printed": "5.9B",
+      "subsection": "4BI1-SUB19",
+      "subsection_title": "Food production",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:5.9B"
+     }
+    ]
+   },
+   "join_key": "J1_PRINTED_CODE_LIST",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "toc_cite": "book pp. iv-v (PDF spread 3/179); unit starts from CONTENTS p. iii (PDF spread 2)",
+    "codes_printed_n": 12,
+    "chunk_ids": [
+     "bio_v1_u4_c15_pdf107_0688",
+     "bio_v1_u4_c15_pdf107_0689"
+    ],
+    "pages": [
+     204,
+     226
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u5:c16",
+   "book_key": "4bi1-student-book",
+   "chapter_title": "Chromosomes, genes and DNA",
+   "spec_refs": {
+    "printed_code_list": [
+     {
+      "printed": "3.15",
+      "subsection": "4BI1-SUB14",
+      "subsection_title": "Inheritance",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.15"
+     },
+     {
+      "printed": "3.14",
+      "subsection": "4BI1-SUB14",
+      "subsection_title": "Inheritance",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.14"
+     },
+     {
+      "printed": "3.16B",
+      "subsection": "4BI1-SUB14",
+      "subsection_title": "Inheritance",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.16B"
+     },
+     {
+      "printed": "3.17B",
+      "subsection": "4BI1-SUB14",
+      "subsection_title": "Inheritance",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.17B"
+     },
+     {
+      "printed": "3.18B",
+      "subsection": "4BI1-SUB14",
+      "subsection_title": "Inheritance",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.18B"
+     },
+     {
+      "printed": "3.34",
+      "subsection": "4BI1-SUB14",
+      "subsection_title": "Inheritance",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.34"
+     },
+     {
+      "printed": "3.35B",
+      "subsection": "4BI1-SUB14",
+      "subsection_title": "Inheritance",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.35B"
+     },
+     {
+      "printed": "3.36B",
+      "subsection": "4BI1-SUB14",
+      "subsection_title": "Inheritance",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.36B"
+     },
+     {
+      "printed": "3.37B",
+      "subsection": "4BI1-SUB14",
+      "subsection_title": "Inheritance",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.37B"
+     },
+     {
+      "printed": "3.32",
+      "subsection": "4BI1-SUB14",
+      "subsection_title": "Inheritance",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.32"
+     },
+     {
+      "printed": "3.19",
+      "subsection": "4BI1-SUB14",
+      "subsection_title": "Inheritance",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.19"
+     }
+    ]
+   },
+   "join_key": "J1_PRINTED_CODE_LIST",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "toc_cite": "book pp. iv-v (PDF spread 3/179); unit starts from CONTENTS p. iii (PDF spread 2)",
+    "codes_printed_n": 11,
+    "chunk_ids": [
+     "bio_v1_u5_c16_pdf118_0751",
+     "bio_v1_u5_c16_pdf118_0752"
+    ],
+    "pages": [
+     227,
+     239
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u5:c17",
+   "book_key": "4bi1-student-book",
+   "chapter_title": "Cell division",
+   "spec_refs": {
+    "printed_code_list": [
+     {
+      "printed": "3.28",
+      "subsection": "4BI1-SUB14",
+      "subsection_title": "Inheritance",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.28"
+     },
+     {
+      "printed": "3.29",
+      "subsection": "4BI1-SUB14",
+      "subsection_title": "Inheritance",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.29"
+     },
+     {
+      "printed": "3.30",
+      "subsection": "4BI1-SUB14",
+      "subsection_title": "Inheritance",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.30"
+     },
+     {
+      "printed": "3.31",
+      "subsection": "4BI1-SUB14",
+      "subsection_title": "Inheritance",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.31"
+     },
+     {
+      "printed": "3.33",
+      "subsection": "4BI1-SUB14",
+      "subsection_title": "Inheritance",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.33"
+     }
+    ]
+   },
+   "join_key": "J1_PRINTED_CODE_LIST",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "toc_cite": "book pp. iv-v (PDF spread 3/179); unit starts from CONTENTS p. iii (PDF spread 2)",
+    "codes_printed_n": 5,
+    "chunk_ids": [
+     "bio_v1_u5_c17_pdf125_0800",
+     "bio_v1_u5_c17_pdf125_0801"
+    ],
+    "pages": [
+     240,
+     248
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u5:c18",
+   "book_key": "4bi1-student-book",
+   "chapter_title": "Genes and inheritance",
+   "spec_refs": {
+    "printed_code_list": [
+     {
+      "printed": "3.19",
+      "subsection": "4BI1-SUB14",
+      "subsection_title": "Inheritance",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.19"
+     },
+     {
+      "printed": "3.20",
+      "subsection": "4BI1-SUB14",
+      "subsection_title": "Inheritance",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.20"
+     },
+     {
+      "printed": "3.23",
+      "subsection": "4BI1-SUB14",
+      "subsection_title": "Inheritance",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.23"
+     },
+     {
+      "printed": "3.25",
+      "subsection": "4BI1-SUB14",
+      "subsection_title": "Inheritance",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.25"
+     },
+     {
+      "printed": "3.24",
+      "subsection": "4BI1-SUB14",
+      "subsection_title": "Inheritance",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.24"
+     },
+     {
+      "printed": "3.21B",
+      "subsection": "4BI1-SUB14",
+      "subsection_title": "Inheritance",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.21B"
+     },
+     {
+      "printed": "3.26",
+      "subsection": "4BI1-SUB14",
+      "subsection_title": "Inheritance",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.26"
+     },
+     {
+      "printed": "3.27",
+      "subsection": "4BI1-SUB14",
+      "subsection_title": "Inheritance",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.27"
+     },
+     {
+      "printed": "3.22",
+      "subsection": "4BI1-SUB14",
+      "subsection_title": "Inheritance",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.22"
+     }
+    ]
+   },
+   "join_key": "J1_PRINTED_CODE_LIST",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "toc_cite": "book pp. iv-v (PDF spread 3/179); unit starts from CONTENTS p. iii (PDF spread 2)",
+    "codes_printed_n": 9,
+    "chunk_ids": [
+     "bio_v1_u5_c18_pdf129_0830",
+     "bio_v1_u5_c18_pdf129_0831"
+    ],
+    "pages": [
+     249,
+     260
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u5:c19",
+   "book_key": "4bi1-student-book",
+   "chapter_title": "Natural selection and evolution",
+   "spec_refs": {
+    "printed_code_list": [
+     {
+      "printed": "3.38",
+      "subsection": "4BI1-SUB14",
+      "subsection_title": "Inheritance",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.38"
+     },
+     {
+      "printed": "3.39",
+      "subsection": "4BI1-SUB14",
+      "subsection_title": "Inheritance",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:3.39"
+     }
+    ]
+   },
+   "join_key": "J1_PRINTED_CODE_LIST",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "toc_cite": "book pp. iv-v (PDF spread 3/179); unit starts from CONTENTS p. iii (PDF spread 2)",
+    "codes_printed_n": 2,
+    "chunk_ids": [
+     "bio_v1_u5_c19_pdf135_0875",
+     "bio_v1_u5_c19_pdf135_0876"
+    ],
+    "pages": [
+     261,
+     267
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u5:c20",
+   "book_key": "4bi1-student-book",
+   "chapter_title": "Selective breeding",
+   "spec_refs": {
+    "printed_code_list": [
+     {
+      "printed": "5.10",
+      "subsection": "4BI1-SUB20",
+      "subsection_title": "Selective breeding",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:5.10"
+     },
+     {
+      "printed": "5.11",
+      "subsection": "4BI1-SUB20",
+      "subsection_title": "Selective breeding",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:5.11"
+     },
+     {
+      "printed": "5.17B",
+      "subsection": "4BI1-SUB22",
+      "subsection_title": "Cloning",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:5.17B"
+     },
+     {
+      "printed": "5.18B",
+      "subsection": "4BI1-SUB22",
+      "subsection_title": "Cloning",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:5.18B"
+     },
+     {
+      "printed": "5.19B",
+      "subsection": "4BI1-SUB22",
+      "subsection_title": "Cloning",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:5.19B"
+     },
+     {
+      "printed": "5.20B",
+      "subsection": "4BI1-SUB22",
+      "subsection_title": "Cloning",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:5.20B"
+     }
+    ]
+   },
+   "join_key": "J1_PRINTED_CODE_LIST",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "toc_cite": "book pp. iv-v (PDF spread 3/179); unit starts from CONTENTS p. iii (PDF spread 2)",
+    "codes_printed_n": 6,
+    "chunk_ids": [
+     "bio_v1_u5_c20_pdf139_0894",
+     "bio_v1_u5_c20_pdf139_0895"
+    ],
+    "pages": [
+     268,
+     280
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u6:c21",
+   "book_key": "4bi1-student-book",
+   "chapter_title": "Using microorganisms",
+   "spec_refs": {
+    "printed_code_list": [
+     {
+      "printed": "5.5",
+      "subsection": "4BI1-SUB19",
+      "subsection_title": "Food production",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:5.5"
+     },
+     {
+      "printed": "5.6",
+      "subsection": "4BI1-SUB19",
+      "subsection_title": "Food production",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:5.6"
+     },
+     {
+      "printed": "5.7",
+      "subsection": "4BI1-SUB19",
+      "subsection_title": "Food production",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:5.7"
+     },
+     {
+      "printed": "5.8",
+      "subsection": "4BI1-SUB19",
+      "subsection_title": "Food production",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:5.8"
+     }
+    ]
+   },
+   "join_key": "J1_PRINTED_CODE_LIST",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "toc_cite": "book pp. iv-v (PDF spread 3/179); unit starts from CONTENTS p. iii (PDF spread 2)",
+    "codes_printed_n": 4,
+    "chunk_ids": [
+     "bio_v1_u6_c21_pdf145_0947",
+     "bio_v1_u6_c21_pdf145_0948"
+    ],
+    "pages": [
+     281,
+     288
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u6:c22",
+   "book_key": "4bi1-student-book",
+   "chapter_title": "Genetic modification",
+   "spec_refs": {
+    "printed_code_list": [
+     {
+      "printed": "5.16",
+      "subsection": "4BI1-SUB21",
+      "subsection_title": "Genetic modification (genetic engineering)",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:5.16"
+     },
+     {
+      "printed": "5.12",
+      "subsection": "4BI1-SUB21",
+      "subsection_title": "Genetic modification (genetic engineering)",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:5.12"
+     },
+     {
+      "printed": "5.13",
+      "subsection": "4BI1-SUB21",
+      "subsection_title": "Genetic modification (genetic engineering)",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:5.13"
+     },
+     {
+      "printed": "5.14",
+      "subsection": "4BI1-SUB21",
+      "subsection_title": "Genetic modification (genetic engineering)",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:5.14"
+     },
+     {
+      "printed": "5.15",
+      "subsection": "4BI1-SUB21",
+      "subsection_title": "Genetic modification (genetic engineering)",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:5.15"
+     },
+     {
+      "printed": "5.20B",
+      "subsection": "4BI1-SUB22",
+      "subsection_title": "Cloning",
+      "resolution": "exact",
+      "point_id": "IGCSE_BIOLOGY:5.20B"
+     }
+    ]
+   },
+   "join_key": "J1_PRINTED_CODE_LIST",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "toc_cite": "book pp. iv-v (PDF spread 3/179); unit starts from CONTENTS p. iii (PDF spread 2)",
+    "codes_printed_n": 6,
+    "chunk_ids": [
+     "bio_v1_u6_c22_pdf149_0968",
+     "bio_v1_u6_c22_pdf149_0969"
+    ],
+    "pages": [
+     289,
+     302
+    ]
+   },
+   "flags": []
+  }
+ ],
+ "coverage": {
+  "chapters_total": 22,
+  "chapters_joined": 22,
+  "chapters_unjoined": [],
+  "topics_total": 9,
+  "topics_covered": null,
+  "topics_note": "coverage grain for IGCSE code_column quals is the subsection layer; see subsections_covered",
+  "subsections_total": 22,
+  "subsections_covered": [
+   "4BI1-SUB1",
+   "4BI1-SUB10",
+   "4BI1-SUB11",
+   "4BI1-SUB12",
+   "4BI1-SUB13",
+   "4BI1-SUB14",
+   "4BI1-SUB15",
+   "4BI1-SUB16",
+   "4BI1-SUB17",
+   "4BI1-SUB18",
+   "4BI1-SUB19",
+   "4BI1-SUB2",
+   "4BI1-SUB20",
+   "4BI1-SUB21",
+   "4BI1-SUB22",
+   "4BI1-SUB3",
+   "4BI1-SUB4",
+   "4BI1-SUB5",
+   "4BI1-SUB6",
+   "4BI1-SUB7",
+   "4BI1-SUB8",
+   "4BI1-SUB9"
+  ],
+  "subsections_uncovered": [],
+  "topics_uncovered": [],
+  "points_total": 176,
+  "points_keyed": 172,
+  "points_topic_only": 0,
+  "points_uncovered": [
+   "IGCSE_BIOLOGY:2.10",
+   "IGCSE_BIOLOGY:2.38",
+   "IGCSE_BIOLOGY:2.40B",
+   "IGCSE_BIOLOGY:2.43B"
+  ],
+  "uncovered_reasons": {
+   "points": "no_printed_key — code never printed in any chapter ToC list",
+   "unique_candidate_attributed": "1 points via as-printed->unique-candidate attribution (incl. 2.57B)"
+  },
+  "shared_codes_printed_in_two_chapters": {
+   "2.15": [
+    "u1:c1",
+    "u3:c11"
+   ],
+   "2.17": [
+    "u1:c1",
+    "u3:c11"
+   ],
+   "2.86": [
+    "u2:c6",
+    "u2:c7"
+   ],
+   "2.70": [
+    "u2:c8",
+    "u3:c11"
+   ],
+   "3.1": [
+    "u2:c9",
+    "u3:c13"
+   ],
+   "3.19": [
+    "u5:c16",
+    "u5:c18"
+   ],
+   "5.20B": [
+    "u5:c20",
+    "u6:c22"
+   ]
+  }
+ },
+ "generated_utc": "2026-11-13T14:54:01Z",
+ "generator": "agent:scripts/wf4t2_build.py (W-F4-T2 staged build; repo-side scripts/book_layer/ generator proposed, not installed)",
+ "inputs": [
+  "fd10057231be89bac9e4ab36e405b37d94c01d6c",
+  "d3fdd9342649278f07ec19fe15c4c166393c15f6",
+  "269d31c91c4fa4ba291110afa5ac2e3856793ff4",
+  "receipts/W-F1/W-F1-T1-igcse-biology.json (local sha256 7616be2cbed7125648205509880a59bbcbf1614fb6c507e43d925bab2947cfe5)"
+ ]
+}

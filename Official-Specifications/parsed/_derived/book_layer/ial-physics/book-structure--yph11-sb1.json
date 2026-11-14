@@ -1,0 +1,368 @@
+{
+ "schema": "syllabai.book-structure/1.0",
+ "qual": "ial-physics",
+ "book": {
+  "key": "yph11-sb1",
+  "lane": "books/pearson-edexcel/international-a-level/physics/yph11",
+  "title": "Pearson Edexcel International AS Level Physics Student Book 1",
+  "authors_printed": [
+   "Miles Hudson"
+  ],
+  "source_pdf": "books/pearson-edexcel/international-a-level/physics/yph11/student-book-1.pdf",
+  "sha256": "aa1aed604d627fda8a46cf67bd562234b2934abe9d26690e1bf38c27f9c015d0",
+  "pdf_pages": 225,
+  "page_law": "book = pdf - 11 (lane README, confirmed in parse of record T-PARSE-YPH11-1)",
+  "corpus": {
+   "chunks_jsonl": "books/pearson-edexcel/international-a-level/physics/yph11/parsed/edexcel_ial_physics_yph11_sb1_chunks_v1.jsonl",
+   "blob": "7aac7234acc23ec35410e8bf9427c7e3d571cefb",
+   "n_chunks": 881,
+   "prefix_id_law": "yph1_v1_u{t}_c{n}_pdf{page}_{pos}"
+  },
+  "slices_manifest": "books/pearson-edexcel/international-a-level/physics/yph11/yph11/manifest-sb1.json",
+  "manifest_blob": "ed2f0f20e9368d6c03a4e9286e43fc02c662814d",
+  "parse_report": "books/pearson-edexcel/international-a-level/physics/yph11/yph11/parsed/parse_report_v1.json (blob 1ed2c88683f456f4dafe68d7a19aca115c2925f7)",
+  "catalog_rows": [
+   "CATALOG §2 #3",
+   "CATALOG §3.4",
+   "CATALOG §4.2"
+  ],
+  "serving_state": "r0 landed (CATALOG §3.4)"
+ },
+ "provenance_tiers": {
+  "TOC_PRINTED": "row read off the book's printed COURSE STRUCTURE / ToC pages",
+  "BODY_PRINTED": "row read off a printed chapter opener / running header",
+  "MANIFEST_REGISTERED": "row carried by book-slices-manifest-v2 (serving registration)",
+  "MODULE_DERIVED": "row derived from the lane's book_structure_*.py module",
+  "TITLE_ADJUDICATED": "row position/title adjudicated, page-cited, no printed label"
+ },
+ "units": [
+  {
+   "index": 1,
+   "label": "Topic 1 — Mechanics",
+   "title": "Mechanics",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": [
+    "XPH11/YPH11-T1"
+   ],
+   "spec_topic_numbers": [
+    "1.3"
+   ]
+  },
+  {
+   "index": 2,
+   "label": "Topic 2 — Materials",
+   "title": "Materials",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": [
+    "XPH11/YPH11-T2"
+   ],
+   "spec_topic_numbers": [
+    "1.4"
+   ]
+  },
+  {
+   "index": 3,
+   "label": "Topic 3 — Waves and Particle Nature of Light",
+   "title": "Waves and Particle Nature of Light",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": [
+    "XPH11/YPH11-T3"
+   ],
+   "spec_topic_numbers": [
+    "2.3"
+   ]
+  },
+  {
+   "index": 4,
+   "label": "Topic 4 — Electric Circuits",
+   "title": "Electric Circuits",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": [
+    "XPH11/YPH11-T4"
+   ],
+   "spec_topic_numbers": [
+    "2.4"
+   ]
+  }
+ ],
+ "chapters": [
+  {
+   "key": "u1:c1",
+   "title": "Motion",
+   "unit_index": 1,
+   "page_range_pdf": [
+    19,
+    44
+   ],
+   "page_range_book": [
+    8,
+    33
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "yph1_v1_u1_c1_pdf019_0091",
+     "yph1_v1_u1_c1_pdf019_0092"
+    ],
+    "n_chunks": 101
+   },
+   "questions_start_page_pdf": 43,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-4B per lane README ToC cross-checks"
+  },
+  {
+   "key": "u1:c2",
+   "title": "Energy",
+   "unit_index": 1,
+   "page_range_pdf": [
+    45,
+    56
+   ],
+   "page_range_book": [
+    34,
+    45
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "yph1_v1_u1_c2_pdf045_0209",
+     "yph1_v1_u1_c2_pdf045_0210"
+    ],
+    "n_chunks": 31
+   },
+   "questions_start_page_pdf": 55,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-4B per lane README ToC cross-checks"
+  },
+  {
+   "key": "u1:c3",
+   "title": "Momentum",
+   "unit_index": 1,
+   "page_range_pdf": [
+    57,
+    68
+   ],
+   "page_range_book": [
+    46,
+    57
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "yph1_v1_u1_c3_pdf057_0249",
+     "yph1_v1_u1_c3_pdf057_0250"
+    ],
+    "n_chunks": 31
+   },
+   "questions_start_page_pdf": 67,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-4B per lane README ToC cross-checks"
+  },
+  {
+   "key": "u2:c4",
+   "title": "Fluids",
+   "unit_index": 2,
+   "page_range_pdf": [
+    69,
+    84
+   ],
+   "page_range_book": [
+    58,
+    73
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "yph1_v1_u2_c4_pdf069_0290",
+     "yph1_v1_u2_c4_pdf069_0291"
+    ],
+    "n_chunks": 58
+   },
+   "questions_start_page_pdf": 83,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-4B per lane README ToC cross-checks"
+  },
+  {
+   "key": "u2:c5",
+   "title": "Solid material properties",
+   "unit_index": 2,
+   "page_range_pdf": [
+    85,
+    98
+   ],
+   "page_range_book": [
+    74,
+    87
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "yph1_v1_u2_c5_pdf085_0362",
+     "yph1_v1_u2_c5_pdf085_0363"
+    ],
+    "n_chunks": 49
+   },
+   "questions_start_page_pdf": 97,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-4B per lane README ToC cross-checks"
+  },
+  {
+   "key": "u3:c6",
+   "title": "Basic waves",
+   "unit_index": 3,
+   "page_range_pdf": [
+    99,
+    110
+   ],
+   "page_range_book": [
+    88,
+    99
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "yph1_v1_u3_c6_pdf099_0426",
+     "yph1_v1_u3_c6_pdf099_0427"
+    ],
+    "n_chunks": 32
+   },
+   "questions_start_page_pdf": 109,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-4B per lane README ToC cross-checks"
+  },
+  {
+   "key": "u3:c7",
+   "title": "The behaviour of waves",
+   "unit_index": 3,
+   "page_range_pdf": [
+    111,
+    128
+   ],
+   "page_range_book": [
+    100,
+    117
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "yph1_v1_u3_c7_pdf111_0473",
+     "yph1_v1_u3_c7_pdf111_0474"
+    ],
+    "n_chunks": 56
+   },
+   "questions_start_page_pdf": 127,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-4B per lane README ToC cross-checks"
+  },
+  {
+   "key": "u3:c8",
+   "title": "More wave properties of light",
+   "unit_index": 3,
+   "page_range_pdf": [
+    129,
+    140
+   ],
+   "page_range_book": [
+    118,
+    129
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "yph1_v1_u3_c8_pdf129_0541",
+     "yph1_v1_u3_c8_pdf129_0542"
+    ],
+    "n_chunks": 39
+   },
+   "questions_start_page_pdf": 139,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-4B per lane README ToC cross-checks"
+  },
+  {
+   "key": "u3:c9",
+   "title": "Quantum physics",
+   "unit_index": 3,
+   "page_range_pdf": [
+    141,
+    158
+   ],
+   "page_range_book": [
+    130,
+    147
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "yph1_v1_u3_c9_pdf141_0594",
+     "yph1_v1_u3_c9_pdf141_0595"
+    ],
+    "n_chunks": 67
+   },
+   "questions_start_page_pdf": 157,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-4B per lane README ToC cross-checks"
+  },
+  {
+   "key": "u4:c10",
+   "title": "Electrical quantities",
+   "unit_index": 4,
+   "page_range_pdf": [
+    159,
+    182
+   ],
+   "page_range_book": [
+    148,
+    171
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "yph1_v1_u4_c10_pdf159_0678",
+     "yph1_v1_u4_c10_pdf159_0679"
+    ],
+    "n_chunks": 86
+   },
+   "questions_start_page_pdf": 181,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-4B per lane README ToC cross-checks"
+  },
+  {
+   "key": "u4:c11",
+   "title": "Complete electrical circuits",
+   "unit_index": 4,
+   "page_range_pdf": [
+    183,
+    204
+   ],
+   "page_range_book": [
+    172,
+    193
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "yph1_v1_u4_c11_pdf183_0779",
+     "yph1_v1_u4_c11_pdf183_0780"
+    ],
+    "n_chunks": 77
+   },
+   "questions_start_page_pdf": 203,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 1A-4B per lane README ToC cross-checks"
+  }
+ ],
+ "non_lesson_sections": [],
+ "notes": [
+  "unit exam banks fold into chapter slices (per-chapter EXAM PRACTICE banks, questions_start_page_pdf anchors; lane README)",
+  "IAL qual Units 3 and 6 are practical units with no student book — recorded NO_BOOK_PRACTICAL_UNIT in book-layer-index.json (CATALOG §4.2)",
+  "titles as printed/transcribed from manifest of record; no spec-wording normalisation (F-3)"
+ ],
+ "generated_utc": "2026-11-13T14:54:01Z",
+ "generator": "agent:scripts/wf4t2_build.py (W-F4-T2 staged build; repo-side scripts/book_layer/ generator proposed, not installed)",
+ "inputs": [
+  "ed2f0f20e9368d6c03a4e9286e43fc02c662814d",
+  "7aac7234acc23ec35410e8bf9427c7e3d571cefb",
+  "1ed2c88683f456f4dafe68d7a19aca115c2925f7",
+  "e8a956824381c706d60c53ac6048ea504558b58c"
+ ]
+}

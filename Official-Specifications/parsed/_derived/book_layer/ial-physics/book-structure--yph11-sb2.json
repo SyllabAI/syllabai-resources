@@ -1,0 +1,452 @@
+{
+ "schema": "syllabai.book-structure/1.0",
+ "qual": "ial-physics",
+ "book": {
+  "key": "yph11-sb2",
+  "lane": "books/pearson-edexcel/international-a-level/physics/yph11",
+  "title": "Pearson Edexcel International A2 Level Physics Student Book 2",
+  "authors_printed": [
+   "Miles Hudson"
+  ],
+  "source_pdf": "books/pearson-edexcel/international-a-level/physics/yph11/student-book-2.pdf",
+  "sha256": "faf4c4673f4f1cdc6ba72c6a8e69cd26aaf58209f3f184022bac4ddab637f988",
+  "pdf_pages": 237,
+  "page_law": "book = pdf - 10 (lane README, confirmed in parse of record T-PARSE-YPH11-1)",
+  "corpus": {
+   "chunks_jsonl": "books/pearson-edexcel/international-a-level/physics/yph11/parsed/edexcel_ial_physics_yph11_sb2_chunks_v1.jsonl",
+   "blob": "484f8e4abadff15c13bb64f14e4f1a041a5403e1",
+   "n_chunks": 826,
+   "prefix_id_law": "yph2_v1_u{t}_c{n}_pdf{page}_{pos}"
+  },
+  "slices_manifest": "books/pearson-edexcel/international-a-level/physics/yph11/yph11/manifest-sb2.json",
+  "manifest_blob": "5ffaab39575b1796d6d5232a41e815b155da44cc",
+  "parse_report": "books/pearson-edexcel/international-a-level/physics/yph11/yph11/parsed/parse_report_sb2_v1.json (blob 205235ce3c97024a97a540dac52dd58f01b13bc7)",
+  "catalog_rows": [
+   "CATALOG §2 #3",
+   "CATALOG §3.4",
+   "CATALOG §4.2"
+  ],
+  "serving_state": "r0 landed (CATALOG §3.4)"
+ },
+ "provenance_tiers": {
+  "TOC_PRINTED": "row read off the book's printed COURSE STRUCTURE / ToC pages",
+  "BODY_PRINTED": "row read off a printed chapter opener / running header",
+  "MANIFEST_REGISTERED": "row carried by book-slices-manifest-v2 (serving registration)",
+  "MODULE_DERIVED": "row derived from the lane's book_structure_*.py module",
+  "TITLE_ADJUDICATED": "row position/title adjudicated, page-cited, no printed label"
+ },
+ "units": [
+  {
+   "index": 5,
+   "label": "Topic 5 — Further Mechanics",
+   "title": "Further Mechanics",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": [
+    "XPH11/YPH11-T5"
+   ],
+   "spec_topic_numbers": [
+    "4.3"
+   ]
+  },
+  {
+   "index": 6,
+   "label": "Topic 6 — Electric and Magnetic Fields",
+   "title": "Electric and Magnetic Fields",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": [
+    "XPH11/YPH11-T6"
+   ],
+   "spec_topic_numbers": [
+    "4.4"
+   ]
+  },
+  {
+   "index": 7,
+   "label": "Topic 7 — Nuclear and Particle Physics",
+   "title": "Nuclear and Particle Physics",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": [
+    "XPH11/YPH11-T7"
+   ],
+   "spec_topic_numbers": [
+    "4.5"
+   ]
+  },
+  {
+   "index": 8,
+   "label": "Topic 8 — Thermodynamics",
+   "title": "Thermodynamics",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": [
+    "XPH11/YPH11-T8"
+   ],
+   "spec_topic_numbers": [
+    "5.3"
+   ]
+  },
+  {
+   "index": 9,
+   "label": "Topic 9 — Nuclear Decay",
+   "title": "Nuclear Decay",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": [
+    "XPH11/YPH11-T9"
+   ],
+   "spec_topic_numbers": [
+    "5.4"
+   ]
+  },
+  {
+   "index": 10,
+   "label": "Topic 10 — Oscillations",
+   "title": "Oscillations",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": [
+    "XPH11/YPH11-T10"
+   ],
+   "spec_topic_numbers": [
+    "5.5"
+   ]
+  },
+  {
+   "index": 11,
+   "label": "Topic 11 — Astrophysics and Cosmology",
+   "title": "Astrophysics and Cosmology",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": [
+    "XPH11/YPH11-T11"
+   ],
+   "spec_topic_numbers": [
+    "5.6"
+   ]
+  }
+ ],
+ "chapters": [
+  {
+   "key": "u5:c1",
+   "title": "5A Further Momentum",
+   "unit_index": 5,
+   "page_range_pdf": [
+    12,
+    23
+   ],
+   "page_range_book": [
+    2,
+    13
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "yph2_v1_u5_c1_pdf012_0054",
+     "yph2_v1_u5_c1_pdf012_0055"
+    ],
+    "n_chunks": 27
+   },
+   "questions_start_page_pdf": 22,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 5A-11B per lane README ToC cross-checks"
+  },
+  {
+   "key": "u5:c2",
+   "title": "5B Circular Motion",
+   "unit_index": 5,
+   "page_range_pdf": [
+    24,
+    35
+   ],
+   "page_range_book": [
+    14,
+    25
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "yph2_v1_u5_c2_pdf024_0099",
+     "yph2_v1_u5_c2_pdf024_0100"
+    ],
+    "n_chunks": 26
+   },
+   "questions_start_page_pdf": 34,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 5A-11B per lane README ToC cross-checks"
+  },
+  {
+   "key": "u6:c3",
+   "title": "6A Electric Fields",
+   "unit_index": 6,
+   "page_range_pdf": [
+    36,
+    51
+   ],
+   "page_range_book": [
+    26,
+    41
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "yph2_v1_u6_c3_pdf036_0148",
+     "yph2_v1_u6_c3_pdf036_0149"
+    ],
+    "n_chunks": 47
+   },
+   "questions_start_page_pdf": 50,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 5A-11B per lane README ToC cross-checks"
+  },
+  {
+   "key": "u6:c4",
+   "title": "6B Capacitors",
+   "unit_index": 6,
+   "page_range_pdf": [
+    52,
+    65
+   ],
+   "page_range_book": [
+    42,
+    55
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "yph2_v1_u6_c4_pdf052_0211",
+     "yph2_v1_u6_c4_pdf052_0212"
+    ],
+    "n_chunks": 40
+   },
+   "questions_start_page_pdf": 64,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 5A-11B per lane README ToC cross-checks"
+  },
+  {
+   "key": "u6:c5",
+   "title": "6C Electromagnetic Effects",
+   "unit_index": 6,
+   "page_range_pdf": [
+    66,
+    81
+   ],
+   "page_range_book": [
+    56,
+    71
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "yph2_v1_u6_c5_pdf066_0274",
+     "yph2_v1_u6_c5_pdf066_0275"
+    ],
+    "n_chunks": 39
+   },
+   "questions_start_page_pdf": 80,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 5A-11B per lane README ToC cross-checks"
+  },
+  {
+   "key": "u7:c6",
+   "title": "7A Probing Matter",
+   "unit_index": 7,
+   "page_range_pdf": [
+    82,
+    93
+   ],
+   "page_range_book": [
+    72,
+    83
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "yph2_v1_u7_c6_pdf082_0331",
+     "yph2_v1_u7_c6_pdf082_0332"
+    ],
+    "n_chunks": 28
+   },
+   "questions_start_page_pdf": 92,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 5A-11B per lane README ToC cross-checks"
+  },
+  {
+   "key": "u7:c7",
+   "title": "7B Particle Accelerators and Detectors",
+   "unit_index": 7,
+   "page_range_pdf": [
+    94,
+    109
+   ],
+   "page_range_book": [
+    84,
+    99
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "yph2_v1_u7_c7_pdf094_0378",
+     "yph2_v1_u7_c7_pdf094_0379"
+    ],
+    "n_chunks": 38
+   },
+   "questions_start_page_pdf": 108,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 5A-11B per lane README ToC cross-checks"
+  },
+  {
+   "key": "u7:c8",
+   "title": "7C The Particle Zoo",
+   "unit_index": 7,
+   "page_range_pdf": [
+    110,
+    125
+   ],
+   "page_range_book": [
+    100,
+    115
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "yph2_v1_u7_c8_pdf110_0436",
+     "yph2_v1_u7_c8_pdf110_0437"
+    ],
+    "n_chunks": 56
+   },
+   "questions_start_page_pdf": 124,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 5A-11B per lane README ToC cross-checks"
+  },
+  {
+   "key": "u8:c9",
+   "title": "8A Heat and Temperature",
+   "unit_index": 8,
+   "page_range_pdf": [
+    126,
+    141
+   ],
+   "page_range_book": [
+    116,
+    131
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "yph2_v1_u8_c9_pdf126_0515",
+     "yph2_v1_u8_c9_pdf126_0516"
+    ],
+    "n_chunks": 58
+   },
+   "questions_start_page_pdf": 140,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 5A-11B per lane README ToC cross-checks"
+  },
+  {
+   "key": "u9:c10",
+   "title": "9A Radioactivity",
+   "unit_index": 9,
+   "page_range_pdf": [
+    142,
+    159
+   ],
+   "page_range_book": [
+    132,
+    149
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "yph2_v1_u9_c10_pdf142_0594",
+     "yph2_v1_u9_c10_pdf142_0595"
+    ],
+    "n_chunks": 53
+   },
+   "questions_start_page_pdf": 158,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 5A-11B per lane README ToC cross-checks"
+  },
+  {
+   "key": "u10:c11",
+   "title": "10A Oscillations",
+   "unit_index": 10,
+   "page_range_pdf": [
+    160,
+    177
+   ],
+   "page_range_book": [
+    150,
+    167
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "yph2_v1_u10_c11_pdf160_0666",
+     "yph2_v1_u10_c11_pdf160_0667"
+    ],
+    "n_chunks": 43
+   },
+   "questions_start_page_pdf": 176,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 5A-11B per lane README ToC cross-checks"
+  },
+  {
+   "key": "u11:c12",
+   "title": "11A Gravitational Fields",
+   "unit_index": 11,
+   "page_range_pdf": [
+    178,
+    187
+   ],
+   "page_range_book": [
+    168,
+    177
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "yph2_v1_u11_c12_pdf178_0732",
+     "yph2_v1_u11_c12_pdf178_0733"
+    ],
+    "n_chunks": 30
+   },
+   "questions_start_page_pdf": 186,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 5A-11B per lane README ToC cross-checks"
+  },
+  {
+   "key": "u11:c13",
+   "title": "11B Space",
+   "unit_index": 11,
+   "page_range_pdf": [
+    188,
+    213
+   ],
+   "page_range_book": [
+    178,
+    203
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "yph2_v1_u11_c13_pdf188_0779",
+     "yph2_v1_u11_c13_pdf188_0780"
+    ],
+    "n_chunks": 64
+   },
+   "questions_start_page_pdf": 212,
+   "flags": [],
+   "printed_chapter_label_note": "printed chapter labels 5A-11B per lane README ToC cross-checks"
+  }
+ ],
+ "non_lesson_sections": [],
+ "notes": [
+  "unit exam banks fold into chapter slices (per-chapter EXAM PRACTICE banks, questions_start_page_pdf anchors; lane README)",
+  "IAL qual Units 3 and 6 are practical units with no student book — recorded NO_BOOK_PRACTICAL_UNIT in book-layer-index.json (CATALOG §4.2)",
+  "titles as printed/transcribed from manifest of record; no spec-wording normalisation (F-3)"
+ ],
+ "generated_utc": "2026-11-13T14:54:01Z",
+ "generator": "agent:scripts/wf4t2_build.py (W-F4-T2 staged build; repo-side scripts/book_layer/ generator proposed, not installed)",
+ "inputs": [
+  "5ffaab39575b1796d6d5232a41e815b155da44cc",
+  "484f8e4abadff15c13bb64f14e4f1a041a5403e1",
+  "205235ce3c97024a97a540dac52dd58f01b13bc7",
+  "e8a956824381c706d60c53ac6048ea504558b58c"
+ ]
+}

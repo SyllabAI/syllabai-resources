@@ -1,0 +1,956 @@
+{
+ "schema": "syllabai.book-structure/1.0",
+ "qual": "igcse-physics",
+ "book": {
+  "key": "4ph1-student-book",
+  "lane": "books/pearson-edexcel/international-gcse/physics/4ph1",
+  "title": "Edexcel International GCSE (9-1) Physics Student Book",
+  "authors_printed": [
+   "Brian Arnold",
+   "Penny Johnson",
+   "Steve Woolley"
+  ],
+  "source_pdf": "books/pearson-edexcel/international-gcse/physics/4ph1/student-book.pdf",
+  "sha256": "9b0783d9fe99790a08255eb1f2ebb6eab5833c03ef8e36dd51b7643ac68a313a",
+  "pdf_pages": 308,
+  "page_law": "book = pdf - 10 (parse-lane opener law; verified at build time on 28/28 slice start pages vs the W-F1-T1 printed ToC; slice end pages extend past the ToC end where unit-exam banks interleave — printed ToC ends kept)",
+  "corpus": {
+   "chunks_jsonl": "books/pearson-edexcel/international-gcse/physics/4ph1/parsed/edexcel_igcse_physics_chunks_v1.jsonl",
+   "blob": "8fe7510c7f0fd0c69ba2cf2ce9503d37495e4190",
+   "n_chunks": 736,
+   "prefix_id_law": "phys_v1_u{u}_c{c}_pdf{page}_{pos}",
+   "ocr_route_note": "image-only scan; docling OCR lane (W-F1-T1 discloses the route)"
+  },
+  "slices_manifest": "books/pearson-edexcel/international-gcse/physics/4ph1/manifest.json",
+  "manifest_blob": "56a8203af736e158ce4451ebfcb6e8b5ae1a56e2",
+  "catalog_rows": [
+   "CATALOG §2 #4",
+   "CATALOG §3.2",
+   "CATALOG §4.1"
+  ],
+  "serving_state": "PARSED (CATALOG §3.2)"
+ },
+ "provenance_tiers": {
+  "TOC_PRINTED": "row read off the book's printed COURSE STRUCTURE / ToC pages",
+  "BODY_PRINTED": "row read off a printed chapter opener / running header",
+  "MANIFEST_REGISTERED": "row carried by book-slices-manifest-v2 (serving registration)",
+  "MODULE_DERIVED": "row derived from the lane's book_structure_*.py module",
+  "TITLE_ADJUDICATED": "row position/title adjudicated, page-cited, no printed label"
+ },
+ "units": [
+  {
+   "index": 1,
+   "label": "Forces and Motion",
+   "title": "Forces and Motion",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": null
+  },
+  {
+   "index": 2,
+   "label": "Electricity",
+   "title": "Electricity",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": null
+  },
+  {
+   "index": 3,
+   "label": "Waves",
+   "title": "Waves",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": null
+  },
+  {
+   "index": 4,
+   "label": "Energy Resources and Energy Transfer",
+   "title": "Energy Resources and Energy Transfer",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": null
+  },
+  {
+   "index": 5,
+   "label": "Solids, Liquids and Gases",
+   "title": "Solids, Liquids and Gases",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": null
+  },
+  {
+   "index": 6,
+   "label": "Magnetism and Electromagnetism",
+   "title": "Magnetism and Electromagnetism",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": null
+  },
+  {
+   "index": 7,
+   "label": "Radioactivity and Particles",
+   "title": "Radioactivity and Particles",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": null
+  },
+  {
+   "index": 8,
+   "label": "Astrophysics",
+   "title": "Astrophysics",
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": null
+  }
+ ],
+ "chapters": [
+  {
+   "key": "u1:c1",
+   "title": "Movement and position",
+   "unit_index": 1,
+   "page_range_pdf": [
+    13,
+    27
+   ],
+   "page_range_book": [
+    3,
+    null
+   ],
+   "toc_book_page_range": [
+    3,
+    17
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "phys_v1_u1_c1_pdf013_0028",
+     "phys_v1_u1_c1_pdf013_0029"
+    ],
+    "opener_page": 13
+   },
+   "questions_start_page_pdf": null,
+   "flags": []
+  },
+  {
+   "key": "u1:c2",
+   "title": "Forces and shape",
+   "unit_index": 1,
+   "page_range_pdf": [
+    28,
+    37
+   ],
+   "page_range_book": [
+    18,
+    null
+   ],
+   "toc_book_page_range": [
+    18,
+    27
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "phys_v1_u1_c2_pdf028_0057",
+     "phys_v1_u1_c2_pdf028_0058"
+    ],
+    "opener_page": 28
+   },
+   "questions_start_page_pdf": 36,
+   "flags": []
+  },
+  {
+   "key": "u1:c3",
+   "title": "Forces and movement",
+   "unit_index": 1,
+   "page_range_pdf": [
+    38,
+    49
+   ],
+   "page_range_book": [
+    28,
+    null
+   ],
+   "toc_book_page_range": [
+    28,
+    39
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "phys_v1_u1_c3_pdf038_0078",
+     "phys_v1_u1_c3_pdf038_0079"
+    ],
+    "opener_page": 38
+   },
+   "questions_start_page_pdf": 48,
+   "flags": []
+  },
+  {
+   "key": "u1:c4",
+   "title": "Momentum",
+   "unit_index": 1,
+   "page_range_pdf": [
+    50,
+    57
+   ],
+   "page_range_book": [
+    40,
+    null
+   ],
+   "toc_book_page_range": [
+    40,
+    47
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "phys_v1_u1_c4_pdf050_0102",
+     "phys_v1_u1_c4_pdf050_0103"
+    ],
+    "opener_page": 50
+   },
+   "questions_start_page_pdf": null,
+   "flags": [
+    "physics_only"
+   ]
+  },
+  {
+   "key": "u1:c5",
+   "title": "The turning effect of forces (physics only)",
+   "unit_index": 1,
+   "page_range_pdf": [
+    58,
+    64
+   ],
+   "page_range_book": [
+    48,
+    null
+   ],
+   "toc_book_page_range": [
+    48,
+    58
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "phys_v1_u1_c5_pdf058_0121",
+     "phys_v1_u1_c5_pdf058_0122"
+    ],
+    "opener_page": 58
+   },
+   "questions_start_page_pdf": null,
+   "flags": [
+    "physics_only"
+   ]
+  },
+  {
+   "key": "u2:c6",
+   "title": "Mains electricity",
+   "unit_index": 2,
+   "page_range_pdf": [
+    69,
+    76
+   ],
+   "page_range_book": [
+    59,
+    null
+   ],
+   "toc_book_page_range": [
+    59,
+    66
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "phys_v1_u2_c6_pdf069_0140",
+     "phys_v1_u2_c6_pdf069_0141"
+    ],
+    "opener_page": 69
+   },
+   "questions_start_page_pdf": null,
+   "flags": []
+  },
+  {
+   "key": "u2:c7",
+   "title": "Current and voltage in circuits",
+   "unit_index": 2,
+   "page_range_pdf": [
+    77,
+    84
+   ],
+   "page_range_book": [
+    67,
+    null
+   ],
+   "toc_book_page_range": [
+    67,
+    74
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "phys_v1_u2_c7_pdf077_0158",
+     "phys_v1_u2_c7_pdf077_0159"
+    ],
+    "opener_page": 77
+   },
+   "questions_start_page_pdf": 83,
+   "flags": []
+  },
+  {
+   "key": "u2:c8",
+   "title": "Electrical resistance",
+   "unit_index": 2,
+   "page_range_pdf": [
+    85,
+    93
+   ],
+   "page_range_book": [
+    75,
+    null
+   ],
+   "toc_book_page_range": [
+    75,
+    83
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "phys_v1_u2_c8_pdf085_0181",
+     "phys_v1_u2_c8_pdf085_0182"
+    ],
+    "opener_page": 85
+   },
+   "questions_start_page_pdf": 93,
+   "flags": []
+  },
+  {
+   "key": "u2:c9",
+   "title": "Electric charge (physics only)",
+   "unit_index": 2,
+   "page_range_pdf": [
+    94,
+    102
+   ],
+   "page_range_book": [
+    84,
+    null
+   ],
+   "toc_book_page_range": [
+    84,
+    96
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "phys_v1_u2_c9_pdf094_0205",
+     "phys_v1_u2_c9_pdf094_0206"
+    ],
+    "opener_page": 94
+   },
+   "questions_start_page_pdf": 102,
+   "flags": [
+    "physics_only"
+   ]
+  },
+  {
+   "key": "u3:c10",
+   "title": "Properties of waves",
+   "unit_index": 3,
+   "page_range_pdf": [
+    107,
+    115
+   ],
+   "page_range_book": [
+    97,
+    null
+   ],
+   "toc_book_page_range": [
+    97,
+    105
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "phys_v1_u3_c10_pdf107_0235",
+     "phys_v1_u3_c10_pdf107_0236"
+    ],
+    "opener_page": 107
+   },
+   "questions_start_page_pdf": 115,
+   "flags": []
+  },
+  {
+   "key": "u3:c11",
+   "title": "The electromagnetic spectrum",
+   "unit_index": 3,
+   "page_range_pdf": [
+    116,
+    122
+   ],
+   "page_range_book": [
+    106,
+    null
+   ],
+   "toc_book_page_range": [
+    106,
+    112
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "phys_v1_u3_c11_pdf116_0256",
+     "phys_v1_u3_c11_pdf116_0257"
+    ],
+    "opener_page": 116
+   },
+   "questions_start_page_pdf": 122,
+   "flags": []
+  },
+  {
+   "key": "u3:c12",
+   "title": "Light waves",
+   "unit_index": 3,
+   "page_range_pdf": [
+    123,
+    132
+   ],
+   "page_range_book": [
+    113,
+    null
+   ],
+   "toc_book_page_range": [
+    113,
+    122
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "phys_v1_u3_c12_pdf123_0269",
+     "phys_v1_u3_c12_pdf123_0270"
+    ],
+    "opener_page": 123
+   },
+   "questions_start_page_pdf": null,
+   "flags": []
+  },
+  {
+   "key": "u3:c13",
+   "title": "Sound",
+   "unit_index": 3,
+   "page_range_pdf": [
+    133,
+    139
+   ],
+   "page_range_book": [
+    123,
+    null
+   ],
+   "toc_book_page_range": [
+    123,
+    132
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "phys_v1_u3_c13_pdf133_0291",
+     "phys_v1_u3_c13_pdf133_0292"
+    ],
+    "opener_page": 133
+   },
+   "questions_start_page_pdf": null,
+   "flags": []
+  },
+  {
+   "key": "u4:c14",
+   "title": "Energy transfers",
+   "unit_index": 4,
+   "page_range_pdf": [
+    143,
+    148
+   ],
+   "page_range_book": [
+    133,
+    null
+   ],
+   "toc_book_page_range": [
+    133,
+    138
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "phys_v1_u4_c14_pdf143_0319",
+     "phys_v1_u4_c14_pdf143_0320"
+    ],
+    "opener_page": 143
+   },
+   "questions_start_page_pdf": null,
+   "flags": []
+  },
+  {
+   "key": "u4:c15",
+   "title": "Thermal energy",
+   "unit_index": 4,
+   "page_range_pdf": [
+    149,
+    159
+   ],
+   "page_range_book": [
+    139,
+    null
+   ],
+   "toc_book_page_range": [
+    139,
+    149
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "phys_v1_u4_c15_pdf149_0333",
+     "phys_v1_u4_c15_pdf149_0334"
+    ],
+    "opener_page": 149
+   },
+   "questions_start_page_pdf": 158,
+   "flags": []
+  },
+  {
+   "key": "u4:c16",
+   "title": "Work and power",
+   "unit_index": 4,
+   "page_range_pdf": [
+    160,
+    167
+   ],
+   "page_range_book": [
+    150,
+    null
+   ],
+   "toc_book_page_range": [
+    150,
+    157
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "phys_v1_u4_c16_pdf160_0359",
+     "phys_v1_u4_c16_pdf160_0360"
+    ],
+    "opener_page": 160
+   },
+   "questions_start_page_pdf": 167,
+   "flags": []
+  },
+  {
+   "key": "u4:c17",
+   "title": "Energy resources and electricity generation (physics only)",
+   "unit_index": 4,
+   "page_range_pdf": [
+    168,
+    177
+   ],
+   "page_range_book": [
+    158,
+    null
+   ],
+   "toc_book_page_range": [
+    158,
+    172
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "phys_v1_u4_c17_pdf168_0375",
+     "phys_v1_u4_c17_pdf168_0376"
+    ],
+    "opener_page": 168
+   },
+   "questions_start_page_pdf": 177,
+   "flags": [
+    "physics_only"
+   ]
+  },
+  {
+   "key": "u5:c18",
+   "title": "Density and pressure",
+   "unit_index": 5,
+   "page_range_pdf": [
+    183,
+    190
+   ],
+   "page_range_book": [
+    173,
+    null
+   ],
+   "toc_book_page_range": [
+    173,
+    180
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "phys_v1_u5_c18_pdf183_0402",
+     "phys_v1_u5_c18_pdf183_0403"
+    ],
+    "opener_page": 183
+   },
+   "questions_start_page_pdf": null,
+   "flags": []
+  },
+  {
+   "key": "u5:c19",
+   "title": "Solids, liquids and gases",
+   "unit_index": 5,
+   "page_range_pdf": [
+    191,
+    202
+   ],
+   "page_range_book": [
+    181,
+    null
+   ],
+   "toc_book_page_range": [
+    181,
+    196
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "phys_v1_u5_c19_pdf191_0426",
+     "phys_v1_u5_c19_pdf191_0427"
+    ],
+    "opener_page": 191
+   },
+   "questions_start_page_pdf": null,
+   "flags": []
+  },
+  {
+   "key": "u6:c20",
+   "title": "Magnetism and electromagnetism",
+   "unit_index": 6,
+   "page_range_pdf": [
+    207,
+    215
+   ],
+   "page_range_book": [
+    197,
+    null
+   ],
+   "toc_book_page_range": [
+    197,
+    205
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "phys_v1_u6_c20_pdf207_0463",
+     "phys_v1_u6_c20_pdf207_0464"
+    ],
+    "opener_page": 207
+   },
+   "questions_start_page_pdf": 214,
+   "flags": []
+  },
+  {
+   "key": "u6:c21",
+   "title": "Electric motors and electromagnetic induction",
+   "unit_index": 6,
+   "page_range_pdf": [
+    216,
+    226
+   ],
+   "page_range_book": [
+    206,
+    null
+   ],
+   "toc_book_page_range": [
+    206,
+    220
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "phys_v1_u6_c21_pdf216_0485",
+     "phys_v1_u6_c21_pdf216_0486"
+    ],
+    "opener_page": 216
+   },
+   "questions_start_page_pdf": 225,
+   "flags": []
+  },
+  {
+   "key": "u7:c22",
+   "title": "Atoms and radioactivity",
+   "unit_index": 7,
+   "page_range_pdf": [
+    231,
+    241
+   ],
+   "page_range_book": [
+    221,
+    null
+   ],
+   "toc_book_page_range": [
+    221,
+    232
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "phys_v1_u7_c22_pdf231_0516",
+     "phys_v1_u7_c22_pdf231_0517"
+    ],
+    "opener_page": 231
+   },
+   "questions_start_page_pdf": 241,
+   "flags": []
+  },
+  {
+   "key": "u7:c23",
+   "title": "Radiation and half-life",
+   "unit_index": 7,
+   "page_range_pdf": [
+    243,
+    250
+   ],
+   "page_range_book": [
+    233,
+    null
+   ],
+   "toc_book_page_range": [
+    233,
+    240
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "phys_v1_u7_c23_pdf243_0554",
+     "phys_v1_u7_c23_pdf243_0555"
+    ],
+    "opener_page": 243
+   },
+   "questions_start_page_pdf": null,
+   "flags": []
+  },
+  {
+   "key": "u7:c24",
+   "title": "Applications of radioactivity",
+   "unit_index": 7,
+   "page_range_pdf": [
+    251,
+    259
+   ],
+   "page_range_book": [
+    241,
+    null
+   ],
+   "toc_book_page_range": [
+    241,
+    249
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "phys_v1_u7_c24_pdf251_0575",
+     "phys_v1_u7_c24_pdf251_0576"
+    ],
+    "opener_page": 251
+   },
+   "questions_start_page_pdf": null,
+   "flags": []
+  },
+  {
+   "key": "u7:c25",
+   "title": "Fission and fusion",
+   "unit_index": 7,
+   "page_range_pdf": [
+    260,
+    264
+   ],
+   "page_range_book": [
+    250,
+    null
+   ],
+   "toc_book_page_range": [
+    250,
+    258
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "phys_v1_u7_c25_pdf260_0598",
+     "phys_v1_u7_c25_pdf260_0599"
+    ],
+    "opener_page": 260
+   },
+   "questions_start_page_pdf": 264,
+   "flags": []
+  },
+  {
+   "key": "u8:c26",
+   "title": "Motion in the universe",
+   "unit_index": 8,
+   "page_range_pdf": [
+    269,
+    274
+   ],
+   "page_range_book": [
+    259,
+    null
+   ],
+   "toc_book_page_range": [
+    259,
+    264
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "phys_v1_u8_c26_pdf269_0612",
+     "phys_v1_u8_c26_pdf269_0613"
+    ],
+    "opener_page": 269
+   },
+   "questions_start_page_pdf": null,
+   "flags": []
+  },
+  {
+   "key": "u8:c27",
+   "title": "Stellar evolution",
+   "unit_index": 8,
+   "page_range_pdf": [
+    275,
+    279
+   ],
+   "page_range_book": [
+    265,
+    null
+   ],
+   "toc_book_page_range": [
+    265,
+    270
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "phys_v1_u8_c27_pdf275_0631",
+     "phys_v1_u8_c27_pdf275_0632"
+    ],
+    "opener_page": 275
+   },
+   "questions_start_page_pdf": null,
+   "flags": []
+  },
+  {
+   "key": "u8:c28",
+   "title": "Cosmology",
+   "unit_index": 8,
+   "page_range_pdf": [
+    281,
+    284
+   ],
+   "page_range_book": [
+    271,
+    null
+   ],
+   "toc_book_page_range": [
+    271,
+    276
+   ],
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "phys_v1_u8_c28_pdf281_0645",
+     "phys_v1_u8_c28_pdf281_0646"
+    ],
+    "opener_page": 281
+   },
+   "questions_start_page_pdf": null,
+   "flags": []
+  }
+ ],
+ "non_lesson_sections": [
+  {
+   "kind": "unit_exam_bank",
+   "title": "Unit 1 questions (as registered)",
+   "unit_index": 1,
+   "tier": "MANIFEST_REGISTERED",
+   "page_range_pdf": [
+    65,
+    67
+   ]
+  },
+  {
+   "kind": "unit_exam_bank",
+   "title": "Unit 2 questions (as registered)",
+   "unit_index": 2,
+   "tier": "MANIFEST_REGISTERED",
+   "page_range_pdf": [
+    103,
+    105
+   ]
+  },
+  {
+   "kind": "unit_exam_bank",
+   "title": "Unit 3 questions (as registered)",
+   "unit_index": 3,
+   "tier": "MANIFEST_REGISTERED",
+   "page_range_pdf": [
+    140,
+    141
+   ]
+  },
+  {
+   "kind": "unit_exam_bank",
+   "title": "Unit 4 questions (as registered)",
+   "unit_index": 4,
+   "tier": "MANIFEST_REGISTERED",
+   "page_range_pdf": [
+    178,
+    181
+   ]
+  },
+  {
+   "kind": "unit_exam_bank",
+   "title": "Unit 5 questions (as registered)",
+   "unit_index": 5,
+   "tier": "MANIFEST_REGISTERED",
+   "page_range_pdf": [
+    203,
+    205
+   ]
+  },
+  {
+   "kind": "unit_exam_bank",
+   "title": "Unit 6 questions (as registered)",
+   "unit_index": 6,
+   "tier": "MANIFEST_REGISTERED",
+   "page_range_pdf": [
+    227,
+    229
+   ]
+  },
+  {
+   "kind": "unit_exam_bank",
+   "title": "Unit 7 questions (as registered)",
+   "unit_index": 7,
+   "tier": "MANIFEST_REGISTERED",
+   "page_range_pdf": [
+    265,
+    267
+   ]
+  },
+  {
+   "kind": "unit_exam_bank",
+   "title": "Unit 8 questions (as registered)",
+   "unit_index": 8,
+   "tier": "MANIFEST_REGISTERED",
+   "page_range_pdf": [
+    285,
+    286
+   ]
+  }
+ ],
+ "notes": [
+  "PHYSICS ONLY chips (chapters 4, 5, 9, 17) ride rows as flags = the future 4SD0 physics-part join input (W-F4-T1 §4 F-4)",
+  "page_range_book end values are null where the slice end differs from the printed ToC end (exam-bank interleave) — honest frames"
+ ],
+ "generated_utc": "2026-11-13T14:54:01Z",
+ "generator": "agent:scripts/wf4t2_build.py (W-F4-T2 staged build; repo-side scripts/book_layer/ generator proposed, not installed)",
+ "inputs": [
+  "56a8203af736e158ce4451ebfcb6e8b5ae1a56e2",
+  "8fe7510c7f0fd0c69ba2cf2ce9503d37495e4190"
+ ]
+}

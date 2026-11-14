@@ -1,0 +1,818 @@
+{
+ "schema": "syllabai.book-structure/1.0",
+ "qual": "igcse-chemistry",
+ "book": {
+  "key": "4ch1-student-book",
+  "lane": "books/pearson-edexcel/international-gcse/chemistry/4ch1",
+  "title": "Edexcel International GCSE (9-1) Chemistry Student Book",
+  "authors_printed": [],
+  "source_pdf": "books/pearson-edexcel/international-gcse/chemistry/4ch1/student-book.pdf",
+  "sha256": "d48020e0cc0b5545b330bb59b242472198210e424525e4381cd5d2a58a58cc04",
+  "pdf_pages": 383,
+  "page_law": "unpinned in lane of record — pdf-space frames carried; book-page frames pending a lane-side pin (finding recorded, not repaired)",
+  "corpus": {
+   "chunks_jsonl": "books/pearson-edexcel/international-gcse/chemistry/4ch1/parsed/edexcel_igcse_chemistry_chunks_v2.jsonl",
+   "blob": "cc99f398946488fca38099167272a6d421770317",
+   "n_chunks": 640,
+   "prefix_id_law": "edex-igcse-chem-NNNN",
+   "drift_finding": "parse_report_v3.json (blob 8a488585) records n_chunks=1234 / LO=81 (v3 census) while the in-tree chunks file is v2 with 640 chunks / 52 LO — CATALOG/tree drift recorded as a finding; structure of record is the ratified manifest, independent of chunk count"
+  },
+  "slices_manifest": "books/pearson-edexcel/international-gcse/chemistry/4ch1/manifest.json",
+  "manifest_blob": "787067518ab9fbe568a6257347c4621d1b1f4fe9",
+  "catalog_rows": [
+   "CATALOG §2 #1",
+   "CATALOG §3.1",
+   "CATALOG §4.1"
+  ],
+  "serving_state": "LIVE (CATALOG §3.1)"
+ },
+ "provenance_tiers": {
+  "TOC_PRINTED": "row read off the book's printed COURSE STRUCTURE / ToC pages",
+  "BODY_PRINTED": "row read off a printed chapter opener / running header",
+  "MANIFEST_REGISTERED": "row carried by book-slices-manifest-v2 (serving registration)",
+  "MODULE_DERIVED": "row derived from the lane's book_structure_*.py module",
+  "TITLE_ADJUDICATED": "row position/title adjudicated, page-cited, no printed label"
+ },
+ "units": [
+  {
+   "index": 1,
+   "label": "Unit 1 (as registered)",
+   "title": null,
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": null
+  },
+  {
+   "index": 2,
+   "label": "Unit 2 (as registered)",
+   "title": null,
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": null
+  },
+  {
+   "index": 3,
+   "label": "Unit 3 (as registered)",
+   "title": null,
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": null
+  },
+  {
+   "index": 4,
+   "label": "Unit 4 (as registered)",
+   "title": null,
+   "tier": "MANIFEST_REGISTERED",
+   "spec_topic_refs": null
+  }
+ ],
+ "chapters": [
+  {
+   "key": "u1:c1",
+   "title": "States of matter",
+   "unit_index": 1,
+   "page_range_pdf": [
+    11,
+    22
+   ],
+   "page_range_book": null,
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "edex-igcse-chem-0014"
+    ],
+    "n_chunks": 1,
+    "opener_page": 11
+   },
+   "questions_start_page_pdf": 21,
+   "flags": [],
+   "notes": [
+    "band 133i boundary correction (census trace 1a15534a152456f1): range [12, 22] -> [11, 22]; carries the unit opener page (B4)"
+   ]
+  },
+  {
+   "key": "u1:c2",
+   "title": "Elements, compounds and mixtures",
+   "unit_index": 1,
+   "page_range_pdf": [
+    23,
+    32
+   ],
+   "page_range_book": null,
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "edex-igcse-chem-0035",
+     "edex-igcse-chem-0036"
+    ],
+    "n_chunks": 2,
+    "opener_page": 23
+   },
+   "questions_start_page_pdf": 31,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "key": "u1:c3",
+   "title": "Atomic structure",
+   "unit_index": 1,
+   "page_range_pdf": [
+    33,
+    38
+   ],
+   "page_range_book": null,
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "edex-igcse-chem-0049",
+     "edex-igcse-chem-0050"
+    ],
+    "n_chunks": 2,
+    "opener_page": 33
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "notes": [
+    "no CHAPTER QUESTIONS heading anchor in parse of record — whole-range slice (L2)"
+   ]
+  },
+  {
+   "key": "u1:c4",
+   "title": "The periodic table",
+   "unit_index": 1,
+   "page_range_pdf": [
+    39,
+    46
+   ],
+   "page_range_book": null,
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "edex-igcse-chem-0059",
+     "edex-igcse-chem-0060"
+    ],
+    "n_chunks": 2,
+    "opener_page": 39
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "notes": [
+    "band 133i boundary correction (census trace 1a15534a152456f1): range [39, 45] -> [39, 46]; full chapter-question pages included (B2)"
+   ]
+  },
+  {
+   "key": "u1:c5",
+   "title": "Chemical formulae, equations and calculations - part 1 (chemistry only)",
+   "unit_index": 1,
+   "page_range_pdf": [
+    47,
+    72
+   ],
+   "page_range_book": null,
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "edex-igcse-chem-0072",
+     "edex-igcse-chem-0073"
+    ],
+    "n_chunks": 2,
+    "opener_page": 47
+   },
+   "questions_start_page_pdf": 69,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "key": "u1:c6",
+   "title": "Chemical formulae, equations and calculations - part 2",
+   "unit_index": 1,
+   "page_range_pdf": [
+    73,
+    83
+   ],
+   "page_range_book": null,
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "edex-igcse-chem-0115",
+     "edex-igcse-chem-0116"
+    ],
+    "n_chunks": 2,
+    "opener_page": 73
+   },
+   "questions_start_page_pdf": 81,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "key": "u1:c7",
+   "title": "Ionic bonding",
+   "unit_index": 1,
+   "page_range_pdf": [
+    84,
+    93
+   ],
+   "page_range_book": null,
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "edex-igcse-chem-0134",
+     "edex-igcse-chem-0135"
+    ],
+    "n_chunks": 2,
+    "opener_page": 84
+   },
+   "questions_start_page_pdf": 92,
+   "flags": [],
+   "notes": [
+    "band 133i boundary correction (census trace 1a15534a152456f1): range [84, 92] -> [84, 93]; full chapter-question pages included (B2)"
+   ]
+  },
+  {
+   "key": "u1:c8",
+   "title": "Covalent bonding",
+   "unit_index": 1,
+   "page_range_pdf": [
+    94,
+    106
+   ],
+   "page_range_book": null,
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "edex-igcse-chem-0149",
+     "edex-igcse-chem-0150"
+    ],
+    "n_chunks": 2,
+    "opener_page": 94
+   },
+   "questions_start_page_pdf": 105,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "key": "u1:c9",
+   "title": "Metallic bonding (chemistry only)",
+   "unit_index": 1,
+   "page_range_pdf": [
+    107,
+    109
+   ],
+   "page_range_book": null,
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "edex-igcse-chem-0173"
+    ],
+    "n_chunks": 1,
+    "opener_page": 107
+   },
+   "questions_start_page_pdf": 109,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "key": "u1:c10",
+   "title": "Electrolysis (chemistry only)",
+   "unit_index": 1,
+   "page_range_pdf": [
+    110,
+    122
+   ],
+   "page_range_book": null,
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "edex-igcse-chem-0179",
+     "edex-igcse-chem-0180"
+    ],
+    "n_chunks": 2,
+    "opener_page": 110
+   },
+   "questions_start_page_pdf": 121,
+   "flags": [],
+   "notes": [
+    "band 133i boundary correction (census trace 1a15534a152456f1): range [110, 121] -> [110, 122]; full chapter-question pages included (B2)"
+   ]
+  },
+  {
+   "key": "u2:c11",
+   "title": "The alkali metals",
+   "unit_index": 2,
+   "page_range_pdf": [
+    131,
+    138
+   ],
+   "page_range_book": null,
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "edex-igcse-chem-0213"
+    ],
+    "n_chunks": 1,
+    "opener_page": 131
+   },
+   "questions_start_page_pdf": 138,
+   "flags": [],
+   "notes": [
+    "band 133i boundary correction (census trace 1a15534a152456f1): range [132, 138] -> [131, 138]; carries the unit opener page (B4)"
+   ]
+  },
+  {
+   "key": "u2:c12",
+   "title": "The halogens",
+   "unit_index": 2,
+   "page_range_pdf": [
+    139,
+    145
+   ],
+   "page_range_book": null,
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "edex-igcse-chem-0225",
+     "edex-igcse-chem-0226"
+    ],
+    "n_chunks": 2,
+    "opener_page": 139
+   },
+   "questions_start_page_pdf": 143,
+   "flags": [],
+   "notes": [
+    "band 133i boundary correction (census trace 1a15534a152456f1): range [139, 144] -> [139, 145]; full chapter-question pages included (B2)"
+   ]
+  },
+  {
+   "key": "u2:c13",
+   "title": "Gases in the atmosphere",
+   "unit_index": 2,
+   "page_range_pdf": [
+    146,
+    153
+   ],
+   "page_range_book": null,
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "edex-igcse-chem-0238",
+     "edex-igcse-chem-0239"
+    ],
+    "n_chunks": 2,
+    "opener_page": 146
+   },
+   "questions_start_page_pdf": 153,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "key": "u2:c14",
+   "title": "Reactivity series",
+   "unit_index": 2,
+   "page_range_pdf": [
+    154,
+    168
+   ],
+   "page_range_book": null,
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "edex-igcse-chem-0251"
+    ],
+    "n_chunks": 1,
+    "opener_page": 154
+   },
+   "questions_start_page_pdf": 166,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "key": "u2:c15",
+   "title": "Extraction and uses of metals (chemistry only)",
+   "unit_index": 2,
+   "page_range_pdf": [
+    169,
+    175
+   ],
+   "page_range_book": null,
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "edex-igcse-chem-0279",
+     "edex-igcse-chem-0280"
+    ],
+    "n_chunks": 2,
+    "opener_page": 169
+   },
+   "questions_start_page_pdf": 174,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "key": "u2:c16",
+   "title": "Acids, alkalis and titrations",
+   "unit_index": 2,
+   "page_range_pdf": [
+    176,
+    181
+   ],
+   "page_range_book": null,
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "edex-igcse-chem-0289",
+     "edex-igcse-chem-0290"
+    ],
+    "n_chunks": 2,
+    "opener_page": 176
+   },
+   "questions_start_page_pdf": 179,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "key": "u2:c17",
+   "title": "Acids, bases and salt preparations",
+   "unit_index": 2,
+   "page_range_pdf": [
+    182,
+    198
+   ],
+   "page_range_book": null,
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "edex-igcse-chem-0298",
+     "edex-igcse-chem-0299"
+    ],
+    "n_chunks": 2,
+    "opener_page": 182
+   },
+   "questions_start_page_pdf": 195,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "key": "u2:c18",
+   "title": "Chemical tests",
+   "unit_index": 2,
+   "page_range_pdf": [
+    199,
+    206
+   ],
+   "page_range_book": null,
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "edex-igcse-chem-0323"
+    ],
+    "n_chunks": 1,
+    "opener_page": 199
+   },
+   "questions_start_page_pdf": 204,
+   "flags": [],
+   "notes": [
+    "band 133i boundary correction (census trace 1a15534a152456f1): range [199, 207] -> [199, 206]; full chapter-question pages included (B2)"
+   ]
+  },
+  {
+   "key": "u3:c19",
+   "title": "Energetics",
+   "unit_index": 3,
+   "page_range_pdf": [
+    215,
+    235
+   ],
+   "page_range_book": null,
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "edex-igcse-chem-0345"
+    ],
+    "n_chunks": 1,
+    "opener_page": 215
+   },
+   "questions_start_page_pdf": 232,
+   "flags": [],
+   "notes": [
+    "band 133i boundary correction (census trace 1a15534a152456f1): range [216, 234] -> [215, 235]; carries the unit opener page (B4)"
+   ]
+  },
+  {
+   "key": "u3:c20",
+   "title": "Rates of reaction",
+   "unit_index": 3,
+   "page_range_pdf": [
+    236,
+    248
+   ],
+   "page_range_book": null,
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "edex-igcse-chem-0378",
+     "edex-igcse-chem-0379"
+    ],
+    "n_chunks": 2,
+    "opener_page": 236
+   },
+   "questions_start_page_pdf": 246,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "key": "u3:c21",
+   "title": "Reversible reactions and equilibria",
+   "unit_index": 3,
+   "page_range_pdf": [
+    249,
+    256
+   ],
+   "page_range_book": null,
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "edex-igcse-chem-0399",
+     "edex-igcse-chem-0400"
+    ],
+    "n_chunks": 2,
+    "opener_page": 249
+   },
+   "questions_start_page_pdf": null,
+   "flags": [],
+   "notes": [
+    "no CHAPTER QUESTIONS heading anchor in parse of record — whole-range slice (L2)"
+   ]
+  },
+  {
+   "key": "u4:c22",
+   "title": "Introduction to organic chemistry",
+   "unit_index": 4,
+   "page_range_pdf": [
+    263,
+    276
+   ],
+   "page_range_book": null,
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "edex-igcse-chem-0421"
+    ],
+    "n_chunks": 1,
+    "opener_page": 263
+   },
+   "questions_start_page_pdf": 273,
+   "flags": [],
+   "notes": [
+    "band 133i boundary correction (census trace 1a15534a152456f1): range [264, 276] -> [263, 276]; carries the unit opener page (B4)"
+   ]
+  },
+  {
+   "key": "u4:c23",
+   "title": "Crude oil",
+   "unit_index": 4,
+   "page_range_pdf": [
+    277,
+    285
+   ],
+   "page_range_book": null,
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "edex-igcse-chem-0444"
+    ],
+    "n_chunks": 1,
+    "opener_page": 277
+   },
+   "questions_start_page_pdf": 284,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "key": "u4:c24",
+   "title": "Alkanes",
+   "unit_index": 4,
+   "page_range_pdf": [
+    286,
+    290
+   ],
+   "page_range_book": null,
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "edex-igcse-chem-0457",
+     "edex-igcse-chem-0458"
+    ],
+    "n_chunks": 2,
+    "opener_page": 286
+   },
+   "questions_start_page_pdf": 290,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "key": "u4:c25",
+   "title": "Alkenes",
+   "unit_index": 4,
+   "page_range_pdf": [
+    291,
+    295
+   ],
+   "page_range_book": null,
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "edex-igcse-chem-0465"
+    ],
+    "n_chunks": 1,
+    "opener_page": 291
+   },
+   "questions_start_page_pdf": 294,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "key": "u4:c26",
+   "title": "Alcohols (chemistry only)",
+   "unit_index": 4,
+   "page_range_pdf": [
+    296,
+    301
+   ],
+   "page_range_book": null,
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "edex-igcse-chem-0473"
+    ],
+    "n_chunks": 1,
+    "opener_page": 296
+   },
+   "questions_start_page_pdf": 301,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "key": "u4:c27",
+   "title": "Carboxylic acids (chemistry only)",
+   "unit_index": 4,
+   "page_range_pdf": [
+    302,
+    305
+   ],
+   "page_range_book": null,
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "edex-igcse-chem-0482"
+    ],
+    "n_chunks": 1,
+    "opener_page": 302
+   },
+   "questions_start_page_pdf": 304,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "key": "u4:c28",
+   "title": "Esters (chemistry only)",
+   "unit_index": 4,
+   "page_range_pdf": [
+    306,
+    310
+   ],
+   "page_range_book": null,
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "edex-igcse-chem-0488"
+    ],
+    "n_chunks": 1,
+    "opener_page": 306
+   },
+   "questions_start_page_pdf": 310,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "key": "u4:c29",
+   "title": "Synthetic polymers",
+   "unit_index": 4,
+   "page_range_pdf": [
+    311,
+    321
+   ],
+   "page_range_book": null,
+   "tier": "MANIFEST_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "edex-igcse-chem-0495",
+     "edex-igcse-chem-0496"
+    ],
+    "n_chunks": 2,
+    "opener_page": 311
+   },
+   "questions_start_page_pdf": 320,
+   "flags": [],
+   "notes": []
+  }
+ ],
+ "non_lesson_sections": [
+  {
+   "kind": "unit_exam_bank",
+   "title": "Unit 1 exam questions (as registered)",
+   "unit_index": 1,
+   "tier": "MANIFEST_REGISTERED",
+   "page_range_pdf": [
+    123,
+    130
+   ]
+  },
+  {
+   "kind": "unit_exam_bank",
+   "title": "Unit 2 exam questions (as registered)",
+   "unit_index": 2,
+   "tier": "MANIFEST_REGISTERED",
+   "page_range_pdf": [
+    207,
+    214
+   ]
+  },
+  {
+   "kind": "unit_exam_bank",
+   "title": "Unit 3 exam questions (as registered)",
+   "unit_index": 3,
+   "tier": "MANIFEST_REGISTERED",
+   "page_range_pdf": [
+    257,
+    262
+   ]
+  },
+  {
+   "kind": "unit_exam_bank",
+   "title": "Unit 4 exam questions (as registered)",
+   "unit_index": 4,
+   "tier": "MANIFEST_REGISTERED",
+   "page_range_pdf": [
+    322,
+    328
+   ]
+  },
+  {
+   "kind": "reference_section",
+   "title": "appendix_a",
+   "unit_index": null,
+   "tier": "MANIFEST_REGISTERED",
+   "page_range_pdf": [
+    329,
+    329
+   ]
+  },
+  {
+   "kind": "reference_section",
+   "title": "appendix_b_c",
+   "unit_index": null,
+   "tier": "MANIFEST_REGISTERED",
+   "page_range_pdf": [
+    330,
+    336
+   ]
+  },
+  {
+   "kind": "reference_section",
+   "title": "glossary",
+   "unit_index": null,
+   "tier": "MANIFEST_REGISTERED",
+   "page_range_pdf": [
+    337,
+    344
+   ]
+  },
+  {
+   "kind": "reference_section",
+   "title": "index",
+   "unit_index": null,
+   "tier": "MANIFEST_REGISTERED",
+   "page_range_pdf": [
+    345,
+    353
+   ]
+  },
+  {
+   "kind": "reference_section",
+   "title": "answers",
+   "unit_index": null,
+   "tier": "MANIFEST_REGISTERED",
+   "page_range_pdf": [
+    354,
+    383
+   ]
+  }
+ ],
+ "notes": [
+  "4 unit_exam banks + deferred reference sections (appendix/glossary/index/answers) registered from the ratified manifest",
+  "titles as printed/transcribed (F-3); notes carried verbatim from the manifest rows"
+ ],
+ "generated_utc": "2026-11-13T14:54:01Z",
+ "generator": "agent:scripts/wf4t2_build.py (W-F4-T2 staged build; repo-side scripts/book_layer/ generator proposed, not installed)",
+ "inputs": [
+  "787067518ab9fbe568a6257347c4621d1b1f4fe9",
+  "cc99f398946488fca38099167272a6d421770317"
+ ]
+}
