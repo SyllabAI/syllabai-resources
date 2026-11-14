@@ -1401,6 +1401,190 @@ for (const course of P11) {
   );
 }
 
+// ================================================= P12 narrow CIE cluster lane =====
+// Owner chat 2026-11-13: "run P12" after the P11 exit census left 16 honest-empty
+// courses. Narrow scope per the owner-approved recommendation: hunt ONLY the
+// clusters where CIE-native channels plausibly exist — 9609 AS+A business (2
+// courses), 9696 A-level geography, 8291 AS environmental management, 8021 AS
+// general paper — and DECLARE the Edexcel English/history/accounting/econ units
+// and RS terminal honest-empty. Eleven pools (3,642 uploads, 0 overlap with the
+// shipped union): Cambridge Business Essentials, BizEdMadeSimple, Alt Academy,
+// The Teaching Student (9609), The Geography Academy (9696 structured unit
+// course), Virtual Pathways + Polymath Institute (8291), Mini Lessons, English
+// with Ms Irum, Ace The Exam, Miss Cutu (8021). 6 Tier B session/paper-code
+// anchors (9609/42|22|12 O/N/26 predictions; 8021 GP session papers) + 113 Tier A
+// spec rows via the deduped distinctive-token rule and the four-gate topic-lecture
+// class (verbatim / multi-uniq / title-token / title-pair — full-topic lectures bind
+// their topic's SPEC_POINTs as ONE multi-spec row at confidence low, disclosed per
+// row); N.M section-marker narrowing; oEmbed 119/119 author_url == channel-of-record;
+// honest skips 304 (technique/guidance registers, generic mentions, out-of-lane
+// IGCSE registers, channel-internal unit numbering). Degenerate single-generic-token
+// binds ("issues"/"changing"/"rural") re-adjudicated to honest skips on review.
+// NEW uncovered courses created fresh here (the P11 shape); runs BEFORE the P4
+// inherit loop; no P12B post-inherit section (no inherit-child takes P12 rows).
+const P12 = [
+  "cie-as-business-23", "cie-a-level-business-23", "cie-a-level-geography-21",
+  "cie-as-environmental-management-20", "cie-as-english-general-paper-21",
+];
+for (const course of P12) {
+  const D = join(VIDEOS, "drafts", course);
+  const draft = JSON.parse(readFileSync(join(D, "video-map.draft.external-p12.json"), "utf8"));
+  const verdicts = JSON.parse(readFileSync(join(D, "owner-review-verdicts.p12.json"), "utf8"));
+  if (draft.reviewState !== "owner-reviewed-external")
+    throw new Error(`${course}: p12 reviewState is "${draft.reviewState}" — apply review first`);
+  const spine = JSON.parse(readFileSync(join(SPINES, `${course}.json`), "utf8"));
+  const specByCode = new Map(
+    spine.curriculum.nodes.filter((n) => n.family === "SPEC_POINT").map((n) => [n.code, n])
+  );
+  assertSpineMirror(course, spine);
+  const contentPath = join(MAPDIR, `${course}.json`);
+  let content;
+  if (existsSync(contentPath)) {
+    content = JSON.parse(readFileSync(contentPath, "utf8"));
+    if (!content.review) errors.push(`${course}: existing content file has no review block`);
+    if (!content.inputs) errors.push(`${course}: existing content file has no inputs block`);
+    if (errors.length) break;
+  } else {
+    content = {
+      schema: "hub.video-map/1",
+      course,
+      qual: draft.qual,
+      source: {
+        provider: draft.source.provider,
+        label: course,
+        method: draft.source.method,
+        enumeratedUtc: draft.source.enumeratedUtc,
+      },
+      review: {
+        task: verdicts.task,
+        ruledUtc: verdicts.ruledUtc,
+        ruling: verdicts.source,
+        reviewer: verdicts.reviewer,
+        evidenceBasis: verdicts.evidenceBasis,
+        rowsApproved: 0,
+        rowsRejected: (verdicts.rejects || []).length,
+        rejects: REJECTS_OF(verdicts, verdicts.task),
+      },
+      videos: [],
+      mappings: [],
+      coverage: null,
+      inputs: {
+        spine: { file: `apps/hub/spines/${course}.json`, sha256: sha256(join(SPINES, `${course}.json`)) },
+      },
+      generatedUtc: new Date().toISOString(),
+    };
+  }
+
+  // idempotency (the P2B law, video-keyed): the draft is the only source for
+  // p12 rows — drop prior p12-lane rows (by video id) and the prior p12 lane
+  // entry before re-appending, so a re-emit from post-p12 state is a no-op.
+  const p12Vids = new Set(draft.videos.map((v) => v.id));
+  content.mappings = content.mappings.filter((m) => !p12Vids.has(m.video));
+  content.review.lanes = (content.review.lanes || []).filter(
+    (l) => !String(l.lane || "").includes("narrow CIE cluster lane")
+  );
+  for (const m of draft.mappings) {
+    if (m.reviewed !== true || !m.reviewer || !m.reviewedUtc)
+      errors.push(`${course}: unreviewed p12 row leaking into content (${m.video})`);
+    if (!/^[\w-]{11}$/.test(m.video)) errors.push(`${course}: bad p12 video id ${m.video}`);
+    if (m.method === "paper-code") {
+      if (!m.anchor || m.anchor.level !== "course" || m.anchor.ref !== course)
+        errors.push(`${course}: p12 paper-code row must carry anchor{level:course, ref:course} (${m.video})`);
+      if (!m.specs || m.specs.length !== 0)
+        errors.push(`${course}: p12 anchor rows carry specs:[] — zero spec weight (§4) (${m.video})`);
+      if (m.confidence !== "high")
+        errors.push(`${course}: p12 paper-code anchor must be high confidence (${m.video})`);
+      if (m.boardMismatch !== false)
+        errors.push(`${course}: p12 paper-code anchor is same-qualification — boardMismatch must be false (${m.video})`);
+      if (m.kind !== "past-paper-walkthrough")
+        errors.push(`${course}: p12 anchor row must carry kind past-paper-walkthrough (${m.video})`);
+    } else if (m.method === "llm-draft-external") {
+      if (!m.specs || m.specs.length === 0)
+        errors.push(`${course}: p12 spec rows must carry non-empty specs (${m.video})`);
+      if (m.boardMismatch !== true)
+        errors.push(`${course}: p12 spec rows carry the title-only posture — boardMismatch must be true (${m.video})`);
+      if (m.confidence !== "medium" && m.confidence !== "low")
+        errors.push(`${course}: p12 spec rows are medium/low — high would violate the inherit posture (${m.video})`);
+      for (const code of m.specs || [])
+        if (!specByCode.has(code)) errors.push(`${course}: p12 spec ${code} not in spine (${m.video})`);
+    } else {
+      errors.push(`${course}: p12 row has unexpected method ${m.method} (${m.video})`);
+    }
+  }
+  const haveKeysP12 = new Set(content.mappings.map((m) => m.video + "|" + JSON.stringify(m.specs)));
+  for (const m of draft.mappings) {
+    const k = m.video + "|" + JSON.stringify(m.specs);
+    if (haveKeysP12.has(k)) errors.push(`${course}: duplicate p12 row across union ${k}`);
+    haveKeysP12.add(k);
+  }
+  const haveVidsP12 = new Set(content.videos.map((v) => v.id));
+  for (const v of draft.videos) {
+    if (!haveVidsP12.has(v.id)) content.videos.push(v);
+    if (!v.provider || !v.watchUrl) errors.push(`${course}: p12 video ${v.id} missing provider/watchUrl`);
+    if (!v.identityMethod) errors.push(`${course}: p12 video ${v.id} missing identityMethod`);
+  }
+  if (errors.length) break;
+
+  content.mappings = [...content.mappings, ...draft.mappings];
+  const allSpecsP12 = new Set(content.mappings.flatMap((m) => m.specs));
+  const mappedVidsP12 = new Set(content.mappings.map((m) => m.video));
+  content.coverage = {
+    specPointsTotal: specByCode.size,
+    specPointsMapped: allSpecsP12.size,
+    specPointsUnmapped: specByCode.size - allSpecsP12.size,
+    videosTotal: content.videos.length,
+    videosMapped: mappedVidsP12.size,
+    videosUnmapped: content.videos.length - mappedVidsP12.size,
+    mappingRows: content.mappings.length,
+    byConfidence: {
+      high: content.mappings.filter((m) => m.confidence === "high").length,
+      medium: content.mappings.filter((m) => m.confidence === "medium").length,
+      low: content.mappings.filter((m) => m.confidence === "low").length,
+    },
+  };
+  const p12Lane = {
+    lane: "external-channels-p12 (narrow CIE cluster lane: 9609 business / 9696 geography / 8291 EM / 8021 GP)", task: verdicts.task,
+    ruling: verdicts.source, reviewer: verdicts.reviewer, ruledUtc: verdicts.ruledUtc,
+    evidenceBasis: verdicts.evidenceBasis,
+    rowsApproved: draft.mappings.length, rowsRejected: (verdicts.rejects || []).length,
+    rejects: REJECTS_OF(verdicts, verdicts.task),
+  };
+  content.review.lanes = [
+    ...(content.review.lanes || [{
+      lane: "external-channels (primary)", task: content.review.task,
+      ruling: content.review.ruling, reviewer: content.review.reviewer,
+      ruledUtc: content.review.ruledUtc, evidenceBasis: content.review.evidenceBasis,
+      rowsApproved: content.review.rowsApproved, rowsRejected: content.review.rowsRejected,
+      rejects: content.review.rejects || [],
+    }]),
+    p12Lane,
+  ];
+  content.review.rowsApproved = content.mappings.length;
+  content.source.p12 = {
+    provider: draft.source.provider, method: draft.source.method,
+    enumeratedUtc: draft.source.enumeratedUtc,
+  };
+  content.inputs.p12 = {
+    repo: "SyllabAI/syllabai-resources",
+    path: `Videos/drafts/${course}/video-map.draft.external-p12.json`,
+    task: verdicts.task, reviewAppliedUtc: verdicts.ruledUtc,
+  };
+  content.generatedUtc = new Date().toISOString();
+  writeFileSync(contentPath, JSON.stringify(content, null, 1) + "\n");
+  const baseLaneP12 = registry.courses[course]?.lane || "external-channels";
+  registry.courses[course] = {
+    videos: content.videos.length,
+    mapped: content.coverage.videosMapped,
+    shelf: registry.courses[course]?.shelf ?? null,
+    lane: baseLaneP12.includes("p12-cie-narrow") ? baseLaneP12 : baseLaneP12 + " + p12-cie-narrow",
+    updatedUtc: new Date().toISOString(),
+  };
+  registry.generatedUtc = new Date().toISOString();
+  console.log(
+    `${course}: SHIPPED +p12 specs ${content.coverage.specPointsMapped}/${content.coverage.specPointsTotal} · videos ${content.coverage.videosMapped}/${content.coverage.videosTotal} · rows ${content.coverage.mappingRows} (+${draft.mappings.length} narrow-cluster rows) · 0 reviewed:false in content`
+  );
+}
+
 // ================================================= P4 inheritance lane =====
 // 35 child courses derive their external lane from ONE parent course's
 // owner-approved rows via the committed containment map. Child spec -> best
@@ -2004,7 +2188,7 @@ console.log(`wrote ${registryPath} (${Object.keys(registry.courses).length} cour
 // must be hand-synced in the lane PR to match this template.
 const flagsPath = join(HUB, "apps/hub/content/flags.json");
 const flags = JSON.parse(readFileSync(flagsPath, "utf8"));
-const want = ["igcse-biology-19", ...FRESH, ...P4_FRESH, ...P9, ...P9B, ...P10, ...P11, ...P11B, ...Object.keys(inhMap.parents)];
+const want = ["igcse-biology-19", ...FRESH, ...P4_FRESH, ...P9, ...P9B, ...P10, ...P11, ...P12, ...P11B, ...Object.keys(inhMap.parents)];
 const have = new Set(flags.flags.videoMap.courses);
 const coursesCurrent = want.every((c) => have.has(c)) && flags.flags.videoMap.courses.length === want.length;
 const statusCurrent = typeof flags.flags.videoMap.status === "string"
@@ -2015,7 +2199,7 @@ if (coursesCurrent && statusCurrent) {
   for (const c of want) if (!have.has(c)) flags.flags.videoMap.courses.push(c);
   flags.flags.videoMap.courses.sort();
   flags.flags.videoMap.status =
-    "live (T-VIDEOMAP-P3+P4+P5+P6+P7+P8+P9+P10+P11): lib/video-map.ts loader + /courses/[course]/videos lane shipped for the "
+    "live (T-VIDEOMAP-P3+P4+P5+P6+P7+P8+P9+P10+P11+P12): lib/video-map.ts loader + /courses/[course]/videos lane shipped for the "
     + "courses below (igcse-biology-19 site+external; 9 external-channels courses incl. the CIE A-level trio; "
     + "P4 scale pass: 4 shelf-direct Cognito maths lanes, 4 mechanics cross-subject lanes, 35 inherited lanes "
     + "derived from owner-approved parent rows via the committed containment map; "
@@ -2046,6 +2230,14 @@ if (coursesCurrent && statusCurrent) {
     + "(760, no Edexcel econ qualification in the spine), GCSE-English register (170), CIE ESL 0510/0511 (54), CIE A-level history "
     + "9489 and O-level US history 0409, predicted/summary compilations; igcse-history-17, cie-igcse-history-18 and "
     + "igcse-economics-17 re-adjudicated course-level to honest unmapped after degenerate single-token binds were caught on review. "
+    + "P12 narrow CIE cluster lane: 119 owner-reviewed rows onto the five remaining CIE-native uncovered courses (9609 AS+A "
+    + "business x2, 9696 A-level geography, 8291 AS environmental management, 8021 AS general paper) from eleven pools "
+    + "(3,642 uploads, 0 overlap with the shipped union): 6 Tier B session/paper-code anchors (9609/42|22|12 O/N/26 predictions, "
+    + "8021 GP session papers) + 113 Tier A spec rows via the deduped distinctive-token rule, the four-gate topic-lecture class "
+    + "(verbatim / multi-uniq / title-token / title-pair — full-topic lectures bind their topic's spec points as one multi-spec "
+    + "row at confidence low, disclosed per row) and N.M section-marker narrowing; oEmbed 119/119 author==channel-of-record; "
+    + "honest skips 304 (technique/guidance registers, generic mentions, out-of-lane IGCSE registers); the Edexcel "
+    + "English/history/accounting/econ units and RS are declared terminal honest-empty. "
     + "Links resolve lessonUrl (site lane, Cognito) then watchUrl (external lanes, YouTube). Rows are "
     + "owner-reviewed (title-only evidence, confidence + boardMismatch disclosed per row; inherited rows carry "
     + "their derivation in inherit); the loader re-filters reviewed:true as defense in depth. One-flip kill "
