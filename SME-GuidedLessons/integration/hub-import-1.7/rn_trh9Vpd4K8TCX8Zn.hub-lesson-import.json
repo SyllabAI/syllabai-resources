@@ -1,0 +1,304 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_trh9Vpd4K8TCX8Zn",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "e2a05dcde84e188f77558b5b1f9f20375ec96f0f2514a3e76636a07850741d49",
+    "pinnedRef": "49cb642ee61487cd5debc9850048209a0648785d"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_trh9Vpd4K8TCX8Zn",
+    "topicTitle": "1. Structure, Bonding & Introduction to Organic Chemistry",
+    "subtopicTitle": "Ionic Bonding & Structures",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/1-structure-bonding-and-introduction-to-organic-chemistry/1-6-ionic-and-metallic-bonding-and-structure/1-6-2-ionic-bonding-and-structures",
+    "specAnchors": [
+      {
+        "code": "3.3",
+        "text": "be able to draw dot-and-cross diagrams to show electrons in cations and anions"
+      }
+    ],
+    "primer": {
+      "text": "Ionic bonding hands electrons from metal to non-metal, leaving a cation and an anion that each wear a noble gas configuration. Dot-and-cross diagrams record the transfer, and charge arithmetic builds formulae: CaF2, Li3N, Al2O3. This note covers the transfer mechanism, the drawing conventions, and the balance-every-charge rule that turns ion charges into neutral crystal formulae.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_trh9Vpd4K8TCX8Zn::L1",
+        "title": "Transfer, charge and attraction",
+        "sourceHeadings": [
+          "Ionic Dot & Cross Diagrams"
+        ],
+        "specRefs": [
+          "3.3"
+        ],
+        "opening": "Ionic bonding starts with a handover: a metal atom on the left of the table surrenders valence electrons to a non-metal on the right. Both walk away with full outer shells and noble-gas configurations - the metal a positive cation, the non-metal a negative anion - and their strong, non-directional electrostatic attraction locks them into a neutral crystalline lattice with high melting points.",
+        "keyPoints": [
+          "Ionic bonding is the transfer of electrons from a metal to a non-metal.",
+          "The metal loses valence electrons and becomes a positive cation.",
+          "The non-metal gains electrons and becomes a negative anion.",
+          "Both ions finish with noble-gas electronic configurations - K+ and Cl- each match argon at [2,8,8].",
+          "Opposite charges attract in all directions, forming a strong, non-directional bond and a neutral lattice."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "The metal gives its outer electrons away, the non-metal accepts them, both end up with complete shells, and the resulting charges lock together into a crystal.",
+            "analogy": "One neighbour hands a stack of keys to another: the giver is now owed a favour (positive), the receiver owes one (negative), and the debt pulls them together.",
+            "examPointer": "Always pair the transfer with the resulting charges - naming the ions without the charges scores nothing."
+          },
+          "medium": {
+            "restatement": "Electron transfer converts two atoms into oppositely charged ions that each reach the configuration of the nearest noble gas; the Coulomb attraction between them is isotropic and strong enough to demand large energies to overcome, hence high melting temperatures.",
+            "analogy": "A relay baton passed across the table: the runner who loses it ends up owed a lap, the catcher owes one, and the bookkeeping pulls the team into formation.",
+            "examPointer": "K+ and Cl- both share argon's [2,8,8] arrangement - quoting one matched pair is the quickest full-credit configuration answer."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_trh9Vpd4K8TCX8Zn::L1::Q1",
+          "rn_trh9Vpd4K8TCX8Zn::L1::Q2",
+          "rn_trh9Vpd4K8TCX8Zn::L1::Q3",
+          "rn_trh9Vpd4K8TCX8Zn::L1::Q4",
+          "rn_trh9Vpd4K8TCX8Zn::L1::Q5",
+          "rn_trh9Vpd4K8TCX8Zn::L1::Q6",
+          "rn_trh9Vpd4K8TCX8Zn::L1::Q7",
+          "rn_trh9Vpd4K8TCX8Zn::L1::Q8",
+          "rn_trh9Vpd4K8TCX8Zn::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01",
+          "fig-02",
+          "fig-03",
+          "fig-04"
+        ]
+      },
+      {
+        "id": "rn_trh9Vpd4K8TCX8Zn::L2",
+        "title": "Drawing the diagrams",
+        "sourceHeadings": [
+          "Dot and cross diagrams",
+          "Ionic compounds"
+        ],
+        "specRefs": [
+          "3.3"
+        ],
+        "opening": "Dot-and-cross diagrams are the conventions of ionic bookkeeping: only outer-shell electrons appear, dots for one atom's electrons and crosses for the other's, square brackets wrap each ion, and the ionic charge sits at the top right. The drawn transfer always leaves both ions with full outer shells.",
+        "keyPoints": [
+          "Dot-and-cross diagrams display the outer-shell electrons of the atoms involved.",
+          "One atom's electrons are dots; the other atom's are crosses.",
+          "Square brackets enclose each ion, with the charge written at the top right corner.",
+          "Only outer electrons are drawn - inner shells stay off the page.",
+          "A correct diagram shows both ions reaching noble-gas outer shells after transfer."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Draw only the outer electrons, use one symbol per atom, bracket each finished ion and stamp the charge on its corner.",
+            "analogy": "Two-colour highlighters marking who owned which book before the swap: the colour records the origin, the bracket wraps the final owner.",
+            "examPointer": "Marks hide in the details - brackets on every ion and the charge sign on the top right, never the bottom."
+          },
+          "medium": {
+            "restatement": "The diagram is a conservation ledger: every cross transferred appears inside the anion's brackets, both bracketed species show complete outer shells, and the corner charges certify the electron arithmetic that keeps the compound neutral.",
+            "analogy": "A transfer receipt: the crossed items list what changed hands, the brackets wrap each final inventory, and the corner stamp totals the account.",
+            "examPointer": "Examiners check electron origin: a transferred electron must be drawn with the donor's symbol inside the acceptor's shell."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_trh9Vpd4K8TCX8Zn::L2::Q1",
+          "rn_trh9Vpd4K8TCX8Zn::L2::Q2",
+          "rn_trh9Vpd4K8TCX8Zn::L2::Q3",
+          "rn_trh9Vpd4K8TCX8Zn::L2::Q4",
+          "rn_trh9Vpd4K8TCX8Zn::L2::Q5",
+          "rn_trh9Vpd4K8TCX8Zn::L2::Q6",
+          "rn_trh9Vpd4K8TCX8Zn::L2::Q7",
+          "rn_trh9Vpd4K8TCX8Zn::L2::Q8",
+          "rn_trh9Vpd4K8TCX8Zn::L2::Q9"
+        ],
+        "figureIds": [
+          "fig-05"
+        ]
+      },
+      {
+        "id": "rn_trh9Vpd4K8TCX8Zn::L3",
+        "title": "Balancing charges into formulae",
+        "sourceHeadings": [
+          "Calcium fluoride"
+        ],
+        "specRefs": [
+          "3.3"
+        ],
+        "opening": "Ionic formulae are charge-balance sums. Calcium gives two electrons, so Ca2+ needs two singly charged fluoride ions to reach neutrality: CaF2. The same bookkeeping scales to harder cases - lithium nitride packs three Li+ around one N3-, and aluminium oxide pairs two Al3+ with three O2- so every charge cancels in the neutral solid.",
+        "keyPoints": [
+          "Calcium is Group 2, so it loses two electrons to form Ca2+.",
+          "Fluorine is Group 7, so each fluorine atom gains one electron to form F-.",
+          "Two fluoride ions are needed to cancel the 2+ charge of one calcium ion, giving CaF2.",
+          "Lithium nitride needs three Li+ ions against one N3- ion, giving the neutral solid Li3N.",
+          "Aluminium oxide needs two Al3+ ions against three O2- ions, giving the neutral solid Al2O3."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Work out each ion's charge from the group number, then swap-and-balance until the totals cancel to zero - that ratio is the formula.",
+            "analogy": "Trading coins of different denominations until both pockets hold equal value: the coin counts become the formula's subscripts.",
+            "examPointer": "Check neutrality before writing anything else: multiply each ion charge by its count and force the sum to zero."
+          },
+          "medium": {
+            "restatement": "Formula construction is charge algebra: the cation charge times its count plus the anion charge times its count must equal zero, which for 2+ versus 1- gives a 1:2 ratio and for 3+ versus 2- gives a 2:3 cross-multiplied ratio.",
+            "analogy": "A see-saw with two block sizes: to level it, place blocks in the cross-multiplied ratio of their weights - exactly how Al3+ and O2- settle at 2:3.",
+            "examPointer": "The lithium nitride worked example is the template: 3 x (+1) + 1 x (-3) = 0 certifies Li3N before any drawing starts."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_trh9Vpd4K8TCX8Zn::L3::Q1",
+          "rn_trh9Vpd4K8TCX8Zn::L3::Q2",
+          "rn_trh9Vpd4K8TCX8Zn::L3::Q3",
+          "rn_trh9Vpd4K8TCX8Zn::L3::Q4",
+          "rn_trh9Vpd4K8TCX8Zn::L3::Q5",
+          "rn_trh9Vpd4K8TCX8Zn::L3::Q6",
+          "rn_trh9Vpd4K8TCX8Zn::L3::Q7",
+          "rn_trh9Vpd4K8TCX8Zn::L3::Q8",
+          "rn_trh9Vpd4K8TCX8Zn::L3::Q9"
+        ],
+        "figureIds": [
+          "fig-06",
+          "fig-07"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "ionic bond",
+          "definition": "The strong electrostatic attraction between oppositely charged ions, acting in all directions.",
+          "firstLesson": 1
+        },
+        {
+          "term": "dot-and-cross diagram",
+          "definition": "A drawing of outer-shell electrons, with dots and crosses marking each atom's electrons and brackets carrying the ionic charges.",
+          "firstLesson": 2
+        },
+        {
+          "term": "noble gas configuration",
+          "definition": "The full outer-shell electron arrangement of a noble gas, reached by both ions after transfer.",
+          "firstLesson": 1
+        }
+      ],
+      "workedExample": {
+        "prompt": "Draw a dot-and-cross description for lithium nitride: what ratio of ions makes the solid neutral, and why?",
+        "steps": [
+          "Lithium is Group 1: each Li atom loses one electron, forming Li+.",
+          "Nitrogen is Group 5: the N atom gains three electrons, forming N3-.",
+          "Cancel the -3 charge: three Li+ ions are needed, 3 x (+1) + 1 x (-3) = 0.",
+          "Lithium nitride is Li3N - one nitride ion ionically bonded to three lithium ions."
+        ],
+        "finalAnswer": "Li3N: three lithium ions balance one nitride ion, and the solid is neutral."
+      }
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/2bfe6fc7e3de-1-3-chemical-bonding-metals-forming-cations.png",
+        "alt": "Chemical Bonding Metals forming Cations, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Ionic Dot & Cross Diagrams",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "Forming cations by the removal of electrons from metals"
+      },
+      {
+        "id": "fig-02",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/2c5e4d98d579-1-3-chemical-bonding-non-metals-forming-anions.png",
+        "alt": "Chemical Bonding Non-metals Forming Anions, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Ionic Dot & Cross Diagrams",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "Forming anions by the addition of electrons to nonmetals"
+      },
+      {
+        "id": "fig-03",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/04083ec6dfe5-1-3-chemical-bonding-forming-ionic-compounds.png",
+        "alt": "Chemical Bonding Forming Ionic Compounds, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Ionic Dot & Cross Diagrams",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "Cations and anions bond together using strong electrostatic forces, which require a lot of energy to overcome"
+      },
+      {
+        "id": "fig-04",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/916aebec88fa-1-3-chemical-bonding-ionic-lattice.png",
+        "alt": "Chemical Bonding Ionic Lattice, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Ionic Dot & Cross Diagrams",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "Ionic solids are arranged in lattice structures"
+      },
+      {
+        "id": "fig-05",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/813d9aedce0b-1-3-chemical-bonding-ionic-dot-cross.png",
+        "alt": "Chemical Bonding Ionic Dot & Cross, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Ionic compounds",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique",
+        "caption": "Dot-and-cross diagrams of ionic compounds in which one of the atoms transfers their valence electrons to the other"
+      },
+      {
+        "id": "fig-06",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/c76b8f922845-1-3-chemical-bonding-lithium-nitride-cross-diagr.png",
+        "alt": "Chemical Bonding Lithium Nitride Cross Diagram, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Calcium fluoride",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique",
+        "caption": "Dot and cross diagram to show the ionic bonding in lithium nitride"
+      },
+      {
+        "id": "fig-07",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/be60f4a16694-1-3-chemical-bonding-aluminium-oxide-cross-diagr.png",
+        "alt": "Chemical Bonding Aluminium Oxide Cross Diagram, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Calcium fluoride",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique",
+        "caption": "Dot and cross diagram to show the ionic bonding in aluminium oxide"
+      }
+    ]
+  }
+}

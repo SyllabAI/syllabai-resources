@@ -1,0 +1,174 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_QD3SvqYYYZmWk2Qx",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "f2793a626352c32e5b536f58820eeb4b48ee3f121db10c29889d47fb6709c214",
+    "pinnedRef": "49cb642ee61487cd5debc9850048209a0648785d"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_QD3SvqYYYZmWk2Qx",
+    "topicTitle": "1. Structure, Bonding & Introduction to Organic Chemistry",
+    "subtopicTitle": "Polarisation",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/1-structure-bonding-and-introduction-to-organic-chemistry/1-6-ionic-and-metallic-bonding-and-structure/1-6-4-polarisation",
+    "specAnchors": [
+      {
+        "code": "12.15",
+        "text": "understand that polarisation of anions by cations leads to some covalency in an ionic bond, based on evidence from the Born-Haber cycle"
+      }
+    ],
+    "primer": {
+      "text": "Perfect ionic crystals assume spherical ions and pure electrostatic attraction, but small, highly charged cations can distort a big anion's electron cloud - polarisation - and every distortion threads covalent character into the bond, moving the measured lattice energy off the theoretical value. This note defines polarising power and polarisability and explains the lattice-energy gap.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_QD3SvqYYYZmWk2Qx::L1",
+        "title": "When ionic bonds borrow covalent character",
+        "sourceHeadings": [
+          "The Polarisation of anions & Cations"
+        ],
+        "specRefs": [
+          "12.15"
+        ],
+        "opening": "Theoretical lattice energies price a perfect ionic model: wholly spherical ions, purely electrostatic attraction, whole-number charges exchanged once and forever. Real anions can be squashed out of shape - polarised - when a cation drags on their electron density, and that distortion threads covalent character into the bond, splitting the measured lattice energy away from the calculated one.",
+        "keyPoints": [
+          "Calculating a theoretical lattice energy assumes a perfect ionic model: wholly spherical ions with purely electrostatic attractions.",
+          "The model assumes a complete, irreversible exchange of outer-shell electrons giving whole-number ionic charges.",
+          "Measured lattice energy can differ from the theoretical value.",
+          "Polarisation of the anion introduces covalent character into the bond.",
+          "The cation attracts electrons from the anion, distorting the anion's electron density."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "The maths of a perfect ionic crystal assumes round ions tugging only electrostatically; when a small positive ion squashes a negative ion's electron cloud, the bond quietly gains some sharing character.",
+            "analogy": "Two billiard balls rolling together stay a pure collision; press one ball into a putty ball and the pair starts behaving like one joined object.",
+            "examPointer": "Name the direction of the distortion: the cation pulls the anion's electrons toward itself, never the reverse."
+          },
+          "medium": {
+            "restatement": "Polarisation is the failure mode of the ionic ideal: the cation's field deforms the anion's electron density toward the internuclear axis, granting the bond partial covalent character and shifting the measured lattice energy off the purely electrostatic prediction.",
+            "analogy": "A strong magnet under one side of a water bed: the surface (electron cloud) bulges toward it, and the two objects no longer behave as independent units.",
+            "examPointer": "The theoretical-versus-measured lattice energy gap is the exam symptom; polarisation and its covalent character is the cause to quote."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_QD3SvqYYYZmWk2Qx::L1::Q1",
+          "rn_QD3SvqYYYZmWk2Qx::L1::Q2",
+          "rn_QD3SvqYYYZmWk2Qx::L1::Q3",
+          "rn_QD3SvqYYYZmWk2Qx::L1::Q4",
+          "rn_QD3SvqYYYZmWk2Qx::L1::Q5",
+          "rn_QD3SvqYYYZmWk2Qx::L1::Q6",
+          "rn_QD3SvqYYYZmWk2Qx::L1::Q7",
+          "rn_QD3SvqYYYZmWk2Qx::L1::Q8",
+          "rn_QD3SvqYYYZmWk2Qx::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01"
+        ]
+      },
+      {
+        "id": "rn_QD3SvqYYYZmWk2Qx::L2",
+        "title": "Polarising power versus polarisability",
+        "sourceHeadings": [
+          "Cations",
+          "Anions"
+        ],
+        "specRefs": [
+          "12.15"
+        ],
+        "opening": "One property per side decides the outcome. Cations polarise in proportion to their charge density - charge divided by surface area - so small, highly charged cations wield the greatest polarising power: Li+ outguns K+, and Mg2+ outguns Na+. Anions suffer polarisation in proportion to their radius: the bigger the ionic radius, the more easily the cloud distorts, so Br- yields where Cl- resists.",
+        "keyPoints": [
+          "A cation's polarising power rises with its charge density.",
+          "Charge density can be taken as the cation's charge divided by its surface area.",
+          "K+ polarises less than Li+ because its ionic radius is greater; Na+ polarises less than Mg2+ because its charge is smaller.",
+          "Small, highly charged cations have the greatest polarising power.",
+          "Anion polarisability rises with ionic radius - Br- is more polarisable than Cl-."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "The attacker is the cation: small and multi-charged attackers squash best. The victim is the anion: big, floppy electron clouds squash easiest.",
+            "analogy": "A stiletto heel (small, concentrated) dents a gym mat (large, soft) far more than a flat shoe dents a leather cushion.",
+            "examPointer": "Keep the two vocabularies apart - polarising power belongs to cations, polarisability to anions."
+          },
+          "medium": {
+            "restatement": "Charge density is the cation's field strength at the anion's surface: halving the radius or doubling the charge concentrates the pull, so Li+ (compact) and Mg2+ (doubly charged) dominate; anion distortion instead tracks how loosely its outer electrons are held, which scales with radius.",
+            "analogy": "Grip strength versus slipperiness: the cation's grip (charge density) meets the anion's slipperiness (cloud spread), and distortion is their product.",
+            "examPointer": "Compare pair-style: Li+ vs K+ is a radius argument, Na+ vs Mg2+ is a charge argument - quote the right variable per pair."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_QD3SvqYYYZmWk2Qx::L2::Q1",
+          "rn_QD3SvqYYYZmWk2Qx::L2::Q2",
+          "rn_QD3SvqYYYZmWk2Qx::L2::Q3",
+          "rn_QD3SvqYYYZmWk2Qx::L2::Q4",
+          "rn_QD3SvqYYYZmWk2Qx::L2::Q5",
+          "rn_QD3SvqYYYZmWk2Qx::L2::Q6",
+          "rn_QD3SvqYYYZmWk2Qx::L2::Q7",
+          "rn_QD3SvqYYYZmWk2Qx::L2::Q8",
+          "rn_QD3SvqYYYZmWk2Qx::L2::Q9"
+        ],
+        "figureIds": []
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "polarisation",
+          "definition": "The cation-induced distortion of an anion's electron density, adding covalent character to the ionic bond.",
+          "firstLesson": 1
+        },
+        {
+          "term": "polarising power",
+          "definition": "A cation's capacity to distort an anion, rising with its charge density.",
+          "firstLesson": 2
+        },
+        {
+          "term": "polarisability",
+          "definition": "An anion's susceptibility to distortion, rising with its ionic radius.",
+          "firstLesson": 2
+        },
+        {
+          "term": "charge density",
+          "definition": "The cation's charge divided by its surface area.",
+          "firstLesson": 2
+        }
+      ],
+      "workedExample": null
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/918afc6a7a41-5-1-4-covalent-character-in-ionic-compounds.png",
+        "alt": "Covalent Character in ionic compounds, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "The Polarisation of anions & Cations",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "Polarisation of anion leading to covalent character"
+      }
+    ]
+  }
+}

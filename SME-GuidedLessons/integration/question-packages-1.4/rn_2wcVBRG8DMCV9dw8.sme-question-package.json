@@ -1,0 +1,734 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_2wcVBRG8DMCV9dw8",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "fb83822231163aa8e1d9382af4d90d64768e60242057bcf8ba9763ee02efbff7",
+    "pinnedRef": "49cb642ee61487cd5debc9850048209a0648785d"
+  },
+  "packageId": "ial-chemistry::rn_2wcVBRG8DMCV9dw8",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_2wcVBRG8DMCV9dw8::L1::Q1",
+      "moduleId": "rn_2wcVBRG8DMCV9dw8::L1",
+      "stem": "How is the atomic radius of an element obtained?",
+      "misconceptionClass": "radius measurement method",
+      "options": [
+        {
+          "key": "A",
+          "text": "Halving the measured distance between the nuclei of two bonded atoms of the element",
+          "correct": true,
+          "explanation": "Half the internuclear spacing is each atom's share.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Measuring from nucleus to the nearest inner shell",
+          "correct": false,
+          "explanation": "The definition uses the outermost electron, not an inner shell.",
+          "misconception": "shell mispicked"
+        },
+        {
+          "key": "C",
+          "text": "Weighing one mole of the atoms",
+          "correct": false,
+          "explanation": "Molar mass carries no spatial information.",
+          "misconception": "wrong quantity"
+        },
+        {
+          "key": "D",
+          "text": "Reading it directly off the periodic table",
+          "correct": false,
+          "explanation": "The table arranges elements; radii come from measurement.",
+          "misconception": "source wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_2wcVBRG8DMCV9dw8::L1::Q2",
+      "moduleId": "rn_2wcVBRG8DMCV9dw8::L1",
+      "stem": "What happens to atomic radii across period 3?",
+      "misconceptionClass": "radius trend across period",
+      "options": [
+        {
+          "key": "A",
+          "text": "They jump up at every group boundary",
+          "correct": false,
+          "explanation": "No jumps appear across a period.",
+          "misconception": "pattern invented"
+        },
+        {
+          "key": "B",
+          "text": "They decrease steadily from sodium to argon",
+          "correct": true,
+          "explanation": "Rising nuclear charge with constant shielding contracts each atom.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "They increase steadily",
+          "correct": false,
+          "explanation": "The increase belongs to the down-group direction.",
+          "misconception": "direction flipped"
+        },
+        {
+          "key": "D",
+          "text": "They stay the same because shells are constant",
+          "correct": false,
+          "explanation": "Constant shells fix shielding but not the radius.",
+          "misconception": "flat wrongly claimed"
+        }
+      ]
+    },
+    {
+      "id": "rn_2wcVBRG8DMCV9dw8::L1::Q3",
+      "moduleId": "rn_2wcVBRG8DMCV9dw8::L1",
+      "stem": "Why does shielding stay effectively constant across a period?",
+      "misconceptionClass": "constant shielding reason",
+      "options": [
+        {
+          "key": "A",
+          "text": "Protons and neutrons cancel each other",
+          "correct": false,
+          "explanation": "Neutrons play no screening role here.",
+          "misconception": "particle miscredited"
+        },
+        {
+          "key": "B",
+          "text": "The nucleus shrinks as charge grows",
+          "correct": false,
+          "explanation": "The nucleus does not shrink; it attracts harder.",
+          "misconception": "claim inverted"
+        },
+        {
+          "key": "C",
+          "text": "Electrons are added to the same principal shell",
+          "correct": true,
+          "explanation": "No new inner shell appears, so screening by inner electrons is unchanged.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Electrons are removed one at a time",
+          "correct": false,
+          "explanation": "Electron count rises across a period.",
+          "misconception": "count direction wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_2wcVBRG8DMCV9dw8::L1::Q4",
+      "moduleId": "rn_2wcVBRG8DMCV9dw8::L1",
+      "stem": "Which pair of quantities rises together across period 3?",
+      "misconceptionClass": "rising pair across period",
+      "options": [
+        {
+          "key": "A",
+          "text": "Atomic radius and shielding",
+          "correct": false,
+          "explanation": "Radius falls while shielding stays level.",
+          "misconception": "trends misstated"
+        },
+        {
+          "key": "B",
+          "text": "Shell count and radius",
+          "correct": false,
+          "explanation": "Shell count is fixed within the period.",
+          "misconception": "quantity fixed wrongly"
+        },
+        {
+          "key": "C",
+          "text": "Metallic radius and covalent radius",
+          "correct": false,
+          "explanation": "These are alternative measures for different element types, not co-rising quantities.",
+          "misconception": "terms misused"
+        },
+        {
+          "key": "D",
+          "text": "Nuclear charge and electron count",
+          "correct": true,
+          "explanation": "Each step adds one proton and one electron.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_2wcVBRG8DMCV9dw8::L1::Q5",
+      "moduleId": "rn_2wcVBRG8DMCV9dw8::L1",
+      "stem": "What name does the atomic radius take when the bonded element is a non-metal?",
+      "misconceptionClass": "covalent radius term",
+      "options": [
+        {
+          "key": "A",
+          "text": "The covalent radius",
+          "correct": true,
+          "explanation": "Non-metals bond covalently, so their radius measure takes that name.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "The metallic radius",
+          "correct": false,
+          "explanation": "That name belongs to metals.",
+          "misconception": "term swapped"
+        },
+        {
+          "key": "C",
+          "text": "The ionic radius",
+          "correct": false,
+          "explanation": "Ionic radius measures ions, not neutral atoms.",
+          "misconception": "quantity confused"
+        },
+        {
+          "key": "D",
+          "text": "The van der Waals radius",
+          "correct": false,
+          "explanation": "That is a different contact-based measure.",
+          "misconception": "term mispicked"
+        }
+      ]
+    },
+    {
+      "id": "rn_2wcVBRG8DMCV9dw8::L1::Q6",
+      "moduleId": "rn_2wcVBRG8DMCV9dw8::L1",
+      "stem": "Define the atomic radius in terms of a measurement between two atoms.",
+      "misconceptionClass": "radius definition recall",
+      "kind": "recall",
+      "modelAnswer": "To get the atomic radius, measure the internuclear gap between two atoms of the same element and halve it - half that gap is the nucleus-to-outermost-electron span.",
+      "keywords": [
+        "nucleus",
+        "outermost",
+        "halving",
+        "internuclear"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_2wcVBRG8DMCV9dw8::L1::Q7",
+      "moduleId": "rn_2wcVBRG8DMCV9dw8::L1",
+      "stem": "State the trend in atomic radius across period 3 and the two constant factors behind it.",
+      "misconceptionClass": "period 3 radius trend recall",
+      "kind": "recall",
+      "modelAnswer": "Atomic radii decrease across period 3 because proton and electron counts rise one per step while the shell count - and therefore shielding - stays constant.",
+      "keywords": [
+        "decrease",
+        "proton",
+        "shell",
+        "shielding"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_2wcVBRG8DMCV9dw8::L1::Q8",
+      "moduleId": "rn_2wcVBRG8DMCV9dw8::L1",
+      "stem": "Explain why adding electrons across a period does not enlarge the atom.",
+      "misconceptionClass": "electrons not enlarging",
+      "kind": "explain-why",
+      "modelAnswer": "Each added electron joins the existing outer shell rather than a new one, so screening does not relax; meanwhile the extra nuclear charge pulls harder on the same shell, drawing it inward and shrinking the atom.",
+      "keywords": [
+        "same shell",
+        "screening",
+        "nuclear charge",
+        "shrinking"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_2wcVBRG8DMCV9dw8::L1::Q9",
+      "moduleId": "rn_2wcVBRG8DMCV9dw8::L1",
+      "stem": "Predict, with your reasoning, which period-3 element holds the smallest atomic radius and where the largest sits.",
+      "misconceptionClass": "radius extremes application",
+      "kind": "application",
+      "modelAnswer": "Argon is smallest - by period's end the nuclear charge is largest against the same shell - and sodium is largest, holding the weakest pull at the period's start.",
+      "keywords": [
+        "Argon",
+        "smallest",
+        "sodium",
+        "largest"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_2wcVBRG8DMCV9dw8::L2::Q1",
+      "moduleId": "rn_2wcVBRG8DMCV9dw8::L2",
+      "stem": "What happens to ionic radius as negative charge increases?",
+      "misconceptionClass": "anion radius trend",
+      "options": [
+        {
+          "key": "A",
+          "text": "It changes only for metals",
+          "correct": false,
+          "explanation": "The rule covers anions of non-metals generally.",
+          "misconception": "scope narrowed"
+        },
+        {
+          "key": "B",
+          "text": "It increases - more electrons push the outer shell outward",
+          "correct": true,
+          "explanation": "Gained electrons are held weakly further from the nucleus.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "It decreases - extra charge pulls electrons in",
+          "correct": false,
+          "explanation": "Negative charge means gained electrons, which expand the ion.",
+          "misconception": "direction flipped"
+        },
+        {
+          "key": "D",
+          "text": "It stays constant with charge",
+          "correct": false,
+          "explanation": "Radius tracks charge systematically.",
+          "misconception": "flat wrongly claimed"
+        }
+      ]
+    },
+    {
+      "id": "rn_2wcVBRG8DMCV9dw8::L2::Q2",
+      "moduleId": "rn_2wcVBRG8DMCV9dw8::L2",
+      "stem": "Why do positive ions have smaller radii than their parent atoms?",
+      "misconceptionClass": "cation radius shrink reason",
+      "options": [
+        {
+          "key": "A",
+          "text": "Gained electrons crowd the shell outward",
+          "correct": false,
+          "explanation": "Positive ions lose electrons; they gain none.",
+          "misconception": "process inverted"
+        },
+        {
+          "key": "B",
+          "text": "Neutrons escape to shrink the nucleus",
+          "correct": false,
+          "explanation": "Neutrons stay put and carry no charge.",
+          "misconception": "particle miscredited"
+        },
+        {
+          "key": "C",
+          "text": "Electron loss leaves the same nucleus attracting fewer electrons more strongly",
+          "correct": true,
+          "explanation": "Per-electron attraction deepens after electrons are removed.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "The nucleus loses protons during ionisation",
+          "correct": false,
+          "explanation": "Proton count is untouched by electron loss.",
+          "misconception": "nucleus changed wrongly"
+        }
+      ]
+    },
+    {
+      "id": "rn_2wcVBRG8DMCV9dw8::L2::Q3",
+      "moduleId": "rn_2wcVBRG8DMCV9dw8::L2",
+      "stem": "Which combination produces the strongest ionic bonding?",
+      "misconceptionClass": "strongest bond combination",
+      "options": [
+        {
+          "key": "A",
+          "text": "Low charges with large radii",
+          "correct": false,
+          "explanation": "That combination minimises charge density.",
+          "misconception": "direction inverted"
+        },
+        {
+          "key": "B",
+          "text": "Equal charges with equal radii",
+          "correct": false,
+          "explanation": "Matched mediocrity beats nothing special.",
+          "misconception": "middle mispicked"
+        },
+        {
+          "key": "C",
+          "text": "Large radii with high charges only on one ion",
+          "correct": false,
+          "explanation": "Bond strength reads the pair together; sizes and charges both matter.",
+          "misconception": "pair ignored"
+        },
+        {
+          "key": "D",
+          "text": "High ionic charges with small ionic radii",
+          "correct": true,
+          "explanation": "Charge density - charge over size - peaks with big charges on small ions.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_2wcVBRG8DMCV9dw8::L2::Q4",
+      "moduleId": "rn_2wcVBRG8DMCV9dw8::L2",
+      "stem": "Charge density of a cation increases when",
+      "misconceptionClass": "charge density condition",
+      "options": [
+        {
+          "key": "A",
+          "text": "its charge rises or its radius falls",
+          "correct": true,
+          "explanation": "Both movements raise charge over surface area.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "its charge falls or its radius grows",
+          "correct": false,
+          "explanation": "Both movements dilute the density.",
+          "misconception": "direction inverted"
+        },
+        {
+          "key": "C",
+          "text": "its neutron count rises",
+          "correct": false,
+          "explanation": "Neutrons do not enter the charge density.",
+          "misconception": "quantity irrelevant"
+        },
+        {
+          "key": "D",
+          "text": "its mass number increases",
+          "correct": false,
+          "explanation": "Mass is not part of charge density.",
+          "misconception": "quantity irrelevant"
+        }
+      ]
+    },
+    {
+      "id": "rn_2wcVBRG8DMCV9dw8::L2::Q5",
+      "moduleId": "rn_2wcVBRG8DMCV9dw8::L2",
+      "stem": "A lattice of 2+ and 2- ions melts far higher than a 1+/1- lattice of similar ion size because",
+      "misconceptionClass": "charge raises lattice strength",
+      "options": [
+        {
+          "key": "A",
+          "text": "the higher charge weakens repulsion entirely",
+          "correct": false,
+          "explanation": "Repulsion still exists; net attraction is what strengthened.",
+          "misconception": "physics misstated"
+        },
+        {
+          "key": "B",
+          "text": "the doubled charges raise the electrostatic attraction throughout the lattice",
+          "correct": true,
+          "explanation": "Each contact pulls harder, so much more energy is needed to flow.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "doubly charged ions are always smaller",
+          "correct": false,
+          "explanation": "Size similarity was given; charge is the deciding difference.",
+          "misconception": "size overcredited"
+        },
+        {
+          "key": "D",
+          "text": "extra electrons roam and add bonding",
+          "correct": false,
+          "explanation": "Ionic lattices have no delocalised electrons.",
+          "misconception": "metallic picture borrowed"
+        }
+      ]
+    },
+    {
+      "id": "rn_2wcVBRG8DMCV9dw8::L2::Q6",
+      "moduleId": "rn_2wcVBRG8DMCV9dw8::L2",
+      "stem": "State the two radius rules for increasing negative and increasing positive charge.",
+      "misconceptionClass": "radius rules recall",
+      "kind": "recall",
+      "modelAnswer": "Ionic radii increase with increasing negative charge and decrease with increasing positive charge.",
+      "keywords": [
+        "increase",
+        "negative",
+        "decrease",
+        "positive"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_2wcVBRG8DMCV9dw8::L2::Q7",
+      "moduleId": "rn_2wcVBRG8DMCV9dw8::L2",
+      "stem": "State the two ion properties that raise the strength of an ionic bond.",
+      "misconceptionClass": "bond strength factors recall",
+      "kind": "recall",
+      "modelAnswer": "Higher ionic charges and smaller ionic sizes produce stronger ionic bonds by raising the charge density.",
+      "keywords": [
+        "higher charges",
+        "smaller",
+        "charge density",
+        "stronger"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_2wcVBRG8DMCV9dw8::L2::Q8",
+      "moduleId": "rn_2wcVBRG8DMCV9dw8::L2",
+      "stem": "Explain why the outermost electrons of an anion are held only weakly.",
+      "misconceptionClass": "anion weak holding",
+      "kind": "explain-why",
+      "modelAnswer": "Gained electrons occupy the outermost region, further from the positive nucleus and screened by all the inner electrons, so each one feels a reduced pull and the ion swells.",
+      "keywords": [
+        "further",
+        "screened",
+        "reduced pull",
+        "swells"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_2wcVBRG8DMCV9dw8::L2::Q9",
+      "moduleId": "rn_2wcVBRG8DMCV9dw8::L2",
+      "stem": "Arrange O2-, F-, and Na+ - all with the same electron count - by ionic radius and give the rule at the turning point.",
+      "misconceptionClass": "anion cation ranking application",
+      "kind": "application",
+      "modelAnswer": "O2- > F- > Na+: the same electron cloud tightens as proton count rises from 8 to 9 to 11; crossing from negative to positive charge flips the radius rule, shrinking the cation below both anions.",
+      "keywords": [
+        "O2-",
+        "F-",
+        "Na+",
+        "proton count"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_2wcVBRG8DMCV9dw8::L3::Q1",
+      "moduleId": "rn_2wcVBRG8DMCV9dw8::L3",
+      "stem": "What defines a set of isoelectronic ions?",
+      "misconceptionClass": "isoelectronic definition",
+      "options": [
+        {
+          "key": "A",
+          "text": "They have the same number of protons",
+          "correct": false,
+          "explanation": "Proton counts run 7 to 13 across the series.",
+          "misconception": "quantity confused"
+        },
+        {
+          "key": "B",
+          "text": "They have identical ionic radii",
+          "correct": false,
+          "explanation": "Radii fall systematically across the series.",
+          "misconception": "outcome contradicted"
+        },
+        {
+          "key": "C",
+          "text": "They share the same electronic configuration",
+          "correct": true,
+          "explanation": "Identical electron arrangements with different nuclei.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "They carry the same ionic charge",
+          "correct": false,
+          "explanation": "The series spans 3- to 3+; charges differ.",
+          "misconception": "charge confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_2wcVBRG8DMCV9dw8::L3::Q2",
+      "moduleId": "rn_2wcVBRG8DMCV9dw8::L3",
+      "stem": "Which configuration do N3-, O2-, F-, Na+, Mg2+ and Al3+ all share?",
+      "misconceptionClass": "shared configuration",
+      "options": [
+        {
+          "key": "A",
+          "text": "1s2 2s2 2p4",
+          "correct": false,
+          "explanation": "That is short two electrons of the shared set.",
+          "misconception": "count short"
+        },
+        {
+          "key": "B",
+          "text": "1s2 2s2 2p6 3s2",
+          "correct": false,
+          "explanation": "That adds a shell none of the ions carries.",
+          "misconception": "shell extra"
+        },
+        {
+          "key": "C",
+          "text": "1s2 2s1",
+          "correct": false,
+          "explanation": "Far too few electrons for the series.",
+          "misconception": "count far short"
+        },
+        {
+          "key": "D",
+          "text": "1s2 2s2 2p6",
+          "correct": true,
+          "explanation": "Ten electrons in three subshells, the neon arrangement.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_2wcVBRG8DMCV9dw8::L3::Q3",
+      "moduleId": "rn_2wcVBRG8DMCV9dw8::L3",
+      "stem": "Why does ionic radius fall across the isoelectronic series?",
+      "misconceptionClass": "radius fall reason",
+      "options": [
+        {
+          "key": "A",
+          "text": "Proton count rises while the electron cloud stays identical",
+          "correct": true,
+          "explanation": "More nuclear charge grips the same ten electrons more tightly.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Electrons are lost at each step",
+          "correct": false,
+          "explanation": "The configuration is constant; no electrons leave.",
+          "misconception": "process invented"
+        },
+        {
+          "key": "C",
+          "text": "New shells open as charge grows",
+          "correct": false,
+          "explanation": "The shared configuration has no shell changes.",
+          "misconception": "shells invented"
+        },
+        {
+          "key": "D",
+          "text": "Neutrons accumulate and press inward",
+          "correct": false,
+          "explanation": "Neutrons carry no charge and take no part.",
+          "misconception": "particle miscredited"
+        }
+      ]
+    },
+    {
+      "id": "rn_2wcVBRG8DMCV9dw8::L3::Q4",
+      "moduleId": "rn_2wcVBRG8DMCV9dw8::L3",
+      "stem": "Which member of the isoelectronic series has the largest ionic radius?",
+      "misconceptionClass": "largest member",
+      "options": [
+        {
+          "key": "A",
+          "text": "All six tie at the same radius",
+          "correct": false,
+          "explanation": "Radii differ despite identical configurations.",
+          "misconception": "equality misclaimed"
+        },
+        {
+          "key": "B",
+          "text": "N3-, with only seven protons",
+          "correct": true,
+          "explanation": "The fewest protons grip the shared cloud loosest, at 0.171 nm.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Al3+, with thirteen protons",
+          "correct": false,
+          "explanation": "Aluminium grips hardest and is smallest at 0.054 nm.",
+          "misconception": "end swapped"
+        },
+        {
+          "key": "D",
+          "text": "Na+, the neutral midpoint",
+          "correct": false,
+          "explanation": "Eleven protons sit mid-series, mid-radius.",
+          "misconception": "middle mispicked"
+        }
+      ]
+    },
+    {
+      "id": "rn_2wcVBRG8DMCV9dw8::L3::Q5",
+      "moduleId": "rn_2wcVBRG8DMCV9dw8::L3",
+      "stem": "The ionic radius of Al3+ is 0.054 nm against N3-'s 0.171 nm. Roughly how many times smaller is the aluminium ion?",
+      "misconceptionClass": "radius ratio calculation",
+      "options": [
+        {
+          "key": "A",
+          "text": "About 1.6 times smaller",
+          "correct": false,
+          "explanation": "That misreads the ratio as roughly half.",
+          "misconception": "ratio halved"
+        },
+        {
+          "key": "B",
+          "text": "They are equal",
+          "correct": false,
+          "explanation": "The quoted values differ by a factor of three.",
+          "misconception": "equality misclaimed"
+        },
+        {
+          "key": "C",
+          "text": "About 3.2 times smaller",
+          "correct": true,
+          "explanation": "0.171 / 0.054 is roughly 3.17.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "About 6 times smaller",
+          "correct": false,
+          "explanation": "That divides by the proton gap of 6, not the radii.",
+          "misconception": "wrong divisor"
+        }
+      ]
+    },
+    {
+      "id": "rn_2wcVBRG8DMCV9dw8::L3::Q6",
+      "moduleId": "rn_2wcVBRG8DMCV9dw8::L3",
+      "stem": "Define isoelectronic ions.",
+      "misconceptionClass": "isoelectronic recall",
+      "kind": "recall",
+      "modelAnswer": "Isoelectronic ions are ions that share the same electronic configuration, such as N3-, O2-, F-, Na+, Mg2+ and Al3+.",
+      "keywords": [
+        "same",
+        "electronic configuration",
+        "ions"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_2wcVBRG8DMCV9dw8::L3::Q7",
+      "moduleId": "rn_2wcVBRG8DMCV9dw8::L3",
+      "stem": "State the proton counts of N3- and Al3+ and their ionic radii in nm.",
+      "misconceptionClass": "protons radii recall",
+      "kind": "recall",
+      "modelAnswer": "N3- carries 7 protons with a radius of 0.171 nm; Al3+ carries 13 protons with a radius of 0.054 nm.",
+      "keywords": [
+        "7",
+        "13",
+        "0.171",
+        "0.054"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_2wcVBRG8DMCV9dw8::L3::Q8",
+      "moduleId": "rn_2wcVBRG8DMCV9dw8::L3",
+      "stem": "Explain why identical electron configurations do not force identical ionic radii.",
+      "misconceptionClass": "same config different radius",
+      "kind": "explain-why",
+      "modelAnswer": "Radius depends on the balance between nuclear pull and electron repulsion; with the electron cloud fixed, the nucleus with more protons attracts each electron harder, contracting its ion relative to its neighbours in the series.",
+      "keywords": [
+        "nuclear pull",
+        "protons",
+        "contracting",
+        "series"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_2wcVBRG8DMCV9dw8::L3::Q9",
+      "moduleId": "rn_2wcVBRG8DMCV9dw8::L3",
+      "stem": "Place Mg2+ in order within the isoelectronic series by radius, with reasoning from proton counts.",
+      "misconceptionClass": "series placement application",
+      "kind": "application",
+      "modelAnswer": "Mg2+ with 12 protons sits second smallest - above Al3+ (13 protons, smallest) and below Na+ (11 protons) - because every extra proton tightens the shared 1s2 2s2 2p6 cloud.",
+      "keywords": [
+        "Mg2+",
+        "12",
+        "Al3+",
+        "tightens"
+      ],
+      "options": []
+    }
+  ]
+}

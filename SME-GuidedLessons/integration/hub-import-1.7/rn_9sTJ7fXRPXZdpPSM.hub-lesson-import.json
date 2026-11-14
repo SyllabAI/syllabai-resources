@@ -1,0 +1,352 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_9sTJ7fXRPXZdpPSM",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "42f25b81beb79612d86a366893a70ea322a4bda32f4b2ea7c39ab675c7cd78e0",
+    "pinnedRef": "49cb642ee61487cd5debc9850048209a0648785d"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_9sTJ7fXRPXZdpPSM",
+    "topicTitle": "1. Structure, Bonding & Introduction to Organic Chemistry",
+    "subtopicTitle": "Evidence of Ions",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/1-structure-bonding-and-introduction-to-organic-chemistry/1-6-ionic-and-metallic-bonding-and-structure/1-6-1-evidence-of-ions",
+    "specAnchors": [
+      {
+        "code": "3.1",
+        "text": "know and be able to interpret evidence for the existence of ions, limited to physical properties of ionic compounds, electron density maps and the migration of ions"
+      }
+    ],
+    "primer": {
+      "text": "Charged particles announce themselves in three ways: high melting points from a lattice of gripping ions, conductivity that switches on the moment the ions can move, and electrolysis that steers coloured ions toward opposite electrodes. This note walks the giant ionic lattice, its property fingerprint, dissolving in polar water, and the copper chromate demonstration that proves ions exist.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_9sTJ7fXRPXZdpPSM::L1",
+        "title": "Inside the giant ionic lattice",
+        "sourceHeadings": [
+          "Giant ionic lattices"
+        ],
+        "specRefs": [
+          "3.1"
+        ],
+        "opening": "An ionic bond is the electrostatic grip between a positive metal cation and a negative non-metal anion, and it pulls in every direction at once. That non-directional attraction packs oppositely charged ions into a giant alternating lattice, whose exact geometry depends on the two ion sizes - sodium chloride and magnesium oxide both settle into cubes.",
+        "keyPoints": [
+          "An ionic bond is the electrostatic attraction between a cation and an anion.",
+          "The metal atom transfers electrons to the non-metal, charging both particles.",
+          "Attraction acts in all directions, which makes ionic bonding non-directional.",
+          "Ions stack in a giant alternating lattice; the pattern chosen depends on the two ion sizes.",
+          "NaCl and MgO both adopt cubic lattices, and electron-density maps show zero density between the ions."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "A metal hands its spare electrons to a non-metal; the two charged particles then tug on each other from every side and settle into a huge alternating stack.",
+            "analogy": "Magnets on a fridge door attract from any angle you approach - ionic attraction likewise ignores direction, so ions pack on all sides.",
+            "examPointer": "Say 'electrostatic attraction between oppositely charged ions' in full; shortened versions omit the force and lose the mark."
+          },
+          "medium": {
+            "restatement": "Electron transfer leaves a cation and an anion whose Coulomb attraction is isotropic, so the lattice grows by alternating charges in three dimensions rather than bonding to one partner.",
+            "analogy": "Covalent bonding is a handshake with one chosen partner; ionic bonding is a dance hall where everyone attracts everyone of the opposite kind, so a crowd pattern forms.",
+            "examPointer": "Electron-density maps between Na+ and Cl- fall to zero between the ions - quote this as the evidence that electrons are transferred, not shared."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_9sTJ7fXRPXZdpPSM::L1::Q1",
+          "rn_9sTJ7fXRPXZdpPSM::L1::Q2",
+          "rn_9sTJ7fXRPXZdpPSM::L1::Q3",
+          "rn_9sTJ7fXRPXZdpPSM::L1::Q4",
+          "rn_9sTJ7fXRPXZdpPSM::L1::Q5",
+          "rn_9sTJ7fXRPXZdpPSM::L1::Q6",
+          "rn_9sTJ7fXRPXZdpPSM::L1::Q7",
+          "rn_9sTJ7fXRPXZdpPSM::L1::Q8",
+          "rn_9sTJ7fXRPXZdpPSM::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01",
+          "fig-02",
+          "fig-03"
+        ]
+      },
+      {
+        "id": "rn_9sTJ7fXRPXZdpPSM::L2",
+        "title": "Melting, boiling and conducting",
+        "sourceHeadings": [
+          "Melting and boiling point",
+          "Electrical Conductivity"
+        ],
+        "specRefs": [
+          "3.1"
+        ],
+        "opening": "Two everyday behaviours expose the ionic lattice. Oppositely charged ions grip each other so hard that most ionic compounds stay solid until high temperatures, and the bigger the ionic charges the higher those temperatures climb. Yet none of that grip freezes charge movement forever: melt the lattice or dissolve it and the freed ions carry a current.",
+        "keyPoints": [
+          "At room temperature most ionic compounds sit as solids: lattice attractions outmuscle the available thermal energy.",
+          "Melting and boiling demand the energy to overcome electrostatic attraction throughout the lattice.",
+          "Lattices of more highly charged ions melt at higher temperatures.",
+          "Na2O melts at 1405 K while CaO melts at 2845 K thanks to the 2+ versus 1+ cation charge.",
+          "Ionic compounds conduct only when molten or dissolved; fixed solid ions cannot move charge."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Salt solids cling together until strong heat, because every ion grips several neighbours; but warm them until molten or pop them into water and the mobile ions instantly conduct.",
+            "analogy": "A velcro wall of alternating hooks: tearing the whole sheet down takes real effort, but once the pieces are loose each one carries a charge flag around the room.",
+            "examPointer": "Conductivity answers need the mobility condition stated - 'molten or in solution' - omitting it loses the mark even if the ions are named."
+          },
+          "medium": {
+            "restatement": "Melting an ionic solid means dismantling an extended electrostatic network, and Coulomb's law scales with charge, so CaO with 2+/2- pairs withstands roughly twice the temperature of Na2O's 1+/2- lattice; conductivity then requires ions free to migrate.",
+            "analogy": "Doubling the magnet strength on every fridge door does not just make one joint harder to break - it hardens every joint across the whole door at once.",
+            "examPointer": "When comparing Na2O with CaO, quote the charge argument and dismiss size: the two cations are of similar radius, so charge is the deciding factor."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_9sTJ7fXRPXZdpPSM::L2::Q1",
+          "rn_9sTJ7fXRPXZdpPSM::L2::Q2",
+          "rn_9sTJ7fXRPXZdpPSM::L2::Q3",
+          "rn_9sTJ7fXRPXZdpPSM::L2::Q4",
+          "rn_9sTJ7fXRPXZdpPSM::L2::Q5",
+          "rn_9sTJ7fXRPXZdpPSM::L2::Q6",
+          "rn_9sTJ7fXRPXZdpPSM::L2::Q7",
+          "rn_9sTJ7fXRPXZdpPSM::L2::Q8",
+          "rn_9sTJ7fXRPXZdpPSM::L2::Q9"
+        ],
+        "figureIds": [
+          "fig-04"
+        ]
+      },
+      {
+        "id": "rn_9sTJ7fXRPXZdpPSM::L3",
+        "title": "Dissolving the lattice",
+        "sourceHeadings": [
+          "Solubility"
+        ],
+        "specRefs": [
+          "3.1"
+        ],
+        "opening": "Water dissolves many ionic compounds because its polar molecules do two jobs at once: they prize the lattice apart and then surround each freed ion, positive ends hugging anions and negative ends hugging cations. Whether dissolving succeeds is a tug-of-war between lattice attraction and ion-water attraction - which is why bigger charges usually mean lower solubility.",
+        "keyPoints": [
+          "Many ionic compounds dissolve in polar solvents such as water.",
+          "Dissolving needs the lattice broken and each ion surrounded by polar molecules.",
+          "The delta-positive end of water surrounds anions; the delta-negative end surrounds cations.",
+          "Solubility depends on the balance between lattice attraction and ion-water attraction.",
+          "Greater ionic charge generally lowers solubility: NaCl 356.9 g per dm3 versus CaCl2 74.4 g per dm3."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Water molecules are tiny dipoles: they yank ions out of the crystal and then crowd around each one, holding it in solution.",
+            "analogy": "A crowd of tiny magnets peeling sticky notes off a board one by one, then each note carried away covered in hands.",
+            "examPointer": "Quote both solubility jobs - breaking the lattice and surrounding the ions - a single-job answer scores half."
+          },
+          "medium": {
+            "restatement": "Dissolution is an energy and geometry contest: the Coulomb lattice must be pried open, and hydration shells must form via ion-dipole attraction; heavier charges raise the first cost faster than the second, depressing solubility.",
+            "analogy": "Bank robbery versus getaway: a bigger vault (higher charge) is harder to crack, and no amount of getaway cars (water molecules) fully compensates.",
+            "examPointer": "Remember the rule is 'in general' - 356.9 against 74.4 g per dm3 shows the trend, and exceptions exist."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_9sTJ7fXRPXZdpPSM::L3::Q1",
+          "rn_9sTJ7fXRPXZdpPSM::L3::Q2",
+          "rn_9sTJ7fXRPXZdpPSM::L3::Q3",
+          "rn_9sTJ7fXRPXZdpPSM::L3::Q4",
+          "rn_9sTJ7fXRPXZdpPSM::L3::Q5",
+          "rn_9sTJ7fXRPXZdpPSM::L3::Q6",
+          "rn_9sTJ7fXRPXZdpPSM::L3::Q7",
+          "rn_9sTJ7fXRPXZdpPSM::L3::Q8",
+          "rn_9sTJ7fXRPXZdpPSM::L3::Q9"
+        ],
+        "figureIds": [
+          "fig-05"
+        ]
+      },
+      {
+        "id": "rn_9sTJ7fXRPXZdpPSM::L4",
+        "title": "Electrolysis as proof",
+        "sourceHeadings": [
+          "Evidence",
+          "Set up of electrolysis"
+        ],
+        "specRefs": [
+          "3.1"
+        ],
+        "opening": "Electrolysis is the courtroom demonstration that ions exist. Dissolved ions migrate: positive species head for the negative electrode and negative species for the positive one. Copper(II) chromate(VI) makes the migration visible, because its blue Cu2+ and yellow CrO4(2-) ions separate into coloured halos around the two electrodes.",
+        "keyPoints": [
+          "Electrolysis behaviour of ionic substances is clear evidence that ions exist.",
+          "In solution, cations swim toward the negative electrode.",
+          "In solution, anions swim toward the positive electrode.",
+          "Copper(II) chromate(VI) solution holds blue Cu2+ ions and yellow CrO4(2-) ions and looks olive green overall.",
+          "On electrolysis, blue appears at the negative electrode and yellow at the positive electrode."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Charged particles in a solution swim toward the electrode of the opposite sign - watching coloured ions split up proves they were charged all along.",
+            "analogy": "Red and blue dancers drift to opposite ends of the hall when music calls two different names; the colour split shows the pair were distinct and charged.",
+            "examPointer": "Map each colour to its electrode explicitly: blue Cu2+ at the negative, yellow chromate at the positive."
+          },
+          "medium": {
+            "restatement": "Migration under an electric field is the operational test of charge sign: Cu2+ cations walk to the cathode and colour it blue, while CrO4(2-) anions walk to the anode and colour it yellow, demonstrating both the existence and the sign of the ions.",
+            "analogy": "A customs queue splits passport-holders by visa type: the field is the queue, and each coloured group reveals which document - which charge - it carries.",
+            "examPointer": "The olive-green starting colour is the mixture; the split into blue and yellow halos is the observation to quote in answers."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_9sTJ7fXRPXZdpPSM::L4::Q1",
+          "rn_9sTJ7fXRPXZdpPSM::L4::Q2",
+          "rn_9sTJ7fXRPXZdpPSM::L4::Q3",
+          "rn_9sTJ7fXRPXZdpPSM::L4::Q4",
+          "rn_9sTJ7fXRPXZdpPSM::L4::Q5",
+          "rn_9sTJ7fXRPXZdpPSM::L4::Q6",
+          "rn_9sTJ7fXRPXZdpPSM::L4::Q7",
+          "rn_9sTJ7fXRPXZdpPSM::L4::Q8",
+          "rn_9sTJ7fXRPXZdpPSM::L4::Q9"
+        ],
+        "figureIds": [
+          "fig-06",
+          "fig-07"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "cation",
+          "definition": "A positively charged ion, formed when a metal atom loses electrons.",
+          "firstLesson": 1
+        },
+        {
+          "term": "anion",
+          "definition": "A negatively charged ion, formed when a non-metal atom gains electrons.",
+          "firstLesson": 1
+        },
+        {
+          "term": "electrolysis",
+          "definition": "The passage of current through a solution or melt that drives ions to the electrode of opposite sign.",
+          "firstLesson": 4
+        },
+        {
+          "term": "ion-dipole attraction",
+          "definition": "The pull between a dissolved ion and the charged end of a polar solvent molecule such as water.",
+          "firstLesson": 3
+        }
+      ],
+      "workedExample": null
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/dcfad31fd2ad-1-4-7-ionic-lattices-of-the-ionic-compounds-nacl.png",
+        "alt": "Ionic lattices of the ionic compounds NaCl and MgO, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Giant ionic lattices",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "Ionic lattices of the ionic compounds NaCl and MgO"
+      },
+      {
+        "id": "fig-02",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/aca2038ff613-electron-density-maps.png",
+        "alt": "electron-density-maps",
+        "sourceHeading": "Giant ionic lattices",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "Electron density maps shown above show the likelihood of finding electrons in a region. This shows the electron density map for NaCl. The contours are lines of equal electron density. A = Na+ ions (smaller), B = Cl- ions (larger). Between the ions the electron density falls to zero."
+      },
+      {
+        "id": "fig-03",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/e5358e2a9f55-1-4-states-of-matter-general-ionic-lattice.png",
+        "alt": "States of Matter General Ionic Lattice, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Giant ionic lattices",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "General ionic lattice which shows the actual packing of the ions"
+      },
+      {
+        "id": "fig-04",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/7418c58b0248-molten-ionic-substances-conduct-electricity-1.png",
+        "alt": "Molten ionic substances conduct electricity, IGCSE & GCSE Chemistry revision notes",
+        "sourceHeading": "Electrical Conductivity",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique",
+        "caption": "Molten or aqueous particles move and conduct electricity but cannot in the solid state"
+      },
+      {
+        "id": "fig-05",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/e0a9418d1d8b-5-1-chemical-energetics-ion-dipole-bonds.png",
+        "alt": "Chemical Energetics - Ion-Dipole Bonds, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Solubility",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique",
+        "caption": "The polar water molecules will form ion-dipole bonds with the ions in solution causing the ions to become hydrated"
+      },
+      {
+        "id": "fig-06",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/253f9e7feefa-electrolysis-aqueous-solutions.png",
+        "alt": "Electrolysis aqueous solutions",
+        "sourceHeading": "Evidence",
+        "moduleIds": [
+          "L4"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-07",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/366124477e68-ion-migration.png",
+        "alt": "ion-migration",
+        "sourceHeading": "Set up of electrolysis",
+        "moduleIds": [
+          "L4"
+        ],
+        "binding": "heading-unique"
+      }
+    ]
+  }
+}

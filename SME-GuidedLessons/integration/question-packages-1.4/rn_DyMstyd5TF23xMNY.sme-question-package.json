@@ -1,0 +1,735 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_DyMstyd5TF23xMNY",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "7173e06bf68c18eee2bf8d8230d65562df84d3ed4c512c5282715761f806162c",
+    "pinnedRef": "49cb642ee61487cd5debc9850048209a0648785d"
+  },
+  "packageId": "ial-chemistry::rn_DyMstyd5TF23xMNY",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_DyMstyd5TF23xMNY::L1::Q1",
+      "moduleId": "rn_DyMstyd5TF23xMNY::L1",
+      "stem": "What does VSEPR theory predict?",
+      "misconceptionClass": "VSEPR purpose",
+      "options": [
+        {
+          "key": "A",
+          "text": "The shapes and bond angles of molecules",
+          "correct": true,
+          "explanation": "Repulsion minimisation fixes the geometry.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "The colours of compounds",
+          "correct": false,
+          "explanation": "Colour lies outside VSEPR's remit.",
+          "misconception": "scope wrong"
+        },
+        {
+          "key": "C",
+          "text": "The masses of molecules",
+          "correct": false,
+          "explanation": "Mass is irrelevant to the repulsion model.",
+          "misconception": "scope wrong"
+        },
+        {
+          "key": "D",
+          "text": "The speeds of reactions",
+          "correct": false,
+          "explanation": "Kinetics is a different theory.",
+          "misconception": "scope wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_DyMstyd5TF23xMNY::L1::Q2",
+      "moduleId": "rn_DyMstyd5TF23xMNY::L1",
+      "stem": "Why do electron pairs repel each other?",
+      "misconceptionClass": "repulsion origin",
+      "options": [
+        {
+          "key": "A",
+          "text": "They have no charge at all",
+          "correct": false,
+          "explanation": "Their charge is the cause.",
+          "misconception": "charge denied"
+        },
+        {
+          "key": "B",
+          "text": "They carry the same negative charge",
+          "correct": true,
+          "explanation": "Like charges push apart.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "They attract each other too strongly",
+          "correct": false,
+          "explanation": "Repulsion, not attraction, drives the geometry.",
+          "misconception": "force inverted"
+        },
+        {
+          "key": "D",
+          "text": "Nuclei pull them into each other",
+          "correct": false,
+          "explanation": "Nuclei anchor pairs; the pairs push apart.",
+          "misconception": "mechanism misstated"
+        }
+      ]
+    },
+    {
+      "id": "rn_DyMstyd5TF23xMNY::L1::Q3",
+      "moduleId": "rn_DyMstyd5TF23xMNY::L1",
+      "stem": "Which pair combination repels most strongly?",
+      "misconceptionClass": "repulsion maximum",
+      "options": [
+        {
+          "key": "A",
+          "text": "Lone pair with bond pair",
+          "correct": false,
+          "explanation": "Intermediate strength.",
+          "misconception": "rank mispicked"
+        },
+        {
+          "key": "B",
+          "text": "They all repel equally",
+          "correct": false,
+          "explanation": "The three strengths differ measurably.",
+          "misconception": "equality misclaimed"
+        },
+        {
+          "key": "C",
+          "text": "Lone pair with lone pair",
+          "correct": true,
+          "explanation": "The concentrated clouds press hardest.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Bond pair with bond pair",
+          "correct": false,
+          "explanation": "That is the weakest repulsion of the three.",
+          "misconception": "rank mispicked"
+        }
+      ]
+    },
+    {
+      "id": "rn_DyMstyd5TF23xMNY::L1::Q4",
+      "moduleId": "rn_DyMstyd5TF23xMNY::L1",
+      "stem": "Why do lone pairs repel more than bonding pairs?",
+      "misconceptionClass": "lone pair strength reason",
+      "options": [
+        {
+          "key": "A",
+          "text": "They carry double the charge",
+          "correct": false,
+          "explanation": "A lone pair is still one negative pair.",
+          "misconception": "charge miscounted"
+        },
+        {
+          "key": "B",
+          "text": "They spin faster",
+          "correct": false,
+          "explanation": "Spin plays no role here.",
+          "misconception": "mechanism invented"
+        },
+        {
+          "key": "C",
+          "text": "They are further from the nucleus",
+          "correct": false,
+          "explanation": "They sit closer, not further.",
+          "misconception": "distance inverted"
+        },
+        {
+          "key": "D",
+          "text": "Their charge cloud is more concentrated and sits closer to the central nucleus",
+          "correct": true,
+          "explanation": "Held by one nucleus instead of two, the cloud spreads wider near the atom.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_DyMstyd5TF23xMNY::L1::Q5",
+      "moduleId": "rn_DyMstyd5TF23xMNY::L1",
+      "stem": "How is the repulsion between a double bond and a single bond treated in VSEPR?",
+      "misconceptionClass": "multi bond treatment",
+      "options": [
+        {
+          "key": "A",
+          "text": "The same as repulsion between two single bonds",
+          "correct": true,
+          "explanation": "One double bond counts as one domain against a single.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Exactly twice the repulsion",
+          "correct": false,
+          "explanation": "The rule of record treats them the same.",
+          "misconception": "rule misstated"
+        },
+        {
+          "key": "C",
+          "text": "Half the repulsion",
+          "correct": false,
+          "explanation": "No halving rule exists.",
+          "misconception": "rule invented"
+        },
+        {
+          "key": "D",
+          "text": "Repulsion does not apply to multiple bonds",
+          "correct": false,
+          "explanation": "Multiple bonds still repel.",
+          "misconception": "application denied"
+        }
+      ]
+    },
+    {
+      "id": "rn_DyMstyd5TF23xMNY::L1::Q6",
+      "moduleId": "rn_DyMstyd5TF23xMNY::L1",
+      "stem": "State what VSEPR stands for and what it predicts.",
+      "misconceptionClass": "VSEPR recall",
+      "kind": "recall",
+      "modelAnswer": "Valence shell electron pair repulsion theory, which predicts the shapes and bond angles of molecules.",
+      "keywords": [
+        "valence shell",
+        "electron pair",
+        "repulsion",
+        "shapes"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_DyMstyd5TF23xMNY::L1::Q7",
+      "moduleId": "rn_DyMstyd5TF23xMNY::L1",
+      "stem": "State the repulsion order for lone and bonding pairs.",
+      "misconceptionClass": "repulsion order recall",
+      "kind": "recall",
+      "modelAnswer": "Strongest first: lone-with-lone, then lone-against-bond, then bond-with-bond.",
+      "keywords": [
+        "lone",
+        "bond",
+        "repulsion",
+        "strongest"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_DyMstyd5TF23xMNY::L1::Q8",
+      "moduleId": "rn_DyMstyd5TF23xMNY::L1",
+      "stem": "Explain why a molecule adopts the shape it does, in VSEPR terms.",
+      "misconceptionClass": "shape adoption logic",
+      "kind": "explain-why",
+      "modelAnswer": "The electron pairs around the central atom all repel each other, so the molecule settles into the arrangement that pushes those clouds as far apart as possible - the geometry with the least total repulsion is the stable one.",
+      "keywords": [
+        "repel",
+        "far apart",
+        "least",
+        "stable"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_DyMstyd5TF23xMNY::L1::Q9",
+      "moduleId": "rn_DyMstyd5TF23xMNY::L1",
+      "stem": "Predict whether replacing a bonding pair with a lone pair on a central atom increases or decreases the pressure on the remaining bonds, and why.",
+      "misconceptionClass": "lone pair pressure application",
+      "kind": "application",
+      "modelAnswer": "It increases the pressure: the lone pair's more concentrated cloud repels harder than the bond pair it replaced, squeezing the remaining bonds closer together.",
+      "keywords": [
+        "lone pair",
+        "concentrated",
+        "repels",
+        "closer"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_DyMstyd5TF23xMNY::L2::Q1",
+      "moduleId": "rn_DyMstyd5TF23xMNY::L2",
+      "stem": "What is bond length?",
+      "misconceptionClass": "bond length definition",
+      "options": [
+        {
+          "key": "A",
+          "text": "The vibration amplitude of a bond",
+          "correct": false,
+          "explanation": "Vibration is motion, not the equilibrium distance.",
+          "misconception": "quantity confused"
+        },
+        {
+          "key": "B",
+          "text": "The internuclear distance between two covalently bonded atoms",
+          "correct": true,
+          "explanation": "Nucleus to nucleus across the bond.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "The radius of the larger atom",
+          "correct": false,
+          "explanation": "That is an atomic property, not a bond property.",
+          "misconception": "quantity confused"
+        },
+        {
+          "key": "D",
+          "text": "The distance between two electron pairs",
+          "correct": false,
+          "explanation": "Electron pairs are not the reference points.",
+          "misconception": "reference wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_DyMstyd5TF23xMNY::L2::Q2",
+      "moduleId": "rn_DyMstyd5TF23xMNY::L2",
+      "stem": "What happens to bond length when attraction between electrons and nuclei increases?",
+      "misconceptionClass": "attraction length link",
+      "options": [
+        {
+          "key": "A",
+          "text": "Length stays fixed",
+          "correct": false,
+          "explanation": "Length responds to the attraction strength.",
+          "misconception": "length frozen"
+        },
+        {
+          "key": "B",
+          "text": "The bond breaks instead",
+          "correct": false,
+          "explanation": "Stronger attraction stabilises, not breaks.",
+          "misconception": "outcome inverted"
+        },
+        {
+          "key": "C",
+          "text": "The atoms pull closer, decreasing the bond length",
+          "correct": true,
+          "explanation": "Stronger grip shortens the distance.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "The atoms drift apart, increasing bond length",
+          "correct": false,
+          "explanation": "The grip does the opposite.",
+          "misconception": "direction inverted"
+        }
+      ]
+    },
+    {
+      "id": "rn_DyMstyd5TF23xMNY::L2::Q3",
+      "moduleId": "rn_DyMstyd5TF23xMNY::L2",
+      "stem": "Which bond type is both the shortest and the strongest?",
+      "misconceptionClass": "shortest strongest bond",
+      "options": [
+        {
+          "key": "A",
+          "text": "The single bond",
+          "correct": false,
+          "explanation": "Singles are the longest and weakest.",
+          "misconception": "end mispicked"
+        },
+        {
+          "key": "B",
+          "text": "The double bond",
+          "correct": false,
+          "explanation": "Intermediate on both counts.",
+          "misconception": "middle mispicked"
+        },
+        {
+          "key": "C",
+          "text": "All bond types match in length",
+          "correct": false,
+          "explanation": "Length varies systematically with bond order.",
+          "misconception": "equality misclaimed"
+        },
+        {
+          "key": "D",
+          "text": "The triple bond",
+          "correct": true,
+          "explanation": "Maximum electron density pulls hardest and nearest.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_DyMstyd5TF23xMNY::L2::Q4",
+      "moduleId": "rn_DyMstyd5TF23xMNY::L2",
+      "stem": "Why do triple bonds achieve the shortest length?",
+      "misconceptionClass": "triple bond shortness",
+      "options": [
+        {
+          "key": "A",
+          "text": "Their large electron density between the nuclei increases the attractive forces",
+          "correct": true,
+          "explanation": "More shared density pulls the nuclei nearer.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Their nuclei carry extra protons",
+          "correct": false,
+          "explanation": "The atoms are unchanged; the sharing density is what grows.",
+          "misconception": "cause misattributed"
+        },
+        {
+          "key": "C",
+          "text": "Their electrons are removed",
+          "correct": false,
+          "explanation": "Triple bonds add shared pairs, none removed.",
+          "misconception": "process misstated"
+        },
+        {
+          "key": "D",
+          "text": "Their bonds are made of stronger atoms",
+          "correct": false,
+          "explanation": "Element identity is fixed in the comparison.",
+          "misconception": "cause misattributed"
+        }
+      ]
+    },
+    {
+      "id": "rn_DyMstyd5TF23xMNY::L2::Q5",
+      "moduleId": "rn_DyMstyd5TF23xMNY::L2",
+      "stem": "Increasing the strength of a covalent bond by pulling its atoms closer has what combined effect?",
+      "misconceptionClass": "strength length coupling",
+      "options": [
+        {
+          "key": "A",
+          "text": "Both stay constant",
+          "correct": false,
+          "explanation": "The coupling is the lesson of the note.",
+          "misconception": "coupling denied"
+        },
+        {
+          "key": "B",
+          "text": "Bond length decreases and bond strength increases",
+          "correct": true,
+          "explanation": "The two movements are one event.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Bond length increases and strength decreases",
+          "correct": false,
+          "explanation": "That inverts both.",
+          "misconception": "direction inverted"
+        },
+        {
+          "key": "D",
+          "text": "Length decreases while strength decreases",
+          "correct": false,
+          "explanation": "The movements cannot decouple that way here.",
+          "misconception": "coupling broken"
+        }
+      ]
+    },
+    {
+      "id": "rn_DyMstyd5TF23xMNY::L2::Q6",
+      "moduleId": "rn_DyMstyd5TF23xMNY::L2",
+      "stem": "Define bond length.",
+      "misconceptionClass": "length definition recall",
+      "kind": "recall",
+      "modelAnswer": "Bond length is the internuclear distance of two covalently bonded atoms.",
+      "keywords": [
+        "internuclear",
+        "distance",
+        "covalently bonded",
+        "atoms"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_DyMstyd5TF23xMNY::L2::Q7",
+      "moduleId": "rn_DyMstyd5TF23xMNY::L2",
+      "stem": "State which bond type is shortest and strongest, with the reason.",
+      "misconceptionClass": "triple bond recall",
+      "kind": "recall",
+      "modelAnswer": "Triple bonds - their large electron density between the nuclei raises attraction, pulling the atoms closest.",
+      "keywords": [
+        "triple",
+        "shortest",
+        "strongest",
+        "electron density"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_DyMstyd5TF23xMNY::L2::Q8",
+      "moduleId": "rn_DyMstyd5TF23xMNY::L2",
+      "stem": "Explain why greater electron-nucleus attraction strengthens a covalent bond.",
+      "misconceptionClass": "attraction strength logic",
+      "kind": "explain-why",
+      "modelAnswer": "Stronger attraction holds the shared electrons more firmly between the two nuclei and draws those nuclei nearer, so more energy is required to separate the bonded atoms - which is precisely a stronger bond.",
+      "keywords": [
+        "attraction",
+        "nearer",
+        "energy",
+        "stronger"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_DyMstyd5TF23xMNY::L2::Q9",
+      "moduleId": "rn_DyMstyd5TF23xMNY::L2",
+      "stem": "Arrange single, double and triple bonds by increasing bond length and state the strength order that accompanies it.",
+      "misconceptionClass": "bond order application",
+      "kind": "application",
+      "modelAnswer": "Length: triple < double < single; strength runs the same ladder upward - triple strongest, single weakest - because density between the nuclei rises with bond order.",
+      "keywords": [
+        "triple",
+        "double",
+        "single",
+        "order"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_DyMstyd5TF23xMNY::L3::Q1",
+      "moduleId": "rn_DyMstyd5TF23xMNY::L3",
+      "stem": "Which bond angle belongs to a linear molecule?",
+      "misconceptionClass": "linear angle",
+      "options": [
+        {
+          "key": "A",
+          "text": "109.5 degrees",
+          "correct": false,
+          "explanation": "That is the tetrahedral angle.",
+          "misconception": "angle misassigned"
+        },
+        {
+          "key": "B",
+          "text": "90 degrees",
+          "correct": false,
+          "explanation": "Bipyramidal geometry uses 90, not linear.",
+          "misconception": "angle misassigned"
+        },
+        {
+          "key": "C",
+          "text": "180 degrees",
+          "correct": true,
+          "explanation": "Two domains spread to opposite directions.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "120 degrees",
+          "correct": false,
+          "explanation": "That is the trigonal planar angle.",
+          "misconception": "angle misassigned"
+        }
+      ]
+    },
+    {
+      "id": "rn_DyMstyd5TF23xMNY::L3::Q2",
+      "moduleId": "rn_DyMstyd5TF23xMNY::L3",
+      "stem": "Which molecular shape carries 120 degree bond angles?",
+      "misconceptionClass": "120 degree shape",
+      "options": [
+        {
+          "key": "A",
+          "text": "Linear",
+          "correct": false,
+          "explanation": "Linear runs at 180.",
+          "misconception": "shape misassigned"
+        },
+        {
+          "key": "B",
+          "text": "Tetrahedral",
+          "correct": false,
+          "explanation": "Tetrahedral runs at 109.5.",
+          "misconception": "shape misassigned"
+        },
+        {
+          "key": "C",
+          "text": "Pyramidal",
+          "correct": false,
+          "explanation": "Pyramidal shapes deviate below 109.5.",
+          "misconception": "shape misassigned"
+        },
+        {
+          "key": "D",
+          "text": "Trigonal planar",
+          "correct": true,
+          "explanation": "Three domains spread in one plane.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_DyMstyd5TF23xMNY::L3::Q3",
+      "moduleId": "rn_DyMstyd5TF23xMNY::L3",
+      "stem": "The tetrahedral bond angle is",
+      "misconceptionClass": "tetrahedral angle",
+      "options": [
+        {
+          "key": "A",
+          "text": "109.5 degrees",
+          "correct": true,
+          "explanation": "Four equal domains spread into 3D.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "120 degrees",
+          "correct": false,
+          "explanation": "That is the planar value.",
+          "misconception": "value mispicked"
+        },
+        {
+          "key": "C",
+          "text": "180 degrees",
+          "correct": false,
+          "explanation": "That is the linear value.",
+          "misconception": "value mispicked"
+        },
+        {
+          "key": "D",
+          "text": "90 degrees",
+          "correct": false,
+          "explanation": "That appears in bipyramidal arrangements.",
+          "misconception": "value mispicked"
+        }
+      ]
+    },
+    {
+      "id": "rn_DyMstyd5TF23xMNY::L3::Q4",
+      "moduleId": "rn_DyMstyd5TF23xMNY::L3",
+      "stem": "Why do the catalogue angles differ between shapes?",
+      "misconceptionClass": "angle variation reason",
+      "options": [
+        {
+          "key": "A",
+          "text": "Angles depend on colour and state",
+          "correct": false,
+          "explanation": "Neither enters the geometry.",
+          "misconception": "cause misattributed"
+        },
+        {
+          "key": "B",
+          "text": "Different numbers of electron domains spread by different minimum-repulsion geometry",
+          "correct": true,
+          "explanation": "More domains crowd into 3D space with smaller separations.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Angles are random per molecule",
+          "correct": false,
+          "explanation": "The values are systematic.",
+          "misconception": "system denied"
+        },
+        {
+          "key": "D",
+          "text": "Heavier molecules force smaller angles",
+          "correct": false,
+          "explanation": "Mass plays no role.",
+          "misconception": "cause misattributed"
+        }
+      ]
+    },
+    {
+      "id": "rn_DyMstyd5TF23xMNY::L3::Q5",
+      "moduleId": "rn_DyMstyd5TF23xMNY::L3",
+      "stem": "Two molecules both carry four electron domains. Their bond angles should be",
+      "misconceptionClass": "same domains same angle",
+      "options": [
+        {
+          "key": "A",
+          "text": "exactly 180 both",
+          "correct": false,
+          "explanation": "Four domains never settle to 180.",
+          "misconception": "value misassigned"
+        },
+        {
+          "key": "B",
+          "text": "unpredictable by VSEPR",
+          "correct": false,
+          "explanation": "VSEPR exists precisely to predict this.",
+          "misconception": "theory denied"
+        },
+        {
+          "key": "C",
+          "text": "approximately equal, at the tetrahedral value",
+          "correct": true,
+          "explanation": "Matching domain counts give matching base geometry.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "wildly different regardless of domains",
+          "correct": false,
+          "explanation": "Domain count drives the base angle.",
+          "misconception": "geometry denied"
+        }
+      ]
+    },
+    {
+      "id": "rn_DyMstyd5TF23xMNY::L3::Q6",
+      "moduleId": "rn_DyMstyd5TF23xMNY::L3",
+      "stem": "State the bond angles of linear, trigonal planar and tetrahedral shapes.",
+      "misconceptionClass": "angle catalogue recall",
+      "kind": "recall",
+      "modelAnswer": "Linear 180 degrees, trigonal planar 120 degrees, tetrahedral 109.5 degrees.",
+      "keywords": [
+        "180",
+        "120",
+        "109.5",
+        "degrees"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_DyMstyd5TF23xMNY::L3::Q7",
+      "moduleId": "rn_DyMstyd5TF23xMNY::L3",
+      "stem": "State what VSEPR pairs with every molecular shape it names.",
+      "misconceptionClass": "shape angle pairing recall",
+      "kind": "recall",
+      "modelAnswer": "Each shape carries its corresponding bond angles - the catalogue pairs shape with angle.",
+      "keywords": [
+        "shape",
+        "bond angles",
+        "corresponding",
+        "pair"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_DyMstyd5TF23xMNY::L3::Q8",
+      "moduleId": "rn_DyMstyd5TF23xMNY::L3",
+      "stem": "Explain why four electron domains settle at 109.5 degrees rather than 120.",
+      "misconceptionClass": "tetrahedral geometry logic",
+      "kind": "explain-why",
+      "modelAnswer": "Four clouds cannot fit in one plane; they spread into three dimensions, pointing to the corners of a tetrahedron whose interior angles - 109.5 degrees - minimise the mutual repulsion.",
+      "keywords": [
+        "four",
+        "three dimensions",
+        "tetrahedron",
+        "109.5"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_DyMstyd5TF23xMNY::L3::Q9",
+      "moduleId": "rn_DyMstyd5TF23xMNY::L3",
+      "stem": "A molecule shows three electron domains around its central atom. Predict its shape and bond angle via the catalogue.",
+      "misconceptionClass": "catalogue application",
+      "kind": "application",
+      "modelAnswer": "Three domains spread in one plane: trigonal planar shape with 120 degree bond angles.",
+      "keywords": [
+        "three",
+        "trigonal planar",
+        "120",
+        "domains"
+      ],
+      "options": []
+    }
+  ]
+}

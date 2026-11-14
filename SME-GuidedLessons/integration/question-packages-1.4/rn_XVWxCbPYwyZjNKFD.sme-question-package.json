@@ -1,0 +1,735 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_XVWxCbPYwyZjNKFD",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "bc5d3c59d07d8fba338d90de4a7750052dd59fb56884d93c61b1387b8dc8deb1",
+    "pinnedRef": "49cb642ee61487cd5debc9850048209a0648785d"
+  },
+  "packageId": "ial-chemistry::rn_XVWxCbPYwyZjNKFD",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_XVWxCbPYwyZjNKFD::L1::Q1",
+      "moduleId": "rn_XVWxCbPYwyZjNKFD::L1",
+      "stem": "What do structural isomers share?",
+      "misconceptionClass": "isomer shared trait",
+      "options": [
+        {
+          "key": "A",
+          "text": "The same molecular formula",
+          "correct": true,
+          "explanation": "Identical atom inventories.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "The same structural formula",
+          "correct": false,
+          "explanation": "That would make them the same compound.",
+          "misconception": "trait inverted"
+        },
+        {
+          "key": "C",
+          "text": "The same functional group position",
+          "correct": false,
+          "explanation": "Positional isomers differ there.",
+          "misconception": "trait wrong"
+        },
+        {
+          "key": "D",
+          "text": "The same longest chain length",
+          "correct": false,
+          "explanation": "Chain isomers differ there.",
+          "misconception": "trait wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_XVWxCbPYwyZjNKFD::L1::Q2",
+      "moduleId": "rn_XVWxCbPYwyZjNKFD::L1",
+      "stem": "What differs between structural isomers?",
+      "misconceptionClass": "isomer differing trait",
+      "options": [
+        {
+          "key": "A",
+          "text": "Their elemental identities",
+          "correct": false,
+          "explanation": "Same elements throughout.",
+          "misconception": "trait inverted"
+        },
+        {
+          "key": "B",
+          "text": "Their structural formulae - the bonding arrangement",
+          "correct": true,
+          "explanation": "Same atoms, different wiring.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Their molecular formulae",
+          "correct": false,
+          "explanation": "Those are identical by definition.",
+          "misconception": "trait inverted"
+        },
+        {
+          "key": "D",
+          "text": "Their total atom counts",
+          "correct": false,
+          "explanation": "Counts match exactly.",
+          "misconception": "trait inverted"
+        }
+      ]
+    },
+    {
+      "id": "rn_XVWxCbPYwyZjNKFD::L1::Q3",
+      "moduleId": "rn_XVWxCbPYwyZjNKFD::L1",
+      "stem": "Propene and cyclopropane are structural isomers because",
+      "misconceptionClass": "propene cyclopropane case",
+      "options": [
+        {
+          "key": "A",
+          "text": "one contains oxygen",
+          "correct": false,
+          "explanation": "Neither does.",
+          "misconception": "element invented"
+        },
+        {
+          "key": "B",
+          "text": "they have the same structure",
+          "correct": false,
+          "explanation": "Their structures differ - that is the point.",
+          "misconception": "claim inverted"
+        },
+        {
+          "key": "C",
+          "text": "both are made of 3 carbons and 6 hydrogens but joined differently - one open chain, one ring",
+          "correct": true,
+          "explanation": "Same C3H6 inventory, different connectivity.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "they have different molecular formulae",
+          "correct": false,
+          "explanation": "Both are C3H6.",
+          "misconception": "formula misstated"
+        }
+      ]
+    },
+    {
+      "id": "rn_XVWxCbPYwyZjNKFD::L1::Q4",
+      "moduleId": "rn_XVWxCbPYwyZjNKFD::L1",
+      "stem": "Which two types of structural isomerism does the syllabus require?",
+      "misconceptionClass": "two isomerism types",
+      "options": [
+        {
+          "key": "A",
+          "text": "Optical and geometric",
+          "correct": false,
+          "explanation": "Those are stereoisomerism types.",
+          "misconception": "category wrong"
+        },
+        {
+          "key": "B",
+          "text": "Functional and stereo",
+          "correct": false,
+          "explanation": "Functional-group isomerism is not in this pair.",
+          "misconception": "category wrong"
+        },
+        {
+          "key": "C",
+          "text": "Ring and linear",
+          "correct": false,
+          "explanation": "Not the named pair.",
+          "misconception": "category invented"
+        },
+        {
+          "key": "D",
+          "text": "Chain and positional",
+          "correct": true,
+          "explanation": "The two flavours of record.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_XVWxCbPYwyZjNKFD::L1::Q5",
+      "moduleId": "rn_XVWxCbPYwyZjNKFD::L1",
+      "stem": "Two compounds share a molecular formula but differ in every property list. What explains this?",
+      "misconceptionClass": "isomer property difference",
+      "options": [
+        {
+          "key": "A",
+          "text": "Different structural formulae give different substances with different properties",
+          "correct": true,
+          "explanation": "Isomers are distinct compounds.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "The formula was misread",
+          "correct": false,
+          "explanation": "The difference is structural, genuine.",
+          "misconception": "explanation wrong"
+        },
+        {
+          "key": "C",
+          "text": "They are actually identical",
+          "correct": false,
+          "explanation": "Different structures mean different compounds.",
+          "misconception": "claim inverted"
+        },
+        {
+          "key": "D",
+          "text": "Isomers always share properties",
+          "correct": false,
+          "explanation": "They differ, sometimes sharply.",
+          "misconception": "claim inverted"
+        }
+      ]
+    },
+    {
+      "id": "rn_XVWxCbPYwyZjNKFD::L1::Q6",
+      "moduleId": "rn_XVWxCbPYwyZjNKFD::L1",
+      "stem": "Define structural isomers.",
+      "misconceptionClass": "definition recall",
+      "kind": "recall",
+      "modelAnswer": "Structural isomers are separate compounds wearing one identical molecular formula while their structural formulae diverge.",
+      "keywords": [
+        "same molecular formula",
+        "different",
+        "structural formulae"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_XVWxCbPYwyZjNKFD::L1::Q7",
+      "moduleId": "rn_XVWxCbPYwyZjNKFD::L1",
+      "stem": "Name the two structural isomerism types required at this level.",
+      "misconceptionClass": "types recall",
+      "kind": "recall",
+      "modelAnswer": "Chain isomerism and positional isomerism.",
+      "keywords": [
+        "chain",
+        "positional",
+        "two",
+        "types"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_XVWxCbPYwyZjNKFD::L1::Q8",
+      "moduleId": "rn_XVWxCbPYwyZjNKFD::L1",
+      "stem": "Explain why identical molecular formulae can still describe different compounds.",
+      "misconceptionClass": "formula insufficiency logic",
+      "kind": "explain-why",
+      "modelAnswer": "A molecular formula only inventories atoms; how those atoms connect - which bond links which atom - is extra information, and different connectivities are genuinely different substances.",
+      "keywords": [
+        "formula",
+        "connect",
+        "different",
+        "substances"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_XVWxCbPYwyZjNKFD::L1::Q9",
+      "moduleId": "rn_XVWxCbPYwyZjNKFD::L1",
+      "stem": "A student lists two structures, both C3H6, one with a C=C and one as a triangle ring. State the isomer relationship and the differing feature.",
+      "misconceptionClass": "pair identification application",
+      "kind": "application",
+      "modelAnswer": "They are structural isomers - propene and cyclopropane - sharing the C3H6 molecular formula while differing in structure: open chain versus ring.",
+      "keywords": [
+        "structural isomers",
+        "C3H6",
+        "open chain",
+        "ring"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_XVWxCbPYwyZjNKFD::L2::Q1",
+      "moduleId": "rn_XVWxCbPYwyZjNKFD::L2",
+      "stem": "What stays the same in chain isomerism?",
+      "misconceptionClass": "chain isomerism constant",
+      "options": [
+        {
+          "key": "A",
+          "text": "The compound's name",
+          "correct": false,
+          "explanation": "Different structures carry different names.",
+          "misconception": "constant wrong"
+        },
+        {
+          "key": "B",
+          "text": "The molecular formula",
+          "correct": true,
+          "explanation": "Identical atoms throughout.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "The longest chain length",
+          "correct": false,
+          "explanation": "That is what changes.",
+          "misconception": "constant wrong"
+        },
+        {
+          "key": "D",
+          "text": "The degree of branching",
+          "correct": false,
+          "explanation": "Branching is the difference.",
+          "misconception": "constant wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_XVWxCbPYwyZjNKFD::L2::Q2",
+      "moduleId": "rn_XVWxCbPYwyZjNKFD::L2",
+      "stem": "What causes chain isomerism?",
+      "misconceptionClass": "chain isomerism cause",
+      "options": [
+        {
+          "key": "A",
+          "text": "Changing the elements present",
+          "correct": false,
+          "explanation": "The elements stay identical.",
+          "misconception": "cause wrong"
+        },
+        {
+          "key": "B",
+          "text": "Adding extra atoms",
+          "correct": false,
+          "explanation": "The formula is conserved.",
+          "misconception": "cause wrong"
+        },
+        {
+          "key": "C",
+          "text": "Branching of the carbon skeleton",
+          "correct": true,
+          "explanation": "Branches shorten the longest run.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Moving a functional group",
+          "correct": false,
+          "explanation": "That causes positional isomerism.",
+          "misconception": "cause swapped"
+        }
+      ]
+    },
+    {
+      "id": "rn_XVWxCbPYwyZjNKFD::L2::Q3",
+      "moduleId": "rn_XVWxCbPYwyZjNKFD::L2",
+      "stem": "How long is the longest chain in 2,2-dimethylpropane?",
+      "misconceptionClass": "neopentane chain length",
+      "options": [
+        {
+          "key": "A",
+          "text": "Five carbons",
+          "correct": false,
+          "explanation": "That is pentane's straight run.",
+          "misconception": "length misstated"
+        },
+        {
+          "key": "B",
+          "text": "Four carbons",
+          "correct": false,
+          "explanation": "The branches are methyls on carbon 2.",
+          "misconception": "length misstated"
+        },
+        {
+          "key": "C",
+          "text": "Two carbons",
+          "correct": false,
+          "explanation": "The backbone runs three.",
+          "misconception": "length misstated"
+        },
+        {
+          "key": "D",
+          "text": "Three carbons, with two methyl branches",
+          "correct": true,
+          "explanation": "The quaternary centre caps a three-carbon run.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_XVWxCbPYwyZjNKFD::L2::Q4",
+      "moduleId": "rn_XVWxCbPYwyZjNKFD::L2",
+      "stem": "Pentane and 2,2-dimethylpropane are chain isomers because",
+      "misconceptionClass": "pentane neopentane case",
+      "options": [
+        {
+          "key": "A",
+          "text": "they share the same molecular formula but their longest chains run 5 and 3 carbons respectively",
+          "correct": true,
+          "explanation": "Same atoms, different longest chains.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "they have different molecular formulae",
+          "correct": false,
+          "explanation": "Both hold the same inventory.",
+          "misconception": "formula misstated"
+        },
+        {
+          "key": "C",
+          "text": "a functional group moved position",
+          "correct": false,
+          "explanation": "Neither carries a functional group.",
+          "misconception": "mechanism wrong"
+        },
+        {
+          "key": "D",
+          "text": "one is a ring",
+          "correct": false,
+          "explanation": "Both are open-chain.",
+          "misconception": "structure invented"
+        }
+      ]
+    },
+    {
+      "id": "rn_XVWxCbPYwyZjNKFD::L2::Q5",
+      "moduleId": "rn_XVWxCbPYwyZjNKFD::L2",
+      "stem": "A compound's longest chain is five carbons; its isomer's is three with two methyl branches. The molecular formulae are",
+      "misconceptionClass": "isomer formulae relation",
+      "options": [
+        {
+          "key": "A",
+          "text": "unrelated",
+          "correct": false,
+          "explanation": "They are the same formula by definition.",
+          "misconception": "relation wrong"
+        },
+        {
+          "key": "B",
+          "text": "identical",
+          "correct": true,
+          "explanation": "Isomers share the molecular formula.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "different by CH2",
+          "correct": false,
+          "explanation": "That is a homologous-step difference, not isomers.",
+          "misconception": "relation wrong"
+        },
+        {
+          "key": "D",
+          "text": "different by one hydrogen",
+          "correct": false,
+          "explanation": "Isomers conserve the count.",
+          "misconception": "relation wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_XVWxCbPYwyZjNKFD::L2::Q6",
+      "moduleId": "rn_XVWxCbPYwyZjNKFD::L2",
+      "stem": "Define chain isomerism.",
+      "misconceptionClass": "chain definition recall",
+      "kind": "recall",
+      "modelAnswer": "Chain isomerism keeps a shared molecular formula while the longest hydrocarbon chain changes length - branching is the cause.",
+      "keywords": [
+        "shared molecular formula",
+        "longest chain",
+        "changes length",
+        "branching"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_XVWxCbPYwyZjNKFD::L2::Q7",
+      "moduleId": "rn_XVWxCbPYwyZjNKFD::L2",
+      "stem": "State the longest-chain lengths of pentane and 2,2-dimethylpropane.",
+      "misconceptionClass": "chain lengths recall",
+      "kind": "recall",
+      "modelAnswer": "Pentane's longest chain is 5; 2,2-dimethylpropane's is 3, carrying two methyl branches.",
+      "keywords": [
+        "5",
+        "3",
+        "methyl",
+        "branches"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_XVWxCbPYwyZjNKFD::L2::Q8",
+      "moduleId": "rn_XVWxCbPYwyZjNKFD::L2",
+      "stem": "Explain why branching shortens the longest chain without changing the molecular formula.",
+      "misconceptionClass": "branching logic",
+      "kind": "explain-why",
+      "modelAnswer": "Branching moves carbons off the main run into side pieces: the total carbon count is untouched, but the longest contiguous sequence of bonded carbons shrinks, and that sequence is what the name counts.",
+      "keywords": [
+        "move",
+        "contiguous",
+        "shrinks",
+        "name"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_XVWxCbPYwyZjNKFD::L2::Q9",
+      "moduleId": "rn_XVWxCbPYwyZjNKFD::L2",
+      "stem": "A student draws C5H12 as a straight chain and then as a three-carbon chain with two methyl branches. Name the relationship and the isomerism type.",
+      "misconceptionClass": "drawing pair application",
+      "kind": "application",
+      "modelAnswer": "The two drawings are structural isomers - pentane and 2,2-dimethylpropane - related by chain isomerism, since branching shortened the longest chain from 5 to 3.",
+      "keywords": [
+        "structural isomers",
+        "pentane",
+        "2,2-dimethylpropane",
+        "chain"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_XVWxCbPYwyZjNKFD::L3::Q1",
+      "moduleId": "rn_XVWxCbPYwyZjNKFD::L3",
+      "stem": "What defines positional isomers?",
+      "misconceptionClass": "positional definition",
+      "options": [
+        {
+          "key": "A",
+          "text": "Different longest chains",
+          "correct": false,
+          "explanation": "That is chain isomerism.",
+          "misconception": "type mismatched"
+        },
+        {
+          "key": "B",
+          "text": "Different molecular formulae",
+          "correct": false,
+          "explanation": "Formulae are identical.",
+          "misconception": "definition inverted"
+        },
+        {
+          "key": "C",
+          "text": "The same functional group located on different carbon atoms",
+          "correct": true,
+          "explanation": "Only the group's address moves.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Different functional groups",
+          "correct": false,
+          "explanation": "The group is the same.",
+          "misconception": "definition inverted"
+        }
+      ]
+    },
+    {
+      "id": "rn_XVWxCbPYwyZjNKFD::L3::Q2",
+      "moduleId": "rn_XVWxCbPYwyZjNKFD::L3",
+      "stem": "Butan-1-ol and butan-2-ol differ in",
+      "misconceptionClass": "butanol pair difference",
+      "options": [
+        {
+          "key": "A",
+          "text": "their molecular formulae",
+          "correct": false,
+          "explanation": "Both are C4H10O.",
+          "misconception": "formula misstated"
+        },
+        {
+          "key": "B",
+          "text": "the functional group itself",
+          "correct": false,
+          "explanation": "Both carry an alcohol group.",
+          "misconception": "group misstated"
+        },
+        {
+          "key": "C",
+          "text": "their number of carbons",
+          "correct": false,
+          "explanation": "Both carry four.",
+          "misconception": "count misstated"
+        },
+        {
+          "key": "D",
+          "text": "which carbon carries the OH group - first versus second",
+          "correct": true,
+          "explanation": "Positional isomerism in action.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_XVWxCbPYwyZjNKFD::L3::Q3",
+      "moduleId": "rn_XVWxCbPYwyZjNKFD::L3",
+      "stem": "Why does dibromopropane show positional rather than chain isomerism?",
+      "misconceptionClass": "dibromopropane classification",
+      "options": [
+        {
+          "key": "A",
+          "text": "The longest chain can only run three carbons, but the two bromines can occupy different carbons",
+          "correct": true,
+          "explanation": "Placement varies where the skeleton cannot.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Its bromines can leave the molecule",
+          "correct": false,
+          "explanation": "The formula is fixed at C3H6Br2.",
+          "misconception": "claim wrong"
+        },
+        {
+          "key": "C",
+          "text": "It has restricted rotation",
+          "correct": false,
+          "explanation": "The protocol found none, so it is structural.",
+          "misconception": "step misread"
+        },
+        {
+          "key": "D",
+          "text": "It carries two functional group types",
+          "correct": false,
+          "explanation": "Br is the only functional group possible.",
+          "misconception": "claim wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_XVWxCbPYwyZjNKFD::L3::Q4",
+      "moduleId": "rn_XVWxCbPYwyZjNKFD::L3",
+      "stem": "How many positional isomers does dibromopropane, C3H6Br2, have?",
+      "misconceptionClass": "dibromopropane count",
+      "options": [
+        {
+          "key": "A",
+          "text": "Six",
+          "correct": false,
+          "explanation": "That overcounts duplicate placements.",
+          "misconception": "count overshoots"
+        },
+        {
+          "key": "B",
+          "text": "Four - 1,1-, 1,2-, 1,3- and 2,2-dibromopropane",
+          "correct": true,
+          "explanation": "The distinct bromine placements on a three-carbon chain.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Two",
+          "correct": false,
+          "explanation": "Two placements are missed.",
+          "misconception": "count undershoots"
+        },
+        {
+          "key": "D",
+          "text": "Three",
+          "correct": false,
+          "explanation": "One placement is missed.",
+          "misconception": "count undershoots"
+        }
+      ]
+    },
+    {
+      "id": "rn_XVWxCbPYwyZjNKFD::L3::Q5",
+      "moduleId": "rn_XVWxCbPYwyZjNKFD::L3",
+      "stem": "How many isomers does C4H10 have, and of which type?",
+      "misconceptionClass": "C4H10 isomer census",
+      "options": [
+        {
+          "key": "A",
+          "text": "One",
+          "correct": false,
+          "explanation": "Branching gives a second skeleton.",
+          "misconception": "count undershoots"
+        },
+        {
+          "key": "B",
+          "text": "Three",
+          "correct": false,
+          "explanation": "Only two skeletons exist for four carbons.",
+          "misconception": "count overshoots"
+        },
+        {
+          "key": "C",
+          "text": "Two, both chain isomers - butane and 2-methylpropane",
+          "correct": true,
+          "explanation": "No functional group exists to reposition.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Four, all positional",
+          "correct": false,
+          "explanation": "No functional group can move.",
+          "misconception": "type wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_XVWxCbPYwyZjNKFD::L3::Q6",
+      "moduleId": "rn_XVWxCbPYwyZjNKFD::L3",
+      "stem": "Define positional isomerism.",
+      "misconceptionClass": "positional definition recall",
+      "kind": "recall",
+      "modelAnswer": "Positional isomerism relocates one unchanged functional group: it takes up residence on different carbons across the isomers.",
+      "keywords": [
+        "position",
+        "functional group",
+        "different carbons",
+        "relocates"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_XVWxCbPYwyZjNKFD::L3::Q7",
+      "moduleId": "rn_XVWxCbPYwyZjNKFD::L3",
+      "stem": "State the three steps of the isomer-hunting protocol.",
+      "misconceptionClass": "protocol steps recall",
+      "kind": "recall",
+      "modelAnswer": "Draw the structural formula; determine whether it is stereo or structural isomerism; determine whether it is functional group, chain or positional.",
+      "keywords": [
+        "draw",
+        "stereo or structural",
+        "determine",
+        "protocol"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_XVWxCbPYwyZjNKFD::L3::Q8",
+      "moduleId": "rn_XVWxCbPYwyZjNKFD::L3",
+      "stem": "Explain why C4H10 shows chain isomerism but no positional isomerism.",
+      "misconceptionClass": "C4H10 logic",
+      "kind": "explain-why",
+      "modelAnswer": "With no functional groups present, nothing can move position between carbons; the only variation available is the carbon skeleton, so branching produces the two chain isomers.",
+      "keywords": [
+        "no functional groups",
+        "skeleton",
+        "branching",
+        "chain"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_XVWxCbPYwyZjNKFD::L3::Q9",
+      "moduleId": "rn_XVWxCbPYwyZjNKFD::L3",
+      "stem": "Run the protocol on C3H6Br2 and list the positional placements that give the four isomers.",
+      "misconceptionClass": "protocol application",
+      "kind": "application",
+      "modelAnswer": "Structural (no restricted rotation); no functional-group type (Br only), no chain type (chain capped at 3); positional - the placements 1,1-, 1,2-, 1,3- and 2,2-dibromopropane give four isomers.",
+      "keywords": [
+        "structural",
+        "positional",
+        "1,1",
+        "1,3",
+        "2,2"
+      ],
+      "options": []
+    }
+  ]
+}

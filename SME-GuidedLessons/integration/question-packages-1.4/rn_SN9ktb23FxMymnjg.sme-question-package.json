@@ -1,0 +1,735 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_SN9ktb23FxMymnjg",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "28822d71e75ce75518a7578f0e045cd482e3dc1f37454c26db3a3189850d5cf3",
+    "pinnedRef": "49cb642ee61487cd5debc9850048209a0648785d"
+  },
+  "packageId": "ial-chemistry::rn_SN9ktb23FxMymnjg",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_SN9ktb23FxMymnjg::L1::Q1",
+      "moduleId": "rn_SN9ktb23FxMymnjg::L1",
+      "stem": "What does electronegativity measure?",
+      "misconceptionClass": "electronegativity definition",
+      "options": [
+        {
+          "key": "A",
+          "text": "An atom's power to attract the shared pair in a covalent bond toward itself",
+          "correct": true,
+          "explanation": "The definition centres on the bonded pair.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "An atom's ability to lose its own electrons",
+          "correct": false,
+          "explanation": "That describes ionisation tendency, not electronegativity.",
+          "misconception": "quantity confused"
+        },
+        {
+          "key": "C",
+          "text": "The total charge of an ion",
+          "correct": false,
+          "explanation": "Electronegativity applies to bonded atoms, not formal ionic charge.",
+          "misconception": "quantity confused"
+        },
+        {
+          "key": "D",
+          "text": "The mass-to-charge ratio of an atom",
+          "correct": false,
+          "explanation": "Mass plays no role in the definition.",
+          "misconception": "quantity confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_SN9ktb23FxMymnjg::L1::Q2",
+      "moduleId": "rn_SN9ktb23FxMymnjg::L1",
+      "stem": "What happens to electron distribution when bonded atoms differ in electronegativity?",
+      "misconceptionClass": "distribution asymmetry",
+      "options": [
+        {
+          "key": "A",
+          "text": "The electrons become stationary",
+          "correct": false,
+          "explanation": "Shared electrons remain in motion.",
+          "misconception": "motion misstated"
+        },
+        {
+          "key": "B",
+          "text": "It becomes unsymmetrical, denser around the more electronegative atom",
+          "correct": true,
+          "explanation": "The stronger pull shifts the shared density.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "It stays perfectly even",
+          "correct": false,
+          "explanation": "Evenness belongs to equal electronegativities.",
+          "misconception": "symmetry misclaimed"
+        },
+        {
+          "key": "D",
+          "text": "The electrons transfer completely to one atom",
+          "correct": false,
+          "explanation": "Complete transfer is ionic bonding; here sharing persists, unevenly.",
+          "misconception": "process overstated"
+        }
+      ]
+    },
+    {
+      "id": "rn_SN9ktb23FxMymnjg::L1::Q3",
+      "moduleId": "rn_SN9ktb23FxMymnjg::L1",
+      "stem": "Which scale assigns electronegativity values to atoms?",
+      "misconceptionClass": "Pauling scale",
+      "options": [
+        {
+          "key": "A",
+          "text": "The pH scale",
+          "correct": false,
+          "explanation": "pH measures acidity.",
+          "misconception": "scale confused"
+        },
+        {
+          "key": "B",
+          "text": "The atomic number sequence",
+          "correct": false,
+          "explanation": "Atomic number counts protons, not pulling power.",
+          "misconception": "quantity confused"
+        },
+        {
+          "key": "C",
+          "text": "The Pauling scale",
+          "correct": true,
+          "explanation": "It is the numbering system of record here.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "The Kelvin scale",
+          "correct": false,
+          "explanation": "Kelvin measures temperature.",
+          "misconception": "scale confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_SN9ktb23FxMymnjg::L1::Q4",
+      "moduleId": "rn_SN9ktb23FxMymnjg::L1",
+      "stem": "Which element tops the electronegativity table, and at what Pauling value?",
+      "misconceptionClass": "most electronegative element",
+      "options": [
+        {
+          "key": "A",
+          "text": "Oxygen, at 4.0",
+          "correct": false,
+          "explanation": "Oxygen is high but not the record holder.",
+          "misconception": "element mispicked"
+        },
+        {
+          "key": "B",
+          "text": "Chlorine, at 4.0",
+          "correct": false,
+          "explanation": "Chlorine trails fluorine.",
+          "misconception": "element mispicked"
+        },
+        {
+          "key": "C",
+          "text": "Caesium, at 4.0",
+          "correct": false,
+          "explanation": "Caesium sits at the low end.",
+          "misconception": "element mispicked"
+        },
+        {
+          "key": "D",
+          "text": "Fluorine, at 4.0",
+          "correct": true,
+          "explanation": "The strongest puller sits at the top of the scale.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_SN9ktb23FxMymnjg::L1::Q5",
+      "moduleId": "rn_SN9ktb23FxMymnjg::L1",
+      "stem": "Why does a nucleus attract the shared pair toward itself in a bond?",
+      "misconceptionClass": "nuclear pull origin",
+      "options": [
+        {
+          "key": "A",
+          "text": "Its positive charge draws the negatively charged outer-shell electrons",
+          "correct": true,
+          "explanation": "Opposite charges attract; density shifts toward the stronger nucleus.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Its neutrons grip the electrons",
+          "correct": false,
+          "explanation": "Neutrons carry no charge.",
+          "misconception": "particle miscredited"
+        },
+        {
+          "key": "C",
+          "text": "Its electrons push the pair across",
+          "correct": false,
+          "explanation": "Electron-electron repulsion cannot confer a pull toward one side.",
+          "misconception": "mechanism misstated"
+        },
+        {
+          "key": "D",
+          "text": "Its mass bends the orbit",
+          "correct": false,
+          "explanation": "Mass is not the operative force.",
+          "misconception": "mechanism misstated"
+        }
+      ]
+    },
+    {
+      "id": "rn_SN9ktb23FxMymnjg::L1::Q6",
+      "moduleId": "rn_SN9ktb23FxMymnjg::L1",
+      "stem": "Define electronegativity.",
+      "misconceptionClass": "definition recall",
+      "kind": "recall",
+      "modelAnswer": "Electronegativity rates the power of a bonded atom to pull the shared pair of a covalent bond toward itself.",
+      "keywords": [
+        "power",
+        "atom",
+        "shared pair",
+        "covalent bond"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_SN9ktb23FxMymnjg::L1::Q7",
+      "moduleId": "rn_SN9ktb23FxMymnjg::L1",
+      "stem": "Name the scale used for electronegativity values and the element at its top.",
+      "misconceptionClass": "scale and champion recall",
+      "kind": "recall",
+      "modelAnswer": "The Pauling scale assigns the values, and fluorine tops it at 4.0.",
+      "keywords": [
+        "Pauling",
+        "fluorine",
+        "4.0",
+        "top"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_SN9ktb23FxMymnjg::L1::Q8",
+      "moduleId": "rn_SN9ktb23FxMymnjg::L1",
+      "stem": "Explain why differing electronegativities produce an unsymmetrical electron distribution.",
+      "misconceptionClass": "asymmetry logic",
+      "kind": "explain-why",
+      "modelAnswer": "Both nuclei attract the same bonding pair, but with unequal strength; the stronger, more electronegative nucleus wins a larger share of the electron density, so the distribution loses symmetry.",
+      "keywords": [
+        "nuclei",
+        "unequal",
+        "density",
+        "symmetry"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_SN9ktb23FxMymnjg::L1::Q9",
+      "moduleId": "rn_SN9ktb23FxMymnjg::L1",
+      "stem": "In the C-F bond of fluoromethane, state which end holds the electron density more tightly and why.",
+      "misconceptionClass": "C-F application",
+      "kind": "application",
+      "modelAnswer": "Fluorine holds the density: as the most electronegative element (4.0) it pulls the bonding pair harder than carbon, so electron density concentrates at the fluorine end.",
+      "keywords": [
+        "fluorine",
+        "4.0",
+        "density",
+        "carbon"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_SN9ktb23FxMymnjg::L2::Q1",
+      "moduleId": "rn_SN9ktb23FxMymnjg::L2",
+      "stem": "Which electronegativity relationship favours ionic bond formation?",
+      "misconceptionClass": "ionic formation condition",
+      "options": [
+        {
+          "key": "A",
+          "text": "No measurable difference at all",
+          "correct": false,
+          "explanation": "Zero difference is the nonpolar limit.",
+          "misconception": "condition inverted"
+        },
+        {
+          "key": "B",
+          "text": "A large difference between the two atoms",
+          "correct": true,
+          "explanation": "Big mismatch tears the pair into ions.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "A small difference between the two atoms",
+          "correct": false,
+          "explanation": "Matched pulls share covalently.",
+          "misconception": "condition inverted"
+        },
+        {
+          "key": "D",
+          "text": "Identical electronegativities",
+          "correct": false,
+          "explanation": "That gives a purely nonpolar covalent bond.",
+          "misconception": "condition inverted"
+        }
+      ]
+    },
+    {
+      "id": "rn_SN9ktb23FxMymnjg::L2::Q2",
+      "moduleId": "rn_SN9ktb23FxMymnjg::L2",
+      "stem": "A bond has an electronegativity difference of 1.2 on the Pauling scale. What type is it?",
+      "misconceptionClass": "1.2 band classification",
+      "options": [
+        {
+          "key": "A",
+          "text": "Pure nonpolar covalent",
+          "correct": false,
+          "explanation": "Nonpolar requires near-zero difference.",
+          "misconception": "band misread"
+        },
+        {
+          "key": "B",
+          "text": "Metallic",
+          "correct": false,
+          "explanation": "Metallic bonding is a different class entirely.",
+          "misconception": "type confused"
+        },
+        {
+          "key": "C",
+          "text": "Polar covalent, within the 0.3 to 1.7 band",
+          "correct": true,
+          "explanation": "Unequal but incomplete sharing.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Fully ionic",
+          "correct": false,
+          "explanation": "Ionic territory begins above 1.7.",
+          "misconception": "band misread"
+        }
+      ]
+    },
+    {
+      "id": "rn_SN9ktb23FxMymnjg::L2::Q3",
+      "moduleId": "rn_SN9ktb23FxMymnjg::L2",
+      "stem": "In a polar bond, which atom carries the delta-negative charge?",
+      "misconceptionClass": "delta negative pole",
+      "options": [
+        {
+          "key": "A",
+          "text": "The less electronegative atom",
+          "correct": false,
+          "explanation": "It ends up delta-positive.",
+          "misconception": "pole swapped"
+        },
+        {
+          "key": "B",
+          "text": "Both equally",
+          "correct": false,
+          "explanation": "The poles exist precisely because the sharing is unequal.",
+          "misconception": "polarity denied"
+        },
+        {
+          "key": "C",
+          "text": "Whichever atom is heavier",
+          "correct": false,
+          "explanation": "Electronegativity, not mass, assigns the poles.",
+          "misconception": "criterion wrong"
+        },
+        {
+          "key": "D",
+          "text": "The more electronegative atom",
+          "correct": true,
+          "explanation": "It draws the shared electrons closer.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_SN9ktb23FxMymnjg::L2::Q4",
+      "moduleId": "rn_SN9ktb23FxMymnjg::L2",
+      "stem": "What is true of the charge centres in a polar bond?",
+      "misconceptionClass": "charge centre separation",
+      "options": [
+        {
+          "key": "A",
+          "text": "The negative and positive charge centres do not coincide",
+          "correct": true,
+          "explanation": "Asymmetric density splits the centres.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "They coincide exactly",
+          "correct": false,
+          "explanation": "Coincidence belongs to nonpolar bonds.",
+          "misconception": "geometry misstated"
+        },
+        {
+          "key": "C",
+          "text": "Both centres are negative",
+          "correct": false,
+          "explanation": "One centre stays positive.",
+          "misconception": "sign misstated"
+        },
+        {
+          "key": "D",
+          "text": "No centres can be identified",
+          "correct": false,
+          "explanation": "The separated centres are the definition.",
+          "misconception": "concept denied"
+        }
+      ]
+    },
+    {
+      "id": "rn_SN9ktb23FxMymnjg::L2::Q5",
+      "moduleId": "rn_SN9ktb23FxMymnjg::L2",
+      "stem": "As the electronegativity difference between two bonded atoms grows, the bond",
+      "misconceptionClass": "polarity growth direction",
+      "options": [
+        {
+          "key": "A",
+          "text": "loses its covalent character instantly at any difference",
+          "correct": false,
+          "explanation": "Small differences leave the bond covalent.",
+          "misconception": "threshold misstated"
+        },
+        {
+          "key": "B",
+          "text": "becomes more polar, approaching ionic character",
+          "correct": true,
+          "explanation": "The sharing grows ever more one-sided.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "becomes less polar",
+          "correct": false,
+          "explanation": "The difference drives polarity upward.",
+          "misconception": "direction inverted"
+        },
+        {
+          "key": "D",
+          "text": "stays at constant polarity",
+          "correct": false,
+          "explanation": "Polarity tracks the difference.",
+          "misconception": "polarity frozen"
+        }
+      ]
+    },
+    {
+      "id": "rn_SN9ktb23FxMymnjg::L2::Q6",
+      "moduleId": "rn_SN9ktb23FxMymnjg::L2",
+      "stem": "State the Pauling-scale rule of thumb that separates ionic from covalent bond formation.",
+      "misconceptionClass": "rule of 2 recall",
+      "kind": "recall",
+      "modelAnswer": "An electronegativity difference of 2 or more leads to ionic bonding; less than 2 leads to covalent bonding.",
+      "keywords": [
+        "2 or more",
+        "ionic",
+        "less than 2",
+        "covalent"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_SN9ktb23FxMymnjg::L2::Q7",
+      "moduleId": "rn_SN9ktb23FxMymnjg::L2",
+      "stem": "State the electronegativity-difference band that produces polar covalent bonds.",
+      "misconceptionClass": "polar band recall",
+      "kind": "recall",
+      "modelAnswer": "Differences from 0.3 to 1.7 produce polar covalent bonds.",
+      "keywords": [
+        "0.3",
+        "1.7",
+        "polar",
+        "covalent"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_SN9ktb23FxMymnjg::L2::Q8",
+      "moduleId": "rn_SN9ktb23FxMymnjg::L2",
+      "stem": "Explain why a large electronegativity difference ends in electron transfer rather than sharing.",
+      "misconceptionClass": "transfer at large difference",
+      "kind": "explain-why",
+      "modelAnswer": "When one nucleus out-pulls the other by a wide margin, the shared pair is drawn so close to the stronger atom that it effectively belongs to it - the sharing regime collapses into full transfer and ions form.",
+      "keywords": [
+        "out-pulls",
+        "drawn",
+        "transfer",
+        "ions"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_SN9ktb23FxMymnjg::L2::Q9",
+      "moduleId": "rn_SN9ktb23FxMymnjg::L2",
+      "stem": "Bond X has a Pauling difference of 2.5; bond Y has 0.9. Classify both and name the delta end of Y's more electronegative atom.",
+      "misconceptionClass": "classification application",
+      "kind": "application",
+      "modelAnswer": "X is ionic - its difference exceeds 2; Y is polar covalent, sitting in the 0.3-1.7 band, with delta-negative on its more electronegative atom.",
+      "keywords": [
+        "2.5",
+        "ionic",
+        "0.9",
+        "delta-negative"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_SN9ktb23FxMymnjg::L3::Q1",
+      "moduleId": "rn_SN9ktb23FxMymnjg::L3",
+      "stem": "What does the dipole moment measure?",
+      "misconceptionClass": "dipole moment purpose",
+      "options": [
+        {
+          "key": "A",
+          "text": "How strong a bond is",
+          "correct": false,
+          "explanation": "Strength is not the dipole's reading.",
+          "misconception": "quantity confused"
+        },
+        {
+          "key": "B",
+          "text": "How many bonds a molecule has",
+          "correct": false,
+          "explanation": "Counting bonds is simple arithmetic, not a dipole property.",
+          "misconception": "quantity confused"
+        },
+        {
+          "key": "C",
+          "text": "How polar a bond is",
+          "correct": true,
+          "explanation": "It quantifies the bond's charge separation.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "How long a bond is",
+          "correct": false,
+          "explanation": "Bond length is a separate quantity.",
+          "misconception": "quantity confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_SN9ktb23FxMymnjg::L3::Q2",
+      "moduleId": "rn_SN9ktb23FxMymnjg::L3",
+      "stem": "Which way does the dipole arrow point?",
+      "misconceptionClass": "dipole arrow direction",
+      "options": [
+        {
+          "key": "A",
+          "text": "Toward the partially positive end",
+          "correct": false,
+          "explanation": "The arrow runs the other way.",
+          "misconception": "direction flipped"
+        },
+        {
+          "key": "B",
+          "text": "Toward the larger atom by size",
+          "correct": false,
+          "explanation": "The pole assignment follows polarity, not size.",
+          "misconception": "criterion wrong"
+        },
+        {
+          "key": "C",
+          "text": "Either way, by convention",
+          "correct": false,
+          "explanation": "The convention is fixed.",
+          "misconception": "convention denied"
+        },
+        {
+          "key": "D",
+          "text": "Toward the partially negative end of the dipole",
+          "correct": true,
+          "explanation": "The crossed arrow points delta-negative.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_SN9ktb23FxMymnjg::L3::Q3",
+      "moduleId": "rn_SN9ktb23FxMymnjg::L3",
+      "stem": "Which two considerations decide whether a polyatomic molecule is polar?",
+      "misconceptionClass": "molecular polarity inputs",
+      "options": [
+        {
+          "key": "A",
+          "text": "The polarity of each bond and how the bonds are arranged",
+          "correct": true,
+          "explanation": "Both vector size and geometry matter.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "The polarity of each bond only",
+          "correct": false,
+          "explanation": "Arrangement can cancel the sum.",
+          "misconception": "geometry ignored"
+        },
+        {
+          "key": "C",
+          "text": "The molecular mass only",
+          "correct": false,
+          "explanation": "Mass never decides polarity.",
+          "misconception": "criterion wrong"
+        },
+        {
+          "key": "D",
+          "text": "The number of atoms only",
+          "correct": false,
+          "explanation": "Counting atoms misses both polarity and geometry.",
+          "misconception": "criterion wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_SN9ktb23FxMymnjg::L3::Q4",
+      "moduleId": "rn_SN9ktb23FxMymnjg::L3",
+      "stem": "Why is CCl4 nonpolar despite four polar C-Cl bonds?",
+      "misconceptionClass": "CCl4 cancellation",
+      "options": [
+        {
+          "key": "A",
+          "text": "The molecule carries a net charge",
+          "correct": false,
+          "explanation": "CCl4 is neutral and nonpolar.",
+          "misconception": "charge misstated"
+        },
+        {
+          "key": "B",
+          "text": "Its individual dipole moments cancel each other out by symmetry",
+          "correct": true,
+          "explanation": "Four equal arrows pointing outward in tetrahedral geometry sum to zero.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Its bonds are actually nonpolar",
+          "correct": false,
+          "explanation": "Each C-Cl bond is polar; the molecule is not.",
+          "misconception": "level confused"
+        },
+        {
+          "key": "D",
+          "text": "Chlorine is not electronegative",
+          "correct": false,
+          "explanation": "Chlorine is strongly electronegative.",
+          "misconception": "claim wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_SN9ktb23FxMymnjg::L3::Q5",
+      "moduleId": "rn_SN9ktb23FxMymnjg::L3",
+      "stem": "Why is CH3Cl polar?",
+      "misconceptionClass": "CH3Cl polarity",
+      "options": [
+        {
+          "key": "A",
+          "text": "Its dipoles cancel perfectly",
+          "correct": false,
+          "explanation": "Cancellation would make it nonpolar.",
+          "misconception": "outcome contradicted"
+        },
+        {
+          "key": "B",
+          "text": "It carries an ionic charge",
+          "correct": false,
+          "explanation": "CH3Cl is a neutral molecule.",
+          "misconception": "charge misstated"
+        },
+        {
+          "key": "C",
+          "text": "Its polar bonds do not cancel - the net dipole points toward the chlorine",
+          "correct": true,
+          "explanation": "The single chlorine breaks the symmetry of the four bonds.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Its bonds are all nonpolar",
+          "correct": false,
+          "explanation": "The C-Cl bond is polar.",
+          "misconception": "claim inverted"
+        }
+      ]
+    },
+    {
+      "id": "rn_SN9ktb23FxMymnjg::L3::Q6",
+      "moduleId": "rn_SN9ktb23FxMymnjg::L3",
+      "stem": "Define the dipole moment and its arrow convention.",
+      "misconceptionClass": "dipole recall",
+      "kind": "recall",
+      "modelAnswer": "The dipole moment sizes up a bond's polarity, and its arrow aims at the partially negative end.",
+      "keywords": [
+        "measures",
+        "polar",
+        "arrow",
+        "negative end"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_SN9ktb23FxMymnjg::L3::Q7",
+      "moduleId": "rn_SN9ktb23FxMymnjg::L3",
+      "stem": "State the polarity verdicts for CH3Cl and CCl4.",
+      "misconceptionClass": "CH3Cl CCl4 verdicts recall",
+      "kind": "recall",
+      "modelAnswer": "CH3Cl is polar, its dipoles summing toward chlorine; CCl4 is nonpolar, its four bond dipoles cancelling out.",
+      "keywords": [
+        "CH3Cl",
+        "polar",
+        "CCl4",
+        "nonpolar"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_SN9ktb23FxMymnjg::L3::Q8",
+      "moduleId": "rn_SN9ktb23FxMymnjg::L3",
+      "stem": "Explain why bond polarity alone cannot decide molecular polarity.",
+      "misconceptionClass": "vector sum logic",
+      "kind": "explain-why",
+      "modelAnswer": "Each bond dipole is a vector: identical dipoles arranged symmetrically sum to zero even though every bond is polar, so the molecules' geometry must enter the judgement alongside the bond polarities.",
+      "keywords": [
+        "vector",
+        "symmetrically",
+        "zero",
+        "geometry"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_SN9ktb23FxMymnjg::L3::Q9",
+      "moduleId": "rn_SN9ktb23FxMymnjg::L3",
+      "stem": "Predict whether CHCl3 (one H, three Cl on carbon) is polar, using the two-step method.",
+      "misconceptionClass": "CHCl3 prediction application",
+      "kind": "application",
+      "modelAnswer": "Step one: the three C-Cl bonds and one C-H bond are all polar. Step two: the asymmetric substitution leaves unbalanced dipoles with the resultant toward the chlorine side, so CHCl3 is polar.",
+      "keywords": [
+        "polar",
+        "asymmetric",
+        "dipoles",
+        "chlorine"
+      ],
+      "options": []
+    }
+  ]
+}

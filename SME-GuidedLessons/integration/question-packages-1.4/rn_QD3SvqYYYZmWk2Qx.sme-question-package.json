@@ -1,0 +1,494 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_QD3SvqYYYZmWk2Qx",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "f2793a626352c32e5b536f58820eeb4b48ee3f121db10c29889d47fb6709c214",
+    "pinnedRef": "49cb642ee61487cd5debc9850048209a0648785d"
+  },
+  "packageId": "ial-chemistry::rn_QD3SvqYYYZmWk2Qx",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_QD3SvqYYYZmWk2Qx::L1::Q1",
+      "moduleId": "rn_QD3SvqYYYZmWk2Qx::L1",
+      "stem": "What does the theoretical ionic model assume about the ions?",
+      "misconceptionClass": "theoretical model assumptions",
+      "options": [
+        {
+          "key": "A",
+          "text": "Perfectly spherical ions with purely electrostatic attractions",
+          "correct": true,
+          "explanation": "The ideal model allows no distortion and no sharing.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Partially shared electron pairs between the ions",
+          "correct": false,
+          "explanation": "Sharing is the covalent contamination the model excludes.",
+          "misconception": "sharing wrongly assumed"
+        },
+        {
+          "key": "C",
+          "text": "Diffuse electron clouds that overlap freely",
+          "correct": false,
+          "explanation": "Overlap signals covalent character, absent from the ideal.",
+          "misconception": "overlap wrongly assumed"
+        },
+        {
+          "key": "D",
+          "text": "Ions of changing charge with temperature",
+          "correct": false,
+          "explanation": "Charges are fixed whole values in the model.",
+          "misconception": "charges fixed wrongly"
+        }
+      ]
+    },
+    {
+      "id": "rn_QD3SvqYYYZmWk2Qx::L1::Q2",
+      "moduleId": "rn_QD3SvqYYYZmWk2Qx::L1",
+      "stem": "Why can measured lattice energy differ from the theoretical value?",
+      "misconceptionClass": "measured vs theoretical gap",
+      "options": [
+        {
+          "key": "A",
+          "text": "The theoretical formula forgot a constant",
+          "correct": false,
+          "explanation": "The formula is fine; the ionic assumption is what fails.",
+          "misconception": "cause misattributed"
+        },
+        {
+          "key": "B",
+          "text": "Polarisation of the anion adds covalent character the model omits",
+          "correct": true,
+          "explanation": "Distorted electron density means the pure electrostatic bookkeeping misses energy.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Instruments cannot read lattice energies accurately",
+          "correct": false,
+          "explanation": "The gap is chemical, not instrumental.",
+          "misconception": "cause misattributed"
+        },
+        {
+          "key": "D",
+          "text": "Ions change size during measurement",
+          "correct": false,
+          "explanation": "The discrepancy arises from bonding character, not size drift.",
+          "misconception": "cause misattributed"
+        }
+      ]
+    },
+    {
+      "id": "rn_QD3SvqYYYZmWk2Qx::L1::Q3",
+      "moduleId": "rn_QD3SvqYYYZmWk2Qx::L1",
+      "stem": "During polarisation, which species pulls on which electrons?",
+      "misconceptionClass": "polarisation direction",
+      "options": [
+        {
+          "key": "A",
+          "text": "Both ions swap electrons mutually",
+          "correct": false,
+          "explanation": "No further exchange happens; one side deforms.",
+          "misconception": "mechanism misstated"
+        },
+        {
+          "key": "B",
+          "text": "Neither ion affects the other",
+          "correct": false,
+          "explanation": "Polarisation is precisely that mutual electrical influence.",
+          "misconception": "claim contradicted"
+        },
+        {
+          "key": "C",
+          "text": "The cation attracts electrons from the anion",
+          "correct": true,
+          "explanation": "The positive ion distorts the negative ion's electron density toward itself.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "The anion attracts electrons from the cation",
+          "correct": false,
+          "explanation": "The distortion runs the other way; anions are the polarised party.",
+          "misconception": "direction flipped"
+        }
+      ]
+    },
+    {
+      "id": "rn_QD3SvqYYYZmWk2Qx::L1::Q4",
+      "moduleId": "rn_QD3SvqYYYZmWk2Qx::L1",
+      "stem": "What is the electron-level signature of covalent character creeping into an ionic bond?",
+      "misconceptionClass": "covalent character signature",
+      "options": [
+        {
+          "key": "A",
+          "text": "The ions grow perfectly spherical",
+          "correct": false,
+          "explanation": "Spherical ions are the pure ionic picture, not the covalent contamination.",
+          "misconception": "ideal misattributed"
+        },
+        {
+          "key": "B",
+          "text": "The ionic charges become fractional in the model",
+          "correct": false,
+          "explanation": "The model keeps whole charges; reality deforms density instead.",
+          "misconception": "charges misstated"
+        },
+        {
+          "key": "C",
+          "text": "The electrons transfer completely to the cation",
+          "correct": false,
+          "explanation": "Full transfer is the ionic ideal, not partial sharing.",
+          "misconception": "direction wrong"
+        },
+        {
+          "key": "D",
+          "text": "The anion's electron density is distorted toward the region between the ions",
+          "correct": true,
+          "explanation": "Shared-ish density between the nuclei is the covalent hallmark.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_QD3SvqYYYZmWk2Qx::L1::Q5",
+      "moduleId": "rn_QD3SvqYYYZmWk2Qx::L1",
+      "stem": "A compound shows a measured lattice energy noticeably below its theoretical value. The best explanation is",
+      "misconceptionClass": "lattice energy shortfall",
+      "options": [
+        {
+          "key": "A",
+          "text": "significant polarisation of the anion has introduced covalent character",
+          "correct": true,
+          "explanation": "Distorted, partly shared density releases extra stabilisation the ionic model cannot price.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "the crystal contains defects",
+          "correct": false,
+          "explanation": "Defects are a different story; the model gap here points at bonding character.",
+          "misconception": "cause misattributed"
+        },
+        {
+          "key": "C",
+          "text": "the ions are perfectly spherical",
+          "correct": false,
+          "explanation": "Perfect spheres would close the gap, not open it.",
+          "misconception": "ideal misattributed"
+        },
+        {
+          "key": "D",
+          "text": "the compound is fully ionic",
+          "correct": false,
+          "explanation": "Full ionic character would match the theoretical value.",
+          "misconception": "claim contradicted"
+        }
+      ]
+    },
+    {
+      "id": "rn_QD3SvqYYYZmWk2Qx::L1::Q6",
+      "moduleId": "rn_QD3SvqYYYZmWk2Qx::L1",
+      "stem": "State the two assumptions of the perfect ionic model that polarisation breaks.",
+      "misconceptionClass": "model assumptions recall",
+      "kind": "recall",
+      "modelAnswer": "Ions are 100% spherical and the attractions between them are purely electrostatic.",
+      "keywords": [
+        "spherical",
+        "purely",
+        "electrostatic",
+        "assumptions"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_QD3SvqYYYZmWk2Qx::L1::Q7",
+      "moduleId": "rn_QD3SvqYYYZmWk2Qx::L1",
+      "stem": "Define polarisation of an anion.",
+      "misconceptionClass": "polarisation definition recall",
+      "kind": "recall",
+      "modelAnswer": "Polarisation is the distortion of an anion's electron density by the cation's attraction, which introduces covalent character into the ionic bond.",
+      "keywords": [
+        "distortion",
+        "electron density",
+        "cation",
+        "covalent"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_QD3SvqYYYZmWk2Qx::L1::Q8",
+      "moduleId": "rn_QD3SvqYYYZmWk2Qx::L1",
+      "stem": "Explain why anion polarisation pushes the measured lattice energy away from the theoretical prediction.",
+      "misconceptionClass": "polarisation energy shift",
+      "kind": "explain-why",
+      "modelAnswer": "The theoretical number prices purely electrostatic attraction between undistorted spheres; once the cation draws anion electron density inward, the bond carries partial covalent character and its true energy departs from the ionic-only calculation.",
+      "keywords": [
+        "electrostatic",
+        "distorted",
+        "covalent",
+        "calculation"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_QD3SvqYYYZmWk2Qx::L1::Q9",
+      "moduleId": "rn_QD3SvqYYYZmWk2Qx::L1",
+      "stem": "A compound of a small, doubly charged cation and a huge anion shows a large theoretical-to-measured lattice energy gap. Assemble the causal chain.",
+      "misconceptionClass": "causal chain application",
+      "kind": "application",
+      "modelAnswer": "The small, highly charged cation has strong polarising power, the huge anion is easily distorted, so substantial electron density shifts toward the cation, covalent character grows, and the measured lattice energy falls well below the perfect-ionic calculation.",
+      "keywords": [
+        "polarising power",
+        "distorted",
+        "covalent",
+        "measured"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_QD3SvqYYYZmWk2Qx::L2::Q1",
+      "moduleId": "rn_QD3SvqYYYZmWk2Qx::L2",
+      "stem": "Which quantity measures a cation's polarising ability?",
+      "misconceptionClass": "polarising power measure",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mass of the cation",
+          "correct": false,
+          "explanation": "Mass does not enter the electrostatic distortion.",
+          "misconception": "quantity irrelevant"
+        },
+        {
+          "key": "B",
+          "text": "Charge density - charge over surface area",
+          "correct": true,
+          "explanation": "Concentrated charge distorts anions hardest.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Total electron count",
+          "correct": false,
+          "explanation": "Electrons belong to the anion side of the story.",
+          "misconception": "side swapped"
+        },
+        {
+          "key": "D",
+          "text": "Nuclear neutron count",
+          "correct": false,
+          "explanation": "Neutrons carry no charge and no pull.",
+          "misconception": "quantity irrelevant"
+        }
+      ]
+    },
+    {
+      "id": "rn_QD3SvqYYYZmWk2Qx::L2::Q2",
+      "moduleId": "rn_QD3SvqYYYZmWk2Qx::L2",
+      "stem": "Why does K+ polarise less strongly than Li+?",
+      "misconceptionClass": "K vs Li comparison",
+      "options": [
+        {
+          "key": "A",
+          "text": "K+ has fewer protons entirely",
+          "correct": false,
+          "explanation": "Potassium has more protons; density still falls.",
+          "misconception": "count confused"
+        },
+        {
+          "key": "B",
+          "text": "Li+ is an anion",
+          "correct": false,
+          "explanation": "Lithium forms the cation here.",
+          "misconception": "species misnamed"
+        },
+        {
+          "key": "C",
+          "text": "K+ has a greater ionic radius, spreading the same charge over more area",
+          "correct": true,
+          "explanation": "Charge density falls as the ion swells.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "K+ carries a smaller charge",
+          "correct": false,
+          "explanation": "Both are 1+ ions; size is the difference.",
+          "misconception": "charge miscredited"
+        }
+      ]
+    },
+    {
+      "id": "rn_QD3SvqYYYZmWk2Qx::L2::Q3",
+      "moduleId": "rn_QD3SvqYYYZmWk2Qx::L2",
+      "stem": "Why does Mg2+ carry more polarising power than Na+?",
+      "misconceptionClass": "Mg vs Na comparison",
+      "options": [
+        {
+          "key": "A",
+          "text": "Its radius is far larger",
+          "correct": false,
+          "explanation": "Mg2+ is not larger; its charge is the argument.",
+          "misconception": "size miscredited"
+        },
+        {
+          "key": "B",
+          "text": "It has more neutrons",
+          "correct": false,
+          "explanation": "Neutrons play no role.",
+          "misconception": "quantity irrelevant"
+        },
+        {
+          "key": "C",
+          "text": "It is an anion with extra electrons",
+          "correct": false,
+          "explanation": "Mg2+ is the cation that lost electrons.",
+          "misconception": "species misnamed"
+        },
+        {
+          "key": "D",
+          "text": "Its charge is larger, doubling the density on a similar-sized ion",
+          "correct": true,
+          "explanation": "2+ against 1+ at comparable radius wins the density contest.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_QD3SvqYYYZmWk2Qx::L2::Q4",
+      "moduleId": "rn_QD3SvqYYYZmWk2Qx::L2",
+      "stem": "Which anion is the more polarisable, and why?",
+      "misconceptionClass": "anion polarisability",
+      "options": [
+        {
+          "key": "A",
+          "text": "Br- - its larger ionic radius makes its electron cloud easier to distort",
+          "correct": true,
+          "explanation": "Bigger clouds are more easily squashed.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Cl- - its smaller radius concentrates its electrons",
+          "correct": false,
+          "explanation": "Concentration aids resistance, not distortion.",
+          "misconception": "logic inverted"
+        },
+        {
+          "key": "C",
+          "text": "Br- - its charge is higher",
+          "correct": false,
+          "explanation": "Both carry a single negative charge.",
+          "misconception": "charge miscredited"
+        },
+        {
+          "key": "D",
+          "text": "Cl- - chlorine is heavier",
+          "correct": false,
+          "explanation": "Mass is not the mechanism; radius is.",
+          "misconception": "quantity miscredited"
+        }
+      ]
+    },
+    {
+      "id": "rn_QD3SvqYYYZmWk2Qx::L2::Q5",
+      "moduleId": "rn_QD3SvqYYYZmWk2Qx::L2",
+      "stem": "The greatest polarising power belongs to a cation that is",
+      "misconceptionClass": "max polarising cation",
+      "options": [
+        {
+          "key": "A",
+          "text": "large and singly charged",
+          "correct": false,
+          "explanation": "The weakest combination of the four.",
+          "misconception": "weakest mispicked"
+        },
+        {
+          "key": "B",
+          "text": "small and highly charged",
+          "correct": true,
+          "explanation": "Both properties concentrate charge density.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "large and highly charged",
+          "correct": false,
+          "explanation": "Size dilutes the density even at high charge.",
+          "misconception": "size wrong"
+        },
+        {
+          "key": "D",
+          "text": "small but singly charged",
+          "correct": false,
+          "explanation": "Low charge caps the density however small the ion.",
+          "misconception": "charge capped"
+        }
+      ]
+    },
+    {
+      "id": "rn_QD3SvqYYYZmWk2Qx::L2::Q6",
+      "moduleId": "rn_QD3SvqYYYZmWk2Qx::L2",
+      "stem": "State how charge density is calculated for a cation.",
+      "misconceptionClass": "charge density recall",
+      "kind": "recall",
+      "modelAnswer": "Charge density is the charge of the cation divided by its surface area.",
+      "keywords": [
+        "charge",
+        "divided",
+        "surface area"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_QD3SvqYYYZmWk2Qx::L2::Q7",
+      "moduleId": "rn_QD3SvqYYYZmWk2Qx::L2",
+      "stem": "State the relative polarisability of Br- and Cl- with the reason.",
+      "misconceptionClass": "Br Cl polarisability recall",
+      "kind": "recall",
+      "modelAnswer": "Br- is more polarisable than Cl- because its ionic radius is larger, so its electron cloud distorts more easily.",
+      "keywords": [
+        "Br-",
+        "Cl-",
+        "larger",
+        "distorts"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_QD3SvqYYYZmWk2Qx::L2::Q8",
+      "moduleId": "rn_QD3SvqYYYZmWk2Qx::L2",
+      "stem": "Explain why small, highly charged cations dominate the polarising-power ranking.",
+      "misconceptionClass": "small charged dominance",
+      "kind": "explain-why",
+      "modelAnswer": "Charge density - charge per unit surface area - is the measure of the cation's field at the anion; shrinking the radius or multiplying the charge concentrates that field, and the two effects compound in the same direction.",
+      "keywords": [
+        "charge density",
+        "radius",
+        "charge",
+        "compound"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_QD3SvqYYYZmWk2Qx::L2::Q9",
+      "moduleId": "rn_QD3SvqYYYZmWk2Qx::L2",
+      "stem": "Rank Li+, K+, Mg2+ and Ba2+ by polarising power and justify each step.",
+      "misconceptionClass": "polarising ranking application",
+      "kind": "application",
+      "modelAnswer": "Mg2+ and Li+ top the list for their high charge density - Mg2+ for its doubled charge, Li+ for its tiny radius; Na+ follows behind Mg2+ on charge; K+ and the even larger Ba2+ trail, their spread-out charge diluting the density.",
+      "keywords": [
+        "Mg2+",
+        "Li+",
+        "charge density",
+        "radius"
+      ],
+      "options": []
+    }
+  ]
+}
