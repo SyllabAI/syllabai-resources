@@ -1,0 +1,572 @@
+{
+ "format": "guided-lesson/0.8",
+ "noteRef": {
+  "noteId": "rn_bzggqrP8CF2WwQsn",
+  "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+  "topicTitle": "1. Structure, Bonding & Introduction to Organic Chemistry",
+  "subtopicTitle": "Calculations of Product",
+  "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/1-structure-bonding-and-introduction-to-organic-chemistry/1-2-amount-of-substance/1-2-4-calculations-of-product"
+ },
+ "specPoints": [
+  {
+   "code": "1.9",
+   "text": "be able to calculate percentage yields and percentage atom economies (by mass) in laboratory and industrial processes, using chemical equations and experimental results Atom economy = molar mass of the desired product × 100% sum of the molar masses of all products"
+  }
+ ],
+ "primer": {
+  "text": "Two scores grade a product: how much you got, and how well atoms were used. This note computes percentage yield against the theoretical ceiling from a reacting-mass calculation, then reads atom economy straight from the balanced equation - 100% for addition routes, 45.8% for the blast furnace.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "Percentage yield",
+   "sourceHeadings": [
+    "Percentage yield"
+   ],
+   "specRefs": [
+    "1.9"
+   ],
+   "opening": "Theory promises a maximum; the lab delivers less. This lesson defines percentage yield as actual over theoretical times 100, walks the copper displacement calculation, and explains the loss mechanisms and the over-100 anomaly.",
+   "keyPoints": [
+    "Percentage yield = (actual yield / theoretical yield) x 100.",
+    "The actual yield is measured experimentally; the theoretical yield comes from a reacting-mass calculation.",
+    "Yields fall below 100% through side reactions, incomplete reaction, and losses during separation.",
+    "6.5 g of zinc gives 6.4 g of copper theoretically; recovering 4.8 g is a 75% yield."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Compare what you actually got with what the equation promised, as a percentage.",
+     "analogy": "It is a school test score: your marks (actual) over the full marks (theoretical), times 100.",
+     "examPointer": "The theoretical yield always needs the mole ratio step - do not reuse the reactant mass."
+    },
+    "medium": {
+     "restatement": "The theoretical yield is the stoichiometric ceiling fixed by the limiting reactant; every side reaction, equilibrium shortfall and transfer loss shaves the measured mass below it.",
+     "analogy": "The equation draws the perfect-bake cake; the kitchen eats the difference - crumb loss, stuck batter, tasting spoon.",
+     "examPointer": "Above 100% means wet crystals, impurities, or a weighing error such as the filter paper included."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Which quotient defines percentage yield?",
+     "misconceptionClass": "yield definition",
+     "options": [
+      {
+       "key": "A",
+       "text": "(actual yield / theoretical yield) x 100",
+       "correct": true,
+       "explanation": "Experiment over equation, scaled to a percentage.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "(theoretical yield / actual yield) x 100",
+       "correct": false,
+       "explanation": "That inverts the ratio and overstates performance.",
+       "misconception": "fraction inverted"
+      },
+      {
+       "key": "C",
+       "text": "(actual yield / limiting mass) x 100",
+       "correct": false,
+       "explanation": "The denominator must be the predicted product mass.",
+       "misconception": "denominator misread"
+      },
+      {
+       "key": "D",
+       "text": "actual yield - theoretical yield",
+       "correct": false,
+       "explanation": "A difference is not a percentage.",
+       "misconception": "measure confused"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "6.5 g of zinc (Ar 65.4) displaces copper from excess CuSO4. What is the theoretical yield of copper (Ar 63.5)?",
+     "misconceptionClass": "theoretical yield compute",
+     "options": [
+      {
+       "key": "A",
+       "text": "6.4 g",
+       "correct": true,
+       "explanation": "n(Zn) = 6.5/65.4 = 0.0994 mol; 1:1 ratio; m = 0.0994 x 63.5 = 6.3 g, which the working rounds to 6.4 g with 63.55.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "4.8 g",
+       "correct": false,
+       "explanation": "That is the actual recovered mass in the worked example.",
+       "misconception": "actual mistaken"
+      },
+      {
+       "key": "C",
+       "text": "13.0 g",
+       "correct": false,
+       "explanation": "That doubles the ratio.",
+       "misconception": "ratio doubled"
+      },
+      {
+       "key": "D",
+       "text": "6.5 g",
+       "correct": false,
+       "explanation": "Mass does not transfer 1:1 across different Mr values.",
+       "misconception": "mass misconserved"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which factor does NOT push a yield below 100%?",
+     "misconceptionClass": "loss mechanisms",
+     "options": [
+      {
+       "key": "A",
+       "text": "Measuring the reactant mass twice",
+       "correct": true,
+       "explanation": "Reactant over-measurement does not explain product shortfall - wet crystals, side reactions and losses do.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The reaction not going to completion",
+       "correct": false,
+       "explanation": "An equilibrium shortfall caps the product.",
+       "misconception": "mechanism real"
+      },
+      {
+       "key": "C",
+       "text": "Other reactions running simultaneously",
+       "correct": false,
+       "explanation": "Side reactions divert reactant.",
+       "misconception": "mechanism real"
+      },
+      {
+       "key": "D",
+       "text": "Product lost during separation and purification",
+       "correct": false,
+       "explanation": "Filtering and transfers shed product.",
+       "misconception": "mechanism real"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "A crystallisation experiment reports a 104% yield. What is the most likely explanation?",
+     "misconceptionClass": "over-100 anomaly",
+     "options": [
+      {
+       "key": "A",
+       "text": "The crystals were weighed still damp, or impurities or the filter paper inflated the mass",
+       "correct": true,
+       "explanation": "Extra mass masquerades as extra product.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The reaction exceeded its theoretical limit",
+       "correct": false,
+       "explanation": "Conservation forbids that; the measurement is at fault.",
+       "misconception": "law violated claim"
+      },
+      {
+       "key": "C",
+       "text": "The Mr used was too large",
+       "correct": false,
+       "explanation": "A larger Mr would DEPRESS the theoretical yield, not raise the percentage.",
+       "misconception": "direction misread"
+      },
+      {
+       "key": "D",
+       "text": "The product was more pure than predicted",
+       "correct": false,
+       "explanation": "Purity cannot exceed the stoichiometric ceiling.",
+       "misconception": "logic invented"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why does the experiment add zinc to EXCESS copper(II) sulfate solution?",
+     "misconceptionClass": "excess rationale",
+     "options": [
+      {
+       "key": "A",
+       "text": "So that all the zinc reacts and the zinc alone fixes the theoretical yield",
+       "correct": true,
+       "explanation": "With sulfate in excess, zinc is limiting and maps 1:1 onto the copper prediction.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "To make the solution acidic",
+       "correct": false,
+       "explanation": "Excess sulfate has no such role here.",
+       "misconception": "role invented"
+      },
+      {
+       "key": "C",
+       "text": "To speed the reaction up",
+       "correct": false,
+       "explanation": "Concentration affects rate, but the excess serves the limiting analysis.",
+       "misconception": "rate misattributed"
+      },
+      {
+       "key": "D",
+       "text": "Because zinc is insoluble",
+       "correct": false,
+       "explanation": "Zinc's solubility is irrelevant to the excess choice.",
+       "misconception": "reason confused"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the percentage yield equation and the source of each input.",
+     "misconceptionClass": "yield equation recall",
+     "modelAnswer": "Percentage yield = (actual yield / theoretical yield) x 100; the actual yield is measured experimentally and the theoretical yield comes from a reacting-mass calculation.",
+     "keywords": [
+      "actual",
+      "theoretical",
+      "100",
+      "experimental"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the theoretical copper yield from 6.5 g of zinc in the displacement example.",
+     "misconceptionClass": "copper yield recall",
+     "modelAnswer": "0.0994 mol of zinc maps 1:1 to 0.0994 mol of copper, about 6.4 g at 63.55 g mol^-1.",
+     "keywords": [
+      "0.0994",
+      "1:1",
+      "6.4",
+      "copper"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why percentage yield can exceed 100% even though atoms are conserved.",
+     "misconceptionClass": "yield anomaly reason",
+     "modelAnswer": "The percentage compares a MEASURED mass against a calculated ceiling, and the measured mass counts everything on the balance - solvent still trapped in damp crystals, impurities co-crystallised, or the filter paper weighed in error - so the number can pass 100 without any atom being created.",
+     "keywords": [
+      "measured",
+      "damp",
+      "impurities",
+      "ceiling"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "In the zinc and copper(II) sulfate displacement, 6.5 g of zinc yields 4.8 g of copper recovered. Calculate the percentage yield.",
+     "misconceptionClass": "yield application",
+     "modelAnswer": "Theoretical copper = 0.0994 mol x 63.55 = 6.4 g (2 s.f.); percentage yield = 4.8 / 6.4 x 100 = 75%.",
+     "keywords": [
+      "6.4",
+      "4.8",
+      "75",
+      "percentage"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Atom economy",
+   "sourceHeadings": [
+    "Atom economy"
+   ],
+   "specRefs": [
+    "1.9"
+   ],
+   "opening": "Yield measures success; atom economy measures design. This lesson installs the atom economy equation from the balanced equation alone, contrasts addition (100%) with substitution routes, and computes the blast-furnace value.",
+   "keyPoints": [
+    "Atom economy = (Mr of desired product / total Mr of ALL reactants) x 100.",
+    "It is read straight from the balanced equation - no experimental data involved.",
+    "Addition reactions and single-product reactions run at 100% economy.",
+    "For Fe2O3 + 3CO -> 2Fe + 3CO2, the economy is 111.6 / 243.6 x 100 = 45.8%."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Work out what fraction of ALL the reactant mass ends up inside the product you actually want.",
+     "analogy": "Like asking what portion of every ingredient you bought ends up in the dish served, with the trimmings as waste.",
+     "examPointer": "Show the working even for the obvious 100% cases - examiners demand it."
+    },
+    "medium": {
+     "restatement": "The numerator collects the desired product's formula mass per equation unit; the denominator collects every reactant's mass, coefficients included, because their atoms must all go somewhere.",
+     "analogy": "It is a shipping efficiency: desired cargo over total freight, where unwanted by-products are the dead weight.",
+     "examPointer": "For Fe2O3 + 3CO -> 2Fe + 3CO2: (2 x 55.8) / (159.6 + 3 x 28.0) x 100 = 45.8%."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Which inputs does an atom economy calculation need?",
+     "misconceptionClass": "economy inputs",
+     "options": [
+      {
+       "key": "A",
+       "text": "The balanced equation and the Mr values of the desired product and all reactants",
+       "correct": true,
+       "explanation": "The calculation is purely stoichiometric.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The actual laboratory yield",
+       "correct": false,
+       "explanation": "That feeds percentage yield, not economy.",
+       "misconception": "metric confused"
+      },
+      {
+       "key": "C",
+       "text": "The reaction temperature",
+       "correct": false,
+       "explanation": "Conditions never enter the economy equation.",
+       "misconception": "input invented"
+      },
+      {
+       "key": "D",
+       "text": "The molar volumes of gaseous reactants",
+       "correct": false,
+       "explanation": "Volumes play no role here.",
+       "misconception": "input invented"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why does the hydration of ethene to ethanol run at 100% atom economy?",
+     "misconceptionClass": "addition economy",
+     "options": [
+      {
+       "key": "A",
+       "text": "Every atom of both reactants lands in the single product ethanol",
+       "correct": true,
+       "explanation": "C2H4 + H2O -> C2H5OH has no by-product, so nothing is wasted.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Because ethanol is a liquid",
+       "correct": false,
+       "explanation": "Physical state is irrelevant.",
+       "misconception": "property mislinked"
+      },
+      {
+       "key": "C",
+       "text": "Because the reaction is fast",
+       "correct": false,
+       "explanation": "Rate never enters the economy metric.",
+       "misconception": "metric confused"
+      },
+      {
+       "key": "D",
+       "text": "Because ethene is cheap",
+       "correct": false,
+       "explanation": "Cost is not atom economy.",
+       "misconception": "concept displaced"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Calculate the atom economy for iron as the desired product in Fe2O3 + 3CO -> 2Fe + 3CO2 (Mr: Fe 55.8, CO 28.0, Fe2O3 159.6).",
+     "misconceptionClass": "blast furnace economy",
+     "options": [
+      {
+       "key": "A",
+       "text": "45.8%",
+       "correct": true,
+       "explanation": "(2 x 55.8) / (159.6 + 84.0) x 100 = 111.6 / 243.6 x 100 = 45.8%.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "45.9%",
+       "correct": false,
+       "explanation": "The exact quotient is 45.81%, which rounds to 45.8%.",
+       "misconception": "rounding slip"
+      },
+      {
+       "key": "C",
+       "text": "70.0%",
+       "correct": false,
+       "explanation": "That used 159.6 alone as the denominator.",
+       "misconception": "denominator truncated"
+      },
+      {
+       "key": "D",
+       "text": "35.0%",
+       "correct": false,
+       "explanation": "The iron numerator was halved.",
+       "misconception": "numerator halved"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "In the substitution route C2H5Br + NaOH -> C2H5OH + NaBr, why is the atom economy below 100%?",
+     "misconceptionClass": "substitution economy",
+     "options": [
+      {
+       "key": "A",
+       "text": "The sodium and bromine atoms exit as the by-product NaBr instead of entering the ethanol",
+       "correct": true,
+       "explanation": "Every NaBr unit is reactant mass outside the desired product.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Because ethanol evaporates during the reaction",
+       "correct": false,
+       "explanation": "Volatility is not part of the metric.",
+       "misconception": "property mislinked"
+      },
+      {
+       "key": "C",
+       "text": "Because NaOH is a base, not a reactant",
+       "correct": false,
+       "explanation": "NaOH is a full reactant here.",
+       "misconception": "role denied"
+      },
+      {
+       "key": "D",
+       "text": "Because bromine is heavy",
+       "correct": false,
+       "explanation": "Heavy by-product atoms DO lower economy - but the reason is their exit, not their weight alone.",
+       "misconception": "reason muddled"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which statement about atom economy is correct?",
+     "misconceptionClass": "economy properties",
+     "options": [
+      {
+       "key": "A",
+       "text": "A single-product reaction always runs at 100% atom economy",
+       "correct": true,
+       "explanation": "With no by-product, every reactant atom lands in the product.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "A high yield guarantees a high atom economy",
+       "correct": false,
+       "explanation": "The two metrics are independent.",
+       "misconception": "metrics conflated"
+      },
+      {
+       "key": "C",
+       "text": "Atom economy requires experimental masses",
+       "correct": false,
+       "explanation": "It needs only the equation and Mr values.",
+       "misconception": "data misattributed"
+      },
+      {
+       "key": "D",
+       "text": "Atom economy applies only to industrial reactions",
+       "correct": false,
+       "explanation": "It applies to any balanced equation.",
+       "misconception": "scope narrowed"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the atom economy equation.",
+     "misconceptionClass": "economy recall",
+     "modelAnswer": "Atom economy = (molecular mass of the desired product / sum of molecular masses of ALL reactants) x 100.",
+     "keywords": [
+      "desired product",
+      "sum",
+      "reactants",
+      "100"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the atom economy of any addition reaction and justify it in one sentence.",
+     "misconceptionClass": "addition recall",
+     "modelAnswer": "100% - every atom of every reactant is incorporated into the single product, leaving no by-product.",
+     "keywords": [
+      "100",
+      "addition",
+      "single product",
+      "no by-product"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why atom economy can be calculated without any experiment.",
+     "misconceptionClass": "no experiment needed",
+     "modelAnswer": "The metric compares formula masses written into the balanced equation itself: the desired product's Mr over the reactants' combined Mr, both coefficients included; since the equation fixes where every atom can go, the efficiency of atom use is a bookkeeping property, not a measurement.",
+     "keywords": [
+      "formula masses",
+      "equation",
+      "bookkeeping",
+      "measurement"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "Compute the atom economy for iron production in the blast furnace, Fe2O3 + 3CO -> 2Fe + 3CO2, using Mr values Fe 55.8, CO 28.0 and Fe2O3 159.6, and show the working.",
+     "misconceptionClass": "economy application",
+     "modelAnswer": "Desired iron: 2 x 55.8 = 111.6; all reactants: 159.6 + (3 x 28.0) = 243.6; economy = 111.6 / 243.6 x 100 = 45.8% (3 s.f.).",
+     "keywords": [
+      "111.6",
+      "243.6",
+      "45.8",
+      "economy"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "percentage yield",
+    "definition": "Actual yield as a percentage of the theoretical yield predicted by the reacting-mass calculation.",
+    "firstLesson": 1
+   },
+   {
+    "term": "atom economy",
+    "definition": "The percentage of all reactant mass that ends up in the desired product, read from the balanced equation.",
+    "firstLesson": 2
+   }
+  ],
+  "workedExample": {
+   "prompt": "The blast furnace reduces iron(III) oxide with carbon monoxide: Fe2O3 + 3CO -> 2Fe + 3CO2. Calculate the atom economy for iron as the desired product. (Mr values: Fe 55.8, CO 28.0, Fe2O3 159.6)",
+   "steps": [
+    "Desired product mass per equation unit: 2 x 55.8 = 111.6.",
+    "Total reactant mass: 159.6 + (3 x 28.0) = 159.6 + 84.0 = 243.6.",
+    "Atom economy = (111.6 / 243.6) x 100 = 45.81%, quoted as 45.8%."
+   ],
+   "finalAnswer": "45.8% of the reactant mass ends up in metallic iron; the rest exits as carbon dioxide."
+  }
+ },
+ "figures": []
+}

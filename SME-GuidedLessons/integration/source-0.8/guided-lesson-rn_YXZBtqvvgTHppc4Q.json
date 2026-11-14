@@ -1,0 +1,619 @@
+{
+ "format": "guided-lesson/0.8",
+ "noteRef": {
+  "noteId": "rn_YXZBtqvvgTHppc4Q",
+  "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+  "topicTitle": "1. Structure, Bonding & Introduction to Organic Chemistry",
+  "subtopicTitle": "Shapes of Orbitals",
+  "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/1-structure-bonding-and-introduction-to-organic-chemistry/1-4-electrons-and-ions/1-4-3-shapes-of-orbitals"
+ },
+ "specPoints": [
+  {
+   "code": "2.12",
+   "text": "be able to describe the shapes of s and p orbitals"
+  },
+  {
+   "code": "2.13",
+   "text": "know that orbitals in sub-shells: i each take a single electron before pairing up ii pair up with two electrons of opposite spin"
+  }
+ ],
+ "primer": {
+  "text": "Electron homes have shapes and filling rules. This note draws the spherical s orbitals and perpendicular dumbbell p orbitals, sizes both by shell number, then applies Hund's rule and the Pauli exclusion principle to populate sub-shells singly with parallel spins before any pairing begins.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "Drawing s and p shapes",
+   "sourceHeadings": [
+    "s orbital shape",
+    "p orbital shape"
+   ],
+   "specRefs": [
+    "2.12"
+   ],
+   "opening": "Orbitals are probability maps, and the map has shapes: s orbitals are spheres, p orbitals are dumbbells on the axes. This lesson sizes and orients both, and fixes what d orbitals are NOT required to look like.",
+   "keyPoints": [
+    "s orbitals are spherical and grow larger with each successive shell.",
+    "p orbitals are dumbbell-shaped, in sets of three along x, y and z, mutually perpendicular.",
+    "Every shell from n = 2 upward carries three p orbitals; the first shell has none.",
+    "The d orbital shape is explicitly not required."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Draw s as a circle around the nucleus and p as two lobes pointing along an axis.",
+     "analogy": "An s orbital is a beach ball centred on the nucleus; a p orbital is two balloons tied at the nucleus, pointing one way.",
+     "examPointer": "Say 'dumbbell' and 'perpendicular' - the two keywords examiners scan for."
+    },
+    "medium": {
+     "restatement": "The shape encodes where the electron is likely to be found: s probability is angle-independent, while p probability splits into two lobes either side of a nodal plane at the nucleus, one set per axis.",
+     "analogy": "The s orbital is a fog cloud with no preferred direction; a p orbital is fog split into two lobes with a clear gap at the nucleus.",
+     "examPointer": "Lobes lengthen as n rises - mention size growth for both s and p when describing shell effects."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "What shape does an s orbital have?",
+     "misconceptionClass": "s shape",
+     "options": [
+      {
+       "key": "A",
+       "text": "Spherical",
+       "correct": true,
+       "explanation": "The s probability cloud is angle-independent: a sphere.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Dumbbell",
+       "correct": false,
+       "explanation": "That is the p orbital's shape.",
+       "misconception": "shape confused"
+      },
+      {
+       "key": "C",
+       "text": "Four-lobed clover",
+       "correct": false,
+       "explanation": "That describes d orbitals - and is not required.",
+       "misconception": "shape confused"
+      },
+      {
+       "key": "D",
+       "text": "Ring",
+       "correct": false,
+       "explanation": "No orbital is a ring.",
+       "misconception": "shape invented"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "How are the three p orbitals of a shell oriented?",
+     "misconceptionClass": "p orientation",
+     "options": [
+      {
+       "key": "A",
+       "text": "Along the x, y and z axes, perpendicular to one another",
+       "correct": true,
+       "explanation": "Each p orbital claims one axis.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "All three along the x axis",
+       "correct": false,
+       "explanation": "They would be degenerate AND identical, which is impossible.",
+       "misconception": "orientation wrong"
+      },
+      {
+       "key": "C",
+       "text": "Pointing at 45 degrees to each other",
+       "correct": false,
+       "explanation": "The angles are 90 degrees.",
+       "misconception": "angle wrong"
+      },
+      {
+       "key": "D",
+       "text": "Randomly oriented",
+       "correct": false,
+       "explanation": "The axes are fixed and orthogonal.",
+       "misconception": "orientation denied"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which shells contain p orbitals?",
+     "misconceptionClass": "p shells",
+     "options": [
+      {
+       "key": "A",
+       "text": "Every shell from n = 2 upward",
+       "correct": true,
+       "explanation": "The first shell is s-only.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Every shell including n = 1",
+       "correct": false,
+       "explanation": "The first shell has just 1s.",
+       "misconception": "shell miscounted"
+      },
+      {
+       "key": "C",
+       "text": "Only shells n = 3 and above",
+       "correct": false,
+       "explanation": "2p exists.",
+       "misconception": "shell miscounted"
+      },
+      {
+       "key": "D",
+       "text": "Only the outermost shell of each atom",
+       "correct": false,
+       "explanation": "Every filled shell from 2 up has its own p set.",
+       "misconception": "scope narrowed"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "How does the size of s orbitals change with shell number?",
+     "misconceptionClass": "s sizing",
+     "options": [
+      {
+       "key": "A",
+       "text": "They grow larger as n increases, so 3s is bigger than 1s",
+       "correct": true,
+       "explanation": "Higher shells sit farther out on average.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "They shrink with increasing n",
+       "correct": false,
+       "explanation": "The trend is growth.",
+       "misconception": "trend inverted"
+      },
+      {
+       "key": "C",
+       "text": "They stay identical across shells",
+       "correct": false,
+       "explanation": "Size tracks the shell.",
+       "misconception": "trend denied"
+      },
+      {
+       "key": "D",
+       "text": "Only p orbitals change size",
+       "correct": false,
+       "explanation": "Both s and p lobes lengthen.",
+       "misconception": "scope wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What must you know about the shapes of d orbitals?",
+     "misconceptionClass": "d requirement",
+     "options": [
+      {
+       "key": "A",
+       "text": "Nothing beyond their count and capacity - their shape is not required",
+       "correct": true,
+       "explanation": "The specification stops at s and p shapes.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "They are dumbbells like p",
+       "correct": false,
+       "explanation": "The d shape is out of scope.",
+       "misconception": "requirement invented"
+      },
+      {
+       "key": "C",
+       "text": "They are always spherical",
+       "correct": false,
+       "explanation": "Sphericity belongs to s.",
+       "misconception": "shape misattributed"
+      },
+      {
+       "key": "D",
+       "text": "They only exist in shells 1 and 2",
+       "correct": false,
+       "explanation": "d sub-shells start at n = 3.",
+       "misconception": "occupancy wrong"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Describe the shape and orientation of p orbitals.",
+     "misconceptionClass": "p description recall",
+     "modelAnswer": "Dumbbell-shaped, three per shell from n = 2 upward, pointing along the x, y and z axes at right angles to each other.",
+     "keywords": [
+      "dumbbell",
+      "three",
+      "axes",
+      "perpendicular"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the capacities of s and p sub-shells.",
+     "misconceptionClass": "capacity recall",
+     "modelAnswer": "An s sub-shell holds one orbital (2 electrons); a p sub-shell holds three orbitals (6 electrons).",
+     "keywords": [
+      "one orbital",
+      "2 electrons",
+      "three orbitals",
+      "6 electrons"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why the p orbital's shape shows a node at the nucleus.",
+     "misconceptionClass": "p node reason",
+     "modelAnswer": "The p probability distribution splits into two lobes on opposite sides of the nucleus with a plane of zero probability through it: the electron in a p orbital is found on either side, never ON the nodal plane at the centre, which is what the dumbbell drawing encodes.",
+     "keywords": [
+      "lobes",
+      "probability",
+      "plane",
+      "centre"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "Sketch-verbalise the difference between a 2p orbital and a 3p orbital.",
+     "misconceptionClass": "p comparison application",
+     "modelAnswer": "Both are dumbbells along one axis, but the 3p lobes are larger and longer, because the third shell's probability cloud extends farther from the nucleus.",
+     "keywords": [
+      "dumbbell",
+      "axis",
+      "larger",
+      "third shell"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Filling rules: Hund and Pauli",
+   "sourceHeadings": [
+    "Populating Orbitals"
+   ],
+   "specRefs": [
+    "2.13"
+   ],
+   "opening": "Two rules govern how electrons settle into orbitals: single occupancy first with parallel spins (Hund), then pairing with opposite spins inside full orbitals (Pauli). This lesson shows both in p-sub-shell diagrams and explains the energy logic behind them.",
+   "keyPoints": [
+    "Electrons occupy separate orbitals in a sub-shell singly before any pairing begins.",
+    "Paired electrons carry opposite spins, as the Pauli exclusion principle demands.",
+    "Spin-pair repulsion drives the single-first strategy.",
+    "A 2p electron's energy corresponds to its principal quantum number n = 2."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Fill empty boxes one electron each first, arrows same way; only then double up, arrows opposing.",
+     "analogy": "Bus seating: passengers take empty seats first and sit in the same direction; only a full bus forces sharing - and co-riders face opposite ways.",
+     "examPointer": "Arrows up/down in box diagrams ARE the spin notation - keep them consistent."
+    },
+    "medium": {
+     "restatement": "Hund's rule minimises repulsion by maximising single occupancy with parallel spins; Pauli's principle forbids two identical electrons, forcing opposite spins once an orbital must be shared, because the extra pairing energy is still cheaper than climbing to the next empty orbital.",
+     "analogy": "Room-mate economics: nobody doubles up while single rooms remain; when a room must be shared, the two occupants settle into opposite routines.",
+     "examPointer": "Three electrons in a p sub-shell: one in each of px, py, pz - the diagram shows three up-arrows, no pairs."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Three electrons enter a p sub-shell. Where do they go?",
+     "misconceptionClass": "three electron placement",
+     "options": [
+      {
+       "key": "A",
+       "text": "One each into px, py and pz, all with parallel spins",
+       "correct": true,
+       "explanation": "Hund's rule: single occupancy first.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Two paired in px, one in py",
+       "correct": false,
+       "explanation": "Pairing must wait until every orbital has one.",
+       "misconception": "pairing premature"
+      },
+      {
+       "key": "C",
+       "text": "All three in px",
+       "correct": false,
+       "explanation": "An orbital holds two electrons at most.",
+       "misconception": "capacity breached"
+      },
+      {
+       "key": "D",
+       "text": "One in px, two split between py and pz with random spins",
+       "correct": false,
+       "explanation": "Spins stay parallel while single.",
+       "misconception": "spin misdrawn"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What does the Pauli exclusion principle state?",
+     "misconceptionClass": "Pauli statement",
+     "options": [
+      {
+       "key": "A",
+       "text": "An orbital holds at most two electrons, and they must have opposite spins",
+       "correct": true,
+       "explanation": "The two-rule capacity and spin condition.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Electrons never share orbitals",
+       "correct": false,
+       "explanation": "They share, under spin conditions.",
+       "misconception": "sharing denied"
+      },
+      {
+       "key": "C",
+       "text": "Electrons always spin in the same direction",
+       "correct": false,
+       "explanation": "Pairs run opposite.",
+       "misconception": "spin misstated"
+      },
+      {
+       "key": "D",
+       "text": "Each sub-shell fills completely before the next",
+       "correct": false,
+       "explanation": "That is the filling order, not Pauli.",
+       "misconception": "rule confused"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why do electrons single-occupy before pairing, given that they repel each other anyway?",
+     "misconceptionClass": "single-first logic",
+     "options": [
+      {
+       "key": "A",
+       "text": "Because the energy cost of climbing to the next empty orbital is greater than the repulsion of sharing later",
+       "correct": true,
+       "explanation": "Pairing is deferred while cheaper single slots exist.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Because paired electrons cancel charges",
+       "correct": false,
+       "explanation": "Charges never cancel between electrons.",
+       "misconception": "physics misstated"
+      },
+      {
+       "key": "C",
+       "text": "Because orbitals repel electrons",
+       "correct": false,
+       "explanation": "Orbitals are regions, not actors.",
+       "misconception": "agency misattributed"
+      },
+      {
+       "key": "D",
+       "text": "Because Hund's rule is arbitrary",
+       "correct": false,
+       "explanation": "It follows from energy minimisation.",
+       "misconception": "rule arbitrary claim"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "When a fourth electron enters a p sub-shell, what happens?",
+     "misconceptionClass": "fourth electron placement",
+     "options": [
+      {
+       "key": "A",
+       "text": "It pairs in one of the p orbitals with opposite spin, leaving two singles",
+       "correct": true,
+       "explanation": "The first three took the empty orbitals; the fourth doubles one.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "It starts a new shell",
+       "correct": false,
+       "explanation": "The sub-shell has room for six.",
+       "misconception": "placement wrong"
+      },
+      {
+       "key": "C",
+       "text": "It enters the s orbital of the same shell",
+       "correct": false,
+       "explanation": "Sub-shell filling completes first.",
+       "misconception": "placement wrong"
+      },
+      {
+       "key": "D",
+       "text": "It cannot enter - p is full",
+       "correct": false,
+       "explanation": "p holds six electrons.",
+       "misconception": "capacity misread"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Electrons with the same spin repel. What is this called and what does it drive?",
+     "misconceptionClass": "repulsion naming",
+     "options": [
+      {
+       "key": "A",
+       "text": "Spin-pair repulsion, driving single occupancy before pairing",
+       "correct": true,
+       "explanation": "The repulsion pushes electrons apart into empty orbitals.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Electron affinity, driving pairing",
+       "correct": false,
+       "explanation": "Affinity is an attraction concept.",
+       "misconception": "term confused"
+      },
+      {
+       "key": "C",
+       "text": "Pauli exclusion, forbidding same-spin pairs",
+       "correct": false,
+       "explanation": "Pauli forbids identical quantum states.",
+       "misconception": "rule confused"
+      },
+      {
+       "key": "D",
+       "text": "Shielding, weakening nuclear pull",
+       "correct": false,
+       "explanation": "Shielding is a nuclear-attraction effect.",
+       "misconception": "term confused"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State Hund's rule in one sentence.",
+     "misconceptionClass": "Hund recall",
+     "modelAnswer": "Within a sub-shell, electrons occupy separate orbitals singly, with parallel spins, before any orbital is paired.",
+     "keywords": [
+      "separate orbitals",
+      "singly",
+      "parallel",
+      "pairing"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the Pauli exclusion principle in one sentence.",
+     "misconceptionClass": "Pauli recall",
+     "modelAnswer": "An atomic orbital can hold at most two electrons, and they must have opposite spins.",
+     "keywords": [
+      "two electrons",
+      "orbital",
+      "opposite",
+      "spins"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why the spin direction is represented by arrows in box notation and why paired arrows must point oppositely.",
+     "misconceptionClass": "arrow semantics",
+     "modelAnswer": "Electron spin behaves like rotation about its own axis, creating a tiny magnetic moment; box diagrams draw that moment as an arrow, and two electrons sharing one orbital must differ in spin direction, so their arrows run up and down rather than both the same way.",
+     "keywords": [
+      "spin",
+      "magnetic",
+      "arrow",
+      "opposite"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "Draw-verbalise the box diagram for four electrons in a 2p sub-shell, naming the rule each step obeys.",
+     "misconceptionClass": "box diagram application",
+     "modelAnswer": "First three: single arrows up in px, py, pz (Hund's rule). Fourth: pairs into px with a down-arrow, opposite spin (Pauli exclusion principle), leaving py and pz singly occupied.",
+     "keywords": [
+      "px",
+      "Hund",
+      "down-arrow",
+      "Pauli"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "orbital",
+    "definition": "A region of space around the nucleus where an electron is likely to be found; each holds at most two electrons of opposite spin.",
+    "firstLesson": 1
+   },
+   {
+    "term": "Hund's rule",
+    "definition": "Electrons fill a sub-shell's orbitals singly with parallel spins before pairing begins.",
+    "firstLesson": 2
+   },
+   {
+    "term": "Pauli exclusion principle",
+    "definition": "No orbital may hold two electrons with the same spin; paired electrons run opposite.",
+    "firstLesson": 2
+   }
+  ],
+  "workedExample": null
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/f8d25a4b8db6-1-1-atomic-structure-orbitals.png",
+   "alt": "Atomic Structure Orbitals, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "p orbital shape",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "Representation of orbitals (the dot represents the nucleus of the atom) showing spherical s orbitals (a), p orbitals containing 'lobes' along the x, y and z axis"
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/1ac94d4c10b9-1-1-atomic-structure-summary.png",
+   "alt": "Atomic Structure Summary, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "p orbital shape",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "An overview of the shells, subshells and orbitals in an atom"
+  },
+  {
+   "id": "fig-03",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/267bb7851223-1-1-atomic-structure-electron-spin.png",
+   "alt": "Atomic Structure Electron Spin, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Populating Orbitals",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "Electrons can spin either in a clockwise or anticlockwise direction around their own axis"
+  },
+  {
+   "id": "fig-04",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/a822cad350ef-1-1-atomic-structure-electron-configuration-1.png",
+   "alt": "Atomic Structure Electron Configuration 1, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Populating Orbitals",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "Electron configuration: three electrons in a p subshell"
+  }
+ ]
+}

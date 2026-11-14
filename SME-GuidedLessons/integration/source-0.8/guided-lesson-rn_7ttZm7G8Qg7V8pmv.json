@@ -1,0 +1,606 @@
+{
+ "format": "guided-lesson/0.8",
+ "noteRef": {
+  "noteId": "rn_7ttZm7G8Qg7V8pmv",
+  "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+  "topicTitle": "1. Structure, Bonding & Introduction to Organic Chemistry",
+  "subtopicTitle": "Electronic Structures",
+  "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/1-structure-bonding-and-introduction-to-organic-chemistry/1-4-electrons-and-ions/1-4-2-electronic-structures"
+ },
+ "specPoints": [
+  {
+   "code": "2.11",
+   "text": "know that ideas about electronic structure developed from: i an understanding that successive ionisation energies provide evidence for the existence of quantum shells and the group to which the element belongs ii an understanding that the first ionisation energy of successive elements provides evidence for electron sub-shells"
+  }
+ ],
+ "primer": {
+  "text": "Successive ionisation energies interrogate the atom, and the atom answers in jumps. This note reads calcium's ladder as evidence for quantum shells, then applies the jump calendar to sodium, magnesium and aluminium - the position of each giant leap exposing the outer-shell count and so the group.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "Calcium's ladder of evidence",
+   "sourceHeadings": [
+    "Ionisation Energies of Calcium Table"
+   ],
+   "specRefs": [
+    "2.11"
+   ],
+   "opening": "Successive ionisation energies are the atom's confession: where the big jumps fall, shells are exposed. This lesson reads calcium's first four ionisation energies as evidence for quantum shells and outer-shell electron counts.",
+   "keyPoints": [
+    "Successive ionisation data predicts electronic configuration, outer-shell count and the group an element belongs to.",
+    "Calcium's first electron leaves easily from the 4s pair, helped by spin-pair repulsion.",
+    "The third electron comes from the 3p shell nearer the nucleus - a much bigger bill.",
+    "Large jumps between successive IEs mark shell changes; small jumps mark sub-shell changes."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Look for the giant leap in the IE sequence - it marks the boundary between one shell and the next.",
+     "analogy": "It is like climbing stairs with a few cliffs: small rises are ordinary steps, cliffs are floors.",
+     "examPointer": "The jump position gives the outer-electron count, and that count gives the group."
+    },
+    "medium": {
+     "restatement": "Each successive ionisation removes an electron from an increasingly positive ion, so a smooth rise is expected; the signature is the discontinuity, whose position reveals how many electrons occupied the outer shell before the plunge inward.",
+     "analogy": "Peeling layers off a golf ball: the rubber layers come off with moderate effort, then the hard core stops the knife - the effort spike localises the core.",
+     "examPointer": "For calcium: IE1 low (4s pair repulsion), IE2 higher (no pair), IE3 a leap (3p is deeper) - the pattern reads 4s2 outer shell, group 2."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Why is calcium's first ionisation energy relatively low?",
+     "misconceptionClass": "calcium IE1 low",
+     "options": [
+      {
+       "key": "A",
+       "text": "The 4s electron is paired, and spin-pair repulsion helps eject it",
+       "correct": true,
+       "explanation": "The paired 4s electrons repel, easing the first removal.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Because calcium's nucleus is small",
+       "correct": false,
+       "explanation": "Its pull is strong; the ease comes from pairing and distance.",
+       "misconception": "reason misattributed"
+      },
+      {
+       "key": "C",
+       "text": "Because calcium is a gas",
+       "correct": false,
+       "explanation": "State is definitional, not causal.",
+       "misconception": "state misattributed"
+      },
+      {
+       "key": "D",
+       "text": "Because 4s electrons carry no charge",
+       "correct": false,
+       "explanation": "They are ordinary electrons.",
+       "misconception": "property invented"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What does the big jump from IE2 to IE3 in calcium evidence?",
+     "misconceptionClass": "calcium jump meaning",
+     "options": [
+      {
+       "key": "A",
+       "text": "The third electron is being pulled from an inner quantum shell (3p), closer to the nucleus",
+       "correct": true,
+       "explanation": "The shell boundary is exposed.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "That calcium has only two electrons",
+       "correct": false,
+       "explanation": "It has twenty; the jump localises the shell boundary.",
+       "misconception": "count misread"
+      },
+      {
+       "key": "C",
+       "text": "That the atom has become radioactive",
+       "correct": false,
+       "explanation": "Nothing nuclear occurs.",
+       "misconception": "mechanism invented"
+      },
+      {
+       "key": "D",
+       "text": "That the second electron was unpaired",
+       "correct": false,
+       "explanation": "Pairing is an IE1-vs-IE2 comparison.",
+       "misconception": "factor misplaced"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Successive ionisation energies increase for EVERY electron removed. What causes that baseline rise?",
+     "misconceptionClass": "baseline rise",
+     "options": [
+      {
+       "key": "A",
+       "text": "Each removal leaves a more positive ion attracting fewer electrons",
+       "correct": true,
+       "explanation": "The residual electrons feel a stronger effective pull.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The nucleus gains protons during the process",
+       "correct": false,
+       "explanation": "The nucleus is untouched.",
+       "misconception": "nucleus changed claim"
+      },
+      {
+       "key": "C",
+       "text": "Electrons get heavier when ionised",
+       "correct": false,
+       "explanation": "Electron properties are fixed.",
+       "misconception": "property invented"
+      },
+      {
+       "key": "D",
+       "text": "The shells expand outward",
+       "correct": false,
+       "explanation": "The electron removed comes from deeper, not the shell growing.",
+       "misconception": "geometry reversed"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "How can successive ionisation data confirm the GROUP of an element?",
+     "misconceptionClass": "group from jump",
+     "options": [
+      {
+       "key": "A",
+       "text": "The number of electrons removed before the first big jump equals the outer-shell count, which fixes the group",
+       "correct": true,
+       "explanation": "Outer-shell occupancy IS the group.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "By reading the largest IE value directly",
+       "correct": false,
+       "explanation": "The absolute size does not encode the group.",
+       "misconception": "value misread"
+      },
+      {
+       "key": "C",
+       "text": "By counting the total electrons removed",
+       "correct": false,
+       "explanation": "The full count gives the atomic number, not the group.",
+       "misconception": "count misattributed"
+      },
+      {
+       "key": "D",
+       "text": "Groups cannot be deduced this way",
+       "correct": false,
+       "explanation": "They can - it is the standard deduction.",
+       "misconception": "technique denied"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "In calcium's sequence, the fourth ionisation energy is EASIER than the third relative to trend. Why?",
+     "misconceptionClass": "IE4 nuance",
+     "options": [
+      {
+       "key": "A",
+       "text": "The 3p orbital was full at IE3, so its pair's spin-pair repulsion eases IE4's removal",
+       "correct": true,
+       "explanation": "After the third removal, the remaining 3p electron is unpaired.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Because the nucleus weakened",
+       "correct": false,
+       "explanation": "The ion keeps getting more positive.",
+       "misconception": "claim false"
+      },
+      {
+       "key": "C",
+       "text": "Because the electron escaped to a higher shell",
+       "correct": false,
+       "explanation": "Removal moves inward only.",
+       "misconception": "geometry reversed"
+      },
+      {
+       "key": "D",
+       "text": "It is not easier - IE4 is larger than IE3",
+       "correct": false,
+       "explanation": "IE4 is larger in absolute terms, but the trend explanation still cites pairing.",
+       "misconception": "claim muddled"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State what successive ionisation energies can be used to predict or confirm.",
+     "misconceptionClass": "uses recall",
+     "modelAnswer": "The electronic configuration, the count of electrons in the outermost shell, and the group an element occupies in the Periodic Table.",
+     "keywords": [
+      "configuration",
+      "outermost",
+      "group",
+      "confirm"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Describe the difference between the big jumps and the small jumps in a successive-IE plot.",
+     "misconceptionClass": "jump semantics recall",
+     "modelAnswer": "Big jumps mark a change of principal quantum shell; small jumps mark a change of sub-shell within the same shell.",
+     "keywords": [
+      "big jumps",
+      "shell",
+      "small jumps",
+      "sub-shell"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why ionisation energies provide evidence that quantum shells exist.",
+     "misconceptionClass": "shell evidence",
+     "modelAnswer": "If electrons sat in a uniform smear of energy, successive IEs would rise smoothly; instead the data show plateaus and cliffs at fixed electron counts, which only a layered shell structure - electrons grouped at distinct energy levels - explains.",
+     "keywords": [
+      "smoothly",
+      "cliffs",
+      "layered",
+      "levels"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "Calcium's first two electrons leave the 4s sub-shell easily while the third costs far more. State the electronic-configuration conclusion and the group this fixes.",
+     "misconceptionClass": "calcium conclusion application",
+     "modelAnswer": "The pattern reveals an outer shell of two (4s2) over a filled inner core [Ar], fixing calcium's configuration as 1s2 2s2 2p6 3s2 3p6 4s2 and placing the element in group 2.",
+     "keywords": [
+      "4s2",
+      "outer",
+      "group 2",
+      "configuration"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Na, Mg, Al: the jump calendar",
+   "sourceHeadings": [
+    "Successive Ionisation Energies Table"
+   ],
+   "specRefs": [
+    "2.11"
+   ],
+   "opening": "Sodium, magnesium and aluminium make the jump-calendar method routine: one jump means group 1, two mean group 2, three mean group 3. This lesson walks each element's jump position to its configuration.",
+   "keyPoints": [
+    "Sodium's huge IE1-to-IE2 jump exposes one outer electron: group 1, ending in 3s1.",
+    "Magnesium's jump between IE2 and IE3 exposes two outer electrons: group 2, ending in 3s2.",
+    "Aluminium's jump between IE3 and IE4 exposes three: group 3, ending in 3s2 3p1.",
+    "The jump marks the fall from the third shell into the full, tightly-held second shell."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Count how many easy removals happen before the giant leap - that count is the group number.",
+     "analogy": "It is a bus ride: flat fares for the outer seats, then a steep surcharge the moment you enter the reserved carriage.",
+     "examPointer": "Name WHERE the jump falls (after which IE) - that is the deduction examiners mark."
+    },
+    "medium": {
+     "restatement": "The jump calendar works because the first shell-change lands exactly after the outer sub-shell empties; the post-jump electrons come from the full 2p level whose shorter radius and higher effective charge raise the bill sharply.",
+     "analogy": "Emptying a house: rooms on the ground floor empty cheaply; the attic and the safe downstairs are a different ordeal.",
+     "examPointer": "For the unknown element with 899, 1757, 14850, 21005: the cliff sits between IE2 and IE3, so two outer electrons - group 2."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Sodium's successive IEs show a huge jump between IE1 and IE2. What does that reveal?",
+     "misconceptionClass": "sodium jump",
+     "options": [
+      {
+       "key": "A",
+       "text": "Sodium has one outer electron, so it belongs to group 1",
+       "correct": true,
+       "explanation": "The jump after the first removal exposes a filled inner shell.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Sodium has two outer electrons",
+       "correct": false,
+       "explanation": "That is magnesium's pattern.",
+       "misconception": "element mixed"
+      },
+      {
+       "key": "C",
+       "text": "Sodium's electrons all sit in one shell",
+       "correct": false,
+       "explanation": "The jump proves the opposite.",
+       "misconception": "structure misread"
+      },
+      {
+       "key": "D",
+       "text": "Nothing - jumps are random",
+       "correct": false,
+       "explanation": "The positions are systematic evidence.",
+       "misconception": "evidence denied"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Whose successive ionisation energies place their giant jump between IE3 and IE4, exposing three outer electrons?",
+     "misconceptionClass": "jump position element",
+     "options": [
+      {
+       "key": "A",
+       "text": "Aluminium, whose outer shell holds 3s2 3p1",
+       "correct": true,
+       "explanation": "Three easy removals, then the core resists.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Sodium",
+       "correct": false,
+       "explanation": "Its jump is after IE1.",
+       "misconception": "element mixed"
+      },
+      {
+       "key": "C",
+       "text": "Magnesium",
+       "correct": false,
+       "explanation": "Its jump is after IE2.",
+       "misconception": "element mixed"
+      },
+      {
+       "key": "D",
+       "text": "Helium",
+       "correct": false,
+       "explanation": "Helium's jump is after IE1 with a 1s2 pair.",
+       "misconception": "element mixed"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Magnesium's configuration deduced from its successive IEs ends how?",
+     "misconceptionClass": "magnesium configuration",
+     "options": [
+      {
+       "key": "A",
+       "text": "1s2 2s2 2p6 3s2",
+       "correct": true,
+       "explanation": "Two outer electrons in the third shell, group 2.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "1s2 2s2 2p6 3s1",
+       "correct": false,
+       "explanation": "That is sodium's ending.",
+       "misconception": "element mixed"
+      },
+      {
+       "key": "C",
+       "text": "1s2 2s2 2p6 3s2 3p1",
+       "correct": false,
+       "explanation": "That is aluminium's ending.",
+       "misconception": "element mixed"
+      },
+      {
+       "key": "D",
+       "text": "1s2 2s2 2p6 3p2",
+       "correct": false,
+       "explanation": "3s fills before 3p.",
+       "misconception": "fill order wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "An unknown element's IEs run 899, 1757, 14850, 21005 kJ mol^-1. Which group fits?",
+     "misconceptionClass": "unknown group deduction",
+     "options": [
+      {
+       "key": "A",
+       "text": "Group 2 - the cliff sits between IE2 and IE3, so two outer electrons",
+       "correct": true,
+       "explanation": "IE2 to IE3 is a factor near 8.4; the outer pair is exposed.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Group 1 - the jump follows IE1",
+       "correct": false,
+       "explanation": "IE1 to IE2 is only about 1.95x, no cliff.",
+       "misconception": "jump misplaced"
+      },
+      {
+       "key": "C",
+       "text": "Group 3",
+       "correct": false,
+       "explanation": "A group 3 cliff would follow IE3.",
+       "misconception": "jump misplaced"
+      },
+      {
+       "key": "D",
+       "text": "Group 0",
+       "correct": false,
+       "explanation": "A noble gas shows no such low IE2.",
+       "misconception": "group misassigned"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why is the electron after the jump so much harder to remove?",
+     "misconceptionClass": "post-jump difficulty",
+     "options": [
+      {
+       "key": "A",
+       "text": "It comes from a shell closer to the nucleus, feeling greater effective nuclear charge",
+       "correct": true,
+       "explanation": "The full inner shell also shields it less effectively for itself.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Because the ion has become neutral",
+       "correct": false,
+       "explanation": "The ion grows MORE positive.",
+       "misconception": "charge claim false"
+      },
+      {
+       "key": "C",
+       "text": "Because electrons pair up more",
+       "correct": false,
+       "explanation": "Pairing eases removal; it does not harden it.",
+       "misconception": "factor reversed"
+      },
+      {
+       "key": "D",
+       "text": "Because the atom expands",
+       "correct": false,
+       "explanation": "The relevant radius shrinks inward.",
+       "misconception": "geometry reversed"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the jump positions that identify group 1, group 2 and group 3 elements.",
+     "misconceptionClass": "jump calendar recall",
+     "modelAnswer": "Group 1: jump between IE1 and IE2. Group 2: between IE2 and IE3. Group 3: between IE3 and IE4.",
+     "keywords": [
+      "IE1",
+      "IE2",
+      "IE3",
+      "jump"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the configuration sodium's successive-IE pattern deduces.",
+     "misconceptionClass": "sodium configuration recall",
+     "modelAnswer": "1s2 2s2 2p6 3s1 - one outer electron over a neon core, the group 1 signature.",
+     "keywords": [
+      "1s2",
+      "2p6",
+      "3s1",
+      "group 1"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why the small jumps within a shell (for example between IE2 and IE3 in oxygen) are informative too.",
+     "misconceptionClass": "small jump value",
+     "modelAnswer": "Within one shell, small jumps mark sub-shell boundaries: removing from a deeper sub-shell or breaking into a new pairing costs a little more, so the fine structure of the plot maps the s-p-d filling order inside each shell.",
+     "keywords": [
+      "sub-shell",
+      "pairing",
+      "fine structure",
+      "filling"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "An element in period 2 shows its largest jump between IE6 and IE7. Deduce its group and identity.",
+     "misconceptionClass": "period 2 deduction application",
+     "modelAnswer": "Six easy removals before the cliff means six outer electrons - group 6; in period 2 that identifies oxygen, matching its successive-IE table.",
+     "keywords": [
+      "IE6",
+      "IE7",
+      "group 6",
+      "oxygen"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "successive ionisation energies",
+    "definition": "The ordered sequence IE1, IE2, IE3... of energies for removing each next electron from an atom.",
+    "firstLesson": 1
+   },
+   {
+    "term": "quantum shell",
+    "definition": "A principal energy level (n) whose boundary is exposed by the big jumps in successive ionisation data.",
+    "firstLesson": 1
+   }
+  ],
+  "workedExample": null
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/2feb97e29567-3-1-3-ionization-energies-trends-first-four-ioni.png",
+   "alt": "Ionization Energies_ Trends first four ionization energies of calcium table, downloadable IB Chemistry revision notes",
+   "sourceHeading": "Ionisation Energies of Calcium Table",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique"
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/61af1bb508bd-successive-ionisation-energies-of-calcium.png",
+   "alt": "Successive Ionisation Energies of Calcium, downloadable IB Chemistry revision notes",
+   "sourceHeading": "Ionisation Energies of Calcium Table",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "Successive ionisation energies for the element calcium"
+  },
+  {
+   "id": "fig-03",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/fbfd74d7121e-ionisation-energies-of-na-mg-and-al.png",
+   "alt": "Ionisation Energies of Na, Mg and Al, downloadable IB Chemistry revision notes",
+   "sourceHeading": "Successive Ionisation Energies Table",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique"
+  },
+  {
+   "id": "fig-04",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/b3f1f54edb80-successive-ionisation-energies-of-oxygen.png",
+   "alt": "Successive Ionisation Energies of Oxygen, downloadable IB Chemistry revision notes",
+   "sourceHeading": "Successive Ionisation Energies Table",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique"
+  }
+ ]
+}

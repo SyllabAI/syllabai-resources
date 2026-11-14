@@ -1,0 +1,930 @@
+{
+ "format": "guided-lesson/0.8",
+ "noteRef": {
+  "noteId": "rn_dBkZMnT5gts475yh",
+  "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+  "topicTitle": "1. Structure, Bonding & Introduction to Organic Chemistry",
+  "subtopicTitle": "Isotopes & Mass Spectra",
+  "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/1-structure-bonding-and-introduction-to-organic-chemistry/1-3-atomic-structure/1-3-2-isotopes-and-mass-spectra"
+ },
+ "specPoints": [
+  {
+   "code": "2.5",
+   "text": "understand the term ‘isotope’"
+  },
+  {
+   "code": "2.6",
+   "text": "understand the basic principles of a mass spectrometer and be able to analyse and interpret mass spectra to: i deduce the isotopic composition of a sample of an element ii calculate the relative atomic mass of an element from relative abundances of isotopes and vice versa iii determine the relative molecular mass of a molecule, and hence identify molecules in a sample iv understand that ions in a mass spectrometer may have a 2+ charge"
+  },
+  {
+   "code": "2.7",
+   "text": "be able to predict mass spectra, including relative peak heights, for diatomic molecules, including chlorine, given the isotopic abundances"
+  }
+ ],
+ "primer": {
+  "text": "The mass spectrometer is the census-taker of isotopes. This note follows a sample through ionisation, acceleration, deflection and detection, averages isotope abundances into relative atomic masses, extends the technique to molecular ions and the carbon-13 M+1 satellite, and predicts the telltale halogen doublets and triplets.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "Reading a mass spectrum of an element",
+   "sourceHeadings": [
+    "The Mass Spectrometer"
+   ],
+   "specRefs": [
+    "2.6"
+   ],
+   "opening": "The mass spectrometer is the instrument that finds what balances cannot: the mass and abundance of each isotope. This lesson walks a sample through vaporisation, ionisation, acceleration, deflection and detection, then reads the spectrum the detector prints.",
+   "keyPoints": [
+    "A mass spectrometer determines relative isotopic masses and their relative abundances.",
+    "Electron bombardment vaporises the sample and knocks electrons out, making positive ions.",
+    "Electromagnets in the flight tube deflect ions by their mass-to-charge ratio.",
+    "Every detector strike is recorded as a small current and amplified into a peak."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "The machine turns atoms into positive ions, bends their paths by mass, and counts how many of each mass arrive.",
+     "analogy": "It is a sorting chute for ions: heavier loads curve less and land at their own bin, each hit ringing the bell.",
+     "examPointer": "Sequence marks come from naming the five stages in order."
+    },
+    "medium": {
+     "restatement": "Ionisation converts neutral atoms into charged particles so fields can act on them; varying the magnetic field sweeps every mass-to-charge ratio across the detector, and abundance follows from strike frequency.",
+     "analogy": "Charging the balls is what lets the magnet sort them - uncharged marbles ignore the field entirely.",
+     "examPointer": "Applications beyond isotopes - drug detection, forensics, space probes and carbon dating - earn naming marks."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "What does a mass spectrometer determine for a sample of an element?",
+     "misconceptionClass": "spectrometer purpose",
+     "options": [
+      {
+       "key": "A",
+       "text": "The relative isotopic mass and relative abundance of each isotope",
+       "correct": true,
+       "explanation": "The two outputs the instrument is built for.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The number of covalent bonds in the sample",
+       "correct": false,
+       "explanation": "Bonding is not what the instrument reads.",
+       "misconception": "quantity invented"
+      },
+      {
+       "key": "C",
+       "text": "The boiling point of each isotope",
+       "correct": false,
+       "explanation": "Physical properties like boiling point are out of scope.",
+       "misconception": "quantity invented"
+      },
+      {
+       "key": "D",
+       "text": "The electron configuration of the atoms",
+       "correct": false,
+       "explanation": "Configurations come from ionisation-energy data, not the spectrometer.",
+       "misconception": "technique confused"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why must the sample be ionised inside the spectrometer?",
+     "misconceptionClass": "ionisation necessity",
+     "options": [
+      {
+       "key": "A",
+       "text": "Fields can only accelerate and deflect charged particles",
+       "correct": true,
+       "explanation": "Neutral atoms ignore electric and magnetic fields, so no sorting occurs.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "To vaporise the sample",
+       "correct": false,
+       "explanation": "Vaporisation happens first, as a separate stage.",
+       "misconception": "stages merged"
+      },
+      {
+       "key": "C",
+       "text": "To make the sample radioactive",
+       "correct": false,
+       "explanation": "No radioactivity is involved.",
+       "misconception": "mechanism invented"
+      },
+      {
+       "key": "D",
+       "text": "To increase the sample's mass",
+       "correct": false,
+       "explanation": "Ionisation removes electrons, slightly reducing mass.",
+       "misconception": "direction reversed"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What role do the electromagnets around the flight tube play?",
+     "misconceptionClass": "flight tube role",
+     "options": [
+      {
+       "key": "A",
+       "text": "They deflect the ions' paths into curves whose radius depends on mass-to-charge ratio",
+       "correct": true,
+       "explanation": "The field sorts ions by how readily their momentum curves.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "They ionise the sample further",
+       "correct": false,
+       "explanation": "Ionisation is done by the electron gun.",
+       "misconception": "stage confused"
+      },
+      {
+       "key": "C",
+       "text": "They detect the arriving ions",
+       "correct": false,
+       "explanation": "The detector plate, not the magnets, registers strikes.",
+       "misconception": "stage confused"
+      },
+      {
+       "key": "D",
+       "text": "They cool the ions",
+       "correct": false,
+       "explanation": "Temperature control is not the magnets' job.",
+       "misconception": "function invented"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What does the detector record for each ion strike?",
+     "misconceptionClass": "detection output",
+     "options": [
+      {
+       "key": "A",
+       "text": "A small current, which is then amplified",
+       "correct": true,
+       "explanation": "Each strike registers electrically and the signal builds the spectrum.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "A flash of light whose colour is measured",
+       "correct": false,
+       "explanation": "The detection is electrical, not optical.",
+       "misconception": "mechanism invented"
+      },
+      {
+       "key": "C",
+       "text": "The ion's temperature",
+       "correct": false,
+       "explanation": "Temperature is not the detected quantity.",
+       "misconception": "quantity invented"
+      },
+      {
+       "key": "D",
+       "text": "A chemical fingerprint on paper",
+       "correct": false,
+       "explanation": "The output is an electronic spectrum, not a print.",
+       "misconception": "output misread"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Varying the electric and magnetic fields makes which deflection outcome possible?",
+     "misconceptionClass": "field sweeping",
+     "options": [
+      {
+       "key": "A",
+       "text": "All charged particles, whatever their mass-to-charge ratio, can be swept onto the detector",
+       "correct": true,
+       "explanation": "Sweeping the fields reads out the whole isotopic population.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The sample is reheated between readings",
+       "correct": false,
+       "explanation": "Vaporisation happens once.",
+       "misconception": "stage misplaced"
+      },
+      {
+       "key": "C",
+       "text": "The ions gain extra charge",
+       "correct": false,
+       "explanation": "Field variation does not change charges.",
+       "misconception": "effect invented"
+      },
+      {
+       "key": "D",
+       "text": "The flight tube changes length",
+       "correct": false,
+       "explanation": "The geometry is fixed.",
+       "misconception": "geometry changed"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the five stages a sample passes through in a mass spectrometer.",
+     "misconceptionClass": "stage sequence recall",
+     "modelAnswer": "Injection and vaporisation, electron-bombardment ionisation, acceleration toward negative plates, deflection in the flight tube's electromagnetic field, and detection as amplified current.",
+     "keywords": [
+      "vaporisation",
+      "ionisation",
+      "acceleration",
+      "deflection",
+      "detection"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State two applications of mass spectrometry beyond isotope analysis.",
+     "misconceptionClass": "applications recall",
+     "modelAnswer": "Detecting illegal drugs and supporting forensic science are two; space exploration and carbon-14 dating are further examples.",
+     "keywords": [
+      "drugs",
+      "forensic",
+      "space",
+      "carbon-14"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why the spectrometer reports mass-to-charge ratio rather than mass alone.",
+     "misconceptionClass": "m z ratio reason",
+     "modelAnswer": "The deflection a field produces depends on both how heavy the ion is and how many charges it carries - a doubly-charged ion curves like a lighter singly-charged one - so the field sort naturally reads the ratio m/z; for singly-charged molecular ions the ratio still equals the relative mass.",
+     "keywords": [
+      "deflection",
+      "charge",
+      "ratio",
+      "curves"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "In the flight tube, why do lighter singly-charged ions of the same charge deflect MORE than heavier ones at fixed field strength?",
+     "misconceptionClass": "deflection physics application",
+     "modelAnswer": "Deflection depends on the mass-to-charge ratio: with equal charge, a lighter ion carries less momentum for the same field to bend, so its path curves more sharply toward the detector.",
+     "keywords": [
+      "mass-to-charge",
+      "momentum",
+      "lighter",
+      "curves"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "From abundances to relative atomic mass",
+   "sourceHeadings": [
+    "Isotopes & Mass Spectra",
+    "Mass spectra of molecules"
+   ],
+   "specRefs": [
+    "2.5"
+   ],
+   "opening": "A spectrum is a census of isotopes, and the census averages into the periodic table's Ar values. This lesson applies the weighted-mean equation to oxygen and boron spectra, then extends the technique to molecular ions and the M+1 carbon-13 peak.",
+   "keyPoints": [
+    "Isotopes are same-element atoms with equal protons but different neutron counts.",
+    "Ar = (abundance x mass summed over isotopes) / 100.",
+    "Oxygen's spectrum (99.76 / 0.04 / 0.20) averages to Ar = 16.00.",
+    "The molecular ion (M+) peak's m/z equals the compound's relative molecular mass; the M+1 peak grows with carbon count."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Multiply each isotope's mass by its abundance, add them up, divide by 100 - that weighted average is the Ar.",
+     "analogy": "It is a class average where each isotope's mark is weighted by how many students (atoms) earned it.",
+     "examPointer": "Read abundances straight off the peak heights when a spectrum is drawn."
+    },
+    "medium": {
+     "restatement": "The weighted mean converts an isotopic mixture into one effective mass per atom; for molecules, the M+ peak reports the molecular mass while the M+1 satellite reports carbon-13's natural abundance, scaling with carbon count.",
+     "analogy": "The M+ peak is the molecule's weight, and the M+1 peak is the shadow it casts because one carbon in a hundred is heavier.",
+     "examPointer": "m/z 58 identifies propanal over butanal (72) - molecular-ion peaks distinguish candidates."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "What defines isotopes of one element?",
+     "misconceptionClass": "isotope definition",
+     "options": [
+      {
+       "key": "A",
+       "text": "Equal protons and electrons, different neutron counts",
+       "correct": true,
+       "explanation": "The element stays the same while the neutron count varies.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Different proton counts",
+       "correct": false,
+       "explanation": "Different protons would mean different elements.",
+       "misconception": "identity broken"
+      },
+      {
+       "key": "C",
+       "text": "Different electron configurations",
+       "correct": false,
+       "explanation": "Neutral isotopes share electron arrangements.",
+       "misconception": "chemistry misattributed"
+      },
+      {
+       "key": "D",
+       "text": "Different charges",
+       "correct": false,
+       "explanation": "Isotopes of a neutral element carry no charge difference.",
+       "misconception": "charge invented"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "A sample holds 99.76% oxygen-16, 0.04% oxygen-17 and 0.20% oxygen-18. What is Ar to 2 dp?",
+     "misconceptionClass": "oxygen weighted mean",
+     "options": [
+      {
+       "key": "A",
+       "text": "16.00",
+       "correct": true,
+       "explanation": "(99.76 x 16 + 0.04 x 17 + 0.20 x 18) / 100 = 1600.44 / 100 = 16.0044 -> 16.00.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "16.5",
+       "correct": false,
+       "explanation": "The trace isotopes cannot shift the mean that far.",
+       "misconception": "mean overweighted"
+      },
+      {
+       "key": "C",
+       "text": "17.0",
+       "correct": false,
+       "explanation": "That reads the middle isotope's mass as the average.",
+       "misconception": "peak confused with mean"
+      },
+      {
+       "key": "D",
+       "text": "15.98",
+       "correct": false,
+       "explanation": "The arithmetic sign of the trace correction was flipped.",
+       "misconception": "arithmetic slip"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why does boron's mass spectrum show peaks at masses 10 and 11 in ratio about 20:80?",
+     "misconceptionClass": "boron spectrum reading",
+     "options": [
+      {
+       "key": "A",
+       "text": "Boron has two isotopes, B-10 and B-11, with those natural abundances",
+       "correct": true,
+       "explanation": "Peak positions give masses; peak heights give abundances.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Because boron forms B2 molecules in the machine",
+       "correct": false,
+       "explanation": "Element spectra here read atomic ions.",
+       "misconception": "species misread"
+      },
+      {
+       "key": "C",
+       "text": "Because boron-11 is radioactive",
+       "correct": false,
+       "explanation": "Neither isotope is radioactive.",
+       "misconception": "property invented"
+      },
+      {
+       "key": "D",
+       "text": "Because the 10 peak is an M+1 satellite",
+       "correct": false,
+       "explanation": "Both are isotope peaks, not carbon-13 satellites.",
+       "misconception": "peak misattributed"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What information does the M+ peak of a molecular spectrum carry?",
+     "misconceptionClass": "molecular ion peak",
+     "options": [
+      {
+       "key": "A",
+       "text": "The compound's relative molecular mass, because m/z there equals Mr",
+       "correct": true,
+       "explanation": "The highest-mass peak is the whole molecule with one electron removed.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The number of carbon atoms present",
+       "correct": false,
+       "explanation": "That is the M+1 peak's information.",
+       "misconception": "peak confused"
+      },
+      {
+       "key": "C",
+       "text": "The compound's boiling point",
+       "correct": false,
+       "explanation": "Unrelated to the spectrum.",
+       "misconception": "quantity invented"
+      },
+      {
+       "key": "D",
+       "text": "The most stable fragment",
+       "correct": false,
+       "explanation": "That is the base peak, a different feature.",
+       "misconception": "peak confused"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Hexane's carbon-13 M+1 peak stands taller than ethane's. Why?",
+     "misconceptionClass": "M+1 scaling",
+     "options": [
+      {
+       "key": "A",
+       "text": "Hexane has six carbons to ethane's two, and each carbon adds a chance of being carbon-13",
+       "correct": true,
+       "explanation": "The M+1 height scales with carbon count.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Because hexane is more volatile",
+       "correct": false,
+       "explanation": "Volatility is irrelevant.",
+       "misconception": "property mislinked"
+      },
+      {
+       "key": "C",
+       "text": "Because hexane's molecules ionise twice",
+       "correct": false,
+       "explanation": "Ionisation is single-electron here.",
+       "misconception": "mechanism invented"
+      },
+      {
+       "key": "D",
+       "text": "Because ethane has no carbon-13 at all",
+       "correct": false,
+       "explanation": "Carbon-13 exists at ~1% in every organic compound.",
+       "misconception": "abundance denied"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the weighted-mean equation for relative atomic mass from isotopic data.",
+     "misconceptionClass": "Ar equation recall",
+     "modelAnswer": "Ar = (abundance of isotope 1 x its mass + abundance of isotope 2 x its mass + ...) / 100.",
+     "keywords": [
+      "abundance",
+      "mass",
+      "sum",
+      "100"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the relative atomic mass of boron from its 19.9% / 80.1% spectrum.",
+     "misconceptionClass": "boron Ar recall",
+     "modelAnswer": "Ar = (19.9 x 10 + 80.1 x 11) / 100 = 10.801, quoted as 10.8 to 1 dp.",
+     "keywords": [
+      "19.9",
+      "80.1",
+      "10.8",
+      "boron"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why a spectrum can identify propanal rather than butanal.",
+     "misconceptionClass": "spectrum identification",
+     "modelAnswer": "The molecular ion peak sits at the compound's relative molecular mass: propanal's CH3CH2CHO+ ion reads m/z 58 while butanal's extra CH2 pushes its molecular ion to 72, so the observed M+ position discriminates the two candidates.",
+     "keywords": [
+      "molecular ion",
+      "58",
+      "72",
+      "candidates"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "Use the weighted-mean equation to show that boron's Ar is 10.8, given 19.9% B-10 and 80.1% B-11.",
+     "misconceptionClass": "boron application",
+     "modelAnswer": "Ar = (19.9 x 10 + 80.1 x 11) / 100 = (199 + 881.1) / 100 = 1080.1 / 100 = 10.801, quoted to 1 dp as 10.8.",
+     "keywords": [
+      "19.9",
+      "80.1",
+      "1080.1",
+      "10.8"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Predicting halogen doublets",
+   "sourceHeadings": [
+    "Chlorine",
+    "Bromine"
+   ],
+   "specRefs": [
+    "2.7"
+   ],
+   "opening": "Chlorine and bromine wear their isotopes openly, printing unmistakable peak patterns into molecular spectra. This lesson builds the 3:1, 9:6:1, 1:1 and 1:2:1 patterns from probability and reads them as element detectors.",
+   "keyPoints": [
+    "Chlorine: 35Cl and 37Cl in 3:1 ratio give M : M+2 peaks at 3:1 for one Cl atom.",
+    "Two chlorine atoms give three peaks in 9:6:1 ratio from (3/4, 1/4) pairing.",
+    "Bromine: 79Br and 81Br in 1:1 ratio give equal M and M+2 peaks for one Br atom.",
+    "Two bromine atoms give a 1:2:1 triplet; halogens are therefore visible in spectra."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "One chlorine atom splits a molecular ion into a 3:1 doublet; one bromine atom makes an even 1:1 doublet.",
+     "analogy": "The halogen tag is like a barcode printed on the spectrum: count the bars and you know which halogen and how many atoms.",
+     "examPointer": "Quote the abundance ratio (3:1 or 1:1) before quoting peak ratios - the logic marks live there."
+    },
+    "medium": {
+     "restatement": "Each halogen atom contributes an independent 3/4-1/4 (chlorine) or 1/2-1/2 (bromine) probability, so two atoms multiply: (3/4)^2 : 2(3/4)(1/4) : (1/4)^2 = 9:6:1 for chlorine and 1:2:1 for bromine.",
+     "analogy": "It is coin-toss arithmetic: two coins make HH, HT+TH, HT patterns with 1:2:1 counts - bromine is a fair coin, chlorine a biased one.",
+     "examPointer": "The M+2 peak's doubled weight for mixed isotopes (two ways to make 35-37) is the step examiners watch for."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "A compound containing ONE chlorine atom shows what molecular-ion pattern?",
+     "misconceptionClass": "single chlorine pattern",
+     "options": [
+      {
+       "key": "A",
+       "text": "Two peaks, M and M+2, in a 3:1 height ratio",
+       "correct": true,
+       "explanation": "35Cl gives M and 37Cl gives M+2, matching the isotope abundance.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Three peaks in a 9:6:1 ratio",
+       "correct": false,
+       "explanation": "That needs TWO chlorine atoms.",
+       "misconception": "pattern overcounted"
+      },
+      {
+       "key": "C",
+       "text": "A single peak at M",
+       "correct": false,
+       "explanation": "Two isotopes guarantee two peaks.",
+       "misconception": "peak dropped"
+      },
+      {
+       "key": "D",
+       "text": "Equal M and M+2 peaks",
+       "correct": false,
+       "explanation": "That is bromine's signature.",
+       "misconception": "halogen mixed"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Where does the 9:6:1 ratio in a two-chlorine compound come from?",
+     "misconceptionClass": "9 6 1 origin",
+     "options": [
+      {
+       "key": "A",
+       "text": "The probabilities (3/4)(3/4), 2 x (3/4)(1/4) and (1/4)(1/4) for the three isotope pairings",
+       "correct": true,
+       "explanation": "Each atom is an independent 3:1 draw.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The three peaks' masses add those numbers",
+       "correct": false,
+       "explanation": "The ratio is probabilistic, not arithmetic on masses.",
+       "misconception": "origin misread"
+      },
+      {
+       "key": "C",
+       "text": "Chemical reactions between the isotopes",
+       "correct": false,
+       "explanation": "Isotopes do not react with each other.",
+       "misconception": "mechanism invented"
+      },
+      {
+       "key": "D",
+       "text": "The flight tube's field strength",
+       "correct": false,
+       "explanation": "Fields sort, they do not scale heights.",
+       "misconception": "instrument misattributed"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why does the M+2 peak double in height for the mixed 35Cl-37Cl pairing in two-chlorine compounds?",
+     "misconceptionClass": "M+2 doubling",
+     "options": [
+      {
+       "key": "A",
+       "text": "The mixed pair can form two ways - 35 then 37, or 37 then 35 - and both land at the same mass",
+       "correct": true,
+       "explanation": "Two routes to one peak double its height.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Because 37Cl is twice as abundant",
+       "correct": false,
+       "explanation": "Its abundance is one third of 35Cl's.",
+       "misconception": "abundance misread"
+      },
+      {
+       "key": "C",
+       "text": "Because the detector counts it twice",
+       "correct": false,
+       "explanation": "Counting is physical, not double-booked.",
+       "misconception": "mechanism invented"
+      },
+      {
+       "key": "D",
+       "text": "Because M+2 ions are lighter",
+       "correct": false,
+       "explanation": "They are exactly 2 mass units heavier.",
+       "misconception": "mass claim false"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "A compound with one bromine atom shows what pattern?",
+     "misconceptionClass": "single bromine pattern",
+     "options": [
+      {
+       "key": "A",
+       "text": "M and M+2 peaks of EQUAL height",
+       "correct": true,
+       "explanation": "79Br and 81Br are equally abundant.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "A 3:1 doublet",
+       "correct": false,
+       "explanation": "That is chlorine's ratio.",
+       "misconception": "halogen mixed"
+      },
+      {
+       "key": "C",
+       "text": "A 9:6:1 triplet",
+       "correct": false,
+       "explanation": "That needs two chlorines.",
+       "misconception": "pattern overcounted"
+      },
+      {
+       "key": "D",
+       "text": "Only an M peak",
+       "correct": false,
+       "explanation": "Two isotopes guarantee the doublet.",
+       "misconception": "peak dropped"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Bromine's two-atom molecules give a 1:2:1 triplet. What molecular logic underlies the middle peak?",
+     "misconceptionClass": "bromine triplet",
+     "options": [
+      {
+       "key": "A",
+       "text": "79Br-81Br and 81Br-79Br both land at M+2, combining to double height",
+       "correct": true,
+       "explanation": "Symmetrically, both mixed pairings weigh the same.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "81Br is twice as abundant as 79Br",
+       "correct": false,
+       "explanation": "The abundances are equal.",
+       "misconception": "abundance misread"
+      },
+      {
+       "key": "C",
+       "text": "The middle peak is a fragment, not a molecular ion",
+       "correct": false,
+       "explanation": "It is the genuine M+2 molecular ion.",
+       "misconception": "peak misattributed"
+      },
+      {
+       "key": "D",
+       "text": "Bromine forms three different compounds",
+       "correct": false,
+       "explanation": "One compound, three isotope combinations.",
+       "misconception": "species invented"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the peak patterns for molecules containing one and two chlorine atoms.",
+     "misconceptionClass": "chlorine patterns recall",
+     "modelAnswer": "One chlorine: M and M+2 peaks in 3:1 ratio. Two chlorines: M, M+2 and M+4 peaks in 9:6:1 ratio.",
+     "keywords": [
+      "3:1",
+      "9:6:1",
+      "M+2",
+      "M+4"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the isotope pair and abundance ratio for bromine.",
+     "misconceptionClass": "bromine isotopes recall",
+     "modelAnswer": "Bromine exists as 79Br and 81Br in roughly equal abundance, so single-Br compounds show 1:1 M / M+2 peaks.",
+     "keywords": [
+      "79Br",
+      "81Br",
+      "1:1",
+      "equal"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why halogen-containing compounds are so easy to spot in mass spectra.",
+     "misconceptionClass": "halogen visibility",
+     "modelAnswer": "No common organic element else produces these fingerprints: chlorine's 3:1 (or 9:6:1) and bromine's 1:1 (or 1:2:1) molecular-ion doublets and triplets arise directly from the isotopes' natural abundances, so the pattern itself names the halogen and counts its atoms.",
+     "keywords": [
+      "fingerprint",
+      "abundance",
+      "doublet",
+      "triplet"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "Predict the molecular-ion peak pattern, with ratio, for a compound containing two chlorine atoms.",
+     "misconceptionClass": "chlorine prediction application",
+     "modelAnswer": "Three peaks: M (35-35), M+2 (mixed) and M+4 (37-37) in the ratio 9:6:1, from (3/4)^2, 2 x (3/4)(1/4) and (1/4)^2.",
+     "keywords": [
+      "M",
+      "M+2",
+      "M+4",
+      "9:6:1"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "relative isotopic mass",
+    "definition": "The mass of one isotope relative to carbon-12, measured by the mass spectrometer.",
+    "firstLesson": 1
+   },
+   {
+    "term": "relative abundance",
+    "definition": "The percentage share of an isotope in a natural sample, read from peak heights.",
+    "firstLesson": 2
+   },
+   {
+    "term": "molecular ion",
+    "definition": "The whole molecule with one electron removed, whose m/z equals the relative molecular mass.",
+    "firstLesson": 2
+   },
+   {
+    "term": "M+1 peak",
+    "definition": "The satellite peak from carbon-13's natural abundance, growing with the molecule's carbon count.",
+    "firstLesson": 2
+   }
+  ],
+  "workedExample": {
+   "prompt": "Boron's mass spectrum shows peaks at m/z 10 (19.9%) and m/z 11 (80.1%). Calculate the relative atomic mass of boron to 1 dp.",
+   "steps": [
+    "Weighted sum: (19.9 x 10) + (80.1 x 11) = 199 + 881.1 = 1080.1.",
+    "Divide by 100: 1080.1 / 100 = 10.801.",
+    "Round to 1 dp: 10.8."
+   ],
+   "finalAnswer": "Ar of boron = 10.8."
+  }
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/532c9f10fa24-1-3-2-mass-spectometer.png",
+   "alt": "1-3-2-mass-spectometer",
+   "sourceHeading": "The Mass Spectrometer",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "The components of a mass spectrometer"
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/1bc7bc4ea516-2-1-3-calculating-relative-atomic-mass-of-oxygen.png",
+   "alt": "2-1-3-calculating-relative-atomic-mass-of-oxygen",
+   "sourceHeading": "Isotopes & Mass Spectra",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique"
+  },
+  {
+   "id": "fig-03",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/6573fbcb9a22-4-1-analytical-techniques-mass-spectrum-boron.png",
+   "alt": "Analytical Techniques Mass Spectrum Boron, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Isotopes & Mass Spectra",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique"
+  },
+  {
+   "id": "fig-04",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/cb90d44d4404-creating-molecular-ions.png",
+   "alt": "creating-molecular-ions-",
+   "sourceHeading": "Mass spectra of molecules",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique"
+  },
+  {
+   "id": "fig-05",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/949975808d4e-4-1-analytical-techniques-spec-1-mass-spectromet.png",
+   "alt": "Analytical Techniques Spec 1_Mass Spectrometry, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Mass spectra of molecules",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique"
+  },
+  {
+   "id": "fig-06",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/4e3569dbbb52-4-1-analytical-techniques-mass-spectrum-chlorine.png",
+   "alt": "Analytical Techniques Mass Spectrum Chlorine, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Chlorine",
+   "moduleIds": [
+    "L3"
+   ],
+   "binding": "heading-unique",
+   "caption": "Mass spectrum of compounds containing one chlorine atom (1) and two chlorine atoms (2)"
+  },
+  {
+   "id": "fig-07",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/16571e6dd4a8-4-1-analytical-techniques-mass-spectrum-bromine-.png",
+   "alt": "Analytical Techniques Mass Spectrum Bromine, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Bromine",
+   "moduleIds": [
+    "L3"
+   ],
+   "binding": "heading-unique",
+   "caption": "Mass spectrum of compounds containing one bromine atom"
+  }
+ ]
+}

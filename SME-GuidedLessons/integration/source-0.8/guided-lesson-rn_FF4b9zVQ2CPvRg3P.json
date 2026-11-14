@@ -1,0 +1,577 @@
+{
+ "format": "guided-lesson/0.8",
+ "noteRef": {
+  "noteId": "rn_FF4b9zVQ2CPvRg3P",
+  "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+  "topicTitle": "1. Structure, Bonding & Introduction to Organic Chemistry",
+  "subtopicTitle": "Avogadro & the Mole",
+  "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/1-structure-bonding-and-introduction-to-organic-chemistry/1-1-formulae-and-equations/1-1-2-avogadro-and-the-mole"
+ },
+ "specPoints": [
+  {
+   "code": "1.2",
+   "text": "know that the mole (mol) is the unit for the amount of a substance and be able to perform calculations using the Avogadro constant L (6.02 x 1023 mol-1)"
+  }
+ ],
+ "primer": {
+  "text": "Chemists cannot tally atoms one by one, so the mole bundles particles into a countable package of exactly 6.02 x 10^23. This note fixes the Avogadro constant, defines the mole against the carbon-12 benchmark, and builds the two conversions - mass to moles, moles to particles - that every later calculation reuses.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "What the mole counts",
+   "sourceHeadings": [
+    "Avogadro & the Mole"
+   ],
+   "specRefs": [
+    "1.2"
+   ],
+   "opening": "Chemists cannot tally atoms one by one, so the mole bundles particles into a countable package of exactly 6.02 x 10^23. This lesson defines the Avogadro constant, shows why the same number works for atoms, molecules, ions and electrons, and fixes what one mole of any substance weighs.",
+   "keyPoints": [
+    "The Avogadro constant L is 6.02 x 10^23 mol^-1, the number of particles in one mole.",
+    "The constant applies equally to atoms, molecules, ions and electrons.",
+    "A mole is the amount of substance that contains this number of fundamental units.",
+    "One mole of an element weighs, in grams, the value of its relative atomic mass.",
+    "The molar mass links a mole of particles to the 12.00 g of carbon-12 benchmark."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "A mole is just a gigantic counting unit: pick 6.02 x 10^23 of anything chemical and you are holding one mole of it.",
+     "analogy": "The mole plays the part of a dozen in baking - a fixed tally that converts between what you count and what you can weigh out on a balance.",
+     "examPointer": "Learn the constant's value and unit exactly: 6.02 x 10^23 mol^-1 earns the mark; 6.02 x 10^23 alone does not."
+    },
+    "medium": {
+     "restatement": "The Avogadro constant is the bridge between a countable amount and a mass: one mole of particles has a mass in grams numerically equal to the relative mass of one particle.",
+     "analogy": "Imagine scaling a single sweet up to a sack: the relative atomic mass is the label on one sweet, and a mole is the sack whose weight in grams matches that label.",
+     "examPointer": "When a question says 'exactly 12.00 g of carbon-12', it is anchoring the mole definition - quote that anchor when asked to define amount of substance."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "What does the Avogadro constant measure?",
+     "misconceptionClass": "Avogadro constant meaning",
+     "options": [
+      {
+       "key": "A",
+       "text": "The number of particles in one mole of a substance",
+       "correct": true,
+       "explanation": "The constant is defined as the particle count per mole, 6.02 x 10^23 mol^-1.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The mass of one mole of a substance in grams",
+       "correct": false,
+       "explanation": "Mass per mole is the molar mass, not the Avogadro constant.",
+       "misconception": "constant confused with molar mass"
+      },
+      {
+       "key": "C",
+       "text": "The volume occupied by one mole of any gas",
+       "correct": false,
+       "explanation": "Volume per mole of gas is the molar gas volume, covered elsewhere.",
+       "misconception": "constant confused with molar volume"
+      },
+      {
+       "key": "D",
+       "text": "The charge carried by one mole of electrons",
+       "correct": false,
+       "explanation": "Charge per mole of electrons is the Faraday constant, a different quantity.",
+       "misconception": "constant confused with Faraday"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which particles can be counted in moles?",
+     "misconceptionClass": "mole applies to all particles",
+     "options": [
+      {
+       "key": "A",
+       "text": "Atoms, molecules, ions and electrons alike",
+       "correct": true,
+       "explanation": "The constant is particle-agnostic: any fundamental chemical particle can be tallied in moles.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Atoms only, because the mole is defined from carbon-12",
+       "correct": false,
+       "explanation": "The carbon-12 anchor fixes the scale but does not restrict what is counted.",
+       "misconception": "scope wrongly narrowed"
+      },
+      {
+       "key": "C",
+       "text": "Molecules only, since moles describe compounds",
+       "correct": false,
+       "explanation": "Elements are counted in moles just as readily as compounds.",
+       "misconception": "scope wrongly narrowed"
+      },
+      {
+       "key": "D",
+       "text": "Ions only, because moles require a charge",
+       "correct": false,
+       "explanation": "Moles count amount of substance; charge is irrelevant to the tally.",
+       "misconception": "charge conflated with amount"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "One mole of carbon atoms has a mass of 12.00 g. What mass does one mole of magnesium atoms have? (Ar of Mg = 24.3)",
+     "misconceptionClass": "mole mass equals Ar in grams",
+     "options": [
+      {
+       "key": "A",
+       "text": "24.3 g",
+       "correct": true,
+       "explanation": "One mole of an element weighs its relative atomic mass in grams.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "12.00 g",
+       "correct": false,
+       "explanation": "That is the carbon benchmark, not magnesium's.",
+       "misconception": "benchmark overused"
+      },
+      {
+       "key": "C",
+       "text": "6.02 g",
+       "correct": false,
+       "explanation": "The Avogadro constant is a particle count, not a mass.",
+       "misconception": "constant read as mass"
+      },
+      {
+       "key": "D",
+       "text": "48.6 g",
+       "correct": false,
+       "explanation": "That would be two moles of magnesium.",
+       "misconception": "coefficient doubled"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "A sample contains 3.01 x 10^23 molecules of a gas. Roughly how many moles is that?",
+     "misconceptionClass": "particle count to moles",
+     "options": [
+      {
+       "key": "A",
+       "text": "0.50 mol",
+       "correct": true,
+       "explanation": "Dividing by 6.02 x 10^23 gives about half a mole.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "1.00 mol",
+       "correct": false,
+       "explanation": "One mole is 6.02 x 10^23 particles, twice the sample.",
+       "misconception": "half treated as full"
+      },
+      {
+       "key": "C",
+       "text": "2.00 mol",
+       "correct": false,
+       "explanation": "That would need about 1.2 x 10^24 particles.",
+       "misconception": "reciprocal error"
+      },
+      {
+       "key": "D",
+       "text": "3.01 x 10^23 mol",
+       "correct": false,
+       "explanation": "Moles are of order unity here; the raw count is not the mole number.",
+       "misconception": "count read as moles"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why do reaction calculations lean on the mole and the Avogadro constant?",
+     "misconceptionClass": "role of the mole",
+     "options": [
+      {
+       "key": "A",
+       "text": "It converts between a countable number of particles and a weighable mass",
+       "correct": true,
+       "explanation": "The constant links the microscopic count to grams on a balance.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "It fixes the temperature at which reactions occur",
+       "correct": false,
+       "explanation": "The mole says nothing about temperature.",
+       "misconception": "constant given thermal meaning"
+      },
+      {
+       "key": "C",
+       "text": "It measures how fast a reaction proceeds",
+       "correct": false,
+       "explanation": "Rate is a separate kinetic quantity.",
+       "misconception": "constant given kinetic meaning"
+      },
+      {
+       "key": "D",
+       "text": "It determines whether a reaction is exothermic",
+       "correct": false,
+       "explanation": "Energetics are unrelated to the particle tally.",
+       "misconception": "constant given energy meaning"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the value and unit of the Avogadro constant.",
+     "misconceptionClass": "Avogadro constant recall",
+     "modelAnswer": "The Avogadro constant L is 6.02 x 10^23 mol^-1, the number of particles in one mole of a substance.",
+     "keywords": [
+      "6.02",
+      "10^23",
+      "mol^-1",
+      "particles"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Define the mole in terms of the Avogadro constant.",
+     "misconceptionClass": "mole definition recall",
+     "modelAnswer": "A mole is the amount of substance that contains 6.02 x 10^23 fundamental units, the same number of particles as there are atoms in exactly 12.00 g of carbon-12.",
+     "keywords": [
+      "amount",
+      "6.02",
+      "carbon-12",
+      "particles"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "A student says one mole of oxygen molecules and one mole of oxygen atoms describe the same amount of matter. Explain why the statement is wrong.",
+     "misconceptionClass": "molecules vs atoms amount",
+     "modelAnswer": "One mole always contains the same number of particles, but an oxygen molecule holds two atoms, so a mole of molecules contains twice as many oxygen atoms as a mole of atoms; the amounts of matter differ by a factor of two.",
+     "keywords": [
+      "molecule",
+      "atoms",
+      "twice",
+      "factor"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A jeweller weighs out 4.82 g of silver (Ar = 107.9). Calculate the number of silver atoms supplied, giving your answer to 3 s.f.",
+     "misconceptionClass": "mass to particle count chain",
+     "modelAnswer": "Moles of silver = 4.82 / 107.9 = 0.0447 mol; atoms = 0.0447 x 6.02 x 10^23 = 2.69 x 10^22 atoms.",
+     "keywords": [
+      "moles",
+      "107.9",
+      "atoms",
+      "2.69"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Working the mole ladder",
+   "sourceHeadings": [
+    "The Mole & Avogadro Calculations"
+   ],
+   "specRefs": [
+    "1.2"
+   ],
+   "opening": "Every stoichiometry chain runs through the same ladder: mass to moles with n = m/M, then moles to particles with the Avogadro constant. This lesson drills that ladder in both directions, including the very large and very small answers the constant naturally produces.",
+   "keyPoints": [
+    "The linking equation is n = m / M for mass in grams and molar mass in g mol^-1.",
+    "Particles divide by the Avogadro constant to give moles, and moles multiply by it to give particles.",
+    "Answers after using the constant are often very large or very small by nature.",
+    "One mole of water weighs 18.0 g because two hydrogen atoms and one oxygen atom make up each molecule."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "To get moles, divide mass by molar mass or divide particles by the big constant; to leave moles, do the opposite.",
+     "analogy": "Think of two doors into the same room: the mass door and the particle door both lead to the mole counter in the middle.",
+     "examPointer": "Show the ladder in your working - method marks survive even when an arithmetic slip lands."
+    },
+    "medium": {
+     "restatement": "The molar mass converts grams to moles, and the Avogadro constant converts moles to a particle census; chaining both maps a weighable sample onto the atoms inside it.",
+     "analogy": "Currency exchange works the same way: pounds to a currency-neutral amount, then to another currency - here grams to moles, then to particles.",
+     "examPointer": "Do not round the mole value before multiplying by the constant; carry at least 3 s.f. through the chain."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "What is the molar mass of water, H2O?",
+     "misconceptionClass": "molar mass of water",
+     "options": [
+      {
+       "key": "A",
+       "text": "18.0 g mol^-1",
+       "correct": true,
+       "explanation": "Two hydrogens at 1.0 plus one oxygen at 16.0 give 18.0 g mol^-1.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "16.0 g mol^-1",
+       "correct": false,
+       "explanation": "That is the oxygen alone; the two hydrogens add 2.0.",
+       "misconception": "hydrogens dropped"
+      },
+      {
+       "key": "C",
+       "text": "17.0 g mol^-1",
+       "correct": false,
+       "explanation": "Adding only one hydrogen misses the second.",
+       "misconception": "formula miscounted"
+      },
+      {
+       "key": "D",
+       "text": "20.0 g mol^-1",
+       "correct": false,
+       "explanation": "No atomic mass combination of H2O reaches 20.0.",
+       "misconception": "masses inflated"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "How many moles are present in 100 g of water? (Mr = 18.0)",
+     "misconceptionClass": "moles from mass",
+     "options": [
+      {
+       "key": "A",
+       "text": "5.56 mol",
+       "correct": true,
+       "explanation": "100 / 18.0 = 5.56 mol to 3 s.f.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "18.0 mol",
+       "correct": false,
+       "explanation": "That inverts the division; 1800 g would be 100 mol.",
+       "misconception": "division inverted"
+      },
+      {
+       "key": "C",
+       "text": "2.78 mol",
+       "correct": false,
+       "explanation": "That is half the correct quotient.",
+       "misconception": "factor of two lost"
+      },
+      {
+       "key": "D",
+       "text": "100 mol",
+       "correct": false,
+       "explanation": "Mass in grams is not itself a mole count.",
+       "misconception": "grams read as moles"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which expression gives the number of molecules in n moles of a gas?",
+     "misconceptionClass": "moles to particles",
+     "options": [
+      {
+       "key": "A",
+       "text": "n x 6.02 x 10^23",
+       "correct": true,
+       "explanation": "Moles multiply by the Avogadro constant to give a particle count.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "n / 6.02 x 10^23",
+       "correct": false,
+       "explanation": "Division shrinks the count; particles exceed moles.",
+       "misconception": "division used backwards"
+      },
+      {
+       "key": "C",
+       "text": "n x 24.0",
+       "correct": false,
+       "explanation": "24.0 dm^3 is the molar gas volume, not a particle count.",
+       "misconception": "volume constant misapplied"
+      },
+      {
+       "key": "D",
+       "text": "n x 18.0",
+       "correct": false,
+       "explanation": "18.0 is water's molar mass, irrelevant to a particle census.",
+       "misconception": "molar mass misapplied"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Five hundred million platinum atoms were counted out. Without calculating, what kind of mass should be expected? (Ar of Pt = 195.1)",
+     "misconceptionClass": "scale sense of the constant",
+     "options": [
+      {
+       "key": "A",
+       "text": "A vanishingly small mass, far below a microgram",
+       "correct": true,
+       "explanation": "So few particles is about 8.3 x 10^-16 mol, giving about 1.6 x 10^-13 g.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "About one gram, comparable to a coin",
+       "correct": false,
+       "explanation": "A gram of platinum holds vastly more than 5 x 10^8 atoms.",
+       "misconception": "scale misjudged"
+      },
+      {
+       "key": "C",
+       "text": "About one kilogram",
+       "correct": false,
+       "explanation": "A kilogram of platinum contains near 3 x 10^24 atoms.",
+       "misconception": "scale misjudged"
+      },
+      {
+       "key": "D",
+       "text": "Exactly 195.1 g",
+       "correct": false,
+       "explanation": "That mass corresponds to one full mole, not a fraction.",
+       "misconception": "mole confused with sample"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "A chemist has 0.0218 mol of ethanol and needs its mass. Using the linking equation and molar mass, what value results? (Mr of C2H5OH = 46.0)",
+     "misconceptionClass": "moles to mass",
+     "options": [
+      {
+       "key": "A",
+       "text": "1.00 g",
+       "correct": true,
+       "explanation": "0.0218 mol on 46.0 g mol^-1 lands at 1.00 g - a huge molecular count inside one gram.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "46.0 g",
+       "correct": false,
+       "explanation": "That would be one mole, roughly 46 times more.",
+       "misconception": "mole treated as sample"
+      },
+      {
+       "key": "C",
+       "text": "21.8 g",
+       "correct": false,
+       "explanation": "That reads the mole value as grams.",
+       "misconception": "moles read as mass"
+      },
+      {
+       "key": "D",
+       "text": "0.47 g",
+       "correct": false,
+       "explanation": "The multiplication is halved; 0.0218 mol on 46.0 lands at 1.00.",
+       "misconception": "product underestimated"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the equation linking moles n, mass m and molar mass M.",
+     "misconceptionClass": "n equals m over M",
+     "modelAnswer": "The linking equation is n = m / M, with mass in grams and molar mass in g mol^-1.",
+     "keywords": [
+      "n = m / M",
+      "mass",
+      "molar mass",
+      "grams"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the two-step chain that converts the mass of a compound into the number of its molecules.",
+     "misconceptionClass": "mass to molecules chain",
+     "modelAnswer": "First divide the mass by the molar mass to obtain moles, then multiply the moles by the Avogadro constant to obtain the number of molecules.",
+     "keywords": [
+      "molar mass",
+      "moles",
+      "Avogadro",
+      "multiply"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why answers that follow from dividing by the Avogadro constant can be far smaller than 1 without being wrong.",
+     "misconceptionClass": "tiny answers legitimate",
+     "modelAnswer": "The constant is an enormous tally, about 6.02 x 10^23 particles per mole, so a sample containing only a few hundred million particles corresponds to a fraction of a mole around 10^-16 mol, and its mass shrinks accordingly.",
+     "keywords": [
+      "enormous",
+      "particles",
+      "fraction",
+      "mass"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "Calculate the number of water molecules in 100 g of water, running n = 100 / 18.0 then the Avogadro constant. Give the answer to 3 s.f.",
+     "misconceptionClass": "full ladder application",
+     "modelAnswer": "n = 100 / 18.0 = 5.56 mol; molecules = 5.56 x 6.02 x 10^23 gives 3.35 x 10^24 molecules.",
+     "keywords": [
+      "5.56",
+      "6.02",
+      "3.35",
+      "molecules"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "mole",
+    "definition": "The amount of substance containing 6.02 x 10^23 fundamental units, the same particle count as exactly 12.00 g of carbon-12.",
+    "firstLesson": 1
+   },
+   {
+    "term": "molar mass",
+    "definition": "The mass of one mole of a substance, quoted in g mol^-1.",
+    "firstLesson": 2
+   },
+   {
+    "term": "Avogadro constant",
+    "definition": "The particle count per mole, 6.02 x 10^23 mol^-1, applied to atoms, molecules, ions and electrons.",
+    "firstLesson": 1
+   }
+  ],
+  "workedExample": {
+   "prompt": "How many moles and how many molecules are present in 100 g of water? (Mr = 18.0)",
+   "steps": [
+    "Convert mass to moles: n = m / M = 100 / 18.0 = 5.56 mol (3 s.f.).",
+    "Convert moles to molecules: 5.56 x 6.02 x 10^23 = 3.35 x 10^24 molecules."
+   ],
+   "finalAnswer": "5.56 mol, which is 3.35 x 10^24 molecules of water."
+  }
+ },
+ "figures": []
+}
