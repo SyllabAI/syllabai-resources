@@ -15,6 +15,12 @@
  * Gates of record (the physics-wave battery, re-run over the full corpus): P0 / A0 / AN / JC / SG / KW /
  * 2.1B / NUM / C-6 / written / C-5 / B2 / G-E. Fail-closed: any failure exits 1 before emit.
  *
+ * Corrective A2 of record: the first commit-A issue (389fd111) carried 3 schema-shape defects
+ * (an empty figures array for the 6 zero-image corpus notes, 3 empty corpus alts, 3 two-term
+ * glossaries below the 0.8 schema floor) — corrected at A2: the figures key is omitted when the
+ * corpus carries no images, 3 alts authored from the corpus's own bold-line context, 3 third
+ * glossary terms added. Everything else conserved at the JSON-value level.
+ *
  * Stage-B wave-1 authoring of record (census 2026-11-14): 13 notes / 31 lessons / 279 checks =
  * 155 MCQ + 62 recall + 31 explain-why + 31 application (the B2 law 5+2+1+1 per lesson); 31 corpus
  * figures bound heading-unique and module-mapped (captions carried where the corpus prints them);
@@ -463,7 +469,8 @@ for (const id of NOTES_W12) {
 }
 const parent = execSync('git rev-parse HEAD~1', { cwd: REPO }).toString().trim();
 const WAVE_OPEN_BASE = 'b9e2588a692e81bf37c41638267772f1436641e0';
-check('P0', 'commit A parent == the wave-open resources main of record', parent === WAVE_OPEN_BASE, 'parent=' + parent.slice(0, 12));
+const CORRECTIVE_BASE_W1 = '389fd111da2572f02d5b7a0f79b37bdcabe34508';
+check('P0', 'commit A parent == the wave-open resources main of record (or the disclosed corrective base 389fd111, force-back rule-blocked)', parent === WAVE_OPEN_BASE || parent === CORRECTIVE_BASE_W1, 'parent=' + parent.slice(0, 12));
 let mainTipLive = '';
 try { mainTipLive = execSync('git ls-remote ' + (process.env.RESOURCES_REMOTE_URL || 'https://github.com/SyllabAI/syllabai-resources.git') + ' refs/heads/main', { cwd: REPO, shell: '/bin/bash' }).toString().split('\t')[0].trim(); } catch (e) { mainTipLive = 'ERR ' + e.message.slice(0, 60); }
 check('P0', 'resources main tip sits at the commit-A pin (first landing, race-guard)', mainTipLive === PIN, 'tip=' + mainTipLive.slice(0, 12));
