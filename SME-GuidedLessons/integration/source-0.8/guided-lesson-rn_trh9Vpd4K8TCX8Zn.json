@@ -1,0 +1,922 @@
+{
+ "format": "guided-lesson/0.8",
+ "noteRef": {
+  "noteId": "rn_trh9Vpd4K8TCX8Zn",
+  "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+  "topicTitle": "1. Structure, Bonding & Introduction to Organic Chemistry",
+  "subtopicTitle": "Ionic Bonding & Structures",
+  "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/1-structure-bonding-and-introduction-to-organic-chemistry/1-6-ionic-and-metallic-bonding-and-structure/1-6-2-ionic-bonding-and-structures"
+ },
+ "specPoints": [
+  {
+   "code": "3.3",
+   "text": "be able to draw dot-and-cross diagrams to show electrons in cations and anions"
+  }
+ ],
+ "primer": {
+  "text": "Ionic bonding hands electrons from metal to non-metal, leaving a cation and an anion that each wear a noble gas configuration. Dot-and-cross diagrams record the transfer, and charge arithmetic builds formulae: CaF2, Li3N, Al2O3. This note covers the transfer mechanism, the drawing conventions, and the balance-every-charge rule that turns ion charges into neutral crystal formulae.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "Transfer, charge and attraction",
+   "sourceHeadings": [
+    "Ionic Dot & Cross Diagrams"
+   ],
+   "specRefs": [
+    "3.3"
+   ],
+   "opening": "Ionic bonding starts with a handover: a metal atom on the left of the table surrenders valence electrons to a non-metal on the right. Both walk away with full outer shells and noble-gas configurations - the metal a positive cation, the non-metal a negative anion - and their strong, non-directional electrostatic attraction locks them into a neutral crystalline lattice with high melting points.",
+   "keyPoints": [
+    "Ionic bonding is the transfer of electrons from a metal to a non-metal.",
+    "The metal loses valence electrons and becomes a positive cation.",
+    "The non-metal gains electrons and becomes a negative anion.",
+    "Both ions finish with noble-gas electronic configurations - K+ and Cl- each match argon at [2,8,8].",
+    "Opposite charges attract in all directions, forming a strong, non-directional bond and a neutral lattice."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "The metal gives its outer electrons away, the non-metal accepts them, both end up with complete shells, and the resulting charges lock together into a crystal.",
+     "analogy": "One neighbour hands a stack of keys to another: the giver is now owed a favour (positive), the receiver owes one (negative), and the debt pulls them together.",
+     "examPointer": "Always pair the transfer with the resulting charges - naming the ions without the charges scores nothing."
+    },
+    "medium": {
+     "restatement": "Electron transfer converts two atoms into oppositely charged ions that each reach the configuration of the nearest noble gas; the Coulomb attraction between them is isotropic and strong enough to demand large energies to overcome, hence high melting temperatures.",
+     "analogy": "A relay baton passed across the table: the runner who loses it ends up owed a lap, the catcher owes one, and the bookkeeping pulls the team into formation.",
+     "examPointer": "K+ and Cl- both share argon's [2,8,8] arrangement - quoting one matched pair is the quickest full-credit configuration answer."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "What happens to electrons during ionic bond formation?",
+     "misconceptionClass": "electron transfer event",
+     "options": [
+      {
+       "key": "A",
+       "text": "A metal transfers electrons to a non-metal",
+       "correct": true,
+       "explanation": "Loss leaves the metal a cation; gain leaves the non-metal an anion.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Electrons are shared equally between the two atoms",
+       "correct": false,
+       "explanation": "Sharing defines covalent bonding instead.",
+       "misconception": "bond type mislabelled"
+      },
+      {
+       "key": "C",
+       "text": "Electrons are destroyed to neutralise both atoms",
+       "correct": false,
+       "explanation": "Electrons are conserved and transferred, never destroyed.",
+       "misconception": "conservation violated"
+      },
+      {
+       "key": "D",
+       "text": "Electrons are borrowed temporarily and returned",
+       "correct": false,
+       "explanation": "The transfer is permanent in the compound formed.",
+       "misconception": "process misstated"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which ion configuration does a chloride ion share?",
+     "misconceptionClass": "chloride configuration",
+     "options": [
+      {
+       "key": "A",
+       "text": "Argon, at [2,8,8]",
+       "correct": true,
+       "explanation": "Chlorine gains one electron onto [2,8,7], reaching argon's arrangement.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Neon, at [2,8]",
+       "correct": false,
+       "explanation": "That is a period-2 configuration, one shell short.",
+       "misconception": "noble gas mispicked"
+      },
+      {
+       "key": "C",
+       "text": "Krypton, at [2,8,18,8]",
+       "correct": false,
+       "explanation": "Chloride's three shells stop at 18 electrons.",
+       "misconception": "shell count inflated"
+      },
+      {
+       "key": "D",
+       "text": "No noble gas - chloride keeps [2,8,7]",
+       "correct": false,
+       "explanation": "The gained electron completes the octet.",
+       "misconception": "completion denied"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "A potassium ion has the same electronic configuration as",
+     "misconceptionClass": "potassium configuration match",
+     "options": [
+      {
+       "key": "A",
+       "text": "Argon, written [2,8,8]+",
+       "correct": true,
+       "explanation": "K loses its single outer electron from [2,8,8,1].",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Calcium, at [2,8,8,2]",
+       "correct": false,
+       "explanation": "Calcium carries an extra shell and two more protons.",
+       "misconception": "element confused"
+      },
+      {
+       "key": "C",
+       "text": "Krypton, at [2,8,18,8]",
+       "correct": false,
+       "explanation": "K+ stops at eighteen electrons across three shells.",
+       "misconception": "shell count inflated"
+      },
+      {
+       "key": "D",
+       "text": "Helium, at [2]",
+       "correct": false,
+       "explanation": "Helium's two-electron shell is far smaller.",
+       "misconception": "gas mispicked"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why do ionic compounds have high melting points?",
+     "misconceptionClass": "ionic melting reason",
+     "options": [
+      {
+       "key": "A",
+       "text": "Large energy is needed to overcome the strong electrostatic attractions running through the lattice",
+       "correct": true,
+       "explanation": "Every ion grips several oppositely charged neighbours at once.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Covalent bonds inside molecules resist heat",
+       "correct": false,
+       "explanation": "Ionic compounds contain no molecular covalent bonds.",
+       "misconception": "bond type mislabelled"
+      },
+      {
+       "key": "C",
+       "text": "Their ions spin faster at higher temperature",
+       "correct": false,
+       "explanation": "Spin is not part of the melting argument.",
+       "misconception": "mechanism invented"
+      },
+      {
+       "key": "D",
+       "text": "Electrons flow and generate heat resistance",
+       "correct": false,
+       "explanation": "Solid ionic compounds do not conduct at all.",
+       "misconception": "property misattributed"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why is the final ionic crystal always electrically neutral?",
+     "misconceptionClass": "lattice neutrality reason",
+     "options": [
+      {
+       "key": "A",
+       "text": "Positive charges cancel negative charges exactly across the repeating pattern",
+       "correct": true,
+       "explanation": "The lattice packs ions in proportions that balance total charge to zero.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Electrons escape the crystal until it is neutral",
+       "correct": false,
+       "explanation": "Electrons stay with their new anions.",
+       "misconception": "loss mechanism wrong"
+      },
+      {
+       "key": "C",
+       "text": "Neutrons in the nuclei offset the ionic charges",
+       "correct": false,
+       "explanation": "Neutrons carry no charge and cannot cancel anything.",
+       "misconception": "particle miscredited"
+      },
+      {
+       "key": "D",
+       "text": "The metal keeps some electrons back",
+       "correct": false,
+       "explanation": "The transfer is complete for the formula adopted.",
+       "misconception": "partial transfer claimed"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State what a metal atom becomes and what a non-metal atom becomes in ionic bond formation.",
+     "misconceptionClass": "cation anion formation recall",
+     "modelAnswer": "The metal atom loses electrons and becomes a positively charged cation; the non-metal atom gains electrons and becomes a negatively charged anion.",
+     "keywords": [
+      "loses",
+      "cation",
+      "gains",
+      "anion"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the noble gas whose configuration both K+ and Cl- adopt.",
+     "misconceptionClass": "argon configuration recall",
+     "modelAnswer": "Both potassium ions and chloride ions carry argon's configuration, [2,8,8].",
+     "keywords": [
+      "argon",
+      "2,8,8",
+      "configuration"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why ionic attraction is called non-directional whereas covalent bonding is not.",
+     "misconceptionClass": "non-directional contrast",
+     "modelAnswer": "A cation attracts every surrounding anion equally from any approach angle, so the bond has no preferred heading; a covalent bond exists only along the axis between the two nuclei sharing the pair.",
+     "keywords": [
+      "every",
+      "angle",
+      "axis",
+      "pair"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "Identify the ion formed when magnesium loses its two outer electrons and give its noble-gas-matched configuration.",
+     "misconceptionClass": "magnesium ion application",
+     "modelAnswer": "Magnesium forms Mg2+, matching neon's configuration [2,8] after the third shell is emptied.",
+     "keywords": [
+      "Mg2+",
+      "neon",
+      "2,8",
+      "configuration"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Drawing the diagrams",
+   "sourceHeadings": [
+    "Dot and cross diagrams",
+    "Ionic compounds"
+   ],
+   "specRefs": [
+    "3.3"
+   ],
+   "opening": "Dot-and-cross diagrams are the conventions of ionic bookkeeping: only outer-shell electrons appear, dots for one atom's electrons and crosses for the other's, square brackets wrap each ion, and the ionic charge sits at the top right. The drawn transfer always leaves both ions with full outer shells.",
+   "keyPoints": [
+    "Dot-and-cross diagrams display the outer-shell electrons of the atoms involved.",
+    "One atom's electrons are dots; the other atom's are crosses.",
+    "Square brackets enclose each ion, with the charge written at the top right corner.",
+    "Only outer electrons are drawn - inner shells stay off the page.",
+    "A correct diagram shows both ions reaching noble-gas outer shells after transfer."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Draw only the outer electrons, use one symbol per atom, bracket each finished ion and stamp the charge on its corner.",
+     "analogy": "Two-colour highlighters marking who owned which book before the swap: the colour records the origin, the bracket wraps the final owner.",
+     "examPointer": "Marks hide in the details - brackets on every ion and the charge sign on the top right, never the bottom."
+    },
+    "medium": {
+     "restatement": "The diagram is a conservation ledger: every cross transferred appears inside the anion's brackets, both bracketed species show complete outer shells, and the corner charges certify the electron arithmetic that keeps the compound neutral.",
+     "analogy": "A transfer receipt: the crossed items list what changed hands, the brackets wrap each final inventory, and the corner stamp totals the account.",
+     "examPointer": "Examiners check electron origin: a transferred electron must be drawn with the donor's symbol inside the acceptor's shell."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Which electrons appear in a dot-and-cross diagram?",
+     "misconceptionClass": "diagram electron scope",
+     "options": [
+      {
+       "key": "A",
+       "text": "Only the outer-shell electrons",
+       "correct": true,
+       "explanation": "Inner shells stay undrawn by convention.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Every electron the atoms own",
+       "correct": false,
+       "explanation": "Inner-shell electrons are omitted to keep the picture readable.",
+       "misconception": "scope overstated"
+      },
+      {
+       "key": "C",
+       "text": "Only the electrons the metal loses",
+       "correct": false,
+       "explanation": "The non-metal's electrons are drawn too, as dots or crosses.",
+       "misconception": "scope understated"
+      },
+      {
+       "key": "D",
+       "text": "Only the newly transferred electrons",
+       "correct": false,
+       "explanation": "The remaining outer electrons of both ions are also shown.",
+       "misconception": "scope understated"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Where is an ion's charge written on a dot-and-cross diagram?",
+     "misconceptionClass": "charge position convention",
+     "options": [
+      {
+       "key": "A",
+       "text": "At the top right-hand corner outside the bracket",
+       "correct": true,
+       "explanation": "The convention places the magnitude and sign there.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "At the bottom left of the bracket",
+       "correct": false,
+       "explanation": "The convention fixes the top right.",
+       "misconception": "position wrong"
+      },
+      {
+       "key": "C",
+       "text": "Inside the bracket beside the nucleus",
+       "correct": false,
+       "explanation": "The charge sits outside the brackets.",
+       "misconception": "position wrong"
+      },
+      {
+       "key": "D",
+       "text": "Above the whole diagram as a caption",
+       "correct": false,
+       "explanation": "Each ion carries its own corner charge.",
+       "misconception": "placement wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why do square brackets wrap each ion in the diagram?",
+     "misconceptionClass": "bracket meaning",
+     "options": [
+      {
+       "key": "A",
+       "text": "To show the charge is spread evenly over the whole ion",
+       "correct": true,
+       "explanation": "The brackets collect the ion into one unit carrying the corner charge.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "To mark atoms that failed to react",
+       "correct": false,
+       "explanation": "Brackets wrap every ionic species.",
+       "misconception": "meaning inverted"
+      },
+      {
+       "key": "C",
+       "text": "To double the electron count visually",
+       "correct": false,
+       "explanation": "Brackets change no electron count.",
+       "misconception": "effect invented"
+      },
+      {
+       "key": "D",
+       "text": "To distinguish metals from non-metals",
+       "correct": false,
+       "explanation": "Both ion types receive brackets.",
+       "misconception": "distinction wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "A lithium atom transfers its outer electron to a fluorine atom. In the diagram, the transferred electron is drawn as",
+     "misconceptionClass": "transferred electron symbol",
+     "options": [
+      {
+       "key": "A",
+       "text": "a cross inside fluorine's bracketed shell",
+       "correct": true,
+       "explanation": "Crosses track the donor lithium's electrons wherever they end up.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "a dot inside lithium's bracketed shell",
+       "correct": false,
+       "explanation": "The electron has left lithium; it is drawn at its new home.",
+       "misconception": "placement wrong"
+      },
+      {
+       "key": "C",
+       "text": "a dot and a cross side by side",
+       "correct": false,
+       "explanation": "Each electron carries exactly one origin symbol.",
+       "misconception": "doubling wrong"
+      },
+      {
+       "key": "D",
+       "text": "an open circle outside both shells",
+       "correct": false,
+       "explanation": "No third symbol exists in the convention.",
+       "misconception": "symbol invented"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What must a finished ionic dot-and-cross diagram show about both ions?",
+     "misconceptionClass": "finished diagram requirement",
+     "options": [
+      {
+       "key": "A",
+       "text": "Both ions reach full outer shells",
+       "correct": true,
+       "explanation": "The transfer completes the octets of both species.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Both ions keep partially filled shells",
+       "correct": false,
+       "explanation": "Full shells are the point of the transfer.",
+       "misconception": "outcome contradicted"
+      },
+      {
+       "key": "C",
+       "text": "The metal ion larger than the non-metal ion",
+       "correct": false,
+       "explanation": "Cations shrink; diagrams do not even fix sizes to scale.",
+       "misconception": "size claim wrong"
+      },
+      {
+       "key": "D",
+       "text": "Inner shells drawn for comparison",
+       "correct": false,
+       "explanation": "Inner shells stay off the page.",
+       "misconception": "scope overstated"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the three drawing conventions of dot-and-cross diagrams.",
+     "misconceptionClass": "diagram conventions recall",
+     "modelAnswer": "Only outer electrons appear; brackets enclose each ion to spread its charge evenly; the charge sits at the top right of the bracketed ion.",
+     "keywords": [
+      "outer",
+      "brackets",
+      "charge",
+      "top right"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Describe what electron transfer achieves for both atoms in an ionic compound.",
+     "misconceptionClass": "transfer outcome recall",
+     "modelAnswer": "The metal atom loses its outer electrons and the non-metal gains them, leaving both ions with noble gas configurations.",
+     "keywords": [
+      "loses",
+      "gains",
+      "noble gas",
+      "configuration"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why only outer-shell electrons need to be drawn in these diagrams.",
+     "misconceptionClass": "outer-only rationale",
+     "modelAnswer": "Bonding and charge are decided entirely by the valence shell: inner electrons neither transfer nor affect the attraction, so drawing them adds clutter without information.",
+     "keywords": [
+      "valence",
+      "transfer",
+      "inner",
+      "clutter"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "Draw-in-words the dot-and-cross description of sodium chloride formation from Na and Cl atoms.",
+     "misconceptionClass": "NaCl diagram application",
+     "modelAnswer": "Sodium's single outer electron (a cross) is transferred into chlorine's outer shell (dots); the diagram shows [Na]+ with an empty outer shell and [Cl]- with eight outer electrons, both bracketed with corner charges.",
+     "keywords": [
+      "transferred",
+      "bracketed",
+      "corner",
+      "charges"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Balancing charges into formulae",
+   "sourceHeadings": [
+    "Calcium fluoride"
+   ],
+   "specRefs": [
+    "3.3"
+   ],
+   "opening": "Ionic formulae are charge-balance sums. Calcium gives two electrons, so Ca2+ needs two singly charged fluoride ions to reach neutrality: CaF2. The same bookkeeping scales to harder cases - lithium nitride packs three Li+ around one N3-, and aluminium oxide pairs two Al3+ with three O2- so every charge cancels in the neutral solid.",
+   "keyPoints": [
+    "Calcium is Group 2, so it loses two electrons to form Ca2+.",
+    "Fluorine is Group 7, so each fluorine atom gains one electron to form F-.",
+    "Two fluoride ions are needed to cancel the 2+ charge of one calcium ion, giving CaF2.",
+    "Lithium nitride needs three Li+ ions against one N3- ion, giving the neutral solid Li3N.",
+    "Aluminium oxide needs two Al3+ ions against three O2- ions, giving the neutral solid Al2O3."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Work out each ion's charge from the group number, then swap-and-balance until the totals cancel to zero - that ratio is the formula.",
+     "analogy": "Trading coins of different denominations until both pockets hold equal value: the coin counts become the formula's subscripts.",
+     "examPointer": "Check neutrality before writing anything else: multiply each ion charge by its count and force the sum to zero."
+    },
+    "medium": {
+     "restatement": "Formula construction is charge algebra: the cation charge times its count plus the anion charge times its count must equal zero, which for 2+ versus 1- gives a 1:2 ratio and for 3+ versus 2- gives a 2:3 cross-multiplied ratio.",
+     "analogy": "A see-saw with two block sizes: to level it, place blocks in the cross-multiplied ratio of their weights - exactly how Al3+ and O2- settle at 2:3.",
+     "examPointer": "The lithium nitride worked example is the template: 3 x (+1) + 1 x (-3) = 0 certifies Li3N before any drawing starts."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Why does calcium fluoride contain two fluoride ions per calcium ion?",
+     "misconceptionClass": "CaF2 ratio reason",
+     "options": [
+      {
+       "key": "A",
+       "text": "Each F- carries one negative charge, so two are needed to cancel Ca2+",
+       "correct": true,
+       "explanation": "Charge neutrality forces the 1:2 ratio.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Fluorine atoms are twice as heavy",
+       "correct": false,
+       "explanation": "Mass plays no role in charge balancing.",
+       "misconception": "mass miscredited"
+      },
+      {
+       "key": "C",
+       "text": "Calcium donates two electrons to each fluorine",
+       "correct": false,
+       "explanation": "Each fluorine accepts only one electron; the calcium's two electrons go to two different atoms.",
+       "misconception": "transfer miscounted"
+      },
+      {
+       "key": "D",
+       "text": "The lattice has twice as many sites for anions",
+       "correct": false,
+       "explanation": "Site counts follow the charge ratio, not the reverse.",
+       "misconception": "logic reversed"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What charge does an aluminium ion carry, and how many electrons did it lose?",
+     "misconceptionClass": "Al ion charge",
+     "options": [
+      {
+       "key": "A",
+       "text": "3+, having lost three outer electrons",
+       "correct": true,
+       "explanation": "Group 3 metal aluminium empties its valence shell.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "2+, having lost two outer electrons",
+       "correct": false,
+       "explanation": "That describes a group 2 metal such as magnesium.",
+       "misconception": "group confused"
+      },
+      {
+       "key": "C",
+       "text": "3-, having gained three electrons",
+       "correct": false,
+       "explanation": "Metals lose electrons; gains make anions.",
+       "misconception": "direction inverted"
+      },
+      {
+       "key": "D",
+       "text": "1+, having lost one electron",
+       "correct": false,
+       "explanation": "Aluminium's valence shell holds three electrons.",
+       "misconception": "count wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which formula correctly balances Al3+ against O2-?",
+     "misconceptionClass": "Al2O3 formula",
+     "options": [
+      {
+       "key": "A",
+       "text": "Al2O3, two aluminium ions to three oxide ions",
+       "correct": true,
+       "explanation": "2 x (+3) + 3 x (-2) = 0 certifies neutrality.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "AlO3, one aluminium to three oxide ions",
+       "correct": false,
+       "explanation": "That totals +3 - 6 = -3, not neutral.",
+       "misconception": "balance failed"
+      },
+      {
+       "key": "C",
+       "text": "Al3O2, three aluminium ions to two oxide ions",
+       "correct": false,
+       "explanation": "That totals +9 - 4 = +5.",
+       "misconception": "cross-swap inverted"
+      },
+      {
+       "key": "D",
+       "text": "AlO, one of each",
+       "correct": false,
+       "explanation": "That totals +3 - 2 = +1.",
+       "misconception": "balance failed"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Lithium nitride contains three lithium ions per nitride ion. What charge does a nitride ion carry?",
+     "misconceptionClass": "nitride charge",
+     "options": [
+      {
+       "key": "A",
+       "text": "3-, since three Li+ ions (each +1) cancel one N3-",
+       "correct": true,
+       "explanation": "3(+1) + (-3) = 0 keeps Li3N neutral.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "1-, matching each lithium ion",
+       "correct": false,
+       "explanation": "One-to-one would leave the crystal neutral with LiN, but the formula is Li3N.",
+       "misconception": "ratio misread"
+      },
+      {
+       "key": "C",
+       "text": "2-, needing two lithium ions",
+       "correct": false,
+       "explanation": "Two cancellations leave one lithium charge unbalanced.",
+       "misconception": "arithmetic off"
+      },
+      {
+       "key": "D",
+       "text": "3+, a positive nitrogen ion",
+       "correct": false,
+       "explanation": "Nitrogen is a non-metal; its ion is negative.",
+       "misconception": "sign wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "In the calcium fluoride lattice, what must hold for the crystal to be neutral?",
+     "misconceptionClass": "CaF2 neutrality condition",
+     "options": [
+      {
+       "key": "A",
+       "text": "Every Ca2+ is balanced by two nearby F- ions throughout the structure",
+       "correct": true,
+       "explanation": "The 1:2 ionic ratio repeats across the whole lattice, cancelling all charge.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Some electrons roam freely to even out charge",
+       "correct": false,
+       "explanation": "Ionic lattices have no delocalised electrons.",
+       "misconception": "metallic picture borrowed"
+      },
+      {
+       "key": "C",
+       "text": "Half the calcium ions are actually neutral atoms",
+       "correct": false,
+       "explanation": "All species are ions in the compound.",
+       "misconception": "species misidentified"
+      },
+      {
+       "key": "D",
+       "text": "The fluorine ions share their extra electrons",
+       "correct": false,
+       "explanation": "The gained electrons stay with each fluoride ion.",
+       "misconception": "sharing misclaimed"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the formula of calcium fluoride and the charges that produce it.",
+     "misconceptionClass": "CaF2 recall",
+     "modelAnswer": "CaF2 forms from Ca2+ and F- ions: two singly charged fluoride ions balance one doubly charged calcium ion.",
+     "keywords": [
+      "CaF2",
+      "Ca2+",
+      "F-",
+      "balance"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the formulae of lithium nitride and aluminium oxide.",
+     "misconceptionClass": "Li3N Al2O3 recall",
+     "modelAnswer": "Lithium nitride is Li3N (three Li+ per N3-) and aluminium oxide is Al2O3 (two Al3+ per three O2-).",
+     "keywords": [
+      "Li3N",
+      "Al2O3",
+      "three",
+      "oxide"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why aluminium oxide cannot have the formula AlO.",
+     "misconceptionClass": "AlO impossibility",
+     "modelAnswer": "AlO would carry +3 from aluminium against only -2 from one oxide ion, leaving a net +1 charge; neutrality requires the cross-multiplied 2:3 ratio of Al2O3.",
+     "keywords": [
+      "+3",
+      "-2",
+      "net",
+      "neutrality"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "Use the charge-balance rule to build the formula of calcium chloride, then state why it matches the calcium fluoride pattern.",
+     "misconceptionClass": "charge balance application",
+     "modelAnswer": "Ca2+ meets two Cl- ions: 1 x (+2) + 2 x (-1) = 0, so the formula is CaCl2 - the same 1:2 ratio as CaF2 because both anions carry a single negative charge.",
+     "keywords": [
+      "Ca2+",
+      "Cl-",
+      "CaCl2",
+      "ratio"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "ionic bond",
+    "definition": "The strong electrostatic attraction between oppositely charged ions, acting in all directions.",
+    "firstLesson": 1
+   },
+   {
+    "term": "dot-and-cross diagram",
+    "definition": "A drawing of outer-shell electrons, with dots and crosses marking each atom's electrons and brackets carrying the ionic charges.",
+    "firstLesson": 2
+   },
+   {
+    "term": "noble gas configuration",
+    "definition": "The full outer-shell electron arrangement of a noble gas, reached by both ions after transfer.",
+    "firstLesson": 1
+   }
+  ],
+  "workedExample": {
+   "prompt": "Draw a dot-and-cross description for lithium nitride: what ratio of ions makes the solid neutral, and why?",
+   "steps": [
+    "Lithium is Group 1: each Li atom loses one electron, forming Li+.",
+    "Nitrogen is Group 5: the N atom gains three electrons, forming N3-.",
+    "Cancel the -3 charge: three Li+ ions are needed, 3 x (+1) + 1 x (-3) = 0.",
+    "Lithium nitride is Li3N - one nitride ion ionically bonded to three lithium ions."
+   ],
+   "finalAnswer": "Li3N: three lithium ions balance one nitride ion, and the solid is neutral."
+  }
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/2bfe6fc7e3de-1-3-chemical-bonding-metals-forming-cations.png",
+   "alt": "Chemical Bonding Metals forming Cations, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Ionic Dot & Cross Diagrams",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "Forming cations by the removal of electrons from metals"
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/2c5e4d98d579-1-3-chemical-bonding-non-metals-forming-anions.png",
+   "alt": "Chemical Bonding Non-metals Forming Anions, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Ionic Dot & Cross Diagrams",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "Forming anions by the addition of electrons to nonmetals"
+  },
+  {
+   "id": "fig-03",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/04083ec6dfe5-1-3-chemical-bonding-forming-ionic-compounds.png",
+   "alt": "Chemical Bonding Forming Ionic Compounds, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Ionic Dot & Cross Diagrams",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "Cations and anions bond together using strong electrostatic forces, which require a lot of energy to overcome"
+  },
+  {
+   "id": "fig-04",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/916aebec88fa-1-3-chemical-bonding-ionic-lattice.png",
+   "alt": "Chemical Bonding Ionic Lattice, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Ionic Dot & Cross Diagrams",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "Ionic solids are arranged in lattice structures"
+  },
+  {
+   "id": "fig-05",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/813d9aedce0b-1-3-chemical-bonding-ionic-dot-cross.png",
+   "alt": "Chemical Bonding Ionic Dot & Cross, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Ionic compounds",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "Dot-and-cross diagrams of ionic compounds in which one of the atoms transfers their valence electrons to the other"
+  },
+  {
+   "id": "fig-06",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/c76b8f922845-1-3-chemical-bonding-lithium-nitride-cross-diagr.png",
+   "alt": "Chemical Bonding Lithium Nitride Cross Diagram, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Calcium fluoride",
+   "moduleIds": [
+    "L3"
+   ],
+   "binding": "heading-unique",
+   "caption": "Dot and cross diagram to show the ionic bonding in lithium nitride"
+  },
+  {
+   "id": "fig-07",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/be60f4a16694-1-3-chemical-bonding-aluminium-oxide-cross-diagr.png",
+   "alt": "Chemical Bonding Aluminium Oxide Cross Diagram, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Calcium fluoride",
+   "moduleIds": [
+    "L3"
+   ],
+   "binding": "heading-unique",
+   "caption": "Dot and cross diagram to show the ionic bonding in aluminium oxide"
+  }
+ ]
+}

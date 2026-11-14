@@ -1,0 +1,605 @@
+{
+ "format": "guided-lesson/0.8",
+ "noteRef": {
+  "noteId": "rn_Tvxs28xrnwtx4Jbm",
+  "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+  "topicTitle": "1. Structure, Bonding & Introduction to Organic Chemistry",
+  "subtopicTitle": "Functional Groups & Homologous Series",
+  "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/1-structure-bonding-and-introduction-to-organic-chemistry/1-8-introductory-organic-chemistry/1-8-2-functional-groups-and-homologous-series"
+ },
+ "specPoints": [
+  {
+   "code": "4.4",
+   "text": "understand the concepts of homologous series and functional group"
+  }
+ ],
+ "primer": {
+  "text": "Organic chemistry runs on families: a homologous series shares one functional group and climbs by CH2 steps, its chemistry constant while boiling points and densities drift upward. The functional group is the property engine, and R - any group except hydrogen - generalises it across skeletons. This note defines the series and reads the groups table.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "Families that grow by CH2",
+   "sourceHeadings": [
+    "Homologous series",
+    "Homologous Series of Alkanes"
+   ],
+   "specRefs": [
+    "4.4"
+   ],
+   "opening": "A homologous series is organic chemistry's family tree: compounds sharing one functional group, each successive member one CH2 longer than the last. Members share a general formula and near-identical chemistry, while their physical properties - boiling point, melting point, density - slide gradually as the molecules grow. Ethanol to propanol is exactly one CH2 step; the alkane series is the classic ladder.",
+   "keyPoints": [
+    "Members of a homologous series all carry the same functional group.",
+    "Each successive member differs by a CH2 unit.",
+    "Every member shares the same general formula and similar chemical properties.",
+    "Physical properties - boiling point, melting point, density - change gradually along the series.",
+    "Ascending the series enlarges the molecules, shifting those physical properties."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Same reactive group, same formula pattern, one CH2 per rung: the family climbs a ladder of ever-so-slightly heavier molecules.",
+     "analogy": "One house design (functional group) built on plots of growing size: same layout, steadily larger garden each step.",
+     "examPointer": "The CH2 increment is the definitional phrase - quote 'successive members differ by CH2' verbatim."
+    },
+    "medium": {
+     "restatement": "The series is defined chemically (shared functional group and general formula) and graded physically: each CH2 addition raises molecular size, so dispersion-driven properties like boiling point and density climb gradually while reactivity stays put.",
+     "analogy": "A staircase where every step is the same height (CH2) but the view (physical properties) changes slowly with altitude.",
+     "examPointer": "Distinguish the invariants (functional group, general formula, chemical properties) from the sliders (boiling point, melting point, density)."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "What must every member of a homologous series share?",
+     "misconceptionClass": "series shared trait",
+     "options": [
+      {
+       "key": "A",
+       "text": "The same functional group",
+       "correct": true,
+       "explanation": "That is the defining membership test.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The same number of carbon atoms",
+       "correct": false,
+       "explanation": "Members differ by CH2, so carbon counts grow.",
+       "misconception": "trait mispicked"
+      },
+      {
+       "key": "C",
+       "text": "The same boiling point",
+       "correct": false,
+       "explanation": "Physical properties change gradually, not identically.",
+       "misconception": "trait mispicked"
+      },
+      {
+       "key": "D",
+       "text": "The same density",
+       "correct": false,
+       "explanation": "Density shifts as molecules grow.",
+       "misconception": "trait mispicked"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "By how much does each successive member of a homologous series differ?",
+     "misconceptionClass": "CH2 increment",
+     "options": [
+      {
+       "key": "A",
+       "text": "By one CH2 unit",
+       "correct": true,
+       "explanation": "The definitional increment of the family.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "By one CH3 unit",
+       "correct": false,
+       "explanation": "No CH3 increment exists in the definition.",
+       "misconception": "increment wrong"
+      },
+      {
+       "key": "C",
+       "text": "By one carbon atom alone",
+       "correct": false,
+       "explanation": "The step adds carbon AND two hydrogens together.",
+       "misconception": "increment incomplete"
+      },
+      {
+       "key": "D",
+       "text": "By nothing - members are identical",
+       "correct": false,
+       "explanation": "Members differ by CH2.",
+       "misconception": "difference denied"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What happens to physical properties as a homologous series is ascended?",
+     "misconceptionClass": "property drift direction",
+     "options": [
+      {
+       "key": "A",
+       "text": "They change gradually as the molecules increase in size",
+       "correct": true,
+       "explanation": "Boiling point, melting point and density slide along the ladder.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "They stay exactly constant",
+       "correct": false,
+       "explanation": "Only chemical properties stay similar.",
+       "misconception": "drift denied"
+      },
+      {
+       "key": "C",
+       "text": "They change randomly from member to member",
+       "correct": false,
+       "explanation": "The change is gradual and systematic.",
+       "misconception": "drift randomised"
+      },
+      {
+       "key": "D",
+       "text": "They all jump sharply at each step",
+       "correct": false,
+       "explanation": "The changes are gradual, not jumps.",
+       "misconception": "drift exaggerated"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why do ethanol and propanol sit in one homologous series?",
+     "misconceptionClass": "ethanol propanol membership",
+     "options": [
+      {
+       "key": "A",
+       "text": "they share the same functional group and propanol is one CH2 longer",
+       "correct": true,
+       "explanation": "One increment up the same family ladder.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "they have the same number of hydrogens",
+       "correct": false,
+       "explanation": "Their hydrogen counts differ.",
+       "misconception": "count misstated"
+      },
+      {
+       "key": "C",
+       "text": "they have identical boiling points",
+       "correct": false,
+       "explanation": "Their boiling points differ.",
+       "misconception": "property misstated"
+      },
+      {
+       "key": "D",
+       "text": "one is the alkane series member",
+       "correct": false,
+       "explanation": "Both are alcohols, not alkanes.",
+       "misconception": "series misnamed"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which set of properties would you expect to be SIMILAR across a homologous series?",
+     "misconceptionClass": "chemical similarity scope",
+     "options": [
+      {
+       "key": "A",
+       "text": "Chemical properties, because the functional group is shared",
+       "correct": true,
+       "explanation": "Reactivity follows the group.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Boiling points",
+       "correct": false,
+       "explanation": "Those drift gradually upward.",
+       "misconception": "property mispicked"
+      },
+      {
+       "key": "C",
+       "text": "Melting points",
+       "correct": false,
+       "explanation": "They drift too.",
+       "misconception": "property mispicked"
+      },
+      {
+       "key": "D",
+       "text": "Densities",
+       "correct": false,
+       "explanation": "They also change gradually.",
+       "misconception": "property mispicked"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Define a homologous series.",
+     "misconceptionClass": "definition recall",
+     "modelAnswer": "A homologous series gathers organic compounds sharing one functional group, and each step up the series adds a CH2.",
+     "keywords": [
+      "organic compounds",
+      "same functional group",
+      "successive",
+      "CH2"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State what members of a homologous series share and what changes gradually.",
+     "misconceptionClass": "invariants sliders recall",
+     "modelAnswer": "They share the functional group, general formula and similar chemical properties; boiling point, melting point and density change gradually.",
+     "keywords": [
+      "functional group",
+      "general formula",
+      "chemical",
+      "gradually"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why ascending a homologous series changes boiling point but not chemical behaviour.",
+     "misconceptionClass": "size vs reactivity logic",
+     "modelAnswer": "Each CH2 step enlarges the molecule, raising the intermolecular attractions that boiling must overcome, while the reactive site - the functional group - stays identical, so the chemistry is unchanged.",
+     "keywords": [
+      "CH2",
+      "intermolecular",
+      "functional group",
+      "unchanged"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "An unknown alcohol sits two rungs above ethanol in its series. State the increment between them and the effect on boiling point.",
+     "misconceptionClass": "two-rung application",
+     "modelAnswer": "Two successive CH2 increments separate them - two CH2 units in total - so the unknown is larger and boils higher than ethanol, with the change gradual across the two steps.",
+     "keywords": [
+      "CH2",
+      "two",
+      "larger",
+      "boils higher"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Functional groups run the show",
+   "sourceHeadings": [
+    "Functional Groups",
+    "Functional Groups Found in Compounds Table"
+   ],
+   "specRefs": [
+    "4.4"
+   ],
+   "opening": "The functional group is the business end of an organic molecule: the atom or group that determines its physical and chemical properties. In the common-groups table, R is the placeholder for whatever other atom or atom-cluster the molecule carries, hydrogen excepted - one group pattern, a whole family of compounds.",
+   "keyPoints": [
+    "Physical behaviour and chemical reactivity both flow from the functional group.",
+    "The common functional groups are summarised in a reference table.",
+    "R is the stand-in for any other atom or atom-group - hydrogen excluded.",
+    "Identifying the functional group identifies the reactive behaviour of the compound.",
+    "The same group pattern in different molecules places them in the same homologous series."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Find the functional group and you have found the molecule's personality: how it reacts and much of how it behaves.",
+     "analogy": "The engine in a car: body and colour vary (the R group), but the engine decides how it drives.",
+     "examPointer": "Remember R's restriction: any atom or group EXCEPT hydrogen - hydrogen gets its own explicit slot in the tables."
+    },
+    "medium": {
+     "restatement": "Functional groups are the reactive determinants of organic chemistry: the group's bonding pattern fixes both the chemical reactions available and the physical behaviour of the class, while R generalises the pattern across every carbon skeleton except bare hydrogen.",
+     "analogy": "A USB port standardises what any device can do regardless of its housing - the group defines the interface, R is the housing.",
+     "examPointer": "When asked to identify a series or predict reactions, point at the functional group first and the R group second."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "What do functional groups determine?",
+     "misconceptionClass": "group determinants",
+     "options": [
+      {
+       "key": "A",
+       "text": "The physical and chemical properties of molecules",
+       "correct": true,
+       "explanation": "The group is the property engine.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Only the colour of a compound",
+       "correct": false,
+       "explanation": "Colour is incidental.",
+       "misconception": "scope narrowed"
+      },
+      {
+       "key": "C",
+       "text": "Only the molecular mass",
+       "correct": false,
+       "explanation": "Mass belongs to the whole molecule, not the group.",
+       "misconception": "scope narrowed"
+      },
+      {
+       "key": "D",
+       "text": "Nothing - they are decorative labels",
+       "correct": false,
+       "explanation": "They are the reactive core.",
+       "misconception": "importance denied"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "In functional-group tables, what does R represent?",
+     "misconceptionClass": "R meaning",
+     "options": [
+      {
+       "key": "A",
+       "text": "Whatever other atom or atom-cluster the molecule carries, hydrogen barred",
+       "correct": true,
+       "explanation": "The placeholder definition of record.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Any atom including hydrogen",
+       "correct": false,
+       "explanation": "Hydrogen is explicitly excluded.",
+       "misconception": "restriction dropped"
+      },
+      {
+       "key": "C",
+       "text": "A radical sign",
+       "correct": false,
+       "explanation": "R is a placeholder, not an operator.",
+       "misconception": "meaning misstated"
+      },
+      {
+       "key": "D",
+       "text": "The rare-earth metals",
+       "correct": false,
+       "explanation": "No such restriction applies.",
+       "misconception": "meaning misstated"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why do ethanol and propanol share their chemical reactivity?",
+     "misconceptionClass": "same group same reactions",
+     "options": [
+      {
+       "key": "A",
+       "text": "Both carry the same functional group, which runs their chemistry",
+       "correct": true,
+       "explanation": "The shared group gives shared reactions.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "They have identical chain lengths",
+       "correct": false,
+       "explanation": "Propanol is one CH2 longer.",
+       "misconception": "length misstated"
+      },
+      {
+       "key": "C",
+       "text": "They have the same boiling point",
+       "correct": false,
+       "explanation": "Their physical properties differ.",
+       "misconception": "property misstated"
+      },
+      {
+       "key": "D",
+       "text": "Both are alkanes",
+       "correct": false,
+       "explanation": "They belong to the alcohol series.",
+       "misconception": "series misnamed"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "A molecule's formula changes but its functional group stays the same. What happens to its chemistry?",
+     "misconceptionClass": "group constancy",
+     "options": [
+      {
+       "key": "A",
+       "text": "Its chemical properties stay essentially the same, run by the unchanged group",
+       "correct": true,
+       "explanation": "Reactivity follows the group.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Its chemistry changes completely",
+       "correct": false,
+       "explanation": "The group, not the chain, drives reactivity.",
+       "misconception": "claim inverted"
+      },
+      {
+       "key": "C",
+       "text": "It stops reacting altogether",
+       "correct": false,
+       "explanation": "The group still reacts.",
+       "misconception": "reactivity denied"
+      },
+      {
+       "key": "D",
+       "text": "It becomes a different homologous series",
+       "correct": false,
+       "explanation": "The same group keeps it in the same series.",
+       "misconception": "membership misstated"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Where would you look up the pattern of a functional group you need to identify?",
+     "misconceptionClass": "reference table use",
+     "options": [
+      {
+       "key": "A",
+       "text": "In the summary table of common functional groups found in compounds",
+       "correct": true,
+       "explanation": "The table is the reference of record.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "In the periodic table",
+       "correct": false,
+       "explanation": "The periodic table lists elements, not organic groups.",
+       "misconception": "source wrong"
+      },
+      {
+       "key": "C",
+       "text": "In the hazard symbol chart",
+       "correct": false,
+       "explanation": "That covers safety pictograms.",
+       "misconception": "source wrong"
+      },
+      {
+       "key": "D",
+       "text": "Nowhere - they must be memorised without patterns",
+       "correct": false,
+       "explanation": "The table summarises the patterns.",
+       "misconception": "source denied"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the role of a functional group in a molecule.",
+     "misconceptionClass": "role recall",
+     "modelAnswer": "The functional group determines the physical and chemical properties of the molecule.",
+     "keywords": [
+      "determines",
+      "physical",
+      "chemical",
+      "properties"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State what R stands for in the functional-group table.",
+     "misconceptionClass": "R recall",
+     "modelAnswer": "R stands for whatever other atom or atom-cluster the molecule carries, with hydrogen explicitly excluded.",
+     "keywords": [
+      "any",
+      "atom",
+      "group",
+      "hydrogen"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why the functional group, rather than the carbon chain, decides a molecule's reactions.",
+     "misconceptionClass": "group primacy logic",
+     "modelAnswer": "Reactions happen at sites of particular bonding patterns, and the functional group is exactly that site; the carbon chain is mostly spectator framework, so swapping CH2 units leaves the reactive behaviour in place.",
+     "keywords": [
+      "bonding pattern",
+      "site",
+      "spectator",
+      "reactive"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "Two molecules share a functional group but differ by three CH2 units. Predict their relative reactivity and boiling points.",
+     "misconceptionClass": "dual prediction application",
+     "modelAnswer": "Their reactivity is similar - the same group runs both - while the three-CH2-longer molecule is larger and so boils higher, the gradual size effect on physical properties.",
+     "keywords": [
+      "similar",
+      "reactivity",
+      "larger",
+      "boils higher"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "homologous series",
+    "definition": "A family of organic compounds sharing a functional group, whose successive members differ by CH2.",
+    "firstLesson": 1
+   },
+   {
+    "term": "functional group",
+    "definition": "The atom or group of atoms that determines a molecule's physical and chemical properties.",
+    "firstLesson": 2
+   },
+   {
+    "term": "general formula",
+    "definition": "The formula pattern shared by every member of a homologous series.",
+    "firstLesson": 1
+   }
+  ],
+  "workedExample": null
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/0c68d5b73287-3-1-an-introduction-to-as-level-organic-chemistr.png",
+   "alt": "An Introduction to AS Level Organic Chemistry Ethanol and Propanol, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Homologous series",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "Ethanol and propanol belong to the same homologous series"
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/067804485f6d-10-1-1-homologous-series-of-alkanes-2.png",
+   "alt": "Homologous series of alkanes ladder from methane upward",
+   "sourceHeading": "Homologous Series of Alkanes",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique"
+  },
+  {
+   "id": "fig-03",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/20e04e739203-3-1-an-introduction-to-as-level-organic-chemistr.png",
+   "alt": "An Introduction to AS Level Organic Chemistry Functional Groups, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Functional Groups Found in Compounds Table",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique"
+  }
+ ]
+}

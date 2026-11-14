@@ -1,0 +1,919 @@
+{
+ "format": "guided-lesson/0.8",
+ "noteRef": {
+  "noteId": "rn_vBQd2YP2PXQdTq9M",
+  "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+  "topicTitle": "1. Structure, Bonding & Introduction to Organic Chemistry",
+  "subtopicTitle": "Predicting Shapes & Angles",
+  "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/1-structure-bonding-and-introduction-to-organic-chemistry/1-7-covalent-bonding-and-structure/1-7-6-predicting-shapes-and-angles"
+ },
+ "specPoints": [
+  {
+   "code": "3.19",
+   "text": "be able to apply the electron-pair repulsion theory to predict the shapes of, and bond angles in, molecules and ions analogous to those in 3.18"
+  }
+ ],
+ "primer": {
+  "text": "Ten molecules carry the shape catalogue: BeCl2 linear at 180, BCl3 trigonal planar at 120, methane's perfect tetrahedron at 109.5, ammonia squeezed to 107 by its lone pair, ammonium restored to 109.5, PCl5's bipyramid mixing 120 with 90, and ethene's carbons flat at 120. This note audits each one's electron count and reads off the geometry.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "Two deficient classics: BeCl2 and BCl3",
+   "sourceHeadings": [
+    "Predicting Shapes & Angles"
+   ],
+   "specRefs": [
+    "3.19"
+   ],
+   "opening": "Beryllium chloride and boron trichloride are the textbook cases of incomplete octets wearing elegant geometry. Beryllium brings two valence electrons and spends both on bonds, boron brings three and does the same - no lone pairs either way - so their electron domains spread to the cleanest minimum-repulsion layouts: a straight line at 180 degrees and a flat triangle at 120.",
+   "keyPoints": [
+    "Beryllium has 2 valence electrons, both used for bonds to chlorine, leaving no lone pairs and an electron-deficient centre.",
+    "BeCl2 is linear with a bond angle of 180 degrees.",
+    "Boron has 3 valence electrons, all used for bonds to chlorine, also electron deficient.",
+    "BCl3 is trigonal planar with bond angles of 120 degrees.",
+    "Accommodating fewer than 8 outer electrons is exactly what 'electron deficient' means."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Count the bonds, not the octet: two bonds spread straight (180), three spread flat (120) - deficiency does not disturb the geometry.",
+     "analogy": "A two-arm and a three-arm coat rack: arms spread straight or evenly triangular regardless of how empty the rack is.",
+     "examPointer": "Name the deficiency explicitly when drawing BeCl2 or BCl3 - examiners reward the labelled exception."
+    },
+    "medium": {
+     "restatement": "With zero lone pairs, the domain geometry is pure: two bonding domains oppose at 180, three repel evenly at 120; the octet shortfall changes the electron count but not the repulsion arithmetic.",
+     "analogy": "An under-booked hotel still assigns rooms by the same floor plan: fewer guests, same geometry.",
+     "examPointer": "Quote both angle and shape in one breath: 'linear, 180' and 'trigonal planar, 120'."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Why is BeCl2 linear?",
+     "misconceptionClass": "BeCl2 shape reason",
+     "options": [
+      {
+       "key": "A",
+       "text": "Two bonding domains and no lone pairs spread to opposite sides at 180 degrees",
+       "correct": true,
+       "explanation": "Minimum repulsion for two domains is a straight line.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Chlorine atoms repel beryllium's full octet",
+       "correct": false,
+       "explanation": "Be has no full octet - it is deficient.",
+       "misconception": "octet misclaimed"
+      },
+      {
+       "key": "C",
+       "text": "A lone pair forces the bonds apart",
+       "correct": false,
+       "explanation": "BeCl2 has no lone pairs.",
+       "misconception": "lone pair invented"
+      },
+      {
+       "key": "D",
+       "text": "The chlorines attract each other sideways",
+       "correct": false,
+       "explanation": "Geometry follows domains around the central atom.",
+       "misconception": "mechanism misstated"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What shape and angle does BCl3 adopt?",
+     "misconceptionClass": "BCl3 shape angle",
+     "options": [
+      {
+       "key": "A",
+       "text": "Trigonal planar, 120 degrees",
+       "correct": true,
+       "explanation": "Three even domains spread in a plane.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Linear, 180 degrees",
+       "correct": false,
+       "explanation": "That is BeCl2's layout.",
+       "misconception": "shape swapped"
+      },
+      {
+       "key": "C",
+       "text": "Tetrahedral, 109.5 degrees",
+       "correct": false,
+       "explanation": "That needs four domains.",
+       "misconception": "shape overshoots"
+      },
+      {
+       "key": "D",
+       "text": "Pyramidal, 107 degrees",
+       "correct": false,
+       "explanation": "That needs a lone pair.",
+       "misconception": "shape mismatched"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What does 'electron deficient' mean for these central atoms?",
+     "misconceptionClass": "deficiency meaning",
+     "options": [
+      {
+       "key": "A",
+       "text": "They accommodate fewer than 8 electrons in their outer shell",
+       "correct": true,
+       "explanation": "Be holds 4 bonding electrons, B holds 6.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "They hold more than 8 outer electrons",
+       "correct": false,
+       "explanation": "That is expansion, not deficiency.",
+       "misconception": "meaning inverted"
+      },
+      {
+       "key": "C",
+       "text": "They carry a full negative charge",
+       "correct": false,
+       "explanation": "Neither molecule is charged.",
+       "misconception": "charge misstated"
+      },
+      {
+       "key": "D",
+       "text": "They have no electrons at all",
+       "correct": false,
+       "explanation": "Both hold several bonding electrons.",
+       "misconception": "claim extreme"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "How many valence electrons does boron bring to BCl3, and where do they go?",
+     "misconceptionClass": "boron electron ledger",
+     "options": [
+      {
+       "key": "A",
+       "text": "Three - all three form bonds to chlorine, none left as a lone pair",
+       "correct": true,
+       "explanation": "Group 13 supplies three bonding electrons.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Five - three bond, two stay lone",
+       "correct": false,
+       "explanation": "Boron has no lone pair in BCl3.",
+       "misconception": "count wrong"
+      },
+      {
+       "key": "C",
+       "text": "Seven - matching each chlorine",
+       "correct": false,
+       "explanation": "Seven belongs to each chlorine atom.",
+       "misconception": "count wrong"
+      },
+      {
+       "key": "D",
+       "text": "Two - matching beryllium",
+       "correct": false,
+       "explanation": "Beryllium is the other central atom.",
+       "misconception": "atom confused"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which statement about the lone pairs in BeCl2 and BCl3 is correct?",
+     "misconceptionClass": "lone pair census",
+     "options": [
+      {
+       "key": "A",
+       "text": "Both molecules have no lone pairs on the central atom",
+       "correct": true,
+       "explanation": "Every valence electron is spent on bonding.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "BeCl2 has one lone pair",
+       "correct": false,
+       "explanation": "Beryllium's both electrons bond.",
+       "misconception": "count wrong"
+      },
+      {
+       "key": "C",
+       "text": "BCl3 has one lone pair",
+       "correct": false,
+       "explanation": "Boron's three electrons all bond.",
+       "misconception": "count wrong"
+      },
+      {
+       "key": "D",
+       "text": "Both have two lone pairs",
+       "correct": false,
+       "explanation": "Neither central atom retains electrons.",
+       "misconception": "count wrong"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the shape and bond angle of BeCl2.",
+     "misconceptionClass": "BeCl2 recall",
+     "modelAnswer": "Linear, with a bond angle of 180 degrees.",
+     "keywords": [
+      "linear",
+      "180",
+      "degrees",
+      "shape"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the shape and bond angle of BCl3.",
+     "misconceptionClass": "BCl3 recall",
+     "modelAnswer": "Trigonal planar, with bond angles of 120 degrees.",
+     "keywords": [
+      "trigonal planar",
+      "120",
+      "degrees",
+      "shape"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why electron deficiency in BeCl2 and BCl3 does not distort their shapes.",
+     "misconceptionClass": "deficiency shape logic",
+     "modelAnswer": "Shape is set by repulsion among the electron domains present; with no lone pairs competing, the bonding domains alone spread evenly - two to 180, three to 120 - so the missing octet electrons simply never enter the geometry.",
+     "keywords": [
+      "domains",
+      "no lone pairs",
+      "evenly",
+      "geometry"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A student claims BeCl2 should be bent like water because both have two bonds. Assemble the rebuttal.",
+     "misconceptionClass": "rebuttal application",
+     "modelAnswer": "Water's oxygen carries two lone pairs that squeeze its bonds to 104.5-ish geometry; beryllium in BeCl2 has no lone pairs at all, so its two domains spread to the full 180 degree line.",
+     "keywords": [
+      "lone pairs",
+      "squeeze",
+      "180",
+      "deficient"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The tetrahedral family: CH4, NH3, NH4+",
+   "sourceHeadings": [
+    "Predicting Shapes & Angles"
+   ],
+   "specRefs": [
+    "3.19"
+   ],
+   "opening": "Four electron domains build tetrahedra - and the fourth member of the family shows how lone pairs bend the rules. Methane's four bonds spread to the full 109.5 degrees; ammonia's lone pair squeezes its three bonds down to 107 in a trigonal pyramid; the ammonium ion, its lone pair spent on a dative bond to H+, snaps back to a perfect tetrahedral 109.5.",
+   "keyPoints": [
+    "Methane's carbon has 4 valence electrons, all bonding four hydrogens with no lone pairs.",
+    "CH4 is tetrahedral with a bond angle of 109.5 degrees.",
+    "Ammonia's nitrogen bonds three hydrogens and keeps one lone pair, giving a trigonal pyramid at 107 degrees.",
+    "The lone pair's extra repulsion squeezes NH3's angle below the tetrahedral value.",
+    "NH4+ uses its fourth pair in a dative bond, restoring a tetrahedral 109.5 like CH4."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Four bonds sit at 109.5; swap one bond for a lone pair and the angle drops to 107; spend that lone pair on a dative bond and the 109.5 returns.",
+     "analogy": "Four equal sofa cushions spread evenly; replace one with a fatter cushion (lone pair) and the others lean away; swap the fat cushion back and the even spread returns.",
+     "examPointer": "The 107 versus 109.5 contrast is the classic mark: attribute the difference to lone-pair repulsion, not to nitrogen's identity."
+    },
+    "medium": {
+     "restatement": "Domain accounting decides the angle: four equal bonding domains give 109.5, but a lone pair's denser cloud presses the remaining bonds together (107 in NH3); donating that pair to a proton converts it into an ordinary bonding domain, and the tetrahedral angle is restored in NH4+.",
+     "analogy": "A parking bay: four equal cars fit evenly; an oversized van (lone pair) forces neighbours closer; remove the van for a standard car (dative bond) and even spacing returns.",
+     "examPointer": "For NH4+, say 'dative covalent bond from nitrogen's pair to H+' - the dative language is part of the mark."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "What is the bond angle in methane?",
+     "misconceptionClass": "CH4 angle",
+     "options": [
+      {
+       "key": "A",
+       "text": "109.5 degrees",
+       "correct": true,
+       "explanation": "Four equal bonding domains spread tetrahedrally.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "107 degrees",
+       "correct": false,
+       "explanation": "That is ammonia's squeezed angle.",
+       "misconception": "angle misassigned"
+      },
+      {
+       "key": "C",
+       "text": "120 degrees",
+       "correct": false,
+       "explanation": "That is the planar value.",
+       "misconception": "angle misassigned"
+      },
+      {
+       "key": "D",
+       "text": "180 degrees",
+       "correct": false,
+       "explanation": "That is linear geometry.",
+       "misconception": "angle misassigned"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why does NH3 show a smaller bond angle than CH4?",
+     "misconceptionClass": "NH3 angle squeeze",
+     "options": [
+      {
+       "key": "A",
+       "text": "Its lone pair repels more strongly than a bonding pair, squeezing the three bonds to 107",
+       "correct": true,
+       "explanation": "The concentrated lone cloud presses the bonds together.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Nitrogen has fewer electrons than carbon",
+       "correct": false,
+       "explanation": "Nitrogen has more, and the count is not the mechanism.",
+       "misconception": "cause misattributed"
+      },
+      {
+       "key": "C",
+       "text": "Hydrogen atoms repel each other unusually",
+       "correct": false,
+       "explanation": "The repulsion pattern is normal.",
+       "misconception": "cause misattributed"
+      },
+      {
+       "key": "D",
+       "text": "The molecule is flat",
+       "correct": false,
+       "explanation": "NH3 is a trigonal pyramid in 3D.",
+       "misconception": "shape misstated"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "With three bonds and one lone pair on nitrogen, which shape does NH3 adopt?",
+     "misconceptionClass": "NH3 shape",
+     "options": [
+      {
+       "key": "A",
+       "text": "Trigonal pyramid",
+       "correct": true,
+       "explanation": "Three bonds plus one lone pair on nitrogen.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Tetrahedral",
+       "correct": false,
+       "explanation": "The domain count is four but one is a lone pair; the molecular shape is pyramidal.",
+       "misconception": "shape misassigned"
+      },
+      {
+       "key": "C",
+       "text": "Trigonal planar",
+       "correct": false,
+       "explanation": "That needs three bonding domains only.",
+       "misconception": "shape misassigned"
+      },
+      {
+       "key": "D",
+       "text": "Linear",
+       "correct": false,
+       "explanation": "Three bonds cannot be linear.",
+       "misconception": "shape misassigned"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why is NH4+ tetrahedral with a 109.5 degree angle like CH4?",
+     "misconceptionClass": "NH4+ angle reason",
+     "options": [
+      {
+       "key": "A",
+       "text": "Its lone pair became a dative bond, so all four domains are bonding pairs",
+       "correct": true,
+       "explanation": "Four equal domains spread to the tetrahedral angle.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The positive charge widens the angle",
+       "correct": false,
+       "explanation": "Charge is not the mechanism; domain type is.",
+       "misconception": "cause misattributed"
+      },
+      {
+       "key": "C",
+       "text": "Hydrogen atoms are larger there",
+       "correct": false,
+       "explanation": "The hydrogens are unchanged.",
+       "misconception": "cause misattributed"
+      },
+      {
+       "key": "D",
+       "text": "It lost its lone pair entirely to space",
+       "correct": false,
+       "explanation": "The pair sits in the N-H dative bond.",
+       "misconception": "destination misstated"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "How many of nitrogen's five valence electrons are bonding, and how many lone, in NH3?",
+     "misconceptionClass": "NH3 electron ledger",
+     "options": [
+      {
+       "key": "A",
+       "text": "Three bonding, two lone - one lone pair",
+       "correct": true,
+       "explanation": "The 5-valence ledger splits 3+2.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Four bonding, one lone",
+       "correct": false,
+       "explanation": "Nitrogen forms exactly three N-H bonds.",
+       "misconception": "split wrong"
+      },
+      {
+       "key": "C",
+       "text": "Five bonding, none lone",
+       "correct": false,
+       "explanation": "Three hydrogens accept three pairs.",
+       "misconception": "split wrong"
+      },
+      {
+       "key": "D",
+       "text": "Two bonding, three lone",
+       "correct": false,
+       "explanation": "Three bonds exist in the molecule.",
+       "misconception": "split wrong"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the bond angle of CH4 and of NH3.",
+     "misconceptionClass": "CH4 NH3 angles recall",
+     "modelAnswer": "CH4 is 109.5 degrees; NH3 is squeezed to 107 degrees by its lone pair.",
+     "keywords": [
+      "109.5",
+      "107",
+      "lone pair",
+      "degrees"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the shape of NH4+ and the bond type that completes its fourth domain.",
+     "misconceptionClass": "NH4+ recall",
+     "modelAnswer": "NH4+ is tetrahedral, with nitrogen's pair donated as a dative covalent bond to H+ completing the fourth domain.",
+     "keywords": [
+      "tetrahedral",
+      "dative",
+      "H+",
+      "fourth"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why spending the lone pair restores the tetrahedral angle in NH4+.",
+     "misconceptionClass": "angle restoration logic",
+     "modelAnswer": "A lone pair's dense cloud repels harder than any bond pair, but once donated it becomes an ordinary N-H bonding domain; four equal bonding domains then spread to the standard 109.5 tetrahedral angle.",
+     "keywords": [
+      "donated",
+      "bonding domain",
+      "equal",
+      "109.5"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "Trace the angle change from CH4 to NH3 to NH4+ and give the cause at each step.",
+     "misconceptionClass": "angle journey application",
+     "modelAnswer": "109.5 (four equal bonds) falls to 107 when one bond becomes a lone pair whose stronger repulsion squeezes the rest, then returns to 109.5 when that lone pair is donated to H+ as a dative bond, restoring four equal domains.",
+     "keywords": [
+      "109.5",
+      "107",
+      "lone pair",
+      "dative"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Bipyramids, planar sheets and electron audits",
+   "sourceHeadings": [
+    "Predicting Shapes & Angles"
+   ],
+   "specRefs": [
+    "3.19"
+   ],
+   "opening": "Expanded domains and double bonds complete the catalogue. Phosphorus pentachloride spends all five valence electrons on bonds, building a trigonal bipyramid with angles of 120 and 90. Ethene audits to twelve electrons: eight in four C-H bonds, four in the C=C, leaving each carbon three electron-density regions and a trigonal planar shape.",
+   "keyPoints": [
+    "Phosphorus has 5 valence electrons, all bonding chlorine with no lone pairs.",
+    "PCl5(g) is trigonal (triangular) bipyramidal with bond angles of 120 and 90 degrees.",
+    "Ethene's electrons audit: 12 total, 8 in the four C-H bonds, 4 in the C=C.",
+    "Each ethene carbon has three regions of electron density, giving an overall trigonal planar shape.",
+    "Electron audits - counting valence electrons into bonds and pairs - are the working method for every shape prediction."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Five bonds fan into a bipyramid (120 between the flat three, 90 to the axial two); ethene's carbon counts three regions per atom and sits flat at 120.",
+     "analogy": "A five-armed starfish spreads two arms upright and three along the seabed; a three-armed one lies perfectly flat.",
+     "examPointer": "PCl5 has TWO angles - quote both 120 and 90; a single-angle answer is half an answer."
+    },
+    "medium": {
+     "restatement": "The audit method generalises: total the valence electrons, assign them to bonds and pairs, then read the domain count per central atom - five domains make the bipyramid, three make the planar sheet, and a double bond counts as one region of density.",
+     "analogy": "A ledger closing: every electron assigned to its account (bond or lone pair), then the account count - not the money - sets the building's floor plan.",
+     "examPointer": "In ethene, remember the double bond is one region: three regions per carbon, not four."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "What shape does PCl5(g) adopt?",
+     "misconceptionClass": "PCl5 shape",
+     "options": [
+      {
+       "key": "A",
+       "text": "Trigonal (triangular) bipyramidal",
+       "correct": true,
+       "explanation": "Five bonding domains with no lone pairs.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Tetrahedral",
+       "correct": false,
+       "explanation": "That fits four domains, not five.",
+       "misconception": "shape undershoots"
+      },
+      {
+       "key": "C",
+       "text": "Trigonal planar",
+       "correct": false,
+       "explanation": "That fits three domains.",
+       "misconception": "shape undershoots"
+      },
+      {
+       "key": "D",
+       "text": "Linear",
+       "correct": false,
+       "explanation": "That fits two domains.",
+       "misconception": "shape undershoots"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which bond angles does PCl5 carry?",
+     "misconceptionClass": "PCl5 angles",
+     "options": [
+      {
+       "key": "A",
+       "text": "120 and 90 degrees",
+       "correct": true,
+       "explanation": "Equatorial pairs at 120, axial at 90.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "109.5 only",
+       "correct": false,
+       "explanation": "That is the tetrahedral single angle.",
+       "misconception": "angle misassigned"
+      },
+      {
+       "key": "C",
+       "text": "180 only",
+       "correct": false,
+       "explanation": "Linear is not this molecule.",
+       "misconception": "angle misassigned"
+      },
+      {
+       "key": "D",
+       "text": "107 only",
+       "correct": false,
+       "explanation": "That is ammonia's squeezed angle.",
+       "misconception": "angle misassigned"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "How many electrons does ethene contain in total?",
+     "misconceptionClass": "ethene electron total",
+     "options": [
+      {
+       "key": "A",
+       "text": "Twelve - two carbons at 4 each plus four hydrogens at 1 each",
+       "correct": true,
+       "explanation": "2 x 4 + 4 x 1 = 12.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Eight",
+       "correct": false,
+       "explanation": "That misses four electrons.",
+       "misconception": "count undershoots"
+      },
+      {
+       "key": "C",
+       "text": "Ten",
+       "correct": false,
+       "explanation": "That misses two.",
+       "misconception": "count undershoots"
+      },
+      {
+       "key": "D",
+       "text": "Fourteen",
+       "correct": false,
+       "explanation": "That overcounts by two.",
+       "misconception": "count overshoots"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "How are ethene's twelve electrons distributed?",
+     "misconceptionClass": "ethene distribution",
+     "options": [
+      {
+       "key": "A",
+       "text": "Eight in the four C-H bonds and four in the C=C double bond",
+       "correct": true,
+       "explanation": "The audit assigns every electron to a bond.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Six in C-H and six in C=C",
+       "correct": false,
+       "explanation": "Four C-H bonds cannot hold six electrons.",
+       "misconception": "split wrong"
+      },
+      {
+       "key": "C",
+       "text": "All twelve in the C=C",
+       "correct": false,
+       "explanation": "The four C-H bonds hold eight.",
+       "misconception": "split wrong"
+      },
+      {
+       "key": "D",
+       "text": "Eight in C-H and two in C=C",
+       "correct": false,
+       "explanation": "The double bond needs four electrons.",
+       "misconception": "split wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why is each carbon in ethene trigonal planar?",
+     "misconceptionClass": "ethene planarity reason",
+     "options": [
+      {
+       "key": "A",
+       "text": "Each carbon has three regions of electron density - two C-H bonds and the C=C as one region",
+       "correct": true,
+       "explanation": "Three domains spread flat at 120.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Each carbon has four separate regions",
+       "correct": false,
+       "explanation": "The double bond counts as one region.",
+       "misconception": "count wrong"
+      },
+      {
+       "key": "C",
+       "text": "The hydrogens force flatness",
+       "correct": false,
+       "explanation": "Domain geometry, not hydrogen size, decides.",
+       "misconception": "cause misattributed"
+      },
+      {
+       "key": "D",
+       "text": "The molecule is charged",
+       "correct": false,
+       "explanation": "Ethene is neutral.",
+       "misconception": "charge misstated"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the shape and both bond angles of PCl5(g).",
+     "misconceptionClass": "PCl5 recall",
+     "modelAnswer": "Trigonal (triangular) bipyramidal, with bond angles of 120 and 90 degrees.",
+     "keywords": [
+      "bipyramidal",
+      "120",
+      "90",
+      "degrees"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the electron audit of ethene.",
+     "misconceptionClass": "ethene audit recall",
+     "modelAnswer": "Twelve electrons in total: eight in the four C-H bonds and four in the C=C double bond.",
+     "keywords": [
+      "twelve",
+      "eight",
+      "four",
+      "C=C"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why a double bond counts as one region of electron density when predicting shape.",
+     "misconceptionClass": "double bond region logic",
+     "modelAnswer": "Shape follows how domains repel around a central atom, and both pairs of a double bond occupy the same region between the same two atoms; the geometry responds to regions, not to individual pairs.",
+     "keywords": [
+      "region",
+      "occupy",
+      "geometry",
+      "pairs"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "Run the full audit for CO2: total valence electrons, bond assignment and final shape.",
+     "misconceptionClass": "CO2 audit application",
+     "modelAnswer": "Carbon brings 4 and each oxygen 6, totalling 16; two C=O double bonds take all sixteen into bonding; carbon then carries two regions of density, so CO2 is linear.",
+     "keywords": [
+      "16",
+      "double bonds",
+      "two regions",
+      "linear"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "electron deficient",
+    "definition": "Describing a central atom accommodating fewer than eight outer-shell electrons, as in BeCl2 and BCl3.",
+    "firstLesson": 1
+   },
+   {
+    "term": "trigonal bipyramidal",
+    "definition": "The five-domain shape of PCl5, with 120 and 90 degree bond angles.",
+    "firstLesson": 3
+   },
+   {
+    "term": "region of electron density",
+    "definition": "Any bonding domain - single, double or lone pair - counted around a central atom when predicting shape.",
+    "firstLesson": 3
+   }
+  ],
+  "workedExample": null
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/ed0fb7d4fa72-1-7-6-beryllium-chloride-molecule.png",
+   "alt": "1-7-6-beryllium-chloride-molecule",
+   "sourceHeading": "Predicting Shapes & Angles",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique"
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/9d36e0950b10-1-7-6-boron-trichloride-molecule.png",
+   "alt": "1-7-6-boron-trichloride-molecule",
+   "sourceHeading": "Predicting Shapes & Angles",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique"
+  },
+  {
+   "id": "fig-03",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/8b8ad96b8ac2-1-3-chemical-bonding-shapes-of-molecules-2-2.png",
+   "alt": "Chemical Bonding Shapes of Molecules 2 (2)",
+   "sourceHeading": "Predicting Shapes & Angles",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique"
+  },
+  {
+   "id": "fig-04",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/aa728e630851-1-3-chemical-bonding-dative-covalent-bonding-amm.png",
+   "alt": "Chemical Bonding Dative Covalent Bonding Ammonium ion",
+   "sourceHeading": "Predicting Shapes & Angles",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "The NH4+ ion"
+  },
+  {
+   "id": "fig-05",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/218d33a328b1-1-7-6-bf3-and-co2-molecules.png",
+   "alt": "1-7-6-bf3-and-co2-molecules",
+   "sourceHeading": "Predicting Shapes & Angles",
+   "moduleIds": [
+    "L3"
+   ],
+   "binding": "heading-unique"
+  },
+  {
+   "id": "fig-06",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/8cc3b997dfff-1-3-chemical-bonding-shapes-of-molecules-2-3.png",
+   "alt": "Chemical Bonding Shapes of Molecules 2 (3), downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Predicting Shapes & Angles",
+   "moduleIds": [
+    "L3"
+   ],
+   "binding": "heading-unique"
+  },
+  {
+   "id": "fig-07",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/6947caf9093b-d3a6b33b-9af4-4b2c-b177-992c5d3e995c.jpeg",
+   "alt": "PCl5 molecule",
+   "sourceHeading": "Predicting Shapes & Angles",
+   "moduleIds": [
+    "L3"
+   ],
+   "binding": "heading-unique",
+   "caption": "Phosphorus pentachloride molecule"
+  },
+  {
+   "id": "fig-08",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/a2ca70ac0a2c-1-3-chemical-bonding-double-covalent-bonding-eth.png",
+   "alt": "Chemical Bonding Double Covalent Bonding Ethene",
+   "sourceHeading": "Predicting Shapes & Angles",
+   "moduleIds": [
+    "L3"
+   ],
+   "binding": "heading-unique",
+   "caption": "Ethene molecule"
+  }
+ ]
+}

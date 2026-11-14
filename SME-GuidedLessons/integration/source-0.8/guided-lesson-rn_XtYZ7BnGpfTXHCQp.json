@@ -1,0 +1,1206 @@
+{
+ "format": "guided-lesson/0.8",
+ "noteRef": {
+  "noteId": "rn_XtYZ7BnGpfTXHCQp",
+  "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+  "topicTitle": "1. Structure, Bonding & Introduction to Organic Chemistry",
+  "subtopicTitle": "Nomenclature & Classification",
+  "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/1-structure-bonding-and-introduction-to-organic-chemistry/1-8-introductory-organic-chemistry/1-8-3-nomenclature-and-classification"
+ },
+ "specPoints": [
+  {
+   "code": "4.5",
+   "text": "be able to apply the rules of International Union of Pure and Applied Chemistry (IUPAC) nomenclature to: i name compounds relevant to this specification ii draw these compounds, as they are encountered in the specification, using structural, displayed and skeletal formulae Students will be expected to know prefixes for compounds up to C 10"
+  },
+  {
+   "code": "4.6",
+   "text": "be able to classify reactions as addition, substitution, oxidation, reduction or polymerisation"
+  }
+ ],
+ "primer": {
+  "text": "Every organic name is constructive: an alkane stem counts the longest chain, locants minimise from the nearest end, alkyl branches take -yl and di-, tri-, tetra- prefixes, and functional groups claim their endings. Reactions then classify into addition, substitution, elimination, hydrolysis and condensation, with organic redox reading oxygen in and hydrogen out. This note drills names and reaction families.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "Stems, chains and the lowest numbers",
+   "sourceHeadings": [
+    "IUPAC Nomenclature",
+    "Nomenclature of Organic Compounds Table"
+   ],
+   "specRefs": [
+    "4.5"
+   ],
+   "opening": "Systematic nomenclature gives every organic compound one unambiguous name, built on the alkane stems: meth-, eth-, prop-, but-, pent- and onward count the carbons in the longest chain. Side-chains enter in brackets as alkyl groups, their positions numbered from whichever chain end gives the lowest numbers, with di-, tri-, tetra- for repeats, commas between numbers and hyphens between numbers and words.",
+   "keyPoints": [
+    "Systematic nomenclature names organic compounds so they are easy to refer to unambiguously.",
+    "Alkane stems encode the carbon count of the longest chain: meth- (1) through dec- (10).",
+    "Positions are numbered from the chain end that gives the lowest possible numbers.",
+    "Side-chains appear in brackets as alkyl groups, named by adding -yl to the alkane stem.",
+    "Repeats take di-, tri- or tetra-; different side-chains list alphabetically; commas join adjacent numbers, hyphens join numbers to words."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Count the longest chain for the stem, number from the end that keeps the numbers small, and bracket any branches as -yl groups.",
+     "analogy": "House numbering on a street: the block length names the street, and doors are numbered from whichever end keeps addresses lowest.",
+     "examPointer": "The lowest-number rule is the most-tested convention - if your name has a higher locant than it needs, it is wrong."
+    },
+    "medium": {
+     "restatement": "The grammar of IUPAC names decomposes into stem (chain length), locants (position numbers, minimised), prefixes (di/tri/tetra multiplicity, alphabetical listing of different substituents) and suffixes (functional-group endings), with punctuation rules: commas between adjacent numbers, hyphens between numbers and letters.",
+     "analogy": "A postal address grammar: street (stem), door numbers (locants), flat labels (prefixes), all punctuated by fixed conventions.",
+     "examPointer": "Alphabetise by side-chain name, ignoring the di-/tri- prefixes - ethyl sorts before dimethyl in a name listing both."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "In systematic nomenclature, what does the stem of an IUPAC name encode?",
+     "misconceptionClass": "stem meaning",
+     "options": [
+      {
+       "key": "A",
+       "text": "The number of carbon atoms in the longest chain",
+       "correct": true,
+       "explanation": "Meth- through dec- count one to ten.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The number of side-chains",
+       "correct": false,
+       "explanation": "Prefixes like di- count those.",
+       "misconception": "role confused"
+      },
+      {
+       "key": "C",
+       "text": "The functional group present",
+       "correct": false,
+       "explanation": "Suffixes and infixes carry the functional group.",
+       "misconception": "role confused"
+      },
+      {
+       "key": "D",
+       "text": "The molecule's mass",
+       "correct": false,
+       "explanation": "Mass is not encoded in the stem.",
+       "misconception": "role confused"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which stem corresponds to a four-carbon longest chain?",
+     "misconceptionClass": "but stem",
+     "options": [
+      {
+       "key": "A",
+       "text": "but-",
+       "correct": true,
+       "explanation": "Butane carries four carbons.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "prop-",
+       "correct": false,
+       "explanation": "Prop- counts three.",
+       "misconception": "count wrong"
+      },
+      {
+       "key": "C",
+       "text": "pent-",
+       "correct": false,
+       "explanation": "Pent- counts five.",
+       "misconception": "count wrong"
+      },
+      {
+       "key": "D",
+       "text": "hept-",
+       "correct": false,
+       "explanation": "Hept- counts seven.",
+       "misconception": "count wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "How are the carbon atoms of the longest chain numbered when naming?",
+     "misconceptionClass": "numbering direction rule",
+     "options": [
+      {
+       "key": "A",
+       "text": "From whichever chain end keeps the side-chain numbers lowest",
+       "correct": true,
+       "explanation": "Locants are minimised.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Always from the left as drawn",
+       "correct": false,
+       "explanation": "Drawing orientation is arbitrary; the rule is about lowest locants.",
+       "misconception": "rule misstated"
+      },
+      {
+       "key": "C",
+       "text": "From the end nearest the functional group only",
+       "correct": false,
+       "explanation": "The general rule is lowest numbers overall.",
+       "misconception": "rule incomplete"
+      },
+      {
+       "key": "D",
+       "text": "From either end - both give valid names",
+       "correct": false,
+       "explanation": "Only the lowest-locant name is correct.",
+       "misconception": "uniqueness denied"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "How is a hydrocarbon side-chain named?",
+     "misconceptionClass": "alkyl naming rule",
+     "options": [
+      {
+       "key": "A",
+       "text": "Take the alkane stem, append -yl, and bracket it in the formula",
+       "correct": true,
+       "explanation": "Methane contributes a methyl group.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "By adding -ide to the stem",
+       "correct": false,
+       "explanation": "-ide endings belong to ions.",
+       "misconception": "ending wrong"
+      },
+      {
+       "key": "C",
+       "text": "By counting it as a separate molecule",
+       "correct": false,
+       "explanation": "Side-chains are part of the one molecule.",
+       "misconception": "structure misstated"
+      },
+      {
+       "key": "D",
+       "text": "By capitalising the stem",
+       "correct": false,
+       "explanation": "No capitalisation convention exists.",
+       "misconception": "convention invented"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Two methyl groups appear on the same chain. How is this encoded in the name?",
+     "misconceptionClass": "multiplicity prefix",
+     "options": [
+      {
+       "key": "A",
+       "text": "As dimethyl, with a comma between adjacent position numbers",
+       "correct": true,
+       "explanation": "di- marks two, commas join the numbers.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "As methyl methyl with a space",
+       "correct": false,
+       "explanation": "The multiplicity prefix is required.",
+       "misconception": "convention wrong"
+      },
+      {
+       "key": "C",
+       "text": "As bismethyl",
+       "correct": false,
+       "explanation": "bi- is not the organic prefix.",
+       "misconception": "prefix wrong"
+      },
+      {
+       "key": "D",
+       "text": "The second methyl is ignored",
+       "correct": false,
+       "explanation": "Every substituent is named.",
+       "misconception": "omission wrong"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the alkane stems for chains of one to five carbons.",
+     "misconceptionClass": "stems recall",
+     "modelAnswer": "Meth-, eth-, prop-, but-, pent- count one through five carbons.",
+     "keywords": [
+      "meth-",
+      "eth-",
+      "prop-",
+      "but-",
+      "pent-"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the punctuation rules connecting numbers and words in organic names.",
+     "misconceptionClass": "punctuation recall",
+     "modelAnswer": "Adjacent numbers take a comma between them; numbers separate from words by a hyphen.",
+     "keywords": [
+      "comma",
+      "hyphen",
+      "numbers",
+      "words"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why the lowest-number rule exists in systematic nomenclature.",
+     "misconceptionClass": "uniqueness rationale",
+     "modelAnswer": "A branched chain can be numbered from either end, giving different locants for the same molecule; fixing on the lowest set makes the name unique, which is the entire purpose of systematic nomenclature.",
+     "keywords": [
+      "either end",
+      "locants",
+      "unique",
+      "purpose"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "Name CH3CH(CH3)CH2CH3 systematically, showing the stem and locant reasoning.",
+     "misconceptionClass": "naming application",
+     "modelAnswer": "The longest chain carries four carbons (but-); numbering from the nearer end puts the methyl branch on carbon 2; the name is 2-methylbutane.",
+     "keywords": [
+      "four",
+      "but-",
+      "carbon 2",
+      "2-methylbutane"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Functional groups claim the names",
+   "sourceHeadings": [
+    "Functional Groups & their Nomenclature Table"
+   ],
+   "specRefs": [
+    "4.5"
+   ],
+   "opening": "Functional groups stamp their identity onto the name: the nomenclature table pairs each family - alkenes, alcohols, aldehydes, ketones, carboxylic acids, esters, amines, nitriles - with the ending or infix that announces it. Read the table's pattern and any structure converts into its systematic name.",
+   "keyPoints": [
+    "The nomenclature table summarises examples, nomenclature and names for each functional-group family.",
+    "The families covered include alkenes, alcohols, aldehydes, ketones, acids, esters, amines and nitriles.",
+    "Each family's ending or infix is the naming signal for its functional group.",
+    "Naming a molecule means combining the alkane stem, the locants and the family's naming signal.",
+    "The systematic name pins down both the carbon skeleton and the functional group."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Every functional family owns a piece of the name: find the group in the table, borrow its ending, and attach it to the chain stem.",
+     "analogy": "Football kit numbers: the squad (stem) stays fixed, but the number (ending) announces the player's role.",
+     "examPointer": "Practise reading the table in both directions - structure to name and name to structure."
+    },
+    "medium": {
+     "restatement": "The nomenclature table is the decoder ring of organic names: each functional group maps to a fixed naming signal which compounds with the stem and locant machinery, so the full name encodes skeleton and function simultaneously.",
+     "analogy": "A license-plate code: region letters (stem), serial numbers (locants) and class badge (functional ending) jointly identify the vehicle.",
+     "examPointer": "Do not mix up family endings - alcohols and aldehydes sound alike but name different groups."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "What does the functional-group nomenclature table provide?",
+     "misconceptionClass": "table contents",
+     "options": [
+      {
+       "key": "A",
+       "text": "Examples, nomenclature and names for each functional-group family",
+       "correct": true,
+       "explanation": "Three columns decode every family.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Boiling points of each family",
+       "correct": false,
+       "explanation": "Physical data is not the table's job.",
+       "misconception": "content misstated"
+      },
+      {
+       "key": "C",
+       "text": "Hazard symbols for each family",
+       "correct": false,
+       "explanation": "Safety data lives elsewhere.",
+       "misconception": "content misstated"
+      },
+      {
+       "key": "D",
+       "text": "Reaction mechanisms",
+       "correct": false,
+       "explanation": "Mechanisms are not in the naming table.",
+       "misconception": "content misstated"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which set of families appears in the nomenclature table?",
+     "misconceptionClass": "family list",
+     "options": [
+      {
+       "key": "A",
+       "text": "From alkenes through alcohols, aldehydes and ketones to acids, esters, amines and nitriles",
+       "correct": true,
+       "explanation": "The eight families of the table of record.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Alkanes, alkenes, alkynes only",
+       "correct": false,
+       "explanation": "The table reaches far beyond hydrocarbons.",
+       "misconception": "list truncated"
+      },
+      {
+       "key": "C",
+       "text": "Metals and non-metals",
+       "correct": false,
+       "explanation": "Those are element classes.",
+       "misconception": "list wrong"
+      },
+      {
+       "key": "D",
+       "text": "Acids and alkalis only",
+       "correct": false,
+       "explanation": "The table covers organic families.",
+       "misconception": "list truncated"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What must a systematic name combine to be complete?",
+     "misconceptionClass": "complete name ingredients",
+     "options": [
+      {
+       "key": "A",
+       "text": "The alkane stem, the locants and the functional group's naming signal",
+       "correct": true,
+       "explanation": "All three encode the structure fully.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The stem only",
+       "correct": false,
+       "explanation": "That omits position and function.",
+       "misconception": "incomplete"
+      },
+      {
+       "key": "C",
+       "text": "The functional group only",
+       "correct": false,
+       "explanation": "That omits skeleton and position.",
+       "misconception": "incomplete"
+      },
+      {
+       "key": "D",
+       "text": "The molecular mass",
+       "correct": false,
+       "explanation": "Mass is not part of the name.",
+       "misconception": "ingredient wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "A name ending announced by the table tells you",
+     "misconceptionClass": "ending information",
+     "options": [
+      {
+       "key": "A",
+       "text": "which functional group the molecule carries",
+       "correct": true,
+       "explanation": "Endings are the family signals.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "how many side-chains exist",
+       "correct": false,
+       "explanation": "Prefixes and locants carry that.",
+       "misconception": "role confused"
+      },
+      {
+       "key": "C",
+       "text": "the molecule's hazard class",
+       "correct": false,
+       "explanation": "That is safety labelling.",
+       "misconception": "role confused"
+      },
+      {
+       "key": "D",
+       "text": "the molecule's colour",
+       "correct": false,
+       "explanation": "Colour is not encoded.",
+       "misconception": "role confused"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Reading the table backwards - from a systematic name to a structure - is possible because",
+     "misconceptionClass": "reverse reading",
+     "options": [
+      {
+       "key": "A",
+       "text": "each part of the name encodes one structural feature",
+       "correct": true,
+       "explanation": "Stem, locants and signal rebuild the molecule.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "names are arbitrary labels",
+       "correct": false,
+       "explanation": "Systematic names are constructive.",
+       "misconception": "claim inverted"
+      },
+      {
+       "key": "C",
+       "text": "only chemists memorise every molecule",
+       "correct": false,
+       "explanation": "The system replaces memorisation.",
+       "misconception": "claim inverted"
+      },
+      {
+       "key": "D",
+       "text": "the table lists every possible molecule",
+       "correct": false,
+       "explanation": "The rules generalise beyond the table's examples.",
+       "misconception": "scope misstated"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Name the eight functional-group families in the nomenclature table.",
+     "misconceptionClass": "eight families recall",
+     "modelAnswer": "Alkenes, alcohols, aldehydes, ketones, carboxylic acids, esters, amines and nitriles.",
+     "keywords": [
+      "alkenes",
+      "alcohols",
+      "ketones",
+      "esters",
+      "amines"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the three structural features a complete systematic name encodes.",
+     "misconceptionClass": "name features recall",
+     "modelAnswer": "The carbon skeleton (stem), the positions (locants) and the functional group (the family's naming signal).",
+     "keywords": [
+      "stem",
+      "locants",
+      "functional group",
+      "encodes"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why systematic names are preferable to trivial names for organic compounds.",
+     "misconceptionClass": "systematic advantage",
+     "modelAnswer": "Millions of organic structures exist, far beyond memory; a constructive naming system lets any chemist decode the structure from the name - and build the name from any structure - without a lookup table of trivia.",
+     "keywords": [
+      "structures",
+      "constructive",
+      "decode",
+      "chemist"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A structure carries a four-carbon chain with an -OH on carbon 2. Assemble its systematic name from stem, locant and family signal.",
+     "misconceptionClass": "assembly application",
+     "modelAnswer": "Stem but- (four carbons), locant 2, alcohol signal: butan-2-ol.",
+     "keywords": [
+      "but-",
+      "2",
+      "alcohol",
+      "butan-2-ol"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Five reaction families",
+   "sourceHeadings": [
+    "Reaction Classification"
+   ],
+   "specRefs": [
+    "4.6"
+   ],
+   "opening": "Organic reactions sort into five named types. Addition joins two or more molecules into a single product and nothing else; substitution swaps one atom or group for another; elimination ejects a small molecule like water or HCl; hydrolysis splits a compound with water; condensation joins two molecules while eliminating a small molecule as a by-product.",
+   "keyPoints": [
+    "An addition reaction combines two or more molecules into a single product with no other products.",
+    "A substitution reaction replaces an atom or group of atoms with another.",
+    "An elimination reaction removes a small molecule such as H2O or HCl from the organic molecule.",
+    "A hydrolysis reaction breaks a compound down by water (or dilute acid or alkali).",
+    "A condensation reaction joins two organic molecules and eliminates a small molecule such as H2O or HCl."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Addition merges, substitution swaps, elimination ejects, hydrolysis splits with water, condensation joins-and-ejects.",
+     "analogy": "Five kinds of LEGO move: snap two bricks into one, pop a stud out for another, flick a tiny brick off, soak a joint apart, or snap two bricks together while flicking a bit off.",
+     "examPointer": "Addition and condensation are mirror opposites on product count: one product versus products-plus-small-molecule."
+    },
+    "medium": {
+     "restatement": "The classification tracks atom economy and by-products: addition is fully incorporating, substitution exchanges, elimination exports a small molecule, hydrolysis imports water to cleave, and condensation couples an addition with an elimination - water or HCl leaving as the joint is made.",
+     "analogy": "Five warehouse operations: full intake, swap-in-swap-out, export, delivery-assisted dismantling, and a combined intake-plus-export shipment.",
+     "examPointer": "Name the small molecule when classifying eliminations and condensations - H2O or HCl - the specificity is the mark."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Which reaction type forms a single product from two or more molecules?",
+     "misconceptionClass": "addition definition",
+     "options": [
+      {
+       "key": "A",
+       "text": "Addition",
+       "correct": true,
+       "explanation": "Everything combines into one product.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Substitution",
+       "correct": false,
+       "explanation": "Substitution replaces, not combines.",
+       "misconception": "type mismatched"
+      },
+      {
+       "key": "C",
+       "text": "Elimination",
+       "correct": false,
+       "explanation": "Elimination removes a small molecule.",
+       "misconception": "type mismatched"
+      },
+      {
+       "key": "D",
+       "text": "Hydrolysis",
+       "correct": false,
+       "explanation": "Hydrolysis splits with water.",
+       "misconception": "type mismatched"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Swapping one atom or atom-group out for another defines which reaction type?",
+     "misconceptionClass": "substitution definition",
+     "options": [
+      {
+       "key": "A",
+       "text": "Substitution",
+       "correct": true,
+       "explanation": "One group swaps out for another.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Addition",
+       "correct": false,
+       "explanation": "Addition adds rather than swaps.",
+       "misconception": "type mismatched"
+      },
+      {
+       "key": "C",
+       "text": "Condensation",
+       "correct": false,
+       "explanation": "Condensation joins and eliminates.",
+       "misconception": "type mismatched"
+      },
+      {
+       "key": "D",
+       "text": "Polymerisation",
+       "correct": false,
+       "explanation": "That chains many monomers.",
+       "misconception": "type mismatched"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which small molecules does the note name as typical elimination products?",
+     "misconceptionClass": "elimination products",
+     "options": [
+      {
+       "key": "A",
+       "text": "H2O and HCl",
+       "correct": true,
+       "explanation": "Water or hydrogen chloride leave the organic molecule.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "O2 and N2",
+       "correct": false,
+       "explanation": "Neither appears in the elimination definition.",
+       "misconception": "pair wrong"
+      },
+      {
+       "key": "C",
+       "text": "CO2 and SO2",
+       "correct": false,
+       "explanation": "Combustion products, not the named small molecules.",
+       "misconception": "pair wrong"
+      },
+      {
+       "key": "D",
+       "text": "H2 and Cl2",
+       "correct": false,
+       "explanation": "Not the named pair.",
+       "misconception": "pair wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What agent breaks down a compound in hydrolysis?",
+     "misconceptionClass": "hydrolysis agent",
+     "options": [
+      {
+       "key": "A",
+       "text": "Water - or dilute acids or alkali as the broader usage",
+       "correct": true,
+       "explanation": "Hydrolysis is water-led breakdown.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Fire",
+       "correct": false,
+       "explanation": "Combustion is a different process.",
+       "misconception": "agent wrong"
+      },
+      {
+       "key": "C",
+       "text": "Electricity",
+       "correct": false,
+       "explanation": "Electrolysis is different.",
+       "misconception": "agent wrong"
+      },
+      {
+       "key": "D",
+       "text": "Nothing - it happens spontaneously",
+       "correct": false,
+       "explanation": "An agent is named.",
+       "misconception": "agent denied"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "How does condensation differ from addition?",
+     "misconceptionClass": "condensation vs addition",
+     "options": [
+      {
+       "key": "A",
+       "text": "Condensation joins two molecules AND eliminates a small molecule; addition gives only the single product",
+       "correct": true,
+       "explanation": "The by-product is the discriminator.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Condensation uses no organic molecules",
+       "correct": false,
+       "explanation": "Two organic molecules join.",
+       "misconception": "claim wrong"
+      },
+      {
+       "key": "C",
+       "text": "There is no difference",
+       "correct": false,
+       "explanation": "The by-product distinguishes them.",
+       "misconception": "difference denied"
+      },
+      {
+       "key": "D",
+       "text": "Condensation breaks molecules apart",
+       "correct": false,
+       "explanation": "It joins them.",
+       "misconception": "direction inverted"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Define an addition reaction.",
+     "misconceptionClass": "addition recall",
+     "modelAnswer": "In an addition reaction, two or more molecules merge into one product - and nothing else forms alongside it.",
+     "keywords": [
+      "two or more",
+      "single product",
+      "no other",
+      "addition"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Define a condensation reaction.",
+     "misconceptionClass": "condensation recall",
+     "modelAnswer": "A condensation reaction joins two organic molecules together while eliminating a small molecule such as H2O or HCl.",
+     "keywords": [
+      "joins",
+      "two",
+      "eliminates",
+      "small molecule"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why hydrolysis can be described as the opposite of condensation.",
+     "misconceptionClass": "hydrolysis condensation mirror",
+     "modelAnswer": "Condensation joins two molecules while exporting water; hydrolysis imports water to break a compound apart - the same water appears as by-product in one and reagent in the other.",
+     "keywords": [
+      "joins",
+      "exporting",
+      "imports",
+      "break"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "Classify each: ethene absorbing HBr into one product; ethanol losing water to an alkene; an ester splitting with water.",
+     "misconceptionClass": "classification application",
+     "modelAnswer": "Addition (single product formed), elimination (water removed), hydrolysis (water splits the ester).",
+     "keywords": [
+      "addition",
+      "elimination",
+      "hydrolysis",
+      "classify"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Redox shorthand and polymer chains",
+   "sourceHeadings": [
+    "Oxidation & reduction",
+    "Polymerisation"
+   ],
+   "specRefs": [
+    "4.6"
+   ],
+   "opening": "Organic redox counts oxygens and hydrogens: oxidation adds oxygen or removes hydrogen atoms - or removes electrons or raises the oxidation number - and reduction runs reverse. Equation shorthand writes [O] for the oxidising agent's oxygen atom and [H] for the reducing agent's hydrogen atom. At AS level, polymerisation means addition polymerisation: many C=C-bearing monomers chain into the polymer as the only product.",
+   "keyPoints": [
+    "Oxidation adds oxygen, removes electrons or increases the oxidation number - in organic work, adding O or removing H atoms.",
+    "Reduction removes oxygen, adds electrons or decreases the oxidation number - in organic work, removing O or adding H atoms.",
+    "[O] represents one oxygen atom from an oxidising agent in organic equations; [H] represents one hydrogen atom from a reducing agent.",
+    "All AS-level polymerisation covered is addition polymerisation.",
+    "Addition polymerisation takes many C=C-bearing monomers and chains them into polymer as the sole product."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Organic oxidation = more oxygen or fewer hydrogens; reduction = fewer oxygens or more hydrogens. [O] and [H] are the shorthand guests in equations. Monomers with C=C chain up into polymers alone.",
+     "analogy": "A see-saw of O and H tokens: loading oxygen tips toward oxidation, loading hydrogen tips back toward reduction.",
+     "examPointer": "The [O]/[H] symbols represent atoms from the agent, not the agent itself - phrase answers carefully."
+    },
+    "medium": {
+     "restatement": "Organic redox reinterprets the general electron bookkeeping in structural terms - oxygen in or hydrogen out raises the oxidation state of carbon; the reverse lowers it. Addition polymerisation then exploits the C=C bond: opening the double bond across many monomers incorporates everything into one saturated chain with no by-products.",
+     "analogy": "Rungs of a ladder join end to end: every double-bond rung consumed becomes part of one continuous rail - nothing left over.",
+     "examPointer": "'As the only product' is the addition-polymerisation phrase to quote - condensation polymerisation does not appear at AS here."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "In organic chemistry, oxidation often means",
+     "misconceptionClass": "organic oxidation meaning",
+     "options": [
+      {
+       "key": "A",
+       "text": "adding oxygen atoms or removing hydrogen atoms",
+       "correct": true,
+       "explanation": "The structural reading of oxidation.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "adding hydrogen atoms",
+       "correct": false,
+       "explanation": "That is reduction.",
+       "misconception": "direction inverted"
+      },
+      {
+       "key": "C",
+       "text": "removing oxygen atoms",
+       "correct": false,
+       "explanation": "That is also reduction.",
+       "misconception": "direction inverted"
+      },
+      {
+       "key": "D",
+       "text": "neither oxygen nor hydrogen changes",
+       "correct": false,
+       "explanation": "Organic redox tracks both.",
+       "misconception": "claim wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What does [O] represent in an organic redox equation?",
+     "misconceptionClass": "[O] meaning",
+     "options": [
+      {
+       "key": "A",
+       "text": "A single oxygen atom donated by the oxidising agent",
+       "correct": true,
+       "explanation": "The shorthand's exact meaning.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "A whole molecule of oxygen gas",
+       "correct": false,
+       "explanation": "One atom, not O2.",
+       "misconception": "quantity misstated"
+      },
+      {
+       "key": "C",
+       "text": "An oxide ion",
+       "correct": false,
+       "explanation": "Ions are not implied.",
+       "misconception": "species misstated"
+      },
+      {
+       "key": "D",
+       "text": "The entire oxidising agent",
+       "correct": false,
+       "explanation": "Only its oxygen atom is represented.",
+       "misconception": "scope overstated"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "A substance gains hydrogen atoms. What has happened to it?",
+     "misconceptionClass": "hydrogen gain direction",
+     "options": [
+      {
+       "key": "A",
+       "text": "It has been reduced",
+       "correct": true,
+       "explanation": "Hydrogen gain is the organic reduction signature.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "It has been oxidised",
+       "correct": false,
+       "explanation": "Hydrogen loss, not gain, is oxidation.",
+       "misconception": "direction inverted"
+      },
+      {
+       "key": "C",
+       "text": "It has polymerised",
+       "correct": false,
+       "explanation": "Polymerisation is a separate process.",
+       "misconception": "process confused"
+      },
+      {
+       "key": "D",
+       "text": "Nothing - hydrogen gain is neutral",
+       "correct": false,
+       "explanation": "The redox reading applies.",
+       "misconception": "change denied"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which monomers undergo addition polymerisation?",
+     "misconceptionClass": "monomer requirement",
+     "options": [
+      {
+       "key": "A",
+       "text": "Molecules carrying a C=C double bond somewhere in them",
+       "correct": true,
+       "explanation": "The double bond is the polymerisation handle.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Molecules with only single bonds",
+       "correct": false,
+       "explanation": "Single bonds cannot open to chain.",
+       "misconception": "requirement inverted"
+      },
+      {
+       "key": "C",
+       "text": "Only water molecules",
+       "correct": false,
+       "explanation": "Water is no monomer here.",
+       "misconception": "species wrong"
+      },
+      {
+       "key": "D",
+       "text": "Any molecule at all",
+       "correct": false,
+       "explanation": "The C=C requirement is explicit.",
+       "misconception": "requirement dropped"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What, besides the polymer, do addition polymerisation reactions produce?",
+     "misconceptionClass": "addition polymer products",
+     "options": [
+      {
+       "key": "A",
+       "text": "Nothing - the polymer is the only product",
+       "correct": true,
+       "explanation": "Everything incorporates into the chain.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Water as a by-product",
+       "correct": false,
+       "explanation": "That describes condensation polymerisation.",
+       "misconception": "by-product wrong"
+      },
+      {
+       "key": "C",
+       "text": "HCl as a by-product",
+       "correct": false,
+       "explanation": "Again the condensation signature.",
+       "misconception": "by-product wrong"
+      },
+      {
+       "key": "D",
+       "text": "Unused monomer always remains",
+       "correct": false,
+       "explanation": "The monomers are consumed into the polymer.",
+       "misconception": "residue misclaimed"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the three general definitions of oxidation.",
+     "misconceptionClass": "oxidation trio recall",
+     "modelAnswer": "Oxygen joins the substance, electrons leave it, or its oxidation number climbs.",
+     "keywords": [
+      "oxygen",
+      "electrons",
+      "oxidation number",
+      "climbs"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the [H] shorthand's meaning and the monomer requirement for addition polymerisation.",
+     "misconceptionClass": "shorthand monomer recall",
+     "modelAnswer": "[H] represents one hydrogen atom from a reducing agent; monomers must carry at least one C-C double bond.",
+     "keywords": [
+      "[H]",
+      "hydrogen atom",
+      "C-C double bond",
+      "monomers"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why addition polymerisation leaves no by-products.",
+     "misconceptionClass": "no by-product logic",
+     "modelAnswer": "The C=C double bonds of every monomer open and link directly into the chain, so every atom of every monomer ends up inside the polymer - unlike condensation, no small molecule is ejected.",
+     "keywords": [
+      "open",
+      "link",
+      "every atom",
+      "no by-product"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "Write the organic-redox direction when an alcohol becomes an aldehyde, using the [O] shorthand, and classify the change.",
+     "misconceptionClass": "alcohol oxidation application",
+     "modelAnswer": "Alcohol plus [O] gives aldehyde plus water: oxygen is added (and hydrogens effectively removed), so the alcohol is oxidised.",
+     "keywords": [
+      "[O]",
+      "aldehyde",
+      "oxidised",
+      "oxygen"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "alkyl group",
+    "definition": "A hydrocarbon side-chain named by adding -yl to the alkane stem, shown in brackets in the structural formula.",
+    "firstLesson": 1
+   },
+   {
+    "term": "substitution",
+    "definition": "A reaction replacing an atom or group of atoms with another.",
+    "firstLesson": 3
+   },
+   {
+    "term": "addition polymerisation",
+    "definition": "The reaction chaining many C=C-bearing monomers into a polymer as the only product.",
+    "firstLesson": 4
+   },
+   {
+    "term": "condensation",
+    "definition": "A reaction joining two organic molecules while eliminating a small molecule such as H2O or HCl.",
+    "firstLesson": 3
+   }
+  ],
+  "workedExample": {
+   "prompt": "Name CH3CH(CH3)CH2CH3 using systematic nomenclature.",
+   "steps": [
+    "Find the longest chain: four carbons, giving the stem but-.",
+    "Number from the end nearer the branch so the locant is lowest: the methyl group sits on carbon 2.",
+    "Combine stem, locant and alkyl prefix: 2-methylbutane."
+   ],
+   "finalAnswer": "2-methylbutane."
+  }
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/129bde2cc2c9-10-1-3-naming-side-chain.png",
+   "alt": "Worked structure showing a methyl side-chain bracketed in a butane chain",
+   "sourceHeading": "Nomenclature of Organic Compounds Table",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "Naming Side Chains"
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/baa3cc487ae4-10-1-3-naming-multiple-side-chains.png",
+   "alt": "Structure with several identical side-chains named with multiplicity prefixes",
+   "sourceHeading": "Nomenclature of Organic Compounds Table",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "Naming Multiple Side Chains"
+  },
+  {
+   "id": "fig-03",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/53cc82b386df-10-1-3-naming-side-chains-in-alphabetic-order.png",
+   "alt": "Structure with two different side-chains listed alphabetically in the name",
+   "sourceHeading": "Nomenclature of Organic Compounds Table",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "Naming Side Chains in Alphabetical Order"
+  },
+  {
+   "id": "fig-04",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/940b7bae64da-54408-functional-group-nomenclature.png",
+   "alt": "Table of functional groups showing examples, nomenclature, and names for alkenes, alcohols, aldehydes, ketones, acids, esters, amines, nitriles.",
+   "sourceHeading": "Functional Groups & their Nomenclature Table",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique"
+  },
+  {
+   "id": "fig-05",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/969a2e53e3c7-copy-of-we-naming-organic-molecules.png",
+   "alt": "Structures of organic molecules presented for systematic naming practice",
+   "sourceHeading": "Functional Groups & their Nomenclature Table",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique"
+  },
+  {
+   "id": "fig-06",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/a42ae9725122-3-1-3-nomenclature-worked-example.png",
+   "alt": "Answered systematic names for the presented organic molecules",
+   "sourceHeading": "Functional Groups & their Nomenclature Table",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique"
+  },
+  {
+   "id": "fig-07",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/9d2e83560886-3-1-an-introduction-to-as-level-organic-chemistr.png",
+   "alt": "An Introduction to AS Level Organic Chemistry Organic Chemistry Reaction Types (1), downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Reaction Classification",
+   "moduleIds": [
+    "L3"
+   ],
+   "binding": "heading-unique",
+   "caption": "The different types of reactions in organic chemistry"
+  },
+  {
+   "id": "fig-08",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/54b5efb518a8-3-1-an-introduction-to-as-level-organic-chemistr.png",
+   "alt": "An Introduction to AS Level Organic Chemistry Oxidation and Reduction Reactions, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Oxidation & reduction",
+   "moduleIds": [
+    "L4"
+   ],
+   "binding": "heading-unique",
+   "caption": "In organic chemistry oxidation is often the gain of oxygen or loss of hydrogen atoms and reduction is the gain of hydrogen and loss of oxygen atoms"
+  }
+ ]
+}
