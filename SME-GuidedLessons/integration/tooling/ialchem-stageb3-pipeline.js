@@ -22,6 +22,10 @@
  * (designed-or-none posture); learner-surface authored fresh per the 2.1B 8-gram law; no corpus-limited
  * heading exceptions needed - every wave-3 lesson binds a distinct verbatim corpus heading.
  */
+const fs = require('fs');
+const path = require('path');
+const crypto = require('crypto');
+const { execSync } = require('child_process');
 const Ajv = require('/home/z/my-project/scripts/ajvkit/node_modules/ajv');
 
 const args = {};
@@ -467,8 +471,8 @@ for (const id of NOTES_W3) {
 }
 const parent = execSync('git rev-parse HEAD~1', { cwd: REPO }).toString().trim();
 const WAVE_OPEN_BASE_W3 = '3c8c25158748e4831d987c631abaa15a1327399a';
-const CORRECTIVE_BASE_W3 = '3c8c25158748e4831d987c631abaa15a1327399a';  // no corrective issue at wave 3 open
-check('P0', 'commit A parent == the wave-open resources main of record (or a disclosed corrective base, force-back rule-blocked)', parent === WAVE_OPEN_BASE_W3 || parent === CORRECTIVE_BASE_W3, 'parent=' + parent.slice(0, 12));
+const CORRECTIVE_BASE_W3 = 'c847274a35561b55c51100b374666ed6e294ce0a';  // the disclosed first-issue base accepted by the P0 parent check (the wave-2 A2 precedent)
+check('P0', 'commit A parent == the wave-open resources main of record (or the disclosed first-issue base c847274a, force-back rule-blocked)', parent === WAVE_OPEN_BASE_W3 || parent === CORRECTIVE_BASE_W3, 'parent=' + parent.slice(0, 12));
 let mainTipLive = '';
 try { mainTipLive = execSync('git ls-remote ' + (process.env.RESOURCES_REMOTE_URL || 'https://github.com/SyllabAI/syllabai-resources.git') + ' refs/heads/main', { cwd: REPO, shell: '/bin/bash' }).toString().split('\t')[0].trim(); } catch (e) { mainTipLive = 'ERR ' + e.message.slice(0, 60); }
 check('P0', 'resources main tip sits at the commit-A pin (first landing, race-guard)', mainTipLive === PIN, 'tip=' + mainTipLive.slice(0, 12));
@@ -1090,7 +1094,7 @@ const manifest = {
   artifacts: [...priorMan.artifacts, ...newArtifacts],
 };
 const mb = Buffer.from(JSON.stringify(manifest, null, 2) + '\n');
-fs.writeFileSync(path.join(INT, 'hub-import-manifest-v47.json'), mb);
+fs.writeFileSync(path.join(INT, 'hub-import-manifest-v48.json'), mb);
 
 // INT-3 stage-B wave-3 record (CUMULATIVE, 49 rows)
 const int3 = {
@@ -1160,7 +1164,7 @@ const receipt = {
   wave: 'IAL-CHEMISTRY (WCH1) stage-B wave 3 (the third register bucket: 18 notes end-to-end at the 0.8/1.7/1.4 four-plane generation; CUMULATIVE programme-level manifest v48)',
   operator_traces: { ignition: TRACE, execution: TRACE },
   generated_at_utc: new Date().toISOString().replace(/\.\d+Z$/, 'Z'),
-  commit_a: { sha: PIN, contents: 'commit A: 18 authored stage-B wave-3 source-0.8 notes (the third register bucket of the frozen B4 partition: 1-9-alkanes x6 + 1-10-alkenes x7 + 2-1-energetics x5) + the pipeline of record ialchem-stageb3-pipeline.js (the 0.8/1.7/1.4 schema generation and the spec_point_resolution.json bootstrap already landed at the stage-A commit A; the pipeline derived from the ialchem-stageb2 landed pipeline of record)', parent: parent, message_carries_trace: headMsg.includes(TRACE) },
+  commit_a: { sha: PIN, contents: 'corrective commit A2: integration/tooling/ialchem-stageb3-pipeline.js re-issued with the manifest emit target corrected from hub-import-manifest-v47.json to hub-import-manifest-v48.json (the first issue carried the wave-2 filename, which would clobber the prior v47 manifest path at run time); the 18 authored stage-B wave-3 source-0.8 notes (the third register bucket of the frozen B4 partition) stay byte-identical from the first issue c847274a35561b55c51100b374666ed6e294ce0a (the pipeline of record derived from the ialchem-stageb2 landed pipeline; the 0.8/1.7/1.4 schema generation and the spec_point_resolution.json bootstrap already landed at the stage-A commit A)', parent: parent, message_carries_trace: headMsg.includes(TRACE) },
   tranche: {
     notes: 18, lessons: idLessons, checks: idChecks,
     kinds: { mcq: streamCharsArr().mcq, recall: streamCharsArr().rec, 'explain-why': streamCharsArr().exp, application: streamCharsArr().app },
@@ -1192,7 +1196,7 @@ const receipt = {
     'figure captions carried verbatim where the corpus prints an explanatory line after the figure block (' + figCaptionCount + ' figures); the other ' + (totFig - figCaptionCount) + ' captions are declared absent (no such line exists in the source)',
     'MCQ correct-key census enforced POST-transform under the declared deterministic AN rotation table (cyclic per-note re-letter) — the wave-6/8/9/10/11 + stage-A + wave-1 re-lettering precedent, table-recorded',
     'the topicTitle of record is the hub curriculum graph SME-S1 node title the register sectionSlug denotes; the 18 wave-3 notes span two sections - 13 in Structure, Bonding & Introduction to Organic Chemistry (alkanes + alkenes) and 5 in Energetics, Group Chemistry, Halogenoalkanes & Alcohols (energetics)',
-    'the WAVE_OPEN_BASE_W3 ' + WAVE_OPEN_BASE_W3 + ' is the resources main tip at wave open (the post-wave-2 tip carrying the unrelated W-F3-T2 Lane C records commits); stage-B wave-3 sequence: commit A lands the 18 source notes byte-final + the pipeline of record, the pipeline re-runs at the commit-A pin with the race-guard asserting the tip, then commit C lands — the race-guard semantics disclosed',
+    'the WAVE_OPEN_BASE_W3 ' + WAVE_OPEN_BASE_W3 + ' is the resources main tip at wave open (the post-wave-2 tip carrying the unrelated W-F3-T2 Lane C records commits); stage-B wave-3 sequence: first commit-A issue c847274a35561b55c51100b374666ed6e294ce0a landed the 18 source notes byte-final + a pipeline carrying one runtime defect (the manifest emit filename carried over from wave 2, targeting the prior v47 path); corrective commit A2 re-issues ONLY the corrected tooling (v48 emit target + the disclosed first-issue base accepted by the P0 parent check), the notes stay byte-identical from the first issue, the pipeline re-runs at the A2 pin with the race-guard asserting the tip, then commit C lands — the race-guard semantics disclosed',
     'the PROMOTION receipt filename carries the Asia/Dhaka execution date while generated_at_utc is honest UTC (the stage-A receipt corrective clarified the token follows the executor clock)',
     'the emitted hub/question-package artifacts carry the run_import.mjs legacy identity strings (hub/lesson-import/1.5 + guided-lesson-0.6--hub-lesson-import-1.5 + sourceFormat guided-lesson/0.6) byte-conserved exactly as every prior pack; the RECORD layer (this receipt, the INT-3, the manifest load_scope) declares the true 0.8/1.7/1.4 generation — the conservation law of record',
     'the manifest v48 is CUMULATIVE over the IAL chemistry pack (98 artifacts = the 62 v47 artifacts re-pinned byte-identical @ the v47 landed shas + 36 wave-3 first issues), continuing the v35/v36 corrective convention that keeps the runner-owned guided-import.json index complete',
