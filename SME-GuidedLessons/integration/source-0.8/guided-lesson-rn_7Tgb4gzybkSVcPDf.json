@@ -1,0 +1,973 @@
+{
+ "format": "guided-lesson/0.8",
+ "noteRef": {
+  "noteId": "rn_7Tgb4gzybkSVcPDf",
+  "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+  "topicTitle": "2. Energetics, Group Chemistry, Halogenoalkanes & Alcohols",
+  "subtopicTitle": "Using Hess Cycles",
+  "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/2-energetics-group-chemistry-halogenoalkanes-and-alcohols/2-1-energetics/2-1-4-using-hess-cycles"
+ },
+ "specPoints": [
+  {
+   "code": "6.6",
+   "text": "know Hess’s Law and be able to apply it to: i constructing enthalpy cycles ii calculating enthalpy changes of reaction using data provided, or data selected from a table or obtained from experiments"
+  }
+ ],
+ "primer": {
+  "text": "Enthalpy changes obey a route independence rule. Hess's law lets you build an energy cycle through intermediate elements or combustion steps and add the legs algebraically. This note constructs the two standard cycles - reaction from formation data, formation from combustion data - and works full numerical examples on both.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "Hess's law and constructing cycles",
+   "sourceHeadings": [
+    "Hess Cycles - Construction",
+    "Calculating ΔH<sub>r </sub>from ΔH<sub>f</sub> using Hess’s Law energy cycles"
+   ],
+   "specRefs": [
+    "6.6"
+   ],
+   "opening": "Hess's law says the enthalpy change between reactants and products is fixed by the two levels, not by the route between them. That licence lets you build an energy cycle through any intermediate you can tabulate - usually the elements - and add the legs algebraically.",
+   "keyPoints": [
+    "Hess's law states that the enthalpy change of a reaction is independent of the route taken.",
+    "The direct route from reactants to products equals the sum of any indirect route's legs.",
+    "Energy cycles are drawn with the elements sitting on a common level as the intermediate.",
+    "Formation-route cycles point downward from elements to compounds; the arrows carry the tabulated values.",
+    "Adding the legs with correct signs recovers the enthalpy change the experiment cannot measure directly."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "The enthalpy gap between reactants and products is one number no matter how you travel; draw the cycle, write the tabulated values on the arrows, and add them with the right signs.",
+     "analogy": "Two routes up the same mountain gain the same altitude; the cycle is just the map that lists both routes' legs.",
+     "examPointer": "Draw the cycle before calculating - the arrow directions carry the signs, and misdirected arrows are the standard error."
+    },
+    "medium": {
+     "restatement": "The law works because enthalpy is a state function: only the state matters, not the path, so algebraic addition of legs through the elements cancels the intermediates and leaves the direct change.",
+     "analogy": "Altitude is a state function: your height above sea level never remembers which trail you took.",
+     "examPointer": "State the law in the words 'independent of the route taken' - paraphrases such as 'energy is conserved' score differently."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "What does Hess's law assert about an enthalpy change?",
+     "misconceptionClass": "law statement",
+     "options": [
+      {
+       "key": "A",
+       "text": "It is independent of the route taken between reactants and products",
+       "correct": true,
+       "explanation": "State function, route-blind.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "It depends on the route's speed",
+       "correct": false,
+       "explanation": "Kinetics never enters enthalpy.",
+       "misconception": "kinetics crossed"
+      },
+      {
+       "key": "C",
+       "text": "It changes when a catalyst is added",
+       "correct": false,
+       "explanation": "Catalysts move the hump, not the levels.",
+       "misconception": "catalyst confusion"
+      },
+      {
+       "key": "D",
+       "text": "It only applies to combustion",
+       "correct": false,
+       "explanation": "The law is universal.",
+       "misconception": "scope narrowed"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "On a formation-route energy cycle, where do the elements sit?",
+     "misconceptionClass": "cycle geography",
+     "options": [
+      {
+       "key": "A",
+       "text": "On their own level, joined to both reactants and products by arrows",
+       "correct": true,
+       "explanation": "The elements are the shared intermediate.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Inside the products box",
+       "correct": false,
+       "explanation": "Elements and compounds occupy separate levels.",
+       "misconception": "placement crossed"
+      },
+      {
+       "key": "C",
+       "text": "Nowhere - cycles skip them",
+       "correct": false,
+       "explanation": "The elements are the whole point of the construction.",
+       "misconception": "design denied"
+      },
+      {
+       "key": "D",
+       "text": "Above the hump",
+       "correct": false,
+       "explanation": "Cycles have no humps.",
+       "misconception": "geometry crossed"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why can a reaction's enthalpy change be found from tabulated formation values?",
+     "misconceptionClass": "cycle logic",
+     "options": [
+      {
+       "key": "A",
+       "text": "Both reactants and products can be decomposed to the same elements on paper",
+       "correct": true,
+       "explanation": "The shared element level closes the cycle.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Formation values equal reaction values",
+       "correct": false,
+       "explanation": "They are different quantities.",
+       "misconception": "quantities equated"
+      },
+      {
+       "key": "C",
+       "text": "The law only holds for elements",
+       "correct": false,
+       "explanation": "The law holds for all routes.",
+       "misconception": "scope misstated"
+      },
+      {
+       "key": "D",
+       "text": "Experiments cannot measure any enthalpy",
+       "correct": false,
+       "explanation": "Many are directly measurable; cycles cover the impossible ones.",
+       "misconception": "claim false"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What must you track most carefully when adding the legs of a cycle?",
+     "misconceptionClass": "error focus",
+     "options": [
+      {
+       "key": "A",
+       "text": "The direction of each arrow, which fixes each sign",
+       "correct": true,
+       "explanation": "Reversed arrows flip the value's sign.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The colour of the arrows",
+       "correct": false,
+       "explanation": "Presentation, not physics.",
+       "misconception": "irrelevant detail"
+      },
+      {
+       "key": "C",
+       "text": "The number of decimal places",
+       "correct": false,
+       "explanation": "Precision matters less than direction.",
+       "misconception": "priority misstated"
+      },
+      {
+       "key": "D",
+       "text": "The hump's height",
+       "correct": false,
+       "explanation": "Cycles carry no humps.",
+       "misconception": "geometry crossed"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which phrase belongs in a full statement of Hess's law?",
+     "misconceptionClass": "statement precision",
+     "options": [
+      {
+       "key": "A",
+       "text": "The enthalpy change of a reaction is independent of the route taken",
+       "correct": true,
+       "explanation": "The canonical phrasing.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Energy cannot be created or destroyed",
+       "correct": false,
+       "explanation": "That is the first law - true but not the Hess statement.",
+       "misconception": "law crossed"
+      },
+      {
+       "key": "C",
+       "text": "Reactions release energy in all routes",
+       "correct": false,
+       "explanation": "Endothermic routes exist.",
+       "misconception": "claim false"
+      },
+      {
+       "key": "D",
+       "text": "Enthalpy equals temperature times capacity",
+       "correct": false,
+       "explanation": "That is a calorimetry relation.",
+       "misconception": "formula crossed"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State Hess's law in its standard wording.",
+     "misconceptionClass": "law recall",
+     "modelAnswer": "The enthalpy change of a reaction is independent of the route taken between reactants and products.",
+     "keywords": [
+      "enthalpy change",
+      "independent",
+      "route"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Describe the construction of a simple energy cycle through the elements.",
+     "misconceptionClass": "construction recall",
+     "modelAnswer": "Draw reactants and products on the top level, place the elements on a lower level, and join them with arrows carrying the tabulated formation values.",
+     "keywords": [
+      "elements",
+      "level",
+      "arrows"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why enthalpy being a state function makes Hess's law work.",
+     "misconceptionClass": "foundation reasoning",
+     "modelAnswer": "A state function's value depends only on the current state, so any complete journey between the same two states accumulates the same net change, whatever the path - legs through elements are just one such path.",
+     "keywords": [
+      "state function",
+      "path",
+      "net change"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A direct reaction's enthalpy change cannot be measured because the reaction is too slow. Explain how a cycle solves the problem.",
+     "misconceptionClass": "cycle application",
+     "modelAnswer": "Choose tabulated intermediates (the elements), add the legs algebraically with arrow-directed signs, and the sum delivers the direct change without running the slow reaction.",
+     "keywords": [
+      "elements",
+      "legs",
+      "sum"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Reaction enthalpy from formation data",
+   "sourceHeadings": [
+    "Hess Cycles - Calculations",
+    "Calculating ΔH<sub>r</sub> <sub> </sub>from ΔH<sub>f</sub> using Hess’s Law energy cycles"
+   ],
+   "specRefs": [
+    "6.6"
+   ],
+   "opening": "With the elements as the common ground, the formation route collapses to one slogan: products minus reactants. Multiply each tabulated formation value by its equation's mole count, total the two sides, and subtract - the workhorse calculation of the chapter.",
+   "keyPoints": [
+    "The formation route gives: enthalpy change of reaction = sum of formation values of products minus those of reactants.",
+    "Multiply every tabulated value by its coefficient in the reaction equation.",
+    "Elements in their standard states contribute zero, so they drop out of the sum.",
+    "The worked-example cycle runs the calculation stepwise: elements level, arrows, then the subtraction.",
+    "A positive result means the reaction is endothermic; negative means exothermic."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Add up the products' formation values, add up the reactants', and subtract reactants from products - remembering each value may need multiplying by its mole count.",
+     "analogy": "A shopping bill: itemise the trolley (products), itemise the returned goods (reactants), and the net charge is the reaction's price.",
+     "examPointer": "Show the multiplication step for coefficients above one - skipping it is the most common numerical fault in these calculations."
+    },
+    "medium": {
+     "restatement": "The subtraction encodes the cycle's geometry: the reactants' leg climbs back up to the elements (reversing their formation, hence minus) and the products' leg descends (hence plus) - the slogan is the diagram written in algebra.",
+     "analogy": "Return then purchase: the refund (minus reactants) plus the new bill (plus products) nets the day's true cost.",
+     "examPointer": "Quote the final value with units kJ mol^-1 and its sign - the sign classifies the reaction and carries its own mark."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "The formation-route formula reads: enthalpy of reaction equals:",
+     "misconceptionClass": "formula recall",
+     "options": [
+      {
+       "key": "A",
+       "text": "Sum of products' formation values minus sum of reactants' formation values",
+       "correct": true,
+       "explanation": "The products-minus-reactants slogan.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Reactants minus products",
+       "correct": false,
+       "explanation": "That inverts every sign.",
+       "misconception": "direction inverted"
+      },
+      {
+       "key": "C",
+       "text": "Products plus reactants",
+       "correct": false,
+       "explanation": "Addition ignores the cycle's geometry.",
+       "misconception": "algebra wrong"
+      },
+      {
+       "key": "D",
+       "text": "The larger side minus the smaller",
+       "correct": false,
+       "explanation": "The sides are fixed by the equation, not by size.",
+       "misconception": "convention invented"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Formation values of N2(g) and H2(g) appear in the ammonia cycle. What do they contribute?",
+     "misconceptionClass": "zero contribution",
+     "options": [
+      {
+       "key": "A",
+       "text": "Nothing - both are elements in their standard states",
+       "correct": true,
+       "explanation": "The zero floor applies.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Their bond energies",
+       "correct": false,
+       "explanation": "Bond enthalpies belong to a different route.",
+       "misconception": "quantity crossed"
+      },
+      {
+       "key": "C",
+       "text": "A negative correction",
+       "correct": false,
+       "explanation": "Elements contribute exactly zero.",
+       "misconception": "value invented"
+      },
+      {
+       "key": "D",
+       "text": "Their combustion values",
+       "correct": false,
+       "explanation": "Wrong quantity family.",
+       "misconception": "quantity crossed"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "A formation value must be multiplied when:",
+     "misconceptionClass": "coefficient drill",
+     "options": [
+      {
+       "key": "A",
+       "text": "Its species' coefficient in the reaction equation exceeds one",
+       "correct": true,
+       "explanation": "Scale follows the equation.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Its value is negative",
+       "correct": false,
+       "explanation": "Signs never trigger multiplication.",
+       "misconception": "trigger misstated"
+      },
+      {
+       "key": "C",
+       "text": "Its state is liquid",
+       "correct": false,
+       "explanation": "State does not scale coefficients.",
+       "misconception": "trigger crossed"
+      },
+      {
+       "key": "D",
+       "text": "Never - values are used as tabulated",
+       "correct": false,
+       "explanation": "Coefficients above one demand multiplication.",
+       "misconception": "claim false"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Ammonia synthesis: N2 + 3H2 -> 2NH3 with formation value of NH3 at -46 kJ mol^-1. The reaction enthalpy is:",
+     "misconceptionClass": "calculation drill",
+     "options": [
+      {
+       "key": "A",
+       "text": "-92 kJ mol^-1, from 2 x (-46) minus zero",
+       "correct": true,
+       "explanation": "Two moles of ammonia form; the elements contribute zero.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "-46 kJ mol^-1",
+       "correct": false,
+       "explanation": "The coefficient 2 must enter.",
+       "misconception": "coefficient dropped"
+      },
+      {
+       "key": "C",
+       "text": "+92 kJ mol^-1",
+       "correct": false,
+       "explanation": "The sign follows the products' negative value.",
+       "misconception": "sign inverted"
+      },
+      {
+       "key": "D",
+       "text": "-138 kJ mol^-1",
+       "correct": false,
+       "explanation": "That multiplies by 3 instead of 2.",
+       "misconception": "coefficient misapplied"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "A formation-route calculation returns +178 kJ mol^-1. Classify the reaction.",
+     "misconceptionClass": "sign classification",
+     "options": [
+      {
+       "key": "A",
+       "text": "Endothermic - energy was absorbed overall",
+       "correct": true,
+       "explanation": "Positive change means absorption.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Exothermic - energy was released",
+       "correct": false,
+       "explanation": "Release reads negative.",
+       "misconception": "sign inverted"
+      },
+      {
+       "key": "C",
+       "text": "Impossible - enthalpy changes are always negative",
+       "correct": false,
+       "explanation": "Positive changes abound.",
+       "misconception": "claim false"
+      },
+      {
+       "key": "D",
+       "text": "Catalysed",
+       "correct": false,
+       "explanation": "The sign says nothing about catalysts.",
+       "misconception": "inference crossed"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the formation-route formula in words.",
+     "misconceptionClass": "formula recall",
+     "modelAnswer": "The reaction's enthalpy change equals the sum of the products' formation values minus the sum of the reactants' formation values, each scaled by its coefficient.",
+     "keywords": [
+      "products",
+      "reactants",
+      "coefficient"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Compute the enthalpy change of N2(g) + 3H2(g) -> 2NH3(g) given the formation value of NH3 as -46 kJ mol^-1.",
+     "misconceptionClass": "calculation recall",
+     "modelAnswer": "2 x (-46) - (0 + 0) = -92 kJ mol^-1, so the synthesis is exothermic.",
+     "keywords": [
+      "2 x (-46)",
+      "-92",
+      "exothermic"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why the formation route works even when the reaction itself cannot be run in a calorimeter.",
+     "misconceptionClass": "route reasoning",
+     "modelAnswer": "The cycle never runs the actual reaction - it computes the same level gap through the elements' legs, so unmeasurable reactions still yield exact values from tabulated data.",
+     "keywords": [
+      "cycle",
+      "elements",
+      "tabulated"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A formation-route calculation gives the reactants' total as -602 kJ and the products' total as -780 kJ. State the reaction's enthalpy change and its class.",
+     "misconceptionClass": "subtraction application",
+     "modelAnswer": "The change is (-780) - (-602) = -178 kJ mol-1, negative and therefore exothermic.",
+     "keywords": [
+      "-178",
+      "exothermic",
+      "subtraction"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Formation enthalpy from combustion data",
+   "sourceHeadings": [
+    "Calculating ΔH<sub>f</sub> from ΔH<sub>c </sub>using Hess’s Law energy cycles"
+   ],
+   "specRefs": [
+    "6.6"
+   ],
+   "opening": "When formation values are unmeasurable, combustion values usually are not - every substance burns. The combustion cycle flips the slogan: the target compound's formation value equals the reactant elements' combustions minus the compound's own combustion.",
+   "keyPoints": [
+    "The combustion route gives: formation value of the target = sum of reactant elements' combustion values minus the target's combustion value.",
+    "Combustion arrows point downward from every species to the shared combustion products level.",
+    "The target compound's combustion leg runs the wrong way for formation, hence the subtraction flips its sign.",
+    "The worked example prices propan-1-ol from carbon, hydrogen and the compound's own combustion.",
+    "Watch the stoichiometry: each element's combustion must be multiplied by its mole count."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Everything burns down to the same products level: the elements' burns added together, minus the compound's own burn, equals the formation value you could never measure directly.",
+     "analogy": "Three slides into the same swimming pool: two start from the elements' platform, one from the compound's - the compound's platform height is the difference of the slide lengths.",
+     "examPointer": "The compound's combustion value enters with a plus after the minus in the bracket - writing it as minus twice is the standard slip."
+    },
+    "medium": {
+     "restatement": "The sign flip is cycle geometry: formation climbs from elements up to the compound, but combustion descends from the compound, so its tabulated negative value enters the sum reversed - the algebra is the ladder read in both directions.",
+     "analogy": "Measuring a shelf's height by how far it is above the floor (formation) versus how far below the ceiling it hangs (combustion) - one reading flips into the other.",
+     "examPointer": "Check the mole counts before subtracting: 3 carbons means 3 combustions of carbon, each carrying its own tabulated value."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "The combustion-route formula for a formation value reads:",
+     "misconceptionClass": "formula recall",
+     "options": [
+      {
+       "key": "A",
+       "text": "Elements' combustions summed, minus the compound's combustion",
+       "correct": true,
+       "explanation": "The flipped slogan.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Compound's combustion minus elements' combustions",
+       "correct": false,
+       "explanation": "That inverts the geometry.",
+       "misconception": "direction inverted"
+      },
+      {
+       "key": "C",
+       "text": "Elements' combustions plus the compound's combustion",
+       "correct": false,
+       "explanation": "The compound's leg runs opposite.",
+       "misconception": "sign wrong"
+      },
+      {
+       "key": "D",
+       "text": "Half the sum of all combustions",
+       "correct": false,
+       "explanation": "No such averaging exists.",
+       "misconception": "convention invented"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why do all combustion arrows converge on one level?",
+     "misconceptionClass": "cycle geometry",
+     "options": [
+      {
+       "key": "A",
+       "text": "Every substance burns to the same oxides - carbon dioxide and water",
+       "correct": true,
+       "explanation": "The shared products level closes the cycle.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Combustion conserves molecules",
+       "correct": false,
+       "explanation": "Molecules are transformed, not conserved.",
+       "misconception": "claim false"
+      },
+      {
+       "key": "C",
+       "text": "The tabulated values demand it",
+       "correct": false,
+       "explanation": "The chemistry dictates the level, not the table.",
+       "misconception": "logic inverted"
+      },
+      {
+       "key": "D",
+       "text": "Water and carbon dioxide are elements",
+       "correct": false,
+       "explanation": "They are compounds.",
+       "misconception": "classification wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Combustion values: C(s) -394, H2(g) -286, CH3COCH3(l) -1821 (kJ mol^-1). The formation value of propanone, C3H6O, is:",
+     "misconceptionClass": "calculation drill",
+     "options": [
+      {
+       "key": "A",
+       "text": "-219 kJ mol^-1, from 3(-394) + 3(-286) - (-1821)",
+       "correct": true,
+       "explanation": "3 carbons and 3 hydrogens burn, then the compound's burn flips.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "-2501 kJ mol^-1",
+       "correct": false,
+       "explanation": "That adds everything without the flip.",
+       "misconception": "sign wrong"
+      },
+      {
+       "key": "C",
+       "text": "+219 kJ mol^-1",
+       "correct": false,
+       "explanation": "The result is negative - formation from elements is exothermic here.",
+       "misconception": "sign inverted"
+      },
+      {
+       "key": "D",
+       "text": "-1182 kJ mol^-1",
+       "correct": false,
+       "explanation": "That counts only the carbon leg.",
+       "misconception": "legs incomplete"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "In the propanone cycle, why does hydrogen's combustion enter three times?",
+     "misconceptionClass": "stoichiometry drill",
+     "options": [
+      {
+       "key": "A",
+       "text": "The formation equation contains 3 H2",
+       "correct": true,
+       "explanation": "Each mole of hydrogen burns once.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Hydrogen is triply combustible",
+       "correct": false,
+       "explanation": "No such property exists.",
+       "misconception": "nonsense option"
+      },
+      {
+       "key": "C",
+       "text": "Propan-1-ol holds three hydrogens",
+       "correct": false,
+       "explanation": "It holds eight; the coefficient counts moles of H2.",
+       "misconception": "counting confused"
+      },
+      {
+       "key": "D",
+       "text": "To balance the oxygen",
+       "correct": false,
+       "explanation": "Oxygen's combustion is not part of the leg.",
+       "misconception": "species crossed"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why is the combustion route preferred when formation values are unavailable?",
+     "misconceptionClass": "route preference",
+     "options": [
+      {
+       "key": "A",
+       "text": "Combustions are readily measurable for nearly every substance",
+       "correct": true,
+       "explanation": "Burning is easy; synthesising from elements may be impossible.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Combustion values are always zero",
+       "correct": false,
+       "explanation": "They are large and negative.",
+       "misconception": "claim false"
+      },
+      {
+       "key": "C",
+       "text": "The formula is simpler",
+       "correct": false,
+       "explanation": "The route's virtue is measurability, not simplicity.",
+       "misconception": "virtue misstated"
+      },
+      {
+       "key": "D",
+       "text": "Combustion avoids state symbols",
+       "correct": false,
+       "explanation": "States are still required.",
+       "misconception": "claim false"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the combustion-route formula for a formation value in words.",
+     "misconceptionClass": "formula recall",
+     "modelAnswer": "The formation value equals the summed combustion values of the reactant elements minus the combustion value of the target compound itself.",
+     "keywords": [
+      "elements",
+      "combustion",
+      "minus"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Compute the formation value of propanone given combustion values C(s) -394, H2(g) -286 and CH3COCH3(l) -1821 kJ mol^-1.",
+     "misconceptionClass": "calculation recall",
+     "modelAnswer": "3(-394) + 3(-286) - (-1821) = -1182 - 858 + 1821 = -219 kJ mol^-1.",
+     "keywords": [
+      "-1182",
+      "858",
+      "-219"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why the compound's own combustion value enters the sum with a reversed effect.",
+     "misconceptionClass": "sign geometry",
+     "modelAnswer": "Formation climbs from elements up to the compound while combustion descends from it, so the compound's leg runs opposite to the cycle's direction and its tabulated value enters effectively flipped.",
+     "keywords": [
+      "climbs",
+      "descends",
+      "flipped"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "Verify the propanone formation calculation arithmetically: 3(-394), 3(-286) and -(-1821).",
+     "misconceptionClass": "verification application",
+     "modelAnswer": "3 x 394 = 1182, 3 x 286 = 858, so the sum is -1182 - 858 + 1821 = -219 kJ mol^-1, matching the tabulated cycle answer.",
+     "keywords": [
+      "1182",
+      "858",
+      "-219"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "Hess's law",
+    "definition": "The rule that a reaction's enthalpy change is independent of the route taken between reactants and products.",
+    "firstLesson": 1
+   },
+   {
+    "term": "energy cycle",
+    "definition": "A diagram routing reactants and products through a shared intermediate level whose legs sum to the direct change.",
+    "firstLesson": 1
+   },
+   {
+    "term": "formation route",
+    "definition": "The cycle through the elements that yields a reaction's enthalpy from tabulated formation values.",
+    "firstLesson": 2
+   },
+   {
+    "term": "combustion route",
+    "definition": "The cycle through the combustion products level that yields a formation value from tabulated combustion values.",
+    "firstLesson": 3
+   }
+  ],
+  "workedExample": {
+   "prompt": "Given combustion enthalpies C(s) = -394, H2(g) = -286 and C3H7OH(l) = -1821 kJ mol^-1, calculate the standard enthalpy change of formation of propan-1-ol.",
+   "steps": [
+    "Write the formation equation: 3C(s) + 4H2(g) + (1/2)O2(g) -> C3H7OH(l).",
+    "Place the combustion products (CO2 and H2O) on the shared lower level.",
+    "Sum the elements' combustions: 3 x (-394) + 4 x (-286) = -1182 - 1144 = -2326 kJ.",
+    "Reverse the compound's own combustion: -(-1821) = +1821 kJ.",
+    "Add the legs: -2326 + 1821 = -505 kJ mol^-1."
+   ],
+   "finalAnswer": "The standard enthalpy change of formation of propan-1-ol is -505 kJ mol^-1."
+  }
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/c8529df9c3c1-1-5-chemical-energetics-hess-cycles.png",
+   "alt": "Chemical Energetics Hess Cycles, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Hess Cycles - Construction",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "According to Hess' Law, the enthalpy change of the direct route, going from reactants (A+B) to product (C), is equal to the enthalpy change of the indirect route"
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/e07defbd2c22-1-5-chemical-energetics-direct-and-indirect-rout.png",
+   "alt": "Chemical Energetics Direct and Indirect Routes, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Calculating ΔH<sub>r </sub>from ΔH<sub>f</sub> using Hess’s Law energy cycles",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "The enthalpy change from elements to products (direct route) is equal to the enthalpy change of elements forming reactants plus the reactants forming products"
+  },
+  {
+   "id": "fig-03",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/63ae0100bec7-we2-1.png",
+   "alt": "wk eg step 1",
+   "sourceHeading": "Calculating ΔH<sub>r</sub> <sub> </sub>from ΔH<sub>f</sub> using Hess’s Law energy cycles",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "Worked example step 1: write the reaction equation"
+  },
+  {
+   "id": "fig-04",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/2bd53cd0508a-we2-2-1.png",
+   "alt": "wk eg step 2",
+   "sourceHeading": "Calculating ΔH<sub>r</sub> <sub> </sub>from ΔH<sub>f</sub> using Hess’s Law energy cycles",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "Worked example step 2: write the elements with the correct number of moles and state symbols underneath"
+  },
+  {
+   "id": "fig-05",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/e4d7d061f9b5-we2-3-1.png",
+   "alt": "wk eg step3",
+   "sourceHeading": "Calculating ΔH<sub>r</sub> <sub> </sub>from ΔH<sub>f</sub> using Hess’s Law energy cycles",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "Worked example step 3: draw the cycle arrows"
+  },
+  {
+   "id": "fig-06",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/d8951aeea8a0-we2-4-1.png",
+   "alt": "wk eg step 4",
+   "sourceHeading": "Calculating ΔH<sub>r</sub> <sub> </sub>from ΔH<sub>f</sub> using Hess’s Law energy cycles",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "Worked example step 4: write the appropriate values on the arrows and multiply by the number of moles"
+  },
+  {
+   "id": "fig-07",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/6ee7f4b330b8-we2-5-1.png",
+   "alt": "wk eg step 5",
+   "sourceHeading": "Calculating ΔH<sub>r</sub> <sub> </sub>from ΔH<sub>f</sub> using Hess’s Law energy cycles",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "Worked example step 5: subtract to obtain the reaction enthalpy"
+  },
+  {
+   "id": "fig-08",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/8843f49e38bb-we1-1.png",
+   "alt": "wk eg step 1",
+   "sourceHeading": "Calculating ΔH<sub>f</sub> from ΔH<sub>c </sub>using Hess’s Law energy cycles",
+   "moduleIds": [
+    "L3"
+   ],
+   "binding": "heading-unique",
+   "caption": "Worked example step 1: write the formation equation"
+  },
+  {
+   "id": "fig-09",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/a845980af88f-we1-2.png",
+   "alt": "wk eg step 2",
+   "sourceHeading": "Calculating ΔH<sub>f</sub> from ΔH<sub>c </sub>using Hess’s Law energy cycles",
+   "moduleIds": [
+    "L3"
+   ],
+   "binding": "heading-unique",
+   "caption": "Worked example step 2: write the combustion products underneath"
+  },
+  {
+   "id": "fig-10",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/ade67a974560-we1-3.png",
+   "alt": "wk eg step 3",
+   "sourceHeading": "Calculating ΔH<sub>f</sub> from ΔH<sub>c </sub>using Hess’s Law energy cycles",
+   "moduleIds": [
+    "L3"
+   ],
+   "binding": "heading-unique",
+   "caption": "Worked example step 3: draw the combustion arrows"
+  },
+  {
+   "id": "fig-11",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/1d617cea09e2-we1-4.png",
+   "alt": "worked example step 4",
+   "sourceHeading": "Calculating ΔH<sub>f</sub> from ΔH<sub>c </sub>using Hess’s Law energy cycles",
+   "moduleIds": [
+    "L3"
+   ],
+   "binding": "heading-unique",
+   "caption": "Worked example step 4: write values on the arrows and multiply by the number of moles"
+  },
+  {
+   "id": "fig-12",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/2c3e7a9e015a-we1-5.png",
+   "alt": "worked example step 5",
+   "sourceHeading": "Calculating ΔH<sub>f</sub> from ΔH<sub>c </sub>using Hess’s Law energy cycles",
+   "moduleIds": [
+    "L3"
+   ],
+   "binding": "heading-unique",
+   "caption": "Worked example step 5: sum the legs to obtain the formation enthalpy"
+  }
+ ]
+}

@@ -1,0 +1,829 @@
+{
+ "format": "guided-lesson/0.8",
+ "noteRef": {
+  "noteId": "rn_dyFwqRzcJB9bjs3C",
+  "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+  "topicTitle": "1. Structure, Bonding & Introduction to Organic Chemistry",
+  "subtopicTitle": "Polymer Disposal",
+  "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/1-structure-bonding-and-introduction-to-organic-chemistry/1-10-alkenes/1-10-7-polymer-disposal"
+ },
+ "specPoints": [
+  {
+   "code": "5.8",
+   "text": "understand how chemists limit the problems caused by polymer disposal by: i developing biodegradable polymers ii removing toxic waste gases produced by the incineration of polymers Further suggested practicals: i investigating the difference in reactivity of alkanes and alkenes, including combustion, reaction with bromine water, reaction with acidified potassium manganate(VII) ii preparation of cyclohexene from cyclohexanol iii preparation of limonene from orange peel by steam distillation iv preparation of Perspex ® from methyl 2-methylpropenoate"
+  }
+ ],
+ "primer": {
+  "text": "Plastic survives burial for centuries, so chemists route waste polymers through four different exits. This note weighs landfill against incineration with its toxic flue gases, melt-and-remould recycling, and the biodegradable and compostable polymers engineered to surrender to microbes. Every route has a cost the exam expects you to name.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "Landfill and incineration",
+   "sourceHeadings": [
+    "Landfill waste disposal",
+    "Incineration"
+   ],
+   "specRefs": [
+    "5.8"
+   ],
+   "opening": "The two oldest exits for waste polymer are a hole in the ground and a flame. Landfill consumes land and leaks nothing useful back; incineration recovers heat energy but must scrub the toxic gases its flue carries. Both routes carry costs the exam expects you to weigh.",
+   "keyPoints": [
+    "Landfill disposal consumes land space and stores unreactive polymer for centuries.",
+    "Incineration recovers heat energy from burning waste polymers.",
+    "Burning halogen-containing polymers such as PVC releases acidic toxic gases, including hydrogen chloride.",
+    "Chemists limit the incineration problem by scrubbing toxic waste gases from the flue before release.",
+    "Neither route recycles the polymer's material value - one buries it, one burns it."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Bury the plastic and it outlives the landfill; burn it and you get energy but must clean hydrogen chloride and other acidic gases from the smoke first.",
+     "analogy": "Landfill is a freezer that keeps the problem intact; incineration is a furnace that turns the problem into energy plus fumes needing a filter.",
+     "examPointer": "Name hydrogen chloride from PVC combustion - a generic 'toxic gases' answer usually drops the specificity mark."
+    },
+    "medium": {
+     "restatement": "The incineration trade-off is energy recovery against flue toxicity: chlorinated backbones oxidise to HCl, so scrubbers neutralise the acid gases before the plume leaves the stack.",
+     "analogy": "Burning chlorine-bearing plastic is like cooking with a smoke alarm guaranteed to fire - the meal (energy) is real, but the ventilation (scrubbing) is mandatory.",
+     "examPointer": "When a question asks how chemists 'limit the problems', answer with the gas-removal step, not merely the detection of the gases."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Which toxic acidic gas is released when PVC is incinerated?",
+     "misconceptionClass": "combustion gas identity",
+     "options": [
+      {
+       "key": "A",
+       "text": "Hydrogen chloride, from the chlorine in the polymer",
+       "correct": true,
+       "explanation": "The chlorinated backbone burns to HCl.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Hydrogen fluoride",
+       "correct": false,
+       "explanation": "PVC carries chlorine, not fluorine.",
+       "misconception": "halogen swapped"
+      },
+      {
+       "key": "C",
+       "text": "Sulfur dioxide",
+       "correct": false,
+       "explanation": "That comes from sulfur impurities in fuels, not PVC.",
+       "misconception": "pollutant crossed"
+      },
+      {
+       "key": "D",
+       "text": "Nitrogen monoxide",
+       "correct": false,
+       "explanation": "That forms from air's nitrogen at engine temperatures.",
+       "misconception": "pollutant crossed"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What is the main benefit that incineration offers over landfill?",
+     "misconceptionClass": "route benefit",
+     "options": [
+      {
+       "key": "A",
+       "text": "Heat energy is recovered from the burning polymer",
+       "correct": true,
+       "explanation": "The flame's energy can power recovery systems.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The polymer is recycled into new plastic",
+       "correct": false,
+       "explanation": "Burning destroys the material value.",
+       "misconception": "route confused"
+      },
+      {
+       "key": "C",
+       "text": "No gases are produced",
+       "correct": false,
+       "explanation": "Combustion always produces flue gases needing control.",
+       "misconception": "denial error"
+      },
+      {
+       "key": "D",
+       "text": "The land becomes fertile",
+       "correct": false,
+       "explanation": "Landfill stores waste; it does not fertilise.",
+       "misconception": "benefit invented"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why does landfill remain an unsatisfactory primary disposal route?",
+     "misconceptionClass": "landfill drawback",
+     "options": [
+      {
+       "key": "A",
+       "text": "Polymers persist for centuries while consuming land capacity",
+       "correct": true,
+       "explanation": "Unreactive chains barely degrade underground.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Landfill releases heat energy",
+       "correct": false,
+       "explanation": "Storage releases nothing; burning does.",
+       "misconception": "benefit misplaced"
+      },
+      {
+       "key": "C",
+       "text": "Landfill converts polymer to biomass quickly",
+       "correct": false,
+       "explanation": "Ordinary addition polymers resist microbial attack.",
+       "misconception": "degradation overstated"
+      },
+      {
+       "key": "D",
+       "text": "Landfill requires no land",
+       "correct": false,
+       "explanation": "Sites consume large areas.",
+       "misconception": "drawback inverted"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "How do chemists limit the problems caused by incinerating halogenated polymers?",
+     "misconceptionClass": "mitigation method",
+     "options": [
+      {
+       "key": "A",
+       "text": "By removing the toxic waste gases from the flue before release",
+       "correct": true,
+       "explanation": "Scrubbing neutralises the acidic products.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "By adding chlorine to the flame",
+       "correct": false,
+       "explanation": "More halogen worsens the acid gas load.",
+       "misconception": "action inverted"
+      },
+      {
+       "key": "C",
+       "text": "By burning the polymer at landfill sites",
+       "correct": false,
+       "explanation": "Open burning skips the scrubbing entirely.",
+       "misconception": "route misuse"
+      },
+      {
+       "key": "D",
+       "text": "By diluting the polymer with food waste",
+       "correct": false,
+       "explanation": "Dilution does not remove the acidic combustion products.",
+       "misconception": "action invented"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which statement correctly contrasts the two routes?",
+     "misconceptionClass": "contrast reading",
+     "options": [
+      {
+       "key": "A",
+       "text": "Landfill stores the material value; incineration destroys it while recovering energy",
+       "correct": true,
+       "explanation": "Burial preserves (uselessly), burning converts to heat.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Both routes recover the polymer for reuse",
+       "correct": false,
+       "explanation": "Neither route recycles the material.",
+       "misconception": "route confusion"
+      },
+      {
+       "key": "C",
+       "text": "Incineration consumes more land than landfill",
+       "correct": false,
+       "explanation": "Landfill is the land consumer.",
+       "misconception": "contrast inverted"
+      },
+      {
+       "key": "D",
+       "text": "Landfill produces hydrogen chloride",
+       "correct": false,
+       "explanation": "HCl is the incineration problem.",
+       "misconception": "pollutant misplaced"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State two drawbacks of landfill disposal of polymers.",
+     "misconceptionClass": "drawback recall",
+     "modelAnswer": "Landfill consumes land space and the unreactive polymer persists there for centuries without useful recovery.",
+     "keywords": [
+      "land",
+      "persist",
+      "unreactive"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Name the toxic waste gas produced when polymers containing chlorine are burned and state how chemists limit its release.",
+     "misconceptionClass": "gas recall",
+     "modelAnswer": "Hydrogen chloride forms when chlorinated polymers burn; scrubbers remove the toxic waste gases from the flue before they can escape.",
+     "keywords": [
+      "hydrogen chloride",
+      "scrub",
+      "flue"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why incineration is nonetheless still used despite its toxic gas problem.",
+     "misconceptionClass": "trade-off reasoning",
+     "modelAnswer": "The heat energy recovered offsets fossil fuel use, and scrubbing technology can capture the acidic gases, so the energy benefit is judged worth the controlled treatment cost.",
+     "keywords": [
+      "energy",
+      "scrub",
+      "controlled"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A council must choose between landfill and scrubbed incineration for a PVC waste stream. Give one advantage and one managed disadvantage of the incineration choice.",
+     "misconceptionClass": "decision application",
+     "modelAnswer": "Advantage: the combustion heat is recovered as useful energy. Managed disadvantage: the PVC releases hydrogen chloride on burning, so the flue must pass through gas scrubbing before any release.",
+     "keywords": [
+      "energy",
+      "hydrogen chloride",
+      "scrubbing"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Recycling and biodegradable polymers",
+   "sourceHeadings": [
+    "Recycling",
+    "Biodegradable polymers"
+   ],
+   "specRefs": [
+    "5.8"
+   ],
+   "opening": "The two constructive routes keep the polymer's value in play. Recycling sorts, melts and remoulds existing chains into new goods; biodegradable polymers invite microbes to dismantle the chain when its useful life ends. Each route solves a different half of the waste problem.",
+   "keyPoints": [
+    "Recycling sorts waste polymers by type, then melts and remoulds them into new products.",
+    "Sorting is the costly step, since mixed polymer types ruin each other's properties when melted together.",
+    "Biodegradable polymers are engineered so microorganisms can break their chains down.",
+    "Biodegradable routes reduce the landfill burden because the polymer is consumed rather than stored.",
+    "Both routes preserve material value better than burial or simple burning."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Recycling gives the plastic a second life by melting and remoulding sorted waste; biodegradable plastics are built to be eaten by microbes after use.",
+     "analogy": "Recycling is a wardrobe swap for the polymer; biodegradability is a pre-arranged funeral where the guests (microbes) clean up afterwards.",
+     "examPointer": "Name the sorting difficulty when discussing recycling costs - mixed types contaminate each other when melted."
+    },
+    "medium": {
+     "restatement": "The chain architecture decides biodegradability: engineered bonds or starch-derived sections give microbes an attack point, so the polymer fragments biologically instead of persisting like ordinary addition polymer chains.",
+     "analogy": "Ordinary polymer chains are steel cables to microbes; biodegradable ones are ropes with pre-frayed sections the microbes can unravel.",
+     "examPointer": "Link biodegradable polymers explicitly to landfill reduction - the specification pairs the two ideas and questions follow that pairing."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "What is the costly bottleneck of polymer recycling?",
+     "misconceptionClass": "recycling bottleneck",
+     "options": [
+      {
+       "key": "A",
+       "text": "Sorting the waste into separate polymer types",
+       "correct": true,
+       "explanation": "Mixed polymers ruin each other when melted.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Melting the sorted polymer",
+       "correct": false,
+       "explanation": "Melting is cheap once sorting is done.",
+       "misconception": "step misweighted"
+      },
+      {
+       "key": "C",
+       "text": "Remoulding the melt",
+       "correct": false,
+       "explanation": "Forming new shapes is routine processing.",
+       "misconception": "step misweighted"
+      },
+      {
+       "key": "D",
+       "text": "Transporting to landfill",
+       "correct": false,
+       "explanation": "Landfill is the alternative, not a recycling step.",
+       "misconception": "route crossed"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "How do biodegradable polymers reduce the landfill problem?",
+     "misconceptionClass": "biodegradability benefit",
+     "options": [
+      {
+       "key": "A",
+       "text": "Microorganisms break the polymer chains down after disposal",
+       "correct": true,
+       "explanation": "The material is consumed rather than stored.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "They make landfill sites smaller forever",
+       "correct": false,
+       "explanation": "The benefit is the breakdown, not the site geometry.",
+       "misconception": "benefit misstated"
+      },
+      {
+       "key": "C",
+       "text": "They burn without gases",
+       "correct": false,
+       "explanation": "Burning is a different route entirely.",
+       "misconception": "route crossed"
+      },
+      {
+       "key": "D",
+       "text": "They can never be disposed of",
+       "correct": false,
+       "explanation": "Disposal still happens; the polymer then degrades.",
+       "misconception": "logic inverted"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What happens if different polymer types are melted together during recycling?",
+     "misconceptionClass": "contamination consequence",
+     "options": [
+      {
+       "key": "A",
+       "text": "The mixture's properties are ruined for most uses",
+       "correct": true,
+       "explanation": "Incompatible chains weaken the remoulded product.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The polymers react to form a new useful plastic",
+       "correct": false,
+       "explanation": "No such constructive reaction rescues mixed waste.",
+       "misconception": "benefit invented"
+      },
+      {
+       "key": "C",
+       "text": "The polymers separate automatically by density",
+       "correct": false,
+       "explanation": "Sorting must be done before melting.",
+       "misconception": "step misordered"
+      },
+      {
+       "key": "D",
+       "text": "Nothing happens - all polymers are compatible",
+       "correct": false,
+       "explanation": "Compatibility is exactly what sorting protects.",
+       "misconception": "denial error"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which property must an engineered polymer possess to be called biodegradable?",
+     "misconceptionClass": "definition check",
+     "options": [
+      {
+       "key": "A",
+       "text": "Susceptibility to breakdown by microorganisms",
+       "correct": true,
+       "explanation": "Microbial attack defines the term.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Solubility in water",
+       "correct": false,
+       "explanation": "Dissolving is not biodegrading.",
+       "misconception": "property swapped"
+      },
+      {
+       "key": "C",
+       "text": "A lower melting point than PVC",
+       "correct": false,
+       "explanation": "Melting point is unrelated to biodegradation.",
+       "misconception": "property crossed"
+      },
+      {
+       "key": "D",
+       "text": "The ability to burn cleanly",
+       "correct": false,
+       "explanation": "Combustion behaviour is the incineration topic.",
+       "misconception": "topic crossed"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which pairing of route and principal benefit is correct?",
+     "misconceptionClass": "route benefit pairing",
+     "options": [
+      {
+       "key": "A",
+       "text": "Recycling - material value reused; biodegradable - landfill burden reduced",
+       "correct": true,
+       "explanation": "Each route targets a different half of the problem.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Recycling - energy recovered; biodegradable - material reused",
+       "correct": false,
+       "explanation": "Both benefits are swapped between routes.",
+       "misconception": "pairing crossed"
+      },
+      {
+       "key": "C",
+       "text": "Recycling - no sorting needed; biodegradable - no microbes needed",
+       "correct": false,
+       "explanation": "Both claims are false.",
+       "misconception": "pairing crossed"
+      },
+      {
+       "key": "D",
+       "text": "Recycling - landfill eliminated; biodegradable - energy recovered",
+       "correct": false,
+       "explanation": "Neither benefit belongs to its route.",
+       "misconception": "pairing crossed"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Describe the recycling route for waste polymers in three steps.",
+     "misconceptionClass": "process recall",
+     "modelAnswer": "Sort the waste by polymer type, melt the sorted polymer, then remould it into new products.",
+     "keywords": [
+      "sort",
+      "melt",
+      "remould"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State what biodegradable polymers are designed to do and which agents perform it.",
+     "misconceptionClass": "definition recall",
+     "modelAnswer": "They are designed to break down after disposal, with microorganisms attacking and consuming the chains.",
+     "keywords": [
+      "break down",
+      "microorganisms",
+      "chains"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why recycling preserves more material value than incineration.",
+     "misconceptionClass": "value comparison",
+     "modelAnswer": "Recycling remoulds the existing chains into new goods, keeping the polymer's structure and hence its manufacturing value, whereas burning destroys the chains and returns only their heat content.",
+     "keywords": [
+      "chains",
+      "structure",
+      "heat"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A drinks company wants its bottles to have a lower landfill impact. State whether biodegradable or ordinary PET suits that goal and why.",
+     "misconceptionClass": "choice application",
+     "modelAnswer": "A biodegradable polymer suits the goal: after use, microorganisms dismantle its chains, so discarded bottles are consumed instead of persisting in landfill for centuries.",
+     "keywords": [
+      "biodegradable",
+      "microorganisms",
+      "landfill"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Compostable polymers",
+   "sourceHeadings": [
+    "Compostable polymers"
+   ],
+   "specRefs": [
+    "5.8"
+   ],
+   "opening": "Compostable is a stronger claim than biodegradable: the polymer must not merely fragment but convert, under composting conditions, into carbon dioxide, water and biomass - the same outputs nature returns from a fallen leaf.",
+   "keyPoints": [
+    "Compostable polymers must break down completely under composting conditions.",
+    "The required end products are carbon dioxide, water and biomass.",
+    "Composting conditions supply the warmth, moisture and microbial community the process needs.",
+    "Compostable polymers therefore fit organic waste streams rather than ordinary landfill.",
+    "The claim is testable: if toxic residues or fragments persist, the polymer is not compostable."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "A compostable polymer finishes the job biodegradation starts: in a compost heap it turns entirely into carbon dioxide, water and biomass.",
+     "analogy": "Biodegradable means the rope frays; compostable means it decomposes into soil, steam and breath - nothing left to pick up.",
+     "examPointer": "List all three end products in exam answers - naming only carbon dioxide is the standard half-mark loss."
+    },
+    "medium": {
+     "restatement": "The distinction is endpoint-based: biodegradable covers breakdown to any remnants over any timescale, while compostable demands full conversion to the natural cycling products within managed composting conditions.",
+     "analogy": "Biodegradable is 'eventually falls apart'; compostable is 'becomes garden soil on schedule'.",
+     "examPointer": "If asked to distinguish the two terms, contrast the endpoints - fragments versus the full CO2 / water / biomass set."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Into what must a compostable polymer convert under composting conditions?",
+     "misconceptionClass": "endpoint products",
+     "options": [
+      {
+       "key": "A",
+       "text": "Carbon dioxide, water and biomass",
+       "correct": true,
+       "explanation": "The three natural-cycling products are the requirement.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Carbon dioxide and monomer only",
+       "correct": false,
+       "explanation": "Biomass and water belong in the product set.",
+       "misconception": "set incomplete"
+      },
+      {
+       "key": "C",
+       "text": "Methane and landfill gas",
+       "correct": false,
+       "explanation": "That is anaerobic landfill chemistry, not composting.",
+       "misconception": "route crossed"
+      },
+      {
+       "key": "D",
+       "text": "It must not convert at all",
+       "correct": false,
+       "explanation": "Conversion is the entire point.",
+       "misconception": "claim inverted"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which conditions must composting supply for the polymer to break down fully?",
+     "misconceptionClass": "condition set",
+     "options": [
+      {
+       "key": "A",
+       "text": "Warmth, moisture and an active microbial community",
+       "correct": true,
+       "explanation": "Managed compost heaps provide all three.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Freezing temperatures",
+       "correct": false,
+       "explanation": "Cold slows the microbial chemistry.",
+       "misconception": "condition inverted"
+      },
+      {
+       "key": "C",
+       "text": "Dry storage",
+       "correct": false,
+       "explanation": "Microbes need moisture to work.",
+       "misconception": "condition inverted"
+      },
+      {
+       "key": "D",
+       "text": "Strong sunlight",
+       "correct": false,
+       "explanation": "Photodegradation is not the composting mechanism.",
+       "misconception": "mechanism crossed"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "How does compostable differ from biodegradable as a claim?",
+     "misconceptionClass": "claim strength",
+     "options": [
+      {
+       "key": "A",
+       "text": "Compostable demands full conversion to the natural products; biodegradable covers fragmentation",
+       "correct": true,
+       "explanation": "The endpoint separates the claims.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Biodegradable is the stronger claim",
+       "correct": false,
+       "explanation": "Compostable's endpoint is stricter.",
+       "misconception": "strength inverted"
+      },
+      {
+       "key": "C",
+       "text": "They mean exactly the same thing",
+       "correct": false,
+       "explanation": "The endpoint products distinguish them.",
+       "misconception": "equivalence claimed"
+      },
+      {
+       "key": "D",
+       "text": "Compostable polymers never break down",
+       "correct": false,
+       "explanation": "Full breakdown is their requirement.",
+       "misconception": "claim inverted"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "A polymer fragments into small plastic particles in soil but leaves persistent residue. Is it compostable?",
+     "misconceptionClass": "judgement application",
+     "options": [
+      {
+       "key": "A",
+       "text": "No - persistent residue fails the full-conversion requirement",
+       "correct": true,
+       "explanation": "Compostable means nothing but CO2, water and biomass remains.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Yes - fragmenting proves compostability",
+       "correct": false,
+       "explanation": "Fragmentation alone is merely some biodegradation.",
+       "misconception": "standard lowered"
+      },
+      {
+       "key": "C",
+       "text": "Yes, if the fragments are small",
+       "correct": false,
+       "explanation": "Size does not rescue persistence.",
+       "misconception": "criterion swapped"
+      },
+      {
+       "key": "D",
+       "text": "The question cannot be answered",
+       "correct": false,
+       "explanation": "The endpoint evidence settles it.",
+       "misconception": "verdict dodged"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which waste stream best suits compostable polymers after use?",
+     "misconceptionClass": "waste stream fit",
+     "options": [
+      {
+       "key": "A",
+       "text": "Organic waste sent for composting",
+       "correct": true,
+       "explanation": "The polymer joins the managed microbial process.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Ordinary landfill cells",
+       "correct": false,
+       "explanation": "Landfill lacks the managed composting conditions.",
+       "misconception": "stream mismatched"
+      },
+      {
+       "key": "C",
+       "text": "Incinerator feed",
+       "correct": false,
+       "explanation": "Burning defeats the composting design.",
+       "misconception": "route crossed"
+      },
+      {
+       "key": "D",
+       "text": "Ocean disposal",
+       "correct": false,
+       "explanation": "No managed conditions and uncontrolled damage.",
+       "misconception": "stream rejected"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "List the three products that define complete compostable breakdown.",
+     "misconceptionClass": "product recall",
+     "modelAnswer": "Carbon dioxide, water and biomass.",
+     "keywords": [
+      "carbon dioxide",
+      "water",
+      "biomass"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State one practical difference between composting and landfill disposal of polymers.",
+     "misconceptionClass": "route contrast recall",
+     "modelAnswer": "Composting actively manages warmth, moisture and microbes so the polymer converts fully, while landfill merely stores the polymer under unmanaged conditions.",
+     "keywords": [
+      "managed",
+      "microbes",
+      "stores"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why compostable polymers belong in organic waste streams rather than general waste.",
+     "misconceptionClass": "stream reasoning",
+     "modelAnswer": "Their designed breakdown needs the managed microbial conditions of composting, which organic waste facilities provide and general waste handling does not.",
+     "keywords": [
+      "conditions",
+      "microbial",
+      "composting"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A cafeteria sorts waste into compostables, recyclables and landfill. State where a certified compostable cup should go and what it will become.",
+     "misconceptionClass": "sorting application",
+     "modelAnswer": "The cup goes into the compostable stream, where managed composting converts it into carbon dioxide, water and biomass alongside the organic waste.",
+     "keywords": [
+      "compostable",
+      "carbon dioxide",
+      "biomass"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "incineration",
+    "definition": "Controlled burning of waste polymers to recover heat energy, requiring flue-gas scrubbing for acidic products.",
+    "firstLesson": 1
+   },
+   {
+    "term": "biodegradable polymer",
+    "definition": "A polymer engineered so microorganisms can break its chains down after disposal.",
+    "firstLesson": 2
+   },
+   {
+    "term": "compostable polymer",
+    "definition": "A polymer that converts completely into carbon dioxide, water and biomass under managed composting conditions.",
+    "firstLesson": 3
+   },
+   {
+    "term": "scrubbing",
+    "definition": "Removing toxic waste gases from an incineration flue before release.",
+    "firstLesson": 1
+   }
+  ],
+  "workedExample": null
+ }
+}

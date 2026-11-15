@@ -1,0 +1,585 @@
+{
+ "format": "guided-lesson/0.8",
+ "noteRef": {
+  "noteId": "rn_jSKV5rYbCfKNQ9sX",
+  "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+  "topicTitle": "1. Structure, Bonding & Introduction to Organic Chemistry",
+  "subtopicTitle": "Reactions of Alkenes",
+  "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/1-structure-bonding-and-introduction-to-organic-chemistry/1-10-alkenes/1-10-3-reactions-of-alkenes"
+ },
+ "specPoints": [
+  {
+   "code": "5.4",
+   "text": "be able to describe the reactions of alkenes, limited to: i the addition of hydrogen, using a nickel catalyst, to form an alkane ii the addition of halogens to produce a di-substituted halogenoalkane iii the addition of hydrogen halides to produce mono-substituted halogenoalkanes iv the addition of steam, in the presence of an acid catalyst, to produce alcohols v oxidation of the double bond by acidified potassium manganate(VII) to produce a diol"
+  }
+ ],
+ "primer": {
+  "text": "One functional group, five addition outcomes. This note catalogues what alkenes accept across their double bond: hydrogen over a nickel surface, halogens, hydrogen halides and steam over an acid catalyst, finishing with the purple manganate(VII) oxidant that tears the double bond open into a diol. Conditions and products are the exam targets.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "The addition catalogue",
+   "sourceHeadings": [
+    "Alkenes - Reactions"
+   ],
+   "specRefs": [
+    "5.4"
+   ],
+   "opening": "Alkenes rarely swap atoms for atoms; they swallow whole small molecules across the double bond. This lesson lists the five additions the specification names, each with its reagent and condition, so that given any reagent you can name the product class instantly.",
+   "keyPoints": [
+    "Hydrogen adds across the double bond over a nickel catalyst, turning the alkene into an alkane.",
+    "Halogens add across the double bond to give a di-substituted halogenoalkane.",
+    "Hydrogen halides add across the double bond to give a mono-substituted halogenoalkane.",
+    "Steam adds in the presence of an acid catalyst to give an alcohol.",
+    "In every case the pi bond opens and the small molecule splits across the two alkene carbons."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Point the reagent at the double bond and it splits in two: H2 with nickel gives the alkane, halogens give dihalides, hydrogen halides give monohalides, steam with acid gives the alcohol.",
+     "analogy": "The double bond is a zip that opens so two riders can get on at the same gap - each reagent simply sends a different pair of riders.",
+     "examPointer": "Conditions carry marks: nickel for hydrogenation, acid catalyst for hydration. A correct product without its condition loses the second mark."
+    },
+    "medium": {
+     "restatement": "All five reactions are electrophilic additions at heart: the electron-rich pi bond attacks the reagent, which deposits one fragment on each alkene carbon and restores full saturation.",
+     "analogy": "One door, five keys: hydrogen, halogen, hydrogen halide and water each unlock the same pi bond and pay with a two-fragment deposit.",
+     "examPointer": "Write equations with displayed or structural formulas where asked; ethene plus bromine giving 1,2-dibromoethane is the canonical demonstration equation."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Which condition turns an alkene into an alkane by adding hydrogen?",
+     "misconceptionClass": "hydrogenation condition",
+     "options": [
+      {
+       "key": "A",
+       "text": "A nickel catalyst",
+       "correct": true,
+       "explanation": "Hydrogen adds across the double bond on the nickel surface.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Ultraviolet light",
+       "correct": false,
+       "explanation": "UV initiates radical substitution in alkanes, not hydrogenation.",
+       "misconception": "wrong energy source"
+      },
+      {
+       "key": "C",
+       "text": "An acid catalyst",
+       "correct": false,
+       "explanation": "Acid catalysts accompany steam addition, not hydrogen gas.",
+       "misconception": "condition swapped"
+      },
+      {
+       "key": "D",
+       "text": "High pressure steam",
+       "correct": false,
+       "explanation": "Steam brings in OH groups, not plain hydrogen.",
+       "misconception": "reagent swapped"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What does the addition of bromine water to an alkene produce?",
+     "misconceptionClass": "halogen addition product",
+     "options": [
+      {
+       "key": "A",
+       "text": "A di-substituted halogenoalkane such as 1,2-dibromoethane",
+       "correct": true,
+       "explanation": "Both bromine atoms settle, one on each alkene carbon.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "A mono-substituted halogenoalkane",
+       "correct": false,
+       "explanation": "One bromine only would leave the second atom unaccounted.",
+       "misconception": "atom lost"
+      },
+      {
+       "key": "C",
+       "text": "An alcohol",
+       "correct": false,
+       "explanation": "Alcohols come from steam addition, not bromine.",
+       "misconception": "product family swapped"
+      },
+      {
+       "key": "D",
+       "text": "An alkane",
+       "correct": false,
+       "explanation": "Bromine atoms stay attached; the product is halogenated.",
+       "misconception": "halogens dropped"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which reagent set adds to an alkene to give an alcohol?",
+     "misconceptionClass": "hydration reagents",
+     "options": [
+      {
+       "key": "A",
+       "text": "Steam with an acid catalyst",
+       "correct": true,
+       "explanation": "Water adds as H-OH across the double bond.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Hydrogen with a nickel catalyst",
+       "correct": false,
+       "explanation": "That pair yields the plain alkane.",
+       "misconception": "reagent pair swapped"
+      },
+      {
+       "key": "C",
+       "text": "Bromine in the dark",
+       "correct": false,
+       "explanation": "Bromine adds bromine atoms, not hydroxyl groups.",
+       "misconception": "reagent pair swapped"
+      },
+      {
+       "key": "D",
+       "text": "Sodium hydroxide solution",
+       "correct": false,
+       "explanation": "That reagent substitutes on halogenoalkanes; alkenes need the acid-catalysed steam route.",
+       "misconception": "wrong mechanism family"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What product forms when hydrogen bromide adds to ethene?",
+     "misconceptionClass": "hydrogen halide product",
+     "options": [
+      {
+       "key": "A",
+       "text": "Bromoethane, a mono-substituted halogenoalkane",
+       "correct": true,
+       "explanation": "H takes one carbon, Br the other.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "1,2-dibromoethane",
+       "correct": false,
+       "explanation": "That needs Br2, not HBr.",
+       "misconception": "halogen count doubled"
+      },
+      {
+       "key": "C",
+       "text": "Ethanol",
+       "correct": false,
+       "explanation": "That needs steam plus the acid catalyst.",
+       "misconception": "oxygen invented"
+      },
+      {
+       "key": "D",
+       "text": "Ethane",
+       "correct": false,
+       "explanation": "That needs H2 over nickel - the bromine must appear somewhere.",
+       "misconception": "halogen dropped"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why do alkenes undergo addition rather than substitution with most reagents?",
+     "misconceptionClass": "reactivity rationale",
+     "options": [
+      {
+       "key": "A",
+       "text": "The electron-rich pi bond attracts attacking species that open it",
+       "correct": true,
+       "explanation": "The exposed density invites reagents to split across the bond.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Alkenes carry no functional group",
+       "correct": false,
+       "explanation": "The double bond IS the functional group.",
+       "misconception": "group denied"
+      },
+      {
+       "key": "C",
+       "text": "The sigma framework is saturated",
+       "correct": false,
+       "explanation": "Saturation describes alkanes and resists addition, not alkenes.",
+       "misconception": "class confused"
+      },
+      {
+       "key": "D",
+       "text": "Alkanes force substitution on them",
+       "correct": false,
+       "explanation": "The alkane neighbour's behaviour does not dictate alkene reactions.",
+       "misconception": "cross-class logic"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "List the four addition reagents named in the specification and the product class each delivers.",
+     "misconceptionClass": "catalogue recall",
+     "modelAnswer": "Hydrogen over nickel gives an alkane; halogens give a di-substituted halogenoalkane; hydrogen halides give a mono-substituted halogenoalkane; steam with an acid catalyst gives an alcohol.",
+     "keywords": [
+      "hydrogen",
+      "halogen",
+      "steam"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the equation for the hydrogenation of ethene, naming the catalyst.",
+     "misconceptionClass": "equation recall",
+     "modelAnswer": "CH2=CH2 + H2 -> CH3CH3, with the nickel catalyst written over the arrow.",
+     "keywords": [
+      "ethene",
+      "hydrogenation",
+      "nickel"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why hydrogenation requires a catalyst while the reaction with bromine does not.",
+     "misconceptionClass": "condition contrast",
+     "modelAnswer": "Hydrogen molecules are tightly held and unreactive toward the pi bond until the nickel surface splits them into reactive atoms, whereas bromine already polarises itself beside the electron-rich double bond and needs no surface help.",
+     "keywords": [
+      "catalyst",
+      "surface",
+      "polarise"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "Propene reacts in turn with hydrogen over nickel and then with steam over an acid catalyst. Name the organic product of each step.",
+     "misconceptionClass": "two-step application",
+     "modelAnswer": "Hydrogenation first converts propene to propane; steam addition then cannot proceed on the saturated propane, so the sequence shows why the addition order matters - only the alkene step delivers the alcohol, via direct hydration of propene to propan-2-ol if performed before hydrogenation.",
+     "keywords": [
+      "propane",
+      "propan-2-ol",
+      "hydration"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Oxidation by manganate(VII)",
+   "sourceHeadings": [
+    "Oxidation"
+   ],
+   "specRefs": [
+    "5.4"
+   ],
+   "opening": "Acidified potassium manganate(VII) does not deposit fragments politely - it oxidises the double bond, pinning an -OH onto each alkene carbon. The purple reagent bleaches to colourless, which makes the reaction a visible detector as well as a synthesis route.",
+   "keyPoints": [
+    "Cold, dilute, acidified potassium manganate(VII) oxidises the C=C bond of an alkene.",
+    "The oxidation adds one hydroxyl group to each of the two alkene carbons, producing a diol.",
+    "Ethene therefore becomes ethane-1,2-diol, the glycol used in antifreeze chemistry.",
+    "The reagent's purple colour fades to colourless as it is reduced during the oxidation.",
+    "The reaction confirms an unsaturated C=C bond just as decisively as the bromine test."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Purple manganate(VII) in cold dilute acid adds two -OH groups across the double bond, ethene to ethane-1,2-diol, and loses its colour on the way.",
+     "analogy": "The reagent is a paint sprayer laying one OH spot on each alkene carbon, then its purple ink runs out and the tube goes clear.",
+     "examPointer": "Name the product as the diol with locants - ethane-1,2-diol - and quote the colour change purple to colourless for the observation mark."
+    },
+    "medium": {
+     "restatement": "The manganate(VII) species is reduced while the alkene is oxidised: each double-bond carbon gains an OH, so the hydrocarbon's carbon atoms are formally oxidised even though hydrogens also arrive - the oxidation state bookkeeping runs through the oxygen delivery.",
+     "analogy": "A delivery van (the oxidant) unloads one crate (OH) at each house (alkene carbon) and its purple livery washes out after the round.",
+     "examPointer": "Do not call the product an 'alcohol' loosely in a diol question - ethane-1,2-diol names the two hydroxyl positions and that precision is the marking point."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "What does cold, dilute, acidified potassium manganate(VII) add across an alkene's double bond?",
+     "misconceptionClass": "oxidation outcome",
+     "options": [
+      {
+       "key": "A",
+       "text": "One hydroxyl group to each alkene carbon, giving a diol",
+       "correct": true,
+       "explanation": "Two -OH units arrive, one per double-bond carbon.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "One hydroxyl group in total",
+       "correct": false,
+       "explanation": "Both carbons are serviced - the product is a diol, not a mono-ol.",
+       "misconception": "count halved"
+      },
+      {
+       "key": "C",
+       "text": "Two bromine atoms",
+       "correct": false,
+       "explanation": "Bromine belongs to the halogen addition, not oxidation.",
+       "misconception": "reagent crossed"
+      },
+      {
+       "key": "D",
+       "text": "Two extra hydrogens",
+       "correct": false,
+       "explanation": "Hydrogenation is the nickel-catalysed route.",
+       "misconception": "reagent crossed"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What observation signals that an alkene has oxidised with manganate(VII)?",
+     "misconceptionClass": "observation recall",
+     "options": [
+      {
+       "key": "A",
+       "text": "The purple solution decolourises",
+       "correct": true,
+       "explanation": "The reagent is consumed and reduced, losing its colour.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "An orange colour turns colourless",
+       "correct": false,
+       "explanation": "Orange describes bromine water, not manganate(VII).",
+       "misconception": "colour swapped"
+      },
+      {
+       "key": "C",
+       "text": "A white precipitate forms",
+       "correct": false,
+       "explanation": "No precipitate marks this oxidation.",
+       "misconception": "invented observation"
+      },
+      {
+       "key": "D",
+       "text": "The solution turns purple from colourless",
+       "correct": false,
+       "explanation": "The change runs the other way.",
+       "misconception": "direction inverted"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which product results from oxidising ethene with acidified manganate(VII)?",
+     "misconceptionClass": "diol naming",
+     "options": [
+      {
+       "key": "A",
+       "text": "Ethane-1,2-diol",
+       "correct": true,
+       "explanation": "One OH lands on each of the two carbons.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Ethanol",
+       "correct": false,
+       "explanation": "A single OH would make the mono-ol - a second carbon is still hungry.",
+       "misconception": "mono-ol error"
+      },
+      {
+       "key": "C",
+       "text": "Ethane",
+       "correct": false,
+       "explanation": "Oxidation adds oxygen; hydrogenation gives ethane.",
+       "misconception": "reaction family crossed"
+      },
+      {
+       "key": "D",
+       "text": "Ethanal",
+       "correct": false,
+       "explanation": "Full cleavage chemistry is beyond this specification's scope.",
+       "misconception": "over-oxidised product"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why is the manganate(VII) test for C=C bonds also called an oxidation rather than an addition?",
+     "misconceptionClass": "classification reasoning",
+     "options": [
+      {
+       "key": "A",
+       "text": "The manganate species is reduced while delivering oxygen to the alkene",
+       "correct": true,
+       "explanation": "Electron bookkeeping runs from manganate to the alkene carbons.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The alkene loses atoms overall",
+       "correct": false,
+       "explanation": "The alkene gains OH groups; nothing is lost.",
+       "misconception": "bookkeeping inverted"
+      },
+      {
+       "key": "C",
+       "text": "No new bonds form",
+       "correct": false,
+       "explanation": "Two new C-O bonds clearly form.",
+       "misconception": "bond denial"
+      },
+      {
+       "key": "D",
+       "text": "The purple colour is the oxidation",
+       "correct": false,
+       "explanation": "The colour change evidences the redox; it is not itself the process.",
+       "misconception": "colour conflated"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which statement pairs the reagent with its correct use?",
+     "misconceptionClass": "reagent matching",
+     "options": [
+      {
+       "key": "A",
+       "text": "Acidified KMnO4 - detects and oxidises C=C bonds",
+       "correct": true,
+       "explanation": "One reagent, both roles.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Bromine water - hydrogenates alkenes",
+       "correct": false,
+       "explanation": "Bromine adds bromine; hydrogen needs the nickel route.",
+       "misconception": "pairing crossed"
+      },
+      {
+       "key": "C",
+       "text": "Nickel catalyst - oxidises alkenes",
+       "correct": false,
+       "explanation": "Nickel belongs to hydrogenation.",
+       "misconception": "pairing crossed"
+      },
+      {
+       "key": "D",
+       "text": "Steam - tests saturation",
+       "correct": false,
+       "explanation": "Steam makes alcohols; the saturation test uses bromine.",
+       "misconception": "pairing crossed"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the conditions and the organic product for the manganate(VII) oxidation of propene.",
+     "misconceptionClass": "conditions recall",
+     "modelAnswer": "Cold, dilute, acidified potassium manganate(VII) adds two OH groups across the double bond to give propane-1,2-diol.",
+     "keywords": [
+      "acidified",
+      "propane-1,2-diol",
+      "conditions"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Describe the colour change in the manganate(VII) oxidation of any alkene.",
+     "misconceptionClass": "colour recall",
+     "modelAnswer": "The purple manganate(VII) solution decolourises as the oxidant is reduced while oxidising the alkene's double bond.",
+     "keywords": [
+      "purple",
+      "decolourise",
+      "reduced"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why the manganate(VII) result confirms an unsaturated bond as convincingly as the bromine result.",
+     "misconceptionClass": "test comparison",
+     "modelAnswer": "Both reagents survive unchanged against saturated hydrocarbons but are consumed by a C=C bond - one bleaches from orange, the other from purple - so a colour loss under either reagent evidences a reactive double bond.",
+     "keywords": [
+      "saturated",
+      "consumed",
+      "double bond"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "Cyclohexene is shaken with cold acidified manganate(VII). Name the organic product and the observation.",
+     "misconceptionClass": "ring application",
+     "modelAnswer": "The ring's double bond opens to cis-cyclohexane-1,2-diol, and the purple reagent decolourises as it oxidises the alkene.",
+     "keywords": [
+      "diol",
+      "decolourise",
+      "ring"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "hydrogenation",
+    "definition": "The addition of hydrogen across a C=C bond over a nickel catalyst, converting an alkene to an alkane.",
+    "firstLesson": 1
+   },
+   {
+    "term": "hydration",
+    "definition": "The addition of steam across a C=C bond over an acid catalyst, converting an alkene to an alcohol.",
+    "firstLesson": 1
+   },
+   {
+    "term": "diol",
+    "definition": "An organic compound carrying two hydroxyl groups, one on each of the carbons that formerly held the double bond.",
+    "firstLesson": 2
+   }
+  ],
+  "workedExample": null
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/62ce45645955-3-2-hydrocarbons-electrophilic-addition-reaction.png",
+   "alt": "Hydrocarbons Electrophilic Addition Reactions, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Alkenes - Reactions",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "The diagram shows an overview of the different electrophilic addition reactions alkenes can undergo"
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/6bdfb73a5c5f-screenshot-2022-03-14-133409.png",
+   "alt": "screenshot-2022-03-14-133409",
+   "sourceHeading": "Oxidation",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique"
+  }
+ ]
+}

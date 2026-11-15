@@ -1,0 +1,607 @@
+{
+ "format": "guided-lesson/0.8",
+ "noteRef": {
+  "noteId": "rn_CtzhyDct39G6dpvC",
+  "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+  "topicTitle": "1. Structure, Bonding & Introduction to Organic Chemistry",
+  "subtopicTitle": "Alkanes as Fuels",
+  "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/1-structure-bonding-and-introduction-to-organic-chemistry/1-9-alkanes/1-9-2-alkanes-as-fuels"
+ },
+ "specPoints": [
+  {
+   "code": "4.12",
+   "text": "know that alkanes are used as fuels and obtained from the fractional distillation, cracking and reforming of crude oil, and be able to write equations for these reactions"
+  }
+ ],
+ "primer": {
+  "text": "Crude oil leaves the well as a mixture worth nothing until it is sorted and reshaped. This note follows the refinery path: fractional distillation dividing fractions by boiling point, cracking splitting heavy chains into light alkenes, and reforming straight chains into branched and cyclic isomers that burn more cleanly.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "Fractional distillation and reforming",
+   "sourceHeadings": [
+    "Fractional distillation of crude oil",
+    "Reforming alkanes"
+   ],
+   "specRefs": [
+    "4.12"
+   ],
+   "opening": "Crude oil arrives as a jumble of chain lengths worth little until the refinery sorts it. Fractional distillation divides fractions by boiling point, and reforming then reshapes straight chains into branched and cyclic isomers that burn more cleanly in engines.",
+   "keyPoints": [
+    "Crude oil is heated and its vapours rise up a fractionating column, condensing at different heights.",
+    "Fractions separate because each boiling-point band collects at its own level of the column.",
+    "Shorter chains condense near the cool top; longer chains condense near the hot bottom.",
+    "Reforming converts straight-chain alkanes into branched and cyclic isomers.",
+    "Reformed fuels burn more efficiently, which is why refiners pay to reshape their chains."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Heat the oil, let the vapours climb a tower: long chains fall out low where it is hot, short chains climb higher before condensing, and each level drains one fraction.",
+     "analogy": "A running race up a spiral staircase where heavier runners (long chains) drop out on the first floors and light ones (short chains) reach the top.",
+     "examPointer": "Link boiling point to chain length explicitly - questions reward the causal chain, not just 'they separate'."
+    },
+    "medium": {
+     "restatement": "Reforming adds ring strain and branching: cyclohexane from hexane releases hydrogen (CH3CH2CH2CH2CH2CH3 -> C6H12 + H2), and branched isomers resist engine knocking better than straight chains.",
+     "analogy": "Reforming is tailoring the same cloth (same atoms) into a better-fitting garment (burning pattern) for the engine.",
+     "examPointer": "When writing reforming equations, balance the hydrogen gas released - the ring closure costs two hydrogens that appear as H2."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "How does a fractionating column separate crude oil?",
+     "misconceptionClass": "column mechanics",
+     "options": [
+      {
+       "key": "A",
+       "text": "Vapours condense at different heights according to boiling point",
+       "correct": true,
+       "explanation": "Each fraction condenses where the column temperature matches its boiling band.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "A filter catches the largest molecules",
+       "correct": false,
+       "explanation": "Separation is by condensation, not filtration.",
+       "misconception": "mechanism misstated"
+      },
+      {
+       "key": "C",
+       "text": "Chemicals react with selected chains",
+       "correct": false,
+       "explanation": "No chemistry runs in the column - it is physical separation.",
+       "misconception": "mechanism invented"
+      },
+      {
+       "key": "D",
+       "text": "Centrifugal force flings chains outward",
+       "correct": false,
+       "explanation": "No spinning occurs in the column.",
+       "misconception": "mechanism invented"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Where do the longest-chain fractions condense in the column?",
+     "misconceptionClass": "column geography",
+     "options": [
+      {
+       "key": "A",
+       "text": "Near the hot bottom",
+       "correct": true,
+       "explanation": "Long chains boil high, so they condense first, low down.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Near the cool top",
+       "correct": false,
+       "explanation": "That is where short-chain gases collect.",
+       "misconception": "level inverted"
+      },
+      {
+       "key": "C",
+       "text": "Evenly all over",
+       "correct": false,
+       "explanation": "The temperature gradient sorts them, so they concentrate.",
+       "misconception": "gradient denied"
+      },
+      {
+       "key": "D",
+       "text": "Outside the column",
+       "correct": false,
+       "explanation": "Condensation happens inside.",
+       "misconception": "location invented"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What does reforming do to straight-chain alkanes?",
+     "misconceptionClass": "reforming action",
+     "options": [
+      {
+       "key": "A",
+       "text": "Converts them into branched and cyclic isomers",
+       "correct": true,
+       "explanation": "Same atoms, better burning shape.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Cracks them into two smaller chains",
+       "correct": false,
+       "explanation": "That is cracking's job.",
+       "misconception": "process crossed"
+      },
+      {
+       "key": "C",
+       "text": "Adds hydrogen to saturate them",
+       "correct": false,
+       "explanation": "Reforming actually releases hydrogen.",
+       "misconception": "direction inverted"
+      },
+      {
+       "key": "D",
+       "text": "Removes sulfur impurities",
+       "correct": false,
+       "explanation": "Desulfurisation is a separate cleanup.",
+       "misconception": "process crossed"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which equation represents the reforming of hexane into cyclohexane?",
+     "misconceptionClass": "reforming equation",
+     "options": [
+      {
+       "key": "A",
+       "text": "CH3CH2CH2CH2CH2CH3 -> C6H12 + H2",
+       "correct": true,
+       "explanation": "Ring closure releases the two hydrogens as hydrogen gas.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "CH3CH2CH2CH2CH2CH3 -> C6H14 + H2",
+       "correct": false,
+       "explanation": "Cyclohexane holds 12 hydrogens, not 14.",
+       "misconception": "hydrogen count wrong"
+      },
+      {
+       "key": "C",
+       "text": "C6H14 -> C6H6 + 4H2",
+       "correct": false,
+       "explanation": "That is full aromatisation beyond this scope.",
+       "misconception": "over-reformed"
+      },
+      {
+       "key": "D",
+       "text": "C6H14 + H2 -> C6H12 + H2O",
+       "correct": false,
+       "explanation": "Reforming consumes no oxygen.",
+       "misconception": "oxygen invented"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why do engines burn branched and cyclic alkanes more efficiently?",
+     "misconceptionClass": "burning rationale",
+     "options": [
+      {
+       "key": "A",
+       "text": "Their shapes resist uncontrolled ignition (knocking)",
+       "correct": true,
+       "explanation": "Branching steadies the combustion front.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "They contain more energy per gram",
+       "correct": false,
+       "explanation": "The energy content barely changes with branching.",
+       "misconception": "energy claim wrong"
+      },
+      {
+       "key": "C",
+       "text": "They are more volatile than any straight chain",
+       "correct": false,
+       "explanation": "Volatility is not the efficiency mechanism cited.",
+       "misconception": "property crossed"
+      },
+      {
+       "key": "D",
+       "text": "They contain oxygen atoms",
+       "correct": false,
+       "explanation": "They are pure hydrocarbons.",
+       "misconception": "composition invented"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Describe how fractional distillation separates crude oil into fractions.",
+     "misconceptionClass": "process recall",
+     "modelAnswer": "Heat the crude oil, send the vapours up a fractionating column, and collect each fraction where it condenses according to its boiling-point band.",
+     "keywords": [
+      "heated",
+      "condense",
+      "boiling point"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the purpose of reforming in the refinery.",
+     "misconceptionClass": "purpose recall",
+     "modelAnswer": "Reforming reshapes straight-chain alkanes into branched and cyclic isomers that burn more cleanly and efficiently in engines.",
+     "keywords": [
+      "branched",
+      "cyclic",
+      "efficiently"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why fractional distillation works at all - what property drives the separation?",
+     "misconceptionClass": "mechanism reasoning",
+     "modelAnswer": "Longer alkane chains exert stronger intermolecular forces, raising their boiling points, so each chain length condenses at the column height whose temperature matches that boiling point.",
+     "keywords": [
+      "boiling point",
+      "chain length",
+      "condense"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "Hexane reformed to cyclohexane releases hydrogen gas. Show that the hydrogen count balances in CH3CH2CH2CH2CH2CH3 -> C6H12 + H2.",
+     "misconceptionClass": "balance application",
+     "modelAnswer": "Hexane carries 14 hydrogens; cyclohexane holds 12 and the released H2 carries 2, so 14 = 12 + 2 and the ledger closes.",
+     "keywords": [
+      "14",
+      "12",
+      "balance"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Cracking the heavy fractions",
+   "sourceHeadings": [
+    "Cracking of crude oil fractions"
+   ],
+   "specRefs": [
+    "4.12"
+   ],
+   "opening": "Long chains are abundant and low-demand; short alkenes are scarce and precious. Cracking rebalances the market by splitting heavy fractions under heat and catalyst into smaller alkanes plus alkenes - the one refinery reaction that creates unsaturation.",
+   "keyPoints": [
+    "Cracking splits long-chain alkanes into smaller alkanes and alkenes using heat and a catalyst.",
+    "The demand for short alkenes drives the economics: cracking manufactures them from surplus heavy fractions.",
+    "A typical split is decane to octane plus ethene: C10H22 -> C8H18 + C2H4.",
+    "Both product families must balance against the parent chain's carbon and hydrogen counts.",
+    "Cracking is the opposite of polymerisation in spirit: it breaks chains rather than building them."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Heat a heavy alkane over a catalyst and it snaps into a shorter alkane plus an alkene; check your answer by counting carbons and hydrogens on both sides.",
+     "analogy": "A long train splits into a short train and a carriage that can couple with others (the alkene's open bond).",
+     "examPointer": "Always verify a cracking equation with an atom count - an unbalanced hydrogen ledger is the commonest examiner deduction."
+    },
+    "medium": {
+     "restatement": "The catalysed route trades C-C single bonds for a new C=C pi bond, so the hydrogen redistribution must satisfy both the alkane product and the alkene product simultaneously - one equation, two ledgers.",
+     "analogy": "Cutting one rope into two pieces whose combined length equals the original - the alkene piece carries the frayed end (the pi bond).",
+     "examPointer": "State the catalyst (aluminium oxide or zeolite) when the question asks for conditions, alongside the heat."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "What are the products of cracking a long alkane?",
+     "misconceptionClass": "product pair",
+     "options": [
+      {
+       "key": "A",
+       "text": "A shorter alkane and an alkene",
+       "correct": true,
+       "explanation": "The split always creates one unsaturated piece.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Two shorter alkanes",
+       "correct": false,
+       "explanation": "That would lose the unsaturation chemistry cracking exists to create.",
+       "misconception": "alkene dropped"
+      },
+      {
+       "key": "C",
+       "text": "Two alkenes",
+       "correct": false,
+       "explanation": "The saturated remainder stays an alkane.",
+       "misconception": "ledger misread"
+      },
+      {
+       "key": "D",
+       "text": "Carbon dioxide and water",
+       "correct": false,
+       "explanation": "No combustion occurs in cracking.",
+       "misconception": "process crossed"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which conditions drive cracking?",
+     "misconceptionClass": "conditions",
+     "options": [
+      {
+       "key": "A",
+       "text": "Heat plus a catalyst such as aluminium oxide",
+       "correct": true,
+       "explanation": "Thermal catalytic cracking is the standard route.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "A nickel catalyst at room temperature",
+       "correct": false,
+       "explanation": "Nickel serves hydrogenation.",
+       "misconception": "catalyst crossed"
+      },
+      {
+       "key": "C",
+       "text": "Ultraviolet light",
+       "correct": false,
+       "explanation": "UV starts radical substitution, not chain splitting.",
+       "misconception": "condition crossed"
+      },
+      {
+       "key": "D",
+       "text": "Steam only, cold",
+       "correct": false,
+       "explanation": "Cold steam splits nothing.",
+       "misconception": "condition misstated"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Check the cracking equation C10H22 -> C8H18 + C2H4. Is it balanced?",
+     "misconceptionClass": "balance verification",
+     "options": [
+      {
+       "key": "A",
+       "text": "Yes: carbons 10 = 8 + 2 and hydrogens 22 = 18 + 4",
+       "correct": true,
+       "explanation": "Both ledgers close.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "No: the hydrogens do not match",
+       "correct": false,
+       "explanation": "18 + 4 = 22 - they do match.",
+       "misconception": "ledger miscounted"
+      },
+      {
+       "key": "C",
+       "text": "No: the carbons do not match",
+       "correct": false,
+       "explanation": "8 + 2 = 10 - they do match.",
+       "misconception": "ledger miscounted"
+      },
+      {
+       "key": "D",
+       "text": "It cannot be checked without coefficients",
+       "correct": false,
+       "explanation": "The coefficient 1 throughout makes the check direct.",
+       "misconception": "method doubt"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why do refineries crack heavy fractions rather than selling them as-is?",
+     "misconceptionClass": "economic rationale",
+     "options": [
+      {
+       "key": "A",
+       "text": "Short-chain alkenes are in high demand and heavy fractions are surplus",
+       "correct": true,
+       "explanation": "Cracking converts surplus into wanted feedstock.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Heavy fractions are toxic",
+       "correct": false,
+       "explanation": "Toxicity is not the cracking driver.",
+       "misconception": "reason invented"
+      },
+      {
+       "key": "C",
+       "text": "Heavy fractions cannot burn",
+       "correct": false,
+       "explanation": "They burn, just less usefully in engines.",
+       "misconception": "claim false"
+      },
+      {
+       "key": "D",
+       "text": "Cracking removes sulfur",
+       "correct": false,
+       "explanation": "Desulfurisation is a separate process.",
+       "misconception": "process crossed"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which statement links cracking to polymerisation?",
+     "misconceptionClass": "process linkage",
+     "options": [
+      {
+       "key": "A",
+       "text": "Cracking breaks chains and creates alkenes; polymerisation consumes alkene double bonds to build chains",
+       "correct": true,
+       "explanation": "The two processes reverse each other.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Both processes open pi bonds",
+       "correct": false,
+       "explanation": "Cracking creates pi bonds; polymerisation opens them.",
+       "misconception": "direction inverted"
+      },
+      {
+       "key": "C",
+       "text": "Both processes need high pressure",
+       "correct": false,
+       "explanation": "Cracking's signature conditions are heat and catalyst.",
+       "misconception": "conditions confused"
+      },
+      {
+       "key": "D",
+       "text": "Both processes produce polymers",
+       "correct": false,
+       "explanation": "Cracking produces small molecules.",
+       "misconception": "product misstated"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Define cracking and name the catalyst family used.",
+     "misconceptionClass": "definition recall",
+     "modelAnswer": "Cracking splits long-chain alkanes into shorter alkanes and alkenes, using heat and a catalyst such as aluminium oxide or zeolite.",
+     "keywords": [
+      "split",
+      "alkenes",
+      "catalyst"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Write a balanced equation for cracking decane into octane and ethene.",
+     "misconceptionClass": "equation recall",
+     "modelAnswer": "C10H22 -> C8H18 + C2H4, balanced with carbons 10 = 8 + 2 and hydrogens 22 = 18 + 4.",
+     "keywords": [
+      "decane",
+      "octane",
+      "ethene"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why cracking increases the value of a barrel of crude oil.",
+     "misconceptionClass": "value reasoning",
+     "modelAnswer": "The heavy fraction is abundant and low-priced, while the small alkene molecules it yields are versatile feedstock for polymers and alcohols, so splitting heavy chains converts surplus stock into premium products.",
+     "keywords": [
+      "surplus",
+      "feedstock",
+      "premium"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A student proposes the cracking equation C8H18 -> C6H14 + C2H6. Check it and state the verdict.",
+     "misconceptionClass": "verification application",
+     "modelAnswer": "The carbons balance (8 = 6 + 2) but the hydrogens do not (18 versus 14 + 6 = 20), so the proposal fails the ledger - a correct split must give one alkene, such as C8H18 -> C6H14 + C2H4.",
+     "keywords": [
+      "hydrogens",
+      "alkene",
+      "verdict"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "fractional distillation",
+    "definition": "The separation of crude oil into boiling-point fractions up a temperature-graded column.",
+    "firstLesson": 1
+   },
+   {
+    "term": "reforming",
+    "definition": "Converting straight-chain alkanes into branched and cyclic isomers with better burning properties.",
+    "firstLesson": 1
+   },
+   {
+    "term": "cracking",
+    "definition": "Splitting long-chain alkanes into smaller alkanes and alkenes with heat and a catalyst.",
+    "firstLesson": 2
+   }
+  ],
+  "workedExample": {
+   "prompt": "Crack decane (C10H22) into octane (C8H18) and one alkene. Identify the alkene and verify the balance.",
+   "steps": [
+    "Reserve the saturated product: octane C8H18 takes 8 carbons.",
+    "The remaining carbons are 10 - 8 = 2, and they must carry the double bond: C2H4, ethene.",
+    "Check carbons: 8 + 2 = 10 - the carbon ledger closes.",
+    "Check hydrogens: 18 + 4 = 22 - the hydrogen ledger closes."
+   ],
+   "finalAnswer": "C10H22 -> C8H18 + C2H4, with ethene as the alkene; both ledgers balance."
+  }
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/15142aa12293-fractional-distillation.png",
+   "alt": "Fractional-Distillation, IGCSE & GCSE Chemistry revision notes",
+   "sourceHeading": "Fractional distillation of crude oil",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "Crude oil is initially separated into fractions with similar boiling points in a process called fractional distillation"
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/b9aa329c8013-3-2-hydrocarbons-cracking.png",
+   "alt": "Hydrocarbons Cracking, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Cracking of crude oil fractions",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "The heavier fractions that are obtained in fractional distillation are further cracked into useful alkane and alkene molecules"
+  },
+  {
+   "id": "fig-03",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/7aa8f8d7fd1f-3-2-hydrocarbons-cracking-of-long-alkanes.png",
+   "alt": "Hydrocarbons Cracking of Long Alkanes, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Cracking of crude oil fractions",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "Long hydrocarbon fraction is cracked into two smaller ones"
+  }
+ ]
+}

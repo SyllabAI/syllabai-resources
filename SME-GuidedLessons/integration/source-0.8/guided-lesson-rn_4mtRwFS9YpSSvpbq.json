@@ -1,0 +1,660 @@
+{
+ "format": "guided-lesson/0.8",
+ "noteRef": {
+  "noteId": "rn_4mtRwFS9YpSSvpbq",
+  "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+  "topicTitle": "1. Structure, Bonding & Introduction to Organic Chemistry",
+  "subtopicTitle": "Addition Polymerisation",
+  "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/1-structure-bonding-and-introduction-to-organic-chemistry/1-10-alkenes/1-10-6-addition-polymerisation"
+ },
+ "specPoints": [
+  {
+   "code": "5.7",
+   "text": "be able to describe the addition polymerisation of alkenes and draw the repeat unit given the monomer, and vice versa"
+  }
+ ],
+ "primer": {
+  "text": "Thousands of alkene molecules can be persuaded to join hands. Under pressure and a catalyst, pi bonds open and chain growth builds poly(ethene), PVC and poly(propene). This note draws the repeat unit from the monomer and reads it backwards, since deducing either partner from the other is the skill the papers keep testing.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "Monomers into chains",
+   "sourceHeadings": [
+    "Addition polymerisation"
+   ],
+   "specRefs": [
+    "5.7"
+   ],
+   "opening": "Give an alkene high pressure, a catalyst and time, and thousands of molecules will each open their pi bond and shake hands with the next. The result is an addition polymer: one long saturated chain whose repeat unit is the monomer with its double bond converted to a single bond.",
+   "keyPoints": [
+    "Addition polymerisation opens the pi bond of each alkene monomer to build one long saturated chain.",
+    "High pressure and a catalyst supply the conditions that persuade monomers to join.",
+    "Poly(ethene) forms from ethene; poly(chloroethene) PVC forms from chloroethene; poly(propene) from propene.",
+    "No atoms are lost in addition polymerisation, so the polymer is the only product.",
+    "The repeat unit shows the monomer's atoms joined by a single bond, bracketed with a subscript n."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Many alkene molecules open their double bonds and link end to end; the chain grows until huge, and the only product is the polymer itself.",
+     "analogy": "Paperclips with one open end (the pi bond) hook onto the next clip until the chain runs off the desk - every clip used, nothing thrown away.",
+     "examPointer": "Draw repeat units with the bond sticking out through both brackets and the n subscript - missing extension bonds is the most common drawing deduction."
+    },
+    "medium": {
+     "restatement": "Atom economy is 100 percent because every monomer atom is conserved into the chain - the pi pair redistributes from one C=C double bond into a new C-C single bond linking neighbouring units.",
+     "analogy": "A zip joining zipper teeth: no tooth is discarded, the teeth simply interlock through their open ends.",
+     "examPointer": "Compare with condensation polymerisation when asked: addition polymerisation releases no small molecule, and that contrast is a standard written mark."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Which bond in the monomer opens during addition polymerisation?",
+     "misconceptionClass": "bond that opens",
+     "options": [
+      {
+       "key": "A",
+       "text": "The carbon-carbon pi bond",
+       "correct": true,
+       "explanation": "The double bond's sideways pair is redeployed to link neighbours.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "A carbon-hydrogen bond",
+       "correct": false,
+       "explanation": "C-H bonds survive intact along the chain.",
+       "misconception": "wrong bond chosen"
+      },
+      {
+       "key": "C",
+       "text": "The carbon-carbon sigma bond",
+       "correct": false,
+       "explanation": "The sigma pair remains as the backbone bond.",
+       "misconception": "sigma misidentified"
+      },
+      {
+       "key": "D",
+       "text": "No bond opens",
+       "correct": false,
+       "explanation": "The pi bond must open for chain growth to start.",
+       "misconception": "mechanism denied"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What conditions drive addition polymerisation of ethene?",
+     "misconceptionClass": "conditions recall",
+     "options": [
+      {
+       "key": "A",
+       "text": "High pressure plus a catalyst",
+       "correct": true,
+       "explanation": "Industrial poly(ethene) needs both.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Ultraviolet light alone",
+       "correct": false,
+       "explanation": "UV starts radical substitution, not clean polymerisation.",
+       "misconception": "condition crossed"
+      },
+      {
+       "key": "C",
+       "text": "An acid catalyst at room pressure",
+       "correct": false,
+       "explanation": "Acid catalysts belong to steam addition.",
+       "misconception": "condition crossed"
+      },
+      {
+       "key": "D",
+       "text": "Reflex heating with no catalyst",
+       "correct": false,
+       "explanation": "A catalyst is part of the process.",
+       "misconception": "catalyst denied"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which monomer produces poly(chloroethene), PVC?",
+     "misconceptionClass": "monomer identity",
+     "options": [
+      {
+       "key": "A",
+       "text": "Chloroethene",
+       "correct": true,
+       "explanation": "The chlorine-substituted ethene is the PVC monomer.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Ethene",
+       "correct": false,
+       "explanation": "Plain ethene gives poly(ethene) with no chlorine.",
+       "misconception": "substitution forgotten"
+      },
+      {
+       "key": "C",
+       "text": "Propene",
+       "correct": false,
+       "explanation": "Propene gives poly(propene) with a methyl side group.",
+       "misconception": "monomer swapped"
+      },
+      {
+       "key": "D",
+       "text": "1,2-dichloroethane",
+       "correct": false,
+       "explanation": "That saturated compound cannot open a pi bond.",
+       "misconception": "saturated monomer invented"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why is the atom economy of addition polymerisation always 100 percent?",
+     "misconceptionClass": "economy reasoning",
+     "options": [
+      {
+       "key": "A",
+       "text": "Every monomer atom ends up inside the polymer chain",
+       "correct": true,
+       "explanation": "No small molecule departs during addition.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Because catalysts recycle all atoms",
+       "correct": false,
+       "explanation": "The catalyst is not consumed; economy is about the product.",
+       "misconception": "catalyst confused"
+      },
+      {
+       "key": "C",
+       "text": "Because hydrogens are eliminated",
+       "correct": false,
+       "explanation": "Elimination would reduce economy - nothing is eliminated here.",
+       "misconception": "mechanism contradicted"
+      },
+      {
+       "key": "D",
+       "text": "Because the polymer is pure",
+       "correct": false,
+       "explanation": "Purity is not the atom-economy definition.",
+       "misconception": "definition confused"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "How does the repeat unit of poly(propene) differ from its monomer propene?",
+     "misconceptionClass": "repeat unit relation",
+     "options": [
+      {
+       "key": "A",
+       "text": "The double bond becomes a single bond between repeat units",
+       "correct": true,
+       "explanation": "Only the pi bond changes; the methyl side group rides along.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "A methyl group is lost",
+       "correct": false,
+       "explanation": "Substituents are conserved on the chain.",
+       "misconception": "substituent dropped"
+      },
+      {
+       "key": "C",
+       "text": "A chlorine replaces the methyl group",
+       "correct": false,
+       "explanation": "No atoms swap identity.",
+       "misconception": "atom invented"
+      },
+      {
+       "key": "D",
+       "text": "Nothing differs at all",
+       "correct": false,
+       "explanation": "The bonding between units is the difference.",
+       "misconception": "difference denied"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Define an addition polymer and name the polymer made from chloroethene.",
+     "misconceptionClass": "definition recall",
+     "modelAnswer": "An addition polymer is the long chain formed when alkene monomers add across their double bonds; chloroethene gives poly(chloroethene), known as PVC.",
+     "keywords": [
+      "addition polymer",
+      "chloroethene",
+      "PVC"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State what the subscript n represents in a drawn repeat unit.",
+     "misconceptionClass": "notation recall",
+     "modelAnswer": "The n counts the enormous number of repeat units that make up the single polymer chain.",
+     "keywords": [
+      "subscript",
+      "repeat units",
+      "chain"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why addition polymerisation produces no waste products while some other polymerisation routes do.",
+     "misconceptionClass": "contrast reasoning",
+     "modelAnswer": "Addition uses only the pi bond's redistribution to link monomers, so every atom of every monomer is conserved; condensation routes instead expel small molecules such as water when building their links.",
+     "keywords": [
+      "pi bond",
+      "conserved",
+      "condensation"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "Poly(propene) is drawn with a repeat unit showing a methyl side group. State the monomer and describe what changed when the chain formed.",
+     "misconceptionClass": "reverse reading application",
+     "modelAnswer": "The monomer is propene, CH2=CHCH3; on polymerisation its pi bond opened and each former double-bond carbon now bonds through single bonds to neighbouring units, the methyl group riding along unchanged.",
+     "keywords": [
+      "propene",
+      "pi bond",
+      "methyl"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Deducing repeat units both ways",
+   "sourceHeadings": [
+    "Deducing repeat units"
+   ],
+   "specRefs": [
+    "5.7"
+   ],
+   "opening": "The exam asks the deduction in both directions: draw the repeat unit from the monomer, or recover the monomer from a drawn polymer. One rule powers both - close the double bond to read forward, open the single bond to read backward.",
+   "keyPoints": [
+    "To draw a repeat unit from a monomer, turn the C=C into a C-C single bond and bracket the fragment.",
+    "To recover a monomer from a repeat unit, replace the inter-unit single bond with a double bond.",
+    "Side groups and halogen substituents carry through unchanged in both directions.",
+    "The worked-example drill is identifying monomers from given polymer structures.",
+    "Always check the carbon count: repeat unit and monomer share exactly the same atoms."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Forward: monomer's double bond closes to the chain's single bond. Backward: the chain's link reopens into the monomer's double bond. Everything else stays put.",
+     "analogy": "A bridge that is either raised (double bond, separate banks) or lowered (single bond, traffic joins) - the two banks never move.",
+     "examPointer": "Count atoms in your answer against the question's structure - a carbon lost in the redraw is a silent, expensive error."
+    },
+    "medium": {
+     "restatement": "The interplay is a bookkeeping identity: monomer C2H3Cl and repeat unit -CH2-CHCl- hold identical atom inventories (2 C, 3 H, 1 Cl), because polymerisation redistributes bonds, never atoms.",
+     "analogy": "Reading a molecule forward and backward is like transliterating between two scripts - the characters (atoms) are fixed, only the connector (bond order) changes.",
+     "examPointer": "For substituted monomers, keep the side group on its own carbon exactly as drawn - swapping side groups between carbons is the classic distractor error."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "What is the repeat unit of poly(chloroethene)?",
+     "misconceptionClass": "repeat unit reading",
+     "options": [
+      {
+       "key": "A",
+       "text": "-CH2-CHCl- bracketed with subscript n",
+       "correct": true,
+       "explanation": "The chloroethene monomer closes its double bond into the chain link.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "-CH2-CH2- bracketed with subscript n",
+       "correct": false,
+       "explanation": "That is poly(ethene) - the chlorine went missing.",
+       "misconception": "substituent dropped"
+      },
+      {
+       "key": "C",
+       "text": "-CHCl-CHCl- bracketed with subscript n",
+       "correct": false,
+       "explanation": "That doubles the chlorine count.",
+       "misconception": "chlorine duplicated"
+      },
+      {
+       "key": "D",
+       "text": "-CH2=CHCl- bracketed with subscript n",
+       "correct": false,
+       "explanation": "A repeat unit cannot still carry the double bond.",
+       "misconception": "double bond retained"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "A polymer repeat unit is drawn as -CH2-C(CH3)H- with subscript n. Which monomer produces it?",
+     "misconceptionClass": "monomer recovery",
+     "options": [
+      {
+       "key": "A",
+       "text": "Propene, CH2=CHCH3",
+       "correct": true,
+       "explanation": "Reopening the link restores the propene double bond.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Ethene",
+       "correct": false,
+       "explanation": "Ethene carries no methyl side group.",
+       "misconception": "side group dropped"
+      },
+      {
+       "key": "C",
+       "text": "But-1-ene",
+       "correct": false,
+       "explanation": "That monomer holds four carbons; the repeat unit shows two.",
+       "misconception": "carbon count broken"
+      },
+      {
+       "key": "D",
+       "text": "Chloroethene",
+       "correct": false,
+       "explanation": "No chlorine appears in the unit.",
+       "misconception": "atom invented"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which atom inventory matches both the chloroethene monomer and its repeat unit?",
+     "misconceptionClass": "inventory check",
+     "options": [
+      {
+       "key": "A",
+       "text": "2 C, 3 H, 1 Cl",
+       "correct": true,
+       "explanation": "Polymerisation conserves every atom.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "2 C, 2 H, 1 Cl",
+       "correct": false,
+       "explanation": "A hydrogen vanished - inventories must match.",
+       "misconception": "hydrogen lost"
+      },
+      {
+       "key": "C",
+       "text": "1 C, 3 H, 1 Cl",
+       "correct": false,
+       "explanation": "One carbon dropped in transit.",
+       "misconception": "carbon lost"
+      },
+      {
+       "key": "D",
+       "text": "2 C, 4 H, 1 Cl",
+       "correct": false,
+       "explanation": "An extra hydrogen appeared.",
+       "misconception": "hydrogen invented"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "When drawing a repeat unit, what must stick out through the enclosing brackets?",
+     "misconceptionClass": "drawing convention",
+     "options": [
+      {
+       "key": "A",
+       "text": "The ends of the horizontal single bond",
+       "correct": true,
+       "explanation": "The chain continues through the brackets on both sides.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The methyl side group",
+       "correct": false,
+       "explanation": "Side groups stay inside the bracket.",
+       "misconception": "side group misplaced"
+      },
+      {
+       "key": "C",
+       "text": "The subscript n",
+       "correct": false,
+       "explanation": "The n sits below-right of the bracket, not through it.",
+       "misconception": "notation confused"
+      },
+      {
+       "key": "D",
+       "text": "Nothing sticks out",
+       "correct": false,
+       "explanation": "Extension bonds through the brackets are required by the convention.",
+       "misconception": "convention denied"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "A worked example asks you to identify the monomer of a polymer whose repeat unit carries a phenyl side group. What do you draw?",
+     "misconceptionClass": "drill transfer",
+     "options": [
+      {
+       "key": "A",
+       "text": "The alkene carrying that phenyl group, with its double bond restored",
+       "correct": true,
+       "explanation": "Reopen the single link and keep the side group on its own carbon.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The polymer chain drawn three times longer",
+       "correct": false,
+       "explanation": "The question wants one monomer, not a longer chain.",
+       "misconception": "task misread"
+      },
+      {
+       "key": "C",
+       "text": "The repeat unit with the phenyl removed",
+       "correct": false,
+       "explanation": "Side groups are conserved - removal invents a different monomer.",
+       "misconception": "side group dropped"
+      },
+      {
+       "key": "D",
+       "text": "A saturated alkane of the same length",
+       "correct": false,
+       "explanation": "The monomer must carry the double bond.",
+       "misconception": "unsaturation dropped"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the single transformation that turns a monomer drawing into its repeat unit.",
+     "misconceptionClass": "forward rule recall",
+     "modelAnswer": "Replace the monomer's carbon-carbon double bond with a single bond between repeat units, keeping every side group in place, and bracket the fragment with subscript n.",
+     "keywords": [
+      "double bond",
+      "single bond",
+      "bracket"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the single transformation that recovers a monomer from a repeat unit.",
+     "misconceptionClass": "backward rule recall",
+     "modelAnswer": "Replace the inter-unit single bond with a carbon-carbon double bond inside the fragment, giving back the original alkene monomer.",
+     "keywords": [
+      "single bond",
+      "double bond",
+      "monomer"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why checking the atom inventory catches most repeat-unit errors.",
+     "misconceptionClass": "verification reasoning",
+     "modelAnswer": "Polymerisation moves no atoms, so monomer and repeat unit must share an identical count of every element - any mismatch exposes a dropped or duplicated group instantly.",
+     "keywords": [
+      "inventory",
+      "identical",
+      "mismatch"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "Poly(chloroethene) incineration aside, deduce the monomer of a polymer whose repeat unit is -CF2-CF2- and state its name.",
+     "misconceptionClass": "fluorine application",
+     "modelAnswer": "Reopening the link gives F2C=CF2, tetrafluoroethene, whose polymerisation yields the fluorinated chain; the atom inventory of 2 C and 4 F matches on both sides.",
+     "keywords": [
+      "tetrafluoroethene",
+      "inventory",
+      "monomer"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "monomer",
+    "definition": "The small alkene molecule whose repeated addition builds the polymer chain.",
+    "firstLesson": 1
+   },
+   {
+    "term": "repeat unit",
+    "definition": "The fragment of the polymer chain corresponding to one monomer, drawn in brackets with a subscript n.",
+    "firstLesson": 1
+   },
+   {
+    "term": "poly(chloroethene)",
+    "definition": "The addition polymer of chloroethene, commonly called PVC.",
+    "firstLesson": 1
+   }
+  ],
+  "workedExample": {
+   "prompt": "A polymer's repeat unit is drawn as -CH2-CHCl- with subscript n. Identify the monomer and verify the atom inventory.",
+   "steps": [
+    "Reopen the inter-unit single bond into a carbon-carbon double bond.",
+    "Keep the chlorine on its own carbon: the fragment becomes CH2=CHCl.",
+    "Name the monomer chloroethene.",
+    "Check the inventory: monomer 2 C, 3 H, 1 Cl equals repeat unit 2 C, 3 H, 1 Cl, so 2 + 3 + 1 = 6 atoms conserved on both sides."
+   ],
+   "finalAnswer": "The monomer is chloroethene (vinyl chloride), CH2=CHCl - 6 atoms conserved between monomer and repeat unit."
+  }
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/a58c46b15cf8-3-8-polymerisation-general-formula.png",
+   "alt": "Polymerisation General Formula, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Addition polymerisation",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "The general formulae of the addition polymerisation of ethene (1) and chloroethene (2)"
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/fdde58c39f8f-3-8-polymerisation-displayed-formula.png",
+   "alt": "Polymerisation Displayed Formula, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Addition polymerisation",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "The displayed formulae of the addition polymerisation of ethene (1) and chloroethene (2)"
+  },
+  {
+   "id": "fig-03",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/c1748ffb4853-3-8-polymerisation-repeating-unit.png",
+   "alt": "Polymerisation Repeating Unit, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Deducing repeat units",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "The repeating units of poly(ethene) and poly(chloroethene) are similar to their monomer except that the C=C bond has become a single bond"
+  },
+  {
+   "id": "fig-04",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/519430e4d1fe-copy-of-we-identifying-monomers.png",
+   "alt": "Worked example question asking to identify the monomer from a drawn polymer repeat unit",
+   "sourceHeading": "Deducing repeat units",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique"
+  },
+  {
+   "id": "fig-05",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/585a79788ada-3-8-polymerisation-answer-1-worked-example-ident.png",
+   "alt": "Polymerisation Answer 1 Worked example - Identifying monomers, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Deducing repeat units",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "Worked example answer identifying the monomer from the first polymer"
+  },
+  {
+   "id": "fig-06",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/4ffd060bc88e-3-8-polymerisation-answer-2a-worked-example-iden.png",
+   "alt": "Polymerisation Answer 2a Worked example - Identifying monomers, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Deducing repeat units",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "Worked example answer identifying the monomer from the second polymer, part one"
+  },
+  {
+   "id": "fig-07",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/b6b8af1fc697-3-8-polymerisation-answer-2b-worked-example-iden.png",
+   "alt": "Polymerisation Answer 2b Worked example - Identifying monomers, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Deducing repeat units",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "Worked example answer identifying the monomer from the second polymer, part two"
+  },
+  {
+   "id": "fig-08",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/827dd2854b4b-3-8-polymerisation-answer-3-worked-example-ident.png",
+   "alt": "Polymerisation Answer 3 Worked example - Identifying monomers, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Deducing repeat units",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "Worked example answer identifying the monomer from the third polymer"
+  }
+ ]
+}

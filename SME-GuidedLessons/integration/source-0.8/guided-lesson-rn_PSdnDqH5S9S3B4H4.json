@@ -1,0 +1,862 @@
+{
+ "format": "guided-lesson/0.8",
+ "noteRef": {
+  "noteId": "rn_PSdnDqH5S9S3B4H4",
+  "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+  "topicTitle": "1. Structure, Bonding & Introduction to Organic Chemistry",
+  "subtopicTitle": "Combustion of Alkanes",
+  "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/1-structure-bonding-and-introduction-to-organic-chemistry/1-9-alkanes/1-9-3-combustion-of-alkanes"
+ },
+ "specPoints": [
+  {
+   "code": "4.14",
+   "text": "understand the problems arising from pollutants from the combustion of alkane fuels, limited to the toxicity of carbon monoxide and why it is toxic, and the acidity of oxides of nitrogen and sulfur"
+  }
+ ],
+ "primer": {
+  "text": "Every flame writes a pollution ledger. Carbon monoxide silently occupies the haemoglobin sites meant for oxygen; sulfur and nitrogen oxides from engines and impure fuels return as acid rain. This note names each pollutant, its origin, its damage and the removal chemistry that limits it, table by table.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "Carbon monoxide: the silent poison",
+   "sourceHeadings": [
+    "Problems of Pollution - General",
+    "Carbon monoxide"
+   ],
+   "specRefs": [
+    "4.14"
+   ],
+   "opening": "Exhaust fumes concentrate the combustion problems of alkane fuels into one pipe. The deadliest passenger is carbon monoxide, born of incomplete combustion, whose toxicity comes from a molecular hijack: it occupies the haemoglobin sites that oxygen needs.",
+   "keyPoints": [
+    "Car exhaust fumes carry toxic gases, chiefly carbon monoxide from incomplete combustion.",
+    "Carbon monoxide binds to haemoglobin far more strongly than oxygen does.",
+    "Occupied haemoglobin sites cannot carry oxygen, so the blood's delivery capacity collapses.",
+    "The gas is colourless and odourless, so exposure gives no sensory warning.",
+    "Adequate oxygen supply at the flame prevents the carbon monoxide from forming in the first place."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "CO forms when a flame runs short of oxygen; once inhaled it grabs the blood's oxygen seats so firmly that oxygen cannot board, and the victim suffocates without noticing.",
+     "analogy": "CO is a passenger who boards the bus (haemoglobin) first and refuses to get off, leaving the real passengers (oxygen) stranded at the stop.",
+     "examPointer": "Quote the haemoglobin mechanism explicitly - 'prevents oxygen transport' is the marking phrase, not merely 'it is toxic'."
+    },
+    "medium": {
+     "restatement": "The affinity gap is the whole story: carbon monoxide occupies the iron centres of haemoglobin preferentially, and because the complex is stable, even low concentrations accumulate across the red-cell fleet until delivery fails.",
+     "analogy": "A stronger magnet (CO) keeps snapping onto every iron filing (haemoglobin site) before the weaker one (O2) can attach.",
+     "examPointer": "Tie the hazard to the combustion condition: the cure is complete combustion through adequate air supply and maintained appliances."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Which combustion condition produces carbon monoxide in exhaust fumes?",
+     "misconceptionClass": "formation condition",
+     "options": [
+      {
+       "key": "A",
+       "text": "A limited oxygen supply at the flame",
+       "correct": true,
+       "explanation": "Incomplete combustion leaves carbon half-oxidised.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Excess oxygen at the flame",
+       "correct": false,
+       "explanation": "Plentiful oxygen drives carbon to carbon dioxide.",
+       "misconception": "condition inverted"
+      },
+      {
+       "key": "C",
+       "text": "Cold weather",
+       "correct": false,
+       "explanation": "Temperature outdoors does not create CO at the flame.",
+       "misconception": "irrelevant factor"
+      },
+      {
+       "key": "D",
+       "text": "A catalytic converter",
+       "correct": false,
+       "explanation": "The converter destroys CO; it does not create it.",
+       "misconception": "device confused"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why is carbon monoxide toxic to humans?",
+     "misconceptionClass": "toxicity mechanism",
+     "options": [
+      {
+       "key": "A",
+       "text": "It binds to haemoglobin in place of oxygen, preventing oxygen transport",
+       "correct": true,
+       "explanation": "The occupancy blocks the blood's delivery system.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "It burns the lungs on contact",
+       "correct": false,
+       "explanation": "CO is not corrosive.",
+       "misconception": "mechanism invented"
+      },
+      {
+       "key": "C",
+       "text": "It dissolves the red blood cells",
+       "correct": false,
+       "explanation": "The cells persist; their cargo sites are blocked.",
+       "misconception": "mechanism invented"
+      },
+      {
+       "key": "D",
+       "text": "It reacts with stomach acid",
+       "correct": false,
+       "explanation": "Inhalation, not ingestion, is the exposure route.",
+       "misconception": "route invented"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why do victims often fail to notice carbon monoxide exposure?",
+     "misconceptionClass": "detection failure",
+     "options": [
+      {
+       "key": "A",
+       "text": "The gas is colourless and odourless",
+       "correct": true,
+       "explanation": "No sensory cue accompanies the poisoning.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "It tastes sweet",
+       "correct": false,
+       "explanation": "No taste cue exists.",
+       "misconception": "property invented"
+      },
+      {
+       "key": "C",
+       "text": "It causes immediate pain",
+       "correct": false,
+       "explanation": "The danger is precisely the absence of pain.",
+       "misconception": "property inverted"
+      },
+      {
+       "key": "D",
+       "text": "It is visible as a haze",
+       "correct": false,
+       "explanation": "It is invisible.",
+       "misconception": "property inverted"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which statement about CO and haemoglobin is correct?",
+     "misconceptionClass": "mechanism detail",
+     "options": [
+      {
+       "key": "A",
+       "text": "CO's binding to haemoglobin is stronger than oxygen's",
+       "correct": true,
+       "explanation": "Preferential occupancy is the toxicity engine.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Haemoglobin rejects CO completely",
+       "correct": false,
+       "explanation": "The opposite: CO wins the binding contest.",
+       "misconception": "claim inverted"
+      },
+      {
+       "key": "C",
+       "text": "CO transports oxygen more efficiently",
+       "correct": false,
+       "explanation": "It prevents transport entirely.",
+       "misconception": "function inverted"
+      },
+      {
+       "key": "D",
+       "text": "The binding is reversible within seconds harmlessly",
+       "correct": false,
+       "explanation": "The persistence is what makes exposure dangerous.",
+       "misconception": "severity understated"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "How is carbon monoxide formation best prevented at the source?",
+     "misconceptionClass": "prevention method",
+     "options": [
+      {
+       "key": "A",
+       "text": "Ensure complete combustion with adequate oxygen supply",
+       "correct": true,
+       "explanation": "Plenty of air keeps carbon on the CO2 route.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Add sulfur to the fuel",
+       "correct": false,
+       "explanation": "Sulfur adds its own pollution problems.",
+       "misconception": "action absurd"
+      },
+      {
+       "key": "C",
+       "text": "Cool the exhaust pipe",
+       "correct": false,
+       "explanation": "CO forms at the flame, not the pipe.",
+       "misconception": "location misread"
+      },
+      {
+       "key": "D",
+       "text": "Filter the air intake",
+       "correct": false,
+       "explanation": "The air supply quantity, not its filtration, decides the combustion completeness.",
+       "misconception": "intervention misaimed"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State where carbon monoxide forms and the property that makes it dangerous.",
+     "misconceptionClass": "formation recall",
+     "modelAnswer": "It forms in the incomplete combustion of alkane fuels when oxygen is limited, and it is toxic because it prevents oxygen transport by occupying haemoglobin.",
+     "keywords": [
+      "incomplete combustion",
+      "limited",
+      "haemoglobin"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Explain the haemoglobin mechanism in two sentences.",
+     "misconceptionClass": "mechanism recall",
+     "modelAnswer": "Carbon monoxide binds to haemoglobin more strongly than oxygen does; the occupied sites cannot carry oxygen, so the blood's delivery capacity falls.",
+     "keywords": [
+      "binds",
+      "occupied",
+      "oxygen"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why the phrase 'silent killer' is chemically justified for CO.",
+     "misconceptionClass": "phrase justification",
+     "modelAnswer": "Both hazard channels run silent: the gas gives no colour or smell warning, and its binding displaces oxygen without any immediate sensation, so harm arrives before detection.",
+     "keywords": [
+      "colourless",
+      "odourless",
+      "detection"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A garage runs an engine with the door closed. Explain the hazard in mechanism terms and give the condition that would remove it.",
+     "misconceptionClass": "scenario application",
+     "modelAnswer": "The restricted-air flame forms carbon monoxide, which on inhalation occupies haemoglobin sites and blocks oxygen transport; ensuring complete combustion through adequate ventilation and air supply removes the formation condition.",
+     "keywords": [
+      "incomplete",
+      "haemoglobin",
+      "ventilation"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Oxides of sulfur and nitrogen: acid rain chemistry",
+   "sourceHeadings": [
+    "Oxides of sulfur",
+    "Oxides of nitrogen"
+   ],
+   "specRefs": [
+    "4.14"
+   ],
+   "opening": "Two families of oxides carry the acidity problem. Sulfur dioxide rises from sulfur impurities burned in fuels; nitrogen oxides form inside engines where air's nitrogen and oxygen meet flame temperatures. Both return to earth as acid rain.",
+   "keyPoints": [
+    "Sulfur dioxide forms when sulfur impurities in fossil fuels burn.",
+    "Oxides of nitrogen form when nitrogen and oxygen from air combine at engine temperatures.",
+    "Sulfur dioxide dissolves in atmospheric moisture to give acidic solutions that fall as acid rain.",
+    "Nitrogen oxides likewise contribute to acid rain and to photochemical pollution.",
+    "Neither oxide family comes from the alkane itself - sulfur is an impurity and nitrogen comes from the air."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Fuel impurities give sulfur dioxide; engine heat welds air's nitrogen and oxygen into nitrogen oxides; both dissolve in clouds and fall as acid rain.",
+     "analogy": "Two factories, one chimney: the fuel brings the sulfur, the engine's heat manufactures the nitrogen oxides, and the sky delivers the combined bill as acid.",
+     "examPointer": "Attribute the sources correctly: sulfur dioxide from impurities, nitrogen oxides from air at high temperature - swapping them is the classic error."
+    },
+    "medium": {
+     "restatement": "The acidity pathway runs through dissolution and oxidation: sulfur dioxide becomes sulfurous then sulfuric acid in atmospheric water, while nitrogen oxides convert to nitric acid, so the rainfall pH drops wherever the emissions concentrate.",
+     "analogy": "Each oxide is a scheduled delivery of acid: the cloud is the warehouse and the rain is the delivery van.",
+     "examPointer": "Name both acid rain contributors when asked for pollutants from combustion - the specification pairs sulfur and nitrogen oxides."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "What is the source of sulfur dioxide in exhaust emissions?",
+     "misconceptionClass": "SO2 source",
+     "options": [
+      {
+       "key": "A",
+       "text": "Sulfur impurities burned within the fossil fuel",
+       "correct": true,
+       "explanation": "The alkane fuel carries trace sulfur that oxidises.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The alkane's own sulfur content",
+       "correct": false,
+       "explanation": "Alkanes are hydrocarbons - no sulfur in the chain.",
+       "misconception": "composition invented"
+      },
+      {
+       "key": "C",
+       "text": "Air's nitrogen",
+       "correct": false,
+       "explanation": "Nitrogen yields the nitrogen oxides, not sulfur dioxide.",
+       "misconception": "source swapped"
+      },
+      {
+       "key": "D",
+       "text": "The catalytic converter",
+       "correct": false,
+       "explanation": "Converters reduce pollutants; they do not emit sulfur dioxide.",
+       "misconception": "device confused"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "How do oxides of nitrogen form inside an engine?",
+     "misconceptionClass": "NOx formation",
+     "options": [
+      {
+       "key": "A",
+       "text": "Nitrogen and oxygen from air combine at the high flame temperature",
+       "correct": true,
+       "explanation": "Heat gives the normally inert nitrogen its chance to react.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Nitrogen impurities in the fuel burn",
+       "correct": false,
+       "explanation": "Fuel-borne nitrogen is not the mechanism.",
+       "misconception": "source swapped"
+      },
+      {
+       "key": "C",
+       "text": "The lubricating oil decomposes",
+       "correct": false,
+       "explanation": "Oil is not the nitrogen source.",
+       "misconception": "source invented"
+      },
+      {
+       "key": "D",
+       "text": "Nitrogen monoxide is added to petrol",
+       "correct": false,
+       "explanation": "No such additive exists.",
+       "misconception": "additive invented"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What environmental damage do both oxide families share?",
+     "misconceptionClass": "shared damage",
+     "options": [
+      {
+       "key": "A",
+       "text": "They acidify rainfall - acid rain",
+       "correct": true,
+       "explanation": "Both dissolve into acidic solutions in atmospheric moisture.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "They deplete the ozone layer directly",
+       "correct": false,
+       "explanation": "Ozone chemistry is a different concern.",
+       "misconception": "damage crossed"
+      },
+      {
+       "key": "C",
+       "text": "They block haemoglobin",
+       "correct": false,
+       "explanation": "That is carbon monoxide's mechanism.",
+       "misconception": "mechanism crossed"
+      },
+      {
+       "key": "D",
+       "text": "They cause global sea rise",
+       "correct": false,
+       "explanation": "Sea level is not the acid-rain damage.",
+       "misconception": "damage invented"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which statement correctly pairs sulfur dioxide and the nitrogen oxides with their origins?",
+     "misconceptionClass": "pairing drill",
+     "options": [
+      {
+       "key": "A",
+       "text": "Sulfur dioxide - sulfur impurity combustion; nitrogen oxides - air at flame temperature",
+       "correct": true,
+       "explanation": "Each source is correctly assigned.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Sulfur dioxide - air at flame temperature; nitrogen oxides - fuel impurities",
+       "correct": false,
+       "explanation": "The pairing is exactly reversed.",
+       "misconception": "pairing inverted"
+      },
+      {
+       "key": "C",
+       "text": "Sulfur dioxide - the alkane chain; nitrogen oxides - the alkane chain",
+       "correct": false,
+       "explanation": "Alkanes contain neither sulfur nor nitrogen.",
+       "misconception": "composition invented"
+      },
+      {
+       "key": "D",
+       "text": "Sulfur dioxide - rainwater; nitrogen oxides - rainwater",
+       "correct": false,
+       "explanation": "Rain is the victim, not the origin.",
+       "misconception": "direction inverted"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why does high engine temperature matter for nitrogen oxide formation?",
+     "misconceptionClass": "condition emphasis",
+     "options": [
+      {
+       "key": "A",
+       "text": "Only at high temperature does nitrogen react with oxygen",
+       "correct": true,
+       "explanation": "The normally inert N2 triple bond needs the energy input.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Nitrogen decomposes at low temperature",
+       "correct": false,
+       "explanation": "Nitrogen is stable; the reactivity appears with heat.",
+       "misconception": "direction inverted"
+      },
+      {
+       "key": "C",
+       "text": "Oxygen dissolves better when hot",
+       "correct": false,
+       "explanation": "Dissolution is not the relevant chemistry.",
+       "misconception": "mechanism misstated"
+      },
+      {
+       "key": "D",
+       "text": "The converter needs heat to make NOx",
+       "correct": false,
+       "explanation": "Converters destroy NOx; the engine makes it.",
+       "misconception": "device role inverted"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Name the two oxide families that cause acid rain from combustion.",
+     "misconceptionClass": "family recall",
+     "modelAnswer": "Oxides of sulfur (chiefly sulfur dioxide) and oxides of nitrogen (such as nitrogen monoxide and nitrogen dioxide).",
+     "keywords": [
+      "sulfur dioxide",
+      "nitrogen monoxide",
+      "acid rain"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the origin of each oxide family in two phrases.",
+     "misconceptionClass": "origin recall",
+     "modelAnswer": "Sulfur dioxide arises from burning sulfur impurities in fuels; nitrogen oxides arise when air's nitrogen and oxygen combine at engine temperatures.",
+     "keywords": [
+      "impurities",
+      "air",
+      "temperature"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why the nitrogen oxides problem cannot be solved by cleaning the fuel.",
+     "misconceptionClass": "source reasoning",
+     "modelAnswer": "The nitrogen does not ride in the fuel at all - it comes from the air the engine breathes, so fuel treatment cannot touch it and only engine-side technology can.",
+     "keywords": [
+      "air",
+      "fuel",
+      "engine"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A power station burns coal with significant sulfur content. Name the primary pollutant gas, its atmospheric fate and one removal strategy.",
+     "misconceptionClass": "power station application",
+     "modelAnswer": "Sulfur dioxide is the pollutant; it dissolves in atmospheric moisture to give acidic rain, and flue-gas desulfurisation with a basic absorbent removes it before release.",
+     "keywords": [
+      "sulfur dioxide",
+      "acid rain",
+      "removal"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The pollutant ledger and its removal chemistry",
+   "sourceHeadings": [
+    "Pollutants, their Effect & Removal Table"
+   ],
+   "specRefs": [
+    "4.14"
+   ],
+   "opening": "Reading the pollutant table is a matching exercise with consequences: each gas carries an effect and pairs with a removal technology. Catalytic converters handle the nitrogen monoxide and carbon monoxide pair; flue-gas scrubbing handles sulfur dioxide.",
+   "keyPoints": [
+    "The pollutant table pairs each gas with its effect and its removal method.",
+    "Catalytic converters reduce nitrogen monoxide and carbon monoxide at the exhaust together.",
+    "Flue-gas desulfurisation removes sulfur dioxide from power-station emissions using basic absorbents.",
+    "Calcium carbonate scrubbing converts sulfur dioxide into a solid sulfite waste.",
+    "Matching the right removal method to the right pollutant is the exam's core demand."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "One table, three rows: carbon monoxide poisons blood and meets catalytic converters; nitrogen oxides acidify rain and meet converters too; sulfur dioxide acidifies rain and meets calcium carbonate scrubbing.",
+     "analogy": "Each pollutant has its own dentist: converters clean the exhaust pair, scrubbers clean the power-station gas.",
+     "examPointer": "Never attach scrubbing to the exhaust or converters to power-station flue gases - the methods are site-specific."
+    },
+    "medium": {
+     "restatement": "The removal chemistry is acid-base at heart: acidic oxides (SO2, NOx-derived acids) meet basic absorbers, while the converter runs redox rearrangements that turn CO and NO into CO2 and N2.",
+     "analogy": "Scrubbing is an antacid tablet for the flue; the converter is a recycling plant re-sorting two poisons into two harmless products.",
+     "examPointer": "Write the converter equation 2CO + 2NO -> 2CO2 + N2 when asked how converters limit pollution - it earns the mechanism mark."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Which device treats both carbon monoxide and nitrogen monoxide in exhaust fumes?",
+     "misconceptionClass": "device matching",
+     "options": [
+      {
+       "key": "A",
+       "text": "A catalytic converter",
+       "correct": true,
+       "explanation": "The converter converts the pair into carbon dioxide and nitrogen.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "A calcium carbonate scrubber",
+       "correct": false,
+       "explanation": "Scrubbers serve power-station sulfur dioxide.",
+       "misconception": "device swapped"
+      },
+      {
+       "key": "C",
+       "text": "An electrostatic precipitator",
+       "correct": false,
+       "explanation": "That removes particulates.",
+       "misconception": "device crossed"
+      },
+      {
+       "key": "D",
+       "text": "A desulfurisation unit",
+       "correct": false,
+       "explanation": "That targets sulfur dioxide.",
+       "misconception": "device crossed"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What does a catalytic converter turn 2CO + 2NO into?",
+     "misconceptionClass": "converter equation",
+     "options": [
+      {
+       "key": "A",
+       "text": "2CO2 + N2",
+       "correct": true,
+       "explanation": "Both toxics are converted into harmless products.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "2CO2 + 2NO2",
+       "correct": false,
+       "explanation": "Nitrogen must leave as N2, not another oxide.",
+       "misconception": "product misstated"
+      },
+      {
+       "key": "C",
+       "text": "C + 2NO2",
+       "correct": false,
+       "explanation": "Carbon departs as CO2.",
+       "misconception": "product misstated"
+      },
+      {
+       "key": "D",
+       "text": "2CO + N2O",
+       "correct": false,
+       "explanation": "The reactant cannot reappear as the product.",
+       "misconception": "no conversion"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which absorbent class removes sulfur dioxide in flue-gas desulfurisation?",
+     "misconceptionClass": "scrubbing chemistry",
+     "options": [
+      {
+       "key": "A",
+       "text": "A basic absorbent such as calcium carbonate",
+       "correct": true,
+       "explanation": "Acidic SO2 meets a base and is captured.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Another acidic oxide",
+       "correct": false,
+       "explanation": "Acid does not neutralise acid.",
+       "misconception": "chemistry inverted"
+      },
+      {
+       "key": "C",
+       "text": "A radical initiator",
+       "correct": false,
+       "explanation": "Radicals belong to the UV substitution topic.",
+       "misconception": "mechanism crossed"
+      },
+      {
+       "key": "D",
+       "text": "A nickel catalyst surface",
+       "correct": false,
+       "explanation": "Nickel serves hydrogenation chemistry.",
+       "misconception": "catalyst crossed"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why must pollutant removal methods be matched to their site?",
+     "misconceptionClass": "site matching",
+     "options": [
+      {
+       "key": "A",
+       "text": "Converters work on vehicle exhausts while scrubbers work on power-station flue gases",
+       "correct": true,
+       "explanation": "Each technology fits its emission source.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Either method works anywhere",
+       "correct": false,
+       "explanation": "The site-specific design contradicts this.",
+       "misconception": "interchangeability claim"
+      },
+      {
+       "key": "C",
+       "text": "Scrubbers are illegal on vehicles",
+       "correct": false,
+       "explanation": "Practicality, not legality, is the reason they do not pair.",
+       "misconception": "reason misstated"
+      },
+      {
+       "key": "D",
+       "text": "Converters need coal smoke",
+       "correct": false,
+       "explanation": "They need exhaust gases, which vehicles supply.",
+       "misconception": "input misstated"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which pollutant-and-effect row is correct?",
+     "misconceptionClass": "table row drill",
+     "options": [
+      {
+       "key": "A",
+       "text": "Carbon monoxide - toxic because it prevents oxygen transport",
+       "correct": true,
+       "explanation": "The haemoglobin mechanism is the effect.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Sulfur dioxide - binds haemoglobin",
+       "correct": false,
+       "explanation": "That is carbon monoxide's row.",
+       "misconception": "row crossed"
+      },
+      {
+       "key": "C",
+       "text": "Nitrogen oxides - strengthen tooth enamel",
+       "correct": false,
+       "explanation": "The opposite of the acid effect.",
+       "misconception": "effect invented"
+      },
+      {
+       "key": "D",
+       "text": "Carbon monoxide - acidifies rainfall",
+       "correct": false,
+       "explanation": "Acidity belongs to the oxide rows.",
+       "misconception": "row crossed"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the equation the catalytic converter uses to remove CO and NO together.",
+     "misconceptionClass": "equation recall",
+     "modelAnswer": "2CO + 2NO -> 2CO2 + N2, converting both toxics into harmless products.",
+     "keywords": [
+      "carbon monoxide",
+      "nitrogen monoxide",
+      "converter"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Name one removal method for sulfur dioxide from power-station emissions.",
+     "misconceptionClass": "removal recall",
+     "modelAnswer": "Flue-gas desulfurisation, scrubbing the gas with a basic absorbent such as calcium carbonate.",
+     "keywords": [
+      "desulfurisation",
+      "scrub",
+      "calcium carbonate"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why the converter's products are acceptable while its reactants are not.",
+     "misconceptionClass": "product contrast",
+     "modelAnswer": "Carbon dioxide and nitrogen are the normal constituents of air and breath, whereas carbon monoxide poisons blood and nitrogen oxides acidify rain - the converter trades two toxics for two natural gases.",
+     "keywords": [
+      "toxic",
+      "natural",
+      "trades"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A table row lists a gas removed by calcium carbonate scrubbing. Name the gas, its combustion origin and the balanced scrubbing equation.",
+     "misconceptionClass": "table application",
+     "modelAnswer": "The gas is sulfur dioxide, formed when sulfur impurities in fuel burn; the scrubbing capture runs CaCO3 + SO2 -> CaSO3 + CO2, storing the sulfur as solid sulfite.",
+     "keywords": [
+      "sulfur dioxide",
+      "impurities",
+      "CaCO3"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "carbon monoxide",
+    "definition": "The toxic product of incomplete combustion that occupies haemoglobin sites and blocks oxygen transport.",
+    "firstLesson": 1
+   },
+   {
+    "term": "acid rain",
+    "definition": "Rainfall acidified by dissolved sulfur and nitrogen oxides from combustion emissions.",
+    "firstLesson": 2
+   },
+   {
+    "term": "catalytic converter",
+    "definition": "The exhaust device converting carbon monoxide and nitrogen monoxide into carbon dioxide and nitrogen.",
+    "firstLesson": 3
+   },
+   {
+    "term": "flue-gas desulfurisation",
+    "definition": "Scrubbing sulfur dioxide from power-station emissions with a basic absorbent such as calcium carbonate.",
+    "firstLesson": 3
+   }
+  ],
+  "workedExample": null
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/25aeb48fa39f-10-2-1-incomplete-combustion-of-alkanes-2-1.png",
+   "alt": "Incomplete Combustion of Alkanes, downloadable IB Chemistry revision notes",
+   "sourceHeading": "Problems of Pollution - General",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique"
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/c2cdb7aab5f7-3-2-hydrocarbons-toxic-effect-co-1.png",
+   "alt": "Hydrocarbons Toxic Effect CO, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Carbon monoxide",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "The high affinity of CO to haemoglobin prevents it from binding to O2 and CO2"
+  },
+  {
+   "id": "fig-03",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/0da362ee5c64-3-2-hydrocarbons-table-1-combustion-of-alkanes-t.png",
+   "alt": "Hydrocarbons Table 1_Combustion of Alkanes & the Environment, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Pollutants, their Effect & Removal Table",
+   "moduleIds": [
+    "L3"
+   ],
+   "binding": "heading-unique"
+  }
+ ]
+}

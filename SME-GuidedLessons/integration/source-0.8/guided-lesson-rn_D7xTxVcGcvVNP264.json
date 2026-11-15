@@ -1,0 +1,896 @@
+{
+ "format": "guided-lesson/0.8",
+ "noteRef": {
+  "noteId": "rn_D7xTxVcGcvVNP264",
+  "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+  "topicTitle": "1. Structure, Bonding & Introduction to Organic Chemistry",
+  "subtopicTitle": "Alkenes - Introduction",
+  "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/1-structure-bonding-and-introduction-to-organic-chemistry/1-10-alkenes/1-10-1-alkenes---introduction"
+ },
+ "specPoints": [
+  {
+   "code": "5.1",
+   "text": "know the general formula of alkenes and understand that alkenes and cycloalkenes are hydrocarbons which are unsaturated (have a carbon-carbon double bond which consists of a σ bond and a π bond)"
+  }
+ ],
+ "primer": {
+  "text": "Alkenes trade a shared electron pair for reactivity. This note walks the first five family members, then zooms into the C=C unit: the end-on sigma framework that fixes the flat geometry, and the sideways pi cloud sitting above and below it. The pi cloud is where every alkene reaction begins, so learn its shape and its electron density before the mechanisms arrive.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "The first five alkenes",
+   "sourceHeadings": [
+    "The First Five Members of the Alkene Family",
+    "Bonding in Alkenes"
+   ],
+   "specRefs": [
+    "5.1"
+   ],
+   "opening": "An alkene is a hydrocarbon that carries one carbon-carbon double bond, which is exactly one fewer hydrogen pair than the matching alkane. This lesson fixes the general formula, marches through the first five members by name, and shows why one extra ring or bond changes the hydrogen count the same way.",
+   "keyPoints": [
+    "Open-chain alkenes carry the general formula CnH2n, with exactly one double bond per molecule.",
+    "Unsaturated means the chain holds a carbon-carbon double bond that can still open to accept atoms.",
+    "Ethene, propene, but-1-ene, pent-1-ene and hex-1-ene are the first five members in order.",
+    "Each step along the series adds one CH2 unit, so the molar mass climbs by 14 g mol^-1 per member.",
+    "A ring removes two hydrogens just as a double bond does, so cycloalkenes sit below CnH2n."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Alkenes follow CnH2n because the double bond uses two hydrogens that the matching alkane would have carried; the first five run from ethene to hex-1-ene.",
+     "analogy": "Think of a ladder where every rung adds one CH2 step worth 14 units of mass, and the double bond is a shortcut that skips a hydrogen pair.",
+     "examPointer": "Quote CnH2n only for open-chain mono-alkenes - a cycloalkene drops two more hydrogens for its ring, so check the structure before quoting any formula."
+    },
+    "medium": {
+     "restatement": "Degrees of unsaturation are counted, not guessed: a carbon-carbon double bond and a carbon ring each remove a hydrogen pair from the saturated count, so CnH2n describes one degree and cycloalkenes hold two.",
+     "analogy": "A parking garage with one blocked level (the double bond) and one converted level (the ring) each cost you the same two hydrogen spaces.",
+     "examPointer": "When a formula such as C4H8 appears, give both candidate structures - but-1-ene or a cycloalkane - full marks rest on listing the alternatives."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Which formula is the general formula of an open-chain alkene?",
+     "misconceptionClass": "alkene general formula",
+     "options": [
+      {
+       "key": "A",
+       "text": "CnH2n",
+       "correct": true,
+       "explanation": "One double bond removes one hydrogen pair from the alkane count.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "CnH2n+2",
+       "correct": false,
+       "explanation": "That is the alkane general formula - saturated chains only.",
+       "misconception": "alkane formula misapplied"
+      },
+      {
+       "key": "C",
+       "text": "CnH2n-2",
+       "correct": false,
+       "explanation": "That count belongs to species with a ring plus a double bond, such as cycloalkenes.",
+       "misconception": "over-counted unsaturation"
+      },
+      {
+       "key": "D",
+       "text": "CnH2n+1OH",
+       "correct": false,
+       "explanation": "That is the alcohol (alkanol) family, carrying an -OH group.",
+       "misconception": "wrong homologous series"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What is the molecular formula of pent-1-ene?",
+     "misconceptionClass": "formula from position in series",
+     "options": [
+      {
+       "key": "A",
+       "text": "C5H10",
+       "correct": true,
+       "explanation": "Five carbons at n=5 in CnH2n gives 10 hydrogens.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "C5H12",
+       "correct": false,
+       "explanation": "That is pentane - the saturated member of the same size.",
+       "misconception": "used the alkane formula"
+      },
+      {
+       "key": "C",
+       "text": "C4H8",
+       "correct": false,
+       "explanation": "That is but-1-ene, one member too small.",
+       "misconception": "off-by-one in the series"
+      },
+      {
+       "key": "D",
+       "text": "C6H12",
+       "correct": false,
+       "explanation": "That is hex-1-ene, one member too large.",
+       "misconception": "off-by-one upward"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why are alkenes described as unsaturated hydrocarbons?",
+     "misconceptionClass": "unsaturation meaning",
+     "options": [
+      {
+       "key": "A",
+       "text": "A double bond can open to accept additional atoms",
+       "correct": true,
+       "explanation": "The pi pair is available for addition, so more atoms can join the chain.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "They contain only single bonds",
+       "correct": false,
+       "explanation": "Single bonds everywhere is the saturated condition of alkanes.",
+       "misconception": "definition inverted"
+      },
+      {
+       "key": "C",
+       "text": "They always contain oxygen",
+       "correct": false,
+       "explanation": "Alkenes are hydrocarbons - carbon and hydrogen only.",
+       "misconception": "invented heteroatoms"
+      },
+      {
+       "key": "D",
+       "text": "They burn incompletely",
+       "correct": false,
+       "explanation": "Combustion behaviour is a consequence, not the meaning of unsaturation.",
+       "misconception": "property confused with definition"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which compound is NOT a member of the first five open-chain alkenes?",
+     "misconceptionClass": "series membership",
+     "options": [
+      {
+       "key": "A",
+       "text": "cyclopentane",
+       "correct": true,
+       "explanation": "That is a saturated ring with no double bond - an alkane, not an alkene.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "hex-1-ene",
+       "correct": false,
+       "explanation": "Fifth member of the series.",
+       "misconception": "misread the series"
+      },
+      {
+       "key": "C",
+       "text": "pent-1-ene",
+       "correct": false,
+       "explanation": "Fourth member of the series.",
+       "misconception": "misread the series"
+      },
+      {
+       "key": "D",
+       "text": "but-1-ene",
+       "correct": false,
+       "explanation": "Third member of the series.",
+       "misconception": "misread the series"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "How does the molar mass change between neighbouring members of the alkene series?",
+     "misconceptionClass": "series increment",
+     "options": [
+      {
+       "key": "A",
+       "text": "It rises by 14 g mol^-1 per CH2 step",
+       "correct": true,
+       "explanation": "One carbon (12) plus two hydrogens (2) adds 14.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "It rises by 12 g mol^-1 per step",
+       "correct": false,
+       "explanation": "That counts the carbon alone and forgets the two hydrogens.",
+       "misconception": "hydrogens forgotten"
+      },
+      {
+       "key": "C",
+       "text": "It stays constant",
+       "correct": false,
+       "explanation": "Each member differs in composition, so mass cannot stay put.",
+       "misconception": "series misunderstood"
+      },
+      {
+       "key": "D",
+       "text": "It doubles each step",
+       "correct": false,
+       "explanation": "Doubling would explode the series - growth is linear.",
+       "misconception": "growth pattern invented"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Define the term unsaturated as applied to hydrocarbons.",
+     "misconceptionClass": "unsaturation definition recall",
+     "modelAnswer": "An unsaturated hydrocarbon holds at least one carbon-carbon double bond that can open, letting additional atoms join the molecule by addition.",
+     "keywords": [
+      "unsaturated",
+      "double bond",
+      "addition"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Name the first five members of the alkene series in order and give each formula.",
+     "misconceptionClass": "series recall",
+     "modelAnswer": "Ethene C2H4, propene C3H6, but-1-ene C4H8, pent-1-ene C5H10, hex-1-ene C6H12.",
+     "keywords": [
+      "ethene",
+      "propene",
+      "but-1-ene",
+      "pent-1-ene"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why propene and cyclopropane share the molecular formula C3H6.",
+     "misconceptionClass": "isomeric formula reasoning",
+     "modelAnswer": "Both structures lose the same hydrogen pair relative to propane C3H8: propene spends it on a carbon-carbon double bond while cyclopropane spends it closing a ring, so the two structural isomers share one formula.",
+     "keywords": [
+      "double bond",
+      "ring",
+      "isomers"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A hydrocarbon is found with molecular formula C7H14. State whether it must be an open-chain alkene and justify your decision.",
+     "misconceptionClass": "formula-to-structure application",
+     "modelAnswer": "It need not be: C7H14 fits hept-1-ene (one double bond) but equally fits a cycloalkane such as methylcyclohexane, because one ring costs the same hydrogen pair as one double bond.",
+     "keywords": [
+      "ring",
+      "cycloalkane",
+      "double bond"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The sigma skeleton",
+   "sourceHeadings": [
+    "σ bonds",
+    "Hydrogen"
+   ],
+   "specRefs": [
+    "5.1"
+   ],
+   "opening": "Every bond in an alkene except the second half of the double bond is a sigma bond: orbital overlap end-on, with the shared pair parked between the two nuclei. This lesson counts the sigma framework in ethene and propene and fixes the trigonal planar geometry it forces.",
+   "keyPoints": [
+    "A sigma bond forms from end-on orbital overlap, with the shared pair between the two nuclei.",
+    "Each alkene carbon uses three sigma bonds: two to its substituents and one to the other alkene carbon.",
+    "Three bonding regions around each alkene carbon spread to a trigonal planar arrangement near 120 degrees.",
+    "Every single bond anywhere in the molecule is a sigma bond, in the chains and to the hydrogens.",
+    "End-on overlap concentrates the pair on the internuclear axis, making sigma the stronger overlap type."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Sigma bonds are the head-on overlaps that make up every single bond; each alkene carbon owns three of them, giving a flat 120-degree arrangement.",
+     "analogy": "Two fists pressed together knuckle-to-knuckle meet head-on like a sigma bond; the contact sits squarely between the two hands.",
+     "examPointer": "Counting questions reward a systematic sweep: count C-H sigma bonds first, then the C-C sigma bonds, and state the total."
+    },
+    "medium": {
+     "restatement": "VSEPR with three charge regions and no lone pairs on an alkene carbon gives 120-degree trigonal planar geometry, which is why the alkene unit is flat rather than tetrahedral.",
+     "analogy": "Three spotlights clamped around one post spread as far apart as they can on the same flat stage - the third dimension is not on offer.",
+     "examPointer": "Quote 120 degrees and trigonal planar together; quoting the angle without the shape, or vice versa, drops a mark in geometry questions."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "How many sigma bonds does an ethene molecule contain?",
+     "misconceptionClass": "sigma census",
+     "options": [
+      {
+       "key": "A",
+       "text": "5",
+       "correct": true,
+       "explanation": "Four C-H sigma bonds plus one C-C sigma bond inside the double bond.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "6",
+       "correct": false,
+       "explanation": "That counts the pi bond as a sigma bond - the double bond holds only one sigma.",
+       "misconception": "pi miscounted as sigma"
+      },
+      {
+       "key": "C",
+       "text": "4",
+       "correct": false,
+       "explanation": "That misses the C-C sigma bond hiding inside the double bond.",
+       "misconception": "double bond counted as zero sigma"
+      },
+      {
+       "key": "D",
+       "text": "2",
+       "correct": false,
+       "explanation": "That counts only the carbon-carbon links.",
+       "misconception": "hydrogen bonds forgotten"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What arrangement do the three sigma bonding regions around each alkene carbon adopt?",
+     "misconceptionClass": "alkene carbon geometry",
+     "options": [
+      {
+       "key": "A",
+       "text": "Trigonal planar at about 120 degrees",
+       "correct": true,
+       "explanation": "Three regions repel equally and spread in one plane.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Tetrahedral at 109.5 degrees",
+       "correct": false,
+       "explanation": "That belongs to four regions, as in alkanes.",
+       "misconception": "alkane geometry reused"
+      },
+      {
+       "key": "C",
+       "text": "Linear at 180 degrees",
+       "correct": false,
+       "explanation": "That needs just two regions on the atom.",
+       "misconception": "linear geometry misapplied"
+      },
+      {
+       "key": "D",
+       "text": "Pyramidal at 107 degrees",
+       "correct": false,
+       "explanation": "That needs three regions plus a lone pair.",
+       "misconception": "lone pair invented"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which statement about sigma bonds is correct?",
+     "misconceptionClass": "sigma properties",
+     "options": [
+      {
+       "key": "A",
+       "text": "All single bonds are sigma bonds",
+       "correct": true,
+       "explanation": "Head-on overlap builds every single bond in any organic molecule.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Sigma bonds only form between carbons",
+       "correct": false,
+       "explanation": "C-H bonds are sigma bonds too.",
+       "misconception": "scope over-narrowed"
+      },
+      {
+       "key": "C",
+       "text": "A sigma bond comes from sideways p overlap",
+       "correct": false,
+       "explanation": "Sideways overlap is the pi bond's construction.",
+       "misconception": "overlap types swapped"
+      },
+      {
+       "key": "D",
+       "text": "Sigma bonds are weaker than pi bonds",
+       "correct": false,
+       "explanation": "End-on overlap is the stronger kind.",
+       "misconception": "strength order inverted"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "How many sigma bonds does a propene molecule, C3H6, contain?",
+     "misconceptionClass": "sigma census applied",
+     "options": [
+      {
+       "key": "A",
+       "text": "8",
+       "correct": true,
+       "explanation": "Six C-H sigma bonds plus two C-C sigma bonds.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "9",
+       "correct": false,
+       "explanation": "That adds the pi bond to the sigma total.",
+       "misconception": "pi miscounted"
+      },
+      {
+       "key": "C",
+       "text": "7",
+       "correct": false,
+       "explanation": "That drops one of the carbon-carbon sigma bonds.",
+       "misconception": "sweep missed a bond"
+      },
+      {
+       "key": "D",
+       "text": "6",
+       "correct": false,
+       "explanation": "That counts only the C-H bonds.",
+       "misconception": "carbon skeleton forgotten"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Where does the shared electron pair of a sigma bond sit?",
+     "misconceptionClass": "sigma pair position",
+     "options": [
+      {
+       "key": "A",
+       "text": "Between the two nuclei, on the internuclear axis",
+       "correct": true,
+       "explanation": "End-on overlap parks the pair squarely between the atoms.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Above and below the bonding axis",
+       "correct": false,
+       "explanation": "That describes the pi cloud.",
+       "misconception": "pi geometry reused"
+      },
+      {
+       "key": "C",
+       "text": "On one atom only",
+       "correct": false,
+       "explanation": "A shared pair belongs to both atoms.",
+       "misconception": "ionic picture applied"
+      },
+      {
+       "key": "D",
+       "text": "Distributed through the whole molecule",
+       "correct": false,
+       "explanation": "Sigma pairs are localised to one bond.",
+       "misconception": "delocalisation misapplied"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Describe how a sigma bond forms and state where its electron pair sits.",
+     "misconceptionClass": "sigma definition recall",
+     "modelAnswer": "A sigma bond forms by end-on overlap of two orbitals, and the shared pair sits on the internuclear axis between the two nuclei.",
+     "keywords": [
+      "end-on overlap",
+      "pair",
+      "axis"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the three sigma bonds owned by each carbon atom inside an alkene unit.",
+     "misconceptionClass": "sigma ownership recall",
+     "modelAnswer": "Each alkene carbon holds two sigma bonds to its substituents and one sigma bond to the carbon of its double bond.",
+     "keywords": [
+      "two",
+      "substituents",
+      "one"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why the framework around a C=C unit is planar rather than tetrahedral.",
+     "misconceptionClass": "geometry reasoning",
+     "modelAnswer": "Each alkene carbon carries three sigma bonding regions and no lone pair, so the regions spread 120 degrees apart in a single plane; the fourth tetrahedral region is occupied by the pi bond instead of a sigma one.",
+     "keywords": [
+      "three",
+      "regions",
+      "plane"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "Count the sigma and pi bonds in but-1-ene, CH2=CHCH2CH3.",
+     "misconceptionClass": "bond census application",
+     "modelAnswer": "Eight C-H sigma bonds plus three C-C sigma bonds give 11 sigma bonds, and the single double bond contributes one pi bond.",
+     "keywords": [
+      "11",
+      "sigma",
+      "pi"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The pi cloud",
+   "sourceHeadings": [
+    "π bonds",
+    "Ethene"
+   ],
+   "specRefs": [
+    "5.1"
+   ],
+   "opening": "The second half of the double bond is the reactive half. Two p orbitals overlap sideways, building a pi cloud of electron density above and below the plane. That exposed cloud attracts electrophiles and locks the molecule flat - the two facts every later mechanism rests on.",
+   "keyPoints": [
+    "A pi bond forms from sideways overlap of unhybridised p orbitals above and below the molecular plane.",
+    "The pi cloud concentrates electron density outside the internuclear axis, exposed to approaching species.",
+    "Electron-rich pi bonds attract electrophiles, which is why alkenes undergo addition.",
+    "The pi bond prevents free rotation about the C=C axis, planting the seed of geometric isomerism.",
+    "A carbon-carbon double bond is exactly one sigma bond plus one pi bond, never two of a kind."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Two p orbitals meet sideways and their overlap builds a cloud above and below the plane; that cloud is the pi bond and it is where reactions start.",
+     "analogy": "Two parallel baguettes pressed together along their faces overlap sideways - the contact sits above and below the line joining them.",
+     "examPointer": "Describe the pi cloud as sitting above and below the molecular plane; saying beside or between the nuclei confuses it with sigma."
+    },
+    "medium": {
+     "restatement": "The exposed pi density makes the C=C unit a nucleophile - a target for electron-seeking electrophiles - while the locked sideways overlap also forbids rotation, freezing relative group positions.",
+     "analogy": "A velcro strip stuck face-to-face cannot be twisted without tearing the contact - rotation and the pi bond cannot coexist.",
+     "examPointer": "Two markpoints recur: pi density attracts electrophiles, and pi overlap restricts rotation - usually one mark each in mechanism or isomerism questions."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Where does the electron density of a pi bond concentrate?",
+     "misconceptionClass": "pi density location",
+     "options": [
+      {
+       "key": "A",
+       "text": "Above and below the flat plane the two carbons share",
+       "correct": true,
+       "explanation": "Sideways overlap builds the cloud off the internuclear axis.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Between the two nuclei on the bonding axis",
+       "correct": false,
+       "explanation": "That is the sigma pair's home.",
+       "misconception": "sigma geometry reused"
+      },
+      {
+       "key": "C",
+       "text": "On the hydrogen atoms",
+       "correct": false,
+       "explanation": "Hydrogens carry no pi density here.",
+       "misconception": "density misattributed"
+      },
+      {
+       "key": "D",
+       "text": "Evenly over the whole molecule",
+       "correct": false,
+       "explanation": "Pi density is localised to the double bond.",
+       "misconception": "delocalisation misapplied"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which overlap builds a pi bond?",
+     "misconceptionClass": "pi construction",
+     "options": [
+      {
+       "key": "A",
+       "text": "Sideways overlap of two p orbitals",
+       "correct": true,
+       "explanation": "Parallel p orbitals overlap above and below the axis.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "End-on overlap of two s orbitals",
+       "correct": false,
+       "explanation": "That construction gives a sigma bond.",
+       "misconception": "overlap types swapped"
+      },
+      {
+       "key": "C",
+       "text": "Overlap of a p orbital with a hydrogen s orbital",
+       "correct": false,
+       "explanation": "That pair forms a sigma bond.",
+       "misconception": "wrong orbitals paired"
+      },
+      {
+       "key": "D",
+       "text": "Transfer of an electron from one atom to the other",
+       "correct": false,
+       "explanation": "That is ion formation, not covalent overlap.",
+       "misconception": "ionic model misapplied"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What does the pi bond prevent about a C=C unit?",
+     "misconceptionClass": "rotation restriction",
+     "options": [
+      {
+       "key": "A",
+       "text": "Free rotation about the double bond axis",
+       "correct": true,
+       "explanation": "Tearing the sideways overlap would be needed to twist, so rotation is locked.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Vibration of the C-H bonds",
+       "correct": false,
+       "explanation": "Bond vibrations continue normally.",
+       "misconception": "over-generalised"
+      },
+      {
+       "key": "C",
+       "text": "Addition of electrophiles",
+       "correct": false,
+       "explanation": "Addition is exactly what the pi cloud invites.",
+       "misconception": "reactivity inverted"
+      },
+      {
+       "key": "D",
+       "text": "Combustion of the molecule",
+       "correct": false,
+       "explanation": "Alkenes burn; the pi bond does not forbid it.",
+       "misconception": "unrelated property"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "A carbon-carbon double bond consists of which combination?",
+     "misconceptionClass": "double bond composition",
+     "options": [
+      {
+       "key": "A",
+       "text": "One sigma bond and one pi bond",
+       "correct": true,
+       "explanation": "The end-on pair plus the sideways pair share the four electrons.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Two sigma bonds",
+       "correct": false,
+       "explanation": "Two end-on overlaps between the same atoms cannot both exist.",
+       "misconception": "double sigma misconception"
+      },
+      {
+       "key": "C",
+       "text": "Two pi bonds",
+       "correct": false,
+       "explanation": "That describes a triple bond's extra pair count.",
+       "misconception": "triple bond confused"
+      },
+      {
+       "key": "D",
+       "text": "One pi bond only",
+       "correct": false,
+       "explanation": "The sigma skeleton always comes first.",
+       "misconception": "sigma forgotten"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which species is attracted to the pi cloud of an alkene?",
+     "misconceptionClass": "reactive partner",
+     "options": [
+      {
+       "key": "A",
+       "text": "An electrophile",
+       "correct": true,
+       "explanation": "Electron-seeking species home in on the exposed electron density.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "A nucleophile",
+       "correct": false,
+       "explanation": "Nucleophiles donate density and are repelled by it.",
+       "misconception": "partner inverted"
+      },
+      {
+       "key": "C",
+       "text": "A free radical only",
+       "correct": false,
+       "explanation": "Radicals are one reactive class; the classic partner is the electrophile.",
+       "misconception": "scope narrowed"
+      },
+      {
+       "key": "D",
+       "text": "A metal catalyst",
+       "correct": false,
+       "explanation": "Catalysts change rates but are not the electronic attractor.",
+       "misconception": "kinetics confused"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Describe the formation of a pi bond in ethene.",
+     "misconceptionClass": "pi formation recall",
+     "modelAnswer": "Sideways overlap of the unhybridised p orbitals on each alkene carbon builds a pi bond with electron density above and below the molecular plane.",
+     "keywords": [
+      "sideways overlap",
+      "p orbitals",
+      "plane"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the two components of a carbon-carbon double bond and their electron counts.",
+     "misconceptionClass": "double bond census recall",
+     "modelAnswer": "The double bond holds one sigma pair from end-on overlap and one pi pair from sideways overlap - four shared electrons in total.",
+     "keywords": [
+      "sigma",
+      "pi",
+      "four"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why electrophiles are drawn to alkene molecules.",
+     "misconceptionClass": "electrophile attraction reasoning",
+     "modelAnswer": "The pi cloud piles electron density above and below the plane where nothing shields it, so positive or electron-seeking species feel strong attraction and bond to the double-bond carbons.",
+     "keywords": [
+      "electron density",
+      "electrophile",
+      "cloud"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "Ethene carries 5 sigma bonds and 1 pi bond. Give the corresponding census for propene, C3H6.",
+     "misconceptionClass": "bond census application",
+     "modelAnswer": "Propene holds 8 sigma bonds - six to hydrogen and two along the carbon chain - and still exactly 1 pi bond at its double bond.",
+     "keywords": [
+      "8",
+      "sigma",
+      "1 pi"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "unsaturated",
+    "definition": "Describing a hydrocarbon that holds at least one carbon-carbon double bond, so it can open that bond to accept additional atoms.",
+    "firstLesson": 1
+   },
+   {
+    "term": "sigma bond",
+    "definition": "A covalent bond formed by end-on orbital overlap, with the shared pair sitting on the internuclear axis between the two nuclei.",
+    "firstLesson": 2
+   },
+   {
+    "term": "pi bond",
+    "definition": "A covalent bond formed by sideways overlap of p orbitals, with electron density above and below the plane of the molecule.",
+    "firstLesson": 3
+   },
+   {
+    "term": "electrophile",
+    "definition": "An electron-seeking species attracted to regions of high electron density such as the pi cloud of an alkene.",
+    "firstLesson": 3
+   }
+  ],
+  "workedExample": null
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/c846ce294889-10-1-4-alkenes-first-5-members-1.png",
+   "alt": "Table listing the first five alkene members from ethene to hex-1-ene with their structural formulas",
+   "sourceHeading": "The First Five Members of the Alkene Family",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique"
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/c3ecc9913aeb-10-1-4-alkenes-first-5-members-2.png",
+   "alt": "Displayed structural formulas of the first five alkenes showing the position of each double bond",
+   "sourceHeading": "The First Five Members of the Alkene Family",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique"
+  },
+  {
+   "id": "fig-03",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/ed086d6fc70f-1-3-chemical-bonding-bond-overlap-in-sigma-orbit.png",
+   "alt": "Chemical Bonding Bond Overlap in Sigma Orbitals, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "σ bonds",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "Sigma orbitals can be formed from the end to end overlap of s orbitals"
+  },
+  {
+   "id": "fig-04",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/69f8299e4039-1-3-chemical-bonding-orbital-overlap-in-hydrogen.png",
+   "alt": "Chemical Bonding Orbital Overlap in Hydrogen, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Hydrogen",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique"
+  },
+  {
+   "id": "fig-05",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/0f7f091b7b74-1-3-chemical-bonding-bond-overlap-in-pi-orbitals.png",
+   "alt": "Chemical Bonding Bond Overlap in Pi Orbitals, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "π bonds",
+   "moduleIds": [
+    "L3"
+   ],
+   "binding": "heading-unique",
+   "caption": "π orbitals can be formed from the sideways overlap of p orbitals"
+  },
+  {
+   "id": "fig-06",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/da43a8147272-1-3-chemical-bonding-electron-density-in-ethene.png",
+   "alt": "Chemical Bonding Electron Density in Ethene, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Ethene",
+   "moduleIds": [
+    "L3"
+   ],
+   "binding": "heading-unique",
+   "caption": "Each carbon atom in ethene forms two sigma bonds with hydrogen atoms and one σ bond with another carbon atom."
+  }
+ ]
+}
