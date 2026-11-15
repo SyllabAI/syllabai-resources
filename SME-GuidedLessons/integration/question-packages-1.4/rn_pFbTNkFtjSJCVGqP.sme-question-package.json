@@ -1,0 +1,723 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_pFbTNkFtjSJCVGqP",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "1afff61afd6cc3f752795e7010735f8f92b889df5c63e0f31440004ca46c62e3",
+    "pinnedRef": "0c6caf779f8358349ab3cd2564cc4cf713dd5d11"
+  },
+  "packageId": "ial-chemistry::rn_pFbTNkFtjSJCVGqP",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_pFbTNkFtjSJCVGqP::L1::Q1",
+      "moduleId": "rn_pFbTNkFtjSJCVGqP::L1",
+      "stem": "Which colour does methyl orange show in alkali?",
+      "misconceptionClass": "table recall",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yellow",
+          "correct": true,
+          "explanation": "Methyl orange runs red in acid and yellow in alkali.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Blue",
+          "correct": false,
+          "explanation": "Blue is litmus's alkali colour.",
+          "misconception": "indicator confused"
+        },
+        {
+          "key": "C",
+          "text": "Pink",
+          "correct": false,
+          "explanation": "Pink is phenolphthalein's alkali colour.",
+          "misconception": "indicator confused"
+        },
+        {
+          "key": "D",
+          "text": "Colourless",
+          "correct": false,
+          "explanation": "Colourless is phenolphthalein's acid form.",
+          "misconception": "pair confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_pFbTNkFtjSJCVGqP::L1::Q2",
+      "moduleId": "rn_pFbTNkFtjSJCVGqP::L1",
+      "stem": "Why can litmus not be used successfully in a titration?",
+      "misconceptionClass": "litmus failure",
+      "options": [
+        {
+          "key": "A",
+          "text": "It only works in alkali",
+          "correct": false,
+          "explanation": "Litmus responds across the whole range.",
+          "misconception": "range myth"
+        },
+        {
+          "key": "B",
+          "text": "Its colour change is too gradual to mark the equivalence point sharply",
+          "correct": true,
+          "explanation": "Titration endpoints need an abrupt flip.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "It is not a weak acid or base",
+          "correct": false,
+          "explanation": "Litmus is one; the gradualism is the problem.",
+          "misconception": "class misstated"
+        },
+        {
+          "key": "D",
+          "text": "It dissolves the analyte",
+          "correct": false,
+          "explanation": "Indicators never consume the sample.",
+          "misconception": "nonsense"
+        }
+      ]
+    },
+    {
+      "id": "rn_pFbTNkFtjSJCVGqP::L1::Q3",
+      "moduleId": "rn_pFbTNkFtjSJCVGqP::L1",
+      "stem": "Why is phenolphthalein usually better in the burette?",
+      "misconceptionClass": "placement reasoning",
+      "options": [
+        {
+          "key": "A",
+          "text": "It reacts with the burette glass",
+          "correct": false,
+          "explanation": "No such reaction occurs.",
+          "misconception": "nonsense"
+        },
+        {
+          "key": "B",
+          "text": "Its colours reverse in the burette",
+          "correct": false,
+          "explanation": "The colour pair never reverses.",
+          "misconception": "nonsense"
+        },
+        {
+          "key": "C",
+          "text": "A sudden, permanent appearance of pink is easier to see than pink fading to colourless",
+          "correct": true,
+          "explanation": "Appearance beats disappearance for endpoint spotting.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "It is more accurate in that position",
+          "correct": false,
+          "explanation": "Accuracy is chemical, not positional.",
+          "misconception": "accuracy myth"
+        }
+      ]
+    },
+    {
+      "id": "rn_pFbTNkFtjSJCVGqP::L1::Q4",
+      "moduleId": "rn_pFbTNkFtjSJCVGqP::L1",
+      "stem": "What chemical class do indicators belong to?",
+      "misconceptionClass": "indicator class",
+      "options": [
+        {
+          "key": "A",
+          "text": "Strong acids",
+          "correct": false,
+          "explanation": "Strong acids never switch colour reversibly.",
+          "misconception": "class wrong"
+        },
+        {
+          "key": "B",
+          "text": "Metal salts",
+          "correct": false,
+          "explanation": "Salts are not the indicator family.",
+          "misconception": "class wrong"
+        },
+        {
+          "key": "C",
+          "text": "Neutral hydrocarbons",
+          "correct": false,
+          "explanation": "Hydrocarbons carry no switching chemistry.",
+          "misconception": "class wrong"
+        },
+        {
+          "key": "D",
+          "text": "Weak acids and bases with differently coloured conjugate forms",
+          "correct": true,
+          "explanation": "The colour switch is the conjugate pair changing places.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_pFbTNkFtjSJCVGqP::L1::Q5",
+      "moduleId": "rn_pFbTNkFtjSJCVGqP::L1",
+      "stem": "What drives an indicator's colour change?",
+      "misconceptionClass": "driver",
+      "options": [
+        {
+          "key": "A",
+          "text": "The concentration of hydrogen ions in the solution",
+          "correct": true,
+          "explanation": "H+ level selects which conjugate form dominates.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Temperature alone",
+          "correct": false,
+          "explanation": "Temperature is not the switching driver here.",
+          "misconception": "driver wrong"
+        },
+        {
+          "key": "C",
+          "text": "Light intensity",
+          "correct": false,
+          "explanation": "Light does not shift the equilibrium.",
+          "misconception": "driver wrong"
+        },
+        {
+          "key": "D",
+          "text": "The volume of the flask",
+          "correct": false,
+          "explanation": "Flask size is irrelevant.",
+          "misconception": "nonsense"
+        }
+      ]
+    },
+    {
+      "id": "rn_pFbTNkFtjSJCVGqP::L1::Q6",
+      "moduleId": "rn_pFbTNkFtjSJCVGqP::L1",
+      "stem": "State the colour pair for phenolphthalein.",
+      "misconceptionClass": "pair recall",
+      "kind": "recall",
+      "modelAnswer": "Phenolphthalein is colourless in acid and pink in alkali.",
+      "keywords": [
+        "colourless",
+        "pink",
+        "phenolphthalein"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_pFbTNkFtjSJCVGqP::L1::Q7",
+      "moduleId": "rn_pFbTNkFtjSJCVGqP::L1",
+      "stem": "Define what an acid-base indicator does.",
+      "misconceptionClass": "definition recall",
+      "kind": "recall",
+      "modelAnswer": "An indicator gives information about the change in chemical environment by changing colour reversibly with the hydrogen ion concentration.",
+      "keywords": [
+        "reversibly",
+        "colour",
+        "environment"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_pFbTNkFtjSJCVGqP::L1::Q8",
+      "moduleId": "rn_pFbTNkFtjSJCVGqP::L1",
+      "stem": "Explain why a sharp colour change at the equivalence point is the defining property of a good titration indicator.",
+      "misconceptionClass": "sharpness reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "The endpoint must be read in a single drop's worth of added reagent, so only an indicator whose transition sits inside the steep pH jump delivers an endpoint that matches the equivalence point.",
+      "keywords": [
+        "sharp",
+        "equivalence",
+        "transition"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_pFbTNkFtjSJCVGqP::L1::Q9",
+      "moduleId": "rn_pFbTNkFtjSJCVGqP::L1",
+      "stem": "A titration needs an indicator switching between pH 3 and 10 is impossible, but one switching sharply near pH 9 works for a weak acid-strong base pair. Which indicator fits, by colour pair?",
+      "misconceptionClass": "selection application",
+      "kind": "application",
+      "modelAnswer": "Phenolphthalein fits: it is colourless in acid and flips to pink sharply in the alkaline region.",
+      "keywords": [
+        "phenolphthalein",
+        "pink",
+        "sharp"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_pFbTNkFtjSJCVGqP::L2::Q1",
+      "moduleId": "rn_pFbTNkFtjSJCVGqP::L2",
+      "stem": "How do you convert 25.0 cm3 to dm3?",
+      "misconceptionClass": "unit conversion",
+      "options": [
+        {
+          "key": "A",
+          "text": "Leave it unchanged",
+          "correct": false,
+          "explanation": "Units must match before multiplying.",
+          "misconception": "conversion denied"
+        },
+        {
+          "key": "B",
+          "text": "Divide by 1000 to get 0.025 dm3",
+          "correct": true,
+          "explanation": "One dm3 holds 1000 cm3.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Multiply by 1000",
+          "correct": false,
+          "explanation": "That inflates the volume a thousandfold.",
+          "misconception": "direction wrong"
+        },
+        {
+          "key": "D",
+          "text": "Divide by 100",
+          "correct": false,
+          "explanation": "The factor is 1000, not 100.",
+          "misconception": "factor wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_pFbTNkFtjSJCVGqP::L2::Q2",
+      "moduleId": "rn_pFbTNkFtjSJCVGqP::L2",
+      "stem": "In Na2CO3 + 2HCl -> 2NaCl + H2O + CO2, what moles of HCl react per mole of sodium carbonate?",
+      "misconceptionClass": "stoichiometry",
+      "options": [
+        {
+          "key": "A",
+          "text": "0.5 moles",
+          "correct": false,
+          "explanation": "That inverts the ratio.",
+          "misconception": "ratio inverted"
+        },
+        {
+          "key": "B",
+          "text": "3 moles",
+          "correct": false,
+          "explanation": "No coefficient 3 appears.",
+          "misconception": "invented ratio"
+        },
+        {
+          "key": "C",
+          "text": "2 moles",
+          "correct": true,
+          "explanation": "The balanced equation's ratio is 1:2.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "1 mole",
+          "correct": false,
+          "explanation": "The coefficient 2 on HCl forbids that.",
+          "misconception": "ratio misread"
+        }
+      ]
+    },
+    {
+      "id": "rn_pFbTNkFtjSJCVGqP::L2::Q3",
+      "moduleId": "rn_pFbTNkFtjSJCVGqP::L2",
+      "stem": "A titre of 20.00 cm3 of acid neutralises 0.00125 mol of sodium carbonate at ratio 1:2. What moles of acid reacted?",
+      "misconceptionClass": "mole scaling",
+      "options": [
+        {
+          "key": "A",
+          "text": "0.00125 mol",
+          "correct": false,
+          "explanation": "That ignores the 1:2 ratio.",
+          "misconception": "ratio ignored"
+        },
+        {
+          "key": "B",
+          "text": "0.000625 mol",
+          "correct": false,
+          "explanation": "That halves instead of doubling.",
+          "misconception": "direction flipped"
+        },
+        {
+          "key": "C",
+          "text": "0.025 mol",
+          "correct": false,
+          "explanation": "That is the volume in dm3, not the moles.",
+          "misconception": "quantity confused"
+        },
+        {
+          "key": "D",
+          "text": "0.00250 mol",
+          "correct": true,
+          "explanation": "Doubling the carbonate moles gives the acid moles.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_pFbTNkFtjSJCVGqP::L2::Q4",
+      "moduleId": "rn_pFbTNkFtjSJCVGqP::L2",
+      "stem": "What is the concentration of the acid if 0.00250 mol sits in 20.00 cm3?",
+      "misconceptionClass": "concentration division",
+      "options": [
+        {
+          "key": "A",
+          "text": "0.125 mol dm-3",
+          "correct": true,
+          "explanation": "0.00250 divided by 0.0200 gives 0.125.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "0.0125 mol dm-3",
+          "correct": false,
+          "explanation": "That slips a decimal place.",
+          "misconception": "decimal slip"
+        },
+        {
+          "key": "C",
+          "text": "1.25 mol dm-3",
+          "correct": false,
+          "explanation": "That multiplies by ten extra.",
+          "misconception": "magnitude wrong"
+        },
+        {
+          "key": "D",
+          "text": "12.5 mol dm-3",
+          "correct": false,
+          "explanation": "Far too high by two orders of magnitude.",
+          "misconception": "magnitude wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_pFbTNkFtjSJCVGqP::L2::Q5",
+      "moduleId": "rn_pFbTNkFtjSJCVGqP::L2",
+      "stem": "A student dissolves 10 g of NaOH into 2 dm3 of water. What is the concentration in g dm-3?",
+      "misconceptionClass": "mass concentration",
+      "options": [
+        {
+          "key": "A",
+          "text": "2 g dm-3",
+          "correct": false,
+          "explanation": "That is the volume, not the concentration.",
+          "misconception": "quantity confused"
+        },
+        {
+          "key": "B",
+          "text": "5 g dm-3",
+          "correct": true,
+          "explanation": "10 divided by 2 gives 5.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "20 g dm-3",
+          "correct": false,
+          "explanation": "That multiplies instead of dividing.",
+          "misconception": "operation flipped"
+        },
+        {
+          "key": "D",
+          "text": "0.2 g dm-3",
+          "correct": false,
+          "explanation": "That divides the wrong way.",
+          "misconception": "operation flipped"
+        }
+      ]
+    },
+    {
+      "id": "rn_pFbTNkFtjSJCVGqP::L2::Q6",
+      "moduleId": "rn_pFbTNkFtjSJCVGqP::L2",
+      "stem": "State the equation linking moles, concentration and volume.",
+      "misconceptionClass": "formula recall",
+      "kind": "recall",
+      "modelAnswer": "Moles equal concentration in mol dm-3 times volume in dm3.",
+      "keywords": [
+        "moles",
+        "concentration",
+        "volume"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_pFbTNkFtjSJCVGqP::L2::Q7",
+      "moduleId": "rn_pFbTNkFtjSJCVGqP::L2",
+      "stem": "Quote the worked example's answer for the hydrochloric acid concentration.",
+      "misconceptionClass": "answer recall",
+      "kind": "recall",
+      "modelAnswer": "The acid concentration works out at 0.125 mol dm-3.",
+      "keywords": [
+        "0.125",
+        "acid",
+        "concentration"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_pFbTNkFtjSJCVGqP::L2::Q8",
+      "moduleId": "rn_pFbTNkFtjSJCVGqP::L2",
+      "stem": "Explain why the stoichiometric ratio must be applied after finding the known solution's moles.",
+      "misconceptionClass": "order reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "The moles of the measured solution fix one side of the equation's ratio; scaling before measuring would attach the ratio to a volume instead of a mole count and wreck the proportion.",
+      "keywords": [
+        "ratio",
+        "moles",
+        "measured"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_pFbTNkFtjSJCVGqP::L2::Q9",
+      "moduleId": "rn_pFbTNkFtjSJCVGqP::L2",
+      "stem": "If the acid's 0.125 mol dm-3 is needed in g dm-3 for HCl (M = 36.5), what mass concentration follows?",
+      "misconceptionClass": "mass application",
+      "kind": "application",
+      "modelAnswer": "Multiplying 0.125 mol dm-3 by 36.5 g mol-1 gives about 4.56 g dm-3.",
+      "keywords": [
+        "4.56",
+        "36.5",
+        "g dm-3"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_pFbTNkFtjSJCVGqP::L3::Q1",
+      "moduleId": "rn_pFbTNkFtjSJCVGqP::L3",
+      "stem": "How is percentage uncertainty calculated?",
+      "misconceptionClass": "formula recall",
+      "options": [
+        {
+          "key": "A",
+          "text": "Measured value divided by total uncertainty",
+          "correct": false,
+          "explanation": "The division is inverted.",
+          "misconception": "inverted"
+        },
+        {
+          "key": "B",
+          "text": "Uncertainty squared",
+          "correct": false,
+          "explanation": "No squaring appears in the formula.",
+          "misconception": "nonsense"
+        },
+        {
+          "key": "C",
+          "text": "Total uncertainty divided by measured value, times 100",
+          "correct": true,
+          "explanation": "That is the definition.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Literature value divided by measured value",
+          "correct": false,
+          "explanation": "That mixes error with uncertainty.",
+          "misconception": "definition confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_pFbTNkFtjSJCVGqP::L3::Q2",
+      "moduleId": "rn_pFbTNkFtjSJCVGqP::L3",
+      "stem": "What is percentage error?",
+      "misconceptionClass": "error definition",
+      "options": [
+        {
+          "key": "A",
+          "text": "The same as percentage uncertainty",
+          "correct": false,
+          "explanation": "The two quantities are distinct.",
+          "misconception": "conflation"
+        },
+        {
+          "key": "B",
+          "text": "The spread of repeated readings",
+          "correct": false,
+          "explanation": "That describes precision, not error.",
+          "misconception": "concept swapped"
+        },
+        {
+          "key": "C",
+          "text": "Half the uncertainty",
+          "correct": false,
+          "explanation": "No such relation exists.",
+          "misconception": "nonsense"
+        },
+        {
+          "key": "D",
+          "text": "A comparison of a result with a literature value",
+          "correct": true,
+          "explanation": "Error measures agreement with the accepted figure.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_pFbTNkFtjSJCVGqP::L3::Q3",
+      "moduleId": "rn_pFbTNkFtjSJCVGqP::L3",
+      "stem": "Why does a burette titre carry twice the single-reading uncertainty?",
+      "misconceptionClass": "double reading",
+      "options": [
+        {
+          "key": "A",
+          "text": "The quantity is a difference of two readings, and adding measurements adds their absolute uncertainties",
+          "correct": true,
+          "explanation": "Initial minus final doubles the exposure.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Burettes are inherently twice as inaccurate",
+          "correct": false,
+          "explanation": "The doubling comes from the subtraction, not the instrument.",
+          "misconception": "instrument myth"
+        },
+        {
+          "key": "C",
+          "text": "The meniscus is read twice per line",
+          "correct": false,
+          "explanation": "One meniscus reading per reading.",
+          "misconception": "mechanism wrong"
+        },
+        {
+          "key": "D",
+          "text": "Uncertainties multiply on subtraction",
+          "correct": false,
+          "explanation": "They add, not multiply.",
+          "misconception": "operation wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_pFbTNkFtjSJCVGqP::L3::Q4",
+      "moduleId": "rn_pFbTNkFtjSJCVGqP::L3",
+      "stem": "Which list matches the titration example's uncertainty sources?",
+      "misconceptionClass": "source list",
+      "options": [
+        {
+          "key": "A",
+          "text": "Burette alone",
+          "correct": false,
+          "explanation": "One instrument never owns the whole uncertainty.",
+          "misconception": "monopoly myth"
+        },
+        {
+          "key": "B",
+          "text": "Balance, volumetric flask, volumetric pipette, burette",
+          "correct": true,
+          "explanation": "The four contributions are 0.5, 0.1, 0.2 and 0.4 percent.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Thermometer, balance, burette only",
+          "correct": false,
+          "explanation": "The flask and pipette are missing.",
+          "misconception": "list truncated"
+        },
+        {
+          "key": "D",
+          "text": "Pipette twice and flask once",
+          "correct": false,
+          "explanation": "The balance and burette are missing.",
+          "misconception": "list wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_pFbTNkFtjSJCVGqP::L3::Q5",
+      "moduleId": "rn_pFbTNkFtjSJCVGqP::L3",
+      "stem": "What is the total experimental uncertainty in the worked example?",
+      "misconceptionClass": "total sum",
+      "options": [
+        {
+          "key": "A",
+          "text": "2.0 percent",
+          "correct": false,
+          "explanation": "That overstates the sum by double counting.",
+          "misconception": "double count"
+        },
+        {
+          "key": "B",
+          "text": "0.12 percent",
+          "correct": false,
+          "explanation": "A decimal slip on the addition.",
+          "misconception": "decimal slip"
+        },
+        {
+          "key": "C",
+          "text": "1.2 percent",
+          "correct": true,
+          "explanation": "The four contributions sum to 1.2 percent.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "0.4 percent",
+          "correct": false,
+          "explanation": "That is only the burette's share.",
+          "misconception": "partial sum"
+        }
+      ]
+    },
+    {
+      "id": "rn_pFbTNkFtjSJCVGqP::L3::Q6",
+      "moduleId": "rn_pFbTNkFtjSJCVGqP::L3",
+      "stem": "State the rule for combining uncertainties when adding or subtracting measurements.",
+      "misconceptionClass": "rule recall",
+      "kind": "recall",
+      "modelAnswer": "Add together the absolute measurement uncertainties of the quantities being added or subtracted.",
+      "keywords": [
+        "add",
+        "absolute",
+        "uncertainties"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_pFbTNkFtjSJCVGqP::L3::Q7",
+      "moduleId": "rn_pFbTNkFtjSJCVGqP::L3",
+      "stem": "Quote the four percentage uncertainties and their titration total.",
+      "misconceptionClass": "figures recall",
+      "kind": "recall",
+      "modelAnswer": "The balance gives 0.5, the flask 0.1, the pipette 0.2 and the burette 0.4 percent, totalling 1.2 percent.",
+      "keywords": [
+        "0.5",
+        "1.2",
+        "total"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_pFbTNkFtjSJCVGqP::L3::Q8",
+      "moduleId": "rn_pFbTNkFtjSJCVGqP::L3",
+      "stem": "Explain why the total experimental uncertainty is the sum of the individual contributions rather than their average.",
+      "misconceptionClass": "propagation reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "Each instrument's error acts on the final result independently, so their effects stack; averaging would assume the errors cancel, which no fail-safe estimate may assume.",
+      "keywords": [
+        "independently",
+        "stack",
+        "sum"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_pFbTNkFtjSJCVGqP::L3::Q9",
+      "moduleId": "rn_pFbTNkFtjSJCVGqP::L3",
+      "stem": "A student improves the burette contribution from 0.4 to 0.2 percent. What does the worked example's total become?",
+      "misconceptionClass": "improvement application",
+      "kind": "application",
+      "modelAnswer": "Replacing the burette's 0.4 with 0.2 drops the four-way sum to 1.0 percent.",
+      "keywords": [
+        "1.0",
+        "total",
+        "burette"
+      ],
+      "options": []
+    }
+  ]
+}

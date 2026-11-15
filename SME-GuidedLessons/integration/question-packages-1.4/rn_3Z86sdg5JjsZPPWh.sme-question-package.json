@@ -1,0 +1,487 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_3Z86sdg5JjsZPPWh",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "adf929ef98ae64e2456ce455e5bf41cfce360455f3007cf1183eacb5c998691f",
+    "pinnedRef": "0c6caf779f8358349ab3cd2564cc4cf713dd5d11"
+  },
+  "packageId": "ial-chemistry::rn_3Z86sdg5JjsZPPWh",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_3Z86sdg5JjsZPPWh::L1::Q1",
+      "moduleId": "rn_3Z86sdg5JjsZPPWh::L1",
+      "stem": "What does 'like dissolves like' pair together?",
+      "misconceptionClass": "principle pairing",
+      "options": [
+        {
+          "key": "A",
+          "text": "Solutes and solvents with matching intermolecular force types",
+          "correct": true,
+          "explanation": "Matching forces let new solute-solvent attractions replace the old ones.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Solids with liquids only",
+          "correct": false,
+          "explanation": "The principle spans all phase combinations.",
+          "misconception": "phase restricted"
+        },
+        {
+          "key": "C",
+          "text": "Ionic solutes with all solvents",
+          "correct": false,
+          "explanation": "Ionic solutes need polar, ion-surrounding solvents.",
+          "misconception": "overbroad claim"
+        },
+        {
+          "key": "D",
+          "text": "Polar solutes with non-polar solvents",
+          "correct": false,
+          "explanation": "That is exactly the mismatch the principle rejects.",
+          "misconception": "inverted"
+        }
+      ]
+    },
+    {
+      "id": "rn_3Z86sdg5JjsZPPWh::L1::Q2",
+      "moduleId": "rn_3Z86sdg5JjsZPPWh::L1",
+      "stem": "Why does ethanol mix with water in all proportions?",
+      "misconceptionClass": "ethanol water",
+      "options": [
+        {
+          "key": "A",
+          "text": "Both are non-polar",
+          "correct": false,
+          "explanation": "Both carry polar O-H groups.",
+          "misconception": "polarity denied"
+        },
+        {
+          "key": "B",
+          "text": "Hydrogen bonds form between ethanol's O-H hydrogen and water's oxygens",
+          "correct": true,
+          "explanation": "The shared force type makes the pair interchangeable.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Ethanol's chain dissolves the water",
+          "correct": false,
+          "explanation": "The hydrocarbon part is the insoluble end, not the mixer.",
+          "misconception": "mechanism inverted"
+        },
+        {
+          "key": "D",
+          "text": "Water ionises the ethanol",
+          "correct": false,
+          "explanation": "No ionisation occurs on mixing.",
+          "misconception": "process invented"
+        }
+      ]
+    },
+    {
+      "id": "rn_3Z86sdg5JjsZPPWh::L1::Q3",
+      "moduleId": "rn_3Z86sdg5JjsZPPWh::L1",
+      "stem": "Why does hexanol dissolve poorly in water compared with ethanol?",
+      "misconceptionClass": "chain length effect",
+      "options": [
+        {
+          "key": "A",
+          "text": "Water rejects all alcohols",
+          "correct": false,
+          "explanation": "Ethanol proves the opposite.",
+          "misconception": "blanket claim"
+        },
+        {
+          "key": "B",
+          "text": "Hexanol is ionic",
+          "correct": false,
+          "explanation": "It remains a covalent molecular liquid.",
+          "misconception": "class wrong"
+        },
+        {
+          "key": "C",
+          "text": "Its long non-polar chain dilutes the one hydrogen-bonding site",
+          "correct": true,
+          "explanation": "The polar fraction shrinks as the chain grows.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Its OH group stops hydrogen bonding",
+          "correct": false,
+          "explanation": "The hydroxyl still works; the chain outvotes it.",
+          "misconception": "site failure claimed"
+        }
+      ]
+    },
+    {
+      "id": "rn_3Z86sdg5JjsZPPWh::L1::Q4",
+      "moduleId": "rn_3Z86sdg5JjsZPPWh::L1",
+      "stem": "Why do giant covalent substances resist dissolving in every solvent?",
+      "misconceptionClass": "giant lattice",
+      "options": [
+        {
+          "key": "A",
+          "text": "They are too light to sink into a solvent",
+          "correct": false,
+          "explanation": "Mass is irrelevant to solubility here.",
+          "misconception": "nonsense physics"
+        },
+        {
+          "key": "B",
+          "text": "They repel all molecules electrostatically",
+          "correct": false,
+          "explanation": "No universal repulsion exists.",
+          "misconception": "force invented"
+        },
+        {
+          "key": "C",
+          "text": "They hydrogen bond to themselves too strongly",
+          "correct": false,
+          "explanation": "Giant covalent networks have no molecular hydrogen bonding.",
+          "misconception": "force misassigned"
+        },
+        {
+          "key": "D",
+          "text": "Overcoming their covalent lattice bonds costs more energy than any solvent supplies",
+          "correct": true,
+          "explanation": "The network's bond energy prices it out of solution.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_3Z86sdg5JjsZPPWh::L1::Q5",
+      "moduleId": "rn_3Z86sdg5JjsZPPWh::L1",
+      "stem": "A polar covalent solute lands in a non-polar solvent. What happens?",
+      "misconceptionClass": "mismatch outcome",
+      "options": [
+        {
+          "key": "A",
+          "text": "Its dipole-dipole attractions cannot interact well with the solvent, so it barely dissolves",
+          "correct": true,
+          "explanation": "The mismatch strands the solute.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "It dissolves completely",
+          "correct": false,
+          "explanation": "That is the like-likes outcome, not this one.",
+          "misconception": "outcome inverted"
+        },
+        {
+          "key": "C",
+          "text": "It ionises the solvent",
+          "correct": false,
+          "explanation": "Ionisation requires chemical reaction, not mixing.",
+          "misconception": "process invented"
+        },
+        {
+          "key": "D",
+          "text": "It becomes non-polar to fit in",
+          "correct": false,
+          "explanation": "Molecules do not restructure to suit solvents.",
+          "misconception": "adaptation invented"
+        }
+      ]
+    },
+    {
+      "id": "rn_3Z86sdg5JjsZPPWh::L1::Q6",
+      "moduleId": "rn_3Z86sdg5JjsZPPWh::L1",
+      "stem": "State the general principle governing solvent choice.",
+      "misconceptionClass": "principle recall",
+      "kind": "recall",
+      "modelAnswer": "Like dissolves like: non-polar substances dissolve in non-polar solvents and polar substances dissolve in polar solvents, through matching force types.",
+      "keywords": [
+        "like dissolves like",
+        "matching",
+        "force types"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_3Z86sdg5JjsZPPWh::L1::Q7",
+      "moduleId": "rn_3Z86sdg5JjsZPPWh::L1",
+      "stem": "Quote the alcohol pair that demonstrates the chain-length effect on solubility.",
+      "misconceptionClass": "pair recall",
+      "kind": "recall",
+      "modelAnswer": "Ethanol, C2H5OH, is readily soluble in water while hexanol, C6H13OH, is not.",
+      "keywords": [
+        "ethanol",
+        "hexanol",
+        "soluble"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_3Z86sdg5JjsZPPWh::L1::Q8",
+      "moduleId": "rn_3Z86sdg5JjsZPPWh::L1",
+      "stem": "Explain why solubility of covalent molecules can decrease as they become larger.",
+      "misconceptionClass": "dilution reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "The polar part of the molecule is a fixed fraction of its surface; as the molecule grows, that fraction shrinks relative to the non-polar bulk, so solvent contacts the polar site less often and dissolution pays worse.",
+      "keywords": [
+        "polar part",
+        "fraction",
+        "larger"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_3Z86sdg5JjsZPPWh::L1::Q9",
+      "moduleId": "rn_3Z86sdg5JjsZPPWh::L1",
+      "stem": "A series of alcohols adds CH2 per step, each step swelling the non-polar fraction by about 14 mass units against a fixed 17-unit OH group. Estimate the non-polar share for hexanol, C6H13OH, to the nearest whole percent.",
+      "misconceptionClass": "share application",
+      "kind": "application",
+      "modelAnswer": "The chain carries 85 of 102 mass units, about 83 percent, leaving the tiny polar share that strands hexanol from water.",
+      "keywords": [
+        "85",
+        "83",
+        "non-polar"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_3Z86sdg5JjsZPPWh::L2::Q1",
+      "moduleId": "rn_3Z86sdg5JjsZPPWh::L2",
+      "stem": "Why are haloalkanes only partially soluble in water?",
+      "misconceptionClass": "haloalkane limit",
+      "options": [
+        {
+          "key": "A",
+          "text": "Their halogen is charged",
+          "correct": false,
+          "explanation": "The C-X bond is polar covalent, not ionic.",
+          "misconception": "bonding misread"
+        },
+        {
+          "key": "B",
+          "text": "They cannot form hydrogen bonds with water",
+          "correct": true,
+          "explanation": "No bond in a haloalkane joins hydrogen to fluorine, oxygen or nitrogen.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "They are completely non-polar",
+          "correct": false,
+          "explanation": "The C-X bond is polar; the hydrogen-bond capacity is what fails.",
+          "misconception": "polarity misstated"
+        },
+        {
+          "key": "D",
+          "text": "Water rejects all organic molecules",
+          "correct": false,
+          "explanation": "Alcohols dissolve readily.",
+          "misconception": "blanket claim"
+        }
+      ]
+    },
+    {
+      "id": "rn_3Z86sdg5JjsZPPWh::L2::Q2",
+      "moduleId": "rn_3Z86sdg5JjsZPPWh::L2",
+      "stem": "Which feature would make a haloalkane more water-soluble?",
+      "misconceptionClass": "solubility booster",
+      "options": [
+        {
+          "key": "A",
+          "text": "Lengthening the carbon chain",
+          "correct": false,
+          "explanation": "Longer chains worsen water solubility.",
+          "misconception": "change counterproductive"
+        },
+        {
+          "key": "B",
+          "text": "Removing the halogen's polarity",
+          "correct": false,
+          "explanation": "Polarity helps, not hurts.",
+          "misconception": "inverted"
+        },
+        {
+          "key": "C",
+          "text": "Adding a hydroxyl group to the molecule",
+          "correct": true,
+          "explanation": "An O-H bond restores hydrogen-bond capacity, as in halogenated alcohols.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Replacing chlorine with a heavier halogen",
+          "correct": false,
+          "explanation": "Heavier halogens swell the non-polar fraction.",
+          "misconception": "change counterproductive"
+        }
+      ]
+    },
+    {
+      "id": "rn_3Z86sdg5JjsZPPWh::L2::Q3",
+      "moduleId": "rn_3Z86sdg5JjsZPPWh::L2",
+      "stem": "Which ends of water molecules surround a dissolved cation?",
+      "misconceptionClass": "cation hydration",
+      "options": [
+        {
+          "key": "A",
+          "text": "The delta-positive hydrogen ends",
+          "correct": false,
+          "explanation": "Like charges repel; that orientation cannot hold.",
+          "misconception": "orientation wrong"
+        },
+        {
+          "key": "B",
+          "text": "The covalent bonds of water",
+          "correct": false,
+          "explanation": "Ions contact lone-pair or dipole regions, not bond axes.",
+          "misconception": "region wrong"
+        },
+        {
+          "key": "C",
+          "text": "No particular orientation",
+          "correct": false,
+          "explanation": "Hydration is oriented, not random.",
+          "misconception": "ordering denied"
+        },
+        {
+          "key": "D",
+          "text": "The delta-negative oxygen ends",
+          "correct": true,
+          "explanation": "The negative pole faces the positive ion.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_3Z86sdg5JjsZPPWh::L2::Q4",
+      "moduleId": "rn_3Z86sdg5JjsZPPWh::L2",
+      "stem": "Why is calcium chloride less soluble in water than sodium chloride?",
+      "misconceptionClass": "charge penalty",
+      "options": [
+        {
+          "key": "A",
+          "text": "The 2+ cation's lattice attractions are stronger, and higher charge generally lowers solubility",
+          "correct": true,
+          "explanation": "Doubly charged ions hold the lattice harder.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Calcium chloride is covalent",
+          "correct": false,
+          "explanation": "It is an ionic compound.",
+          "misconception": "class wrong"
+        },
+        {
+          "key": "C",
+          "text": "Chloride ions are bigger in that salt",
+          "correct": false,
+          "explanation": "The anion is identical in both.",
+          "misconception": "anion confusion"
+        },
+        {
+          "key": "D",
+          "text": "Sodium chloride hydrogen bonds",
+          "correct": false,
+          "explanation": "NaCl has no hydrogen at all.",
+          "misconception": "force invented"
+        }
+      ]
+    },
+    {
+      "id": "rn_3Z86sdg5JjsZPPWh::L2::Q5",
+      "moduleId": "rn_3Z86sdg5JjsZPPWh::L2",
+      "stem": "What two factors does the solubility of an ionic compound depend on?",
+      "misconceptionClass": "factor pair",
+      "options": [
+        {
+          "key": "A",
+          "text": "pH and temperature alone",
+          "correct": false,
+          "explanation": "The mechanism factors are lattice disruption and hydration.",
+          "misconception": "incomplete pair"
+        },
+        {
+          "key": "B",
+          "text": "Breaking down the ionic lattice and the surrounding of ions by polar molecules",
+          "correct": true,
+          "explanation": "Both costs and payoffs enter the balance.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Melting point and boiling point of the solute",
+          "correct": false,
+          "explanation": "Those are bulk properties, not the dissolution mechanism.",
+          "misconception": "properties irrelevant"
+        },
+        {
+          "key": "D",
+          "text": "The colour and odour of the ions",
+          "correct": false,
+          "explanation": "Neither affects solubility.",
+          "misconception": "nonsense pair"
+        }
+      ]
+    },
+    {
+      "id": "rn_3Z86sdg5JjsZPPWh::L2::Q6",
+      "moduleId": "rn_3Z86sdg5JjsZPPWh::L2",
+      "stem": "State what water does to an ionic lattice when a compound dissolves.",
+      "misconceptionClass": "process recall",
+      "kind": "recall",
+      "modelAnswer": "Water disrupts the ionic lattice and surrounds each ion, with delta-positive hydrogens facing the anion and delta-negative oxygens facing the cation.",
+      "keywords": [
+        "lattice",
+        "surround",
+        "ion"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_3Z86sdg5JjsZPPWh::L2::Q7",
+      "moduleId": "rn_3Z86sdg5JjsZPPWh::L2",
+      "stem": "Quote the solubility figures for sodium chloride and calcium chloride in one dm3 of water.",
+      "misconceptionClass": "figure recall",
+      "kind": "recall",
+      "modelAnswer": "About 356.9 g of sodium chloride dissolves per dm3 of water; calcium chloride manages only 74.4 g in that same volume.",
+      "keywords": [
+        "356.9",
+        "74.4",
+        "dm3"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_3Z86sdg5JjsZPPWh::L2::Q8",
+      "moduleId": "rn_3Z86sdg5JjsZPPWh::L2",
+      "stem": "Explain why polarity alone does not make a compound water-soluble.",
+      "misconceptionClass": "polarity reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "Water's network is built of hydrogen bonds, so a compound joins it only by forming hydrogen bonds itself; a polar bond without a donor hydrogen, as in haloalkanes, offers nothing to that network and solubility stays partial.",
+      "keywords": [
+        "hydrogen bonds",
+        "network",
+        "polar"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_3Z86sdg5JjsZPPWh::L2::Q9",
+      "moduleId": "rn_3Z86sdg5JjsZPPWh::L2",
+      "stem": "Sodium chloride dissolves 356.9 g per dm3 while calcium chloride manages 74.4 g. How many times more soluble, to one decimal place, is the sodium salt by these figures?",
+      "misconceptionClass": "ratio application",
+      "kind": "application",
+      "modelAnswer": "Dividing 356.9 by 74.4 gives about 4.8, the solubility ratio that the charge penalty buys.",
+      "keywords": [
+        "4.8",
+        "ratio",
+        "solubility"
+      ],
+      "options": []
+    }
+  ]
+}

@@ -1,0 +1,959 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_svspNW5swxrpzHdc",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "2fa67a69c3d5ef0922c9a41609e13edf4dc20df4df932821743e0c38ddadb6b8",
+    "pinnedRef": "0c6caf779f8358349ab3cd2564cc4cf713dd5d11"
+  },
+  "packageId": "ial-chemistry::rn_svspNW5swxrpzHdc",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_svspNW5swxrpzHdc::L1::Q1",
+      "moduleId": "rn_svspNW5swxrpzHdc::L1",
+      "stem": "Which phrase completes the OIL half of the acronym?",
+      "misconceptionClass": "acronym recall",
+      "options": [
+        {
+          "key": "A",
+          "text": "Oxidation Is Loss of electrons",
+          "correct": true,
+          "explanation": "OIL stands for exactly that half of the electron picture.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Oxidation Is Loss of oxygen",
+          "correct": false,
+          "explanation": "Losing oxygen is reduction, not oxidation.",
+          "misconception": "mirror flipped"
+        },
+        {
+          "key": "C",
+          "text": "Oxidation Is Liberation of heat",
+          "correct": false,
+          "explanation": "Heat is not part of the definition.",
+          "misconception": "process invented"
+        },
+        {
+          "key": "D",
+          "text": "Oxidation Is Loss of protons",
+          "correct": false,
+          "explanation": "Protons never transfer in redox definitions.",
+          "misconception": "particle wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_svspNW5swxrpzHdc::L1::Q2",
+      "moduleId": "rn_svspNW5swxrpzHdc::L1",
+      "stem": "Which change is reduction under the oxygen-transfer definition?",
+      "misconceptionClass": "oxygen lens",
+      "options": [
+        {
+          "key": "A",
+          "text": "A substance gaining electrons",
+          "correct": false,
+          "explanation": "That is reduction, but under the electron lens, not the oxygen one.",
+          "misconception": "lens mismatch"
+        },
+        {
+          "key": "B",
+          "text": "A substance losing oxygen",
+          "correct": true,
+          "explanation": "Removing oxygen is the reductive half of that lens.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "A substance gaining oxygen",
+          "correct": false,
+          "explanation": "Gaining oxygen is oxidation.",
+          "misconception": "lens inverted"
+        },
+        {
+          "key": "D",
+          "text": "A substance losing hydrogen",
+          "correct": false,
+          "explanation": "Losing hydrogen is oxidation under the hydrogen lens.",
+          "misconception": "lens confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_svspNW5swxrpzHdc::L1::Q3",
+      "moduleId": "rn_svspNW5swxrpzHdc::L1",
+      "stem": "A metal atom becomes a metal ion. Under which definition has it been oxidised?",
+      "misconceptionClass": "electron lens",
+      "options": [
+        {
+          "key": "A",
+          "text": "Oxygen transfer",
+          "correct": false,
+          "explanation": "No oxygen is required for the ionisation itself.",
+          "misconception": "lens wrong"
+        },
+        {
+          "key": "B",
+          "text": "It has not been oxidised",
+          "correct": false,
+          "explanation": "Losing electrons is oxidation by definition.",
+          "misconception": "status denied"
+        },
+        {
+          "key": "C",
+          "text": "Electron transfer - it has lost electrons",
+          "correct": true,
+          "explanation": "Ion formation strips electrons, the oxidation side of OIL RIG.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Hydrogen transfer",
+          "correct": false,
+          "explanation": "No hydrogen participates when a bare metal ionises.",
+          "misconception": "lens wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_svspNW5swxrpzHdc::L1::Q4",
+      "moduleId": "rn_svspNW5swxrpzHdc::L1",
+      "stem": "Why do the three definitions never contradict each other?",
+      "misconceptionClass": "consistency reasoning",
+      "options": [
+        {
+          "key": "A",
+          "text": "They apply to different elements",
+          "correct": false,
+          "explanation": "The definitions apply to any redox species alike.",
+          "misconception": "scope split"
+        },
+        {
+          "key": "B",
+          "text": "Only the electron definition is correct",
+          "correct": false,
+          "explanation": "All three are valid descriptive layers.",
+          "misconception": "exclusive claim"
+        },
+        {
+          "key": "C",
+          "text": "They apply in different branches with different outcomes",
+          "correct": false,
+          "explanation": "The outcomes always match; the branch only chooses the lens.",
+          "misconception": "contradiction claimed"
+        },
+        {
+          "key": "D",
+          "text": "They describe the same charge shift through three different transfers",
+          "correct": true,
+          "explanation": "Oxygen, hydrogen and electron transfers all move charge, so all three lenses agree.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_svspNW5swxrpzHdc::L1::Q5",
+      "moduleId": "rn_svspNW5swxrpzHdc::L1",
+      "stem": "When sodium meets chlorine, which species has lost electrons?",
+      "misconceptionClass": "electron direction",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sodium, which loses its outer electron to chlorine",
+          "correct": true,
+          "explanation": "Electron loss is oxidation.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Chlorine, which loses electrons",
+          "correct": false,
+          "explanation": "Chlorine gains the electron and is reduced.",
+          "misconception": "species swapped"
+        },
+        {
+          "key": "C",
+          "text": "Neither species changes",
+          "correct": false,
+          "explanation": "A transfer clearly occurs.",
+          "misconception": "reaction denied"
+        },
+        {
+          "key": "D",
+          "text": "Both species are oxidised",
+          "correct": false,
+          "explanation": "One species must be reduced to accept the electrons.",
+          "misconception": "impossible pairing"
+        }
+      ]
+    },
+    {
+      "id": "rn_svspNW5swxrpzHdc::L1::Q6",
+      "moduleId": "rn_svspNW5swxrpzHdc::L1",
+      "stem": "State what OIL RIG stands for.",
+      "misconceptionClass": "acronym recall",
+      "kind": "recall",
+      "modelAnswer": "OIL RIG means Oxidation Is Loss and Reduction Is Gain, referring to electrons in every redox reaction.",
+      "keywords": [
+        "oxidation is loss",
+        "reduction is gain",
+        "electrons"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_svspNW5swxrpzHdc::L1::Q7",
+      "moduleId": "rn_svspNW5swxrpzHdc::L1",
+      "stem": "List the three definitions of oxidation.",
+      "misconceptionClass": "definitions recall",
+      "kind": "recall",
+      "modelAnswer": "Oxidation is gain of oxygen, loss of hydrogen, or loss of electrons.",
+      "keywords": [
+        "oxygen",
+        "hydrogen",
+        "electrons"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_svspNW5swxrpzHdc::L1::Q8",
+      "moduleId": "rn_svspNW5swxrpzHdc::L1",
+      "stem": "Explain why gaining oxygen and losing electrons describe the same outcome in a metal-plus-oxygen reaction.",
+      "misconceptionClass": "lens alignment",
+      "kind": "explain-why",
+      "modelAnswer": "Oxygen atoms accept electrons when they bond, so a metal that adds oxygen is simultaneously surrendering electrons to it - the oxygen lens and the electron lens film one transfer.",
+      "keywords": [
+        "oxygen",
+        "electrons",
+        "transfer"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_svspNW5swxrpzHdc::L1::Q9",
+      "moduleId": "rn_svspNW5swxrpzHdc::L1",
+      "stem": "A 2.0 g magnesium sample loses 0.16 g worth of electron mass equivalents when it oxidises - expressed properly, each Mg atom loses 2 electrons. How many electrons does one Mg atom lose, and is it oxidised or reduced?",
+      "misconceptionClass": "electron count application",
+      "kind": "application",
+      "modelAnswer": "One magnesium atom loses 2 electrons and is therefore oxidised under the electron definition.",
+      "keywords": [
+        "2",
+        "oxidised",
+        "electrons"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_svspNW5swxrpzHdc::L2::Q1",
+      "moduleId": "rn_svspNW5swxrpzHdc::L2",
+      "stem": "What is the oxidation number of Fe in the simple ion Fe3+?",
+      "misconceptionClass": "simple ion read",
+      "options": [
+        {
+          "key": "A",
+          "text": "+2",
+          "correct": false,
+          "explanation": "That would be the Fe2+ case.",
+          "misconception": "wrong ion"
+        },
+        {
+          "key": "B",
+          "text": "+3",
+          "correct": true,
+          "explanation": "The charge on a simple ion is its oxidation number.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "-3",
+          "correct": false,
+          "explanation": "The sign follows the ion, which is positive.",
+          "misconception": "sign flipped"
+        },
+        {
+          "key": "D",
+          "text": "0",
+          "correct": false,
+          "explanation": "Zero belongs to free elements, not ions.",
+          "misconception": "element rule misapplied"
+        }
+      ]
+    },
+    {
+      "id": "rn_svspNW5swxrpzHdc::L2::Q2",
+      "moduleId": "rn_svspNW5swxrpzHdc::L2",
+      "stem": "What oxidation number does a free, uncombined element carry?",
+      "misconceptionClass": "free element",
+      "options": [
+        {
+          "key": "A",
+          "text": "-1",
+          "correct": false,
+          "explanation": "Negative values need bonding partners.",
+          "misconception": "sign wrong"
+        },
+        {
+          "key": "B",
+          "text": "It depends on the element",
+          "correct": false,
+          "explanation": "The rule is uniform: zero for all free elements.",
+          "misconception": "rule doubted"
+        },
+        {
+          "key": "C",
+          "text": "Zero",
+          "correct": true,
+          "explanation": "Uncombined elements such as He or C read zero.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "+1",
+          "correct": false,
+          "explanation": "No charge exists to assign.",
+          "misconception": "invented charge"
+        }
+      ]
+    },
+    {
+      "id": "rn_svspNW5swxrpzHdc::L2::Q3",
+      "moduleId": "rn_svspNW5swxrpzHdc::L2",
+      "stem": "Which oxidation number does oxygen carry in almost all compounds?",
+      "misconceptionClass": "oxygen default",
+      "options": [
+        {
+          "key": "A",
+          "text": "+2",
+          "correct": false,
+          "explanation": "Oxygen is rarely positive; that is a fluoride exception class.",
+          "misconception": "sign flipped"
+        },
+        {
+          "key": "B",
+          "text": "0",
+          "correct": false,
+          "explanation": "Zero applies only to free O2.",
+          "misconception": "state confused"
+        },
+        {
+          "key": "C",
+          "text": "-1",
+          "correct": false,
+          "explanation": "-1 belongs to peroxides, the exception class.",
+          "misconception": "exception promoted"
+        },
+        {
+          "key": "D",
+          "text": "-2",
+          "correct": true,
+          "explanation": "The -2 default stands unless peroxides or fluorides override it.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_svspNW5swxrpzHdc::L2::Q4",
+      "moduleId": "rn_svspNW5swxrpzHdc::L2",
+      "stem": "Why does the rule table fix Group 1 metals at +1?",
+      "misconceptionClass": "group fixity",
+      "options": [
+        {
+          "key": "A",
+          "text": "Each Group 1 atom has one outer electron it always loses in compounds",
+          "correct": true,
+          "explanation": "Surrendering one electron leaves a fixed +1 state.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Their nuclei carry one proton",
+          "correct": false,
+          "explanation": "The number of protons varies down the group.",
+          "misconception": "proton confusion"
+        },
+        {
+          "key": "C",
+          "text": "They never form compounds",
+          "correct": false,
+          "explanation": "They react readily, forming fixed +1 ions.",
+          "misconception": "reactivity misstated"
+        },
+        {
+          "key": "D",
+          "text": "Oxygen forces that value on them",
+          "correct": false,
+          "explanation": "Oxygen's own rule comes later in the hierarchy.",
+          "misconception": "rule order wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_svspNW5swxrpzHdc::L2::Q5",
+      "moduleId": "rn_svspNW5swxrpzHdc::L2",
+      "stem": "A compound contains only sodium and oxygen. What is the oxidation number of sodium?",
+      "misconceptionClass": "combined rules",
+      "options": [
+        {
+          "key": "A",
+          "text": "+4",
+          "correct": false,
+          "explanation": "No such sodium state exists.",
+          "misconception": "invented state"
+        },
+        {
+          "key": "B",
+          "text": "+1",
+          "correct": true,
+          "explanation": "Group 1 metals are +1 in compounds regardless of partner.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "+2",
+          "correct": false,
+          "explanation": "That is the Group 2 tag.",
+          "misconception": "group misread"
+        },
+        {
+          "key": "D",
+          "text": "-1",
+          "correct": false,
+          "explanation": "Metals never carry negative states here.",
+          "misconception": "sign wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_svspNW5swxrpzHdc::L2::Q6",
+      "moduleId": "rn_svspNW5swxrpzHdc::L2",
+      "stem": "State the oxidation numbers of Fe2+, O2- and Al3+.",
+      "misconceptionClass": "ion recall",
+      "kind": "recall",
+      "modelAnswer": "Fe2+ carries +2, O2- carries -2, and Al3+ carries +3 - each equals its ion charge.",
+      "keywords": [
+        "+2",
+        "-2",
+        "+3"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_svspNW5swxrpzHdc::L2::Q7",
+      "moduleId": "rn_svspNW5swxrpzHdc::L2",
+      "stem": "Recite the first four rules of the oxidation-number table.",
+      "misconceptionClass": "rule recall",
+      "kind": "recall",
+      "modelAnswer": "Free elements are zero; Group 1 metals are +1 and Group 2 metals are +2 in compounds; fluorine is always -1; oxygen is normally -2.",
+      "keywords": [
+        "zero",
+        "fluorine",
+        "oxygen"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_svspNW5swxrpzHdc::L2::Q8",
+      "moduleId": "rn_svspNW5swxrpzHdc::L2",
+      "stem": "Explain why the oxidation number of a simple ion equals its charge.",
+      "misconceptionClass": "definition alignment",
+      "kind": "explain-why",
+      "modelAnswer": "The oxidation number is defined as the charge the atom would carry if bonding were completely ionic; for an ion that bonding already is ionic, so by definition the notional charge and the real charge coincide.",
+      "keywords": [
+        "ionic",
+        "charge",
+        "definition"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_svspNW5swxrpzHdc::L2::Q9",
+      "moduleId": "rn_svspNW5swxrpzHdc::L2",
+      "stem": "A sample contains Fe2+ and Fe3+ in a 3-to-1 ratio. If the average iron ion carries charge x, compute x.",
+      "misconceptionClass": "average application",
+      "kind": "application",
+      "modelAnswer": "Three ions at +2 plus one at +3 give 9 charge units over 4 ions, so the average is +2.25.",
+      "keywords": [
+        "2.25",
+        "average",
+        "charge"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_svspNW5swxrpzHdc::L3::Q1",
+      "moduleId": "rn_svspNW5swxrpzHdc::L3",
+      "stem": "In CO2, which element carries the negative oxidation number and why?",
+      "misconceptionClass": "sign assignment",
+      "options": [
+        {
+          "key": "A",
+          "text": "Both are positive",
+          "correct": false,
+          "explanation": "A neutral compound cannot sum positive-only to zero.",
+          "misconception": "sum broken"
+        },
+        {
+          "key": "B",
+          "text": "Both are negative",
+          "correct": false,
+          "explanation": "Same objection - the sum must reach zero.",
+          "misconception": "sum broken"
+        },
+        {
+          "key": "C",
+          "text": "Oxygen, because it is more electronegative than carbon",
+          "correct": true,
+          "explanation": "Electronegativity ordering fixes the sign.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Carbon, because it is written first",
+          "correct": false,
+          "explanation": "Formula order carries no sign information.",
+          "misconception": "positional myth"
+        }
+      ]
+    },
+    {
+      "id": "rn_svspNW5swxrpzHdc::L3::Q2",
+      "moduleId": "rn_svspNW5swxrpzHdc::L3",
+      "stem": "What is the oxidation number of carbon in CO2?",
+      "misconceptionClass": "carbon value",
+      "options": [
+        {
+          "key": "A",
+          "text": "-4",
+          "correct": false,
+          "explanation": "Carbon is the less electronegative partner.",
+          "misconception": "sign flipped"
+        },
+        {
+          "key": "B",
+          "text": "+2",
+          "correct": false,
+          "explanation": "That value belongs to carbon in CO.",
+          "misconception": "compound confused"
+        },
+        {
+          "key": "C",
+          "text": "0",
+          "correct": false,
+          "explanation": "Carbon is bonded here, not free.",
+          "misconception": "rule misapplied"
+        },
+        {
+          "key": "D",
+          "text": "+4",
+          "correct": true,
+          "explanation": "Two oxygens at -2 force carbon to +4 for the zero sum.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_svspNW5swxrpzHdc::L3::Q3",
+      "moduleId": "rn_svspNW5swxrpzHdc::L3",
+      "stem": "Which Stock name fits the variable oxidation state in Fe2O3?",
+      "misconceptionClass": "stock naming",
+      "options": [
+        {
+          "key": "A",
+          "text": "Iron(III) oxide",
+          "correct": true,
+          "explanation": "Two irons at +3 balance three oxygens at -2.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Iron(II) oxide",
+          "correct": false,
+          "explanation": "That name belongs to FeO.",
+          "misconception": "state mismatch"
+        },
+        {
+          "key": "C",
+          "text": "Iron(III) trioxide",
+          "correct": false,
+          "explanation": "Stock notation avoids the prefix when the state is stated.",
+          "misconception": "mixed convention"
+        },
+        {
+          "key": "D",
+          "text": "Diiron trioxide",
+          "correct": false,
+          "explanation": "That is the prefix name, not the Stock name.",
+          "misconception": "convention swapped"
+        }
+      ]
+    },
+    {
+      "id": "rn_svspNW5swxrpzHdc::L3::Q4",
+      "moduleId": "rn_svspNW5swxrpzHdc::L3",
+      "stem": "What oxidation number does manganese carry in the manganate(VII) ion, MnO4-?",
+      "misconceptionClass": "manganate arithmetic",
+      "options": [
+        {
+          "key": "A",
+          "text": "+1",
+          "correct": false,
+          "explanation": "That value belongs to potassium, outside the ion.",
+          "misconception": "element confused"
+        },
+        {
+          "key": "B",
+          "text": "+7",
+          "correct": true,
+          "explanation": "Four oxygens give -8; the ion's -1 charge forces Mn to +7.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "+6",
+          "correct": false,
+          "explanation": "That would leave the sum at -2, breaking the ion charge.",
+          "misconception": "arithmetic slip"
+        },
+        {
+          "key": "D",
+          "text": "+8",
+          "correct": false,
+          "explanation": "No such manganese state appears in this ion.",
+          "misconception": "invented state"
+        }
+      ]
+    },
+    {
+      "id": "rn_svspNW5swxrpzHdc::L3::Q5",
+      "moduleId": "rn_svspNW5swxrpzHdc::L3",
+      "stem": "Why are Roman numerals unnecessary in 'sulfur dioxide'?",
+      "misconceptionClass": "notation scope",
+      "options": [
+        {
+          "key": "A",
+          "text": "The name already contains 'di'",
+          "correct": false,
+          "explanation": "The prefix counts atoms, not oxidation states.",
+          "misconception": "prefix misread"
+        },
+        {
+          "key": "B",
+          "text": "Sulfur's state is zero in that compound",
+          "correct": false,
+          "explanation": "Bonded sulfur is not zero.",
+          "misconception": "state wrong"
+        },
+        {
+          "key": "C",
+          "text": "Sulfur shows only one common positive state with oxygen, so no ambiguity exists",
+          "correct": true,
+          "explanation": "Stock notation earns its keep only for variable states.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Non-metals never receive Roman numerals by law",
+          "correct": false,
+          "explanation": "The convention simply sees less use where no ambiguity exists.",
+          "misconception": "overbroad rule"
+        }
+      ]
+    },
+    {
+      "id": "rn_svspNW5swxrpzHdc::L3::Q6",
+      "moduleId": "rn_svspNW5swxrpzHdc::L3",
+      "stem": "State the rule governing the sum of oxidation numbers in a neutral compound.",
+      "misconceptionClass": "sum rule recall",
+      "kind": "recall",
+      "modelAnswer": "In a neutral molecule or compound, the oxidation numbers of all the atoms add up to exactly zero.",
+      "keywords": [
+        "neutral",
+        "sum",
+        "zero"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_svspNW5swxrpzHdc::L3::Q7",
+      "moduleId": "rn_svspNW5swxrpzHdc::L3",
+      "stem": "Write the Stock names of FeO and Fe2O3.",
+      "misconceptionClass": "naming recall",
+      "kind": "recall",
+      "modelAnswer": "FeO is iron(II) oxide and Fe2O3 is iron(III) oxide - the Roman numeral reports the metal's state.",
+      "keywords": [
+        "iron(II) oxide",
+        "iron(III) oxide",
+        "Roman numeral"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_svspNW5swxrpzHdc::L3::Q8",
+      "moduleId": "rn_svspNW5swxrpzHdc::L3",
+      "stem": "Explain how electronegativity decides which element in a binary compound takes the negative oxidation number.",
+      "misconceptionClass": "sign reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "The more electronegative element attracts the shared electrons more strongly, so in the fully ionic picture it owns them and reads negative, leaving the other element positive.",
+      "keywords": [
+        "electronegative",
+        "electrons",
+        "negative"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_svspNW5swxrpzHdc::L3::Q9",
+      "moduleId": "rn_svspNW5swxrpzHdc::L3",
+      "stem": "Sulfur shows +4 in one oxide and +6 in another. Write both Stock-style formulas with oxygen at -2 and verify each sums to zero.",
+      "misconceptionClass": "oxide application",
+      "kind": "application",
+      "modelAnswer": "SO2: +4 plus 2(-2) sums to 0; SO3: +6 plus 3(-2) sums to 0 - both neutral compounds check out.",
+      "keywords": [
+        "SO2",
+        "SO3",
+        "zero"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_svspNW5swxrpzHdc::L4::Q1",
+      "moduleId": "rn_svspNW5swxrpzHdc::L4",
+      "stem": "What oxidation number does hydrogen carry in sodium hydride, NaH?",
+      "misconceptionClass": "hydride hydrogen",
+      "options": [
+        {
+          "key": "A",
+          "text": "+1",
+          "correct": false,
+          "explanation": "That is hydrogen's usual state in covalent compounds, not in hydrides.",
+          "misconception": "default overapplied"
+        },
+        {
+          "key": "B",
+          "text": "0",
+          "correct": false,
+          "explanation": "Bonded hydrogen is never zero here.",
+          "misconception": "state wrong"
+        },
+        {
+          "key": "C",
+          "text": "-2",
+          "correct": false,
+          "explanation": "No such hydrogen state exists.",
+          "misconception": "invented state"
+        },
+        {
+          "key": "D",
+          "text": "-1",
+          "correct": true,
+          "explanation": "Sodium's +1 forces hydrogen to -1 in the neutral compound.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_svspNW5swxrpzHdc::L4::Q2",
+      "moduleId": "rn_svspNW5swxrpzHdc::L4",
+      "stem": "What oxidation number does each oxygen carry in hydrogen peroxide, H2O2?",
+      "misconceptionClass": "peroxide oxygen",
+      "options": [
+        {
+          "key": "A",
+          "text": "-1",
+          "correct": true,
+          "explanation": "Two hydrogens at +1 force each oxygen to -1.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "-2",
+          "correct": false,
+          "explanation": "That default is overridden in the peroxide class.",
+          "misconception": "default overapplied"
+        },
+        {
+          "key": "C",
+          "text": "0",
+          "correct": false,
+          "explanation": "Bonded oxygen is not free.",
+          "misconception": "state wrong"
+        },
+        {
+          "key": "D",
+          "text": "+1",
+          "correct": false,
+          "explanation": "Oxygen is the electronegative partner.",
+          "misconception": "sign flipped"
+        }
+      ]
+    },
+    {
+      "id": "rn_svspNW5swxrpzHdc::L4::Q3",
+      "moduleId": "rn_svspNW5swxrpzHdc::L4",
+      "stem": "What must the oxidation numbers inside an ion sum to?",
+      "misconceptionClass": "ion sum law",
+      "options": [
+        {
+          "key": "A",
+          "text": "Twice the ion charge",
+          "correct": false,
+          "explanation": "No doubling exists in the convention.",
+          "misconception": "factor invented"
+        },
+        {
+          "key": "B",
+          "text": "The charge of the ion",
+          "correct": true,
+          "explanation": "Nitrate's atoms sum to -1, sulfate's to -2, and so on.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Zero always",
+          "correct": false,
+          "explanation": "Zero is the neutral-compound rule only.",
+          "misconception": "rule misapplied"
+        },
+        {
+          "key": "D",
+          "text": "The number of atoms",
+          "correct": false,
+          "explanation": "Atom counts play no role in the sum.",
+          "misconception": "nonsense rule"
+        }
+      ]
+    },
+    {
+      "id": "rn_svspNW5swxrpzHdc::L4::Q4",
+      "moduleId": "rn_svspNW5swxrpzHdc::L4",
+      "stem": "Why does sulfur average +2.5 in the tetrathionate ion?",
+      "misconceptionClass": "fractional average",
+      "options": [
+        {
+          "key": "A",
+          "text": "Oxygen carries -1 there",
+          "correct": false,
+          "explanation": "The six oxygens carry -2 each, totalling -12.",
+          "misconception": "oxygen misread"
+        },
+        {
+          "key": "B",
+          "text": "The ion is neutral",
+          "correct": false,
+          "explanation": "Tetrathionate carries a 2- charge.",
+          "misconception": "charge ignored"
+        },
+        {
+          "key": "C",
+          "text": "Four sulfur atoms sit in two different environments sharing a total of +10",
+          "correct": true,
+          "explanation": "The total divided by four gives the fractional average.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Sulfur carries half charges physically",
+          "correct": false,
+          "explanation": "Atoms carry integer states; the average is bookkeeping.",
+          "misconception": "physics confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_svspNW5swxrpzHdc::L4::Q5",
+      "moduleId": "rn_svspNW5swxrpzHdc::L4",
+      "stem": "Which chain correctly sums oxidation numbers inside the nitrite ion, NO2-?",
+      "misconceptionClass": "nitrite chain",
+      "options": [
+        {
+          "key": "A",
+          "text": "Two oxygens give -2; nitrogen is +1",
+          "correct": false,
+          "explanation": "Each oxygen is -2, not -1.",
+          "misconception": "oxygen misread"
+        },
+        {
+          "key": "B",
+          "text": "Oxygen is +2 and nitrogen is -5",
+          "correct": false,
+          "explanation": "The electronegative partner is negative.",
+          "misconception": "signs swapped"
+        },
+        {
+          "key": "C",
+          "text": "The ion is neutral so nitrogen is zero",
+          "correct": false,
+          "explanation": "The ion carries -1.",
+          "misconception": "charge ignored"
+        },
+        {
+          "key": "D",
+          "text": "Two oxygens give -4; the ion charge is -1; so nitrogen is +3",
+          "correct": true,
+          "explanation": "x + 2(-2) = -1 solves to +3.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_svspNW5swxrpzHdc::L4::Q6",
+      "moduleId": "rn_svspNW5swxrpzHdc::L4",
+      "stem": "State the oxidation number of hydrogen in metal hydrides and of oxygen in peroxides.",
+      "misconceptionClass": "exception recall",
+      "kind": "recall",
+      "modelAnswer": "Hydrogen carries -1 in metal hydrides and oxygen carries -1 in peroxides.",
+      "keywords": [
+        "-1",
+        "hydrides",
+        "peroxides"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_svspNW5swxrpzHdc::L4::Q7",
+      "moduleId": "rn_svspNW5swxrpzHdc::L4",
+      "stem": "Deduce the oxidation number of nitrogen in the nitrate ion, NO3-.",
+      "misconceptionClass": "nitrate recall",
+      "kind": "recall",
+      "modelAnswer": "Three oxygens give -6 and the ion charge is -1, so nitrogen carries +5.",
+      "keywords": [
+        "+5",
+        "nitrate",
+        "oxygen"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_svspNW5swxrpzHdc::L4::Q8",
+      "moduleId": "rn_svspNW5swxrpzHdc::L4",
+      "stem": "Explain why hydrogen must be -1 in NaH using the zero-sum rule.",
+      "misconceptionClass": "hydride reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "NaH is neutral and sodium, as a Group 1 metal, is +1; the zero sum forces hydrogen to -1, which also matches its hydride-ion identity.",
+      "keywords": [
+        "neutral",
+        "+1",
+        "-1"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_svspNW5swxrpzHdc::L4::Q9",
+      "moduleId": "rn_svspNW5swxrpzHdc::L4",
+      "stem": "Deduce the oxidation number of chlorine in the chlorate(V) ion, ClO3-, showing the ion-sum equation.",
+      "misconceptionClass": "chlorate application",
+      "kind": "application",
+      "modelAnswer": "x + 3(-2) = -1 gives x = +5, so chlorine carries +5 in the chlorate(V) ion.",
+      "keywords": [
+        "+5",
+        "chlorate",
+        "sum"
+      ],
+      "options": []
+    }
+  ]
+}

@@ -1,0 +1,723 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_wXwZ97CsH4DvCFSc",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "8372c88bb16767e910559f2b06d4206e4d9fc5d067b451ceef1ac9a7bddcb7a5",
+    "pinnedRef": "0c6caf779f8358349ab3cd2564cc4cf713dd5d11"
+  },
+  "packageId": "ial-chemistry::rn_wXwZ97CsH4DvCFSc",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_wXwZ97CsH4DvCFSc::L1::Q1",
+      "moduleId": "rn_wXwZ97CsH4DvCFSc::L1",
+      "stem": "Why is the loop cleaned in concentrated acid before use?",
+      "misconceptionClass": "cleaning purpose",
+      "options": [
+        {
+          "key": "A",
+          "text": "To remove residue so only one type of ion is present",
+          "correct": true,
+          "explanation": "Single-ion purity is the reading's foundation.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "To sterilise the loop",
+          "correct": false,
+          "explanation": "Sterility is irrelevant to the chemistry.",
+          "misconception": "purpose wrong"
+        },
+        {
+          "key": "C",
+          "text": "To make the loop conductive",
+          "correct": false,
+          "explanation": "Conductivity plays no role.",
+          "misconception": "purpose wrong"
+        },
+        {
+          "key": "D",
+          "text": "To colour the flame as a control",
+          "correct": false,
+          "explanation": "A blank, not a colour, is the control.",
+          "misconception": "control confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_wXwZ97CsH4DvCFSc::L1::Q2",
+      "moduleId": "rn_wXwZ97CsH4DvCFSc::L1",
+      "stem": "What happens when two different ions share the loop at once?",
+      "misconceptionClass": "mixed ions",
+      "options": [
+        {
+          "key": "A",
+          "text": "The flame goes out",
+          "correct": false,
+          "explanation": "The flame keeps burning.",
+          "misconception": "nonsense"
+        },
+        {
+          "key": "B",
+          "text": "Their colours mix, making identification erroneous",
+          "correct": true,
+          "explanation": "Overlapping emissions corrupt the reading.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Only the heavier ion shows",
+          "correct": false,
+          "explanation": "Both emissions appear.",
+          "misconception": "selection myth"
+        },
+        {
+          "key": "D",
+          "text": "No colour appears at all",
+          "correct": false,
+          "explanation": "A mixed but visible colour results.",
+          "misconception": "silence myth"
+        }
+      ]
+    },
+    {
+      "id": "rn_wXwZ97CsH4DvCFSc::L1::Q3",
+      "moduleId": "rn_wXwZ97CsH4DvCFSc::L1",
+      "stem": "Where in the Bunsen flame is the sample placed?",
+      "misconceptionClass": "placement",
+      "options": [
+        {
+          "key": "A",
+          "text": "Above the flame entirely",
+          "correct": false,
+          "explanation": "Contact with the flame is required.",
+          "misconception": "contact missing"
+        },
+        {
+          "key": "B",
+          "text": "Under the barrel",
+          "correct": false,
+          "explanation": "That region has no sample access.",
+          "misconception": "nonsense"
+        },
+        {
+          "key": "C",
+          "text": "At the edge of the blue flame",
+          "correct": true,
+          "explanation": "The hot edge reads the sample cleanly.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "In the yellow safety flame",
+          "correct": false,
+          "explanation": "The cool yellow zone cannot excite the ions.",
+          "misconception": "zone wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_wXwZ97CsH4DvCFSc::L1::Q4",
+      "moduleId": "rn_wXwZ97CsH4DvCFSc::L1",
+      "stem": "Why is a red-hot glowing wire a problem for reading the flame colour?",
+      "misconceptionClass": "glow guard",
+      "options": [
+        {
+          "key": "A",
+          "text": "The glow burns the sample",
+          "correct": false,
+          "explanation": "The sample is already vaporised.",
+          "misconception": "mechanism wrong"
+        },
+        {
+          "key": "B",
+          "text": "Red glow adds ions to the loop",
+          "correct": false,
+          "explanation": "Glow adds light, not ions.",
+          "misconception": "mechanism wrong"
+        },
+        {
+          "key": "C",
+          "text": "Red glow damages the Bunsen",
+          "correct": false,
+          "explanation": "The burner is unaffected.",
+          "misconception": "nonsense"
+        },
+        {
+          "key": "D",
+          "text": "Its own red glow can be confused with a flame colour",
+          "correct": true,
+          "explanation": "The glow masquerades as a positive result.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_wXwZ97CsH4DvCFSc::L1::Q5",
+      "moduleId": "rn_wXwZ97CsH4DvCFSc::L1",
+      "stem": "Which loop metals suit flame tests?",
+      "misconceptionClass": "loop choice",
+      "options": [
+        {
+          "key": "A",
+          "text": "Nichrome or platinum, which are unreactive",
+          "correct": true,
+          "explanation": "Unreactive wires add no colour of their own.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Sodium wire, for a strong signal",
+          "correct": false,
+          "explanation": "Sodium would colour every test yellow.",
+          "misconception": "contamination chosen"
+        },
+        {
+          "key": "C",
+          "text": "Copper wire",
+          "correct": false,
+          "explanation": "Copper tints flames green.",
+          "misconception": "contamination chosen"
+        },
+        {
+          "key": "D",
+          "text": "Iron wire",
+          "correct": false,
+          "explanation": "Iron is reactive enough to interfere.",
+          "misconception": "contamination chosen"
+        }
+      ]
+    },
+    {
+      "id": "rn_wXwZ97CsH4DvCFSc::L1::Q6",
+      "moduleId": "rn_wXwZ97CsH4DvCFSc::L1",
+      "stem": "Describe the loop-cleaning step.",
+      "misconceptionClass": "step recall",
+      "kind": "recall",
+      "modelAnswer": "Dip the loop in concentrated acid and hold it in the blue flame until no colour change appears.",
+      "keywords": [
+        "concentrated acid",
+        "no colour change",
+        "blue flame"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_wXwZ97CsH4DvCFSc::L1::Q7",
+      "moduleId": "rn_wXwZ97CsH4DvCFSc::L1",
+      "stem": "State why the flame test identifies metal ions.",
+      "misconceptionClass": "basis recall",
+      "kind": "recall",
+      "modelAnswer": "Metal ions produce characteristic colours in a flame, and different metals produce different colours, so the colour identifies the ion.",
+      "keywords": [
+        "characteristic colours",
+        "different",
+        "identifies"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_wXwZ97CsH4DvCFSc::L1::Q8",
+      "moduleId": "rn_wXwZ97CsH4DvCFSc::L1",
+      "stem": "Explain why contamination is fatal to a flame test.",
+      "misconceptionClass": "purity reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "Each ion emits its own wavelengths; a second ion's emission overlaps the first, so the observed colour is a mixture that matches no single ion and misleads the identification.",
+      "keywords": [
+        "emission",
+        "overlap",
+        "mixture"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_wXwZ97CsH4DvCFSc::L1::Q9",
+      "moduleId": "rn_wXwZ97CsH4DvCFSc::L1",
+      "stem": "A sodium-contaminated loop reads lilac-plus-yellow for a potassium sample. Which ion's signal is masked, and by which colour?",
+      "misconceptionClass": "masking application",
+      "kind": "application",
+      "modelAnswer": "Potassium's lilac is masked by sodium's yellow, the classic contamination overlap.",
+      "keywords": [
+        "potassium",
+        "lilac",
+        "yellow"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_wXwZ97CsH4DvCFSc::L2::Q1",
+      "moduleId": "rn_wXwZ97CsH4DvCFSc::L2",
+      "stem": "What raises the electron to a higher energy level?",
+      "misconceptionClass": "promotion driver",
+      "options": [
+        {
+          "key": "A",
+          "text": "The ion's own magnetism",
+          "correct": false,
+          "explanation": "Magnetism plays no role.",
+          "misconception": "nonsense"
+        },
+        {
+          "key": "B",
+          "text": "The heat of the flame",
+          "correct": true,
+          "explanation": "Thermal energy does the promoting.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "The loop's metal",
+          "correct": false,
+          "explanation": "The wire carries the sample, not the energy source.",
+          "misconception": "agent confusion"
+        },
+        {
+          "key": "D",
+          "text": "Light from the room",
+          "correct": false,
+          "explanation": "Ambient light is irrelevant.",
+          "misconception": "driver wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_wXwZ97CsH4DvCFSc::L2::Q2",
+      "moduleId": "rn_wXwZ97CsH4DvCFSc::L2",
+      "stem": "Why does the electron fall back down?",
+      "misconceptionClass": "fall reason",
+      "options": [
+        {
+          "key": "A",
+          "text": "The loop attracts it",
+          "correct": false,
+          "explanation": "The electron belongs to the ion, not the wire.",
+          "misconception": "ownership wrong"
+        },
+        {
+          "key": "B",
+          "text": "It cools down",
+          "correct": false,
+          "explanation": "Temperature is not the return mechanism.",
+          "misconception": "mechanism wrong"
+        },
+        {
+          "key": "C",
+          "text": "It is unstable at the higher energy level",
+          "correct": true,
+          "explanation": "Instability forces the return.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "The flame pushes it back",
+          "correct": false,
+          "explanation": "The flame only lifts; gravity-analog physics does the rest.",
+          "misconception": "agency myth"
+        }
+      ]
+    },
+    {
+      "id": "rn_wXwZ97CsH4DvCFSc::L2::Q3",
+      "moduleId": "rn_wXwZ97CsH4DvCFSc::L2",
+      "stem": "What is emitted as the electron falls?",
+      "misconceptionClass": "emission",
+      "options": [
+        {
+          "key": "A",
+          "text": "Heat only",
+          "correct": false,
+          "explanation": "Light is the observable signal.",
+          "misconception": "signal wrong"
+        },
+        {
+          "key": "B",
+          "text": "More electrons",
+          "correct": false,
+          "explanation": "Electrons are not emitted.",
+          "misconception": "particle wrong"
+        },
+        {
+          "key": "C",
+          "text": "X-rays",
+          "correct": false,
+          "explanation": "The energies are visible-range, not X-ray.",
+          "misconception": "scale wrong"
+        },
+        {
+          "key": "D",
+          "text": "Visible light energy of the observed wavelength",
+          "correct": true,
+          "explanation": "The photon is the colour.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_wXwZ97CsH4DvCFSc::L2::Q4",
+      "moduleId": "rn_wXwZ97CsH4DvCFSc::L2",
+      "stem": "Why does each metal ion give a different colour?",
+      "misconceptionClass": "colour uniqueness",
+      "options": [
+        {
+          "key": "A",
+          "text": "Each ion's energy level spacing selects its own emitted wavelength",
+          "correct": true,
+          "explanation": "Unique gaps give unique colours.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "The flame changes colour by temperature",
+          "correct": false,
+          "explanation": "One flame, many colours.",
+          "misconception": "flame myth"
+        },
+        {
+          "key": "C",
+          "text": "The loop material dyes the flame",
+          "correct": false,
+          "explanation": "The loop stays colourless.",
+          "misconception": "loop myth"
+        },
+        {
+          "key": "D",
+          "text": "Colours are random per test",
+          "correct": false,
+          "explanation": "They are reproducible fingerprints.",
+          "misconception": "randomness myth"
+        }
+      ]
+    },
+    {
+      "id": "rn_wXwZ97CsH4DvCFSc::L2::Q5",
+      "moduleId": "rn_wXwZ97CsH4DvCFSc::L2",
+      "stem": "Why does Mg2+ show no flame colour?",
+      "misconceptionClass": "magnesium gap",
+      "options": [
+        {
+          "key": "A",
+          "text": "Its emission is too bright to see",
+          "correct": false,
+          "explanation": "Brightness is not the issue.",
+          "misconception": "nonsense"
+        },
+        {
+          "key": "B",
+          "text": "Its emitted energy lies outside the visible spectrum",
+          "correct": true,
+          "explanation": "The transition happens but is invisible to the eye.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Magnesium has no electrons",
+          "correct": false,
+          "explanation": "It has plenty.",
+          "misconception": "premise wrong"
+        },
+        {
+          "key": "D",
+          "text": "Magnesium refuses to vaporise",
+          "correct": false,
+          "explanation": "It enters the flame fine.",
+          "misconception": "premise wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_wXwZ97CsH4DvCFSc::L2::Q6",
+      "moduleId": "rn_wXwZ97CsH4DvCFSc::L2",
+      "stem": "State the three-stage explanation of flame colour.",
+      "misconceptionClass": "stages recall",
+      "kind": "recall",
+      "modelAnswer": "Heat promotes the electron to a higher level, the unstable electron falls back, and the fall emits visible light of the observed wavelength.",
+      "keywords": [
+        "higher energy level",
+        "falls back",
+        "visible light"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_wXwZ97CsH4DvCFSc::L2::Q7",
+      "moduleId": "rn_wXwZ97CsH4DvCFSc::L2",
+      "stem": "Quote the reason magnesium shows no colour.",
+      "misconceptionClass": "Mg recall",
+      "kind": "recall",
+      "modelAnswer": "Mg2+ shows no observed colour because its emitted energy sits outside the visible spectrum.",
+      "keywords": [
+        "outside",
+        "visible spectrum",
+        "Mg2+"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_wXwZ97CsH4DvCFSc::L2::Q8",
+      "moduleId": "rn_wXwZ97CsH4DvCFSc::L2",
+      "stem": "Explain why the emitted wavelength matches the energy gap.",
+      "misconceptionClass": "quantum reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "Photon energy equals the gap between the two levels; the gap's size therefore fixes the photon's wavelength, and the gap is the ion's identity card.",
+      "keywords": [
+        "gap",
+        "wavelength",
+        "identity"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_wXwZ97CsH4DvCFSc::L2::Q9",
+      "moduleId": "rn_wXwZ97CsH4DvCFSc::L2",
+      "stem": "If violet light carries roughly twice the energy of red light, which ion's fall spans the bigger energy gap - one glowing red or one glowing violet?",
+      "misconceptionClass": "gap application",
+      "kind": "application",
+      "modelAnswer": "The violet emitter spans roughly twice the gap of the red emitter.",
+      "keywords": [
+        "twice",
+        "gap",
+        "violet"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_wXwZ97CsH4DvCFSc::L3::Q1",
+      "moduleId": "rn_wXwZ97CsH4DvCFSc::L3",
+      "stem": "What does the colours-observed chart list?",
+      "misconceptionClass": "chart content",
+      "options": [
+        {
+          "key": "A",
+          "text": "The flame temperature needed",
+          "correct": false,
+          "explanation": "One flame serves all.",
+          "misconception": "content wrong"
+        },
+        {
+          "key": "B",
+          "text": "The loop metals' colours",
+          "correct": false,
+          "explanation": "The loop stays blank by design.",
+          "misconception": "content wrong"
+        },
+        {
+          "key": "C",
+          "text": "The flame colour each metal ion produces",
+          "correct": true,
+          "explanation": "Colour per ion is the key's content.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Each ion's melting point",
+          "correct": false,
+          "explanation": "Melting points are irrelevant here.",
+          "misconception": "content wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_wXwZ97CsH4DvCFSc::L3::Q2",
+      "moduleId": "rn_wXwZ97CsH4DvCFSc::L3",
+      "stem": "What does an unexpected second colour in the flame suggest?",
+      "misconceptionClass": "second colour",
+      "options": [
+        {
+          "key": "A",
+          "text": "A new undiscovered ion",
+          "correct": false,
+          "explanation": "Contamination is the routine explanation.",
+          "misconception": "exotic myth"
+        },
+        {
+          "key": "B",
+          "text": "The flame is broken",
+          "correct": false,
+          "explanation": "The flame is fine; the sample is mixed.",
+          "misconception": "equipment myth"
+        },
+        {
+          "key": "C",
+          "text": "The chart is wrong",
+          "correct": false,
+          "explanation": "The chart is standard.",
+          "misconception": "chart myth"
+        },
+        {
+          "key": "D",
+          "text": "Contamination from another ion on the loop",
+          "correct": true,
+          "explanation": "A second emitter has joined.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_wXwZ97CsH4DvCFSc::L3::Q3",
+      "moduleId": "rn_wXwZ97CsH4DvCFSc::L3",
+      "stem": "Why is magnesium's blank row useful?",
+      "misconceptionClass": "blank row",
+      "options": [
+        {
+          "key": "A",
+          "text": "An absent colour distinguishes magnesium from every coloured neighbour",
+          "correct": true,
+          "explanation": "Absence is itself a datum.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "It means magnesium cannot be tested at all",
+          "correct": false,
+          "explanation": "The blank is the test result.",
+          "misconception": "defeatism"
+        },
+        {
+          "key": "C",
+          "text": "It shows the chart has an error",
+          "correct": false,
+          "explanation": "The blank is genuine physics.",
+          "misconception": "error myth"
+        },
+        {
+          "key": "D",
+          "text": "It applies to calcium too",
+          "correct": false,
+          "explanation": "Calcium shows its colour clearly.",
+          "misconception": "spillover myth"
+        }
+      ]
+    },
+    {
+      "id": "rn_wXwZ97CsH4DvCFSc::L3::Q4",
+      "moduleId": "rn_wXwZ97CsH4DvCFSc::L3",
+      "stem": "Which pair of steps guarantees the chart reading is trustworthy?",
+      "misconceptionClass": "trust pair",
+      "options": [
+        {
+          "key": "A",
+          "text": "Trust the first colour seen",
+          "correct": false,
+          "explanation": "Verification needs the blank.",
+          "misconception": "shortcut myth"
+        },
+        {
+          "key": "B",
+          "text": "Acid-clean the loop and burn it blank before sampling",
+          "correct": true,
+          "explanation": "Blankness before sampling secures single-ion emission.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Use the yellow flame and skip cleaning",
+          "correct": false,
+          "explanation": "Both choices corrupt the reading.",
+          "misconception": "bad pair"
+        },
+        {
+          "key": "D",
+          "text": "Sample twice without cleaning",
+          "correct": false,
+          "explanation": "Residue carries over.",
+          "misconception": "bad pair"
+        }
+      ]
+    },
+    {
+      "id": "rn_wXwZ97CsH4DvCFSc::L3::Q5",
+      "moduleId": "rn_wXwZ97CsH4DvCFSc::L3",
+      "stem": "What should the analyst do after reading a muddy, mixed colour?",
+      "misconceptionClass": "protocol",
+      "options": [
+        {
+          "key": "A",
+          "text": "Report both ions present",
+          "correct": false,
+          "explanation": "The mixture is contamination, not composition.",
+          "misconception": "over-reading"
+        },
+        {
+          "key": "B",
+          "text": "Abandon flame testing",
+          "correct": false,
+          "explanation": "One clean repeat usually resolves it.",
+          "misconception": "defeatism"
+        },
+        {
+          "key": "C",
+          "text": "Clean the loop again and repeat the test",
+          "correct": true,
+          "explanation": "Restart from a blank loop.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Record the average of the two colours",
+          "correct": false,
+          "explanation": "Colour averaging is not chemistry.",
+          "misconception": "nonsense"
+        }
+      ]
+    },
+    {
+      "id": "rn_wXwZ97CsH4DvCFSc::L3::Q6",
+      "moduleId": "rn_wXwZ97CsH4DvCFSc::L3",
+      "stem": "State what the chart shows for magnesium.",
+      "misconceptionClass": "blank recall",
+      "kind": "recall",
+      "modelAnswer": "Magnesium's row shows no observed colour, because its emission falls outside the visible spectrum.",
+      "keywords": [
+        "no observed colour",
+        "outside",
+        "visible spectrum"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_wXwZ97CsH4DvCFSc::L3::Q7",
+      "moduleId": "rn_wXwZ97CsH4DvCFSc::L3",
+      "stem": "Name the two unreactive loop metals.",
+      "misconceptionClass": "loop recall",
+      "kind": "recall",
+      "modelAnswer": "Nichrome and platinum are the unreactive wire choices for flame tests.",
+      "keywords": [
+        "nichrome",
+        "platinum",
+        "unreactive"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_wXwZ97CsH4DvCFSc::L3::Q8",
+      "moduleId": "rn_wXwZ97CsH4DvCFSc::L3",
+      "stem": "Explain why the chart only works when the technique is followed exactly.",
+      "misconceptionClass": "validity reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "The chart assumes single-ion emission; any residue adds a second emitter and the observed colour matches no chart row, so technique fidelity is the reading's validity condition.",
+      "keywords": [
+        "single-ion",
+        "residue",
+        "validity"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_wXwZ97CsH4DvCFSc::L3::Q9",
+      "moduleId": "rn_wXwZ97CsH4DvCFSc::L3",
+      "stem": "A sample gives lilac edged with yellow. Name the likely cation and the contaminant.",
+      "misconceptionClass": "diagnosis application",
+      "kind": "application",
+      "modelAnswer": "The lilac points to potassium, with sodium contamination supplying the yellow fringe.",
+      "keywords": [
+        "potassium",
+        "sodium",
+        "lilac"
+      ],
+      "options": []
+    }
+  ]
+}

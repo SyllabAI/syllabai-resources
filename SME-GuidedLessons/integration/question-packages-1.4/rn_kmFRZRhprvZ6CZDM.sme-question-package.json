@@ -1,0 +1,487 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_kmFRZRhprvZ6CZDM",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "505533c2a1012b48079410380fc2756c23047b0892cc966ecfcd7c8e1e00188b",
+    "pinnedRef": "0c6caf779f8358349ab3cd2564cc4cf713dd5d11"
+  },
+  "packageId": "ial-chemistry::rn_kmFRZRhprvZ6CZDM",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_kmFRZRhprvZ6CZDM::L1::Q1",
+      "moduleId": "rn_kmFRZRhprvZ6CZDM::L1",
+      "stem": "How many electrons sit in the outermost principal quantum shell of a Group 2 atom?",
+      "misconceptionClass": "shell census",
+      "options": [
+        {
+          "key": "A",
+          "text": "Two",
+          "correct": true,
+          "explanation": "Group 2 atoms carry exactly two outer electrons.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "One",
+          "correct": false,
+          "explanation": "One belongs to Group 1.",
+          "misconception": "group confused"
+        },
+        {
+          "key": "C",
+          "text": "Three",
+          "correct": false,
+          "explanation": "Three is the Group 13 count.",
+          "misconception": "group confused"
+        },
+        {
+          "key": "D",
+          "text": "Eight",
+          "correct": false,
+          "explanation": "Eight is a full shell, the post-donation state.",
+          "misconception": "state confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_kmFRZRhprvZ6CZDM::L1::Q2",
+      "moduleId": "rn_kmFRZRhprvZ6CZDM::L1",
+      "stem": "When a Group 1 metal forms an ionic compound, what charge does its ion carry?",
+      "misconceptionClass": "cation charge",
+      "options": [
+        {
+          "key": "A",
+          "text": "0",
+          "correct": false,
+          "explanation": "The ion is charged by definition.",
+          "misconception": "ionisation denied"
+        },
+        {
+          "key": "B",
+          "text": "+1",
+          "correct": true,
+          "explanation": "One donated electron leaves one unit of positive charge.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "+2",
+          "correct": false,
+          "explanation": "That is the Group 2 cation charge.",
+          "misconception": "group confused"
+        },
+        {
+          "key": "D",
+          "text": "-1",
+          "correct": false,
+          "explanation": "Metals donate, never accept, here.",
+          "misconception": "charge flipped"
+        }
+      ]
+    },
+    {
+      "id": "rn_kmFRZRhprvZ6CZDM::L1::Q3",
+      "moduleId": "rn_kmFRZRhprvZ6CZDM::L1",
+      "stem": "Which role does a Group 1 or 2 metal play while donating electrons?",
+      "misconceptionClass": "agent role",
+      "options": [
+        {
+          "key": "A",
+          "text": "Catalyst",
+          "correct": false,
+          "explanation": "The metal is consumed stoichiometrically.",
+          "misconception": "role misassigned"
+        },
+        {
+          "key": "B",
+          "text": "Spectator",
+          "correct": false,
+          "explanation": "The metal is the central reactant.",
+          "misconception": "role misassigned"
+        },
+        {
+          "key": "C",
+          "text": "Reducing agent, because it donates electrons",
+          "correct": true,
+          "explanation": "Donation defines the reducing role.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Oxidising agent",
+          "correct": false,
+          "explanation": "Oxidising agents accept electrons.",
+          "misconception": "role swapped"
+        }
+      ]
+    },
+    {
+      "id": "rn_kmFRZRhprvZ6CZDM::L1::Q4",
+      "moduleId": "rn_kmFRZRhprvZ6CZDM::L1",
+      "stem": "What happens to the metal's oxidation number as it donates its outer electrons?",
+      "misconceptionClass": "number climb",
+      "options": [
+        {
+          "key": "A",
+          "text": "It falls below zero",
+          "correct": false,
+          "explanation": "Donation never drives a metal negative here.",
+          "misconception": "direction wrong"
+        },
+        {
+          "key": "B",
+          "text": "It stays at zero",
+          "correct": false,
+          "explanation": "The cation carries charge.",
+          "misconception": "change denied"
+        },
+        {
+          "key": "C",
+          "text": "It alternates",
+          "correct": false,
+          "explanation": "One clear climb per ionisation.",
+          "misconception": "oscillation myth"
+        },
+        {
+          "key": "D",
+          "text": "It rises from 0 to +1 or +2",
+          "correct": true,
+          "explanation": "Electron loss lifts the number by the count donated.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_kmFRZRhprvZ6CZDM::L1::Q5",
+      "moduleId": "rn_kmFRZRhprvZ6CZDM::L1",
+      "stem": "Which direction does reactivity move down Groups 1 and 2?",
+      "misconceptionClass": "reactivity trend",
+      "options": [
+        {
+          "key": "A",
+          "text": "It increases down both groups",
+          "correct": true,
+          "explanation": "Easier outer-electron loss powers the descent.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "It decreases down both groups",
+          "correct": false,
+          "explanation": "The trend climbs, not sinks.",
+          "misconception": "direction wrong"
+        },
+        {
+          "key": "C",
+          "text": "It stays constant",
+          "correct": false,
+          "explanation": "The shell count changes the energetics.",
+          "misconception": "flat myth"
+        },
+        {
+          "key": "D",
+          "text": "Group 1 falls while Group 2 rises",
+          "correct": false,
+          "explanation": "Both groups climb together.",
+          "misconception": "asymmetry myth"
+        }
+      ]
+    },
+    {
+      "id": "rn_kmFRZRhprvZ6CZDM::L1::Q6",
+      "moduleId": "rn_kmFRZRhprvZ6CZDM::L1",
+      "stem": "State the outer-shell electron counts for Groups 1 and 2.",
+      "misconceptionClass": "count recall",
+      "kind": "recall",
+      "modelAnswer": "Group 1 atoms hold one outer electron and Group 2 atoms hold two in their outermost principal quantum shell.",
+      "keywords": [
+        "one",
+        "two",
+        "outermost"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_kmFRZRhprvZ6CZDM::L1::Q7",
+      "moduleId": "rn_kmFRZRhprvZ6CZDM::L1",
+      "stem": "Name the agent role of the donating metal and its own fate.",
+      "misconceptionClass": "role recall",
+      "kind": "recall",
+      "modelAnswer": "The donating metal acts as a reducing agent and is itself oxidised.",
+      "keywords": [
+        "reducing agent",
+        "oxidised",
+        "donates"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_kmFRZRhprvZ6CZDM::L1::Q8",
+      "moduleId": "rn_kmFRZRhprvZ6CZDM::L1",
+      "stem": "Explain why donating electrons makes the metal a reducing agent.",
+      "misconceptionClass": "donation reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "A reducing agent reduces its partner by supplying electrons; the metal's donated electrons are exactly what the partner gains, so the metal fills the reducing role by definition.",
+      "keywords": [
+        "donates",
+        "reducing agent",
+        "partner"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_kmFRZRhprvZ6CZDM::L1::Q9",
+      "moduleId": "rn_kmFRZRhprvZ6CZDM::L1",
+      "stem": "A Group 2 metal donates both outer electrons to two chlorine atoms. How many electrons transfer per formula unit, and what is the metal's oxidation number afterwards?",
+      "misconceptionClass": "transfer application",
+      "kind": "application",
+      "modelAnswer": "Two electrons transfer per formula unit, leaving the metal at oxidation number +2 as its 2+ cation.",
+      "keywords": [
+        "2",
+        "+2",
+        "cation"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_kmFRZRhprvZ6CZDM::L2::Q1",
+      "moduleId": "rn_kmFRZRhprvZ6CZDM::L2",
+      "stem": "What does the second ionisation energy measure?",
+      "misconceptionClass": "definition check",
+      "options": [
+        {
+          "key": "A",
+          "text": "The energy of the second shell",
+          "correct": false,
+          "explanation": "It measures a removal event, not a shell.",
+          "misconception": "quantity confused"
+        },
+        {
+          "key": "B",
+          "text": "The energy to remove the second outer electron",
+          "correct": true,
+          "explanation": "It follows the first removal.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "The energy to remove two electrons at once",
+          "correct": false,
+          "explanation": "Each ionisation is a separate step.",
+          "misconception": "step merging"
+        },
+        {
+          "key": "D",
+          "text": "The energy gained when an electron arrives",
+          "correct": false,
+          "explanation": "Ionisation removes, never adds.",
+          "misconception": "direction wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_kmFRZRhprvZ6CZDM::L2::Q2",
+      "moduleId": "rn_kmFRZRhprvZ6CZDM::L2",
+      "stem": "Which trend does the Group 2 ionisation-energy graph show?",
+      "misconceptionClass": "graph reading",
+      "options": [
+        {
+          "key": "A",
+          "text": "First falls while second rises",
+          "correct": false,
+          "explanation": "Both fall together.",
+          "misconception": "asymmetry myth"
+        },
+        {
+          "key": "B",
+          "text": "Both stay flat",
+          "correct": false,
+          "explanation": "The descent is clearly visible.",
+          "misconception": "flat myth"
+        },
+        {
+          "key": "C",
+          "text": "Both first and second ionisation energies decrease down the group",
+          "correct": true,
+          "explanation": "Both curves sink together.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Both increase down the group",
+          "correct": false,
+          "explanation": "The graph shows the opposite.",
+          "misconception": "direction wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_kmFRZRhprvZ6CZDM::L2::Q3",
+      "moduleId": "rn_kmFRZRhprvZ6CZDM::L2",
+      "stem": "Why does increasing nuclear charge fail to raise ionisation energy down the group?",
+      "misconceptionClass": "outvoting",
+      "options": [
+        {
+          "key": "A",
+          "text": "Protons stop being added",
+          "correct": false,
+          "explanation": "Protons accumulate every step.",
+          "misconception": "premise wrong"
+        },
+        {
+          "key": "B",
+          "text": "Shielding decreases down the group",
+          "correct": false,
+          "explanation": "Shielding increases with each shell.",
+          "misconception": "direction wrong"
+        },
+        {
+          "key": "C",
+          "text": "Distance has no effect on attraction",
+          "correct": false,
+          "explanation": "Distance governs Coulomb attraction directly.",
+          "misconception": "physics denial"
+        },
+        {
+          "key": "D",
+          "text": "Increased shielding and larger distance outweigh the extra protons",
+          "correct": true,
+          "explanation": "The two distance factors win the contest.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_kmFRZRhprvZ6CZDM::L2::Q4",
+      "moduleId": "rn_kmFRZRhprvZ6CZDM::L2",
+      "stem": "Which statement about Group 1 ionisation energies is correct?",
+      "misconceptionClass": "group 1 trend",
+      "options": [
+        {
+          "key": "A",
+          "text": "The first ionisation energy also decreases down the group",
+          "correct": true,
+          "explanation": "Group 1 mirrors the Group 2 pattern.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "It increases down the group",
+          "correct": false,
+          "explanation": "The trend sinks.",
+          "misconception": "direction wrong"
+        },
+        {
+          "key": "C",
+          "text": "It shows no trend",
+          "correct": false,
+          "explanation": "A clear descent exists.",
+          "misconception": "trend denial"
+        },
+        {
+          "key": "D",
+          "text": "Only the second ionisation energy falls",
+          "correct": false,
+          "explanation": "The first falls too.",
+          "misconception": "asymmetry myth"
+        }
+      ]
+    },
+    {
+      "id": "rn_kmFRZRhprvZ6CZDM::L2::Q5",
+      "moduleId": "rn_kmFRZRhprvZ6CZDM::L2",
+      "stem": "A student claims bigger nuclei always hold electrons tighter. What corrects the claim?",
+      "misconceptionClass": "claim correction",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ionisation energy only depends on protons",
+          "correct": false,
+          "explanation": "Two more factors enter the balance.",
+          "misconception": "single-factor myth"
+        },
+        {
+          "key": "B",
+          "text": "Shielding and distance can outweigh nuclear charge in heavier atoms",
+          "correct": true,
+          "explanation": "The net attraction is what matters.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Nuclei shrink down the group",
+          "correct": false,
+          "explanation": "They grow, adding protons.",
+          "misconception": "premise wrong"
+        },
+        {
+          "key": "D",
+          "text": "Electrons get heavier down the group",
+          "correct": false,
+          "explanation": "Electron mass is fixed.",
+          "misconception": "nonsense"
+        }
+      ]
+    },
+    {
+      "id": "rn_kmFRZRhprvZ6CZDM::L2::Q6",
+      "moduleId": "rn_kmFRZRhprvZ6CZDM::L2",
+      "stem": "State the two factors that outweigh nuclear charge down the group.",
+      "misconceptionClass": "factor recall",
+      "kind": "recall",
+      "modelAnswer": "Increased shielding and the larger distance between outermost electrons and nucleus outweigh the growing nuclear charge.",
+      "keywords": [
+        "shielding",
+        "distance",
+        "nuclear charge"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_kmFRZRhprvZ6CZDM::L2::Q7",
+      "moduleId": "rn_kmFRZRhprvZ6CZDM::L2",
+      "stem": "Quote the direction of both ionisation energies down Group 2.",
+      "misconceptionClass": "direction recall",
+      "kind": "recall",
+      "modelAnswer": "Both the first and the second ionisation energy decrease going down the group.",
+      "keywords": [
+        "decrease",
+        "first",
+        "second"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_kmFRZRhprvZ6CZDM::L2::Q8",
+      "moduleId": "rn_kmFRZRhprvZ6CZDM::L2",
+      "stem": "Explain why easier electron removal makes the metals more reactive down the group.",
+      "misconceptionClass": "reactivity link",
+      "kind": "explain-why",
+      "modelAnswer": "Reactivity here is electron donation, so anything that lowers the energy cost of removal - falling ionisation energies - lets atoms donate sooner and react more vigorously.",
+      "keywords": [
+        "removal",
+        "donate",
+        "reactive"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_kmFRZRhprvZ6CZDM::L2::Q9",
+      "moduleId": "rn_kmFRZRhprvZ6CZDM::L2",
+      "stem": "If the first ionisation energy drops by roughly 10 percent per step down Group 2 from 900 kJ mol-1 at the top, estimate the value two steps down.",
+      "misconceptionClass": "step application",
+      "kind": "application",
+      "modelAnswer": "Two 10 percent cuts leave 0.9 x 0.9 = 0.81 of 900, about 729 kJ mol-1.",
+      "keywords": [
+        "729",
+        "10 percent",
+        "estimate"
+      ],
+      "options": []
+    }
+  ]
+}

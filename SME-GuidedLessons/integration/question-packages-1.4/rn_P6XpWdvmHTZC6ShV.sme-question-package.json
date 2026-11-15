@@ -1,0 +1,723 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_P6XpWdvmHTZC6ShV",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "82824d83b4479da3246971a3e1225cbf24db0976c3ec65ff246c80eb0d6c1a83",
+    "pinnedRef": "0c6caf779f8358349ab3cd2564cc4cf713dd5d11"
+  },
+  "packageId": "ial-chemistry::rn_P6XpWdvmHTZC6ShV",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_P6XpWdvmHTZC6ShV::L1::Q1",
+      "moduleId": "rn_P6XpWdvmHTZC6ShV::L1",
+      "stem": "Which ions can simple test tube reactions identify?",
+      "misconceptionClass": "toolkit scope",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ammonium, carbonate, hydrogencarbonate and sulfate",
+          "correct": true,
+          "explanation": "The three-test toolkit covers all four.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Chloride and bromide",
+          "correct": false,
+          "explanation": "Halide testing needs silver nitrate, not this toolkit.",
+          "misconception": "scope wrong"
+        },
+        {
+          "key": "C",
+          "text": "Sodium and potassium",
+          "correct": false,
+          "explanation": "Those need flame tests.",
+          "misconception": "method wrong"
+        },
+        {
+          "key": "D",
+          "text": "All ions equally",
+          "correct": false,
+          "explanation": "The toolkit is three tests, not universal.",
+          "misconception": "scope inflated"
+        }
+      ]
+    },
+    {
+      "id": "rn_P6XpWdvmHTZC6ShV::L1::Q2",
+      "moduleId": "rn_P6XpWdvmHTZC6ShV::L1",
+      "stem": "What must happen to a solid sample before testing?",
+      "misconceptionClass": "sample prep",
+      "options": [
+        {
+          "key": "A",
+          "text": "It can be tested dry",
+          "correct": false,
+          "explanation": "The reactions need aqueous ions.",
+          "misconception": "state wrong"
+        },
+        {
+          "key": "B",
+          "text": "It must dissolve in deionised water to make an aqueous solution",
+          "correct": true,
+          "explanation": "The tests run on solutions.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "It must be heated to melting",
+          "correct": false,
+          "explanation": "No melting step exists.",
+          "misconception": "prep wrong"
+        },
+        {
+          "key": "D",
+          "text": "It must be acidified with concentrated acid first",
+          "correct": false,
+          "explanation": "Only the sulfate test acidifies, and dilute at that.",
+          "misconception": "prep wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_P6XpWdvmHTZC6ShV::L1::Q3",
+      "moduleId": "rn_P6XpWdvmHTZC6ShV::L1",
+      "stem": "What does an ionic equation omit?",
+      "misconceptionClass": "ionic form",
+      "options": [
+        {
+          "key": "A",
+          "text": "The water",
+          "correct": false,
+          "explanation": "Water stays when it is a product.",
+          "misconception": "omission wrong"
+        },
+        {
+          "key": "B",
+          "text": "The charges",
+          "correct": false,
+          "explanation": "Charges are essential to the ionic form.",
+          "misconception": "omission wrong"
+        },
+        {
+          "key": "C",
+          "text": "The spectator ions that take no part in the reaction",
+          "correct": true,
+          "explanation": "Only the reacting ions stay.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "The gases",
+          "correct": false,
+          "explanation": "Gases stay in the equation.",
+          "misconception": "omission wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_P6XpWdvmHTZC6ShV::L1::Q4",
+      "moduleId": "rn_P6XpWdvmHTZC6ShV::L1",
+      "stem": "Which gas does the carbonate test release?",
+      "misconceptionClass": "gas identity",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ammonia",
+          "correct": false,
+          "explanation": "That is the ammonium test's gas.",
+          "misconception": "gas confused"
+        },
+        {
+          "key": "B",
+          "text": "Hydrogen",
+          "correct": false,
+          "explanation": "No metal-acid pair here.",
+          "misconception": "gas confused"
+        },
+        {
+          "key": "C",
+          "text": "Oxygen",
+          "correct": false,
+          "explanation": "No oxygen forms in this test.",
+          "misconception": "gas confused"
+        },
+        {
+          "key": "D",
+          "text": "Carbon dioxide",
+          "correct": true,
+          "explanation": "Acid plus carbonate fizzes CO2.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_P6XpWdvmHTZC6ShV::L1::Q5",
+      "moduleId": "rn_P6XpWdvmHTZC6ShV::L1",
+      "stem": "Which reagent identifies sulfate ions?",
+      "misconceptionClass": "sulfate reagent",
+      "options": [
+        {
+          "key": "A",
+          "text": "Acidified barium chloride solution",
+          "correct": true,
+          "explanation": "Ba2+ meets SO4 2- and precipitates.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Sodium hydroxide solution",
+          "correct": false,
+          "explanation": "That is the ammonium test's reagent.",
+          "misconception": "reagent confused"
+        },
+        {
+          "key": "C",
+          "text": "Limewater",
+          "correct": false,
+          "explanation": "Limewater reads CO2, not sulfate.",
+          "misconception": "reagent confused"
+        },
+        {
+          "key": "D",
+          "text": "Deionised water alone",
+          "correct": false,
+          "explanation": "Water dissolves but never identifies.",
+          "misconception": "nonsense"
+        }
+      ]
+    },
+    {
+      "id": "rn_P6XpWdvmHTZC6ShV::L1::Q6",
+      "moduleId": "rn_P6XpWdvmHTZC6ShV::L1",
+      "stem": "State the three ion tests in the toolkit.",
+      "misconceptionClass": "toolkit recall",
+      "kind": "recall",
+      "modelAnswer": "Ammonium ions with sodium hydroxide and warming, carbonate ions with aqueous acid, and sulfate ions with acidified barium chloride.",
+      "keywords": [
+        "ammonium",
+        "carbonate",
+        "sulfate"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_P6XpWdvmHTZC6ShV::L1::Q7",
+      "moduleId": "rn_P6XpWdvmHTZC6ShV::L1",
+      "stem": "Write the ionic equation for carbonate meeting acid.",
+      "misconceptionClass": "ionic recall",
+      "kind": "recall",
+      "modelAnswer": "2H+ (aq) + CO3 2- (aq) -> CO2 (g) + H2O (l).",
+      "keywords": [
+        "2H+",
+        "CO3 2-",
+        "CO2"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_P6XpWdvmHTZC6ShV::L1::Q8",
+      "moduleId": "rn_P6XpWdvmHTZC6ShV::L1",
+      "stem": "Explain why deionised water is specified for dissolving samples.",
+      "misconceptionClass": "purity reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "Tap water carries its own ions, including carbonate and sulfate, which would trigger false positives; deionised water adds no interfering ions.",
+      "keywords": [
+        "deionised",
+        "ions",
+        "false positives"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_P6XpWdvmHTZC6ShV::L1::Q9",
+      "moduleId": "rn_P6XpWdvmHTZC6ShV::L1",
+      "stem": "A solution gives no ammonia, no fizz, but a white precipitate with acidified barium chloride. Which ion is present, and which two are absent?",
+      "misconceptionClass": "diagnosis application",
+      "kind": "application",
+      "modelAnswer": "Sulfate is present; ammonium and carbonate are absent by their negative tests.",
+      "keywords": [
+        "sulfate",
+        "absent",
+        "white precipitate"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_P6XpWdvmHTZC6ShV::L2::Q1",
+      "moduleId": "rn_P6XpWdvmHTZC6ShV::L2",
+      "stem": "What observation confirms ammonium ions?",
+      "misconceptionClass": "ammonium observation",
+      "options": [
+        {
+          "key": "A",
+          "text": "Effervescence of CO2",
+          "correct": false,
+          "explanation": "That is the carbonate test.",
+          "misconception": "test confused"
+        },
+        {
+          "key": "B",
+          "text": "Damp red litmus paper turning blue near the warmed tube",
+          "correct": true,
+          "explanation": "Ammonia's alkaline fumes flip the litmus.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "A white precipitate forming",
+          "correct": false,
+          "explanation": "No precipitate marks this test.",
+          "misconception": "observation wrong"
+        },
+        {
+          "key": "D",
+          "text": "The solution turning pink",
+          "correct": false,
+          "explanation": "Pink belongs to phenolphthalein.",
+          "misconception": "observation wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_P6XpWdvmHTZC6ShV::L2::Q2",
+      "moduleId": "rn_P6XpWdvmHTZC6ShV::L2",
+      "stem": "Which reagent releases ammonia from ammonium salts?",
+      "misconceptionClass": "ammonium reagent",
+      "options": [
+        {
+          "key": "A",
+          "text": "Barium chloride",
+          "correct": false,
+          "explanation": "No reaction with ammonium ions.",
+          "misconception": "reagent wrong"
+        },
+        {
+          "key": "B",
+          "text": "Limewater",
+          "correct": false,
+          "explanation": "Limewater is a CO2 detector, not a releaser.",
+          "misconception": "reagent confused"
+        },
+        {
+          "key": "C",
+          "text": "Sodium hydroxide solution, with warming",
+          "correct": true,
+          "explanation": "OH- deprotonates NH4+.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Dilute hydrochloric acid",
+          "correct": false,
+          "explanation": "Acid would suppress ammonia release.",
+          "misconception": "reagent wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_P6XpWdvmHTZC6ShV::L2::Q3",
+      "moduleId": "rn_P6XpWdvmHTZC6ShV::L2",
+      "stem": "What white smoke forms when ammonia meets concentrated HCl fumes?",
+      "misconceptionClass": "smoke identity",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ammonium nitrate",
+          "correct": false,
+          "explanation": "No nitrate participates.",
+          "misconception": "salt wrong"
+        },
+        {
+          "key": "B",
+          "text": "Sodium chloride",
+          "correct": false,
+          "explanation": "No sodium is present.",
+          "misconception": "salt wrong"
+        },
+        {
+          "key": "C",
+          "text": "Water vapour",
+          "correct": false,
+          "explanation": "The smoke is the salt, not steam.",
+          "misconception": "confusion"
+        },
+        {
+          "key": "D",
+          "text": "Ammonium chloride, NH4Cl",
+          "correct": true,
+          "explanation": "NH3 + HCl -> NH4Cl (s).",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_P6XpWdvmHTZC6ShV::L2::Q4",
+      "moduleId": "rn_P6XpWdvmHTZC6ShV::L2",
+      "stem": "What does the limewater test confirm after the carbonate fizz?",
+      "misconceptionClass": "limewater confirm",
+      "options": [
+        {
+          "key": "A",
+          "text": "The gas is carbon dioxide, from the milky precipitate",
+          "correct": true,
+          "explanation": "CO2 + limewater gives the white suspension.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "The gas is ammonia",
+          "correct": false,
+          "explanation": "Ammonia would dissolve without milkiness.",
+          "misconception": "gas confused"
+        },
+        {
+          "key": "C",
+          "text": "The gas is hydrogen",
+          "correct": false,
+          "explanation": "Hydrogen does not react with limewater.",
+          "misconception": "gas confused"
+        },
+        {
+          "key": "D",
+          "text": "Nothing, limewater is decoration",
+          "correct": false,
+          "explanation": "The milkiness is the positive result.",
+          "misconception": "denial"
+        }
+      ]
+    },
+    {
+      "id": "rn_P6XpWdvmHTZC6ShV::L2::Q5",
+      "moduleId": "rn_P6XpWdvmHTZC6ShV::L2",
+      "stem": "Which ionic equation covers the hydrogencarbonate test?",
+      "misconceptionClass": "HCO3 variant",
+      "options": [
+        {
+          "key": "A",
+          "text": "NH4+ + OH- -> NH3 + H2O",
+          "correct": false,
+          "explanation": "That is the ammonium equation.",
+          "misconception": "equation confused"
+        },
+        {
+          "key": "B",
+          "text": "H+ + HCO3- -> CO2 + H2O",
+          "correct": true,
+          "explanation": "One proton suffices for the hydrogencarbonate.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "2H+ + CO3 2- -> CO2 + H2O",
+          "correct": false,
+          "explanation": "That is the carbonate variant.",
+          "misconception": "variant confused"
+        },
+        {
+          "key": "D",
+          "text": "H+ + HCO3- -> H2CO3 only",
+          "correct": false,
+          "explanation": "The CO2 product must appear.",
+          "misconception": "incomplete"
+        }
+      ]
+    },
+    {
+      "id": "rn_P6XpWdvmHTZC6ShV::L2::Q6",
+      "moduleId": "rn_P6XpWdvmHTZC6ShV::L2",
+      "stem": "Write the ammonium ionic equation.",
+      "misconceptionClass": "equation recall",
+      "kind": "recall",
+      "modelAnswer": "NH4+ (aq) + OH- (aq) -> NH3 (g) + H2O (l).",
+      "keywords": [
+        "NH4+",
+        "OH-",
+        "NH3"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_P6XpWdvmHTZC6ShV::L2::Q7",
+      "moduleId": "rn_P6XpWdvmHTZC6ShV::L2",
+      "stem": "State the carbonate test's full molecular equation with sodium carbonate.",
+      "misconceptionClass": "molecular recall",
+      "kind": "recall",
+      "modelAnswer": "2HCl (aq) + Na2CO3 (aq) -> 2NaCl (aq) + CO2 (g) + H2O (l).",
+      "keywords": [
+        "2HCl",
+        "Na2CO3",
+        "CO2"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_P6XpWdvmHTZC6ShV::L2::Q8",
+      "moduleId": "rn_P6XpWdvmHTZC6ShV::L2",
+      "stem": "Explain why warming is essential in the ammonium test.",
+      "misconceptionClass": "warming reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "The deprotonation equilibrium releases little ammonia cold; the water bath heats the mixture, driving enough NH3 out of solution to reach the litmus and flip it blue.",
+      "keywords": [
+        "warming",
+        "ammonia",
+        "litmus"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_P6XpWdvmHTZC6ShV::L2::Q9",
+      "moduleId": "rn_P6XpWdvmHTZC6ShV::L2",
+      "stem": "How many protons does one CO3 2- ion absorb to become one CO2 plus one water, and what charge balance does the ionic equation show?",
+      "misconceptionClass": "proton application",
+      "kind": "application",
+      "modelAnswer": "Two protons balance the 2- ion: 2H+ + CO3 2- closes charge at zero on both sides.",
+      "keywords": [
+        "two",
+        "protons",
+        "balance"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_P6XpWdvmHTZC6ShV::L3::Q1",
+      "moduleId": "rn_P6XpWdvmHTZC6ShV::L3",
+      "stem": "What is the positive observation of the sulfate test?",
+      "misconceptionClass": "positive reading",
+      "options": [
+        {
+          "key": "A",
+          "text": "Blue litmus",
+          "correct": false,
+          "explanation": "Litmus plays no role here.",
+          "misconception": "observation wrong"
+        },
+        {
+          "key": "B",
+          "text": "A pink solution",
+          "correct": false,
+          "explanation": "No colour change occurs.",
+          "misconception": "observation wrong"
+        },
+        {
+          "key": "C",
+          "text": "A white precipitate of barium sulfate",
+          "correct": true,
+          "explanation": "The precipitate is the confirmation.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Effervescence",
+          "correct": false,
+          "explanation": "Fizzing marks the carbonate test.",
+          "misconception": "test confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_P6XpWdvmHTZC6ShV::L3::Q2",
+      "moduleId": "rn_P6XpWdvmHTZC6ShV::L3",
+      "stem": "Which reagent pair runs the sulfate test?",
+      "misconceptionClass": "reagent pair",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sodium hydroxide then barium chloride",
+          "correct": false,
+          "explanation": "Alkali plays no role.",
+          "misconception": "pair wrong"
+        },
+        {
+          "key": "B",
+          "text": "Barium chloride only",
+          "correct": false,
+          "explanation": "Without acid, carbonates interfere.",
+          "misconception": "guard missing"
+        },
+        {
+          "key": "C",
+          "text": "Sulfuric acid then barium chloride",
+          "correct": false,
+          "explanation": "The acid would add sulfate ions.",
+          "misconception": "acid wrong"
+        },
+        {
+          "key": "D",
+          "text": "Dilute hydrochloric acid first, then aqueous barium chloride",
+          "correct": true,
+          "explanation": "Acidify, then precipitate.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_P6XpWdvmHTZC6ShV::L3::Q3",
+      "moduleId": "rn_P6XpWdvmHTZC6ShV::L3",
+      "stem": "Why must the acid be added before the barium chloride?",
+      "misconceptionClass": "ordering rule",
+      "options": [
+        {
+          "key": "A",
+          "text": "To remove carbonates that would otherwise precipitate and interfere",
+          "correct": true,
+          "explanation": "Clearing the interferent first keeps the reading honest.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "To dissolve the barium chloride",
+          "correct": false,
+          "explanation": "It dissolves regardless.",
+          "misconception": "reason wrong"
+        },
+        {
+          "key": "C",
+          "text": "To colour the solution",
+          "correct": false,
+          "explanation": "The acid adds no colour.",
+          "misconception": "reason wrong"
+        },
+        {
+          "key": "D",
+          "text": "To speed the reaction",
+          "correct": false,
+          "explanation": "Speed is not the point; accuracy is.",
+          "misconception": "reason wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_P6XpWdvmHTZC6ShV::L3::Q4",
+      "moduleId": "rn_P6XpWdvmHTZC6ShV::L3",
+      "stem": "Which ionic equation describes the positive test?",
+      "misconceptionClass": "ionic equation",
+      "options": [
+        {
+          "key": "A",
+          "text": "H+ + SO4 2- -> HSO4-",
+          "correct": false,
+          "explanation": "That is acid-base, not precipitation.",
+          "misconception": "reaction confused"
+        },
+        {
+          "key": "B",
+          "text": "Ba2+ + SO4 2- -> BaSO4",
+          "correct": true,
+          "explanation": "The two ions pair into the white solid.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Ba2+ + CO3 2- -> BaCO3",
+          "correct": false,
+          "explanation": "That is the interference reaction, not the test.",
+          "misconception": "reaction confused"
+        },
+        {
+          "key": "D",
+          "text": "Ba2+ + 2Cl- -> BaCl2",
+          "correct": false,
+          "explanation": "Barium chloride is soluble, so no precipitate forms.",
+          "misconception": "solubility wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_P6XpWdvmHTZC6ShV::L3::Q5",
+      "moduleId": "rn_P6XpWdvmHTZC6ShV::L3",
+      "stem": "Why is hydrochloric acid specified rather than sulfuric acid?",
+      "misconceptionClass": "acid choice",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sulfuric acid fails to acidify",
+          "correct": false,
+          "explanation": "It acidifies perfectly well.",
+          "misconception": "reason wrong"
+        },
+        {
+          "key": "B",
+          "text": "HCl precipitates the sulfate faster",
+          "correct": false,
+          "explanation": "The barium chloride does the precipitating.",
+          "misconception": "agency wrong"
+        },
+        {
+          "key": "C",
+          "text": "Sulfuric acid would introduce sulfate ions and force a false positive",
+          "correct": true,
+          "explanation": "The chosen acid must carry no sulfate.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "HCl is stronger than H2SO4",
+          "correct": false,
+          "explanation": "Strength is not the reason.",
+          "misconception": "reason wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_P6XpWdvmHTZC6ShV::L3::Q6",
+      "moduleId": "rn_P6XpWdvmHTZC6ShV::L3",
+      "stem": "Write the sulfate test's ionic equation.",
+      "misconceptionClass": "equation recall",
+      "kind": "recall",
+      "modelAnswer": "Ba2+ (aq) + SO4 2- (aq) -> BaSO4 (s), the white precipitate.",
+      "keywords": [
+        "Ba2+",
+        "SO4 2-",
+        "BaSO4"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_P6XpWdvmHTZC6ShV::L3::Q7",
+      "moduleId": "rn_P6XpWdvmHTZC6ShV::L3",
+      "stem": "State what the acid-first step removes and how.",
+      "misconceptionClass": "guard recall",
+      "kind": "recall",
+      "modelAnswer": "It removes carbonate ions, converting them to carbon dioxide gas before the barium chloride is added.",
+      "keywords": [
+        "carbonate",
+        "removes",
+        "acid"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_P6XpWdvmHTZC6ShV::L3::Q8",
+      "moduleId": "rn_P6XpWdvmHTZC6ShV::L3",
+      "stem": "Explain why barium carbonate would mimic the sulfate result.",
+      "misconceptionClass": "interference reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "Ba2+ precipitates with CO3 2- as white barium carbonate, an observation indistinguishable from barium sulfate; removing carbonate first eliminates the mimic.",
+      "keywords": [
+        "barium carbonate",
+        "white",
+        "indistinguishable"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_P6XpWdvmHTZC6ShV::L3::Q9",
+      "moduleId": "rn_P6XpWdvmHTZC6ShV::L3",
+      "stem": "A sample fizzes with acid and later gives a white precipitate with barium chloride even though acid was added first and the fizz stopped. Which ion caused the fizz and which caused the precipitate?",
+      "misconceptionClass": "dual diagnosis",
+      "kind": "application",
+      "modelAnswer": "The fizz came from carbonate (cleared as CO2); the later white precipitate confirms sulfate was present all along.",
+      "keywords": [
+        "carbonate",
+        "sulfate",
+        "precipitate"
+      ],
+      "options": []
+    }
+  ]
+}

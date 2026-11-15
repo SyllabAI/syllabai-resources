@@ -1,0 +1,723 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_fmBD7D8fXhfNFSK2",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "4d39098a552d07ca4054ad9d3c3a1ac02ddb982f37257855384e5952c23d8c31",
+    "pinnedRef": "0c6caf779f8358349ab3cd2564cc4cf713dd5d11"
+  },
+  "packageId": "ial-chemistry::rn_fmBD7D8fXhfNFSK2",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_fmBD7D8fXhfNFSK2::L1::Q1",
+      "moduleId": "rn_fmBD7D8fXhfNFSK2::L1",
+      "stem": "Which compound from the list hydrogen bonds through an N-H bond?",
+      "misconceptionClass": "donor family",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ammonia",
+          "correct": true,
+          "explanation": "Ammonia's three N-H bonds make it a hydrogen-bond donor.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Ethane",
+          "correct": false,
+          "explanation": "Ethane carries only C-H bonds, which never hydrogen bond.",
+          "misconception": "family wrong"
+        },
+        {
+          "key": "C",
+          "text": "Sodium chloride",
+          "correct": false,
+          "explanation": "An ionic solid has no covalent H-N bond at all.",
+          "misconception": "compound class wrong"
+        },
+        {
+          "key": "D",
+          "text": "Tetrachloromethane",
+          "correct": false,
+          "explanation": "Its C-Cl bonds leave the hydrogens absent entirely.",
+          "misconception": "no hydrogen present"
+        }
+      ]
+    },
+    {
+      "id": "rn_fmBD7D8fXhfNFSK2::L1::Q2",
+      "moduleId": "rn_fmBD7D8fXhfNFSK2::L1",
+      "stem": "Why can one ammonia molecule form at most one hydrogen bond as an acceptor?",
+      "misconceptionClass": "ammonia capacity",
+      "options": [
+        {
+          "key": "A",
+          "text": "Its H-N bonds are too weak",
+          "correct": false,
+          "explanation": "The bonds are strong; the accepting capacity is the limiter.",
+          "misconception": "wrong limiter"
+        },
+        {
+          "key": "B",
+          "text": "Nitrogen holds a single lone pair",
+          "correct": true,
+          "explanation": "One lone pair means one accepting site, whatever the donor count.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Its three hydrogens fill all sites",
+          "correct": false,
+          "explanation": "Donor hydrogens do not consume the lone pair that accepts.",
+          "misconception": "donor confused with acceptor"
+        },
+        {
+          "key": "D",
+          "text": "Ammonia is non-polar",
+          "correct": false,
+          "explanation": "Ammonia is polar and hydrogen bonds strongly.",
+          "misconception": "polarity denied"
+        }
+      ]
+    },
+    {
+      "id": "rn_fmBD7D8fXhfNFSK2::L1::Q3",
+      "moduleId": "rn_fmBD7D8fXhfNFSK2::L1",
+      "stem": "Which statement about hydrogen-bond donors is correct?",
+      "misconceptionClass": "donor requirement",
+      "options": [
+        {
+          "key": "A",
+          "text": "The hydrogen must carry a full positive charge",
+          "correct": false,
+          "explanation": "Partial positive character, not a full charge, does the work.",
+          "misconception": "charge overclaimed"
+        },
+        {
+          "key": "B",
+          "text": "Donation needs a metal cation nearby",
+          "correct": false,
+          "explanation": "Metal cations play no role in hydrogen bonding.",
+          "misconception": "intruder added"
+        },
+        {
+          "key": "C",
+          "text": "The hydrogen must be covalently bonded to O, N or F",
+          "correct": true,
+          "explanation": "Only these partners polarise hydrogen enough to donate.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Any hydrogen in the molecule can donate",
+          "correct": false,
+          "explanation": "C-H hydrogens lack the positive character required.",
+          "misconception": "overbroad claim"
+        }
+      ]
+    },
+    {
+      "id": "rn_fmBD7D8fXhfNFSK2::L1::Q4",
+      "moduleId": "rn_fmBD7D8fXhfNFSK2::L1",
+      "stem": "Proteins hydrogen bond internally. Which bond type in a protein does the work?",
+      "misconceptionClass": "protein linkage",
+      "options": [
+        {
+          "key": "A",
+          "text": "C-C bonds along the chain",
+          "correct": false,
+          "explanation": "Carbon-carbon bonds never hydrogen bond.",
+          "misconception": "backbone misread"
+        },
+        {
+          "key": "B",
+          "text": "C-H bonds on side groups",
+          "correct": false,
+          "explanation": "C-H bonds are never hydrogen-bond donors.",
+          "misconception": "donor invented"
+        },
+        {
+          "key": "C",
+          "text": "Ionic links between residues",
+          "correct": false,
+          "explanation": "The question asks about hydrogen bonding, not salt bridges.",
+          "misconception": "test type swapped"
+        },
+        {
+          "key": "D",
+          "text": "N-H bonds in the amide groups",
+          "correct": true,
+          "explanation": "Protein backbones carry N-H bonds that reach carbonyl oxygens.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_fmBD7D8fXhfNFSK2::L1::Q5",
+      "moduleId": "rn_fmBD7D8fXhfNFSK2::L1",
+      "stem": "Water accepts two hydrogen bonds per molecule because its oxygen has:",
+      "misconceptionClass": "water accepting",
+      "options": [
+        {
+          "key": "A",
+          "text": "Two lone pairs",
+          "correct": true,
+          "explanation": "Both lone pairs can face donor hydrogens simultaneously.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Two covalent bonds to hydrogen",
+          "correct": false,
+          "explanation": "The O-H bonds make it a donor; acceptance is the lone pairs' job.",
+          "misconception": "role swapped"
+        },
+        {
+          "key": "C",
+          "text": "A double bond to oxygen",
+          "correct": false,
+          "explanation": "Water's oxygen bonds to hydrogens only.",
+          "misconception": "structure invented"
+        },
+        {
+          "key": "D",
+          "text": "A negative formal charge",
+          "correct": false,
+          "explanation": "Water is neutral overall.",
+          "misconception": "charge invented"
+        }
+      ]
+    },
+    {
+      "id": "rn_fmBD7D8fXhfNFSK2::L1::Q6",
+      "moduleId": "rn_fmBD7D8fXhfNFSK2::L1",
+      "stem": "List four compound classes that can form hydrogen bonds.",
+      "misconceptionClass": "family recall",
+      "kind": "recall",
+      "modelAnswer": "Alcohols, ammonia, amines, carboxylic acids, hydrogen fluoride and proteins all qualify - any four of these answer the question.",
+      "keywords": [
+        "alcohols",
+        "ammonia",
+        "carboxylic acids"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_fmBD7D8fXhfNFSK2::L1::Q7",
+      "moduleId": "rn_fmBD7D8fXhfNFSK2::L1",
+      "stem": "State how many hydrogen bonds one molecule of ammonia can form in total and why.",
+      "misconceptionClass": "ammonia count recall",
+      "kind": "recall",
+      "modelAnswer": "Ammonia tops out at one hydrogen bond per molecule, because its nitrogen presents only a single lone pair as an accepting site.",
+      "keywords": [
+        "one",
+        "lone pair",
+        "nitrogen"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_fmBD7D8fXhfNFSK2::L1::Q8",
+      "moduleId": "rn_fmBD7D8fXhfNFSK2::L1",
+      "stem": "Explain why hydrogen fluoride and water both hydrogen bond but hydrogen sulfide barely does.",
+      "misconceptionClass": "partner reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "Fluorine and oxygen are the most electronegative atoms that bond to hydrogen, so they drain enough density to expose hydrogen strongly; sulfur is far less electronegative, so its H-S bonds leave hydrogen barely positive and no real hydrogen bonding forms.",
+      "keywords": [
+        "electronegative",
+        "hydrogen",
+        "density"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_fmBD7D8fXhfNFSK2::L1::Q9",
+      "moduleId": "rn_fmBD7D8fXhfNFSK2::L1",
+      "stem": "A molecule carries three donor hydrogens and one lone pair. If each completed hydrogen bond stores 20 kJ per mole, what is the maximum accepting energy per mole of contacts through the lone pair?",
+      "misconceptionClass": "capacity application",
+      "kind": "application",
+      "modelAnswer": "The single lone pair accepts only one contact, so the accepting side stores just 20 kJ per mole however many donor hydrogens dangle unused.",
+      "keywords": [
+        "20",
+        "lone pair",
+        "accepting"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_fmBD7D8fXhfNFSK2::L2::Q1",
+      "moduleId": "rn_fmBD7D8fXhfNFSK2::L2",
+      "stem": "Why does water boil far higher than its molecular size suggests?",
+      "misconceptionClass": "boiling anomaly",
+      "options": [
+        {
+          "key": "A",
+          "text": "Steam is ionic",
+          "correct": false,
+          "explanation": "Steam remains molecular water.",
+          "misconception": "phase invention"
+        },
+        {
+          "key": "B",
+          "text": "Hydrogen bonds must be broken on top of the usual attractions",
+          "correct": true,
+          "explanation": "The extra energy bill for hydrogen bonding lifts the boiling point.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Water's covalent bonds break at boiling",
+          "correct": false,
+          "explanation": "Boiling separates molecules without touching covalent bonds.",
+          "misconception": "bond confusion"
+        },
+        {
+          "key": "D",
+          "text": "Water has an unusually large electron count",
+          "correct": false,
+          "explanation": "Water's electrons sit below the heavier hydrides, not above.",
+          "misconception": "count misstated"
+        }
+      ]
+    },
+    {
+      "id": "rn_fmBD7D8fXhfNFSK2::L2::Q2",
+      "moduleId": "rn_fmBD7D8fXhfNFSK2::L2",
+      "stem": "Along the trend from H2S to H2Te, vaporisation enthalpy increases because:",
+      "misconceptionClass": "trend driver",
+      "options": [
+        {
+          "key": "A",
+          "text": "The molecules become lighter",
+          "correct": false,
+          "explanation": "They become heavier down the group.",
+          "misconception": "direction wrong"
+        },
+        {
+          "key": "B",
+          "text": "Metallic character grows",
+          "correct": false,
+          "explanation": "No metal character appears in these hydrides.",
+          "misconception": "wrong chemistry"
+        },
+        {
+          "key": "C",
+          "text": "Heavier Group 16 hydrides carry more electrons, strengthening induced forces",
+          "correct": true,
+          "explanation": "Growing electron clouds raise the induced-dipole contribution down the group.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Hydrogen bonding strengthens down the group",
+          "correct": false,
+          "explanation": "H2S, H2Se and H2Te barely hydrogen bond at all.",
+          "misconception": "force misattributed"
+        }
+      ]
+    },
+    {
+      "id": "rn_fmBD7D8fXhfNFSK2::L2::Q3",
+      "moduleId": "rn_fmBD7D8fXhfNFSK2::L2",
+      "stem": "Roughly where does electron counting place water's expected vaporisation enthalpy, and where does it actually sit?",
+      "misconceptionClass": "trend versus actual",
+      "options": [
+        {
+          "key": "A",
+          "text": "Predicted near 17 kJ per mole, actually about half",
+          "correct": false,
+          "explanation": "Water sits above the trend, not below it.",
+          "misconception": "direction flipped"
+        },
+        {
+          "key": "B",
+          "text": "Predicted near 170 kJ per mole, actually lower",
+          "correct": false,
+          "explanation": "Both figures are an order of magnitude off.",
+          "misconception": "scale wrong"
+        },
+        {
+          "key": "C",
+          "text": "Prediction and reality coincide",
+          "correct": false,
+          "explanation": "The anomaly is the entire point of the graph.",
+          "misconception": "anomaly denied"
+        },
+        {
+          "key": "D",
+          "text": "Predicted near 17 kJ per mole, actually almost three times larger",
+          "correct": true,
+          "explanation": "The trend extrapolation gives about 17, and hydrogen bonding triples it.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_fmBD7D8fXhfNFSK2::L2::Q4",
+      "moduleId": "rn_fmBD7D8fXhfNFSK2::L2",
+      "stem": "What must be supplied to melt ice beyond what a typical small molecule needs?",
+      "misconceptionClass": "melting energy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Energy to loosen the hydrogen-bonded open lattice",
+          "correct": true,
+          "explanation": "Melting weakens the hydrogen-bond framework holding ice together.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Energy to break O-H covalent bonds",
+          "correct": false,
+          "explanation": "Covalent bonds survive melting intact.",
+          "misconception": "bond breakage claimed"
+        },
+        {
+          "key": "C",
+          "text": "Energy to ionise the molecules",
+          "correct": false,
+          "explanation": "No ionisation occurs during melting.",
+          "misconception": "process invented"
+        },
+        {
+          "key": "D",
+          "text": "Nothing beyond induced forces",
+          "correct": false,
+          "explanation": "That would make ice melt near H2S's values.",
+          "misconception": "anomaly erased"
+        }
+      ]
+    },
+    {
+      "id": "rn_fmBD7D8fXhfNFSK2::L2::Q5",
+      "moduleId": "rn_fmBD7D8fXhfNFSK2::L2",
+      "stem": "Which phrase best describes the cause of water's anomalous properties?",
+      "misconceptionClass": "cause attribution",
+      "options": [
+        {
+          "key": "A",
+          "text": "Weak induced forces in water",
+          "correct": false,
+          "explanation": "Weak induced forces would lower, not raise, the boiling point.",
+          "misconception": "driver inverted"
+        },
+        {
+          "key": "B",
+          "text": "Extensive hydrogen bonding between water molecules",
+          "correct": true,
+          "explanation": "Every anomaly in this note traces back to hydrogen bonding.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "High molar mass of water",
+          "correct": false,
+          "explanation": "Water is lighter than its Group 16 neighbours.",
+          "misconception": "mass miscredited"
+        },
+        {
+          "key": "D",
+          "text": "Ionic character inside water",
+          "correct": false,
+          "explanation": "Water is covalently bonded throughout.",
+          "misconception": "bonding misread"
+        }
+      ]
+    },
+    {
+      "id": "rn_fmBD7D8fXhfNFSK2::L2::Q6",
+      "moduleId": "rn_fmBD7D8fXhfNFSK2::L2",
+      "stem": "State the two states of water in which hydrogen bonding must be overcome to melt and to boil it.",
+      "misconceptionClass": "states recall",
+      "kind": "recall",
+      "modelAnswer": "Hydrogen bonding holds both ice (solid water) and liquid water, so the strong intermolecular framework must be overcome for melting and for boiling.",
+      "keywords": [
+        "ice",
+        "liquid",
+        "hydrogen"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_fmBD7D8fXhfNFSK2::L2::Q7",
+      "moduleId": "rn_fmBD7D8fXhfNFSK2::L2",
+      "stem": "Quote the approximate trend-line value for water's vaporisation enthalpy and the size of the observed premium.",
+      "misconceptionClass": "figure recall",
+      "kind": "recall",
+      "modelAnswer": "Electron counting predicts around 17 kJ per mole, and hydrogen bonding pushes the observed value to almost three times that figure.",
+      "keywords": [
+        "17",
+        "three times",
+        "hydrogen"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_fmBD7D8fXhfNFSK2::L2::Q8",
+      "moduleId": "rn_fmBD7D8fXhfNFSK2::L2",
+      "stem": "Explain why the hydride graph would mislead a student who ignored hydrogen bonding.",
+      "misconceptionClass": "graph reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "Reading only electron counts, the student would extrapolate water below H2S and predict a low vaporisation enthalpy; the actual value towers above the line because hydrogen bonds add an energy channel the trend never contains.",
+      "keywords": [
+        "extrapolate",
+        "trend",
+        "hydrogen"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_fmBD7D8fXhfNFSK2::L2::Q9",
+      "moduleId": "rn_fmBD7D8fXhfNFSK2::L2",
+      "stem": "If the hydride trend predicts 17 kJ per mole for water and the observed premium factor is 3, estimate water's vaporisation enthalpy and the size of the hydrogen-bond premium alone.",
+      "misconceptionClass": "premium application",
+      "kind": "application",
+      "modelAnswer": "Three times 17 kJ per mole gives about 51 kJ per mole, so the hydrogen-bond premium contributes roughly 34 kJ per mole beyond the trend.",
+      "keywords": [
+        "51",
+        "34",
+        "premium"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_fmBD7D8fXhfNFSK2::L3::Q1",
+      "moduleId": "rn_fmBD7D8fXhfNFSK2::L3",
+      "stem": "What is surface tension?",
+      "misconceptionClass": "definition recall",
+      "options": [
+        {
+          "key": "A",
+          "text": "The pressure inside a liquid drop",
+          "correct": false,
+          "explanation": "Internal pressure is a different quantity.",
+          "misconception": "quantity swapped"
+        },
+        {
+          "key": "B",
+          "text": "The rate of evaporation from a surface",
+          "correct": false,
+          "explanation": "Evaporation rate is unrelated to tension here.",
+          "misconception": "process swapped"
+        },
+        {
+          "key": "C",
+          "text": "A liquid surface's capacity to resist external forces",
+          "correct": true,
+          "explanation": "That resistance comes from the inward hydrogen-bond pull on surface molecules.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "The weight of a liquid column",
+          "correct": false,
+          "explanation": "Weight is gravity's effect, not surface behaviour.",
+          "misconception": "gravity confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_fmBD7D8fXhfNFSK2::L3::Q2",
+      "moduleId": "rn_fmBD7D8fXhfNFSK2::L3",
+      "stem": "Why are surface water molecules pulled downward?",
+      "misconceptionClass": "inward pull",
+      "options": [
+        {
+          "key": "A",
+          "text": "Air pressure squeezes them down",
+          "correct": false,
+          "explanation": "Air pressure acts uniformly, not as the molecular mechanism.",
+          "misconception": "pressure miscredited"
+        },
+        {
+          "key": "B",
+          "text": "Gravity attracts only surface molecules",
+          "correct": false,
+          "explanation": "Gravity acts on all molecules equally.",
+          "misconception": "selective gravity"
+        },
+        {
+          "key": "C",
+          "text": "Their covalent bonds stretch downward",
+          "correct": false,
+          "explanation": "Covalent bonds stay internal to each molecule.",
+          "misconception": "bond confusion"
+        },
+        {
+          "key": "D",
+          "text": "Hydrogen bonds to neighbours below and beside them drag them inward",
+          "correct": true,
+          "explanation": "Missing neighbours above leave an unbalanced inward force.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_fmBD7D8fXhfNFSK2::L3::Q3",
+      "moduleId": "rn_fmBD7D8fXhfNFSK2::L3",
+      "stem": "Why does ice float on liquid water?",
+      "misconceptionClass": "floating cause",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ice's open hydrogen-bonded lattice leaves it about nine percent less dense",
+          "correct": true,
+          "explanation": "The spread-out solid structure drops below the liquid's density.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Ice has fewer electrons than water",
+          "correct": false,
+          "explanation": "Freezing changes no electron count.",
+          "misconception": "count invented"
+        },
+        {
+          "key": "C",
+          "text": "Liquid water loses hydrogen bonds entirely",
+          "correct": false,
+          "explanation": "Liquid water keeps a hydrogen-bonded network, just less ordered.",
+          "misconception": "network erased"
+        },
+        {
+          "key": "D",
+          "text": "Air trapped inside ice lowers its mass",
+          "correct": false,
+          "explanation": "The density gap is structural, not trapped air.",
+          "misconception": "artifact credited"
+        }
+      ]
+    },
+    {
+      "id": "rn_fmBD7D8fXhfNFSK2::L3::Q4",
+      "moduleId": "rn_fmBD7D8fXhfNFSK2::L3",
+      "stem": "Which statement compares packing in ice and liquid water?",
+      "misconceptionClass": "packing comparison",
+      "options": [
+        {
+          "key": "A",
+          "text": "Liquid water packs in an open lattice",
+          "correct": false,
+          "explanation": "The open lattice belongs to ice.",
+          "misconception": "structure swapped"
+        },
+        {
+          "key": "B",
+          "text": "Ice molecules sit slightly further apart because of the open lattice and long hydrogen-bond lengths",
+          "correct": true,
+          "explanation": "Both factors spread the solid structure.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Ice packs molecules more tightly than the liquid",
+          "correct": false,
+          "explanation": "That is true of most substances but not water.",
+          "misconception": "norm overapplied"
+        },
+        {
+          "key": "D",
+          "text": "Both states pack identically",
+          "correct": false,
+          "explanation": "Identical packing would give equal densities and no floating.",
+          "misconception": "no difference"
+        }
+      ]
+    },
+    {
+      "id": "rn_fmBD7D8fXhfNFSK2::L3::Q5",
+      "moduleId": "rn_fmBD7D8fXhfNFSK2::L3",
+      "stem": "Which everyday observation follows from water's high surface tension?",
+      "misconceptionClass": "consequence",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ice sinking in drinks",
+          "correct": false,
+          "explanation": "Ice floats, the opposite.",
+          "misconception": "trend wrong"
+        },
+        {
+          "key": "B",
+          "text": "Water boiling at 100 degrees",
+          "correct": false,
+          "explanation": "Boiling point is the earlier anomaly, not tension.",
+          "misconception": "anomaly swapped"
+        },
+        {
+          "key": "C",
+          "text": "Insects skating on pond water",
+          "correct": true,
+          "explanation": "The tensioned skin supports light loads from above.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Salt dissolving rapidly",
+          "correct": false,
+          "explanation": "Dissolution is a solvation story, not a tension one.",
+          "misconception": "topic drift"
+        }
+      ]
+    },
+    {
+      "id": "rn_fmBD7D8fXhfNFSK2::L3::Q6",
+      "moduleId": "rn_fmBD7D8fXhfNFSK2::L3",
+      "stem": "State the density relationship between ice and liquid water, with the percentage.",
+      "misconceptionClass": "density recall",
+      "kind": "recall",
+      "modelAnswer": "Ice is about nine percent less dense than liquid water, because its open hydrogen-bonded lattice spreads the molecules further apart.",
+      "keywords": [
+        "nine percent",
+        "less dense",
+        "open lattice"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_fmBD7D8fXhfNFSK2::L3::Q7",
+      "moduleId": "rn_fmBD7D8fXhfNFSK2::L3",
+      "stem": "Define surface tension in one sentence.",
+      "misconceptionClass": "definition recall",
+      "kind": "recall",
+      "modelAnswer": "Surface tension is a liquid surface's capacity to resist any external force pressing on it, produced by the inward pull on surface molecules.",
+      "keywords": [
+        "liquid surface",
+        "resist",
+        "external force"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_fmBD7D8fXhfNFSK2::L3::Q8",
+      "moduleId": "rn_fmBD7D8fXhfNFSK2::L3",
+      "stem": "Explain why the molecules at a liquid surface experience a net inward pull.",
+      "misconceptionClass": "unbalanced force reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "A surface molecule has hydrogen-bonded neighbours beside and below it but none above, so the attractions it feels no longer cancel in all directions and their sum points into the liquid.",
+      "keywords": [
+        "neighbours",
+        "inward",
+        "hydrogen"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_fmBD7D8fXhfNFSK2::L3::Q9",
+      "moduleId": "rn_fmBD7D8fXhfNFSK2::L3",
+      "stem": "Ice is nine percent less dense than liquid water. If liquid water's density is 1.00 g per cubic centimetre, estimate ice's density.",
+      "misconceptionClass": "density application",
+      "kind": "application",
+      "modelAnswer": "Nine percent below 1.00 gives about 0.91 g per cubic centimetre, the figure that keeps icebergs riding high.",
+      "keywords": [
+        "0.91",
+        "nine percent",
+        "density"
+      ],
+      "options": []
+    }
+  ]
+}

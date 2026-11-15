@@ -1,0 +1,487 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_7s9482Cg85J75x3y",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "951fd5b4060c3f06b33b64337c95de097f8d4e0573abd0831b50645b475af93d",
+    "pinnedRef": "0c6caf779f8358349ab3cd2564cc4cf713dd5d11"
+  },
+  "packageId": "ial-chemistry::rn_7s9482Cg85J75x3y",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_7s9482Cg85J75x3y::L1::Q1",
+      "moduleId": "rn_7s9482Cg85J75x3y::L1",
+      "stem": "Which ion's concentration controls how alkaline an oxide-water solution is?",
+      "misconceptionClass": "controlling ion",
+      "options": [
+        {
+          "key": "A",
+          "text": "OH-",
+          "correct": true,
+          "explanation": "Hydroxide concentration is the alkalinity dial.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "O2-",
+          "correct": false,
+          "explanation": "The oxide ion is consumed before the solution exists.",
+          "misconception": "intermediate confused"
+        },
+        {
+          "key": "C",
+          "text": "X2+",
+          "correct": false,
+          "explanation": "The cation rides along, not the driver.",
+          "misconception": "passenger promoted"
+        },
+        {
+          "key": "D",
+          "text": "H+",
+          "correct": false,
+          "explanation": "Alkalinity is hydroxide-driven here.",
+          "misconception": "dial wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_7s9482Cg85J75x3y::L1::Q2",
+      "moduleId": "rn_7s9482Cg85J75x3y::L1",
+      "stem": "Which hydroxide is the least soluble of Group 2 at 298 K?",
+      "misconceptionClass": "table minimum",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sr(OH)2, at 3.4 x 10-3",
+          "correct": false,
+          "explanation": "Third in the climb.",
+          "misconception": "rank confused"
+        },
+        {
+          "key": "B",
+          "text": "Mg(OH)2, at 2.0 x 10-5 mol per 100 g water",
+          "correct": true,
+          "explanation": "The table's smallest entry.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Ca(OH)2, at 1.5 x 10-3",
+          "correct": false,
+          "explanation": "That is the second step up.",
+          "misconception": "rank confused"
+        },
+        {
+          "key": "D",
+          "text": "Ba(OH)2, at 1.5 x 10-2",
+          "correct": false,
+          "explanation": "That is the maximum.",
+          "misconception": "rank confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_7s9482Cg85J75x3y::L1::Q3",
+      "moduleId": "rn_7s9482Cg85J75x3y::L1",
+      "stem": "How many hydroxide ions does one dissolved formula unit of X(OH)2 release?",
+      "misconceptionClass": "yield count",
+      "options": [
+        {
+          "key": "A",
+          "text": "Four",
+          "correct": false,
+          "explanation": "No quadrupling exists.",
+          "misconception": "count wrong"
+        },
+        {
+          "key": "B",
+          "text": "None until acid is added",
+          "correct": false,
+          "explanation": "Dissolution alone releases them.",
+          "misconception": "trigger confused"
+        },
+        {
+          "key": "C",
+          "text": "Two",
+          "correct": true,
+          "explanation": "The equation X(OH)2 -> X2+ + 2OH- doubles the yield.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "One",
+          "correct": false,
+          "explanation": "The subscript 2 forbids that.",
+          "misconception": "count wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_7s9482Cg85J75x3y::L1::Q4",
+      "moduleId": "rn_7s9482Cg85J75x3y::L1",
+      "stem": "Why does increasing hydroxide solubility raise the pH of the oxide solutions?",
+      "misconceptionClass": "pH linkage",
+      "options": [
+        {
+          "key": "A",
+          "text": "pH depends on the cation's identity",
+          "correct": false,
+          "explanation": "The cation is a spectator for pH.",
+          "misconception": "driver misassigned"
+        },
+        {
+          "key": "B",
+          "text": "Higher solubility lowers the pH",
+          "correct": false,
+          "explanation": "The direction is inverted.",
+          "misconception": "direction wrong"
+        },
+        {
+          "key": "C",
+          "text": "pH tracks temperature instead",
+          "correct": false,
+          "explanation": "Temperature is fixed at 298 K here.",
+          "misconception": "variable confused"
+        },
+        {
+          "key": "D",
+          "text": "More dissolved hydroxide means a higher OH- concentration and a higher pH",
+          "correct": true,
+          "explanation": "Concentration feeds the pH scale directly.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_7s9482Cg85J75x3y::L1::Q5",
+      "moduleId": "rn_7s9482Cg85J75x3y::L1",
+      "stem": "What is the correct trend statement for Group 2 hydroxide solubility?",
+      "misconceptionClass": "trend statement",
+      "options": [
+        {
+          "key": "A",
+          "text": "It increases going down the group",
+          "correct": true,
+          "explanation": "Magnesium to barium climbs in the table.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "It decreases going down the group",
+          "correct": false,
+          "explanation": "That is the sulfate trend.",
+          "misconception": "trend swapped"
+        },
+        {
+          "key": "C",
+          "text": "It is constant across the group",
+          "correct": false,
+          "explanation": "The table spans three orders of magnitude.",
+          "misconception": "flat myth"
+        },
+        {
+          "key": "D",
+          "text": "It peaks at calcium",
+          "correct": false,
+          "explanation": "The climb runs unbroken to barium.",
+          "misconception": "peak myth"
+        }
+      ]
+    },
+    {
+      "id": "rn_7s9482Cg85J75x3y::L1::Q6",
+      "moduleId": "rn_7s9482Cg85J75x3y::L1",
+      "stem": "Quote the solubility values of Mg(OH)2 and Ba(OH)2 at 298 K.",
+      "misconceptionClass": "figure recall",
+      "kind": "recall",
+      "modelAnswer": "Mg(OH)2 sits at 2.0 x 10-5 and Ba(OH)2 at 1.5 x 10-2 mol per 100 g of water.",
+      "keywords": [
+        "2.0 x 10-5",
+        "1.5 x 10-2",
+        "298 K"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_7s9482Cg85J75x3y::L1::Q7",
+      "moduleId": "rn_7s9482Cg85J75x3y::L1",
+      "stem": "Write the dissolution equation of a Group 2 hydroxide.",
+      "misconceptionClass": "equation recall",
+      "kind": "recall",
+      "modelAnswer": "X(OH)2 (aq) -> X2+ (aq) + 2OH- (aq).",
+      "keywords": [
+        "X(OH)2",
+        "X2+",
+        "2OH-"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_7s9482Cg85J75x3y::L1::Q8",
+      "moduleId": "rn_7s9482Cg85J75x3y::L1",
+      "stem": "Explain why the alkalinity trend of oxide solutions mirrors hydroxide solubility.",
+      "misconceptionClass": "mirror reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "The oxide's water reaction ends at the hydroxide; whatever controls how much hydroxide dissolves controls the OH- concentration, so the two trends are one trend read from two ends.",
+      "keywords": [
+        "hydroxide",
+        "concentration",
+        "trend"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_7s9482Cg85J75x3y::L1::Q9",
+      "moduleId": "rn_7s9482Cg85J75x3y::L1",
+      "stem": "If Sr(OH)2's solubility is 3.4 x 10-3 mol per 100 g water, what OH- concentration does each dissolved formula unit contribute?",
+      "misconceptionClass": "yield application",
+      "kind": "application",
+      "modelAnswer": "Two hydroxides per formula unit give 6.8 x 10-3 mol of OH- per 100 g of water.",
+      "keywords": [
+        "6.8 x 10-3",
+        "two",
+        "OH-"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_7s9482Cg85J75x3y::L2::Q1",
+      "moduleId": "rn_7s9482Cg85J75x3y::L2",
+      "stem": "Which Group 2 sulfate is effectively insoluble?",
+      "misconceptionClass": "sulfate floor",
+      "options": [
+        {
+          "key": "A",
+          "text": "SrSO4, slightly soluble",
+          "correct": false,
+          "explanation": "Strontium is second from the bottom.",
+          "misconception": "rank confused"
+        },
+        {
+          "key": "B",
+          "text": "BaSO4, the classic white precipitate",
+          "correct": true,
+          "explanation": "The descent bottoms out at barium.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "MgSO4, which dissolves well",
+          "correct": false,
+          "explanation": "Magnesium sits at the soluble top.",
+          "misconception": "rank confused"
+        },
+        {
+          "key": "D",
+          "text": "CaSO4, moderately soluble",
+          "correct": false,
+          "explanation": "Calcium is mid-trend.",
+          "misconception": "rank confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_7s9482Cg85J75x3y::L2::Q2",
+      "moduleId": "rn_7s9482Cg85J75x3y::L2",
+      "stem": "How does Group 2 sulfate solubility trend down the group?",
+      "misconceptionClass": "sulfate trend",
+      "options": [
+        {
+          "key": "A",
+          "text": "It is uniform",
+          "correct": false,
+          "explanation": "BaSO4's insolubility breaks any uniformity.",
+          "misconception": "flat myth"
+        },
+        {
+          "key": "B",
+          "text": "It oscillates",
+          "correct": false,
+          "explanation": "The descent is monotonic.",
+          "misconception": "oscillation myth"
+        },
+        {
+          "key": "C",
+          "text": "It decreases",
+          "correct": true,
+          "explanation": "Each step down dissolves less.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "It increases",
+          "correct": false,
+          "explanation": "That is the hydroxide trend.",
+          "misconception": "trend swapped"
+        }
+      ]
+    },
+    {
+      "id": "rn_7s9482Cg85J75x3y::L2::Q3",
+      "moduleId": "rn_7s9482Cg85J75x3y::L2",
+      "stem": "Why do Group 1 compounds never produce precipitates in cation tests?",
+      "misconceptionClass": "Group 1 solubility",
+      "options": [
+        {
+          "key": "A",
+          "text": "Their ions are too small to precipitate",
+          "correct": false,
+          "explanation": "Size is not the mechanism.",
+          "misconception": "mechanism wrong"
+        },
+        {
+          "key": "B",
+          "text": "They react with the test reagents",
+          "correct": false,
+          "explanation": "They simply stay dissolved.",
+          "misconception": "reaction myth"
+        },
+        {
+          "key": "C",
+          "text": "Precipitation tests exclude alkali metals by rule",
+          "correct": false,
+          "explanation": "The chemistry, not a rule, decides.",
+          "misconception": "rule myth"
+        },
+        {
+          "key": "D",
+          "text": "Every Group 1 compound dissolves in water",
+          "correct": true,
+          "explanation": "Universal solubility leaves nothing to precipitate.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_7s9482Cg85J75x3y::L2::Q4",
+      "moduleId": "rn_7s9482Cg85J75x3y::L2",
+      "stem": "How are Group 1 cations identified instead?",
+      "misconceptionClass": "method switch",
+      "options": [
+        {
+          "key": "A",
+          "text": "By flame tests, using their characteristic colours",
+          "correct": true,
+          "explanation": "Flame colours replace precipitation for the alkali metals.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "By adding sulfuric acid",
+          "correct": false,
+          "explanation": "No precipitate would form to read.",
+          "misconception": "method wrong"
+        },
+        {
+          "key": "C",
+          "text": "By measuring their pH",
+          "correct": false,
+          "explanation": "pH cannot distinguish cations.",
+          "misconception": "method wrong"
+        },
+        {
+          "key": "D",
+          "text": "Group 1 cations cannot be identified",
+          "correct": false,
+          "explanation": "Flame tests identify them clearly.",
+          "misconception": "defeatism"
+        }
+      ]
+    },
+    {
+      "id": "rn_7s9482Cg85J75x3y::L2::Q5",
+      "moduleId": "rn_7s9482Cg85J75x3y::L2",
+      "stem": "At 25 degrees C, how does Ba(OH)2's solubility compare with KOH's?",
+      "misconceptionClass": "comparison figures",
+      "options": [
+        {
+          "key": "A",
+          "text": "Neither is soluble enough to compare",
+          "correct": false,
+          "explanation": "Both figures are large and comparable.",
+          "misconception": "denial"
+        },
+        {
+          "key": "B",
+          "text": "Ba(OH)2 reaches 4.68 g per 100 cm3 while KOH reaches 121 g",
+          "correct": true,
+          "explanation": "The alkali metal hydroxide outruns the heaviest Group 2 one.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Ba(OH)2 is more soluble than KOH",
+          "correct": false,
+          "explanation": "The comparison goes the other way.",
+          "misconception": "direction wrong"
+        },
+        {
+          "key": "D",
+          "text": "Both dissolve equally",
+          "correct": false,
+          "explanation": "A 25-fold gap separates them.",
+          "misconception": "equality myth"
+        }
+      ]
+    },
+    {
+      "id": "rn_7s9482Cg85J75x3y::L2::Q6",
+      "moduleId": "rn_7s9482Cg85J75x3y::L2",
+      "stem": "State the sulfate solubility trend down Group 2.",
+      "misconceptionClass": "trend recall",
+      "kind": "recall",
+      "modelAnswer": "The solubility of Group 2 sulfates decreases going down the group.",
+      "keywords": [
+        "decreases",
+        "down the group",
+        "sulfates"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_7s9482Cg85J75x3y::L2::Q7",
+      "moduleId": "rn_7s9482Cg85J75x3y::L2",
+      "stem": "Quote the two solubility figures from the Group 1 comparison.",
+      "misconceptionClass": "figure recall",
+      "kind": "recall",
+      "modelAnswer": "Ba(OH)2 dissolves 4.68 g per 100 cm3 at 25 degrees C; KOH dissolves 121 g per 100 cm3.",
+      "keywords": [
+        "4.68",
+        "121",
+        "25"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_7s9482Cg85J75x3y::L2::Q8",
+      "moduleId": "rn_7s9482Cg85J75x3y::L2",
+      "stem": "Explain why 'Group 2 hydroxide solubility increases down the group' needs the group qualifier.",
+      "misconceptionClass": "scope reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "The claim ranks the hydroxides within Group 2 only; potassium hydroxide's 121 g dwarfs barium hydroxide's 4.68 g, so crossing group lines inverts the comparison.",
+      "keywords": [
+        "within Group 2",
+        "comparison",
+        "inverts"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_7s9482Cg85J75x3y::L2::Q9",
+      "moduleId": "rn_7s9482Cg85J75x3y::L2",
+      "stem": "How many times more soluble is KOH than Ba(OH)2 by the quoted figures, to the nearest whole number?",
+      "misconceptionClass": "ratio application",
+      "kind": "application",
+      "modelAnswer": "121 divided by 4.68 is about 26, so potassium hydroxide is roughly 26 times more soluble.",
+      "keywords": [
+        "26",
+        "times",
+        "KOH"
+      ],
+      "options": []
+    }
+  ]
+}

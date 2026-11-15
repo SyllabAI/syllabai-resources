@@ -1,0 +1,723 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_DsKdJTFpqmHq75HQ",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "e13a6eaeece3da73d2a848d4d21ea5fd915d23c29af5651060fb9e59d7788ffe",
+    "pinnedRef": "0c6caf779f8358349ab3cd2564cc4cf713dd5d11"
+  },
+  "packageId": "ial-chemistry::rn_DsKdJTFpqmHq75HQ",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_DsKdJTFpqmHq75HQ::L1::Q1",
+      "moduleId": "rn_DsKdJTFpqmHq75HQ::L1",
+      "stem": "Which description correctly pairs a force with where it acts?",
+      "misconceptionClass": "force location pairing",
+      "options": [
+        {
+          "key": "A",
+          "text": "Covalent bonds act within a single molecule",
+          "correct": true,
+          "explanation": "Shared electron pairs link atoms inside one molecule, which is the intramolecular setting.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Hydrogen bonds act within a single molecule",
+          "correct": false,
+          "explanation": "Hydrogen bonding links neighbouring molecules, never atoms inside one molecule.",
+          "misconception": "location inverted"
+        },
+        {
+          "key": "C",
+          "text": "Induced dipole forces act within the nucleus",
+          "correct": false,
+          "explanation": "Nuclear forces are outside the chemist's classification entirely.",
+          "misconception": "nonsense region"
+        },
+        {
+          "key": "D",
+          "text": "Intermolecular forces join two atoms into a new molecule",
+          "correct": false,
+          "explanation": "Joining atoms into a molecule is covalent bonding, the intramolecular job.",
+          "misconception": "role swapped"
+        }
+      ]
+    },
+    {
+      "id": "rn_DsKdJTFpqmHq75HQ::L1::Q2",
+      "moduleId": "rn_DsKdJTFpqmHq75HQ::L1",
+      "stem": "Which set lists the three intermolecular force types?",
+      "misconceptionClass": "taxonomy of the trio",
+      "options": [
+        {
+          "key": "A",
+          "text": "London, metallic, van der Waals",
+          "correct": false,
+          "explanation": "Metallic bonding does not appear in the intermolecular trio.",
+          "misconception": "intruder included"
+        },
+        {
+          "key": "B",
+          "text": "Induced dipole-dipole, permanent dipole-dipole, hydrogen bonding",
+          "correct": true,
+          "explanation": "These are exactly the three between-molecule attractions in the strength ladder.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Ionic, covalent, metallic",
+          "correct": false,
+          "explanation": "Those are the three intramolecular bond classes, not between-molecule forces.",
+          "misconception": "bond types misfiled"
+        },
+        {
+          "key": "D",
+          "text": "Single, double, triple",
+          "correct": false,
+          "explanation": "Those grade covalent bond order inside molecules.",
+          "misconception": "bond order confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_DsKdJTFpqmHq75HQ::L1::Q3",
+      "moduleId": "rn_DsKdJTFpqmHq75HQ::L1",
+      "stem": "Roughly how strong is one hydrogen bond compared with a covalent bond?",
+      "misconceptionClass": "strength ratio",
+      "options": [
+        {
+          "key": "A",
+          "text": "Exactly equal",
+          "correct": false,
+          "explanation": "Equality would erase the melting and boiling point patterns the ladder explains.",
+          "misconception": "ranks collapsed"
+        },
+        {
+          "key": "B",
+          "text": "About one thousandth as strong",
+          "correct": false,
+          "explanation": "That understates the hydrogen bond badly.",
+          "misconception": "ratio exaggerated"
+        },
+        {
+          "key": "C",
+          "text": "About one tenth as strong",
+          "correct": true,
+          "explanation": "The hydrogen bond reaches roughly a tenth of a covalent bond's strength, which still beats every other intermolecular pull.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "About ten times stronger",
+          "correct": false,
+          "explanation": "Nothing between molecules outmuscles a covalent bond by that margin.",
+          "misconception": "direction flipped"
+        }
+      ]
+    },
+    {
+      "id": "rn_DsKdJTFpqmHq75HQ::L1::Q4",
+      "moduleId": "rn_DsKdJTFpqmHq75HQ::L1",
+      "stem": "Which statement about the strength ladder is correct?",
+      "misconceptionClass": "ladder ordering",
+      "options": [
+        {
+          "key": "A",
+          "text": "Permanent dipole-dipole is the weakest type",
+          "correct": false,
+          "explanation": "Permanent dipoles outpull induced ones at equal size, so they cannot be last.",
+          "misconception": "ladder inverted"
+        },
+        {
+          "key": "B",
+          "text": "Hydrogen bonding is weaker than induced dipole-dipole",
+          "correct": false,
+          "explanation": "Hydrogen bonding tops the between-molecule ladder.",
+          "misconception": "top and bottom swapped"
+        },
+        {
+          "key": "C",
+          "text": "All three types share identical strength",
+          "correct": false,
+          "explanation": "The whole point of the ladder is that the ranks differ.",
+          "misconception": "ranks erased"
+        },
+        {
+          "key": "D",
+          "text": "Induced dipole-dipole is the weakest of the three intermolecular types",
+          "correct": true,
+          "explanation": "Fleeting dipoles give the gentlest attraction, sitting at the ladder's foot.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_DsKdJTFpqmHq75HQ::L1::Q5",
+      "moduleId": "rn_DsKdJTFpqmHq75HQ::L1",
+      "stem": "A single, double or co-ordinate bond belongs to which family?",
+      "misconceptionClass": "bond family membership",
+      "options": [
+        {
+          "key": "A",
+          "text": "Intramolecular forces",
+          "correct": true,
+          "explanation": "All of those bond orders are covalent links inside one molecule.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Intermolecular forces",
+          "correct": false,
+          "explanation": "Between-molecule attractions never come in single, double or co-ordinate varieties.",
+          "misconception": "family swapped"
+        },
+        {
+          "key": "C",
+          "text": "Hydrogen bonding",
+          "correct": false,
+          "explanation": "Hydrogen bonding is one intermolecular type, unrelated to bond order.",
+          "misconception": "category error"
+        },
+        {
+          "key": "D",
+          "text": "Nuclear attractions",
+          "correct": false,
+          "explanation": "Nuclear forces hold nuclei together, not molecules.",
+          "misconception": "wrong domain"
+        }
+      ]
+    },
+    {
+      "id": "rn_DsKdJTFpqmHq75HQ::L1::Q6",
+      "moduleId": "rn_DsKdJTFpqmHq75HQ::L1",
+      "stem": "State the difference between intramolecular and intermolecular forces, with one example of each.",
+      "misconceptionClass": "two families recall",
+      "kind": "recall",
+      "modelAnswer": "Intramolecular forces act inside one molecule, for example the covalent bonds sharing electron pairs; intermolecular forces act between neighbouring molecules, for example hydrogen bonding between water molecules.",
+      "keywords": [
+        "inside one molecule",
+        "between neighbouring molecules",
+        "covalent"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_DsKdJTFpqmHq75HQ::L1::Q7",
+      "moduleId": "rn_DsKdJTFpqmHq75HQ::L1",
+      "stem": "Name the three intermolecular force types in increasing strength order.",
+      "misconceptionClass": "trio recall",
+      "kind": "recall",
+      "modelAnswer": "Induced dipole-dipole comes first, permanent dipole-dipole second, and hydrogen bonding third as the strongest between-molecule attraction.",
+      "keywords": [
+        "induced dipole-dipole",
+        "permanent dipole-dipole",
+        "hydrogen bonding"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_DsKdJTFpqmHq75HQ::L1::Q8",
+      "moduleId": "rn_DsKdJTFpqmHq75HQ::L1",
+      "stem": "Explain why boiling a molecular liquid never breaks its covalent bonds.",
+      "misconceptionClass": "boiling versus bonding reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "Boiling only has to overcome the intermolecular attractions between molecules, which are far weaker than the covalent bonds inside each molecule, so the molecules separate intact and no covalent bond snaps.",
+      "keywords": [
+        "intermolecular",
+        "weaker",
+        "covalent"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_DsKdJTFpqmHq75HQ::L1::Q9",
+      "moduleId": "rn_DsKdJTFpqmHq75HQ::L1",
+      "stem": "A hydrogen bond carries one tenth of a covalent bond's strength. If a C-H covalent bond stores 413 kJ per mole, estimate the hydrogen bond energy per mole.",
+      "misconceptionClass": "ratio application",
+      "kind": "application",
+      "modelAnswer": "One tenth of 413 kJ per mole is 41.3 kJ per mole, so the hydrogen bond ranks far below the covalent bond yet still leads the intermolecular ladder.",
+      "keywords": [
+        "one tenth",
+        "41.3",
+        "intermolecular"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_DsKdJTFpqmHq75HQ::L2::Q1",
+      "moduleId": "rn_DsKdJTFpqmHq75HQ::L2",
+      "stem": "What creates a temporary dipole in a non-polar molecule?",
+      "misconceptionClass": "temporary dipole origin",
+      "options": [
+        {
+          "key": "A",
+          "text": "Its nucleus shifts between the atoms",
+          "correct": false,
+          "explanation": "Nuclei stay essentially fixed while electrons do the moving.",
+          "misconception": "movers swapped"
+        },
+        {
+          "key": "B",
+          "text": "Its electron cloud drifts and piles up unevenly on one side",
+          "correct": true,
+          "explanation": "Constant cloud motion concentrates charge momentarily, producing the fleeting dipole.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Its covalent bonds snap open",
+          "correct": false,
+          "explanation": "Bond breaking is far too energetic and unrelated to fleeting dipoles.",
+          "misconception": "wrong mechanism"
+        },
+        {
+          "key": "D",
+          "text": "A permanent charge separation built into the structure",
+          "correct": false,
+          "explanation": "A permanent separation would make the molecule polar, contradicting the premise.",
+          "misconception": "polarity smuggled in"
+        }
+      ]
+    },
+    {
+      "id": "rn_DsKdJTFpqmHq75HQ::L2::Q2",
+      "moduleId": "rn_DsKdJTFpqmHq75HQ::L2",
+      "stem": "Which statement about induced dipole-dipole forces is correct?",
+      "misconceptionClass": "induced force scope",
+      "options": [
+        {
+          "key": "A",
+          "text": "They require hydrogen attached to fluorine",
+          "correct": false,
+          "explanation": "That condition describes hydrogen bonding instead.",
+          "misconception": "wrong force cited"
+        },
+        {
+          "key": "B",
+          "text": "They appear only in the solid state",
+          "correct": false,
+          "explanation": "The forces operate in every physical state.",
+          "misconception": "state restricted"
+        },
+        {
+          "key": "C",
+          "text": "They exist between all atoms and molecules",
+          "correct": true,
+          "explanation": "Every electron cloud can flicker, so every pair feels this attraction.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "They exist only between non-polar molecules",
+          "correct": false,
+          "explanation": "Polar molecules also carry induced contributions on top of their permanent ones.",
+          "misconception": "scope narrowed"
+        }
+      ]
+    },
+    {
+      "id": "rn_DsKdJTFpqmHq75HQ::L2::Q3",
+      "moduleId": "rn_DsKdJTFpqmHq75HQ::L2",
+      "stem": "Why does the induced dipole in the neighbour form at all?",
+      "misconceptionClass": "induction mechanism",
+      "options": [
+        {
+          "key": "A",
+          "text": "The neighbour copies the dipole by convention",
+          "correct": false,
+          "explanation": "Copying is not a physical mechanism.",
+          "misconception": "anthropomorphic"
+        },
+        {
+          "key": "B",
+          "text": "Covalent bonds stretch across the gap",
+          "correct": false,
+          "explanation": "No shared pair bridges separate molecules here.",
+          "misconception": "bonding misassigned"
+        },
+        {
+          "key": "C",
+          "text": "Gravity pulls the heavier end round",
+          "correct": false,
+          "explanation": "Gravitational effects are negligible in molecular attraction.",
+          "misconception": "wrong physics"
+        },
+        {
+          "key": "D",
+          "text": "The temporary dipole's electric field distorts the neighbour's electron cloud",
+          "correct": true,
+          "explanation": "Charge asymmetry nearby polarises the adjacent cloud, inducing the matching dipole.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_DsKdJTFpqmHq75HQ::L2::Q4",
+      "moduleId": "rn_DsKdJTFpqmHq75HQ::L2",
+      "stem": "Propanone boils higher than butane even though both carry the same electron count. Why?",
+      "misconceptionClass": "equal-size comparison",
+      "options": [
+        {
+          "key": "A",
+          "text": "Propanone is polar, so its permanent dipole-dipole forces beat butane's induced ones",
+          "correct": true,
+          "explanation": "At equal electrons the induced contribution matches, so polarity decides the winner.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Butane has more electrons than propanone",
+          "correct": false,
+          "explanation": "The comparison fixes the electron count as equal.",
+          "misconception": "premise broken"
+        },
+        {
+          "key": "C",
+          "text": "Propanone has hydrogen bonds",
+          "correct": false,
+          "explanation": "Propanone's oxygen has no attached hydrogen, so no hydrogen bonding occurs.",
+          "misconception": "force invented"
+        },
+        {
+          "key": "D",
+          "text": "Butane is polar",
+          "correct": false,
+          "explanation": "Butane's symmetric hydrocarbon skeleton leaves it non-polar.",
+          "misconception": "polarity misassigned"
+        }
+      ]
+    },
+    {
+      "id": "rn_DsKdJTFpqmHq75HQ::L2::Q5",
+      "moduleId": "rn_DsKdJTFpqmHq75HQ::L2",
+      "stem": "Why are induced dipoles only temporary?",
+      "misconceptionClass": "temporality reason",
+      "options": [
+        {
+          "key": "A",
+          "text": "Covalent bonds drain the dipole",
+          "correct": false,
+          "explanation": "Nothing drains a dipole through a bond.",
+          "misconception": "mechanism invented"
+        },
+        {
+          "key": "B",
+          "text": "The electron clouds never stop moving",
+          "correct": true,
+          "explanation": "Ceaseless cloud motion keeps remaking and erasing the charge asymmetry.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "The molecules stop vibrating in solids",
+          "correct": false,
+          "explanation": "Vibration persists in every state.",
+          "misconception": "state claim false"
+        },
+        {
+          "key": "D",
+          "text": "Heat destroys the dipoles permanently",
+          "correct": false,
+          "explanation": "The flicker is intrinsic, not a temperature artefact.",
+          "misconception": "thermal story"
+        }
+      ]
+    },
+    {
+      "id": "rn_DsKdJTFpqmHq75HQ::L2::Q6",
+      "moduleId": "rn_DsKdJTFpqmHq75HQ::L2",
+      "stem": "Describe how a temporary dipole induces a dipole on a neighbouring molecule.",
+      "misconceptionClass": "induction recall",
+      "kind": "recall",
+      "modelAnswer": "The electron cloud drifts to one side giving a temporary dipole, whose electric field pulls the neighbour's cloud into a matching induced dipole, and the opposite ends then attract.",
+      "keywords": [
+        "temporary dipole",
+        "induced dipole",
+        "attract"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_DsKdJTFpqmHq75HQ::L2::Q7",
+      "moduleId": "rn_DsKdJTFpqmHq75HQ::L2",
+      "stem": "State the relative strength of permanent dipole-dipole and induced dipole-dipole forces for small molecules of equal electron count.",
+      "misconceptionClass": "strength recall",
+      "kind": "recall",
+      "modelAnswer": "Permanent dipole-dipole forces are stronger than induced dipole-dipole forces when the molecules are small and carry the same number of electrons.",
+      "keywords": [
+        "stronger",
+        "permanent",
+        "same number of electrons"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_DsKdJTFpqmHq75HQ::L2::Q8",
+      "moduleId": "rn_DsKdJTFpqmHq75HQ::L2",
+      "stem": "Explain why larger electron counts raise boiling points through induced forces alone.",
+      "misconceptionClass": "size effect reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "More electrons make cloud distortions bigger and more frequent, so the temporary dipoles are larger and the induced attractions stronger, which raises the energy needed to separate molecules.",
+      "keywords": [
+        "electrons",
+        "temporary",
+        "stronger"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_DsKdJTFpqmHq75HQ::L2::Q9",
+      "moduleId": "rn_DsKdJTFpqmHq75HQ::L2",
+      "stem": "Propanone needs more energy to separate its molecules than butane at equal electron count. If butane's intermolecular energy per mole is 22 kJ and polarity roughly doubles the pull, estimate propanone's figure.",
+      "misconceptionClass": "doubling application",
+      "kind": "application",
+      "modelAnswer": "Doubling 22 kJ per mole gives about 44 kJ per mole for propanone, the premium the permanent dipoles charge over the induced baseline.",
+      "keywords": [
+        "44",
+        "permanent",
+        "per mole"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_DsKdJTFpqmHq75HQ::L3::Q1",
+      "moduleId": "rn_DsKdJTFpqmHq75HQ::L3",
+      "stem": "Which elements must bond to hydrogen for hydrogen bonding to occur?",
+      "misconceptionClass": "donor condition",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sodium, potassium or calcium",
+          "correct": false,
+          "explanation": "These are metals, not the electronegative partners required.",
+          "misconception": "wrong block"
+        },
+        {
+          "key": "B",
+          "text": "Chlorine, bromine or iodine",
+          "correct": false,
+          "explanation": "Halogen bonds to hydrogen stay polar but fall short of hydrogen bonding strength.",
+          "misconception": "near-miss family"
+        },
+        {
+          "key": "C",
+          "text": "Oxygen, nitrogen or fluorine",
+          "correct": true,
+          "explanation": "Only these highly electronegative atoms polarise the hydrogen enough for the link.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Carbon, sulfur or phosphorus",
+          "correct": false,
+          "explanation": "None of these pull electron density hard enough from hydrogen.",
+          "misconception": "weaker donors offered"
+        }
+      ]
+    },
+    {
+      "id": "rn_DsKdJTFpqmHq75HQ::L3::Q2",
+      "moduleId": "rn_DsKdJTFpqmHq75HQ::L3",
+      "stem": "What does the hydrogen in a hydrogen bond reach toward?",
+      "misconceptionClass": "acceptor feature",
+      "options": [
+        {
+          "key": "A",
+          "text": "The covalent bond of the neighbour",
+          "correct": false,
+          "explanation": "The link forms to a lone pair, not into a bond.",
+          "misconception": "target wrong"
+        },
+        {
+          "key": "B",
+          "text": "The neighbour's nucleus",
+          "correct": false,
+          "explanation": "Direct nuclear contact is not the mechanism.",
+          "misconception": "mechanism wrong"
+        },
+        {
+          "key": "C",
+          "text": "Another hydrogen atom",
+          "correct": false,
+          "explanation": "Hydrogen-to-hydrogen contact is not hydrogen bonding.",
+          "misconception": "partner wrong"
+        },
+        {
+          "key": "D",
+          "text": "A lone pair on an oxygen, nitrogen or fluorine of a neighbouring molecule",
+          "correct": true,
+          "explanation": "The exposed positive hydrogen links to a lone pair facing it.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_DsKdJTFpqmHq75HQ::L3::Q3",
+      "moduleId": "rn_DsKdJTFpqmHq75HQ::L3",
+      "stem": "Why does a water molecule form two hydrogen bonds?",
+      "misconceptionClass": "water capacity",
+      "options": [
+        {
+          "key": "A",
+          "text": "Its oxygen carries two lone pairs",
+          "correct": true,
+          "explanation": "Each lone pair can face one delta-positive hydrogen of a neighbour.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "It has two hydrogen atoms only",
+          "correct": false,
+          "explanation": "Two hydrogens make it a donor, but the count of links formed is set by the lone pairs.",
+          "misconception": "donor confused with acceptor"
+        },
+        {
+          "key": "C",
+          "text": "It is the smallest molecule available",
+          "correct": false,
+          "explanation": "Size does not set the bonding count.",
+          "misconception": "irrelevant property"
+        },
+        {
+          "key": "D",
+          "text": "Its hydrogen atoms are unusually negative",
+          "correct": false,
+          "explanation": "The hydrogens are delta-positive, not negative.",
+          "misconception": "polarity flipped"
+        }
+      ]
+    },
+    {
+      "id": "rn_DsKdJTFpqmHq75HQ::L3::Q4",
+      "moduleId": "rn_DsKdJTFpqmHq75HQ::L3",
+      "stem": "Which ranking of hydrogen bonding is correct?",
+      "misconceptionClass": "hydrogen bond rank",
+      "options": [
+        {
+          "key": "A",
+          "text": "Equal in strength to permanent dipole-dipole forces",
+          "correct": false,
+          "explanation": "Hydrogen bonding is a strengthened sub-case, not an equal.",
+          "misconception": "ranks merged"
+        },
+        {
+          "key": "B",
+          "text": "Strongest intermolecular attraction, yet weaker than any covalent bond",
+          "correct": true,
+          "explanation": "It tops the between-molecule ladder while staying about a tenth of a covalent bond.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Stronger than covalent bonds",
+          "correct": false,
+          "explanation": "Nothing between molecules beats the bonds inside them.",
+          "misconception": "ladder broken"
+        },
+        {
+          "key": "D",
+          "text": "Weaker than induced dipole-dipole forces",
+          "correct": false,
+          "explanation": "Hydrogen bonding sits at the top, not the bottom.",
+          "misconception": "inverted"
+        }
+      ]
+    },
+    {
+      "id": "rn_DsKdJTFpqmHq75HQ::L3::Q5",
+      "moduleId": "rn_DsKdJTFpqmHq75HQ::L3",
+      "stem": "Why does the hydrogen become strongly positive in an O-H bond?",
+      "misconceptionClass": "polarity origin",
+      "options": [
+        {
+          "key": "A",
+          "text": "Oxygen repels the hydrogen nucleus",
+          "correct": false,
+          "explanation": "Repulsion is not the source of polarity.",
+          "misconception": "mechanism wrong"
+        },
+        {
+          "key": "B",
+          "text": "The bond is ionic from the start",
+          "correct": false,
+          "explanation": "An O-H bond is polar covalent, not fully ionic.",
+          "misconception": "character overclaimed"
+        },
+        {
+          "key": "C",
+          "text": "Oxygen pulls the shared electrons toward itself",
+          "correct": true,
+          "explanation": "High electronegativity drains density from hydrogen, exposing its positive character.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Hydrogen donates its proton",
+          "correct": false,
+          "explanation": "The proton stays covalently held; only electron density shifts.",
+          "misconception": "ionisation claimed"
+        }
+      ]
+    },
+    {
+      "id": "rn_DsKdJTFpqmHq75HQ::L3::Q6",
+      "moduleId": "rn_DsKdJTFpqmHq75HQ::L3",
+      "stem": "State the two requirements for hydrogen bonding between two molecules.",
+      "misconceptionClass": "requirements recall",
+      "kind": "recall",
+      "modelAnswer": "One molecule must carry hydrogen covalently bonded to oxygen, nitrogen or fluorine, and the other molecule must present a lone pair on such an atom for the hydrogen to reach.",
+      "keywords": [
+        "hydrogen",
+        "lone pair",
+        "fluorine"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_DsKdJTFpqmHq75HQ::L3::Q7",
+      "moduleId": "rn_DsKdJTFpqmHq75HQ::L3",
+      "stem": "Give the strength ladder from weakest to strongest for induced, permanent and hydrogen-bonded attractions.",
+      "misconceptionClass": "ladder recall",
+      "kind": "recall",
+      "modelAnswer": "Induced dipole-dipole is weakest, permanent dipole-dipole sits in the middle, and hydrogen bonding is the strongest intermolecular attraction.",
+      "keywords": [
+        "induced",
+        "permanent",
+        "hydrogen"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_DsKdJTFpqmHq75HQ::L3::Q8",
+      "moduleId": "rn_DsKdJTFpqmHq75HQ::L3",
+      "stem": "Explain why hydrogen bonding counts as a special case of permanent dipole-dipole attraction.",
+      "misconceptionClass": "sub-case reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "Both attractions run between fixed positive and negative ends of polar molecules; hydrogen bonding is the extreme version where electronegative atoms concentrate so much charge on hydrogen that a lone pair completes an unusually strong dipole link.",
+      "keywords": [
+        "polar",
+        "lone pair",
+        "dipole"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_DsKdJTFpqmHq75HQ::L3::Q9",
+      "moduleId": "rn_DsKdJTFpqmHq75HQ::L3",
+      "stem": "Ethanoic acid pairs up through two hydrogen bonds per dimer. If one hydrogen bond is worth 25 kJ per mole, how much extra energy does forming the double bridge contribute per mole of dimer?",
+      "misconceptionClass": "dimer application",
+      "kind": "application",
+      "modelAnswer": "Two hydrogen bonds at 25 kJ per mole each give 50 kJ per mole, which is why the dimer survives even in the gas phase.",
+      "keywords": [
+        "50",
+        "hydrogen bonds",
+        "dimer"
+      ],
+      "options": []
+    }
+  ]
+}

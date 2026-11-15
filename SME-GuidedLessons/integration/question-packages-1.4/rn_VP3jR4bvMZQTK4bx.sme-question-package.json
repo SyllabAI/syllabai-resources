@@ -1,0 +1,723 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_VP3jR4bvMZQTK4bx",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "1f58256b868f905e10e154c806db60742524a419a8f8013251e4e89cb87b2348",
+    "pinnedRef": "0c6caf779f8358349ab3cd2564cc4cf713dd5d11"
+  },
+  "packageId": "ial-chemistry::rn_VP3jR4bvMZQTK4bx",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_VP3jR4bvMZQTK4bx::L1::Q1",
+      "moduleId": "rn_VP3jR4bvMZQTK4bx::L1",
+      "stem": "What solution results when sodium oxide reacts with water?",
+      "misconceptionClass": "solution character",
+      "options": [
+        {
+          "key": "A",
+          "text": "A colourless alkaline solution of sodium hydroxide",
+          "correct": true,
+          "explanation": "The released OH- makes it alkaline.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "A colourless acidic solution",
+          "correct": false,
+          "explanation": "The oxide is basic, not acidic.",
+          "misconception": "character flipped"
+        },
+        {
+          "key": "C",
+          "text": "A white precipitate of sodium oxide",
+          "correct": false,
+          "explanation": "Sodium compounds stay dissolved.",
+          "misconception": "state wrong"
+        },
+        {
+          "key": "D",
+          "text": "A neutral solution",
+          "correct": false,
+          "explanation": "Hydroxide release forbids neutrality.",
+          "misconception": "character wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_VP3jR4bvMZQTK4bx::L1::Q2",
+      "moduleId": "rn_VP3jR4bvMZQTK4bx::L1",
+      "stem": "Which ionic equation captures the oxide-in-water step?",
+      "misconceptionClass": "ionic step",
+      "options": [
+        {
+          "key": "A",
+          "text": "O2- + OH- -> O2H3-",
+          "correct": false,
+          "explanation": "No such species exists.",
+          "misconception": "invented species"
+        },
+        {
+          "key": "B",
+          "text": "O2- + H2O -> 2OH-",
+          "correct": true,
+          "explanation": "The oxide ion protonates once and splits into two hydroxides.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "O2- + 2H+ -> H2O",
+          "correct": false,
+          "explanation": "That is neutralisation, not the water reaction.",
+          "misconception": "equation confused"
+        },
+        {
+          "key": "D",
+          "text": "O2- + H2O -> O2 + H2",
+          "correct": false,
+          "explanation": "No gas pair forms here.",
+          "misconception": "nonsense"
+        }
+      ]
+    },
+    {
+      "id": "rn_VP3jR4bvMZQTK4bx::L1::Q3",
+      "moduleId": "rn_VP3jR4bvMZQTK4bx::L1",
+      "stem": "What are the products when sodium hydroxide meets dilute sulfuric acid?",
+      "misconceptionClass": "acid pair products",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sodium sulfite and water",
+          "correct": false,
+          "explanation": "Sulfite implies SO3 2-, not the sulfate.",
+          "misconception": "anion confused"
+        },
+        {
+          "key": "B",
+          "text": "Sodium hydride and oxygen",
+          "correct": false,
+          "explanation": "No such swap occurs.",
+          "misconception": "nonsense"
+        },
+        {
+          "key": "C",
+          "text": "Sodium sulfate and water",
+          "correct": true,
+          "explanation": "The sulfate salt plus the neutralisation water.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Sodium sulfate and hydrogen",
+          "correct": false,
+          "explanation": "Hydrogen needs a metal above it in the series, not an acid-base pair.",
+          "misconception": "gas invented"
+        }
+      ]
+    },
+    {
+      "id": "rn_VP3jR4bvMZQTK4bx::L1::Q4",
+      "moduleId": "rn_VP3jR4bvMZQTK4bx::L1",
+      "stem": "Why is the NaOH + HCl equation a neutralisation?",
+      "misconceptionClass": "neutralisation logic",
+      "options": [
+        {
+          "key": "A",
+          "text": "Both reactants are neutral",
+          "correct": false,
+          "explanation": "NaOH is an alkali.",
+          "misconception": "premise wrong"
+        },
+        {
+          "key": "B",
+          "text": "A gas drives the reaction",
+          "correct": false,
+          "explanation": "No gas forms here.",
+          "misconception": "driver wrong"
+        },
+        {
+          "key": "C",
+          "text": "Electrons transfer",
+          "correct": false,
+          "explanation": "Acid-base chemistry transfers protons, not electrons.",
+          "misconception": "domain confusion"
+        },
+        {
+          "key": "D",
+          "text": "The alkali's hydroxide meets the acid's hydrogen ion to form water and a salt",
+          "correct": true,
+          "explanation": "That pairing is the neutralisation definition.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_VP3jR4bvMZQTK4bx::L1::Q5",
+      "moduleId": "rn_VP3jR4bvMZQTK4bx::L1",
+      "stem": "How many moles of NaOH neutralise one mole of H2SO4?",
+      "misconceptionClass": "capacity check",
+      "options": [
+        {
+          "key": "A",
+          "text": "Two",
+          "correct": true,
+          "explanation": "The diprotic acid needs two hydroxides.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "One",
+          "correct": false,
+          "explanation": "One hydroxide seats only one proton.",
+          "misconception": "undercount"
+        },
+        {
+          "key": "C",
+          "text": "Three",
+          "correct": false,
+          "explanation": "No third proton exists.",
+          "misconception": "overcount"
+        },
+        {
+          "key": "D",
+          "text": "Zero",
+          "correct": false,
+          "explanation": "Neutralisation clearly runs.",
+          "misconception": "denial"
+        }
+      ]
+    },
+    {
+      "id": "rn_VP3jR4bvMZQTK4bx::L1::Q6",
+      "moduleId": "rn_VP3jR4bvMZQTK4bx::L1",
+      "stem": "Write the equation for sodium oxide with water.",
+      "misconceptionClass": "equation recall",
+      "kind": "recall",
+      "modelAnswer": "Na2O (s) + H2O (l) -> 2NaOH (aq), a colourless alkaline solution.",
+      "keywords": [
+        "Na2O",
+        "2NaOH",
+        "alkaline"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_VP3jR4bvMZQTK4bx::L1::Q7",
+      "moduleId": "rn_VP3jR4bvMZQTK4bx::L1",
+      "stem": "State the ionic step that releases hydroxide ions in water.",
+      "misconceptionClass": "ionic recall",
+      "kind": "recall",
+      "modelAnswer": "O2- + H2O -> 2OH-, the step shared by Group 1 and Group 2 oxides.",
+      "keywords": [
+        "O2-",
+        "2OH-",
+        "water"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_VP3jR4bvMZQTK4bx::L1::Q8",
+      "moduleId": "rn_VP3jR4bvMZQTK4bx::L1",
+      "stem": "Explain why the oxide solution is alkaline.",
+      "misconceptionClass": "alkalinity reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "The oxide ion abstracts protons from water, releasing free hydroxide ions; any solution carrying excess OH- is alkaline by definition.",
+      "keywords": [
+        "oxide",
+        "hydroxide",
+        "alkaline"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_VP3jR4bvMZQTK4bx::L1::Q9",
+      "moduleId": "rn_VP3jR4bvMZQTK4bx::L1",
+      "stem": "Neutralising 0.5 moles of H2SO4 needs how many moles of NaOH, and how many moles of water form?",
+      "misconceptionClass": "capacity application",
+      "kind": "application",
+      "modelAnswer": "Two hydroxides per acid give 1.0 mole of NaOH and 1.0 mole of water from the doubled stoichiometry.",
+      "keywords": [
+        "1.0",
+        "moles",
+        "water"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_VP3jR4bvMZQTK4bx::L2::Q1",
+      "moduleId": "rn_VP3jR4bvMZQTK4bx::L2",
+      "stem": "Which Group 2 oxide is amphoteric rather than basic?",
+      "misconceptionClass": "exception item",
+      "options": [
+        {
+          "key": "A",
+          "text": "BaO",
+          "correct": false,
+          "explanation": "Barium oxide is strongly basic.",
+          "misconception": "basic member"
+        },
+        {
+          "key": "B",
+          "text": "BeO",
+          "correct": true,
+          "explanation": "Beryllium oxide acts as acid and base alike.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "MgO",
+          "correct": false,
+          "explanation": "Magnesium oxide is weakly basic.",
+          "misconception": "basic member"
+        },
+        {
+          "key": "D",
+          "text": "CaO",
+          "correct": false,
+          "explanation": "Calcium oxide is strongly basic.",
+          "misconception": "basic member"
+        }
+      ]
+    },
+    {
+      "id": "rn_VP3jR4bvMZQTK4bx::L2::Q2",
+      "moduleId": "rn_VP3jR4bvMZQTK4bx::L2",
+      "stem": "How does the alkalinity of oxide-water solutions trend down Group 2?",
+      "misconceptionClass": "alkalinity trend",
+      "options": [
+        {
+          "key": "A",
+          "text": "It stays at pH 7",
+          "correct": false,
+          "explanation": "Neutral solutions never appear.",
+          "misconception": "pH myth"
+        },
+        {
+          "key": "B",
+          "text": "It depends on the acid present",
+          "correct": false,
+          "explanation": "No acid participates in the water reaction.",
+          "misconception": "reagent confusion"
+        },
+        {
+          "key": "C",
+          "text": "It increases down the group",
+          "correct": true,
+          "explanation": "Higher hydroxide solubility drives the climb.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "It decreases down the group",
+          "correct": false,
+          "explanation": "The pH climbs, not sinks.",
+          "misconception": "direction wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_VP3jR4bvMZQTK4bx::L2::Q3",
+      "moduleId": "rn_VP3jR4bvMZQTK4bx::L2",
+      "stem": "What observation accompanies calcium oxide reacting with water?",
+      "misconceptionClass": "observation recall",
+      "options": [
+        {
+          "key": "A",
+          "text": "A slow, barely visible fizz",
+          "correct": false,
+          "explanation": "That underdescribes calcium oxide.",
+          "misconception": "understatement"
+        },
+        {
+          "key": "B",
+          "text": "A brown gas release",
+          "correct": false,
+          "explanation": "No gas forms in the water reaction.",
+          "misconception": "gas invented"
+        },
+        {
+          "key": "C",
+          "text": "Nothing observable",
+          "correct": false,
+          "explanation": "Boiling water is clearly visible.",
+          "misconception": "observation denied"
+        },
+        {
+          "key": "D",
+          "text": "A vigorous, exothermic reaction that boils some water as the lump expands",
+          "correct": true,
+          "explanation": "The table's observation line in action.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_VP3jR4bvMZQTK4bx::L2::Q4",
+      "moduleId": "rn_VP3jR4bvMZQTK4bx::L2",
+      "stem": "Why does the reaction of a Group 2 oxide with sulfuric acid slow down and stop?",
+      "misconceptionClass": "crust mechanism",
+      "options": [
+        {
+          "key": "A",
+          "text": "Insoluble sulfate forms on the oxide surface, blocking acid contact",
+          "correct": true,
+          "explanation": "The product layer cuts the reactants apart.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "The acid evaporates",
+          "correct": false,
+          "explanation": "Evaporation is not the stopper.",
+          "misconception": "mechanism wrong"
+        },
+        {
+          "key": "C",
+          "text": "The oxide melts",
+          "correct": false,
+          "explanation": "No melting occurs.",
+          "misconception": "nonsense"
+        },
+        {
+          "key": "D",
+          "text": "The water product dissolves the acid",
+          "correct": false,
+          "explanation": "Water dilutes but never stops it.",
+          "misconception": "mechanism wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_VP3jR4bvMZQTK4bx::L2::Q5",
+      "moduleId": "rn_VP3jR4bvMZQTK4bx::L2",
+      "stem": "Which practical measures limit the sulfate crust problem?",
+      "misconceptionClass": "mitigation",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using concentrated acid only",
+          "correct": false,
+          "explanation": "Concentration does not breach the crust.",
+          "misconception": "fix myth"
+        },
+        {
+          "key": "B",
+          "text": "Powdering the oxide and stirring the mixture",
+          "correct": true,
+          "explanation": "Both refresh the reacting surface.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Adding more oxide at once",
+          "correct": false,
+          "explanation": "More surface crusting follows.",
+          "misconception": "counterproductive"
+        },
+        {
+          "key": "D",
+          "text": "Cooling the mixture",
+          "correct": false,
+          "explanation": "Lower temperature slows everything.",
+          "misconception": "counterproductive"
+        }
+      ]
+    },
+    {
+      "id": "rn_VP3jR4bvMZQTK4bx::L2::Q6",
+      "moduleId": "rn_VP3jR4bvMZQTK4bx::L2",
+      "stem": "Write the equation for calcium oxide with water.",
+      "misconceptionClass": "equation recall",
+      "kind": "recall",
+      "modelAnswer": "CaO (s) + H2O (l) -> Ca(OH)2 (s), a vigorous reaction releasing much energy.",
+      "keywords": [
+        "CaO",
+        "Ca(OH)2",
+        "vigorous"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_VP3jR4bvMZQTK4bx::L2::Q7",
+      "moduleId": "rn_VP3jR4bvMZQTK4bx::L2",
+      "stem": "State the solubility and pH of magnesium oxide's water solution.",
+      "misconceptionClass": "MgO recall",
+      "kind": "recall",
+      "modelAnswer": "MgO is only slightly soluble, forming a weakly alkaline solution around pH 10.",
+      "keywords": [
+        "slightly soluble",
+        "pH 10",
+        "weakly alkaline"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_VP3jR4bvMZQTK4bx::L2::Q8",
+      "moduleId": "rn_VP3jR4bvMZQTK4bx::L2",
+      "stem": "Explain why the oxide-water solutions grow more alkaline down the group.",
+      "misconceptionClass": "trend reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "Hydroxide solubility rises down the group, so each oxide's water solution carries more dissolved OH- and reads a higher pH.",
+      "keywords": [
+        "solubility",
+        "hydroxide",
+        "pH"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_VP3jR4bvMZQTK4bx::L2::Q9",
+      "moduleId": "rn_VP3jR4bvMZQTK4bx::L2",
+      "stem": "If MgO's solution sits at pH 10 and BaO's at pH 13, how many times more hydroxide concentration does the barium solution carry?",
+      "misconceptionClass": "pH application",
+      "kind": "application",
+      "modelAnswer": "Three pH units mean 10 to the power 3, so the barium solution carries about 1000 times the hydroxide concentration.",
+      "keywords": [
+        "1000",
+        "pH",
+        "concentration"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_VP3jR4bvMZQTK4bx::L3::Q1",
+      "moduleId": "rn_VP3jR4bvMZQTK4bx::L3",
+      "stem": "What colour are the salt solutions from Group 2 hydroxides and dilute acids?",
+      "misconceptionClass": "solution colour",
+      "options": [
+        {
+          "key": "A",
+          "text": "Pink",
+          "correct": false,
+          "explanation": "No pink salts appear here.",
+          "misconception": "colour invented"
+        },
+        {
+          "key": "B",
+          "text": "White",
+          "correct": false,
+          "explanation": "Solutions are colourless; the solids are white.",
+          "misconception": "state confused"
+        },
+        {
+          "key": "C",
+          "text": "Colourless",
+          "correct": true,
+          "explanation": "The salt solutions are colourless throughout.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Blue",
+          "correct": false,
+          "explanation": "Blue belongs to copper salts, not Group 2.",
+          "misconception": "colour invented"
+        }
+      ]
+    },
+    {
+      "id": "rn_VP3jR4bvMZQTK4bx::L3::Q2",
+      "moduleId": "rn_VP3jR4bvMZQTK4bx::L3",
+      "stem": "What are the products of Ca(OH)2 with dilute hydrochloric acid?",
+      "misconceptionClass": "chloride pair",
+      "options": [
+        {
+          "key": "A",
+          "text": "CaCl2 and H2",
+          "correct": false,
+          "explanation": "No hydrogen forms in neutralisation.",
+          "misconception": "gas invented"
+        },
+        {
+          "key": "B",
+          "text": "Ca(OH)Cl and water",
+          "correct": false,
+          "explanation": "No basic salt forms.",
+          "misconception": "product invented"
+        },
+        {
+          "key": "C",
+          "text": "CaSO4 and water",
+          "correct": false,
+          "explanation": "That is the sulfuric acid route.",
+          "misconception": "acid confused"
+        },
+        {
+          "key": "D",
+          "text": "CaCl2 (aq) and H2O (l)",
+          "correct": true,
+          "explanation": "The chloride salt plus neutralisation water.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_VP3jR4bvMZQTK4bx::L3::Q3",
+      "moduleId": "rn_VP3jR4bvMZQTK4bx::L3",
+      "stem": "Which two sulfates appear as solids in the acid table?",
+      "misconceptionClass": "insoluble pair",
+      "options": [
+        {
+          "key": "A",
+          "text": "SrSO4 and BaSO4",
+          "correct": true,
+          "explanation": "The bottom pair precipitate white.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "MgSO4 and CaSO4",
+          "correct": false,
+          "explanation": "The top pair stay dissolved.",
+          "misconception": "pair inverted"
+        },
+        {
+          "key": "C",
+          "text": "BeSO4 and MgSO4",
+          "correct": false,
+          "explanation": "Both are soluble.",
+          "misconception": "membership wrong"
+        },
+        {
+          "key": "D",
+          "text": "BaSO4 and BaCl2",
+          "correct": false,
+          "explanation": "The chloride stays dissolved.",
+          "misconception": "mixed list"
+        }
+      ]
+    },
+    {
+      "id": "rn_VP3jR4bvMZQTK4bx::L3::Q4",
+      "moduleId": "rn_VP3jR4bvMZQTK4bx::L3",
+      "stem": "Why does the sulfate solubility trend matter in these reactions?",
+      "misconceptionClass": "trend relevance",
+      "options": [
+        {
+          "key": "A",
+          "text": "It has no bearing here",
+          "correct": false,
+          "explanation": "Barium sulfate's precipitate proves otherwise.",
+          "misconception": "denial"
+        },
+        {
+          "key": "B",
+          "text": "Falling sulfate solubility turns the lower group's products into white precipitates",
+          "correct": true,
+          "explanation": "The trend overlays the neutralisation.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "It changes the water stoichiometry",
+          "correct": false,
+          "explanation": "Stoichiometry is fixed by the acid's protons.",
+          "misconception": "confusion"
+        },
+        {
+          "key": "D",
+          "text": "It affects the chloride products too",
+          "correct": false,
+          "explanation": "Chlorides stay soluble throughout.",
+          "misconception": "spillover myth"
+        }
+      ]
+    },
+    {
+      "id": "rn_VP3jR4bvMZQTK4bx::L3::Q5",
+      "moduleId": "rn_VP3jR4bvMZQTK4bx::L3",
+      "stem": "What is the observation when Ba(OH)2 meets dilute sulfuric acid?",
+      "misconceptionClass": "observation",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hydrogen gas fizzes off",
+          "correct": false,
+          "explanation": "Neutralisation releases no gas.",
+          "misconception": "gas invented"
+        },
+        {
+          "key": "B",
+          "text": "The mixture boils",
+          "correct": false,
+          "explanation": "No boiling accompanies it.",
+          "misconception": "nonsense"
+        },
+        {
+          "key": "C",
+          "text": "A white precipitate of barium sulfate forms",
+          "correct": true,
+          "explanation": "The insoluble salt appears as the reaction runs.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "The solution turns pink",
+          "correct": false,
+          "explanation": "No indicator is present.",
+          "misconception": "colour invented"
+        }
+      ]
+    },
+    {
+      "id": "rn_VP3jR4bvMZQTK4bx::L3::Q6",
+      "moduleId": "rn_VP3jR4bvMZQTK4bx::L3",
+      "stem": "Write the equation for Mg(OH)2 with dilute sulfuric acid.",
+      "misconceptionClass": "equation recall",
+      "kind": "recall",
+      "modelAnswer": "Mg(OH)2 (s) + H2SO4 (aq) -> MgSO4 (aq) + 2H2O (l).",
+      "keywords": [
+        "Mg(OH)2",
+        "MgSO4",
+        "2H2O"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_VP3jR4bvMZQTK4bx::L3::Q7",
+      "moduleId": "rn_VP3jR4bvMZQTK4bx::L3",
+      "stem": "Describe barium sulfate's appearance and solubility.",
+      "misconceptionClass": "BaSO4 recall",
+      "kind": "recall",
+      "modelAnswer": "Barium sulfate is an insoluble white precipitate, the least soluble sulfate of the group.",
+      "keywords": [
+        "insoluble",
+        "white",
+        "precipitate"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_VP3jR4bvMZQTK4bx::L3::Q8",
+      "moduleId": "rn_VP3jR4bvMZQTK4bx::L3",
+      "stem": "Explain why one hydroxide formula unit absorbs two HCl molecules but only one H2SO4 molecule.",
+      "misconceptionClass": "stoichiometry reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "Each HCl donates one proton, so a two-hydroxide formula unit needs two; H2SO4 carries both protons internally, so one molecule seats the pair.",
+      "keywords": [
+        "proton",
+        "two",
+        "one"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_VP3jR4bvMZQTK4bx::L3::Q9",
+      "moduleId": "rn_VP3jR4bvMZQTK4bx::L3",
+      "stem": "Neutralising 0.1 moles of Ba(OH)2 with HCl needs how many moles of acid, and how many moles of water result?",
+      "misconceptionClass": "capacity application",
+      "kind": "application",
+      "modelAnswer": "Two HCl per hydroxide gives 0.2 moles of acid and 0.2 moles of water.",
+      "keywords": [
+        "0.2",
+        "HCl",
+        "water"
+      ],
+      "options": []
+    }
+  ]
+}

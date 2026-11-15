@@ -1,0 +1,284 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_tvnbH58Snqwr4DHH",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "3faeec16e277d1f39e8719a659ccfa1df6d01e14cf53616630af2ead623298ac",
+    "pinnedRef": "0c6caf779f8358349ab3cd2564cc4cf713dd5d11"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_tvnbH58Snqwr4DHH",
+    "topicTitle": "2. Energetics, Group Chemistry, Halogenoalkanes & Alcohols",
+    "subtopicTitle": "Ionic Equations",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/2-energetics-group-chemistry-halogenoalkanes-and-alcohols/2-3-redox-chemistry-and-acid-base-titrations/2-3-4-ionic-equations",
+    "specAnchors": [
+      {
+        "code": "3.2",
+        "text": "be able to describe the formation of ions in terms of loss or gain of electrons"
+      },
+      {
+        "code": "8.10",
+        "text": "be able to write ionic half-equations and use them to construct full ionic equations"
+      },
+      {
+        "code": "8.4",
+        "text": "be able to write formulae given oxidation numbers"
+      }
+    ],
+    "primer": {
+      "text": "Full equations hide the ion that actually reacts. Ionic equations strip the spectators away, and half equations expose each electron transfer separately. This note builds ions from metals and non-metals, names compounds from oxidation numbers, then assembles the manganate-iron(II) equation step by step until the electrons cancel perfectly.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_tvnbH58Snqwr4DHH::L1",
+        "title": "Naming from oxidation numbers, ions from electrons",
+        "sourceHeadings": [
+          "Chemical Formulae & Oxidation Numbers",
+          "Forming Anions & Cations"
+        ],
+        "specRefs": [
+          "8.4",
+          "3.2"
+        ],
+        "opening": "Oxidation numbers do double duty: they name compounds with variable-state metals and they track ion formation. This lesson names five transition-metal compounds from their states, then follows metals and non-metals as they shed or capture electrons.",
+        "keyPoints": [
+          "Roman numerals from oxidation numbers distinguish copper(I) oxide from copper(II) salts.",
+          "Potassium manganate(VII) carries Mn at +7 and sodium dichromate(VI) carries Cr at +6.",
+          "Metals form positive ions by losing electrons, so they are oxidised and their number rises.",
+          "Non-metals form negative ions by gaining electrons, so they are reduced and their number falls.",
+          "Sodium in water climbs 0 to +1, while oxygen reacting with sodium falls 0 to -2."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Read the ion charges, solve the variable metal's state, name with Roman numerals; then sort the reactants - metals donate electrons and climb, non-metals accept and fall.",
+            "analogy": "The oxidation number is a name tag printed at the door: compounds get labelled by their metal's tag, and the tag moves up or down exactly as electrons are handed over or taken in.",
+            "examPointer": "In naming items, charge-balance first - Cu2O's two coppers must absorb the single oxide's -2, so each copper reads +1."
+          },
+          "medium": {
+            "restatement": "Ion arithmetic resolves Stock names: Na2Cr2O7's two sodiums give +2, so the dichromate reads -2 and each chromium averages +6; the same arithmetic tracks cation and anion formation, where electron counts shift by whole numbers per atom.",
+            "analogy": "Splitting a restaurant bill: the fixed charges (oxide -2, sulfate -2) are known, and the variable metal's share is solved so the whole table settles to the observed total.",
+            "examPointer": "Distinguish chromate(VI) from dichromate(VI) by the 'di' prefix on the anion - both carry Cr at +6, but the ion formulas differ."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_tvnbH58Snqwr4DHH::L1::Q1",
+          "rn_tvnbH58Snqwr4DHH::L1::Q2",
+          "rn_tvnbH58Snqwr4DHH::L1::Q3",
+          "rn_tvnbH58Snqwr4DHH::L1::Q4",
+          "rn_tvnbH58Snqwr4DHH::L1::Q5",
+          "rn_tvnbH58Snqwr4DHH::L1::Q6",
+          "rn_tvnbH58Snqwr4DHH::L1::Q7",
+          "rn_tvnbH58Snqwr4DHH::L1::Q8",
+          "rn_tvnbH58Snqwr4DHH::L1::Q9"
+        ],
+        "figureIds": []
+      },
+      {
+        "id": "rn_tvnbH58Snqwr4DHH::L2",
+        "title": "Half equations and the dichromate build",
+        "sourceHeadings": [
+          "Constructing Ionic Equations",
+          "Half Equations and Ionic Equations"
+        ],
+        "specRefs": [
+          "8.10"
+        ],
+        "opening": "Half equations isolate each electron transfer; the four-step routine handles the complicated ones. This lesson builds the dichromate-iron(II) ionic equation from two halves, multiplying until every electron cancels.",
+        "keyPoints": [
+          "Half equations show only one half of an electron transfer: one species gaining or losing electrons.",
+          "Simple halves read directly, like Pb2+ + 2e- -> Pb or 2Br- -> Br2 + 2e-.",
+          "Oxygen-bearing ions need the four steps: balance the key atom, add H2O, add H+, add e-.",
+          "The dichromate half becomes Cr2O7 2- + 14H+ + 6e- -> 2Cr3+ + 7H2O.",
+          "Multiplying the iron half by 6 lets the electrons cancel into the full ionic equation."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Write each half separately, then scale them until the electron counts match, add everything together, and the electrons vanish into a clean ionic equation.",
+            "analogy": "Two shopping lists paid in one currency: multiply quantities until both lists cost the same number of coins, then merge - the coins (electrons) net out.",
+            "examPointer": "Electrons must NEVER appear in the final ionic equation - a leftover e- means the halves were scaled wrongly."
+          },
+          "medium": {
+            "restatement": "The four-step routine enforces atom, then oxygen (via water), then hydrogen (via H+), then charge (via e-) balance; matching the 6-electron reduction to six 1-electron oxidations aligns the ledger before cancellation.",
+            "analogy": "Tuning two engines to the same gear ratio: one turns 6 slow units, the other 6 fast ones, and the coupling cancels the mismatch.",
+            "examPointer": "Verify the dichromate half by charge arithmetic: the left side -2 + 14 - 6 = +6 and the right side 2 x (+3) = +6, so the half balances exactly."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_tvnbH58Snqwr4DHH::L2::Q1",
+          "rn_tvnbH58Snqwr4DHH::L2::Q2",
+          "rn_tvnbH58Snqwr4DHH::L2::Q3",
+          "rn_tvnbH58Snqwr4DHH::L2::Q4",
+          "rn_tvnbH58Snqwr4DHH::L2::Q5",
+          "rn_tvnbH58Snqwr4DHH::L2::Q6",
+          "rn_tvnbH58Snqwr4DHH::L2::Q7",
+          "rn_tvnbH58Snqwr4DHH::L2::Q8",
+          "rn_tvnbH58Snqwr4DHH::L2::Q9"
+        ],
+        "figureIds": []
+      },
+      {
+        "id": "rn_tvnbH58Snqwr4DHH::L3",
+        "title": "Balancing the manganate-iron equation directly",
+        "sourceHeadings": [
+          "Balancing full ionic equations"
+        ],
+        "specRefs": [
+          "8.10"
+        ],
+        "opening": "Oxidation numbers alone can balance a full ionic equation without writing the halves. This lesson runs the five-step direct method on MnO4- versus Fe2+, where manganese falls 5 units and iron climbs 1, and the coefficients fall out of the ledger.",
+        "keyPoints": [
+          "Step 1 writes the unbalanced equation and flags the changing atoms: Mn and Fe.",
+          "Step 2 deduces the changes: Mn falls +7 to +2 and Fe rises +2 to +3.",
+          "Step 3 scales the ledger: one 5-unit fall needs five 1-unit climbs.",
+          "Step 4 balances charge with 8 H+ on the left, and step 5 balances atoms with 4 H2O.",
+          "The finished ionic equation is MnO4- + 5Fe2+ + 8H+ -> Mn2+ + 5Fe3+ + 4H2O."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Spot who changes, count the units each way, scale to equalise, then patch with H+ and water until charges and atoms agree.",
+            "analogy": "Weighing two baskets on a balance: add iron coins (1 unit each) until they match the single manganese weight (5 units), then pour in acid and water until the whole scale settles.",
+            "examPointer": "The 1:5 ratio of MnO4- to Fe2+ is the exam's favourite quotient - derive it from the 5-unit fall, never from memory alone."
+          },
+          "medium": {
+            "restatement": "The ledger sets 1 MnO4- per 5 Fe2+; charge arithmetic then demands 8 H+, with the left side -1 + 10 + 8 = +17 matching the right side +2 + 15 = +17, and 4 H2O closes oxygen and hydrogen together.",
+            "analogy": "A three-column spreadsheet - atoms, charge, electrons - where fixing two columns forces the third; the ledger fixes columns two and three at once.",
+            "examPointer": "Show the charge arithmetic line explicitly: -1 + 10 + 8 = +2 + 15 = +17 - the verification earns the method marks."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_tvnbH58Snqwr4DHH::L3::Q1",
+          "rn_tvnbH58Snqwr4DHH::L3::Q2",
+          "rn_tvnbH58Snqwr4DHH::L3::Q3",
+          "rn_tvnbH58Snqwr4DHH::L3::Q4",
+          "rn_tvnbH58Snqwr4DHH::L3::Q5",
+          "rn_tvnbH58Snqwr4DHH::L3::Q6",
+          "rn_tvnbH58Snqwr4DHH::L3::Q7",
+          "rn_tvnbH58Snqwr4DHH::L3::Q8",
+          "rn_tvnbH58Snqwr4DHH::L3::Q9"
+        ],
+        "figureIds": [
+          "fig-01",
+          "fig-02",
+          "fig-03",
+          "fig-04",
+          "fig-05"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "half equation",
+          "definition": "An equation showing one leg of an electron transfer, with electrons written explicitly on the gaining or losing side.",
+          "firstLesson": 2
+        },
+        {
+          "term": "ionic equation",
+          "definition": "An equation showing only the reacting ions, with spectator species omitted.",
+          "firstLesson": 2
+        },
+        {
+          "term": "spectator ion",
+          "definition": "An ion present in the mixture that takes no part in the electron transfer and is omitted from ionic equations.",
+          "firstLesson": 2
+        }
+      ],
+      "workedExample": {
+        "prompt": "Use the oxidation-number ledger to write the overall redox equation for manganate(VII) ions oxidising iron(II) ions in acid.",
+        "steps": [
+          "Step 1 - skeleton: MnO4- + Fe2+ -> Mn2+ + Fe3+, flagging Mn and Fe as the changing atoms.",
+          "Step 2 - deduce changes: Mn falls +7 to +2 (5 units); Fe rises +2 to +3 (1 unit).",
+          "Step 3 - balance the ledger: one 5-unit fall needs five 1-unit climbs, so 5Fe2+ per MnO4-.",
+          "Step 4 - balance charge with 8H+ on the left: -1 + 10 + 8 = +17 matches +2 + 15 = +17.",
+          "Step 5 - balance atoms with 4H2O: the ion's 4 oxygens and the 8 hydrogens close, giving MnO4- + 5Fe2+ + 8H+ -> Mn2+ + 5Fe3+ + 4H2O."
+        ],
+        "finalAnswer": "MnO4- + 5Fe2+ + 8H+ -> Mn2+ + 5Fe3+ + 4H2O, ledger ratio 1:5."
+      }
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/35ec25d89dbc-1-6-electrochemistry-step-1-writing-overall-redo.png",
+        "alt": "Electrochemistry Step 1 Writing overall redox reactions, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Balancing full ionic equations",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-02",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/cc50f9ecd681-1-6-electrochemistry-step-2-writing-overall-redo.png",
+        "alt": "Electrochemistry Step 2 Writing overall redox reactions, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Balancing full ionic equations",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-03",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/6b1757e2923d-1-6-electrochemistry-step-3-writing-overall-redo.png",
+        "alt": "Electrochemistry Step 3 Writing overall redox reactions, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Balancing full ionic equations",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-04",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/aaed5cb4d986-1-6-electrochemistry-step-4-writing-overall-redo.png",
+        "alt": "Electrochemistry Step 4 Writing overall redox reactions, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Balancing full ionic equations",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-05",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/031600ce626b-1-6-electrochemistry-step-5-writing-overall-redo.png",
+        "alt": "Electrochemistry Step 5 Writing overall redox reactions, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Balancing full ionic equations",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique"
+      }
+    ]
+  }
+}

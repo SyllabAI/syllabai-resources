@@ -1,0 +1,487 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_NcjPsfQzYy9ph4mZ",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "05d49b21e81d73f02a5eddf981e7eae68c17e732a48b8f51932e2b7a6fa9d094",
+    "pinnedRef": "0c6caf779f8358349ab3cd2564cc4cf713dd5d11"
+  },
+  "packageId": "ial-chemistry::rn_NcjPsfQzYy9ph4mZ",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_NcjPsfQzYy9ph4mZ::L1::Q1",
+      "moduleId": "rn_NcjPsfQzYy9ph4mZ::L1",
+      "stem": "What defines a disproportionation reaction?",
+      "misconceptionClass": "definition check",
+      "options": [
+        {
+          "key": "A",
+          "text": "One species is simultaneously oxidised and reduced",
+          "correct": true,
+          "explanation": "The split into two directions is the defining signature.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Two different species exchange electrons",
+          "correct": false,
+          "explanation": "That is ordinary redox between partners.",
+          "misconception": "ordinary redox confused"
+        },
+        {
+          "key": "C",
+          "text": "A species neither gains nor loses electrons",
+          "correct": false,
+          "explanation": "No transfer means no redox at all.",
+          "misconception": "nonsense"
+        },
+        {
+          "key": "D",
+          "text": "One element replaces another",
+          "correct": false,
+          "explanation": "Displacement is a different reaction family.",
+          "misconception": "family confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_NcjPsfQzYy9ph4mZ::L1::Q2",
+      "moduleId": "rn_NcjPsfQzYy9ph4mZ::L1",
+      "stem": "In chlorine water, which products does chlorine divide into?",
+      "misconceptionClass": "chlorine split",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chlorine at 0 and oxygen at -2",
+          "correct": false,
+          "explanation": "Oxygen is not the split partner here.",
+          "misconception": "species wrong"
+        },
+        {
+          "key": "B",
+          "text": "Chloride at -1 and chlorate(I) at +1",
+          "correct": true,
+          "explanation": "One leg down, one leg up from 0.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Chloride at -1 and chlorine at 0",
+          "correct": false,
+          "explanation": "The second product must carry a different state.",
+          "misconception": "half split"
+        },
+        {
+          "key": "D",
+          "text": "Chlorate(V) at +5 and chloride at -1",
+          "correct": false,
+          "explanation": "That belongs to the hot-alkali case, not chlorine water.",
+          "misconception": "case swapped"
+        }
+      ]
+    },
+    {
+      "id": "rn_NcjPsfQzYy9ph4mZ::L1::Q3",
+      "moduleId": "rn_NcjPsfQzYy9ph4mZ::L1",
+      "stem": "Why must the starting oxidation state sit between the two product states?",
+      "misconceptionClass": "geometry requirement",
+      "options": [
+        {
+          "key": "A",
+          "text": "Because both products are gases",
+          "correct": false,
+          "explanation": "Physical state is irrelevant.",
+          "misconception": "irrelevance"
+        },
+        {
+          "key": "B",
+          "text": "So the equation balances by mass",
+          "correct": false,
+          "explanation": "Mass balance is automatic; the state geometry is the point.",
+          "misconception": "confusion"
+        },
+        {
+          "key": "C",
+          "text": "One leg must go up and one leg down for simultaneous oxidation and reduction",
+          "correct": true,
+          "explanation": "The split requires an accessible state on both sides.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "The periodic table forbids otherwise",
+          "correct": false,
+          "explanation": "No such prohibition exists.",
+          "misconception": "myth"
+        }
+      ]
+    },
+    {
+      "id": "rn_NcjPsfQzYy9ph4mZ::L1::Q4",
+      "moduleId": "rn_NcjPsfQzYy9ph4mZ::L1",
+      "stem": "Which statement about the electron ledger in disproportionation is correct?",
+      "misconceptionClass": "ledger closure",
+      "options": [
+        {
+          "key": "A",
+          "text": "External ions supply the missing electrons",
+          "correct": false,
+          "explanation": "No external partner exists.",
+          "misconception": "partner invented"
+        },
+        {
+          "key": "B",
+          "text": "Electrons appear as free particles in the products",
+          "correct": false,
+          "explanation": "Electrons never appear in balanced equations.",
+          "misconception": "nonsense"
+        },
+        {
+          "key": "C",
+          "text": "The legs run in separate vessels",
+          "correct": false,
+          "explanation": "The legs run in one reaction mixture.",
+          "misconception": "physical myth"
+        },
+        {
+          "key": "D",
+          "text": "Electrons lost on the oxidation leg exactly equal those gained on the reduction leg",
+          "correct": true,
+          "explanation": "The ledger closes inside one species.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_NcjPsfQzYy9ph4mZ::L1::Q5",
+      "moduleId": "rn_NcjPsfQzYy9ph4mZ::L1",
+      "stem": "Which of these is NOT required to identify a reaction as disproportionation?",
+      "misconceptionClass": "checklist item",
+      "options": [
+        {
+          "key": "A",
+          "text": "A metal catalyst speeding the reaction",
+          "correct": true,
+          "explanation": "Catalysis plays no role in the definition.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "A single species containing the element",
+          "correct": false,
+          "explanation": "The reactant must hold one relevant species.",
+          "misconception": "required"
+        },
+        {
+          "key": "C",
+          "text": "One product at a higher oxidation number",
+          "correct": false,
+          "explanation": "The upward leg is required.",
+          "misconception": "required"
+        },
+        {
+          "key": "D",
+          "text": "One product at a lower oxidation number",
+          "correct": false,
+          "explanation": "The downward leg is required.",
+          "misconception": "required"
+        }
+      ]
+    },
+    {
+      "id": "rn_NcjPsfQzYy9ph4mZ::L1::Q6",
+      "moduleId": "rn_NcjPsfQzYy9ph4mZ::L1",
+      "stem": "State the definition of a disproportionation reaction.",
+      "misconceptionClass": "definition recall",
+      "kind": "recall",
+      "modelAnswer": "Disproportionation is the reaction type in which a single species is oxidised and reduced at the same instant, splitting one element across two products.",
+      "keywords": [
+        "single species",
+        "oxidised",
+        "reduced"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_NcjPsfQzYy9ph4mZ::L1::Q7",
+      "moduleId": "rn_NcjPsfQzYy9ph4mZ::L1",
+      "stem": "Give the two oxidation numbers chlorine lands on in chlorine water.",
+      "misconceptionClass": "destination recall",
+      "kind": "recall",
+      "modelAnswer": "Chlorine lands on -1 as chloride and +1 as chlorate(I), split from its starting 0.",
+      "keywords": [
+        "-1",
+        "+1",
+        "chloride"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_NcjPsfQzYy9ph4mZ::L1::Q8",
+      "moduleId": "rn_NcjPsfQzYy9ph4mZ::L1",
+      "stem": "Explain why disproportionation needs no external oxidising or reducing agent.",
+      "misconceptionClass": "self-sufficiency reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "The species supplies both roles: some of its atoms lose electrons and some gain them, so the electron ledger closes internally within one reactant.",
+      "keywords": [
+        "electrons",
+        "internally",
+        "roles"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_NcjPsfQzYy9ph4mZ::L1::Q9",
+      "moduleId": "rn_NcjPsfQzYy9ph4mZ::L1",
+      "stem": "Chlorine water splits Cl at 0 into -1 and +1. If one chlorine atom oxidises by 1 unit, how many must reduce by 1 unit to close the ledger?",
+      "misconceptionClass": "ledger application",
+      "kind": "application",
+      "modelAnswer": "One atom losing 1 electron feeds exactly one atom gaining 1 electron, so the split is one-to-one in that case.",
+      "keywords": [
+        "one",
+        "ledger",
+        "unit"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_NcjPsfQzYy9ph4mZ::L2::Q1",
+      "moduleId": "rn_NcjPsfQzYy9ph4mZ::L2",
+      "stem": "In hot concentrated NaOH, chlorine ends as which two ions?",
+      "misconceptionClass": "hot alkali products",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cl2 and OH-",
+          "correct": false,
+          "explanation": "Those are reactants, not products.",
+          "misconception": "side swapped"
+        },
+        {
+          "key": "B",
+          "text": "Cl- and ClO3-",
+          "correct": true,
+          "explanation": "Chloride and chlorate(V) are the hot-alkali destinations.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Cl- and ClO-",
+          "correct": false,
+          "explanation": "That is the cold, dilute alkali case.",
+          "misconception": "case swapped"
+        },
+        {
+          "key": "D",
+          "text": "ClO3- and H2",
+          "correct": false,
+          "explanation": "No hydrogen product appears in this reaction.",
+          "misconception": "product invented"
+        }
+      ]
+    },
+    {
+      "id": "rn_NcjPsfQzYy9ph4mZ::L2::Q2",
+      "moduleId": "rn_NcjPsfQzYy9ph4mZ::L2",
+      "stem": "Which oxidation-number changes drive the balancing?",
+      "misconceptionClass": "ledger reading",
+      "options": [
+        {
+          "key": "A",
+          "text": "Oxygen changes from -2 to 0",
+          "correct": false,
+          "explanation": "Oxygen stays -2 throughout.",
+          "misconception": "bystander promoted"
+        },
+        {
+          "key": "B",
+          "text": "Sodium changes from +1 to 0",
+          "correct": false,
+          "explanation": "Sodium is a spectator ion here.",
+          "misconception": "spectator promoted"
+        },
+        {
+          "key": "C",
+          "text": "Chlorine falls 0 to -1 and climbs 0 to +5",
+          "correct": true,
+          "explanation": "One down-leg and one up-leg define the split.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Chlorine falls 0 to -1 only",
+          "correct": false,
+          "explanation": "Disproportionation needs both legs.",
+          "misconception": "half ledger"
+        }
+      ]
+    },
+    {
+      "id": "rn_NcjPsfQzYy9ph4mZ::L2::Q3",
+      "moduleId": "rn_NcjPsfQzYy9ph4mZ::L2",
+      "stem": "Why does the 5Cl- to 1ClO3- ratio appear in the balanced equation?",
+      "misconceptionClass": "ratio origin",
+      "options": [
+        {
+          "key": "A",
+          "text": "Five chlorides are heavier",
+          "correct": false,
+          "explanation": "Mass plays no role in the ratio's origin.",
+          "misconception": "mass myth"
+        },
+        {
+          "key": "B",
+          "text": "The chlorate ion holds five oxygens",
+          "correct": false,
+          "explanation": "It holds three, and oxygens do not set the ratio.",
+          "misconception": "structure misread"
+        },
+        {
+          "key": "C",
+          "text": "Sodium hydroxide forces the ratio",
+          "correct": false,
+          "explanation": "The alkali supplies charge balance, not the chlorine headcount.",
+          "misconception": "reagent myth"
+        },
+        {
+          "key": "D",
+          "text": "One chlorine climbs 5 units, so five chlorines must each fall 1 unit to balance the ledger",
+          "correct": true,
+          "explanation": "The electron ledger fixes the headcount.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_NcjPsfQzYy9ph4mZ::L2::Q4",
+      "moduleId": "rn_NcjPsfQzYy9ph4mZ::L2",
+      "stem": "How many hydroxide ions appear on the reactant side, and why?",
+      "misconceptionClass": "charge patch",
+      "options": [
+        {
+          "key": "A",
+          "text": "Six, matching the six negative charges among the products",
+          "correct": true,
+          "explanation": "Step 4 patches charge with hydroxide.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Three, matching three waters",
+          "correct": false,
+          "explanation": "The waters belong to step 5, not the charge patch.",
+          "misconception": "step confused"
+        },
+        {
+          "key": "C",
+          "text": "Five, matching five chlorides",
+          "correct": false,
+          "explanation": "The chlorides carry only part of the product charge.",
+          "misconception": "partial count"
+        },
+        {
+          "key": "D",
+          "text": "None, because NaOH stays whole",
+          "correct": false,
+          "explanation": "The ionic form exposes the hydroxide's role.",
+          "misconception": "form confusion"
+        }
+      ]
+    },
+    {
+      "id": "rn_NcjPsfQzYy9ph4mZ::L2::Q5",
+      "moduleId": "rn_NcjPsfQzYy9ph4mZ::L2",
+      "stem": "What final census verifies the balanced equation 3Cl2 + 6OH- -> 5Cl- + ClO3- + 3H2O?",
+      "misconceptionClass": "census check",
+      "options": [
+        {
+          "key": "A",
+          "text": "Only the charge needs checking",
+          "correct": false,
+          "explanation": "Both atoms and charges must close.",
+          "misconception": "half check"
+        },
+        {
+          "key": "B",
+          "text": "6 chlorine, 6 oxygen and 6 hydrogen atoms on each side",
+          "correct": true,
+          "explanation": "The full atom census closes on both sides.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "3 chlorine on each side",
+          "correct": false,
+          "explanation": "Three Cl2 molecules hold six atoms.",
+          "misconception": "census miscount"
+        },
+        {
+          "key": "D",
+          "text": "9 oxygens on the right",
+          "correct": false,
+          "explanation": "Three waters plus one chlorate hold six.",
+          "misconception": "count wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_NcjPsfQzYy9ph4mZ::L2::Q6",
+      "moduleId": "rn_NcjPsfQzYy9ph4mZ::L2",
+      "stem": "List the five steps for balancing a disproportionation equation.",
+      "misconceptionClass": "method recall",
+      "kind": "recall",
+      "modelAnswer": "Write the unbalanced equation, deduce the oxidation-number changes, balance the number changes, balance the charges, then balance the atoms.",
+      "keywords": [
+        "unbalanced",
+        "changes",
+        "charges"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_NcjPsfQzYy9ph4mZ::L2::Q7",
+      "moduleId": "rn_NcjPsfQzYy9ph4mZ::L2",
+      "stem": "Write the balanced equation for chlorine in hot concentrated sodium hydroxide.",
+      "misconceptionClass": "equation recall",
+      "kind": "recall",
+      "modelAnswer": "3Cl2 + 6OH- -> 5Cl- + ClO3- + 3H2O closes the chlorine, oxygen and hydrogen censuses.",
+      "keywords": [
+        "3Cl2",
+        "5Cl-",
+        "ClO3-"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_NcjPsfQzYy9ph4mZ::L2::Q8",
+      "moduleId": "rn_NcjPsfQzYy9ph4mZ::L2",
+      "stem": "Explain why the hot-alkali product differs from the cold-dilute product.",
+      "misconceptionClass": "condition reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "Reaction conditions decide which split chlorine takes: hot concentrated alkali pushes the oxidation leg all the way to chlorate(V) at +5, while cold dilute alkali stops it at chlorate(I) at +1.",
+      "keywords": [
+        "conditions",
+        "chlorate",
+        "split"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_NcjPsfQzYy9ph4mZ::L2::Q9",
+      "moduleId": "rn_NcjPsfQzYy9ph4mZ::L2",
+      "stem": "In the balanced hot-alkali equation, how many electrons move in total per 3 chlorine molecules reacting?",
+      "misconceptionClass": "ledger application",
+      "kind": "application",
+      "modelAnswer": "Five atoms fall 1 unit and one climbs 5, so 5 electrons shift per 6 chlorine atoms - matching a 5-unit up-leg and 5-unit down-leg total.",
+      "keywords": [
+        "5",
+        "electrons",
+        "ledger"
+      ],
+      "options": []
+    }
+  ]
+}

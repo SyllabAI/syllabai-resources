@@ -1,0 +1,352 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_svspNW5swxrpzHdc",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "2fa67a69c3d5ef0922c9a41609e13edf4dc20df4df932821743e0c38ddadb6b8",
+    "pinnedRef": "0c6caf779f8358349ab3cd2564cc4cf713dd5d11"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_svspNW5swxrpzHdc",
+    "topicTitle": "2. Energetics, Group Chemistry, Halogenoalkanes & Alcohols",
+    "subtopicTitle": "Oxidation Numbers - Introduction",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/2-energetics-group-chemistry-halogenoalkanes-and-alcohols/2-3-redox-chemistry-and-acid-base-titrations/2-3-1-oxidation-numbers---introduction",
+    "specAnchors": [
+      {
+        "code": "8.1",
+        "text": "know what is meant by the term ‘oxidation number’ and understand the rules for assigning oxidation numbers"
+      },
+      {
+        "code": "8.2",
+        "text": "be able to calculate the oxidation number of elements in compounds and ions, including in peroxides and metal hydrides"
+      }
+    ],
+    "primer": {
+      "text": "Every redox bookkeeping exercise reduces to one question: what charge would each atom carry if its bonds were fully ionic? That number is the oxidation number. This note supplies the rule table, works simple ions, neutral molecules, hydrides and peroxides, and closes with ions such as nitrate and tetrathionate where sums land on fractions.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_svspNW5swxrpzHdc::L1",
+        "title": "Three definitions and one acronym",
+        "sourceHeadings": [
+          "Definitions and Examples of Oxidation & Reduction"
+        ],
+        "specRefs": [
+          "8.1"
+        ],
+        "opening": "Oxidation and reduction wear three disguises: oxygen transfer, hydrogen transfer and electron transfer. This lesson lines all three up against one example set and plants the OIL RIG acronym that keeps the electron picture straight.",
+        "keyPoints": [
+          "Oxidation can mean gaining oxygen, losing hydrogen, or losing electrons.",
+          "Reduction is the mirror: losing oxygen, gaining hydrogen, or gaining electrons.",
+          "OIL RIG keeps the electron definitions handy: Oxidation Is Loss, Reduction Is Gain.",
+          "All three descriptions coexist because they track the same underlying charge shift.",
+          "The oil rig diagram pairs each process with its opposite for quick recall."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Any process that adds oxygen, removes hydrogen, or removes electrons counts as oxidation; each has a mirrored reduction, and OIL RIG pins the electron version to memory.",
+            "analogy": "Three cameras film one event from different angles: the oxygen lens, the hydrogen lens and the electron lens all capture the same transfer.",
+            "examPointer": "When a question says 'state what happens to electrons', reach for OIL RIG immediately - the other two definitions will not score it."
+          },
+          "medium": {
+            "restatement": "The three definitions are historical layers over one phenomenon: charge on the reacting species shifts, so whichever species loses electrons is oxidised and its partner is reduced by the same transfer.",
+            "analogy": "One bank transaction seen from two accounts: one balance drops (oxidation) exactly as the other rises (reduction) - electrons are the currency.",
+            "examPointer": "Expect questions mixing definitions - a species can gain oxygen AND lose electrons simultaneously; both descriptions apply."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_svspNW5swxrpzHdc::L1::Q1",
+          "rn_svspNW5swxrpzHdc::L1::Q2",
+          "rn_svspNW5swxrpzHdc::L1::Q3",
+          "rn_svspNW5swxrpzHdc::L1::Q4",
+          "rn_svspNW5swxrpzHdc::L1::Q5",
+          "rn_svspNW5swxrpzHdc::L1::Q6",
+          "rn_svspNW5swxrpzHdc::L1::Q7",
+          "rn_svspNW5swxrpzHdc::L1::Q8",
+          "rn_svspNW5swxrpzHdc::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01",
+          "fig-02"
+        ]
+      },
+      {
+        "id": "rn_svspNW5swxrpzHdc::L2",
+        "title": "Simple ions and the rule table",
+        "sourceHeadings": [
+          "Oxidation Numbers of Simple Ions",
+          "Oxidation Number Rules Table"
+        ],
+        "specRefs": [
+          "8.1"
+        ],
+        "opening": "The oxidation number of a single atom is the charge it would carry in a fully ionic picture. This lesson reads simple ions straight off their charges, then runs the rule table that fixes free elements, group members and oxygen.",
+        "keyPoints": [
+          "An atom's oxidation number is the charge it would show if all bonding were ionic.",
+          "In simple ions the oxidation number equals the ion's charge: Fe3+ is +3, O2- is -2.",
+          "Free, uncombined elements carry oxidation number zero.",
+          "Group 1 metals are +1 and Group 2 metals are +2 in all their compounds.",
+          "Fluorine is always -1, and oxygen is -2 unless a special class overrides it."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Read simple ions directly: the charge is the number; uncombined atoms read zero; and the rule table covers everything else from group metals down to oxygen's usual -2.",
+            "analogy": "The rule table is a price list: free elements cost nothing (zero), group metals carry fixed price tags, and oxygen almost always bills -2.",
+            "examPointer": "Never write an oxidation number without its sign - Fe3+ is +3, and bare '3' is wrong notation."
+          },
+          "medium": {
+            "restatement": "Oxidation numbers assign each atom a notional ionic charge; the table's hierarchy - free elements zero, group metals fixed, fluorine fixed at -1, oxygen -2 - resolves almost every compound before arithmetic is needed.",
+            "analogy": "Reading a football squad list: starters (group 1 and 2 metals) have fixed shirts, the captain (fluorine) never changes, and everyone else fills the remaining slots so the totals balance.",
+            "examPointer": "Apply rules in order - uncombined first, then group metals, fluorine, oxygen - and only then solve algebraically for the remaining element."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_svspNW5swxrpzHdc::L2::Q1",
+          "rn_svspNW5swxrpzHdc::L2::Q2",
+          "rn_svspNW5swxrpzHdc::L2::Q3",
+          "rn_svspNW5swxrpzHdc::L2::Q4",
+          "rn_svspNW5swxrpzHdc::L2::Q5",
+          "rn_svspNW5swxrpzHdc::L2::Q6",
+          "rn_svspNW5swxrpzHdc::L2::Q7",
+          "rn_svspNW5swxrpzHdc::L2::Q8",
+          "rn_svspNW5swxrpzHdc::L2::Q9"
+        ],
+        "figureIds": [
+          "fig-03",
+          "fig-04"
+        ]
+      },
+      {
+        "id": "rn_svspNW5swxrpzHdc::L3",
+        "title": "Compounds, electronegativity and Stock notation",
+        "sourceHeadings": [
+          "Oxidation Number in Molecules or Compounds Table",
+          "How do you determine the value of an element's oxidation number?"
+        ],
+        "specRefs": [
+          "8.1",
+          "8.2"
+        ],
+        "opening": "Neutral compounds must sum to zero, so the periodic table decides who goes positive. This lesson reads the compound table, assigns signs by electronegativity, and uses Roman numerals to name variable states such as iron(II) and iron(III).",
+        "keyPoints": [
+          "In a neutral molecule or compound the oxidation numbers of all atoms sum to zero.",
+          "The more electronegative element takes the negative value; oxygen outranks carbon, so CO2 has C at +4.",
+          "Electronegativity rises across a period and falls down a group.",
+          "Variable oxidation numbers are written in Roman numerals after the name: iron(II) oxide, iron(III) oxide.",
+          "Potassium manganate(VII) hides Mn at +7 inside the MnO4- ion."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Neutrality pins the sum at zero; the electronegative partner goes negative and the other element is solved from what remains; ambiguous metals get Roman numerals in their names.",
+            "analogy": "A zero-sum seesaw: the electronegative atom's weight is fixed by rule, so the other atom's position is forced, and Roman numerals record which seat the variable metal took today.",
+            "examPointer": "Decide the sign by electronegativity first, then compute the magnitude from the zero sum - guessing the sign is the classic error in CO2-type items."
+          },
+          "medium": {
+            "restatement": "The compound table enforces the zero-sum law; electronegativity ordering assigns signs, and for metals with several states the Stock convention writes the state in Roman numerals, resolving names such as potassium manganate(VII) into Mn +7 by ion arithmetic.",
+            "analogy": "Company accounts must balance to zero; fixed liabilities (oxygen) are audited first, and the variable partner (manganese) is booked with a Roman-numeral label showing which balance sheet applied.",
+            "examPointer": "For manganate(VII) items, show the working: -8 from four oxygens, ion total -1, therefore Mn = +7 - the chain earns the marks."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_svspNW5swxrpzHdc::L3::Q1",
+          "rn_svspNW5swxrpzHdc::L3::Q2",
+          "rn_svspNW5swxrpzHdc::L3::Q3",
+          "rn_svspNW5swxrpzHdc::L3::Q4",
+          "rn_svspNW5swxrpzHdc::L3::Q5",
+          "rn_svspNW5swxrpzHdc::L3::Q6",
+          "rn_svspNW5swxrpzHdc::L3::Q7",
+          "rn_svspNW5swxrpzHdc::L3::Q8",
+          "rn_svspNW5swxrpzHdc::L3::Q9"
+        ],
+        "figureIds": [
+          "fig-05"
+        ]
+      },
+      {
+        "id": "rn_svspNW5swxrpzHdc::L4",
+        "title": "Hydrides, peroxides and awkward ions",
+        "sourceHeadings": [
+          "Hydrogen in metal hydrides, H<sup>-</sup>",
+          "Ions"
+        ],
+        "specRefs": [
+          "8.2"
+        ],
+        "opening": "Two exception classes and one ion family stretch the rules. This lesson handles hydrogen at -1 in metal hydrides, oxygen at -1 in peroxides, and ion sums that can even land on fractional averages, as tetrathionate demonstrates.",
+        "keyPoints": [
+          "Sodium hydride, NaH, is neutral, so hydrogen must carry -1 while sodium carries +1.",
+          "Group 1 metals are +1 in their compounds, which forces the hydride hydrogen to -1.",
+          "In hydrogen peroxide, each hydrogen is +1, so each oxygen must be -1.",
+          "In ions, the oxidation numbers sum to the ion's charge, not to zero.",
+          "Tetrathionate, S4O6 2-, averages +2.5 per sulfur because its sulfur atoms sit in two different environments."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Hydrides flip hydrogen negative; peroxides soften oxygen to -1; and inside ions the sum lands on the ion charge - occasionally forcing a fractional average across inequivalent atoms.",
+            "analogy": "Rule exceptions are costume changes: hydrogen sometimes wears the anion costume, oxygen sometimes the -1 one, and polyatomic ions split one costume between several wearers.",
+            "examPointer": "Flag the exception classes explicitly - writing oxygen as -2 in H2O2 loses the mark the question exists to test."
+          },
+          "medium": {
+            "restatement": "Charge balance forces the exceptions: NaH sums to zero with Na at +1, so H reads -1; H2O2 sums to zero with H at +1 twice, so each O reads -1; in S4O6 2- the six oxygens give -12 and the two-plus charge forces 4S = +10, an average the two sulfur environments share.",
+            "analogy": "A shared bill of +10 split across four diners averages 2.5 each, even though no diner actually ate 2.5 portions - the environments differ.",
+            "examPointer": "Show the ion-sum equation - x plus 4(-2) equals -1, for example - before solving; the algebra line carries the method marks."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_svspNW5swxrpzHdc::L4::Q1",
+          "rn_svspNW5swxrpzHdc::L4::Q2",
+          "rn_svspNW5swxrpzHdc::L4::Q3",
+          "rn_svspNW5swxrpzHdc::L4::Q4",
+          "rn_svspNW5swxrpzHdc::L4::Q5",
+          "rn_svspNW5swxrpzHdc::L4::Q6",
+          "rn_svspNW5swxrpzHdc::L4::Q7",
+          "rn_svspNW5swxrpzHdc::L4::Q8",
+          "rn_svspNW5swxrpzHdc::L4::Q9"
+        ],
+        "figureIds": [
+          "fig-06"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "oxidation number",
+          "definition": "The charge an atom would carry if all its bonding were completely ionic, written with its sign.",
+          "firstLesson": 2
+        },
+        {
+          "term": "Stock notation",
+          "definition": "The convention of writing a variable oxidation number in Roman numerals after the element name, as in iron(III) oxide.",
+          "firstLesson": 3
+        },
+        {
+          "term": "peroxide",
+          "definition": "A compound class where oxygen sits at -1 instead of its usual -2, as in hydrogen peroxide.",
+          "firstLesson": 4
+        },
+        {
+          "term": "metal hydride",
+          "definition": "A compound of a metal with hydrogen at -1, such as sodium hydride, NaH.",
+          "firstLesson": 4
+        }
+      ],
+      "workedExample": {
+        "prompt": "Deduce the oxidation number of manganese in the manganate(VII) ion, MnO4-, using the ion-sum rule.",
+        "steps": [
+          "Four oxygen atoms each carry -2, contributing 4 x (-2) = -8.",
+          "The whole ion carries charge -1, so the oxidation numbers must sum to -1.",
+          "Write the equation: x + 4(-2) = -1.",
+          "Solve: x = -1 + 8 = +7, which is why the name says manganate(VII)."
+        ],
+        "finalAnswer": "Manganese carries oxidation number +7 in MnO4-."
+      }
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/d812bd1abc1f-9-1-1-definitions-of-oxidation-reduction-table.png",
+        "alt": "Table contrasting the definitions of oxidation and reduction across oxygen, hydrogen and electron transfer",
+        "sourceHeading": "Definitions and Examples of Oxidation & Reduction",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-02",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/8a8a5d2115e7-1-6-electrochemistry-oil-rig-diagram.png",
+        "alt": "Electrochemistry OIL RIG Diagram, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Definitions and Examples of Oxidation & Reduction",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "Use the acronym \"Oil Rig\" to help you remember the definitions of oxidation and reduction"
+      },
+      {
+        "id": "fig-03",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/e055d112a6c6-9-1-1-oxidation-number-of-simple-ions-table.png",
+        "alt": "Table of oxidation numbers for simple ions such as Fe3+, Fe2+, O2- and Al3+",
+        "sourceHeading": "Oxidation Numbers of Simple Ions",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-04",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/f9efddcda285-1-6-electrochemistry-table-1-oxidation-numbers.png",
+        "alt": "Electrochemistry Table 1_Oxidation Numbers, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Oxidation Number Rules Table",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-05",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/6a095be6b0f9-9-1-1-oxidation-number-of-molecules-compounds-ta.png",
+        "alt": "Table of oxidation numbers within molecules and compounds including CO2",
+        "sourceHeading": "Oxidation Number in Molecules or Compounds Table",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-06",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/5bcd32912762-tetrathionate-ion-s-environments.png",
+        "alt": "tetrathionate-ion-s-environments",
+        "sourceHeading": "Ions",
+        "moduleIds": [
+          "L4"
+        ],
+        "binding": "heading-unique"
+      }
+    ]
+  }
+}

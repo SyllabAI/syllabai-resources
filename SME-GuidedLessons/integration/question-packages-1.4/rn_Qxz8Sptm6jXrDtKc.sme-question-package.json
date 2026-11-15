@@ -1,0 +1,723 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_Qxz8Sptm6jXrDtKc",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "3ae03fb600b9925d36bd2d17607295c458c70f98a5a73eddfffd6f046253b391",
+    "pinnedRef": "0c6caf779f8358349ab3cd2564cc4cf713dd5d11"
+  },
+  "packageId": "ial-chemistry::rn_Qxz8Sptm6jXrDtKc",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_Qxz8Sptm6jXrDtKc::L1::Q1",
+      "moduleId": "rn_Qxz8Sptm6jXrDtKc::L1",
+      "stem": "In the ammonia-bromine reaction, what happens to nitrogen's oxidation number?",
+      "misconceptionClass": "nitrogen shift",
+      "options": [
+        {
+          "key": "A",
+          "text": "It rises from -3 to 0, so nitrogen is oxidised",
+          "correct": true,
+          "explanation": "The climb marks electron loss.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "It falls from 0 to -3, so nitrogen is reduced",
+          "correct": false,
+          "explanation": "The direction is reversed.",
+          "misconception": "direction flipped"
+        },
+        {
+          "key": "C",
+          "text": "It stays at -3 throughout",
+          "correct": false,
+          "explanation": "Elemental N2 sits at 0.",
+          "misconception": "state ignored"
+        },
+        {
+          "key": "D",
+          "text": "It rises from 0 to +3",
+          "correct": false,
+          "explanation": "Both states are misquoted.",
+          "misconception": "values wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_Qxz8Sptm6jXrDtKc::L1::Q2",
+      "moduleId": "rn_Qxz8Sptm6jXrDtKc::L1",
+      "stem": "Bromine's oxidation number falls from 0 to -1. What has bromine done?",
+      "misconceptionClass": "bromine role",
+      "options": [
+        {
+          "key": "A",
+          "text": "Acted as the reducing agent",
+          "correct": false,
+          "explanation": "The reduced species is the oxidising agent's client, not the donor.",
+          "misconception": "agent confused"
+        },
+        {
+          "key": "B",
+          "text": "Gained electrons and been reduced",
+          "correct": true,
+          "explanation": "A falling number marks electron gain.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Lost electrons and been oxidised",
+          "correct": false,
+          "explanation": "Electron loss raises the number.",
+          "misconception": "role inverted"
+        },
+        {
+          "key": "D",
+          "text": "Donated protons",
+          "correct": false,
+          "explanation": "Protons play no role in the redox bookkeeping.",
+          "misconception": "particle wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_Qxz8Sptm6jXrDtKc::L1::Q3",
+      "moduleId": "rn_Qxz8Sptm6jXrDtKc::L1",
+      "stem": "Which statement about the reaction 2NH3 + 3Br2 -> N2 + 6HBr is correct?",
+      "misconceptionClass": "equation census",
+      "options": [
+        {
+          "key": "A",
+          "text": "Neither species changes oxidation number",
+          "correct": false,
+          "explanation": "Both numbers shift clearly.",
+          "misconception": "reaction denied"
+        },
+        {
+          "key": "B",
+          "text": "Hydrogen is the electron carrier",
+          "correct": false,
+          "explanation": "Hydrogen stays +1 throughout.",
+          "misconception": "bystander promoted"
+        },
+        {
+          "key": "C",
+          "text": "Nitrogen oxidised bromine by donating electrons",
+          "correct": true,
+          "explanation": "The climber is the donor.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Bromine oxidised nitrogen",
+          "correct": false,
+          "explanation": "Bromine's number fell, so it was reduced.",
+          "misconception": "roles swapped"
+        }
+      ]
+    },
+    {
+      "id": "rn_Qxz8Sptm6jXrDtKc::L1::Q4",
+      "moduleId": "rn_Qxz8Sptm6jXrDtKc::L1",
+      "stem": "Why do 3 Br2 molecules appear per 2 NH3 in the balanced equation?",
+      "misconceptionClass": "coefficient ratio",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bromine is three times heavier",
+          "correct": false,
+          "explanation": "Mass never sets stoichiometry.",
+          "misconception": "mass myth"
+        },
+        {
+          "key": "B",
+          "text": "Ammonia carries three hydrogens",
+          "correct": false,
+          "explanation": "The hydrogen count is not the ledger's driver.",
+          "misconception": "coincidence misread"
+        },
+        {
+          "key": "C",
+          "text": "The ratio is arbitrary",
+          "correct": false,
+          "explanation": "Balancing follows the electron ledger exactly.",
+          "misconception": "arbitrariness claimed"
+        },
+        {
+          "key": "D",
+          "text": "Each N atom climbs 3 units while each Br atom falls 1, so the ledger needs three bromine atoms per nitrogen",
+          "correct": true,
+          "explanation": "The oxidation-number ledger fixes the stoichiometry.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_Qxz8Sptm6jXrDtKc::L1::Q5",
+      "moduleId": "rn_Qxz8Sptm6jXrDtKc::L1",
+      "stem": "Which pairing correctly links oxidation-number change to electron flow?",
+      "misconceptionClass": "flow mapping",
+      "options": [
+        {
+          "key": "A",
+          "text": "Number rises: electrons lost; number falls: electrons gained",
+          "correct": true,
+          "explanation": "The OIL RIG mapping in numeric form.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Number rises: electrons gained",
+          "correct": false,
+          "explanation": "Gain would lower the number.",
+          "misconception": "mapping inverted"
+        },
+        {
+          "key": "C",
+          "text": "Number falls: electrons lost",
+          "correct": false,
+          "explanation": "Loss raises the number.",
+          "misconception": "mapping inverted"
+        },
+        {
+          "key": "D",
+          "text": "Number unchanged: electrons transferred anyway",
+          "correct": false,
+          "explanation": "Unchanged numbers mean no net transfer.",
+          "misconception": "zero case corrupted"
+        }
+      ]
+    },
+    {
+      "id": "rn_Qxz8Sptm6jXrDtKc::L1::Q6",
+      "moduleId": "rn_Qxz8Sptm6jXrDtKc::L1",
+      "stem": "State the oxidation number changes for nitrogen and bromine in the ammonia-bromine reaction.",
+      "misconceptionClass": "shift recall",
+      "kind": "recall",
+      "modelAnswer": "Nitrogen changes from -3 in NH3 to 0 in N2, and bromine changes from 0 in Br2 to -1 in HBr.",
+      "keywords": [
+        "-3 to 0",
+        "0 to -1",
+        "changes"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_Qxz8Sptm6jXrDtKc::L1::Q7",
+      "moduleId": "rn_Qxz8Sptm6jXrDtKc::L1",
+      "stem": "Define oxidation and reduction in terms of oxidation number changes.",
+      "misconceptionClass": "numeric definition recall",
+      "kind": "recall",
+      "modelAnswer": "Oxidation is an increase in oxidation number and reduction is a decrease in oxidation number.",
+      "keywords": [
+        "increase",
+        "decrease",
+        "oxidation number"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_Qxz8Sptm6jXrDtKc::L1::Q8",
+      "moduleId": "rn_Qxz8Sptm6jXrDtKc::L1",
+      "stem": "Explain why the species whose oxidation number rises must be the electron donor.",
+      "misconceptionClass": "donor reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "Oxidation numbers count notional ionic charge, so a rising number means the atom holds more positive character, which can only come from losing negatively charged electrons - hence the climber donates.",
+      "keywords": [
+        "rising",
+        "positive",
+        "donates"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_Qxz8Sptm6jXrDtKc::L1::Q9",
+      "moduleId": "rn_Qxz8Sptm6jXrDtKc::L1",
+      "stem": "In the reaction, 2 N atoms each climb 3 units. How many electrons transfer in total per equation as written, and which species receives them?",
+      "misconceptionClass": "ledger application",
+      "kind": "application",
+      "modelAnswer": "Two atoms times 3 units gives 6 electrons transferred, received by the 6 bromine atoms that each fall one unit.",
+      "keywords": [
+        "6",
+        "electrons",
+        "bromine"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_Qxz8Sptm6jXrDtKc::L2::Q1",
+      "moduleId": "rn_Qxz8Sptm6jXrDtKc::L2",
+      "stem": "What does an oxidising agent do to another species?",
+      "misconceptionClass": "agent action",
+      "options": [
+        {
+          "key": "A",
+          "text": "Protonates it",
+          "correct": false,
+          "explanation": "Proton transfer belongs to acid-base chemistry.",
+          "misconception": "domain wrong"
+        },
+        {
+          "key": "B",
+          "text": "Oxidises it by causing it to lose electrons",
+          "correct": true,
+          "explanation": "The agent strips electrons from its partner.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Reduces it by donating electrons",
+          "correct": false,
+          "explanation": "That describes a reducing agent.",
+          "misconception": "agent swapped"
+        },
+        {
+          "key": "D",
+          "text": "Shares electrons covalently",
+          "correct": false,
+          "explanation": "Covalent sharing is not the agent's redox role.",
+          "misconception": "bonding confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_Qxz8Sptm6jXrDtKc::L2::Q2",
+      "moduleId": "rn_Qxz8Sptm6jXrDtKc::L2",
+      "stem": "What happens to the oxidising agent itself?",
+      "misconceptionClass": "agent fate",
+      "options": [
+        {
+          "key": "A",
+          "text": "It stays unchanged",
+          "correct": false,
+          "explanation": "The agent's oxidation number clearly falls.",
+          "misconception": "change denied"
+        },
+        {
+          "key": "B",
+          "text": "It becomes a catalyst",
+          "correct": false,
+          "explanation": "Agents are consumed stoichiometrically.",
+          "misconception": "role misread"
+        },
+        {
+          "key": "C",
+          "text": "It is reduced, gaining electrons",
+          "correct": true,
+          "explanation": "Acceptance of electrons reduces the agent.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "It is oxidised, losing electrons",
+          "correct": false,
+          "explanation": "That is the partner's fate.",
+          "misconception": "fate swapped"
+        }
+      ]
+    },
+    {
+      "id": "rn_Qxz8Sptm6jXrDtKc::L2::Q3",
+      "moduleId": "rn_Qxz8Sptm6jXrDtKc::L2",
+      "stem": "How does the oxidising agent's oxidation number change?",
+      "misconceptionClass": "agent arithmetic",
+      "options": [
+        {
+          "key": "A",
+          "text": "It increases",
+          "correct": false,
+          "explanation": "That would mark the agent as oxidised.",
+          "misconception": "direction flipped"
+        },
+        {
+          "key": "B",
+          "text": "It stays fixed",
+          "correct": false,
+          "explanation": "Reduction always shifts the number.",
+          "misconception": "change denied"
+        },
+        {
+          "key": "C",
+          "text": "It doubles",
+          "correct": false,
+          "explanation": "No doubling rule exists.",
+          "misconception": "nonsense rule"
+        },
+        {
+          "key": "D",
+          "text": "It decreases",
+          "correct": true,
+          "explanation": "Electron gain drives the number down.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_Qxz8Sptm6jXrDtKc::L2::Q4",
+      "moduleId": "rn_Qxz8Sptm6jXrDtKc::L2",
+      "stem": "In Mg + Fe2+ -> Mg2+ + Fe, which species is the oxidising agent?",
+      "misconceptionClass": "agent identification",
+      "options": [
+        {
+          "key": "A",
+          "text": "Fe2+, whose number falls from +2 to 0",
+          "correct": true,
+          "explanation": "The iron ion accepts magnesium's electrons.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Mg, whose number rises",
+          "correct": false,
+          "explanation": "The metal is oxidised - it is the donor.",
+          "misconception": "roles swapped"
+        },
+        {
+          "key": "C",
+          "text": "The electrons",
+          "correct": false,
+          "explanation": "Electrons are the currency, not an agent.",
+          "misconception": "currency promoted"
+        },
+        {
+          "key": "D",
+          "text": "Neither species qualifies",
+          "correct": false,
+          "explanation": "The reaction is textbook redox.",
+          "misconception": "reaction denied"
+        }
+      ]
+    },
+    {
+      "id": "rn_Qxz8Sptm6jXrDtKc::L2::Q5",
+      "moduleId": "rn_Qxz8Sptm6jXrDtKc::L2",
+      "stem": "Why must every redox reaction involve an oxidising agent?",
+      "misconceptionClass": "necessity argument",
+      "options": [
+        {
+          "key": "A",
+          "text": "Charge would otherwise accumulate on the glassware",
+          "correct": false,
+          "explanation": "The conservation is chemical, not static electricity.",
+          "misconception": "physics myth"
+        },
+        {
+          "key": "B",
+          "text": "Electrons lost by one species must be gained by another",
+          "correct": true,
+          "explanation": "The transfer needs both a donor and an acceptor.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Oxygen must be present",
+          "correct": false,
+          "explanation": "Many redox reactions run without oxygen.",
+          "misconception": "oxygen myth"
+        },
+        {
+          "key": "D",
+          "text": "Agents are catalysts every reaction needs",
+          "correct": false,
+          "explanation": "Not every reaction is redox at all.",
+          "misconception": "scope error"
+        }
+      ]
+    },
+    {
+      "id": "rn_Qxz8Sptm6jXrDtKc::L2::Q6",
+      "moduleId": "rn_Qxz8Sptm6jXrDtKc::L2",
+      "stem": "Define the oxidising agent in one sentence.",
+      "misconceptionClass": "definition recall",
+      "kind": "recall",
+      "modelAnswer": "An oxidising agent oxidises another species by taking its electrons, and is itself reduced as those electrons arrive.",
+      "keywords": [
+        "oxidises",
+        "electrons",
+        "reduced"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_Qxz8Sptm6jXrDtKc::L2::Q7",
+      "moduleId": "rn_Qxz8Sptm6jXrDtKc::L2",
+      "stem": "State the direction of the oxidising agent's oxidation-number change and the reason.",
+      "misconceptionClass": "direction recall",
+      "kind": "recall",
+      "modelAnswer": "The oxidising agent's oxidation number decreases, because gaining electrons reduces it.",
+      "keywords": [
+        "decreases",
+        "gaining electrons",
+        "reduced"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_Qxz8Sptm6jXrDtKc::L2::Q8",
+      "moduleId": "rn_Qxz8Sptm6jXrDtKc::L2",
+      "stem": "Explain why the oxidising agent's own oxidation number falls while it oxidises its partner.",
+      "misconceptionClass": "dual bookkeeping",
+      "kind": "explain-why",
+      "modelAnswer": "The electrons the partner loses are accepted by the agent; added electrons lower the agent's notional ionic charge, so its number falls exactly as the partner's rises.",
+      "keywords": [
+        "electrons",
+        "accepted",
+        "falls"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_Qxz8Sptm6jXrDtKc::L2::Q9",
+      "moduleId": "rn_Qxz8Sptm6jXrDtKc::L2",
+      "stem": "In the chromium-dichromate style reaction, Cr2O7 2- falls from Cr at +6 to Cr3+ at +3. How many electrons does one dichromate ion accept, and what role does it play?",
+      "misconceptionClass": "chromium application",
+      "kind": "application",
+      "modelAnswer": "Two chromium atoms each fall 3 units, so one dichromate ion accepts 6 electrons and acts as the oxidising agent.",
+      "keywords": [
+        "6",
+        "oxidising agent",
+        "accepts"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_Qxz8Sptm6jXrDtKc::L3::Q1",
+      "moduleId": "rn_Qxz8Sptm6jXrDtKc::L3",
+      "stem": "What does a reducing agent cause another species to do?",
+      "misconceptionClass": "agent action",
+      "options": [
+        {
+          "key": "A",
+          "text": "Change state symbol",
+          "correct": false,
+          "explanation": "State symbols never change by agency.",
+          "misconception": "nonsense"
+        },
+        {
+          "key": "B",
+          "text": "Dissociate into ions",
+          "correct": false,
+          "explanation": "Dissociation is not a redox process.",
+          "misconception": "process confused"
+        },
+        {
+          "key": "C",
+          "text": "Gain electrons, i.e. be reduced",
+          "correct": true,
+          "explanation": "Donation fills the partner's empty slots.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Lose electrons, i.e. be oxidised",
+          "correct": false,
+          "explanation": "That is what the oxidising agent causes.",
+          "misconception": "agent swapped"
+        }
+      ]
+    },
+    {
+      "id": "rn_Qxz8Sptm6jXrDtKc::L3::Q2",
+      "moduleId": "rn_Qxz8Sptm6jXrDtKc::L3",
+      "stem": "What happens to the reducing agent's oxidation number?",
+      "misconceptionClass": "agent arithmetic",
+      "options": [
+        {
+          "key": "A",
+          "text": "It decreases",
+          "correct": false,
+          "explanation": "That marks reduction, not the agent's own fate.",
+          "misconception": "direction flipped"
+        },
+        {
+          "key": "B",
+          "text": "It remains zero",
+          "correct": false,
+          "explanation": "Most reducing agents start bonded, not at zero.",
+          "misconception": "state confusion"
+        },
+        {
+          "key": "C",
+          "text": "It alternates",
+          "correct": false,
+          "explanation": "Each reaction gives one clear direction.",
+          "misconception": "oscillation invented"
+        },
+        {
+          "key": "D",
+          "text": "It increases",
+          "correct": true,
+          "explanation": "Electron loss drives the number up.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_Qxz8Sptm6jXrDtKc::L3::Q3",
+      "moduleId": "rn_Qxz8Sptm6jXrDtKc::L3",
+      "stem": "In the four-reaction worked set, why is Fe2+ in option 2 an oxidising agent?",
+      "misconceptionClass": "worked set",
+      "options": [
+        {
+          "key": "A",
+          "text": "It oxidises Mg(0) to Mg2+ while falling from +2 to Fe(0)",
+          "correct": true,
+          "explanation": "The bold species accepts magnesium's electrons.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "It donates electrons to magnesium",
+          "correct": false,
+          "explanation": "Fe2+ receives the electrons.",
+          "misconception": "role inverted"
+        },
+        {
+          "key": "C",
+          "text": "It rises from +2 to +3",
+          "correct": false,
+          "explanation": "No such change occurs in that equation.",
+          "misconception": "arithmetic wrong"
+        },
+        {
+          "key": "D",
+          "text": "It stays at +2",
+          "correct": false,
+          "explanation": "The iron ends as elemental Fe.",
+          "misconception": "change denied"
+        }
+      ]
+    },
+    {
+      "id": "rn_Qxz8Sptm6jXrDtKc::L3::Q4",
+      "moduleId": "rn_Qxz8Sptm6jXrDtKc::L3",
+      "stem": "Which condition makes a redox reaction recognisable as such?",
+      "misconceptionClass": "recognition condition",
+      "options": [
+        {
+          "key": "A",
+          "text": "The mixture warms up",
+          "correct": false,
+          "explanation": "Exothermicity is not the redox criterion.",
+          "misconception": "thermal myth"
+        },
+        {
+          "key": "B",
+          "text": "Both an oxidising and a reducing agent are present",
+          "correct": true,
+          "explanation": "One donor plus one acceptor defines the redox pair.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "A colour change occurs",
+          "correct": false,
+          "explanation": "Colour changes mark many non-redox processes.",
+          "misconception": "indicator myth"
+        },
+        {
+          "key": "D",
+          "text": "A gas is released",
+          "correct": false,
+          "explanation": "Gas release is common in acid-base work too.",
+          "misconception": "indicator myth"
+        }
+      ]
+    },
+    {
+      "id": "rn_Qxz8Sptm6jXrDtKc::L3::Q5",
+      "moduleId": "rn_Qxz8Sptm6jXrDtKc::L3",
+      "stem": "Why might hydrogen peroxide act sometimes as oxidiser and sometimes as reducer?",
+      "misconceptionClass": "dual role",
+      "options": [
+        {
+          "key": "A",
+          "text": "It decomposes before reacting",
+          "correct": false,
+          "explanation": "Decomposition is itself a redox process.",
+          "misconception": "evasion"
+        },
+        {
+          "key": "B",
+          "text": "Laboratory error explains the discrepancy",
+          "correct": false,
+          "explanation": "The dual behaviour is intrinsic chemistry.",
+          "misconception": "dismissal"
+        },
+        {
+          "key": "C",
+          "text": "Its role depends on the partner species and the reaction conditions",
+          "correct": true,
+          "explanation": "Dual-role agents switch direction according to context.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "It has no fixed oxidation state at all",
+          "correct": false,
+          "explanation": "Its oxygen sits at -1, a fixed value.",
+          "misconception": "state chaos claimed"
+        }
+      ]
+    },
+    {
+      "id": "rn_Qxz8Sptm6jXrDtKc::L3::Q6",
+      "moduleId": "rn_Qxz8Sptm6jXrDtKc::L3",
+      "stem": "Define the reducing agent in one sentence.",
+      "misconceptionClass": "definition recall",
+      "kind": "recall",
+      "modelAnswer": "A reducing agent reduces another species by handing electrons over to it, and is itself oxidised as those electrons leave.",
+      "keywords": [
+        "reduces",
+        "electrons",
+        "oxidised"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_Qxz8Sptm6jXrDtKc::L3::Q7",
+      "moduleId": "rn_Qxz8Sptm6jXrDtKc::L3",
+      "stem": "State the direction of the reducing agent's oxidation-number change.",
+      "misconceptionClass": "direction recall",
+      "kind": "recall",
+      "modelAnswer": "The reducing agent's oxidation number increases, because losing electrons oxidises it.",
+      "keywords": [
+        "increases",
+        "losing electrons",
+        "oxidised"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_Qxz8Sptm6jXrDtKc::L3::Q8",
+      "moduleId": "rn_Qxz8Sptm6jXrDtKc::L3",
+      "stem": "Explain why a redox reaction cannot contain only a reducing agent.",
+      "misconceptionClass": "conservation reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "Electrons donated must be accepted somewhere; with no oxidising agent present, the donated electrons would have no recipient and the charge ledger could not balance.",
+      "keywords": [
+        "donated",
+        "accepted",
+        "balance"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_Qxz8Sptm6jXrDtKc::L3::Q9",
+      "moduleId": "rn_Qxz8Sptm6jXrDtKc::L3",
+      "stem": "In Mg + Fe2+ -> Mg2+ + Fe, magnesium rises 0 to +2 and iron falls +2 to 0. How many electrons transfer per equation, and which agent donated them?",
+      "misconceptionClass": "transfer application",
+      "kind": "application",
+      "modelAnswer": "Two electrons transfer per equation, donated by the reducing agent magnesium.",
+      "keywords": [
+        "2",
+        "magnesium",
+        "reducing agent"
+      ],
+      "options": []
+    }
+  ]
+}
