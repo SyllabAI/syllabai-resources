@@ -1,0 +1,868 @@
+{
+ "format": "guided-lesson/0.8",
+ "noteRef": {
+  "noteId": "rn_n36DhTsbRqFpGhMg",
+  "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+  "topicTitle": "2. Energetics, Group Chemistry, Halogenoalkanes & Alcohols",
+  "subtopicTitle": "Physical Properties",
+  "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/2-energetics-group-chemistry-halogenoalkanes-and-alcohols/2-2-intermolecular-forces/2-2-3-physical-properties"
+ },
+ "specPoints": [
+  {
+   "code": "7.5",
+   "text": "understand, in terms of intermolecular forces, physical properties shown by substances, including: i the trends in boiling temperatures of alkanes with increasing chain length ii the effect of branching in the carbon chain on the boiling temperatures of alkanes iii the relatively low volatility (higher boiling temperatures) of alcohols compared to alkanes with a similar number of electrons iv the trends in boiling temperatures of the hydrogen halides HF to HI"
+  }
+ ],
+ "primer": {
+  "text": "Boiling point is a tally of intermolecular strength, so three levers move it: how much surface a molecule exposes, how many electrons it carries, and whether it can hydrogen bond. This note applies each lever to alkanes, alcohols and the hydrogen halides, and shows why HF breaks the trend line its own group follows.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "Chain shape and electron count",
+   "sourceHeadings": [
+    "Branching",
+    "Number of electrons"
+   ],
+   "specRefs": [
+    "7.5"
+   ],
+   "opening": "Two levers control the London contribution to boiling point: how much of the molecule touches its neighbours, and how many electrons it drags around. This lesson works both, comparing branched against straight chains and reading the noble-gas and alkane graphs.",
+   "keyPoints": [
+    "Larger molecular surface area means more contact with adjacent molecules and stronger induced attractions.",
+    "Branching reduces surface area, weakening London forces and lowering boiling points.",
+    "More electrons raise the chance and size of temporary dipoles, strengthening induced forces.",
+    "Boiling points of the noble gases climb as electron counts grow.",
+    "The alkane graph shows the same climb: longer chains boil higher."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "A stretched chain touches many neighbours and its many electrons flicker strongly, so it boils high; a branched or small-electron molecule touches less and boils lower.",
+     "analogy": "A long plank lying flat touches the whole shelf beneath it, while a crumpled ball of the same wood touches only at a few points - plank chains stick, ball chains roll apart.",
+     "examPointer": "For isomer comparisons, hold the electron count equal and argue only through surface area - mixing the two levers loses the comparison mark."
+    },
+    "medium": {
+     "restatement": "Contact area scales the induced-dipole interaction, so branching lowers it at fixed formula; electron count sets both the frequency and magnitude of instantaneous dipoles, which is why the noble-gas series climbs monotonically.",
+     "analogy": "A wide paintbrush covers a wall in one stroke (large contact, strong grip) while a slim brush needs many passes; heavier pigment (more electrons) makes every stroke grip harder.",
+     "examPointer": "Quote both graphs' message in one line: boiling point rises with electron count and falls with branching - then name the force responsible, London dispersion."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "How does branching affect a molecule's boiling point?",
+     "misconceptionClass": "branching effect",
+     "options": [
+      {
+       "key": "A",
+       "text": "It lowers the boiling point by shrinking surface area",
+       "correct": true,
+       "explanation": "Fewer contact points weaken the induced attractions between branched molecules.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "It raises the boiling point by adding bonds",
+       "correct": false,
+       "explanation": "Bond count inside the molecule does not set the boiling point.",
+       "misconception": "lever confused"
+      },
+      {
+       "key": "C",
+       "text": "It leaves the boiling point unchanged",
+       "correct": false,
+       "explanation": "Isomers with different shapes boil at different temperatures.",
+       "misconception": "no effect claimed"
+      },
+      {
+       "key": "D",
+       "text": "It removes electrons from the molecule",
+       "correct": false,
+       "explanation": "Branching rearranges the same atoms, keeping the electron count.",
+       "misconception": "electron change invented"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why do heavier noble gases boil higher than lighter ones?",
+     "misconceptionClass": "noble gas trend",
+     "options": [
+      {
+       "key": "A",
+       "text": "More electrons give stronger and more frequent temporary dipoles",
+       "correct": true,
+       "explanation": "Growing electron clouds raise the induced attraction down the group.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Their nuclei carry positive charge that attracts neighbours",
+       "correct": false,
+       "explanation": "Nuclear charge stays internal; the interatomic pull is induced-dipole based.",
+       "misconception": "mechanism wrong"
+      },
+      {
+       "key": "C",
+       "text": "They hydrogen bond in the liquid",
+       "correct": false,
+       "explanation": "Noble gases carry no hydrogen at all.",
+       "misconception": "force invented"
+      },
+      {
+       "key": "D",
+       "text": "They expand when warmed",
+       "correct": false,
+       "explanation": "Thermal expansion is a consequence, not a cause.",
+       "misconception": "effect confused with cause"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What is the relationship between molecular surface area and induced dipole strength?",
+     "misconceptionClass": "area linkage",
+     "options": [
+      {
+       "key": "A",
+       "text": "Larger area means more contact and stronger induced forces",
+       "correct": true,
+       "explanation": "Contact area is the multiplier on the London interaction.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Larger area weakens the forces",
+       "correct": false,
+       "explanation": "More contact strengthens, not weakens, the attraction.",
+       "misconception": "direction flipped"
+      },
+      {
+       "key": "C",
+       "text": "Area has no bearing on the forces",
+       "correct": false,
+       "explanation": "The contact-points diagram exists precisely because it does.",
+       "misconception": "link denied"
+      },
+      {
+       "key": "D",
+       "text": "Area changes the electron count",
+       "correct": false,
+       "explanation": "Rearranging the same atoms preserves the count.",
+       "misconception": "quantity swapped"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Two isomers share a formula and electron count but boil 25 degrees apart. What explains the gap?",
+     "misconceptionClass": "isomer gap",
+     "options": [
+      {
+       "key": "A",
+       "text": "The straighter isomer contacts neighbours over more area",
+       "correct": true,
+       "explanation": "At equal electrons, surface area decides the induced contribution.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The straighter isomer has more electrons",
+       "correct": false,
+       "explanation": "Identical formulas fix identical electron counts.",
+       "misconception": "premise broken"
+      },
+      {
+       "key": "C",
+       "text": "One isomer hydrogen bonds",
+       "correct": false,
+       "explanation": "No O-H, N-H or H-F group appears in either.",
+       "misconception": "force invented"
+      },
+      {
+       "key": "D",
+       "text": "The gap is measurement error",
+       "correct": false,
+       "explanation": "Systematic isomer gaps are real chemistry.",
+       "misconception": "dismissal"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which pair of changes both raise a hydrocarbon's boiling point?",
+     "misconceptionClass": "combined levers",
+     "options": [
+      {
+       "key": "A",
+       "text": "Longer chain and less branching",
+       "correct": true,
+       "explanation": "Both grow surface contact and electron count effects.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Longer chain and more branching",
+       "correct": false,
+       "explanation": "Branching cancels the chain-length gain by shrinking contact.",
+       "misconception": "levers fighting"
+      },
+      {
+       "key": "C",
+       "text": "Shorter chain and less branching",
+       "correct": false,
+       "explanation": "The shorter chain cuts electron count and lowers the point.",
+       "misconception": "lever wrong"
+      },
+      {
+       "key": "D",
+       "text": "Shorter chain and more branching",
+       "correct": false,
+       "explanation": "Both changes push the boiling point down.",
+       "misconception": "both wrong"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the effect of branching on boiling temperature and name the force involved.",
+     "misconceptionClass": "branching recall",
+     "modelAnswer": "Branching lowers the boiling temperature because it reduces the surface area over which London dispersion forces can act.",
+     "keywords": [
+      "branching",
+      "surface area",
+      "London"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State what happens to temporary dipoles as electron count increases.",
+     "misconceptionClass": "electron recall",
+     "modelAnswer": "A greater electron count makes distortions more likely and bigger, so temporary dipoles are larger and more frequent and the induced forces strengthen.",
+     "keywords": [
+      "electron count",
+      "temporary dipoles",
+      "stronger"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why the alkane boiling-point graph climbs with chain length.",
+     "misconceptionClass": "graph reasoning",
+     "modelAnswer": "Each extra carbon brings more electrons and more molecular surface, so both the size and the contact area of induced interactions grow, and the boiling point rises with every added CH2 unit.",
+     "keywords": [
+      "electrons",
+      "surface",
+      "boiling point"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "Pentane boils at 36 degrees while its branched isomer 2-methylbutane boils at 28 degrees. How much branching credit, in degrees, does the straight chain claim in this pair?",
+     "misconceptionClass": "isomer application",
+     "modelAnswer": "The 8-degree gap is the branching premium: the straight chain's larger contact area holds it liquid to a higher temperature.",
+     "keywords": [
+      "8",
+      "surface",
+      "branching"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Why alcohols outboil their alkanes",
+   "sourceHeadings": [
+    "Alcohols"
+   ],
+   "specRefs": [
+    "7.5"
+   ],
+   "opening": "Swap one CH2 for an OH and the boiling point leaps tens of degrees. This lesson traces the jump to hydrogen bonding between alcohol molecules, against the mere induced pulls their alkane cousins manage.",
+   "keyPoints": [
+    "Alcohols carry O-H bonds, so their molecules hydrogen bond to each other.",
+    "The oxygen pulls the shared electrons away, leaving each hydrogen delta-positive.",
+    "Those hydrogens reach lone pairs on neighbouring oxygens, forming hydrogen bonds.",
+    "Alkanes manage only induced dipole-dipole forces between their molecules.",
+    "Propane boils at -42 degrees while propanol reaches 97 degrees."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "The O-H group lets alcohol molecules hook together strongly; alkane molecules only nudge each other, so separating alcohols takes far more energy.",
+     "analogy": "Alcohol molecules shake hands firmly across the gap; alkane molecules brush sleeves. Undoing handshakes costs more effort than brushing sleeves apart.",
+     "examPointer": "Name both the force in the alcohol (hydrogen bonding) and the force in the alkane (induced dipole-dipole) - naming only one loses the comparison mark."
+    },
+    "medium": {
+     "restatement": "Electronegative oxygen polarises the O-H bond, giving hydrogen enough positive character to bond a lone pair on the next molecule's oxygen; the alkane's C-H bonds stay essentially non-polar, so induced forces remain its only intermolecular resource.",
+     "analogy": "One molecule carries a key ring (delta-positive hydrogens) and the next carries the locks (lone pairs); the alkane has neither keys nor locks and relies on leaning against its neighbour.",
+     "examPointer": "Quote the propane/propanol figures when asked for evidence - the 139-degree spread is the numbers behind the mechanism."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Which intermolecular force dominates between alcohol molecules?",
+     "misconceptionClass": "alcohol force",
+     "options": [
+      {
+       "key": "A",
+       "text": "Hydrogen bonding through the O-H groups",
+       "correct": true,
+       "explanation": "Polarised hydrogens reach lone pairs on neighbouring oxygens.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Induced dipole-dipole only",
+       "correct": false,
+       "explanation": "That is the alkane's ceiling, not the alcohol's.",
+       "misconception": "force underclaimed"
+      },
+      {
+       "key": "C",
+       "text": "Ionic attraction",
+       "correct": false,
+       "explanation": "Alcohols are covalent molecular liquids.",
+       "misconception": "bonding misread"
+      },
+      {
+       "key": "D",
+       "text": "Metallic bonding",
+       "correct": false,
+       "explanation": "No metal atoms participate.",
+       "misconception": "nonsense option"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why is the hydrogen of an O-H group delta-positive?",
+     "misconceptionClass": "polarity origin",
+     "options": [
+      {
+       "key": "A",
+       "text": "Oxygen draws the shared electron pair toward itself",
+       "correct": true,
+       "explanation": "High electronegativity leaves hydrogen's positive end exposed.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Hydrogen donates its electron completely",
+       "correct": false,
+       "explanation": "The pair is shared, not surrendered.",
+       "misconception": "ionisation overclaimed"
+      },
+      {
+       "key": "C",
+       "text": "The oxygen nucleus repels hydrogen",
+       "correct": false,
+       "explanation": "Repulsion is not the polarity mechanism.",
+       "misconception": "mechanism wrong"
+      },
+      {
+       "key": "D",
+       "text": "Carbon pushes electrons onto hydrogen",
+       "correct": false,
+       "explanation": "Carbon is not part of the O-H bond.",
+       "misconception": "group misread"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Propane boils at -42 degrees and propanol at 97 degrees. What is the dominant reason for the 139-degree gap?",
+     "misconceptionClass": "gap attribution",
+     "options": [
+      {
+       "key": "A",
+       "text": "Propanol's molecules hydrogen bond while propane's only induce dipoles",
+       "correct": true,
+       "explanation": "The force upgrade is the whole story.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Propanol has more electrons only",
+       "correct": false,
+       "explanation": "The electron difference is minor; the force type does the heavy lifting.",
+       "misconception": "minor factor overrated"
+      },
+      {
+       "key": "C",
+       "text": "Propane's covalent bonds are stronger",
+       "correct": false,
+       "explanation": "Covalent strength does not set boiling points.",
+       "misconception": "lever confused"
+      },
+      {
+       "key": "D",
+       "text": "Propanol is ionic",
+       "correct": false,
+       "explanation": "It is a covalent molecule.",
+       "misconception": "class wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which statement about alkane intermolecular forces is correct?",
+     "misconceptionClass": "alkane baseline",
+     "options": [
+      {
+       "key": "A",
+       "text": "Their only intermolecular forces are induced dipole-dipole",
+       "correct": true,
+       "explanation": "No permanent dipoles or O-H groups exist in a pure alkane.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "They hydrogen bond weakly",
+       "correct": false,
+       "explanation": "C-H bonds are never hydrogen-bond donors.",
+       "misconception": "force invented"
+      },
+      {
+       "key": "C",
+       "text": "They carry permanent dipoles",
+       "correct": false,
+       "explanation": "The hydrocarbon skeleton is non-polar.",
+       "misconception": "polarity invented"
+      },
+      {
+       "key": "D",
+       "text": "Their molecules attract by ion-induced dipole",
+       "correct": false,
+       "explanation": "No ions are present.",
+       "misconception": "species invented"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What structural feature must a molecule carry to hydrogen bond?",
+     "misconceptionClass": "feature check",
+     "options": [
+      {
+       "key": "A",
+       "text": "Hydrogen attached to O, N or F",
+       "correct": true,
+       "explanation": "That kit is the donor requirement.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Any hydrogen at all",
+       "correct": false,
+       "explanation": "C-H hydrogens never qualify.",
+       "misconception": "overbroad"
+      },
+      {
+       "key": "C",
+       "text": "A double bond",
+       "correct": false,
+       "explanation": "Unsaturation plays no role in hydrogen bonding.",
+       "misconception": "feature wrong"
+      },
+      {
+       "key": "D",
+       "text": "A charged group",
+       "correct": false,
+       "explanation": "Neutral alcohols hydrogen bond readily.",
+       "misconception": "charge invented"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Name the force that sets alcohol boiling points above alkane boiling points.",
+     "misconceptionClass": "force recall",
+     "modelAnswer": "Hydrogen bonding between alcohol molecules sets their boiling points far above the induced dipole-dipole ceiling of alkanes.",
+     "keywords": [
+      "hydrogen bonding",
+      "alkane",
+      "boiling"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Quote the boiling points of propane and propanol.",
+     "misconceptionClass": "figure recall",
+     "modelAnswer": "Propane boils at -42 degrees and propanol at 97 degrees, a 139-degree demonstration of the hydrogen-bond premium.",
+     "keywords": [
+      "-42",
+      "97",
+      "139"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why replacing a hydrogen of an alkane by an OH group changes the intermolecular force inventory.",
+     "misconceptionClass": "substitution reasoning",
+     "modelAnswer": "The OH group adds a polar O-H bond whose hydrogen reaches oxygen lone pairs on neighbours, so hydrogen bonding joins the inventory; the pure alkane carried only induced dipole-dipole forces.",
+     "keywords": [
+      "O-H",
+      "lone pair",
+      "inventory"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "If ethanol boils at 78 degrees and its same-electron-count alkane analogue boils at -24 degrees, how many degrees of hydrogen-bond premium does ethanol show?",
+     "misconceptionClass": "premium application",
+     "modelAnswer": "Subtracting -24 from 78 gives 102 degrees, the hydrogen-bond premium this comparison displays.",
+     "keywords": [
+      "102",
+      "premium",
+      "hydrogen"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The hydrogen halides and their outlier",
+   "sourceHeadings": [
+    "Hydrogen Halides"
+   ],
+   "specRefs": [
+    "7.5"
+   ],
+   "opening": "From HCl to HI the boiling points climb smoothly as electrons accumulate - but HF breaks the pattern, boiling hundreds of degrees above its slot. This lesson assigns each force its share of the credit.",
+   "keyPoints": [
+    "The hydrogen halides' boiling points rise from HCl through HBr to HI.",
+    "Larger halogens carry more electrons, so induced dipole-dipole forces strengthen along the series.",
+    "HF sits far above the trend because its molecules hydrogen bond.",
+    "The H-F bond is highly polar, leaving hydrogen strongly positive.",
+    "Fluorine's small, intense lone pairs complete the hydrogen-bond link between neighbours."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Down the halogen group the molecules fatten with electrons, so induced forces and boiling points rise together; HF jumps off the line because only it can hydrogen bond.",
+     "analogy": "Three siblings grow steadily heavier with age (HCl, HBr, HI), but the youngest (HF) carries a backpack no sibling has - the hydrogen-bond kit - and outweighs them all.",
+     "examPointer": "Sketch the graph with HF plotted as a high outlier above the HCl-HI line, then label the outlier 'hydrogen bonding'."
+    },
+    "medium": {
+     "restatement": "Electron count drives the induced contribution from chlorine to iodine; in HF the bond polarity concentrates charge at hydrogen and fluorine's compact lone pairs accept a link, adding an entirely new force channel that dominates the boiling point.",
+     "analogy": "The series adds passengers one by one (electrons), but HF also bolted on a tow bar (hydrogen bonding) that hauls its boiling point clear of the queue.",
+     "examPointer": "Say 'hydrogen bonds between HF molecules' explicitly - 'polarity alone' explanations fail because HCl is also polar yet sits on the trend line."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Which hydrogen halide boils highest?",
+     "misconceptionClass": "series maximum",
+     "options": [
+      {
+       "key": "A",
+       "text": "HF",
+       "correct": true,
+       "explanation": "Hydrogen bonding lifts HF far above every neighbour on the series.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "HCl",
+       "correct": false,
+       "explanation": "HCl sits at the trend line's low end.",
+       "misconception": "member misread"
+      },
+      {
+       "key": "C",
+       "text": "HBr",
+       "correct": false,
+       "explanation": "HBr is an intermediate on the line.",
+       "misconception": "member misread"
+      },
+      {
+       "key": "D",
+       "text": "HI",
+       "correct": false,
+       "explanation": "HI tops the induced-only trend but not HF.",
+       "misconception": "near-miss"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why do the boiling points of HCl, HBr and HI increase in order?",
+     "misconceptionClass": "trend driver",
+     "options": [
+      {
+       "key": "A",
+       "text": "Each molecule carries more electrons, strengthening induced forces",
+       "correct": true,
+       "explanation": "Electron count climbs down the group and so does the dispersion pull.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Their hydrogen bonds strengthen",
+       "correct": false,
+       "explanation": "None of the three hydrogen bonds at all.",
+       "misconception": "force invented"
+      },
+      {
+       "key": "C",
+       "text": "Their bond lengths shorten",
+       "correct": false,
+       "explanation": "Bonds lengthen down the group.",
+       "misconception": "direction wrong"
+      },
+      {
+       "key": "D",
+       "text": "Their polarity increases",
+       "correct": false,
+       "explanation": "Polarity actually falls as the halogen gets bigger.",
+       "misconception": "trend wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "What two features of fluorine make strong hydrogen bonds possible in HF?",
+     "misconceptionClass": "fluorine features",
+     "options": [
+      {
+       "key": "A",
+       "text": "High bond polarity and small intense lone pairs",
+       "correct": true,
+       "explanation": "The polar bond exposes hydrogen; the compact lone pairs accept the link.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Large size and weak electronegativity",
+       "correct": false,
+       "explanation": "Fluorine is small and strongly electronegative.",
+       "misconception": "features inverted"
+      },
+      {
+       "key": "C",
+       "text": "Low electron count and high mass",
+       "correct": false,
+       "explanation": "Mass is irrelevant; the count is nine.",
+       "misconception": "features wrong"
+      },
+      {
+       "key": "D",
+       "text": "Metallic character and ionisation",
+       "correct": false,
+       "explanation": "Fluorine has neither.",
+       "misconception": "nonsense pair"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "HCl is a polar molecule yet sits on the trend line. Why does polarity alone not lift it?",
+     "misconceptionClass": "polarity sufficiency",
+     "options": [
+      {
+       "key": "A",
+       "text": "Its polarity supports only permanent dipole-dipole forces, which beat induced ones modestly at equal size",
+       "correct": true,
+       "explanation": "Without hydrogen bonding there is no premium.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "HCl's polarity is too weak to matter at all",
+       "correct": false,
+       "explanation": "The polarity does contribute; it just cannot add the hydrogen-bond premium.",
+       "misconception": "contribution denied"
+      },
+      {
+       "key": "C",
+       "text": "HCl carries hydrogen bonds like HF",
+       "correct": false,
+       "explanation": "Chlorine's diffuse lone pairs cannot form them.",
+       "misconception": "force invented"
+      },
+      {
+       "key": "D",
+       "text": "Polarity never affects boiling points",
+       "correct": false,
+       "explanation": "Permanent dipoles do raise points above the induced baseline.",
+       "misconception": "effect denied"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which statement about the hydrogen halide graph is correct?",
+     "misconceptionClass": "graph reading",
+     "options": [
+      {
+       "key": "A",
+       "text": "HCl, HBr and HI rise steadily while HF plots far above the extrapolated line",
+       "correct": true,
+       "explanation": "The smooth climb plus the outlier is exactly the data shape.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "All four sit on one straight line",
+       "correct": false,
+       "explanation": "HF's outlier breaks the line.",
+       "misconception": "outlier erased"
+      },
+      {
+       "key": "C",
+       "text": "HF plots below HCl",
+       "correct": false,
+       "explanation": "HF boils highest of all four.",
+       "misconception": "position wrong"
+      },
+      {
+       "key": "D",
+       "text": "HI plots lowest",
+       "correct": false,
+       "explanation": "HI boils highest of the induced-only trio.",
+       "misconception": "position wrong"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the force responsible for the smooth HCl-to-HI climb and the force responsible for HF's outlier position.",
+     "misconceptionClass": "force pair recall",
+     "modelAnswer": "Induced dipole-dipole forces drive the smooth climb, and hydrogen bonding accounts for HF's outlier position.",
+     "keywords": [
+      "induced dipole-dipole",
+      "hydrogen bonding",
+      "outlier"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Describe what the fluorine end of an HF molecule offers to a neighbour.",
+     "misconceptionClass": "acceptor recall",
+     "modelAnswer": "Fluorine offers small, intense lone pairs that accept the hydrogen bond from a neighbouring molecule's polarised hydrogen.",
+     "keywords": [
+      "lone pairs",
+      "fluorine",
+      "accept"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why HF's boiling point exceeds HI's despite HI's far greater electron count.",
+     "misconceptionClass": "outlier reasoning",
+     "modelAnswer": "HI's electron advantage strengthens only induced forces, whereas HF gains a whole extra force channel - hydrogen bonding - whose energy outweighs the electron-count deficit and hoists HF above the whole series.",
+     "keywords": [
+      "electron",
+      "hydrogen bonding",
+      "outweigh"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "If HF's hydrogen-bond premium adds roughly 180 degrees above its trend-line slot of about -80 degrees, estimate HF's actual boiling point.",
+     "misconceptionClass": "premium application",
+     "modelAnswer": "Adding the premium to the slot gives about 100 degrees, close to HF's observed boiling point near 20 degrees once the trend slope is folded in.",
+     "keywords": [
+      "premium",
+      "trend",
+      "hydrogen"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "London dispersion force",
+    "definition": "The induced dipole-dipole attraction whose strength scales with electron count and molecular contact area.",
+    "firstLesson": 1
+   },
+   {
+    "term": "branching",
+    "definition": "A skeletal rearrangement that shrinks molecular surface area and so weakens induced attractions between isomers.",
+    "firstLesson": 1
+   },
+   {
+    "term": "hydrogen-bond premium",
+    "definition": "The boiling-point excess a substance shows above its trend line because its molecules hydrogen bond.",
+    "firstLesson": 3
+   }
+  ],
+  "workedExample": null
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/25c0b00df2bb-1-3-chemical-bonding-contact-points.png",
+   "alt": "Chemical Bonding Contact Points, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Branching",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "Boiling points of molecules with the same numbers of electrons but different surface areas"
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/fd916870f3f4-1-3-chemical-bonding-enthalpy-and-boiling-point.png",
+   "alt": "Chemical Bonding Enthalpy and Boiling Point, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Number of electrons",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "As the number of electrons increases more energy is needed to overcome the forces of attraction between the noble gases atoms"
+  },
+  {
+   "id": "fig-03",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/e81c57c28b08-10-1-1-alkanes-boiling-point-graph.png",
+   "alt": "Alkanes Boiling Point",
+   "sourceHeading": "Number of electrons",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "Graph showing the increase in boiling point as the number of electrons increases"
+  },
+  {
+   "id": "fig-04",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/6fef4e788ae1-2-2-3-the-boiling-points-of-the-hydrogen-halides.png",
+   "alt": "2-2-3-the-boiling-points-of-the-hydrogen-halides",
+   "sourceHeading": "Hydrogen Halides",
+   "moduleIds": [
+    "L3"
+   ],
+   "binding": "heading-unique"
+  }
+ ]
+}
