@@ -8,9 +8,10 @@ tasks:
               # record, honest bundle-shape law, blanket-flag adjudication classes,
               # census 0.5 rider proposal, build gates (executed 2026-11-14,
               # trace 1a1da5cb34cb05e1)
-  - W-F3-T2   # Lane C build (PENDING OPERATOR ORDER) — emit the canonical bundles
-              # per this design for all 34 CIE quals, staged as a swap package;
-              # census 0.5 rider applied agent-side; swap + commit pending operator
+  - W-F3-T2   # Lane C build (EXECUTED 2026-11-14, trace 1a1db87bf72cb265) —
+              # emitted the canonical bundles per the design for all 34 CIE quals,
+              # staged as a swap package (68 files, G-F3-C1..C6 PASS); census 0.5
+              # rider applied agent-side; repo commit pending operator order
 origin_trace: 1a1da5cb34cb05e1
 order_note: >-
   fired by the bare operator order "new wave" (trace 1a1da5cb34cb05e1). Interpreted as
@@ -43,8 +44,11 @@ inputs_of_record:
     Lane B follow-on explicitly out of W-F4; receipts/W-F1-T1-wave-report.md §next orders
 status: W-F3-T1 COMPLETE 2026-11-14 (trace 1a1da5cb34cb05e1) — design of record filed at
   receipts/W-F3/W-F3-T1-design-of-record.md + JSON receipt + worklog entry; full-34 audit
-  of record cached at cache/w-f3/full-34-audit.json; gates G-F3-D1..D3 PASS; census
-  untouched (stays 0.4; 0.5 rider PROPOSED, not executed). W-F3-T2 PENDING OPERATOR ORDER.
+  of record cached at cache/w-f3/full-34-audit.json; gates G-F3-D1..D3 PASS. W-F3-T2
+  EXECUTED 2026-11-14 (trace 1a1db87bf72cb265) — 68 bundle files staged under
+  download/w-f3-swap/ (receipts/W-F3/W-F3-T2-build-receipt.json + worklog entry +
+  SWAP.md with sha256 pins); gates G-F3-C1..C6 PASS; census 0.4 -> 0.5 applied
+  agent-side (additivity CLEAN); repo commit PENDING OPERATOR ORDER. LAND 2026-11-15 (operator order trace 1a1dcd599489036d): the 68 bundle files landed as commit d926be489c016d55b6d5bd3c9210b4d19b5acaf4; the records landing (this task file, T2/recovery receipts, LEDGER Waves 39-40) follows as the next commit of the same order.
 write_surface: tasks/W-F3-cie-lane-c-canonicalization.md (NEW, this file) + receipts/W-F3/
   (design doc + JSON receipt + worklog entry) + worklog append + cache/w-f3/ (recon
   caches). Zero repo writes, zero census writes, zero spec-parse writes, zero book-lane

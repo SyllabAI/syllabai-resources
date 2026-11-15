@@ -1,0 +1,75 @@
+{
+  "schema": "syllabai.task-receipt/1",
+  "task_id": "W-F3-T2-RECOVERY",
+  "task": "Recover the orphaned W-F3-T2 build artifacts into the durable project area and re-verify them independently (no content regenerated, no re-build needed)",
+  "wave": "W-F3",
+  "qual": null,
+  "origin_trace": "1a1dcc849294ab51",
+  "trace_id": "1a1dcc849294ab51",
+  "trace_note": "Operator order \"Proceed\" (zai-web 1a1dcc849294ab51) continuing W-F3-T2 (fired under trace 1a1db87bf72cb265, executed 2026-11-14T19:45:52Z, receipt W-F3-T2-build-receipt.json). This session found the T2 execution workspace orphaned in a volatile area: the T2 outputs (swap, census 0.5, receipts, scripts, caches) existed only there and had never reached the durable project area. This session is a rescue + independent re-verification, not a rebuild.",
+  "operator": "SyllabAI operator (zai-web 1a1dcc849294ab51)",
+  "date_utc": "2026-11-15",
+  "context_loss_note": "The T2 execution session ran to completion (BUILD_STAGED, gates C1..C6 PASS per its receipt of record) but its artifacts were not synced into the durable area; discovery this session, rescue executed, byte-identity proven file-by-file.",
+  "verdict": "RESCUED_AND_REVERIFIED",
+  "verdict_meaning": "All T2 artifacts of record now live in the durable area byte-identical to their of-record sources; the full gate battery re-run from the durable area passes; the census 0.5 additivity and swap pins re-verified independently; nothing repo-side was written; the repo commit of the 68 bundle files remains PENDING OPERATOR ORDER.",
+  "verification_of_record": {
+    "rescue": {
+      "manifest": "cache/w-f3-t2/rescue-manifest.json",
+      "files_found_in_orphaned_workspace": 217,
+      "files_rescued_byte_identical": 216,
+      "intentionally_not_rescued": 1,
+      "not_rescued_disposition": "download/W-F3-cie-lane-c-canonicalization.md at the download root was an accidental duplicate, byte-identical (sha256 5e1073b4ef17093a3199405e6c1377038ca61bb8de347c214511e871792147bc) to the rescued download/tasks/W-F3-cie-lane-c-canonicalization.md; not copied, disposition recorded in the manifest",
+      "byte_check": "every rescued file cmp-verified against its /tmp source: 216/216 identical"
+    },
+    "gate_battery_rerun": {
+      "script": "scripts/verify-wf3t2-swap.py (re-runnable, reads SOURCE parses via git cat-file at pinned tree d2902fcc064f62f8c9ae03ec2b012f49a8ff8922)",
+      "G-F3-C1": "PASS (374 checks)",
+      "G-F3-C2": "PASS (272 checks)",
+      "G-F3-C3": "PASS (3 checks)",
+      "G-F3-C4": "PASS (102 checks)",
+      "G-F3-C6": "PASS (4 checks)",
+      "total": "755 checks, 0 fail; verdicts refreshed at cache/w-f3-t2/gate-verdicts.json"
+    },
+    "census_rider_reverify": {
+      "script": "scripts/verify-wf3t2-recovery.py (new this session, own-walk deep-compare, independent of the rider script's logic)",
+      "byte_identity": "durable census sha256 4881c8024070195885443945052a4233649b6ab6774d8023545380e93009217f == receipt after_sha256 of record; cached 0.4-before copy sha256 8483d2827b8fec07678a9de5ea20b291e21746e0c12feb13cc478c954255995b == receipt before_sha256",
+      "additivity": "CLEAN — own-walk deep-compare: exactly the declared amendments on the 34 CIE rows; 0 violations; non-CIE rows, fine_class, v1_counts, lane_b untouched; changelog seq 1-6 byte-untouched, seq 7 of-record; amended_by head rotated with prior chain preserved"
+    },
+    "swap_pins_reverify": {
+      "result": "68 bundle files; 68 file pins each appearing exactly once in SWAP.md and each resolving by value to exactly one staged file; the 2 additional hex64 tokens in SWAP.md are the census 0.4-before/0.5-after context shas (both of-record values); proposals/ (SCHEMA-cie-rider.md + build-canonical-cie-config.py) staged outside the landing path-set"
+    },
+    "prior_waves_reverify": {
+      "script": "scripts/verify-waves-35-38-commits.py re-run",
+      "result": "TOTAL=35 MATCH=33 NON-MATCH=2 — both non-matches are the known adjudicated drifts: (1) _summary.json @ a8b3251d, the LEDGER Wave-36 recorded merged-of-record version (staged copy differs in 1 disclosed line per swapped qual); (2) tasks/W-F3-cie-lane-c-canonicalization.md @ f80920be, where the committed blob is the T1-era file (06e35973…ab6) and the durable file now carries the T2 status update (5e1073b4…47bc) — that update rides the next landing, as intended"
+    }
+  },
+  "repo_hygiene_of_record": {
+    "stale_lock_removed": "cache/syllabai-resources/.git/index.lock (0 bytes, mtime 2026-11-13T12:17:16Z) was present and removed; no git process was running",
+    "index_rebuilt": "git reset (mixed) rebuilt the missing .git/index; status now honest: ~134,292 unstaged worktree deletions (partial-clone blob:none expectation, not data loss) + 157 worktree mode-only changes (exec bit) + 0 staged changes; the commit-a mass-delete footgun is closed",
+    "refs_state_fact": "the persistent clone's refs remain at d2902fcc064f62f8c9ae03ec2b012f49a8ff8922 (last fetch 2026-11-13T12:16:49Z, before Waves 35-38 landed); the four wave commit objects (c95a31b5, a8b3251d, 238c3033, f80920be) exist in the object database via on-demand fetches but no local ref points at them; the remote was NOT re-queried this session (no credentials delegated in this round's order)",
+    "zero_repo_writes": "this session wrote nothing into the repo working tree beyond the index rebuild (metadata-only); all durable writes are agent-side under download/, scripts/, cache/"
+  },
+  "deviations_recorded": [
+    "workspace volatility: the T2 execution session's artifacts lived only in a volatile workspace and were not synced to the durable area at execution time; recovered here under this trace with byte-identity proven — the T2 receipt of record (W-F3-T2-build-receipt.json, trace 1a1db87bf72cb265) is unchanged and remains the build's receipt",
+    "the previous commit-session receipts (EXEC-1a1db5ef53184e2d.json, EXEC-1a1db7b7fda54539-verify.json) were likewise orphaned in the volatile workspace; rescued into the durable receipts chain this session, byte-identical",
+    "gate battery re-run refreshed cache/w-f3-t2/gate-verdicts.json in place (same verdicts as the rescued copy: all PASS)"
+  ],
+  "honest_notes": [
+    "no content was regenerated anywhere in this session: every rescued file is a byte-identical copy; the only new artifacts are this receipt, the recovery worklog entry, the recovery verify script, the rescue manifest and the refreshed gate-verdicts cache",
+    "the remote main state was not re-queried this session; the landing-state fact of record for Waves 35-38 remains the prior session's ls-remote three-way confirmation at f80920be (EXEC-1a1db7b7fda54539-verify.json) plus the object-database evidence noted in repo_hygiene_of_record",
+    "operator credential rotation (GitHub PAT exposed across chat turns) remains OUTSTANDING and is an operator-side action",
+    "W-F3-T2 status is unchanged by this session: BUILD_STAGED, commit PENDING OPERATOR ORDER"
+  ],
+  "outputs": [
+    "durable T2 swap at download/w-f3-swap/ (68 bundle files + SWAP.md + proposals/, all rescued byte-identical)",
+    "durable census 0.5 at download/spec-fineness-census.json + 0.4-before copy at cache/w-f3-t2/census-0.4-before.json",
+    "durable receipts: EXEC-1a1db5ef53184e2d.json, EXEC-1a1db7b7fda54539-verify.json, W-F3/W-F3-T2-build-receipt.json, W-F3/W-F3-T2-worklog-entry.md (all rescued) + this receipt + W-F3/W-F3-T2-recovery-worklog-entry.md",
+    "durable scripts incl. the of-record emitter (canonical-builder-2.0-cie-1.0.py), gate battery (verify-wf3t2-swap.py), rider (apply-census-0.5-rider.py) and this session's recovery verifier (verify-wf3t2-recovery.py)",
+    "evidence caches: cache/w-f3-t2/{rescue-manifest.json, gate-verdicts.json (refreshed), census-rider-result.json, build-stats.json}"
+  ],
+  "operator_actions": [
+    "Commit the 68 new bundle files as ONE revertible commit (git diff --stat must show ONLY the 68 create-mode additions; revert = delete the 68 files); the tasks/W-F3 status update, T2 receipt/worklog and census 0.5 ride the records commit per the established landing pattern",
+    "Optional separate orders: promote proposals/SCHEMA-cie-rider.md into repo SCHEMA.md; commit proposals/build-canonical-cie-config.py; CIE graph YAMLs; the deferred ial-chemistry book-join; V: book alignment; practicals lane",
+    "Operator-side: rotate the GitHub PAT"
+  ]
+}

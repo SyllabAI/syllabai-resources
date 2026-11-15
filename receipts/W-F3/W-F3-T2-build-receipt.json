@@ -1,0 +1,76 @@
+{
+ "schema": "syllabai.task-receipt/1",
+ "task_id": "W-F3-T2",
+ "task": "Lane C build: emit the 34 CIE canonical bundles (spec_points.json + topics.json per qual) per the W-F3-T1 design of record; census 0.5 rider applied; swap staged, commit pending operator order",
+ "wave": "W-F3",
+ "qual": null,
+ "origin_trace": "1a1db87bf72cb265",
+ "trace_id": "1a1db87bf72cb265",
+ "operator": "SyllabAI operator (zai-web 1a1db87bf72cb265)",
+ "order": "W-F3-T2",
+ "date_utc": "2026-11-14T19:45:52Z",
+ "tree_of_record": "d2902fcc064f62f8c9ae03ec2b012f49a8ff8922 (tree 068ef1880373b9434f1f87f7e6ad63854cce6955)",
+ "tree_note": "the SOURCE parses' blobs are byte-identical at HEAD f80920be (Waves 35-38 touched no cie-* path; pin==HEAD blob-identity asserted per qual by the emitter)",
+ "method": "agent-side zero-LLM emitter canonical-builder-2.0-cie-1.0 (scripts/canonical-builder-2.0-cie-1.0.py) reading SOURCE parses via git cat-file at the pinned tree; independent gate battery scripts/verify-wf3t2-swap.py re-deriving every rule from SOURCE",
+ "verdict": "BUILD_STAGED — 68 files staged under download/w-f3-swap/Official-Specifications/parsed/<cie-<slug>>/{spec_points.json,topics.json}; all gates G-F3-C1..C6 PASS; repo commit PENDING OPERATOR ORDER (landing = exactly the 68 additions, G-F3-C6 law)",
+ "counts_of_record": {
+  "quals": 34,
+  "spec_points": 6920,
+  "flagged_rows": 5713,
+  "topics_source_rows": 598,
+  "topics_emitted_nodes": 467,
+  "topics_deduped": 131,
+  "topics_multi_span_nodes": 47,
+  "topics_null_number_code_null": 86,
+  "subsections": 1646,
+  "leading_verb_null_rows": 1921,
+  "practicals": 0,
+  "families": "nmk_outcomes 8 / int_statements 13 / heading_bullets 5 / tier_columns 5 / ce_codes 2 / lettered_items 1",
+  "parsers": "cie-spec-parser-1.0 (29) / cie-spec-parser-1.0+spec-reparse-1.0 (5)"
+ },
+ "gates": {
+  "G-F3-C1": "PASS — 374 checks: 13-field presence + key order per row; id/official_code/scope/text/sub_items/flags/practical/topic verbatim resolve vs SOURCE rows (0 unresolved); leading_verb family law (first-token-lower on int/tier/ce/lettered; null on nmk/heading_bullets); applicability law (tier rides, rule null); provenance = parse_report pins + row page/oy + pdf-span-geometry",
+  "G-F3-C2": "PASS — 272 checks: id-set equality 34/34 (no drops, no dupes); counts equality (spec_points/practicals/flagged vs SOURCE counts); topics emitted+source_topic_rows vs SOURCE arrays; subsections 1:1 (code,title,page,oy tuples); topic rows re-derived incl. dedup + multi-span provenance + scope agreement",
+  "G-F3-C3": "PASS — rider staged at download/w-f3-swap/proposals/SCHEMA-cie-rider.md (6 families in the family-strategy table, 6 ID-scheme rows + design-notation line, prefix law CIE_<QUAL_SLUG>_<WINDOWS>); canonical ids byte-identical to SOURCE ids (row-by-row, covered by C1)",
+  "G-F3-C4": "PASS — 102 checks: exactly the 2-file bundle per qual; no practicals.json anywhere; no AO/command_words/equations content keys in any bundle; honest-absent block filed per-qual (SWAP.md §4 + this receipt)",
+  "G-F3-C5": "PASS — census 0.5 rider applied exactly as design §5: 34 rows (canonical_bundle false->true + canonical_bundle_files + canonical_parser + remedy_lanes C-entry annotated DONE W-F3-T2) + changelog seq 7 (seq-6 format) + schema 0.4->0.5 + amended_by chain rotated; deep-compare additivity CLEAN (0 non-CIE mutations; fine_class/v1_counts/lane_b byte-untouched)",
+  "G-F3-C6": "PASS — swap discipline: 68 bundle files + SWAP.md (sha256 pins for all 68, verified) + proposals/ outside the landing path-set; landing law + rollback law written; zero repo writes this wave"
+ },
+ "census_rider": {
+  "file": "download/spec-fineness-census.json",
+  "before_sha256": "8483d2827b8fec07678a9de5ea20b291e21746e0c12feb13cc478c954255995b",
+  "after_sha256": "4881c8024070195885443945052a4233649b6ab6774d8023545380e93009217f",
+  "schema": "syllabai.spec-fineness-census/0.4 -> syllabai.spec-fineness-census/0.5",
+  "changelog": "seq 7 appended (task_id W-F3-T2, before/after summary, design origin_trace 1a1da5cb34cb05e1 + execution trace 1a1db87bf72cb265)",
+  "additivity": "CLEAN — deep-compare whitelist = exactly the declared amendments; before-copy cached at cache/w-f3-t2/census-0.4-before.json"
+ },
+ "staged_outputs": [
+  "download/w-f3-swap/Official-Specifications/parsed/<cie-<slug>>/{spec_points.json,topics.json} x34 (68 files, sha256 pins in SWAP.md)",
+  "download/w-f3-swap/SWAP.md (inventory + pins + per-qual flag-adjudication manifest + honest-absent + emission decisions + landing/rollback law)",
+  "download/w-f3-swap/proposals/SCHEMA-cie-rider.md (staged proposal — promotion needs its own order)",
+  "download/w-f3-swap/proposals/build-canonical-cie-config.py (OPTIONAL staged proposal, per design §6 'not required for the swap')"
+ ],
+ "emission_decisions": "D1..D9 of record at SWAP.md §5 (multi-span provenance array; null-number topics keep code null x86; applicability tier-rides with rule null; qualification null + spec_codes [] honest-absent; subsections array as-parsed; bundle source block verbatim from the parse; counts shapes; JSON byte format = staged format; manifest lives in SWAP.md/receipt)",
+ "deviations_recorded": [
+  "remedy_lanes has TWO patterns across the 34 rows (29 rows C-entry-first; 5 thin quals A2+B+'C: canonical bundle') — the design's 'the C: canonical bundle entry annotated' was applied by prefix match wherever the entry sits (29 rows index 0, 5 rows index 2); the other lanes (A2/B/V/blanket-flag) stay open",
+  "G-F3-C6 says the commit shows ONLY the 68 new bundle files while design §9.4 lists '68 new files + rider + optional proposal' — interpretation of record: the rider + optional config proposal are STAGED under proposals/ (evidence + ready to promote) but are NOT part of the 68-file landing path-set; promoting them into the repo (SCHEMA.md rows / scripts/) is a separate operator action",
+  "the per-qual manifest (flag adjudication classes + honest-absent) lives in SWAP.md §3/§4 + this receipt rather than in the bundle files or a parse_report update — the bundle files keep the fixed of-record shapes and parse_report.json stays untouched because the landing is additions-only (C6)"
+ ],
+ "honest_notes": [
+  "zero LLM anywhere: deterministic mapping only; SOURCE text rides verbatim including control glyphs (\\u0007 in igcse-biology sub_items, GP topic titles) and synthesized ids; flags never cleared",
+  "the repo commit is PENDING OPERATOR ORDER; nothing repo-side was written this wave (write surface = tasks/W-F3-*.md status line + receipts/W-F3/ + cache/w-f3-t2/ + download/w-f3-swap/ + census rider)",
+  "Waves 35-38 landed at f80920be during the gap between T1 and T2 — the W-F4-T2 deferred ial-chemistry book-join (BUILT_NOT_JOINED) is unblocked spec-side by that landing and still awaits its own order",
+  "flagged_rows 5713 of 6920 is the honest carry of the SOURCE parses' flagged counts (parser-disclosed flags, e.g. code-assembled on most int/tier rows) — a census/manifest fact, not a build defect"
+ ],
+ "outputs": [
+  "68 staged bundle files (inventory + pins: download/w-f3-swap/SWAP.md)",
+  "census 0.5 (agent-side of record, sha256 4881c802…217f)",
+  "cache/w-f3-t2/{build-stats.json, gate-verdicts.json, census-rider-result.json, census-0.4-before.json}",
+  "scripts/{canonical-builder-2.0-cie-1.0.py, verify-wf3t2-swap.py, apply-census-0.5-rider.py, make-wf3t2-swap-md.py}",
+  "receipts/W-F3/{W-F3-T2-build-receipt.json (this), W-F3-T2-worklog-entry.md} + tasks/W-F3 status line update"
+ ],
+ "operator_actions": [
+  "Commit the 68 new bundle files as ONE revertible commit (git diff --stat must show ONLY the 68 create-mode additions; revert = delete the 68 files)",
+  "Optional separate orders: promote proposals/SCHEMA-cie-rider.md into repo SCHEMA.md; commit proposals/build-canonical-cie-config.py; CIE graph YAMLs (derived_graph follow-on); deferred ial-chemistry book-join (BUILT_NOT_JOINED); V: book alignment (books-lane blocked); practicals lane (separate documents, rollout queue)"
+ ]
+}

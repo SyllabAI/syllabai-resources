@@ -1230,3 +1230,14 @@ sub_items 3->223 (71 runs / 71 statements, printed bare-roman layer, markers kep
 ## Wave 38 — W-F3-T1 records land: Lane C design of record (trace 1a1da5cb34cb05e1; committed under operator order trace 1a1db5ef53184e2d)
 
 First `tasks/` + `receipts/` records in the repo: `tasks/W-F3-cie-lane-c-canonicalization.md` + `receipts/W-F3/` (design of record + JSON receipt + worklog block; this commit). W-F3-T1 = Lane C design of record: 34 CIE quals audited (6 families, 6,920 spec points, parse gates G1-G4 34/34), per-family canonical emitter rules, census 0.5 rider PROPOSED (not executed), build gates G-F3-C1..C6 fixed; W-F3-T2 pending operator order. W-F1/W-F2/W-F4 receipts remain agent-side (not committed).
+---
+
+## Wave 39 — W-F3-T2 Lane C canonical bundles land: 34 CIE quals (trace 1a1db87bf72cb265; committed under operator order trace 1a1dcd599489036d)
+
+`W-F3-T2` lands the Lane C canonical build: 68 NEW files — spec_points.json + topics.json per qual under `Official-Specifications/parsed/cie-*/` (13-field contract of record; zero-LLM emitter `canonical-builder-2.0-cie-1.0`, agent-side; ids ride SOURCE verbatim; leading_verb family law: first-token verb on int/tier/ce/lettered, null on nmk/heading_bullets; tier rides applicability; provenance = parse_report pins + row page/oy). Counts of record: 6,920 spec_points / 5,713 flagged rows carried honestly / 598 SOURCE topic rows -> 467 emitted topic nodes (131 deduped, 47 multi-span) / 86 null-number topics keep code null / 1,646 subsections / practicals 0 (honest-empty — no practicals.json anywhere). Gates G-F3-C1..C6 PASS (755 battery checks + own-walk census-0.5 additivity CLEAN, re-verified from the durable area after the workspace rescue — see Wave 40). Census 0.5 stays agent-side (repo does not track the census file). One revertible commit `d926be489c016d55b6d5bd3c9210b4d19b5acaf4`; revert = delete the 68 files.
+
+---
+
+## Wave 40 — W-F3-T2 records land: task status + Lane C build/recovery receipts + LEDGER (committed under operator order trace 1a1dcd599489036d)
+
+`tasks/W-F3-cie-lane-c-canonicalization.md` status records the Wave-39 landing; `receipts/W-F3/` gains the T2 build receipt + T2 worklog entry + recovery worklog entry; `receipts/EXEC-1a1dcc849294ab51-recover-verify.json` records the recovery of the T2 execution workspace (artifacts found orphaned in a volatile area; 216/216 rescued byte-identical; gate battery re-run 755 checks PASS; census additivity re-derived CLEAN; verdict RESCUED_AND_REVERIFIED). Census 0.5 stays agent-side (repo does not track the census file). This commit (the records landing of the same operator order, on top of the Wave-39 commit `d926be489c016d55b6d5bd3c9210b4d19b5acaf4`).
