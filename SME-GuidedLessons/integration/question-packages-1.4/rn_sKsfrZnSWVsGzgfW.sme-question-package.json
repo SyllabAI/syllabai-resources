@@ -1,0 +1,723 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_sKsfrZnSWVsGzgfW",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "950ff23d7284a688b85d49f214b8e3083216de5e8d048da9fcb0eb0e6fb4a5d1",
+    "pinnedRef": "ba08669f2dbfc1a4d18d01abc07ef1efa248388d"
+  },
+  "packageId": "ial-chemistry::rn_sKsfrZnSWVsGzgfW",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_sKsfrZnSWVsGzgfW::L1::Q1",
+      "moduleId": "rn_sKsfrZnSWVsGzgfW::L1",
+      "stem": "What does the polystyrene cup achieve in solution calorimetry?",
+      "misconceptionClass": "apparatus role",
+      "options": [
+        {
+          "key": "A",
+          "text": "It insulates the reaction mixture, minimising heat loss",
+          "correct": true,
+          "explanation": "Insulation keeps the measured temperature change honest.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "It catalyses the reaction",
+          "correct": false,
+          "explanation": "The cup is chemically inert.",
+          "misconception": "role invented"
+        },
+        {
+          "key": "C",
+          "text": "It measures the temperature directly",
+          "correct": false,
+          "explanation": "The thermometer measures; the cup insulates.",
+          "misconception": "roles swapped"
+        },
+        {
+          "key": "D",
+          "text": "It pressurises the mixture",
+          "correct": false,
+          "explanation": "No pressure is involved.",
+          "misconception": "role invented"
+        }
+      ]
+    },
+    {
+      "id": "rn_sKsfrZnSWVsGzgfW::L1::Q2",
+      "moduleId": "rn_sKsfrZnSWVsGzgfW::L1",
+      "stem": "Which equation converts the temperature change into energy transferred?",
+      "misconceptionClass": "expression recall",
+      "options": [
+        {
+          "key": "A",
+          "text": "q = m x delta-T only",
+          "correct": false,
+          "explanation": "The specific heat capacity factor is essential.",
+          "misconception": "factor dropped"
+        },
+        {
+          "key": "B",
+          "text": "q = m x c x delta-T",
+          "correct": true,
+          "explanation": "Mass times specific heat capacity times temperature change.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "q = m / c / delta-T",
+          "correct": false,
+          "explanation": "The operations are all wrong.",
+          "misconception": "algebra inverted"
+        },
+        {
+          "key": "D",
+          "text": "q = delta-T x c only",
+          "correct": false,
+          "explanation": "The mass factor is essential.",
+          "misconception": "factor dropped"
+        }
+      ]
+    },
+    {
+      "id": "rn_sKsfrZnSWVsGzgfW::L1::Q3",
+      "moduleId": "rn_sKsfrZnSWVsGzgfW::L1",
+      "stem": "In the zinc-plus-copper(II) sulfate displacement method, which reagent is in excess and why does it not matter?",
+      "misconceptionClass": "method detail",
+      "options": [
+        {
+          "key": "A",
+          "text": "Neither - both must be exact",
+          "correct": false,
+          "explanation": "Only the limiting reagent's count matters for the per-mole value.",
+          "misconception": "precision misstated"
+        },
+        {
+          "key": "B",
+          "text": "The thermometer reading sets it",
+          "correct": false,
+          "explanation": "The thermometer records temperature, not moles.",
+          "misconception": "instrument crossed"
+        },
+        {
+          "key": "C",
+          "text": "Zinc powder, because the copper sulfate limits the mole count used afterwards",
+          "correct": true,
+          "explanation": "The limiting reagent sets the per-mole divisor.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Copper sulfate, because zinc sets the mole count",
+          "correct": false,
+          "explanation": "The roles are reversed.",
+          "misconception": "roles swapped"
+        }
+      ]
+    },
+    {
+      "id": "rn_sKsfrZnSWVsGzgfW::L1::Q4",
+      "moduleId": "rn_sKsfrZnSWVsGzgfW::L1",
+      "stem": "Why is the solution's specific heat capacity taken as 4.18 J g^-1 K^-1?",
+      "misconceptionClass": "assumption recall",
+      "options": [
+        {
+          "key": "A",
+          "text": "All liquids share the same capacity",
+          "correct": false,
+          "explanation": "The assumption is water-specific.",
+          "misconception": "scope overstated"
+        },
+        {
+          "key": "B",
+          "text": "4.18 is the cup's value",
+          "correct": false,
+          "explanation": "The cup's capacity is not used.",
+          "misconception": "object confused"
+        },
+        {
+          "key": "C",
+          "text": "The value cancels out later",
+          "correct": false,
+          "explanation": "It appears directly in q.",
+          "misconception": "algebra wrong"
+        },
+        {
+          "key": "D",
+          "text": "Dilute aqueous solutions behave like pure water",
+          "correct": true,
+          "explanation": "The standard assumption of the method.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_sKsfrZnSWVsGzgfW::L1::Q5",
+      "moduleId": "rn_sKsfrZnSWVsGzgfW::L1",
+      "stem": "A displacement reaction raises the solution's temperature. What does that evidence?",
+      "misconceptionClass": "sign inference",
+      "options": [
+        {
+          "key": "A",
+          "text": "An exothermic reaction with a negative enthalpy change",
+          "correct": true,
+          "explanation": "Heat released warms the solution.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "An endothermic reaction with a positive change",
+          "correct": false,
+          "explanation": "Endothermic changes cool the solution.",
+          "misconception": "sign inverted"
+        },
+        {
+          "key": "C",
+          "text": "A catalyst at work",
+          "correct": false,
+          "explanation": "Catalysts change rates, not directions of heat flow.",
+          "misconception": "inference crossed"
+        },
+        {
+          "key": "D",
+          "text": "A measuring error",
+          "correct": false,
+          "explanation": "The rise is the expected observation.",
+          "misconception": "observation denied"
+        }
+      ]
+    },
+    {
+      "id": "rn_sKsfrZnSWVsGzgfW::L1::Q6",
+      "moduleId": "rn_sKsfrZnSWVsGzgfW::L1",
+      "stem": "State the energy transferred expression and the value used for c in aqueous calorimetry.",
+      "misconceptionClass": "expression recall",
+      "kind": "recall",
+      "modelAnswer": "q = m x c x delta-T, with c taken as 4.18 J g^-1 K^-1 for dilute aqueous solutions.",
+      "keywords": [
+        "q = m x c x delta-T",
+        "4.18",
+        "aqueous"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_sKsfrZnSWVsGzgfW::L1::Q7",
+      "moduleId": "rn_sKsfrZnSWVsGzgfW::L1",
+      "stem": "List the assumptions made when treating the solution as water in the calculation.",
+      "misconceptionClass": "assumption recall",
+      "kind": "recall",
+      "modelAnswer": "The solution's density is 1 g cm^-3 (so its volume equals its mass in grams) and its specific heat capacity is 4.18 J g^-1 K^-1.",
+      "keywords": [
+        "density",
+        "1 g cm^-3",
+        "4.18"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_sKsfrZnSWVsGzgfW::L1::Q8",
+      "moduleId": "rn_sKsfrZnSWVsGzgfW::L1",
+      "stem": "Explain why the zinc powder is used in excess in the displacement method.",
+      "misconceptionClass": "excess reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "Excess zinc guarantees every mole of copper sulfate reacts, so the limiting reagent's known mole count cleanly divides the measured energy for the per-mole answer.",
+      "keywords": [
+        "excess",
+        "limiting",
+        "mole count"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_sKsfrZnSWVsGzgfW::L1::Q9",
+      "moduleId": "rn_sKsfrZnSWVsGzgfW::L1",
+      "stem": "A neutralisation between 40.0 cm3 of sodium hydroxide and 35.0 cm3 of sulfuric acid warms the mixture by 9.5 degrees. Taking the combined solution mass and c = 4.18, compute q.",
+      "misconceptionClass": "q application",
+      "kind": "application",
+      "modelAnswer": "The combined mass is 40.0 + 35.0 = 75.0 g, so q = 75.0 x 4.18 x 9.5 = 2978 J of energy transferred to the solution.",
+      "keywords": [
+        "75.0",
+        "4.18",
+        "2978"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_sKsfrZnSWVsGzgfW::L2::Q1",
+      "moduleId": "rn_sKsfrZnSWVsGzgfW::L2",
+      "stem": "Why does the observed peak temperature underestimate the true temperature change?",
+      "misconceptionClass": "bias source",
+      "options": [
+        {
+          "key": "A",
+          "text": "The reaction is endothermic",
+          "correct": false,
+          "explanation": "The method targets exothermic rises.",
+          "misconception": "sign confusion"
+        },
+        {
+          "key": "B",
+          "text": "Heat leaks to the surroundings throughout the run",
+          "correct": true,
+          "explanation": "The loss saps the peak.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "The thermometer lags by minutes",
+          "correct": false,
+          "explanation": "Lag exists but the systematic bias is the leak.",
+          "misconception": "cause misattributed"
+        },
+        {
+          "key": "D",
+          "text": "The cup absorbs all the heat",
+          "correct": false,
+          "explanation": "The cup absorbs some; the room leak dominates.",
+          "misconception": "cause misattributed"
+        }
+      ]
+    },
+    {
+      "id": "rn_sKsfrZnSWVsGzgfW::L2::Q2",
+      "moduleId": "rn_sKsfrZnSWVsGzgfW::L2",
+      "stem": "Where on the graph is the corrected temperature change read?",
+      "misconceptionClass": "reading point",
+      "options": [
+        {
+          "key": "A",
+          "text": "At the end of the recording",
+          "correct": false,
+          "explanation": "The end sits deep in the leak.",
+          "misconception": "point mischosen"
+        },
+        {
+          "key": "B",
+          "text": "Halfway along the time axis",
+          "correct": false,
+          "explanation": "No such convention exists.",
+          "misconception": "point invented"
+        },
+        {
+          "key": "C",
+          "text": "At the time of mixing, where the extrapolated lines meet",
+          "correct": true,
+          "explanation": "The mixing moment is the zero-loss reference.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "At the highest recorded peak",
+          "correct": false,
+          "explanation": "The peak is the biased reading.",
+          "misconception": "point mischosen"
+        }
+      ]
+    },
+    {
+      "id": "rn_sKsfrZnSWVsGzgfW::L2::Q3",
+      "moduleId": "rn_sKsfrZnSWVsGzgfW::L2",
+      "stem": "What recording interval does the displacement method specify for temperature?",
+      "misconceptionClass": "protocol recall",
+      "options": [
+        {
+          "key": "A",
+          "text": "Every five minutes",
+          "correct": false,
+          "explanation": "Too sparse for the correction lines.",
+          "misconception": "interval wrong"
+        },
+        {
+          "key": "B",
+          "text": "Only at the start and end",
+          "correct": false,
+          "explanation": "Two points cannot build the correction.",
+          "misconception": "protocol wrong"
+        },
+        {
+          "key": "C",
+          "text": "Continuously by data logger only",
+          "correct": false,
+          "explanation": "The stated method uses half-minute manual reads.",
+          "misconception": "protocol misstated"
+        },
+        {
+          "key": "D",
+          "text": "Every half minute",
+          "correct": true,
+          "explanation": "The half-minute cadence builds the graph.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_sKsfrZnSWVsGzgfW::L2::Q4",
+      "moduleId": "rn_sKsfrZnSWVsGzgfW::L2",
+      "stem": "What assumption underlies the linear extrapolation of the cooling line?",
+      "misconceptionClass": "assumption recall",
+      "options": [
+        {
+          "key": "A",
+          "text": "The heat-leak rate stays uniform over the correction window",
+          "correct": true,
+          "explanation": "Linearity encodes the uniform leak.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "The leak accelerates after mixing",
+          "correct": false,
+          "explanation": "The model assumes constancy.",
+          "misconception": "assumption misstated"
+        },
+        {
+          "key": "C",
+          "text": "No leak occurs at all",
+          "correct": false,
+          "explanation": "The correction exists precisely because leak occurs.",
+          "misconception": "assumption inverted"
+        },
+        {
+          "key": "D",
+          "text": "The reaction continues after mixing",
+          "correct": false,
+          "explanation": "The reaction is complete at mixing.",
+          "misconception": "assumption crossed"
+        }
+      ]
+    },
+    {
+      "id": "rn_sKsfrZnSWVsGzgfW::L2::Q5",
+      "moduleId": "rn_sKsfrZnSWVsGzgfW::L2",
+      "stem": "A student skips the correction and uses the raw peak. What happens to their enthalpy value?",
+      "misconceptionClass": "consequence drill",
+      "options": [
+        {
+          "key": "A",
+          "text": "Its sign flips",
+          "correct": false,
+          "explanation": "Magnitude suffers; the sign never flips.",
+          "misconception": "effect misstated"
+        },
+        {
+          "key": "B",
+          "text": "It comes out too small in magnitude",
+          "correct": true,
+          "explanation": "The missed leak deflates the change.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "It comes out too large in magnitude",
+          "correct": false,
+          "explanation": "The leak shrinks, not inflates, the reading.",
+          "misconception": "direction inverted"
+        },
+        {
+          "key": "D",
+          "text": "It is unaffected",
+          "correct": false,
+          "explanation": "The correction exists to change the value.",
+          "misconception": "effect denied"
+        }
+      ]
+    },
+    {
+      "id": "rn_sKsfrZnSWVsGzgfW::L2::Q6",
+      "moduleId": "rn_sKsfrZnSWVsGzgfW::L2",
+      "stem": "Describe the temperature correction graph procedure in three steps.",
+      "misconceptionClass": "procedure recall",
+      "kind": "recall",
+      "modelAnswer": "Record temperature every half minute before and after mixing, extrapolate both lines back to the time of mixing, and read the corrected temperature change at that intersection.",
+      "keywords": [
+        "half minute",
+        "extrapolate",
+        "mixing"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_sKsfrZnSWVsGzgfW::L2::Q7",
+      "moduleId": "rn_sKsfrZnSWVsGzgfW::L2",
+      "stem": "Explain, in one sentence, why two trend lines are needed on the correction graph.",
+      "misconceptionClass": "graph recall",
+      "kind": "recall",
+      "modelAnswer": "The pre-mixing line fixes the baseline and the post-mixing line carries the leak, so their extrapolation back to the mixing time gives the zero-loss reading.",
+      "keywords": [
+        "baseline",
+        "leak",
+        "extrapolation"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_sKsfrZnSWVsGzgfW::L2::Q8",
+      "moduleId": "rn_sKsfrZnSWVsGzgfW::L2",
+      "stem": "Explain why the correction increases rather than decreases the measured temperature change.",
+      "misconceptionClass": "direction reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "The uncorrected peak already lost heat to the room, so rewinding the leak adds the missing energy back and widens the measured gap.",
+      "keywords": [
+        "lost",
+        "rewind",
+        "widen"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_sKsfrZnSWVsGzgfW::L2::Q9",
+      "moduleId": "rn_sKsfrZnSWVsGzgfW::L2",
+      "stem": "A temperature correction graph shows the cooling line falling 0.4 degrees per half minute. State what happens to the corrected change if the leak rate doubles.",
+      "misconceptionClass": "leak application",
+      "kind": "application",
+      "modelAnswer": "The extrapolated correction doubles in size, so the corrected temperature change grows by the extra 0.4 degrees per half minute back-projected to the mixing time.",
+      "keywords": [
+        "extrapolated",
+        "doubles",
+        "mixing time"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_sKsfrZnSWVsGzgfW::L3::Q1",
+      "moduleId": "rn_sKsfrZnSWVsGzgfW::L3",
+      "stem": "What must be recorded to know the moles of fuel burned?",
+      "misconceptionClass": "mole accounting",
+      "options": [
+        {
+          "key": "A",
+          "text": "The flame's colour",
+          "correct": false,
+          "explanation": "Colour does not count molecules.",
+          "misconception": "observation crossed"
+        },
+        {
+          "key": "B",
+          "text": "The burning time",
+          "correct": false,
+          "explanation": "Time affects rate, not the mole count burned.",
+          "misconception": "quantity crossed"
+        },
+        {
+          "key": "C",
+          "text": "The burner's mass before and after burning",
+          "correct": true,
+          "explanation": "The mass difference prices the fuel consumed.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "The water's mass only",
+          "correct": false,
+          "explanation": "Water serves the q side, not the fuel side.",
+          "misconception": "quantity crossed"
+        }
+      ]
+    },
+    {
+      "id": "rn_sKsfrZnSWVsGzgfW::L3::Q2",
+      "moduleId": "rn_sKsfrZnSWVsGzgfW::L3",
+      "stem": "Why does the measured combustion enthalpy come out less negative than the data-book value?",
+      "misconceptionClass": "bias direction",
+      "options": [
+        {
+          "key": "A",
+          "text": "The balance is inaccurate",
+          "correct": false,
+          "explanation": "Balances are precise; the geometry leaks.",
+          "misconception": "cause misattributed"
+        },
+        {
+          "key": "B",
+          "text": "Water's specific heat capacity is wrong",
+          "correct": false,
+          "explanation": "The 4.18 value is the standard.",
+          "misconception": "cause misattributed"
+        },
+        {
+          "key": "C",
+          "text": "Combustion is actually endothermic",
+          "correct": false,
+          "explanation": "Combustion is exothermic.",
+          "misconception": "sign confused"
+        },
+        {
+          "key": "D",
+          "text": "Heat escapes to the air before the water captures it",
+          "correct": true,
+          "explanation": "The systematic loss deflates the measured magnitude.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_sKsfrZnSWVsGzgfW::L3::Q3",
+      "moduleId": "rn_sKsfrZnSWVsGzgfW::L3",
+      "stem": "A burner loses 0.92 g of methanol (M = 32 g mol^-1). How many moles burned?",
+      "misconceptionClass": "mole arithmetic",
+      "options": [
+        {
+          "key": "A",
+          "text": "0.029 mol",
+          "correct": true,
+          "explanation": "0.92 / 32 = 0.0288, about 0.029 mol.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "0.92 mol",
+          "correct": false,
+          "explanation": "The mass must be divided by the molar mass.",
+          "misconception": "arithmetic wrong"
+        },
+        {
+          "key": "C",
+          "text": "29 mol",
+          "correct": false,
+          "explanation": "Three orders too large.",
+          "misconception": "arithmetic wrong"
+        },
+        {
+          "key": "D",
+          "text": "3.2 mol",
+          "correct": false,
+          "explanation": "The division direction is wrong.",
+          "misconception": "arithmetic wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_sKsfrZnSWVsGzgfW::L3::Q4",
+      "moduleId": "rn_sKsfrZnSWVsGzgfW::L3",
+      "stem": "Which sign and unit pair belongs to a measured combustion enthalpy?",
+      "misconceptionClass": "sign and unit",
+      "options": [
+        {
+          "key": "A",
+          "text": "Positive, in J only",
+          "correct": false,
+          "explanation": "Both parts wrong.",
+          "misconception": "both wrong"
+        },
+        {
+          "key": "B",
+          "text": "Negative, in kJ mol^-1",
+          "correct": true,
+          "explanation": "Release and per-mole pricing.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Positive, in kJ mol^-1",
+          "correct": false,
+          "explanation": "Release makes it negative.",
+          "misconception": "sign wrong"
+        },
+        {
+          "key": "D",
+          "text": "Negative, in J only",
+          "correct": false,
+          "explanation": "Per-mole units are required.",
+          "misconception": "unit wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_sKsfrZnSWVsGzgfW::L3::Q5",
+      "moduleId": "rn_sKsfrZnSWVsGzgfW::L3",
+      "stem": "Which improvement most reduces the heat loss in combustion calorimetry?",
+      "misconceptionClass": "method improvement",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using less water",
+          "correct": false,
+          "explanation": "Less water heats faster but loses the same fraction.",
+          "misconception": "improvement crossed"
+        },
+        {
+          "key": "B",
+          "text": "Skipping the thermometer",
+          "correct": false,
+          "explanation": "That removes the measurement entirely.",
+          "misconception": "improvement absurd"
+        },
+        {
+          "key": "C",
+          "text": "Surrounding the flame and cup with a shield or lid",
+          "correct": true,
+          "explanation": "Blocking the rising warm air recovers more of the flame's energy.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Using more fuel",
+          "correct": false,
+          "explanation": "More fuel scales the leak too.",
+          "misconception": "improvement crossed"
+        }
+      ]
+    },
+    {
+      "id": "rn_sKsfrZnSWVsGzgfW::L3::Q6",
+      "moduleId": "rn_sKsfrZnSWVsGzgfW::L3",
+      "stem": "State the full procedure for measuring an enthalpy change of combustion.",
+      "misconceptionClass": "procedure recall",
+      "kind": "recall",
+      "modelAnswer": "Weigh the burner, burn the fuel beneath a known mass of water recording the temperature rise, reweigh the burner, then compute q = m x c x delta-T and divide by the moles of fuel burned, giving the negative molar value.",
+      "keywords": [
+        "weigh",
+        "temperature rise",
+        "moles"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_sKsfrZnSWVsGzgfW::L3::Q7",
+      "moduleId": "rn_sKsfrZnSWVsGzgfW::L3",
+      "stem": "State the direction of the systematic error in combustion calorimetry and its cause.",
+      "misconceptionClass": "error recall",
+      "kind": "recall",
+      "modelAnswer": "The measured value is less negative than the true one, because heat escapes to the air before the water can capture it.",
+      "keywords": [
+        "less negative",
+        "heat",
+        "escapes"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_sKsfrZnSWVsGzgfW::L3::Q8",
+      "moduleId": "rn_sKsfrZnSWVsGzgfW::L3",
+      "stem": "Explain why the combustion enthalpy carries a negative sign by definition.",
+      "misconceptionClass": "sign reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "Combustion releases energy to the surroundings, so the system's enthalpy falls and the products-minus-reactants difference is negative.",
+      "keywords": [
+        "releases",
+        "falls",
+        "negative"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_sKsfrZnSWVsGzgfW::L3::Q9",
+      "moduleId": "rn_sKsfrZnSWVsGzgfW::L3",
+      "stem": "A burner loses 0.92 g of methanol and the water gains 18.6 kJ. Taking the molar mass of methanol as 32 g mol-1, calculate the measured enthalpy of combustion.",
+      "misconceptionClass": "pricing application",
+      "kind": "application",
+      "modelAnswer": "Moles burned = 0.92 / 32 = 0.0288 mol, so the enthalpy change is -18.6 / 0.0288 = -646 kJ mol-1 (approximately), the negative sign recording the energy release.",
+      "keywords": [
+        "0.0288",
+        "-646",
+        "negative"
+      ],
+      "options": []
+    }
+  ]
+}

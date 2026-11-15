@@ -1,0 +1,261 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_4mtRwFS9YpSSvpbq",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "91417003f74657cea4977dd5ca759f6d076820fecf6ba1a0937de5f7fc66507d",
+    "pinnedRef": "ba08669f2dbfc1a4d18d01abc07ef1efa248388d"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_4mtRwFS9YpSSvpbq",
+    "topicTitle": "1. Structure, Bonding & Introduction to Organic Chemistry",
+    "subtopicTitle": "Addition Polymerisation",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/1-structure-bonding-and-introduction-to-organic-chemistry/1-10-alkenes/1-10-6-addition-polymerisation",
+    "specAnchors": [
+      {
+        "code": "5.7",
+        "text": "be able to describe the addition polymerisation of alkenes and draw the repeat unit given the monomer, and vice versa"
+      }
+    ],
+    "primer": {
+      "text": "Thousands of alkene molecules can be persuaded to join hands. Under pressure and a catalyst, pi bonds open and chain growth builds poly(ethene), PVC and poly(propene). This note draws the repeat unit from the monomer and reads it backwards, since deducing either partner from the other is the skill the papers keep testing.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_4mtRwFS9YpSSvpbq::L1",
+        "title": "Monomers into chains",
+        "sourceHeadings": [
+          "Addition polymerisation"
+        ],
+        "specRefs": [
+          "5.7"
+        ],
+        "opening": "Give an alkene high pressure, a catalyst and time, and thousands of molecules will each open their pi bond and shake hands with the next. The result is an addition polymer: one long saturated chain whose repeat unit is the monomer with its double bond converted to a single bond.",
+        "keyPoints": [
+          "Addition polymerisation opens the pi bond of each alkene monomer to build one long saturated chain.",
+          "High pressure and a catalyst supply the conditions that persuade monomers to join.",
+          "Poly(ethene) forms from ethene; poly(chloroethene) PVC forms from chloroethene; poly(propene) from propene.",
+          "No atoms are lost in addition polymerisation, so the polymer is the only product.",
+          "The repeat unit shows the monomer's atoms joined by a single bond, bracketed with a subscript n."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Many alkene molecules open their double bonds and link end to end; the chain grows until huge, and the only product is the polymer itself.",
+            "analogy": "Paperclips with one open end (the pi bond) hook onto the next clip until the chain runs off the desk - every clip used, nothing thrown away.",
+            "examPointer": "Draw repeat units with the bond sticking out through both brackets and the n subscript - missing extension bonds is the most common drawing deduction."
+          },
+          "medium": {
+            "restatement": "Atom economy is 100 percent because every monomer atom is conserved into the chain - the pi pair redistributes from one C=C double bond into a new C-C single bond linking neighbouring units.",
+            "analogy": "A zip joining zipper teeth: no tooth is discarded, the teeth simply interlock through their open ends.",
+            "examPointer": "Compare with condensation polymerisation when asked: addition polymerisation releases no small molecule, and that contrast is a standard written mark."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_4mtRwFS9YpSSvpbq::L1::Q1",
+          "rn_4mtRwFS9YpSSvpbq::L1::Q2",
+          "rn_4mtRwFS9YpSSvpbq::L1::Q3",
+          "rn_4mtRwFS9YpSSvpbq::L1::Q4",
+          "rn_4mtRwFS9YpSSvpbq::L1::Q5",
+          "rn_4mtRwFS9YpSSvpbq::L1::Q6",
+          "rn_4mtRwFS9YpSSvpbq::L1::Q7",
+          "rn_4mtRwFS9YpSSvpbq::L1::Q8",
+          "rn_4mtRwFS9YpSSvpbq::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01",
+          "fig-02"
+        ]
+      },
+      {
+        "id": "rn_4mtRwFS9YpSSvpbq::L2",
+        "title": "Deducing repeat units both ways",
+        "sourceHeadings": [
+          "Deducing repeat units"
+        ],
+        "specRefs": [
+          "5.7"
+        ],
+        "opening": "The exam asks the deduction in both directions: draw the repeat unit from the monomer, or recover the monomer from a drawn polymer. One rule powers both - close the double bond to read forward, open the single bond to read backward.",
+        "keyPoints": [
+          "To draw a repeat unit from a monomer, turn the C=C into a C-C single bond and bracket the fragment.",
+          "To recover a monomer from a repeat unit, replace the inter-unit single bond with a double bond.",
+          "Side groups and halogen substituents carry through unchanged in both directions.",
+          "The worked-example drill is identifying monomers from given polymer structures.",
+          "Always check the carbon count: repeat unit and monomer share exactly the same atoms."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Forward: monomer's double bond closes to the chain's single bond. Backward: the chain's link reopens into the monomer's double bond. Everything else stays put.",
+            "analogy": "A bridge that is either raised (double bond, separate banks) or lowered (single bond, traffic joins) - the two banks never move.",
+            "examPointer": "Count atoms in your answer against the question's structure - a carbon lost in the redraw is a silent, expensive error."
+          },
+          "medium": {
+            "restatement": "The interplay is a bookkeeping identity: monomer C2H3Cl and repeat unit -CH2-CHCl- hold identical atom inventories (2 C, 3 H, 1 Cl), because polymerisation redistributes bonds, never atoms.",
+            "analogy": "Reading a molecule forward and backward is like transliterating between two scripts - the characters (atoms) are fixed, only the connector (bond order) changes.",
+            "examPointer": "For substituted monomers, keep the side group on its own carbon exactly as drawn - swapping side groups between carbons is the classic distractor error."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_4mtRwFS9YpSSvpbq::L2::Q1",
+          "rn_4mtRwFS9YpSSvpbq::L2::Q2",
+          "rn_4mtRwFS9YpSSvpbq::L2::Q3",
+          "rn_4mtRwFS9YpSSvpbq::L2::Q4",
+          "rn_4mtRwFS9YpSSvpbq::L2::Q5",
+          "rn_4mtRwFS9YpSSvpbq::L2::Q6",
+          "rn_4mtRwFS9YpSSvpbq::L2::Q7",
+          "rn_4mtRwFS9YpSSvpbq::L2::Q8",
+          "rn_4mtRwFS9YpSSvpbq::L2::Q9"
+        ],
+        "figureIds": [
+          "fig-03",
+          "fig-04",
+          "fig-05",
+          "fig-06",
+          "fig-07",
+          "fig-08"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "monomer",
+          "definition": "The small alkene molecule whose repeated addition builds the polymer chain.",
+          "firstLesson": 1
+        },
+        {
+          "term": "repeat unit",
+          "definition": "The fragment of the polymer chain corresponding to one monomer, drawn in brackets with a subscript n.",
+          "firstLesson": 1
+        },
+        {
+          "term": "poly(chloroethene)",
+          "definition": "The addition polymer of chloroethene, commonly called PVC.",
+          "firstLesson": 1
+        }
+      ],
+      "workedExample": {
+        "prompt": "A polymer's repeat unit is drawn as -CH2-CHCl- with subscript n. Identify the monomer and verify the atom inventory.",
+        "steps": [
+          "Reopen the inter-unit single bond into a carbon-carbon double bond.",
+          "Keep the chlorine on its own carbon: the fragment becomes CH2=CHCl.",
+          "Name the monomer chloroethene.",
+          "Check the inventory: monomer 2 C, 3 H, 1 Cl equals repeat unit 2 C, 3 H, 1 Cl, so 2 + 3 + 1 = 6 atoms conserved on both sides."
+        ],
+        "finalAnswer": "The monomer is chloroethene (vinyl chloride), CH2=CHCl - 6 atoms conserved between monomer and repeat unit."
+      }
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/a58c46b15cf8-3-8-polymerisation-general-formula.png",
+        "alt": "Polymerisation General Formula, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Addition polymerisation",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "The general formulae of the addition polymerisation of ethene (1) and chloroethene (2)"
+      },
+      {
+        "id": "fig-02",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/fdde58c39f8f-3-8-polymerisation-displayed-formula.png",
+        "alt": "Polymerisation Displayed Formula, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Addition polymerisation",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "The displayed formulae of the addition polymerisation of ethene (1) and chloroethene (2)"
+      },
+      {
+        "id": "fig-03",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/c1748ffb4853-3-8-polymerisation-repeating-unit.png",
+        "alt": "Polymerisation Repeating Unit, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Deducing repeat units",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique",
+        "caption": "The repeating units of poly(ethene) and poly(chloroethene) are similar to their monomer except that the C=C bond has become a single bond"
+      },
+      {
+        "id": "fig-04",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/519430e4d1fe-copy-of-we-identifying-monomers.png",
+        "alt": "Worked example question asking to identify the monomer from a drawn polymer repeat unit",
+        "sourceHeading": "Deducing repeat units",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-05",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/585a79788ada-3-8-polymerisation-answer-1-worked-example-ident.png",
+        "alt": "Polymerisation Answer 1 Worked example - Identifying monomers, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Deducing repeat units",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique",
+        "caption": "Worked example answer identifying the monomer from the first polymer"
+      },
+      {
+        "id": "fig-06",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/4ffd060bc88e-3-8-polymerisation-answer-2a-worked-example-iden.png",
+        "alt": "Polymerisation Answer 2a Worked example - Identifying monomers, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Deducing repeat units",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique",
+        "caption": "Worked example answer identifying the monomer from the second polymer, part one"
+      },
+      {
+        "id": "fig-07",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/b6b8af1fc697-3-8-polymerisation-answer-2b-worked-example-iden.png",
+        "alt": "Polymerisation Answer 2b Worked example - Identifying monomers, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Deducing repeat units",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique",
+        "caption": "Worked example answer identifying the monomer from the second polymer, part two"
+      },
+      {
+        "id": "fig-08",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/827dd2854b4b-3-8-polymerisation-answer-3-worked-example-ident.png",
+        "alt": "Polymerisation Answer 3 Worked example - Identifying monomers, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Deducing repeat units",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique",
+        "caption": "Worked example answer identifying the monomer from the third polymer"
+      }
+    ]
+  }
+}

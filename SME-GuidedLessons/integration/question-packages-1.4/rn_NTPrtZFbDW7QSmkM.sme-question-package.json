@@ -1,0 +1,723 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_NTPrtZFbDW7QSmkM",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "3671b7e6f2cecb9eba838245d5f97653585a031942a520eca33c0ec3def4901e",
+    "pinnedRef": "ba08669f2dbfc1a4d18d01abc07ef1efa248388d"
+  },
+  "packageId": "ial-chemistry::rn_NTPrtZFbDW7QSmkM",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_NTPrtZFbDW7QSmkM::L1::Q1",
+      "moduleId": "rn_NTPrtZFbDW7QSmkM::L1",
+      "stem": "Which structural feature causes restricted rotation in an alkene?",
+      "misconceptionClass": "rotation lock source",
+      "options": [
+        {
+          "key": "A",
+          "text": "The pi component of the double bond",
+          "correct": true,
+          "explanation": "Tearing the sideways overlap is the only way to twist, so rotation is barred.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "The sigma component of the double bond",
+          "correct": false,
+          "explanation": "Sigma bonds alone allow free rotation, as in alkanes.",
+          "misconception": "sigma blamed"
+        },
+        {
+          "key": "C",
+          "text": "Repulsion from the hydrogen atoms",
+          "correct": false,
+          "explanation": "Hydrogens are passengers, not the lock.",
+          "misconception": "hydrogens blamed"
+        },
+        {
+          "key": "D",
+          "text": "The length of the carbon chain",
+          "correct": false,
+          "explanation": "Chain length does not affect rotation about the double bond.",
+          "misconception": "irrelevant feature"
+        }
+      ]
+    },
+    {
+      "id": "rn_NTPrtZFbDW7QSmkM::L1::Q2",
+      "moduleId": "rn_NTPrtZFbDW7QSmkM::L1",
+      "stem": "What condition must each double-bonded carbon satisfy for geometric isomerism?",
+      "misconceptionClass": "isomerism requirement",
+      "options": [
+        {
+          "key": "A",
+          "text": "It must carry a hydrogen atom",
+          "correct": false,
+          "explanation": "Hydrogen is common but not required - E / Z works without it.",
+          "misconception": "cis/trans rule over-applied"
+        },
+        {
+          "key": "B",
+          "text": "It must carry two different groups",
+          "correct": true,
+          "explanation": "Only then are same-side and opposite-side arrangements distinguishable.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "It must carry two identical groups",
+          "correct": false,
+          "explanation": "Identical groups make one arrangement, so no pair of isomers exists.",
+          "misconception": "condition inverted"
+        },
+        {
+          "key": "D",
+          "text": "It must carry three groups",
+          "correct": false,
+          "explanation": "A double-bonded carbon holds only two substituent positions.",
+          "misconception": "count invented"
+        }
+      ]
+    },
+    {
+      "id": "rn_NTPrtZFbDW7QSmkM::L1::Q3",
+      "moduleId": "rn_NTPrtZFbDW7QSmkM::L1",
+      "stem": "In which arrangement do the identical groups sit facing each other across the double bond?",
+      "misconceptionClass": "cis trans vocabulary",
+      "options": [
+        {
+          "key": "A",
+          "text": " gauche",
+          "correct": false,
+          "explanation": "That is a conformational term for single bonds, not alkene geometry.",
+          "misconception": "wrong vocabulary"
+        },
+        {
+          "key": "B",
+          "text": "radial",
+          "correct": false,
+          "explanation": "Not a stereochemical term in this course.",
+          "misconception": "invented term"
+        },
+        {
+          "key": "C",
+          "text": "trans",
+          "correct": true,
+          "explanation": "Trans means across - the matching groups sit on opposing sides.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "cis",
+          "correct": false,
+          "explanation": "Cis means parked together on one side.",
+          "misconception": "cis trans swapped"
+        }
+      ]
+    },
+    {
+      "id": "rn_NTPrtZFbDW7QSmkM::L1::Q4",
+      "moduleId": "rn_NTPrtZFbDW7QSmkM::L1",
+      "stem": "But-2-ene and but-1-ene: which one shows geometric isomerism?",
+      "misconceptionClass": "candidate screening",
+      "options": [
+        {
+          "key": "A",
+          "text": "Only but-1-ene",
+          "correct": false,
+          "explanation": "The first carbon of but-1-ene carries two hydrogens, so no pair of arrangements exists.",
+          "misconception": "requirement unchecked"
+        },
+        {
+          "key": "B",
+          "text": "Both isomers",
+          "correct": false,
+          "explanation": "But-1-ene fails the two-different-groups test on its first carbon.",
+          "misconception": "test skipped"
+        },
+        {
+          "key": "C",
+          "text": "Neither isomer",
+          "correct": false,
+          "explanation": "But-2-ene plainly passes the test.",
+          "misconception": "test misapplied"
+        },
+        {
+          "key": "D",
+          "text": "Only but-2-ene",
+          "correct": true,
+          "explanation": "Each double-bonded carbon of but-2-ene carries H and CH3 - two different groups.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_NTPrtZFbDW7QSmkM::L1::Q5",
+      "moduleId": "rn_NTPrtZFbDW7QSmkM::L1",
+      "stem": "What relationship links the cis and trans forms of but-2-ene?",
+      "misconceptionClass": "isomer relationship",
+      "options": [
+        {
+          "key": "A",
+          "text": "They are stereoisomers with the same molecular formula",
+          "correct": true,
+          "explanation": "Connectivity is identical; only the spatial arrangement differs.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "They are different homologous series members",
+          "correct": false,
+          "explanation": "Both are C4H8 with the same backbone.",
+          "misconception": "series misapplied"
+        },
+        {
+          "key": "C",
+          "text": "They are conformers interconverting at room temperature",
+          "correct": false,
+          "explanation": "Rotation is locked, so they cannot interconvert freely.",
+          "misconception": "rotation assumed free"
+        },
+        {
+          "key": "D",
+          "text": "They have different molecular formulas",
+          "correct": false,
+          "explanation": "Isomers always share one formula.",
+          "misconception": "formula misunderstood"
+        }
+      ]
+    },
+    {
+      "id": "rn_NTPrtZFbDW7QSmkM::L1::Q6",
+      "moduleId": "rn_NTPrtZFbDW7QSmkM::L1",
+      "stem": "State the two conditions needed for geometric isomerism about a C=C bond.",
+      "misconceptionClass": "requirement recall",
+      "kind": "recall",
+      "modelAnswer": "Rotation must be restricted by the double bond, and each alkene carbon must carry two different groups.",
+      "keywords": [
+        "rotation",
+        "restricted",
+        "two different groups"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_NTPrtZFbDW7QSmkM::L1::Q7",
+      "moduleId": "rn_NTPrtZFbDW7QSmkM::L1",
+      "stem": "Define the terms cis and trans with respect to alkene geometry.",
+      "misconceptionClass": "cis trans definition recall",
+      "kind": "recall",
+      "modelAnswer": "Cis describes the isomer whose matching groups share one side of the C=C; trans describes the isomer whose matching groups face each other across the C=C.",
+      "keywords": [
+        "cis",
+        "trans",
+        "side"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_NTPrtZFbDW7QSmkM::L1::Q8",
+      "moduleId": "rn_NTPrtZFbDW7QSmkM::L1",
+      "stem": "Explain why 2-methylpropene shows no geometric isomerism.",
+      "misconceptionClass": "failure case reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "One alkene carbon carries two identical methyl groups, so swapping sides produces the same molecule - with only one possible arrangement, no geometric pair exists.",
+      "keywords": [
+        "identical",
+        "methyl",
+        "arrangement"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_NTPrtZFbDW7QSmkM::L1::Q9",
+      "moduleId": "rn_NTPrtZFbDW7QSmkM::L1",
+      "stem": "Draw and label the two geometric isomers of but-2-ene and give each name.",
+      "misconceptionClass": "drawing application",
+      "kind": "application",
+      "modelAnswer": "But-2-ene exists as cis-but-2-ene with both methyl groups parked on one side, and trans-but-2-ene with the methyl groups facing across the double bond.",
+      "keywords": [
+        "cis-but-2-ene",
+        "trans-but-2-ene",
+        "methyl groups"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_NTPrtZFbDW7QSmkM::L2::Q1",
+      "moduleId": "rn_NTPrtZFbDW7QSmkM::L2",
+      "stem": "Why does cis / trans naming break down for 2-methylpropene?",
+      "misconceptionClass": "naming breakdown",
+      "options": [
+        {
+          "key": "A",
+          "text": "Its groups carry no hydrogens at all",
+          "correct": false,
+          "explanation": "Each methyl does carry hydrogens; the problem is the identical pair.",
+          "misconception": "diagnosis wrong"
+        },
+        {
+          "key": "B",
+          "text": "One alkene carbon carries two identical methyl groups",
+          "correct": true,
+          "explanation": "With no distinguishing pair, same-side versus opposite-side becomes meaningless.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "The molecule contains no double bond",
+          "correct": false,
+          "explanation": "2-methylpropene is plainly an alkene.",
+          "misconception": "double bond denied"
+        },
+        {
+          "key": "D",
+          "text": "The molecule is too short",
+          "correct": false,
+          "explanation": "Chain length is irrelevant to naming rules.",
+          "misconception": "irrelevant excuse"
+        }
+      ]
+    },
+    {
+      "id": "rn_NTPrtZFbDW7QSmkM::L2::Q2",
+      "moduleId": "rn_NTPrtZFbDW7QSmkM::L2",
+      "stem": "Under CIP rules, which criterion sets substituent priority?",
+      "misconceptionClass": "priority criterion",
+      "options": [
+        {
+          "key": "A",
+          "text": "Electronegativity of the substituent",
+          "correct": false,
+          "explanation": "The rule is atomic number, not electronegativity.",
+          "misconception": "criterion swapped"
+        },
+        {
+          "key": "B",
+          "text": "Alphabetical order of the group name",
+          "correct": false,
+          "explanation": "Names are irrelevant to CIP ranking.",
+          "misconception": "alphabetical myth"
+        },
+        {
+          "key": "C",
+          "text": "Atomic number of the directly bonded atom",
+          "correct": true,
+          "explanation": "Higher atomic number wins the higher priority.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Size of the whole group",
+          "correct": false,
+          "explanation": "Bulk plays no role; only atomic number counts.",
+          "misconception": "bulk confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_NTPrtZFbDW7QSmkM::L2::Q3",
+      "moduleId": "rn_NTPrtZFbDW7QSmkM::L2",
+      "stem": "An alkene parks its two highest-priority groups on one shared side. Its label is:",
+      "misconceptionClass": "E Z vocabulary",
+      "options": [
+        {
+          "key": "A",
+          "text": "E",
+          "correct": false,
+          "explanation": "Entgegen - that label belongs to priorities facing across.",
+          "misconception": "E Z swapped"
+        },
+        {
+          "key": "B",
+          "text": "cis",
+          "correct": false,
+          "explanation": "Cis only applies with hydrogens present on both carbons.",
+          "misconception": "cis reused outside scope"
+        },
+        {
+          "key": "C",
+          "text": "trans",
+          "correct": false,
+          "explanation": "Trans has the same restriction as cis.",
+          "misconception": "trans reused"
+        },
+        {
+          "key": "D",
+          "text": "Z",
+          "correct": true,
+          "explanation": "Zusammen - the top priorities park together on one side.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_NTPrtZFbDW7QSmkM::L2::Q4",
+      "moduleId": "rn_NTPrtZFbDW7QSmkM::L2",
+      "stem": "For 1-bromo-2-chloropropene, which atom wins the priority contest on its carbon?",
+      "misconceptionClass": "priority ladder",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bromine, atomic number 35",
+          "correct": true,
+          "explanation": "35 outranks every atom bonded alongside it.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Chlorine, atomic number 17",
+          "correct": false,
+          "explanation": "17 beats carbon but not bromine on the same carbon's contest.",
+          "misconception": "ladder half-climbed"
+        },
+        {
+          "key": "C",
+          "text": "Carbon of the methyl group",
+          "correct": false,
+          "explanation": "Carbon's 6 is the lowest here except hydrogen.",
+          "misconception": "ladder misread"
+        },
+        {
+          "key": "D",
+          "text": "Hydrogen",
+          "correct": false,
+          "explanation": "Hydrogen's 1 is always last in these contests.",
+          "misconception": "ladder inverted"
+        }
+      ]
+    },
+    {
+      "id": "rn_NTPrtZFbDW7QSmkM::L2::Q5",
+      "moduleId": "rn_NTPrtZFbDW7QSmkM::L2",
+      "stem": "Which compound can be named with cis / trans labels?",
+      "misconceptionClass": "naming eligibility",
+      "options": [
+        {
+          "key": "A",
+          "text": "2-bromo-1-propen-1-ol",
+          "correct": false,
+          "explanation": "Substituted carbons without the required hydrogens need E / Z.",
+          "misconception": "halogen case misjudged"
+        },
+        {
+          "key": "B",
+          "text": "but-2-ene",
+          "correct": true,
+          "explanation": "Each alkene carbon carries one H and one methyl group.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "2-methylpropene",
+          "correct": false,
+          "explanation": "One carbon carries two methyls - cis / trans is undefined.",
+          "misconception": "failure case reused"
+        },
+        {
+          "key": "D",
+          "text": "1-bromo-2-chloropropene",
+          "correct": false,
+          "explanation": "Neither alkene carbon carries a hydrogen.",
+          "misconception": "halogen case misjudged"
+        }
+      ]
+    },
+    {
+      "id": "rn_NTPrtZFbDW7QSmkM::L2::Q6",
+      "moduleId": "rn_NTPrtZFbDW7QSmkM::L2",
+      "stem": "State what the letters E and Z stand for and what each labels.",
+      "misconceptionClass": "E Z recall",
+      "kind": "recall",
+      "modelAnswer": "E is entgegen, the isomer whose two top-priority groups face each other across the C=C; Z is zusammen, the isomer whose two top-priority groups share one side.",
+      "keywords": [
+        "entgegen",
+        "zusammen",
+        "priority"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_NTPrtZFbDW7QSmkM::L2::Q7",
+      "moduleId": "rn_NTPrtZFbDW7QSmkM::L2",
+      "stem": "Recall the CIP priority rule used in the E / Z system.",
+      "misconceptionClass": "CIP recall",
+      "kind": "recall",
+      "modelAnswer": "Substituents are ranked by the atomic number of the atom attached directly to the alkene carbon, the largest number taking the highest priority.",
+      "keywords": [
+        "atomic number",
+        "rank",
+        "priority"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_NTPrtZFbDW7QSmkM::L2::Q8",
+      "moduleId": "rn_NTPrtZFbDW7QSmkM::L2",
+      "stem": "Explain why the E / Z system succeeds wherever cis / trans naming fails.",
+      "misconceptionClass": "system comparison reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "E / Z never mentions hydrogens - it ranks whatever groups are present by atomic number, so it still produces two distinct labels even when every substituent is carbon-based or halogen.",
+      "keywords": [
+        "atomic number",
+        "rank",
+        "label"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_NTPrtZFbDW7QSmkM::L2::Q9",
+      "moduleId": "rn_NTPrtZFbDW7QSmkM::L2",
+      "stem": "Assign E or Z to the isomer of 1-bromo-2-chloropropene in which Br and Cl sit on opposite sides, showing the priority working.",
+      "misconceptionClass": "assignment application",
+      "kind": "application",
+      "modelAnswer": "Priority on the first alkene carbon: Br (35) over H (1); on the second: Cl (17) over CH3 (6). With Br and Cl facing across the C=C, the two top priorities are separated, so the label is E.",
+      "keywords": [
+        "Br",
+        "priority",
+        "E"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_NTPrtZFbDW7QSmkM::L3::Q1",
+      "moduleId": "rn_NTPrtZFbDW7QSmkM::L3",
+      "stem": "A drawn alkene has its two highest-priority substituents on opposite sides. Name it:",
+      "misconceptionClass": "reading drill",
+      "options": [
+        {
+          "key": "A",
+          "text": "the cis isomer",
+          "correct": false,
+          "explanation": "Cis vocabulary does not apply to substituted pairs without hydrogens.",
+          "misconception": "vocabulary misapplied"
+        },
+        {
+          "key": "B",
+          "text": "the trans isomer only",
+          "correct": false,
+          "explanation": "Trans labels need the one-H-each-carbon condition.",
+          "misconception": "vocabulary misapplied"
+        },
+        {
+          "key": "C",
+          "text": "the E isomer",
+          "correct": true,
+          "explanation": "Entgegen - the priorities face across from each other.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "the Z isomer",
+          "correct": false,
+          "explanation": "Zusammen needs the priorities together.",
+          "misconception": "E Z swapped"
+        }
+      ]
+    },
+    {
+      "id": "rn_NTPrtZFbDW7QSmkM::L3::Q2",
+      "moduleId": "rn_NTPrtZFbDW7QSmkM::L3",
+      "stem": "In ranking CH2OH against CH3 on the same alkene carbon, which wins priority?",
+      "misconceptionClass": "functional group ranking",
+      "options": [
+        {
+          "key": "A",
+          "text": "CH3, because methyls are commoner",
+          "correct": false,
+          "explanation": "Frequency plays no part in CIP ranking.",
+          "misconception": "prevalence myth"
+        },
+        {
+          "key": "B",
+          "text": "Neither - they tie",
+          "correct": false,
+          "explanation": "The first point of difference breaks the tie immediately.",
+          "misconception": "tie misdeclared"
+        },
+        {
+          "key": "C",
+          "text": "CH3, because it is smaller",
+          "correct": false,
+          "explanation": "Size is irrelevant; atomic number decides.",
+          "misconception": "size myth"
+        },
+        {
+          "key": "D",
+          "text": "CH2OH, because its carbon is bonded to oxygen",
+          "correct": true,
+          "explanation": "The oxygen (8) outranks the hydrogens (1) at the first point of difference.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_NTPrtZFbDW7QSmkM::L3::Q3",
+      "moduleId": "rn_NTPrtZFbDW7QSmkM::L3",
+      "stem": "What must you verify before assigning E or Z to any drawn alkene?",
+      "misconceptionClass": "pre-check drill",
+      "options": [
+        {
+          "key": "A",
+          "text": "That each alkene carbon carries two different groups",
+          "correct": true,
+          "explanation": "Without that condition there is only one arrangement and no label to give.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "That the molecule is saturated",
+          "correct": false,
+          "explanation": "Saturated molecules cannot show alkene stereochemistry at all.",
+          "misconception": "irrelevant check"
+        },
+        {
+          "key": "C",
+          "text": "That both groups contain hydrogen",
+          "correct": false,
+          "explanation": "The E / Z system never requires hydrogens.",
+          "misconception": "cis/trans rule over-applied"
+        },
+        {
+          "key": "D",
+          "text": "That the drawing is to scale",
+          "correct": false,
+          "explanation": "Geometry is read from the drawing's arrangement, not its scale.",
+          "misconception": "irrelevant check"
+        }
+      ]
+    },
+    {
+      "id": "rn_NTPrtZFbDW7QSmkM::L3::Q4",
+      "moduleId": "rn_NTPrtZFbDW7QSmkM::L3",
+      "stem": "Two drawn structures differ only in which side one bromine-bearing group occupies. How should the pair be reported?",
+      "misconceptionClass": "pair reporting",
+      "options": [
+        {
+          "key": "A",
+          "text": "As different formulas",
+          "correct": false,
+          "explanation": "Both drawings carry the same molecular formula.",
+          "misconception": "formula confused"
+        },
+        {
+          "key": "B",
+          "text": "As two stereoisomers, one E and one Z",
+          "correct": true,
+          "explanation": "The pair differ in spatial arrangement only, so each gets its own label.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "As one compound drawn twice",
+          "correct": false,
+          "explanation": "The drawings are different compounds - naming one loses the other.",
+          "misconception": "identity collapsed"
+        },
+        {
+          "key": "D",
+          "text": "As structural isomers",
+          "correct": false,
+          "explanation": "Connectivity is identical, so they are stereo-, not structural, isomers.",
+          "misconception": "isomer class mislabelled"
+        }
+      ]
+    },
+    {
+      "id": "rn_NTPrtZFbDW7QSmkM::L3::Q5",
+      "moduleId": "rn_NTPrtZFbDW7QSmkM::L3",
+      "stem": "Which atom's atomic number decides priority at the first point of difference on a functionalised alkene carbon?",
+      "misconceptionClass": "priority mechanics",
+      "options": [
+        {
+          "key": "A",
+          "text": "The heaviest atom anywhere in the group",
+          "correct": false,
+          "explanation": "Only the first layer matters unless that layer ties.",
+          "misconception": "scope over-wide"
+        },
+        {
+          "key": "B",
+          "text": "The atom with the most bonds",
+          "correct": false,
+          "explanation": "Bond count is not the ranking key.",
+          "misconception": "criterion swapped"
+        },
+        {
+          "key": "C",
+          "text": "The atom directly bonded to the alkene carbon",
+          "correct": true,
+          "explanation": "First-layer atoms set the ranking before any deeper comparison.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "The atom farthest along the chain",
+          "correct": false,
+          "explanation": "Comparison stops at the first difference; distance does not win.",
+          "misconception": "depth myth"
+        }
+      ]
+    },
+    {
+      "id": "rn_NTPrtZFbDW7QSmkM::L3::Q6",
+      "moduleId": "rn_NTPrtZFbDW7QSmkM::L3",
+      "stem": "State the two-line procedure for naming a drawn alkene in the E / Z system.",
+      "misconceptionClass": "procedure recall",
+      "kind": "recall",
+      "modelAnswer": "Rank the groups on each alkene carbon by atomic number of the attached atom, then label Z if the two winners share a side and E if they sit opposite.",
+      "keywords": [
+        "rank",
+        "atomic number",
+        "side"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_NTPrtZFbDW7QSmkM::L3::Q7",
+      "moduleId": "rn_NTPrtZFbDW7QSmkM::L3",
+      "stem": "Give the priority order of bromine, chlorine, the methyl group and hydrogen under CIP rules.",
+      "misconceptionClass": "ladder recall",
+      "kind": "recall",
+      "modelAnswer": "Bromine (35) ranks above chlorine (17), which ranks above the methyl carbon (6), which ranks above hydrogen (1).",
+      "keywords": [
+        "bromine",
+        "chlorine",
+        "hydrogen"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_NTPrtZFbDW7QSmkM::L3::Q8",
+      "moduleId": "rn_NTPrtZFbDW7QSmkM::L3",
+      "stem": "Explain why 1-chloroprop-1-ene shows cis / trans isomerism while 1-bromo-2-chloropropene does not.",
+      "misconceptionClass": "eligibility contrast",
+      "kind": "explain-why",
+      "modelAnswer": "In 1-chloroprop-1-ene each alkene carbon still carries one hydrogen, so the cis / trans labels have a reference point; in 1-bromo-2-chloropropene both alkene carbons lack a hydrogen, so only the priority-based E / Z system applies.",
+      "keywords": [
+        "hydrogen",
+        "reference",
+        "priority"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_NTPrtZFbDW7QSmkM::L3::Q9",
+      "moduleId": "rn_NTPrtZFbDW7QSmkM::L3",
+      "stem": "A drawn pair shows 1-bromo-1-propen-2-ol with the OH-bearing carbon's hydrogen on opposite sides in the two drawings. Report each isomer's label.",
+      "misconceptionClass": "pair naming application",
+      "kind": "application",
+      "modelAnswer": "Rank each carbon: Br (35) over CH2OH's carbon (6) on one side; CH2OH's oxygen-bearing carbon (6) over CH3 (6, broken by the O at the next layer). The drawing with the top priorities parked together is Z and the one with them facing apart is E.",
+      "keywords": [
+        "priority",
+        "Z",
+        "E"
+      ],
+      "options": []
+    }
+  ]
+}

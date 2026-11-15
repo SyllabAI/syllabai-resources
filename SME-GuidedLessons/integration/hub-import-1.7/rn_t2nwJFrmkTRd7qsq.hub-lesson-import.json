@@ -1,0 +1,116 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_t2nwJFrmkTRd7qsq",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "a5f2ae88bd77c42b625cc5d3bf9314f13e0cbce0494a539d5fdc404c8d7b3184",
+    "pinnedRef": "ba08669f2dbfc1a4d18d01abc07ef1efa248388d"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_t2nwJFrmkTRd7qsq",
+    "topicTitle": "1. Structure, Bonding & Introduction to Organic Chemistry",
+    "subtopicTitle": "Saturation Test",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/1-structure-bonding-and-introduction-to-organic-chemistry/1-10-alkenes/1-10-4-saturation-test",
+    "specAnchors": [
+      {
+        "code": "5.5",
+        "text": "know the qualitative test for a C=C double bond using bromine or bromine water"
+      }
+    ],
+    "primer": {
+      "text": "One reagent separates saturated from unsaturated hydrocarbons in seconds. Bromine water holds a stubborn orange colour until a double bond attacks it; alkanes leave it untouched. This note runs the test, names the dibromo product that steals the colour, and flags the dark-conditions caveat that keeps the result honest.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_t2nwJFrmkTRd7qsq::L1",
+        "title": "Bromine water as the C=C detector",
+        "sourceHeadings": [
+          "Saturation Test"
+        ],
+        "specRefs": [
+          "5.5"
+        ],
+        "opening": "One reagent answers a whole-class question in seconds: does this hydrocarbon hold a double bond? Orange bromine water keeps its colour against alkanes but bleaches the moment an unsaturated compound opens the Br-Br bond and swallows both atoms across the C=C.",
+        "keyPoints": [
+          "Bromine water is the qualitative test for a carbon-carbon double bond.",
+          "An unsaturated compound decolourises orange bromine water by an addition reaction.",
+          "The colour loss happens because the Br-Br bond breaks and both bromine atoms join the molecule.",
+          "A saturated compound such as an alkane leaves the orange colour unchanged in the dark.",
+          "Testing alkanes versus alkenes side by side makes the contrast the answer itself."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Shake the sample with orange bromine water: colour gone means a C=C bond took the bromine in; colour staying means the hydrocarbon is saturated.",
+            "analogy": "The orange dye is a bouncer who only leaves the doorway when a double bond invites both bromine atoms inside.",
+            "examPointer": "Quote the observation (orange to colourless), the reaction type (addition) and the product class (dibromo compound) - three marks live in those three phrases."
+          },
+          "medium": {
+            "restatement": "The pi bond polarises and attacks the Br-Br bond, so the reagent is consumed rather than substituted: with alkanes in the dark nothing reacts, while sunlight on an alkane would trigger slow radical substitution and false positives.",
+            "analogy": "Only one guest gets the door opened for them: the alkene. An alkane with a sunlamp is the impostor case the exam loves to test.",
+            "examPointer": "If the question mentions sunlight, split your answer: alkene reacts regardless of light; alkane reacts only slowly by radical substitution under UV, so run the comparison in the dark."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_t2nwJFrmkTRd7qsq::L1::Q1",
+          "rn_t2nwJFrmkTRd7qsq::L1::Q2",
+          "rn_t2nwJFrmkTRd7qsq::L1::Q3",
+          "rn_t2nwJFrmkTRd7qsq::L1::Q4",
+          "rn_t2nwJFrmkTRd7qsq::L1::Q5",
+          "rn_t2nwJFrmkTRd7qsq::L1::Q6",
+          "rn_t2nwJFrmkTRd7qsq::L1::Q7",
+          "rn_t2nwJFrmkTRd7qsq::L1::Q8",
+          "rn_t2nwJFrmkTRd7qsq::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "bromine water",
+          "definition": "The orange aqueous bromine reagent used as the qualitative test for carbon-carbon double bonds.",
+          "firstLesson": 1
+        },
+        {
+          "term": "saturated",
+          "definition": "Describing a hydrocarbon with only single bonds, which leaves bromine water orange in the dark.",
+          "firstLesson": 1
+        },
+        {
+          "term": "qualitative test",
+          "definition": "A laboratory observation that identifies a structural feature without measuring a quantity.",
+          "firstLesson": 1
+        }
+      ],
+      "workedExample": null
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/f5e2418014f0-3-2-hydrocarbons-bromine-water.png",
+        "alt": "Hydrocarbons Bromine Water, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Saturation Test",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "The decolourisation of bromine water by an unsaturated compound as a result of an addition reaction"
+      }
+    ]
+  }
+}

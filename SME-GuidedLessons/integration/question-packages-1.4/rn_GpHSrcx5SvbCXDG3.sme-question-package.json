@@ -1,0 +1,723 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_GpHSrcx5SvbCXDG3",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "9bb7f43172bc5587bcabec7b3330b319462b0e6d69bc66d074e5103a29bd0741",
+    "pinnedRef": "ba08669f2dbfc1a4d18d01abc07ef1efa248388d"
+  },
+  "packageId": "ial-chemistry::rn_GpHSrcx5SvbCXDG3",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_GpHSrcx5SvbCXDG3::L1::Q1",
+      "moduleId": "rn_GpHSrcx5SvbCXDG3::L1",
+      "stem": "What energy change accompanies bond breaking?",
+      "misconceptionClass": "direction drill",
+      "options": [
+        {
+          "key": "A",
+          "text": "Energy is absorbed - breaking is endothermic",
+          "correct": true,
+          "explanation": "Pulling atoms apart resists their attraction.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Energy is released - breaking is exothermic",
+          "correct": false,
+          "explanation": "Formation releases; breaking absorbs.",
+          "misconception": "direction inverted"
+        },
+        {
+          "key": "C",
+          "text": "No energy changes",
+          "correct": false,
+          "explanation": "The bond holds stored energy.",
+          "misconception": "claim false"
+        },
+        {
+          "key": "D",
+          "text": "It depends on the bond's colour",
+          "correct": false,
+          "explanation": "Colour is irrelevant.",
+          "misconception": "nonsense option"
+        }
+      ]
+    },
+    {
+      "id": "rn_GpHSrcx5SvbCXDG3::L1::Q2",
+      "moduleId": "rn_GpHSrcx5SvbCXDG3::L1",
+      "stem": "The overall enthalpy change in bond-enthalpy terms equals:",
+      "misconceptionClass": "master equation",
+      "options": [
+        {
+          "key": "A",
+          "text": "The average of broken and formed",
+          "correct": false,
+          "explanation": "No averaging exists.",
+          "misconception": "convention invented"
+        },
+        {
+          "key": "B",
+          "text": "Total energy to break bonds minus total energy released forming bonds",
+          "correct": true,
+          "explanation": "Costs minus earnings.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Total formed minus total broken",
+          "correct": false,
+          "explanation": "That inverts every sign.",
+          "misconception": "direction inverted"
+        },
+        {
+          "key": "D",
+          "text": "Total broken plus total formed",
+          "correct": false,
+          "explanation": "Addition ignores the opposing directions.",
+          "misconception": "algebra wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_GpHSrcx5SvbCXDG3::L1::Q3",
+      "moduleId": "rn_GpHSrcx5SvbCXDG3::L1",
+      "stem": "Why must all species be gaseous for bond-enthalpy calculations?",
+      "misconceptionClass": "gas restriction",
+      "options": [
+        {
+          "key": "A",
+          "text": "Liquids cannot react",
+          "correct": false,
+          "explanation": "They react; their enthalpy includes extra terms.",
+          "misconception": "claim false"
+        },
+        {
+          "key": "B",
+          "text": "Solids have no bonds",
+          "correct": false,
+          "explanation": "Solids are full of bonds.",
+          "misconception": "claim false"
+        },
+        {
+          "key": "C",
+          "text": "Tabulated values measure isolated gas-phase molecules",
+          "correct": true,
+          "explanation": "Extra intermolecular terms would corrupt the ledger.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Gases are hotter",
+          "correct": false,
+          "explanation": "Temperature is not the reason.",
+          "misconception": "reason invented"
+        }
+      ]
+    },
+    {
+      "id": "rn_GpHSrcx5SvbCXDG3::L1::Q4",
+      "moduleId": "rn_GpHSrcx5SvbCXDG3::L1",
+      "stem": "A bond-enthalpy calculation returns -184 kJ mol^-1. What does the sign report?",
+      "misconceptionClass": "sign reading",
+      "options": [
+        {
+          "key": "A",
+          "text": "Breaking cost more than forming earned",
+          "correct": false,
+          "explanation": "That would read positive.",
+          "misconception": "sign inverted"
+        },
+        {
+          "key": "B",
+          "text": "The reaction is endothermic",
+          "correct": false,
+          "explanation": "Negative means exothermic.",
+          "misconception": "sign inverted"
+        },
+        {
+          "key": "C",
+          "text": "The bonds were aqueous",
+          "correct": false,
+          "explanation": "The sign is independent of phase notation.",
+          "misconception": "inference crossed"
+        },
+        {
+          "key": "D",
+          "text": "Formation released more energy than breaking consumed",
+          "correct": true,
+          "explanation": "The earnings beat the costs.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_GpHSrcx5SvbCXDG3::L1::Q5",
+      "moduleId": "rn_GpHSrcx5SvbCXDG3::L1",
+      "stem": "Which statement about the H-Cl bond enthalpy in HCl(g) is correct?",
+      "misconceptionClass": "definition application",
+      "options": [
+        {
+          "key": "A",
+          "text": "It is the energy to split gaseous HCl into gaseous H and Cl atoms",
+          "correct": true,
+          "explanation": "Gas to gases - the definition's scope.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "It is the energy to burn hydrogen chloride",
+          "correct": false,
+          "explanation": "That is combustion.",
+          "misconception": "quantity crossed"
+        },
+        {
+          "key": "C",
+          "text": "It is the energy to form HCl from solid ingredients",
+          "correct": false,
+          "explanation": "Solid phases are outside the definition.",
+          "misconception": "scope crossed"
+        },
+        {
+          "key": "D",
+          "text": "It measures the solution's pH effect",
+          "correct": false,
+          "explanation": "Acidity is unrelated.",
+          "misconception": "quantity crossed"
+        }
+      ]
+    },
+    {
+      "id": "rn_GpHSrcx5SvbCXDG3::L1::Q6",
+      "moduleId": "rn_GpHSrcx5SvbCXDG3::L1",
+      "stem": "State the overall enthalpy change in terms of bond breaking and formation.",
+      "misconceptionClass": "master recall",
+      "kind": "recall",
+      "modelAnswer": "The overall enthalpy change equals the total energy required to break the bonds minus the total energy released when the new bonds form.",
+      "keywords": [
+        "break",
+        "form",
+        "minus"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_GpHSrcx5SvbCXDG3::L1::Q7",
+      "moduleId": "rn_GpHSrcx5SvbCXDG3::L1",
+      "stem": "Classify bond breaking and bond formation as endothermic or exothermic.",
+      "misconceptionClass": "direction recall",
+      "kind": "recall",
+      "modelAnswer": "Bond breaking is endothermic (energy absorbed); bond formation is exothermic (energy released).",
+      "keywords": [
+        "breaking",
+        "endothermic",
+        "formation"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_GpHSrcx5SvbCXDG3::L1::Q8",
+      "moduleId": "rn_GpHSrcx5SvbCXDG3::L1",
+      "stem": "Explain why bond breaking always costs energy.",
+      "misconceptionClass": "cost reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "A bond exists because the paired electrons sit at lower energy between the two nuclei; pulling the atoms apart must lift the pair back to the higher, free-atom state, and that lift is paid from the surroundings.",
+      "keywords": [
+        "lower energy",
+        "pull",
+        "surroundings"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_GpHSrcx5SvbCXDG3::L1::Q9",
+      "moduleId": "rn_GpHSrcx5SvbCXDG3::L1",
+      "stem": "A reaction's ledger shows 520 kJ of breaking against 700 kJ of formation. State the overall enthalpy change and its class.",
+      "misconceptionClass": "ledger application",
+      "kind": "application",
+      "modelAnswer": "The balance is 520 - 700 = -180 kJ mol-1, exothermic, because formation outearned breaking.",
+      "keywords": [
+        "-180",
+        "exothermic",
+        "formation"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_GpHSrcx5SvbCXDG3::L2::Q1",
+      "moduleId": "rn_GpHSrcx5SvbCXDG3::L2",
+      "stem": "What is a mean bond enthalpy?",
+      "misconceptionClass": "definition",
+      "options": [
+        {
+          "key": "A",
+          "text": "A bond's price in a data book",
+          "correct": false,
+          "explanation": "Books tabulate the average; the definition is the averaging itself.",
+          "misconception": "definition circular"
+        },
+        {
+          "key": "B",
+          "text": "The average energy to break a named bond across a range of compounds",
+          "correct": true,
+          "explanation": "Averaging is the definition.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "The energy of the strongest version of that bond",
+          "correct": false,
+          "explanation": "Extremes are not averages.",
+          "misconception": "definition crossed"
+        },
+        {
+          "key": "D",
+          "text": "The energy released forming the bond in water",
+          "correct": false,
+          "explanation": "Gas phase only.",
+          "misconception": "scope crossed"
+        }
+      ]
+    },
+    {
+      "id": "rn_GpHSrcx5SvbCXDG3::L2::Q2",
+      "moduleId": "rn_GpHSrcx5SvbCXDG3::L2",
+      "stem": "Methane's atomisation to C(g) + 4H(g) absorbs 1646 kJ mol^-1. What is the mean C-H bond enthalpy?",
+      "misconceptionClass": "mean arithmetic",
+      "options": [
+        {
+          "key": "A",
+          "text": "About 82 kJ mol^-1",
+          "correct": false,
+          "explanation": "That divides by twenty - wrong denominator.",
+          "misconception": "arithmetic wrong"
+        },
+        {
+          "key": "B",
+          "text": "4120 kJ mol^-1",
+          "correct": false,
+          "explanation": "That multiplies instead of divides.",
+          "misconception": "arithmetic inverted"
+        },
+        {
+          "key": "C",
+          "text": "About 412 kJ mol^-1, since 1646 / 4 = 411.5",
+          "correct": true,
+          "explanation": "Four equal shares of one bill.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "1646 kJ mol^-1",
+          "correct": false,
+          "explanation": "That is the whole bill, not one share.",
+          "misconception": "share confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_GpHSrcx5SvbCXDG3::L2::Q3",
+      "moduleId": "rn_GpHSrcx5SvbCXDG3::L2",
+      "stem": "Why can the mean C-H value misprice a specific C-H bond?",
+      "misconceptionClass": "limitation root",
+      "options": [
+        {
+          "key": "A",
+          "text": "Carbon changes identity between molecules",
+          "correct": false,
+          "explanation": "Carbon stays carbon.",
+          "misconception": "claim false"
+        },
+        {
+          "key": "B",
+          "text": "Mean values apply only at 273 K",
+          "correct": false,
+          "explanation": "The gas-phase standard applies at 298 K.",
+          "misconception": "condition misstated"
+        },
+        {
+          "key": "C",
+          "text": "Hydrogen bonds differ in colour",
+          "correct": false,
+          "explanation": "Colour is irrelevant.",
+          "misconception": "nonsense option"
+        },
+        {
+          "key": "D",
+          "text": "The bond's true strength depends on its molecular environment",
+          "correct": true,
+          "explanation": "Averaging erases the environment.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_GpHSrcx5SvbCXDG3::L2::Q4",
+      "moduleId": "rn_GpHSrcx5SvbCXDG3::L2",
+      "stem": "Which calculation inherits the most systematic error from mean bond enthalpies?",
+      "misconceptionClass": "error allocation",
+      "options": [
+        {
+          "key": "A",
+          "text": "Reactions in aqueous solution using gas-phase averages",
+          "correct": true,
+          "explanation": "The phase mismatch adds error on error.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Gas-phase reactions using gas-phase averages",
+          "correct": false,
+          "explanation": "The cleanest case.",
+          "misconception": "error misallocated"
+        },
+        {
+          "key": "C",
+          "text": "Combustion reactions using tabulated combustion values",
+          "correct": false,
+          "explanation": "Those bypass bond averages entirely.",
+          "misconception": "error misallocated"
+        },
+        {
+          "key": "D",
+          "text": "Formation cycles using formation values",
+          "correct": false,
+          "explanation": "Also bypasses averages.",
+          "misconception": "error misallocated"
+        }
+      ]
+    },
+    {
+      "id": "rn_GpHSrcx5SvbCXDG3::L2::Q5",
+      "moduleId": "rn_GpHSrcx5SvbCXDG3::L2",
+      "stem": "When both a data-book reaction enthalpy and a mean-bond-enthalpy estimate exist, which is trusted and why?",
+      "misconceptionClass": "trust ranking",
+      "options": [
+        {
+          "key": "A",
+          "text": "Neither without a catalyst",
+          "correct": false,
+          "explanation": "Catalysts are irrelevant to enthalpy.",
+          "misconception": "quantity crossed"
+        },
+        {
+          "key": "B",
+          "text": "The data-book value - it is measured rather than averaged",
+          "correct": true,
+          "explanation": "Measurement beats estimation.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "The bond estimate - bonds are fundamental",
+          "correct": false,
+          "explanation": "Fundamentality does not beat measurement.",
+          "misconception": "ranking inverted"
+        },
+        {
+          "key": "D",
+          "text": "Their average",
+          "correct": false,
+          "explanation": "No such convention exists.",
+          "misconception": "convention invented"
+        }
+      ]
+    },
+    {
+      "id": "rn_GpHSrcx5SvbCXDG3::L2::Q6",
+      "moduleId": "rn_GpHSrcx5SvbCXDG3::L2",
+      "stem": "Define mean bond enthalpy precisely.",
+      "misconceptionClass": "definition recall",
+      "kind": "recall",
+      "modelAnswer": "The mean bond enthalpy is the average energy required to break one mole of a named bond in the gas phase, averaged across a range of compounds.",
+      "keywords": [
+        "average",
+        "gas phase",
+        "range of compounds"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_GpHSrcx5SvbCXDG3::L2::Q7",
+      "moduleId": "rn_GpHSrcx5SvbCXDG3::L2",
+      "stem": "Recall the mean C-H bond enthalpy in methane given a 1646 kJ mol^-1 atomisation enthalpy.",
+      "misconceptionClass": "value recall",
+      "kind": "recall",
+      "modelAnswer": "1646 divided by 4 gives about 412 kJ mol^-1 for each mean C-H bond.",
+      "keywords": [
+        "1646",
+        "4",
+        "412"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_GpHSrcx5SvbCXDG3::L2::Q8",
+      "moduleId": "rn_GpHSrcx5SvbCXDG3::L2",
+      "stem": "Explain why the mean C-H value in methane is exactly one quarter of the atomisation enthalpy.",
+      "misconceptionClass": "share reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "Atomisation breaks all four C-H bonds to the same gaseous-atom endpoint, and methane's four bonds are equivalent, so the total bill splits evenly into four identical shares.",
+      "keywords": [
+        "four",
+        "equivalent",
+        "shares"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_GpHSrcx5SvbCXDG3::L2::Q9",
+      "moduleId": "rn_GpHSrcx5SvbCXDG3::L2",
+      "stem": "Hexane's full atomisation absorbs 4158 kJ mol^-1 across six C-H bonds and five C-C bonds; using the mean C-H of 412, estimate the total C-C contribution.",
+      "misconceptionClass": "mean application",
+      "kind": "application",
+      "modelAnswer": "Six C-H bonds account for 6 x 412 = 2472 kJ, so the five C-C bonds carry about 4158 - 2472 = 1686 kJ, roughly 337 kJ mol^-1 per C-C bond on this average.",
+      "keywords": [
+        "2472",
+        "1686",
+        "average"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_GpHSrcx5SvbCXDG3::L3::Q1",
+      "moduleId": "rn_GpHSrcx5SvbCXDG3::L3",
+      "stem": "Price the reaction H2(g) + Cl2(g) -> 2HCl(g) given H-H = 436, Cl-Cl = 242 and H-Cl = 431 kJ mol^-1.",
+      "misconceptionClass": "forward calculation",
+      "options": [
+        {
+          "key": "A",
+          "text": "-138 kJ mol^-1",
+          "correct": false,
+          "explanation": "That drops one H-Cl bond from the count.",
+          "misconception": "bond count short"
+        },
+        {
+          "key": "B",
+          "text": "-255 kJ mol^-1",
+          "correct": false,
+          "explanation": "That miscounts the broken side.",
+          "misconception": "arithmetic wrong"
+        },
+        {
+          "key": "C",
+          "text": "-184 kJ mol^-1: (436 + 242) - 2(431) = 678 - 862",
+          "correct": true,
+          "explanation": "Two H-Cl bonds form per equation.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "+184 kJ mol^-1",
+          "correct": false,
+          "explanation": "The ledger's balance is negative.",
+          "misconception": "sign inverted"
+        }
+      ]
+    },
+    {
+      "id": "rn_GpHSrcx5SvbCXDG3::L3::Q2",
+      "moduleId": "rn_GpHSrcx5SvbCXDG3::L3",
+      "stem": "In the HCl pricing, why does the H-Cl value multiply by two?",
+      "misconceptionClass": "stoichiometry drill",
+      "options": [
+        {
+          "key": "A",
+          "text": "H-Cl is a double bond",
+          "correct": false,
+          "explanation": "It is a single bond counted twice across two molecules.",
+          "misconception": "bond order confused"
+        },
+        {
+          "key": "B",
+          "text": "To cancel the Cl-Cl value",
+          "correct": false,
+          "explanation": "No cancellation occurs.",
+          "misconception": "reason invented"
+        },
+        {
+          "key": "C",
+          "text": "It never multiplies",
+          "correct": false,
+          "explanation": "The stoichiometry demands it.",
+          "misconception": "claim false"
+        },
+        {
+          "key": "D",
+          "text": "The equation forms two moles of HCl",
+          "correct": true,
+          "explanation": "Two bonds form, so the earning doubles.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_GpHSrcx5SvbCXDG3::L3::Q3",
+      "moduleId": "rn_GpHSrcx5SvbCXDG3::L3",
+      "stem": "Ammonia synthesis has enthalpy change -92 kJ mol^-1. Bonds broken: N-N triple (944) and 3 x H-H (436 each). What is the total bond-forming energy?",
+      "misconceptionClass": "reverse ledger",
+      "options": [
+        {
+          "key": "A",
+          "text": "2344 kJ, since 2252 - (-92) = 2344",
+          "correct": true,
+          "explanation": "The earnings must exceed the costs by 92.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "2160 kJ, since 2252 - 92",
+          "correct": false,
+          "explanation": "That subtracts when it should add.",
+          "misconception": "sign wrong"
+        },
+        {
+          "key": "C",
+          "text": "92 kJ",
+          "correct": false,
+          "explanation": "That is the reaction change, not the formation total.",
+          "misconception": "quantity crossed"
+        },
+        {
+          "key": "D",
+          "text": "2252 kJ",
+          "correct": false,
+          "explanation": "That ignores the reaction change.",
+          "misconception": "ledger incomplete"
+        }
+      ]
+    },
+    {
+      "id": "rn_GpHSrcx5SvbCXDG3::L3::Q4",
+      "moduleId": "rn_GpHSrcx5SvbCXDG3::L3",
+      "stem": "Continuing the ammonia ledger: the mean N-H bond enthalpy is:",
+      "misconceptionClass": "mean derivation",
+      "options": [
+        {
+          "key": "A",
+          "text": "3910 kJ mol^-1",
+          "correct": false,
+          "explanation": "A decimal-place slip.",
+          "misconception": "arithmetic wrong"
+        },
+        {
+          "key": "B",
+          "text": "2344 / 6 = about 391 kJ mol^-1",
+          "correct": true,
+          "explanation": "Two ammonia molecules carry six N-H bonds.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "2344 / 2 = 1172 kJ mol^-1",
+          "correct": false,
+          "explanation": "That prices per molecule, not per bond.",
+          "misconception": "denominator wrong"
+        },
+        {
+          "key": "D",
+          "text": "2344 / 3 = 781 kJ mol^-1",
+          "correct": false,
+          "explanation": "Six bonds, not three.",
+          "misconception": "denominator wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_GpHSrcx5SvbCXDG3::L3::Q5",
+      "moduleId": "rn_GpHSrcx5SvbCXDG3::L3",
+      "stem": "Why must the qualification 'mean values, gas phase' accompany derived bond enthalpies?",
+      "misconceptionClass": "qualification drill",
+      "options": [
+        {
+          "key": "A",
+          "text": "The qualification cancels errors",
+          "correct": false,
+          "explanation": "Declaring assumptions never cancels anything.",
+          "misconception": "logic invented"
+        },
+        {
+          "key": "B",
+          "text": "Only solids need qualification",
+          "correct": false,
+          "explanation": "The gas-phase assumption is the point.",
+          "misconception": "scope inverted"
+        },
+        {
+          "key": "C",
+          "text": "Derived values inherit the averaging and phase assumptions of the method",
+          "correct": true,
+          "explanation": "Honesty about precision is part of the answer.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Derived values are exact measurements",
+          "correct": false,
+          "explanation": "They are estimates built on averages.",
+          "misconception": "precision overstated"
+        }
+      ]
+    },
+    {
+      "id": "rn_GpHSrcx5SvbCXDG3::L3::Q6",
+      "moduleId": "rn_GpHSrcx5SvbCXDG3::L3",
+      "stem": "State the master equation used in both calculation directions.",
+      "misconceptionClass": "master recall",
+      "kind": "recall",
+      "modelAnswer": "Enthalpy change = total bond energies broken - total bond energies formed, all species gaseous.",
+      "keywords": [
+        "broken",
+        "formed",
+        "gaseous"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_GpHSrcx5SvbCXDG3::L3::Q7",
+      "moduleId": "rn_GpHSrcx5SvbCXDG3::L3",
+      "stem": "Recall the two numbers whose ratio prices the HCl synthesis ledger.",
+      "misconceptionClass": "numbers recall",
+      "kind": "recall",
+      "modelAnswer": "678 kJ of bond breaking against 862 kJ of bond formation, giving -184 kJ mol^-1.",
+      "keywords": [
+        "678",
+        "862",
+        "-184"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_GpHSrcx5SvbCXDG3::L3::Q8",
+      "moduleId": "rn_GpHSrcx5SvbCXDG3::L3",
+      "stem": "Explain why the ammonia ledger divides by six when deriving the N-H bond.",
+      "misconceptionClass": "denominator reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "Two ammonia molecules carry six N-H bonds in total, so the pooled formation energy splits evenly across all six to price one bond.",
+      "keywords": [
+        "six",
+        "N-H",
+        "pooled"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_GpHSrcx5SvbCXDG3::L3::Q9",
+      "moduleId": "rn_GpHSrcx5SvbCXDG3::L3",
+      "stem": "Derive the mean N-H bond enthalpy from the ledger: broken 2252 kJ, reaction change -92 kJ, six N-H bonds formed.",
+      "misconceptionClass": "derivation application",
+      "kind": "application",
+      "modelAnswer": "Formed = 2252 - (-92) = 2344 kJ across six bonds, so each N-H prices at 2344 / 6 = about 391 kJ mol-1.",
+      "keywords": [
+        "2344",
+        "six",
+        "391"
+      ],
+      "options": []
+    }
+  ]
+}

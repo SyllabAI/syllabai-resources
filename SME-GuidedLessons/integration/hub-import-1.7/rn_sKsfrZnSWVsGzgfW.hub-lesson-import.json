@@ -1,0 +1,291 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_sKsfrZnSWVsGzgfW",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "950ff23d7284a688b85d49f214b8e3083216de5e8d048da9fcb0eb0e6fb4a5d1",
+    "pinnedRef": "ba08669f2dbfc1a4d18d01abc07ef1efa248388d"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_sKsfrZnSWVsGzgfW",
+    "topicTitle": "2. Energetics, Group Chemistry, Halogenoalkanes & Alcohols",
+    "subtopicTitle": "Using Calorimetry",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/2-energetics-group-chemistry-halogenoalkanes-and-alcohols/2-1-energetics/2-1-3-using-calorimetry",
+    "specAnchors": [
+      {
+        "code": "6.5",
+        "text": "be able to use experimental data to calculate: i energy transferred in a reaction recalling and using the expression: energy transferred (J) = mass (g) × specific heat capacity (J g-1 °C-1) × temperature change (°C) ii enthalpy change of the reaction in kJ mol-1 This will be limited to experiments where substances are mixed in an insulated container and combustion experiments using a suitable calorimeter."
+      },
+      {
+        "code": "6.6",
+        "text": "know Hess’s Law and be able to apply it to: i constructing enthalpy cycles ii calculating enthalpy changes of reaction using data provided, or data selected from a table or obtained from experiments"
+      }
+    ],
+    "primer": {
+      "text": "Calorimetry turns a thermometer reading into an enthalpy change. This note runs the polystyrene cup method for reactions in solution, applies the energy transferred expression with the water assumptions, corrects heat loss with an extrapolated temperature graph, and converts the result to kJ per mole for combustion experiments.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_sKsfrZnSWVsGzgfW::L1",
+        "title": "Solution calorimetry: the polystyrene cup",
+        "sourceHeadings": [
+          "Enthalpy changes for reactions in solution",
+          "Sample method for a displacement reaction"
+        ],
+        "specRefs": [
+          "6.5"
+        ],
+        "opening": "A polystyrene cup, a thermometer and a balance turn a temperature rise into an enthalpy change. The displacement of copper by zinc is the standard drill: mix, stir, record, then convert the temperature change through the energy transferred expression.",
+        "keyPoints": [
+          "A polystyrene cup acts as a simple calorimeter for reactions in solution.",
+          "The energy transferred expression is q = m x c x delta-T, with c = 4.18 J g^-1 K^-1 for dilute aqueous solutions.",
+          "The displacement of copper(II) sulfate by zinc powder is the standard solution-method example.",
+          "The mass m is taken as the solution's mass, assuming the density of pure water.",
+          "The measured temperature rise evidences the exothermic reaction's energy transfer."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Mix the reagents in the cup, watch the thermometer climb, then multiply mass, specific heat capacity and the temperature change to get the energy transferred in joules.",
+            "analogy": "The cup is a bucket catching the reaction's heat: the thermometer reads how full the bucket got, and the formula converts the reading to joules.",
+            "examPointer": "Quote the assumptions when asked: solution density 1 g cm^-3 and specific heat capacity 4.18 - naming them is a mark."
+          },
+          "medium": {
+            "restatement": "The method's error budget runs through insulation and assumption: the cup minimises heat loss to the room, and treating the solution as water (density 1 g cm^-3, c = 4.18) converts the thermometer reading into the reaction's energy ledger.",
+            "analogy": "The cup is a reasonably tight thermos flask: some heat leaks, and the water-assumptions are the exchange rate used to price the leak.",
+            "examPointer": "In the zinc-copper sulfate method, note the zinc is an excess so the copper sulfate limits the mole count used for the per-mole answer."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_sKsfrZnSWVsGzgfW::L1::Q1",
+          "rn_sKsfrZnSWVsGzgfW::L1::Q2",
+          "rn_sKsfrZnSWVsGzgfW::L1::Q3",
+          "rn_sKsfrZnSWVsGzgfW::L1::Q4",
+          "rn_sKsfrZnSWVsGzgfW::L1::Q5",
+          "rn_sKsfrZnSWVsGzgfW::L1::Q6",
+          "rn_sKsfrZnSWVsGzgfW::L1::Q7",
+          "rn_sKsfrZnSWVsGzgfW::L1::Q8",
+          "rn_sKsfrZnSWVsGzgfW::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01",
+          "fig-02"
+        ]
+      },
+      {
+        "id": "rn_sKsfrZnSWVsGzgfW::L2",
+        "title": "Temperature correction graphs",
+        "sourceHeadings": [
+          "Temperature correction graphs",
+          "Analysis"
+        ],
+        "specRefs": [
+          "6.5"
+        ],
+        "opening": "No cup is perfect: heat leaks throughout the run, so the peak thermometer reading underestimates the true change. The correction is graphical - record temperature against time, then extrapolate both lines back to the moment of mixing to read the honest temperature change.",
+        "keyPoints": [
+          "Heat loss during the run makes the observed peak temperature an underestimate.",
+          "Temperature is recorded every half minute before and after mixing to build the graph.",
+          "The cooling and warming lines are extrapolated back to the time of mixing.",
+          "The corrected temperature change is read at the mixing time, not at the observed peak.",
+          "The extrapolation adds back the heat that leaked while the reaction ran."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Plot temperature against time, draw the pre- and post-mixing trends, and read the temperature change where both lines meet the mixing time - that corrected gap replaces the naive peak-to-peak reading.",
+            "analogy": "Rewinding a leaking bathtub's water level to the moment the tap opened: the extrapolation undoes the leak.",
+            "examPointer": "State the purpose in one phrase - correcting for heat loss - and identify the reading point as the time of mixing."
+          },
+          "medium": {
+            "restatement": "The correction assumes the leak rate continues uniformly, so the post-mixing cooling line extends linearly backwards; the intersection with the pre-mixing baseline gives the temperature the mixture would have reached with zero loss.",
+            "analogy": "Interpolating a runner's pace backwards to the start line despite the headwind: the corrected time is what the windless clock would have said.",
+            "examPointer": "Draw both extrapolation lines with a ruler and mark the mixing-time intersection - the diagram itself carries marks in practical papers."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_sKsfrZnSWVsGzgfW::L2::Q1",
+          "rn_sKsfrZnSWVsGzgfW::L2::Q2",
+          "rn_sKsfrZnSWVsGzgfW::L2::Q3",
+          "rn_sKsfrZnSWVsGzgfW::L2::Q4",
+          "rn_sKsfrZnSWVsGzgfW::L2::Q5",
+          "rn_sKsfrZnSWVsGzgfW::L2::Q6",
+          "rn_sKsfrZnSWVsGzgfW::L2::Q7",
+          "rn_sKsfrZnSWVsGzgfW::L2::Q8",
+          "rn_sKsfrZnSWVsGzgfW::L2::Q9"
+        ],
+        "figureIds": [
+          "fig-03"
+        ]
+      },
+      {
+        "id": "rn_sKsfrZnSWVsGzgfW::L3",
+        "title": "Combustion calorimetry: pricing a fuel",
+        "sourceHeadings": [
+          "Enthalpy of combustion",
+          "Calculating Enthalpy Changes"
+        ],
+        "specRefs": [
+          "6.5"
+        ],
+        "opening": "Burning a fuel under a known mass of water prices the fuel in kJ per mole. Weigh the burner before and after, log the water's temperature rise, and divide the energy by the moles of fuel burned - with the sign set negative because combustion releases heat.",
+        "keyPoints": [
+          "A simple combustion calorimeter burns the fuel beneath a known mass of water.",
+          "q = m x c x delta-T prices the water's energy gain from the flame.",
+          "Dividing q by the moles of fuel burned gives the molar enthalpy of combustion.",
+          "The combustion enthalpy carries a negative sign because burning releases energy.",
+          "Heat losses to the air make the measured value less negative than the true one."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Burn a weighed fuel amount under weighed water, compute q from the water's rise, divide by fuel moles, and stamp the result negative - combustion always pays out.",
+            "analogy": "The water is the tax collector: the flame pays it heat, the weighing scales audit the fuel consumed, and the division prices each mole.",
+            "examPointer": "Convert joules to kilojoules before dividing by moles - mixing units here is the standard numerical slip."
+          },
+          "medium": {
+            "restatement": "The open-beaker geometry guarantees loss: heated air rises past the cup, so the water captures only a fraction of the flame's energy and the measured combustion enthalpy lands less negative than data-book values - the discrepancy is systematic, not sloppy.",
+            "analogy": "Weighing rain with a small bucket in a wide field: the bucket's catch undercounts the storm, predictably and one-sidedly.",
+            "examPointer": "When asked why the experimental value differs from the data book, attribute the heat loss and state the direction (less negative) - both parts are marked."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_sKsfrZnSWVsGzgfW::L3::Q1",
+          "rn_sKsfrZnSWVsGzgfW::L3::Q2",
+          "rn_sKsfrZnSWVsGzgfW::L3::Q3",
+          "rn_sKsfrZnSWVsGzgfW::L3::Q4",
+          "rn_sKsfrZnSWVsGzgfW::L3::Q5",
+          "rn_sKsfrZnSWVsGzgfW::L3::Q6",
+          "rn_sKsfrZnSWVsGzgfW::L3::Q7",
+          "rn_sKsfrZnSWVsGzgfW::L3::Q8",
+          "rn_sKsfrZnSWVsGzgfW::L3::Q9"
+        ],
+        "figureIds": [
+          "fig-04",
+          "fig-05"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "calorimeter",
+          "definition": "The insulated vessel (polystyrene cup or combustion setup) in which energy transfer is measured as a temperature change.",
+          "firstLesson": 1
+        },
+        {
+          "term": "specific heat capacity",
+          "definition": "The energy needed to raise one gram of a substance by one kelvin; 4.18 J g^-1 K^-1 for water.",
+          "firstLesson": 1
+        },
+        {
+          "term": "temperature correction graph",
+          "definition": "The temperature-time plot whose extrapolated lines correct the measured change for heat loss.",
+          "firstLesson": 2
+        },
+        {
+          "term": "enthalpy of combustion",
+          "definition": "The enthalpy change when one mole of a fuel burns completely, always negative.",
+          "firstLesson": 3
+        }
+      ],
+      "workedExample": {
+        "prompt": "25 cm3 of 1.0 mol dm-3 copper(II) sulfate solution reacts with excess zinc powder in a polystyrene cup. The corrected temperature rise is 14.0 degrees. Calculate the enthalpy change of the reaction per mole of copper sulfate.",
+        "steps": [
+          "Take the solution mass as 25 g, assuming density 1 g cm-3.",
+          "Compute q = m x c x delta-T = 25 x 4.18 x 14.0 = 1463 J.",
+          "Convert to kilojoules: 1463 J = 1.463 kJ.",
+          "Divide by the moles of copper sulfate (0.025 dm3 x 1.0 mol dm-3 = 0.025 mol): 1.463 / 0.025 = 58.5 kJ mol-1.",
+          "Set the sign negative: the temperature rose, so the reaction released energy."
+        ],
+        "finalAnswer": "The enthalpy change is about -58.5 kJ mol-1 (exothermic displacement)."
+      }
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/ffba9ab403ac-1-5-chemical-energetics-calorimeter.png",
+        "alt": "Chemical Energetics Calorimeter, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Enthalpy changes for reactions in solution",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "A polystyrene cup can act as a calorimeter to find enthalpy changes in a chemical reaction"
+      },
+      {
+        "id": "fig-02",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/f01b66604027-5-1-3-calorimetry-variables-symbols-1.png",
+        "alt": "Calorimetry variables symbols_1, downloadable IB Chemistry revision notes",
+        "sourceHeading": "Enthalpy changes for reactions in solution",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "Equation for calculating energy transferred in a calorimeter"
+      },
+      {
+        "id": "fig-03",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/cd119439e2fc-5-1-4-temperature-correction-graphs.png",
+        "alt": "Temperature correction graphs, downloadable IB Chemistry revision notes",
+        "sourceHeading": "Temperature correction graphs",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique",
+        "caption": "A temperature correction graph for a metal displacement reaction between zinc and copper sulfate solution"
+      },
+      {
+        "id": "fig-04",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/9229c966cd86-5-1-4-simple-calorimeter-1.png",
+        "alt": "Simple Calorimeter_1, downloadable IB Chemistry revision notes",
+        "sourceHeading": "Enthalpy of combustion",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique",
+        "caption": "A simple combustion calorimeter"
+      },
+      {
+        "id": "fig-05",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/4ab480ed00d4-using-calorimetry-to-investigate-energy-release-.png",
+        "alt": "Using calorimetry to investigate energy release in combustion reactions, IGCSE & GCSE Chemistry revision notes",
+        "sourceHeading": "Enthalpy of combustion",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique"
+      }
+    ]
+  }
+}

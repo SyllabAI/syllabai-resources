@@ -1,0 +1,210 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_4fC4yJkMpgh4r6SR",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "e84b40414828996eced6df004f983ac6a4faca3f815b6ec65a9b84d5f8eb3f84",
+    "pinnedRef": "ba08669f2dbfc1a4d18d01abc07ef1efa248388d"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_4fC4yJkMpgh4r6SR",
+    "topicTitle": "1. Structure, Bonding & Introduction to Organic Chemistry",
+    "subtopicTitle": "Electrophilic Addition - Mechanism",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/1-structure-bonding-and-introduction-to-organic-chemistry/1-10-alkenes/1-10-5-electrophilic-addition---mechanism",
+    "specAnchors": [
+      {
+        "code": "5.6",
+        "text": "be able to describe the mechanism (including diagrams), giving evidence where possible, of: i the electrophilic addition of bromine and hydrogen bromide to ethene ii the electrophilic addition of hydrogen bromide to propene Use of the curly arrow notation is expected – the curly arrows should start from either a bond or from a lone pair of electrons. Knowledge of the relative stability of primary, secondary and tertiary carbocation intermediates is expected."
+      }
+    ],
+    "primer": {
+      "text": "Electrophiles hunt electron density, and the pi cloud is the richest target in an alkene. This note traces the two-step addition mechanism arrow by arrow: the polarised hydrogen halide case that opens onto a carbocation, and the induced dipole that lets neutral bromine attack itself. Curly arrow origins are graded, so fix them early.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_4fC4yJkMpgh4r6SR::L1",
+        "title": "HBr onto ethene: the two-step story",
+        "sourceHeadings": [
+          "Electrophilic addition of hydrogen halides"
+        ],
+        "specRefs": [
+          "5.6"
+        ],
+        "opening": "The polarised hydrogen halide is the cleanest introduction to electrophilic addition. The pi bond reaches for the delta-positive hydrogen, the H-Br bond breaks to bromide, and the carbocation left behind is finished off by the bromide ion. Two curly arrows per step, none of them optional.",
+        "keyPoints": [
+          "HBr is polarised H(d+)-Br(d-) because bromine is more electronegative than hydrogen.",
+          "Step one: the pi bond attacks the delta-positive hydrogen and the H-Br bond breaks to Br(-).",
+          "The intermediate is a carbocation, a carbon carrying the positive charge.",
+          "Step two: the bromide ion donates its lone pair to the carbocation, completing the addition.",
+          "Curly arrows must start from a bond or a lone pair - arrows from atoms score nothing."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "The alkene's pi pair grabs the positive end of H-Br; bromide pops out, a carbocation forms, and the bromide then bonds to that positive carbon.",
+            "analogy": "A magnet (H end) draws the pi pair in; the string (H-Br bond) snaps to the bromine side, and the loose end (Br-) ties itself to the leftover positive post.",
+            "examPointer": "Show the dipole arrows on H-Br and the positive charge on the carbocation - mechanism marks are distributed across those details."
+          },
+          "medium": {
+            "restatement": "Electrophilic addition proceeds through heterolytic fission of the polarised H-Br bond: the electron pair departs with bromine, so the two-step mechanism is an ionisation followed by ion pairing, and arrow origins encode exactly which electrons move.",
+            "analogy": "A tug-of-war where the stronger electronegative side wins the whole rope: the pair leaves with bromine, leaving carbon short-handed and charged.",
+            "examPointer": "With propene, name the more stable secondary carbocation and the major product 2-bromopropane - carbocation stability decides the product ratio."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_4fC4yJkMpgh4r6SR::L1::Q1",
+          "rn_4fC4yJkMpgh4r6SR::L1::Q2",
+          "rn_4fC4yJkMpgh4r6SR::L1::Q3",
+          "rn_4fC4yJkMpgh4r6SR::L1::Q4",
+          "rn_4fC4yJkMpgh4r6SR::L1::Q5",
+          "rn_4fC4yJkMpgh4r6SR::L1::Q6",
+          "rn_4fC4yJkMpgh4r6SR::L1::Q7",
+          "rn_4fC4yJkMpgh4r6SR::L1::Q8",
+          "rn_4fC4yJkMpgh4r6SR::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01",
+          "fig-02"
+        ]
+      },
+      {
+        "id": "rn_4fC4yJkMpgh4r6SR::L2",
+        "title": "Bromine onto ethene: the induced dipole",
+        "sourceHeadings": [
+          "Electrophilic addition of Halogens"
+        ],
+        "specRefs": [
+          "5.6"
+        ],
+        "opening": "Bromine arrives neutral and non-polar, yet the mechanism is still electrophilic addition. The secret is induction: as Br2 drifts toward the pi cloud, its electron pair is pushed to the far atom, creating a temporary delta-positive bromine that the alkene can attack.",
+        "keyPoints": [
+          "Br2 is non-polar as a free molecule but polarises on approach to the electron-rich pi bond.",
+          "The induced dipole makes the near bromine delta-positive and hence electrophilic.",
+          "The pi bond attacks that polarised bromine and the Br-Br bond breaks heterolytically to Br(-).",
+          "The product of bromine addition to ethene is 1,2-dibromoethane.",
+          "The same induced-dipole logic underlies the bromine water saturation test."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "The alkene's electron cloud pushes bromine's shared pair to the far atom, so the near bromine turns positive and gets attacked; bromide then completes the addition to give the dibromo product.",
+            "analogy": "Hold a balloon near a wall of hair (the pi cloud) and the balloon polarises: the near side is suddenly attractive and sticks first.",
+            "examPointer": "Say 'induced dipole' explicitly - writing that bromine 'is polar' outright contradicts the non-polar free molecule and costs the mark."
+          },
+          "medium": {
+            "restatement": "Polarisability does the work: the large, diffuse bromine electron cloud distorts easily, so the pi density induces Br(d+)-Br(d-) and the addition proceeds heterolytically without any external polariser.",
+            "analogy": "A soft water balloon squashes against a wall - its contents shift to the far side, and the near side becomes the point of first contact.",
+            "examPointer": "Link the induced dipole to the decolourisation observation: consuming Br2 into the dibromo compound is exactly why bromine water fades."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_4fC4yJkMpgh4r6SR::L2::Q1",
+          "rn_4fC4yJkMpgh4r6SR::L2::Q2",
+          "rn_4fC4yJkMpgh4r6SR::L2::Q3",
+          "rn_4fC4yJkMpgh4r6SR::L2::Q4",
+          "rn_4fC4yJkMpgh4r6SR::L2::Q5",
+          "rn_4fC4yJkMpgh4r6SR::L2::Q6",
+          "rn_4fC4yJkMpgh4r6SR::L2::Q7",
+          "rn_4fC4yJkMpgh4r6SR::L2::Q8",
+          "rn_4fC4yJkMpgh4r6SR::L2::Q9"
+        ],
+        "figureIds": [
+          "fig-03",
+          "fig-04"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "electrophilic addition",
+          "definition": "A two-step reaction in which an electron-seeking species is attacked by a pi bond and the reagent splits across the double bond.",
+          "firstLesson": 1
+        },
+        {
+          "term": "carbocation",
+          "definition": "The positively charged carbon intermediate formed after the pi bond has bonded the first fragment.",
+          "firstLesson": 1
+        },
+        {
+          "term": "heterolytic fission",
+          "definition": "Bond breaking in which both bonding electrons depart with one atom, producing ions.",
+          "firstLesson": 1
+        },
+        {
+          "term": "induced dipole",
+          "definition": "The temporary polarisation of a non-polar molecule caused by nearby electron density.",
+          "firstLesson": 2
+        }
+      ],
+      "workedExample": null
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/512218bb5475-3-2-hydrocarbons-polarity-hbr.png",
+        "alt": "Hydrocarbons Polarity HBr, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Electrophilic addition of hydrogen halides",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "Due to differences in electronegativities of the hydrogen and bromine atom, HBr is a polar molecule"
+      },
+      {
+        "id": "fig-02",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/7d3e26e73bc7-3-2-hydrocarbons-electrophilic-addition-hbr.png",
+        "alt": "Hydrocarbons Electrophilic Addition HBr, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Electrophilic addition of hydrogen halides",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "Example of an electrophilic addition reaction of HBr and propene to form 1-bromopropane and 2-bromopropane"
+      },
+      {
+        "id": "fig-03",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/f02ff16e26ac-3-2-hydrocarbons-polarity-br2-1.png",
+        "alt": "Hydrocarbons Polarity Br2, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Electrophilic addition of Halogens",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique",
+        "caption": "Br2 is a non-polar molecule however when placed close to an area of high electron density it can get polarised"
+      },
+      {
+        "id": "fig-04",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/2b761496869f-3-2-hydrocarbons-electrophilic-addition-br2-1.png",
+        "alt": "Hydrocarbons Electrophilic Addition Br2, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Electrophilic addition of Halogens",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique",
+        "caption": "Example of an electrophilic addition reaction of Br2 and ethene to form dibromoethane"
+      }
+    ]
+  }
+}

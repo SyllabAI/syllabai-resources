@@ -1,0 +1,723 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_7Tgb4gzybkSVcPDf",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "ec9ebaaa8998f3ab5acd25dd3e7e3d40b4ce84dab1174a930731faaf4e810c2c",
+    "pinnedRef": "ba08669f2dbfc1a4d18d01abc07ef1efa248388d"
+  },
+  "packageId": "ial-chemistry::rn_7Tgb4gzybkSVcPDf",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_7Tgb4gzybkSVcPDf::L1::Q1",
+      "moduleId": "rn_7Tgb4gzybkSVcPDf::L1",
+      "stem": "What does Hess's law assert about an enthalpy change?",
+      "misconceptionClass": "law statement",
+      "options": [
+        {
+          "key": "A",
+          "text": "It is independent of the route taken between reactants and products",
+          "correct": true,
+          "explanation": "State function, route-blind.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "It depends on the route's speed",
+          "correct": false,
+          "explanation": "Kinetics never enters enthalpy.",
+          "misconception": "kinetics crossed"
+        },
+        {
+          "key": "C",
+          "text": "It changes when a catalyst is added",
+          "correct": false,
+          "explanation": "Catalysts move the hump, not the levels.",
+          "misconception": "catalyst confusion"
+        },
+        {
+          "key": "D",
+          "text": "It only applies to combustion",
+          "correct": false,
+          "explanation": "The law is universal.",
+          "misconception": "scope narrowed"
+        }
+      ]
+    },
+    {
+      "id": "rn_7Tgb4gzybkSVcPDf::L1::Q2",
+      "moduleId": "rn_7Tgb4gzybkSVcPDf::L1",
+      "stem": "On a formation-route energy cycle, where do the elements sit?",
+      "misconceptionClass": "cycle geography",
+      "options": [
+        {
+          "key": "A",
+          "text": "Above the hump",
+          "correct": false,
+          "explanation": "Cycles have no humps.",
+          "misconception": "geometry crossed"
+        },
+        {
+          "key": "B",
+          "text": "On their own level, joined to both reactants and products by arrows",
+          "correct": true,
+          "explanation": "The elements are the shared intermediate.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Inside the products box",
+          "correct": false,
+          "explanation": "Elements and compounds occupy separate levels.",
+          "misconception": "placement crossed"
+        },
+        {
+          "key": "D",
+          "text": "Nowhere - cycles skip them",
+          "correct": false,
+          "explanation": "The elements are the whole point of the construction.",
+          "misconception": "design denied"
+        }
+      ]
+    },
+    {
+      "id": "rn_7Tgb4gzybkSVcPDf::L1::Q3",
+      "moduleId": "rn_7Tgb4gzybkSVcPDf::L1",
+      "stem": "Why can a reaction's enthalpy change be found from tabulated formation values?",
+      "misconceptionClass": "cycle logic",
+      "options": [
+        {
+          "key": "A",
+          "text": "The law only holds for elements",
+          "correct": false,
+          "explanation": "The law holds for all routes.",
+          "misconception": "scope misstated"
+        },
+        {
+          "key": "B",
+          "text": "Experiments cannot measure any enthalpy",
+          "correct": false,
+          "explanation": "Many are directly measurable; cycles cover the impossible ones.",
+          "misconception": "claim false"
+        },
+        {
+          "key": "C",
+          "text": "Both reactants and products can be decomposed to the same elements on paper",
+          "correct": true,
+          "explanation": "The shared element level closes the cycle.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Formation values equal reaction values",
+          "correct": false,
+          "explanation": "They are different quantities.",
+          "misconception": "quantities equated"
+        }
+      ]
+    },
+    {
+      "id": "rn_7Tgb4gzybkSVcPDf::L1::Q4",
+      "moduleId": "rn_7Tgb4gzybkSVcPDf::L1",
+      "stem": "What must you track most carefully when adding the legs of a cycle?",
+      "misconceptionClass": "error focus",
+      "options": [
+        {
+          "key": "A",
+          "text": "The colour of the arrows",
+          "correct": false,
+          "explanation": "Presentation, not physics.",
+          "misconception": "irrelevant detail"
+        },
+        {
+          "key": "B",
+          "text": "The number of decimal places",
+          "correct": false,
+          "explanation": "Precision matters less than direction.",
+          "misconception": "priority misstated"
+        },
+        {
+          "key": "C",
+          "text": "The hump's height",
+          "correct": false,
+          "explanation": "Cycles carry no humps.",
+          "misconception": "geometry crossed"
+        },
+        {
+          "key": "D",
+          "text": "The direction of each arrow, which fixes each sign",
+          "correct": true,
+          "explanation": "Reversed arrows flip the value's sign.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_7Tgb4gzybkSVcPDf::L1::Q5",
+      "moduleId": "rn_7Tgb4gzybkSVcPDf::L1",
+      "stem": "Which phrase belongs in a full statement of Hess's law?",
+      "misconceptionClass": "statement precision",
+      "options": [
+        {
+          "key": "A",
+          "text": "The enthalpy change of a reaction is independent of the route taken",
+          "correct": true,
+          "explanation": "The canonical phrasing.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Energy cannot be created or destroyed",
+          "correct": false,
+          "explanation": "That is the first law - true but not the Hess statement.",
+          "misconception": "law crossed"
+        },
+        {
+          "key": "C",
+          "text": "Reactions release energy in all routes",
+          "correct": false,
+          "explanation": "Endothermic routes exist.",
+          "misconception": "claim false"
+        },
+        {
+          "key": "D",
+          "text": "Enthalpy equals temperature times capacity",
+          "correct": false,
+          "explanation": "That is a calorimetry relation.",
+          "misconception": "formula crossed"
+        }
+      ]
+    },
+    {
+      "id": "rn_7Tgb4gzybkSVcPDf::L1::Q6",
+      "moduleId": "rn_7Tgb4gzybkSVcPDf::L1",
+      "stem": "State Hess's law in its standard wording.",
+      "misconceptionClass": "law recall",
+      "kind": "recall",
+      "modelAnswer": "The enthalpy change of a reaction is independent of the route taken between reactants and products.",
+      "keywords": [
+        "enthalpy change",
+        "independent",
+        "route"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_7Tgb4gzybkSVcPDf::L1::Q7",
+      "moduleId": "rn_7Tgb4gzybkSVcPDf::L1",
+      "stem": "Describe the construction of a simple energy cycle through the elements.",
+      "misconceptionClass": "construction recall",
+      "kind": "recall",
+      "modelAnswer": "Draw reactants and products on the top level, place the elements on a lower level, and join them with arrows carrying the tabulated formation values.",
+      "keywords": [
+        "elements",
+        "level",
+        "arrows"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_7Tgb4gzybkSVcPDf::L1::Q8",
+      "moduleId": "rn_7Tgb4gzybkSVcPDf::L1",
+      "stem": "Explain why enthalpy being a state function makes Hess's law work.",
+      "misconceptionClass": "foundation reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "A state function's value depends only on the current state, so any complete journey between the same two states accumulates the same net change, whatever the path - legs through elements are just one such path.",
+      "keywords": [
+        "state function",
+        "path",
+        "net change"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_7Tgb4gzybkSVcPDf::L1::Q9",
+      "moduleId": "rn_7Tgb4gzybkSVcPDf::L1",
+      "stem": "A direct reaction's enthalpy change cannot be measured because the reaction is too slow. Explain how a cycle solves the problem.",
+      "misconceptionClass": "cycle application",
+      "kind": "application",
+      "modelAnswer": "Choose tabulated intermediates (the elements), add the legs algebraically with arrow-directed signs, and the sum delivers the direct change without running the slow reaction.",
+      "keywords": [
+        "elements",
+        "legs",
+        "sum"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_7Tgb4gzybkSVcPDf::L2::Q1",
+      "moduleId": "rn_7Tgb4gzybkSVcPDf::L2",
+      "stem": "The formation-route formula reads: enthalpy of reaction equals:",
+      "misconceptionClass": "formula recall",
+      "options": [
+        {
+          "key": "A",
+          "text": "The larger side minus the smaller",
+          "correct": false,
+          "explanation": "The sides are fixed by the equation, not by size.",
+          "misconception": "convention invented"
+        },
+        {
+          "key": "B",
+          "text": "Sum of products' formation values minus sum of reactants' formation values",
+          "correct": true,
+          "explanation": "The products-minus-reactants slogan.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Reactants minus products",
+          "correct": false,
+          "explanation": "That inverts every sign.",
+          "misconception": "direction inverted"
+        },
+        {
+          "key": "D",
+          "text": "Products plus reactants",
+          "correct": false,
+          "explanation": "Addition ignores the cycle's geometry.",
+          "misconception": "algebra wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_7Tgb4gzybkSVcPDf::L2::Q2",
+      "moduleId": "rn_7Tgb4gzybkSVcPDf::L2",
+      "stem": "Formation values of N2(g) and H2(g) appear in the ammonia cycle. What do they contribute?",
+      "misconceptionClass": "zero contribution",
+      "options": [
+        {
+          "key": "A",
+          "text": "A negative correction",
+          "correct": false,
+          "explanation": "Elements contribute exactly zero.",
+          "misconception": "value invented"
+        },
+        {
+          "key": "B",
+          "text": "Their combustion values",
+          "correct": false,
+          "explanation": "Wrong quantity family.",
+          "misconception": "quantity crossed"
+        },
+        {
+          "key": "C",
+          "text": "Nothing - both are elements in their standard states",
+          "correct": true,
+          "explanation": "The zero floor applies.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Their bond energies",
+          "correct": false,
+          "explanation": "Bond enthalpies belong to a different route.",
+          "misconception": "quantity crossed"
+        }
+      ]
+    },
+    {
+      "id": "rn_7Tgb4gzybkSVcPDf::L2::Q3",
+      "moduleId": "rn_7Tgb4gzybkSVcPDf::L2",
+      "stem": "A formation value must be multiplied when:",
+      "misconceptionClass": "coefficient drill",
+      "options": [
+        {
+          "key": "A",
+          "text": "Its value is negative",
+          "correct": false,
+          "explanation": "Signs never trigger multiplication.",
+          "misconception": "trigger misstated"
+        },
+        {
+          "key": "B",
+          "text": "Its state is liquid",
+          "correct": false,
+          "explanation": "State does not scale coefficients.",
+          "misconception": "trigger crossed"
+        },
+        {
+          "key": "C",
+          "text": "Never - values are used as tabulated",
+          "correct": false,
+          "explanation": "Coefficients above one demand multiplication.",
+          "misconception": "claim false"
+        },
+        {
+          "key": "D",
+          "text": "Its species' coefficient in the reaction equation exceeds one",
+          "correct": true,
+          "explanation": "Scale follows the equation.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_7Tgb4gzybkSVcPDf::L2::Q4",
+      "moduleId": "rn_7Tgb4gzybkSVcPDf::L2",
+      "stem": "Ammonia synthesis: N2 + 3H2 -> 2NH3 with formation value of NH3 at -46 kJ mol^-1. The reaction enthalpy is:",
+      "misconceptionClass": "calculation drill",
+      "options": [
+        {
+          "key": "A",
+          "text": "-92 kJ mol^-1, from 2 x (-46) minus zero",
+          "correct": true,
+          "explanation": "Two moles of ammonia form; the elements contribute zero.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "-46 kJ mol^-1",
+          "correct": false,
+          "explanation": "The coefficient 2 must enter.",
+          "misconception": "coefficient dropped"
+        },
+        {
+          "key": "C",
+          "text": "+92 kJ mol^-1",
+          "correct": false,
+          "explanation": "The sign follows the products' negative value.",
+          "misconception": "sign inverted"
+        },
+        {
+          "key": "D",
+          "text": "-138 kJ mol^-1",
+          "correct": false,
+          "explanation": "That multiplies by 3 instead of 2.",
+          "misconception": "coefficient misapplied"
+        }
+      ]
+    },
+    {
+      "id": "rn_7Tgb4gzybkSVcPDf::L2::Q5",
+      "moduleId": "rn_7Tgb4gzybkSVcPDf::L2",
+      "stem": "A formation-route calculation returns +178 kJ mol^-1. Classify the reaction.",
+      "misconceptionClass": "sign classification",
+      "options": [
+        {
+          "key": "A",
+          "text": "Catalysed",
+          "correct": false,
+          "explanation": "The sign says nothing about catalysts.",
+          "misconception": "inference crossed"
+        },
+        {
+          "key": "B",
+          "text": "Endothermic - energy was absorbed overall",
+          "correct": true,
+          "explanation": "Positive change means absorption.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Exothermic - energy was released",
+          "correct": false,
+          "explanation": "Release reads negative.",
+          "misconception": "sign inverted"
+        },
+        {
+          "key": "D",
+          "text": "Impossible - enthalpy changes are always negative",
+          "correct": false,
+          "explanation": "Positive changes abound.",
+          "misconception": "claim false"
+        }
+      ]
+    },
+    {
+      "id": "rn_7Tgb4gzybkSVcPDf::L2::Q6",
+      "moduleId": "rn_7Tgb4gzybkSVcPDf::L2",
+      "stem": "State the formation-route formula in words.",
+      "misconceptionClass": "formula recall",
+      "kind": "recall",
+      "modelAnswer": "The reaction's enthalpy change equals the sum of the products' formation values minus the sum of the reactants' formation values, each scaled by its coefficient.",
+      "keywords": [
+        "products",
+        "reactants",
+        "coefficient"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_7Tgb4gzybkSVcPDf::L2::Q7",
+      "moduleId": "rn_7Tgb4gzybkSVcPDf::L2",
+      "stem": "Compute the enthalpy change of N2(g) + 3H2(g) -> 2NH3(g) given the formation value of NH3 as -46 kJ mol^-1.",
+      "misconceptionClass": "calculation recall",
+      "kind": "recall",
+      "modelAnswer": "2 x (-46) - (0 + 0) = -92 kJ mol^-1, so the synthesis is exothermic.",
+      "keywords": [
+        "2 x (-46)",
+        "-92",
+        "exothermic"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_7Tgb4gzybkSVcPDf::L2::Q8",
+      "moduleId": "rn_7Tgb4gzybkSVcPDf::L2",
+      "stem": "Explain why the formation route works even when the reaction itself cannot be run in a calorimeter.",
+      "misconceptionClass": "route reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "The cycle never runs the actual reaction - it computes the same level gap through the elements' legs, so unmeasurable reactions still yield exact values from tabulated data.",
+      "keywords": [
+        "cycle",
+        "elements",
+        "tabulated"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_7Tgb4gzybkSVcPDf::L2::Q9",
+      "moduleId": "rn_7Tgb4gzybkSVcPDf::L2",
+      "stem": "A formation-route calculation gives the reactants' total as -602 kJ and the products' total as -780 kJ. State the reaction's enthalpy change and its class.",
+      "misconceptionClass": "subtraction application",
+      "kind": "application",
+      "modelAnswer": "The change is (-780) - (-602) = -178 kJ mol-1, negative and therefore exothermic.",
+      "keywords": [
+        "-178",
+        "exothermic",
+        "subtraction"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_7Tgb4gzybkSVcPDf::L3::Q1",
+      "moduleId": "rn_7Tgb4gzybkSVcPDf::L3",
+      "stem": "The combustion-route formula for a formation value reads:",
+      "misconceptionClass": "formula recall",
+      "options": [
+        {
+          "key": "A",
+          "text": "Elements' combustions plus the compound's combustion",
+          "correct": false,
+          "explanation": "The compound's leg runs opposite.",
+          "misconception": "sign wrong"
+        },
+        {
+          "key": "B",
+          "text": "Half the sum of all combustions",
+          "correct": false,
+          "explanation": "No such averaging exists.",
+          "misconception": "convention invented"
+        },
+        {
+          "key": "C",
+          "text": "Elements' combustions summed, minus the compound's combustion",
+          "correct": true,
+          "explanation": "The flipped slogan.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Compound's combustion minus elements' combustions",
+          "correct": false,
+          "explanation": "That inverts the geometry.",
+          "misconception": "direction inverted"
+        }
+      ]
+    },
+    {
+      "id": "rn_7Tgb4gzybkSVcPDf::L3::Q2",
+      "moduleId": "rn_7Tgb4gzybkSVcPDf::L3",
+      "stem": "Why do all combustion arrows converge on one level?",
+      "misconceptionClass": "cycle geometry",
+      "options": [
+        {
+          "key": "A",
+          "text": "Combustion conserves molecules",
+          "correct": false,
+          "explanation": "Molecules are transformed, not conserved.",
+          "misconception": "claim false"
+        },
+        {
+          "key": "B",
+          "text": "The tabulated values demand it",
+          "correct": false,
+          "explanation": "The chemistry dictates the level, not the table.",
+          "misconception": "logic inverted"
+        },
+        {
+          "key": "C",
+          "text": "Water and carbon dioxide are elements",
+          "correct": false,
+          "explanation": "They are compounds.",
+          "misconception": "classification wrong"
+        },
+        {
+          "key": "D",
+          "text": "Every substance burns to the same oxides - carbon dioxide and water",
+          "correct": true,
+          "explanation": "The shared products level closes the cycle.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_7Tgb4gzybkSVcPDf::L3::Q3",
+      "moduleId": "rn_7Tgb4gzybkSVcPDf::L3",
+      "stem": "Combustion values: C(s) -394, H2(g) -286, CH3COCH3(l) -1821 (kJ mol^-1). The formation value of propanone, C3H6O, is:",
+      "misconceptionClass": "calculation drill",
+      "options": [
+        {
+          "key": "A",
+          "text": "-219 kJ mol^-1, from 3(-394) + 3(-286) - (-1821)",
+          "correct": true,
+          "explanation": "3 carbons and 3 hydrogens burn, then the compound's burn flips.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "-2501 kJ mol^-1",
+          "correct": false,
+          "explanation": "That adds everything without the flip.",
+          "misconception": "sign wrong"
+        },
+        {
+          "key": "C",
+          "text": "+219 kJ mol^-1",
+          "correct": false,
+          "explanation": "The result is negative - formation from elements is exothermic here.",
+          "misconception": "sign inverted"
+        },
+        {
+          "key": "D",
+          "text": "-1182 kJ mol^-1",
+          "correct": false,
+          "explanation": "That counts only the carbon leg.",
+          "misconception": "legs incomplete"
+        }
+      ]
+    },
+    {
+      "id": "rn_7Tgb4gzybkSVcPDf::L3::Q4",
+      "moduleId": "rn_7Tgb4gzybkSVcPDf::L3",
+      "stem": "In the propanone cycle, why does hydrogen's combustion enter three times?",
+      "misconceptionClass": "stoichiometry drill",
+      "options": [
+        {
+          "key": "A",
+          "text": "To balance the oxygen",
+          "correct": false,
+          "explanation": "Oxygen's combustion is not part of the leg.",
+          "misconception": "species crossed"
+        },
+        {
+          "key": "B",
+          "text": "The formation equation contains 3 H2",
+          "correct": true,
+          "explanation": "Each mole of hydrogen burns once.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Hydrogen is triply combustible",
+          "correct": false,
+          "explanation": "No such property exists.",
+          "misconception": "nonsense option"
+        },
+        {
+          "key": "D",
+          "text": "Propan-1-ol holds three hydrogens",
+          "correct": false,
+          "explanation": "It holds eight; the coefficient counts moles of H2.",
+          "misconception": "counting confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_7Tgb4gzybkSVcPDf::L3::Q5",
+      "moduleId": "rn_7Tgb4gzybkSVcPDf::L3",
+      "stem": "Why is the combustion route preferred when formation values are unavailable?",
+      "misconceptionClass": "route preference",
+      "options": [
+        {
+          "key": "A",
+          "text": "The formula is simpler",
+          "correct": false,
+          "explanation": "The route's virtue is measurability, not simplicity.",
+          "misconception": "virtue misstated"
+        },
+        {
+          "key": "B",
+          "text": "Combustion avoids state symbols",
+          "correct": false,
+          "explanation": "States are still required.",
+          "misconception": "claim false"
+        },
+        {
+          "key": "C",
+          "text": "Combustions are readily measurable for nearly every substance",
+          "correct": true,
+          "explanation": "Burning is easy; synthesising from elements may be impossible.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Combustion values are always zero",
+          "correct": false,
+          "explanation": "They are large and negative.",
+          "misconception": "claim false"
+        }
+      ]
+    },
+    {
+      "id": "rn_7Tgb4gzybkSVcPDf::L3::Q6",
+      "moduleId": "rn_7Tgb4gzybkSVcPDf::L3",
+      "stem": "State the combustion-route formula for a formation value in words.",
+      "misconceptionClass": "formula recall",
+      "kind": "recall",
+      "modelAnswer": "The formation value equals the summed combustion values of the reactant elements minus the combustion value of the target compound itself.",
+      "keywords": [
+        "elements",
+        "combustion",
+        "minus"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_7Tgb4gzybkSVcPDf::L3::Q7",
+      "moduleId": "rn_7Tgb4gzybkSVcPDf::L3",
+      "stem": "Compute the formation value of propanone given combustion values C(s) -394, H2(g) -286 and CH3COCH3(l) -1821 kJ mol^-1.",
+      "misconceptionClass": "calculation recall",
+      "kind": "recall",
+      "modelAnswer": "3(-394) + 3(-286) - (-1821) = -1182 - 858 + 1821 = -219 kJ mol^-1.",
+      "keywords": [
+        "-1182",
+        "858",
+        "-219"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_7Tgb4gzybkSVcPDf::L3::Q8",
+      "moduleId": "rn_7Tgb4gzybkSVcPDf::L3",
+      "stem": "Explain why the compound's own combustion value enters the sum with a reversed effect.",
+      "misconceptionClass": "sign geometry",
+      "kind": "explain-why",
+      "modelAnswer": "Formation climbs from elements up to the compound while combustion descends from it, so the compound's leg runs opposite to the cycle's direction and its tabulated value enters effectively flipped.",
+      "keywords": [
+        "climbs",
+        "descends",
+        "flipped"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_7Tgb4gzybkSVcPDf::L3::Q9",
+      "moduleId": "rn_7Tgb4gzybkSVcPDf::L3",
+      "stem": "Verify the propanone formation calculation arithmetically: 3(-394), 3(-286) and -(-1821).",
+      "misconceptionClass": "verification application",
+      "kind": "application",
+      "modelAnswer": "3 x 394 = 1182, 3 x 286 = 858, so the sum is -1182 - 858 + 1821 = -219 kJ mol^-1, matching the tabulated cycle answer.",
+      "keywords": [
+        "1182",
+        "858",
+        "-219"
+      ],
+      "options": []
+    }
+  ]
+}

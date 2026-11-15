@@ -1,0 +1,305 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_GpHSrcx5SvbCXDG3",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "9bb7f43172bc5587bcabec7b3330b319462b0e6d69bc66d074e5103a29bd0741",
+    "pinnedRef": "ba08669f2dbfc1a4d18d01abc07ef1efa248388d"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_GpHSrcx5SvbCXDG3",
+    "topicTitle": "2. Energetics, Group Chemistry, Halogenoalkanes & Alcohols",
+    "subtopicTitle": "Bond Enthalpies",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/2-energetics-group-chemistry-halogenoalkanes-and-alcohols/2-1-energetics/2-1-5-bond-enthalpies",
+    "specAnchors": [
+      {
+        "code": "6.10",
+        "text": "be able to calculate mean bond enthalpies from enthalpy changes of reaction"
+      },
+      {
+        "code": "6.9",
+        "text": "understand the terms ‘bond enthalpy’ and ‘mean bond enthalpy’, and be able to use bond enthalpies to calculate enthalpy changes, understanding the limitations of this method"
+      }
+    ],
+    "primer": {
+      "text": "Breaking a bond costs energy; making one pays it back. The balance between the two accounts is the overall enthalpy change. This note defines mean bond enthalpy, works the broken-minus-formed equation on real reactions, and derives a bond enthalpy from an experimental enthalpy change, then explains why the averages can mislead.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_GpHSrcx5SvbCXDG3::L1",
+        "title": "The bond ledger: breaking pays, forming earns",
+        "sourceHeadings": [
+          "Bond Enthalpy - Definitions",
+          "Overall enthalpy changes"
+        ],
+        "specRefs": [
+          "6.9"
+        ],
+        "opening": "Every reaction is a bond transaction: energy is paid in to break bonds and earned back when new bonds form. The overall enthalpy change is simply the ledger balance - total break costs minus total formation earnings.",
+        "keyPoints": [
+          "Breaking bonds requires energy from the surroundings, so bond breaking is endothermic.",
+          "Forming bonds releases energy to the surroundings, so bond formation is exothermic.",
+          "The overall enthalpy change equals the total energy to break bonds minus the total energy released forming bonds.",
+          "Bond enthalpies apply to gases - all species must be gaseous for the ledger to work.",
+          "A negative balance means the formation earnings outweighed the break costs: exothermic."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Add up what it costs to snap every bond broken, add up what is earned making every new bond, and subtract earnings from costs - the balance is the reaction's enthalpy change.",
+            "analogy": "Demolition and construction: pay the wreckers, collect from the builders, and the net spend is the enthalpy change.",
+            "examPointer": "Write the master equation in symbols first - sum(broken) minus sum(formed) - then substitute numbers; sign errors cluster in word-first approaches."
+          },
+          "medium": {
+            "restatement": "The gas-phase restriction matters because tabulated bond enthalpies are measured between free gaseous atoms; solutions and solids carry extra intermolecular terms the ledger cannot see.",
+            "analogy": "The ledger only audits the molecule's own accounts, not its neighbourhood fees - liquids and solids charge neighbourhood fees.",
+            "examPointer": "When a question gives aqueous species, expect the answer to explain why bond-enthalpy arithmetic is unreliable there."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_GpHSrcx5SvbCXDG3::L1::Q1",
+          "rn_GpHSrcx5SvbCXDG3::L1::Q2",
+          "rn_GpHSrcx5SvbCXDG3::L1::Q3",
+          "rn_GpHSrcx5SvbCXDG3::L1::Q4",
+          "rn_GpHSrcx5SvbCXDG3::L1::Q5",
+          "rn_GpHSrcx5SvbCXDG3::L1::Q6",
+          "rn_GpHSrcx5SvbCXDG3::L1::Q7",
+          "rn_GpHSrcx5SvbCXDG3::L1::Q8",
+          "rn_GpHSrcx5SvbCXDG3::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01",
+          "fig-02"
+        ]
+      },
+      {
+        "id": "rn_GpHSrcx5SvbCXDG3::L2",
+        "title": "Mean bond enthalpy and its limits",
+        "sourceHeadings": [
+          "Average bond energy"
+        ],
+        "specRefs": [
+          "6.9"
+        ],
+        "opening": "Tabulated bond enthalpies are averages: the C-H value summarises methane's four bonds, ethane's six, and every other environment into one number. Averages are useful and imprecise - knowing which is which separates good answers from great ones.",
+        "keyPoints": [
+          "A mean bond enthalpy averages a bond's dissociation energy across many compounds.",
+          "Methane's mean C-H enthalpy is a quarter of its total atomisation enthalpy: four identical bonds share the bill.",
+          "The average hides environment: a C-H bond costs more to break in some molecules than in others.",
+          "Averages are measured in the gas phase, so solution calculations inherit systematic error.",
+          "Mean values give approximate enthalpy changes - data-book values beat them when available."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "One C-H number serves every molecule because it averages them all: methane's four equal bonds split their total bill into four equal shares.",
+            "analogy": "A menu's 'average meal price' - no actual meal costs exactly that, but it predicts the bill reasonably.",
+            "examPointer": "Define mean bond enthalpy with the word 'average' or 'mean' and the phrase 'across a range of compounds' - precision earns the mark."
+          },
+          "medium": {
+            "restatement": "The averaging is the limitation's root: since each specific bond's true strength depends on its molecular neighbourhood, cycle calculations built on means drift from measured values, and the drift grows with structural complexity.",
+            "analogy": "Averages are shoe sizes: close enough to walk in, wrong for the marathon.",
+            "examPointer": "Name at least two limitations (averaging, gas phase) when asked - single-limitation answers score half."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_GpHSrcx5SvbCXDG3::L2::Q1",
+          "rn_GpHSrcx5SvbCXDG3::L2::Q2",
+          "rn_GpHSrcx5SvbCXDG3::L2::Q3",
+          "rn_GpHSrcx5SvbCXDG3::L2::Q4",
+          "rn_GpHSrcx5SvbCXDG3::L2::Q5",
+          "rn_GpHSrcx5SvbCXDG3::L2::Q6",
+          "rn_GpHSrcx5SvbCXDG3::L2::Q7",
+          "rn_GpHSrcx5SvbCXDG3::L2::Q8",
+          "rn_GpHSrcx5SvbCXDG3::L2::Q9"
+        ],
+        "figureIds": [
+          "fig-03"
+        ]
+      },
+      {
+        "id": "rn_GpHSrcx5SvbCXDG3::L3",
+        "title": "Calculations: pricing reactions and deriving bonds",
+        "sourceHeadings": [
+          "Bond Enthalpy - Calculations"
+        ],
+        "specRefs": [
+          "6.9",
+          "6.10"
+        ],
+        "opening": "Two calculation directions share one ledger: price a reaction from tabulated bonds (broken minus formed), or solve the ledger backwards to derive a bond enthalpy from a measured reaction enthalpy. Both are bookkeeping - the second just hides one number.",
+        "keyPoints": [
+          "The forward calculation prices a reaction: sum the bonds broken, sum the bonds formed, subtract.",
+          "Hydrogen chloride synthesis works as (+436 + 242) - 2(431) = -184 kJ mol^-1.",
+          "The reverse direction solves for an unknown bond enthalpy from a measured enthalpy change.",
+          "Ammonia's ledger derives the mean N-H bond: broken 2252, formed 2344, so each N-H costs 2344/6.",
+          "Both directions assume gaseous species and mean bond values - approximations to declare."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "List every bond broken on the left, every bond formed on the right, multiply by their tabulated values, and subtract formed from broken - or hide one value and solve for it.",
+            "analogy": "A receipt with one missing price: total the known lines, subtract from the bill, and the missing line prices itself.",
+            "examPointer": "Count bonds carefully - diatomic products like HCl appear twice per equation unit, so their bond value is multiplied by two."
+          },
+          "medium": {
+            "restatement": "The reverse derivation treats the ledger as an equation in one unknown: measured change plus total formed equals total broken, so isolating the unknown bond delivers the 6.10 skill of extracting mean bond enthalpies from experimental data.",
+            "analogy": "Auditing backwards: the bank statement (measured change) reveals the hidden transaction (the unknown bond) once every other line is priced.",
+            "examPointer": "Declare the approximations in writing: mean values and gas-phase assumptions - the qualification is part of the marking scheme."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_GpHSrcx5SvbCXDG3::L3::Q1",
+          "rn_GpHSrcx5SvbCXDG3::L3::Q2",
+          "rn_GpHSrcx5SvbCXDG3::L3::Q3",
+          "rn_GpHSrcx5SvbCXDG3::L3::Q4",
+          "rn_GpHSrcx5SvbCXDG3::L3::Q5",
+          "rn_GpHSrcx5SvbCXDG3::L3::Q6",
+          "rn_GpHSrcx5SvbCXDG3::L3::Q7",
+          "rn_GpHSrcx5SvbCXDG3::L3::Q8",
+          "rn_GpHSrcx5SvbCXDG3::L3::Q9"
+        ],
+        "figureIds": [
+          "fig-04",
+          "fig-05",
+          "fig-06",
+          "fig-07"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "bond enthalpy",
+          "definition": "The energy required to break one mole of a named bond in gaseous molecules.",
+          "firstLesson": 1
+        },
+        {
+          "term": "mean bond enthalpy",
+          "definition": "The average bond dissociation energy for a bond type across a range of compounds.",
+          "firstLesson": 2
+        },
+        {
+          "term": "atomisation",
+          "definition": "The conversion of a substance into free gaseous atoms.",
+          "firstLesson": 2
+        }
+      ],
+      "workedExample": {
+        "prompt": "Using mean bond enthalpies H-H = 436, Cl-Cl = 242 and H-Cl = 431 kJ mol^-1, calculate the enthalpy change of H2(g) + Cl2(g) -> 2HCl(g).",
+        "steps": [
+          "Bonds broken: one H-H and one Cl-Cl, costing 436 + 242 = 678 kJ.",
+          "Bonds formed: two H-Cl bonds, earning 2 x 431 = 862 kJ.",
+          "Apply the ledger: 678 - 862 = -184 kJ mol^-1.",
+          "The negative balance confirms formation outearned breaking."
+        ],
+        "finalAnswer": "The enthalpy change is -184 kJ mol^-1 (exothermic)."
+      }
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/580446b97b40-1-5-chemical-energetics-bond-breaking-and-formin.png",
+        "alt": "Chemical Energetics Bond Breaking and Forming, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Bond Enthalpy - Definitions",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "To break bonds energy is required from the surroundings and to make new bonds energy is released from the reaction"
+      },
+      {
+        "id": "fig-02",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/4bbd4d1b5eab-5-1-9-bond-enthalpy-profile.png",
+        "alt": "Bond enthalpy profile, downloadable IB Chemistry revision notes",
+        "sourceHeading": "Overall enthalpy changes",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "Bond enthalpy profiles"
+      },
+      {
+        "id": "fig-03",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/2b2fd046b273-5-1-9-average-bond-enthalpy.png",
+        "alt": "Average Bond Enthalpy, downloadable IB Chemistry revision notes",
+        "sourceHeading": "Average bond energy",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique",
+        "caption": "Average bond enthalpy of C-H in methane"
+      },
+      {
+        "id": "fig-04",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/39ce1556dbc4-5-1-10-worked-example-calculating-the-enthalpy-c.png",
+        "alt": "Worked example - Calculating the enthalpy change in Haber process, downloadable IB Chemistry revision notes",
+        "sourceHeading": "Bond Enthalpy - Calculations",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-05",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/eed643ff99e3-1-5-chemical-energetics-table-2-5.png",
+        "alt": "Chemical Energetics Table 2_5, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Bond Enthalpy - Calculations",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-06",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/db56553b7ed8-5-1-10-bond-enthalpy-worked-example-2-data-table.png",
+        "alt": "Bond Enthalpy - Worked Example 2 Data table, downloadable IB Chemistry revision notes",
+        "sourceHeading": "Bond Enthalpy - Calculations",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-07",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/dab65ea4b9a8-5-1-10-bond-enthalpy-worked-example-2-answer.png",
+        "alt": "Bond Enthalpy - Worked Example 2 Answer, downloadable IB Chemistry revision notes",
+        "sourceHeading": "Bond Enthalpy - Calculations",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique"
+      }
+    ]
+  }
+}

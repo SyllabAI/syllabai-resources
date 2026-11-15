@@ -1,0 +1,487 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_mG3Q5T33GSSt7cdY",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "70062bea76bc7aaffbcbe039f9cb20315a421422c9ad774a68de2eaddb921632",
+    "pinnedRef": "ba08669f2dbfc1a4d18d01abc07ef1efa248388d"
+  },
+  "packageId": "ial-chemistry::rn_mG3Q5T33GSSt7cdY",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_mG3Q5T33GSSt7cdY::L1::Q1",
+      "moduleId": "rn_mG3Q5T33GSSt7cdY::L1",
+      "stem": "What distinguishes heterolytic fission from homolytic fission?",
+      "misconceptionClass": "fission contrast",
+      "options": [
+        {
+          "key": "A",
+          "text": "Heterolytic gives both electrons to one atom; homolytic gives one to each",
+          "correct": true,
+          "explanation": "The pair's destination defines the names.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Heterolytic splits the atom's nucleus",
+          "correct": false,
+          "explanation": "Only the bond's electron pair is redistributed.",
+          "misconception": "scale confusion"
+        },
+        {
+          "key": "C",
+          "text": "Heterolytic needs ultraviolet light",
+          "correct": false,
+          "explanation": "UV is the homolytic trigger, not the heterolytic one.",
+          "misconception": "condition swapped"
+        },
+        {
+          "key": "D",
+          "text": "Heterolytic produces radicals",
+          "correct": false,
+          "explanation": "Radicals are homolytic products.",
+          "misconception": "products swapped"
+        }
+      ]
+    },
+    {
+      "id": "rn_mG3Q5T33GSSt7cdY::L1::Q2",
+      "moduleId": "rn_mG3Q5T33GSSt7cdY::L1",
+      "stem": "Which species results when a bond breaks heterolytically toward the more electronegative atom?",
+      "misconceptionClass": "ion formation",
+      "options": [
+        {
+          "key": "A",
+          "text": "No charged species",
+          "correct": false,
+          "explanation": "Ions are the signature of heterolytic fission.",
+          "misconception": "signature denied"
+        },
+        {
+          "key": "B",
+          "text": "A negative ion on the electronegative atom and a positive ion on the other",
+          "correct": true,
+          "explanation": "The pair-keeper goes negative; the loser goes positive.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Two neutral radicals",
+          "correct": false,
+          "explanation": "That is the homolytic outcome.",
+          "misconception": "fission type swapped"
+        },
+        {
+          "key": "D",
+          "text": "Two positive ions",
+          "correct": false,
+          "explanation": "Charge cannot be created - one loss, one gain.",
+          "misconception": "charge bookkeeping broken"
+        }
+      ]
+    },
+    {
+      "id": "rn_mG3Q5T33GSSt7cdY::L1::Q3",
+      "moduleId": "rn_mG3Q5T33GSSt7cdY::L1",
+      "stem": "In heterolytic fission of H-Br, where do the bonding electrons go?",
+      "misconceptionClass": "direction drill",
+      "options": [
+        {
+          "key": "A",
+          "text": "Split evenly between both",
+          "correct": false,
+          "explanation": "Even splitting is homolysis.",
+          "misconception": "fission type swapped"
+        },
+        {
+          "key": "B",
+          "text": "To the solvent",
+          "correct": false,
+          "explanation": "The pair goes to an atom, not the medium.",
+          "misconception": "destination invented"
+        },
+        {
+          "key": "C",
+          "text": "To bromine, giving Br(-) and H(+)",
+          "correct": true,
+          "explanation": "Bromine's higher electronegativity takes the pair.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "To hydrogen, giving H(-) and Br(+)",
+          "correct": false,
+          "explanation": "Hydrogen is the less electronegative partner.",
+          "misconception": "direction inverted"
+        }
+      ]
+    },
+    {
+      "id": "rn_mG3Q5T33GSSt7cdY::L1::Q4",
+      "moduleId": "rn_mG3Q5T33GSSt7cdY::L1",
+      "stem": "What does the atom that loses the shared pair become?",
+      "misconceptionClass": "loser identity",
+      "options": [
+        {
+          "key": "A",
+          "text": "A free radical",
+          "correct": false,
+          "explanation": "Radicals come from one-electron splits.",
+          "misconception": "product swapped"
+        },
+        {
+          "key": "B",
+          "text": "An anion",
+          "correct": false,
+          "explanation": "Anion means it gained the pair.",
+          "misconception": "identity inverted"
+        },
+        {
+          "key": "C",
+          "text": "Unchanged and neutral",
+          "correct": false,
+          "explanation": "Its electron count changed, so its charge changed.",
+          "misconception": "bookkeeping denied"
+        },
+        {
+          "key": "D",
+          "text": "A cation, an electron-starved positive ion",
+          "correct": true,
+          "explanation": "Losing the pair leaves a charge deficit.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_mG3Q5T33GSSt7cdY::L1::Q5",
+      "moduleId": "rn_mG3Q5T33GSSt7cdY::L1",
+      "stem": "Why does electronegativity predict heterolytic direction?",
+      "misconceptionClass": "prediction reasoning",
+      "options": [
+        {
+          "key": "A",
+          "text": "The more electronegative atom already pulls the pair closer, so it keeps it when the bond breaks",
+          "correct": true,
+          "explanation": "Polarisation pre-stages the split.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Electronegativity measures nuclear mass",
+          "correct": false,
+          "explanation": "It measures electron-pulling power.",
+          "misconception": "property misstated"
+        },
+        {
+          "key": "C",
+          "text": "Electronegativity only matters in metals",
+          "correct": false,
+          "explanation": "It applies across covalent bonds.",
+          "misconception": "scope misstated"
+        },
+        {
+          "key": "D",
+          "text": "It does not predict anything",
+          "correct": false,
+          "explanation": "It is the standard predictor of the split.",
+          "misconception": "predictive power denied"
+        }
+      ]
+    },
+    {
+      "id": "rn_mG3Q5T33GSSt7cdY::L1::Q6",
+      "moduleId": "rn_mG3Q5T33GSSt7cdY::L1",
+      "stem": "Define heterolytic fission and name both products in general terms.",
+      "misconceptionClass": "definition recall",
+      "kind": "recall",
+      "modelAnswer": "Heterolytic fission breaks a covalent bond so both bonding electrons go to one atom, producing a positive ion (cation) and a negative ion (anion).",
+      "keywords": [
+        "both bonding electrons",
+        "cation",
+        "anion"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_mG3Q5T33GSSt7cdY::L1::Q7",
+      "moduleId": "rn_mG3Q5T33GSSt7cdY::L1",
+      "stem": "Write the heterolytic fission equation for H-Br and label each product.",
+      "misconceptionClass": "equation recall",
+      "kind": "recall",
+      "modelAnswer": "H-Br -> H(+) + Br(-): the hydrogen becomes the cation and bromine the anion.",
+      "keywords": [
+        "H(+)",
+        "Br(-)",
+        "cation"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_mG3Q5T33GSSt7cdY::L1::Q8",
+      "moduleId": "rn_mG3Q5T33GSSt7cdY::L1",
+      "stem": "Explain why the products of heterolytic fission are reactive.",
+      "misconceptionClass": "reactivity reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "The products are ions carrying full charges, so each is a ready donor or acceptor of electron pairs - the nucleophile and electrophile pairing that drives ionic mechanisms.",
+      "keywords": [
+        "ions",
+        "charges",
+        "pairs"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_mG3Q5T33GSSt7cdY::L1::Q9",
+      "moduleId": "rn_mG3Q5T33GSSt7cdY::L1",
+      "stem": "A polar bond A-B breaks with both electrons going to B. State the charge and role of each fragment.",
+      "misconceptionClass": "generic application",
+      "kind": "application",
+      "modelAnswer": "B becomes the anion B(-) and acts as a nucleophile (pair donor); A becomes the cation A(+) and acts as an electrophile (pair acceptor).",
+      "keywords": [
+        "anion",
+        "cation",
+        "nucleophile"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_mG3Q5T33GSSt7cdY::L2::Q1",
+      "moduleId": "rn_mG3Q5T33GSSt7cdY::L2",
+      "stem": "What is a free radical?",
+      "misconceptionClass": "radical definition",
+      "options": [
+        {
+          "key": "A",
+          "text": "A metal cation in solution",
+          "correct": false,
+          "explanation": "That is an ionic species, not a radical.",
+          "misconception": "species crossed"
+        },
+        {
+          "key": "B",
+          "text": "A neutral species carrying an unpaired electron",
+          "correct": true,
+          "explanation": "The unpaired electron defines it.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "A charged ion with a full octet",
+          "correct": false,
+          "explanation": "Radicals are neutral and electron-short.",
+          "misconception": "definition crossed"
+        },
+        {
+          "key": "D",
+          "text": "A molecule with all electrons paired",
+          "correct": false,
+          "explanation": "Paired electrons mean no radical.",
+          "misconception": "definition inverted"
+        }
+      ]
+    },
+    {
+      "id": "rn_mG3Q5T33GSSt7cdY::L2::Q2",
+      "moduleId": "rn_mG3Q5T33GSSt7cdY::L2",
+      "stem": "How is a chlorine free radical written?",
+      "misconceptionClass": "notation drill",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cl(+), with a positive charge",
+          "correct": false,
+          "explanation": "That would be a cation.",
+          "misconception": "notation crossed"
+        },
+        {
+          "key": "B",
+          "text": "Cl, plain and unmarked",
+          "correct": false,
+          "explanation": "The dot must appear for the radical.",
+          "misconception": "notation dropped"
+        },
+        {
+          "key": "C",
+          "text": "Cl•, with a single dot for the unpaired electron",
+          "correct": true,
+          "explanation": "The dot is the radical's signature.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Cl(-), with a negative charge",
+          "correct": false,
+          "explanation": "That is the chloride ion.",
+          "misconception": "notation crossed"
+        }
+      ]
+    },
+    {
+      "id": "rn_mG3Q5T33GSSt7cdY::L2::Q3",
+      "moduleId": "rn_mG3Q5T33GSSt7cdY::L2",
+      "stem": "Which condition typically drives homolytic fission of chlorine?",
+      "misconceptionClass": "condition drill",
+      "options": [
+        {
+          "key": "A",
+          "text": "A nickel catalyst",
+          "correct": false,
+          "explanation": "Nickel serves hydrogenation.",
+          "misconception": "condition crossed"
+        },
+        {
+          "key": "B",
+          "text": "An acid catalyst",
+          "correct": false,
+          "explanation": "Acids serve ionic mechanisms.",
+          "misconception": "condition crossed"
+        },
+        {
+          "key": "C",
+          "text": "Total darkness",
+          "correct": false,
+          "explanation": "Darkness prevents the radical route.",
+          "misconception": "condition inverted"
+        },
+        {
+          "key": "D",
+          "text": "Ultraviolet light",
+          "correct": true,
+          "explanation": "UV supplies the energy to split the Cl-Cl bond evenly.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_mG3Q5T33GSSt7cdY::L2::Q4",
+      "moduleId": "rn_mG3Q5T33GSSt7cdY::L2",
+      "stem": "What products form when a chlorine molecule undergoes homolytic fission?",
+      "misconceptionClass": "product drill",
+      "options": [
+        {
+          "key": "A",
+          "text": "Two chlorine radicals, 2Cl•",
+          "correct": true,
+          "explanation": "One electron each - two identical radicals.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Cl(+) and Cl(-)",
+          "correct": false,
+          "explanation": "That is heterolytic fission.",
+          "misconception": "fission type swapped"
+        },
+        {
+          "key": "C",
+          "text": "Cl2 and energy only",
+          "correct": false,
+          "explanation": "The bond breaks, so the molecule no longer exists.",
+          "misconception": "bond denial"
+        },
+        {
+          "key": "D",
+          "text": "Cl(-) and Cl•",
+          "correct": false,
+          "explanation": "A mixed pair is not an even split.",
+          "misconception": "split miscounted"
+        }
+      ]
+    },
+    {
+      "id": "rn_mG3Q5T33GSSt7cdY::L2::Q5",
+      "moduleId": "rn_mG3Q5T33GSSt7cdY::L2",
+      "stem": "Why are radicals highly reactive?",
+      "misconceptionClass": "reactivity reasoning",
+      "options": [
+        {
+          "key": "A",
+          "text": "They are noble-gas-like and stable",
+          "correct": false,
+          "explanation": "Stability contradicts reactivity.",
+          "misconception": "logic inverted"
+        },
+        {
+          "key": "B",
+          "text": "Their unpaired electron seeks a partner to pair with",
+          "correct": true,
+          "explanation": "Electron hunger drives the attack on other bonds.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "They carry full negative charge",
+          "correct": false,
+          "explanation": "They are neutral.",
+          "misconception": "property false"
+        },
+        {
+          "key": "D",
+          "text": "They are large and diffuse",
+          "correct": false,
+          "explanation": "Size is not the reactivity driver.",
+          "misconception": "property misstated"
+        }
+      ]
+    },
+    {
+      "id": "rn_mG3Q5T33GSSt7cdY::L2::Q6",
+      "moduleId": "rn_mG3Q5T33GSSt7cdY::L2",
+      "stem": "Define homolytic fission and write the equation for chlorine undergoing it.",
+      "misconceptionClass": "definition recall",
+      "kind": "recall",
+      "modelAnswer": "Homolytic fission splits a covalent bond with one electron going to each atom, forming radicals: Cl2 -> 2Cl• under ultraviolet light.",
+      "keywords": [
+        "one electron each",
+        "radicals",
+        "Cl2"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_mG3Q5T33GSSt7cdY::L2::Q7",
+      "moduleId": "rn_mG3Q5T33GSSt7cdY::L2",
+      "stem": "State what notation marks a radical and what energy source typically starts homolytic fission.",
+      "misconceptionClass": "notation recall",
+      "kind": "recall",
+      "modelAnswer": "A single dot marks the unpaired electron, and ultraviolet light typically supplies the energy for the split.",
+      "keywords": [
+        "dot",
+        "ultraviolet",
+        "energy"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_mG3Q5T33GSSt7cdY::L2::Q8",
+      "moduleId": "rn_mG3Q5T33GSSt7cdY::L2",
+      "stem": "Explain why homolytic rather than heterolytic fission occurs in a non-polar bond like Cl-Cl.",
+      "misconceptionClass": "bond symmetry reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "The identical atoms share the pair evenly, so there is no electronegativity tilt to hand the pair to one side - the symmetric bond breaks symmetrically when energy is supplied.",
+      "keywords": [
+        "identical",
+        "evenly",
+        "symmetric"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_mG3Q5T33GSSt7cdY::L2::Q9",
+      "moduleId": "rn_mG3Q5T33GSSt7cdY::L2",
+      "stem": "Bromine gas is irradiated with ultraviolet light. Write the homolytic fission equation with correct radical notation and state what each product carries.",
+      "misconceptionClass": "bromine application",
+      "kind": "application",
+      "modelAnswer": "Br2 -> 2Br•: each bromine radical is a neutral atom carrying one unpaired electron, marked by the single dot.",
+      "keywords": [
+        "Br2",
+        "2Br•",
+        "unpaired electron"
+      ],
+      "options": []
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_cfnbqHpbczGvkz3x",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "ac8d72257c289a0cfba426652b2bbab0dd71b0fe4b2a2231bf15b59eb0a6938a",
+    "pinnedRef": "ba08669f2dbfc1a4d18d01abc07ef1efa248388d"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_cfnbqHpbczGvkz3x",
+    "topicTitle": "1. Structure, Bonding & Introduction to Organic Chemistry",
+    "subtopicTitle": "Alternative Fuels",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/1-structure-bonding-and-introduction-to-organic-chemistry/1-9-alkanes/1-9-4-alternative-fuels",
+    "specAnchors": [
+      {
+        "code": "4.15",
+        "text": "be able to discuss the reasons for developing alternative fuels in terms of sustainability and reducing emissions, including the emission of CO 2 and its relationship to climate change"
+      },
+      {
+        "code": "4.16",
+        "text": "be able to apply the concept of carbon neutrality to different fuels, such as petrol, bioethanol and hydrogen"
+      }
+    ],
+    "primer": {
+      "text": "Fuels of the future must cut carbon dioxide without starving cropland. This note evaluates the alternatives: catalytic converters scrubbing nitrogen monoxide and carbon monoxide at the exhaust, biofuels grown from crops with their land-use bill, and the carbon-neutrality test that separates genuine renewable fuels from green accounting.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_cfnbqHpbczGvkz3x::L1",
+        "title": "Cutting emissions at the exhaust",
+        "sourceHeadings": [
+          "Reducing Emissions",
+          "Catalytic removal of NO<sub>x</sub> and CO"
+        ],
+        "specRefs": [
+          "4.15"
+        ],
+        "opening": "Before alternative fuels arrive, chemistry already cleans the tailpipe. Catalytic converters run two redox rearrangements on the exhaust stream, turning the carbon monoxide and nitrogen monoxide pair into carbon dioxide and nitrogen, while sustainability arguments push the longer-term fuel switch.",
+        "keyPoints": [
+          "Catalytic converters reduce the pollutants from motor vehicle exhausts.",
+          "The converter converts carbon monoxide into carbon dioxide: 2CO + O2 -> 2CO2.",
+          "The converter also converts the CO-NO pair: 2CO + 2NO -> 2CO2 + N2.",
+          "Sustainability and emission reduction drive the search for alternative fuels.",
+          "Carbon dioxide emission and its link to climate change anchor the policy argument."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "The converter is a small chemical plant on the exhaust pipe: it turns the two killer gases (CO and NO) into carbon dioxide and plain nitrogen before they escape.",
+            "analogy": "A last-chance customs post at the pipe's border: the toxics are seized and re-exported as harmless gases.",
+            "examPointer": "Write both converter equations - the O2 route and the NO route - when asked how converters reduce emissions."
+          },
+          "medium": {
+            "restatement": "The converter's chemistry is reduction and oxidation running together: nitrogen monoxide is stripped of its oxygen (reduced to N2) while carbon monoxide is topped up to CO2 (oxidised), the pair trading oxygen atoms across the catalyst surface.",
+            "analogy": "An oxygen redistribution desk: NO pays oxygen out, CO collects it, and both leave as acceptable citizens.",
+            "examPointer": "Link the converter to sustainability: it limits pollutants but not CO2 output, which is why fuel substitution remains necessary."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_cfnbqHpbczGvkz3x::L1::Q1",
+          "rn_cfnbqHpbczGvkz3x::L1::Q2",
+          "rn_cfnbqHpbczGvkz3x::L1::Q3",
+          "rn_cfnbqHpbczGvkz3x::L1::Q4",
+          "rn_cfnbqHpbczGvkz3x::L1::Q5",
+          "rn_cfnbqHpbczGvkz3x::L1::Q6",
+          "rn_cfnbqHpbczGvkz3x::L1::Q7",
+          "rn_cfnbqHpbczGvkz3x::L1::Q8",
+          "rn_cfnbqHpbczGvkz3x::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01"
+        ]
+      },
+      {
+        "id": "rn_cfnbqHpbczGvkz3x::L2",
+        "title": "Biofuels: benefits and drawbacks",
+        "sourceHeadings": [
+          "Benefits of biofuels",
+          "Drawbacks of biofuels"
+        ],
+        "specRefs": [
+          "4.15"
+        ],
+        "opening": "Biofuels promise a fuel that regrows: crops capture sunlight into sugars and starches that ferment into ethanol or yield oils for biodiesel. The benefit ledger is real, but so is the cost ledger - land, fertiliser and processing energy all draw on the same budget.",
+        "keyPoints": [
+          "Biofuels are renewable because growing crops captures energy and carbon afresh each season.",
+          "Burning bioethanol releases carbon dioxide that the crop recently absorbed from the air.",
+          "Benefits include renewability and reduced net greenhouse emissions over the growth cycle.",
+          "Drawbacks include land use competing with food production.",
+          "Fertiliser manufacture and harvest processing also consume energy and emit gases."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Biofuels grow back every harvest, and their carbon dioxide was fresh air last season; but the crops need fields and fertiliser, and both have bills attached.",
+            "analogy": "A biofuel is a salary you earn yearly rather than a savings account you drain - but the job needs an office (land) and commuting (fertiliser, machinery).",
+            "examPointer": "Quote at least one benefit and one drawback together - single-sided answers score single-sided marks."
+          },
+          "medium": {
+            "restatement": "The sustainability calculus is net-based: the growing crop absorbs carbon dioxide that partly offsets combustion emissions, but fertiliser production, tractor fuel and fermentation energy all inject emissions back into the account.",
+            "analogy": "A carbon bank account with deposits (photosynthesis) and withdrawals (farming and processing) - the balance, not either line alone, decides the fuel's virtue.",
+            "examPointer": "When asked to evaluate, structure as benefit, drawback, judgement - the judgement sentence is the mark most answers forget."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_cfnbqHpbczGvkz3x::L2::Q1",
+          "rn_cfnbqHpbczGvkz3x::L2::Q2",
+          "rn_cfnbqHpbczGvkz3x::L2::Q3",
+          "rn_cfnbqHpbczGvkz3x::L2::Q4",
+          "rn_cfnbqHpbczGvkz3x::L2::Q5",
+          "rn_cfnbqHpbczGvkz3x::L2::Q6",
+          "rn_cfnbqHpbczGvkz3x::L2::Q7",
+          "rn_cfnbqHpbczGvkz3x::L2::Q8",
+          "rn_cfnbqHpbczGvkz3x::L2::Q9"
+        ],
+        "figureIds": []
+      },
+      {
+        "id": "rn_cfnbqHpbczGvkz3x::L3",
+        "title": "Carbon neutrality applied",
+        "sourceHeadings": [
+          "Greenhouse Gases",
+          "Carbon Neutrality"
+        ],
+        "specRefs": [
+          "4.16"
+        ],
+        "opening": "Carbon neutrality is an accounting test: does a fuel's lifecycle add no net carbon dioxide to the atmosphere? Petrol fails it by unlocking fossil carbon; bioethanol approaches it through the growth cycle; hydrogen passes at the tailpipe but its production method decides the full verdict.",
+        "keyPoints": [
+          "Carbon neutral means a fuel's use adds no net carbon dioxide to the atmosphere.",
+          "Photosynthesis lets a growing plant absorb carbon dioxide, the absorption that offsets biofuel combustion.",
+          "Petrol is not carbon neutral because it releases carbon locked underground for millions of years.",
+          "Bioethanol approaches carbon neutrality when the growth cycle offsets its combustion emissions.",
+          "Hydrogen burns to water only, but its carbon verdict depends on how the hydrogen was produced."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "A fuel is carbon neutral when what it emits was first taken from the air: crops do that through photosynthesis, fossil fuels do not, and hydrogen skips carbon entirely if made cleanly.",
+            "analogy": "A carbon-neutral fuel borrows from the atmosphere and repays the loan; fossil fuels forge new money, inflating the atmospheric account.",
+            "examPointer": "Apply the label to each candidate fuel separately - the specification names petrol, bioethanol and hydrogen and expects the trio judged."
+          },
+          "medium": {
+            "restatement": "Neutrality is lifecycle-scoped: bioethanol's farming and processing emissions shrink its offset, and hydrogen made by reforming methane carries fossil carbon upstream, so the tailpipe observation alone never settles the verdict.",
+            "analogy": "The tailpipe is only the shop window; the full audit walks the whole supply chain before stamping 'neutral'.",
+            "examPointer": "Mention hydrogen production when judging it - electrolysis from renewables versus methane reforming give opposite verdicts."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_cfnbqHpbczGvkz3x::L3::Q1",
+          "rn_cfnbqHpbczGvkz3x::L3::Q2",
+          "rn_cfnbqHpbczGvkz3x::L3::Q3",
+          "rn_cfnbqHpbczGvkz3x::L3::Q4",
+          "rn_cfnbqHpbczGvkz3x::L3::Q5",
+          "rn_cfnbqHpbczGvkz3x::L3::Q6",
+          "rn_cfnbqHpbczGvkz3x::L3::Q7",
+          "rn_cfnbqHpbczGvkz3x::L3::Q8",
+          "rn_cfnbqHpbczGvkz3x::L3::Q9"
+        ],
+        "figureIds": [
+          "fig-02"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "catalytic converter",
+          "definition": "The exhaust device converting carbon monoxide and nitrogen monoxide into carbon dioxide and nitrogen.",
+          "firstLesson": 1
+        },
+        {
+          "term": "biofuel",
+          "definition": "A renewable fuel fermented or processed from recently grown crop material.",
+          "firstLesson": 2
+        },
+        {
+          "term": "carbon neutral",
+          "definition": "Describing a fuel whose lifecycle adds no net carbon dioxide to the atmosphere.",
+          "firstLesson": 3
+        },
+        {
+          "term": "photosynthesis",
+          "definition": "The process by which growing plants absorb carbon dioxide from the atmosphere.",
+          "firstLesson": 3
+        }
+      ],
+      "workedExample": null
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/340786310299-2-4-nitrogen-sulfur-catalytic-converters.png",
+        "alt": "Nitrogen & Sulfur - Catalytic Converters, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Catalytic removal of NO<sub>x</sub> and CO",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "A catalytic converter helps reduce the pollutants from motor vehicles"
+      },
+      {
+        "id": "fig-02",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/f3339c23aeb8-8-2-1-photosynthesis.png",
+        "alt": "Photosynthesis",
+        "sourceHeading": "Carbon Neutrality",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique",
+        "caption": "As a plant grows, it absorbs carbon dioxide from the atmosphere during photosynthesis"
+      }
+    ]
+  }
+}

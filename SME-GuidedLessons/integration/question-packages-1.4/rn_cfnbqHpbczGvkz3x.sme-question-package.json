@@ -1,0 +1,723 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_cfnbqHpbczGvkz3x",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "ac8d72257c289a0cfba426652b2bbab0dd71b0fe4b2a2231bf15b59eb0a6938a",
+    "pinnedRef": "ba08669f2dbfc1a4d18d01abc07ef1efa248388d"
+  },
+  "packageId": "ial-chemistry::rn_cfnbqHpbczGvkz3x",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_cfnbqHpbczGvkz3x::L1::Q1",
+      "moduleId": "rn_cfnbqHpbczGvkz3x::L1",
+      "stem": "Which equation describes the converter removing NO and CO together?",
+      "misconceptionClass": "converter equation",
+      "options": [
+        {
+          "key": "A",
+          "text": "2CO + 2NO -> 2CO2 + N2",
+          "correct": true,
+          "explanation": "The pair trades oxygen; nitrogen departs free.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "2CO + 2NO -> 2CO2 + 2NO2",
+          "correct": false,
+          "explanation": "Nitrogen must leave as N2.",
+          "misconception": "product misstated"
+        },
+        {
+          "key": "C",
+          "text": "CO + NO -> C + N2",
+          "correct": false,
+          "explanation": "Carbon leaves fully oxidised as CO2.",
+          "misconception": "product misstated"
+        },
+        {
+          "key": "D",
+          "text": "2NO -> 2N + O2",
+          "correct": false,
+          "explanation": "The oxygen is collected by CO, not released.",
+          "misconception": "bookkeeping broken"
+        }
+      ]
+    },
+    {
+      "id": "rn_cfnbqHpbczGvkz3x::L1::Q2",
+      "moduleId": "rn_cfnbqHpbczGvkz3x::L1",
+      "stem": "What is the purpose of a catalytic converter?",
+      "misconceptionClass": "purpose recall",
+      "options": [
+        {
+          "key": "A",
+          "text": "To clean the fuel before burning",
+          "correct": false,
+          "explanation": "It works after combustion.",
+          "misconception": "position inverted"
+        },
+        {
+          "key": "B",
+          "text": "To reduce the pollutants released in exhaust fumes",
+          "correct": true,
+          "explanation": "CO and NO are converted at the tailpipe.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "To increase engine power",
+          "correct": false,
+          "explanation": "Power is not the converter's brief.",
+          "misconception": "purpose invented"
+        },
+        {
+          "key": "D",
+          "text": "To remove carbon dioxide",
+          "correct": false,
+          "explanation": "CO2 passes through; the converter is not a carbon capture device.",
+          "misconception": "purpose misstated"
+        }
+      ]
+    },
+    {
+      "id": "rn_cfnbqHpbczGvkz3x::L1::Q3",
+      "moduleId": "rn_cfnbqHpbczGvkz3x::L1",
+      "stem": "Which exhaust gases does the converter NOT remove?",
+      "misconceptionClass": "scope boundary",
+      "options": [
+        {
+          "key": "A",
+          "text": "Nitrogen monoxide",
+          "correct": false,
+          "explanation": "NO is a core target.",
+          "misconception": "target misstated"
+        },
+        {
+          "key": "B",
+          "text": "Unburnt hydrocarbon fragments",
+          "correct": false,
+          "explanation": "Modern converters also oxidise these, but the specification's core pair is CO and NO.",
+          "misconception": "scope borderline"
+        },
+        {
+          "key": "C",
+          "text": "Carbon dioxide",
+          "correct": true,
+          "explanation": "CO2 is the product, not a target.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Carbon monoxide",
+          "correct": false,
+          "explanation": "CO is a core target.",
+          "misconception": "target misstated"
+        }
+      ]
+    },
+    {
+      "id": "rn_cfnbqHpbczGvkz3x::L1::Q4",
+      "moduleId": "rn_cfnbqHpbczGvkz3x::L1",
+      "stem": "Why does emission reduction motivate alternative fuels?",
+      "misconceptionClass": "motivation reasoning",
+      "options": [
+        {
+          "key": "A",
+          "text": "Petrol is more efficient than hydrogen",
+          "correct": false,
+          "explanation": "Efficiency comparisons are not the named driver.",
+          "misconception": "reason crossed"
+        },
+        {
+          "key": "B",
+          "text": "Fossil fuels are toxic to touch",
+          "correct": false,
+          "explanation": "Handling toxicity is not the issue.",
+          "misconception": "reason invented"
+        },
+        {
+          "key": "C",
+          "text": "Converters are illegal in many countries",
+          "correct": false,
+          "explanation": "They are mandated, not banned.",
+          "misconception": "claim false"
+        },
+        {
+          "key": "D",
+          "text": "Fossil fuel combustion emits carbon dioxide linked to climate change",
+          "correct": true,
+          "explanation": "The climate link is the driver the specification names.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_cfnbqHpbczGvkz3x::L1::Q5",
+      "moduleId": "rn_cfnbqHpbczGvkz3x::L1",
+      "stem": "Which pairing of emission and consequence is correct?",
+      "misconceptionClass": "pairing drill",
+      "options": [
+        {
+          "key": "A",
+          "text": "Carbon dioxide emission - climate change link",
+          "correct": true,
+          "explanation": "The specification's named link.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Nitrogen monoxide - stronger greenhouse effect than CO2 per the spec's argument",
+          "correct": false,
+          "explanation": "The spec's argument is anchored on CO2 and climate change.",
+          "misconception": "pairing invented"
+        },
+        {
+          "key": "C",
+          "text": "Water vapour - acid rain",
+          "correct": false,
+          "explanation": "Water is not the acid rain agent.",
+          "misconception": "pairing crossed"
+        },
+        {
+          "key": "D",
+          "text": "Nitrogen gas - toxicity",
+          "correct": false,
+          "explanation": "N2 is harmless.",
+          "misconception": "pairing crossed"
+        }
+      ]
+    },
+    {
+      "id": "rn_cfnbqHpbczGvkz3x::L1::Q6",
+      "moduleId": "rn_cfnbqHpbczGvkz3x::L1",
+      "stem": "State the two equations a catalytic converter uses on its exhaust stream.",
+      "misconceptionClass": "equation recall",
+      "kind": "recall",
+      "modelAnswer": "2CO + O2 -> 2CO2 and 2CO + 2NO -> 2CO2 + N2.",
+      "keywords": [
+        "carbon monoxide",
+        "nitrogen monoxide",
+        "converter"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_cfnbqHpbczGvkz3x::L1::Q7",
+      "moduleId": "rn_cfnbqHpbczGvkz3x::L1",
+      "stem": "Name the two reasons the specification gives for developing alternative fuels.",
+      "misconceptionClass": "motivation recall",
+      "kind": "recall",
+      "modelAnswer": "Sustainability of supply and the reduction of emissions, including carbon dioxide's link to climate change.",
+      "keywords": [
+        "sustainability",
+        "emissions",
+        "climate change"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_cfnbqHpbczGvkz3x::L1::Q8",
+      "moduleId": "rn_cfnbqHpbczGvkz3x::L1",
+      "stem": "Explain why the converter cannot solve the climate problem by itself.",
+      "misconceptionClass": "scope reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "The converter's products include carbon dioxide, so it removes toxicity but leaves the climate-linked emission untouched; only fuel substitution attacks the carbon dioxide at source.",
+      "keywords": [
+        "toxicity",
+        "carbon dioxide",
+        "substitution"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_cfnbqHpbczGvkz3x::L1::Q9",
+      "moduleId": "rn_cfnbqHpbczGvkz3x::L1",
+      "stem": "An exhaust stream carries 2 mol CO and 2 mol NO past a converter. State the products and their amounts.",
+      "misconceptionClass": "stoichiometry application",
+      "kind": "application",
+      "modelAnswer": "The converter delivers 2 mol CO2 and 1 mol N2, since 2CO + 2NO -> 2CO2 + N2 consumes the whole stream.",
+      "keywords": [
+        "2 mol",
+        "CO2",
+        "N2"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_cfnbqHpbczGvkz3x::L2::Q1",
+      "moduleId": "rn_cfnbqHpbczGvkz3x::L2",
+      "stem": "What makes biofuels renewable?",
+      "misconceptionClass": "renewability logic",
+      "options": [
+        {
+          "key": "A",
+          "text": "Microbes manufacture them from plastic",
+          "correct": false,
+          "explanation": "That is not the biofuel route.",
+          "misconception": "route invented"
+        },
+        {
+          "key": "B",
+          "text": "Crops regrow each season, recapturing energy and carbon",
+          "correct": true,
+          "explanation": "The feedstock replenishes annually.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "They burn without emitting anything",
+          "correct": false,
+          "explanation": "Combustion still emits carbon dioxide and water.",
+          "misconception": "claim false"
+        },
+        {
+          "key": "D",
+          "text": "They contain no carbon",
+          "correct": false,
+          "explanation": "They are carbon-based fuels.",
+          "misconception": "composition false"
+        }
+      ]
+    },
+    {
+      "id": "rn_cfnbqHpbczGvkz3x::L2::Q2",
+      "moduleId": "rn_cfnbqHpbczGvkz3x::L2",
+      "stem": "Which drawback limits large-scale biofuel farming?",
+      "misconceptionClass": "drawback identification",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bioethanol is a solid at room temperature",
+          "correct": false,
+          "explanation": "It is a liquid.",
+          "misconception": "property false"
+        },
+        {
+          "key": "B",
+          "text": "Crops cannot absorb carbon dioxide",
+          "correct": false,
+          "explanation": "Absorption is the benefit, not the flaw.",
+          "misconception": "logic inverted"
+        },
+        {
+          "key": "C",
+          "text": "Land used for fuel crops competes with food production",
+          "correct": true,
+          "explanation": "Fields are finite.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Biofuels cannot be stored",
+          "correct": false,
+          "explanation": "They store like other liquids.",
+          "misconception": "drawback invented"
+        }
+      ]
+    },
+    {
+      "id": "rn_cfnbqHpbczGvkz3x::L2::Q3",
+      "moduleId": "rn_cfnbqHpbczGvkz3x::L2",
+      "stem": "Why is the net greenhouse benefit of biofuels smaller than the raw absorption suggests?",
+      "misconceptionClass": "net accounting",
+      "options": [
+        {
+          "key": "A",
+          "text": "Crops absorb carbon dioxide only at night",
+          "correct": false,
+          "explanation": "Photosynthesis runs in daylight.",
+          "misconception": "claim false"
+        },
+        {
+          "key": "B",
+          "text": "Bioethanol is more carbon-dense than petrol",
+          "correct": false,
+          "explanation": "Density comparisons are not the accounting issue.",
+          "misconception": "reason crossed"
+        },
+        {
+          "key": "C",
+          "text": "Engines cannot burn bioethanol",
+          "correct": false,
+          "explanation": "Blended and adapted engines burn it readily.",
+          "misconception": "claim false"
+        },
+        {
+          "key": "D",
+          "text": "Fertiliser manufacture and processing emit additional gases",
+          "correct": true,
+          "explanation": "The lifecycle withdrawals shrink the apparent deposit.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_cfnbqHpbczGvkz3x::L2::Q4",
+      "moduleId": "rn_cfnbqHpbczGvkz3x::L2",
+      "stem": "Which statement weighs the biofuel ledger correctly?",
+      "misconceptionClass": "evaluation drill",
+      "options": [
+        {
+          "key": "A",
+          "text": "Renewable feedstock and lower net emissions are benefits; land competition and processing emissions are drawbacks",
+          "correct": true,
+          "explanation": "Both sides named correctly.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Renewability is a drawback; land competition is a benefit",
+          "correct": false,
+          "explanation": "Both assignments are inverted.",
+          "misconception": "ledger inverted"
+        },
+        {
+          "key": "C",
+          "text": "Biofuels have benefits only",
+          "correct": false,
+          "explanation": "The drawbacks are real and named.",
+          "misconception": "one-sided error"
+        },
+        {
+          "key": "D",
+          "text": "Biofuels have drawbacks only",
+          "correct": false,
+          "explanation": "The renewability benefit is real.",
+          "misconception": "one-sided error"
+        }
+      ]
+    },
+    {
+      "id": "rn_cfnbqHpbczGvkz3x::L2::Q5",
+      "moduleId": "rn_cfnbqHpbczGvkz3x::L2",
+      "stem": "What does fermentation contribute to the bioethanol route?",
+      "misconceptionClass": "process step",
+      "options": [
+        {
+          "key": "A",
+          "text": "It captures carbon dioxide from the air",
+          "correct": false,
+          "explanation": "That is photosynthesis's role.",
+          "misconception": "step swapped"
+        },
+        {
+          "key": "B",
+          "text": "It converts crop sugars into ethanol",
+          "correct": true,
+          "explanation": "Microbial fermentation delivers the fuel molecule.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "It burns the crop in the engine",
+          "correct": false,
+          "explanation": "Combustion happens later, in the engine.",
+          "misconception": "step confused"
+        },
+        {
+          "key": "D",
+          "text": "It removes the need for fertiliser",
+          "correct": false,
+          "explanation": "Fertiliser is upstream and unaffected.",
+          "misconception": "logic broken"
+        }
+      ]
+    },
+    {
+      "id": "rn_cfnbqHpbczGvkz3x::L2::Q6",
+      "moduleId": "rn_cfnbqHpbczGvkz3x::L2",
+      "stem": "State two benefits and two drawbacks of biofuels.",
+      "misconceptionClass": "ledger recall",
+      "kind": "recall",
+      "modelAnswer": "Benefits: renewable feedstock and reduced net greenhouse emissions over the growth cycle; drawbacks: land competition with food and emissions from fertiliser and processing.",
+      "keywords": [
+        "renewable",
+        "land",
+        "fertiliser"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_cfnbqHpbczGvkz3x::L2::Q7",
+      "moduleId": "rn_cfnbqHpbczGvkz3x::L2",
+      "stem": "Describe in two sentences how a crop becomes bioethanol fuel.",
+      "misconceptionClass": "route recall",
+      "kind": "recall",
+      "modelAnswer": "The crop's sugars and starches are fermented by microbes into ethanol; the ethanol is then blended and burned in engines like other fuels.",
+      "keywords": [
+        "fermented",
+        "ethanol",
+        "engines"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_cfnbqHpbczGvkz3x::L2::Q8",
+      "moduleId": "rn_cfnbqHpbczGvkz3x::L2",
+      "stem": "Explain why biofuel carbon dioxide is described as recently captured rather than newly added.",
+      "misconceptionClass": "cycle reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "The carbon the fuel releases was absorbed by the growing crop within the last season or two, so the emission replays a recent capture instead of unlocking ancient fossil carbon.",
+      "keywords": [
+        "absorbed",
+        "recent",
+        "fossil"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_cfnbqHpbczGvkz3x::L2::Q9",
+      "moduleId": "rn_cfnbqHpbczGvkz3x::L2",
+      "stem": "A country converts 20 percent of its grain fields to bioethanol crops. State one likely benefit and one likely cost of the switch.",
+      "misconceptionClass": "policy application",
+      "kind": "application",
+      "modelAnswer": "Benefit: a renewable fuel stream whose combustion carbon dioxide was recently captured, trimming net emissions; cost: the displaced grain capacity pressures food supply from the same finite land.",
+      "keywords": [
+        "renewable",
+        "net emissions",
+        "food"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_cfnbqHpbczGvkz3x::L3::Q1",
+      "moduleId": "rn_cfnbqHpbczGvkz3x::L3",
+      "stem": "What does carbon neutral mean for a fuel?",
+      "misconceptionClass": "definition",
+      "options": [
+        {
+          "key": "A",
+          "text": "It burns without a flame",
+          "correct": false,
+          "explanation": "Combustion behaviour is irrelevant to the label.",
+          "misconception": "property crossed"
+        },
+        {
+          "key": "B",
+          "text": "It is made by plants only",
+          "correct": false,
+          "explanation": "Production route matters, but the definition is about net emissions.",
+          "misconception": "definition narrowed"
+        },
+        {
+          "key": "C",
+          "text": "Its use adds no net carbon dioxide to the atmosphere",
+          "correct": true,
+          "explanation": "Emissions are offset by equivalent capture.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "It contains no carbon atoms",
+          "correct": false,
+          "explanation": "Neutrality is an accounting property, not a composition.",
+          "misconception": "definition confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_cfnbqHpbczGvkz3x::L3::Q2",
+      "moduleId": "rn_cfnbqHpbczGvkz3x::L3",
+      "stem": "Why is petrol not carbon neutral?",
+      "misconceptionClass": "petrol verdict",
+      "options": [
+        {
+          "key": "A",
+          "text": "Petrol is too expensive",
+          "correct": false,
+          "explanation": "Price is not the neutrality test.",
+          "misconception": "criterion crossed"
+        },
+        {
+          "key": "B",
+          "text": "Petrol engines emit nitrogen only",
+          "correct": false,
+          "explanation": "Carbon dioxide is the principal carbon emission.",
+          "misconception": "chemistry false"
+        },
+        {
+          "key": "C",
+          "text": "Petrol cannot burn completely",
+          "correct": false,
+          "explanation": "Combustion completeness is not the neutrality test.",
+          "misconception": "criterion crossed"
+        },
+        {
+          "key": "D",
+          "text": "Its combustion releases carbon that was locked underground for millions of years",
+          "correct": true,
+          "explanation": "Fossil carbon is new to the atmospheric account.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_cfnbqHpbczGvkz3x::L3::Q3",
+      "moduleId": "rn_cfnbqHpbczGvkz3x::L3",
+      "stem": "How does a growing plant help bioethanol approach carbon neutrality?",
+      "misconceptionClass": "offset mechanism",
+      "options": [
+        {
+          "key": "A",
+          "text": "Photosynthesis absorbs carbon dioxide from the atmosphere during growth",
+          "correct": true,
+          "explanation": "The crop pre-captures the carbon the fuel will release.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "The plant stores hydrogen for the engine",
+          "correct": false,
+          "explanation": "Hydrogen storage is not the plant's role.",
+          "misconception": "mechanism invented"
+        },
+        {
+          "key": "C",
+          "text": "Roots filter pollution from soil",
+          "correct": false,
+          "explanation": "Filtration is not the carbon mechanism.",
+          "misconception": "mechanism invented"
+        },
+        {
+          "key": "D",
+          "text": "The plant emits no gases at all",
+          "correct": false,
+          "explanation": "Planners must account for the whole cycle.",
+          "misconception": "claim false"
+        }
+      ]
+    },
+    {
+      "id": "rn_cfnbqHpbczGvkz3x::L3::Q4",
+      "moduleId": "rn_cfnbqHpbczGvkz3x::L3",
+      "stem": "Why must hydrogen's production method enter its carbon verdict?",
+      "misconceptionClass": "hydrogen audit",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hydrogen always escapes to space",
+          "correct": false,
+          "explanation": "Escape is not the accounting issue.",
+          "misconception": "reason invented"
+        },
+        {
+          "key": "B",
+          "text": "Hydrogen made by reforming methane carries fossil carbon upstream",
+          "correct": true,
+          "explanation": "The tailpipe is clean but the supply chain may not be.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Hydrogen contains carbon atoms",
+          "correct": false,
+          "explanation": "H2 holds none.",
+          "misconception": "chemistry false"
+        },
+        {
+          "key": "D",
+          "text": "Hydrogen cannot be produced at all",
+          "correct": false,
+          "explanation": "Electrolysis and reforming both produce it.",
+          "misconception": "claim false"
+        }
+      ]
+    },
+    {
+      "id": "rn_cfnbqHpbczGvkz3x::L3::Q5",
+      "moduleId": "rn_cfnbqHpbczGvkz3x::L3",
+      "stem": "Which ranking best fits the carbon-neutrality test?",
+      "misconceptionClass": "trio ranking",
+      "options": [
+        {
+          "key": "A",
+          "text": "All three equally neutral",
+          "correct": false,
+          "explanation": "The lifecycle differences are the entire point.",
+          "misconception": "equivalence claimed"
+        },
+        {
+          "key": "B",
+          "text": "Hydrogen never neutral regardless of production",
+          "correct": false,
+          "explanation": "Clean production flips the verdict.",
+          "misconception": "verdict misstated"
+        },
+        {
+          "key": "C",
+          "text": "Bioethanol near-neutral via growth offset; petrol far from neutral; hydrogen neutral only if cleanly produced",
+          "correct": true,
+          "explanation": "Each verdict follows its lifecycle.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Petrol neutral; bioethanol far from neutral; hydrogen always non-neutral",
+          "correct": false,
+          "explanation": "All three verdicts inverted.",
+          "misconception": "verdicts inverted"
+        }
+      ]
+    },
+    {
+      "id": "rn_cfnbqHpbczGvkz3x::L3::Q6",
+      "moduleId": "rn_cfnbqHpbczGvkz3x::L3",
+      "stem": "Define carbon neutrality and name the process that lets crops achieve it.",
+      "misconceptionClass": "definition recall",
+      "kind": "recall",
+      "modelAnswer": "Carbon neutrality means adding no net carbon dioxide to the atmosphere; photosynthesis lets the growing crop absorb the carbon dioxide its fuel will later release.",
+      "keywords": [
+        "net",
+        "photosynthesis",
+        "absorb"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_cfnbqHpbczGvkz3x::L3::Q7",
+      "moduleId": "rn_cfnbqHpbczGvkz3x::L3",
+      "stem": "Apply the neutrality label to petrol, bioethanol and hydrogen in three short verdicts.",
+      "misconceptionClass": "trio recall",
+      "kind": "recall",
+      "modelAnswer": "Petrol: not carbon neutral, fossil carbon unlocked; bioethanol: near-neutral when the growth cycle offsets combustion; hydrogen: neutral at the tailpipe, with production deciding the full verdict.",
+      "keywords": [
+        "petrol",
+        "bioethanol",
+        "hydrogen"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_cfnbqHpbczGvkz3x::L3::Q8",
+      "moduleId": "rn_cfnbqHpbczGvkz3x::L3",
+      "stem": "Explain why the tailpipe observation alone is insufficient for a neutrality verdict.",
+      "misconceptionClass": "audit scope reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "The lifecycle includes feedstock farming, fertiliser, processing and hydrogen production, all of which can add emissions the tailpipe never shows, so the full account must close before neutrality is granted.",
+      "keywords": [
+        "lifecycle",
+        "emissions",
+        "tailpipe"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_cfnbqHpbczGvkz3x::L3::Q9",
+      "moduleId": "rn_cfnbqHpbczGvkz3x::L3",
+      "stem": "A bus fleet must choose between petrol and cleanly produced hydrogen. Apply the carbon-neutrality test to both choices.",
+      "misconceptionClass": "fleet application",
+      "kind": "application",
+      "modelAnswer": "Petrol fails the test: it unlocks fossil carbon as new atmospheric carbon dioxide. Cleanly produced hydrogen passes: combustion yields only water, and renewable production adds no fossil carbon upstream.",
+      "keywords": [
+        "fossil",
+        "water",
+        "renewable"
+      ],
+      "options": []
+    }
+  ]
+}

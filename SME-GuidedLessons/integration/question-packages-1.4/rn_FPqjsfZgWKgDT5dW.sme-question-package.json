@@ -1,0 +1,723 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_FPqjsfZgWKgDT5dW",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "b4669d0c4e0b5c356427de18d5e8cf1a8b0a429333a138bfca598d84f5d72c5b",
+    "pinnedRef": "ba08669f2dbfc1a4d18d01abc07ef1efa248388d"
+  },
+  "packageId": "ial-chemistry::rn_FPqjsfZgWKgDT5dW",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_FPqjsfZgWKgDT5dW::L1::Q1",
+      "moduleId": "rn_FPqjsfZgWKgDT5dW::L1",
+      "stem": "Which formula is the general formula of an open-chain alkane?",
+      "misconceptionClass": "alkane formula",
+      "options": [
+        {
+          "key": "A",
+          "text": "CnH2n+2",
+          "correct": true,
+          "explanation": "Saturated chains carry the maximum hydrogen count.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "CnH2n",
+          "correct": false,
+          "explanation": "That belongs to alkenes and cycloalkanes.",
+          "misconception": "series crossed"
+        },
+        {
+          "key": "C",
+          "text": "CnH2n-2",
+          "correct": false,
+          "explanation": "That belongs to species with two degrees of unsaturation.",
+          "misconception": "series crossed"
+        },
+        {
+          "key": "D",
+          "text": "CnH2n+1OH",
+          "correct": false,
+          "explanation": "That is the alkanol (alcohol) series.",
+          "misconception": "series crossed"
+        }
+      ]
+    },
+    {
+      "id": "rn_FPqjsfZgWKgDT5dW::L1::Q2",
+      "moduleId": "rn_FPqjsfZgWKgDT5dW::L1",
+      "stem": "What does saturated mean for a hydrocarbon?",
+      "misconceptionClass": "saturation meaning",
+      "options": [
+        {
+          "key": "A",
+          "text": "It carries a charge",
+          "correct": false,
+          "explanation": "Alkanes are neutral molecules.",
+          "misconception": "property invented"
+        },
+        {
+          "key": "B",
+          "text": "Only single bonds, holding the maximum possible hydrogen",
+          "correct": true,
+          "explanation": "No double bond remains to open.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "The molecule contains the most carbons possible",
+          "correct": false,
+          "explanation": "Saturation is about bonds and hydrogens, not size.",
+          "misconception": "definition confused"
+        },
+        {
+          "key": "D",
+          "text": "It dissolves the maximum solute",
+          "correct": false,
+          "explanation": "Saturation has a solution meaning too - not this one.",
+          "misconception": "homonym error"
+        }
+      ]
+    },
+    {
+      "id": "rn_FPqjsfZgWKgDT5dW::L1::Q3",
+      "moduleId": "rn_FPqjsfZgWKgDT5dW::L1",
+      "stem": "Which hydrocarbon is a cycloalkane?",
+      "misconceptionClass": "ring membership",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hex-1-ene, C6H12",
+          "correct": false,
+          "explanation": "That is an alkene, not a cycloalkane.",
+          "misconception": "family crossed"
+        },
+        {
+          "key": "B",
+          "text": "Cyclohexene, C6H10",
+          "correct": false,
+          "explanation": "That carries a double bond - a cycloalkene.",
+          "misconception": "family crossed"
+        },
+        {
+          "key": "C",
+          "text": "Cyclohexane, C6H12",
+          "correct": true,
+          "explanation": "The closed ring costs two hydrogens versus hexane's C6H14.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Hexane, C6H14",
+          "correct": false,
+          "explanation": "That is the open-chain member.",
+          "misconception": "ring absent"
+        }
+      ]
+    },
+    {
+      "id": "rn_FPqjsfZgWKgDT5dW::L1::Q4",
+      "moduleId": "rn_FPqjsfZgWKgDT5dW::L1",
+      "stem": "Why are alkanes so unreactive toward most reagents?",
+      "misconceptionClass": "inertness reasoning",
+      "options": [
+        {
+          "key": "A",
+          "text": "Their bonds are weak and polar",
+          "correct": false,
+          "explanation": "Weak polar bonds are the reactive case, not alkanes.",
+          "misconception": "properties inverted"
+        },
+        {
+          "key": "B",
+          "text": "They are ionic compounds",
+          "correct": false,
+          "explanation": "Alkanes are covalent molecules.",
+          "misconception": "bonding misstated"
+        },
+        {
+          "key": "C",
+          "text": "They contain oxygen",
+          "correct": false,
+          "explanation": "Alkanes are hydrocarbons - no oxygen present.",
+          "misconception": "composition invented"
+        },
+        {
+          "key": "D",
+          "text": "Their C-H bonds are strong and the electrons are shared almost evenly",
+          "correct": true,
+          "explanation": "Neither electrophiles nor nucleophiles find a grip.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_FPqjsfZgWKgDT5dW::L1::Q5",
+      "moduleId": "rn_FPqjsfZgWKgDT5dW::L1",
+      "stem": "How does the molar mass progress from methane to ethane to propane?",
+      "misconceptionClass": "series progression",
+      "options": [
+        {
+          "key": "A",
+          "text": "Up 16 then 14: methane 16, ethane 30, propane 44",
+          "correct": true,
+          "explanation": "CH4 is 16; each CH2 step adds 14.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Up 14 each time including into methane",
+          "correct": false,
+          "explanation": "Methane to ethane adds CH2 plus the initial carbon's two extra hydrogens - 16 then 14 thereafter.",
+          "misconception": "first step miscounted"
+        },
+        {
+          "key": "C",
+          "text": "Up 12 each time",
+          "correct": false,
+          "explanation": "That counts carbon only.",
+          "misconception": "hydrogens dropped"
+        },
+        {
+          "key": "D",
+          "text": "Constant throughout",
+          "correct": false,
+          "explanation": "Members differ in composition.",
+          "misconception": "series misread"
+        }
+      ]
+    },
+    {
+      "id": "rn_FPqjsfZgWKgDT5dW::L1::Q6",
+      "moduleId": "rn_FPqjsfZgWKgDT5dW::L1",
+      "stem": "State the general formula of open-chain alkanes and list the first six members by name.",
+      "misconceptionClass": "family recall",
+      "kind": "recall",
+      "modelAnswer": "CnH2n+2; methane, ethane, propane, butane, pentane, hexane.",
+      "keywords": [
+        "CnH2n+2",
+        "methane",
+        "hexane"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_FPqjsfZgWKgDT5dW::L1::Q7",
+      "moduleId": "rn_FPqjsfZgWKgDT5dW::L1",
+      "stem": "Explain, in two sentences, why cycloalkanes carry two fewer hydrogens than their open-chain equivalents.",
+      "misconceptionClass": "ring accounting recall",
+      "kind": "recall",
+      "modelAnswer": "Closing a carbon ring uses two bonding positions that open-chain members spend on hydrogen; cyclohexane therefore holds C6H12 where hexane holds C6H14.",
+      "keywords": [
+        "ring",
+        "two",
+        "hydrogen"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_FPqjsfZgWKgDT5dW::L1::Q8",
+      "moduleId": "rn_FPqjsfZgWKgDT5dW::L1",
+      "stem": "Explain why alkane molecules show essentially no polarity.",
+      "misconceptionClass": "polarity reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "Carbon and hydrogen have nearly matching electronegativities, so every C-H bond shares its pair almost evenly and the dipoles cancel across the symmetric molecule.",
+      "keywords": [
+        "electronegativities",
+        "evenly",
+        "cancel"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_FPqjsfZgWKgDT5dW::L1::Q9",
+      "moduleId": "rn_FPqjsfZgWKgDT5dW::L1",
+      "stem": "A hydrocarbon has formula C5H12. Classify it as alkane, cycloalkane or alkene and justify using the formulas.",
+      "misconceptionClass": "formula classification",
+      "kind": "application",
+      "modelAnswer": "C5H12 fits CnH2n+2, so it is an open-chain alkane - pentane; a cycloalkane of five carbons would be C5H10 and an alkene likewise C5H10.",
+      "keywords": [
+        "CnH2n+2",
+        "pentane",
+        "cycloalkane"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_FPqjsfZgWKgDT5dW::L2::Q1",
+      "moduleId": "rn_FPqjsfZgWKgDT5dW::L2",
+      "stem": "What are the two products of complete alkane combustion?",
+      "misconceptionClass": "product pair",
+      "options": [
+        {
+          "key": "A",
+          "text": "Carbon dioxide and hydrogen",
+          "correct": false,
+          "explanation": "Hydrogen does not appear as a combustion product.",
+          "misconception": "product invented"
+        },
+        {
+          "key": "B",
+          "text": "Carbon dioxide and water",
+          "correct": true,
+          "explanation": "Plentiful oxygen drives both products out fully.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Carbon monoxide and water",
+          "correct": false,
+          "explanation": "Carbon monoxide marks incomplete combustion.",
+          "misconception": "incomplete case reused"
+        },
+        {
+          "key": "D",
+          "text": "Carbon and steam",
+          "correct": false,
+          "explanation": "That is the soot case of limited oxygen.",
+          "misconception": "incomplete case reused"
+        }
+      ]
+    },
+    {
+      "id": "rn_FPqjsfZgWKgDT5dW::L2::Q2",
+      "moduleId": "rn_FPqjsfZgWKgDT5dW::L2",
+      "stem": "Which coefficient balances the oxygen in the propane combustion equation?",
+      "misconceptionClass": "balancing drill",
+      "options": [
+        {
+          "key": "A",
+          "text": "7",
+          "correct": false,
+          "explanation": "That overcounts the oxygen demand.",
+          "misconception": "ledger overfull"
+        },
+        {
+          "key": "B",
+          "text": "3",
+          "correct": false,
+          "explanation": "That covers only the carbon dioxide.",
+          "misconception": "water forgotten"
+        },
+        {
+          "key": "C",
+          "text": "5",
+          "correct": true,
+          "explanation": "C3H8 + 5O2 -> 3CO2 + 4H2O: oxygen atoms 10 = 6 + 4.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "4",
+          "correct": false,
+          "explanation": "That leaves the oxygen ledger one atom short.",
+          "misconception": "ledger short"
+        }
+      ]
+    },
+    {
+      "id": "rn_FPqjsfZgWKgDT5dW::L2::Q3",
+      "moduleId": "rn_FPqjsfZgWKgDT5dW::L2",
+      "stem": "Why do alkane bonds' low polarity not prevent combustion?",
+      "misconceptionClass": "reactivity exception reasoning",
+      "options": [
+        {
+          "key": "A",
+          "text": "Oxygen is non-polar too, so polarity never matters",
+          "correct": false,
+          "explanation": "The product bond strengths, not matching polarity, drive the reaction.",
+          "misconception": "reasoning misstated"
+        },
+        {
+          "key": "B",
+          "text": "Alkanes are ionic toward oxygen",
+          "correct": false,
+          "explanation": "The reaction remains covalent bond reshuffling.",
+          "misconception": "bonding misstated"
+        },
+        {
+          "key": "C",
+          "text": "Polarity does prevent all reactions",
+          "correct": false,
+          "explanation": "Combustion plainly occurs.",
+          "misconception": "claim contradicted"
+        },
+        {
+          "key": "D",
+          "text": "Combustion is driven by the much stronger bonds formed in the products",
+          "correct": true,
+          "explanation": "The energy payoff outweighs the reluctance of the starting bonds.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_FPqjsfZgWKgDT5dW::L2::Q4",
+      "moduleId": "rn_FPqjsfZgWKgDT5dW::L2",
+      "stem": "Which statement about methane's combustion equation is correct?",
+      "misconceptionClass": "equation check",
+      "options": [
+        {
+          "key": "A",
+          "text": "CH4 + 2O2 -> CO2 + 2H2O is balanced on every element",
+          "correct": true,
+          "explanation": "C: 1=1, H: 4=4, O: 4=4.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "CH4 + O2 -> CO2 + 2H2O is balanced",
+          "correct": false,
+          "explanation": "The oxygen ledger gives 2 versus 4 - short by two.",
+          "misconception": "ledger unbalanced"
+        },
+        {
+          "key": "C",
+          "text": "CH4 + 2O2 -> CO2 + H2O is balanced",
+          "correct": false,
+          "explanation": "Hydrogen shows 4 versus 2.",
+          "misconception": "ledger unbalanced"
+        },
+        {
+          "key": "D",
+          "text": "2CH4 + 2O2 -> 2CO2 + 2H2O is balanced",
+          "correct": false,
+          "explanation": "Hydrogen shows 8 versus 4.",
+          "misconception": "ledger unbalanced"
+        }
+      ]
+    },
+    {
+      "id": "rn_FPqjsfZgWKgDT5dW::L2::Q5",
+      "moduleId": "rn_FPqjsfZgWKgDT5dW::L2",
+      "stem": "Why are alkanes prized as fuels?",
+      "misconceptionClass": "fuel rationale",
+      "options": [
+        {
+          "key": "A",
+          "text": "They produce oxygen as they burn",
+          "correct": false,
+          "explanation": "They consume oxygen.",
+          "misconception": "chemistry inverted"
+        },
+        {
+          "key": "B",
+          "text": "Their complete combustion is strongly exothermic",
+          "correct": true,
+          "explanation": "The heat released powers engines and heating.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "They burn endothermically",
+          "correct": false,
+          "explanation": "Combustion releases energy - the opposite.",
+          "misconception": "sign inverted"
+        },
+        {
+          "key": "D",
+          "text": "They are the cheapest chemicals",
+          "correct": false,
+          "explanation": "Price is not the chemistry answer sought.",
+          "misconception": "economics substituted"
+        }
+      ]
+    },
+    {
+      "id": "rn_FPqjsfZgWKgDT5dW::L2::Q6",
+      "moduleId": "rn_FPqjsfZgWKgDT5dW::L2",
+      "stem": "Write the balanced equation for the complete combustion of methane.",
+      "misconceptionClass": "equation recall",
+      "kind": "recall",
+      "modelAnswer": "CH4 + 2O2 -> CO2 + 2H2O.",
+      "keywords": [
+        "methane",
+        "balanced",
+        "carbon dioxide"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_FPqjsfZgWKgDT5dW::L2::Q7",
+      "moduleId": "rn_FPqjsfZgWKgDT5dW::L2",
+      "stem": "State the products and the condition required for complete combustion of any alkane.",
+      "misconceptionClass": "condition recall",
+      "kind": "recall",
+      "modelAnswer": "Plentiful oxygen as the condition; carbon dioxide and water as the only products.",
+      "keywords": [
+        "plentiful oxygen",
+        "carbon dioxide",
+        "water"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_FPqjsfZgWKgDT5dW::L2::Q8",
+      "moduleId": "rn_FPqjsfZgWKgDT5dW::L2",
+      "stem": "Explain why a limited oxygen supply changes the products of alkane combustion.",
+      "misconceptionClass": "supply dependence",
+      "kind": "explain-why",
+      "modelAnswer": "With too little oxygen the carbon cannot all reach the +4 oxidation state of carbon dioxide, so carbon monoxide or even soot forms instead, and less heat is released.",
+      "keywords": [
+        "limited",
+        "carbon monoxide",
+        "heat"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_FPqjsfZgWKgDT5dW::L2::Q9",
+      "moduleId": "rn_FPqjsfZgWKgDT5dW::L2",
+      "stem": "Write the balanced equation for the complete combustion of butane, C4H10.",
+      "misconceptionClass": "balancing application",
+      "kind": "application",
+      "modelAnswer": "2C4H10 + 13O2 -> 8CO2 + 10H2O: carbons 8=8, hydrogens 20=20, and the 26 oxygen atoms supplied by 13 O2 divide as 16 into the eight CO2 and 10 into the ten H2O.",
+      "keywords": [
+        "butane",
+        "balanced",
+        "oxygen"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_FPqjsfZgWKgDT5dW::L3::Q1",
+      "moduleId": "rn_FPqjsfZgWKgDT5dW::L3",
+      "stem": "Which product of incomplete alkane combustion is the toxic one?",
+      "misconceptionClass": "toxic product",
+      "options": [
+        {
+          "key": "A",
+          "text": "Water",
+          "correct": false,
+          "explanation": "Water is harmless.",
+          "misconception": "product confused"
+        },
+        {
+          "key": "B",
+          "text": "Nitrogen",
+          "correct": false,
+          "explanation": "Nitrogen passes through air unchanged.",
+          "misconception": "spectator mislisted"
+        },
+        {
+          "key": "C",
+          "text": "Carbon monoxide",
+          "correct": true,
+          "explanation": "Limited oxygen leaves carbon half-oxidised as the silent poison.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Carbon dioxide",
+          "correct": false,
+          "explanation": "CO2 is the complete-combustion product and not acutely toxic in this context.",
+          "misconception": "product confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_FPqjsfZgWKgDT5dW::L3::Q2",
+      "moduleId": "rn_FPqjsfZgWKgDT5dW::L3",
+      "stem": "What condition must accompany a halogen for alkane substitution to proceed?",
+      "misconceptionClass": "condition requirement",
+      "options": [
+        {
+          "key": "A",
+          "text": "A nickel catalyst",
+          "correct": false,
+          "explanation": "Nickel belongs to alkene hydrogenation.",
+          "misconception": "condition crossed"
+        },
+        {
+          "key": "B",
+          "text": "An acid catalyst",
+          "correct": false,
+          "explanation": "Acid catalysts serve alkene hydration.",
+          "misconception": "condition crossed"
+        },
+        {
+          "key": "C",
+          "text": "Total darkness",
+          "correct": false,
+          "explanation": "Darkness actually prevents the radical route.",
+          "misconception": "condition inverted"
+        },
+        {
+          "key": "D",
+          "text": "Ultraviolet light",
+          "correct": true,
+          "explanation": "UV homolytically splits the halogen molecule into radicals.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_FPqjsfZgWKgDT5dW::L3::Q3",
+      "moduleId": "rn_FPqjsfZgWKgDT5dW::L3",
+      "stem": "Why is carbon monoxide especially dangerous in homes?",
+      "misconceptionClass": "hazard reasoning",
+      "options": [
+        {
+          "key": "A",
+          "text": "It is colourless and odourless while binding strongly where oxygen should",
+          "correct": true,
+          "explanation": "The gas poisons silently.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "It stains walls black",
+          "correct": false,
+          "explanation": "Soot stains; CO is invisible and leaves no stain.",
+          "misconception": "property crossed"
+        },
+        {
+          "key": "C",
+          "text": "It explodes easily",
+          "correct": false,
+          "explanation": "CO is flammable but the danger cited is toxicity.",
+          "misconception": "hazard crossed"
+        },
+        {
+          "key": "D",
+          "text": "It smells strongly of bleach",
+          "correct": false,
+          "explanation": "CO has no smell at all.",
+          "misconception": "property invented"
+        }
+      ]
+    },
+    {
+      "id": "rn_FPqjsfZgWKgDT5dW::L3::Q4",
+      "moduleId": "rn_FPqjsfZgWKgDT5dW::L3",
+      "stem": "What type of reaction occurs between methane and chlorine in sunlight?",
+      "misconceptionClass": "reaction type",
+      "options": [
+        {
+          "key": "A",
+          "text": "Redox titration chemistry",
+          "correct": false,
+          "explanation": "That is analytical chemistry, not this reaction.",
+          "misconception": "type invented"
+        },
+        {
+          "key": "B",
+          "text": "Free-radical substitution",
+          "correct": true,
+          "explanation": "Radicals swap a chlorine onto the chain, releasing HCl.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Electrophilic addition",
+          "correct": false,
+          "explanation": "Addition needs a pi bond - alkanes have none.",
+          "misconception": "mechanism crossed"
+        },
+        {
+          "key": "D",
+          "text": "Neutralisation",
+          "correct": false,
+          "explanation": "No acid-base pair operates.",
+          "misconception": "type crossed"
+        }
+      ]
+    },
+    {
+      "id": "rn_FPqjsfZgWKgDT5dW::L3::Q5",
+      "moduleId": "rn_FPqjsfZgWKgDT5dW::L3",
+      "stem": "Which equation represents the incomplete combustion of methane?",
+      "misconceptionClass": "equation selection",
+      "options": [
+        {
+          "key": "A",
+          "text": "CH4 -> C + 2H2",
+          "correct": false,
+          "explanation": "That is decomposition, not combustion.",
+          "misconception": "type crossed"
+        },
+        {
+          "key": "B",
+          "text": "CH4 + O2 -> CO2 + H2 + H2O",
+          "correct": false,
+          "explanation": "Hydrogen gas is not a combustion product.",
+          "misconception": "product invented"
+        },
+        {
+          "key": "C",
+          "text": "2CH4 + 3O2 -> 2CO + 4H2O",
+          "correct": true,
+          "explanation": "Carbon monoxide replaces carbon dioxide under the limited supply.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "CH4 + 2O2 -> CO2 + 2H2O",
+          "correct": false,
+          "explanation": "That is the complete route.",
+          "misconception": "case swapped"
+        }
+      ]
+    },
+    {
+      "id": "rn_FPqjsfZgWKgDT5dW::L3::Q6",
+      "moduleId": "rn_FPqjsfZgWKgDT5dW::L3",
+      "stem": "State the products of incomplete combustion of an alkane when oxygen is very limited.",
+      "misconceptionClass": "product recall",
+      "kind": "recall",
+      "modelAnswer": "Carbon monoxide and water, with soot (carbon) also appearing under extreme limitation.",
+      "keywords": [
+        "carbon monoxide",
+        "soot",
+        "limited"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_FPqjsfZgWKgDT5dW::L3::Q7",
+      "moduleId": "rn_FPqjsfZgWKgDT5dW::L3",
+      "stem": "Name the reaction type and condition for methane reacting with bromine.",
+      "misconceptionClass": "reaction recall",
+      "kind": "recall",
+      "modelAnswer": "Free-radical substitution, requiring ultraviolet light to start the radical chain.",
+      "keywords": [
+        "free-radical substitution",
+        "ultraviolet",
+        "bromine"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_FPqjsfZgWKgDT5dW::L3::Q8",
+      "moduleId": "rn_FPqjsfZgWKgDT5dW::L3",
+      "stem": "Explain why incomplete combustion releases less energy than complete combustion.",
+      "misconceptionClass": "energy accounting",
+      "kind": "explain-why",
+      "modelAnswer": "Carbon monoxide still stores usable oxidation energy that complete combustion would have released, so the limited-oxygen route pays out a smaller energy dividend.",
+      "keywords": [
+        "stores",
+        "released",
+        "smaller"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_FPqjsfZgWKgDT5dW::L3::Q9",
+      "moduleId": "rn_FPqjsfZgWKgDT5dW::L3",
+      "stem": "A faulty boiler burns methane with a restricted air supply. Name the hazard gas and write its balanced formation equation within the combustion.",
+      "misconceptionClass": "hazard application",
+      "kind": "application",
+      "modelAnswer": "The hazard is carbon monoxide; within the combustion ledger, methane burning incompletely forms it as 2CH4 + 3O2 -> 2CO + 4H2O.",
+      "keywords": [
+        "carbon monoxide",
+        "limited",
+        "balanced"
+      ],
+      "options": []
+    }
+  ]
+}

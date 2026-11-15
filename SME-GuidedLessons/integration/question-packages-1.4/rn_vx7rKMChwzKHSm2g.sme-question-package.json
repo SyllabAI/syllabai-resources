@@ -1,0 +1,723 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_vx7rKMChwzKHSm2g",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "026e862a52dfd99f2d61febfa9922ca30bb5500166b82d0b9e08bc2396c54bf0",
+    "pinnedRef": "ba08669f2dbfc1a4d18d01abc07ef1efa248388d"
+  },
+  "packageId": "ial-chemistry::rn_vx7rKMChwzKHSm2g",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_vx7rKMChwzKHSm2g::L1::Q1",
+      "moduleId": "rn_vx7rKMChwzKHSm2g::L1",
+      "stem": "What sign does the enthalpy change of an exothermic reaction carry?",
+      "misconceptionClass": "sign convention",
+      "options": [
+        {
+          "key": "A",
+          "text": "Negative, because energy leaves the system",
+          "correct": true,
+          "explanation": "Release runs the ledger down.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Positive, because the surroundings warm up",
+          "correct": false,
+          "explanation": "The system's ledger, not the surroundings', is quoted.",
+          "misconception": "frame confusion"
+        },
+        {
+          "key": "C",
+          "text": "Zero, because energy is conserved",
+          "correct": false,
+          "explanation": "Conservation moves energy between system and surroundings - the change is not zero.",
+          "misconception": "conservation misapplied"
+        },
+        {
+          "key": "D",
+          "text": "It carries no sign",
+          "correct": false,
+          "explanation": "The sign is the entire classification.",
+          "misconception": "convention denied"
+        }
+      ]
+    },
+    {
+      "id": "rn_vx7rKMChwzKHSm2g::L1::Q2",
+      "moduleId": "rn_vx7rKMChwzKHSm2g::L1",
+      "stem": "On an enthalpy level diagram, where do an endothermic reaction's products sit?",
+      "misconceptionClass": "level placement",
+      "options": [
+        {
+          "key": "A",
+          "text": "Off the diagram",
+          "correct": false,
+          "explanation": "Products always appear on the diagram.",
+          "misconception": "placement invented"
+        },
+        {
+          "key": "B",
+          "text": "Higher than the reactants",
+          "correct": true,
+          "explanation": "Absorbing energy lifts the product level.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Lower than the reactants",
+          "correct": false,
+          "explanation": "That placement is exothermic.",
+          "misconception": "placement swapped"
+        },
+        {
+          "key": "D",
+          "text": "At the same height",
+          "correct": false,
+          "explanation": "Equal heights mean no enthalpy change.",
+          "misconception": "placement erased"
+        }
+      ]
+    },
+    {
+      "id": "rn_vx7rKMChwzKHSm2g::L1::Q3",
+      "moduleId": "rn_vx7rKMChwzKHSm2g::L1",
+      "stem": "Which reaction type is combustion?",
+      "misconceptionClass": "family identification",
+      "options": [
+        {
+          "key": "A",
+          "text": "Thermoneutral",
+          "correct": false,
+          "explanation": "Combustion changes the energy ledger dramatically.",
+          "misconception": "classification wrong"
+        },
+        {
+          "key": "B",
+          "text": "Sign depends on the fuel",
+          "correct": false,
+          "explanation": "All combustion is exothermic.",
+          "misconception": "hesitation wrong"
+        },
+        {
+          "key": "C",
+          "text": "Strongly exothermic",
+          "correct": true,
+          "explanation": "Burning releases substantial heat to the surroundings.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Endothermic",
+          "correct": false,
+          "explanation": "Flames plainly warm their surroundings.",
+          "misconception": "classification wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_vx7rKMChwzKHSm2g::L1::Q4",
+      "moduleId": "rn_vx7rKMChwzKHSm2g::L1",
+      "stem": "A reaction vessel cools noticeably during a reaction. What is the reaction's enthalpy sign?",
+      "misconceptionClass": "observation to sign",
+      "options": [
+        {
+          "key": "A",
+          "text": "Negative - cooling means energy was released",
+          "correct": false,
+          "explanation": "Release warms, not cools, the surroundings.",
+          "misconception": "direction inverted"
+        },
+        {
+          "key": "B",
+          "text": "Zero - temperature changes are unrelated",
+          "correct": false,
+          "explanation": "Temperature change is exactly the evidence.",
+          "misconception": "evidence denied"
+        },
+        {
+          "key": "C",
+          "text": "Undetermined without a diagram",
+          "correct": false,
+          "explanation": "The observation is sufficient.",
+          "misconception": "hesitation wrong"
+        },
+        {
+          "key": "D",
+          "text": "Positive - the reaction drew heat from its surroundings, cooling them",
+          "correct": true,
+          "explanation": "Endothermic absorption cools the vessel.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_vx7rKMChwzKHSm2g::L1::Q5",
+      "moduleId": "rn_vx7rKMChwzKHSm2g::L1",
+      "stem": "Which pair correctly matches reaction class and enthalpy level geometry?",
+      "misconceptionClass": "geometry matching",
+      "options": [
+        {
+          "key": "A",
+          "text": "Exothermic - products below reactants; endothermic - products above",
+          "correct": true,
+          "explanation": "Each sign owns its geometry.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Exothermic - products above; endothermic - products below",
+          "correct": false,
+          "explanation": "Both placements are swapped.",
+          "misconception": "matching inverted"
+        },
+        {
+          "key": "C",
+          "text": "Both classes place products below",
+          "correct": false,
+          "explanation": "Only exothermic does.",
+          "misconception": "matching collapsed"
+        },
+        {
+          "key": "D",
+          "text": "Geometry depends on the catalyst",
+          "correct": false,
+          "explanation": "Catalysts move the hump, not the levels.",
+          "misconception": "catalyst confusion"
+        }
+      ]
+    },
+    {
+      "id": "rn_vx7rKMChwzKHSm2g::L1::Q6",
+      "moduleId": "rn_vx7rKMChwzKHSm2g::L1",
+      "stem": "Define an exothermic reaction and state the sign of its enthalpy change.",
+      "misconceptionClass": "definition recall",
+      "kind": "recall",
+      "modelAnswer": "An exothermic reaction releases energy to the surroundings, and its enthalpy change is negative.",
+      "keywords": [
+        "releases",
+        "surroundings",
+        "negative"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_vx7rKMChwzKHSm2g::L1::Q7",
+      "moduleId": "rn_vx7rKMChwzKHSm2g::L1",
+      "stem": "Give one everyday example each of an exothermic and an endothermic change.",
+      "misconceptionClass": "example recall",
+      "kind": "recall",
+      "modelAnswer": "Burning a fuel warms the room (exothermic); a sports cooling pack draws heat from the skin (endothermic).",
+      "keywords": [
+        "fuel",
+        "cooling",
+        "example"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_vx7rKMChwzKHSm2g::L1::Q8",
+      "moduleId": "rn_vx7rKMChwzKHSm2g::L1",
+      "stem": "Explain why the surroundings warm during an exothermic reaction.",
+      "misconceptionClass": "surroundings reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "Energy is conserved overall: the reaction converts stored chemical energy into heat delivered to the surroundings, so their temperature rises as the system's enthalpy falls.",
+      "keywords": [
+        "conserved",
+        "heat",
+        "falls"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_vx7rKMChwzKHSm2g::L1::Q9",
+      "moduleId": "rn_vx7rKMChwzKHSm2g::L1",
+      "stem": "A hand-warmer and a cold-pack both involve dissolving solids. Assign each its enthalpy sign and justify.",
+      "misconceptionClass": "pairing application",
+      "kind": "application",
+      "modelAnswer": "The hand-warmer's dissolution is exothermic (negative), releasing heat to warm the user; the cold-pack's is endothermic (positive), absorbing heat and cooling the skin.",
+      "keywords": [
+        "negative",
+        "positive",
+        "absorb"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_vx7rKMChwzKHSm2g::L2::Q1",
+      "moduleId": "rn_vx7rKMChwzKHSm2g::L2",
+      "stem": "What does the vertical axis of a reaction profile show?",
+      "misconceptionClass": "axis recall",
+      "options": [
+        {
+          "key": "A",
+          "text": "Concentration",
+          "correct": false,
+          "explanation": "Not a profile axis.",
+          "misconception": "axis crossed"
+        },
+        {
+          "key": "B",
+          "text": "Energy (enthalpy)",
+          "correct": true,
+          "explanation": "Levels and gaps are energy quantities.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Temperature",
+          "correct": false,
+          "explanation": "Temperature is the surroundings' measure, not the profile's axis.",
+          "misconception": "axis crossed"
+        },
+        {
+          "key": "D",
+          "text": "Reaction rate",
+          "correct": false,
+          "explanation": "Rate does not appear on the profile.",
+          "misconception": "axis crossed"
+        }
+      ]
+    },
+    {
+      "id": "rn_vx7rKMChwzKHSm2g::L2::Q2",
+      "moduleId": "rn_vx7rKMChwzKHSm2g::L2",
+      "stem": "How is the activation energy measured on a profile?",
+      "misconceptionClass": "Ea measurement",
+      "options": [
+        {
+          "key": "A",
+          "text": "Between reactants and products",
+          "correct": false,
+          "explanation": "That gap is the enthalpy change.",
+          "misconception": "quantity swapped"
+        },
+        {
+          "key": "B",
+          "text": "Along the horizontal axis",
+          "correct": false,
+          "explanation": "Ea is a vertical quantity.",
+          "misconception": "axis crossed"
+        },
+        {
+          "key": "C",
+          "text": "From the reactant level up to the top of the hump",
+          "correct": true,
+          "explanation": "The climb height is the activation energy.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "From the top of the hump down to the products",
+          "correct": false,
+          "explanation": "That descent is not Ea.",
+          "misconception": "measurement inverted"
+        }
+      ]
+    },
+    {
+      "id": "rn_vx7rKMChwzKHSm2g::L2::Q3",
+      "moduleId": "rn_vx7rKMChwzKHSm2g::L2",
+      "stem": "On an exothermic profile, where does the product level sit relative to the hump?",
+      "misconceptionClass": "profile geometry",
+      "options": [
+        {
+          "key": "A",
+          "text": "Above the hump",
+          "correct": false,
+          "explanation": "Nothing sits above the hump.",
+          "misconception": "placement impossible"
+        },
+        {
+          "key": "B",
+          "text": "Above the reactants",
+          "correct": false,
+          "explanation": "That geometry is endothermic.",
+          "misconception": "sign swapped"
+        },
+        {
+          "key": "C",
+          "text": "Level with the reactants",
+          "correct": false,
+          "explanation": "Then no enthalpy change would exist.",
+          "misconception": "gap erased"
+        },
+        {
+          "key": "D",
+          "text": "Below the hump and below the reactants",
+          "correct": true,
+          "explanation": "The descent from hump to products exceeds the initial climb.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_vx7rKMChwzKHSm2g::L2::Q4",
+      "moduleId": "rn_vx7rKMChwzKHSm2g::L2",
+      "stem": "What effect does a catalyst have on a reaction profile?",
+      "misconceptionClass": "catalyst effect",
+      "options": [
+        {
+          "key": "A",
+          "text": "It lowers the activation energy hump without moving the levels",
+          "correct": true,
+          "explanation": "Rate changes; heat outcome does not.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "It deepens the product level",
+          "correct": false,
+          "explanation": "Levels belong to the chemistry, not the catalyst.",
+          "misconception": "levels moved"
+        },
+        {
+          "key": "C",
+          "text": "It raises the reactant level",
+          "correct": false,
+          "explanation": "Reactants are fixed.",
+          "misconception": "levels moved"
+        },
+        {
+          "key": "D",
+          "text": "It removes the hump entirely",
+          "correct": false,
+          "explanation": "It lowers the hump; the barrier remains.",
+          "misconception": "effect overstated"
+        }
+      ]
+    },
+    {
+      "id": "rn_vx7rKMChwzKHSm2g::L2::Q5",
+      "moduleId": "rn_vx7rKMChwzKHSm2g::L2",
+      "stem": "Two profiles share identical levels but different hump heights. What differs?",
+      "misconceptionClass": "decoupling drill",
+      "options": [
+        {
+          "key": "A",
+          "text": "Nothing at all",
+          "correct": false,
+          "explanation": "The hump height has kinetic meaning.",
+          "misconception": "difference denied"
+        },
+        {
+          "key": "B",
+          "text": "Their rates - the lower hump reacts faster",
+          "correct": true,
+          "explanation": "Activation energy sets the rate.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Their enthalpy changes",
+          "correct": false,
+          "explanation": "Identical levels mean identical changes.",
+          "misconception": "quantity confused"
+        },
+        {
+          "key": "D",
+          "text": "Their exothermic/endothermic classification",
+          "correct": false,
+          "explanation": "The level order classifies, and it is identical.",
+          "misconception": "classification confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_vx7rKMChwzKHSm2g::L2::Q6",
+      "moduleId": "rn_vx7rKMChwzKHSm2g::L2",
+      "stem": "State what the activation energy represents on a reaction profile.",
+      "misconceptionClass": "Ea recall",
+      "kind": "recall",
+      "modelAnswer": "The activation energy is the minimum energy climb from the reactant level to the top of the hump that the reaction must pay to proceed.",
+      "keywords": [
+        "minimum",
+        "climb",
+        "hump"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_vx7rKMChwzKHSm2g::L2::Q7",
+      "moduleId": "rn_vx7rKMChwzKHSm2g::L2",
+      "stem": "Sketch or describe the profile of an exothermic reaction, naming both features.",
+      "misconceptionClass": "profile recall",
+      "kind": "recall",
+      "modelAnswer": "Reactants sit high, the hump rises above them (activation energy), and products settle below the reactants with the gap marked as the negative enthalpy change.",
+      "keywords": [
+        "reactants",
+        "hump",
+        "products"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_vx7rKMChwzKHSm2g::L2::Q8",
+      "moduleId": "rn_vx7rKMChwzKHSm2g::L2",
+      "stem": "Explain why the enthalpy change and the activation energy are independent quantities.",
+      "misconceptionClass": "independence reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "The enthalpy change compares two shelf positions, while the activation energy measures the route's hump between them; reshaping the route (catalyst) never moves the shelves.",
+      "keywords": [
+        "shelf",
+        "route",
+        "independent"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_vx7rKMChwzKHSm2g::L2::Q9",
+      "moduleId": "rn_vx7rKMChwzKHSm2g::L2",
+      "stem": "An exothermic reaction is run with and without a catalyst. Sketch both profiles in words: state what changes and what does not.",
+      "misconceptionClass": "catalyst application",
+      "kind": "application",
+      "modelAnswer": "The catalysed profile shows a lower hump (smaller activation energy, faster rate) while the reactant and product levels stay identical, so the negative enthalpy change is unchanged.",
+      "keywords": [
+        "hump",
+        "levels",
+        "unchanged"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_vx7rKMChwzKHSm2g::L3::Q1",
+      "moduleId": "rn_vx7rKMChwzKHSm2g::L3",
+      "stem": "On an endothermic profile, the product level sits:",
+      "misconceptionClass": "geometry recall",
+      "options": [
+        {
+          "key": "A",
+          "text": "Level with the reactants",
+          "correct": false,
+          "explanation": "No gap means no enthalpy change.",
+          "misconception": "geometry erased"
+        },
+        {
+          "key": "B",
+          "text": "At the hump's top",
+          "correct": false,
+          "explanation": "The hump's top is the transition state.",
+          "misconception": "landmark crossed"
+        },
+        {
+          "key": "C",
+          "text": "Above the reactant level",
+          "correct": true,
+          "explanation": "Absorption banks energy into the products.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Below the reactant level",
+          "correct": false,
+          "explanation": "That is the exothermic geometry.",
+          "misconception": "geometry swapped"
+        }
+      ]
+    },
+    {
+      "id": "rn_vx7rKMChwzKHSm2g::L3::Q2",
+      "moduleId": "rn_vx7rKMChwzKHSm2g::L3",
+      "stem": "Where does the activation energy arrow point on an endothermic profile?",
+      "misconceptionClass": "Ea arrow drill",
+      "options": [
+        {
+          "key": "A",
+          "text": "Downward from the hump to the products",
+          "correct": false,
+          "explanation": "That is the product-side descent.",
+          "misconception": "arrow inverted"
+        },
+        {
+          "key": "B",
+          "text": "From products to reactants",
+          "correct": false,
+          "explanation": "The reaction runs reactants to products.",
+          "misconception": "direction inverted"
+        },
+        {
+          "key": "C",
+          "text": "Horizontally along the progress axis",
+          "correct": false,
+          "explanation": "Ea is vertical.",
+          "misconception": "axis crossed"
+        },
+        {
+          "key": "D",
+          "text": "Upward from reactants to the hump's top",
+          "correct": true,
+          "explanation": "The climb is defined identically for both signs.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_vx7rKMChwzKHSm2g::L3::Q3",
+      "moduleId": "rn_vx7rKMChwzKHSm2g::L3",
+      "stem": "Why do endothermic reactions often need continuous heating?",
+      "misconceptionClass": "sustenance reasoning",
+      "options": [
+        {
+          "key": "A",
+          "text": "They keep absorbing energy from the surroundings, which must be replenished",
+          "correct": true,
+          "explanation": "The positive gap is a standing debt to the surroundings.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Their activation energies are always zero",
+          "correct": false,
+          "explanation": "Every reaction has a hump.",
+          "misconception": "claim false"
+        },
+        {
+          "key": "C",
+          "text": "They cool the products",
+          "correct": false,
+          "explanation": "The products gain energy.",
+          "misconception": "direction inverted"
+        },
+        {
+          "key": "D",
+          "text": "Heating shifts the product level down",
+          "correct": false,
+          "explanation": "Heating feeds the reaction; levels are fixed.",
+          "misconception": "levels confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_vx7rKMChwzKHSm2g::L3::Q4",
+      "moduleId": "rn_vx7rKMChwzKHSm2g::L3",
+      "stem": "Which reaction is the standard endothermic profile example?",
+      "misconceptionClass": "family identification",
+      "options": [
+        {
+          "key": "A",
+          "text": "Freezing of water",
+          "correct": false,
+          "explanation": "Freezing releases energy - exothermic.",
+          "misconception": "family crossed"
+        },
+        {
+          "key": "B",
+          "text": "Thermal decomposition of calcium carbonate",
+          "correct": true,
+          "explanation": "Sustained heating drives the uphill decomposition.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Combustion of methane",
+          "correct": false,
+          "explanation": "Combustion is the exothermic flagship.",
+          "misconception": "family crossed"
+        },
+        {
+          "key": "D",
+          "text": "Neutralisation of an acid by an alkali",
+          "correct": false,
+          "explanation": "Neutralisation is exothermic.",
+          "misconception": "family crossed"
+        }
+      ]
+    },
+    {
+      "id": "rn_vx7rKMChwzKHSm2g::L3::Q5",
+      "moduleId": "rn_vx7rKMChwzKHSm2g::L3",
+      "stem": "An endothermic profile shows reactants at 50 units, hump top at 120, products at 90. What are the activation energy and enthalpy change?",
+      "misconceptionClass": "profile arithmetic",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ea = 40; enthalpy change = +70",
+          "correct": false,
+          "explanation": "The two quantities are swapped.",
+          "misconception": "quantities swapped"
+        },
+        {
+          "key": "B",
+          "text": "Ea = 120; enthalpy change = +90",
+          "correct": false,
+          "explanation": "Both must be measured from the reactant level.",
+          "misconception": "baselines wrong"
+        },
+        {
+          "key": "C",
+          "text": "Ea = 70 units upward; enthalpy change = +40 units",
+          "correct": true,
+          "explanation": "Climb 120-50 = 70; gap 90-50 = +40.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Ea = 70; enthalpy change = -40",
+          "correct": false,
+          "explanation": "The products sit higher, so the change is positive.",
+          "misconception": "sign inverted"
+        }
+      ]
+    },
+    {
+      "id": "rn_vx7rKMChwzKHSm2g::L3::Q6",
+      "moduleId": "rn_vx7rKMChwzKHSm2g::L3",
+      "stem": "Describe the geometry of an endothermic reaction profile in one sentence.",
+      "misconceptionClass": "geometry recall",
+      "kind": "recall",
+      "modelAnswer": "The products sit above the reactants, with the activation energy climbing to the hump and the positive enthalpy change marked as the upward gap.",
+      "keywords": [
+        "above",
+        "hump",
+        "positive"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_vx7rKMChwzKHSm2g::L3::Q7",
+      "moduleId": "rn_vx7rKMChwzKHSm2g::L3",
+      "stem": "Give the practical observation that evidences an endothermic change in a solution.",
+      "misconceptionClass": "observation recall",
+      "kind": "recall",
+      "modelAnswer": "The solution's temperature falls as the reaction absorbs heat from its surroundings.",
+      "keywords": [
+        "temperature",
+        "falls",
+        "absorbs"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_vx7rKMChwzKHSm2g::L3::Q8",
+      "moduleId": "rn_vx7rKMChwzKHSm2g::L3",
+      "stem": "Explain why the enthalpy change is positive when products sit higher on the profile.",
+      "misconceptionClass": "sign reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "The change is defined as products minus reactants; a higher product level makes that difference positive, matching the energy the system banked.",
+      "keywords": [
+        "products minus reactants",
+        "higher",
+        "positive"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_vx7rKMChwzKHSm2g::L3::Q9",
+      "moduleId": "rn_vx7rKMChwzKHSm2g::L3",
+      "stem": "A decomposition profile shows reactants at 80 units, hump top at 160 and products at 120. State the activation energy and the enthalpy change with signs.",
+      "misconceptionClass": "profile arithmetic application",
+      "kind": "application",
+      "modelAnswer": "The activation energy is 160 - 80 = 80 units upward, and the enthalpy change is 120 - 80 = +40 units, positive because the products finish above the reactants.",
+      "keywords": [
+        "80",
+        "120",
+        "positive"
+      ],
+      "options": []
+    }
+  ]
+}

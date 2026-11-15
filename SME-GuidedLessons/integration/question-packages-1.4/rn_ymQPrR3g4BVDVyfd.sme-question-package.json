@@ -1,0 +1,489 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_ymQPrR3g4BVDVyfd",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "6091e2116958d5314d18e719844c34aacb91bf4732f2a384dae2c24e59f4f9a4",
+    "pinnedRef": "ba08669f2dbfc1a4d18d01abc07ef1efa248388d"
+  },
+  "packageId": "ial-chemistry::rn_ymQPrR3g4BVDVyfd",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_ymQPrR3g4BVDVyfd::L1::Q1",
+      "moduleId": "rn_ymQPrR3g4BVDVyfd::L1",
+      "stem": "Which conditions define a STANDARD enthalpy change?",
+      "misconceptionClass": "conditions drill",
+      "options": [
+        {
+          "key": "A",
+          "text": "100 kPa pressure and 298 K",
+          "correct": true,
+          "explanation": "The standard pair, quoted every time.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "101 kPa and 273 K",
+          "correct": false,
+          "explanation": "273 K is freezing point, not the standard temperature.",
+          "misconception": "values crossed"
+        },
+        {
+          "key": "C",
+          "text": "1 atm and 25 degrees only for gases",
+          "correct": false,
+          "explanation": "The conditions bind every substance.",
+          "misconception": "scope narrowed"
+        },
+        {
+          "key": "D",
+          "text": "Any laboratory conditions",
+          "correct": false,
+          "explanation": "Standard means the fixed reference pair.",
+          "misconception": "precision lost"
+        }
+      ]
+    },
+    {
+      "id": "rn_ymQPrR3g4BVDVyfd::L1::Q2",
+      "moduleId": "rn_ymQPrR3g4BVDVyfd::L1",
+      "stem": "The standard enthalpy change of formation produces how much product?",
+      "misconceptionClass": "quantity drill",
+      "options": [
+        {
+          "key": "A",
+          "text": "One mole of atoms",
+          "correct": false,
+          "explanation": "One mole of the compound, not of atoms.",
+          "misconception": "unit confused"
+        },
+        {
+          "key": "B",
+          "text": "Exactly one mole of the compound",
+          "correct": true,
+          "explanation": "One mole is built into the definition.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Any amount the equation says",
+          "correct": false,
+          "explanation": "That describes the reaction change, not formation.",
+          "misconception": "definition crossed"
+        },
+        {
+          "key": "D",
+          "text": "One kilogram",
+          "correct": false,
+          "explanation": "Mass units never appear in the definition.",
+          "misconception": "unit invented"
+        }
+      ]
+    },
+    {
+      "id": "rn_ymQPrR3g4BVDVyfd::L1::Q3",
+      "moduleId": "rn_ymQPrR3g4BVDVyfd::L1",
+      "stem": "Which definition demands COMPLETE combustion?",
+      "misconceptionClass": "definition matching",
+      "options": [
+        {
+          "key": "A",
+          "text": "The standard enthalpy change of neutralisation",
+          "correct": false,
+          "explanation": "Neutralisation makes water.",
+          "misconception": "definition crossed"
+        },
+        {
+          "key": "B",
+          "text": "The standard enthalpy change of atomisation",
+          "correct": false,
+          "explanation": "Atomisation makes gaseous atoms.",
+          "misconception": "definition crossed"
+        },
+        {
+          "key": "C",
+          "text": "The standard enthalpy change of combustion",
+          "correct": true,
+          "explanation": "Complete burning in oxygen under standard conditions.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "The standard enthalpy change of formation",
+          "correct": false,
+          "explanation": "Formation builds from elements.",
+          "misconception": "definition crossed"
+        }
+      ]
+    },
+    {
+      "id": "rn_ymQPrR3g4BVDVyfd::L1::Q4",
+      "moduleId": "rn_ymQPrR3g4BVDVyfd::L1",
+      "stem": "What does the standard enthalpy change of neutralisation count?",
+      "misconceptionClass": "quantity matching",
+      "options": [
+        {
+          "key": "A",
+          "text": "One mole of acid used",
+          "correct": false,
+          "explanation": "The acid amount varies with stoichiometry.",
+          "misconception": "quantity crossed"
+        },
+        {
+          "key": "B",
+          "text": "One mole of salt formed",
+          "correct": false,
+          "explanation": "Salt stoichiometry varies; water does not.",
+          "misconception": "quantity crossed"
+        },
+        {
+          "key": "C",
+          "text": "One mole of hydrogen gas",
+          "correct": false,
+          "explanation": "No hydrogen gas forms in neutralisation.",
+          "misconception": "species invented"
+        },
+        {
+          "key": "D",
+          "text": "One mole of water formed",
+          "correct": true,
+          "explanation": "The neutralisation definition fixes water's quantity.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_ymQPrR3g4BVDVyfd::L1::Q5",
+      "moduleId": "rn_ymQPrR3g4BVDVyfd::L1",
+      "stem": "What does the standard enthalpy change of atomisation deliver?",
+      "misconceptionClass": "definition matching",
+      "options": [
+        {
+          "key": "A",
+          "text": "One mole of gaseous atoms from the element in its standard state",
+          "correct": true,
+          "explanation": "The element is dismantled into free gaseous atoms.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "One mole of gaseous molecules",
+          "correct": false,
+          "explanation": "Atoms, not molecules.",
+          "misconception": "unit confused"
+        },
+        {
+          "key": "C",
+          "text": "One mole of ions in solution",
+          "correct": false,
+          "explanation": "Ions belong to solution chemistry.",
+          "misconception": "species crossed"
+        },
+        {
+          "key": "D",
+          "text": "One mole of compound from atoms",
+          "correct": false,
+          "explanation": "That inverts the formation direction.",
+          "misconception": "direction inverted"
+        }
+      ]
+    },
+    {
+      "id": "rn_ymQPrR3g4BVDVyfd::L1::Q6",
+      "moduleId": "rn_ymQPrR3g4BVDVyfd::L1",
+      "stem": "State the standard enthalpy change of formation definition in full.",
+      "misconceptionClass": "definition recall",
+      "kind": "recall",
+      "modelAnswer": "The enthalpy change when one mole of a compound forms from its elements in their standard states under standard conditions of 100 kPa and 298 K.",
+      "keywords": [
+        "one mole",
+        "elements",
+        "standard states"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_ymQPrR3g4BVDVyfd::L1::Q7",
+      "moduleId": "rn_ymQPrR3g4BVDVyfd::L1",
+      "stem": "List the five standard enthalpy changes by name.",
+      "misconceptionClass": "family recall",
+      "kind": "recall",
+      "modelAnswer": "Reaction, formation, combustion, neutralisation and atomisation.",
+      "keywords": [
+        "reaction",
+        "formation",
+        "combustion",
+        "neutralisation",
+        "atomisation"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_ymQPrR3g4BVDVyfd::L1::Q8",
+      "moduleId": "rn_ymQPrR3g4BVDVyfd::L1",
+      "stem": "Explain why states of matter must be specified in these definitions.",
+      "misconceptionClass": "state importance",
+      "kind": "explain-why",
+      "modelAnswer": "Enthalpy depends on the physical state - gas, liquid or solid hold different energy contents - so an unstated state leaves the defined quantity ambiguous.",
+      "keywords": [
+        "state",
+        "energy",
+        "ambiguous"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_ymQPrR3g4BVDVyfd::L1::Q9",
+      "moduleId": "rn_ymQPrR3g4BVDVyfd::L1",
+      "stem": "Write the standard formation equation for ammonia, NH3(g), and state the standard conditions that apply to it.",
+      "misconceptionClass": "equation application",
+      "kind": "application",
+      "modelAnswer": "(1/2)N2(g) + (3/2)H2(g) -> NH3(g), quoted at 100 kPa and 298 K with every species gaseous in its standard state.",
+      "keywords": [
+        "N2(g)",
+        "H2(g)",
+        "298 K"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_ymQPrR3g4BVDVyfd::L2::Q1",
+      "moduleId": "rn_ymQPrR3g4BVDVyfd::L2",
+      "stem": "What is the standard enthalpy change of formation of oxygen gas, O2(g)?",
+      "misconceptionClass": "zero convention",
+      "options": [
+        {
+          "key": "A",
+          "text": "Undefined",
+          "correct": false,
+          "explanation": "The convention defines it exactly.",
+          "misconception": "convention denied"
+        },
+        {
+          "key": "B",
+          "text": "Zero, because it is an element in its standard state",
+          "correct": true,
+          "explanation": "The reference floor applies.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "A large negative value",
+          "correct": false,
+          "explanation": "Only compounds carry non-zero formation values.",
+          "misconception": "convention misapplied"
+        },
+        {
+          "key": "D",
+          "text": "A large positive value",
+          "correct": false,
+          "explanation": "Elements are the floor, not a cost.",
+          "misconception": "sign invented"
+        }
+      ]
+    },
+    {
+      "id": "rn_ymQPrR3g4BVDVyfd::L2::Q2",
+      "moduleId": "rn_ymQPrR3g4BVDVyfd::L2",
+      "stem": "Which equation represents the standard enthalpy change of formation of ethanol, C2H5OH(l)?",
+      "misconceptionClass": "equation drill",
+      "options": [
+        {
+          "key": "A",
+          "text": "C2H5OH(l) -> 2C(s) + 3H2(g) + (1/2)O2(g)",
+          "correct": false,
+          "explanation": "That is decomposition, reversed.",
+          "misconception": "direction inverted"
+        },
+        {
+          "key": "B",
+          "text": "C2H6(g) + (1/2)O2(g) -> C2H5OH(l)",
+          "correct": false,
+          "explanation": "The reactant must be elements, not a compound.",
+          "misconception": "reactant misstated"
+        },
+        {
+          "key": "C",
+          "text": "2C(s) + 3H2(g) + (1/2)O2(g) -> C2H5OH(l)",
+          "correct": true,
+          "explanation": "Elements in standard states balancing to one mole of product.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "4C(s) + 6H2(g) + O2(g) -> 2C2H5OH(l)",
+          "correct": false,
+          "explanation": "Two moles of product break the one-mole rule.",
+          "misconception": "quantity broken"
+        }
+      ]
+    },
+    {
+      "id": "rn_ymQPrR3g4BVDVyfd::L2::Q3",
+      "moduleId": "rn_ymQPrR3g4BVDVyfd::L2",
+      "stem": "Why are fractional coefficients acceptable in formation equations?",
+      "misconceptionClass": "convention reasoning",
+      "options": [
+        {
+          "key": "A",
+          "text": "Fractions conserve energy better",
+          "correct": false,
+          "explanation": "Coefficients do not affect energy meaning.",
+          "misconception": "reason invented"
+        },
+        {
+          "key": "B",
+          "text": "Fractions make equations prettier",
+          "correct": false,
+          "explanation": "The convention is functional, not aesthetic.",
+          "misconception": "reason invented"
+        },
+        {
+          "key": "C",
+          "text": "They are never acceptable",
+          "correct": false,
+          "explanation": "The one-mole rule demands them.",
+          "misconception": "claim false"
+        },
+        {
+          "key": "D",
+          "text": "The one-mole product rule forces them when element counts are odd",
+          "correct": true,
+          "explanation": "The product quantity outranks the whole-number habit.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_ymQPrR3g4BVDVyfd::L2::Q4",
+      "moduleId": "rn_ymQPrR3g4BVDVyfd::L2",
+      "stem": "What must accompany every equation quoted from the definitions table?",
+      "misconceptionClass": "precision drill",
+      "options": [
+        {
+          "key": "A",
+          "text": "State symbols for every species",
+          "correct": true,
+          "explanation": "States are part of the definition's precision.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "A catalyst name",
+          "correct": false,
+          "explanation": "Definitions do not involve catalysts.",
+          "misconception": "detail invented"
+        },
+        {
+          "key": "C",
+          "text": "A temperature curve",
+          "correct": false,
+          "explanation": "The standard conditions are quoted, not drawn.",
+          "misconception": "detail invented"
+        },
+        {
+          "key": "D",
+          "text": "Nothing extra",
+          "correct": false,
+          "explanation": "State symbols are required.",
+          "misconception": "precision denied"
+        }
+      ]
+    },
+    {
+      "id": "rn_ymQPrR3g4BVDVyfd::L2::Q5",
+      "moduleId": "rn_ymQPrR3g4BVDVyfd::L2",
+      "stem": "The combustion definition sends one mole of fuel to which products under standard conditions?",
+      "misconceptionClass": "combustion products",
+      "options": [
+        {
+          "key": "A",
+          "text": "CO2 and H2 only",
+          "correct": false,
+          "explanation": "Hydrogen gas is not a combustion product.",
+          "misconception": "species invented"
+        },
+        {
+          "key": "B",
+          "text": "CO2(g) and H2O(l), complete burning in excess oxygen",
+          "correct": true,
+          "explanation": "The complete-oxidation pair.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "CO(g) and H2O(g)",
+          "correct": false,
+          "explanation": "Carbon monoxide marks incomplete burning.",
+          "misconception": "completeness broken"
+        },
+        {
+          "key": "D",
+          "text": "C(s) and H2(g)",
+          "correct": false,
+          "explanation": "That is decomposition, not combustion.",
+          "misconception": "direction inverted"
+        }
+      ]
+    },
+    {
+      "id": "rn_ymQPrR3g4BVDVyfd::L2::Q6",
+      "moduleId": "rn_ymQPrR3g4BVDVyfd::L2",
+      "stem": "State why an element's standard formation enthalpy is zero.",
+      "misconceptionClass": "zero recall",
+      "kind": "recall",
+      "modelAnswer": "Elements in their standard states are the reference floor from which all formation enthalpies are measured, so their own formation change is zero by definition.",
+      "keywords": [
+        "reference",
+        "floor",
+        "zero"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_ymQPrR3g4BVDVyfd::L2::Q7",
+      "moduleId": "rn_ymQPrR3g4BVDVyfd::L2",
+      "stem": "Write the formation equation for methanol, CH3OH(l), from its elements.",
+      "misconceptionClass": "equation recall",
+      "kind": "recall",
+      "modelAnswer": "C(s) + 2H2(g) + (1/2)O2(g) -> CH3OH(l), with every element in its standard state and one mole of product.",
+      "keywords": [
+        "C(s)",
+        "2H2(g)",
+        "CH3OH(l)"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_ymQPrR3g4BVDVyfd::L2::Q8",
+      "moduleId": "rn_ymQPrR3g4BVDVyfd::L2",
+      "stem": "Explain why the one-mole product rule matters when writing formation equations.",
+      "misconceptionClass": "convention reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "Formation enthalpies feed Hess cycles as per-mole quantities, so an equation making two moles would deliver the wrong scale into every cycle built on it - the rule keeps the table additive.",
+      "keywords": [
+        "per-mole",
+        "scale",
+        "additive"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_ymQPrR3g4BVDVyfd::L2::Q9",
+      "moduleId": "rn_ymQPrR3g4BVDVyfd::L2",
+      "stem": "Write the standard formation equation for propan-1-ol, C3H7OH(l), and verify the hydrogen count.",
+      "misconceptionClass": "equation application",
+      "kind": "application",
+      "modelAnswer": "3C(s) + 4H2(g) + (1/2)O2(g) -> C3H7OH(l): the elements' hydrogens total 4 x 2 = 8, matching the product's 7 + 1 = 8 hydrogens.",
+      "keywords": [
+        "3C(s)",
+        "4H2(g)",
+        "C3H7OH(l)"
+      ],
+      "options": []
+    }
+  ]
+}

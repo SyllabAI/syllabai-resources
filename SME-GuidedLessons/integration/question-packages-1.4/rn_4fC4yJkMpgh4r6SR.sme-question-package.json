@@ -1,0 +1,487 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_4fC4yJkMpgh4r6SR",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "e84b40414828996eced6df004f983ac6a4faca3f815b6ec65a9b84d5f8eb3f84",
+    "pinnedRef": "ba08669f2dbfc1a4d18d01abc07ef1efa248388d"
+  },
+  "packageId": "ial-chemistry::rn_4fC4yJkMpgh4r6SR",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_4fC4yJkMpgh4r6SR::L1::Q1",
+      "moduleId": "rn_4fC4yJkMpgh4r6SR::L1",
+      "stem": "Why is the hydrogen atom of HBr described as the electrophile?",
+      "misconceptionClass": "electrophile identity",
+      "options": [
+        {
+          "key": "A",
+          "text": "It carries a delta-positive charge from the polarised bond",
+          "correct": true,
+          "explanation": "Bromine's higher electronegativity leaves hydrogen electron-poor.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "It donates electrons to the alkene",
+          "correct": false,
+          "explanation": "The hydrogen accepts electron density - donation runs the other way.",
+          "misconception": "role inverted"
+        },
+        {
+          "key": "C",
+          "text": "It carries a delta-negative charge",
+          "correct": false,
+          "explanation": "The negative end of HBr is the bromine.",
+          "misconception": "dipole inverted"
+        },
+        {
+          "key": "D",
+          "text": "It is a free radical",
+          "correct": false,
+          "explanation": "HBr adds by the ionic electrophilic route.",
+          "misconception": "mechanism misclassified"
+        }
+      ]
+    },
+    {
+      "id": "rn_4fC4yJkMpgh4r6SR::L1::Q2",
+      "moduleId": "rn_4fC4yJkMpgh4r6SR::L1",
+      "stem": "What happens to the polarised H-Br bond during step one of the mechanism?",
+      "misconceptionClass": "bond fission step",
+      "options": [
+        {
+          "key": "A",
+          "text": "It transfers its electrons to hydrogen",
+          "correct": false,
+          "explanation": "Hydrogen departs bonded to the pi pair instead.",
+          "misconception": "electron flow inverted"
+        },
+        {
+          "key": "B",
+          "text": "It breaks heterolytically, both electrons leaving with bromine",
+          "correct": true,
+          "explanation": "The pair departs to the more electronegative atom.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "It breaks homolytically to give radicals",
+          "correct": false,
+          "explanation": "No radicals appear in electrophilic addition.",
+          "misconception": "fission type swapped"
+        },
+        {
+          "key": "D",
+          "text": "It stays intact throughout",
+          "correct": false,
+          "explanation": "The bromide must be free to attack in step two.",
+          "misconception": "bond denial"
+        }
+      ]
+    },
+    {
+      "id": "rn_4fC4yJkMpgh4r6SR::L1::Q3",
+      "moduleId": "rn_4fC4yJkMpgh4r6SR::L1",
+      "stem": "Which species attacks the carbocation in step two?",
+      "misconceptionClass": "step two attacker",
+      "options": [
+        {
+          "key": "A",
+          "text": "The hydrogen atom",
+          "correct": false,
+          "explanation": "Hydrogen has already been delivered to the first carbon.",
+          "misconception": "sequence confused"
+        },
+        {
+          "key": "B",
+          "text": "A solvent molecule",
+          "correct": false,
+          "explanation": "The bromide is the reagent's own partner.",
+          "misconception": "spectator invented"
+        },
+        {
+          "key": "C",
+          "text": "The bromide ion with its lone pair",
+          "correct": true,
+          "explanation": "Br(-) donates a pair to the positive carbon.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Another ethene molecule",
+          "correct": false,
+          "explanation": "One addition is complete after two steps.",
+          "misconception": "chain misread"
+        }
+      ]
+    },
+    {
+      "id": "rn_4fC4yJkMpgh4r6SR::L1::Q4",
+      "moduleId": "rn_4fC4yJkMpgh4r6SR::L1",
+      "stem": "Where must a curly arrow start in a valid mechanism?",
+      "misconceptionClass": "arrow origin law",
+      "options": [
+        {
+          "key": "A",
+          "text": "From the atom's nucleus",
+          "correct": false,
+          "explanation": "Arrows follow electrons, never nuclei.",
+          "misconception": "arrow target misread"
+        },
+        {
+          "key": "B",
+          "text": "From the positive charge symbol",
+          "correct": false,
+          "explanation": "Charges mark destinations, not origins.",
+          "misconception": "charge confused with arrow"
+        },
+        {
+          "key": "C",
+          "text": "Anywhere within the molecule",
+          "correct": false,
+          "explanation": "Origins must be electron sources - precision carries the mark.",
+          "misconception": "loose rule misstated"
+        },
+        {
+          "key": "D",
+          "text": "From a bond or a lone pair of electrons",
+          "correct": true,
+          "explanation": "Arrows track electron pairs, so they begin where pairs live.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_4fC4yJkMpgh4r6SR::L1::Q5",
+      "moduleId": "rn_4fC4yJkMpgh4r6SR::L1",
+      "stem": "When the polarised HBr adds to propene, which product is the major one and why?",
+      "misconceptionClass": "regioselectivity",
+      "options": [
+        {
+          "key": "A",
+          "text": "2-bromopropane, via the more stable secondary carbocation",
+          "correct": true,
+          "explanation": "The positive charge sits on the middle carbon where alkyl groups steady it.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "1-bromopropane, via the more stable primary carbocation",
+          "correct": false,
+          "explanation": "Primary carbocations are the less stable kind.",
+          "misconception": "stability inverted"
+        },
+        {
+          "key": "C",
+          "text": "2-bromopropane, via a radical intermediate",
+          "correct": false,
+          "explanation": "No radical intermediates operate here.",
+          "misconception": "mechanism misclassified"
+        },
+        {
+          "key": "D",
+          "text": "1-bromopropane, because addition is random",
+          "correct": false,
+          "explanation": "The regioselectivity is decided, not random.",
+          "misconception": "selectivity denied"
+        }
+      ]
+    },
+    {
+      "id": "rn_4fC4yJkMpgh4r6SR::L1::Q6",
+      "moduleId": "rn_4fC4yJkMpgh4r6SR::L1",
+      "stem": "Define the term electrophile and identify it in the HBr addition.",
+      "misconceptionClass": "electrophile recall",
+      "kind": "recall",
+      "modelAnswer": "An electrophile is an electron-pair acceptor attracted to electron-rich regions; in HBr addition the delta-positive hydrogen fills that role.",
+      "keywords": [
+        "electron-pair acceptor",
+        "delta-positive",
+        "hydrogen"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_4fC4yJkMpgh4r6SR::L1::Q7",
+      "moduleId": "rn_4fC4yJkMpgh4r6SR::L1",
+      "stem": "Write the two steps of the HBr-plus-ethene mechanism in words, in order.",
+      "misconceptionClass": "sequence recall",
+      "kind": "recall",
+      "modelAnswer": "First the pi bond attacks the delta-positive hydrogen while H-Br breaks to bromide, forming the carbocation; then the bromide ion donates its lone pair to the carbocation.",
+      "keywords": [
+        "pi bond",
+        "carbocation",
+        "bromide"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_4fC4yJkMpgh4r6SR::L1::Q8",
+      "moduleId": "rn_4fC4yJkMpgh4r6SR::L1",
+      "stem": "Explain why a carbocation intermediate forms in this mechanism.",
+      "misconceptionClass": "intermediate reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "Heterolytic fission hands the H-Br electron pair entirely to bromine, so after hydrogen bonds to one alkene carbon the other carbon is left electron-short and formally positive until bromide arrives.",
+      "keywords": [
+        "heterolytic",
+        "electron-short",
+        "positive"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_4fC4yJkMpgh4r6SR::L1::Q9",
+      "moduleId": "rn_4fC4yJkMpgh4r6SR::L1",
+      "stem": "Draw the full mechanism for HBr adding to ethene, marking both curly arrow origins.",
+      "misconceptionClass": "drawing application",
+      "kind": "application",
+      "modelAnswer": "Arrow one runs from the C=C pi bond to the delta-positive hydrogen, arrow two runs from the H-Br bond to bromine giving Br(-); after the carbocation appears, arrow three runs from the Br(-) lone pair onto the positive carbon.",
+      "keywords": [
+        "pi bond",
+        "lone pair",
+        "carbocation"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_4fC4yJkMpgh4r6SR::L2::Q1",
+      "moduleId": "rn_4fC4yJkMpgh4r6SR::L2",
+      "stem": "What polarises the Br-Br bond as bromine approaches an alkene?",
+      "misconceptionClass": "induction source",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ultraviolet light",
+          "correct": false,
+          "explanation": "Light initiates radical reactions, not this ionic addition.",
+          "misconception": "mechanism crossed"
+        },
+        {
+          "key": "B",
+          "text": "The electron-rich pi cloud of the alkene",
+          "correct": true,
+          "explanation": "Approaching density pushes the shared pair toward the far bromine.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "The solvent's permanent polarity",
+          "correct": false,
+          "explanation": "The induction is intrinsic to the approach, not solvent-borne.",
+          "misconception": "external cause invented"
+        },
+        {
+          "key": "D",
+          "text": "The hydrogen atoms on the alkene",
+          "correct": false,
+          "explanation": "Hydrogens are not the polarising agent here.",
+          "misconception": "misattribution"
+        }
+      ]
+    },
+    {
+      "id": "rn_4fC4yJkMpgh4r6SR::L2::Q2",
+      "moduleId": "rn_4fC4yJkMpgh4r6SR::L2",
+      "stem": "Which description of the polarised Br2 species is correct?",
+      "misconceptionClass": "dipole description",
+      "options": [
+        {
+          "key": "A",
+          "text": "Both bromines delta-positive",
+          "correct": false,
+          "explanation": "One atom takes the deficit, not both.",
+          "misconception": "charges duplicated"
+        },
+        {
+          "key": "B",
+          "text": "No polarisation occurs",
+          "correct": false,
+          "explanation": "Polarisation is the entire mechanism's trigger.",
+          "misconception": "induction denied"
+        },
+        {
+          "key": "C",
+          "text": "Near bromine delta-positive, far bromine delta-negative",
+          "correct": true,
+          "explanation": "Electron density is pushed away from the approaching atom.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Near bromine delta-negative, far bromine delta-positive",
+          "correct": false,
+          "explanation": "The push runs away from the alkene, so the near end is positive.",
+          "misconception": "dipole inverted"
+        }
+      ]
+    },
+    {
+      "id": "rn_4fC4yJkMpgh4r6SR::L2::Q3",
+      "moduleId": "rn_4fC4yJkMpgh4r6SR::L2",
+      "stem": "What is the organic product when bromine adds to ethene?",
+      "misconceptionClass": "dibromo product",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bromoethane",
+          "correct": false,
+          "explanation": "Two bromine atoms enter; both must appear in the product.",
+          "misconception": "atom dropped"
+        },
+        {
+          "key": "B",
+          "text": "Ethane-1,2-diol",
+          "correct": false,
+          "explanation": "No oxygen participates in bromine addition.",
+          "misconception": "oxygen invented"
+        },
+        {
+          "key": "C",
+          "text": "Hexane",
+          "correct": false,
+          "explanation": "Carbon count is unchanged at two.",
+          "misconception": "carbon count broken"
+        },
+        {
+          "key": "D",
+          "text": "1,2-dibromoethane",
+          "correct": true,
+          "explanation": "One bromine on each alkene carbon - di-substituted.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_4fC4yJkMpgh4r6SR::L2::Q4",
+      "moduleId": "rn_4fC4yJkMpgh4r6SR::L2",
+      "stem": "How does the Br-Br bond break during electrophilic addition to ethene?",
+      "misconceptionClass": "fission type",
+      "options": [
+        {
+          "key": "A",
+          "text": "Heterolytically, giving Br(-) and the polarised electrophile",
+          "correct": true,
+          "explanation": "Both electrons leave with the departing bromide.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Homolytically, giving two bromine radicals",
+          "correct": false,
+          "explanation": "Radical chemistry belongs to UV substitution routes.",
+          "misconception": "fission type swapped"
+        },
+        {
+          "key": "C",
+          "text": "It never breaks",
+          "correct": false,
+          "explanation": "Both atoms join the product, so the bond must break first.",
+          "misconception": "bond denial"
+        },
+        {
+          "key": "D",
+          "text": "It breaks to give Br(2-)",
+          "correct": false,
+          "explanation": "The departing species carries one electron pair, making a single negative ion.",
+          "misconception": "charge miscounted"
+        }
+      ]
+    },
+    {
+      "id": "rn_4fC4yJkMpgh4r6SR::L2::Q5",
+      "moduleId": "rn_4fC4yJkMpgh4r6SR::L2",
+      "stem": "Why does the bromine water test also work through this mechanism?",
+      "misconceptionClass": "test linkage",
+      "options": [
+        {
+          "key": "A",
+          "text": "Light decomposes the bromine",
+          "correct": false,
+          "explanation": "The test works in the dark with alkenes.",
+          "misconception": "condition misstated"
+        },
+        {
+          "key": "B",
+          "text": "The alkene induces the same dipole and consumes Br2 into a dibromo product, bleaching the reagent",
+          "correct": true,
+          "explanation": "Consumption of bromine is the visible endpoint.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Bromine water is ionic and reacts by substitution",
+          "correct": false,
+          "explanation": "The addition pathway, not substitution, consumes the reagent.",
+          "misconception": "pathway misstated"
+        },
+        {
+          "key": "D",
+          "text": "Water oxidises the alkene instead",
+          "correct": false,
+          "explanation": "Water is the solvent; manganate does the oxidising.",
+          "misconception": "reagent crossed"
+        }
+      ]
+    },
+    {
+      "id": "rn_4fC4yJkMpgh4r6SR::L2::Q6",
+      "moduleId": "rn_4fC4yJkMpgh4r6SR::L2",
+      "stem": "Define an induced dipole in the context of bromine addition.",
+      "misconceptionClass": "induced dipole recall",
+      "kind": "recall",
+      "modelAnswer": "An induced dipole is the temporary charge separation created when the alkene's electron density pushes the Br-Br shared pair toward the far bromine, making the near atom delta-positive.",
+      "keywords": [
+        "temporary",
+        "electron density",
+        "delta-positive"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_4fC4yJkMpgh4r6SR::L2::Q7",
+      "moduleId": "rn_4fC4yJkMpgh4r6SR::L2",
+      "stem": "State the equation for bromine adding to ethene, with the product name.",
+      "misconceptionClass": "equation recall",
+      "kind": "recall",
+      "modelAnswer": "CH2=CH2 + Br2 -> CH2BrCH2Br, the addition giving 1,2-dibromoethane.",
+      "keywords": [
+        "ethene",
+        "Br2",
+        "1,2-dibromoethane"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_4fC4yJkMpgh4r6SR::L2::Q8",
+      "moduleId": "rn_4fC4yJkMpgh4r6SR::L2",
+      "stem": "Explain why bromine, though non-polar, still participates in electrophilic addition.",
+      "misconceptionClass": "paradox resolution",
+      "kind": "explain-why",
+      "modelAnswer": "Electrophilic character does not require a permanent dipole: the pi cloud induces one on approach, and the induced delta-positive bromine behaves exactly like any other electrophile.",
+      "keywords": [
+        "induced",
+        "dipole",
+        "electrophile"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_4fC4yJkMpgh4r6SR::L2::Q9",
+      "moduleId": "rn_4fC4yJkMpgh4r6SR::L2",
+      "stem": "Propene is treated with bromine water. Name the organic product and state the observation.",
+      "misconceptionClass": "test application",
+      "kind": "application",
+      "modelAnswer": "Addition places bromine across the double bond to give 1,2-dibromopropane, and the orange bromine water decolourises as the reagent is consumed.",
+      "keywords": [
+        "1,2-dibromopropane",
+        "decolourise",
+        "addition"
+      ],
+      "options": []
+    }
+  ]
+}

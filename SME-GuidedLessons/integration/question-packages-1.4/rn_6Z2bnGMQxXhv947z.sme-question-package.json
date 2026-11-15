@@ -1,0 +1,723 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_6Z2bnGMQxXhv947z",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "b9729f8b671e1064b17731ff44ef410509c93db5d0452b2d6f0fd085b7f33fd1",
+    "pinnedRef": "ba08669f2dbfc1a4d18d01abc07ef1efa248388d"
+  },
+  "packageId": "ial-chemistry::rn_6Z2bnGMQxXhv947z",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_6Z2bnGMQxXhv947z::L1::Q1",
+      "moduleId": "rn_6Z2bnGMQxXhv947z::L1",
+      "stem": "What happens during the initiation step of free radical substitution?",
+      "misconceptionClass": "initiation events",
+      "options": [
+        {
+          "key": "A",
+          "text": "The halogen molecule splits homolytically into two radicals",
+          "correct": true,
+          "explanation": "UV energy divides the shared pair evenly.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "A methane molecule loses a hydrogen",
+          "correct": false,
+          "explanation": "That is propagation's business.",
+          "misconception": "step confused"
+        },
+        {
+          "key": "C",
+          "text": "Chloromethane forms",
+          "correct": false,
+          "explanation": "Organic product appears only in propagation.",
+          "misconception": "step confused"
+        },
+        {
+          "key": "D",
+          "text": "Two radicals recombine",
+          "correct": false,
+          "explanation": "Recombination is termination.",
+          "misconception": "step confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_6Z2bnGMQxXhv947z::L1::Q2",
+      "moduleId": "rn_6Z2bnGMQxXhv947z::L1",
+      "stem": "Which equation and condition correctly describe initiation?",
+      "misconceptionClass": "equation and condition",
+      "options": [
+        {
+          "key": "A",
+          "text": "CH4 -> CH3• + H• in sunlight",
+          "correct": false,
+          "explanation": "Methane does not initiate this chain.",
+          "misconception": "species swapped"
+        },
+        {
+          "key": "B",
+          "text": "Cl2 -> 2Cl• under ultraviolet light",
+          "correct": true,
+          "explanation": "The canonical initiation of the methane chlorination chain.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Cl2 -> Cl(+) + Cl(-) under UV",
+          "correct": false,
+          "explanation": "That is heterolytic fission.",
+          "misconception": "fission type swapped"
+        },
+        {
+          "key": "D",
+          "text": "Cl2 -> 2Cl• in darkness",
+          "correct": false,
+          "explanation": "The UV condition is required.",
+          "misconception": "condition dropped"
+        }
+      ]
+    },
+    {
+      "id": "rn_6Z2bnGMQxXhv947z::L1::Q3",
+      "moduleId": "rn_6Z2bnGMQxXhv947z::L1",
+      "stem": "How are free radicals represented in mechanisms?",
+      "misconceptionClass": "notation",
+      "options": [
+        {
+          "key": "A",
+          "text": "By a bracketed octet",
+          "correct": false,
+          "explanation": "Radicals are electron-short, not octet-complete.",
+          "misconception": "notation crossed"
+        },
+        {
+          "key": "B",
+          "text": "By underlining the symbol",
+          "correct": false,
+          "explanation": "Dots, not underlines, are the convention.",
+          "misconception": "notation invented"
+        },
+        {
+          "key": "C",
+          "text": "By a single dot showing the unpaired electron",
+          "correct": true,
+          "explanation": "Cl• carries its dot everywhere it appears.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "By a full positive charge",
+          "correct": false,
+          "explanation": "Radicals are neutral.",
+          "misconception": "notation crossed"
+        }
+      ]
+    },
+    {
+      "id": "rn_6Z2bnGMQxXhv947z::L1::Q4",
+      "moduleId": "rn_6Z2bnGMQxXhv947z::L1",
+      "stem": "What does a half-headed curly arrow signify in a radical mechanism?",
+      "misconceptionClass": "arrow semantics",
+      "options": [
+        {
+          "key": "A",
+          "text": "The movement of an electron pair",
+          "correct": false,
+          "explanation": "That is the full-headed arrow's meaning.",
+          "misconception": "arrowhead swapped"
+        },
+        {
+          "key": "B",
+          "text": "The movement of an atom",
+          "correct": false,
+          "explanation": "Arrows follow electrons, not atoms.",
+          "misconception": "semantics crossed"
+        },
+        {
+          "key": "C",
+          "text": "The direction of the overall reaction",
+          "correct": false,
+          "explanation": "Arrows are local, not global.",
+          "misconception": "semantics crossed"
+        },
+        {
+          "key": "D",
+          "text": "The movement of a single electron",
+          "correct": true,
+          "explanation": "Half-heads track single electrons; full heads track pairs.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_6Z2bnGMQxXhv947z::L1::Q5",
+      "moduleId": "rn_6Z2bnGMQxXhv947z::L1",
+      "stem": "Why does initiation produce no organic product?",
+      "misconceptionClass": "step scope",
+      "options": [
+        {
+          "key": "A",
+          "text": "It only generates the radicals that later attack the alkane",
+          "correct": true,
+          "explanation": "The halogen split is purely preparative.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Methane refuses to react at all",
+          "correct": false,
+          "explanation": "Methane reacts in propagation.",
+          "misconception": "reactivity misattributed"
+        },
+        {
+          "key": "C",
+          "text": "Light destroys the methane",
+          "correct": false,
+          "explanation": "Methane is unaffected by UV here.",
+          "misconception": "claim false"
+        },
+        {
+          "key": "D",
+          "text": "The radicals are inert",
+          "correct": false,
+          "explanation": "Radicals are the most reactive species present.",
+          "misconception": "property inverted"
+        }
+      ]
+    },
+    {
+      "id": "rn_6Z2bnGMQxXhv947z::L1::Q6",
+      "moduleId": "rn_6Z2bnGMQxXhv947z::L1",
+      "stem": "Write the initiation step for the chlorination of methane, including the condition.",
+      "misconceptionClass": "equation recall",
+      "kind": "recall",
+      "modelAnswer": "Cl2 -> 2Cl•, initiated by ultraviolet light splitting the halogen molecule homolytically.",
+      "keywords": [
+        "Cl2",
+        "2Cl•",
+        "ultraviolet"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_6Z2bnGMQxXhv947z::L1::Q7",
+      "moduleId": "rn_6Z2bnGMQxXhv947z::L1",
+      "stem": "Define a free radical and state the notation used for it.",
+      "misconceptionClass": "definition recall",
+      "kind": "recall",
+      "modelAnswer": "A free radical is a species with an unpaired electron, represented by a single dot after the symbol.",
+      "keywords": [
+        "unpaired electron",
+        "single dot",
+        "species"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_6Z2bnGMQxXhv947z::L1::Q8",
+      "moduleId": "rn_6Z2bnGMQxXhv947z::L1",
+      "stem": "Explain why ultraviolet light is required for initiation but not for the propagation steps.",
+      "misconceptionClass": "energy reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "Breaking the Cl-Cl bond homolytically needs the photon's energy input, whereas the propagation reactions release energy through new bond formation and run spontaneously once radicals exist.",
+      "keywords": [
+        "energy",
+        "bond",
+        "spontaneous"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_6Z2bnGMQxXhv947z::L1::Q9",
+      "moduleId": "rn_6Z2bnGMQxXhv947z::L1",
+      "stem": "Bromine is used instead of chlorine in a radical substitution. Write the initiation step with correct notation and name the condition.",
+      "misconceptionClass": "initiation application",
+      "kind": "application",
+      "modelAnswer": "Br2 -> 2Br• under ultraviolet light: the halogen molecule splits homolytically into two bromine radicals, each carrying its unpaired electron as a dot.",
+      "keywords": [
+        "Br2",
+        "2Br•",
+        "ultraviolet"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_6Z2bnGMQxXhv947z::L2::Q1",
+      "moduleId": "rn_6Z2bnGMQxXhv947z::L2",
+      "stem": "Which equation is propagation step one in methane chlorination?",
+      "misconceptionClass": "step one drill",
+      "options": [
+        {
+          "key": "A",
+          "text": "CH3• + Cl• -> CH3Cl",
+          "correct": false,
+          "explanation": "That is a termination collision.",
+          "misconception": "step swapped"
+        },
+        {
+          "key": "B",
+          "text": "Cl• + CH4 -> CH3• + HCl",
+          "correct": true,
+          "explanation": "The chlorine radical extracts hydrogen.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "CH3• + Cl2 -> CH3Cl + Cl•",
+          "correct": false,
+          "explanation": "That is step two.",
+          "misconception": "step swapped"
+        },
+        {
+          "key": "D",
+          "text": "Cl2 -> 2Cl•",
+          "correct": false,
+          "explanation": "That is initiation.",
+          "misconception": "step swapped"
+        }
+      ]
+    },
+    {
+      "id": "rn_6Z2bnGMQxXhv947z::L2::Q2",
+      "moduleId": "rn_6Z2bnGMQxXhv947z::L2",
+      "stem": "Why is propagation called a chain reaction?",
+      "misconceptionClass": "chain logic",
+      "options": [
+        {
+          "key": "A",
+          "text": "Each step requires fresh UV light",
+          "correct": false,
+          "explanation": "Only initiation needs the photon.",
+          "misconception": "condition misstated"
+        },
+        {
+          "key": "B",
+          "text": "The products are polymer chains",
+          "correct": false,
+          "explanation": "Small molecules only.",
+          "misconception": "product misstated"
+        },
+        {
+          "key": "C",
+          "text": "Each step regenerates the radical the next step needs",
+          "correct": true,
+          "explanation": "The carrier is never depleted until termination.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "The reactions happen in a physical chain of molecules",
+          "correct": false,
+          "explanation": "The chain is chemical, not spatial.",
+          "misconception": "metaphor literalised"
+        }
+      ]
+    },
+    {
+      "id": "rn_6Z2bnGMQxXhv947z::L2::Q3",
+      "moduleId": "rn_6Z2bnGMQxXhv947z::L2",
+      "stem": "What does propagation step two regenerate?",
+      "misconceptionClass": "regeneration drill",
+      "options": [
+        {
+          "key": "A",
+          "text": "A methyl radical from methane",
+          "correct": false,
+          "explanation": "Step one, not step two, forms methyl radicals.",
+          "misconception": "step swapped"
+        },
+        {
+          "key": "B",
+          "text": "Ultraviolet light",
+          "correct": false,
+          "explanation": "Light is consumed, not generated.",
+          "misconception": "nonsense option"
+        },
+        {
+          "key": "C",
+          "text": "Hydrogen chloride",
+          "correct": false,
+          "explanation": "HCl is step one's product.",
+          "misconception": "product misplaced"
+        },
+        {
+          "key": "D",
+          "text": "A chlorine radical from chlorine molecules",
+          "correct": true,
+          "explanation": "CH3• + Cl2 -> CH3Cl + Cl• hands the baton back.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_6Z2bnGMQxXhv947z::L2::Q4",
+      "moduleId": "rn_6Z2bnGMQxXhv947z::L2",
+      "stem": "Sum the two propagation steps. What overall change do they achieve?",
+      "misconceptionClass": "summation drill",
+      "options": [
+        {
+          "key": "A",
+          "text": "CH4 + Cl2 -> CH3Cl + HCl, with radicals cancelling",
+          "correct": true,
+          "explanation": "One hydrogen swapped for one chlorine.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "CH4 + Cl2 -> CH2Cl2 + H2",
+          "correct": false,
+          "explanation": "Further substitution is not this sum.",
+          "misconception": "product misstated"
+        },
+        {
+          "key": "C",
+          "text": "CH4 -> CH3Cl only",
+          "correct": false,
+          "explanation": "The chlorine must land somewhere as HCl.",
+          "misconception": "atom ledger broken"
+        },
+        {
+          "key": "D",
+          "text": "CH4 + 2Cl2 -> CCl4 + 2HCl",
+          "correct": false,
+          "explanation": "That is triple substitution, not one cycle.",
+          "misconception": "over-substituted"
+        }
+      ]
+    },
+    {
+      "id": "rn_6Z2bnGMQxXhv947z::L2::Q5",
+      "moduleId": "rn_6Z2bnGMQxXhv947z::L2",
+      "stem": "What happens to the radical count during propagation?",
+      "misconceptionClass": "population dynamics",
+      "options": [
+        {
+          "key": "A",
+          "text": "It rises only in sunlight",
+          "correct": false,
+          "explanation": "Sunlight is not part of propagation.",
+          "misconception": "condition misstated"
+        },
+        {
+          "key": "B",
+          "text": "It stays constant: every stroke consumes one and makes one",
+          "correct": true,
+          "explanation": "Self-sustaining by design.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "It doubles each stroke",
+          "correct": false,
+          "explanation": "Growth would runaway-explode instantly.",
+          "misconception": "dynamics invented"
+        },
+        {
+          "key": "D",
+          "text": "It halves each stroke",
+          "correct": false,
+          "explanation": "Decay would end the chain immediately.",
+          "misconception": "dynamics invented"
+        }
+      ]
+    },
+    {
+      "id": "rn_6Z2bnGMQxXhv947z::L2::Q6",
+      "moduleId": "rn_6Z2bnGMQxXhv947z::L2",
+      "stem": "Write both propagation steps of methane chlorination with radical dots.",
+      "misconceptionClass": "equations recall",
+      "kind": "recall",
+      "modelAnswer": "Step one: Cl• + CH4 -> CH3• + HCl; step two: CH3• + Cl2 -> CH3Cl + Cl•.",
+      "keywords": [
+        "CH3•",
+        "HCl",
+        "Cl•"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_6Z2bnGMQxXhv947z::L2::Q7",
+      "moduleId": "rn_6Z2bnGMQxXhv947z::L2",
+      "stem": "State what is meant by a chain reaction in this context.",
+      "misconceptionClass": "concept recall",
+      "kind": "recall",
+      "modelAnswer": "A chain reaction is the alternating propagation sequence in which each stroke consumes one radical and regenerates another, letting the substitution run thousands of times from one initiation event.",
+      "keywords": [
+        "alternating",
+        "regenerate",
+        "thousands"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_6Z2bnGMQxXhv947z::L2::Q8",
+      "moduleId": "rn_6Z2bnGMQxXhv947z::L2",
+      "stem": "Explain why the propagation steps' sum equals the overall substitution equation.",
+      "misconceptionClass": "summation reasoning",
+      "kind": "explain-why",
+      "modelAnswer": "Adding the two strokes cancels the radical intermediates - Cl• appears as reactant then product, CH3• likewise - leaving only CH4 + Cl2 -> CH3Cl + HCl.",
+      "keywords": [
+        "cancel",
+        "intermediates",
+        "overall"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_6Z2bnGMQxXhv947z::L2::Q9",
+      "moduleId": "rn_6Z2bnGMQxXhv947z::L2",
+      "stem": "Write the two propagation steps for the bromination of methane and sum them.",
+      "misconceptionClass": "propagation application",
+      "kind": "application",
+      "modelAnswer": "Br• + CH4 -> CH3• + HBr; CH3• + Br2 -> CH3Br + Br•; the sum is CH4 + Br2 -> CH3Br + HBr with both radicals cancelled.",
+      "keywords": [
+        "CH3•",
+        "HBr",
+        "sum"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_6Z2bnGMQxXhv947z::L3::Q1",
+      "moduleId": "rn_6Z2bnGMQxXhv947z::L3",
+      "stem": "What ends a radical chain during termination?",
+      "misconceptionClass": "termination event",
+      "options": [
+        {
+          "key": "A",
+          "text": "Running out of ultraviolet light",
+          "correct": false,
+          "explanation": "Light is not needed after initiation.",
+          "misconception": "condition misstated"
+        },
+        {
+          "key": "B",
+          "text": "The chlorine being used up",
+          "correct": false,
+          "explanation": "Chlorine depletion slows but the defining event is radical pairing.",
+          "misconception": "event misattributed"
+        },
+        {
+          "key": "C",
+          "text": "Two radicals combining into one molecule",
+          "correct": true,
+          "explanation": "The two unpaired electrons pair up.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "A radical meeting methane",
+          "correct": false,
+          "explanation": "That is propagation.",
+          "misconception": "step confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_6Z2bnGMQxXhv947z::L3::Q2",
+      "moduleId": "rn_6Z2bnGMQxXhv947z::L3",
+      "stem": "Which equation is a valid termination step?",
+      "misconceptionClass": "termination drill",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cl• + CH4 -> CH3• + HCl",
+          "correct": false,
+          "explanation": "That is propagation.",
+          "misconception": "step confused"
+        },
+        {
+          "key": "B",
+          "text": "CH3• + Cl2 -> CH3Cl + Cl•",
+          "correct": false,
+          "explanation": "That is propagation.",
+          "misconception": "step confused"
+        },
+        {
+          "key": "C",
+          "text": "Cl2 -> 2Cl•",
+          "correct": false,
+          "explanation": "That is initiation.",
+          "misconception": "step confused"
+        },
+        {
+          "key": "D",
+          "text": "CH3• + CH3• -> C2H6",
+          "correct": true,
+          "explanation": "Two methyl radicals pair into ethane.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_6Z2bnGMQxXhv947z::L3::Q3",
+      "moduleId": "rn_6Z2bnGMQxXhv947z::L3",
+      "stem": "Which products arise from further substitution of chloromethane?",
+      "misconceptionClass": "over-substitution drill",
+      "options": [
+        {
+          "key": "A",
+          "text": "CH2Cl2, CHCl3 and CCl4",
+          "correct": true,
+          "explanation": "Each successive hydrogen can be replaced.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "C2H6 and HCl",
+          "correct": false,
+          "explanation": "Ethane comes from radical pairing, not substitution.",
+          "misconception": "process confused"
+        },
+        {
+          "key": "C",
+          "text": "CH3CH3 only",
+          "correct": false,
+          "explanation": "No carbon-carbon bond forms by substitution on methane.",
+          "misconception": "bonding misstated"
+        },
+        {
+          "key": "D",
+          "text": "No further products form",
+          "correct": false,
+          "explanation": "Further substitution is the mechanism's flaw.",
+          "misconception": "claim false"
+        }
+      ]
+    },
+    {
+      "id": "rn_6Z2bnGMQxXhv947z::L3::Q4",
+      "moduleId": "rn_6Z2bnGMQxXhv947z::L3",
+      "stem": "Why is free radical substitution of limited use in synthesis?",
+      "misconceptionClass": "limitation reasoning",
+      "options": [
+        {
+          "key": "A",
+          "text": "It is too slow industrially",
+          "correct": false,
+          "explanation": "Chain reactions are fast; selectivity is the problem.",
+          "misconception": "property misstated"
+        },
+        {
+          "key": "B",
+          "text": "It produces mixtures through further substitution and uncontrolled positions",
+          "correct": true,
+          "explanation": "Purity is unattainable by this route.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "It requires expensive catalysts",
+          "correct": false,
+          "explanation": "The route needs UV light, not catalysts.",
+          "misconception": "condition misstated"
+        },
+        {
+          "key": "D",
+          "text": "It works only on alkenes",
+          "correct": false,
+          "explanation": "It is an alkane chemistry.",
+          "misconception": "class crossed"
+        }
+      ]
+    },
+    {
+      "id": "rn_6Z2bnGMQxXhv947z::L3::Q5",
+      "moduleId": "rn_6Z2bnGMQxXhv947z::L3",
+      "stem": "Chlorinating propane gives several monochlorinated products. Why?",
+      "misconceptionClass": "positional mixture",
+      "options": [
+        {
+          "key": "A",
+          "text": "Propane rearranges to methane first",
+          "correct": false,
+          "explanation": "No such rearrangement occurs.",
+          "misconception": "claim invented"
+        },
+        {
+          "key": "B",
+          "text": "Chlorine adds across a double bond",
+          "correct": false,
+          "explanation": "Propane is saturated.",
+          "misconception": "class crossed"
+        },
+        {
+          "key": "C",
+          "text": "The radical can abstract hydrogen from any carbon of the chain",
+          "correct": true,
+          "explanation": "Positions 1 and 2 both compete.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Only the middle carbon reacts",
+          "correct": false,
+          "explanation": "All positions compete.",
+          "misconception": "position misstated"
+        }
+      ]
+    },
+    {
+      "id": "rn_6Z2bnGMQxXhv947z::L3::Q6",
+      "moduleId": "rn_6Z2bnGMQxXhv947z::L3",
+      "stem": "Write two termination equations for the methane chlorination mixture.",
+      "misconceptionClass": "termination recall",
+      "kind": "recall",
+      "modelAnswer": "Cl• + Cl• -> Cl2 and CH3• + CH3• -> C2H6 (with CH3• + Cl• -> CH3Cl also possible).",
+      "keywords": [
+        "Cl•",
+        "C2H6",
+        "termination"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_6Z2bnGMQxXhv947z::L3::Q7",
+      "moduleId": "rn_6Z2bnGMQxXhv947z::L3",
+      "stem": "List the substitution series methane follows under excess chlorine.",
+      "misconceptionClass": "series recall",
+      "kind": "recall",
+      "modelAnswer": "CH4 -> CH3Cl -> CH2Cl2 -> CHCl3 -> CCl4, each step replacing one hydrogen.",
+      "keywords": [
+        "CH3Cl",
+        "CH2Cl2",
+        "CCl4"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_6Z2bnGMQxXhv947z::L3::Q8",
+      "moduleId": "rn_6Z2bnGMQxXhv947z::L3",
+      "stem": "Explain why a single unreactive molecule forms in each termination step.",
+      "misconceptionClass": "pairing logic",
+      "kind": "explain-why",
+      "modelAnswer": "Each radical carries one unpaired electron, so two radicals together supply exactly one shared pair - their combination forms one complete, paired, therefore unreactive molecule.",
+      "keywords": [
+        "pair",
+        "complete",
+        "unreactive"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_6Z2bnGMQxXhv947z::L3::Q9",
+      "moduleId": "rn_6Z2bnGMQxXhv947z::L3",
+      "stem": "A termination event pairs two methyl radicals. Write the equation and show that the atom ledger closes.",
+      "misconceptionClass": "termination application",
+      "kind": "application",
+      "modelAnswer": "CH3• + CH3• -> C2H6: the two radicals together carry 2 carbons and 6 hydrogens, and the ethane product holds exactly 2 C and 6 H, so the ledger closes on both sides.",
+      "keywords": [
+        "C2H6",
+        "radicals",
+        "ledger"
+      ],
+      "options": []
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_CtzhyDct39G6dpvC",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "42d1d65407b456518480c32f869910671b600520651fb9312693de27cb79ef91",
+    "pinnedRef": "ba08669f2dbfc1a4d18d01abc07ef1efa248388d"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_CtzhyDct39G6dpvC",
+    "topicTitle": "1. Structure, Bonding & Introduction to Organic Chemistry",
+    "subtopicTitle": "Alkanes as Fuels",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/1-structure-bonding-and-introduction-to-organic-chemistry/1-9-alkanes/1-9-2-alkanes-as-fuels",
+    "specAnchors": [
+      {
+        "code": "4.12",
+        "text": "know that alkanes are used as fuels and obtained from the fractional distillation, cracking and reforming of crude oil, and be able to write equations for these reactions"
+      }
+    ],
+    "primer": {
+      "text": "Crude oil leaves the well as a mixture worth nothing until it is sorted and reshaped. This note follows the refinery path: fractional distillation dividing fractions by boiling point, cracking splitting heavy chains into light alkenes, and reforming straight chains into branched and cyclic isomers that burn more cleanly.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_CtzhyDct39G6dpvC::L1",
+        "title": "Fractional distillation and reforming",
+        "sourceHeadings": [
+          "Fractional distillation of crude oil",
+          "Reforming alkanes"
+        ],
+        "specRefs": [
+          "4.12"
+        ],
+        "opening": "Crude oil arrives as a jumble of chain lengths worth little until the refinery sorts it. Fractional distillation divides fractions by boiling point, and reforming then reshapes straight chains into branched and cyclic isomers that burn more cleanly in engines.",
+        "keyPoints": [
+          "Crude oil is heated and its vapours rise up a fractionating column, condensing at different heights.",
+          "Fractions separate because each boiling-point band collects at its own level of the column.",
+          "Shorter chains condense near the cool top; longer chains condense near the hot bottom.",
+          "Reforming converts straight-chain alkanes into branched and cyclic isomers.",
+          "Reformed fuels burn more efficiently, which is why refiners pay to reshape their chains."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Heat the oil, let the vapours climb a tower: long chains fall out low where it is hot, short chains climb higher before condensing, and each level drains one fraction.",
+            "analogy": "A running race up a spiral staircase where heavier runners (long chains) drop out on the first floors and light ones (short chains) reach the top.",
+            "examPointer": "Link boiling point to chain length explicitly - questions reward the causal chain, not just 'they separate'."
+          },
+          "medium": {
+            "restatement": "Reforming adds ring strain and branching: cyclohexane from hexane releases hydrogen (CH3CH2CH2CH2CH2CH3 -> C6H12 + H2), and branched isomers resist engine knocking better than straight chains.",
+            "analogy": "Reforming is tailoring the same cloth (same atoms) into a better-fitting garment (burning pattern) for the engine.",
+            "examPointer": "When writing reforming equations, balance the hydrogen gas released - the ring closure costs two hydrogens that appear as H2."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_CtzhyDct39G6dpvC::L1::Q1",
+          "rn_CtzhyDct39G6dpvC::L1::Q2",
+          "rn_CtzhyDct39G6dpvC::L1::Q3",
+          "rn_CtzhyDct39G6dpvC::L1::Q4",
+          "rn_CtzhyDct39G6dpvC::L1::Q5",
+          "rn_CtzhyDct39G6dpvC::L1::Q6",
+          "rn_CtzhyDct39G6dpvC::L1::Q7",
+          "rn_CtzhyDct39G6dpvC::L1::Q8",
+          "rn_CtzhyDct39G6dpvC::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01"
+        ]
+      },
+      {
+        "id": "rn_CtzhyDct39G6dpvC::L2",
+        "title": "Cracking the heavy fractions",
+        "sourceHeadings": [
+          "Cracking of crude oil fractions"
+        ],
+        "specRefs": [
+          "4.12"
+        ],
+        "opening": "Long chains are abundant and low-demand; short alkenes are scarce and precious. Cracking rebalances the market by splitting heavy fractions under heat and catalyst into smaller alkanes plus alkenes - the one refinery reaction that creates unsaturation.",
+        "keyPoints": [
+          "Cracking splits long-chain alkanes into smaller alkanes and alkenes using heat and a catalyst.",
+          "The demand for short alkenes drives the economics: cracking manufactures them from surplus heavy fractions.",
+          "A typical split is decane to octane plus ethene: C10H22 -> C8H18 + C2H4.",
+          "Both product families must balance against the parent chain's carbon and hydrogen counts.",
+          "Cracking is the opposite of polymerisation in spirit: it breaks chains rather than building them."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Heat a heavy alkane over a catalyst and it snaps into a shorter alkane plus an alkene; check your answer by counting carbons and hydrogens on both sides.",
+            "analogy": "A long train splits into a short train and a carriage that can couple with others (the alkene's open bond).",
+            "examPointer": "Always verify a cracking equation with an atom count - an unbalanced hydrogen ledger is the commonest examiner deduction."
+          },
+          "medium": {
+            "restatement": "The catalysed route trades C-C single bonds for a new C=C pi bond, so the hydrogen redistribution must satisfy both the alkane product and the alkene product simultaneously - one equation, two ledgers.",
+            "analogy": "Cutting one rope into two pieces whose combined length equals the original - the alkene piece carries the frayed end (the pi bond).",
+            "examPointer": "State the catalyst (aluminium oxide or zeolite) when the question asks for conditions, alongside the heat."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_CtzhyDct39G6dpvC::L2::Q1",
+          "rn_CtzhyDct39G6dpvC::L2::Q2",
+          "rn_CtzhyDct39G6dpvC::L2::Q3",
+          "rn_CtzhyDct39G6dpvC::L2::Q4",
+          "rn_CtzhyDct39G6dpvC::L2::Q5",
+          "rn_CtzhyDct39G6dpvC::L2::Q6",
+          "rn_CtzhyDct39G6dpvC::L2::Q7",
+          "rn_CtzhyDct39G6dpvC::L2::Q8",
+          "rn_CtzhyDct39G6dpvC::L2::Q9"
+        ],
+        "figureIds": [
+          "fig-02",
+          "fig-03"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "fractional distillation",
+          "definition": "The separation of crude oil into boiling-point fractions up a temperature-graded column.",
+          "firstLesson": 1
+        },
+        {
+          "term": "reforming",
+          "definition": "Converting straight-chain alkanes into branched and cyclic isomers with better burning properties.",
+          "firstLesson": 1
+        },
+        {
+          "term": "cracking",
+          "definition": "Splitting long-chain alkanes into smaller alkanes and alkenes with heat and a catalyst.",
+          "firstLesson": 2
+        }
+      ],
+      "workedExample": {
+        "prompt": "Crack decane (C10H22) into octane (C8H18) and one alkene. Identify the alkene and verify the balance.",
+        "steps": [
+          "Reserve the saturated product: octane C8H18 takes 8 carbons.",
+          "The remaining carbons are 10 - 8 = 2, and they must carry the double bond: C2H4, ethene.",
+          "Check carbons: 8 + 2 = 10 - the carbon ledger closes.",
+          "Check hydrogens: 18 + 4 = 22 - the hydrogen ledger closes."
+        ],
+        "finalAnswer": "C10H22 -> C8H18 + C2H4, with ethene as the alkene; both ledgers balance."
+      }
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/15142aa12293-fractional-distillation.png",
+        "alt": "Fractional-Distillation, IGCSE & GCSE Chemistry revision notes",
+        "sourceHeading": "Fractional distillation of crude oil",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "Crude oil is initially separated into fractions with similar boiling points in a process called fractional distillation"
+      },
+      {
+        "id": "fig-02",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/b9aa329c8013-3-2-hydrocarbons-cracking.png",
+        "alt": "Hydrocarbons Cracking, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Cracking of crude oil fractions",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique",
+        "caption": "The heavier fractions that are obtained in fractional distillation are further cracked into useful alkane and alkene molecules"
+      },
+      {
+        "id": "fig-03",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/7aa8f8d7fd1f-3-2-hydrocarbons-cracking-of-long-alkanes.png",
+        "alt": "Hydrocarbons Cracking of Long Alkanes, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Cracking of crude oil fractions",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique",
+        "caption": "Long hydrocarbon fraction is cracked into two smaller ones"
+      }
+    ]
+  }
+}
