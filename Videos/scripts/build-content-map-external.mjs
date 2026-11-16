@@ -1585,6 +1585,167 @@ for (const course of P12) {
   );
 }
 
+// ================================================= P13 Alt Academy family lane =====
+// Owner chat 2026-11-14: "file it as lane P13". One brand, nine channels: the CAIE-native
+// multi-subject hub @altacademyorg (UCTgPevMIji1ZyP4IPhmwDsQ, 685 uploads) plus eight
+// subject channels (chemistry 22, economics 78, maths 77, physics 47, biology 9,
+// psychology 14, accounting 53; the business subject channel IS the P12 pool — 75 — not
+// re-inventoried). 985 uploads, 0 intra-family overlap, 0 overlap with the shipped union.
+// 24 Tier B session/paper-code anchors (CIE paper-number routing per subject: maths
+// P1/P2/P3/P4(M1)/P5(S1)/P6(S2), sciences papers 1-3 AS / 4-5 A2, econ/accounting/business
+// by paper level; maths shared units anchored to BOTH the AS and A-level course) + 626
+// Tier A spec rows: the dominant class is the section-name binding — the Alt Academy format
+// "Topic | Section | register" names the syllabus section verbatim in a pipe-field, and
+// that TOPIC/SUBTOPIC's SPEC_POINTs bind as ONE multi-spec row at confidence low (verbatim
+// field-equality gate, node norm >= 8 chars, SUBTOPIC preferred); four-gate topic lectures
+// (verbatim/multi-uniq/title-token/title-pair), N.M section-marker narrowing,
+// distinctive-token binds (df<=3) and maths unit-token routing (S2/S1/M1/P1/P2/P3 to the
+// spine's unit courses, shared units bound to BOTH the AS and A-level course) complete the
+// ladder. oEmbed 587/587 author_url == channel-of-record (0 mismatch, 0 dead). Honest
+// skips 310 (guidance/advice/marketing registers, the O-Level register, meta videos, CIE
+// 9990 psychology — no spine course, honest no-target — and 2 degenerate generic-token
+// binds re-adjudicated to skips on review). 17 pre-inherit courses here; the AS inherit
+// children with direct rows (cie-as-chemistry-25, cie-as-physics-25) append in P13B after
+// the inherit loop (the P11B shape).
+const P13 = [
+  "cie-a-level-accounting-21", "cie-a-level-biology-25", "cie-a-level-business-23",
+  "cie-a-level-chemistry-25", "cie-a-level-economics-23",
+  "cie-a-level-maths-20-mechanics", "cie-a-level-maths-20-probability-and-statistics-1",
+  "cie-a-level-maths-20-probability-and-statistics-2", "cie-a-level-maths-20-pure-1",
+  "cie-a-level-maths-20-pure-3", "cie-a-level-physics-25",
+  "cie-as-accounting-21", "cie-as-business-23",
+  "cie-as-maths-20-mechanics", "cie-as-maths-20-probability-and-statistics-1",
+  "cie-as-maths-20-pure-1", "cie-as-maths-20-pure-2",
+];
+for (const course of P13) {
+  const D = join(VIDEOS, "drafts", course);
+  const draft = JSON.parse(readFileSync(join(D, "video-map.draft.external-p13.json"), "utf8"));
+  const verdicts = JSON.parse(readFileSync(join(D, "owner-review-verdicts.p13.json"), "utf8"));
+  if (draft.reviewState !== "owner-reviewed-external")
+    throw new Error(`${course}: p13 reviewState is "${draft.reviewState}" — apply review first`);
+  const spine = JSON.parse(readFileSync(join(SPINES, `${course}.json`), "utf8"));
+  const specByCode = new Map(
+    spine.curriculum.nodes.filter((n) => n.family === "SPEC_POINT").map((n) => [n.code, n])
+  );
+  assertSpineMirror(course, spine);
+  const contentPath = join(MAPDIR, `${course}.json`);
+  if (!existsSync(contentPath))
+    throw new Error(`${course}: p13 targets only existing covered courses — content file missing`);
+  const content = JSON.parse(readFileSync(contentPath, "utf8"));
+  if (!content.review) errors.push(`${course}: existing content file has no review block`);
+  if (!content.inputs) errors.push(`${course}: existing content file has no inputs block`);
+  if (errors.length) break;
+
+  // idempotency (the P2B law, video-keyed): the draft is the only source for
+  // p13 rows — drop prior p13-lane rows (by video id) and the prior p13 lane
+  // entry before re-appending, so a re-emit from post-p13 state is a no-op.
+  const p13Vids = new Set(draft.videos.map((v) => v.id));
+  content.mappings = content.mappings.filter((m) => !p13Vids.has(m.video));
+  content.review.lanes = (content.review.lanes || []).filter(
+    (l) => !String(l.lane || "").includes("Alt Academy family lane")
+  );
+  for (const m of draft.mappings) {
+    if (m.reviewed !== true || !m.reviewer || !m.reviewedUtc)
+      errors.push(`${course}: unreviewed p13 row leaking into content (${m.video})`);
+    if (!/^[\w-]{11}$/.test(m.video)) errors.push(`${course}: bad p13 video id ${m.video}`);
+    if (m.method === "paper-code") {
+      if (!m.anchor || m.anchor.level !== "course" || m.anchor.ref !== course)
+        errors.push(`${course}: p13 paper-code row must carry anchor{level:course, ref:course} (${m.video})`);
+      if (!m.specs || m.specs.length !== 0)
+        errors.push(`${course}: p13 anchor rows carry specs:[] — zero spec weight (§4) (${m.video})`);
+      if (m.confidence !== "high")
+        errors.push(`${course}: p13 paper-code anchor must be high confidence (${m.video})`);
+      if (m.boardMismatch !== false)
+        errors.push(`${course}: p13 paper-code anchor is same-qualification — boardMismatch must be false (${m.video})`);
+      if (m.kind !== "past-paper-walkthrough")
+        errors.push(`${course}: p13 anchor row must carry kind past-paper-walkthrough (${m.video})`);
+    } else if (m.method === "llm-draft-external") {
+      if (!m.specs || m.specs.length === 0)
+        errors.push(`${course}: p13 spec rows must carry non-empty specs (${m.video})`);
+      if (m.boardMismatch !== true)
+        errors.push(`${course}: p13 spec rows carry the title-only posture — boardMismatch must be true (${m.video})`);
+      if (m.confidence !== "medium" && m.confidence !== "low")
+        errors.push(`${course}: p13 spec rows are medium/low — high would violate the inherit posture (${m.video})`);
+      for (const code of m.specs || [])
+        if (!specByCode.has(code)) errors.push(`${course}: p13 spec ${code} not in spine (${m.video})`);
+    } else {
+      errors.push(`${course}: p13 row has unexpected method ${m.method} (${m.video})`);
+    }
+  }
+  const haveKeysP13 = new Set(content.mappings.map((m) => m.video + "|" + JSON.stringify(m.specs)));
+  for (const m of draft.mappings) {
+    const k = m.video + "|" + JSON.stringify(m.specs);
+    if (haveKeysP13.has(k)) errors.push(`${course}: duplicate p13 row across union ${k}`);
+    haveKeysP13.add(k);
+  }
+  const haveVidsP13 = new Set(content.videos.map((v) => v.id));
+  for (const v of draft.videos) {
+    if (!haveVidsP13.has(v.id)) content.videos.push(v);
+    if (!v.provider || !v.watchUrl) errors.push(`${course}: p13 video ${v.id} missing provider/watchUrl`);
+    if (!v.identityMethod) errors.push(`${course}: p13 video ${v.id} missing identityMethod`);
+  }
+  if (errors.length) break;
+
+  content.mappings = [...content.mappings, ...draft.mappings];
+  const allSpecsP13 = new Set(content.mappings.flatMap((m) => m.specs));
+  const mappedVidsP13 = new Set(content.mappings.map((m) => m.video));
+  content.coverage = {
+    specPointsTotal: specByCode.size,
+    specPointsMapped: allSpecsP13.size,
+    specPointsUnmapped: specByCode.size - allSpecsP13.size,
+    videosTotal: content.videos.length,
+    videosMapped: mappedVidsP13.size,
+    videosUnmapped: content.videos.length - mappedVidsP13.size,
+    mappingRows: content.mappings.length,
+    byConfidence: {
+      high: content.mappings.filter((m) => m.confidence === "high").length,
+      medium: content.mappings.filter((m) => m.confidence === "medium").length,
+      low: content.mappings.filter((m) => m.confidence === "low").length,
+    },
+  };
+  const p13Lane = {
+    lane: "external-channels-p13 (Alt Academy family lane: 9701/9708/9709/9702/9700/9706/9609 CIE-native hub + 8 subject channels)", task: verdicts.task,
+    ruling: verdicts.source, reviewer: verdicts.reviewer, ruledUtc: verdicts.ruledUtc,
+    evidenceBasis: verdicts.evidenceBasis,
+    rowsApproved: draft.mappings.length, rowsRejected: (verdicts.rejects || []).length,
+    rejects: REJECTS_OF(verdicts, verdicts.task),
+  };
+  content.review.lanes = [
+    ...(content.review.lanes || [{
+      lane: "external-channels (primary)", task: content.review.task,
+      ruling: content.review.ruling, reviewer: content.review.reviewer,
+      ruledUtc: content.review.ruledUtc, evidenceBasis: content.review.evidenceBasis,
+      rowsApproved: content.review.rowsApproved, rowsRejected: content.review.rowsRejected,
+      rejects: content.review.rejects || [],
+    }]),
+    p13Lane,
+  ];
+  content.review.rowsApproved = content.mappings.length;
+  content.source.p13 = {
+    provider: draft.source.provider, method: draft.source.method,
+    enumeratedUtc: draft.source.enumeratedUtc,
+  };
+  content.inputs.p13 = {
+    repo: "SyllabAI/syllabai-resources",
+    path: `Videos/drafts/${course}/video-map.draft.external-p13.json`,
+    task: verdicts.task, reviewAppliedUtc: verdicts.ruledUtc,
+  };
+  content.generatedUtc = new Date().toISOString();
+  writeFileSync(contentPath, JSON.stringify(content, null, 1) + "\n");
+  const baseLaneP13 = registry.courses[course]?.lane || "external-channels";
+  registry.courses[course] = {
+    videos: content.videos.length,
+    mapped: content.coverage.videosMapped,
+    shelf: registry.courses[course]?.shelf ?? null,
+    lane: baseLaneP13.includes("p13-alt-academy") ? baseLaneP13 : baseLaneP13 + " + p13-alt-academy",
+    updatedUtc: new Date().toISOString(),
+  };
+  registry.generatedUtc = new Date().toISOString();
+  console.log(
+    `${course}: SHIPPED +p13 specs ${content.coverage.specPointsMapped}/${content.coverage.specPointsTotal} · videos ${content.coverage.videosMapped}/${content.coverage.videosTotal} · rows ${content.coverage.mappingRows} (+${draft.mappings.length} alt-academy rows) · 0 reviewed:false in content`
+  );
+}
+
 // ================================================= P4 inheritance lane =====
 // 35 child courses derive their external lane from ONE parent course's
 // owner-approved rows via the committed containment map. Child spec -> best
@@ -2053,6 +2214,138 @@ for (const course of P11B) {
   );
 }
 
+// ================================================= P13B — inherit-child append-after-inherit =====
+// cie-as-chemistry-25 and cie-as-physics-25 are inherit CHILDREN (rebuilt fresh
+// by the inherit section above), so their direct P13 rows (the AS-register
+// chemistry walkthrough corpus; the Paper-22 physics walkthrough anchor) cannot
+// be appended before it. Same lane, same drafts, the P11B shape. Unlike P11B
+// these drafts may carry BOTH methods (paper-code anchors + spec rows), so the
+// validation mirrors the P12 section's dual law.
+const P13B = ["cie-as-chemistry-25", "cie-as-physics-25"];
+for (const course of P13B) {
+  const D = join(VIDEOS, "drafts", course);
+  const draft = JSON.parse(readFileSync(join(D, "video-map.draft.external-p13.json"), "utf8"));
+  const verdicts = JSON.parse(readFileSync(join(D, "owner-review-verdicts.p13.json"), "utf8"));
+  if (draft.reviewState !== "owner-reviewed-external")
+    throw new Error(`${course}: p13 reviewState is "${draft.reviewState}" — apply review first`);
+  const spine = JSON.parse(readFileSync(join(SPINES, `${course}.json`), "utf8"));
+  const specByCode = new Map(
+    spine.curriculum.nodes.filter((n) => n.family === "SPEC_POINT").map((n) => [n.code, n])
+  );
+  assertSpineMirror(course, spine);
+  const content = JSON.parse(readFileSync(join(MAPDIR, `${course}.json`), "utf8"));
+
+  // idempotency (the P2B law, video-keyed): the inherit section re-derived the
+  // child's rows from the PARENT's fresh P13 rows; drop prior rows by video id
+  // and the prior p13 lane entry before re-appending so the replay is a no-op.
+  const p13bVids = new Set(draft.videos.map((v) => v.id));
+  content.mappings = content.mappings.filter((m) => !p13bVids.has(m.video));
+  content.review.lanes = (content.review.lanes || []).filter(
+    (l) => !String(l.lane || "").includes("Alt Academy family lane")
+  );
+
+  for (const m of draft.mappings) {
+    if (m.reviewed !== true || !m.reviewer || !m.reviewedUtc)
+      errors.push(`${course}: unreviewed p13 row leaking into content (${m.video})`);
+    if (!/^[\w-]{11}$/.test(m.video)) errors.push(`${course}: bad p13 video id ${m.video}`);
+    if (m.method === "paper-code") {
+      if (!m.anchor || m.anchor.level !== "course" || m.anchor.ref !== course)
+        errors.push(`${course}: p13b paper-code row must carry anchor{level:course, ref:course} (${m.video})`);
+      if (!m.specs || m.specs.length !== 0)
+        errors.push(`${course}: p13b anchor rows carry specs:[] — zero spec weight (§4) (${m.video})`);
+      if (m.confidence !== "high")
+        errors.push(`${course}: p13b paper-code anchor must be high confidence (${m.video})`);
+      if (m.boardMismatch !== false)
+        errors.push(`${course}: p13b paper-code anchor is same-qualification — boardMismatch must be false (${m.video})`);
+      if (m.kind !== "past-paper-walkthrough")
+        errors.push(`${course}: p13b anchor row must carry kind past-paper-walkthrough (${m.video})`);
+    } else if (m.method === "llm-draft-external") {
+      if (m.boardMismatch !== true)
+        errors.push(`${course}: p13b row must carry boardMismatch:true (${m.video})`);
+      if (!m.specs || m.specs.length === 0)
+        errors.push(`${course}: p13b rows are spec rows — specs must be non-empty (${m.video})`);
+      if (m.confidence !== "medium" && m.confidence !== "low")
+        errors.push(`${course}: p13b rows are medium/low (${m.video})`);
+      for (const code of m.specs || [])
+        if (!specByCode.has(code)) errors.push(`${course}: p13 spec ${code} not in spine (${m.video})`);
+    } else {
+      errors.push(`${course}: p13b rows are paper-code or llm-draft-external — unexpected method (${m.video})`);
+    }
+  }
+  const haveKeysP13b = new Set(content.mappings.map((m) => m.video + "|" + JSON.stringify(m.specs)));
+  for (const m of draft.mappings) {
+    const k = m.video + "|" + JSON.stringify(m.specs);
+    if (haveKeysP13b.has(k)) errors.push(`${course}: duplicate p13 row across union ${k}`);
+    haveKeysP13b.add(k);
+  }
+  const haveVidsP13b = new Set(content.videos.map((v) => v.id));
+  for (const v of draft.videos) {
+    if (!haveVidsP13b.has(v.id)) content.videos.push(v);
+    if (!v.provider || !v.watchUrl) errors.push(`${course}: p13 video ${v.id} missing provider/watchUrl`);
+    if (!v.identityMethod) errors.push(`${course}: p13 video ${v.id} missing identityMethod`);
+  }
+  if (errors.length) break;
+
+  content.mappings = [...content.mappings, ...draft.mappings];
+  const allSpecsP13b = new Set(content.mappings.flatMap((m) => m.specs));
+  const mappedVidsP13b = new Set(content.mappings.map((m) => m.video));
+  content.coverage = {
+    specPointsTotal: specByCode.size,
+    specPointsMapped: allSpecsP13b.size,
+    specPointsUnmapped: specByCode.size - allSpecsP13b.size,
+    videosTotal: content.videos.length,
+    videosMapped: mappedVidsP13b.size,
+    videosUnmapped: content.videos.length - mappedVidsP13b.size,
+    mappingRows: content.mappings.length,
+    byConfidence: {
+      high: content.mappings.filter((m) => m.confidence === "high").length,
+      medium: content.mappings.filter((m) => m.confidence === "medium").length,
+      low: content.mappings.filter((m) => m.confidence === "low").length,
+    },
+  };
+  const p13bLane = {
+    lane: "external-channels-p13 (Alt Academy family lane: 9701/9708/9709/9702/9700/9706/9609 CIE-native hub + 8 subject channels)", task: verdicts.task,
+    ruling: verdicts.source, reviewer: verdicts.reviewer, ruledUtc: verdicts.ruledUtc,
+    evidenceBasis: verdicts.evidenceBasis,
+    rowsApproved: draft.mappings.length, rowsRejected: (verdicts.rejects || []).length,
+    rejects: REJECTS_OF(verdicts, verdicts.task),
+  };
+  content.review.lanes = [
+    ...(content.review.lanes || [{
+      lane: "external-channels (primary)", task: content.review.task,
+      ruling: content.review.ruling, reviewer: content.review.reviewer,
+      ruledUtc: content.review.ruledUtc, evidenceBasis: content.review.evidenceBasis,
+      rowsApproved: content.review.rowsApproved, rowsRejected: content.review.rowsRejected,
+      rejects: content.review.rejects || [],
+    }]),
+    p13bLane,
+  ];
+  content.review.rowsApproved = content.mappings.length;
+  content.source.p13 = {
+    provider: draft.source.provider, method: draft.source.method,
+    enumeratedUtc: draft.source.enumeratedUtc,
+  };
+  content.inputs.p13 = {
+    repo: "SyllabAI/syllabai-resources",
+    path: `Videos/drafts/${course}/video-map.draft.external-p13.json`,
+    task: verdicts.task, reviewAppliedUtc: verdicts.ruledUtc,
+  };
+  content.generatedUtc = new Date().toISOString();
+  writeFileSync(join(MAPDIR, `${course}.json`), JSON.stringify(content, null, 1) + "\n");
+  const baseLaneP13b = registry.courses[course]?.lane || "external-channels";
+  registry.courses[course] = {
+    videos: content.videos.length,
+    mapped: content.coverage.videosMapped,
+    shelf: registry.courses[course]?.shelf ?? null,
+    lane: baseLaneP13b.includes("p13-alt-academy") ? baseLaneP13b : baseLaneP13b + " + p13-alt-academy",
+    updatedUtc: new Date().toISOString(),
+  };
+  registry.generatedUtc = new Date().toISOString();
+  console.log(
+    `${course}: SHIPPED +p13 specs ${content.coverage.specPointsMapped}/${content.coverage.specPointsTotal} · videos ${content.coverage.videosMapped}/${content.coverage.videosTotal} · rows ${content.coverage.mappingRows} (+${draft.mappings.length} alt-academy rows, post-inherit) · 0 reviewed:false in content`
+  );
+}
+
 // ================================================= P2F Edexcel-native lane =====
 // 4 courses gain ANCHOR rows (docs/ANCHOR-GRANULARITY.md): course-level
 // past-paper walkthroughs bound by machine-verified Edexcel paper codes
@@ -2188,7 +2481,7 @@ console.log(`wrote ${registryPath} (${Object.keys(registry.courses).length} cour
 // must be hand-synced in the lane PR to match this template.
 const flagsPath = join(HUB, "apps/hub/content/flags.json");
 const flags = JSON.parse(readFileSync(flagsPath, "utf8"));
-const want = ["igcse-biology-19", ...FRESH, ...P4_FRESH, ...P9, ...P9B, ...P10, ...P11, ...P12, ...P11B, ...Object.keys(inhMap.parents)];
+const want = ["igcse-biology-19", ...FRESH, ...P4_FRESH, ...P9, ...P9B, ...P10, ...P11, ...P12, ...P11B, ...P13, ...P13B, ...Object.keys(inhMap.parents)];
 const have = new Set(flags.flags.videoMap.courses);
 const coursesCurrent = want.every((c) => have.has(c)) && flags.flags.videoMap.courses.length === want.length;
 const statusCurrent = typeof flags.flags.videoMap.status === "string"
@@ -2199,7 +2492,7 @@ if (coursesCurrent && statusCurrent) {
   for (const c of want) if (!have.has(c)) flags.flags.videoMap.courses.push(c);
   flags.flags.videoMap.courses.sort();
   flags.flags.videoMap.status =
-    "live (T-VIDEOMAP-P3+P4+P5+P6+P7+P8+P9+P10+P11+P12): lib/video-map.ts loader + /courses/[course]/videos lane shipped for the "
+    "live (T-VIDEOMAP-P3+P4+P5+P6+P7+P8+P9+P10+P11+P12+P13): lib/video-map.ts loader + /courses/[course]/videos lane shipped for the "
     + "courses below (igcse-biology-19 site+external; 9 external-channels courses incl. the CIE A-level trio; "
     + "P4 scale pass: 4 shelf-direct Cognito maths lanes, 4 mechanics cross-subject lanes, 35 inherited lanes "
     + "derived from owner-approved parent rows via the committed containment map; "
@@ -2238,6 +2531,21 @@ if (coursesCurrent && statusCurrent) {
     + "row at confidence low, disclosed per row) and N.M section-marker narrowing; oEmbed 119/119 author==channel-of-record; "
     + "honest skips 304 (technique/guidance registers, generic mentions, out-of-lane IGCSE registers); the Edexcel "
     + "English/history/accounting/econ units and RS are declared terminal honest-empty. "
+    + "binds re-adjudicated to skips on review. P13 Alt Academy family lane: 650 owner-reviewed rows onto 19 courses "
+    + "(650 = 24 Tier B paper-code anchors + 626 Tier A spec rows) from ONE brand's nine channels (the CAIE-native "
+    + "multi-subject hub @altacademyorg + 8 subject channels; 985 uploads inventoried, 0 intra-family overlap, 0 overlap "
+    + "with the shipped union beyond the 75-video business subject channel that IS the P12 pool): the dominant class is "
+    + "the section-name binding (the Alt Academy format names the syllabus section verbatim in a pipe-field — the "
+    + "section's TOPIC/SUBTOPIC spec points bind as ONE multi-spec row at confidence low through the verbatim "
+    + "field-equality gate, disclosed per row) + distinctive-token binds (df<=3), the four-gate topic-lecture class, N.M "
+    + "section-marker narrowing and maths unit-token routing (S2/S1/M1/P1/P2/P3 to the spine's unit courses, shared units "
+    + "bound to BOTH the AS and A-level course); CIE paper-number routing per subject for the anchors (sciences papers "
+    + "1-3 AS / 4-5 A2; econ/business/accounting by paper level); oEmbed 587/587 author==channel-of-record; honest skips "
+    + "310 (guidance/advice/marketing registers, the O-Level register, meta videos, CIE 9990 psychology — no spine "
+    + "course — and 2 degenerate generic-token binds re-adjudicated to skips on review); chemistry/econ/accounting/maths "
+    + "courses gain their largest single-lane increments (cie-a-level-economics-23 44->134 videos, accounting-21 pair "
+    + "roughly triples, maths p&s-1/p&s-2 gain their first real spec coverage); the AS inherit children with direct rows "
+    + "(cie-as-chemistry-25, cie-as-physics-25) append post-inherit via P13B. "
     + "Links resolve lessonUrl (site lane, Cognito) then watchUrl (external lanes, YouTube). Rows are "
     + "owner-reviewed (title-only evidence, confidence + boardMismatch disclosed per row; inherited rows carry "
     + "their derivation in inherit); the loader re-filters reviewed:true as defense in depth. One-flip kill "
